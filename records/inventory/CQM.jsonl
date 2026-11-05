@@ -7,5 +7,5 @@
 {"id":"CQMR48FP52","mentions":["wikipedia://en/1679700#J969"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"CQMS9AP34V","mentions":["wikipedia://en/22609470#65B7"],"kind":"definition","name":"Graph of a function","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"CQMT8943DG","mentions":["wikipedia://en/63087895"],"kind":"definition","name":"Energy-based model","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"CQMW7PAM4R","mentions":["wikipedia://en/7781429"],"kind":"definition","name":"Novikov ring","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"CQMW7PAM4R","mentions":["wikipedia://en/7781429"],"kind":"definition","name":"Novikov ring","layer":"textbook","spread":1,"outcome":{"value":"node","target":["N7VV38MGDV"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"node N7VV38MGDV has the adopted text"}]}
 {"id":"CQMXZC3X0X","mentions":["wikipedia://en/19335221#N9P0"],"kind":"statement","name":"A converse of Miquel's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

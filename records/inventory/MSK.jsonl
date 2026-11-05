@@ -1,5 +1,5 @@
 {"id":"MSK4M32G2F","mentions":["wikipedia://en/2847290"],"kind":"definition","name":"Pareto frontier","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"MSK63CFJCQ","mentions":["wikipedia://en/47738065#QR3I"],"kind":"topic","name":"Binyong Sun","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"MSKDNSX217","mentions":["wikipedia://en/25039#8MZL"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"MSKDNSX217","mentions":["wikipedia://en/25039#8MZL"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the cue heading names a section and not one item","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"MSKJFY9GAK","mentions":["wikipedia://en/517370#WFAX"],"kind":"topic","name":"Icosihenagon","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"MSKSSCKB8X","mentions":["wikipedia://en/72353740"],"kind":"definition","name":"Math on Trial","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,239 +1,129 @@
 ---
 source: wikipedia
 date: 2026-11-05
-items: 35
+items: 17
 adopted: 0
 drafted: 0
-linked: 61
-waiting: 35
+linked: 36
+waiting: 17
 deferred: 0
 ---
 
 # The adoption of Wikipedia text
 
-This report gives the items of the Wikipedia articles that m2 corpus adopt read on 2026-11-05 (corpus wikipedia WP9.2). The run adopted 0 items, 0 items wait for m2 mint, and it set the outcome node on 61 rows. 35 items wait for the write role or for a person, and the run deferred 0 of their rows.
+This report gives the items of the Wikipedia articles that m2 corpus adopt read on 2026-11-05 (corpus wikipedia WP9.2). The run adopted 0 items, 0 items wait for m2 mint, and it set the outcome node on 36 rows. 17 items wait for the write role or for a person, and the run deferred 0 of their rows.
 
 ## Why items wait
 
 | Reason | Items |
 |---|---|
-| the statement that the proof proves has no node | 29 |
-| node T has a proof node | 5 |
+| the statement that the proof proves has no node | 16 |
 | the proof is attached to an item that is not a statement | 1 |
 
-## Binomial theorem
+## Hilbert's basis theorem
 
-Page 4677.
-
-| Mention | Kind | Cue | Name | State | Node or reason |
-|---|---|---|---|---|---|
-| wikipedia://en/4677#1LAT | proof | heading | Proofs | waiting | the statement that the proof proves has no node |
-
-## Rational root theorem
-
-Page 26426.
+Page 13733.
 
 | Mention | Kind | Cue | Name | State | Node or reason |
 |---|---|---|---|---|---|
-| wikipedia://en/26426#5CJ0 | proof | heading | Proofs | waiting | node 0819CQ1V8H has a proof node |
-| wikipedia://en/26426#GMUO | proof | heading | Elementary proof | waiting | node 0819CQ1V8H has a proof node |
-| wikipedia://en/26426#HO01 | proof | heading | Proof using Gauss's lemma | waiting | node 0819CQ1V8H has a proof node |
+| wikipedia://en/13733#PPZ8 | proof | heading | Proof | waiting | the statement that the proof proves has no node |
 
-## Fundamental theorem of algebra
+## Nilradical of a ring
 
-Page 51414.
+Page 289636.
 
 | Mention | Kind | Cue | Name | State | Node or reason |
 |---|---|---|---|---|---|
-| wikipedia://en/51414#7IV5 | proof | heading | Proofs | waiting | node 0JP0W07Y9A has a proof node |
+| wikipedia://en/289636#CFCA | proof | math-proof |  | waiting | the statement that the proof proves has no node |
 
-## Abel–Ruffini theorem
+## Krull's principal ideal theorem
 
-Page 152518.
-
-| Mention | Kind | Cue | Name | State | Node or reason |
-|---|---|---|---|---|---|
-| wikipedia://en/152518#7TJG | proof | heading | Proof | waiting | the statement that the proof proves has no node |
-
-## Bernstein polynomial
-
-Page 340136.
+Page 542421.
 
 | Mention | Kind | Cue | Name | State | Node or reason |
 |---|---|---|---|---|---|
-| wikipedia://en/340136#I0PP | proof | heading | Elementary proof | waiting | the statement that the proof proves has no node |
+| wikipedia://en/542421#9FQQ | proof | heading | Proofs | waiting | the statement that the proof proves has no node |
+| wikipedia://en/542421#D5Q1 | proof | heading | Proof of the principal ideal theorem | waiting | the statement that the proof proves has no node |
+| wikipedia://en/542421#DJAN | proof | heading | Proof of the height theorem | waiting | the statement that the proof proves has no node |
 
-## Eisenstein's criterion
+## Difference of two squares
 
-Page 385989.
-
-| Mention | Kind | Cue | Name | State | Node or reason |
-|---|---|---|---|---|---|
-| wikipedia://en/385989#UW3K | proof | heading | Proof | waiting | the statement that the proof proves has no node |
-
-## Primitive element theorem
-
-Page 448933.
+Page 1102297.
 
 | Mention | Kind | Cue | Name | State | Node or reason |
 |---|---|---|---|---|---|
-| wikipedia://en/448933#8JO1 | proof | heading | Proof | waiting | the statement that the proof proves has no node |
+| wikipedia://en/1102297#PX80 | proof | heading | Proof | waiting | the statement that the proof proves has no node |
+| wikipedia://en/1102297#SQY3 | proof | inline-head | Proof via induction | waiting | the statement that the proof proves has no node |
 
-## Vieta's formulas
+## Nakayama's lemma
 
-Page 714050.
-
-| Mention | Kind | Cue | Name | State | Node or reason |
-|---|---|---|---|---|---|
-| wikipedia://en/714050#FT8G | proof | heading | Proof | waiting | the statement that the proof proves has no node |
-
-## Polynomial remainder theorem
-
-Page 771168.
+Page 1835001.
 
 | Mention | Kind | Cue | Name | State | Node or reason |
 |---|---|---|---|---|---|
-| wikipedia://en/771168#WBDT | proof | heading | Proofs | waiting | node 0TEDQH56RW has a proof node |
+| wikipedia://en/1835001#C634 | proof | heading | Proof | waiting | the statement that the proof proves has no node |
+| wikipedia://en/1835001#VHK7 | proof | heading | Proof | waiting | the statement that the proof proves has no node |
 
-## Normal basis
+## Integral element
 
-Page 1028589.
-
-| Mention | Kind | Cue | Name | State | Node or reason |
-|---|---|---|---|---|---|
-| wikipedia://en/1028589#60ZD | proof | heading | Proof for finite fields | waiting | the statement that the proof proves has no node |
-| wikipedia://en/1028589#OQOS | proof | heading | Proof for the case of infinite fields | waiting | the statement that the proof proves has no node |
-
-## Elementary symmetric polynomial
-
-Page 1440695.
+Page 9478630.
 
 | Mention | Kind | Cue | Name | State | Node or reason |
 |---|---|---|---|---|---|
-| wikipedia://en/1440695#C8C1 | proof | heading | Proof sketch | waiting | the statement that the proof proves has no node |
+| wikipedia://en/9478630#OQKS | proof | inline-head | Proof | waiting | the statement that the proof proves has no node |
 
-## Factor theorem
+## Jacobian ideal
 
-Page 1881195.
-
-| Mention | Kind | Cue | Name | State | Node or reason |
-|---|---|---|---|---|---|
-| wikipedia://en/1881195#5ZJJ | proof | heading | Proof 1 | waiting | the statement that the proof proves has no node |
-| wikipedia://en/1881195#NH3M | proof | heading | Proofs | waiting | the statement that the proof proves has no node |
-| wikipedia://en/1881195#T924 | proof | heading | Proof 3 | waiting | the statement that the proof proves has no node |
-| wikipedia://en/1881195#VX4H | proof | heading | Proof 2 | waiting | the statement that the proof proves has no node |
-
-## Newton's identities
-
-Page 2468892.
+Page 29321367.
 
 | Mention | Kind | Cue | Name | State | Node or reason |
 |---|---|---|---|---|---|
-| wikipedia://en/2468892#OBZI | proof | heading | Proofs via generating functions | waiting | the proof is attached to an item that is not a statement |
+| wikipedia://en/29321367#78Q0 | proof | heading | Sketch of proof | waiting | the proof is attached to an item that is not a statement |
 
-## Descartes's rule of signs
+## Krull–Akizuki theorem
 
-Page 2641493.
-
-| Mention | Kind | Cue | Name | State | Node or reason |
-|---|---|---|---|---|---|
-| wikipedia://en/2641493#72GD | proof | math-proof | Proof of main theorem | waiting | the statement that the proof proves has no node |
-| wikipedia://en/2641493#I2CS | proof | heading | Proof | waiting | the statement that the proof proves has no node |
-| wikipedia://en/2641493#VD6U | proof | math-proof | Proof of Lemma | waiting | the statement that the proof proves has no node |
-
-## Schwartz–Zippel lemma
-
-Page 2789076.
+Page 35947857.
 
 | Mention | Kind | Cue | Name | State | Node or reason |
 |---|---|---|---|---|---|
-| wikipedia://en/2789076#PYYA | proof | named-heading | Statement and proof of the lemma | waiting | the statement that the proof proves has no node |
+| wikipedia://en/35947857#SAR7 | proof | heading | Proof | waiting | the statement that the proof proves has no node |
 
-## Degree of a field extension
+## Zariski's lemma
 
-Page 4382697.
-
-| Mention | Kind | Cue | Name | State | Node or reason |
-|---|---|---|---|---|---|
-| wikipedia://en/4382697#M9Z8 | proof | heading | Proof of the formula in the infinite case | waiting | the statement that the proof proves has no node |
-| wikipedia://en/4382697#SBOD | proof | heading | Proof of the multiplicativity formula in the finite case | waiting | the statement that the proof proves has no node |
-
-## Complex conjugate root theorem
-
-Page 9178245.
+Page 37279342.
 
 | Mention | Kind | Cue | Name | State | Node or reason |
 |---|---|---|---|---|---|
-| wikipedia://en/9178245#5MTQ | proof | heading | Proof | waiting | the statement that the proof proves has no node |
+| wikipedia://en/37279342#U3ZF | proof | heading | Proofs | waiting | the statement that the proof proves has no node |
 
-## Polynomial greatest common divisor
+## Serre's criterion for normality
 
-Page 9927028.
-
-| Mention | Kind | Cue | Name | State | Node or reason |
-|---|---|---|---|---|---|
-| wikipedia://en/9927028#QT16 | proof | heading | Proof that GCD exists for multivariate polynomials | waiting | the statement that the proof proves has no node |
-
-## Ax–Grothendieck theorem
-
-Page 21867395.
+Page 45367248.
 
 | Mention | Kind | Cue | Name | State | Node or reason |
 |---|---|---|---|---|---|
-| wikipedia://en/21867395#J3ZD | proof | heading | Proof via finite fields | waiting | the statement that the proof proves has no node |
+| wikipedia://en/45367248#VOPE | proof | heading | Proof | waiting | the statement that the proof proves has no node |
 
-## Cavalieri's quadrature formula
+## Artin–Tate lemma
 
-Page 30839740.
-
-| Mention | Kind | Cue | Name | State | Node or reason |
-|---|---|---|---|---|---|
-| wikipedia://en/30839740#ZUXU | proof | heading | Proof | waiting | the statement that the proof proves has no node |
-
-## Mason–Stothers theorem
-
-Page 30962576.
+Page 45586929.
 
 | Mention | Kind | Cue | Name | State | Node or reason |
 |---|---|---|---|---|---|
-| wikipedia://en/30962576#U2JU | proof | heading | Proof | waiting | the statement that the proof proves has no node |
+| wikipedia://en/45586929#ZCE6 | proof | heading | Proof | waiting | the statement that the proof proves has no node |
 
-## Equioscillation theorem
+## Local criterion for flatness
 
-Page 32446743.
-
-| Mention | Kind | Cue | Name | State | Node or reason |
-|---|---|---|---|---|---|
-| wikipedia://en/32446743#7B87 | proof | heading | Proof | waiting | the statement that the proof proves has no node |
-
-## Nielsen–Ninomiya theorem
-
-Page 37612594.
+Page 46356463.
 
 | Mention | Kind | Cue | Name | State | Node or reason |
 |---|---|---|---|---|---|
-| wikipedia://en/37612594#FWOV | proof | heading | Proof summary | waiting | the statement that the proof proves has no node |
+| wikipedia://en/46356463#SNFF | proof | heading | Proof | waiting | the statement that the proof proves has no node |
 
-## Monomial ideal
+## Serre's inequality on height
 
-Page 43023424.
-
-| Mention | Kind | Cue | Name | State | Node or reason |
-|---|---|---|---|---|---|
-| wikipedia://en/43023424#FEQ6 | proof | inline-head | Proof | waiting | the statement that the proof proves has no node |
-
-## Perron's irreducibility criterion
-
-Page 65351600.
+Page 62290105.
 
 | Mention | Kind | Cue | Name | State | Node or reason |
 |---|---|---|---|---|---|
-| wikipedia://en/65351600#7EZ3 | proof | heading | Proof | waiting | the statement that the proof proves has no node |
-
-## Steinitz's theorem (field theory)
-
-Page 75484173.
-
-| Mention | Kind | Cue | Name | State | Node or reason |
-|---|---|---|---|---|---|
-| wikipedia://en/75484173#WWBN | proof | heading | Proof | waiting | the statement that the proof proves has no node |
+| wikipedia://en/62290105#96MP | proof | heading | Sketch of Proof | waiting | the statement that the proof proves has no node |

@@ -1,5 +1,5 @@
 {"id":"N0C0JFKSNY","mentions":["wikipedia://en/82407252#WP50"],"kind":"unknown","name":"Calendrical Calculations","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"N0C9DK79M7","mentions":["wikipedia://en/27901866"],"kind":"definition","name":"Zariski ring","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"N0C9DK79M7","mentions":["wikipedia://en/27901866"],"kind":"definition","name":"Zariski ring","layer":"textbook","spread":1,"outcome":{"value":"node","target":["HBXFNYA1EE"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"node HBXFNYA1EE has the adopted text"}]}
 {"id":"N0CFDX9QYH","mentions":["wikipedia://en/969624"],"kind":"definition","name":"Collision attack","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"N0CMRBVX4H","mentions":["wikipedia://en/3820870#501K"],"kind":"unknown","name":"Abram Slutsky","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"N0CVZXJGZJ","mentions":["wikipedia://en/2069325#XCIF"],"kind":"unknown","name":"Möbius triangle","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

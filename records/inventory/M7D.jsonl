@@ -1,4 +1,4 @@
 {"id":"M7D7C3W4YT","mentions":["wikipedia://en/140829#ERCC"],"kind":"unknown","name":"Thorp, Willard","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"M7D8EM2JWF","mentions":["wikipedia://en/36644224"],"kind":"definition","name":"Cohen ring","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"M7D8EM2JWF","mentions":["wikipedia://en/36644224"],"kind":"definition","name":"Cohen ring","layer":"textbook","spread":1,"outcome":{"value":"node","target":["PCP4XKVSB2"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"node PCP4XKVSB2 has the adopted text"}]}
 {"id":"M7DDTQPED8","mentions":["wikipedia://en/456270"],"kind":"topic","name":"Stellar dynamics","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"M7DNVMF8N5","mentions":["wikipedia://en/57663216#A21J"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
