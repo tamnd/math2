@@ -1,4 +1,4 @@
 {"id":"XVY9QHNBGD","mentions":["wikipedia://en/47702066"],"kind":"definition","name":"Center for Undergraduate Research in Mathematics","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"XVYSCN9AWJ","mentions":["wikipedia://en/35551843"],"kind":"definition","name":"Stufe","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"XVYSCN9AWJ","mentions":["wikipedia://en/35551843"],"kind":"definition","name":"Stufe","layer":"textbook","spread":1,"outcome":{"value":"node","target":["1X860FVD4G"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"node 1X860FVD4G has the adopted text"}]}
 {"id":"XVYWERK367","mentions":["wikipedia://en/18978398"],"kind":"definition","name":"Tensor decomposition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"XVYZ2HW19D","mentions":["wikipedia://en/52041427"],"kind":"definition","name":"G*Power","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

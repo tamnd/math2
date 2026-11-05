@@ -3,4 +3,4 @@
 {"id":"EF3BYDVM47","mentions":["wikipedia://en/2390225#WEUR"],"kind":"definition","name":"Frobenius category","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"EF3E5P6SJQ","mentions":["wikipedia://en/5560194#TFTK"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"EF3HGP182S","mentions":["wikipedia://en/61641996"],"kind":"statement","name":"Maxwell's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"EF3XPF8MJD","mentions":["wikipedia://en/36362488"],"kind":"definition","name":"Square class","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"EF3XPF8MJD","mentions":["wikipedia://en/36362488"],"kind":"definition","name":"Square class","layer":"textbook","spread":1,"outcome":{"value":"node","target":["9160DW40TE"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"node 9160DW40TE has the adopted text"}]}

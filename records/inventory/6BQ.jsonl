@@ -1,7 +1,7 @@
 {"id":"6BQ1X3749Q","mentions":["wikipedia://en/16358287#AGHW"],"kind":"statement","name":"Basic properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"6BQBF2JBRE","mentions":["wikipedia://en/2388068#SST7"],"kind":"topic","name":"John Lighton Synge","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"6BQJPFQ08D","mentions":["m2://rec/lebl_ra/ch-approximate.tex#example-3#1"],"kind":"example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"6BQT43H0CT","mentions":["wikipedia://en/11153189#G47Z"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"6BQT43H0CT","mentions":["wikipedia://en/11153189#G47Z"],"kind":"example","name":"Example","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the cue heading names a section and not one item","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"6BQV9MYEM5","mentions":["wikipedia://en/10858909#093E"],"kind":"statement","name":"Theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"6BQWD9EY9F","mentions":["wikipedia://en/83249378#HFTC"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"6BQWXSCH9F","mentions":["wikipedia://en/16388109#R23M"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

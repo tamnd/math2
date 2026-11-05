@@ -1,1 +1,1 @@
-{"id":"X6JNJZ5HEA","mentions":["wikipedia://en/17001761"],"kind":"definition","name":"Polynomial SOS","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"X6JNJZ5HEA","mentions":["wikipedia://en/17001761"],"kind":"definition","name":"Polynomial SOS","layer":"textbook","spread":1,"outcome":{"value":"node","target":["TZYBSHV900"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"node TZYBSHV900 has the adopted text"}]}

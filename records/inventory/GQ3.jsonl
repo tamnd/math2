@@ -1,2 +1,2 @@
 {"id":"GQ313RVBW8","mentions":["wikipedia://en/234855#75AU"],"kind":"definition","name":"Sinc function","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"GQ350E5HCW","mentions":["wikipedia://en/36818246"],"kind":"definition","name":"Pythagoras number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"GQ350E5HCW","mentions":["wikipedia://en/36818246"],"kind":"definition","name":"Pythagoras number","layer":"textbook","spread":1,"outcome":{"value":"node","target":["15MDR3C4FN"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"node 15MDR3C4FN has the adopted text"}]}

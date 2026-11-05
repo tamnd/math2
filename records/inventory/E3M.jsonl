@@ -1,5 +1,5 @@
 {"id":"E3MGKFG4GC","mentions":["wikipedia://en/61335954"],"kind":"topic","name":"Georg Glaeser","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"E3MMQ6SPDC","mentions":["wikipedia://en/11634#RU3B"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"E3MMQ6SPDC","mentions":["wikipedia://en/11634#RU3B"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the cue heading names a section and not one item","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"E3MP9BKRY9","mentions":["wikipedia://en/11133659"],"kind":"topic","name":"Ngô Bảo Châu","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"E3MPQ6KTN1","mentions":["m2://rec/lebl_ra/ch-seq-funcs.tex#exercise-21#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"E3MZC5Z0E1","mentions":["wikipedia://en/460642#5M4S"],"kind":"statement","name":"Generalizations","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
