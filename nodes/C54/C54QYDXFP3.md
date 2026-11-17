@@ -3,6 +3,8 @@ tag: C54QYDXFP3
 kind: proof
 name: Proof of strong induction from ordinary induction
 msc: [03F30]
+topics: [EEH2F76CYQ]
+audience: ug1
 proves: 0KMVFSHFGZ
 uses: [0ASJVEFA9J, 0Y9H52BT03, 0W5DSDFQ4G, 0832XVR512, 0TBYMWPWWB, 0D752BG155]
 methods: [0ASJVEFA9J]
@@ -15,7 +17,8 @@ sources:
 
 We apply ordinary [[induction|0ASJVEFA9J]] to a stronger property.
 Let $S$ be the [[successor function|0832XVR512]], and write $1 = S(0)$.
-The [[addition|0W5DSDFQ4G]] satisfies $a + 0 = a$ and $a + S(b) = S(a + b)$. So $n + 1 = S(n + 0) = S(n)$.
+The [[addition|0W5DSDFQ4G]] satisfies $a + 0 = a$ and $a + S(b) = S(a + b)$.
+So $n + 1 = S(n + 0) = S(n)$.
 The relations $\le$ and $<$ are the [[order on the natural numbers|0Y9H52BT03]].
 For each natural number $n$, let $Q(n)$ be the property "$P(k)$ holds for every natural number $k < n$".
 
@@ -33,9 +36,16 @@ For each natural number $n$, let $Q(n)$ be the property "$P(k)$ holds for every 
 12. Let $k < n + 1$. By Lemma C, $k < n$ or $k = n$. In the first case $P(k)$ holds by $Q(n)$, and in the second by step 11.
 13. So $Q(n + 1)$ holds. By induction, $Q(n)$ holds for every natural number $n$.
 14. Let $n$ be a natural number. By step 13, $Q(n)$ holds, and the hypothesis of the statement gives $P(n)$.
+15. So $P(n)$ holds for every natural number $n$, which is the conclusion of [[strong induction|0KMVFSHFGZ]].
 
 ## Idea
 
 Ordinary induction carries only one case to the next.
 The trick is to carry all earlier cases at once, in the property $Q(n)$.
 Then the step from $Q(n)$ to $Q(n + 1)$ only needs one new case, $P(n)$, which the hypothesis gives.
+
+## Variants
+
+1. Many books define $<$ as the order of $\mathbb{N}$ and take Lemmas B and C as known facts. Then the proof is steps 10 to 15 only.
+2. Some books apply ordinary induction to $Q'(n)$: "$P(k)$ holds for every $k \le n$". The base case is then $P(0)$, which the hypothesis of the statement gives with no assumption.
+3. Strong induction also follows from the [[well-ordering principle|01BX15HSRR]]: if some $P(n)$ fails, a least such $n$ exists. Then $P(k)$ holds for all $k < n$, and the hypothesis of the statement gives $P(n)$, a contradiction. The [[equivalence of induction and well-ordering|J2P9FWBP3Q]] has the details.

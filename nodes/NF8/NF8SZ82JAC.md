@@ -1,0 +1,60 @@
+---
+tag: NF8SZ82JAC
+kind: example
+name: Induction along the diagonal is not double induction
+msc: ["00A35"]
+topics: [EEH2F76CYQ]
+audience: ug1
+not_instance_of:
+  - target: AABX4YPKRR
+    note: the steps go from (n, n) to (n + 1, n + 1), so they reach only the pairs on the diagonal and not every pair (m, n)
+uses: [AABX4YPKRR, 0ASJVEFA9J]
+sources:
+  - url: https://en.wikipedia.org/wiki/Mathematical_induction
+    locator: Induction on more than one counter
+---
+
+## Example
+
+Let $P(m, n)$ be the statement "$m^2 + n^2 = 2mn$" about natural numbers $m$ and $n$.
+Consider the following argument for the false claim "$P(m, n)$ holds for all natural numbers $m$ and $n$".
+Base case: $P(0, 0)$ says $0 = 0$.
+Step: if $P(n, n)$ holds, then $P(n + 1, n + 1)$ holds, because both sides equal $2(n + 1)^2$.
+"Conclusion": $P(m, n)$ holds for every pair.
+We show that this argument is not a [[double induction|AABX4YPKRR]].
+
+1. Let $D(n)$ be the statement $P(n, n)$. The base case is $D(0)$, and the step is $D(n) \Rightarrow D(n + 1)$.
+2. So the argument is an ordinary [[induction|0ASJVEFA9J]] on $n$ for the statement $D(n)$. It proves $P(n, n)$ for every $n$, and nothing else.
+3. The pairs that the argument reaches from $(0, 0)$ are $(0, 0), (1, 1), (2, 2), \ldots$, the diagonal.
+4. A double induction must reach every pair. For example, the pair $(1, 0)$ is not on the diagonal, so no step of the argument reaches it.
+5. The claim is false at that pair: $P(1, 0)$ says $1 + 0 = 0$.
+6. In fact $m^2 + n^2 - 2mn = (m - n)^2$, so $P(m, n)$ holds exactly when $m = n$. The argument proved exactly the true part of the claim.
+
+## Remarks
+
+1. The error is in the conclusion, not in the base case or the step. Both of these are correct.
+2. A double induction for a claim $P(m, n)$ needs steps that together reach every pair, for example the two steps $(m, n) \to (m + 1, n)$ and $(m, n) \to (m, n + 1)$ from the base $(0, 0)$.
+3. Here no correct step leads from $(0, 0)$ to $(1, 0)$, because $P(0, 0)$ holds and $P(1, 0)$ fails. So no correct double induction can prove this claim.
+4. The same error appears with true claims, where it is harder to see. A proof of $\binom{2n}{n} \le 4^n$ by a step from $n$ to $n + 1$ proves only this diagonal case, and not the bound $\binom{m + n}{m} \le 2^{m + n}$ for all pairs.
+
+## Explanations
+
+### L1 human
+
+Imagine a staircase that goes up one step to the right and one step up at the same time.
+Climbing it, we visit the squares $(0, 0)$, $(1, 1)$, $(2, 2)$ of a grid, and no others.
+A proof that climbs this staircase proves the claims on those squares only.
+The square one to the right of the start, $(1, 0)$, is never visited.
+And there the claim "$m$ times $m$ plus $n$ times $n$ equals $2$ times $m$ times $n$" is false: $1$ is not $0$.
+
+### L2 human
+
+We test the claim on a few pairs, to see where the argument fails.
+
+1. $P(2, 2)$: $4 + 4 = 8 = 2 \cdot 2 \cdot 2$, true.
+2. $P(2, 1)$: $4 + 1 = 5$ and $2 \cdot 2 \cdot 1 = 4$, false.
+3. $P(3, 0)$: $9 + 0 = 9$ and $0$, false.
+4. The difference of the two sides is $(m - n)^2$, which is $0$ only on the diagonal.
+
+The typical source of this error is a step that changes both variables in the same way.
+A check against it is to ask, for one pair off the diagonal, which chain of steps of the proof reaches that pair.

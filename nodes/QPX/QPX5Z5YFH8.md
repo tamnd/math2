@@ -3,9 +3,11 @@ tag: QPX5Z5YFH8
 kind: proof
 name: Proof of the well-ordering principle from strong induction
 msc: [03F30]
+topics: [EEH2F76CYQ]
+audience: ug1
 proves: 01BX15HSRR
 uses: [0KMVFSHFGZ, 0Y9H52BT03, 0W5DSDFQ4G, 0832XVR512, 0DFZNHJ0S2, 0ASJVEFA9J]
-methods: [0J0XBKG64S]
+methods: [0J0XBKG64S, 0ASJVEFA9J]
 sources:
   - url: https://en.wikipedia.org/wiki/Mathematical_induction
     locator: Relationship to the well-ordering principle
@@ -15,10 +17,11 @@ sources:
 
 We first show that the order is total, and then argue by contradiction with strong induction.
 Let $S$ be the [[successor function|0832XVR512]], and write $1 = S(0)$.
-The [[addition|0W5DSDFQ4G]] satisfies $a + 0 = a$ and $a + S(b) = S(a + b)$. So $n + 1 = S(n)$.
+The [[addition|0W5DSDFQ4G]] satisfies $a + 0 = a$ and $a + S(b) = S(a + b)$.
+So $n + 1 = S(n)$.
 The relations $\le$ and $<$ are the [[order on the natural numbers|0Y9H52BT03]].
 
-1. Lemma A: each natural number $c \neq 0$ equals $S(d)$ for some $d$. We prove "$c = 0$ or $c = S(d)$ for some $d$" by [[induction|0ASJVEFA9J]] on $c$. The case $c = 0$ is clear, and $c + 1 = S(c)$.
+1. Lemma A: each natural number $c \neq 0$ equals $S(d)$ for some $d$. We prove "$c = 0$ or $c = S(d)$ for some $d$" by [[induction|0ASJVEFA9J]] on $c$. For $c = 0$, the first alternative holds. For $c + 1$, take $d = c$, because $c + 1 = S(c)$.
 2. Lemma B: $S(b) + d = S(b + d)$ for all $b$ and $d$. By the [[commutativity of addition|0DFZNHJ0S2]], $S(b) + d = d + S(b) = S(d + b) = S(b + d)$.
 3. Lemma T: for all natural numbers $a$ and $b$, $a \le b$ or $b \le a$. Fix $a$ and use induction on $b$.
 4. For $b = 0$: by commutativity, $0 + a = a + 0 = a$. So $0 \le a$.
@@ -34,10 +37,15 @@ The relations $\le$ and $<$ are the [[order on the natural numbers|0Y9H52BT03]].
 14. If $x = n$, then $n \le x$ because $n + 0 = x$. So in all cases $n \le x$.
 15. Thus $n$ is a least element of $A$, which contradicts step 9. So $n \notin A$, and $P(n)$ holds.
 16. By strong induction, $P(n)$ holds for every natural number $n$. So $A$ is empty.
-17. This contradicts the hypothesis $A \neq \emptyset$. Therefore $A$ has a least element $a$, with $a \le x$ for each $x \in A$.
+17. This contradicts the hypothesis $A \neq \emptyset$. Therefore $A$ has a least element $a$, with $a \le x$ for each $x \in A$, which is the [[well-ordering principle|01BX15HSRR]].
 
 ## Idea
 
 If a set has no smallest element, then no number can be the first one to enter it.
 Strong induction turns this into "no number is in the set at all".
 Totality of the order is what makes "nothing smaller is in the set" mean "this is the smallest".
+
+## Variants
+
+1. Ordinary [[induction|0ASJVEFA9J]] on $n$ proves the claim "each subset of $\mathbb{N}$ that contains a number $k \le n$ has a least element". In the base case, $0 \in A$ is least. In the step, either $A$ contains a number $\le n$ and the hypothesis applies, or $n + 1$ is the only element of $A$ below $n + 2$ and it is least.
+2. The [[equivalence of induction and well-ordering|J2P9FWBP3Q]] gives the converse: the well-ordering principle implies induction, when each nonzero natural number is a successor.

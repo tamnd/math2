@@ -1,0 +1,66 @@
+---
+tag: RZWGH0A048
+kind: example
+name: The length of a concatenation of lists
+msc: ["00A35", "68P05"]
+topics: [EEH2F76CYQ]
+audience: ug1
+instance_of: [12MQ2NJ29A]
+uses: [12MQ2NJ29A]
+sources:
+  - url: https://en.wikipedia.org/wiki/Structural_induction
+    locator: Examples
+---
+
+## Example
+
+A list is either the empty list $[\,]$, or $a :: xs$, an element $a$ in front of a list $xs$.
+The list $[1, 2]$ is short for $1 :: (2 :: [\,])$.
+The length and the concatenation $\mathbin{+\!\!+}$ are given by recursion on the first list:
+$$\operatorname{len}([\,]) = 0, \qquad \operatorname{len}(a :: xs) = 1 + \operatorname{len}(xs),$$
+$$[\,] \mathbin{+\!\!+} ys = ys, \qquad (a :: xs) \mathbin{+\!\!+} ys = a :: (xs \mathbin{+\!\!+} ys).$$
+We prove $\operatorname{len}(xs \mathbin{+\!\!+} ys) = \operatorname{len}(xs) + \operatorname{len}(ys)$ for all lists $xs$ and $ys$, by [[structural induction|12MQ2NJ29A]] on $xs$.
+For a list $xs$, let $P(xs)$ be the claim "$\operatorname{len}(xs \mathbin{+\!\!+} ys) = \operatorname{len}(xs) + \operatorname{len}(ys)$ for every list $ys$".
+
+1. Case $[\,]$: let $ys$ be a list. The first rule for $\mathbin{+\!\!+}$ gives $\operatorname{len}([\,] \mathbin{+\!\!+} ys) = \operatorname{len}(ys)$.
+2. The first rule for $\operatorname{len}$ gives $\operatorname{len}([\,]) + \operatorname{len}(ys) = 0 + \operatorname{len}(ys) = \operatorname{len}(ys)$. So $P([\,])$ holds.
+3. Case $a :: xs$: the induction hypothesis is $P(xs)$. Let $ys$ be a list.
+4. The second rule for $\mathbin{+\!\!+}$ gives $(a :: xs) \mathbin{+\!\!+} ys = a :: (xs \mathbin{+\!\!+} ys)$.
+5. The second rule for $\operatorname{len}$ gives $\operatorname{len}(a :: (xs \mathbin{+\!\!+} ys)) = 1 + \operatorname{len}(xs \mathbin{+\!\!+} ys)$.
+6. The hypothesis $P(xs)$ gives $1 + \operatorname{len}(xs \mathbin{+\!\!+} ys) = 1 + \operatorname{len}(xs) + \operatorname{len}(ys)$.
+7. The second rule for $\operatorname{len}$ gives $1 + \operatorname{len}(xs) = \operatorname{len}(a :: xs)$.
+8. Steps 4 to 7 give $\operatorname{len}((a :: xs) \mathbin{+\!\!+} ys) = \operatorname{len}(a :: xs) + \operatorname{len}(ys)$, which is $P(a :: xs)$.
+9. By structural induction, $P(xs)$ holds for every list $xs$.
+
+For example, $[1, 2] \mathbin{+\!\!+} [3] = 1 :: ([2] \mathbin{+\!\!+} [3]) = 1 :: (2 :: ([\,] \mathbin{+\!\!+} [3])) = 1 :: (2 :: [3]) = [1, 2, 3]$.
+Its length is $3 = 2 + 1$.
+
+## Remarks
+
+1. The induction is on $xs$ because both functions are defined by recursion on their first list. Each step of the proof applies one rule of a definition.
+2. An induction on $ys$ gets stuck. Its step needs $\operatorname{len}(xs \mathbin{+\!\!+} (b :: ys))$, and no rule for $\mathbin{+\!\!+}$ applies to it while $xs$ is unknown.
+3. The list $ys$ does not change in the step, so the proof also works with one fixed $ys$. For other claims, such as the properties of a reverse function with an accumulator, the hypothesis must hold for every second list.
+4. A corollary is $\operatorname{len}(xs \mathbin{+\!\!+} ys) = \operatorname{len}(ys \mathbin{+\!\!+} xs)$, although the two lists can differ: $[1, 2] \mathbin{+\!\!+} [3] = [1, 2, 3]$ and $[3] \mathbin{+\!\!+} [1, 2] = [3, 1, 2]$.
+5. The Lean 4 core library states this result as `List.length_append`.
+
+## Explanations
+
+### L1 human
+
+Joining two lists gives a list that holds the first list and then the second.
+Its length is the sum of the two lengths, and we prove this from the rules that define joining and length.
+Joining works by taking the first element of the first list, joining the rest, and putting the element back in front.
+So the proof goes through the first list one element at a time.
+Each element adds $1$ to the length on both sides.
+
+### L2 human
+
+We follow the step for $a :: xs = [1, 2]$, so $a = 1$ and $xs = [2]$, with $ys = [3]$.
+
+1. The hypothesis $P([2])$ says $\operatorname{len}([2] \mathbin{+\!\!+} [3]) = 1 + 1 = 2$.
+2. Step 4 gives $[1, 2] \mathbin{+\!\!+} [3] = 1 :: ([2] \mathbin{+\!\!+} [3])$.
+3. Step 5 gives the length $1 + \operatorname{len}([2] \mathbin{+\!\!+} [3]) = 1 + 2 = 3$.
+4. The right side is $\operatorname{len}([1, 2]) + \operatorname{len}([3]) = 2 + 1 = 3$.
+
+The typical use of this pattern is a property of a recursive function on lists, proved by induction on the argument that the recursion takes apart.
+A trap is to induct on the other argument, as remark 2 shows.
