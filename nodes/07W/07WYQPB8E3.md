@@ -45,14 +45,14 @@ When there is a risk of confusion, the group is put as an index, as in $e_G$ or 
 
 1. The number $0$ is the identity for addition on $\mathbb{N}$, [[integers|0C4JS9RF5M]], [[rational numbers|0NCJ5WXN6Z]], [[real numbers|08J2M1JYAG]] and [[complex numbers|09FTAET5Z4]], because $a + 0 = 0 + a = a$.
 2. The number $1$ is the identity for multiplication on the same sets, because $a \cdot 1 = 1 \cdot a = a$.
-3. [[The identity matrix is the identity for matrix multiplication|~0899dd0e]] on the $n \times n$ matrices.
-4. [[The identity function is the identity for composition|~7d84ada2]] on the functions from a set to itself.
+3. [[The identity matrix is the identity for matrix multiplication|FG3K8FHYNE]] on the $n \times n$ matrices.
+4. [[The identity function is the identity for composition|ZDPVEC045P]] on the functions from a set to itself.
 5. For the subsets of a set $X$, the empty set is the identity for union, and $X$ is the identity for intersection.
 6. For the operation $a \ast b = a + b + ab$ on $\mathbb{Z}$, the identity is $0$, because $a \ast 0 = a + 0 + 0 = a$ and $0 \ast a = a$.
 
 ### Non-examples
 
-1. [[For the operation a ∗ b = b, each element is a left identity and no element is an identity|~4d23ee8a]], on a set with at least two elements.
+1. [[For the operation a ∗ b = b, each element is a left identity and no element is an identity|9X326TQQGW]], on a set with at least two elements.
 2. Addition on the positive integers $\{1, 2, 3, \ldots\}$ has no identity, because $a + e = a$ forces $e = 0$, and $0$ is not a positive integer.
 3. Subtraction on $\mathbb{Z}$ has the right identity $0$, because $a - 0 = a$. It has no left identity: $e - a = a$ for all $a$ would give $e = 2a$ for all $a$, which is impossible.
 4. Multiplication on the even integers has no identity, because $e \cdot 2 = 2$ forces $e = 1$, and $1$ is not even.

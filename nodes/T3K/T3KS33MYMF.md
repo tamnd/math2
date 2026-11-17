@@ -1,0 +1,65 @@
+---
+tag: T3KS33MYMF
+kind: example
+name: The reflections of a square do not form a group
+msc: [20B25]
+topics: [BAZT8JJ70S]
+audience: school
+not_instance_of:
+  - target: G5S1M9
+    note: closure fails, because the composite of two reflections is a rotation, and the identity is missing
+  - target: 0ZG3Z5JZ85
+    note: the four reflections are symmetries of the square, but they are not the whole symmetry group and they are not closed under composition
+uses: [0ZG3Z5JZ85, 06BRDF3F0E, 0HFREYRSZP]
+sources:
+  - url: https://en.wikipedia.org/wiki/Dihedral_group
+    locator: lead section
+---
+
+## Example
+
+Let $Q$ be the square with the vertices $(1, 1)$, $(-1, 1)$, $(-1, -1)$ and $(1, -1)$.
+The square has four [[reflections|06BRDF3F0E]] among its symmetries:
+$$s_0(x, y) = (x, -y), \quad s_{45}(x, y) = (y, x), \quad s_{90}(x, y) = (-x, y), \quad s_{135}(x, y) = (-y, -x).$$
+Here $s_\alpha$ is the reflection in the line through $0$ at the angle $\alpha$ degrees to the $x$-axis.
+Let $M = \{s_0, s_{45}, s_{90}, s_{135}\}$, with composition as the operation.
+We show that $M$ is not a [[group|G5S1M9]].
+
+1. Compute $s_{45} \circ s_0$. For each point, $s_{45}(s_0(x, y)) = s_{45}(x, -y) = (-y, x)$.
+2. The map $(x, y) \mapsto (-y, x)$ is the [[rotation|0HFREYRSZP]] by $90^\circ$ about $0$.
+3. A reflection fixes each point of its line. The rotation of step 2 fixes only $0$, because $(-y, x) = (x, y)$ gives $x = -y$ and $y = x$, so $x = y = 0$.
+4. So $s_{45} \circ s_0$ is not a reflection, and $s_{45} \circ s_0 \notin M$. Composition is not a binary operation on $M$.
+5. Also, the identity map is not in $M$: each reflection moves the points that are not on its line.
+
+Closure fails and the identity is missing, so $M$ is not a group.
+
+## Remarks
+
+The example shows that a set of symmetries is not a [[symmetry group|0ZG3Z5JZ85]] just because each of its elements is a symmetry.
+The set must contain all the symmetries of the figure.
+The four rotations $\{r_0, r_{90}, r_{180}, r_{270}\}$ of the square do form a group, because a rotation after a rotation is a rotation.
+The union of the four reflections and the four rotations is the whole symmetry group, the [[dihedral group of order 8|054SBCQ93T]].
+The product $s_{45} \circ s_0 = r_{90}$ agrees with the rule $s_\alpha s_\beta = r_{2(\alpha - \beta)}$, since $2(45^\circ - 0^\circ) = 90^\circ$.
+A set with only one reflection $s$ is also not a group, but $\{e, s\}$ is a group, because $s \circ s = e$.
+
+## Explanations
+
+### L1 human
+
+Hold a square card and flip it over about one of its middle lines.
+Then flip it over about a diagonal.
+The card is now face up again, and it has turned by a quarter turn.
+So two flips together give a turn, not a flip.
+The flips alone do not form a group, because combining two of them leaves the collection of flips.
+
+### L2 human
+
+We check a second product, to see that the failure is not a single accident.
+
+1. Compute $s_{90} \circ s_0$: $s_{90}(s_0(x, y)) = s_{90}(x, -y) = (-x, -y)$.
+2. This is the rotation by $180^\circ$, because the rule gives $2(90^\circ - 0^\circ) = 180^\circ$.
+3. It fixes only $0$, so it is not a reflection, and it is not in $M$.
+
+In fact, each product of two reflections of the square is one of the four rotations.
+The typical use of this example is as a test of the closure axiom in a geometric setting.
+A trap is to check only products of a reflection with itself: $s \circ s = e$, and the identity is a symmetry, but the identity is not a reflection, so even these products leave $M$.

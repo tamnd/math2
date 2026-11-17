@@ -43,9 +43,9 @@ We check that $V$ is a [[group|G5S1M9]], that it is [[abelian|082GHNPJ53]], and 
 
 The example shows that the converse of the result that [[cyclic groups are abelian|04RG02S6BA]] is false.
 Up to [[isomorphism|08MG7H8JW5]], $V$ and $\mathbb{Z}/4\mathbb{Z}$ are the only groups of order $4$.
-Indeed, the case of order $4$ in the proof that [[each group of order at most 5 is abelian|~86185f14]] shows that a group of order $4$ is cyclic or has $g^2 = e$ for each $g$.
+Indeed, the case of order $4$ in the proof that [[each group of order at most 5 is abelian|G98PPG0FCC]] shows that a group of order $4$ is cyclic or has $g^2 = e$ for each $g$.
 In the first case it is isomorphic to $\mathbb{Z}/4\mathbb{Z}$.
-In the second case it is isomorphic to $\mathbb{Z}/2\mathbb{Z} \times \mathbb{Z}/2\mathbb{Z}$, by the consequences of the result on [[exponent 2|~2dc226b7]], and so to $V$.
+In the second case it is isomorphic to $\mathbb{Z}/2\mathbb{Z} \times \mathbb{Z}/2\mathbb{Z}$, by the consequences of the result on [[exponent 2|GGAT7CNA82]], and so to $V$.
 The two groups are not isomorphic, because $\mathbb{Z}/4\mathbb{Z}$ has an element of order $4$ and $V$ has none.
 Step 4 shows that $V$ is isomorphic to the [[direct product|00HF4RJ5QN]] $\mathbb{Z}/2\mathbb{Z} \times \mathbb{Z}/2\mathbb{Z}$.
 Since $x^2 = e$ for each $x$, commutativity also follows from the result that a group of exponent $2$ is abelian.

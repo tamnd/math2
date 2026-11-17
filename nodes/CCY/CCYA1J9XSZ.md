@@ -15,7 +15,7 @@ sources:
 ## Proof
 
 We argue by induction on the exponent, upward and downward from $0$.
-By [[associativity|0K8F7PVDMX]], and by [[general associativity|~d51940ae]] for products of more than three elements, we omit parentheses in products.
+By [[associativity|0K8F7PVDMX]], and by [[general associativity|8HEYE9EZMW]] for products of more than three elements, we omit parentheses in products.
 
 1. Let $e$ be the identity of the [[group|G5S1M9]] $G$, and let $a \in G$. The powers $a^n$ are defined as in the statement.
 2. For $x, y \in G$ we have $(xy)^{-1} = y^{-1}x^{-1}$. Reason: part 4 of [[uniqueness of identity and inverses|0D9NDGE9KP]].

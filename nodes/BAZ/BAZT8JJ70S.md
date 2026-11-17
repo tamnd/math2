@@ -42,12 +42,12 @@ Three essays give the applications of groups, the history of group theory and a 
 21. [[Symmetry group|0ZG3Z5JZ85]]: the group of the motions that map a figure onto itself.
 22. [[Exponential map from the additive reals to the positive reals|7GEXM87S0H]]: a first isomorphism of groups.
 23. [[Opposite group|D33V8HE0KY]]: the group with the reversed product.
-24. [[Elementary theory of groups|~0757d1ee]]: groups seen through first-order logic.
-25. [[Szmielew's theorem|~efe20356]]: the theory of abelian groups is decidable.
-26. [[Tarski's problems on free groups|3TZW7W8N6A]]: two questions on the theory of free groups, and [[their solution|~c44acebf]].
-27. [[Groups in science and applications|~88fb3b62]]: chemistry, crystals, physics, cryptography and puzzles.
-28. [[History of group theory|~3d526f67]]: from Lagrange and Galois to the classification of finite simple groups.
-29. [[Glossary of group theory|~badb2589]]: short definitions of the terms of the area.
+24. [[Elementary theory of groups|RX9MB386C5]]: groups seen through first-order logic.
+25. [[Szmielew's theorem|Y0753DF5R9]]: the theory of abelian groups is decidable.
+26. [[Tarski's problems on free groups|3TZW7W8N6A]]: two questions on the theory of free groups, and [[their solution|NCWBT0BZC3]].
+27. [[Groups in science and applications|1290GH695S]]: chemistry, crystals, physics, cryptography and puzzles.
+28. [[History of group theory|ZWK8Q2N6YQ]]: from Lagrange and Galois to the classification of finite simple groups.
+29. [[Glossary of group theory|FE26HZ5HCN]]: short definitions of the terms of the area.
 
 ### Prerequisites
 

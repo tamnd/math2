@@ -1,0 +1,60 @@
+---
+tag: TJ3CZ91FJ9
+kind: example
+name: The subtraction table modulo 3 is a Latin square but not a group table
+msc: [20A05]
+topics: [BAZT8JJ70S]
+audience: school
+instance_of: [0YB2NRP0T5, CDVRMVED2V]
+not_instance_of:
+  - target: G5S1M9
+    note: subtraction modulo 3 has no identity element and is not associative
+uses: [03VFZ2WETT, ZJD31SPPFP]
+sources:
+  - url: https://en.wikipedia.org/wiki/Latin_square
+    locator: lead section
+  - url: https://en.wikipedia.org/wiki/Quasigroup
+    locator: Examples
+---
+
+## Example
+
+On the set $\{0, 1, 2\}$, define $a \ast b = a - b$ modulo $3$.
+The entry in row $a$ and column $b$ of the [[Cayley table|0YB2NRP0T5]] is $a - b$ modulo $3$.
+
+| $\ast$ | $0$ | $1$ | $2$ |
+|---|---|---|---|
+| $0$ | $0$ | $2$ | $1$ |
+| $1$ | $1$ | $0$ | $2$ |
+| $2$ | $2$ | $1$ | $0$ |
+
+Each row and each column contains each of $0, 1, 2$ exactly one time, so the table is a [[Latin square|CDVRMVED2V]].
+But $(\{0, 1, 2\}, \ast)$ is not a [[group|G5S1M9]].
+
+1. There is no identity. An identity $e$ would satisfy $e \ast a = a$ for all $a$. For $a = 0$ this gives $e = 0$. But $0 \ast 1 = 2 \neq 1$.
+2. The operation is not associative. We have $(0 \ast 1) \ast 1 = 2 \ast 1 = 1$, but $0 \ast (1 \ast 1) = 0 \ast 0 = 0$.
+
+## Remarks
+
+Each group table is a Latin square, by the cancellation laws, but this example shows that the converse is false.
+The element $0$ is a right identity, because $a \ast 0 = a$ for all $a$, but it is not a left identity.
+A table that is a Latin square is the table of a [[quasigroup|ZJD31SPPFP]], so this operation is a quasigroup that is not a group.
+The labels matter: with the operation of addition modulo $3$, the [[integers modulo 3|03VFZ2WETT]] give a group table, and its rows are $0, 1, 2$ and $1, 2, 0$ and $2, 0, 1$.
+
+## Explanations
+
+### L1 human
+
+This table looks like a group table, because no row and no column repeats a number.
+But no number does nothing from the left side, and the grouping of three numbers changes the answer.
+So the table is not the table of a group.
+The rule "no repeats in rows and columns" is necessary for a group table, but it is not enough.
+
+### L2 human
+
+To decide if a Latin square is a group table, we check the identity and associativity.
+
+1. Look for a row that repeats the column labels. Here row $0$ is $0, 2, 1$, row $1$ is $1, 0, 2$ and row $2$ is $2, 1, 0$, and none of them is $0, 1, 2$. So there is no left identity, and we can stop.
+2. If an identity exists, check associativity for each triple. For $3$ elements there are $27$ triples.
+
+A trap is to check only the Latin square property, as here.

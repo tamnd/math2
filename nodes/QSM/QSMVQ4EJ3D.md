@@ -35,11 +35,11 @@ So $\sigma \tau \neq \tau \sigma$, and $S_3$ is not [[abelian|082GHNPJ53]].
 ## Remarks
 
 The group $S_3$ has $3! = 6$ elements.
-[[Each group of order at most 5 is abelian|~86185f14]], so $S_3$ is a smallest group that is not abelian.
+[[Each group of order at most 5 is abelian|G98PPG0FCC]], so $S_3$ is a smallest group that is not abelian.
 For each $n \geq 3$, the group $S_n$ is not abelian, because the same two transpositions $(1\,2)$ and $(1\,3)$ are in $S_n$ and the same computation applies.
 The group $S_2 = \{e, (1\,2)\}$ has $2$ elements, and it is abelian.
 The group $S_3$ is [[isomorphic|08MG7H8JW5]] to the [[dihedral group|0JZ27DMJ5D]] of the symmetries of an equilateral triangle.
-Each transposition $t$ has $t^2 = e$, so $S_3$ shows that the result that [[a group of exponent 2 is abelian|~2dc226b7]] needs $g^2 = e$ for each element $g$.
+Each transposition $t$ has $t^2 = e$, so $S_3$ shows that the result that [[a group of exponent 2 is abelian|GGAT7CNA82]] needs $g^2 = e$ for each element $g$.
 
 ## Explanations
 

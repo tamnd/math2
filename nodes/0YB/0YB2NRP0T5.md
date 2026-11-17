@@ -54,12 +54,12 @@ We write the identity first in each table.
 2. The group $\mathbb{Z}/2\mathbb{Z} = \{0, 1\}$ under addition modulo $2$ has the rows $0, 1$ and $1, 0$.
 3. The group [[$\mathbb{Z}/3\mathbb{Z}$|03VFZ2WETT]] $= \{0, 1, 2\}$ under addition modulo $3$ has the rows $0, 1, 2$ and $1, 2, 0$ and $2, 0, 1$.
 4. The group $\mathbb{Z}/4\mathbb{Z} = \{0, 1, 2, 3\}$ under addition modulo $4$ has the rows $0, 1, 2, 3$ and $1, 2, 3, 0$ and $2, 3, 0, 1$ and $3, 0, 1, 2$. Its main diagonal is $0, 2, 0, 2$.
-5. The [[Cayley table of the Klein four-group|~c8a514f0]] $\{e, a, b, c\}$ has the rows $e, a, b, c$ and $a, e, c, b$ and $b, c, e, a$ and $c, b, a, e$. Its main diagonal is $e, e, e, e$.
-6. The [[Cayley table of the symmetric group S3|~9c6797fd]] is a $6 \times 6$ table that is not symmetric, because $S_3$ is not abelian.
+5. The [[Cayley table of the Klein four-group|7XQ1G27N7H]] $\{e, a, b, c\}$ has the rows $e, a, b, c$ and $a, e, c, b$ and $b, c, e, a$ and $c, b, a, e$. Its main diagonal is $e, e, e, e$.
+6. The [[Cayley table of the symmetric group S3|N8JZF84SZ3]] is a $6 \times 6$ table that is not symmetric, because $S_3$ is not abelian.
 
 ### Non-examples
 
-1. [[A Latin square that is not the Cayley table of a group|~45f742ac]]: the table of subtraction modulo $3$ has each element one time in each row and column, but the operation has no identity and is not associative.
+1. [[A Latin square that is not the Cayley table of a group|TJ3CZ91FJ9]]: the table of subtraction modulo $3$ has each element one time in each row and column, but the operation has no identity and is not associative.
 2. The table of multiplication modulo $4$ on $\{0, 1, 2, 3\}$ is the Cayley table of a monoid, not of a group. The row of $0$ is $0, 0, 0, 0$, so it repeats an element, and $0$ has no inverse.
 3. The addition table of the integers $0$ and $1$ is not a Cayley table of an operation on $\{0, 1\}$, because the entry $1 + 1 = 2$ is not in the set.
 

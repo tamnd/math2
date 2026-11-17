@@ -6,7 +6,7 @@ aliases: [tarski-problems-on-free-groups]
 msc: ["20E05", "03C60", "20F10"]
 topics: [BAZT8JJ70S]
 audience: research
-uses: [~0757d1ee, 0KTW26C80J, P3B1V182N4, HWC687ES0Q]
+uses: [RX9MB386C5, 0KTW26C80J, P3B1V182N4, HWC687ES0Q]
 sources:
   - url: https://en.wikipedia.org/wiki/Free_group
     locator: Tarski's problems
@@ -17,10 +17,10 @@ inventory: [VVYR0H9MW9]
 
 ## Summary
 
-Tarski's problems for free groups are two questions about the [[elementary theory|~0757d1ee]] of the [[free groups|0KTW26C80J]] $F_n$ of finite rank $n \ge 2$.
+Tarski's problems for free groups are two questions about the [[elementary theory|RX9MB386C5]] of the [[free groups|0KTW26C80J]] $F_n$ of finite rank $n \ge 2$.
 The first question asks whether all these groups are [[elementarily equivalent|P3B1V182N4]], that is, whether they satisfy the same first-order sentences in the language of groups.
 The second question asks whether their common theory is [[decidable|HWC687ES0Q]], that is, whether an algorithm can decide if a given sentence is true in $F_2$.
-Both answers are yes, by the [[solution of Tarski's problems|~c44acebf]] of Sela and of Kharlampovich and Myasnikov.
+Both answers are yes, by the [[solution of Tarski's problems|NCWBT0BZC3]] of Sela and of Kharlampovich and Myasnikov.
 The problems matter because they ask how much of the structure of a free group a first-order sentence can see.
 
 ## Motivation
@@ -69,7 +69,7 @@ These non-examples show that the answer for free groups is not a general fact ab
 Alfred Tarski asked the two questions around 1945.
 Partial results on equations over free groups came from Makanin and Razborov.
 Zlil Sela, and independently Olga Kharlampovich and Alexei Myasnikov, gave positive answers in work that was published in 2006.
-The details are in the node of the [[solution|~c44acebf]].
+The details are in the node of the [[solution|NCWBT0BZC3]].
 
 ### Common errors
 
@@ -107,4 +107,4 @@ Tarski's problems are a test of how well first-order logic describes a group.
 The free groups of rank at least $2$ turn out to share one theory, so first-order logic cannot see the rank.
 The answer needs the theory of equations over free groups, where limit groups and Makanin-Razborov diagrams play the role of the varieties and their decompositions in algebraic geometry.
 The same questions make sense for other classes, for example torsion-free hyperbolic groups, and Sela also studied them.
-[[Szmielew's theorem|~efe20356]] on the theory of abelian groups is the abelian analogue, and the [[elementary theory of groups|~0757d1ee]] gives the setting of both results.
+[[Szmielew's theorem|Y0753DF5R9]] on the theory of abelian groups is the abelian analogue, and the [[elementary theory of groups|RX9MB386C5]] gives the setting of both results.

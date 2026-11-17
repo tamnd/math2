@@ -56,7 +56,7 @@ Mathlib uses the value $0$ for an element of infinite order, so `orderOf g = 0` 
 
 ### Non-examples
 
-1. [[An idempotent matrix whose powers never reach the identity|~1ab74374]]: the matrix $E$ with $E^2 = E \neq I$ is not invertible, so it is not an element of a group with identity $I$, and it has no order.
+1. [[An idempotent matrix whose powers never reach the identity|5VEW97EQR6]]: the matrix $E$ with $E^2 = E \neq I$ is not invertible, so it is not an element of a group with identity $I$, and it has no order.
 2. In $\mathbb{Z}/6\mathbb{Z}$ with multiplication, the powers of $2$ are $2, 4, 2, 4, \ldots$ and never $1$. This does not give an element of infinite order: $2$ has no multiplicative inverse modulo $6$, so it is not an element of a group under multiplication.
 
 ### Basic properties

@@ -34,7 +34,7 @@ In Mathlib, the class `Std.Associative op` states that the function `op` satisfi
 Addition and multiplication of real numbers are associative.
 Subtraction of integers is not associative: $(1 - 1) - 1 = -1$, but $1 - (1 - 1) = 1$.
 Composition of maps from a set to itself is associative.
-For an associative operation, each way to put parentheses in $a_1 \ast a_2 \ast \cdots \ast a_n$ gives the same result, by [[general associativity|~d51940ae]].
+For an associative operation, each way to put parentheses in $a_1 \ast a_2 \ast \cdots \ast a_n$ gives the same result, by [[general associativity|8HEYE9EZMW]].
 The concept page [[associativity|0K8F7PVDMX]] gives more examples, the non-examples and the first properties.
 
 ## Explanations

@@ -49,7 +49,7 @@ Ludwig Sylow proved his theorems on subgroups of prime power order in 1872, and 
 In the twentieth century the theory of finite groups moved to the study of simple groups.
 Walter Feit and John Thompson proved in 1963 that each group of odd order is [[solvable|0FXJ7YFMMX]].
 The classification of finite simple groups was completed with the work of Michael Aschbacher and Stephen Smith on quasithin groups, published in 2004.
-The page [[history of group theory|~3d526f67]] gives more detail.
+The page [[history of group theory|ZWK8Q2N6YQ]] gives more detail.
 
 ### How to read the area
 

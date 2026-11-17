@@ -32,7 +32,7 @@ There are two ways to do this: $(a \ast b) \ast c$ and $a \ast (b \ast c)$.
 For addition of numbers the two ways give the same result, so the expression $2 + 3 + 4$ has one meaning.
 For subtraction they do not: $(5 - 3) - 2 = 0$, but $5 - (3 - 2) = 4$.
 Associativity is the condition under which an expression such as $a \ast b \ast c$ has one meaning.
-[[General associativity|~d51940ae]] extends this to products of any length.
+[[General associativity|8HEYE9EZMW]] extends this to products of any length.
 
 ## Notation
 
@@ -46,22 +46,22 @@ For exponentiation, the convention is $a^{b^c} = a^{(b^c)}$.
 ### Examples
 
 1. Addition and multiplication of [[integers|0C4JS9RF5M]], [[rational numbers|0NCJ5WXN6Z]], [[real numbers|08J2M1JYAG]] and [[complex numbers|09FTAET5Z4]] are associative.
-2. [[Composition of functions is associative|~c9b44066]], because both groupings of $f \circ g \circ h$ send $x$ to $f(g(h(x)))$.
-3. [[Matrix multiplication|~9e5e78c9]] on $n \times n$ matrices is associative, because it corresponds to the composition of linear maps.
-4. [[The operation a + b + ab on the integers is associative|~cc199a6b]], because both groupings give $a + b + c + ab + ac + bc + abc$.
+2. [[Composition of functions is associative|50BK1KV2Z0]], because both groupings of $f \circ g \circ h$ send $x$ to $f(g(h(x)))$.
+3. [[Matrix multiplication|JW8JBGJKE3]] on $n \times n$ matrices is associative, because it corresponds to the composition of linear maps.
+4. [[The operation a + b + ab on the integers is associative|Z522RSJ213]], because both groupings give $a + b + c + ab + ac + bc + abc$.
 5. The operation $\max$ on $\mathbb{R}$ is associative, because both $\max(\max(a, b), c)$ and $\max(a, \max(b, c))$ are the largest of the three numbers.
 6. Union of subsets of a set is associative, because each grouping of $A \cup B \cup C$ is the set of the elements that are in at least one of the three sets. Intersection is associative for the same kind of reason.
 
 ### Non-examples
 
-1. [[Subtraction is not associative|~904c07a1]]: $(5 - 3) - 2 = 0$, but $5 - (3 - 2) = 4$.
-2. [[Exponentiation is not associative|~66abd544]]: $(2^3)^2 = 64$, but $2^{(3^2)} = 512$.
-3. [[The cross product is not associative|~5aacb4dd]]: for the standard basis vectors, $(\mathbf{i} \times \mathbf{i}) \times \mathbf{j} = \mathbf{0}$, but $\mathbf{i} \times (\mathbf{i} \times \mathbf{j}) = -\mathbf{j}$.
+1. [[Subtraction is not associative|HSWMSJVY2S]]: $(5 - 3) - 2 = 0$, but $5 - (3 - 2) = 4$.
+2. [[Exponentiation is not associative|PBDAR83RK6]]: $(2^3)^2 = 64$, but $2^{(3^2)} = 512$.
+3. [[The cross product is not associative|VRA3B0V8CD]]: for the standard basis vectors, $(\mathbf{i} \times \mathbf{i}) \times \mathbf{j} = \mathbf{0}$, but $\mathbf{i} \times (\mathbf{i} \times \mathbf{j}) = -\mathbf{j}$.
 4. The average $a \ast b = (a + b)/2$ on $\mathbb{R}$ is not associative: $(0 \ast 0) \ast 4 = 2$, but $0 \ast (0 \ast 4) = 1$.
 
 ### Basic properties
 
-1. [[General associativity|~d51940ae]]: when $\ast$ is associative, all the ways to put parentheses in $a_1 \ast a_2 \ast \cdots \ast a_n$ give the same element.
+1. [[General associativity|8HEYE9EZMW]]: when $\ast$ is associative, all the ways to put parentheses in $a_1 \ast a_2 \ast \cdots \ast a_n$ give the same element.
 2. Associativity and [[commutativity|099E72KTF8]] are independent. Composition of functions is associative and not commutative. The average $(a + b)/2$ is commutative and not associative.
 3. When $\ast$ is associative on $S$ and a subset $T$ is closed under $\ast$, the restriction of $\ast$ to $T$ is associative, because the law holds for all elements of $S$.
 4. When $\ast$ is associative, the powers $a^n = a \ast a \ast \cdots \ast a$ ($n$ factors) are well defined for $n \geq 1$, and $a^m \ast a^n = a^{m + n}$. The [[laws of exponents|00DRK90Z6K]] give these rules in a group.

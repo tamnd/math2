@@ -48,13 +48,13 @@ In Mathlib, the opposite of a type $\alpha$ with a multiplication is `MulOpposit
 ### Examples
 
 1. For an [[abelian group|082GHNPJ53]], such as $(\mathbb{Z}, +)$, the opposite group is the group itself, because $b + a = a + b$.
-2. [[The opposite group of S3|~c1eaa650]] has the product $\sigma \ast \tau = \tau \sigma$. For example, $(1\ 2) \ast (1\ 3) = (1\ 3)(1\ 2) = (1\ 2\ 3)$, while $(1\ 2)(1\ 3) = (1\ 3\ 2)$.
-3. [[The transpose is an isomorphism from the general linear group to its opposite|~0df7430e]], because $(AB)^T = B^T A^T$.
+2. [[The opposite group of S3|9QATFG288Z]] has the product $\sigma \ast \tau = \tau \sigma$. For example, $(1\ 2) \ast (1\ 3) = (1\ 3)(1\ 2) = (1\ 2\ 3)$, while $(1\ 2)(1\ 3) = (1\ 3\ 2)$.
+3. [[The transpose is an isomorphism from the general linear group to its opposite|SM469WYW6R]], because $(AB)^T = B^T A^T$.
 4. For the ring $M_n(\mathbb{R})$ of real $n \times n$ matrices, the transpose is also an isomorphism from the ring to its opposite ring, because it keeps sums and reverses products.
 
 ### Non-examples
 
-1. [[The identity map from S3 to its opposite group is not a homomorphism|~4235ecda]]: the condition $\mathrm{id}(ab) = \mathrm{id}(a) \ast \mathrm{id}(b)$ fails for $a = (1\ 2)$ and $b = (1\ 3)$.
+1. [[The identity map from S3 to its opposite group is not a homomorphism|DT16PG4AFQ]]: the condition $\mathrm{id}(ab) = \mathrm{id}(a) \ast \mathrm{id}(b)$ fails for $a = (1\ 2)$ and $b = (1\ 3)$.
 2. The opposite of a monoid need not be isomorphic to the monoid. Let $T$ be the monoid of the $4$ maps from $\{0, 1\}$ to itself under composition. A constant map $c$ satisfies $c \circ g = c$ for all $g \in T$. In $T^{\mathrm{op}}$ no element $z$ satisfies $z \ast g = z$ for all $g$, because $z \ast g = g \circ z$ and the swap $g$ changes each $z$. An isomorphism keeps this property, so $T \not\cong T^{\mathrm{op}}$.
 3. The opposite group of a group that is not abelian is not the same group: the set is the same, but the operation is different.
 

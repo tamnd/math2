@@ -46,14 +46,14 @@ The inverse is defined with respect to an operation and its identity, so the sam
 
 1. For addition on the [[integers|0C4JS9RF5M]], [[rational numbers|0NCJ5WXN6Z]], [[real numbers|08J2M1JYAG]] and [[complex numbers|09FTAET5Z4]], each $a$ has the inverse $-a$, because $a + (-a) = (-a) + a = 0$.
 2. For multiplication on $\mathbb{Q}$, $\mathbb{R}$ and $\mathbb{C}$, each $a \neq 0$ has the inverse $1/a$, because $a \cdot (1/a) = (1/a) \cdot a = 1$.
-3. [[An invertible 2 × 2 matrix has the inverse given by the determinant formula|~a1626fa6]].
-4. [[For multiplication modulo 7, each nonzero class has an inverse|~a541b25e]]: for example, $3 \cdot 5 = 15 \equiv 1 \pmod{7}$.
+3. [[An invertible 2 × 2 matrix has the inverse given by the determinant formula|8XWC7RKNN1]].
+4. [[For multiplication modulo 7, each nonzero class has an inverse|B9ZN1SK225]]: for example, $3 \cdot 5 = 15 \equiv 1 \pmod{7}$.
 5. A [[bijective|0GG9TVW90M]] function $f \colon X \to X$ has the inverse function $f^{-1}$ for [[composition|0THBK9V825]], because $f \circ f^{-1} = f^{-1} \circ f = \mathrm{id}_X$.
 6. For the operation $a \ast b = a + b + ab$ on $\mathbb{Z}$, with identity $0$, the element $-2$ is its own inverse: $(-2) \ast (-2) = -2 - 2 + 4 = 0$.
 
 ### Non-examples
 
-1. [[The shift n ↦ n + 1 on ℕ has a left inverse but no inverse|~6529203b]] in the monoid of functions $\mathbb{N} \to \mathbb{N}$.
+1. [[The shift n ↦ n + 1 on ℕ has a left inverse but no inverse|M9QVG263VV]] in the monoid of functions $\mathbb{N} \to \mathbb{N}$.
 2. The integer $2$ has no inverse for multiplication on $\mathbb{Z}$, because $2b = 1$ has no solution $b \in \mathbb{Z}$.
 3. The number $0$ has no inverse for multiplication on $\mathbb{Q}$, because $0 \cdot b = 0 \neq 1$ for each $b$.
 4. The matrix $A = \begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix}$ has no inverse for matrix multiplication, because the second row of each product $AB$ is zero, so $AB \neq I_2$.

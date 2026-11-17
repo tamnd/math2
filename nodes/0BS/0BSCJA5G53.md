@@ -54,7 +54,7 @@ So each infinite cyclic group is isomorphic to $\mathbb{Z}$.
 
 Two related structures are not groups.
 [[The natural numbers under addition are not a group|R68D2P175Z]], because $1$ has no inverse in $\mathbb{N} = \{0, 1, 2, \ldots\}$.
-[[The integers under multiplication are not a group|~8c6a744f]], because $2$ has no inverse: $2k = 1$ has no integer solution $k$.
+[[The integers under multiplication are not a group|NH7XE98CMF]], because $2$ has no inverse: $2k = 1$ has no integer solution $k$.
 
 ## Explanations
 
