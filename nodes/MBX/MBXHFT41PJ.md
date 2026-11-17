@@ -12,8 +12,14 @@ same_as:
   wikidata: Q108782366
   wikipedia: Rathjen's psi function
 inventory: [8JS3F4979V]
+retired:
+  date: 2026-11-17
+  reason: merged
+  successor: [M7D1HEJQVH]
+  note: "The page moved to a node of the right kind."
 ---
 
 ## Summary
 
-In mathematics, **Rathjen's $\psi$ psi function** is an ordinal collapsing function developed by Michael Rathjen. It collapses weakly Mahlo cardinals $M$ to generate large countable ordinals. A weakly Mahlo cardinal is a cardinal such that the set of regular cardinals below $M$ is closed under $M$ (i.e. all normal functions closed in $M$ are closed under some regular ordinal $< M$). Rathjen uses this to diagonalise over the weakly inaccessible hierarchy.
+This page is retired.
+The page of Rathjen's psi function is now [[Rathjen's psi function|M7D1HEJQVH]].

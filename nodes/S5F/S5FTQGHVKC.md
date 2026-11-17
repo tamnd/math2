@@ -12,8 +12,14 @@ same_as:
   wikidata: Q108266145
   wikipedia: Takeuti–Feferman–Buchholz ordinal
 inventory: [TVJC8SV71P]
+retired:
+  date: 2026-11-17
+  reason: merged
+  successor: [NZWRK062WQ]
+  note: "The page moved to a node of the right kind."
 ---
 
 ## Summary
 
-In the mathematical fields of set theory and proof theory, the **Takeuti–Feferman–Buchholz ordinal (TFBO)** is a large countable ordinal, which acts as the limit of the range of Buchholz's psi function and Feferman's theta function. It was named by David Madore, after Gaisi Takeuti, Solomon Feferman and Wilfried Buchholz. It is written as $\psi_0(\varepsilon_{\Omega_\omega + 1})$ using Buchholz's psi function, an ordinal collapsing function invented by Wilfried Buchholz, and $\theta_{\varepsilon_{\Omega_\omega + 1}}(0)$ in Feferman's theta function, an ordinal collapsing function invented by Solomon Feferman. It is the proof-theoretic ordinal of several formal theories:
+This page is retired.
+The page of Takeuti-Feferman-Buchholz ordinal is now [[Takeuti-Feferman-Buchholz ordinal|NZWRK062WQ]].
