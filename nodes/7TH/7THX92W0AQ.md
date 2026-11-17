@@ -1,0 +1,48 @@
+---
+tag: 7THX92W0AQ
+kind: example
+name: The formula p ∧ (q ∨ r) is not in disjunctive normal form
+msc: ["03B05"]
+topics: [JDK63589SA]
+audience: ug1
+instance_of: [0B3D4C8YF2]
+not_instance_of:
+  - target: 0GVDFAY4KW
+    note: the disjunction q ∨ r lies inside a conjunction, so the formula is not a disjunction of conjunctions of literals; it is in CNF, and its DNF is (p ∧ q) ∨ (p ∧ r)
+uses: [06S4WGSEQA, 07C4A8Y18K]
+sources:
+  - url: https://en.wikipedia.org/wiki/Disjunctive_normal_form
+    locator: Definition
+---
+
+## Example
+
+Let $\varphi = p \land (q \lor r)$.
+We show that $\varphi$ is not in [[disjunctive normal form|06S4WGSEQA]], although it is in [[conjunctive normal form|07C4A8Y18K]].
+
+1. The top connective of $\varphi$ is $\land$, not $\lor$. So if $\varphi$ were in DNF, it would be a DNF with one term, and that term would be $\varphi$ itself.
+2. A term is a conjunction of literals. The parts of the conjunction $\varphi$ are $p$ and $q \lor r$.
+3. The part $q \lor r$ is a disjunction, not a literal. So $\varphi$ is not a term, and $\varphi$ is not in DNF.
+4. The parts $p$ and $q \lor r$ are disjunctions of literals, so $\varphi$ is in CNF with the two clauses $\set{p}$ and $\set{q, r}$.
+5. Distributivity gives $\varphi \equiv (p \land q) \lor (p \land r)$, which is in DNF with two terms.
+6. Check: both formulas are true exactly when $p = 1$ and at least one of $q$, $r$ is $1$, that is, at the rows $(1,0,1)$, $(1,1,0)$ and $(1,1,1)$.
+
+## Remarks
+
+This non-example shows that the two normal forms differ: a formula can be in one form and not in the other.
+The reason is the order of the connectives: in a DNF no $\lor$ lies inside a $\land$, and in a CNF no $\land$ lies inside a $\lor$.
+The formulas in both forms are those with a single term, such as $p \land \neg q$, or with a single literal in each term, such as $p \lor \neg q$.
+
+## Explanations
+
+### L1 human
+
+The formula "$p$, and ($q$ or $r$)" is not a list of cases joined by "or".
+It is one "and", and one of its parts is an "or".
+If we multiply it out, as in $a(b + c) = ab + ac$, we get "($p$ and $q$) or ($p$ and $r$)", which is in disjunctive normal form.
+
+### L2 human
+
+The comparison with algebra is useful: $\land$ behaves like multiplication and $\lor$ like addition.
+A DNF is a "sum of products", like a polynomial that is multiplied out, and $p \land (q \lor r)$ is a product of sums, like $a(b + c)$.
+A trap: in logic, $\lor$ also distributes over $\land$, which has no analogue in ordinary algebra; this law gives the CNF.
