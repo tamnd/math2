@@ -1,0 +1,127 @@
+---
+tag: CSFEP56A7D
+kind: concept
+name: Conflicting conventions
+msc: ["00A35"]
+topics: [Z2WNQ1DNTX]
+audience: ug1
+uses: [QKEX4PD029, 0MWKJ44V5A, 0BJR9QR08E, 0A7KV2WB7A, 0J2WAR83WP, 01AHG4G9RT, 04DXAFN2ES]
+sources:
+  - url: https://en.wikipedia.org/wiki/Natural_number
+    locator: lead section
+  - url: https://en.wikipedia.org/wiki/Subset
+    locator: lead section
+  - url: https://en.wikipedia.org/wiki/Inverse_function
+    locator: Notation
+  - url: https://en.wikipedia.org/wiki/Logarithm
+    locator: lead section
+  - url: https://en.wikipedia.org/wiki/Sign_(mathematics)
+    locator: Terminology for signs
+---
+
+## Summary
+
+A convention is a choice of meaning for a symbol or a word that mathematicians fix by agreement, not by proof.
+Two conventions conflict when different groups of authors give the same symbol or word different meanings, each meaning being consistent in itself.
+Standard conflicts include whether $0$ is a natural number, whether $\subset$ allows equality, whether "increasing" is strict, whether "positive" includes $0$, what $f^{-1}$ and $\sin^2 x$ mean, and which base $\log$ has.
+The truth of a sentence can depend on the convention, so a reader must know the convention of each source before using its results.
+
+## Motivation
+
+Take the sentence "the function $x \mapsto \lfloor x \rfloor$ is increasing".
+If "increasing" means $x \le y \Rightarrow f(x) \le f(y)$, the sentence is true.
+If "increasing" means $x < y \Rightarrow f(x) < f(y)$, it is false, because $\lfloor 0.1 \rfloor = \lfloor 0.2 \rfloor = 0$.
+No proof can decide between the two meanings, since each is a definition.
+So a careful text states its conventions, and a careful reader checks them before quoting a theorem from another text.
+
+## Notation
+
+This site uses one option for each conflict below, and it follows the meaning that Mathlib chooses where Mathlib makes a choice.
+For proper subsets, Mathlib writes $\subset$, and this site writes $\subsetneq$ so that no reader can take the sign in the other sense.
+A page that uses another option says so.
+
+| Item | Option A | Option B | This site |
+|---|---|---|---|
+| natural numbers | $\mathbb{N} = \{0, 1, 2, \ldots\}$ (logic, set theory, computer science, ISO 80000-2) | $\mathbb{N} = \{1, 2, 3, \ldots\}$ (many number theory and analysis books) | $0 \in \mathbb{N}$; the positive integers are $\mathbb{Z}_{>0}$ |
+| subset sign | $A \subset B$ allows $A = B$ | $A \subset B$ means a proper subset | $A \subseteq B$ for subset, $A \subsetneq B$ for proper subset |
+| increasing | $x \le y \Rightarrow f(x) \le f(y)$ | $x < y \Rightarrow f(x) < f(y)$ | "increasing" is the weak form; "strictly increasing" is the strict form |
+| positive | $x > 0$ (English usage) | $x \ge 0$ (French usage, "positif") | "positive" is $x > 0$; "nonnegative" is $x \ge 0$ |
+| $f^{-1}$ | the [[inverse function|0J2WAR83WP]] of a bijection | the reciprocal $1/f$ | the inverse function; $f^{-1}(B)$ for the [[preimage|01AHG4G9RT]] of a set $B$ |
+| $\sin^2 x$, $\sin^{-1} x$ | $\sin^2 x = (\sin x)^2$ | $\sin^{-1} x = \arcsin x$, not $(\sin x)^{-1}$ | $\sin^2 x = (\sin x)^2$; we write $\arcsin x$ and never $\sin^{-1} x$ |
+| $\log x$ | base $e$ (pure mathematics) | base $10$ (school, engineering) or base $2$ (computer science) | $\log x$ is the [[natural logarithm|04DXAFN2ES]]; $\log_b x$ for other bases |
+| open interval | $(a, b)$ | $]a, b[$ (common in France) | $(a, b)$ |
+| countable | finite or countably infinite | countably infinite only | finite or countably infinite |
+| $0^0$ | $0^0 = 1$ (algebra, combinatorics) | undefined (analysis of limits) | $0^0 = 1$ |
+
+Mathlib also extends some partial operations to total functions by "junk values".
+In Mathlib, $x / 0 = 0$, subtraction on $\mathbb{N}$ is truncated so that $3 - 5 = 0$, the real square root of a negative number is $0$, and $\log 0 = 0$.
+These values never make a false theorem true, because each theorem that needs a nonzero divisor or a positive argument states that hypothesis.
+The pages of this site do not use the junk values in the text.
+
+## Remarks
+
+### Examples
+
+1. [[The two conventions for the natural numbers|373G4N3P6R]]. The set $\{n \in \mathbb{N} : n < 5\}$ has $5$ elements under option A and $4$ elements under option B.
+2. [[The value of log 8 under three conventions|AT3Y92P9RK]]. The same expression $\log 8$ is about $2.079$, about $0.903$ or exactly $3$.
+3. The inverse sign. For $f(x) = 2x$ on $\mathbb{R}$, the inverse function is $f^{-1}(y) = y/2$, so $f^{-1}(4) = 2$, while the reciprocal of $f(4) = 8$ is $\tfrac{1}{8}$.
+4. Powers of the sine. With $x = \pi/6$, $\sin^2 x = (\tfrac{1}{2})^2 = \tfrac{1}{4}$, while $\sin^{-1}(\tfrac{1}{2}) = \arcsin \tfrac{1}{2} = \pi/6$ and $(\sin x)^{-1} = 2$.
+5. Subsets. With $A = B = \{1\}$, the sentence "$A \subset B$" is true in the first convention and false in the second.
+
+### Non-examples
+
+1. [[The expression 2 + 3 · 4 has one value under every convention|5RERQ21MAF]]. All standard conventions give multiplication precedence over addition, so there is no conflict.
+2. The sign $=$ between numbers. Every standard text reads $a = b$ as "$a$ and $b$ are the same number", so the meaning of equality of numbers is not a conflict.
+3. Different letters for the same object, such as $\mathbb{N}_0$ and $\mathbb{Z}_{\ge 0}$ for $\{0, 1, 2, \ldots\}$. Two names for one meaning are a variation of notation, not a conflict, since no sentence changes its truth value.
+
+### Basic properties
+
+1. A conflict cannot be settled by proof. Each option is a definition, and the theorems under one option translate into theorems under the other.
+2. The translation is mechanical. For example, a theorem about $\mathbb{N} = \{1, 2, \ldots\}$ becomes a theorem about $\mathbb{Z}_{>0}$ in the notation of this site.
+3. The base of the logarithm changes values by a constant factor: $\log_b x = \frac{\ln x}{\ln b}$. So statements up to a constant factor, such as $\log_2 n = O(\log n)$ in [[big O notation|0TGV80E6A4]], do not depend on the base.
+4. The weak and strict forms of "increasing" agree on [[injective|09NWETVTNY]] functions. An increasing function in the weak sense that is also injective is strictly increasing, because $x < y$ gives $f(x) \le f(y)$ and $f(x) \ne f(y)$.
+5. The symbol $f^{-1}(B)$ for a preimage is defined for every function $f$ and every set $B$, but the inverse function $f^{-1}$ exists only when $f$ is a bijection.
+
+### History
+
+The international standard ISO 80000-2, published in 2009 and revised in 2019, includes $0$ in $\mathbb{N}$ and recommends $\ln$, $\lg$ and $\operatorname{lb}$ for the logarithms to bases $e$, $10$ and $2$.
+The notation $]a, b[$ for open intervals is common in French texts, and the notation $(a, b)$ is common in English texts.
+The details of the history of each symbol belong to the history of mathematics.
+
+### Common errors
+
+1. A student quotes a theorem "for every $n \in \mathbb{N}$" from a book with $0 \notin \mathbb{N}$, and applies it at $n = 0$, where it can fail.
+2. A student reads $\sin^{-1} x$ as $\frac{1}{\sin x}$. The two differ: at $x = \tfrac{1}{2}$, $\arcsin \tfrac{1}{2} = \pi/6 \approx 0.524$ but $\frac{1}{\sin(1/2)} \approx 2.086$.
+3. A student uses $f^{-1}$ for a function that is not a bijection, such as $f(x) = x^2$ on $\mathbb{R}$, where $f(2) = f(-2) = 4$.
+
+## Explanations
+
+### L1 human
+
+Mathematicians agree on most symbols, but not on all of them.
+For example, some books count $0$ as a natural number and some do not.
+Neither group is wrong; they just use the word in two ways.
+If a book says "there are $5$ natural numbers below $5$", it counts $0, 1, 2, 3, 4$.
+A book of the other kind counts only $1, 2, 3, 4$, which is $4$ numbers.
+So before we use a fact from a book, we check what its words mean.
+
+### L2 human
+
+We translate a statement between two conventions.
+
+1. Book X uses $\mathbb{N} = \{1, 2, 3, \ldots\}$ and states: "for every $n \in \mathbb{N}$, $2^n \ge n + 1$".
+2. In the notation of this site, the statement reads "for every $n \in \mathbb{Z}_{>0}$, $2^n \ge n + 1$".
+3. If we read the statement of book X with $0 \in \mathbb{N}$, we must also check $n = 0$: there $2^0 = 1 \ge 1$, so the statement still holds.
+4. The statement "for every $n \in \mathbb{N}$, $2^{n-1}$ is an integer" holds for every $n \ge 1$. It fails at $n = 0$, because $2^{-1} = \tfrac{1}{2}$.
+5. The statement "for every $n \in \mathbb{N}$, $n \ge 1$" is true with option B and false with option A, since $0 \ge 1$ is false.
+
+The typical use of such a translation is to quote a theorem from a book whose conventions differ from those of the reader.
+A trap: a statement that is true under both conventions can still have a proof that uses $n \ge 1$, so the proof must be checked for the extra case too.
+
+### L3 human
+
+Conventions are choices of definition, and the formal content of a theorem is invariant under a change of convention once the definitions are translated.
+In a proof assistant this translation is explicit: Mathlib has $\mathbb{N}$ with $0$, the type `ℕ+` of positive natural numbers, and lemmas that move between them.
+The junk-value conventions of Mathlib, such as $x / 0 = 0$, show that the choice of a total function can simplify the statement of many lemmas without changing any theorem with the right hypotheses.
+Similar conflicts occur at a higher level: whether a ring has a unit element, whether a compact space must be Hausdorff (as in Bourbaki), and whether a field is commutative.
+Each such choice changes the scope of the theorems, and the pages of the later areas state the option they use.

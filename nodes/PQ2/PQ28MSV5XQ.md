@@ -1,0 +1,60 @@
+---
+tag: PQ28MSV5XQ
+kind: example
+name: The sentence "n is even, i.e. n = 4" misuses i.e.
+msc: ["00A35"]
+topics: [Z2WNQ1DNTX]
+audience: school
+not_instance_of:
+  - target: 4ZNYMYRRY3
+    note: the abbreviation i.e. must introduce an equivalent restatement, but n = 4 is only one instance of an even number
+uses: [4ZNYMYRRY3, 0C4JS9RF5M]
+sources:
+  - url: https://en.wikipedia.org/wiki/List_of_mathematical_abbreviations
+    locator: lead section
+---
+
+## Example
+
+Consider the sentence "Let $n$ be an even [[integer|0C4JS9RF5M]], `i.e.` $n = 4$."
+We show that this is not a correct use of the [[abbreviation|4ZNYMYRRY3]] `i.e.`.
+
+1. `i.e.` stands for the Latin "id est", that is, "that is". It joins two statements that say the same thing in other words.
+2. So the sentence claims: an integer $n$ is even exactly when $n = 4$.
+3. The integer $6$ is even, because $6 = 2 \cdot 3$.
+4. The integer $6$ is not equal to $4$.
+5. So "$n$ is even" and "$n = 4$" are not the same statement, and the use of `i.e.` is wrong.
+
+Two correct sentences are possible.
+
+- "Let $n$ be an even integer, `e.g.` $n = 4$." Here `e.g.` (for example) gives one instance.
+- "Let $n$ be an even integer, `i.e.` $n = 2k$ for some integer $k$." Here the second part is the definition of "even", so it says the same thing.
+
+## Remarks
+
+The example shows the logical difference between `i.e.` and `e.g.`.
+After `i.e.`, the reader may replace the first part by the second part in every later step.
+After `e.g.`, the reader may not do this, because the second part is only one case.
+A proof that writes `i.e.` here and then uses $n = 4$ proves the result for one number only.
+If we change the sentence to "Let $n$ be an even prime, `i.e.` $n = 2$", the use is correct, because $2$ is the only even prime.
+
+## Explanations
+
+### L1 human
+
+The short form `i.e.` means "that is", and it repeats the same idea in other words.
+The short form `e.g.` means "for example", and it gives one case.
+"Even numbers, `e.g.` $4$" is right, because $4$ is one even number.
+"Even numbers, `i.e.` $4$" is wrong, because $6$ and $8$ are even too.
+
+### L2 human
+
+We test a use of `i.e.` in two steps.
+
+1. Read the two parts as statements $P$ and $Q$.
+2. Check $P \Rightarrow Q$ and $Q \Rightarrow P$. If both hold, the use is correct.
+
+For "$n$ is an even prime, `i.e.` $n = 2$": if $n$ is an even prime, then $2 \mid n$ and $n$ is prime, so $n = 2$; and $2$ is an even prime.
+For "$n$ is even, `i.e.` $n = 4$": the direction $P \Rightarrow Q$ fails at $n = 6$.
+The typical use of this test is in reading definitions, where `i.e.` often gives the formal form of an informal phrase.
+A trap: a writer may use `i.e.` for a consequence that is not an equivalence, such as "$n$ is divisible by $4$, `i.e.` $n$ is even"; the converse fails at $n = 2$.

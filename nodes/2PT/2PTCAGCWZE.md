@@ -1,0 +1,247 @@
+---
+tag: 2PTCAGCWZE
+kind: concept
+name: Glossary of mathematical symbols
+msc: ["00A35"]
+topics: [Z2WNQ1DNTX]
+audience: school
+uses: [QKEX4PD029]
+sources:
+  - url: https://en.wikipedia.org/wiki/Glossary_of_mathematical_symbols
+    locator: lead section
+  - url: https://en.wikipedia.org/wiki/Glossary_of_mathematical_symbols
+    locator: Symbols that do not belong to formulas
+  - url: https://en.wikipedia.org/wiki/ISO/IEC_80000
+    locator: lead section
+---
+
+## Summary
+
+A glossary of mathematical symbols is a reference table that gives, for each common symbol, its usual reading aloud, its meaning, and the page that defines it.
+This page is the glossary of the site: it lists the symbols by field, in the form that the site uses, and it links each symbol to the node that defines the idea behind it.
+A symbol in mathematics is a short name for an object, an operation or a relation, and it always has a reading as words.
+The glossary matters because a reader who cannot read a formula aloud cannot check it, and because one symbol can have different meanings in different fields.
+
+## Motivation
+
+[[Mathematical notation|QKEX4PD029]] packs a sentence into a few marks.
+The formula $\forall x \in \mathbb{R},\ x^2 \geq 0$ is the sentence "for every real number $x$, the square of $x$ is greater than or equal to $0$".
+A reader meets a new symbol in almost every new course, and a textbook defines it only once.
+So a reader needs one place where each symbol has its reading and a link to its definition.
+A second reason is conflict: the sign $\equiv$ means "is congruent to" in number theory and "is identically equal to" in analysis.
+The glossary names each meaning and the field where it is used.
+
+## Notation
+
+Each row of the tables below has four columns: the symbol, a reading aloud, the meaning, and the field or the page.
+The letters $a, b, x, y$ stand for numbers, $A, B$ for sets, $f, g$ for functions, $P, Q$ for statements, and $n$ for a natural number.
+The site writes $\subseteq$ for "is a subset of" and $\subsetneq$ for "is a proper subset of"; the conflicts between conventions have their own page, [[conflicting conventions|CSFEP56A7D]].
+The international standard ISO 80000-2 gives recommended signs and symbols for mathematics in the sciences, and most rows below agree with it.
+
+## Remarks
+
+### Arithmetic and comparison
+
+| Symbol | Reading | Meaning |
+|---|---|---|
+| $a + b$, $a - b$ | "$a$ plus $b$", "$a$ minus $b$" | sum and difference |
+| $a \times b$, $a \cdot b$, $ab$ | "$a$ times $b$" | product |
+| $a \div b$, $a / b$, $\frac{a}{b}$ | "$a$ divided by $b$", "$a$ over $b$" | quotient, for $b \neq 0$ |
+| $\pm$ | "plus or minus" | two values, one with each sign |
+| $a < b$, $a \leq b$ | "$a$ is less than $b$", "$a$ is less than or equal to $b$" | order of real numbers |
+| $a > b$, $a \geq b$ | "$a$ is greater than $b$", "$a$ is greater than or equal to $b$" | order of real numbers |
+| $a^n$ | "$a$ to the power $n$" | the product of $n$ factors equal to $a$ |
+| $\sqrt{a}$, $\sqrt[n]{a}$ | "the square root of $a$", "the $n$-th root of $a$" | the nonnegative [[square root|0F7FQS6XY6]] for $a \geq 0$ |
+| $n!$ | "$n$ factorial" | the [[factorial|0XWG0JGDFW]] $1 \cdot 2 \cdots n$, with $0! = 1$ |
+| $\lvert x \rvert$ | "the absolute value of $x$" | the [[absolute value|0FFXKTKKQC]] |
+| $\lfloor x \rfloor$, $\lceil x \rceil$ | "the floor of $x$", "the ceiling of $x$" | the [[floor function|08GR54CKEA]] and the ceiling function |
+
+### Equality and related relations
+
+| Symbol | Reading | Meaning |
+|---|---|---|
+| $a = b$ | "$a$ equals $b$" | [[equality|E918704SKV]]: the two sides name the same object |
+| $a \neq b$ | "$a$ is not equal to $b$" | the negation of $a = b$ |
+| $x := 3$ | "$x$ is defined to be $3$" | a definition of the left side |
+| $a \equiv b \pmod{n}$ | "$a$ is congruent to $b$ modulo $n$" | [[congruence modulo n|0WAY5WX8NY]]: $n$ divides $a - b$ |
+| $f \equiv 0$ | "$f$ is identically zero" | $f(x) = 0$ for every $x$ |
+| $a \approx b$ | "$a$ is approximately equal to $b$" | an informal closeness, with no exact meaning |
+| $G \cong H$ | "$G$ is isomorphic to $H$" | an [[isomorphism|PZMGQMDN25]] exists |
+| $x \sim y$ | "$x$ is related to $y$" | an [[equivalence relation|0G8VEZ3WTK]] or another relation fixed in the text |
+| $y \propto x$ | "$y$ is proportional to $x$" | $y = cx$ for a constant $c$ |
+
+The page [[equality, definition and equivalence signs|BCGR3NPPXC]] compares these signs in detail.
+
+### Logic
+
+| Symbol | Reading | Meaning |
+|---|---|---|
+| $\neg P$ | "not $P$" | [[negation|029JBBF693]] |
+| $P \wedge Q$ | "$P$ and $Q$" | [[conjunction|025YZN3VJW]] |
+| $P \vee Q$ | "$P$ or $Q$" | [[disjunction|0F72FK8EKB]], inclusive |
+| $P \Rightarrow Q$ | "$P$ implies $Q$", "if $P$ then $Q$" | [[implication|0NMG7W7Q11]] |
+| $P \Leftrightarrow Q$ | "$P$ if and only if $Q$" | the [[biconditional|0S6GMNJ62Y]] |
+| $\forall x$ | "for all $x$", "for every $x$" | the [[universal quantifier|0GHS47PDAQ]] |
+| $\exists x$ | "there exists $x$", "for some $x$" | the [[existential quantifier|0MSRQHCNN9]] |
+| $\exists! x$ | "there exists exactly one $x$" | existence and uniqueness |
+
+### Sets
+
+| Symbol | Reading | Meaning |
+|---|---|---|
+| $x \in A$, $x \notin A$ | "$x$ is an element of $A$", "$x$ is not in $A$" | [[membership|0QM0T7T3PZ]] |
+| $\varnothing$ | "the empty set" | the [[empty set|0ECVK59Y03]] |
+| $\{x \in A : P(x)\}$ | "the set of $x$ in $A$ such that $P(x)$" | [[set-builder notation|0TMZ89Q5KA]]; some books write a vertical bar for the colon |
+| $A \subseteq B$ | "$A$ is a subset of $B$" | every element of $A$ is in $B$; see [[subset|0BJR9QR08E]] |
+| $A \subsetneq B$ | "$A$ is a proper subset of $B$" | $A \subseteq B$ and $A \neq B$ |
+| $A \cup B$, $A \cap B$ | "$A$ union $B$", "$A$ intersect $B$" | [[union|0X1GSWNBN1]] and [[intersection|0ZNMMA9TF5]] |
+| $A \setminus B$ | "$A$ minus $B$" | the [[set difference|05WTQ6FFPS]] |
+| $A^c$ | "the complement of $A$" | the [[complement|0RKF1ZT5JJ]] in a fixed universe |
+| $\mathcal{P}(A)$ | "the power set of $A$" | the [[power set|00E0YZCERH]], the set of all subsets of $A$ |
+| $A \times B$ | "$A$ cross $B$" | the [[Cartesian product|09CEDJYBKP]] |
+| $\lvert A \rvert$, $\# A$ | "the cardinality of $A$" | the [[cardinality|0G0ASKNA6Z]], the number of elements for a finite set |
+
+### Number systems and constants
+
+| Symbol | Reading | Meaning |
+|---|---|---|
+| $\mathbb{N}$ | "N", "the natural numbers" | the [[natural numbers|0MWKJ44V5A]] $0, 1, 2, \ldots$; the site includes $0$ |
+| $\mathbb{Z}$ | "Z", "the integers" | the [[integers|0C4JS9RF5M]] |
+| $\mathbb{Q}$ | "Q", "the rationals" | the [[rational numbers|0NCJ5WXN6Z]] |
+| $\mathbb{R}$ | "R", "the reals" | the [[real numbers|08J2M1JYAG]] |
+| $\mathbb{C}$ | "C", "the complex numbers" | the [[complex numbers|09FTAET5Z4]] |
+| $\pi$ | "pi" | the [[ratio of the circumference of a circle to its diameter|0C1VYVNV2N]] |
+| $e$ | "e" | the [[base of the natural logarithm|0MVCFMW7S4]] |
+| $i$ | "i" | the [[imaginary unit|0ESCX36MMC]], with $i^2 = -1$ |
+| $\infty$ | "infinity" | [[infinity|YZR3KZMQNZ]], used in limits and in intervals, not a real number |
+
+### Functions
+
+| Symbol | Reading | Meaning |
+|---|---|---|
+| $f \colon A \to B$ | "$f$ from $A$ to $B$" | a [[function|0EPAT51DXQ]] with domain $A$ and codomain $B$ |
+| $x \mapsto x^2$ | "$x$ maps to $x$ squared" | the function that sends $x$ to $x^2$ |
+| $g \circ f$ | "$g$ composed with $f$", "$g$ after $f$" | the [[composition|0THBK9V825]] $x \mapsto g(f(x))$ |
+| $f^{-1}$ | "$f$ inverse" | the [[inverse function|0J2WAR83WP]] of a bijection |
+| $f(A)$ | "the image of $A$ under $f$" | the [[image of a set|07XF282NWH]] $\{f(x) : x \in A\}$ |
+| $f^{-1}(B)$ | "the preimage of $B$ under $f$" | the set $\{x : f(x) \in B\}$; it exists for every $f$ |
+
+### Sums, limits and calculus
+
+| Symbol | Reading | Meaning |
+|---|---|---|
+| $\sum_{i=1}^{n} a_i$ | "the sum of $a_i$ for $i$ from $1$ to $n$" | $a_1 + a_2 + \cdots + a_n$ |
+| $\prod_{i=1}^{n} a_i$ | "the product of $a_i$ for $i$ from $1$ to $n$" | $a_1 a_2 \cdots a_n$ |
+| $\lim_{x \to a} f(x)$ | "the limit of $f(x)$ as $x$ tends to $a$" | the [[limit of a function|0PKRYB8ATM]] |
+| $f'(x)$, $\frac{dy}{dx}$ | "$f$ prime of $x$", "d y by d x" | the [[derivative|0V1EJCT8G6]] |
+| $\frac{\partial f}{\partial x}$ | "partial f by partial x" | the [[partial derivative|09EGC6F8PT]] |
+| $\int_a^b f(x)\,dx$ | "the integral from $a$ to $b$ of $f(x)$ d x" | the [[definite integral|04TMP0XGMJ]] |
+| $\nabla f$ | "nabla f", "grad f" | the [[gradient|0ABK9V9Y64]] |
+| $f = O(g)$ | "$f$ is big O of $g$" | [[big O notation|0TGV80E6A4]]: $\lvert f \rvert \leq C \lvert g \rvert$ eventually |
+
+### Linear algebra
+
+| Symbol | Reading | Meaning |
+|---|---|---|
+| $A^{\top}$ | "A transpose" | the [[transpose|09DXWYRD43]] |
+| $\det A$ | "the determinant of $A$" | the [[determinant|00KDZRW4C0]] |
+| $I_n$ | "the $n$ by $n$ identity matrix" | the [[identity matrix|06DW9BAWB1]] |
+| $v \cdot w$ | "v dot w" | the [[dot product|0S52TNNTH9]] |
+| $\langle v, w \rangle$ | "the inner product of $v$ and $w$" | an [[inner product|0NB0AWGJBW]] |
+| $\lVert v \rVert$ | "the norm of $v$" | a [[norm|0V2WP9B1MF]] |
+
+### Number theory and algebra
+
+| Symbol | Reading | Meaning |
+|---|---|---|
+| $a \mid b$ | "$a$ divides $b$" | [[divisibility|0PG2H7WKGG]]: $b = ak$ for an integer $k$ |
+| $\gcd(a, b)$ | "the gcd of $a$ and $b$" | the [[greatest common divisor|0C8WYW4KYQ]] |
+| $\mathbb{Z}/n\mathbb{Z}$ | "Z mod n Z" | the [[integers modulo $n$|03VFZ2WETT]] |
+| $\langle g \rangle$ | "the subgroup generated by $g$" | a [[cyclic group|0KVGH0J5B3]] |
+| $G/N$ | "G mod N" | the [[quotient group|0KYX2N69J0]] |
+| $\ker \varphi$ | "the kernel of phi" | the [[kernel of a homomorphism|0W88CEGQP1]] |
+
+### Probability
+
+| Symbol | Reading | Meaning |
+|---|---|---|
+| $P(A)$ | "the probability of $A$" | a [[probability measure|059TJN0NZ1]] applied to the event $A$ |
+| $P(A \mid B)$ | "the probability of $A$ given $B$" | the [[conditional probability|0990W5PN13]] |
+| $E[X]$ | "the expectation of $X$" | the [[expected value|0WQNRCNY3M]] |
+| $\operatorname{Var}(X)$ | "the variance of $X$" | the [[variance|0477R9PYAE]] |
+
+### Symbols outside formulas
+
+| Symbol | Reading | Meaning |
+|---|---|---|
+| $\blacksquare$, $\square$ | "end of proof" | the tombstone; see [[end of proof marks|ET9J6R9T5C]] |
+| $\therefore$ | "therefore" | the next line follows from the lines before |
+| $\because$ | "because" | the reason for the line before |
+
+The written abbreviations, such as `iff` and `wlog`, have their own page, [[mathematical abbreviations|4ZNYMYRRY3]].
+
+### Examples
+
+1. The formula $\exists! x \in \mathbb{R} : 2x + 1 = 0$ reads "there exists exactly one real number $x$ such that $2x + 1 = 0$". It is true: the only solution is $x = -\tfrac{1}{2}$.
+2. The formula $A \cap B \subseteq A \cup B$ reads "$A$ intersect $B$ is a subset of $A$ union $B$". It is true, because an element of both sets is an element of at least one of them.
+3. The formula $\sum_{k=1}^{4} k^2 = 30$ reads "the sum of $k$ squared for $k$ from $1$ to $4$ equals $30$". The check is $1 + 4 + 9 + 16 = 30$.
+4. The formula $17 \equiv 2 \pmod{5}$ reads "$17$ is congruent to $2$ modulo $5$". It is true, because $17 - 2 = 15 = 3 \cdot 5$.
+
+### Non-examples
+
+1. The string $x \in \subseteq A$ is not a formula. The sign $\in$ needs a set on its right side, and $\subseteq A$ is not a set.
+2. The string $2 \mid 6 = 3$ does not mean "$2$ divided into $6$ is $3$". The sign $\mid$ makes the statement "$2$ divides $6$", which is not a number, so it cannot equal $3$.
+3. The mark $\blacksquare$ at the end of a proof is not a part of any formula. It belongs to the text, like a full stop.
+
+### Basic properties
+
+1. One symbol can have several meanings. The bar $\lvert \cdot \rvert$ gives the absolute value of a number, the cardinality of a set and the determinant of a matrix in some books. The text around the symbol decides which meaning is used.
+2. One meaning can have several symbols. The product of $a$ and $b$ is $a \times b$, $a \cdot b$ or $ab$.
+3. Each symbol has a type: it takes inputs of some kinds and gives an output of some kind. For example, $\cup$ takes two sets and gives a set, and $\subseteq$ takes two sets and gives a statement. A formula that breaks the types has no meaning.
+4. A statement written with symbols is a sentence. It has a subject and a verb: in $x \leq 3$, the verb is "is less than or equal to".
+
+### History
+
+Robert Recorde introduced the equals sign $=$ in 1557.
+Gottfried Wilhelm Leibniz introduced the integral sign $\int$ and the letter $d$ for differentials in the 1670s.
+Leonhard Euler made the letters $e$, $i$ and $\pi$ and the notation $f(x)$ standard.
+The detailed history of each symbol belongs to the history of mathematical notation.
+
+### Common errors
+
+1. A student writes $\Rightarrow$ between lines of a computation to mean "the next line". The sign means "implies", and an implication between two lines is a claim that needs a reason. The site writes words such as "so" between steps.
+2. A student confuses $\in$ and $\subseteq$. We have $1 \in \{1, 2\}$ and $\{1\} \subseteq \{1, 2\}$, but $\{1\} \notin \{1, 2\}$.
+3. A student reads $f^{-1}(B)$ as the image of $B$ under an inverse function. The preimage $f^{-1}(B)$ exists for every function, also for a function that has no inverse.
+
+## Explanations
+
+### L1 human
+
+A mathematical symbol is a short way to write a word or a phrase.
+The sign $<$ means "is less than", so $2 < 5$ is the sentence "two is less than five".
+Each symbol can be read aloud, and a good habit is to read every formula as a full sentence.
+This page is like a dictionary: it lists the symbols, tells how to say each one, and points to a page that explains it.
+Some symbols mean different things in different parts of mathematics, so the table also says where each meaning is used.
+
+### L2 human
+
+We read and check the formula $\forall n \in \mathbb{N},\ \exists m \in \mathbb{N} : m > n^2$.
+
+1. The sign $\forall n \in \mathbb{N}$ reads "for every natural number $n$".
+2. The sign $\exists m \in \mathbb{N}$ reads "there exists a natural number $m$".
+3. The colon reads "such that", and $m > n^2$ reads "$m$ is greater than $n$ squared".
+4. The full sentence is: "for every natural number $n$, there exists a natural number $m$ such that $m$ is greater than $n^2$".
+5. The statement is true: given $n$, the number $m = n^2 + 1$ is a natural number and $m > n^2$.
+
+The typical use of the glossary is to translate a formula into a sentence before we try to prove it.
+A trap: the order of the quantifiers matters.
+The formula $\exists m \in \mathbb{N} : \forall n \in \mathbb{N},\ m > n^2$ uses the same symbols in another order, and it is false, because no single $m$ is larger than every square.
+
+### L3 human
+
+A symbol is a name, and the table of symbols is a small part of a type system.
+Each sign has an arity and a type: $\in$ takes an element and a set and gives a proposition, while $\cap$ takes two sets and gives a set.
+Proof assistants such as Lean make these types explicit, and a formula with a type error is rejected before any proof starts.
+The meaning of a symbol often depends on a context that the text fixes once, such as the modulus in $\equiv$ or the universe for a complement.
+Overloading is resolved by these types: $\lvert x \rvert$ is an absolute value when $x$ is a number and a cardinality when $x$ is a set.
+The site keeps its global symbols and their readings in a notation register, and the pages on [[conflicting conventions|CSFEP56A7D]] and [[abuse of notation|JV68YRB5YZ]] treat the places where the same sign carries several meanings.
