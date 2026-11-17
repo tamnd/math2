@@ -6,7 +6,7 @@ msc: ["03F30", "03F40"]
 topics: [QHCRN4JVG0]
 audience: grad
 proves: M5WNB181T7
-uses: [HACXBCM7SS, T70PYM1F36, ME9J33BFNC, X9WYNYE29C, 4A84VHDTHV, 0J0XBKG64S]
+uses: [HACXBCM7SS, T70PYM1F36, ME9J33BFNC, 4PZM5GJTR5, 4A84VHDTHV, 0J0XBKG64S]
 methods: [0J0XBKG64S, 0NTF6DMVAP]
 sources:
   - url: https://en.wikipedia.org/wiki/Reflection_principle
@@ -19,7 +19,7 @@ sources:
 We cite two lemmas without proof.
 
 - Lemma 1 (partial truth): for each $n \ge 1$, $\mathsf{PA} \vdash \mathrm{Con}(\mathsf{I}\Sigma_n)$; it follows from Mostowski's reflection theorem, proved with a truth predicate for formulas of bounded complexity.
-- Lemma 2 (second incompleteness): if $T$ is consistent, recursively axiomatized and proves every axiom of $\mathsf{PA}$, then $T \nvdash \mathrm{Con}(T)$; this is the [[second incompleteness theorem|X9WYNYE29C]].
+- Lemma 2 (second incompleteness): if $T$ is consistent, recursively axiomatized and proves every axiom of $\mathsf{PA}$, then $T \nvdash \mathrm{Con}(T)$; this is the [[second incompleteness theorem|4PZM5GJTR5]].
 
 We argue by [[contradiction|0J0XBKG64S]].
 
