@@ -1,0 +1,45 @@
+---
+tag: 6FWPDEK05X
+kind: example
+name: The sentence 0 = 0 is a Henkin sentence
+msc: ["03F40"]
+topics: [HXHHWY3328]
+audience: grad
+instance_of: [SBMQ5QHG9W]
+uses: [SBMQ5QHG9W, F6H4STF9RG, NB2BCZR40F, MPSCREYC3M]
+sources:
+  - url: https://en.wikipedia.org/wiki/Hilbert%E2%80%93Bernays_provability_conditions
+    locator: lead section
+  - book: isbn:9780521857840
+---
+
+## Example
+
+Let $T \supseteq \mathsf{PA}$ have the standard [[provability predicate|NB2BCZR40F]], and write $\square \varphi$ for $\mathrm{Prov}_T(\ulcorner \varphi \urcorner)$.
+We check that $0 = 0$ is a [[Henkin sentence|SBMQ5QHG9W]] of $T$, that is, $T \vdash (0 = 0) \leftrightarrow \square (0 = 0)$.
+
+1. $0 = 0$ is an axiom of equality, so $T \vdash 0 = 0$.
+2. By the [[derivability condition|F6H4STF9RG]] D1, $T \vdash \square (0 = 0)$.
+3. A biconditional between two theorems is a theorem. So $T \vdash (0 = 0) \leftrightarrow \square (0 = 0)$.
+
+## Remarks
+
+The same three steps show that every theorem of $T$ is a Henkin sentence.
+With Löb's theorem the converse holds, so the Henkin sentences of $T$ are exactly its theorems.
+So "Henkin sentence" is a property of what a sentence is provably equivalent to, not of its self-reference.
+
+## Explanations
+
+### L1 human
+
+The statement "$0 = 0$" is provable, and so the statement "$0 = 0$ is provable" is also provable.
+Two provable statements are provably equivalent, so "$0 = 0$" says, up to equivalence, "I am provable".
+
+### L2 human
+
+1. Prove $0 = 0$.
+2. Apply D1 to get $\square (0 = 0)$.
+3. Combine the two theorems into the biconditional.
+
+The typical use is to show that Henkin sentences need not be self-referential in form.
+A trap: the converse step, that every Henkin sentence is a theorem, needs Löb's theorem.

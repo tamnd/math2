@@ -3,9 +3,9 @@ tag: T7C1TEZBRD
 kind: example
 name: An integer is even if and only if its square is even
 msc: ["00A35", "11A05"]
-topics: [958EF46EYJ]
+topics: [958EF46EYJ, PM1AYWABA7]
 audience: school
-instance_of: [TFQ1845T84]
+instance_of: [TFQ1845T84, 0S6GMNJ62Y]
 uses: [TFQ1845T84, 0NTF6DMVAP, 0BB5TPGQ1N, MKNWSR8WRN]
 sources:
   - url: https://en.wikipedia.org/wiki/If_and_only_if

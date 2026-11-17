@@ -1,0 +1,60 @@
+---
+tag: EFF30FNVZ0
+kind: example
+name: The converse of the Pythagorean theorem is true
+msc: ["03B05", "51M04"]
+topics: [PM1AYWABA7]
+audience: school
+instance_of: [09A3N7ZN5G]
+uses: [09A3N7ZN5G, 0VP3A1290K, 060ZVZBV3E]
+sources:
+  - url: https://en.wikipedia.org/wiki/Pythagorean_theorem
+    locator: Converse
+  - url: https://en.wikipedia.org/wiki/Converse_(logic)
+    locator: lead section
+---
+
+## Example
+
+Let $ABC$ be a triangle with side lengths $a = BC$, $b = CA$ and $c = AB$, and let $\gamma$ be the angle at $C$.
+Let $p$ be "$\gamma$ is a right angle", and let $q$ be "$a^2 + b^2 = c^2$".
+The [[Pythagorean theorem|0VP3A1290K]] is the implication $p \to q$.
+We write its [[converse and its inverse|09A3N7ZN5G]], and we check that both are true.
+
+1. The converse is $q \to p$: if $a^2 + b^2 = c^2$, then $\gamma$ is a right angle.
+2. The inverse is $\neg p \to \neg q$: if $\gamma$ is not a right angle, then $a^2 + b^2 \neq c^2$.
+3. The [[law of cosines|060ZVZBV3E]] gives $c^2 = a^2 + b^2 - 2ab\cos\gamma$ for every triangle.
+4. Suppose $a^2 + b^2 = c^2$. Then step 3 gives $2ab\cos\gamma = 0$.
+5. The side lengths satisfy $a > 0$ and $b > 0$, so step 4 gives $\cos\gamma = 0$.
+6. The angle of a triangle satisfies $0^\circ < \gamma < 180^\circ$, and on this range $\cos\gamma = 0$ only for $\gamma = 90^\circ$. So the converse is true.
+7. The inverse is the contrapositive of the converse, so it is true as well. Directly: if $\gamma \neq 90^\circ$, then $\cos\gamma \neq 0$ by step 6, and step 3 gives $c^2 \neq a^2 + b^2$.
+
+A numerical check: the sides $5$, $12$, $13$ satisfy $25 + 144 = 169$, so by the converse the triangle has a right angle opposite the side $13$.
+
+## Remarks
+
+The example shows that a converse can be true, but that its truth needs a new proof: here, the law of cosines.
+The implication and its converse together give the [[biconditional|0S6GMNJ62Y]] $p \leftrightarrow q$, so the equation $a^2 + b^2 = c^2$ is a necessary and sufficient condition for a right angle at $C$.
+The same computation gives more: $a^2 + b^2 > c^2$ exactly when $\gamma$ is acute, and $a^2 + b^2 < c^2$ exactly when $\gamma$ is obtuse.
+For the sides $4$, $5$, $6$, we get $16 + 25 = 41 > 36$, so the angle opposite the side $6$ is acute.
+Euclid proved the theorem as Proposition 47 of Book I of the Elements and the converse as Proposition 48.
+
+## Explanations
+
+### L1 human
+
+The Pythagorean theorem says: in a right triangle, the two short sides squared add up to the long side squared.
+The converse turns this around: if the two short sides squared add up to the long side squared, then the triangle has a right angle.
+Here the converse is also true.
+Builders use it: a triangle with sides $3$, $4$ and $5$ metres has a right angle, because $9 + 16 = 25$.
+
+### L2 human
+
+We decide whether the triangle with sides $7$, $24$, $25$ has a right angle.
+
+1. The longest side is $c = 25$, and $c^2 = 625$.
+2. The other sides give $a^2 + b^2 = 49 + 576 = 625$.
+3. So $a^2 + b^2 = c^2$, and the converse of the Pythagorean theorem gives a right angle opposite the side $25$.
+
+The typical use of the converse is this test: we compute squares of lengths and conclude that an angle is right.
+A trap is to use the Pythagorean theorem itself for this test: the theorem assumes a right angle, so it cannot prove one.
