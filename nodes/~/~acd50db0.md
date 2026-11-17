@@ -1,0 +1,154 @@
+---
+tag: ~acd50db0
+kind: concept
+name: Reading proofs
+aliases: [reading-mathematical-proofs]
+msc: ["00A35", "97E50"]
+topics: [STSM6PR7TX]
+audience: ug1
+uses: [0B94TKFQJX, W48XN2MEM9, ~2deb01cc]
+sources:
+  - url: https://en.wikipedia.org/wiki/Paul_Halmos
+    locator: Accomplishments
+  - doi: 10.5951/jresematheduc.45.1.0062
+    locator: pages 62-101
+  - doi: 10.1007/s10649-011-9349-7
+    locator: pages 3-18
+  - book: isbn:9780691164076
+    locator: Part III
+---
+
+## Summary
+
+Reading a [[proof|0B94TKFQJX]] actively means checking which earlier lines, definitions or results justify each line.
+The reader also writes down the missing reasons.
+An active reader also tests the statement and each step on examples, and finds the step where each hypothesis is used.
+Finally the reader states the main idea of the proof in a few sentences.
+The method of self-explanation asks readers to explain each line to themselves in terms of the earlier lines and the definitions.
+Repeating a line in other words is not enough.
+Active reading matters because a written proof leaves out routine steps.
+Only a reader who fills them in understands the proof and can detect an error in it.
+
+## Motivation
+
+A proof in a textbook or a paper is compressed.
+The writer leaves out steps that the intended reader can supply, as the page [[level of detail in proofs|~01d1ea56]] explains.
+A reader who reads the lines as a story feels that each line is plausible, and yet cannot say why each line follows.
+This feeling of understanding is often false.
+The same reader cannot rebuild the proof a day later, or cannot apply its idea to a similar problem.
+A reader also cannot detect an error by passive reading, because a false step looks the same as a true step.
+The active method replaces the question "does this look right?" by the question "what exactly justifies this line?".
+
+## Remarks
+
+### When it applies
+
+1. The method applies to each proof that a reader must understand, not only accept: a proof in a lecture, a textbook or a paper.
+2. It applies with most force to a new topic, where the reader does not yet know the standard steps.
+3. Some readers only need the statement of a result, for example to use it as a tool. They can read the statement carefully and leave the proof for later.
+
+### The steps
+
+1. Read the statement first. Find its [[hypotheses and its conclusion|W48XN2MEM9]], and [[unpack the definitions|~2deb01cc]] of the terms in it.
+2. Test the statement on one or two small examples. This shows what the statement says, and it gives test cases for the later steps.
+3. Read the proof once fast, for its structure. Identify the [[proof method|G9JFJGY4TQ]], for example induction or contradiction, and the main claims.
+4. Read the proof a second time, line by line. For each line, write the reason: a hypothesis, a definition, an earlier line, or a known result.
+5. When a line has no visible reason, fill the gap in writing. When the gap is too large, mark it and return to it later.
+6. Mark the step where each hypothesis is used. A hypothesis that the proof never uses is a signal of an error, or of a theorem that holds more generally.
+7. Run the proof on an example. Follow each step with the numbers of the example, and check that each step is true for them.
+8. Summarize the proof in two to four sentences. The summary names the main idea, not the details.
+9. Look back at the result. Ask if each hypothesis is needed, if the converse holds, and if the method proves other results.
+
+### Examples
+
+1. [[Reading a proof that divisibility is transitive|~87700b68]]. The reader writes the reason for each line and marks the use of the two hypotheses. Then the reader runs the proof with $3$, $6$ and $24$.
+2. [[Self-explanation of a proof that a square is 0 or 1 modulo 4|~ba96f001]]. The reader explains each line by the definitions and the earlier lines. Then the reader tests the cases with $n = 6$ and $n = 7$.
+3. A reader of Euclid's proof that there are [[infinitely many primes|0292EPPPT0]] tests the construction on the list $2, 3, 5$. The number $2 \cdot 3 \cdot 5 + 1 = 31$ is not divisible by $2$, $3$ or $5$, which shows the key step.
+4. A reader of the proof of the [[boundedness theorem|0ATVXC3NCC]] marks where the proof uses that the interval $[a, b]$ is closed and bounded. The function $f(x) = 1/x$ on $(0, 1]$ shows why the proof needs this.
+
+### Non-examples
+
+1. [[Paraphrase without checking does not catch a false step|~77b94e4c]]. The reader restates each line and accepts "take square roots of both sides". The reader misses that the claim fails for $x = -3$.
+2. Reading only the first and the last line of a proof is not active reading. It gives the statement again, but no understanding of why it holds.
+3. Checking the statement on many examples is not reading the proof. The examples test the statement, but they say nothing about the argument. The page on [[forty prime values of n^2 + n + 41|H75AB4EJT5]] shows this.
+
+### Basic properties
+
+1. Active reading is slow. A proof of ten lines can take half an hour for a first reading, and this is normal.
+2. Each step of the method produces a written result: a list of reasons, a list of the uses of the hypotheses, an example, a summary. The written result shows the reader what is still unclear.
+3. A hypothesis that a proof never uses gives a stronger theorem without that hypothesis, or it shows an error in the proof. The reader must decide which of the two is true.
+4. Active reading of a proof is the same activity as [[checking a proof|~14ee5799]], with a different aim. Reading aims at understanding, and checking aims at a verdict.
+
+### When it fails
+
+1. The method fails when the reader lacks the background of the proof. Then most lines have no visible reason, and the reader must first learn the definitions and the standard results.
+2. It fails for a very long proof read line by line from the start. For such a proof, the reader first finds the structure (the lemmas and the main theorem), then reads each lemma as a separate proof.
+3. A computer-assisted step, for example a check of many cases by a program, cannot be read line by line. The reader can only check what the program computes and why the cases are complete.
+
+### Related methods
+
+1. [[Checking a proof|~14ee5799]] applies the same steps to decide if a proof is correct.
+2. [[Unpacking definitions|~2deb01cc]] is the first step of reading, applied to the statement.
+3. [[Writing proofs|~7e59ebb2]] is the reverse process. A writer who has read proofs actively knows which reasons a reader needs.
+
+### History
+
+George Pólya, in "How to Solve It", made "looking back" the last stage of solving a problem.
+Looking back means checking the result, and asking if the method gives other results.
+Paul Halmos, in his 1985 memoir "I Want to Be a Mathematician", urged readers to "fight" a text.
+The reader asks if each hypothesis is necessary, if the converse is true, and where the proof uses each hypothesis.
+In 2012 Juan Pablo Mejía-Ramos and four coauthors published a model for the assessment of proof comprehension in undergraduate mathematics.
+In 2014 Mark Hodds, Lara Alcock and Matthew Inglis reported that a short training in self-explanation improved the proof comprehension of undergraduate students.
+
+### Common errors
+
+1. A student reads a proof at the speed of a novel. The student then feels that the proof is clear, but cannot rebuild it.
+2. A student paraphrases each line, "so $n^2 = 4k^2$", instead of explaining it, "since $n = 2k$ by line 2, squaring gives $n^2 = 4k^2$". A paraphrase does not test the reason.
+3. A student stops at the first unclear line. The better choice is to mark the line, accept it for the moment, read on, and return to it later.
+
+## Explanations
+
+### L1 human
+
+Reading a proof is not like reading a story.
+Each line of a proof must follow from the lines before it, and a good reader checks this for each line.
+For example, a proof may say "the number $n$ is even, so $n^2$ is even".
+The reader stops and asks why: $n = 2k$ for some whole number $k$, so $n^2 = 4k^2 = 2 \cdot 2k^2$, which is even.
+The reader also tries the claim on a number, for example $n = 6$ gives $n^2 = 36$, which is even.
+This reading is slow, but at the end the reader knows why the result is true.
+
+### L2 human
+
+We read the proof of the statement "if $a$ is an odd integer, then $a^2 - 1$ is divisible by $8$".
+The proof in the text says the following.
+
+> Write $a = 2k + 1$.
+> Then $a^2 - 1 = 4k(k + 1)$, and $k(k + 1)$ is even.
+> Hence $8$ divides $a^2 - 1$.
+
+
+1. The statement: the hypothesis is "$a$ is an odd integer", and the conclusion is "$8$ divides $a^2 - 1$". The test case $a = 5$ gives $24 = 8 \cdot 3$.
+2. Line "Write $a = 2k + 1$": the reason is the definition of an odd integer, which gives an integer $k$. Here the hypothesis is used.
+3. Line "$a^2 - 1 = 4k(k + 1)$": we expand $(2k + 1)^2 - 1 = 4k^2 + 4k = 4k(k + 1)$. For $a = 5$ we have $k = 2$ and $4 \cdot 2 \cdot 3 = 24$, which agrees.
+4. Line "$k(k + 1)$ is even": the text gives no reason. We fill it in: one of two consecutive integers is even, so their product is even. For $k = 2$ the product is $6$.
+5. Line "Hence $8$ divides $a^2 - 1$": since $k(k + 1) = 2m$ for an integer $m$, we get $a^2 - 1 = 8m$. For $a = 5$ we have $m = 3$.
+6. Summary: write the odd number with $k$, factor, and use that one of $k$ and $k + 1$ is even.
+7. Looking back: the hypothesis "odd" is needed, because $a = 2$ gives $a^2 - 1 = 3$, which $8$ does not divide.
+
+The typical use of the method is in a course.
+Before a lecture or an examination, the student reads each proof of the course in this way.
+A trap is step 4: the gap "$k(k+1)$ is even" is a real step of the proof.
+A reader who skips it has not checked the proof.
+
+### L3 human
+
+Research in mathematics education separates local and holistic understanding of a proof.
+Local understanding concerns single lines: the meaning of the terms, the logical status of each statement, and the justification of each claim.
+Holistic understanding concerns the whole: the main idea and the division into modules such as lemmas.
+It also covers the transfer of the method to other problems and the illustration by examples.
+The assessment model of Mejía-Ramos and coauthors uses this division to write tests of proof comprehension.
+The page on [[teaching reasoning and proof|VHGA6J4NZK]] treats this research.
+Self-explanation is a general method of learning from worked examples in many sciences, and the work of Hodds, Alcock and Inglis applies it to proofs.
+A proof assistant gives the extreme form of local reading: it checks each line against the rules.
+It does not give holistic understanding, as the page on [[proof assistants|YM6PRDE88V]] discusses.
+The same steps, with a verdict as the aim, become the work of a referee, as described on the page [[checking a proof|~14ee5799]].
