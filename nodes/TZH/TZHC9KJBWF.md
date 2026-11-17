@@ -1,0 +1,89 @@
+---
+tag: TZHC9KJBWF
+kind: example
+name: Small values of Buchholz's psi zero
+msc: ["03F15", "03E10"]
+topics: [XTTKZTYDSD]
+audience: research
+instance_of: [E7WEFRMQTB]
+uses: [E7WEFRMQTB, 7TFCZSVX5R, 6GD30FGYDZ, PQSHBKCE7V]
+sources:
+  - url: https://en.wikipedia.org/wiki/Buchholz_psi_functions
+    locator: Explanation
+  - url: https://en.wikipedia.org/wiki/Buchholz_psi_functions
+    locator: Properties
+---
+
+## Example
+
+We use [[Buchholz's functions|E7WEFRMQTB]] $\psi_\nu$, with $\Omega_0 = 1$ and $\Omega = \Omega_1$.
+We show the following values.
+
+- (a) $\psi_\nu(0) = \Omega_\nu$ for each $\nu \le \omega$, so $\psi_0(0) = 1$ and $\psi_1(0) = \Omega$.
+- (b) $\psi_0(\alpha) = \omega^\alpha$ for each $\alpha \le \varepsilon_0$. In particular $\psi_0(1) = \omega$, $\psi_0(2) = \omega^2$, $\psi_0(\omega) = \omega^\omega$ and $\psi_0(\varepsilon_0) = \varepsilon_0$.
+- (c) $\psi_0(\alpha) = \varepsilon_0$ for each $\alpha$ with $\varepsilon_0 \le \alpha \le \Omega$.
+- (d) $\psi_0(\Omega + 1) = \omega^{\varepsilon_0 + 1} = \varepsilon_0 \cdot \omega$.
+
+We use one fact (F) on sums: if $\rho$ is [[additively indecomposable|7TFCZSVX5R]] and $\beta, \gamma < \rho$, then $\beta + \gamma < \rho$; and a sum with a summand at least $\Omega$ is at least $\Omega$.
+
+Proof of (a).
+
+1. $C_\nu(0)$ allows no value of $\psi$, since no $\xi$ is below $0$. So $C_\nu(0)$ is the closure of $\set{\beta : \beta < \Omega_\nu}$ under addition.
+2. For $\nu = 0$ this set is $\set{0}$, and $0 + 0 = 0$. So $\psi_0(0) = 1$.
+3. For $\nu \ge 1$, $\Omega_\nu$ is an infinite cardinal, so the sum of two smaller ordinals is smaller. So $\psi_\nu(0) = \Omega_\nu$.
+
+Proof of (b), by induction on $\alpha \le \varepsilon_0$.
+Assume $\psi_0(\xi) = \omega^\xi$ for all $\xi < \alpha$.
+
+4. Upper bound. By induction on $n$, every element of $C^n_0(\alpha)$ is below $\omega^\alpha$ or at least $\Omega$. The start $C^0_0(\alpha) = \set{0}$ has this property.
+5. Sums keep the property by (F), since $\omega^\alpha$ is additively indecomposable.
+6. A value $\psi_0(\xi)$ with $\xi < \alpha$ is $\omega^\xi < \omega^\alpha$. A value $\psi_\mu(\xi)$ with $\mu \ge 1$ is at least $\Omega_\mu \ge \Omega$.
+7. So $\omega^\alpha \notin C_0(\alpha)$, and $\psi_0(\alpha) \le \omega^\alpha$.
+8. Lower bound. Every $\beta < \omega^\alpha$ is in $C_0(\alpha)$, by induction on $\beta$. For $\beta = 0$ this holds.
+9. For $\beta > 0$, write $\beta = \omega^{\beta_1} + \dots + \omega^{\beta_k}$ in [[Cantor normal form|6GD30FGYDZ]] with $\beta_1 \ge \dots \ge \beta_k$. Then $\beta_i \le \beta_1 < \alpha$, because $\beta < \omega^\alpha$.
+10. Each $\beta_i$ is below $\beta$: if $\beta_i = \beta$, then $\omega^\beta \le \beta$, so $\beta$ is an [[epsilon number|PQSHBKCE7V]] below $\omega^\alpha \le \varepsilon_0$, and no such number exists.
+11. By the induction hypothesis, $\beta_i \in C_0(\alpha)$. Since $\beta_i < \alpha$, the value $\psi_0(\beta_i) = \omega^{\beta_i}$ is in $C_0(\alpha)$, and so is the sum $\beta$.
+12. So $\psi_0(\alpha) = \omega^\alpha$. For $\alpha = \varepsilon_0$ we get $\omega^{\varepsilon_0} = \varepsilon_0$.
+
+Proof of (c).
+Let $\varepsilon_0 \le \alpha \le \Omega$.
+
+13. Every $\beta < \varepsilon_0$ is in $C_0(\varepsilon_0) \subseteq C_0(\alpha)$, by (b).
+14. By induction on $n$, every element of $C^n_0(\alpha)$ is below $\varepsilon_0$ or at least $\Omega$. For a value $\psi_0(\xi)$, the argument satisfies $\xi < \alpha \le \Omega$, so $\xi < \varepsilon_0$ by the induction hypothesis, and $\psi_0(\xi) = \omega^\xi < \varepsilon_0$. The other cases are as in steps 5 and 6.
+15. So $\varepsilon_0 \notin C_0(\alpha)$, and $\psi_0(\alpha) = \varepsilon_0$.
+
+Proof of (d).
+
+16. $\Omega = \psi_1(0)$ is in $C_0(\Omega + 1)$, because $0 < \Omega + 1$. Since $\Omega < \Omega + 1$, the value $\psi_0(\Omega) = \varepsilon_0$ is in $C_0(\Omega + 1)$.
+17. Every ordinal below $\varepsilon_0 \cdot \omega$ has the form $\varepsilon_0 \cdot m + \gamma$ with $m$ natural and $\gamma < \varepsilon_0$. It is a sum of copies of $\varepsilon_0$ and an element of $C_0(\Omega + 1)$ by step 13, so it is in $C_0(\Omega + 1)$.
+18. Every allowed value $\psi_0(\xi)$ has $\xi \le \Omega$, so it is at most $\varepsilon_0$ by (b) and (c). The values $\psi_\mu(\xi)$ with $\mu \ge 1$ are at least $\Omega$.
+19. By (F) with $\rho = \omega^{\varepsilon_0 + 1}$, every countable element of $C_0(\Omega + 1)$ is below $\varepsilon_0 \cdot \omega$. So $\psi_0(\Omega + 1) = \varepsilon_0 \cdot \omega$.
+
+## Remarks
+
+Below $\varepsilon_0$, Buchholz's $\psi_0$ is the function $\alpha \mapsto \omega^\alpha$, so it produces powers of $\omega$ although the definition only uses addition.
+At $\varepsilon_0$ the function gets stuck, because the argument of $\psi_0$ must already be in the closure set, and every argument formed from countable material is below $\varepsilon_0$.
+The argument $\Omega = \psi_1(0)$ names $\varepsilon_0$ as $\psi_0(\Omega)$, and from $\Omega + 1$ on the function grows again.
+Compare the [[collapsing function with exponentiation|8S6CT4TMB7]]: there the stopping point below $\Omega$ is $\zeta_0$ instead of $\varepsilon_0$, because exponentiation is a generator.
+
+## Explanations
+
+### L1 human
+
+Buchholz's first function starts at $1$, then gives $\omega$, then $\omega^2$, $\omega^3$, and so on.
+It only knows how to add, but it can feed its own answers back in, and this produces all powers of $\omega$.
+It gets stuck at $\varepsilon_0$, the first ordinal that equals $\omega$ to its own power.
+The huge ordinal $\Omega$ gives the missing name: $\psi_0(\Omega) = \varepsilon_0$.
+One step past $\Omega$, the function moves on to $\varepsilon_0 \cdot \omega$.
+
+### L2 human
+
+We compute $\psi_0(\omega + 1)$.
+
+1. The argument $\omega$ is in $C_0(\omega + 1)$, because $\omega = \psi_0(1)$ and $1 = \psi_0(0)$ with $0 < 1 < \omega + 1$.
+2. So $\psi_0(\omega) = \omega^\omega$ is in $C_0(\omega + 1)$, and so are all $\psi_0(n) = \omega^n$.
+3. Sums of copies of $\omega^\omega$ and smaller powers give every ordinal below $\omega^\omega \cdot \omega = \omega^{\omega + 1}$.
+4. No allowed value reaches $\omega^{\omega + 1}$, so $\psi_0(\omega + 1) = \omega^{\omega + 1}$.
+
+The typical use is to check a new notation against known ordinals before the impredicative part starts.
+The trap is to forget that $\Omega = \psi_1(0)$ is always available in $C_0(\alpha)$ for $\alpha > 0$; it is a name, not a countable ordinal, and sums with it stay uncountable.

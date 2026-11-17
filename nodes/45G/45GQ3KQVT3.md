@@ -1,0 +1,92 @@
+---
+tag: 45GQ3KQVT3
+kind: definition
+name: Theories of iterated inductive definitions
+msc: ["03F15", "03F35"]
+topics: [XTTKZTYDSD]
+audience: research
+defines: 5VNT564Y2W
+uses: [0QFT7Z76N5, 5NVA2JRHPV, 0ZHQMQ2C1N, DBD64TH52D, CK8ZQRN183]
+sources:
+  - url: https://en.wikipedia.org/wiki/Theories_of_iterated_inductive_definitions
+    locator: Original definition
+  - url: https://en.wikipedia.org/wiki/Theories_of_iterated_inductive_definitions
+    locator: Explanation / alternate definition
+---
+
+## Definition
+
+Let $\mathcal{L}$ be the language of [[Peano arithmetic|0QFT7Z76N5]], and let $X$ be a new unary predicate symbol.
+A formula $A(X, x)$ is $X$-positive if, after we write $B \to C$ as $\neg B \vee C$ and push negations to the atoms, no occurrence of $X$ stands under a negation.
+
+**The theory $\mathrm{ID}_1$.**
+For each $X$-positive formula $A(X, x)$ of $\mathcal{L} \cup \set{X}$ with no other free variables, add a unary predicate symbol $I_A$.
+The axioms of $\mathrm{ID}_1$ are the axioms of Peano arithmetic, with the induction scheme for all formulas of the extended language, and for each $A$:
+
+$$(\mathrm{ID}^1_A) \quad \forall x \, \big( A(I_A, x) \to I_A(x) \big),$$
+
+$$(\mathrm{ID}^2_A) \quad \forall x \, \big( A(F, x) \to F(x) \big) \to \forall x \, \big( I_A(x) \to F(x) \big) \quad \text{for every formula } F(x).$$
+
+Here $A(F, x)$ replaces each atom $X(t)$ by $F(t)$.
+
+**The theory $\mathrm{ID}_\nu$.**
+Let $\prec$ be a [[primitive recursive|5NVA2JRHPV]] well-ordering of a set of natural numbers, of order type $\nu$.
+Let $Y$ be a binary predicate symbol.
+For each $X$-positive formula $A(X, Y, \mu, x)$, add a binary predicate symbol $P_A$.
+The predicate $Y$ may occur negatively.
+Write $P^\mu_A(x)$ for $P_A(\mu, x)$, and write $P^{\prec \mu}_A$ for the binary predicate $(\lambda, y) \mapsto \lambda \prec \mu \wedge P_A(\lambda, y)$.
+The axioms of $\mathrm{ID}_\nu$ are Peano arithmetic with full induction, as above, and for each $A$:
+
+$$(\mathrm{ID}^1_\nu) \quad \forall \mu \, \forall x \, \big( A(P^\mu_A, P^{\prec\mu}_A, \mu, x) \to P^\mu_A(x) \big),$$
+
+$$(\mathrm{ID}^2_\nu) \quad \forall \mu \, \Big[ \forall x \, \big( A(F, P^{\prec\mu}_A, \mu, x) \to F(x) \big) \to \forall x \, \big( P^\mu_A(x) \to F(x) \big) \Big] \quad \text{for every formula } F,$$
+
+$$(\mathrm{TI}_\nu) \quad \forall \mu \, \big( \forall \lambda \, (\lambda \prec \mu \to G(\lambda)) \to G(\mu) \big) \to \forall \mu \, G(\mu) \quad \text{for every formula } G.$$
+
+
+## Notation
+
+In $\mathrm{ID}_\nu$, the stage $\mu$ is the least fixed point of the operator $A(\cdot, P^{\prec \mu}_A, \mu, \cdot)$, which may use the earlier stages in any way.
+The scheme $(\mathrm{TI}_\nu)$ is [[transfinite induction|0ZHQMQ2C1N]] along $\prec$ for all formulas.
+The theory $\mathrm{ID}_{<\nu}$ is the union of the theories $\mathrm{ID}_\mu$ for $\mu < \nu$, and $\mathrm{ID}^i_\nu$ is the same theory over [[Heyting arithmetic|CK8ZQRN183]].
+The symbol $\nu$ in $\mathrm{ID}_\nu$ names an order type, but the theory depends on the chosen ordering $\prec$; for the usual natural orderings of small type the strength does not depend on the choice.
+Many sources write $J_A$ or $I^\mu_A$ instead of $P^\mu_A$.
+The fixed-point variants replace $(\mathrm{ID}^2)$ by the converse of $(\mathrm{ID}^1)$, and they are written $\widehat{\mathrm{ID}}_\nu$ in much of the literature.
+
+## Remarks
+
+### Examples
+
+- [[The accessible part of an order|CRP7Z3M9XD]] is an instance of $\mathrm{ID}_1$.
+- [[The tree classes O₁ and O₂|PDVPG1SN9X]] are an instance of $\mathrm{ID}_2$.
+
+### Non-example
+
+- [[The operator ¬X|VF1N6N8ECC]] is not $X$-positive, so it does not give a predicate of $\mathrm{ID}_1$.
+
+### Why each part is there
+
+- Positivity makes the operator monotone, so the least fixed point exists in the standard model and $(\mathrm{ID}^1)$, $(\mathrm{ID}^2)$ make $I_A$ a fixed point.
+- The scheme $(\mathrm{ID}^2)$ for all formulas, and not only for sets, gives the strength: it yields transfinite induction on accessible parts.
+- The scheme $(\mathrm{TI}_\nu)$ makes the stages well-ordered inside the theory, so properties of all stages can be proved by induction on $\mu$.
+
+## Explanations
+
+### L1 human
+
+The definition gives a name to the smallest set that follows a rule.
+Two axioms say what "smallest set that follows the rule" means: the named set follows the rule, and it is inside every other set that follows the rule.
+In the iterated version, there is a list of rules indexed by a well-ordered list of stages.
+The rule of a stage may talk about the sets of earlier stages freely.
+
+### L2 human
+
+We write out $\mathrm{ID}_1$ for the even numbers.
+
+1. The operator is $A(X, x) = (x = 0) \vee \exists y \, (x = y + 2 \wedge X(y))$. It is $X$-positive.
+2. The axiom $(\mathrm{ID}^1_A)$ says $I_A(0)$, and $I_A(y) \to I_A(y + 2)$.
+3. Take $F(x) = \exists z \, (x = 2z)$. Then $A(F, x) \to F(x)$, so $(\mathrm{ID}^2_A)$ gives that every element of $I_A$ is even.
+4. By induction on $z$ and step 2, every even number is in $I_A$. So $\mathrm{ID}_1$ proves $I_A(x) \leftrightarrow \exists z \, (x = 2z)$.
+
+This set is arithmetical, so $\mathrm{ID}_1$ adds nothing here; the strength comes from operators like accessible parts.
+The trap is to forget that $F$ may be any formula, including formulas that mention $I_A$ itself.

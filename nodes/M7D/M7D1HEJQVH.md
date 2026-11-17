@@ -1,0 +1,78 @@
+---
+tag: M7D1HEJQVH
+kind: object
+name: Rathjen's psi function
+msc: ["03F15", "03E55"]
+topics: [XTTKZTYDSD]
+audience: research
+uses: [8S6CT4TMB7, E7WEFRMQTB, CJFEPPP9KA, 13ZV2F8JAR, 6FDYJVG1CK, JQFAE9S2F4, C5E5TG8PGP]
+sources:
+  - url: https://en.wikipedia.org/wiki/Rathjen%27s_psi_function
+    locator: lead section
+  - url: https://en.wikipedia.org/wiki/Rathjen%27s_psi_function
+    locator: Explanation
+  - url: https://en.wikipedia.org/wiki/Ordinal_collapsing_function
+    locator: Collapsing large cardinals
+---
+
+## Description
+
+Rathjen's $\psi$ function is a family of [[ordinal collapsing functions|8S6CT4TMB7]] built on a weakly [[Mahlo cardinal|CJFEPPP9KA]] $M$.
+A cardinal $M$ is weakly Mahlo when it is [[regular|13ZV2F8JAR]] and the regular cardinals below $M$ form a [[stationary set|6FDYJVG1CK]] in $M$.
+Michael Rathjen introduced the system for the ordinal analysis of the set theory $\mathrm{KPM}$.
+This theory is Kripke-Platek set theory with one more axiom scheme: for each $\Delta_0$-formula $H(x, y)$, if $\forall x \, \exists y \, H(x, y)$, then there is an admissible set $z$ with $\forall x \in z \, \exists y \in z \, H(x, y)$.
+
+The system has three kinds of functions.
+
+- Collapsing functions $\psi_\kappa$, one for each regular cardinal $\kappa$ below $M$ that the system can name, and a function $\psi_\Omega$ with countable values. Each $\psi_\kappa(\alpha)$ is the least ordinal not in a closure set $C_\kappa(\alpha)$, as in [[Buchholz's system|E7WEFRMQTB]].
+- Functions $\chi_\alpha$ that enumerate the closure of a set of cardinals below $M$. Roughly, this set consists of the cardinals $\kappa < M$ that "reflect" the term $\alpha$. The term $\alpha$ can be built from ordinals below $\kappa$, and this construction adds no ordinal between $\kappa$ and $M$.
+- The [[Veblen function|JQFAE9S2F4]] and addition, which handle the predicative part.
+
+The closure sets contain $0$ and $M$, and they are closed under sums, the Veblen function, the functions $\chi_\delta$ for $\delta$ below the current argument, and the collapsing functions applied to smaller arguments in normal form.
+The cardinal $M$ is collapsed in two steps: $\chi$ produces regular cardinals below $M$ from terms above $M$, and $\psi_\kappa$ collapses each such $\kappa$ further.
+The countable values $\psi_\Omega(\alpha)$ form an ordinal notation system that is strong enough for $\mathrm{KPM}$.
+
+## Remarks
+
+### Notation trap
+
+The letter $\psi$ has a third meaning here.
+In the [[collapsing function page|8S6CT4TMB7]], $\psi$ has one index and the generators $0, 1, \omega, \Omega$.
+In Buchholz's system, $\psi_\nu$ is indexed by natural numbers $\nu \le \omega$.
+In Rathjen's system, $\psi_\kappa$ is indexed by regular cardinals below a Mahlo cardinal, and $\psi_\Omega$ is the countable collapse.
+The Wikipedia article warns that Rathjen used the letter $\psi$ also in another, unpublished notation, and that its simplified definition is not the same function as Rathjen's original one.
+For this reason this page gives the structure of the system and no explicit values.
+
+### Why a Mahlo cardinal
+
+The models of $\mathrm{KPM}$ of the form $L_\mu$ in the constructible hierarchy have a recursively Mahlo height $\mu$, the recursive analogue of a Mahlo cardinal.
+The weakly Mahlo cardinal $M$ is the large cardinal analogue of this ordinal: every normal function on $M$ has a regular fixed point below $M$, because the regular cardinals are stationary and the fixed points form a club.
+The functions $\chi_\alpha$ make this reflection explicit inside the notation system.
+Below $M$ there are many weakly inaccessible cardinals, so the system also diagonalizes over the hierarchy of inaccessible cardinals.
+
+### Context
+
+Rathjen published the analysis of $\mathrm{KPM}$ in "Proof-theoretic analysis of KPM", Archive for Mathematical Logic, 1991, and gave the well-ordering proof in "Collapsing functions based on recursively large ordinals: a well-ordering proof for KPM", Archive for Mathematical Logic, 1994.
+He later used a weakly compact cardinal in the same way for the analysis of Kripke-Platek set theory with $\Pi_3$-reflection.
+The exact term for the ordinal of $\mathrm{KPM}$ differs between the sources, so this page does not give it.
+
+## Explanations
+
+### L1 human
+
+Collapsing functions name small infinite ordinals with the help of much larger ones.
+Buchholz used a ladder of larger and larger infinities for this.
+Rathjen used a single, much larger infinity $M$, a Mahlo cardinal, that contains many ladders below itself.
+A helper function picks the rungs of these ladders, and a collapse turns each expression into a countable ordinal.
+The result names ordinals far beyond Buchholz's system.
+
+### L2 human
+
+We compare the three systems on the page of [[ordinal analysis|C5E5TG8PGP]] by the large ordinal they use.
+
+1. One uncountable cardinal $\Omega$: the collapsing function reaches the Bachmann-Howard ordinal, the ordinal of Kripke-Platek set theory.
+2. A sequence $\Omega_1, \Omega_2, \dots, \Omega_\omega$: Buchholz's functions reach the Takeuti-Feferman-Buchholz ordinal.
+3. A weakly Mahlo cardinal $M$: Rathjen's functions reach the ordinal of $\mathrm{KPM}$.
+
+In each step, a stronger reflection property of the theory corresponds to a larger cardinal in the notation.
+The trap is to read $\psi_\Omega$ here as Buchholz's $\psi_0$: the systems use different closure operations, so the same term can denote different ordinals.
