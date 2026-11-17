@@ -1,0 +1,65 @@
+---
+tag: VF1N6N8ECC
+kind: example
+name: The operator not X has no least fixed point
+msc: ["03F15", "03F35"]
+topics: [XTTKZTYDSD]
+audience: research
+not_instance_of:
+  - target: 5VNT564Y2W
+    note: the operator is not X-positive, so the closure and minimality axioms hold for the full set but do not describe a fixed point
+  - target: 0A7KV2WB7A
+    note: the operator reverses inclusion, so it is not monotone
+uses: [45GQ3KQVT3, 0A7KV2WB7A, DBD64TH52D]
+sources:
+  - url: https://en.wikipedia.org/wiki/Theories_of_iterated_inductive_definitions
+    locator: ID<sub>1</sub>
+  - url: https://en.wikipedia.org/wiki/Least_fixed_point
+    locator: lead section
+---
+
+## Example
+
+Let $A(X, x) = \neg X(x)$.
+As an operator on sets of natural numbers, it sends $S$ to $\Gamma(S) = \mathbb{N} \setminus S$.
+We show that the axioms of the [[definition|45GQ3KQVT3]] for this $A$ do not describe a fixed point.
+
+1. Positivity fails. The only occurrence of $X$ stands under a negation.
+2. [[Monotonicity|0A7KV2WB7A]] fails. We have $\emptyset \subseteq \set{0}$, but $\Gamma(\emptyset) = \mathbb{N}$ is not contained in $\Gamma(\set{0}) = \mathbb{N} \setminus \set{0}$.
+3. No fixed point exists. If $\Gamma(S) = S$, then $0 \in S$ holds if and only if $0 \notin S$, which is impossible.
+4. So there is no [[least fixed point|DBD64TH52D]].
+5. The closed sets are the sets $S$ with $\Gamma(S) \subseteq S$, that is $\mathbb{N} \setminus S \subseteq S$. The only such set is $S = \mathbb{N}$.
+6. So the axioms $(\mathrm{ID}^1)$ and $(\mathrm{ID}^2)$ hold with $I = \mathbb{N}$. Indeed, $(\mathrm{ID}^1)$ reads $\forall x \, (\neg I(x) \to I(x))$, which forces $I = \mathbb{N}$. The hypothesis of $(\mathrm{ID}^2)$ forces $F$ to hold everywhere, so the conclusion $I \subseteq F$ holds.
+7. But $I = \mathbb{N}$ is not a fixed point: $A(\mathbb{N}, x)$ is false for every $x$.
+
+So the theory with these axioms is consistent, but the fixed point lemma of $\mathrm{ID}_1$ fails, because its proof uses monotonicity.
+
+## Remarks
+
+The example shows that positivity is the condition that makes the axioms of $\mathrm{ID}_1$ mean "least fixed point".
+For a positive operator, the closure axiom and the minimality scheme together prove $A(I_A) = I_A$.
+For $\neg X$ the minimality scheme only gives the smallest closed set, and the smallest closed set is not a fixed point.
+The [[stages of the operator|ED681VEX1B]] oscillate: they go from $\mathbb{N}$ to $\emptyset$ and back.
+A negative occurrence is allowed in $\mathrm{ID}_\nu$ only for a predicate of an earlier stage, which is fixed when the new stage is defined.
+
+## Explanations
+
+### L1 human
+
+Take the rule "a number is in the set if it is not in the set".
+If a number is in the set, the rule says it should be out, and if it is out, the rule says it should be in.
+So no set follows the rule exactly.
+The only set that is "closed" under the rule is the set of all numbers, but it does not follow the rule exactly either.
+Inductive definitions avoid this by forbidding rules with "not" in front of the set being defined.
+
+### L2 human
+
+We check the closed sets for the finite set $\set{0, 1}$ instead of $\mathbb{N}$, with $\Gamma(S) = \set{0, 1} \setminus S$.
+
+1. $S = \emptyset$: $\Gamma(S) = \set{0, 1}$, not contained in $S$. Not closed.
+2. $S = \set{0}$: $\Gamma(S) = \set{1}$, not contained in $S$. Not closed.
+3. $S = \set{1}$: $\Gamma(S) = \set{0}$, not contained in $S$. Not closed.
+4. $S = \set{0, 1}$: $\Gamma(S) = \emptyset \subseteq S$. Closed, but $\Gamma(S) \ne S$.
+
+The typical use of this example is to explain the positivity condition in a first course on inductive definitions.
+The trap is to think that the least closed set is always a fixed point: this holds only for monotone operators.

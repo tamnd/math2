@@ -53,7 +53,7 @@ Special names: $\varphi_1(\alpha) = \varepsilon_\alpha$, the [[epsilon numbers|P
 
 - Example: $\varphi_1(\alpha) = \varepsilon_\alpha$. Clause 2 makes $\varphi_1$ the enumeration of the fixed points of $\alpha \mapsto \omega^\alpha$, and these are the epsilon numbers.
 - Example: $\varphi(1, 0, 0) = \Gamma_0$. With $i = 2$ and $\alpha_2 = 1$, it is the least fixed point of $\xi \mapsto \varphi(0, \xi, 0) = \varphi_\xi(0)$.
-- Non-example: the clauses cannot start from $\alpha \mapsto \alpha + 1$, because it has no fixed points; see [[this non-example|~13d45130]].
+- Non-example: the clauses cannot start from $\alpha \mapsto \alpha + 1$, because it has no fixed points; see [[this non-example|288H8TGQYM]].
 - The recursion uses that the earlier classes are nested: if $\delta < \gamma$, every fixed point of $\varphi_\gamma$ is a fixed point of $\varphi_\delta$.
 - One may start from any normal function in place of $\alpha \mapsto \omega^\alpha$; the map from a normal function to the enumeration of its fixed points is called the derivative.
 

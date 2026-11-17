@@ -1,0 +1,106 @@
+---
+tag: ZE54ABPMJ0
+kind: statement
+role: theorem
+name: Transfinite induction in arithmetic
+msc: ["03F15", "03F30"]
+topics: [XTTKZTYDSD]
+audience: grad
+uses: [0QFT7Z76N5, KT50SMH3EC, DXKWBFWCE0, 0ZHQMQ2C1N, 5NVA2JRHPV, 1QD0KDDGYJ]
+about: [0QFT7Z76N5, 0ZHQMQ2C1N, KT50SMH3EC]
+history:
+  posed_by: "Gerhard Gentzen"
+  first_stated: "1943"
+  notes: "Gentzen proved both parts in a paper on the provability of initial cases of transfinite induction in pure number theory, Mathematische Annalen, 1943."
+sources:
+  - url: https://en.wikipedia.org/wiki/Gentzen%27s_consistency_proof
+    locator: Gentzen's theorem
+  - url: https://en.wikipedia.org/wiki/Ordinal_analysis
+    locator: Theories with proof-theoretic ordinal ε0
+---
+
+## Statement
+
+Let PA be first-order [[Peano arithmetic|0QFT7Z76N5]], with the [[induction schema|1QD0KDDGYJ]] for all formulas.
+Fix the standard notation system for the ordinals below [[epsilon nought|KT50SMH3EC]], coded by natural numbers.
+Its set of codes and its order $\prec$ are [[primitive recursive|5NVA2JRHPV]], and they are expressed in PA by fixed formulas.
+The order $\prec$ is the [[comparison of Cantor normal forms|DXKWBFWCE0]], applied recursively.
+In formulas, the variables $x, y, z$ range over codes of notations.
+
+For a formula $\varphi(x)$, possibly with other free variables, define
+$$\operatorname{Prog}(\varphi) :\equiv \forall x \, \bigl(\forall y \prec x \; \varphi(y) \to \varphi(x)\bigr),$$
+$$\operatorname{TI}(a, \varphi) :\equiv \operatorname{Prog}(\varphi) \to \forall x \prec a \; \varphi(x).$$
+The formula $\operatorname{Prog}(\varphi)$ says that $\varphi$ is *progressive*.
+$\operatorname{TI}(a, \varphi)$ is [[transfinite induction|0ZHQMQ2C1N]] for $\varphi$ up to $a$.
+Write $\operatorname{TI}(\varepsilon_0, \varphi)$ for $\operatorname{Prog}(\varphi) \to \forall x \, \varphi(x)$, that is, induction along the whole order.
+
+**Theorem.**
+
+1. For every notation $a$ and every formula $\varphi(x)$ of the language of PA, $\mathrm{PA} \vdash \operatorname{TI}(a, \varphi)$.
+2. There is a formula $\varphi(x)$ such that $\mathrm{PA} \nvdash \operatorname{TI}(\varepsilon_0, \varphi)$, provided that PA is consistent.
+
+In part 1, $a$ is a fixed notation, written as a numeral, and the proof depends on $a$.
+In part 2, $\varphi$ can be taken to express a primitive recursive predicate.
+A full proof of part 1, by Gentzen's jump construction, and the proof of part 2, are in [[the proof by the jump|9072B273Q6]].
+
+## Remarks
+
+### Why each hypothesis is needed
+
+- A fixed notation $a$ in part 1: the uniform statement $\forall a \, \operatorname{TI}(a, \varphi)$ is equivalent to $\operatorname{TI}(\varepsilon_0, \varphi)$, which part 2 excludes.
+- Induction for all formulas: each step of the proof replaces $\varphi$ by a formula $\varphi^+$ with more quantifiers, and it uses induction for $\varphi^+$. Theories with less induction prove less. For example, the theory $\mathrm{I}\Sigma_1$ has the [[proof-theoretic ordinal|C72RBH0CDR]] $\omega^\omega$, so it does not prove $\operatorname{TI}(a, \varphi)$ for all $\varphi$ when $a$ names $\omega^\omega$.
+- The standard notation system: for an artificial notation system, PA can fail to prove transfinite induction even along an order of type $\omega$. An example is [[the artificial notation system of type ω|PXMATF6B16]].
+- The consistency of PA in part 2: an inconsistent theory proves every formula.
+
+### Consequences
+
+- The proof-theoretic ordinal of PA is at least $\varepsilon_0$. With [[Gentzen's consistency proof|QPV0HNP22S]], it is exactly $\varepsilon_0$.
+- A function that is defined by recursion along $\prec$ below a fixed notation $a$, with primitive recursive steps, is provably total in PA.
+- A true statement whose proof needs induction along all of $\varepsilon_0$ can be independent of PA. [[Goodstein's theorem|XQMNJF241J]] is such a statement.
+
+### Converse
+
+Consider a natural notation system that extends the standard one, such as the notations of the [[Veblen function|JQFAE9S2F4]].
+PA proves transfinite induction for all formulas up to a notation of this system exactly when the notation names an ordinal below $\varepsilon_0$.
+The direction "only if" follows from part 2, because induction up to a larger notation gives induction up to $\varepsilon_0$.
+For artificial notation systems the converse fails, as the hypothesis on the standard system shows.
+
+### Generalizations
+
+- The same jump works in second-order arithmetic. Over $\mathrm{RCA}_0$, the statement "if $X$ is a well-order, then $\omega^X$ is a well-order" is equivalent to $\mathrm{ACA}_0$. This result of [[reverse mathematics|7SQS69T17R]] is due to Girard and to Hirst.
+- Stronger theories prove transfinite induction along longer notation systems, and the length that they reach is their proof-theoretic ordinal.
+
+## History
+
+Gerhard Gentzen proved both parts in 1943, in a paper in Mathematische Annalen on the provability of initial cases of transfinite induction in number theory.
+Part 2 uses his consistency proof for PA of 1936.
+
+## Explanations
+
+### L1 human
+
+Ordinary induction proves a property for $0, 1, 2, \ldots$ one step at a time.
+Transfinite induction does the same along a longer list of ordinals, for example $0, 1, 2, \ldots, \omega, \omega + 1, \ldots, \omega \cdot 2, \ldots$.
+The usual axioms of arithmetic can do this along any list that stops before $\varepsilon_0$.
+The trick is a "jump": induction along a list of length $\alpha$ gives induction along a list of length $\omega^\alpha$.
+Starting from $1$ and jumping again and again, we reach $\omega$, $\omega^\omega$, $\omega^{\omega^\omega}$, and so on, but never $\varepsilon_0$ itself.
+
+### L2 human
+
+We show how PA gets $\operatorname{TI}(\omega^\omega, \varphi)$ for a formula $\varphi$.
+
+1. Ordinary induction gives $\operatorname{TI}(\omega, \psi)$ for every formula $\psi$, since the notations below $\omega$ are the natural numbers.
+2. Apply step 1 to the formula $\psi = \varphi^+$, the jump of $\varphi$. This gives $\operatorname{TI}(\omega, \varphi^+)$.
+3. Add one more step to get $\operatorname{TI}(\omega + 1, \varphi^+)$.
+4. The jump lemma turns this into $\operatorname{TI}(\omega^\omega, \varphi)$.
+
+To reach $\omega^{\omega^\omega}$, one starts from $\operatorname{TI}(\omega, \varphi^{++})$, and each new level of the tower costs one more jump.
+The typical use is to show that a function defined by recursion along an ordinal below $\varepsilon_0$ is total, inside PA.
+The trap: PA proves each instance $\operatorname{TI}(a, \varphi)$, but it does not prove the single sentence "for all $a$, $\operatorname{TI}(a, \varphi)$".
+
+### L3 human
+
+The theorem and Gentzen's consistency proof together give the first [[ordinal analysis|C5E5TG8PGP]]: the ordinal $\varepsilon_0$ is the least ordinal that PA cannot reach by transfinite induction.
+The jump $\varphi \mapsto \varphi^+$ is a proof-theoretic form of ordinal exponentiation, and it trades one level of formula complexity for one level of the tower.
+This trade explains the ordinals of the fragments of PA with restricted induction.
+The same pattern returns in second-order arithmetic, where $\mathrm{ACA}_0$ is the theory that proves that $X \mapsto \omega^X$ preserves well-orders.

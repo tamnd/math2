@@ -5,7 +5,7 @@ name: Veblen function
 msc: ["03E10", "03F15"]
 topics: [XTTKZTYDSD]
 audience: grad
-uses: [ERTAM0SFVB, 0YSCSX5YZC, 6QFEVWKE25, PQSHBKCE7V, KT50SMH3EC, ~0296c06c, ~f8083877, VB6YXF761M, 0ZHQMQ2C1N]
+uses: [ERTAM0SFVB, 0YSCSX5YZC, 6QFEVWKE25, PQSHBKCE7V, KT50SMH3EC, 9BX0XHX2D5, 7MBX59Y7N9, VB6YXF761M, 0ZHQMQ2C1N]
 sources:
   - url: https://en.wikipedia.org/wiki/Veblen_function
     locator: Veblen hierarchy
@@ -25,7 +25,7 @@ So it is the basic tool for the ordinal notations of predicative proof theory.
 
 ## Motivation
 
-The map $\alpha \mapsto \omega^\alpha$ names, through [[Cantor normal forms|~f8083877]], every ordinal below its first fixed point $\varepsilon_0$, by [[the least fixed point theorem|~0296c06c]].
+The map $\alpha \mapsto \omega^\alpha$ names, through [[Cantor normal forms|7MBX59Y7N9]], every ordinal below its first fixed point $\varepsilon_0$, by [[the least fixed point theorem|9BX0XHX2D5]].
 To go further, one adds a name for each fixed point, giving $\varepsilon_\alpha$; but then $\alpha \mapsto \varepsilon_\alpha$ has fixed points too.
 Oswald Veblen's idea is to repeat this step transfinitely and to index the stages by ordinals.
 The index $\gamma$ becomes a second argument, and then a fixed point of $\gamma \mapsto \varphi_\gamma(0)$ is the next ordinal out of reach.
@@ -43,20 +43,20 @@ In Mathlib, `Ordinal.veblen o a` is $\varphi_o(a)$ with $\varphi_0(a) = \omega^a
 
 - $\varphi_0(1) = \omega$ and $\varphi_0(\omega) = \omega^\omega$, by the first clause.
 - $\varphi_1(0) = \varepsilon_0$, the least fixed point of $\alpha \mapsto \omega^\alpha$; see [[epsilon nought|KT50SMH3EC]].
-- $\varphi_2(0) = \zeta_0$, the least $\alpha$ with $\varepsilon_\alpha = \alpha$, is the limit of $\varepsilon_0, \varepsilon_{\varepsilon_0}, \varepsilon_{\varepsilon_{\varepsilon_0}}, \ldots$; see [[small values|~cb123c51]].
+- $\varphi_2(0) = \zeta_0$, the least $\alpha$ with $\varepsilon_\alpha = \alpha$, is the limit of $\varepsilon_0, \varepsilon_{\varepsilon_0}, \varepsilon_{\varepsilon_{\varepsilon_0}}, \ldots$; see [[small values|R9YGZQ0ZG3]].
 - $\varphi_\omega(0) = \sup_n \varphi_n(0)$, the least common fixed point of all $\varphi_n$.
-- $\Gamma_0$ is the least $\alpha$ with $\varphi_\alpha(0) = \alpha$; it is the [[Feferman-Schütte ordinal|~5f65c1fc]].
+- $\Gamma_0$ is the least $\alpha$ with $\varphi_\alpha(0) = \alpha$; it is the [[Feferman-Schütte ordinal|CNN7BK5YAW]].
 
 ### Non-examples
 
-- [[The successor map cannot start a Veblen hierarchy|~13d45130]]: $\alpha \mapsto \alpha + 1$ has no fixed points.
+- [[The successor map cannot start a Veblen hierarchy|288H8TGQYM]]: $\alpha \mapsto \alpha + 1$ has no fixed points.
 - The map $\alpha \mapsto \omega^\alpha + 1$ is strictly increasing but not continuous, and it has no fixed points either, so it cannot replace $\varphi_0$.
 
 ### Basic properties
 
 1. Each $\varphi_\gamma$ is normal: strictly increasing and continuous at limits.
 2. If $\delta < \gamma$, then $\varphi_\delta(\varphi_\gamma(\alpha)) = \varphi_\gamma(\alpha)$.
-3. Comparison: $\varphi_\alpha(\beta) < \varphi_\gamma(\delta)$ if and only if $\alpha = \gamma$ and $\beta < \delta$, or $\alpha < \gamma$ and $\beta < \varphi_\gamma(\delta)$, or $\alpha > \gamma$ and $\varphi_\alpha(\beta) < \delta$. See [[comparing Veblen terms|~1451a79e]].
+3. Comparison: $\varphi_\alpha(\beta) < \varphi_\gamma(\delta)$ if and only if $\alpha = \gamma$ and $\beta < \delta$, or $\alpha < \gamma$ and $\beta < \varphi_\gamma(\delta)$, or $\alpha > \gamma$ and $\varphi_\alpha(\beta) < \delta$. See [[comparing Veblen terms|WXRVDVK1VA]].
 4. Every ordinal of the form $\omega^\eta$ with $\eta > 0$ equals $\varphi_\gamma(\beta)$ for a unique pair with $\beta < \varphi_\gamma(\beta)$.
 5. $\varphi_\gamma(0) \ge \gamma$ for all $\gamma$, and $\varphi_\gamma(0) = \gamma$ first holds at $\gamma = \Gamma_0$.
 
@@ -86,7 +86,7 @@ For example, $\varphi_2(0)$ is the first ordinal $\alpha$ with $\varepsilon_\alp
 We compute $\varphi_2(0)$ by iteration.
 
 1. $\varphi_2(0)$ is the least fixed point of $\varphi_1$, which is a normal function.
-2. The least fixed point of a normal function $f$ is $\sup_n f^n(0)$, as in [[the proof for epsilon nought|~0296c06c]].
+2. The least fixed point of a normal function $f$ is $\sup_n f^n(0)$, as in [[the proof for epsilon nought|9BX0XHX2D5]].
 3. $\varphi_1(0) = \varepsilon_0$, $\varphi_1(\varepsilon_0) = \varepsilon_{\varepsilon_0}$, $\varphi_1(\varepsilon_{\varepsilon_0}) = \varepsilon_{\varepsilon_{\varepsilon_0}}$, and so on.
 4. So $\varphi_2(0) = \sup \{ \varepsilon_0, \varepsilon_{\varepsilon_0}, \varepsilon_{\varepsilon_{\varepsilon_0}}, \ldots \}$.
 
@@ -96,6 +96,6 @@ The trap: $\varphi_2(1)$ is not $\varphi_2(0) + 1$; it is the next fixed point o
 ### L3 human
 
 Veblen's construction works for any normal function in place of $\alpha \mapsto \omega^\alpha$, and the derivative of a normal function, the enumeration of its fixed points, is the basic operation.
-The finitary Veblen function $\varphi(\alpha_k, \ldots, \alpha_0)$ adds arguments: $\varphi(1, 0, 0) = \Gamma_0$, $\varphi(1, 0, 0, 0)$ is the Ackermann ordinal, and the supremum over $k$ of $\varphi(1, 0, \ldots, 0)$ is the [[small Veblen ordinal|~fafc7335]].
+The finitary Veblen function $\varphi(\alpha_k, \ldots, \alpha_0)$ adds arguments: $\varphi(1, 0, 0) = \Gamma_0$, $\varphi(1, 0, 0, 0)$ is the Ackermann ordinal, and the supremum over $k$ of $\varphi(1, 0, \ldots, 0)$ is the [[small Veblen ordinal|ZHDM657G3D]].
 Transfinitely many arguments with finite support lead to the large Veblen ordinal.
-In proof theory, $\Gamma_0$ is the ordinal of $\mathrm{ATR}_0$, and beyond the Veblen functions one uses [[collapsing functions|~766739ea]], which name fixed points by means of uncountable ordinals.
+In proof theory, $\Gamma_0$ is the ordinal of $\mathrm{ATR}_0$, and beyond the Veblen functions one uses [[collapsing functions|8S6CT4TMB7]], which name fixed points by means of uncountable ordinals.

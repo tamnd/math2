@@ -6,7 +6,7 @@ aliases: [buchholz-psi-function]
 msc: ["03F15", "03E10"]
 topics: [XTTKZTYDSD]
 audience: research
-uses: [0YSCSX5YZC, KAEDCQ8RM6, 7TFCZSVX5R, 0EBACQFAZW, ~766739ea, PQSHBKCE7V]
+uses: [0YSCSX5YZC, KAEDCQ8RM6, 7TFCZSVX5R, 0EBACQFAZW, 8S6CT4TMB7, PQSHBKCE7V]
 sources:
   - wikipedia: en:54183426@r1346942673
     locator: Buchholz psi functions
@@ -35,11 +35,11 @@ Let $\Omega_0 = 1$, and for $0 < \nu \le \omega$ let $\Omega_\nu = \aleph_\nu$, 
 For $\nu \le \omega$ and an [[ordinal|0YSCSX5YZC]] $\alpha$, let $C_\nu(\alpha)$ be the least set of ordinals that contains every ordinal below $\Omega_\nu$, is closed under ordinal addition, and contains $\psi_\mu(\xi)$ for each $\mu \le \omega$ and each $\xi \in C_\nu(\alpha)$ with $\xi < \alpha$.
 Buchholz's function $\psi_\nu$ sends $\alpha$ to the least ordinal that is not in $C_\nu(\alpha)$.
 The definition is a recursion on $\alpha$, simultaneous for all $\nu \le \omega$.
-These [[collapsing functions|~766739ea]] give a short notation system for the ordinals below $\psi_0(\varepsilon_{\Omega_\omega + 1})$, and this range contains the ordinals of $\mathrm{ID}_\nu$ and of $\Pi^1_1$-comprehension.
+These [[collapsing functions|8S6CT4TMB7]] give a short notation system for the ordinals below $\psi_0(\varepsilon_{\Omega_\omega + 1})$, and this range contains the ordinals of $\mathrm{ID}_\nu$ and of $\Pi^1_1$-comprehension.
 
 ## Motivation
 
-A single collapsing function with one uncountable ordinal $\Omega$ reaches the [[Bachmann-Howard ordinal|~fcf34cb0]], and no further.
+A single collapsing function with one uncountable ordinal $\Omega$ reaches the [[Bachmann-Howard ordinal|QH3ENXFRSV]], and no further.
 The ordinals of stronger theories, such as the [[theories of iterated inductive definitions|5VNT564Y2W]] $\mathrm{ID}_\nu$, need a tower of large ordinals.
 Each level $\Omega_{\nu + 1}$ is collapsed into the level below by $\psi_\nu$, and $\psi_0$ sends everything to countable ordinals.
 Buchholz noticed that the closure under addition and under the functions $\psi_\mu$ is enough: multiplication and exponentiation come for free, because $\psi_\nu$ produces the powers of $\omega$ by itself.
@@ -55,7 +55,7 @@ Then $C_\nu(\alpha) = \bigcup_{n < \omega} C^n_\nu(\alpha)$ and $\psi_\nu(\alpha
 We write $\Omega$ for $\Omega_1$, and $\psi$ without an index means $\psi_0$ in many papers.
 
 Notation trap: the letter $\psi$ names different functions in different systems.
-In the system of the page on [[collapsing functions|~766739ea]], $\psi(\Omega) = \zeta_0$.
+In the system of the page on [[collapsing functions|8S6CT4TMB7]], $\psi(\Omega) = \zeta_0$.
 In Buchholz's system, $\psi_0(\Omega) = \varepsilon_0$.
 Every value on this page is a value of Buchholz's $\psi_\nu$.
 Some authors also extend the index $\nu$ beyond $\omega$; this page keeps $\nu \le \omega$, as in Buchholz's paper.
@@ -64,15 +64,15 @@ Some authors also extend the index $\nu$ beyond $\omega$; this page keeps $\nu \
 
 ### Examples
 
-- [[Small values of ψ₀|~7c91f19c]]: $\psi_0(0) = 1$, $\psi_0(1) = \omega$, $\psi_0(\alpha) = \omega^\alpha$ for $\alpha \le \varepsilon_0$, and $\psi_0(\alpha) = \varepsilon_0$ for $\varepsilon_0 \le \alpha \le \Omega$. Also $\psi_\nu(0) = \Omega_\nu$ and $\psi_0(\Omega + 1) = \omega^{\varepsilon_0 + 1}$.
-- [[The value ψ₀(Ω·2)|~89744b7d]]: $\psi_0(\Omega \cdot 2) = \varepsilon_1$. In the system of the collapsing function page, the term $\psi(\Omega \cdot 2)$ is $\zeta_1$, a much larger ordinal.
+- [[Small values of ψ₀|TZHC9KJBWF]]: $\psi_0(0) = 1$, $\psi_0(1) = \omega$, $\psi_0(\alpha) = \omega^\alpha$ for $\alpha \le \varepsilon_0$, and $\psi_0(\alpha) = \varepsilon_0$ for $\varepsilon_0 \le \alpha \le \Omega$. Also $\psi_\nu(0) = \Omega_\nu$ and $\psi_0(\Omega + 1) = \omega^{\varepsilon_0 + 1}$.
+- [[The value ψ₀(Ω·2)|T01DYDHV4C]]: $\psi_0(\Omega \cdot 2) = \varepsilon_1$. In the system of the collapsing function page, the term $\psi(\Omega \cdot 2)$ is $\zeta_1$, a much larger ordinal.
 - $\psi_1(1) = \Omega \cdot \omega = \omega^{\Omega + 1}$. The set $C_1(1)$ contains every countable ordinal and $\psi_1(0) = \Omega$, so it contains $\Omega \cdot n + \beta$ for countable $\beta$, and nothing in between.
-- Values cited from the Wikipedia article (section "Explanation"): $\psi_0(\Omega^2) = \zeta_0$, $\psi_0(\Omega^\Omega) = \Gamma_0$, the [[Feferman-Schütte ordinal|~5f65c1fc]], and $\psi_0(\varepsilon_{\Omega + 1}) = \psi_0(\Omega_2)$, the [[Bachmann-Howard ordinal|~fcf34cb0]].
-- Values cited from the Wikipedia article on ordinal analysis (section "Table of ordinal analyses"): $\psi_0(\Omega_\omega)$ is the ordinal of [[Π¹₁-comprehension|~9776e851]] $\Pi^1_1\text{-}\mathrm{CA}_0$, and $\psi_0(\varepsilon_{\Omega_\omega + 1})$ is the [[Takeuti-Feferman-Buchholz ordinal|~1df2a94e]].
+- Values cited from the Wikipedia article (section "Explanation"): $\psi_0(\Omega^2) = \zeta_0$, $\psi_0(\Omega^\Omega) = \Gamma_0$, the [[Feferman-Schütte ordinal|CNN7BK5YAW]], and $\psi_0(\varepsilon_{\Omega + 1}) = \psi_0(\Omega_2)$, the [[Bachmann-Howard ordinal|QH3ENXFRSV]].
+- Values cited from the Wikipedia article on ordinal analysis (section "Table of ordinal analyses"): $\psi_0(\Omega_\omega)$ is the ordinal of [[Π¹₁-comprehension|2MGJJTSRFD]] $\Pi^1_1\text{-}\mathrm{CA}_0$, and $\psi_0(\varepsilon_{\Omega_\omega + 1})$ is the [[Takeuti-Feferman-Buchholz ordinal|NZWRK062WQ]].
 
 ### Non-examples
 
-- [[ψ₀ is not a normal function|~25f72462]]: the condition that fails is strict monotonicity, because $\psi_0(\varepsilon_0) = \psi_0(\Omega) = \varepsilon_0$.
+- [[ψ₀ is not a normal function|2MY5GMPJP5]]: the condition that fails is strict monotonicity, because $\psi_0(\varepsilon_0) = \psi_0(\Omega) = \varepsilon_0$.
 - Drop the cardinals $\Omega_\nu$ for $\nu \ge 1$ and keep only $\psi_0$. Then the values are $\omega^\alpha$ for $\alpha \le \varepsilon_0$, and the function is constant $\varepsilon_0$ after that. The condition that fails is the presence of an uncountable level: the large arguments cannot be named in the closure set.
 - The [[Veblen function|JQFAE9S2F4]] is not of this kind. It names $\varepsilon_0$ as $\varphi_1(0)$ by a fixed point from below, while Buchholz names it as $\psi_0(\Omega)$ by a collapse from above.
 
@@ -124,6 +124,6 @@ The trap is to forget the condition $\xi < \alpha$: without it the definition is
 ### L3 human
 
 Buchholz's system is the simplest member of a family of collapsing functions indexed by regular cardinals.
-In proof theory the cardinal $\Omega_{\nu + 1}$ stands for the $(\nu + 1)$-th admissible ordinal above $\omega$, and the collapse $\psi_\nu$ mirrors the collapsing lemma for derivations with the $\Omega_{\nu + 1}$-rule of [[local predicativity|~af6dfa84]].
-Replacing the countable tower by an inaccessible cardinal, a Mahlo cardinal or a weakly compact cardinal gives the systems of Rathjen, for example [[Rathjen's psi function|~0d062a69]], and stronger theories.
+In proof theory the cardinal $\Omega_{\nu + 1}$ stands for the $(\nu + 1)$-th admissible ordinal above $\omega$, and the collapse $\psi_\nu$ mirrors the collapsing lemma for derivations with the $\Omega_{\nu + 1}$-rule of [[local predicativity|5C4YBXQV15]].
+Replacing the countable tower by an inaccessible cardinal, a Mahlo cardinal or a weakly compact cardinal gives the systems of Rathjen, for example [[Rathjen's psi function|M7D1HEJQVH]], and stronger theories.
 The terms of $\mathrm{OT}$ can be drawn as finite labelled trees, and the [[Buchholz hydra|CS9FHV1F3S]] uses these trees to give a combinatorial statement that strong subsystems of second-order arithmetic do not prove.

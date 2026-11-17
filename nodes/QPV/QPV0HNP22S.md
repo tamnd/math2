@@ -38,19 +38,19 @@ $$\mathrm{PRA} + \mathrm{QF}\text{-}\mathrm{TI}(\varepsilon_0) \vdash \operatorn
 
 Books state the added principle in slightly different forms.
 It can be a rule of inference, a schema, or the statement that every primitive recursive descending sequence of notations is finite.
-The structure of the proof, with the lemmas that it cites, is in [[the proof by reduction of derivations|~36e7369f]].
+The structure of the proof, with the lemmas that it cites, is in [[the proof by reduction of derivations|NBBQ02FXSD]].
 
 ## Remarks
 
 ### Why each hypothesis is needed
 
 - The induction principle: PRA alone does not prove $\operatorname{Con}(\mathrm{PA})$. Every theorem of PRA is a theorem of PA, and PA does not prove $\operatorname{Con}(\mathrm{PA})$ by [[Gödel's second incompleteness theorem|4PZM5GJTR5]].
-- The length $\varepsilon_0$: for a notation $a$ below $\varepsilon_0$, PA proves transfinite induction up to $a$, by [[transfinite induction in arithmetic|~e065bc19]]. So $\mathrm{PRA} + \mathrm{QF}\text{-}\mathrm{TI}(a)$ is contained in PA, and it does not prove $\operatorname{Con}(\mathrm{PA})$.
-- The standard notation system: the length of the order is not enough. There is a primitive recursive order of type $\omega$ along which transfinite induction proves $\operatorname{Con}(\mathrm{PA})$: [[the artificial notation system of type ω|~ca1a6d69]]. The theorem has content because the standard order is natural, and its well-foundedness can be seen by the [[comparison of Cantor normal forms|~bfea1a9a]].
+- The length $\varepsilon_0$: for a notation $a$ below $\varepsilon_0$, PA proves transfinite induction up to $a$, by [[transfinite induction in arithmetic|ZE54ABPMJ0]]. So $\mathrm{PRA} + \mathrm{QF}\text{-}\mathrm{TI}(a)$ is contained in PA, and it does not prove $\operatorname{Con}(\mathrm{PA})$.
+- The standard notation system: the length of the order is not enough. There is a primitive recursive order of type $\omega$ along which transfinite induction proves $\operatorname{Con}(\mathrm{PA})$: [[the artificial notation system of type ω|PXMATF6B16]]. The theorem has content because the standard order is natural, and its well-foundedness can be seen by the [[comparison of Cantor normal forms|DXKWBFWCE0]].
 
 ### Consequences
 
-- PA does not prove $\mathrm{QF}\text{-}\mathrm{TI}(\varepsilon_0)$, if PA is consistent. With [[transfinite induction in arithmetic|~e065bc19]], this shows that $\varepsilon_0$ is the [[proof-theoretic ordinal|C72RBH0CDR]] of PA.
+- PA does not prove $\mathrm{QF}\text{-}\mathrm{TI}(\varepsilon_0)$, if PA is consistent. With [[transfinite induction in arithmetic|ZE54ABPMJ0]], this shows that $\varepsilon_0$ is the [[proof-theoretic ordinal|C72RBH0CDR]] of PA.
 - The theorem is a [[relative consistency proof|X3G0RG2GPZ]]: the [[consistency|VM8TQ70CVJ]] of PA reduces to a principle that uses only finite objects, the notations, and one transfinite step.
 - The method gives an [[ordinal analysis|C5E5TG8PGP]] of PA, the first in the subject.
 
@@ -62,7 +62,7 @@ So $\varepsilon_0$ is the least length of a standard notation along which quanti
 ### Generalizations
 
 - The same method, with larger notation systems, gives the consistency of stronger theories: the Feferman-Schütte ordinal for predicative analysis and the Bachmann-Howard ordinal for theories of inductive definitions.
-- Other proofs of the consistency of PA use Ackermann's method with [[Hilbert's epsilon calculus|TH5ZKCKN3W]], infinitary derivations with the [[ω-rule|~e0034cfd]], or Gödel's [[Dialectica interpretation|HZ17ES9PDY]]. Each one uses a principle that PA does not prove.
+- Other proofs of the consistency of PA use Ackermann's method with [[Hilbert's epsilon calculus|TH5ZKCKN3W]], infinitary derivations with the [[ω-rule|XAMKAB1BZM]], or Gödel's [[Dialectica interpretation|HZ17ES9PDY]]. Each one uses a principle that PA does not prove.
 
 ## History
 
@@ -100,7 +100,7 @@ It uses transfinite induction up to $\varepsilon_0$, which PA itself cannot prov
 
 Gentzen's proof is the origin of [[ordinal analysis|C5E5TG8PGP]] and of structural proof theory.
 Its two parts recur in every later analysis.
-A well-ordering proof, as in [[transfinite induction in arithmetic|~e065bc19]], gives the lower bound.
+A well-ordering proof, as in [[transfinite induction in arithmetic|ZE54ABPMJ0]], gives the lower bound.
 A reduction of derivations with an ordinal assignment gives the upper bound.
 Read against [[Hilbert's program|P1RW6JWX73]], the theorem locates what goes beyond finitary reasoning in the consistency of PA.
 It is one instance of well-foundedness, for a primitive recursive order of type $\varepsilon_0$.

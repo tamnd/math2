@@ -15,11 +15,11 @@ inventory: [TVJC8SV71P]
 retired:
   date: 2026-11-17
   reason: merged
-  successor: [~1df2a94e]
+  successor: [NZWRK062WQ]
   note: "The page moved to a node of the right kind."
 ---
 
 ## Summary
 
 This page is retired.
-The page of Takeuti-Feferman-Buchholz ordinal is now [[Takeuti-Feferman-Buchholz ordinal|~1df2a94e]].
+The page of Takeuti-Feferman-Buchholz ordinal is now [[Takeuti-Feferman-Buchholz ordinal|NZWRK062WQ]].

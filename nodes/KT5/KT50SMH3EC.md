@@ -20,15 +20,15 @@ The ordinal $\varepsilon_0$, read "epsilon nought", is the least [[ordinal|0RDJK
 It is the supremum of the tower
 $$\tau_0 = 1, \quad \tau_{n+1} = \omega^{\tau_n},$$
 so that $\varepsilon_0 = \sup \set{1, \omega, \omega^\omega, \omega^{\omega^\omega}, \ldots}$.
-The two descriptions agree by the theorem [[epsilon nought is the least fixed point of α ↦ ω^α|~0296c06c]].
+The two descriptions agree by the theorem [[epsilon nought is the least fixed point of α ↦ ω^α|9BX0XHX2D5]].
 The same theorem shows that $\varepsilon_0$ is a [[countable|01TQB88H4C]] limit ordinal, and that the ordinals below it are closed under $+$ and $\alpha \mapsto \omega^\alpha$.
 It is the least [[epsilon number|PQSHBKCE7V]].
 
 Each ordinal $\alpha$ with $0 < \alpha < \varepsilon_0$ has a [[Cantor normal form|6GD30FGYDZ]] $\omega^{\beta_1} c_1 + \cdots + \omega^{\beta_k} c_k$, and every exponent satisfies $\beta_i < \alpha$.
 Writing each exponent in normal form again, and so on, ends after finitely many steps.
 So every ordinal below $\varepsilon_0$ has a unique finite name built from $0$, $+$ and $\omega^{(\cdot)}$.
-The [[comparison of Cantor normal forms|~bfea1a9a]] decides the order of two names.
-This is the standard [[ordinal notation system|~f8083877]] for $\varepsilon_0$.
+The [[comparison of Cantor normal forms|DXKWBFWCE0]] decides the order of two names.
+This is the standard [[ordinal notation system|7MBX59Y7N9]] for $\varepsilon_0$.
 
 The ordinal $\varepsilon_0$ is the [[proof-theoretic ordinal|C72RBH0CDR]] of [[Peano arithmetic|0QFT7Z76N5]].
 
@@ -53,7 +53,7 @@ Books use slightly different conventions, for example $\varepsilon_0[n] = \tau_n
 
 ### Role in proof theory
 
-- [[Peano arithmetic|0QFT7Z76N5]] proves [[transfinite induction|0ZHQMQ2C1N]] along the notation system for every ordinal below $\varepsilon_0$. This is the theorem [[transfinite induction in arithmetic|~e065bc19]].
+- [[Peano arithmetic|0QFT7Z76N5]] proves [[transfinite induction|0ZHQMQ2C1N]] along the notation system for every ordinal below $\varepsilon_0$. This is the theorem [[transfinite induction in arithmetic|ZE54ABPMJ0]].
 - Peano arithmetic does not prove transfinite induction up to $\varepsilon_0$ itself, by [[Gentzen's consistency proof|QPV0HNP22S]] and [[Gödel's second incompleteness theorem|4PZM5GJTR5]].
 - The provably total computable functions of Peano arithmetic are the functions computable in time bounded by a level $f_\alpha$, $\alpha < \varepsilon_0$, of the fast-growing hierarchy.
 - [[Goodstein's theorem|XQMNJF241J]] is true and unprovable in Peano arithmetic. Its proof assigns to each step an ordinal below $\varepsilon_0$, and the ordinals strictly decrease.
@@ -63,7 +63,7 @@ Books use slightly different conventions, for example $\varepsilon_0[n] = \tau_n
 
 - The ordinal $\varepsilon_0$ is countable. It is far below the [[first uncountable ordinal|Z92S2GVCX9]] $\omega_1$, and it is not a cardinal.
 - The notation $\omega_n$ is reserved for the initial ordinals $\omega_0 = \omega$, $\omega_1$, and so on. It must not be used for the stages of the tower.
-- The statement "the ordinal of Peano arithmetic is $\varepsilon_0$" refers to the standard notation system. For an artificial notation system of a small order type, Peano arithmetic can fail to prove well-foundedness. For ordinals above $\varepsilon_0$, the choice of the notation system matters even more; see [[ordinal notation system|~f8083877]].
+- The statement "the ordinal of Peano arithmetic is $\varepsilon_0$" refers to the standard notation system. For an artificial notation system of a small order type, Peano arithmetic can fail to prove well-foundedness. For ordinals above $\varepsilon_0$, the choice of the notation system matters even more; see [[ordinal notation system|7MBX59Y7N9]].
 
 ## Explanations
 

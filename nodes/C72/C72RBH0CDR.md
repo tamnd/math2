@@ -39,18 +39,18 @@ For PA and many stronger theories the two agree, but for weak theories they can 
 
 ### Examples
 
-- $\abs{\mathrm{PA}} = \varepsilon_0$, by [[the ordinal analysis of PA|~633a5219]].
-- $\abs{\mathrm{ACA}_0} = \varepsilon_0$, because $\mathrm{ACA}_0$ is conservative over PA, by [[the ordinal analysis of ACA0|~90da434a]].
-- $\abs{\mathrm{I\Sigma}_1} = \abs{\mathrm{PRA}} = \omega^\omega$, by [[the example of IΣ1|~b595104a]].
-- $\abs{\mathrm{ACA}} = \varepsilon_{\varepsilon_0}$, by [[the example of ACA|~f7555793]].
-- $\abs{\mathrm{ATR}_0} = \Gamma_0$, the [[Feferman-Schütte ordinal|~5f65c1fc]], and $\abs{\mathrm{ATR}} = \Gamma_{\varepsilon_0}$.
-- $\abs{\mathrm{ID}_1} = \abs{\mathrm{KP}}$ is the [[Bachmann-Howard ordinal|~fcf34cb0]].
+- $\abs{\mathrm{PA}} = \varepsilon_0$, by [[the ordinal analysis of PA|7ANX5PDRDM]].
+- $\abs{\mathrm{ACA}_0} = \varepsilon_0$, because $\mathrm{ACA}_0$ is conservative over PA, by [[the ordinal analysis of ACA0|GXZZW7G54P]].
+- $\abs{\mathrm{I\Sigma}_1} = \abs{\mathrm{PRA}} = \omega^\omega$, by [[the example of IΣ1|8KPSC3GE1B]].
+- $\abs{\mathrm{ACA}} = \varepsilon_{\varepsilon_0}$, by [[the example of ACA|JHYZ2A3VPJ]].
+- $\abs{\mathrm{ATR}_0} = \Gamma_0$, the [[Feferman-Schütte ordinal|CNN7BK5YAW]], and $\abs{\mathrm{ATR}} = \Gamma_{\varepsilon_0}$.
+- $\abs{\mathrm{ID}_1} = \abs{\mathrm{KP}}$ is the [[Bachmann-Howard ordinal|QH3ENXFRSV]].
 
 ### Non-examples
 
 - The least uncountable ordinal $\omega_1$ is not $\abs{T}$ for any theory $T$: every order in the supremum is a well-order on $\N$, so it has countable order type.
-- Without soundness the definition breaks: [[PA plus the negation of Con(PA)|~c7ab3519]] proves transfinite induction along an order that is not well-founded.
-- The order type of one particular order that $T$ proves well-founded is only a lower bound. By [[the artificial notation system|~ca1a6d69]], PA can fail to prove that an order of type $\omega$ is well-founded.
+- Without soundness the definition breaks: [[PA plus the negation of Con(PA)|FWY2SE83Q4]] proves transfinite induction along an order that is not well-founded.
+- The order type of one particular order that $T$ proves well-founded is only a lower bound. By [[the artificial notation system|PXMATF6B16]], PA can fail to prove that an order of type $\omega$ is well-founded.
 
 ### Basic properties
 
@@ -86,7 +86,7 @@ We read off a lower bound for $\abs{\mathrm{PA}}$ from one proof.
 
 1. Let $\prec$ be the order on the [[Cantor normal forms|6GD30FGYDZ]] below $\omega^\omega$, which compares polynomials $\omega^k c_k + \cdots + c_0$ by their leading terms.
 2. This order is primitive recursive, and its order type is $\omega^\omega$.
-3. [[Transfinite induction in arithmetic|~e065bc19]] shows that PA proves $\operatorname{TI}(\prec, X)$.
+3. [[Transfinite induction in arithmetic|ZE54ABPMJ0]] shows that PA proves $\operatorname{TI}(\prec, X)$.
 4. So $\omega^\omega \le \abs{\mathrm{PA}}$.
 
 Repeating this with the towers $\omega^{\omega^\omega}$, $\omega^{\omega^{\omega^\omega}}$, and so on gives $\varepsilon_0 \le \abs{\mathrm{PA}}$.
@@ -97,5 +97,5 @@ The trap: a lower bound needs one order of the given type that $T$ proves well-f
 
 The proof-theoretic ordinal measures the $\Pi^1_1$ part of a theory: the sentences of the form "$\prec$ is well-founded" that $T$ proves.
 Other measures look at other parts: the $\Pi^0_2$ ordinal at the provably total functions, and the $\Pi^1_2$ ordinals at stronger consequences.
-Beyond the [[Bachmann-Howard ordinal|~fcf34cb0]], the analyses use [[collapsing functions|~766739ea]] and reach theories such as [[Π¹₁-comprehension|~9776e851]].
+Beyond the [[Bachmann-Howard ordinal|QH3ENXFRSV]], the analyses use [[collapsing functions|8S6CT4TMB7]] and reach theories such as [[Π¹₁-comprehension|2MGJJTSRFD]].
 The analysis of full second-order arithmetic is open.

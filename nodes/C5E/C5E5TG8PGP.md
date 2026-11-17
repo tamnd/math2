@@ -19,7 +19,7 @@ same_as:
 ## Summary
 
 An ordinal analysis of a formal theory $T$ is the determination of its [[proof-theoretic ordinal|C72RBH0CDR]] $\abs{T}$, in the [[precise sense|57PTMS2ADY]] of three results.
-First, a natural [[ordinal notation system|~f8083877]] $(A, \prec)$ for an ordinal $\alpha$.
+First, a natural [[ordinal notation system|7MBX59Y7N9]] $(A, \prec)$ for an ordinal $\alpha$.
 Second, a lower bound: $T$ proves [[transfinite induction|0ZHQMQ2C1N]] along each proper initial segment of $\prec$.
 Third, an upper bound: every primitive recursive well-order that $T$ proves well-founded has order type below $\alpha$.
 Then $\abs{T} = \alpha$.
@@ -45,16 +45,16 @@ For example, the ordinal of $\Pi^1_1\text{-}\mathrm{CA}_0$ is $\psi_0(\Omega_\om
 
 ### Examples
 
-- [[The ordinal analysis of Peano arithmetic|~633a5219]]: $\abs{\mathrm{PA}} = \varepsilon_0$, by Gentzen.
-- [[The ordinal analysis of ACA0|~90da434a]]: $\abs{\mathrm{ACA}_0} = \varepsilon_0$, by conservativity over PA.
+- [[The ordinal analysis of Peano arithmetic|7ANX5PDRDM]]: $\abs{\mathrm{PA}} = \varepsilon_0$, by Gentzen.
+- [[The ordinal analysis of ACA0|GXZZW7G54P]]: $\abs{\mathrm{ACA}_0} = \varepsilon_0$, by conservativity over PA.
 - Primitive recursive arithmetic and $\mathrm{I}\Sigma_1$ have the ordinal $\omega^\omega$.
-- $\mathrm{ATR}_0$, the theory of arithmetical transfinite recursion of [[reverse mathematics|7SQS69T17R]], has the [[Feferman-Schütte ordinal|~5f65c1fc]] $\Gamma_0$.
-- The theory $\mathrm{ID}_1$ of one inductive definition and Kripke-Platek set theory have the [[Bachmann-Howard ordinal|~fcf34cb0]].
-- $\Pi^1_1\text{-}\mathrm{CA}_0$ has the ordinal $\psi_0(\Omega_\omega)$ of Buchholz's notation; see [[ordinal analysis of Π¹₁ comprehension|~9776e851]].
+- $\mathrm{ATR}_0$, the theory of arithmetical transfinite recursion of [[reverse mathematics|7SQS69T17R]], has the [[Feferman-Schütte ordinal|CNN7BK5YAW]] $\Gamma_0$.
+- The theory $\mathrm{ID}_1$ of one inductive definition and Kripke-Platek set theory have the [[Bachmann-Howard ordinal|QH3ENXFRSV]].
+- $\Pi^1_1\text{-}\mathrm{CA}_0$ has the ordinal $\psi_0(\Omega_\omega)$ of Buchholz's notation; see [[ordinal analysis of Π¹₁ comprehension|2MGJJTSRFD]].
 
 ### Non-examples
 
-- [[The consistency proof of PA in ZF|~346165b4]]: a proof of consistency in a much stronger theory gives no ordinal and no lower or upper bound.
+- [[The consistency proof of PA in ZF|4GRT452DB9]]: a proof of consistency in a much stronger theory gives no ordinal and no lower or upper bound.
 - Gödel's [[Dialectica interpretation|HZ17ES9PDY]] reduces the consistency of PA to a theory of functionals of finite type. It is a proof interpretation, not an ordinal analysis, although the two can be compared.
 - A proof that one order of type $\alpha$ is well-founded in $T$ gives only a lower bound. Without the upper bound, it is not an analysis.
 
@@ -70,7 +70,7 @@ An analysis of $T$ with ordinal $\alpha$ usually gives the following, for a natu
 ### History
 
 Gerhard Gentzen gave the first ordinal analysis, of PA, in his consistency proofs of 1936 and 1938, and in his work of 1943 on transfinite induction.
-Kurt Schütte introduced infinitary derivations with the [[ω-rule|~e0034cfd]] in 1951, which simplified the method.
+Kurt Schütte introduced infinitary derivations with the [[ω-rule|XAMKAB1BZM]] in 1951, which simplified the method.
 Solomon Feferman and Kurt Schütte independently identified $\Gamma_0$ as the ordinal of predicative analysis in 1964 and 1965.
 Gaisi Takeuti's consistency proof for $\Pi^1_1$ comprehension (1967) began the analysis of impredicative theories.
 
@@ -94,8 +94,8 @@ Stronger theories, such as parts of second-order arithmetic, get much larger ord
 
 We read off what the analysis $\abs{\mathrm{ACA}_0} = \varepsilon_0$ gives, from known results.
 
-1. Notation: the [[Cantor normal form notation for ε0|~abf54fbe]].
-2. Lower bound: ACA0 proves well-foundedness of each initial segment below $\varepsilon_0$, by the jump of [[transfinite induction in arithmetic|~e065bc19]] with a set parameter.
+1. Notation: the [[Cantor normal form notation for ε0|R3BJR7TM2Z]].
+2. Lower bound: ACA0 proves well-foundedness of each initial segment below $\varepsilon_0$, by the jump of [[transfinite induction in arithmetic|ZE54ABPMJ0]] with a set parameter.
 3. Upper bound: ACA0 is conservative over PA with a free set variable, so it proves no more transfinite induction than PA.
 4. Consequences: ACA0 does not prove Goodstein's theorem, and its provably total functions are those of PA.
 
@@ -107,6 +107,6 @@ The trap: equal ordinals do not mean equal theories; ACA0 and PA have the same o
 Ordinal analysis has a lower half and an upper half.
 The lower half is a well-ordering proof inside $T$, built from jumps such as Gentzen's, or from accessible parts in second-order systems.
 The upper half embeds $T$ into an infinitary system and bounds the ordinal heights by cut elimination.
-The system uses the [[ω-rule|~e0034cfd]] for predicative theories, and [[collapsing functions|~766739ea]] or the Ω-rule for impredicative ones.
-The scale of ordinals reached so far runs from $\varepsilon_0$ through $\Gamma_0$ and the [[Bachmann-Howard ordinal|~fcf34cb0]] to the ordinals of theories with reflection and of $\Pi^1_2$ comprehension.
+The system uses the [[ω-rule|XAMKAB1BZM]] for predicative theories, and [[collapsing functions|8S6CT4TMB7]] or the Ω-rule for impredicative ones.
+The scale of ordinals reached so far runs from $\varepsilon_0$ through $\Gamma_0$ and the [[Bachmann-Howard ordinal|QH3ENXFRSV]] to the ordinals of theories with reflection and of $\Pi^1_2$ comprehension.
 At the top, the countable notation systems use names of large cardinals.

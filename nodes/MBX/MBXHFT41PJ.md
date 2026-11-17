@@ -15,11 +15,11 @@ inventory: [8JS3F4979V]
 retired:
   date: 2026-11-17
   reason: merged
-  successor: [~0d062a69]
+  successor: [M7D1HEJQVH]
   note: "The page moved to a node of the right kind."
 ---
 
 ## Summary
 
 This page is retired.
-The page of Rathjen's psi function is now [[Rathjen's psi function|~0d062a69]].
+The page of Rathjen's psi function is now [[Rathjen's psi function|M7D1HEJQVH]].

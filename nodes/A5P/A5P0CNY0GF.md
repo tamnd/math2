@@ -1,0 +1,48 @@
+---
+tag: A5P0CNY0GF
+kind: example
+name: A cut-free ω-derivation of ∀x (x + 0 = x)
+msc: ["03F05", "03F15"]
+topics: [XTTKZTYDSD]
+audience: grad
+instance_of: [XAMKAB1BZM]
+uses: [0QFT7Z76N5, 1QD0KDDGYJ]
+sources:
+  - url: https://en.wikipedia.org/wiki/Ω-consistent_theory
+    locator: ω-logic
+---
+
+## Example
+
+We derive the sentence $\forall x \, (x + 0 = x)$ in the infinitary system of [[the ω-rule|XAMKAB1BZM]].
+
+1. For each $n$, the closed term $\bar n + 0$ has the value $n + 0 = n$, and $\bar n$ has the value $n$.
+2. So the literal $\bar n + 0 = \bar n$ is true, and it is an axiom (Ax) with height $0$.
+3. The ω-rule takes these infinitely many axioms as premises and concludes $\forall x \, (x + 0 = x)$.
+4. The derivation has height $\sup_n 0 + 1 = 1$, and it has no cuts. So $\vdash^1_0 \forall x \, (x + 0 = x)$.
+
+## Remarks
+
+In [[Peano arithmetic|0QFT7Z76N5]] this sentence is an axiom, or follows from one, so the example is about the shape of derivations, not about strength.
+Change the formula to $\forall x \, (0 + x = x)$.
+In PA this needs the [[induction schema|1QD0KDDGYJ]], but in the ω-system it again has height $1$, because each closed instance $0 + \bar n = \bar n$ is a true literal.
+So induction disappears in the infinitary system, and only the evaluation of closed terms remains.
+
+## Explanations
+
+### L1 human
+
+To show that adding $0$ to any number leaves it unchanged, the ω-rule lets us check $0 + 0 = 0$, $1 + 0 = 1$, $2 + 0 = 2$, and so on, separately.
+Each of these is a true calculation.
+One application of the rule then gives the statement for all numbers.
+
+### L2 human
+
+We compare the two derivations of $\forall x \, (0 + x = x)$.
+
+1. In PA: prove $0 + 0 = 0$, then show $0 + x = x \to 0 + Sx = Sx$ from $0 + Sx = S(0 + x)$, and apply induction.
+2. In the ω-system: for each $n$, the literal $0 + \bar n = \bar n$ is true by evaluation, so it is an axiom.
+3. One ω-rule gives the sentence with height $1$.
+
+The typical use is the embedding of PA into the ω-system, where every induction becomes a derivation by the ω-rule.
+The trap: height $1$ does not mean a finite object; the derivation has infinitely many leaves.
