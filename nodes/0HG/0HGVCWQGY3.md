@@ -46,7 +46,7 @@ The [[proof|E0R6P2FMCM]] is short.
 The principle is also called Dirichlet's box principle, the drawer principle, or the Schubfachprinzip.
 All these names denote the same statement.
 In an application, the hard part is the choice of the boxes: the objects and the map $f$ must be defined so that two objects in one box give the desired conclusion.
-The page [[applications of the pigeonhole principle|~f5e5f57d]] shows four such choices.
+The page [[applications of the pigeonhole principle|5EAFG80VX6]] shows four such choices.
 
 ### Why each hypothesis is needed
 
@@ -114,4 +114,4 @@ In Mathlib the statement for finite sets is `Finset.exists_ne_map_eq_of_card_lt_
 
 The principle is the start of Ramsey theory: a large structure, split into a few classes, has a class with a lot of structure, as in the [[theorem on friends and strangers|0NYM0ZGAK9]] and [[Ramsey's theorem|00TQV3F5S4]].
 In number theory it gives [[Dirichlet's approximation theorem|04JAY9DGB7]] and Thue's lemma, and in transcendence theory it gives Siegel's lemma on [[auxiliary functions|X01V173DZD]].
-The [[generalized|0BY7GN3449]] and the [[infinite|0FS3RHF6KE]] forms, and the other methods of [[counting, invariant and extremal arguments|GB14W4SYPK]], such as [[double counting|0F8YBHF2W3]] and the [[averaging argument|~f5987d03]], are refinements of the same count.
+The [[generalized|0BY7GN3449]] and the [[infinite|0FS3RHF6KE]] forms, and the other methods of [[counting, invariant and extremal arguments|GB14W4SYPK]], such as [[double counting|0F8YBHF2W3]] and the [[averaging argument|HXP9VMXV8S]], are refinements of the same count.

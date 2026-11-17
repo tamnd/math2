@@ -79,5 +79,5 @@ In Mathlib it appears as `Finite.exists_infinite_fiber`.
 The uncountable version, and versions for larger cardinals, depend on the cofinality of the cardinal, a subject of set theory.
 
 The principle is the first step of compactness arguments in analysis and of infinite [[Ramsey's theorem|00TQV3F5S4]] in combinatorics.
-A repeated use of it, with a diagonal choice of a subsequence, gives the [[diagonalization technique|~7da89d71]] for sequences.
+A repeated use of it, with a diagonal choice of a subsequence, gives the [[diagonalization technique|V2H30SA654]] for sequences.
 König's lemma on infinite trees with finite branching is another repeated use: at each vertex one of finitely many branches has infinitely many vertices below it.

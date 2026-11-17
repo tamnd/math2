@@ -1,0 +1,101 @@
+---
+tag: 5EAFG80VX6
+kind: example
+name: Applications of the pigeonhole principle
+aliases: [pigeonhole-principle-applications]
+msc: ["05A05", "00A35", "11J04"]
+topics: [GB14W4SYPK]
+audience: school
+illustrates: [0HGVCWQGY3, 0BY7GN3449]
+uses: [0HGVCWQGY3, 0BY7GN3449, 0WAY5WX8NY, 0KS0KRDV4Y, 08GR54CKEA]
+sources:
+  - url: https://en.wikipedia.org/wiki/Pigeonhole_principle
+    locator: lead section
+  - url: https://en.wikipedia.org/wiki/Dirichlet%27s_approximation_theorem
+    locator: lead section
+  - url: https://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93Szekeres_theorem
+    locator: lead section
+---
+
+## Example
+
+We prove four results with the [[pigeonhole principle|0HGVCWQGY3]].
+In each proof, we name the objects and the boxes, we count them, and we say why two objects in one box give the result.
+
+First application: rational approximation.
+Let $\alpha$ be a real number and let $N \geq 1$ be an integer.
+We show that there are integers $p$ and $q$ with $1 \le q \le N$ and $|q\alpha - p| < 1/N$.
+
+1. For a real number $x$, let $\{x\} = x - \lfloor x \rfloor$ be its fractional part, where $\lfloor x \rfloor$ is the [[floor|08GR54CKEA]] of $x$. Then $0 \le \{x\} < 1$.
+2. The objects are the $N + 1$ numbers $\{k\alpha\}$ for $k = 0, 1, \dots, N$.
+3. The boxes are the $N$ intervals $[j/N, (j + 1)/N)$ for $j = 0, 1, \dots, N - 1$. Each number of step 2 lies in exactly one box, by step 1.
+4. Since $N + 1 > N$, two numbers $\{k\alpha\}$ and $\{l\alpha\}$ with $0 \le l < k \le N$ lie in the same box. So $|\{k\alpha\} - \{l\alpha\}| < 1/N$.
+5. Let $q = k - l$ and $p = \lfloor k\alpha \rfloor - \lfloor l\alpha \rfloor$. Then $1 \le q \le N$, and $q\alpha - p = \{k\alpha\} - \{l\alpha\}$, so $|q\alpha - p| < 1/N$.
+6. Check with $\alpha = \sqrt{2}$ and $N = 5$: the fractional parts for $k = 0, \dots, 5$ are about $0$, $0.414$, $0.828$, $0.243$, $0.657$ and $0.071$. The values for $k = 0$ and $k = 5$ share the box $[0, 0.2)$, so $q = 5$, $p = 7$, and $|5\sqrt{2} - 7| \approx 0.071 < 0.2$.
+
+Second application: a block sum divisible by $n$.
+Let $n \geq 1$ and let $a_1, \dots, a_n$ be integers.
+We show that some block $a_{i+1} + a_{i+2} + \cdots + a_j$ with $0 \le i < j \le n$ is divisible by $n$.
+
+1. The objects are the $n + 1$ partial sums $S_0 = 0$ and $S_j = a_1 + \cdots + a_j$ for $j = 1, \dots, n$.
+2. The boxes are the $n$ remainders $0, 1, \dots, n - 1$ modulo $n$, and $S_j$ goes into the box of its remainder.
+3. Since $n + 1 > n$, two sums $S_i$ and $S_j$ with $i < j$ have the same remainder. So $S_j - S_i$ is divisible by $n$, that is, $S_j \equiv S_i$ [[modulo $n$|0WAY5WX8NY]].
+4. The difference $S_j - S_i$ is $a_{i+1} + \cdots + a_j$, a block of consecutive terms.
+5. Check with $n = 5$ and $(a_1, \dots, a_5) = (3, 8, 4, 11, 6)$: the partial sums are $0, 3, 11, 15, 26, 32$, with remainders $0, 3, 1, 0, 1, 2$. So $S_0 \equiv S_3$, and the block $3 + 8 + 4 = 15$ is divisible by $5$.
+
+Third application: monotone subsequences.
+Let $n \geq 1$ and let $a_1, \dots, a_{n^2 + 1}$ be distinct real numbers.
+We show that there is an increasing subsequence of length $n + 1$ or a decreasing subsequence of length $n + 1$.
+
+1. For each $i$, let $L_i$ be the length of the longest increasing subsequence that starts with $a_i$. Then $L_i \geq 1$.
+2. If $L_i \geq n + 1$ for some $i$, there is an increasing subsequence of length $n + 1$, and we are done. So assume that $L_i \in \set{1, \dots, n}$ for each $i$.
+3. The objects are the $n^2 + 1$ indices $i$, and the boxes are the $n$ possible values of $L_i$. Since $n \cdot n < n^2 + 1$, the [[generalized pigeonhole principle|0BY7GN3449]] gives a value shared by at least $n + 1$ indices $i_1 < i_2 < \cdots < i_{n+1}$.
+4. Let $i < j$ be two of these indices. If $a_i < a_j$, then $a_i$ followed by a longest increasing subsequence from $a_j$ is increasing, so $L_i \geq L_j + 1$. This contradicts $L_i = L_j$.
+5. So $a_i > a_j$, because the numbers are distinct. Hence $a_{i_1} > a_{i_2} > \cdots > a_{i_{n+1}}$ is a decreasing subsequence of length $n + 1$.
+6. Check with $n = 3$ and the $10$ numbers $5, 2, 8, 1, 7, 4, 9, 3, 6, 0$: the values $L_i$ are $3, 3, 2, 3, 2, 2, 1, 2, 1, 1$. The value $2$ occurs at the terms $8, 7, 4, 3$, and these terms form a decreasing subsequence of length $4$.
+
+Fourth application: friends at a party.
+A party has $n \geq 2$ guests, and friendship is mutual, and nobody is a friend of himself or herself.
+We show that two guests have the same number of friends at the party.
+
+1. The objects are the $n$ guests, and a guest goes into the box of his or her number of friends. This number is the [[degree|0KS0KRDV4Y]] of the guest in the friendship graph.
+2. Each guest has between $0$ and $n - 1$ friends, so the possible boxes are $0, 1, \dots, n - 1$. These are $n$ boxes, which is not yet enough.
+3. The boxes $0$ and $n - 1$ cannot both be used. A guest with $n - 1$ friends is a friend of every other guest, so no guest has $0$ friends.
+4. So at most $n - 1$ boxes are used by $n$ guests. By the pigeonhole principle, two guests are in the same box.
+5. Check with $5$ guests $A, B, C, D, E$ and the friendships $AB$, $AC$, $BC$, $BD$: the numbers of friends are $2, 3, 2, 1, 0$, and $A$ and $C$ share the number $2$.
+
+## Remarks
+
+The four proofs show that the work is in the choice of the boxes.
+In the first proof the boxes are intervals, in the second they are remainders, in the third they are lengths of subsequences, and in the fourth they are numbers of friends.
+In the fourth proof the first choice of boxes is not enough, and step 3 removes one box before the principle applies.
+
+The results change with the parameters in a controlled way.
+In the third application, $n^2$ numbers are not enough: for $n = 3$, the sequence $3, 2, 1, 6, 5, 4, 9, 8, 7$ has no monotone subsequence of length $4$.
+In the second application, the result fails for fewer than $n$ integers: for $n = 5$, the four integers $1, 1, 1, 1$ have block sums $1$ to $4$, and none is divisible by $5$.
+In the first application, a finer argument with $N + 1$ boxes gives the bound $1/(N + 1)$ of [[Dirichlet's approximation theorem|04JAY9DGB7]], and the third application is the case $r = s = n + 1$ of the [[Erdős-Szekeres theorem|0SNJM8HSD3]].
+
+## Explanations
+
+### L1 human
+
+The pigeonhole principle says: more objects than boxes means two objects share a box.
+The art is to choose the boxes.
+For example, write down any $5$ whole numbers, such as $3, 8, 4, 11, 6$.
+Add them up from the left: $3$, $11$, $15$, $26$, $32$.
+Together with $0$, there are $6$ running totals, but only $5$ possible remainders when we divide by $5$.
+So two running totals have the same remainder, and the numbers between them add up to a multiple of $5$: here $3 + 8 + 4 = 15$.
+
+### L2 human
+
+We use the party argument for a party of $4$ guests where each guest shakes hands with some of the others.
+
+1. Each guest shakes between $0$ and $3$ hands, so there are $4$ possible numbers.
+2. If some guest shakes $3$ hands, that guest shakes hands with all the others, so nobody shakes $0$ hands. The possible numbers are then $1, 2, 3$.
+3. If nobody shakes $3$ hands, the possible numbers are $0, 1, 2$.
+4. In both cases there are $4$ guests and at most $3$ possible numbers.
+5. By the pigeonhole principle, two guests shake the same number of hands.
+
+The typical use is a proof that some coincidence must happen, with no way to say in advance where it happens.
+A trap is step 2: with the $4$ first boxes $0, 1, 2, 3$ the principle gives nothing, because $4$ guests fit into $4$ boxes.
+The proof needs the extra observation that two of the boxes exclude each other.

@@ -1,0 +1,58 @@
+---
+tag: 4Y6AAEMN20
+kind: example
+name: The total number of chameleons does not rule out one colour
+msc: ["00A35", "05A99"]
+topics: [GB14W4SYPK]
+audience: school
+not_instance_of:
+  - target: 8NQ190278Y
+    note: the total is unchanged by every meeting, but it has the same value 45 at the start and at each one-colour state, so it rules out nothing
+uses: [8NQ190278Y, XBVPYJ1NEB]
+sources:
+  - url: https://en.wikipedia.org/wiki/Invariant_(mathematics)
+    locator: lead section
+---
+
+## Example
+
+We use the island of the [[game of chameleons|XBVPYJ1NEB]]: $13$ red, $15$ green and $17$ blue chameleons, and two chameleons of different colours that meet both take the third colour.
+We try two quantities, and we check why neither gives an [[invariant proof|8NQ190278Y]] that one colour is impossible.
+
+1. Let $T = r + g + b$ be the total number of chameleons. A red and green meeting changes $T$ by $-1 - 1 + 2 = 0$, and the other two meetings do the same.
+2. So $T$ is unchanged by each move. At the start, $T = 13 + 15 + 17 = 45$.
+3. The one-colour states are $(45, 0, 0)$, $(0, 45, 0)$ and $(0, 0, 45)$. At each of them, $T = 45$.
+4. The values of $T$ at the start and at each target are equal. So $T$ does not rule out any target, and the argument gives no conclusion.
+5. Let $R = r$ be the number of red chameleons. A red and green meeting changes $R$ from $13$ to $12$.
+6. So $R$ changes at some moves, and it is not an invariant. Its values at the start and at the target prove nothing about reachability.
+
+## Remarks
+
+The invariant method needs two conditions: no move changes the quantity, and the quantity has different values at the start and at the target.
+The total $T$ satisfies the first condition and fails the second.
+The count $R$ fails the first condition.
+The residue of $r - g$ modulo $3$ satisfies both, and it gives the proof in the [[full example|XBVPYJ1NEB]].
+
+The example also shows that the failure of one quantity is not evidence that the target can be reached.
+For the counts $13, 15, 17$, the target is impossible, although $T$ gives no information.
+
+## Explanations
+
+### L1 human
+
+The number of chameleons on the island never changes, because a meeting only changes colours.
+So the total is a quantity that stays the same, which looks like a good start.
+But a one-colour island also has $45$ chameleons, the same total as at the start.
+A quantity that is the same at the start and at the goal cannot show that the goal is impossible.
+We need a quantity that differs at the start and at the goal.
+
+### L2 human
+
+We sort three quantities by the two conditions of the method.
+
+1. The total $T = r + g + b$: unchanged by each meeting; equal to $45$ at the start and at each target. It fails the second condition.
+2. The count $r$: changed by a red and green meeting from $13$ to $12$. It fails the first condition.
+3. The residue of $r - g$ modulo $3$: unchanged by each meeting; equal to $1$ at the start and to $0$ at the all-blue state. It satisfies both conditions.
+
+The typical use of this check is the search for an invariant: we list candidate quantities and test both conditions for each.
+A trap is to stop after the first condition and to forget the second.

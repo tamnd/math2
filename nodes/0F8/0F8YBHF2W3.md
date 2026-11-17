@@ -47,22 +47,22 @@ See the [[incidence matrix|9DNFN8M83X]] of a graph for the standard case.
 
 The relation $R$ is also a [[bipartite graph|0ZVQKTRKVQ]] with parts $A$ and $B$, and $d(a)$ and $e(b)$ are the degrees of its vertices.
 Other names are "counting in two ways" and "proof by counting pairs".
-A proof of an identity that counts one set in two ways is also a [[combinatorial proof|~a16dfc7e]], and many books use both names for it.
+A proof of an identity that counts one set in two ways is also a [[combinatorial proof|SS07J9ZAQ7]], and many books use both names for it.
 
 ## Remarks
 
 ### Examples
 
 - The [[handshaking lemma|0XAP8WHNES]]. Take $A = V$, $B = E$ and $R = \set{(v, e) : v \in e}$. Each edge has $e(b) = 2$ ends, so the sum of the degrees is $2|E|$.
-- [[Points and lines of the Fano plane|~59268d84]]. Count the pairs of a point and a line through it. The $7$ lines with $3$ points each give $21$ pairs, so on average a point lies on $21 / 7 = 3$ lines.
-- [[Fixed points of permutations|~e9da7849]]. Count the pairs $(\sigma, i)$ with $\sigma(i) = i$. The total is $n!$, so a permutation of $n$ elements has $1$ fixed point on average.
-- The identity $\sum_{k=0}^{n} k \binom{n}{k} = n 2^{n-1}$ comes from the pairs $(S, x)$ with $S \subseteq \set{1, \dots, n}$ and $x \in S$. Sorted by $S$, the count is the left side; sorted by $x$, each $x$ lies in $2^{n-1}$ subsets. The [[combinatorial proof of a related identity|~9956f43c]] counts the same pairs for a fixed size of $S$.
+- [[Points and lines of the Fano plane|7519W7BDKR]]. Count the pairs of a point and a line through it. The $7$ lines with $3$ points each give $21$ pairs, so on average a point lies on $21 / 7 = 3$ lines.
+- [[Fixed points of permutations|SBC0RA543V]]. Count the pairs $(\sigma, i)$ with $\sigma(i) = i$. The total is $n!$, so a permutation of $n$ elements has $1$ fixed point on average.
+- The identity $\sum_{k=0}^{n} k \binom{n}{k} = n 2^{n-1}$ comes from the pairs $(S, x)$ with $S \subseteq \set{1, \dots, n}$ and $x \in S$. Sorted by $S$, the count is the left side; sorted by $x$, each $x$ lies in $2^{n-1}$ subsets. The [[combinatorial proof of a related identity|TTQNN6XXQN]] counts the same pairs for a fixed size of $S$.
 - Faces of a plane graph. Each edge borders two face sides, so the face lengths add up to $2|E|$. The [[proof of the edge bound for planar graphs|K90CGWAE6S]] starts with this count.
-- [[The average number of divisors|~fb09547d]] of the integers up to $n$. Count the pairs $(j, k)$ with $j \mid k \le n$, once by $k$ and once by $j$.
+- [[The average number of divisors|320MBBJETV]] of the integers up to $n$. Count the pairs $(j, k)$ with $j \mid k \le n$, once by $k$ and once by $j$.
 
 ### Non-examples
 
-- [[Swapping an infinite signed double sum|~057b5cf9]]. The table with entries $1$ on the diagonal and $-1$ just to the right of it has row sums $0$ and column sums with total $1$. The condition that fails is finiteness: the technique counts a finite set, or adds non-negative numbers.
+- [[Swapping an infinite signed double sum|29XBXX10N8]]. The table with entries $1$ on the diagonal and $-1$ just to the right of it has row sums $0$ and column sums with total $1$. The condition that fails is finiteness: the technique counts a finite set, or adds non-negative numbers.
 - For overlapping sets $A_1, \dots, A_k$, the sum $\sum_i |A_i|$ is not $|A_1 \cup \cdots \cup A_k|$. The sum counts the pairs $(i, x)$ with $x \in A_i$, and the union counts elements $x$. The two counts are counts of different sets, so they can differ: for $A_1 = A_2 = \set{1}$, the sum is $2$ and the union has $1$ element.
 - The proof of the [[symmetry of binomial coefficients|0R7JS3DP3W]] by the map $S \mapsto X \setminus S$ is a bijective proof, not a double count. It compares two different sets, the $k$-subsets and the $(n - k)$-subsets of $X$. The condition that fails is that both sides count one and the same set.
 
@@ -71,7 +71,7 @@ A proof of an identity that counts one set in two ways is also a [[combinatorial
 - The basic identity is the [[rule of sum|0EE2V3CHFK]], applied twice: $R$ is the disjoint union of its rows, and also of its columns. In Mathlib it is `Finset.sum_card_bipartiteAbove_eq_sum_card_bipartiteBelow`.
 - Regular case. If $d(a) = d$ for all $a$ and $e(b) = e$ for all $b$, then $|A| \cdot d = |B| \cdot e$. This is the identity $bk = vr$ for [[block designs|4JCSS2Z1BA]].
 - Weighted form. For a function $w : A \times B \to \mathbb{R}$, $\sum_{a \in A} \sum_{b \in B} w(a, b) = \sum_{b \in B} \sum_{a \in A} w(a, b)$. Double counting is the case where $w$ is the indicator of $R$.
-- Averaging consequence. The mean of the numbers $d(a)$ is $|R| / |A|$, so some $a$ has $d(a) \geq |R| / |A|$. The [[averaging argument|~f5987d03]] uses this step.
+- Averaging consequence. The mean of the numbers $d(a)$ is $|R| / |A|$, so some $a$ has $d(a) \geq |R| / |A|$. The [[averaging argument|HXP9VMXV8S]] uses this step.
 - For infinite sums, the weighted form needs a hypothesis such as non-negative terms or absolute convergence; see [[interchange of summation order|MZM1AFXY82]] and [[Fubini's theorem|0R0T1VWH5X]].
 
 ### History
@@ -120,4 +120,4 @@ In probability, double counting becomes linearity of [[expectation|0WQNRCNY3M]]:
 Many inequalities of extremal combinatorics start with a double count and then apply an inequality to the result.
 The [[proof of Mantel's theorem|TPQVT6GZAW]] shows $\sum_{xy \in E} (d(x) + d(y)) = \sum_{v} d(v)^2$ by a double count, and then it applies the [[Cauchy-Schwarz inequality|0RFWW56Y22]].
 The [[proof of Sperner's theorem by Lubell|57DD99JPR1]] counts the pairs of a set of the family and a maximal chain through it.
-The technique is a special case of the [[combinatorial proofs|~a16dfc7e]] of this sub-area, and the [[bijection principle|0GV2573FP4]] is the other basic tool of those proofs.
+The technique is a special case of the [[combinatorial proofs|SS07J9ZAQ7]] of this sub-area, and the [[bijection principle|0GV2573FP4]] is the other basic tool of those proofs.
