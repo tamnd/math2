@@ -43,15 +43,15 @@ This leads to two questions: how to read a picture as an argument, and when a pi
 
 ### Examples
 
-- [[The sum of the first n odd numbers as a picture|~41af8027]]: an $n \times n$ square splits into L-shaped layers of $1, 3, \ldots, 2n - 1$ cells. The picture is a proof because the layer rule is the same for each $n$.
-- [[The rearrangement picture for the Pythagorean theorem|~3094f68c]]: four copies of a right triangle fill a square of side $a + b$ in two ways. The uncovered area is $c^2$ in one way and $a^2 + b^2$ in the other.
-- [[Nicomachus's theorem as a picture|~001b2e63]]: a square of side $1 + 2 + \cdots + n$ splits into layers of area $1^3, 2^3, \ldots, n^3$. Each layer can be checked with one line of algebra.
+- [[The sum of the first n odd numbers as a picture|EE2Y5SNFME]]: an $n \times n$ square splits into L-shaped layers of $1, 3, \ldots, 2n - 1$ cells. The picture is a proof because the layer rule is the same for each $n$.
+- [[The rearrangement picture for the Pythagorean theorem|T6WDA860PA]]: four copies of a right triangle fill a square of side $a + b$ in two ways. The uncovered area is $c^2$ in one way and $a^2 + b^2$ in the other.
+- [[Nicomachus's theorem as a picture|1WR6FN0NTE]]: a square of side $1 + 2 + \cdots + n$ splits into layers of area $1^3, 2^3, \ldots, n^3$. Each layer can be checked with one line of algebra.
 - Two copies of a staircase of $1 + 2 + \cdots + n$ cells fit together into an $n \times (n + 1)$ rectangle. So twice the [[triangular number|WHN4CBYZXD]] $T_n$ is $n(n + 1)$.
 - The picture of the [[tiling of a deficient board by L-trominoes|EXRJ0JF2Q3]] shows the induction step: one tromino at the centre and four smaller boards. The picture is a proof by induction drawn in one figure.
 
 ### Non-examples
 
-- [[The staircase picture does not prove that the square root of 2 is 2|~e43b0578]]: each staircase in the picture is drawn correctly, but the passage to the limit is not visible, and it is false. The condition that fails is that each step that the picture suggests must be valid.
+- [[The staircase picture does not prove that the square root of 2 is 2|5WP0CV0866]]: each staircase in the picture is drawn correctly, but the passage to the limit is not visible, and it is false. The condition that fails is that each step that the picture suggests must be valid.
 - A drawing of one triangle with angles measured by a protractor is not a proof that the angles of every triangle add up to $180°$. The drawing shows one case, and a measurement is only approximate.
 - A picture of $1 + 3 + 5 + 7 = 16$ alone, with no visible rule for the next layer, checks the case $n = 4$ only. The condition that fails is that the construction must work for each $n$.
 
@@ -60,7 +60,7 @@ This leads to two questions: how to read a picture as an argument, and when a pi
 - A picture shows one case. It proves a general statement only when the construction depends on the parameter in a way that the reader can state, for example "layer $k$ has $2k - 1$ cells".
 - Each visible fact in a picture is a mathematical claim. For example, "these two regions have the same area" is a claim that needs a reason, such as congruence.
 - When we write out these claims, the picture becomes a written proof. The written proof often counts the same quantity in two ways, as in [[double counting|0F8YBHF2W3]].
-- A picture can hide a limit. Areas and lengths of figures that approach a limit figure need not approach the area or length of the limit figure, as the [[staircase|~e43b0578]] shows.
+- A picture can hide a limit. Areas and lengths of figures that approach a limit figure need not approach the area or length of the limit figure, as the [[staircase|5WP0CV0866]] shows.
 - A picture uses facts of geometry, such as the area of a rectangle and the invariance of area under a rigid motion. These facts hold in Euclidean geometry and can fail in [[non-Euclidean geometry|SPCYMFN5V2]].
 
 ### When a picture is a proof
@@ -70,10 +70,10 @@ The first answer is that a picture is not a proof, because it leaves out the log
 On this view the picture is a guide that suggests a proof and helps a reader to remember it.
 The second answer is that some pictures are proofs.
 The philosopher James Robert Brown defended this view in the article "Proofs and pictures" (1997), and the philosopher Janet Folina replied against it.
-The third answer is that the question depends on the reader, in the same way as [[mathematical rigour|~cc99a1f7]] does.
+The third answer is that the question depends on the reader, in the same way as [[mathematical rigour|E1PE9R8DBB]] does.
 A reader who can state the general rule of the picture and justify each visible fact has a proof, and a reader who only sees a pattern has a conjecture.
 All three answers agree that a picture can be wrong, and that each visible fact needs a reason.
-The pages on [[formal and informal proofs|~a17a082b]] and on the [[acceptance of proofs|~182d5747]] continue this question.
+The pages on [[formal and informal proofs|8VZ77R4R8S]] and on the [[acceptance of proofs|MJ3EHQJJHX]] continue this question.
 
 ### History
 
@@ -86,7 +86,7 @@ Roger Nelsen collected many of these pictures in a series of books with the titl
 
 - To take a picture of one case as a proof of all cases. The reader must check that the construction is the same for each value of the parameter.
 - To trust the eye about lengths and angles. A figure drawn slightly wrong can hide a gap or an overlap, as the topic [[fallacies and errors in proofs|T6QQ749DM5]] shows.
-- To pass to a limit in a picture without checking that the quantity behaves well under the limit. Length is not preserved under such limits, as the [[staircase|~e43b0578]] shows.
+- To pass to a limit in a picture without checking that the quantity behaves well under the limit. Length is not preserved under such limits, as the [[staircase|5WP0CV0866]] shows.
 
 ## Explanations
 
@@ -123,4 +123,4 @@ Euclid's proofs read facts such as "this point lies between those two points" fr
 Jeremy Avigad, Edward Dean and John Mumma later gave a formal system, called E, that models the use of diagrams in the *Elements* (2009).
 So a diagram can be part of a precise proof when the inferences that it allows are listed.
 Many pictures for sums are [[combinatorial proofs|SS07J9ZAQ7]] in disguise: they count one set of cells in two ways.
-The question of the status of pictures is a special case of the questions of [[rigour|~cc99a1f7]] and of [[acceptance|~182d5747]], and it returns for proofs that no human can see in full, such as [[computer-assisted proofs|~538d29c3]].
+The question of the status of pictures is a special case of the questions of [[rigour|E1PE9R8DBB]] and of [[acceptance|MJ3EHQJJHX]], and it returns for proofs that no human can see in full, such as [[computer-assisted proofs|MC18C7BMFT]].
