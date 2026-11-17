@@ -1,0 +1,121 @@
+---
+tag: 8DHD3H1CJ9
+kind: concept
+name: Plausible reasoning
+aliases: [patterns-of-plausible-inference, heuristic-reasoning-polya]
+msc: ["00A35"]
+topics: [DME0TPC348]
+audience: ug2
+uses: [5V35SGEN1T, WMEMMHZ3BH, 0B94TKFQJX, 0ED72CTBNP]
+sources:
+  - url: https://en.wikipedia.org/wiki/Plausible_reasoning
+    locator: George Polya and plausible reasoning
+  - url: https://en.wikipedia.org/wiki/Mathematics_and_Plausible_Reasoning
+    locator: lead section
+  - book: isbn:9780691164076
+---
+
+## Summary
+
+Plausible reasoning is reasoning that changes the degree of belief in a statement without proving or refuting it.
+George Pólya described it by patterns of inference.
+The basic pattern has two premises, "$A$ implies $B$" and "$B$ is true", and the conclusion "$A$ is more credible".
+Other patterns use analogy ("$A$ is analogous to $B$, and $B$ is true") and the weight of the evidence (a surprising consequence counts more than an expected one).
+The conclusion of a plausible inference is never "$A$ is true"; it is only a change in confidence.
+Plausible reasoning matters because it is how mathematicians choose which [[conjectures|WMEMMHZ3BH]] to believe and to attack, before a [[proof|0B94TKFQJX]] exists.
+
+## Motivation
+
+A [[proof|0B94TKFQJX]] is the end of a piece of mathematical work, but it is seldom the start.
+Before the proof, the mathematician guesses a result and collects reasons to believe it.
+These reasons are of several kinds: checked special cases, a similar result that is known, a consequence that turns out true, a numerical value that agrees.
+None of them is a proof, and some of them are stronger than others.
+Pólya asked whether the weighing of such reasons follows rules.
+His answer was a list of patterns, which make the informal judgement explicit and show where it can fail.
+
+A second motivation is the asymmetry between proof and refutation.
+If $A$ implies $B$ and $B$ is false, then $A$ is false: this is a deduction (modus tollens).
+If $A$ implies $B$ and $B$ is true, nothing follows by deduction.
+Yet every working mathematician feels that a true consequence supports $A$.
+Plausible reasoning is the name for this support.
+
+## Notation
+
+Pólya wrote each pattern as two premises over a line and a conclusion below it, in the style of a rule of inference.
+The basic pattern, which he called the fundamental inductive pattern, reads:
+$$\frac{A \text{ implies } B \qquad B \text{ true}}{A \text{ more credible}}$$
+The shaded forms replace "true" by "more credible", and the conclusion by "somewhat more credible".
+Later authors model the patterns with probability: if $B$ follows from $A$, then $P(A \mid B) = P(A)/P(B) \geq P(A)$, so a true consequence $B$ raises the probability of $A$ by the factor $1/P(B)$.
+This model is an interpretation, not part of Pólya's patterns.
+
+## Remarks
+
+### Examples
+
+1. [[Euler's evaluation of the Basel sum|A1NXVMGPG0]]: Euler found $\sum 1/n^2 = \pi^2/6$ by an analogy between polynomials and the sine function. He then checked consequences of the same analogy, and each check raised his confidence.
+2. [[A table of polyhedra suggests Euler's formula|HTK0AX3RGC]]: the value $V - E + F = 2$ holds for each polyhedron in a list. A new case that is very different from the old ones adds more credibility than a similar case.
+3. Goldbach's conjecture: each even number that is checked is a true consequence of the conjecture. The fundamental inductive pattern says that the conjecture becomes more credible; see [[Goldbach's conjecture for small even numbers|51WEX891JK]].
+4. Analogy: the integers and the polynomials over a field both have division with remainder and unique factorization. A theorem about integers makes the analogous statement about polynomials more credible, and the reverse.
+5. Agreement of numbers: the sum $\sum_{n \geq 1} 1/(n^2 \binom{2n}{n})$ agrees with $\pi^2/18$ to more than $70$ decimal places. Such agreement is strong support, because a chance agreement to $70$ places is very improbable; see [[identifying the sum of 1/(n^2 C(2n,n))|SQHXXFTXEY]].
+
+### Non-examples
+
+1. [[Refuting a conjecture by a false consequence|GHWRJ1BQTN]]: if $A$ implies $B$ and $B$ is false, then $A$ is false with certainty. This is demonstrative reasoning, not plausible reasoning.
+2. A [[mathematical proof|0B94TKFQJX]], for example a proof by [[mathematical induction|0ASJVEFA9J]]. Its conclusion is certain, so the condition "the conclusion is only a change in confidence" fails.
+3. A guess with no stated reason, such as "the answer is probably $7$". There is no premise, so there is no pattern of inference.
+
+### Basic properties
+
+1. Plausible reasoning cannot make a false statement true. A false conjecture can have many true consequences, as the [[patterns that eventually fail|A2KSJSQSF6]] show.
+2. The patterns are not transitive in the way deductions are. If $A$ is more credible because of $B$, and $B$ because of $C$, the support for $A$ from $C$ can be very weak.
+3. The weight of a verified consequence $B$ depends on how probable $B$ was without $A$. A consequence that was likely anyway adds little credibility, and a surprising consequence adds much.
+4. Consequences that are very different from the consequences already verified add more credibility than consequences of the same kind.
+5. One false consequence outweighs any number of true ones, because it refutes $A$ by deduction; this is the role of the [[counterexample|0ED72CTBNP]].
+6. Plausible reasoning is the step from data to a conjecture in [[inductive reasoning|5V35SGEN1T]] and in [[forming conjectures|R2T42N5XGK]].
+
+### History
+
+Pólya published "Mathematics and Plausible Reasoning" in two volumes in 1954, with the subtitles "Induction and Analogy in Mathematics" and "Patterns of Plausible Inference".
+His earlier book "How to Solve It" (1945) already has entries on induction, analogy and heuristic reasoning.
+Pólya took many of his examples from Leonhard Euler, who described in his papers how he had found his results by observation and checks.
+
+### Common errors
+
+1. Reading "more credible" as "true". A conjecture supported by many verified consequences can still be false, as the [[Pólya conjecture|0ED72CTBNP]] shows.
+2. Counting cases without weighing them. A thousand checks of the same kind can add less than one check of a new kind.
+3. Using a verified converse as support. "$B$ implies $A$" and "$B$ true" proves $A$; "$A$ implies $B$" and "$B$ true" only supports $A$. Mixing the two is the fallacy of affirming the consequent.
+
+## Explanations
+
+### L1 human
+
+Suppose a friend claims that a coin is fair.
+If the coin is fair, about half of many tosses should be heads.
+We toss it $100$ times and get $52$ heads.
+This does not prove that the coin is fair, but it makes the claim more believable.
+Mathematicians reason in the same way before they have a proof.
+If a guess about numbers is true, then some example must work out; when the example works out, the guess becomes more believable.
+When an example fails, the guess is dead for certain.
+
+### L2 human
+
+We weigh the evidence for the claim $A$: "$n^2 + n + 41$ is prime for every natural number $n$".
+
+1. Consequence $B_0$: $f(0) = 41$ is prime. It is true, so $A$ is more credible by the fundamental inductive pattern.
+2. Consequences $B_1, \ldots, B_{39}$: the values $43, 47, 53, \ldots, 1601$ are prime. Each one is true, and $A$ looks more credible.
+3. Weight: a random number near $1000$ is prime with probability about $1/\ln 1000 \approx 0.14$. Forty primes in a row are very improbable by chance, so the consequences have much weight.
+4. But they are all of the same kind. They support "$f$ produces many primes" as much as they support "$f$ always produces primes".
+5. A consequence of a new kind: $f(40) = 40^2 + 40 + 41 = 41 \cdot 41$. It is false, so $A$ is false by deduction.
+
+The typical use: plausible reasoning tells which conjecture to try to prove, and the deduction of step 5 tests it.
+The trap is step 3: strong evidence for a weaker statement was read as evidence for the strong one; see [[this example|H75AB4EJT5]].
+
+### L3 human
+
+Pólya's patterns are close to Bayesian confirmation theory.
+If credibility is a probability $P$, then "$A$ implies $B$" gives $P(A \mid B) = P(A)/P(B)$, which recovers the fundamental pattern and the rule that a surprising consequence counts more.
+The analogy patterns do not have such a simple model, and philosophers of mathematics still discuss how to assign probabilities to mathematical statements, which are true or false by necessity.
+
+Plausible reasoning is the logic of the rest of this topic.
+[[Experimental mathematics|BPEPTN0TT9]] supplies verified consequences at high precision, [[numerical evidence|JFD3QWCX8Z]] studies when many verified cases mislead, and [[heuristic arguments|VCQQNJ3SEZ]] supply models from which a conjecture follows.
+The [[heuristics of discovery|X1NSTVGDNQ]] describe the search for a conjecture and a proof, and plausible reasoning describes how the search is judged.

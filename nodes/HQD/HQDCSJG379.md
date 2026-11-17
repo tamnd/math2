@@ -1,0 +1,116 @@
+---
+tag: HQDCSJG379
+kind: concept
+name: Transition-to-proof courses
+aliases: [transition-to-proof-course, bridge-course, introduction-to-proof-course, transition-course]
+msc: ["97E50", "97B40", "97D70"]
+topics: [VHGA6J4NZK]
+audience: ug1
+uses: [0B94TKFQJX, 958EF46EYJ, 0ASJVEFA9J, 0BSJ7RQ9BW, FA6YZGR2SS]
+sources:
+  - book: isbn:9781108439534
+    locator: Introduction
+  - book: isbn:9781108439534
+    locator: Chapter 3
+  - url: https://doi.org/10.1007/BF01273731
+    locator: pages 249-266
+  - url: https://doi.org/10.1007/978-94-007-2129-6_17
+    locator: pages 391-420
+  - url: https://doi.org/10.2307/30034698
+    locator: pages 4-36
+  - url: https://en.wikipedia.org/wiki/Mathematical_maturity
+    locator: Progression
+---
+
+## Summary
+
+A transition-to-proof course is a university course whose main aim is to teach students to read and write [[proofs|0B94TKFQJX]], before or alongside their first proof-based courses.
+Its usual content is the logic of statements and quantifiers, the language of [[sets|0BSJ7RQ9BW]], functions and relations, the [[basic proof methods|958EF46EYJ]] and [[mathematical induction|0ASJVEFA9J]].
+Other names are "bridge course", "introduction to proof", "foundations of mathematics" and "mathematical reasoning".
+The course matters because the step from calculation to proof is a major difficulty of university mathematics, and the course is the standard response of mathematics departments to it.
+
+## Motivation
+
+School mathematics and first-year calculus ask students to compute.
+Later courses, such as real analysis and abstract algebra, ask students to prove theorems from definitions.
+Many students who did well in the first kind of course fail in the second.
+Robert Moore (1994) observed students in a transition course and listed their difficulties: they did not know the definitions, could not use the notation, and did not know how to begin a proof.
+A transition course isolates these skills and teaches them on simple content, so that the later courses can teach their own content.
+
+## Remarks
+
+### Examples
+
+1. Daniel Velleman, "How to Prove It", starts with two chapters on sentential and quantificational logic, then a chapter on proof strategies by the [[logical form|872K5XB580]] of the goal. Later chapters treat relations, functions and induction.
+2. Richard Hammack, "Book of Proof", is an open textbook. It treats sets, logic, direct proof, contrapositive and contradiction, induction, relations, functions and cardinality.
+3. Ted Sundstrom, "Mathematical Reasoning: Writing and Proof", is an open textbook with a similar plan. It adds preview activities before each section.
+4. Dana Ernst, "An Introduction to Proof via Inquiry-Based Learning", is an open text in which students prove the theorems themselves. It applies the [[Moore method|WKM6535VHG]] to the transition course.
+5. Some departments use a first course in discrete mathematics or in number theory as the transition course. Proof is then taught through the content of that course.
+
+### Non-examples
+
+1. A course in calculus with a few proofs in the lectures is not a transition course. Its aim is calculus, and students do not practise the writing of proofs.
+2. A course in [[mathematical logic|DYJ0KGTPMR]] studies logic as a subject, with formal systems and completeness. A transition course uses logic as a tool for proofs.
+3. A course that trains contest problem solving teaches proof in part, but its aim is the solution of hard problems, not the habits of reading and writing proofs.
+
+### Basic properties
+
+1. A typical course follows the order: logic, proof methods, sets, induction, relations and functions. Some texts put sets before logic.
+2. The content is chosen to be simple, so that the difficulty of the course is the proof, not the mathematics. Typical theorems are about parity, divisibility, sets and functions.
+3. The course usually ends before analysis or algebra, and it prepares for both. Some courses add a short unit on cardinality or on number theory.
+
+### Research findings
+
+1. Moore (1994) identified seven sources of difficulty of students in a transition course. They concerned definitions, intuitive understanding, concept images, examples, the use of definitions to structure a proof, language and notation, and how to begin.
+2. Annie Selden and John Selden (2003) asked students of a transition course to judge whether given arguments were proofs. At first the students often failed to tell valid from invalid arguments, and their judgements improved as they reflected during the interview.
+3. Annie Selden (2012), in the ICMI Study 19, reviewed research on the transition to proof at university. She described the difficulties of the transition and the forms of courses that respond to it.
+4. Research does not yet give a clear answer to the question which form of transition course works best. Studies compare few courses, and their measures differ.
+
+### History
+
+Transition courses are a common part of the mathematics degree in the United States.
+The first edition of Velleman's book appeared in 1994, and the third in 2019.
+Open textbooks by Hammack, Sundstrom, Ernst and others are freely available for such courses.
+Some recent courses use a [[proof assistant|KGPHY3F0GC]], such as Lean, to check the proofs of students.
+
+### Common errors
+
+1. A student thinks that the logic unit is separate from the proofs that follow. The rules of the logic unit are the rules that the later proofs use.
+2. A student memorizes the proofs of the course. The aim of the course is the method, and the tests ask for new proofs.
+3. A course spends most of its time on logic and leaves little time for the writing of proofs. Students then know the truth tables but cannot write a proof.
+
+## Explanations
+
+### L1 human
+
+In school, mathematics is mostly about finding answers.
+At university, it is also about proving that statements are true for all cases.
+Many students find this step hard, so many universities offer a special course for it.
+In this course, students learn the meaning of words like "for all" and "if ... then", and they practise simple proofs.
+For example, they prove that the square of each even number is even: if $n = 2k$, then $n^2 = 4k^2 = 2(2k^2)$.
+After this course, students take analysis and algebra, where proofs are the main work.
+
+### L2 human
+
+We follow one week of a transition course, on proof by contrapositive.
+
+1. Logic: the students learn that "if $P$, then $Q$" is equivalent to "if not $Q$, then not $P$". They check this with a truth table.
+2. Method: the page on [[proof by contrapositive|0BB5TPGQ1N]] gives the form. To prove "if $P$, then $Q$", assume not $Q$ and derive not $P$.
+3. Model proof: the teacher proves "for all integers $n$, if $n^2$ is even, then $n$ is even". Assume $n$ is odd, $n = 2k + 1$. Then $n^2 = 4k^2 + 4k + 1 = 2(2k^2 + 2k) + 1$, which is odd.
+4. Practice: the students prove "if $3n + 2$ is odd, then $n$ is odd". Assume $n$ is even, $n = 2k$. Then $3n + 2 = 6k + 2 = 2(3k + 1)$, which is even.
+5. Writing: the students write the proof in sentences, with a first line that says "we prove the contrapositive".
+6. Feedback: the teacher marks the proofs for logic and for language, as the page on [[writing proofs|8JQHJK94RZ]] describes.
+
+The typical use of the course is as a prerequisite for real analysis and abstract algebra.
+A trap is to expect that students who pass the course can prove theorems in any field.
+The course trains the general methods, and each field still needs its own definitions and strategies.
+
+### L3 human
+
+The transition course is the university's answer to a change of the didactic contract between school and university.
+David Tall described this change as a move from the embodied and symbolic worlds of school mathematics to the formal world of axioms and proofs.
+Terence Tao described three stages of mathematical education: pre-rigorous, rigorous and post-rigorous.
+The transition course marks the start of the rigorous stage.
+Research on the course draws on the pages on [[proof schemes|YVNRVXJR68]], [[concept image and concept definition|C5S2X0WDJ8]] and [[student difficulties with proof|5K2969GSWE]].
+Alternatives to the separate course include proof taught inside each course, the [[Moore method|WKM6535VHG]], and courses with [[proof assistants|KGPHY3F0GC]].
+The [[university mathematics education|ACJ8SVB1GD]] topic places the course among other questions of teaching at university.

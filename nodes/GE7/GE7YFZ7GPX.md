@@ -1,0 +1,59 @@
+---
+tag: GE7YFZ7GPX
+kind: proof
+name: Proof of the prenex normal form theorem
+msc: ["03B10"]
+topics: [PSRDJXRW53]
+audience: ug2
+proves: ME9J33BFNC
+uses: [CS82V969DE, HYJ10AF6RT, 9CNGDRAMGC, NCDZ969V7X, 0JMR2HM2N2, 2RBQPV02AS]
+methods: [12MQ2NJ29A, 0ASJVEFA9J, 0NTF6DMVAP]
+sources:
+  - url: https://en.wikipedia.org/wiki/Prenex_normal_form
+    locator: Conversion to prenex form
+  - book: isbn:9781482237726
+    locator: Chapter 2
+---
+
+## Proof
+
+All structures have nonempty domains.
+We write $\varphi \equiv \chi$ for [[logical equivalence|0JMR2HM2N2]], and $Q^*$ for the dual of a quantifier $Q$: $\forall^* = \exists$ and $\exists^* = \forall$.
+In steps 4 to 6, $Q$ is $\forall$ or $\exists$, and $x \notin \operatorname{FV}(\chi)$.
+
+1. The relation $\equiv$ is an equivalence relation, and it is preserved by $\neg$, by the binary connectives and by $\forall x$ and $\exists x$. Reason: the clauses of [[satisfaction|2RBQPV02AS]] compute the truth of a compound formula from the truth of its parts.
+2. If $x \notin \operatorname{FV}(\chi)$, then the truth of $\chi$ under an assignment does not depend on the value of $x$. Reason: the coincidence lemma of the topic [[structures, satisfaction and truth|NJDME6F845]].
+3. If $y$ does not occur in $\varphi$, then $Q x \, \varphi \equiv Q y \, \varphi[y/x]$, and both have the free variables $\operatorname{FV}(\varphi) \setminus \set{x}$. Reason: $y$ is substitutable for $x$ in $\varphi$, so the substitution lemma of the same topic applies. The [[substitution|NCDZ969V7X]] also keeps the prefix of a prenex $\varphi$.
+4. $\neg Q x \, \varphi \equiv Q^* x \, \neg \varphi$. Reason: "not every element satisfies $\varphi$" means "some element does not satisfy $\varphi$", and dually.
+5. $(Q x \, \varphi) \circ \chi \equiv Q x \, (\varphi \circ \chi)$ and $\chi \circ (Q x \, \varphi) \equiv Q x \, (\chi \circ \varphi)$ for $\circ \in \set{\land, \lor}$. Reason: by step 2, $\chi$ has one truth value $B$ for all values of $x$.
+6. The cases of step 5 reduce to the facts $\forall a \, (A(a) \land B) \iff (\forall a \, A(a)) \land B$ and $\exists a \, (A(a) \lor B) \iff (\exists a \, A(a)) \lor B$, and to two facts that hold even for an empty domain. The first two facts need a nonempty domain when $B$ is false, respectively true.
+7. $(Q x \, \varphi) \to \chi \equiv Q^* x \, (\varphi \to \chi)$ and $\chi \to Q x \, \varphi \equiv Q x \, (\chi \to \varphi)$. Reason: write $\alpha \to \beta$ as $\neg \alpha \lor \beta$, and use steps 4 and 5.
+8. $\varphi \leftrightarrow \chi \equiv (\varphi \to \chi) \land (\chi \to \varphi)$, with the same free variables. Reason: the truth tables agree.
+9. Claim: if $\psi_1$ and $\psi_2$ are prenex and $\circ \in \set{\land, \lor, \to}$, then $\psi_1 \circ \psi_2$ is equivalent to a prenex $\psi$ with $\operatorname{FV}(\psi) = \operatorname{FV}(\psi_1) \cup \operatorname{FV}(\psi_2)$. We use [[induction|0ASJVEFA9J]] on the total number $m$ of quantifiers in the two prefixes.
+10. If $m = 0$, then $\psi_1 \circ \psi_2$ is quantifier-free, so it is prenex. Take $\psi = \psi_1 \circ \psi_2$.
+11. Let $m > 0$, and let $\psi_1 = Q x \, \psi_1'$. Choose a variable $y$ that occurs in neither $\psi_1$ nor $\psi_2$. By step 3, $\psi_1 \equiv Q y \, \psi_1''$ with $\psi_1'' = \psi_1'[y/x]$ prenex.
+12. Since $y \notin \operatorname{FV}(\psi_2)$, steps 5 and 7 give $\psi_1 \circ \psi_2 \equiv Q' y \, (\psi_1'' \circ \psi_2)$. Here $Q' = Q$ for $\land$ and $\lor$, and $Q' = Q^*$ for $\to$.
+13. The prefixes of $\psi_1''$ and $\psi_2$ have $m - 1$ quantifiers in total. By the induction hypothesis, $\psi_1'' \circ \psi_2 \equiv \chi$ for a prenex $\chi$ with $\operatorname{FV}(\chi) = \operatorname{FV}(\psi_1'') \cup \operatorname{FV}(\psi_2)$.
+14. Take $\psi = Q' y \, \chi$. It is prenex, and $\psi_1 \circ \psi_2 \equiv \psi$ by steps 1 and 12.
+15. Since $y \notin \operatorname{FV}(\psi_2)$, $\operatorname{FV}(\psi) = (\operatorname{FV}(\psi_1'') \setminus \set{y}) \cup \operatorname{FV}(\psi_2) = \operatorname{FV}(\psi_1) \cup \operatorname{FV}(\psi_2)$, by step 3.
+16. If $\psi_1$ has no quantifier, then $\psi_2 = Q x \, \psi_2'$, and the same argument uses the second rules of steps 5 and 7. There $Q' = Q$ for all three connectives. This proves the claim.
+17. Now we prove the theorem by [[structural induction|12MQ2NJ29A]] on the [[formula|HYJ10AF6RT]] $\varphi$. If $\varphi$ is atomic, then $\varphi$ is prenex with an empty prefix. Take $\psi = \varphi$.
+18. If $\varphi = Q x \, \varphi_1$, take a prenex $\psi_1 \equiv \varphi_1$ with the same free variables, by the induction hypothesis. Then $Q x \, \psi_1$ is prenex, equivalent to $\varphi$ by step 1, and has the free variables of $\varphi$.
+19. If $\varphi = \neg \varphi_1$, let $\psi_1 = Q_1 x_1 \cdots Q_n x_n \, \mu$ be a prenex equivalent of $\varphi_1$. By step 4 applied $n$ times, with step 1, $\neg \psi_1 \equiv Q_1^* x_1 \cdots Q_n^* x_n \, \neg \mu$. This is prenex, with the same free variables.
+20. If $\varphi = \varphi_1 \circ \varphi_2$ with $\circ \in \set{\land, \lor, \to}$, replace $\varphi_1$ and $\varphi_2$ by prenex equivalents, by the induction hypothesis and step 1. Then apply the claim of step 9.
+21. If $\varphi = \varphi_1 \leftrightarrow \varphi_2$, use step 8, and apply the claim three times: to $\psi_1 \to \psi_2$, to $\psi_2 \to \psi_1$, and to the conjunction of the two results.
+22. Each step is effective: the rules are applied in a fixed order, and the fresh variable $y$ is the first variable in the list $v_0, v_1, \dots$ that does not occur. This proves part 3 of the theorem.
+
+## Idea
+
+Quantifiers move outwards past connectives one at a time, by a short list of classical equivalences.
+A quantifier moves out of the left side of $\to$ or out of a $\neg$ only after it changes to its dual.
+Renaming bound variables first prevents a quantifier from capturing a free variable of the other side.
+The nonempty domain is used when $\forall$ moves past $\land$ or $\exists$ moves past $\lor$.
+
+## Variants
+
+1. Some books first remove $\to$ and $\leftrightarrow$, then push $\neg$ inwards to the atoms, and only then move the quantifiers out. The result has a matrix in negation normal form.
+2. The order in which quantifiers are moved out can be chosen. A good choice gives fewer alternations, as $\exists x \, \exists y$ instead of $\exists x \, \forall y$ when both are possible.
+3. A proof by induction on the number of connectives and quantifiers replaces the structural induction, with the same cases.
+4. In intuitionistic logic, steps 4 and 7 fail for $\neg \forall$ and for $\forall$ in an antecedent, and no variant of this proof works.

@@ -1,0 +1,50 @@
+---
+tag: P50P8AZNEE
+kind: example
+name: The successor relation is definable in the integers with order
+msc: ["03C07", "06A05"]
+topics: [NJDME6F845]
+audience: ug2
+instance_of: [CY1TXHF6KQ]
+uses: [1DQ1M6ZWS4, 0C4JS9RF5M, P33CMYHJW9, NDTJ2E895C]
+sources:
+  - url: https://en.wikipedia.org/wiki/Definable_set
+    locator: lead section
+---
+
+## Example
+
+Let $\mathcal{Z} = (\Z, <)$ be the [[integers|0C4JS9RF5M]] with the usual [[strict order|P33CMYHJW9]].
+Let
+$$\varphi(x, y) = x < y \wedge \neg \exists z \, (x < z \wedge z < y).$$
+We show that $\varphi$ defines the successor relation $S = \set{(a, a + 1) : a \in \Z}$.
+
+1. Let $a, b \in \Z$. By the clauses for $\wedge$, $\neg$ and $\exists$, $\mathcal{Z} \models \varphi[a, b]$ if and only if $a < b$ and no $c \in \Z$ satisfies $a < c < b$.
+2. If $b = a + 1$, then $a < b$, and no integer lies strictly between $a$ and $a + 1$. So $\varphi[a, b]$ holds.
+3. If $a < b$ and $b \neq a + 1$, then $b \geq a + 2$, and $c = a + 1$ satisfies $a < c < b$. So $\varphi[a, b]$ fails.
+4. If $a \not< b$, then $\varphi[a, b]$ fails by its first conjunct.
+
+So $S$ is a [[definable relation|1DQ1M6ZWS4]] of $\mathcal{Z}$ without parameters.
+
+## Remarks
+
+The same formula defines the empty relation in $(\Q, <)$, because the rationals are dense.
+No single element of $\Z$ is $\emptyset$-definable in $\mathcal{Z}$, because the shift $x \mapsto x + 1$ is an automorphism; this uses [[isomorphism invariance of truth|NDTJ2E895C]].
+With the parameter $0$, every integer is definable: for example, $1$ is the unique $y$ with $\varphi(0, y)$.
+
+## Explanations
+
+### L1 human
+
+In the integers ordered by size, $b$ comes right after $a$ when $b$ is bigger and nothing fits between them.
+That description uses only the order, so it is a formula.
+
+### L2 human
+
+We check the formula on two pairs.
+
+1. For $(a, b) = (4, 5)$: $4 < 5$, and no integer $c$ has $4 < c < 5$. So $\varphi[4, 5]$ holds.
+2. For $(a, b) = (4, 7)$: $c = 5$ satisfies $4 < 5 < 7$. So $\varphi[4, 7]$ fails.
+
+The typical use is to recover functions from relations by a formula.
+A trap is to expect $\varphi$ to define successor in every linear order; in a dense order it defines nothing.

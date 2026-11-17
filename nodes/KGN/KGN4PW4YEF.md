@@ -1,0 +1,58 @@
+---
+tag: KGN4PW4YEF
+kind: example
+name: Atomic sentences of arithmetic
+msc: ["03B10", "03F30"]
+topics: [PSRDJXRW53]
+audience: ug2
+instance_of: [MCZRXR3SVB]
+uses: [MCZRXR3SVB, BP6WW7H5CC, 6D3WA7N2W4, DKFGQTRYZE, 0QFT7Z76N5, 3K1AKGXF8A]
+sources:
+  - url: https://en.wikipedia.org/wiki/Atomic_formula
+    locator: lead section
+  - url: https://en.wikipedia.org/wiki/Peano_axioms
+    locator: lead section
+---
+
+## Example
+
+Let $\sigma = \set{0, S, +, \cdot, <}$ be the signature of arithmetic, with arities $0, 1, 2, 2, 2$, where $<$ is a relation symbol.
+Consider the strings
+$$\alpha = S(0) + S(0) = S(S(0)), \qquad \beta = S(S(0)) < S(0) \cdot S(S(0)).$$
+We check that $\alpha$ and $\beta$ are atomic [[sentences|DKFGQTRYZE]] and compute their truth in $\N$.
+
+1. The strings $0$, $S(0)$ and $S(S(0))$ are closed [[terms|6D3WA7N2W4]], and so are $S(0) + S(0)$ and $S(0) \cdot S(S(0))$.
+2. The string $\alpha$ is $t_1 = t_2$ for two terms, so it is [[atomic|MCZRXR3SVB]] by form 1 of the [[definition|BP6WW7H5CC]].
+3. The string $\beta$ is $<(t_1, t_2)$, written infix, so it is atomic by form 2.
+4. Both strings contain no variables, so they have no free variables, and both are sentences.
+5. In $\N$, the values are: $S(0) + S(0)$ has value $2$ and $S(S(0))$ has value $2$. So $\alpha$ is true.
+6. In $\N$, $S(S(0))$ has value $2$ and $S(0) \cdot S(S(0))$ has value $1 \cdot 2 = 2$. Since $2 < 2$ is false, $\beta$ is false.
+
+So the truth of an atomic sentence in $\N$ is decided by computing the values of two closed terms.
+
+## Remarks
+
+Every atomic sentence of $\sigma$ is decided in $\N$ by a finite computation, since closed terms have computable values.
+[[Robinson arithmetic|3K1AKGXF8A]], in the signature without $<$, proves every true equation between closed terms and refutes every false one.
+The same holds for Boolean combinations of such equations.
+Undecidability in arithmetic starts only with quantifiers.
+
+## Explanations
+
+### L1 human
+
+The sentence "$1 + 1 = 2$" is atomic: it compares two expressions without variables.
+To decide whether it is true, one computes both sides.
+The sentence "$2 < 1 \cdot 2$" is also atomic, and it is false, because $1 \cdot 2 = 2$.
+
+### L2 human
+
+We compute the value of the closed term $S(S(0)) \cdot (S(0) + S(S(0)))$ in $\N$.
+
+1. $S(0)$ has value $1$, and $S(S(0))$ has value $2$.
+2. $S(0) + S(S(0))$ has value $1 + 2 = 3$.
+3. The product has value $2 \cdot 3 = 6$.
+4. So the atomic sentence $S(S(0)) \cdot (S(0) + S(S(0))) = S(S(S(S(S(S(0))))))$ is true in $\N$.
+
+The typical use of atomic sentences is in the diagram of a structure, the list of basic facts about its named elements.
+A trap: an atomic sentence can be true in one structure and false in another, so "true" always refers to a structure.

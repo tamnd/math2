@@ -1,0 +1,50 @@
+---
+tag: B2BQWC4FMP
+kind: example
+name: A clause with three literals
+msc: ["03B05"]
+topics: [JDK63589SA]
+audience: ug1
+instance_of: [T3SXVH3ZZC]
+uses: [H31CS3HK5P, 0F72FK8EKB, 029JBBF693]
+sources:
+  - url: https://en.wikipedia.org/wiki/Clause_(logic)
+    locator: lead section
+---
+
+## Example
+
+Let $C = \set{p, \neg q, r}$, where $p$, $q$, $r$ are distinct propositional variables.
+We check that $C$ is a clause, and we find the assignments that satisfy it.
+
+1. Each member of $C$ is a literal: $p$ and $r$ are positive literals, and $\neg q$ is a negative literal.
+2. $C$ is a finite set of literals, so it is a clause. It stands for the disjunction $p \lor \neg q \lor r$.
+3. An assignment $v$ falsifies $C$ exactly when it makes every literal false: $v(p) = 0$, $\bar v(\neg q) = 0$ and $v(r) = 0$, that is, $v(p) = 0$, $v(q) = 1$, $v(r) = 0$.
+4. So of the eight assignments to $p$, $q$, $r$, exactly one falsifies $C$, and the other seven satisfy it.
+5. $C$ has no complementary pair, so it is not a tautology. It is not empty, so it is satisfiable.
+
+## Remarks
+
+The clause has one negative literal, so its implicative form is $q \to p \lor r$.
+It has two positive literals, so it is not a [[Horn clause|QR92EZDTKF]]; the clause $\set{\neg p, \neg q, r}$ is one.
+Every clause on $k$ distinct variables without a complementary pair is falsified by exactly one of the $2^k$ assignments to its variables, as step 3 shows here for $k = 3$.
+This is why the clause can be read as "exclude one row of the truth table".
+If we add the literal $q$, the clause $\set{p, q, \neg q, r}$ becomes a tautology.
+
+## Explanations
+
+### L1 human
+
+The rule "Pia comes, or Quin stays home, or Rosa comes" is a clause.
+It is broken only when Pia stays home, Quin comes, and Rosa stays home.
+Of the eight ways the three people can come or stay, seven obey the rule.
+
+### L2 human
+
+We write the formula $\neg(\neg p \land q \land \neg r)$ as a clause.
+
+1. By [[De Morgan's laws|09PKJKA6J0]], $\neg(\neg p \land q \land \neg r)$ is equivalent to $\neg\neg p \lor \neg q \lor \neg\neg r$.
+2. By the double negation law, this is equivalent to $p \lor \neg q \lor r$, which is the clause $C$.
+
+The typical use: to forbid one row of a truth table, write the clause that is false exactly in that row; a set of such clauses describes any Boolean function, which is one proof of the conjunctive normal form theorem.
+A trap: the order and repetition of literals do not matter, so $\set{r, \neg q, p, p}$ is the same clause as $C$.

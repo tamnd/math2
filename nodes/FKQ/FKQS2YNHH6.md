@@ -1,0 +1,55 @@
+---
+tag: FKQS2YNHH6
+kind: example
+name: A cut-free sequent derivation with quantifiers
+msc: ["03F05", "03B10"]
+topics: [TTCRX3NFNY]
+audience: grad
+instance_of: [W72CA3R9MP]
+uses: [PZX9J3VEMT]
+sources:
+  - url: https://en.wikipedia.org/wiki/Sequent_calculus
+    locator: Example derivations
+---
+
+## Example
+
+We derive $\forall x\, (P(x) \to Q(x)), \forall x\, P(x) \Rightarrow \forall x\, Q(x)$ in LK, with the rules of the [[definition|PZX9J3VEMT]].
+We leave the exchange rule implicit.
+
+1. $P(y) \Rightarrow P(y)$. Axiom.
+2. $Q(y) \Rightarrow Q(y)$. Axiom.
+3. $P(y) \to Q(y), P(y) \Rightarrow Q(y)$. ${\to}$L from steps 1 and 2, with $\Gamma = P(y)$, $\Delta$ empty, $\Pi$ empty and $\Lambda = Q(y)$.
+4. $\forall x\, (P(x) \to Q(x)), P(y) \Rightarrow Q(y)$. ${\forall}$L from step 3, with the term $t = y$.
+5. $\forall x\, (P(x) \to Q(x)), \forall x\, P(x) \Rightarrow Q(y)$. ${\forall}$L from step 4, with the term $t = y$.
+6. $\forall x\, (P(x) \to Q(x)), \forall x\, P(x) \Rightarrow \forall x\, Q(x)$. ${\forall}$R from step 5, with eigenvariable $y$.
+
+At step 6 the eigenvariable condition holds: $y$ is not free in $\forall x\, (P(x) \to Q(x))$, in $\forall x\, P(x)$, or in $\forall x\, Q(x)$.
+So the six steps are a derivation in LK, and also in LJ, since every succedent has at most one formula.
+
+## Remarks
+
+The derivation has no cut, and each formula in it is a subformula of the end sequent, up to the term $y$.
+It is found by backward search: ${\forall}$R first, because it needs a new variable, then ${\forall}$L with that variable.
+If the backward search applies ${\forall}$L first, the term $y$ enters the antecedent, and ${\forall}$R can no longer use $y$ as its eigenvariable.
+If the second hypothesis is $P(a)$ for a variable $a$, the sequent $\forall x\, (P(x) \to Q(x)), P(a) \Rightarrow \forall x\, Q(x)$ is not valid, and the search fails at ${\forall}$R.
+
+## Explanations
+
+### L1 human
+
+The sequent says: "if every $P$ is a $Q$, and everything is a $P$, then everything is a $Q$".
+The derivation picks an arbitrary object $y$.
+It uses each hypothesis for $y$, gets "$y$ is a $Q$", and then concludes "everything is a $Q$".
+Read from top to bottom, each step adds one logical word.
+
+### L2 human
+
+To search for the derivation, work upward from the goal.
+
+1. The succedent is $\forall x\, Q(x)$, so apply ${\forall}$R with a new variable $y$; the goal becomes $\ldots \Rightarrow Q(y)$.
+2. Apply ${\forall}$L to each hypothesis with the term $y$.
+3. Apply ${\to}$L to $P(y) \to Q(y)$; the two premises are axioms.
+
+The typical use is in proofs of the subformula property and of interpolation, where such derivations are analysed step by step.
+A trap is to apply ${\forall}$L with a term before the eigenvariable is fixed, which can block ${\forall}$R later.

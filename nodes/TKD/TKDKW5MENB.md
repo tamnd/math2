@@ -1,0 +1,73 @@
+---
+tag: TKDKW5MENB
+kind: example
+name: The language of Presburger arithmetic is not the language of arithmetic
+msc: ["03F30", "03B25"]
+topics: [QHCRN4JVG0]
+audience: ug2
+not_instance_of:
+  - target: D8SD54M5PN
+    note: the signature has no symbol for multiplication, and multiplication is not definable from 0, S, + and < in the natural numbers
+uses: [329ZG1Z0G5, 4W0E9G7PPV, CY1TXHF6KQ]
+sources:
+  - url: https://en.wikipedia.org/wiki/Presburger_arithmetic
+    locator: Presburger-definable integer relation
+  - book: isbn:9780122384523
+---
+
+## Example
+
+Let $L_P$ be the signature $\set{0, S, +, <}$, and let $\mathfrak{P} = (\N, 0, S, +, <)$ be its standard structure.
+$L_P$ is the language of [[Presburger arithmetic|4W0E9G7PPV]], up to the choice of $S$ or a constant $1$.
+It is a sublanguage of the [[language of arithmetic|D8SD54M5PN]] $L_A$, but it is not $L_A$.
+The difference is not only a missing symbol: no $L_P$-formula defines multiplication in $\mathfrak{P}$.
+We prove this.
+
+We use Presburger's quantifier elimination as a known fact.
+Add to $L_P$ a binary relation symbol $\equiv_n$ for each $n \ge 2$, read as congruence modulo $n$.
+In this expansion of $\mathfrak{P}$, every formula is equivalent to a quantifier-free formula.
+
+A set $A \subseteq \N$ is eventually periodic if there are $N$ and $p \ge 1$ with $a \in A \leftrightarrow a + p \in A$ for all $a \ge N$.
+
+1. A term in one variable $x$ of the expanded language has the value $k x + c$ for some $k, c \in \N$.
+2. An atomic formula $k x + c = k' x + c'$ defines a set with at most one element or all of $\N$. So it is eventually periodic, with $p = 1$.
+3. An atomic formula $k x + c < k' x + c'$ defines a finite set or a set that contains all large $x$. So it is eventually periodic, with $p = 1$.
+4. An atomic formula $k x + c \equiv_n k' x + c'$ defines a set that is periodic with period $n$, since replacing $x$ by $x + n$ adds multiples of $n$ to both sides.
+5. If $A$ and $B$ are eventually periodic with data $(N, p)$ and $(N', p')$, then $A \cap B$ and $\N \setminus A$ are eventually periodic, with the threshold $\max(N, N')$ and the period $p p'$.
+6. By the Fact and steps 2 to 5, every subset of $\N$ definable in $\mathfrak{P}$ is eventually periodic.
+7. Suppose an $L_P$-formula $\mu(x, y, z)$ defines the relation $x \cdot y = z$ in $\mathfrak{P}$.
+8. Then $\exists y\, \mu(y, y, x)$ defines the set $Q$ of squares.
+9. Take any $N$ and $p \ge 1$. Choose $k \ge \max(N, p)$. Then $k^2 \in Q$ and $k^2 \ge N$.
+10. The next square after $k^2$ is $k^2 + 2k + 1 > k^2 + p$. So $k^2 + p \notin Q$.
+11. So $Q$ is not eventually periodic, and step 6 gives a contradiction. Hence no such $\mu$ exists.
+
+## Remarks
+
+The example shows that $\cdot$ is the decisive symbol of $L_A$.
+Without it, the true sentences of $\mathfrak{P}$ form a decidable set, by Presburger's theorem.
+With it, the true sentences of $\mathfrak{N}$ form a set that is not even arithmetical, by [[Tarski's undefinability theorem|YRV6SYK2BY]].
+The step from $\set{0, S, +, <}$ to $L_A$ is therefore not an [[extension by definitions|GCK0NN60E4]].
+In contrast, adding $<$ to $\set{0, S, +, \cdot}$ is an extension by definitions, since $x < y$ is defined by $\exists v\, (v + S x = y)$.
+Step 6 also shows that $\set{n : n \text{ is prime}}$ is not definable in $\mathfrak{P}$, since the gaps between primes are unbounded.
+
+## Explanations
+
+### L1 human
+
+Presburger arithmetic talks about whole numbers with zero, "next", plus and "less than", but without "times".
+One might hope to write "times" as repeated plus.
+That fails: "$x$ times $y$" needs a number of additions that depends on $y$, and a formula has a fixed length.
+In fact the only sets of numbers that this language can describe repeat with a fixed period from some point on.
+The perfect squares do not repeat like that, because the gaps between them keep growing.
+
+### L2 human
+
+We see why multiplication by a fixed number is still expressible, but general multiplication is not.
+
+1. The formula $z = x + x + x$ says $z = 3 x$. It is an $L_P$-formula, since $3$ is fixed.
+2. A formula for $z = x \cdot y$ would need $y$ copies of $x$, and $y$ varies.
+3. The proof above shows that no clever formula avoids this: it would define the squares $0, 1, 4, 9, 16, \ldots$.
+4. The gaps $1, 3, 5, 7, \ldots$ between squares grow without bound, so the squares are not eventually periodic.
+
+The typical use of this example is to explain why the incompleteness theorems need multiplication.
+A trap is to think that missing symbols are always harmless, since $<$ can be dropped from $L_A$ without loss but $\cdot$ cannot be dropped.

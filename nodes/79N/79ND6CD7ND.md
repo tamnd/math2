@@ -1,0 +1,62 @@
+---
+tag: 79ND6CD7ND
+kind: example
+name: The equality axioms for the signature of groups
+msc: ["03B10", "20A05"]
+topics: [PSRDJXRW53]
+audience: ug2
+instance_of: [Q1494G7FBM]
+uses: [Q1494G7FBM, WDVVEYD6AT, G5S1M9, DCSXXT4SER]
+sources:
+  - url: https://en.wikipedia.org/wiki/First-order_logic
+    locator: Equality and its axioms
+  - book: isbn:9781482237726
+    locator: Chapter 2
+---
+
+## Example
+
+Let $\sigma = \set{\cdot, e, {}^{-1}}$ be the signature of [[groups|G5S1M9]].
+The equality axioms of [[first-order logic with equality|Q1494G7FBM]] for $\sigma$ are:
+
+- (E1) $\forall x \, (x = x)$;
+- (E2) $\forall x_1 \, \forall x_2 \, \forall y_1 \, \forall y_2 \, ((x_1 = y_1 \land x_2 = y_2) \to x_1 \cdot x_2 = y_1 \cdot y_2)$;
+- (E3) $\forall x \, \forall y \, (x = y \to x^{-1} = y^{-1})$;
+- (E4) $\forall x_1 \, \forall x_2 \, \forall y_1 \, \forall y_2 \, ((x_1 = y_1 \land x_2 = y_2) \to (x_1 = x_2 \to y_1 = y_2))$.
+
+We check that this list is complete and that it holds in every structure where $=$ means identity.
+
+1. The constant $e$ has arity $0$, so its substitution axiom is $e = e$, which is an instance of (E1).
+2. The function symbols $\cdot$ and ${}^{-1}$ have arities $2$ and $1$, and (E2) and (E3) are their substitution axioms.
+3. The only relation symbol is $=$, and (E4) is its substitution axiom.
+4. In a structure where $=$ means identity, (E1) holds since each element equals itself.
+5. If $a_1 = b_1$ and $a_2 = b_2$ as elements, then $a_1 \cdot a_2$ and $b_1 \cdot b_2$ are the same element. So (E2) holds, and (E3) and (E4) hold in the same way.
+
+So the equality axioms for $\sigma$ are four sentences, and they are true in every structure for $\sigma$.
+
+## Remarks
+
+The equality axioms are logically valid in first-order logic with equality, since $=$ always means identity.
+They are needed in the deductive calculus, which sees $=$ only as a symbol.
+In a structure where $=$ is interpreted by some other relation $E$, (E1) to (E4) say exactly that $E$ is a [[congruence|DCSXXT4SER]] for $\cdot$ and ${}^{-1}$.
+A larger signature needs one substitution axiom per symbol, so a finite signature gives finitely many equality axioms.
+
+## Explanations
+
+### L1 human
+
+The equality axioms say what one does with equals in algebra.
+Everything equals itself.
+If $a = b$ and $c = d$, then $a \cdot c = b \cdot d$.
+If $a = b$, then $a^{-1} = b^{-1}$.
+
+### L2 human
+
+We use (E2) and (E3) to prove $x = y \to (x \cdot x)^{-1} = (y \cdot y)^{-1}$.
+
+1. Assume $x = y$.
+2. Apply (E2) with $x_1 := x$, $x_2 := x$, $y_1 := y$, $y_2 := y$. This gives $x \cdot x = y \cdot y$.
+3. Apply (E3) to the terms $x \cdot x$ and $y \cdot y$. This gives $(x \cdot x)^{-1} = (y \cdot y)^{-1}$.
+
+The typical use is the proof that equal terms can replace each other inside any term, by induction on the term.
+A trap: (E3) is stated for variables, and its use for the terms $x \cdot x$ and $y \cdot y$ needs the instantiation rule for $\forall$.

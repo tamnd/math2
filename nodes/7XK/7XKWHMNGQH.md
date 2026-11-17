@@ -1,0 +1,51 @@
+---
+tag: 7XKWHMNGQH
+kind: example
+name: The Herbrand universe of one constant and one unary function symbol
+msc: ["03B10"]
+topics: [NJDME6F845]
+audience: ug2
+instance_of: [NFW38QJ3A7]
+uses: [JKP0XNXRPB, 0MWKJ44V5A, 12MQ2NJ29A]
+sources:
+  - url: https://en.wikipedia.org/wiki/Herbrand_structure
+    locator: lead section
+---
+
+## Example
+
+Let $L = \set{0, s}$ with a constant symbol $0$ and a unary function symbol $s$.
+For $n \in \N$, write $s^n(0)$ for the term $s(s(\cdots s(0) \cdots))$ with $n$ copies of $s$.
+We show that the [[Herbrand universe|JKP0XNXRPB]] is $H(L) = \set{s^n(0) : n \in \N}$ and that $n \mapsto s^n(0)$ is a bijection from $\N$ to $H(L)$.
+
+1. Each $s^n(0)$ is a closed term, by $n$ applications of $s$ to the constant $0$. So each $s^n(0)$ lies in $H(L)$.
+2. Conversely, we show by [[structural induction|12MQ2NJ29A]] that every closed term has the form $s^n(0)$.
+3. The only constant is $0 = s^0(0)$.
+4. The only function symbol is $s$, and if $t = s^n(0)$, then $s(t) = s^{n+1}(0)$.
+5. The terms $s^m(0)$ and $s^n(0)$ with $m \neq n$ are different strings, because they have different numbers of symbols $s$. So the map is injective.
+6. Steps 1 to 5 show that $n \mapsto s^n(0)$ is a bijection.
+
+## Remarks
+
+The example shows that $H(L)$ is a copy of the [[natural numbers|0MWKJ44V5A]], with $s$ as the successor and $0$ as zero.
+The evaluation map into the structure $(\N, 0, n \mapsto n + 1)$ sends $s^n(0)$ to $n$, and it is the inverse of the bijection above.
+In the structure $(\Z / 3\Z, 0, n \mapsto n + 1)$ the evaluation map sends $s^n(0)$ to $n \bmod 3$; it is surjective but not injective, so the terms $s^3(0)$ and $0$ are different elements of $H(L)$ with the same value.
+If we add a unary relation symbol $P$, the Herbrand base is $\set{P(s^n(0)) : n \in \N}$, so a set of ground atoms is the same as a subset of $\N$.
+
+## Explanations
+
+### L1 human
+
+With a starting name $0$ and a "next" symbol $s$, the names are $0$, $s(0)$, $s(s(0))$, and so on.
+There is one name for each natural number: the number of copies of $s$.
+
+### L2 human
+
+We find the place of the term $s(s(s(0)))$ in the levels $H_k$ of the definition.
+
+1. $H_0 = \set{0}$, $H_1 = \set{0, s(0)}$, $H_2 = \set{0, s(0), s^2(0)}$.
+2. $H_3$ adds $s^3(0)$, so the term first appears at level $3$.
+
+In general $s^n(0)$ first appears at level $n$.
+The typical use is as the simplest infinite Herbrand universe, for example for the Herbrand models of induction-like clauses.
+A trap is to think that $s^3(0)$ is the number $3$; it is a string of symbols, which a structure may interpret in many ways.

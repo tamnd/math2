@@ -1,0 +1,59 @@
+---
+tag: B6QKEXDEPM
+kind: example
+name: Formation sequence and parse tree of a propositional formula
+msc: ["03B05"]
+topics: [JDK63589SA]
+audience: ug1
+instance_of: [TT7WT5HPN9]
+uses: [TFDYXS3K1N, 0Y0JGC2K9T]
+sources:
+  - url: https://en.wikipedia.org/wiki/Well-formed_formula
+    locator: Propositional calculus
+  - book: isbn:9780122384523
+    locator: Chapter 1
+---
+
+## Example
+
+Let $\varphi = ((p \land q) \to (\neg r))$, a string of $12$ symbols over the alphabet with variables $p$, $q$, $r$.
+We show that $\varphi$ is a [[propositional formula|TT7WT5HPN9]], and we find its subformulas, its parse tree and its counts of symbols.
+
+1. The list $p$, $q$, $r$, $(p \land q)$, $(\neg r)$, $((p \land q) \to (\neg r))$ is a formation sequence: the first three members are variables, and each later member comes from earlier members by one rule of the [[definition|TFDYXS3K1N]].
+2. The last member of the formation sequence is $\varphi$, so $\varphi$ is a formula.
+3. The main connective of $\varphi$ is $\to$, with left part $(p \land q)$ and right part $(\neg r)$.
+4. By the recursive definition of subformulas, $\mathrm{Sub}(\varphi) = \set{\varphi, (p \land q), (\neg r), p, q, r}$, a set with $6$ elements.
+5. The parse tree has the root $\to$; the left child is $\land$ with the leaves $p$ and $q$; the right child is $\neg$ with the leaf $r$.
+6. The tree has $6$ nodes, one for each subformula, and its depth is $2$.
+7. The string has $3$ connectives ($\land$, $\neg$, $\to$) and $6$ brackets, so the number of brackets is twice the number of connectives.
+8. The initial segment $((p \land q)$ has $2$ left brackets and $1$ right bracket, so it is not a formula, because each formula has equal numbers of left and right brackets.
+
+## Remarks
+
+The example shows the three views of one formula: the string, the formation sequence and the tree.
+The formation sequence is not unique: the order $r$, $(\neg r)$, $p$, $q$, $(p \land q)$, $\varphi$ also works.
+The tree is unique, by the [[unique readability theorem|6KBJX91N7G]].
+With the precedence rules we write $\varphi$ as $p \land q \to \neg r$, because $\land$ binds more strongly than $\to$.
+If we replace $(\neg r)$ by $(\neg p)$, the formula $((p \land q) \to (\neg p))$ has only $5$ subformulas, because the variable $p$ occurs twice but counts once.
+
+## Explanations
+
+### L1 human
+
+The formula says "if $p$ and $q$, then not $r$".
+We build it in steps: first the letters $p$, $q$ and $r$, then "$p$ and $q$", then "not $r$", and last the whole "if ... then".
+Each step uses only the pieces of earlier steps.
+Drawn as a tree, the "if ... then" sits at the top, with "and" and "not" below it, and the letters at the bottom.
+
+### L2 human
+
+We read the main connective of the string $\varphi = ((p \land q) \to (\neg r))$ from left to right with a bracket count.
+
+1. Remove the outer brackets: $(p \land q) \to (\neg r)$.
+2. Read from the left and keep the number of open brackets: after $($ it is $1$, after $p$, $\land$, $q$ it is still $1$, and after $)$ it is $0$.
+3. The count first returns to $0$ after the symbol in position $5$, so the left part is $(p \land q)$.
+4. The next symbol, $\to$, is the main connective.
+5. The rest, $(\neg r)$, is the right part.
+
+The typical use is to compute a parse tree by machine, as a parser of a programming language does.
+A trap is to split at the first connective that we see, here $\land$; it lies inside a bracket, so it is not the main connective.

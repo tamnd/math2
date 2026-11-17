@@ -1,0 +1,55 @@
+---
+tag: QGR9FT4EHP
+kind: example
+name: The proof predicate of Peano arithmetic is decidable
+msc: ["03F40", "03F30"]
+topics: [HXHHWY3328]
+audience: grad
+instance_of: [6M12VR1GT6]
+uses: [6M12VR1GT6, MPSCREYC3M, 5NVA2JRHPV, TN9G24VABN]
+sources:
+  - url: https://en.wikipedia.org/wiki/Peano_axioms
+    locator: First-order theory of arithmetic
+  - book: isbn:9780521857840
+---
+
+## Example
+
+[[First-order Peano arithmetic|MPSCREYC3M]] $\mathsf{PA}$ has six axioms about $0, S, +, \cdot$ and the induction scheme.
+The induction axiom for a formula $\varphi(v, \vec{w})$ is the universal closure of $(\varphi(0) \wedge \forall v \, (\varphi(v) \to \varphi(S v))) \to \forall v \, \varphi(v)$.
+We show by [[arithmetization of syntax|6M12VR1GT6]] that the relation $\mathrm{Prf}_{\mathsf{PA}}(y, x)$ is [[primitive recursive|5NVA2JRHPV]], so a program decides it.
+
+1. The six basic axioms have six fixed codes $a_1, \ldots, a_6$. The test $x = a_1 \vee \cdots \vee x = a_6$ is primitive recursive.
+2. There is a primitive recursive function $\mathrm{Ind}(f, i)$ that gives the code of the induction axiom for the formula with code $f$ and the variable $v_i$. It is built from substitution and concatenation.
+3. The formula and the variable of an induction axiom are parts of it, so their codes are smaller than the code of the axiom.
+4. So $x$ codes an induction axiom exactly when $\exists f < x \, \exists i < x \, (\mathrm{Form}(f) \wedge x = \mathrm{Ind}(f, i))$. This is a bounded search over a primitive recursive relation, so it is primitive recursive.
+5. By steps 1 and 4, $\mathrm{Ax}_{\mathsf{PA}}(x)$ is primitive recursive. The logical axioms of the proof system form a primitive recursive set by the same argument.
+6. Modus ponens at line $i$ of $y$ is the test $\exists j < i \, \exists k < i \, ((y)_k = 2^{9} * (y)_j * 2^{3} * (y)_i * 2^{11})$. Here $2^9$, $2^3$ and $2^{11}$ code the strings $($, $\to$ and $)$. The test is primitive recursive.
+7. $\mathrm{Prf}_{\mathsf{PA}}(y, x)$ says: $y$ codes a sequence, each line $(y)_i$ for $i \le \mathrm{lh}(y)$ is an axiom or follows from earlier lines by a rule, and the last line is $x$. All quantifiers are bounded by $\mathrm{lh}(y)$, so the relation is primitive recursive.
+8. A primitive recursive relation is decidable, so a program decides whether a given number codes a proof in $\mathsf{PA}$ of a given formula.
+
+## Remarks
+
+The set of theorems of $\mathsf{PA}$ is $\set{x : \exists y \, \mathrm{Prf}_{\mathsf{PA}}(y, x)}$, so it is [[computably enumerable|TN9G24VABN]].
+It is not decidable, by the essential undecidability of $\mathsf{Q}$, so the quantifier $\exists y$ cannot be bounded.
+The same check works for $\mathsf{ZFC}$, whose separation and replacement schemes are also decidable sets of formulas.
+If the induction scheme is replaced by an axiom set that is not decidable, step 5 fails and the example breaks down.
+
+## Explanations
+
+### L1 human
+
+Peano arithmetic has infinitely many axioms, one induction axiom for each formula.
+Still, a program can tell whether a given formula is one of them, by looking at its shape.
+So a program can check any proposed proof in Peano arithmetic, line by line.
+Checking a proof is easy; finding one is hard, and that difference matters for incompleteness.
+
+### L2 human
+
+1. Take the formula $\varphi(v) := 0 + v = v$.
+2. The induction axiom for it is $(0 + 0 = 0 \wedge \forall v \, (0 + v = v \to 0 + S v = S v)) \to \forall v \, (0 + v = v)$.
+3. Given the code of this sentence, the test of step 4 finds the code of $\varphi$ and the index of $v$ below it, and confirms the match.
+4. A proof of $\forall v \, (0 + v = v)$ uses this axiom and modus ponens, and each of its lines is checked in the same way.
+
+The typical use is to define $\mathrm{Prov}_{\mathsf{PA}}(x) := \exists y \, \mathrm{Prf}_{\mathsf{PA}}(y, x)$, a $\Sigma_1$ formula.
+A trap: a decidable proof relation does not give a decidable set of theorems.

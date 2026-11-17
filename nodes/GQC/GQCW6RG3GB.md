@@ -1,0 +1,72 @@
+---
+tag: GQCW6RG3GB
+kind: example
+name: Euclid's proof of his first proposition is not rigorous by modern standards
+msc: ["00A35", "51M05"]
+topics: [1BTHSHST4M]
+audience: ug1
+not_instance_of:
+  - target: E1PE9R8DBB
+    note: the step in which two circles meet follows from no stated axiom or postulate
+uses: [E1PE9R8DBB, 83WHDAV68J, KM1FB8XZ2R, 0DZGSDHD92]
+sources:
+  - url: https://en.wikipedia.org/wiki/Euclid%27s_Elements
+    locator: Axiomatics
+  - url: https://en.wikipedia.org/wiki/Rigour
+    locator: Mathematics
+---
+
+## Example
+
+Proposition 1 of Book I of [[Euclid's Elements|83WHDAV68J]] says: on a given segment $AB$, one can construct an equilateral triangle.
+Euclid's proof has three steps.
+Draw the circle with centre $A$ through $B$, and the circle with centre $B$ through $A$.
+Let $C$ be a point where the two circles meet.
+Then $CA = AB$ and $CB = BA$, so $CA = CB = AB$, and the triangle $ABC$ is equilateral.
+
+We show that the step "let $C$ be a point where the circles meet" has no justification in Euclid's axioms, so the proof is not [[rigorous|E1PE9R8DBB]] by the modern standard.
+
+1. Euclid's postulates allow us to draw a segment between two points, to extend a segment, and to draw a circle with a given centre through a given point. No postulate says that two circles meet.
+2. To show that the step cannot follow from such rules, we use a model: the plane $\mathbb{Q}^2$ of points with rational coordinates. In it a line is the set of rational points on a real line through two rational points, and a circle is the set of rational points at a given distance from a rational centre.
+3. Take $A = (0, 0)$ and $B = (1, 0)$. The circle with centre $A$ through $B$ is $x^2 + y^2 = 1$, and the circle with centre $B$ through $A$ is $(x - 1)^2 + y^2 = 1$.
+4. Subtract the two equations: $x^2 - (x - 1)^2 = 0$, so $2x - 1 = 0$ and $x = 1/2$.
+5. Then $y^2 = 1 - 1/4 = 3/4$, so $y = \sqrt{3}/2$ or $y = -\sqrt{3}/2$.
+6. The number $\sqrt{3}$ is irrational, by the same argument as for [[the square root of 2|0DZGSDHD92]]. So $y$ is not rational, and the two circles have no common point in $\mathbb{Q}^2$.
+7. The first three postulates hold in $\mathbb{Q}^2$ in the sense of step 2, but the meeting point of step 5 does not exist there. So the meeting of the circles is an extra assumption, and Euclid did not state it.
+
+## Remarks
+
+The example shows what modern rigour adds to Greek rigour.
+Euclid's proof is valid in the real plane, and his readers saw the meeting point in the figure.
+The figure, not an axiom, supplied the step.
+In the late 19th century mathematicians made such hidden assumptions explicit, and [[Hilbert's axioms|KM1FB8XZ2R]] include axioms of continuity from which the meeting of the two circles follows.
+
+The model of step 2 does not satisfy all of Euclid's axioms and common notions in every reading, and the argument does not need that.
+It shows only that the meeting of circles does not follow from the rules for drawing lines and circles alone.
+
+The example does not say that Euclid was careless.
+For more than two thousand years the Elements was the model of a rigorous text, and the gap was found only when the standard changed.
+This is what "rigour relative to the period" means.
+
+## Explanations
+
+### L1 human
+
+Euclid wanted to draw a triangle with three equal sides on a given line segment.
+He drew two circles, one around each end of the segment, and took the point where they cross.
+In a drawing the two circles plainly cross, so nobody asked why.
+Much later, mathematicians noticed that none of Euclid's starting rules says that two circles cross.
+On a "plane" made only of points with fraction coordinates, these two circles do not cross at all, because the crossing point has the coordinate $\sqrt{3}/2$, which is not a fraction.
+So the proof needs one more rule, and modern systems of axioms state it.
+
+### L2 human
+
+We check steps 3 to 5 with the numbers.
+
+1. A point $(x, y)$ on both circles satisfies $x^2 + y^2 = 1$ and $x^2 - 2x + 1 + y^2 = 1$.
+2. Subtracting the second equation from the first gives $2x - 1 = 0$, so $x = 1/2$.
+3. Putting $x = 1/2$ into $x^2 + y^2 = 1$ gives $y^2 = 3/4$.
+4. If $y = p/q$ with integers $p, q$, then $4p^2 = 3q^2$, so $3 = (2p/q)^2$ is the square of a rational number, which is false.
+
+The typical use of this example is to show why modern geometry needs axioms of continuity or of intersection.
+A trap is to think that a correct figure makes a correct proof: the figure shows one case in one plane, and the proof must work from the axioms.
