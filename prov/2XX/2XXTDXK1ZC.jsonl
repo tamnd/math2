@@ -1,1 +1,5 @@
 {"field":"*","op":"add","agent":"m2-agent/write@0.1.0","model":"claude-opus-5-5","prompt":"0.1.0","run":"r-2026-11-17-b4096109","human":"github:tamnd","at":"2026-11-17T04:47:51Z"}
+{"field":"body.example","op":"change","agent":"m2-agent/write@0.1.0","model":"claude-opus-5-5","prompt":"0.1.0","run":"r-2026-11-17-0a7d77ee","human":"github:tamnd","at":"2026-11-17T06:15:45Z"}
+{"field":"instance_of","op":"add","agent":"m2-agent/write@0.1.0","model":"claude-opus-5-5","prompt":"0.1.0","run":"r-2026-11-17-0a7d77ee","human":"github:tamnd","at":"2026-11-17T06:15:45Z"}
+{"field":"topics","op":"change","agent":"m2-agent/write@0.1.0","model":"claude-opus-5-5","prompt":"0.1.0","run":"r-2026-11-17-0a7d77ee","human":"github:tamnd","at":"2026-11-17T06:15:45Z"}
+{"field":"uses","op":"change","agent":"m2-agent/write@0.1.0","model":"claude-opus-5-5","prompt":"0.1.0","run":"r-2026-11-17-0a7d77ee","human":"github:tamnd","at":"2026-11-17T06:15:45Z"}

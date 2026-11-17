@@ -1,0 +1,61 @@
+---
+tag: AAS5V2CKBG
+kind: example
+name: Anomalous cancellation of digits
+aliases: [anomalous-cancellation, 16-over-64-howler]
+msc: ["00A35", "97F40"]
+topics: [T6QQ749DM5]
+audience: school
+instance_of: [S2BW0FDHV8]
+uses: [S2BW0FDHV8, 0GJM24EXP9]
+sources:
+  - url: https://en.wikipedia.org/wiki/Mathematical_fallacy
+    locator: Howlers
+  - url: https://en.wikipedia.org/wiki/Anomalous_cancellation
+    locator: lead section
+---
+
+## Example
+
+A student simplifies the fraction $\frac{16}{64}$ as follows.
+
+1. Write the fraction as $\frac{16}{64}$.
+2. Cross out the digit $6$ in the numerator and the digit $6$ in the denominator.
+3. The result is $\frac{1}{4}$.
+
+The answer is correct, since $16 \cdot 4 = 64 \cdot 1$.
+We check the method.
+
+1. Step 2 treats the digit $6$ as a factor of both numbers. But $16 = 10 \cdot 1 + 6$ and $64 = 10 \cdot 6 + 4$, so $6$ is a summand in one and a part of a product in the other.
+2. The valid rule is [[cancellation|0GJM24EXP9]] of a common factor: $\frac{ac}{bc} = \frac{a}{b}$ for $c \neq 0$. Here the common factor is $16$, since $16 = 16 \cdot 1$ and $64 = 16 \cdot 4$.
+3. Step 2 is invalid as a rule. For $\frac{12}{24}$ the same step gives $\frac{1}{4}$, but $\frac{12}{24} = \frac{1}{2}$.
+4. So the argument is a howler: a [[mathematical fallacy|S2BW0FDHV8]] whose conclusion is true by chance.
+
+## Remarks
+
+The example shows that a correct answer does not prove that the method is correct.
+For a fraction $\frac{10a + b}{10b + c}$ of two-digit numbers with $c \neq 0$, crossing out $b$ gives the right value exactly when $(10a + b)c = a(10b + c)$.
+A search over all two-digit numerators smaller than the denominator gives exactly four cases: $\frac{16}{64}$, $\frac{19}{95}$, $\frac{26}{65}$ and $\frac{49}{98}$.
+If we change the numerator to $17$, the method gives $\frac{17}{74} \to \frac{1}{4}$, which is false, since $17 \cdot 4 = 68 \neq 74$.
+
+## Explanations
+
+### L1 human
+
+The fraction sixteen over sixty-four equals one quarter.
+If we "cancel" the two sixes, we also get one quarter, by luck.
+The same trick on twelve over twenty-four cancels the twos and gives one quarter, but the true value is one half.
+We may cancel only a number that divides both the top and the bottom, not a digit.
+
+### L2 human
+
+We find all the cases of the howler with two-digit numbers.
+
+1. Write the fraction as $\frac{10a + b}{10b + c}$, with digits $a, b, c$ and $a, c \neq 0$. Crossing out $b$ leaves $\frac{a}{c}$.
+2. The method is correct exactly when $(10a + b)c = a(10b + c)$, that is, $9ac = b(10a - c)$.
+3. For $a = 1$ and $b = 6$: $9c = 6(10 - c)$, so $15c = 60$ and $c = 4$. This gives $\frac{16}{64}$.
+4. For $a = 1$ and $b = 9$: $9c = 9(10 - c)$, so $c = 5$. This gives $\frac{19}{95}$.
+5. The same computation for each pair $a, b$ gives also $\frac{26}{65}$ and $\frac{49}{98}$, and the trivial cases with $a = b = c$, such as $\frac{11}{11}$.
+
+The typical use of this example is to show why a rule must be proved for all cases, not checked on one answer.
+A trap is to accept a method because it gives the answer of the book.
