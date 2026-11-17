@@ -7,7 +7,7 @@ aliases: [godels-incompleteness-theorems]
 msc: ["03F40", "03F30"]
 topics: [HXHHWY3328]
 audience: grad
-uses: [3K1AKGXF8A, 0QFT7Z76N5, MFJXPAF0R0, 92SWXST1ZM, DKFGQTRYZE, TN9G24VABN, 655K8Y7VS8, 3PRW76471J, NB2BCZR40F, ~08020cc1, 319P85G2C1]
+uses: [3K1AKGXF8A, 0QFT7Z76N5, MFJXPAF0R0, 92SWXST1ZM, DKFGQTRYZE, TN9G24VABN, 655K8Y7VS8, 3PRW76471J, NB2BCZR40F, 4S29X1GTV4, 319P85G2C1]
 about: [92SWXST1ZM, 655K8Y7VS8, 319P85G2C1]
 history:
   first_stated: "Gödel, 1931, Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I"
@@ -35,8 +35,8 @@ Let $\mathrm{Prov}_T$ be the standard [[provability predicate|NB2BCZR40F]] of $T
 By the [[diagonal lemma|3PRW76471J]], there is a [[sentence|DKFGQTRYZE]] $G_T$, the Gödel sentence of $T$, with $\mathsf{Q} \vdash G_T \leftrightarrow \neg \mathrm{Prov}_T(\ulcorner G_T \urcorner)$.
 
 1. If $T$ is consistent, then $T \nvdash G_T$. Also $G_T$ is $\mathsf{Q}$-equivalent to a $\Pi_1$ sentence, and $G_T$ is true in $\N$.
-2. If $T$ is [[ω-consistent|~08020cc1]], or only $1$-consistent, then also $T \nvdash \neg G_T$. So $T$ is not [[negation complete|319P85G2C1]].
-3. If $T$ is only consistent, $T$ is still not negation complete, by [[Rosser's theorem|~71fdf6fd]].
+2. If $T$ is [[ω-consistent|4S29X1GTV4]], or only $1$-consistent, then also $T \nvdash \neg G_T$. So $T$ is not [[negation complete|319P85G2C1]].
+3. If $T$ is only consistent, $T$ is still not negation complete, by [[Rosser's theorem|DH9RQ61GVD]].
 
 In short: no consistent theory with a computably enumerable set of theorems that contains $\mathsf{Q}$ decides every sentence of arithmetic.
 
@@ -45,16 +45,16 @@ In short: no consistent theory with a computably enumerable set of theorems that
 ### Why each hypothesis is needed
 
 1. Without "contains $\mathsf{Q}$": [[Presburger arithmetic|B66JYY3K58]], in the language $\set{0, S, +}$, is consistent, computably axiomatized and complete. The theory of [[real closed fields|DDY3Q3PJ6W]] is another such theory.
-2. Without "computably enumerable": true arithmetic, the set of all sentences true in $\N$, contains $\mathsf{Q}$, is consistent and is complete. It [[has no decidable axiom set|~a7addafc]].
+2. Without "computably enumerable": true arithmetic, the set of all sentences true in $\N$, contains $\mathsf{Q}$, is consistent and is complete. It [[has no decidable axiom set|69TTX21TRJ]].
 3. Without consistency: the inconsistent theory proves every sentence, so it is negation complete.
-4. Part 2 needs more than consistency. The theory $T := \mathsf{PA} + \neg \mathrm{Con}(\mathsf{PA})$ is [[consistent but ω-inconsistent|~0977deea]], and it proves $\neg \mathrm{Con}(T)$. Since $T \vdash G_T \leftrightarrow \mathrm{Con}(T)$ by the proof of the second theorem, $T \vdash \neg G_T$. Rosser's sentence avoids this.
+4. Part 2 needs more than consistency. The theory $T := \mathsf{PA} + \neg \mathrm{Con}(\mathsf{PA})$ is [[consistent but ω-inconsistent|FK06QR6A44]], and it proves $\neg \mathrm{Con}(T)$. Since $T \vdash G_T \leftrightarrow \mathrm{Con}(T)$ by the proof of the second theorem, $T \vdash \neg G_T$. Rosser's sentence avoids this.
 
 ### Consequences
 
 1. Every consistent c.e. extension of $\mathsf{Q}$ is incomplete; in particular $\mathsf{PA}$, $\mathsf{ZFC}$ through its arithmetic, and their c.e. extensions are incomplete.
 2. If $T$ is $\Sigma_1$-sound, some true $\Pi_1$ sentence is not provable in $T$. The sentence $G_T$ is one.
 3. Every consistent extension of $\mathsf{Q}$ is undecidable, by a refinement of the same argument. Since $\mathsf{Q}$ has finitely many axioms, this gives [[Church's theorem|VA6BNNY2YC]] on the undecidability of first-order validity.
-4. The proof of part 1 can be formalized in $T \supseteq \mathsf{PA}$, which gives [[Gödel's second incompleteness theorem|~c79a35b5]].
+4. The proof of part 1 can be formalized in $T \supseteq \mathsf{PA}$, which gives [[Gödel's second incompleteness theorem|4PZM5GJTR5]].
 5. True arithmetic is not computably axiomatizable, and [[arithmetical truth is not definable|YRV6SYK2BY]].
 
 ### Converse
@@ -70,7 +70,7 @@ A partial converse is the [[completeness theorem|WQ1ZE255SF]] view: $T \nvdash \
 3. [[Kolmogorov complexity|8PY3K6NCKF]] gives Chaitin's form: for a constant $c$ depending on $T$, $T$ proves no sentence "$C(\underline{x}) > \underline{c}$", although all but finitely many $x$ satisfy it.
 4. Natural combinatorial sentences independent of $\mathsf{PA}$ include [[Goodstein's theorem|XQMNJF241J]] and the [[Paris-Harrington theorem|509ZWA0R26]].
 
-Three proofs are given: [[the diagonal proof|~3b604178]] of Gödel, [[the proof by the halting problem|~6463c0bc]] and [[Chaitin's proof by Kolmogorov complexity|~403741ce]].
+Three proofs are given: [[the diagonal proof|XYHTQH2TGB]] of Gödel, [[the proof by the halting problem|ZR9D1N70KY]] and [[Chaitin's proof by Kolmogorov complexity|77EMTE7X9V]].
 
 ## History
 

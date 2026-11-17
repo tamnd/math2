@@ -28,13 +28,13 @@ Let $\mathcal{N} = (\N, 0, S, +, \cdot)$ be the [[standard model|WP27CABPA4]] of
 1. Semantic form. There is no formula $\mathrm{True}(x)$ with one free variable such that, for every [[sentence|DKFGQTRYZE]] $\varphi$, $\mathcal{N} \models \mathrm{True}(\ulcorner \varphi \urcorner) \iff \mathcal{N} \models \varphi$. So the set of codes of sentences true in $\mathcal{N}$ is not definable in $\mathcal{N}$.
 2. Syntactic form. Let $T$ be a [[consistent|VM8TQ70CVJ]] theory that contains [[Robinson arithmetic|3K1AKGXF8A]]. There is no formula $\mathrm{Tr}(x)$ such that $T \vdash \mathrm{Tr}(\ulcorner \varphi \urcorner) \leftrightarrow \varphi$ for every sentence $\varphi$.
 
-The proof is in [[the proof of Tarski's theorem|~3d18f493]].
+The proof is in [[the proof of Tarski's theorem|M6M7T09E36]].
 
 ## Remarks
 
 ### Why each hypothesis is needed
 
-1. Full truth: for each $n$, the set of true $\Sigma_n$ sentences is definable in $\mathcal{N}$, by a [[partial truth predicate|~2f2c217a]]. Only truth for all sentences at once is not definable.
+1. Full truth: for each $n$, the set of true $\Sigma_n$ sentences is definable in $\mathcal{N}$, by a [[partial truth predicate|Y2MF1EZAM7]]. Only truth for all sentences at once is not definable.
 2. Definability in the same structure: in [[ZFC|0HE5WDQ9FJ]], truth in $\mathcal{N}$ is definable, by recursion on formulas. The theorem forbids only a definition in the language of $\mathcal{N}$ itself.
 3. Consistency in the syntactic form: an inconsistent $T$ proves every biconditional $\mathrm{Tr}(\ulcorner \varphi \urcorner) \leftrightarrow \varphi$.
 

@@ -50,15 +50,15 @@ Our symbol codes are the odd numbers below.
 
 ### Examples
 
-1. The prime-power numbering of the table is a Gödel numbering. The worked case is [[the Gödel number of 0 = S0|~d82f05a9]].
-2. The bijective base-$k$ numbering of strings is a Gödel numbering onto all of $\N$. It is the example [[bijective base-k numbering of strings|~84a1258f]].
+1. The prime-power numbering of the table is a Gödel numbering. The worked case is [[the Gödel number of 0 = S0|GEHMF7T5FX]].
+2. The bijective base-$k$ numbering of strings is a Gödel numbering onto all of $\N$. It is the example [[bijective base-k numbering of strings|4QSK8112QQ]].
 3. A program stores a text file as a sequence of bytes, which is one number in base $256$; with a leading byte $1$ this coding is injective and computable.
 4. The Lean library Mathlib has the class `Encodable`: an injective map into $\N$ with a partial inverse. Lean does not ask for computability, so this is a weaker notion.
 
 ### Non-examples
 
 1. The map that sends a string to its length is computable but not injective, so it fails the first condition.
-2. [[Coding sentences by their truth value|~291b20d9]] gives an injective map that is not computable, so it fails the second condition.
+2. [[Coding sentences by their truth value|Y4VRPDEV6K]] gives an injective map that is not computable, so it fails the second condition.
 3. Any map onto $\N$ that treats the symbols $v_0, v_1, \ldots$ as one symbol fails injectivity, because it identifies different formulas.
 
 ### Basic properties
@@ -66,7 +66,7 @@ Our symbol codes are the odd numbers below.
 1. Any two Gödel numberings are related by a computable bijection between their sets of codes.
 2. With the prime-power numbering, the relations "$x$ codes a term", "$x$ codes a formula", "$x$ codes a sentence" and "$x$ codes an axiom of logic" are [[primitive recursive|5NVA2JRHPV]] relations.
 3. The functions $\mathrm{num}(n) = \# \underline{n}$ and $\mathrm{sub}(x, y) = $ the code of the result of putting the numeral $\underline{y}$ for the free variable $v_0$ in the formula with code $x$ are primitive recursive.
-4. If a theory has a decidable set of axioms, the relation "$y$ codes a proof of the formula with code $x$" is decidable. This is the subject of [[arithmetization of syntax|~f1d9d517]].
+4. If a theory has a decidable set of axioms, the relation "$y$ codes a proof of the formula with code $x$" is decidable. This is the subject of [[arithmetization of syntax|6M12VR1GT6]].
 5. Primitive recursiveness holds because each check is a search bounded by the number itself: the parts of a string have smaller codes than the string.
 
 ### History
@@ -105,4 +105,4 @@ A trap: the code of a formula and the formula are different objects, and a formu
 A Gödel numbering is an effective injection of a countable free structure, the strings or the terms, into $\N$.
 Any two such injections differ by a computable bijection, so the computability theory of syntax does not depend on the choice.
 In type theory the same role is played by a class like Mathlib's `Encodable`, and in computer science by any serialization format.
-The numbering is the first step of [[arithmetization of syntax|~f1d9d517]], which leads to the [[diagonal lemma|3PRW76471J]] and the [[incompleteness theorems|X9WYNYE29C]].
+The numbering is the first step of [[arithmetization of syntax|6M12VR1GT6]], which leads to the [[diagonal lemma|3PRW76471J]] and the [[incompleteness theorems|X9WYNYE29C]].

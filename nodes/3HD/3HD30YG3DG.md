@@ -6,7 +6,7 @@ name: Löb's theorem
 msc: ["03F40", "03F45"]
 topics: [HXHHWY3328]
 audience: grad
-uses: [0QFT7Z76N5, MFJXPAF0R0, DKFGQTRYZE, 92SWXST1ZM, TN9G24VABN, NB2BCZR40F, ~abdd9e6a, 3PRW76471J]
+uses: [0QFT7Z76N5, MFJXPAF0R0, DKFGQTRYZE, 92SWXST1ZM, TN9G24VABN, NB2BCZR40F, F6H4STF9RG, 3PRW76471J]
 about: [NB2BCZR40F]
 history:
   first_stated: "Löb, 1955, Solution of a problem of Leon Henkin, Journal of Symbolic Logic"
@@ -29,19 +29,19 @@ Let $\mathrm{Prov}_T(x)$ be the standard [[provability predicate|NB2BCZR40F]] of
 1. For every [[sentence|DKFGQTRYZE]] $\varphi$: if $T \vdash \square \varphi \to \varphi$, then $T \vdash \varphi$.
 2. Formalized form: $T \vdash \square (\square \varphi \to \varphi) \to \square \varphi$ for every sentence $\varphi$.
 
-The proof is in [[the proof of Löb's theorem|~e333036d]].
+The proof is in [[the proof of Löb's theorem|6GCSRKJ0SQ]].
 
 ## Remarks
 
 ### Why each hypothesis is needed
 
-1. The standard predicate: for the [[Rosser provability predicate|~55c1b89b]] $\square^R$, $T$ proves $\neg \square^R (0 = S0)$, so $T \vdash \square^R (0 = S0) \to 0 = S0$, while a consistent $T$ does not prove $0 = S0$.
+1. The standard predicate: for the [[Rosser provability predicate|Z0H1KA8ZHT]] $\square^R$, $T$ proves $\neg \square^R (0 = S0)$, so $T \vdash \square^R (0 = S0) \to 0 = S0$, while a consistent $T$ does not prove $0 = S0$.
 2. The $\Sigma_1$ axiom formula: for Feferman's $\Pi_1$ formula $\alpha^*$, $\mathsf{PA}$ proves $\mathrm{Con}_{\alpha^*}$, and the same failure occurs with $\varphi := (0 = S0)$.
-3. Enough arithmetic: the proof uses the [[derivability conditions|~abdd9e6a]] D2 and D3. They hold for extensions of $\mathsf{I}\Sigma_1$, so the theorem holds there too.
+3. Enough arithmetic: the proof uses the [[derivability conditions|F6H4STF9RG]] D2 and D3. They hold for extensions of $\mathsf{I}\Sigma_1$, so the theorem holds there too.
 
 ### Consequences
 
-1. [[Gödel's second incompleteness theorem|~c79a35b5]]: if $T \vdash \mathrm{Con}(T)$, then $T \vdash \square (0 = S0) \to 0 = S0$, so $T \vdash 0 = S0$.
+1. [[Gödel's second incompleteness theorem|4PZM5GJTR5]]: if $T \vdash \mathrm{Con}(T)$, then $T \vdash \square (0 = S0) \to 0 = S0$, so $T \vdash 0 = S0$.
 2. Every [[Henkin sentence|SBMQ5QHG9W]], a sentence $H$ with $T \vdash H \leftrightarrow \square H$, is provable in $T$.
 3. $T$ proves the local reflection $\square \varphi \to \varphi$ only for the sentences $\varphi$ that it proves. So $T$ cannot prove its own soundness, even one sentence at a time.
 

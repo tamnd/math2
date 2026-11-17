@@ -8,7 +8,7 @@ audience: grad
 not_instance_of:
   - target: X3G0RG2GPZ
     note: "PA (and so PRA) cannot prove Con(PA) -> Con(PA + Con(PA)): together with the axiom Con(PA) this would give PA + Con(PA) a proof of its own consistency, against the second incompleteness theorem."
-uses: [X3G0RG2GPZ, ~c79a35b5, 0QFT7Z76N5, EQH7XTZ29V]
+uses: [X3G0RG2GPZ, 4PZM5GJTR5, 0QFT7Z76N5, EQH7XTZ29V]
 sources:
   - url: https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems
     locator: Second incompleteness theorem
@@ -24,7 +24,7 @@ We show that no [[relative consistency proof|X3G0RG2GPZ]] of $T$ from PA can be 
 2. $T$ contains PA, and its axioms form a computable set, since it adds one sentence to PA.
 3. Suppose $\mathsf{PA} \vdash \mathrm{Con}(\mathsf{PA}) \to \mathrm{Con}(T)$. Then $T \vdash \mathrm{Con}(\mathsf{PA}) \to \mathrm{Con}(T)$, because $T$ contains PA.
 4. $T \vdash \mathrm{Con}(\mathsf{PA})$, since it is an axiom of $T$. Modus ponens with step 3 gives $T \vdash \mathrm{Con}(T)$.
-5. By steps 1 and 2 and [[Gödel's second incompleteness theorem|~c79a35b5]], $T \nvdash \mathrm{Con}(T)$. This contradicts step 4.
+5. By steps 1 and 2 and [[Gödel's second incompleteness theorem|4PZM5GJTR5]], $T \nvdash \mathrm{Con}(T)$. This contradicts step 4.
 6. So $\mathsf{PA} \nvdash \mathrm{Con}(\mathsf{PA}) \to \mathrm{Con}(T)$. PA proves every theorem of PRA, after its function symbols are defined in PA, so PRA does not prove the implication either.
 
 ## Remarks

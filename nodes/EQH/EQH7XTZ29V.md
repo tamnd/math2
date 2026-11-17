@@ -8,7 +8,7 @@ audience: grad
 not_instance_of:
   - target: N238J43XNE
     note: "PA + Con(PA) proves the arithmetic sentence Con(PA), which PA does not prove by the second incompleteness theorem."
-uses: [N238J43XNE, 0QFT7Z76N5, ~c79a35b5, MFJXPAF0R0, VM8TQ70CVJ]
+uses: [N238J43XNE, 0QFT7Z76N5, 4PZM5GJTR5, MFJXPAF0R0, VM8TQ70CVJ]
 sources:
   - url: https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems
     locator: Second incompleteness theorem
@@ -25,7 +25,7 @@ We show that $T'$ is a consistent extension of PA that is not a [[conservative e
 1. $T'$ extends PA, since it contains all axioms of PA.
 2. The natural numbers with the usual operations satisfy every axiom of PA. By soundness, PA does not prove $0 = 1$, so PA is [[consistent|VM8TQ70CVJ]].
 3. The sentence $\mathrm{Con}(\mathsf{PA})$ expresses this fact under the Gödel numbering, so it is true in $\N$. So $\N$ is a model of $T'$, and $T'$ is consistent.
-4. PA is consistent and computably axiomatized, so by [[Gödel's second incompleteness theorem|~c79a35b5]], PA does not prove $\mathrm{Con}(\mathsf{PA})$.
+4. PA is consistent and computably axiomatized, so by [[Gödel's second incompleteness theorem|4PZM5GJTR5]], PA does not prove $\mathrm{Con}(\mathsf{PA})$.
 5. $T'$ proves $\mathrm{Con}(\mathsf{PA})$, since it is an axiom of $T'$.
 6. So $\mathrm{Con}(\mathsf{PA})$ is a sentence of the old language that $T'$ proves and PA does not prove. The condition of conservativity fails.
 

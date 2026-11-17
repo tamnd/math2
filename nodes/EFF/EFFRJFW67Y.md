@@ -121,7 +121,7 @@ This ended the original form of [[Hilbert's program|P1RW6JWX73]].
 ### Basic properties
 
 - If ZF is consistent, then ZFC is consistent. Gödel proved this with the [[constructible universe|6TF2JBTPPJ]], see [[Gödel's consistency of CH and AC|Q9176JRJ5M]].
-- If ZFC is consistent, then ZFC does not prove $\operatorname{Con}(\mathrm{ZFC})$. This is [[Gödel's second incompleteness theorem|~c79a35b5]] applied to ZFC.
+- If ZFC is consistent, then ZFC does not prove $\operatorname{Con}(\mathrm{ZFC})$. This is [[Gödel's second incompleteness theorem|4PZM5GJTR5]] applied to ZFC.
 - The [[continuum hypothesis|0MN2MER9WN]] is independent of ZFC, if ZFC is consistent, by Gödel (1938) and Cohen (1963). So the standard foundation leaves natural questions open.
 - Different foundations can often be compared by [[relative consistency proofs|X3G0RG2GPZ]] and interpretations. For example, a theorem of ordinary analysis usually has a proof in ZFC and a proof in a dependent type theory.
 

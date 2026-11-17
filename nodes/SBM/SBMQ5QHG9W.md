@@ -41,12 +41,12 @@ The [[diagonal lemma|3PRW76471J]] applied to $\mathrm{Prov}_T(x)$ gives one, and
 
 ### Examples
 
-1. [[The diagonal Henkin sentence of PA is provable|~2f35c0c4]]: the sentence from the diagonal lemma, and its proof by Löb's theorem.
-2. [[The sentence 0 = 0 is a Henkin sentence|~c5fb2860]]: every theorem of $T$ is a fixed point of $\square$.
+1. [[The diagonal Henkin sentence of PA is provable|Y8G800QGAZ]]: the sentence from the diagonal lemma, and its proof by Löb's theorem.
+2. [[The sentence 0 = 0 is a Henkin sentence|6FWPDEK05X]]: every theorem of $T$ is a fixed point of $\square$.
 
 ### Non-examples
 
-1. [[The Gödel sentence is not a Henkin sentence|~a2a9a3f4]] of a consistent $T$: it is a fixed point of $\neg \square$, not of $\square$.
+1. [[The Gödel sentence is not a Henkin sentence|ZWTYPDHP3S]] of a consistent $T$: it is a fixed point of $\neg \square$, not of $\square$.
 2. For a consistent $T$, the sentence $0 = S0$ is not a Henkin sentence: $T \vdash \neg (0 = S0)$, while $T \nvdash \neg \square (0 = S0)$ by the second incompleteness theorem.
 
 ### Basic properties

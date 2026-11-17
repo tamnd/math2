@@ -1,0 +1,66 @@
+---
+tag: F14YSZ3XKZ
+kind: example
+name: Robinson arithmetic is not negation complete
+msc: ["03F30", "03C62"]
+topics: [HXHHWY3328]
+audience: grad
+not_instance_of:
+  - target: 319P85G2C1
+    note: "Q proves neither the sentence for all x, 0 + x = x, nor its negation."
+uses: [319P85G2C1, 3K1AKGXF8A, TT8MXRTVBM, 4A84VHDTHV, WP27CABPA4]
+sources:
+  - url: https://en.wikipedia.org/wiki/Robinson_arithmetic
+    locator: Metamathematics
+  - book: isbn:9780521857840
+---
+
+## Example
+
+We show that [[Robinson arithmetic|3K1AKGXF8A]] $\mathsf{Q}$ proves neither $\forall x \, (0 + x = x)$ nor its negation.
+So $\mathsf{Q}$ is not [[negation complete|319P85G2C1]], and this is shown without the incompleteness theorems.
+The [[axioms|TT8MXRTVBM]] are (1) $Sx \ne 0$, (2) $Sx = Sy \to x = y$, (3) $x \ne 0 \to \exists y \, (x = Sy)$, (4) $x + 0 = x$, (5) $x + Sy = S(x + y)$, (6) $x \cdot 0 = 0$, (7) $x \cdot Sy = x \cdot y + x$.
+
+Let $M$ have domain $\N \cup \set{a, b}$ with two new elements $a \ne b$.
+On $\N$ the operations are the usual ones.
+Let $n$ range over $\N$ and $x$ over $M$.
+
+- $S a = a$ and $S b = b$.
+- $x + a = b$ and $x + b = a$; $a + n = a$ and $b + n = b$.
+- $a \cdot 0 = b \cdot 0 = 0$; for $n \ge 1$, $a \cdot n = b$ and $b \cdot n = a$.
+- $0 \cdot a = 0 \cdot b = 0$; for $n \ge 1$, $n \cdot a = n \cdot b = a$; $a \cdot a = b$, $b \cdot a = a$, $a \cdot b = b$, $b \cdot b = a$.
+
+1. Axioms 1 to 3: $S$ is injective, $0$ is not a value of $S$, and every $x \ne 0$ is a value, since $a = Sa$ and $b = Sb$.
+2. Axiom 4: $n + 0 = n$, $a + 0 = a$ and $b + 0 = b$.
+3. Axiom 5 with $y = n$: for $x \in \N$ it is usual arithmetic, and $a + (n + 1) = a = S(a + n)$, and the same for $b$.
+4. Axiom 5 with $y = a$: $x + Sa = x + a = b$ and $S(x + a) = Sb = b$. The case $y = b$ is the same with $a$ and $b$ exchanged.
+5. Axiom 6: $a \cdot 0 = b \cdot 0 = 0$.
+6. Axiom 7 with $y = n$ and $x = a$: $a \cdot (n + 1) = b$, and $a \cdot n + a = b$, since every element plus $a$ is $b$. For $x = b$ both sides are $a$.
+7. Axiom 7 with $y = a$: the axiom becomes $x \cdot a = x \cdot a + x$. For $x = 0$: $0 = 0 + 0$. For $x = n \ge 1$: $a = a + n$. For $x = a$: $b = b + a$. For $x = b$: $a = a + b$.
+8. Axiom 7 with $y = b$: $x \cdot b = x \cdot b + x$. For $x = 0$: $0 = 0 + 0$. For $x = n \ge 1$: $a = a + n$. For $x = a$: $b = b + a$. For $x = b$: $a = a + b$.
+9. So $M$ is a model of $\mathsf{Q}$, and $0 + a = b \ne a$. So $M \models \neg \forall x \, (0 + x = x)$.
+10. By [[soundness|4A84VHDTHV]], $\mathsf{Q} \nvdash \forall x \, (0 + x = x)$.
+11. The [[standard model|WP27CABPA4]] $\N$ is a model of $\mathsf{Q}$ and satisfies $\forall x \, (0 + x = x)$. By soundness, $\mathsf{Q} \nvdash \neg \forall x \, (0 + x = x)$.
+
+## Remarks
+
+$\mathsf{PA}$ proves $\forall x \, (0 + x = x)$ by induction on $x$, so this independent sentence is specific to $\mathsf{Q}$.
+In $M$ addition is not commutative: $a + 0 = a$ but $0 + a = b$.
+Each instance $0 + \underline{n} = \underline{n}$ is provable in $\mathsf{Q}$, so the failure needs a non-standard element.
+
+## Explanations
+
+### L1 human
+
+Robinson arithmetic has no induction, so it cannot prove general laws such as "$0 + x = x$ for every $x$".
+A strange number system with two extra elements obeys all its axioms but breaks this law.
+Since the ordinary numbers obey the law, the axioms cannot refute it either.
+
+### L2 human
+
+1. Build a model of $\mathsf{Q}$ in which $\forall x \, (0 + x = x)$ fails.
+2. Use $\N$ for a model in which it holds.
+3. Soundness gives that $\mathsf{Q}$ proves neither.
+
+The typical use is to show that $\mathsf{Q}$ is weak, and why the induction scheme of $\mathsf{PA}$ is needed.
+A trap: $\mathsf{Q}$ still proves every true numerical equation such as $0 + \underline{5} = \underline{5}$.
