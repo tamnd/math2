@@ -1,0 +1,73 @@
+---
+tag: ~2cfdee44
+kind: example
+name: Goldbach's conjecture for small even numbers
+msc: ["00A35", "11P32"]
+topics: [N4P3E53HM0]
+audience: school
+instance_of: [~3c997250]
+uses: [~3c997250, 063JNBSMJ0, 0SN0MAEKYX]
+sources:
+  - url: https://en.wikipedia.org/wiki/Goldbach%27s_conjecture
+    locator: lead section
+---
+
+## Example
+
+[[Goldbach's conjecture|063JNBSMJ0]] states: each even integer $n > 2$ is a sum of two [[prime numbers|0SN0MAEKYX]].
+It is a [[conjecture|~3c997250]]: as of 2026-11 nobody has proved it, and nobody has found a counterexample.
+We check it for each even number from $4$ to $30$.
+
+1. The primes up to $30$ are $2, 3, 5, 7, 11, 13, 17, 19, 23, 29$.
+2. For each even $n$ we list all ways $n = p + q$ with primes $p \leq q$. We find them by testing whether $n - p$ is prime for each prime $p \leq n/2$.
+
+| $n$ | Sums of two primes |
+|---|---|
+| $4$ | $2 + 2$ |
+| $6$ | $3 + 3$ |
+| $8$ | $3 + 5$ |
+| $10$ | $3 + 7$, $5 + 5$ |
+| $12$ | $5 + 7$ |
+| $14$ | $3 + 11$, $7 + 7$ |
+| $16$ | $3 + 13$, $5 + 11$ |
+| $18$ | $5 + 13$, $7 + 11$ |
+| $20$ | $3 + 17$, $7 + 13$ |
+| $22$ | $3 + 19$, $5 + 17$, $11 + 11$ |
+| $24$ | $5 + 19$, $7 + 17$, $11 + 13$ |
+| $26$ | $3 + 23$, $7 + 19$, $13 + 13$ |
+| $28$ | $5 + 23$, $11 + 17$ |
+| $30$ | $7 + 23$, $11 + 19$, $13 + 17$ |
+
+3. Each row has at least one sum, so the conjecture holds for each even $n$ from $4$ to $30$.
+4. As a sample check of step 2, take $n = 12$. The primes $p \leq 6$ are $2, 3, 5$. Then $12 - 2 = 10$ and $12 - 3 = 9$ are not prime, and $12 - 5 = 7$ is prime. So $12 = 5 + 7$ is the only sum.
+
+## Remarks
+
+The example shows the typical state of an open conjecture: strong evidence and no proof.
+A computer search has checked the conjecture for each even number up to $4 \cdot 10^{18}$, and this is still a finite check.
+The number of ways tends to grow with $n$: $12$ has one way and $30$ has three ways.
+This growth is part of the heuristic reason to believe the conjecture, because large even numbers have many candidate pairs.
+The row $n = 4$ is the only row that uses the prime $2$, because $n - 2$ is even and greater than $2$ for each even $n > 4$, so it is not prime.
+
+## Explanations
+
+### L1 human
+
+Pick an even number bigger than $2$, such as $20$.
+Try to write it as a sum of two prime numbers: $20 = 3 + 17$ works, and so does $20 = 7 + 13$.
+Every even number that people have tried can be split like this.
+But nobody knows a reason why it must always work.
+That is why the statement is called a conjecture and not a theorem.
+
+### L2 human
+
+We find all the ways for $n = 30$.
+
+1. The primes $p \leq 15$ are $2, 3, 5, 7, 11, 13$.
+2. $30 - 2 = 28$, $30 - 3 = 27$ and $30 - 5 = 25$ are not prime.
+3. $30 - 7 = 23$, $30 - 11 = 19$ and $30 - 13 = 17$ are prime.
+4. So $30 = 7 + 23 = 11 + 19 = 13 + 17$, three ways.
+
+The typical use of such a table is to build confidence in a conjecture and to see the pattern in the counts.
+A trap is to read the table as a proof.
+A table covers finitely many cases, and the conjecture is a statement about infinitely many numbers.
