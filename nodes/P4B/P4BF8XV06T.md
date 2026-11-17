@@ -1,0 +1,64 @@
+---
+tag: P4BF8XV06T
+kind: example
+name: The triangle inequality for real numbers by cases
+msc: ["00A35", "26A03"]
+topics: [958EF46EYJ]
+audience: school
+instance_of: [0WCP0PVET6]
+uses: [0WCP0PVET6, 00S7C68D51, 03HF5PMY5T]
+sources:
+  - url: https://en.wikipedia.org/wiki/Triangle_inequality
+    locator: lead section
+  - url: https://en.wikipedia.org/wiki/Absolute_value
+    locator: Real numbers
+---
+
+## Example
+
+Statement: for all real numbers $x$ and $y$, $|x + y| \leq |x| + |y|$.
+This is the [[triangle inequality|03HF5PMY5T]] on the real line.
+The [[absolute value|00S7C68D51]] is defined by cases: $|t| = t$ if $t \geq 0$, and $|t| = -t$ if $t < 0$.
+We give a [[proof by cases|0WCP0PVET6]].
+
+1. First a fact for each real $t$: $t \leq |t|$ and $-t \leq |t|$. If $t \geq 0$, then $t = |t|$ and $-t \leq 0 \leq |t|$. If $t < 0$, then $-t = |t|$ and $t < 0 < |t|$.
+2. Let $x$ and $y$ be real. Every real number $x + y$ satisfies $x + y \geq 0$ or $x + y < 0$, so two cases cover everything.
+3. Case $x + y \geq 0$: then $|x + y| = x + y$. By step 1, $x \leq |x|$ and $y \leq |y|$. Adding gives $|x + y| \leq |x| + |y|$.
+4. Case $x + y < 0$: then $|x + y| = -(x + y) = (-x) + (-y)$. By step 1, $-x \leq |x|$ and $-y \leq |y|$. Adding gives $|x + y| \leq |x| + |y|$.
+5. The inequality holds in both cases, so it holds for all real $x$ and $y$.
+
+## Remarks
+
+The split follows the definition of $|x + y|$, which is the expression on the left side.
+A split by the signs of $x$ and $y$ also works, but it gives four cases, and the cases with opposite signs need a further split.
+Choosing the split that matches the definition keeps the proof short.
+
+Equality holds exactly when $x$ and $y$ do not have opposite signs, that is, when $xy \geq 0$.
+For $x = 3$ and $y = -5$, the left side is $|{-2}| = 2$ and the right side is $8$.
+For $x = 3$ and $y = 5$, both sides are $8$.
+
+The standard proof on the page [[proof of the triangle inequality for real numbers|HRTKMX90SJ]] avoids the final case split by the bounds $-|t| \leq t \leq |t|$, but it uses the same case split in its first step.
+
+## Explanations
+
+### L1 human
+
+On a number line, $|x|$ is the distance from $0$ to $x$.
+Walking $x$ steps and then $y$ steps ends at $x + y$.
+The distance from the start to the end is at most the total number of steps walked, $|x| + |y|$.
+If both walks go the same way, the two numbers are equal, for example $3 + 5 = 8$.
+If the walks go in opposite directions, part of the walk is undone, for example $3$ steps right and $5$ steps left end only $2$ steps from the start.
+
+### L2 human
+
+We use the same two-case pattern to prove $\big||x| - |y|\big| \leq |x - y|$ for all real $x$ and $y$.
+
+1. By the triangle inequality with $x - y$ and $y$: $|x| = |(x - y) + y| \leq |x - y| + |y|$, so $|x| - |y| \leq |x - y|$.
+2. Exchanging $x$ and $y$: $|y| - |x| \leq |y - x| = |x - y|$.
+3. Case $|x| - |y| \geq 0$: the left side of the claim is $|x| - |y|$, and step 1 gives the claim.
+4. Case $|x| - |y| < 0$: the left side of the claim is $|y| - |x|$, and step 2 gives the claim.
+
+The typical use: an absolute value on one side of an inequality gives two cases, one for each sign of the expression inside it.
+
+A trap: in case 4 of the example, $|x + y| = -(x + y)$ and not $-x + y$.
+The minus sign applies to the whole sum.

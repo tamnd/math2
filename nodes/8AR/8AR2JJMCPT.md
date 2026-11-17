@@ -1,0 +1,60 @@
+---
+tag: 8AR2JJMCPT
+kind: example
+name: A square root inequality by symmetry
+msc: ["00A35", "26D07"]
+topics: [958EF46EYJ]
+audience: ug1
+instance_of: [Y7NE0E6PCV]
+uses: [Y7NE0E6PCV, 00S7C68D51]
+sources:
+  - url: https://en.wikipedia.org/wiki/Without_loss_of_generality
+    locator: lead section
+  - url: https://en.wikipedia.org/wiki/Square_root
+    locator: lead section
+---
+
+## Example
+
+Statement: for all real numbers $x \geq 0$ and $y \geq 0$, $\left|\sqrt{x} - \sqrt{y}\right| \leq \sqrt{|x - y|}$.
+We use [[without loss of generality|Y7NE0E6PCV]].
+
+1. Symmetry: exchanging $x$ and $y$ keeps the hypotheses $x, y \geq 0$, and it keeps both sides, since $\left|\sqrt{y} - \sqrt{x}\right| = \left|\sqrt{x} - \sqrt{y}\right|$ and $|y - x| = |x - y|$. So wlog $x \geq y$.
+2. Then $\sqrt{x} \geq \sqrt{y}$, since the square root is increasing. So the left side is $\sqrt{x} - \sqrt{y}$, and the right side is $\sqrt{x - y}$.
+3. The claim becomes $\sqrt{x} \leq \sqrt{y} + \sqrt{x - y}$.
+4. Both sides of step 3 are at least $0$. For numbers $u, v \geq 0$, $u \leq v$ holds exactly when $u^2 \leq v^2$. So it suffices to compare the squares.
+5. The square of the right side is $y + (x - y) + 2\sqrt{y(x - y)} = x + 2\sqrt{y(x - y)}$.
+6. Since $2\sqrt{y(x - y)} \geq 0$, this is at least $x$, the square of the left side. So step 3 holds, and the statement is proved.
+
+## Remarks
+
+The wlog step does two things.
+It removes the [[absolute values|00S7C68D51]], whose sign would otherwise need two cases.
+It also makes $x - y \geq 0$, so that $\sqrt{x - y}$ is defined in step 2.
+
+Equality holds exactly when $y(x - y) = 0$, that is, when $y = 0$ or $x = y$.
+For $x = 9$ and $y = 0$ both sides are $3$.
+For $x = 9$ and $y = 4$ the left side is $1$ and the right side is $\sqrt{5} \approx 2.24$.
+
+## Explanations
+
+### L1 human
+
+Take $x = 16$ and $y = 9$.
+The square roots are $4$ and $3$, and they differ by $1$.
+The numbers themselves differ by $7$, and the square root of $7$ is about $2.6$.
+So the difference of the roots, $1$, is at most the root of the difference.
+The proof assumes that the first number is the larger one; if it is not, we exchange the names, and both sides stay the same.
+
+### L2 human
+
+We check step 4 of the example, the comparison of squares.
+
+1. Let $u, v \geq 0$ with $u^2 \leq v^2$. Then $v^2 - u^2 = (v - u)(v + u) \geq 0$.
+2. If $v + u > 0$, dividing gives $v - u \geq 0$, so $u \leq v$.
+3. If $v + u = 0$, then $u = v = 0$, so $u \leq v$ again.
+
+The typical use: to prove an inequality between square roots, reduce it to an inequality between nonnegative numbers and square both sides.
+
+A trap: squaring keeps the order only for numbers that are at least $0$.
+From $-3 \leq 2$ one cannot conclude $9 \leq 4$.
