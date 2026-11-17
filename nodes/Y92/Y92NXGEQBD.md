@@ -65,7 +65,7 @@ Inside the weak subsystem $\mathsf{RCA}_0$ the following codes are available, an
 - Sequences of reals. A sequence of reals is a function from $\N \times \N$ to the rationals whose rows are reals.
 - Countable structures. A countable group is a set $G \subseteq \N$ with the group operation coded as a set of triples, and the same works for rings, fields, vector spaces, graphs and orders.
 - Separable spaces. A complete separable metric space is coded by a countable dense set with its rational distances, and its points are [[Cauchy sequences|0PWX18FM4G]] from the dense set with a fixed rate of convergence.
-- Continuous functions. A continuous function between such spaces is coded by a set of quadruples of basic balls; the page on [[RCA0|~58b63877]] gives the details.
+- Continuous functions. A continuous function between such spaces is coded by a set of quadruples of basic balls; the page on [[RCA0|XQENB067R3]] gives the details.
 
 Every coded notion uses only sets of numbers, so second-order arithmetic can state theorems about these objects.
 The statement $x < y$ is $\Sigma^0_1$, and $x = y$ is $\Pi^0_1$, so equality of reals is not decidable from the codes.

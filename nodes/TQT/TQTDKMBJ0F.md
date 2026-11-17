@@ -6,7 +6,7 @@ msc: ["03B30", "03F35"]
 topics: [BY8AAFN7C5]
 audience: grad
 defines: 7SQS69T17R
-uses: [DC60FYCSPM, Y92NXGEQBD, ~58b63877]
+uses: [DC60FYCSPM, Y92NXGEQBD, XQENB067R3]
 sources:
   - url: https://en.wikipedia.org/wiki/Reverse_mathematics
     locator: General principles
@@ -14,7 +14,7 @@ sources:
 
 ## Definition
 
-Let $\mathsf{RCA}_0$ be the [[base system|~58b63877]] of [[second-order arithmetic|DC60FYCSPM]]: the basic axioms, induction for $\Sigma^0_1$ formulas, and comprehension for $\Delta^0_1$ formulas.
+Let $\mathsf{RCA}_0$ be the [[base system|XQENB067R3]] of [[second-order arithmetic|DC60FYCSPM]]: the basic axioms, induction for $\Sigma^0_1$ formulas, and comprehension for $\Delta^0_1$ formulas.
 Let $S$ be a theory in $L_2$ that contains $\mathsf{RCA}_0$, and let $\tau$ be a sentence of $L_2$.
 Then $\tau$ is *equivalent to $S$ over $\mathsf{RCA}_0$* if both of these hold:
 

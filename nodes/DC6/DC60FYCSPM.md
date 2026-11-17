@@ -54,14 +54,14 @@ A subscript $0$, as in $\mathsf{ACA}_0$, means that induction is the single set 
 
 ### Examples
 
-- The full structure $(\N, \mathcal{P}(\N))$ is a model of $\mathsf{Z}_2$; [[this example|~9a3df793]] checks the axioms.
-- The square root of $2$ is coded by the set of its binary truncations, and the coding takes place inside $\mathsf{Z}_2$; [[this example|~aa7e8c21]] gives the numbers.
+- The full structure $(\N, \mathcal{P}(\N))$ is a model of $\mathsf{Z}_2$; [[this example|CAA7K3VF59]] checks the axioms.
+- The square root of $2$ is coded by the set of its binary truncations, and the coding takes place inside $\mathsf{Z}_2$; [[this example|QY29R8PF9Z]] gives the numbers.
 - For each $\omega$-model $\mathcal{S}$ of $\mathsf{Z}_2$, every set definable in $(\N, \mathcal{S})$ with parameters from $\mathcal{S}$ lies in $\mathcal{S}$, by comprehension. So the arithmetical sets lie in every $\omega$-model.
-- The theory $\mathsf{ACA}_0$ of [[arithmetical comprehension|~08f6623a]] is a subsystem: it keeps the basic axioms and set induction, and it restricts comprehension to arithmetical formulas.
+- The theory $\mathsf{ACA}_0$ of [[arithmetical comprehension|NAASTN80QN]] is a subsystem: it keeps the basic axioms and set induction, and it restricts comprehension to arithmetical formulas.
 
 ### Non-examples
 
-- The family of [[computable sets|PPGD5KW8JC]] does not give a model of $\mathsf{Z}_2$: the comprehension instance for the halting set fails; [[this non-example|~a21f55cb]] gives the details.
+- The family of [[computable sets|PPGD5KW8JC]] does not give a model of $\mathsf{Z}_2$: the comprehension instance for the halting set fails; [[this non-example|W4J2H41PB7]] gives the details.
 - [[Peano arithmetic|HACXBCM7SS]] is not second-order arithmetic: its language has no set variables, so it cannot state comprehension. Its theorems are exactly the theorems of $\mathsf{ACA}_0$ without set variables, by [[this example|HPA6HX3114]].
 - Full [[second-order logic|G6X7SZSNC5]] with the second-order Peano axioms is not the theory $\mathsf{Z}_2$. The theory $\mathsf{Z}_2$ is read with [[Henkin semantics|P0H5NYX8Z0]], so it has models $(M, \mathcal{S})$ with $\mathcal{S} \ne \mathcal{P}(M)$.
 

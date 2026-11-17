@@ -5,7 +5,7 @@ name: Beta-model
 msc: ["03B30", "03C62"]
 topics: [BY8AAFN7C5]
 audience: grad
-uses: [Y92NXGEQBD, M6JGF4TPM6, 01CGSJ0GNQ, ~ff80e550, NS1HWGTD8E]
+uses: [Y92NXGEQBD, M6JGF4TPM6, 01CGSJ0GNQ, MKB74TX3Z8, NS1HWGTD8E]
 sources:
   - url: https://en.wikipedia.org/wiki/Beta-model
     locator: In analysis
@@ -35,17 +35,17 @@ The statements "$W$ is a well-ordering" and "this tree has no infinite path" are
 
 ### Examples
 
-- The [[full model|~9a3df793]] $(\N, \mathcal{P}(\N))$ is a β-model.
-- A [[countable elementary substructure of the full model|~d25df75c]] is a countable β-model.
+- The [[full model|CAA7K3VF59]] $(\N, \mathcal{P}(\N))$ is a β-model.
+- A [[countable elementary substructure of the full model|MZXJDE7M7K]] is a countable β-model.
 
 ### Non-examples
 
-- The [[computable sets|~f2c0a555]] do not form a β-model. The Kleene tree is a computable infinite binary tree with a path, but with no computable path.
-- The [[arithmetical sets|~46cb5771]] do not form a β-model. The $\Sigma^1_1$ sentence "the hierarchy of jumps along $\omega$ exists" is true, but it has no arithmetical witness, by the [[ω-th jump example|~631d55be]].
+- The [[computable sets|F5T3F7E0H1]] do not form a β-model. The Kleene tree is a computable infinite binary tree with a path, but with no computable path.
+- The [[arithmetical sets|9KPCZ6NA32]] do not form a β-model. The $\Sigma^1_1$ sentence "the hierarchy of jumps along $\omega$ exists" is true, but it has no arithmetical witness, by the [[ω-th jump example|MF6AG57W3W]].
 
 ### Basic properties
 
-- Every β-model is a model of [[ATR0|~ff80e550]].
+- Every β-model is a model of [[ATR0|MKB74TX3Z8]].
   For an arithmetical formula $\varphi(n)$ with parameters in $\mathcal{S}$, the $\Sigma^1_1$ sentence $\exists Y\, \forall n\, (n \in Y \leftrightarrow \varphi(n))$ is true, so it has a witness in $\mathcal{S}$, and arithmetical comprehension holds.
   If $\mathcal{S}$ thinks that $W$ is a well-ordering, then $W$ is a true well-ordering, since "$W$ has a descending sequence" is $\Sigma^1_1$.
   Then the $\Sigma^1_1$ sentence "there is a hierarchy along $W$ for $\theta$" is true, so it has a witness in $\mathcal{S}$.
