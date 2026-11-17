@@ -68,7 +68,7 @@ A short rule: universal propositions distribute their subject, and negative prop
 
 ### Basic properties
 
-- A valid syllogism distributes its middle term in at least one premise. If it does not, the two premises can speak about different parts of the middle class, as in the [[undistributed middle|~a7484779]].
+- A valid syllogism distributes its middle term in at least one premise. If it does not, the two premises can speak about different parts of the middle class, as in the [[undistributed middle|F8BP8S0RYG]].
 - A term that is distributed in the conclusion of a valid syllogism is distributed in its premise. Breaking this rule is the fallacy of the illicit major or of the illicit minor term.
 - The place of the middle term in the two premises is the [[figure|S4BTTGFR6J]] of the syllogism.
 - Simple conversion keeps the distribution of both terms for E and I, and this is why E and I convert and A and O do not.

@@ -64,22 +64,22 @@ Here "complete" means complete for a semantics; it is not the completeness of a 
 
 ### Examples
 
-- The [[Hilbert system for classical propositional logic|~4b87d303]] is sound for truth tables: its three axiom schemas are tautologies, and modus ponens keeps truth.
-- The [[resolution rule|~55ed4b9f]] is sound for propositional logic, so a derivation of the empty clause shows that a set of clauses is unsatisfiable.
+- The [[Hilbert system for classical propositional logic|HZCFTQDRA5]] is sound for truth tables: its three axiom schemas are tautologies, and modus ponens keeps truth.
+- The [[resolution rule|BVYHBAT59N]] is sound for propositional logic, so a derivation of the empty clause shows that a set of clauses is unsatisfiable.
 - The standard proof systems for first-order logic (Hilbert systems, [[natural deduction|6KT3BJZ7D1]], the [[sequent calculus|W72CA3R9MP]]) are sound for structures. The rule of generalization needs care: it is sound because the variable does not occur free in the hypotheses.
 - Intuitionistic propositional logic is sound for [[Kripke semantics|NGHWZ9Y7ZV]] and for Heyting algebras. It is also sound for truth tables, because the two-element Boolean algebra is a Heyting algebra.
-- [[A valid argument with true premises|~5ce55b27]] about divisibility is a sound argument in the philosophical sense.
+- [[A valid argument with true premises|P1S8YHRFJ4]] about divisibility is a sound argument in the philosophical sense.
 
 ### Non-examples
 
-- A [[system with the rule of affirming the consequent|~3f2ae663]] is not sound: it derives $p$ from $p \to q$ and $q$, and the valuation $p = \mathsf{F}$, $q = \mathsf{T}$ makes the premises true and the conclusion false.
+- A [[system with the rule of affirming the consequent|5WQDFMR91G]] is not sound: it derives $p$ from $p \to q$ and $q$, and the valuation $p = \mathsf{F}$, $q = \mathsf{T}$ makes the premises true and the conclusion false.
 - A first-order system in which generalization is allowed without the side condition derives $\forall x \, P(x)$ from $P(x)$, and the structure $\set{0, 1}$ with $P = \set{0}$ and $x \mapsto 0$ refutes this step.
 - Classical propositional logic is not sound for the three-valued Heyting algebra semantics: it proves $p \lor \lnot p$, which takes the value $\tfrac12$ when $p$ has the value $\tfrac12$.
 - The argument "all squares are rectangles; this figure is a rectangle; so it is a square" is not valid, so it is not sound, even if its premises and conclusion happen to be true.
 
 ### Basic properties
 
-- Soundness is proved by induction on the length of derivations, or on the structure of derivation trees; the [[soundness theorem for propositional logic|~4b87d303]] is the model case.
+- Soundness is proved by induction on the length of derivations, or on the structure of derivation trees; the [[soundness theorem for propositional logic|HZCFTQDRA5]] is the model case.
 - If the system is sound and some interpretation satisfies $\Gamma$, then $\Gamma$ is [[consistent|VM8TQ70CVJ]]. In particular a sound system with a satisfiable empty set does not derive every formula.
 - Counter-models: if some interpretation makes $\Gamma$ true and $\varphi$ false, then a sound system has $\Gamma \nvdash \varphi$. This is the usual way to show unprovability and independence.
 - Soundness of a system follows from the validity of each axiom and the soundness of each [[rule of inference|QPD3X471Q1]] separately. So a new rule can be added after one check.
@@ -117,7 +117,7 @@ We check that the rule of hypothetical syllogism, from $\varphi \to \psi$ and $\
 3. If $v(\varphi) = \mathsf{T}$, then $v(\psi) = \mathsf{T}$ by step 1, and then $v(\chi) = \mathsf{T}$ by step 1 again. So $v(\varphi \to \chi) = \mathsf{T}$.
 4. In both cases $v(\varphi \to \chi) = \mathsf{T}$, so the rule keeps truth under every valuation.
 
-The typical use is to add such a checked rule to a Hilbert system without losing soundness, as in the [[induction on derivations|~48af3302]].
+The typical use is to add such a checked rule to a Hilbert system without losing soundness, as in the [[induction on derivations|E2KHD79NF4]].
 A trap is to check a rule only for one valuation, for example the one in which all variables are true; the rule must keep truth under every valuation.
 
 ### L3 human

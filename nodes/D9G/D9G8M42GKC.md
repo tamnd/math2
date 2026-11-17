@@ -6,7 +6,7 @@ aliases: [object-language, metalanguage]
 msc: ["03B99", "03A05"]
 topics: [H8QZY0RZXZ]
 audience: ug2
-uses: [5MFZ4VNY6D, ~113060c3, HYJ10AF6RT]
+uses: [5MFZ4VNY6D, 439M8B4DY2, HYJ10AF6RT]
 sources:
   - wikipedia: en:76765067@r1368301704
     locator: Glossary of logic, section O
@@ -31,7 +31,7 @@ When we study a [[formal language|5MFZ4VNY6D]] $L$, two languages are at work.
 The object language is $L$ itself, the language whose expressions we study.
 The metalanguage is the language in which we describe $L$, state its rules and prove facts about it; usually it is mathematical English with extra symbols.
 In the metalanguage the expressions of $L$ are objects: the metalanguage has names for them (quotations), variables that range over them (metavariables), and predicates about them, such as "is a formula" or "is a theorem".
-A theorem of a [[formal system|~113060c3]] is a formula of the object language with a derivation, while a metatheorem is a statement of the metalanguage about the system, proved by ordinary mathematics.
+A theorem of a [[formal system|439M8B4DY2]] is a formula of the object language with a derivation, while a metatheorem is a statement of the metalanguage about the system, proved by ordinary mathematics.
 The distinction matters because it keeps statements about formulas apart from the formulas themselves, which avoids confusions and paradoxes such as the liar.
 
 ## Motivation
@@ -68,7 +68,7 @@ So '$(\varphi \to \psi)$' names a string of five symbols that contains Greek let
 A quasi-quotation $\ulcorner (\varphi \to \psi) \urcorner$ names a formula of $L$ that depends on the values of the metavariables.
 If $\varphi$ is $p$ and $\psi$ is $(q \wedge r)$, then $\ulcorner (\varphi \to \psi) \urcorner$ is the formula $(p \to (q \wedge r))$.
 Quasi-quotation lets us state rules and schemas, such as "for all formulas $\varphi$, the formula $\ulcorner (\varphi \to \varphi) \urcorner$ is a theorem".
-The [[worked example|~8fccb51d]] checks these computations symbol by symbol.
+The [[worked example|J3JB3N4K4A]] checks these computations symbol by symbol.
 
 ### Metavariables and schemas
 
@@ -81,19 +81,19 @@ The same holds for a [[rule of inference|QPD3X471Q1]] such as modus ponens, "fro
 A theorem of a formal system $S$ is a formula of $L$, for example $p \to p$ in a [[Hilbert system|1MGMQX43B8]].
 A metatheorem is a statement about $S$, proved in the metalanguage, usually by induction on formulas or on derivations.
 The [[deduction theorem|9X08XK5RV2]] is a metatheorem: if $\Gamma \cup \set{\varphi} \vdash \psi$, then $\Gamma \vdash \varphi \to \psi$.
-Other metatheorems are the [[soundness|4A84VHDTHV]] of a proof system, [[Gödel's completeness theorem|WQ1ZE255SF]], the consistency of a system, and the fact that $MU$ is not a theorem of the [[MIU system|~9a65847b]].
-The [[example of a Hilbert system|~4dd953f8]] sorts the symbols of a theorem and of a metatheorem into the two levels.
+Other metatheorems are the [[soundness|4A84VHDTHV]] of a proof system, [[Gödel's completeness theorem|WQ1ZE255SF]], the consistency of a system, and the fact that $MU$ is not a theorem of the [[MIU system|PMN32E37BW]].
+The [[example of a Hilbert system|SKJFMANQTW]] sorts the symbols of a theorem and of a metatheorem into the two levels.
 
 ### Examples
 
-- [[Theorems and metatheorems of a Hilbert system|~4dd953f8]]: the object language is propositional logic, and the metalanguage is English with Greek metavariables and the turnstile.
-- [[Quotation and quasi-quotation of formulas|~8fccb51d]]: the corners build formulas of $L$ from the values of metavariables.
+- [[Theorems and metatheorems of a Hilbert system|SKJFMANQTW]]: the object language is propositional logic, and the metalanguage is English with Greek metavariables and the turnstile.
+- [[Quotation and quasi-quotation of formulas|J3JB3N4K4A]]: the corners build formulas of $L$ from the values of metavariables.
 - First-order arithmetic studied in set theory: the sentence $\forall x\, (x + 0 = x)$ belongs to the object language, and "$\mathsf{PA} \vdash \forall x\, (x + 0 = x)$" belongs to the metalanguage.
 - Arithmetic as a metalanguage of its own syntax: by [[Gödel numbering|MFJXPAF0R0]], the property "$\varphi$ is provable in $\mathsf{PA}$" is expressed by a formula $\mathrm{Prov}(x)$ of the object language.
 
 ### Non-examples
 
-- [[Arithmetic as the metalanguage of its own truth|~12208d7c]] fails: no formula of arithmetic defines the true sentences of arithmetic, by [[Tarski's undefinability theorem|YRV6SYK2BY]].
+- [[Arithmetic as the metalanguage of its own truth|NJ1RCSBQ27]] fails: no formula of arithmetic defines the true sentences of arithmetic, by [[Tarski's undefinability theorem|YRV6SYK2BY]].
 - A translation from French into English is not a pair of object language and metalanguage. "Snow is white" translates "La neige est blanche", but it says nothing about French words.
 - A string that mixes the levels, such as $p \to {\vdash} q$, belongs to neither language: $\vdash$ is not a symbol of $L$, and the string is not a sentence of the metalanguage.
 
@@ -148,5 +148,5 @@ The two results together show that syntax can be internalized and truth cannot.
 
 The distinction is the same as the one between a programming language and the language in which its interpreter is written, and between a logic and a logical framework that encodes it.
 In a framework such as the Edinburgh logical framework, the object logic is encoded as a signature of a type theory.
-Metatheorems of the object logic then become constructions in the framework, as described on the page on [[abstract logical systems|~b4428343]].
+Metatheorems of the object logic then become constructions in the framework, as described on the page on [[abstract logical systems|RQXV7PM2WT]].
 In [[proof theory|N4EDJNMTEF]] the strength of the metatheory matters: Hilbert's program asked for consistency proofs in a weak finitary metatheory, and Gentzen's proof for arithmetic used induction up to the ordinal $\varepsilon_0$ in the metatheory.

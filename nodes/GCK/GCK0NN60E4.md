@@ -51,21 +51,21 @@ Some books call the result a *definitional extension*.
 
 ### Examples
 
-- In [[Peano arithmetic|0QFT7Z76N5]], the [[order relation defined from addition|~75c207fa]] is an extension by definitions, and $\forall x \, (0 \le x)$ translates to an arithmetic sentence that PA proves.
-- In group theory with the language $\set{\cdot, e}$, the [[inverse function symbol|~96859b6c]] can be defined, because each element has exactly one inverse.
+- In [[Peano arithmetic|0QFT7Z76N5]], the [[order relation defined from addition|GBG2F2PWJ3]] is an extension by definitions, and $\forall x \, (0 \le x)$ translates to an arithmetic sentence that PA proves.
+- In group theory with the language $\set{\cdot, e}$, the [[inverse function symbol|SZRQRQ5FE9]] can be defined, because each element has exactly one inverse.
 - In ZF, the constant $\varnothing$ is defined by $\psi(y) = \forall x \, (x \notin y)$; existence follows from the axioms, and uniqueness from extensionality.
 - In ZF, $x \subseteq y$ is defined by $\forall z \, (z \in x \to z \in y)$; no condition is needed for a relation symbol.
 - In the theory of fields, a function symbol for the multiplicative inverse cannot be defined by $x \cdot y = 1$, because $0$ has no inverse; the definiens $(x \neq 0 \land x \cdot y = 1) \lor (x = 0 \land y = 0)$ works, with the convention $0^{-1} = 0$.
 
 ### Non-examples
 
-- A [[square root symbol over the theory of fields|~c70bac1c]] with the axiom $\forall x \, (s(x) \cdot s(x) = x)$ is not an extension by definitions: square roots need not exist, and they are not unique. The extension proves the new $L$-sentence $\exists y \, (y \cdot y = 1 + 1)$.
+- A [[square root symbol over the theory of fields|ZC5ZTHCPKH]] with the axiom $\forall x \, (s(x) \cdot s(x) = x)$ is not an extension by definitions: square roots need not exist, and they are not unique. The extension proves the new $L$-sentence $\exists y \, (y \cdot y = 1 + 1)$.
 - Adding a constant $c$ with the axiom $c \neq 0$ to Peano arithmetic is not an extension by definitions, because $c$ has no unique description. It is still conservative, by the [[test with expansions of models|N238J43XNE]], but $c$ cannot be eliminated.
 - A definition of $f$ with the axiom $\forall \bar x \, \forall y \, (f(\bar x) = y \leftrightarrow \psi(\bar x, y))$, when $T$ proves existence but not uniqueness, can be inconsistent. In the pure language of equality, with $T = \set{\exists x \, \exists y \, (x \neq y)}$ and $\psi(y) = (y = y)$, the axiom says $\forall y \, (c = y)$.
 
 ### Basic properties
 
-The main theorem is that [[extensions by definitions are conservative|~763823dc]], with the following parts.
+The main theorem is that [[extensions by definitions are conservative|QSCE4HJEZ7]], with the following parts.
 
 - Every model of $T$ has exactly one expansion to a model of $T'$: the new symbols must be interpreted by the sets and functions that their definitions [[define|CY1TXHF6KQ]].
 - Conservativity: for each $L$-sentence $\sigma$, $T' \vdash \sigma$ exactly when $T \vdash \sigma$.

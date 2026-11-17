@@ -59,15 +59,15 @@ The interpretation is required to satisfy $S \vdash \exists x \, \delta(x)$, $S 
 
 ### Examples
 
-- [[Hyperbolic geometry is consistent relative to Euclidean geometry|~caf25e34]], by the Beltrami-Klein model inside a disk of the Euclidean plane.
-- [[ZFC together with GCH is consistent relative to ZF|~4a83d07d]], by Gödel's interpretation of set theory in the [[constructible universe|6TF2JBTPPJ]].
+- [[Hyperbolic geometry is consistent relative to Euclidean geometry|PVW9DJASNJ]], by the Beltrami-Klein model inside a disk of the Euclidean plane.
+- [[ZFC together with GCH is consistent relative to ZF|J3F0KBH6JT]], by Gödel's interpretation of set theory in the [[constructible universe|6TF2JBTPPJ]].
 - Euclidean geometry is consistent relative to the theory of the real numbers, by coordinates. Hilbert's *Grundlagen der Geometrie* of 1899 used a model of this kind.
 - Peano arithmetic is consistent relative to ZF, because the finite von Neumann ordinals interpret PA. If ZF is consistent, PA does not prove $\mathrm{Con}(\mathsf{PA}) \to \mathrm{Con}(\mathsf{ZF})$, because ZF proves $\mathrm{Con}(\mathsf{PA})$.
 - $\mathsf{ZF} + \lnot\mathsf{CH}$ is consistent relative to ZF, by [[Cohen's independence proof|EMGBZ46GCD]]. The method of [[forcing|F2DTWW9HP7]] gives a syntactic relative consistency proof, although its motivating picture uses a model.
 
 ### Non-examples
 
-- [[A relative consistency proof of PA plus Con(PA) from PA in PRA|~d5c2d3ad]] does not exist: the second incompleteness theorem forbids it.
+- [[A relative consistency proof of PA plus Con(PA) from PA in PRA|WF7S5N12DM]] does not exist: the second incompleteness theorem forbids it.
 - ZFC plus "there is an inaccessible cardinal" is not provably consistent relative to ZFC in ZFC, if it is consistent. The stronger theory proves $\mathrm{Con}(\mathsf{ZFC})$, and the same argument applies.
 - A model of $T$ that is built from an assumption stronger than $\mathrm{Con}(S)$, for example from the existence of a transitive set model of ZF, gives a weaker result: consistency relative to that stronger assumption.
 

@@ -20,7 +20,7 @@ Reasoning and proof, model theory, set theory, computability theory, and type th
 ### What the area is about
 
 Mathematical logic studies the reasoning of mathematics with the methods of mathematics.
-Its objects are [[formal languages|5MFZ4VNY6D]], the [[formal systems|~113060c3]] that derive formulas of these languages, and the [[structures|983GZBQYT4]] in which the formulas are true or false.
+Its objects are [[formal languages|5MFZ4VNY6D]], the [[formal systems|439M8B4DY2]] that derive formulas of these languages, and the [[structures|983GZBQYT4]] in which the formulas are true or false.
 The area asks what can be expressed in a language, what can be proved in a system, and how proof and truth are related.
 
 Logic has two roles in mathematics.
@@ -72,7 +72,7 @@ Alonzo Church and Alan Turing showed in 1936 that first-order validity is undeci
 After 1950 the four branches grew into separate fields.
 Saul Kripke and others gave a semantics for modal and intuitionistic logic in the late 1950s and the 1960s.
 Paul Cohen invented forcing in 1963 and proved that the [[continuum hypothesis|0MN2MER9WN]] does not follow from the axioms of ZFC.
-The [[history of mathematical logic|~060dac5f]] gives a longer account.
+The [[history of mathematical logic|WP3602P9EH]] gives a longer account.
 
 ### How to read the area
 

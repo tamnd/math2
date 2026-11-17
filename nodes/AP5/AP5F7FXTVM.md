@@ -5,7 +5,7 @@ name: Finitary formal system
 msc: ["03B22", "03F03"]
 topics: [H8QZY0RZXZ]
 audience: ug2
-uses: [~113060c3]
+uses: [439M8B4DY2]
 sources:
   - wikipedia: en:76765067@r1368301704
     locator: Glossary of logic, section F
@@ -21,7 +21,7 @@ inventory: [WT89R0X3F7]
 
 ## Summary
 
-A finitary formal system is a [[formal system|~113060c3]] in which every formula is a finite string over its alphabet.
+A finitary formal system is a [[formal system|439M8B4DY2]] in which every formula is a finite string over its alphabet.
 Every rule of inference has finitely many premises, and every derivation is a finite sequence of formulas.
 In addition, it must be decidable whether a string is a formula, whether a formula is an axiom and whether a step is an instance of a rule.
 On these pages "formal system" means a finitary formal system unless the contrary is said, and the main page for the idea is the one linked above.

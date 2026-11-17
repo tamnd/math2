@@ -75,15 +75,15 @@ Form 2 is then the more useful notion, and it is called [[Post consistency|WK2P0
 
 ### Examples
 
-- The set $\set{p \lor q, \; p \to r, \; \lnot q}$ of propositional formulas is consistent, because the [[valuation that makes p and r true and q false|~aef25ac3]] satisfies it.
-- The axioms of groups together with $\exists x \, \exists y \, (x y \neq y x)$ form a consistent theory, because the [[symmetric group on three letters is a model|~adec1566]].
+- The set $\set{p \lor q, \; p \to r, \; \lnot q}$ of propositional formulas is consistent, because the [[valuation that makes p and r true and q false|WTRZG7SQM2]] satisfies it.
+- The axioms of groups together with $\exists x \, \exists y \, (x y \neq y x)$ form a consistent theory, because the [[symmetric group on three letters is a model|WATWZWV11Q]].
 - The empty theory is consistent, because every structure is a model of it.
 - [[Peano arithmetic|0QFT7Z76N5]] is consistent, because the natural numbers with their usual operations form a model. This argument assumes the set $\N$ as a completed object, so it does not satisfy a finitist.
 - The three axioms of [[a four-point geometry|MJ5S28Y5WV]] are consistent, because the six edges of a complete graph on four vertices form a model.
 
 ### Non-examples
 
-- The set $\set{p, \; p \to q, \; \lnot q}$ is [[inconsistent|~6b80ee76]]: modus ponens derives $q$, and $\lnot q$ is a member.
+- The set $\set{p, \; p \to q, \; \lnot q}$ is [[inconsistent|HYMTN6457G]]: modus ponens derives $q$, and $\lnot q$ is a member.
 - The theory $\set{\forall x \, \forall y \, (x = y), \; \exists x \, \exists y \, (x \neq y)}$ is inconsistent: the second axiom is the negation of the first, up to logical equivalence.
 - Naive set theory with the axiom $\exists y \, \forall x \, (x \in y)$ and the separation schema of [[ZF|0HE5WDQ9FJ]] is inconsistent. Separation gives the set $r = \set{x \in y : x \notin x}$, and then $r \in r$ holds exactly when $r \notin r$.
 

@@ -5,7 +5,7 @@ name: Syllogistic moods
 msc: ["03B10", "03-03"]
 topics: [H8QZY0RZXZ]
 audience: school
-uses: [~566128b7, S4BTTGFR6J, KSJ9W29KXQ, 0KCT6DPXJK]
+uses: [MZBNX2T6Q6, S4BTTGFR6J, KSJ9W29KXQ, 0KCT6DPXJK]
 sources:
   - wikipedia: en:76765067@r1368301704
     locator: Glossary of logic, section S
@@ -33,7 +33,7 @@ The moods matter because they turn the question "is this argument valid" into a 
 
 ## Motivation
 
-A [[categorical syllogism|~566128b7]] is fixed by two pieces of data: the kinds of its three propositions and the places of its middle term.
+A [[categorical syllogism|MZBNX2T6Q6]] is fixed by two pieces of data: the kinds of its three propositions and the places of its middle term.
 Once the terms are replaced by letters, only finitely many forms remain.
 So one can list all forms once and decide for each of them whether it is valid.
 The list of valid moods was the working tool of logic for many centuries.
@@ -66,13 +66,13 @@ The letter m says that the premises are exchanged, and the letter c in Baroco an
 ### Examples
 
 - [[Barbara|AC6XQ4KRNT]], AAA-1: all $M$ are $P$, all $S$ are $M$, so all $S$ are $P$. It is valid in both readings.
-- [[Darapti and existential import|~0d4be098]], AAI-3: all $M$ are $P$, all $M$ are $S$, so some $S$ are $P$. It is valid in the traditional reading and fails in the modern reading when $M$ is empty.
-- [[Dimatis|~975135d4]], IAI-4: some $P$ are $M$, all $M$ are $S$, so some $S$ are $P$. It is valid in both readings, and it reduces to Darii.
-- The [[undistributed middle|~a7484779]], AAA-2, is a mood that is not valid. The same letters AAA give Barbara in the first figure, so validity depends on the figure as well as on the mood.
+- [[Darapti and existential import|ARGGZ9N2SV]], AAI-3: all $M$ are $P$, all $M$ are $S$, so some $S$ are $P$. It is valid in the traditional reading and fails in the modern reading when $M$ is empty.
+- [[Dimatis|CBM4330BRB]], IAI-4: some $P$ are $M$, all $M$ are $S$, so some $S$ are $P$. It is valid in both readings, and it reduces to Darii.
+- The [[undistributed middle|F8BP8S0RYG]], AAA-2, is a mood that is not valid. The same letters AAA give Barbara in the first figure, so validity depends on the figure as well as on the mood.
 
 ### Non-examples
 
-- [[Modus ponens is not a categorical syllogism|~de9693b0]]: "if $n$ is divisible by $4$ then $n$ is even; $12$ is divisible by $4$; so $12$ is even" has no mood. Its premises are a conditional and a singular sentence, not categorical propositions.
+- [[Modus ponens is not a categorical syllogism|E72YM7QK6X]]: "if $n$ is divisible by $4$ then $n$ is even; $12$ is divisible by $4$; so $12$ is even" has no mood. Its premises are a conditional and a singular sentence, not categorical propositions.
 - The list AAAA does not describe a syllogism. A mood has exactly three letters, one for each of the two premises and the conclusion.
 - "All squares are rectangles, so some rectangles are squares" is a single A premise with an I conclusion. It is an immediate inference, not a syllogism, and it has no mood.
 
@@ -136,7 +136,7 @@ The trap is a cross on a line: if a particular premise leaves two regions possib
 The list of valid moods is the output of a finite search, and it is a model for later decision procedures.
 A form of [[monadic predicate logic|SERN6CRVWW]] in three predicates is valid exactly when it holds in all $2^8 = 256$ ways to choose which of the $8$ regions are non-empty.
 Running this search over the $256$ forms gives the $15$ modern valid forms, and restricting it to models where $S$, $M$ and $P$ are non-empty gives the $24$ traditional ones.
-The difference of $9$ forms is exactly the effect of existential import, as on the [[square of opposition|~4442a383]].
+The difference of $9$ forms is exactly the effect of existential import, as on the [[square of opposition|VYNBSVZ2TH]].
 
 The names are also a small proof system.
 Each name is a derivation of the mood from the four axioms Barbara, Celarent, Darii and Ferio, using conversion, exchange of premises and reduction to contradiction as rules.

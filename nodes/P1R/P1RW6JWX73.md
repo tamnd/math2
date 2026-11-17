@@ -5,7 +5,7 @@ name: Hilbert's program
 msc: ["03A05", "03F25", "03F30"]
 topics: [H8QZY0RZXZ]
 audience: ug2
-uses: [46JCQ6KDA4, 0QFT7Z76N5, ~113060c3, VM8TQ70CVJ, N238J43XNE, X9WYNYE29C]
+uses: [46JCQ6KDA4, 0QFT7Z76N5, 439M8B4DY2, VM8TQ70CVJ, N238J43XNE, X9WYNYE29C]
 about: [EFFRJFW67Y]
 sources:
   - url: https://en.wikipedia.org/wiki/Hilbert's_program
@@ -27,7 +27,7 @@ history:
 
 Hilbert's program asks for two things.
 
-1. Formalization: write all of classical mathematics as a [[formal system|~113060c3]] $T$, with a finite alphabet, decidable sets of axioms and rules of inference, and a decidable notion of proof.
+1. Formalization: write all of classical mathematics as a [[formal system|439M8B4DY2]] $T$, with a finite alphabet, decidable sets of axioms and rules of inference, and a decidable notion of proof.
 2. Finitary consistency: prove, by finitary means only, that $T$ is [[consistent|VM8TQ70CVJ]], that is, that no formula $\varphi$ has both $T \vdash \varphi$ and $T \vdash \neg \varphi$.
 
 A proof is finitary when it reasons only about finite, concretely given objects, such as strings of symbols and natural numbers, by steps that can be checked in a finite number of operations.

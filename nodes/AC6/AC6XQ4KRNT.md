@@ -5,7 +5,7 @@ name: Barbara
 msc: ["03B10", "03-03"]
 topics: [H8QZY0RZXZ]
 audience: school
-uses: [~566128b7, S4BTTGFR6J, 1TD6HRM5NG, KSJ9W29KXQ, 0BJR9QR08E, 0GHS47PDAQ, 7MT8CPCEM4]
+uses: [MZBNX2T6Q6, S4BTTGFR6J, 1TD6HRM5NG, KSJ9W29KXQ, 0BJR9QR08E, 0GHS47PDAQ, 7MT8CPCEM4]
 sources:
   - wikipedia: en:76765067@r1368301704
     locator: Glossary of logic, section B
@@ -21,7 +21,7 @@ inventory: [3NW0EMK79W]
 
 Barbara is the categorical syllogism of mood AAA in the first figure, written AAA-1.
 Its form is: all $M$ are $P$, all $S$ are $M$, therefore all $S$ are $P$.
-All three propositions are universal affirmatives, the A propositions of [[syllogistic|~566128b7]].
+All three propositions are universal affirmatives, the A propositions of [[syllogistic|MZBNX2T6Q6]].
 Barbara is valid: whenever both premises are true, the conclusion is true.
 In the language of sets it says that $S \subseteq M$ and $M \subseteq P$ give $S \subseteq P$.
 
@@ -49,12 +49,12 @@ The label AAA-1 gives the mood and the [[figure|S4BTTGFR6J]].
 
 ### Examples
 
-- [[Barbara for squares, rectangles and parallelograms|~943d5024]]: the syllogism is checked to be AAA-1 and proved valid in three ways.
-- [[A chain of divisibility facts by Barbara|~84f820f1]]: two uses of Barbara in a row prove that every multiple of $12$ has a digit sum divisible by $3$.
+- [[Barbara for squares, rectangles and parallelograms|RKJG1VXH8E]]: the syllogism is checked to be AAA-1 and proved valid in three ways.
+- [[A chain of divisibility facts by Barbara|ZSEGKSZK6Y]]: two uses of Barbara in a row prove that every multiple of $12$ has a digit sum divisible by $3$.
 
 ### Non-examples
 
-- [[The fallacy of the undistributed middle|~a7484779]]: "all $P$ are $M$, all $S$ are $M$, so all $S$ are $P$" has the mood AAA but the second figure. It is invalid.
+- [[The fallacy of the undistributed middle|F8BP8S0RYG]]: "all $P$ are $M$, all $S$ are $M$, so all $S$ are $P$" has the mood AAA but the second figure. It is invalid.
 - "All $M$ are $P$, all $M$ are $S$, so all $S$ are $P$" (AAA-3) is invalid. The multiples of $4$ are even and are integers, but not every integer is even.
 
 ### Basic properties

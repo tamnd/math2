@@ -5,7 +5,7 @@ name: Syllogistic figures
 msc: ["03B10", "03-03"]
 topics: [H8QZY0RZXZ]
 audience: school
-uses: [~566128b7, KSJ9W29KXQ]
+uses: [MZBNX2T6Q6, KSJ9W29KXQ]
 sources:
   - wikipedia: en:76765067@r1368301704
     locator: Glossary of logic, section S
@@ -37,7 +37,7 @@ Figures matter because validity depends on them: the same three letters can give
 The words "all", "no", "some" and "not" do not determine an argument alone.
 "All $M$ are $P$, all $S$ are $M$, so all $S$ are $P$" is valid, but "all $P$ are $M$, all $S$ are $M$, so all $S$ are $P$" is not.
 Both have three A propositions; they differ only in the place of the middle term.
-To list the valid [[syllogisms|~566128b7]], one must therefore sort them by this place as well as by the kinds of propositions.
+To list the valid [[syllogisms|MZBNX2T6Q6]], one must therefore sort them by this place as well as by the kinds of propositions.
 The figures are this sorting.
 
 ## Notation
@@ -60,14 +60,14 @@ Some authors list the minor premise first; then the scheme of the first and the 
 ### Examples
 
 - First figure: [[Barbara|AC6XQ4KRNT]], "all $M$ are $P$, all $S$ are $M$, so all $S$ are $P$". The middle term is the subject of the major premise and the predicate of the minor premise.
-- Second figure: Camestres, "all $P$ are $M$, no $S$ is $M$, so no $S$ is $P$"; see [[the reduction of Camestres to Celarent|~e536545c]]. With $P$ the squares, $M$ the rectangles and $S$ the triangles, it says that no triangle is a square.
+- Second figure: Camestres, "all $P$ are $M$, no $S$ is $M$, so no $S$ is $P$"; see [[the reduction of Camestres to Celarent|TKW0RRHV88]]. With $P$ the squares, $M$ the rectangles and $S$ the triangles, it says that no triangle is a square.
 - Third figure: Disamis, "some $M$ are $P$, all $M$ are $S$, so some $S$ are $P$". With $M$ the primes, $P$ the odd numbers and $S$ the integers greater than $1$, it says that some integers greater than $1$ are odd.
-- Third figure with existential import: [[Darapti|~0d4be098]], "all $M$ are $P$, all $M$ are $S$, so some $S$ are $P$", valid only when $M$ is not empty.
-- Fourth figure: [[Dimatis|~975135d4]], "some $P$ are $M$, all $M$ are $S$, so some $S$ are $P$".
+- Third figure with existential import: [[Darapti|ARGGZ9N2SV]], "all $M$ are $P$, all $M$ are $S$, so some $S$ are $P$", valid only when $M$ is not empty.
+- Fourth figure: [[Dimatis|CBM4330BRB]], "some $P$ are $M$, all $M$ are $S$, so some $S$ are $P$".
 
 ### Non-examples
 
-- [[An argument with four terms|~091b9761]] has no figure. No term occurs in both premises, so there is no middle term whose place could be read.
+- [[An argument with four terms|S174DQ9N4T]] has no figure. No term occurs in both premises, so there is no middle term whose place could be read.
 - A chain such as "all squares are rhombuses, all rhombuses are parallelograms, all parallelograms are quadrilaterals, so all squares are quadrilaterals" has three premises. It has no figure, because a figure is defined for exactly two premises; it splits into two syllogisms of the first figure.
 - "All squares are rectangles, so some rectangles are squares" is an inference from one premise, a conversion. It has no middle term and no figure.
 

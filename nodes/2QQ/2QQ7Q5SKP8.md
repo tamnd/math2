@@ -6,7 +6,7 @@ aliases: [constant-logic, logical-constants]
 msc: ["03A05", "03C80"]
 topics: [H8QZY0RZXZ]
 audience: research
-uses: [~113060c3, 1HK0VYWTV7, 983GZBQYT4, 05RWFKVTJ7, XJSQVK0G71]
+uses: [439M8B4DY2, 1HK0VYWTV7, 983GZBQYT4, 05RWFKVTJ7, XJSQVK0G71]
 sources:
   - url: https://en.wikipedia.org/wiki/Logical_constant
     locator: lead section
@@ -62,8 +62,8 @@ This form of the criterion is called isomorphism invariance, and the resulting v
 ### What the criterion gives
 
 - No individual object is logical when $D$ has at least two elements, because a permutation can move it.
-- On a domain with at least two elements, exactly four binary relations are permutation invariant: the empty relation, [[identity|~af96551d]], diversity and the full relation.
-- The invariant sets of subsets of $D$, that is, the invariant unary quantifiers, are exactly those whose truth for a set $X$ depends only on the cardinalities of $X$ and of $D \setminus X$. See [[cardinality quantifiers are permutation invariant|~e69c3652]].
+- On a domain with at least two elements, exactly four binary relations are permutation invariant: the empty relation, [[identity|CX9MEPJF9D]], diversity and the full relation.
+- The invariant sets of subsets of $D$, that is, the invariant unary quantifiers, are exactly those whose truth for a set $X$ depends only on the cardinalities of $X$ and of $D \setminus X$. See [[cardinality quantifiers are permutation invariant|HPA3BKNZE1]].
 - So $\forall$ (the complement of $X$ is empty), $\exists$ ($X$ is nonempty), "there are at least two", "there are infinitely many" and "most" are logical by the criterion.
 - The truth-functional connectives are logical, because they act on truth values and not on objects.
 
@@ -86,14 +86,14 @@ This links logicality with [[conservative extensions|N238J43XNE]] and with the n
 
 ### Examples
 
-- The identity relation is logical in Tarski's sense: every permutation maps a pair $(a, a)$ to a pair $(\pi(a), \pi(a))$, see [[the identity relation is permutation invariant|~af96551d]].
-- The quantifier "there are infinitely many" is logical in Tarski's sense, because a permutation preserves the cardinality of each set, see [[cardinality quantifiers are permutation invariant|~e69c3652]].
+- The identity relation is logical in Tarski's sense: every permutation maps a pair $(a, a)$ to a pair $(\pi(a), \pi(a))$, see [[the identity relation is permutation invariant|CX9MEPJF9D]].
+- The quantifier "there are infinitely many" is logical in Tarski's sense, because a permutation preserves the cardinality of each set, see [[cardinality quantifiers are permutation invariant|HPA3BKNZE1]].
 - Conjunction is logical in the proof-theoretic sense: its introduction rule and its two elimination rules are in harmony.
 - The relation "$x$ and $y$ are different" is logical, because it is the complement of identity.
 
 ### Non-examples
 
-- The order $<$ on the natural numbers is not logical: the permutation that swaps $0$ and $1$ maps the pair $(0, 1)$ in $<$ to the pair $(1, 0)$, which is not in $<$, see [[the order of the natural numbers is not a logical notion|~fdf3de25]].
+- The order $<$ on the natural numbers is not logical: the permutation that swaps $0$ and $1$ maps the pair $(0, 1)$ in $<$ to the pair $(1, 0)$, which is not in $<$, see [[the order of the natural numbers is not a logical notion|9WVJK3DWAN]].
 - The membership relation $\in$ of set theory is not logical by the criterion, because a permutation of the sets can break it; this is why set theory is a theory and not part of logic on this view.
 - Prior's "tonk" is not logical in the proof-theoretic sense, because its rules are not in harmony.
 
