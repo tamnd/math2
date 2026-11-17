@@ -12,6 +12,11 @@ same_as:
   wikidata: Q5005255
   wikipedia: Büchi arithmetic
 inventory: [BREWC4FKAS]
+retired:
+  date: 2026-11-17
+  reason: merged
+  successor: [~2828a43b]
+  note: "The page has a different kind now, so it moves to a new node."
 ---
 
 ## Summary

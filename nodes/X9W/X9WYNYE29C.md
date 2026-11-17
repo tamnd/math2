@@ -29,7 +29,7 @@ Proof idea for 2: the argument for "if $T$ is consistent then $T \nvdash G$" can
 
 The hypotheses matter.
 The theory of the true sentences of $\N$ is complete and consistent, but its axioms are not computably enumerable.
-[[Presburger arithmetic|B66JYY3K58]], with addition but no multiplication, is consistent, computably axiomatized and complete.
+[[Presburger arithmetic|~14d8268c]], with addition but no multiplication, is consistent, computably axiomatized and complete.
 
 ## Explanations
 
