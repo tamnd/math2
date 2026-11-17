@@ -18,22 +18,22 @@ The training of problem solving for contests is a subject of its own, in [[probl
 
 ### Reading order
 
-1. [[Heuristics in mathematics|~fd7a5df5]]: rules of thumb for finding solutions and proofs, and how they differ from algorithms and proofs.
-2. [[Pólya's four steps|~e58f9baf]]: understand the problem, devise a plan, carry out the plan, look back.
-3. [[Analogy|~02ce22ff]]: solve a similar problem first, and transfer methods between areas such as integers and polynomials.
-4. [[Specialization|~701d4f5c]]: small cases, extreme cases and special values, to find a pattern or to refute a claim.
-5. [[Generalization as a heuristic|~478f3b5e]]: solve a more general problem, often by introducing a parameter.
-6. [[Inventor's paradox|~aaa3fffe]]: the more ambitious problem can be the easier one.
-7. [[Working backwards|~4d7ce252]]: start from the goal, as in Pappus's analysis and synthesis.
-8. [[Auxiliary problem|~a5a06d23]]: solve a related, easier or equivalent problem first.
-9. [[Auxiliary elements|~fbc26a8c]]: add a line, a variable or a function to make the problem accessible.
-10. [[Decomposing and recombining|~8b9406d8]]: split the problem into parts and combine the partial results.
-11. [[Variation of the problem|~9b655a34]]: change the data, the condition or the unknown.
-12. [[Draw a figure and introduce notation|~d39dfb22]]: a figure, good names and a good choice of coordinates.
-13. [[Proofs and refutations|~deab029f]]: Lakatos's account of how counterexamples refine a theorem and its concepts.
-14. [[Mathematical intuition|~7a3195db]]: intuition as a guide and as a risk.
-15. [[Psychology of mathematical invention|~b7d7d194]]: Poincaré and Hadamard on preparation, incubation, illumination and verification.
-16. [[Problem posing|~71594150]]: new problems from a solved one, and the "what if not" strategy.
+1. [[Heuristics in mathematics|6KCEWEP4WA]]: rules of thumb for finding solutions and proofs, and how they differ from algorithms and proofs.
+2. [[Pólya's four steps|DYD57G2Y5Z]]: understand the problem, devise a plan, carry out the plan, look back.
+3. [[Analogy|7KDT0R1HF2]]: solve a similar problem first, and transfer methods between areas such as integers and polynomials.
+4. [[Specialization|FTBJX4G51S]]: small cases, extreme cases and special values, to find a pattern or to refute a claim.
+5. [[Generalization as a heuristic|8NJ0VN9Z97]]: solve a more general problem, often by introducing a parameter.
+6. [[Inventor's paradox|FVRKDXBJF6]]: the more ambitious problem can be the easier one.
+7. [[Working backwards|3QTB9S1THS]]: start from the goal, as in Pappus's analysis and synthesis.
+8. [[Auxiliary problem|DYSJB93V11]]: solve a related, easier or equivalent problem first.
+9. [[Auxiliary elements|8TKKRAXKFN]]: add a line, a variable or a function to make the problem accessible.
+10. [[Decomposing and recombining|KEZPDNM2NH]]: split the problem into parts and combine the partial results.
+11. [[Variation of the problem|KT5SASGTQ5]]: change the data, the condition or the unknown.
+12. [[Draw a figure and introduce notation|6CVYB413ER]]: a figure, good names and a good choice of coordinates.
+13. [[Proofs and refutations|79P9CTRN0V]]: Lakatos's account of how counterexamples refine a theorem and its concepts.
+14. [[Mathematical intuition|4BT08RE4CR]]: intuition as a guide and as a risk.
+15. [[Psychology of mathematical invention|XMGGTNSTYC]]: Poincaré and Hadamard on preparation, incubation, illumination and verification.
+16. [[Problem posing|Y896GWYF8A]]: new problems from a solved one, and the "what if not" strategy.
 
 ### Prerequisites
 
