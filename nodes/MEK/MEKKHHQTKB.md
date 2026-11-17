@@ -15,19 +15,19 @@ It covers the standard forms of argument for goals that occur in every course, s
 
 ### Reading order
 
-1. [[Set equality by double inclusion|~b9b86114]]: prove $A \subseteq B$ and $B \subseteq A$.
-2. [[Proving injectivity and surjectivity|~250c2090]]: the two standard proof templates for a function.
-3. [[Proving a relation is an equivalence relation|~0d0aebf3]]: the three checks, or a function whose fibres are the classes.
-4. [[Equality by two inequalities|~b6ef06e4]]: prove $a \le b$ and $b \le a$.
-5. [[Proving identities|~b1f6f9b7]]: transform one side into the other, or both sides into a common form.
-6. [[Writing epsilon-delta proofs|~925b8c9e]]: find $\delta$ in scratch work, then write the proof forwards.
-7. [[Epsilon over three argument|~9f05a67c]]: split one estimate into three small terms.
-8. [[Density argument|~01a2efee]]: prove a result on a dense set and extend it by continuity.
-9. [[Symmetry arguments|~dfa60ea2]]: use a symmetry to reduce the work.
-10. [[Reduction to a special case|~472d0870]]: prove a normalized case and transfer it to the general case.
-11. [[Open-closed argument|~d440d524]]: a non-empty set that is open and closed in a connected space is the whole space.
-12. [[Bootstrapping|~57b93b38]]: use a weak estimate to obtain a stronger one.
-13. [[Proof by algorithm|~dc60f766]]: a procedure that stops and gives a correct output proves that the output exists.
+1. [[Set equality by double inclusion|MKHVRNW68H]]: prove $A \subseteq B$ and $B \subseteq A$.
+2. [[Proving injectivity and surjectivity|DD2P85Y8E9]]: the two standard proof templates for a function.
+3. [[Proving a relation is an equivalence relation|RGNF33GVHX]]: the three checks, or a function whose fibres are the classes.
+4. [[Equality by two inequalities|S3QADD13E9]]: prove $a \le b$ and $b \le a$.
+5. [[Proving identities|XP5SDYKJX0]]: transform one side into the other, or both sides into a common form.
+6. [[Writing epsilon-delta proofs|RXG5JTZ2PZ]]: find $\delta$ in scratch work, then write the proof forwards.
+7. [[Epsilon over three argument|VXV7M0QDH6]]: split one estimate into three small terms.
+8. [[Density argument|J2J35J3055]]: prove a result on a dense set and extend it by continuity.
+9. [[Symmetry arguments|H840D9TM2X]]: use a symmetry to reduce the work.
+10. [[Reduction to a special case|DX2H7AD66G]]: prove a normalized case and transfer it to the general case.
+11. [[Open-closed argument|1JJCDJB7FM]]: a non-empty set that is open and closed in a connected space is the whole space.
+12. [[Bootstrapping|YKA0ADKYFR]]: use a weak estimate to obtain a stronger one.
+13. [[Proof by algorithm|X5HG1RNWQX]]: a procedure that stops and gives a correct output proves that the output exists.
 
 ### Prerequisites
 

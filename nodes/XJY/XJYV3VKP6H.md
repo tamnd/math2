@@ -1,0 +1,60 @@
+---
+tag: XJYV3VKP6H
+kind: example
+name: Symmetry does not place an extremum at the symmetric point
+msc: ["00A35", "26B12"]
+topics: [MEKKHHQTKB]
+audience: school
+not_instance_of:
+  - target: H840D9TM2X
+    note: the problem has two extremal points that the symmetry exchanges, so symmetry does not force the extremum to the fixed point
+uses: [H840D9TM2X]
+sources:
+  - url: https://en.wikipedia.org/wiki/Symmetry_in_mathematics
+    locator: lead section
+  - book: isbn:9780691164076
+    locator: Part III
+---
+
+## Example
+
+Let $F(x, y) = x^2 + y^2$ on the segment
+$$K = \{(x, y) \in \mathbb{R}^2 : x + y = 2,\ x \ge 0,\ y \ge 0\}.$$
+Both $F$ and $K$ do not change under the exchange $(x, y) \mapsto (y, x)$, and the only point of $K$ fixed by the exchange is $(1, 1)$.
+A student argues: "by symmetry, the maximum of $F$ on $K$ is at $(1, 1)$".
+We show that this is false, so the argument is not a valid [[symmetry argument|H840D9TM2X]].
+
+1. On $K$ we have $y = 2 - x$ with $0 \le x \le 2$. So $F(x, y) = x^2 + (2 - x)^2 = 2x^2 - 4x + 4 = 2(x - 1)^2 + 2$.
+2. Since $(x - 1)^2 \ge 0$, we get $F \ge 2$ on $K$, with equality only at $x = 1$. So the minimum is $2$, at the symmetric point $(1, 1)$.
+3. Since $0 \le x \le 2$, we have $\lvert x - 1 \rvert \le 1$, so $F \le 2 \cdot 1 + 2 = 4$. Equality holds only for $x = 0$ and $x = 2$.
+4. So the maximum is $4$, at the two points $(0, 2)$ and $(2, 0)$. Neither of them is the symmetric point.
+5. The student's claim gives $F(1, 1) = 2$ as the maximum, which is the minimum instead.
+
+## Remarks
+
+1. The symmetry does give a true conclusion: the set of maximum points is mapped to itself by the exchange. Here this set is $\{(0, 2), (2, 0)\}$, and the exchange swaps its two points.
+2. A valid symmetry argument needs uniqueness. If a problem has exactly one maximum point, a symmetry of the problem fixes it. The maximum here is not unique, so the argument does not apply.
+3. The minimum is at the symmetric point for an extra reason, the convexity of $F$, and not by symmetry alone. For a convex symmetric function on a convex symmetric set, averaging a minimum point with its image gives a point that is at least as good.
+4. If $F$ is replaced by $G(x, y) = xy$ on the same segment, then $G = x(2 - x) = 1 - (x - 1)^2$, so the maximum $1$ is at $(1, 1)$ and the minimum $0$ is at $(0, 2)$ and $(2, 0)$. The symmetric point can be a maximum, a minimum, or neither.
+
+## Explanations
+
+### L1 human
+
+Two numbers that are not negative add up to $2$.
+When is the sum of their squares largest?
+A guess "when the numbers are equal" gives $1^2 + 1^2 = 2$.
+But $2^2 + 0^2 = 4$ is larger, so the guess is wrong.
+The two best choices, $2$ and $0$ or $0$ and $2$, are mirror images of each other, and the symmetry only says that they come as a pair.
+
+### L2 human
+
+We test the same claim for three variables: maximize $x^2 + y^2 + z^2$ on $x + y + z = 3$ with $x, y, z \ge 0$.
+
+1. At the symmetric point $(1, 1, 1)$ the value is $3$.
+2. At $(3, 0, 0)$ the value is $9$, which is larger. So the symmetric point is not the maximum.
+3. For each point of the set, $x^2 + y^2 + z^2 \le (x + y + z)^2 = 9$, because the cross terms $2xy + 2yz + 2zx$ are not negative.
+4. So the maximum is $9$, at the three points $(3, 0, 0)$, $(0, 3, 0)$ and $(0, 0, 3)$, which form one orbit of the permutations of the coordinates.
+
+The typical use of this example is a warning before a "by symmetry" step in an optimization problem.
+A trap is to confuse "the problem is symmetric" with "the answer is symmetric": only a unique answer must be symmetric.
