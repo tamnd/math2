@@ -21,7 +21,7 @@ sources:
 
 ## Remarks
 
-Solovay's theorem (1976) says that $\mathrm{PL}(\mathsf{PA}) = \mathsf{GL}$; see [[Solovay's arithmetical completeness theorem|~5cc205a1]].
+Solovay's theorem (1976) says that $\mathrm{PL}(\mathsf{PA}) = \mathsf{GL}$; see [[Solovay's arithmetical completeness theorem|1ZRWVDYPX0]].
 
 Example: $\square p \to \square\square p$ is in $\mathsf{GL}$, by part 1 of [[Löb's axiom in provability logic|QQ6PZFGGB3]].
 Its realizations are instances of the third derivability condition: if $\sigma$ is provable, then it is provable that $\sigma$ is provable.
@@ -29,7 +29,7 @@ Its realizations are instances of the third derivability condition: if $\sigma$ 
 Non-example: $\square p \to p$ is not in $\mathsf{GL}$.
 Under the realization with $p^* = (0 = S0)$, it becomes the consistency statement of $\mathsf{PA}$, which $\mathsf{PA}$ does not prove by Gödel's second incompleteness theorem.
 
-On Kripke frames, $\mathsf{GL}$ is the logic of the finite transitive irreflexive frames; see the [[Kripke completeness of GL|~d95bfe82]].
+On Kripke frames, $\mathsf{GL}$ is the logic of the finite transitive irreflexive frames; see the [[Kripke completeness of GL|1DMFNR7FZT]].
 The name "provability logic" also covers related systems for other theories and other notions of provability.
 
 ## Explanations

@@ -24,7 +24,7 @@ Let $T$ be a theory in the language of arithmetic that contains [[Peano arithmet
 An arithmetical realization $*$ assigns to each propositional variable $p$ a sentence $p^*$ of arithmetic, and extends to all modal formulas by $\bot^* = (0 = S0)$, $(\varphi \to \psi)^* = (\varphi^* \to \psi^*)$ and $(\square \varphi)^* = \mathrm{Prov}_T(\ulcorner \varphi^* \urcorner)$, with $\ulcorner \cdot \urcorner$ a [[Gödel numbering|MFJXPAF0R0]].
 The provability logic of $T$ is the set $\mathrm{PL}(T)$ of the modal formulas $\varphi$ such that $T \vdash \varphi^*$ for every realization $*$.
 Its main system is $\mathsf{GL}$, the normal [[modal logic|C3RZY20ETK]] with [[Löb's axiom|QQ6PZFGGB3]] $\square(\square p \to p) \to \square p$, given in the [[definition of provability logic|61THBNS8WE]].
-By [[Solovay's arithmetical completeness theorem|~5cc205a1]], $\mathrm{PL}(\mathsf{PA}) = \mathsf{GL}$.
+By [[Solovay's arithmetical completeness theorem|1ZRWVDYPX0]], $\mathrm{PL}(\mathsf{PA}) = \mathsf{GL}$.
 The subject matters because it turns every question about the general laws of provability into a question about finite frames, which a computer can decide.
 
 ## Motivation
@@ -47,23 +47,23 @@ Löb's theorem gives one law that is not in the usual modal systems, and Solovay
 ### Examples
 
 1. $\mathsf{GL} \vdash \square p \to \square \square p$ ([[Löb's axiom in provability logic|QQ6PZFGGB3]]). Its realizations are instances of the third derivability condition.
-2. [[The formalized second incompleteness theorem in GL|~92d6e396]]: $\mathsf{GL} \vdash \neg \square \bot \to \neg \square \neg \square \bot$, which reads "if $T$ is consistent, then $T$ does not prove its own consistency".
-3. [[Henkin's sentence in GL|~095fe8b9]]: $\mathsf{GL} \vdash \square(p \leftrightarrow \square p) \to \square p$, so every sentence equivalent to its own provability is provable.
-4. The Gödel sentence: by the [[de Jongh-Sambin fixed-point theorem|~2d32d967]], $\mathsf{GL} \vdash (p \leftrightarrow \neg \square p) \wedge \square(p \leftrightarrow \neg \square p) \to (p \leftrightarrow \neg \square \bot)$. So every Gödel sentence of $T$ is equivalent in $T$ to the consistency of $T$.
+2. [[The formalized second incompleteness theorem in GL|3K967QR766]]: $\mathsf{GL} \vdash \neg \square \bot \to \neg \square \neg \square \bot$, which reads "if $T$ is consistent, then $T$ does not prove its own consistency".
+3. [[Henkin's sentence in GL|HJD67H8CXN]]: $\mathsf{GL} \vdash \square(p \leftrightarrow \square p) \to \square p$, so every sentence equivalent to its own provability is provable.
+4. The Gödel sentence: by the [[de Jongh-Sambin fixed-point theorem|TDDX1NHG8D]], $\mathsf{GL} \vdash (p \leftrightarrow \neg \square p) \wedge \square(p \leftrightarrow \neg \square p) \to (p \leftrightarrow \neg \square \bot)$. So every Gödel sentence of $T$ is equivalent in $T$ to the consistency of $T$.
 5. Other theories: Solovay's theorem holds for every $\Sigma_1$-sound theory with decidable axioms that contains $\mathsf{PA}$. The proof also works for set theory $\mathsf{ZF}$, through its interpretation of arithmetic, when $\mathsf{ZF}$ is $\Sigma_1$-sound.
 
 ### Non-examples
 
-1. [[S4 is not the provability logic of PA|~81f46ab2]]: the reflection axiom $\square p \to p$ fails, because its instance $\square \bot \to \bot$ is realized as the consistency of $\mathsf{PA}$.
+1. [[S4 is not the provability logic of PA|AXB7DEGR2D]]: the reflection axiom $\square p \to p$ fails, because its instance $\square \bot \to \bot$ is realized as the consistency of $\mathsf{PA}$.
 2. For $T = \mathsf{PA} + \neg \mathrm{Con}(\mathsf{PA})$, the formula $\square \bot$ is in $\mathrm{PL}(T)$ but not in $\mathsf{GL}$. Here $T$ is consistent, but it is not $\Sigma_1$-sound, so the condition of Solovay's theorem fails.
 3. Replace $\mathrm{Prov}_T$ by the [[Rosser provability predicate|Z0H1KA8ZHT]]. Then $T$ proves the realization of $\neg \square \bot$, which is not in $\mathsf{GL}$. The standard predicate is needed.
 
 ### Basic properties
 
-1. Arithmetical soundness: $\mathsf{GL} \subseteq \mathrm{PL}(T)$ for every $T$ as in the Summary. This is the first half of [[Solovay's theorem|~5cc205a1]], and it uses D1 to D3 and the formalized [[Löb's theorem|3HD30YG3DG]].
+1. Arithmetical soundness: $\mathsf{GL} \subseteq \mathrm{PL}(T)$ for every $T$ as in the Summary. This is the first half of [[Solovay's theorem|1ZRWVDYPX0]], and it uses D1 to D3 and the formalized [[Löb's theorem|3HD30YG3DG]].
 2. $\mathsf{GL}$ proves axiom 4 and Löb's rule, and it does not prove $\square p \to p$; see [[Löb's axiom in provability logic|QQ6PZFGGB3]].
-3. $\mathsf{GL}$ is the logic of the finite transitive irreflexive frames, so it is decidable; see the [[Kripke completeness of GL|~d95bfe82]].
-4. Every formula $A(p)$ in which $p$ occurs only under $\square$ has a unique fixed point in $\mathsf{GL}$; see the [[de Jongh-Sambin fixed-point theorem|~2d32d967]].
+3. $\mathsf{GL}$ is the logic of the finite transitive irreflexive frames, so it is decidable; see the [[Kripke completeness of GL|1DMFNR7FZT]].
+4. Every formula $A(p)$ in which $p$ occurs only under $\square$ has a unique fixed point in $\mathsf{GL}$; see the [[de Jongh-Sambin fixed-point theorem|TDDX1NHG8D]].
 5. The provability logic of $T$ depends on $T$ only through $\Sigma_1$-soundness: it is $\mathsf{GL}$ for every $\Sigma_1$-sound $T$ as above.
 
 ### History
@@ -104,6 +104,6 @@ A trap: a formula valid in $\mathsf{GLS}$, such as $\neg \square \bot$, is true 
 ### L3 human
 
 Provability logic is the modal theory of the provability operator of one theory, in the same way as group theory is the theory of one operation.
-The answer $\mathsf{GL}$ is stable: it is the same for all $\Sigma_1$-sound theories that contain enough arithmetic, and its algebraic models are the [[Boolean algebras|0XADJKM699]] with a Löb operator, the [[Magari algebras|~90876855]].
-Extensions describe other notions: [[Grzegorczyk logic|~18306319]] for "true and provable", [[Japaridze's polymodal logic GLP|~fc4764bd]] for a hierarchy of provability notions, [[interpretability logic|~f60c136a]] for interpretability between theories, and [[quantified provability logic|~b94ba81d]] for formulas with quantifiers, where the answer is no longer recursively axiomatizable.
+The answer $\mathsf{GL}$ is stable: it is the same for all $\Sigma_1$-sound theories that contain enough arithmetic, and its algebraic models are the [[Boolean algebras|0XADJKM699]] with a Löb operator, the [[Magari algebras|YTA4C8QCB0]].
+Extensions describe other notions: [[Grzegorczyk logic|2Q8E4GQF3B]] for "true and provable", [[Japaridze's polymodal logic GLP|3EDRQJJHMT]] for a hierarchy of provability notions, [[interpretability logic|BGKZTSQN3W]] for interpretability between theories, and [[quantified provability logic|5K9J8R8SCP]] for formulas with quantifiers, where the answer is no longer recursively axiomatizable.
 The connection with the [[provability predicate|NB2BCZR40F]] and [[reflection principles|NB485KFXKV]] of sub-area 11 is direct: each reflection scheme is a set of realizations of $\square p \to p$.

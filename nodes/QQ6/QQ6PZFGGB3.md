@@ -8,7 +8,7 @@ topics: [3E7M66WW6Q]
 audience: research
 uses: [WJK0YA4GP2, 61THBNS8WE, C3RZY20ETK, NGHWZ9Y7ZV, G989VP2NGP, 0GJZW9JFZQ, 0DQPNJNPYK, 3HD30YG3DG]
 about: [WJK0YA4GP2]
-proofs: [~7b1fea34]
+proofs: [17C5DRFAW7]
 history:
   first_stated: "Löb, 1955, Solution of a problem of Leon Henkin, Journal of Symbolic Logic (the arithmetical form)"
   notes: "The modal axiom carries the formalized form of Löb's theorem into modal logic."
@@ -42,7 +42,7 @@ The relation $R$ is conversely well-founded when every nonempty $X \subseteq W$ 
 2. Löb's rule: for every formula $\varphi$, if $\mathsf{GL} \vdash \square \varphi \to \varphi$, then $\mathsf{GL} \vdash \varphi$.
 3. Frame condition: $\mathrm{L}$ is valid on a frame $(W, R)$ if and only if $R$ is [[transitive|0GJZW9JFZQ]] and conversely [[well-founded|0DQPNJNPYK]].
 
-The proof is in [[the proof of the properties of Löb's axiom|~7b1fea34]].
+The proof is in [[the proof of the properties of Löb's axiom|17C5DRFAW7]].
 
 ## Remarks
 
@@ -57,9 +57,9 @@ The proof is in [[the proof of the properties of Löb's axiom|~7b1fea34]].
 
 1. $\mathsf{GL} \nvdash \square p \to p$. On one world with an empty relation and $p$ false, $\square p$ is true and $p$ is false; this frame validates $\mathsf{GL}$ by part 3.
 2. Adding the axiom $\square p \to p$ to $\mathsf{GL}$ gives an inconsistent logic. The instance $\square \bot \to \bot$ and Löb's rule give $\bot$.
-3. $\mathsf{GL} \vdash \neg \square \bot \to \neg \square \neg \square \bot$, the modal form of the [[second incompleteness theorem|4PZM5GJTR5]]; see [[the formalized second incompleteness theorem in GL|~92d6e396]].
+3. $\mathsf{GL} \vdash \neg \square \bot \to \neg \square \neg \square \bot$, the modal form of the [[second incompleteness theorem|4PZM5GJTR5]]; see [[the formalized second incompleteness theorem in GL|3K967QR766]].
 4. Every frame that validates $\mathrm{L}$ is irreflexive, since a world $w$ with $w R w$ makes $\set{w}$ a set without a maximal element.
-5. By part 3 and the [[Kripke completeness of GL|~d95bfe82]], $\mathsf{GL}$ is the logic of the transitive conversely well-founded frames, and also of the finite transitive irreflexive frames.
+5. By part 3 and the [[Kripke completeness of GL|1DMFNR7FZT]], $\mathsf{GL}$ is the logic of the transitive conversely well-founded frames, and also of the finite transitive irreflexive frames.
 
 ### Converse
 
@@ -70,8 +70,8 @@ The converse of part 2 holds: if $\mathsf{GL} \vdash \varphi$, then $\mathsf{GL}
 ### Generalizations
 
 1. Under the arithmetical reading, $\mathrm{L}$ is the formalized [[Löb's theorem|3HD30YG3DG]]: $\mathsf{PA} \vdash \square(\square \varphi \to \varphi) \to \square \varphi$ for every sentence $\varphi$.
-2. In [[Grzegorczyk logic|~18306319]] the axiom $\square(\square(p \to \square p) \to p) \to p$ plays the same role for reflexive frames.
-3. In [[Japaridze's polymodal logic GLP|~fc4764bd]] each of the operators $[n]$ satisfies Löb's axiom.
+2. In [[Grzegorczyk logic|2Q8E4GQF3B]] the axiom $\square(\square(p \to \square p) \to p) \to p$ plays the same role for reflexive frames.
+3. In [[Japaridze's polymodal logic GLP|3EDRQJJHMT]] each of the operators $[n]$ satisfies Löb's axiom.
 
 ## History
 
@@ -102,5 +102,5 @@ A trap: Löb's rule needs $\square \varphi \to \varphi$ as a theorem; the formul
 ### L3 human
 
 Löb's axiom is the modal form of induction along a conversely well-founded relation: if a property holds at a world whenever it holds at all later worlds, then it holds everywhere above.
-This explains part 3, and it explains why $\mathsf{GL}$ is not compact and has no canonical model completeness proof; see the [[Kripke completeness of GL|~d95bfe82]].
-Algebraically, the axiom defines the [[Magari algebras|~90876855]] among the [[Boolean algebras|0XADJKM699]] with an operator, and it is the axiom behind the [[de Jongh-Sambin fixed-point theorem|~2d32d967]].
+This explains part 3, and it explains why $\mathsf{GL}$ is not compact and has no canonical model completeness proof; see the [[Kripke completeness of GL|1DMFNR7FZT]].
+Algebraically, the axiom defines the [[Magari algebras|YTA4C8QCB0]] among the [[Boolean algebras|0XADJKM699]] with an operator, and it is the axiom behind the [[de Jongh-Sambin fixed-point theorem|TDDX1NHG8D]].
