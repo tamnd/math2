@@ -1,0 +1,61 @@
+---
+tag: VK6WWSDMXK
+kind: example
+name: The closed terms of zero and successor are the numerals
+msc: ["03B10", "03F30"]
+topics: [PSRDJXRW53]
+audience: ug2
+instance_of: [6D3WA7N2W4]
+uses: [6D3WA7N2W4, BQQ0FPFZ67, 12MQ2NJ29A, 0QFT7Z76N5, 2BVB7YDEV4]
+sources:
+  - url: https://en.wikipedia.org/wiki/Term_(logic)
+    locator: lead section
+  - url: https://en.wikipedia.org/wiki/Peano_axioms
+    locator: lead section
+---
+
+## Example
+
+Let $\sigma = \set{0, S}$, with a constant symbol $0$ and a unary function symbol $S$.
+For $n \in \N$ let the *numeral* $\underline{n}$ be the string $S(S(\cdots S(0) \cdots))$ with $n$ copies of $S$.
+We check that the closed [[terms|6D3WA7N2W4]] of $\sigma$ are exactly the numerals.
+
+1. The numeral $\underline{0}$ is $0$, a term by the clause for constant symbols.
+2. If $\underline{n}$ is a term, then $\underline{n+1} = S(\underline{n})$ is a term by the clause for function symbols. By induction on $n$, every numeral is a term.
+3. Numerals contain no variables, so they are closed terms.
+4. Conversely, let $t$ be a closed term. We use [[structural induction|12MQ2NJ29A]] on $t$, by the clauses of the [[definition|BQQ0FPFZ67]].
+5. The variable clause does not apply, because $t$ is closed.
+6. If $t$ is the constant symbol $0$, then $t = \underline{0}$.
+7. If $t = S(t')$, then $t'$ is closed, and by the induction hypothesis $t' = \underline{n}$ for some $n$. So $t = \underline{n+1}$.
+8. By unique readability, different $n$ give different strings, since $\underline{n}$ has exactly $n$ copies of $S$.
+
+So the map $n \mapsto \underline{n}$ is a bijection from $\N$ onto the closed terms of $\sigma$.
+
+## Remarks
+
+In the standard structure $\N$, the value of $\underline{n}$ is the number $n$.
+In the language of [[Peano arithmetic|0QFT7Z76N5]], with $+$ and $\cdot$ added, there are more closed terms, such as $\underline{2} + \underline{3}$.
+Each of them has the same value in $\N$ as some numeral, but as a string it is not a numeral.
+The set of closed terms is the [[Herbrand universe|2BVB7YDEV4]] of $\sigma$.
+A signature with no constant symbols has no closed terms at all.
+
+## Explanations
+
+### L1 human
+
+With the symbols $0$ and $S$ for "zero" and "the next number", one can write $0$, $S(0)$, $S(S(0))$ and so on.
+These strings are names for $0, 1, 2, \dots$.
+Without variables, nothing else can be written.
+So the closed terms are exactly these names.
+
+### L2 human
+
+We list the closed terms of $\sigma$ by height, where the height counts the nested applications of $S$.
+
+1. Height $0$: only $0$.
+2. Height $1$: only $S(0)$, because the argument of $S$ must be a closed term of height $0$.
+3. Height $2$: only $S(S(0))$.
+4. At each height there is exactly one closed term, the numeral of that height.
+
+The typical use of numerals is to name natural numbers inside formal arithmetic, for example in Gödel numbering.
+A trap: $\underline{2} + \underline{3}$ and $\underline{5}$ are different terms with the same value.

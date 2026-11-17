@@ -1,0 +1,11 @@
+{"field":"audience","op":"add","agent":"m2-agent/write@0.1.0","model":"claude-opus-5-5","prompt":"0.1.0","run":"r-2026-11-17-c5b84660","human":"github:tamnd","at":"2026-11-17T07:29:14Z"}
+{"field":"body.explanations.L1","op":"change","agent":"m2-agent/write@0.1.0","model":"claude-opus-5-5","prompt":"0.1.0","run":"r-2026-11-17-c5b84660","human":"github:tamnd","at":"2026-11-17T07:29:14Z"}
+{"field":"body.explanations.L2","op":"add","agent":"m2-agent/write@0.1.0","model":"claude-opus-5-5","prompt":"0.1.0","run":"r-2026-11-17-c5b84660","human":"github:tamnd","at":"2026-11-17T07:29:14Z"}
+{"field":"body.explanations.L3","op":"add","agent":"m2-agent/write@0.1.0","model":"claude-opus-5-5","prompt":"0.1.0","run":"r-2026-11-17-c5b84660","human":"github:tamnd","at":"2026-11-17T07:29:14Z"}
+{"field":"body.motivation","op":"add","agent":"m2-agent/write@0.1.0","model":"claude-opus-5-5","prompt":"0.1.0","run":"r-2026-11-17-c5b84660","human":"github:tamnd","at":"2026-11-17T07:29:14Z"}
+{"field":"body.notation","op":"add","agent":"m2-agent/write@0.1.0","model":"claude-opus-5-5","prompt":"0.1.0","run":"r-2026-11-17-c5b84660","human":"github:tamnd","at":"2026-11-17T07:29:14Z"}
+{"field":"body.remarks","op":"add","agent":"m2-agent/write@0.1.0","model":"claude-opus-5-5","prompt":"0.1.0","run":"r-2026-11-17-c5b84660","human":"github:tamnd","at":"2026-11-17T07:29:14Z"}
+{"field":"body.summary","op":"change","agent":"m2-agent/write@0.1.0","model":"claude-opus-5-5","prompt":"0.1.0","run":"r-2026-11-17-c5b84660","human":"github:tamnd","at":"2026-11-17T07:29:14Z"}
+{"field":"sources","op":"change","agent":"m2-agent/write@0.1.0","model":"claude-opus-5-5","prompt":"0.1.0","run":"r-2026-11-17-c5b84660","human":"github:tamnd","at":"2026-11-17T07:29:14Z"}
+{"field":"topics","op":"add","agent":"m2-agent/write@0.1.0","model":"claude-opus-5-5","prompt":"0.1.0","run":"r-2026-11-17-c5b84660","human":"github:tamnd","at":"2026-11-17T07:29:14Z"}
+{"field":"uses","op":"add","agent":"m2-agent/write@0.1.0","model":"claude-opus-5-5","prompt":"0.1.0","run":"r-2026-11-17-c5b84660","human":"github:tamnd","at":"2026-11-17T07:29:14Z"}
