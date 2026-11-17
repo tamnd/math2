@@ -30,10 +30,10 @@ same_as:
 ## Summary
 
 The classical propositional calculus is the formal system with three parts.
-Its language is the set of [[propositional formulas|~7139c138]], built from propositional variables $p_0, p_1, \ldots$ with the connectives $\neg$, $\land$, $\lor$, $\to$ and $\leftrightarrow$.
-Its semantics gives each formula a truth value $0$ or $1$ under each [[truth valuation|~41f42e3d]], computed from the values of the variables by the [[truth tables|05RSK4Q657]] of the connectives.
+Its language is the set of [[propositional formulas|TT7WT5HPN9]], built from propositional variables $p_0, p_1, \ldots$ with the connectives $\neg$, $\land$, $\lor$, $\to$ and $\leftrightarrow$.
+Its semantics gives each formula a truth value $0$ or $1$ under each [[truth valuation|H31CS3HK5P]], computed from the values of the variables by the [[truth tables|05RSK4Q657]] of the connectives.
 Its deductive part is a proof system, for example the [[Hilbert system|1MGMQX43B8]] $L$, that derives formulas from axioms by rules.
-The semantic relation $\Gamma \models \varphi$ ([[logical consequence|1HK0VYWTV7]]) and the deductive relation $\Gamma \vdash \varphi$ (derivability) coincide, by the [[soundness theorem|~7a1817da]] and the [[completeness theorem|~e697b103]].
+The semantic relation $\Gamma \models \varphi$ ([[logical consequence|1HK0VYWTV7]]) and the deductive relation $\Gamma \vdash \varphi$ (derivability) coincide, by the [[soundness theorem|XD629S54CS]] and the [[completeness theorem|81ZNY1XKYJ]].
 The propositional calculus is the simplest logic with a full metatheory, and it is the model on which first-order logic and the non-classical logics are built.
 
 ## Motivation
@@ -59,15 +59,15 @@ Other names for the subject are propositional logic, sentential logic, sententia
 
 ### The language
 
-A [[propositional formula|~7139c138]] is built from variables by the formation rules: if $\varphi$ and $\psi$ are formulas, then so are $(\neg \varphi)$, $(\varphi \land \psi)$, $(\varphi \lor \psi)$, $(\varphi \to \psi)$ and $(\varphi \leftrightarrow \psi)$.
-The [[unique readability theorem|~26f00b05]] says that each formula is built in exactly one way.
+A [[propositional formula|TT7WT5HPN9]] is built from variables by the formation rules: if $\varphi$ and $\psi$ are formulas, then so are $(\neg \varphi)$, $(\varphi \land \psi)$, $(\varphi \lor \psi)$, $(\varphi \to \psi)$ and $(\varphi \leftrightarrow \psi)$.
+The [[unique readability theorem|6KBJX91N7G]] says that each formula is built in exactly one way.
 Because of it, we can prove facts about all formulas by [[structural induction|12MQ2NJ29A]] and define functions on all formulas by recursion.
 Some books use fewer primitive connectives, for example only $\neg$ and $\to$, and treat the others as abbreviations.
 
 ### The semantic side
 
 A truth assignment gives each variable a value $0$ or $1$.
-It extends in exactly one way to a [[truth valuation|~41f42e3d]] $\bar{v}$ on all formulas, by the truth tables of the connectives.
+It extends in exactly one way to a [[truth valuation|H31CS3HK5P]] $\bar{v}$ on all formulas, by the truth tables of the connectives.
 A formula is a [[tautology|05006AJ7DZ]] when every valuation gives it the value $1$, and it is [[satisfiable|QN7M1JCGT9]] when some valuation gives it the value $1$.
 A formula $\varphi$ is a [[logical consequence|1HK0VYWTV7]] of a set $\Gamma$, written $\Gamma \models \varphi$, when every valuation that makes all members of $\Gamma$ true makes $\varphi$ true.
 Normal forms ([[conjunctive|0B3D4C8YF2]] and [[disjunctive|0GVDFAY4KW]]) and [[functional completeness|TDZVCWYJ9F]] describe which truth functions formulas can express: all of them.
@@ -77,14 +77,14 @@ Normal forms ([[conjunctive|0B3D4C8YF2]] and [[disjunctive|0GVDFAY4KW]]) and [[f
 A proof system fixes axioms and rules, and a derivation is a finite list of formulas built by these rules.
 This sub-area uses the [[Hilbert system|1MGMQX43B8]] $L$ of Mendelson, with three axiom schemas and [[modus ponens|0Y0MQYST0M]].
 We write $\Gamma \vdash \varphi$ when $\varphi$ has a derivation from the hypotheses $\Gamma$.
-Other proof systems for the same logic are [[natural deduction|6KT3BJZ7D1]], the [[sequent calculus|W72CA3R9MP]], tableaux and [[resolution|~99ab3fe3]].
+Other proof systems for the same logic are [[natural deduction|6KT3BJZ7D1]], the [[sequent calculus|W72CA3R9MP]], tableaux and [[resolution|ZDW6N1PGJ7]].
 All of them derive the same formulas, because each is sound and complete for the same semantics.
 
 ### The metatheorems
 
-- [[Soundness|~7a1817da]]: if $\Gamma \vdash \varphi$, then $\Gamma \models \varphi$.
-- [[Completeness|~e697b103]]: if $\Gamma \models \varphi$, then $\Gamma \vdash \varphi$.
-- [[Compactness|~205aa33d]]: a set of formulas is satisfiable if each of its finite subsets is satisfiable.
+- [[Soundness|XD629S54CS]]: if $\Gamma \vdash \varphi$, then $\Gamma \models \varphi$.
+- [[Completeness|81ZNY1XKYJ]]: if $\Gamma \models \varphi$, then $\Gamma \vdash \varphi$.
+- [[Compactness|4X9126SEMM]]: a set of formulas is satisfiable if each of its finite subsets is satisfiable.
 - The [[deduction theorem|9X08XK5RV2]]: $\Gamma \cup \set{\varphi} \vdash \psi$ if and only if $\Gamma \vdash \varphi \to \psi$.
 
 ### Decidability
@@ -108,20 +108,20 @@ Classical propositional logic is [[Post complete|WK2P0E82B4]]: adding any formul
 ### Examples
 
 - The formula $p \lor \neg p$ is a tautology: its truth table has the value $1$ in both rows.
-- The argument from $p \to q$, $q \to r$ and $\neg r$ to $\neg p$ is valid; [[this example|~db2cac4f]] checks all eight rows of its truth table.
-- A circuit of switches computes a formula, with switches in series for $\land$ and in parallel for $\lor$; [[this example|~43d769e4]] reads a staircase light as $(p \land q) \lor (\neg p \land \neg q)$.
+- The argument from $p \to q$, $q \to r$ and $\neg r$ to $\neg p$ is valid; [[this example|TQT5N8ZMGK]] checks all eight rows of its truth table.
+- A circuit of switches computes a formula, with switches in series for $\land$ and in parallel for $\lor$; [[this example|SP9K3H4DDC]] reads a staircase light as $(p \land q) \lor (\neg p \land \neg q)$.
 - In the system $L$ the formula $p \to p$ has a derivation of five lines. It uses two instances of (A1), one instance of (A2) and modus ponens twice.
 
 ### Non-examples
 
-- The syllogism "all humans are mortal; Socrates is a human; so Socrates is mortal" is valid, but not by its propositional form. Its three sentences are three unrelated variables, and the form $p, q \models r$ fails; see [[this non-example|~5ae88e68]].
+- The syllogism "all humans are mortal; Socrates is a human; so Socrates is mortal" is valid, but not by its propositional form. Its three sentences are three unrelated variables, and the form $p, q \models r$ fails; see [[this non-example|EMK23RRKPR]].
 - The sentence "necessarily $p$" is not a propositional formula in $p$. Its truth value is not a function of the truth value of $p$, so no truth table defines it.
 - The question "is $7$ prime?" is not a [[proposition|0ZGC7ZESYN]], so no variable stands for it.
 
 ### Basic properties
 
-- Each formula has a unique parse ([[unique readability|~26f00b05]]).
-- Each truth assignment has a unique extension to all formulas ([[truth valuation|~41f42e3d]]).
+- Each formula has a unique parse ([[unique readability|6KBJX91N7G]]).
+- Each truth assignment has a unique extension to all formulas ([[truth valuation|H31CS3HK5P]]).
 - Each Boolean function of $n \geq 1$ arguments is defined by some formula in disjunctive normal form ([[disjunctive normal form|0GVDFAY4KW]]).
 - $\Gamma \vdash \varphi$ if and only if $\Gamma \models \varphi$ (soundness and completeness).
 - The set of tautologies is decidable by truth tables.

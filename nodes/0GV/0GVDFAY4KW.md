@@ -6,7 +6,7 @@ aliases: [dnf, sum-of-products]
 msc: ["03B05"]
 topics: [JDK63589SA]
 audience: ug1
-uses: [~7139c138, ~41f42e3d, 0JMR2HM2N2, 05RSK4Q657]
+uses: [TT7WT5HPN9, H31CS3HK5P, 0JMR2HM2N2, 05RSK4Q657]
 sources:
   - url: https://en.wikipedia.org/wiki/Disjunctive_normal_form
     locator: Definition
@@ -25,7 +25,7 @@ inventory: [CN2SAXWJ5G]
 ## Summary
 
 A literal is a propositional variable $p$ or its negation $\neg p$, and a term is a conjunction of literals.
-A [[propositional formula|~7139c138]] is in disjunctive normal form (DNF) when it is a disjunction of one or more terms, such as $(p \land \neg q) \lor (\neg p \land r)$.
+A [[propositional formula|TT7WT5HPN9]] is in disjunctive normal form (DNF) when it is a disjunction of one or more terms, such as $(p \land \neg q) \lor (\neg p \land r)$.
 Every satisfiable formula is [[logically equivalent|0JMR2HM2N2]] to a DNF that can be read off from its [[truth table|05RSK4Q657]]: one term for each row where the formula is true.
 When each term contains each variable exactly once, the DNF is full, and the full DNF of a formula is unique up to order.
 The existence of the DNF shows that $\neg$, $\land$ and $\lor$ can express every truth function.
@@ -54,12 +54,12 @@ The precise definition is the node [[disjunctive normal form (definition)|06S4WG
 - $(p \land \neg q) \lor (q \land r) \lor \neg p$ is in DNF with three terms; the last term has one literal.
 - $p \land \neg q \land r$ is in DNF with one term. It is also in CNF, with three clauses.
 - $p \lor q$ is in DNF with two terms of one literal each.
-- The majority function of three variables has the full DNF $(p \land q \land r) \lor (p \land q \land \neg r) \lor (p \land \neg q \land r) \lor (\neg p \land q \land r)$; [[this example|~f1985443]] derives it.
-- The biconditional $p \leftrightarrow q$ has the DNF $(p \land q) \lor (\neg p \land \neg q)$; [[this example|~0c96254a]] derives it in two ways.
+- The majority function of three variables has the full DNF $(p \land q \land r) \lor (p \land q \land \neg r) \lor (p \land \neg q \land r) \lor (\neg p \land q \land r)$; [[this example|QH9N7Z6TSK]] derives it.
+- The biconditional $p \leftrightarrow q$ has the DNF $(p \land q) \lor (\neg p \land \neg q)$; [[this example|KQTB0E30N3]] derives it in two ways.
 
 ### Non-examples
 
-- $p \land (q \lor r)$ is not in DNF: a disjunction occurs inside a conjunction. [[This non-example|~164ada98]] gives the details. Its DNF is $(p \land q) \lor (p \land r)$.
+- $p \land (q \lor r)$ is not in DNF: a disjunction occurs inside a conjunction. [[This non-example|7THX92W0AQ]] gives the details. Its DNF is $(p \land q) \lor (p \land r)$.
 - $\neg(p \land q)$ is not in DNF: the negation applies to a compound formula. Its DNF is $\neg p \lor \neg q$.
 - $p \leftrightarrow q$ is not in DNF, because $\leftrightarrow$ is not one of the allowed connectives.
 

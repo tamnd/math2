@@ -6,7 +6,7 @@ aliases: [equisatisfiable]
 msc: ["03B05", "03B35"]
 topics: [JDK63589SA]
 audience: ug2
-uses: [QN7M1JCGT9, 0JMR2HM2N2, ~41f42e3d]
+uses: [QN7M1JCGT9, 0JMR2HM2N2, H31CS3HK5P]
 sources:
   - url: https://en.wikipedia.org/wiki/Equisatisfiability
     locator: Examples
@@ -24,7 +24,7 @@ inventory: [G7XH6MR18A]
 
 Two formulas $\varphi$ and $\psi$ are equisatisfiable when $\varphi$ is [[satisfiable|QN7M1JCGT9]] if and only if $\psi$ is satisfiable; the same definition applies to two sets of formulas.
 The formulas may contain different variables, and the definition says nothing about which assignments satisfy them.
-Equisatisfiability is much weaker than [[logical equivalence|0JMR2HM2N2]], but it is the property that transformations into clause form keep, such as the [[Tseitin transformation|~f66d5ee5]] and [[Skolemization|GCPQGMJYEV]], and it is all that a satisfiability test needs.
+Equisatisfiability is much weaker than [[logical equivalence|0JMR2HM2N2]], but it is the property that transformations into clause form keep, such as the [[Tseitin transformation|S367PDDP61]] and [[Skolemization|GCPQGMJYEV]], and it is all that a satisfiability test needs.
 
 ## Motivation
 
@@ -45,15 +45,15 @@ Compare it with logical equivalence $\varphi \equiv \psi$, which says $\bar v(\v
 
 ### Examples
 
-- The formulas $p \lor q$ and $(p \lor x) \land (\neg x \lor q)$, with a new variable $x$, are equisatisfiable but not equivalent. See [[this example|~88894ac6]].
-- The formulas $p$ and $\neg p$ are equisatisfiable, since both are satisfiable, but they are never true together. See [[this example|~f5ae30ed]].
+- The formulas $p \lor q$ and $(p \lor x) \land (\neg x \lor q)$, with a new variable $x$, are equisatisfiable but not equivalent. See [[this example|5ZPK7DC8MK]].
+- The formulas $p$ and $\neg p$ are equisatisfiable, since both are satisfiable, but they are never true together. See [[this example|PW6JP5ZK4D]].
 - Any two satisfiable formulas are equisatisfiable, for example $p$ and $q \land r$; and any two unsatisfiable formulas are equisatisfiable, for example $p \land \neg p$ and $\set{q, \neg q \lor r, \neg r}$.
 - A formula and its Tseitin transformation are equisatisfiable. The transformation is a conjunction of clauses of linear size in the formula.
 - In first-order logic, $\forall x \, \exists y \, R(x, y)$ and its Skolem form $\forall x \, R(x, f(x))$, with a new function symbol $f$, are equisatisfiable. They are not equivalent: a structure can satisfy the first sentence and interpret $f$ as a function that does not pick witnesses.
 
 ### Non-examples
 
-- The formulas $p$ and $p \land \neg p$ are not equisatisfiable: the first is satisfiable and the second is not. See [[this example|~2376ae3c]].
+- The formulas $p$ and $p \land \neg p$ are not equisatisfiable: the first is satisfiable and the second is not. See [[this example|M1HY02BDTV]].
 - The formulas $p \lor \neg p$ and $p \land \neg p$ are not equisatisfiable, for the same reason.
 - The sets $\set{p, \; p \to q}$ and $\set{p, \; p \to q, \; \neg q}$ are not equisatisfiable: the first is satisfied by $v(p) = v(q) = 1$, and the second is unsatisfiable.
 

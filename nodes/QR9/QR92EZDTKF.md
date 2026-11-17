@@ -6,7 +6,7 @@ aliases: [definite-clause, goal-clause, horn-formula]
 msc: ["03B05", "03B70", "08C15"]
 topics: [JDK63589SA]
 audience: ug2
-uses: [T3SXVH3ZZC, QN7M1JCGT9, ~41f42e3d]
+uses: [T3SXVH3ZZC, QN7M1JCGT9, H31CS3HK5P]
 sources:
   - url: https://en.wikipedia.org/wiki/Horn_clause
     locator: Definition
@@ -47,15 +47,15 @@ We identify a truth assignment $v$ with the set $\set{p : v(p) = 1}$ of variable
 
 ### Examples
 
-- The set $\set{p}$, $\set{\neg p, q}$, $\set{\neg p, \neg q, r}$, $\set{\neg s, t}$, $\set{\neg r, \neg t}$ is a Horn formula, and the marking algorithm shows that it is satisfiable. See [[this example|~410ea36c]].
-- The definite clauses $\set{p}$, $\set{\neg p, q}$, $\set{\neg q, \neg r, s}$, $\set{\neg t, r}$ have the least model $\set{p, q}$. See [[this example|~6e82a655]].
+- The set $\set{p}$, $\set{\neg p, q}$, $\set{\neg p, \neg q, r}$, $\set{\neg s, t}$, $\set{\neg r, \neg t}$ is a Horn formula, and the marking algorithm shows that it is satisfiable. See [[this example|AP6WQV1R0A]].
+- The definite clauses $\set{p}$, $\set{\neg p, q}$, $\set{\neg q, \neg r, s}$, $\set{\neg t, r}$ have the least model $\set{p, q}$. See [[this example|VQPY7BHMV0]].
 - The fact $\set{q}$ is a definite clause with no negative literal.
 - The goal clause $\set{\neg p, \neg q}$ says that $p$ and $q$ are not both true.
 - The empty clause $\square$ is a Horn clause, since it has no positive literal; it is a goal clause with $n = 0$.
 
 ### Non-examples
 
-- $p \lor q$ is not a Horn clause, since it has two positive literals, and no set of Horn clauses is equivalent to it. See [[this example|~cb6fe1cd]].
+- $p \lor q$ is not a Horn clause, since it has two positive literals, and no set of Horn clauses is equivalent to it. See [[this example|9F7VC9WNBH]].
 - $\set{p, q, \neg r}$, that is, $r \to p \lor q$, is not a Horn clause: its head is a disjunction.
 - $p \land q \to r \lor s$ is not equivalent to a Horn formula, for the same reason as $p \lor q$: the models $\set{p, q, r}$ and $\set{p, q, s}$ have the intersection $\set{p, q}$, which is not a model.
 

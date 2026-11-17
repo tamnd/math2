@@ -6,7 +6,7 @@ msc: ["03B05", "03B10"]
 topics: [JDK63589SA]
 audience: ug1
 defines: QN7M1JCGT9
-uses: [~7139c138, ~41f42e3d, 983GZBQYT4]
+uses: [TT7WT5HPN9, H31CS3HK5P, 983GZBQYT4]
 sources:
   - url: https://en.wikipedia.org/wiki/Satisfiability
     locator: lead section
@@ -16,9 +16,9 @@ sources:
 
 ## Definition
 
-Let $P$ be a set of propositional variables and let $\Gamma$ be a set of [[propositional formulas|~7139c138]] over $P$.
+Let $P$ be a set of propositional variables and let $\Gamma$ be a set of [[propositional formulas|TT7WT5HPN9]] over $P$.
 
-1. A truth assignment $v : P \to \set{0, 1}$ *satisfies* $\Gamma$ when $\bar v(\gamma) = 1$ for every $\gamma \in \Gamma$, where $\bar v$ is the [[truth valuation|~41f42e3d]] of $v$.
+1. A truth assignment $v : P \to \set{0, 1}$ *satisfies* $\Gamma$ when $\bar v(\gamma) = 1$ for every $\gamma \in \Gamma$, where $\bar v$ is the [[truth valuation|H31CS3HK5P]] of $v$.
 2. The set $\Gamma$ is *satisfiable* when some truth assignment satisfies it, and *unsatisfiable* otherwise.
 3. A formula $\varphi$ is *satisfiable* when the set $\set{\varphi}$ is satisfiable.
 4. The set $\Gamma$ is *finitely satisfiable* when every finite subset of $\Gamma$ is satisfiable.

@@ -6,7 +6,7 @@ aliases: [satisfiable, unsatisfiable]
 msc: ["03B05", "03B10"]
 topics: [JDK63589SA]
 audience: ug1
-uses: [~7139c138, ~41f42e3d, 1HK0VYWTV7]
+uses: [TT7WT5HPN9, H31CS3HK5P, 1HK0VYWTV7]
 sources:
   - url: https://en.wikipedia.org/wiki/Satisfiability
     locator: Reduction of validity to satisfiability
@@ -21,7 +21,7 @@ same_as:
 
 ## Summary
 
-A set $\Gamma$ of [[propositional formulas|~7139c138]] is satisfiable when some truth assignment $v$ makes every member true, that is, $\bar v(\gamma) = 1$ for all $\gamma \in \Gamma$, where $\bar v$ is the [[truth valuation|~41f42e3d]] of $v$; such a $v$ satisfies $\Gamma$.
+A set $\Gamma$ of [[propositional formulas|TT7WT5HPN9]] is satisfiable when some truth assignment $v$ makes every member true, that is, $\bar v(\gamma) = 1$ for all $\gamma \in \Gamma$, where $\bar v$ is the [[truth valuation|H31CS3HK5P]] of $v$; such a $v$ satisfies $\Gamma$.
 A formula $\varphi$ is satisfiable when $\set{\varphi}$ is, and a set or formula that is not satisfiable is unsatisfiable.
 The set $\Gamma$ is finitely satisfiable when every finite subset of $\Gamma$ is satisfiable.
 In first-order logic the definition is the same, with a structure and an assignment of its elements to the variables in place of $v$.
@@ -34,7 +34,7 @@ A timetable, a set of design rules, or the axioms of a theory may ask for things
 To decide whether the list can be met, we write each requirement as a formula and ask whether one truth assignment makes them all true.
 The same question answers other questions.
 To check that a conclusion follows from premises, we add the negation of the conclusion to the premises and check that the result is unsatisfiable.
-This is the idea behind proof by contradiction, and behind refutation methods such as [[resolution|~99ab3fe3]] and the tableau method.
+This is the idea behind proof by contradiction, and behind refutation methods such as [[resolution|ZDW6N1PGJ7]] and the tableau method.
 
 ## Notation
 
@@ -47,15 +47,15 @@ The word "finitely satisfiable" has two meanings in the literature: here it mean
 
 ### Examples
 
-- The set $\set{p \lor q, \; \neg p \lor r, \; \neg q}$ is satisfiable, by $v(p) = 1$, $v(q) = 0$, $v(r) = 1$. See [[this example|~a64f4054]].
-- The infinite set $\set{p_0} \cup \set{p_n \to p_{n+1} : n \ge 0}$ is satisfiable, by the assignment with $v(p_n) = 1$ for all $n$. See [[this example|~ff75fedd]].
+- The set $\set{p \lor q, \; \neg p \lor r, \; \neg q}$ is satisfiable, by $v(p) = 1$, $v(q) = 0$, $v(r) = 1$. See [[this example|DFDWDKV0PG]].
+- The infinite set $\set{p_0} \cup \set{p_n \to p_{n+1} : n \ge 0}$ is satisfiable, by the assignment with $v(p_n) = 1$ for all $n$. See [[this example|9DD1FWC8YF]].
 - The formula $p \land \neg q$ is satisfiable, by $v(p) = 1$, $v(q) = 0$, although it is not a tautology.
 - Every [[tautology|05006AJ7DZ]] is satisfiable, since any assignment satisfies it.
 - The empty set is satisfiable: every assignment makes all its members true, because it has none.
 
 ### Non-examples
 
-- The set $\set{p, \; p \to q, \; \neg q}$ is unsatisfiable: $p$ and $p \to q$ force $q$ to be true, and $\neg q$ forces it to be false. See [[this example|~c0efb16b]].
+- The set $\set{p, \; p \to q, \; \neg q}$ is unsatisfiable: $p$ and $p \to q$ force $q$ to be true, and $\neg q$ forces it to be false. See [[this example|NGNX2TXC7A]].
 - The formula $p \land \neg p$ is unsatisfiable, since $\bar v(p)$ and $\bar v(\neg p)$ are never both 1.
 - The set $\set{p \lor q, \; \neg p, \; \neg q}$ is unsatisfiable: $\neg p$ and $\neg q$ force $p \lor q$ to be false.
 - A set that contains both $\varphi$ and $\neg \varphi$ for some formula $\varphi$ is unsatisfiable, for the same reason as $p \land \neg p$.
@@ -85,9 +85,9 @@ Further properties, each with its reason:
 2. A formula $\varphi$ is satisfiable exactly when $\neg \varphi$ is not valid: some $v$ has $\bar v(\varphi) = 1$ exactly when some $v$ has $\bar v(\neg \varphi) = 0$.
 3. $\Gamma$ is unsatisfiable exactly when $\Gamma \models \varphi$ for every formula $\varphi$. If $\Gamma$ is unsatisfiable, the definition of $\models$ is about no assignments at all. If $\Gamma \models p \land \neg p$, a satisfying assignment of $\Gamma$ would make $p \land \neg p$ true, which is impossible.
 4. Two formulas $\varphi$ and $\psi$ are [[logically equivalent|0JMR2HM2N2]] exactly when $\neg(\varphi \leftrightarrow \psi)$ is unsatisfiable.
-5. A satisfiable set is finitely satisfiable, by property 1. The converse holds as well, and it is the [[compactness theorem|~205aa33d]].
+5. A satisfiable set is finitely satisfiable, by property 1. The converse holds as well, and it is the [[compactness theorem|4X9126SEMM]].
 6. A finite set of formulas with $k$ variables in total is satisfiable exactly when one of the $2^k$ rows of its [[truth table|05RSK4Q657]] makes all its members true. So satisfiability of finite sets is decidable.
-7. Satisfiability is a semantic notion, and [[consistency|VM8TQ70CVJ]] is a syntactic one. The [[soundness theorem|~7a1817da]] gives "satisfiable implies consistent", and the [[completeness theorem|~e697b103]] gives "consistent implies satisfiable".
+7. Satisfiability is a semantic notion, and [[consistency|VM8TQ70CVJ]] is a syntactic one. The [[soundness theorem|XD629S54CS]] gives "satisfiable implies consistent", and the [[completeness theorem|81ZNY1XKYJ]] gives "consistent implies satisfiable".
 
 The decision problem "given a formula, is it satisfiable?" is the [[Boolean satisfiability problem|3QKF32ZAKN]].
 By the [[Cook-Levin theorem|CTK8AH98Z1]] it is NP-complete, and its study belongs to computational complexity.

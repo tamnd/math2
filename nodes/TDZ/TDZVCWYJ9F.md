@@ -6,7 +6,7 @@ aliases: [adequate-set-of-connectives, expressive-adequacy]
 msc: ["03B05", "06E30", "08A40", "03B50"]
 topics: [JDK63589SA]
 audience: ug1
-uses: [~7139c138, ~41f42e3d, QS0XVAN9BG, 0X05GS525E, 0GVDFAY4KW]
+uses: [TT7WT5HPN9, H31CS3HK5P, QS0XVAN9BG, 0X05GS525E, 0GVDFAY4KW]
 sources:
   - url: https://en.wikipedia.org/wiki/Functional_completeness
     locator: Formal definition
@@ -23,7 +23,7 @@ sources:
 ## Summary
 
 A truth function of $n$ variables is a map $f : \set{0,1}^n \to \set{0,1}$, also called a [[Boolean function|0X05GS525E]].
-A set $C$ of [[logical connectives|QS0XVAN9BG]] is functionally complete, or adequate, when every truth function with $n \geq 1$ is the truth function of a [[formula|~7139c138]] built from variables with connectives from $C$ only.
+A set $C$ of [[logical connectives|QS0XVAN9BG]] is functionally complete, or adequate, when every truth function with $n \geq 1$ is the truth function of a [[formula|TT7WT5HPN9]] built from variables with connectives from $C$ only.
 The sets $\set{\neg, \land, \lor}$, $\set{\neg, \land}$, $\set{\neg, \lor}$, $\set{\neg, \to}$, $\set{\uparrow}$ and $\set{\downarrow}$ are functionally complete.
 The sets $\set{\land, \lor}$ and $\set{\to}$ are not.
 [[Post's functional completeness theorem|WGBR7JHBV4]] decides the question for every set of connectives with five simple tests.
@@ -40,7 +40,7 @@ In circuit design, a gate type that is complete alone, such as the NAND gate, ca
 ## Notation
 
 Let $\varphi$ be a formula whose variables are among $p_1, \ldots, p_n$.
-Its truth function $f_\varphi : \set{0,1}^n \to \set{0,1}$ sends $a = (a_1, \ldots, a_n)$ to the [[truth value|~41f42e3d]] of $\varphi$ under the assignment $p_i \mapsto a_i$.
+Its truth function $f_\varphi : \set{0,1}^n \to \set{0,1}$ sends $a = (a_1, \ldots, a_n)$ to the [[truth value|H31CS3HK5P]] of $\varphi$ under the assignment $p_i \mapsto a_i$.
 A $k$-ary connective is identified with a truth function of $k$ variables.
 A formula over $C$ is a formula built from variables with connectives from $C$ only.
 The set $C$ is functionally complete when for each $n \geq 1$ and each $f : \set{0,1}^n \to \set{0,1}$ there is a formula $\varphi$ over $C$, with variables among $p_1, \ldots, p_n$, such that $f_\varphi = f$.
@@ -54,13 +54,13 @@ Other names: an adequate set of connectives (Mendelson, Enderton), an expressive
 
 - $\set{\neg, \land, \lor}$ is functionally complete, by the [[disjunctive normal form|0GVDFAY4KW]]; see the basic properties below.
 - $\set{\neg, \land}$ and $\set{\neg, \lor}$ are functionally complete, by [[De Morgan's laws|09PKJKA6J0]].
-- $\set{\uparrow}$ is functionally complete; [[this example|~bb0e9183]] checks the three needed definitions with truth tables.
-- $\set{\neg, \to}$ is functionally complete; [[this example|~6c159f70]] gives the details.
+- $\set{\uparrow}$ is functionally complete; [[this example|PT7VB7691W]] checks the three needed definitions with truth tables.
+- $\set{\neg, \to}$ is functionally complete; [[this example|FPJFV3R8QP]] gives the details.
 - $\set{\downarrow}$ is functionally complete, with $\neg p \equiv p \downarrow p$ and $p \lor q \equiv (p \downarrow q) \downarrow (p \downarrow q)$.
 
 ### Non-examples
 
-- $\set{\land, \lor}$ is not functionally complete: every formula over it is true when all its variables are true, so $\neg p$ cannot be expressed. [[This non-example|~7e2817d5]] gives the full proof.
+- $\set{\land, \lor}$ is not functionally complete: every formula over it is true when all its variables are true, so $\neg p$ cannot be expressed. [[This non-example|H4B12PWDE6]] gives the full proof.
 - $\set{\to}$ is not functionally complete: every formula over it is true when all its variables are true. The same holds for $\set{\land, \lor, \to, \leftrightarrow}$ and for $\set{\to, \lor}$.
 - $\set{\neg, \leftrightarrow}$ is not functionally complete: every formula over it expresses an affine function, and $\land$ is not affine; see [[Post's theorem|WGBR7JHBV4]].
 

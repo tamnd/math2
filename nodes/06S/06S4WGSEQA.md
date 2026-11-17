@@ -6,7 +6,7 @@ msc: ["03B05"]
 topics: [JDK63589SA]
 audience: ug1
 defines: 0GVDFAY4KW
-uses: [~7139c138, 029JBBF693, 025YZN3VJW, 0F72FK8EKB]
+uses: [TT7WT5HPN9, 029JBBF693, 025YZN3VJW, 0F72FK8EKB]
 sources:
   - url: https://en.wikipedia.org/wiki/Disjunctive_normal_form
     locator: Definition
@@ -20,7 +20,7 @@ inventory: [CN2SAXWJ5G]
 Let $P$ be a set of propositional variables.
 A literal is a variable $p \in P$ or its [[negation|029JBBF693]] $\neg p$.
 A term is a [[conjunction|025YZN3VJW]] $l_1 \land \cdots \land l_k$ of $k \geq 1$ literals.
-A [[propositional formula|~7139c138]] is in disjunctive normal form (DNF) when it has the form
+A [[propositional formula|TT7WT5HPN9]] is in disjunctive normal form (DNF) when it has the form
 $$D_1 \lor D_2 \lor \cdots \lor D_m \quad (m \geq 1),$$
 where each $D_i$ is a term.
 So a DNF is a [[disjunction|0F72FK8EKB]] of one or more conjunctions of one or more literals.

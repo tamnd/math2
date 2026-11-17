@@ -6,7 +6,7 @@ msc: ["03B05", "03F03"]
 topics: [JDK63589SA]
 audience: ug2
 defines: 1MGMQX43B8
-uses: [09K9MWD2QQ, ~7139c138, 0NMG7W7Q11, 029JBBF693, 0Y0MQYST0M]
+uses: [09K9MWD2QQ, TT7WT5HPN9, 0NMG7W7Q11, 029JBBF693, 0Y0MQYST0M]
 sources:
   - book: isbn:9781482237726
     locator: Chapter 1
@@ -17,7 +17,7 @@ sources:
 ## Definition
 
 Let $P$ be a set of propositional variables.
-The formulas of L are the [[propositional formulas|~7139c138]] built from the variables with [[negation|029JBBF693]] $\neg$ and [[implication|0NMG7W7Q11]] $\to$ only.
+The formulas of L are the [[propositional formulas|TT7WT5HPN9]] built from the variables with [[negation|029JBBF693]] $\neg$ and [[implication|0NMG7W7Q11]] $\to$ only.
 The other connectives are abbreviations: $\varphi \lor \psi$ is $\neg \varphi \to \psi$, $\varphi \land \psi$ is $\neg (\varphi \to \neg \psi)$, and $\varphi \leftrightarrow \psi$ is $(\varphi \to \psi) \land (\psi \to \varphi)$.
 
 The *Hilbert system* L has three axiom schemas.
@@ -66,7 +66,7 @@ Frege's system of 1879 had six axioms for $\to$ and $\neg$.
 Some books take every [[tautology|05006AJ7DZ]] as an axiom and keep only MP.
 Enderton's calculus for first-order logic is of this kind: its axioms include all generalizations of tautologies, and MP is its only rule.
 
-The derived rules of L include the following, by the [[deduction theorem|9X08XK5RV2]] and the [[basic theorems of L|~c4a075af]].
+The derived rules of L include the following, by the [[deduction theorem|9X08XK5RV2]] and the [[basic theorems of L|Y060MF2NZ7]].
 
 - Deduction: if $\Gamma, \varphi \vdash \psi$, then $\Gamma \vdash \varphi \to \psi$.
 - Hypothetical syllogism: if $\Gamma \vdash \varphi \to \psi$ and $\Gamma \vdash \psi \to \chi$, then $\Gamma \vdash \varphi \to \chi$.
@@ -102,6 +102,6 @@ A trap is the order in MP: from $\varphi \to \psi$ and $\psi$ nothing follows, a
 ### L3 human
 
 The definition makes $\vdash$ an inductively defined relation: the set of formulas derivable from $\Gamma$ is the least set that contains $\Gamma$ and the axioms and is closed under MP.
-Induction on derivations is then the basic proof method for results about L, such as the deduction theorem and the [[soundness theorem for propositional logic|~7a1817da]].
+Induction on derivations is then the basic proof method for results about L, such as the deduction theorem and the [[soundness theorem for propositional logic|XD629S54CS]].
 Since derivations are finite, $\Gamma \vdash \varphi$ implies $\Gamma_0 \vdash \varphi$ for some finite $\Gamma_0 \subseteq \Gamma$.
 The same format, with axioms for quantifiers and the rule of generalization, gives Hilbert systems for [[predicate logic|086QKPF0A6]].

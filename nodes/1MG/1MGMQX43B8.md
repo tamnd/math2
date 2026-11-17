@@ -5,7 +5,7 @@ name: Hilbert system
 msc: ["03B05", "03F03"]
 topics: [JDK63589SA]
 audience: ug2
-uses: [09K9MWD2QQ, ~7139c138, 0Y0MQYST0M, QPD3X471Q1]
+uses: [09K9MWD2QQ, TT7WT5HPN9, 0Y0MQYST0M, QPD3X471Q1]
 sources:
   - url: https://en.wikipedia.org/wiki/Hilbert_system
     locator: lead section
@@ -31,7 +31,7 @@ Hilbert systems make provability a precise mathematical relation, so that result
 A proof in mathematics is a chain of steps, and each step should follow from earlier ones by a rule that anyone can check.
 To prove theorems about proofs, we need a definition of proof that is as simple as possible.
 A Hilbert system puts almost all of the logic into the axioms and keeps one rule.
-Then a proof is a list of [[propositional formulas|~7139c138]] that can be checked line by line.
+Then a proof is a list of [[propositional formulas|TT7WT5HPN9]] that can be checked line by line.
 With few rules, an induction on the length of a derivation has few cases, and this keeps proofs about the system short.
 The price is that derivations inside the system are long and hard to find, and the [[deduction theorem|9X08XK5RV2]] is the first tool to shorten them.
 
@@ -47,18 +47,18 @@ The symbol $\vdash$ is syntactic, and it differs from $\models$ for [[logical co
 
 ### Examples
 
-- The system L of Mendelson: schemas A1, A2, A3 and MP, for formulas in $\neg$ and $\to$. It derives exactly the [[tautologies|05006AJ7DZ]] in $\neg$ and $\to$, by the [[soundness theorem|~7a1817da]] and the [[completeness theorem|~e697b103]].
+- The system L of Mendelson: schemas A1, A2, A3 and MP, for formulas in $\neg$ and $\to$. It derives exactly the [[tautologies|05006AJ7DZ]] in $\neg$ and $\to$, by the [[soundness theorem|XD629S54CS]] and the [[completeness theorem|81ZNY1XKYJ]].
 - Łukasiewicz's system: A1, A2 and $(\neg \varphi \to \neg \psi) \to (\psi \to \varphi)$, with MP. It has the same theorems as L.
 - Frege's system of 1879: $\varphi \to (\psi \to \varphi)$, A2, $(\varphi \to (\psi \to \chi)) \to (\psi \to (\varphi \to \chi))$, $(\varphi \to \psi) \to (\neg \psi \to \neg \varphi)$, $\neg \neg \varphi \to \varphi$ and $\varphi \to \neg \neg \varphi$, with MP. It was the first fully formal system of this kind.
-- The [[implicational propositional calculus|ZMVBAY7ZZD]]: A1, A2 and [[Peirce's law|~70d00c19]] $((\varphi \to \psi) \to \varphi) \to \varphi$, with MP, for formulas in $\to$ only.
-- Systems with one axiom: Nicod's axiom in the Sheffer stroke, with a variant of MP, and Meredith's axiom in $\neg$ and $\to$; see [[single axioms for propositional logic|~f2d74783]].
+- The [[implicational propositional calculus|ZMVBAY7ZZD]]: A1, A2 and [[Peirce's law|GMSZ75D5WE]] $((\varphi \to \psi) \to \varphi) \to \varphi$, with MP, for formulas in $\to$ only.
+- Systems with one axiom: Nicod's axiom in the Sheffer stroke, with a variant of MP, and Meredith's axiom in $\neg$ and $\to$; see [[single axioms for propositional logic|644XCQAC8C]].
 - The system with every tautology as an axiom and MP as the only rule. It is a Hilbert system because the set of tautologies is decidable by [[truth tables|05RSK4Q657]].
 
 ### Non-examples
 
 - [[Natural deduction|6KT3BJZ7D1]] is not a Hilbert system: it has many rules and no axioms, and some rules discharge assumptions, which changes the context of a derivation.
 - The [[sequent calculus|W72CA3R9MP]] is not a Hilbert system: its lines are sequents $\Gamma \Rightarrow \Delta$, not formulas.
-- A list of formulas that uses affirming the consequent is not a derivation in L, since that step is not a rule of L; see [[this non-example|~79633665]].
+- A list of formulas that uses affirming the consequent is not a derivation in L, since that step is not a rule of L; see [[this non-example|7MTA90JGPB]].
 - The method of truth tables is not a Hilbert system: it decides whether a formula is a tautology by computing values, and it builds no derivation.
 
 ### Basic properties
@@ -67,9 +67,9 @@ The symbol $\vdash$ is syntactic, and it differs from $\models$ for [[logical co
 - Finiteness: if $\Gamma \vdash \varphi$, then $\Gamma_0 \vdash \varphi$ for some finite $\Gamma_0 \subseteq \Gamma$, because a derivation has finitely many lines.
 - Transitivity: if $\Gamma \vdash \psi$ for each $\psi \in \Delta$ and $\Delta \vdash \varphi$, then $\Gamma \vdash \varphi$.
 - For L, the [[deduction theorem|9X08XK5RV2]] holds: $\Gamma \cup \set{\varphi} \vdash \psi$ if and only if $\Gamma \vdash \varphi \to \psi$.
-- For L, the [[basic theorems|~c4a075af]] T1 to T8 and the rule HS hold, for example $\vdash \varphi \to \varphi$; see [[the derivation of φ → φ|~7c9538fe]] and [[the derivation of the transitivity law|~9c996455]].
+- For L, the [[basic theorems|Y060MF2NZ7]] T1 to T8 and the rule HS hold, for example $\vdash \varphi \to \varphi$; see [[the derivation of φ → φ|S8M610SGM8]] and [[the derivation of the transitivity law|M6ZAJFQ7E2]].
 - L is sound and complete: $\Gamma \vdash \varphi$ if and only if $\Gamma \models \varphi$.
-- Each axiom schema of L is independent of the other two, by the method of [[independence of axioms|~2d77c15c]].
+- Each axiom schema of L is independent of the other two, by the method of [[independence of axioms|729RCBPAM3]].
 
 ### History
 

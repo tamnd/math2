@@ -6,7 +6,7 @@ aliases: [empty-clause]
 msc: ["03B05", "03B35"]
 topics: [JDK63589SA]
 audience: ug1
-uses: [~7139c138, ~41f42e3d, 0F72FK8EKB, 029JBBF693]
+uses: [TT7WT5HPN9, H31CS3HK5P, 0F72FK8EKB, 029JBBF693]
 sources:
   - url: https://en.wikipedia.org/wiki/Clause_(logic)
     locator: lead section
@@ -28,7 +28,7 @@ A literal is a propositional variable $p$ or its [[negation|029JBBF693]] $\neg p
 A clause is a finite set $C = \set{\ell_1, \ldots, \ell_k}$ of literals, read as the [[disjunction|0F72FK8EKB]] $\ell_1 \lor \cdots \lor \ell_k$: a truth assignment $v$ satisfies $C$ when $\bar v(\ell) = 1$ for at least one $\ell \in C$.
 The clause with no literals is the empty clause $\square$, and no assignment satisfies it.
 A finite set of clauses is read as the conjunction of its members, so it is a formula in [[conjunctive normal form|0B3D4C8YF2]].
-Clauses are the input format of [[resolution|~99ab3fe3]] and of satisfiability solvers, because every [[propositional formula|~7139c138]] is equivalent to a finite set of clauses.
+Clauses are the input format of [[resolution|ZDW6N1PGJ7]] and of satisfiability solvers, because every [[propositional formula|TT7WT5HPN9]] is equivalent to a finite set of clauses.
 
 ## Motivation
 
@@ -51,15 +51,15 @@ Some authors call a clause a "disjunctive clause" to tell it apart from a conjun
 
 ### Examples
 
-- $\set{p, \neg q, r}$ is a clause with three literals. It is false only under $v(p) = 0$, $v(q) = 1$, $v(r) = 0$. See [[this example|~36eadb07]].
-- The empty clause $\square$ is a clause, and it is unsatisfiable. See [[this example|~1a1f81f5]].
+- $\set{p, \neg q, r}$ is a clause with three literals. It is false only under $v(p) = 0$, $v(q) = 1$, $v(r) = 0$. See [[this example|B2BQWC4FMP]].
+- The empty clause $\square$ is a clause, and it is unsatisfiable. See [[this example|K0FJTJXRN4]].
 - $\set{\neg p}$ is a unit clause, a clause with exactly one literal.
 - $\set{\neg p, \neg q, r}$ is a [[Horn clause|QR92EZDTKF]], with one positive literal. Its implicative form is $p \land q \to r$.
 - $\set{p, \neg p, q}$ is a tautological clause: it contains a literal and its complement, so every assignment satisfies it.
 
 ### Non-examples
 
-- $p \land q$ is not a clause: it is a conjunction of two literals, and it is equivalent to the set of two clauses $\set{p}$, $\set{q}$. See [[this example|~e3ee2f9c]].
+- $p \land q$ is not a clause: it is a conjunction of two literals, and it is equivalent to the set of two clauses $\set{p}$, $\set{q}$. See [[this example|V3SXV4CRJ6]].
 - $\neg(p \lor q)$ is not a clause, since $\neg$ is applied to a formula that is not a variable. It is equivalent to the two clauses $\set{\neg p}$, $\set{\neg q}$.
 - $p \lor (q \land r)$ is not a clause, since one disjunct is not a literal. It is equivalent to the clauses $\set{p, q}$ and $\set{p, r}$.
 
@@ -71,8 +71,8 @@ Some authors call a clause a "disjunctive clause" to tell it apart from a conjun
 4. If $C \subseteq D$, then $C \models D$: a true literal of $C$ is a true literal of $D$. One says that $C$ subsumes $D$, and a set of clauses that contains $C$ may drop $D$ without a change of meaning.
 5. A set $S$ of clauses that contains $\square$ is unsatisfiable. The empty set of clauses is satisfied by every assignment.
 6. On $n$ variables there are $3^n$ clauses without complementary pairs, since each variable is absent, positive or negative.
-7. Resolution: from $C \cup \set{p}$ and $D \cup \set{\neg p}$ the clause $C \cup D$ follows. Under any $v$, if $v(p) = 0$ the first premise makes some literal of $C$ true, and if $v(p) = 1$ the second makes some literal of $D$ true. The [[resolution|~99ab3fe3]] method derives $\square$ exactly from unsatisfiable sets of clauses.
-8. Every formula is equivalent to a finite set of clauses, by the [[conjunctive normal form|0B3D4C8YF2]] theorem. For satisfiability tests a shorter [[equisatisfiable|B37TYWXS74]] set of clauses can be used, built by the [[Tseitin transformation|~f66d5ee5]].
+7. Resolution: from $C \cup \set{p}$ and $D \cup \set{\neg p}$ the clause $C \cup D$ follows. Under any $v$, if $v(p) = 0$ the first premise makes some literal of $C$ true, and if $v(p) = 1$ the second makes some literal of $D$ true. The [[resolution|ZDW6N1PGJ7]] method derives $\square$ exactly from unsatisfiable sets of clauses.
+8. Every formula is equivalent to a finite set of clauses, by the [[conjunctive normal form|0B3D4C8YF2]] theorem. For satisfiability tests a shorter [[equisatisfiable|B37TYWXS74]] set of clauses can be used, built by the [[Tseitin transformation|S367PDDP61]].
 
 Special kinds of clauses:
 

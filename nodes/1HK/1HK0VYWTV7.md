@@ -6,7 +6,7 @@ aliases: [semantic-consequence, entailment]
 msc: ["03B05", "03B10"]
 topics: [JDK63589SA]
 audience: ug1
-uses: [~7139c138, ~41f42e3d, 0NMG7W7Q11, FWHBT4HABW]
+uses: [TT7WT5HPN9, H31CS3HK5P, 0NMG7W7Q11, FWHBT4HABW]
 sources:
   - url: https://en.wikipedia.org/wiki/Logical_consequence
     locator: Semantic consequence
@@ -21,8 +21,8 @@ same_as:
 
 ## Summary
 
-Let $\Gamma$ be a set of [[propositional formulas|~7139c138]] and let $\varphi$ be a formula.
-The formula $\varphi$ is a logical consequence of $\Gamma$, written $\Gamma \models \varphi$, when every truth assignment $v$ with $\bar v(\gamma) = 1$ for all $\gamma \in \Gamma$ also has $\bar v(\varphi) = 1$, where $\bar v$ is the [[truth valuation|~41f42e3d]] of $v$.
+Let $\Gamma$ be a set of [[propositional formulas|TT7WT5HPN9]] and let $\varphi$ be a formula.
+The formula $\varphi$ is a logical consequence of $\Gamma$, written $\Gamma \models \varphi$, when every truth assignment $v$ with $\bar v(\gamma) = 1$ for all $\gamma \in \Gamma$ also has $\bar v(\varphi) = 1$, where $\bar v$ is the [[truth valuation|H31CS3HK5P]] of $v$.
 In first-order logic the definition is the same, with a [[structure|983GZBQYT4]] and an assignment of its elements to the variables in place of a truth assignment.
 Logical consequence is the exact meaning of "the conclusion follows from the premises", and the proof systems of logic are judged by whether they capture it.
 
@@ -51,15 +51,15 @@ The symbols $\models$ and $\vdash$ are easy to confuse in print: $\models$ has t
 
 ### Examples
 
-- $p, \; p \to q \models q$. Of the four truth assignments to $p$ and $q$, only $p = q = 1$ makes both premises true, and it makes $q$ true. See [[this example|~3c1e0885]].
-- $p \lor q, \; \neg p \models q$. Only $p = 0$, $q = 1$ makes both premises true. See [[this example|~99c60995]].
+- $p, \; p \to q \models q$. Of the four truth assignments to $p$ and $q$, only $p = q = 1$ makes both premises true, and it makes $q$ true. See [[this example|H8H9ZYZZEJ]].
+- $p \lor q, \; \neg p \models q$. Only $p = 0$, $q = 1$ makes both premises true. See [[this example|V5H6FW6F9M]].
 - $\models p \lor \neg p$. Every truth assignment makes $p \lor \neg p$ true, so the empty set of premises suffices.
 - $p \land \neg p \models q$. No truth assignment makes $p \land \neg p$ true, so the condition of the definition holds for no assignment and fails for none.
 - $\set{p_0} \cup \set{p_n \to p_{n+1} : n \ge 0} \models p_{17}$. A truth assignment that makes all premises true has $v(p_0) = 1$, and then $v(p_n) = 1$ for each $n$ by [[induction|0ASJVEFA9J]] on $n$.
 
 ### Non-examples
 
-- $p \to q, \; q \not\models p$. The assignment $p = 0$, $q = 1$ makes both premises true and the conclusion false, so the condition of the definition fails for it. This is the form of [[affirming the consequent|J7KFCFQRBT]]. See [[this example|~71e520a8]].
+- $p \to q, \; q \not\models p$. The assignment $p = 0$, $q = 1$ makes both premises true and the conclusion false, so the condition of the definition fails for it. This is the form of [[affirming the consequent|J7KFCFQRBT]]. See [[this example|ZW5A420AA9]].
 - $p \lor q, \; p \not\models \neg q$. The assignment $p = q = 1$ makes both premises true and $\neg q$ false.
 - $p \not\models p \land q$. The assignment $p = 1$, $q = 0$ makes the premise true and the conclusion false.
 
@@ -72,7 +72,7 @@ An assignment that makes all formulas of $\Gamma$ true and $\varphi$ false is a 
 3. Cut: if $\Gamma \models \psi$ for each $\psi \in \Delta$, and $\Gamma \cup \Delta \models \varphi$, then $\Gamma \models \varphi$. An assignment that makes $\Gamma$ true makes each $\psi \in \Delta$ true, so it makes $\Gamma \cup \Delta$ true, and so it makes $\varphi$ true.
 4. Explosion: if no truth assignment makes all of $\Gamma$ true, then $\Gamma \models \varphi$ for every $\varphi$. The condition of the definition is then about an empty set of assignments.
 5. Validity and consequence: $\Gamma \models \varphi$ holds exactly when $\Gamma \cup \set{\neg \varphi}$ is not [[satisfiable|QN7M1JCGT9]]; the page on satisfiability proves this.
-6. Compactness: $\Gamma \models \varphi$ holds exactly when $\Gamma_0 \models \varphi$ for some finite $\Gamma_0 \subseteq \Gamma$. This is a form of the [[compactness theorem|~205aa33d]].
+6. Compactness: $\Gamma \models \varphi$ holds exactly when $\Gamma_0 \models \varphi$ for some finite $\Gamma_0 \subseteq \Gamma$. This is a form of the [[compactness theorem|4X9126SEMM]].
 7. Decidability for finite $\Gamma$: if $\Gamma$ is finite and $\Gamma \cup \set{\varphi}$ has $k$ variables, a [[truth table|05RSK4Q657]] with $2^k$ rows decides whether $\Gamma \models \varphi$, because the value of a formula depends only on the values of its own variables.
 
 The semantic deduction theorem connects $\models$ with the connective $\to$.
@@ -91,7 +91,7 @@ We prove it in steps.
 
 Applied $n$ times, the theorem gives: an argument with premises $\varphi_1, \ldots, \varphi_n$ and conclusion $\psi$ is valid exactly when $\varphi_1 \to (\varphi_2 \to \cdots (\varphi_n \to \psi) \cdots)$ is a tautology.
 The [[deduction theorem|9X08XK5RV2]] is the same statement for $\vdash$.
-The [[soundness theorem|~7a1817da]] and the [[completeness theorem|~e697b103]] say that $\Gamma \vdash \varphi$ and $\Gamma \models \varphi$ hold for the same $\Gamma$ and $\varphi$.
+The [[soundness theorem|XD629S54CS]] and the [[completeness theorem|81ZNY1XKYJ]] say that $\Gamma \vdash \varphi$ and $\Gamma \models \varphi$ hold for the same $\Gamma$ and $\varphi$.
 
 ### History
 

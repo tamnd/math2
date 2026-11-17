@@ -6,7 +6,7 @@ msc: ["03B05", "03B10"]
 topics: [JDK63589SA]
 audience: ug1
 defines: 1HK0VYWTV7
-uses: [~7139c138, ~41f42e3d, 983GZBQYT4]
+uses: [TT7WT5HPN9, H31CS3HK5P, 983GZBQYT4]
 sources:
   - url: https://en.wikipedia.org/wiki/Logical_consequence
     locator: Semantic consequence
@@ -16,9 +16,9 @@ sources:
 
 ## Definition
 
-Let $P$ be a set of propositional variables, let $\Gamma$ be a set of [[propositional formulas|~7139c138]] over $P$, and let $\varphi$ be a formula over $P$.
+Let $P$ be a set of propositional variables, let $\Gamma$ be a set of [[propositional formulas|TT7WT5HPN9]] over $P$, and let $\varphi$ be a formula over $P$.
 The formula $\varphi$ is a *logical consequence* of $\Gamma$, written $\Gamma \models \varphi$, when the following holds: for every truth assignment $v : P \to \set{0, 1}$, if $\bar v(\gamma) = 1$ for every $\gamma \in \Gamma$, then $\bar v(\varphi) = 1$.
-Here $\bar v$ is the [[truth valuation|~41f42e3d]] that extends $v$ to all formulas.
+Here $\bar v$ is the [[truth valuation|H31CS3HK5P]] that extends $v$ to all formulas.
 
 In first-order logic, let $\Gamma$ and $\varphi$ be formulas of one signature.
 Then $\Gamma \models \varphi$ when, for every [[structure|983GZBQYT4]] $\mathcal{M}$ of the signature and every assignment $s$ of elements of $\mathcal{M}$ to the variables, if $\mathcal{M}$ satisfies every formula of $\Gamma$ under $s$, then $\mathcal{M}$ satisfies $\varphi$ under $s$.
