@@ -1,0 +1,71 @@
+---
+tag: ~e08acb7e
+kind: example
+name: The linear reading of the Henkin infinity sentence holds in finite structures
+msc: ["03C80", "03B10"]
+topics: [MDHDYV8QZW]
+audience: research
+not_instance_of:
+  - target: ~41bb4c55
+    note: the sentence has the same matrix as the Henkin infinity sentence but a linear quantifier prefix, so it is a first-order sentence and expresses only that the domain has at least two elements
+uses: [~41bb4c55, ~e5071f07, 086QKPF0A6, GCPQGMJYEV]
+sources:
+  - url: https://en.wikipedia.org/wiki/Branching_quantifier
+    locator: Definition and properties
+---
+
+## Example
+
+The [[Henkin infinity sentence|~e5071f07]] has the matrix $\theta := (x_1 = x_2 \leftrightarrow y_1 = y_2) \land y_1 \neq a$ under a [[branching quantifier|~41bb4c55]].
+We put the same matrix under the linear prefix of [[first-order logic|086QKPF0A6]]:
+$$\lambda := \exists a\, \forall x_1 \exists y_1 \forall x_2 \exists y_2\, \bigl( (x_1 = x_2 \leftrightarrow y_1 = y_2) \land y_1 \neq a \bigr).$$
+We show that $\lambda$ is true in a set $M$ if and only if $M$ has at least two elements.
+
+1. Let $M = \set{e}$ have one element. Then $a = e$ and $y_1 = e$ are forced, and the conjunct $y_1 \neq a$ fails. So $\lambda$ is false in $M$.
+2. Let $M$ have at least two elements. Choose any $a \in M$, and let $x_1 \in M$ be given.
+3. Choose $y_1 = b$ for a fixed $b \neq a$. Then $y_1 \neq a$ holds.
+4. Let $x_2 \in M$ be given. In the linear prefix, $y_2$ is chosen after $x_1$, $y_1$ and $x_2$, so it may depend on all three.
+5. If $x_2 = x_1$, choose $y_2 = y_1$. Then both sides of the biconditional are true.
+6. If $x_2 \neq x_1$, choose $y_2$ to be any element different from $y_1$; it exists because $M$ has two elements. Then both sides of the biconditional are false.
+7. So every choice of $x_1$ and $x_2$ is answered, and $\lambda$ is true in $M$.
+
+In particular $\lambda$ is true in the finite set $\set{0, 1}$, where the Henkin sentence $\iota$ is false.
+So $\lambda$ is equivalent to $\exists u \exists v\, u \neq v$, and it does not express infinity.
+
+## Remarks
+
+The difference lies in step 4.
+The [[Skolem normal form|GCPQGMJYEV]] of $\lambda$ is $\exists a \exists f \exists g\, \forall x_1 \forall x_2\, \theta(a, x_1, x_2, f(x_1), g(x_1, x_2))$, where $g$ takes two arguments.
+In the Henkin sentence, $g$ takes only $x_2$, so the test at $x_1 = x_2$ forces $g = f$.
+Here $g$ can look at $x_1$ and copy $f(x_1)$ when $x_2 = x_1$, so no injective function is forced.
+
+No first-order sentence could express infinity anyway.
+If a first-order sentence held exactly in the infinite sets, its negation would hold exactly in the finite sets.
+This negation would have arbitrarily large finite models, so by the [[compactness theorem|1NR3HAWG9D]] it would have an infinite model, a contradiction.
+The non-example shows the exact place where the linear prefix loses the information: the dependence of $y_2$ on $x_1$ and $y_1$.
+
+The other linear orders do no better.
+In every linear order of the four quantifiers, the later of $y_1$ and $y_2$ comes after both $x_1$ and $x_2$, and the same copying trick applies to it.
+
+## Explanations
+
+### L1 human
+
+Two players try to win a matching game.
+In the branching version they sit in separate rooms, and each one hears only their own question.
+In the linear version the second player hears everything: the first question, the first answer and the second question.
+Then the second player simply copies the first answer when the questions are equal, and picks something else when they differ.
+This needs only two names, so the linear version cannot tell a set of two names from an infinite set.
+
+### L2 human
+
+We play $\lambda$ on $M = \set{0, 1}$ with $a = 0$.
+
+1. The first player must answer $y_1 = 1$, since $y_1 \neq a$.
+2. If $x_2 = x_1$, the second player answers $y_2 = 1$, and the biconditional reads "true if and only if true".
+3. If $x_2 \neq x_1$, the second player answers $y_2 = 0$, and the biconditional reads "false if and only if false".
+4. So the verifier wins every play, and $\lambda$ is true in $\set{0, 1}$.
+
+In the branching sentence the second player does not know $x_1$, so step 2 and step 3 cannot both be applied: the answer must be a function of $x_2$ alone.
+The typical use of this non-example is a check of a claimed branching reading: compute the Skolem functions and look at their arguments.
+A trap is to think that the order of the quantifiers in the written sentence fixes the dependence; it is the partial order that fixes it.

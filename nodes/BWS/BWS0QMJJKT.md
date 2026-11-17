@@ -9,6 +9,11 @@ sources:
     mention: wikipedia://en/76765067#LZEV
     sections: [Summary]
 inventory: [95CBEXQQ15]
+retired:
+  date: 2026-11-17
+  reason: merged
+  successor: [~205409ab]
+  note: "The comprehension schema is an axiom, so its page is now a statement node."
 ---
 
 ## Summary

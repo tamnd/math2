@@ -2,7 +2,8 @@
 tag: 47XHPD8XE2
 kind: definition
 name: Second-order logic
-msc: [03B16, 03C85]
+msc: ["03B16", "03C85"]
+topics: [MDHDYV8QZW]
 defines: G6X7SZSNC5
 uses: [086QKPF0A6, 983GZBQYT4, 00E0YZCERH]
 sources:
@@ -31,7 +32,7 @@ It says that every subset of the domain that contains $0$ and is closed under $S
 Non-example: a formula with a quantifier over sets of subsets of $M$ is not second-order, because no clause provides such variables; it belongs to third-order logic.
 
 With the standard semantics, second-order logic has neither a complete proof system nor the compactness property.
-With Henkin semantics, in which the relation variables range over a chosen family of relations, both properties return.
+With [[Henkin semantics|~abb2cff1]], in which the relation variables range over a chosen family of relations, both properties return.
 
 ## Explanations
 
