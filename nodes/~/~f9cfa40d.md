@@ -1,0 +1,114 @@
+---
+tag: ~f9cfa40d
+kind: concept
+name: Structural induction
+aliases: [induction-on-the-structure, induction-on-terms]
+msc: ["00A35", "97E50", "68Q60", "03B70"]
+topics: [EEH2F76CYQ, G9JFJGY4TQ]
+audience: ug1
+specializes: [0B94TKFQJX]
+uses: [0ASJVEFA9J, ~f88732af, 0QFT7Z76N5]
+sources:
+  - url: https://en.wikipedia.org/wiki/Structural_induction
+    locator: lead section
+  - url: https://en.wikipedia.org/wiki/Structural_induction
+    locator: Examples
+  - url: https://en.wikipedia.org/wiki/Structural_induction
+    locator: References
+---
+
+## Summary
+
+Structural induction is a method to prove a statement $P(x)$ for every element $x$ of a set that has an [[inductive definition|~f88732af]], such as the lists, the binary trees or the formulas of a logic.
+The proof has one case for each rule of the definition.
+For a rule that makes an element from nothing, such as the empty list, the proof shows $P$ for that element.
+For a rule that builds an element from parts, the proof assumes $P$ for the parts and shows $P$ for the new element.
+Ordinary [[mathematical induction|0ASJVEFA9J]] is the case of the natural numbers, built from $0$ by the successor.
+
+## Motivation
+
+Many objects in mathematics and computer science are built in steps from smaller objects of the same kind.
+A list is empty, or it is an element in front of a shorter list.
+An arithmetic expression is a variable, or it is two expressions joined by $+$ or $\cdot$.
+To prove a claim about all lists or all expressions, we could assign a size to each object and use induction on the size.
+Structural induction follows the definition directly, and it needs no size.
+Its cases are exactly the rules of the definition, so the shape of the proof matches the shape of the objects.
+
+## Notation
+
+1. An inductive definition gives base elements and constructors. For binary trees, the base element is the empty tree $\varnothing$, and the constructor $\operatorname{node}$ makes a tree $\operatorname{node}(L, R)$ from two trees $L$ and $R$.
+2. The defined set is the least set that contains the base elements and is closed under the constructors. The parts $L$ and $R$ of $\operatorname{node}(L, R)$ are its immediate subterms.
+3. In the step for a constructor, the assumption that $P$ holds for the immediate subterms is the induction hypothesis. A constructor with two parts gives two hypotheses.
+4. Proofs often say "by induction on $t$" or "by induction on the structure of $t$".
+5. In Lean 4, the binary trees are the type `inductive Tree | empty | node (l r : Tree)`. The tactic `induction t with | empty => ... | node l r ihl ihr => ...` opens one goal per constructor, with the hypotheses `ihl` and `ihr` for the two subtrees.
+6. In Lean 4, the rule behind the tactic is the recursor of the type, such as `Tree.rec`, `List.rec` or `Nat.rec`.
+
+## Remarks
+
+### Examples
+
+1. [[A binary tree has one more empty subtree than nodes|~3b2f81ce]]: one case for $\varnothing$ and one case for $\operatorname{node}(L, R)$, with a hypothesis for $L$ and for $R$.
+2. [[The length of a concatenation of lists|~83e765d4]]: the proof of $\operatorname{len}(xs \mathbin{+\!\!+} ys) = \operatorname{len}(xs) + \operatorname{len}(ys)$ is an induction on the list $xs$.
+3. Let $X$ be the least set of numbers that contains $0$ and is closed under $x \mapsto x + 1$ and $x \mapsto x - 1$. Then $X = \mathbb{Z}$, and structural induction proves that every element of $X$ is even or odd. The base case is $0$, and each of the two constructors turns an even number into an odd one and an odd number into an even one.
+4. Arithmetic expressions are built from variables by the rules $(e_1 + e_2)$ and $(e_1 \cdot e_2)$. Structural induction proves that every expression has as many left brackets as right brackets: a variable has none, and each rule adds one bracket of each kind.
+5. [[Induction on well-formed formulas|EDRV3N0SA3]] is structural induction for the formulas of a logic, with one case for each connective.
+6. Each [[inductive type|Q80JWCWNKX]] in a proof assistant comes with a structural induction principle.
+
+### Non-examples
+
+1. [[Induction on the reals from 0 by adding 1|~b2676472]] proves a step $P(x) \Rightarrow P(x + 1)$ for all reals $x$. The reals are not built from $0$ by this rule, so the argument proves nothing about $\frac{1}{2}$.
+2. The claim "every binary tree has an odd number of nodes" has a correct step: if $L$ and $R$ have odd numbers of nodes, then $\operatorname{node}(L, R)$ has an odd number. But the base case fails, because $\varnothing$ has $0$ nodes. The claim is false: $\operatorname{node}(\operatorname{node}(\varnothing, \varnothing), \varnothing)$ has $2$ nodes.
+
+### Basic properties
+
+1. The method is valid. Let $X$ be the defined set, and let $T$ be the set of $x \in X$ with $P(x)$.
+2. The base cases show that $T$ contains the base elements. The steps show that $T$ is closed under the constructors.
+3. Since $X$ is the least set with these two properties, $X \subseteq T$. So $P(x)$ holds for every $x \in X$.
+4. Ordinary induction is the case where $X = \mathbb{N}$, the base element is $0$ and the only constructor is the [[successor|0832XVR512]] $n \mapsto n + 1$. The induction axiom of the [[Peano axioms|0QFT7Z76N5]] says exactly that $\mathbb{N}$ is the least set with these properties.
+5. Every proof by structural induction can be turned into a proof by strong [[induction on size|~ad849a99]], because the immediate subterms of an element are smaller than the element. Structural induction avoids the choice of a size.
+6. Definition by structural recursion needs more than induction: each element must be built in only one way. In example 3, $0 = (0 + 1) - 1$, so a rule such as $f(0) = 0$ and $f(x \pm 1) = f(x) + 1$ would give both $f(0) = 0$ and $f(0) = 2$. Induction over the same set is still valid, because its proof in properties 1 to 3 uses only the least set.
+
+### History
+
+Rod Burstall published "Proving properties of programs by structural induction" in *The Computer Journal* in 1969.
+Rózsa Péter studied recursive functions on abstract structures, as domains more general than the natural numbers, in 1959.
+
+### Common errors
+
+1. A student omits the case of one constructor. For formulas built with $\neg$, $\wedge$ and $\vee$, a proof with no case for $\neg$ is incomplete.
+2. A student uses the hypothesis for an element that is not an immediate subterm. In a step for the list $a :: xs$, the hypothesis covers $xs$, and it does not cover the reverse of $xs$ or any other list of the same length.
+3. A student inducts on the wrong variable. For $\operatorname{len}(xs \mathbin{+\!\!+} ys)$, induction on $ys$ gets stuck, because concatenation is defined by recursion on its first argument. More such errors are in [[errors in induction proofs|~43bd251e]].
+4. A student forgets the base case, as in non-example 2.
+
+## Explanations
+
+### L1 human
+
+Think of a toy built from blocks by a few fixed rules.
+To show that every toy has some property, it is enough to check two things.
+First, the simplest pieces have the property.
+Second, each rule, applied to parts with the property, gives a toy with the property.
+Every toy is built by the rules from the simplest pieces, so every toy has the property.
+Induction on the numbers $0, 1, 2, \ldots$ is the same idea with one piece, $0$, and one rule, "add $1$".
+
+### L2 human
+
+We prove that a binary tree $t$ with $n(t)$ nodes and height $h(t)$ satisfies $n(t) \le 2^{h(t)} - 1$.
+The definitions are $n(\varnothing) = 0$, $h(\varnothing) = 0$, $n(\operatorname{node}(L, R)) = n(L) + n(R) + 1$ and $h(\operatorname{node}(L, R)) = 1 + \max(h(L), h(R))$.
+
+1. Case $\varnothing$: $n(\varnothing) = 0 = 2^0 - 1$.
+2. Case $\operatorname{node}(L, R)$: the hypotheses are $n(L) \le 2^{h(L)} - 1$ and $n(R) \le 2^{h(R)} - 1$.
+3. Let $H = \max(h(L), h(R))$. Then $n(\operatorname{node}(L, R)) \le (2^H - 1) + (2^H - 1) + 1 = 2^{H + 1} - 1$.
+4. Since $h(\operatorname{node}(L, R)) = H + 1$, this is the claim for $\operatorname{node}(L, R)$.
+5. For example, $\operatorname{node}(\operatorname{node}(\varnothing, \varnothing), \operatorname{node}(\varnothing, \varnothing))$ has $3$ nodes and height $2$, and $3 = 2^2 - 1$.
+
+The typical use of the method is a claim about every value of a recursive data type, or about every formula, term or proof of a logic.
+A trap is to number the objects by hand when the definition already gives the induction.
+
+### L3 human
+
+The defined set $X$ is the [[least fixed point|DBD64TH52D]] of the operator $F(Y) = B \cup C(Y)$, where $B$ is the set of base elements and $C(Y)$ is the set of elements that the constructors build from elements of $Y$.
+Structural induction is the statement that a set $T$ with $F(T) \subseteq T$ contains $X$, which is the defining property of a least fixed point.
+In category theory, $X$ is the initial algebra of the corresponding functor, and structural induction and recursion come from its initiality.
+The relation "$s$ is an immediate subterm of $t$" is a [[well-founded relation|0DQPNJNPYK]] on $X$, and structural induction is the well-founded induction for it.
+Other variants of induction in this topic are [[double induction|~2da822d1]] and [[forward-backward induction|~637757fb]].
