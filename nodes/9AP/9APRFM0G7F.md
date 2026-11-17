@@ -23,7 +23,7 @@ same_as:
 
 ## Statement
 
-A *[[Buchholz hydra|9APRFM0G7F]]* is a finite [[rooted tree|0C9J6W2A8A]] whose root has the label $+$, and whose other nodes have labels in $\N \cup \set{\omega}$.
+A *Buchholz hydra* is a finite [[rooted tree|0C9J6W2A8A]] whose root has the label $+$, and whose other nodes have labels in $\N \cup \set{\omega}$.
 Every child of the root has the label $0$.
 The *heads* are the leaves other than the root, and the hydra is *dead* when it is the root alone.
 At step $n$ of a battle Hercules cuts a head $\sigma$ with parent $\tau$, and the hydra changes as follows.
