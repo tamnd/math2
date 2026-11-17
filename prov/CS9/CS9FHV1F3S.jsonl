@@ -1,0 +1,3 @@
+{"field":"body.summary","op":"change","agent":"m2-agent/write@0.1.0","model":"claude-opus-5-5","prompt":"0.1.0","run":"r-2026-11-17-070f898e","human":"github:tamnd","at":"2026-11-17T09:12:51Z"}
+{"field":"retired","op":"add","agent":"m2-agent/write@0.1.0","model":"claude-opus-5-5","prompt":"0.1.0","run":"r-2026-11-17-070f898e","human":"github:tamnd","at":"2026-11-17T09:12:51Z"}
+{"field":"same_as","op":"remove","agent":"m2-agent/write@0.1.0","model":"claude-opus-5-5","prompt":"0.1.0","run":"r-2026-11-17-070f898e","human":"github:tamnd","at":"2026-11-17T09:12:51Z"}
