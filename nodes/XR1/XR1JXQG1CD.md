@@ -1,0 +1,104 @@
+---
+tag: XR1JXQG1CD
+kind: concept
+name: Proof mining
+msc: ["03F10", "03F60", "03F35"]
+topics: [8XY7JYZKFW]
+audience: research
+uses: [HZ17ES9PDY, 4BCD1EM542, DSQJ1RA71N, YWZQC5E54B, 0PWX18FM4G, 0FM6N4R0VB, VF6CA0VE41, A4WR995XZP]
+sources:
+  - url: https://en.wikipedia.org/wiki/Proof_mining
+    locator: lead section
+  - url: https://en.wikipedia.org/wiki/Georg_Kreisel
+    locator: lead section
+  - url: https://en.wikipedia.org/wiki/Dialectica_interpretation
+    locator: Variants
+---
+
+## Summary
+
+Proof mining, also called proof unwinding, is the program of extracting explicit quantitative information from proofs, often from proofs that look nonconstructive.
+The information is a bound, a [[rate of convergence|YWZQC5E54B]], or a rate of metastability, together with a proof that it is correct.
+The tools are proof interpretations, mainly the monotone form of the [[Dialectica interpretation|HZ17ES9PDY]] and the [[no-counterexample interpretation|4BCD1EM542]].
+Kreisel started the program as the unwinding of proofs, and Kohlenbach turned it into a systematic method with general logical metatheorems.
+The idea matters because it has produced new explicit bounds in analysis, for example in fixed point theory, ergodic theory and approximation theory.
+
+## Motivation
+
+Many theorems in analysis have the form $\forall x\, \exists n\, A(x, n)$, and their proofs use compactness, excluded middle or choice.
+Such a proof gives no way to compute $n$ from $x$, and sometimes no computable $n$ exists.
+Proof interpretations show that, for formulas of a suitable logical form, the proof still contains a computable bound on $n$.
+Often the bound depends on $x$ only through a few numerical parameters, such as a norm bound or a modulus of continuity.
+Proof mining makes these bounds explicit and uses the logical analysis as a guide to an ordinary proof.
+When a theorem has the form $\forall \exists \forall$, such as the convergence of a sequence, a computable rate may not exist, and metastability is the finite form that can be extracted.
+
+## Notation
+
+Let $x^*, x$ be functionals of the same finite type.
+Howard's majorizability relation $x^* \mathrel{\mathrm{maj}} x$ is defined by induction on types.
+
+1. For type $0$: $x^* \mathrel{\mathrm{maj}} x$ if $x^* \ge x$.
+2. For type $\rho \to \tau$: $x^* \mathrel{\mathrm{maj}} x$ if $y^* \mathrel{\mathrm{maj}} y$ implies $x^* y^* \mathrel{\mathrm{maj}} x\, y$, for all $y^*, y$ of type $\rho$.
+
+The *monotone functional interpretation* asks for majorants of the witnesses of the Dialectica interpretation, not for the witnesses themselves.
+For a sequence $(a_n)$ in a metric space, a *rate of metastability* is a function $\Phi(\varepsilon, g)$ such that for every $\varepsilon > 0$ and $g : \N \to \N$ there is $n \le \Phi(\varepsilon, g)$ with $d(a_i, a_j) \le \varepsilon$ for all $i, j \in [n, n + g(n)]$.
+
+## Remarks
+
+### Examples
+
+- [[A rate of metastability for monotone sequences|8WH2SKSAZD]]: every nonincreasing sequence in $[0, 1]$ has the rate $\Phi(\varepsilon, g) = \tilde g^{(\lceil 1 / \varepsilon \rceil)}(0)$ with $\tilde g(n) = n + g(n)$, the same for all such sequences.
+- [[A bound from Euclid's proof|S0GAFZK93F]]: the proof that there are infinitely many primes gives, for every $n$, a prime $p$ with $n < p \le n! + 1$.
+- For the iterates $x_{k + 1} = \frac{1}{2}(x_k + T x_k)$ of a [[nonexpansive map|VF6CA0VE41]] $T$ on a bounded convex subset of a normed space, the distance $\|x_k - T x_k\|$ tends to $0$; proof mining gives a rate that depends only on $\varepsilon$ and a bound on the diameter, not on $T$, the space or the starting point.
+
+### Non-examples
+
+- [[A Specker sequence|P9W51PW5HK]]: a computable nondecreasing bounded sequence of rationals with no computable rate of convergence. The condition that fails: the [[monotone convergence theorem|0FM6N4R0VB]] has the form $\forall \exists \forall$, and no computable rate of convergence can be extracted from its proof.
+- Extracting a witness of a $\Pi^0_3$ theorem as a function of its universal parameter alone. The condition that fails: such witnesses can be noncomputable, as for the [[halting formula|7RFM1XPJQV]].
+
+### Basic properties
+
+- For a theorem $\forall x\, \exists n\, A_{\mathrm{qf}}(x, n)$ proved in PA, the monotone Dialectica interpretation after the negative translation gives a bound $n \le t^*(x^*)$ with $t^*$ a closed term of [[system T|A4WR995XZP]] and $x^*$ a majorant of $x$.
+- In analysis, the logical metatheorems give bounds that are uniform in parameters from bounded metric or normed spaces, for theorems of a suitable logical form. The bound then depends only on majorants of the numerical data.
+- For a convergence statement, the extracted information is in general a rate of metastability. A [[Cauchy sequence|0PWX18FM4G]] condition $\forall \varepsilon\, \exists n\, \forall i, j \ge n$ has metastability as its no-counterexample form.
+- Proofs that use countable or dependent choice can be treated by [[Spector's bar recursion|DSQJ1RA71N]]; in practice many proofs need only weak fragments, which give much better bounds.
+
+### History
+
+Kreisel proposed the unwinding of proofs, and he used the no-counterexample interpretation for it.
+Kohlenbach developed the program systematically, introduced the monotone functional interpretation, and proved general logical metatheorems for classes of metric and normed spaces, partly with Gerhardy.
+Tao used the term metastability in his work on finite convergence principles and ergodic averages.
+
+### Common errors
+
+- To expect a rate of convergence from every classical convergence proof. In general only a rate of metastability exists.
+- To think that the bound must be read off from a formal derivation. In practice the logical analysis is used as a guide, and the final proof is written in ordinary mathematics.
+- To ignore the logical form. The metatheorems apply only to conclusions of a restricted logical form, and a convergence statement must first be rewritten as metastability.
+
+## Explanations
+
+### L1 human
+
+Some proofs show that a number exists without saying how large it is.
+Proof mining reads such a proof again, with logical tools, and finds an explicit bound for the number.
+For example, the proof that there are infinitely many primes multiplies all primes up to $n$ and adds $1$.
+Read closely, it shows that there is always a prime between $n$ and $n! + 1$.
+In analysis the same idea gives explicit speeds at which approximations reach a solution.
+
+### L2 human
+
+We derive the shape of a metastability statement from the Cauchy property of a sequence $(a_n)$.
+
+1. The Cauchy property is $\forall \varepsilon\, \exists n\, \forall i, j \ge n\, (|a_i - a_j| \le \varepsilon)$.
+2. Its no-counterexample form takes a function $g$ and asks for $n$ that passes the test $i, j \in [n, n + g(n)]$.
+3. So the extracted statement is: for all $\varepsilon$ and $g$ there is $n \le \Phi(\varepsilon, g)$ with $|a_i - a_j| \le \varepsilon$ for $i, j \in [n, n + g(n)]$.
+4. Classically this is equivalent to the Cauchy property, but $\Phi$ is often computable and simple even when no computable rate of convergence exists.
+
+The typical use is in fixed point theory and ergodic theory, where convergence proofs are nonconstructive.
+A trap is step 4: metastability is classically equivalent to convergence, but its rate carries less information than a rate of convergence.
+
+### L3 human
+
+Proof mining treats a mathematical proof as a program, in the spirit of the Curry-Howard correspondence, but for classical proofs in analysis and with majorants in place of exact witnesses.
+The logical metatheorems are uniform boundedness principles: they say that, for formulas of a given logical form, compactness-like arguments yield bounds independent of the points of bounded spaces.
+Metastable convergence connects proof mining with the finitary methods of Tao in ergodic theory and with the study of computable analysis.

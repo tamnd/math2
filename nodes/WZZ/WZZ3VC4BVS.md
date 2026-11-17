@@ -8,7 +8,7 @@ audience: grad
 not_instance_of:
   - target: DX0KPMH4QZ
     note: "Th(M) is a complete consistent extension of PA, but it contains the false sentence not Con(PA), so it differs from TA."
-uses: [DX0KPMH4QZ, HACXBCM7SS, X9WYNYE29C, WQ1ZE255SF, 655K8Y7VS8, 1QWN5CV4CG, EQR2AMD0GQ]
+uses: [DX0KPMH4QZ, HACXBCM7SS, 4PZM5GJTR5, WQ1ZE255SF, 655K8Y7VS8, 1QWN5CV4CG, EQR2AMD0GQ]
 sources:
   - url: https://en.wikipedia.org/wiki/True_arithmetic
     locator: Model-theoretic properties
@@ -20,7 +20,7 @@ sources:
 
 We build a complete consistent theory in $L_A$ that contains $\mathsf{PA}$ and is not [[true arithmetic|DX0KPMH4QZ]].
 
-1. $\mathsf{PA} + \neg \mathrm{Con}(\mathsf{PA})$ is consistent. Otherwise $\mathsf{PA} \vdash \mathrm{Con}(\mathsf{PA})$, which the [[second incompleteness theorem|X9WYNYE29C]] forbids, since $\mathsf{PA}$ is consistent.
+1. $\mathsf{PA} + \neg \mathrm{Con}(\mathsf{PA})$ is consistent. Otherwise $\mathsf{PA} \vdash \mathrm{Con}(\mathsf{PA})$, which the [[second incompleteness theorem|4PZM5GJTR5]] forbids, since $\mathsf{PA}$ is consistent.
 2. By the [[completeness theorem|WQ1ZE255SF]], $\mathsf{PA} + \neg \mathrm{Con}(\mathsf{PA})$ has a model $M$.
 3. Let $T = \mathrm{Th}(M)$, the set of sentences true in $M$. It is a [[complete theory|655K8Y7VS8]], consistent, and it contains every axiom of $\mathsf{PA}$.
 4. $\neg \mathrm{Con}(\mathsf{PA}) \in T$, since $M \models \neg \mathrm{Con}(\mathsf{PA})$.
