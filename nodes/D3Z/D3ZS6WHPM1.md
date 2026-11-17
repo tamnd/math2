@@ -1,0 +1,131 @@
+---
+tag: D3ZS6WHPM1
+kind: concept
+name: Existential graphs
+msc: ["03B05", "03B10", "03-03"]
+topics: [H8QZY0RZXZ]
+audience: ug1
+uses: [09K9MWD2QQ, 086QKPF0A6, 029JBBF693, 025YZN3VJW, QPD3X471Q1]
+sources:
+  - url: https://en.wikipedia.org/wiki/Existential_graph
+    locator: lead section
+  - url: https://en.wikipedia.org/wiki/Charles_Sanders_Peirce
+    locator: lead section
+---
+
+## Summary
+
+Existential graphs are a notation for logic in which formulas are drawings on a plane, the sheet of assertion, and proofs are changes of the drawings by a few rules.
+A graph drawn on the sheet is asserted, two graphs drawn side by side are asserted together ([[conjunction|025YZN3VJW]]), and a closed curve called a cut around a graph denies it ([[negation|029JBBF693]]).
+The alpha system uses letters for propositions, side by side placement and cuts, and it is equivalent to classical [[propositional logic|09K9MWD2QQ]].
+The beta system adds lines of identity, heavy lines that say "something exists" and connect predicates to it, and it is equivalent to [[first-order logic|086QKPF0A6]] with identity.
+The gamma system adds modal notions and graphs about graphs, and it was left unfinished.
+Proofs use five [[rules of inference|QPD3X471Q1]]: erasure, insertion, iteration, deiteration and the double cut.
+The graphs matter as a complete proof system for first-order logic in which each rule is a local change of a picture, controlled only by the number of cuts around the change.
+
+## Motivation
+
+Algebraic notations for logic hide the structure of a formula in brackets and in the order of symbols.
+Peirce wanted a notation in which the logical form can be seen at once, and in which a proof is a sequence of visible steps.
+Two operations are enough for classical propositional logic: "and" and "not".
+So it is enough to have one way to put assertions together, side by side, and one way to deny an assertion, a cut around it.
+For quantifiers one needs a way to say that an individual exists and to connect several statements about it.
+A line drawn between predicates does this, and it also shows identity: two predicates on one line are about the same individual.
+
+## Notation
+
+In text we write a cut as a pair of square brackets, so $[P]$ is a cut around $P$, and juxtaposition as a space.
+The area of a cut is the part of the plane inside it and outside every cut inside it.
+The depth of an area is the number of cuts that enclose it: the sheet has depth $0$.
+An area of even depth is a positive area, and an area of odd depth is a negative area.
+
+An alpha graph translates into a formula $\tau(G)$ of propositional logic by these clauses.
+
+| Graph $G$ | Formula $\tau(G)$ |
+|---|---|
+| the empty graph | $\top$ (true) |
+| a letter $P$ | $P$ |
+| $G \ H$ (side by side) | $\tau(G) \land \tau(H)$ |
+| $[G]$ | $\neg \tau(G)$ |
+
+So $[P \ [Q]]$ is $\neg(P \land \neg Q)$, which is equivalent to $P \to Q$; Peirce called this shape a scroll.
+The graph $[[P] \ [Q]]$ is $\neg(\neg P \land \neg Q)$, which is equivalent to $P \lor Q$.
+An empty cut $[\ ]$ is $\neg \top$, that is, false.
+
+In a beta graph, a predicate letter is written at the end of a line, and a line of identity stands for an individual.
+A line whose outermost part lies in an area of depth $d$ is read as an existential quantifier at that depth.
+So a line from $P$ on the sheet reads $\exists x\, P(x)$, and the same line inside a cut reads $\neg \exists x\, P(x)$.
+Take a cut that contains $S$ and a second cut, and $P$ inside the second cut.
+A line that lies in the first cut, starts at $S$ and passes into the second cut to $P$ reads $\neg \exists x\,(S(x) \land \neg P(x))$, that is, $\forall x\,(S(x) \to P(x))$.
+
+## Remarks
+
+### Examples
+
+- [[Modus ponens in the alpha graphs|1X5X03DYTA]]: from $P$ and $[P \ [Q]]$ the rules give $Q$ in three steps, by deiteration, double cut and erasure.
+- [[The syllogism Darii in the beta graphs|DXG8B0NGHC]]: from "every $M$ is $P$" and "some $S$ is $M$" the beta rules give "some $S$ is $P$". The proof joins lines of identity and removes a double cut.
+- The law of excluded middle $[[P] \ [[P]]]$ is a theorem of alpha: it comes from the empty sheet by a double cut, an insertion and an iteration (see L2).
+- A line of identity on the sheet with $P$ at one end and $Q$ at the other reads $\exists x\,(P(x) \land Q(x))$. Two separate lines, one from $P$ and one from $Q$, read $\exists x\, P(x) \land \exists y\, Q(y)$.
+
+### Non-examples
+
+- [[An Euler diagram is not an existential graph|E9GW8MRT8Z]]: it shows classes as regions and "all $S$ are $P$" as a region inside a region. It has no cut, no line of identity and no rules of transformation.
+- A [[Venn diagram|0KCT6DPXJK]] with shaded regions is not an existential graph. Shading says that a region is empty, which is a statement about classes, and the diagram cannot express a relation between two individuals.
+- A truth table for $P \to Q$ is not an existential graph. It lists valuations; it does not assert a graph on a sheet and it has no derivations.
+
+### Basic properties
+
+- The rules depend only on the depth of the area where they act. Erasure works in positive areas and insertion in negative areas; iteration, deiteration and the double cut work in any area.
+- The rules are sound: each rule turns a graph into a graph that the first one implies, read through $\tau$. For erasure the reason is that $A \land B$ implies $A$, and a negative area reverses the direction of implication, which is why insertion is allowed there.
+- A theorem is a graph derived from the empty sheet. Every theorem of alpha is a tautology, and every tautology is a theorem of alpha; so alpha is complete for classical propositional logic.
+- Beta with the same five rules, extended to lines of identity, is sound and complete for first-order logic with identity in a language of relation symbols.
+- Each rule except erasure and insertion has an inverse rule: iteration is undone by deiteration, and the double cut can be drawn and removed.
+
+### History
+
+Charles Sanders Peirce developed the existential graphs in the late 1890s and the first years of the twentieth century.
+He divided them into the alpha, beta and gamma parts and stated the rules of inference for them.
+He left the gamma part unfinished, and parts of it were later related to systems of modal logic.
+The equivalence of alpha with propositional logic and of beta with first-order logic with identity was proved by later logicians, who also turned Peirce's rules into exact definitions.
+Peirce also worked on extensions of the diagrams of Euler and Venn.
+
+### Common errors
+
+- Erasing in a negative area. From $[P \ Q]$ (not both $P$ and $Q$) one may not erase $Q$, because $[P]$ (not $P$) does not follow.
+- Removing two cuts with a graph between them. The double cut rule only applies when nothing lies in the area between the two cuts; $[P \ [Q]]$ is not equivalent to $P \ Q$.
+- Reading every line of identity as "for all". A line is an existential quantifier at the depth of its outermost part; "for all" arises from a line inside a cut whose end lies in a second cut.
+
+## Explanations
+
+### L1 human
+
+Imagine a large sheet of paper on which we write only things that we claim are true.
+If we write "it rains" and "it is cold" next to each other, we claim both.
+If we draw a loop around "it rains", we claim that it does not rain.
+A big loop that contains "it rains" and a smaller loop around "it is cold" says "if it rains, then it is cold".
+Proofs are made by a few moves, such as erasing something that is not inside any loop, or removing two loops that sit directly one inside the other.
+Peirce designed these moves so that a true drawing can only become another true drawing.
+
+### L2 human
+
+We derive the law of excluded middle $P \lor \neg P$ from the empty sheet.
+
+1. Start with the empty sheet, which is the axiom of the system.
+2. Draw a double cut around the empty graph: $[[\ ]]$. The double cut rule allows this in any area.
+3. The area between the two cuts has depth $1$, so it is negative. By insertion we draw the graph $[P]$ there: $[[P] \ [\ ]]$.
+4. The inner cut lies in the same area of depth $1$ as $[P]$. By iteration we copy $[P]$ into the inner cut: $[[P] \ [[P]]]$.
+5. By the translation, $[[P] \ [[P]]]$ is $\neg(\neg P \land \neg\neg P)$, which is equivalent to $P \lor \neg P$.
+
+The typical use of the rules is this pattern: a double cut makes room, insertion in a negative area adds what we need, and iteration copies it to where it is used.
+The trap is step 3: insertion of $[P]$ on the sheet itself would be an unsound step, since the sheet has depth $0$ and is positive.
+
+### L3 human
+
+The alpha rules resemble the modern systems of deep inference: a rule may act at any depth inside a formula, and its direction depends on the polarity of the position.
+Erasure and insertion express that conjunction can be weakened in a positive position and strengthened in a negative one, and iteration and deiteration express the contraction and the reuse of hypotheses that sequent calculi handle with structural rules.
+Because all rules act inside the graph, existential graphs relate more closely to deep inference systems than to [[Hilbert systems|1MGMQX43B8]] or to [[natural deduction|6KT3BJZ7D1]].
+
+The beta system shows that lines can do the work of variables.
+A line of identity is a variable together with its quantifier, and the branching of lines is the sharing of a variable between atomic formulas.
+This idea returns in conceptual graphs in computer science and in string diagrams for relations in category theory, where the same pictures are read in a category of relations.
+The comparison with Venn and Euler diagrams shows the limit of class diagrams: they capture [[syllogistic|MZBNX2T6Q6]] and other reasoning with one-place predicates, while the beta graphs reach full first-order logic with relations of any arity.

@@ -1,0 +1,165 @@
+---
+tag: RQXV7PM2WT
+kind: concept
+name: Abstract logical systems
+aliases: [abstract-logic, institution-theory]
+msc: ["03B22", "03C95"]
+topics: [H8QZY0RZXZ]
+audience: research
+uses: [J78Y1M4GND, A2DE66937D, 28NQ0KRHD3, DAMK8XE1FR, FYZ3CJGZYV, D9G8M42GKC]
+sources:
+  - url: https://en.wikipedia.org/wiki/Institution_(computer_science)
+    locator: lead section
+  - url: https://en.wikipedia.org/wiki/Logical_framework
+    locator: lead section
+  - url: https://en.wikipedia.org/wiki/Universal_logic
+    locator: lead section
+  - url: https://en.wikipedia.org/wiki/Abstract_algebraic_logic
+    locator: lead section
+  - url: https://en.wikipedia.org/wiki/Lindstr%C3%B6m%27s_theorem
+    locator: lead section
+---
+
+## Summary
+
+An abstract logical system describes a logic by its general structure instead of by a particular syntax.
+The common ingredients are a set of sentences, a [[consequence relation|J78Y1M4GND]] on it, and a class of models with a satisfaction relation.
+In the most developed form, an institution, all of these are indexed by a category of signatures.
+An institution consists of a [[category|A2DE66937D]] $\mathbf{Sign}$ of signatures, a [[functor|28NQ0KRHD3]] $\mathrm{Sen} \colon \mathbf{Sign} \to \mathbf{Set}$ of sentences, a functor $\mathrm{Mod} \colon \mathbf{Sign}^{\mathrm{op}} \to \mathbf{Cat}$ of models, and for each signature $\Sigma$ a satisfaction relation $\models_\Sigma$ between $\Sigma$-models and $\Sigma$-sentences.
+These data must satisfy the satisfaction condition: for every signature morphism $\sigma \colon \Sigma \to \Sigma'$, every $\Sigma'$-model $M'$ and every $\Sigma$-sentence $\varphi$, $M' \models_{\Sigma'} \mathrm{Sen}(\sigma)(\varphi)$ holds exactly when $\mathrm{Mod}(\sigma)(M') \models_\Sigma \varphi$.
+Other abstract systems are Lindström's abstract logics, the structural consequence relations of abstract algebraic logic, and logical frameworks, which are metalanguages in which object logics are encoded.
+The abstract view matters because theorems proved once for all such systems apply to every logic, and because it gives a precise meaning to translations between logics.
+
+## Motivation
+
+Many results of logic, such as the Lindenbaum lemma, the semantic properties of consequence or the preservation of consequence under renaming, use only a few general features of the logic.
+Computer science adds a practical need: specification languages use many logics (equational, first-order, higher-order, temporal), and a specification must be moved along changes of vocabulary.
+Joseph Goguen and Rod Burstall introduced institutions to make such constructions independent of the logic.
+In another direction, Per Lindström asked what distinguishes first-order logic among all logics, and his answer required a precise notion of "a logic".
+
+## Notation
+
+- For a signature morphism $\sigma \colon \Sigma \to \Sigma'$, one writes $\sigma(\varphi)$ for $\mathrm{Sen}(\sigma)(\varphi)$, the translation of $\varphi$, and $M'|_\sigma$ for $\mathrm{Mod}(\sigma)(M')$, the reduct of $M'$.
+- The satisfaction condition then reads $M' \models_{\Sigma'} \sigma(\varphi) \iff M'|_\sigma \models_\Sigma \varphi$.
+- $\Gamma \models_\Sigma \varphi$ means that every $\Sigma$-model that satisfies all sentences of $\Gamma$ satisfies $\varphi$.
+- $\mathbf{Sign}^{\mathrm{op}}$ is the [[opposite category|DAMK8XE1FR]]: $\mathrm{Mod}$ reverses the direction of morphisms, since a model of the larger signature can be cut down to the smaller one.
+- Many authors let $\mathrm{Mod}$ take values in $\mathbf{Set}$ or in the class of models, when model morphisms are not needed.
+
+## Remarks
+
+### Logics as consequence plus semantics
+
+The simplest abstract system is a set $L$ with a consequence relation, as in Tarski's work.
+Adding semantics gives a set $L$, a class $K$ of models and a satisfaction relation, and the semantic consequence $\models_K$ is a consequence relation.
+José Meseguer's general logics combine an entailment system, a proof-theoretic consequence for each signature, with an institution.
+Willem Blok and Don Pigozzi defined algebraizable logics, whose structural consequence relation is matched by an equational consequence over a class of algebras; see [[algebraic logic|QYA4H5Y7VR]].
+
+### Institutions
+
+In an institution, consequence lives in each signature: $\Gamma \models_\Sigma \varphi$ as in the notation above.
+It is a consequence relation on $\mathrm{Sen}(\Sigma)$, by the argument for any class of models on the [[definition page|J78Y1M4GND]].
+The satisfaction condition gives the first general theorem: translation along a signature morphism preserves consequence.
+
+1. Let $\sigma \colon \Sigma \to \Sigma'$, and assume $\Gamma \models_\Sigma \varphi$.
+2. Let $M'$ be a $\Sigma'$-model that satisfies $\sigma(\gamma)$ for every $\gamma \in \Gamma$.
+3. By the satisfaction condition, $M'|_\sigma$ satisfies every $\gamma \in \Gamma$.
+4. By step 1, $M'|_\sigma \models_\Sigma \varphi$.
+5. By the satisfaction condition again, $M' \models_{\Sigma'} \sigma(\varphi)$. So $\sigma[\Gamma] \models_{\Sigma'} \sigma(\varphi)$.
+
+The converse fails in general: a morphism that identifies two symbols can turn a non-consequence into a consequence, as computed in the [[propositional institution|4Y5D1JY6RV]].
+Institution-independent model theory, developed in the book of Răzvan Diaconescu with that title, proves results such as interpolation and the method of diagrams at this level.
+
+### Abstract logics in the sense of Lindström
+
+An abstract logic in the sense of Lindström assigns to each vocabulary a class of sentences and a satisfaction relation with structures.
+It must satisfy closure conditions such as invariance under isomorphism, renaming of symbols, reducts, Boolean operations and relativization.
+This is close to an institution whose signatures are vocabularies.
+[[Lindström's theorem|FYZ3CJGZYV]] states that first-order logic is the largest such logic that has both the compactness property and the downward Löwenheim-Skolem property.
+Examples of larger logics are [[infinitary logic|PQG7VAZ1R2]] $L_{\omega_1 \omega}$ and logics with a [[generalized quantifier|MFV98WTF4G]] such as "there are uncountably many".
+
+### Universal logic
+
+Universal logic, a project promoted by Jean-Yves Béziau, studies general structures of logics in the way that universal algebra studies general algebras.
+Its objects include consequence relations, institutions and logical matrices, and its journal is *Logica Universalis*.
+A typical result is the Lindenbaum lemma for a finitary consequence relation $\vdash$: if $\Gamma \nvdash \varphi$, there is a deductively closed $T \supseteq \Gamma$ that is maximal among the sets with $T \nvdash \varphi$.
+
+1. Let $\mathcal{F}$ be the family of sets $\Delta \supseteq \Gamma$ with $\Delta \nvdash \varphi$, ordered by inclusion. It contains $\Gamma$.
+2. The union $U$ of a chain in $\mathcal{F}$ is in $\mathcal{F}$: if $U \vdash \varphi$, a finite subset of $U$ yields $\varphi$; it lies in one member of the chain, and monotonicity gives a contradiction.
+3. By Zorn's lemma $\mathcal{F}$ has a maximal element $T$.
+4. If $T \vdash \psi$ and $\psi \notin T$, maximality gives $T, \psi \vdash \varphi$, and cut gives $T \vdash \varphi$, a contradiction. So $T$ is deductively closed.
+
+### Logical frameworks
+
+A logical framework is a formal system that serves as a [[metalanguage|D9G8M42GKC]] for other logics: an object logic is encoded in it, and derivations of the object logic become objects of the framework.
+The Edinburgh Logical Framework LF of Robert Harper, Furio Honsell and Gordon Plotkin is a [[dependent type|M6W6ZB4PPX]] theory; their paper "A framework for defining logics" appeared in the *Journal of the ACM* in 1993.
+In LF, implication and modus ponens are encoded by declarations such as
+$$o : \mathrm{type}, \quad \mathrm{imp} : o \to o \to o, \quad \mathrm{pf} : o \to \mathrm{type}, \quad \mathrm{mp} : \Pi A{:}o.\, \Pi B{:}o.\, \mathrm{pf}\,(\mathrm{imp}\,A\,B) \to \mathrm{pf}\,A \to \mathrm{pf}\,B.$$
+Derivations of a formula $\varphi$ correspond to terms of type $\mathrm{pf}\,\varphi$; this principle is called judgments as types.
+The proof assistant Isabelle, designed by Lawrence Paulson, is built in the same way on the meta-logic Isabelle/Pure, and Isabelle/HOL and Isabelle/ZF are object logics; see [[mathematical software and formalization|F3F5GGYHMM]].
+
+### Examples
+
+- [[Propositional logic as an institution|4Y5D1JY6RV]]: signatures are sets of variables, models are valuations, and reducts are composition with the signature map.
+- [[First-order logic as an institution|9J3RXB9HJG]]: signatures are vocabularies, and the reduct of a structure forgets or renames symbols.
+- A set with a consequence relation, such as [[classical propositional consequence|5X683DYC8S]], is an abstract logic in Tarski's sense.
+- First-order logic with the quantifier "there are uncountably many" is an abstract logic in Lindström's sense; it is compact for countable sets of sentences, but it fails the downward Löwenheim-Skolem property.
+- The encoding of a Hilbert system in LF by the declarations above is an object logic in a logical framework.
+
+### Non-examples
+
+- [[A sentence about the whole signature|T7CGA2T940]] breaks the satisfaction condition, so the data do not form an institution.
+- The [[closed-world assumption|W4QZGRCDPA]] gives an inference relation that is not monotone. It is not the semantic consequence of any class of models, since semantic consequence is always monotone.
+- A list of formulas with no consequence relation and no semantics, such as the strings of a [[formal grammar|DP1HXZGPCM]], is not a logical system.
+
+### Basic properties
+
+- In an institution, $\models_\Sigma$ is a consequence relation for each $\Sigma$, and translation along signature morphisms preserves it (proof above).
+- Consequence relations correspond to closure operators, and their deductively closed theories form a complete lattice; see the [[definition page|J78Y1M4GND]].
+- Every finitary consequence relation satisfies the Lindenbaum lemma (proof above).
+- First-order logic is maximal among Lindström's abstract logics with compactness and downward Löwenheim-Skolem, by [[Lindström's theorem|FYZ3CJGZYV]].
+
+### History
+
+Alfred Tarski studied consequence operations on abstract sets of sentences around 1930.
+Per Lindström proved his characterization of first-order logic using abstract logics, which started abstract model theory.
+Joseph Goguen and Rod Burstall introduced institutions; their paper "Institutions: abstract model theory for specification and programming" appeared in the *Journal of the ACM* in 1992.
+Harper, Honsell and Plotkin published the logical framework LF in the *Journal of the ACM* in 1993.
+
+### Common errors
+
+- Writing $\mathrm{Mod}$ as covariant. A signature morphism $\Sigma \to \Sigma'$ turns $\Sigma'$-models into $\Sigma$-models, so $\mathrm{Mod}$ is a functor on $\mathbf{Sign}^{\mathrm{op}}$.
+- Assuming that translation reflects consequence. It preserves consequence, but a non-injective signature morphism can create new consequences.
+- Confusing the framework with the object logic. A theorem of the framework about an encoding is a metatheorem about the object logic, and it needs an adequacy proof for the encoding.
+
+## Explanations
+
+### L1 human
+
+Many different logics exist: for statements with "and" and "or", for statements about all objects, for time, for knowledge.
+Each of them has sentences, some notion of "world" in which sentences are true or false, and a rule for when one sentence follows from others.
+An abstract logical system keeps only this common shape.
+Then a fact proved for the shape holds for every logic at once.
+A simple fact of this kind: if we rename the letters in a valid argument, it stays valid.
+
+### L2 human
+
+We check the satisfaction condition in a small case of the propositional institution.
+
+1. Let $\Sigma = \set{p}$, $\Sigma' = \set{r, s}$ and let $\sigma \colon \Sigma \to \Sigma'$ send $p$ to $r$.
+2. Take the $\Sigma$-sentence $\varphi = \neg p$, so $\sigma(\varphi) = \neg r$.
+3. Take the $\Sigma'$-model $v'$ with $v'(r) = 0$ and $v'(s) = 1$. Its reduct is $v'|_\sigma = v' \circ \sigma$, the valuation with $p \mapsto 0$.
+4. $v' \models \neg r$ holds, since $v'(r) = 0$, and $v'|_\sigma \models \neg p$ holds, since $p \mapsto 0$. Both sides agree.
+5. The variable $s$ plays no role, because $\sigma(\varphi)$ does not mention it.
+
+The typical use of the satisfaction condition is to move results along changes of notation, for example to rename the symbols of a theory.
+A trap is to define sentences that mention the whole signature, such as "all variables are true"; such sentences break the condition.
+
+### L3 human
+
+Institutions are a categorical abstraction of model theory: an institution is a functor from $\mathbf{Sign}$ into a category of "rooms" with sentences, models and satisfaction, and institution morphisms and comorphisms relate different logics.
+Theory morphisms, colimits of specifications, the specification language CASL and the Heterogeneous Tool Set are built on this structure.
+Combining an institution with a proof system per signature gives a logic in the sense of Meseguer, and soundness and completeness become the statement that the two consequence relations agree.
+
+Lindström's approach leads to abstract model theory, where logics are compared by their model-theoretic properties, and to the study of extensions of first-order logic in [[second-order logic and extensions|MDHDYV8QZW]].
+Logical frameworks connect the subject with [[type theory|Q48KGV33AH]]: the Curry-Howard correspondence and the judgments-as-types principle turn the metatheory of an object logic into type checking.
+The three views agree on one lesson: a logic is determined by its consequence relation and its semantics, and a translation between logics should preserve both.
