@@ -44,21 +44,21 @@ In Lean, the tactic `push_neg` turns the goal `¬ ∀ x, P x` into `∃ x, ¬ P 
 
 ### Examples
 
-1. [[A counterexample to Euler's sum of powers conjecture|~16e76c93]]: $27^5 + 84^5 + 110^5 + 133^5 = 144^5$, found by L. J. Lander and T. R. Parkin in 1966.
-2. [[The union of two subgroups need not be a subgroup|~116036ad]]: $2\mathbb{Z} \cup 3\mathbb{Z}$ contains $2$ and $3$ but not $5$.
+1. [[A counterexample to Euler's sum of powers conjecture|A59Q4KDFQB]]: $27^5 + 84^5 + 110^5 + 133^5 = 144^5$, found by L. J. Lander and T. R. Parkin in 1966.
+2. [[The union of two subgroups need not be a subgroup|PFKKERWYZ0]]: $2\mathbb{Z} \cup 3\mathbb{Z}$ contains $2$ and $3$ but not $5$.
 3. The number $2$ is a counterexample to "every prime number is odd".
 4. [[The absolute value function|0CQ9ZM383N]] is continuous but not differentiable at $0$, a counterexample to "every continuous function is differentiable".
 5. For $n = 40$, $n^2 + n + 41 = 1681 = 41^2$ is not prime, which refutes "$n^2 + n + 41$ is prime for every natural number $n$"; see [[forty prime values of n^2 + n + 41|H75AB4EJT5]].
 
 ### Non-examples
 
-1. [[Zero is not a counterexample to the positivity of squares of nonzero numbers|~bcd67756]]: $x = 0$ does not satisfy the hypothesis $x \neq 0$.
+1. [[Zero is not a counterexample to the positivity of squares of nonzero numbers|7681GJR0GP]]: $x = 0$ does not satisfy the hypothesis $x \neq 0$.
 2. An instance where the statement holds is not a counterexample. The prime $3$ is odd, so it says nothing against "every prime is odd".
 3. A counterexample to the converse is not a counterexample to the statement. The number $9$ is odd and not prime; this refutes "every odd number is prime", not "every prime other than $2$ is odd".
 
 ### Basic properties
 
-1. One counterexample refutes a universal statement, and no number of examples proves it; see [[checking cases does not prove that 2^n > n^2|~bee4cb21]].
+1. One counterexample refutes a universal statement, and no number of examples proves it; see [[checking cases does not prove that 2^n > n^2|3K78AT7X0R]].
 2. A counterexample to "if $H(x)$, then $C(x)$" must satisfy $H$ and fail $C$. Both checks belong to the disproof.
 3. If a statement about natural numbers has a counterexample, it has a smallest one, by the [[well-ordering principle|01BX15HSRR]]. Proofs by minimal counterexample and by [[infinite descent|0EFYCFHYFG]] use this fact.
 4. A computer search can find a counterexample, but a search that finds none proves nothing about the cases beyond the search.

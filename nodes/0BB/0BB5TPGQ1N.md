@@ -46,15 +46,15 @@ In Lean, the Mathlib tactic `contrapose` changes a goal $P \to Q$ with hypothesi
 
 ### Examples
 
-1. [[If n^2 is even, then n is even|~4eefe6fc]]: the contrapositive "if $n$ is odd, then $n^2$ is odd" has a two-line direct proof.
-2. [[If a + b >= 100, then a >= 50 or b >= 50|~fced09ad]]: the contrapositive "if $a < 50$ and $b < 50$, then $a + b < 100$" follows by adding the two inequalities.
+1. [[If n^2 is even, then n is even|MKNWSR8WRN]]: the contrapositive "if $n$ is odd, then $n^2$ is odd" has a two-line direct proof.
+2. [[If a + b >= 100, then a >= 50 or b >= 50|3ENDPQZA6V]]: the contrapositive "if $a < 50$ and $b < 50$, then $a + b < 100$" follows by adding the two inequalities.
 3. For real $x$, if $x^3 + x \neq 0$, then $x \neq 0$. The contrapositive "if $x = 0$, then $x^3 + x = 0$" is a substitution.
 4. For integers $a$ and $b$, if $ab$ is even, then $a$ is even or $b$ is even. The contrapositive says that a product of two odd integers is odd.
 5. For a function $f$, if $f$ is not continuous at $a$, then $f$ is not [[differentiable|0K57YG3BB8]] at $a$. This is the contrapositive of "differentiable implies continuous", and it is the way this fact is usually applied.
 
 ### Non-examples
 
-1. [[Proving the inverse instead of the contrapositive|~facd4af1]]: from "if $P$, then $Q$" a student proves "if not $P$, then not $Q$", which is equivalent to the converse.
+1. [[Proving the inverse instead of the contrapositive|D0531MQ745]]: from "if $P$, then $Q$" a student proves "if not $P$, then not $Q$", which is equivalent to the converse.
 2. A [[proof by contradiction|0J0XBKG64S]] of "if $P$, then $Q$" assumes $P$ and not $Q$ together and derives any contradiction. It is a different method, although a proof by contrapositive can be rewritten as one.
 3. Proving the converse "if $Q$, then $P$". For "if $n$ is a multiple of $4$, then $n$ is even", the converse is false ($n = 2$), so a proof of the converse cannot be a proof of the original claim.
 

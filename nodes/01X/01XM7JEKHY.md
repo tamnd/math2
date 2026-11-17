@@ -25,7 +25,7 @@ same_as:
 A constructive proof of an [[existence statement|0JW2FHW7G3]] $\exists x \, P(x)$ names a specific object $a$, or gives a method that computes it, and then proves $P(a)$.
 The object $a$ is called a witness.
 The logical step from $P(a)$ to $\exists x \, P(x)$ is the rule of [[existential generalization|33ZNXRFVJJ]].
-A proof that shows existence without naming a witness is a [[non-constructive existence proof|~796d0c7e]].
+A proof that shows existence without naming a witness is a [[non-constructive existence proof|JZQVJ9XT63]].
 
 ## Motivation
 
@@ -46,22 +46,22 @@ In Lean, the tactic `use a` supplies the witness and leaves the goal `P a`; the 
 
 ### Examples
 
-1. [[There are n consecutive composite numbers|~ae66fa41]]: the witnesses are $(n + 1)! + 2, \ldots, (n + 1)! + (n + 1)$.
-2. [[Irrational a and b with a to the power b rational, by construction|~0291138b]]: $a = \sqrt{2}$ and $b = \log_2 9$ give $a^b = 3$.
+1. [[There are n consecutive composite numbers|SJ5MYHND5D]]: the witnesses are $(n + 1)! + 2, \ldots, (n + 1)! + (n + 1)$.
+2. [[Irrational a and b with a to the power b rational, by construction|H7X4FMAHC8]]: $a = \sqrt{2}$ and $b = \log_2 9$ give $a^b = 3$.
 3. Between two rational numbers $p < q$ there is a rational number, for example $\frac{p + q}{2}$. It is rational, and $p < \frac{p + q}{2} < q$.
 4. [[Euclid's theorem|0292EPPPT0]] on the infinitude of primes is constructive: for primes $p_1, \ldots, p_k$, any prime factor of $p_1 p_2 \cdots p_k + 1$ is a prime not in the list.
 5. For integers $a$ and $b$, not both $0$, the extended Euclidean algorithm computes integers $x$ and $y$ with $ax + by = \gcd(a, b)$; see [[greatest common divisor|02WF878BH1]].
 
 ### Non-examples
 
-1. [[The proof by cases that some irrational power is rational|~0fe010ee]]: it shows that one of two pairs works, without saying which one.
+1. [[The proof by cases that some irrational power is rational|7X8GT7Y5WY]]: it shows that one of two pairs works, without saying which one.
 2. The [[pigeonhole principle|0HGVCWQGY3]] proof that among $13$ people two have a birthday in the same month. It shows that such a pair exists but does not name it; a list of the $13$ birthdays is needed to find it.
-3. The proof of the [[intermediate value theorem|00KAFBR32E]] by the least upper bound property. It shows that a root exists but does not compute it; see [[a real root of x^5 - x - 1|~67129905]].
+3. The proof of the [[intermediate value theorem|00KAFBR32E]] by the least upper bound property. It shows that a root exists but does not compute it; see [[a real root of x^5 - x - 1|2W5SMZWGYF]].
 
 ### Basic properties
 
 1. A constructive proof of $\exists x \, P(x)$ has two parts: the witness $a$, and a proof of $P(a)$. A witness without the second part is not a proof.
-2. A witness is seldom unique, and the proof may use any witness. A proof that $\exists x \, P(x)$ says nothing about uniqueness; that is a separate [[proof of uniqueness|~0d8083c0]].
+2. A witness is seldom unique, and the proof may use any witness. A proof that $\exists x \, P(x)$ says nothing about uniqueness; that is a separate [[proof of uniqueness|GQHHNV79PA]].
 3. In [[intuitionistic logic|Q11N8X99FK]], every proof of $\exists x \, P(x)$ can be turned into a witness and a proof of $P$ for it, and every proof of $A \lor B$ tells which of $A$ and $B$ holds. These are the existence property and the disjunction property.
 4. A constructive witness may be far from the best one. The witnesses of example 1 for $n = 4$ are $122$ to $125$, while the first run of four consecutive composite numbers is $24, 25, 26, 27$.
 

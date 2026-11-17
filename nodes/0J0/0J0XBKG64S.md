@@ -54,15 +54,15 @@ Many textbooks call both forms proof by contradiction.
 
 ### Examples
 
-1. [[The logarithm of 3 to base 2 is irrational|~c4c054ce]]: if $\log_2 3 = a/b$, then $2^a = 3^b$, an even number equal to an odd number.
-2. [[There is no smallest positive rational number|~b284a604]]: if $r$ were the smallest, then $r/2$ would be smaller.
+1. [[The logarithm of 3 to base 2 is irrational|8V5FDX9562]]: if $\log_2 3 = a/b$, then $2^a = 3^b$, an even number equal to an odd number.
+2. [[There is no smallest positive rational number|35BR47HYGP]]: if $r$ were the smallest, then $r/2$ would be smaller.
 3. The [[irrationality of the square root of 2|0DZGSDHD92]]: the classical [[proof by lowest terms|7GNMP4Q32W]] assumes $\sqrt{2} = a/b$ and finds that $a$ and $b$ are both even. A second classical proof uses [[infinite descent|0EFYCFHYFG]].
 4. [[Cantor's theorem|0WTEMGYV2C]]: if a function $f$ from a set $S$ onto its power set existed, the set $\{x \in S : x \notin f(x)\}$ would be a value of $f$ and not a value of $f$.
 5. The [[undecidability of the halting problem|Z7TN2B35B0]]: a program that decides halting would give a program that halts exactly when it does not halt.
 
 ### Non-examples
 
-1. [[A direct proof in disguise as a proof by contradiction|~6305be77]]: the assumed negation is never used, so removing it leaves a direct proof.
+1. [[A direct proof in disguise as a proof by contradiction|K686ZGPR17]]: the assumed negation is never used, so removing it leaves a direct proof.
 2. A [[proof by contrapositive|0BB5TPGQ1N]] of "if $A$, then $B$" assumes only not $B$ and proves not $A$. It reaches a specific conclusion, not an arbitrary contradiction.
 3. A computation that shows $x^2 + 1 > 0$ for all real $x$, followed by "so $x^2 + 1 = 0$ has no real solution", is a direct proof of a negative statement. No assumption is made and later rejected.
 
@@ -104,7 +104,7 @@ We prove: there is no integer $n$ with $n^2 = 4n + 2$.
 
 1. Suppose, for a contradiction, that $n$ is an integer with $n^2 = 4n + 2$.
 2. The right side is $2(2n + 1)$, so $n^2$ is even.
-3. By [[the contrapositive of the parity fact|~4eefe6fc]], $n$ is even. Write $n = 2k$.
+3. By [[the contrapositive of the parity fact|MKNWSR8WRN]], $n$ is even. Write $n = 2k$.
 4. Substitute: $4k^2 = 8k + 2$, so $2k^2 = 4k + 1$.
 5. The left side $2k^2$ is even, and the right side $4k + 1$ is odd.
 6. An integer cannot be both even and odd. This is a contradiction.
@@ -121,4 +121,4 @@ In natural deduction, proof by contradiction is the classical rule: from a deriv
 Adding this rule to intuitionistic logic gives exactly classical logic, so the rule marks the boundary between the two.
 Many proofs by contradiction can be rewritten as constructive proofs, and proof mining extracts explicit bounds from such rewritten proofs.
 The method takes the form of diagonal arguments in set theory and computability, as in [[Cantor's diagonal argument|0XCH8QVDCQ]], and of [[infinite descent|0EFYCFHYFG]] and the minimal counterexample method in number theory, which the topic [[induction and well-ordering as proof methods|EEH2F76CYQ]] treats.
-When a proof by contradiction proves an existence statement, the proof is [[non-constructive|~796d0c7e]].
+When a proof by contradiction proves an existence statement, the proof is [[non-constructive|JZQVJ9XT63]].

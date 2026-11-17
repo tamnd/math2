@@ -45,15 +45,15 @@ In the proof assistant Lean, the tactic `intro h` starts a direct proof of a goa
 
 ### Examples
 
-1. [[A direct proof that the square of an odd integer is odd|~08ff3159]]: write $n = 2k + 1$, then $n^2 = 2(2k^2 + 2k) + 1$.
-2. [[A direct proof that divisibility is transitive|~75f3c964]]: from $b = ak$ and $c = bl$ we get $c = a(kl)$.
+1. [[A direct proof that the square of an odd integer is odd|E330HD4J2D]]: write $n = 2k + 1$, then $n^2 = 2(2k^2 + 2k) + 1$.
+2. [[A direct proof that divisibility is transitive|JZ6667K6YD]]: from $b = ak$ and $c = bl$ we get $c = a(kl)$.
 3. [[A proof that the sum of two even integers is even|5M5Q062R1X]]: from $m = 2k$ and $n = 2l$ we get $m + n = 2(k + l)$.
 4. If $x$ is a real number with $x > 1$, then $x^2 > x$. Multiply both sides of $x > 1$ by the positive number $x$.
 5. Every [[group|28PKCPYA2V]] has [[exactly one identity element|GDBV09GFYB]]: if $e$ and $e'$ are identities, then $e = e e' = e'$. Each equality uses the definition of an identity once.
 
 ### Non-examples
 
-1. [[An argument that starts from the conclusion a^2 + b^2 >= 2ab|~d73ceca2]]: the chain runs from the goal to a true statement, so it proves the converse direction only.
+1. [[An argument that starts from the conclusion a^2 + b^2 >= 2ab|2VA8Q8BG5Y]]: the chain runs from the goal to a true statement, so it proves the converse direction only.
 2. The usual proof that $\sqrt{2}$ is irrational, [[by lowest terms|7GNMP4Q32W]], is not direct. It assumes the negation of the conclusion and reaches a contradiction, so it is a [[proof by contradiction|0J0XBKG64S]].
 3. A proof of "if $n^2$ is even, then $n$ is even" through "if $n$ is odd, then $n^2$ is odd" is a [[proof by contrapositive|0BB5TPGQ1N]]. It is a direct proof of a different implication.
 
@@ -108,5 +108,5 @@ A trap: the proof must end in the exact form that the definition requires.
 In natural deduction, a direct proof of $P \to Q$ is an application of the rule of implication introduction: from a derivation of $Q$ under the open assumption $P$, conclude $P \to Q$ and close the assumption.
 This rule is valid in intuitionistic logic, so direct proofs are constructive whenever their steps are.
 Under the Curry-Howard correspondence, a direct proof of $P \to Q$ is a function that takes a proof of $P$ to a proof of $Q$; this is why Lean writes the step as `intro` or as `fun h => ...`.
-Much of the craft of proof lies in the choice of the intermediate statements, and the [[forward-backward method|~f8b8bc06]] is a systematic way to find them.
+Much of the craft of proof lies in the choice of the intermediate statements, and the [[forward-backward method|V8ZB838JY5]] is a systematic way to find them.
 The other methods of this topic change the goal before the direct work starts: the [[contrapositive|0BB5TPGQ1N]] replaces the goal, [[proof by contradiction|0J0XBKG64S]] adds an assumption, and [[mathematical induction|0ASJVEFA9J]] splits a universal goal into a base case and a step.

@@ -47,15 +47,15 @@ In Lean, `rcases h with h1 | h2` and `Or.elim` split a hypothesis `h : A ∨ B`,
 
 ### Examples
 
-1. [[The square of an integer leaves remainder 0 or 1 on division by 3|~d6037862]]: three cases by the remainder of $n$.
-2. [[The triangle inequality for real numbers by cases|~04dd66a7]]: two cases by the sign of $x + y$.
+1. [[The square of an integer leaves remainder 0 or 1 on division by 3|N70XWKTVMC]]: three cases by the remainder of $n$.
+2. [[The triangle inequality for real numbers by cases|P4BF8XV06T]]: two cases by the sign of $x + y$.
 3. For every integer $n$, $n^2 + n$ is even. If $n$ is even, then $n^2$ and $n$ are even. If $n$ is odd, then $n^2$ and $n$ are odd. In both cases the sum is even.
-4. For real $x$ and $y$, $\max(x, y) \geq \frac{x + y}{2}$. If $x \geq y$, then $\max(x, y) = x = \frac{x + x}{2} \geq \frac{x + y}{2}$; the case $y \geq x$ is the same with $x$ and $y$ exchanged. A symmetric split like this one is often shortened by [[without loss of generality|~804de89a]].
+4. For real $x$ and $y$, $\max(x, y) \geq \frac{x + y}{2}$. If $x \geq y$, then $\max(x, y) = x = \frac{x + x}{2} \geq \frac{x + y}{2}$; the case $y \geq x$ is the same with $x$ and $y$ exchanged. A symmetric split like this one is often shortened by [[without loss of generality|Y7NE0E6PCV]].
 5. The [[four colour theorem|0M406JC8J1]] was proved by Appel and Haken in 1976 with a computer check of a large finite set of configurations, a proof by exhaustion.
 
 ### Non-examples
 
-1. [[A case split that misses the interval 0 < x < 1|~ed492ca3]]: the "proof" that $x^2 \geq x$ for all real $x$ checks $x \geq 1$ and $x \leq 0$ only, and the claim fails at $x = \frac{1}{2}$.
+1. [[A case split that misses the interval 0 < x < 1|QEGHS9BAS2]]: the "proof" that $x^2 \geq x$ for all real $x$ checks $x \geq 1$ and $x \leq 0$ only, and the claim fails at $x = \frac{1}{2}$.
 2. Checking the first hundred integers is not a proof by cases for a statement about all integers. The cases do not cover all integers.
 3. A case split whose cases are not proved separately. "Case 1: $n$ even, done. Case 2: similar." is not a proof unless case 2 is in fact the same argument after a change of variable.
 
@@ -111,4 +111,4 @@ A proof that treats only $3k$ and $3k + 1$ looks complete, because two cases fee
 In natural deduction, proof by cases is the elimination rule for disjunction, and it is valid in intuitionistic logic; what intuitionistic logic rejects is the free use of $P \lor \neg P$ to create the cases.
 In type theory, a proof by cases on a hypothesis $A \lor B$ is a function defined by pattern matching on the two constructors of the sum type, and induction is pattern matching on a recursive type.
 Large proofs by exhaustion raise questions of checking and trust, which the topic [[rigour and the acceptance of proofs|1BTHSHST4M]] treats: the four colour theorem was formally verified in the proof assistant Coq by Georges Gonthier and coworkers.
-Case splits are also a source of symmetry arguments, and the method [[without loss of generality|~804de89a]] reduces symmetric cases to one.
+Case splits are also a source of symmetry arguments, and the method [[without loss of generality|Y7NE0E6PCV]] reduces symmetric cases to one.

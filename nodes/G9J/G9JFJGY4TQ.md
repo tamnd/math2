@@ -22,11 +22,11 @@ So the topic also lets a reader find all the proofs in the library that use one 
 ### A map of the methods
 
 1. Methods for an implication "if $P$, then $Q$": [[direct proof|0NTF6DMVAP]] assumes $P$ and derives $Q$; [[proof by contrapositive|0BB5TPGQ1N]] assumes not $Q$ and derives not $P$; [[proof by contradiction|0J0XBKG64S]] assumes $P$ and not $Q$ and derives a contradiction.
-2. Methods for a universal statement "for every $x$, $P(x)$": [[proving universal statements|~ad3ff00f]] with an arbitrary element, [[proof by cases|0WCP0PVET6]], [[without loss of generality|~804de89a]], and, for the natural numbers, [[mathematical induction|0ASJVEFA9J]].
-3. Methods for an existence statement "there is an $x$ with $P(x)$": [[constructive proof|01XM7JEKHY]] names the object, and a [[non-constructive existence proof|~796d0c7e]] shows that it must exist; uniqueness is a separate [[proof of uniqueness|~0d8083c0]].
-4. Methods for an equivalence: [[proving biconditionals and equivalences|~afb23056]] by two directions, or by a cycle of implications for a list.
-5. Methods for a negative statement: a [[counterexample|0ED72CTBNP]] refutes a universal claim, and a [[proof of impossibility|~36702f86]] shows that no object or method of a given kind exists.
-6. A method for finding proofs, rather than for writing them: the [[forward-backward method|~f8b8bc06]].
+2. Methods for a universal statement "for every $x$, $P(x)$": [[proving universal statements|CX38X989TB]] with an arbitrary element, [[proof by cases|0WCP0PVET6]], [[without loss of generality|Y7NE0E6PCV]], and, for the natural numbers, [[mathematical induction|0ASJVEFA9J]].
+3. Methods for an existence statement "there is an $x$ with $P(x)$": [[constructive proof|01XM7JEKHY]] names the object, and a [[non-constructive existence proof|JZQVJ9XT63]] shows that it must exist; uniqueness is a separate [[proof of uniqueness|GQHHNV79PA]].
+4. Methods for an equivalence: [[proving biconditionals and equivalences|TFQ1845T84]] by two directions, or by a cycle of implications for a list.
+5. Methods for a negative statement: a [[counterexample|0ED72CTBNP]] refutes a universal claim, and a [[proof of impossibility|6F55216R53]] shows that no object or method of a given kind exists.
+6. A method for finding proofs, rather than for writing them: the [[forward-backward method|V8ZB838JY5]].
 
 ### Choosing a method by the form of the goal
 
@@ -41,7 +41,7 @@ When the conclusion is a statement about all natural numbers, induction is the f
 ### Direct proof and proof by contradiction
 
 Many statements have both a direct proof and a proof by contradiction, and the two are often the same argument in two forms.
-A proof by contradiction that never uses the assumed negation is a direct proof in disguise, and it is clearer when rewritten as a direct proof; see [[a direct proof in disguise as a proof by contradiction|~6305be77]].
+A proof by contradiction that never uses the assumed negation is a direct proof in disguise, and it is clearer when rewritten as a direct proof; see [[a direct proof in disguise as a proof by contradiction|K686ZGPR17]].
 A proof of a negative statement, such as the irrationality of $\sqrt{2}$, often assumes the positive statement and derives a contradiction.
 Such a proof is a direct proof of a negation, and it is valid in intuitionistic logic as well.
 The strict form, which proves a positive statement from the absurdity of its negation, needs the law of excluded middle.

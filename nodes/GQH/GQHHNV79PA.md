@@ -1,0 +1,107 @@
+---
+tag: GQHHNV79PA
+kind: concept
+name: Proof of uniqueness
+aliases: [uniqueness-proof, existence-and-uniqueness-proof]
+msc: ["00A35", "97E50"]
+topics: [G9JFJGY4TQ, 958EF46EYJ]
+audience: ug1
+specializes: [0B94TKFQJX]
+uses: [ACSC75R7R5, 0QAJHFGZZJ, 0B94TKFQJX, 01XM7JEKHY]
+sources:
+  - url: https://en.wikipedia.org/wiki/Uniqueness_quantification
+    locator: lead section
+  - book: isbn:9781108439534
+    locator: Section 3.6
+---
+
+## Summary
+
+A proof of uniqueness shows that at most one object has a given property $P$.
+There are two standard forms.
+The first form assumes that $x$ and $y$ both satisfy $P$ and proves $x = y$.
+The second form takes a known object $a$ with $P(a)$ and proves that every $x$ with $P(x)$ equals $a$.
+A statement of [[existence and uniqueness|ACSC75R7R5]], "there is exactly one $x$ with $P(x)$", needs two proofs: one of existence and one of uniqueness.
+
+## Motivation
+
+Uniqueness gives the right to say "the".
+Once there is exactly one identity element in a group, it can be called the identity and given a name; once a function has exactly one inverse, the notation $f^{-1}$ makes sense.
+In equations, uniqueness means that the solution found is the only one, so no solution was missed.
+In analysis, uniqueness theorems for limits and for solutions of differential equations make the objects well defined.
+Without uniqueness, every later use would have to say which of several objects it means.
+
+## Notation
+
+"There is a unique $x$ such that $P(x)$" is written $\exists! x \, P(x)$, with the [[uniqueness quantifier|0QAJHFGZZJ]].
+A proof is usually split into two labelled parts: "Existence." and "Uniqueness."
+The uniqueness part often begins "Suppose that $x$ and $y$ both satisfy $P$."
+In Lean, `∃! x, P x` means `∃ x, P x ∧ ∀ y, P y → y = x`; Mathlib's `ExistsUnique.unique` turns a proof of `∃! x, P x` and two proofs `P y₁` and `P y₂` into `y₁ = y₂`.
+
+## Remarks
+
+### Examples
+
+1. [[The congruence 3x = 1 modulo 7 has a unique solution|VY92J0VMG6]]: two solutions $x$ and $y$ give $7 \mid 3(x - y)$, so $x \equiv y \pmod 7$.
+2. [[The exponential function is the only solution of f' = f with f(0) = 1|17X7D2YD39]]: each solution $f$ is compared with the known solution $e^x$.
+3. A group has only one identity element: if $e$ and $e'$ are identities, then $e = e e' = e'$. See [[uniqueness of the identity element|GDBV09GFYB]] and [[the identity element of a group is unique|9BA5AWWYD9]].
+4. The quotient and remainder in the [[division algorithm|0CHQKZFK5S]] are unique: if $a = bq + r = bq' + r'$ with $0 \leq r, r' < b$, then $b \mid r - r'$ and $|r - r'| < b$, so $r = r'$ and $q = q'$.
+5. [[The greatest common divisor is unique|GZHZVV87T0]]: two greatest common divisors divide each other, and both are positive, so they are equal.
+
+### Non-examples
+
+1. [[Dividing x^2 = x by x loses a solution|MNS91DE23K]]: a computation that divides by $x$ finds one solution, $x = 1$, and does not prove that it is the only one.
+2. Finding one solution and stopping. The equation $x^2 = 4$ has the solution $x = 2$, and the statement "the solution is $2$" is false, since $x = -2$ is also a solution.
+3. A proof of "at most one" alone does not prove "exactly one". The equation $x^2 = -1$ has at most one real solution, since it has none.
+
+### Basic properties
+
+1. $\exists! x \, P(x)$ is equivalent to $\exists x \, P(x) \land \forall x \, \forall y \, \big(P(x) \land P(y) \Rightarrow x = y\big)$, and also to $\exists x \, \big(P(x) \land \forall y \, (P(y) \Rightarrow y = x)\big)$.
+2. Existence and uniqueness are independent: a property can have existence without uniqueness ($x^2 = 4$), uniqueness without existence ($x^2 = -1$ in the real numbers), both, or neither.
+3. A uniqueness proof often needs the existence part, in the second form, where a known object $a$ is used as the comparison.
+4. Uniqueness justifies a definite description "the $x$ such that $P(x)$"; see [[definite description|PD2R4XT79Q]].
+5. In algebra and category theory, uniqueness is often only "up to isomorphism": any two objects with the property are isomorphic, and they need not be equal.
+
+### History
+
+Bertrand Russell's theory of descriptions of 1905 analyses a phrase "the $x$ such that $P(x)$" as the claim that exactly one $x$ satisfies $P$, together with a statement about that $x$.
+The symbol $\exists!$ for unique existence is now standard in logic and in mathematical writing.
+
+### Common errors
+
+1. Proving existence and calling it uniqueness, or the reverse. Each part needs its own argument.
+2. Dividing by an expression that can be $0$ while solving, which can remove solutions; see non-example 1.
+3. In the first form, choosing $y$ to be a specific object. Both $x$ and $y$ must be arbitrary objects with the property.
+
+## Explanations
+
+### L1 human
+
+"There is exactly one" says two things.
+First, there is at least one.
+Second, there are not two different ones.
+For example, there is exactly one whole number between $4$ and $6$.
+There is at least one, namely $5$.
+And any whole number between $4$ and $6$ is $5$, so there are not two different ones.
+
+### L2 human
+
+We prove: for real numbers $a \neq 0$ and $b$, the equation $ax + b = 0$ has exactly one real solution.
+
+1. Existence. Let $x_0 = -\frac{b}{a}$, which is defined since $a \neq 0$. Then $a x_0 + b = -b + b = 0$.
+2. Uniqueness. Suppose that $x$ and $y$ are real numbers with $ax + b = 0$ and $ay + b = 0$.
+3. Subtracting gives $a(x - y) = 0$.
+4. Since $a \neq 0$, we can divide by $a$: $x - y = 0$, so $x = y$.
+
+The typical use: subtract the two equations satisfied by $x$ and $y$, and show that the difference is $0$.
+
+A trap: step 4 needs $a \neq 0$.
+For $a = 0$ and $b = 0$, every real number is a solution, so uniqueness fails.
+
+### L3 human
+
+In first-order logic with equality, $\exists! x \, P(x)$ is an abbreviation, and the two forms of the proof correspond to its two equivalent unfoldings.
+In homotopy type theory, unique existence becomes contractibility of the type of pairs $(x, p)$ with $p : P(x)$, which makes "unique up to a unique isomorphism" the basic notion.
+Universal properties in category theory define objects by the unique existence of morphisms, and the standard argument that two such objects are isomorphic is a uniqueness proof of the second form.
+Uniqueness theorems for differential equations, such as the Picard-Lindelöf theorem, follow the same pattern as the exponential example: two solutions are compared, and their difference is shown to vanish.
+More patterns for goals of this kind are collected in the topic [[proof patterns for common goals|MEKKHHQTKB]].
