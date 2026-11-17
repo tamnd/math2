@@ -1,0 +1,63 @@
+---
+tag: 7PBNK2E6DC
+kind: example
+name: Euler's sum of the reciprocal squares by analogy with polynomials
+msc: ["00A35", "40A05"]
+topics: [X1NSTVGDNQ]
+audience: ug2
+instance_of: [7KDT0R1HF2]
+uses: [7KDT0R1HF2, 0DMY75D6FV, DQEHD56649, 02KTRHQMHN]
+sources:
+  - url: https://en.wikipedia.org/wiki/Basel_problem
+    locator: Euler's approach
+---
+
+## Example
+
+Problem: find the sum $1 + \frac{1}{4} + \frac{1}{9} + \cdots = \sum_{k=1}^{\infty} \frac{1}{k^2}$, the [[Basel problem|0DMY75D6FV]].
+Euler found the value by [[analogy|7KDT0R1HF2]] between the function $\frac{\sin x}{x}$ and a polynomial.
+We follow his argument and mark the step that is only analogy.
+
+1. A fact about polynomials. Let $p$ be a polynomial of degree $2m$ with $p(0) = 1$ whose roots are $\pm a_1, \ldots, \pm a_m$, all nonzero. Then $p(x) = \prod_{k=1}^{m} \left(1 - \frac{x^2}{a_k^2}\right)$, because both sides have the same roots, the same degree and the same value at $0$.
+2. Expand the product. The coefficient of $x^2$ in $p$ is $-\sum_{k=1}^{m} \frac{1}{a_k^2}$, since each $x^2$ term comes from one factor.
+3. The analogous function. By the [[power series of sine|02KTRHQMHN]], $\frac{\sin x}{x} = 1 - \frac{x^2}{6} + \frac{x^4}{120} - \cdots$ for $x \ne 0$. Its value at $0$ is taken to be $1$.
+4. Its roots. $\frac{\sin x}{x} = 0$ exactly when $x = \pm k\pi$ with $k = 1, 2, 3, \ldots$.
+5. The analogy. Euler treated $\frac{\sin x}{x}$ like a polynomial "of infinite degree" with these roots and wrote $\frac{\sin x}{x} = \prod_{k=1}^{\infty} \left(1 - \frac{x^2}{k^2 \pi^2}\right)$. This step is not justified by step 1, which is about polynomials.
+6. Compare the coefficients of $x^2$. From step 2, the product gives $-\sum_{k=1}^{\infty} \frac{1}{k^2 \pi^2}$. From step 3, the series gives $-\frac{1}{6}$.
+7. So $\sum_{k=1}^{\infty} \frac{1}{k^2 \pi^2} = \frac{1}{6}$, that is, $\sum_{k=1}^{\infty} \frac{1}{k^2} = \frac{\pi^2}{6}$.
+8. A numerical test. $\frac{\pi^2}{6} = 1.6449340\ldots$, and the partial sums approach this value; the sum of the first $100000$ terms is $1.6449240\ldots$, which differs by about $\frac{1}{100000}$, the size of the tail.
+
+## Remarks
+
+Step 5 is the heuristic step.
+It is not valid in general: the function $e^x \frac{\sin x}{x}$ has the same roots and the same value at $0$, but it is not equal to the product.
+Its coefficient of $x$ is $1$, and the product has no term in $x$.
+So the roots and the value at $0$ do not determine an entire function, as they determine a polynomial.
+The product formula is still true for $\frac{\sin x}{x}$; it is [[Euler's sine product|DQEHD56649]], proved later with the theory of entire functions.
+The page [[Basel problem|0DMY75D6FV]] gives proofs.
+
+The analogy gave more than one result.
+Comparing the coefficients of $x^4$ gives $\frac{1}{2}\left(\left(\sum \frac{1}{k^2}\right)^2 - \sum \frac{1}{k^4}\right) = \frac{\pi^4}{120}$, and so $\sum_{k=1}^{\infty} \frac{1}{k^4} = \frac{\pi^4}{36} - \frac{\pi^4}{60} = \frac{\pi^4}{90}$, which is also correct.
+Each correct new value made the analogy more credible, which is the pattern of [[plausible reasoning|DME0TPC348]].
+
+## Explanations
+
+### L1 human
+
+A polynomial is fixed, up to a constant factor, by the places where it is zero.
+Euler knew where the sine curve crosses zero, and he treated it as if it were a polynomial with infinitely many zeros.
+From that guess he found that $1 + \frac{1}{4} + \frac{1}{9} + \frac{1}{16} + \cdots$ equals $\frac{\pi^2}{6}$, about $1.645$.
+He checked the value by adding many terms, and it agreed.
+The guess was not a proof, but it led to the right answer, and proofs came later.
+
+### L2 human
+
+We check step 1 on a small polynomial, to see the pattern that Euler copied.
+
+1. Take $p(x) = \left(1 - \frac{x^2}{1}\right)\left(1 - \frac{x^2}{4}\right)$, with roots $\pm 1$ and $\pm 2$, and $p(0) = 1$.
+2. Expand: $p(x) = 1 - \left(1 + \frac{1}{4}\right)x^2 + \frac{1}{4}x^4 = 1 - \frac{5}{4}x^2 + \frac{1}{4}x^4$.
+3. The coefficient of $x^2$ is $-\left(\frac{1}{1^2} + \frac{1}{2^2}\right)$, as step 2 of the example says.
+
+The typical use of analogy: a rule proved for finite objects is tried on an infinite object, and the result is tested numerically.
+
+A trap: the rule of step 1 needs the value $p(0) = 1$ and the full list of roots; for infinite products it also needs a growth condition, which step 5 ignores.

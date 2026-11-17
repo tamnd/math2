@@ -1,0 +1,141 @@
+---
+tag: 8JQHJK94RZ
+kind: concept
+name: Writing proofs
+aliases: [writing-mathematical-proofs, proof-writing]
+msc: ["00A35", "97E50"]
+topics: [STSM6PR7TX]
+audience: ug1
+uses: [0B94TKFQJX, S9MHMRAX88]
+sources:
+  - url: https://en.wikipedia.org/wiki/Mathematical_proof
+    locator: Nature and purpose
+  - url: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Mathematics
+    locator: Writing style in mathematics
+  - book: isbn:9781108439534
+    locator: Chapter 3
+---
+
+## Summary
+
+Writing a proof is the method of turning an argument into a text that a stated reader can check step by step.
+The text states exactly what is proved and introduces each letter with its type.
+It gives a reason for each step and uses full sentences.
+It tells the reader where the argument goes, and it ends with the claim.
+Each reason is a hypothesis, a definition, an earlier result or a rule of logic.
+The method matters because a [[mathematical proof|0B94TKFQJX]] does its work only when another person can read and check it.
+
+## Motivation
+
+A student often finds a correct idea and still loses most of the marks.
+The written answer is a column of formulas: it does not say what is assumed, why each line follows, or what the last line shows.
+The grader cannot check it, so the grader cannot accept it.
+The same happens in research: a referee cannot accept a paper whose main step is missing.
+A proof is a message from a writer to a reader, and the reader has only the text.
+The method of this page lists what the text must contain so that the message arrives.
+
+## Remarks
+
+### When it applies
+
+The method applies to every proof that another person will read: homework, an examination, a thesis, a paper or a textbook.
+It also applies to a proof that the writer will read later, because a writer forgets the reasons of a step within weeks.
+
+### The steps
+
+1. State what is proved. Write the full [[statement|S9MHMRAX88]] with its hypotheses and its conclusion, as in [[hypotheses and conclusion of a theorem|W48XN2MEM9]].
+2. Choose the reader. Decide what the reader knows, and so which facts need a proof and which facts can be quoted.
+3. Say what the proof assumes and what it will show. For a [[direct proof|0NTF6DMVAP]], write "Suppose that ..."; for a [[proof by contradiction|0J0XBKG64S]], write "Suppose, for a contradiction, that ...".
+4. Introduce each letter once, with its type: "Let $n$ be an integer", "there is an integer $k$ with $n = 2k$".
+5. Give a reason for each step that the reader cannot check at a glance. Name the definition, the hypothesis or the result that the step uses.
+6. Write full sentences. A formula is a part of a sentence, and a display formula ends with a full stop or a comma.
+7. Guide the reader. Before a long argument, say its plan, for example "We prove the two inclusions" or "We split into two cases".
+8. End with the conclusion in the words of the statement, and mark the end, as in [[Q.E.D. and end of proof marks|ET9J6R9T5C]].
+9. Read the text again as the chosen reader, and fix each step that the reader cannot check.
+
+### Examples
+
+1. [[A written proof that the product of two odd integers is odd|B48X7ZWD5W]]: six sentences, each with one job, from the hypothesis to the conclusion.
+2. [[One proof written for two readers|7FW2WDYPVR]]: the claim that $n^2 - n$ is even, in two versions. It is proved in full for a first-year course and in one sentence for an expert.
+3. [[The proof that the sum of two even integers is even|5M5Q062R1X]] writes the integers as $2a$ and $2b$, names the definition, and states the conclusion.
+4. A proof of a set equality says its plan first, as in [[set equality by double inclusion|MKHVRNW68H]]. It starts with "We show $A \subseteq B$ and $B \subseteq A$", and the reader then knows the shape of the rest.
+5. A proof by [[mathematical induction|0ASJVEFA9J]] labels its parts "Base case" and "Induction step", and it states the induction hypothesis in full before it uses it.
+
+### Non-examples
+
+1. [[A bare computation is not a written proof|4HSYD7GD6V]]: the text "$(x-2)(x-3) < 0$. $x \in (2,3)$." has a true outline, but it states no claim and gives no reason for its main step.
+2. A proof that starts "Assume $x > 0$" for the claim "for every real $x$, $x^2 \ge 0$" proves only a part of the claim. The step "state what is proved" fails, because the writer has changed the claim.
+3. A text writes "$m = 2k$ and $n = 2k$" for two arbitrary even numbers $m$ and $n$. It uses one letter for two different numbers, so it is not a proof. The step "introduce each letter once" fails.
+
+### Basic properties
+
+1. A written proof is correct only if the argument is correct. Good writing cannot repair a false step, but it makes the false step visible.
+2. The same argument has many correct written forms. They differ in the order of the parts and in the steps that the writer leaves to the reader.
+3. Each omitted step must be one that the chosen reader can supply. This is the subject of [[level of detail in proofs|VYGBV5D8Y4]].
+4. The written proof often follows another order than the search for the argument, as the page [[scratch work and the final proof|E97XXFW9MV]] explains.
+5. The words of a proof have fixed uses, such as "let", "suppose", "hence" and "we claim". The page [[the language of proofs|GKMRQCA8CW]] lists them.
+
+### Related methods
+
+1. [[Scratch work and the final proof|E97XXFW9MV]] separates the search for a proof from its presentation.
+2. [[Proof strategies by logical form|872K5XB580]] tells the writer what the first and the last sentence of each part must be.
+3. [[Mathematical writing style|D5YPYTQ88G]] gives the rules at the level of sentences and symbols.
+4. [[Structured and hierarchical proofs|H2W8D7BMSW]] and [[two-column proofs|P8PCGFASP8]] are two fixed formats for the same content.
+5. [[Reading proofs|40GCSM2G56]] and [[checking a proof|4M98ZZNK0E]] are the same skills from the side of the reader.
+
+### History
+
+[[Euclid's Elements|83WHDAV68J]], written around 300 BC, gives each proposition as a statement, a proof and a closing sentence that repeats what was shown.
+Paul Halmos wrote the essay "How to write mathematics" in 1970, and Leslie Lamport proposed structured proofs in "How to Write a Proof" in 1995.
+Donald Knuth, Tracy Larrabee and Paul Roberts published the book "Mathematical Writing" in 1989.
+Transition-to-proof textbooks such as Velleman's "How to Prove It" teach the writing of proofs together with the logic of proofs.
+
+The advice of these authors agrees on the main points: state the claim, know the reader, give reasons, and write sentences.
+It differs on details.
+Some authors want "we" in every proof, and others accept "I" in a paper with one author.
+Some authors forbid logical symbols such as $\forall$ and $\Rightarrow$ in running text, and others accept them in short formulas.
+This site follows "we" and words in running text, as advice and not as law.
+
+### Common errors
+
+1. The writer proves a special case and does not say so. For example, the writer checks $n = 1, 2, 3$ for a claim about every integer $n$.
+2. The writer gives the steps without their reasons. The reader then cannot tell a deduction from a guess.
+3. The writer uses a word that claims a step is easy in place of a reason. The page on [[such words|Y0HXCJRB9B]] explains when they hide a gap.
+
+## Explanations
+
+### L1 human
+
+A proof is a letter to a reader who wants to check the claim.
+The reader has only the page, and cannot ask the writer what a line means.
+So the writer says first what the claim is.
+Then the writer explains each step and its reason, in sentences, as in "$6 = 2 \times 3$, so $6$ is even".
+At the end the writer says that the claim is shown.
+A good test is to give the proof to a friend in the same class and ask whether each line can be checked.
+
+### L2 human
+
+We write a proof that if $a$ divides $b$ and $a$ divides $c$, then $a$ divides $b + c$, for integers $a$, $b$, $c$.
+
+1. State the claim: "Let $a$, $b$, $c$ be integers. If $a \mid b$ and $a \mid c$, then $a \mid b + c$."
+2. State the assumption: "Suppose that $a \mid b$ and $a \mid c$."
+3. Unpack with reasons, and use two letters, because the two quotients can differ. "By the definition of [[divisibility|0PG2H7WKGG]], there are integers $s$ and $t$ with $b = as$ and $c = at$."
+4. Compute in a sentence: "Then $b + c = as + at = a(s + t)$."
+5. Give the type: "The number $s + t$ is an integer."
+6. Conclude: "So $a \mid b + c$, by the definition of divisibility." End with $\square$.
+7. Check with numbers: for $a = 3$, $b = 6$, $c = 15$ we get $s = 2$, $t = 5$, and $b + c = 21 = 3 \cdot 7$.
+
+The typical use of the method is every proof in a course, from parity exercises to the proofs of analysis.
+A trap is to write $b = ak$ and $c = ak$ with one letter $k$; this assumes $b = c$, and the proof then covers only that case.
+
+### L3 human
+
+Writing a proof is a translation from a private argument to a public text, and the target language is fixed by the reader.
+At one end of the scale is the formal derivation of [[natural deduction|6KT3BJZ7D1]] or of a proof assistant.
+There each step is an instance of a rule, and a machine checks it, as on the page [[proof assistants and their design|YM6PRDE88V]].
+At the other end is the research paper, whose proofs leave out every step that an expert can supply.
+The rules of this page are the common part: an explicit claim, explicit hypotheses, a reason for each step, and a stated end.
+The structured proofs of Lamport bring the explicit tree of a formal proof into human writing, while the rules of style keep the text readable.
+The later pages of this topic treat the parts of the method.
+They are the separation of [[scratch work|E97XXFW9MV]], the choice of [[detail|VYGBV5D8Y4]], the [[style|D5YPYTQ88G]], and the [[structure of a paper|XZHACQ74C0]].
+The study of how students and mathematicians read proofs belongs to [[teaching reasoning and proof|VHGA6J4NZK]].

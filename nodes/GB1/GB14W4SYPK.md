@@ -28,7 +28,7 @@ The enumerative and extremal results that the methods prove have their own pages
 8. [[Invariants|8NQ190278Y]]: a quantity that no move changes rules out some targets.
 9. [[Monovariants|TP3GC5J08D]]: a quantity that moves one way proves that a process stops.
 10. [[Parity arguments|H9JT1XNDKQ]]: even and odd counts show that a configuration is impossible.
-11. [[Coloring proofs|90Q4PK1CST]]: a colouring of cells defines an invariant for tilings.
+11. [[Colouring proofs|90Q4PK1CST]]: a colouring of cells defines an invariant for tilings.
 12. [[Extremal principle|MD3MRG90W4]]: a largest or smallest object has extra properties.
 13. [[Averaging argument|HXP9VMXV8S]]: some element is at least the average.
 14. [[Counting arguments for existence|1KVSS0KRZA]]: more objects than bad cases give a good object.
