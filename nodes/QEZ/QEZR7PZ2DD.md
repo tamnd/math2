@@ -26,7 +26,7 @@ The *Gödel-Gentzen negative translation* is the map $A \mapsto A^N$ on formulas
 6. $(\exists x\, A)^N = \neg \forall x\, \neg A^N$.
 
 For a set of formulas $\Gamma$, let $\Gamma^N = \set{A^N : A \in \Gamma}$.
-Its main property is the [[Gödel-Gentzen translation theorem|~c9a9f7c2]]: $\Gamma \vdash A$ in classical logic if and only if $\Gamma^N \vdash A^N$ in [[intuitionistic logic|Q11N8X99FK]].
+Its main property is the [[Gödel-Gentzen translation theorem|WC4TDGEWZR]]: $\Gamma \vdash A$ in classical logic if and only if $\Gamma^N \vdash A^N$ in [[intuitionistic logic|Q11N8X99FK]].
 
 The *Kolmogorov translation* $A \mapsto A^K$ puts a double negation in front of every subformula.
 

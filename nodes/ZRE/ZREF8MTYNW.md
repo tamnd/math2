@@ -6,7 +6,7 @@ msc: ["03F10", "03F25", "03F50"]
 defines: HZ17ES9PDY
 topics: [8XY7JYZKFW]
 audience: grad
-uses: [RXHJPVMPJH, CK8ZQRN183, 5NVA2JRHPV, HGJVM49PA4, S9DK13K5PS, ~62fef358]
+uses: [RXHJPVMPJH, CK8ZQRN183, 5NVA2JRHPV, HGJVM49PA4, S9DK13K5PS, A4WR995XZP]
 sources:
   - url: https://en.wikipedia.org/wiki/Dialectica_interpretation
   - url: https://en.wikipedia.org/wiki/Dialectica_interpretation
@@ -15,7 +15,7 @@ sources:
 
 ## Definition
 
-Let $\mathrm{T}$ be [[Gödel's system T|~62fef358]] of [[primitive recursive|5NVA2JRHPV]] functionals of finite type.
+Let $\mathrm{T}$ be [[Gödel's system T|A4WR995XZP]] of [[primitive recursive|5NVA2JRHPV]] functionals of finite type.
 To each formula $A$ of [[Heyting arithmetic|RXHJPVMPJH]], the *Dialectica interpretation* assigns a formula $A^D = \exists x\, \forall y\, A_D(x, y)$.
 Here $x$ and $y$ are finite tuples of variables of finite type, and $A_D$ is quantifier-free.
 Write $A^D = \exists x\, \forall y\, A_D(x, y)$ and $B^D = \exists u\, \forall v\, B_D(u, v)$.
@@ -34,12 +34,12 @@ Negation $\neg A$ is read as $A \to (0 = 1)$.
 
 The tuple $x$ is the witness and the tuple $y$ the counterexample, or challenge.
 In clause 4, $f$ maps a witness of $A$ and a challenge of $B$ to a challenge of $A$, and $g$ maps a witness of $A$ to a witness of $B$.
-We write $f x v$ for the application $(f\, x)\, v$, as in [[system T|~62fef358]].
+We write $f x v$ for the application $(f\, x)\, v$, as in [[system T|A4WR995XZP]].
 In examples we treat $n < m$ as an atomic formula, as in HA with symbols for all primitive recursive functions and relations.
 
 ## Remarks
 
-The [[soundness theorem|~9cb2c479]] (Gödel): if Heyting arithmetic proves a closed formula $A$, then there is a tuple $t$ of closed terms of $\mathrm{T}$ such that $\mathrm{T}$ proves $A_D(t, y)$.
+The [[soundness theorem|6QFRG42QQR]] (Gödel): if Heyting arithmetic proves a closed formula $A$, then there is a tuple $t$ of closed terms of $\mathrm{T}$ such that $\mathrm{T}$ proves $A_D(t, y)$.
 Example: for $A = \forall n\, \exists m\, (n < m)$, clauses 5 and 6 give $A^D = \exists f\, \forall n\, (n < f n)$, and the term $f = \lambda n.\, n + 1$ is a witness.
 Non-example: let $P(n, k)$ be the primitive recursive relation, given by [[Kleene's T predicate|S9DK13K5PS]], which says that the program $n$ on input $n$ halts within $k$ steps.
 The formula $\forall n\, (\exists k\, P(n, k) \vee \neg \exists k\, P(n, k))$ has no witness in $\mathrm{T}$.

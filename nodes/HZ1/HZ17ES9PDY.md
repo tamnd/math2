@@ -5,7 +5,7 @@ name: Dialectica interpretation
 msc: ["03F10", "03F25", "03F50"]
 topics: [8XY7JYZKFW]
 audience: grad
-uses: [CK8ZQRN183, RXHJPVMPJH, 5NVA2JRHPV, ZREF8MTYNW, ~62fef358, HGJVM49PA4]
+uses: [CK8ZQRN183, RXHJPVMPJH, 5NVA2JRHPV, ZREF8MTYNW, A4WR995XZP, HGJVM49PA4]
 sources:
   - url: https://en.wikipedia.org/wiki/Dialectica_interpretation
   - url: https://en.wikipedia.org/wiki/Dialectica_interpretation
@@ -21,7 +21,7 @@ same_as:
 
 ## Summary
 
-The Dialectica interpretation is Gödel's translation of [[Heyting arithmetic|CK8ZQRN183]] into [[Gödel's system T|~62fef358]], the quantifier-free theory of [[primitive recursive|5NVA2JRHPV]] functionals of finite type.
+The Dialectica interpretation is Gödel's translation of [[Heyting arithmetic|CK8ZQRN183]] into [[Gödel's system T|A4WR995XZP]], the quantifier-free theory of [[primitive recursive|5NVA2JRHPV]] functionals of finite type.
 To each formula $A$ it assigns a formula $A^D = \exists x\, \forall y\, A_D(x, y)$, where $x$ and $y$ are tuples of variables of finite type and $A_D$ is quantifier-free; the [[definition|ZREF8MTYNW]] gives the clauses.
 The soundness theorem says: if HA proves $A$, then a tuple $t$ of terms of T satisfies $\mathsf{T} \vdash A_D(t, y)$.
 The idea matters because it reads off computable witnesses and bounds from proofs, and, after a [[double-negation translation|HGJVM49PA4]], it reduces the consistency of PA to that of T.
@@ -47,20 +47,20 @@ AC is the axiom of choice in all finite types, MP is Markov's principle for quan
 ### Examples
 
 - For $A = \forall n\, \exists m\, (n < m)$, the interpretation is $A^D = \exists f\, \forall n\, (n < f n)$, and the term $\lambda n.\, S\, n$ is a witness.
-- [[Markov's principle is interpreted by the identity|~f0f007c4]]: the formula $\neg \neg \exists y\, \varphi(y) \to \exists y\, \varphi(y)$ with $\varphi$ quantifier-free has a witness in T.
-- [[The contraction axiom for a universal formula|~30bdde8d]]: the witness for $A \to A \wedge A$ uses a definition by cases on the quantifier-free matrix.
+- [[Markov's principle is interpreted by the identity|9YVRTGXKZF]]: the formula $\neg \neg \exists y\, \varphi(y) \to \exists y\, \varphi(y)$ with $\varphi$ quantifier-free has a witness in T.
+- [[The contraction axiom for a universal formula|XWHF8SMTEF]]: the witness for $A \to A \wedge A$ uses a definition by cases on the quantifier-free matrix.
 - An implication $\forall y\, \varphi(y) \to \forall z\, \psi(z)$ with quantifier-free $\varphi$ and $\psi$ asks for a functional $Y$ with $\varphi(Y z) \to \psi(z)$: from each $z$ that might fail, find a $y$ that fails too.
 - Via the negative translation, a theorem $\forall n\, \exists m\, \varphi(n, m)$ of PA, with $\varphi$ quantifier-free, gives a closed term $t$ of type $1$ with $\mathsf{T} \vdash \varphi(n, t\, n)$.
 
 ### Non-examples
 
-- [[Excluded middle for the halting problem|~8d002a7b]]: $\forall n\, (\exists k\, P(n, k) \vee \neg \exists k\, P(n, k))$ has no witness in T. The condition that fails: the witness would decide the halting problem.
+- [[Excluded middle for the halting problem|9NTJJMPZ29]]: $\forall n\, (\exists k\, P(n, k) \vee \neg \exists k\, P(n, k))$ has no witness in T. The condition that fails: the witness would decide the halting problem.
 - Full extensionality in all finite types. The condition that fails: Howard showed that its interpretation has no witness in T, so the interpretation uses a weakly extensional theory.
 - A direct interpretation of PA without the negative translation. The condition that fails: excluded middle is not interpreted, as the halting example shows.
 
 ### Basic properties
 
-- [[Soundness|~9cb2c479]]: HA proves $A$ only if T proves $A_D(t, y)$ for some terms $t$. The same holds for $\mathsf{HA}^\omega + \mathrm{AC} + \mathrm{MP} + \mathrm{IP}_\forall$.
+- [[Soundness|6QFRG42QQR]]: HA proves $A$ only if T proves $A_D(t, y)$ for some terms $t$. The same holds for $\mathsf{HA}^\omega + \mathrm{AC} + \mathrm{MP} + \mathrm{IP}_\forall$.
 - Characterization: $\mathsf{HA}^\omega + \mathrm{AC} + \mathrm{MP} + \mathrm{IP}_\forall$ proves $A \leftrightarrow A^D$ for every formula $A$.
 - For quantifier-free $A$, $A^D$ is $A$ itself, with empty tuples.
 - Every type-1 function given by the interpretation is definable in T, so it is $\alpha$-recursive for some $\alpha < \varepsilon_0$.
@@ -69,8 +69,8 @@ AC is the axiom of choice in all finite types, MP is Markov's principle for quan
 ### History
 
 Gödel published the interpretation in 1958, in the journal Dialectica, which gave it its name.
-Spector extended it to classical analysis by [[bar recursion|~a7df5e71]] in 1962.
-Kreisel used it, together with the [[no-counterexample interpretation|~42908449]], to extract bounds from proofs, and Kohlenbach developed this into [[proof mining|~7cf2af55]].
+Spector extended it to classical analysis by [[bar recursion|8CCG6F2FAT]] in 1962.
+Kreisel used it, together with the [[no-counterexample interpretation|4BCD1EM542]], to extract bounds from proofs, and Kohlenbach developed this into [[proof mining|XR1JXQG1CD]].
 
 ### Common errors
 
@@ -105,5 +105,5 @@ A trap is to forget the backward part $Y$: the conclusion needs the premise only
 The interpretation is a functional interpretation: formulas become types of witnesses and challenges, and proofs become terms.
 In categorical terms, de Paiva's Dialectica categories model it, and they are models of linear logic; this explains the role of contraction.
 Variants include Shoenfield's interpretation of classical arithmetic, Diller and Nahm's variant, the monotone interpretation of Kohlenbach and the bounded functional interpretation of Ferreira and Oliva.
-With bar recursion it interprets classical analysis, and its monotone form underlies [[proof mining|~7cf2af55]] in analysis.
-Composed with the negative translation, it shows that PA and HA prove the same $\Pi^0_2$ sentences, a result that [[Friedman's A-translation|~10a427f4]] also gives.
+With bar recursion it interprets classical analysis, and its monotone form underlies [[proof mining|XR1JXQG1CD]] in analysis.
+Composed with the negative translation, it shows that PA and HA prove the same $\Pi^0_2$ sentences, a result that [[Friedman's A-translation|6CCK0TT69P]] also gives.

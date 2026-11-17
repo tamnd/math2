@@ -8,7 +8,7 @@ audience: grad
 not_instance_of:
   - target: N238J43XNE
     note: "PA + Con(PA) proves the arithmetic sentence Con(PA), which PA does not prove by the second incompleteness theorem."
-  - target: ~fc5d3da7
+  - target: TNZ995J8AP
     note: "PA + Con(PA) is not even Pi-0-1-conservative over PA, since Con(PA) is a Pi-0-1 sentence."
 uses: [N238J43XNE, 0QFT7Z76N5, 4PZM5GJTR5, MFJXPAF0R0, VM8TQ70CVJ]
 sources:
