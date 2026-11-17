@@ -1,0 +1,66 @@
+---
+tag: ZT5KV6KJ3E
+kind: statement
+role: theorem
+name: Ramsey's theorem for pairs in reverse mathematics
+msc: ["03B30", "05D10", "03D80"]
+topics: [BY8AAFN7C5]
+audience: grad
+about: [00TQV3F5S4, 7SQS69T17R]
+uses: [00TQV3F5S4, DNXCKXZZ08, K5YPW1NTHZ, K9XG0Z2N9V, 0FS3RHF6KE]
+sources:
+  - url: https://en.wikipedia.org/wiki/Ramsey%27s_theorem
+    locator: Reverse mathematics
+  - url: https://en.wikipedia.org/wiki/Reverse_mathematics
+    locator: Arithmetical comprehension ACA0
+---
+
+## Statement
+
+For a set $X \subseteq \N$, let $[X]^2$ be the set of pairs $\set{x, y}$ with $x < y$ in $X$.
+A *coloring* of pairs is a function $c \colon [\N]^2 \to \set{0, 1}$, coded as a set of triples.
+A set $H$ is *homogeneous* for $c$ if $c$ is constant on $[H]^2$.
+
+$\mathrm{RT}^2_2$ is the sentence of $L_2$: for every coloring $c$ of pairs there is an infinite set $H$ that is homogeneous for $c$.
+This is the infinite [[Ramsey theorem|00TQV3F5S4]] for pairs and two colors.
+
+1. $\mathsf{ACA}_0 \vdash \mathrm{RT}^2_2$.
+2. $\mathsf{WKL}_0 \nvdash \mathrm{RT}^2_2$. In particular $\mathsf{RCA}_0 \nvdash \mathrm{RT}^2_2$.
+3. $\mathsf{RCA}_0 + \mathrm{RT}^2_2 \nvdash \mathsf{ACA}_0$.
+4. $\mathsf{RCA}_0 + \mathrm{RT}^2_2 \nvdash \mathsf{WKL}_0$.
+
+So over [[RCA0|DNXCKXZZ08]], $\mathrm{RT}^2_2$ lies strictly between $\mathsf{RCA}_0$ and [[ACA0|K9XG0Z2N9V]], and it is incomparable with [[WKL0|K5YPW1NTHZ]].
+
+## Remarks
+
+Part 1 is the classical proof, written in $\mathsf{ACA}_0$.
+Part 2 is due to Carl Jockusch (1972), who built a computable coloring of pairs with no infinite $\Sigma^0_2$ homogeneous set.
+Part 3 is due to David Seetapun, in a paper with Theodore Slaman (1995).
+Part 4 is due to Jiayi Liu (2012).
+
+For exponents $n \ge 3$ the situation is different: over $\mathsf{RCA}_0$, $\mathrm{RT}^n_2$ is equivalent to $\mathsf{ACA}_0$, as the [[example for triples|5DBP11VZTF]] shows for $n = 3$.
+For exponent $1$, $\mathrm{RT}^1_2$ is the [[infinite pigeonhole principle|0FS3RHF6KE]], and $\mathsf{RCA}_0$ proves it.
+
+$\mathrm{RT}^2_2$ is a central example of a theorem outside the big five systems, and the study of its strength led to the [[reverse mathematics zoo|E3X5B175ZR]].
+Cholak, Jockusch and Slaman (2001) split $\mathrm{RT}^2_2$ into a stable part and a cohesive part.
+They also showed that $\mathsf{RCA}_0 + \mathrm{RT}^2_2 + \mathrm{I}\Sigma^0_2$ is $\Pi^1_1$-conservative over $\mathsf{RCA}_0 + \mathrm{I}\Sigma^0_2$.
+
+### First-order strength
+
+Over $\mathsf{RCA}_0$, $\mathrm{RT}^2_2$ proves $\Sigma^0_2$ bounding, a result of Jeffry Hirst.
+Chong, Slaman and Yang showed that $\mathsf{RCA}_0 + \mathrm{RT}^2_2$ does not prove $\Sigma^0_2$ induction.
+The exact first-order part of $\mathsf{RCA}_0 + \mathrm{RT}^2_2$ is not known.
+
+## Explanations
+
+### L1 human
+
+Ramsey's theorem for pairs says that if every pair of numbers gets one of two colors, then some infinite set has all its pairs of the same color.
+The theorem is stronger than what computable mathematics can prove, but it is weaker than arithmetical comprehension.
+It does not even imply weak König's lemma.
+
+### L2 human
+
+Part 1 is the textbook proof, made precise by one use of König's lemma.
+Parts 2, 3 and 4 are each shown with an $\omega$-model: a family of sets that satisfies one theory and fails the other.
+Parts 3 and 4 need deep constructions of homogeneous sets that avoid a given kind of information, and they are cited without proof.

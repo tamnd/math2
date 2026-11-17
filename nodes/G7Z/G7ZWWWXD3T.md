@@ -1,0 +1,65 @@
+---
+tag: G7ZWWWXD3T
+kind: proof
+name: Proof that the Heine-Borel theorem for the unit interval is equivalent to WKL0
+msc: ["03B30", "03F35"]
+topics: [BY8AAFN7C5]
+audience: grad
+proves: KRS3VTWCHJ
+uses: [DNXCKXZZ08, K5YPW1NTHZ, Y92NXGEQBD]
+methods: [TFQ1845T84, 0J0XBKG64S, 0WCP0PVET6]
+sources:
+  - url: https://en.wikipedia.org/wiki/Reverse_mathematics
+    locator: Weak Kőnig's lemma WKL0
+---
+
+## Proof
+
+Work in $\mathsf{RCA}_0$.
+For $\sigma \in 2^{<\N}$ of length $k$, let $c_\sigma = \sum_{i < k} \sigma(i)\, 2^{-(i+1)}$ and $D_\sigma = [c_\sigma, c_\sigma + 2^{-k}]$, a dyadic interval.
+
+Part 1: $\mathrm{WKL}$ implies $\mathrm{HB}$.
+
+1. Let $(a_n, b_n)_n$ cover $[0, 1]$. Let $T$ be the set of $\sigma$ such that no $n < \abs{\sigma}$ has $a_n < c_\sigma$ and $c_\sigma + 2^{-\abs{\sigma}} < b_n$.
+2. The condition compares rationals and has a bounded quantifier, so $\Delta^0_1$ comprehension gives $T$.
+3. $T$ is a tree. If $\tau \subseteq \sigma$ and $D_\tau \subseteq (a_n, b_n)$ with $n < \abs{\tau}$, then $D_\sigma \subseteq D_\tau \subseteq (a_n, b_n)$ and $n < \abs{\sigma}$.
+4. Assume $T$ is infinite. $\mathrm{WKL}$ gives a path $g$. Let $q_k = c_{g \restriction k}$.
+5. The sequence $(q_k)$ is non-decreasing and $q_l - q_k \le 2^{-k}$ for $k < l$. So it is a real $x$, with $x \in [0, 1]$ and $x \in D_{g \restriction k}$ for all $k$.
+6. By the cover, $x \in (a_n, b_n)$ for some $n$. Choose $k > n$ with $2^{-k} < \min(x - a_n, b_n - x)$.
+7. Then $c_{g \restriction k} \ge x - 2^{-k} > a_n$ and $c_{g \restriction k} + 2^{-k} \le x + 2^{-k} < b_n$. So $g {\restriction} k \notin T$, a contradiction.
+8. So $T$ is finite. Since $T$ is a tree, there is $k$ such that no $\sigma$ of length $k$ is in $T$.
+9. Then each $\sigma$ of length $k$ has some $n < k$ with $D_\sigma \subseteq (a_n, b_n)$. The intervals $D_\sigma$ with $\abs{\sigma} = k$ cover $[0, 1]$.
+10. So $[0, 1]$ is covered by $(a_n, b_n)$ with $n < k$, and $N = k$ works.
+
+Part 2: $\mathrm{HB}$ implies $\mathrm{WKL}$.
+For $\sigma$ of length $k$, let $e_\sigma = \sum_{i < k} 2\sigma(i)\, 3^{-(i+1)}$ and $C_\sigma = [e_\sigma, e_\sigma + 3^{-k}]$.
+Then $C_{\sigma 0}$ and $C_{\sigma 1}$ are the left and right thirds of $C_\sigma$, and $G_\sigma = (e_\sigma + 3^{-k-1}, e_\sigma + 2 \cdot 3^{-k-1})$ is the open middle third.
+
+11. Let $T$ be an infinite binary tree, and assume that $T$ has no path.
+12. For $\sigma \notin T$ of length $k$, let $U_\sigma = (e_\sigma - 3^{-k-1}, e_\sigma + 3^{-k} + 3^{-k-1})$. Let $\sigma_0, \sigma_1, \ldots$ list $2^{<\N}$ by length and then lexicographically.
+13. Define the sequence of intervals $I_{2n} = G_{\sigma_n}$, and $I_{2n+1} = U_{\sigma_n}$ if $\sigma_n \notin T$, else $I_{2n+1} = G_{\sigma_n}$. It exists by $\Delta^0_1$ comprehension from $T$.
+14. Claim: the $I_m$ cover $[0, 1]$. Let $x \in [0, 1]$. If $x$ lies in some $G_\sigma$, we are done. Assume it lies in none.
+15. Two distinct intervals $C_\sigma, C_\tau$ of the same length $k$ are at distance at least $3^{-k}$. They lie on opposite sides of a middle third $G_\rho$ with $\abs{\rho} < k$.
+16. From the code of $x$, choose for each $k$ a rational $r_k$ with $\abs{x - r_k} < 3^{-k-1}$.
+17. Let $h(k)$ be the first $\sigma$ of length $k$ with $C_\sigma$ at distance less than $3^{-k-1}$ from $r_k$, and $h(k) = \langle \rangle$ if there is none. $\Delta^0_1$ comprehension gives $h$.
+18. If $x \in C_\sigma$ and $\abs{\sigma} = k$, then $h(k) = \sigma$. Indeed $\sigma$ qualifies, and by step 15 no other sequence of length $k$ qualifies.
+19. By $\Pi^0_1$ induction on $k$, which $\mathsf{RCA}_0$ proves, $x \in C_{h(k)}$ for all $k$. The base case is $C_{\langle \rangle} = [0, 1]$.
+20. For the induction step, $C_{h(k)} = C_{h(k) 0} \cup G_{h(k)} \cup C_{h(k) 1}$ and $x \notin G_{h(k)}$. So $x \in C_{h(k) i}$ for some $i$, and $h(k + 1) = h(k) i$ by step 18.
+21. So the function $g(k) = $ last entry of $h(k + 1)$ has $g {\restriction} k = h(k)$ for all $k$.
+22. $g$ is not a path through $T$, so $g {\restriction} k \notin T$ for some $k$. Then $x \in C_{g \restriction k} \subseteq U_{g \restriction k}$, and $U_{g \restriction k}$ is some $I_m$.
+23. Claim: for each $N$, the intervals $I_0, \ldots, I_{2N-1}$ do not cover $[0, 1]$. Each $\sigma_n$ with $n < N$ has length at most $N$.
+24. $T$ is infinite, so it has some $\tau$ of length $N + 1$. Let $\gamma$ be $\tau$ followed by zeros, and let $y = e_\tau$.
+25. Then $y \in C_{\gamma \restriction j}$ for every $j$. For $j \le N + 1$ this holds since $y \in C_\tau \subseteq C_{\tau \restriction j}$, and for larger $j$ since $y$ is the left end of $C_{\gamma \restriction j}$.
+26. For $\abs{\rho} = j$, the gap $G_\rho$ is disjoint from every $C_\sigma$ with $\abs{\sigma} = j + 1$. So $y \notin G_\rho$, by step 25.
+27. Let $\sigma = \sigma_n \notin T$ with $n < N$, of length $k \le N$. Then $\sigma \ne \tau {\restriction} k$, since $\tau {\restriction} k \in T$.
+28. By step 15, $C_\sigma$ and $C_{\tau \restriction k}$ are at distance at least $3^{-k}$. $U_\sigma$ extends $C_\sigma$ by $3^{-k-1}$ on each side, so $y \in C_{\tau \restriction k}$ is not in $U_\sigma$.
+29. So $y \in [0, 1]$ lies in no $I_m$ with $m < 2N$. Since $N$ is arbitrary, this contradicts $\mathrm{HB}$. So $T$ has a path.
+
+## Idea
+
+The forward direction runs the bisection proof of compactness, and weak König's lemma replaces the choice of a bad half at each step.
+The reversal codes a tree into the Cantor set: nodes outside the tree become covering intervals, and a finite subcover would cut off all long nodes of the tree.
+
+## Variants
+
+The reversal can also go through the boundedness of continuous functions on $[0, 1]$: from a tree with no path one builds a continuous function that is unbounded.
