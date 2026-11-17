@@ -4,7 +4,7 @@ kind: statement
 role: theorem
 name: Gentzen's consistency proof
 msc: ["03F30", "03F15", "03F05"]
-uses: [0QFT7Z76N5, KT50SMH3EC, 0ZHQMQ2C1N, X9WYNYE29C, 5NVA2JRHPV]
+uses: [0QFT7Z76N5, KT50SMH3EC, 0ZHQMQ2C1N, ~c79a35b5, 5NVA2JRHPV]
 about: [0QFT7Z76N5]
 sources:
   - url: https://en.wikipedia.org/wiki/Gentzen's_consistency_proof
@@ -26,7 +26,7 @@ In the second proof, one assigns to each derivation of a sequent in a sequent ca
 One then gives a primitive recursive reduction step that turns any derivation of the empty sequent into another derivation of the empty sequent with a smaller ordinal.
 Transfinite induction along $\prec$ shows that no derivation of the empty sequent exists.
 
-By [[Gödel's second incompleteness theorem|X9WYNYE29C]], PA does not prove its own consistency.
+By [[Gödel's second incompleteness theorem|~c79a35b5]], PA does not prove its own consistency.
 So PA does not prove the transfinite induction used here, although every part of the proof other than this induction is finitary.
 Gentzen later showed directly that PA proves transfinite induction along $\prec$ up to each ordinal below $\varepsilon_0$, but not up to $\varepsilon_0$.
 Thus $\varepsilon_0$ is exactly the length of induction that PA cannot reach.

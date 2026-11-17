@@ -5,7 +5,7 @@ name: Hilbert's program
 msc: ["03A05", "03F25", "03F30"]
 topics: [H8QZY0RZXZ]
 audience: ug2
-uses: [46JCQ6KDA4, 0QFT7Z76N5, 439M8B4DY2, VM8TQ70CVJ, N238J43XNE, X9WYNYE29C]
+uses: [46JCQ6KDA4, 0QFT7Z76N5, 439M8B4DY2, VM8TQ70CVJ, N238J43XNE, X9WYNYE29C, ~c79a35b5]
 about: [EFFRJFW67Y]
 sources:
   - url: https://en.wikipedia.org/wiki/Hilbert's_program
@@ -63,7 +63,7 @@ In the language of [[conservative extensions|N238J43XNE]], the program asks that
 
 ### Impact of the second incompleteness theorem
 
-Gödel's second [[incompleteness theorem|X9WYNYE29C]] (1931) says the following.
+[[Gödel's second incompleteness theorem|~c79a35b5]] (1931) says the following.
 If $T$ is a consistent, effectively axiomatized theory that contains a modest amount of arithmetic, then $T$ does not prove the arithmetical sentence $\operatorname{Con}(T)$ that expresses its consistency.
 Each reasonable formalization of finitary reasoning, such as PRA, is contained in the theories that the program wanted to justify, for example [[Peano arithmetic|0QFT7Z76N5]] or ZFC.
 So if finitary proofs are proofs in a subtheory $F$ of $T$, then a finitary proof of $\operatorname{Con}(T)$ would be a proof of $\operatorname{Con}(T)$ in $T$, which the theorem forbids.
