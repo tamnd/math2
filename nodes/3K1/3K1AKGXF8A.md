@@ -6,7 +6,7 @@ aliases: [robinson-q]
 msc: ["03F30"]
 topics: [QHCRN4JVG0]
 audience: grad
-uses: [~f3b9e2e9, 92SWXST1ZM, MVCH6N9SNW, 0QFT7Z76N5, GCK0NN60E4]
+uses: [D8SD54M5PN, 92SWXST1ZM, MVCH6N9SNW, 0QFT7Z76N5, GCK0NN60E4]
 sources:
   - url: https://en.wikipedia.org/wiki/Robinson_arithmetic
   - book: isbn:9780521857840
@@ -20,10 +20,10 @@ same_as:
 
 ## Summary
 
-Robinson arithmetic $\mathsf{Q}$ is the first-order [[theory|92SWXST1ZM]] in the [[language of arithmetic|~f3b9e2e9]] with finitely many axioms and no induction.
+Robinson arithmetic $\mathsf{Q}$ is the first-order [[theory|92SWXST1ZM]] in the [[language of arithmetic|D8SD54M5PN]] with finitely many axioms and no induction.
 Its axioms say that $S$ is injective with range the nonzero elements, give the recursive equations for $+$ and $\cdot$, and define $<$ from $+$.
 The [[definition page|TT8MXRTVBM]] lists them as $\mathsf{Q}1$ to $\mathsf{Q}8$.
-$\mathsf{Q}$ proves every true $\Sigma_1$ sentence, by the [[Σ1-completeness theorem|~1e1241ee]], and it [[represents every recursive function|~d5e5ada1]].
+$\mathsf{Q}$ proves every true $\Sigma_1$ sentence, by the [[Σ1-completeness theorem|69234Z1V00]], and it [[represents every recursive function|BJF29XET83]].
 It fails to prove simple universal laws, such as $\forall x\,(0 + x = x)$.
 Because it is finitely axiomatized and still represents all recursive functions, it is the standard base theory for incompleteness and undecidability results.
 
@@ -49,24 +49,24 @@ For a closed term $t$, we write $t^{\mathfrak{N}}$ for its value in the standard
 
 ### Examples
 
-- The standard model $\mathfrak{N}$ is a model of $\mathsf{Q}$; [[this example|~89f12138]] checks the eight axioms.
-- The set $\N \cup \set{a, b}$ with suitable operations is a model of $\mathsf{Q}$ in which $0 + a \ne a$ and $a + 0 \ne 0 + a$; [[this example|~1e15aa46]] builds it and checks every axiom.
+- The standard model $\mathfrak{N}$ is a model of $\mathsf{Q}$; [[this example|WXHVSE066S]] checks the eight axioms.
+- The set $\N \cup \set{a, b}$ with suitable operations is a model of $\mathsf{Q}$ in which $0 + a \ne a$ and $a + 0 \ne 0 + a$; [[this example|PR8Z1YPJDK]] builds it and checks every axiom.
 - $\mathsf{Q} \vdash \overline{2} + \overline{2} = \overline{4}$. By $\mathsf{Q}5$ twice, $\overline{2} + S S 0 = S(\overline{2} + S 0) = S S(\overline{2} + 0)$. By $\mathsf{Q}4$, this equals $S S \overline{2}$, which is $\overline{4}$.
 
 ### Non-examples
 
-- The integers with $S(n) = n + 1$ are not a model of $\mathsf{Q}$, since $S(-1) = 0$ violates $\mathsf{Q}1$; [[this non-example|~78ceee1f]] gives the details.
+- The integers with $S(n) = n + 1$ are not a model of $\mathsf{Q}$, since $S(-1) = 0$ violates $\mathsf{Q}1$; [[this non-example|QXFENZWRWM]] gives the details.
 - [[Presburger arithmetic|B66JYY3K58]] is not an extension of $\mathsf{Q}$, because its language has no multiplication. It has induction, but it is decidable, so it lacks the strength of $\mathsf{Q}$.
-- The second-order [[Peano axioms|0QFT7Z76N5]] are not a first-order theory, so they are not a theory in the sense of $\mathsf{Q}$; their first-order version [[Peano arithmetic|~b3b2d1f3]] extends $\mathsf{Q}$.
+- The second-order [[Peano axioms|0QFT7Z76N5]] are not a first-order theory, so they are not a theory in the sense of $\mathsf{Q}$; their first-order version [[Peano arithmetic|HACXBCM7SS]] extends $\mathsf{Q}$.
 
 ### Basic properties
 
 - $\mathsf{Q}$ is consistent, because $\mathfrak{N} \models \mathsf{Q}$ and a theory with a model is consistent.
 - For each closed term $t$, $\mathsf{Q} \vdash t = \overline{t^{\mathfrak{N}}}$. For $n \ne m$, $\mathsf{Q} \vdash \overline{n} \ne \overline{m}$.
-- $\mathsf{Q}$ proves every true $\Delta_0$ sentence and refutes every false one. It proves every true $\Sigma_1$ sentence; see [[the Σ1-completeness theorem|~1e1241ee]].
+- $\mathsf{Q}$ proves every true $\Delta_0$ sentence and refutes every false one. It proves every true $\Sigma_1$ sentence; see [[the Σ1-completeness theorem|69234Z1V00]].
 - $\mathsf{Q} \vdash \forall x\,\bigl(x < \overline{n} \leftrightarrow (x = \overline{0} \lor \cdots \lor x = \overline{n - 1})\bigr)$ for each $n$, and $\mathsf{Q} \vdash \forall x\,(x < \overline{n} \lor x = \overline{n} \lor \overline{n} < x)$.
-- Every recursive function is representable in $\mathsf{Q}$; see [[the representability theorem|~d5e5ada1]].
-- $\mathsf{Q}$ does not prove $\forall x\,(0 + x = x)$, $\forall x\, \forall y\,(x + y = y + x)$, $\forall x\, \forall y\, (x \cdot y = y \cdot x)$ or $\forall x\,(S x \ne x)$. The model of [[this example|~1e15aa46]] refutes each of them.
+- Every recursive function is representable in $\mathsf{Q}$; see [[the representability theorem|BJF29XET83]].
+- $\mathsf{Q}$ does not prove $\forall x\,(0 + x = x)$, $\forall x\, \forall y\,(x + y = y + x)$, $\forall x\, \forall y\, (x \cdot y = y \cdot x)$ or $\forall x\,(S x \ne x)$. The model of [[this example|PR8Z1YPJDK]] refutes each of them.
 - So $\mathsf{Q}$ is not $\omega$-complete: it proves $0 + \overline{n} = \overline{n}$ for each $n$, but not $\forall x\,(0 + x = x)$.
 - $\mathsf{Q}$ is essentially undecidable: every consistent theory in $L_A$ that contains $\mathsf{Q}$ is undecidable. Tarski, Mostowski and Robinson proved this.
   It implies the first [[incompleteness theorem|X9WYNYE29C]] for $\mathsf{Q}$, because a complete recursively axiomatized theory is decidable.
@@ -108,8 +108,8 @@ A trap is step 3: $0 + \overline{2} = \overline{2}$ is provable for this numeral
 
 ### L3 human
 
-$\mathsf{Q}$ sits at the bottom of a hierarchy of arithmetic theories, the [[fragments of PA|~1d4194bd]], ordered by strength: $\mathsf{Q} \subseteq \mathsf{I}\Delta_0 \subseteq \mathsf{I}\Sigma_1 \subseteq \mathsf{PA}$.
+$\mathsf{Q}$ sits at the bottom of a hierarchy of arithmetic theories, the [[fragments of PA|T70PYM1F36]], ordered by strength: $\mathsf{Q} \subseteq \mathsf{I}\Delta_0 \subseteq \mathsf{I}\Sigma_1 \subseteq \mathsf{PA}$.
 Its models are easy to build, and its non-standard models need not satisfy any algebraic law beyond the axioms.
 Yet $\mathsf{Q}$ is essentially undecidable, and its failure to prove $\forall x\,(0 + x = x)$ is a $\Pi_1$ gap of the kind that incompleteness predicts.
-The theory $\mathsf{R}$ of Tarski, Mostowski and Robinson is weaker still, and it is also essentially undecidable; see [[weak theories of arithmetic|~54afd270]].
-The [[Σ1-completeness theorem|~1e1241ee]] is the sharp form of what $\mathsf{Q}$ does: it proves all true $\Sigma_1$ sentences, and that suffices for the incompleteness theorems.
+The theory $\mathsf{R}$ of Tarski, Mostowski and Robinson is weaker still, and it is also essentially undecidable; see [[weak theories of arithmetic|Q5MT8WY7JM]].
+The [[Σ1-completeness theorem|69234Z1V00]] is the sharp form of what $\mathsf{Q}$ does: it proves all true $\Sigma_1$ sentences, and that suffices for the incompleteness theorems.

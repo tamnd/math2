@@ -6,7 +6,7 @@ name: The β function is represented in Robinson arithmetic by a Δ0 formula
 msc: ["03F30", "03D20"]
 topics: [QHCRN4JVG0]
 audience: grad
-uses: [BM6P0C2AC2, ~29cc9691, TT8MXRTVBM, ~1e1241ee]
+uses: [BM6P0C2AC2, Y0JTZXBRT5, TT8MXRTVBM, 69234Z1V00]
 sources:
   - wikipedia: en:24708433@r1334325217
     locator: Gödel's β function, section The β function lemma
@@ -23,7 +23,7 @@ Let $\beta(c, d, i)$ be the remainder of $c$ on division by $1 + (i + 1) d$, as 
 $$B(c, d, i, v) := \exists q \le c\,\bigl(c = q \cdot (1 + (i + 1) \cdot d) + v \land v < 1 + (i + 1) \cdot d\bigr),$$
 with $1 = S 0$.
 
-1. $B$ is a [[$\Delta_0$ formula|~29cc9691]], and it defines the graph of $\beta$ in $\mathfrak{N}$: for all $c, d, i, v \in \N$, $\mathfrak{N} \models B(c, d, i, v)$ if and only if $v = \beta(c, d, i)$.
+1. $B$ is a [[$\Delta_0$ formula|Y0JTZXBRT5]], and it defines the graph of $\beta$ in $\mathfrak{N}$: for all $c, d, i, v \in \N$, $\mathfrak{N} \models B(c, d, i, v)$ if and only if $v = \beta(c, d, i)$.
 2. $B$ represents $\beta$ in [[Robinson arithmetic|TT8MXRTVBM]]: for all $c, d, i \in \N$,
 $$\mathsf{Q} \vdash \forall v\,\bigl(B(\overline{c}, \overline{d}, \overline{i}, v) \leftrightarrow v = \overline{\beta(c, d, i)}\bigr).$$
 
@@ -37,7 +37,7 @@ $$\mathsf{Q} \vdash \forall v\,\bigl(B(\overline{c}, \overline{d}, \overline{i},
 ### Consequences
 
 - With the β-function lemma, the statement "there is a finite sequence $a_0, \ldots, a_n$ with property $P$" becomes "there are $c, d$ with property $P$ of $\beta(c, d, 0), \ldots, \beta(c, d, n)$", written with $B$ and bounded quantifiers.
-- Part 2 is the case of $\beta$ in the [[representability theorem|~d5e5ada1]], and its proof is shorter than the general one, because the output $v$ is bounded inside $B$.
+- Part 2 is the case of $\beta$ in the [[representability theorem|BJF29XET83]], and its proof is shorter than the general one, because the output $v$ is bounded inside $B$.
 
 ## Explanations
 

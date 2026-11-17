@@ -6,7 +6,7 @@ msc: ["03F30"]
 topics: [QHCRN4JVG0]
 audience: grad
 defines: 3K1AKGXF8A
-uses: [~8c012030, 92SWXST1ZM, WDVVEYD6AT, 0QFT7Z76N5, GCK0NN60E4, QSCE4HJEZ7]
+uses: [329ZG1Z0G5, 92SWXST1ZM, WDVVEYD6AT, 0QFT7Z76N5, GCK0NN60E4, QSCE4HJEZ7]
 sources:
   - url: https://en.wikipedia.org/wiki/Robinson_arithmetic
   - book: isbn:9780521857840
@@ -14,7 +14,7 @@ sources:
 
 ## Definition
 
-Let $L_A$ be the [[language of arithmetic|~8c012030]], with the constant symbol $0$, the unary function symbol $S$, the binary function symbols $+$ and $\cdot$, and the binary relation symbol $<$.
+Let $L_A$ be the [[language of arithmetic|329ZG1Z0G5]], with the constant symbol $0$, the unary function symbol $S$, the binary function symbols $+$ and $\cdot$, and the binary relation symbol $<$.
 *Robinson arithmetic* $\mathsf{Q}$ is the first-order [[theory|92SWXST1ZM]] in $L_A$ whose axioms are the universal closures of these eight formulas:
 
 1. $\mathsf{Q}1$: $S x \ne 0$;
@@ -38,7 +38,7 @@ Axiom $\mathsf{Q}8$ defines $<$ from $+$, so adding it is an [[extension by defi
 Such an extension is [[conservative|QSCE4HJEZ7]], so the eight axioms prove the same sentences without $<$ as the seven original axioms.
 $\mathsf{Q}$ is the first-order version of the [[Peano axioms|0QFT7Z76N5]] without induction, with $\mathsf{Q}3$ added.
 Peano arithmetic proves $\mathsf{Q}3$ by induction, but $\mathsf{Q}$ needs it as an axiom.
-The [[standard model|~89f12138]] satisfies all eight axioms, while [[the integers|~78ceee1f]] violate $\mathsf{Q}1$.
+The [[standard model|WXHVSE066S]] satisfies all eight axioms, while [[the integers|QXFENZWRWM]] violate $\mathsf{Q}1$.
 The [[concept page|3K1AKGXF8A]] describes what $\mathsf{Q}$ proves and what it does not prove.
 
 ## Explanations

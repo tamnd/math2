@@ -6,7 +6,7 @@ aliases: [induction-scheme, first-order-induction-schema]
 msc: ["03F30"]
 topics: [QHCRN4JVG0]
 audience: grad
-uses: [0ASJVEFA9J, ~f3b9e2e9, HYJ10AF6RT, NCDZ969V7X]
+uses: [0ASJVEFA9J, D8SD54M5PN, HYJ10AF6RT, NCDZ969V7X]
 sources:
   - wikipedia: en:76765067@r1368301704
     locator: Glossary of logic, section I
@@ -21,11 +21,11 @@ inventory: [NXVCYWY1T9]
 
 ## Summary
 
-The induction schema of first-order arithmetic is the infinite set of axioms $\mathrm{Ind}_\varphi$, one for each [[formula|HYJ10AF6RT]] $\varphi(x, \vec{y})$ of the [[language of arithmetic|~f3b9e2e9]].
+The induction schema of first-order arithmetic is the infinite set of axioms $\mathrm{Ind}_\varphi$, one for each [[formula|HYJ10AF6RT]] $\varphi(x, \vec{y})$ of the [[language of arithmetic|D8SD54M5PN]].
 The axiom $\mathrm{Ind}_\varphi$ says: if $\varphi$ holds at $0$, and passes from each $x$ to $S x$, then it holds at every $x$, for every value of the parameters $\vec{y}$.
 It is the first-order form of [[mathematical induction|0ASJVEFA9J]].
-The [[definition page|~59894b26]] gives the exact sentence.
-Adding the schema to [[Robinson arithmetic|3K1AKGXF8A]] gives [[Peano arithmetic|~b3b2d1f3]], and restricting it to a class of formulas gives the [[fragments of PA|~1d4194bd]].
+The [[definition page|G55NMADJ6G]] gives the exact sentence.
+Adding the schema to [[Robinson arithmetic|3K1AKGXF8A]] gives [[Peano arithmetic|HACXBCM7SS]], and restricting it to a class of formulas gives the [[fragments of PA|T70PYM1F36]].
 
 ## Motivation
 
@@ -45,13 +45,13 @@ Some books write the schema with the abbreviations $\varphi(0)$ and $\varphi(x')
 
 ### Examples
 
-- The instance for $\varphi(x, y) := x + y = y + x$, used three times in [[this example|~dadb1477]], proves that addition is commutative in $\mathsf{PA}$.
-- The instance for the open formula $\varphi(x) := S x \ne x$ proves $\forall x\,(S x \ne x)$; [[this example|~d14b5306]] gives the proof, and shows that $\mathsf{Q}$ without the schema cannot.
-- For the $\Sigma_1$ formula $\varphi(x) := \exists y\,(x = y + y \lor x = S(y + y))$, the instance gives "every number is even or odd"; the [[Peano arithmetic|~b3b2d1f3]] page carries it out.
+- The instance for $\varphi(x, y) := x + y = y + x$, used three times in [[this example|DE8YZ5SDH3]], proves that addition is commutative in $\mathsf{PA}$.
+- The instance for the open formula $\varphi(x) := S x \ne x$ proves $\forall x\,(S x \ne x)$; [[this example|855J8368AM]] gives the proof, and shows that $\mathsf{Q}$ without the schema cannot.
+- For the $\Sigma_1$ formula $\varphi(x) := \exists y\,(x = y + y \lor x = S(y + y))$, the instance gives "every number is even or odd"; the [[Peano arithmetic|HACXBCM7SS]] page carries it out.
 
 ### Non-examples
 
-- The second-order induction axiom $\forall X\,\bigl((X(0) \land \forall x\,(X(x) \to X(S x))) \to \forall x\, X(x)\bigr)$ is not an instance of the schema; [[this non-example|~0254d385]] shows the difference in strength.
+- The second-order induction axiom $\forall X\,\bigl((X(0) \land \forall x\,(X(x) \to X(S x))) \to \forall x\, X(x)\bigr)$ is not an instance of the schema; [[this non-example|Y2S28SPR3R]] shows the difference in strength.
 - The rule "from $\varphi(0)$ and $\varphi(x) \to \varphi(S x)$ infer $\varphi(x)$" is not the same as the schema in weak theories. For restricted classes $\Gamma$, such as $\Sigma_1$, the rule form is strictly weaker than $\mathrm{I}\Gamma$.
 
 ### Basic properties
@@ -65,7 +65,7 @@ Some books write the schema with the abbreviations $\varphi(0)$ and $\varphi(x')
 ### History
 
 Dedekind and Peano stated induction for arbitrary sets.
-Skolem (1923) used induction on quantifier-free formulas in his [[primitive recursive arithmetic|~ca566935]].
+Skolem (1923) used induction on quantifier-free formulas in his [[primitive recursive arithmetic|WCXH72T8D8]].
 Skolem (1934) also built a non-standard model of first-order arithmetic, which showed that the first-order schema cannot pin down $\N$.
 
 ### Common errors

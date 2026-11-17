@@ -7,7 +7,7 @@ aliases: [beta-function-lemma, godel-beta-function]
 msc: ["03F30", "03D20"]
 topics: [QHCRN4JVG0]
 audience: grad
-uses: [0FNN9B4W64, ~29cc9691, ~8c012030, 5NVA2JRHPV]
+uses: [0FNN9B4W64, Y0JTZXBRT5, 329ZG1Z0G5, 5NVA2JRHPV]
 sources:
   - wikipedia: en:8371092@r1355768245
     locator: Gödel numbering for sequences, section Accessing members > Gödel's β-function lemma
@@ -39,11 +39,11 @@ The graph of $\beta$ is defined by a $\Delta_0$ formula, which even represents $
 
 - A finite sequence of any length is coded by two numbers, with a $\Delta_0$ decoding. This replaces coding by prime powers, whose decoding needs exponentiation, which is not in $L_A$.
 - Exponentiation is $\Sigma_1$-definable in $\mathfrak{N}$: $y = x^z$ holds exactly when there are $c, d$ with $\beta(c, d, 0) = 1$, $\beta(c, d, i + 1) = \beta(c, d, i) \cdot x$ for all $i < z$, and $\beta(c, d, z) = y$. Since $\beta(c, d, i) \le c$, these clauses are $\Delta_0$ in $c, d, x, y, z$ once written with the $\Delta_0$ formula for $\beta$ and quantifiers bounded by $c$.
-- The same pattern makes the graph of every [[primitive recursive function|5NVA2JRHPV]] $\Sigma_1$, and it is the main lemma of the [[representability theorem|~d5e5ada1]].
+- The same pattern makes the graph of every [[primitive recursive function|5NVA2JRHPV]] $\Sigma_1$, and it is the main lemma of the [[representability theorem|BJF29XET83]].
 
 ### Generalizations
 
-The lemma is provable in [[Peano arithmetic|~b3b2d1f3]] in a formalized form: for every sequence coded by $c, d$ and every $a$, there is a code $c', d'$ of the sequence extended by $a$.
+The lemma is provable in [[Peano arithmetic|HACXBCM7SS]] in a formalized form: for every sequence coded by $c, d$ and every $a$, there is a code $c', d'$ of the sequence extended by $a$.
 Other $\Delta_0$-decodable codings of sequences exist, but the β function is the classical one that works in the language $\set{0, S, +, \cdot, <}$ without exponentiation.
 
 ## History
