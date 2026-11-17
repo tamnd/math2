@@ -1,0 +1,54 @@
+---
+tag: 6AFGGTHR4Y
+kind: example
+name: The copying function is the identity in PV
+msc: ["03F30"]
+topics: [RA380RWEC0]
+audience: research
+instance_of: [H1B2VD0KVP]
+uses: [FMM44KFZQT, H1B2VD0KVP]
+sources:
+  - url: https://en.wikipedia.org/wiki/Bounded_arithmetic
+    locator: Cook's equational theory
+---
+
+## Example
+
+In [[Cook's theory PV|FMM44KFZQT]], with dyadic successors $s_1$ and $s_2$, let $c$ be the function with
+$$c(0) = 0, \qquad c(s_1(y)) = s_1(c(y)), \qquad c(s_2(y)) = s_2(c(y)).$$
+We give a [[feasibly constructive proof|H1B2VD0KVP]] of the equation $c(y) = y$.
+
+1. The definition of $c$ is legal. It has the form of limited recursion on notation with $g = 0$ and $h_i(y, z) = s_i(z)$. The bound holds with $l_i = s_i(0)$, since $s_i(z)$ is the concatenation of $z$ and the digit $i$.
+2. Let $\mathrm{id}(y) = y$, a $\mathsf{PV}$ symbol given by an initial function or by composition.
+3. $\mathsf{PV} \vdash \mathrm{id}(0) = 0$, by the defining equation of $\mathrm{id}$ and substitution.
+4. $\mathsf{PV} \vdash \mathrm{id}(s_i(y)) = s_i(y)$, by substitution. Also $\mathsf{PV} \vdash s_i(\mathrm{id}(y)) = s_i(y)$, by congruence. So $\mathsf{PV} \vdash \mathrm{id}(s_i(y)) = s_i(\mathrm{id}(y))$, by symmetry and transitivity.
+5. By steps 3 and 4, $\mathrm{id}$ satisfies the recursion equations of $c$, with the same $g$ and $h_i$.
+6. The uniqueness rule of $\mathsf{PV}$ gives $\mathsf{PV} \vdash c(y) = \mathrm{id}(y)$.
+7. With the defining equation of $\mathrm{id}$ and transitivity, $\mathsf{PV} \vdash c(y) = y$.
+
+## Remarks
+
+The equation $c(y) = y$ cannot be derived without the uniqueness rule, since $y$ is a variable and the defining equations only unfold $c$ on terms of the forms $0$ and $s_i(t)$.
+So the uniqueness rule plays the role of induction, in a form that follows the digits of $y$.
+The same proof shows $z(y) = 0$ for the function with $z(0) = 0$ and $z(s_i(y)) = z(y)$: the constant function $0$ satisfies the same recursion with $h_i(y, w) = w$.
+
+## Explanations
+
+### L1 human
+
+The copying program reads the digits of a number one at a time and writes each digit down again.
+It is plain that the output equals the input, but a formal system still needs a rule for this.
+The rule of $\mathsf{PV}$ says: two programs that follow the same digit-by-digit recipe give the same output.
+For the input $12$, written $1\,2$ in the dyadic digits $1$ and $2$, both programs output $1\,2$.
+
+### L2 human
+
+We unfold both sides for $y = 12$.
+
+1. $12 = s_2(5)$, $5 = s_1(2)$ and $2 = s_2(0)$.
+2. $c(12) = s_2(c(5)) = s_2(s_1(c(2))) = s_2(s_1(s_2(c(0))))$.
+3. $c(0) = 0$, so $c(12) = s_2(s_1(s_2(0))) = s_2(s_1(2)) = s_2(5) = 12$.
+4. This computation proves $c(12) = 12$ for the single number $12$, with no use of the uniqueness rule.
+
+The typical use of the uniqueness rule is to prove that two algorithms compute the same function, for all inputs at once.
+A trap is to think that step 4 extends to a proof for all $y$: unfolding only works on numerals, and the variable $y$ needs the rule.

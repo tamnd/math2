@@ -1,0 +1,100 @@
+---
+tag: H1B2VD0KVP
+kind: concept
+name: Feasibly constructive proof
+aliases: [feasible-proof, pv-proof]
+msc: ["03F30", "03F20"]
+topics: [RA380RWEC0]
+audience: research
+uses: [01XM7JEKHY, GVT2NKN37K, 1AKKDC17M2, FMM44KFZQT]
+sources:
+  - url: https://en.wikipedia.org/wiki/Bounded_arithmetic
+    locator: Cook's equational theory
+  - url: https://en.wikipedia.org/wiki/Cobham%27s_thesis
+    locator: lead section
+---
+
+## Summary
+
+A feasibly constructive proof is a proof in which every function used is given by a [[polynomial-time|GVT2NKN37K]] algorithm, and every fact about these functions is proved by induction on the binary or dyadic notation of numbers.
+Cook made the notion precise: a feasibly constructive proof is a derivation in his equational theory [[PV|FMM44KFZQT]].
+By Buss's witnessing theorem and conservation, proofs of $\forall \Sigma^b_1$ sentences in $\mathsf{PV}_1$ or in $S^1_2$ count as well.
+From such a proof of $\forall x \, \exists y \, A(x, y)$ one can read off a polynomial-time algorithm that finds $y$ from $x$.
+The notion is the feasible analogue of a [[constructive proof|01XM7JEKHY]], with polynomial time in place of computability.
+
+## Motivation
+
+A constructive proof of an existence statement gives an algorithm, but the algorithm can be too slow to run.
+For example, a proof by ordinary induction on $x$ may describe a computation with $x$ steps, and $x$ is exponential in the length of its input.
+Cook asked which proofs give algorithms that are feasible in the sense of Cobham and Edmonds, that is, polynomial-time.
+His answer restricts both the functions, to those given by limited recursion on notation, and the induction, to induction on notation.
+A second motivation is propositional: equations with feasibly constructive proofs have short proofs in the extended Frege system.
+
+## Notation
+
+- $\mathsf{PV} \vdash t = u$ means that the equation $t = u$ has a feasibly constructive proof in Cook's sense.
+- $\mathsf{PV}_1$ is the first-order version, and $S^1_2$ is Buss's first-order theory with polynomial induction for $\Sigma^b_1$ formulas.
+- The term "polynomial-time" refers to the length $\abs{x}$ of the input $x$, not to its value.
+
+## Remarks
+
+### Examples
+
+- The successor function in dyadic notation, with its defining equations and bound; [[this example|GMVXG3TBP6]] checks the conditions.
+- The proof that the copying function equals the identity, by the uniqueness rule of $\mathsf{PV}$; [[this example|6AFGGTHR4Y]] gives the derivation.
+- The proof in $S^1_2$ that every number has an integer square root; [[this example|2HXW17RBWP]] uses polynomial induction on a $\Sigma^b_1$ formula.
+- Cook's proof in $\mathsf{PV}$ that the extended Frege system is sound.
+
+### Non-examples
+
+- Any proof that $x \mapsto 2^x$ is total, since the value has exponential length; [[this non-example|62ZNJ2YXY0]] gives the count.
+- A definition by recursion on notation without the bounding condition, such as $f(0) = 2$ and $f(s_i(y)) = f(y) \cdot f(y)$. The value $f(y) = 2^{2^{\abs{y}}}$ has length exponential in $\abs{y}$.
+- A definition of $x \cdot y$ by adding $x$ to itself $y$ times. The function is polynomial-time, but the recursion runs $y$ times, so this proof of its totality is not of the feasible form.
+
+### Basic properties
+
+- Every function symbol of $\mathsf{PV}$ is polynomial-time, and every polynomial-time function has a symbol, by Cobham's theorem.
+- A feasibly constructive proof of $\forall x \, \exists y \, A(x, y)$, with $A$ in $\Sigma^b_1$, gives a polynomial-time $f$ with $A(x, f(x))$ for all $x$. For $S^1_2$ this is [[Buss's witnessing theorem|RH4R7GTTAX]].
+- An equation proved in $\mathsf{PV}$ has propositional translations with polynomial-size extended Frege proofs, by Cook's theorem.
+
+### History
+
+Cobham characterized the polynomial-time functions by limited recursion on notation in 1965.
+Cook introduced the term in the title of his paper *Feasibly constructive proofs and the propositional calculus*, at STOC 1975, and formalized it by $\mathsf{PV}$.
+Buss's theory $S^1_2$ of 1986 gave a first-order formulation with the same $\forall \Sigma^b_1$ consequences.
+
+### Common errors
+
+- To think that a proof of a polynomial-time statement is automatically feasibly constructive. The proof must also use only feasible induction.
+- To measure feasibility in the value of the input. A loop with $x$ iterations is exponential in the length of $x$.
+
+## Explanations
+
+### L1 human
+
+A constructive proof that something exists shows how to find it.
+A feasibly constructive proof shows how to find it fast.
+Fast means that the work grows like a power of the number of digits of the input, for example the square of the number of digits.
+Long multiplication of two numbers with $10$ digits takes about $100$ digit operations, and it is fast in this sense.
+Counting up to a number with $10$ digits, one step at a time, takes billions of steps, and it is not fast.
+
+### L2 human
+
+We check that the copying function is the identity, as a feasibly constructive proof.
+
+1. The copying function $c$ has the equations $c(0) = 0$ and $c(s_i(y)) = s_i(c(y))$ for $i = 1, 2$.
+2. The identity function $\mathrm{id}(y) = y$ satisfies $\mathrm{id}(0) = 0$ and $\mathrm{id}(s_i(y)) = s_i(\mathrm{id}(y))$.
+3. Both satisfy the same recursion, with $g = 0$ and $h_i(y, z) = s_i(z)$.
+4. The uniqueness rule of $\mathsf{PV}$ gives $c(y) = \mathrm{id}(y)$, so $c(y) = y$.
+
+The typical use is to prove the correctness of an algorithm inside $\mathsf{PV}$, and then to get short propositional proofs of its correctness for each input length.
+A trap is to apply ordinary induction on $y$: $\mathsf{PV}$ has only induction on notation.
+
+### L3 human
+
+Feasibly constructive proofs relate to polynomial-time computation as intuitionistic proofs relate to computable functions.
+The witnessing theorems of bounded arithmetic are the analogue of realizability and of the extraction of programs from proofs.
+Higher theories give other classes: $S^i_2$ gives $\mathrm{FP}^{\Sigma^p_{i-1}}$, and the two-sorted theories of Cook and Nguyen give classes below polynomial time.
+
+The link with [[proof complexity|1Q046J0AW2]] gives a second meaning.
+Proofs in $\mathsf{PV}$ correspond to uniform families of extended Frege proofs, so lower bounds for extended Frege would show that some true statements have no feasibly constructive proof.
