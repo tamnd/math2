@@ -47,7 +47,7 @@ A theory $T$ is essentially undecidable when $T$ is consistent and every consist
 
 ### Non-examples
 
-- [[Presburger arithmetic|~14d8268c]] is weak in the sense that it has no multiplication, but it is decidable, so it is not essentially undecidable; [[this non-example|GBA8FSMWKN]] explains why.
+- [[Presburger arithmetic|4W0E9G7PPV]] is weak in the sense that it has no multiplication, but it is decidable, so it is not essentially undecidable; [[this non-example|GBA8FSMWKN]] explains why.
 - The theory of groups is undecidable, but it is not essentially undecidable, because its extension by commutativity is decidable; the L2 explanation below gives the details.
 
 ### Basic properties

@@ -8,7 +8,7 @@ audience: ug2
 not_instance_of:
   - target: D8SD54M5PN
     note: the signature has no symbol for multiplication, and multiplication is not definable from 0, S, + and < in the natural numbers
-uses: [329ZG1Z0G5, ~14d8268c, CY1TXHF6KQ]
+uses: [329ZG1Z0G5, 4W0E9G7PPV, CY1TXHF6KQ]
 sources:
   - url: https://en.wikipedia.org/wiki/Presburger_arithmetic
     locator: Presburger-definable integer relation
@@ -18,7 +18,7 @@ sources:
 ## Example
 
 Let $L_P$ be the signature $\set{0, S, +, <}$, and let $\mathfrak{P} = (\N, 0, S, +, <)$ be its standard structure.
-$L_P$ is the language of [[Presburger arithmetic|~14d8268c]], up to the choice of $S$ or a constant $1$.
+$L_P$ is the language of [[Presburger arithmetic|4W0E9G7PPV]], up to the choice of $S$ or a constant $1$.
 It is a sublanguage of the [[language of arithmetic|D8SD54M5PN]] $L_A$, but it is not $L_A$.
 The difference is not only a missing symbol: no $L_P$-formula defines multiplication in $\mathfrak{P}$.
 We prove this.

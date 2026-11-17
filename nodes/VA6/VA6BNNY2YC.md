@@ -10,7 +10,7 @@ audience: ug2
 uses: [086QKPF0A6, DKFGQTRYZE, 5SDS9T8E7J, PPGD5KW8JC, TN9G24VABN, 758EYCN27B, Z7TN2B35B0, WQ1ZE255SF]
 about: [086QKPF0A6, 5SDS9T8E7J]
 resolves:
-  - target: ~58802204
+  - target: DJNYM72Z4G
     outcome: settled
     note: The answer is negative, since no algorithm decides validity.
 history:
@@ -41,12 +41,12 @@ The set of valid $L$-sentences is [[computably enumerable|TN9G24VABN]] for every
 ### Why each hypothesis is needed
 
 - The logic must be first-order with quantifiers. In propositional logic, the set of tautologies is decidable by [[truth tables|05RSK4Q657]].
-- The signature must contain a symbol of arity at least $2$. If every symbol is a unary relation symbol, validity is decidable, by the [[finite model property of monadic logic|~2f4e10fc]]; see the [[monadic predicate calculus|SERN6CRVWW]].
-- Validity means truth in all structures, finite and infinite. Truth in all finite structures is also undecidable, but for a different reason; see [[Trakhtenbrot's theorem|~3e65890a]].
+- The signature must contain a symbol of arity at least $2$. If every symbol is a unary relation symbol, validity is decidable, by the [[finite model property of monadic logic|AS0NHQMAKA]]; see the [[monadic predicate calculus|SERN6CRVWW]].
+- Validity means truth in all structures, finite and infinite. Truth in all finite structures is also undecidable, but for a different reason; see [[Trakhtenbrot's theorem|XP6FW2WDWT]].
 
 ### Consequences
 
-1. The [[Entscheidungsproblem|~58802204]] has a negative answer.
+1. The [[Entscheidungsproblem|DJNYM72Z4G]] has a negative answer.
 2. The set of satisfiable $L$-sentences is not computably enumerable. Its complement in the set of sentences is $\set{\sigma : \neg \sigma \text{ is valid}}$, which is computably enumerable; if both were computably enumerable, validity would be computable.
 3. Undecidability passes to larger signatures. If $L \subseteq L'$, an $L$-sentence is valid among $L$-structures if and only if it is valid among $L'$-structures, because every $L$-structure expands to an $L'$-structure.
 4. A theory with finitely many axioms $\alpha_1, \ldots, \alpha_n$ that is undecidable gives a second proof: $\alpha_1 \wedge \cdots \wedge \alpha_n \to \sigma$ is valid if and only if $\sigma$ follows from the axioms.
@@ -62,8 +62,8 @@ That coding is longer, and we do not prove it here.
 ### Generalizations
 
 - The proofs show more than undecidability. The halting set reduces to validity by a computable map, so validity is complete among the computably enumerable sets for many-one reductions.
-- Many small fragments of first-order logic are already undecidable, for example the prenex sentences with prefix $\forall \exists \forall$ and only binary relation symbols. The decidable fragments are listed in [[decidable prefix classes|~48b4c091]].
-- Every consistent theory that is [[essentially undecidable|~c0b3bb9c]] and finitely axiomatized gives a signature with undecidable validity, by consequence 4.
+- Many small fragments of first-order logic are already undecidable, for example the prenex sentences with prefix $\forall \exists \forall$ and only binary relation symbols. The decidable fragments are listed in [[decidable prefix classes|ZF79MZRQ8V]].
+- Every consistent theory that is [[essentially undecidable|9JDDFN8PT7]] and finitely axiomatized gives a signature with undecidable validity, by consequence 4.
 
 ## History
 
@@ -104,4 +104,4 @@ A trap is to conclude that validity of one fixed sentence is undecidable; each s
 In terms of degrees, the set of valid sentences of $L_M$ for a universal machine $M$ is a complete computably enumerable set, of the same degree as the [[halting problem|Z7TN2B35B0]].
 The proof is a reduction: configurations of a machine become elements of a structure, and transitions become universal axioms.
 The same method, with tiles in place of machines, shows that the prefix class $\forall \exists \forall$ is undecidable, as in the work of Kahr, Moore and Wang on [[Wang tiles|AJH5HPD2B7]].
-The finite version of the problem, [[Trakhtenbrot's theorem|~3e65890a]], uses the same encoding with finite structures, and the arithmetic version leads to the [[essential undecidability|~c0b3bb9c]] of $\mathsf{Q}$ and to [[Gödel's incompleteness theorems|X9WYNYE29C]].
+The finite version of the problem, [[Trakhtenbrot's theorem|XP6FW2WDWT]], uses the same encoding with finite structures, and the arithmetic version leads to the [[essential undecidability|9JDDFN8PT7]] of $\mathsf{Q}$ and to [[Gödel's incompleteness theorems|X9WYNYE29C]].

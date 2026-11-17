@@ -4,7 +4,7 @@ kind: statement
 role: theorem
 name: Parikh's theorem
 msc: [68Q45, 68R15]
-uses: [Q56EWEQYE2, 18WVBDCS38, ~14d8268c]
+uses: [Q56EWEQYE2, 18WVBDCS38, 4W0E9G7PPV]
 about: [Q56EWEQYE2]
 sources:
   - url: https://en.wikipedia.org/wiki/Parikh's_theorem
@@ -46,5 +46,5 @@ The possible letter counts always form a finite union of simple arithmetic patte
 
 Parikh's theorem is a tool to show that a language is not context-free: if its letter counts do not form a semilinear set, it is not.
 For example, $\set{a^{n^2} : n \ge 0}$ is not context-free, since $\set{n^2}$ is not a finite union of arithmetic progressions.
-The semilinear sets are exactly the subsets of $\N^k$ definable in [[Presburger arithmetic|~14d8268c]], which links the theorem to logic.
+The semilinear sets are exactly the subsets of $\N^k$ definable in [[Presburger arithmetic|4W0E9G7PPV]], which links the theorem to logic.
 It is also used in the verification of systems with counters.

@@ -36,7 +36,7 @@ Euclid's algorithm decides divisibility questions, and Sturm's theorem counts th
 Logic asks for more: an algorithm that settles every first-order statement about a given structure or a given axiom system.
 For the real field such an algorithm exists, by Tarski's work; for the natural numbers with addition and multiplication it does not.
 To state such results, one needs a precise notion of a theory whose theorems can be computed.
-The [[Entscheidungsproblem|~58802204]] is the case of the empty theory: decide which sentences are valid.
+The [[Entscheidungsproblem|DJNYM72Z4G]] is the case of the empty theory: decide which sentences are valid.
 
 ## Notation
 
@@ -55,24 +55,24 @@ Some books call a theory "solvable" when it is decidable.
 
 ### Examples
 
-1. The theory of infinite sets in the empty signature is decidable; see [[the theory of infinite sets is decidable|~48a796ec]]. Its axioms say that there are at least $n$ elements, for each $n$, and the theory is complete.
-2. The theory of dense linear orders without endpoints is decidable; see [[the decidability of dense linear orders|~bfbd0cfb]]. It is finitely axiomatized and complete.
-3. [[Presburger arithmetic|~14d8268c]], the theory of $(\N, 0, 1, +)$, is decidable, by quantifier elimination.
+1. The theory of infinite sets in the empty signature is decidable; see [[the theory of infinite sets is decidable|1886MXD8S5]]. Its axioms say that there are at least $n$ elements, for each $n$, and the theory is complete.
+2. The theory of dense linear orders without endpoints is decidable; see [[the decidability of dense linear orders|NF13NBMSVJ]]. It is finitely axiomatized and complete.
+3. [[Presburger arithmetic|4W0E9G7PPV]], the theory of $(\N, 0, 1, +)$, is decidable, by quantifier elimination.
 4. The theory of the ordered field of real numbers is decidable, by the [[Tarski-Seidenberg theorem|3W5JGDZAN0]] and the axioms of [[real closed fields|DDY3Q3PJ6W]].
 5. The theory of a finite structure in a finite signature is decidable. To evaluate a sentence, one checks each quantifier over the finitely many elements.
 
 ### Non-examples
 
 1. The set of valid sentences of a signature with a binary relation symbol is not decidable, by [[Church's theorem|VA6BNNY2YC]]. The condition that fails is computability of the theory $\operatorname{Cn}(\emptyset)$.
-2. [[Robinson arithmetic is finitely axiomatizable but undecidable|~fc54d22b]]. So a finite list of axioms does not give decidability.
-3. True arithmetic $\operatorname{Th}(\N, 0, S, +, \cdot)$ is complete but not decidable, by the [[essential undecidability|~c0b3bb9c]] of [[Robinson arithmetic|3K1AKGXF8A]]. So completeness alone does not give decidability.
+2. [[Robinson arithmetic is finitely axiomatizable but undecidable|C0ZBS445B4]]. So a finite list of axioms does not give decidability.
+3. True arithmetic $\operatorname{Th}(\N, 0, S, +, \cdot)$ is complete but not decidable, by the [[essential undecidability|9JDDFN8PT7]] of [[Robinson arithmetic|3K1AKGXF8A]]. So completeness alone does not give decidability.
 
 ### Basic properties
 
 1. A decidable theory is computably enumerable: list all sentences and keep those that the decision algorithm accepts.
 2. An axiomatizable theory is computably enumerable: list all formal proofs from the axioms and output their last lines. This uses [[Gödel's completeness theorem|WQ1ZE255SF]], which turns $\models$ into provability.
 3. A computably enumerable theory is axiomatizable, by Craig's trick: if $\sigma_0, \sigma_1, \ldots$ lists $T$, the computable set of sentences $\sigma_n \wedge \cdots \wedge \sigma_n$ ($n + 1$ copies) axiomatizes $T$.
-4. [[A complete axiomatizable theory is decidable|~269dc6e7]]. This is the main source of decidable theories.
+4. [[A complete axiomatizable theory is decidable|HZ7A7B2ERA]]. This is the main source of decidable theories.
 5. If $T$ is decidable and $\varphi$ is a sentence, then $\operatorname{Cn}(T \cup \set{\varphi})$ is decidable, since $T \cup \set{\varphi} \models \sigma$ holds if and only if $T \models \varphi \to \sigma$.
 6. If $T = \operatorname{Cn}(\set{\alpha_1, \ldots, \alpha_n})$ is finitely axiomatizable, then $T \models \sigma$ holds if and only if $\alpha_1 \wedge \cdots \wedge \alpha_n \to \sigma$ is valid. So an undecidable finitely axiomatizable theory gives an undecidable set of valid sentences.
 
@@ -105,7 +105,7 @@ We show that the theory $T$ of infinite sets in the empty signature is decidable
 
 1. $T$ is $\operatorname{Cn}(A)$ for $A = \set{\lambda_2, \lambda_3, \ldots}$, where $\lambda_n$ is $\exists x_1 \cdots \exists x_n \bigwedge_{i < j} x_i \neq x_j$. The map $n \mapsto \lambda_n$ is computable, so $A$ is a computable set.
 2. $T$ is complete; see the example page for the proof with the [[Łoś-Vaught test|ZR7Y5C235P]].
-3. By the theorem on [[complete axiomatizable theories|~269dc6e7]], $T$ is decidable.
+3. By the theorem on [[complete axiomatizable theories|HZ7A7B2ERA]], $T$ is decidable.
 4. The algorithm is concrete: for a sentence $\sigma$, list the proofs from $A$ until a proof of $\sigma$ or of $\neg \sigma$ appears.
 
 The typical use is in this order: find an axiomatization, prove completeness by a model-theoretic method, and conclude decidability.
@@ -115,5 +115,5 @@ A trap is to skip the axiomatization: completeness of $\operatorname{Th}(\mathca
 
 Decidable theories are the bottom of a hierarchy: a theory is $\Delta^0_1$, an axiomatizable theory is $\Sigma^0_1$, and $\operatorname{Th}(\N, +, \cdot)$ is not arithmetical at all, by Tarski's undefinability theorem.
 The positive results come from model theory: quantifier elimination, as for Presburger arithmetic and real closed fields, or completeness by categoricity, or interpretation in a decidable structure such as the monadic second-order theory of the binary tree.
-The negative results come from [[essential undecidability|~c0b3bb9c]] and interpretations: once a theory interprets enough arithmetic, every consistent extension is undecidable.
+The negative results come from [[essential undecidability|9JDDFN8PT7]] and interpretations: once a theory interprets enough arithmetic, every consistent extension is undecidable.
 Decidability also has a complexity side: Presburger arithmetic needs doubly exponential time in the worst case, and the weak monadic second-order theory of one successor is not elementary recursive.

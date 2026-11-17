@@ -15,23 +15,23 @@ It covers which logics and first-order theories are decidable, the negative solu
 
 ### Reading order
 
-1. [[Entscheidungsproblem|~58802204]]: Hilbert and Ackermann's question whether validity in first-order logic can be decided.
+1. [[Entscheidungsproblem|DJNYM72Z4G]]: Hilbert and Ackermann's question whether validity in first-order logic can be decided.
 2. [[Decidable theory|HWC687ES0Q]]: decidable, computably enumerable and axiomatizable theories, and why complete axiomatizable theories are decidable.
 3. [[Church's theorem|VA6BNNY2YC]]: validity in first-order logic is undecidable.
-4. [[Trakhtenbrot's theorem|~3e65890a]]: validity in all finite structures is not computably enumerable.
+4. [[Trakhtenbrot's theorem|XP6FW2WDWT]]: validity in all finite structures is not computably enumerable.
 5. [[Monadic predicate calculus|SERN6CRVWW]]: first-order logic with unary predicates only, decidable by the finite model property.
-6. [[Decidable prefix classes|~48b4c091]]: the Bernays-Schönfinkel, Ackermann and Gödel-Kalmár-Schütte classes of prenex sentences.
-7. [[Two-variable logic|~d6f83b8b]]: first-order logic with two variables has the finite model property.
-8. [[Guarded fragment|~cca08292]]: quantifiers relativized to atoms, a decidable extension of modal logic.
-9. [[Presburger arithmetic|~14d8268c]]: the theory of the natural numbers with addition is decidable by quantifier elimination.
-10. [[Skolem arithmetic|~c0c01fe2]]: the theory of the natural numbers with multiplication is decidable.
-11. [[Büchi arithmetic|~2828a43b]]: Presburger arithmetic with the function $V_k$ and its link to finite automata.
-12. [[Büchi-Elgot-Trakhtenbrot theorem|~f98304ff]]: monadic second-order logic on finite words defines exactly the regular languages.
-13. [[Büchi's theorem on S1S|~fe9d17e9]]: the monadic second-order theory of the successor function is decidable.
-14. [[Rabin's tree theorem|~5d6edbff]]: the monadic second-order theory of the binary tree is decidable.
-15. [[Courcelle's theorem|~2cb7df7c]]: monadic second-order properties are decidable in linear time on graphs of bounded treewidth.
+6. [[Decidable prefix classes|ZF79MZRQ8V]]: the Bernays-Schönfinkel, Ackermann and Gödel-Kalmár-Schütte classes of prenex sentences.
+7. [[Two-variable logic|S7C3C7DJRF]]: first-order logic with two variables has the finite model property.
+8. [[Guarded fragment|Y7YS1C3GAE]]: quantifiers relativized to atoms, a decidable extension of modal logic.
+9. [[Presburger arithmetic|4W0E9G7PPV]]: the theory of the natural numbers with addition is decidable by quantifier elimination.
+10. [[Skolem arithmetic|X86G2FXTPC]]: the theory of the natural numbers with multiplication is decidable.
+11. [[Büchi arithmetic|NSTECGT93D]]: Presburger arithmetic with the function $V_k$ and its link to finite automata.
+12. [[Büchi-Elgot-Trakhtenbrot theorem|AK66XQ59Z3]]: monadic second-order logic on finite words defines exactly the regular languages.
+13. [[Büchi's theorem on S1S|YPDXVTH5JR]]: the monadic second-order theory of the successor function is decidable.
+14. [[Rabin's tree theorem|PXKKP038RG]]: the monadic second-order theory of the binary tree is decidable.
+15. [[Courcelle's theorem|DD4JB8XJ5A]]: monadic second-order properties are decidable in linear time on graphs of bounded treewidth.
 16. [[Seese's theorem|RT898AFHWT]]: a class of graphs with a decidable monadic second-order theory has bounded treewidth.
-17. [[Essential undecidability|~c0b3bb9c]]: theories such that every consistent extension is undecidable, and the transfer of undecidability by interpretation.
+17. [[Essential undecidability|9JDDFN8PT7]]: theories such that every consistent extension is undecidable, and the transfer of undecidability by interpretation.
 
 ### Prerequisites
 

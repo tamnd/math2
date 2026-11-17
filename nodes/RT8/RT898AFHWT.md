@@ -8,7 +8,7 @@ msc: ["03B25", "05C83", "05C85"]
 topics: [E4AVTNWE9E]
 audience: research
 about: [CD2XB4Y1SF, VYQ32ZBPEE, G6X7SZSNC5]
-uses: [~2cb7df7c, 0JD5C82QMB, FJ5E6FZVRJ, CD2XB4Y1SF, QFE1AXQK2E, WP3GDNWJJW, YY4JBMXMXQ, G6X7SZSNC5, HWC687ES0Q, Z7TN2B35B0]
+uses: [DD4JB8XJ5A, 0JD5C82QMB, FJ5E6FZVRJ, CD2XB4Y1SF, QFE1AXQK2E, WP3GDNWJJW, YY4JBMXMXQ, G6X7SZSNC5, HWC687ES0Q, Z7TN2B35B0]
 sources:
   - wikipedia: en:47857242@r1374729429
     locator: Logic of graphs, section Second order > Seese's theorem
@@ -27,7 +27,7 @@ inventory: [DEE4BGX392]
 
 ## Statement
 
-MSO₂ is monadic second-order logic over a [[graph|0JD5C82QMB]] viewed as a structure with vertices, edges and incidence, as in [[Courcelle's theorem|~2cb7df7c]].
+MSO₂ is monadic second-order logic over a [[graph|0JD5C82QMB]] viewed as a structure with vertices, edges and incidence, as in [[Courcelle's theorem|DD4JB8XJ5A]].
 MSO₁ is the weaker logic with variables for vertices and sets of vertices only, over the adjacency relation.
 For a class $\mathcal{C}$ of finite graphs, the MSO₂ theory of $\mathcal{C}$ is the set of MSO₂ sentences true in every graph of $\mathcal{C}$.
 It is [[decidable|HWC687ES0Q]] exactly when MSO₂ satisfiability in $\mathcal{C}$ is decidable, since $\varphi$ holds in some graph of $\mathcal{C}$ exactly when $\neg \varphi$ is not in the theory.
@@ -38,7 +38,7 @@ Then $\mathcal{C}$ has bounded [[treewidth|FJ5E6FZVRJ]]: there is a $k$ with $\o
 Courcelle's theorem gives a decidable MSO₂ theory for the class of all graphs of treewidth at most $k$.
 So, for classes closed under minors, bounded treewidth is the exact boundary for decidable MSO₂ theories (consequence 1).
 
-The [[proof|~af9f53a2]] proves in full that the MSO theory of finite grids is undecidable, by encoding runs of Turing machines.
+The [[proof|AW5XA4GYGH]] proves in full that the MSO theory of finite grids is undecidable, by encoding runs of Turing machines.
 The transfer from grids to graphs of unbounded treewidth, which uses the excluded grid theorem and the MSO₂-definability of grid minors, is given in outline with citations.
 
 ## Remarks

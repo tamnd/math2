@@ -48,20 +48,20 @@ Some books write MFO or $\mathrm{FO}^1$ for the fragment, and some distinguish t
 
 ### Examples
 
-1. The syllogism of the motivation is a valid monadic sentence; see [[the syllogism Barbara as a monadic sentence|~1c7da387]].
-2. The sentence $\forall x \, (P(x) \to Q(x)) \wedge \exists x \, P(x) \wedge \exists x \, \neg Q(x)$ is monadic and satisfiable with two elements; see [[deciding a monadic sentence by types|~62dfe9e1]].
+1. The syllogism of the motivation is a valid monadic sentence; see [[the syllogism Barbara as a monadic sentence|PRG93K4Z81]].
+2. The sentence $\forall x \, (P(x) \to Q(x)) \wedge \exists x \, P(x) \wedge \exists x \, \neg Q(x)$ is monadic and satisfiable with two elements; see [[deciding a monadic sentence by types|8TCDB2FMXC]].
 3. The sentence $\exists x \, \exists y \, \exists z \, (x \neq y \wedge x \neq z \wedge y \neq z)$, "there are at least three elements", is monadic with equality and $k = 0$.
 4. The sentence $\forall x \, (P(x) \vee \neg P(x))$ is monadic and valid, because each element is in $P$ or not in $P$.
 
 ### Non-examples
 
-1. [[A sentence with only infinite models|~27146afc]] uses a binary relation symbol $<$, so it is not monadic. It also shows that the finite model property fails outside the monadic fragment.
+1. [[A sentence with only infinite models|KH3ZG4RXAW]] uses a binary relation symbol $<$, so it is not monadic. It also shows that the finite model property fails outside the monadic fragment.
 2. The sentence $\forall x \, P(f(x))$ uses a function symbol $f$, so it is not monadic, although $f$ takes one argument.
 3. A sentence of monadic second-order logic, such as $\exists X \, \forall x \, X(x)$, quantifies over sets. It belongs to [[second-order logic|G6X7SZSNC5]], not to the monadic predicate calculus.
 
 ### Basic properties
 
-1. Finite model property: a satisfiable monadic sentence with $k$ predicates and quantifier rank $q$ has a model with at most $\max(q, 1) \cdot 2^k$ elements, and with at most $2^k$ elements when there is no equality; see [[finite model property of the monadic predicate calculus|~2f4e10fc]].
+1. Finite model property: a satisfiable monadic sentence with $k$ predicates and quantifier rank $q$ has a model with at most $\max(q, 1) \cdot 2^k$ elements, and with at most $2^k$ elements when there is no equality; see [[finite model property of the monadic predicate calculus|AS0NHQMAKA]].
 2. Satisfiability and validity of monadic sentences are decidable. The algorithm checks the finitely many structures up to the size in property 1.
 3. A monadic structure is determined, up to isomorphism, by the number of elements of each type. A sentence of quantifier rank $q$ can only count each type up to $q$.
 4. Adding one binary relation symbol makes validity undecidable, by [[Church's theorem|VA6BNNY2YC]]. Adding one unary function symbol destroys the finite model property: "$f$ is injective and not surjective" has only infinite models.
@@ -70,7 +70,7 @@ Some books write MFO or $\mathrm{FO}^1$ for the fragment, and some distinguish t
 
 Löwenheim proved in 1915 that the monadic fragment is decidable, in the same paper that contains the first form of the [[Löwenheim-Skolem theorem|484M0TZ1S7]].
 Behmann gave in 1922 a decision procedure by elimination of quantifiers, which also covers quantification over the unary predicates.
-The [[Entscheidungsproblem|~58802204]] of Hilbert and Ackermann asked for an extension of such procedures to all of first-order logic, and Church and Turing showed in 1936 that none exists.
+The [[Entscheidungsproblem|DJNYM72Z4G]] of Hilbert and Ackermann asked for an extension of such procedures to all of first-order logic, and Church and Turing showed in 1936 that none exists.
 
 ### Common errors
 
@@ -103,6 +103,6 @@ A trap is to add a relation such as "is a parent of": the statement is then no l
 
 ### L3 human
 
-The monadic fragment is the simplest of the decidable classes of the classical decision problem, which also include the [[decidable prefix classes|~48b4c091]], the [[two-variable fragment|~d6f83b8b]] and the [[guarded fragment|~cca08292]].
+The monadic fragment is the simplest of the decidable classes of the classical decision problem, which also include the [[decidable prefix classes|ZF79MZRQ8V]], the [[two-variable fragment|S7C3C7DJRF]] and the [[guarded fragment|Y7YS1C3GAE]].
 Each of these has a form of the finite model property, and each fails as soon as one adds enough binary structure to code a grid or a Turing machine.
-Monadic second-order logic over unary predicates alone is still decidable, by Behmann's elimination, and monadic second-order logic over the successor relation on $\N$ is decidable by the automata method, as [[Büchi's theorem on S1S|~fe9d17e9]] shows.
+Monadic second-order logic over unary predicates alone is still decidable, by Behmann's elimination, and monadic second-order logic over the successor relation on $\N$ is decidable by the automata method, as [[Büchi's theorem on S1S|YPDXVTH5JR]] shows.

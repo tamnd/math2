@@ -15,11 +15,11 @@ inventory: [BREWC4FKAS]
 retired:
   date: 2026-11-17
   reason: merged
-  successor: [~2828a43b]
+  successor: [NSTECGT93D]
   note: "The page has a different kind now, so it moves to a new node."
 ---
 
 ## Summary
 
 This page is retired.
-The page of Büchi arithmetic is now [[Büchi arithmetic|~2828a43b]].
+The page of Büchi arithmetic is now [[Büchi arithmetic|NSTECGT93D]].

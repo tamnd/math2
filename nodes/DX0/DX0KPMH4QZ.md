@@ -6,7 +6,7 @@ aliases: [ta, theory-of-the-standard-model, complete-theory-of-arithmetic]
 msc: ["03F30", "03F40"]
 topics: [QHCRN4JVG0]
 audience: grad
-uses: [D8SD54M5PN, HACXBCM7SS, MFJXPAF0R0, 4A84VHDTHV, ~14d8268c, 92SWXST1ZM, 655K8Y7VS8, YRV6SYK2BY, NYJX5QXX1T, 60P2XWY5QX, P5N2ND3VCG, 7CVJCQKY41, 3ANXZC3BEG, X9WYNYE29C, 1QWN5CV4CG]
+uses: [D8SD54M5PN, HACXBCM7SS, MFJXPAF0R0, 4A84VHDTHV, 4W0E9G7PPV, 92SWXST1ZM, 655K8Y7VS8, YRV6SYK2BY, NYJX5QXX1T, 60P2XWY5QX, P5N2ND3VCG, 7CVJCQKY41, 3ANXZC3BEG, X9WYNYE29C, 1QWN5CV4CG]
 sources:
   - url: https://en.wikipedia.org/wiki/True_arithmetic
     locator: Definition
@@ -54,7 +54,7 @@ The intersection of $\mathrm{TA}$ with the $\Sigma_n$ sentences is written $\mat
 
 - For a model $M$ of $\mathsf{PA} + \neg \mathrm{Con}(\mathsf{PA})$, the complete theory $\mathrm{Th}(M)$ is not $\mathrm{TA}$; [[this non-example|WZZ3VC4BVS]] gives the argument.
 - $\mathsf{PA}$ is not $\mathrm{TA}$: it is incomplete, while $\mathrm{TA}$ is complete.
-- The theory of $(\N, 0, S, +)$, [[Presburger arithmetic|~14d8268c]], is a complete theory of the natural numbers, but it is decidable and in a smaller language; it is not $\mathrm{TA}$.
+- The theory of $(\N, 0, S, +)$, [[Presburger arithmetic|4W0E9G7PPV]], is a complete theory of the natural numbers, but it is decidable and in a smaller language; it is not $\mathrm{TA}$.
 
 ### Basic properties
 

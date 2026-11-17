@@ -36,7 +36,7 @@ The proof is in [[the proof of Rosser's theorem|CZZAA0WXS3]].
 ### Why each hypothesis is needed
 
 1. Consistency: an inconsistent theory proves every sentence, so it is negation complete.
-2. Containing $\mathsf{Q}$: [[Presburger arithmetic|~14d8268c]] is consistent, computably axiomatized and complete.
+2. Containing $\mathsf{Q}$: [[Presburger arithmetic|4W0E9G7PPV]] is consistent, computably axiomatized and complete.
 3. Computable enumerability: true arithmetic contains $\mathsf{Q}$, is consistent and is complete.
 
 ### Consequences
