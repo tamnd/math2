@@ -16,15 +16,15 @@ The pages work with mathematical English, not with formal logic, and each one sh
 
 ### Reading order
 
-1. [[The language of mathematics|~cb599f7e]]: the mix of words and symbols, and how mathematical English differs from ordinary English.
-2. [[Mathematical statement|~50156c16]]: sentences with exactly one truth value, and open sentences.
-3. [[Connectives in mathematical language|~ba599a3d]]: "and", "or", "not" and "but" in mathematical text.
-4. [[Conditional statements|~38816aeb]]: "if ... then", "only if", "necessary", "sufficient" and "if and only if".
-5. [[Quantifiers in mathematical writing|~aec76a22]]: "for every" and "there is", implicit and bounded quantifiers.
-6. [[Negating mathematical statements|~f72ba5a2]]: pushing "not" inward, with negated definitions such as continuity.
-7. [[Existence and uniqueness statements|~c0a27355]]: "exactly one" and "at most one", proved in two parts.
-8. [[Ambiguity in mathematical language|~ea809f7c]]: "a" and "the", "or", "any", scope and grouping.
-9. [[Wason selection task|~5b96db13]]: a famous test of how people read a conditional.
+1. [[The language of mathematics|661V0DH7V3]]: the mix of words and symbols, and how mathematical English differs from ordinary English.
+2. [[Mathematical statement|S9MHMRAX88]]: sentences with exactly one truth value, and open sentences.
+3. [[Connectives in mathematical language|12QQ51VK01]]: "and", "or", "not" and "but" in mathematical text.
+4. [[Conditional statements|FA6YZGR2SS]]: "if ... then", "only if", "necessary", "sufficient" and "if and only if".
+5. [[Quantifiers in mathematical writing|EGTZPA6QH3]]: "for every" and "there is", implicit and bounded quantifiers.
+6. [[Negating mathematical statements|K930V33BSC]]: pushing "not" inward, with negated definitions such as continuity.
+7. [[Existence and uniqueness statements|ACSC75R7R5]]: "exactly one" and "at most one", proved in two parts.
+8. [[Ambiguity in mathematical language|8BZPKYF912]]: "a" and "the", "or", "any", scope and grouping.
+9. [[Wason selection task|7GYZJ2MGY9]]: a famous test of how people read a conditional.
 
 ### Prerequisites
 
