@@ -49,17 +49,17 @@ The symbol $\exists!$ is a different quantifier, the [[uniqueness quantifier|0QA
 
 ### Examples
 
-1. [[There is a positive integer $n$ with $n^2 = 2^n$|~06f18a25]]: true, with the witness $n = 2$; the witness $n = 4$ also works.
-2. [[The statement $\exists x \in \mathbb{R} \; (x^2 + 1 = 0)$ is false|~836e0f17]]: refuted by a proof of $\forall x \in \mathbb{R} \; \neg(x^2 + 1 = 0)$; the same formula over $\mathbb{C}$ is true.
+1. [[There is a positive integer $n$ with $n^2 = 2^n$|BVXD3PSAJ9]]: true, with the witness $n = 2$; the witness $n = 4$ also works.
+2. [[The statement $\exists x \in \mathbb{R} \; (x^2 + 1 = 0)$ is false|B5NGFKX1D3]]: refuted by a proof of $\forall x \in \mathbb{R} \; \neg(x^2 + 1 = 0)$; the same formula over $\mathbb{C}$ is true.
 3. "There is a prime number greater than $100$" is true, with the witness $101$: no prime $p \le 10$ divides $101$, and $11^2 = 121 > 101$.
 4. The definition "$n$ is even" is existential: $\exists k \in \mathbb{Z} \; (n = 2k)$. For $n = 14$ the witness is $k = 7$.
 5. [[One example proves an existential statement|2XMSKQ7YHG]]: the triple $(3, 4, 5)$ proves that some positive integers satisfy $a^2 + b^2 = c^2$.
-6. [[An existential statement over the empty set is false|~1ea5e30b]]: with no element to serve as a witness, $\exists x \in \varnothing \; P(x)$ is false for each $P$.
-7. [[Two existential quantifiers can be exchanged|~25ac0d7f]]: $\exists x \, \exists y \, P(x, y)$ and $\exists y \, \exists x \, P(x, y)$ have the same truth value.
+6. [[An existential statement over the empty set is false|CHKD0587G6]]: with no element to serve as a witness, $\exists x \in \varnothing \; P(x)$ is false for each $P$.
+7. [[Two existential quantifiers can be exchanged|RKAJ2ZPA1T]]: $\exists x \, \exists y \, P(x, y)$ and $\exists y \, \exists x \, P(x, y)$ have the same truth value.
 
 ### Non-examples
 
-1. [[The formula $\exists x \, (x \in \mathbb{N} \to x < 0)$ is not the restricted statement $\exists x \in \mathbb{N} \; (x < 0)$|~481b912c]]: with $\to$ in place of $\land$, any element outside $\mathbb{N}$ makes the formula true.
+1. [[The formula $\exists x \, (x \in \mathbb{N} \to x < 0)$ is not the restricted statement $\exists x \in \mathbb{N} \; (x < 0)$|RKBRXZ5FPE]]: with $\to$ in place of $\land$, any element outside $\mathbb{N}$ makes the formula true.
 2. "Every prime number is odd" is not existential: it is a universal statement, and it is false because of $2$. The existential statement "some prime number is odd" is true, with the witness $3$.
 3. "There is exactly one real $x$ with $x^2 = 1$" is not the statement $\exists x \in \mathbb{R} \; (x^2 = 1)$. The existential statement is true, with the witnesses $1$ and $-1$, while the statement with $\exists!$ is false.
 

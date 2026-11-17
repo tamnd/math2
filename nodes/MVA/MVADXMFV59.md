@@ -45,14 +45,14 @@ Truth tables use T and F, with the rows in the standard order.
 
 ### Examples
 
-1. [[Knights and knaves puzzles|~191b1fbf]]: $A$ says "we are both knaves", solved by a truth table and by cases, and the question that identifies the road to the village.
-2. [[Three inhabitants, two statements: "all of us are knaves" and "exactly one of us is a knight"|~f7fcb79c]]: a puzzle with $8$ rows and one solution.
+1. [[Knights and knaves puzzles|K17GT0KGZF]]: $A$ says "we are both knaves", solved by a truth table and by cases, and the question that identifies the road to the village.
+2. [[Three inhabitants, two statements: "all of us are knaves" and "exactly one of us is a knight"|7FH9D2MCRN]]: a puzzle with $8$ rows and one solution.
 3. $A$ says "I am a knave or $B$ is a knight". The translation is $a \leftrightarrow (\neg a \lor b)$. If $a$ were false, the right side would be true, a contradiction. So $a$ is true, then $\neg a \lor b$ is true, so $b$ is true: both are knights.
 4. $A$ says "$B$ is a knave". The translation $a \leftrightarrow \neg b$ says that $A$ and $B$ are of different types, but it does not say which is which.
 
 ### Non-examples
 
-1. [[No inhabitant of the island can say "I am a knave"|~57a6bb4e]]: the translation $a \leftrightarrow \neg a$ is false in every row, so this statement never occurs on the island.
+1. [[No inhabitant of the island can say "I am a knave"|5KXKTWPV3P]]: the translation $a \leftrightarrow \neg a$ is false in every row, so this statement never occurs on the island.
 2. An inhabitant who sometimes lies and sometimes tells the truth is not a knight or a knave. Smullyan calls such an inhabitant a normal, and a statement by a normal gives no constraint at all.
 3. The sentence "this sentence is false" is not a statement of an inhabitant. It is the [[liar sentence|DYAB23WA1X]], and it has no speaker whose type could absorb the paradox.
 

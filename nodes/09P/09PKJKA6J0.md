@@ -44,7 +44,7 @@ Law (2) is `not_and_or`, with the statement `¬(a ∧ b) ↔ ¬a ∨ ¬b`, and i
 The quantifier versions are `Classical.not_forall` and `not_exists`.
 
 The [[proof by truth tables|68VBVMFJSW]] gives the classical laws.
-The [[proof by natural deduction|~af25eb09]] proves each direction separately and marks the one step that needs the [[law of excluded middle|0RYYK8PG4S]].
+The [[proof by natural deduction|PQ22Q2DYP0]] proves each direction separately and marks the one step that needs the [[law of excluded middle|0RYYK8PG4S]].
 
 ## Remarks
 
@@ -62,7 +62,7 @@ We show instead that the tempting wrong forms fail, each by one row of a [[truth
 1. Negation of compound statements. The negation of "$0 \le x$ and $x \le 1$" is "$x < 0$ or $x > 1$". See [[negating mathematical statements|K930V33BSC]].
 2. Each of $\land$ and $\lor$ can be expressed by the other and $\neg$: $p \lor q \equiv \neg(\neg p \land \neg q)$ and $p \land q \equiv \neg(\neg p \lor \neg q)$. So $\{\neg, \land\}$ and $\{\neg, \lor\}$ are [[functionally complete|TDZVCWYJ9F]] sets of connectives.
 3. With the [[double negation law|0NFAGWH84K]], the laws push each negation inward until it stands before a variable. This is the first step of the conversion to [[disjunctive normal form|0GVDFAY4KW]] and [[conjunctive normal form|0B3D4C8YF2]].
-4. The laws prove the duality principle on the page [[laws of propositional logic|~5fa904ea]].
+4. The laws prove the duality principle on the page [[laws of propositional logic|A9CSGZNBV5]].
 5. The [[Sheffer stroke|1NNYWRN6B8]] $p \uparrow q$, defined as $\neg(p \land q)$, is equivalent to $\neg p \lor \neg q$ by law (2).
 6. For sets, the laws become $(A \cup B)^c = A^c \cap B^c$ and $(A \cap B)^c = A^c \cup B^c$. See [[De Morgan's laws for sets|0VK0W4D5Y5]].
 

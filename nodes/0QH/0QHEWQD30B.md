@@ -52,8 +52,8 @@ In Lean, a predicate on a type is a function from the type to propositions.
 
 ### Examples
 
-1. [[The predicate "$n$ is prime" on $\{1, \dots, 10\}$|~ca2f4ff4]]: a unary predicate with the truth set $\{2, 3, 5, 7\}$.
-2. [[The predicate "$x$ divides $y$" on $\{1, 2, 3, 4\}$|~1724b473]]: a binary predicate whose truth set has $8$ pairs.
+1. [[The predicate "$n$ is prime" on $\{1, \dots, 10\}$|AMYQ47TB3F]]: a unary predicate with the truth set $\{2, 3, 5, 7\}$.
+2. [[The predicate "$x$ divides $y$" on $\{1, 2, 3, 4\}$|3RMVHD47KR]]: a binary predicate whose truth set has $8$ pairs.
 3. The predicate $x^2 < 4$ has the truth set $(-2, 2)$ on $D = \mathbb{R}$ and the truth set $\{-1, 0, 1\}$ on $D = \mathbb{Z}$. The truth set depends on the domain.
 4. The ternary predicate $x + y = z$ on $\mathbb{N}$ has as truth set the set of triples $(a, b, a + b)$, the graph of addition.
 5. The formula $\exists y \in \mathbb{Z} \; (x = 2y)$ contains two variables, but only $x$ is free, so it is a unary predicate on $\mathbb{Z}$. Its truth set is the set of even integers.
@@ -61,7 +61,7 @@ In Lean, a predicate on a type is a function from the type to propositions.
 
 ### Non-examples
 
-1. [[The expression $x^2 + 1$ is not a predicate|~06064548]]: a substitution gives a number, not a proposition.
+1. [[The expression $x^2 + 1$ is not a predicate|N3BWWPFE9K]]: a substitution gives a number, not a proposition.
 2. "$7$ is prime" is not a predicate with a variable: it has no free variable, so it is already a proposition. Some books call a proposition a $0$-ary predicate.
 3. $\forall x \in \mathbb{R} \; (x^2 \ge 0)$ is not a predicate: its only variable is bound, so it is a proposition, and it is true.
 4. "$x$ is a large number" is not a predicate in mathematics: for $x = 1000$ it has no definite truth value, because "large" has no exact meaning.

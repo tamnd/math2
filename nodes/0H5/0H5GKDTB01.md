@@ -41,7 +41,7 @@ In Lean's Mathlib, the disjunction of `a` and `b` is `Or a b`, written `a ∨ b`
 ## Remarks
 
 This "or" is inclusive: the first row of the table makes $p \lor q$ true when both $p$ and $q$ are true.
-The [[exclusive or|~777e424f]] has the same table except in the first row, where it is false.
+The [[exclusive or|PTMR3P9J6C]] has the same table except in the first row, where it is false.
 In daily speech "or" is often exclusive, but in mathematics it is inclusive unless the text says "but not both".
 The proof rules that match the definition are disjunction introduction (from $p$, or from $q$, conclude $p \lor q$) and disjunction elimination (proof by cases); in Mathlib they are `Or.inl`, `Or.inr` and `Or.elim`.
 The [[union|0X1GSWNBN1]] of two sets is defined by disjunction: $x \in A \cup B$ means $x \in A \lor x \in B$.

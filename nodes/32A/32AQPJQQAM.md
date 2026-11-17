@@ -1,0 +1,109 @@
+---
+tag: 32AQPJQQAM
+kind: concept
+name: Modus tollens
+aliases: [denying-the-consequent]
+msc: ["03B05"]
+topics: [PM1AYWABA7]
+audience: school
+uses: [0Y0MQYST0M, 04T1CT7212, 029JBBF693]
+sources:
+  - url: https://en.wikipedia.org/wiki/Modus_tollens
+    locator: lead section
+  - book: isbn:9781108439534
+    locator: Section 1.5
+---
+
+## Summary
+
+Modus tollens is the [[rule of inference|QPD3X471Q1]] that derives $\neg \varphi$ from the two premises $\varphi \to \psi$ and $\neg \psi$, for any formulas $\varphi$ and $\psi$:
+$$\frac{\varphi \to \psi \qquad \neg \psi}{\neg \varphi}$$
+In words: if $\varphi$ implies $\psi$, and $\psi$ is false, then $\varphi$ is false.
+The rule is valid: under every valuation that makes both premises true, the conclusion $\neg \varphi$ is true.
+It is [[modus ponens|0Y0MQYST0M]] applied to the [[contrapositive|04T1CT7212]] $\neg \psi \to \neg \varphi$, and it holds in intuitionistic logic as well as in classical logic.
+Modus tollens is the logical form of every refutation by a consequence: to show that a statement is false, we derive from it a consequence that is false.
+
+## Motivation
+
+Some questions are answered by "no": a number is not a square, a polynomial has no rational root, a function is not continuous.
+A direct way to prove such a "no" is to find a property that every "yes" case has and that the object lacks.
+If every perfect square leaves remainder $0$ or $1$ on division by $4$, and $2023$ leaves remainder $3$, then $2023$ is not a perfect square.
+This pattern is modus tollens.
+
+## Notation
+
+The rule is written as a fraction, with the premises above the line, or as $\varphi \to \psi,\ \neg \psi \vdash \neg \varphi$.
+Other names are "denying the consequent" and the Latin "modus tollendo tollens", the mode that denies by denying.
+Negation is also written $\sim \varphi$, and the arrow $\supset$ or $\Rightarrow$.
+In Mathlib the rule is `mt`, of type `(a → b) → ¬b → ¬a`, and it uses no classical axiom.
+
+## Remarks
+
+### Examples
+
+1. [[Modus tollens is a valid deduction|QWTTHZ9C6T]]: from "if $4$ divides $n$, then $n$ is even" and "$7$ is not even", we derive "$4$ does not divide $7$".
+2. [[2023 is not a perfect square by modus tollens|ENSESQT9XB]]: every square is congruent to $0$ or $1$ modulo $4$, and $2023 \equiv 3 \pmod 4$.
+3. From "if $f$ is differentiable at $0$, then $f$ is continuous at $0$" and "the sign function is not continuous at $0$", we derive that the sign function is not differentiable at $0$. The first premise is the theorem that [[differentiable functions are continuous|07ZMX4ANJS]].
+4. A proof by [[counterexample|0ED72CTBNP]] is modus tollens: "if $\forall x\, P(x)$, then $P(a)$" and "not $P(a)$" give "not $\forall x\, P(x)$".
+5. From $\neg r$ and $(p \land q) \to r$ we derive $\neg(p \land q)$, which is $\neg p \lor \neg q$ by [[De Morgan's laws|09PKJKA6J0]].
+
+### Non-examples
+
+1. [[Denying the consequent of a theorem with two hypotheses does not refute one hypothesis|M2050AJK54]]: from $(p \land q) \to r$ and $\neg r$ we cannot derive $\neg p$.
+2. From $p \to q$ and $\neg p$ we cannot derive $\neg q$. This is [[denying the antecedent|6FH1TVDXGS]]; the second premise denies the antecedent instead of the consequent.
+3. From $p \to q$ and $q$ we cannot derive $p$. This is [[affirming the consequent|2XXTDXK1ZC]].
+
+### Basic properties
+
+1. Validity by [[truth table|05RSK4Q657]]. The only row in which both premises $p \to q$ and $\neg q$ are true is the row FF, and in that row $\neg p$ is true.
+
+| $p$ | $q$ | $p \to q$ | $\neg q$ | $\neg p$ | premises both true |
+|---|---|---|---|---|---|
+| T | T | T | F | F | no |
+| T | F | F | T | F | no |
+| F | T | T | F | T | no |
+| F | F | T | T | T | yes |
+
+2. Equivalently, $((p \to q) \land \neg q) \to \neg p$ is a [[tautology|05006AJ7DZ]].
+3. Derivation from modus ponens and contraposition. From $\varphi \to \psi$ the law of the [[contrapositive|04T1CT7212]] gives $\neg \psi \to \neg \varphi$. Modus ponens on $\neg \psi$ and $\neg \psi \to \neg \varphi$ gives $\neg \varphi$.
+4. The direction of contraposition used in property 3 is the one from $\varphi \to \psi$ to $\neg \psi \to \neg \varphi$, which holds intuitionistically. So modus tollens is intuitionistically valid.
+5. A direct derivation without the contrapositive: assume $\varphi$; modus ponens gives $\psi$, which contradicts $\neg \psi$; so $\neg \varphi$ by negation introduction. This is the [[proof by rules of inference|QB99VRZQ4Y]] of direction (a), restricted to the case at hand.
+6. When the antecedent is a negation, modus tollens gives a double negation: from $\neg \varphi \to \psi$ and $\neg \psi$ it gives $\neg\neg \varphi$. Passing from $\neg\neg \varphi$ to $\varphi$ needs [[double negation elimination|0NFAGWH84K]], a classical step.
+
+### History
+
+The Stoic logician Chrysippus listed modus tollens as the second of his indemonstrable arguments: "if the first, then the second; not the second; therefore not the first".
+
+### Common errors
+
+1. A student denies the antecedent instead of the consequent, which is invalid, as in the [[affirming the consequent and denying the antecedent|J7KFCFQRBT]] page.
+2. A student uses modus tollens on a theorem with several hypotheses and concludes that one chosen hypothesis fails. Only the conjunction of the hypotheses fails; see non-example 1.
+3. A student confuses modus tollens with [[proof by contrapositive|0BB5TPGQ1N]]. The proof method proves an implication; modus tollens uses an implication that is already known.
+
+## Explanations
+
+### L1 human
+
+Modus tollens is the step "if this, then that; that is false; so this is false".
+For example: "if it is a dog, then it has four legs", and "this bird has two legs", so "this bird is not a dog".
+A detective uses it too: "if the butler did it, there would be mud on his shoes; there is no mud; so the butler did not do it".
+The second premise must deny the "then" part, not the "if" part.
+
+### L2 human
+
+We use modus tollens to show that the polynomial $x^2 - 2$ has no rational root.
+
+1. Premise 1: if $p/q$ is a rational root of $x^2 - 2$ in lowest terms, then $p$ divides $2$ and $q$ divides $1$. This is the [[rational root theorem|0819CQ1V8H]].
+2. So a rational root must be one of $1, -1, 2, -2$.
+3. Premise 2: none of them is a root, because $1^2 - 2 = -1$, $(-1)^2 - 2 = -1$, $2^2 - 2 = 2$ and $(-2)^2 - 2 = 2$.
+4. Modus tollens with "if $x^2 - 2$ has a rational root, then one of $\pm 1, \pm 2$ is a root" and step 3 gives: $x^2 - 2$ has no rational root.
+
+The typical use is to rule out an object by a property that it lacks.
+A trap is the reverse: from "$x^2 - 4$ has the root $2$, which is one of $\pm 1, \pm 2$" we cannot conclude anything by modus tollens, because the second premise affirms the consequent.
+
+### L3 human
+
+Modus tollens is valid in [[intuitionistic logic|Q11N8X99FK]], because it needs only the definition of $\neg \psi$ as $\psi \to \bot$ and modus ponens.
+In a [[Heyting algebra|NG943XNQWH]] it is the inequality $(a \to b) \land \neg b \le \neg a$, which holds in every Heyting algebra.
+In probability and statistics there is no exact analogue: a consequence that is unlikely under a hypothesis does not refute the hypothesis, and statistical tests replace modus tollens by a decision rule with a stated error rate.
+In the philosophy of science, the refutation of a theory by a failed prediction has the form of modus tollens; the confirmation of a theory by a successful prediction has the invalid form of affirming the consequent.

@@ -54,15 +54,15 @@ The reading of quantifiers in mathematical English is on the page [[quantifiers 
 
 ### Examples
 
-1. [[The empty set is a subset of every set|~62cd1589]]: the defining statement $\forall x \, (x \in \varnothing \to x \in B)$ has a false antecedent for each $x$.
-2. [[Every prime number between 24 and 28 is even|~cd70dc98]]: there is no prime number $n$ with $24 < n < 28$, so the statement is vacuously true.
+1. [[The empty set is a subset of every set|AF3SAHVDR4]]: the defining statement $\forall x \, (x \in \varnothing \to x \in B)$ has a false antecedent for each $x$.
+2. [[Every prime number between 24 and 28 is even|1SWS4DH1KK]]: there is no prime number $n$ with $24 < n < 28$, so the statement is vacuously true.
 3. "If $2 + 2 = 5$, then $7$ is even" is true, because its antecedent is false.
 4. The empty function $f \colon \varnothing \to B$ is [[injective|09NWETVTNY]]: the condition "for all $a, b \in \varnothing$, if $f(a) = f(b)$, then $a = b$" ranges over the empty set.
 5. Every real number $b$ is an upper bound of $\varnothing$, because "$x \le b$ for all $x \in \varnothing$" holds vacuously. For this reason the empty set has no [[supremum|0R3H5PANRQ]] in $\mathbb{R}$.
 
 ### Non-examples
 
-1. [[An existential statement over the empty set is false|~1ea5e30b]]: "some element of $\varnothing$ is even" needs a witness, and there is none.
+1. [[An existential statement over the empty set is false|CHKD0587G6]]: "some element of $\varnothing$ is even" needs a witness, and there is none.
 2. "If $2$ is even, then $4$ is even" is true, but not vacuously: its antecedent is true, and the consequent is checked.
 3. "Every element of $\{0\}$ is even" is true, but not vacuously: the set has the element $0$, and $0 = 2 \cdot 0$ is even.
 

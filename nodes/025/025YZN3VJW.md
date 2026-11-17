@@ -49,15 +49,15 @@ In Lean's Mathlib, the conjunction of `a` and `b` is `And a b`, written `a ∧ b
 
 ### Examples
 
-1. [[The chained inequality $1 < x < 4$ is a conjunction|~518b2b1d]]: it means "$1 < x$ and $x < 4$".
-2. [[A natural-deduction proof that $p \land q$ implies $q \land p$|~1e3ca695]]: the rules of conjunction prove its commutativity.
+1. [[The chained inequality $1 < x < 4$ is a conjunction|5R76S1NW39]]: it means "$1 < x$ and $x < 4$".
+2. [[A natural-deduction proof that $p \land q$ implies $q \land p$|26RCAE7TTT]]: the rules of conjunction prove its commutativity.
 3. "$6$ is even and $6$ is divisible by $3$" is true, because both parts are true.
 4. [[The word "but" in "the absolute value is continuous but not differentiable at $0$"|HW5E2DSZH3]]: "but" is a conjunction with a contrast.
 5. "$n$ is prime" means "$n > 1$ and $n$ has no positive divisor other than $1$ and $n$". For $n = 1$ the first part fails, so $1$ is not prime.
 
 ### Non-examples
 
-1. [[The condition $x^2 = 4$ is a disjunction, not a conjunction|~92fe75b8]]: "the solutions are $2$ and $-2$" does not mean "$x = 2$ and $x = -2$".
+1. [[The condition $x^2 = 4$ is a disjunction, not a conjunction|7HZCKQQNKD]]: "the solutions are $2$ and $-2$" does not mean "$x = 2$ and $x = -2$".
 2. [[In "$2$ and $3$ are coprime", the word "and" is not a connective|R4D9KAT2QH]]: it joins two numbers in one relation, not two propositions.
 3. "Add $2$ and then multiply by $3$" is a command with an order of steps, not a proposition. A conjunction does not depend on the order of its parts.
 
@@ -84,7 +84,7 @@ The symbol $\equiv$ means [[logical equivalence|0JMR2HM2N2]], and $\top$ and $\b
 6. Negation: $\neg(p \land q) \equiv \neg p \lor \neg q$, by [[De Morgan's laws|09PKJKA6J0]].
 7. Sets: $x \in A \cap B$ means $x \in A \land x \in B$, so conjunction corresponds to [[intersection|0ZNMMA9TF5]].
 
-The full list is on the page [[laws of propositional logic|~5fa904ea]].
+The full list is on the page [[laws of propositional logic|A9CSGZNBV5]].
 
 ### History
 

@@ -49,15 +49,15 @@ In the notation of this sub-area, $D$ is the domain, $x, y$ are variables and $P
 
 ### Examples
 
-1. [[For every integer $n$, $n^2 + n$ is even|~25603a4b]]: true; checked on a finite domain as a conjunction and proved on $\mathbb{Z}$ with an arbitrary element.
-2. [[The statement $\forall n \in \mathbb{N} \; (n^2 \le 2^n)$ is false|~1b6f2d63]]: refuted by the counterexample $n = 3$, and true after the restriction to $n \ge 4$.
+1. [[For every integer $n$, $n^2 + n$ is even|CXY4EJ2K4X]]: true; checked on a finite domain as a conjunction and proved on $\mathbb{Z}$ with an arbitrary element.
+2. [[The statement $\forall n \in \mathbb{N} \; (n^2 \le 2^n)$ is false|ZHVZGEWE9J]]: refuted by the counterexample $n = 3$, and true after the restriction to $n \ge 4$.
 3. $\forall x \in \mathbb{R} \; (x^2 \ge 0)$ is true, because the square of a real number is never negative.
 4. $\forall x \in \varnothing \; P(x)$ is true for each predicate $P$; this is a [[vacuous truth|0V4QXPGJQK]].
 5. The definition of a [[subset|0BJR9QR08E]] is universal: $A \subseteq B$ means $\forall x \, (x \in A \to x \in B)$.
 
 ### Non-examples
 
-1. [[The formula $\forall x \, (x \in \mathbb{N} \land x \ge 0)$ is not the restricted statement $\forall x \in \mathbb{N} \; (x \ge 0)$|~e70bb708]]: with $\land$ in place of $\to$, the formula claims that every element of the domain is a natural number.
+1. [[The formula $\forall x \, (x \in \mathbb{N} \land x \ge 0)$ is not the restricted statement $\forall x \in \mathbb{N} \; (x \ge 0)$|YQH9WAA6X8]]: with $\land$ in place of $\to$, the formula claims that every element of the domain is a natural number.
 2. "Some prime number is even" is not universal: it is true because of the one witness $2$, while "every prime number is even" is false because of $3$. It uses the [[existential quantifier|0MSRQHCNN9]].
 3. The open sentence $x^2 \ge 0$ alone is not a universal statement: $x$ is free, so it is a predicate. The page [[a conditional with a hidden quantifier|FWXPGJBK97]] shows how mathematical writing leaves $\forall$ unwritten.
 

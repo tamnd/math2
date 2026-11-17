@@ -39,25 +39,25 @@ The connective $\lor$ fixes this meaning, and its elimination rule is the method
 ## Notation
 
 This sub-area writes $p \lor q$.
-Some books on Boolean algebra write $p + q$; in this sub-area $+$ is avoided, because $p + q$ modulo $2$ is the [[exclusive or|~777e424f]].
+Some books on Boolean algebra write $p + q$; in this sub-area $+$ is avoided, because $p + q$ modulo $2$ is the [[exclusive or|PTMR3P9J6C]].
 In programming, disjunction is often written `p || q`.
-In English, disjunction is expressed by "or", "either ... or" and, in many texts, "unless"; see [[translating statements into logical form|~5a296a2e]].
+In English, disjunction is expressed by "or", "either ... or" and, in many texts, "unless"; see [[translating statements into logical form|WGZX7GV3PP]].
 In Lean's Mathlib, the disjunction of `a` and `b` is `Or a b`, written `a ∨ b`.
 
 ## Remarks
 
 ### Examples
 
-1. [[Proof by cases: $n^2$ leaves remainder $0$ or $1$ on division by $4$|~ec30f768]]: a disjunction is used by cases and proved by one of its parts.
-2. [["$x \leq 3$ or $x \geq 2$" is true for every real $x$|~6a4041af]]: for $x$ from $2$ to $3$ both parts are true.
+1. [[Proof by cases: $n^2$ leaves remainder $0$ or $1$ on division by $4$|T6KQTVF2Q8]]: a disjunction is used by cases and proved by one of its parts.
+2. [["$x \leq 3$ or $x \geq 2$" is true for every real $x$|BX9T7YS4B8]]: for $x$ from $2$ to $3$ both parts are true.
 3. [[The inclusive "or" in "$n$ is even or $n$ is a multiple of $3$"|CER1EHMKW6]]: the statement is true for $n = 6$.
 4. "$2$ is even or $2$ is prime" is true. Both parts are true, and the inclusive "or" accepts this.
-5. "$x^2 = 4$" is equivalent to "$x = 2$ or $x = -2$"; see [[the condition $x^2 = 4$ is a disjunction, not a conjunction|~92fe75b8]].
+5. "$x^2 = 4$" is equivalent to "$x = 2$ or $x = -2$"; see [[the condition $x^2 = 4$ is a disjunction, not a conjunction|7HZCKQQNKD]].
 
 ### Non-examples
 
-1. [[The "or" of "the meal comes with soup or salad" is exclusive|~9a73b38c]]: the restaurant's claim is false when the meal comes with both, so it is not a disjunction.
-2. The [[exclusive or|~777e424f]] $p \oplus q$ is not a disjunction: it is false when $p$ and $q$ are both true.
+1. [[The "or" of "the meal comes with soup or salad" is exclusive|XBS0DS337X]]: the restaurant's claim is false when the meal comes with both, so it is not a disjunction.
+2. The [[exclusive or|PTMR3P9J6C]] $p \oplus q$ is not a disjunction: it is false when $p$ and $q$ are both true.
 3. "Is $n$ even or odd?" is a question, not a proposition, so it is not a disjunction, although it contains "or".
 
 ### Inclusive and exclusive "or"
@@ -77,7 +77,7 @@ In [[natural deduction|6KT3BJZ7D1]], disjunction has two introduction rules and 
 3. [[Disjunction elimination|FTH70E7K1D]]: from $p \lor q$, from a derivation of $r$ under the assumption $p$, and from a derivation of $r$ under the assumption $q$, conclude $r$. In Mathlib this rule is `Or.elim`.
 
 Disjunction elimination is the logical form of [[proof by cases|0WCP0PVET6]]: to use "$p$ or $q$", we prove the goal once assuming $p$ and once assuming $q$.
-The [[disjunctive syllogism|~bdf0bb7b]] is a derived rule: from $p \lor q$ and $\neg p$, conclude $q$; in Mathlib it is `Or.resolve_left`.
+The [[disjunctive syllogism|6EFJF9NAYX]] is a derived rule: from $p \lor q$ and $\neg p$, conclude $q$; in Mathlib it is `Or.resolve_left`.
 In classical logic, a common way to prove $p \lor q$ is to assume $\neg p$ and prove $q$.
 This uses $(\neg p \to q) \to (p \lor q)$, which is not valid in [[intuitionistic logic|Q11N8X99FK]]; there a proof of $p \lor q$ must prove one of the two parts and say which one.
 
@@ -94,7 +94,7 @@ The symbol $\equiv$ means [[logical equivalence|0JMR2HM2N2]], and $\top$ and $\b
 7. Excluded middle: $p \lor \neg p$ is a tautology; see [[law of excluded middle|0RYYK8PG4S]].
 8. Sets: $x \in A \cup B$ means $x \in A \lor x \in B$, so disjunction corresponds to [[union|0X1GSWNBN1]].
 
-The full list is on the page [[laws of propositional logic|~5fa904ea]].
+The full list is on the page [[laws of propositional logic|A9CSGZNBV5]].
 
 ### History
 

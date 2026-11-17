@@ -20,7 +20,7 @@ sources:
 We compare the [[truth tables|05RSK4Q657]] of $\varphi \to \psi$ and $\neg \psi \to \neg \varphi$.
 The truth value of each formula depends only on the truth values of $\varphi$ and $\psi$, so it is enough to treat $\varphi$ and $\psi$ as two propositional variables $p$ and $q$.
 
-1. In classical logic each of $p$ and $q$ is true or false, so there are four rows: TT, TF, FT and FF. Reason: the principle of [[bivalence|~e6dead3d]].
+1. In classical logic each of $p$ and $q$ is true or false, so there are four rows: TT, TF, FT and FF. Reason: the principle of [[bivalence|5DYNDW9526]].
 2. The formula $p \to q$ is false exactly when $p$ is true and $q$ is false, that is, only in the row TF. Reason: the definition of [[implication|0ZNX6DQ3EJ]].
 3. The formula $\neg q \to \neg p$ is false exactly when $\neg q$ is true and $\neg p$ is false. Reason: the definition of implication, applied to the formulas $\neg q$ and $\neg p$.
 4. The formula $\neg q$ is true exactly when $q$ is false, and $\neg p$ is false exactly when $p$ is true. Reason: the definition of [[negation|0XR7A7RSXB]].
@@ -47,7 +47,7 @@ The proof uses bivalence in step 1, so it is a classical proof, and it cannot sh
 
 ## Variants
 
-A proof by rules of inference treats the two directions separately: [[proof of the law of contraposition by rules of inference|~dea9f7ae]].
+A proof by rules of inference treats the two directions separately: [[proof of the law of contraposition by rules of inference|QB99VRZQ4Y]].
 That proof shows that direction (a) needs only [[modus ponens|0Y0MQYST0M]] and the rules for negation, and that direction (b) needs the [[law of excluded middle|0RYYK8PG4S]].
 An algebraic variant rewrites both sides with $p \to q \equiv \neg p \lor q$: then $\neg q \to \neg p \equiv \neg\neg q \lor \neg p \equiv q \lor \neg p$, which equals $\neg p \lor q$ by commutativity of $\lor$.
 This variant uses the double negation law $\neg\neg q \equiv q$, which is again a classical step.

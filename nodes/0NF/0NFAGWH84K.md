@@ -36,7 +36,7 @@ By substitution, $\neg\neg\varphi \equiv \varphi$ for every formula $\varphi$.
 In Mathlib the law is `Classical.not_not`, with the statement `¬¬a ↔ a`; the prefix `Classical` marks the use of a classical axiom.
 
 The [[proof by a truth table|A35WJBK3PW]] gives the classical law.
-The [[proof by natural deduction|~39d6aa0b]] shows which direction needs the [[law of excluded middle|0RYYK8PG4S]].
+The [[proof by natural deduction|D3S30V9ZZ2]] shows which direction needs the [[law of excluded middle|0RYYK8PG4S]].
 
 ## Remarks
 
@@ -55,7 +55,7 @@ We show which close variants fail, and where the classical setting enters.
 1. [[Proof by contradiction|0J0XBKG64S]]. To prove $p$, assume $\neg p$ and derive a contradiction. This proves $\neg\neg p$ without any classical step, and elimination then gives $p$.
 2. The backward direction of the [[contrapositive|04T1CT7212]]. From $\neg q \to \neg p$ and $p$, the assumption $\neg q$ gives $\neg p$ and a contradiction, so $\neg\neg q$, and elimination gives $q$.
 3. Negations can be pushed inward. With [[De Morgan's laws (logic)|09PKJKA6J0]] and the double negation law, each formula in $\neg$, $\land$ and $\lor$ is equivalent to one where $\neg$ stands only directly before variables. See [[negating mathematical statements|K930V33BSC]].
-4. Over intuitionistic logic, double negation elimination for all formulas is equivalent to the law of excluded middle for all formulas. Part 3 of the [[natural deduction proof|~39d6aa0b]] gives one direction, and the law of excluded middle page gives the other.
+4. Over intuitionistic logic, double negation elimination for all formulas is equivalent to the law of excluded middle for all formulas. Part 3 of the [[natural deduction proof|D3S30V9ZZ2]] gives one direction, and the law of excluded middle page gives the other.
 5. In Lean, a proof by contradiction of `p` produces a proof of `¬¬p`, and `Classical.not_not` turns it into a proof of `p`.
 
 ### Converse

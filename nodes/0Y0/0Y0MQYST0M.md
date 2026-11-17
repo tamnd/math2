@@ -47,15 +47,15 @@ In Lean, if `h : p → q` and `hp : p`, then the application `h hp` has type `q`
 
 ### Examples
 
-1. [[Modus ponens applied to a divisibility theorem|~4b1fd36e]]: from "if $6$ divides $n$, then $3$ divides $n$" and "$6$ divides $312$", we derive "$3$ divides $312$".
-2. [[A proof of $p \to p$ in a Hilbert system|~02a3e3ea]]: two axioms and two uses of modus ponens give the formula $p \to p$.
+1. [[Modus ponens applied to a divisibility theorem|3DJDNG0ZC9]]: from "if $6$ divides $n$, then $3$ divides $n$" and "$6$ divides $312$", we derive "$3$ divides $312$".
+2. [[A proof of $p \to p$ in a Hilbert system|SD7R5BDA6N]]: two axioms and two uses of modus ponens give the formula $p \to p$.
 3. From "if $f$ is differentiable at $1$, then $f$ is continuous at $1$" and "$f(x) = x^2$ is differentiable at $1$", we derive that $x^2$ is continuous at $1$. The first premise is an instance of the theorem that [[differentiable functions are continuous|07ZMX4ANJS]].
 4. From $p \land q$ and $(p \land q) \to r$ we derive $r$. The antecedent can be any formula, here a conjunction.
-5. From $\neg q$ and $\neg q \to \neg p$ we derive $\neg p$. This is modus ponens on the contrapositive, and it is the core of [[modus tollens|~c229ad75]].
+5. From $\neg q$ and $\neg q \to \neg p$ we derive $\neg p$. This is modus ponens on the contrapositive, and it is the core of [[modus tollens|32AQPJQQAM]].
 
 ### Non-examples
 
-1. [[Detaching an inner conditional without its outer antecedent is not modus ponens|~d5eaf0f5]]: from $p \to (q \to r)$ and $q$ we cannot derive $r$.
+1. [[Detaching an inner conditional without its outer antecedent is not modus ponens|T850KJAMS5]]: from $p \to (q \to r)$ and $q$ we cannot derive $r$.
 2. From $q$ and $p \to q$ we cannot derive $p$. This is the fallacy of [[affirming the consequent|J7KFCFQRBT]], treated in the example [[affirming the consequent is not a valid deduction|2XXTDXK1ZC]].
 3. From $\neg p$ and $p \to q$ we cannot derive $\neg q$. This is [[denying the antecedent|6FH1TVDXGS]].
 
@@ -74,7 +74,7 @@ In Lean, if `h : p → q` and `hp : p`, then the application `h hp` has type `q`
 3. Modus ponens preserves truth, so a proof whose steps use it and whose premises are true has a true conclusion. This is the base of the [[soundness|4A84VHDTHV]] of proof systems.
 4. The rule is valid in [[intuitionistic logic|Q11N8X99FK]] as well as in classical logic.
 5. The [[deduction theorem|9X08XK5RV2]] is a partial converse: if $\psi$ can be derived from the hypothesis $\varphi$, then $\varphi \to \psi$ can be derived with no hypothesis. Modus ponens goes back: from $\vdash \varphi \to \psi$ and the hypothesis $\varphi$ we get $\psi$.
-6. Other rules can be derived from modus ponens and suitable axioms, for example [[modus tollens|~c229ad75]] and [[hypothetical syllogism|7MT8CPCEM4]].
+6. Other rules can be derived from modus ponens and suitable axioms, for example [[modus tollens|32AQPJQQAM]] and [[hypothetical syllogism|7MT8CPCEM4]].
 
 ### Role in Hilbert systems
 
@@ -82,7 +82,7 @@ A Hilbert system for propositional logic has axiom schemas and, as its only rule
 A usual choice of schemas for $\to$ is (A1) $\varphi \to (\psi \to \varphi)$ and (A2) $(\varphi \to (\psi \to \chi)) \to ((\varphi \to \psi) \to (\varphi \to \chi))$, with further schemas for negation.
 A derivation is a finite list of formulas, each an axiom, a hypothesis, or the result of modus ponens on two earlier formulas.
 So the set of theorems of the system is the smallest set that contains the axioms and is closed under modus ponens.
-The derivation of $p \to p$ in [[example 2|~02a3e3ea]] is the first exercise in such a system.
+The derivation of $p \to p$ in [[example 2|SD7R5BDA6N]] is the first exercise in such a system.
 
 ### History
 

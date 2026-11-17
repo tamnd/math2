@@ -70,17 +70,17 @@ Polish notation writes the connective first and needs no brackets: $CKpqr$ is $(
 
 ### Examples
 
-1. [[The four unary connectives|~f507cafe]]: there are $2^{2^1} = 4$ truth functions of one variable, and negation is the only one that is not constant and not the identity.
-2. [[The ternary majority connective|~5669374b]]: a connective of arity $3$ that is true when at least two inputs are true, and its expression by $\land$ and $\lor$.
-3. The [[exclusive or|~777e424f]] $p \oplus q$ is a binary connective with values $\mathsf{F}, \mathsf{T}, \mathsf{T}, \mathsf{F}$ in the rows $\mathsf{T}\mathsf{T}, \mathsf{T}\mathsf{F}, \mathsf{F}\mathsf{T}, \mathsf{F}\mathsf{F}$.
+1. [[The four unary connectives|HQKGRZ1PRP]]: there are $2^{2^1} = 4$ truth functions of one variable, and negation is the only one that is not constant and not the identity.
+2. [[The ternary majority connective|1NVMXVDJT7]]: a connective of arity $3$ that is true when at least two inputs are true, and its expression by $\land$ and $\lor$.
+3. The [[exclusive or|PTMR3P9J6C]] $p \oplus q$ is a binary connective with values $\mathsf{F}, \mathsf{T}, \mathsf{T}, \mathsf{F}$ in the rows $\mathsf{T}\mathsf{T}, \mathsf{T}\mathsf{F}, \mathsf{F}\mathsf{T}, \mathsf{F}\mathsf{F}$.
 4. The [[Sheffer stroke|1NNYWRN6B8]] $p \uparrow q$ is the binary connective "not both". Every other connective can be expressed by it alone.
 5. The constants $\top$ (true) and $\bot$ (false) are the two connectives of arity $0$.
 
 ### Non-examples
 
-1. [[The operator "it is a tautology that" is not a truth-functional connective|~5b91dc9c]]: two formulas with the same truth value under an assignment can give different results.
+1. [[The operator "it is a tautology that" is not a truth-functional connective|S2X5A9X01H]]: two formulas with the same truth value under an assignment can give different results.
 2. The word "because" is not a connective in this sense: the page [[connectives in mathematical language|12QQ51VK01]] gives two sentences with true parts, one acceptable and one not.
-3. The counterfactual "if ... were, then ... would" is not a truth-functional connective, as [[a counterfactual conditional is not a material implication|~07b7065b]] shows.
+3. The counterfactual "if ... were, then ... would" is not a truth-functional connective, as [[a counterfactual conditional is not a material implication|YPJF856FAN]] shows.
 
 ### The 16 binary connectives
 

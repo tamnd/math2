@@ -23,7 +23,7 @@ sources:
 We compare [[truth tables|05RSK4Q657]].
 Two formulas are [[logically equivalent|06GYGS41JK]] when they agree for each of the four assignments of truth values to $p$ and $q$.
 
-1. Let $p$ and $q$ be [[propositions|0ZGC7ZESYN]]. By the [[principle of bivalence|~e6dead3d]], each of them is true or false, so there are four rows: TT, TF, FT and FF.
+1. Let $p$ and $q$ be [[propositions|0ZGC7ZESYN]]. By the [[principle of bivalence|5DYNDW9526]], each of them is true or false, so there are four rows: TT, TF, FT and FF.
 2. We compute $\neg (p \lor q)$. By the definition of [[disjunction|0H5GKDTB01]], $p \lor q$ is false only in the row FF. By the definition of [[negation|0XR7A7RSXB]], $\neg (p \lor q)$ is true only in the row FF.
 3. We compute $\neg p \land \neg q$. By the definition of [[conjunction|0M28ASWG8T]], it is true only when $\neg p$ and $\neg q$ are both true. By the definition of negation, this happens only in the row FF.
 4. By steps 2 and 3, both formulas are true in the row FF and false in the other three rows. So $\neg (p \lor q) \equiv \neg p \land \neg q$.
@@ -49,7 +49,7 @@ Since the two sides pick out the same row, they agree everywhere.
 
 ## Variants
 
-The [[proof by natural deduction|~af25eb09]] proves each of the four directions separately.
+The [[proof by natural deduction|PQ22Q2DYP0]] proves each of the four directions separately.
 It shows that three directions hold in [[intuitionistic logic|Q11N8X99FK]], and that $\neg(p \land q) \to \neg p \lor \neg q$ needs the [[law of excluded middle|0RYYK8PG4S]].
 The truth-table proof cannot see this difference, because it is classical at step 1, where bivalence enters.
 A [[Kripke model|NGHWZ9Y7ZV]] with a root and two incomparable later worlds, $p$ true at one and $q$ at the other, refutes that direction at the root.

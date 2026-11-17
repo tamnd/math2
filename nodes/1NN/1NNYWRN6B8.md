@@ -62,14 +62,14 @@ The truth tables, in the standard row order, are as follows.
 
 ### Examples
 
-1. [[Negation, conjunction and disjunction from the Sheffer stroke|~9608def4]]: $\neg p \equiv p \uparrow p$, $p \land q \equiv (p \uparrow q) \uparrow (p \uparrow q)$ and $p \lor q \equiv (p \uparrow p) \uparrow (q \uparrow q)$, checked row by row.
-2. [[Negation, disjunction and conjunction from the Peirce arrow|~7aede9de]]: $\neg p \equiv p \downarrow p$, $p \lor q \equiv (p \downarrow q) \downarrow (p \downarrow q)$ and $p \land q \equiv (p \downarrow p) \downarrow (q \downarrow q)$.
+1. [[Negation, conjunction and disjunction from the Sheffer stroke|S3KJ52G2SF]]: $\neg p \equiv p \uparrow p$, $p \land q \equiv (p \uparrow q) \uparrow (p \uparrow q)$ and $p \lor q \equiv (p \uparrow p) \uparrow (q \uparrow q)$, checked row by row.
+2. [[Negation, disjunction and conjunction from the Peirce arrow|WH9JHEB1K3]]: $\neg p \equiv p \downarrow p$, $p \lor q \equiv (p \downarrow q) \downarrow (p \downarrow q)$ and $p \land q \equiv (p \downarrow p) \downarrow (q \downarrow q)$.
 3. Material implication from the stroke: $p \to q \equiv p \uparrow (q \uparrow q)$. Indeed $q \uparrow q \equiv \neg q$, and $p \uparrow \neg q \equiv \neg(p \land \neg q) \equiv p \to q$.
 4. "It is not the case that $6$ is prime and $6$ is even" is the stroke of two statements. It is true, because "$6$ is prime" is false.
 
 ### Non-examples
 
-1. [[Exclusive or alone is not functionally complete|~e2d139fa]]: every formula built from variables with $\oplus$ alone is false when all variables are false, so $\neg p$ cannot be built.
+1. [[Exclusive or alone is not functionally complete|KBG5Y5K65F]]: every formula built from variables with $\oplus$ alone is false when all variables are false, so $\neg p$ cannot be built.
 2. Conjunction alone is not functionally complete. Every formula built with $\land$ alone is true when all variables are true, so $\neg p$ cannot be built. The same holds for $\lor$, $\to$ and $\leftrightarrow$.
 3. Implication with the constant $\bot$ is functionally complete, but this uses two symbols. Implication alone is not, by non-example 2.
 

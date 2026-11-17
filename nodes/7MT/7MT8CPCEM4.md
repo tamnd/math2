@@ -50,15 +50,15 @@ Other names are "chain argument" and "transitivity of implication".
 
 ### Examples
 
-1. [[A chain from differentiability to integrability|~f246cd28]]: "differentiable on $\mathbb{R}$" implies "continuous on $\mathbb{R}$", which implies "Riemann integrable on $[0, 1]$".
-2. [[Hypothetical syllogism as a derived rule of a Hilbert system|~8df8f1f2]]: two axioms and three uses of modus ponens derive $p \to r$ from $p \to q$ and $q \to r$.
+1. [[A chain from differentiability to integrability|6R56603Z1S]]: "differentiable on $\mathbb{R}$" implies "continuous on $\mathbb{R}$", which implies "Riemann integrable on $[0, 1]$".
+2. [[Hypothetical syllogism as a derived rule of a Hilbert system|R01ZRGG606]]: two axioms and three uses of modus ponens derive $p \to r$ from $p \to q$ and $q \to r$.
 3. For an integer $n$: "if $12 \mid n$, then $6 \mid n$" and "if $6 \mid n$, then $3 \mid n$" give "if $12 \mid n$, then $3 \mid n$".
 4. For sets: if $A \subseteq B$ and $B \subseteq C$, then $A \subseteq C$. This is the rule applied to "$x \in A \to x \in B$" and "$x \in B \to x \in C$" for each $x$.
 5. With three links: $p \to q$, $q \to r$ and $r \to s$ give $p \to s$, by two uses of the rule.
 
 ### Non-examples
 
-1. [[Chaining two implications with the same consequent is not a hypothetical syllogism|~dbe58c03]]: from $p \to q$ and $r \to q$ we cannot derive $p \to r$.
+1. [[Chaining two implications with the same consequent is not a hypothetical syllogism|YMSC1Q4ST1]]: from $p \to q$ and $r \to q$ we cannot derive $p \to r$.
 2. From $p \to q$ and $p \to r$ we cannot derive $q \to r$. The valuation $p$ false, $q$ true, $r$ false makes both premises true and $q \to r$ false.
 3. From $p \to q$ and $q \to r$ we cannot derive the [[converse|09A3N7ZN5G]] $r \to p$. The valuation $p$ false, $q$ false, $r$ true makes both premises true and $r \to p$ false.
 

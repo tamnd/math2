@@ -49,7 +49,7 @@ In Lean and Mathlib the law is the theorem `Classical.em`, with the statement `�
 The law has no hypotheses on $p$.
 It depends on the setting, classical two-valued logic, and close variants of it fail.
 
-1. Two truth values are needed. The truth-table proof uses the [[principle of bivalence|~e6dead3d]]. In a [[many-valued logic|DWYCKAKXZD]] with a third value U and $\neg \mathrm{U} = \mathrm{U}$, as in Kleene's and Łukasiewicz's three-valued logics, the formula $p \lor \neg p$ takes the value U when $p$ does. So it is not a tautology there.
+1. Two truth values are needed. The truth-table proof uses the [[principle of bivalence|5DYNDW9526]]. In a [[many-valued logic|DWYCKAKXZD]] with a third value U and $\neg \mathrm{U} = \mathrm{U}$, as in Kleene's and Łukasiewicz's three-valued logics, the formula $p \lor \neg p$ takes the value U when $p$ does. So it is not a tautology there.
 2. Classical reasoning is needed. In [[intuitionistic logic|Q11N8X99FK]] the formula $p \lor \neg p$ is not provable. The L3 explanation gives a model where it fails.
 3. The negation is needed. The disjunction $p \lor q$ of two different variables is not a tautology: it is false in the row $p = \mathrm{F}$, $q = \mathrm{F}$.
 4. The disjunction is needed. The formula $p \land \neg p$ is false in both rows, so it is a contradiction, not a tautology.
@@ -61,14 +61,14 @@ It depends on the setting, classical two-valued logic, and close variants of it 
 2. Double negation elimination. From $\neg\neg p$ we get $p$: in the case $p$ we are done, and in the case $\neg p$ the assumption $\neg\neg p$ gives a contradiction, from which $p$ follows by [[explosion|TTKZGJEEK7]]. This is the basis of [[proof by contradiction|0J0XBKG64S]] and of the [[double negation law|0NFAGWH84K]].
 3. Non-constructive existence proofs. There are irrational numbers $a$ and $b$ with $a^b$ rational. If $\sqrt{2}^{\sqrt{2}}$ is rational, take $a = b = \sqrt{2}$. Otherwise take $a = \sqrt{2}^{\sqrt{2}}$ and $b = \sqrt{2}$, so $a^b = \sqrt{2}^2 = 2$. See [[non-constructive existence proof|JZQVJ9XT63]].
 4. The second De Morgan law $\neg(p \land q) \to \neg p \lor \neg q$ and the backward direction of [[contraposition|04T1CT7212]] follow from the law, and both fail without it. See [[De Morgan's laws (logic)|09PKJKA6J0]].
-5. The negation $\neg(p \lor \neg p)$ is a contradiction. By De Morgan's law it is equivalent to $\neg p \land \neg\neg p$, an instance of $q \land \neg q$, which the [[law of noncontradiction|~f0f20560]] excludes.
+5. The negation $\neg(p \lor \neg p)$ is a contradiction. By De Morgan's law it is equivalent to $\neg p \land \neg\neg p$, an instance of $q \land \neg q$, which the [[law of noncontradiction|MP4R7T546Z]] excludes.
 
 ### Converse
 
 The law is a single formula, not an implication, so it has no converse in the strict sense.
 The related question is whether the law follows from double negation elimination $\neg\neg p \to p$.
 For all formulas together, the answer is yes.
-The formula $\neg\neg(p \lor \neg p)$ is provable intuitionistically, as in part 3 of the [[natural deduction proof of the double negation law|~39d6aa0b]].
+The formula $\neg\neg(p \lor \neg p)$ is provable intuitionistically, as in part 3 of the [[natural deduction proof of the double negation law|D3S30V9ZZ2]].
 Double negation elimination applied to $p \lor \neg p$ then gives the law.
 So over intuitionistic logic, the law of excluded middle for all formulas and double negation elimination for all formulas are equivalent.
 For a single formula the answer is no: $\neg\neg\neg q \to \neg q$ is provable intuitionistically, but $\neg q \lor \neg\neg q$ is not.
@@ -82,7 +82,7 @@ For a single formula the answer is no: $\neg\neg\neg q \to \neg q$ is provable i
 
 ## History
 
-Aristotle discussed the law in the Metaphysics, together with the [[law of noncontradiction|~f0f20560]].
+Aristotle discussed the law in the Metaphysics, together with the [[law of noncontradiction|MP4R7T546Z]].
 Its Latin name, tertium non datur, means "a third is not given".
 Luitzen Egbertus Jan Brouwer rejected the general use of the law, in particular for infinite collections, and this rejection is the starting point of intuitionism.
 Jan Łukasiewicz introduced a three-valued logic in 1920, and in its semantics $p \lor \neg p$ is not a tautology.

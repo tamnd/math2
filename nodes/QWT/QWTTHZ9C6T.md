@@ -5,11 +5,11 @@ name: Modus tollens is a valid deduction
 msc: ["00A35", "97E30"]
 topics: [T6QQ749DM5, PM1AYWABA7]
 audience: school
-instance_of: [~c229ad75]
+instance_of: [32AQPJQQAM]
 not_instance_of:
   - target: J7KFCFQRBT
     note: the argument denies the consequent, not the antecedent, and this form is valid
-uses: [J7KFCFQRBT, 04T1CT7212, 0Y0MQYST0M, ~c229ad75]
+uses: [J7KFCFQRBT, 04T1CT7212, 0Y0MQYST0M, 32AQPJQQAM]
 sources:
   - url: https://en.wikipedia.org/wiki/Modus_tollens
     locator: lead section
@@ -25,7 +25,7 @@ Consider the argument with two premises and a conclusion:
 
 We check that the argument is valid, and that it is not an instance of [[affirming the consequent or denying the antecedent|J7KFCFQRBT]].
 
-1. The form is "if $P$ then $Q$; not $Q$; so not $P$". This form is called [[modus tollens|~c229ad75]].
+1. The form is "if $P$ then $Q$; not $Q$; so not $P$". This form is called [[modus tollens|32AQPJQQAM]].
 2. The form is valid. Suppose that the premises are true and that $P$ holds. Then $Q$ holds by premise 1, which contradicts premise 2. So $P$ fails.
 3. Another reason: $P \Rightarrow Q$ is equivalent to its [[contrapositive|04T1CT7212]] $\neg Q \Rightarrow \neg P$, and the argument applies [[modus ponens|0Y0MQYST0M]] to the contrapositive.
 4. The second premise denies the consequent $Q$, not the antecedent $P$. So the form differs from denying the antecedent, which has the second premise "not $P$".

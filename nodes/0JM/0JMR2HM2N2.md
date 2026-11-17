@@ -54,8 +54,8 @@ In truth tables we write T and F, and many books write $1$ and $0$.
 
 ### Examples
 
-1. [[Exportation: $(p \land q) \to r \equiv p \to (q \to r)$|~65b60414]]. The two formulas are false in the same single row of the truth table, the row $p$ true, $q$ true, $r$ false.
-2. [[A conditional with a disjunctive hypothesis: $(p \lor q) \to r \equiv (p \to r) \land (q \to r)$|~ecb9795f]]. This equivalence is the logical basis of [[proof by cases|0WCP0PVET6]].
+1. [[Exportation: $(p \land q) \to r \equiv p \to (q \to r)$|ZP7N9AK9ZX]]. The two formulas are false in the same single row of the truth table, the row $p$ true, $q$ true, $r$ false.
+2. [[A conditional with a disjunctive hypothesis: $(p \lor q) \to r \equiv (p \to r) \land (q \to r)$|FM28G5WGAZ]]. This equivalence is the logical basis of [[proof by cases|0WCP0PVET6]].
 3. $p \to q \equiv \neg p \lor q$. Both sides are false only in the row where $p$ is true and $q$ is false. See [[material implication|0NMG7W7Q11]].
 4. $p \leftrightarrow q \equiv (p \to q) \land (q \to p)$. Both sides are true exactly when $p$ and $q$ have the same truth value.
 5. [[De Morgan's laws (logic)|09PKJKA6J0]] and the [[double negation law|0NFAGWH84K]] give $\neg(p \land q) \equiv \neg p \lor \neg q$, $\neg(p \lor q) \equiv \neg p \land \neg q$ and $\neg\neg p \equiv p$.
@@ -63,9 +63,9 @@ In truth tables we write T and F, and many books write $1$ and $0$.
 
 ### Non-examples
 
-1. [[The formulas $(p \land q) \to r$ and $(p \to r) \land (q \to r)$ are not equivalent|~b3065530]]. They differ in the row $p$ true, $q$ false, $r$ false.
+1. [[The formulas $(p \land q) \to r$ and $(p \to r) \land (q \to r)$ are not equivalent|WAPV0FBEAE]]. They differ in the row $p$ true, $q$ false, $r$ false.
 2. An implication is not equivalent to its [[converse|09A3N7ZN5G]]: $p \to q \not\equiv q \to p$. In the row $p$ true, $q$ false, the first formula is false and the second is true.
-3. Inclusive and [[exclusive or|~777e424f]] are not equivalent: $p \lor q \not\equiv p \oplus q$. In the row where $p$ and $q$ are both true, $p \lor q$ is true and $p \oplus q$ is false.
+3. Inclusive and [[exclusive or|PTMR3P9J6C]] are not equivalent: $p \lor q \not\equiv p \oplus q$. In the row where $p$ and $q$ are both true, $p \lor q$ is true and $p \oplus q$ is false.
 4. A formula is not equivalent to a weaker consequence of it: $p \land q \not\equiv p$. In the row $p$ true, $q$ false, the first formula is false and the second is true.
 
 ### Basic properties
@@ -76,7 +76,7 @@ In truth tables we write T and F, and many books write $1$ and $0$.
 4. Replacement of equivalents. If $\varphi \equiv \psi$ and a formula $\chi'$ comes from $\chi$ by the replacement of an occurrence of $\varphi$ by $\psi$, then $\chi \equiv \chi'$. The truth value of $\chi$ depends only on the truth values of its parts.
 5. Substitution. If $\varphi \equiv \psi$ and we replace a variable $p$ by the same formula $\theta$ at every place in both formulas, the results are equivalent. For example, $\neg(p \land q) \equiv \neg p \lor \neg q$ gives $\neg((r \lor s) \land q) \equiv \neg(r \lor s) \lor \neg q$.
 6. All tautologies are equivalent to each other, and all contradictions are equivalent to each other.
-7. A truth table with $2^n$ rows decides whether two formulas in $n$ variables are equivalent. The standard equivalences are collected on the page [[laws of propositional logic|~5fa904ea]].
+7. A truth table with $2^n$ rows decides whether two formulas in $n$ variables are equivalent. The standard equivalences are collected on the page [[laws of propositional logic|A9CSGZNBV5]].
 8. Each formula is equivalent to a formula in [[disjunctive normal form|0GVDFAY4KW]] and to a formula in [[conjunctive normal form|0B3D4C8YF2]].
 9. The formulas in the variables $p_1, \ldots, p_n$ fall into exactly $2^{2^n}$ equivalence classes, one for each [[Boolean function|0X05GS525E]] of $n$ arguments. For $n = 1$ the four classes are those of $p$, $\neg p$, $p \lor \neg p$ and $p \land \neg p$.
 

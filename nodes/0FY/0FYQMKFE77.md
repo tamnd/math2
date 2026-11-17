@@ -52,15 +52,15 @@ In English, a quantifier placed at the end of a sentence, as in "$|f(x) - f(a)| 
 
 ### Examples
 
-1. [[Identity and inverse axioms of a group differ in the order of quantifiers|~a42ae4f3]]: the identity axiom has the form $\exists e \, \forall x$, and the inverse axiom has the form $\forall x \, \exists y$.
-2. [[The square function is continuous but not uniformly continuous on R|~08964e2f]]: the order $\forall a \, \forall \varepsilon \, \exists \delta$ holds and the order $\forall \varepsilon \, \exists \delta \, \forall a$ fails.
+1. [[Identity and inverse axioms of a group differ in the order of quantifiers|MX1W7T91RG]]: the identity axiom has the form $\exists e \, \forall x$, and the inverse axiom has the form $\forall x \, \exists y$.
+2. [[The square function is continuous but not uniformly continuous on R|D3GPZRVGDM]]: the order $\forall a \, \forall \varepsilon \, \exists \delta$ holds and the order $\forall \varepsilon \, \exists \delta \, \forall a$ fails.
 3. On $D = \{1, 2, 3\}$, let $P(x, y)$ mean $x + y = 4$. Then $\forall x \, \exists y \, P(x, y)$ is true with $y = 4 - x$. But $\exists y \, \forall x \, P(x, y)$ is false: $P(1, y)$ forces $y = 3$, and $P(3, 3)$ is false.
 4. Over $\mathbb{Z}$, $\forall x \, \exists y \, (y > x)$ is true and $\exists y \, \forall x \, (y > x)$ is false. The page [[every number has a larger one, but no number is larger than all|F1GYSA9TW0]] checks both.
 5. For a real sequence $(a_n)$ and $L \in \mathbb{R}$, $\forall \varepsilon > 0 \; \exists N \; \forall n \geq N \; |a_n - L| < \varepsilon$ says that $a_n \to L$. The order $\exists N \; \forall \varepsilon > 0 \; \forall n \geq N \; |a_n - L| < \varepsilon$ says that $a_n = L$ for all $n \geq N$, because a number $|a_n - L| \geq 0$ below every $\varepsilon > 0$ is $0$.
 
 ### Non-examples
 
-1. [[Two existential quantifiers can be exchanged|~25ac0d7f]]: in $\exists x \, \exists y$ the order does not change the meaning.
+1. [[Two existential quantifiers can be exchanged|RKAJ2ZPA1T]]: in $\exists x \, \exists y$ the order does not change the meaning.
 2. If the predicate does not depend on $x$, the order does not matter on a non-empty domain: $\forall x \, \exists y \, Q(y) \equiv \exists y \, Q(y) \equiv \exists y \, \forall x \, Q(y)$.
 3. $\forall x \in \mathbb{R} \; \forall y \in \mathbb{R} \; (x + y = y + x)$ is a statement with two universal quantifiers, and writing $\forall y \, \forall x$ gives the same statement.
 

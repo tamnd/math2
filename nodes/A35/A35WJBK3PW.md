@@ -20,7 +20,7 @@ sources:
 
 We compare the [[truth table|05RSK4Q657]] columns of $\neg\neg p$ and $p$.
 
-1. By the [[principle of bivalence|~e6dead3d]], the variable $p$ is T or F, so the table has two rows.
+1. By the [[principle of bivalence|5DYNDW9526]], the variable $p$ is T or F, so the table has two rows.
 2. Row $p = \mathrm{T}$. By the definition of [[negation|029JBBF693]], $\neg p$ is F. By the same definition applied to $\neg p$, the formula $\neg\neg p$ is T.
 3. Row $p = \mathrm{F}$. By the definition of negation, $\neg p$ is T. Applied once more, the definition gives that $\neg\neg p$ is F.
 4. The table is this.
@@ -41,5 +41,5 @@ Two swaps bring back the first value, so $\neg\neg p$ has the value of $p$ in ev
 ## Variants
 
 The truth-table proof treats both directions of the law at once, and it uses bivalence in step 1.
-The [[natural deduction proof of the double negation law|~39d6aa0b]] proves the two directions separately.
+The [[natural deduction proof of the double negation law|D3S30V9ZZ2]] proves the two directions separately.
 It shows that $p \to \neg\neg p$ needs no classical rule, while $\neg\neg p \to p$ uses the [[law of excluded middle|0RYYK8PG4S]].

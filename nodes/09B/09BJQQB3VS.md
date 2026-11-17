@@ -51,16 +51,16 @@ In the proof of a characterization "the property holds if and only if $C$", the 
 
 ### Examples
 
-1. [[Divisibility by 3 is characterized by the digit sum|~d33a8c9d]]: a natural number is divisible by $3$ if and only if its digit sum is divisible by $3$.
-2. [[A zero derivative is necessary but not sufficient for a local extremum|~e65cd28e]]: the condition $f'(c) = 0$ holds at each interior extremum of a differentiable $f$, and it also holds for $x^3$ at $0$, which has no extremum.
+1. [[Divisibility by 3 is characterized by the digit sum|RYJ4YKRWM2]]: a natural number is divisible by $3$ if and only if its digit sum is divisible by $3$.
+2. [[A zero derivative is necessary but not sufficient for a local extremum|9ZJYHTGGW5]]: the condition $f'(c) = 0$ holds at each interior extremum of a differentiable $f$, and it also holds for $x^3$ at $0$, which has no extremum.
 3. For an integer $n$, divisibility by $4$ is sufficient for "$n$ is even", but not necessary, because $2$ is even. See the [[English forms of this conditional|D77E2EA786]].
-4. The [[converse of the Pythagorean theorem|~77c357f7]] completes a characterization: a triangle has a right angle at $C$ if and only if $a^2 + b^2 = c^2$.
+4. The [[converse of the Pythagorean theorem|EFF30FNVZ0]] completes a characterization: a triangle has a right angle at $C$ if and only if $a^2 + b^2 = c^2$.
 5. Wilson's theorem and its [[converse|06WRV8HFDY]] characterize the primes: an integer $n > 1$ is prime if and only if $(n - 1)! \equiv -1 \pmod n$.
 6. For an integer $n$, "$n^2$ is even" is necessary and sufficient for "$n$ is even". If $n = 2k$, then $n^2 = 2(2k^2)$; if $n = 2k + 1$, then $n^2 = 2(2k^2 + 2k) + 1$ is odd.
 
 ### Non-examples
 
-1. [[Being odd is neither necessary nor sufficient for being prime|~f3172936]]: the prime $2$ is even, and the odd number $9$ is not prime.
+1. [[Being odd is neither necessary nor sufficient for being prime|EB51VZGZ4G]]: the prime $2$ is even, and the odd number $9$ is not prime.
 2. For a real number $x$, the condition $x > 1$ is not necessary and sufficient for $x^2 > 1$. It is sufficient, but $x = -2$ satisfies $x^2 > 1$ and not $x > 1$, so it is not necessary.
 3. For $f \colon \mathbb{R} \to \mathbb{R}$, continuity at $a$ is not sufficient for differentiability at $a$. The function $|x|$ at $a = 0$ is continuous and not differentiable, although continuity is necessary, by the theorem that [[differentiable functions are continuous|07ZMX4ANJS]].
 

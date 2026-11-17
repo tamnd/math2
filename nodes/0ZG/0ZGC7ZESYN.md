@@ -66,7 +66,7 @@ In philosophy, a proposition is the meaning that a sentence expresses, so "it is
 
 ### Basic properties
 
-1. Each proposition has exactly one of the two truth values. This is the [[principle of bivalence|~e6dead3d]].
+1. Each proposition has exactly one of the two truth values. This is the [[principle of bivalence|5DYNDW9526]].
 2. The truth value of a compound proposition built with the connectives [[negation|029JBBF693]], [[conjunction|025YZN3VJW]], [[disjunction|0F72FK8EKB]], [[material implication|0NMG7W7Q11]] and the [[biconditional|0S6GMNJ62Y]] depends only on the truth values of its atomic parts.
 3. So a compound proposition with $n$ different atomic parts has at most $2^n$ cases to check, one for each row of its [[truth table|05RSK4Q657]].
 4. Two compound propositions with the same truth value in every row are [[logically equivalent|0JMR2HM2N2]], and a compound proposition that is true in every row is a [[tautology|05006AJ7DZ]].

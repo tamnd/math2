@@ -51,15 +51,15 @@ In the Lean library Mathlib, `ExistsUnique` is defined by form (A), and `∃! x,
 
 ### Examples
 
-1. [[The equation x^2 = x + 2 has exactly one natural solution|~1b044b1e]]: over $\mathbb{N}$ only $x = 2$ works, but over $\mathbb{Z}$ also $x = -1$ works. The truth of $\exists!$ depends on the domain.
-2. [[The definition of a function uses the uniqueness quantifier|~dc544282]]: a relation $f \subseteq X \times Y$ is a function when $\forall x \in X \; \exists! y \in Y \; (x, y) \in f$.
+1. [[The equation x^2 = x + 2 has exactly one natural solution|QMYHS34Z1G]]: over $\mathbb{N}$ only $x = 2$ works, but over $\mathbb{Z}$ also $x = -1$ works. The truth of $\exists!$ depends on the domain.
+2. [[The definition of a function uses the uniqueness quantifier|P4NCHC44NJ]]: a relation $f \subseteq X \times Y$ is a function when $\forall x \in X \; \exists! y \in Y \; (x, y) \in f$.
 3. $\exists! p \, (p \text{ is prime} \land p \text{ is even})$ is true over the integers. The prime $2$ is even, and each even number $n > 2$ has the divisor $2$ with $1 < 2 < n$, so it is not prime.
 4. $\exists! x \in \mathbb{R} \; x^3 = 8$ is true. The number $2$ works, and $x \mapsto x^3$ is strictly increasing, so no other real number has cube $8$.
 5. $\forall x \in \mathbb{R} \; \exists! y \in \mathbb{R} \; x + y = 0$ is true. The number $y = -x$ works, and $x + y = 0 = x + y'$ gives $y = y'$.
 
 ### Non-examples
 
-1. [[The formula "exists x for all y, P(y) implies y = x" says "at most one"|~f46c6dfc]]: it is true for a predicate that no element satisfies, so it is not $\exists! x \, P(x)$.
+1. [[The formula "exists x for all y, P(y) implies y = x" says "at most one"|KGGR81G9DV]]: it is true for a predicate that no element satisfies, so it is not $\exists! x \, P(x)$.
 2. [[The equation x^2 = 4 has a solution but not exactly one|A82V4N0G1P]]: over $\mathbb{R}$ the predicate $x^2 = 4$ has the two solutions $2$ and $-2$, so the uniqueness part fails.
 3. The formula $\exists x \, \bigl( P(x) \land \forall y \, ( y = x ) \bigr)$ is not the uniqueness quantifier. It says that the whole domain has exactly one element and that this element has property $P$. Over $\mathbb{N}$ with $P(x)$ meaning $x = 0$, it is false, although $\exists! x \, P(x)$ is true.
 
@@ -75,7 +75,7 @@ In the Lean library Mathlib, `ExistsUnique` is defined by form (A), and `∃! x,
     7. Steps 5 and 6 show that $a$ is a witness for (A). No step uses the [[law of excluded middle|0RYYK8PG4S]], so the equivalence also holds in [[intuitionistic logic|Q11N8X99FK]].
 2. $\exists! x \, P(x)$ implies $\exists x \, P(x)$, by the first part of form (B). The converse is false, as non-example 2 shows.
 3. $\exists! x \, P(x)$ is true exactly when the truth set $\{x \in D : P(x)\}$ has exactly one element.
-4. On a two-element domain $\{a, b\}$, $\exists! x \, P(x)$ is equivalent to $P(a) \oplus P(b)$, the [[exclusive or|~777e424f]]. On a three-element domain this fails: $P(a) \oplus P(b) \oplus P(c)$ is also true when all three are true.
+4. On a two-element domain $\{a, b\}$, $\exists! x \, P(x)$ is equivalent to $P(a) \oplus P(b)$, the [[exclusive or|PTMR3P9J6C]]. On a three-element domain this fails: $P(a) \oplus P(b) \oplus P(c)$ is also true when all three are true.
 5. The negation of $\exists! x \, P(x)$ is $\forall x \, \neg P(x) \lor \exists x \, \exists y \, (P(x) \land P(y) \land x \neq y)$. It follows from form (B), [[De Morgan's laws|09PKJKA6J0]] and the [[negation of a universal statement|0P3A06QNDP]].
 6. The proof methods for statements of this form, existence first and uniqueness second, are on the pages [[existence and uniqueness statements|ACSC75R7R5]] and [[proof of uniqueness|GQHHNV79PA]].
 

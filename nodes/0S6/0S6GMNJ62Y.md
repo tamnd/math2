@@ -58,16 +58,16 @@ The abbreviation "iff" is used in definitions and theorems, and spoken as "if an
 ### Examples
 
 1. [[An integer is even if and only if its square is even|T7C1TEZBRD]]: a true universal biconditional, proved in two directions by different methods.
-2. [[The biconditional "$x^2 = 1$ if and only if $x = 1$" for $x = 1, -1, 2$|~0c909df6]]: the value $x = -1$ makes the biconditional false, because one side is true and the other is false.
+2. [[The biconditional "$x^2 = 1$ if and only if $x = 1$" for $x = 1, -1, 2$|20ZNMMGXFF]]: the value $x = -1$ makes the biconditional false, because one side is true and the other is false.
 3. "$1 = 2$ if and only if $3$ is even" is true, because both sides are false.
 4. For a real number $x$, "$x^2 = 0$ if and only if $x = 0$" is true for every $x$. If $x = 0$, then $x^2 = 0$. If $x \neq 0$, then $x^2 > 0$.
 5. For sets, "$x \in A \cap B$ if and only if $x \in A$ and $x \in B$" is the definition of the [[intersection|0ZNMMA9TF5]]. A definition by "iff" fixes the members of the set completely.
 
 ### Non-examples
 
-1. [[The one-way implication "if $x > 2$, then $x^2 > 4$" is not a biconditional|~13b0c594]]: the value $x = -3$ falls in the row where an implication is true and a biconditional is false.
+1. [[The one-way implication "if $x > 2$, then $x^2 > 4$" is not a biconditional|NQB3S87SWA]]: the value $x = -3$ falls in the row where an implication is true and a biconditional is false.
 2. "$p$ only if $q$" is not a biconditional. It is the single implication $p \to q$, and it is true at $p = \mathsf{F}$, $q = \mathsf{T}$, where $p \leftrightarrow q$ is false.
-3. "$p$ or $q$, but not both" is not a biconditional. It is the [[exclusive or|~777e424f]], and it has the opposite value in each row.
+3. "$p$ or $q$, but not both" is not a biconditional. It is the [[exclusive or|PTMR3P9J6C]], and it has the opposite value in each row.
 
 ### Basic properties
 

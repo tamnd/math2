@@ -6,7 +6,7 @@ msc: ["03B05"]
 topics: [PM1AYWABA7]
 audience: school
 defines: 029JBBF693
-uses: [0ZGC7ZESYN, ~e6dead3d]
+uses: [0ZGC7ZESYN, 5DYNDW9526]
 sources:
   - url: https://en.wikipedia.org/wiki/Negation
     locator: lead section
@@ -38,7 +38,7 @@ In Lean's Mathlib, `Not a` (written `¬a`) is defined as `a → False`.
 ## Remarks
 
 Negation is the only connective with one input among the usual connectives; $\land$, $\lor$, $\to$, $\leftrightarrow$ and $\oplus$ have two inputs.
-The definition uses the [[principle of bivalence|~e6dead3d]]: the two rows of the table cover all cases.
+The definition uses the [[principle of bivalence|5DYNDW9526]]: the two rows of the table cover all cases.
 The proof rules that match the definition are negation introduction (from "$p$ leads to a contradiction" conclude $\neg p$) and negation elimination (from $p$ and $\neg p$ conclude a contradiction).
 In Mathlib these rules are the rules of implication applied to `a → False`.
 The concept page [[negation|029JBBF693]] gives the laws for negating compound propositions, double negation, the examples and the non-examples.
