@@ -3,7 +3,7 @@ tag: S9MHMRAX88
 kind: definition
 name: Mathematical statement
 msc: ["97E40", "00A35"]
-topics: [WMY13MXY3W]
+topics: [WMY13MXY3W, PM1AYWABA7]
 audience: school
 defines: 0ZGC7ZESYN
 sources:

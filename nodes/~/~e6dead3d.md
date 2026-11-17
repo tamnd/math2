@@ -1,0 +1,125 @@
+---
+tag: ~e6dead3d
+kind: concept
+name: Principle of bivalence
+msc: ["03B05", "03B50"]
+topics: [PM1AYWABA7]
+audience: school
+uses: [0ZGC7ZESYN]
+sources:
+  - url: https://en.wikipedia.org/wiki/Principle_of_bivalence
+    locator: lead section
+  - url: https://en.wikipedia.org/wiki/Three-valued_logic
+    locator: lead section
+  - book: isbn:9781108439534
+    locator: Section 1.2
+---
+
+## Summary
+
+The principle of bivalence says that every [[proposition|0ZGC7ZESYN]] has exactly one of two truth values: it is true or it is false, and it is not both.
+The two truth values are written T and F, or $1$ and $0$.
+The principle is a claim about truth values, so it belongs to the semantics of logic and is stated in the metalanguage.
+Classical logic rests on it: it is the reason why a [[truth table|05RSK4Q657]] needs only the two values T and F for each variable.
+
+## Motivation
+
+A truth table lists all possible cases for the parts of a compound proposition and computes the value of the whole in each case.
+This method needs a fixed, finite list of possible values for each part.
+Mathematical practice also treats each statement as settled in advance, even before a proof exists.
+A mathematician who works on an open problem assumes that the conjecture is true or false, and tries to find out which.
+The principle of bivalence states this assumption explicitly, so that it can be examined and, in some logics, dropped.
+
+## Notation
+
+The set of truth values is $\{T, F\}$, also written $\{1, 0\}$ or $\{\top, \bot\}$; it is the [[Boolean domain|37G9TMXT19]].
+A valuation is a function $v$ from the propositional variables to $\{T, F\}$, and $v(\varphi)$ is the truth value of a formula $\varphi$ under $v$.
+With the values $1$ and $0$, the connectives become arithmetic: $\neg p$ is $1 - p$, $p \land q$ is $pq$, and $p \lor q$ is $\max(p, q)$.
+
+## Remarks
+
+### Examples
+
+1. [[The truth value of "$2^{67} - 1$ is prime"|~5ed5a0c9]]: the proposition was false before anybody found a factor.
+2. [[Bivalence gives a truth table with $2^n$ rows|~1d9d7fa6]]: three variables give $2 \cdot 2 \cdot 2 = 8$ rows.
+3. Goldbach's conjecture is true or false, although its truth value is unknown; see [[Goldbach's conjecture as an example of a statement|2H9FT1ZV4J]].
+4. The statement "$x^2 \geq 0$ for every real $x$" is true, and its negation is false. Bivalence gives one of the two values, and the [[negation|029JBBF693]] gets the other.
+
+### Non-examples
+
+1. [[Łukasiewicz's three-valued logic gives $p \lor \neg p$ the value $\tfrac{1}{2}$|~e4305419]]: a third truth value is allowed, so bivalence fails.
+2. The [[liar sentence|DYAB23WA1X]] "this sentence is false" cannot have either value without contradiction. Some theories of truth give it a [[truth-value gap|4CBCWZQZ12]].
+3. In [[Aristotle's sea battle|A4F57C4ZDA]], the sentence "there will be a sea battle tomorrow" is, on one reading, neither true nor false today.
+4. The open sentence "$x > 3$" is neither true nor false, but it is not a counterexample to bivalence: it is not a proposition until $x$ has a value.
+
+### Bivalence and the law of excluded middle
+
+The [[law of excluded middle|0RYYK8PG4S]] is the formula $p \lor \neg p$ of the object language, or the claim that every instance of it is a [[tautology|05006AJ7DZ]].
+Bivalence is a claim about the values that propositions can take.
+In classical semantics, bivalence implies the law: if $p$ is T, then $p \lor \neg p$ is T; if $p$ is F, then $\neg p$ is T, and again $p \lor \neg p$ is T.
+The two principles are still different, and some semantics separate them.
+[[Supervaluational semantics|QQPVKJSAX1]] allows propositions without a truth value, but it makes every instance of $p \lor \neg p$ true.
+Łukasiewicz's three-valued logic rejects both: it gives $p \lor \neg p$ the value $\tfrac{1}{2}$ when $p$ has the value $\tfrac{1}{2}$.
+
+### Logics that reject bivalence
+
+1. [[Many-valued logics|DWYCKAKXZD]] use three or more truth values. Łukasiewicz's and Kleene's three-valued logics add a value for "undetermined" or "undefined"; see [[Kleene connectives|B7KATP4SEA]].
+2. Fuzzy logics use every real number from $0$ to $1$ as a truth value.
+3. Some [[paraconsistent logics|C7YWCR87QJ]] allow a proposition to be both true and false. They reject the "not both" half of bivalence.
+4. [[Intuitionistic logic|Q11N8X99FK]] replaces truth by provability. It does not assert $p \lor \neg p$, but it adds no third value either: $\neg\neg(p \lor \neg p)$ is provable there. Gödel showed that no finite set of truth values gives exactly the intuitionistic tautologies.
+
+### Basic properties
+
+1. With bivalence, $n$ propositional variables have $2^n$ valuations, so a truth table with $n$ variables has $2^n$ rows.
+2. With bivalence, a connective with $n$ inputs is a function from $\{T, F\}^n$ to $\{T, F\}$, so there are $2^{2^n}$ such connectives; for $n = 2$ there are $16$.
+3. With bivalence and the truth table of negation, every instance of $p \lor \neg p$ is true, and every instance of $p \land \neg p$ is false. The second fact is the [[law of noncontradiction|~f0f20560]].
+4. With bivalence, "$p$ is not true" means "$p$ is false". This step is the semantic basis of [[proof by contradiction|0J0XBKG64S]].
+
+### History
+
+In On Interpretation, Aristotle asked whether "there will be a sea battle tomorrow" is already true or false today.
+George Boole used the values $1$ and $0$ in his algebra of logic of 1847 and 1854.
+Jan Łukasiewicz built a three-valued logic in 1920 to give such statements about the future a third value.
+Luitzen Egbertus Jan Brouwer rejected the law of excluded middle for infinite collections, and his intuitionism led to a logic that does not rely on bivalence.
+
+### Common errors
+
+1. A student thinks that bivalence says we know the truth value. It says only that the value exists.
+2. A student identifies bivalence with the law of excluded middle. The first is about truth values, the second is a formula; supervaluational semantics keeps the second and drops the first.
+3. A student uses an open sentence such as "$n$ is even" as a counterexample to bivalence. It has no truth value because it is not a proposition; each instance "$4$ is even", "$5$ is even" has exactly one value.
+
+## Explanations
+
+### L1 human
+
+The principle of bivalence says: every claim is either true or false, and never both.
+"$3 + 4 = 7$" is true.
+"$3 + 4 = 8$" is false.
+There is no third option such as "half true".
+Even for a hard claim that nobody can check yet, the principle says that the answer is already one of the two.
+Our not knowing the answer does not create a third value.
+
+### L2 human
+
+We count the cases for the formula $p \lor \neg p$ under two different assumptions on the truth values.
+
+1. With bivalence, $p$ has $2$ possible values, T and F.
+2. If $p$ is T, then $p \lor \neg p$ is T, because its first part is T.
+3. If $p$ is F, then $\neg p$ is T, so $p \lor \neg p$ is T.
+4. So $p \lor \neg p$ is T in both rows, and it is a tautology.
+5. Now allow a third value $\tfrac{1}{2}$, with $\neg x = 1 - x$ and $x \lor y = \max(x, y)$, as in Łukasiewicz's logic.
+6. For $p = \tfrac{1}{2}$, we get $\neg p = \tfrac{1}{2}$ and $p \lor \neg p = \max(\tfrac{1}{2}, \tfrac{1}{2}) = \tfrac{1}{2}$, which is not $1$.
+
+The typical use of bivalence is silent: every truth-table proof of a law of logic uses it, because it lists only the values T and F.
+
+A trap: steps 2 and 3 are a proof by cases on the value of $p$, and the two cases are complete only because of bivalence.
+In a logic with a third value, a third case appears, and the conclusion can fail, as step 6 shows.
+
+### L3 human
+
+Algebraically, bivalence says that the semantics of classical propositional logic is the [[two-element Boolean algebra|0WG43AC0EV]].
+Other algebras give other semantics: a general [[Boolean algebra|0XADJKM699]] keeps all classical laws but has more than two values, and a [[Heyting algebra|NG943XNQWH]] gives intuitionistic logic.
+This shows that the laws of classical logic do not need bivalence: they hold in every Boolean algebra, while bivalence singles out the algebra with two elements.
+In this sense, the law of excluded middle is a law of the logic, while bivalence is a property of a chosen semantics.
+In philosophy, Michael Dummett used acceptance of bivalence as the mark of realism about a subject matter, and anti-realism about mathematics fits intuitionistic logic.
+In model theory, every sentence is true or false in a given structure, so bivalence holds relative to a structure, while a sentence can be true in one model and false in another.

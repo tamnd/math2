@@ -3,7 +3,7 @@ tag: 2H9FT1ZV4J
 kind: example
 name: Goldbach's conjecture as an example of a statement
 msc: ["97E40", "11P32"]
-topics: [WMY13MXY3W]
+topics: [WMY13MXY3W, PM1AYWABA7]
 audience: school
 instance_of: [0ZGC7ZESYN]
 uses: [S9MHMRAX88, 063JNBSMJ0]
