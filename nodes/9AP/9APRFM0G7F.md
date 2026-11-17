@@ -6,8 +6,8 @@ name: Buchholz hydra theorem
 msc: ["03F15", "03F35", "05C05"]
 topics: [T6FK1E7GJ1]
 audience: research
-uses: [9APRFM0G7F, C028FF4TWM, 0C9J6W2A8A, S5FTQGHVKC, DC60FYCSPM, C72RBH0CDR]
-about: [9APRFM0G7F, S5FTQGHVKC, DC60FYCSPM]
+uses: [C028FF4TWM, 0C9J6W2A8A, S5FTQGHVKC, DC60FYCSPM, C72RBH0CDR]
+about: [S5FTQGHVKC, DC60FYCSPM]
 history:
   first_stated: "1987"
   notes: "Buchholz introduced the labelled hydras in 'An independence result for (Π¹₁-CA)+BI' (1987)."
