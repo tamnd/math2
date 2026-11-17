@@ -1,0 +1,65 @@
+---
+tag: PVB7ZSPZR6
+kind: example
+name: Normality is not transitive, shown by the Klein four-group in A4
+msc: ["20E15"]
+topics: [E1506A5A55]
+audience: ug1
+instance_of: [FKTQ1WBMKM]
+not_instance_of:
+  - target: 0CB0DX5BVV
+    note: K = {e, (1 2)(3 4)} is normal in V, and V is normal in A4, but K is not normal in A4
+illustrates: [0CB0DX5BVV]
+uses: [0Z5905Q73D, 0PMRQJVTME, 0ZKPH2BD1T, 0JPDTEDCFD]
+sources:
+  - url: https://en.wikipedia.org/wiki/Normal_subgroup
+    locator: Properties
+  - url: https://en.wikipedia.org/wiki/Klein_four-group
+    locator: Permutation representation
+---
+
+## Example
+
+Let $G = A_4$ be the [[alternating group|0Z5905Q73D]] of the even permutations of $\{1, 2, 3, 4\}$.
+It has $12$ elements.
+We use [[cycle notation|0ZKPH2BD1T]] and compose permutations from right to left, so $\sigma\tau$ means first $\tau$, then $\sigma$.
+Let
+$$V = \{e, (1\,2)(3\,4), (1\,3)(2\,4), (1\,4)(2\,3)\}, \qquad K = \{e, (1\,2)(3\,4)\}.$$
+We show that $K \trianglelefteq V$ and $V \trianglelefteq A_4$, but $K$ is not [[normal|0CB0DX5BVV]] in $A_4$.
+
+1. Each element of $V$ is even, because it is a product of two transpositions. So $V \subseteq A_4$.
+2. Each nonidentity element of $V$ has order $2$. For example, $(1\,2)(3\,4)(1\,3)(2\,4) = (1\,4)(2\,3)$, because the product sends $1 \mapsto 3 \mapsto 4$, $4 \mapsto 2 \mapsto 1$, $2 \mapsto 4 \mapsto 3$ and $3 \mapsto 1 \mapsto 2$.
+3. In the same way, the product of two different nonidentity elements of $V$ is the third one. So $V$ is a subgroup, and it is the [[Klein four-group|0PMRQJVTME]].
+4. The multiplication rule of step 3 is symmetric, so $V$ is abelian. Each subgroup of an abelian group is normal ([[subgroups of abelian groups are normal|0JPDTEDCFD]]). So $K \trianglelefteq V$.
+5. For each permutation $g$, the conjugate $g(a\,b)(c\,d)g^{-1}$ is $(g(a)\;g(b))(g(c)\;g(d))$, which is again a product of two disjoint transpositions.
+6. $V$ contains $e$ and all three products of two disjoint transpositions in $S_4$. So $gVg^{-1} \subseteq V$ for each $g \in A_4$, and $V \trianglelefteq A_4$.
+7. Let $g = (1\,2\,3)$. It is a $3$-cycle, so it is even, and $g \in A_4$.
+8. By the rule of step 5, $g(1\,2)(3\,4)g^{-1} = (g(1)\;g(2))(g(3)\;g(4)) = (2\,3)(1\,4)$.
+9. $(1\,4)(2\,3) \notin K$. So $gKg^{-1} \ne K$, and $K$ is not normal in $A_4$.
+
+## Remarks
+
+The chain $K \trianglelefteq V \trianglelefteq A_4$ shows that "is a normal subgroup of" is not a transitive relation.
+A subgroup that is the end of such a chain of normal subgroups is a [[subnormal subgroup|FKTQ1WBMKM]], so $K$ is subnormal in $A_4$ but not normal.
+A stronger property is transitive in this sense: a [[characteristic subgroup|0KABPMRHM2]] of a normal subgroup of $G$ is normal in $G$.
+$K$ is not characteristic in $V$, because an automorphism of $V$ can swap $(1\,2)(3\,4)$ and $(1\,3)(2\,4)$.
+The same chain also lies in $S_4$, and there too $K$ is not normal.
+
+## Explanations
+
+### L1 human
+
+A normal subgroup is a subgroup that stays in its place under each renaming by the group around it.
+Here $K$ stays in its place under the renamings that come from $V$.
+And $V$ stays in its place under the renamings that come from $A_4$.
+But a renaming from $A_4$ can move $K$ to another place inside $V$.
+So "normal in normal" does not give "normal".
+
+### L2 human
+
+To test normality, we must use the elements of the large group, not only the elements of the middle group.
+In $V$, conjugation does nothing, because $V$ is abelian.
+In $A_4$, the element $(1\,2\,3)$ permutes the three elements of order $2$ of $V$ in a cycle.
+This is why $V$ is normal in $A_4$ and $K$ is not.
+A common error is to prove that $K \trianglelefteq V$ and $V \trianglelefteq G$, and then to conclude that $K \trianglelefteq G$.
+That conclusion needs a stronger hypothesis, for example that $K$ is characteristic in $V$.

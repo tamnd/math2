@@ -1,0 +1,55 @@
+---
+tag: K4ESD5HGCP
+kind: example
+name: The squares of the integers are not the image of a homomorphism
+msc: ["20A05"]
+topics: [E1506A5A55]
+audience: ug1
+not_instance_of:
+  - target: 0S21GNW9ZB
+    note: the set of squares is not a subgroup of the integers, and images are subgroups
+uses: [0BSCJA5G53, 0X1JXT47GA, 0S21GNW9ZB]
+sources:
+  - url: https://en.wikipedia.org/wiki/Group_homomorphism
+    locator: Image and kernel
+---
+
+## Example
+
+Let $S = \{n^2 : n \in \mathbb{Z}\} = \{0, 1, 4, 9, 16, \dots\}$ be the set of squares in the [[additive group of integers|0BSCJA5G53]].
+We claim that $S$ is not the image of any homomorphism $\varphi \colon G \to (\mathbb{Z}, +)$, for any group $G$.
+
+1. The [[image|0S21GNW9ZB]] of a homomorphism into $\mathbb{Z}$ is a [[subgroup|0X1JXT47GA]] of $\mathbb{Z}$.
+2. A subgroup contains the inverse of each of its elements. In $(\mathbb{Z}, +)$, the inverse of $1$ is $-1$.
+3. Each square is at least $0$, so $-1 \notin S$. But $1 = 1^2 \in S$.
+4. So $S$ is not closed under inverses, and $S$ is not a subgroup.
+5. $S$ is not closed under addition either: $1 + 1 = 2$, and $2$ is not a square.
+
+So no homomorphism into $\mathbb{Z}$ has image $S$.
+
+## Remarks
+
+The example shows how to rule out a set as an image with no search over homomorphisms: test whether the set is a subgroup.
+The set $S$ is the image of the function $n \mapsto n^2$, but this function is not a homomorphism of $(\mathbb{Z}, +)$.
+The subgroups of $\mathbb{Z}$ are the sets $d\mathbb{Z}$ with $d \ge 0$, and $d\mathbb{Z}$ is the image of $u \mapsto du$.
+In the multiplicative group $\mathbb{R}^\times$, the squares do form an image: squaring has image $\mathbb{R}_{>0}$ ([[squaring on the nonzero reals|AJ8DC6PBH4]]).
+
+## Explanations
+
+### L1 human
+
+The set of values of a homomorphism always behaves like a group.
+It contains $0$, it contains the negative of each of its elements, and it contains the sum of any two of its elements.
+The perfect squares $0, 1, 4, 9, \dots$ fail this test: $-1$ is missing, and $1 + 1 = 2$ is not a square.
+So the squares cannot be the set of values of a homomorphism into the integers.
+
+### L2 human
+
+We test three candidate sets in $\mathbb{Z}$.
+
+1. The even integers $2\mathbb{Z}$ are the image of $u \mapsto 2u$.
+2. The set $\{0\}$ is the image of the trivial homomorphism.
+3. The set $\{0, 1, 4, 9, \dots\}$ is not a subgroup, so it is not an image.
+
+The typical use is a fast proof that a set is not an image.
+The trap is to think that each set of values of a formula is an image of a homomorphism; the formula must respect addition first.
