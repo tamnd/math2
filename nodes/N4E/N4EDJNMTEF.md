@@ -47,8 +47,8 @@ The proof-theoretic ordinal of a theory $T$ is written $|T|$, and for example $|
 
 ### Examples
 
-- The [[cut-elimination theorem|AYRZ98Y0NW]]: every derivation in Gentzen's calculi LK and LJ can be transformed into one without cuts, in which only [[subformulas|~694ac127]] of the conclusion occur.
-- The [[normalization theorem|~977456e4]]: every natural deduction derivation reduces to a normal one without detours.
+- The [[cut-elimination theorem|AYRZ98Y0NW]]: every derivation in Gentzen's calculi LK and LJ can be transformed into one without cuts, in which only [[subformulas|Z2NXKDK06G]] of the conclusion occur.
+- The [[normalization theorem|W33WAE1XTC]]: every natural deduction derivation reduces to a normal one without detours.
 - [[Ordinal analysis|C5E5TG8PGP]]: Gentzen's work shows that the proof-theoretic ordinal of Peano arithmetic is $\varepsilon_0$.
 - Proof interpretations: the [[Dialectica interpretation|HZ17ES9PDY]] and [[realizability|4H35VQ16DC]] extract programs and bounds from proofs.
 - [[Proof complexity|1Q046J0AW2]]: the pigeonhole principle has no resolution refutations of polynomial size, a result of Haken from 1985.
@@ -62,16 +62,16 @@ The proof-theoretic ordinal of a theory $T$ is written $|T|$, and for example $|
 
 ### Basic properties
 
-- Structural proof theory: proofs in [[sequent calculi|W72CA3R9MP]] and natural deduction are analysed by permutation and reduction of rules. Cut elimination gives the [[subformula property|~694ac127]], the [[midsequent theorem|~f03b8ca3]] and [[Herbrand's theorem|VZ21F10WRS]].
-- Refined calculi, such as [[contraction-free calculi|~e6a5f260]], [[hypersequents|~908a51bf]], [[display calculi|~eb0eba64]], [[labelled calculi|~fddc9de5]], [[deep inference|~110b1691]] and [[focusing|~bc719aec]], extend these methods to other logics and to proof search.
+- Structural proof theory: proofs in [[sequent calculi|W72CA3R9MP]] and natural deduction are analysed by permutation and reduction of rules. Cut elimination gives the [[subformula property|Z2NXKDK06G]], the [[midsequent theorem|1FPWTGE14W]] and [[Herbrand's theorem|VZ21F10WRS]].
+- Refined calculi, such as [[contraction-free calculi|BZ59F5GBRR]], [[hypersequents|73J7F0FN4A]], [[display calculi|2Q62W689SC]], [[labelled calculi|F46GV42XCE]], [[deep inference|4ZW0SHW2RG]] and [[focusing|AMMKNENT3R]], extend these methods to other logics and to proof search.
 - Ordinal analysis: a theory is measured by the least ordinal up to which it cannot prove transfinite induction, and for many theories consistency follows from induction up to that ordinal.
 - Proof interpretations: a proof of $\forall x\, \exists y\, A(x, y)$, with $A$ quantifier-free, in a suitable theory yields a function that computes $y$ from $x$. The functions obtained for Peano arithmetic are those definable by recursion along ordinals below $\varepsilon_0$.
-- Proof complexity: the [[complexity of cut elimination|~29155909]] is non-elementary, and lower bounds on the length of proofs in propositional systems are related to the question whether NP equals coNP.
-- Proof-theoretic semantics: the meaning of a connective can be given by its rules, under the condition of [[harmony|XJSQVK0G71]], see [[proof-theoretic semantics|~50806e9d]].
+- Proof complexity: the [[complexity of cut elimination|B5F5HB4YK7]] is non-elementary, and lower bounds on the length of proofs in propositional systems are related to the question whether NP equals coNP.
+- Proof-theoretic semantics: the meaning of a connective can be given by its rules, under the condition of [[harmony|XJSQVK0G71]], see [[proof-theoretic semantics|K97KZB5R7N]].
 
 ### History
 
-Hilbert and his school, with Ackermann and Bernays, developed proof theory in the 1920s, with the [[epsilon substitution method|~de0d8cf6]] as their main tool.
+Hilbert and his school, with Ackermann and Bernays, developed proof theory in the 1920s, with the [[epsilon substitution method|F5HTHB46SH]] as their main tool.
 Gödel proved the incompleteness theorems in 1931.
 Gentzen introduced natural deduction and the sequent calculus with the cut-elimination theorem in 1934 and 1935, and he proved the consistency of Peano arithmetic in 1936.
 Jaśkowski gave a system of natural deduction independently of Gentzen, and Prawitz proved the normalization theorem in 1965.
@@ -111,6 +111,6 @@ A trap is to apply the argument to Peano arithmetic directly: with the induction
 
 Proof theory now has two faces.
 The reductive face continues Hilbert's program: it measures theories by their proof-theoretic ordinals, compares them by conservation results, and calibrates mathematical theorems in [[reverse mathematics|7SQS69T17R]].
-The general face studies proofs for their own sake: their normal forms, their identity, as in the [[identity of proofs|~8cb6c275]] problem, their length and their computational content.
+The general face studies proofs for their own sake: their normal forms, their identity, as in the [[identity of proofs|G7B4XWMS7Q]] problem, their length and their computational content.
 Through the Curry-Howard correspondence, normalization of proofs is the execution of programs, and type theory and linear logic grew from this view.
 Applications include the extraction of programs and bounds from proofs, the design of proof assistants and automated provers, and the complexity of propositional proof systems.

@@ -1,0 +1,77 @@
+---
+tag: DAMGTSY6VV
+kind: definition
+name: Cut rule
+msc: ["03F05"]
+topics: [R10RMQCJQX]
+audience: grad
+defines: HGVMPZ2DXA
+uses: [PZX9J3VEMT, W72CA3R9MP]
+sources:
+  - url: https://en.wikipedia.org/wiki/Cut_rule
+    locator: lead section
+  - url: https://en.wikipedia.org/wiki/Cut-elimination_theorem
+    locator: The cut rule
+---
+
+## Definition
+
+Work in a [[sequent calculus|W72CA3R9MP]], with sequents $\Gamma \Rightarrow \Delta$ whose antecedent and succedent are finite lists of formulas.
+The *cut rule* infers one sequent from two premises that share a formula $A$, which occurs in the succedent of the left premise and in the antecedent of the right premise.
+It has two standard forms.
+
+- Context-splitting form: from $\Gamma \Rightarrow \Delta, A$ and $A, \Pi \Rightarrow \Lambda$ infer $\Gamma, \Pi \Rightarrow \Delta, \Lambda$.
+- Context-sharing form: from $\Gamma \Rightarrow \Delta, A$ and $A, \Gamma \Rightarrow \Delta$ infer $\Gamma \Rightarrow \Delta$.
+
+The formula $A$ is the *cut formula*, and it does not occur in the conclusion unless it occurs in the contexts.
+In the intuitionistic calculus LJ, every succedent has at most one formula.
+There the context-splitting form reads: from $\Gamma \Rightarrow A$ and $A, \Delta \Rightarrow C$ infer $\Gamma, \Delta \Rightarrow C$, where $C$ is one formula or nothing.
+A derivation is *cut-free* when it uses no instance of the cut rule.
+The *degree* of a cut is the number of connectives and quantifiers in its cut formula.
+
+## Notation
+
+The calculus LK of the [[definition of the sequent calculus|PZX9J3VEMT]] uses the context-splitting form.
+Kleene's calculi G3 use the context-sharing form, with sequents of multisets.
+The two forms are also called multiplicative and additive, after the two kinds of rules in linear logic.
+One-sided calculi write the rule as: from $\Rightarrow \Gamma, A$ and $\Rightarrow \Delta, \neg A$ infer $\Rightarrow \Gamma, \Delta$.
+Gentzen called the rule *Schnitt*, and his rule *mix* deletes all occurrences of the cut formula at once.
+
+## Remarks
+
+In LK, each form of cut can be derived from the other with weakening, contraction and exchange, as [[this example|2PD8PPKFAQ]] shows.
+So the choice of form does not change the derivable sequents of LK or LJ.
+The rule is sound: if both premises are true in a structure under an assignment, then so is the conclusion.
+Assume that all formulas of $\Gamma$ and $\Pi$ are true.
+If $A$ is false, the left premise gives a true formula in $\Delta$.
+If $A$ is true, the right premise gives a true formula in $\Lambda$.
+The cut formula need not be a subformula of any formula in the conclusion.
+This is why cut is the only rule of LK without the [[subformula property|Z2NXKDK06G]].
+
+## Explanations
+
+### L1 human
+
+The cut rule is the rule for using a lemma.
+One premise proves the lemma $A$, and the other premise uses $A$ as an assumption.
+The conclusion keeps the assumptions of both premises and drops $A$.
+For example, "from $p$ we get $q$" and "from $q$ we get $r$" give "from $p$ we get $r$".
+
+### L2 human
+
+We cut the two sequents $p \Rightarrow p \wedge p$ and $p \wedge p \Rightarrow p$, which are derivable in LK.
+
+1. The left premise is $\Gamma \Rightarrow \Delta, A$ with $\Gamma = p$, $\Delta$ empty and $A = p \wedge p$.
+2. The right premise is $A, \Pi \Rightarrow \Lambda$ with $\Pi$ empty and $\Lambda = p$.
+3. The context-splitting form gives $\Gamma, \Pi \Rightarrow \Delta, \Lambda$, which is $p \Rightarrow p$.
+4. The cut formula $p \wedge p$ has degree $1$, and it is not a subformula of the conclusion.
+
+The typical use is to compose two derivations along a shared formula, as in a chain of lemmas.
+A trap is to put the cut formula on the same side of both premises: that rule is unsound, as [[this non-example|GK0B8HZ8DZ]] shows.
+
+### L3 human
+
+Cut is the sequent form of transitivity: if $\Gamma$ entails $A$ and $A$ entails $\Lambda$, then $\Gamma$ entails $\Lambda$.
+In categorical semantics, a derivation of $A \Rightarrow B$ denotes a morphism from $A$ to $B$, and cut denotes composition.
+In linear logic the two forms of cut differ, since weakening and contraction are not available there.
+The [[cut-elimination theorem|AYRZ98Y0NW]] shows that the rule is admissible in LK and LJ, although it is not derivable from the other rules.

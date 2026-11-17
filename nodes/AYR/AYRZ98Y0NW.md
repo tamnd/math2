@@ -6,9 +6,9 @@ name: Cut-elimination theorem
 msc: ["03F05"]
 topics: [R10RMQCJQX]
 audience: grad
-uses: [PZX9J3VEMT, W72CA3R9MP, N4EDJNMTEF, ~5bc7d378]
-about: [W72CA3R9MP, ~e8e93527]
-proofs: [~dac34e15, ~9c2f7b72]
+uses: [PZX9J3VEMT, W72CA3R9MP, N4EDJNMTEF, DAMGTSY6VV]
+about: [W72CA3R9MP, HGVMPZ2DXA]
+proofs: [8HV015W88G, Q1799WJA0W]
 sources:
   - url: https://en.wikipedia.org/wiki/Cut-elimination_theorem
   - url: https://en.wikipedia.org/wiki/Cut-elimination_theorem
@@ -25,7 +25,7 @@ history:
 
 ## Statement
 
-Let LK and LJ be the [[sequent calculi|PZX9J3VEMT]] of Gentzen for first-order logic, with the [[cut rule|~5bc7d378]].
+Let LK and LJ be the [[sequent calculi|PZX9J3VEMT]] of Gentzen for first-order logic, with the [[cut rule|DAMGTSY6VV]].
 The *degree* $|A|$ of a formula $A$ is the number of occurrences of connectives and quantifiers in $A$.
 The *cut rank* of a derivation is $0$ if it has no cut, and otherwise the largest value $|C| + 1$ over its cut formulas $C$.
 
@@ -66,14 +66,14 @@ From $p \Rightarrow p$ and $q \Rightarrow q$ these rules give $p \Rightarrow p \
 Without cut, $p \Rightarrow q$ is not an axiom, and the only possible last steps are weakenings from $\Rightarrow q$ or from $p \Rightarrow$.
 These two sequents have no cut-free derivations, since their only possible last steps are weakenings from the empty sequent.
 So cut is not eliminable in this extension.
-This is the connective of [[Prior's tonk|QSVQ1KPNBX]], studied in [[proof-theoretic semantics|~50806e9d]].
+This is the connective of [[Prior's tonk|QSVQ1KPNBX]], studied in [[proof-theoretic semantics|K97KZB5R7N]].
 
 ### Consequences
 
 - **Consistency.** In LK, every rule except cut has a nonempty conclusion, so the empty sequent $\Rightarrow$ has no cut-free derivation. By part 1 it has no derivation at all, and LK does not derive both $\Rightarrow A$ and $\Rightarrow \neg A$, since ${\neg}$L and a cut would give $\Rightarrow$.
-- **Subformula property.** A cut-free derivation contains only subformulas of its end sequent, up to the substitution of terms. See the [[subformula property|~694ac127]].
+- **Subformula property.** A cut-free derivation contains only subformulas of its end sequent, up to the substitution of terms. See the [[subformula property|Z2NXKDK06G]].
 - **Disjunction property of LJ.** If $\Rightarrow A \vee B$ has a cut-free LJ derivation, then its last step is ${\vee}$R, because the antecedent is empty and the empty sequent has no cut-free derivation. So $\Rightarrow A$ or $\Rightarrow B$ is derivable in LJ.
-- **Herbrand's theorem and the midsequent theorem.** The [[midsequent theorem|~f03b8ca3]] refines a cut-free derivation of a prenex sequent, and it gives [[Herbrand's theorem|VZ21F10WRS]].
+- **Herbrand's theorem and the midsequent theorem.** The [[midsequent theorem|1FPWTGE14W]] refines a cut-free derivation of a prenex sequent, and it gives [[Herbrand's theorem|VZ21F10WRS]].
 - **Interpolation.** The [[Craig interpolation theorem|E2CBFNAVZY]] has a proof by induction on a cut-free derivation.
 
 ### Converse
@@ -86,9 +86,9 @@ A derivable rule would stay valid after we add initial sequents, and cut does no
 ### Generalizations
 
 Cut elimination holds for many other sequent calculi: for linear logic, for the Lambek calculus and for the modal logic S4.
-It fails for the usual sequent calculus of the modal logic S5, and [[hypersequent calculi|~908a51bf]] were designed to repair this.
-For natural deduction, the corresponding result is the [[normalization theorem|~977456e4]].
-The cost of cut elimination is studied in the [[complexity of cut elimination|~29155909]].
+It fails for the usual sequent calculus of the modal logic S5, and [[hypersequent calculi|73J7F0FN4A]] were designed to repair this.
+For natural deduction, the corresponding result is the [[normalization theorem|W33WAE1XTC]].
+The cost of cut elimination is studied in the [[complexity of cut elimination|B5F5HB4YK7]].
 
 ### The result is not unique
 
@@ -97,7 +97,7 @@ Let $D_1$ and $D_2$ be two different cut-free derivations of $\Gamma \Rightarrow
 Weaken $D_1$ to $\Gamma \Rightarrow \Delta, A$ and $D_2$ to $A, \Gamma \Rightarrow \Delta$, and cut on $A$.
 Both premises end with a weakening on $A$, and a reduction step may keep either side.
 So the derivation reduces to $D_1$ and also to $D_2$, followed by structural steps.
-So a derivation with cuts has no unique cut-free form, and the question of when two derivations are the same proof is the problem of the [[identity of proofs|~8cb6c275]].
+So a derivation with cuts has no unique cut-free form, and the question of when two derivations are the same proof is the problem of the [[identity of proofs|G7B4XWMS7Q]].
 
 ## History
 
@@ -135,8 +135,8 @@ It does the opposite, and the growth can be a tower of exponentials.
 ### L3 human
 
 Gentzen's proof is a double induction: on the degree of the cut formula, and on the heights of the derivations above the cut.
-The [[first proof|~dac34e15]] follows Gentzen with the mix rule.
-The [[second proof|~9c2f7b72]] follows Tait, with a reduction lemma and a bound on the height.
+The [[first proof|8HV015W88G]] follows Gentzen with the mix rule.
+The [[second proof|Q1799WJA0W]] follows Tait, with a reduction lemma and a bound on the height.
 Under the [[Curry-Howard correspondence|A77FER1Q5H]], a cut is a substitution of a program into another, and cut elimination is evaluation.
 In categorical semantics a derivation denotes a morphism and a cut denotes a composition, so cut elimination describes composites without composition.
 In arithmetic the induction rule blocks full cut elimination, and [[ordinal analysis|C5E5TG8PGP]] measures how far the reduction must go.

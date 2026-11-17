@@ -25,7 +25,7 @@ In logic and philosophy, the notion that the introduction and elimination rules 
 In [[natural deduction|PAQ4ZX2TX1]], the usual test has two parts.
 The rules are *locally sound* when an introduction followed at once by an elimination of the same formula can be removed by a reduction.
 They are *locally complete* when every proof of a formula can be expanded into eliminations followed by an introduction of that formula.
-Harmony is the central condition of [[proof-theoretic semantics|~50806e9d]] for rules that define a connective.
+Harmony is the central condition of [[proof-theoretic semantics|K97KZB5R7N]] for rules that define a connective.
 
 ## Motivation
 
@@ -45,14 +45,14 @@ Some authors use the word harmony for local soundness alone, and stability for t
 
 ### Examples
 
-- The rules $\wedge$I, $\wedge$E$_1$ and $\wedge$E$_2$ for conjunction are in harmony, see [[this example|~45838532]].
-- The rules ${\to}$I and ${\to}$E for implication are in harmony, and the reduction is the detour reduction of the [[normalization theorem|~977456e4]], see [[this example|~f6417c86]].
+- The rules $\wedge$I, $\wedge$E$_1$ and $\wedge$E$_2$ for conjunction are in harmony, see [[this example|53ERPXVZ3S]].
+- The rules ${\to}$I and ${\to}$E for implication are in harmony, and the reduction is the detour reduction of the [[normalization theorem|W33WAE1XTC]], see [[this example|QWWR80Y2XT]].
 - The rules for disjunction are in harmony: a proof of $A \vee B$ by $\vee$I from a proof of $A$, followed by $\vee$E, reduces to the first minor derivation of the $\vee$E step, with that proof of $A$ put in place of the assumption $A$.
 - The rule $\bot$E, with no introduction rule for $\bot$, is in harmony in a trivial way, since there is no detour on $\bot$.
 
 ### Non-examples
 
-- The rules of tonk are not in harmony: there is no reduction of tonk-I followed by tonk-E, see [[this non-example|~5e7a8bea]].
+- The rules of tonk are not in harmony: there is no reduction of tonk-I followed by tonk-E, see [[this non-example|JVV2QRX0H2]].
 - Conjunction with $\wedge$I and only $\wedge$E$_1$ is locally sound but not locally complete: from a proof of $A \wedge B$ it cannot recover $B$.
 - Conjunction with an extra elimination rule that infers $C$ from $A \wedge B$, for any $C$, is not locally sound.
 
@@ -99,4 +99,4 @@ A trap: an elimination rule can be weaker than allowed and still pass step 1, so
 Harmony is the natural deduction form of the principal case of cut elimination.
 General-elimination rules, in the style of $\vee$E, give a uniform way to derive elimination rules from introduction rules.
 For classical logic, harmony can be recovered with multiple conclusions or with bilateral systems that have rules for assertion and denial.
-In [[proof-theoretic semantics|~50806e9d]], harmony is the condition that makes introduction rules work as definitions.
+In [[proof-theoretic semantics|K97KZB5R7N]], harmony is the condition that makes introduction rules work as definitions.
