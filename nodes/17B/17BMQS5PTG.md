@@ -1,0 +1,70 @@
+---
+tag: 17BMQS5PTG
+kind: example
+name: The computer-assisted proof of the four colour theorem
+aliases: [appel-haken-proof]
+msc: ["05C15", "00A35"]
+topics: [1BTHSHST4M]
+audience: research
+instance_of: [MC18C7BMFT]
+uses: [MC18C7BMFT, 0M406JC8J1, JGRCNPKNGG, 029JQEK15B]
+sources:
+  - url: https://en.wikipedia.org/wiki/Four_color_theorem
+    locator: History
+  - url: https://en.wikipedia.org/wiki/Four_color_theorem
+    locator: Summary of proof ideas
+  - url: https://en.wikipedia.org/wiki/Computer-assisted_proof
+    locator: Theorems proved with the help of computer programs
+---
+
+## Example
+
+The [[four colour theorem|0M406JC8J1]] says that the vertices of each finite loopless [[planar graph|029JQEK15B]] can be coloured with four colours so that adjacent vertices get different colours.
+Kenneth Appel and Wolfgang Haken announced a proof in 1976, and they published it in 1977 in the Illinois Journal of Mathematics, in two parts.
+We check that this proof is a [[computer-assisted proof|MC18C7BMFT]], and we follow how mathematicians came to accept it.
+The theorem itself, with its statement and consequences, is on its own page.
+
+1. A human reduction. The proof studies a [[minimal counterexample|JGRCNPKNGG]], a planar graph that needs five colours and has as few vertices as possible. A written argument shows that such a graph must contain at least one configuration from a fixed finite list. A list with this property is called an unavoidable set.
+2. A second human reduction. A configuration is called reducible when it cannot occur in a minimal counterexample. The reason is that a four-colouring of the smaller graph without the configuration would extend to the whole graph.
+3. The computer part. Appel and Haken used a program to show that each configuration of their unavoidable set is reducible. The set had more than a thousand configurations, and the checks took over a thousand hours of computer time.
+4. The conclusion. A minimal counterexample must contain a configuration of the list by step 1, and it cannot contain one by step 3. So no counterexample exists.
+5. The condition of a computer-assisted proof holds: steps 1 and 2 are written proofs, and step 3 is a computation that no person could repeat by hand.
+
+## Remarks
+
+The acceptance of the proof took many years, and it went through several stages.
+
+1. Many mathematicians at first doubted a proof that no person could read in full. The doubt was about the method, and not only about this proof.
+2. The written part also had errors. In 1981 Ulrich Schmidt checked part of the unavoidability argument in his master's thesis, and he found an error in the discharging procedure, the method that proves unavoidability.
+3. Appel and Haken corrected this error, and several others that readers had found, in their 1989 book *Every Planar Map is Four Colorable*.
+4. Neil Robertson, Daniel Sanders, Paul Seymour and Robin Thomas gave a new proof in 1996 and 1997. It follows the same plan with an unavoidable set of $633$ configurations, and it uses its own programs.
+5. Georges Gonthier and Benjamin Werner checked a proof in the Coq proof assistant in 2005. After this check, a reader must trust only the small kernel of Coq and the formal statement of the theorem.
+
+The example shows that a computer-assisted proof is accepted in the same way as other proofs: through checks by other people over time.
+It also shows that the human part of such a proof can fail, and that the computer part is not the only source of doubt.
+Kempe's false proof of 1879 is a part of the history of the theorem, and the topic [[fallacies and errors in proofs|T6QQ749DM5]] treats false proofs.
+
+## Explanations
+
+### L1 human
+
+The four colour theorem says that four colours are enough for any map, if neighbouring countries must get different colours.
+Appel and Haken proved it in 1976.
+They showed that every map, however large, contains one of more than a thousand small patterns.
+They then let a computer show that no pattern can appear in a map that needs five colours.
+No person could check the computer's work by hand, so many mathematicians felt uneasy.
+Over the next thirty years, other people found and fixed small errors, wrote a new shorter proof, and finally had the whole proof checked by a proof-checking program.
+
+### L2 human
+
+We follow the logic of the proof as a [[proof by contradiction|0J0XBKG64S]].
+
+1. Assume that some planar graph needs five colours.
+2. Among all such graphs, choose one with the fewest vertices. Call it $G$.
+3. The unavoidability theorem says that $G$ contains a configuration $C$ from the list.
+4. The program has checked that $C$ is reducible. We delete or contract a part of $C$ and get a smaller planar graph $G'$. By the choice of $G$, the graph $G'$ has a four-colouring.
+5. Reducibility means that this four-colouring of $G'$ can be changed and extended to all of $G$. So $G$ has a four-colouring, which contradicts step 1.
+
+The typical use of this pattern is a theorem whose minimal counterexample is forced to contain one of many small structures.
+A trap is to think that the computer proved the theorem alone.
+Steps 2, 3 and 5 rest on written arguments, and the error that Schmidt found was in the written part that supports step 3.
