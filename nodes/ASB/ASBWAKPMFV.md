@@ -1,0 +1,65 @@
+---
+tag: ASBWAKPMFV
+kind: proof
+name: Proof of the semantic substitution lemma by induction
+msc: ["03B10"]
+topics: [NJDME6F845]
+audience: ug2
+proves: A7S460KHBM
+uses: [1WTCZB4DVB, FM580NZ9W6, NCDZ969V7X, 6D3WA7N2W4, HYJ10AF6RT]
+methods: [12MQ2NJ29A, 0WCP0PVET6]
+sources:
+  - book: isbn:9780122384523
+    locator: Chapter 2
+  - url: https://builds.openlogicproject.org/
+    locator: Syntax and Semantics
+---
+
+## Proof
+
+We recall the [[substitution|NCDZ969V7X]] clauses that the proof uses.
+For terms, $x[t/x] = t$, $y[t/x] = y$ for a variable $y \neq x$, $c[t/x] = c$, and $f(u_1, \ldots, u_n)[t/x] = f(u_1[t/x], \ldots, u_n[t/x])$.
+For formulas, substitution acts on the terms of atomic formulas and commutes with $\neg$, $\wedge$, $\vee$, $\to$ and $\leftrightarrow$.
+For a quantifier, $(\forall y \, \psi)[t/x] = \forall y \, \psi$ when $x$ is not free in $\forall y \, \psi$, and $(\forall y \, \psi)[t/x] = \forall y \, (\psi[t/x])$ otherwise; $\exists$ is the same.
+A syntactic induction from these clauses shows that $\psi[t/x] = \psi$ when $x$ is not free in $\psi$.
+Throughout, $a = t^{\mathcal{M}}[s]$, and $\models$ is [[satisfaction|1WTCZB4DVB]].
+
+Part 1, by [[structural induction|12MQ2NJ29A]] on the term $u$, for every assignment $s$.
+
+1. If $u = x$, then $u[t/x] = t$, with value $a$. Also $x^{\mathcal{M}}[s[x \mapsto a]] = a$. The two sides agree.
+2. If $u = y$ with $y \neq x$, then $u[t/x] = y$, with value $s(y)$. The variant $s[x \mapsto a]$ also sends $y$ to $s(y)$.
+3. If $u = c$, both sides are $c^{\mathcal{M}}$.
+4. If $u = f(u_1, \ldots, u_n)$, the induction hypothesis gives $(u_i[t/x])^{\mathcal{M}}[s] = u_i^{\mathcal{M}}[s[x \mapsto a]]$ for each $i$.
+5. Applying $f^{\mathcal{M}}$ to these equal arguments gives the claim for $u$.
+
+Part 2, by induction on $\varphi$.
+The claim for $\varphi$ is: for every assignment $s$ and every term $t$ substitutable for $x$ in $\varphi$, the equivalence holds.
+
+6. Let $\varphi = R(u_1, \ldots, u_n)$. Then $\varphi[t/x] = R(u_1[t/x], \ldots, u_n[t/x])$.
+7. By part 1, the values of $u_i[t/x]$ under $s$ equal the values of $u_i$ under $s[x \mapsto a]$. So one tuple lies in $R^{\mathcal{M}}$ if and only if the other does.
+8. The case $u_1 = u_2$ is the same, with equality of the two values in place of membership in $R^{\mathcal{M}}$.
+9. Let $\varphi = \neg \psi$ or $\varphi = \psi \mathbin{\square} \chi$. If $t$ is substitutable for $x$ in $\varphi$, it is substitutable in $\psi$ and in $\chi$.
+10. The induction hypothesis gives the equivalence for $\psi$ and $\chi$, and the clause for the connective transfers it to $\varphi$.
+11. Let $\varphi = \forall y \, \psi$. We use [[proof by cases|0WCP0PVET6]].
+12. Case A: $x$ is not free in $\varphi$. Then $\varphi[t/x] = \varphi$, so the left side is $\mathcal{M} \models \varphi[s]$.
+13. The assignments $s$ and $s[x \mapsto a]$ differ at most at $x$, which is not free in $\varphi$. By the [[coincidence lemma|FM580NZ9W6]], they agree on $\varphi$. This proves case A.
+14. Case B: $x$ is free in $\varphi$. Then $y \neq x$, and $\varphi[t/x] = \forall y \, (\psi[t/x])$.
+15. Since $t$ is substitutable for $x$ in $\varphi$ and $x$ is free in $\varphi$, the variable $y$ does not occur in $t$, and $t$ is substitutable for $x$ in $\psi$.
+16. Let $b \in M$. Since $y$ does not occur in $t$, the coincidence lemma gives $t^{\mathcal{M}}[s[y \mapsto b]] = a$.
+17. By the induction hypothesis for $\psi$ and the assignment $s[y \mapsto b]$, the formula $\psi[t/x]$ holds under $s[y \mapsto b]$ if and only if $\psi$ holds under $s[y \mapsto b][x \mapsto a]$.
+18. Since $x \neq y$, the assignments $s[y \mapsto b][x \mapsto a]$ and $s[x \mapsto a][y \mapsto b]$ are equal.
+19. So, for every $b \in M$, $\mathcal{M} \models \psi[t/x]\,[s[y \mapsto b]]$ if and only if $\mathcal{M} \models \psi\,[s[x \mapsto a][y \mapsto b]]$.
+20. By the clause for $\forall y$ on both sides, $\mathcal{M} \models \varphi[t/x]\,[s]$ if and only if $\mathcal{M} \models \varphi\,[s[x \mapsto a]]$.
+21. Let $\varphi = \exists y \, \psi$. Steps 12 to 19 apply without change, and the clause for $\exists y$ gives the claim.
+
+This proves the substitution lemma.
+
+## Idea
+
+The term case is a direct check of the definitions.
+In the formula case, the quantifier step is the only real step.
+Substitutability guarantees that the bound variable $y$ is not in $t$, so changing $y$ does not change the value $a$ of $t$; then the two updates of the assignment commute.
+
+## Variants
+
+With capture-avoiding substitution, case B first renames $y$ to a fresh variable; then one also needs the lemma that renaming a bound variable gives an equivalent formula.
