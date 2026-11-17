@@ -46,24 +46,24 @@ Variants use multisets or sets instead of sequences, one-sided sequents $\Righta
 
 ### Examples
 
-- [[A sequent derivation of the drinker paradox|~b4da6e0a]]: $\Rightarrow \exists x\, (D(x) \to \forall y\, D(y))$ in nine steps. It needs contraction on the right, so two formulas in the succedent.
-- [[A cut-free sequent derivation with quantifiers|~68658292]]: $\forall x\, (P(x) \to Q(x)), \forall x\, P(x) \Rightarrow \forall x\, Q(x)$ in six steps. Every formula in it is a subformula of the conclusion, up to terms.
+- [[A sequent derivation of the drinker paradox|VHY65FC0JZ]]: $\Rightarrow \exists x\, (D(x) \to \forall y\, D(y))$ in nine steps. It needs contraction on the right, so two formulas in the succedent.
+- [[A cut-free sequent derivation with quantifiers|FKQS2YNHH6]]: $\forall x\, (P(x) \to Q(x)), \forall x\, P(x) \Rightarrow \forall x\, Q(x)$ in six steps. Every formula in it is a subformula of the conclusion, up to terms.
 - The [[law of excluded middle|0RYYK8PG4S]]: $\Rightarrow A \vee \neg A$ from $A \Rightarrow A$ by ${\neg}$R, ${\vee}$R twice and contraction, as in the definition.
 - The sequent $\forall x\, P(x) \Rightarrow \exists x\, P(x)$: ${\exists}$R with $t = y$ turns $P(y) \Rightarrow P(y)$ into $P(y) \Rightarrow \exists x\, P(x)$, and ${\forall}$L with $t = y$ gives the result.
 
 ### Non-examples
 
-- [[A sequent derivation that breaks the eigenvariable condition|~a8d7aeab]]: ${\forall}$R from $P(a) \Rightarrow P(a)$ to $P(a) \Rightarrow \forall x\, P(x)$. The condition that fails: $a$ is free in the antecedent.
+- [[A sequent derivation that breaks the eigenvariable condition|REMQ2W88WG]]: ${\forall}$R from $P(a) \Rightarrow P(a)$ to $P(a) \Rightarrow \forall x\, P(x)$. The condition that fails: $a$ is free in the antecedent.
 - The same steps as for the excluded middle are not an LJ derivation. The condition that fails: $\Rightarrow A, \neg A$ has two formulas in the succedent.
 - A tree with the leaf $P(a) \Rightarrow P(b)$, for different variables $a$ and $b$. The condition that fails: an axiom has the same formula on both sides.
 
 ### Basic properties
 
 - Soundness: every rule turns true sequents into a true sequent in each structure, under each assignment, so every derivable sequent is valid. The eigenvariable condition is used for ${\forall}$R and ${\exists}$L.
-- Completeness: every valid sequent has a derivation, and even one without cut. So LK derives the same consequences as the other systems; see [[equivalence of proof systems|~c9d242a1]].
+- Completeness: every valid sequent has a derivation, and even one without cut. So LK derives the same consequences as the other systems; see [[equivalence of proof systems|A9AAHN4BMH]].
 - [[Cut elimination|AYRZ98Y0NW]]: every derivation can be turned into a derivation of the same sequent without cut. The cost can be a non-elementary increase in size.
 - Subformula property: in a cut-free derivation, every formula is a subformula of a formula of the conclusion, up to the substitution of terms for bound variables.
-- Relation to tableaux: a closed [[semantic tableau|~78632a29]] for $\Gamma$ read from the leaves upward is a cut-free derivation of $\Gamma \Rightarrow$ in a one-sided form of LK.
+- Relation to tableaux: a closed [[semantic tableau|WGWBBVE8GX]] for $\Gamma$ read from the leaves upward is a cut-free derivation of $\Gamma \Rightarrow$ in a one-sided form of LK.
 - The rules are invertible in the G3 form: if the conclusion of a propositional rule is derivable, so are its premises. This makes backward proof search possible without backtracking in the propositional case.
 
 ### History

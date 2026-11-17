@@ -49,14 +49,14 @@ For a set $\Gamma$ of formulas, $\Gamma \vdash_{\mathsf{ND}} \varphi$ means that
 The rule names follow Prawitz: I for introduction, E for elimination, and RAA for reductio ad absurdum, the classical rule.
 Some books write ${\to}\mathrm{I}$ as ${\supset}\mathrm{I}$, and ${\bot}\mathrm{E}$ as "ex falso quodlibet" or ${\bot}_i$.
 Other books take $\neg$ as primitive, with rules ${\neg}\mathrm{I}$ and ${\neg}\mathrm{E}$ that behave as ${\to}\mathrm{I}$ and ${\to}\mathrm{E}$ for $\varphi \to \bot$.
-The same rules written as numbered lines with boxes for subproofs give [[Fitch-style natural deduction|~1528beb9]].
+The same rules written as numbered lines with boxes for subproofs give [[Fitch-style natural deduction|2B6XC7XJA8]].
 
 ## Remarks
 
 ### Fragments
 
 - The rules without quantifiers, terms and equality are natural deduction for [[propositional logic|09K9MWD2QQ]].
-- The page [[rules for equality|~65701c23]] derives symmetry and transitivity of $=$ with ${=}\mathrm{I}$ and ${=}\mathrm{E}$.
+- The page [[rules for equality|Y90Z13AXY8]] derives symmetry and transitivity of $=$ with ${=}\mathrm{I}$ and ${=}\mathrm{E}$.
 
 ### Variants of the quantifier rules
 
@@ -68,7 +68,7 @@ The same rules written as numbered lines with boxes for subproofs give [[Fitch-s
 ### Why the eigenvariable condition
 
 Without condition 1, the tree with leaf $[P(y)]^1$, then $\forall x\, P(x)$, then $P(y) \to \forall x\, P(x)$ by ${\to}\mathrm{I}^1$, derives an invalid formula.
-Without condition 2, the [[example with a wrong existential elimination|~b3ac11e8]] derives $\exists x\, P(x) \to \forall y\, P(y)$.
+Without condition 2, the [[example with a wrong existential elimination|51AN89Q48G]] derives $\exists x\, P(x) \to \forall y\, P(y)$.
 
 ## Explanations
 

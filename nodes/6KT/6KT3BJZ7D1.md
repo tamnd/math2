@@ -30,7 +30,7 @@ The system matters because its derivations follow the structure of ordinary math
 
 ## Motivation
 
-In a [[Hilbert-style calculus|~4ea8b834]] almost all the work is done by axioms, and short arguments become long lists of axiom instances.
+In a [[Hilbert-style calculus|N95HV0VWSM]] almost all the work is done by axioms, and short arguments become long lists of axiom instances.
 Mathematicians do not argue like this.
 To prove "if $\varphi$ then $\psi$" they assume $\varphi$ for a while and derive $\psi$.
 To prove "for all $x$" they argue about an arbitrary $x$, and to use "there is an $x$" they give the witness a name.
@@ -42,29 +42,29 @@ Each logical symbol gets one rule that says how to prove it and one rule that sa
 We write $[\varphi]^u$ for an assumption that a later step with label $u$ discharges, and $\Gamma \vdash_{\mathsf{ND}} \varphi$ for derivability.
 Rules are named ${\to}\mathrm{I}$, ${\to}\mathrm{E}$, ${\forall}\mathrm{I}$ and so on; RAA is reductio ad absurdum, and ${\bot}\mathrm{E}$ is "ex falso".
 Gentzen called the intuitionistic system NJ and the classical system NK.
-There are three common layouts: Gentzen-Prawitz trees, [[Fitch-style natural deduction|~1528beb9]] with boxes, and the sequent-style form, which writes $\Gamma \vdash \varphi$ at each node.
+There are three common layouts: Gentzen-Prawitz trees, [[Fitch-style natural deduction|2B6XC7XJA8]] with boxes, and the sequent-style form, which writes $\Gamma \vdash \varphi$ at each node.
 Some books take $\neg$ as primitive, and others define $\neg \varphi$ as $\varphi \to \bot$, as we do.
 
 ## Remarks
 
 ### Examples
 
-- [[A natural deduction derivation of a quantifier swap|~923aadff]]: $\vdash_{\mathsf{ND}} \exists x\, \forall y\, R(x, y) \to \forall y\, \exists x\, R(x, y)$. It uses each quantifier rule once and no classical rule.
-- [[A classical natural deduction derivation of a quantifier law|~0d459855]]: $\vdash_{\mathsf{ND}} \neg \forall x\, P(x) \to \exists x\, \neg P(x)$. It uses RAA twice, and no intuitionistic derivation exists.
+- [[A natural deduction derivation of a quantifier swap|Q0MPGREG1B]]: $\vdash_{\mathsf{ND}} \exists x\, \forall y\, R(x, y) \to \forall y\, \exists x\, R(x, y)$. It uses each quantifier rule once and no classical rule.
+- [[A classical natural deduction derivation of a quantifier law|TVB3CTGHQ4]]: $\vdash_{\mathsf{ND}} \neg \forall x\, P(x) \to \exists x\, \neg P(x)$. It uses RAA twice, and no intuitionistic derivation exists.
 - [[A formal derivation of the transitivity of implication|DNRZJKRDZC]]: $(P \to Q) \to ((Q \to R) \to (P \to R))$ with ${\to}\mathrm{I}$ and ${\to}\mathrm{E}$ only. It shows the propositional part.
 - From $\forall x\, (P(x) \to Q(x))$ and $\forall x\, P(x)$: ${\forall}\mathrm{E}$ twice gives $P(y) \to Q(y)$ and $P(y)$, ${\to}\mathrm{E}$ gives $Q(y)$, and ${\forall}\mathrm{I}$ gives $\forall x\, Q(x)$. The step is correct because both open assumptions are sentences.
 - Symmetry of equality: ${=}\mathrm{I}$ gives $s = s$, and ${=}\mathrm{E}$ with $\varphi = (x = s)$ turns $s = t$ and $s = s$ into $t = s$.
 
 ### Non-examples
 
-- [[A wrong existential elimination in natural deduction|~b3ac11e8]]: a tree that ends with $\exists x\, P(x) \to \forall y\, P(y)$. The condition that fails: the conclusion of ${\exists}\mathrm{E}$ contains the eigenvariable.
+- [[A wrong existential elimination in natural deduction|51AN89Q48G]]: a tree that ends with $\exists x\, P(x) \to \forall y\, P(y)$. The condition that fails: the conclusion of ${\exists}\mathrm{E}$ contains the eigenvariable.
 - The tree $[P(y)]^1$, $\forall x\, P(x)$, $P(y) \to \forall x\, P(x)$. The condition that fails: ${\forall}\mathrm{I}$ is applied while $y$ is free in the open assumption $P(y)$.
 - A tree that ends with $\varphi \to \psi$ by ${\to}\mathrm{I}$ but keeps $\varphi$ open elsewhere is a derivation, but it is a derivation from $\{\varphi\}$, not from the empty set. Only the leaves marked with the label of the step are discharged.
 
 ### Basic properties
 
 - Soundness: if $\Gamma \vdash_{\mathsf{ND}} \varphi$, then $\Gamma \models \varphi$. The proof is an induction on derivations, and the eigenvariable conditions are used in the cases ${\forall}\mathrm{I}$ and ${\exists}\mathrm{E}$.
-- Completeness: if $\Gamma \models \varphi$, then $\Gamma \vdash_{\mathsf{ND}} \varphi$. Natural deduction derives the same formulas as the Hilbert-style calculus, the sequent calculus and tableaux; see [[equivalence of proof systems|~c9d242a1]].
+- Completeness: if $\Gamma \models \varphi$, then $\Gamma \vdash_{\mathsf{ND}} \varphi$. Natural deduction derives the same formulas as the Hilbert-style calculus, the sequent calculus and tableaux; see [[equivalence of proof systems|A9AAHN4BMH]].
 - The [[deduction theorem|8M9ZFDR4DH]] is built in: ${\to}\mathrm{I}$ is the rule $\Gamma \cup \{\varphi\} \vdash \psi \Rightarrow \Gamma \vdash \varphi \to \psi$, with no condition.
 - Derived rules: a rule is derived when one fixed tree of basic rules gives it. Modus tollens (from $\varphi \to \psi$ and $\neg \psi$ infer $\neg \varphi$) and double negation elimination (from $\neg \neg \varphi$ infer $\varphi$, by RAA) are derived rules.
 - Normalization: every derivation can be turned into a normal derivation, in which no introduction rule is directly followed by the elimination rule of the same symbol. Normal derivations have the subformula property.
