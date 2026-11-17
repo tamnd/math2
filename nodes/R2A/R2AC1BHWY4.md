@@ -1,0 +1,12 @@
+---
+tag: R2AC1BHWY4
+kind: topic
+name: Equilibrium asset pricing and factor models
+msc: ["91G30", "91G10"]
+topics: [8K1BEXG3N8]
+---
+
+## Summary
+
+This topic is a part of [[mathematical finance and insurance|8K1BEXG3N8]].
+It covers the models that explain expected returns, such as the CAPM and its variants, arbitrage pricing theory, factor models, and the stochastic discount factor view of asset pricing.

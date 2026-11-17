@@ -1,0 +1,12 @@
+---
+tag: ZH3VTKDPGP
+kind: topic
+name: Polynomial congruences and Hensel lifting
+msc: ["11A07", "11A15", "11C08"]
+topics: [7XZ94HTPQT]
+---
+
+## Summary
+
+This topic is a part of [[elementary number theory|7XZ94HTPQT]].
+It covers congruences for integer polynomials, the number of roots modulo a prime, the reduction to prime powers by the Chinese remainder theorem, lifting by Hensel's lemma, power residues, and integer polynomials in number theory.

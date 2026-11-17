@@ -1,0 +1,12 @@
+---
+tag: VKVAJ94SKZ
+kind: topic
+name: Overview and vectors in the plane and in space
+msc: ["15A03", "97H60", "97G70"]
+topics: [GN8GYSDZFX]
+---
+
+## Summary
+
+This topic is a part of [[linear algebra|GN8GYSDZFX]].
+It covers the overview of the area, its teaching, and geometric vectors in the plane and in space, with the products of vectors and the equations of lines and planes that school and first courses use.

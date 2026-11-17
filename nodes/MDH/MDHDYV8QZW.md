@@ -1,0 +1,12 @@
+---
+tag: MDHDYV8QZW
+kind: topic
+name: Second-order logic and extensions of first-order logic
+msc: ["03B16", "03C80", "03C85"]
+topics: [DYJ0KGTPMR]
+---
+
+## Summary
+
+This topic is a part of [[mathematical logic|DYJ0KGTPMR]].
+It covers second-order logic with full and Henkin semantics, monadic second-order logic, and logics with branching or generalized quantifiers.

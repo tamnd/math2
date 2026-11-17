@@ -1,0 +1,12 @@
+---
+tag: 9A5FYPGSD4
+kind: topic
+name: Other lattice spin models
+msc: ["82B20", "82B26"]
+topics: [9A5DVGMPEB]
+---
+
+## Summary
+
+This topic is a part of [[thermodynamics and statistical mechanics|9A5DVGMPEB]].
+It covers the Potts, clock, XY, Heisenberg, n-vector and spherical models, their phase transitions, the role of continuous symmetry, and the method of reflection positivity.

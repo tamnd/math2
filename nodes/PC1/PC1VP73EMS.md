@@ -1,0 +1,12 @@
+---
+tag: PC1VP73EMS
+kind: topic
+name: Freiman theory and inverse problems
+msc: ["11P70", "11B30"]
+topics: [525PVDPZDA]
+---
+
+## Summary
+
+This topic is a part of [[additive and combinatorial number theory|525PVDPZDA]].
+It covers the structure of sets with small doubling, from Freiman homomorphisms and the Ruzsa calculus to Freiman's theorem and the polynomial Freiman-Ruzsa theorem.
