@@ -1,0 +1,78 @@
+---
+tag: 96BDP1YQMT
+kind: example
+name: The pq-system
+msc: ["03B22"]
+topics: [H8QZY0RZXZ]
+audience: ug1
+instance_of: [439M8B4DY2]
+uses: [439M8B4DY2, 1P6EP01HZF, 4A84VHDTHV]
+sources:
+  - url: https://en.wikipedia.org/wiki/Formal_system
+    locator: lead section
+  - url: https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach
+    locator: lead section
+---
+
+## Example
+
+Hofstadter's book *Gödel, Escher, Bach* also has the pq-system, and we use the following form of it.
+We write $-^a$ for the [[string|1P6EP01HZF]] of $a$ hyphens.
+
+- Alphabet: the three symbols $p$, $q$ and $-$.
+- Formulas: every finite string over the alphabet.
+- Axioms: every string $-^a \, p \, - \, q \, -^{a+1}$ with $a \geq 1$.
+- Rule: from $-^a \, p \, -^b \, q \, -^c$ infer $-^a \, p \, -^{b+1} \, q \, -^{c+1}$, for all $a, b, c \geq 1$.
+
+We check that this is a [[formal system|439M8B4DY2]] and find all its theorems.
+
+1. Every string is a formula, so the formulas form a decidable set.
+2. A string is an axiom when it has the shape $-^a p - q -^c$ with $a \geq 1$ and $c = a + 1$. Counting hyphens decides this.
+3. The rule has one premise. Counting the three blocks of hyphens in the premise and the conclusion decides whether the rule applies.
+4. So the pq-system is a formal system, with infinitely many axioms given by one schema.
+
+Claim: a string is a theorem if and only if it is $-^a p -^b q -^c$ with $a, b \geq 1$ and $c = a + b$.
+
+5. Each axiom has this form, with $b = 1$ and $c = a + 1 = a + b$.
+6. If the premise of the rule has $c = a + b$, then the conclusion has $c + 1 = a + (b + 1)$. So the rule keeps the form.
+7. By induction on the length of derivations, every theorem has the form of the claim.
+8. Conversely, let $a, b \geq 1$. The axiom $-^a p - q -^{a+1}$ followed by $b - 1$ applications of the rule is a derivation of $-^a p -^b q -^{a+b}$.
+
+For example, $--p---q-----$ has $a = 2$, $b = 3$, $c = 5$, and it is a theorem.
+
+9. $--p-q---$ is an axiom, with $a = 2$.
+10. $--p--q----$ follows from line 9 by the rule.
+11. $--p---q-----$ follows from line 10 by the rule.
+
+The string $--p--q---$ has $a = 2$, $b = 2$, $c = 3$, and $2 + 2 \neq 3$, so it is not a theorem.
+
+## Remarks
+
+The rules never use the meaning of $p$ and $q$.
+If we read $-^a$ as the number $a$, $p$ as "plus" and $q$ as "equals", then the theorems are exactly the true equations $a + b = c$ with $a, b \geq 1$.
+So, for the strings of the shape $-^a p -^b q -^c$, the system is [[sound|4A84VHDTHV]] and complete for this reading, in the sense of a proof system for a semantics.
+The reading is not forced by the system.
+If we read $-^a p -^b q -^c$ as "$c$ minus $b$ equals $a$", every theorem is again a true statement.
+This is the difference between syntax, the rules on strings, and semantics, the meaning that we give to them.
+If we allow $a = 0$ in the axioms, the theorems become the strings with $a \geq 0$, $b \geq 1$ and $c = a + b$; the proof is the same.
+
+## Explanations
+
+### L1 human
+
+The pq-system writes numbers as rows of dashes, so three is ---.
+We start from strings such as --p-q---, which we may read as "two plus one equals three".
+The only rule adds one dash after p and one dash at the end, which turns "two plus one equals three" into "two plus two equals four".
+The rule is pure copying of dashes, and it knows nothing about addition.
+Still, every string that we can reach says something true about addition, and every true sum of positive numbers can be reached.
+
+### L2 human
+
+We decide whether $---p--q-----$ is a theorem.
+
+1. The string has the shape $-^a p -^b q -^c$ with $a = 3$, $b = 2$ and $c = 5$.
+2. Since $3 + 2 = 5$, the claim says that the string is a theorem.
+3. A derivation: the axiom $---p-q----$ (with $a = 3$), then one application of the rule.
+
+The typical use of the claim is to decide theoremhood by counting, without a search for derivations.
+A trap is to think that the reading as addition is part of the system: the reading is a semantics that we add, and other readings work as well.
