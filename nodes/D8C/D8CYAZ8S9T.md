@@ -3,7 +3,7 @@ tag: D8CYAZ8S9T
 kind: example
 name: Quantifying an open sentence gives a statement
 msc: ["97E40"]
-topics: [WMY13MXY3W]
+topics: [WMY13MXY3W, PM1AYWABA7]
 audience: school
 instance_of: [0ZGC7ZESYN]
 uses: [S9MHMRAX88, 0GHS47PDAQ, 0MSRQHCNN9]

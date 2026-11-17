@@ -1,0 +1,62 @@
+---
+tag: CVVR1EZYHE
+kind: example
+name: Solving x^2 = x for a nonzero real number by disjunctive syllogism
+msc: ["03B05", "97E30"]
+topics: [PM1AYWABA7]
+audience: school
+instance_of: [6EFJF9NAYX]
+uses: [6EFJF9NAYX, 0F72FK8EKB, 08J2M1JYAG]
+sources:
+  - url: https://en.wikipedia.org/wiki/Disjunctive_syllogism
+    locator: lead section
+  - book: isbn:9781108439534
+    locator: Section 3.5
+---
+
+## Example
+
+Let $x$ be a [[real number|08J2M1JYAG]] with $x^2 = x$ and $x \neq 0$.
+We show that $x = 1$, and we mark the step that uses [[disjunctive syllogism|6EFJF9NAYX]].
+
+1. Subtract $x$ from both sides of $x^2 = x$: $x^2 - x = 0$.
+2. Factor: $x^2 - x = x(x - 1)$, so $x(x - 1) = 0$.
+3. A product of two real numbers is $0$ only when one of the factors is $0$. So $x = 0$ or $x - 1 = 0$.
+4. Let $p$ be the statement "$x = 0$" and let $q$ be the statement "$x = 1$". Step 3 gives the [[disjunction|0F72FK8EKB]] $p \lor q$.
+5. The hypothesis $x \neq 0$ is the statement $\neg p$.
+6. Disjunctive syllogism with the premises $p \lor q$ and $\neg p$ gives $q$, that is, $x = 1$.
+7. Check: $1^2 = 1$, and $1 \neq 0$, so $x = 1$ satisfies both conditions.
+
+## Remarks
+
+The example shows the typical use of the rule: an equation gives a list of cases, and a hypothesis removes all cases except one.
+
+Without the hypothesis $x \neq 0$, step 6 is not possible, and the equation has the two solutions $0$ and $1$.
+With the hypothesis $x \neq 1$ instead, the symmetric form of the rule (from $p \lor q$ and $\neg q$, conclude $p$) gives $x = 0$.
+
+For the equation $x^3 = x$, the factorization $x(x - 1)(x + 1) = 0$ gives three cases: $x = 0$, $x = 1$ or $x = -1$.
+The hypothesis $x \neq 0$ then removes one case and leaves the disjunction $x = 1 \lor x = -1$.
+The rule removes only the denied disjunct, and it says nothing about the others.
+
+## Explanations
+
+### L1 human
+
+A number $x$ equals its own square.
+Only two numbers do this: $0$ and $1$, because $0 \cdot 0 = 0$ and $1 \cdot 1 = 1$.
+We are also told that $x$ is not $0$.
+So $x$ must be $1$.
+The step "it is one of two, it is not the first, so it is the second" is disjunctive syllogism.
+
+### L2 human
+
+We solve $x^2 = 4x$ for a real number $x$ with $x > 1$.
+
+1. Rewrite: $x^2 - 4x = 0$, so $x(x - 4) = 0$.
+2. One factor is $0$, so $x = 0 \lor x = 4$.
+3. The hypothesis $x > 1$ gives $x \neq 0$.
+4. Disjunctive syllogism gives $x = 4$.
+5. Check: $16 = 4 \cdot 4$ and $4 > 1$.
+
+The typical use of this pattern is the last step of a solution, where a side condition such as positivity removes the other roots.
+A trap is to divide both sides of $x^2 = 4x$ by $x$ without the hypothesis $x \neq 0$: that step loses the root $x = 0$, and the hypothesis is exactly the premise $\neg p$ of the rule.

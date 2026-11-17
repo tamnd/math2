@@ -1,0 +1,86 @@
+---
+tag: PQ22Q2DYP0
+kind: proof
+name: "Proof of De Morgan's laws (logic) by natural deduction"
+msc: ["03B05", "03F03"]
+topics: [PM1AYWABA7]
+audience: ug1
+proves: 09PKJKA6J0
+uses: [029JBBF693, 025YZN3VJW, 0F72FK8EKB, 6KT3BJZ7D1, 0RYYK8PG4S]
+methods: [0J0XBKG64S, 0WCP0PVET6]
+sources:
+  - url: https://en.wikipedia.org/wiki/De_Morgan's_laws
+    locator: lead section
+  - url: https://en.wikipedia.org/wiki/Natural_deduction
+    locator: lead section
+  - book: isbn:9781447145578
+    locator: Chapter 1
+---
+
+## Proof
+
+We use the rules of [[natural deduction|6KT3BJZ7D1]], and we read $\neg\varphi$ as $\varphi \to \bot$, as in Lean, where `Not p` is `p → False`.
+To prove $\neg\varphi$, we assume $\varphi$, derive $\bot$, and discharge the assumption (introduction rule of [[negation|029JBBF693]]).
+From $\varphi$ and $\neg\varphi$ we may infer $\bot$ (elimination rule of negation).
+Each law is an equivalence, so we prove four implications, and we mark the one step that uses a classical principle.
+
+Part 1: $\neg(p \lor q) \to \neg p \land \neg q$.
+
+1. Assume $\neg(p \lor q)$. Reason: we prove an implication.
+2. Assume $p$. Then $p \lor q$ holds by the introduction rule of [[disjunction|0F72FK8EKB]] (`Or.inl`).
+3. Steps 1 and 2 give $\bot$ by the elimination rule of negation. Discharge step 2 and conclude $\neg p$.
+4. In the same way, the assumption $q$ gives $p \lor q$ by `Or.inr`, then $\bot$ with step 1. So $\neg q$.
+5. From steps 3 and 4, conclude $\neg p \land \neg q$ by the introduction rule of [[conjunction|025YZN3VJW]] (`And.intro`).
+6. Discharge step 1. No step of part 1 uses a classical principle.
+
+Part 2: $\neg p \land \neg q \to \neg(p \lor q)$.
+
+7. Assume $\neg p \land \neg q$, and assume $p \lor q$. Reason: we prove an implication whose conclusion is a negation.
+8. By the elimination rules of conjunction, $\neg p$ and $\neg q$ hold (`And.left`, `And.right`).
+9. Case $p$: with $\neg p$ from step 8, we get $\bot$.
+10. Case $q$: with $\neg q$ from step 8, we get $\bot$.
+11. Both cases give $\bot$, so $\bot$ follows from $p \lor q$ by the elimination rule of disjunction, that is, by [[proof by cases|0WCP0PVET6]] (`Or.elim`).
+12. Discharge the assumption $p \lor q$ and conclude $\neg(p \lor q)$. Then discharge step 7. No step of part 2 uses a classical principle.
+
+Part 3: $\neg p \lor \neg q \to \neg(p \land q)$.
+
+13. Assume $\neg p \lor \neg q$, and assume $p \land q$.
+14. By the elimination rules of conjunction, $p$ and $q$ hold.
+15. Case $\neg p$: with $p$ from step 14, we get $\bot$.
+16. Case $\neg q$: with $q$ from step 14, we get $\bot$.
+17. By the elimination rule of disjunction, $\bot$ holds. Discharge the assumption $p \land q$ and conclude $\neg(p \land q)$. Then discharge step 13. No step of part 3 uses a classical principle.
+
+Part 4: $\neg(p \land q) \to \neg p \lor \neg q$.
+
+18. Assume $\neg(p \land q)$.
+19. By the [[law of excluded middle|0RYYK8PG4S]], $p \lor \neg p$. This is the classical step, `Classical.em p` in Lean.
+20. Case $p$: assume $q$. Then $p \land q$ by `And.intro`, and step 18 gives $\bot$. Discharge $q$ and conclude $\neg q$, so $\neg p \lor \neg q$ by `Or.inr`.
+21. Case $\neg p$: then $\neg p \lor \neg q$ by `Or.inl`.
+22. Both cases give $\neg p \lor \neg q$, so it holds by the elimination rule of disjunction. Discharge step 18.
+23. Parts 1 and 2 prove law (1), and parts 3 and 4 prove law (2). $\blacksquare$
+
+## Idea
+
+A negation $\neg\varphi$ is a refutation of $\varphi$, and a refutation of $p \lor q$ is the same as a refutation of each part.
+So parts 1 and 2 are direct.
+A refutation of either part also refutes $p \land q$, which is part 3.
+Part 4 goes the other way: from a refutation of $p \land q$ alone, nothing says which part to refute, and the case split on $p \lor \neg p$ makes this choice.
+
+## Variants
+
+The classical step in part 4 cannot be removed.
+In [[intuitionistic logic|Q11N8X99FK]], the formula $\neg(p \land q) \to \neg p \lor \neg q$ is not provable, and a [[Kripke model|NGHWZ9Y7ZV]] shows this.
+Take a root $r$ and two later worlds $a$ and $b$ that are incomparable, and let $p$ hold at $a$ only and $q$ at $b$ only.
+No world satisfies $p \land q$, so $\neg(p \land q)$ holds at $r$.
+The formula $\neg p$ fails at $r$, because $p$ holds at the later world $a$, and $\neg q$ fails at $r$, because $q$ holds at $b$.
+So $\neg p \lor \neg q$ fails at $r$.
+
+Part 4 needs less than the full law of excluded middle.
+The [[law of the weak excluded middle|CX032ACTMZ]] $\neg p \lor \neg\neg p$ is enough in step 19.
+In the case $\neg p$, step 21 applies.
+In the case $\neg\neg p$, assume $q$.
+Then the assumption $p$ gives $p \land q$ and a contradiction with step 18, so $\neg p$, and this contradicts $\neg\neg p$.
+So $\neg q$, and $\neg p \lor \neg q$ follows by `Or.inr`.
+
+In Mathlib, parts 1 and 2 together are `not_or`, and parts 3 and 4 together are `not_and_or`.
+The classical laws alone have the shorter [[proof by truth tables|68VBVMFJSW]].
