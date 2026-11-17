@@ -54,14 +54,14 @@ This page uses nonempty domains; with empty domains allowed, fewer formulas are 
 
 1. Every instance of a propositional tautology is valid. For example $P(x) \vee \neg P(x)$ is valid, because the clause for $\neg$ makes exactly one disjunct satisfied.
 2. $\forall x \, (x = x)$ is valid, because equality is interpreted as identity in every structure.
-3. [[$\forall x \, P(x) \to \exists x \, P(x)$ is valid|~a95b7d53]], because every domain is nonempty.
+3. [[$\forall x \, P(x) \to \exists x \, P(x)$ is valid|ZAW3Q50FT3]], because every domain is nonempty.
 4. The [[quantifier shift|PR3VZMWQ6B]] $\exists y \, \forall x \, R(x, y) \to \forall x \, \exists y \, R(x, y)$ is valid: one witness for all $x$ is a witness for each $x$.
-5. The [[drinker paradox|~c90af64d]] $\exists x \, (D(x) \to \forall y \, D(y))$ is valid.
-6. $\forall x \, \varphi \to \varphi[t/x]$ is valid when $t$ is substitutable for $x$ in $\varphi$, by the [[substitution lemma|~761225ef]].
+5. The [[drinker paradox|8BMQTZZEWB]] $\exists x \, (D(x) \to \forall y \, D(y))$ is valid.
+6. $\forall x \, \varphi \to \varphi[t/x]$ is valid when $t$ is substitutable for $x$ in $\varphi$, by the [[substitution lemma|A7S460KHBM]].
 
 ### Non-examples
 
-1. [[$\exists x \, P(x) \to \forall x \, P(x)$ is not valid|~88e5d7c2]]: the condition that fails is truth in every structure, and $(\set{0, 1}, P = \set{0})$ is a countermodel.
+1. [[$\exists x \, P(x) \to \forall x \, P(x)$ is not valid|CXT85PC672]]: the condition that fails is truth in every structure, and $(\set{0, 1}, P = \set{0})$ is a countermodel.
 2. $\forall x \, \exists y \, (x < y)$ is true in $(\N, <)$ but not valid: it is false in the one-element structure $(\set{0}, \emptyset)$, where $<$ is empty.
 3. The converse quantifier shift $\forall x \, \exists y \, R(x, y) \to \exists y \, \forall x \, R(x, y)$ is not valid: in $(\N, <)$ the antecedent is true and the consequent is false.
 
@@ -71,7 +71,7 @@ This page uses nonempty domains; with empty domains allowed, fewer formulas are 
 2. $\varphi$ is valid if and only if its universal closure is valid, by the clause for $\forall$.
 3. If $\varphi$ and $\varphi \to \psi$ are valid, then $\psi$ is valid, by the clause for $\to$; this is [[modus ponens|0Y0MQYST0M]] for validity. If $\varphi$ is valid, then $\forall x \, \varphi$ is valid.
 4. For finite $\Gamma = \set{\gamma_1, \ldots, \gamma_n}$, $\Gamma \models \varphi$ holds if and only if $(\gamma_1 \wedge \cdots \wedge \gamma_n) \to \varphi$ is valid. So valid arguments reduce to valid formulas.
-5. Validity does not depend on the signature: if $L \subseteq L'$, an $L$-formula is valid for $L$-structures if and only if it is valid for $L'$-structures, by the [[coincidence lemma|~7b107606]].
+5. Validity does not depend on the signature: if $L \subseteq L'$, an $L$-formula is valid for $L$-structures if and only if it is valid for $L'$-structures, by the [[coincidence lemma|FM580NZ9W6]].
 6. By [[soundness|4A84VHDTHV]] and the [[completeness theorem|WQ1ZE255SF]], $\varphi$ is valid if and only if $\varphi$ is provable. So the valid sentences form a computably enumerable set; by [[Church's theorem|VA6BNNY2YC]], this set is not decidable in general.
 
 ### History

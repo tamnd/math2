@@ -6,7 +6,7 @@ aliases: [herbrand-base, herbrand-model, minimal-herbrand-model, term-model]
 msc: ["03B10", "68V15"]
 topics: [NJDME6F845]
 audience: ug2
-uses: [~b97c4e92, 983GZBQYT4, 6D3WA7N2W4, 2RBQPV02AS]
+uses: [NFW38QJ3A7, 983GZBQYT4, 6D3WA7N2W4, 2RBQPV02AS]
 sources:
   - wikipedia: en:12274200@r1326042931
     locator: Herbrand structure
@@ -25,11 +25,11 @@ inventory: [K7J082HZ3K]
 
 ## Summary
 
-Let $L$ be a signature with at least one constant symbol, and let $H(L)$ be its [[Herbrand universe|~b97c4e92]], the set of closed terms.
+Let $L$ be a signature with at least one constant symbol, and let $H(L)$ be its [[Herbrand universe|NFW38QJ3A7]], the set of closed terms.
 A Herbrand structure for $L$ is an $L$-[[structure|983GZBQYT4]] $\mathcal{H}$ with domain $H(L)$ in which each constant symbol and each function symbol denotes itself: $c^{\mathcal{H}} = c$ and $f^{\mathcal{H}}(t_1, \ldots, t_n) = f(t_1, \ldots, t_n)$.
 The relation symbols may be interpreted freely, so a Herbrand structure is determined by the set of closed atomic formulas that it makes true, a subset of the Herbrand base.
 A Herbrand model of a set $\Sigma$ of sentences is a Herbrand structure that is a model of $\Sigma$.
-Herbrand structures matter because a set of universal sentences without equality has a model if and only if it has a [[Herbrand model|~c158f2c6]], which reduces satisfiability to questions about closed terms.
+Herbrand structures matter because a set of universal sentences without equality has a model if and only if it has a [[Herbrand model|B9C9NTWHZJ]], which reduces satisfiability to questions about closed terms.
 
 ## Motivation
 
@@ -49,14 +49,14 @@ This page leaves out the equality symbol, or interprets it as identity of terms.
 
 ### Examples
 
-1. [[The Herbrand models of a recursive pair of clauses|~b54060a9]]: for $\Sigma = \set{P(0), \forall x \, (P(x) \to P(s(s(x))))}$ in $L = \set{0, s, P}$, the Herbrand models are the sets $I$ that contain every $P(s^{2n}(0))$, and the least one contains exactly these atoms.
-2. [[A Herbrand model built from a finite model|~12f23a81]]: from the two-element model $(\set{0, 1}, a = 0, f(n) = 1 - n, R = \neq)$ of $\set{\forall x \, R(x, f(x)), \forall x \, \neg R(x, x)}$, the Herbrand structure with $R(f^m(a), f^n(a))$ true exactly when $m + n$ is odd is a model.
+1. [[The Herbrand models of a recursive pair of clauses|FHCDYBZPHC]]: for $\Sigma = \set{P(0), \forall x \, (P(x) \to P(s(s(x))))}$ in $L = \set{0, s, P}$, the Herbrand models are the sets $I$ that contain every $P(s^{2n}(0))$, and the least one contains exactly these atoms.
+2. [[A Herbrand model built from a finite model|73MVVFTCY7]]: from the two-element model $(\set{0, 1}, a = 0, f(n) = 1 - n, R = \neq)$ of $\set{\forall x \, R(x, f(x)), \forall x \, \neg R(x, x)}$, the Herbrand structure with $R(f^m(a), f^n(a))$ true exactly when $m + n$ is odd is a model.
 3. For $L = \set{a, b, P}$ with constants only, there are $4$ Herbrand structures, one for each subset of $\set{P(a), P(b)}$.
 4. For $L = \set{0, s}$ with no relation symbols, there is exactly one Herbrand structure, a copy of $(\N, 0, n \mapsto n + 1)$.
 
 ### Non-examples
 
-1. [[A satisfiable set without a Herbrand model|~7e8f0c15]]: $\set{\exists x \, P(x), \neg P(c)}$ in $L = \set{c, P}$ has the model $(\set{0, 1}, c = 0, P = \set{1})$, but no Herbrand model. The condition that fails is universality: $\exists x \, P(x)$ is not universal.
+1. [[A satisfiable set without a Herbrand model|3MKF3CSB9E]]: $\set{\exists x \, P(x), \neg P(c)}$ in $L = \set{c, P}$ has the model $(\set{0, 1}, c = 0, P = \set{1})$, but no Herbrand model. The condition that fails is universality: $\exists x \, P(x)$ is not universal.
 2. The structure $(\N, 0, n \mapsto n + 1)$ for $L = \set{0, s}$ is not a Herbrand structure: the condition that fails is that its elements are numbers, not terms. It is isomorphic to the Herbrand structure, by the evaluation map.
 3. The structure with domain $H(\set{0, s})$ and $s$ interpreted as the identity map is not a Herbrand structure: the condition that fails is that $s(0)$ must denote the term $s(0)$, and here it denotes $0$.
 
@@ -65,7 +65,7 @@ This page leaves out the equality symbol, or interprets it as identity of terms.
 1. In a Herbrand structure $\mathcal{H}$, every closed term denotes itself: $t^{\mathcal{H}} = t$, by induction on $t$.
 2. For a term $t$ with variables and an assignment $s$ in $\mathcal{H}$, $t^{\mathcal{H}}[s]$ is the closed term obtained from $t$ by replacing each variable $x$ by $s(x)$.
 3. A Herbrand structure satisfies a universal sentence $\forall x_1 \cdots \forall x_n \, \varphi$, with $\varphi$ quantifier-free, if and only if it satisfies every ground instance $\varphi[t_1/x_1, \ldots, t_n/x_n]$ with $t_i \in H(L)$.
-4. A set of universal sentences without equality has a model if and only if it has a Herbrand model. This is the [[theorem on Herbrand models|~c158f2c6]].
+4. A set of universal sentences without equality has a model if and only if it has a Herbrand model. This is the [[theorem on Herbrand models|B9C9NTWHZJ]].
 5. A set of definite Horn clauses always has a least Herbrand model: the intersection of all its Herbrand models.
 
 ### History

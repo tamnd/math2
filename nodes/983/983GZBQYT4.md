@@ -56,15 +56,15 @@ The choice changes which formulas are [[valid|5SDS9T8E7J]]: $\exists x \, (x = x
 
 ### Examples
 
-1. The [[natural numbers as a structure for the language of arithmetic|~a6c22843]]: the domain $\N = \set{0, 1, 2, \ldots}$, with $0$, the successor $n \mapsto n + 1$, addition, multiplication and the order $<$. Each operation of $\N$ gives a value in $\N$, so each symbol has an interpretation.
+1. The [[natural numbers as a structure for the language of arithmetic|WP27CABPA4]]: the domain $\N = \set{0, 1, 2, \ldots}$, with $0$, the successor $n \mapsto n + 1$, addition, multiplication and the order $<$. Each operation of $\N$ gives a value in $\N$, so each symbol has an interpretation.
 2. Each [[group|G5S1M9]] $(G, \cdot, e, {}^{-1})$ is a structure for the signature with one binary function symbol, one constant symbol and one unary function symbol. The group axioms are not part of the definition of a structure; they are sentences that this structure satisfies.
-3. A [[directed graph as a structure|~3db99883]]: one binary relation symbol $E$, interpreted as the set of edges. Every subset of $V \times V$ is allowed, so every directed graph with vertex set $V$ is a structure.
+3. A [[directed graph as a structure|1VQ21DC4Z8]]: one binary relation symbol $E$, interpreted as the set of edges. Every subset of $V \times V$ is allowed, so every directed graph with vertex set $V$ is a structure.
 4. The field of real numbers $(\R, +, \cdot, 0, 1)$ and the ordered field $(\R, +, \cdot, 0, 1, <)$ are structures for two different signatures. The second one has one more symbol.
 5. For the empty signature, a structure is just a nonempty set. Two such structures differ only in the size of the domain.
 
 ### Non-examples
 
-1. The real numbers with [[division|~0f8713fc]] do not form a structure for a signature with one binary function symbol. The condition that fails is totality: $1 / 0$ has no value.
+1. The real numbers with [[division|MFWJEH5022]] do not form a structure for a signature with one binary function symbol. The condition that fails is totality: $1 / 0$ has no value.
 2. The natural numbers with $n \mapsto n - 1$ do not form a structure for a signature with one unary function symbol. The condition that fails is that the value lies in the domain: $0 - 1 = -1 \notin \N$.
 3. The set $\set{1, 2, 3}$ with a constant symbol $c$ interpreted as $5$ is not a structure. The condition that fails is $c^{\mathcal{M}} \in M$.
 4. Under the convention of this page, the empty set with the empty signature is not a structure. The condition that fails is $M \neq \emptyset$.
@@ -73,8 +73,8 @@ The choice changes which formulas are [[valid|5SDS9T8E7J]]: $\exists x \, (x = x
 
 1. The same set carries many structures for one signature. For one binary relation symbol and a domain with $n$ elements, there are exactly $2^{n^2}$ structures with that domain, because $R^{\mathcal{M}}$ can be any of the $2^{n^2}$ subsets of $M^2$.
 2. Each term $t$ of $L$ gets a value in $M$ once each variable gets a value; see [[satisfaction|2RBQPV02AS]] for the recursive definition.
-3. Let $L \subseteq L'$ be two signatures. An $L'$-structure $\mathcal{N}$ gives an $L$-structure $\mathcal{N} \restriction L$, the reduct, with the same domain and with the interpretations of the symbols of $L'$ outside $L$ forgotten. Conversely $\mathcal{N}$ is an expansion of $\mathcal{N} \restriction L$. The [[coincidence lemma|~7b107606]] shows that an $L$-formula has the same truth value in $\mathcal{N}$ and in $\mathcal{N} \restriction L$.
-4. Maps between structures that respect the interpretations are [[homomorphisms|KBXSZC6BV1]]; the bijective ones whose inverses are also homomorphisms are [[isomorphisms|PZMGQMDN25]]. [[Isomorphic structures satisfy the same sentences|~5166a0b3]].
+3. Let $L \subseteq L'$ be two signatures. An $L'$-structure $\mathcal{N}$ gives an $L$-structure $\mathcal{N} \restriction L$, the reduct, with the same domain and with the interpretations of the symbols of $L'$ outside $L$ forgotten. Conversely $\mathcal{N}$ is an expansion of $\mathcal{N} \restriction L$. The [[coincidence lemma|FM580NZ9W6]] shows that an $L$-formula has the same truth value in $\mathcal{N}$ and in $\mathcal{N} \restriction L$.
+4. Maps between structures that respect the interpretations are [[homomorphisms|KBXSZC6BV1]]; the bijective ones whose inverses are also homomorphisms are [[isomorphisms|PZMGQMDN25]]. [[Isomorphic structures satisfy the same sentences|NDTJ2E895C]].
 5. A subset of $M$ that contains each $c^{\mathcal{M}}$ and is closed under each $f^{\mathcal{M}}$ carries a [[substructure|676H7EGTKJ]], with the restricted interpretations.
 
 ### History

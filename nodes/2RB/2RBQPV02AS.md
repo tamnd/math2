@@ -32,7 +32,7 @@ The relation is defined by recursion on $\varphi$ with Tarski's clauses.
 An atomic formula is satisfied when the values of its terms stand in the interpreted relation, and the connectives follow their truth tables.
 $\mathcal{M} \models \forall x \, \varphi[s]$ holds when $\mathcal{M} \models \varphi[s[x \mapsto a]]$ for every $a \in M$, and the clause for $\exists x$ asks for some $a \in M$.
 Here the $x$-variant $s[x \mapsto a]$ agrees with $s$, except that it sends $x$ to $a$.
-The full list of clauses is on the [[definition page|~cf18e0d7]].
+The full list of clauses is on the [[definition page|1WTCZB4DVB]].
 Satisfaction is the base of all semantic notions of first-order logic: truth, models, validity and logical consequence are all defined from it.
 
 ## Motivation
@@ -48,7 +48,7 @@ This gives one recursive definition that works for every structure, also when mo
 
 We write $\mathcal{M} \models \varphi[s]$, read "$\mathcal{M}$ satisfies $\varphi$ under $s$" or "$s$ satisfies $\varphi$ in $\mathcal{M}$".
 Enderton writes $\models_{\mathfrak{A}} \varphi[s]$, and some books write $\mathcal{M}, s \models \varphi$.
-When the free variables of $\varphi$ are among $x_1, \ldots, x_n$, we write $\mathcal{M} \models \varphi[a_1, \ldots, a_n]$ for $\mathcal{M} \models \varphi[s]$ with $s(x_i) = a_i$; by the [[coincidence lemma|~7b107606]] the other values of $s$ do not matter.
+When the free variables of $\varphi$ are among $x_1, \ldots, x_n$, we write $\mathcal{M} \models \varphi[a_1, \ldots, a_n]$ for $\mathcal{M} \models \varphi[s]$ with $s(x_i) = a_i$; by the [[coincidence lemma|FM580NZ9W6]] the other values of $s$ do not matter.
 Model theory books such as Hodges write $\mathcal{M} \models \varphi(a_1, \ldots, a_n)$ for the same thing.
 The value of a term is written $t^{\mathcal{M}}[s]$ here, $\overline{s}(t)$ in Enderton, and $t^{\mathcal{M}}(a_1, \ldots, a_n)$ in model theory.
 In Mathlib, the value of a term is `FirstOrder.Language.Term.realize`, and satisfaction is `FirstOrder.Language.BoundedFormula.Realize` and `FirstOrder.Language.Formula.Realize`.
@@ -58,21 +58,21 @@ Mathlib uses de Bruijn style indices for bound variables, so its assignment has 
 
 ### Examples
 
-1. In the [[two-element structure of the definition page|~c020b5e3]], every clause is checked on one assignment, including both quantifiers.
-2. In $(\N, <)$, the [[formula $\exists z \, (x < z \wedge z < y)$ is satisfied when $x \mapsto 1$ and $y \mapsto 3$|~b60a1de0]], with the witness $z \mapsto 2$.
-3. In the [[directed 3-cycle|~3db99883]], the sentence $\forall x \, \exists y \, E(x, y)$ is satisfied by every assignment, because each vertex has an outgoing edge.
+1. In the [[two-element structure of the definition page|KH30ARM9TF]], every clause is checked on one assignment, including both quantifiers.
+2. In $(\N, <)$, the [[formula $\exists z \, (x < z \wedge z < y)$ is satisfied when $x \mapsto 1$ and $y \mapsto 3$|YJ0VEETN8J]], with the witness $z \mapsto 2$.
+3. In the [[directed 3-cycle|1VQ21DC4Z8]], the sentence $\forall x \, \exists y \, E(x, y)$ is satisfied by every assignment, because each vertex has an outgoing edge.
 4. In every structure, the formula $x = x$ is satisfied by every assignment, because $s(x) = s(x)$.
 
 ### Non-examples
 
-1. In $(\Z, <)$, [[no assignment satisfies $\exists x \, \forall y \, (x < y \vee x = y)$|~32355403]]. The condition that fails is the existence of a witness for $\exists x$: no integer is a least element.
+1. In $(\Z, <)$, [[no assignment satisfies $\exists x \, \forall y \, (x < y \vee x = y)$|73YT05DXRB]]. The condition that fails is the existence of a witness for $\exists x$: no integer is a least element.
 2. In $(\N, <)$, the formula $\exists z \, (x < z \wedge z < y)$ is not satisfied when $x \mapsto 1$ and $y \mapsto 2$. The condition that fails is the existence of a witness for $\exists z$, because no natural number lies strictly between $1$ and $2$.
 
 ### Basic properties
 
-1. Satisfaction of $\varphi$ depends only on the values of $s$ at the free variables of $\varphi$, and only on the interpretations of the symbols in $\varphi$. This is the [[coincidence lemma|~7b107606]].
-2. Substitution and assignment change agree: $\mathcal{M} \models \varphi[t/x][s]$ if and only if $\mathcal{M} \models \varphi[s[x \mapsto t^{\mathcal{M}}[s]]]$, when $t$ is substitutable for $x$ in $\varphi$. This is the [[semantic substitution lemma|~761225ef]].
-3. An isomorphism $h \colon \mathcal{M} \to \mathcal{N}$ preserves satisfaction: $\mathcal{M} \models \varphi[s]$ if and only if $\mathcal{N} \models \varphi[h \circ s]$. This is [[isomorphism invariance of truth|~5166a0b3]].
+1. Satisfaction of $\varphi$ depends only on the values of $s$ at the free variables of $\varphi$, and only on the interpretations of the symbols in $\varphi$. This is the [[coincidence lemma|FM580NZ9W6]].
+2. Substitution and assignment change agree: $\mathcal{M} \models \varphi[t/x][s]$ if and only if $\mathcal{M} \models \varphi[s[x \mapsto t^{\mathcal{M}}[s]]]$, when $t$ is substitutable for $x$ in $\varphi$. This is the [[semantic substitution lemma|A7S460KHBM]].
+3. An isomorphism $h \colon \mathcal{M} \to \mathcal{N}$ preserves satisfaction: $\mathcal{M} \models \varphi[s]$ if and only if $\mathcal{N} \models \varphi[h \circ s]$. This is [[isomorphism invariance of truth|NDTJ2E895C]].
 4. The clauses give $\mathcal{M} \models \exists x \, \varphi[s]$ if and only if $\mathcal{M} \models \neg \forall x \, \neg \varphi[s]$. So books that take only $\neg$, $\to$ and $\forall$ as primitive get the same relation for the other symbols.
 5. For every $\varphi$ and $s$, exactly one of $\mathcal{M} \models \varphi[s]$ and $\mathcal{M} \models \neg \varphi[s]$ holds, by the clause for $\neg$.
 

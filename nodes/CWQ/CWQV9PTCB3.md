@@ -6,7 +6,7 @@ msc: ["03C07"]
 topics: [NJDME6F845]
 audience: ug2
 defines: MVCH6N9SNW
-uses: [92SWXST1ZM, 983GZBQYT4, DKFGQTRYZE, ~58a589d1]
+uses: [92SWXST1ZM, 983GZBQYT4, DKFGQTRYZE, 71X7TB3F98]
 formal:
   - system: lean4
     library: mathlib
@@ -24,7 +24,7 @@ sources:
 
 Let $L$ be a signature and let $T$ be a set of $L$-[[sentences|DKFGQTRYZE]], for example an $L$-[[theory|92SWXST1ZM]].
 An $L$-[[structure|983GZBQYT4]] $\mathcal{M}$ is a model of $T$ when $\mathcal{M} \models \sigma$ for every sentence $\sigma \in T$.
-Here $\mathcal{M} \models \sigma$ means that $\sigma$ is [[true in $\mathcal{M}$|~58a589d1]].
+Here $\mathcal{M} \models \sigma$ means that $\sigma$ is [[true in $\mathcal{M}$|71X7TB3F98]].
 The set $T$ is satisfiable when it has a model.
 
 ## Notation

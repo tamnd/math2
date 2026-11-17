@@ -44,14 +44,14 @@ In Mathlib, `M ⊨ T` is `FirstOrder.Language.Theory.Model`.
 ### Examples
 
 1. Every group $(G, \cdot, e, {}^{-1})$ is a model of the three group axioms in the signature $\set{\cdot, e, {}^{-1}}$. For example $(\Z, +, 0, -)$ is a model, because addition is associative, $0$ is neutral, and $-x$ is an inverse of $x$.
-2. The [[path graph on three vertices|~819ba28f]] is a model of the theory of simple graphs, $\set{\forall x \, \neg E(x, x), \ \forall x \, \forall y \, (E(x, y) \to E(y, x))}$.
+2. The [[path graph on three vertices|SG43F9BZFR]] is a model of the theory of simple graphs, $\set{\forall x \, \neg E(x, x), \ \forall x \, \forall y \, (E(x, y) \to E(y, x))}$.
 3. $(\Q, <)$ is a model of the theory of [[dense linear orders without endpoints|2W4S2H4VYA]].
 4. A [[non-standard model of arithmetic|1QWN5CV4CG]] is a model of Peano arithmetic with an element larger than every numeral.
 5. Every structure is a model of the empty set of sentences, and of every [[valid|5SDS9T8E7J]] sentence.
 
 ### Non-examples
 
-1. [[$(\N, \le)$ is not a model of the theory of strict linear orders|~1637f140]]: the condition that fails is irreflexivity, because $0 \le 0$.
+1. [[$(\N, \le)$ is not a model of the theory of strict linear orders|5DA671E28J]]: the condition that fails is irreflexivity, because $0 \le 0$.
 2. $(\set{1, 2, 3}, <)$ is not a model of the theory of linear orders without endpoints: the condition that fails is $\forall x \, \exists y \, (y < x)$, because nothing is below $1$.
 3. $(\N, +, 0, \id)$, with ${}^{-1}$ read as the identity map, is not a model of the group axioms: the axiom $\forall x \, (x \cdot x^{-1} = e)$ fails at $x = 1$, because $1 + 1 \neq 0$.
 4. No structure is a model of $\set{\sigma, \neg \sigma}$: a sentence and its negation are never both true, by bivalence. So this set is not satisfiable.
@@ -60,7 +60,7 @@ In Mathlib, `M ⊨ T` is `FirstOrder.Language.Theory.Model`.
 
 1. $\mathcal{M} \models T$ holds if and only if $T \subseteq \operatorname{Th}(\mathcal{M})$, where $\operatorname{Th}(\mathcal{M})$ is the [[theory of $\mathcal{M}$|K7XDVK5854]].
 2. If $T \subseteq T'$, then $\operatorname{Mod}(T') \subseteq \operatorname{Mod}(T)$. More axioms give fewer models.
-3. If $\mathcal{M} \models T$ and $\mathcal{N}$ is isomorphic to $\mathcal{M}$, then $\mathcal{N} \models T$, by [[isomorphism invariance of truth|~5166a0b3]].
+3. If $\mathcal{M} \models T$ and $\mathcal{N}$ is isomorphic to $\mathcal{M}$, then $\mathcal{N} \models T$, by [[isomorphism invariance of truth|NDTJ2E895C]].
 4. A sentence $\sigma$ is a [[logical consequence|1HK0VYWTV7]] of $T$ exactly when every model of $T$ is a model of $\sigma$.
 5. A theory with a model is consistent, by the [[soundness theorem|4A84VHDTHV]]. Conversely, every consistent theory has a model, by the [[completeness theorem|WQ1ZE255SF]].
 6. A class of the form $\operatorname{Mod}(T)$ is an [[elementary class|MEC3ZMC4F1]]. Not every natural class is elementary: the class of finite groups is not, as shown in [[finiteness of a group is not first-order|3J825EJ81F]].

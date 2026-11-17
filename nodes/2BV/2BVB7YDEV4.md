@@ -6,7 +6,7 @@ msc: ["03B10", "08B20"]
 topics: [NJDME6F845]
 audience: ug2
 instance_of: [TTTEV3NWWM]
-uses: [~b97c4e92, TTTEV3NWWM, 3YYKGWJJND, VZ21F10WRS, 12MQ2NJ29A]
+uses: [NFW38QJ3A7, TTTEV3NWWM, 3YYKGWJJND, VZ21F10WRS, 12MQ2NJ29A]
 sources:
   - url: https://en.wikipedia.org/wiki/Herbrand_structure
     locator: lead section
@@ -14,7 +14,7 @@ sources:
 
 ## Example
 
-Let $L$ be a signature with at least one constant symbol and no relation symbols, and let $H(L)$ be its [[Herbrand universe|~b97c4e92]], the set of closed terms of $L$.
+Let $L$ be a signature with at least one constant symbol and no relation symbols, and let $H(L)$ be its [[Herbrand universe|NFW38QJ3A7]], the set of closed terms of $L$.
 Make $H(L)$ an $L$-algebra: a constant $c$ denotes the term $c$, and an $n$-ary function symbol $f$ acts by $(t_1, \ldots, t_n) \mapsto f(t_1, \ldots, t_n)$.
 We show that this algebra is the [[absolutely free algebra|TTTEV3NWWM]] on the empty set of generators: for every $L$-algebra $\mathcal{A}$, there is exactly one homomorphism $H(L) \to \mathcal{A}$.
 

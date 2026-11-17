@@ -1,0 +1,65 @@
+---
+tag: X3XGDVSANT
+kind: proof
+name: Proof of isomorphism invariance of truth by induction
+msc: ["03C07"]
+topics: [NJDME6F845]
+audience: ug2
+proves: NDTJ2E895C
+uses: [1WTCZB4DVB, YWTERZZME5, 0GG9TVW90M, 0THBK9V825]
+methods: [12MQ2NJ29A]
+sources:
+  - book: isbn:9780122384523
+    locator: Section 2.2
+  - url: https://builds.openlogicproject.org/
+    locator: Theories and Their Models
+---
+
+## Proof
+
+Let $h \colon M \to N$ be an [[isomorphism|YWTERZZME5]] from $\mathcal{M}$ to $\mathcal{N}$.
+We use the clauses of [[satisfaction|1WTCZB4DVB]].
+
+Part 1, by [[structural induction|12MQ2NJ29A]] on the term $t$, for every assignment $s$.
+
+1. If $t$ is a variable $x$, then $h(t^{\mathcal{M}}[s]) = h(s(x)) = (h \circ s)(x) = t^{\mathcal{N}}[h \circ s]$.
+2. If $t$ is a constant symbol $c$, then $h(c^{\mathcal{M}}) = c^{\mathcal{N}}$, because $h$ is an isomorphism.
+3. Let $t = f(t_1, \ldots, t_n)$ and $a_i = t_i^{\mathcal{M}}[s]$. By the induction hypothesis, $h(a_i) = t_i^{\mathcal{N}}[h \circ s]$.
+4. Then $h(t^{\mathcal{M}}[s]) = h(f^{\mathcal{M}}(a_1, \ldots, a_n)) = f^{\mathcal{N}}(h(a_1), \ldots, h(a_n))$, because $h$ preserves $f$.
+5. By step 3, the right side is $f^{\mathcal{N}}(t_1^{\mathcal{N}}[h \circ s], \ldots, t_n^{\mathcal{N}}[h \circ s]) = t^{\mathcal{N}}[h \circ s]$.
+
+Part 2, by induction on $\varphi$.
+The claim for $\varphi$ is: for every assignment $s$ in $\mathcal{M}$, $\mathcal{M} \models \varphi[s]$ if and only if $\mathcal{N} \models \varphi[h \circ s]$.
+
+6. Let $\varphi = R(t_1, \ldots, t_n)$ and $a_i = t_i^{\mathcal{M}}[s]$. Then $\mathcal{M} \models \varphi[s]$ means $(a_1, \ldots, a_n) \in R^{\mathcal{M}}$.
+7. Since $h$ is an isomorphism, this holds if and only if $(h(a_1), \ldots, h(a_n)) \in R^{\mathcal{N}}$.
+8. By part 1, $h(a_i) = t_i^{\mathcal{N}}[h \circ s]$. So the last condition means $\mathcal{N} \models \varphi[h \circ s]$.
+9. Let $\varphi$ be $t_1 = t_2$. Then $\mathcal{M} \models \varphi[s]$ means $t_1^{\mathcal{M}}[s] = t_2^{\mathcal{M}}[s]$.
+10. Since $h$ is injective, this holds if and only if $h(t_1^{\mathcal{M}}[s]) = h(t_2^{\mathcal{M}}[s])$.
+11. By part 1, this means $t_1^{\mathcal{N}}[h \circ s] = t_2^{\mathcal{N}}[h \circ s]$, that is, $\mathcal{N} \models \varphi[h \circ s]$.
+12. For $\neg \psi$ and $\psi \mathbin{\square} \chi$, the induction hypothesis gives the same truth values for the parts under $s$ and under $h \circ s$. The clause for the connective gives the claim.
+13. Let $\varphi = \forall x \, \psi$. For each $a \in M$, the assignments $h \circ (s[x \mapsto a])$ and $(h \circ s)[x \mapsto h(a)]$ are equal: both send $x$ to $h(a)$ and each $y \neq x$ to $h(s(y))$.
+14. By the induction hypothesis for $\psi$, $\mathcal{M} \models \psi[s[x \mapsto a]]$ if and only if $\mathcal{N} \models \psi[(h \circ s)[x \mapsto h(a)]]$.
+15. Suppose $\mathcal{M} \models \varphi[s]$. Let $b \in N$. Since $h$ is surjective, $b = h(a)$ for some $a \in M$.
+16. By the clause for $\forall$, $\mathcal{M} \models \psi[s[x \mapsto a]]$. By step 14, $\mathcal{N} \models \psi[(h \circ s)[x \mapsto b]]$.
+17. Since $b$ was arbitrary, $\mathcal{N} \models \varphi[h \circ s]$.
+18. Conversely, suppose $\mathcal{N} \models \varphi[h \circ s]$. Let $a \in M$. Then $(h \circ s)[x \mapsto h(a)]$ satisfies $\psi$, and step 14 gives $\mathcal{M} \models \psi[s[x \mapsto a]]$. So $\mathcal{M} \models \varphi[s]$.
+19. Let $\varphi = \exists x \, \psi$. If $a \in M$ is a witness for $\mathcal{M} \models \varphi[s]$, then $h(a)$ is a witness for $\mathcal{N}$, by step 14.
+20. If $b \in N$ is a witness for $\mathcal{N} \models \varphi[h \circ s]$, write $b = h(a)$ by surjectivity; then $a$ is a witness for $\mathcal{M}$, by step 14.
+
+Part 3.
+
+21. Let $\sigma$ be a sentence and $s$ any assignment in $\mathcal{M}$. By part 2, $\mathcal{M} \models \sigma[s]$ if and only if $\mathcal{N} \models \sigma[h \circ s]$.
+22. A sentence is true in a structure exactly when one assignment satisfies it, by the [[coincidence lemma|FM580NZ9W6]]. So $\mathcal{M} \models \sigma$ if and only if $\mathcal{N} \models \sigma$.
+
+This proves the lemma.
+
+## Idea
+
+The isomorphism carries every assignment in $\mathcal{M}$ to an assignment in $\mathcal{N}$, and the proof follows the recursion of satisfaction.
+Preservation of the symbols handles terms and atomic formulas, injectivity handles equality, and surjectivity handles the quantifiers, because every element of $\mathcal{N}$ is the image of an element of $\mathcal{M}$.
+
+## Variants
+
+One can prove only the direction "$\mathcal{M} \models \varphi[s]$ implies $\mathcal{N} \models \varphi[h \circ s]$", with the induction hypothesis stated for all isomorphisms at once.
+The case of $\neg$ then uses the hypothesis for the inverse isomorphism $h^{-1}$, and the converse of the lemma follows in the same way.

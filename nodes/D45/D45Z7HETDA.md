@@ -26,7 +26,7 @@ Game-theoretic semantics defines truth by a game between two players, the verifi
 For an $L$-[[structure|983GZBQYT4]] $\mathcal{M}$, an $L$-[[formula|HYJ10AF6RT]] $\varphi$ and an assignment $s$, the evaluation game $G(\mathcal{M}, \varphi, s)$ follows the syntax of $\varphi$.
 The verifier chooses a disjunct at $\vee$ and an element at $\exists x$; the falsifier chooses a conjunct at $\wedge$ and an element at $\forall x$; at $\neg$ the two players exchange roles.
 At an atomic formula the play ends, and the current verifier wins if the atomic formula is satisfied in $\mathcal{M}$ under the current assignment.
-The formula is true in the game sense when Eloise has a winning strategy, and for first-order logic this agrees with Tarski's [[satisfaction|2RBQPV02AS]], by the [[equivalence theorem|~0c091de8]].
+The formula is true in the game sense when Eloise has a winning strategy, and for first-order logic this agrees with Tarski's [[satisfaction|2RBQPV02AS]], by the [[equivalence theorem|G6MKG8YQ6M]].
 The game view makes the dependence of choices visible, and it leads to logics beyond first-order logic, such as [[independence-friendly logic|DPMKT2KRB8]].
 
 ## Motivation
@@ -49,14 +49,14 @@ A strategy for a player is a function from the positions where that player moves
 
 ### Examples
 
-1. [[The game for "every number has a larger one"|~a01ee623]]: in $G((\N, <), \forall x \, \exists y \, (x < y))$, Eloise wins with the strategy "answer $a + 1$"; in $(\set{0, 1, 2}, <)$, Abelard wins by playing $2$.
-2. [[A game with a negation|~81dbd241]]: in a two-element structure, the formula $\forall x \, \exists y \, R(x, y) \wedge \neg \exists x \, R(x, x)$ gives a game in which the players exchange roles at $\neg$.
+1. [[The game for "every number has a larger one"|1RJFGSGE17]]: in $G((\N, <), \forall x \, \exists y \, (x < y))$, Eloise wins with the strategy "answer $a + 1$"; in $(\set{0, 1, 2}, <)$, Abelard wins by playing $2$.
+2. [[A game with a negation|2E6Y7GNDAT]]: in a two-element structure, the formula $\forall x \, \exists y \, R(x, y) \wedge \neg \exists x \, R(x, x)$ gives a game in which the players exchange roles at $\neg$.
 3. Continuity of $f$ at $a$ is the game for $\forall \varepsilon \, (\varepsilon > 0 \to \exists \delta \, (\delta > 0 \wedge \forall x \, (|x - a| < \delta \to |f(x) - f(a)| < \varepsilon)))$ in the reals. For $f(x) = 2x$, Eloise wins by answering $\delta = \varepsilon / 2$.
 4. A winning strategy of Eloise for $\forall x \, \exists y \, \psi(x, y)$ is a function $g$ with $\mathcal{M} \models \psi[a, g(a)]$ for all $a$, that is, a Skolem function; see [[Skolem normal form|GCPQGMJYEV]].
 
 ### Non-examples
 
-1. [[An imperfect-information game|~baea8052]]: the IF formula $\forall x \, (\exists y / x) \, (x = y)$ on a two-element domain gives a game where Eloise must choose $y$ without seeing $x$. The condition that fails is perfect information, and the game is not determined.
+1. [[An imperfect-information game|ZZBH32V2EY]]: the IF formula $\forall x \, (\exists y / x) \, (x = y)$ on a two-element domain gives a game where Eloise must choose $y$ without seeing $x$. The condition that fails is perfect information, and the game is not determined.
 2. The [[Ehrenfeucht-Fraïssé game|2RE7YAZK8R]] is not an evaluation game: the condition that fails is that it evaluates a formula in one structure; it compares two structures instead.
 3. A single play is not the semantics: Eloise can lose a play of a true formula by a bad choice. The condition that fails is the use of strategies, which quantify over all plays.
 
@@ -64,7 +64,7 @@ A strategy for a player is a function from the positions where that player moves
 
 1. Each play of $G(\mathcal{M}, \varphi, s)$ ends after at most as many moves as $\varphi$ has symbols, so the game is finite in length, though each move may have infinitely many options.
 2. The game is [[determined|QXECDPAYTN]]: exactly one of the players has a winning strategy. This follows from the equivalence theorem: Eloise has one when $\mathcal{M} \models \varphi[s]$, and Abelard has one otherwise.
-3. Equivalence: Eloise has a winning strategy if and only if $\mathcal{M} \models \varphi[s]$. The proof uses the axiom of choice to choose witnesses, unless a well-order of $M$ is given, for example an enumeration of a countable $M$. See [[the equivalence theorem|~0c091de8]].
+3. Equivalence: Eloise has a winning strategy if and only if $\mathcal{M} \models \varphi[s]$. The proof uses the axiom of choice to choose witnesses, unless a well-order of $M$ is given, for example an enumeration of a countable $M$. See [[the equivalence theorem|G6MKG8YQ6M]].
 4. The game for $\neg \varphi$ is the game for $\varphi$ with the roles exchanged, so Eloise wins $\neg \varphi$ exactly when Abelard wins $\varphi$.
 5. A winning strategy of Eloise for a prenex sentence is the same as a family of Skolem functions for its existential quantifiers.
 
