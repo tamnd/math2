@@ -3,11 +3,13 @@ tag: EQH7XTZ29V
 kind: example
 name: PA plus the consistency of PA is not conservative over PA
 msc: ["03F40", "03F25"]
-topics: [H8QZY0RZXZ]
+topics: [H8QZY0RZXZ, 8XY7JYZKFW]
 audience: grad
 not_instance_of:
   - target: N238J43XNE
     note: "PA + Con(PA) proves the arithmetic sentence Con(PA), which PA does not prove by the second incompleteness theorem."
+  - target: ~fc5d3da7
+    note: "PA + Con(PA) is not even Pi-0-1-conservative over PA, since Con(PA) is a Pi-0-1 sentence."
 uses: [N238J43XNE, 0QFT7Z76N5, X9WYNYE29C, MFJXPAF0R0, VM8TQ70CVJ]
 sources:
   - url: https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems
