@@ -31,7 +31,7 @@ Let $\varphi = \forall x_1 \cdots \forall x_k \, \exists y \, \chi$ be in prenex
 Its Skolemization step replaces $\varphi$ by $\forall x_1 \cdots \forall x_k \, \chi[f(x_1, \dots, x_k)/y]$.
 Here $f$ is a new function symbol of arity $k$; for $k = 0$ it is a new constant symbol.
 Repeating the step gives a sentence in Skolem normal form over a larger signature.
-It is satisfiable if and only if $\varphi$ is satisfiable, by the [[Skolem normal form theorem|~8bd96e26]].
+It is satisfiable if and only if $\varphi$ is satisfiable, by the [[Skolem normal form theorem|Q5H7C57VNH]].
 For example, $\forall x \, \exists y \, R(x, y)$ becomes $\forall x \, R(x, f(x))$, which is in Skolem normal form.
 The sentence $\forall x \, \exists y \, R(x, y)$ itself is not in Skolem normal form, since its prefix contains $\exists$.
 The sentence $\forall x \, R(x, f(x))$ implies $\forall x \, \exists y \, R(x, y)$, but not conversely, so the two are not equivalent.

@@ -6,7 +6,7 @@ msc: ["03B10", "08B05"]
 topics: [PSRDJXRW53]
 audience: ug2
 defines: NCDZ969V7X
-uses: [6D3WA7N2W4, WDVVEYD6AT, HYJ10AF6RT, ~e71c5bb3]
+uses: [6D3WA7N2W4, WDVVEYD6AT, HYJ10AF6RT, Y3FZTH5158]
 sources:
   - url: https://en.wikipedia.org/wiki/Substitution_(logic)
     locator: lead section
@@ -51,7 +51,7 @@ A substitution $\varphi[t_1/x_1, \ldots, t_n/x_n]$ is *admissible* when each $t_
 2. Enderton writes $\varphi^x_t$ for $\varphi[t/x]$. Other books write $\varphi(t/x)$, $\varphi[x := t]$ or $\varphi\set{x \mapsto t}$.
 3. When $\varphi$ is written $\varphi(x)$, many books write $\varphi(t)$ for $\varphi[t/x]$, with the tacit assumption that $t$ is substitutable for $x$.
 4. In universal algebra and in unification, $\theta$ is usually the identity on all but finitely many variables, and the notation $t\theta$ is standard.
-5. Some books define $\varphi[t/x]$ with automatic renaming of bound variables, so that it is always admissible. Then $\varphi[t/x]$ is defined only up to [[alpha-equivalence|~e71c5bb3]].
+5. Some books define $\varphi[t/x]$ with automatic renaming of bound variables, so that it is always admissible. Then $\varphi[t/x]$ is defined only up to [[alpha-equivalence|Y3FZTH5158]].
 
 ## Remarks
 
@@ -69,7 +69,7 @@ By clauses 1 and 3, every substitution sends $x + x$ to $\theta(x) + \theta(x)$,
 
 Non-example: $y$ is not substitutable for $x$ in $\forall y \, (x < y)$.
 Clause 9 fails, because $x$ is free in $\forall y \, (x < y)$ and $y \in \operatorname{Var}(y)$.
-The string $(\forall y \, (x < y))[y/x] = \forall y \, (y < y)$ shows the [[capture|~6f9c2060]].
+The string $(\forall y \, (x < y))[y/x] = \forall y \, (y < y)$ shows the [[capture|WW01WZR9MF]].
 
 A term $s$ is an *instance* of $t$ if $s = t\theta$ for some substitution $\theta$.
 The substitutions are exactly the endomorphisms of the term algebra, restricted to the variables, and $(t\theta)\eta = t(\theta\eta)$, where $(\theta\eta)(x) = (\theta(x))\eta$.

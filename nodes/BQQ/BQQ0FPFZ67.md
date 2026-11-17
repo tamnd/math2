@@ -43,7 +43,7 @@ In the signature of rings, $\cdot(x, +(y, 1))$ is a term, usually written $x \cd
 It is a term by clause 1 for $x$ and $y$, clause 2 for $1$, and clause 3 twice.
 In the signature of ordered sets, $x < y$ is not a term: $<$ is a relation symbol, not a function symbol, so clause 3 does not apply.
 The word "smallest" means that a string is a term only when a finite chain of the clauses produces it.
-Every term has a unique reading, by [[unique readability|~62799b98]], so one can define functions on terms by recursion on this construction.
+Every term has a unique reading, by [[unique readability|3QPV4XW8MC]], so one can define functions on terms by recursion on this construction.
 In Mathlib constants are function symbols of arity $0$, so clause 2 is the case $n = 0$ of clause 3.
 
 ## Explanations

@@ -48,15 +48,15 @@ Russell's analysis keeps the first-order syntax and turns each description into 
 
 ### Examples
 
-1. [[The present King of France|~568c1e56]]: "the King of France is not bald" has two readings, with the description inside or outside the negation.
-2. [[The predecessor as a description|~80f366d0]]: in $\mathbb{N}$, $\iota y \, (S(y) = x)$ denotes $x - 1$ for $x \neq 0$, and fails for $x = 0$.
+1. [[The present King of France|KETATPMAWN]]: "the King of France is not bald" has two readings, with the description inside or outside the negation.
+2. [[The predecessor as a description|KZEDH1C6M6]]: in $\mathbb{N}$, $\iota y \, (S(y) = x)$ denotes $x - 1$ for $x \neq 0$, and fails for $x = 0$.
 3. In a group, the identity is $\iota e \, \forall g \, (e \cdot g = g \land g \cdot e = g)$. Existence and uniqueness are proved first, as on the page about [[definite descriptions in definitions|5P955TVSS2]].
 
 ### Non-examples
 
-1. [[The square root of 4 in the integers|~35dca08a]]: two integers satisfy $x \cdot x = 4$, so "the integer with $x \cdot x = 4$" picks no single object.
+1. [[The square root of 4 in the integers|NPMNGQXA04]]: two integers satisfy $x \cdot x = 4$, so "the integer with $x \cdot x = 4$" picks no single object.
 2. The [[indefinite description|DTKQ9G0CKS]] "a prime number" does not claim uniqueness. Its logical form is $\exists x \, (P(x) \land \psi(x))$.
-3. Hilbert's [[epsilon term|~41c81e04]] $\varepsilon x \, \varphi$ is not a description. It denotes some object with $\varphi$, and it needs no uniqueness.
+3. Hilbert's [[epsilon term|TH5ZKCKN3W]] $\varepsilon x \, \varphi$ is not a description. It denotes some object with $\varphi$, and it needs no uniqueness.
 
 ### Basic properties
 

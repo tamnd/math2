@@ -47,14 +47,14 @@ Examples are whether they are consistent, whether they decide every sentence, an
 ### Examples
 
 1. The theory of groups has three sentences in the signature $\set{\cdot, e, {}^{-1}}$: associativity, the identity law and the inverse law.
-2. [[First-order Peano arithmetic|~f46a5ae7]] has six axioms and one induction axiom for each formula.
-3. [[The theory of infinite sets|~d9ce4b08]] has, for each $n$, a sentence saying "there are at least $n$ elements", and its models are the infinite sets.
+2. [[First-order Peano arithmetic|MPSCREYC3M]] has six axioms and one induction axiom for each formula.
+3. [[The theory of infinite sets|KFWXHKBHYT]] has, for each $n$, a sentence saying "there are at least $n$ elements", and its models are the infinite sets.
 4. The theory of [[dense linear orders without endpoints|2W4S2H4VYA]] is a finite theory in the signature $\set{<}$.
 5. For each structure $\mathcal{M}$, the theory $\mathrm{Th}(\mathcal{M})$ is a theory, often with no simple list of axioms.
 
 ### Non-examples
 
-1. [[A set of formulas with a free variable|~87057868]], such as $\set{x \cdot e = x}$, is not a theory, because its formula is not a sentence.
+1. [[A set of formulas with a free variable|CSBB8RA545]], such as $\set{x \cdot e = x}$, is not a theory, because its formula is not a sentence.
 2. The class of all groups is not a theory. It is the class of models of the theory of groups, a class of structures and not a set of sentences.
 3. The second-order Peano axioms are not a first-order theory, because the induction axiom quantifies over sets.
 

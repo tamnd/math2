@@ -6,7 +6,7 @@ aliases: [first-order-formula]
 msc: ["03B10", "03B05"]
 topics: [PSRDJXRW53]
 audience: ug2
-uses: [WDVVEYD6AT, 6D3WA7N2W4, ~de213704, QS0XVAN9BG, 0GHS47PDAQ, 0MSRQHCNN9]
+uses: [WDVVEYD6AT, 6D3WA7N2W4, MCZRXR3SVB, QS0XVAN9BG, 0GHS47PDAQ, 0MSRQHCNN9]
 sources:
   - url: https://en.wikipedia.org/wiki/Well-formed_formula
     locator: lead section
@@ -24,7 +24,7 @@ same_as:
 ## Summary
 
 Let $\sigma$ be a [[signature|WDVVEYD6AT]].
-The well-formed formulas over $\sigma$, or $\sigma$-formulas, form the smallest set of strings that contains every [[atomic formula|~de213704]] and is closed under three rules.
+The well-formed formulas over $\sigma$, or $\sigma$-formulas, form the smallest set of strings that contains every [[atomic formula|MCZRXR3SVB]] and is closed under three rules.
 If $\varphi$ is a formula, then $\neg \varphi$ is a formula.
 If $\varphi$ and $\psi$ are formulas, then $(\varphi \land \psi)$, $(\varphi \lor \psi)$, $(\varphi \to \psi)$ and $(\varphi \leftrightarrow \psi)$ are formulas.
 If $\varphi$ is a formula and $x$ is a variable, then $\forall x \, \varphi$ and $\exists x \, \varphi$ are formulas.
@@ -53,21 +53,21 @@ This gives two tools for all later work: proof by induction on formulas and defi
 ### Examples
 
 1. In the signature of orders $\set{<}$, the string $\forall x \, \exists y \, (x < y)$ is a formula: $x < y$ is atomic, then the quantifier rule applies twice.
-2. In the signature of arithmetic $\set{0, S, +, \cdot}$, the string $\forall x \, (\neg x = 0 \to \exists y \, x = S(y))$ is a formula. Its [[parse tree|~eb1b2ed3]] is worked out on its own page.
+2. In the signature of arithmetic $\set{0, S, +, \cdot}$, the string $\forall x \, (\neg x = 0 \to \exists y \, x = S(y))$ is a formula. Its [[parse tree|QS95N0MRP8]] is worked out on its own page.
 3. In the empty signature, the string $\exists x \, \exists y \, \neg x = y$ is a formula. It says that there are at least two elements.
-4. The formula $\forall x \, (x < y \land \neg y = x)$ has the free variable $y$. A formula can have [[free variables|~2fd0cd75]], and then it is not a [[sentence|DKFGQTRYZE]].
-5. The construction of a formula from its atomic parts is shown in [[a formation sequence|~c3f0dab2]].
+4. The formula $\forall x \, (x < y \land \neg y = x)$ has the free variable $y$. A formula can have [[free variables|9CNGDRAMGC]], and then it is not a [[sentence|DKFGQTRYZE]].
+5. The construction of a formula from its atomic parts is shown in [[a formation sequence|R99VNXVM8P]].
 
 ### Non-examples
 
 1. The string $\forall x \, (x \land y)$ is not a formula. The connective $\land$ needs formulas on both sides, and $x$ and $y$ are terms.
-2. The string $\forall c \, P(c)$, with $c$ a constant symbol, is [[not a formula|~ab247241]]. The quantifier rule needs a variable after $\forall$.
+2. The string $\forall c \, P(c)$, with $c$ a constant symbol, is [[not a formula|4SV9Q67884]]. The quantifier rule needs a variable after $\forall$.
 3. The string $(x < y$ is not a formula. Every formula has as many left brackets as right brackets, and this string has one more left bracket.
 4. The term $x + 1$ is not a formula. It names an object and makes no claim.
 
 ### Basic properties
 
-1. Every formula has exactly one reading: it is atomic, or a negation, or a binary combination, or a quantification, in exactly one way. This is the [[unique readability theorem|~62799b98]].
+1. Every formula has exactly one reading: it is atomic, or a negation, or a binary combination, or a quantification, in exactly one way. This is the [[unique readability theorem|3QPV4XW8MC]].
 2. Induction on formulas: if a property holds for every atomic formula and is preserved by the three formation rules, then it holds for every formula. The reason is that the set of formulas with the property contains the atomic formulas and is closed under the rules, and the formulas form the smallest such set.
 3. Recursion on formulas: a function on formulas can be defined by its values on atomic formulas and by its effect under each rule. Unique readability makes the result well defined.
 4. The complexity of a formula is the number of occurrences of connectives and quantifiers in it. Atomic formulas have complexity $0$, and each rule adds $1$, so induction on formulas is the same as strong induction on complexity.
@@ -115,5 +115,5 @@ The trap is to forget a rule: a proof that treats $\neg$ and $\land$ but not the
 The formulas over $\sigma$ form the initial algebra of a signature of operations: one unary operation $\neg$, four binary operations and, for each variable $x$, two unary operations $\forall x$ and $\exists x$, over the set of atomic formulas.
 Unique readability says that the strings form a free algebra, so recursion on formulas is the universal property of a free algebra, as for the [[term algebra|3YYKGWJJND]].
 In type theory and in Lean, formulas are an inductive type, and unique readability holds by construction, because the constructors are injective with disjoint images.
-The price is the treatment of bound variables: names lead to [[renaming problems|~2fd0cd75]] and capture under [[substitution|NCDZ969V7X]], and nameless encodings such as [[de Bruijn indices|1TC37YHZPE]] avoid them.
+The price is the treatment of bound variables: names lead to [[renaming problems|9CNGDRAMGC]] and capture under [[substitution|NCDZ969V7X]], and nameless encodings such as [[de Bruijn indices|1TC37YHZPE]] avoid them.
 The same grammar, with other connectives or quantifiers, gives the formulas of modal logic, of [[second-order logic|G6X7SZSNC5]] and of [[infinitary logic|PQG7VAZ1R2]], where conjunctions of infinitely many formulas are allowed.

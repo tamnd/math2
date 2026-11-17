@@ -5,7 +5,7 @@ name: Substitution
 msc: ["03B10", "08B05"]
 topics: [PSRDJXRW53]
 audience: ug2
-uses: [6D3WA7N2W4, HYJ10AF6RT, ~2fd0cd75, 0GHS47PDAQ]
+uses: [6D3WA7N2W4, HYJ10AF6RT, 9CNGDRAMGC, 0GHS47PDAQ]
 sources:
   - url: https://en.wikipedia.org/wiki/Substitution_(logic)
     locator: lead section
@@ -24,7 +24,7 @@ same_as:
 
 Let $x$ be a variable and let $t$ be a [[term|6D3WA7N2W4]].
 In a term $u$, the substitution $u[t/x]$ replaces every occurrence of $x$ by $t$.
-In a [[formula|HYJ10AF6RT]] $\varphi$, the substitution $\varphi[t/x]$ replaces every [[free occurrence|~2fd0cd75]] of $x$ by $t$ and leaves bound occurrences alone.
+In a [[formula|HYJ10AF6RT]] $\varphi$, the substitution $\varphi[t/x]$ replaces every [[free occurrence|9CNGDRAMGC]] of $x$ by $t$ and leaves bound occurrences alone.
 The substitution is *admissible* when $t$ is *substitutable* for $x$ in $\varphi$: no variable of $t$ falls into the scope of a quantifier on that variable.
 A *simultaneous* substitution $\theta$ replaces several variables at once, each $x$ by $\theta(x)$.
 The [[formal definition|XN8TQE6SRK]] gives all these operations by recursion.
@@ -52,23 +52,23 @@ The definition of substitutability states exactly when the rule is safe.
 ### Examples
 
 1. With $\theta = \set{x \mapsto z \cdot z, \ y \mapsto 1}$ we get $(x + y)\theta = z \cdot z + 1$. Both variables are replaced at once.
-2. The swap $\set{x \mapsto y, \ y \mapsto x}$ sends $x + y$ to $y + x$, but two [[successive substitutions|~2501efda]] give $x + x$ or $y + y$.
+2. The swap $\set{x \mapsto y, \ y \mapsto x}$ sends $x + y$ to $y + x$, but two [[successive substitutions|VS6SNA8Z23]] give $x + x$ or $y + y$.
 3. $(P(x) \land \forall x \, Q(x))[c/x] = P(c) \land \forall x \, Q(x)$. Only the free occurrence changes.
-4. In $\exists y \, (y + y = x)$, the term $S(0)$ is substitutable for $x$, and the term $S(y)$ is not. A [[renaming|~e2f74c7f]] of the bound $y$ makes the second substitution admissible.
+4. In $\exists y \, (y + y = x)$, the term $S(0)$ is substitutable for $x$, and the term $S(y)$ is not. A [[renaming|XX4DS8DGN3]] of the bound $y$ makes the second substitution admissible.
 5. The rule "from $\forall x \, \varphi$ infer $\varphi[t/x]$" turns the axiom $\forall x \, (x + 0 = x)$ into $S(0) + 0 = S(0)$.
 
 ### Non-examples
 
-1. Putting $y$ for $x$ in $\forall y \, (x < y)$ gives $\forall y \, (y < y)$. The term $y$ is [[captured|~6f9c2060]], so the substitution is not admissible.
+1. Putting $y$ for $x$ in $\forall y \, (x < y)$ gives $\forall y \, (y < y)$. The term $y$ is [[captured|WW01WZR9MF]], so the substitution is not admissible.
 2. Replacing only the first $x$ in $x + x$ by $y$ is not a substitution. Every substitution sends $x + x$ to $\theta(x) + \theta(x)$.
-3. Replacing the bound $x$ in $\forall x \, P(x)$ by a constant $c$ does not give $\forall c \, P(c)$, which is [[not a formula|~ab247241]]. Substitution leaves $\forall x \, P(x)$ unchanged.
+3. Replacing the bound $x$ in $\forall x \, P(x)$ by a constant $c$ does not give $\forall c \, P(c)$, which is [[not a formula|4SV9Q67884]]. Substitution leaves $\forall x \, P(x)$ unchanged.
 
 ### Basic properties
 
 1. If $x \notin \operatorname{FV}(\varphi)$, then $\varphi[t/x] = \varphi$. The same holds for terms: if $x \notin \operatorname{Var}(u)$, then $u[t/x] = u$.
 2. If $t$ is substitutable for $x$ in $\varphi$ and $x \in \operatorname{FV}(\varphi)$, then $\operatorname{FV}(\varphi[t/x]) = (\operatorname{FV}(\varphi) \setminus \set{x}) \cup \operatorname{Var}(t)$.
 3. Substitution in terms is compositional: $(t\theta)\eta = t(\theta\eta)$, where $(\theta\eta)(x) = \theta(x)\eta$. The substitutions are the endomorphisms of the [[term algebra|3YYKGWJJND]].
-4. Successive substitutions commute in a controlled way: if $x \neq y$ and $x \notin \operatorname{Var}(r)$, then $t[s/x][r/y] = t[r/y][s[r/y]/x]$. This is the [[syntactic substitution lemma|~f943c858]].
+4. Successive substitutions commute in a controlled way: if $x \neq y$ and $x \notin \operatorname{Var}(r)$, then $t[s/x][r/y] = t[r/y][s[r/y]/x]$. This is the [[syntactic substitution lemma|FXEFA6PKZ1]].
 5. A term without variables is substitutable for every variable in every formula. For any $t$, $x$ and $\varphi$, renaming the bound variables of $\varphi$ gives an alpha-equivalent formula in which $t$ is substitutable for $x$.
 6. If $t$ is substitutable for $x$ in $\varphi$, then the formula $\varphi[t/x]$ says about the value of $t$ what $\varphi$ says about the value of $x$. This is the semantic substitution lemma of [[structures and satisfaction|NJDME6F845]], and it makes $\forall x \, \varphi \to \varphi[t/x]$ valid.
 
@@ -110,7 +110,7 @@ The trap is step 2: the blind replacement is a well-formed formula, so no syntax
 
 The terms over a signature form a monad on sets: a set $X$ of variables goes to the set $T(X)$ of terms over $X$.
 A substitution $X \to T(Y)$ is an arrow of the Kleisli category of this monad, and composition of substitutions is Kleisli composition.
-In a Lawvere theory the same composition is the composition of the category, and the [[syntactic substitution lemma|~f943c858]] follows from associativity and a computation of two composite substitutions.
+In a Lawvere theory the same composition is the composition of the category, and the [[syntactic substitution lemma|FXEFA6PKZ1]] follows from associativity and a computation of two composite substitutions.
 For formulas the binders break this simple picture, because substitution must respect alpha-equivalence.
 Several solutions exist: renaming as part of substitution, [[de Bruijn indices|1TC37YHZPE]], numbered bound variables in a separate type as in Mathlib, and nominal sets.
 The [[lambda calculus|BD756KR8FM]] has the same issue, and its beta reduction is a substitution.

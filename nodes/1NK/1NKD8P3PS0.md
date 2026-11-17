@@ -34,7 +34,7 @@ The string $Q_1 x_1 \cdots Q_n x_n$ is the *prefix* and $\psi$ is the *matrix*.
 The formula $\forall x \, \exists y \, (R(x, y) \lor \neg P(x))$ is in prenex normal form: its prefix is $\forall x \, \exists y$ and its matrix has no quantifiers.
 The formula $\neg \forall x \, P(x)$ is not: the quantifier is inside a negation, so the formula is not a prefix followed by a quantifier-free matrix.
 It is equivalent to $\exists x \, \neg P(x)$, which is in prenex normal form.
-In classical first-order logic, every formula is logically equivalent to a formula in prenex normal form, by the [[prenex normal form theorem|~7674d52e]].
+In classical first-order logic, every formula is logically equivalent to a formula in prenex normal form, by the [[prenex normal form theorem|ME9J33BFNC]].
 The proof moves quantifiers outwards with rules such as $(\forall x \, \varphi) \to \psi \equiv \exists x \, (\varphi \to \psi)$, when $x$ is not free in $\psi$.
 This rule uses that structures have nonempty domains.
 

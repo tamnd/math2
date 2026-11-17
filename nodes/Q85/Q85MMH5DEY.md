@@ -6,7 +6,7 @@ msc: ["03B10", "03C07"]
 topics: [PSRDJXRW53]
 audience: ug2
 defines: DKFGQTRYZE
-uses: [HYJ10AF6RT, ~e71c5bb3, 2CHENV4DCC]
+uses: [HYJ10AF6RT, Y3FZTH5158, 2CHENV4DCC]
 formal:
   - system: lean4
     library: mathlib
@@ -21,7 +21,7 @@ sources:
 
 ## Definition
 
-Let $\sigma$ be a signature, and let $\operatorname{FV}(\varphi)$ be the set of [[free variables|~e71c5bb3]] of a [[formula|HYJ10AF6RT]] $\varphi$ over $\sigma$.
+Let $\sigma$ be a signature, and let $\operatorname{FV}(\varphi)$ be the set of [[free variables|Y3FZTH5158]] of a [[formula|HYJ10AF6RT]] $\varphi$ over $\sigma$.
 A *sentence* over $\sigma$ is a formula $\varphi$ over $\sigma$ with $\operatorname{FV}(\varphi) = \emptyset$.
 
 ## Notation

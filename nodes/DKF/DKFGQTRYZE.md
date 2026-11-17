@@ -6,7 +6,7 @@ aliases: [closed-formula]
 msc: ["03B10", "03C07"]
 topics: [PSRDJXRW53]
 audience: ug2
-uses: [HYJ10AF6RT, ~2fd0cd75, 983GZBQYT4, K7XDVK5854, 2RBQPV02AS]
+uses: [HYJ10AF6RT, 9CNGDRAMGC, 983GZBQYT4, K7XDVK5854, 2RBQPV02AS]
 sources:
   - url: https://en.wikipedia.org/wiki/Sentence_(mathematical_logic)
     locator: lead section
@@ -22,7 +22,7 @@ same_as:
 ## Summary
 
 Let $\sigma$ be a signature.
-A *sentence* over $\sigma$, or *closed formula*, is a [[formula|HYJ10AF6RT]] $\varphi$ over $\sigma$ with no [[free variables|~2fd0cd75]], that is, with $\operatorname{FV}(\varphi) = \emptyset$.
+A *sentence* over $\sigma$, or *closed formula*, is a [[formula|HYJ10AF6RT]] $\varphi$ over $\sigma$ with no [[free variables|9CNGDRAMGC]], that is, with $\operatorname{FV}(\varphi) = \emptyset$.
 Every occurrence of a variable in a sentence is bound by a quantifier.
 So in a [[structure|983GZBQYT4]] $\mathcal{M}$ a sentence is either [[true|K7XDVK5854]] or false, with no values of variables to choose.
 Sentences are the statements of mathematics in first-order form: axioms, theories and theorems consist of sentences.
@@ -48,15 +48,15 @@ They are what a theory assumes and what a proof proves, and they are the objects
 
 ### Examples
 
-1. In the signature of orders, $\forall x \, \exists y \, (x < y)$ is a [[sentence|~748af446]]. It says that there is no largest element.
+1. In the signature of orders, $\forall x \, \exists y \, (x < y)$ is a [[sentence|C0AVCG4SGF]]. It says that there is no largest element.
 2. In the signature of arithmetic, $0 = S(0)$ is a sentence without quantifiers. It has no variables at all, and it is false in $\mathbb{N}$.
 3. The group axiom $\forall x \, \forall y \, \forall z \, (x \cdot (y \cdot z) = (x \cdot y) \cdot z)$ is a sentence in the signature $\set{\cdot, e}$.
 4. In the empty signature, $\exists x \, \exists y \, \neg x = y$ is a sentence. It is true exactly in the structures with at least two elements.
-5. The [[universal closure|~b45059a8]] of $x + 0 = x$ is the sentence $\forall x \, (x + 0 = x)$.
+5. The [[universal closure|YH98P98WA2]] of $x + 0 = x$ is the sentence $\forall x \, (x + 0 = x)$.
 
 ### Non-examples
 
-1. $\exists y \, (x < y)$ is [[not a sentence|~dfb92489]], because $x$ is free. Its truth in a finite order depends on the value of $x$.
+1. $\exists y \, (x < y)$ is [[not a sentence|QMZVVXT9Q2]], because $x$ is free. Its truth in a finite order depends on the value of $x$.
 2. $x + 0 = x$ is not a sentence, because $x$ is free. The quantifier is missing.
 3. $\forall x \, (x < y)$ is not a sentence. The quantifier binds $x$, and $y$ stays free.
 

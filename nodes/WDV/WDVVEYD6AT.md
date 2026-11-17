@@ -49,14 +49,14 @@ It also lets one state results for all languages at once, such as the [[compactn
 2. The signature of ordered sets is $\set{<}$, with one binary relation symbol.
 3. The signature of set theory is $\set{\in}$, with one binary relation symbol.
 4. The signature of graphs is $\set{E}$, with one binary relation symbol for adjacency.
-5. [[Groups in two signatures|~8aea4994]]: $\set{\cdot, e, {}^{-1}}$ and $\set{\cdot}$ give the same groups, but different substructures.
-6. [[A constant for each real number|~0d363af5]] gives an uncountable signature, used to describe $\mathbb{R}$ inside its own language.
+5. [[Groups in two signatures|CBKC2DMXEQ]]: $\set{\cdot, e, {}^{-1}}$ and $\set{\cdot}$ give the same groups, but different substructures.
+6. [[A constant for each real number|Z5YZ05NYDR]] gives an uncountable signature, used to describe $\mathbb{R}$ inside its own language.
 7. The empty signature has no symbols. Its formulas are built from equations $x = y$ alone, and they talk only about the number of elements.
-8. More examples are on the page of [[standard first-order languages|~1cac8c60]].
+8. More examples are on the page of [[standard first-order languages|CG8FE46WJC]].
 
 ### Non-examples
 
-1. [[One symbol for unary and binary minus|~c53e6eb1]] is not a signature: each symbol has exactly one arity, and the double use destroys unique readability.
+1. [[One symbol for unary and binary minus|YG6J9BDB67]] is not a signature: each symbol has exactly one arity, and the double use destroys unique readability.
 2. "A binary operation $\cdot$ that is associative" is not a signature. Associativity is an axiom, and a signature holds only symbols and arities.
 3. The equality symbol $=$ is not part of a signature in most books. It is a logical symbol, with a fixed meaning in every structure.
 4. The set $\set{+, \cdot}$ without arities is not a signature. The same letter $+$ could be binary in one language and ternary in another.
@@ -78,7 +78,7 @@ The word "signature" became standard later, and finite model theory often says "
 
 1. A student treats a symbol and its interpretation as the same thing. The symbol $+$ is a mark in $\sigma$, and addition on $\mathbb{Z}$ is one possible meaning for it.
 2. A student puts axioms into the signature. A signature has no axioms, and a set of axioms over $\sigma$ is a [[first-order theory|92SWXST1ZM]].
-3. A student assumes that a group in the signature $\set{\cdot}$ has the same substructures as in $\set{\cdot, e, {}^{-1}}$. It does not, as the example of [[groups in two signatures|~8aea4994]] shows.
+3. A student assumes that a group in the signature $\set{\cdot}$ has the same substructures as in $\set{\cdot, e, {}^{-1}}$. It does not, as the example of [[groups in two signatures|CBKC2DMXEQ]] shows.
 
 ## Explanations
 
@@ -110,5 +110,5 @@ This uniformity lets model theory state the compactness and the [[Löwenheim-Sko
 Many proofs change the signature: Henkin's proof of completeness adds new constants, Skolemization adds function symbols, and a Morleyization adds one relation symbol per formula.
 The elementary diagram of a structure $\mathcal{M}$ uses the signature $\sigma$ with one new constant for each element of $M$.
 In Mathlib this expansion is `FirstOrder.Language.withConstants`, written `L[[A]]`.
-[[Many-sorted logic|~4886a7ff]] uses signatures that also list the sorts, and each symbol has a sort for each argument and for its value.
+[[Many-sorted logic|7TDHDN8P96]] uses signatures that also list the sorts, and each symbol has a sort for each argument and for its value.
 In categorical logic a signature generates a free category of terms, and a theory over it gives a Lawvere theory or a hyperdoctrine.

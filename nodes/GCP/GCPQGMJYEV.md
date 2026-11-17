@@ -21,7 +21,7 @@ same_as:
 
 A sentence is in Skolem normal form when it is in [[prenex normal form|CS82V969DE]] and has only universal quantifiers.
 Every first-order sentence can be turned into one in Skolem normal form by replacing each existential quantifier with a new function symbol.
-The new sentence is not equivalent to the old one, but it is satisfiable exactly when the old one is, by the [[Skolem normal form theorem|~8bd96e26]].
+The new sentence is not equivalent to the old one, but it is satisfiable exactly when the old one is, by the [[Skolem normal form theorem|Q5H7C57VNH]].
 This makes Skolem normal form the starting point of [[Herbrand's theorem|VZ21F10WRS]] and of resolution theorem proving.
 
 ## Motivation
@@ -44,12 +44,12 @@ So Skolemization reduces questions of satisfiability to questions about universa
 
 1. $\forall x \, \exists y \, R(x, y)$ has the Skolem form $\forall x \, R(x, f(x))$.
 2. $\exists x \, \forall y \, R(x, y)$ has the Skolem form $\forall y \, R(c, y)$ with a Skolem constant $c$.
-3. [[Alternating quantifiers|~16158d04]]: $\forall x \, \exists y \, \forall z \, \exists w \, R(x, y, z, w)$ has the Skolem form $\forall x \, \forall z \, R(x, f(x), z, g(x, z))$.
-4. [[Skolem functions for the group axioms|~a3e7b750]]: the axiom of inverses gives a Skolem function that is the inverse map.
+3. [[Alternating quantifiers|PNDDPZXEW9]]: $\forall x \, \exists y \, \forall z \, \exists w \, R(x, y, z, w)$ has the Skolem form $\forall x \, \forall z \, R(x, f(x), z, g(x, z))$.
+4. [[Skolem functions for the group axioms|WPZWBJ8FN4]]: the axiom of inverses gives a Skolem function that is the inverse map.
 
 ### Non-examples
 
-1. [[A sentence and its Skolem form|~90b14b4e]]: $\forall x \, \exists y \, R(x, y)$ is not in Skolem normal form, and it is not equivalent to its Skolem form.
+1. [[A sentence and its Skolem form|BCTD7FZTSK]]: $\forall x \, \exists y \, R(x, y)$ is not in Skolem normal form, and it is not equivalent to its Skolem form.
 2. $\forall x \, (P(x) \to \forall y \, R(x, y))$ has only universal quantifiers, but it is not prenex, so it is not in Skolem normal form. Its prenex form $\forall x \, \forall y \, (P(x) \to R(x, y))$ is.
 3. A formula with free variables, such as $\forall y \, R(x, y)$, is not in Skolem normal form, which is defined for [[sentences|DKFGQTRYZE]].
 

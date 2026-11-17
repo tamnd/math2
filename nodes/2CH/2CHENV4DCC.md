@@ -6,7 +6,7 @@ msc: ["03B10", "03B05"]
 topics: [PSRDJXRW53]
 audience: ug2
 defines: HYJ10AF6RT
-uses: [WDVVEYD6AT, 6D3WA7N2W4, ~de213704, QS0XVAN9BG]
+uses: [WDVVEYD6AT, 6D3WA7N2W4, MCZRXR3SVB, QS0XVAN9BG]
 formal:
   - system: lean4
     library: mathlib
@@ -32,7 +32,7 @@ The set of first-order *formulas* over $\sigma$ is the smallest set of finite st
 4. if $\varphi$ and $\psi$ are formulas, then $(\varphi \land \psi)$, $(\varphi \lor \psi)$, $(\varphi \to \psi)$ and $(\varphi \leftrightarrow \psi)$ are formulas;
 5. if $\varphi$ is a formula and $x \in \mathrm{Var}$, then $\forall x \, \varphi$ and $\exists x \, \varphi$ are formulas.
 
-The formulas from clauses 1 and 2 are the [[atomic formulas|~de213704]].
+The formulas from clauses 1 and 2 are the [[atomic formulas|MCZRXR3SVB]].
 In first-order logic without equality, clause 1 is left out.
 
 ## Notation
@@ -58,7 +58,7 @@ No other clause produces a string whose fourth symbol is $\land$ with a term bef
 The word "smallest" is part of the definition.
 The set of all strings is also closed under clauses 1 to 5, and the minimality excludes the strings that no finite chain of clauses produces.
 Equivalently, a string is a formula exactly when it is the last entry of a finite sequence in which each entry comes from earlier entries by one clause.
-Such a sequence is a [[formation sequence|~c3f0dab2]].
+Such a sequence is a [[formation sequence|R99VNXVM8P]].
 
 In propositional logic, the formulas are built from propositional variables by clauses 3 and 4 alone.
 
