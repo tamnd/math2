@@ -1,10 +1,13 @@
 ---
 tag: 0MC0AQZSHE
 kind: statement
-role: proposition
+role: theorem
 name: A finite abelian group is cyclic iff its exponent equals its order
-msc: [20K01]
-uses: [0FCCTFA275, 0B85Q41RP6, 071DDFVG4J, 07CQR9BW3R, 0JPYSD5E0B]
+msc: ["20K01"]
+topics: [BAVE5RN4EE]
+audience: ug2
+about: [0ZDW0H0VX4, 0KVGH0J5B3]
+uses: [082GHNPJ53, 0KVGH0J5B3, 0ZDW0H0VX4, 0WE2NHZJ7B, 0B85S2V2DR, 031M8HX7DA, 0ZEPNS9BXK]
 sources:
   - url: https://en.wikipedia.org/wiki/Torsion_group
     locator: lead section
@@ -16,20 +19,69 @@ sources:
 
 ## Statement
 
-Let $G$ be a finite [[abelian group|082GHNPJ53]].
-Then $G$ is [[cyclic|0KVGH0J5B3]] if and only if the [[exponent|0ZDW0H0VX4]] of $G$ equals $|G|$.
+Let $G$ be a finite [[abelian group|082GHNPJ53]] with identity $e$, and let $\exp(G)$ be its [[exponent|0ZDW0H0VX4]].
+
+1. Some element of $G$ has [[order|0WE2NHZJ7B]] $\exp(G)$. So $\exp(G)$ is the largest order of an element of $G$, and the order of every element divides it.
+2. $G$ is [[cyclic|0KVGH0J5B3]] if and only if $\exp(G) = |G|$.
 
 ## Remarks
 
-If $G$ is cyclic with generator $g$, then the order of $g$ is $|G|$, so the exponent is $|G|$.
-For the converse, write $G \cong \mathbb{Z}/k_1\mathbb{Z} \oplus \cdots \oplus \mathbb{Z}/k_u\mathbb{Z}$ with $1 < k_1 \mid k_2 \mid \cdots \mid k_u$, by the [[classification|07CQR9BW3R]]. The exponent is $k_u$ and the order is $k_1 \cdots k_u$, so they are equal only when $u \leq 1$.
-The abelian condition is necessary: $S_3$ has exponent $6$ and order $6$, but it is not cyclic.
-For example, $(\mathbb{Z}/n\mathbb{Z})^\times$ is cyclic if and only if $\lambda(n) = \varphi(n)$.
+### Why each hypothesis is needed
+
+1. The abelian hypothesis is needed in both parts. The [[symmetric group|0515A6D2Y1]] $S_3$ has [[exponent $6$|~b0c1e267]] and [[order|0B85S2V2DR]] $6$, but its element orders are $1, 2, 3$. So no element has order $6$, and $S_3$ is not cyclic.
+2. The finiteness hypothesis is needed for part 2 to make sense, since $|G|$ must be a number. For infinite abelian groups, the exponent does not detect cyclic groups: $\mathbb{Z}$ is cyclic and $\mathbb{Q}$ is not, but both have infinite exponent.
+3. For infinite abelian groups of finite exponent, part 1 still holds with the same proof, because all element orders are at most $\exp(G)$, so a largest order exists. But part 2 fails: [[an infinite product of copies of $\mathbb{Z}/2\mathbb{Z}$|~781c5713]] has exponent $2$ and is not cyclic.
+
+### Consequences
+
+1. A quick test for non-cyclic groups. The group $\mathbb{Z}/2\mathbb{Z} \times \mathbb{Z}/4\mathbb{Z}$ has exponent $\operatorname{lcm}(2, 4) = 4$ and order $8$, so it is not cyclic.
+2. The [[Klein four-group|0PMRQJVTME]] has exponent $2$ and order $4$, so it is not cyclic.
+3. [[The product $\mathbb{Z}/m\mathbb{Z} \times \mathbb{Z}/n\mathbb{Z}$ is cyclic exactly when $\gcd(m, n) = 1$|08FDFEF8D1]]. Its exponent is $\operatorname{lcm}(m, n)$ and its order is $mn$, and $\operatorname{lcm}(m, n) = mn$ exactly when $\gcd(m, n) = 1$.
+4. [[Finite subgroups of the multiplicative group of a field are cyclic|0CKGBEJX6B]]. In a field, $x^d = 1$ has at most $d$ solutions, so the exponent of such a subgroup cannot be smaller than its order.
+5. The group $(\mathbb{Z}/n\mathbb{Z})^\times$ is cyclic exactly when its exponent equals its order $\varphi(n)$. Its exponent is the Carmichael function $\lambda(n)$. For example, $(\mathbb{Z}/8\mathbb{Z})^\times = \{1, 3, 5, 7\}$ has exponent $2$, because $3^2 = 9$, $5^2 = 25$ and $7^2 = 49$ are all $\equiv 1 \pmod 8$. So it is not cyclic.
+
+### Converse
+
+Part 2 is an equivalence.
+The direction "cyclic implies $\exp(G) = |G|$" holds for all finite groups, not only abelian ones.
+The other direction needs the abelian hypothesis, as $S_3$ shows.
+
+### Generalizations
+
+1. Every finite group $G$ is cyclic exactly when some element has order $|G|$. Part 1 gives such an element when $G$ is abelian and $\exp(G) = |G|$.
+2. Part 1 holds for every finite $p$-group, abelian or not. All element orders are powers of $p$, so their least common multiple is the largest of them.
+3. Let $x$ and $y$ be commuting elements of finite order in any group. Then $\langle x, y \rangle$ is a finite abelian group of exponent $\operatorname{lcm}(\operatorname{ord}(x), \operatorname{ord}(y))$, so part 1 gives an element of $\langle x, y \rangle$ with this order.
 
 ## Explanations
 
 ### L1 human
 
-In a cyclic group, one element has order equal to the size of the group.
-For a finite abelian group, it is enough that the exponent equals the size.
-Then the group is cyclic.
+A cyclic group is a group made from the powers of one element.
+The exponent is the smallest number of steps that brings every element back to the start.
+In a cyclic group of size $n$, the generator needs exactly $n$ steps, so the exponent is $n$.
+The theorem says the reverse for groups in which the order of multiplication does not matter.
+If all elements together need $n$ steps, and the group has $n$ elements, then one element alone generates the group.
+
+### L2 human
+
+We use the theorem to decide whether $G = \mathbb{Z}/3\mathbb{Z} \times \mathbb{Z}/4\mathbb{Z}$ and $H = \mathbb{Z}/2\mathbb{Z} \times \mathbb{Z}/6\mathbb{Z}$ are cyclic.
+
+1. Both groups are abelian and have order $12$.
+2. In $G$, every element satisfies $12(a, b) = (0, 0)$, and the element $(1, 1)$ has order $\operatorname{lcm}(3, 4) = 12$. So $\exp(G) = 12 = |G|$, and $G$ is cyclic, generated by $(1, 1)$.
+3. In $H$, every element satisfies $6(a, b) = (0, 0)$, because $2 \mid 6$. So $\exp(H) \leq 6 < 12$, and $H$ is not cyclic.
+
+The typical use is the test in step 3: one uniform identity $g^k = e$ with $k < |G|$ proves that $G$ is not cyclic.
+Part 1 is used in the other direction: to find a generator, look for an element of the largest order.
+
+A trap: the test with $\exp(G) = |G|$ needs $G$ abelian.
+In $S_3$ the exponent and the order are both $6$, but $S_3$ is not cyclic.
+
+### L3 human
+
+Part 1 is the statement that the largest invariant factor of a finite abelian group is its exponent.
+In the [[classification of finite abelian groups|07CQR9BW3R]], $G \cong \mathbb{Z}/k_1\mathbb{Z} \times \cdots \times \mathbb{Z}/k_u\mathbb{Z}$ with $1 < k_1 \mid k_2 \mid \cdots \mid k_u$, the exponent is $k_u$ and the order is $k_1 \cdots k_u$.
+So the quotient $|G| / \exp(G)$ is $k_1 \cdots k_{u-1}$, and it measures how far $G$ is from cyclic.
+
+The theorem is the group part of the proof that [[the multiplicative group of a finite field is cyclic|0EBZ3G455G]], and of the [[primitive root theorem|0E0DNQK22P]] for primes.
+In both cases, the field structure gives $\exp(G) \geq |G|$ through the bound on the roots of $x^{\exp(G)} - 1$, and the theorem gives a generator.
+For non-abelian groups, the analogue of part 1 fails, and finite groups of a given exponent can be large: the Burnside groups $B(r, n)$ are the largest groups of exponent $n$ with $r$ generators, when they are finite.
