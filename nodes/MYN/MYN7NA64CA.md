@@ -8,7 +8,7 @@ audience: research
 not_instance_of:
   - target: T70PYM1F36
     note: "PA + Con(PA) proves Con(PA), which PA does not prove, so not all its theorems are theorems of PA."
-uses: [T70PYM1F36, HACXBCM7SS, X9WYNYE29C, EQH7XTZ29V, 4A84VHDTHV, XQMNJF241J]
+uses: [T70PYM1F36, HACXBCM7SS, 4PZM5GJTR5, EQH7XTZ29V, 4A84VHDTHV, XQMNJF241J]
 sources:
   - url: https://en.wikipedia.org/wiki/Reflection_principle
     locator: For arithmetic
@@ -21,7 +21,7 @@ We show that $T$ is not a [[fragment of PA|T70PYM1F36]], that is, some theorem o
 
 1. $\mathsf{PA}$ is consistent, because $\mathfrak{N}$ is a model of it and [[soundness|4A84VHDTHV]] holds.
 2. $\mathsf{PA}$ is recursively axiomatized and contains $\mathsf{PA}$.
-3. By the [[second incompleteness theorem|X9WYNYE29C]], $\mathsf{PA} \nvdash \mathrm{Con}(\mathsf{PA})$.
+3. By the [[second incompleteness theorem|4PZM5GJTR5]], $\mathsf{PA} \nvdash \mathrm{Con}(\mathsf{PA})$.
 4. $T \vdash \mathrm{Con}(\mathsf{PA})$, since it is an axiom of $T$.
 5. So $\mathrm{Con}(\mathsf{PA})$ is a theorem of $T$ that is not a theorem of $\mathsf{PA}$.
 

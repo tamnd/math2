@@ -60,7 +60,7 @@ The process of Hilbert and Ackermann is often called the H-process.
 - So if the process finds a solving substitution for every finite set of critical formulas, the theory is consistent.
 - In the case of the third example: let $\varepsilon x\, A(x)$ get the least $m$ with $A(m)$, where $A$ has no $\varepsilon$-terms. Then all its critical formulas of both kinds are true, and no later step changes $A$ or $m$.
 - Each single step can be computed: it evaluates finitely many closed terms and formulas, and it searches for a least witness below a known bound.
-- The termination proof for Peano arithmetic cannot be formalized in Peano arithmetic. Such a proof would give a proof of the consistency of Peano arithmetic in itself, against [[Gödel's second incompleteness theorem|X9WYNYE29C]].
+- The termination proof for Peano arithmetic cannot be formalized in Peano arithmetic. Such a proof would give a proof of the consistency of Peano arithmetic in itself, against [[Gödel's second incompleteness theorem|4PZM5GJTR5]].
 
 ### History
 

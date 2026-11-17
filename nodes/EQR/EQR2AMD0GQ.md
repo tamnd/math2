@@ -6,7 +6,7 @@ msc: ["03F30", "03F40"]
 topics: [QHCRN4JVG0]
 audience: grad
 instance_of: [DX0KPMH4QZ]
-uses: [DX0KPMH4QZ, HACXBCM7SS, MFJXPAF0R0, 4A84VHDTHV, X9WYNYE29C, EQH7XTZ29V, 69234Z1V00]
+uses: [DX0KPMH4QZ, HACXBCM7SS, MFJXPAF0R0, 4A84VHDTHV, 4PZM5GJTR5, EQH7XTZ29V, 69234Z1V00]
 sources:
   - url: https://en.wikipedia.org/wiki/True_arithmetic
     locator: Definition
@@ -26,7 +26,7 @@ We show that $\mathrm{Con}(\mathsf{PA}) \in \mathrm{TA}$, the set of sentences o
 4. So no natural number $p$ codes a proof of $0 = S0$. Since $\mathrm{Prf}_{\mathsf{PA}}$ defines the proof relation in $\mathfrak{N}$, $\mathfrak{N} \models \neg \mathrm{Prf}_{\mathsf{PA}}(\overline{p}, \ulcorner 0 = S0 \urcorner)$ for each $p$.
 5. By step 4, $\mathfrak{N} \models \mathrm{Con}(\mathsf{PA})$, so $\mathrm{Con}(\mathsf{PA}) \in \mathrm{TA}$.
 
-So $\mathrm{TA}$ contains $\mathrm{Con}(\mathsf{PA})$, although $\mathsf{PA} \nvdash \mathrm{Con}(\mathsf{PA})$ by the [[second incompleteness theorem|X9WYNYE29C]].
+So $\mathrm{TA}$ contains $\mathrm{Con}(\mathsf{PA})$, although $\mathsf{PA} \nvdash \mathrm{Con}(\mathsf{PA})$ by the [[second incompleteness theorem|4PZM5GJTR5]].
 
 ## Remarks
 
