@@ -1,0 +1,75 @@
+---
+tag: JXRXTHBCCG
+kind: proof
+name: Proof of the complexity of quantified provability logic
+msc: ["03F45", "03B45", "03D35"]
+topics: [3E7M66WW6Q]
+audience: research
+proves: 5K9J8R8SCP
+methods: [0NTF6DMVAP, 0J0XBKG64S, 12MQ2NJ29A]
+uses: [MFJXPAF0R0, 6M12VR1GT6, S9DK13K5PS, 7CVJCQKY41, JTAH37JTHD, TN9G24VABN, Z7TN2B35B0]
+sources:
+  - url: https://en.wikipedia.org/wiki/Arithmetical_hierarchy
+    locator: Examples
+  - url: https://en.wikipedia.org/wiki/Arithmetical_hierarchy
+    locator: lead section
+---
+
+## Proof
+
+We use the notation of the [[statement|5K9J8R8SCP]], and we identify formulas with their [[Gödel numbers|MFJXPAF0R0]].
+The proof has three parts: the upper bound, the corollary, and the lower bound.
+The first two parts are complete; the lower bound is a cited outline.
+
+### Part 1: $\mathsf{QPL}(\mathsf{PA})$ is $\Pi^0_2$
+
+1. The set of sentences of $L_\square$ is decidable, by the [[arithmetization of syntax|6M12VR1GT6]].
+2. For a sentence $\varphi$, the arithmetical formula $\varphi^*$ depends only on the formulas $P^*$ for the finitely many predicate symbols $P$ that occur in $\varphi$. This follows by [[structural induction|12MQ2NJ29A]] on $\varphi$, since each rule of the definition of $*$ uses only the parts of $\varphi$.
+3. Call a number $c$ *admissible for* $\varphi$ when it codes a finite list that gives, for each $n$-ary predicate symbol $P$ in $\varphi$, a formula of arithmetic with free variables among $x_1, \dots, x_n$. The relation "$c$ is admissible for $\varphi$" is decidable.
+4. Every realization gives, by restriction, an admissible $c$. Every admissible $c$ extends to a realization, for example by $Q^* := (x_1 = x_1)$ for every other symbol $Q$.
+5. Write $\varphi^c$ for the value of $\varphi^*$ for any realization that extends $c$; step 2 shows that it does not depend on the extension. Steps 4 and 5 give: $\varphi \in \mathsf{QPL}(\mathsf{PA})$ if and only if $\mathsf{PA} \vdash \varphi^c$ for every $c$ admissible for $\varphi$.
+6. The map $(\varphi, c) \mapsto \varphi^c$ is computable. It is defined by recursion on $\varphi$, and each clause is a computable operation on codes; the clause for $\square$ only builds the formula $\mathrm{Prov}_{\mathsf{PA}}(\ulcorner \psi(\dot{x}_1, \dots, \dot{x}_n) \urcorner)$ from the code of $\psi$. For $c$ not admissible for $\varphi$ we put $\varphi^c = 0$, so the map is total.
+7. Let $\mathrm{Prf}(y, z)$ say that $y$ codes a derivation in $\mathsf{PA}$ of the formula with code $z$. It is decidable, because the set of axioms of $\mathsf{PA}$ is decidable and each rule can be checked.
+8. Steps 1 to 7 give, for every number $\varphi$:
+$$\varphi \in \mathsf{QPL}(\mathsf{PA}) \iff \forall c \, \exists y \, \big[\, \varphi \text{ is a sentence of } L_\square \wedge (c \text{ is not admissible for } \varphi \vee \mathrm{Prf}(y, \varphi^c)) \,\big].$$
+For a non-admissible $c$ the bracket holds as soon as $\varphi$ is a sentence, so only the admissible $c$ matter, as in step 5.
+9. The bracket in step 8 is a decidable relation of $(\varphi, c, y)$, by steps 1, 3, 6 and 7.
+10. A set of the form $\{\varphi : \forall c \, \exists y \, D(\varphi, c, y)\}$ with $D$ decidable is $\Pi^0_2$, by the definition of the [[arithmetical hierarchy|7CVJCQKY41]]. So $\mathsf{QPL}(\mathsf{PA})$ is $\Pi^0_2$.
+
+### Part 2: a $\Pi^0_2$-complete set is not $\Sigma^0_1$
+
+Let $Q \subseteq \mathbb{N}$ be $\Pi^0_2$-complete.
+We show by [[contradiction|0J0XBKG64S]] that $Q$ is not $\Sigma^0_1$, that is, not [[computably enumerable|TN9G24VABN]].
+Let $W_e$ be the domain of the $e$-th partial computable function, and let $K = \{e : e \in W_e\}$ be the halting set.
+
+11. Assume that $Q$ is computably enumerable, say $Q = W_a$ for some $a$.
+12. The complement $\overline{K} = \{e : e \notin W_e\}$ is $\Pi^0_1$: $e \notin W_e$ if and only if $\forall s \, \neg T(e, e, s)$, where $T$ is the decidable [[Kleene T predicate|S9DK13K5PS]].
+13. Adding a dummy quantifier gives $e \in \overline{K} \iff \forall s \, \exists t \, \neg T(e, e, s)$, so $\overline{K}$ is $\Pi^0_2$.
+14. Since $Q$ is $\Pi^0_2$-complete, there is a total computable $f$ with $e \in \overline{K} \iff f(e) \in Q$, by the definition of a [[many-one reduction|JTAH37JTHD]].
+15. Then $\overline{K} = \{e : f(e) \in W_a\}$, which is the domain of the partial computable function "compute $f(e)$, then run program $a$ on $f(e)$". So $\overline{K} = W_b$ for some $b$.
+16. Now $b \in \overline{K}$ if and only if $b \in W_b$ by step 15, and $b \in W_b$ if and only if $b \in K$ by the definition of $K$.
+17. So $b \in \overline{K}$ if and only if $b \notin \overline{K}$, which is impossible. This contradiction shows that $Q$ is not computably enumerable.
+18. Part 1 and the lower bound of Part 3 make $\mathsf{QPL}(\mathsf{PA})$ $\Pi^0_2$-complete, so steps 11 to 17 show that $\mathsf{QPL}(\mathsf{PA})$ is not computably enumerable.
+19. A recursively axiomatized system has a computably enumerable set of theorems: a program can list all finite sequences of formulas and keep the last line of each one that is a derivation. So no such system has $\mathsf{QPL}(\mathsf{PA})$ as its set of theorems, and this holds for $\mathsf{QGL}$ in particular.
+
+### Part 3: every $\Pi^0_2$ set reduces to $\mathsf{QPL}(\mathsf{PA})$ (cited)
+
+This part is not proved here; it is Vardanyan's construction, and we give only its outline.
+
+20. (Cited.) One starts from a $\Pi^0_2$-complete set, such as $\mathrm{Tot} = \{e : \text{the } e\text{-th partial computable function is total}\}$.
+21. (Cited.) For each $e$ one computes a sentence $\varphi_e$ of $L_\square$. Its predicate symbols play the role of the arithmetical operations, and its modal clauses restrict how a realization can interpret them.
+22. (Cited.) These clauses make the realized predicates behave like the arithmetical operations, so that the sentence can describe the computations of program $e$.
+23. (Cited.) One then shows that $e \in \mathrm{Tot}$ if and only if $\varphi_e \in \mathsf{QPL}(\mathsf{PA})$. So $e \mapsto \varphi_e$ is a many-one reduction, and every $\Pi^0_2$ set reduces to $\mathsf{QPL}(\mathsf{PA})$.
+
+Parts 1 and 3 give the theorem, and Part 2 gives the corollary.
+
+## Idea
+
+The upper bound is a count of quantifiers: "for every realization" becomes "for every number $c$", and "$\mathsf{PA}$ proves" becomes "there is a proof $y$".
+The corollary uses the fact that a $\Pi^0_2$-complete set is at least as hard as the complement of the halting set, which is not computably enumerable by a diagonal argument.
+The lower bound, which we cite, builds for each instance of a $\Pi^0_2$ problem a modal sentence that is provable under every realization exactly when the instance has the answer yes.
+
+## Variants
+
+For Part 2 one can use [[Post's theorem|NYJX5QXX1T]] instead of the diagonal argument: it gives a $\Pi^0_2$ set that is not $\Sigma^0_2$, and so not $\Sigma^0_1$, and such a set cannot reduce to a $\Sigma^0_1$ set.
+The step "$\overline{K}$ is not computably enumerable" can also be taken from the [[undecidability of the halting problem|Z7TN2B35B0]]: if $K$ and $\overline{K}$ were both computably enumerable, then $K$ would be decidable.
