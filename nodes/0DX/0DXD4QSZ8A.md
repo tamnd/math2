@@ -44,13 +44,13 @@ The set of all conjugates of $a$ is the [[conjugacy class|0DEBXAJ5SA]] of $a$.
 
 - In each group, the identity $e$ is conjugate only to itself, because $geg^{-1} = gg^{-1} = e$ for each $g$.
 - In an [[abelian group|082GHNPJ53]], each element is conjugate only to itself, because $gag^{-1} = agg^{-1} = a$.
-- In $S_3$, the three transpositions are conjugate to each other: [[the transpositions of S3 are conjugate|~50e0bc16]].
-- In the [[general linear group|0FCHE902D7]] $\mathrm{GL}_2(\mathbb{R})$, two matrices are conjugate exactly when they are similar: [[similar matrices are conjugate in GL2|~f37c5588]].
+- In $S_3$, the three transpositions are conjugate to each other: [[the transpositions of S3 are conjugate|Z7Y7ACFP7M]].
+- In the [[general linear group|0FCHE902D7]] $\mathrm{GL}_2(\mathbb{R})$, two matrices are conjugate exactly when they are similar: [[similar matrices are conjugate in GL2|ATXHWJGTJV]].
 - In the [[quaternion group|0NRJGW864D]] $Q_8$, the elements $i$ and $-i$ are conjugate, because $j^{-1} = -j$ and $jij^{-1} = (ji)(-j) = (-k)(-j) = kj = -i$.
 
 ### Non-examples
 
-- In $S_3$, the transposition $(1\,2)$ and the $3$-cycle $(1\,2\,3)$ are not conjugate, because they have different orders: [[a transposition and a 3-cycle are not conjugate|~4dee2623]].
+- In $S_3$, the transposition $(1\,2)$ and the $3$-cycle $(1\,2\,3)$ are not conjugate, because they have different orders: [[a transposition and a 3-cycle are not conjugate|MVHPHA20AY]].
 - In $\mathbb{Z}/3\mathbb{Z}$, the elements $1$ and $2$ both have order $3$, but they are not conjugate, because the group is abelian and $1 \ne 2$.
 - In the [[alternating group|0Z5905Q73D]] $A_3 = \{e, (1\,2\,3), (1\,3\,2)\}$, the two $3$-cycles are not conjugate, because $A_3$ is abelian. In the larger group $S_3$ they are conjugate.
 

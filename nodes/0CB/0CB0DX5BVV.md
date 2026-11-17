@@ -58,13 +58,13 @@ Older books use the names invariant subgroup and self-conjugate subgroup.
 - The special linear group $\mathrm{SL}_n(F)$ is normal in $\mathrm{GL}_n(F)$, because it is a kernel ([[the special linear group is the kernel of the determinant|556HZEYCQF]]).
 - The [[centre|0DZ93493VN]] $Z(G)$ is normal in $G$, because $gzg^{-1} = zgg^{-1} = z$ for $z \in Z(G)$.
 - In the [[dihedral group|0JZ27DMJ5D]] $D_n$ of order $2n$, the subgroup of rotations has index $2$, so it is normal.
-- Each subgroup of the [[quaternion group|0NRJGW864D]] $Q_8$ is normal, although $Q_8$ is not abelian ([[every subgroup of Q8 is normal|~eb292eed]]).
+- Each subgroup of the [[quaternion group|0NRJGW864D]] $Q_8$ is normal, although $Q_8$ is not abelian ([[every subgroup of Q8 is normal|R58NSPHAYJ]]).
 
 ### Non-examples
 
 - The subgroup $\{e, (1\,2)\}$ of $S_3$ is not normal ([[a subgroup of order two in S3 is not normal|XD0WBC1MWB]]).
-- The upper triangular matrices form a subgroup of $\mathrm{GL}_2(\mathbb{R})$ that is not normal ([[conjugate triangular subgroups|~26fe0d64]]).
-- The subgroup $\{e, (1\,2)(3\,4)\}$ of $A_4$ is not normal, although it is normal in a normal subgroup of $A_4$ ([[normality is not transitive|~72114d19]]).
+- The upper triangular matrices form a subgroup of $\mathrm{GL}_2(\mathbb{R})$ that is not normal ([[conjugate triangular subgroups|MXTMGWMERC]]).
+- The subgroup $\{e, (1\,2)(3\,4)\}$ of $A_4$ is not normal, although it is normal in a normal subgroup of $A_4$ ([[normality is not transitive|PVB7ZSPZR6]]).
 
 ### Basic properties
 
@@ -102,7 +102,7 @@ Hölder defined quotient groups in 1889, and the quotient by a normal subgroup b
 ### Common errors
 
 - The equation $gN = Ng$ is an equation of sets. It does not say that $gn = ng$ for each $n \in N$. In $S_3$, $(1\,2)A_3 = A_3(1\,2)$, but $(1\,2)$ does not commute with $(1\,2\,3)$.
-- Normality is not transitive. From $K \trianglelefteq N$ and $N \trianglelefteq G$ we cannot conclude $K \trianglelefteq G$ ([[normality is not transitive|~72114d19]]).
+- Normality is not transitive. From $K \trianglelefteq N$ and $N \trianglelefteq G$ we cannot conclude $K \trianglelefteq G$ ([[normality is not transitive|PVB7ZSPZR6]]).
 - The image of a normal subgroup is normal only in the image of the homomorphism. The inclusion $\iota \colon H \to S_3$ of $H = \{e, (1\,2)\}$ is a homomorphism, and $H \trianglelefteq H$, but $\iota(H) = H$ is not normal in $S_3$. If $\varphi$ is surjective, then $\varphi(N)$ is normal in the target.
 - Normality depends on the large group. Each subgroup is normal in itself, so the phrase "$N$ is normal" must name the large group.
 - For one fixed $g$, the inclusion $gNg^{-1} \subseteq N$ can be strict. Let $G$ be the group of matrices $\begin{pmatrix} a & b \\ 0 & 1 \end{pmatrix}$ with $a \in \mathbb{Q}$, $a \ne 0$ and $b \in \mathbb{Q}$. Let $N$ be the subgroup with $a = 1$ and $b \in \mathbb{Z}$, and $g = \operatorname{diag}(2, 1)$. Then $gNg^{-1}$ is the subgroup with $a = 1$ and $b \in 2\mathbb{Z}$, which is smaller than $N$. Equality in condition 2 comes from the use of both $g$ and $g^{-1}$.

@@ -41,7 +41,7 @@ For example, $(1\,3)(1\,2)(1\,3)^{-1} = (2\,3)$, and $(2\,3) \notin H$.
 ### Converse
 
 The converse is false.
-In the [[quaternion group|0NRJGW864D]] $Q_8$, each subgroup is normal, but $Q_8$ is not abelian ([[every subgroup of Q8 is normal|~eb292eed]]).
+In the [[quaternion group|0NRJGW864D]] $Q_8$, each subgroup is normal, but $Q_8$ is not abelian ([[every subgroup of Q8 is normal|R58NSPHAYJ]]).
 A group in which each subgroup is normal is a Dedekind group, and a non-abelian Dedekind group is a Hamiltonian group.
 $Q_8$ is the smallest Hamiltonian group.
 

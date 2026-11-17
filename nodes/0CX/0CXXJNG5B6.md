@@ -51,7 +51,7 @@ Thus $\varphi$ is the composite of three maps: the projection $G \to G/\ker \var
 - If $G$ is finite, then $|G| = |\ker \varphi| \cdot |\operatorname{im} \varphi|$. This follows from $|G| = [G : \ker \varphi] \cdot |\ker \varphi|$ ([[this statement|04DC0SRN2K]]), because $[G : \ker \varphi] = |G/\ker \varphi|$.
 - Thus $|\operatorname{im} \varphi|$ divides $|G|$. By [[Lagrange's theorem|3C53TD]], it also divides $|H|$ when $H$ is finite. For example, each homomorphism $\mathbb{Z}/3\mathbb{Z} \to \mathbb{Z}/4\mathbb{Z}$ is trivial, because $1$ is the only common divisor of $3$ and $4$.
 - Reduction modulo $n$ is a surjective homomorphism from $\mathbb{Z}$ to the [[integers modulo n|03VFZ2WETT]], with kernel $n\mathbb{Z}$. So $\mathbb{Z}/n\mathbb{Z}$ is isomorphic to the integers modulo $n$ ([[this example|0YJ3WRR9RY]]).
-- The real numbers modulo the integers are isomorphic to the circle group, through $x \mapsto e^{2\pi i x}$ ([[this example|~301791c6]]).
+- The real numbers modulo the integers are isomorphic to the circle group, through $x \mapsto e^{2\pi i x}$ ([[this example|FV86TFARY4]]).
 - The determinant gives $\mathrm{GL}_n(F)/\mathrm{SL}_n(F) \cong F^\times$ for a field $F$ ([[this example|0YZ3T5Q7XN]]).
 - For $n \ge 2$, the [[sign of a permutation|0JEJJCB0EX]] gives $S_n/A_n \cong \{1, -1\}$.
 - The map that sends $g$ to the [[inner automorphism|0RN00NTM3S]] $x \mapsto gxg^{-1}$ has the [[centre|0DZ93493VN]] $Z(G)$ as its kernel. So $G/Z(G) \cong \operatorname{Inn}(G)$.

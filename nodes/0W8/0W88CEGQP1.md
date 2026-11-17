@@ -45,13 +45,13 @@ For $g \in G$, the left [[coset|564VVAQTNR]] $g \ker \varphi$ is the set $\{ gk 
 - Reduction modulo $n$, $\mathbb{Z} \to \mathbb{Z}/n\mathbb{Z}$, has kernel $n\mathbb{Z}$, the set of multiples of $n$ ([[reduction modulo n|BV08DGBD7C]]).
 - The [[determinant|00KDZRW4C0]] $\det \colon \mathrm{GL}_n(\mathbb{R}) \to \mathbb{R}^\times$ has kernel $\mathrm{SL}_n(\mathbb{R})$, the matrices with determinant $1$ ([[the special linear group as a kernel|556HZEYCQF]]).
 - The [[sign|02DKV69ZH0]] $S_n \to \{1, -1\}$ has kernel $A_n$, the even permutations ([[the alternating group as a kernel|TJ6EBSS3S7]]).
-- The homomorphism $\mathbb{Z} \to \mathbb{C}^\times$, $n \mapsto i^n$, has kernel $4\mathbb{Z}$ ([[the powers of i|~cd8789f9]]).
-- Squaring on $\mathbb{R}^\times$, $x \mapsto x^2$, has kernel $\{1, -1\}$ ([[squaring on the nonzero reals|~67d7458f]]).
-- The map $\mathbb{R} \to \mathbb{C}^\times$, $t \mapsto e^{2\pi i t}$, has kernel $\mathbb{Z}$ ([[the real numbers modulo the integers|~301791c6]]).
+- The homomorphism $\mathbb{Z} \to \mathbb{C}^\times$, $n \mapsto i^n$, has kernel $4\mathbb{Z}$ ([[the powers of i|RQMBV42EDX]]).
+- Squaring on $\mathbb{R}^\times$, $x \mapsto x^2$, has kernel $\{1, -1\}$ ([[squaring on the nonzero reals|AJ8DC6PBH4]]).
+- The map $\mathbb{R} \to \mathbb{C}^\times$, $t \mapsto e^{2\pi i t}$, has kernel $\mathbb{Z}$ ([[the real numbers modulo the integers|FV86TFARY4]]).
 
 ### Non-examples
 
-- The subgroup $\{e, (1\,2)\}$ of $S_3$ is not the kernel of any homomorphism, because it is not normal ([[a subgroup of order two in S3 is not a kernel|~29f9ed6a]]).
+- The subgroup $\{e, (1\,2)\}$ of $S_3$ is not the kernel of any homomorphism, because it is not normal ([[a subgroup of order two in S3 is not a kernel|QEM3BK15Z8]]).
 - The set of odd integers is not the kernel of reduction modulo $2$. It is the set of integers that go to $1$, and it does not contain $0$.
 - In $S_3$, the set $\{e, (1\,2), (1\,3), (2\,3)\}$ of elements of order at most $2$ is not a kernel. It has $4$ elements, and $4$ does not divide $6$, so by [[Lagrange's theorem|3C53TD]] it is not even a subgroup.
 

@@ -43,8 +43,8 @@ We write $H \le G$ when $H$ is a subgroup of $G$, and $N \trianglelefteq G$ when
 
 ### Examples
 
-- The homomorphism $\mathbb{Z} \to \mathbb{C}^\times$, $n \mapsto i^n$, has image $\{1, i, -1, -i\}$ ([[the powers of i|~cd8789f9]]).
-- Squaring on $\mathbb{R}^\times$ has image $\mathbb{R}_{>0}$, the positive real numbers ([[squaring on the nonzero reals|~67d7458f]]).
+- The homomorphism $\mathbb{Z} \to \mathbb{C}^\times$, $n \mapsto i^n$, has image $\{1, i, -1, -i\}$ ([[the powers of i|RQMBV42EDX]]).
+- Squaring on $\mathbb{R}^\times$ has image $\mathbb{R}_{>0}$, the positive real numbers ([[squaring on the nonzero reals|AJ8DC6PBH4]]).
 - Doubling on $\mathbb{Z}$ has image $2\mathbb{Z}$, the even integers ([[doubling on the integers|PVR5EX71PD]]).
 - The [[determinant|00KDZRW4C0]] $\mathrm{GL}_n(\mathbb{R}) \to \mathbb{R}^\times$ has image $\mathbb{R}^\times$. For $t \ne 0$, the diagonal matrix with entries $t, 1, \dots, 1$ has determinant $t$.
 - For $K \le G$, the inclusion $K \to G$, $k \mapsto k$, has image $K$.
@@ -52,7 +52,7 @@ We write $H \le G$ when $H$ is a subgroup of $G$, and $N \trianglelefteq G$ when
 
 ### Non-examples
 
-- The set of squares $\{0, 1, 4, 9, \dots\}$ is not the image of any homomorphism $\mathbb{Z} \to \mathbb{Z}$, because it is not a subgroup ([[the squares are not an image|~6418f6dd]]).
+- The set of squares $\{0, 1, 4, 9, \dots\}$ is not the image of any homomorphism $\mathbb{Z} \to \mathbb{Z}$, because it is not a subgroup ([[the squares are not an image|K4ESD5HGCP]]).
 - The set of negative real numbers is not the image of any homomorphism into $\mathbb{R}^\times$, because it does not contain the identity $1$.
 - The odd integers are not the image of any homomorphism into $(\mathbb{Z}, +)$, because they do not contain $0$.
 

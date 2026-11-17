@@ -47,7 +47,7 @@ By steps 1 to 4, $\mathbf{Grp}$ satisfies the axioms of a category.
 - The [[product|S5744QZV4N]] of $G$ and $H$ is the [[direct product|00HF4RJ5QN]] $G \times H$ with the two projections. A pair of homomorphisms $K \to G$ and $K \to H$ gives exactly one homomorphism $K \to G \times H$.
 - The [[coproduct|4FJ0S71P58]] of $G$ and $H$ is the [[free product|TM7QS7P7X9]] $G * H$ with the two inclusions. A pair of homomorphisms $G \to K$ and $H \to K$ gives exactly one homomorphism $G * H \to K$.
 - The equaliser of two homomorphisms $u, v \colon G \to H$ is the subgroup $\{g \in G : u(g) = v(g)\}$ with its inclusion.
-- The coequaliser of $u, v \colon G \to H$ is the projection $H \to H/R$, where $R$ is the [[normal closure|~99dbea13]] of the set $\{u(g)v(g)^{-1} : g \in G\}$. This follows from the [[universal property of the quotient group|0GJ83E78A5]].
+- The coequaliser of $u, v \colon G \to H$ is the projection $H \to H/R$, where $R$ is the [[normal closure|5WBSBAP4PD]] of the set $\{u(g)v(g)^{-1} : g \in G\}$. This follows from the [[universal property of the quotient group|0GJ83E78A5]].
 - The pushout of two homomorphisms $K \to G$ and $K \to H$ is the [[amalgamated free product|M848AHBRCM]] $G *_K H$.
 - $\mathbf{Grp}$ has all small limits and all small colimits.
 
@@ -67,7 +67,7 @@ A homomorphism $f \colon G \to H$ is a [[monomorphism|Y2NP1JFR86]] if and only i
 4. Because $f$ is a monomorphism, $i = t$. So each $k \in \ker f$ equals $e_G$, and $\ker f = \{e_G\}$.
 5. A homomorphism with a trivial kernel is injective ([[this statement|0N2P0XRTDF]]). So $f$ is injective.
 
-A homomorphism is an [[epimorphism|RVXDSY04KG]] if and only if it is [[surjective|01RVCMSN5N]] ([[this statement|~a3fd822f]]).
+A homomorphism is an [[epimorphism|RVXDSY04KG]] if and only if it is [[surjective|01RVCMSN5N]] ([[this statement|E24V97RWEX]]).
 This direction is harder, because the image of $f$ need not be normal.
 So a homomorphism is an isomorphism if and only if it is both a monomorphism and an epimorphism.
 

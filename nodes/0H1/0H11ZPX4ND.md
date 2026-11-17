@@ -42,14 +42,14 @@ The [[normaliser|0YGN3VAA0D]] of $H$ is $N_G(H) = \{g \in G : gHg^{-1} = H\}$.
 
 ### Examples
 
-- In $S_3$, the three subgroups of order $2$ are conjugate to each other: [[the three subgroups of order two of S3 are conjugate|~fa75118f]].
-- In $\mathrm{GL}_2(\mathbb{R})$, the upper triangular and the lower triangular invertible matrices form conjugate subgroups: [[conjugate triangular subgroups|~26fe0d64]].
+- In $S_3$, the three subgroups of order $2$ are conjugate to each other: [[the three subgroups of order two of S3 are conjugate|NGZY27YSWE]].
+- In $\mathrm{GL}_2(\mathbb{R})$, the upper triangular and the lower triangular invertible matrices form conjugate subgroups: [[conjugate triangular subgroups|MXTMGWMERC]].
 - In each group $G$, the subgroups $\{e\}$ and $G$ are equal to all their conjugates.
 - In $S_3$, the subgroup $A_3 = \{e, (1\,2\,3), (1\,3\,2)\}$ is equal to all its conjugates, because conjugation keeps the order of an element and $A_3$ holds all the elements of order $1$ and $3$.
 
 ### Non-examples
 
-- In the Klein four-group $V_4$, two different subgroups of order $2$ are isomorphic but not conjugate: [[isomorphic but not conjugate subgroups|~462148ee]].
+- In the Klein four-group $V_4$, two different subgroups of order $2$ are isomorphic but not conjugate: [[isomorphic but not conjugate subgroups|1VVKMP89VA]].
 - In $S_3$, the subgroups $\{e, (1\,2)\}$ and $A_3$ are not conjugate, because they have different orders.
 
 ### Basic properties
@@ -58,7 +58,7 @@ The [[normaliser|0YGN3VAA0D]] of $H$ is $N_G(H) = \{g \in G : gHg^{-1} = H\}$.
 - The map $c_g \colon H \to gHg^{-1}$, $c_g(h) = ghg^{-1}$, is a [[group isomorphism|08MG7H8JW5]]. It is a homomorphism by the computation above, and its inverse is $x \mapsto g^{-1}xg$. So $gHg^{-1} \cong H$.
 - In particular, conjugate subgroups have the same order, and a conjugate of a [[cyclic group|0KVGH0J5B3]] is cyclic.
 - Conjugacy of subgroups is an [[equivalence relation|0G8VEZ3WTK]] on the set of subgroups of $G$. The proof is the same as for [[conjugate elements|0DXD4QSZ8A]], with $c_{hg} = c_h \circ c_g$.
-- The number of conjugates of $H$ is the index $[G : N_G(H)]$: [[the number of conjugates of a subgroup is the index of its normaliser|~10708e3f]].
+- The number of conjugates of $H$ is the index $[G : N_G(H)]$: [[the number of conjugates of a subgroup is the index of its normaliser|PVQC3S10D2]].
 - $H$ is equal to all its conjugates exactly when $H$ is a [[normal subgroup|0CB0DX5BVV]] of $G$.
 - The intersection of all conjugates of $H$ is the [[normal core|0GETX79CJN]] of $H$, the largest normal subgroup of $G$ inside $H$.
 
