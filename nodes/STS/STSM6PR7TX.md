@@ -17,18 +17,18 @@ They give the advice of several authors on mathematical writing, and they mark t
 
 ### Reading order
 
-1. [[Writing proofs|~7e59ebb2]]: state what is proved, give a reason for each step, and write for a stated reader.
-2. [[Scratch work and the final proof|~d29be80b]]: the order of discovery differs from the order of the written proof.
-3. [[Proof strategies by logical form|~17497e4b]]: the givens and the goals for each logical form of a statement.
-4. [[Unpacking definitions|~2deb01cc]]: replace each defined term by its definition to see what must be proved.
-5. [[The language of proofs|~67d2371f]]: the words "let", "suppose", "hence" and "we claim", and the signposts of a proof.
-6. [[Two-column proof|~fa2bcb65]]: statements and reasons in two columns, as in school geometry.
-7. [[Structured and hierarchical proofs|~a051973d]]: numbered levels of steps with claims and sub-proofs.
-8. [[Level of detail in proofs|~01d1ea56]]: which steps to write for which reader, and gaps versus acceptable omissions.
-9. [[Mathematical writing style|~00b69fff]]: the rules for sentences, symbols and displayed formulas.
-10. [[Reading proofs|~acd50db0]]: check each step, test it with examples, and find where each hypothesis is used.
-11. [[Checking a proof|~14ee5799]]: find gaps and errors, and test the argument on a case where the conclusion fails.
-12. [[Structure of a mathematical paper|~4aa68c29]]: title, abstract, introduction, preliminaries, proofs and references.
+1. [[Writing proofs|8JQHJK94RZ]]: state what is proved, give a reason for each step, and write for a stated reader.
+2. [[Scratch work and the final proof|E97XXFW9MV]]: the order of discovery differs from the order of the written proof.
+3. [[Proof strategies by logical form|872K5XB580]]: the givens and the goals for each logical form of a statement.
+4. [[Unpacking definitions|41JZ39GE3F]]: replace each defined term by its definition to see what must be proved.
+5. [[The language of proofs|GKMRQCA8CW]]: the words "let", "suppose", "hence" and "we claim", and the signposts of a proof.
+6. [[Two-column proof|P8PCGFASP8]]: statements and reasons in two columns, as in school geometry.
+7. [[Structured and hierarchical proofs|H2W8D7BMSW]]: numbered levels of steps with claims and sub-proofs.
+8. [[Level of detail in proofs|VYGBV5D8Y4]]: which steps to write for which reader, and gaps versus acceptable omissions.
+9. [[Mathematical writing style|D5YPYTQ88G]]: the rules for sentences, symbols and displayed formulas.
+10. [[Reading proofs|40GCSM2G56]]: check each step, test it with examples, and find where each hypothesis is used.
+11. [[Checking a proof|4M98ZZNK0E]]: find gaps and errors, and test the argument on a case where the conclusion fails.
+12. [[Structure of a mathematical paper|XZHACQ74C0]]: title, abstract, introduction, preliminaries, proofs and references.
 
 ### Prerequisites
 
