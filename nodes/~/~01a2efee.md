@@ -1,0 +1,115 @@
+---
+tag: ~01a2efee
+kind: concept
+name: Density argument
+aliases: [density-argument, approximation-argument, extension-by-continuity]
+msc: ["00A35", "46E30"]
+topics: [MEKKHHQTKB, G9JFJGY4TQ]
+audience: grad
+specializes: [0B94TKFQJX]
+uses: [0BSJSX7ME2, 0QEAJB91GZ, 0VKD1TP7F3, 0X3WGX95FE, SASP14MA1Z, 03TM135G0N]
+sources:
+  - url: https://en.wikipedia.org/wiki/Dense_set
+    locator: lead section
+  - url: https://en.wikipedia.org/wiki/Lp_space
+    locator: lead section
+  - url: https://en.wikipedia.org/wiki/Riemann%E2%80%93Lebesgue_lemma
+    locator: lead section
+---
+
+## Summary
+
+A density argument proves a statement $P(x)$ for every element $x$ of a [[metric space|0VKD1TP7F3]] or normed space $X$ in two steps.
+First it proves $P(x)$ for each $x$ in a [[dense|0BSJSX7ME2]] subset $D$ of $X$, a class of elements that are easy to handle.
+Then it shows that $P$ survives limits: if $x_n \to x$ and $P(x_n)$ holds for each $n$, then $P(x)$ holds.
+Since each $x \in X$ is a limit of elements of $D$, the statement holds on all of $X$.
+A second form extends a map: a uniformly continuous map, for example a bounded linear map, defined on $D$ has exactly one continuous extension to $X$ when the target is complete.
+The method matters because in analysis the general objects (integrable functions, continuous functions, elements of $L^p$) are hard to compute with, while the dense classes (step functions, polynomials, smooth functions with compact support) are explicit.
+
+## Motivation
+
+Many theorems of analysis are easy for nice functions and hard to check directly for general ones.
+The Fourier transform of the [[indicator function|0RCQZ36MME]] of an interval can be computed by hand, but the transform of an arbitrary integrable function cannot.
+Translation of a continuous function with compact support moves its values a little, and [[uniform continuity|0M4JJT780X]] controls the change, but an arbitrary element of $L^p$ has no values that we can control.
+The way out is approximation.
+If the nice functions are dense, each general function is close to a nice one.
+If both sides of the claim change only a little when the function changes a little, the claim passes from the nice function to the general one.
+The density argument makes this reasoning exact.
+
+## Notation
+
+1. $\overline{D}$ is the [[closure|0QEAJB91GZ]] of $D$. The set $D$ is dense in $X$ when $\overline{D} = X$, that is, when each point of $X$ is a limit of a sequence in $D$.
+2. $L^p(\mathbb{R})$, for $1 \le p \le \infty$, is the [[Lebesgue space|SASP14MA1Z]] with the norm $\lVert f \rVert_p$.
+3. $C_c(\mathbb{R})$ is the space of continuous functions $\mathbb{R} \to \mathbb{C}$ that vanish outside a bounded interval. A step function is a finite linear combination of indicator functions $\mathbf{1}_{[a, b]}$ of bounded intervals.
+4. $\tau_h f(x) = f(x - h)$ is the translate of $f$ by $h$.
+5. Some books say "by approximation", "by a limiting argument" or "by continuity" for the same method.
+
+## Remarks
+
+### Examples
+
+1. [[The Riemann-Lebesgue lemma by a density argument|~baf0b30c]]: the decay of the Fourier transform is computed for indicators of intervals and passes to all of $L^1(\mathbb{R})$.
+2. [[Continuity of translation in Lp by a density argument|~3480e8e5]]: $\lVert \tau_h f - f \rVert_p \to 0$ is proved for $C_c(\mathbb{R})$ by uniform continuity and passes to $L^p(\mathbb{R})$, $1 \le p < \infty$, by an [[epsilon over three argument|~9f05a67c]].
+3. A [[continuous function|0X3WGX95FE]] $f \colon \mathbb{R} \to \mathbb{R}$ with $f(x + y) = f(x) + f(y)$ is $f(x) = cx$ with $c = f(1)$. The equation gives $f(q) = cq$ for each rational $q$, and the rationals are dense, so continuity gives $f(x) = cx$ for each real $x$. Without continuity the conclusion fails, see [[Cauchy's functional equation|ZBMEVWN100]].
+4. A continuous $f$ on $[0, 1]$ with $\int_0^1 f(x) x^k \, dx = 0$ for each $k \ge 0$ is zero. By the [[Weierstrass approximation theorem|0JQE130DHW]], polynomials $p_n \to f$ uniformly, so $\int_0^1 f^2 = \lim_n \int_0^1 f p_n = 0$, and a continuous function with $\int_0^1 f^2 = 0$ is zero.
+5. The [[Plancherel theorem|HPZHRZ0502]]: the Fourier transform keeps the $L^2$ norm of each $f \in L^1 \cap L^2$. Since $L^1 \cap L^2$ is dense in $L^2$, the transform extends to a unique isometry of $L^2(\mathbb{R})$.
+6. The [[Cayley-Hamilton theorem|0F765KFC2J]] over $\mathbb{C}$: a matrix with distinct eigenvalues is diagonalizable, and the claim $p_A(A) = 0$ is direct for it. Such matrices are dense in the complex $n \times n$ matrices, and $A \mapsto p_A(A)$ is continuous, so the claim holds for all $A$.
+
+### Non-examples
+
+1. [[Translation is not continuous in L-infinity|~a85d4ce4]]: the claim $\lVert \tau_h f - f \rVert_\infty \to 0$ is true on $C_c(\mathbb{R})$, but it fails for $f = \mathbf{1}_{[0, 1]}$, because $C_c(\mathbb{R})$ is not dense in $L^\infty(\mathbb{R})$. The condition "the subclass is dense" fails.
+2. Each polynomial is differentiable, and polynomials are dense in the continuous functions on $[0, 1]$ for the sup norm. But the [[Weierstrass function|01A0MK1730]] is continuous and nowhere differentiable. The condition "the property survives limits" fails: uniform limits of differentiable functions need not be differentiable.
+3. Each rational number is rational, and $\mathbb{Q}$ is dense in $\mathbb{R}$, but $\sqrt{2}$ is not rational. The set where the property holds is dense but not closed.
+
+### Basic properties
+
+1. Let $f, g \colon X \to Y$ be continuous, with $Y$ a metric space. If $f = g$ on a dense set $D$, then $f = g$ on $X$. The set $\{x : f(x) = g(x)\}$ is closed and contains $D$, so it contains $\overline{D} = X$.
+2. In the same way, if $f, g \colon X \to \mathbb{R}$ are continuous and $f \le g$ on $D$, then $f \le g$ on $X$, because $\{x : f(x) \le g(x)\}$ is closed.
+3. Extension: let $D$ be dense in $X$, let $Y$ be a [[complete metric space|0BY52JW6NK]], and let $f \colon D \to Y$ be uniformly continuous. Then $f$ has exactly one continuous extension $\bar f \colon X \to Y$, defined by $\bar f(x) = \lim f(x_n)$ for a sequence $x_n \to x$ in $D$.
+4. The linear case is the bounded linear transformation theorem: a bounded [[linear map|0NRYHJPQG2]] from a dense subspace of a normed space to a Banach space extends to a unique [[continuous linear map|03TM135G0N]] on the whole space, with the same norm.
+5. Density is transitive. If $D_1$ is dense in $D_2$ and $D_2$ is dense in $X$, then $D_1$ is dense in $X$.
+6. For example, the [[simple functions|B6RYM7QTYZ]] that vanish outside a set of finite measure are dense in $L^1(\mathbb{R})$. Each set of finite measure is close in measure to a finite union of intervals, so step functions are dense in these simple functions. By property 5, step functions are dense in $L^1(\mathbb{R})$.
+
+### History
+
+Karl Weierstrass proved in 1885 that polynomials are dense in the continuous functions on a closed bounded interval, and this result supplies the dense class of many density arguments.
+Michel Plancherel proved in 1910 that the Fourier transform preserves the $L^2$ norm.
+The modern definition of the Fourier transform on $L^2(\mathbb{R})$ extends the transform from $L^1 \cap L^2$ by this norm identity, which is a density argument of the second form.
+
+### Common errors
+
+1. The dense class is dense for one norm, and the property is continuous for another norm. For example, $C_c(\mathbb{R})$ is dense in $L^2(\mathbb{R})$, but the value $f(0)$ is not a continuous function of $f$ for the $L^2$ norm, so a claim about $f(0)$ does not pass to $L^2$.
+2. A student uses a class that is not dense in the space of the claim, such as $C_c(\mathbb{R})$ in $L^\infty(\mathbb{R})$.
+3. A student forgets that convergence in $L^p$ does not give convergence at each point. To pass a pointwise statement to the limit, one needs a subsequence that converges almost everywhere.
+
+## Explanations
+
+### L1 human
+
+Every real number can be approximated as closely as we like by fractions, for example $3$, $3.1$, $3.14$, $3.141$ for $\pi$.
+Suppose that a rule is easy to check for fractions, and that a small change of the input gives only a small change in both sides of the rule.
+Then the rule holds for every real number too.
+For example, $2^x \cdot 2^x = 4^x$ holds for each fraction $x$, by the rules for powers.
+Both sides change only a little when $x$ changes a little.
+So the rule also holds for $x = \pi$, where both sides are limits of the values at $3$, $3.1$, $3.14$, and so on.
+
+### L2 human
+
+We show that a continuous function $f \colon \mathbb{R} \to \mathbb{R}$ that vanishes at each rational number is zero.
+
+1. Let $Z = \{x \in \mathbb{R} : f(x) = 0\}$. By hypothesis $\mathbb{Q} \subseteq Z$.
+2. The set $Z$ is the preimage of the closed set $\{0\}$ under the continuous map $f$, so $Z$ is [[closed|0ZCK8DQYN1]].
+3. Let $x \in \mathbb{R}$. The decimal truncations $q_n$ of $x$ are rational, and $\lvert q_n - x \rvert \le 10^{-n}$, so $q_n \to x$.
+4. Each $q_n$ is in $Z$, and $Z$ is closed, so the limit $x$ is in $Z$.
+5. So $f(x) = 0$ for each real $x$.
+
+The typical use is in two lines: "both sides are continuous in $f$, and the claim holds on a dense class, so it holds everywhere".
+A trap is to drop the continuity of $f$: the indicator function of the irrational numbers vanishes on $\mathbb{Q}$ but is not zero.
+
+### L3 human
+
+The structural content of the method is the universal property of the completion.
+A uniformly continuous map from a metric space to a complete metric space extends uniquely to the [[completion|06RW4RKWH7]], so each object defined on a dense subspace by a uniformly continuous formula is defined on the whole space.
+This is how the Fourier transform on $L^2$, the trace of a Sobolev function on the boundary of a domain, and the stochastic integral are defined.
+In algebraic geometry, the same idea uses the [[Zariski topology|8SQK7RTB63]]: a polynomial identity that holds on a non-empty Zariski open subset of an irreducible variety holds everywhere, and this proves Cayley-Hamilton over every algebraically closed field.
+The method is often combined with an [[epsilon over three argument|~9f05a67c]], which is the quantitative form of "the property survives limits", and with [[bootstrapping|~57b93b38]] and the [[open-closed argument|~d440d524]], which also pass a property from a small set to a large one.
