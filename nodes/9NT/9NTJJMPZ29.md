@@ -1,0 +1,60 @@
+---
+tag: 9NTJJMPZ29
+kind: example
+name: Excluded middle for the halting problem has no Dialectica witness
+msc: ["03F10", "03D10"]
+topics: [8XY7JYZKFW]
+audience: grad
+not_instance_of:
+  - target: HZ17ES9PDY
+    note: "No closed term of system T witnesses the Dialectica translation of excluded middle for the halting predicate, because such a term would decide the halting problem."
+uses: [ZREF8MTYNW, A4WR995XZP, S9DK13K5PS, Z7TN2B35B0]
+sources:
+  - url: https://en.wikipedia.org/wiki/Dialectica_interpretation
+    locator: Classical logic
+  - url: https://en.wikipedia.org/wiki/Halting_problem
+    locator: lead section
+---
+
+## Example
+
+Let $P(n, k)$ be the quantifier-free formula $T(n, n, k)$, with [[Kleene's T predicate|S9DK13K5PS]]: program $n$ on input $n$ halts with computation $k$.
+Let $H = \forall n\, (\exists k\, P(n, k) \vee \neg \exists k\, P(n, k))$, a theorem of PA.
+We show that no closed terms of [[system T|A4WR995XZP]] witness its [[Dialectica interpretation|ZREF8MTYNW]].
+
+1. $(\exists k\, P(n, k))^D = \exists k\, P(n, k)$, and $(\neg \exists k\, P(n, k))^D = \forall k'\, \neg P(n, k')$.
+2. By the clause for $\vee$, the disjunction has witness $(z, k)$ and challenge $k'$, with matrix $(z = 0 \to P(n, k)) \wedge (z \ne 0 \to \neg P(n, k'))$.
+3. By the clause for $\forall$, $H^D = \exists Z, K\, \forall n, k'\, \bigl((Z n = 0 \to P(n, K n)) \wedge (Z n \ne 0 \to \neg P(n, k'))\bigr)$.
+4. Suppose closed terms $Z$ and $K$ of T make this matrix provable in T. The theorems of T are true in the standard model.
+5. By normalization, $Z$ and $K$ denote total computable functions.
+6. If $Z n = 0$, then $P(n, K n)$ is true, so program $n$ halts on input $n$.
+7. If $Z n \ne 0$, then $\neg P(n, k')$ for every $k'$, so program $n$ does not halt on input $n$.
+8. So $Z$ decides the [[halting problem|Z7TN2B35B0]], which is impossible. Hence no such terms exist.
+
+## Remarks
+
+The example shows that the interpretation cannot be applied to PA directly.
+Its negative translation $H^N$ is a theorem of HA, and so its interpretation does have a witness.
+That witness does not decide halting, because $H^N$ has a different interpretation with challenges of higher type.
+The same argument works for every undecidable set in place of the halting set.
+For a decidable property the formula has a witness: for $P(n, k) = (k \cdot k = n)$, take $Z n = 0$ exactly when $n$ is a square, and $K n$ its square root.
+
+## Explanations
+
+### L1 human
+
+Classical logic says "every program either stops or runs forever".
+The Dialectica interpretation asks for a program that tells which case holds for each program.
+No such program exists: this is the undecidability of the halting problem.
+So the interpretation rejects this classical statement as it stands, and accepts only its doubly negated form.
+
+### L2 human
+
+We check the shape of the witness from step 3 on two programs.
+
+1. For a program $n_1$ that halts with computation $k_1$, the witness must give $Z n_1 = 0$ and $K n_1$ a halting computation, for example $k_1$.
+2. For a program $n_2$ that loops, the witness must give $Z n_2 \ne 0$, and then $\neg P(n_2, k')$ holds for every $k'$.
+3. So $Z$ must separate the halting programs from the others.
+
+The typical use of this example is to show why the negative translation comes before the interpretation of a classical proof.
+A trap is to think that the interpretation of $H^N$ decides halting; its witness only answers challenges, and it never names the halting case.

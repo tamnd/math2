@@ -3,16 +3,20 @@ tag: QEZR7PZ2DD
 kind: definition
 name: Double-negation translation
 msc: ["03F25", "03F55", "03B20"]
+topics: [8XY7JYZKFW]
+audience: grad
 uses: [Q11N8X99FK, 0XR7A7RSXB, 0QFT7Z76N5, RXHJPVMPJH, 0RYYK8PG4S]
 defines: HGJVM49PA4
 sources:
   - url: https://en.wikipedia.org/wiki/Double-negation_translation
+  - url: https://en.wikipedia.org/wiki/Double-negation_translation
+    locator: Equivalent variants
 ---
 
 ## Definition
 
 Fix a first-order language, and read $\neg A$ as $A \to \bot$.
-The *Gödel–Gentzen negative translation* is the map $A \mapsto A^N$ on formulas defined by these clauses.
+The *Gödel-Gentzen negative translation* is the map $A \mapsto A^N$ on formulas defined by these clauses.
 
 1. $\bot^N = \bot$, and $P^N = \neg \neg P$ for every other atomic formula $P$.
 2. $(A \wedge B)^N = A^N \wedge B^N$.
@@ -22,8 +26,18 @@ The *Gödel–Gentzen negative translation* is the map $A \mapsto A^N$ on formul
 6. $(\exists x\, A)^N = \neg \forall x\, \neg A^N$.
 
 For a set of formulas $\Gamma$, let $\Gamma^N = \set{A^N : A \in \Gamma}$.
-Its main property is this: $\Gamma \vdash A$ in classical logic if and only if $\Gamma^N \vdash A^N$ in [[intuitionistic logic|Q11N8X99FK]].
-A *double-negation translation* is any map with this property obtained by inserting double [[negations|0XR7A7RSXB]], such as the translations of Kolmogorov and Kuroda.
+Its main property is the [[Gödel-Gentzen translation theorem|WC4TDGEWZR]]: $\Gamma \vdash A$ in classical logic if and only if $\Gamma^N \vdash A^N$ in [[intuitionistic logic|Q11N8X99FK]].
+
+The *Kolmogorov translation* $A \mapsto A^K$ puts a double negation in front of every subformula.
+
+1. $\bot^K = \bot$, and $P^K = \neg \neg P$ for every other atomic formula $P$.
+2. $(A \circ B)^K = \neg \neg (A^K \circ B^K)$ for each connective $\circ$ among $\wedge$, $\vee$, $\to$.
+3. $(\forall x\, A)^K = \neg \neg \forall x\, A^K$ and $(\exists x\, A)^K = \neg \neg \exists x\, A^K$.
+
+The *Kuroda translation* is $A^{Ku} = \neg \neg A^*$, where $A^*$ is obtained from $A$ by replacing each subformula $\forall x\, B$ by $\forall x\, \neg \neg B$, from the inside out.
+
+A *double-negation translation* is a map obtained by inserting double [[negations|0XR7A7RSXB]] that has the main property above.
+The three maps $A^N$, $A^K$ and $A^{Ku}$ are double-negation translations, and they are intuitionistically equivalent to each other.
 
 ## Remarks
 
