@@ -6,7 +6,7 @@ aliases: [if-logic, team-semantics]
 msc: ["03B60", "03C80"]
 topics: [MDHDYV8QZW]
 audience: research
-uses: [086QKPF0A6, ~41bb4c55, D45Z7HETDA, GCPQGMJYEV, G6X7SZSNC5]
+uses: [086QKPF0A6, KMNVEGS34N, D45Z7HETDA, GCPQGMJYEV, G6X7SZSNC5]
 sources:
   - wikipedia: en:1974007@r1305487255
     locator: Independence-friendly logic
@@ -42,7 +42,7 @@ IF logic matters because it makes the dependence between variables explicit, and
 ## Motivation
 
 In first-order logic every existential choice may depend on all earlier choices.
-The [[branching quantifiers|~41bb4c55]] of Henkin showed that other patterns of dependence add expressive power, but their matrix notation is hard to combine with the connectives.
+The [[branching quantifiers|KMNVEGS34N]] of Henkin showed that other patterns of dependence add expressive power, but their matrix notation is hard to combine with the connectives.
 Hintikka and Sandu wanted a linear notation in which each quantifier carries its own list of forbidden information.
 The slash does this: $\forall x_1 \exists y_1 \forall x_2 (\exists y_2 / \set{x_1, y_1})\, \varphi$ is the Henkin quantifier written in one line.
 The [[game-theoretic semantics|D45Z7HETDA]] of first-order logic then extends without change, except that players may lack information.
@@ -62,13 +62,13 @@ Team semantics first appeared for IF logic and was later used for [[dependence l
 ### Examples
 
 - The Henkin quantifier is $\forall x_1 \exists y_1 \forall x_2 (\exists y_2 / \set{x_1, y_1})\, \varphi$. Both $x_1$ and $y_1$ are hidden, because $y_1$ could otherwise carry information about $x_1$.
-- Infinity: $\exists c\, \forall x \exists y \forall z (\exists w / \set{x, y})\, ((x = z \leftrightarrow y = w) \land y \neq c)$ is true exactly in the infinite structures. It is the IF form of [[this Henkin sentence|~e5071f07]].
-- An undetermined sentence: $\forall x (\exists y / \set{x})\, x = y$ is neither true nor false in any structure with at least two elements; see [[this example|~45b86326]].
-- Signalling: $\forall x \exists z (\exists y / \set{x})\, x = y$ is true in every structure, because Eloise copies $x$ into $z$ and reads $z$; see [[this example|~192bf597]].
+- Infinity: $\exists c\, \forall x \exists y \forall z (\exists w / \set{x, y})\, ((x = z \leftrightarrow y = w) \land y \neq c)$ is true exactly in the infinite structures. It is the IF form of [[this Henkin sentence|4R3D37KQD8]].
+- An undetermined sentence: $\forall x (\exists y / \set{x})\, x = y$ is neither true nor false in any structure with at least two elements; see [[this example|Y3WXJP6FMB]].
+- Signalling: $\forall x \exists z (\exists y / \set{x})\, x = y$ is true in every structure, because Eloise copies $x$ into $z$ and reads $z$; see [[this example|5YGHNNRVFW]].
 
 ### Non-examples
 
-- "The domain is finite" is not expressed by any IF sentence; see [[this non-example|~f6e9c8c3]]. So the classical negation of the infinity sentence is not an IF sentence.
+- "The domain is finite" is not expressed by any IF sentence; see [[this non-example|3EKSGE0HWK]]. So the classical negation of the infinity sentence is not an IF sentence.
 - "The order $<$ is a well-order" is not expressed by any IF sentence. Suppose a $\Sigma^1_1$ sentence held exactly in the well-orders. With new constants and the axioms $c_0 > c_1 > c_2 > \cdots$ it stays finitely satisfiable, so the [[compactness theorem|1NR3HAWG9D]] gives an ill-founded model of it.
 
 ### Basic properties
@@ -122,7 +122,7 @@ With $(\exists w / \set{x})$ only, $w = g(y, z)$ is allowed, and when $f$ is inj
 
 ### L3 human
 
-IF logic is one of a family of logics of imperfect information that all capture $\Sigma^1_1$ on sentences: [[branching quantifiers|~41bb4c55]], IF logic and [[dependence logic|DNAPTJ98WD]].
+IF logic is one of a family of logics of imperfect information that all capture $\Sigma^1_1$ on sentences: [[branching quantifiers|KMNVEGS34N]], IF logic and [[dependence logic|DNAPTJ98WD]].
 Their open formulas are best read in team semantics, where a formula denotes a set of teams, and the definable families of teams were characterized by Kontinen and Väänänen.
 The failure of excluded middle and the lack of classical negation place IF logic between first-order logic and full [[second-order logic|G6X7SZSNC5]]: sentence by sentence it is $\Sigma^1_1$, yet its validity problem is as hard as that of second-order logic.
 Hintikka proposed IF logic, with its self-applied truth predicate, as a basis for the foundations of mathematics.

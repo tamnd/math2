@@ -78,15 +78,15 @@ For dependence logic the two versions agree, by downward closure.
 
 ### Examples
 
-- The team $X = \{ s_1, s_2, s_3 \}$ with $(s_i(x), s_i(y)) = (0, 5), (1, 7), (0, 5)$ satisfies $=\!(x, y)$, because the two rows with $x = 0$ both have $y = 5$. The worked team of [[this example|~dda655e0]] checks every case.
+- The team $X = \{ s_1, s_2, s_3 \}$ with $(s_i(x), s_i(y)) = (0, 5), (1, 7), (0, 5)$ satisfies $=\!(x, y)$, because the two rows with $x = 0$ both have $y = 5$. The worked team of [[this example|TYYG5A3RSV]] checks every case.
 - The sentence $\forall y \, \exists x \, (=\!(x) \land R(x, y))$ is equivalent to $\exists x \, \forall y \, R(x, y)$. The constancy atom forces one value of $x$ for all values of $y$.
 - The sentence $\forall x \, \exists y \, \forall u \, \exists v \, (=\!(u, v) \land \varphi)$ expresses the Henkin quantifier: there are functions $f, g$ with $\varphi(x, f(x), u, g(u))$ for all $x, u$.
-- One dependence logic sentence says that the domain is infinite: it asks for an injective function that misses a point. [[This example|~7025fbde]] gives the sentence and checks it.
+- One dependence logic sentence says that the domain is infinite: it asks for an injective function that misses a point. [[This example|BJMRFG9TV6]] gives the sentence and checks it.
 - In a database table with columns "employee" and "salary", the atom $=\!(\text{employee}, \text{salary})$ is the functional dependency "each employee has one salary".
 
 ### Non-examples
 
-- The inclusion atom $x \subseteq y$ is not definable in dependence logic. It is not closed under subteams, and every dependence logic formula is; see [[this non-example|~2b375ee1]].
+- The inclusion atom $x \subseteq y$ is not definable in dependence logic. It is not closed under subteams, and every dependence logic formula is; see [[this non-example|FM3EBN81T9]].
 - The property "the domain is finite" is not defined by any dependence logic sentence. Such a sentence would be equivalent to an existential second-order sentence, and the class of finite structures is not of that form, by compactness.
 - The independence atom $x \perp y$ fails downward closure: the four-row team of all pairs $(x, y) \in \{0, 1\}^2$ satisfies it, and its subteam $\{(0, 0), (1, 1)\}$ does not.
 
@@ -100,7 +100,7 @@ For dependence logic the two versions agree, by downward closure.
 - Expressive power on sentences: each dependence logic sentence is equivalent to an existential second-order sentence $\exists R_1 \ldots \exists R_k \, \psi$ with $\psi$ first-order, and conversely (Väänänen). Here the second-order logic has full semantics: each $R_i$ ranges over all relations on $M$ of its arity.
 - Consequences: dependence logic is compact and satisfies the downward [[Löwenheim–Skolem theorem|484M0TZ1S7]] for sentences. By [[Fagin's theorem|BG8Q0BYSQ3]], its sentences define exactly the NP properties of finite structures.
 - Expressive power on formulas (Kontinen and Väänänen): a class of teams is defined by a dependence logic formula exactly when it has three properties. It contains the empty team, it is closed under subteams, and it is definable in existential second-order logic.
-- The logic is not closed under classical negation. The sentence of [[this example|~7025fbde]] says "infinite", and "finite" has no dependence logic sentence.
+- The logic is not closed under classical negation. The sentence of [[this example|BJMRFG9TV6]] says "infinite", and "finite" has no dependence logic sentence.
 - Inclusion logic adds atoms $\bar{x} \subseteq \bar{y}$, true in $X$ when each value of $\bar{x}$ in $X$ is also a value of $\bar{y}$ in $X$. Its formulas are closed under unions of teams, not under subteams.
 - Independence logic adds atoms $\bar{x} \perp_{\bar{z}} \bar{y}$: for $s, s' \in X$ with $s(\bar{z}) = s'(\bar{z})$ there is $s'' \in X$ that agrees with $s$ on $\bar{z}\bar{x}$ and with $s'$ on $\bar{y}$. The dependence atom $=\!(\bar{x}, y)$ is equivalent to $y \perp_{\bar{x}} y$, and on sentences independence logic again equals existential second-order logic.
 

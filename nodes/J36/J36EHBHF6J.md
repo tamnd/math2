@@ -8,8 +8,8 @@ msc: ["03B16", "03F35", "03A05"]
 topics: [MDHDYV8QZW]
 audience: grad
 about: [G6X7SZSNC5, 0QFT7Z76N5]
-uses: [G6X7SZSNC5, ~205409ab, 0B0KR7FH2Q, VT2Q5BZEGH, 0QFT7Z76N5, 0HESMMSYEG, 5PGSQYB5Y1]
-proofs: [~fdd3d34d]
+uses: [G6X7SZSNC5, 5GS6DRJ5SY, 0B0KR7FH2Q, VT2Q5BZEGH, 0QFT7Z76N5, 0HESMMSYEG, 5PGSQYB5Y1]
+proofs: [RKEXJM6VVC]
 sources:
   - wikipedia: en:314743@r1350988939
     locator: Hume's principle
@@ -28,7 +28,7 @@ inventory: [XCJH1RYZQY]
 
 ## Statement
 
-Work in [[second-order logic|G6X7SZSNC5]] with the full [[comprehension schema|~205409ab]].
+Work in [[second-order logic|G6X7SZSNC5]] with the full [[comprehension schema|5GS6DRJ5SY]].
 Add one operator $\#$ that turns each unary relation variable $F$ into an individual term $\#F$, read "the number of $F$".
 For unary relation variables $F$ and $G$, let $F \approx G$ abbreviate
 
@@ -80,7 +80,7 @@ The Peano axioms do not imply HP, since their language has no operator $\#$.
 A weak converse holds: the model above can be described inside second-order arithmetic, so second-order arithmetic interprets FA.
 FA also speaks about numbers outside $N$.
 For example, removing $0$ from $N$ leaves a concept equinumerous with $N$, via $P$, so $P(\#N, \#N)$ holds.
-Lemma C of the [[proof|~fdd3d34d]] then shows that $\#N$ is not in $N$.
+Lemma C of the [[proof|RKEXJM6VVC]] then shows that $\#N$ is not in $N$.
 
 ### Generalizations
 

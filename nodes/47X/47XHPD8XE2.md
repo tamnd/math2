@@ -32,7 +32,7 @@ It says that every subset of the domain that contains $0$ and is closed under $S
 Non-example: a formula with a quantifier over sets of subsets of $M$ is not second-order, because no clause provides such variables; it belongs to third-order logic.
 
 With the standard semantics, second-order logic has neither a complete proof system nor the compactness property.
-With [[Henkin semantics|~abb2cff1]], in which the relation variables range over a chosen family of relations, both properties return.
+With [[Henkin semantics|KWEJFK5943]], in which the relation variables range over a chosen family of relations, both properties return.
 
 ## Explanations
 

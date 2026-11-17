@@ -12,7 +12,7 @@ inventory: [95CBEXQQ15]
 retired:
   date: 2026-11-17
   reason: merged
-  successor: [~205409ab]
+  successor: [5GS6DRJ5SY]
   note: "The comprehension schema is an axiom, so its page is now a statement node."
 ---
 

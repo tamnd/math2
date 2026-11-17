@@ -31,7 +31,7 @@ Second-order logic over a signature $L$ is the logic whose formulas are built li
 First, for each $n \ge 1$ there are relation variables $X, Y, \ldots$ of arity $n$, with atomic formulas $X(t_1, \ldots, t_n)$ for terms $t_1, \ldots, t_n$.
 Second, if $\varphi$ is a formula, then $\forall X \, \varphi$ and $\exists X \, \varphi$ are formulas.
 In the full (standard) semantics, a formula is evaluated in an $L$-[[structure|983GZBQYT4]] $\mathcal{M}$ with domain $M$, and an $n$-ary relation variable ranges over all subsets of $M^n$, that is, over the whole [[power set|00E0YZCERH]] $\mathcal{P}(M^n)$.
-In the [[Henkin semantics|~abb2cff1]], it ranges only over a family $D_n \subseteq \mathcal{P}(M^n)$ that is a part of the model.
+In the [[Henkin semantics|KWEJFK5943]], it ranges only over a family $D_n \subseteq \mathcal{P}(M^n)$ that is a part of the model.
 With the full semantics, second-order logic describes the natural numbers and the real numbers up to isomorphism, but it loses the completeness, compactness and Löwenheim-Skolem theorems of first-order logic.
 
 ## Motivation
@@ -51,7 +51,7 @@ Some books also allow function variables $F, G$; a function variable can be repl
 Books write the logic as SOL, $L^2$ or $L_{\mathrm{II}}$.
 We write $\mathcal{M} \models \varphi$ for truth in the full semantics, and $\models_{\mathrm{H}}$ for consequence in the Henkin semantics.
 A formula is $\Sigma^1_1$ when it has the form $\exists X_1 \cdots \exists X_k \, \psi$ with $\psi$ first-order, and $\Pi^1_1$ when it has the form $\forall X_1 \cdots \forall X_k \, \psi$.
-The $\Sigma^1_1$ formulas form existential second-order logic, and [[monadic second-order logic|~80d9b68b]] (MSO) allows only relation variables of arity $1$.
+The $\Sigma^1_1$ formulas form existential second-order logic, and [[monadic second-order logic|3WHQFSHR58]] (MSO) allows only relation variables of arity $1$.
 Every claim about second-order logic must name its semantics; on this page, the full semantics is meant unless we say otherwise.
 
 ## Remarks
@@ -59,24 +59,24 @@ Every claim about second-order logic must name its semantics; on this page, the 
 ### Examples
 
 - Equality: the formula $\forall X \, (X(x) \to X(y))$ holds exactly when $x = y$, since the choice $X = \set{x}$ forces $y \in \set{x}$.
-- Induction: with the first-order axioms $\forall x \, S(x) \neq 0$ and $\forall x \forall y \, (S(x) = S(y) \to x = y)$, the sentence $\forall X \, \big( (X(0) \land \forall x \, (X(x) \to X(S(x)))) \to \forall x \, X(x) \big)$ gives second-order Peano arithmetic $\mathrm{PA}^2$. [[Every full model of these axioms is isomorphic to $(\mathbb{N}, 0, n \mapsto n + 1)$|~e5ff8c82]].
-- Finiteness: [[a single sentence $\mathrm{Fin}$ holds exactly in the finite structures|~9f47818a]], because a set is finite exactly when every injective map from the set to itself is onto.
+- Induction: with the first-order axioms $\forall x \, S(x) \neq 0$ and $\forall x \forall y \, (S(x) = S(y) \to x = y)$, the sentence $\forall X \, \big( (X(0) \land \forall x \, (X(x) \to X(S(x)))) \to \forall x \, X(x) \big)$ gives second-order Peano arithmetic $\mathrm{PA}^2$. [[Every full model of these axioms is isomorphic to $(\mathbb{N}, 0, n \mapsto n + 1)$|CKEG6B25AN]].
+- Finiteness: [[a single sentence $\mathrm{Fin}$ holds exactly in the finite structures|M4TVZVANX5]], because a set is finite exactly when every injective map from the set to itself is onto.
 - Completeness of an order: with the axioms of an [[ordered field|0P3VCBDEE2]], the sentence $\forall X \, \big( (\exists x \, X(x) \land \exists b \, \forall x \, (X(x) \to x \le b)) \to \exists s \, \forall b \, (\forall x \, (X(x) \to x \le b) \leftrightarrow s \le b) \big)$ says that every nonempty set with an upper bound has a least upper bound. All full models of these axioms are isomorphic to $\mathbb{R}$, by the [[uniqueness of the complete ordered field|0G8G1TH5WK]].
 - Connectedness: for a [[graph|00C0BR7D7H]] with edge relation $E$, the sentence $\forall X \, \big( (\exists x \, X(x) \land \forall x \forall y \, (X(x) \land E(x, y) \to X(y))) \to \forall x \, X(x) \big)$ says that no nonempty proper set of vertices is closed under edges, that is, the graph is connected.
 
 ### Non-examples
 
 - A sentence with a variable for sets of subsets of the domain is not second-order; it belongs to third-order [[higher-order logic|K40YJX8K1G]].
-- [[The first-order induction schema|~0bfec7c5]] is not a second-order sentence: it covers only the sets that a first-order formula defines, and it has non-standard models.
+- [[The first-order induction schema|KCZ2EVJVS2]] is not a second-order sentence: it covers only the sets that a first-order formula defines, and it has non-standard models.
 - A two-sorted first-order theory with a sort for sets, such as [[second-order arithmetic|DC60FYCSPM]] in its usual first-order form, is second-order logic with the Henkin semantics, not with the full semantics.
 
 ### Basic properties
 
 These properties hold for the full semantics.
 
-1. The [[comprehension schema|~205409ab]] $\exists X \, \forall \bar{x} \, (X(\bar{x}) \leftrightarrow \varphi)$ is valid, since the set of tuples that satisfy $\varphi$ is a subset of $M^n$.
+1. The [[comprehension schema|5GS6DRJ5SY]] $\exists X \, \forall \bar{x} \, (X(\bar{x}) \leftrightarrow \varphi)$ is valid, since the set of tuples that satisfy $\varphi$ is a subset of $M^n$.
 2. There is no effective proof system that is sound and complete for validity. The argument follows this list.
-3. Compactness fails: the set $\set{\mathrm{Fin}} \cup \set{\lambda_n : n \ge 1}$, with $\lambda_n$ the first-order sentence "there are at least $n$ elements", has no model, but each finite subset has one. [[This example|~9f47818a]] gives the details.
+3. Compactness fails: the set $\set{\mathrm{Fin}} \cup \set{\lambda_n : n \ge 1}$, with $\lambda_n$ the first-order sentence "there are at least $n$ elements", has no model, but each finite subset has one. [[This example|M4TVZVANX5]] gives the details.
 4. The downward Löwenheim-Skolem theorem fails: the second-order axioms of a complete ordered field have models, and all of them are uncountable, since they are isomorphic to $\mathbb{R}$.
 5. The upward Löwenheim-Skolem theorem fails: all models of $\mathrm{PA}^2$ are countably infinite.
 6. Each sentence of higher order can be reduced to a second-order sentence with the same validity; see [[higher-order logic|K40YJX8K1G]].
@@ -84,7 +84,7 @@ These properties hold for the full semantics.
 Here is the argument for property 2.
 Add to $\mathrm{PA}^2$ the first-order recursion equations $x + 0 = x$, $x + S(y) = S(x + y)$, $x \cdot 0 = 0$ and $x \cdot S(y) = x \cdot y + x$, and call the conjunction $\mathrm{PA}^2_{+}$.
 
-1. Every full model of $\mathrm{PA}^2_{+}$ is isomorphic to $(\mathbb{N}, 0, S, +, \cdot)$. The isomorphism $f$ for $0$ and $S$ comes from [[the categoricity example|~e5ff8c82]], and induction on $y$ in $\mathbb{N}$ shows $f(x + y) = f(x) +^{\mathcal{M}} f(y)$ and $f(x \cdot y) = f(x) \cdot^{\mathcal{M}} f(y)$ from the recursion equations.
+1. Every full model of $\mathrm{PA}^2_{+}$ is isomorphic to $(\mathbb{N}, 0, S, +, \cdot)$. The isomorphism $f$ for $0$ and $S$ comes from [[the categoricity example|CKEG6B25AN]], and induction on $y$ in $\mathbb{N}$ shows $f(x + y) = f(x) +^{\mathcal{M}} f(y)$ and $f(x \cdot y) = f(x) \cdot^{\mathcal{M}} f(y)$ from the recursion equations.
 2. An isomorphism preserves the truth of every second-order sentence, by induction on the formula. So for each first-order sentence $\sigma$ of arithmetic, $\mathbb{N} \models \sigma$ holds exactly when $\mathrm{PA}^2_{+} \to \sigma$ is valid.
 3. The theorems of an effective proof system form a [[computably enumerable set|TN9G24VABN]]. If such a system were sound and complete, the valid sentences would form a computably enumerable set.
 4. The map $\sigma \mapsto (\mathrm{PA}^2_{+} \to \sigma)$ is computable. By step 2, the set of first-order sentences true in $\mathbb{N}$ would then be computably enumerable.
@@ -124,7 +124,7 @@ Frege's logic of 1879 already quantified over concepts, which play the part of r
 Frege's derivation of arithmetic survives in [[Frege's theorem|J36EHBHF6J]]: the Peano axioms follow in second-order logic from Hume's principle.
 Dedekind characterized the natural numbers up to isomorphism in 1888, with an argument that is a second-order categoricity proof.
 Henkin introduced the general models of the Henkin semantics in 1950 and proved the completeness theorem for them.
-Quine argued that second-order logic with the full semantics is set theory in disguise; Boolos replied in 1984 with a [[plural reading|~8cf214d8]] of monadic second-order quantifiers.
+Quine argued that second-order logic with the full semantics is set theory in disguise; Boolos replied in 1984 with a [[plural reading|DZVEFDYYZX]] of monadic second-order quantifiers.
 
 ### Common errors
 
@@ -165,7 +165,7 @@ The trap is to forget the semantics: in a Henkin model whose family $D_1$ omits 
 
 Second-order logic sits between first-order logic and set theory.
 With the full semantics, its validities depend on the power set operation of the metatheory, and the sentence $\rho \to \chi$ above shows that the continuum hypothesis is one of its questions.
-With the [[Henkin semantics|~abb2cff1]], it is a many-sorted first-order logic, and all the first-order theorems return, together with non-standard models.
+With the [[Henkin semantics|KWEJFK5943]], it is a many-sorted first-order logic, and all the first-order theorems return, together with non-standard models.
 [[Lindström's theorem|FYZ3CJGZYV]] explains why no logic can have both the expressive power of the full semantics and the good model theory of first-order logic.
 Fragments behave differently: existential second-order logic is equivalent to [[independence-friendly logic|DPMKT2KRB8]] and to [[dependence logic|DNAPTJ98WD]] on sentences, and it captures NP on finite structures by Fagin's theorem.
 Monadic second-order logic over words and trees is decidable by the theorems of Büchi and Rabin, which connect it with automata.

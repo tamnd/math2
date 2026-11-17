@@ -16,16 +16,16 @@ It covers second-order logic with full and Henkin semantics, monadic second-orde
 ### Reading order
 
 1. [[Second-order logic|G6X7SZSNC5]]: quantifiers over relations, the full semantics, categoricity, and the loss of completeness and compactness.
-2. [[Henkin semantics|~abb2cff1]]: relation variables range over a chosen family, and the first-order theorems return.
-3. [[Comprehension schema|~205409ab]]: the axiom that every formula defines a relation.
+2. [[Henkin semantics|KWEJFK5943]]: relation variables range over a chosen family, and the first-order theorems return.
+3. [[Comprehension schema|5GS6DRJ5SY]]: the axiom that every formula defines a relation.
 4. [[Higher-order logic|K40YJX8K1G]]: variables of every finite type, and the reduction to second order.
 5. [[Frege's theorem and Hume's principle|J36EHBHF6J]]: the Peano axioms derived from one principle about numbers of concepts.
-6. [[Monadic second-order logic|~80d9b68b]]: quantifiers over sets only, with decidable theories on words and trees.
-7. [[Branching quantifier|~41bb4c55]]: quantifier prefixes that are partially ordered, as in the Henkin quantifier.
+6. [[Monadic second-order logic|3WHQFSHR58]]: quantifiers over sets only, with decidable theories on words and trees.
+7. [[Branching quantifier|KMNVEGS34N]]: quantifier prefixes that are partially ordered, as in the Henkin quantifier.
 8. [[Independence-friendly logic|DPMKT2KRB8]]: quantifiers that ignore some earlier choices, with a game semantics.
 9. [[Dependence logic|DNAPTJ98WD]]: dependence atoms and team semantics.
 10. [[Generalized quantifier|MFV98WTF4G]]: quantifiers such as "most" and "infinitely many", read as classes of structures.
-11. [[Plural quantification|~8cf214d8]]: quantifiers over pluralities, as a reading of monadic second-order logic.
+11. [[Plural quantification|DZVEFDYYZX]]: quantifiers over pluralities, as a reading of monadic second-order logic.
 
 ### Prerequisites
 

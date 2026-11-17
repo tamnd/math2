@@ -82,15 +82,15 @@ For example, "every boy sleeps" is equivalent to "every boy is a boy who sleeps"
 ### Examples
 
 - $\exists^{\geq n} = \{ (M, A) : |A| \geq n \}$ ("at least $n$"). It is a generalized quantifier, but it adds nothing: $\exists^{\geq 2} x \, \varphi(x)$ is equivalent to $\exists x \, \exists y \, (x \neq y \land \varphi(x) \land \varphi(y))$.
-- $Q_0$ ("infinitely many"). The sentence $Q_0 x \, (x = x)$ is true exactly in the infinite structures, and no first-order sentence has this property. [[This example|~3efe02e1]] shows that $L(Q_0)$ is not compact.
+- $Q_0$ ("infinitely many"). The sentence $Q_0 x \, (x = x)$ is true exactly in the infinite structures, and no first-order sentence has this property. [[This example|SD6TYGCEEB]] shows that $L(Q_0)$ is not compact.
 - $Q_1$ ("uncountably many"). The sentence $Q_1 x \, (x = x)$ has only uncountable models, so $L(Q_1)$ fails the downward [[Löwenheim–Skolem theorem|484M0TZ1S7]].
-- $\mathrm{most}$, of type $\langle 1, 1 \rangle$. The formula $\mathrm{most}\, x \, (\varphi(x), \psi(x))$ says that more elements satisfy $\varphi \land \psi$ than $\varphi \land \neg \psi$. It is not first-order definable even on finite structures; see [[this example|~5bade5ca]].
+- $\mathrm{most}$, of type $\langle 1, 1 \rangle$. The formula $\mathrm{most}\, x \, (\varphi(x), \psi(x))$ says that more elements satisfy $\varphi \land \psi$ than $\varphi \land \neg \psi$. It is not first-order definable even on finite structures; see [[this example|1C6CGH1G6A]].
 - $W = \{ (M, R) : R \text{ is a well-ordering of } M \}$, of type $\langle 2 \rangle$. In $L(W)$ one sentence says that a binary relation is a well-ordering, which first-order logic cannot say.
 - "There are at least two" and "more than half" are permutation invariant sets of subsets on a pure set. Each such set depends only on $|A|$ and $|M \setminus A|$, as [[this example|HPA3BKNZE1]] proves.
 
 ### Non-examples
 
-- The family of intervals of $\mathbb{R}$ is not the $\mathbb{R}$-part of any generalized quantifier of type $\langle 1 \rangle$. A bijection of $\mathbb{R}$ maps $[0, 1]$ to a set that is not an interval; see [[this non-example|~3195fef5]].
+- The family of intervals of $\mathbb{R}$ is not the $\mathbb{R}$-part of any generalized quantifier of type $\langle 1 \rangle$. A bijection of $\mathbb{R}$ maps $[0, 1]$ to a set that is not an interval; see [[this non-example|AQBW6RSRN9]].
 - The family $\{ A \subseteq D : 0 \in A \}$ ("the object $0$ has the property") is not closed under permutations of $D$, because a permutation can move $0$; see [[this example|HPA3BKNZE1]].
 - A set of sets that is defined on one domain only is not yet a generalized quantifier. The definition asks for a family $Q_M$ on every nonempty set $M$, with the families related by isomorphisms.
 

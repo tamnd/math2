@@ -6,7 +6,7 @@ msc: ["03B16", "03B15"]
 topics: [MDHDYV8QZW]
 audience: grad
 defines: P1ABGYRQXH
-uses: [086QKPF0A6, 983GZBQYT4, 00E0YZCERH, 09CEDJYBKP, G6X7SZSNC5, ~abb2cff1]
+uses: [086QKPF0A6, 983GZBQYT4, 00E0YZCERH, 09CEDJYBKP, G6X7SZSNC5, KWEJFK5943]
 sources:
   - url: https://en.wikipedia.org/wiki/Higher-order_logic
     locator: lead section
@@ -33,7 +33,7 @@ In the standard semantics over an $L$-[[structure|983GZBQYT4]] with domain $M$, 
 Here $\mathcal{P}$ is the [[power set|00E0YZCERH]] and $\times$ the [[Cartesian product|09CEDJYBKP]].
 A variable of type $\tau$ ranges over $D_\tau$, and $X(t_1, \dots, t_n)$ is true when the tuple of the values of $t_1, \ldots, t_n$ belongs to the value of $X$.
 
-In the Henkin semantics, a model gives a domain $D_\tau \subseteq \mathcal{P}(D_{\tau_1} \times \dots \times D_{\tau_n})$ for each relational type $\tau = (\tau_1, \ldots, \tau_n)$, and these domains must satisfy every instance of the comprehension schema, as in the [[Henkin semantics|~abb2cff1]] of second-order logic.
+In the Henkin semantics, a model gives a domain $D_\tau \subseteq \mathcal{P}(D_{\tau_1} \times \dots \times D_{\tau_n})$ for each relational type $\tau = (\tau_1, \ldots, \tau_n)$, and these domains must satisfy every instance of the comprehension schema, as in the [[Henkin semantics|KWEJFK5943]] of second-order logic.
 
 The order of a type is $1$ for $\iota$, and one more than the largest order of $\tau_1, \dots, \tau_n$ for $(\tau_1, \dots, \tau_n)$.
 The logic of order $k$ allows variables only of types whose order is at most $k$.
@@ -55,13 +55,13 @@ The type $(\iota, (\iota))$ also has order $3$: its variables range over relatio
 
 ### Examples
 
-- The sentence $\forall \mathcal{X} \, \exists Y \, \forall x \, (Y(x) \leftrightarrow \exists Z \, (\mathcal{X}(Z) \land Z(x)))$, with $\mathcal{X}$ of type $((\iota))$, says that [[every family of sets has a union|~646a5193]]. It is valid in the standard semantics.
-- In third-order logic, [[equality of sets is definable|~89fbded5]] by $\forall \mathcal{Z} \, (\mathcal{Z}(X) \to \mathcal{Z}(Y))$, one order above the second-order definition $\forall X \, (X(x) \to X(y))$ of equality of individuals.
+- The sentence $\forall \mathcal{X} \, \exists Y \, \forall x \, (Y(x) \leftrightarrow \exists Z \, (\mathcal{X}(Z) \land Z(x)))$, with $\mathcal{X}$ of type $((\iota))$, says that [[every family of sets has a union|R6ZVGYF5FF]]. It is valid in the standard semantics.
+- In third-order logic, [[equality of sets is definable|FHN4MS03B7]] by $\forall \mathcal{Z} \, (\mathcal{Z}(X) \to \mathcal{Z}(Y))$, one order above the second-order definition $\forall X \, (X(x) \to X(y))$ of equality of individuals.
 - Every second-order sentence is a higher-order sentence, with the same meaning in each semantics.
 
 ### Non-examples
 
-- [[The expression $X(X)$ is not a formula|~a334b103]], because no type $\tau$ equals the type $(\tau)$.
+- [[The expression $X(X)$ is not a formula|8FVA1VMBSW]], because no type $\tau$ equals the type $(\tau)$.
 - A formula with a variable that ranges over all objects of all types at once is not a formula of higher-order logic; each variable has exactly one type.
 
 ### No complete proof system for the standard semantics
@@ -114,6 +114,6 @@ The trap is the two types in steps 3 and 4: both domains have $16$ elements, but
 
 Higher-order logic is the logic of [[type theory|Q48KGV33AH]], read classically and extensionally.
 Its standard semantics fixes each type as a full power set, so it inherits all the dependence of [[second-order logic|G6X7SZSNC5]] on set theory, and by Hintikka's reduction its validity problem reduces to the validity problem of second-order logic.
-Its [[Henkin semantics|~abb2cff1]] is a many-sorted first-order logic with one sort for each type, so it is complete and compact.
+Its [[Henkin semantics|KWEJFK5943]] is a many-sorted first-order logic with one sort for each type, so it is complete and compact.
 In categorical logic, the internal language of a topos is an intuitionistic higher-order logic, and the topos of sets gives the standard semantics.
 Proof assistants such as Isabelle/HOL and HOL4 implement Church's version.
