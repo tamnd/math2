@@ -27,6 +27,8 @@ Then $P(n)$ holds for every natural number $n$.
 The method is valid because of the induction axiom of the [[Peano axioms|0QFT7Z76N5]].
 In the induction step, the assumption $P(n)$ is the induction hypothesis.
 Common variants are [[induction from an arbitrary base case|0GF6AJEBZ0]] and [[strong induction|0KMVFSHFGZ]].
+Mathematical induction is a form of deduction, and its conclusion is certain.
+It is different from [[inductive reasoning|5V35SGEN1T]], which guesses a general rule from observed cases and can fail.
 
 ## Explanations
 
