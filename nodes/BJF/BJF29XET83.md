@@ -7,7 +7,7 @@ aliases: [representability-theorem, representability-in-arithmetic]
 msc: ["03F30", "03D20"]
 topics: [QHCRN4JVG0]
 audience: grad
-uses: [TT8MXRTVBM, VM8TQ70CVJ, Q5MT8WY7JM, HBK5QHC1GC, Y0JTZXBRT5, 69234Z1V00, BM6P0C2AC2, 1DQ1M6ZWS4, TN9G24VABN, 3PRW76471J, X9WYNYE29C, YRV6SYK2BY, TKDKW5MENB, B66JYY3K58]
+uses: [TT8MXRTVBM, VM8TQ70CVJ, Q5MT8WY7JM, HBK5QHC1GC, Y0JTZXBRT5, 69234Z1V00, BM6P0C2AC2, 1DQ1M6ZWS4, TN9G24VABN, 3PRW76471J, X9WYNYE29C, YRV6SYK2BY, TKDKW5MENB, 4W0E9G7PPV]
 sources:
   - url: https://en.wikipedia.org/wiki/Robinson_arithmetic
   - book: isbn:9780521857840
@@ -35,7 +35,7 @@ A relation $R \subseteq \N^k$ is *representable* in $T$ if there is a formula $\
 
 ### Why each hypothesis is needed
 
-- Part 1 needs a theory that can compute with $+$ and $\cdot$. The theory $\mathsf{Pr}$ of [[Presburger arithmetic|B66JYY3K58]] is complete and true in $(\N, 0, S, +, <)$. A formula representing the recursive relation "$x$ is a square" in $\mathsf{Pr}$ would define it in $(\N, 0, S, +, <)$, and [[no formula does|TKDKW5MENB]].
+- Part 1 needs a theory that can compute with $+$ and $\cdot$. The theory $\mathsf{Pr}$ of [[Presburger arithmetic|4W0E9G7PPV]] is complete and true in $(\N, 0, S, +, <)$. A formula representing the recursive relation "$x$ is a square" in $\mathsf{Pr}$ would define it in $(\N, 0, S, +, <)$, and [[no formula does|TKDKW5MENB]].
 - Part 3 needs consistency: in an inconsistent theory every formula represents every relation. It needs a recursive set of axioms, since the complete theory of $\mathfrak{N}$ is consistent and represents every relation definable in $\mathfrak{N}$, including the halting set.
 
 ### Converse

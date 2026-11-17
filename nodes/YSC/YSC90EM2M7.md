@@ -42,7 +42,7 @@ If it were, then by [[Craig's theorem on axiomatizability|6AN62NQ8AN]] it would 
 By [[Tarski's undefinability theorem|YRV6SYK2BY]], $\mathrm{TA}$ is not even definable by a formula of $L_A$.
 
 The example changes when we remove multiplication.
-The theory of $(\N, 0, 1, +)$ is [[Presburger arithmetic|B66JYY3K58]], which is complete, recursively axiomatizable and decidable.
+The theory of $(\N, 0, 1, +)$ is [[Presburger arithmetic|4W0E9G7PPV]], which is complete, recursively axiomatizable and decidable.
 The first incompleteness theorem does not apply there, because the axioms of $\mathsf{Q}$ mention multiplication.
 
 The example [[true arithmetic taken as a set of axioms|9BW1F5B5GA]] uses the same argument to show that $\mathrm{TA}$ itself is not a decidable set of axioms.

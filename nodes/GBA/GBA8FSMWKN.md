@@ -8,7 +8,7 @@ audience: research
 not_instance_of:
   - target: Q5MT8WY7JM
     note: Presburger arithmetic is complete and decidable, so it is its own decidable consistent extension and cannot interpret an essentially undecidable theory
-uses: [B66JYY3K58, 655K8Y7VS8, HWC687ES0Q, TKDKW5MENB]
+uses: [4W0E9G7PPV, 655K8Y7VS8, HWC687ES0Q, TKDKW5MENB]
 sources:
   - url: https://en.wikipedia.org/wiki/Presburger_arithmetic
     locator: Properties
@@ -19,7 +19,7 @@ sources:
 ## Example
 
 Let $\mathsf{Pr}$ be the set of sentences of the signature $\set{0, S, +, <}$ that are true in $(\N, 0, S, +, <)$.
-This is [[Presburger arithmetic|B66JYY3K58]], given by its standard model.
+This is [[Presburger arithmetic|4W0E9G7PPV]], given by its standard model.
 It has no multiplication, and it is weak in that sense.
 We show that it is not a weak theory of arithmetic in the sense of [[this page|Q5MT8WY7JM]], because it is not essentially undecidable.
 We use Presburger's theorem that $\mathsf{Pr}$ is decidable, which rests on quantifier elimination.

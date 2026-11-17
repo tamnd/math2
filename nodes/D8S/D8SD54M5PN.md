@@ -33,7 +33,7 @@ To treat arithmetic as a formal system, we must first fix the symbols that its s
 The second-order [[Peano axioms|0QFT7Z76N5]] quantify over sets of numbers, and first-order logic cannot do that.
 So we choose a small first-order signature and ask what it can express.
 Zero and successor alone give only the numerals and very little else.
-Adding $+$ gives the language of [[Presburger arithmetic|B66JYY3K58]], whose true sentences form a decidable set.
+Adding $+$ gives the language of [[Presburger arithmetic|4W0E9G7PPV]], whose true sentences form a decidable set.
 Adding $\cdot$ changes the picture completely: with $+$ and $\cdot$ one can code finite sequences by [[Gödel's β-function lemma|BM6P0C2AC2]], and then define exponentiation, every computable function and the syntax of formulas themselves.
 So $L_A$ is the smallest natural language in which arithmetic can talk about computation and about its own proofs.
 

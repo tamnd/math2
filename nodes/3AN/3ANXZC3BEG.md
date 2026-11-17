@@ -61,7 +61,7 @@ The word "recursive" means computable here, as in the older name "recursive set"
 3. The empty theory: its theorems are the valid sentences of $L$, and $\emptyset$ is a decidable set of axioms.
 4. [[Zermelo-Fraenkel set theory|0HE5WDQ9FJ]] with choice: the schemas of separation and of replacement are infinite, but membership in each schema is a test of shape.
 5. The theory of dense linear orders without endpoints: it has finitely many axioms, and it is [[complete|655K8Y7VS8]] by the example [[dense linear order|2W4S2H4VYA]].
-6. [[Presburger arithmetic|B66JYY3K58]], the theory of $(\N, 0, 1, +)$: it has a decidable set of axioms, and it is complete and decidable.
+6. [[Presburger arithmetic|4W0E9G7PPV]], the theory of $(\N, 0, 1, +)$: it has a decidable set of axioms, and it is complete and decidable.
 
 ### Non-examples
 

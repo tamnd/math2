@@ -44,7 +44,7 @@ In short: no consistent theory with a computably enumerable set of theorems that
 
 ### Why each hypothesis is needed
 
-1. Without "contains $\mathsf{Q}$": [[Presburger arithmetic|B66JYY3K58]], in the language $\set{0, S, +}$, is consistent, computably axiomatized and complete. The theory of [[real closed fields|DDY3Q3PJ6W]] is another such theory.
+1. Without "contains $\mathsf{Q}$": [[Presburger arithmetic|4W0E9G7PPV]], in the language $\set{0, S, +}$, is consistent, computably axiomatized and complete. The theory of [[real closed fields|DDY3Q3PJ6W]] is another such theory.
 2. Without "computably enumerable": true arithmetic, the set of all sentences true in $\N$, contains $\mathsf{Q}$, is consistent and is complete. It [[has no decidable axiom set|69TTX21TRJ]].
 3. Without consistency: the inconsistent theory proves every sentence, so it is negation complete.
 4. Part 2 needs more than consistency. The theory $T := \mathsf{PA} + \neg \mathrm{Con}(\mathsf{PA})$ is [[consistent but ω-inconsistent|FK06QR6A44]], and it proves $\neg \mathrm{Con}(T)$. Since $T \vdash G_T \leftrightarrow \mathrm{Con}(T)$ by the proof of the second theorem, $T \vdash \neg G_T$. Rosser's sentence avoids this.

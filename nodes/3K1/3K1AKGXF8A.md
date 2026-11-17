@@ -56,7 +56,7 @@ For a closed term $t$, we write $t^{\mathfrak{N}}$ for its value in the standard
 ### Non-examples
 
 - The integers with $S(n) = n + 1$ are not a model of $\mathsf{Q}$, since $S(-1) = 0$ violates $\mathsf{Q}1$; [[this non-example|QXFENZWRWM]] gives the details.
-- [[Presburger arithmetic|B66JYY3K58]] is not an extension of $\mathsf{Q}$, because its language has no multiplication. It has induction, but it is decidable, so it lacks the strength of $\mathsf{Q}$.
+- [[Presburger arithmetic|4W0E9G7PPV]] is not an extension of $\mathsf{Q}$, because its language has no multiplication. It has induction, but it is decidable, so it lacks the strength of $\mathsf{Q}$.
 - The second-order [[Peano axioms|0QFT7Z76N5]] are not a first-order theory, so they are not a theory in the sense of $\mathsf{Q}$; their first-order version [[Peano arithmetic|HACXBCM7SS]] extends $\mathsf{Q}$.
 
 ### Basic properties
