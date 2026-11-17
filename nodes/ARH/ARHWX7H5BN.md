@@ -1,0 +1,57 @@
+---
+tag: ARHWX7H5BN
+kind: example
+name: The even numbers are not almost all natural numbers
+msc: ["00A35", "11B05"]
+topics: [Z2WNQ1DNTX]
+audience: ug1
+not_instance_of:
+  - target: N1XSAXCQY3
+    note: the exceptions, the odd numbers, are infinite and have natural density one half, so the claim fails in the cofinite and in the density sense
+uses: [N1XSAXCQY3, 0MWKJ44V5A, RVG9Z8NYA6, 01TQB88H4C]
+sources:
+  - url: https://en.wikipedia.org/wiki/Natural_density
+    locator: Properties and examples
+  - url: https://en.wikipedia.org/wiki/Almost_all
+    locator: Meaning in number theory
+---
+
+## Example
+
+Let $E = \{0, 2, 4, 6, \ldots\}$ be the set of even [[natural numbers|0MWKJ44V5A]].
+We show that the claim "almost all natural numbers are even" is false in the cofinite sense and in the density sense of [[almost all|N1XSAXCQY3]].
+The set of exceptions is the set $O = \{1, 3, 5, \ldots\}$ of odd natural numbers.
+
+1. The set $O$ is infinite, because $2k + 1 \in O$ for each $k \in \mathbb{N}$ and these numbers are distinct. So the claim fails in the cofinite sense.
+2. For $n \in \mathbb{N}$, the even numbers in $\{0, 1, \ldots, n\}$ are $0, 2, \ldots, 2\lfloor n/2 \rfloor$. There are $\lfloor n/2 \rfloor + 1$ of them.
+3. For example, $n = 9$ gives the $5$ numbers $0, 2, 4, 6, 8$, and $\lfloor 9/2 \rfloor + 1 = 5$.
+4. The proportion of even numbers is $(\lfloor n/2 \rfloor + 1)/(n + 1)$. Since $n/2 - 1 < \lfloor n/2 \rfloor \leq n/2$, it lies between $\tfrac{n}{2(n+1)}$ and $\tfrac{n + 2}{2(n + 1)}$, and both bounds tend to $\tfrac12$.
+5. So $E$ has [[natural density|RVG9Z8NYA6]] $\tfrac12$, and $O$ has density $1 - \tfrac12 = \tfrac12$. The exceptions do not have density zero, so the claim fails in the density sense.
+
+## Remarks
+
+The example shows that an infinite set of exceptions can be too large for "almost all", even when the set of good cases is also infinite.
+In the countable sense the claim is true but empty: every subset of $\mathbb{N}$ is [[countable|01TQB88H4C]], so in that sense every property holds for almost all natural numbers.
+This is why the countable sense is used only on uncountable sets such as $\mathbb{R}$.
+If we replace "even" by "not divisible by $10$", the claim is still false: the multiples of $10$ are infinite and have density $\tfrac{1}{10}$.
+If we replace "even" by "not a perfect square", the claim becomes true in the density sense and stays false in the cofinite sense.
+
+## Explanations
+
+### L1 human
+
+Half of the numbers are even and half are odd: $0, 2, 4$ are even, and $1, 3, 5$ are odd.
+For "almost all numbers are even" to be true, the odd numbers would have to be a tiny part of all numbers.
+But up to $100$ there are $50$ odd numbers among $101$ numbers, and this proportion stays close to one half forever.
+So the odd numbers are not a tiny part, and the claim is false.
+
+### L2 human
+
+We compare with the multiples of $3$, to see how the density changes with the step.
+
+1. The multiples of $3$ in $\{0, 1, \ldots, n\}$ are $0, 3, \ldots, 3\lfloor n/3 \rfloor$, so there are $\lfloor n/3 \rfloor + 1$ of them.
+2. The proportion $(\lfloor n/3 \rfloor + 1)/(n + 1)$ tends to $\tfrac13$, by the bounds $n/3 - 1 < \lfloor n/3 \rfloor \leq n/3$.
+3. So the numbers not divisible by $3$ have density $\tfrac23$. They are not almost all natural numbers either.
+
+The typical use is a quick test: a set given by a congruence condition modulo $m$ has a positive density, so its complement is never almost all of $\mathbb{N}$ unless the set is empty.
+A trap: "infinitely many exceptions" does not by itself make "almost all" false in the density sense; the squares are infinitely many and still have density zero.

@@ -1,0 +1,55 @@
+---
+tag: 1TDTSKQQX9
+kind: example
+name: The list 1, 2, 4, ... does not determine its next term
+msc: ["00A35"]
+topics: [Z2WNQ1DNTX]
+audience: school
+not_instance_of:
+  - target: QKEX4PD029
+    note: the ellipsis does not fix a unique rule, so the display has no single meaning
+uses: [QKEX4PD029, 0G9EKM0E15]
+sources:
+  - url: https://en.wikipedia.org/wiki/Ellipsis
+    locator: lead section
+---
+
+## Example
+
+Consider the display
+$$1, 2, 4, \ldots$$
+offered as the definition of a [[sequence|0G9EKM0E15]] $a_0, a_1, a_2, \ldots$.
+We show that two simple rules fit the three given terms and disagree at the next term.
+
+1. Rule A is $a_n = 2^n$. It gives $a_0 = 1$, $a_1 = 2$, $a_2 = 4$, and then $a_3 = 8$.
+2. Rule B is $b_n = \frac{n^2 + n + 2}{2}$. It gives $b_0 = \frac{2}{2} = 1$, $b_1 = \frac{4}{2} = 2$, $b_2 = \frac{8}{2} = 4$, and then $b_3 = \frac{14}{2} = 7$.
+3. Both rules agree with the display, and $a_3 = 8 \neq 7 = b_3$.
+4. So the display does not determine $a_3$, and it fails the basic requirement of [[mathematical notation|QKEX4PD029]]: one expression, one meaning.
+
+## Remarks
+
+Rule B counts the largest number of pieces that $n$ straight cuts make of a pancake, so both rules occur in real problems.
+In general, for any finite list of numbers and any next value, a polynomial fits all of them, so no finite list fixes its continuation.
+The display becomes correct notation when the author adds the rule, for example "$1, 2, 4, \ldots, 2^n, \ldots$" or "$a_n = 2^n$".
+An ellipsis is safe in $1, 2, 3, \ldots, n$ because the reader shares the convention that the step is $1$.
+
+## Explanations
+
+### L1 human
+
+Dots after a few numbers ask the reader to guess the rule.
+For $1, 2, 4$ one reader doubles each time and gets $8$ next.
+Another reader adds $1$, then $2$, then $3$, and gets $7$ next.
+Both readers follow a fair rule, so the dots alone do not say which number comes next.
+
+### L2 human
+
+We find a third rule that fits $1, 2, 4$ and gives any chosen value $c$ next.
+
+1. Look for $c_n = 2^n + t \, n(n-1)(n-2)$ with a constant $t$.
+2. For $n = 0, 1, 2$ the added term is $0$, so $c_0 = 1$, $c_1 = 2$, $c_2 = 4$.
+3. For $n = 3$ we get $c_3 = 8 + 6t$, and $t = \frac{c - 8}{6}$ gives $c_3 = c$.
+4. For $c = 7$ this gives $t = -\tfrac{1}{6}$, and $c_n$ agrees with rule B for $n = 0, 1, 2, 3$.
+
+The typical use of this argument is to show that a pattern in data is a conjecture, not a proof.
+A trap: a long list of matching terms makes a rule plausible, but it never proves the rule.

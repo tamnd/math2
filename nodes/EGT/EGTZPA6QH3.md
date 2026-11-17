@@ -1,0 +1,120 @@
+---
+tag: EGTZPA6QH3
+kind: concept
+name: Quantifiers in mathematical writing
+msc: ["97E40", "03B10"]
+topics: [WMY13MXY3W]
+audience: school
+uses: [S9MHMRAX88, 12QQ51VK01, FA6YZGR2SS]
+sources:
+  - url: https://en.wikipedia.org/wiki/Quantifier_(logic)
+    locator: lead section
+  - url: https://en.wikipedia.org/wiki/Bounded_quantifier
+    locator: lead section
+  - book: isbn:9781108439534
+    locator: Section 2.1
+---
+
+## Summary
+
+A quantifier in mathematical writing is a phrase that says for how many objects of a given set, the domain, an open sentence $P(x)$ is true.
+The universal quantifier says that $P(x)$ is true for every $x$ in the domain, and its English forms include "for all", "for every", "for each", "all", "every", "each" and often "any".
+The existential quantifier says that $P(x)$ is true for at least one $x$ in the domain, and its English forms include "there exists", "there is", "for some", "some" and "at least one".
+A quantifier binds its variable, and the result is a [[statement|S9MHMRAX88]].
+A bounded quantifier names its domain inside the phrase, as in "for every $\varepsilon > 0$" or "there is $n \in \mathbb{N}$".
+Many quantifiers are implicit: a theorem or an identity with a free variable, such as $(a + b)^2 = a^2 + 2ab + b^2$, means "for all $a$ and $b$".
+Almost every definition of algebra and analysis is a string of quantifiers, so a reader must find each quantifier, its variable and its domain.
+
+## Motivation
+
+Ordinary language uses quantifiers loosely.
+"Everybody loves somebody" can mean that each person loves some person, or that one person is loved by everybody.
+"A cat has four legs" means "every cat", but "a cat is in the garden" means "some cat".
+Mathematical definitions stack several quantifiers, and a change of order or of domain changes the meaning.
+The definition of the [[limit of a sequence|05M5SWSZZD]] has three quantifiers in a fixed order: for every $\varepsilon > 0$ there is $N$ such that for every $n \geq N$, $|a_n - L| < \varepsilon$.
+So mathematics fixes the English forms of the two quantifiers, and careful authors write each one.
+
+## Notation
+
+The [[universal quantifier|0GHS47PDAQ]] is $\forall$, and the [[existential quantifier|0MSRQHCNN9]] is $\exists$.
+Books write "for all $x$ in $A$, $P(x)$" as $\forall x \in A, \, P(x)$, as $(\forall x \in A) \, P(x)$, or as $\forall x \in A : P(x)$.
+A bounded quantifier is an abbreviation:
+$$\forall x \in A, \, P(x) \quad \text{means} \quad \forall x \, (x \in A \Rightarrow P(x)),$$
+$$\exists x \in A, \, P(x) \quad \text{means} \quad \exists x \, (x \in A \text{ and } P(x)).$$
+The same holds for conditions such as $\varepsilon > 0$ in place of $x \in A$.
+Many authors put a universal quantifier after the formula, as in "$x^2 \geq 0$ for all real $x$".
+The symbol $\exists!$ means "there is exactly one", and the page [[existence and uniqueness statements|ACSC75R7R5]] treats it.
+
+## Remarks
+
+### Examples
+
+1. [[The implicit universal quantifier in an algebraic identity|N3FERWCTTJ]]: $(a + b)^2 = a^2 + 2ab + b^2$ means "for all real $a$ and $b$".
+2. [[Bounded quantifiers in the definition of a bounded sequence|4KJ5K9MX21]]: "there is $M > 0$ such that $|a_n| \leq M$ for all $n$".
+3. "Every prime greater than $2$ is odd" means "for every integer $p$, if $p$ is prime and $p > 2$, then $p$ is odd". It is true: an even number greater than $2$ has the divisor $2$, so it is not prime.
+4. "Some prime is even" means "there is an integer $p$ such that $p$ is prime and $p$ is even". It is true, with $p = 2$.
+5. "For every integer $n$, there is an integer $m$ with $m > n$" is true: take $m = n + 1$. The choice of $m$ depends on $n$, and the [[order of quantifiers|0FYQMKFE77]] matters.
+
+### Non-examples
+
+1. [[The phrase "let $x = 3$" does not quantify $x$|7KW3CKEY4P]]: it gives $x$ one value, and the variable does not range over a domain.
+2. In "solve $x^2 = 2$", the letter $x$ is an unknown, and the task is to find the set of solutions, $\{\sqrt{2}, -\sqrt{2}\}$. The equation does not claim "for all $x$" or "for some $x$".
+3. In "the number $p = 2^{31} - 1$ is prime", the letter $p$ is a name of one number. The sentence is a statement without a quantifier.
+
+### Basic properties
+
+1. On a finite domain $\{a_1, \ldots, a_n\}$, "for all $x$, $P(x)$" means "$P(a_1)$ and $\ldots$ and $P(a_n)$", and "there is $x$ with $P(x)$" means "$P(a_1)$ or $\ldots$ or $P(a_n)$".
+2. The negation of "for all $x$, $P(x)$" is "there is $x$ with not $P(x)$". This is the [[negation of a universal statement|0P3A06QNDP]], and the dual law is the [[negation of an existential statement|05SZQKH75K]].
+3. Two quantifiers of the same kind can change places, but $\forall x \, \exists y$ and $\exists y \, \forall x$ differ in general.
+4. A universal statement over the empty domain is true, and an existential statement over the empty domain is false. See [[vacuous truth|0V4QXPGJQK]].
+5. The name of a bound variable does not matter: "for all $x$, $x^2 \geq 0$" and "for all $t$, $t^2 \geq 0$" are the same statement.
+
+### History
+
+Aristotle built his syllogisms from sentences with "all", "some" and "no".
+Gottlob Frege introduced the quantifier with a bound variable in his Begriffsschrift of 1879, and this made statements with several quantifiers precise.
+Giuseppe Peano used the symbol $\exists$, and Gerhard Gentzen introduced $\forall$ in 1935, by analogy with $\exists$.
+
+### Common errors
+
+1. A student joins an existential quantifier with "if ... then". The statement "there is a real $x$ such that if $x > 0$, then $x^2 = -1$" is true, because $x = -1$ makes the hypothesis false. The intended "there is $x > 0$ with $x^2 = -1$" is false.
+2. A student moves a quantifier to the end of a sentence and changes its order. "There is $\delta > 0$ with $|f(x) - f(a)| < \varepsilon$ when $|x - a| < \delta$, for all $\varepsilon > 0$" can be read with $\delta$ chosen before $\varepsilon$, which is a different statement.
+3. A student uses "any" where it can mean "every" or "some". See [[ambiguity in mathematical language|8BZPKYF912]].
+4. A student proves a universal statement by checking examples. The examples prove only the instances that were checked.
+
+## Explanations
+
+### L1 human
+
+"Every child in the class has a pencil" is a claim about all the children.
+One child without a pencil makes it false.
+"Some child in the class has a pencil" is a claim that at least one child has one.
+One child with a pencil makes it true.
+In mathematics, "every number from $1$ to $5$ is less than $6$" is true, and "some number from $1$ to $5$ is even" is true, because $2$ is even.
+The words "every" and "some" are the two quantifiers.
+
+### L2 human
+
+We write the definition "a function $f \colon \mathbb{R} \to \mathbb{R}$ is increasing if $f(x) \leq f(y)$ whenever $x \leq y$" with explicit quantifiers.
+
+1. The variables $x$ and $y$ are not given values, so each one has a hidden universal quantifier over $\mathbb{R}$.
+2. The word "whenever" introduces the hypothesis of a conditional.
+3. So "$f$ is increasing" means: for all $x \in \mathbb{R}$ and for all $y \in \mathbb{R}$, if $x \leq y$, then $f(x) \leq f(y)$.
+4. Check for $f(x) = x^3$: if $x \leq y$, then $y^3 - x^3 = (y - x)(x^2 + xy + y^2)$, and $x^2 + xy + y^2 = (x + \tfrac{y}{2})^2 + \tfrac{3}{4}y^2 \geq 0$. So $f(x) \leq f(y)$, and $f$ is increasing.
+5. Negation, by property 2: $f$ is not increasing when there are $x, y \in \mathbb{R}$ with $x \leq y$ and $f(x) > f(y)$. For $f(x) = x^2$, the pair $x = -2$, $y = 0$ gives $4 > 0$, so $x^2$ is not increasing.
+
+The typical use is in proofs: a universal goal starts with "let $x$ and $y$ be arbitrary", and an existential goal ends with a specific object.
+
+A trap: in step 5, the negation keeps $x \leq y$ and negates only the conclusion.
+It is not "for all $x \leq y$, $f(x) > f(y)$".
+
+### L3 human
+
+In [[predicate logic|086QKPF0A6]], the two quantifiers bind variables in formulas, and a bounded quantifier is a quantifier relativized to a definable set.
+Mathematical writing also uses quantifiers that are not first-order: "for infinitely many $n$", "for almost every $x$" and "for all sufficiently large $n$".
+The last two are [[filter quantifiers|EAJH1P4MK9]], and all three are [[generalized quantifiers|MFV98WTF4G]].
+
+The quantifiers are infinite forms of "and" and "or", and they obey the same laws of duality.
+A statement $\forall x \, \exists y \, P(x, y)$ is equivalent, with the axiom of choice, to the existence of a function $g$ with $P(x, g(x))$ for all $x$, a Skolem function.
+In category theory, $\exists$ and $\forall$ are the left and the right adjoint of substitution, as Lawvere observed.
+In arithmetic, formulas with only bounded quantifiers are decidable, and they are the base of the arithmetical hierarchy.
