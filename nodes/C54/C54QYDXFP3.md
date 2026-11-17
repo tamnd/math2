@@ -48,4 +48,4 @@ Then the step from $Q(n)$ to $Q(n + 1)$ only needs one new case, $P(n)$, which t
 
 1. Many books define $<$ as the order of $\mathbb{N}$ and take Lemmas B and C as known facts. Then the proof is steps 10 to 15 only.
 2. Some books apply ordinary induction to $Q'(n)$: "$P(k)$ holds for every $k \le n$". The base case is then $P(0)$, which the hypothesis of the statement gives with no assumption.
-3. Strong induction also follows from the [[well-ordering principle|01BX15HSRR]]: if some $P(n)$ fails, a least such $n$ exists. Then $P(k)$ holds for all $k < n$, and the hypothesis of the statement gives $P(n)$, a contradiction. The [[equivalence of induction and well-ordering|~00389da2]] has the details.
+3. Strong induction also follows from the [[well-ordering principle|01BX15HSRR]]: if some $P(n)$ fails, a least such $n$ exists. Then $P(k)$ holds for all $k < n$, and the hypothesis of the statement gives $P(n)$, a contradiction. The [[equivalence of induction and well-ordering|J2P9FWBP3Q]] has the details.

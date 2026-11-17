@@ -105,7 +105,7 @@ We check the step of the false proof for $n + 1 = 3$ and for $n + 1 = 2$.
 The typical use of this argument is as a test for an induction step: the step must hold for each $n$ from the base case on.
 A trap is to check the step only for large $n$.
 In a correct proof with a similar overlap, the base case must cover every $n$ for which the overlap can be empty.
-More errors of this kind are listed in [[errors in induction proofs|~43bd251e]].
+More errors of this kind are listed in [[errors in induction proofs|V52HDTMPV5]].
 
 ### L3 human
 

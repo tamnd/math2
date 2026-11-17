@@ -48,4 +48,4 @@ Totality of the order is what makes "nothing smaller is in the set" mean "this i
 ## Variants
 
 1. Ordinary [[induction|0ASJVEFA9J]] on $n$ proves the claim "each subset of $\mathbb{N}$ that contains a number $k \le n$ has a least element". In the base case, $0 \in A$ is least. In the step, either $A$ contains a number $\le n$ and the hypothesis applies, or $n + 1$ is the only element of $A$ below $n + 2$ and it is least.
-2. The [[equivalence of induction and well-ordering|~00389da2]] gives the converse: the well-ordering principle implies induction, when each nonzero natural number is a successor.
+2. The [[equivalence of induction and well-ordering|J2P9FWBP3Q]] gives the converse: the well-ordering principle implies induction, when each nonzero natural number is a successor.

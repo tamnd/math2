@@ -7,7 +7,7 @@ msc: ["11D99", "00A35"]
 topics: [G9JFJGY4TQ, EEH2F76CYQ]
 audience: ug1
 specializes: [0B94TKFQJX]
-uses: [01BX15HSRR, ~f8c099da, 0J0XBKG64S, 08B1RTW7VZ]
+uses: [01BX15HSRR, JGRCNPKNGG, 0J0XBKG64S, 08B1RTW7VZ]
 sources:
   - url: https://en.wikipedia.org/wiki/Proof_by_infinite_descent
     locator: lead section
@@ -56,20 +56,20 @@ The rule is often found with divisibility: if a prime divides every term of a so
 6. Conclude that $S$ is empty.
 
 The minimal form replaces steps 3 to 6 by one contradiction: take $x$ in $S$ with the least size, and build $y$ in $S$ with $s(y) < s(x)$.
-This minimal form is the [[minimal counterexample|~f8c099da]] method, in which the counterexamples are the solutions.
+This minimal form is the [[minimal counterexample|JGRCNPKNGG]] method, in which the counterexamples are the solutions.
 
 ### Examples
 
 1. The [[irrationality of the square root of 2|0DZGSDHD92]]: a solution of $a^2 = 2 b^2$ in positive integers gives the smaller solution $(2b - a, a - b)$.
-2. [[The equation x² + y² = 3z² has only the zero solution|~1b04b102]]: $3$ divides $x$, $y$ and $z$, so $(x/3, y/3, z/3)$ is a smaller solution.
-3. [[The equation x³ + 2y³ + 4z³ = 0 has only the zero solution|~40e4e331]]: $2$ divides $x$, $y$ and $z$, so $(x/2, y/2, z/2)$ is a smaller solution.
+2. [[The equation x² + y² = 3z² has only the zero solution|SWDMY3XJKF]]: $3$ divides $x$, $y$ and $z$, so $(x/3, y/3, z/3)$ is a smaller solution.
+3. [[The equation x³ + 2y³ + 4z³ = 0 has only the zero solution|TTMCPREC0F]]: $2$ divides $x$, $y$ and $z$, so $(x/2, y/2, z/2)$ is a smaller solution.
 4. [[Fermat's right triangle theorem|086BE0J3FZ]]: no right triangle with integer sides has a square area. Its [[proof by descent|8195EFVX2N]] builds a smaller such triangle from each one, and it gives [[Fermat's Last Theorem for n = 4|0E741HSMJ1]].
 5. [[Lagrange's four-square theorem|0KYYSMEVHH]]: its [[proof by descent|GBQDYYA8SE]] lowers the multiple $m p$ of a prime $p$ that is a sum of four squares until $m = 1$.
-6. [[Every integer at least 2 has a prime divisor|~f5eefa58]]: a number with no prime divisor has a smaller factor with no prime divisor.
+6. [[Every integer at least 2 has a prime divisor|VSHHBWWXVX]]: a number with no prime divisor has a smaller factor with no prime divisor.
 
 ### Non-examples
 
-1. [[The pairs with x = 2y do not descend|~e4645793]]: the map $(x, y) \mapsto (y, y/2)$ makes smaller pairs, but it leaves the positive integers, so step 4 fails. The equation does have solutions.
+1. [[The pairs with x = 2y do not descend|3VFY8XCBEQ]]: the map $(x, y) \mapsto (y, y/2)$ makes smaller pairs, but it leaves the positive integers, so step 4 fails. The equation does have solutions.
 2. A chain in $\mathbb{Z}$ such as $0 > -1 > -2 > \cdots$ is infinite and decreasing. A descent with sizes in $\mathbb{Z}$ proves nothing, because step 2 needs sizes in $\mathbb{N}$.
 3. A chain in the positive rationals such as $1 > \tfrac12 > \tfrac14 > \cdots$ is also infinite and decreasing. Sizes in $\mathbb{Q}$ fail for the same reason.
 
@@ -124,4 +124,4 @@ Infinite descent is the statement that the order of $\mathbb{N}$ is well-founded
 In this form it extends to every [[well-founded relation|0DQPNJNPYK]], and it is the same principle as well-founded induction.
 In number theory, descent became a structural method: for an elliptic curve $E$ over $\mathbb{Q}$, a height function plays the role of the size, and the finiteness of $E(\mathbb{Q})/2E(\mathbb{Q})$ together with descent on the height gives the [[Mordell-Weil theorem|MXRCPAH09H]].
 In logic, a proof that a process terminates by a measure that decreases in a well-ordered set is a descent argument, and Gentzen's consistency proof of arithmetic uses a descent along ordinals below $\varepsilon_0$.
-The related pages are the [[minimal counterexample|~f8c099da]] and the [[equivalence of induction and well-ordering|~00389da2]].
+The related pages are the [[minimal counterexample|JGRCNPKNGG]] and the [[equivalence of induction and well-ordering|J2P9FWBP3Q]].

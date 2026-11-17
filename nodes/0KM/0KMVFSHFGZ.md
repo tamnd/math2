@@ -47,9 +47,9 @@ In practice the small values of $n$ for which the general argument does not work
 
 ### Examples
 
-1. [[Postage with stamps of $4$ and $5$ cents|~aac374d2]]: every amount $n \ge 12$ is $4a + 5b$, with four base cases $12, 13, 14, 15$ and a step from $n - 4$ to $n$.
-2. [[Each integer $n \ge 2$ is a product of primes|~5e97f240]]: a composite $n = ab$ uses the cases $a$ and $b$, which are not $n - 1$.
-3. The bound $F_n < 2^n$ for the Fibonacci numbers uses the two cases $n - 1$ and $n - 2$, so it needs the [[two base cases $F_0$ and $F_1$|~e88f896d]].
+1. [[Postage with stamps of $4$ and $5$ cents|HQQGKAXCSW]]: every amount $n \ge 12$ is $4a + 5b$, with four base cases $12, 13, 14, 15$ and a step from $n - 4$ to $n$.
+2. [[Each integer $n \ge 2$ is a product of primes|818MZC1FYJ]]: a composite $n = ab$ uses the cases $a$ and $b$, which are not $n - 1$.
+3. The bound $F_n < 2^n$ for the Fibonacci numbers uses the two cases $n - 1$ and $n - 2$, so it needs the [[two base cases $F_0$ and $F_1$|3ZDPCTKC9M]].
 4. The uniqueness part of the [[fundamental theorem of arithmetic|CTSV0ZESYF]] is proved by strong induction on $n$.
 
 ### Why each hypothesis is needed
@@ -62,12 +62,12 @@ In practice the small values of $n$ for which the general argument does not work
 
 1. Ordinary [[mathematical induction|0ASJVEFA9J]] is a special case: its step uses only $P(n - 1)$, which is one of the cases $k < n$.
 2. The [[well-ordering principle|01BX15HSRR]] follows from strong induction, by the [[proof with the property $n \notin A$|QPX5Z5YFH8]].
-3. The [[minimal counterexample|~f8c099da]] method and [[infinite descent|0EFYCFHYFG]] are strong induction in contrapositive form.
+3. The [[minimal counterexample|JGRCNPKNGG]] method and [[infinite descent|0EFYCFHYFG]] are strong induction in contrapositive form.
 
 ### Converse
 
 The converse direction also holds: strong induction implies ordinary induction, and the [[proof from ordinary induction|C54QYDXFP3]] shows that ordinary induction implies strong induction.
-So the two principles are equivalent, together with the well-ordering principle; the [[equivalence of induction and well-ordering|~00389da2]] states the base theory.
+So the two principles are equivalent, together with the well-ordering principle; the [[equivalence of induction and well-ordering|J2P9FWBP3Q]] states the base theory.
 Strong induction is "strong" in what a proof may assume, not in what it can prove.
 
 ### Names
@@ -114,6 +114,6 @@ One base case leaves $P(1)$ unproved when the step starts at $n = 2$.
 
 Strong induction on $\mathbb{N}$ is the special case of well-founded induction for the relation $<$.
 For any well-founded relation $R$ on a set $X$, if each $x$ has property $P$ whenever all its $R$-predecessors have it, then every element of $X$ has $P$.
-This includes induction over $\mathbb{N} \times \mathbb{N}$ in [[lexicographic order|0B68KNPGCG]], [[structural induction|~f9cfa40d]] over trees, and transfinite induction over the ordinals.
+This includes induction over $\mathbb{N} \times \mathbb{N}$ in [[lexicographic order|0B68KNPGCG]], [[structural induction|12MQ2NJ29A]] over trees, and transfinite induction over the ordinals.
 In computability theory, the same pattern defines functions by course-of-values recursion.
 In type theory, strong induction is derived from the recursor of the natural numbers, as in the [[proof from ordinary induction|C54QYDXFP3]].

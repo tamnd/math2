@@ -35,7 +35,7 @@ That is, if $A \subseteq \mathbb{N}$ and $A \neq \emptyset$, then there is an el
 
 The [[proof from strong induction|QPX5Z5YFH8]] assumes that $A$ has no least element and shows, by [[strong induction|0KMVFSHFGZ]], that no number lies in $A$.
 Conversely, the principle implies ordinary [[induction|0ASJVEFA9J]] when each nonzero natural number is a successor.
-The [[equivalence of induction and well-ordering|~00389da2]] states the three principles and the base theory in which they are equivalent.
+The [[equivalence of induction and well-ordering|J2P9FWBP3Q]] states the three principles and the base theory in which they are equivalent.
 
 ### Basic facts
 
@@ -46,12 +46,12 @@ The [[equivalence of induction and well-ordering|~00389da2]] states the three pr
 ### Why each hypothesis is needed
 
 1. The set must be nonempty: the empty set has no least element.
-2. The set must consist of natural numbers. The [[failure for the integers and the positive rationals|~063fd5b5]] shows two sets with no least element: the negative integers, and the positive rational numbers.
+2. The set must consist of natural numbers. The [[failure for the integers and the positive rationals|CY6WC4F1RP]] shows two sets with no least element: the negative integers, and the positive rational numbers.
 3. The order must be the usual order of $\mathbb{N}$. For the reversed order $\ge$ on $\mathbb{N}$, the set $\mathbb{N}$ has no least element, because each $n$ has $n + 1 \ge n$.
 
 ### Consequences
 
-1. The [[minimal counterexample|~f8c099da]] method: if a property fails for some natural number, it fails for a least one.
+1. The [[minimal counterexample|JGRCNPKNGG]] method: if a property fails for some natural number, it fails for a least one.
 2. [[Infinite descent|0EFYCFHYFG]]: there is no infinite strictly decreasing sequence of natural numbers, because the set of its terms would have no least element.
 3. Division with remainder: for integers $a \ge 0$ and $b \ge 1$, the least element of $\{a - qb : q \in \mathbb{N}, \ a - qb \ge 0\}$ is the remainder $r$, with $0 \le r < b$.
 4. The [[Euclidean algorithm|0TRNT4X7J0]] stops, because the remainders form a strictly decreasing sequence of natural numbers.

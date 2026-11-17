@@ -1,0 +1,86 @@
+---
+tag: VRVKTEHBB0
+kind: example
+name: Balanced strings of parentheses as an inductively defined set
+msc: ["00A35", "68Q45"]
+topics: [EEH2F76CYQ]
+audience: ug1
+instance_of: [AM4GQQMZ3C]
+uses: [AM4GQQMZ3C, D9FCP61J44, 0ASJVEFA9J]
+sources:
+  - url: https://en.wikipedia.org/wiki/Dyck_language
+    locator: Formal definition
+  - url: https://en.wikipedia.org/wiki/Recursive_definition
+    locator: Form of recursive definitions
+---
+
+## Example
+
+Let $U$ be the set of finite [[strings|D9FCP61J44]] of the two symbols "(" and ")", and let $\varepsilon$ be the empty string.
+We define the set $\mathcal{B} \subseteq U$ of balanced strings by an [[inductive definition|AM4GQQMZ3C]].
+
+- Base: $\varepsilon \in \mathcal{B}$.
+- Rule 1: if $w \in \mathcal{B}$, then $(w) \in \mathcal{B}$.
+- Rule 2: if $u \in \mathcal{B}$ and $v \in \mathcal{B}$, then $uv \in \mathcal{B}$.
+- $\mathcal{B}$ is the smallest subset of $U$ with these three properties.
+
+First we check that the string $(()())$ is in $\mathcal{B}$.
+
+1. By the base clause, $\varepsilon \in \mathcal{B}$.
+2. Rule 1 with $w = \varepsilon$ gives $() \in \mathcal{B}$.
+3. Rule 2 with $u = v = ()$ gives $()() \in \mathcal{B}$.
+4. Rule 1 with $w = ()()$ gives $(()()) \in \mathcal{B}$.
+
+Next we prove a property of all members by induction on the rules.
+For a string $s$, let $L(s)$ be the number of symbols "(" in $s$ and $R(s)$ the number of symbols ")".
+Claim: $L(s) = R(s)$ for each $s \in \mathcal{B}$.
+
+1. Let $C = \{s \in U : L(s) = R(s)\}$. We show that $C$ has the three closure properties.
+2. Base: $L(\varepsilon) = 0 = R(\varepsilon)$, so $\varepsilon \in C$.
+3. Rule 1: let $w \in C$. Then $L((w)) = L(w) + 1$ and $R((w)) = R(w) + 1$, and these are equal because $L(w) = R(w)$. So $(w) \in C$.
+4. Rule 2: let $u, v \in C$. The counts add under concatenation, so $L(uv) = L(u) + L(v) = R(u) + R(v) = R(uv)$. So $uv \in C$.
+5. Steps 2 to 4 show that $C$ is closed under the base and the rules.
+6. The set $\mathcal{B}$ is the smallest such set, so $\mathcal{B} \subseteq C$. This proves the claim.
+
+Finally we show that the string $)($ is not in $\mathcal{B}$.
+It has one symbol of each kind, so the claim above does not exclude it, and we need a second property.
+
+1. Let $D$ be the set of strings that are empty or start with "(".
+2. Base: $\varepsilon \in D$.
+3. Rule 1: each string $(w)$ starts with "(", so it is in $D$.
+4. Rule 2: let $u, v \in D$. If $u$ is not empty, then $uv$ starts with the first symbol of $u$, which is "(". If $u$ is empty, then $uv = v \in D$.
+5. So $D$ is closed, and $\mathcal{B} \subseteq D$.
+6. The string $)($ starts with ")", so it is not in $D$, and therefore it is not in $\mathcal{B}$.
+
+## Remarks
+
+1. The example shows the two uses of an inductive definition: to show that an object is in the set, build it by the rules; to show that all members have a property, check the base and each rule.
+2. To show that an object is not in the set, find a property that all members have and the object lacks. The property "$L = R$" is not enough for $)($, and the property "empty or starts with (" is.
+3. The set $\mathcal{B}$ is the set of [[Dyck words|0YTJ3RN3GE]]. A string is in $\mathcal{B}$ exactly when $L(s) = R(s)$ and each prefix of $s$ has at least as many symbols "(" as ")". The direction from $\mathcal{B}$ to the prefix condition is one more induction on the rules, of the same form as above.
+4. If we drop Rule 2, the smallest closed set is $\{\varepsilon, (), (()), ((())), \ldots\}$, and $()()$ is no longer a member.
+5. The grammar is ambiguous: $()()()$ is built as $u v$ with $u = ()()$ or with $u = ()$. A definition by recursion on this grammar must give the same value for both ways.
+
+## Explanations
+
+### L1 human
+
+Think of brackets in a calculation that are opened and closed correctly.
+The empty string counts as correct.
+If a string is correct, then putting it inside one more pair of brackets keeps it correct.
+Two correct strings written one after the other are correct too.
+Starting from nothing, these rules give $()$, then $()()$, then $(()())$.
+Each rule adds as many opening brackets as closing ones, so every correct string has equal numbers of each.
+
+### L2 human
+
+We show by induction on the rules that each $s \in \mathcal{B}$ has even length.
+
+1. Let $E$ be the set of strings of even length.
+2. The empty string has length $0$, which is even, so $\varepsilon \in E$.
+3. If $w$ has even length $2k$, then $(w)$ has length $2k + 2 = 2(k + 1)$, which is even.
+4. If $u$ and $v$ have even lengths $2j$ and $2k$, then $uv$ has length $2(j + k)$, which is even.
+5. So $E$ is closed, and $\mathcal{B} \subseteq E$.
+
+This also follows from the claim $L(s) = R(s)$, because the length is $L(s) + R(s) = 2L(s)$.
+The typical use of the method is a proof about all strings, terms or trees that a grammar produces.
+A trap is to prove only that the rules keep the property and to forget the base clause.

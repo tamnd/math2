@@ -1,0 +1,70 @@
+---
+tag: EXRJ0JF2Q3
+kind: example
+name: Tiling a 2^n by 2^n board with one square removed by L-trominoes
+msc: ["05B50", "00A35"]
+topics: [EEH2F76CYQ]
+audience: school
+instance_of: [0ASJVEFA9J]
+uses: [0ASJVEFA9J]
+sources:
+  - url: https://en.wikipedia.org/wiki/Tromino
+    locator: Rep-tiling and Golomb's tromino theorem
+---
+
+## Example
+
+An L-tromino is the shape made of three unit squares that form an L, that is, a $2 \times 2$ square with one unit square removed.
+A deficient board is a square board of unit squares with one square removed.
+Claim: for each integer $n \ge 1$, every deficient $2^n \times 2^n$ board can be tiled by L-trominoes, wherever the removed square is.
+We prove the claim by [[mathematical induction|0ASJVEFA9J]] on $n$.
+
+1. Let $P(n)$ be the statement "for each square $s$ of the $2^n \times 2^n$ board, the board with $s$ removed can be tiled by L-trominoes".
+2. Base case $n = 1$: a $2 \times 2$ board with one square removed is itself an L-tromino. So $P(1)$ holds.
+3. Induction step: let $n \ge 1$, and assume $P(n)$. Take a $2^{n+1} \times 2^{n+1}$ board with a square $s$ removed.
+4. Cut the board along its two middle lines into four quarters. Each quarter is a $2^n \times 2^n$ board.
+5. The square $s$ lies in exactly one quarter. Each of the other three quarters has one corner square at the centre of the big board.
+6. Those three centre squares form an L-tromino. Place one L-tromino on them.
+7. Now each quarter has exactly one square that is removed or already covered: $s$ in its own quarter, and a centre square in each of the others.
+8. By $P(n)$, applied to each quarter with that square, each quarter can be tiled by L-trominoes.
+9. The four tilings and the centre tromino together tile the big board with $s$ removed. So $P(n + 1)$ holds.
+10. By induction, $P(n)$ holds for every $n \ge 1$.
+
+## Remarks
+
+1. The induction hypothesis must allow the removed square to be anywhere. In step 8, the quarters have their missing squares at different places, and $s$ can be any square of its quarter.
+2. A weaker claim, such as "the board with a corner square removed can be tiled", is not enough to carry the step. The stronger claim is easier to prove by induction.
+3. The count of squares agrees: a deficient $2^n \times 2^n$ board has $4^n - 1$ squares, and $4^n - 1$ is divisible by $3$ because $4 \equiv 1 \pmod 3$. So a tiling uses $(4^n - 1)/3$ trominoes.
+4. The case $n = 0$ also holds: a $1 \times 1$ board with its one square removed is empty, and it is tiled by no trominoes.
+5. The proof is also a recursive algorithm. It places one tromino at the centre and then tiles the four quarters in the same way.
+6. Solomon W. Golomb gave this result in his 1954 article "Checker boards and polyominoes", in the American Mathematical Monthly.
+
+## Explanations
+
+### L1 human
+
+Take a $4 \times 4$ chessboard and cover one square with a coin.
+We want to cover the other $15$ squares with L-shaped pieces made of three squares, with no overlap.
+Cut the board into four $2 \times 2$ corners.
+The coin is in one corner.
+Put one L-piece in the middle, so that it covers one square of each of the other three corners.
+Now each $2 \times 2$ corner has one square that is taken, and the three free squares form an L.
+So $5$ pieces cover the board.
+For an $8 \times 8$ board, the same cut gives four $4 \times 4$ boards, and we already know how to do those.
+
+### L2 human
+
+We carry out the proof for $n = 2$, with the removed square in the top left corner.
+Number the rows $1$ to $4$ from the top and the columns $1$ to $4$ from the left, and write $(r, c)$ for a square.
+
+1. The removed square is $s = (1, 1)$. It lies in the top left quarter.
+2. The centre squares of the other quarters are $(2, 3)$, $(3, 2)$ and $(3, 3)$. The centre tromino covers these three squares.
+3. Top left quarter: the free squares are $(1, 2)$, $(2, 1)$, $(2, 2)$. They form one tromino.
+4. Top right quarter: the free squares are $(1, 3)$, $(1, 4)$, $(2, 4)$. They form one tromino.
+5. Bottom left quarter: the free squares are $(3, 1)$, $(4, 1)$, $(4, 2)$. They form one tromino.
+6. Bottom right quarter: the free squares are $(3, 4)$, $(4, 3)$, $(4, 4)$. They form one tromino.
+7. This gives $5$ trominoes, and $(4^2 - 1)/3 = 5$.
+
+The typical use of this example is to show an induction where the step splits an object of size $n + 1$ into several objects of size $n$.
+A trap is to state $P(n)$ for one fixed position of the removed square.
+Then the hypothesis does not apply to the quarters in step 8.

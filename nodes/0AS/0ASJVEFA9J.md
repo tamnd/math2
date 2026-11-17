@@ -66,35 +66,35 @@ The proof of $P(n + 1)$ must use the induction hypothesis $P(n)$ at some point, 
 For $n_0 = 0$, the method is the induction axiom of the [[Peano axioms|0QFT7Z76N5]]: a set of natural numbers that contains $0$ and contains $n + 1$ whenever it contains $n$ is the whole set $\mathbb{N}$.
 We apply the axiom to the set $\{n \in \mathbb{N} : P(n)\}$.
 The [[induction from an arbitrary base case|0GF6AJEBZ0]] reduces a base $n_0$ to the base $0$ with the property $Q(k) = P(n_0 + k)$.
-The method is also equivalent to the [[well-ordering principle|01BX15HSRR]]; the exact statement is [[equivalence of induction and well-ordering|~00389da2]].
+The method is also equivalent to the [[well-ordering principle|01BX15HSRR]]; the exact statement is [[equivalence of induction and well-ordering|J2P9FWBP3Q]].
 
 ### Examples
 
-1. The [[sum of the first $n$ odd numbers|~1bcf035c]] is $n^2$, because the step adds $2n + 1$ to $n^2$ and gets $(n + 1)^2$.
-2. The inequality [[$2^n > n^2$ for $n \ge 5$|~41ae853b]] needs the base case $n_0 = 5$, because it fails for $n = 2, 3, 4$.
+1. The [[sum of the first $n$ odd numbers|QSWRESJAZ4]] is $n^2$, because the step adds $2n + 1$ to $n^2$ and gets $(n + 1)^2$.
+2. The inequality [[$2^n > n^2$ for $n \ge 5$|ST5ZESV7ZR]] needs the base case $n_0 = 5$, because it fails for $n = 2, 3, 4$.
 3. The [[divisibility of $n^3 - n$ by $3$|7RZDHDFSPT]]: the step adds $3n^2 + 3n$, a multiple of $3$.
-4. The [[tiling of a deficient $2^n \times 2^n$ board by L-trominoes|~b797f4c6]]: the step cuts the board of side $2^{n+1}$ into four boards of side $2^n$.
+4. The [[tiling of a deficient $2^n \times 2^n$ board by L-trominoes|EXRJ0JF2Q3]]: the step cuts the board of side $2^{n+1}$ into four boards of side $2^n$.
 5. [[Bernoulli's inequality|0M1MX28VXK]] $(1 + x)^n \ge 1 + nx$ for $x \ge -1$: the step multiplies both sides by $1 + x \ge 0$.
 
 ### Non-examples
 
-1. The [[check of $n^2 + n + 41$ for $n = 0$ to $39$|~b1de7bfe]] is not a proof by induction, because it has no induction step. The claim fails at $n = 40$.
+1. The [[check of $n^2 + n + 41$ for $n = 0$ to $39$|Q54K0J3PZ4]] is not a proof by induction, because it has no induction step. The claim fails at $n = 40$.
 2. The argument that [[all horses are the same color|AJ2FDJJGTH]] is not a valid induction, because its induction step fails for $n = 1$.
-3. A proof of $P(n + 1)$ from $P(n)$ alone, with no base case, is not a proof by induction. The [[false claim that $n^2 + n$ is odd|~0fc1eddf]] has a correct step and no true base case.
+3. A proof of $P(n + 1)$ from $P(n)$ alone, with no base case, is not a proof by induction. The [[false claim that $n^2 + n$ is odd|TYDB4F6J2F]] has a correct step and no true base case.
 
 ### Variants
 
 1. [[Induction from an arbitrary base case|0GF6AJEBZ0]]: the base case is $n_0$ instead of $0$.
 2. [[Induction on the integers|0HBS1F00DN]]: a base case at $0$ and two steps, $n \mapsto n + 1$ and $-n \mapsto -n - 1$, cover all of $\mathbb{Z}$.
 3. [[Strong induction|0KMVFSHFGZ]]: the step may use all the cases below $n$.
-4. [[Double induction|~2da822d1]], [[forward-backward induction|~637757fb]] and [[structural induction|~f9cfa40d]] change the order or the objects of the induction.
-5. [[Infinite descent|0EFYCFHYFG]] and the [[minimal counterexample|~f8c099da]] method use the same principle in the contrapositive form.
+4. [[Double induction|AABX4YPKRR]], [[forward-backward induction|QC9FKGZH1V]] and [[structural induction|12MQ2NJ29A]] change the order or the objects of the induction.
+5. [[Infinite descent|0EFYCFHYFG]] and the [[minimal counterexample|JGRCNPKNGG]] method use the same principle in the contrapositive form.
 
 ### Basic properties
 
 1. The conclusion of a proof by induction is certain. Induction is deductive reasoning, and it differs from the [[inductive reasoning|5V35SGEN1T]] of the sciences.
 2. The base case and the step are both needed. Without the base case, the false property "$n = n + 1$" has a valid step. Without the step, a property can hold at $n_0$ and fail later.
-3. To prove $P(n)$ by induction, it is often easier to prove a stronger property, because the induction hypothesis then gives more. This is [[strengthening the induction hypothesis|~80dcedaa]].
+3. To prove $P(n)$ by induction, it is often easier to prove a stronger property, because the induction hypothesis then gives more. This is [[strengthening the induction hypothesis|F94KJC2RXP]].
 4. A proof by induction often gives a recursive algorithm, and the algorithm builds the object whose existence the proof shows.
 
 ### In Lean
@@ -112,9 +112,9 @@ The modern formal treatment came in the 19th century, with Boole, De Morgan, Pei
 
 ### Common errors
 
-1. A student checks the first few cases and stops. A [[check of cases|~b1de7bfe]] is evidence, not a proof.
+1. A student checks the first few cases and stops. A [[check of cases|Q54K0J3PZ4]] is evidence, not a proof.
 2. A student assumes $P(n + 1)$ in the induction step and derives a true statement from it. The step must start from $P(n)$ and end at $P(n + 1)$.
-3. A student proves the step with an argument that fails for small $n$, as in the [[horse argument|AJ2FDJJGTH]]. The step must work for every $n \ge n_0$. More errors are in [[errors in induction proofs|~43bd251e]].
+3. A student proves the step with an argument that fails for small $n$, as in the [[horse argument|AJ2FDJJGTH]]. The step must work for every $n \ge n_0$. More errors are in [[errors in induction proofs|V52HDTMPV5]].
 
 ## Explanations
 
@@ -148,7 +148,7 @@ The formula usually comes from experiments with small cases.
 
 Induction says that $\mathbb{N}$ is the smallest set that contains $0$ and is closed under the successor map.
 In the language of categories, $(\mathbb{N}, 0, S)$ is the initial algebra of the functor $X \mapsto 1 + X$, and induction is the statement that it has no proper subalgebra.
-The same idea gives [[structural induction|~f9cfa40d]] over lists, trees and formulas, and well-founded induction over any well-founded relation.
+The same idea gives [[structural induction|12MQ2NJ29A]] over lists, trees and formulas, and well-founded induction over any well-founded relation.
 In set theory the method extends to transfinite induction over the ordinals, and in type theory each inductive type has its own induction principle.
 In first-order arithmetic, induction is an axiom schema, and the strength of the schema for restricted classes of formulas measures the strength of fragments of Peano arithmetic.
-The later pages of this topic treat the [[equivalence with well-ordering|~00389da2]] and the methods that are built on it.
+The later pages of this topic treat the [[equivalence with well-ordering|J2P9FWBP3Q]] and the methods that are built on it.

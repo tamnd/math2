@@ -22,18 +22,18 @@ The induction axiom of the Peano axioms and transfinite induction belong to othe
 1. [[Mathematical induction|0ASJVEFA9J]]: the base case and the induction step.
 2. [[Strong induction|0KMVFSHFGZ]]: assume all earlier cases, with several base cases if needed.
 3. [[Well-ordering principle|01BX15HSRR]]: every nonempty set of natural numbers has a least element.
-4. [[Equivalence of induction and well-ordering|~00389da2]]: the three principles prove each other over a stated base theory.
-5. [[Minimal counterexample|~f8c099da]]: take a smallest counterexample and find a smaller one.
+4. [[Equivalence of induction and well-ordering|J2P9FWBP3Q]]: the three principles prove each other over a stated base theory.
+5. [[Minimal counterexample|JGRCNPKNGG]]: take a smallest counterexample and find a smaller one.
 6. [[Infinite descent|0EFYCFHYFG]]: each solution gives a smaller one, which is impossible in the natural numbers.
-7. [[Strengthening the induction hypothesis|~80dcedaa]]: prove a stronger claim to make the step work.
-8. [[Double induction|~2da822d1]]: induction on two variables, in lexicographic order.
-9. [[Forward-backward induction|~637757fb]]: prove the claim for powers of $2$, then step down.
-10. [[Structural induction|~f9cfa40d]]: induction over lists, trees and other inductively defined sets.
-11. [[Inductive and recursive definitions|~f88732af]]: sets and sequences defined by a base and rules.
-12. [[Induction on size|~ad849a99]]: induction on the number of vertices, elements or the degree.
+7. [[Strengthening the induction hypothesis|F94KJC2RXP]]: prove a stronger claim to make the step work.
+8. [[Double induction|AABX4YPKRR]]: induction on two variables, in lexicographic order.
+9. [[Forward-backward induction|QC9FKGZH1V]]: prove the claim for powers of $2$, then step down.
+10. [[Structural induction|12MQ2NJ29A]]: induction over lists, trees and other inductively defined sets.
+11. [[Inductive and recursive definitions|AM4GQQMZ3C]]: sets and sequences defined by a base and rules.
+12. [[Induction on size|B2D8PTFNN1]]: induction on the number of vertices, elements or the degree.
 13. [[All horses are the same color|AJ2FDJJGTH]]: a false proof whose step fails from $1$ to $2$.
-14. [[Tiling a deficient board with L-trominoes|~b797f4c6]]: a picture proof by induction.
-15. [[Errors in induction proofs|~43bd251e]]: the common errors, with examples.
+14. [[Tiling a deficient board with L-trominoes|EXRJ0JF2Q3]]: a picture proof by induction.
+15. [[Errors in induction proofs|V52HDTMPV5]]: the common errors, with examples.
 
 ### Prerequisites
 
