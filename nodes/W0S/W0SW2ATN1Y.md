@@ -1,0 +1,100 @@
+---
+tag: W0SW2ATN1Y
+kind: statement
+role: theorem
+name: Poincaré's theorem on subgroups of finite index
+msc: ["20A05"]
+topics: [1VHQWXC64D]
+audience: ug2
+about: [0DTXBQPA2S, 0CB0DX5BVV, 0GETX79CJN]
+uses: [G5S1M9, 0X1JXT47GA, 0DTXBQPA2S, 0CB0DX5BVV, 0ZQJ7KEFQ5, 0AZG100DKH, 3C53TD]
+sources:
+  - url: https://en.wikipedia.org/wiki/Index_of_a_subgroup
+    locator: Properties
+  - url: https://en.wikipedia.org/wiki/Index_of_a_subgroup
+    locator: Finite index
+---
+
+## Statement
+
+Let $G$ be a [[group|G5S1M9]], and let $H$ and $K$ be [[subgroups|0X1JXT47GA]] of $G$.
+Write $[G : H]$ for the [[index|0DTXBQPA2S]] of $H$ in $G$.
+
+1. Assume that $[G : H]$ and $[G : K]$ are finite. Then $H \cap K$ has finite index in $G$, and $[G : H \cap K] \le [G : H] \cdot [G : K]$.
+2. Assume that $[G : H] = n$ is finite. Then $H$ contains a [[normal subgroup|0CB0DX5BVV]] $N$ of $G$ such that $[G : N]$ divides $n!$ and $n$ divides $[G : N]$.
+
+In part 2, one can take $N$ to be the [[normal core|0GETX79CJN]] $\bigcap_{g \in G} gHg^{-1}$ of $H$.
+
+## Remarks
+
+### Why each hypothesis is needed
+
+- Part 1 needs both indices to be finite. In $G = \mathbb{Z}^2$, let $H = 2\mathbb{Z} \times \mathbb{Z}$, of index $2$, and $K = \mathbb{Z} \times \{0\}$, of infinite index. Then $H \cap K = 2\mathbb{Z} \times \{0\}$ has infinite index, because it lies in $K$.
+- Part 2 needs the index of $H$ to be finite. Let $G$ be the group of the permutations of $\{1, 2, 3, \ldots\}$ that move only finitely many points. Let $H$ be the stabiliser of the point $1$.
+- In this example $[G : H]$ is infinite, because the transpositions $(1\,k)$ for $k \ge 2$ lie in distinct left cosets of $H$.
+- A normal subgroup $N \le H$ lies in each conjugate $gHg^{-1}$, which is the stabiliser of $g(1)$. Each point is some $g(1)$, so $N = \{e\}$, and $\{e\}$ has infinite index in the infinite group $G$.
+
+### Consequences
+
+- The intersection of finitely many subgroups of finite index has finite index. This follows from part 1 by induction on the number of subgroups.
+- If $G$ has a proper subgroup $H$ of finite index, then $G$ has a proper normal subgroup of finite index, because $N \le H \ne G$.
+- An infinite [[simple group|0YMYMNQ0QZ]] has no proper subgroup of finite index. Such a subgroup would give a proper normal subgroup of finite index, but the only proper normal subgroup is $\{e\}$, of infinite index.
+- A finite simple group $G$ with a subgroup of index $n > 1$ has order dividing $n!$, because then $N = \{e\}$. For example, the simple group $A_5$ of order $60$ has no subgroup of index $2$, $3$ or $4$. Indeed, $60$ does not divide $2$, $6$ or $24$.
+- A subgroup of index $2$ is normal, [[as this result states|0V547YQRMV]]. For $n = 2$, the index $[G : N]$ divides $2$ and is a multiple of $2$, so $[G : N] = [G : H]$ and $N = H$.
+
+### Converse
+
+Both converses are true.
+If $H \cap K$ has finite index, then $H$ and $K$ have finite index, because $[G : H \cap K] = [G : H] \cdot [H : H \cap K]$ by the [[tower law|0ZQJ7KEFQ5]].
+If $H$ contains a normal subgroup $N$ of finite index, then $[G : H]$ divides $[G : N]$ by the tower law, so $H$ has finite index.
+
+### Generalizations
+
+- If $[G : H \cap K]$ is finite, then equality $[G : H \cap K] = [G : H] \cdot [G : K]$ holds if and only if $HK = G$.
+- A subgroup whose index is the smallest prime that divides $|G|$ is normal, [[by this result|0FEBE9NC0E]]. Its proof also uses the action on cosets and part 2.
+- The bound $[G : N] \mid n!$ comes from the embedding of $G/N$ into the symmetric group $S_n$. Thus $G/N$ is isomorphic to a transitive subgroup of $S_n$.
+- The subgroups of finite index of a group define its profinite topology, which leads to the [[profinite groups|FPGHSQYSYX]].
+
+### Name
+
+Some textbooks attach the name of Henri Poincaré to this result.
+We could not check the original source, so we give no date.
+
+## Explanations
+
+### L1 human
+
+The index of a subgroup counts how many shifted copies of it are needed to cover the group.
+Suppose that one subgroup needs $2$ copies and another subgroup needs $3$ copies.
+Then the elements that lie in both subgroups form a subgroup that needs at most $2 \cdot 3 = 6$ copies.
+In the integers, the even numbers need $2$ copies and the multiples of $3$ need $3$ copies.
+The numbers in both are the multiples of $6$, and they need exactly $6$ copies.
+The second part says that a subgroup with few copies contains a normal subgroup, and this normal subgroup also needs only finitely many copies.
+
+### L2 human
+
+We compute part 2 for $G = S_3$ and $H = \{e, (1\,2)\}$, of index $n = 3$.
+
+1. The left cosets of $H$ are $H$, $(1\,3)H = \{(1\,3), (1\,2\,3)\}$ and $(2\,3)H = \{(2\,3), (1\,3\,2)\}$.
+2. The conjugates of $H$ are $H$, $(1\,3)H(1\,3)^{-1} = \{e, (2\,3)\}$ and $(2\,3)H(2\,3)^{-1} = \{e, (1\,3)\}$.
+3. The intersection of the three conjugates is $N = \{e\}$.
+4. Thus $[G : N] = 6$, which divides $3! = 6$ and is a multiple of $3$.
+
+The typical use is to find a normal subgroup.
+For example, let $G$ be a group of order $36$.
+By the [[Sylow theorems|FESTJ0K9TX]], $G$ has a subgroup $H$ of order $9$, so $[G : H] = 4$.
+Part 2 gives a normal subgroup $N \le H$ such that $[G : N]$ divides $4! = 24$.
+The index $[G : \{e\}] = 36$ does not divide $24$, so $N$ is not $\{e\}$.
+Since $N \le H \ne G$, the subgroup $N$ is proper, so $G$ is not simple.
+
+A trap is to think that $N = H$ in general.
+In the example above, $H$ is not normal, and the normal subgroup $N$ is much smaller than $H$.
+
+### L3 human
+
+Part 2 is the statement that the [[action of $G$ on $G/H$|0AZG100DKH]] by left multiplication is a homomorphism $G \to \operatorname{Sym}(G/H) \cong S_n$ with kernel the core of $H$.
+Thus subgroups of index $n$ correspond to transitive actions on $n$ points, and finite-index questions become questions about permutation groups.
+In combinatorial group theory, this shows that a finitely generated group has only finitely many subgroups of each finite index $n$.
+The reason is that there are only finitely many homomorphisms from such a group to $S_n$.
+By part 1, the normal subgroups of finite index are closed under finite intersections, and the completion of $G$ along them is the [[profinite completion|CG9EH0TN27]].
+[[Residually finite groups|HEE922EHQ8]] are the groups in which the normal subgroups of finite index meet in $\{e\}$.
