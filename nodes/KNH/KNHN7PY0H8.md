@@ -1,0 +1,71 @@
+---
+tag: KNHN7PY0H8
+kind: example
+name: Composition is a binary operation on the functions from a set to itself
+msc: [08A02]
+topics: [BAZT8JJ70S]
+audience: school
+instance_of: [0M418FE7BB]
+uses: [0EPAT51DXQ, 0THBK9V825]
+sources:
+  - url: https://en.wikipedia.org/wiki/Function_composition
+    locator: lead section
+---
+
+## Example
+
+Let $X$ be a set, and let $X^X$ be the set of all [[functions|0EPAT51DXQ]] $f \colon X \to X$.
+For $f, g \in X^X$, the [[composition|0THBK9V825]] $f \circ g$ is the function $X \to X$ with $(f \circ g)(x) = f(g(x))$ for each $x \in X$.
+We check that $\circ$ is a [[binary operation|0M418FE7BB]] on $X^X$.
+
+1. The rule gives a value for each pair. Let $f, g \in X^X$ and $x \in X$. Then $g(x) \in X$, so $f(g(x))$ is defined.
+2. The value is in $X^X$. For each $x \in X$, the element $f(g(x))$ is in $X$, so $f \circ g$ is a function from $X$ to $X$.
+
+Thus $\circ$ is a binary operation on $X^X$.
+
+For a concrete case, let $X = \{1, 2\}$.
+The set $X^X$ has $2^2 = 4$ elements: the identity $\mathrm{id}$, the swap $s$ with $s(1) = 2$ and $s(2) = 1$, the constant function $c_1$ with value $1$, and the constant function $c_2$ with value $2$.
+Then $s \circ s = \mathrm{id}$, because $s(s(1)) = s(2) = 1$ and $s(s(2)) = s(1) = 2$.
+Also $c_1 \circ s = c_1$, because $c_1$ has the value $1$ at each point.
+
+## Remarks
+
+The example shows that a binary operation need not be [[commutative|099E72KTF8]].
+In the case $X = \{1, 2\}$, we have $c_1 \circ c_2 = c_1$, but $c_2 \circ c_1 = c_2$.
+The operation is [[associative|0K8F7PVDMX]], because $((f \circ g) \circ h)(x)$ and $(f \circ (g \circ h))(x)$ are both $f(g(h(x)))$.
+The identity function $\mathrm{id}_X$ is an [[identity element|07WYQPB8E3]] for $\circ$, so $(X^X, \circ)$ is a [[monoid|0N6R902FG1]].
+When $X$ has more than one element, it is not a [[group|G5S1M9]], because a constant function is not injective and so it has no inverse for $\circ$.
+When $X$ is not empty and we change $X^X$ to the set of functions $X \to Y$ for a nonempty set $Y$ with no element in common with $X$, composition is no longer a binary operation on that set.
+For $f, g \colon X \to Y$, the composition $f \circ g$ is not defined, because $g(x)$ is in $Y$, and $f$ takes only inputs in $X$.
+
+## Explanations
+
+### L1 human
+
+A function from a set to itself moves each point of the set to a point of the same set.
+If we do one such move and then a second one, the result is again a move of the set to itself.
+So "do one move after the other" combines two moves into one move, and it is a binary operation.
+For example, on two points, "swap the points" done two times gives "leave each point where it is".
+The order matters: "send both points to $1$" after "send both points to $2$" sends both points to $1$, and the other order sends both points to $2$.
+
+### L2 human
+
+We work out the full table of $\circ$ on $X^X$ for $X = \{1, 2\}$, with the four functions $\mathrm{id}$, $s$, $c_1$, $c_2$ of the example.
+
+1. For each $g$, $\mathrm{id} \circ g = g$ and $g \circ \mathrm{id} = g$, because $\mathrm{id}$ changes no point.
+2. For each $g$, $c_1 \circ g = c_1$, because $c_1(g(x)) = 1$ for each $x$. In the same way $c_2 \circ g = c_2$.
+3. $s \circ s = \mathrm{id}$, as the example computes.
+4. $s \circ c_1 = c_2$, because $s(c_1(x)) = s(1) = 2$ for each $x$. In the same way $s \circ c_2 = c_1$.
+
+With $f$ in the row and $g$ in the column, the table of $f \circ g$ is:
+
+| $\circ$ | $\mathrm{id}$ | $s$ | $c_1$ | $c_2$ |
+|---|---|---|---|---|
+| $\mathrm{id}$ | $\mathrm{id}$ | $s$ | $c_1$ | $c_2$ |
+| $s$ | $s$ | $\mathrm{id}$ | $c_2$ | $c_1$ |
+| $c_1$ | $c_1$ | $c_1$ | $c_1$ | $c_1$ |
+| $c_2$ | $c_2$ | $c_2$ | $c_2$ | $c_2$ |
+
+Each entry is one of the four functions, so the table confirms closure.
+The typical use of this example is as a model of a monoid that is not a group: the rows of $c_1$ and $c_2$ repeat one entry, and this cannot happen in the table of a group.
+A trap is the order of composition: $f \circ g$ means "first $g$, then $f$", so the function on the right acts first.
