@@ -1,0 +1,113 @@
+---
+tag: ENY0GKRJS8
+kind: concept
+name: Functions of proof
+aliases: [roles-of-proof, role-of-proof, purposes-of-proof]
+msc: ["00A35", "97E50"]
+topics: [N4P3E53HM0]
+audience: ug1
+uses: [0B94TKFQJX, GD2JBXJV5Z]
+sources:
+  - url: https://en.wikipedia.org/wiki/Mathematical_proof
+    locator: Nature and purpose
+  - book: isbn:9781108439534
+    locator: Introduction
+---
+
+## Summary
+
+The functions of proof are the jobs that a [[mathematical proof|0B94TKFQJX]] does in the practice of mathematics.
+Michael de Villiers named five functions in 1990.
+Verification shows that a statement is true.
+Explanation shows why it is true.
+Communication passes the result and its reasons to other mathematicians.
+Discovery finds new results while a statement is being proved.
+Systematization places the result in a deductive system of axioms, definitions and theorems.
+The idea matters because two correct proofs of the same statement can serve different functions, and a reader or a teacher can choose a proof for the function that is needed.
+
+## Motivation
+
+Mathematicians often prove a statement that they already believe.
+They have checked many cases by computer, or the statement follows from a heuristic, or an expert has said that it is true.
+If the only purpose of a proof were to remove doubt, such proofs would add nothing.
+But mathematicians value them, and they also value new proofs of old theorems.
+So proof must do more than verify.
+For example, a proof of the formula $1 + 2 + \cdots + n = n(n+1)/2$ by induction verifies it, while the pairing of $1$ with $n$, $2$ with $n - 1$ and so on also shows where the formula comes from.
+The list of functions makes these different values explicit.
+
+## Notation
+
+Some authors write "roles of proof" or "purposes of proof" for the same idea.
+The word "verification" here means a proof that establishes truth, not a check of a finite number of cases.
+
+## Remarks
+
+### Examples
+
+- Verification: the proof of the [[four colour theorem|0M406JC8J1]] by Kenneth Appel and Wolfgang Haken verified the statement with a large computer check. Many mathematicians felt that it gave little explanation.
+- Explanation: the [[two proofs of the formula for the sum $1 + 2 + \cdots + n$|D6G69GNKPC]] differ in how much they explain.
+- Discovery: the proof of [[Varignon's theorem|2TRG8VNJ4H]] uses no convexity, so it shows that the result holds for non-convex quadrilaterals too.
+- Systematization: the proofs of the theorems of Euclidean geometry from [[Hilbert's axioms|KM1FB8XZ2R]] place them in one [[axiomatic system|GD2JBXJV5Z]]. They also show which axioms each result needs.
+- Communication: a written proof in a journal lets other mathematicians check the result, criticize it and use its methods.
+
+### Non-examples
+
+- A [[numerical check|MYFZVEQ96K]] of a formula for $n = 1$ to $100$ is not a proof, so it performs none of the functions of proof. It gives confidence for the checked cases only.
+- An appeal to authority, such as "a famous mathematician says so", is not a proof. It may persuade, but it neither verifies nor explains.
+- A picture of one case, such as one drawn triangle, suggests a result but does not verify it for all cases.
+
+### Basic properties
+
+- One proof can serve several functions. Gauss's pairing proof of the sum formula verifies it and explains it.
+- Two proofs of the same theorem can serve different functions. A proof by induction verifies, and a combinatorial proof often explains.
+- A proof verifies only relative to its axioms and to the correctness of its steps. A gap in a proof removes the verification but can keep much of the explanation.
+- Conviction and verification are different. People can be convinced by evidence that is not a proof, and people can doubt a correct proof that is long or uses a computer.
+
+### History
+
+Michael de Villiers listed verification, explanation, systematization, discovery and communication in his 1990 article "The role and function of proof in mathematics" in the journal *Pythagoras*.
+Gila Hanna discussed the functions of proof, and in particular the difference between proofs that prove and proofs that explain, in "Proof, explanation and exploration: an overview", in *Educational Studies in Mathematics* in 2000.
+The distinction between proofs that only show that a statement is true and proofs that show why it is true is much older; it goes back to Aristotle's distinction between knowing a fact and knowing its reason.
+
+### Common errors
+
+- To think that a proof is needed only when there is doubt. A proof of a believed statement can still explain it, connect it with other results, or lead to a generalization.
+- To think that a proof that explains is less rigorous. Explanation and verification are different functions, and a good proof can have both.
+- To treat a large number of checked cases as verification. Only a proof verifies a statement about infinitely many cases.
+
+## Explanations
+
+### L1 human
+
+A proof does more than show that a fact is true.
+It can also show why the fact is true, and this helps us to remember it and to use it.
+For example, $1 + 2 + 3 + 4 = 10$, and we can see why by pairing $1$ with $4$ and $2$ with $3$: two pairs, each with sum $5$.
+The same pairing works for any list $1, 2, \ldots, n$, so it explains the general formula.
+A proof can also lead to new facts, and it lets other people check the work.
+
+### L2 human
+
+We look at one statement and ask which functions each proof serves.
+Statement: for each integer $n$, the number $n^3 - n$ is divisible by $6$.
+
+1. Proof A (by cases). We check $n$ modulo $6$. For the six residues $0, 1, 2, 3, 4, 5$, the values of $n^3 - n$ are $0, 0, 6, 24, 60, 120$, and all are divisible by $6$.
+2. Since $n^3 - n$ modulo $6$ depends only on $n$ modulo $6$, step 1 covers all integers.
+3. Proof B (by factoring). We write $n^3 - n = (n - 1) n (n + 1)$, a product of three consecutive integers.
+4. Among three consecutive integers, one is divisible by $3$, and at least one is even. So the product is divisible by $2 \cdot 3 = 6$, because $2$ and $3$ are coprime.
+
+Both proofs verify the statement.
+Proof B also explains it: the factor $6$ comes from the fact that three consecutive integers contain a multiple of $2$ and a multiple of $3$.
+Proof B also suggests a generalization: the product of $k$ consecutive positive integers is divisible by $k!$.
+The reason is that $\frac{n(n-1)\cdots(n-k+1)}{k!}$ is the binomial coefficient $\binom{n}{k}$, which is an integer.
+A trap is to think that Proof A is wrong because it is not explanatory.
+It is a complete proof, and its function is verification.
+
+### L3 human
+
+The list of functions is a description of practice, and it is used mainly in [[mathematics education|9622VKAWMZ]].
+Its main message for teaching is that students who are already convinced still need a reason to prove, and explanation, discovery and systematization give such reasons.
+In research, the same distinctions appear in the search for new proofs of known theorems, such as the many proofs of quadratic reciprocity or of the infinitude of primes.
+Proofs checked by computer, and proofs in proof assistants such as Lean, separate the functions sharply.
+A formal proof gives a very strong verification, but it may give little explanation or communication to a human reader.
+The epistemological question of what makes a proof explanatory belongs to the [[philosophy of mathematics|NTJ5XW0PVD]].
+The question of when a community accepts a proof is treated in [[rigour and the acceptance of proofs|1BTHSHST4M]].
