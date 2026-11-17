@@ -22,4 +22,4 @@ retired:
 ## Summary
 
 This page is retired.
-The page of Takeuti–Feferman–Buchholz ordinal is now [[Takeuti–Feferman–Buchholz ordinal|~1df2a94e]].
+The page of Takeuti-Feferman-Buchholz ordinal is now [[Takeuti-Feferman-Buchholz ordinal|~1df2a94e]].
