@@ -1,0 +1,58 @@
+---
+tag: 2PD8PPKFAQ
+kind: example
+name: The two forms of cut derive each other
+msc: ["03F05"]
+topics: [R10RMQCJQX]
+audience: grad
+instance_of: [HGVMPZ2DXA]
+uses: [PZX9J3VEMT, DAMGTSY6VV]
+sources:
+  - url: https://en.wikipedia.org/wiki/Cut-elimination_theorem
+    locator: The cut rule
+---
+
+## Example
+
+In LK, the context-sharing cut is a derived rule, and the context-splitting cut is derivable from the context-sharing cut with weakening.
+
+**Sharing from splitting.**
+Let $\Gamma \Rightarrow \Delta, A$ and $A, \Gamma \Rightarrow \Delta$ be given.
+
+1. The context-splitting cut, with $\Pi = \Gamma$ and $\Lambda = \Delta$, gives $\Gamma, \Gamma \Rightarrow \Delta, \Delta$.
+2. Exchanges bring the two copies of each formula together, and contractions on both sides give $\Gamma \Rightarrow \Delta$.
+
+**Splitting from sharing.**
+Let $\Gamma \Rightarrow \Delta, A$ and $A, \Pi \Rightarrow \Lambda$ be given.
+
+3. Weakenings and exchanges turn the first premise into $\Gamma, \Pi \Rightarrow \Delta, \Lambda, A$.
+4. Weakenings and exchanges turn the second premise into $A, \Gamma, \Pi \Rightarrow \Delta, \Lambda$.
+5. The context-sharing cut, with context $\Gamma, \Pi \Rightarrow \Delta, \Lambda$, gives $\Gamma, \Pi \Rightarrow \Delta, \Lambda$.
+
+**A concrete case.**
+Take $\Gamma = p$, $\Delta = p$ and $A = q$.
+
+6. The premises are $p \Rightarrow p, q$ and $q, p \Rightarrow p$. Both follow from the axiom $p \Rightarrow p$ by one weakening.
+7. Step 1 gives $p, p \Rightarrow p, p$, and one contraction on each side gives $p \Rightarrow p$.
+
+## Remarks
+
+The example shows that LK proves the same sequents with either form of cut.
+The translation needs weakening in one direction and contraction in the other.
+In a calculus without these rules, such as linear logic, the two forms are not interderivable, and the choice matters.
+In Kleene's calculi G3 weakening and contraction are admissible, so there the two forms again give the same sequents.
+
+## Explanations
+
+### L1 human
+
+There are two ways to write the lemma rule.
+In one, the two premises may have different assumptions, and the result collects all of them.
+In the other, both premises have the same assumptions.
+With the rules "you may add an assumption" and "you may drop a repeated one", each way can imitate the other.
+
+### L2 human
+
+To get the sharing form from the splitting form, cut first, then remove the duplicate copies of $\Gamma$ and $\Delta$ by contraction.
+To get the splitting form from the sharing form, first give both premises the same contexts by weakening, then cut.
+A trap is to forget the exchanges: LK uses lists, so a contraction needs the two copies next to each other.
