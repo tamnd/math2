@@ -1,0 +1,60 @@
+---
+tag: RRRZG7GDBV
+kind: example
+name: The supremum of 1 - 1/n is 1
+msc: ["00A35", "26A03"]
+topics: [MEKKHHQTKB]
+audience: ug1
+instance_of: [S3QADD13E9]
+uses: [S3QADD13E9, 0R3H5PANRQ, 0S60DVMVPN, 0A74SX55QP]
+sources:
+  - url: https://en.wikipedia.org/wiki/Infimum_and_supremum
+    locator: lead section
+  - url: https://en.wikipedia.org/wiki/Archimedean_property
+    locator: lead section
+---
+
+## Example
+
+Let $A = \{ 1 - \tfrac{1}{n} : n \ge 1 \text{ an integer} \} = \{ 0, \tfrac12, \tfrac23, \tfrac34, \ldots \}$.
+The set $A$ is non-empty and bounded above by $1$, so it has a [[supremum|0R3H5PANRQ]] $s = \sup A$, the least [[upper bound|0S60DVMVPN]] of $A$.
+We prove $s = 1$ by [[equality by two inequalities|S3QADD13E9]].
+
+1. ($s \le 1$) For each integer $n \ge 1$ we have $\tfrac1n > 0$, so $1 - \tfrac1n < 1$. Hence $1$ is an upper bound of $A$.
+2. The supremum is at most each upper bound, by its definition. So $s \le 1$.
+3. ($s \ge 1$) We show that no number $c < 1$ is an upper bound of $A$. Let $c < 1$, and put $\varepsilon = 1 - c > 0$.
+4. By the [[Archimedean property|0A74SX55QP]] there is an integer $n \ge 1$ with $n > \tfrac{1}{\varepsilon}$. Then $\tfrac1n < \varepsilon$.
+5. So $1 - \tfrac1n > 1 - \varepsilon = c$. The element $1 - \tfrac1n$ of $A$ is larger than $c$, so $c$ is not an upper bound of $A$.
+6. The supremum $s$ is an upper bound of $A$. By step 5 it cannot be smaller than $1$, so $s \ge 1$.
+7. Steps 2 and 6 give $s = 1$.
+
+A check with numbers: for $c = 0.99$ we have $\varepsilon = 0.01$, and $n = 101 > 100$ gives the element $1 - \tfrac{1}{101} \approx 0.9901 > 0.99$.
+
+## Remarks
+
+1. The two halves have different characters. The half $s \le 1$ is one inequality for all elements. The half $s \ge 1$ needs, for each $c < 1$, an element of $A$ above $c$.
+2. The supremum $1$ is not an element of $A$, since $1 - \tfrac1n = 1$ has no solution. So $A$ has no maximum, and the method cannot be replaced by "find the largest element".
+3. If we change the set to $B = \{ 1 - \tfrac1n : n \ge 1 \} \cup \{1\}$, then the supremum is still $1$, and now it is the maximum of $B$, so the half $s \ge 1$ becomes the remark $1 \in B$.
+4. The same two halves prove $\inf A = 0$: here $0$ is the element of $A$ for $n = 1$, so the infimum is the minimum.
+
+## Explanations
+
+### L1 human
+
+The numbers $0$, $\tfrac12$, $\tfrac23$, $\tfrac34$ and so on climb towards $1$ but never reach it.
+No number in the list is $1$ or more, so $1$ is a ceiling for the list.
+Any lower ceiling, such as $0.99$, fails, because the list passes it: $1 - \tfrac{1}{101}$ is already above $0.99$.
+So $1$ is the lowest ceiling, and this is what "the supremum is $1$" means.
+
+### L2 human
+
+We apply the same method to $C = \{ \tfrac{n}{n + 1} : n \ge 1 \}$ and show $\sup C = 1$.
+
+1. ($\le$) For each $n$, $\tfrac{n}{n + 1} < 1$, because $n < n + 1$. So $\sup C \le 1$.
+2. ($\ge$) Let $c < 1$. We need $n$ with $\tfrac{n}{n + 1} > c$, that is, $1 - \tfrac{1}{n + 1} > c$.
+3. This holds when $\tfrac{1}{n + 1} < 1 - c$, that is, when $n + 1 > \tfrac{1}{1 - c}$, and the Archimedean property gives such an $n$.
+4. So no $c < 1$ is an upper bound, and $\sup C \ge 1$. Hence $\sup C = 1$.
+
+The typical use is the computation of a supremum or an infimum of a set defined by a formula.
+A trap is to prove only that $1$ is an upper bound.
+Every number larger than $1$ is also an upper bound, so the half $\ge$ is needed to single out $1$.
