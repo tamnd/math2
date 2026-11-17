@@ -59,15 +59,15 @@ On this site, a page that uses "almost all" or "generic" says which sense it use
 
 ### Examples
 
-1. [[Almost all primes are odd|~147dadd0]], in the cofinite sense. The only even prime is $2$.
-2. [[Almost all real numbers are irrational|~c05fbe71]], in the measure sense and in the countable sense. The rational numbers form a countable set, and a countable set has Lebesgue measure zero.
+1. [[Almost all primes are odd|FTCN4TA67H]], in the cofinite sense. The only even prime is $2$.
+2. [[Almost all real numbers are irrational|GF1TE1M8RN]], in the measure sense and in the countable sense. The rational numbers form a countable set, and a countable set has Lebesgue measure zero.
 3. Almost all natural numbers are not prime, in the density sense. By the [[prime number theorem|0EHBY5Y84N]], the number $\pi(n)$ of primes up to $n$ satisfies $\pi(n)/n \to 0$. The exceptions, the primes, are infinite, so this is false in the cofinite sense.
 4. A generic $2 \times 2$ real matrix is invertible. The non-invertible matrices satisfy $ad - bc = 0$; this set is closed, has empty interior in $\mathbb{R}^4$ and has measure zero. So "invertible" holds on a dense open set of full measure.
 5. A generic real polynomial $x^2 + px + q$ has two distinct complex roots. The exceptions satisfy $p^2 - 4q = 0$, a parabola in the $(p, q)$ plane, which is closed with empty interior and has measure zero.
 
 ### Non-examples
 
-1. [[The even numbers are not almost all natural numbers|~5e966088]]. The odd numbers are infinite, and the even numbers have density $\tfrac12$, not $1$.
+1. [[The even numbers are not almost all natural numbers|ARHWX7H5BN]]. The odd numbers are infinite, and the even numbers have density $\tfrac12$, not $1$.
 2. "Almost all real numbers lie in $[0, 1]$" is false in each sense. The exceptions form the set $\mathbb{R} \setminus [0, 1]$, which is uncountable, has infinite measure and is open and nonempty.
 3. "Almost all real numbers are Liouville numbers" is true in the topological sense and false in the measure sense. The set of [[Liouville numbers|0PYEZM6CN9]] is a dense $G_\delta$ set, so it is residual, but it has measure zero.
 
@@ -123,4 +123,4 @@ The phrase "for almost all $x$, $P(x)$" is then the [[filter quantifier|EAJH1P4M
 The book of Oxtoby on measure and category studies the parallel and the conflict between the null ideal and the meagre ideal on the real line.
 The page on [[generic properties|Q9APSAZGR1]] gives the topological sense in more detail, with [[Sard's theorem|Z7R8J71SJN]] as a model result: almost every value of a smooth map is a regular value.
 In probabilistic combinatorics, "almost all graphs have property $P$" means that the probability of $P$ in a random graph on $n$ vertices tends to $1$, which is yet another sense.
-The related phrase "for all sufficiently large $n$" is on the page [[sufficiently large and eventually|FEQ7WATMHF]], and the other informal words of mathematics are on the page [[mathematical jargon|~390406b4]].
+The related phrase "for all sufficiently large $n$" is on the page [[sufficiently large and eventually|FEQ7WATMHF]], and the other informal words of mathematics are on the page [[mathematical jargon|4M1FGQ0HNZ]].

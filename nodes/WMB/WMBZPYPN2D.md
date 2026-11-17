@@ -1,0 +1,107 @@
+---
+tag: WMBZPYPN2D
+kind: concept
+name: Pathological object
+aliases: [pathology, pathological-example, pathological-function]
+msc: ["00A35"]
+topics: [Z2WNQ1DNTX]
+audience: ug2
+uses: [0ED72CTBNP, 0X3WGX95FE, 0K57YG3BB8, 0XGCZ4GDZ6]
+sources:
+  - url: https://en.wikipedia.org/wiki/Glossary_of_mathematical_jargon
+    locator: Philosophy of mathematics
+  - url: https://en.wikipedia.org/wiki/Pathological_(mathematics)
+    locator: lead section
+  - url: https://en.wikipedia.org/wiki/Pathological_(mathematics)
+    locator: In analysis
+---
+
+## Summary
+
+A mathematical object is *pathological* if it behaves against intuition, or if it fails a regularity property that most objects of its kind seem to have.
+The opposite informal words are *well-behaved* and *nice*.
+Pathological objects are often constructed on purpose, as [[counterexamples|0ED72CTBNP]] to a plausible statement.
+The word is informal and relative: it depends on the class of objects, on the property in question, and on the time.
+Many objects that were called pathological when they were found are now standard examples in textbooks.
+This node is about the word and the role of such objects; each object belongs to its own area.
+
+## Motivation
+
+Intuition about a class of objects usually comes from its simplest members.
+For functions, the simplest members are polynomials and the functions in a calculus course, and they are differentiable at almost every point that we draw.
+So it is natural to guess that every [[continuous function|0X3WGX95FE]] is [[differentiable|0K57YG3BB8]] at most points.
+A pathological object shows that such a guess is false.
+It also shows which hypothesis a theorem needs: a correct theorem must exclude the pathology.
+
+## Notation
+
+There is no special symbol.
+Authors write "a pathological example", "a pathology", "pathological behaviour", or "for well-behaved functions".
+The words "nice" and "sufficiently nice" mark a class that excludes pathologies, often without a precise definition.
+The word "degenerate" has a related use: a degenerate object satisfies a definition only in a limit case, as a triangle whose three vertices lie on one line.
+
+## Remarks
+
+### Examples
+
+1. [[The Cantor set is a pathological set|ZJ4WMR747A]]. It is uncountable, but it has length $0$ and contains no interval.
+2. [[Thomae's function is a pathological function|6R8EVWZ6TH]]. It is continuous at each irrational number and discontinuous at each rational number.
+3. The [[Weierstrass function|01A0MK1730]] is continuous at every point and differentiable at no point.
+4. The [[Dirichlet function|0T4EJ8ZJM9]], equal to $1$ on the rationals and $0$ on the irrationals, is discontinuous at every point.
+5. A [[Vitali set|WYHGXY471C]] is a set of real numbers that has no [[Lebesgue measure|2Z2QVWZ262]].
+6. A [[space-filling curve|QPRHC4DZ20]] is a continuous map from $[0, 1]$ onto the square $[0, 1]^2$.
+
+### Non-examples
+
+1. [[The absolute value function is not pathological|CP6K030FG0]]. It fails to be differentiable at one point only, and this is the expected behaviour of a graph with a corner.
+2. A polynomial function is well-behaved: it is continuous, differentiable any number of times, and has finitely many zeros unless it is the zero polynomial.
+3. The function $f(x) = 1/x$ on $(0, 1)$ is unbounded, but it is not pathological, since its graph matches the picture that intuition gives.
+
+### Basic properties
+
+1. The word is relative to a class. The Cantor set is pathological as a subset of $\mathbb{R}$, but it is a standard example of a compact metric space.
+2. The word is relative to a time. The functions of Weierstrass and Dirichlet were once called pathological, and they are now standard examples in a first course of analysis.
+3. A pathology can be typical. In 1931 Banach showed that the differentiable functions form a [[meagre set|0XGCZ4GDZ6]] in the space of continuous functions on an interval. In this sense, most continuous functions are not differentiable, so the glossary of jargon calls the old use of "pathological" hard to defend.
+4. Pathologies guide hypotheses. Many theorems of analysis assume continuity, measurability or bounded variation exactly to exclude known pathologies.
+
+### History
+
+Karl Weierstrass presented a continuous, nowhere differentiable function to the Prussian Academy of Sciences on 18 July 1872.
+Bernard Bolzano had constructed such a function around 1831, but it was not published until 1922.
+In 1931, Banach showed that the differentiable functions are a meagre set among the continuous functions.
+
+### Common errors
+
+1. A student treats "pathological" as a formal property. It is an informal judgment, and two authors can disagree about one object.
+2. A student thinks that pathological objects are rare and can be ignored. Banach's theorem shows that some pathologies are typical, and a proof must handle them unless a hypothesis excludes them.
+3. A student checks a claim about all continuous functions only on smooth examples. A claim about a large class must also hold for its pathological members.
+
+## Explanations
+
+### L1 human
+
+Most functions in school have smooth graphs, perhaps with a few corners.
+A pathological function has a graph that is very different from these pictures.
+For example, the Weierstrass function has a graph with no break, but with corners at every point.
+Mathematicians call such objects "pathological" because they defeat the usual picture.
+They are important, because they show the limits of our intuition.
+
+### L2 human
+
+Consider the claim: "every continuous function on $[0, 1]$ is differentiable at some point".
+
+1. The claim holds for polynomials, for $\sin$ and $\exp$, and for $|x - \tfrac{1}{2}|$.
+2. The Weierstrass function is continuous on $[0, 1]$ and differentiable at no point, so the claim is false.
+3. So a theorem that needs a derivative must assume it, for example by the hypothesis "$f$ is differentiable on $(0, 1)$", as in the [[mean value theorem|0BARQY52N5]].
+
+The typical use of a pathological example is as a counterexample that sharpens the hypotheses of a theorem.
+A trap: a picture on a screen cannot show a pathology, because a screen has finitely many pixels.
+
+### L3 human
+
+The words "pathological" and "well-behaved" often have precise replacements in a field.
+In measure theory, "well-behaved" can mean measurable, and the pathology of a Vitali set depends on the [[axiom of choice|0HTGB13FE2]].
+In analysis, "generic" has a precise meaning through the [[Baire category theorem|0A7KGAYHGV]]: a property is generic if it holds outside a meagre set.
+With this meaning, nowhere differentiable functions are generic in the space of continuous functions with the uniform norm, by Banach's theorem.
+Pathology therefore depends on the measure of size: a set can be small in one sense and large in another, as the Cantor set has measure $0$ and the cardinality of the continuum.
+The common pattern is that a regularity class, such as smooth or analytic functions, is small inside a larger natural class.

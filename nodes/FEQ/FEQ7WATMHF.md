@@ -56,8 +56,8 @@ On this site, "for $n$ large" always means "for all sufficiently large $n$", and
 
 ### Examples
 
-1. [[The inequality $2^n > n^3$ holds for all sufficiently large $n$|~47330189]], namely for all $n \geq 10$. It fails for $n = 2, \ldots, 9$.
-2. [[For each $\varepsilon > 0$, the inequality $1/n < \varepsilon$ holds for all sufficiently large $n$|~6b9beb6c]]. The threshold $N = \lfloor 1/\varepsilon \rfloor + 1$ depends on $\varepsilon$.
+1. [[The inequality $2^n > n^3$ holds for all sufficiently large $n$|HVZ05V7NMJ]], namely for all $n \geq 10$. It fails for $n = 2, \ldots, 9$.
+2. [[For each $\varepsilon > 0$, the inequality $1/n < \varepsilon$ holds for all sufficiently large $n$|C4S1D9R7T0]]. The threshold $N = \lfloor 1/\varepsilon \rfloor + 1$ depends on $\varepsilon$.
 3. The inequality $n^2 > 100n$ holds eventually, for all $n \geq 101$. For $n \geq 1$ it is equivalent to $n > 100$.
 4. The inequality $n! > 2^n$ holds eventually, for all $n \geq 4$. At $n = 4$ we have $24 > 16$, and the step from $n$ to $n + 1$ multiplies the left side by $n + 1 \geq 5$ and the right side by $2$; at $n = 3$ we have $6 < 8$.
 5. The statement $(-1)^n = 1$ holds frequently, for each even $n$. It does not hold eventually, because it fails for each odd $n$.
@@ -65,7 +65,7 @@ On this site, "for $n$ large" always means "for all sufficiently large $n$", and
 
 ### Non-examples
 
-1. [[Being prime holds frequently but not eventually|~a573dcc9]]. There are infinitely many primes, but for each $N$ the number $2N + 4$ is at least $N$, even and larger than $2$, so it is not prime.
+1. [[Being prime holds frequently but not eventually|BTPEHXK0YH]]. There are infinitely many primes, but for each $N$ the number $2N + 4$ is at least $N$, even and larger than $2$, so it is not prime.
 2. The statement "$n$ is even" does not hold eventually, and its negation "$n$ is odd" does not hold eventually either. Both hold frequently.
 3. For a fixed $\varepsilon > 0$, the statement $1/n > \varepsilon$ does not hold for sufficiently large $n$. It holds only for $n < 1/\varepsilon$, so its negation $1/n \leq \varepsilon$ holds eventually.
 

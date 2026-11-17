@@ -6,7 +6,7 @@ aliases: [qed, quod-erat-demonstrandum, tombstone, halmos-symbol, end-of-proof-s
 msc: ["00A35"]
 topics: [Z2WNQ1DNTX]
 audience: school
-uses: [0B94TKFQJX, ~1d84051b]
+uses: [0B94TKFQJX, 4ZNYMYRRY3]
 sources:
   - wikipedia: en:76765067@r1368301704
     locator: Glossary of logic, section Q
@@ -27,7 +27,7 @@ inventory: [12PB8WVBA2]
 ## Summary
 
 An *end of proof mark* is a word or a symbol at the end of a [[proof|0B94TKFQJX]] that tells the reader that the proof is complete.
-The classical mark is `Q.E.D.`, an [[abbreviation|~1d84051b]] of the Latin phrase *quod erat demonstrandum*, "which was to be demonstrated".
+The classical mark is `Q.E.D.`, an [[abbreviation|4ZNYMYRRY3]] of the Latin phrase *quod erat demonstrandum*, "which was to be demonstrated".
 The modern mark is the *tombstone* $\blacksquare$, also called the *Halmos symbol*, or its hollow form $\square$.
 The related mark `Q.E.F.`, for *quod erat faciendum*, "which was to be done", ends a construction instead of a proof.
 Authors also use end marks for claims inside a proof, and some use them for examples and remarks.
@@ -59,15 +59,15 @@ The start of a proof is usually marked by the word *Proof* in bold or italic typ
 
 ### Examples
 
-1. [[A proof with a nested claim and two end marks|~e2238dd8]]. The proof that there are infinitely many primes of the form $4k + 3$ contains a claim with its own end mark.
-2. [[Euclid's first construction ends with Q.E.F.|~2ecdd252]]. The construction of an equilateral triangle on a given segment ends with "which was to be done", not "which was to be shown".
+1. [[A proof with a nested claim and two end marks|4P44ZFS5BT]]. The proof that there are infinitely many primes of the form $4k + 3$ contains a claim with its own end mark.
+2. [[Euclid's first construction ends with Q.E.F.|8YNCHJY6H0]]. The construction of an equilateral triangle on a given segment ends with "which was to be done", not "which was to be shown".
 3. The *Ethics* of Spinoza, published in 1677, uses `Q.E.D.` at the end of its demonstrations, for example after Proposition 3 of Part 1. Its subject is philosophy, not mathematics.
 4. A book typeset with the AMS theorem environment shows a hollow square $\square$ at the end of each proof by default.
 5. On a chalkboard, a lecturer often draws a filled or hollow square to show the end of a proof.
 
 ### Non-examples
 
-1. [[The therefore sign marks a step, not the end of a proof|~f0f211ff]]. The sign $\therefore$ introduces a conclusion inside an argument, and more steps can follow it.
+1. [[The therefore sign marks a step, not the end of a proof|BVMX2JE2A1]]. The sign $\therefore$ introduces a conclusion inside an argument, and more steps can follow it.
 2. In physics, QED usually abbreviates [[quantum electrodynamics|V329C7A1QP]], a theory of light and charged particles. It is not a proof mark.
 3. The italic type of a theorem statement marks where the statement ends, but it is not an end of proof mark.
 
