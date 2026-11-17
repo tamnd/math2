@@ -2,25 +2,27 @@
 tag: DX6X1D21FE
 kind: example
 name: The Klein four-group is abelian but not cyclic
-msc: [20A05]
-topics: [BAZT8JJ70S]
+msc: ["20A05"]
+topics: [BAVE5RN4EE, BAZT8JJ70S]
 audience: ug1
 instance_of: [082GHNPJ53]
 not_instance_of:
   - target: 0KVGH0J5B3
     note: no element generates the group
-  - target: 0B85Q41RP6
-    note: each element generates a subgroup with at most two elements
-uses: [0PMRQJVTME, 0WE2NHZJ7B, 0YB2NRP0T5]
+  - target: RXWA8TF2RM
+    note: the group is finitely generated and not cyclic
+illustrates: [04RG02S6BA]
+uses: [0PMRQJVTME, 0WE2NHZJ7B, 08ABT85339, 0KVGH0J5B3, 082GHNPJ53, 0YB2NRP0T5]
 sources:
   - url: https://en.wikipedia.org/wiki/Klein_four-group
     locator: lead section
+  - book: isbn:9781305657960
+    locator: Chapter 4
 ---
 
 ## Example
 
-The [[Klein four-group|0PMRQJVTME]] is $V = \{e, a, b, c\}$ with this [[Cayley table|0YB2NRP0T5]].
-The entry in row $x$ and column $y$ is $xy$.
+The [[Klein four-group|0PMRQJVTME]] is $V = \{e, a, b, c\}$ with the following multiplication table.
 
 | $\cdot$ | $e$ | $a$ | $b$ | $c$ |
 |---|---|---|---|---|
@@ -29,45 +31,39 @@ The entry in row $x$ and column $y$ is $xy$.
 | $b$ | $b$ | $c$ | $e$ | $a$ |
 | $c$ | $c$ | $b$ | $a$ | $e$ |
 
-We check that $V$ is a [[group|G5S1M9]], that it is [[abelian|082GHNPJ53]], and that it is not [[cyclic|0KVGH0J5B3]].
+A model is $e = \mathrm{id}$, $a = (1\,2)(3\,4)$, $b = (1\,3)(2\,4)$ and $c = (1\,4)(2\,3)$ in the symmetric group $S_4$.
 
-1. Closure. Each entry of the table is in $V$.
-2. Identity. The row and the column of $e$ repeat the headings, so $ex = xe = x$ for each $x$.
-3. Inverses. Each diagonal entry is $e$, so $x^{-1} = x$ for each $x$.
-4. Associativity. Send $e \mapsto (0, 0)$, $a \mapsto (1, 0)$, $b \mapsto (0, 1)$ and $c \mapsto (1, 1)$. Then the table becomes addition of pairs with each coordinate modulo $2$. For example, $ab = c$ becomes $(1, 0) + (0, 1) = (1, 1)$. Addition of pairs modulo $2$ is associative, so the operation of $V$ is associative.
-5. Commutativity. The table is symmetric about its diagonal, so $xy = yx$ for all $x, y$. Thus $V$ is abelian.
-6. Orders. By step 3, each $x \neq e$ has $x^2 = e$, so it has [[order|0WE2NHZJ7B]] $2$. The subgroup that $x$ generates is $\{e, x\}$.
-7. Not cyclic. The subgroup $\langle e \rangle$ is $\{e\}$, and each other $\langle x \rangle$ has $2$ elements. No element generates all $4$ elements, so $V$ is not cyclic.
+1. The table is symmetric about its main diagonal, so $xy = yx$ for all $x, y \in V$. Thus $V$ is [[abelian|082GHNPJ53]].
+2. The diagonal gives $a^2 = b^2 = c^2 = e$. So each of $a, b, c$ has [[order|0WE2NHZJ7B]] $2$, and $e$ has order $1$.
+3. So the [[cyclic subgroups|08ABT85339]] are $\langle e \rangle = \{e\}$, $\langle a \rangle = \{e, a\}$, $\langle b \rangle = \{e, b\}$ and $\langle c \rangle = \{e, c\}$.
+4. Each of these has at most $2$ elements, and $V$ has $4$. So no element generates $V$.
+5. Thus $V$ is abelian but not [[cyclic|0KVGH0J5B3]].
+6. The elements $a$ and $b$ generate $V$, because $ab = c$. So $V$ is finitely generated and not cyclic, and it is not a [[locally cyclic group|RXWA8TF2RM]].
 
 ## Remarks
 
-The example shows that the converse of the result that [[cyclic groups are abelian|04RG02S6BA]] is false.
-Up to [[isomorphism|08MG7H8JW5]], $V$ and $\mathbb{Z}/4\mathbb{Z}$ are the only groups of order $4$.
-Indeed, the case of order $4$ in the proof that [[each group of order at most 5 is abelian|G98PPG0FCC]] shows that a group of order $4$ is cyclic or has $g^2 = e$ for each $g$.
-In the first case it is isomorphic to $\mathbb{Z}/4\mathbb{Z}$.
-In the second case it is isomorphic to $\mathbb{Z}/2\mathbb{Z} \times \mathbb{Z}/2\mathbb{Z}$, by the consequences of the result on [[exponent 2|GGAT7CNA82]], and so to $V$.
-The two groups are not isomorphic, because $\mathbb{Z}/4\mathbb{Z}$ has an element of order $4$ and $V$ has none.
-Step 4 shows that $V$ is isomorphic to the [[direct product|00HF4RJ5QN]] $\mathbb{Z}/2\mathbb{Z} \times \mathbb{Z}/2\mathbb{Z}$.
-Since $x^2 = e$ for each $x$, commutativity also follows from the result that a group of exponent $2$ is abelian.
+The example shows that the converse of [[the theorem that cyclic groups are abelian|04RG02S6BA]] is false.
+Up to isomorphism, $V$ and $\mathbb{Z}/4\mathbb{Z}$ are the only groups of order $4$, and $\mathbb{Z}/4\mathbb{Z}$ is cyclic.
+So $V$ is the smallest group that is abelian but not cyclic: each group of order $1$, $2$ or $3$ is cyclic.
+Other models of $V$ are $\mathbb{Z}/2\mathbb{Z} \times \mathbb{Z}/2\mathbb{Z}$, the group $(\mathbb{Z}/8\mathbb{Z})^\times = \{1, 3, 5, 7\}$ under multiplication, and the symmetries of a rectangle that is not a square.
 
 ## Explanations
 
 ### L1 human
 
-Take a rectangle that is not a square.
-It has four symmetries: do nothing, turn it by a half turn, flip it left to right, and flip it top to bottom.
-Each of them done two times does nothing.
-Any two of them, done in either order, give the same result.
-No single symmetry gives all four when we repeat it.
+The Klein four-group has four elements.
+Any two elements commute, so the group is abelian.
+But each element, combined with itself, gives the identity.
+So one element produces at most two elements, never all four, and the group is not cyclic.
 
 ### L2 human
 
-We find all products in the rectangle model.
-Let $a$ be the flip left to right, $b$ the flip top to bottom, and $c$ the half turn.
+We check the model $(\mathbb{Z}/8\mathbb{Z})^\times = \{1, 3, 5, 7\}$.
 
-1. A flip left to right and then a flip top to bottom send each corner to the opposite corner. So $ba = c$.
-2. The two flips in the other order also send each corner to the opposite corner. So $ab = c$.
-3. A half turn and then a flip left to right is a flip top to bottom. So $ac = b$, and in the same way $ca = b$.
+1. The squares are $1^2 = 1$, $3^2 = 9 \equiv 1$, $5^2 = 25 \equiv 1$ and $7^2 = 49 \equiv 1$ modulo $8$.
+2. So each element has order at most $2$, and no element generates the group.
+3. The products $3 \cdot 5 \equiv 7$, $3 \cdot 7 \equiv 5$ and $5 \cdot 7 \equiv 3$ match the table with $a = 3$, $b = 5$ and $c = 7$.
 
-The typical use of $V$ is as the smallest group that is not cyclic.
-A trap is to think that each abelian group is cyclic.
+The typical use: to show that a finite group of order $n$ is not cyclic, show that it has no element of order $n$.
+A trap: a group can be abelian and small and still not cyclic.
+Commutativity is not enough.

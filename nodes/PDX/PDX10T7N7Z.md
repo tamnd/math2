@@ -1,0 +1,63 @@
+---
+tag: PDX10T7N7Z
+kind: example
+name: The special linear group is a subgroup of the general linear group
+msc: ["20A05", "15A15"]
+topics: [BAVE5RN4EE]
+audience: ug1
+instance_of: [0X1JXT47GA]
+uses: [0FCHE902D7, 0V9PMN0RBH, 00KDZRW4C0, 04CPJ6AF00]
+sources:
+  - url: https://en.wikipedia.org/wiki/Special_linear_group
+    locator: lead section
+  - book: isbn:9780471433347
+    locator: Section 2.1
+---
+
+## Example
+
+Let $n \geq 1$, and let $GL_n(\mathbb{R})$ be the [[general linear group|0FCHE902D7]]: the invertible $n \times n$ real matrices under matrix multiplication.
+Let $SL_n(\mathbb{R}) = \{A \in GL_n(\mathbb{R}) : \det A = 1\}$ be the [[special linear group|0V9PMN0RBH]].
+We show that $SL_n(\mathbb{R})$ is a [[subgroup|0X1JXT47GA]] of $GL_n(\mathbb{R})$.
+We use the rule $\det(AB) = \det A \cdot \det B$, which is the [[multiplicativity of the determinant|04CPJ6AF00]].
+
+1. Subset: each $A$ with $\det A = 1$ has $\det A \neq 0$, so $A$ is invertible. So $SL_n(\mathbb{R}) \subseteq GL_n(\mathbb{R})$.
+2. Identity: the identity matrix $I_n$ has $\det I_n = 1$. So $I_n \in SL_n(\mathbb{R})$.
+3. Products: let $A, B \in SL_n(\mathbb{R})$. Then $\det(AB) = \det A \cdot \det B = 1 \cdot 1 = 1$. So $AB \in SL_n(\mathbb{R})$.
+4. Inverses: let $A \in SL_n(\mathbb{R})$. From $A A^{-1} = I_n$ we get $\det A \cdot \det(A^{-1}) = 1$. Since $\det A = 1$, we get $\det(A^{-1}) = 1$, so $A^{-1} \in SL_n(\mathbb{R})$.
+5. By steps 1 to 4, $SL_n(\mathbb{R})$ satisfies the three conditions of a subgroup.
+
+## Remarks
+
+The example shows a common source of subgroups: the elements on which a multiplicative quantity takes the value $1$.
+The same proof works for each field $F$ in place of $\mathbb{R}$, and it gives $SL_n(F) \leq GL_n(F)$.
+For $n = 1$, the group $GL_1(\mathbb{R})$ is $\mathbb{R}^\times$, and $SL_1(\mathbb{R}) = \{1\}$ is the trivial subgroup.
+If we replace the value $1$ by $-1$, the set $\{A : \det A = -1\}$ is not a subgroup, because it does not contain $I_n$.
+The set $\{A : \det A = \pm 1\}$ is a subgroup, by the same three checks with $(\pm 1)(\pm 1) = \pm 1$.
+The set $\{A : \det A > 0\}$ is also a subgroup, because a product and a quotient of positive numbers are positive.
+In the language of homomorphisms, $SL_n(\mathbb{R})$ is the [[kernel|0W88CEGQP1]] of $\det \colon GL_n(\mathbb{R}) \to \mathbb{R}^\times$.
+
+## Explanations
+
+### L1 human
+
+A square table of numbers (a matrix) has a number called its determinant.
+For $2 \times 2$ matrices, the determinant of the table with rows $a, b$ and $c, d$ is $ad - bc$.
+The determinant of a product of two matrices is the product of their determinants.
+So if two matrices both have determinant $1$, their product also has determinant $1$.
+This is why the matrices with determinant $1$ form a group inside the group of all invertible matrices.
+
+### L2 human
+
+We check the case $n = 2$ with two concrete matrices.
+
+1. Let $A = \begin{pmatrix} 1 & 2 \\ 0 & 1 \end{pmatrix}$ and $B = \begin{pmatrix} 2 & 0 \\ 3 & \tfrac{1}{2} \end{pmatrix}$. Then $\det A = 1 \cdot 1 - 2 \cdot 0 = 1$ and $\det B = 2 \cdot \tfrac{1}{2} - 0 \cdot 3 = 1$.
+2. The product is $AB = \begin{pmatrix} 8 & 1 \\ 3 & \tfrac{1}{2} \end{pmatrix}$, and $\det(AB) = 8 \cdot \tfrac{1}{2} - 1 \cdot 3 = 1$.
+3. The inverse of $A$ is $A^{-1} = \begin{pmatrix} 1 & -2 \\ 0 & 1 \end{pmatrix}$, and $\det(A^{-1}) = 1$.
+
+The typical use is a proof that a set of matrices is a group: we show that it is a subgroup of a group that we already know.
+Then associativity and the other axioms come for free.
+
+A trap: the set of $2 \times 2$ real matrices with determinant $1$ is not a subgroup of the group of all $2 \times 2$ real matrices under addition.
+For example, $I_2 + I_2 = 2I_2$ has determinant $4$.
+The operation must be the one of the larger group, and here it is matrix multiplication.

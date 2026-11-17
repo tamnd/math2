@@ -1,33 +1,68 @@
 ---
 tag: ECRPA75M96
 kind: proof
-name: Proof that a product of two finite cyclic groups is cyclic iff their orders are coprime
-msc: [20K01]
+name: Proof that Z/m × Z/n is cyclic iff gcd(m, n) = 1
+msc: ["20K01"]
+topics: [BAVE5RN4EE]
+audience: ug1
 proves: 08FDFEF8D1
-uses: [0B85Q41RP6, 0YP7WYXF9V, 0JPYSD5E0B, 031M8HX7DA, 0F5QC101Q7, 00DRK90Z6K, 03BAREW1Z5, 02WF878BH1, 096PW7Q014]
+uses: [0KVGH0J5B3, 00HF4RJ5QN, 0WE2NHZJ7B, 031M8HX7DA, 0F5QC101Q7, 00DRK90Z6K, 0SRATCFF1W, 03BAREW1Z5, 007NPQX34K, 0C8WYW4KYQ, 03VFZ2WETT, 0JYTG5K9Y4, 08MG7H8JW5, 0FNN9B4W64]
+methods: [0NTF6DMVAP, 0BB5TPGQ1N]
 sources:
   - url: https://proofwiki.org/wiki/Group_Direct_Product_of_Cyclic_Groups
+  - url: https://en.wikipedia.org/wiki/Chinese_remainder_theorem
+    locator: Statement
 ---
 
 ## Proof
 
-1. Let $G$ and $H$ be [[cyclic groups|0B85Q41RP6]] of orders $m$ and $n$, with generators $g$ and $h$. Write $e$ for the identity of each.
-2. By [[the order of a cyclic subgroup|031M8HX7DA]], $g$ has [[order|0JPYSD5E0B]] $m$ and $h$ has order $n$. Also $G = \set{g^a : a \in \Z}$ and $H = \set{h^b : b \in \Z}$.
-3. The [[direct product|0YP7WYXF9V]] $G \times H$ has $mn$ elements and identity $(e, e)$.
-4. For $(x, y) \in G \times H$ and $k \geq 0$, we have $(x, y)^k = (x^k, y^k)$. This holds for $k = 0$, and $(x, y)^{k+1} = (x^k, y^k)(x, y) = (x^{k+1}, y^{k+1})$.
-5. Suppose $\gcd(m, n) = 1$. Let $k$ be a positive integer. By step 4, $(g, h)^k = (e, e)$ if and only if $g^k = e$ and $h^k = e$.
-6. By [[the divisibility criterion for powers|0F5QC101Q7]], this holds if and only if $m$ and $n$ both [[divide|096PW7Q014]] $k$.
-7. If $m$ and $n$ divide $k$, write $k = ma$. Then $n$ divides $ma$, and $\gcd(n, m) = 1$, so $n$ divides $a$ by the [[generalized Euclid's lemma|03BAREW1Z5]]. Hence $mn$ divides $k$.
-8. Conversely $m$ and $n$ divide $mn$. So the least positive $k$ with $(g, h)^k = (e, e)$ is $mn$, and $(g, h)$ has order $mn$.
-9. By the order of a cyclic subgroup, $\langle (g, h) \rangle$ has $mn$ elements. It is a subset of $G \times H$, which also has $mn$ elements. So $G \times H = \langle (g, h) \rangle$ is cyclic.
-10. Now suppose that the [[greatest common divisor|02WF878BH1]] $c = \gcd(m, n)$ satisfies $c > 1$. Put $L = mn/c$. Since $c$ divides $m$ and $n$, $L = m \cdot (n/c) = n \cdot (m/c)$ is a positive integer.
-11. So $m$ and $n$ divide $L$, and $L < mn$ because $c > 1$.
-12. Let $(x, y) \in G \times H$, with $x = g^a$ and $y = h^b$. By the [[laws of exponents|00DRK90Z6K]], $x^L = g^{aL}$, and $m$ divides $aL$. So $x^L = e$ by the divisibility criterion.
-13. In the same way $y^L = h^{bL} = e$. By step 4, $(x, y)^L = (e, e)$, so the order of $(x, y)$ is at most $L$.
-14. Suppose $G \times H$ were cyclic with generator $z$. By step 13, $z$ has finite order. That order would equal $\abs{\langle z \rangle} = mn$, by the order of a cyclic subgroup.
-15. This contradicts step 13, since $L < mn$. So $G \times H$ is not cyclic.
-16. Hence $G \times H$ is cyclic if and only if $\gcd(m, n) = 1$.
+Let $G = \langle g \rangle$ and $H = \langle h \rangle$ be [[cyclic groups|0KVGH0J5B3]] of orders $m$ and $n$, with identities $e_G$ and $e_H$.
+In the [[direct product|00HF4RJ5QN]] $G \times H$, the identity is $(e_G, e_H)$.
+By the [[laws of exponents|00DRK90Z6K]] in each factor, $(x, y)^k = (x^k, y^k)$ for each $k \in \Z$.
+Put $L = \operatorname{lcm}(m, n)$.
+
+Part 1, element orders.
+
+1. By the [[order of a cyclic subgroup|031M8HX7DA]], $g$ has [[order|0WE2NHZJ7B]] $\abs{\langle g \rangle} = m$, and $h$ has order $n$.
+2. Let $k \in \Z$. Then $(g, h)^k = (g^k, h^k)$, and this is the identity if and only if $g^k = e_G$ and $h^k = e_H$.
+3. By the [[power criterion|0F5QC101Q7]], $g^k = e_G$ if and only if $m \mid k$, and $h^k = e_H$ if and only if $n \mid k$.
+4. So $(g, h)^k$ is the identity if and only if $k \in m\Z \cap n\Z$. By the [[classification of the subgroups of the integers|0SRATCFF1W]], part 4, $m\Z \cap n\Z = L\Z$.
+5. The least positive element of $L\Z$ is $L$. So $(g, h)$ has order $L$.
+6. Let $(x, y) \in G \times H$, and write $x = g^a$ with $a \in \Z$. Since $m \mid L$, write $L = mt$. Then $x^L = (g^m)^{at} = e_G$ by the laws of exponents.
+7. In the same way, $y^L = e_H$. So $(x, y)^L$ is the identity, and the order of $(x, y)$ divides $L$ by the power criterion.
+
+Part 2, the criterion.
+
+8. Suppose $\gcd(m, n) = 1$. Write $L = mt$. Since $n \mid mt$ and $\gcd(n, m) = 1$, the [[generalized Euclid's lemma|03BAREW1Z5]] gives $n \mid t$.
+9. So $mn \mid mt = L$. Also $mn$ is a positive common multiple of $m$ and $n$, so $L \leq mn$. Thus $L = mn$.
+10. By step 5, $(g, h)$ has order $mn$. By the order of a cyclic subgroup, $\langle (g, h) \rangle$ has $mn$ elements.
+11. The group $G \times H$ has $mn$ elements. So $\langle (g, h) \rangle = G \times H$, and $G \times H$ is cyclic, with generator $(g, h)$.
+12. Now suppose $c = \gcd(m, n) > 1$. Put $M = mn/c$. Then $M = m \cdot (n/c) = n \cdot (m/c)$, so $M$ is a common multiple of $m$ and $n$.
+13. By step 4, $M \in L\Z$, so $L \mid M$. By step 7, every element of $G \times H$ has order at most $M$.
+14. Since $c \geq 2$, we have $M \leq mn/2 < mn$. So no element of $G \times H$ has order $mn$.
+15. Suppose $G \times H$ is cyclic, with a generator $z$. By the order of a cyclic subgroup, $z$ has order $\abs{\langle z \rangle} = mn$. This is impossible by step 14.
+16. So $G \times H$ is cyclic if and only if $\gcd(m, n) = 1$. In particular, take $G = \Z/m$ and $H = \Z/n$, the [[integers modulo m and n|03VFZ2WETT]], both generated by $1$. Then $\Z/m \times \Z/n$ is cyclic if and only if $\gcd(m, n) = 1$.
+
+Part 3, the Chinese remainder theorem.
+
+17. Let $k \equiv k' \pmod{mn}$. Then $mn \mid k - k'$, so $m \mid k - k'$ and $n \mid k - k'$. So $k \bmod m = k' \bmod m$ and $k \bmod n = k' \bmod n$, and $f$ is well defined.
+18. Addition in $\Z/m$ is addition of representatives. So $f(k + l) = ((k + l) \bmod m, (k + l) \bmod n) = f(k) + f(l)$, and $f$ is a [[homomorphism|0JYTG5K9Y4]].
+19. Now suppose $\gcd(m, n) = 1$. Let $f(k) = f(k')$. Then $f(k - k') = (0, 0)$ by step 18, so $m \mid k - k'$ and $n \mid k - k'$.
+20. By steps 4, 8 and 9, the common multiples of $m$ and $n$ are the multiples of $L = mn$. So $mn \mid k - k'$, and $k \equiv k' \pmod{mn}$. Thus $f$ is injective.
+21. Both $\Z/mn$ and $\Z/m \times \Z/n$ have $mn$ elements. An injective map between two finite sets of the same size is surjective. So $f$ is a bijection.
+22. A bijective homomorphism is an [[isomorphism|08MG7H8JW5]]. So $f$ is an isomorphism. $\blacksquare$
 
 ## Idea
 
-The order of a pair is reached when both coordinates return to the identity at once. With coprime orders, the pair of generators needs $mn$ steps, so it generates everything. With a common factor $c > 1$, every pair returns to the identity after $mn/c$ steps, which is too few to fill $G \times H$.
+The order of $(x, y)$ divides $\operatorname{lcm}(m, n)$, because the orders of $x$ and $y$ divide $m$ and $n$.
+The element $(g, h)$ has order exactly $\operatorname{lcm}(m, n)$.
+The product has $mn$ elements, so it is cyclic exactly when $\operatorname{lcm}(m, n) = mn$, which is the case $\gcd(m, n) = 1$.
+The kernel of $f$ is the set of common multiples of $m$ and $n$, taken modulo $mn$.
+When $m$ and $n$ are coprime, this kernel is $\set{0}$.
+
+## Variants
+
+Step 21 can be replaced by the [[Chinese remainder theorem|0FNN9B4W64]] of number theory.
+For each pair $(a \bmod m, b \bmod n)$, it gives an integer $k$ with $k \equiv a \pmod m$ and $k \equiv b \pmod n$, so $f$ is surjective.
+Part 2 also follows from part 3 for $\Z/m \times \Z/n$: if $\gcd(m, n) = 1$, then $\Z/m \times \Z/n \cong \Z/mn$ is cyclic.
+For general cyclic $G$ and $H$, use that $G \cong \Z/m$ and $H \cong \Z/n$, by the [[classification of cyclic groups|0736AXH2ME]].

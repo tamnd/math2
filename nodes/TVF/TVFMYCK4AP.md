@@ -1,0 +1,53 @@
+---
+tag: TVFMYCK4AP
+kind: example
+name: The subgroup 4Z of Z is not maximal
+msc: ["20E28", "20K01"]
+topics: [BAVE5RN4EE]
+audience: ug2
+not_instance_of:
+  - target: RTTRNQ4JYF
+    note: the subgroup 2Z lies strictly between 4Z and Z
+uses: [0BSCJA5G53, 0SRATCFF1W, RTTRNQ4JYF, 0S9ZVZ34MD]
+sources:
+  - url: https://en.wikipedia.org/wiki/Maximal_subgroup
+    locator: lead section
+---
+
+## Example
+
+Let $G = (\mathbb{Z}, +)$ be the [[additive group of integers|0BSCJA5G53]], and let $4\mathbb{Z} = \{4k : k \in \mathbb{Z}\}$.
+We show that $4\mathbb{Z}$ is not a [[maximal subgroup|RTTRNQ4JYF]] of $\mathbb{Z}$.
+
+1. $4\mathbb{Z} \subseteq 2\mathbb{Z}$, because $4k = 2(2k)$ for each integer $k$.
+2. $4\mathbb{Z} \neq 2\mathbb{Z}$, because $2 \in 2\mathbb{Z}$, and $2 = 4k$ would give $k = \tfrac{1}{2}$, which is not an integer.
+3. $2\mathbb{Z} \neq \mathbb{Z}$, because $1 \notin 2\mathbb{Z}$.
+4. So $4\mathbb{Z} \subsetneq 2\mathbb{Z} \subsetneq \mathbb{Z}$, and the subgroup $2\mathbb{Z}$ lies strictly between $4\mathbb{Z}$ and $\mathbb{Z}$. Thus $4\mathbb{Z}$ is not maximal.
+
+## Remarks
+
+By [[the classification of the subgroups of the integers|0SRATCFF1W]], the subgroups of $\mathbb{Z}$ that contain $4\mathbb{Z}$ are $4\mathbb{Z}$, $2\mathbb{Z}$ and $\mathbb{Z}$, one for each positive divisor of $4$.
+In general, $n\mathbb{Z} \subseteq m\mathbb{Z}$ exactly when $m \mid n$.
+So $n\mathbb{Z}$ is maximal exactly when $n$ is a prime.
+The subgroup $2\mathbb{Z}$ is maximal, and $4\mathbb{Z}$ is a maximal subgroup of $2\mathbb{Z}$, but not of $\mathbb{Z}$.
+So maximality depends on the group in which we work.
+
+## Explanations
+
+### L1 human
+
+The multiples of $4$ are $\ldots, -8, -4, 0, 4, 8, \ldots$.
+They are all even, but not every even number is a multiple of $4$: for example, $2$ is not.
+So the even numbers form a group that lies strictly between the multiples of $4$ and all integers.
+That is why the multiples of $4$ are not a maximal subgroup.
+
+### L2 human
+
+We compare $4\mathbb{Z}$ with the maximal subgroup $2\mathbb{Z}$.
+
+1. The quotient $\mathbb{Z}/4\mathbb{Z}$ has order $4$, which is not prime. It has the subgroup $\{0, 2\}$ strictly between $\{0\}$ and itself.
+2. The quotient $\mathbb{Z}/2\mathbb{Z}$ has prime order $2$, so it has no subgroups other than $\{0\}$ and itself.
+3. By the [[correspondence theorem|0S9ZVZ34MD]], the subgroups of $\mathbb{Z}$ that contain $n\mathbb{Z}$ correspond to the subgroups of $\mathbb{Z}/n\mathbb{Z}$. So step 1 gives the subgroup $2\mathbb{Z}$ between $4\mathbb{Z}$ and $\mathbb{Z}$, and step 2 shows that $2\mathbb{Z}$ is maximal.
+
+The typical use of this example is the test: a subgroup $M$ of an abelian group is maximal exactly when $G/M$ has prime order.
+A trap: $4\mathbb{Z}$ is maximal inside $2\mathbb{Z}$, so the group in which we ask the question matters.

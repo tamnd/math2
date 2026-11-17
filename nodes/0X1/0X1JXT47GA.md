@@ -2,11 +2,20 @@
 tag: 0X1JXT47GA
 kind: concept
 name: Subgroup
-msc: [20A05]
+msc: ["20A05"]
+topics: [BAVE5RN4EE]
+audience: ug1
 specializes: [G5S1M9]
+uses: [G5S1M9, 07WYQPB8E3, 0ZNZH0EXFX]
 sources:
   - url: https://en.wikipedia.org/wiki/Subgroup
     locator: lead section
+  - url: https://en.wikipedia.org/wiki/Subgroup
+    locator: Basic properties of subgroups
+  - book: isbn:9780471433347
+    locator: Section 2.1
+  - book: isbn:9781305657960
+    locator: Chapter 3
 same_as:
   wikidata: Q466109
   wikipedia: Subgroup
@@ -14,4 +23,106 @@ same_as:
 
 ## Summary
 
-A subgroup of a group is a subset that is itself a group under the same operation.
+Let $G$ be a [[group|G5S1M9]] with [[identity element|07WYQPB8E3]] $e$.
+A subgroup of $G$ is a subset $H \subseteq G$ with three properties: $e \in H$, $ab \in H$ for all $a, b \in H$, and $a^{-1} \in H$ for all $a \in H$.
+Here $a^{-1}$ is the [[inverse|0ZNZH0EXFX]] of $a$ in $G$.
+Equivalently, $H$ is a subset of $G$ that is a group under the operation of $G$, restricted to $H$.
+Subgroups let us study a large group through smaller groups inside it, and most constructions of group theory start from a subgroup.
+
+## Motivation
+
+Many groups contain smaller groups in a natural way.
+The rotations of a square form a group, and this group sits inside the group of all symmetries of the square.
+The even integers form a group under addition, and this group sits inside the group of all integers.
+In each case the smaller set uses the same operation as the larger group, and it is a group by itself.
+The definition of a subgroup makes this pattern exact.
+It asks for the three facts that make a subset into a group: the identity is in it, and it is closed under products and under inverses.
+Associativity needs no check, because it holds for all elements of $G$.
+
+## Notation
+
+We write $H \leq G$ when $H$ is a subgroup of $G$.
+We write $H < G$ when $H \leq G$ and $H \neq G$.
+Some books write $H \subset G$ or $H \subseteq G$ for a subgroup, but this notation does not show that $H$ is a group.
+The subgroup $\{e\}$ is the trivial subgroup, and the subgroup $G$ itself is the improper subgroup.
+A subgroup $H$ with $H \neq G$ is a proper subgroup, and a subgroup $H$ with $H \neq \{e\}$ is a nontrivial subgroup.
+In additive notation the conditions are $0 \in H$, $a + b \in H$ and $-a \in H$.
+
+## Remarks
+
+### Examples
+
+1. Each group $G$ has the trivial subgroup $\{e\}$ and the improper subgroup $G$. The three conditions hold because $ee = e$ and $e^{-1} = e$.
+2. For each integer $n \geq 0$, the set $n\mathbb{Z} = \{nk : k \in \mathbb{Z}\}$ is a subgroup of $(\mathbb{Z}, +)$. It contains $0 = n \cdot 0$, and $nk + nl = n(k + l)$ and $-(nk) = n(-k)$. The case $n = 2$ is [[the even integers|8WJPSS7TE9]].
+3. The [[special linear group|0V9PMN0RBH]] $SL_n(\mathbb{R})$ is a subgroup of the [[general linear group|0FCHE902D7]] $GL_n(\mathbb{R})$, because the determinant is multiplicative. The details are in [[the example of $SL_n$|PDX10T7N7Z]].
+4. The four rotations of a square by $0$, $90$, $180$ and $270$ degrees form a subgroup of the eight symmetries of the square. A rotation followed by a rotation is a rotation, and the inverse of a rotation is a rotation.
+5. The set $\{1, -1, i, -i\}$ is a subgroup of the multiplicative group $\mathbb{C}^\times$ of nonzero complex numbers. It contains $1$, the product of two of its elements is in it, and the inverses are $1, -1, -i, i$.
+
+### Non-examples
+
+1. [[The odd integers|VN9H9H74KN]] are not a subgroup of $(\mathbb{Z}, +)$. The identity $0$ is not odd, and $1 + 1 = 2$ is not odd.
+2. The set $\mathbb{N} = \{0, 1, 2, \ldots\}$ is not a subgroup of $(\mathbb{Z}, +)$. It contains $0$ and it is closed under addition, but $-1 \notin \mathbb{N}$, so the inverse condition fails.
+3. In the [[symmetric group|0515A6D2Y1]] $S_3$, the set $\{e, (1\,2), (1\,3)\}$ is not a subgroup. It contains $e$ and the inverse of each of its elements, but $(1\,2)(1\,3) = (1\,3\,2)$ is not in it, so closure fails.
+4. The set $\mathbb{R}_{>0}$ of positive real numbers is a group under multiplication, but it is not a subgroup of $(\mathbb{R}, +)$. The operation of a subgroup must be the operation of $G$, and $\mathbb{R}_{>0}$ is not closed under $-a$.
+
+### Basic properties
+
+1. The identity of $H$ is the identity of $G$. Let $f$ be the identity of the group $H$. Then $ff = f$ in $G$, and we multiply by $f^{-1}$ in $G$ to get $f = e$.
+2. The inverse of $a$ in $H$ is the inverse of $a$ in $G$, by property 1 and the [[uniqueness of inverses|0D9NDGE9KP]] in $G$.
+3. The [[subgroup criterion|05N4TQKPH0]] replaces the three conditions by one: $H \neq \emptyset$ and $ab^{-1} \in H$ for all $a, b \in H$. For a finite nonempty subset, closure under products is enough.
+4. A subgroup of a subgroup of $G$ is a subgroup of $G$, because the three conditions use only the operation of $G$.
+5. The [[intersection of subgroups|0ZTGMDNVTB]] is a subgroup. A union of two subgroups is a subgroup only when one of them contains the other.
+6. For each element $g \in G$, the set of its integer powers is the [[cyclic subgroup generated by $g$|08ABT85339]], and it is the smallest subgroup that contains $g$.
+7. If $G$ is finite, then the [[order|0B85S2V2DR]] of each subgroup divides the order of $G$, by [[Lagrange's theorem|3C53TD]].
+8. The [[kernel|0W88CEGQP1]] and the [[image|0S21GNW9ZB]] of a [[group homomorphism|0JYTG5K9Y4]] are subgroups.
+
+### History
+
+Subgroups appeared first as sets of permutations of the roots of a polynomial that are closed under composition.
+In 1770 and 1771, Lagrange counted the values that a function of the roots of a polynomial takes when the roots are permuted.
+This count contains the first form of [[Lagrange's theorem|3C53TD]].
+Galois used the subgroups of the group of an equation around 1830 to decide when the equation is solvable by radicals.
+
+### Common errors
+
+1. A student checks only closure under products. This is not enough: $\mathbb{N}$ is closed under addition in $\mathbb{Z}$, but it is not a subgroup. Closure is enough only for a finite nonempty subset, by the [[subgroup criterion|05N4TQKPH0]].
+2. A student forgets to check that $H$ is not empty. The empty set satisfies the closure conditions, but it does not contain $e$, so it is not a subgroup.
+3. A student takes a subset that is a group under a different operation. A subgroup must use the operation of $G$, as non-example 4 shows.
+
+## Explanations
+
+### L1 human
+
+A group is a set with a way to combine its elements, like addition of integers.
+A subgroup is a part of the group that is a group by itself, with the same way to combine.
+The even numbers are a subgroup of the integers under addition.
+The sum of two even numbers is even, zero is even, and the negative of an even number is even.
+The odd numbers are not a subgroup, because three plus five is eight, and eight is not odd.
+So the test has three parts: zero (or the identity) is in the part, and combining or undoing never takes us out of the part.
+
+### L2 human
+
+We check that $H = \{z \in \mathbb{C}^\times : z^6 = 1\}$ is a subgroup of the group $\mathbb{C}^\times$ of nonzero complex numbers under multiplication.
+
+1. Identity: $1^6 = 1$, so $1 \in H$.
+2. Products: let $a, b \in H$. Then $(ab)^6 = a^6 b^6 = 1 \cdot 1 = 1$, because multiplication in $\mathbb{C}$ is commutative. So $ab \in H$.
+3. Inverses: let $a \in H$. Then $a \neq 0$ and $(a^{-1})^6 = (a^6)^{-1} = 1^{-1} = 1$. So $a^{-1} \in H$.
+4. By steps 1 to 3, $H$ is a subgroup of $\mathbb{C}^\times$. It is the group of the six [[sixth roots of unity|0WX11EA3F3]].
+
+The typical use of the definition is the same three-step check, applied to a set given by an equation or by a property.
+Sets of the form "all elements that satisfy an equation" are often subgroups, as the kernel of a homomorphism shows.
+
+A trap: the set $\{z \in \mathbb{C}^\times : z^6 = 2\}$ is not a subgroup, although it is given by a similar equation.
+It does not contain $1$, because $1^6 = 1 \neq 2$.
+
+### L3 human
+
+A subgroup is the group case of a substructure: a subset closed under all the operations of the structure.
+For a group, the operations are the product, the inverse and the constant $e$, so a substructure is exactly a subgroup.
+The same idea gives subrings, linear subspaces and submodules.
+In category theory, a subgroup of $G$ is a subobject of $G$ in the category of groups, that is, an injective homomorphism into $G$ up to isomorphism.
+
+The subgroups of $G$, ordered by inclusion, form the [[lattice of subgroups|0B8BW4YWTF]].
+Many later ideas are special subgroups: [[normal subgroups|0CB0DX5BVV]] give quotient groups, stabilizers come from group actions, and for each prime $p$ that divides $|G|$, the Sylow $p$-subgroups are the largest subgroups whose order is a power of $p$.
+The cosets of a subgroup partition $G$, and this partition gives Lagrange's theorem and the index of a subgroup.
+In Galois theory, the subgroups of a Galois group correspond to the intermediate fields of a field extension.
