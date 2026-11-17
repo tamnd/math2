@@ -1,0 +1,58 @@
+---
+tag: EAWQDSME6M
+kind: example
+name: An inquiry-based unit on divisibility
+msc: ["97D40", "97E50", "97F60"]
+topics: [VHGA6J4NZK]
+audience: ug1
+instance_of: [WKM6535VHG]
+uses: [WKM6535VHG, 0PG2H7WKGG, 0ED72CTBNP]
+sources:
+  - url: https://en.wikipedia.org/wiki/Moore_method
+    locator: The original method
+  - url: https://en.wikipedia.org/wiki/Inquiry-based_learning
+    locator: Characteristics
+---
+
+## Example
+
+A transition-to-proof course spends one week on [[divisibility|0PG2H7WKGG]] in the style of the [[Moore method|WKM6535VHG]].
+The teacher gives one definition and five tasks, and the students work in groups of three between meetings.
+
+Definition: for integers $a$ and $b$, we say that $a$ divides $b$, written $a \mid b$, if there is an integer $k$ with $b = ak$.
+
+1. Task 1: prove that $a \mid a$ for each integer $a$. Proof: $a = a \cdot 1$.
+2. Task 2: prove that if $a \mid b$ and $b \mid c$, then $a \mid c$. Proof: $b = ak$ and $c = bm$ give $c = a(km)$.
+3. Task 3: prove that if $a \mid b$ and $a \mid c$, then $a \mid (b + c)$. Proof: $b = ak$ and $c = am$ give $b + c = a(k + m)$.
+4. Task 4: prove or disprove the converse of task 3. A [[counterexample|0ED72CTBNP]]: $2 \mid (1 + 1)$, but $2 \nmid 1$.
+5. Task 5: prove that if $a \mid b$, then $a \mid bc$ for each integer $c$. Proof: $b = ak$ gives $bc = a(kc)$.
+
+In class, a student from each group presents one task at the board, and the class checks each step against the definition.
+The teacher gives no proofs, and the accepted results are used in the next week's tasks on the greatest common divisor.
+The unit has a list of tasks, proofs by students, presentation, checking by the class and guidance by the order of tasks, so it is an instance of the method.
+
+## Remarks
+
+The unit differs from Moore's original course in two ways: the students work in groups, and they may read.
+These are typical features of modern inquiry-based learning.
+Task 4 is the most important one for the class, because it trains students to test a claim before they try to prove it.
+
+## Explanations
+
+### L1 human
+
+The teacher gives the class the meaning of "$a$ divides $b$" and a short list of statements.
+The students prove the statements themselves, in small groups.
+One statement is false, and the students must find an example that shows it.
+In class, the students show their proofs, and the others check them.
+
+### L2 human
+
+1. Check the list: one definition and five tasks, in an order where each task needs only the earlier ones.
+2. Check the work: students prove the tasks, in groups.
+3. Check the class: students present, and the class checks.
+4. Check the teacher: the teacher chooses the order of tasks and gives no proofs.
+
+A trap is to give task 4 as "prove the converse".
+Then the students look for a proof that does not exist, and the class loses time.
+The form "prove or disprove" is part of a good list.
