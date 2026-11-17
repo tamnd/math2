@@ -1,0 +1,63 @@
+---
+tag: SXYZP1DNJJ
+kind: definition
+name: Elementary function arithmetic
+msc: ["03F30"]
+topics: [QHCRN4JVG0]
+audience: research
+defines: 2JD80TE553
+uses: [D8SD54M5PN, 3K1AKGXF8A, 1QD0KDDGYJ, GE43CSZTS9]
+sources:
+  - url: https://en.wikipedia.org/wiki/Elementary_function_arithmetic
+    locator: Definition
+---
+
+## Definition
+
+Let $L_{\exp}$ be the [[language of arithmetic|D8SD54M5PN]] $L_A$ with one more binary function symbol, written $x^y$.
+A formula of $L_{\exp}$ is $\Delta_0(\exp)$ when every quantifier in it is bounded, of the form $\forall x < t$ or $\exists x < t$ with $t$ a term of $L_{\exp}$ not containing $x$.
+
+Elementary function arithmetic $\mathsf{EFA}$ is the first-order theory in $L_{\exp}$ with the following axioms.
+
+1. The axioms $\mathsf{Q}1$ to $\mathsf{Q}8$ of [[Robinson arithmetic|3K1AKGXF8A]] $\mathsf{Q}$.
+2. The two exponentiation axioms $\forall x \, (x^0 = S0)$ and $\forall x \, \forall y \, (x^{Sy} = x^y \cdot x)$.
+3. The [[induction schema|1QD0KDDGYJ]] for $\Delta_0(\exp)$ formulas: for every $\Delta_0(\exp)$ formula $\varphi(x, \vec z)$, the axiom
+$$\forall \vec z \, \big( \varphi(0, \vec z) \land \forall x \, (\varphi(x, \vec z) \to \varphi(Sx, \vec z)) \to \forall x \, \varphi(x, \vec z) \big).$$
+
+The standard model is $\mathfrak{N}$ with $x^y$ read as ordinary exponentiation on $\N$.
+
+## Notation
+
+A second formulation stays in $L_A$.
+Fix a [[$\Delta_0$ formula|GE43CSZTS9]] $\mathrm{Exp}(x, y)$ of $L_A$ that defines the relation $y = 2^x$ in $\mathfrak{N}$, and for which $\mathsf{I}\Delta_0$ proves the recursion laws $\mathrm{Exp}(0, S0)$ and $\mathrm{Exp}(x, y) \to \mathrm{Exp}(Sx, y + y)$.
+Such a formula exists; its construction is technical, and we cite it here rather than give it.
+Then $\mathsf{I}\Delta_0 + \mathsf{exp}$ is $\mathsf{I}\Delta_0$ together with the axiom $\mathsf{exp}$, namely $\forall x \, \exists y \, \mathrm{Exp}(x, y)$.
+The two theories prove the same sentences of $L_A$, and the name $\mathsf{EFA}$ is used for both.
+We write $\mathsf{EFA} \vdash \varphi$ for provability in either formulation when $\varphi$ is a sentence of $L_A$.
+
+## Remarks
+
+The induction in item 3 may use the symbol $x^y$ inside the formula and inside the bounds; this is what makes the theory stronger than $\mathsf{I}\Delta_0$.
+If we keep the exponentiation axioms but restrict induction to $\Delta_0$ formulas of $L_A$, the axioms still prove that $x^y$ is total, since it is a function symbol.
+The [[concept node|2JD80TE553]] discusses the provably total functions and Friedman's grand conjecture.
+
+## Explanations
+
+### L1 human
+
+The definition lists the starting facts of the theory.
+There are the basic facts about $0$, successor, addition, multiplication and order, as in Robinson arithmetic.
+There are two rules that compute powers, such as $2^3 = 2^2 \cdot 2 = 8$.
+And there is induction, but only for statements whose quantifiers range below a given bound, such as "every $d < x^2$ has property $P$".
+
+### L2 human
+
+We check that $\mathsf{EFA}$ proves $\forall x \, (x < 2^x)$.
+
+1. Let $\varphi(x)$ be $x < 2^x$, where $2$ is the numeral $SS0$. It has no quantifiers, so it is $\Delta_0(\exp)$.
+2. Base case: $2^0 = S0$ by the first exponentiation axiom, and $0 < S0$ in $\mathsf{Q}$.
+3. Step: assume $x < 2^x$. Then $Sx \le 2^x$, and $2^x \ge 1$ by a separate induction of the same kind.
+4. So $Sx \le 2^x < 2^x + 2^x = 2^x \cdot 2 = 2^{Sx}$, using the second exponentiation axiom.
+5. Induction for $\varphi$ gives $\forall x \, (x < 2^x)$.
+
+A trap is to read item 3 as induction for all formulas of $L_{\exp}$: an unbounded quantifier inside $\varphi$ is not allowed.

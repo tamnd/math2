@@ -1,0 +1,105 @@
+---
+tag: 12XRGBWH59
+kind: statement
+role: theorem
+name: Friedman's finite form of Kruskal's theorem
+msc: ["03F35", "05C05", "06A07"]
+topics: [T6FK1E7GJ1]
+audience: grad
+uses: [XVHKCX4F5Y, 0C9J6W2A8A, NH25G6GC07, DC60FYCSPM, 6QFEVWKE25, C72RBH0CDR]
+about: [XVHKCX4F5Y, DC60FYCSPM]
+history:
+  notes: "Harvey Friedman found in the early 1980s that the finite form is unprovable in ATR0, as stated in the Wikipedia article on Kruskal's tree theorem."
+sources:
+  - url: https://en.wikipedia.org/wiki/Kruskal's_tree_theorem
+    locator: Friedman's work
+  - url: https://en.wikipedia.org/wiki/Kruskal's_tree_theorem
+    locator: Weak tree function
+  - url: https://en.wikipedia.org/wiki/Kruskal's_tree_theorem
+    locator: TREE function
+---
+
+## Statement
+
+For finite [[rooted trees|0C9J6W2A8A]] $T$ and $T'$, write $T \le T'$ if $T$ embeds in $T'$ as in [[Kruskal's tree theorem|XVHKCX4F5Y]].
+For $n \ge 0$, let $P(n)$ be the following sentence.
+There is $m$ such that for every sequence $T_1, \dots, T_m$ of finite rooted trees, where $T_i$ has $i + n$ vertices, there are $i < j$ with $T_i \le T_j$.
+
+**Theorem** (Friedman).
+
+1. $P(n)$ holds for every $n$.
+2. The sentence $\forall n\, P(n)$, written in arithmetic, is not provable in $\mathsf{ATR}_0$, the subsystem of [[second-order arithmetic|DC60FYCSPM]] with arithmetical transfinite recursion.
+3. $\forall n\, P(n)$ is provable in $\Pi^1_1\text{-}\mathsf{CA}_0$, the subsystem with $\Pi^1_1$ comprehension.
+
+The [[proof|T9YXK7VPYG]] derives part 1 from Kruskal's theorem by a tree argument, and it outlines part 2 with the cited lemmas marked.
+
+## Remarks
+
+### Why each hypothesis is needed
+
+- The theory in part 2 is $\mathsf{ATR}_0$, much stronger than [[Peano arithmetic|MPSCREYC3M]]. The stronger theory $\Pi^1_1\text{-}\mathsf{CA}_0$ proves the statement.
+- The size bound $i + n$ is needed. Without it, the stars with $m, m - 1, \dots, 1$ leaves form a bad sequence of length $m$, for every $m$.
+- Each fixed instance $P(n)$ is a true $\Sigma_1$ sentence, so even $\mathsf{PA}$ proves it, by checking a finite computation. The unprovable sentence is $\forall n\, P(n)$.
+
+### Consequences
+
+- For $n = 0$ the least $m$ is $2$, because $T_1$ is the one-vertex tree and it embeds in every tree.
+- For $n = 2$ the least $m$ is $3$, as the L2 explanation shows by hand.
+- The least $m$, as a function of $n$, grows faster than every function that $\mathsf{ATR}_0$ proves total.
+
+### Converse
+
+The converse question is whether $\mathsf{ATR}_0$ proves the negation.
+It does not, because $\forall n\, P(n)$ is true and $\mathsf{ATR}_0$ proves only true arithmetic sentences.
+
+### Generalizations
+
+- *The weak tree function.* $\mathrm{tree}(n)$, written $\mathrm{FFF}(n)$ on Wikipedia, is the greatest length of a bad sequence where $T_i$ has at most $i + n - 1$ vertices. Our computer check gives $1$, $2$, $5$ for $n = 1, 2, 3$, as on Wikipedia.
+- *The function* $\mathrm{TREE}$. Let the trees carry labels from a set of $k$ labels, with $T_i$ of at most $i$ vertices and embeddings that keep labels. $\mathrm{TREE}(k)$ is the greatest length of a bad sequence.
+- $\mathrm{TREE}(1) = 1$ and $\mathrm{TREE}(2) = 3$, and $\mathrm{TREE}(3)$ is far larger.
+- The Wikipedia article states that $\mathrm{TREE}$ eventually dominates every function that $\mathsf{ACA}_0 + \Pi^1_2\text{-}\mathsf{BI}$ proves total.
+- With Friedman's gap condition on the labels, the finite form is not provable even in $\Pi^1_1\text{-}\mathsf{CA}_0$, as the Wikipedia article states.
+
+### Examples
+
+The value $\mathrm{TREE}(2) = 3$, with labels $a$ and $b$.
+
+1. $T_1$ has one vertex, say with label $a$. Every later tree with a vertex labelled $a$ contains $T_1$, so the later trees use $b$ only.
+2. If $T_2$ is the single vertex $b$, then no tree $T_3$ avoids both $T_1$ and $T_2$. The length is then $2$.
+3. If $T_2$ is the edge $b$-$b$, then $T_3$ has at most $3$ vertices, all labelled $b$, and it does not contain an edge. So $T_3$ is the single vertex $b$.
+4. Every $T_4$ contains $T_1$ or $T_3$. So the greatest length is $3$.
+
+## History
+
+Joseph Kruskal proved the tree theorem in 1960.
+Harvey Friedman found, in the early 1980s, that its finite form is unprovable in $\mathsf{ATR}_0$, and that the gap version is unprovable in $\Pi^1_1\text{-}\mathsf{CA}_0$.
+The weak tree function and $\mathrm{TREE}$ come from Friedman's postings of 2006.
+
+## Explanations
+
+### L1 human
+
+Write down trees one by one, where the first tree is small and each later tree may have one more vertex.
+Kruskal's theorem says that some tree will always contain an earlier one.
+Friedman's version asks how long a list can be before this happens.
+The answer is always finite, but it grows so fast that strong systems of axioms cannot prove that it exists for every starting size.
+
+### L2 human
+
+A worked case, $P(2)$, where $T_1$ has $3$ vertices and $T_2$ has $4$.
+
+1. There are two rooted trees with $3$ vertices: the path $P_3$ and the root with two leaves.
+2. If $T_1$ is the root with two leaves, then $T_2$ has no vertex with two children. So $T_2$ is the path $P_4$.
+3. Then $T_3$ has $5$ vertices. It has a vertex with two children, and it contains $T_1$, or it is the path $P_5$, and it contains $T_2$.
+4. If $T_1 = P_3$, then $T_2$ has height at most $1$, so it is the root with three leaves.
+5. Then $T_3$ also has height at most $1$, so it is the root with four leaves, and it contains $T_2$.
+6. So every sequence of length $3$ is good, and the least $m$ for $P(2)$ is $3$.
+
+The trap: each $P(n)$ is provable, even in $\mathsf{PA}$, and only the statement for all $n$ is unprovable in $\mathsf{ATR}_0$.
+
+### L3 human
+
+The proof-theoretic strength comes from ordinals: finite trees code ordinal terms built with the [[Veblen functions|6QFEVWKE25]], and embedding of trees implies the order of the ordinals.
+So a slowly descending sequence of ordinals below the small Veblen ordinal gives a bad sequence of trees.
+The [[proof-theoretic ordinal|C72RBH0CDR]] of $\mathsf{ATR}_0$ is the Feferman-Schütte ordinal $\Gamma_0$, so $\mathsf{ATR}_0$ cannot follow this descent.
+This is the basic example of a miniaturization: a $\Pi^1_1$ theorem about infinite sequences becomes a $\Pi^0_2$ theorem about finite ones.

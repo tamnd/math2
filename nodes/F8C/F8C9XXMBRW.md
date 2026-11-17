@@ -1,0 +1,56 @@
+---
+tag: F8C9XXMBRW
+kind: example
+name: Iterating the negation of consistency is not a progression of theories
+msc: ["03F40", "03F15"]
+topics: [HXHHWY3328]
+audience: research
+not_instance_of:
+  - target: F7Z4BV2KHD
+    note: "The step T ↦ T + ¬Con(T) adds the negation of a consistency statement, not a consistency or reflection principle; the stages are false in the standard model and the iteration stops growing after one step."
+uses: [F7Z4BV2KHD, 4NBAX3VRQ7, 4PZM5GJTR5, MPSCREYC3M, 4A84VHDTHV]
+sources:
+  - url: https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems
+    locator: Second incompleteness theorem
+---
+
+## Example
+
+Define $U_0 = \mathsf{PA}$ and $U_{k+1} = U_k + \neg \mathrm{Con}(U_k)$ for $k \in \N$, with the natural axiom formulas.
+The step $U \mapsto U + \neg \mathrm{Con}(U)$ is effective, so the family looks like a progression.
+We show that it is not one of the [[Turing and Feferman progressions|F7Z4BV2KHD]]: the added sentence is not a consistency or reflection principle, the stages are not sound, and the iteration stops growing after the first step.
+
+1. The defining condition of a progression asks that each step add a [[consistency statement|4NBAX3VRQ7]] or a reflection principle for the previous theory. The sentence $\neg \mathrm{Con}(U_k)$ is the negation of such a statement, so the condition fails.
+2. $U_1 = \mathsf{PA} + \neg \mathrm{Con}(\mathsf{PA})$ is consistent. By [[Gödel's second incompleteness theorem|4PZM5GJTR5]], $\mathsf{PA} \nvdash \mathrm{Con}(\mathsf{PA})$, and a theory $T$ with $T \nvdash \varphi$ makes $T + \neg \varphi$ consistent.
+3. $U_1$ is not sound. The axioms of $\mathsf{PA}$ are true in $\N$, so $\mathsf{PA}$ does not prove $0 = S0$ and $\mathrm{Con}(\mathsf{PA})$ is true; hence the axiom $\neg \mathrm{Con}(\mathsf{PA})$ of $U_1$ is false in $\N$.
+4. For every $k \ge 1$, $U_k \vdash \neg \mathrm{Con}(U_k)$. The theory $U_k$ contains the axiom $\neg \mathrm{Con}(\mathsf{PA})$, which says that some number codes a $\mathsf{PA}$-proof of $0 = S0$. $\mathsf{PA}$ proves that every $\mathsf{PA}$-proof is also a $U_k$-proof, because the axiom formula of $U_k$ includes that of $\mathsf{PA}$. So $U_k$ proves that some number codes a $U_k$-proof of $0 = S0$, which is $\neg \mathrm{Con}(U_k)$.
+5. By step 4, the new axiom of $U_{k+1}$ is already a theorem of $U_k$ for $k \ge 1$. So $U_1, U_2, U_3, \ldots$ all have the same theorems.
+6. So the family is not strictly increasing, and its stages are false in $\N$ (step 3). Both facts contradict the basic properties of a progression over a sound base: each stage is sound, and each successor step is a proper extension.
+
+## Remarks
+
+The example shows why the operation of a progression must add true statements about the previous theory.
+The negation of consistency is consistent with $\mathsf{PA}$, so the second incompleteness theorem alone does not exclude it; only the requirement of soundness does.
+A theory that proves its own inconsistency, such as $U_1$, is consistent but not $\omega$-consistent in the sense of [[ω-consistency|4S29X1GTV4]], because it proves an existential $\Sigma_1$ sentence with no true instance.
+If we replace $\neg \mathrm{Con}$ by $\mathrm{Con}$, we get [[the finite stages of the consistency progression|7SRG8BJRJV]], which are sound and strictly increasing.
+
+## Explanations
+
+### L1 human
+
+The usual progression adds, at each step, the true statement "the previous list of axioms is consistent".
+Here we add the false statement "the previous list is inconsistent" instead.
+Gödel's theorem shows that this does not cause a contradiction at once.
+But the new list now believes a false fact about proofs, and it also believes that it is itself inconsistent.
+So adding the same kind of axiom again gives nothing new, and the chain stops growing.
+
+### L2 human
+
+We compute the first three stages.
+
+1. $U_0 = \mathsf{PA}$, which is sound.
+2. $U_1 = \mathsf{PA} + \neg \mathrm{Con}(\mathsf{PA})$, which is consistent (step 2) and unsound (step 3).
+3. $U_2 = U_1 + \neg \mathrm{Con}(U_1)$, and $U_1$ already proves $\neg \mathrm{Con}(U_1)$ (step 4), so $U_2$ has the same theorems as $U_1$.
+
+The typical use of this example is as a test of the definition: an effective step is not enough, the step must preserve soundness.
+A trap is to think that a consistent extension of $\mathsf{PA}$ is true in $\N$; $U_1$ is consistent and false.

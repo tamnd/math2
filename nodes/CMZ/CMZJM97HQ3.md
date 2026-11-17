@@ -1,0 +1,50 @@
+---
+tag: CMZJM97HQ3
+kind: example
+name: A Δ0 truth predicate in Robinson arithmetic
+msc: ["03F30"]
+topics: [HXHHWY3328]
+audience: grad
+instance_of: [Y2MF1EZAM7]
+uses: [Y2MF1EZAM7, 3K1AKGXF8A, 6M12VR1GT6, PPGD5KW8JC, WP27CABPA4]
+sources:
+  - url: https://en.wikipedia.org/wiki/Robinson_arithmetic
+    locator: Metamathematics
+  - book: isbn:9780521857840
+---
+
+## Example
+
+A $\Delta_0$ sentence is a sentence whose quantifiers are all bounded, of the form $\forall x \le t$ or $\exists x \le t$.
+We build a formula $\mathrm{Tr}_0(x)$ that is a [[partial truth predicate|Y2MF1EZAM7]] for $\Delta_0$ sentences in [[Robinson arithmetic|3K1AKGXF8A]] $\mathsf{Q}$.
+
+1. The truth of a $\Delta_0$ sentence in $\N$ can be computed: evaluate the closed terms, and check the bounded quantifiers by finite search.
+2. So the set $D := \set{\# \varphi : \varphi \text{ is a true } \Delta_0 \text{ sentence}}$ is [[decidable|PPGD5KW8JC]].
+3. By [[representability|6M12VR1GT6]], some formula $\mathrm{Tr}_0(x)$ represents $D$ in $\mathsf{Q}$: $\mathsf{Q} \vdash \mathrm{Tr}_0(\underline{n})$ if $n \in D$, and $\mathsf{Q} \vdash \neg \mathrm{Tr}_0(\underline{n})$ if $n \notin D$.
+4. $\mathsf{Q}$ proves every true $\Delta_0$ sentence, by $\Sigma_1$-completeness.
+5. Let $\varphi$ be a true $\Delta_0$ sentence. By steps 3 and 4, $\mathsf{Q}$ proves $\mathrm{Tr}_0(\ulcorner \varphi \urcorner)$ and $\varphi$, so it proves $\mathrm{Tr}_0(\ulcorner \varphi \urcorner) \leftrightarrow \varphi$.
+6. Let $\varphi$ be a false $\Delta_0$ sentence. Then $\neg \varphi$ is a true $\Delta_0$ sentence, so $\mathsf{Q} \vdash \neg \varphi$ by step 4. Also $\mathsf{Q} \vdash \neg \mathrm{Tr}_0(\ulcorner \varphi \urcorner)$ by step 3. So $\mathsf{Q}$ proves the biconditional.
+7. So $\mathsf{Q} \vdash \mathrm{Tr}_0(\ulcorner \varphi \urcorner) \leftrightarrow \varphi$ for every $\Delta_0$ sentence $\varphi$.
+
+## Remarks
+
+The construction only uses that $\mathsf{Q}$ decides every $\Delta_0$ sentence and represents every decidable set.
+The same argument works for any set of sentences that is decidable and decided by $\mathsf{Q}$.
+It does not give a satisfaction formula for $\Delta_0$ formulas with free variables; that needs more work and induction.
+
+## Explanations
+
+### L1 human
+
+A sentence that only talks about numbers below fixed bounds can be checked by a finite computation.
+Robinson arithmetic proves each such true sentence and refutes each false one.
+So a formula that describes the checking procedure says correctly which of these sentences are true.
+
+### L2 human
+
+1. Truth of bounded sentences is decidable.
+2. Represent the decidable set in $\mathsf{Q}$.
+3. $\mathsf{Q}$ proves or refutes each bounded sentence, so both sides of the biconditional match.
+
+The typical use is as the base case for $\Sigma_n$ truth predicates.
+A trap: this works for sentences only, one at a time; it does not prove the biconditional for all formulas uniformly.
