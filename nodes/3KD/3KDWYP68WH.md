@@ -1,0 +1,12 @@
+---
+tag: 3KDWYP68WH
+kind: topic
+name: Cohomology operations
+msc: ["55S05", "55S10", "55S20", "55S30"]
+topics: [DJK30N0ZNB]
+---
+
+## Summary
+
+This topic is a part of [[algebraic topology|DJK30N0ZNB]].
+It covers natural transformations between cohomology functors, the Steenrod squares and reduced powers, the Steenrod algebra, Massey products and secondary operations.

@@ -1,0 +1,12 @@
+---
+tag: S1VCP257ZA
+kind: topic
+name: Group algebras, Tauberian theorems and spectral synthesis
+msc: ["43A20", "43A45", "43A30"]
+topics: [HXYCB3TG7B]
+---
+
+## Summary
+
+This topic is a part of [[harmonic analysis|HXYCB3TG7B]].
+It covers the group algebra and the measure algebra of a group as Banach algebras, their ideals, Tauberian theorems, spectral synthesis, and the Fourier algebra of a general locally compact group.

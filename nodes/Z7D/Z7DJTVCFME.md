@@ -1,0 +1,12 @@
+---
+tag: Z7DJTVCFME
+kind: topic
+name: Topology of the real line
+msc: ["26A03", "26A21"]
+topics: [6YG4SENPQ0]
+---
+
+## Summary
+
+This topic is a part of [[real analysis|6YG4SENPQ0]].
+It covers the facts about subsets of the real line that analysis uses, such as open, closed and compact sets, the Cantor set and its relatives, sets of measure zero and the Borel classes F-sigma and G-delta.

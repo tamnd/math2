@@ -1,0 +1,12 @@
+---
+tag: 3RFZNDNGVV
+kind: topic
+name: Inclusion-exclusion and the sieve
+msc: ["05A05", "05A15", "05A19"]
+topics: [FRSTEPZPCY]
+---
+
+## Summary
+
+This topic is a part of [[enumerative combinatorics|FRSTEPZPCY]].
+It covers the principle of inclusion-exclusion in its set, sieve and indicator forms, and its applications to surjections, derangements and permutations with forbidden positions.

@@ -1,0 +1,12 @@
+---
+tag: M6NMKPZPX5
+kind: topic
+name: The spectrum of the Laplacian, Weyl's law and eigenfunctions
+msc: ["58J50", "35P20"]
+topics: [S5M5GNQ7P1]
+---
+
+## Summary
+
+This topic is a part of [[global analysis and geometric analysis|S5M5GNQ7P1]].
+It covers the eigenvalues and eigenfunctions of the Laplace-Beltrami operator on closed manifolds and on domains in manifolds, with their variational characterization, asymptotics, nodal sets and eigenfunction bounds.

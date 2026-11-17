@@ -1,0 +1,12 @@
+---
+tag: Y5BK0WK8QV
+kind: topic
+name: Categorification
+msc: ["18N25", "20C08", "17B10"]
+topics: [S60Z63NM98]
+---
+
+## Summary
+
+This topic is a part of [[representation theory|S60Z63NM98]].
+It covers the lifting of representations to actions on categories, such as Soergel bimodules for Hecke algebras and KLR algebras for quantum groups, and the positivity results that follow from it.

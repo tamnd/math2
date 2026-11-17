@@ -1,0 +1,12 @@
+---
+tag: B0Y2PGXY3F
+kind: topic
+name: Education systems and policy
+msc: ["97B10", "97B20", "97B40", "97B99"]
+topics: [9622VKAWMZ]
+---
+
+## Summary
+
+This topic is a part of [[mathematics education|9622VKAWMZ]].
+It covers the policy of mathematics education, with education systems, governance, major reports, accountability and higher education policy.

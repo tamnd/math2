@@ -1,0 +1,12 @@
+---
+tag: SS4EVPKT3A
+kind: topic
+name: Positive definite matrices and the singular value decomposition
+msc: ["15A18", "15A23", "15B48"]
+topics: [GN8GYSDZFX]
+---
+
+## Summary
+
+This topic is a part of [[linear algebra|GN8GYSDZFX]].
+It covers positive definite and semidefinite matrices and operators, their tests and square roots, the Cholesky and polar decompositions, singular values and the singular value decomposition at the conceptual level, the pseudoinverse, and low-rank approximation.

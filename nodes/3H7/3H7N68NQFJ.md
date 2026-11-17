@@ -1,0 +1,12 @@
+---
+tag: 3H7N68NQFJ
+kind: topic
+name: Stability theory for time-dependent difference schemes
+msc: ["65M12", "65M15"]
+topics: [269FQ9Z498]
+---
+
+## Summary
+
+This topic is a part of [[numerical methods for differential equations|269FQ9Z498]].
+It covers the Lax-Richtmyer theory, Fourier and energy methods, and boundary stability for difference schemes of evolution equations.

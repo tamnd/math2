@@ -1,0 +1,12 @@
+---
+tag: XFKQW3988J
+kind: topic
+name: Models of arithmetic
+msc: ["03C62", "11U10", "03H15"]
+topics: [F3AXVABC35]
+---
+
+## Summary
+
+This topic is a part of [[model theory|F3AXVABC35]].
+It covers nonstandard models of Peano arithmetic and its fragments as structures, their order types, extensions and saturation, and the theorems that limit them.

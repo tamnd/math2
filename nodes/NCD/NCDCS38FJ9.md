@@ -1,0 +1,12 @@
+---
+tag: NCDCS38FJ9
+kind: topic
+name: Gaussian and Eisenstein integers
+msc: ["11A15", "11A05"]
+topics: [7XZ94HTPQT]
+---
+
+## Summary
+
+This topic is a part of [[elementary number theory|7XZ94HTPQT]].
+It covers arithmetic in the Gaussian and Eisenstein integers at the elementary level, with norms, primes, unique factorization, and the cubic and quartic reciprocity laws.
