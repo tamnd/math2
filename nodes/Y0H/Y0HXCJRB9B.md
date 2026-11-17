@@ -81,7 +81,7 @@ The site uses "trivial" in its exact sense, for trivial objects, trivial solutio
 The word "trivial" comes from the medieval "trivium", the three basic subjects of grammar, logic and rhetoric, in contrast to the four harder subjects of the "quadrivium".
 Writers have used "obvious" in proofs for a long time; Pierre-Simon Laplace used the French "évident".
 A common joke among mathematicians says that a theorem becomes trivial once someone has proved it.
-A related style, in which a writer calls a claim obvious to stop questions, is called proof by intimidation.
+A related style, in which a writer calls a claim obvious to stop questions, is called [[proof by intimidation|~2649f267]].
 
 ### Common errors
 

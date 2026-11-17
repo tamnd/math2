@@ -3,12 +3,13 @@ tag: 2XXTDXK1ZC
 kind: example
 name: Affirming the consequent is not a valid deduction
 msc: ["00A35"]
-topics: [N4P3E53HM0]
+topics: [N4P3E53HM0, T6QQ749DM5]
 audience: school
+instance_of: [~b2d5374e]
 not_instance_of:
   - target: 5V35SGEN1T
     note: the argument claims a certain conclusion, but its form is not valid, so it is not a deduction; it gives at most a hypothesis to test
-uses: [5V35SGEN1T, 09A3N7ZN5G, 0ED72CTBNP]
+uses: [5V35SGEN1T, 09A3N7ZN5G, 0ED72CTBNP, ~b2d5374e]
 sources:
   - url: https://en.wikipedia.org/wiki/Affirming_the_consequent
     locator: lead section
@@ -30,7 +31,7 @@ We check whether this argument is a valid [[deduction|5V35SGEN1T]].
 2. Premise 2 is true, because $6 = 2 \cdot 3$.
 3. The conclusion is false, because $6 = 4 \cdot 1 + 2$ leaves the remainder $2$.
 4. A valid deduction never leads from true premises to a false conclusion. By steps 1 to 3, this argument does, so it is not valid.
-5. The form of the argument is "if $P$ then $Q$; $Q$; so $P$". The same form with $n = 8$ gives a true conclusion, but only by chance.
+5. The form of the argument is "if $P$ then $Q$; $Q$; so $P$", which [[affirms the consequent|~b2d5374e]]. The same form with $n = 8$ gives a true conclusion, but only by chance.
 6. The form uses the [[converse|09A3N7ZN5G]] "if $Q$ then $P$" without a proof. This converse is false here, and $n = 6$ is a [[counterexample|0ED72CTBNP]] to it.
 
 ## Remarks

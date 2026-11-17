@@ -1,0 +1,110 @@
+---
+tag: ~8decb58a
+kind: example
+name: Non-reversible steps in solving equations
+aliases: [non-reversible-steps, extraneous-solutions-from-non-reversible-steps, implication-versus-equivalence-in-solving-equations]
+msc: ["00A35", "97H30"]
+topics: [T6QQ749DM5]
+audience: school
+instance_of: [~734fe138]
+uses: [~734fe138, 0S6GMNJ62Y, 0F7FQS6XY6, 04DXAFN2ES, Q07B3Q8Q5A]
+sources:
+  - url: https://en.wikipedia.org/wiki/Extraneous_and_missing_solutions
+    locator: lead section
+  - url: https://en.wikipedia.org/wiki/Mathematical_fallacy
+    locator: Positive and negative roots
+---
+
+## Example
+
+A solution of an equation is a chain of steps.
+Each step can be an implication "$\Rightarrow$" or an equivalence "$\Leftrightarrow$", that is, a [[biconditional|0S6GMNJ62Y]].
+A step that is only an implication can add values that are not solutions.
+To claim these values as solutions is a [[mathematical fallacy|~734fe138]]: it treats an implication as an equivalence.
+
+### An equation with a square root
+
+We solve $\sqrt{x + 2} = x$ over $\mathbb{R}$, where $\sqrt{\ }$ is the non-negative [[square root|0F7FQS6XY6]].
+A student writes:
+
+1. $\sqrt{x + 2} = x$.
+2. Square both sides: $x + 2 = x^2$.
+3. So $x^2 - x - 2 = 0$, that is, $(x - 2)(x + 1) = 0$.
+4. So $x = 2$ or $x = -1$.
+5. "The solutions are $2$ and $-1$."
+
+The check:
+
+1. Step 2 is an implication: if $\sqrt{x + 2} = x$, then $x + 2 = x^2$.
+2. Step 2 is not an equivalence. [[Squaring is not injective|Q07B3Q8Q5A]], so $x + 2 = x^2$ also holds when $\sqrt{x + 2} = -x$.
+3. Steps 3 and 4 are equivalences, so step 4 lists the solutions of step 2, not of step 1.
+4. We substitute: for $x = 2$, $\sqrt{4} = 2$, so $2$ is a solution. For $x = -1$, $\sqrt{1} = 1 \neq -1$, so $-1$ is not a solution.
+5. So step 5 is invalid. The value $-1$ is an extraneous solution, added by step 2.
+6. The correct form of step 2 is an equivalence: $\sqrt{x + 2} = x$ holds exactly when $x \ge 0$ and $x + 2 = x^2$. With this form, the condition $x \ge 0$ removes $-1$.
+
+### An equation with logarithms
+
+We solve $\ln x + \ln(x - 3) = \ln 4$ over $\mathbb{R}$, with the [[natural logarithm|04DXAFN2ES]].
+A student writes:
+
+1. $\ln x + \ln(x - 3) = \ln 4$.
+2. Use $\ln a + \ln b = \ln(ab)$: $\ln\big(x(x - 3)\big) = \ln 4$.
+3. The logarithm is injective, so $x(x - 3) = 4$.
+4. So $x^2 - 3x - 4 = 0$, that is, $(x - 4)(x + 1) = 0$, and $x = 4$ or $x = -1$.
+
+The check:
+
+1. The rule $\ln a + \ln b = \ln(ab)$ holds for $a > 0$ and $b > 0$. Step 2 is an implication, valid for every $x$ that satisfies step 1.
+2. Step 2 is not an equivalence. The equation of step 2 is defined when $x(x - 3) > 0$, and this also holds for $x < 0$, where $\ln x$ is not defined.
+3. For $x = -1$, step 1 contains $\ln(-1)$, which is not defined over $\mathbb{R}$. So $-1$ is not a solution.
+4. For $x = 4$, $\ln 4 + \ln 1 = \ln 4$, so $4$ is a solution.
+5. The correct form of step 2 is: step 1 holds exactly when $x > 3$ and $x(x - 3) = 4$. Then $x = 4$ is the only solution.
+
+## Remarks
+
+### Implication and equivalence in a chain
+
+A chain $E_1 \Rightarrow E_2 \Rightarrow \cdots \Rightarrow E_n$ proves: every solution of $E_1$ is a solution of $E_n$.
+So the solutions of $E_n$ are candidates, and each candidate must be checked in $E_1$.
+A chain of equivalences $E_1 \Leftrightarrow E_2 \Leftrightarrow \cdots \Leftrightarrow E_n$ proves that $E_1$ and $E_n$ have the same solutions, and no check is needed.
+To read "$\Rightarrow$" as "$\Leftrightarrow$" is to accept the converse of an implication, the same logical error as [[affirming the consequent|~b2d5374e]].
+
+### Steps that are not reversible
+
+1. Squaring both sides, or raising them to an even power. The page on [[squaring both sides|FGS7ZJJYRK]] shows the same step in a false proof of an identity.
+2. Multiplying both sides by an expression that can be $0$. For example, $x = 1$ and $x(x - 2) = x - 2$ have different solution sets: the second also has $x = 2$.
+3. Using a rule for logarithms or roots that is valid only on a smaller domain, as in the second example.
+4. Replacing an equation by a consequence, such as "$a = b$, so $a^2 = b^2$".
+
+Dividing by an expression that can be $0$ is the opposite error.
+That step is not an implication, and it can lose solutions, as the page on [[division by zero fallacies|~15c22fc4]] shows.
+
+### Two ways to repair a solution
+
+1. Keep the chain of implications, and check each candidate in the original equation.
+2. Make each step an equivalence by adding its condition, for example "$\sqrt{u} = v$ holds exactly when $v \ge 0$ and $u = v^2$".
+
+The check of method 1 is a step of the proof, not a test of the arithmetic.
+Without it, the argument proves only "if $x$ is a solution, then $x \in \{2, -1\}$", which does not say that $2$ is a solution.
+
+## Explanations
+
+### L1 human
+
+When we square both sides of an equation, we can create new answers that do not work.
+For example, $x = 3$ has one answer.
+After squaring, $x^2 = 9$ has two answers, $3$ and $-3$.
+The new answer $-3$ came from the squaring, not from the first equation.
+So after squaring we always put each answer back into the first equation, and we keep only the answers that work.
+
+### L2 human
+
+We solve $\sqrt{2x + 3} = x - 2$ with both methods of repair.
+
+1. Squaring gives $2x + 3 = x^2 - 4x + 4$, so $x^2 - 6x + 1 = 0$, and $x = 3 \pm 2\sqrt{2}$.
+2. Method 1: for $x = 3 + 2\sqrt{2}$, the right side $x - 2 = 1 + 2\sqrt{2}$ is positive. Also $2x + 3 = 9 + 4\sqrt{2} = (1 + 2\sqrt{2})^2$. So $\sqrt{2x + 3} = x - 2$, and $x$ is a solution.
+3. For $x = 3 - 2\sqrt{2} \approx 0.17$, the right side $x - 2 \approx -1.83$ is negative. A square root is never negative, so $x$ is not a solution.
+4. Method 2: the equation holds exactly when $x - 2 \ge 0$ and $2x + 3 = (x - 2)^2$. The condition $x \ge 2$ keeps only $3 + 2\sqrt{2}$.
+
+The typical use of method 2 is to write the condition at the step where it enters, so that no check is needed at the end.
+A trap is a numerical check with rounded values: it can accept a false candidate or reject a true one when the two sides are close.
