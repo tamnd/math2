@@ -32,12 +32,12 @@ Proof is the standard by which mathematics accepts a result, and it is what sepa
 
 The expression $n^2 + n + 41$ gives a prime number for $n = 0, 1, 2, \ldots, 39$.
 Forty successful checks make the guess "it is always prime" look safe.
-But for $n = 40$ the value is $1681 = 41^2$, which is not prime, as [[this example|~5a01c6a0]] shows.
+But for $n = 40$ the value is $1681 = 41^2$, which is not prime, as [[this example|H75AB4EJT5]] shows.
 Thus checks of single cases, however many, do not settle a statement about infinitely many cases.
 
 A proof solves this problem.
 It gives one argument that works for each case at once, because it uses only the properties that all the cases share.
-For example, the argument that the sum of two even integers is even uses only the form $2k$ of an even integer, so it covers every pair of even integers, as [[this example|~20e36a6d]] shows.
+For example, the argument that the sum of two even integers is even uses only the form $2k$ of an even integer, so it covers every pair of even integers, as [[this example|5M5Q062R1X]] shows.
 
 ## Notation
 
@@ -50,15 +50,15 @@ The page [[proof methods|G9JFJGY4TQ]] collects the names of the standard methods
 
 ### Examples
 
-- The sum of two even integers is even. [[This proof|~20e36a6d]] writes the integers as $2a$ and $2b$, and it writes the sum as $2(a + b)$.
+- The sum of two even integers is even. [[This proof|5M5Q062R1X]] writes the integers as $2a$ and $2b$, and it writes the sum as $2(a + b)$.
 - There are infinitely many prime numbers. [[Euclid's proof|0292EPPPT0]] shows that each finite list of primes misses a prime, so no finite list contains all primes.
 - The number $\sqrt{2}$ is irrational. [[This proof|0DZGSDHD92]] assumes $\sqrt{2} = a/b$ and derives a contradiction, so it is a [[proof by contradiction|0J0XBKG64S]].
 - The formula $1 + 2 + \cdots + n = n(n+1)/2$ holds for each positive integer $n$. A proof by [[mathematical induction|0ASJVEFA9J]] proves the case $n = 1$ and the step from $n$ to $n + 1$.
-- The equation $2 + 2 = 4$ in the natural numbers has a proof that a computer checks, in the proof assistant Lean, as [[this example|~62c77101]] shows. The proof is a term, and the program checks that the term has the type of the statement.
+- The equation $2 + 2 = 4$ in the natural numbers has a proof that a computer checks, in the proof assistant Lean, as [[this example|QF0Q7B5Q73]] shows. The proof is a term, and the program checks that the term has the type of the statement.
 
 ### Non-examples
 
-- The forty checks of $n^2 + n + 41$ for $n = 0$ to $39$ are not a proof that the value is always prime. The statement is false, as [[this example|~5a01c6a0]] shows.
+- The forty checks of $n^2 + n + 41$ for $n = 0$ to $39$ are not a proof that the value is always prime. The statement is false, as [[this example|H75AB4EJT5]] shows.
 - The argument "if $n$ is even then $n^2$ is even, and $n^2$ is even, so $n$ is even" is not a proof. Its last step uses the [[converse|09A3N7ZN5G]] of the first statement, and the converse needs its own proof.
 - A drawing of one equilateral triangle does not prove a statement about all triangles. A property of the drawing can depend on its special shape.
 
