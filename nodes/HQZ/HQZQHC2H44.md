@@ -9,8 +9,14 @@ sources:
     mention: wikipedia://en/73634#JK8E
     sections: [Summary]
 inventory: [JFR71Q639T]
+retired:
+  date: 2026-11-17
+  reason: duplicate
+  successor: [ET9J6R9T5C]
+  note: "Same concept as ET9J6R9T5C, Q.E.D. and end of proof marks."
 ---
 
 ## Summary
 
-Used for marking the end of a proof and separating it from the current text. The initialism Q.E.D. or QED (quod erat demonstrandum, "as was to be shown") is often used for the same purpose, either in its upper-case form or in lower case.
+This page is retired, because it repeats [[Q.E.D. and end of proof marks|ET9J6R9T5C]].
+An end of proof mark, such as Q.E.D. or the tombstone, shows that a proof is complete.
