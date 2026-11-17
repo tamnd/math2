@@ -1,0 +1,91 @@
+---
+tag: KP5KA51FC4
+kind: definition
+name: Contraction-free sequent calculi
+msc: ["03F05", "03B20"]
+topics: [R10RMQCJQX]
+audience: grad
+defines: BZ59F5GBRR
+uses: [PZX9J3VEMT, W72CA3R9MP, MYJ8Y050J0]
+sources:
+  - url: https://en.wikipedia.org/wiki/Sequent_calculus
+    locator: Structural rules
+  - url: https://en.wikipedia.org/wiki/Structural_proof_theory
+    locator: Cut-elimination in the sequent calculus
+---
+
+## Definition
+
+Formulas are built from propositional variables and $\bot$ by $\wedge$, $\vee$ and $\to$, and $\neg A$ abbreviates $A \to \bot$.
+A sequent $\Gamma \Rightarrow \Delta$ has finite [[multisets|MYJ8Y050J0]] $\Gamma$ and $\Delta$ of formulas, and $p$ ranges over propositional variables.
+A *contraction-free sequent calculus* is a sequent calculus in which contraction is not a rule, and its rules are chosen so that contraction is admissible.
+We define two such calculi here, and the Remarks give a third one, Dyckhoff's calculus LJT.
+
+**The classical calculus G3cp.** Its axioms and rules are the following.
+
+- Axioms: $p, \Gamma \Rightarrow \Delta, p$, and $\bot, \Gamma \Rightarrow \Delta$.
+- L${\wedge}$: from $A, B, \Gamma \Rightarrow \Delta$ infer $A \wedge B, \Gamma \Rightarrow \Delta$.
+- R${\wedge}$: from $\Gamma \Rightarrow \Delta, A$ and $\Gamma \Rightarrow \Delta, B$ infer $\Gamma \Rightarrow \Delta, A \wedge B$.
+- L${\vee}$: from $A, \Gamma \Rightarrow \Delta$ and $B, \Gamma \Rightarrow \Delta$ infer $A \vee B, \Gamma \Rightarrow \Delta$.
+- R${\vee}$: from $\Gamma \Rightarrow \Delta, A, B$ infer $\Gamma \Rightarrow \Delta, A \vee B$.
+- L${\to}$: from $\Gamma \Rightarrow \Delta, A$ and $B, \Gamma \Rightarrow \Delta$ infer $A \to B, \Gamma \Rightarrow \Delta$.
+- R${\to}$: from $A, \Gamma \Rightarrow \Delta, B$ infer $\Gamma \Rightarrow \Delta, A \to B$.
+
+**The intuitionistic calculus G3ip.** Every succedent is one formula $C$.
+Its axioms are $p, \Gamma \Rightarrow p$ and $\bot, \Gamma \Rightarrow C$.
+Its rules L${\wedge}$, R${\wedge}$, L${\vee}$ and R${\to}$ are those of G3cp with $\Delta$ removed, and its other rules are these.
+
+- R${\vee}$: from $\Gamma \Rightarrow A_i$ infer $\Gamma \Rightarrow A_0 \vee A_1$, for $i = 0$ or $i = 1$.
+- L${\to}$: from $A \to B, \Gamma \Rightarrow A$ and $B, \Gamma \Rightarrow C$ infer $A \to B, \Gamma \Rightarrow C$.
+
+## Notation
+
+In each rule, the displayed formula of the conclusion is *principal*, and $\Gamma$ and $\Delta$ form the *context*.
+The *height* of a derivation is the largest number of rule steps on a branch, so an axiom has height $0$.
+We write $\vdash_n \Gamma \Rightarrow \Delta$ when the sequent has a derivation of height at most $n$.
+The names follow Kleene's system G3 and the book of Troelstra and Schwichtenberg, where c, i and p stand for classical, intuitionistic and propositional.
+Dyckhoff called his calculus LJT, and some later authors call it G4ip.
+A rule is *height-preserving admissible* when its conclusion has a derivation of height at most $n$ whenever its premises do.
+
+## Remarks
+
+The calculi have no structural rules: weakening is built into the axioms, and exchange into the use of multisets.
+In G3cp and G3ip, weakening and contraction are height-preserving admissible, and cut is admissible.
+In G3cp, every rule keeps its whole context in every premise, which gives the [[inversion lemma|EXMS77F2XN]].
+In G3ip, the left premise of L${\to}$ repeats the principal formula $A \to B$, so backward search for a derivation can loop.
+
+*Dyckhoff's calculus LJT* is the calculus G3ip with L${\to}$ replaced by four rules, where $E$ is one formula.
+
+- L0${\to}$: from $p, B, \Gamma \Rightarrow E$ infer $p, p \to B, \Gamma \Rightarrow E$.
+- L${\wedge}{\to}$: from $C \to (D \to B), \Gamma \Rightarrow E$ infer $(C \wedge D) \to B, \Gamma \Rightarrow E$.
+- L${\vee}{\to}$: from $C \to B, D \to B, \Gamma \Rightarrow E$ infer $(C \vee D) \to B, \Gamma \Rightarrow E$.
+- L${\to}{\to}$: from $D \to B, \Gamma \Rightarrow C \to D$ and $B, \Gamma \Rightarrow E$ infer $(C \to D) \to B, \Gamma \Rightarrow E$.
+
+LJT removes the repetition of the principal formula in L${\to}$: in every rule, each premise is smaller than the conclusion in a well-founded order.
+LJT derives the same sequents as G3ip.
+
+## Explanations
+
+### L1 human
+
+These are rule systems for writing proofs of propositional logic, in which a used assumption is never copied.
+In Gentzen's original calculus, an explicit rule copies an assumption so that it can be used twice.
+Here the copy is built into the rules that need it, so the copying rule is not needed.
+
+### L2 human
+
+We derive $p \wedge q \Rightarrow q \wedge p$ in G3cp.
+
+1. $p, q \Rightarrow q$ and $p, q \Rightarrow p$ are axioms.
+2. R${\wedge}$ gives $p, q \Rightarrow q \wedge p$.
+3. L${\wedge}$ gives $p \wedge q \Rightarrow q \wedge p$.
+
+The typical use is backward search: start from the goal and apply rules upwards until only axioms remain.
+A trap is to write axioms $A \Rightarrow A$ for compound $A$: the calculi allow only atomic axioms, and the general case is derivable.
+
+### L3 human
+
+In G3cp all rules are invertible, so backward search never needs to backtrack.
+For G3ip, the rules L${\to}$ and R${\vee}$ need backtracking, and LJT makes the search terminate without loop checking.
+Dyckhoff's calculus gives a decision procedure for intuitionistic propositional logic, which is [[PSPACE|T9NTRY93ZT]]-complete.
+The same design, with explicit contexts and atomic axioms, extends to first-order logic in the calculi G3c and G3i.

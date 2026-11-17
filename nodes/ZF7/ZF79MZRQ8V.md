@@ -1,0 +1,98 @@
+---
+tag: ZF79MZRQ8V
+kind: statement
+role: theorem
+name: Decidable prefix classes
+aliases: [classical-decision-problem, bernays-schonfinkel-ramsey-class, ackermann-class, godel-kalmar-schutte-class, prefix-classes-of-first-order-logic]
+msc: ["03B25", "03B10"]
+topics: [E4AVTNWE9E]
+audience: research
+uses: [CS82V969DE, QN7M1JCGT9, VA6BNNY2YC, AS0NHQMAKA, 983GZBQYT4]
+about: [086QKPF0A6, QN7M1JCGT9]
+history:
+  first_stated: "1928"
+  notes: Bernays and Schönfinkel (1928) and Ackermann (1928) solved the first prefix classes; Ramsey (1930) added equality to the class with prefix ∃*∀*; the classification was completed with the undecidability results of Kahr, Moore and Wang (1962) and Goldfarb (1984), and is presented in the book The Classical Decision Problem of Börger, Grädel and Gurevich (1997).
+sources:
+  - url: https://en.wikipedia.org/wiki/Bernays%E2%80%93Sch%C3%B6nfinkel_class
+    locator: lead section
+  - url: https://en.wikipedia.org/wiki/Entscheidungsproblem
+    locator: Negative answer
+---
+
+## Statement
+
+A prefix is a word over the alphabet $\set{\exists, \forall}$.
+For a set $\Pi$ of prefixes, the prefix class $[\Pi]$ is the set of first-order sentences in [[prenex normal form|CS82V969DE]] $Q_1 x_1 \cdots Q_l x_l \, \varphi$ such that $\varphi$ is quantifier-free, $Q_1 \cdots Q_l \in \Pi$, and the signature has relation symbols only.
+We write $\exists^*$ for any number of $\exists$, and $\forall^2$ for $\forall \forall$.
+
+1. Bernays-Schönfinkel-Ramsey class. Let $\sigma = \exists x_1 \cdots \exists x_m \, \forall y_1 \cdots \forall y_n \, \varphi$ be in $[\exists^* \forall^*]$, with or without equality. If $\sigma$ has a model, then $\sigma$ has a model with at most $\max(m, 1)$ elements. So [[satisfiability|QN7M1JCGT9]] in $[\exists^* \forall^*]$ is decidable.
+2. Ackermann class. Satisfiability in $[\exists^* \forall \exists^*]$ without equality is decidable, and each satisfiable sentence of the class has a finite model.
+3. Gödel-Kalmár-Schütte class. Satisfiability in $[\exists^* \forall^2 \exists^*]$ without equality is decidable, and each satisfiable sentence of the class has a finite model.
+4. Classification without equality. Let $p$ be a prefix. If $p$ matches $\exists^* \forall^*$, $\exists^* \forall \exists^*$ or $\exists^* \forall^2 \exists^*$, then $[p]$ is decidable. Otherwise $p$ contains $\forall \exists \forall$ or $\forall^3 \exists$ as a subsequence, and $[p]$ is undecidable.
+
+The proof page proves part 1 completely, and proves that part 4 follows from parts 1 to 3 and the undecidability of the two classes $[\forall \exists \forall]$ and $[\forall^3 \exists]$.
+Parts 2 and 3 and these two undecidability results are cited, not proved.
+
+## Remarks
+
+### Why each hypothesis is needed
+
+- The signature must have no function symbols. The sentence $\forall x \, \forall y \, (f(x) = f(y) \to x = y) \wedge \forall x \, (f(x) \neq c)$ has the prefix $\forall^2$ after prenexing, and it has only infinite models: $f$ is injective and misses $c$.
+- The order of the quantifiers matters. The sentence [[with only infinite models|KH3ZG4RXAW]] has the prefix $\forall^3 \exists$ in prenex form, so the classes $[\forall^* \exists^*]$ do not have the finite model property.
+- In parts 2 and 3, equality matters. Goldfarb proved in 1984 that the class $[\forall^2 \exists]$ with equality is undecidable.
+
+### Consequences
+
+1. Validity of sentences in $[\forall^* \exists^*]$ is decidable, since $\sigma$ is valid if and only if $\neg \sigma$, which is in $[\exists^* \forall^*]$ after moving the negation inward, has no model.
+2. In automated reasoning, the Bernays-Schönfinkel-Ramsey class is called effectively propositional logic. A sentence of the class reduces to a propositional formula by substituting its witnesses for the universal variables, as in the proof.
+3. Together with [[Church's theorem|VA6BNNY2YC]], the classification shows exactly where the boundary between decidable and undecidable lies for prenex sentences without equality and functions.
+
+### Converse
+
+The finite model property and decidability are not equivalent in general, but here they agree: each decidable class of part 4 has the finite model property.
+A computable class of sentences with the finite model property is always decidable.
+Finite satisfiability is computably enumerable, by a search through finite structures, and unsatisfiability is computably enumerable, by the completeness theorem.
+So the undecidable classes of part 4 do not have the finite model property, in accordance with [[Trakhtenbrot's theorem|XP6FW2WDWT]].
+
+### Generalizations
+
+The book of Börger, Grädel and Gurevich classifies prefix classes also by the number and arity of relation symbols, with equality, and with function symbols.
+Other decidable fragments are defined by the number of variables, as the [[two-variable fragment|S7C3C7DJRF]], or by guards, as the [[guarded fragment|Y7YS1C3GAE]].
+The [[monadic predicate calculus|SERN6CRVWW]] is decidable for every prefix.
+
+## History
+
+Bernays and Schönfinkel proved the decidability of the class $[\exists^* \forall^*]$ without equality in 1928, and Ackermann proved the decidability of his class in the same year.
+Ramsey extended the result to sentences with equality in 1930, and [[Ramsey's theorem|00TQV3F5S4]] in combinatorics first appeared in that paper.
+Gödel, Kalmár and Schütte proved the decidability of the class $[\exists^* \forall^2 \exists^*]$ without equality in the early 1930s.
+Gödel had stated that the result extends to equality, and Goldfarb showed in 1984 that it does not.
+Kahr, Moore and Wang proved in 1962 that $[\forall \exists \forall]$ is undecidable, with a coding of tiling problems.
+
+## Explanations
+
+### L1 human
+
+A logical statement often starts with a row of quantifiers such as "there is", "for all", "there is".
+The order of these words decides whether a computer can always tell if the statement can be true.
+If all "there is" come before all "for all", the test is easy: we only need as many objects as there are "there is" words.
+For other orders, such as "for all, there is, for all", no computer program can decide every statement.
+
+### L2 human
+
+We decide the satisfiability of $\sigma = \exists x \, \forall y \, (R(x, y) \wedge \neg R(y, y))$.
+
+1. The prefix is $\exists \forall$, so $\sigma$ is in the Bernays-Schönfinkel-Ramsey class with $m = 1$.
+2. By part 1, if $\sigma$ has a model, it has a model with $1$ element. So we check the one-element structures.
+3. Let the domain be $\set{a}$. Then $x = y = a$, and the matrix becomes $R(a, a) \wedge \neg R(a, a)$, which is false.
+4. So no one-element structure is a model, and $\sigma$ is unsatisfiable.
+5. As a check, in any model with witness $a$ for $x$, taking $y = a$ gives $R(a, a)$ and $\neg R(a, a)$.
+
+The typical use is to decide a sentence whose universal part speaks about a fixed finite set of named objects.
+A trap is to prenex a sentence carelessly: $\forall y \, \exists x \, R(x, y)$ has prefix $\forall \exists$, and it is not in the class $[\exists^* \forall^*]$.
+
+### L3 human
+
+The classical decision problem asks for each natural class of first-order sentences whether satisfiability is decidable.
+For prefix classes without equality and function symbols, the answer has the clean form of part 4, with three maximal decidable classes and two minimal undecidable ones.
+Decidability proofs use the finite model property, often through a combinatorial argument such as Ramsey's theorem, while undecidability proofs code Turing machines or tiling problems, as in [[Wang tile undecidability|AJH5HPD2B7]].
+The same pattern of decidable and undecidable cases appears for the [[two-variable fragment|S7C3C7DJRF]], the [[guarded fragment|Y7YS1C3GAE]] and modal logics, where decidability is linked to a tree-like or small model property.

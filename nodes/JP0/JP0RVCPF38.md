@@ -1,0 +1,54 @@
+---
+tag: JP0RVCPF38
+kind: example
+name: Non-standard proofs in a model of PA + ¬Con(PA)
+msc: ["03F40", "03C62"]
+topics: [HXHHWY3328]
+audience: grad
+instance_of: [NB2BCZR40F]
+uses: [NB2BCZR40F, 4PZM5GJTR5, WQ1ZE255SF, VM8TQ70CVJ, 1QWN5CV4CG, 4NBAX3VRQ7]
+sources:
+  - url: https://en.wikipedia.org/wiki/Non-standard_model_of_arithmetic
+    locator: lead section
+  - book: isbn:9780521857840
+---
+
+## Example
+
+Let $\mathrm{Con}(\mathsf{PA}) := \neg \mathrm{Prov}_{\mathsf{PA}}(\ulcorner 0 = S0 \urcorner)$ be the [[consistency statement|4NBAX3VRQ7]] of Peano arithmetic.
+We show that the theory $\mathsf{PA} + \neg \mathrm{Con}(\mathsf{PA})$ has a model $\mathcal{M}$, and that every witness in $\mathcal{M}$ of $\mathrm{Prov}_{\mathsf{PA}}(\ulcorner 0 = S0 \urcorner)$ is non-standard.
+
+1. $\N$ is a model of $\mathsf{PA}$, so $\mathsf{PA}$ is [[consistent|VM8TQ70CVJ]].
+2. By the [[second incompleteness theorem|4PZM5GJTR5]], $\mathsf{PA} \nvdash \mathrm{Con}(\mathsf{PA})$.
+3. A theory $T$ does not prove $\varphi$ exactly when $T + \neg \varphi$ is consistent. So $\mathsf{PA} + \neg \mathrm{Con}(\mathsf{PA})$ is consistent.
+4. By [[Gödel's completeness theorem|WQ1ZE255SF]], this theory has a model $\mathcal{M}$.
+5. Since $\mathcal{M} \models \neg \mathrm{Con}(\mathsf{PA})$, it satisfies $\exists y \, \mathrm{Prf}_{\mathsf{PA}}(y, \ulcorner 0 = S0 \urcorner)$. Choose $b \in \mathcal{M}$ with $\mathcal{M} \models \mathrm{Prf}_{\mathsf{PA}}(b, \ulcorner 0 = S0 \urcorner)$.
+6. Let $m \in \N$. By step 1, $m$ does not code a proof of $0 = S0$. By representability, $\mathsf{Q} \vdash \neg \mathrm{Prf}_{\mathsf{PA}}(\underline{m}, \ulcorner 0 = S0 \urcorner)$.
+7. $\mathcal{M}$ is a model of $\mathsf{Q}$, so $\mathcal{M} \models \neg \mathrm{Prf}_{\mathsf{PA}}(\underline{m}, \ulcorner 0 = S0 \urcorner)$. So $b$ is not the value of $\underline{m}$ in $\mathcal{M}$.
+8. Step 7 holds for every $m$, so $b$ is a non-standard element, and $\mathcal{M}$ is a [[non-standard model|1QWN5CV4CG]] of $\mathsf{PA}$.
+
+## Remarks
+
+The element $b$ is a "proof" of $0 = S0$ only inside $\mathcal{M}$: it has a non-standard length, and it is not a finite sequence of real formulas.
+So $\mathcal{M} \models \mathrm{Prov}_{\mathsf{PA}}(\ulcorner 0 = S0 \urcorner)$, while $0 = S0$ is false in $\mathcal{M}$.
+The example shows that the provability predicate is reliable in $\N$ but not in every model.
+For the sentence $0 = 0$, which has a real proof $p$, the witness can be the standard number $p$ in every model.
+
+## Explanations
+
+### L1 human
+
+There are strange number systems that obey all the rules of Peano arithmetic and also contain "infinite" numbers.
+In one such system, the formula "there is a proof that $0 = 1$" is true.
+The witness is an infinite number, which the system takes for a proof.
+No ordinary number is such a proof, because Peano arithmetic is consistent.
+
+### L2 human
+
+1. Start from the consistency of $\mathsf{PA}$.
+2. Use the second incompleteness theorem to add the axiom $\neg \mathrm{Con}(\mathsf{PA})$ without contradiction.
+3. Take a model and a witness $b$ to the false provability claim.
+4. Show that $b$ differs from every numeral, by representability.
+
+The typical use is to explain why $T \vdash \mathrm{Prov}_T(\ulcorner \varphi \urcorner)$ does not give $T \vdash \varphi$.
+A trap: $\mathcal{M}$ satisfies all axioms of $\mathsf{PA}$, so it is not a "wrong" model; it differs from $\N$ in its $\Sigma_1$ truths.

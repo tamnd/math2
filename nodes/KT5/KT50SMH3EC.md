@@ -54,7 +54,7 @@ Books use slightly different conventions, for example $\varepsilon_0[n] = \tau_n
 ### Role in proof theory
 
 - [[Peano arithmetic|0QFT7Z76N5]] proves [[transfinite induction|0ZHQMQ2C1N]] along the notation system for every ordinal below $\varepsilon_0$. This is the theorem [[transfinite induction in arithmetic|~e065bc19]].
-- Peano arithmetic does not prove transfinite induction up to $\varepsilon_0$ itself, by [[Gentzen's consistency proof|QPV0HNP22S]] and [[Gödel's second incompleteness theorem|X9WYNYE29C]].
+- Peano arithmetic does not prove transfinite induction up to $\varepsilon_0$ itself, by [[Gentzen's consistency proof|QPV0HNP22S]] and [[Gödel's second incompleteness theorem|4PZM5GJTR5]].
 - The provably total computable functions of Peano arithmetic are the functions computable in time bounded by a level $f_\alpha$, $\alpha < \varepsilon_0$, of the fast-growing hierarchy.
 - [[Goodstein's theorem|XQMNJF241J]] is true and unprovable in Peano arithmetic. Its proof assigns to each step an ordinal below $\varepsilon_0$, and the ordinals strictly decrease.
 - The second-order system [[ACA0|HPA6HX3114]] has the same ordinal $\varepsilon_0$, because it is conservative over Peano arithmetic.

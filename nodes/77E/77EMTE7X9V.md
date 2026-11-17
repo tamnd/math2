@@ -1,0 +1,45 @@
+---
+tag: 77EMTE7X9V
+kind: proof
+name: Chaitin's proof of the first incompleteness theorem by Kolmogorov complexity
+msc: ["03F40", "68Q30"]
+topics: [HXHHWY3328]
+audience: grad
+proves: X9WYNYE29C
+uses: [8PY3K6NCKF, 6M12VR1GT6, TN9G24VABN, 4S29X1GTV4]
+methods: [0J0XBKG64S]
+sources:
+  - url: https://en.wikipedia.org/wiki/Kolmogorov_complexity
+    locator: Chaitin's incompleteness theorem
+  - book: isbn:9780521701464
+---
+
+## Proof
+
+This proof gives the incompleteness in parts 1 and 2 with another undecided sentence, of the form "$C(\underline{x}) > \underline{c}$".
+Fix a universal machine $U$ on binary strings.
+The [[Kolmogorov complexity|8PY3K6NCKF]] $C(x)$ is the least length of a program $p$ with $U(p) = x$.
+
+1. The relation "$U$ on input $p$ halts within $s$ steps with output $x$" is decidable. Let $\mathrm{Out}(p, s, x)$ represent it in $\mathsf{Q}$.
+2. Let $\kappa(x, c) := \neg \exists p \, \exists s \, (\mathrm{lh}(p) \le c \wedge \mathrm{Out}(p, s, x))$. This $\Pi_1$ formula says $C(x) > c$, and it defines this relation in $\N$.
+3. Invariance theorem: for every machine $M$ there is a constant $c_M$ with $C(x) \le C_M(x) + c_M$ for all $x$. Here $C_M$ is the complexity measured with $M$.
+4. Let $M$ be this machine: on input $w$, it reads $w$ as the binary numeral of a number $c$. It lists the theorems of $T$, which is possible since they form a [[computably enumerable|TN9G24VABN]] set. It outputs the first $x$ such that $\kappa(\underline{x}, \underline{c})$ appears.
+5. Choose $c$ with $\lfloor \log_2 c \rfloor + 1 + c_M < c$. Such $c$ exists, since $c - \log_2 c$ grows without bound.
+6. Assume $T$ is consistent. Suppose $T \vdash \kappa(\underline{x}, \underline{c})$ for some $x$. Then $M$ halts on the binary numeral of $c$ with an output $x_0$, and $T \vdash \kappa(\underline{x_0}, \underline{c})$.
+7. The binary numeral of $c$ has $\lfloor \log_2 c \rfloor + 1$ digits, so $C_M(x_0) \le \lfloor \log_2 c \rfloor + 1$. By steps 3 and 5, $C(x_0) < c$.
+8. So the $\Sigma_1$ sentence $\neg \kappa(\underline{x_0}, \underline{c})$ is true in $\N$. Every true $\Sigma_1$ sentence is provable in $\mathsf{Q}$, so $T \vdash \neg \kappa(\underline{x_0}, \underline{c})$.
+9. Steps 6 and 8 make $T$ inconsistent. So $T$ proves no sentence $\kappa(\underline{x}, \underline{c})$.
+10. There are $2^{c+1} - 1$ binary strings of length at most $c$, so at most $2^{c+1} - 1$ numbers have $C(x) \le c$. Among the $2^{c+1}$ numbers $0, \ldots, 2^{c+1} - 1$, some $x_1$ has $C(x_1) > c$.
+11. So $\kappa(\underline{x_1}, \underline{c})$ is a true $\Pi_1$ sentence, and $T$ does not prove it, by step 9.
+12. If $T$ is $1$-consistent, $T$ does not prove the false $\Sigma_1$ sentence $\neg \kappa(\underline{x_1}, \underline{c})$. So $T$ is not negation complete.
+
+## Idea
+
+The proof formalizes the Berry paradox: "the least number that cannot be described in fewer than $c$ symbols".
+If $T$ could prove that some $x$ is complex, a short program could search for such a proof and print $x$, so $x$ would be simple.
+For large $c$ the program is shorter than $c$, and the contradiction shows that $T$ proves no lower bound $C(x) > c$.
+
+## Variants
+
+The constant $c$ in step 5 depends on $T$ through the machine $M$, roughly as the length of a description of $T$.
+Boolos gave a related proof of incompleteness from the Berry paradox, using the number of symbols of a definition instead of Kolmogorov complexity.

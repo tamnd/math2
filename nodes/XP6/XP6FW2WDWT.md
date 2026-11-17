@@ -1,0 +1,87 @@
+---
+tag: XP6FW2WDWT
+kind: statement
+role: theorem
+name: Trakhtenbrot's theorem
+aliases: [trakhtenbrot-theorem, undecidability-of-finite-satisfiability]
+msc: ["03B25", "03C13", "03D35"]
+topics: [E4AVTNWE9E]
+audience: grad
+uses: [VA6BNNY2YC, QN7M1JCGT9, 5SDS9T8E7J, 983GZBQYT4, PPGD5KW8JC, TN9G24VABN, Z7TN2B35B0]
+about: [4XRVJE0KAN, QN7M1JCGT9]
+history:
+  first_stated: "1950"
+  notes: Proved by Boris Trakhtenbrot in 1950.
+sources:
+  - url: https://en.wikipedia.org/wiki/Trakhtenbrot%27s_theorem
+    locator: lead section
+  - url: https://en.wikipedia.org/wiki/Finite_model_theory
+    locator: lead section
+---
+
+## Statement
+
+A sentence is finitely satisfiable when it is true in some finite structure, and finitely valid when it is true in every finite structure.
+There is a finite signature $L$ of relation symbols, all of arity at most $2$, with the following two properties.
+
+1. The set of finitely [[satisfiable|QN7M1JCGT9]] $L$-sentences is [[computably enumerable|TN9G24VABN]] but not [[computable|PPGD5KW8JC]].
+2. The set of finitely valid $L$-sentences is not computably enumerable.
+
+## Remarks
+
+### Why each hypothesis is needed
+
+- The restriction to finite structures changes the second property. The set of valid sentences, true in all structures, is computably enumerable by [[Gödel's completeness theorem|WQ1ZE255SF]], while the set of finitely valid sentences is not.
+- The signature needs a symbol of arity at least $2$. For a signature of unary relation symbols, a sentence with a model has a finite model, by the [[finite model property of monadic logic|AS0NHQMAKA]], and finite satisfiability is decidable.
+
+### Consequences
+
+1. The completeness theorem fails for finite structures. No proof system with a computable set of proofs proves exactly the finitely valid sentences, since such a system would make this set computably enumerable.
+2. The compactness theorem fails for finite structures as well; see [[finite model theory|4XRVJE0KAN]] for this failure and its consequences.
+3. Finite satisfiability and satisfiability are different problems. The sentence that says "$<$ is a strict linear order without a greatest element" is satisfiable but has no finite model; see [[a sentence with only infinite models|KH3ZG4RXAW]].
+4. A database query language that is as expressive as first-order logic has an undecidable problem of finite satisfiability, so no algorithm decides whether a query can return a nonempty answer on some finite database.
+
+### Converse
+
+The two properties are linked: a set $X$ of sentences is computable if and only if $X$ and its complement are computably enumerable.
+Property 2 follows from property 1 by this fact, as the proof shows.
+For signatures with only unary relation symbols, both sets are computable, so the theorem fails there.
+
+### Generalizations
+
+The theorem holds for every signature that contains at least one binary relation symbol.
+The proof for one binary relation symbol codes the finitely many relations of the proof into one, and is longer.
+
+## History
+
+Trakhtenbrot proved the theorem in 1950.
+It is the first result of finite model theory, which studies logic on finite structures.
+Its proof adapts the method of Church and Turing for [[Church's theorem|VA6BNNY2YC]] to finite structures.
+
+## Explanations
+
+### L1 human
+
+Some statements of logic can be true only in an infinite world, for example "after every number there is a larger number".
+For statements about finite worlds, one might hope for a computer that checks whether some finite world makes the statement true.
+A computer can try worlds of size $1$, $2$, $3$ and so on, and it stops when it finds one.
+Trakhtenbrot proved that no computer can recognize all the statements for which this search never stops.
+
+### L2 human
+
+We test two sentences in the signature $\set{<}$ by the search over finite structures.
+
+1. Let $\sigma_1$ say that $<$ is a strict linear order with a greatest element. The structure $\set{1}$ with the empty order is a model, so the search stops at size $1$.
+2. Let $\sigma_2$ say that $<$ is a strict linear order without a greatest element. A finite nonempty linear order has a greatest element, so $\sigma_2$ has no finite model.
+3. On $\sigma_2$ the search runs forever. Here a short proof shows that no finite model exists.
+4. Trakhtenbrot's theorem says that no algorithm replaces such proofs in general. For each proof system with a computable set of proofs, some sentences without finite models have no proof of this fact.
+
+The typical use of the theorem is in [[finite model theory|4XRVJE0KAN]] and in databases, where only finite structures matter.
+A trap is to think that finite structures are easier for logic because each one can be checked; the difficulty comes from the infinitely many sizes.
+
+### L3 human
+
+In the arithmetical hierarchy, finite satisfiability is $\Sigma^0_1$-complete and finite validity is $\Pi^0_1$-complete, while satisfiability is $\Pi^0_1$-complete and validity is $\Sigma^0_1$-complete.
+So the roles of the two problems are exchanged when one passes from all structures to finite structures.
+Many classical tools of model theory fail on finite structures, and finite model theory replaces them with games, such as the [[Ehrenfeucht-Fraïssé game|2RE7YAZK8R]], and with complexity theory.
+The decidable fragments of the [[classical decision problem|ZF79MZRQ8V]] usually have the finite model property, so for them satisfiability and finite satisfiability coincide.

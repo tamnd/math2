@@ -1,0 +1,127 @@
+---
+tag: 3WH3N4GY7W
+kind: proof
+name: Proof of the Gödel-Gentzen translation theorem
+msc: ["03F25", "03F55", "03B20"]
+topics: [8XY7JYZKFW]
+audience: grad
+proves: WC4TDGEWZR
+uses: [QEZR7PZ2DD, PAQ4ZX2TX1, NCDZ969V7X, RXHJPVMPJH, 0QFT7Z76N5]
+methods: [12MQ2NJ29A, 0WCP0PVET6, 0NTF6DMVAP]
+sources:
+  - url: https://en.wikipedia.org/wiki/Double-negation_translation
+    locator: First-order logic
+  - url: https://en.wikipedia.org/wiki/Double-negation_translation
+    locator: Results
+  - book: isbn:9781447145578
+---
+
+## Proof
+
+We use the rules of [[natural deduction|PAQ4ZX2TX1]] and the clauses of the [[negative translation|QEZR7PZ2DD]] $A \mapsto A^N$.
+Recall that $\neg B$ is $B \to \bot$, and that NJ is NK without RAA.
+
+**Lemma 1 (substitution).**
+
+1. For every formula $A$, the formulas $A$ and $A^N$ have the same free variables, since each clause adds only $\neg$, $\wedge$ and $\bot$.
+2. The clauses do not add quantifiers, so a term $t$ is substitutable for $x$ in $A^N$ whenever it is substitutable for $x$ in $A$.
+3. $(A[t/x])^N = A^N[t/x]$, by induction on $A$: each clause commutes with [[substitution|NCDZ969V7X]].
+
+**Lemma 2 (two facts of NJ).**
+
+1. Fact (a): $\vdash_i \neg \neg \neg B \to \neg B$. Assume $\neg \neg \neg B$ and $B$.
+2. Under the extra assumption $\neg B$, ${\to}\mathrm{E}$ with $B$ gives $\bot$; ${\to}\mathrm{I}$ discharges $\neg B$ and gives $\neg \neg B$.
+3. Then ${\to}\mathrm{E}$ with $\neg \neg \neg B$ gives $\bot$, and ${\to}\mathrm{I}$ discharges $B$ and gives $\neg B$.
+4. Fact (b): if $\vdash_i X \to Y$, then $\vdash_i \neg \neg X \to \neg \neg Y$. Assume $\neg \neg X$ and $\neg Y$.
+5. Under the extra assumption $X$, the derivation of $X \to Y$ gives $Y$, and $\neg Y$ gives $\bot$.
+6. ${\to}\mathrm{I}$ discharges $X$ and gives $\neg X$, and $\neg \neg X$ then gives $\bot$.
+7. ${\to}\mathrm{I}$ discharges $\neg Y$ and gives $\neg \neg Y$; a last ${\to}\mathrm{I}$ discharges $\neg \neg X$.
+
+**Lemma 3 (stability).** For every formula $A$, $\vdash_i \neg \neg A^N \to A^N$.
+We use induction on $A$.
+
+1. Case $\bot$: assume $\neg \neg \bot$. The derivation $[\bot]^u$, ${\to}\mathrm{I}^u$ gives $\neg \bot$, so ${\to}\mathrm{E}$ gives $\bot$.
+2. Case $P$ atomic, $P \ne \bot$: $P^N = \neg \neg P$, and $\neg \neg \neg \neg P \to \neg \neg P$ is fact (a) with $B = \neg P$.
+3. Cases $A \vee B$ and $\exists x\, A$: the translation has the form $\neg C$, and $\neg \neg \neg C \to \neg C$ is fact (a).
+4. Case $A \wedge B$: ${\wedge}\mathrm{E}$ gives $\vdash_i A^N \wedge B^N \to A^N$, so fact (b) gives $\neg \neg (A^N \wedge B^N) \to \neg \neg A^N$.
+5. The induction hypothesis turns $\neg \neg A^N$ into $A^N$; in the same way we get $B^N$, and ${\wedge}\mathrm{I}$ gives $A^N \wedge B^N$.
+6. Case $A \to B$: assume $\neg \neg (A^N \to B^N)$ and $A^N$; we derive $\neg \neg B^N$.
+7. Assume $\neg B^N$ and $A^N \to B^N$. Then ${\to}\mathrm{E}$ with $A^N$ gives $B^N$, and $\neg B^N$ gives $\bot$.
+8. ${\to}\mathrm{I}$ gives $\neg (A^N \to B^N)$, and the first assumption gives $\bot$; ${\to}\mathrm{I}$ gives $\neg \neg B^N$.
+9. The induction hypothesis gives $B^N$, and ${\to}\mathrm{I}$ discharges $A^N$. So $\neg \neg (A^N \to B^N)$ gives $A^N \to B^N$.
+10. Case $\forall x\, A$: ${\forall}\mathrm{E}$ gives $\vdash_i \forall x\, A^N \to A^N$, so fact (b) gives $\neg \neg \forall x\, A^N \to \neg \neg A^N$.
+11. Assume $\neg \neg \forall x\, A^N$. The induction hypothesis gives $A^N$.
+12. The variable $x$ is not free in the only open assumption $\neg \neg \forall x\, A^N$, so ${\forall}\mathrm{I}$ gives $\forall x\, A^N$.
+
+**Main claim.** If an NK derivation has conclusion $A$ and open assumptions in $\Delta$, then an NJ derivation has conclusion $A^N$ and open assumptions in $\Delta^N$.
+We use induction on the NK derivation, with one case for its last rule.
+
+1. Assumption $A$: the one-node derivation $A^N$ has the open assumption $A^N \in \Delta^N$.
+2. Rules ${\wedge}\mathrm{I}$, ${\wedge}\mathrm{E}$, ${\to}\mathrm{I}$, ${\to}\mathrm{E}$: the translation commutes with $\wedge$ and $\to$. We apply the same rule to the translated derivations.
+3. Rule ${\bot}\mathrm{E}$: by induction we have a derivation of $\bot^N = \bot$, and ${\bot}\mathrm{E}$ in NJ gives $A^N$.
+4. Rule RAA: the premise derives $\bot$ from $\Delta \cup \set{\neg A}$, and $(\neg A)^N = \neg A^N$.
+5. By induction, NJ derives $\bot$ from $\Delta^N \cup \set{\neg A^N}$. Then ${\to}\mathrm{I}$ gives $\neg \neg A^N$, and Lemma 3 gives $A^N$.
+6. Rule ${\vee}\mathrm{I}$ from $A$: by induction we have $A^N$. Assume $\neg A^N \wedge \neg B^N$.
+7. Then ${\wedge}\mathrm{E}$ gives $\neg A^N$, and ${\to}\mathrm{E}$ with $A^N$ gives $\bot$. ${\to}\mathrm{I}$ gives $\neg (\neg A^N \wedge \neg B^N) = (A \vee B)^N$.
+8. The rule ${\vee}\mathrm{I}$ from $B$ is the same with the other conjunct.
+9. Rule ${\vee}\mathrm{E}$: by induction we have $\neg (\neg A^N \wedge \neg B^N)$, a derivation of $C^N$ from $A^N$, and one from $B^N$.
+10. Assume $\neg C^N$. From the assumption $A^N$ we get $C^N$, then $\bot$; ${\to}\mathrm{I}$ gives $\neg A^N$.
+11. In the same way we get $\neg B^N$. Then ${\wedge}\mathrm{I}$ and the first premise give $\bot$.
+12. ${\to}\mathrm{I}$ discharges $\neg C^N$ and gives $\neg \neg C^N$, and Lemma 3 gives $C^N$.
+13. Rule ${\forall}\mathrm{I}$: by induction and Lemma 1 we have $(A[y/x])^N = A^N[y/x]$.
+14. By Lemma 1, $y$ is not free in $\forall x\, A^N$ or in the open assumptions. So ${\forall}\mathrm{I}$ gives $\forall x\, A^N$.
+15. Rule ${\forall}\mathrm{E}$: from $\forall x\, A^N$, ${\forall}\mathrm{E}$ gives $A^N[t/x]$, which is $(A[t/x])^N$ by Lemma 1.
+16. Rule ${\exists}\mathrm{I}$: by induction we have $A^N[t/x]$. Assume $\forall x\, \neg A^N$.
+17. Then ${\forall}\mathrm{E}$ gives $\neg A^N[t/x]$, and ${\to}\mathrm{E}$ gives $\bot$. ${\to}\mathrm{I}$ gives $\neg \forall x\, \neg A^N = (\exists x\, A)^N$.
+18. Rule ${\exists}\mathrm{E}$: by induction we have $\neg \forall x\, \neg A^N$, and a derivation of $C^N$ from $A^N[y/x]$ and $\Delta^N$.
+19. Assume $\neg C^N$. From the assumption $A^N[y/x]$ we get $C^N$, then $\bot$; ${\to}\mathrm{I}$ gives $\neg A^N[y/x]$.
+20. The eigenvariable $y$ is not free in $C$, in $\exists x\, A$ or in $\Delta$. By Lemma 1, it is not free in $\neg C^N$, $\forall x\, \neg A^N$ or $\Delta^N$.
+21. So ${\forall}\mathrm{I}$ gives $\forall x\, \neg A^N$, and the first premise gives $\bot$.
+22. ${\to}\mathrm{I}$ discharges $\neg C^N$ and gives $\neg \neg C^N$, and Lemma 3 gives $C^N$.
+23. Rule ${=}\mathrm{I}$: we need $(t = t)^N = \neg \neg (t = t)$. Assume $\neg (t = t)$; ${=}\mathrm{I}$ and ${\to}\mathrm{E}$ give $\bot$, and ${\to}\mathrm{I}$ gives the claim.
+24. Rule ${=}\mathrm{E}$: by induction we have $\neg \neg (s = t)$ and $\varphi^N[s/x]$. Assume $\neg \varphi^N[t/x]$.
+25. Under the assumption $s = t$, ${=}\mathrm{E}$ in NJ gives $\varphi^N[t/x]$, and then $\bot$. ${\to}\mathrm{I}$ gives $\neg (s = t)$.
+26. With $\neg \neg (s = t)$ we get $\bot$, so ${\to}\mathrm{I}$ gives $\neg \neg \varphi^N[t/x]$.
+27. Lemma 3 gives $\varphi^N[t/x]$, which is $(\varphi[t/x])^N$ by Lemma 1.
+
+**Part 1 of the theorem.**
+
+1. If $\Gamma \vdash_c A$, the main claim with $\Delta \subseteq \Gamma$ gives $\Gamma^N \vdash_i A^N$.
+2. For the converse, $\vdash_c A \leftrightarrow A^N$ for every $A$, by induction on $A$.
+3. The induction uses $\neg \neg P \leftrightarrow P$, $A \vee B \leftrightarrow \neg (\neg A \wedge \neg B)$ and $\exists x\, A \leftrightarrow \neg \forall x\, \neg A$, which hold in NK.
+4. An NJ derivation is an NK derivation. Replace each open assumption $B^N$ by a derivation of $B^N$ from $B$.
+5. Then $A^N$ gives $A$ in NK. So $\Gamma^N \vdash_i A^N$ implies $\Gamma \vdash_c A$.
+
+**Part 2 of the theorem.**
+
+1. [[Heyting arithmetic|RXHJPVMPJH]] proves $x = y \vee \neg x = y$, so it proves $s = t \vee \neg s = t$ for all terms $s$, $t$.
+2. Hence HA proves $\neg \neg (s = t) \to s = t$: in the case $\neg s = t$, the premise gives $\bot$, and ${\bot}\mathrm{E}$ gives $s = t$.
+3. So HA proves $P \leftrightarrow P^N$ for every atomic $P$, since $P \to \neg \neg P$ holds in NJ.
+4. By induction on $C$: if $C$ has no $\vee$ and no $\exists$, then HA proves $C \leftrightarrow C^N$, because the clauses for $\wedge$, $\to$, $\forall$ commute.
+5. The axioms of [[PA|0QFT7Z76N5]] other than induction have no $\vee$ and no $\exists$. So HA proves their translations.
+6. The translation of the induction axiom for $\varphi$ is $\varphi^N(0) \wedge \forall x\, (\varphi^N(x) \to \varphi^N(S x)) \to \forall x\, \varphi^N(x)$, by Lemma 1.
+7. This is the induction axiom for $\varphi^N$, an axiom of HA.
+8. Let $\mathsf{PA} \vdash A$. Then $\Gamma \vdash_c A$ for finitely many axioms $\Gamma$ of PA, and part 1 gives $\Gamma^N \vdash_i A^N$.
+9. HA proves every formula in $\Gamma^N$ by steps 5 to 7, so $\mathsf{HA} \vdash A^N$.
+10. Conversely, if $\mathsf{HA} \vdash A^N$, then $\mathsf{PA} \vdash A^N$, and $\mathsf{PA} \vdash A$ by step 2 of part 1.
+
+**Part 3 of the theorem.**
+
+1. If PA proves $\bot$, part 2 gives $\mathsf{HA} \vdash \bot^N$, and $\bot^N = \bot$.
+2. If HA proves $\bot$, so does PA, because every NJ derivation is an NK derivation.
+
+This proves the three parts of the [[Gödel-Gentzen translation theorem|WC4TDGEWZR]].
+
+## Idea
+
+A classical proof differs from an intuitionistic proof only in the rule RAA.
+After the translation, every formula is stable: $\neg \neg A^N$ implies $A^N$, so RAA becomes an intuitionistic step.
+The rules for $\vee$ and $\exists$ are simulated by their negative forms, and their elimination rules need stability again.
+In arithmetic the induction axioms translate into induction axioms, so the same argument goes through for PA and HA.
+
+## Variants
+
+- Kolmogorov's translation gives a proof where stability is immediate, because every subformula starts with $\neg \neg$. The cost is a longer case for each rule.
+- With a Hilbert system, one checks that the translations of the logical axioms are intuitionistically provable, and that modus ponens and generalization are preserved.
+- In the sequent calculus, a classical sequent $\Gamma \Rightarrow \Delta$ is sent to the intuitionistic sequent $\Gamma^N, \neg \Delta^N \Rightarrow \bot$, and each rule is checked separately.
+- For arithmetic one can drop the double negations on atomic formulas, since HA decides equations; step 3 of part 2 then becomes unnecessary.

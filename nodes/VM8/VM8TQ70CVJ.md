@@ -95,7 +95,7 @@ Form 2 is then the more useful notion, and it is called [[Post consistency|WK2P0
 - The semantic version of finite character, "if every finite subset has a model then $T$ has a model", is the [[compactness theorem|1NR3HAWG9D]]. Through the completeness theorem it follows from the syntactic version.
 - For a sentence $\varphi$: $T \nvdash \varphi$ exactly when $T \cup \set{\lnot\varphi}$ is consistent, and $T \nvdash \lnot\varphi$ exactly when $T \cup \set{\varphi}$ is consistent. The proof uses the [[deduction theorem|9X08XK5RV2]].
 - A consistent theory that derives $\varphi$ or $\lnot\varphi$ for every sentence $\varphi$ is a [[complete theory|655K8Y7VS8]]. Here "complete" means that the theory decides each sentence, which differs from the completeness of a proof system.
-- Consistency proofs have limits. By [[Gödel's second incompleteness theorem|X9WYNYE29C]], a consistent, computably axiomatized theory that contains Peano arithmetic does not prove its own consistency statement.
+- Consistency proofs have limits. By [[Gödel's second incompleteness theorem|4PZM5GJTR5]], a consistent, computably axiomatized theory that contains Peano arithmetic does not prove its own consistency statement.
 - A [[relative consistency proof|X3G0RG2GPZ]] shows "if $S$ is consistent, then $T$ is consistent" and avoids this limit, because it does not claim that $S$ is consistent.
 
 ### History

@@ -6,7 +6,7 @@ name: Gentzen's consistency proof
 msc: ["03F30", "03F15", "03F05"]
 topics: [XTTKZTYDSD]
 audience: grad
-uses: [0QFT7Z76N5, KT50SMH3EC, 0ZHQMQ2C1N, X9WYNYE29C, 5NVA2JRHPV]
+uses: [0QFT7Z76N5, KT50SMH3EC, 0ZHQMQ2C1N, 4PZM5GJTR5, 5NVA2JRHPV]
 about: [0QFT7Z76N5]
 history:
   posed_by: "Gerhard Gentzen"
@@ -44,7 +44,7 @@ The structure of the proof, with the lemmas that it cites, is in [[the proof by 
 
 ### Why each hypothesis is needed
 
-- The induction principle: PRA alone does not prove $\operatorname{Con}(\mathrm{PA})$. Every theorem of PRA is a theorem of PA, and PA does not prove $\operatorname{Con}(\mathrm{PA})$ by [[Gödel's second incompleteness theorem|X9WYNYE29C]].
+- The induction principle: PRA alone does not prove $\operatorname{Con}(\mathrm{PA})$. Every theorem of PRA is a theorem of PA, and PA does not prove $\operatorname{Con}(\mathrm{PA})$ by [[Gödel's second incompleteness theorem|4PZM5GJTR5]].
 - The length $\varepsilon_0$: for a notation $a$ below $\varepsilon_0$, PA proves transfinite induction up to $a$, by [[transfinite induction in arithmetic|~e065bc19]]. So $\mathrm{PRA} + \mathrm{QF}\text{-}\mathrm{TI}(a)$ is contained in PA, and it does not prove $\operatorname{Con}(\mathrm{PA})$.
 - The standard notation system: the length of the order is not enough. There is a primitive recursive order of type $\omega$ along which transfinite induction proves $\operatorname{Con}(\mathrm{PA})$: [[the artificial notation system of type ω|~ca1a6d69]]. The theorem has content because the standard order is natural, and its well-foundedness can be seen by the [[comparison of Cantor normal forms|~bfea1a9a]].
 

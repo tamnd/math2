@@ -1,0 +1,168 @@
+---
+tag: BGKZTSQN3W
+kind: concept
+name: Interpretability logic
+msc: ["03F45", "03F25"]
+topics: [3E7M66WW6Q]
+audience: research
+uses: [WJK0YA4GP2, C3RZY20ETK, NGHWZ9Y7ZV, HACXBCM7SS, NB2BCZR40F, RY8KRKR097]
+sources:
+  - url: https://en.wikipedia.org/wiki/Interpretability_logic
+    locator: Logic ILM
+  - url: https://en.wikipedia.org/wiki/Provability_logic
+    locator: Generalizations
+---
+
+## Summary
+
+Interpretability logic extends the modal language of [[provability logic|WJK0YA4GP2]] by a binary operator $\rhd$, where $p \rhd q$ is read as "$T + q$ is interpretable in $T + p$" for a fixed arithmetical theory $T$.
+The basic system $\mathsf{IL}$ has as axioms all instances of tautologies, the axioms of $\mathsf{GL}$, and the five schemes J1 to J5 listed below, with the rules modus ponens and necessitation for $\square$.
+Its extension $\mathsf{ILM}$ is the interpretability logic of [[Peano arithmetic|HACXBCM7SS]], and its extension $\mathsf{ILP}$ is the interpretability logic of finitely axiomatized theories such as $\mathsf{GB}$.
+Interpretability logic matters because its decidable modal systems describe the general laws of relative interpretability between extensions of a theory.
+
+## Motivation
+
+A theory $U$ is interpretable in a theory $V$ when one can translate each symbol of $U$ into a formula of $V$, with a formula for the domain, so that $V$ proves the translation of each axiom of $U$.
+An interpretation of $U$ in $V$ shows that $U$ is consistent if $V$ is, and it is the standard way to compare the strength of theories.
+For extensions $T + A$ and $T + B$ of one arithmetical theory $T$, the statement "$T + B$ is interpretable in $T + A$" can be written in the language of $T$, just as provability can.
+Provability is a special case: $T$ proves $\neg A$ exactly when $T + A$ interprets the inconsistent theory $T + \bot$.
+Indeed, an inconsistent theory interprets every theory, and a theory that interprets $T + \bot$ proves the translation of $\bot$, which is $\bot$.
+So it is natural to ask which laws the binary relation of interpretability obeys, in the same way as $\mathsf{GL}$ collects the laws of provability.
+
+## Notation
+
+The formulas are built from propositional variables, $\bot$, $\to$, the unary operator $\square$ and the binary operator $\rhd$.
+We write $\lozenge \varphi$ for $\neg \square \neg \varphi$.
+The operator $\rhd$ binds more weakly than $\neg$, $\wedge$, $\vee$, $\square$ and $\lozenge$, and more strongly than $\to$; so $p \wedge q \rhd r \to s$ means $((p \wedge q) \rhd r) \to s$.
+An arithmetical realization $*$ for a theory $T$ sends $(\square \varphi)^*$ to $\mathrm{Prov}_T(\ulcorner \varphi^* \urcorner)$ and $(\varphi \rhd \psi)^*$ to a formalization of "$T + \psi^*$ is interpretable in $T + \varphi^*$".
+The axioms of $\mathsf{IL}$ beyond $\mathsf{GL}$ are:
+
+- J1: $\square(p \to q) \to p \rhd q$;
+- J2: $(p \rhd q) \wedge (q \rhd r) \to p \rhd r$;
+- J3: $(p \rhd r) \wedge (q \rhd r) \to (p \vee q) \rhd r$;
+- J4: $p \rhd q \to (\lozenge p \to \lozenge q)$;
+- J5: $\lozenge p \rhd p$.
+
+The two extra principles are M: $p \rhd q \to (p \wedge \square r) \rhd (q \wedge \square r)$, and P: $p \rhd q \to \square(p \rhd q)$.
+Then $\mathsf{ILM} = \mathsf{IL} + \mathrm{M}$ and $\mathsf{ILP} = \mathsf{IL} + \mathrm{P}$.
+
+## Remarks
+
+### Examples
+
+- $\mathsf{IL} \vdash \square p \leftrightarrow (\neg p \rhd \bot)$, so $\square$ can be defined from $\rhd$; see [[the definition of the box from interpretability|AFGABSCBPK]].
+- $\mathsf{IL} \vdash p \rhd p$: necessitation gives $\square(p \to p)$ from the tautology $p \to p$, and J1 gives $p \rhd p$.
+- A three-world Veltman model has $w \Vdash p \rhd q$ but $w \nVdash \square(p \to q)$, so the converse of J1 is not a theorem; see [[a Veltman model where interpretability is weaker than provable implication|2T21D2P8RV]].
+- For $T = \mathsf{PA}$, the realization of J5 says that $\mathsf{PA} + \mathrm{Con}(\mathsf{PA} + A)$ interprets $\mathsf{PA} + A$.
+- $\mathsf{IL} \vdash p \rhd q \to (p \vee q) \rhd q$, by J3 applied to $p \rhd q$ and $q \rhd q$.
+
+### Non-examples
+
+- A frame $(W, R, \{S_w\})$ in which $wRuRv$ but not $u S_w v$ is not a Veltman frame, and J5 can fail on it; see [[a frame without the Veltman condition|874A7QW9HD]].
+- The formula $p \rhd q \to \square(p \to q)$ is not a theorem of $\mathsf{IL}$, $\mathsf{ILM}$ or $\mathsf{ILP}$, by the three-world model above.
+- The principle P is not a theorem of $\mathsf{ILM}$. Take $wRw'Ru$, $wRu$, $wRv$, with $S_w$ the reflexive transitive closure of $\{(w', u), (u, v)\}$ on $R[w]$ and $S_{w'}$ the identity on $\{u\}$. The condition of M holds, but $u S_w v$ and not $u S_{w'} v$, so P fails by the frame condition below.
+- The principle M is not a theorem of $\mathsf{ILP}$. Take $wRu$, $wRv$, $wRz$, $vRz$, with $S_w$ the reflexive transitive closure of $\{(u, v), (v, z)\}$ on $R[w]$ and $S_v$ the identity on $\{z\}$. The condition of P holds, but $u S_w v R z$ and not $u R z$.
+- For $\mathsf{PA}$ the principle P is not valid, since P is not a theorem of $\mathsf{ILM}$ and $\mathsf{ILM}$ is the interpretability logic of $\mathsf{PA}$.
+
+### Veltman semantics
+
+A *Veltman frame* is a triple $(W, R, \{S_w\}_{w \in W})$ with the following properties.
+
+1. $W$ is a finite non-empty set and $R$ is a transitive irreflexive relation on $W$, so that $(W, R)$ is a frame of $\mathsf{GL}$. Some authors allow infinite $W$ with $R$ transitive and conversely well-founded.
+2. For each $w$, $S_w$ is a relation on $R[w] = \{u : wRu\}$ that is reflexive on $R[w]$ and transitive.
+3. If $wRu$ and $uRv$, then $u S_w v$.
+
+A *Veltman model* adds a valuation, and truth is defined as in [[Kripke semantics|NGHWZ9Y7ZV]], with one new clause:
+$$w \Vdash \varphi \rhd \psi \iff \text{for every } u \text{ with } wRu \text{ and } u \Vdash \varphi \text{ there is } v \text{ with } u S_w v \text{ and } v \Vdash \psi.$$
+The idea is that $S_w$ links a world $u$ to the worlds $v$ that "the theory at $w$" can reach from $u$ by an interpretation.
+
+**Soundness.** Every theorem of $\mathsf{IL}$ is true at every world of every Veltman model.
+
+1. The axioms of $\mathsf{GL}$ hold, because $(W, R)$ is a finite transitive irreflexive frame; see [[Kripke completeness of GL|1DMFNR7FZT]].
+2. J1: let $w \Vdash \square(p \to q)$, $wRu$ and $u \Vdash p$. Then $u \Vdash q$, and $u S_w u$ by reflexivity, so $v = u$ works.
+3. J2: from $u \Vdash p$ we get $v$ with $u S_w v$ and $v \Vdash q$. Since $v \in R[w]$, we get $z$ with $v S_w z$ and $z \Vdash r$, and transitivity gives $u S_w z$.
+4. J3: if $wRu$ and $u \Vdash p \vee q$, then $u \Vdash p$ or $u \Vdash q$, and in each case one hypothesis gives the needed $v$.
+5. J4: if $w \Vdash p \rhd q$ and $w \Vdash \lozenge p$, take $u \in R[w]$ with $u \Vdash p$, then $v$ with $u S_w v$ and $v \Vdash q$. Since $v \in R[w]$, $w \Vdash \lozenge q$.
+6. J5: let $wRu$ and $u \Vdash \lozenge p$. Take $v$ with $uRv$ and $v \Vdash p$. Property 3 gives $u S_w v$.
+7. Modus ponens and necessitation preserve truth at all worlds of a model, as in ordinary Kripke semantics.
+
+### Frame conditions of M and P
+
+**M.** A Veltman frame validates M if and only if $u S_w v R z$ implies $u R z$.
+
+1. Assume the condition, and let $w \Vdash p \rhd q$, $wRu$ and $u \Vdash p \wedge \square r$.
+2. Take $v$ with $u S_w v$ and $v \Vdash q$. For each $z$ with $vRz$, the condition gives $uRz$, so $z \Vdash r$. So $v \Vdash q \wedge \square r$.
+3. Conversely, assume $u S_w v$, $vRz$ and not $uRz$. Make $p$ true only at $u$, $q$ true only at $v$, and $r$ true everywhere except at $z$.
+4. Then $w \Vdash p \rhd q$: the only world in $R[w]$ where $p$ holds is $u$, and $u S_w v$ with $v \Vdash q$.
+5. Also $u \Vdash p \wedge \square r$, because $z$ is not an $R$-successor of $u$.
+6. The only world where $q$ holds is $v$, and $v \nVdash \square r$ since $vRz$. So $w \nVdash (p \wedge \square r) \rhd (q \wedge \square r)$, and M fails at $w$.
+
+**P.** A Veltman frame validates P if and only if $w R w' R u S_w v$ implies $u S_{w'} v$.
+
+1. Assume the condition, and let $w \Vdash p \rhd q$ and $wRw'$. Let $w' R u$ and $u \Vdash p$.
+2. Transitivity gives $wRu$, so there is $v$ with $u S_w v$ and $v \Vdash q$. The condition gives $u S_{w'} v$. So $w' \Vdash p \rhd q$.
+3. Conversely, assume $w R w' R u S_w v$ and not $u S_{w'} v$. Make $p$ true only at $u$ and $q$ true only at $v$.
+4. Then $w \Vdash p \rhd q$, because $u \in R[w]$ by transitivity, $u$ is the only $p$-world, and $u S_w v$.
+5. At $w'$, the world $u$ satisfies $p$, but its only possible partner $v$ has not $u S_{w'} v$. So $w' \nVdash p \rhd q$ and $w \nVdash \square(p \rhd q)$.
+
+### Completeness results
+
+The following results are cited; we do not prove them here.
+
+- Modal completeness: $\mathsf{IL}$, $\mathsf{ILM}$ and $\mathsf{ILP}$ are complete for finite Veltman frames, the last two for the frames with the conditions above (de Jongh and Veltman).
+- Arithmetical completeness for $\mathsf{PA}$: $\mathsf{ILM}$ is the interpretability logic of $\mathsf{PA}$ (Shavrukov and, independently, Berarducci).
+- Arithmetical completeness for finitely axiomatized theories: $\mathsf{ILP}$ is the interpretability logic of finitely axiomatized theories that contain enough arithmetic, such as [[Gödel-Bernays set theory|JTPZ1HZ9KK]] $\mathsf{GB}$ (Visser).
+
+Together with finiteness of the frames, the modal completeness results make $\mathsf{IL}$, $\mathsf{ILM}$ and $\mathsf{ILP}$ decidable.
+
+### The arithmetical meaning of J5
+
+Let $T = \mathsf{PA}$ and let $A$ be a sentence.
+The realization of $\lozenge p$ is $\neg \mathrm{Prov}_{\mathsf{PA}}(\ulcorner \neg A \urcorner)$, which is the [[consistency statement|4NBAX3VRQ7]] $\mathrm{Con}(\mathsf{PA} + A)$.
+So J5 says: $\mathsf{PA} + \mathrm{Con}(\mathsf{PA} + A)$ interprets $\mathsf{PA} + A$.
+This is the formalized [[Henkin construction|RY8KRKR097]]: inside $\mathsf{PA} + \mathrm{Con}(\mathsf{PA} + A)$ one can define a model of $\mathsf{PA} + A$ by arithmetical formulas, and that model gives the interpretation.
+We cite this construction and do not reproduce it here.
+
+### History
+
+De Jongh and Veltman gave the modal semantics now named after Veltman and proved modal completeness for the main systems.
+Visser found the logic of finitely axiomatized theories, and Berarducci and Shavrukov found, independently, the logic of $\mathsf{PA}$.
+De Jongh and Visser showed that the main interpretability logics have explicit fixed points, as $\mathsf{GL}$ has.
+
+### Common errors
+
+- Reading $p \rhd q$ as "$p$ interprets $q$": the theory with $q$ is interpreted in the theory with $p$, so the direction goes from $q$ into $p$.
+- Treating $p \rhd q$ as $\square(p \to q)$: J1 gives only one direction, and the three-world model shows that the converse fails.
+- Forgetting the condition "$wRuRv$ implies $u S_w v$" in a Veltman frame: without it J5 can fail.
+
+## Explanations
+
+### L1 human
+
+Some theories in mathematics can imitate other theories: one can define, inside the first theory, objects that behave like the objects of the second.
+For example, set theory can imitate arithmetic, because one can build numbers from sets.
+We then say that the second theory is interpretable in the first.
+Interpretability logic writes "$q$ is interpretable in $p$" as $p \rhd q$, and studies the general rules of this relation.
+One rule is: if $p$ proves $q$, then $q$ is interpretable in $p$.
+Another rule is: anything is interpretable in itself.
+
+### L2 human
+
+We check $p \rhd q$ at a world of a small Veltman model.
+
+1. Let $W = \{w, u, v\}$, $wRu$, $wRv$, and $S_w$ the identity on $\{u, v\}$ together with the pair $(u, v)$.
+2. Let $p$ be true only at $u$ and $q$ only at $v$.
+3. The $R$-successors of $w$ where $p$ holds: only $u$.
+4. For $u$ we need some $x$ with $u S_w x$ and $x \Vdash q$; the world $x = v$ works.
+5. So $w \Vdash p \rhd q$.
+
+The typical use is to refute a formula: build a small Veltman model where it fails, and use soundness.
+A trap: the witness $v$ is found through $S_w$, the relation that belongs to $w$, and not through $R$; changing the world $w$ changes the relation.
+
+### L3 human
+
+Interpretability logic extends the programme of $\mathsf{GL}$ from one unary operator to a binary one.
+Its arithmetical completeness theorems are Solovay-type results: $\mathsf{ILM}$ for $\mathsf{PA}$ uses the Orey-Hájek characterization of interpretability over $\mathsf{PA}$ by $\Pi^0_1$ conservativity, and $\mathsf{ILP}$ for finitely axiomatized theories uses that interpretability between such theories is provable when it holds.
+Related systems are Japaridze's logic $\mathsf{TOL}$ of tolerance and the logics of $\Pi^0_1$ conservativity.
+A long-standing open question asks for the interpretability logic of all reasonable arithmetical theories, the logic of the principles that hold for every such theory.
+On the algebraic side, one adds a binary operation to a [[Magari algebra|YTA4C8QCB0]], in the same way as $\mathsf{IL}$ adds $\rhd$ to $\mathsf{GL}$.
