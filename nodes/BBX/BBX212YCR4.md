@@ -1,0 +1,50 @@
+---
+tag: BBX212YCR4
+kind: proof
+name: Proof that Peano arithmetic is not finitely axiomatizable by reflection
+msc: ["03F30", "03F40"]
+topics: [QHCRN4JVG0]
+audience: grad
+proves: M5WNB181T7
+uses: [HACXBCM7SS, T70PYM1F36, ME9J33BFNC, X9WYNYE29C, 4A84VHDTHV, 0J0XBKG64S]
+methods: [0J0XBKG64S, 0NTF6DMVAP]
+sources:
+  - url: https://en.wikipedia.org/wiki/Reflection_principle
+    locator: For arithmetic
+  - book: isbn:9780521857840
+---
+
+## Proof
+
+We cite two lemmas without proof.
+
+- Lemma 1 (partial truth): for each $n \ge 1$, $\mathsf{PA} \vdash \mathrm{Con}(\mathsf{I}\Sigma_n)$; it follows from Mostowski's reflection theorem, proved with a truth predicate for formulas of bounded complexity.
+- Lemma 2 (second incompleteness): if $T$ is consistent, recursively axiomatized and proves every axiom of $\mathsf{PA}$, then $T \nvdash \mathrm{Con}(T)$; this is the [[second incompleteness theorem|X9WYNYE29C]].
+
+We argue by [[contradiction|0J0XBKG64S]].
+
+1. Suppose a finite set $F$ of sentences has the same theorems as $\mathsf{PA}$.
+2. Each $\sigma \in F$ is a theorem of $\mathsf{PA}$, so it has a proof from finitely many axioms of $\mathsf{PA}$.
+3. So finitely many axioms of $\mathsf{PA}$ prove every $\sigma \in F$, since $F$ is finite.
+4. Induction for $\varphi$ is equivalent to induction for a prenex form of $\varphi$, by the [[prenex normal form theorem|ME9J33BFNC]].
+5. A prenex formula is $\Sigma_k$ for some $k$, after a vacuous quantifier in front if needed.
+6. Let $n \ge 1$ be at least each such $k$ for the induction axioms of step 3. Then $\mathsf{I}\Sigma_n$ proves all axioms of step 3.
+7. By steps 3 and 6, $\mathsf{I}\Sigma_n$ proves every $\sigma \in F$, so it proves every theorem of $\mathsf{PA}$.
+8. By Lemma 1, $\mathrm{Con}(\mathsf{I}\Sigma_n)$ is a theorem of $\mathsf{PA}$. By step 7, $\mathsf{I}\Sigma_n \vdash \mathrm{Con}(\mathsf{I}\Sigma_n)$.
+9. $\mathsf{I}\Sigma_n$ is consistent: its axioms are true in $\mathfrak{N}$, and [[soundness|4A84VHDTHV]] applies.
+10. $\mathsf{I}\Sigma_n$ is recursively axiomatized and, by step 7, proves every axiom of $\mathsf{PA}$.
+11. By Lemma 2 and steps 9 and 10, $\mathsf{I}\Sigma_n \nvdash \mathrm{Con}(\mathsf{I}\Sigma_n)$. This contradicts step 8.
+
+So no such $F$ exists, and $\mathsf{PA}$ is not finitely axiomatizable.
+
+## Idea
+
+A finite axiom set would fit inside one fragment $\mathsf{I}\Sigma_n$.
+$\mathsf{PA}$ proves that each fragment is consistent, by a truth predicate for $\Sigma_n$ formulas.
+So that fragment would prove its own consistency, which Gödel's second theorem forbids.
+
+## Variants
+
+- One can use $\mathsf{I}\Sigma_{n+1} \vdash \mathrm{Con}(\mathsf{I}\Sigma_n)$ in place of Lemma 1. Then step 8 becomes $\mathsf{I}\Sigma_n \vdash \mathrm{Con}(\mathsf{I}\Sigma_n)$ through $\mathsf{I}\Sigma_{n+1} \subseteq \mathsf{PA}$.
+- The same argument shows essential reflexivity: for every sentence $\varphi$, $\mathsf{PA} + \varphi$ proves the consistency of $\mathsf{I}\Sigma_n + \varphi$. So no consistent extension of $\mathsf{PA}$ in $L_A$ is finitely axiomatizable.
+- A model-theoretic route builds, for each $n$, a model of $\mathsf{I}\Sigma_n$ that fails some axiom of $\mathsf{I}\Sigma_{n+1}$. Then no $\mathsf{I}\Sigma_n$ proves all of $\mathsf{PA}$, and step 7 fails directly.

@@ -1,0 +1,56 @@
+---
+tag: 9NC0F9MZCT
+kind: example
+name: A Henkin witness for an existential sentence must be a new constant
+msc: ["03C07", "03B10"]
+topics: [FBWW4J1XWG]
+audience: ug2
+instance_of: [RY8KRKR097]
+uses: [RY8KRKR097, AVD7T7J063, SC0BSJ3GT6, VM8TQ70CVJ, 983GZBQYT4]
+sources:
+  - url: https://en.wikipedia.org/wiki/G%C3%B6del%27s_completeness_theorem
+    locator: Proofs
+  - book: isbn:9780122384523
+    locator: Section 2.5
+---
+
+## Example
+
+Let $L$ have one constant symbol $a$ and one unary relation symbol $P$.
+Let $\Gamma = \set{\exists x \, P(x), \neg P(a)}$, where $\exists x \, P(x)$ abbreviates $\neg \forall x \, \neg P(x)$.
+We add a witness for $\exists x \, P(x)$, as in the [[Henkin construction|RY8KRKR097]].
+
+1. $\Gamma$ is [[consistent|VM8TQ70CVJ]]. The [[structure|983GZBQYT4]] with universe $\set{0, 1}$, $a = 0$ and $P = \set{1}$ satisfies it, and the [[soundness theorem|AVD7T7J063]] gives consistency.
+2. The witness axiom with the old constant $a$ is $\exists x \, P(x) \to P(a)$. With $\exists x \, P(x) \in \Gamma$ and MP, the set derives $P(a)$. It also contains $\neg P(a)$, so it is inconsistent.
+3. Take instead a new constant $c$, and the witness axiom $\exists x \, P(x) \to P(c)$. The set $\Gamma \cup \set{\exists x \, P(x) \to P(c)}$ is satisfied by the structure of step 1 with $c = 1$. So it is consistent.
+4. Let $\Delta$ be a maximal consistent extension in $L \cup \set{c}$, from [[Lindenbaum's lemma|SC0BSJ3GT6]]. It contains $P(c)$ and $\neg P(a)$.
+5. If $c = a$ were in $\Delta$, then property 2 of Lindenbaum's lemma and axiom group 6, $c = a \to (P(c) \to P(a))$, would give $P(a) \in \Delta$. That contradicts $\neg P(a) \in \Delta$.
+6. So $\neg (c = a) \in \Delta$, and the term model has two different elements $[a]$ and $[c]$, with $[c] \in P$ and $[a] \notin P$.
+
+## Remarks
+
+The example shows why the witness constant must not occur in the earlier sentences.
+The witness axiom is consistent with $\Gamma$ exactly because nothing is known about $c$.
+Step 5 shows that the new constant is not a mere copy of an old term: the Henkin set can force it to differ from every old term.
+
+## Explanations
+
+### L1 human
+
+The facts say "something has property $P$" and "the thing called $a$ does not have $P$".
+We cannot name $a$ as the thing with $P$, because that contradicts the second fact.
+So we invent a fresh name $c$ and say "$c$ has $P$".
+Then $c$ and $a$ must be different things.
+
+### L2 human
+
+1. The witness axiom $\exists x \, P(x) \to P(c)$ adds a name for an element that the theory says exists.
+2. Freshness of $c$ is the only hypothesis that makes the axiom safe.
+3. The typical use is the step "add witness axioms" in the proof of the model existence theorem.
+4. The trap is to reuse a constant of $\Gamma$ to keep the language small, as in step 2.
+
+### L3 human
+
+The axiom $\exists x \, P(x) \to P(c)$ with fresh $c$ is a conservative extension, since $c$ can be interpreted by any witness in any model of $\Gamma$.
+In the sequent calculus this is the eigenvariable condition of the left rule for $\exists$.
+In Hilbert's epsilon calculus, the term $\varepsilon x \, P(x)$ plays the role of $c$.

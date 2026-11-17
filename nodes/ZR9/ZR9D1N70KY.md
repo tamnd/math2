@@ -1,0 +1,47 @@
+---
+tag: ZR9D1N70KY
+kind: proof
+name: Proof of the first incompleteness theorem by the halting problem
+msc: ["03F40", "03D35"]
+topics: [HXHHWY3328]
+audience: grad
+proves: X9WYNYE29C
+uses: [Z7TN2B35B0, EZ6Z9V91C2, TN9G24VABN, 6M12VR1GT6, 4S29X1GTV4]
+methods: [0J0XBKG64S]
+sources:
+  - url: https://en.wikipedia.org/wiki/Halting_problem
+    locator: Gödel's incompleteness theorems
+  - book: isbn:9780521857840
+---
+
+## Proof
+
+This proof gives the incompleteness in parts 1 and 2 with another undecided sentence.
+A consistent $T$ leaves a true $\Pi_1$ sentence unprovable, and a $1$-consistent $T$ is not negation complete.
+
+1. Let $K := \set{e \in \N : \text{the program with code } e \text{ halts on input } e}$. The set $K$ is [[computably enumerable|TN9G24VABN]] and not decidable, by the [[undecidability of the halting problem|Z7TN2B35B0]].
+2. A set is decidable exactly when it and its complement are computably enumerable, by [[this theorem|EZ6Z9V91C2]]. So the complement $\overline{K}$ is not computably enumerable.
+3. The relation "program $e$ on input $e$ halts within $s$ steps" is decidable. Let $C(x, z)$ be a $\Sigma_1$ formula that represents it in $\mathsf{Q}$, and let $H(x) := \exists z \, C(x, z)$.
+4. In $\N$, $H$ defines $K$: $\N \models H(\underline{e})$ exactly when $e \in K$, since $C$ defines its relation in the model $\N$ of $\mathsf{Q}$.
+5. If $e \in K$, choose $s$ with "$e$ halts within $s$ steps". By representability, $\mathsf{Q} \vdash C(\underline{e}, \underline{s})$, so $T \vdash H(\underline{e})$.
+6. Let $S := \set{e : T \vdash \neg H(\underline{e})}$. A program lists the theorems of $T$ and keeps those of the form $\neg H(\underline{e})$, so $S$ is computably enumerable.
+7. Assume $T$ is consistent. If $e \in S \cap K$, then $T$ proves $\neg H(\underline{e})$ and, by step 5, $H(\underline{e})$. So $S \cap K$ is empty, and $S \subseteq \overline{K}$.
+8. By steps 2 and 6, $S \ne \overline{K}$. Choose $e_0 \in \overline{K}$ with $e_0 \notin S$.
+9. By step 4, the $\Pi_1$ sentence $\neg H(\underline{e_0})$ is true in $\N$. By the choice of $e_0$, $T \nvdash \neg H(\underline{e_0})$.
+10. Now assume that $T$ is $1$-consistent, that is, every $\Sigma_1$ sentence provable in $T$ is true. If $T \vdash H(\underline{e_0})$, then $H(\underline{e_0})$ is true, so $e_0 \in K$ by step 4. This contradicts step 8.
+11. So $T$ proves neither $H(\underline{e_0})$ nor $\neg H(\underline{e_0})$, and $T$ is not negation complete.
+
+## Idea
+
+Provability in $T$ is computably enumerable, so a consistent $T$ can refute halting only for a c.e. set of programs.
+The programs that do not halt do not form a c.e. set, so some non-halting program has no proof that it does not halt.
+The undecided sentence is "program $e_0$ does not halt on input $e_0$".
+The argument as written shows only that $e_0$ exists, but an explicit $e_0$ can be read off from a program that enumerates $S$.
+
+## Variants
+
+A refinement uses two disjoint c.e. sets that no decidable set separates, and it needs only consistency, as in [[Rosser's theorem|DH9RQ61GVD]].
+An explicit $e_0$: if $S$ is the set of inputs on which program $s$ halts, then $s \notin S$, since $s \in S$ would put $s$ in $K$.
+So $s \in \overline{K} \setminus S$.
+The [[diagonal proof|XYHTQH2TGB]] also gives an explicit sentence.
+Replacing $K$ by any c.e. set with a non-c.e. complement, such as the set of solvable Diophantine equations, gives an undecided sentence of the form "this equation has no solution".

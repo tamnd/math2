@@ -1,0 +1,94 @@
+---
+tag: R6AN38DNBD
+kind: statement
+role: theorem
+name: Robinson's joint consistency theorem
+aliases: [robinson-joint-consistency-theorem, robinson-consistency-theorem, joint-consistency-theorem]
+msc: ["03C07", "03C40"]
+topics: [FBWW4J1XWG]
+audience: ug3
+about: [VM8TQ70CVJ, 655K8Y7VS8]
+uses: [VM8TQ70CVJ, 655K8Y7VS8, DKFGQTRYZE, WDVVEYD6AT, MVCH6N9SNW, AVD7T7J063]
+history:
+  first_stated: "Abraham Robinson, 1956, in 'A result on consistency and its application to the theory of definition'"
+sources:
+  - url: https://en.wikipedia.org/wiki/Robinson%27s_joint_consistency_theorem
+    locator: lead section
+  - url: https://en.wikipedia.org/wiki/Robinson%27s_joint_consistency_theorem
+    locator: Proof
+  - url: https://builds.openlogicproject.org/
+    locator: Interpolation
+---
+
+## Statement
+
+Let $L_1$ and $L_2$ be first-order languages with equality, given by [[signatures|WDVVEYD6AT]], and let $L_0 = L_1 \cap L_2$ be the language of their common symbols.
+Derivability $\vdash$ is in the Hilbert system $H$ of the [[soundness theorem|AVD7T7J063]].
+Let $\Gamma$ be a set of [[sentences|DKFGQTRYZE]] of $L_1$, and let $\Sigma$ be a set of sentences of $L_2$.
+A sentence $\theta$ of $L_0$ separates $\Gamma$ from $\Sigma$ when $\Gamma \vdash \theta$ and $\Sigma \vdash \neg \theta$.
+
+**Theorem (Robinson).**
+
+1. Separation form: if no sentence of $L_0$ separates $\Gamma$ from $\Sigma$, then $\Gamma \cup \Sigma$ has a [[model|MVCH6N9SNW]], and so it is [[consistent|VM8TQ70CVJ]].
+2. Classical form: let $T$ be a [[complete theory|655K8Y7VS8]] in $L_0$, that is, a consistent set of sentences of $L_0$ that derives $\sigma$ or $\neg \sigma$ for each sentence $\sigma$ of $L_0$. If $\Gamma \supseteq T$ and $\Sigma \supseteq T$ are consistent, then $\Gamma \cup \Sigma$ is consistent.
+
+Two proofs are given: [[a direct proof by a joint Henkin construction|VNABTNK13X]] and [[a proof from Craig's interpolation theorem|V36AHEN7ZE]].
+
+## Remarks
+
+### Why each hypothesis is needed
+
+- Completeness of $T$ in part 2. Let $L_0 = L_1 = L_2$ have no non-logical symbols, $\Gamma = \set{\exists x \, \exists y \, \neg (x = y)}$, $\Sigma = \set{\forall x \, \forall y \, (x = y)}$ and $T = \emptyset$. Both sets are consistent, but their union is not.
+- In this example, $T$ does not decide the $L_0$-sentence $\forall x \, \forall y \, (x = y)$, and this sentence separates $\Sigma$ from $\Gamma$.
+- Consistency of $\Gamma$ and $\Sigma$ in part 2: an inconsistent set has no consistent superset.
+- Common symbols only: if $\theta$ could use a symbol of $L_1$ outside $L_2$, then $\Sigma$ could not derive $\neg \theta$ at all, so the condition would say nothing about $\Sigma$.
+
+### Consequences
+
+- Part 1 implies part 2. Let $\theta \in L_0$ separate $\Gamma$ from $\Sigma$. If $T \vdash \theta$, then $\Sigma \vdash \theta$ and $\Sigma \vdash \neg \theta$. If $T \vdash \neg \theta$, then $\Gamma \vdash \theta$ and $\Gamma \vdash \neg \theta$. Both contradict consistency.
+- [[Craig's interpolation theorem|E2CBFNAVZY]], by [[this proof|JP8J5RJM6W]].
+- The [[Beth definability theorem|RJBDSA2ETP]], by Robinson's original application to the theory of definition.
+- Joining models: let $\mathcal{M}$ be an $L_1$-structure and $\mathcal{N}$ an $L_2$-structure whose reducts to $L_0$ are elementarily equivalent. Part 2 with $T = \mathrm{Th}_{L_0}(\mathcal{M})$ gives a structure for $L_1 \cup L_2$ that satisfies $\mathrm{Th}(\mathcal{M}) \cup \mathrm{Th}(\mathcal{N})$.
+
+### Converse
+
+The converse of part 1 holds: if $\Gamma \cup \Sigma$ has a model $\mathcal{A}$ and $\Gamma \vdash \theta$, then $\mathcal{A} \models \theta$ by soundness, so $\Sigma \nvdash \neg \theta$.
+So $\Gamma \cup \Sigma$ is consistent if and only if no sentence of $L_0$ separates $\Gamma$ from $\Sigma$.
+
+### Generalizations
+
+- Part 1 holds for languages of every cardinality, with the same proof by transfinite recursion.
+- Many-sorted logic has the same theorem.
+
+## History
+
+Abraham Robinson published the theorem in 1956, in a paper on consistency and the theory of definition.
+He used it to give a new proof of Beth's definability theorem.
+Craig's interpolation theorem of 1957 is equivalent to it, by the compactness theorem.
+
+## Explanations
+
+### L1 human
+
+Two people describe the same world, each in their own vocabulary.
+Each description makes sense alone.
+If the descriptions never disagree on anything that both people can say, then the two descriptions together still make sense.
+For example, "the box is red" and "the box is heavy" agree on the shared word "box", so both can hold.
+
+### L2 human
+
+We apply part 2 to combine two expansions of a dense order.
+
+1. Let $L_0 = \set{<}$, and let $T$ be the theory of dense linear orders without endpoints. It is complete.
+2. Let $L_1 = \set{<, P}$ and $\Gamma = T \cup \set{\exists x \, P(x), \exists x \, \neg P(x)}$. It is consistent: take $\Q$ with $P$ the negative rationals.
+3. Let $L_2 = \set{<, f}$ and $\Sigma = T \cup \set{\forall x \, \forall y \, (x < y \to f(x) < f(y))}$. It is consistent: take $\Q$ with $f(x) = x$.
+4. By the theorem, $\Gamma \cup \Sigma$ is consistent. So some dense order carries both a non-trivial $P$ and an increasing function $f$.
+
+The typical use is in this form: two consistent expansions of a complete theory can be joined.
+The trap is to drop completeness: two consistent extensions of an incomplete theory may contradict each other in the common language.
+
+### L3 human
+
+The theorem is an amalgamation property for the category of theories and interpretations along the square of languages $L_0, L_1, L_2, L_1 \cup L_2$.
+It is equivalent to Craig interpolation over the compactness theorem.
+Robinson's own use, a proof of Beth's theorem, shows its role: it turns a semantic hypothesis about two expansions into a syntactic conclusion in the common language.

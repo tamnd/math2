@@ -1,0 +1,69 @@
+---
+tag: GRBXQXWXEP
+kind: proof
+name: Proof of Gödel's speed-up theorem by a sentence that bounds its own proofs
+msc: ["03F20", "03F40"]
+topics: [HXHHWY3328]
+audience: research
+proves: 37X5XBDBNX
+uses: [6M12VR1GT6, F6H4STF9RG, XPBRYYDDQG, P3XFQC6ACX, NB2BCZR40F, 4NBAX3VRQ7, 3K1AKGXF8A, KZSB5E471K]
+methods: [V2H30SA654, 0J0XBKG64S, 0NTF6DMVAP]
+sources:
+  - url: https://en.wikipedia.org/wiki/G%C3%B6del%27s_speed-up_theorem
+    locator: lead section
+---
+
+## Proof
+
+Let $T$, $T' = T + \mathrm{Con}(T)$ and the computable function $f$ be as in [[Gödel's speed-up theorem|37X5XBDBNX]].
+Proofs are strings over a finite alphabet, coded by numbers as in the [[arithmetization of syntax|6M12VR1GT6]], and $\ell_S(\varphi)$ is the least number of symbols of an $S$-proof of $\varphi$.
+We use four standard facts.
+
+- (F1) $\Sigma_1$-completeness: every true $\Sigma_1$ sentence is provable in [[Robinson arithmetic|3K1AKGXF8A]] $\mathsf{Q}$, and so in $T$.
+- (F2) Representability: every computable function $g$ of one or two arguments is defined by a $\Sigma_1$ formula $\gamma(\vec{x}, z)$ with $\mathsf{Q} \vdash \forall z \, (\gamma(\underline{\vec{n}}, z) \leftrightarrow z = \underline{g(\vec{n})})$ for all $\vec{n}$. Since the axioms of $T$ are decidable, the proof relation is decided in $\mathsf{Q}$: for all $m, k$, either $\mathsf{Q} \vdash \mathrm{Prf}_T(\underline{m}, \underline{k})$ or $\mathsf{Q} \vdash \neg \mathrm{Prf}_T(\underline{m}, \underline{k})$, according to the truth.
+- (F3) For every $m$, $\mathsf{Q} \vdash \forall y \, (y \le \underline{m} \to y = \underline{0} \vee y = \underline{1} \vee \cdots \vee y = \underline{m})$.
+- (F4) Since $T \supseteq \mathsf{PA}$, $T$ proves the [[derivability conditions|F6H4STF9RG]] in their uniform form, with free variables, and formalized $\Sigma_1$-completeness: $T \vdash \sigma(x) \to \mathrm{Prov}_T(\ulcorner \sigma(\dot{x}) \urcorner)$ for every $\Sigma_1$ formula $\sigma(x)$, see [[the proof of the derivability conditions|XPBRYYDDQG]]. Here $\ulcorner \sigma(\dot{x}) \urcorner$ is the term for the code of the result of putting the numeral of $x$ into $\sigma$.
+
+1. Two auxiliary functions. Let $G(m)$ be the largest code of a string of at most $m$ symbols, and let $F(k) = \max\set{f(j) : j \le k}$. Both are computable and nondecreasing, $F(k) \ge f(k)$, and every string of at most $m$ symbols has code at most $G(m)$. Put $h(n) = G(F(n^2))$. The function $h$ is [[computable|KZSB5E471K]]; this is where the computability of $f$ is used.
+2. By (F2), let $H(x, b)$ define $h$ and let $\mathrm{Sb}(c, x, s)$ define the substitution function $\mathrm{sub}$, where $\mathrm{sub}(c, n)$ is the code of the result of putting $\underline{n}$ for the free variable $x$ in the formula with code $c$. Let
+   $$\delta(x, c) := \exists b \, \exists s \, \exists y \, \bigl(H(x, b) \wedge \mathrm{Sb}(c, x, s) \wedge y \le b \wedge \mathrm{Prf}_T(y, s)\bigr).$$
+   This is a $\Sigma_1$ formula.
+   For a formula $\theta(x)$, the sentence $\delta(\underline{n}, \ulcorner \theta \urcorner)$ says: some $T$-proof of $\theta(\underline{n})$ has code at most $h(n)$.
+3. By the [[diagonal lemma with parameters|P3XFQC6ACX]] there is a formula $\psi(x)$ with
+   $$T \vdash \forall x \, \bigl(\psi(x) \leftrightarrow \neg \delta(x, \ulcorner \psi \urcorner)\bigr).$$
+   Put $\psi_n = \psi(\underline{n})$.
+   So $\psi_n$ says: no $T$-proof of $\psi_n$ has code at most $h(n)$.
+4. No $T$-proof of $\psi_n$ has code at most $h(n)$. Suppose, for a contradiction, that $p \le h(n)$ is the code of a $T$-proof of $\psi_n$. Then $\delta(\underline{n}, \ulcorner \psi \urcorner)$ is a true $\Sigma_1$ sentence, so $T$ proves it by (F1), and $T \vdash \neg \psi_n$ by step 3. Together with $T \vdash \psi_n$, this makes $T$ inconsistent, against the hypothesis.
+5. $T \vdash \psi_n$ for every $n$.
+   We argue in $\mathsf{Q}$.
+   If $H(\underline{n}, b)$ and $\mathrm{Sb}(\ulcorner \psi \urcorner, \underline{n}, s)$, then $b = \underline{h(n)}$ and $s = \ulcorner \psi_n \urcorner$ by (F2).
+   If $y \le b$, then $y$ is one of $\underline{0}, \ldots, \underline{h(n)}$ by (F3).
+   For each $m \le h(n)$, step 4 says that $m$ is not the code of a $T$-proof of $\psi_n$, so $\mathsf{Q} \vdash \neg \mathrm{Prf}_T(\underline{m}, \ulcorner \psi_n \urcorner)$ by (F2).
+   So $\mathsf{Q} \vdash \neg \delta(\underline{n}, \ulcorner \psi \urcorner)$, and $T \vdash \psi_n$ by step 3.
+   This proof treats $h(n) + 1$ cases, and by step 4 every $T$-proof of $\psi_n$ is long.
+6. Every $T$-proof of $\psi_n$ has more than $F(n^2)$ symbols. A proof with at most $F(n^2)$ symbols has code at most $G(F(n^2)) = h(n)$ by step 1, which step 4 excludes. So $\ell_T(\psi_n) > F(n^2)$.
+7. $T \vdash \mathrm{Con}(T) \to \forall x \, \psi(x)$.
+   We argue in $T$ with a free variable $x$, and assume $\neg \psi(x)$.
+   By step 3, $\delta(x, \ulcorner \psi \urcorner)$ holds.
+   Its witnesses $s$ and $y$ give $\mathrm{Prf}_T(y, s)$ with $s = \ulcorner \psi(\dot{x}) \urcorner$, because $\mathsf{PA}$ proves that $\mathrm{Sb}$ defines a function and $\ulcorner \psi(\dot{x}) \urcorner$ is the term for its value, so $\mathrm{Prov}_T(\ulcorner \psi(\dot{x}) \urcorner)$.
+   Since $\delta(x, \ulcorner \psi \urcorner)$ is $\Sigma_1$, (F4) gives $\mathrm{Prov}_T(\ulcorner \delta(\dot{x}, \ulcorner \psi \urcorner) \urcorner)$.
+   Applying the uniform derivability conditions to the theorem of step 3 gives $\mathrm{Prov}_T(\ulcorner \psi(\dot{x}) \to \neg \delta(\dot{x}, \ulcorner \psi \urcorner) \urcorner)$, and with the condition for modus ponens, $\mathrm{Prov}_T(\ulcorner \neg \delta(\dot{x}, \ulcorner \psi \urcorner) \urcorner)$.
+   A sentence and its negation together prove $0 = S0$, so the derivability conditions give $\mathrm{Prov}_T(\ulcorner 0 = S0 \urcorner)$, that is, $\neg \mathrm{Con}(T)$.
+   Discharging the assumption and generalizing on $x$ gives $T \vdash \forall x \, (\neg \psi(x) \to \neg \mathrm{Con}(T))$, which is the claim.
+8. $T'$-proofs of $\psi_n$ are short. By step 7, $T' \vdash \forall x \, \psi(x)$; fix one such proof $P$. A $T'$-proof of $\psi_n$ is $P$, followed by the logical axiom $\forall x \, \psi(x) \to \psi(\underline{n})$ and the conclusion $\psi_n$ by modus ponens. The numeral $\underline{n}$ has $n + 1$ symbols, so this proof has at most $A(n + 1)$ symbols, for a number $A \ge 1$ that depends on $P$ and $\psi$ but not on $n$. So $\ell_{T'}(\psi_n) \le A(n + 1)$.
+9. Comparison. The number $A$ depends on $\psi$, and so on $h$; this is why $h$ was fixed in step 1 with the margin $n^2$, before $A$ was known. For $n \ge A + 1$ we have $A(n + 1) \le (n - 1)(n + 1) < n^2$. Since $F$ is nondecreasing and $F \ge f$, steps 6 and 8 give
+   $$\ell_T(\psi_n) > F(n^2) \ge F\bigl(\ell_{T'}(\psi_n)\bigr) \ge f\bigl(\ell_{T'}(\psi_n)\bigr).$$
+10. The sentences $\psi_n$ for $n \ge A + 1$ are pairwise different, since they contain different numerals, and all are theorems of $T$ by step 5. So infinitely many theorems $\psi$ of $T$ satisfy $\ell_T(\psi) > f(\ell_{T'}(\psi))$. $\blacksquare$
+
+## Idea
+
+The sentence $\psi_n$ is a [[diagonal|V2H30SA654]] sentence that says "I have no short proof", where "short" means "with code at most $h(n)$".
+Unlike the Gödel sentence, it is decidable by a finite search, so it is true and provable; but the search is the only way, and the proof is long.
+The theory $T + \mathrm{Con}(T)$ avoids the search: it knows that a short proof of $\psi_n$ would make $T$ inconsistent (step 4 formalized in step 7), so it gets all $\psi_n$ at once from one fixed proof of $\forall x \, \psi(x)$.
+The only subtle point is the order of choices: the bound $h$ enters $\psi$, and the constant $A$ depends on $\psi$, so $h$ must leave a margin that beats every linear function, here $n^2$.
+
+## Variants
+
+1. The same argument works with $\mathsf{I\Sigma}_1$ in place of $\mathsf{PA}$, because (F4) holds for theories that contain $\mathsf{I\Sigma}_1$.
+2. In place of $\mathrm{Con}(T)$ one can add any sentence $\chi$ such that $T + \chi$ proves $\forall x \, \psi(x)$ for the sentence $\psi$ of step 3; for example a reflection principle for $T$. The proof of step 7 shows that $T + \mathrm{Con}(T)$ is enough.
+3. The argument counts symbols. To count lines (steps), as in Gödel's original claim and in the theorems of Parikh (1973) and Buss (1994), it is not enough, because a single line can contain a very long formula, and their proofs use other methods.

@@ -1,0 +1,66 @@
+---
+tag: K1V1KVEAHN
+kind: definition
+name: Exclusive or
+msc: ["03B05"]
+topics: [PM1AYWABA7]
+audience: school
+defines: PTMR3P9J6C
+uses: [0ZGC7ZESYN]
+sources:
+  - url: https://en.wikipedia.org/wiki/Exclusive_or
+    locator: lead section
+  - book: isbn:9781108439534
+    locator: Section 1.2
+---
+
+## Definition
+
+Let $p$ and $q$ be [[propositions|0ZGC7ZESYN]].
+The exclusive or of $p$ and $q$ is the proposition $p \oplus q$, read "$p$ xor $q$" or "either $p$ or $q$, but not both".
+The proposition $p \oplus q$ is true when exactly one of $p$ and $q$ is true.
+It is false when both are true and when both are false.
+
+| $p$ | $q$ | $p \oplus q$ |
+|---|---|---|
+| T | T | F |
+| T | F | T |
+| F | T | T |
+| F | F | F |
+
+For formulas, a valuation $v$ gives $v(\varphi \oplus \psi) = $ T exactly when $v(\varphi) \neq v(\psi)$.
+
+## Notation
+
+This sub-area writes $p \oplus q$.
+Other notations are $p \mathbin{\underline{\vee}} q$, $p \not\leftrightarrow q$, $p \not\equiv q$, XOR and EOR.
+With truth values $1$ and $0$, the value of $p \oplus q$ is $p + q$ modulo $2$.
+In Lean's Mathlib, `Xor' a b` is defined as $(a \land \neg b) \lor (b \land \neg a)$.
+
+## Remarks
+
+The table agrees with the table of the inclusive [[disjunction|0F72FK8EKB]] in the rows TF, FT and FF, and differs in the row TT.
+The connective can be defined from the others in several equivalent ways:
+$$p \oplus q \equiv (p \lor q) \land \neg(p \land q) \equiv (p \land \neg q) \lor (\neg p \land q) \equiv \neg(p \leftrightarrow q).$$
+The first form says "at least one, and not both"; the second lists the two true rows; the third compares the truth values with the [[biconditional|0S6GMNJ62Y]].
+The concept page [[exclusive or|PTMR3P9J6C]] gives the arithmetic modulo $2$, associativity, parity, the examples and the non-examples.
+
+## Explanations
+
+### L1 human
+
+"Either it is Saturday or it is Sunday" is an exclusive or on a weekend day: exactly one of them is true.
+"$7$ is odd xor $7$ is prime" is false, because both parts are true.
+"$9$ is odd xor $9$ is prime" is true, because only the first part is true.
+
+### L2 human
+
+We compute $p \oplus q$ from the second form, $(p \land \neg q) \lor (\neg p \land q)$, in the row TF.
+
+1. $p$ is T and $q$ is F, so $\neg q$ is T and $p \land \neg q$ is T.
+2. $\neg p$ is F, so $\neg p \land q$ is F.
+3. The disjunction of T and F is T, so $p \oplus q$ is T, as the table says.
+
+The definition is used in this way to reduce $\oplus$ to $\neg$, $\land$ and $\lor$ in a truth table or a normal form.
+
+A trap: the first form needs both parts: $p \lor q$ alone is the inclusive "or", which is T in the row TT.

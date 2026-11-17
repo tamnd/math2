@@ -30,7 +30,7 @@ It does not claim that $S$ or $T$ is consistent; it reduces the question for $T$
 The two standard methods are models, "from a model of $S$ build a model of $T$", and interpretations, "translate each proof in $T$ into a proof in $S$".
 When the translation is computable, the implication is provable in a weak arithmetic theory such as primitive recursive arithmetic (PRA), and then the proof is finitary.
 Theories $S$ and $T$ are *equiconsistent* when both implications hold.
-Relative consistency proofs matter because absolute consistency proofs are limited by the [[second incompleteness theorem|X9WYNYE29C]], while relative ones are the main tool for comparing the strength of theories and for independence results.
+Relative consistency proofs matter because absolute consistency proofs are limited by the [[second incompleteness theorem|4PZM5GJTR5]], while relative ones are the main tool for comparing the strength of theories and for independence results.
 
 ## Motivation
 
