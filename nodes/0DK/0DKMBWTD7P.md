@@ -47,7 +47,7 @@ In $\mathbb{Z}/4\mathbb{Z}$, the blocks $\{0, 1\}$ and $\{2, 3\}$ have equal siz
 ### Generalizations
 
 - For a [[group action|0WCY42EV9V]], each element $g$ acts as a bijection of the set. Thus $g$ maps each subset onto a subset of the same size.
-- For [[double cosets|~d8f44326]] $HgK$ the sizes can differ, so the lemma does not extend to them.
+- For [[double cosets|DSBE321XMS]] $HgK$ the sizes can differ, so the lemma does not extend to them.
 
 ## Explanations
 

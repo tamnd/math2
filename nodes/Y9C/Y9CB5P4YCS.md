@@ -1,5 +1,5 @@
 ---
-tag: ~d0e7afc6
+tag: Y9CB5P4YCS
 kind: concept
 name: CLT group
 msc: ["20D10", "20D60"]
@@ -40,13 +40,13 @@ There is no special symbol for the class.
 - Each finite [[cyclic group|0KVGH0J5B3]] is CLT. Such a group is isomorphic to $\mathbb{Z}/n\mathbb{Z}$ for its order $n$. For each divisor $d$ of $n$, the subgroup $\langle n/d \rangle$ has order $d$, [[by this result|0423TXR9AN]].
 - Each finite [[abelian group|082GHNPJ53]] is CLT, by the proof in the basic properties below. For example, the [[Klein four-group|0PMRQJVTME]] has subgroups of orders $1$, $2$ and $4$.
 - Each finite [[p-group|06QYRTX9KQ]] is CLT, by the proof in the basic properties below. For example, [[the dihedral group of order 8|054SBCQ93T]] is CLT.
-- The [[symmetric group|0515A6D2Y1]] $S_3$ is CLT, as [[this example|~8b0e9762]] shows.
-- The symmetric group $S_4$ is CLT, but it is not supersolvable, as [[this example|~9e55551c]] shows.
+- The [[symmetric group|0515A6D2Y1]] $S_3$ is CLT, as [[this example|QPH0JFF17Q]] shows.
+- The symmetric group $S_4$ is CLT, but it is not supersolvable, as [[this example|6WG1EF772J]] shows.
 
 ### Non-examples
 
 - The [[alternating group|0Z5905Q73D]] $A_4$ is not CLT, because it has no subgroup of order $6$, by [[this counterexample|0PDBVPP233]]. It is solvable, so the class of CLT groups is smaller than the class of solvable groups.
-- The alternating group $A_5$ is not CLT, because it has no subgroup of order $30$, as [[this example|~7bb37731]] shows.
+- The alternating group $A_5$ is not CLT, because it has no subgroup of order $30$, as [[this example|XXT86YX1J0]] shows.
 - An infinite group is not CLT, because the definition asks for a finite group.
 
 The group $A_4$ is the smallest group that is not CLT.

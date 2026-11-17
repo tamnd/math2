@@ -1,12 +1,12 @@
 ---
-tag: ~f92388d9
+tag: QQVCDZX300
 kind: concept
 name: Transversal of a subgroup
 aliases: [left-transversal, right-transversal, common-transversal, system-of-coset-representatives]
 msc: ["20A05"]
 topics: [1VHQWXC64D]
 audience: grad
-uses: [G5S1M9, 0X1JXT47GA, 03DEH43F4H, 0NE1DK7H4T, 0DTXBQPA2S, 08WCB90WND, ~d8f44326, ~e932864a, 0ZQJ7KEFQ5]
+uses: [G5S1M9, 0X1JXT47GA, 03DEH43F4H, 0NE1DK7H4T, 0DTXBQPA2S, 08WCB90WND, DSBE321XMS, W0SW2ATN1Y, 0ZQJ7KEFQ5]
 sources:
   - url: https://en.wikipedia.org/wiki/Transversal_(combinatorics)
     locator: Examples
@@ -47,15 +47,15 @@ A left transversal of $H$ is a transversal, in this sense, of the family of left
 
 ### Examples
 
-- In $(\mathbb{Z}, +)$, the set $\{0, 1, \ldots, n - 1\}$ is a transversal of $n\mathbb{Z}$, as [[this example|~b7144eb7]] shows. Each set of $n$ integers with distinct remainders modulo $n$ is also a transversal.
-- In the [[symmetric group|0515A6D2Y1]] $S_3$ with $H = \{e, (1\,2)\}$, the set $\{e, (1\,2\,3), (2\,3)\}$ is a left transversal but not a right transversal, as [[this example|~fe971853]] shows.
+- In $(\mathbb{Z}, +)$, the set $\{0, 1, \ldots, n - 1\}$ is a transversal of $n\mathbb{Z}$, as [[this example|H3RX5PD834]] shows. Each set of $n$ integers with distinct remainders modulo $n$ is also a transversal.
+- In the [[symmetric group|0515A6D2Y1]] $S_3$ with $H = \{e, (1\,2)\}$, the set $\{e, (1\,2\,3), (2\,3)\}$ is a left transversal but not a right transversal, as [[this example|XKZN7YVNF8]] shows.
 - In $S_3$, the [[alternating group|0Z5905Q73D]] $A_3 = \{e, (1\,2\,3), (1\,3\,2)\}$ is a common transversal of $H = \{e, (1\,2)\}$.
 - In the [[direct product|00HF4RJ5QN]] $G = H \times K$, the subgroup $\{e\} \times K$ is a common transversal of $H \times \{e\}$.
 - In $(\mathbb{R}, +)$, the interval $[0, 1)$ is a transversal of $\mathbb{Z}$. The coset $x + \mathbb{Z}$ meets $[0, 1)$ only in $x - \lfloor x \rfloor$, where $\lfloor x \rfloor$ is the [[floor|08GR54CKEA]] of $x$.
 
 ### Non-examples
 
-- In $S_3$, the set $\{(1\,2\,3), (1\,3\,2), (2\,3)\}$ has $3 = [S_3 : H]$ elements, but it is neither a left nor a right transversal of $H = \{e, (1\,2)\}$, as [[this example|~6d36d625]] shows.
+- In $S_3$, the set $\{(1\,2\,3), (1\,3\,2), (2\,3)\}$ has $3 = [S_3 : H]$ elements, but it is neither a left nor a right transversal of $H = \{e, (1\,2)\}$, as [[this example|KJBM9C3RF3]] shows.
 - In $\mathbb{Z}$, the set $\{0, 1, 3\}$ is not a transversal of $3\mathbb{Z}$. The elements $0$ and $3$ lie in the same coset, and no element lies in $2 + 3\mathbb{Z}$.
 
 ### Basic properties
@@ -86,14 +86,14 @@ Thus $T$ is a common transversal.
 ### Proof that a subgroup of finite index has a common transversal
 
 Let $n = [G : H]$ be finite.
-The step 2 count above fails when $H$ is infinite, so we use the $(H, H)$ [[double cosets|~d8f44326]] $D = HgH$.
+The step 2 count above fails when $H$ is infinite, so we use the $(H, H)$ [[double cosets|DSBE321XMS]] $D = HgH$.
 
 1. The double cosets partition $G$. Each $D = HgH$ is a union of left cosets $hgH$ and a union of right cosets $Hgh$, with $h \in H$.
 2. Each left coset in $D$ meets each right coset in $D$. Indeed, a left coset in $D$ is $h_1gH$ and a right coset in $D$ is $Hgh_2$. Both contain $h_1gh_2$.
 3. The left cosets $hgH$ in $D$ are in bijection with $H / (H \cap gHg^{-1})$, because $hgH = h'gH$ exactly when $h^{-1}h' \in gHg^{-1}$.
 4. We have $Hgh = Hgh'$ exactly when $h h'^{-1} \in g^{-1}Hg$. Thus the right cosets in $D$ are in bijection with $(H \cap g^{-1}Hg) \backslash H$.
 5. Put $K = gHg^{-1}$. Conjugation by $g$ maps the left cosets of $H$ onto the left cosets of $K$, so $[G : K] = n$.
-6. By [[Poincaré's theorem|~e932864a]], $[G : H \cap K]$ is finite. The [[tower law|0ZQJ7KEFQ5]] gives $n \, [H : H \cap K] = [G : H \cap K] = n \, [K : H \cap K]$.
+6. By [[Poincaré's theorem|W0SW2ATN1Y]], $[G : H \cap K]$ is finite. The [[tower law|0ZQJ7KEFQ5]] gives $n \, [H : H \cap K] = [G : H \cap K] = n \, [K : H \cap K]$.
 7. Thus $[H : H \cap K] = [K : H \cap K]$. Conjugation by $g^{-1}$ maps $K$ to $H$ and $H \cap K$ to $g^{-1}Hg \cap H$, so $[K : H \cap K] = [H : H \cap g^{-1}Hg]$.
 8. By steps 3, 4 and 7, $D$ contains the same finite number of left cosets and of right cosets.
 9. Pair the left cosets in $D$ with the right cosets in $D$ by any bijection. In each pair choose one element of the intersection, which exists by step 2.

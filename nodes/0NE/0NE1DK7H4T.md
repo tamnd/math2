@@ -43,14 +43,14 @@ This site uses left cosets as the standard.
 ### Examples
 
 - In an [[abelian group|082GHNPJ53]], $Hg = gH$ for each $g$. Thus the cosets of $3\mathbb{Z}$ in $\mathbb{Z}$ in [[this example|BM4VXG92DT]] are right cosets too.
-- In $(\mathbb{R}^2, +)$, the right cosets of a line through the origin are the parallel lines, as [[this example|~8fba9792]] shows.
+- In $(\mathbb{R}^2, +)$, the right cosets of a line through the origin are the parallel lines, as [[this example|3WTCVF5RP8]] shows.
 - In $S_3$ with $H = \{e, (1\,2)\}$, the right cosets are $H$, $\{(1\,3), (1\,3\,2)\}$ and $\{(2\,3), (1\,2\,3)\}$, as [[this example|4DWC4XFS34]] shows.
 - In $S_3$, the subgroup $A_3 = \{e, (1\,2\,3), (1\,3\,2)\}$ has the right cosets $A_3$ and $\{(1\,2), (1\,3), (2\,3)\}$. These are also its left cosets.
 
 ### Non-examples
 
-- In $S_3$, the left coset $(1\,3)H = \{(1\,3), (1\,2\,3)\}$ of $H = \{e, (1\,2)\}$ is not a right coset of $H$, as [[this example|~ab89f2f3]] shows.
-- In $\mathbb{Z}/4\mathbb{Z}$, the set $\{1, 2\}$ is a translate of $\{0, 1\}$, but it is not a right coset of any subgroup. The only subgroup of order $2$ is $\{0, 2\}$, with the cosets $\{0, 2\}$ and $\{1, 3\}$. [[This example|~0ae0cc90]] gives the details.
+- In $S_3$, the left coset $(1\,3)H = \{(1\,3), (1\,2\,3)\}$ of $H = \{e, (1\,2)\}$ is not a right coset of $H$, as [[this example|BPVNZ5VNND]] shows.
+- In $\mathbb{Z}/4\mathbb{Z}$, the set $\{1, 2\}$ is a translate of $\{0, 1\}$, but it is not a right coset of any subgroup. The only subgroup of order $2$ is $\{0, 2\}$, with the cosets $\{0, 2\}$ and $\{1, 3\}$. [[This example|94SNG0EQQZ]] gives the details.
 
 ### Basic properties
 
@@ -106,4 +106,4 @@ For $A_3$ in $S_3$, the products $(1\,2)(1\,2\,3)$ and $(1\,2\,3)(1\,2)$ differ,
 The right cosets of $H$ are the orbits of the left action of $H$ on $G$, $g \mapsto hg$.
 Inversion is an anti-automorphism of $G$, so it exchanges each statement about left cosets with the same statement about right cosets.
 In the same way, the [[opposite group|D33V8HE0KY]] turns left cosets into right cosets.
-Both kinds of cosets are special cases of the [[double cosets|~d8f44326]] $HgK$, with $K = \{e\}$ or $H = \{e\}$.
+Both kinds of cosets are special cases of the [[double cosets|DSBE321XMS]] $HgK$, with $K = \{e\}$ or $H = \{e\}$.

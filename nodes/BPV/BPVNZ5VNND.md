@@ -1,5 +1,5 @@
 ---
-tag: ~ab89f2f3
+tag: BPVNZ5VNND
 kind: example
 name: A left coset of {e, (1 2)} in S3 that is not a right coset of it
 msc: ["20B30"]
@@ -31,7 +31,7 @@ Let $C = (1\,3)H$.
 
 ## Remarks
 
-The example is the mirror image of the [[right coset that is not a left coset|~69d7e9da]].
+The example is the mirror image of the [[right coset that is not a left coset|M9F4BWH6EN]].
 The two partitions of $S_3$ differ because $H$ is not [[normal|0CB0DX5BVV]].
 The set $C$ is a right coset of the conjugate subgroup $K = (1\,3)H(1\,3) = \{e, (2\,3)\}$.
 Indeed $K(1\,3) = \{(1\,3), (2\,3)(1\,3)\} = \{(1\,3), (1\,2\,3)\} = C$.

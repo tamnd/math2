@@ -1,5 +1,5 @@
 ---
-tag: ~e932864a
+tag: W0SW2ATN1Y
 kind: statement
 role: theorem
 name: Poincaré's theorem on subgroups of finite index

@@ -1,5 +1,5 @@
 ---
-tag: ~3a444bf2
+tag: BF4EBR7D8C
 kind: example
 name: Z has infinite index in Q
 msc: ["20A05"]

@@ -1,12 +1,12 @@
 ---
-tag: ~fe971853
+tag: XKZN7YVNF8
 kind: example
 name: Left and right transversals of a subgroup of order two in S3
 msc: ["20A05"]
 topics: [1VHQWXC64D]
 audience: grad
-instance_of: [~f92388d9]
-uses: [0515A6D2Y1, 0X1JXT47GA, 03DEH43F4H, 0NE1DK7H4T, ~f92388d9, 0Z5905Q73D, 0CB0DX5BVV]
+instance_of: [QQVCDZX300]
+uses: [0515A6D2Y1, 0X1JXT47GA, 03DEH43F4H, 0NE1DK7H4T, QQVCDZX300, 0Z5905Q73D, 0CB0DX5BVV]
 sources:
   - url: https://en.wikipedia.org/wiki/Transversal_(combinatorics)
     locator: Examples
@@ -18,7 +18,7 @@ sources:
 
 Let $G = S_3$ be the [[symmetric group|0515A6D2Y1]], and compose permutations from right to left.
 Let $H = \{e, (1\,2)\}$, a [[subgroup|0X1JXT47GA]] of order $2$.
-We show that $T = \{e, (1\,2\,3), (2\,3)\}$ is a left [[transversal|~f92388d9]] of $H$, but not a right transversal.
+We show that $T = \{e, (1\,2\,3), (2\,3)\}$ is a left [[transversal|QQVCDZX300]] of $H$, but not a right transversal.
 
 1. The [[left cosets|03DEH43F4H]] of $H$ are $H$, $(1\,3)H = \{(1\,3), (1\,2\,3)\}$ and $(2\,3)H = \{(2\,3), (1\,3\,2)\}$.
 2. The set $T$ has $e$ in $H$, $(1\,2\,3)$ in $(1\,3)H$ and $(2\,3)$ in $(2\,3)H$. So $T$ is a left transversal.

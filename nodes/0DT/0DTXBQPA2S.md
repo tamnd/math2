@@ -45,15 +45,15 @@ The [[definition|04QEBF8S49]] uses left cosets, and the choice does not change t
 
 ### Examples
 
-- For each positive integer $n$, $[\mathbb{Z} : n\mathbb{Z}] = n$, as [[this example|~5cdec4c2]] shows. The cosets are the residue classes modulo $n$.
+- For each positive integer $n$, $[\mathbb{Z} : n\mathbb{Z}] = n$, as [[this example|JBQNPAZKWA]] shows. The cosets are the residue classes modulo $n$.
 - In $S_3$, the subgroup $\{e, (1\,2)\}$ has index $3$, and $A_3$ has index $2$, as [[this example|4DWC4XFS34]] shows.
-- The subgroup $\mathbb{Z}$ has infinite index in $(\mathbb{Q}, +)$, as [[this example|~3a444bf2]] shows.
+- The subgroup $\mathbb{Z}$ has infinite index in $(\mathbb{Q}, +)$, as [[this example|BF4EBR7D8C]] shows.
 - Each group has $[G : G] = 1$ and $[G : \{e\}] = |G|$.
 - In the group $\mathbb{R}^\times$ of nonzero real numbers, the positive numbers have index $2$. The cosets are the positive and the negative numbers.
 
 ### Non-examples
 
-- A subset that is not a subgroup has no index. In $\mathbb{Z}/4\mathbb{Z}$, the subset $S = \{0, 1\}$ has four different translates, but $|G| / |S| = 2$, as [[this example|~0ae0cc90]] shows.
+- A subset that is not a subgroup has no index. In $\mathbb{Z}/4\mathbb{Z}$, the subset $S = \{0, 1\}$ has four different translates, but $|G| / |S| = 2$, as [[this example|94SNG0EQQZ]] shows.
 - The index is not the order of a quotient group in general. The set $G/H$ is a group only when $H$ is [[normal|0CB0DX5BVV]], but the index is defined for each subgroup.
 
 ### Basic properties
@@ -61,7 +61,7 @@ The [[definition|04QEBF8S49]] uses left cosets, and the choice does not change t
 - The number of left cosets equals the number of right cosets. The map $gH \mapsto Hg^{-1}$ is a bijection, because $(gH)^{-1} = Hg^{-1}$, as shown in [[right coset|0NE1DK7H4T]].
 - If $G$ is finite, then $|G| = [G : H] \cdot |H|$, by [[this theorem|04DC0SRN2K]].
 - [[Tower law|0ZQJ7KEFQ5]]: if $K \le H \le G$, then $[G : K] = [G : H] \cdot [H : K]$.
-- If $H$ and $K$ have finite index, then $H \cap K$ has finite index, and $[G : H \cap K] \le [G : H] \cdot [G : K]$. This is the first part of [[Poincaré's theorem|~e932864a]].
+- If $H$ and $K$ have finite index, then $H \cap K$ has finite index, and $[G : H \cap K] \le [G : H] \cdot [G : K]$. This is the first part of [[Poincaré's theorem|W0SW2ATN1Y]].
 - A subgroup of index $2$ is [[normal|0V547YQRMV]].
 - $[G : H] = 1$ if and only if $H = G$.
 

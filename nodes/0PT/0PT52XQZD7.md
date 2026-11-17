@@ -43,15 +43,15 @@ Older books call a subset of a group a complex, and they call $HK$ the product o
 
 ### Examples
 
-- In $(\mathbb{Z}, +)$, the product $4\mathbb{Z} + 6\mathbb{Z}$ is the subgroup $2\mathbb{Z}$, as [[this example|~2a781943]] shows.
-- In $S_3$, the product of $A_3 = \{e, (1\,2\,3), (1\,3\,2)\}$ and $\{e, (1\,2)\}$ is all of $S_3$, as [[this example|~0a686383]] shows. Here $A_3$ is normal in $S_3$.
+- In $(\mathbb{Z}, +)$, the product $4\mathbb{Z} + 6\mathbb{Z}$ is the subgroup $2\mathbb{Z}$, as [[this example|7X800QZG9D]] shows.
+- In $S_3$, the product of $A_3 = \{e, (1\,2\,3), (1\,3\,2)\}$ and $\{e, (1\,2)\}$ is all of $S_3$, as [[this example|Y99CMM73CP]] shows. Here $A_3$ is normal in $S_3$.
 - In $(\mathbb{R}^2, +)$, let $L_1$ and $L_2$ be two different lines through the origin. Then $L_1 + L_2 = \mathbb{R}^2$, because two vectors that are not parallel span the plane.
 - If $K \subseteq H$, then $HK = H$. Each $hk$ is in $H$, and each $h = he$ is in $HK$.
 - In an [[abelian group|082GHNPJ53]], $hk = kh$ for all $h$ and $k$. Thus $HK = KH$, and $HK$ is a subgroup.
 
 ### Non-examples
 
-- In $S_3$, let $H = \{e, (1\,2)\}$ and $K = \{e, (1\,3)\}$. Then $HK$ has $4$ elements, and $4$ does not divide $6$. Thus $HK$ is not a subgroup, as [[this example|~f7dae73a]] shows.
+- In $S_3$, let $H = \{e, (1\,2)\}$ and $K = \{e, (1\,3)\}$. Then $HK$ has $4$ elements, and $4$ does not divide $6$. Thus $HK$ is not a subgroup, as [[this example|384NXXMEY9]] shows.
 - In the [[alternating group|0Z5905Q73D]] $A_4$, let $H = \langle (1\,2\,3) \rangle$ and $K = \langle (1\,2\,4) \rangle$. Then $H \cap K = \{e\}$, so $HK$ has $3 \cdot 3 / 1 = 9$ elements. The number $9$ does not divide $12$, so $HK$ is not a subgroup.
 
 ### Basic properties
@@ -117,7 +117,7 @@ Check $HK = KH$, or find a normal factor, before you use $HK$ as a subgroup.
 
 Two subgroups with $HK = KH$ are called permutable.
 A subgroup that is permutable with each subgroup of $G$ is a quasinormal subgroup, and each normal subgroup is quasinormal.
-The set $HK$ is the [[double coset|~d8f44326]] $HeK$.
+The set $HK$ is the [[double coset|DSBE321XMS]] $HeK$.
 The size of each double coset $HgK$ is the size of the product of $H$ and $gKg^{-1}$.
 When $G = HK$ and $H \cap K = \{e\}$, each element of $G$ is a unique product $hk$.
 This is the starting point of the [[semidirect product|0H3WZXCZNF]] when one factor is normal, and of the Zappa-Szép product in general.

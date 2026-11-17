@@ -34,10 +34,10 @@ The converse of Lagrange's theorem is false, and the last pages study when it ho
 13. [[A4 has no subgroup of order 6|0PDBVPP233]]: the converse of Lagrange's theorem fails.
 14. [[Product of two subgroups|0PT52XQZD7]]: the set $HK$, and when it is a subgroup.
 15. [[Product formula|08PY4GNAPK]]: $|HK| = |H| \cdot |K| / |H \cap K|$.
-16. [[Double coset|~d8f44326]]: the sets $HgK$, which can have different sizes.
-17. [[Transversal of a subgroup|~f92388d9]]: a set with one element from each coset.
-18. [[Poincaré's theorem|~e932864a]]: intersections of subgroups of finite index, and normal subgroups inside them.
-19. [[CLT group|~d0e7afc6]]: the finite groups for which the converse of Lagrange's theorem holds.
+16. [[Double coset|DSBE321XMS]]: the sets $HgK$, which can have different sizes.
+17. [[Transversal of a subgroup|QQVCDZX300]]: a set with one element from each coset.
+18. [[Poincaré's theorem|W0SW2ATN1Y]]: intersections of subgroups of finite index, and normal subgroups inside them.
+19. [[CLT group|Y9CB5P4YCS]]: the finite groups for which the converse of Lagrange's theorem holds.
 
 ### Prerequisites
 

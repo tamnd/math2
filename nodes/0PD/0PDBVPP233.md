@@ -6,7 +6,7 @@ aliases: [converse-of-lagranges-theorem-fails-for-the-alternating-group-a4]
 msc: ["20D60"]
 topics: [1VHQWXC64D]
 audience: ug1
-uses: [0Z5905Q73D, 0515A6D2Y1, 0X1JXT47GA, 3C53TD, 03DEH43F4H, 0DTXBQPA2S, 0V547YQRMV, 0CB0DX5BVV, 0PMRQJVTME, 0JM7PA288B, 082GHNPJ53, AWWM9RWETX, ~d0e7afc6]
+uses: [0Z5905Q73D, 0515A6D2Y1, 0X1JXT47GA, 3C53TD, 03DEH43F4H, 0DTXBQPA2S, 0V547YQRMV, 0CB0DX5BVV, 0PMRQJVTME, 0JM7PA288B, 082GHNPJ53, AWWM9RWETX, Y9CB5P4YCS]
 sources:
   - url: https://en.wikipedia.org/wiki/Lagrange's_theorem_(group_theory)
     locator: Existence of subgroups of given order
@@ -54,7 +54,7 @@ The converse of Lagrange's theorem holds in these cases.
 - [[Cauchy's theorem|0JM7PA288B]]: for each prime $p$ that divides $|G|$, there is a subgroup of order $p$.
 - The [[Sylow theorems|FESTJ0K9TX]]: for each prime power $p^k$ that divides $|G|$, there is a subgroup of order $p^k$.
 - Each finite [[abelian group|082GHNPJ53]] has a subgroup of each order that divides $|G|$.
-- Each finite [[supersolvable group|AWWM9RWETX]] has a subgroup of each order that divides $|G|$. Groups with this property are called [[CLT groups|~d0e7afc6]].
+- Each finite [[supersolvable group|AWWM9RWETX]] has a subgroup of each order that divides $|G|$. Groups with this property are called [[CLT groups|Y9CB5P4YCS]].
 
 ### How the example sits among small groups
 

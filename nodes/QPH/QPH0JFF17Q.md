@@ -1,11 +1,11 @@
 ---
-tag: ~8b0e9762
+tag: QPH0JFF17Q
 kind: example
 name: S3 is a CLT group
 msc: ["20D60"]
 topics: [1VHQWXC64D]
 audience: ug2
-instance_of: [~d0e7afc6]
+instance_of: [Y9CB5P4YCS]
 uses: [0515A6D2Y1, 0X1JXT47GA, 0B85S2V2DR, 0Z05VCBQ7Y, 02DTRYKGE8, 0Z5905Q73D]
 sources:
   - url: https://en.wikipedia.org/wiki/Lagrange%27s_theorem_(group_theory)
@@ -17,7 +17,7 @@ sources:
 Let $S_3$ be the [[symmetric group|0515A6D2Y1]] of the permutations of $\{1, 2, 3\}$, with identity $e$.
 Permutations compose from right to left.
 The group $S_3$ has the six elements $e$, $(1\,2)$, $(1\,3)$, $(2\,3)$, $(1\,2\,3)$ and $(1\,3\,2)$, so its [[order|0B85S2V2DR]] is $6$.
-The group $S_3$ is a [[CLT group|~d0e7afc6]]: it has a [[subgroup|0X1JXT47GA]] of each order that divides $6$.
+The group $S_3$ is a [[CLT group|Y9CB5P4YCS]]: it has a [[subgroup|0X1JXT47GA]] of each order that divides $6$.
 
 1. The divisors of $6$ are $1$, $2$, $3$ and $6$.
 2. Order $1$: the subgroup $\{e\}$ has $1$ element.
@@ -32,7 +32,7 @@ The group $S_3$ is a [[CLT group|~d0e7afc6]]: it has a [[subgroup|0X1JXT47GA]] o
 The example shows that a nonabelian group can be CLT.
 The full list of subgroups of $S_3$ is $\{e\}$, the three subgroups $\{e, (1\,2)\}$, $\{e, (1\,3)\}$ and $\{e, (2\,3)\}$, then $A_3$ and $S_3$.
 Thus $S_3$ has one subgroup of order $3$, but three subgroups of order $2$.
-For $n = 4$, the group $S_4$ is also CLT, as [[this example|~9e55551c]] shows.
+For $n = 4$, the group $S_4$ is also CLT, as [[this example|6WG1EF772J]] shows.
 For $n \ge 5$, the group $S_n$ is not solvable, so it is not CLT.
 The other group of order $6$ is the cyclic group $\mathbb{Z}/6\mathbb{Z}$, and it is also CLT.
 

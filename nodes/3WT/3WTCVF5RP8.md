@@ -1,5 +1,5 @@
 ---
-tag: ~8fba9792
+tag: 3WTCVF5RP8
 kind: example
 name: Cosets of a line through the origin in the plane
 msc: ["20A05"]

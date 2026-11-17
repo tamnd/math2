@@ -61,14 +61,14 @@ An element $g$ of a coset $C$ is a representative of $C$, because $C = gH$ for e
 ### Examples
 
 - In $(\mathbb{Z}, +)$, the cosets of $3\mathbb{Z}$ are $3\mathbb{Z}$, $1 + 3\mathbb{Z}$ and $2 + 3\mathbb{Z}$, as [[this example|BM4VXG92DT]] shows. The remainder of $n$ after division by $3$ tells which coset contains $n$.
-- In $(\mathbb{R}^2, +)$, the cosets of a line through the origin are the lines parallel to it, as [[this example|~8fba9792]] shows.
+- In $(\mathbb{R}^2, +)$, the cosets of a line through the origin are the lines parallel to it, as [[this example|3WTCVF5RP8]] shows.
 - In the [[symmetric group|0515A6D2Y1]] $S_3$, the subgroup $H = \{e, (1\,2)\}$ has the three left cosets $H$, $\{(1\,3), (1\,2\,3)\}$ and $\{(2\,3), (1\,3\,2)\}$, as [[this example|6VFF2TTXYZ]] shows.
 - In each group $G$, the subgroup $\{e\}$ has the cosets $\{g\}$, one for each $g \in G$. The subgroup $G$ has the single coset $G$.
 - In the [[circle group|04EAFVFTF7]] $\{z \in \mathbb{C} : |z| = 1\}$, the subgroup $\{1, -1\}$ has the cosets $\{z, -z\}$. Each coset is a pair of opposite points of the circle.
 
 ### Non-examples
 
-- In $\mathbb{Z}/4\mathbb{Z}$, the set $\{1, 2\}$ is a translate of the subset $S = \{0, 1\}$, but it is not a coset of any subgroup. The only subgroup of order $2$ is $\{0, 2\}$, and its cosets are $\{0, 2\}$ and $\{1, 3\}$. [[This example|~0ae0cc90]] shows that the translates of $S$ overlap.
+- In $\mathbb{Z}/4\mathbb{Z}$, the set $\{1, 2\}$ is a translate of the subset $S = \{0, 1\}$, but it is not a coset of any subgroup. The only subgroup of order $2$ is $\{0, 2\}$, and its cosets are $\{0, 2\}$ and $\{1, 3\}$. [[This example|94SNG0EQQZ]] shows that the translates of $S$ overlap.
 - In $\mathbb{Z}$, the set $3\mathbb{Z} \cup (1 + 3\mathbb{Z})$ is not a coset of any subgroup. A coset that contains $0$ is a subgroup $m\mathbb{Z}$. This set also contains $1$, so $m = 1$ and the coset is $\mathbb{Z}$. But $2$ is not in the set.
 - In $S_3$, the set $\{e, (1\,2\,3)\}$ is not a coset of any subgroup. A coset $gK$ that contains $e$ is equal to $eK = K$, so the set would be a subgroup. But $(1\,2\,3)^2 = (1\,3\,2)$ is not in the set.
 
@@ -134,4 +134,4 @@ In geometry, $G/H$ is a homogeneous space, for example the sphere $SO(3)/SO(2)$.
 
 When $H$ is a [[normal subgroup|0CB0DX5BVV]], the product $(aH)(bH) = abH$ is well defined, and $G/H$ is the [[quotient group|0KYX2N69J0]].
 The same construction gives the residue classes of a ring modulo an ideal and the quotient of a vector space by a subspace.
-Two-sided versions of cosets, the [[double cosets|~d8f44326]] $HgK$, are the orbits of $H \times K$ on $G$.
+Two-sided versions of cosets, the [[double cosets|DSBE321XMS]] $HgK$, are the orbits of $H \times K$ on $G$.

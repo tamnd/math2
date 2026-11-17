@@ -1,5 +1,5 @@
 ---
-tag: ~5cdec4c2
+tag: JBQNPAZKWA
 kind: example
 name: Index of nZ in Z
 msc: ["20A05"]

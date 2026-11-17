@@ -1,11 +1,11 @@
 ---
-tag: ~ebff7c1a
+tag: PX5RE6Q14T
 kind: proof
 name: Proof of Poincaré's theorem on subgroups of finite index
 msc: ["20A05"]
 topics: [1VHQWXC64D]
 audience: ug2
-proves: ~e932864a
+proves: W0SW2ATN1Y
 uses: [G5S1M9, 0X1JXT47GA, 03DEH43F4H, 0DTXBQPA2S, 0ZTGMDNVTB, 0AZG100DKH, 0JYTG5K9Y4, 0W88CEGQP1, 0C9ZKYSPYR, 0CXXJNG5B6, 0PCKBBMEXC, 3C53TD, 0ZQJ7KEFQ5]
 methods: [0NTF6DMVAP]
 sources:

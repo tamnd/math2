@@ -1,5 +1,5 @@
 ---
-tag: ~d8f44326
+tag: DSBE321XMS
 kind: concept
 name: Double coset
 msc: ["20A05"]
@@ -52,15 +52,15 @@ In this site the subgroup on the left acts by left multiplication and the subgro
 
 ### Examples
 
-- In the [[symmetric group|0515A6D2Y1]] $S_3$ with $H = K = \{e, (1\,2)\}$, there are two double cosets, $H$ and $\{(1\,3), (2\,3), (1\,2\,3), (1\,3\,2)\}$. They have $2$ and $4$ elements, as [[this example|~21603e76]] shows.
-- In $(\mathbb{Z}, +)$ with $H = 4\mathbb{Z}$ and $K = 6\mathbb{Z}$, the double cosets are $g + 4\mathbb{Z} + 6\mathbb{Z} = g + 2\mathbb{Z}$. Thus they are the two cosets of $2\mathbb{Z}$, as [[this example|~31b824d0]] shows.
+- In the [[symmetric group|0515A6D2Y1]] $S_3$ with $H = K = \{e, (1\,2)\}$, there are two double cosets, $H$ and $\{(1\,3), (2\,3), (1\,2\,3), (1\,3\,2)\}$. They have $2$ and $4$ elements, as [[this example|D503Z9CPJ3]] shows.
+- In $(\mathbb{Z}, +)$ with $H = 4\mathbb{Z}$ and $K = 6\mathbb{Z}$, the double cosets are $g + 4\mathbb{Z} + 6\mathbb{Z} = g + 2\mathbb{Z}$. Thus they are the two cosets of $2\mathbb{Z}$, as [[this example|JSBGW6P7CH]] shows.
 - If $K = \{e\}$, then $HgK = Hg$, and the double cosets are the right cosets of $H$. If $H = \{e\}$, they are the left cosets $gK$.
 - If $H = G$, then $HgK = G$ for each $g$, because $hgk$ runs through all of $G$ when $h$ runs through $G$. There is one double coset.
 - In the [[general linear group|0FCHE902D7]] $GL_n(F)$ over a field $F$, let $B$ be the subgroup of invertible upper triangular matrices. The [[Bruhat decomposition|T91E86D0RH]] says that the double cosets $BwB$, for the $n!$ permutation matrices $w$, are all the $(B, B)$ double cosets.
 
 ### Non-examples
 
-- In $S_3$ with $H = \{e, (1\,2)\}$, the left coset $(1\,3)H = \{(1\,3), (1\,2\,3)\}$ is not an $(H, H)$ double coset. It is a proper subset of the double coset $H(1\,3)H$, as [[this example|~dc15ba66]] shows.
+- In $S_3$ with $H = \{e, (1\,2)\}$, the left coset $(1\,3)H = \{(1\,3), (1\,2\,3)\}$ is not an $(H, H)$ double coset. It is a proper subset of the double coset $H(1\,3)H$, as [[this example|S6XAS4GBV8]] shows.
 - A right coset $Hg$ is in general not an $(H, H)$ double coset, for the same reason. It is one when $g$ normalises $H$, that is, when $gHg^{-1} = H$.
 
 ### Basic properties

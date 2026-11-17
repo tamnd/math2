@@ -1,12 +1,12 @@
 ---
-tag: ~31b824d0
+tag: JSBGW6P7CH
 kind: example
 name: Double cosets of 4Z and 6Z in the integers
 msc: ["20A05"]
 topics: [1VHQWXC64D]
 audience: grad
-instance_of: [~d8f44326]
-uses: [0C4JS9RF5M, 0X1JXT47GA, ~d8f44326, 0PT52XQZD7, ~2a781943, 082GHNPJ53, 03DEH43F4H, 0NE1DK7H4T]
+instance_of: [DSBE321XMS]
+uses: [0C4JS9RF5M, 0X1JXT47GA, DSBE321XMS, 0PT52XQZD7, 7X800QZG9D, 082GHNPJ53, 03DEH43F4H, 0NE1DK7H4T]
 sources:
   - url: https://en.wikipedia.org/wiki/Double_coset
     locator: Properties
@@ -16,10 +16,10 @@ sources:
 
 Let $G = (\mathbb{Z}, +)$ be the [[integers|0C4JS9RF5M]] with addition.
 Let $H = 4\mathbb{Z}$ and $K = 6\mathbb{Z}$ be the [[subgroups|0X1JXT47GA]] of multiples of $4$ and of multiples of $6$.
-In additive notation, the $(H, K)$ [[double coset|~d8f44326]] of $g$ is $H + g + K = \{h + g + k : h \in H, k \in K\}$.
+In additive notation, the $(H, K)$ [[double coset|DSBE321XMS]] of $g$ is $H + g + K = \{h + g + k : h \in H, k \in K\}$.
 
 1. Addition is commutative, so $H + g + K = g + (H + K)$.
-2. The [[product|0PT52XQZD7]] $H + K$ is $2\mathbb{Z}$, by [[this example|~2a781943]].
+2. The [[product|0PT52XQZD7]] $H + K$ is $2\mathbb{Z}$, by [[this example|7X800QZG9D]].
 3. Thus $H + g + K = g + 2\mathbb{Z}$, the coset of $2\mathbb{Z}$ that contains $g$.
 4. For $g$ even this is $2\mathbb{Z}$, and for $g$ odd it is $1 + 2\mathbb{Z}$.
 

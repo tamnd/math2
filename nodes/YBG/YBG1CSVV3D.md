@@ -50,7 +50,7 @@ These moves give all the pairs with a given product, so each element of $HK$ is 
 
 ## Variants
 
-A [[second proof|~2bee9c8c]] writes $HK$ as a union of left cosets $hK$ and counts these cosets with Lagrange's theorem.
+A [[second proof|BEYJE2N47J]] writes $HK$ as a union of left cosets $hK$ and counts these cosets with Lagrange's theorem.
 A third proof uses the action of $H \times K$ on $G$ by $(h, k) \cdot g = hgk^{-1}$.
 The orbit of $e$ is $HK$, and the stabiliser of $e$ is isomorphic to $H \cap K$.
 The [[orbit-stabiliser theorem|0E2HSCKZ6C]] then gives the formula.

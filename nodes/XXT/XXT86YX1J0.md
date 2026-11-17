@@ -1,12 +1,12 @@
 ---
-tag: ~7bb37731
+tag: XXT86YX1J0
 kind: example
 name: A5 is not a CLT group
 msc: ["20D60", "20D06"]
 topics: [1VHQWXC64D]
 audience: ug2
 not_instance_of:
-  - target: ~d0e7afc6
+  - target: Y9CB5P4YCS
     note: the order 60 of A5 is divisible by 30, but A5 has no subgroup of order 30
 uses: [0Z5905Q73D, 0X1JXT47GA, 0B85S2V2DR, 03DEH43F4H, 0DTXBQPA2S, 0Z05VCBQ7Y, 3C53TD]
 sources:
@@ -19,7 +19,7 @@ sources:
 Let $A_5$ be the [[alternating group|0Z5905Q73D]] of the even permutations of $\{1, 2, 3, 4, 5\}$, with identity $e$.
 Permutations compose from right to left.
 The [[order|0B85S2V2DR]] of $A_5$ is $5!/2 = 60$, and $30$ divides $60$.
-But $A_5$ has no [[subgroup|0X1JXT47GA]] of order $30$, so $A_5$ is not a [[CLT group|~d0e7afc6]].
+But $A_5$ has no [[subgroup|0X1JXT47GA]] of order $30$, so $A_5$ is not a [[CLT group|Y9CB5P4YCS]].
 
 1. Assume that $H$ is a subgroup of $A_5$ of order $30$.
 2. By [[Lagrange's theorem|3C53TD]], the [[index|0DTXBQPA2S]] of $H$ is $60/30 = 2$.

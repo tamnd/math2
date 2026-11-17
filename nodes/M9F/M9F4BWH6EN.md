@@ -1,5 +1,5 @@
 ---
-tag: ~69d7e9da
+tag: M9F4BWH6EN
 kind: example
 name: A right coset of {e, (1 2)} in S3 that is not a left coset of it
 msc: ["20B30"]

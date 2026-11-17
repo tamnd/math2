@@ -38,7 +38,7 @@ The group $G$ can be infinite, and $HK$ need not be a subgroup.
 - In $S_4$, let $P$ be a subgroup of order $8$. Then $|A_4 \cap P| \ge 12 \cdot 8 / 24 = 4$. By [[Lagrange's theorem|3C53TD]], $|A_4 \cap P|$ divides $12$ and $8$, so it divides $4$ and is equal to $4$.
 - In $S_4$, two different subgroups of order $8$ meet in a subgroup of order at least $64 / 24 > 2$. This order divides $8$ and is less than $8$, so it is $4$.
 - If $|H|$ and $|K|$ are coprime, then $H \cap K = \{e\}$ by Lagrange's theorem, and $|HK| = |H| \, |K|$.
-- If $G$ is finite, $H \cap K = \{e\}$ and $|H| \, |K| = |G|$, then $HK = G$, and each element of $G$ is a product $hk$ in exactly one way. For example, $S_3 = A_3 \langle (1\,2) \rangle$, as [[this example|~0a686383]] shows.
+- If $G$ is finite, $H \cap K = \{e\}$ and $|H| \, |K| = |G|$, then $HK = G$, and each element of $G$ is a product $hk$ in exactly one way. For example, $S_3 = A_3 \langle (1\,2) \rangle$, as [[this example|Y99CMM73CP]] shows.
 - The formula is one step in the proof that [[$A_4$ has no subgroup of order $6$|0PDBVPP233]].
 
 ### Converse
@@ -52,10 +52,10 @@ In $S_4$, the product of $\langle (1\,2) \rangle$ and $\langle (1\,3) \rangle$ h
 
 ### Generalizations
 
-- For any subgroups $H$ and $K$, the set $HK$ is the disjoint union of $[H : H \cap K]$ left cosets of $K$. Thus $|HK| = [H : H \cap K] \cdot |K|$ as cardinal numbers. The [[proof by cosets|~2bee9c8c]] shows this.
+- For any subgroups $H$ and $K$, the set $HK$ is the disjoint union of $[H : H \cap K]$ left cosets of $K$. Thus $|HK| = [H : H \cap K] \cdot |K|$ as cardinal numbers. The [[proof by cosets|BEYJE2N47J]] shows this.
 - If $HK$ is a subgroup, the same fact gives $[HK : K] = [H : H \cap K]$. When $K$ is normal, this is a part of the [[second isomorphism theorem|0PPP2J2DJV]].
-- For $g \in G$, the [[double coset|~d8f44326]] $HgK$ has $|H| \, |K| / |H \cap gKg^{-1}|$ elements. The reason is that $HgK = (H \cdot gKg^{-1})g$, and $gKg^{-1}$ has $|K|$ elements.
-- For subgroups of finite index, $[G : H \cap K] \le [G : H] \cdot [G : K]$, by [[Poincaré's theorem|~e932864a]].
+- For $g \in G$, the [[double coset|DSBE321XMS]] $HgK$ has $|H| \, |K| / |H \cap gKg^{-1}|$ elements. The reason is that $HgK = (H \cdot gKg^{-1})g$, and $gKg^{-1}$ has $|K|$ elements.
+- For subgroups of finite index, $[G : H \cap K] \le [G : H] \cdot [G : K]$, by [[Poincaré's theorem|W0SW2ATN1Y]].
 
 ## Explanations
 

@@ -1,14 +1,14 @@
 ---
-tag: ~dc15ba66
+tag: S6XAS4GBV8
 kind: example
 name: A left coset in S3 that is not a double coset
 msc: ["20A05"]
 topics: [1VHQWXC64D]
 audience: grad
 not_instance_of:
-  - target: ~d8f44326
+  - target: DSBE321XMS
     note: "the left coset (1 3)H is a proper subset of the double coset H(1 3)H, so it is not an (H, H) double coset"
-uses: [0515A6D2Y1, 0X1JXT47GA, 03DEH43F4H, ~d8f44326, 08QMKTWF9T, 0CB0DX5BVV]
+uses: [0515A6D2Y1, 0X1JXT47GA, 03DEH43F4H, DSBE321XMS, 08QMKTWF9T, 0CB0DX5BVV]
 sources:
   - url: https://en.wikipedia.org/wiki/Double_coset
     locator: Definition
@@ -19,7 +19,7 @@ sources:
 Let $G = S_3$ be the [[symmetric group|0515A6D2Y1]], and compose permutations from right to left.
 Let $H = \{e, (1\,2)\}$, a [[subgroup|0X1JXT47GA]] of order $2$.
 Let $C = (1\,3)H$ be the [[left coset|03DEH43F4H]] of $(1\,3)$.
-We show that $C$ is not an $(H, H)$ [[double coset|~d8f44326]].
+We show that $C$ is not an $(H, H)$ [[double coset|DSBE321XMS]].
 
 1. We have $C = \{(1\,3), (1\,3)(1\,2)\} = \{(1\,3), (1\,2\,3)\}$.
 2. Suppose that $C = HgH$ for some $g \in S_3$.

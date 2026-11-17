@@ -1,5 +1,5 @@
 ---
-tag: ~2bee9c8c
+tag: BEYJE2N47J
 kind: proof
 name: Proof of the product formula for the order of HK by counting cosets
 msc: ["20D60"]

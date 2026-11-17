@@ -1,5 +1,5 @@
 ---
-tag: ~0ae0cc90
+tag: 94SNG0EQQZ
 kind: example
 name: The translates of {0, 1} in Z/4Z are not cosets
 msc: ["20A05"]
