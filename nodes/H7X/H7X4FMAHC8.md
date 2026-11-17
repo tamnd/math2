@@ -1,0 +1,63 @@
+---
+tag: H7X4FMAHC8
+kind: example
+name: Irrational a and b with a to the power b rational, by construction
+msc: ["00A35", "11J72"]
+topics: [958EF46EYJ]
+audience: ug1
+instance_of: [01XM7JEKHY]
+not_instance_of:
+  - target: JZQVJ9XT63
+    note: the proof names the pair a = sqrt(2), b = log_2 9 and checks it, so it is constructive
+uses: [01XM7JEKHY, 0DZGSDHD92, 8V5FDX9562, 0V948DE5KA]
+sources:
+  - url: https://en.wikipedia.org/wiki/Constructive_proof
+    locator: lead section
+  - url: https://en.wikipedia.org/wiki/Irrational_number
+    locator: lead section
+---
+
+## Example
+
+Statement: there are irrational numbers $a$ and $b$ such that $a^b$ is rational.
+We give a [[constructive proof|01XM7JEKHY]] with an explicit pair.
+
+1. Let $a = \sqrt{2}$ and $b = \log_2 9$.
+2. The number $a$ is irrational; see [[irrationality of the square root of 2|0DZGSDHD92]].
+3. By the [[logarithm of a power|0V948DE5KA]], $b = \log_2 3^2 = 2 \log_2 3$.
+4. The number $\log_2 3$ is irrational; see [[the logarithm of 3 to base 2 is irrational|8V5FDX9562]]. If $b = \frac{p}{q}$ were rational, then $\log_2 3 = \frac{p}{2q}$ would be rational. So $b$ is irrational.
+5. Compute: $a^b = \left(2^{1/2}\right)^{2 \log_2 3} = 2^{\log_2 3} = 3$.
+6. So $a$ and $b$ are irrational, and $a^b = 3$ is rational.
+
+## Remarks
+
+This proof is not a [[non-constructive existence proof|JZQVJ9XT63]]: it names the pair and checks each property.
+Compare it with [[the proof by cases that some irrational power is rational|7X8GT7Y5WY]], which uses $\sqrt{2}^{\sqrt{2}}$ and does not decide which of two pairs works.
+The constructive proof costs more work, since it needs the irrationality of $\log_2 3$.
+The proof by cases needs only the irrationality of $\sqrt{2}$.
+
+The same idea gives many pairs: for any integer $m \geq 2$ that is not a power of $2$, the pair $a = \sqrt{2}$, $b = 2 \log_2 m$ has $a^b = m$.
+
+## Explanations
+
+### L1 human
+
+A root such as $\sqrt{2}$ is not a fraction.
+A logarithm such as $\log_2 9$, the power of $2$ that gives $9$, is not a fraction either.
+Put them together: $\sqrt{2}$ raised to the power $\log_2 9$ is exactly $3$.
+So two numbers that are not fractions can combine to give a whole number.
+The proof names both numbers, so anyone can check the claim.
+
+### L2 human
+
+We check step 5 with the rules of exponents, which hold for a positive base.
+
+1. $\sqrt{2} = 2^{1/2}$.
+2. $\left(2^{1/2}\right)^{b} = 2^{b/2}$, by the rule $(x^r)^s = x^{rs}$ for $x > 0$.
+3. $\frac{b}{2} = \log_2 3$, by step 3 of the example.
+4. $2^{\log_2 3} = 3$, because $\log_2$ is the inverse of the function $t \mapsto 2^t$.
+
+The typical use: a logarithm undoes a power, so a power with a logarithm in the exponent can often be computed exactly.
+
+A trap: the rule $(x^r)^s = x^{rs}$ fails for negative bases, for example $\left((-1)^2\right)^{1/2} = 1$ but $(-1)^{2 \cdot 1/2} = -1$.
+Here the base $2$ is positive, so the rule applies.
