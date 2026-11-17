@@ -38,7 +38,7 @@ The theorem does not say that $L$ itself is regular: $\set{a^n b^n}$ is not.
 ### L1 human
 
 If one only counts how many times each letter occurs, and forgets the order, a context-free language looks just like a regular one.
-The nesting that makes context-free languages more powerful is invisible to letter counts.
+The nesting that makes context-free languages more expressive is invisible to letter counts.
 For instance, the words $a^n b^n$ and the words $(ab)^n$ have the same letter counts.
 The possible letter counts always form a finite union of simple arithmetic patterns.
 
