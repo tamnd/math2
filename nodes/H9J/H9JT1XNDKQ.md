@@ -54,9 +54,9 @@ Some books write $(-1)^n$ for the parity of $n$, which is $1$ for even $n$ and $
 
 ### Non-examples
 
-- An even count does not prove existence. The $4 \times 4$ board without two opposite corners has $14$ cells, an even number, and still has no domino tiling. Parity gives no information here, as [[this example|JW87PBD98X]] shows, and a [[coloring proof|90Q4PK1CST]] is needed.
+- An even count does not prove existence. The $4 \times 4$ board without two opposite corners has $14$ cells, an even number, and still has no domino tiling. Parity gives no information here, as [[this example|JW87PBD98X]] shows, and a [[colouring proof|90Q4PK1CST]] is needed.
 - A quantity that changes its parity in an irregular way gives no argument. If a move can add $1$ or $2$ to a counter, the parity of the counter can take both values, and parity alone decides nothing.
-- A problem whose answer depends on a residue modulo $3$ or modulo $4$ is beyond parity. An example is the tiling of the $10 \times 10$ board by $1 \times 4$ bars: the number of cells is $100$, an even number and a multiple of $4$, and a coloring with four colors is needed.
+- A problem whose answer depends on a residue modulo $3$ or modulo $4$ is beyond parity. An example is the tiling of the $10 \times 10$ board by $1 \times 4$ bars: the number of cells is $100$, an even number and a multiple of $4$, and a colouring with four colours is needed.
 
 ### Basic properties
 
@@ -115,7 +115,7 @@ A parity argument is a homomorphism to the group $\mathbb{Z}/2\mathbb{Z}$.
 The quantity $Q$ takes values in an abelian group, and the allowed moves act by adding elements of a subgroup $H$.
 The target is impossible when it lies outside the coset of the start modulo $H$.
 Parity is the case where the group is $\mathbb{Z}$ and the obstruction is detected in the quotient $\mathbb{Z}/2\mathbb{Z}$.
-Larger quotients, such as $\mathbb{Z}/n\mathbb{Z}$ and the colorings of [[coloring proofs|90Q4PK1CST]], detect finer obstructions.
+Larger quotients, such as $\mathbb{Z}/n\mathbb{Z}$ and the colourings of [[colouring proofs|90Q4PK1CST]], detect finer obstructions.
 
 The same pattern appears in many fields.
 The sign homomorphism from the symmetric group to $\{1, -1\}$ gives the alternating group and the theory of determinants.
