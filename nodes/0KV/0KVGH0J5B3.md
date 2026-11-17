@@ -64,8 +64,8 @@ Cyclic groups also appear inside every group: each element $g$ of any group gene
 ### Non-examples
 
 1. The [[Klein four-group is abelian but not cyclic|DX6X1D21FE]]: each element generates a subgroup with at most $2$ elements.
-2. The group $(\mathbb{Q}, +)$ is [[not cyclic|~b8d64d52]], although each finitely generated subgroup of it is cyclic.
-3. The group [[$\mathbb{Z} \times \mathbb{Z}$ is not cyclic|~fac25186]], although two elements generate it.
+2. The group $(\mathbb{Q}, +)$ is [[not cyclic|E1EFH8EV3G]], although each finitely generated subgroup of it is cyclic.
+3. The group [[$\mathbb{Z} \times \mathbb{Z}$ is not cyclic|VH8C6HD8KP]], although two elements generate it.
 4. The [[symmetric group|0515A6D2Y1]] $S_3$ is not cyclic, because it is not [[abelian|082GHNPJ53]] and [[cyclic groups are abelian|04RG02S6BA]].
 5. The group $(\mathbb{Z}/8\mathbb{Z})^\times = \{1, 3, 5, 7\}$ under multiplication is not cyclic: $x^2 \equiv 1 \pmod 8$ for each of its $4$ elements.
 

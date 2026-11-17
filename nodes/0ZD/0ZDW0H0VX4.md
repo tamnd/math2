@@ -41,15 +41,15 @@ In additive notation, the condition is $ng = 0$ for all $g \in G$.
 ### Examples
 
 1. The cyclic group $\mathbb{Z}/n\mathbb{Z}$ has exponent $n$. Every element satisfies $n \cdot g = 0$, and the element $1$ has order $n$, so no smaller positive integer works.
-2. [[The symmetric group $S_3$ has exponent $6$|~b0c1e267]]. Its element orders are $1, 2, 3$, and $\operatorname{lcm}(1, 2, 3) = 6$, but no element has order $6$.
+2. [[The symmetric group $S_3$ has exponent $6$|F8N4YVHM3P]]. Its element orders are $1, 2, 3$, and $\operatorname{lcm}(1, 2, 3) = 6$, but no element has order $6$.
 3. The group $\mathbb{Z}/2\mathbb{Z} \times \mathbb{Z}/4\mathbb{Z}$ has order $8$ and exponent $4$. Every element satisfies $4(a, b) = (0, 0)$, and $(0, 1)$ has order $4$.
 4. The [[quaternion group|0NRJGW864D]] $Q_8$ has order $8$ and exponent $4$. The elements $\pm i, \pm j, \pm k$ have order $4$, the element $-1$ has order $2$, and $1$ has order $1$.
-5. [[An infinite direct product of copies of $\mathbb{Z}/2\mathbb{Z}$ has exponent $2$|~781c5713]]. So an infinite group can have a finite exponent.
+5. [[An infinite direct product of copies of $\mathbb{Z}/2\mathbb{Z}$ has exponent $2$|RXNBCYKGBS]]. So an infinite group can have a finite exponent.
 
 ### Non-examples
 
 1. The group $(\mathbb{Z}, +)$ has infinite exponent. The element $1$ has infinite order, so $n \cdot 1 = n \neq 0$ for every positive integer $n$.
-2. [[The Prüfer group has no finite exponent|~3e73c12d]], although each of its elements has finite order. Its element orders $p, p^2, p^3, \ldots$ have no common multiple.
+2. [[The Prüfer group has no finite exponent|B7ZR6PZJQA]], although each of its elements has finite order. Its element orders $p, p^2, p^3, \ldots$ have no common multiple.
 3. The group $\mathbb{Q}/\mathbb{Z}$ has infinite exponent. For each $n \geq 1$, the element $\tfrac{1}{n+1} + \mathbb{Z}$ has order $n + 1$, so $n$ times it is not $0$.
 
 ### Basic properties

@@ -35,4 +35,4 @@ So the exponent equals the order, and for a finite abelian group this means that
 ## Variants
 
 1. The proof can avoid the word exponent. Let $h \in G$ have the largest order $m$. By Lemma B in [[the proof of the theorem on exponent and order|PPPV7NMEB5]], every $g \in G$ satisfies $g^m = 1$. So the $n$ elements of $G$ are roots of $t^m - 1$, and $n \leq m$. Since $m = |\langle h \rangle| \leq n$, the element $h$ has order $n$, so $\langle h \rangle = G$.
-2. The [[counting proof|~0dc997aa]] does not use the theorem on exponent and order. It counts the elements of each order and compares the counts with the values of Euler's totient function.
+2. The [[counting proof|E2JV6XNN5F]] does not use the theorem on exponent and order. It counts the elements of each order and compares the counts with the values of Euler's totient function.

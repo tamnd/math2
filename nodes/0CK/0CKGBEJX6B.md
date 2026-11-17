@@ -46,7 +46,7 @@ For example, $\mathbb{R}^\times$ has no subgroup of order $3$.
 
 1. The theorem holds for an integral domain $R$ in place of $K$. The group $R^\times$ is a subgroup of the multiplicative group of the field of fractions of $R$.
 2. In a division ring $D$ of characteristic $p > 0$, every finite subgroup $G$ of $D^\times$ is cyclic. The set of sums of elements of $G$ with coefficients in $\mathbb{F}_p$ is a finite subring of $D$ without zero divisors, so it is a division ring. By [[Wedderburn's little theorem|0RRNVX1VKA]] it is a field, and the theorem applies.
-3. A finite group $G$ of order $n$ in which, for each $d \mid n$, at most $d$ elements satisfy $x^d = e$, is cyclic. The [[counting proof|~0dc997aa]] uses only this property.
+3. A finite group $G$ of order $n$ in which, for each $d \mid n$, at most $d$ elements satisfy $x^d = e$, is cyclic. The [[counting proof|E2JV6XNN5F]] uses only this property.
 
 ## Explanations
 
@@ -78,7 +78,7 @@ There is no known formula for a generator of $\mathbb{F}_p^\times$, and in pract
 The theorem is a statement about the polynomial ring $K[x]$: the bound on the number of roots holds because $K[x]$ is an integral domain with a division algorithm.
 There are two standard proofs.
 The [[exponent proof|A2VZWSBS4B]] shows that $\exp(G) = |G|$ and uses [[the theorem on exponent and order|0MC0AQZSHE]].
-The [[counting proof|~0dc997aa]] counts the elements of each order with Euler's totient function.
+The [[counting proof|E2JV6XNN5F]] counts the elements of each order with Euler's totient function.
 
 For a finite field $\mathbb{F}_q$, the theorem identifies $\mathbb{F}_q^\times$ with $\mathbb{Z}/(q-1)\mathbb{Z}$, but the isomorphism depends on a choice of generator.
 Computing this isomorphism, the [[discrete logarithm|0HJHYMGN3C]] problem, is believed to be hard for large $q$, and this is the basis of the [[Diffie-Hellman key exchange|01TKKESHSB]].

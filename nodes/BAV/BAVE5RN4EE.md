@@ -41,7 +41,7 @@ The topic ends with the exponent of a group, cyclic subgroups of the units of a 
 20. [[Exponent of a group|0ZDW0H0VX4]]: the least common multiple of the element orders.
 21. [[Finite abelian group is cyclic iff exponent equals order|0MC0AQZSHE]]: a test for cyclicity.
 22. [[Finite subgroups of the units of a field are cyclic|0CKGBEJX6B]]: an application to fields.
-23. [[Maximal subgroup|~1e0593e6]]: the proper subgroups that are as large as possible.
+23. [[Maximal subgroup|RTTRNQ4JYF]]: the proper subgroups that are as large as possible.
 24. [[Locally cyclic group|RXWA8TF2RM]]: groups in which finitely generated subgroups are cyclic.
 
 ### Prerequisites

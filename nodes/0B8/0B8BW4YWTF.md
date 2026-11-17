@@ -52,15 +52,15 @@ In this node we describe each Hasse diagram by the list of its covering relation
 ### Examples
 
 1. The subgroups of $(\mathbb{Z}, +)$ are the sets $n\mathbb{Z}$ with $n \geq 0$, by [[the classification of the subgroups of the integers|0SRATCFF1W]]. We have $m\mathbb{Z} \subseteq n\mathbb{Z}$ exactly when $n$ divides $m$. The meet is $m\mathbb{Z} \cap n\mathbb{Z} = \operatorname{lcm}(m, n)\mathbb{Z}$, and the join is $m\mathbb{Z} + n\mathbb{Z} = \gcd(m, n)\mathbb{Z}$.
-2. [[The lattice of subgroups of $\mathbb{Z}/12$|~5a3b5ce9]] has $6$ elements, one for each divisor of $12$, and it is [[distributive|0HM0HQCK6N]].
-3. [[The lattice of subgroups of $S_3$|~d0edf00c]] has $6$ elements: $\{e\}$, four subgroups of prime order, and $S_3$. It is [[modular|QX7WZ92QAK]] but not distributive.
-4. [[The lattice of subgroups of $D_4$|~bd61a465]] has $10$ elements, and it is not modular.
+2. [[The lattice of subgroups of $\mathbb{Z}/12$|VRWE6680J3]] has $6$ elements, one for each divisor of $12$, and it is [[distributive|0HM0HQCK6N]].
+3. [[The lattice of subgroups of $S_3$|96NRZTFGAA]] has $6$ elements: $\{e\}$, four subgroups of prime order, and $S_3$. It is [[modular|QX7WZ92QAK]] but not distributive.
+4. [[The lattice of subgroups of $D_4$|4P8GA2PJ37]] has $10$ elements, and it is not modular.
 5. The [[quaternion group|0NRJGW864D]] $Q_8 = \{\pm 1, \pm i, \pm j, \pm k\}$ has $6$ subgroups: $\{1\}$, $\{\pm 1\}$, $\langle i \rangle = \{\pm 1, \pm i\}$, $\langle j \rangle$, $\langle k \rangle$ and $Q_8$. The covering relations are $\{1\} \prec \{\pm 1\}$, $\{\pm 1\} \prec \langle i \rangle, \langle j \rangle, \langle k \rangle$, and $\langle i \rangle, \langle j \rangle, \langle k \rangle \prec Q_8$. Each subgroup is normal: $\{\pm 1\}$ is the [[centre|0DZ93493VN]], and the subgroups of order $4$ have index $2$. So the lattice is modular by basic property 4. It is not distributive: $\langle i \rangle \wedge (\langle j \rangle \vee \langle k \rangle) = \langle i \rangle$, but $(\langle i \rangle \wedge \langle j \rangle) \vee (\langle i \rangle \wedge \langle k \rangle) = \{\pm 1\}$.
 6. The [[Klein four-group|0PMRQJVTME]] $V = \{e, a, b, c\}$ has $5$ subgroups. The covering relations are $\{e\} \prec \langle a \rangle, \langle b \rangle, \langle c \rangle$ and $\langle a \rangle, \langle b \rangle, \langle c \rangle \prec V$.
 
 ### Non-examples
 
-1. [[The cyclic subgroups of the Klein four-group do not form a lattice|~5c428a06]]. Two of the subgroups of order $2$ have no upper bound among the cyclic subgroups.
+1. [[The cyclic subgroups of the Klein four-group do not form a lattice|230E77MKYX]]. Two of the subgroups of order $2$ have no upper bound among the cyclic subgroups.
 2. The proper subgroups of $S_3$ do not form a lattice under inclusion. The subgroups $\langle (1\,2) \rangle$ and $\langle (1\,3) \rangle$ have no common upper bound among them, because together they generate $S_3$.
 3. The lattice of subgroups is not a sublattice of the lattice of all subsets of $G$, because the join is not the union. In $\mathbb{Z}$, the set $2\mathbb{Z} \cup 3\mathbb{Z}$ is not a subgroup, since $2 + 3 = 5$ is in neither set. The join is $2\mathbb{Z} + 3\mathbb{Z} = \mathbb{Z}$.
 
@@ -140,5 +140,5 @@ The shape of $\operatorname{Sub}(G)$ carries information about $G$.
 By Ore's theorem, the lattice is distributive exactly when $G$ is locally cyclic.
 By the correspondence theorem, the lattice of a quotient $G/N$ is the interval above $N$.
 In Galois theory, the lattice of subgroups of a finite Galois group is the lattice of intermediate fields, with the order reversed.
-The subgroups that $G$ covers in the Hasse diagram are the [[maximal subgroups|~1e0593e6]].
+The subgroups that $G$ covers in the Hasse diagram are the [[maximal subgroups|RTTRNQ4JYF]].
 Their intersection is the [[Frattini subgroup|KXJG5VV340]], which controls the minimal number of generators of a finite $p$-group.

@@ -31,7 +31,7 @@ For $n = 0$ we get the trivial subgroup $\{0\}$, and for $n = 1$ we get $\mathbb
 By [[the classification of the subgroups of the integers|0SRATCFF1W]], every subgroup of $\mathbb{Z}$ is $n\mathbb{Z}$ for exactly one $n \geq 0$.
 For an integer $a$, the coset $a + 2\mathbb{Z}$ is the set $\{a + h : h \in 2\mathbb{Z}\}$.
 There are two cosets, $2\mathbb{Z}$ and $1 + 2\mathbb{Z}$, so the [[index|0DTXBQPA2S]] of $2\mathbb{Z}$ in $\mathbb{Z}$ is $2$.
-The set $1 + 2\mathbb{Z}$ of odd integers is [[not a subgroup|~7c7aac3c]].
+The set $1 + 2\mathbb{Z}$ of odd integers is [[not a subgroup|VN9H9H74KN]].
 
 ## Explanations
 

@@ -54,13 +54,13 @@ In additive notation the conditions are $0 \in H$, $a + b \in H$ and $-a \in H$.
 
 1. Each group $G$ has the trivial subgroup $\{e\}$ and the improper subgroup $G$. The three conditions hold because $ee = e$ and $e^{-1} = e$.
 2. For each integer $n \geq 0$, the set $n\mathbb{Z} = \{nk : k \in \mathbb{Z}\}$ is a subgroup of $(\mathbb{Z}, +)$. It contains $0 = n \cdot 0$, and $nk + nl = n(k + l)$ and $-(nk) = n(-k)$. The case $n = 2$ is [[the even integers|8WJPSS7TE9]].
-3. The [[special linear group|0V9PMN0RBH]] $SL_n(\mathbb{R})$ is a subgroup of the [[general linear group|0FCHE902D7]] $GL_n(\mathbb{R})$, because the determinant is multiplicative. The details are in [[the example of $SL_n$|~3e634450]].
+3. The [[special linear group|0V9PMN0RBH]] $SL_n(\mathbb{R})$ is a subgroup of the [[general linear group|0FCHE902D7]] $GL_n(\mathbb{R})$, because the determinant is multiplicative. The details are in [[the example of $SL_n$|PDX10T7N7Z]].
 4. The four rotations of a square by $0$, $90$, $180$ and $270$ degrees form a subgroup of the eight symmetries of the square. A rotation followed by a rotation is a rotation, and the inverse of a rotation is a rotation.
 5. The set $\{1, -1, i, -i\}$ is a subgroup of the multiplicative group $\mathbb{C}^\times$ of nonzero complex numbers. It contains $1$, the product of two of its elements is in it, and the inverses are $1, -1, -i, i$.
 
 ### Non-examples
 
-1. [[The odd integers|~7c7aac3c]] are not a subgroup of $(\mathbb{Z}, +)$. The identity $0$ is not odd, and $1 + 1 = 2$ is not odd.
+1. [[The odd integers|VN9H9H74KN]] are not a subgroup of $(\mathbb{Z}, +)$. The identity $0$ is not odd, and $1 + 1 = 2$ is not odd.
 2. The set $\mathbb{N} = \{0, 1, 2, \ldots\}$ is not a subgroup of $(\mathbb{Z}, +)$. It contains $0$ and it is closed under addition, but $-1 \notin \mathbb{N}$, so the inverse condition fails.
 3. In the [[symmetric group|0515A6D2Y1]] $S_3$, the set $\{e, (1\,2), (1\,3)\}$ is not a subgroup. It contains $e$ and the inverse of each of its elements, but $(1\,2)(1\,3) = (1\,3\,2)$ is not in it, so closure fails.
 4. The set $\mathbb{R}_{>0}$ of positive real numbers is a group under multiplication, but it is not a subgroup of $(\mathbb{R}, +)$. The operation of a subgroup must be the operation of $G$, and $\mathbb{R}_{>0}$ is not closed under $-a$.

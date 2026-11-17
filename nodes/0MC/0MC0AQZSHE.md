@@ -28,9 +28,9 @@ Let $G$ be a finite [[abelian group|082GHNPJ53]] with identity $e$, and let $\ex
 
 ### Why each hypothesis is needed
 
-1. The abelian hypothesis is needed in both parts. The [[symmetric group|0515A6D2Y1]] $S_3$ has [[exponent $6$|~b0c1e267]] and [[order|0B85S2V2DR]] $6$, but its element orders are $1, 2, 3$. So no element has order $6$, and $S_3$ is not cyclic.
+1. The abelian hypothesis is needed in both parts. The [[symmetric group|0515A6D2Y1]] $S_3$ has [[exponent $6$|F8N4YVHM3P]] and [[order|0B85S2V2DR]] $6$, but its element orders are $1, 2, 3$. So no element has order $6$, and $S_3$ is not cyclic.
 2. The finiteness hypothesis is needed for part 2 to make sense, since $|G|$ must be a number. For infinite abelian groups, the exponent does not detect cyclic groups: $\mathbb{Z}$ is cyclic and $\mathbb{Q}$ is not, but both have infinite exponent.
-3. For infinite abelian groups of finite exponent, part 1 still holds with the same proof, because all element orders are at most $\exp(G)$, so a largest order exists. But part 2 fails: [[an infinite product of copies of $\mathbb{Z}/2\mathbb{Z}$|~781c5713]] has exponent $2$ and is not cyclic.
+3. For infinite abelian groups of finite exponent, part 1 still holds with the same proof, because all element orders are at most $\exp(G)$, so a largest order exists. But part 2 fails: [[an infinite product of copies of $\mathbb{Z}/2\mathbb{Z}$|RXNBCYKGBS]] has exponent $2$ and is not cyclic.
 
 ### Consequences
 
