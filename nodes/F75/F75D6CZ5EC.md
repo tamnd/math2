@@ -1,0 +1,68 @@
+---
+tag: F75D6CZ5EC
+kind: example
+name: An infinite Hintikka set over the terms 0, s(0), s(s(0)), …
+msc: ["03B10", "03F03"]
+topics: [TTCRX3NFNY]
+audience: ug2
+instance_of: [RJNDEG07R1]
+uses: [RJNDEG07R1, 2A6QP78XN3, 6D3WA7N2W4, 2BVB7YDEV4, 983GZBQYT4]
+sources:
+  - url: https://en.wikipedia.org/wiki/Hintikka_set
+    locator: lead section
+  - url: https://en.wikipedia.org/wiki/Herbrand_structure
+    locator: lead section
+---
+
+## Example
+
+Let $L$ be the language with one constant symbol $0$, one unary function symbol $s$ and one binary relation symbol $R$.
+The closed [[terms|6D3WA7N2W4]] of $L$ are $0, s(0), s(s(0)), \dots$; this set $T_L$ is the [[Herbrand universe|2BVB7YDEV4]] of $L$.
+For each closed term $t$, the term $s(t)$ is a different string from $t$, because it is longer.
+Let
+$$H = \{\forall x\, \exists y\, R(x,y),\ \forall x\, \neg R(x,x)\} \cup \{\exists y\, R(t,y),\ R(t, s(t)),\ \neg R(t,t) : t \in T_L\}.$$
+We check the five conditions of a [[Hintikka set|RJNDEG07R1]].
+
+1. Condition (1). The atomic members of $H$ are the sentences $R(t, s(t))$, and the negated atomic members are the sentences $\neg R(u,u)$. A clash would need $R(u,u) = R(t, s(t))$, so $u = t$ and $u = s(t)$, so $t = s(t)$. This is impossible, because $s(t)$ is longer than $t$.
+2. Condition (2). $H$ has no $\alpha$ sentence. The literals $\neg R(t,t)$ are negations of atoms, not $\alpha$ sentences.
+3. Condition (3). $H$ has no $\beta$ sentence.
+4. Condition (4). The $\gamma$ sentences are $\forall x\, \exists y\, R(x,y)$ and $\forall x\, \neg R(x,x)$. Their instances for a closed term $t$ are $\exists y\, R(t,y)$ and $\neg R(t,t)$. Both are in $H$ for every $t \in T_L$.
+5. Condition (5). The $\delta$ sentences are the sentences $\exists y\, R(t,y)$. For each of them the instance with the closed term $s(t)$ is $R(t, s(t))$, and it is in $H$.
+
+So $H$ is an infinite Hintikka set for $L$.
+
+[[Hintikka's lemma|2A6QP78XN3]] gives the [[structure|983GZBQYT4]] $\mathcal{M}$ with domain $T_L$, with $s^{\mathcal{M}}(t) = s(t)$, and with $R^{\mathcal{M}} = \{(t, s(t)) : t \in T_L\}$.
+If we write $n$ for the term $s(\cdots s(0) \cdots)$ with $n$ copies of $s$, then $\mathcal{M}$ is isomorphic to the set of natural numbers with $R$ the relation $y = x + 1$.
+In it each element has an $R$-successor, and no element is $R$-related to itself, as $H$ requires.
+
+## Remarks
+
+The example shows that a Hintikka set with a $\gamma$ sentence is infinite when the language has a function symbol.
+Condition (4) asks for an instance for each of the infinitely many closed terms.
+
+The model of the lemma is infinite here, but $H$ also has finite models.
+The structure with domain $\{0, 1\}$, $s$ swapping $0$ and $1$, and $R = \{(0,1), (1,0)\}$ makes each member of $H$ true, since $s(t)$ and $t$ always have different values.
+So the lemma gives one model, the term model, and not the only one.
+
+If we add $R(0,0)$ to $H$, condition (1) fails, because $\neg R(0,0) \in H$.
+
+## Explanations
+
+### L1 human
+
+Start with the number $0$ and a rule "add one".
+The list of facts says: every number is related to some number, and no number is related to itself.
+For each number $n$ the list names the related number: it is $n + 1$.
+The list never says that a number is related to itself, so there is no clash.
+The world that the list describes is the counting numbers, with each number related to the next one.
+
+### L2 human
+
+The check of condition (5) needs a witness term for each $\delta$ sentence, and here the witness of $\exists y\, R(t,y)$ is $s(t)$.
+
+1. Take $t = 0$. The sentence $\exists y\, R(0,y)$ is in $H$ as an instance of $\forall x\, \exists y\, R(x,y)$.
+2. Its witness instance is $R(0, s(0))$, which is in $H$.
+3. Take $t = s(0)$. The witness instance of $\exists y\, R(s(0), y)$ is $R(s(0), s(s(0)))$, which is in $H$.
+
+The typical use of such a set is a term model in which a function symbol gives the witnesses, as in the Skolem normal form of a theory.
+The trap is the witness choice: the witness $t$ itself, giving $R(t,t)$, would clash with $\neg R(t,t)$, so the choice of witness matters for condition (1).

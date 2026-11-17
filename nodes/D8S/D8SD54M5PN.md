@@ -1,0 +1,121 @@
+---
+tag: D8SD54M5PN
+kind: concept
+name: Language of arithmetic
+aliases: [first-order-language-of-arithmetic, signature-of-arithmetic]
+msc: ["03F30", "03B10"]
+topics: [QHCRN4JVG0]
+audience: ug2
+uses: [086QKPF0A6, WDVVEYD6AT, 6D3WA7N2W4, HYJ10AF6RT, 983GZBQYT4, 0MWKJ44V5A]
+sources:
+  - url: https://en.wikipedia.org/wiki/Peano_axioms
+    locator: Peano arithmetic as first-order theory
+  - url: https://en.wikipedia.org/wiki/Arithmetical_hierarchy
+    locator: lead section
+  - book: isbn:9780521857840
+  - book: isbn:9780521701464
+  - url: https://builds.openlogicproject.org/
+    locator: Arithmetization of Syntax
+---
+
+## Summary
+
+The language of arithmetic $L_A$ is the first-order [[signature|WDVVEYD6AT]] with a constant symbol $0$, a unary function symbol $S$, binary function symbols $+$ and $\cdot$, and a binary relation symbol $<$; the equality symbol $=$ is part of the logic.
+Its [[terms|6D3WA7N2W4]] and [[formulas|HYJ10AF6RT]] are those of [[first-order logic|086QKPF0A6]] over this signature.
+For each $n \in \N$ the numeral $\overline{n}$ is the term $S S \cdots S 0$ with $n$ copies of $S$.
+The standard model $\mathfrak{N}$ is the [[structure|983GZBQYT4]] with domain $\N$ in which $0$, $S$, $+$, $\cdot$ and $<$ mean zero, successor, addition, multiplication and the usual order.
+The [[definition page|329ZG1Z0G5]] gives the exact clauses.
+All the theories of this sub-area are written in $L_A$, and the incompleteness theorems are statements about it.
+
+## Motivation
+
+To treat arithmetic as a formal system, we must first fix the symbols that its sentences may use.
+The second-order [[Peano axioms|0QFT7Z76N5]] quantify over sets of numbers, and first-order logic cannot do that.
+So we choose a small first-order signature and ask what it can express.
+Zero and successor alone give only the numerals and very little else.
+Adding $+$ gives the language of [[Presburger arithmetic|B66JYY3K58]], whose true sentences form a decidable set.
+Adding $\cdot$ changes the picture completely: with $+$ and $\cdot$ one can code finite sequences by [[Gödel's β-function lemma|BM6P0C2AC2]], and then define exponentiation, every computable function and the syntax of formulas themselves.
+So $L_A$ is the smallest natural language in which arithmetic can talk about computation and about its own proofs.
+
+## Notation
+
+Many books write $x'$ for $S x$, and some write $\mathsf{s}$ or $\operatorname{succ}$.
+Some books add a constant $1$, and some leave out $<$ and define it.
+In these pages $<$ is a symbol of $L_A$, and theories that use it contain the defining axiom $x < y \leftrightarrow \exists v\,(v + S x = y)$.
+We write $x \le y$ for $x < y \lor x = y$, and $x \ne y$ for $\neg\, x = y$.
+For a term $t$ in which $x$ does not occur, the bounded quantifiers are abbreviations:
+$$\forall x < t\; \varphi \;:=\; \forall x\,(x < t \to \varphi), \qquad \exists x < t\; \varphi \;:=\; \exists x\,(x < t \land \varphi),$$
+and $\forall x \le t$ and $\exists x \le t$ are defined in the same way with $\le$.
+The numeral of $n$ is written $\overline{n}$ here; other books write $\underline{n}$, $\mathbf{n}$ or $\ulcorner n \urcorner$, and [[the page on closed terms|VK6WWSDMXK]] writes $\underline{n}$.
+The standard model is written $\mathfrak{N}$, $\mathcal{N}$ or $(\N, 0, S, +, \cdot, <)$.
+The number $0$ is a natural number in these pages.
+
+## Remarks
+
+### Examples
+
+- The numeral $\overline{3}$ is the term $SSS0$. Its value in $\mathfrak{N}$ is $3$, because each $S$ adds one, starting from $0$.
+- The closed term $\overline{2} \cdot (\overline{1} + \overline{3})$ is not a numeral, but its value in $\mathfrak{N}$ is $2 \cdot (1 + 3) = 8$, the value of $\overline{8}$.
+- Divisibility, evenness and primality are expressed by formulas with bounded quantifiers; [[this example|BD4PEHWBRX]] writes them and checks them on small numbers.
+- The infinitude of the primes and Goldbach's conjecture are sentences of $L_A$; [[this example|HTTAH8PY38]] writes them out.
+- The formula $x \ne 0 \land \forall y \le x\, \forall z \le x\, \bigl((y \cdot z = x \land \mathrm{Prime}(y)) \to y = \overline{2}\bigr)$ says that $x$ is a power of $2$. A positive number is a power of $2$ exactly when $2$ is its only prime factor, and every factor of $x \ge 1$ is at most $x$.
+
+### Non-examples
+
+- The string $x^y = z$ is not a formula of $L_A$, because $L_A$ has no symbol for exponentiation. The relation $x^y = z$ is still definable in $\mathfrak{N}$ by a formula of $L_A$, through the β-function.
+- The string $\exists X\, X(0)$ is not a formula of $L_A$, because $X$ is a variable for sets, and $L_A$ has only variables for numbers.
+- The signature $\set{0, S, +, <}$ of Presburger arithmetic is not $L_A$: it has no symbol for multiplication, and multiplication is not definable from it in $\N$; [[this non-example|TKDKW5MENB]] gives the reason.
+
+### Basic properties
+
+- The set of symbols is countable, so $L_A$ has countably many terms and formulas. By [[Gödel numbering|MFJXPAF0R0]], the set of codes of formulas is decidable.
+- Each closed term $t$ has a value $t^{\mathfrak{N}} \in \N$, and $t$ has the same value as the numeral $\overline{t^{\mathfrak{N}}}$. Robinson arithmetic even proves $t = \overline{t^{\mathfrak{N}}}$; see the [[Σ1-completeness theorem|69234Z1V00]].
+- Each number $n$ is the value of the numeral $\overline{n}$. So each element of $\mathfrak{N}$ is defined by the formula $x = \overline{n}$.
+- In $\mathfrak{N}$ the relation $<$ is already defined by $\exists v\,(v + S x = y)$. Adding $<$ to the signature is an [[extension by definitions|GCK0NN60E4]], so it does not change the sets that are definable.
+- The subsets of $\N^k$ that are definable in $\mathfrak{N}$ are the arithmetical sets of the [[arithmetical hierarchy|7CVJCQKY41]]. The formula classes $\Delta_0$, $\Sigma_n$ and $\Pi_n$ of [[this page|GE43CSZTS9]] measure their complexity.
+- The set of sentences of $L_A$ that are true in $\mathfrak{N}$ is not definable in $\mathfrak{N}$, by [[Tarski's undefinability theorem|YRV6SYK2BY]].
+
+### History
+
+Gödel's paper of 1931 worked in a higher-order system whose only arithmetical primitives were zero and successor.
+In the same paper he used the Chinese remainder theorem to show that every primitive recursive relation is definable with addition and multiplication.
+The first-order language with $0$, $S$, $+$ and $\cdot$ became standard through Robinson arithmetic, in the book *Undecidable Theories* of Tarski, Mostowski and Robinson (1953).
+
+### Common errors
+
+- To confuse the numeral $\overline{n}$, which is a term, with the number $n$, which is an element of $\N$. A proof in a theory manipulates numerals; a model assigns them numbers.
+- To think that $L_A$ fixes the meaning of its symbols. The language only gives the symbols, and [[non-standard models of arithmetic|1QWN5CV4CG]] interpret them in other ways.
+- To treat $\mathrm{Prime}(x)$ or $x \mid y$ as symbols of $L_A$. They are abbreviations of formulas, and a proof must use the formulas.
+
+## Explanations
+
+### L1 human
+
+The language of arithmetic is a small alphabet for writing facts about whole numbers.
+It has a name for zero, a sign for "the next number", signs for plus and times, and a sign for "less than".
+With these signs and the words "for all" and "there is", we can write sentences such as "every number has a larger number".
+We write the number three as "next of next of next of zero".
+Other ideas, such as "even" or "prime", are not signs of the alphabet, but we can write them out.
+For example, "$x$ is even" becomes "there is a $y$ with $y + y = x$".
+
+### L2 human
+
+We express "$x$ is a prime number" in $L_A$ and check it at $x = 6$.
+
+1. A prime is a number larger than $1$ whose only factorizations are with $1$. We write $\mathrm{Prime}(x)$ for $\overline{1} < x \land \forall y \le x\, \forall z \le x\, (y \cdot z = x \to (y = \overline{1} \lor z = \overline{1}))$.
+2. The bounds $y \le x$ and $z \le x$ lose nothing, because if $y \cdot z = x$ and $x \ge 1$, then $y \ge 1$ and $z \ge 1$, so $y \le x$ and $z \le x$.
+3. At $x = 6$, the first part $1 < 6$ holds.
+4. The pair $y = 2$, $z = 3$ satisfies $y \le 6$, $z \le 6$ and $y \cdot z = 6$, but neither $y$ nor $z$ is $1$.
+5. So the formula is false at $x = 6$, as it should be.
+
+The typical use of $L_A$ is to state number-theoretic facts as sentences, so that a theory such as [[Peano arithmetic|HACXBCM7SS]] can prove them.
+A trap: in a weak theory the terms $y \cdot \overline{2}$ and $\overline{2} \cdot y$ need not be provably equal, because [[Robinson arithmetic|3K1AKGXF8A]] does not prove that multiplication is commutative.
+
+### L3 human
+
+$L_A$ is one choice among many first-order signatures for arithmetic, and the choice matters less than it seems.
+Any two signatures whose operations are definable from each other in $\mathfrak{N}$ give the same definable sets, so they give the same arithmetical hierarchy.
+The choice does matter for weak theories: [[Robinson arithmetic|3K1AKGXF8A]] and the fragments of bounded arithmetic are sensitive to which functions are primitive, and bounded arithmetic adds symbols such as $\lfloor x/2 \rfloor$ and $|x|$.
+Primitive recursive arithmetic takes the opposite route and adds a symbol for every primitive recursive function.
+In model theory, $\mathfrak{N}$ is the prime model of [[true arithmetic|9BW1F5B5GA]], and the countable models of [[Peano arithmetic|HACXBCM7SS]] in $L_A$ are studied in the model theory of arithmetic.
+The arithmetization of syntax, sub-area 11 of this area, turns the formulas of $L_A$ into numbers and lets $L_A$ speak about itself.

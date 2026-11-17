@@ -1,0 +1,57 @@
+---
+tag: FFAWTY9TBE
+kind: example
+name: Double exponentiation is provably total in elementary function arithmetic
+msc: ["03F30"]
+topics: [QHCRN4JVG0]
+audience: research
+instance_of: [2JD80TE553]
+uses: [2JD80TE553, SXYZP1DNJJ, RJ3MCAAZSV, 69234Z1V00]
+sources:
+  - url: https://en.wikipedia.org/wiki/Elementary_function_arithmetic
+    locator: Definition
+---
+
+## Example
+
+Let $d(x) = 2^{2^x}$.
+We show that [[elementary function arithmetic|2JD80TE553]] proves that $d$ is total, in the formulation $\mathsf{I}\Delta_0 + \mathsf{exp}$ of the [[definition|SXYZP1DNJJ]].
+Let $\delta(x, z)$ be the formula $\exists y \le z \, (\mathrm{Exp}(x, y) \land \mathrm{Exp}(y, z))$.
+It is $\Delta_0$, and in $\mathfrak{N}$ it holds exactly when $z = d(x)$, since $2^x \le 2^{2^x}$.
+
+1. Fix $x$. The axiom $\mathsf{exp}$ gives some $y$ with $\mathrm{Exp}(x, y)$.
+2. The axiom $\mathsf{exp}$ applied to $y$ gives some $z$ with $\mathrm{Exp}(y, z)$.
+3. $\mathsf{I}\Delta_0$ proves $\mathrm{Exp}(u, v) \to u < v$, by $\Delta_0$ induction on $u$ with the recursion laws of $\mathrm{Exp}$. So $y < z$ in step 2.
+4. By steps 1 to 3, $y \le z$ is a witness for $\delta(x, z)$. So $\mathsf{EFA} \vdash \forall x \, \exists z \, \delta(x, z)$.
+5. Uniqueness: $\mathsf{I}\Delta_0$ proves $\mathrm{Exp}(u, v) \land \mathrm{Exp}(u, v') \to v = v'$, by $\Delta_0$ induction on $u$. Two uses give $\delta(x, z) \land \delta(x, z') \to z = z'$.
+
+So $\mathsf{EFA} \vdash \forall x \, \exists! z \, \delta(x, z)$, and $d$ is provably total in $\mathsf{EFA}$.
+
+## Remarks
+
+The same argument, with $k$ uses of $\mathsf{exp}$, shows that the tower $2^{2^{\cdot^{\cdot^{2^x}}}}$ with $k$ twos is provably total, for each fixed $k$.
+This agrees with the theorem that the provably total functions of $\mathsf{EFA}$ are the [[elementary recursive functions|RJ3MCAAZSV]], since each such tower is elementary.
+The argument does not give a tower of variable height $x$: it would need $x$ uses of $\mathsf{exp}$, which is an induction on a formula with an unbounded $\exists$.
+In $\mathsf{I}\Delta_0$ without $\mathsf{exp}$, steps 1 and 2 fail, and $d$ is not provably total there.
+For each numeral $\overline{n}$, the sentence $\exists z \, \delta(\overline{n}, z)$ is true and $\Sigma_1$, so $\mathsf{Q}$ proves it by [[$\Sigma_1$-completeness|69234Z1V00]]; the content of the example is the uniform statement with $\forall x$.
+
+## Explanations
+
+### L1 human
+
+The number $2^{2^x}$ is a power of $2$ whose exponent is itself a power of $2$.
+For $x = 3$ it is $2^8 = 256$, and for $x = 4$ it is $2^{16} = 65536$.
+The theory has an axiom saying that $2^y$ exists for each $y$.
+Using this axiom twice, first for $x$ and then for $2^x$, shows that $2^{2^x}$ exists for every $x$.
+
+### L2 human
+
+We follow the proof for $x = 2$ in $\mathfrak{N}$.
+
+1. Step 1 gives $y = 2^2 = 4$, with $\mathrm{Exp}(2, 4)$.
+2. Step 2 gives $z = 2^4 = 16$, with $\mathrm{Exp}(4, 16)$.
+3. Step 3 gives $4 < 16$, so $y = 4$ is a witness below $z$.
+4. So $\delta(2, 16)$ holds, and $d(2) = 16$.
+
+The typical use is as a first step in bounding codes: a sequence of $x$ numbers below $2^x$ has a code below $2^{x \cdot x}$, which is below $d(x)$ for $x \ge 4$.
+A trap is to think the bound $\exists y \le z$ in $\delta$ is unimportant: without it, $\delta$ is $\Sigma_1$ but not $\Delta_0$, and it could not be used inside a $\Delta_0$ induction.
