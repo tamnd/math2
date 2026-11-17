@@ -33,7 +33,7 @@ A finite nonempty set $Y$ of positive integers is *large* if $\abs{Y} \ge \min Y
 For all positive integers $n$, $k$ and $m$ there is a positive integer $N$ with the following property.
 For every $k$-colouring $c$ of $[\set{1, \dots, N}]^n$ there is a large homogeneous set $Y \subseteq \set{1, \dots, N}$ with $\abs{Y} \ge m$.
 
-The [[proof|~35cec6ef]] derives it from the infinite Ramsey theorem by compactness.
+The [[proof|Q0RKBRZXBD]] derives it from the infinite Ramsey theorem by compactness.
 The theorem is true and provable in $\mathsf{ZFC}$, and in [[second-order arithmetic|DC60FYCSPM]].
 By the [[Paris-Harrington theorem|509ZWA0R26]], it is not provable in [[Peano arithmetic|MPSCREYC3M]] $\mathsf{PA}$.
 
@@ -60,7 +60,7 @@ There the infinite Ramsey theorem for pairs fails, because Specker gave a comput
 
 ### Generalizations
 
-- The [[Kanamori-McAloon theorem|~53c52c9d]] replaces "large" by min-homogeneity for regressive colourings, and it is also unprovable in $\mathsf{PA}$.
+- The [[Kanamori-McAloon theorem|NM5WYBK6BG]] replaces "large" by min-homogeneity for regressive colourings, and it is also unprovable in $\mathsf{PA}$.
 - "Large" can be replaced by other notions of largeness of finite sets, for example $\abs{Y} \ge f(\min Y)$ for a fixed function $f$.
 
 ## History
@@ -93,7 +93,7 @@ The trap: "unprovable" here means unprovable in $\mathsf{PA}$, not false and not
 
 ### L3 human
 
-The theorem is a $\Pi_2$ sentence, and its truth comes from the infinite [[Ramsey theorem|00TQV3F5S4]] by compactness, as in the [[proof|~35cec6ef]].
+The theorem is a $\Pi_2$ sentence, and its truth comes from the infinite [[Ramsey theorem|00TQV3F5S4]] by compactness, as in the [[proof|Q0RKBRZXBD]].
 The condition $\abs{Y} \ge \min Y$ ties the size of a homogeneous set to its position, and this lets homogeneous sets in non-standard models define initial segments that are models of $\mathsf{PA}$.
-This is the start of the method of [[indicators|~1d28aa25]].
-Over a weak base theory $\mathrm{PH}$ is equivalent to the $1$-consistency of $\mathsf{PA}$, and its least witness grows like the function $f_{\varepsilon_0}$ of the [[fast-growing hierarchy|~24c8db71]].
+This is the start of the method of [[indicators|JWTZ8NVVGK]].
+Over a weak base theory $\mathrm{PH}$ is equivalent to the $1$-consistency of $\mathsf{PA}$, and its least witness grows like the function $f_{\varepsilon_0}$ of the [[fast-growing hierarchy|R6ZC4BJGXV]].

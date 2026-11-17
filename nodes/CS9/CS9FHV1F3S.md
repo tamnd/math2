@@ -12,11 +12,11 @@ inventory: [103C865Q77]
 retired:
   date: 2026-11-17
   reason: merged
-  successor: [~bf22387c]
+  successor: [9APRFM0G7F]
   note: "The page moved to a node of the right kind."
 ---
 
 ## Summary
 
 This page is retired.
-The page of Buchholz hydra is now [[Buchholz hydra|~bf22387c]].
+The page of Buchholz hydra is now [[Buchholz hydra|9APRFM0G7F]].

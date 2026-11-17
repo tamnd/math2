@@ -35,7 +35,7 @@ The *extended Goodstein sequence* of $m \in \N$ for these bases is defined by $E
 2. For the bases $b_k = k + 1$ the sequence is the Goodstein sequence, so [[Peano arithmetic|MPSCREYC3M]] $\mathsf{PA}$ does not prove part 1 even for this one sequence of bases.
 3. For every fixed primitive recursive sequence of bases, part 1 is provable in $\mathsf{PA}$ plus transfinite induction up to [[epsilon nought|KT50SMH3EC]].
 
-The [[proof|~5684585f]] is the proof of Goodstein's theorem with one lemma made general.
+The [[proof|XJEMYS8MH6]] is the proof of Goodstein's theorem with one lemma made general.
 
 ## Remarks
 
@@ -60,7 +60,7 @@ A nondecreasing sequence of bases is the simplest condition that gives this for 
 
 ### Generalizations
 
-The [[Kirby-Paris hydra|~360e5faf]] gives the same freedom: every choice of the numbers of new heads leads to the death of the hydra.
+The [[Kirby-Paris hydra|C028FF4TWM]] gives the same freedom: every choice of the numbers of new heads leads to the death of the hydra.
 
 ### Examples
 

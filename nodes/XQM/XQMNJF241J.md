@@ -36,7 +36,7 @@ So $G_k$ is read in base $k + 1$.
 2. Statement 1, written as a $\Pi_2$ sentence of first-order arithmetic, is not provable in [[Peano arithmetic|MPSCREYC3M]] $\mathsf{PA}$.
 3. Statement 1 is provable in $\mathsf{PA}$ plus [[transfinite induction|0ZHQMQ2C1N]] up to [[epsilon nought|KT50SMH3EC]] $\varepsilon_0$, and so it is provable in $\mathsf{ZFC}$.
 
-The [[proof|~9843c4f2]] proves parts 1 and 3 in full, and gives part 2 with the cited lemmas marked.
+The [[proof|J1NTZCSPPM]] proves parts 1 and 3 in full, and gives part 2 with the cited lemmas marked.
 
 ## Remarks
 
@@ -50,8 +50,8 @@ The [[proof|~9843c4f2]] proves parts 1 and 3 in full, and gives part 2 with the 
 ### Consequences
 
 - The length of the sequence grows very fast. Let $L(m)$ be the least $k$ with $G_k = 0$; then $L(3) = 6$ and $L(4) = 3 \cdot 2^{402653211} - 2$, a number with $121210695$ decimal digits.
-- In terms of the [[Hardy hierarchy|~ec594377]], $L(m) = H_{o_2(m)}(3) - 2$, where $o_2(m)$ replaces every $2$ in the hereditary base-$2$ notation of $m$ by $\omega$. Cichon gave a formula of this kind in 1983.
-- The function $L$ is total but not [[provably total|~25aedb3b]] in $\mathsf{PA}$. It eventually dominates every function that $\mathsf{PA}$ proves total.
+- In terms of the [[Hardy hierarchy|X8RKXQASR9]], $L(m) = H_{o_2(m)}(3) - 2$, where $o_2(m)$ replaces every $2$ in the hereditary base-$2$ notation of $m$ by $\omega$. Cichon gave a formula of this kind in 1983.
+- The function $L$ is total but not [[provably total|Z742YPHPNS]] in $\mathsf{PA}$. It eventually dominates every function that $\mathsf{PA}$ proves total.
 - The theorem gives a true $\Pi_2$ sentence of number theory with no mention of logic or coding that $\mathsf{PA}$ does not prove. It is a concrete case of [[Gödel's incompleteness theorems|X9WYNYE29C]].
 
 ### Converse
@@ -64,8 +64,8 @@ Each single instance "the sequence of $m$ reaches $0$" for a fixed numeral $m$ i
 ### Generalizations
 
 - The [[extended Goodstein theorem|3RVB1T9YDT]]: the bases $2, 3, 4, \dots$ can be replaced by any nondecreasing sequence of bases $b_1 \ge 2$.
-- The [[Kirby-Paris hydra|~360e5faf]] game and [[Beklemishev's worm principle|~9689a72a]] are other processes whose termination needs ordinals up to $\varepsilon_0$.
-- The [[Buchholz hydra|~bf22387c]] game needs much larger ordinals, and its termination is not provable even in $(\Pi^1_1\text{-}\mathsf{CA}) + \mathsf{BI}$.
+- The [[Kirby-Paris hydra|C028FF4TWM]] game and [[Beklemishev's worm principle|MHDZGDNEPS]] are other processes whose termination needs ordinals up to $\varepsilon_0$.
+- The [[Buchholz hydra|9APRFM0G7F]] game needs much larger ordinals, and its termination is not provable even in $(\Pi^1_1\text{-}\mathsf{CA}) + \mathsf{BI}$.
 
 ### Examples
 
@@ -112,6 +112,6 @@ A second trap: "unprovable" here means unprovable in $\mathsf{PA}$; the theorem 
 
 Goodstein's theorem is the arithmetic form of the well-foundedness of $\varepsilon_0$ along one primitive recursive descending path.
 The length function equals a Hardy function $H_{\alpha}(3) - 2$ with $\alpha < \varepsilon_0$, and this calibrates the theorem against the [[proof-theoretic ordinal|C72RBH0CDR]] $\varepsilon_0$ of $\mathsf{PA}$.
-The same pattern, termination by ordinals and unprovability by growth rate, appears for the [[Kirby-Paris hydra|~360e5faf]], for [[worms|~9689a72a]] and for the [[Paris-Harrington theorem|509ZWA0R26]].
-Stronger theories match larger ordinals, as in the [[Buchholz hydra|~bf22387c]] and [[Friedman's finite form of Kruskal's theorem|~0c69c0b2]].
+The same pattern, termination by ordinals and unprovability by growth rate, appears for the [[Kirby-Paris hydra|C028FF4TWM]], for [[worms|MHDZGDNEPS]] and for the [[Paris-Harrington theorem|509ZWA0R26]].
+Stronger theories match larger ordinals, as in the [[Buchholz hydra|9APRFM0G7F]] and [[Friedman's finite form of Kruskal's theorem|12XRGBWH59]].
 The [[ordinal analysis|C5E5TG8PGP]] of $\mathsf{PA}$ by [[Gentzen|QPV0HNP22S]] is the background of all these results.

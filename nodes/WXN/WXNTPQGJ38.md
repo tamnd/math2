@@ -6,7 +6,7 @@ name: Unprovability of the graph minor theorem
 msc: ["03F35", "05C83"]
 topics: [T6FK1E7GJ1]
 audience: research
-uses: [WP3GDNWJJW, VYQ32ZBPEE, ~0c69c0b2, XVHKCX4F5Y, DC60FYCSPM, NH25G6GC07]
+uses: [WP3GDNWJJW, VYQ32ZBPEE, 12XRGBWH59, XVHKCX4F5Y, DC60FYCSPM, NH25G6GC07]
 about: [WP3GDNWJJW, DC60FYCSPM]
 history:
   first_stated: "1987"
@@ -35,7 +35,7 @@ For every $n \ge 1$ there is $m$ such that for every sequence $G_1, \dots, G_m$ 
 2. $\mathrm{GM}$, written in arithmetic, is not provable in $\Pi^1_1\text{-}\mathsf{CA}_0$, the subsystem of [[second-order arithmetic|DC60FYCSPM]] with $\Pi^1_1$ comprehension.
 3. $\mathrm{GM}$ is provable in $\mathsf{ZFC}$, from the [[Robertson-Seymour theorem|WP3GDNWJJW]]. The Wikipedia article states that it is provable in systems much weaker than $\mathsf{ZFC}$.
 
-The [[proof|~05726ae7]] derives part 1 from the Robertson-Seymour theorem, and it outlines part 2 with the cited lemmas marked.
+The [[proof|NK9SK9FAY2]] derives part 1 from the Robertson-Seymour theorem, and it outlines part 2 with the cited lemmas marked.
 
 ## Remarks
 
@@ -57,7 +57,7 @@ It does not, because $\mathrm{GM}$ is true and the system proves only true arith
 
 ### Generalizations
 
-- [[Friedman's finite form of Kruskal's theorem|~0c69c0b2]] is a statement of the same kind for trees with embeddings, and it is unprovable already in $\mathsf{ATR}_0$.
+- [[Friedman's finite form of Kruskal's theorem|12XRGBWH59]] is a statement of the same kind for trees with embeddings, and it is unprovable already in $\mathsf{ATR}_0$.
 - The proof of part 2 goes through an extended Kruskal theorem for labelled trees, which is the part of the graph minor theorem that $\Pi^1_1\text{-}\mathsf{CA}_0$ cannot reach.
 - Friedman used the same idea for simple subcubic graphs, and this gives the fast-growing function $\mathrm{SSCG}$, as the Wikipedia article states.
 
