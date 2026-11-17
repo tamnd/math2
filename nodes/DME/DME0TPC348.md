@@ -15,15 +15,15 @@ It covers how mathematicians collect and weigh evidence that is not a proof: com
 
 ### Reading order
 
-1. [[Plausible reasoning|~430ce26d]]: Pólya's patterns, by which a verified consequence or an analogy makes a conjecture more credible.
-2. [[Experimental mathematics|~8427f205]]: computation to find patterns and closed forms, with integer relation algorithms such as PSLQ.
-3. [[Numerical evidence for conjectures|~ab16d8a0]]: how much checking supports a conjecture, and the Pólya, Mertens and Skewes cases where it misleads.
-4. [[Strong law of small numbers|~c43ae046]]: Guy's law that small cases agree by coincidence, and his second law.
-5. [[Patterns that eventually fail|~6782c443]]: $n^2 + n + 41$, Fermat numbers, the circle regions $1, 2, 4, 8, 16, 31$ and the Borwein integrals.
-6. [[Heuristic arguments in mathematics|~722bccf4]]: probabilistic models of the primes, dimension counts and scaling arguments, with their limits.
-7. [[Forming conjectures|~ac95ca3f]]: from tables, differences and special cases to a precise statement that is tested before a proof.
-8. [[Machine-assisted mathematical discovery|~47df8e26]]: conjecture generators and search systems from Graffiti to AlphaEvolve, and how their claims are checked.
-9. [[Physical arguments in mathematics|~eff91bdf]]: levers, strings, soap films and currents that suggest results, and the proofs they still need.
+1. [[Plausible reasoning|8DHD3H1CJ9]]: Pólya's patterns, by which a verified consequence or an analogy makes a conjecture more credible.
+2. [[Experimental mathematics|BPEPTN0TT9]]: computation to find patterns and closed forms, with integer relation algorithms such as PSLQ.
+3. [[Numerical evidence for conjectures|JFD3QWCX8Z]]: how much checking supports a conjecture, and the Pólya, Mertens and Skewes cases where it misleads.
+4. [[Strong law of small numbers|8AFXPXCE3N]]: Guy's law that small cases agree by coincidence, and his second law.
+5. [[Patterns that eventually fail|A2KSJSQSF6]]: $n^2 + n + 41$, Fermat numbers, the circle regions $1, 2, 4, 8, 16, 31$ and the Borwein integrals.
+6. [[Heuristic arguments in mathematics|VCQQNJ3SEZ]]: probabilistic models of the primes, dimension counts and scaling arguments, with their limits.
+7. [[Forming conjectures|R2T42N5XGK]]: from tables, differences and special cases to a precise statement that is tested before a proof.
+8. [[Machine-assisted mathematical discovery|D1YQW43N3K]]: conjecture generators and search systems from Graffiti to AlphaEvolve, and how their claims are checked.
+9. [[Physical arguments in mathematics|THJV0NFPDQ]]: levers, strings, soap films and currents that suggest results, and the proofs they still need.
 
 ### Prerequisites
 
