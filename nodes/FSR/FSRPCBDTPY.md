@@ -1,0 +1,12 @@
+---
+tag: FSRPCBDTPY
+kind: topic
+name: Finite groups of Lie type
+msc: ["20D06", "20E42"]
+topics: [W9RZSPR6CP]
+---
+
+## Summary
+
+This topic is a part of [[group theory|W9RZSPR6CP]].
+It covers the linear, classical and exceptional finite simple groups as abstract groups, BN-pairs and buildings.

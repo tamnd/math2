@@ -1,0 +1,12 @@
+---
+tag: N23MMDRZ91
+kind: topic
+name: Free groups and presentations, basic level
+msc: ["20E05", "20F05"]
+topics: [W9RZSPR6CP]
+---
+
+## Summary
+
+This topic is a part of [[group theory|W9RZSPR6CP]].
+It covers free groups by reduced words and by their universal property, presentations by generators and relations, and the standard presentations of small groups.
