@@ -1,0 +1,68 @@
+---
+tag: XKZN7YVNF8
+kind: example
+name: Left and right transversals of a subgroup of order two in S3
+msc: ["20A05"]
+topics: [1VHQWXC64D]
+audience: grad
+instance_of: [QQVCDZX300]
+uses: [0515A6D2Y1, 0X1JXT47GA, 03DEH43F4H, 0NE1DK7H4T, QQVCDZX300, 0Z5905Q73D, 0CB0DX5BVV]
+sources:
+  - url: https://en.wikipedia.org/wiki/Transversal_(combinatorics)
+    locator: Examples
+  - url: https://en.wikipedia.org/wiki/Coset
+    locator: Definition
+---
+
+## Example
+
+Let $G = S_3$ be the [[symmetric group|0515A6D2Y1]], and compose permutations from right to left.
+Let $H = \{e, (1\,2)\}$, a [[subgroup|0X1JXT47GA]] of order $2$.
+We show that $T = \{e, (1\,2\,3), (2\,3)\}$ is a left [[transversal|QQVCDZX300]] of $H$, but not a right transversal.
+
+1. The [[left cosets|03DEH43F4H]] of $H$ are $H$, $(1\,3)H = \{(1\,3), (1\,2\,3)\}$ and $(2\,3)H = \{(2\,3), (1\,3\,2)\}$.
+2. The set $T$ has $e$ in $H$, $(1\,2\,3)$ in $(1\,3)H$ and $(2\,3)$ in $(2\,3)H$. So $T$ is a left transversal.
+3. The [[right cosets|0NE1DK7H4T]] of $H$ are $H$, $H(1\,3) = \{(1\,3), (1\,3\,2)\}$ and $H(2\,3) = \{(2\,3), (1\,2\,3)\}$.
+4. Both $(1\,2\,3)$ and $(2\,3)$ lie in $H(2\,3)$, and no element of $T$ lies in $H(1\,3)$. So $T$ is not a right transversal.
+
+Thus a left transversal need not be a right transversal.
+
+## Remarks
+
+The set of inverses $T^{-1} = \{e, (1\,3\,2), (2\,3)\}$ is a right transversal.
+It has $e$ in $H$, $(1\,3\,2)$ in $H(1\,3)$ and $(2\,3)$ in $H(2\,3)$.
+It is not a left transversal, because $(1\,3\,2)$ and $(2\,3)$ both lie in $(2\,3)H$.
+
+Common transversals exist.
+The set $\{e, (1\,3), (2\,3)\}$ meets each left coset and each right coset once.
+The [[alternating group|0Z5905Q73D]] $A_3 = \{e, (1\,2\,3), (1\,3\,2)\}$ is also a common transversal, and it is a subgroup.
+
+There are $2^3 = 8$ left transversals, because we choose one of the $2$ elements of each of the $3$ left cosets.
+Exactly $4$ of them are also right transversals.
+
+The difference between left and right comes from the fact that $H$ is not [[normal|0CB0DX5BVV]] in $S_3$.
+For a normal subgroup, the left and right cosets are the same sets, so the two kinds of transversal agree.
+
+## Explanations
+
+### L1 human
+
+The six arrangements of three cards fall into three pairs in one way, and into three other pairs in a second way.
+A left transversal takes one card arrangement from each pair of the first way.
+A right transversal takes one from each pair of the second way.
+A choice can be good for the first way and bad for the second way.
+Some choices are good for both ways.
+
+### L2 human
+
+We list all common transversals of $H$.
+
+1. A common transversal takes one element from $H = \{e, (1\,2)\}$.
+2. If it takes $e$, it takes one element from $(1\,3)H$ and one from $(2\,3)H$. These two must lie in different right cosets.
+3. The choices $(1\,3)$ with $(2\,3)$, and $(1\,2\,3)$ with $(1\,3\,2)$, work. The other two choices put both elements in one right coset.
+4. If it takes $(1\,2)$, the same check gives $\{(1\,2), (1\,3), (2\,3)\}$ and $\{(1\,2), (1\,2\,3), (1\,3\,2)\}$.
+5. Thus there are exactly $4$ common transversals.
+
+The typical use is a small test for statements about transversals.
+A trap is to assume that $T^{-1}$ is again a left transversal.
+It is a right transversal, and in this example it is not a left one.
