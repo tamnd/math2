@@ -1,0 +1,81 @@
+---
+tag: ~fcf34cb0
+kind: object
+name: Bachmann–Howard ordinal
+msc: ["03F15", "03E10"]
+topics: [XTTKZTYDSD]
+audience: research
+uses: [~766739ea, ~19a7c469, ~0e8924a9, PQSHBKCE7V, Z92S2GVCX9, C72RBH0CDR, 5VNT564Y2W, ~dbbd338b, E7WEFRMQTB, ~fafc7335, ~5f65c1fc, 01TQB88H4C]
+sources:
+  - url: https://en.wikipedia.org/wiki/Bachmann–Howard_ordinal
+    locator: Definition
+  - url: https://en.wikipedia.org/wiki/Ordinal_analysis
+    locator: Table of ordinal analyses
+---
+
+## Description
+
+Fix the [[collapsing function|~766739ea]] $\psi$, where $\Omega$ is the [[first uncountable ordinal|Z92S2GVCX9]].
+Its closure sets $C(\alpha)$ are generated from $0, 1, \omega, \Omega$ by $+$, $\cdot$, exponentiation and the values $\psi(\xi)$ with $\xi < \alpha$.
+Let $\varepsilon_{\Omega + 1}$ be the least [[epsilon number|PQSHBKCE7V]] above $\Omega$.
+The Bachmann-Howard ordinal is $\psi(\varepsilon_{\Omega + 1})$.
+It is a [[countable|01TQB88H4C]] ordinal, the [[proof-theoretic ordinal|C72RBH0CDR]] of the theory $\mathrm{ID}_1$ of one inductive definition and of Kripke-Platek set theory with infinity.
+
+## Remarks
+
+### Where the collapse stops
+
+1. The set $E$ of ordinals below $\varepsilon_{\Omega + 1}$ contains $0, 1, \omega, \Omega$ and is closed under $+$, $\cdot$ and exponentiation, since $\varepsilon_{\Omega + 1}$ is an epsilon number.
+2. Every value $\psi(\xi)$ is countable, so it lies in $E$.
+3. By induction on $n$, each $C_n(\alpha)$ is a subset of $E$, for every $\alpha$.
+4. So if $\alpha \ge \varepsilon_{\Omega + 1}$, the condition $\xi < \alpha$ holds for all $\xi \in C(\alpha)$, and $C(\alpha) = C(\varepsilon_{\Omega + 1})$.
+5. Hence $\psi(\alpha) = \psi(\varepsilon_{\Omega + 1})$ for all $\alpha \ge \varepsilon_{\Omega + 1}$: this system names nothing beyond the Bachmann-Howard ordinal.
+
+### Approximations from below
+
+The ordinals $\Omega$, $\Omega^\Omega$, $\Omega^{\Omega^\Omega}$, and so on, have supremum $\varepsilon_{\Omega + 1}$.
+The Bachmann-Howard ordinal is the supremum of $\psi(\Omega) = \zeta_0$, $\psi(\Omega^\Omega) = \Gamma_0$, $\psi(\Omega^{\Omega^\Omega})$, which is the [[large Veblen ordinal|~fafc7335]], and so on.
+So it lies far above the [[Feferman-Schütte ordinal|~5f65c1fc]] and every Veblen ordinal; the values $\psi(\Omega)$ and $\psi(\Omega + 1)$ are computed in [[small values|~19a7c469]] and [[the first impredicative value|~0e8924a9]].
+
+### Other notations
+
+The same ordinal has other names in other systems.
+In Buchholz's [[functions $\psi_\nu$|E7WEFRMQTB]] it is $\psi_0(\varepsilon_{\Omega_1 + 1})$.
+In Bachmann's extension of the Veblen functions to uncountable indices it is $\varphi_{\varepsilon_{\Omega + 1}}(0)$, as the source notes.
+Each formula holds only in its own system.
+
+### Role in proof theory
+
+- [[Theories of iterated inductive definitions|5VNT564Y2W]]: $\abs{\mathrm{ID}_1}$ is the Bachmann-Howard ordinal. The lower bound uses [[the accessible part as an inductive definition|~dbbd338b]], and the upper bound can be proved with [[Buchholz's Ω-rule|~af6dfa84]].
+- Kripke-Platek set theory with infinity, $\mathrm{KP}\omega$, has the same ordinal, and so does the constructive set theory CZF.
+- These theories are impredicative, and their analysis needs a collapsing function; the Veblen functions stop at the large Veblen ordinal.
+
+### History
+
+Heinz Bachmann introduced the notation system in 1950, and William Howard studied the ordinal in 1972.
+The name honours both.
+
+### Common errors
+
+- Treating $\psi(\varepsilon_{\Omega+1})$ as an uncountable ordinal. The argument is uncountable, but the value is countable.
+- Taking $\Omega = \omega_1$ as essential. The notation system uses only the formal terms, and a suitable countable ordinal can play the role of $\Omega$, as the [[collapsing function|~766739ea]] page notes.
+
+## Explanations
+
+### L1 human
+
+The Bachmann-Howard ordinal is a very large countable ordinal.
+To name it, logicians use a trick: they first name a huge uncountable ordinal, and then a "collapsing" function turns that name into a countable ordinal.
+It measures the strength of theories that can talk about the smallest set closed under a rule, such as the set of well-founded trees.
+
+### L2 human
+
+We see why the argument $\varepsilon_{\Omega + 1}$ is the end of the line.
+
+1. Start from $\Omega$ and apply exponentiation: $\Omega$, $\Omega^\Omega$, $\Omega^{\Omega^\Omega}$, and so on.
+2. Each term is below $\varepsilon_{\Omega + 1}$, and their supremum is $\varepsilon_{\Omega + 1}$.
+3. The closure sets $C(\alpha)$ can only form terms from such towers, from sums and products, and from values of $\psi$, which are countable.
+4. So no term in any $C(\alpha)$ reaches $\varepsilon_{\Omega + 1}$, and making $\alpha$ larger adds nothing.
+
+The typical use is as the upper end of the notation system for $\mathrm{ID}_1$ and $\mathrm{KP}\omega$.
+The trap: the formula $\psi(\varepsilon_{\Omega+1})$ names the ordinal only in this system; in other systems the same letters mean other ordinals.
