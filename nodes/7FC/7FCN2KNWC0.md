@@ -3,7 +3,7 @@ tag: 7FCN2KNWC0
 kind: example
 name: The integers modulo 2 and the group of signs are isomorphic
 msc: ["20A05"]
-topics: [BAVE5RN4EE]
+topics: [BAVE5RN4EE, E1506A5A55]
 audience: ug1
 instance_of: [08MG7H8JW5]
 illustrates: [0736AXH2ME]

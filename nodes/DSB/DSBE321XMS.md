@@ -1,0 +1,139 @@
+---
+tag: DSBE321XMS
+kind: concept
+name: Double coset
+msc: ["20A05"]
+topics: [1VHQWXC64D]
+audience: grad
+uses: [G5S1M9, 0X1JXT47GA, 564VVAQTNR, 0G8VEZ3WTK, 08PY4GNAPK, 0H11ZPX4ND]
+sources:
+  - url: https://en.wikipedia.org/wiki/Double_coset
+    locator: Definition
+  - url: https://en.wikipedia.org/wiki/Double_coset
+    locator: Properties
+  - url: https://en.wikipedia.org/wiki/Double_coset
+    locator: Applications
+  - url: https://en.wikipedia.org/wiki/Coset
+    locator: Double cosets
+---
+
+## Summary
+
+Let $G$ be a [[group|G5S1M9]], and let $H$ and $K$ be [[subgroups|0X1JXT47GA]] of $G$.
+For $g \in G$, the $(H, K)$ double coset of $g$ is the set $HgK = \{hgk : h \in H, k \in K\}$.
+The double cosets are the classes of the [[equivalence relation|0G8VEZ3WTK]] $x \approx y$ if and only if $y = hxk$ for some $h \in H$ and $k \in K$.
+Thus they form a [[partition|08QMKTWF9T]] of $G$.
+When $H$ and $K$ are finite, the double coset $HgK$ has $|H| \, |K| / |H \cap gKg^{-1}|$ elements.
+Double cosets describe how two subgroups sit in a group relative to each other.
+They appear in the Sylow theorems, in the Bruhat decomposition and in representation theory.
+
+## Motivation
+
+A [[left coset|03DEH43F4H]] $gK$ is the set of elements that we reach from $g$ by multiplication on the right with elements of $K$.
+A [[right coset|0NE1DK7H4T]] $Hg$ uses multiplication on the left with elements of $H$.
+Some questions need both moves at the same time.
+For example, to compare two Sylow subgroups $P$ and $Q$, we ask how $P$ meets each conjugate $gQg^{-1}$.
+The size of $P \cap gQg^{-1}$ depends only on the set $PgQ$, not on the choice of $g$ in it.
+So the natural pieces of $G$ for this question are the sets $PgQ$.
+
+A second source is group actions.
+The group $H$ acts on the set $G/K$ of left cosets of $K$ by $h \cdot gK = hgK$.
+The orbit of $gK$ is the set of cosets $hgK$, and the union of this orbit is $HgK$.
+Thus the double cosets $HgK$ correspond to the [[orbits|0YQPZB5Q1G]] of $H$ on $G/K$.
+
+## Notation
+
+The set of all $(H, K)$ double cosets is written $H \backslash G / K$.
+When $H = K$, the sets $HgH$ are the $H$-double cosets, and the set of them is $H \backslash G / H$.
+The letters can change: some books write $KgH$ or use $A$ and $B$ for the two subgroups.
+In this site the subgroup on the left acts by left multiplication and the subgroup on the right acts by right multiplication.
+
+## Remarks
+
+### Examples
+
+- In the [[symmetric group|0515A6D2Y1]] $S_3$ with $H = K = \{e, (1\,2)\}$, there are two double cosets, $H$ and $\{(1\,3), (2\,3), (1\,2\,3), (1\,3\,2)\}$. They have $2$ and $4$ elements, as [[this example|D503Z9CPJ3]] shows.
+- In $(\mathbb{Z}, +)$ with $H = 4\mathbb{Z}$ and $K = 6\mathbb{Z}$, the double cosets are $g + 4\mathbb{Z} + 6\mathbb{Z} = g + 2\mathbb{Z}$. Thus they are the two cosets of $2\mathbb{Z}$, as [[this example|JSBGW6P7CH]] shows.
+- If $K = \{e\}$, then $HgK = Hg$, and the double cosets are the right cosets of $H$. If $H = \{e\}$, they are the left cosets $gK$.
+- If $H = G$, then $HgK = G$ for each $g$, because $hgk$ runs through all of $G$ when $h$ runs through $G$. There is one double coset.
+- In the [[general linear group|0FCHE902D7]] $GL_n(F)$ over a field $F$, let $B$ be the subgroup of invertible upper triangular matrices. The [[Bruhat decomposition|T91E86D0RH]] says that the double cosets $BwB$, for the $n!$ permutation matrices $w$, are all the $(B, B)$ double cosets.
+
+### Non-examples
+
+- In $S_3$ with $H = \{e, (1\,2)\}$, the left coset $(1\,3)H = \{(1\,3), (1\,2\,3)\}$ is not an $(H, H)$ double coset. It is a proper subset of the double coset $H(1\,3)H$, as [[this example|S6XAS4GBV8]] shows.
+- A right coset $Hg$ is in general not an $(H, H)$ double coset, for the same reason. It is one when $g$ normalises $H$, that is, when $gHg^{-1} = H$.
+
+### Basic properties
+
+- **Partition.** The relation $x \approx y$ is reflexive, because $x = exe$. It is symmetric, because $y = hxk$ gives $x = h^{-1}yk^{-1}$. It is transitive, because $y = hxk$ and $z = h'yk'$ give $z = (h'h)x(kk')$. The class of $x$ is $HxK$, so the double cosets partition $G$.
+- **Unions of cosets.** The double coset $HgK$ is the union of the left cosets $hgK$ with $h \in H$. It is also the union of the right cosets $Hgk$ with $k \in K$.
+- **Size.** Let $H$ and $K$ be finite. Each element $hgk$ is equal to $h(gkg^{-1})g$, so $HgK = (H \cdot gKg^{-1})\,g$. Right multiplication by $g$ is a bijection, so $|HgK|$ is the size of the [[product|0PT52XQZD7]] of $H$ and the [[conjugate subgroup|0H11ZPX4ND]] $gKg^{-1}$. The [[product formula|08PY4GNAPK]] and $|gKg^{-1}| = |K|$ give $|HgK| = |H| \, |K| / |H \cap gKg^{-1}|$.
+- **Sizes differ.** Different double cosets can have different sizes, and a size need not divide $|G|$. In $S_3$ the sizes are $2$ and $4$, and $4$ does not divide $6$. Thus there is no Lagrange theorem for double cosets.
+- **Normal case.** If $H$ is a [[normal subgroup|0CB0DX5BVV]] of $G$, then $Hg = gH$, so $HgK = gHK$. Each double coset is then a left coset of the subgroup $HK$, and all double cosets have the same size.
+- **Counting formula.** Let $G$ be finite, and let $g_1, \ldots, g_r$ be one element from each double coset. Then $|G| = \sum_{i=1}^{r} |H| \, |K| / |H \cap g_i K g_i^{-1}|$, because the double cosets partition $G$.
+- **Inverses.** The inverse of the set $HgK$ is $K g^{-1} H$. Thus inversion is a bijection from $H \backslash G / K$ to $K \backslash G / H$.
+
+### History
+
+The definition and the partition property are in Marshall Hall's textbook "The Theory of Groups" of 1959.
+The Hecke operators of the theory of modular forms are named after Erich Hecke.
+They are built from double cosets $\Gamma \alpha \Gamma$, where $\Gamma$ is the [[modular group|VEKV1EM77B]] and $\alpha$ is a rational matrix.
+The Bruhat decomposition, named after François Bruhat, describes the double cosets of a [[Borel subgroup|5JSYA1JNCC]] in a reductive group.
+
+### Common errors
+
+- A double coset $HgK$ is not in general a coset of a subgroup. Its size need not be $|H|$, $|K|$ or $|HK|$.
+- The size formula uses the conjugate $gKg^{-1}$, not $K$. In the $S_3$ example, $H \cap K = H$, but $H \cap (1\,3)K(1\,3)^{-1} = \{e\}$.
+- The double cosets $HgK$ and $KgH$ are different sets in general. The order of the two subgroups matters.
+
+## Explanations
+
+### L1 human
+
+A left coset collects the elements that we reach from one element by multiplying on one side.
+A double coset collects the elements that we reach by multiplying on both sides, with one subgroup on the left and one on the right.
+Take the six ways to arrange three cards, and let the subgroup be "leave the cards or swap the first two".
+Starting from the identity, we reach only the two arrangements of the subgroup.
+Starting from any other arrangement, we reach the other four arrangements.
+So the six arrangements split into two pieces of sizes $2$ and $4$.
+The pieces need not have the same size, unlike ordinary cosets.
+
+### L2 human
+
+We compute $H \backslash S_3 / H$ for $H = \{e, (1\,2)\}$, with permutations composed from right to left.
+
+1. The double coset of $e$ is $HeH = HH = H$, because $H$ is closed under products.
+2. For $g = (1\,3)$, the left cosets in $HgH$ are $gH$ and $(1\,2)gH$.
+3. We have $gH = \{(1\,3), (1\,3)(1\,2)\} = \{(1\,3), (1\,2\,3)\}$.
+4. We have $(1\,2)(1\,3) = (1\,3\,2)$, so $(1\,2)gH = \{(1\,3\,2), (1\,3\,2)(1\,2)\} = \{(1\,3\,2), (2\,3)\}$.
+5. Thus $H(1\,3)H = \{(1\,3), (1\,2\,3), (1\,3\,2), (2\,3)\}$.
+6. The two double cosets cover all $6$ elements, so there are no others.
+7. The size formula agrees: $(1\,3)H(1\,3)^{-1} = \{e, (2\,3)\}$ meets $H$ in $\{e\}$, so $|H(1\,3)H| = 2 \cdot 2 / 1 = 4$.
+
+The typical use is the counting formula $|G| = \sum_i |H| \, |K| / |H \cap g_i K g_i^{-1}|$.
+It turns a question about how $H$ meets the conjugates of $K$ into a question about divisibility.
+
+A trap is to assume that all double cosets have the same size.
+Here the sizes are $2$ and $4$, so we cannot divide $|G|$ by one size to find the number of double cosets.
+
+### L3 human
+
+The double cosets $HgK$ are the orbits of $H \times K$ on $G$ under the action $(h, k) \cdot x = hxk^{-1}$.
+They are also the orbits of $H$ on $G/K$, and the orbits of $K$ on $H \backslash G$.
+Thus $H \backslash G / K$ is the set of orbits of $G$ on the product $G/H \times G/K$, by the map $HgK \mapsto$ the orbit of $(H, gK)$.
+For $H = K$, it describes the orbits of $G$ on pairs of points of $G/H$.
+Thus $G$ is [[$2$-transitive|BDJ1AX4XBB]] on $G/H$ exactly when there are two $H$-double cosets.
+
+The counting formula gives the conjugacy part of the [[Sylow theorems|FESTJ0K9TX]].
+Let $|G| = p^a m$ with $p$ prime and $p \nmid m$, and let $P$ and $Q$ be Sylow $p$-subgroups.
+Divide the counting formula for $(P, Q)$ double cosets by $|P|$, and get $m = \sum_i |Q| / |P \cap g_i Q g_i^{-1}|$.
+By [[Lagrange's theorem|3C53TD]], $|P \cap g_i Q g_i^{-1}|$ divides $|g_i Q g_i^{-1}| = p^a$, so each term is a power of $p$.
+Since $p$ does not divide $m$, some term is $1$, so $P \cap g_i Q g_i^{-1} = g_i Q g_i^{-1}$.
+Thus $g_i Q g_i^{-1} \le P$, and equal orders give $g_i Q g_i^{-1} = P$, which is the [[second Sylow theorem|09GCQ5STVJ]].
+
+In representation theory, Mackey's formula describes the restriction to $K$ of the representation [[induced|JJP4JFH3C6]] from $H$.
+It is a direct sum over $H \backslash G / K$, or over $K \backslash G / H$ in other conventions, with one induced representation of $K$ for each double coset.
+The free abelian group on $H \backslash G / H$, with a product given by counting, is the [[Hecke algebra|5J2P2AGY4N]] of the pair $(G, H)$.
+The pair $(G, H)$ is a [[Gelfand pair|W38ZDXDVYC]] when this algebra over $\mathbb{C}$ is commutative.
+In groups of Lie type, the double cosets $BwB$ of a Borel subgroup $B$ are indexed by the [[Weyl group|YT1ZJ2S4EE]].
+They give the structure of a $BN$-pair.

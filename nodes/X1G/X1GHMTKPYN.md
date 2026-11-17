@@ -1,0 +1,40 @@
+---
+tag: X1GHMTKPYN
+kind: proof
+name: Proof that a group of exponent 2 is abelian
+msc: [20A05]
+topics: [BAZT8JJ70S]
+audience: ug1
+proves: GGAT7CNA82
+uses: [G5S1M9, 0D9NDGE9KP]
+methods: [0NTF6DMVAP]
+sources:
+  - book: isbn:9780471433347
+    locator: Section 1.1
+---
+
+## Proof
+
+Let $G$ be a [[group|G5S1M9]] with identity $e$, and assume that $g^2 = e$ for each $g \in G$.
+Let $a, b \in G$.
+
+1. For each $g \in G$, we have $g g = e$. By the [[uniqueness of inverses|0D9NDGE9KP]], $g^{-1} = g$.
+2. The product $ab$ is an element of $G$, so step 1 gives $(ab)^{-1} = ab$.
+3. In each group, $(ab)^{-1} = b^{-1} a^{-1}$, because $(ab)(b^{-1} a^{-1}) = a (b b^{-1}) a^{-1} = a a^{-1} = e$.
+4. By step 1, $b^{-1} = b$ and $a^{-1} = a$. So step 3 gives $(ab)^{-1} = ba$.
+5. By steps 2 and 4, $ab = ba$.
+
+Since $a$ and $b$ are arbitrary, $G$ is [[abelian|082GHNPJ53]].
+
+## Idea
+
+Each element is its own inverse.
+The inverse of $ab$ is $ab$, and it is also $b^{-1} a^{-1} = ba$.
+
+## Variants
+
+A proof with the [[cancellation laws|0VSNX4P2Q0]] works too.
+
+1. By hypothesis, $(ab)^2 = e$, that is, $abab = e$.
+2. Multiply on the left by $a$ and use $a^2 = e$: $bab = a$.
+3. Multiply on the right by $b$ and use $b^2 = e$: $ba = ab$.

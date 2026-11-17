@@ -2,33 +2,55 @@
 tag: YBG1CSVV3D
 kind: proof
 name: Proof of the product formula for the order of HK by counting pairs
-msc: [20D60]
+msc: ["20D60"]
+topics: [1VHQWXC64D]
+audience: ug1
 proves: 08PY4GNAPK
-uses: [G5S1M9, 0N0PXCTYA7, 0NS1YTGM19, 0ZTGMDNVTB, 0C81YBVTWH]
+uses: [G5S1M9, 0X1JXT47GA, 0PT52XQZD7, 0ZTGMDNVTB, 0C81YBVTWH]
+methods: [0F8YBHF2W3, 0NTF6DMVAP]
 sources:
   - url: https://proofwiki.org/wiki/Order_of_Subgroup_Product
+  - url: https://en.wikipedia.org/wiki/Product_of_group_subsets
+    locator: Product of subgroups
 ---
 
 ## Proof
 
-We count the pairs $(h, k)$ grouped by their product $hk$.
+Let $G$ be a [[group|G5S1M9]] with identity $e$, and let $H$ and $K$ be finite [[subgroups|0X1JXT47GA]] of $G$.
+We count the pairs $(h, k)$ in $H \times K$, sorted by their product $hk$.
 
-1. Let $G$ be a [[group|G5S1M9]] with identity $e$, and let $H$ and $K$ be finite [[subgroups|0N0PXCTYA7]] of $G$.
-2. By definition, the [[product|0NS1YTGM19]] is $HK = \set{hk : h \in H, k \in K}$.
-3. Define $f \colon H \times K \to HK$ by $f(h, k) = hk$, on the [[Cartesian product|0C81YBVTWH]]. By step 2, $f$ is surjective.
-4. Since the [[intersection of subgroups is a subgroup|0ZTGMDNVTB]], $H \cap K$ is a subgroup of $G$. It contains $e$, so $\abs{H \cap K} \geq 1$.
-5. Fix $z \in HK$ and write $z = h_0 k_0$ with $h_0 \in H$ and $k_0 \in K$. Let $F_z = \set{(h, k) \in H \times K : hk = z}$.
-6. Claim: $F_z = \set{(h_0 x, x^{-1} k_0) : x \in H \cap K}$.
-7. Let $x \in H \cap K$. Then $h_0 x \in H$ and $x^{-1}k_0 \in K$, since $H$ and $K$ are subgroups. Their product is $h_0 x x^{-1} k_0 = z$. So the pair lies in $F_z$.
-8. Conversely, let $(h, k) \in F_z$, so $hk = h_0k_0$. Put $x = h_0^{-1}h$, which lies in $H$.
-9. From $hk = h_0k_0$ we get $h_0^{-1}h = k_0k^{-1}$. So $x = k_0 k^{-1}$ also lies in $K$, and $x \in H \cap K$.
-10. Then $h = h_0x$. Also $x^{-1} = kk_0^{-1}$, so $x^{-1}k_0 = k$. This proves the claim.
-11. The map $x \mapsto (h_0x, x^{-1}k_0)$ from $H \cap K$ to $F_z$ is surjective by the claim. It is injective, since $h_0x = h_0x'$ gives $x = x'$.
-12. So $\abs{F_z} = \abs{H \cap K}$ for each $z \in HK$.
-13. The sets $F_z$ for $z \in HK$ are pairwise disjoint, since each pair has only one product. Their union is $H \times K$, by step 3.
-14. Hence $\abs{H} \, \abs{K} = \abs{H \times K} = \sum_{z \in HK} \abs{F_z} = \abs{HK} \, \abs{H \cap K}$.
-15. Dividing by $\abs{H \cap K} \geq 1$ gives $\abs{HK} = \dfrac{\abs{H} \, \abs{K}}{\abs{H \cap K}}$.
+1. By definition, the [[product|0PT52XQZD7]] is $HK = \{hk : h \in H, k \in K\}$.
+2. Define $f \colon H \times K \to HK$ by $f(h, k) = hk$, on the [[Cartesian product|0C81YBVTWH]] $H \times K$.
+3. By step 1, $f$ is surjective. Thus $HK$ is finite, because $H \times K$ is finite.
+4. The [[intersection $H \cap K$ is a subgroup|0ZTGMDNVTB]] of $G$. It contains $e$, so $|H \cap K| \ge 1$.
+5. Fix $z \in HK$, and write $z = h_0 k_0$ with $h_0 \in H$ and $k_0 \in K$.
+6. Let $F_z = \{(h, k) \in H \times K : hk = z\}$ be the set of pairs with product $z$.
+7. We claim that $F_z = \{(h_0 x, x^{-1} k_0) : x \in H \cap K\}$.
+8. Let $x \in H \cap K$. Then $h_0 x \in H$ and $x^{-1} k_0 \in K$, because $H$ and $K$ are subgroups.
+9. The product of this pair is $h_0 x x^{-1} k_0 = h_0 k_0 = z$. Thus the pair is in $F_z$.
+10. Conversely, let $(h, k) \in F_z$, so $hk = h_0 k_0$. Put $x = h_0^{-1} h$. Then $x \in H$.
+11. Multiply $hk = h_0 k_0$ by $h_0^{-1}$ on the left and by $k^{-1}$ on the right. This gives $h_0^{-1} h = k_0 k^{-1}$.
+12. Thus $x = k_0 k^{-1}$ is also in $K$, so $x \in H \cap K$.
+13. From $x = h_0^{-1} h$ we get $h = h_0 x$. From $x = k_0 k^{-1}$ we get $k = x^{-1} k_0$. This proves the claim.
+14. The map $x \mapsto (h_0 x, x^{-1} k_0)$ from $H \cap K$ to $F_z$ is surjective, by the claim.
+15. This map is injective, because $h_0 x = h_0 x'$ gives $x = x'$ by cancellation.
+16. Thus $|F_z| = |H \cap K|$ for each $z \in HK$.
+17. The sets $F_z$ with $z \in HK$ are pairwise disjoint, because each pair has only one product.
+18. Their union is $H \times K$, because each pair $(h, k)$ lies in $F_{hk}$.
+19. By steps 16 to 18, $|H| \cdot |K| = |H \times K| = \sum_{z \in HK} |F_z| = |HK| \cdot |H \cap K|$.
+20. Divide by $|H \cap K| \ge 1$. This gives $|HK| = |H| \, |K| / |H \cap K|$.
+
+This proves the product formula.
 
 ## Idea
 
-Every element of $HK$ is a product $hk$, usually in several ways. One can move a factor $x \in H \cap K$ across the middle, replacing $(h, k)$ by $(hx, x^{-1}k)$, and these are the only other ways. So each element of $HK$ is counted exactly $\abs{H \cap K}$ times among the $\abs{H}\,\abs{K}$ pairs.
+Each element of $HK$ is a product $hk$, in general in several ways.
+A factor $x \in H \cap K$ can move across the middle: the pair $(h, k)$ becomes $(hx, x^{-1}k)$, with the same product.
+These moves give all the pairs with a given product, so each element of $HK$ is counted exactly $|H \cap K|$ times among the $|H| \, |K|$ pairs.
+
+## Variants
+
+A [[second proof|BEYJE2N47J]] writes $HK$ as a union of left cosets $hK$ and counts these cosets with Lagrange's theorem.
+A third proof uses the action of $H \times K$ on $G$ by $(h, k) \cdot g = hgk^{-1}$.
+The orbit of $e$ is $HK$, and the stabiliser of $e$ is isomorphic to $H \cap K$.
+The [[orbit-stabiliser theorem|0E2HSCKZ6C]] then gives the formula.

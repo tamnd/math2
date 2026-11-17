@@ -2,11 +2,16 @@
 tag: HPK63MF9QA
 kind: proof
 name: Proof of the tower law for indices
-msc: [20A05]
+msc: ["20A05"]
+topics: [1VHQWXC64D]
+audience: ug1
 proves: 0ZQJ7KEFQ5
 uses: [G5S1M9, 0N0PXCTYA7, 05FD317V2W, 04QEBF8S49, 0HTGB13FE2, 0C81YBVTWH, 0QKPNZKNEA, 08EJHHMB5R]
+methods: [0NTF6DMVAP]
 sources:
   - url: https://proofwiki.org/wiki/Tower_Law_for_Subgroups
+  - book: isbn:9780471433347
+    locator: Section 3.2
 ---
 
 ## Proof
@@ -33,4 +38,12 @@ We build an explicit bijection from pairs of coset representatives to the left c
 
 ## Idea
 
-Each left coset of $K$ in $G$ is found in two stages. First choose the coset of $H$ that contains it, then the coset of $K$ inside that copy of $H$. So the cosets of $K$ match the pairs of choices, and their number is the product of the two indices.
+Each left coset of $K$ in $G$ is found in two stages.
+First choose the coset of $H$ that contains it, and then the coset of $K$ inside that copy of $H$.
+So the cosets of $K$ match the pairs of choices, and their number is the product of the two indices.
+
+## Variants
+
+For a finite group $G$ there is a short proof by the counting form of Lagrange's theorem.
+We have $[G : K] = |G| / |K| = (|G| / |H|) \cdot (|H| / |K|) = [G : H] \cdot [H : K]$.
+When both indices are finite, the sets $R$ and $S$ are finite, and the axiom of choice is not needed.

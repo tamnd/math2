@@ -1,0 +1,59 @@
+---
+tag: DT16PG4AFQ
+kind: example
+name: The identity map from S3 to its opposite group is not a homomorphism
+msc: [20A05]
+topics: [BAZT8JJ70S]
+audience: ug1
+not_instance_of:
+  - target: 0JYTG5K9Y4
+    note: the identity map S3 to S3 op does not keep products, because S3 is not abelian
+uses: [D33V8HE0KY, 0515A6D2Y1, 0JYTG5K9Y4]
+sources:
+  - url: https://en.wikipedia.org/wiki/Opposite_group
+    locator: lead section
+---
+
+## Example
+
+Let $S_3$ be the [[symmetric group|0515A6D2Y1]] on $\{1, 2, 3\}$, with permutations composed from right to left.
+Let $S_3^{\mathrm{op}}$ be its [[opposite group|D33V8HE0KY]], with the product $\sigma \ast \tau = \tau\sigma$.
+Let $f \colon S_3 \to S_3^{\mathrm{op}}$ be the identity map, $f(\sigma) = \sigma$.
+We show that $f$ is not a [[group homomorphism|0JYTG5K9Y4]].
+
+1. A homomorphism must satisfy $f(\sigma\tau) = f(\sigma) \ast f(\tau)$ for all $\sigma, \tau \in S_3$.
+2. Take $\sigma = (1\ 2)$ and $\tau = (1\ 3)$.
+3. The left side is $f\bigl((1\ 2)(1\ 3)\bigr) = (1\ 2)(1\ 3) = (1\ 3\ 2)$.
+4. The right side is $(1\ 2) \ast (1\ 3) = (1\ 3)(1\ 2) = (1\ 2\ 3)$.
+5. The permutation $(1\ 3\ 2)$ sends $1$ to $3$, and $(1\ 2\ 3)$ sends $1$ to $2$, so they differ.
+
+So the condition fails for one pair, and $f$ is not a homomorphism.
+
+## Remarks
+
+For any group $G$, the identity map $G \to G^{\mathrm{op}}$ is a homomorphism exactly when $ab = ba$ for all $a, b \in G$, that is, when $G$ is [[abelian|082GHNPJ53]].
+So the failure comes from the fact that $S_3$ is not abelian.
+The groups $S_3$ and $S_3^{\mathrm{op}}$ are still [[isomorphic|08MG7H8JW5]], by the map $\sigma \mapsto \sigma^{-1}$, as [[the opposite group of S3|9QATFG288Z]] shows.
+Thus a map can fail to be an isomorphism between two groups that are isomorphic: the choice of map matters.
+
+## Explanations
+
+### L1 human
+
+The opposite group of $S_3$ has the same six moves of three cards, but it multiplies them in the other order.
+If we match each move with itself, a product in one group does not match the product in the other group.
+For example, "swap cards $1$ and $3$, then swap cards $1$ and $2$" and the same swaps in the other order give two different moves.
+So matching each move with itself does not respect the two rules.
+
+### L2 human
+
+We find all pairs where the identity map fails, to see how often it fails.
+
+1. The map fails at the pair $(\sigma, \tau)$ exactly when $\sigma\tau \ne \tau\sigma$.
+2. The identity $e$ commutes with every element, and each element commutes with itself.
+3. The two $3$-cycles commute with each other, because both are powers of $(1\ 2\ 3)$.
+4. Two different transpositions do not commute, as the Example shows for $(1\ 2)$ and $(1\ 3)$.
+5. A transposition and a $3$-cycle do not commute: for example $(1\ 2)(1\ 2\ 3) = (2\ 3)$, but $(1\ 2\ 3)(1\ 2) = (1\ 3)$.
+
+The typical use of this example is to show that "isomorphic" means "there is some isomorphism", not "this particular map is an isomorphism".
+A trap is to check the rule only on pairs that commute, such as $(e, \sigma)$ or $(\sigma, \sigma)$, where it always holds.

@@ -3,7 +3,7 @@ tag: DX6X1D21FE
 kind: example
 name: The Klein four-group is abelian but not cyclic
 msc: ["20A05"]
-topics: [BAVE5RN4EE]
+topics: [BAVE5RN4EE, BAZT8JJ70S]
 audience: ug1
 instance_of: [082GHNPJ53]
 not_instance_of:
@@ -12,7 +12,7 @@ not_instance_of:
   - target: RXWA8TF2RM
     note: the group is finitely generated and not cyclic
 illustrates: [04RG02S6BA]
-uses: [0PMRQJVTME, 0WE2NHZJ7B, 08ABT85339, 0KVGH0J5B3, 082GHNPJ53]
+uses: [0PMRQJVTME, 0WE2NHZJ7B, 08ABT85339, 0KVGH0J5B3, 082GHNPJ53, 0YB2NRP0T5]
 sources:
   - url: https://en.wikipedia.org/wiki/Klein_four-group
     locator: lead section

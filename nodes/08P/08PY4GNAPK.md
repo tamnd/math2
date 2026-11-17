@@ -1,30 +1,93 @@
 ---
 tag: 08PY4GNAPK
 kind: statement
-role: proposition
+role: theorem
 name: Product formula for the order of HK
-msc: [20D60]
-uses: [0NS1YTGM19, 0ZTGMDNVTB, 0DKMBWTD7P]
+msc: ["20D60"]
+topics: [1VHQWXC64D]
+audience: ug1
+about: [0PT52XQZD7, 0X1JXT47GA]
+uses: [G5S1M9, 0X1JXT47GA, 0PT52XQZD7, 0ZTGMDNVTB, 0DKMBWTD7P, 3C53TD]
 sources:
   - url: https://en.wikipedia.org/wiki/Product_of_group_subsets
     locator: Product of subgroups
+  - book: isbn:9780471433347
+    locator: Section 3.2
 ---
 
 ## Statement
 
-Let $G$ be a [[group|G5S1M9]] and let $H$ and $K$ be finite [[subgroups|0X1JXT47GA]] of $G$.
-Then the [[product|0PT52XQZD7]] $HK$ has exactly $\dfrac{|H| \, |K|}{|H \cap K|}$ elements.
+Let $G$ be a [[group|G5S1M9]], and let $H$ and $K$ be finite [[subgroups|0X1JXT47GA]] of $G$.
+Let $HK = \{hk : h \in H, k \in K\}$ be their [[product|0PT52XQZD7]].
+Then $HK$ is a finite set, and
+$$|HK| = \frac{|H| \, |K|}{|H \cap K|}.$$
+Equivalently, $|HK| \cdot |H \cap K| = |H| \cdot |K|$.
+The group $G$ can be infinite, and $HK$ need not be a subgroup.
 
 ## Remarks
 
-The formula holds also when $HK$ is not a subgroup.
-The proof counts the pairs $(h, k)$: two pairs $(h, k)$ and $(h', k')$ give the same product exactly when $h' = hx$ and $k' = x^{-1}k$ for some $x \in H \cap K$.
-For example, two distinct subgroups of order $2$ in $S_3$ meet in $\{e\}$, and their product has $2 \cdot 2 / 1 = 4$ elements.
+### Why each hypothesis is needed
+
+- The subgroups $H$ and $K$ must be finite. For $H = K = \mathbb{Z}$ in $(\mathbb{Z}, +)$, all three sizes are infinite, and the quotient of two infinite cardinals has no meaning. The form with an index in the section "Generalizations" still holds.
+- The sets $H$ and $K$ must be subgroups. In $\mathbb{Z}$, let $A = B = \{0, 1\}$. Then $A + B = \{0, 1, 2\}$ has $3$ elements, but $|A| \, |B| / |A \cap B| = 2 \cdot 2 / 2 = 2$.
+- The intersection $H \cap K$ is never empty, because it contains $e$. Thus the formula never divides by $0$.
+
+### Consequences
+
+- If $G$ is finite, then $|HK| \le |G|$, so $|H \cap K| \ge |H| \, |K| / |G|$. Large subgroups must have a large intersection.
+- In $S_4$, let $P$ be a subgroup of order $8$. Then $|A_4 \cap P| \ge 12 \cdot 8 / 24 = 4$. By [[Lagrange's theorem|3C53TD]], $|A_4 \cap P|$ divides $12$ and $8$, so it divides $4$ and is equal to $4$.
+- In $S_4$, two different subgroups of order $8$ meet in a subgroup of order at least $64 / 24 > 2$. This order divides $8$ and is less than $8$, so it is $4$.
+- If $|H|$ and $|K|$ are coprime, then $H \cap K = \{e\}$ by Lagrange's theorem, and $|HK| = |H| \, |K|$.
+- If $G$ is finite, $H \cap K = \{e\}$ and $|H| \, |K| = |G|$, then $HK = G$, and each element of $G$ is a product $hk$ in exactly one way. For example, $S_3 = A_3 \langle (1\,2) \rangle$, as [[this example|Y99CMM73CP]] shows.
+- The formula is one step in the proof that [[$A_4$ has no subgroup of order $6$|0PDBVPP233]].
+
+### Converse
+
+The statement is an equation, so its converse would say that two finite subsets $A$ and $B$ with $|AB| \cdot |A \cap B| = |A| \cdot |B|$ are subgroups.
+This is false.
+In $\mathbb{Z}$, let $A = \{0, 1\}$ and $B = \{0\}$.
+Then $A + B = A$ and $A \cap B = \{0\}$, so both sides of the equation are $2 \cdot 1 = 2$, but $A$ is not a subgroup.
+A second false converse says that $HK$ is a subgroup when $|HK|$ divides $|G|$.
+In $S_4$, the product of $\langle (1\,2) \rangle$ and $\langle (1\,3) \rangle$ has $4$ elements, and $4$ divides $24$, but this product is not closed.
+
+### Generalizations
+
+- For any subgroups $H$ and $K$, the set $HK$ is the disjoint union of $[H : H \cap K]$ left cosets of $K$. Thus $|HK| = [H : H \cap K] \cdot |K|$ as cardinal numbers. The [[proof by cosets|BEYJE2N47J]] shows this.
+- If $HK$ is a subgroup, the same fact gives $[HK : K] = [H : H \cap K]$. When $K$ is normal, this is a part of the [[second isomorphism theorem|0PPP2J2DJV]].
+- For $g \in G$, the [[double coset|DSBE321XMS]] $HgK$ has $|H| \, |K| / |H \cap gKg^{-1}|$ elements. The reason is that $HgK = (H \cdot gKg^{-1})g$, and $gKg^{-1}$ has $|K|$ elements.
+- For subgroups of finite index, $[G : H \cap K] \le [G : H] \cdot [G : K]$, by [[Poincaré's theorem|W0SW2ATN1Y]].
 
 ## Explanations
 
 ### L1 human
 
-Each product $hk$ can be written in several ways, because you can move an element of $H \cap K$ from one factor to the other.
-Each element of $HK$ has exactly $|H \cap K|$ such ways.
-So you divide the number of pairs, $|H| \, |K|$, by $|H \cap K|$.
+Multiply each element of one subgroup by each element of another subgroup.
+If the subgroups have $6$ and $4$ elements, you get $24$ products.
+Some of these products are equal, so the set of products can be smaller than $24$.
+Each product appears as many times as there are elements in the overlap of the two subgroups.
+If the overlap has $2$ elements, there are $24 / 2 = 12$ different products.
+
+### L2 human
+
+We compute $H + K$ in $G = \mathbb{Z}/12\mathbb{Z}$ for $H = \{0, 2, 4, 6, 8, 10\}$ and $K = \{0, 3, 6, 9\}$.
+
+1. The set $H$ is the subgroup generated by $2$, and $|H| = 6$.
+2. The set $K$ is the subgroup generated by $3$, and $|K| = 4$.
+3. The intersection is $H \cap K = \{0, 6\}$, so $|H \cap K| = 2$.
+4. The formula gives $|H + K| = 6 \cdot 4 / 2 = 12$.
+5. Thus $H + K = G$. A direct check agrees: for example $1 = 4 + 9$ and $5 = 2 + 3$.
+
+The typical use is to bound an intersection.
+Two subgroups of order $8$ in a group of order $24$ give at least $64 / 24$ common elements, so they meet in more than $\{e\}$.
+
+A trap is to read $|HK|$ as the order of a subgroup.
+The formula counts a set, and this set is a subgroup only when $HK = KH$.
+
+### L3 human
+
+The group $H \times K$ acts on $G$ by $(h, k) \cdot g = hgk^{-1}$.
+The orbit of $e$ is $HK$, and the stabiliser of $e$ is the set of pairs $(x, x)$ with $x \in H \cap K$.
+Thus the formula is the [[orbit-stabiliser theorem|0E2HSCKZ6C]] for this action, and the other orbits are the double cosets $HgK$.
+For subspaces $U$ and $W$ of a vector space over a finite field, the same formula reads $|U + W| = |U| \, |W| / |U \cap W|$.
+Taking logarithms to the base $q$ gives the dimension formula $\dim(U + W) = \dim U + \dim W - \dim(U \cap W)$.
+In the [[Sylow theory|FESTJ0K9TX]], the formula for double cosets of two Sylow subgroups gives a short proof that they are conjugate.

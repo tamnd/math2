@@ -1,0 +1,66 @@
+---
+tag: FV86TFARY4
+kind: example
+name: The real numbers modulo the integers are isomorphic to the circle group
+msc: ["20A05"]
+topics: [E1506A5A55]
+audience: ug1
+instance_of: [0KYX2N69J0]
+illustrates: [0CXXJNG5B6]
+uses: [08J2M1JYAG, 0C4JS9RF5M, 04EAFVFTF7, 0J0FCWV32D, 0JPDTEDCFD, 0JYTG5K9Y4, 0W88CEGQP1, 0CXXJNG5B6]
+sources:
+  - url: https://en.wikipedia.org/wiki/Quotient_group
+    locator: Real numbers modulo the integers
+  - url: https://en.wikipedia.org/wiki/Circle_group
+    locator: Isomorphisms and conventions
+---
+
+## Example
+
+Let $\mathbb{R}$ be the [[real numbers|08J2M1JYAG]] under addition, and let $\mathbb{Z}$ be the [[integers|0C4JS9RF5M]].
+Let $\mathbb{T} = \{z \in \mathbb{C} : |z| = 1\}$ be the [[circle group|04EAFVFTF7]] under multiplication of complex numbers.
+We show that $\mathbb{R}/\mathbb{Z} \cong \mathbb{T}$.
+
+1. The group $\mathbb{R}$ is abelian, so its subgroup $\mathbb{Z}$ is normal ([[this statement|0JPDTEDCFD]]). Thus the quotient group $\mathbb{R}/\mathbb{Z}$ exists.
+2. Define $\varphi \colon \mathbb{R} \to \mathbb{T}$ by $\varphi(x) = e^{2\pi i x}$, with the complex [[exponential function|0J0FCWV32D]]. The value is in $\mathbb{T}$, because $|e^{i\theta}| = 1$ for each real number $\theta$.
+3. The map $\varphi$ is a [[group homomorphism|0JYTG5K9Y4]], because $\varphi(x + y) = e^{2\pi i x + 2\pi i y} = e^{2\pi i x} e^{2\pi i y} = \varphi(x)\varphi(y)$.
+4. The map $\varphi$ is surjective. Each $z \in \mathbb{T}$ has a polar form $z = e^{i\theta}$ with $\theta \in [0, 2\pi)$, and then $z = \varphi(\theta/(2\pi))$.
+5. The [[kernel|0W88CEGQP1]] of $\varphi$ is $\mathbb{Z}$. We have $e^{2\pi i x} = 1$ if and only if $2\pi x$ is an integer multiple of $2\pi$, that is, if and only if $x \in \mathbb{Z}$.
+6. By the [[first isomorphism theorem|0CXXJNG5B6]], the formula $x + \mathbb{Z} \mapsto e^{2\pi i x}$ is a well defined isomorphism $\mathbb{R}/\mathbb{Z} \to \mathbb{T}$.
+
+## Remarks
+
+Each coset $x + \mathbb{Z}$ contains exactly one number in the interval $[0, 1)$, namely the fractional part of $x$.
+So we can think of $\mathbb{R}/\mathbb{Z}$ as $[0, 1)$ with addition modulo $1$.
+The isomorphism wraps this interval once around the circle.
+
+The coset $\frac{1}{4} + \mathbb{Z}$ has order $4$ in $\mathbb{R}/\mathbb{Z}$, because $4 \cdot \frac{1}{4} = 1 \in \mathbb{Z}$, and $\frac{1}{4}$, $\frac{2}{4}$ and $\frac{3}{4}$ are not integers.
+Its image is $e^{2\pi i/4} = i$, which also has order $4$ in $\mathbb{T}$.
+
+More generally, the cosets of finite order are the cosets $q + \mathbb{Z}$ with $q$ rational.
+They form the subgroup $\mathbb{Q}/\mathbb{Z}$, and the isomorphism sends it onto the group of all [[roots of unity|0WX11EA3F3]].
+
+For each real number $a \ne 0$, the same method with $x \mapsto e^{2\pi i x/a}$ gives $\mathbb{R}/a\mathbb{Z} \cong \mathbb{T}$.
+With $a = 2\pi$, this is the group of angles, measured in radians, under addition.
+
+## Explanations
+
+### L1 human
+
+Wrap the real number line around a circle of length $1$.
+Then the numbers $0$, $1$, $2$, $-1$, and all other integers land on the same point.
+More generally, two numbers land on the same point exactly when their difference is an integer.
+So the points of the circle match the cosets $x + \mathbb{Z}$, and adding real numbers matches turning around the circle.
+
+### L2 human
+
+To add two elements of $\mathbb{R}/\mathbb{Z}$, add representatives and keep only the fractional part.
+For example, $(0.7 + \mathbb{Z}) + (0.6 + \mathbb{Z}) = 1.3 + \mathbb{Z} = 0.3 + \mathbb{Z}$.
+On the circle, this is $e^{2\pi i (0.7)} \cdot e^{2\pi i (0.6)} = e^{2\pi i (1.3)} = e^{2\pi i (0.3)}$, because $e^{2\pi i} = 1$.
+
+A trap is to think that $[0, 1)$ with ordinary addition is a group.
+It is not closed, because $0.7 + 0.6 = 1.3$ is not in $[0, 1)$.
+The quotient group fixes this, because $1.3$ and $0.3$ are in the same coset.
+
+A second trap is to use the map $x \mapsto e^{ix}$ with $\mathbb{Z}$ as the kernel.
+The kernel of $x \mapsto e^{ix}$ is $2\pi\mathbb{Z}$, not $\mathbb{Z}$, so this map gives $\mathbb{R}/2\pi\mathbb{Z} \cong \mathbb{T}$.

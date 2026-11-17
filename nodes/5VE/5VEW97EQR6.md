@@ -1,0 +1,56 @@
+---
+tag: 5VEW97EQR6
+kind: example
+name: An idempotent matrix whose powers never reach the identity
+msc: [20A05, 20M99]
+topics: [BAZT8JJ70S]
+audience: ug1
+not_instance_of:
+  - target: 0WE2NHZJ7B
+    note: the matrix E with entries 1, 0, 0, 0 satisfies E^n = E for each positive n, but it is not invertible, so it is not an element of a group of matrices with the identity matrix as identity, and it has no order
+uses: [0N5NJZKKN3, 0JXZKX526R, 00KDZRW4C0]
+sources:
+  - url: https://en.wikipedia.org/wiki/Idempotent_matrix
+    locator: lead section
+---
+
+## Example
+
+Let $E = \begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix}$ in the set $M_2(\mathbb{R})$ of real $2 \times 2$ [[square matrices|0JXZKX526R]], and let $I = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}$.
+We show that $E^n \neq I$ for each positive integer $n$, and that $E$ has no [[order|0WE2NHZJ7B]] as an element of a group with identity $I$.
+
+1. We have $E^2 = \begin{pmatrix} 1 \cdot 1 + 0 \cdot 0 & 1 \cdot 0 + 0 \cdot 0 \\ 0 \cdot 1 + 0 \cdot 0 & 0 \cdot 0 + 0 \cdot 0 \end{pmatrix} = \begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix} = E$. Thus $E$ is an [[idempotent element|0N5NJZKKN3]].
+2. By [[induction|0ASJVEFA9J]] on $n$, we get $E^n = E$ for each $n \geq 1$. The case $n = 1$ is clear. When $E^n = E$, we get $E^{n+1} = E^n E = E E = E$ by step 1.
+3. The entry in row $2$ and column $2$ of $E$ is $0$, and the same entry of $I$ is $1$. Thus $E \neq I$, and by step 2, $E^n \neq I$ for each $n \geq 1$.
+4. The [[determinant|00KDZRW4C0]] of $E$ is $1 \cdot 0 - 0 \cdot 0 = 0$. So $E$ is not invertible, and $E$ is not an element of a group of matrices whose identity is $I$.
+
+The order of an element is defined only for an element of a group.
+So $E$ does not have finite order, and it does not have infinite order either: the concept does not apply to $E$.
+
+## Remarks
+
+The set $\{E\}$ with matrix multiplication is a group, because $E E = E$.
+In this group the identity element is $E$, not $I$, and $E$ has order $1$.
+So the order of an element depends on the group, and in particular on its identity element.
+In a [[monoid|0N6R902FG1]] such as $M_2(\mathbb{R})$, the powers of an element can repeat without ever reaching the identity.
+In a group this cannot happen: when $g^a = g^b$ with $a < b$, cancellation gives $g^{b - a} = e$.
+
+## Explanations
+
+### L1 human
+
+Take the matrix $E$ and multiply it by itself.
+The result is $E$ again, and it stays $E$ for each further step.
+So the powers of $E$ never reach the identity matrix $I$.
+This does not mean that $E$ has infinite order, because $E$ has no inverse, and order is defined only inside a group.
+
+### L2 human
+
+Compare $E$ with an element of a group whose powers repeat.
+
+1. In the group of complex numbers $\{1, i, -1, -i\}$, the powers of $i$ are $i, -1, -i, 1, i, \ldots$, so $i^5 = i^1$.
+2. Cancellation of $i$ in $i^5 = i \cdot i^4$ gives $i^4 = 1$. So the repeat leads back to the identity.
+3. For $E$ we have $E^2 = E^1$, but we cannot cancel $E$, because $E$ has no inverse. Indeed $E \cdot E = E \cdot I$, but $E \neq I$.
+
+The typical use of this example is to show why the definition of order asks for a group.
+A trap is to call $E$ an element of infinite order because no power is $I$; the right statement is that $E$ is not in the group $\mathrm{GL}_2(\mathbb{R})$ at all.
