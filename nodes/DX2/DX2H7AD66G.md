@@ -1,0 +1,116 @@
+---
+tag: DX2H7AD66G
+kind: concept
+name: Reduction to a special case
+aliases: [reduction-to-a-special-case, normalization-argument, reduction-to-normal-form]
+msc: ["00A35", "26D05"]
+topics: [MEKKHHQTKB, G9JFJGY4TQ]
+audience: ug1
+specializes: [0B94TKFQJX]
+uses: [0B94TKFQJX, 2C3PAQ7H50, XNCV97HTZ8, 0WCP0PVET6, M2FAMD9HZN]
+sources:
+  - url: https://en.wikipedia.org/wiki/Homogeneous_function
+    locator: lead section
+  - url: https://en.wikipedia.org/wiki/Completing_the_square
+    locator: lead section
+  - book: isbn:9780691164076
+    locator: Part III
+---
+
+## Summary
+
+Reduction to a special case is a [[proof|0B94TKFQJX]] method in two steps.
+First we find transformations that do not change the truth of the statement, such as scaling, translation, rotation or a change of variables.
+Then we use them to move each instance of the statement to a special instance, often called a normalized case or a normal form.
+It remains to prove the statement for the special instances, which have fewer free parameters.
+Typical normalizations are "the vector has length $1$", "one variable equals $1$", "the leading coefficient is $1$" and "the triangle has a vertex at the origin".
+The method matters because it removes parameters that do not affect the truth of a statement, so the remaining proof is shorter and the key step is visible.
+
+## Motivation
+
+The inequality $\lvert u \cdot v \rvert \le \lVert u \rVert \, \lVert v \rVert$ has two vectors of any length.
+If $u$ is replaced by $2u$, both sides double, so the inequality for $2u$ and $v$ says the same as the inequality for $u$ and $v$.
+So the lengths of $u$ and $v$ carry no information, and we may take them equal to $1$.
+For unit vectors the claim is $\lvert u \cdot v \rvert \le 1$, which has a two-line proof.
+In the same way, the general quadratic equation $ax^2 + bx + c = 0$ reduces to $y^2 = d$ by a division and a translation.
+George Pólya lists specialization among the heuristics of problem solving: a special case that is general enough contains the whole problem.
+
+## Notation
+
+1. A normalization is often written as an assumption in the proof: "we may assume $\lVert u \rVert = 1$" or "without loss of generality $b = 1$". See the abbreviation wlog in [[this example sentence|K35RJ9YHC0]].
+2. A polynomial $f$ is homogeneous of degree $d$ when $f(tx) = t^d f(x)$ for each $t$ and each $x$, see [[homogeneous polynomial|2C3PAQ7H50]].
+3. For a nonzero vector $u$, the unit vector $u / \lVert u \rVert$ is the [[normalization|M2FAMD9HZN]] of $u$.
+4. A substitution such as $x = y - \tfrac{b}{2a}$ is written as an equation between the old variable and the new one. Its inverse $y = x + \tfrac{b}{2a}$ shows that it is a bijection.
+
+## Remarks
+
+### Examples
+
+1. [[Cauchy-Schwarz by reduction to unit vectors|N8Z4J61ZHV]]: both sides of $\lvert u \cdot v \rvert \le \lVert u \rVert \, \lVert v \rVert$ scale in the same way, so it suffices to treat $\lVert u \rVert = \lVert v \rVert = 1$, where $0 \le \lVert u \mp v \rVert^2 = 2 \mp 2\, u \cdot v$ gives the claim.
+2. [[A homogeneous inequality reduced to one variable|KG3RKYJRNY]]: both sides of $a^3 + b^3 \ge a^2 b + a b^2$ are homogeneous of degree $3$, so for $b > 0$ it suffices to treat $b = 1$. Then the claim is $(t - 1)^2 (t + 1) \ge 0$ for $t \ge 0$.
+3. [[Completing the square|XNCV97HTZ8]]: for $a \neq 0$, division by $a$ and the translation $x = y - \tfrac{b}{2a}$ turn $ax^2 + bx + c = 0$ into $y^2 = \tfrac{b^2 - 4ac}{4a^2}$. This proves the quadratic formula, see [[this proof|NXNBXZWFZ1]].
+4. A [[cubic equation|T9D2XJS8NK]] $x^3 + ax^2 + bx + c = 0$ becomes, under $x = y - \tfrac{a}{3}$, a depressed cubic $y^3 + py + q = 0$ with no $y^2$ term. The $y^2$ terms are $-ay^2$ from $(y - \tfrac{a}{3})^3$ and $+ay^2$ from $a(y - \tfrac{a}{3})^2$, and they cancel. The [[cubic formula|FB6J5WAT5V]] is then proved for depressed cubics only.
+5. The medians of each triangle meet at one point, the [[centroid|0X7EEWES5G]]. An affine map of the plane sends lines to lines and midpoints to midpoints, and each triangle is the image of $(0, 0)$, $(1, 0)$, $(0, 1)$ under such a map. For this triangle the three medians pass through $(\tfrac13, \tfrac13)$.
+6. By the [[principal axis theorem|0PR5P9Z4KM]], a rotation of coordinates turns each [[quadratic form|0RBQS1JJCR]] in two variables into $\lambda_1 x^2 + \lambda_2 y^2$. So a statement about [[ellipses|0VKCCEXBJ1]] that rotations and translations do not change can be proved for $\tfrac{x^2}{a^2} + \tfrac{y^2}{b^2} = 1$.
+
+### Non-examples
+
+1. [[Reduction to the unit case for an inhomogeneous inequality|YQXE13QY9Z]]: the claim $x^2 \ge x$ is true for $\lvert x \rvert = 1$, but the two sides scale differently, so the reduction is not allowed, and the claim fails at $x = \tfrac12$.
+2. The claim "the three medians of a triangle have equal length" is true for an equilateral triangle. Each triangle is the image of an equilateral one under an affine map, but affine maps do not preserve length. The triangle $(0, 0)$, $(2, 0)$, $(0, 2)$ has medians of lengths $\sqrt 2$, $\sqrt 5$ and $\sqrt 5$.
+3. A check of "the angles of a quadrilateral add up to $2\pi$" on a square is not a proof. No admissible transformation moves each quadrilateral to a square and keeps the angle sum, so the square is not a normal form. A proof cuts the quadrilateral along a diagonal into two triangles.
+
+### Basic properties
+
+1. The method has a general form. Let $G$ be a set of transformations of the instances, and let $S$ be a set of special instances. If $P(x)$ holds exactly when $P(g(x))$ holds, for each $g \in G$, and if each instance is moved into $S$ by some $g \in G$, then $P$ on $S$ implies $P$ for all instances.
+2. Let $f$ and $g$ be homogeneous of the same degree $d$. For $t > 0$, the inequality $f(tx) \ge g(tx)$ is $t^d f(x) \ge t^d g(x)$, which is equivalent to $f(x) \ge g(x)$. So it suffices to prove the inequality on the unit sphere, or with one positive variable equal to $1$.
+3. Statements about distances, angles and areas do not change under translations and rotations. So a proof may put one point at the origin and one line on the $x$-axis.
+4. A reduction may exclude some instances, for example the zero vector, which has no normalization. These instances need a separate argument, as in a [[proof by cases|0WCP0PVET6]].
+5. Two reductions can be composed. The quadratic formula uses a division by $a$ and then a translation.
+6. Each normalization uses one degree of freedom. A scaling can fix one quantity, such as $b = 1$, but not two independent quantities, such as $a = 1$ and $b = 1$.
+
+### History
+
+Completing the square appears in the work of al-Khwarizmi in the ninth century, in a geometric form.
+In "Ars Magna" (1545), Gerolamo Cardano solved cubic equations, and the removal of the square term by a translation reduces the general cubic to a depressed one.
+In "How to Solve It" (1945), George Pólya included specialization in his short dictionary of heuristics.
+
+### Common errors
+
+1. A student normalizes a quantity that can be $0$, for example $\lVert u \rVert = 1$, and forgets the case $u = 0$. The excluded case needs its own line.
+2. A student scales an inequality whose two sides have different degrees, such as $x^2 \ge x$. The transformation must preserve the statement, see the first non-example.
+3. A student normalizes two quantities with one scaling, for example "wlog $a = b = 1$" in a homogeneous inequality in $a$ and $b$. This proves only the case $a = b$.
+4. A student divides by a variable whose sign is unknown. For an odd degree $d$ and $t < 0$, the factor $t^d$ is negative and reverses the inequality.
+
+## Explanations
+
+### L1 human
+
+Some facts about shapes do not depend on where the shape is or how large it is.
+For example, the diagonal of a square is $\sqrt 2$ times its side, whatever the size of the square.
+To check such a fact, we may draw the square with side $1$ and one corner at the origin.
+Then the diagonal goes from $(0, 0)$ to $(1, 1)$, and its length is $\sqrt{1 + 1} = \sqrt 2$.
+A larger square is a scaled copy of this one, and scaling multiplies the side and the diagonal by the same number.
+
+### L2 human
+
+We prove $x^2 + xy + y^2 \ge 0$ for all real $x$ and $y$ by reduction to $y = 1$.
+
+1. Both sides are homogeneous of degree $2$: replacing $(x, y)$ by $(sx, sy)$ multiplies the left side by $s^2$.
+2. Case $y = 0$: the left side is $x^2 \ge 0$. This case is excluded by the scaling in step 3, so it is checked first.
+3. Case $y \neq 0$: let $t = x / y$. Then $x^2 + xy + y^2 = y^2 (t^2 + t + 1)$, and $y^2 > 0$. So it suffices to show $t^2 + t + 1 \ge 0$, the case $y = 1$.
+4. Completing the square gives $t^2 + t + 1 = (t + \tfrac12)^2 + \tfrac34 > 0$.
+5. So $x^2 + xy + y^2 \ge 0$, with equality only for $x = y = 0$.
+
+The typical use is an inequality or an identity with more parameters than its truth depends on.
+A trap is to forget the instances that the transformation cannot reach, such as $y = 0$ in step 2.
+
+### L3 human
+
+In general terms, a group $G$ acts on the set of instances, the statement $P$ is $G$-invariant, and $S$ meets each orbit.
+Then $P$ on $S$ implies $P$ everywhere, and the set $S$ is a set of normal forms for the action.
+Linear algebra has many such normal forms.
+Statements invariant under similarity of matrices, such as the [[Cayley-Hamilton theorem|0F765KFC2J]], can be checked on the [[Jordan normal form|085HQ5G5TE]] over an algebraically closed field.
+Statements about modules over a principal ideal domain reduce to the [[Smith normal form|MV28Z5N9XX]].
+In analysis, translations and dilations reduce many estimates to the unit ball, and homogeneity fixes the exponents in inequalities such as the Sobolev inequality.
+The method is close to the [[symmetry arguments|H840D9TM2X]], since the transformations are symmetries of the statement.
+It is also related to the [[density argument|J2J35J3055]], which reduces a statement to a dense class instead of a normal form.

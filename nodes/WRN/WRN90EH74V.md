@@ -1,0 +1,62 @@
+---
+tag: WRN90EH74V
+kind: example
+name: Mutual divisibility of integers does not give equality
+msc: ["00A35", "11A05"]
+topics: [MEKKHHQTKB]
+audience: ug1
+not_instance_of:
+  - target: S3QADD13E9
+    note: divisibility on the integers is not antisymmetric, so the two relations a | b and b | a do not give a = b
+uses: [S3QADD13E9, 0PG2H7WKGG, 0M0H1ZH8TT, 053E86NWVK]
+sources:
+  - url: https://en.wikipedia.org/wiki/Antisymmetric_relation
+    locator: lead section
+---
+
+## Example
+
+On the set $\mathbb{Z}$ of all integers, consider [[divisibility|0PG2H7WKGG]]: $a \mid b$ means $b = ak$ for some integer $k$.
+A student argues: "$a \mid b$ and $b \mid a$, so $a = b$, by [[equality by two inequalities|S3QADD13E9]]".
+We show that this step is not valid on $\mathbb{Z}$.
+
+1. Take $a = 2$ and $b = -2$.
+2. Then $-2 = 2 \cdot (-1)$, so $2 \mid -2$.
+3. Also $2 = (-2) \cdot (-1)$, so $-2 \mid 2$.
+4. But $2 \neq -2$. So $a \mid b$ and $b \mid a$ do not imply $a = b$ on $\mathbb{Z}$.
+5. The relation $\mid$ on $\mathbb{Z}$ is reflexive and transitive, but it is not [[antisymmetric|0M0H1ZH8TT]]. So it is a preorder and not a partial order, and the method does not apply.
+
+What the two relations do give:
+
+6. Let $a \mid b$ and $b \mid a$ with $a \neq 0$. Write $b = ak$ and $a = b\ell$ with integers $k$ and $\ell$.
+7. Then $a = ak\ell$, and $a \neq 0$ gives $k\ell = 1$.
+8. The only integers with $k\ell = 1$ are $k = \ell = 1$ and $k = \ell = -1$. So $b = a$ or $b = -a$.
+9. If $a = 0$, then $a \mid b$ gives $b = 0$, so again $b = a$.
+10. So on $\mathbb{Z}$ the correct conclusion is $b = \pm a$.
+
+## Remarks
+
+1. The example shows that the method needs antisymmetry. Two "inequalities" in a relation that is only a preorder give equivalence, not equality.
+2. The equivalence here is "$b = \pm a$". In ring theory, elements $a$ and $b$ with $a \mid b$ and $b \mid a$ are called [[associate elements|053E86NWVK]], and in an integral domain they differ by a unit factor.
+3. The method is restored by a choice of representatives. On the positive integers, $\mid$ is antisymmetric, as in [[mutual divisibility of natural numbers gives equality|P2AJBVRA3S]].
+4. In the ring of polynomials over $\mathbb{R}$, the polynomials $x + 1$ and $2x + 2$ divide each other but differ. Monic polynomials play the role of the positive integers there.
+
+## Explanations
+
+### L1 human
+
+The numbers $2$ and $-2$ divide each other, because each one is the other times $-1$.
+But they are different numbers.
+So "each divides the other" does not mean "they are equal" when negative numbers are allowed.
+It means only that they are equal up to a sign.
+
+### L2 human
+
+We find all integers $b$ with $6 \mid b$ and $b \mid 6$.
+
+1. From $b \mid 6$, $b$ is one of $\pm 1, \pm 2, \pm 3, \pm 6$.
+2. From $6 \mid b$, $b$ is a multiple of $6$. Of the numbers in step 1, only $6$ and $-6$ are multiples of $6$.
+3. So $b = 6$ or $b = -6$, in agreement with step 10 of the example.
+
+The typical use of this non-example is in algebra: a greatest common divisor in $\mathbb{Z}$ or in a polynomial ring is unique only up to a unit, unless a normal form is chosen.
+A trap is to quote "$a \mid b$ and $b \mid a$ give $a = b$" without the hypothesis that $a$ and $b$ are natural numbers.
