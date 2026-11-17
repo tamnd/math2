@@ -28,7 +28,7 @@ same_as:
 ## Statement
 
 We work in first-order logic without equality, over a [[signature|WDVVEYD6AT]] $\sigma$ that has at least one constant symbol.
-As in the proof system $H$ of the [[soundness theorem|~331f6430]], the connectives $\neg$, $\to$ and the quantifier $\forall$ are primitive, and $\lor$, $\land$, $\exists$ are abbreviations.
+As in the proof system $H$ of the [[soundness theorem|AVD7T7J063]], the connectives $\neg$, $\to$ and the quantifier $\forall$ are primitive, and $\lor$, $\land$, $\exists$ are abbreviations.
 A closed [[term|6D3WA7N2W4]] is a term with no variables.
 A quantifier-free sentence is read propositionally when each atomic sentence $R\,t_1 \cdots t_m$ is treated as a propositional variable.
 Such a sentence is a [[tautology|05006AJ7DZ]] when every truth assignment to the atomic sentences makes it true.
@@ -48,7 +48,7 @@ A disjunction of this kind is a Herbrand disjunction for $\exists \bar x \, \psi
 Let $\chi$ be a quantifier-free formula whose free variables are among $x_1, \dots, x_n$.
 The sentence $\forall x_1 \cdots \forall x_n \, \chi$ is not [[satisfiable|QN7M1JCGT9]] if and only if there are $k \ge 1$ and tuples $\bar t_1, \dots, \bar t_k$ of closed terms such that $\chi(\bar t_1) \land \cdots \land \chi(\bar t_k)$ is false under every truth assignment.
 
-Two proofs are given: a [[proof by propositional compactness and a Herbrand structure|~e4acb6a6]] and a [[proof by cut elimination|~fef865bc]].
+Two proofs are given: a [[proof by propositional compactness and a Herbrand structure|8PA3V079T0]] and a [[proof by cut elimination|Y8PV0B46A6]].
 
 ## Remarks
 
@@ -79,7 +79,7 @@ So $\neg \varphi$ has no model, and $\varphi$ is valid.
 
 ### Theories and equality
 
-The [[compactness proof|~e4acb6a6]] gives a version with hypotheses.
+The [[compactness proof|8PA3V079T0]] gives a version with hypotheses.
 Let $T$ be a set of universal sentences $\forall \bar y \, \theta$ with $\theta$ quantifier-free.
 Then $T \models \exists \bar x \, \psi$ if and only if there are finitely many ground instances $\theta_1, \dots, \theta_m$ of members of $T$ and tuples $\bar t_1, \dots, \bar t_k$ with $k \ge 1$ such that
 $$\theta_1 \land \cdots \land \theta_m \to \psi(\bar t_1) \lor \cdots \lor \psi(\bar t_k)$$
@@ -119,7 +119,7 @@ The Herbrand complexity of a valid sentence $\exists \bar x \, \psi$ is the leas
 3. Suppose that a truth assignment makes it false. Then the first disjunct is false, so $P fc$ is false.
 4. The second disjunct is false too, so $P fc$ is true. This contradicts step 3, so the disjunction is a tautology.
 
-The [[proof by cut elimination|~fef865bc]] gives an upper bound: the Herbrand complexity is at most the number of $\exists$-right inferences in any cut-free derivation of $\Rightarrow \exists \bar x \, \psi$ in the [[sequent calculus|W72CA3R9MP]] LK.
+The [[proof by cut elimination|Y8PV0B46A6]] gives an upper bound: the Herbrand complexity is at most the number of $\exists$-right inferences in any cut-free derivation of $\Rightarrow \exists \bar x \, \psi$ in the [[sequent calculus|W72CA3R9MP]] LK.
 
 ### Why each hypothesis is needed
 
@@ -140,7 +140,7 @@ The other direction is the content of the theorem and needs all the hypotheses.
 - Validity is semi-decidable. List all finite sets of tuples of closed terms, and test each disjunction by truth tables. The search stops exactly when the sentence is valid.
 - The search cannot be turned into a decision procedure. By [[Church's theorem|VA6BNNY2YC]], validity of first-order sentences is undecidable, and Skolem normal form reduces every sentence to the existential case.
 - The theorem is the basis of [[resolution|ZDW6N1PGJ7]] and of other methods of [[automated theorem proving|A51M1KK9DJ]]. These methods search for the terms $\bar t_i$ with [[unification|RJJ9D0WF53]] instead of listing all of them.
-- Over a signature with a constant symbol, a universal sentence with a model has a model whose elements are closed terms: a Herbrand structure. This is part of the [[compactness proof|~e4acb6a6]].
+- Over a signature with a constant symbol, a universal sentence with a model has a model whose elements are closed terms: a Herbrand structure. This is part of the [[compactness proof|8PA3V079T0]].
 
 ### Generalizations
 
@@ -152,7 +152,7 @@ The other direction is the content of the theorem and needs all the hypotheses.
 
 Jacques Herbrand proved the theorem in his doctoral thesis, Recherches sur la théorie de la démonstration, which he defended at the Sorbonne in 1930.
 The sequent calculus and the [[cut-elimination theorem|AYRZ98Y0NW]] were introduced by Gerhard Gentzen in 1934, after Herbrand's work.
-So Herbrand's own proof is different from the [[proof by cut elimination|~fef865bc]] given here.
+So Herbrand's own proof is different from the [[proof by cut elimination|Y8PV0B46A6]] given here.
 
 ## Explanations
 

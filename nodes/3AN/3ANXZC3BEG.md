@@ -44,20 +44,20 @@ The notion of a recursively axiomatizable theory separates the theories whose pr
 ## Notation
 
 We write $\Sigma \vdash \sigma$ for derivability in the Hilbert system $H$ and $\Sigma \models \sigma$ for [[logical consequence|1HK0VYWTV7]].
-By the [[soundness theorem|~331f6430]] and [[Gödel's completeness theorem|WQ1ZE255SF]], the two relations agree.
+By the [[soundness theorem|AVD7T7J063]] and [[Gödel's completeness theorem|WQ1ZE255SF]], the two relations agree.
 We write $\operatorname{Thm}(\Sigma)$ for the set of sentences $\sigma$ with $\Sigma \vdash \sigma$; Enderton writes $\operatorname{Cn} \Sigma$.
 Here a theory is any set of sentences, and its theorems are its consequences.
 Enderton calls a theory only a set of sentences closed under consequence, and he calls $T$ axiomatizable when $T = \operatorname{Cn} \Sigma$ for a decidable $\Sigma$.
 Other names in the literature are effectively axiomatizable, computably axiomatizable and recursively axiomatized.
-Some books ask only for a [[computably enumerable|TN9G24VABN]] set of axioms; by [[Craig's theorem|~3da5e788]] this gives the same class of theories.
+Some books ask only for a [[computably enumerable|TN9G24VABN]] set of axioms; by [[Craig's theorem|6AN62NQ8AN]] this gives the same class of theories.
 The word "recursive" means computable here, as in the older name "recursive set".
 
 ## Remarks
 
 ### Examples
 
-1. The [[theory of groups|~379a857f]]: its three axioms form a finite set, and every finite set of strings is decidable.
-2. [[Peano arithmetic|~764e5f91]]: the induction schema has infinitely many instances, but a program tests whether a sentence has the shape of an instance.
+1. The [[theory of groups|WHW13HJB3F]]: its three axioms form a finite set, and every finite set of strings is decidable.
+2. [[Peano arithmetic|4HDC97G2E9]]: the induction schema has infinitely many instances, but a program tests whether a sentence has the shape of an instance.
 3. The empty theory: its theorems are the valid sentences of $L$, and $\emptyset$ is a decidable set of axioms.
 4. [[Zermelo-Fraenkel set theory|0HE5WDQ9FJ]] with choice: the schemas of separation and of replacement are infinite, but membership in each schema is a test of shape.
 5. The theory of dense linear orders without endpoints: it has finitely many axioms, and it is [[complete|655K8Y7VS8]] by the example [[dense linear order|2W4S2H4VYA]].
@@ -65,7 +65,7 @@ The word "recursive" means computable here, as in the older name "recursive set"
 
 ### Non-examples
 
-1. [[True arithmetic is not recursively axiomatizable|~10f45dc4]]. The set $\operatorname{Th}(\N, 0, S, +, \cdot)$ of sentences true in $\N$ is complete, and by the first incompleteness theorem no decidable set of axioms has exactly these theorems.
+1. [[True arithmetic is not recursively axiomatizable|YSC90EM2M7]]. The set $\operatorname{Th}(\N, 0, S, +, \cdot)$ of sentences true in $\N$ is complete, and by the first incompleteness theorem no decidable set of axioms has exactly these theorems.
 2. Let $L = \set{0, S, P}$ with $P$ a unary relation symbol, let $A \subseteq \N$ be a set that is not computably enumerable, and let $T_A = \set{P \underline{n} : n \in A}$, where $\underline{n}$ is the numeral $S \cdots S 0$. The structure $(\N, 0, S, A)$ shows that $T_A \vdash P \underline{n}$ only for $n \in A$. So $n \in A$ if and only if $P \underline{n} \in \operatorname{Thm}(T_A)$. If $T_A$ were recursively axiomatizable, property 3 below would make $\operatorname{Thm}(T_A)$, and so $A$, computably enumerable.
 
 ### Basic properties
@@ -105,7 +105,7 @@ Property 5: A complete recursively axiomatizable theory $T$ is decidable: $\oper
 6. In each case there is a program that decides $\operatorname{Thm}(T)$. We need not know which case holds to know that such a program exists.
 
 Property 6: The converse of property 3 holds: if $\operatorname{Thm}(T)$ is computably enumerable, then $T$ is recursively axiomatizable.
-This is [[Craig's theorem on axiomatizability|~3da5e788]].
+This is [[Craig's theorem on axiomatizability|6AN62NQ8AN]].
 So $T$ is recursively axiomatizable if and only if its theorems form a computably enumerable set.
 
 Property 7: A recursively axiomatizable theory need not be decidable.
@@ -122,7 +122,7 @@ William Craig proved in 1953 that every theory with a computably enumerable set 
 
 1. Decidable axioms do not give a decidable theory. The axioms of Peano arithmetic form a decidable set, but the set of its theorems is not decidable.
 2. Property 5 needs both hypotheses. True arithmetic is complete but not decidable, because it is not recursively axiomatizable.
-3. A complete theory, which decides each sentence, is a different idea from the completeness theorem, which says that $\models$ and $\vdash$ agree; see [[completeness versus incompleteness|~66a43ddf]].
+3. A complete theory, which decides each sentence, is a different idea from the completeness theorem, which says that $\models$ and $\vdash$ agree; see [[completeness versus incompleteness|28AX3A4N86]].
 
 ## Explanations
 
@@ -155,6 +155,6 @@ For the theory of groups, the program of property 5 waits forever on the sentenc
 In the language of the [[arithmetical hierarchy|7CVJCQKY41]], the set of theorems of a recursively axiomatizable theory is $\Sigma^0_1$, and by Craig's theorem every $\Sigma^0_1$ theory has this form.
 A complete one is $\Delta^0_1$, that is, computable.
 The set of sentences true in $\N$ is not even arithmetical, by [[Tarski's undefinability theorem|YRV6SYK2BY]].
-The proof of [[Lindenbaum's lemma|~8ecc8dc7]] can be run with an oracle for $\operatorname{Thm}(T)$, so every consistent recursively axiomatizable theory has a complete consistent extension computable from the halting set.
+The proof of [[Lindenbaum's lemma|SC0BSJ3GT6]] can be run with an oracle for $\operatorname{Thm}(T)$, so every consistent recursively axiomatizable theory has a complete consistent extension computable from the halting set.
 Gödel's and Rosser's theorems say that for theories that contain Robinson arithmetic, such an extension is never itself recursively axiomatizable.
 The same notion makes sense for every logic with a decidable set of formulas and a decidable proof relation, for example for propositional logic and for second-order logic with a fixed deductive system.

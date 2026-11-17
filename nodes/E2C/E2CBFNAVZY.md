@@ -38,7 +38,7 @@ Assume $\varphi \models \psi$, in the sense of [[logical consequence|1HK0VYWTV7]
 2. every non-logical symbol of $\theta$ occurs both in $\varphi$ and in $\psi$.
 
 Such a $\theta$ is an interpolant of $\varphi$ and $\psi$.
-Two proofs are given: [[a proof from Robinson's joint consistency theorem|~a657d74c]] and [[an outline of a proof by the cut-free sequent calculus|~ca2164eb]].
+Two proofs are given: [[a proof from Robinson's joint consistency theorem|JP8J5RJM6W]] and [[an outline of a proof by the cut-free sequent calculus|KJ7PEGF7YN]].
 
 ## Remarks
 
@@ -53,7 +53,7 @@ Two proofs are given: [[a proof from Robinson's joint consistency theorem|~a657d
 ### Consequences
 
 - The [[Beth definability theorem|RJBDSA2ETP]]: a relation that is implicitly definable by a theory is explicitly definable in the language of the theory.
-- [[Robinson's joint consistency theorem|~6d43779a]], by [[this proof|~1df8300a]].
+- [[Robinson's joint consistency theorem|R6AN38DNBD]], by [[this proof|V36AHEN7ZE]].
 - If $\varphi$ and $\psi$ share no non-logical symbol, then $\theta$ is a sentence of pure equality. For example, $P(a) \land \neg P(b) \models \exists x \, \exists y \, \neg (x = y)$, and the interpolant is $\exists x \, \exists y \, \neg (x = y)$ itself.
 - If $\varphi$ is not satisfiable, $\theta$ can be $\neg \forall x \, (x = x)$. If $\psi$ is valid, $\theta$ can be $\forall x \, (x = x)$.
 - Interpolants are computed in software verification, where they summarize what one part of a system tells another.
@@ -65,7 +65,7 @@ The converse holds: if a sentence $\theta$ satisfies $\varphi \models \theta$ an
 ### Generalizations
 
 - [[Lyndon's interpolation theorem|BRDT1BT7WW]]: each relation symbol that occurs positively in $\theta$ occurs positively in both $\varphi$ and $\psi$, and the same for negative occurrences.
-- Theories: if $T_1 \cup T_2$ has no model, then some sentence $\theta$ in the common symbols satisfies $T_1 \models \theta$ and $T_2 \models \neg \theta$. This is the separation form of [[Robinson's theorem|~6d43779a]].
+- Theories: if $T_1 \cup T_2$ has no model, then some sentence $\theta$ in the common symbols satisfies $T_1 \models \theta$ and $T_2 \models \neg \theta$. This is the separation form of [[Robinson's theorem|R6AN38DNBD]].
 - Formulas: for formulas $\varphi$ and $\psi$, treat the free variables as new constants. Then $\theta$ may contain the free variables common to both.
 - The [[propositional Craig interpolation theorem|TRS2HY57EG]] is the case of propositional logic, with the common propositional variables in place of the common symbols.
 - Many-sorted logic, intuitionistic predicate logic and the infinitary logic $L_{\omega_1 \omega}$ also have interpolation theorems.

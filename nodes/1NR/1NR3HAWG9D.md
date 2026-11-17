@@ -47,7 +47,7 @@ A set of sentences is [[satisfiable|QN7M1JCGT9]] when it has a [[model|MVCH6N9SN
 3. If $\Gamma$ is finitely satisfiable, then $\Gamma$ has a model with at most $\max(|L|, \aleph_0)$ elements.
 
 Here $\models$ is [[logical consequence|1HK0VYWTV7]] and $|L|$ is the [[cardinality|0G0ASKNA6Z]] of the set of symbols of $L$.
-Two proofs are given: [[a proof from the completeness theorem|~e8fafa0d]] and [[a proof by ultraproducts|~e411426e]].
+Two proofs are given: [[a proof from the completeness theorem|DFP1N4WTF9]] and [[a proof by ultraproducts|22TWAHBVWT]].
 
 ## Remarks
 
@@ -60,12 +60,12 @@ Two proofs are given: [[a proof from the completeness theorem|~e8fafa0d]] and [[
 
 ### Consequences
 
-- [[Applications of first-order compactness|~23a8e9a5]] collects the standard uses: nonstandard models, the finiteness of a property, and transfer between characteristics.
+- [[Applications of first-order compactness|PES0S9XQZ5]] collects the standard uses: nonstandard models, the finiteness of a property, and transfer between characteristics.
 - If a theory has finite models of every size, then it has an infinite model. So "the universe is finite" is not expressible by a set of first-order sentences.
 - [[Nonstandard models of arithmetic|1QWN5CV4CG]]: the sentences true in $\N$, plus $c > \underline{n}$ for a new constant $c$ and each numeral $\underline{n}$, have a model with an element above all numerals.
 - The upward [[Löwenheim-Skolem theorem|484M0TZ1S7]]: a theory with an infinite model has models of every infinite cardinality at least $|L|$.
 - A sentence true in every field of characteristic $0$ is true in every field of characteristic $p$, for all but finitely many primes $p$.
-- [[Craig's interpolation theorem|E2CBFNAVZY]] and [[Robinson's joint consistency theorem|~6d43779a]] have proofs by compactness.
+- [[Craig's interpolation theorem|E2CBFNAVZY]] and [[Robinson's joint consistency theorem|R6AN38DNBD]] have proofs by compactness.
 
 ### Converse
 

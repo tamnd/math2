@@ -8,7 +8,7 @@ msc: ["03C07", "03B10"]
 topics: [FBWW4J1XWG]
 audience: ug2
 about: [VM8TQ70CVJ, QN7M1JCGT9, 086QKPF0A6]
-uses: [~331f6430, ~8ecc8dc7, ~95e9f5bb, VM8TQ70CVJ, DKFGQTRYZE, MVCH6N9SNW, QN7M1JCGT9, 01TQB88H4C, 0G0ASKNA6Z]
+uses: [AVD7T7J063, SC0BSJ3GT6, RY8KRKR097, VM8TQ70CVJ, DKFGQTRYZE, MVCH6N9SNW, QN7M1JCGT9, 01TQB88H4C, 0G0ASKNA6Z]
 history:
   first_stated: "Leon Henkin, 1949, for first-order languages of any cardinality"
   notes: "Henkin proved it with witness constants and term models."
@@ -31,7 +31,7 @@ inventory: [WCMCVZR0SC]
 
 ## Statement
 
-Let $L$ be a first-order language with equality, and let $\vdash$ be derivability in the Hilbert system $H$ of the [[soundness theorem|~331f6430]].
+Let $L$ be a first-order language with equality, and let $\vdash$ be derivability in the Hilbert system $H$ of the [[soundness theorem|AVD7T7J063]].
 A set of [[sentences|DKFGQTRYZE]] is [[consistent|VM8TQ70CVJ]] when it derives no pair $\psi$, $\neg \psi$.
 Write $|L|$ for the [[cardinality|0G0ASKNA6Z]] of the set of symbols of $L$.
 
@@ -41,21 +41,21 @@ Write $|L|$ for the [[cardinality|0G0ASKNA6Z]] of the set of symbols of $L$.
 2. The model can be chosen with at most $\max(|L|, \aleph_0)$ elements. In particular, when $L$ is [[countable|01TQB88H4C]], $\Gamma$ has a model that is finite or countably infinite.
 3. Part 1 is equivalent to strong completeness: for every set $\Gamma$ of sentences and every sentence $\varphi$, if $\Gamma \models \varphi$, then $\Gamma \vdash \varphi$.
 
-The [[proof by the Henkin construction|~65534b28]] gives all details for countable $L$, and its Variants section treats uncountable $L$.
+The [[proof by the Henkin construction|FMZMD0GGYK]] gives all details for countable $L$, and its Variants section treats uncountable $L$.
 For uncountable $L$, the proof uses the axiom of choice.
 
 ## Remarks
 
 ### Why each hypothesis is needed
 
-- Consistency: by part 3 of the [[soundness theorem|~331f6430]], a set with a model is consistent. So an inconsistent set has no model.
+- Consistency: by part 3 of the [[soundness theorem|AVD7T7J063]], a set with a model is consistent. So an inconsistent set has no model.
 - The proof system must be complete enough for equality. Remove axiom group 6 from $H$. Then $\set{a = b, P(a), \neg P(b)}$ derives no contradiction, since $=$ may then be read as any reflexive relation. But it has no model.
 - The bound $\max(|L|, \aleph_0)$ cannot be lowered to $|L|$. The empty language has $|L|$ finite, and the sentences "there are at least $n$ elements", for all $n \ge 1$, have only infinite models.
 - Choice: for languages of every size, part 1 is equivalent in ZF to the [[Boolean prime ideal theorem|STPBXBKSZP]]. For countable $L$, no choice is needed, because the sentences can be listed.
 
 ### Consequences
 
-- Strong completeness, part 3. If $\Gamma \models \varphi$, then $\Gamma \cup \set{\neg \varphi}$ has no model, so it is inconsistent by part 1. Fact (P5) of the [[proof of Lindenbaum's lemma|~bc83b0fa]] then gives $\Gamma \vdash \varphi$. This is [[Gödel's completeness theorem|WQ1ZE255SF]].
+- Strong completeness, part 3. If $\Gamma \models \varphi$, then $\Gamma \cup \set{\neg \varphi}$ has no model, so it is inconsistent by part 1. Fact (P5) of the [[proof of Lindenbaum's lemma|DCR0S91GYY]] then gives $\Gamma \vdash \varphi$. This is [[Gödel's completeness theorem|WQ1ZE255SF]].
 - Conversely, assume strong completeness and let $\Gamma$ have no model. Then $\Gamma \models \neg \forall x \, (x = x)$ and $\Gamma \models \forall x \, (x = x)$ hold vacuously, so $\Gamma$ derives both and is inconsistent. This proves the equivalence in part 3.
 - The [[compactness theorem|1NR3HAWG9D]]: a finitely satisfiable set is consistent, because a derivation uses finitely many sentences.
 - A weak form of the downward [[Löwenheim-Skolem theorem|484M0TZ1S7]]: a consistent theory in a countable language has a countable model. For example, ZFC, if it is consistent, has a countable model; see [[Skolem's paradox|68QZWDXAQ4]].

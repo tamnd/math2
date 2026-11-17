@@ -7,7 +7,7 @@ aliases: [completeness-theorem, godels-completeness-theorem, completeness-of-fir
 msc: ["03B10", "03C07"]
 topics: [FBWW4J1XWG]
 audience: ug2
-uses: [DKFGQTRYZE, 1HK0VYWTV7, 1MGMQX43B8, MVCH6N9SNW, ~331f6430, G0DTR159RN, 983GZBQYT4, 2RBQPV02AS]
+uses: [DKFGQTRYZE, 1HK0VYWTV7, 1MGMQX43B8, MVCH6N9SNW, AVD7T7J063, G0DTR159RN, 983GZBQYT4, 2RBQPV02AS]
 about: [1HK0VYWTV7, 086QKPF0A6]
 history:
   first_stated: "Kurt Gödel, doctoral thesis, University of Vienna, 1929; published in 1930 in Monatshefte für Mathematik und Physik"
@@ -32,7 +32,7 @@ same_as:
 
 ## Statement
 
-Let $L$ be a first-order language with equality, and let $\vdash$ be derivability in the [[Hilbert system|1MGMQX43B8]] $H$ of the [[soundness theorem|~331f6430]].
+Let $L$ be a first-order language with equality, and let $\vdash$ be derivability in the [[Hilbert system|1MGMQX43B8]] $H$ of the [[soundness theorem|AVD7T7J063]].
 For a set $\Gamma$ of [[sentences|DKFGQTRYZE]] and a sentence $\varphi$, $\Gamma \models \varphi$ is [[logical consequence|1HK0VYWTV7]]: every [[model|MVCH6N9SNW]] of $\Gamma$ satisfies $\varphi$.
 
 **Theorem (Gödel).**
@@ -43,7 +43,7 @@ For a set $\Gamma$ of [[sentences|DKFGQTRYZE]] and a sentence $\varphi$, $\Gamma
 With the soundness theorem, $\Gamma \vdash \varphi$ holds if and only if $\Gamma \models \varphi$ holds.
 The theorem holds for languages of every cardinality; for uncountable $L$, the proof uses the axiom of choice.
 
-Two proofs are given: [[a proof from the model existence theorem|~c2ea41cc]], which is Henkin's proof, and [[an outline of Gödel's original proof|~5f72fbfc]].
+Two proofs are given: [[a proof from the model existence theorem|3FR16954CY]], which is Henkin's proof, and [[an outline of Gödel's original proof|CS0R0WW2V9]].
 
 ## Remarks
 
@@ -64,7 +64,7 @@ Two proofs are given: [[a proof from the model existence theorem|~c2ea41cc]], wh
 
 ### Converse
 
-The converse of the strong form is the [[soundness theorem|~331f6430]]: if $\Gamma \vdash \varphi$, then $\Gamma \models \varphi$.
+The converse of the strong form is the [[soundness theorem|AVD7T7J063]]: if $\Gamma \vdash \varphi$, then $\Gamma \models \varphi$.
 It is true, and it is proved by induction on derivations.
 
 ### Generalizations
@@ -111,4 +111,4 @@ The theorem identifies two consequence relations: the inductive relation $\vdash
 Since $\vdash$ is computably enumerable, the theorem shows that $\models$ has the same complexity, which its definition does not suggest.
 In algebraic terms, for a countable language, it says that the [[Lindenbaum-Tarski algebra|QC9M3Q8B8Q]] of a theory, with its quantifiers, has enough ultrafilters that respect the quantifiers to separate its elements.
 The theorem is a statement about first-order logic as a whole, and is the base of [[model theory|HFTBG5PMXC]].
-See the essay [[completeness versus incompleteness|~66a43ddf]] for its relation to the theorems of 1931.
+See the essay [[completeness versus incompleteness|28AX3A4N86]] for its relation to the theorems of 1931.

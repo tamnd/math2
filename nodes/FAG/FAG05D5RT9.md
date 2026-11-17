@@ -36,7 +36,7 @@ Then every term is a variable.
 For the interpolants we allow two more atomic formulas, $\top$ (true) and $\bot$ (false), which contain no relation symbol.
 
 Setup: the calculus.
-We use the [[sequent calculus|W72CA3R9MP]] LK with exactly the rules listed in the [[proof of Herbrand's theorem by cut elimination|~fef865bc]].
+We use the [[sequent calculus|W72CA3R9MP]] LK with exactly the rules listed in the [[proof of Herbrand's theorem by cut elimination|Y8PV0B46A6]].
 These are the axioms $A \Rightarrow A$ for atomic $A$, weakening, contraction, two rules for each of $\neg, \land, \lor, \to, \forall, \exists$, and cut.
 A sequent $\Gamma \Rightarrow \Delta$ is valid when, in every [[structure|983GZBQYT4]] $\mathcal{A}$ and under every assignment $s$, some member of $\Gamma$ is false or some member of $\Delta$ is true.
 Fact (F): every valid sequent has a derivation in LK without cut.

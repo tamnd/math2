@@ -185,4 +185,4 @@ Lyndon's own aim was the characterization of sentences preserved under homomorph
 One encodes a semantic property as a consequence between two sentences with copies of the symbols, takes an interpolant, and reads off its syntactic form from properties 2 to 4.
 
 On the proof side, the sequent proof refines Maehara's proof of the [[Craig interpolation theorem|E2CBFNAVZY]]: the induction on a cut-free derivation tracks on which side of the sequent each formula stands, and a formula changes sign when it changes side.
-Model-theoretic proofs, through a polarity-sensitive form of [[Robinson's joint consistency theorem|~6d43779a]], give the same result without a proof calculus.
+Model-theoretic proofs, through a polarity-sensitive form of [[Robinson's joint consistency theorem|R6AN38DNBD]], give the same result without a proof calculus.
