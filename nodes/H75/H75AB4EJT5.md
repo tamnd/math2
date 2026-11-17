@@ -5,11 +5,11 @@ name: Forty prime values of n^2 + n + 41 do not prove a statement
 msc: ["00A35", "11A41"]
 topics: [N4P3E53HM0, T6QQ749DM5]
 audience: school
-instance_of: [5V35SGEN1T, ~2b9d982d]
+instance_of: [5V35SGEN1T, ZX6ERT3SW7]
 not_instance_of:
   - target: 0B94TKFQJX
     note: forty checked cases support the guess that n^2 + n + 41 is always prime, but they are not a proof, and the guess fails at n = 40
-uses: [0SN0MAEKYX, 0ED72CTBNP, ~2b9d982d]
+uses: [0SN0MAEKYX, 0ED72CTBNP, ZX6ERT3SW7]
 sources:
   - url: https://en.wikipedia.org/wiki/Formula_for_primes
     locator: lead section
@@ -34,7 +34,7 @@ We test the guess "$f(n)$ is a [[prime number|0SN0MAEKYX]] for each natural numb
 
 The example shows the gap between evidence and [[proof|0B94TKFQJX]].
 Forty confirming cases gave strong support to the guess, and the guess is false.
-To conclude the guess from the forty cases is the error of [[proof by example|~2b9d982d]].
+To conclude the guess from the forty cases is the error of [[proof by example|ZX6ERT3SW7]].
 Step 6 also shows how a proof-like idea finds the error: the value at $n = 41 - 1$ has the factor $41$ by algebra.
 
 The same idea shows that no polynomial $g(n) = n^2 + n + c$ with an integer $c \geq 2$ gives only primes.

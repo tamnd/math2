@@ -1,0 +1,61 @@
+---
+tag: HXKWN94QSQ
+kind: example
+name: Citing a theorem with its statement is not proof by authority
+msc: ["00A35", "26A15"]
+topics: [T6QQ749DM5]
+audience: ug1
+not_instance_of:
+  - target: D8A1K052XV
+    note: the step names the theorem, states it and checks its hypotheses, so the reader can verify the step
+uses: [D8A1K052XV, 00KAFBR32E, 0X3WGX95FE]
+sources:
+  - url: https://en.wikipedia.org/wiki/Intermediate_value_theorem
+    locator: Theorem
+  - url: https://en.wikipedia.org/wiki/Argument_from_authority
+    locator: lead section
+---
+
+## Example
+
+We prove that the equation $x^3 + x - 1 = 0$ has a real solution in $[0, 1]$.
+
+1. Let $f(x) = x^3 + x - 1$. As a polynomial, $f$ is a [[continuous function|0X3WGX95FE]] on $[0, 1]$.
+2. We have $f(0) = -1 < 0$ and $f(1) = 1 > 0$.
+3. The [[intermediate value theorem|00KAFBR32E]] states: if $g$ is continuous on $[a, b]$ and $y$ lies between $g(a)$ and $g(b)$, then $g(c) = y$ for some $c \in [a, b]$.
+4. Its hypotheses hold for $g = f$, $[a, b] = [0, 1]$ and $y = 0$, by steps 1 and 2.
+5. So $f(c) = 0$ for some $c \in [0, 1]$.
+
+We check that step 5 is not [[proof by authority|D8A1K052XV]].
+
+1. Step 3 names the result and states it in full. The reader can find its proof in any analysis textbook.
+2. Step 4 checks each hypothesis of the result for the given function and interval.
+3. So step 5 follows from a stated result and verified hypotheses. Its correctness depends on the theorem, not on the person who uses it.
+
+## Remarks
+
+The example shows the difference between an appeal to a result and an appeal to a person.
+A step "by a theorem of Bolzano, $f$ has a root" without step 3 and step 4 would be close to proof by authority, because the reader cannot check which theorem is meant or whether it applies.
+If we change the interval to $[1, 2]$, then $f(1) = 1$ and $f(2) = 9$ have the same sign, and the hypothesis of step 4 with $y = 0$ fails.
+The citation then gives nothing.
+
+## Explanations
+
+### L1 human
+
+Saying "my teacher says it is true" is not a reason in mathematics.
+Saying "this follows from a known rule, here is the rule, and here is why it applies" is a reason.
+For example, a line that goes from below zero to above zero without a break must cross zero.
+If we say which rule we use and check that it fits, anyone can follow the step.
+
+### L2 human
+
+We repair a citation that hides a failed hypothesis.
+
+1. A student writes: "By the intermediate value theorem, $h(x) = \frac{1}{x}$ takes the value $0$ on $[-1, 1]$, since $h(-1) = -1$ and $h(1) = 1$."
+2. We state the theorem: it needs $h$ continuous on the whole of $[-1, 1]$.
+3. The function $h$ is not defined at $0$, so it is not continuous on $[-1, 1]$. The hypothesis fails.
+4. The conclusion is also false: $\frac{1}{x} \neq 0$ for every $x \neq 0$.
+
+The typical use of this check is to write out the hypotheses of each cited theorem and verify them one by one.
+A trap is to cite a famous theorem by name and to omit the check, which turns a correct citation into proof by authority.
