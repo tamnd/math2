@@ -2,7 +2,7 @@
 tag: KNN8QK9CP4
 kind: concept
 name: Golden field
-aliases: [golden-integer, golden-integers, golden-rational, golden-rational-number, q, q-5, z, "5"]
+aliases: [golden-integer, golden-integers, golden-rational, golden-rational-number, q, q-5, z]
 sources:
   - wikipedia: en:80262208@r1376111431
     locator: Golden field

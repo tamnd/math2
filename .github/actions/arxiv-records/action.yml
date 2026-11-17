@@ -39,4 +39,7 @@ runs:
         fi
         "$M2" corpus records unpack -root "$ROOT" -out "$out"
         # The unpacked directories are not changes of the tree, so m2 audit -changed does not take them as new files.
-        printf '%s\n' /records/mentions/arxiv/ /records/understand/arxiv/ >> "$(git -C "$ROOT" rev-parse --git-path info/exclude)"
+        # The path from rev-parse must be absolute, because this step does not run in ROOT.
+        exclude=$(git -C "$ROOT" rev-parse --path-format=absolute --git-path info/exclude)
+        mkdir -p "$(dirname "$exclude")"
+        printf '%s\n' /records/mentions/arxiv/ /records/understand/arxiv/ >> "$exclude"
