@@ -1,0 +1,64 @@
+---
+tag: HGRAZBCXEQ
+kind: example
+name: A lemma, a theorem and a corollary on prime factorization
+msc: ["00A35", "11A51"]
+topics: [N4P3E53HM0]
+audience: school
+instance_of: [KK5F0F03ZW]
+uses: [KK5F0F03ZW, 051VYKA1EX, 084HH1NDCB, 0DZGSDHD92, 0SN0MAEKYX]
+sources:
+  - url: https://en.wikipedia.org/wiki/Fundamental_theorem_of_arithmetic
+    locator: Proof
+  - url: https://en.wikipedia.org/wiki/Euclid%27s_lemma
+    locator: lead section
+  - url: https://en.wikipedia.org/wiki/Square_root_of_2
+    locator: Proofs of irrationality
+---
+
+## Example
+
+We follow three results of elementary number theory and give each its usual label.
+All letters denote positive integers, and $p$, $p_i$, $q_j$ denote [[primes|0SN0MAEKYX]].
+
+1. Lemma ([[Euclid's lemma|051VYKA1EX]]): if $p$ divides $ab$, then $p$ divides $a$ or $p$ divides $b$. Its proof is on its own page.
+2. A first use of the lemma: if $p$ divides a product $a_1 a_2 \cdots a_k$, then $p$ divides some $a_i$. We apply the lemma to $a_1 \cdot (a_2 \cdots a_k)$, and repeat on the second factor.
+3. Theorem (uniqueness in the [[fundamental theorem of arithmetic|084HH1NDCB]]): if $p_1 p_2 \cdots p_k = q_1 q_2 \cdots q_l$, then the two lists of primes agree up to order.
+4. Proof of step 3, part 1: the prime $p_1$ divides $q_1 \cdots q_l$. By step 2, $p_1$ divides some $q_j$.
+5. Part 2: the only divisors of the prime $q_j$ are $1$ and $q_j$, and $p_1 \neq 1$. So $p_1 = q_j$.
+6. Part 3: we cancel $p_1$ and $q_j$ from both sides. The shorter products are equal, and we repeat until one side is $1$. Then the other side is $1$ too, so the lists have the same length and the same primes.
+7. Corollary (the [[irrationality of $\sqrt{2}$|0DZGSDHD92]]): there are no positive integers $a$ and $b$ with $a^2 = 2b^2$.
+8. Proof of step 7: in the factorization of $a^2$, the prime $2$ appears an even number of times, twice as often as in $a$. In $2b^2$ it appears an odd number of times, once more than an even number.
+9. By the theorem of step 3, the two factorizations of the same number would be equal. They differ in the count of the prime $2$, so $a^2 = 2b^2$ is impossible.
+
+## Remarks
+
+The example shows how the [[labels|KK5F0F03ZW]] describe roles.
+The lemma is a tool: it matters mainly because step 3 needs it.
+The theorem is the goal: unique factorization is used throughout number theory.
+The corollary is a consequence: steps 8 and 9 use only the theorem and a count.
+
+When we replace $2$ by another prime $q$ in step 7, the same count shows that $\sqrt{q}$ is irrational.
+When we replace $2$ by a positive integer $n$ that is not a perfect square, some prime appears an odd number of times in $n$, and the same argument shows that $\sqrt{n}$ is irrational.
+
+## Explanations
+
+### L1 human
+
+Mathematicians label the results in a chain.
+First comes a helper fact, a lemma: a prime that divides a product divides one of the factors.
+With this helper, a big result, a theorem, follows: each number splits into primes in only one way.
+From the theorem, a small result, a corollary, drops out in a few lines: the square root of $2$ is not a fraction.
+The labels show which result is the tool, which is the goal, and which is the bonus.
+
+### L2 human
+
+We check step 8 on a small case, with $a = 12$.
+
+1. We factor: $12 = 2 \cdot 2 \cdot 3$, so $2$ appears twice in $12$.
+2. Then $a^2 = 144 = 2^4 \cdot 3^2$, and $2$ appears four times, an even number.
+3. For $b = 6 = 2 \cdot 3$, we get $2b^2 = 72 = 2^3 \cdot 3^2$, and $2$ appears three times, an odd number.
+4. So $144 \neq 72$ by the count of $2$ alone, as step 9 predicts for all $a$ and $b$.
+
+The typical use of a corollary is to record a consequence that readers will cite on its own.
+A trap is to prove the corollary with an argument that uses the corollary itself, for example to use the irrationality of $\sqrt{2}$ in a proof of unique factorization.
