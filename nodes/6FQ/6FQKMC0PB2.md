@@ -1,0 +1,54 @@
+---
+tag: 6FQKMC0PB2
+kind: example
+name: A written argument alone is not a proof scheme
+msc: ["97E50", "97C30"]
+topics: [VHGA6J4NZK]
+audience: research
+not_instance_of:
+  - target: YVNRVXJR68
+    note: a proof scheme is a standard of conviction of a person; a text with no reader and no writer has no such standard
+uses: [YVNRVXJR68, GA27MSTQQD]
+sources:
+  - url: https://doi.org/10.1090/cbmath/007/07
+    locator: pages 234-283
+---
+
+## Example
+
+Consider the text below, printed in a textbook without any information about who wrote it or who reads it.
+
+> Let $a$ and $b$ be integers.
+> Then $(2a + 1) + (2b + 1) = 2(a + b + 1)$, which is even.
+
+We check the condition of the definition of a [[proof scheme|YVNRVXJR68]] and find that it fails.
+
+1. The definition: a proof scheme of a person is what ascertains a claim for that person and what the person uses to persuade others.
+2. The text is an argument, and it is a correct proof. It is not a standard of conviction, because no person is named whose conviction it describes.
+3. Two readers of the text: reader R1 checks each step and is convinced; reader R2 is convinced only after testing $a = 1$ and $b = 2$, which give $3 + 5 = 8$.
+4. The same text is part of a deductive episode for R1 and of an empirical episode for R2. So the text alone does not fix a scheme.
+5. The condition "belongs to a person" fails, and the text is not a proof scheme.
+
+## Remarks
+
+The example separates three notions that are easy to mix up: a proof (a text with a logical property), a proof method (a form of text), and a proof scheme (a property of a person).
+The same text appears in the [[transformational example|GA27MSTQQD]], where a named student writes it to convince a classmate; there the scheme can be inferred.
+If the textbook adds that the text is to be learned by heart for an examination, readers may still hold different schemes, so the text still fixes no scheme.
+
+## Explanations
+
+### L1 human
+
+A proof on a page is like a recipe in a book.
+The recipe is the same for all readers, but each reader trusts it for a different reason.
+One reader understands each step, and another trusts it only after cooking it once.
+A proof scheme describes the reader, not the page.
+
+### L2 human
+
+1. Identify the object: a text with no writer and no reader.
+2. Recall the definition: a scheme belongs to a person.
+3. Show that two readers can have different schemes with the same text.
+4. Conclude that the text is not a scheme.
+
+A trap in research is to classify students only from their written answers, without asking what convinced them.
