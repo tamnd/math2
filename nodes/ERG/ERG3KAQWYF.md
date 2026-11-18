@@ -5,7 +5,7 @@ name: Multimodal logic
 msc: ["03B45", "03B42", "03B44"]
 topics: [SKY7AQFG1V]
 audience: grad
-uses: [C3RZY20ETK, NGHWZ9Y7ZV, JS8W7PA6JK, VC3A2VWXND, 7BCMKF2P7X, FDFQFWPM4X, NM4CB7QAYT, 1HQ1W36J4V, 1P2B0C7CQ4]
+uses: [C3RZY20ETK, NGHWZ9Y7ZV, JS8W7PA6JK, VC3A2VWXND, FDFQFWPM4X, NM4CB7QAYT, 1HQ1W36J4V, 1P2B0C7CQ4]
 sources:
   - url: https://en.wikipedia.org/wiki/Multimodal_logic
     locator: lead section
