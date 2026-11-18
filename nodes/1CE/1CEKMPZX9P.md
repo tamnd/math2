@@ -1,0 +1,51 @@
+---
+tag: 1CEKMPZX9P
+kind: example
+name: A finite full frame is descriptive
+msc: ["03B45"]
+topics: [SPQVNPZDTB]
+audience: research
+instance_of: [GGG7BB78JB]
+uses: [6W9MEGN982, ZJSX7AASB4]
+sources:
+  - url: https://en.wikipedia.org/wiki/General_frame
+    locator: Types of frames
+---
+
+## Example
+
+Let $(W, R)$ be a Kripke frame with $W$ finite, and let $\mathfrak{g} = (W, R, \mathcal{P}(W))$.
+We check the three conditions for a [[descriptive frame|6W9MEGN982]].
+
+1. $\mathfrak{g}$ is a general frame, by [[full frames are general frames|ZJSX7AASB4]].
+2. Differentiated: if $u \neq v$, then $a = \set{u}$ contains $u$ and not $v$.
+3. Tight: let $u R v$ fail, and let $a = \set{v}$. Then $m_R(a) = \set{w : w R v}$, and $u \notin m_R(a)$.
+4. Compact: let $\mathcal{C} \subseteq \mathcal{P}(W)$ have the finite intersection property. Since $\mathcal{P}(W)$ is finite, $\mathcal{C}$ is finite. Then $\bigcap \mathcal{C}$ is the intersection of a finite subfamily, so it is nonempty.
+5. So $\mathfrak{g}$ is differentiated, tight and compact, that is, descriptive.
+
+For a concrete case, take $W = \set{0, 1}$ and $R = \set{(0, 1)}$.
+For tightness at the pair $(1, 0)$, the set $a = \set{0}$ has $m_R(a) = \emptyset$, which does not contain $1$.
+
+## Remarks
+
+The example shows that, for finite frames, Kripke semantics and descriptive general frame semantics agree.
+It is the reason why finite model property arguments never need general frames.
+Algebraically, every finite modal algebra $\mathfrak{B}$ is the complex algebra of the finite Kripke frame of its atoms, and its dual frame is that Kripke frame.
+If $W$ is infinite, step 4 fails for the full frame, and the dual of $\mathcal{P}(W)$ is the frame of all ultrafilters of $\mathcal{P}(W)$, which is the ultrafilter extension of $(W, R)$.
+
+## Explanations
+
+### L1 human
+
+A frame with finitely many points has only finitely many regions.
+Every sensible condition on the regions holds automatically, because nothing infinite can go wrong.
+So a finite picture of points and arrows is already the most well-behaved kind of general frame.
+
+### L2 human
+
+1. Take $W = \set{0, 1, 2}$ with $0 R 1$, $1 R 2$ only, and all subsets admissible.
+2. For tightness at the pair $(0, 2)$, take $a = \set{2}$. Then $m_R(a) = \set{1}$, and $0 \notin m_R(a)$.
+3. For compactness, any family of subsets of a three-element set with the finite intersection property is finite, so it has a common point.
+
+The typical use is in completeness proofs by finite models, where the finite countermodel is automatically a descriptive frame of the logic.
+A trap: the example uses all subsets as admissible; a finite frame with fewer admissible sets need not be differentiated.

@@ -1,0 +1,94 @@
+---
+tag: Y89MGMWE4H
+kind: statement
+role: theorem
+name: Van Benthem characterization theorem
+msc: ["03B45", "03C95"]
+topics: [SPQVNPZDTB]
+audience: research
+uses: [7T740SFHHV, TKFFTAX30E, DBDNYXA7ME, YW6YGBMVQY, 086QKPF0A6, 1NR3HAWG9D, RMTZ5J64FX]
+about: [X27BR4YP2Y, C3RZY20ETK, 086QKPF0A6]
+proofs: [AG61G22V37]
+history:
+  first_stated: "van Benthem, 1976, Modal correspondence theory (dissertation, University of Amsterdam)"
+  notes: "Rosen proved the version over finite models in 1997."
+sources:
+  - url: https://en.wikipedia.org/wiki/Bisimulation
+    locator: Bisimulation and modal logic
+  - url: https://en.wikipedia.org/wiki/Standard_translation
+    locator: Definition
+  - url: https://builds.openlogicproject.org/
+    locator: Modal Logic
+---
+
+## Statement
+
+The correspondence language is the [[first-order|086QKPF0A6]] language with one binary relation symbol $R$ and one unary relation symbol $P$ for each propositional variable $p$.
+A Kripke model $(W, R, V)$ is the same as a structure for this language, with $P$ interpreted as $V(p)$.
+The [[standard translation|YW6YGBMVQY]] $\mathrm{ST}_x$ sends each modal formula to a first-order formula with free variable $x$, by $\mathrm{ST}_x(p) = P(x)$, commuting with $\neg$ and $\wedge$, and $\mathrm{ST}_x(\lozenge \varphi) = \exists y \, (R(x, y) \wedge \mathrm{ST}_y(\varphi))$; see [[the standard translation example|YW6YGBMVQY]].
+
+A first-order formula $\alpha(x)$ with one free variable $x$ is *invariant under bisimulation* if, for all Kripke models $\mathfrak{M}$, $\mathfrak{M}'$ and all worlds with $\mathfrak{M}, w \mathrel{\underline{\leftrightarrow}} \mathfrak{M}', w'$, we have $\mathfrak{M} \models \alpha[w]$ if and only if $\mathfrak{M}' \models \alpha[w']$.
+
+**Theorem.** A first-order formula $\alpha(x)$ of the correspondence language is invariant under [[bisimulation|7T740SFHHV]] if and only if there is a modal formula $\varphi$ such that $\alpha(x)$ is equivalent to $\mathrm{ST}_x(\varphi)$ on all models.
+
+Rosen's theorem is the version over finite models: $\alpha(x)$ is invariant under bisimulation between finite models if and only if $\alpha(x)$ is equivalent on all finite models to $\mathrm{ST}_x(\varphi)$ for some modal formula $\varphi$.
+The proof of the first theorem is in [[the proof of the van Benthem characterization theorem|AG61G22V37]]; Rosen's theorem needs a different proof, and we cite it without proof.
+
+## Remarks
+
+### Why each hypothesis is needed
+
+1. Invariance cannot be dropped. The formula $R(x, x)$ is first-order, but it is true at a reflexive point and false at a bisimilar world of a two-cycle; see [[a loop and a two-cycle are bisimilar|2D9T8ERY94]]. So it is equivalent to no modal formula.
+2. First-order definability cannot be dropped. The property "some world reachable from $x$ in finitely many steps satisfies $p$" is invariant under bisimulation, but it is not equivalent to any $\mathrm{ST}_x(\varphi)$. A formula $\varphi$ of modal depth $d$ cannot see a $p$-world at distance $d + 1$ on a finite path.
+3. The class of models matters. Over finite models both the hypothesis and the conclusion are weaker, so Rosen's theorem and the first theorem do not imply each other. The proof below fails there, because it uses the [[compactness theorem|1NR3HAWG9D]].
+
+### Consequences
+
+1. The modal language is, up to equivalence, the bisimulation-invariant fragment of first-order logic. So the definition of modal logic by syntax and its definition by invariance agree.
+2. To show that a first-order property of worlds is not modally definable on models, it suffices to find two bisimilar worlds that differ on it.
+3. Each bisimulation-invariant $\alpha(x)$ is equivalent to a formula with only two variables, because standard translations use only $x$ and $y$.
+
+### Converse
+
+The theorem is an equivalence.
+The direction from right to left is the easy one: $\mathrm{ST}_x(\varphi)$ expresses truth of $\varphi$, and $\varphi$ is invariant by [[bisimulation invariance|TKFFTAX30E]].
+
+### Generalizations
+
+1. Rosen's theorem for finite models, stated above.
+2. The Janin-Walukiewicz theorem: the modal mu-calculus is the bisimulation-invariant fragment of [[monadic second-order logic|3WHQFSHR58]].
+3. The [[guarded fragment|Y7YS1C3GAE]] of first-order logic is characterized by invariance under guarded bisimulation.
+4. For multimodal languages the same theorem holds with one relation symbol for each modality.
+
+## History
+
+Johan van Benthem proved the theorem in his 1976 dissertation "Modal correspondence theory" at the University of Amsterdam.
+Eric Rosen proved the version over finite models in 1997.
+
+## Explanations
+
+### L1 human
+
+First-order logic can say many things about a network of points and arrows.
+Some of these things never change when one replaces the network by another that looks the same from inside.
+The theorem says that exactly these statements can already be written in the simpler modal language.
+For example, "some arrow leads to a point that has an arrow" is unchanged by such a replacement, and it is the modal formula $\lozenge \lozenge \top$.
+"There is an arrow from this point to itself" changes, and it is not modal.
+
+### L2 human
+
+1. Consider $\alpha(x) = \exists y \, (R(x, y) \wedge \forall z \, (R(y, z) \to P(z)))$.
+2. This is $\mathrm{ST}_x(\lozenge \square p)$, with $z$ in place of $x$ inside.
+3. So $\alpha$ is invariant under bisimulation, by the easy direction.
+4. Consider $\beta(x) = \exists y \, \exists z \, (R(x, y) \wedge R(x, z) \wedge y \neq z)$.
+5. The worlds $a$ with successors $b$, $c$, and $x$ with one successor $y$, all without true variables, are bisimilar by $\set{(a, x), (b, y), (c, y)}$.
+6. $\beta$ holds at $a$ and fails at $x$, so $\beta$ is not invariant and is not equivalent to any modal formula.
+
+The typical use is the test in step 5: a candidate first-order property is modal only if it survives all bisimulations.
+A trap: invariance must be checked across two different models, not only between worlds of one model.
+
+### L3 human
+
+The theorem is a preservation theorem in the style of the Łoś-Tarski theorem: a semantic closure condition on a first-order formula is matched by a syntactic normal form.
+Its proof uses compactness and saturation, and so it fails over finite models; Rosen's theorem and Otto's later proof by locality show that the result survives there with different methods.
+The pattern recurs across logic: invariance characterizes the mu-calculus in monadic second-order logic, the guarded fragment under guarded bisimulation, and first-order logic itself in Lindström's theorem.
