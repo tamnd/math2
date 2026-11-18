@@ -2,9 +2,17 @@
 tag: NGHWZ9Y7ZV
 kind: concept
 name: Kripke semantics
-msc: [03B45, 03B20]
+msc: ["03B45", "03B20"]
+topics: [SKY7AQFG1V]
+audience: grad
+uses: [C3RZY20ETK, G8VGTW9P4F, 05AVARPXA2, 6BQ71KQ6QT]
 sources:
   - url: https://en.wikipedia.org/wiki/Kripke_semantics
+    locator: lead section
+  - url: https://en.wikipedia.org/wiki/Kripke_semantics
+    locator: Semantics of modal logic
+  - url: https://builds.openlogicproject.org/
+    locator: Boxes and Diamonds
 same_as:
   wikidata: Q2462350
   wikipedia: Kripke semantics
@@ -12,16 +20,95 @@ same_as:
 
 ## Summary
 
-Kripke semantics interprets [[modal logic|C3RZY20ETK]] in a set of possible worlds linked by an accessibility relation.
-A formula $\square\varphi$ is true at a world when $\varphi$ is true at every world accessible from it.
-Many modal logics are exactly the sets of formulas valid on a class of such frames.
-A variant of the semantics also serves [[intuitionistic logic|Q11N8X99FK]].
+A Kripke frame is a pair $\mathfrak{F} = (W, R)$ of a nonempty set $W$ of worlds and a [[binary relation|05AVARPXA2]] $R$ on $W$, the [[accessibility relation|XBCYFDPS2F]].
+A Kripke model $\mathfrak{M} = (W, R, V)$ adds a valuation $V$ that gives each variable $p$ a set $V(p) \subseteq W$.
+Truth of a [[modal formula|G8VGTW9P4F]] at a world is defined by induction.
+Its main clause is: $\mathfrak{M}, w \models \square\varphi$ if and only if $\mathfrak{M}, v \models \varphi$ for every $v$ with $w R v$.
+A formula is valid on a frame when it is true at every world under every valuation.
+The exact clauses are in [[the definition of Kripke semantics|6BQ71KQ6QT]].
+This semantics turns questions about axiom systems into questions about relations, and it gives the completeness and decidability results of [[modal logic|C3RZY20ETK]].
+
+## Motivation
+
+The operator $\square$ is not truth-functional, so a truth table cannot interpret it, see [[the truth-table example|H22GJGKD5M]].
+Leibniz spoke of necessity as truth in all possible worlds, and this reading interprets $\square p$ by quantification over worlds.
+A single set of worlds with "true in all worlds" gives only one logic, $\mathsf{S5}$.
+Kripke's step was to let each world see its own set of alternatives through a relation $R$.
+Different conditions on $R$ then give different logics: reflexive relations give $\mathsf{T}$, preorders give $\mathsf{S4}$, equivalence relations give $\mathsf{S5}$.
+
+## Notation
+
+1. Frames are $\mathfrak{F} = (W, R)$ and models $\mathfrak{M} = (W, R, V)$; some authors write $\langle W, R, \Vdash \rangle$ with a forcing relation instead of $V$.
+2. We write $R[w] = \set{v \in W : w R v}$ for the successors of $w$, and $[\![\varphi]\!]^{\mathfrak{M}} = \set{w \in W : \mathfrak{M}, w \models \varphi}$ for the truth set.
+3. $\mathfrak{M} \models \varphi$ means validity in the model, $\mathfrak{F} \models \varphi$ validity on the frame, and $\mathsf{C} \models \varphi$ validity on a class $\mathsf{C}$ of frames.
+4. $\operatorname{Log}(\mathsf{C})$ is the set of formulas valid on every frame of $\mathsf{C}$.
+
+## Remarks
+
+### Examples
+
+1. In the model with $W = \set{1, 2, 3}$, $R = \set{(1,2), (1,3), (2,2)}$, $V(p) = \set{2}$ and $V(q) = \set{1, 3}$, the truth sets are computed in [[the three-world model|6JXBZ2C9B4]].
+2. A world with no successors makes every formula $\square\varphi$ true and every $\lozenge\varphi$ false.
+3. The frame $(\N, <)$ is the frame of "always in the future", see [[the order of the natural numbers|2SVYW67C85]].
+4. The deals of a card game, with "same own card" as the relation, form a frame of $\mathsf{S5}$, see [[the card game|81J8VDK9RX]].
+5. The real line with $\square$ as interior is a model of $\mathsf{S4}$ in the topological variant, see [[the interior example|WZF6Y41AEV]].
+
+### Non-examples
+
+1. A two-valued truth table for $\square$ is not a Kripke semantics, and no such table gives the logic $\mathsf{K}$, see [[the truth-table example|H22GJGKD5M]].
+2. A neighbourhood model whose neighbourhoods are not closed under intersection is not a Kripke model, and axiom $\mathrm{K}$ fails in it, see [[the neighbourhood example|G2X3PKG55F]].
+3. A triple $(W, R, V)$ with $W = \emptyset$ is excluded by the definition, since a frame needs at least one world.
+
+### Basic properties
+
+1. Every frame validates every tautology and the axiom $\mathrm{K}$. Frame validity is preserved by modus ponens, necessitation and uniform substitution, see [[soundness of normal modal logics|E87G6ZTMTN]].
+2. So $\operatorname{Log}(\mathsf{C})$ is a normal modal logic for every class $\mathsf{C}$ of frames. $\operatorname{Log}$ of all frames is $\mathsf{K}$, see [[completeness of K, T, D, K4, S4, B and S5|FXTCKYR3AQ]].
+3. Each of $\mathrm{T}$, $\mathrm{D}$, $\mathrm{B}$, $\mathrm{4}$, $\mathrm{5}$ is valid on a frame exactly when $R$ has a first-order property, see [[common modal axiom schemata|FDFQFWPM4X]].
+4. Validity in one model is weaker than validity on its frame, see [[the axiom 4 example|NA6H3978PW]].
+5. Truth at $w$ depends only on the worlds reachable from $w$ by finite $R$-paths, so the submodel generated by $w$ gives the same truth values.
+
+### History
+
+Kripke published a completeness theorem for quantified $\mathsf{S5}$ in 1959.
+In 1963 he gave the relational semantics with an accessibility relation for the normal propositional logics, and in 1965 for intuitionistic logic.
+Related ideas appear in work of Hintikka and of Kanger from the same period.
+
+### Common errors
+
+1. Treating validity in a model as validity on the frame. Axiom $\mathrm{4}$ can be true in a model on a frame that is not transitive, see [[the axiom 4 example|NA6H3978PW]].
+2. Forgetting that worlds without successors make $\square\bot$ true; the formula $\square p \to \lozenge p$ fails there.
+3. Evaluating $\lozenge\varphi$ as "$\varphi$ at some world" instead of "$\varphi$ at some successor".
 
 ## Explanations
 
 ### L1 human
 
-Picture a set of points, the possible worlds, with arrows between some of them.
-At each world, each basic statement is either true or false.
+Picture some points, the possible worlds, with arrows between some of them.
+At each world each basic statement is true or false.
 "Necessarily $p$" holds at a world when $p$ holds at every world that its arrows reach.
-For example, with two worlds $u \to v$, where $p$ is true only at $v$, the formula $\square p$ holds at $u$, but $p$ itself does not.
+"Possibly $p$" holds at a world when $p$ holds at least at one world that its arrows reach.
+For example, take two worlds and one arrow from $u$ to $v$, with $p$ true only at $v$.
+Then the statement "necessarily $p$" holds at $u$, although $p$ is false at $u$.
+
+### L2 human
+
+We evaluate $\lozenge\square p$ in the model $W = \set{1, 2, 3}$, $R = \set{(1,2), (2,3), (3,3)}$, $V(p) = \set{3}$.
+
+1. $\square p$ is true at 3, since the only successor of 3 is 3, and $3 \in V(p)$.
+2. $\square p$ is true at 2, since the only successor of 2 is 3.
+3. $\square p$ is false at 1, since its successor 2 is not in $V(p)$.
+4. $\lozenge\square p$ is true at 1 (the successor 2 has $\square p$), true at 2 and true at 3.
+
+So $[\![\lozenge\square p]\!] = W$, while $[\![ p]\!] = \set{3}$.
+The typical use is to show that a formula is not a theorem of a logic.
+Build a frame of the logic and a world where the formula fails, and use soundness.
+A trap: a formula true in one model need not be valid on the frame; validity on the frame quantifies over all valuations.
+
+### L3 human
+
+A Kripke frame $(W, R)$ gives the complex algebra $(\mathcal{P}(W), \cap, \cup, W \setminus -, \square_R)$ with $\square_R X = \set{w : R[w] \subseteq X}$, a Boolean algebra with an operator; truth sets are values in this algebra.
+Not every normal logic is the logic of a class of Kripke frames.
+General frames, which restrict the valuations to an algebra of sets, repair this.
+Kripke incompleteness is a topic of [[modal model theory|SPQVNPZDTB]].
+The same structures, read as transition systems, are the models of temporal logics and of model checking.
+A preorder variant is the semantics of [[intuitionistic logic|Q11N8X99FK]].

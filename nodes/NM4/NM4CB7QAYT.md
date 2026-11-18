@@ -1,0 +1,93 @@
+---
+tag: NM4CB7QAYT
+kind: statement
+role: lemma
+name: Truth lemma for canonical models
+msc: ["03B45"]
+topics: [SKY7AQFG1V]
+audience: grad
+uses: [JS8W7PA6JK, TVE4F04KME, NGHWZ9Y7ZV, VM8TQ70CVJ, SC0BSJ3GT6]
+about: [TVE4F04KME]
+proofs: [ST0ZHXSKFG]
+sources:
+  - url: https://en.wikipedia.org/wiki/Kripke_semantics
+    locator: Canonical models
+  - url: https://builds.openlogicproject.org/
+    locator: Boxes and Diamonds, chapter on completeness and canonical models
+---
+
+## Statement
+
+Let $\Lambda$ be a [[normal modal logic|JS8W7PA6JK]], and let $\mathfrak{M}^\Lambda = (W^\Lambda, R^\Lambda, V^\Lambda)$ be its [[canonical model|TVE4F04KME]].
+A set $\Gamma$ of formulas is $\Lambda$-consistent when no finite $\varphi_1, \dots, \varphi_n \in \Gamma$ give $\Lambda \vdash \neg(\varphi_1 \wedge \dots \wedge \varphi_n)$.
+
+1. Lindenbaum's lemma. Every $\Lambda$-consistent set is contained in a maximal $\Lambda$-consistent set.
+2. Box lemma. For $\Gamma, \Delta \in W^\Lambda$, the conditions $\set{\varphi : \square\varphi \in \Gamma} \subseteq \Delta$ and $\set{\lozenge\varphi : \varphi \in \Delta} \subseteq \Gamma$ are equivalent.
+3. Existence lemma. If $\Gamma \in W^\Lambda$ and $\lozenge\varphi \in \Gamma$, then there is $\Delta \in W^\Lambda$ with $\Gamma R^\Lambda \Delta$ and $\varphi \in \Delta$.
+4. Truth lemma. For every formula $\varphi$ and every $\Gamma \in W^\Lambda$, we have $\mathfrak{M}^\Lambda, \Gamma \models \varphi$ if and only if $\varphi \in \Gamma$.
+5. Canonical model theorem. Every $\Lambda$-consistent set of formulas is true at some world of $\mathfrak{M}^\Lambda$, and $\mathfrak{M}^\Lambda \models \varphi$ if and only if $\Lambda \vdash \varphi$.
+
+The proof is in [[the proof of the truth lemma|ST0ZHXSKFG]].
+
+## Remarks
+
+### Why each hypothesis is needed
+
+1. Normality is used in the existence lemma: the step from $\lozenge\varphi \in \Gamma$ to a consistent set $\set{\varphi} \cup \set{\psi : \square\psi \in \Gamma}$ needs the rule RK of [[K|JS8W7PA6JK]]. For a logic without axiom $\mathrm{K}$, the relational canonical model does not satisfy the truth lemma, and [[neighborhood semantics|CN7HK9K1B6]] is used instead.
+2. Maximality of $\Gamma$ is needed in the truth lemma. For a consistent set $\Gamma$ that is not maximal, both $p \notin \Gamma$ and $\neg p \notin \Gamma$ can hold, while $p$ or $\neg p$ is true at every world.
+3. Consistency of $\Lambda$ is needed for $W^\Lambda$ to be nonempty. For the inconsistent logic, the set of all formulas, no set is consistent and there is no model.
+
+### Consequences
+
+1. Every normal modal logic is complete for its canonical model, so $\Lambda$ is the set of formulas valid in one Kripke model.
+2. Every normal modal logic is strongly complete for its canonical model with respect to local consequence.
+3. If the canonical frame of $\Lambda$ lies in a class $\mathsf{C}$ of frames that validate $\Lambda$, then $\Lambda$ is strongly complete for $\mathsf{C}$. This gives [[the completeness theorem|FXTCKYR3AQ]] for $\mathsf{K}$, $\mathsf{T}$, $\mathsf{D}$, $\mathsf{K4}$, $\mathsf{S4}$, $\mathsf{B}$ and $\mathsf{S5}$.
+4. The examples [[the KD45 example|1CFMP9DEE6]], [[the verum logic|B464EAG58T]] and [[the GL example|E61769H6KG]] apply the lemma.
+
+### Converse
+
+The truth lemma is an equivalence, so it has no separate converse.
+The converse of item 3 of the consequences fails: a logic can be complete for a class without being canonical.
+An example is $\mathsf{GL}$, see [[the GL example|E61769H6KG]].
+
+### Generalizations
+
+1. For a multimodal normal logic, the canonical model has one relation $R_i$ for each box. The same proof gives the truth lemma, see [[multimodal logic|ERG3KAQWYF]].
+2. For a finite set $\Sigma$ closed under subformulas, maximal consistent subsets of $\Sigma$ give a finite canonical model; this is a form of [[filtration|6ZZSHAKG5F]].
+3. For first-order logic, Henkin's construction with witnesses plays the role of the existence lemma.
+
+## History
+
+Lindenbaum's lemma for propositional calculi was stated by Tarski in 1930 and credited by him to Lindenbaum.
+Henkin used maximal consistent sets in his completeness proof for first-order logic of 1949.
+Makinson set out the canonical model and its truth lemma for normal modal logics in 1966.
+The Lemmon notes, edited by Segerberg and published in 1977, made them standard.
+
+## Explanations
+
+### L1 human
+
+A canonical model is built out of complete descriptions.
+The truth lemma says that each description is true exactly at its own world.
+So a statement holds at a world when the description of that world says yes to it.
+Since every unprovable statement appears negated in some description, it is false at some world.
+
+### L2 human
+
+We check the box case of the truth lemma at one world.
+
+1. Let $\Gamma$ be maximal consistent and $\square p \notin \Gamma$. Then $\neg\square p \in \Gamma$, that is, $\lozenge\neg p \in \Gamma$.
+2. The existence lemma gives $\Delta$ with $\Gamma R^\Lambda \Delta$ and $\neg p \in \Delta$.
+3. By the induction hypothesis for $p$, the formula $p$ is false at $\Delta$, since $p \notin \Delta$.
+4. So $\square p$ is false at $\Gamma$, as the lemma says.
+
+The typical use is the contrapositive: to refute $\varphi$, we put $\neg\varphi$ into a maximal consistent set.
+A trap: the existence lemma is the only step that builds a new world; the other cases are bookkeeping.
+
+### L3 human
+
+In algebraic terms, $W^\Lambda$ is the set of ultrafilters of the Lindenbaum algebra of $\Lambda$.
+The truth lemma says that the Jónsson-Tarski map $a \mapsto \set{u : a \in u}$ is an embedding of modal algebras.
+The existence lemma is the step where the operator $\lozenge$ of the algebra is represented by a relation, and it uses the prime filter theorem.
+The lemma does not use any property of the frame, so the frame properties must come from the axioms of $\Lambda$.
+This is the source of the notion of canonicity.

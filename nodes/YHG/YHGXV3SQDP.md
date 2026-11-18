@@ -1,0 +1,69 @@
+---
+tag: YHGXV3SQDP
+kind: definition
+name: Accessibility relation
+msc: ["03B45"]
+topics: [SKY7AQFG1V]
+audience: grad
+defines: XBCYFDPS2F
+uses: [6BQ71KQ6QT, 05AVARPXA2, 0X8NMST0J2, 061J5VGSPT, 0GJZW9JFZQ, 0G8VEZ3WTK]
+sources:
+  - url: https://en.wikipedia.org/wiki/Accessibility_relation
+    locator: lead section
+  - url: https://en.wikipedia.org/wiki/Kripke_semantics
+    locator: Correspondence and completeness
+---
+
+## Definition
+
+Let $\mathfrak{F} = (W, R)$ be a [[Kripke frame|6BQ71KQ6QT]].
+The [[binary relation|05AVARPXA2]] $R$ is the accessibility relation of $\mathfrak{F}$, and $v$ is accessible from $w$ when $w R v$.
+For $w \in W$ we write $R[w] = \set{v \in W : w R v}$.
+The relation $R$ is called
+
+1. [[reflexive|0X8NMST0J2]] when $w R w$ for every $w \in W$;
+2. serial when every $w \in W$ has some $v$ with $w R v$;
+3. [[symmetric|061J5VGSPT]] when $w R v$ implies $v R w$;
+4. [[transitive|0GJZW9JFZQ]] when $w R v$ and $v R u$ imply $w R u$;
+5. Euclidean when $w R v$ and $w R u$ imply $v R u$;
+6. a preorder when it is reflexive and transitive;
+7. an [[equivalence relation|0G8VEZ3WTK]] when it is reflexive, symmetric and transitive;
+8. universal when $R = W \times W$.
+
+## Notation
+
+The frame classes are named by the logics that they define: reflexive frames are $\mathsf{T}$-frames, preorders are $\mathsf{S4}$-frames, and equivalence relations are $\mathsf{S5}$-frames.
+Seriality has its own page, [[seriality|NRNKV2YYWJ]].
+
+## Remarks
+
+1. The intuitive readings: reflexive, "the actual world is possible"; serial, "some alternative exists"; symmetric, "each alternative sees back". Transitive: "an alternative of an alternative is an alternative". Euclidean: "any two alternatives of one world are alternatives of each other".
+2. Every reflexive relation is serial, and every equivalence relation is Euclidean.
+3. Each property is first-order, and each is matched by one axiom, see [[common modal axiom schemata|FDFQFWPM4X]].
+4. Worked cases are [[the card game|81J8VDK9RX]], [[the order of the natural numbers|2SVYW67C85]] and [[the Euclidean example|NS4AC3W4FM]].
+
+## Explanations
+
+### L1 human
+
+The accessibility relation is the list of arrows between worlds.
+Reflexive means every world has an arrow to itself.
+Serial means every world has at least one arrow out.
+Transitive means that two arrows in a row can be replaced by one arrow.
+
+### L2 human
+
+We check the Euclidean property for $R = \set{(a,b), (b,b)}$.
+
+1. The pairs with the same first world are $(a, b), (a, b)$ and $(b, b), (b, b)$.
+2. For the first, the property asks $b R b$, which holds.
+3. For the second, the property asks $b R b$ again.
+
+So $R$ is Euclidean, but it is not symmetric, since $a R b$ and not $b R a$.
+The typical use is to check which axioms a given frame validates.
+A trap: the Euclidean condition is about two successors of one world, not about a path of two steps.
+
+### L3 human
+
+The eight properties are universal Horn conditions on $R$, except seriality, which is a $\forall\exists$ condition.
+All of them are preserved under generated subframes, and the Horn conditions are preserved under intersections of relations on a fixed set.
