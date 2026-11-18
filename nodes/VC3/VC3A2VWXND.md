@@ -5,7 +5,7 @@ name: Modal logic S5
 msc: ["03B45"]
 topics: [SKY7AQFG1V]
 audience: grad
-uses: [~b1c67ad7, FDFQFWPM4X, 0G8VEZ3WTK, ~3595c3e8]
+uses: [JS8W7PA6JK, FDFQFWPM4X, 0G8VEZ3WTK, MT0CNMDT3R]
 aliases: [axiom-s5, logic-s5]
 sources:
   - url: https://en.wikipedia.org/wiki/S5_(modal_logic)
@@ -25,7 +25,7 @@ inventory: [D5JKKWKM27]
 
 ## Summary
 
-The modal logic $\mathsf{S5} = \mathsf{KT5}$ is the smallest [[normal modal logic|~b1c67ad7]] that contains $\square p \to p$ and $\lozenge p \to \square\lozenge p$, as in [[the definition|~3595c3e8]]; it equals $\mathsf{KTB4}$.
+The modal logic $\mathsf{S5} = \mathsf{KT5}$ is the smallest [[normal modal logic|JS8W7PA6JK]] that contains $\square p \to p$ and $\lozenge p \to \square\lozenge p$, as in [[the definition|MT0CNMDT3R]]; it equals $\mathsf{KTB4}$.
 It is sound and complete for the frames whose relation is an [[equivalence relation|0G8VEZ3WTK]].
 It is also sound and complete for the universal frames, where $\square\varphi$ means "$\varphi$ at every world".
 Every formula is $\mathsf{S5}$-equivalent to one of modal depth at most 1, and $\mathsf{S5}$-satisfiability is NP-complete.
@@ -49,24 +49,24 @@ So $\mathsf{S5}$ is the logic of these two readings, and its frames are the equi
 
 ### Examples
 
-1. In a card game, the relation "same own card" between deals is an equivalence relation. So the knowledge of a player obeys $\mathsf{S5}$, see [[the card game|~17a97e87]].
-2. Every string of boxes and diamonds before $p$ reduces to its last operator, so $\mathsf{S5}$ has six modalities, see [[the reduction in S5|~4e438511]].
-3. $\mathsf{S5} \vdash \square(p \vee \square q) \leftrightarrow (\square p \vee \square q)$, while $\mathsf{S4}$ does not prove it, see [[the distribution example|~8b657ee8]].
+1. In a card game, the relation "same own card" between deals is an equivalence relation. So the knowledge of a player obeys $\mathsf{S5}$, see [[the card game|81J8VDK9RX]].
+2. Every string of boxes and diamonds before $p$ reduces to its last operator, so $\mathsf{S5}$ has six modalities, see [[the reduction in S5|GHPPQ19J6B]].
+3. $\mathsf{S5} \vdash \square(p \vee \square q) \leftrightarrow (\square p \vee \square q)$, while $\mathsf{S4}$ does not prove it, see [[the distribution example|BAV2SAADQT]].
 4. The universal frame on two worlds with $V(p) = \set{1}$ makes $\lozenge p \wedge \lozenge\neg p$ true at both worlds.
 
 ### Non-examples
 
-1. $\mathsf{S4} \nvdash \lozenge p \to \square\lozenge p$, so $\mathsf{S4} \subsetneq \mathsf{S5}$, see [[the non-theorem 5 in S4|~d69eee52]].
-2. The Euclidean, transitive and serial frame $\set{(a,b),(b,b)}$ is a frame of $\mathsf{KD45}$ but not of $\mathsf{S5}$, see [[the Euclidean example|~1ea6939a]].
-3. The reflexive symmetric path on three worlds is a frame of $\mathsf{B}$ but not of $\mathsf{S5}$, see [[the reflexive symmetric frame|~1d7e3826]].
+1. $\mathsf{S4} \nvdash \lozenge p \to \square\lozenge p$, so $\mathsf{S4} \subsetneq \mathsf{S5}$, see [[the non-theorem 5 in S4|A2JGSWCMT5]].
+2. The Euclidean, transitive and serial frame $\set{(a,b),(b,b)}$ is a frame of $\mathsf{KD45}$ but not of $\mathsf{S5}$, see [[the Euclidean example|NS4AC3W4FM]].
+3. The reflexive symmetric path on three worlds is a frame of $\mathsf{B}$ but not of $\mathsf{S5}$, see [[the reflexive symmetric frame|DJTASRZ6WC]].
 
 ### Basic properties
 
-1. $\mathsf{S5}$ is the logic of all equivalence relations and of all universal frames, see [[the completeness theorem|~1d9447ce]].
+1. $\mathsf{S5}$ is the logic of all equivalence relations and of all universal frames, see [[the completeness theorem|FXTCKYR3AQ]].
 2. $\mathsf{S5} \vdash \lozenge\square p \leftrightarrow \square p$ and $\mathsf{S5} \vdash \square\lozenge p \leftrightarrow \lozenge p$.
-3. Every formula is $\mathsf{S5}$-equivalent to a formula of modal depth at most 1. The proof uses these two equivalences and distribution laws such as those of [[the distribution example|~8b657ee8]].
-4. A formula $\varphi$ is $\mathsf{S5}$-satisfiable if and only if it is true in a universal model with at most $1 + m$ worlds. Here $m$ is the number of subformulas $\square\psi$ of $\varphi$. So $\mathsf{S5}$-satisfiability is NP-complete, see [[the complexity theorem|~c5e1a419]].
-5. $\mathsf{S5}$ has the [[finite model property|~11053ef0]] and is decidable.
+3. Every formula is $\mathsf{S5}$-equivalent to a formula of modal depth at most 1. The proof uses these two equivalences and distribution laws such as those of [[the distribution example|BAV2SAADQT]].
+4. A formula $\varphi$ is $\mathsf{S5}$-satisfiable if and only if it is true in a universal model with at most $1 + m$ worlds. Here $m$ is the number of subformulas $\square\psi$ of $\varphi$. So $\mathsf{S5}$-satisfiability is NP-complete, see [[the complexity theorem|1P2B0C7CQ4]].
+5. $\mathsf{S5}$ has the [[finite model property|3NT8RCA6HE]] and is decidable.
 
 ### History
 

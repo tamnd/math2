@@ -1,0 +1,69 @@
+---
+tag: SB9HMACX5D
+kind: example
+name: Reflexivity at a point is not the translation of a modal formula
+msc: ["03B45"]
+topics: [SKY7AQFG1V]
+audience: grad
+not_instance_of:
+  - target: YW6YGBMVQY
+    note: Rxx has one free variable but is not equivalent to the standard translation of any modal formula
+uses: [YW6YGBMVQY, 1HQ1W36J4V, X27BR4YP2Y, 086QKPF0A6, NGHWZ9Y7ZV, 12MQ2NJ29A]
+sources:
+  - url: https://en.wikipedia.org/wiki/Standard_translation
+    locator: lead section
+  - url: https://en.wikipedia.org/wiki/Bisimulation
+    locator: lead section
+---
+
+## Example
+
+The [[first-order|086QKPF0A6]] formula $Rxx$ has one free variable, like every [[standard translation|YW6YGBMVQY]] $\mathrm{ST}_x(\varphi)$.
+We show that no modal formula $\varphi$ has $\mathrm{ST}_x(\varphi)$ equivalent to $Rxx$ on all models.
+
+1. Let $\mathfrak{M}_1$ have one world $w$, the relation $\set{(w, w)}$, and every variable false.
+2. Let $\mathfrak{M}_2$ have $W = \N$, the relation $\set{(n, n + 1) : n \in \N}$, and every variable false.
+3. Claim: for every modal formula $\varphi$ and every $n \in \N$, $\mathfrak{M}_1, w \models \varphi$ if and only if $\mathfrak{M}_2, n \models \varphi$.
+4. We use [[structural induction|12MQ2NJ29A]] on $\varphi$, for all $n$ at once.
+5. For a variable $p$, both sides are false. For $\bot$, both sides are false.
+6. For $\alpha \to \beta$, both sides are computed from the values of $\alpha$ and $\beta$, which agree by the induction hypothesis.
+7. For $\square\alpha$: the only successor of $w$ is $w$, so $\mathfrak{M}_1, w \models \square\alpha$ if and only if $\mathfrak{M}_1, w \models \alpha$.
+8. The only successor of $n$ is $n + 1$, so $\mathfrak{M}_2, n \models \square\alpha$ if and only if $\mathfrak{M}_2, n + 1 \models \alpha$.
+9. By the induction hypothesis at $n + 1$, the right sides of steps 7 and 8 agree. This proves the claim.
+10. Now suppose $\mathrm{ST}_x(\varphi)$ is equivalent to $Rxx$.
+11. By [[the correctness of the standard translation|1HQ1W36J4V]], $Rww$ holds in $\mathfrak{M}_1$, so $\mathfrak{M}_1, w \models \varphi$.
+12. By the claim with $n = 0$, $\mathfrak{M}_2, 0 \models \varphi$, so $R00$ holds in $\mathfrak{M}_2$.
+13. But $(0, 0)$ is not in the relation of $\mathfrak{M}_2$. This contradiction shows that no such $\varphi$ exists.
+
+## Remarks
+
+The relation $Z = \set{(w, n) : n \in \N}$ is a [[bisimulation|X27BR4YP2Y]] between the two models, and the claim is its invariance lemma.
+The condition that fails is the defining one: $Rxx$ is not in the image of $\mathrm{ST}_x$ up to equivalence.
+Van Benthem's theorem says that the image is exactly the set of first-order formulas invariant under bisimulation, see [[modal model theory|SPQVNPZDTB]].
+Frame validity is different: reflexivity of the whole frame is defined by the axiom $\square p \to p$, see [[the second-order translation of T|KM2BKWZKW8]].
+
+## Explanations
+
+### L1 human
+
+A point with a loop and an endless chain look the same from the inside.
+At each step you can move on, and you always see the same facts.
+Modal formulas only describe what you see when you move along arrows.
+So they cannot tell the loop from the chain.
+But "this point sees itself" is true for the loop and false for the chain.
+
+### L2 human
+
+1. Match the loop point $w$ with every point $n$ of the chain.
+2. Each move from $w$ is matched by the move from $n$ to $n + 1$, and conversely.
+3. So $w$ and $n$ satisfy the same modal formulas.
+4. As $Rww$ holds and $R00$ fails, $Rxx$ is not modal.
+
+The typical use is to prove that a property is not modally expressible by exhibiting two bisimilar points that differ on it.
+A trap: the formula $\square p \to p$ defines reflexivity of a frame.
+That is a statement about all worlds and all valuations, not about one point in one model.
+
+### L3 human
+
+The argument uses the easy half of van Benthem's theorem: the translations of modal formulas are invariant under bisimulation.
+Hybrid logic adds a nominal $i$ true at one world only, and then $i \to \lozenge i$ expresses $Rxx$.

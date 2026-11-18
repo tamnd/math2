@@ -5,7 +5,7 @@ name: Neighborhood semantics
 msc: ["03B45"]
 topics: [SKY7AQFG1V]
 audience: research
-uses: [~6197812b, ~b1c67ad7, NGHWZ9Y7ZV, G989VP2NGP, H9RGWCR10W, 0CQHFPGJ45, 0ZCY0Z80B6, 0RZH6W98HK, ~d626bd63]
+uses: [RT7QEGZSTQ, JS8W7PA6JK, NGHWZ9Y7ZV, G989VP2NGP, H9RGWCR10W, 0CQHFPGJ45, 0ZCY0Z80B6, 0RZH6W98HK, TVE4F04KME]
 aliases: [neighbourhood-semantics, scott-montague-semantics]
 sources:
   - book: isbn:9780521295154
@@ -24,9 +24,9 @@ inventory: [K2P1X1AQVB]
 ## Summary
 
 Neighborhood semantics, also called Scott-Montague semantics, interprets the box by a set of propositions at each world instead of by an accessibility relation.
-A [[neighbourhood frame|~6197812b]] gives each world $w$ a family $N(w)$ of sets of worlds.
+A [[neighbourhood frame|RT7QEGZSTQ]] gives each world $w$ a family $N(w)$ of sets of worlds.
 Then $\square\varphi$ is true at $w$ when the truth set of $\varphi$ is in $N(w)$.
-It is the standard semantics for the *classical* modal logics, which need not be [[normal|~b1c67ad7]].
+It is the standard semantics for the *classical* modal logics, which need not be [[normal|JS8W7PA6JK]].
 It contains [[Kripke semantics|NGHWZ9Y7ZV]] as the special case of augmented frames.
 
 ## Motivation
@@ -36,12 +36,12 @@ So an agent who knows $\varphi$ knows every consequence of $\varphi$.
 Also, an obligation to do $\varphi$ is an obligation to do each consequence of $\varphi$.
 For knowledge and belief this is the problem of logical omniscience, see [[epistemic closure|H9RGWCR10W]], and for obligation it leads to deontic paradoxes.
 A semantics for weaker logics must let $\square\varphi$ hold without $\square\psi$, even when $\varphi$ implies $\psi$.
-No truth table for the box does this, see [[no two-valued truth table for the box gives K|~81ccf77c]].
+No truth table for the box does this, see [[no two-valued truth table for the box gives K|H22GJGKD5M]].
 Neighbourhood frames are the simplest possible-worlds semantics that does.
 
 ## Notation
 
-We use the notation of [[the definition|~6197812b]]: a frame is $(W, N)$, a model is $(W, N, V)$, and $[\![ \varphi ]\!]$ is the truth set of $\varphi$.
+We use the notation of [[the definition|RT7QEGZSTQ]]: a frame is $(W, N)$, a model is $(W, N, V)$, and $[\![ \varphi ]\!]$ is the truth set of $\varphi$.
 The closure conditions are (m) supplemented, (c) closed under intersections and (n) contains the unit.
 The logics are named by Chellas's letters: $\mathsf{E}$ is the smallest classical modal logic.
 The logics $\mathsf{EM}$, $\mathsf{EC}$, $\mathsf{EN}$, $\mathsf{EMC}$ and so on add the axioms $\mathrm{M}$, $\mathrm{C}$ and $\mathrm{N}$.
@@ -51,10 +51,10 @@ The logic $\mathsf{EM}$ is called the *monotonic* logic, and its frames are the 
 
 ### Examples
 
-1. A Kripke frame gives the neighbourhood frame $N(w) = \set{X : R[w] \subseteq X}$, and the two clauses for $\square$ agree, see [[a Kripke frame as a neighbourhood frame|~33e4a57b]].
-2. A frame where axiom $\mathrm{K}$ and necessitation fail, see [[a neighbourhood model in which axiom K fails|~3050f897]].
+1. A Kripke frame gives the neighbourhood frame $N(w) = \set{X : R[w] \subseteq X}$, and the two clauses for $\square$ agree, see [[a Kripke frame as a neighbourhood frame|BJ59QH0AS8]].
+2. A frame where axiom $\mathrm{K}$ and necessitation fail, see [[a neighbourhood model in which axiom K fails|G2X3PKG55F]].
 3. Majority. Take $W = \set{1, 2, 3}$ and $N(w) = \set{X \subseteq W : |X| \ge 2}$ for each $w$. Then $\square\varphi$ says that $\varphi$ holds at most worlds. The frame is supplemented and contains $W$. It is not closed under intersections: $\set{1, 2} \cap \set{2, 3} = \set{2}$. So it validates $\mathrm{M}$ and $\mathrm{N}$ but not $\mathrm{C}$.
-4. Topology. For a [[topological space|0CQHFPGJ45]] $(W, \tau)$, let $N(w)$ be the set of [[neighbourhoods|0ZCY0Z80B6]] of $w$. Then $[\![ \square\varphi ]\!]$ is the [[interior|0RZH6W98HK]] of $[\![ \varphi ]\!]$. The frame is supplemented, closed under finite intersections and contains $W$; see [[the interior of the real line as an S4 box|~e8c76800]]. This is the source of the name.
+4. Topology. For a [[topological space|0CQHFPGJ45]] $(W, \tau)$, let $N(w)$ be the set of [[neighbourhoods|0ZCY0Z80B6]] of $w$. Then $[\![ \square\varphi ]\!]$ is the [[interior|0RZH6W98HK]] of $[\![ \varphi ]\!]$. The frame is supplemented, closed under finite intersections and contains $W$; see [[the interior of the real line as an S4 box|WZF6Y41AEV]]. This is the source of the name.
 
 ### Non-examples
 
@@ -68,8 +68,8 @@ The logic $\mathsf{EM}$ is called the *monotonic* logic, and its frames are the 
 2. Axiom $\mathrm{M}$ is valid on a frame if and only if the frame is supplemented. For one direction, $[\![ p \wedge q ]\!] \subseteq [\![ p ]\!]$. For the other, given $X \subseteq Y$ with $X \in N(w)$, put $V(p) = Y$ and $V(q) = X$.
 3. In the same way, axiom $\mathrm{C}$ is valid if and only if the frame is closed under intersections. Axiom $\mathrm{N}$ is valid if and only if the frame contains the unit, since $[\![ \top ]\!] = W$.
 4. $\mathsf{EMCN} = \mathsf{K}$. $\mathsf{K}$ proves RE, $\mathrm{M}$, $\mathrm{C}$ and $\mathrm{N}$. Conversely, from $\vdash \varphi$ we get $\vdash \varphi \leftrightarrow \top$, so $\vdash \square\varphi$ by RE and $\mathrm{N}$. By $\mathrm{C}$, then RE, then $\mathrm{M}$, $\square(p \to q) \wedge \square p$ implies $\square((p \to q) \wedge p)$, then $\square(q \wedge p)$, then $\square q$.
-5. Completeness (Segerberg 1971, Chellas 1980). $\mathsf{E}$ is sound and complete for the class of all neighbourhood frames. Each logic obtained from $\mathsf{E}$ by adding some of $\mathrm{M}$, $\mathrm{C}$ and $\mathrm{N}$ is sound and complete for the frames with the matching conditions. The proof uses a canonical neighbourhood model built from maximal consistent sets, as in [[the canonical model|~d626bd63]].
-6. Augmented frames are exactly the frames of the form in example 1. On a finite set every frame with (m), (c) and (n) is augmented, see [[the definition|~6197812b]].
+5. Completeness (Segerberg 1971, Chellas 1980). $\mathsf{E}$ is sound and complete for the class of all neighbourhood frames. Each logic obtained from $\mathsf{E}$ by adding some of $\mathrm{M}$, $\mathrm{C}$ and $\mathrm{N}$ is sound and complete for the frames with the matching conditions. The proof uses a canonical neighbourhood model built from maximal consistent sets, as in [[the canonical model|TVE4F04KME]].
+6. Augmented frames are exactly the frames of the form in example 1. On a finite set every frame with (m), (c) and (n) is augmented, see [[the definition|RT7QEGZSTQ]].
 
 ### History
 

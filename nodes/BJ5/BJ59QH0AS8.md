@@ -1,0 +1,71 @@
+---
+tag: BJ59QH0AS8
+kind: example
+name: A Kripke frame as a neighbourhood frame
+msc: ["03B45"]
+topics: [SKY7AQFG1V]
+audience: grad
+instance_of: [CN7HK9K1B6]
+uses: [CN7HK9K1B6, RT7QEGZSTQ, NGHWZ9Y7ZV, XBCYFDPS2F, 00E0YZCERH]
+sources:
+  - url: https://en.wikipedia.org/wiki/Neighborhood_semantics
+    locator: lead section
+  - url: https://en.wikipedia.org/wiki/Kripke_semantics
+    locator: Semantics of modal logic
+---
+
+## Example
+
+Take the [[Kripke frame|NGHWZ9Y7ZV]] with $W = \set{a, b}$ and $R = \set{(a, b), (b, a), (b, b)}$.
+Its successor sets are $R[a] = \set{b}$ and $R[b] = \set{a, b}$.
+We define a [[neighbourhood frame|RT7QEGZSTQ]] on $W$ by $N(w) = \set{X \subseteq W : R[w] \subseteq X}$.
+
+1. The subsets of $W$ are $\emptyset$, $\set{a}$, $\set{b}$ and $W$, the four members of the [[power set|00E0YZCERH]].
+2. $N(a)$ contains the subsets that contain $b$: $N(a) = \set{\set{b}, W}$.
+3. $N(b)$ contains the subsets that contain $a$ and $b$: $N(b) = \set{W}$.
+4. Both $N(a)$ and $N(b)$ contain $W$.
+5. Supersets: the only superset of $\set{b}$ other than itself is $W$, which is in $N(a)$. The only superset of $W$ is $W$.
+6. Intersections: in $N(a)$, $\set{b} \cap W = \set{b}$ is in $N(a)$. In $N(b)$, $W \cap W = W$.
+7. So each $N(w)$ contains $W$ and is closed under supersets and intersections.
+
+Now compare the two truth conditions for $\square p$.
+In Kripke semantics, $w \models \square p$ iff $R[w] \subseteq V(p)$.
+In neighbourhood semantics, $w \models \square p$ iff $V(p) \in N(w)$.
+
+8. $V(p) = \emptyset$. Kripke: $\set{b} \not\subseteq \emptyset$ and $W \not\subseteq \emptyset$, so $\square p$ fails at $a$ and $b$. Neighbourhood: $\emptyset$ is in neither $N(a)$ nor $N(b)$.
+9. $V(p) = \set{a}$. Kripke: $\set{b} \not\subseteq \set{a}$ and $W \not\subseteq \set{a}$, so $\square p$ fails at both. Neighbourhood: $\set{a}$ is in neither set.
+10. $V(p) = \set{b}$. Kripke: $\set{b} \subseteq \set{b}$ but $W \not\subseteq \set{b}$, so $\square p$ holds at $a$ only. Neighbourhood: $\set{b} \in N(a)$ and $\set{b} \notin N(b)$.
+11. $V(p) = W$. Kripke: $\square p$ holds at both. Neighbourhood: $W$ is in both sets.
+12. So the two semantics agree on $\square p$ for all four valuations.
+
+## Remarks
+
+The agreement is general: $R[w] \subseteq [\![\varphi]\!]$ holds iff $[\![\varphi]\!] \in N(w)$, by the definition of $N$.
+So an induction on formulas shows that the two semantics give the same truth sets for every formula.
+Conversely, on a finite set, a neighbourhood function that contains $W$ and is closed under supersets and intersections comes from the relation $R[w] = \bigcap N(w)$.
+Here $\bigcap N(a) = \set{b}$ and $\bigcap N(b) = W$, which gives back $R$.
+So [[neighbourhood semantics|CN7HK9K1B6]] extends Kripke semantics, and the extra frames are the ones that fail one of the closure conditions.
+
+## Explanations
+
+### L1 human
+
+In a Kripke frame, a world sees some worlds, and "necessarily $p$" means $p$ holds at all of them.
+In a neighbourhood frame, a world has a list of "necessary" sets of worlds.
+From a Kripke frame we can make this list: all sets that contain everything the world sees.
+Then both readings give the same answer, as we checked for each of the four choices of where $p$ holds.
+
+### L2 human
+
+1. Compute $R[a] = \set{b}$ and $R[b] = W$.
+2. List the supersets: $N(a) = \set{\set{b}, W}$ and $N(b) = \set{W}$.
+3. For $V(p) = \set{b}$, $\square p$ holds at $a$ and fails at $b$ in both semantics.
+
+The typical use is to see that every Kripke frame is a special neighbourhood frame.
+A trap: on an infinite set, closure under finite intersections is not enough; the neighbourhoods must contain the intersection of all of them.
+
+### L3 human
+
+A neighbourhood frame that is closed under supersets, under arbitrary intersections, and contains $W$ is called augmented.
+Augmented neighbourhood frames are exactly the frames of the form $N(w) = \set{X : R[w] \subseteq X}$.
+Normal neighbourhood frames, which drop the arbitrary intersections, validate $\mathsf{K}$ but include frames that are not Kripke frames.

@@ -5,7 +5,7 @@ name: Accessibility relation
 msc: ["03B45"]
 topics: [SKY7AQFG1V]
 audience: grad
-uses: [NGHWZ9Y7ZV, 05AVARPXA2, 0X8NMST0J2, 061J5VGSPT, 0GJZW9JFZQ, ~d452d455]
+uses: [NGHWZ9Y7ZV, 05AVARPXA2, 0X8NMST0J2, 061J5VGSPT, 0GJZW9JFZQ, YHGXV3SQDP]
 sources:
   - url: https://en.wikipedia.org/wiki/Accessibility_relation
     locator: lead section
@@ -27,7 +27,7 @@ inventory: [BRP65H8828]
 The accessibility relation of a [[Kripke frame|NGHWZ9Y7ZV]] $(W, R)$ is the [[binary relation|05AVARPXA2]] $R \subseteq W \times W$; $w R v$ says that the world $v$ is a possible alternative to $w$.
 The truth of $\square\varphi$ at $w$ depends on $\varphi$ at the worlds of $R[w] = \set{v : w R v}$ only.
 The formula $\lozenge\varphi$ at $w$ asks for one such world where $\varphi$ holds.
-The main properties are [[reflexive|0X8NMST0J2]], serial, [[symmetric|061J5VGSPT]], [[transitive|0GJZW9JFZQ]] and Euclidean, made exact in [[the definition|~d452d455]].
+The main properties are [[reflexive|0X8NMST0J2]], serial, [[symmetric|061J5VGSPT]], [[transitive|0GJZW9JFZQ]] and Euclidean, made exact in [[the definition|YHGXV3SQDP]].
 Each of them matches one modal axiom, so the choice of properties of $R$ is the semantic form of the choice of axioms.
 
 ## Motivation
@@ -44,21 +44,21 @@ A relation records these choices, and its properties express the intended laws.
 1. $R[w]$ is the set of successors of $w$; some authors write $R(w)$ or $w{\uparrow}$.
 2. $w R^n v$ means that there is an $R$-path of length $n$ from $w$ to $v$, with $R^0$ the identity.
 3. $R^{-1}$ is the converse relation, and $R^{*}$ is the reflexive transitive closure.
-4. In multimodal logic each box $\square_i$ has its own relation $R_i$, see [[multimodal logic|~d172c20d]].
+4. In multimodal logic each box $\square_i$ has its own relation $R_i$, see [[multimodal logic|ERG3KAQWYF]].
 
 ## Remarks
 
 ### Examples
 
-1. In a card game, the relation "same own card" between deals is an [[equivalence relation|0G8VEZ3WTK]], the frame of knowledge in $\mathsf{S5}$, see [[the card game|~17a97e87]].
-2. The strict order $<$ on $\N$ is serial and transitive but not reflexive. It is the frame of "always in the future", see [[the order of the natural numbers|~01a422dd]].
-3. The relation $\set{(a, b), (b, b)}$ is Euclidean, transitive and serial but neither reflexive nor symmetric, a frame of belief, see [[the Euclidean example|~1ea6939a]].
+1. In a card game, the relation "same own card" between deals is an [[equivalence relation|0G8VEZ3WTK]], the frame of knowledge in $\mathsf{S5}$, see [[the card game|81J8VDK9RX]].
+2. The strict order $<$ on $\N$ is serial and transitive but not reflexive. It is the frame of "always in the future", see [[the order of the natural numbers|2SVYW67C85]].
+3. The relation $\set{(a, b), (b, b)}$ is Euclidean, transitive and serial but neither reflexive nor symmetric, a frame of belief, see [[the Euclidean example|NS4AC3W4FM]].
 4. The universal relation $W \times W$ has every property in the list.
 5. The empty relation is transitive, symmetric and Euclidean, and it is not serial; on it every $\square\varphi$ is true.
 
 ### Non-examples
 
-1. A neighbourhood function $N$ with $N(w) = \set{\set{a}, \set{b}}$ does not come from any accessibility relation, since it is not closed under intersection, see [[the neighbourhood example|~3050f897]].
+1. A neighbourhood function $N$ with $N(w) = \set{\set{a}, \set{b}}$ does not come from any accessibility relation, since it is not closed under intersection, see [[the neighbourhood example|G2X3PKG55F]].
 2. A relation between worlds of two different frames is not an accessibility relation; it is a relation between models, such as a bisimulation.
 3. A ternary relation, as in relevance logic, is not an accessibility relation in the sense of normal modal logic.
 

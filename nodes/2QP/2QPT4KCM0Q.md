@@ -5,7 +5,7 @@ name: Brouwerian modal logic
 msc: ["03B45"]
 topics: [SKY7AQFG1V]
 audience: grad
-uses: [~b1c67ad7, FDFQFWPM4X, 0X8NMST0J2, 061J5VGSPT, ~a0820d26]
+uses: [JS8W7PA6JK, FDFQFWPM4X, 0X8NMST0J2, 061J5VGSPT, ZHM0D5JAKJ]
 sources:
   - url: https://en.wikipedia.org/wiki/Kripke_semantics
     locator: Common modal axiom schemata
@@ -21,7 +21,7 @@ inventory: [XYA2Y266Z1]
 
 ## Summary
 
-The Brouwerian modal logic $\mathsf{B} = \mathsf{KTB}$ is the smallest [[normal modal logic|~b1c67ad7]] that contains $\square p \to p$ and the Brouwerian axiom $\mathrm{B}$: $p \to \square\lozenge p$, as in [[the definition|~a0820d26]].
+The Brouwerian modal logic $\mathsf{B} = \mathsf{KTB}$ is the smallest [[normal modal logic|JS8W7PA6JK]] that contains $\square p \to p$ and the Brouwerian axiom $\mathrm{B}$: $p \to \square\lozenge p$, as in [[the definition|ZHM0D5JAKJ]].
 It is sound and complete for the frames whose relation is [[reflexive|0X8NMST0J2]] and [[symmetric|061J5VGSPT]].
 It lies strictly between $\mathsf{T}$ and $\mathsf{S5}$, and it is incomparable with $\mathsf{S4}$.
 It is a modal logic in the classical sense; its name records an analogy with the intuitionistic law $p \to \neg\neg p$, not a principle of intuitionism.
@@ -43,22 +43,22 @@ The logic $\mathsf{B}$ is the logic of such similarity relations with reflexivit
 
 ### Examples
 
-1. The reflexive symmetric path $1, 2, 3$ is a frame of $\mathsf{B}$ that refutes $\mathrm{4}$, see [[the reflexive symmetric frame|~1d7e3826]].
-2. $\mathsf{KB} \vdash \lozenge\square p \to p$, and $\mathsf{T}$ does not prove it, see [[the dual form|~6aff460e]].
+1. The reflexive symmetric path $1, 2, 3$ is a frame of $\mathsf{B}$ that refutes $\mathrm{4}$, see [[the reflexive symmetric frame|DJTASRZ6WC]].
+2. $\mathsf{KB} \vdash \lozenge\square p \to p$, and $\mathsf{T}$ does not prove it, see [[the dual form|F9R1FD6P4J]].
 3. Every equivalence relation is reflexive and symmetric, so $\mathsf{B} \subseteq \mathsf{S5}$.
 4. The relation "$\lvert x - y \rvert \le 1$" on $\mathbb{R}$ is reflexive and symmetric but not transitive, so it is a frame of $\mathsf{B}$ and not of $\mathsf{S4}$.
 
 ### Non-examples
 
-1. $\mathrm{B}$ fails on the reflexive frame $1 R 2$ that is not symmetric, so $\mathsf{T} \nvdash \mathrm{B}$ and $\mathsf{S4} \nvdash \mathrm{B}$, see [[the non-symmetric frame|~4c315380]].
+1. $\mathrm{B}$ fails on the reflexive frame $1 R 2$ that is not symmetric, so $\mathsf{T} \nvdash \mathrm{B}$ and $\mathsf{S4} \nvdash \mathrm{B}$, see [[the non-symmetric frame|X88XTHRFG9]].
 2. $(\N, \le)$ is reflexive and transitive but not symmetric, so it is not a frame of $\mathsf{B}$.
 
 ### Basic properties
 
 1. A frame validates $\mathrm{B}$ iff its relation is symmetric, by [[common modal axiom schemata|FDFQFWPM4X]].
-2. $\mathsf{B}$ is complete for reflexive symmetric frames, see [[the completeness theorem|~1d9447ce]].
+2. $\mathsf{B}$ is complete for reflexive symmetric frames, see [[the completeness theorem|FXTCKYR3AQ]].
 3. $\mathsf{B} + \mathrm{4} = \mathsf{S5}$, see [[the axioms of S5|ECYRK9C2ZT]].
-4. $\mathsf{B}$ has the [[finite model property|~11053ef0]], since the smallest filtration preserves reflexivity and symmetry, see [[the filtration theorem|~889ee92a]].
+4. $\mathsf{B}$ has the [[finite model property|3NT8RCA6HE]], since the smallest filtration preserves reflexivity and symmetry, see [[the filtration theorem|T99DK51S0W]].
 5. $\mathsf{S4}$ and $\mathsf{B}$ are incomparable: $\mathsf{S4} \nvdash \mathrm{B}$, and $\mathsf{B} \nvdash \mathrm{4}$.
 
 ### History

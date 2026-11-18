@@ -5,7 +5,7 @@ name: Necessitation rule
 msc: ["03B45"]
 topics: [SKY7AQFG1V]
 audience: grad
-uses: [~b1c67ad7, QPD3X471Q1, 9X08XK5RV2, ~4cb83bb6]
+uses: [JS8W7PA6JK, QPD3X471Q1, 9X08XK5RV2, 9TPXQT9625]
 sources:
   - url: https://en.wikipedia.org/wiki/Normal_modal_logic
     locator: lead section
@@ -23,7 +23,7 @@ inventory: [3QAB4ACFEF]
 
 The necessitation rule is the [[rule of inference|QPD3X471Q1]] "from $\vdash \varphi$ infer $\vdash \square\varphi$".
 If a formula is a theorem of a logic, then its box is a theorem too.
-Together with the axiom $\mathrm{K}$ it makes a modal logic [[normal|~b1c67ad7]], and its exact form, with admissible and derivable versions, is in [[the definition|~4cb83bb6]].
+Together with the axiom $\mathrm{K}$ it makes a modal logic [[normal|JS8W7PA6JK]], and its exact form, with admissible and derivable versions, is in [[the definition|9TPXQT9625]].
 The rule applies to theorems only, and it is not the formula $\varphi \to \square\varphi$.
 It expresses the idea that the laws of logic hold in every possible world, so they are necessary.
 
@@ -37,27 +37,27 @@ The rule records this, while the axioms of the logic record which further laws o
 ## Notation
 
 1. The rule is written $\varphi \,/\, \square\varphi$, or as a fraction with $\varphi$ above and $\square\varphi$ below; the names Nec, RN and N are common.
-2. Its generalization to several premises is rule RK of [[normal modal logic K|~b1c67ad7]].
+2. Its generalization to several premises is rule RK of [[normal modal logic K|JS8W7PA6JK]].
 3. Epistemic logic calls it knowledge generalization, and deontic logic calls the analogue "obligation of the laws of logic".
 
 ## Remarks
 
 ### Examples
 
-1. $\mathsf{K} \vdash \square\top$ and $\mathsf{K} \vdash \square(p \to p)$, since $\top$ and $p \to p$ are tautologies, see [[the boxed tautologies|~5b239ce1]].
+1. $\mathsf{K} \vdash \square\top$ and $\mathsf{K} \vdash \square(p \to p)$, since $\top$ and $p \to p$ are tautologies, see [[the boxed tautologies|DJWM6VAW72]].
 2. Necessitation applied twice gives $\mathsf{K} \vdash \square\square\top$, and in general $\mathsf{K} \vdash \square^n\top$ for every $n$.
 3. From the tautology $(p \wedge q) \to p$, necessitation and $\mathrm{K}$ give $\square(p \wedge q) \to \square p$, the rule RM.
-4. For global consequence, $p$ entails $\square p$, but the deduction theorem fails, see [[the global consequence example|~11d8c9d7]].
+4. For global consequence, $p$ entails $\square p$, but the deduction theorem fails, see [[the global consequence example|R6MA6TFN5K]].
 
 ### Non-examples
 
-1. The formula $p \to \square p$ is not a theorem of $\mathsf{K}$, although the rule holds, see [[the non-theorem p to box p|~b3ba27b3]].
+1. The formula $p \to \square p$ is not a theorem of $\mathsf{K}$, although the rule holds, see [[the non-theorem p to box p|R2WWD2R5NV]].
 2. The rule "from $\vdash \varphi \to \psi$ infer $\vdash \varphi \to \square\psi$" is not sound: from the tautology $p \to p$ it gives $p \to \square p$.
 3. Lewis's systems $\mathsf{S2}$ and $\mathsf{S3}$ do not have the full rule, so they are not normal.
 
 ### Basic properties
 
-1. Necessitation preserves validity on a frame, see [[soundness of normal modal logics|~d189ee4b]].
+1. Necessitation preserves validity on a frame, see [[soundness of normal modal logics|E87G6ZTMTN]].
 2. It preserves validity in a model, but not truth at a single world: $p$ can be true at $w$ while $\square p$ is false at $w$.
 3. Take the Hilbert system whose axioms are all tautology instances, all $\mathrm{K}$ instances and all formulas $\square^n\alpha$ with $\alpha$ such an instance. Its only rule is modus ponens. In this system, necessitation is admissible but not primitive.
 4. The admissibility in item 3 has a proof by induction on derivations. The box of an axiom is an axiom, and if $\square\psi$ and $\square(\psi \to \varphi)$ are derivable, then $\mathrm{K}$ gives $\square\varphi$.

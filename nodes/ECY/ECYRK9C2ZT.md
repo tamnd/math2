@@ -6,9 +6,9 @@ name: The axioms of S5
 msc: ["03B45"]
 topics: [SKY7AQFG1V]
 audience: grad
-uses: [~b1c67ad7, FDFQFWPM4X, ~3595c3e8]
+uses: [JS8W7PA6JK, FDFQFWPM4X, MT0CNMDT3R]
 about: [VC3A2VWXND]
-proofs: [~c67b05b7]
+proofs: [6T67E2CT79]
 sources:
   - url: https://en.wikipedia.org/wiki/S5_(modal_logic)
     locator: The axioms of S5
@@ -24,19 +24,19 @@ inventory: [7RRQE7VXRA]
 
 ## Statement
 
-Write $\mathsf{K}\Sigma$ for the smallest [[normal modal logic|~b1c67ad7]] that contains the axioms in $\Sigma$, with
+Write $\mathsf{K}\Sigma$ for the smallest [[normal modal logic|JS8W7PA6JK]] that contains the axioms in $\Sigma$, with
 $$\mathrm{T}: \square p \to p, \quad \mathrm{B}: p \to \square\lozenge p, \quad \mathrm{4}: \square p \to \square\square p, \quad \mathrm{5}: \lozenge p \to \square\lozenge p.$$
 Then the following four normal logics are equal:
 $$\mathsf{KT5} = \mathsf{KTB4} = \mathsf{KT45} = \mathsf{KTB5}.$$
-This logic is [[S5|~3595c3e8]].
-The proof is in [[the proof of the S5 axiom sets|~c67b05b7]].
+This logic is [[S5|MT0CNMDT3R]].
+The proof is in [[the proof of the S5 axiom sets|6T67E2CT79]].
 
 ## Remarks
 
 ### Why each hypothesis is needed
 
-1. The axiom $\mathrm{T}$ cannot be dropped. $\mathsf{K45}$ is valid on the frame $\set{(a,b), (b,b)}$, which is transitive and Euclidean but not reflexive, and $\mathrm{T}$ fails there, see [[the Euclidean example|~1ea6939a]].
-2. In $\mathsf{KTB4}$, neither $\mathrm{B}$ nor $\mathrm{4}$ can be dropped. $\mathsf{S4} = \mathsf{KT4}$ does not prove $\mathrm{5}$, see [[the non-theorem 5 in S4|~d69eee52]]. Also, $\mathsf{KTB}$ does not prove $\mathrm{4}$, see [[the reflexive symmetric frame|~1d7e3826]].
+1. The axiom $\mathrm{T}$ cannot be dropped. $\mathsf{K45}$ is valid on the frame $\set{(a,b), (b,b)}$, which is transitive and Euclidean but not reflexive, and $\mathrm{T}$ fails there, see [[the Euclidean example|NS4AC3W4FM]].
+2. In $\mathsf{KTB4}$, neither $\mathrm{B}$ nor $\mathrm{4}$ can be dropped. $\mathsf{S4} = \mathsf{KT4}$ does not prove $\mathrm{5}$, see [[the non-theorem 5 in S4|A2JGSWCMT5]]. Also, $\mathsf{KTB}$ does not prove $\mathrm{4}$, see [[the reflexive symmetric frame|DJTASRZ6WC]].
 
 ### Consequences
 

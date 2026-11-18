@@ -6,9 +6,9 @@ name: Common modal axiom schemata
 msc: ["03B45"]
 topics: [SKY7AQFG1V]
 audience: grad
-uses: [6BQ71KQ6QT, ~d452d455, ~b1c67ad7]
+uses: [6BQ71KQ6QT, YHGXV3SQDP, JS8W7PA6JK]
 about: [XBCYFDPS2F, NGHWZ9Y7ZV]
-proofs: [~471190ca]
+proofs: [X8PAF0TD5W]
 sources:
   - url: https://en.wikipedia.org/wiki/Kripke_semantics
     locator: Common modal axiom schemata
@@ -27,7 +27,7 @@ inventory: [XJNAXC8N0J]
 Let $\mathfrak{F} = (W, R)$ be a [[Kripke frame|6BQ71KQ6QT]], and write $\mathfrak{F} \models \varphi$ when $\varphi$ is valid on $\mathfrak{F}$.
 Consider the axioms
 $$\begin{aligned} \mathrm{K}&: \square(p \to q) \to (\square p \to \square q), & \mathrm{T}&: \square p \to p, & \mathrm{D}&: \square p \to \lozenge p, \\ \mathrm{B}&: p \to \square\lozenge p, & \mathrm{4}&: \square p \to \square\square p, & \mathrm{5}&: \lozenge p \to \square\lozenge p. \end{aligned}$$
-Then $\mathfrak{F} \models \mathrm{K}$ for every frame, and for the other axioms the following equivalences hold, with the properties of the [[accessibility relation|~d452d455]].
+Then $\mathfrak{F} \models \mathrm{K}$ for every frame, and for the other axioms the following equivalences hold, with the properties of the [[accessibility relation|YHGXV3SQDP]].
 
 1. $\mathfrak{F} \models \mathrm{T}$ if and only if $R$ is reflexive.
 2. $\mathfrak{F} \models \mathrm{D}$ if and only if $R$ is serial.
@@ -35,22 +35,22 @@ Then $\mathfrak{F} \models \mathrm{K}$ for every frame, and for the other axioms
 4. $\mathfrak{F} \models \mathrm{4}$ if and only if $R$ is transitive.
 5. $\mathfrak{F} \models \mathrm{5}$ if and only if $R$ is Euclidean.
 
-So for a set $\Sigma \subseteq \set{\mathrm{T}, \mathrm{D}, \mathrm{B}, \mathrm{4}, \mathrm{5}}$, every theorem of the [[normal modal logic|~b1c67ad7]] $\mathsf{K}\Sigma$ is valid on every frame with the matching properties.
-The proof is in [[the proof of the correspondences|~471190ca]].
+So for a set $\Sigma \subseteq \set{\mathrm{T}, \mathrm{D}, \mathrm{B}, \mathrm{4}, \mathrm{5}}$, every theorem of the [[normal modal logic|JS8W7PA6JK]] $\mathsf{K}\Sigma$ is valid on every frame with the matching properties.
+The proof is in [[the proof of the correspondences|X8PAF0TD5W]].
 
 ## Remarks
 
 ### Why each hypothesis is needed
 
-1. The equivalences concern validity on a frame. In a single model the axiom can be true although the frame lacks the property. For example, axiom $\mathrm{4}$ is true in a model on a non-transitive frame with $V(p) = W$, see [[the axiom 4 example|~3bf6cf9a]].
+1. The equivalences concern validity on a frame. In a single model the axiom can be true although the frame lacks the property. For example, axiom $\mathrm{4}$ is true in a model on a non-transitive frame with $V(p) = W$, see [[the axiom 4 example|NA6H3978PW]].
 2. The equivalences are about the variable $p$ under all valuations; one fixed valuation is not enough to force the property.
 
 ### Consequences
 
 1. The logic is named by its axioms: $\mathsf{KT} = \mathsf{T}$, $\mathsf{KD} = \mathsf{D}$, $\mathsf{K4}$, $\mathsf{KTB} = \mathsf{B}$, $\mathsf{KT4} = \mathsf{S4}$, $\mathsf{KT5} = \mathsf{S5}$, $\mathsf{KD45}$, and in general $\mathsf{K}\Sigma$.
-2. Soundness: $\mathsf{T}$ is sound for reflexive frames, $\mathsf{S4}$ for preorders, $\mathsf{S5}$ for equivalence relations and $\mathsf{KD45}$ for serial, transitive, Euclidean frames. All four follow from [[soundness of normal modal logics|~d189ee4b]].
-3. Non-theorems: $\mathsf{T} \nvdash \mathrm{4}$, since a reflexive frame need not be transitive, see [[the reflexive non-transitive frame|~71279902]].
-4. With the [[completeness theorem|~1d9447ce]], each logic $\mathsf{K}\Sigma$ is exactly the set of formulas valid on the frames with the matching properties.
+2. Soundness: $\mathsf{T}$ is sound for reflexive frames, $\mathsf{S4}$ for preorders, $\mathsf{S5}$ for equivalence relations and $\mathsf{KD45}$ for serial, transitive, Euclidean frames. All four follow from [[soundness of normal modal logics|E87G6ZTMTN]].
+3. Non-theorems: $\mathsf{T} \nvdash \mathrm{4}$, since a reflexive frame need not be transitive, see [[the reflexive non-transitive frame|EP284NG45P]].
+4. With the [[completeness theorem|FXTCKYR3AQ]], each logic $\mathsf{K}\Sigma$ is exactly the set of formulas valid on the frames with the matching properties.
 
 ### Converse
 
@@ -96,7 +96,7 @@ A trap: the frame conditions are about the frame, and a single model can hide th
 
 ### L3 human
 
-Each correspondence is the case of one formula in a general phenomenon: frame validity of $\varphi$ is the second-order sentence $\forall P_1 \dots \forall P_n \forall x\, \mathrm{ST}_x(\varphi)$, see the [[standard translation|~ff160d1c]].
+Each correspondence is the case of one formula in a general phenomenon: frame validity of $\varphi$ is the second-order sentence $\forall P_1 \dots \forall P_n \forall x\, \mathrm{ST}_x(\varphi)$, see the [[standard translation|YW6YGBMVQY]].
 For the five axioms, the second-order quantifiers can be removed by substituting the "minimal" valuation.
 Examples are $P = R[x]$ for $\mathrm{T}$ and $\mathrm{4}$, or $P = \set{x}$ for $\mathrm{B}$.
 This method, applied to a syntactic class of formulas, is the Sahlqvist algorithm, treated in [[modal model theory|SPQVNPZDTB]].

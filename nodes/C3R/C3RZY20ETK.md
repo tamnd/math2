@@ -50,24 +50,24 @@ The same tools then serve computer science, where $\square$ reads "after every s
 
 ### Examples
 
-1. The smallest normal modal logic $\mathsf{K}$ is a modal logic; it is the logic of all [[Kripke frames|NGHWZ9Y7ZV]], see [[normal modal logic K|~b1c67ad7]].
+1. The smallest normal modal logic $\mathsf{K}$ is a modal logic; it is the logic of all [[Kripke frames|NGHWZ9Y7ZV]], see [[normal modal logic K|JS8W7PA6JK]].
 2. The logic $\mathsf{S5}$ of [[S5|VC3A2VWXND]] fits the alethic reading "true in every possible world".
 3. The provability logic $\mathsf{GL}$ of [[provability logic|WJK0YA4GP2]] reads $\square\varphi$ as "Peano arithmetic proves $\varphi$".
-4. The formula $\square(p \to \lozenge q) \to \lozenge\square p$ has 8 subformulas and modal depth 2, see [[the worked example|~e7346340]].
-5. The axiom $\square p \to p$ is accepted under some readings and rejected under others, see [[the five readings|~5d9df023]].
+4. The formula $\square(p \to \lozenge q) \to \lozenge\square p$ has 8 subformulas and modal depth 2, see [[the worked example|1GQEQHQ57F]].
+5. The axiom $\square p \to p$ is accepted under some readings and rejected under others, see [[the five readings|N5XH6GR9XK]].
 
 ### Non-examples
 
 1. The set of all tautologies together with the one formula $p \to \square p$ is not a modal logic. It contains $p \to \square p$ but not its substitution instance $q \to \square q$.
-2. The set of formulas true at one world of one model is not a modal logic, since uniform substitution fails, see [[the one-world example|~7b0435e6]].
-3. Many-valued logics with a truth table for $\square$ are not the usual modal logics; no two-valued table gives $\mathsf{K}$, see [[the truth-table example|~81ccf77c]].
+2. The set of formulas true at one world of one model is not a modal logic, since uniform substitution fails, see [[the one-world example|ESBQKZG00Q]].
+3. Many-valued logics with a truth table for $\square$ are not the usual modal logics; no two-valued table gives $\mathsf{K}$, see [[the truth-table example|H22GJGKD5M]].
 
 ### Basic properties
 
 1. The intersection of any family of modal logics is a modal logic, so every set of formulas lies in a smallest modal logic.
-2. The modal logics in this sub-area are normal: they also contain the axiom $\mathrm{K}$ and are closed under the [[necessitation rule|G989VP2NGP]], see [[normal modal logic|~2cd45d93]].
+2. The modal logics in this sub-area are normal: they also contain the axiom $\mathrm{K}$ and are closed under the [[necessitation rule|G989VP2NGP]], see [[normal modal logic|D1TJYZZDCY]].
 3. In a normal modal logic $\lozenge$ and $\square$ are interdefinable: $\square\varphi \leftrightarrow \neg\lozenge\neg\varphi$ is a theorem.
-4. The truth of $\varphi$ at a world depends only on the worlds reachable in at most $\operatorname{md}(\varphi)$ steps, see [[the worked example|~e7346340]].
+4. The truth of $\varphi$ at a world depends only on the worlds reachable in at most $\operatorname{md}(\varphi)$ steps, see [[the worked example|1GQEQHQ57F]].
 5. Logics that are not normal, such as those of [[neighborhood semantics|CN7HK9K1B6]], also satisfy the definition of a modal logic.
 
 ### History
@@ -81,7 +81,7 @@ Kripke proved completeness of quantified $\mathsf{S5}$ for possible-world models
 
 1. Confusing $\square(p \to q)$ with $p \to \square q$. The first is [[strict implication|5JW54NP52K]], and the second does not follow from it, even in $\mathsf{S5}$.
 2. Reading the [[necessitation rule|G989VP2NGP]] "from $\vdash \varphi$ infer $\vdash \square\varphi$" as the formula $\varphi \to \square\varphi$.
-3. Assuming that $\square(p \vee q)$ implies $\square p \vee \square q$. This is not a theorem of $\mathsf{K}$, $\mathsf{S4}$ or $\mathsf{S5}$, see [[the three-world model|~dc32167f]].
+3. Assuming that $\square(p \vee q)$ implies $\square p \vee \square q$. This is not a theorem of $\mathsf{K}$, $\mathsf{S4}$ or $\mathsf{S5}$, see [[the three-world model|6JXBZ2C9B4]].
 
 ## Explanations
 
@@ -113,8 +113,8 @@ So a fact about the letter $p$ in a logic is a fact about every formula in the p
 From the algebraic view, a normal modal logic is the equational theory of a variety of Boolean algebras with an operator.
 This operator preserves finite meets and the top element.
 Kripke frames give the complex algebras of this variety.
-The representation theorem of Jónsson and Tarski links the two views; [[the canonical model|~d626bd63]] is the logical form of that representation.
-From the model-theoretic view, modal formulas are first-order formulas in one free variable via the [[standard translation|~ff160d1c]].
+The representation theorem of Jónsson and Tarski links the two views; [[the canonical model|TVE4F04KME]] is the logical form of that representation.
+From the model-theoretic view, modal formulas are first-order formulas in one free variable via the [[standard translation|YW6YGBMVQY]].
 Up to equivalence, they are exactly the first-order formulas invariant under bisimulation (van Benthem).
 This is a topic of the later sub-area [[modal model theory|SPQVNPZDTB]].
 The applied readings (time, knowledge, obligation) are treated in [[applied modal logics|CQM9SRN8PM]], and the provability reading in [[provability logics|3E7M66WW6Q]].

@@ -1,0 +1,62 @@
+---
+tag: NS4AC3W4FM
+kind: example
+name: A Euclidean relation that is neither reflexive nor symmetric
+msc: ["03B45"]
+topics: [SKY7AQFG1V]
+audience: grad
+instance_of: [XBCYFDPS2F]
+uses: [XBCYFDPS2F, FDFQFWPM4X, 0X8NMST0J2, 061J5VGSPT, 0GJZW9JFZQ, 0G8VEZ3WTK]
+sources:
+  - url: https://en.wikipedia.org/wiki/Kripke_semantics
+    locator: Correspondence and completeness
+---
+
+## Example
+
+Take the frame with two worlds and the [[accessibility relation|XBCYFDPS2F]]
+$$W = \set{a, b}, \quad R = \set{(a, b), (b, b)}.$$
+A relation is Euclidean when $w R v$ and $w R u$ imply $v R u$.
+The successor sets are $R[a] = \set{b}$ and $R[b] = \set{b}$.
+
+1. Euclidean: for $w = a$, the only choice is $v = u = b$, and $b R b$ holds. For $w = b$, the only choice is also $v = u = b$.
+2. [[Transitive|0GJZW9JFZQ]]: the composable pairs are $a R b, b R b$ and $b R b, b R b$, and they give $a R b$ and $b R b$, which hold.
+3. Serial: $R[a]$ and $R[b]$ are nonempty.
+4. Not [[reflexive|0X8NMST0J2]]: the pair $(a, a)$ is missing.
+5. Not [[symmetric|061J5VGSPT]]: $a R b$ holds and $b R a$ fails.
+6. So the frame validates $\mathrm{D}$, $\mathrm{4}$ and $\mathrm{5}$, by [[common modal axiom schemata|FDFQFWPM4X]]. It is a frame of $\mathsf{KD45}$.
+7. $\mathrm{T}$ fails at $a$ with $V(p) = \set{b}$: the only successor $b$ has $p$, so $\square p$ is true at $a$, and $p$ is false at $a$.
+8. $\mathrm{B}$ fails at $a$ with $V(p) = \set{a}$: $p$ is true at $a$. The world $b$ sees only $b$, so $\lozenge p$ is false at $b$ and $\square\lozenge p$ is false at $a$.
+
+## Remarks
+
+The example shows that the Euclidean property does not imply reflexivity or symmetry.
+The logic $\mathsf{KD45}$ is the usual logic of belief.
+Beliefs are consistent ($\mathrm{D}$), and the agent knows what it believes and what it does not believe ($\mathrm{4}$ and $\mathrm{5}$).
+Here $b$ is the only world compatible with the beliefs at $a$.
+The world $a$ is not compatible with its own beliefs, so beliefs at $a$ can be false.
+With reflexivity the situation changes.
+A reflexive Euclidean relation is an [[equivalence relation|0G8VEZ3WTK]].
+For symmetry, $w R w$ and $w R v$ give $v R w$ by the Euclidean property.
+For transitivity, $w R v$ gives $v R w$ by symmetry, and then $v R w$ and $v R u$ give $w R u$.
+So if we add the pair $(a, a)$ and keep the Euclidean property, we must also add $(b, a)$, and we get the universal relation.
+
+## Explanations
+
+### L1 human
+
+Picture two people, Ann at $a$ and Bob at $b$.
+Ann trusts only Bob, and Bob trusts only himself.
+Whenever someone trusts two people, these two trust each other, and here both are Bob.
+Ann does not trust herself, and Bob does not trust Ann.
+So the relation "trusts" has the Euclidean property, but it is not reflexive and not symmetric.
+
+### L2 human
+
+1. Read $\square p$ at $a$ as "the agent at $a$ believes $p$".
+2. With $V(p) = \set{b}$, the agent believes $p$, since $b$ is the only world it considers possible.
+3. The real world is $a$, where $p$ is false, so the belief is false.
+4. At $a$, $\square\square p$ is also true, since $b$ sees only $b$: the agent believes that it believes $p$.
+
+The typical use of this frame is as a small countermodel that separates $\mathsf{KD45}$ from $\mathsf{S5}$.
+A trap: a Euclidean relation need not be symmetric, so $\mathrm{5}$ does not imply $\mathrm{B}$ without $\mathrm{T}$.

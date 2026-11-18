@@ -47,7 +47,7 @@ Local consequence is written $\Gamma \models_{\mathsf{C}} \varphi$ and global co
 3. The truth value of $\varphi$ at $w$ depends only on $V$ at the variables of $\varphi$, by induction on $\varphi$.
 4. Example: the axiom $\square(p \to q) \to (\square p \to \square q)$ is valid on every frame, since at each successor $v$ the formulas $p \to q$ and $p$ give $q$.
 5. Non-example: $\square p \to p$ is not valid on the frame $(\set{w}, \emptyset)$, since with $V(p) = \emptyset$ the formula $\square p$ is true at $w$ and $p$ is false.
-6. Local consequence satisfies the deduction theorem, while global consequence does not, see [[the global consequence example|~11d8c9d7]].
+6. Local consequence satisfies the deduction theorem, while global consequence does not, see [[the global consequence example|R6MA6TFN5K]].
 7. The full discussion, with examples and history, is in [[Kripke semantics|NGHWZ9Y7ZV]].
 
 ## Explanations
@@ -75,4 +75,4 @@ A trap: global consequence allows the step from $p$ to $\square p$, but $p \to \
 ### L3 human
 
 Validity on a frame is a second-order condition on $R$: it quantifies over all subsets $V(p)$ of $W$.
-For the common axioms this second-order condition is equivalent to a first-order one, see [[common modal axiom schemata|FDFQFWPM4X]] and the [[standard translation|~ff160d1c]].
+For the common axioms this second-order condition is equivalent to a first-order one, see [[common modal axiom schemata|FDFQFWPM4X]] and the [[standard translation|YW6YGBMVQY]].

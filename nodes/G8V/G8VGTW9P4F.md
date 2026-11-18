@@ -38,8 +38,8 @@ Some authors take $\neg$, $\wedge$, $\vee$ and $\lozenge$ as primitive; then $\o
 2. A tautology here is a modal formula obtained from a classical tautology by a substitution of modal formulas for its variables, such as $\square p \vee \neg\square p$.
 3. The set of all modal formulas is a modal logic, the inconsistent one; every other modal logic omits $\bot$.
 4. The intersection of modal logics is a modal logic, so each set $\Gamma$ of formulas lies in a smallest modal logic that contains it.
-5. The normal modal logics, which add the axiom $\mathrm{K}$ and the [[necessitation rule|G989VP2NGP]], are defined in [[normal modal logic K|~b1c67ad7]].
-6. A worked count of subformulas and depth is in [[the worked example|~e7346340]]. A set that is closed under modus ponens but not under substitution is in [[the one-world example|~7b0435e6]].
+5. The normal modal logics, which add the axiom $\mathrm{K}$ and the [[necessitation rule|G989VP2NGP]], are defined in [[normal modal logic K|JS8W7PA6JK]].
+6. A worked count of subformulas and depth is in [[the worked example|1GQEQHQ57F]]. A set that is closed under modus ponens but not under substitution is in [[the one-world example|ESBQKZG00Q]].
 
 ## Explanations
 
