@@ -1,0 +1,84 @@
+---
+tag: HF1GHVRDSD
+kind: statement
+role: theorem
+name: Urquhart's theorem on Tseitin formulas
+msc: ["03F20", "05C50"]
+topics: [CBAF7J051K]
+audience: research
+uses: [JXTCC6KXNG, 6JSH907W5R, GWDGRPAQSM, BBR7QAD87Y]
+about: [JXTCC6KXNG, 6JSH907W5R]
+proofs: [HZ9VYPSH98]
+sources:
+  - url: https://en.wikipedia.org/wiki/Proof_complexity
+    locator: Lower bounds
+history:
+  first_stated: "1987"
+  notes: "Alasdair Urquhart, Hard examples for resolution, Journal of the ACM, 1987. The proof given here is the width proof of Ben-Sasson and Wigderson."
+---
+
+## Statement
+
+Let $G = (V, E)$ be a connected $d$-regular graph with $N = \abs{V} \ge 4$ vertices, and let $\chi$ be a charge with odd total sum.
+Define the *edge expansion*
+$$e(G) = \min \set{\abs{E(U, V \setminus U)} : U \subseteq V, \ N/3 \le \abs{U} \le 2N/3},$$
+where $E(U, V \setminus U)$ is the set of edges with one end in $U$ and one end outside $U$.
+
+**Theorem.**
+
+1. Every [[resolution refutation|6JSH907W5R]] of the [[Tseitin formula|JXTCC6KXNG]] $T(G, \chi)$ has width at least $e(G)$.
+2. If $e(G) \ge d + 1$, every resolution refutation of $T(G, \chi)$ has at least $\exp\bigl((e(G) - d - 1)^2/(4 d N)\bigr)$ clauses.
+
+**Corollary (Urquhart).** Let $d$ and $\varepsilon > 0$ be constants, and let $G_N$ be $d$-regular [[expander graphs|BBR7QAD87Y]] with $e(G_N) \ge \varepsilon N$ for infinitely many $N$.
+Then resolution refutations of $T(G_N, \chi)$ with odd charge need $2^{\Omega(N)}$ clauses.
+
+The system is general resolution, and the measures are width and size in clauses.
+
+## Remarks
+
+### Why each hypothesis is needed
+
+- The total charge must be odd. Otherwise the formula is satisfiable and has no refutation.
+- The graph must expand. On a cycle of length $N$, $e(G) = 2$, and $T(G, \chi)$ has refutations of polynomial size, which follow the cycle.
+- The degree must be bounded. The formula has $2^{d-1}$ clauses per vertex, so for large $d$ its own size is exponential in $d$, and a bound exponential in $N$ may say little.
+
+### Consequences
+
+- Resolution is not polynomially bounded, by a second family besides the pigeonhole formulas.
+- Since Frege systems and the polynomial calculus over $\mathbb F_2$ refute these formulas in polynomial size, resolution is exponentially weaker than both.
+
+### Converse
+
+Alekhnovich and Razborov showed in 2002 that $T(G, \chi)$ has resolution refutations of size polynomial in $N$ times $2^{O(b)}$, where $b$ is the branch-width of $G$.
+So graphs of small branch-width give easy Tseitin formulas, and the hardness comes from the expansion of the graph.
+
+### Generalizations
+
+- The same width argument gives exponential bounds for random $3$-CNFs and for the pigeonhole formulas on bipartite expanders.
+- Lower bounds for Tseitin formulas on expanders also hold for the polynomial calculus over fields of characteristic other than $2$, in terms of degree.
+
+## History
+
+Grigori Tseitin introduced these formulas in 1968 and proved lower bounds for regular resolution.
+Alasdair Urquhart proved the exponential lower bound for general resolution on expanders in 1987, in "Hard examples for resolution".
+Ben-Sasson and Wigderson gave the width proof in 1999.
+
+## Explanations
+
+### L1 human
+
+Tseitin formulas say that a network with an odd total charge can be wired so that each node has the right parity.
+The theorem says that resolution proofs that this is impossible are exponentially long on well-connected networks.
+For example, on a network of $N$ nodes with $3$ links each and good connectivity, the number of steps grows like $c^N$ for a constant $c > 1$.
+
+### L2 human
+
+We read off the size bound for numbers that might occur.
+
+1. Let $d = 3$ and $e(G) \ge N/20$, and let $N \ge 160$.
+2. Then $e(G) - d - 1 \ge N/20 - 4 \ge N/40$.
+3. The bound is $\exp\bigl((N/40)^2/(12 N)\bigr) = \exp(N/19200)$.
+
+The constant is small, but it is exponential in $N$.
+The typical use is as a hard example for resolution and for SAT solvers based on it.
+A trap: the theorem says nothing about cutting planes or the polynomial calculus over $\mathbb F_2$, which refute these formulas efficiently.
