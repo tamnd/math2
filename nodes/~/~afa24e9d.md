@@ -1,0 +1,113 @@
+---
+tag: ~afa24e9d
+kind: concept
+name: Feasible interpolation
+msc: ["03F20", "68Q17"]
+topics: [CBAF7J051K]
+audience: research
+uses: [~8ae21f34, TRS2HY57EG, SQXNFGVADX, ~586b5042, ~f9bde1dc]
+sources:
+  - url: https://en.wikipedia.org/wiki/Proof_complexity
+    locator: Feasible interpolation
+  - url: https://en.wikipedia.org/wiki/Craig_interpolation
+    locator: Proof of Craig's interpolation theorem
+---
+
+## Summary
+
+Let $P$ be a [[propositional proof system|~8ae21f34]] used to refute CNFs.
+Let $p$, $q$ and $r$ be disjoint lists of variables, let $A(p, q)$ be a CNF in the variables $p, q$, and let $B(p, r)$ be a CNF in the variables $p, r$.
+An *interpolating circuit* for the pair $A, B$ is a [[Boolean circuit|SQXNFGVADX]] $I(p)$ such that, for every $0$-$1$ assignment $a$ of $p$, $I(a) = 0$ implies that $A(a, q)$ is unsatisfiable, and $I(a) = 1$ implies that $B(a, r)$ is unsatisfiable.
+The system $P$ has *feasible interpolation* if there is a polynomial $\sigma$ with the following property.
+For all such $A$ and $B$, if $A \wedge B$ has a $P$-refutation of size $S$, then the pair has an interpolating circuit of size at most $\sigma(S)$.
+The system has *monotone feasible interpolation* if, in addition, the circuit can be taken monotone whenever no variable of $p$ occurs negatively in $A$.
+
+The idea matters because it turns lower bounds for circuits into lower bounds for proofs.
+
+## Motivation
+
+By [[Craig's interpolation theorem|TRS2HY57EG]], every unsatisfiable $A \wedge B$ as above has an interpolant, a formula in $p$ alone.
+The interpolant given by the elimination of $q$ can have size exponential in the number of variables of $q$.
+Proof complexity asks a finer question: does a short refutation of $A \wedge B$ give a small interpolant?
+
+A yes answer gives lower bounds.
+Suppose that every circuit that separates the sets $\set{a : A(a, q) \text{ is satisfiable}}$ and $\set{a : B(a, r) \text{ is satisfiable}}$ is large.
+If $P$ has feasible interpolation, then every $P$-refutation of $A \wedge B$ is large too.
+For monotone circuits, strong lower bounds are known, so monotone feasible interpolation gives lower bounds with no assumption.
+
+## Notation
+
+Many authors write the tautology form $A(p, q) \to \neg B(p, r)$ instead of the refutation of $A \wedge B$.
+The *uniform* version asks for an algorithm that computes $I(a)$ from the refutation and $a$ in time polynomial in the size of the refutation.
+The uniform version implies the version with circuits.
+The size of a refutation is its number of symbols.
+For resolution we count clauses instead, which gives a stronger bound, since the number of symbols is at least the number of clauses.
+
+## Remarks
+
+### Examples
+
+- **Resolution.** [[Resolution|~586b5042]] has monotone feasible interpolation: a refutation with $L$ clauses gives an interpolating circuit with at most $4L$ gates, by the [[interpolation theorem for resolution|~902cba69]].
+- **A computed interpolant.** [[An interpolant from a refutation of seven clauses|~11e1166b]] runs the construction by hand.
+- **Clique and colouring.** [[Monotone interpolation and the clique-colouring formulas|~43375562]] turns a monotone circuit lower bound into an exponential lower bound for resolution.
+- **Cutting planes.** The [[cutting-planes system|~f9bde1dc]] has a monotone form of feasible interpolation with monotone real circuits, and [[Pudlák's lower bound|~8976ef2c]] uses it.
+- **Truth tables.** The [[truth-table system|~7bf5d5bc]] has feasible interpolation for a trivial reason. A proof has size at least $2^N$ for $N$ variables, so a circuit may test every assignment of $q$ in $A(a, q)$ within the allowed size.
+
+### Non-examples
+
+- **Elimination of the private variables.** The interpolant of Craig's theorem, computed by trying all values of $q$, is not computed feasibly from a proof: see [[Interpolation by elimination of the private variables|~ff5b116b]].
+- **The monotone form needs the sign condition.** For $A = \set{\neg p}$ and $B = \set{p}$, every interpolating circuit computes $\neg p$, which is not monotone.
+- **Strong systems, under assumptions.** If [[RSA|0HM584C465]] is secure against circuits of polynomial size, then [[extended Frege|~6925f591]] does not have feasible interpolation (Krajíček and Pudlák, 1998). Similar results hold for TC0-Frege and for [[bounded-depth Frege|~2cc592a7]] under assumptions on the [[Diffie-Hellman key exchange|01TKKESHSB]]. These results are conditional.
+
+### Basic properties
+
+- **The circuit is a Craig interpolant.** If $A(a, q)$ is satisfiable, then $I(a) = 1$, and if $B(a, r)$ is satisfiable, then $I(a) = 0$. So $A \models I$ and $I \models \neg B$.
+- **Unused axioms do not matter.** If a refutation uses only the clauses $A' \subseteq A$ and $B' \subseteq B$, then an interpolating circuit for $A', B'$ is one for $A, B$, since $A'(a, q)$ unsatisfiable implies $A(a, q)$ unsatisfiable.
+- **Transfer of lower bounds.** If $P$ has feasible interpolation with the polynomial $\sigma$, and every interpolating circuit for $A, B$ has more than $T$ gates, then every $P$-refutation of $A \wedge B$ has size $S$ with $\sigma(S) > T$.
+- **Downward closure.** If $P$ [[p-simulates|~8ae21f34]] $Q$ by a translation of refutations of the same CNF, and $P$ has feasible interpolation, then so does $Q$: translate the $Q$-refutation, then interpolate.
+- **Link with automatizability.** Suppose that $P$ is [[automatizable|~64ace3b8]], and that substitution of constants in a $P$-refutation gives a $P$-refutation that is not larger. Then $P$ has feasible interpolation in the uniform form, by the search below.
+- **The search.** Let $t$ be the polynomial time bound of the automating algorithm, and let $A'$ be the clauses of $A$ in the refutation $\pi$. Given $a$, run the algorithm on $A'(a, q)$ for $t(2 \abs{\pi})$ steps, check its output, and output $0$ exactly when a refutation is found.
+- **Why it works.** If $B(a, r)$ has a satisfying assignment $c$, then substituting $a$ and $c$ in $\pi$ gives a refutation of $A'(a, q)$ of size at most $\abs{\pi}$, so the search succeeds. So a failed search shows that $B(a, r)$ is unsatisfiable.
+
+### History
+
+Krajíček introduced feasible interpolation and proved it for resolution in a paper published in 1997.
+Pudlák proved the monotone form with real circuits for cutting planes in 1997.
+Krajíček and Pudlák showed in 1998 that extended Frege lacks feasible interpolation unless RSA can be broken by circuits of polynomial size.
+Bonet, Pitassi and Raz in 2000, and Bonet, Domingo, Gavaldà, Maciel and Pitassi in 2004, gave similar results for TC0-Frege and for bounded-depth Frege.
+
+### Common errors
+
+- To confuse the existence of an interpolant, which Craig's theorem gives for every unsatisfiable $A \wedge B$, with a bound on its size in terms of a proof.
+- To read the results for Frege and extended Frege as unconditional. They depend on cryptographic assumptions, and no unconditional result of this kind is known for these systems.
+- To use the monotone form without the sign condition on $p$ in $A$.
+
+## Explanations
+
+### L1 human
+
+Two sets of rules, $A$ and $B$, share some switches $p$, and they cannot both be obeyed.
+For each setting of the shared switches, at least one of the two sets is impossible to obey.
+An interpolant is a small machine that looks at the shared switches and says which set is impossible.
+Feasible interpolation means that a short proof of the conflict always gives a small machine.
+So if no small machine exists, no short proof exists.
+
+### L2 human
+
+We find an interpolant for $A = \set{q, \neg q \vee p}$ and $B = \set{\neg p}$.
+
+1. $A$ forces $q = 1$ and then $p = 1$, so $A(0, q)$ is unsatisfiable.
+2. $B$ says $p = 0$, so $B(1)$ is unsatisfiable.
+3. So $I(p) = p$ is an interpolating circuit: $I(0) = 0$ and $A(0, q)$ is unsatisfiable, while $I(1) = 1$ and $B(1)$ is unsatisfiable.
+
+The typical use is a lower bound: choose $A$ and $B$ so that every interpolating circuit is large, and conclude that every refutation is large.
+A trap is to forget that $I$ may answer either way on an assignment $a$ for which both $A(a, q)$ and $B(a, r)$ are unsatisfiable.
+
+### L3 human
+
+Feasible interpolation connects proof complexity with the separation of disjoint pairs of [[NP|SBDQH0TJ5X]] sets.
+If $P$ has it and proves the disjointness of a pair in polynomial size, then the pair is separated by circuits of polynomial size.
+So a pair that is hard to separate, such as pairs from cryptography, gives a lower bound for $P$, or shows that $P$ lacks feasible interpolation.
+This is why the negative results for strong systems use cryptographic assumptions.
+Feasible interpolation is a weak form of [[automatizability|~64ace3b8]], by the argument in the Basic properties.
+Superpolynomial lower bounds for [[Frege systems|~828540d8]] are open, and under the assumptions above, feasible interpolation cannot give them.
