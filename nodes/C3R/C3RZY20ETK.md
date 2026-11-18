@@ -72,7 +72,7 @@ The same tools then serve computer science, where $\square$ reads "after every s
 
 ### History
 
-C. I. Lewis introduced [[strict implication|5JW54NP52K]] in his book A Survey of Symbolic Logic (1918), as a reply to the paradoxes of material implication.
+Clarence Irving Lewis introduced [[strict implication|5JW54NP52K]] in his book A Survey of Symbolic Logic (1918), as a reply to the paradoxes of material implication.
 Lewis and Langford presented the systems $\mathsf{S1}$ to $\mathsf{S5}$ in Symbolic Logic (1932).
 Carnap gave a semantics of state descriptions in Meaning and Necessity (1947).
 Kripke proved completeness of quantified $\mathsf{S5}$ for possible-world models in 1959, and gave the relational semantics of the normal logics in 1963.
