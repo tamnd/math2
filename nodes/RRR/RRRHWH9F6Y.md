@@ -6,7 +6,7 @@ msc: [03B42, 91A27]
 topics: [CQM9SRN8PM]
 audience: grad
 defines: 7BCMKF2P7X
-uses: [08QMKTWF9T, ERG3KAQWYF, EA34W4ERRE, 05J9NWX07X, 0G8VEZ3WTK, 8K0CMPQXXB]
+uses: [08QMKTWF9T, ERG3KAQWYF, EA34W4ERRE, 05J9NWX07X, 0G8VEZ3WTK]
 sources:
   - url: https://en.wikipedia.org/wiki/Common_knowledge_(logic)
     locator: section Modal logic (syntactic characterization), section Set theoretic (semantic characterization)
