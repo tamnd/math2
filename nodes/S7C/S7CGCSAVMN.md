@@ -1,0 +1,51 @@
+---
+tag: S7CGCSAVMN
+kind: example
+name: A non-normal world refutes necessitation
+msc: ["03B45"]
+topics: [SPQVNPZDTB]
+audience: research
+instance_of: [8PAJMAN8DM]
+uses: [8PAJMAN8DM, G989VP2NGP, NGHWZ9Y7ZV]
+sources:
+  - url: https://en.wikipedia.org/wiki/Impossible_world
+    locator: Non-normal modal logics
+  - url: https://builds.openlogicproject.org/
+    locator: Modal Logic
+---
+
+## Example
+
+Let $W = \set{w, n}$, $N = \set{w}$, $R = \set{(w, w), (w, n), (n, n)}$, and let $V$ be any valuation.
+This is a [[Kripke model|NGHWZ9Y7ZV]] with a non-normal world $n$, an [[impossible world|8PAJMAN8DM]] in Kripke's sense.
+The relation $R$ is reflexive, so the model is one of Kripke's models for $\mathsf{S2}$.
+We show that $\square(p \vee \neg p)$ is true at $w$, but $\square \square(p \vee \neg p)$ is false at $w$.
+
+1. The connectives $\vee$ and $\neg$ are classical at every world, so $p \vee \neg p$ is true at $w$ and at $n$.
+2. $w$ is normal, and both of its successors $w$ and $n$ make $p \vee \neg p$ true. So $w \models \square(p \vee \neg p)$.
+3. $n$ is non-normal, so every formula $\square \varphi$ is false at $n$. In particular, $n \not\models \square(p \vee \neg p)$.
+4. $w R n$, so $w \not\models \square \square(p \vee \neg p)$.
+5. The same argument applies to every model with a normal world that sees a non-normal one. So $\square(p \vee \neg p)$ is valid, while $\square \square(p \vee \neg p)$ is not.
+
+## Remarks
+
+The example shows that the rule of [[necessitation|G989VP2NGP]] fails in Kripke's semantics with non-normal worlds: from the valid $\square(p \vee \neg p)$ it does not yield $\square \square(p \vee \neg p)$.
+This matches the Lewis systems $\mathsf{S2}$ and $\mathsf{S3}$, which contain $\square A$ for every tautology $A$ but do not prove $\square \square(p \vee \neg p)$.
+If $n$ is made normal, the model becomes an ordinary reflexive Kripke model, and $\square \square(p \vee \neg p)$ becomes true at $w$.
+
+## Explanations
+
+### L1 human
+
+A normal world checks "necessarily" by looking at the worlds it can see.
+A non-normal world says "no" to every claim of necessity, even for laws of logic.
+So a law of logic is necessary at a normal world, but "necessarily necessary" fails as soon as a non-normal world is visible.
+
+### L2 human
+
+1. Draw $w$ with a loop and an arrow to $n$, and give $n$ a loop.
+2. At $w$, check $\square(p \vee \neg p)$: look at $w$ and $n$, where $p \vee \neg p$ is true. The box holds.
+3. At $n$, the box is false by definition, without looking at successors.
+4. At $w$, check $\square \square(p \vee \neg p)$: the successor $n$ fails $\square(p \vee \neg p)$. The double box fails.
+
+A trap: validity is checked only at normal worlds; at $n$ even $\square(p \vee \neg p)$ fails.

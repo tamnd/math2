@@ -1,0 +1,97 @@
+---
+tag: HWJXMBNHQ0
+kind: concept
+name: Topological semantics of modal logic
+msc: ["03B45", "54A05"]
+topics: [SPQVNPZDTB]
+audience: research
+uses: [0CQHFPGJ45, 0RZH6W98HK, C3RZY20ETK, BDEX7HET71, NGHWZ9Y7ZV]
+sources:
+  - url: https://en.wikipedia.org/wiki/Modal_logic
+    locator: Topological semantics
+  - url: https://en.wikipedia.org/wiki/Interior_algebra
+    locator: Topology
+  - url: https://en.wikipedia.org/wiki/Interior_algebra
+    locator: Derivative algebras
+---
+
+## Summary
+
+In *topological semantics*, a [[modal formula|C3RZY20ETK]] is interpreted in a [[topological space|0CQHFPGJ45]] $(X, \tau)$ with a valuation $V$ that assigns a subset of $X$ to each variable.
+Truth sets are computed with Boolean operations for the connectives, and $\square$ is interpreted as the [[interior|0RZH6W98HK]] operator: $V(\square \varphi) = \mathrm{Int}\, V(\varphi)$, so $V(\lozenge \varphi) = \mathrm{Cl}\, V(\varphi)$.
+A formula is valid in the space if its truth set is $X$ for every valuation.
+The logic of all topological spaces is $\mathsf{S4}$, and by the [[McKinsey-Tarski theorem|2VF0546VXK]] it is also the logic of the real line.
+Topological semantics generalizes Kripke semantics for $\mathsf{S4}$ and gives modal logic a reading as a language for space.
+
+## Motivation
+
+The $\mathsf{S4}$ axioms $\square p \to p$ and $\square p \to \square \square p$ and the law $\square(p \wedge q) \leftrightarrow \square p \wedge \square q$ are the Kuratowski axioms of an interior operator.
+So $\mathsf{S4}$ can be read as the logic of "true in a neighbourhood", that is, of stable or verifiable truth.
+Preorders are only special spaces, and spaces such as $\R$ have no Kripke counterpart, so topology gives new models and new completeness theorems.
+The same reading interprets intuitionistic logic, through the [[Gödel-McKinsey-Tarski translation|BXVNEN55MR]], with open sets as propositions.
+
+## Notation
+
+$V(\varphi)$, or $[\![ \varphi ]\!]$, is the truth set of $\varphi$, and $(X, \tau), V, x \models \varphi$ means $x \in V(\varphi)$.
+$\mathrm{Int}$ and $\mathrm{Cl}$ are interior and closure, and $d(A)$ is the derived set of limit points of $A$.
+$\mathrm{Log}(X)$ is the set of formulas valid in the space $X$.
+
+## Remarks
+
+### Examples
+
+1. On the real line, $\square(p \vee q) \to \square p \vee \square q$ fails at $0$, while every $\mathsf{S4}$ theorem is valid; see [[a topological model on the real line|A504D0J1NR]].
+2. The open sets of the Alexandrov topology of a preorder are its up-sets, and topological truth there is Kripke truth; see [[Alexandrov spaces give Kripke semantics|CWZ1K5AN1N]].
+3. In a discrete space $\mathrm{Int}\, A = A$, so $\square p \leftrightarrow p$ is valid. In an infinite indiscrete space, $\square$ means "everywhere", and the logic is $\mathsf{S5}$.
+
+### Non-examples
+
+1. A family of sets that is not closed under finite intersections does not give an interior operator, and it refutes a theorem of $\mathsf{K}$; see [[a family not closed under intersection breaks K|KRK0SW60RE]].
+2. Reading $\square$ as closure is not sound for $\mathsf{S4}$: then $\square p \to p$ says $\mathrm{Cl}\, A \subseteq A$, which fails for $A = (0, 1)$ in $\R$.
+
+### Basic properties
+
+1. Soundness: every space validates $\mathsf{S4}$. The axioms are $\mathrm{Int}\, A \subseteq A$, $\mathrm{Int}\, A \subseteq \mathrm{Int}\, \mathrm{Int}\, A$ and $\mathrm{Int}(A \cap B) = \mathrm{Int}\, A \cap \mathrm{Int}\, B$, and necessitation is $\mathrm{Int}\, X = X$.
+2. Completeness: $\mathsf{S4}$ is the logic of all spaces, of $\R$, of every dense-in-itself metric space, and of the Cantor space; see the [[McKinsey-Tarski theorem|2VF0546VXK]].
+3. Algebraically, the powerset of a space with $\mathrm{Int}$ is an [[interior algebra|BDEX7HET71]], and every interior algebra embeds into one of this form.
+4. Interior maps, the continuous and open maps, preserve validity from the domain to the image when they are onto.
+5. In derivative semantics, $\lozenge$ is read as the derived set $d$. The logic of all spaces is then $\mathsf{wK4} = \mathsf{K} \oplus (p \wedge \square p \to \square \square p)$, and the axiom $\square p \to \square \square p$ is valid exactly in the $T_D$ spaces.
+6. Adding the universal modality gives spatial logics that express connectedness and region relations; the logic $\mathsf{S4u}$ of $\R^n$ contains the connectedness axiom.
+
+### History
+
+Alfred Tarski gave a topological semantics for intuitionistic logic in 1938.
+McKinsey and Tarski published "The algebra of topology" in the Annals of Mathematics in 1944, with the completeness of $\mathsf{S4}$ for $\R$.
+Leo Esakia developed derivative semantics and duality for interior algebras.
+Spatial logics with the universal modality were studied from the 1990s, by Valentin Shehtman and others.
+
+### Common errors
+
+1. Reading $\square$ as closure. Closure satisfies $A \subseteq \mathrm{Cl}\, A$, which matches $p \to \lozenge p$, not $\square p \to p$.
+2. Assuming that topological semantics equals Kripke semantics. It does only for Alexandrov spaces; $\R$ is not one.
+3. Assuming that every space has logic $\mathsf{S4}$. A discrete space has the logic $\mathsf{S4} \oplus (p \to \square p)$.
+
+## Explanations
+
+### L1 human
+
+Read "necessarily $p$" as "$p$ holds at every point near here".
+For a region on the real line, this picks out the inner part of the region, without its edge.
+The rules of modal logic $\mathsf{S4}$ are exactly the rules for inner parts: the inner part of a region lies inside it, and taking the inner part twice changes nothing.
+
+### L2 human
+
+1. On $\R$, let $p$ be true on $[0, 1]$.
+2. Then $\square p$ is true on $(0, 1)$, the interior.
+3. $\lozenge p$ is true on $[0, 1]$, the closure.
+4. $\lozenge \square p$ is true on $[0, 1]$, and $\square \lozenge p$ is true on $(0, 1)$. So $\square \lozenge p \to \lozenge \square p$ holds at every point here.
+5. With $p$ true on the rationals, $\square \lozenge p$ is true everywhere and $\lozenge \square p$ is false everywhere, so the McKinsey formula fails on $\R$.
+
+The typical use of topological semantics is to prove completeness of $\mathsf{S4}$ and its extensions for natural spaces.
+A trap: truth at a single point depends on the whole neighbourhood, so a point has no "successor set" in a non-Alexandrov space.
+
+### L3 human
+
+The topological semantics is the special case of the algebraic semantics in interior algebras of the form $(\mathcal{P}(X), \mathrm{Int})$.
+Neighbourhood semantics generalizes it further: topological spaces correspond to the neighbourhood frames whose neighbourhood systems are filters and that validate the axioms $\square p \to p$ and $\square p \to \square \square p$.
+Derivative semantics is more expressive than interior semantics: it distinguishes spaces such as $\R$ and $\R^2$, and it relates modal logic to the Cantor-Bendixson rank and to scattered spaces, whose derivative logic contains $\mathsf{GL}$.
