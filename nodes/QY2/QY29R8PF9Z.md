@@ -1,0 +1,52 @@
+---
+tag: QY29R8PF9Z
+kind: example
+name: Coding the square root of two as a real number in second-order arithmetic
+msc: ["03F35", "03B30"]
+topics: [BY8AAFN7C5]
+audience: grad
+instance_of: [DC60FYCSPM]
+uses: [DC60FYCSPM, Y92NXGEQBD, 08J2M1JYAG]
+sources:
+  - url: https://en.wikipedia.org/wiki/Second-order_arithmetic
+    locator: Coding mathematics
+---
+
+## Example
+
+In [[second-order arithmetic|DC60FYCSPM]] a real number is a sequence $(q_k)_{k \in \N}$ of rationals with $\abs{q_k - q_l} \le 2^{-k}$ for all $k < l$.
+We give a code for $\sqrt{2}$ and check that the code exists already with $\Delta^0_1$ comprehension.
+
+1. For each $k$ let $m_k$ be the largest natural number with $m_k^2 \le 2 \cdot 4^k$, and let $q_k = m_k / 2^k$.
+2. The first values are $q_0 = 1$, $q_1 = 2/2 = 1$, $q_2 = 5/4$, $q_3 = 11/8$, $q_4 = 22/16$ and $q_5 = 45/32$.
+3. Check $q_3$: $11^2 = 121 \le 128 = 2 \cdot 4^3$ and $12^2 = 144 > 128$.
+4. Check $q_4$: $22^2 = 484 \le 512$ and $23^2 = 529 > 512$. Check $q_5$: $45^2 = 2025 \le 2048$ and $46^2 = 2116 > 2048$.
+5. By the choice of $m_k$, $q_k^2 \le 2 < (q_k + 2^{-k})^2$, so $q_k \le \sqrt{2} < q_k + 2^{-k}$.
+6. For $k < l$, the number $2^{l-k} m_k$ satisfies $(2^{l-k} m_k)^2 \le 2 \cdot 4^l$, so $m_l \ge 2^{l-k} m_k$ and $q_l \ge q_k$.
+7. Also $q_l \le \sqrt{2} < q_k + 2^{-k}$, so $0 \le q_l - q_k < 2^{-k}$. Thus $(q_k)$ satisfies the condition of a real.
+8. The relation "$m = m_k$" is the condition $m^2 \le 2 \cdot 4^k < (m + 1)^2$. The power $4^k$ is a primitive recursive function of $k$, so this relation is decidable.
+9. So the set $\set{(k, q_k) : k \in \N}$ is defined by a $\Delta^0_1$ formula, and $\Delta^0_1$ comprehension gives it as a set.
+10. This set codes $\sqrt{2}$, and it is equal as a real to every other code of $\sqrt{2}$, in the sense of the coded equality of reals.
+
+## Remarks
+
+The code is not unique.
+The sequence $q'_k = q_{k+1}$ is another code, and $\abs{q_k - q'_k} < 2^{-k} \le 2^{-k+1}$, so both codes are equal as reals.
+The fixed rate $2^{-k}$ is what makes the coded order $x < y$ a $\Sigma^0_1$ statement.
+Without a fixed rate, a Cauchy sequence of rationals carries no bound on how far the tail can move, and a statement such as $x > 0$ needs more quantifiers.
+The same method codes every computable [[real number|08J2M1JYAG]], and all such codes exist in the weak system $\mathsf{RCA}_0$.
+
+## Explanations
+
+### L1 human
+
+The theory has no real numbers as objects, only natural numbers and sets of them.
+So a real number is given by a list of better and better fractions.
+For $\sqrt{2}$ the list is $1, 1, 5/4, 11/8, 22/16, 45/32, \ldots$, and the error of the $k$-th fraction is less than $2^{-k}$.
+
+### L2 human
+
+The method is general: if a real has a computable sequence of approximations with errors $2^{-k}$, the sequence is defined by a $\Delta^0_1$ formula.
+The weak system $\mathsf{RCA}_0$ then proves that the code exists.
+A trap is to code a real by its binary expansion.
+Addition is not computable on binary expansions, since a carry may depend on all later digits, so the expansion code is not used.

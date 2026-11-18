@@ -1,0 +1,102 @@
+---
+tag: YPQPC1WJMV
+kind: statement
+role: theorem
+name: Parikh's theorem
+aliases: [parikhs-theorem-bounded-arithmetic]
+msc: ["03F30", "03C62"]
+topics: [RA380RWEC0]
+audience: research
+uses: [GE43CSZTS9, T70PYM1F36, 3K1AKGXF8A, 1QD0KDDGYJ, 6D3WA7N2W4]
+about: [A2CFPP8JMN, T70PYM1F36]
+proofs: [54SYW2Z3QN]
+sources:
+  - url: https://en.wikipedia.org/wiki/Bounded_arithmetic
+    locator: lead section
+  - url: https://en.wikipedia.org/wiki/Elementary_function_arithmetic
+    locator: lead section
+history:
+  first_stated: "1971"
+  notes: "R. Parikh, Existence and feasibility in arithmetic, Journal of Symbolic Logic 36 (1971), 494-508."
+---
+
+## Statement
+
+Let $L_A = \set{0, S, +, \cdot, <}$ be the [[language of arithmetic|D8SD54M5PN]].
+Let $\mathsf{I}\Delta_0$ be [[Robinson arithmetic|3K1AKGXF8A]] $\mathsf{Q}$ together with the [[induction schema|1QD0KDDGYJ]] for all [[$\Delta_0$ formulas|GE43CSZTS9]].
+A $\Pi_1$ sentence is a sentence $\forall \bar w \, \chi(\bar w)$ with $\chi$ a $\Delta_0$ formula.
+
+**Theorem.** Let $T$ be a theory in $L_A$ whose axioms are the axioms of $\mathsf{I}\Delta_0$ together with any set of $\Pi_1$ sentences.
+Let $\varphi(\bar x, y)$ be a $\Delta_0$ formula of $L_A$.
+If $T \vdash \forall \bar x \, \exists y \, \varphi(\bar x, y)$, then there is a [[term|6D3WA7N2W4]] $t(\bar x)$ of $L_A$ such that
+$$T \vdash \forall \bar x \, \exists y < t(\bar x) \, \varphi(\bar x, y).$$
+
+A term of $L_A$ in the variables $\bar x$ takes the same values in $\N$ as a polynomial in $\bar x$ with coefficients in $\N$.
+So, in the standard model, the theorem gives a polynomial bound on a witness $y$.
+The same proof works when $y$ is a tuple $\bar y$: each component gets the bound $t(\bar x)$.
+
+## Remarks
+
+### Why each hypothesis is needed
+
+Fix a $\Delta_0$ formula $\mathrm{Exp}(x, y)$ that defines the relation $y = 2^x$ in $\N$, as in [[elementary function arithmetic|2JD80TE553]].
+For every term $t(x)$ there is an $n$ with $2^n \ge t(n)$, since $2^n$ grows faster than every polynomial.
+
+- **The formula $\varphi$ must be bounded.** Let $\psi(x, y)$ be $\forall w \, \neg \mathrm{Exp}(x, w) \lor \mathrm{Exp}(x, y)$, a $\Pi_1$ formula. By pure logic, $\mathsf{I}\Delta_0 \vdash \forall x \, \exists y \, \psi(x, y)$: take $y = w$ when some $w$ satisfies $\mathrm{Exp}(x, w)$, and $y = 0$ otherwise. In $\N$ the only witness for $x = n$ is $2^n$, so no term bounds it.
+- **The extra axioms must be $\Pi_1$.** The theory $\mathsf{EFA} = \mathsf{I}\Delta_0 + \forall x \, \exists y \, \mathrm{Exp}(x, y)$ adds one $\Pi_2$ axiom. It proves $\forall x \, \exists y \, \mathrm{Exp}(x, y)$, and $\N \models \mathsf{EFA}$, so no term bounds the witness.
+
+### Consequences
+
+- $\mathsf{I}\Delta_0 \nvdash \forall x \, \exists y \, \mathrm{Exp}(x, y)$. A term bound $t$ would give $2^n < t(n)$ for all $n$ in $\N$, which is false.
+- More generally, every function $f$ that is $\Delta_0$-definable and provably total in $\mathsf{I}\Delta_0$, in the sense of [[provably total functions|Z742YPHPNS]], satisfies $f(\bar n) < p(\bar n)$ for a polynomial $p$.
+- The same argument works for the theories $S^i_2$ and $T^i_2$ of [[bounded arithmetic|A2CFPP8JMN]]. There the terms contain the smash function $x \# y = 2^{\abs{x} \cdot \abs{y}}$, and the binary length of the bound is a polynomial in the binary lengths of $\bar x$. This version is the first step of [[Buss's witnessing theorem|RH4R7GTTAX]].
+
+### Converse
+
+The converse holds by pure logic: $\exists y < t(\bar x) \, \varphi(\bar x, y)$ implies $\exists y \, \varphi(\bar x, y)$.
+
+### Generalizations
+
+- The same proof works in a larger language when the theory proves that each function symbol is monotone. The axioms may be $\Pi_1$ sentences in the bounded formulas of that language, together with induction or the polynomial induction scheme for bounded formulas.
+- This covers Buss's theories $S^i_2$ and $T^i_2$, and $\mathsf{I}\Delta_0 + \Omega_1$ when a function symbol for $x \mapsto x^{\abs{x}}$ is added to the language.
+- No bound independent of $\bar x$ exists in general: for $\varphi(x, y) := y = x$ every bound must grow with $x$.
+
+## History
+
+Rohit Parikh proved the theorem in *Existence and feasibility in arithmetic*, Journal of Symbolic Logic 36 (1971).
+The theorem shows that $\mathsf{I}\Delta_0$ does not prove that exponentiation is total.
+Parikh's own proof was proof-theoretic and used Herbrand's theorem; the proof by cuts given here is a model-theoretic alternative.
+Buss used the version for $S^i_2$ as the first step of his witnessing theorem in 1986.
+
+## Explanations
+
+### L1 human
+
+Some proofs show that a number exists, for example a number that is bigger than a given one and has some property.
+Parikh's theorem says this about a weak system of rules for whole numbers.
+When the system proves that such a number always exists, and the property only looks at numbers up to fixed limits, then the system also gives a size limit.
+The limit is a polynomial, for example $x^2 + 3x + 1$.
+So the system cannot prove that $2^x$ always exists, because $2^{10} = 1024$ is already more than $10^2 + 3 \cdot 10 + 1 = 131$.
+
+### L2 human
+
+We apply the theorem to the squaring function.
+
+1. Let $\varphi(x, y)$ be the $\Delta_0$ formula $y = x \cdot x$.
+2. $\mathsf{I}\Delta_0 \vdash \forall x \, \exists y \, \varphi(x, y)$, with witness $y = x \cdot x$.
+3. Parikh's theorem gives a term, and here the term $t(x) = x \cdot x + 1$ works.
+4. Indeed $\mathsf{I}\Delta_0$ proves $x \cdot x < x \cdot x + 1$, so $\exists y < t(x) \, \varphi(x, y)$.
+
+The typical use is negative: the theorem shows that some sentence $\forall x \, \exists y \, \varphi$ is not provable, because its witness grows too fast.
+A trap is to apply the theorem to a $\Pi_1$ or $\Sigma_1$ formula $\varphi$; the remark on hypotheses gives a counterexample.
+Another trap is to forget the extra axioms: the theorem fails for $\mathsf{EFA}$, which has a $\Pi_2$ axiom.
+
+### L3 human
+
+The model-theoretic proof shows a general principle: the elements of a model of $\mathsf{I}\Delta_0$ below the values of all terms at fixed parameters form an initial segment that is again a model.
+Initial segments of this kind are cuts, and $\Delta_0$ formulas are absolute between a model and its cuts.
+Cuts are also the main tool behind [[indicators|JWTZ8NVVGK]] and many independence results for weak theories.
+
+In bounded arithmetic the theorem turns every $\forall \exists$ theorem with a bounded matrix into a bounded one, and so a statement about search problems with polynomially long answers.
+Buss's witnessing theorem and the [[Krajíček-Pudlák-Takeuti theorem|YP7KE8E6DC]] start from this bound and then analyse the proof further.
+The proof-theoretic proof uses [[cut elimination|AYRZ98Y0NW]] and works for all bounded theories in the same way.

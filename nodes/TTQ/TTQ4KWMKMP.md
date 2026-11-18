@@ -1,0 +1,46 @@
+---
+tag: TTQ4KWMKMP
+kind: proof
+name: Proof that König's lemma is equivalent to ACA0
+msc: ["03B30", "03F35"]
+topics: [BY8AAFN7C5]
+audience: grad
+proves: 3P2J5NWCM1
+uses: [DNXCKXZZ08, K9XG0Z2N9V, 3MQ39PRCYJ]
+methods: [TFQ1845T84, 0J0XBKG64S]
+sources:
+  - url: https://en.wikipedia.org/wiki/K%C5%91nig%27s_lemma
+    locator: Computability aspects
+---
+
+## Proof
+
+Part 1: $\mathsf{ACA}_0$ proves $\mathrm{KL}$.
+
+1. Let $T$ be an infinite finitely branching tree. Arithmetical comprehension gives $T^* = \set{\sigma \in T : \forall m\, \exists \tau \in T\, (\sigma \subseteq \tau \wedge \tau \ge m)}$, the nodes with infinitely many extensions in $T$.
+2. The empty sequence is in $T^*$, since $T$ is infinite.
+3. Let $\sigma \in T^*$, with bound $b$ on the children of $\sigma$. Every extension $\tau \ne \sigma$ of $\sigma$ in $T$ extends some child $\sigma v$ with $v < b$.
+4. If no child were in $T^*$, each child $\sigma v$ would have a bound $m_v$ on its extensions. Arithmetical induction on $r \le b$ gives a common bound for $v < r$.
+5. Then $\sigma$ would have finitely many extensions, a contradiction. So some $\sigma v$ with $v < b$ is in $T^*$.
+6. Define $g(k)$ as the least $v$ with $(g {\restriction} k) v \in T^*$. By induction, $g {\restriction} k \in T^*$ for all $k$, so each search ends, and $g$ is a path through $T$.
+
+Part 2: $\mathsf{RCA}_0 + \mathrm{KL}$ proves $\mathsf{ACA}_0$.
+
+7. By the [[range lemma|3MQ39PRCYJ]], it suffices to show that a one-to-one $f \colon \N \to \N$ has a range. Fix $f$.
+8. Let $T$ be the set of $\sigma \in \N^{<\N}$ such that, for all $i < \abs{\sigma}$: if $\sigma(i) = 0$ then $f(j) \ne i$ for all $j < \abs{\sigma}$, and if $\sigma(i) = j + 1$ then $f(j) = i$.
+9. The condition is $\Sigma^0_0$ in $f$, so $T$ exists. If $\sigma \in T$ and $\tau \subseteq \sigma$, the conditions for $\tau$ are weaker, so $T$ is a tree.
+10. $T$ is finitely branching. If $\sigma v \in T$, then $v = 0$ or $v = j + 1$ with $f(j) = \abs{\sigma}$, and at most one $j$ has $f(j) = \abs{\sigma}$. So $b = j + 2$ for that $j$, or $b = 1$ if there is none, is a bound.
+11. $T$ is infinite. For each $n$, let $\sigma_n(i) = j + 1$ if $j < n$ and $f(j) = i$, and $\sigma_n(i) = 0$ otherwise, for $i < n$. Then $\sigma_n \in T$ and $\abs{\sigma_n} = n$.
+12. $\mathrm{KL}$ gives a path $g$. If $g(i) = j + 1$, then $f(j) = i$, by the condition at level $i + 1$.
+13. If $g(i) = 0$, then $f(j) \ne i$ for all $j$: take $k > \max(i, j)$, and use $g {\restriction} k \in T$.
+14. So $i$ is in the range of $f$ exactly when $g(i) \ne 0$. $\Delta^0_1$ comprehension gives the range.
+
+## Idea
+
+The forward proof keeps to the nodes with infinitely many extensions, and arithmetical comprehension makes this set.
+The reversal makes a tree whose nodes guess the range of $f$ together with witnesses; only correct guesses survive to all levels, so the path codes the range.
+
+## Variants
+
+Part 2 also shows that König's lemma restricted to trees where each node has at most two children implies $\mathsf{ACA}_0$.
+The bound $b$ in step 10 is not computable from $f$; this is why the same tree is not an instance of weak König's lemma.
