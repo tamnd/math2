@@ -1,0 +1,52 @@
+---
+tag: VAP32WQ8DY
+kind: example
+name: Evaluating @ and ↓ in a three-world cycle
+msc: ["03B45"]
+topics: [SPQVNPZDTB]
+audience: research
+instance_of: [NVPQ9W9DED]
+uses: [NVPQ9W9DED]
+sources:
+  - url: https://en.wikipedia.org/wiki/Hybrid_logic
+    locator: lead section
+---
+
+## Example
+
+Let $\mathfrak{M} = (W, R, V)$ be the hybrid model with $W = \{w_0, w_1, w_2\}$, $R = \{(w_0, w_1), (w_1, w_2), (w_2, w_0)\}$, $V(i) = \{w_0\}$, $V(j) = \{w_1\}$ and $V(p) = \{w_2\}$.
+We evaluate four formulas of [[hybrid logic|NVPQ9W9DED]] at every world.
+
+1. $@_i \lozenge j$. The world named $i$ is $w_0$, and $w_0 R w_1$ with $w_1 \models j$. So $\lozenge j$ holds at $w_0$, and $@_i \lozenge j$ holds at every world.
+2. $@_j \lozenge i$. The world named $j$ is $w_1$, and its only successor is $w_2$, where $i$ is false. So $@_j \lozenge i$ fails at every world.
+3. $\downarrow x . \lozenge x$ at a world $w$. This holds iff $\mathfrak{M}, g[x \mapsto w], w \models \lozenge x$, that is, iff $w R w$. No world sees itself, so the formula fails everywhere.
+4. $\downarrow x . \lozenge \lozenge \lozenge x$ at $w_0$. Bind $x$ to $w_0$. The path $w_0 R w_1 R w_2 R w_0$ ends at $g(x)$, so the formula holds at $w_0$.
+5. The same path, started at $w_1$ or $w_2$, returns after three steps. So $\downarrow x . \lozenge \lozenge \lozenge x$ holds at every world.
+6. $\downarrow x . \lozenge \lozenge x$ at $w_0$. The only path of length two from $w_0$ ends at $w_2 \neq w_0$. By the symmetry of the cycle, the formula fails everywhere.
+
+## Remarks
+
+The example shows the two ways of naming: the nominal $i$ names a world fixed by the valuation, and $\downarrow x$ names whatever world we stand at.
+So $\downarrow x . \lozenge \lozenge \lozenge x$ says "I lie on a cycle of length three", and $\downarrow x . \lozenge x$ says "I see myself".
+No formula of basic modal logic can say "I see myself" at a world, since a reflexive point and the successor chain are bisimilar, see [[bisimulation invariance|TKFFTAX30E]].
+If we add the pair $(w_1, w_0)$ to $R$, then $@_j \lozenge i$ becomes true everywhere, and $\downarrow x . \lozenge \lozenge x$ becomes true at $w_0$ and $w_1$ through the two-cycle.
+
+## Explanations
+
+### L1 human
+
+Three rooms are joined in a ring with one-way doors.
+Room $w_0$ has the name $i$ and room $w_1$ has the name $j$.
+The formula $@_i \lozenge j$ says "from room $i$ one door leads to room $j$", and that is true wherever we stand.
+The formula $\downarrow x . \lozenge \lozenge \lozenge x$ says "mark this room, then after three doors we are back at the mark".
+
+### L2 human
+
+We check the change described in the remarks, with $R' = R \cup \{(w_1, w_0)\}$.
+
+1. At $w_0$: bind $x$ to $w_0$. The path $w_0 R' w_1 R' w_0$ ends at $x$. True.
+2. At $w_1$: bind $x$ to $w_1$. The path $w_1 R' w_0 R' w_1$ ends at $x$. True.
+3. At $w_2$: the only successor is $w_0$, whose successors are $w_1$. Neither path of length two ends at $w_2$. False.
+
+The typical use of $\downarrow$ is to express a cycle through the current world.
+A trap: in $\downarrow x . \varphi$ the binding is made once, at the world where the formula is evaluated, and $x$ keeps that value inside $\varphi$ while the evaluation moves.

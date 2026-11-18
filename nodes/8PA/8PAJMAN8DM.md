@@ -53,12 +53,12 @@ A *Rantala model* is $(W, P, R, V)$ with $P \subseteq W$ the possible worlds; at
 
 ### Examples
 
-1. In a model with one normal and one non-normal world, $\square(p \vee \neg p)$ is valid but $\square \square(p \vee \neg p)$ is not, so necessitation fails; see [[a non-normal world refutes necessitation|~a3f26c7b]].
-2. In a Rantala model, an agent can know $p$ and $p \to q$ without knowing $q$; see [[impossible worlds block logical omniscience|~d76bfda8]].
+1. In a model with one normal and one non-normal world, $\square(p \vee \neg p)$ is valid but $\square \square(p \vee \neg p)$ is not, so necessitation fails; see [[a non-normal world refutes necessitation|S7CGCSAVMN]].
+2. In a Rantala model, an agent can know $p$ and $p \to q$ without knowing $q$; see [[impossible worlds block logical omniscience|P2ZVNZDNHV]].
 
 ### Non-examples
 
-1. A Kripke model in which every world is normal has no impossible worlds, and its knowledge operator is closed under known implication; see [[a Kripke model forces logical omniscience|~ea64c716]].
+1. A Kripke model in which every world is normal has no impossible worlds, and its knowledge operator is closed under known implication; see [[a Kripke model forces logical omniscience|ETA9WHZP38]].
 2. A world at which a contingent fact differs from the actual world, such as a world where it rains, is merely another possible world, not an impossible one.
 
 ### Basic properties

@@ -50,15 +50,15 @@ On frames without valuations, the atom clause is dropped.
 
 ### Examples
 
-1. A world with a loop and a cycle of two worlds, with the same atoms everywhere, are bisimilar; see [[a loop and a two-cycle are bisimilar|~6615a7e8]].
-2. The graph of a bounded morphism is a bisimulation; see [[the successor chain maps onto a reflexive point|~0052c5a7]].
+1. A world with a loop and a cycle of two worlds, with the same atoms everywhere, are bisimilar; see [[a loop and a two-cycle are bisimilar|2D9T8ERY94]].
+2. The graph of a bounded morphism is a bisimulation; see [[the successor chain maps onto a reflexive point|T3YJ84YDV4]].
 3. If $\mathfrak{N}$ is a generated submodel of $\mathfrak{M}$, then the identity relation on the worlds of $\mathfrak{N}$ is a bisimulation between $\mathfrak{N}$ and $\mathfrak{M}$. The zag clause holds because $\mathfrak{N}$ is closed under $R$.
 4. Each summand of a disjoint union is bisimilar to its copy in the union, by the identity map on the summand.
 5. A world $w$ is bisimilar to the root of the tree unravelling of the model at $w$. The worlds of the unravelling are the finite paths from $w$, and the map that sends a path to its last world is a bounded morphism.
 
 ### Non-examples
 
-1. Two models can have the same paths of atoms and still fail to be bisimilar; see [[two trace-equivalent models that are not bisimilar|~03467eec]]. The zag clause fails after one step.
+1. Two models can have the same paths of atoms and still fail to be bisimilar; see [[two trace-equivalent models that are not bisimilar|KAMG2T6622]]. The zag clause fails after one step.
 2. The inclusion of a submodel that is not generated is not a bisimulation in general. If $w R v$ and $v$ is left out, the zig clause fails at $w$, and $\lozenge \top$ is true at $w$ only in the larger model.
 3. A world where $p$ is true and a world where $p$ is false are never bisimilar, since the atom clause fails.
 
@@ -66,9 +66,9 @@ On frames without valuations, the atom clause is dropped.
 
 1. The union of any family of bisimulations between $\mathfrak{M}$ and $\mathfrak{M}'$ is a bisimulation. So bisimilarity is the largest bisimulation, when it is nonempty.
 2. The converse of a bisimulation is a bisimulation, and the composition of two bisimulations is a bisimulation, when it is nonempty. So bisimilarity is an equivalence relation on the worlds of one model.
-3. Bisimilar worlds satisfy the same modal formulas; see [[bisimulation invariance of modal formulas|~88334673]].
-4. On image-finite models the converse holds; see [[the Hennessy-Milner theorem|~613466ad]].
-5. A first-order formula in one free variable is equivalent to the standard translation of a modal formula exactly when it is invariant under bisimulation; see [[the van Benthem characterization theorem|~bf053ff5]].
+3. Bisimilar worlds satisfy the same modal formulas; see [[bisimulation invariance of modal formulas|TKFFTAX30E]].
+4. On image-finite models the converse holds; see [[the Hennessy-Milner theorem|DBDNYXA7ME]].
+5. A first-order formula in one free variable is equivalent to the standard translation of a modal formula exactly when it is invariant under bisimulation; see [[the van Benthem characterization theorem|Y89MGMWE4H]].
 
 ### History
 
@@ -116,4 +116,4 @@ In this view bounded morphisms are the coalgebra morphisms, and bisimilarity is 
 Bisimilarity is a greatest fixed point on the [[complete lattice|D7A0ZGZT5S]] of relations, which is why proofs about it use coinduction.
 It is the modal analogue of the back-and-forth systems of first-order model theory and of the [[Ehrenfeucht-Fraïssé game|2RE7YAZK8R]].
 The van Benthem and Rosen theorems make this precise: the modal fragment of first-order logic is the fragment invariant under bisimulation.
-Extended modal languages change the notion: graded modalities need counting bisimulations, and nominals of [[hybrid logic|~be12fd35]] need bisimulations that respect named worlds.
+Extended modal languages change the notion: graded modalities need counting bisimulations, and nominals of [[hybrid logic|NVPQ9W9DED]] need bisimulations that respect named worlds.

@@ -53,14 +53,14 @@ We write $\mathfrak{M} \uplus \mathfrak{M}'$ or $\biguplus_i \mathfrak{M}_i$ for
 
 ### Examples
 
-1. A loop and a two-cycle are bisimilar; see [[a loop and a two-cycle are bisimilar|~6615a7e8]].
-2. The graph of a bounded morphism is a bisimulation; see [[the successor chain maps onto a reflexive point|~0052c5a7]].
+1. A loop and a two-cycle are bisimilar; see [[a loop and a two-cycle are bisimilar|2D9T8ERY94]].
+2. The graph of a bounded morphism is a bisimulation; see [[the successor chain maps onto a reflexive point|T3YJ84YDV4]].
 3. If $\mathfrak{N}$ is a generated submodel of $\mathfrak{M}$, then $\set{(u, u) : u \in U}$ is a bisimulation. The zag clause holds because every successor of $u$ in $\mathfrak{M}$ lies in $U$.
 4. For each $i$, the identity on $W_i$ is a bisimulation between $\mathfrak{M}_i$ and $\biguplus_j \mathfrak{M}_j$, since $\mathfrak{M}_i$ is a generated submodel of the union.
 
 ### Non-examples
 
-1. Two models with the same paths of atoms need not be bisimilar; see [[two trace-equivalent models that are not bisimilar|~03467eec]].
+1. Two models with the same paths of atoms need not be bisimilar; see [[two trace-equivalent models that are not bisimilar|KAMG2T6622]].
 2. Let $\mathfrak{M}$ have worlds $w$, $v$ with $w R v$, and let $\mathfrak{N}$ be the restriction to $\set{w}$. The relation $\set{(w, w)}$ between $\mathfrak{N}$ and $\mathfrak{M}$ fails the zag clause, because the move $w R v$ in $\mathfrak{M}$ has no answer in $\mathfrak{N}$.
 
 ### Bisimulation games
@@ -80,7 +80,7 @@ For finitely many variables, $n$-bisimilarity is the same as agreement on all fo
 
 1. Bisimilarity is the union of all bisimulations, so it is the largest bisimulation when it is nonempty.
 2. On one model, bisimilarity is an equivalence relation, since converses and nonempty composites of bisimulations are bisimulations.
-3. Bisimilar worlds satisfy the same modal formulas; see [[bisimulation invariance of modal formulas|~88334673]].
+3. Bisimilar worlds satisfy the same modal formulas; see [[bisimulation invariance of modal formulas|TKFFTAX30E]].
 4. Bisimilarity on a labelled transition system is the greatest fixed point of the monotone map $Z \mapsto \set{(s, t) : \text{clauses 1 and 2 hold for } (s, t) \text{ with respect to } Z}$ on the [[complete lattice|D7A0ZGZT5S]] of relations.
 
 ## Explanations

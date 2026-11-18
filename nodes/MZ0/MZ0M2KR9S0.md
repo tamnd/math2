@@ -50,22 +50,22 @@ Adding least and greatest solutions of such equations to the language gives the 
 
 ### Examples
 
-1. [[Reachability as a least fixed point|~a3c4eba3]]: $\mu X . (p \vee \lozenge X)$ holds exactly at the worlds from which a finite path reaches $p$. We compute it by iteration on a four-world model.
-2. [[An infinite path of p-worlds as a greatest fixed point|~dd43c1e9]]: $\nu X . (p \wedge \lozenge X)$ holds exactly at the worlds where an infinite path of $p$-worlds starts.
+1. [[Reachability as a least fixed point|YHJF3VAPS0]]: $\mu X . (p \vee \lozenge X)$ holds exactly at the worlds from which a finite path reaches $p$. We compute it by iteration on a four-world model.
+2. [[An infinite path of p-worlds as a greatest fixed point|R3WCA35JKD]]: $\nu X . (p \wedge \lozenge X)$ holds exactly at the worlds where an infinite path of $p$-worlds starts.
 3. Termination: $\mu X . \square X$ holds exactly at the worlds from which every path is finite. On a finite model these are the worlds that reach no cycle.
 4. Fairness: $\nu X . \mu Y . ((p \wedge \lozenge X) \vee \lozenge Y)$ holds at the worlds where some infinite path passes through $p$-worlds infinitely often. It needs both kinds of fixed point, one inside the other.
 5. Programs: the diamond $\langle a^* \rangle p$ of [[propositional dynamic logic|VJ78A0Q22R]] is $\mu X . (p \vee \langle a \rangle X)$, so every formula of propositional dynamic logic has a translation into $L_\mu$.
 
 ### Non-examples
 
-1. [[Having two successors is not definable in the modal mu-calculus|~529079cf]]: the property "the present world has at least two successors" is not invariant under bisimulation, so no formula of $L_\mu$ defines it.
+1. [[Having two successors is not definable in the modal mu-calculus|F3P5633RAC]]: the property "the present world has at least two successors" is not invariant under bisimulation, so no formula of $L_\mu$ defines it.
 2. $\mu X . \neg X$ is not a formula, because $X$ occurs under one negation. The map $T \mapsto W \setminus T$ is not monotone, and it has no fixed point when $W \neq \emptyset$.
 3. "Some path reaches $p$" is not a formula of basic modal logic, because of the depth argument of the Motivation. It needs the fixed-point operator.
 
 ### Basic properties
 
 1. Fixed points exist. By the [[Knaster-Tarski theorem|RHXP3HA64M]], every monotone map on the [[complete lattice|D7A0ZGZT5S]] $\mathcal{P}(W)$ has a least and a greatest fixed point. On a finite model with $n$ worlds, the iteration from $\emptyset$ (or from $W$) reaches it in at most $n$ steps.
-2. Bisimulation invariance. If a [[bisimulation|X27BR4YP2Y]] links $w$ and $w'$, then $w$ and $w'$ satisfy the same formulas of $L_\mu$. The proof extends the [[bisimulation invariance of modal formulas|~88334673]] by an induction on the approximants of each fixed point.
+2. Bisimulation invariance. If a [[bisimulation|X27BR4YP2Y]] links $w$ and $w'$, then $w$ and $w'$ satisfy the same formulas of $L_\mu$. The proof extends the [[bisimulation invariance of modal formulas|TKFFTAX30E]] by an induction on the approximants of each fixed point.
 3. Expressive power. David Janin and Igor Walukiewicz proved in 1996 that a formula of [[monadic second-order logic|3WHQFSHR58]] is invariant under bisimulation exactly when it is equivalent to a formula of $L_\mu$.
 4. Axioms. Kozen's axiom system has the axioms and rules of $\mathsf{K}$ for each $[a]$, the fixed-point axiom $\varphi(\mu X . \varphi) \to \mu X . \varphi$, and the induction rule: from $\varphi(\psi) \to \psi$ infer $\mu X . \varphi \to \psi$. Kozen proved completeness for a fragment of the language, and Igor Walukiewicz proved completeness for all formulas.
 5. Decidability. Satisfiability of $L_\mu$ is EXPTIME-complete, and $L_\mu$ has the finite model property. The decision methods use automata on infinite trees, as in the proof of [[Rabin's tree theorem|PXKKP038RG]].

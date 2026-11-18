@@ -1,0 +1,51 @@
+---
+tag: 1GA9KST2HQ
+kind: example
+name: Commutativity and the Church-Rosser property in product frames
+msc: ["03B45"]
+topics: [SPQVNPZDTB]
+audience: research
+instance_of: [JA2EBWVW8A]
+uses: [JA2EBWVW8A, NGHWZ9Y7ZV]
+sources:
+  - url: https://en.wikipedia.org/wiki/Multimodal_logic
+    locator: Overview
+  - url: https://builds.openlogicproject.org/
+    locator: Modal Logic
+---
+
+## Example
+
+Let $\mathfrak{F}_1 \times \mathfrak{F}_2 = (W_1 \times W_2, R_h, R_v)$ be a [[product frame|JA2EBWVW8A]] of two [[Kripke frames|NGHWZ9Y7ZV]].
+We check that $\square_1 \square_2 p \leftrightarrow \square_2 \square_1 p$ and $\lozenge_1 \square_2 p \to \square_2 \lozenge_1 p$ are valid in it.
+
+1. $R_h$ then $R_v$: $(u, v) R_h (u', v) R_v (u', v')$ holds iff $u R_1 u'$ and $v R_2 v'$.
+2. $R_v$ then $R_h$: $(u, v) R_v (u, v') R_h (u', v')$ holds iff $v R_2 v'$ and $u R_1 u'$.
+3. So $R_h \circ R_v = R_v \circ R_h$. Both $\square_1 \square_2 p$ and $\square_2 \square_1 p$ say that $p$ holds at all points reached by this relation, so they are equivalent.
+4. Now let $(u, v) \models \lozenge_1 \square_2 p$. There is $u'$ with $u R_1 u'$ and $(u', v) \models \square_2 p$.
+5. So $(u', v') \models p$ for every $v'$ with $v R_2 v'$.
+6. Fix such a $v'$. Then $(u, v') R_h (u', v')$, so $(u, v') \models \lozenge_1 p$.
+7. As $v'$ was arbitrary, $(u, v) \models \square_2 \lozenge_1 p$.
+
+## Remarks
+
+Step 6 uses the point $(u', v')$ that completes the square with corners $(u, v)$, $(u', v)$ and $(u, v')$; this is the Church-Rosser property of product frames.
+The two formulas are therefore theorems of every product logic $L_1 \times L_2$, while the fusion $\mathsf{K} \otimes \mathsf{K}$ proves neither.
+For $\mathsf{K} \times \mathsf{K}$ they are the only interaction axioms needed: by the theorem of Gabbay and Shehtman, $\mathsf{K} \times \mathsf{K} = \mathsf{K} \otimes \mathsf{K} \oplus \mathrm{com} \oplus \mathrm{chr}$.
+
+## Explanations
+
+### L1 human
+
+On a grid, a step to the right followed by a step up lands on the same square as a step up followed by a step to the right.
+Also, if one can go right to a column where every step up is safe, then after any step up one can still go right to a safe square.
+
+### L2 human
+
+1. Take the $2 \times 2$ grid of $\set{0, 1} \times \set{0, 1}$ with $0 < 1$ in both coordinates.
+2. Let $p$ be true only at $(1, 1)$.
+3. At $(0, 0)$, $\lozenge_1 \square_2 p$ holds: go to $(1, 0)$, whose only vertical successor is $(1, 1)$.
+4. At $(0, 0)$, $\square_2 \lozenge_1 p$ holds: the only vertical successor is $(0, 1)$, and it sees $(1, 1)$ horizontally.
+
+The typical use of these formulas is to recognize frames that cannot be products.
+A trap: the formulas hold in every product, but frames that validate them need not be products.
