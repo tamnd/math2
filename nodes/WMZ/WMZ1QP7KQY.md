@@ -6,9 +6,9 @@ name: Gärdenfors's triviality theorem
 msc: ["03B42", "03B45"]
 topics: [CQM9SRN8PM]
 audience: research
-uses: [~30b6c328, ZGYG7WN7EC]
-about: [~30b6c328, ZGYG7WN7EC]
-proofs: [~2b5ef213]
+uses: [Y05YQN7HGQ, ZGYG7WN7EC]
+about: [Y05YQN7HGQ, ZGYG7WN7EC]
+proofs: [DQ2XRGXWP9]
 history:
   first_stated: "Gärdenfors, 1986"
   notes: "Gärdenfors proved the theorem in Belief revisions and the Ramsey test for conditionals (Philosophical Review, 1986) and discussed it in Knowledge in Flux (1988)."
@@ -42,7 +42,7 @@ The system is non-trivial when some $K \in \mathcal{K}$ and some formulas $A, B,
 
 No non-trivial belief revision system satisfies conditions 1 to 5.
 
-The proof is in [[the proof of the triviality theorem|~2b5ef213]].
+The proof is in [[the proof of the triviality theorem|DQ2XRGXWP9]].
 
 ## Remarks
 
@@ -56,7 +56,7 @@ The proof is in [[the proof of the triviality theorem|~2b5ef213]].
 
 ### Consequences
 
-1. The AGM postulates imply conditions 1 to 4: vacuity gives preservation, and the AGM consistency postulate gives weak consistency. So [[AGM belief revision|~30b6c328]] cannot be combined with the Ramsey test when conditionals are in the belief sets.
+1. The AGM postulates imply conditions 1 to 4: vacuity gives preservation, and the AGM consistency postulate gives weak consistency. So [[AGM belief revision|Y05YQN7HGQ]] cannot be combined with the Ramsey test when conditionals are in the belief sets.
 2. The Ramsey test makes revision monotone in the belief set: $K \subseteq H$ gives $K * \varphi \subseteq H * \varphi$. The proof shows that this monotonicity, preservation, success and weak consistency cannot all hold in a non-trivial system.
 3. Any epistemic semantics of [[conditional logic|ZGYG7WN7EC]] by the Ramsey test must give up one of the conditions.
 

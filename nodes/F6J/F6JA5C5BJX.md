@@ -46,24 +46,24 @@ This gives model checking in polynomial time, against the PSPACE bound for LTL.
 
 ### Examples
 
-1. On a three-state structure, the states satisfying $EG\,p$ and $AF\,q$ are computed in [[the example|~fa907dc5]].
-2. Response: $AG(\mathit{req} \to AF\,\mathit{grant})$, checked on a small arbiter in [[the response example|~40e155cc]].
-3. Reset: $AG\,EF\,\mathit{init}$. This property is not expressible in LTL, see [[the LTL non-example|~4085e024]].
+1. On a three-state structure, the states satisfying $EG\,p$ and $AF\,q$ are computed in [[the example|AGZB3XVZEX]].
+2. Response: $AG(\mathit{req} \to AF\,\mathit{grant})$, checked on a small arbiter in [[the response example|X1GJ1JS06Y]].
+3. Reset: $AG\,EF\,\mathit{init}$. This property is not expressible in LTL, see [[the LTL non-example|RDRSPX5MM7]].
 4. Possibility: $EF(\mathit{crit}_1 \wedge \mathit{crit}_2)$ says that a mutual exclusion error is reachable. Its negation $AG\neg(\mathit{crit}_1 \wedge \mathit{crit}_2)$ is the safety property.
 
 ### Non-examples
 
-1. The LTL formula $FGp$, read on all paths, is not a CTL formula, and it is not equivalent to $AF\,AG\,p$. See [[the non-example|~51ed6c24]].
-2. $E(Fp \wedge Gq)$ is not a CTL formula, because a path quantifier governs a Boolean combination of path formulas. It belongs to [[CTL*|~2b6e0b85]].
+1. The LTL formula $FGp$, read on all paths, is not a CTL formula, and it is not equivalent to $AF\,AG\,p$. See [[the non-example|NCE59DW7ZA]].
+2. $E(Fp \wedge Gq)$ is not a CTL formula, because a path quantifier governs a Boolean combination of path formulas. It belongs to [[CTL*|Y4XZ94GRXV]].
 
 ### Basic properties
 
 1. Fixpoint laws: $EG\varphi \equiv \varphi \wedge EX\,EG\varphi$ and $E[\varphi \, U \, \psi] \equiv \psi \vee (\varphi \wedge EX\,E[\varphi \, U \, \psi])$.
 2. $[\![ EG\varphi ]\!]$ is the greatest, and $[\![ E[\varphi \, U \, \psi] ]\!]$ the least, [[fixed point|DBD64TH52D]] of the corresponding monotone map on sets of states.
-3. Model checking is done in time $O(\lvert M \rvert \cdot \lvert\varphi\rvert)$, see [[the model checking theorem|~3c680624]].
+3. Model checking is done in time $O(\lvert M \rvert \cdot \lvert\varphi\rvert)$, see [[the model checking theorem|1A990HC0FJ]].
 4. Satisfiability of CTL is EXPTIME-complete, and CTL has the finite model property.
 5. CTL is invariant under bisimulation, and it distinguishes exactly the bisimilar states of finite structures.
-6. Every CTL formula is a [[CTL*|~2b6e0b85]] formula, and CTL is incomparable with [[LTL|RMJ56ZPA63]].
+6. Every CTL formula is a [[CTL*|Y4XZ94GRXV]] formula, and CTL is incomparable with [[LTL|RMJ56ZPA63]].
 
 ### History
 
@@ -105,4 +105,4 @@ A trap: $AF\,p$ fails at $s_0$, because the path $s_0 s_3 s_3 \cdots$ never meet
 Via the fixpoint laws, CTL translates into the alternation-free fragment of the modal [[mu-calculus|MZ0M2KR9S0]].
 Its trade-off shows in complexity: CTL has polynomial model checking and EXPTIME satisfiability.
 LTL has PSPACE model checking and PSPACE satisfiability.
-Fairness constraints, which need $GF$ along paths, require the extension Fair CTL or [[CTL*|~2b6e0b85]].
+Fairness constraints, which need $GF$ along paths, require the extension Fair CTL or [[CTL*|Y4XZ94GRXV]].

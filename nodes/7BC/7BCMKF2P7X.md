@@ -20,7 +20,7 @@ same_as:
 
 A fact is common knowledge in a group when everyone knows it, everyone knows that everyone knows it, and so on without end.
 The philosopher David Lewis described the notion in 1969, and Robert Aumann gave it a precise set-theoretic form in 1976.
-In [[epistemic logic|~8b9604fb]] it is a new operator $C_G$, and $C_G\varphi$ is true at a world when $\varphi$ is true at every world reachable by a chain of steps along the relations of the agents in $G$.
+In [[epistemic logic|EA34W4ERRE]] it is a new operator $C_G$, and $C_G\varphi$ is true at a world when $\varphi$ is true at every world reachable by a chain of steps along the relations of the agents in $G$.
 It is much stronger than the statement that everyone knows the fact.
 Common knowledge of the rules and of rationality is a standing assumption in [[game theory|J8A9GBFSTY]], and results such as [[Aumann's agreement theorem|DA0W4GM6B3]] depend on it.
 
@@ -43,19 +43,19 @@ The logic of common knowledge explains this difference, and it shows that common
 
 ### Examples
 
-1. On a four-world model, reachability decides which facts are common knowledge, see [[the reachability example|~e879254c]].
+1. On a four-world model, reachability decides which facts are common knowledge, see [[the reachability example|365AVYV0MB]].
 2. A partition model where an event is common knowledge because it is a union of blocks of the meet is in [[the definition|RRRHWH9F6Y]].
-3. Two agents can have distributed knowledge of a fact that neither of them knows, see [[the distributed knowledge example|~3fb89a08]].
-4. After the father's announcement in the [[muddy children puzzle|~50cf2aef]], "at least one child is muddy" is common knowledge.
+3. Two agents can have distributed knowledge of a fact that neither of them knows, see [[the distributed knowledge example|2C84ZDGE7K]].
+4. After the father's announcement in the [[muddy children puzzle|BG9TYCJ7HP]], "at least one child is muddy" is common knowledge.
 
 ### Non-examples
 
-1. Messages over an unreliable channel never create common knowledge, however many arrive, see [[the coordinated attack example|~9a1c9a47]].
+1. Messages over an unreliable channel never create common knowledge, however many arrive, see [[the coordinated attack example|8XCDJBWS36]].
 2. Mutual knowledge $E_G\varphi$ is not common knowledge. The partition example in [[the definition|RRRHWH9F6Y]] has $E_G$ without $E_G^2$.
 
 ### Basic properties
 
-By [[the theorem on the axioms of common knowledge|~2e0d432a]]:
+By [[the theorem on the axioms of common knowledge|8K0CMPQXXB]]:
 
 1. Fixed point axiom: $C_G\varphi \leftrightarrow E_G(\varphi \wedge C_G\varphi)$.
 2. Induction rule: from $\psi \to E_G(\varphi \wedge \psi)$ infer $\psi \to C_G\varphi$.

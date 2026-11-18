@@ -51,13 +51,13 @@ A formal logic of value separates the laws that hold for every betterness relati
 
 ### Examples
 
-1. On four worlds over atoms $p, q$ ranked $11 > 10 > 01 > 00$, the formula $p$ is good and $q$ is indifferent on the all-all lifting, although $q$ is good ceteris paribus, see [[a value ranking on four worlds|~179ca374]].
-2. Von Wright's principle of conjunctive expansion, $p \succ q$ iff $(p \wedge \neg q) \succ (\neg p \wedge q)$, holds by definition on the all-all lifting and gives contraposition, see [[von Wright's preference principles|~6048cd3b]].
+1. On four worlds over atoms $p, q$ ranked $11 > 10 > 01 > 00$, the formula $p$ is good and $q$ is indifferent on the all-all lifting, although $q$ is good ceteris paribus, see [[a value ranking on four worlds|Q30PEWXTJ6]].
+2. Von Wright's principle of conjunctive expansion, $p \succ q$ iff $(p \wedge \neg q) \succ (\neg p \wedge q)$, holds by definition on the all-all lifting and gives contraposition, see [[von Wright's preference principles|SX1BBMRE98]].
 3. Under the all-all lifting, $\mathrm{G}p$ and $\mathrm{G}q$ imply $\mathrm{G}(p \wedge q)$.
 
 ### Non-examples
 
-1. A cyclic betterness $p \succ q$, $q \succ r$, $r \succ p$ among three pairwise incompatible outcomes is not the all-all lifting of any preorder of worlds, see [[cyclic betterness|~89be0e6d]].
+1. A cyclic betterness $p \succ q$, $q \succ r$, $r \succ p$ among three pairwise incompatible outcomes is not the all-all lifting of any preorder of worlds, see [[cyclic betterness|92RQC86NTE]].
 2. Probability is not a value: $p$ can be more probable than $q$ while $q$ is better than $p$, and the two orders obey different laws.
 
 ### Basic properties
@@ -73,7 +73,7 @@ A formal logic of value separates the laws that hold for every betterness relati
 Sören Halldén's "On the logic of 'better'" (1957) and Georg Henrik von Wright's The Logic of Preference (1963) began the formal study of betterness and value.
 Von Wright stated the principle of conjunctive expansion and used ceteris paribus comparisons of states of affairs.
 Later work gave possible-worlds semantics for preference and studied the different liftings from worlds to propositions, and dynamic logics of preference change.
-The link with [[deontic logic|~19b899d4]] goes through the reading of "it ought to be that $p$" as "the best worlds are $p$-worlds".
+The link with [[deontic logic|7B74J6J5JV]] goes through the reading of "it ought to be that $p$" as "the best worlds are $p$-worlds".
 
 ### Common errors
 

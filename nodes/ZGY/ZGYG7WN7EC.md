@@ -53,14 +53,14 @@ Ramsey's test gives the same picture for belief: to judge "if $\varphi$ then $\p
 
 ### Examples
 
-1. In a three-world sphere model, $p > q$ is true while $(p \wedge r) > q$ is false. The same model refutes transitivity and contraposition, see [[the failure of strengthening|~cec455a6]].
-2. Conditional excluded middle $(p > q) \vee (p > \neg q)$ is valid for Stalnaker's selection functions and fails in $\mathsf{VC}$, see [[conditional excluded middle|~48e4297a]].
+1. In a three-world sphere model, $p > q$ is true while $(p \wedge r) > q$ is false. The same model refutes transitivity and contraposition, see [[the failure of strengthening|PTQNQF2K3T]].
+2. Conditional excluded middle $(p > q) \vee (p > \neg q)$ is valid for Stalnaker's selection functions and fails in $\mathsf{VC}$, see [[conditional excluded middle|1JJ4GR402Y]].
 3. "If Bizet and Verdi had been compatriots, Bizet would have been Italian" is a classical example, used by Lewis. Neither it nor its "French" twin seems true, which argues against conditional excluded middle.
-4. The Ramsey test for belief sets says that $(\varphi > \psi) \in K$ exactly when $\psi \in K * \varphi$, where $*$ is a revision operator. It links conditional logic with [[AGM belief revision|~30b6c328]].
+4. The Ramsey test for belief sets says that $(\varphi > \psi) \in K$ exactly when $\psi \in K * \varphi$, where $*$ is a revision operator. It links conditional logic with [[AGM belief revision|Y05YQN7HGQ]].
 
 ### Non-examples
 
-1. The strict conditional $\square(\varphi \to \psi)$ is not a variably strict conditional: it obeys strengthening of the antecedent, see [[the strict conditional|~9312723e]].
+1. The strict conditional $\square(\varphi \to \psi)$ is not a variably strict conditional: it obeys strengthening of the antecedent, see [[the strict conditional|5F6H9XXMVN]].
 2. The material conditional $\varphi \to \psi$ is not a counterfactual conditional: $\neg\varphi$ alone makes it true.
 3. A selection function with $f(\varphi, w) = w$ for every $\varphi$ is not a Stalnaker model. It breaks the condition that the selected world satisfies $\varphi$.
 
@@ -69,7 +69,7 @@ Ramsey's test gives the same picture for belief: to judge "if $\varphi$ then $\p
 1. The following principles are valid in all centered sphere models: $\varphi > \varphi$; $(\varphi > \psi) \to (\varphi \to \psi)$; $(\varphi \wedge \psi) \to (\varphi > \psi)$; $((\varphi > \chi) \wedge (\psi > \chi)) \to ((\varphi \vee \psi) > \chi)$.
 2. Rational monotonicity is valid in sphere models: $((\varphi > \psi) \wedge \neg(\varphi > \neg\chi)) \to ((\varphi \wedge \chi) > \psi)$.
 3. If $\vdash \psi \to \chi$ then $\vdash (\varphi > \psi) \to (\varphi > \chi)$, and $(\varphi > \psi) \wedge (\varphi > \chi)$ gives $\varphi > (\psi \wedge \chi)$. So for a fixed antecedent, $\varphi > \cdot$ is a normal box.
-4. Strengthening of the antecedent, transitivity and contraposition all fail, see [[the three-world model|~cec455a6]].
+4. Strengthening of the antecedent, transitivity and contraposition all fail, see [[the three-world model|PTQNQF2K3T]].
 5. Lewis axiomatized $\mathsf{VC}$ and proved completeness for centered sphere models; Stalnaker's $\mathsf{C2}$ is $\mathsf{VC}$ plus conditional excluded middle.
 6. The law $\varphi > \varphi$ and the disjunction law of item 1 are also rules of the preferential consequence relations of Kraus, Lehmann and Magidor in nonmonotonic reasoning.
 
@@ -112,7 +112,7 @@ A trap: a sphere must contain a $p$-world before it decides $p > q$; the smaller
 ### L3 human
 
 Sphere systems are total preorders of worlds, one for each world, and $\varphi > \psi$ says that the minimal $\varphi$-worlds are $\psi$-worlds.
-The same minimal-model semantics appears in Hansson's dyadic [[deontic logic|~19b899d4]], in the preferential models of nonmonotonic logic, and in Grove's spheres for [[AGM belief revision|~30b6c328]].
+The same minimal-model semantics appears in Hansson's dyadic [[deontic logic|7B74J6J5JV]], in the preferential models of nonmonotonic logic, and in Grove's spheres for [[AGM belief revision|Y05YQN7HGQ]].
 Through the Ramsey test, sphere models for one belief state are revision operators, and the [[Gärdenfors triviality theorem|WMZ1QP7KQY]] shows that the test cannot hold for all belief states with conditionals inside them.
 Selection-function semantics is the conditional analogue of neighbourhood semantics, and the minimal conditional logic $\mathsf{CK}$ plays the role of $\mathsf{K}$.
 Counterfactuals are also the base of Lewis's analysis of causation and of causal models in statistics.

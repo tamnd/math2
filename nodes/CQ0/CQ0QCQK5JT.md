@@ -8,7 +8,7 @@ topics: [CQM9SRN8PM]
 audience: research
 uses: [8XB117FKKV, RMJ56ZPA63, 086QKPF0A6, 0FRXBVVR03, 0R3H5PANRQ, 0MWKJ44V5A, 08J2M1JYAG, YW6YGBMVQY]
 about: [8XB117FKKV, RMJ56ZPA63]
-proofs: [~7ebae795]
+proofs: [A8YR3S9FJA]
 sources:
   - url: https://en.wikipedia.org/wiki/Kamp%27s_theorem
     locator: section Formal statement, section Other expressive completeness results
@@ -61,7 +61,7 @@ Conversely, every $\mathrm{TL}(U, S)$ formula is equivalent to an $\mathrm{FOMLO
 
 ### Generalizations
 
-1. Gabbay's separation theorem: over a class of linear orders, expressive completeness of a temporal logic is equivalent to the separation property. Kamp's theorem follows from separation over Dedekind complete orders, see [[the proof|~7ebae795]].
+1. Gabbay's separation theorem: over a class of linear orders, expressive completeness of a temporal logic is equivalent to the separation property. Kamp's theorem follows from separation over Dedekind complete orders, see [[the proof|A8YR3S9FJA]].
 2. Stavi's theorem: with the two Stavi connectives added, the logic is expressively complete over all linear orders.
 3. Metric temporal logic is expressively complete for first-order logic over the reals with order and the functions $t \mapsto t + q$ for rational $q$, by Hunter, Ouaknine and Worrell (2013).
 

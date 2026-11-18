@@ -53,15 +53,15 @@ In computer science the time points are the states of a run of a program, and te
 
 ### Examples
 
-1. On the rational time line $(\mathbb{Q}, <)$ the density formula $Fp \to FFp$ is valid, because between two rationals there is a third, see [[the density example|~5f31066d]].
+1. On the rational time line $(\mathbb{Q}, <)$ the density formula $Fp \to FFp$ is valid, because between two rationals there is a third, see [[the density example|14Z5TDHRV2]].
 2. On the integers $(\mathbb{Z}, <)$ the density formula fails at $0$ when $p$ is true only at $1$, by the same example.
-3. On the integers, "next" is definable as $\bot \, U \, p$, since every point has an immediate successor, see [[since and until on the integers|~b9fb0e05]].
+3. On the integers, "next" is definable as $\bot \, U \, p$, since every point has an immediate successor, see [[since and until on the integers|FJEN3XBRP1]].
 4. The basic tense logic $\mathsf{K}_t$ as a bimodal logic, with the two interaction axioms, is worked in [[future and past in the basic tense logic|KXRMT4R9E8]].
 5. Branching time: a tree of moments with a linear past and a branching future is a frame of $\mathsf{K}_t$ that refutes future linearity. It is the frame of [[computation tree logic|F6JA5C5BJX]].
 
 ### Non-examples
 
-1. A bimodal frame in which the past relation is not the converse of the future relation is not a temporal frame. There the axiom $p \to GPp$ fails, see [[the non-example|~9b11e480]].
+1. A bimodal frame in which the past relation is not the converse of the future relation is not a temporal frame. There the axiom $p \to GPp$ fails, see [[the non-example|ZYJ2VC7S74]].
 2. A model of [[the logic S5|VC3A2VWXND]] with the universal relation is not a frame of linear strict time, since every point sees itself. The irreflexivity of $<$ cannot be expressed by a tense formula, but it changes the logic of $U$ and $S$.
 
 ### Basic properties
@@ -115,5 +115,5 @@ A trap: the density axiom holds on $\mathbb{Q}$ for every valuation, while on $\
 
 A tense frame is a [[multimodal|ERG3KAQWYF]] frame with two relations that are converse to each other, so tense logic is the simplest modal logic with converse.
 The [[standard translation|YW6YGBMVQY]] sends tense formulas into first-order logic over $<$, and Kamp's theorem says that, with $U$ and $S$, the translation is onto the one-variable formulas over complete orders.
-Branching time leads to [[computation tree logic|F6JA5C5BJX]] and [[CTL*|~2b6e0b85]], linear discrete time to [[LTL|RMJ56ZPA63]], and time made of intervals to [[interval temporal logics|~7384f21f]].
+Branching time leads to [[computation tree logic|F6JA5C5BJX]] and [[CTL*|Y4XZ94GRXV]], linear discrete time to [[LTL|RMJ56ZPA63]], and time made of intervals to [[interval temporal logics|991B5RR6X4]].
 Combinations with agents give [[STIT logic|WYY2JXWMYY]] and the temporal-epistemic logics of distributed systems.

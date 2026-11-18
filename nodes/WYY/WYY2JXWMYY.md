@@ -36,7 +36,7 @@ STIT logic matters because it gives a precise semantics for action and responsib
 
 ## Motivation
 
-[[Deontic logic|~19b899d4]] and [[temporal logic|8XB117FKKV]] speak about states of affairs, not about who brings them about.
+[[Deontic logic|7B74J6J5JV]] and [[temporal logic|8XB117FKKV]] speak about states of affairs, not about who brings them about.
 "Jones ought to close the door" is about an action of Jones, and the action matters only if the result was not settled anyway.
 Branching time models the open future: at each moment several histories remain possible.
 An agent cannot choose a single history, but can choose a set of histories, and the other agents choose at the same time.
@@ -54,14 +54,14 @@ The partition picture is the simplest model of this idea.
 
 ### Examples
 
-1. One agent, three histories, two choices: the agent sees to $p$ on the histories of the cell where $p$ holds throughout, see [[one agent at one moment|~3259f64e]].
-2. Two agents each choose one of two options; a result true on only one history is guaranteed by the group but by neither agent alone, see [[two independent agents|~ddc5424a]].
+1. One agent, three histories, two choices: the agent sees to $p$ on the histories of the cell where $p$ holds throughout, see [[one agent at one moment|2S27CNRV3S]].
+2. Two agents each choose one of two options; a result true on only one history is guaranteed by the group but by neither agent alone, see [[two independent agents|PD9NCAT86M]].
 3. A tautology is seen to by every agent in the Chellas sense, since $[i](p \vee \neg p)$ holds. It is never seen to in the deliberative sense, since it is settled.
 4. A result of nature, such as "the sun rises", is settled at every moment, so no agent deliberatively sees to it.
 
 ### Non-examples
 
-1. Two agents whose choices are the same two cells $\set{h_1}, \set{h_2}$, with each agent free to choose either cell, violate independence. The independence axiom then fails, see [[the failure of independence|~52c8bc01]].
+1. Two agents whose choices are the same two cells $\set{h_1}, \set{h_2}$, with each agent free to choose either cell, violate independence. The independence axiom then fails, see [[the failure of independence|114C3WGVJ6]].
 2. A structure with backward branching, where two earlier moments lead to the same moment, is not a STIT frame: histories through a moment must agree on its past.
 3. A choice relation that is not a partition, for example two overlapping cells, is not a STIT choice: the cell $\mathrm{Choice}^m_i(h)$ would not be well defined.
 
@@ -99,7 +99,7 @@ For example, with three possible futures and two options, the option "umbrella" 
 
 ### L2 human
 
-We evaluate formulas on the model of [[one agent at one moment|~3259f64e]].
+We evaluate formulas on the model of [[one agent at one moment|2S27CNRV3S]].
 
 1. $H_m = \set{h_1, h_2, h_3}$, $\mathrm{Choice}^m_i = \set{\set{h_1, h_2}, \set{h_3}}$, and $p$ is true at $m/h_1$ and $m/h_2$ only.
 2. At $m/h_1$, the cell is $\set{h_1, h_2}$, and $p$ holds at both, so $[i]p$ is true.
@@ -114,4 +114,4 @@ A trap: $[i]p$ at $m/h_1$ does not mean that $p$ was in the interest of $i$, onl
 Atemporal STIT models are products of equivalence relations in a constrained form, so STIT logic belongs to the theory of [[multimodal logics|ERG3KAQWYF]] and their combinations.
 For groups of agents the group operators interact through intersections of cells, and the logic becomes much harder; this connects STIT with products of $\mathsf{S5}$.
 The strategic operators of coalition logic and alternating-time temporal logic can be embedded in STIT logics with time, so STIT is a common semantic ground for logics of agency in game theory and in multi-agent systems.
-Deontic STIT logics define "$i$ ought to see to it that $\varphi$" from an ordering of histories, which answers the "ought to do" problem of standard [[deontic logic|~19b899d4]].
+Deontic STIT logics define "$i$ ought to see to it that $\varphi$" from an ordering of histories, which answers the "ought to do" problem of standard [[deontic logic|7B74J6J5JV]].

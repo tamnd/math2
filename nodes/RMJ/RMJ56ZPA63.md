@@ -49,24 +49,24 @@ The operators $X$ and $U$ over $\mathbb{N}$ are exactly as expressive as first-o
 ### Examples
 
 1. Safety: $G \neg(\mathit{crit}_1 \wedge \mathit{crit}_2)$ says that the two processes are never in the critical section together.
-2. Response: $G(\mathit{req} \to F\,\mathit{grant})$, checked on a periodic word in [[the response example|~45a2b4fb]].
-3. Recurrence and persistence: $GF p$ says that $p$ holds infinitely often, and $FG p$ says that $p$ holds from some step on. They differ, see [[the example|~21b2b329]].
+2. Response: $G(\mathit{req} \to F\,\mathit{grant})$, checked on a periodic word in [[the response example|HHE6EGQ6YC]].
+3. Recurrence and persistence: $GF p$ says that $p$ holds infinitely often, and $FG p$ says that $p$ holds from some step on. They differ, see [[the example|NQR665PX9T]].
 4. Precedence: $\neg \mathit{grant} \, W \, \mathit{req}$ says that no grant comes before the first request.
 5. Next: $G(\mathit{req} \to X\,\mathit{ack})$ says that each request is acknowledged at the following step.
 
 ### Non-examples
 
-1. "From every reachable state, a $p$-state can still be reached" ($AG\,EF p$ in [[CTL|F6JA5C5BJX]]) is not an LTL property. Two structures with the same runs disagree on it, see [[the non-example|~4085e024]].
+1. "From every reachable state, a $p$-state can still be reached" ($AG\,EF p$ in [[CTL|F6JA5C5BJX]]) is not an LTL property. Two structures with the same runs disagree on it, see [[the non-example|RDRSPX5MM7]].
 2. "$p$ holds at every even step" is not expressible in LTL. Wolper proved this in 1983; the property is expressible by a Büchi automaton with two states.
 
 ### Basic properties
 
 1. Expansion laws: $\varphi \, U \, \psi \equiv \psi \vee (\varphi \wedge X(\varphi \, U \, \psi))$, $F\varphi \equiv \varphi \vee XF\varphi$ and $G\varphi \equiv \varphi \wedge XG\varphi$.
 2. Duality: $\neg X\varphi \equiv X\neg\varphi$ and $\neg F\varphi \equiv G\neg\varphi$.
-3. Every LTL formula $\varphi$ has a Büchi automaton with at most $2^{O(\lvert\varphi\rvert)}$ states that accepts exactly the words satisfying $\varphi$, see [[the translation theorem|~6369ab54]].
-4. Satisfiability and model checking of LTL are [[PSPACE|T9NTRY93ZT]]-complete, and model checking takes time $\lvert M \rvert \cdot 2^{O(\lvert\varphi\rvert)}$, see [[the complexity theorem|~a0f550e4]].
+3. Every LTL formula $\varphi$ has a Büchi automaton with at most $2^{O(\lvert\varphi\rvert)}$ states that accepts exactly the words satisfying $\varphi$, see [[the translation theorem|BYMYN6GN8E]].
+4. Satisfiability and model checking of LTL are [[PSPACE|T9NTRY93ZT]]-complete, and model checking takes time $\lvert M \rvert \cdot 2^{O(\lvert\varphi\rvert)}$, see [[the complexity theorem|RD9B213GJ5]].
 5. Over $(\mathbb{N}, <)$, LTL with $X$ and $U$ expresses exactly the first-order properties of words, a form of [[Kamp's theorem|CQ0QCQK5JT]].
-6. LTL and [[CTL|F6JA5C5BJX]] have incomparable expressive power, and both are fragments of [[CTL*|~2b6e0b85]].
+6. LTL and [[CTL|F6JA5C5BJX]] have incomparable expressive power, and both are fragments of [[CTL*|Y4XZ94GRXV]].
 
 ### Specification patterns
 
@@ -115,4 +115,4 @@ A trap: a word in which the requests never stop and the grants stop after a whil
 Over $(\mathbb{N}, <)$, LTL defines the same properties of words as first-order formulas with one free variable, by Kamp's theorem in the form of Gabbay, Pnueli, Shelah and Stavi.
 So the languages defined by LTL formulas are exactly the star-free $\omega$-regular languages, while [[Büchi automata|92DM43HQZT]] give all $\omega$-regular languages.
 Fixpoint extensions, such as the linear-time version of the [[mu-calculus|MZ0M2KR9S0]], close this gap.
-Over branching structures, LTL is the path part of [[CTL*|~2b6e0b85]], and satisfiability moves from PSPACE to 2EXPTIME.
+Over branching structures, LTL is the path part of [[CTL*|Y4XZ94GRXV]], and satisfiability moves from PSPACE to 2EXPTIME.

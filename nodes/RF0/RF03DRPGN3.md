@@ -1,0 +1,73 @@
+---
+tag: RF03DRPGN3
+kind: example
+name: Negative introspection fails in an S4.2 model of knowledge
+msc: ["03B42", "03B45"]
+topics: [CQM9SRN8PM]
+audience: grad
+instance_of: [EA34W4ERRE]
+uses: [N60RVXSA5W, VC3A2VWXND, FDFQFWPM4X, JDE7CN1C48, A2JGSWCMT5]
+sources:
+  - url: https://en.wikipedia.org/wiki/Epistemic_modal_logic
+    locator: section The negative introspection axiom, section Axiom systems
+  - url: https://plato.stanford.edu/entries/logic-epistemic/
+    locator: Rendsvig and Symons, Epistemic Logic, Stanford Encyclopedia of Philosophy
+---
+
+## Example
+
+A stopped clock shows noon.
+Let $p$ say "it is noon".
+There are two worlds for one agent.
+In the good world $x$ the clock works and it is noon.
+In the bad world $u$ the clock stopped at noon, and it is now three o'clock.
+At $u$ the agent cannot tell that she is not at $x$, since the clock looks the same.
+At $x$ she reads a working clock, and we let her rule out $u$.
+
+1. Let $W = \set{u, x}$ and $R = \set{(u, u), (u, x), (x, x)}$, with $p$ true at $x$ only.
+2. $R$ is reflexive. It is transitive, since the only composable pairs give $(u, x)$, $(u, u)$ or $(x, x)$ again.
+3. $R$ is directed: any two worlds seen from one world both see $x$. So the frame is a directed preorder.
+4. Directed preorders validate [[S4.2|N60RVXSA5W]], so this is a model of knowledge in the sense of $\mathsf{S4.2}$.
+5. At $x$, the only world seen is $x$, and $p$ holds there. So $Kp$ is true at $x$.
+6. At $u$, the world $u$ is seen and $p$ fails at $u$. So $Kp$ is false at $u$, and $\neg Kp$ is true at $u$.
+7. $K\neg Kp$ at $u$ would need $\neg Kp$ at $x$, since $u R x$. Step 5 gives $Kp$ at $x$. So $K\neg Kp$ is false at $u$.
+8. So the instance $\neg Kp \to K\neg Kp$ of axiom $\mathsf{5}$ is false at $u$.
+
+At $u$ the agent does not know that it is noon, and she does not know that she does not know it.
+
+## Remarks
+
+The frame is not [[Euclidean|JDE7CN1C48]]: $u R u$ and $u R x$ hold, but $x R u$ fails.
+That is the frame condition of axiom $\mathsf{5}$ failing, as in [[the common modal axioms|FDFQFWPM4X]].
+So $\mathsf{5}$ is not a theorem of $\mathsf{S4.2}$, which refines [[the fact that 5 is not a theorem of S4|A2JGSWCMT5]].
+The model is the standard picture against negative introspection: an agent in the bad case mistakes it for the good case.
+In $\mathsf{S5}$ every relation is symmetric, so $x R u$ would hold and the agent would not know $p$ at $x$ either.
+
+## Explanations
+
+### L1 human
+
+You look at a clock that stopped at noon, and you think it is noon.
+You do not know it is noon, because it is not.
+You also do not know that you do not know, because the stopped clock looks just like a working one.
+So "I do not know, and I know I do not know" can fail.
+The logic $\mathsf{S5}$ says it never fails, and this example is the reason many reject $\mathsf{S5}$ for knowledge.
+
+### L2 human
+
+The check of axiom $\mathsf{5}$ at a world $w$ has two parts.
+
+1. Find whether $Kp$ is false at $w$, by looking for a world seen from $w$ without $p$.
+2. If it is, check $\neg Kp$ at every world seen from $w$.
+
+Here part 1 succeeds at $u$ with the witness $u$ itself.
+Part 2 fails at the seen world $x$, where the agent knows $p$.
+The typical use is to show that a model satisfies $\mathsf{S4}$ or $\mathsf{S4.2}$ but not $\mathsf{S5}$.
+A trap: $\neg Kp$ at $u$ holds by the truth axiom alone, since $p$ is false at $u$; the failure comes from the asymmetry between $u$ and $x$.
+
+### L3 human
+
+The model is a two-element directed preorder.
+Philosophically it encodes externalism: the good case rules out the bad case, but not conversely.
+A one-world preorder is an equivalence relation, and so is every two-world preorder except this one up to renaming.
+So no smaller frame separates $\mathsf{S4.2}$ from $\mathsf{S5}$.

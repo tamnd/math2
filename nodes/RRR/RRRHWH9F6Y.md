@@ -6,7 +6,7 @@ msc: [03B42, 91A27]
 topics: [CQM9SRN8PM]
 audience: grad
 defines: 7BCMKF2P7X
-uses: [08QMKTWF9T, ERG3KAQWYF, ~8b9604fb, 05J9NWX07X, 0G8VEZ3WTK, ~2e0d432a]
+uses: [08QMKTWF9T, ERG3KAQWYF, EA34W4ERRE, 05J9NWX07X, 0G8VEZ3WTK, 8K0CMPQXXB]
 sources:
   - url: https://en.wikipedia.org/wiki/Common_knowledge_(logic)
     locator: section Modal logic (syntactic characterization), section Set theoretic (semantic characterization)
@@ -17,7 +17,7 @@ sources:
 ## Definition
 
 Kripke form.
-Let $\mathcal{A}$ be a finite set of agents, and let $M = (W, (R_a)_{a \in \mathcal{A}}, V)$ be a [[multimodal Kripke model|ERG3KAQWYF]] of [[epistemic logic|~8b9604fb]].
+Let $\mathcal{A}$ be a finite set of agents, and let $M = (W, (R_a)_{a \in \mathcal{A}}, V)$ be a [[multimodal Kripke model|ERG3KAQWYF]] of [[epistemic logic|EA34W4ERRE]].
 Let $G \subseteq \mathcal{A}$ be a nonempty group.
 Define $E_G\varphi = \bigwedge_{a \in G} K_a\varphi$, $E_G^1\varphi = E_G\varphi$ and $E_G^{k+1}\varphi = E_G E_G^k\varphi$.
 Add to the language an operator $C_G$ for each group, with the clause
@@ -48,7 +48,7 @@ Then $K_i(E)$ is the truth set of $K_i$ applied to it.
 Each $E_G^m\varphi$ is equivalent to the conjunction of all $K_{i_1} \cdots K_{i_m}\varphi$ with $i_1, \dots, i_m \in G$, since each $K_i$ commutes with conjunction.
 So both forms ask for every finite string of knowledge operators.
 
-By [[the theorem on common knowledge|~2e0d432a]], $C_G\varphi$ holds at $w$ iff $\varphi$ holds at every world reachable from $w$ in one or more steps along $\bigcup_{a \in G} R_a$.
+By [[the theorem on common knowledge|8K0CMPQXXB]], $C_G\varphi$ holds at $w$ iff $\varphi$ holds at every world reachable from $w$ in one or more steps along $\bigcup_{a \in G} R_a$.
 This is the [[transitive closure|05J9NWX07X]] of the union.
 
 Let the *meet* $\mathcal{M}$ be the finest partition of $\Omega$ that is coarser than every $\mathcal{P}_i$, and let $\mathcal{M}(\omega)$ be its block containing $\omega$.
@@ -89,4 +89,4 @@ A trap: $K_i(E)$ is a union of blocks of $\mathcal{P}_i$, so it can be much smal
 
 The partition form is Aumann's, and the Kripke form is the one used in logic and computer science.
 In the Kripke form the relations need not be equivalence relations, so the definition also covers common belief.
-The definition is an infinite conjunction, but the fixed point axiom and induction rule of [[the theorem|~2e0d432a]] axiomatize it with finitely many schemes.
+The definition is an infinite conjunction, but the fixed point axiom and induction rule of [[the theorem|8K0CMPQXXB]] axiomatize it with finitely many schemes.

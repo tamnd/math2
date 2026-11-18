@@ -6,7 +6,7 @@ msc: ["03B42", "03B45"]
 topics: [CQM9SRN8PM]
 audience: grad
 specializes: [ERG3KAQWYF]
-uses: [C3RZY20ETK, ~8b9604fb, 1CFMP9DEE6, JDE7CN1C48, FDFQFWPM4X, D1TJYZZDCY, 1P2B0C7CQ4]
+uses: [C3RZY20ETK, EA34W4ERRE, 1CFMP9DEE6, JDE7CN1C48, FDFQFWPM4X, D1TJYZZDCY, 1P2B0C7CQ4]
 sources:
   - url: https://en.wikipedia.org/wiki/Doxastic_logic
     locator: lead section, section Types of reasoners
@@ -32,7 +32,7 @@ Doxastic logic is a branch of [[modal logic|C3RZY20ETK]] that deals with the log
 It has a box $B_a$ for each agent, and $B_a\varphi$ reads "agent $a$ believes that $\varphi$".
 The standard system is $\mathsf{KD45}$, the logic of serial, transitive and Euclidean frames, by [[the completeness of KD45|1CFMP9DEE6]].
 Its axioms say that beliefs are consistent and that the agent knows what she believes and what she does not believe.
-Unlike knowledge in [[epistemic logic|~8b9604fb]], belief may be false, so the truth axiom $B\varphi \to \varphi$ is dropped.
+Unlike knowledge in [[epistemic logic|EA34W4ERRE]], belief may be false, so the truth axiom $B\varphi \to \varphi$ is dropped.
 Doxastic logic matters because it separates what an agent takes to be true from what is true, which is needed for belief revision, games and deception.
 
 ## Motivation
@@ -54,13 +54,13 @@ In a Kripke model, $B_a\varphi$ at $w$ says that $\varphi$ holds in all worlds t
 
 ### Examples
 
-1. "It is raining, but I do not believe that it is raining" is consistent, but no $\mathsf{KD45}$ agent can believe it, by [[the Moore sentence theorem|~fadab0bc]]. The model is in [[Moore's paradox in KD45|~bf93db5c]].
-2. In $\mathsf{KD45}$, believing that one believes is the same as believing, see [[the collapse of iterated belief|~71039b6a]].
-3. A $\mathsf{KD45}$ model in which the agent holds a false belief is [[the train timetable example|~1fa3a926]].
+1. "It is raining, but I do not believe that it is raining" is consistent, but no $\mathsf{KD45}$ agent can believe it, by [[the Moore sentence theorem|TCAYVAVAK4]]. The model is in [[Moore's paradox in KD45|3KA7N0BEB7]].
+2. In $\mathsf{KD45}$, believing that one believes is the same as believing, see [[the collapse of iterated belief|G7HAS0P39P]].
+3. A $\mathsf{KD45}$ model in which the agent holds a false belief is [[the train timetable example|DX4BZJ272P]].
 
 ### Non-examples
 
-1. In the logic $\mathsf{K}$ a world without successors believes $\bot$, so $\mathsf{K}$ alone is not a logic of rational belief, see [[the dead-end world|~44f73073]].
+1. In the logic $\mathsf{K}$ a world without successors believes $\bot$, so $\mathsf{K}$ alone is not a logic of rational belief, see [[the dead-end world|75JR35MPWD]].
 2. A model of [[S5|VC3A2VWXND]] is a model of knowledge. Read as belief it is too strong, since then every belief is true.
 
 ### Basic properties
@@ -110,5 +110,5 @@ A trap: seriality is about the agent's own world too; one dead-end world is enou
 ### L3 human
 
 $\mathsf{KD45}$ and $\mathsf{S5}$ differ by reflexivity, and belief is often modelled as knowledge "relative to the cluster".
-Plausibility models refine $\mathsf{KD45}$ with an ordering of worlds, and support belief revision in [[dynamic epistemic logic|~0c910f5d]].
+Plausibility models refine $\mathsf{KD45}$ with an ordering of worlds, and support belief revision in [[dynamic epistemic logic|9465T2PWZT]].
 Stalnaker argued in 2006 that natural bridge axioms between knowledge and belief force knowledge to be $\mathsf{S4.2}$ and belief to be definable from it.
