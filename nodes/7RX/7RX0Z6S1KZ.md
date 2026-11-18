@@ -1,0 +1,80 @@
+---
+tag: 7RX0Z6S1KZ
+kind: statement
+role: lemma
+name: Restriction lemma for resolution
+msc: ["03F20"]
+topics: [CBAF7J051K]
+audience: research
+uses: [6JSH907W5R, T3SXVH3ZZC]
+about: [6JSH907W5R]
+proofs: [Z6Z1RV7D68]
+sources:
+  - url: https://en.wikipedia.org/wiki/Resolution_(logic)
+    locator: Resolution in propositional logic
+---
+
+## Statement
+
+Let $F$ be a CNF and $\rho$ a partial assignment to its variables.
+For a [[clause|T3SXVH3ZZC]] $C$, write $C|_\rho = 1$ if $\rho$ makes some literal of $C$ true.
+Otherwise $C|_\rho$ is $C$ with the literals made false by $\rho$ removed.
+Let $F|_\rho$ be the set of the clauses $C|_\rho$ for $C \in F$ with $C|_\rho \ne 1$.
+
+Let $\pi = (C_1, \dots, C_s)$ be a [[resolution derivation|6JSH907W5R]] from $F$.
+Then there is a resolution derivation $\pi'$ from $F|_\rho$ with these properties.
+
+1. For each $i$ with $C_i|_\rho \ne 1$, the derivation $\pi'$ contains a clause $D_i \subseteq C_i|_\rho$.
+2. Every clause of $\pi'$ is one of these $D_i$. So $\pi'$ has at most $s$ clauses, and its width is at most the width of $\pi$.
+3. If $\pi$ is tree-like, then $\pi'$ is tree-like.
+
+In particular, if $\pi$ is a refutation of $F$, then $\pi'$ is a refutation of $F|_\rho$, of size at most $S(\pi)$ and width at most $w(\pi)$.
+The measures are size in clauses and width.
+
+## Remarks
+
+### Why each hypothesis is needed
+
+- The clauses $C_i$ with $C_i|_\rho = 1$ must be dropped. They are true under $\rho$, and they have no counterpart in $F|_\rho$.
+- The conclusion gives a subclause $D_i$, not $C_i|_\rho$ itself. When the pivot of a step is set by $\rho$, the restricted step is not a resolution step, and one premise is kept instead.
+
+### Consequences
+
+- $S(F|_\rho \vdash \square) \le S(F \vdash \square)$, $S_T(F|_\rho \vdash \square) \le S_T(F \vdash \square)$ and $w(F|_\rho \vdash \square) \le w(F \vdash \square)$.
+- A random restriction that sets every "large" clause to $1$ turns a small refutation of $F$ into a refutation of $F|_\rho$ without large clauses. This is the plan of the proof of [[Haken's theorem|4PCEYEW3JG]] and of the [[size-width relation|GWDGRPAQSM]].
+
+### Converse
+
+A refutation of $F|_\rho$ does not give a refutation of $F$ of the same size.
+It gives a derivation from $F$ of a clause made false by $\rho$ only, by adding back the removed literals; this is the first step of the [[width lemma|9BVKW1XJZK]].
+
+### Generalizations
+
+The same proof works for derivations of any clause, not only refutations.
+Analogous restriction lemmas hold for [[bounded-depth Frege|41QJ1WEMJ3]], [[cutting planes|KKCX2HQP2K]] and [[algebraic proof systems|ZERBQSTZB5]].
+
+## History
+
+The lemma is folklore in the study of resolution, and it is used in the lower bound proofs of Haken, of Beame and Pitassi, and of Ben-Sasson and Wigderson.
+
+## Explanations
+
+### L1 human
+
+If some variables of a contradictory set of clauses are fixed, the remaining clauses are still contradictory.
+The lemma says that a proof of the original contradiction can be cut down to a proof of the new one, and it does not get longer.
+For example, setting $p = 1$ in the refutation of $\set{p}, \set{\neg p, q}, \set{\neg q}$ leaves a refutation of $\set{q}, \set{\neg q}$.
+
+### L2 human
+
+We restrict the refutation $\set{p}$, $\set{\neg p, q}$, $\set{q}$, $\set{\neg q}$, $\square$ by $\rho = \set{p = 1}$.
+
+1. $\set{p}|_\rho = 1$, so it is dropped.
+2. $\set{\neg p, q}|_\rho = \set{q}$, an axiom of $F|_\rho$.
+3. $\set{q}$ came from resolving on $p$, which $\rho$ sets. The premise $\set{\neg p, q}$ is not true under $\rho$, so its clause $\set{q}$ is kept.
+4. $\set{\neg q}|_\rho = \set{\neg q}$.
+5. $\square$ is the resolvent of $\set{q}$ and $\set{\neg q}$.
+
+The restricted refutation has $3$ clauses, against $5$ before.
+The typical use is with a random $\rho$ in a lower bound proof.
+A trap: the restricted clause may be smaller than $C_i|_\rho$, so the lemma gives only "$\subseteq$".

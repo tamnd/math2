@@ -1,0 +1,56 @@
+---
+tag: N95EDP0DFS
+kind: example
+name: Substitution instances of a fixed proof have bounded depth
+msc: ["03F20"]
+topics: [CBAF7J051K]
+audience: research
+instance_of: [41QJ1WEMJ3]
+uses: [41QJ1WEMJ3, J2BAR09TPF, NCDZ969V7X]
+sources:
+  - url: https://en.wikipedia.org/wiki/Proof_complexity
+    locator: Lower bounds
+---
+
+## Example
+
+Fix a [[Frege system|J2BAR09TPF]] $\mathcal F$ over $\neg, \land, \lor$, and a fixed $\mathcal F$-proof $\pi$ of $p \lor \neg p$.
+Let $c$ be the largest depth of a line of $\pi$, and let $\ell$ be its number of lines.
+For $n \ge 1$, let $\varphi_n = x_1 \land x_2 \land \cdots \land x_n$, a formula of depth $1$.
+
+1. Apply the [[substitution|NCDZ969V7X]] $p \mapsto \varphi_n$ to every line of $\pi$. The result $\pi_n$ is an $\mathcal F$-proof of $\varphi_n \lor \neg \varphi_n$.
+2. $\pi_n$ has $\ell$ lines, the same number for every $n$.
+3. Each line of $\pi_n$ is a line of $\pi$ with $\varphi_n$ in place of $p$. The depth grows by at most the depth of $\varphi_n$ plus one, since a gate above $p$ may need a new level: so every line of $\pi_n$ has depth at most $c + 2$.
+4. Each line of $\pi_n$ has size at most $2n$ times the size of the line of $\pi$. So $\pi_n$ has size $O(n)$.
+
+So $(\pi_n)$ is a [[bounded-depth Frege|41QJ1WEMJ3]] family of depth $c + 2$ and linear size.
+
+*Depth of the conclusion.* By De Morgan's laws, $\neg \varphi_n$ is $\neg x_1 \lor \cdots \lor \neg x_n$, of depth $1$.
+So $\varphi_n \lor \neg \varphi_n$ is $(x_1 \land \cdots \land x_n) \lor \neg x_1 \lor \cdots \lor \neg x_n$, an $\lor$-gate over one $\land$-gate and $n$ literals, of depth $2$.
+
+## Remarks
+
+The same argument works for every fixed proof and every substitution by formulas of bounded depth.
+So every family of substitution instances of one fixed proof, by formulas of bounded depth, is a bounded-depth family.
+The hard tautologies for bounded-depth Frege, such as the pigeonhole formulas, are not of this kind: they form a family in which the number of variables grows, and no fixed proof covers them.
+
+## Explanations
+
+### L1 human
+
+A short proof that "$p$ or not $p$" stays short when $p$ is replaced by a longer formula.
+If the formula has small depth, the proof also keeps a small depth.
+For example, with $p$ replaced by "$x_1$ and $x_2$ and $x_3$", the proof has the same number of lines and depth at most $2$ more.
+
+### L2 human
+
+We compute the depth of one substituted line.
+
+1. Suppose $\pi$ contains the line $\neg p \lor (p \land q)$, of depth $2$.
+2. Replace $p$ by $\varphi_n$. The new line is $\neg \varphi_n \lor (\varphi_n \land q)$.
+3. $\neg \varphi_n$ is the disjunction $\neg x_1 \lor \cdots \lor \neg x_n$, which merges with the outer $\lor$.
+4. $\varphi_n \land q$ is the conjunction $x_1 \land \cdots \land x_n \land q$, which merges with the inner $\land$.
+5. So the new line has depth $2$.
+
+Here the depth does not grow at all, because the blocks merge.
+The typical use of the example is to show that the depth bound is a property of a family, measured uniformly in $n$.
