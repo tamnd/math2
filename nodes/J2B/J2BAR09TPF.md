@@ -1,0 +1,107 @@
+---
+tag: J2BAR09TPF
+kind: definition
+defines: 1MGMQX43B8
+name: Frege system
+aliases: [frege-proof-system]
+msc: ["03F20", "03B05"]
+topics: [CBAF7J051K]
+audience: research
+uses: [3V24CYWDT6, ET1HPME8VV, TDZVCWYJ9F, 1HK0VYWTV7, NCDZ969V7X]
+sources:
+  - url: https://en.wikipedia.org/wiki/Frege_system
+    locator: lead section
+  - url: https://en.wikipedia.org/wiki/Proof_complexity
+    locator: Proof systems
+---
+
+## Definition
+
+Let $K$ be a finite set of connectives that is [[functionally complete|TDZVCWYJ9F]], for example $K = \set{\neg, \land, \lor, \to}$.
+Formulas are the propositional formulas over $K$, and $\models$ is [[logical consequence|1HK0VYWTV7]].
+
+1. A *Frege rule* is a pair written $\dfrac{\varphi_1 \;\cdots\; \varphi_k}{\psi}$, where $k \ge 0$ and $\varphi_1, \dots, \varphi_k, \psi$ are formulas over $K$. A rule with $k = 0$ is an *axiom schema*.
+2. An *instance* of the rule is the result $\dfrac{\varphi_1\sigma \;\cdots\; \varphi_k\sigma}{\psi\sigma}$ of one [[substitution|NCDZ969V7X]] $\sigma$ of formulas for the variables, applied to all $k + 1$ formulas at once.
+3. A rule is *sound* if $\varphi_1, \dots, \varphi_k \models \psi$.
+4. A *Frege system* $\mathcal F$ is a finite set of sound Frege rules over $K$ that is *implicationally complete*: whenever $\psi_1, \dots, \psi_m \models \chi$, there is an $\mathcal F$-derivation of $\chi$ from $\psi_1, \dots, \psi_m$.
+5. An *$\mathcal F$-derivation* of $\chi$ from hypotheses $\Gamma$ is a finite sequence of formulas $\chi_1, \dots, \chi_m = \chi$. Each $\chi_i$ is in $\Gamma$, or it is the conclusion of an instance of a rule whose premises are among $\chi_1, \dots, \chi_{i-1}$. An *$\mathcal F$-proof* is a derivation from $\Gamma = \emptyset$.
+
+Two measures of a proof are used.
+
+- The *number of lines* of the proof is $m$.
+- The *size* of the proof is the total number of symbols $\abs{\chi_1} + \cdots + \abs{\chi_m}$.
+
+A Frege system gives a [[propositional proof system|3V24CYWDT6]] in the sense of Cook and Reckhow.
+The function sends a correct $\mathcal F$-proof to its last formula and every other string to a fixed tautology.
+Checking a proof takes polynomial time, since each rule is fixed and the test for an instance is a pattern match.
+
+## Notation
+
+Writers use $\mathcal F$, $F$ or $\mathbf{F}$ for a Frege system, and write $\mathcal F \vdash \tau$.
+The least size of an $\mathcal F$-proof of $\tau$ is $s_{\mathcal F}(\tau)$, and the least number of lines is $k_{\mathcal F}(\tau)$.
+In proof theory the same systems are called *Hilbert systems* or Hilbert-style systems; the name "Frege system" is the usage of proof complexity.
+
+## Remarks
+
+### Examples
+
+- The [[Hilbert system L|BDAZGNZBJ5]], with axiom schemas A1 to A3 and modus ponens over $\set{\neg, \to}$, is a Frege system.
+- The [[proof of $p \to p$ in L|72XT4SG3VZ]] has $5$ lines, and its size is computed in that example.
+- Any finite set of sound schemas that contains modus ponens and proves every tautology is implicationally complete, by the argument of the first example. So it is a Frege system.
+
+### Non-examples
+
+- [[Resolution is not a Frege system|ZE7RCEAVND]]: its lines are clauses only, and it is not implicationally complete for formulas.
+- Frege's own calculus of 1879 states its axioms as single formulas with a separate substitution rule, not as schemas, so it is not a Frege system in the sense above. It becomes one when the axioms are read as schemas.
+- A system with the rule "from $\varphi \to \psi$ and $\psi$ infer $\varphi$" is not sound, so it is not a Frege system; see the [[example of an unsound proof system|5WQDFMR91G]].
+
+### Basic properties
+
+- *Reckhow's theorem.* Any two Frege systems p-simulate each other, even with different sets of connectives. The proof for one set of connectives is in [[Reckhow's theorem on Frege systems|YAHHWZ7XRH]].
+- The propositional sequent calculus LK with cut, and natural deduction, are p-equivalent to Frege systems.
+- Cut-free LK is much weaker: see the [[complexity of cut elimination|B5F5HB4YK7]] and the [[cut-elimination theorem|AYRZ98Y0NW]] of the sequent calculus.
+- [[Extended Frege|5YSE04SHFH]] adds abbreviations, and it p-simulates every Frege system.
+- Frege systems prove the [[pigeonhole formulas|RJ571F7FF0]] in polynomial size, by [[Buss's theorem|VRX23FZV21]]. So they are exponentially stronger than [[resolution|6JSH907W5R]] and [[bounded-depth Frege|41QJ1WEMJ3]].
+- No superpolynomial lower bound for Frege systems is known; see [[lower bounds for Frege systems|ANSV13M4FS]].
+
+### History
+
+Cook and Reckhow named and defined Frege systems in their work of 1974 and 1979.
+Reckhow proved in his 1976 thesis that all Frege systems are p-equivalent, and the result appeared in the 1979 paper of Cook and Reckhow.
+The name honours Gottlob Frege, whose Begriffsschrift of 1879 gave the first such calculus.
+
+### Common errors
+
+- Implicational completeness is stronger than the condition "every tautology is provable". The simulation of one system by another needs the stronger condition, since it derives conclusions from hypotheses.
+- The number of lines and the size are different measures. A proof with few lines can have very long lines.
+- The substitution in a rule instance is applied to the whole rule at once. Substituting different formulas for the same variable in different premises is not allowed.
+
+## Explanations
+
+### L1 human
+
+A Frege system is the kind of proof system found in a first logic course.
+It has a few axiom patterns and rules such as "from $A$ and $A \to B$, conclude $B$".
+A proof is a list of formulas, each an axiom or the result of a rule.
+Proof complexity counts how many lines, or how many symbols, the shortest such list needs.
+For example, the formula $p \to p$ needs a proof of $5$ lines in the usual system of three axioms with modus ponens.
+
+### L2 human
+
+We check that modus ponens is a sound Frege rule and compute an instance.
+
+1. The rule is $\dfrac{p \quad p \to q}{q}$, with $k = 2$.
+2. Soundness: an assignment that makes $p$ and $p \to q$ true makes $q$ true, by the truth table of $\to$. So $p, p \to q \models q$.
+3. Take the substitution $\sigma(p) = r \land s$ and $\sigma(q) = \neg r$.
+4. The instance is $\dfrac{r \land s \quad (r \land s) \to \neg r}{\neg r}$.
+5. Size: the premises have $3$ and $6$ symbols when parentheses are not counted, and the conclusion has $2$ symbols.
+
+The typical use is to fix one Frege system and measure tautologies in it; by Reckhow's theorem, the choice changes the sizes by at most a polynomial.
+A trap: the same variable must receive the same formula everywhere in the rule.
+
+### L3 human
+
+Frege systems are the propositional systems of ordinary mathematical reasoning with formulas, and they sit in the middle of the hierarchy of proof systems.
+Their lines are Boolean formulas, so they correspond to the circuit class $\mathrm{NC}^1$, as resolution corresponds to clauses and [[extended Frege|5YSE04SHFH]] to circuits.
+Restricting the depth of the lines gives [[bounded-depth Frege|41QJ1WEMJ3]], which corresponds to $\mathrm{AC}^0$.
+In [[bounded arithmetic|RA380RWEC0]], Frege systems correspond to theories whose reasoning is in $\mathrm{NC}^1$, such as the theory $\mathrm{VNC}^1$ of Cook and Nguyen.

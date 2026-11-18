@@ -1,0 +1,74 @@
+---
+tag: ANSV13M4FS
+kind: problem
+name: Lower bounds for Frege systems
+msc: ["03F20", "68Q17"]
+topics: [CBAF7J051K]
+audience: research
+uses: [J2BAR09TPF, 5YSE04SHFH, 3V24CYWDT6, YS1T29B00B]
+sources:
+  - url: https://en.wikipedia.org/wiki/Frege_system
+    locator: lead section
+  - url: https://en.wikipedia.org/wiki/Proof_complexity
+    locator: Lower bounds
+history:
+  posed_by: "Stephen Cook and Robert Reckhow"
+  first_stated: "1979"
+  notes: "Cook and Reckhow, The relative efficiency of propositional proof systems, Journal of Symbolic Logic, 1979."
+---
+
+## Problem
+
+Fix a [[Frege system|J2BAR09TPF]] $\mathcal F$.
+Is there a sequence of tautologies $\tau_1, \tau_2, \dots$ with $\abs{\tau_n} \to \infty$ such that the least size $s_{\mathcal F}(\tau_n)$ of an $\mathcal F$-proof of $\tau_n$ is not bounded by any polynomial in $\abs{\tau_n}$?
+
+The problem is open.
+The same question for [[extended Frege|5YSE04SHFH]] is also open.
+By [[Reckhow's theorem|YAHHWZ7XRH]], the answer does not depend on the choice of $\mathcal F$.
+The measure is size, the number of symbols of a proof.
+
+## Remarks
+
+### Known bounds
+
+- The best known lower bounds on the size of Frege proofs are quadratic in the size of the tautology.
+- No lower bound on the number of lines that is superlinear in the size of the tautology is known.
+- For [[bounded-depth Frege|41QJ1WEMJ3]] of each fixed depth, exponential lower bounds are known, for example [[Ajtai's theorem|Q0ERK64J78]] on the pigeonhole formulas. These bounds become weaker as the depth grows, and they give nothing for Frege systems, whose lines have unbounded depth.
+
+### Why the problem is hard
+
+- *Hard examples for weaker systems are easy for Frege.* The [[pigeonhole formulas|RJ571F7FF0]] are hard for resolution and for bounded-depth Frege, but they have polynomial-size Frege proofs by [[Buss's theorem|VRX23FZV21]]. The [[Tseitin formulas|JXTCC6KXNG]] are hard for resolution, but Frege proves them in polynomial size by counting modulo $2$.
+- *The interpolation method fails.* Lower bounds for resolution and [[cutting planes|KKCX2HQP2K]] come from [[feasible interpolation|59GJCM8C66]]. Bonet, Pitassi and Raz showed in 2000 that $\mathrm{TC}^0$-Frege has no feasible interpolation unless the Diffie-Hellman key exchange is insecure. Frege systems p-simulate $\mathrm{TC}^0$-Frege, so the same holds for Frege systems. Krajíček and Pudlák showed the same for EF under the assumption that RSA is secure.
+- *Circuit lower bounds are behind.* The lines of a Frege proof are formulas, and no superpolynomial lower bound for general Boolean formulas computing an explicit function in NP is known. The successful lower bounds for weaker systems use lower bounds for the corresponding weak circuit classes.
+
+### Consequences of a solution
+
+- A superpolynomial lower bound for Frege systems would not prove $\mathrm{NP} \ne \mathrm{coNP}$. By the [[Cook-Reckhow theorem|YS1T29B00B]], that needs a lower bound for every proof system.
+- It would show that Frege systems do not p-simulate every proof system.
+
+## History
+
+Cook and Reckhow posed the question in their 1979 paper, as part of the program of lower bounds for ever stronger proof systems.
+Their paper also gave polynomial-size EF-proofs of the pigeonhole formulas, and asked whether Frege systems have them.
+Buss answered that question positively in 1987.
+The general problem has been open since 1979.
+
+## Explanations
+
+### L1 human
+
+Frege systems are the ordinary proof systems of logic textbooks.
+No one knows a family of tautologies that needs very long proofs in them.
+Every candidate tried so far, such as the pigeonhole principle for $n + 1$ pigeons and $n$ holes, turned out to have proofs of moderate length.
+
+### L2 human
+
+We check why an exponential lower bound for depth-$d$ Frege does not settle the problem.
+
+1. Ajtai's theorem and its exponential version say that depth-$d$ Frege proofs of the pigeonhole formula $\mathrm{PHP}_n$ need size $2^{n^{\varepsilon_d}}$, with $\varepsilon_d > 0$ depending on $d$.
+2. A Frege proof of $\mathrm{PHP}_n$ of polynomial size exists by Buss's theorem.
+3. Its lines have depth that grows with $n$.
+4. So the depth-$d$ bound does not apply to it, for any fixed $d$.
+
+The typical use of the problem is as a benchmark: each new method is tested on whether it could reach Frege systems.
+A trap: a lower bound on the number of lines and a lower bound on the size are different statements.

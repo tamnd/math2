@@ -1,0 +1,103 @@
+# The areas of Math 2.0, in the order of the area plan. The Areas page shows them in this order.
+# Each entry is the tag of the area topic, with its plan code and name as a comment.
+areas:
+  - SGSVYFDSYK # A01 Reasoning and proof
+  - DYJ0KGTPMR # A02 Mathematical logic
+  - F3AXVABC35 # A03 Model theory
+  - G9W9J6KPAR # A04 Set theory
+  - ZNC3817RA6 # A05 Computability theory
+  - K6P3NSQEZ3 # A06 Type theory and constructive mathematics
+  - Y97P9CSMEN # A07 Category theory
+  - 7V49498ENC # B08 Numbers and arithmetic
+  - DPW5ETDQ27 # B09 Elementary algebra and functions
+  - V1VVQR12AQ # C10 Order, lattices and universal algebra
+  - W9RZSPR6CP # C11 Group theory
+  - 8ER1DMV2ED # C12 Geometric and combinatorial group theory
+  - GN8GYSDZFX # C13 Linear algebra
+  - WMBK7M313V # C14 Matrix theory and multilinear algebra
+  - G7N6BDTEZ2 # C15 Rings and modules
+  - KKBKTW8YB8 # C16 Commutative algebra
+  - 1YHYZ4578V # C17 Fields and Galois theory
+  - K80DB44C78 # C18 Lie theory and topological groups
+  - S60Z63NM98 # C19 Representation theory
+  - 43C9KPSDFS # C20 Homological algebra and K-theory
+  - 7XZ94HTPQT # D21 Elementary number theory
+  - FM3WJEEPWE # D22 Analytic number theory
+  - K2X7Y1JWJH # D23 Algebraic number theory
+  - 73BKSN9KXY # D24 Arithmetic geometry
+  - WWQWPSF9Q4 # D25 Automorphic forms and the Langlands program
+  - 525PVDPZDA # D26 Additive and combinatorial number theory
+  - YB905F2AQG # D27 Diophantine approximation and geometry of numbers
+  - FRSTEPZPCY # E28 Enumerative combinatorics
+  - QWD733WPW3 # E29 Algebraic combinatorics
+  - K5E8H8502Q # E30 Extremal and probabilistic combinatorics
+  - BB1AP3D7RH # E31 Designs, matroids and finite geometries
+  - BCQTYD70W4 # E32 Graph theory
+  - D1SR8GDYJX # F33 Euclidean geometry
+  - T4D5BP6ND1 # F34 Classical geometries
+  - SKBWD5C2ZG # F35 Convex and discrete geometry
+  - T9C2QAKVAS # F36 Differential geometry
+  - GCM6JEMJDW # F37 Symplectic, contact and Poisson geometry
+  - JKKR0GEPSM # F38 Algebraic geometry
+  - KQDN88DWG4 # F39 Complex geometry and several complex variables
+  - DQ77PZJBHV # G40 General topology
+  - DJK30N0ZNB # G41 Algebraic topology
+  - PGHYV9X502 # G42 Homotopy theory
+  - 15PK587CVP # G43 Manifolds and differential topology
+  - P9PPWXE9DJ # G44 Low-dimensional topology and knot theory
+  - S5M5GNQ7P1 # G45 Global analysis and geometric analysis
+  - RX2DPD6V6M # H46 Calculus
+  - 6YG4SENPQ0 # H47 Real analysis
+  - GRD8M8K6WE # H48 Inequalities
+  - GEEG5C9KSQ # H49 Sequences, series and summability
+  - Z14J67DKY9 # H50 Measure and integration
+  - 28T3Z4VEHH # H51 Complex analysis
+  - D7AKW7NS3E # H52 Special functions
+  - 4VR0XYQ63R # H53 Integral transforms and asymptotic methods
+  - AF5EGXSVZT # H54 Approximation theory
+  - HXYCB3TG7B # H55 Harmonic analysis
+  - AFJZYWP3WQ # H56 Functional analysis
+  - A1KM3GBVED # H57 Operator theory
+  - Q1CY5TTNK5 # H58 Operator algebras and noncommutative geometry
+  - QRXP7F1GC1 # H59 Potential theory
+  - NH8MS24FQ5 # H60 Ordinary differential equations
+  - 2D684V8321 # H61 Partial differential equations
+  - WCNCV98C8R # H62 Dynamical systems
+  - QBYQ9X4Q4W # H63 Ergodic theory
+  - BXZM8456T1 # H64 Functional, difference and integral equations
+  - 786513ZYWY # H65 Calculus of variations and optimal control
+  - XRDTGVD5AA # I66 Probability theory
+  - AXA2Y52BQS # I67 Stochastic processes
+  - QXWGJSJR1E # I68 Stochastic analysis
+  - ZY9YSCMTHE # I69 Random structures and probabilistic models
+  - MX0HW4AT6J # I70 Statistical inference
+  - 5B1CM9M8FW # I71 Statistical models and methods
+  - 8R8SWN4TAB # I72 Information theory
+  - 837Z0J5B3K # I73 Mathematics of machine learning
+  - FJEK0GMJ2J # J74 Numerical analysis
+  - 269FQ9Z498 # J75 Numerical methods for differential equations
+  - BZZ0NSJTFB # J76 Optimization
+  - ZAQRA5XTG1 # J77 Operations research
+  - PAPJ487YHB # J78 Game theory
+  - D7CC1S998N # J79 Mathematical economics and social sciences
+  - 8K1BEXG3N8 # J80 Mathematical finance and insurance
+  - 5T1K3KMHA0 # J81 Control and systems theory
+  - J343A6XM3Y # J82 Coding theory
+  - BR222BKW7C # J83 Mathematical cryptography
+  - 52TNMMSXD3 # J84 Theory of computation
+  - AMAST3E5GH # J85 Mathematical biology and chemistry
+  - D6VTJ4HHYN # J86 Mathematical modelling and applied methods
+  - 9X01KNW495 # K87 Classical mechanics
+  - T8ZA7TX6SY # K88 Continuum and solid mechanics
+  - B8CZ8SX1G5 # K89 Fluid mechanics
+  - FW8EASGZZW # K90 Electromagnetism and optics
+  - 9A5DVGMPEB # K91 Thermodynamics and statistical mechanics
+  - 2BBT01HT11 # K92 Quantum theory
+  - 6H2AKSP2Z7 # K93 Relativity, gravitation and cosmology
+  - FWE06TZ36P # L100 Mathematics and culture
+  - EJZNJJ6M7S # L94 History of mathematics
+  - NTJ5XW0PVD # L95 Philosophy of mathematics
+  - 9622VKAWMZ # L96 Mathematics education
+  - N7E1QW0W50 # L97 Recreational mathematics
+  - 2HNEG88WT8 # L98 Problem solving and competitions
+  - F3F5GGYHMM # L99 Mathematical software and formalization

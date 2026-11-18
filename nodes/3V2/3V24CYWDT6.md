@@ -1,0 +1,118 @@
+---
+tag: 3V24CYWDT6
+kind: definition
+defines: 1Q046J0AW2
+name: Propositional proof system
+msc: ["03F20", "68Q17"]
+topics: [CBAF7J051K]
+audience: research
+uses: [05006AJ7DZ, 3A81RHAN68, SBDQH0TJ5X, NBSD5FG7NY]
+sources:
+  - url: https://en.wikipedia.org/wiki/Proof_complexity
+    locator: Proof systems
+  - url: https://en.wikipedia.org/wiki/Proof_complexity
+    locator: Proof system strength
+---
+
+## Definition
+
+Fix a finite alphabet $\Sigma$ with at least two letters, and write $\Sigma^*$ for the set of finite strings over $\Sigma$.
+Encode propositional formulas as strings over $\Sigma$, with the variable $p_i$ written as the letter $p$ followed by $i$ in binary.
+Let $\mathrm{TAUT} \subseteq \Sigma^*$ be the set of codes of [[tautologies|05006AJ7DZ]], and write $\abs{x}$ for the length of a string $x$.
+
+A *propositional proof system*, in the sense of Cook and Reckhow, is a function $f \colon \Sigma^* \to \Sigma^*$ with two properties.
+
+1. $f$ is computable in [[polynomial time|3A81RHAN68]].
+2. The image of $f$ is exactly $\mathrm{TAUT}$.
+
+A string $w$ with $f(w) = \tau$ is an *$f$-proof* of $\tau$.
+Property 2 has two halves: every value of $f$ is a tautology (*soundness*), and every tautology is a value of $f$ (*completeness*).
+
+The *size* $s_f(\tau)$ of a tautology $\tau$ in $f$ is the least length $\abs{w}$ of an $f$-proof $w$ of $\tau$.
+
+- $f$ is *polynomially bounded* if there is a polynomial $q$ with $s_f(\tau) \le q(\abs{\tau})$ for every $\tau \in \mathrm{TAUT}$.
+- A proof system $g$ *p-simulates* $f$ if there is a polynomial-time function $h$ such that $g(h(w)) = f(w)$ for every string $w$.
+- $g$ *simulates* $f$ if there is a polynomial $q$ with $s_g(\tau) \le q(s_f(\tau))$ for every tautology $\tau$.
+- $f$ and $g$ are *p-equivalent* if each p-simulates the other.
+- A proof system is *optimal* if it simulates every proof system, and *p-optimal* if it p-simulates every proof system.
+
+A *refutation system* is defined in the same way, with the set of codes of unsatisfiable CNFs in place of $\mathrm{TAUT}$.
+A refutation system for CNFs gives a proof system for tautologies through a fixed polynomial-time translation, such as the [[Tseitin transformation|S367PDDP61]] of $\neg \tau$.
+
+## Notation
+
+Writers use $s_f(\tau)$, $\mathrm{size}_f(\tau)$ or $\abs{\tau}_f$ for the size of the shortest proof.
+Some writers measure proofs by the *number of lines* (formulas) instead of the number of symbols, and write $k_f(\tau)$ or $\lambda_f(\tau)$ for the least number of lines.
+The two measures are different, and each page of this topic says which one it uses.
+The relations "$g$ p-simulates $f$" and "$g$ simulates $f$" are often written $f \le_p g$ and $f \le g$.
+
+## Remarks
+
+### Examples
+
+- The [[truth-table proof system|67MYPBSHCJ]]: a proof of $\tau$ with $n$ variables is $\tau$ followed by $2^n$ padding letters. It is a proof system, and it is not polynomially bounded.
+- [[Frege systems|J2BAR09TPF]], the Hilbert-style systems with finitely many schematic rules. The function sends a correct derivation to its last formula, and any other string to the fixed tautology $p \lor \neg p$.
+- [[Resolution|6JSH907W5R]], read as a proof system for tautologies through a CNF of $\neg \tau$, as in the example [[resolution as a Cook-Reckhow proof system|SSJGW960SY]].
+- The sequent calculus LK, [[extended Frege|5YSE04SHFH]], [[cutting planes|KKCX2HQP2K]] and the [[algebraic proof systems|ZERBQSTZB5]].
+
+### Non-examples
+
+- [[Checking one satisfying assignment|72CPDNTXKT]]: the map from a pair (formula, satisfying assignment) to the formula is polynomial-time, but some of its values are not tautologies, so soundness fails.
+- The map with $f(\tau) = \tau$ for $\tau \in \mathrm{TAUT}$ and $f(x) = p \lor \neg p$ otherwise has image $\mathrm{TAUT}$. It is computable in polynomial time if and only if $\mathrm{TAUT}$ is in P, and this is open. So this map is not known to be a proof system.
+
+### Basic properties
+
+- The relation "p-simulates" is reflexive and transitive. A composition of two polynomial-time functions is computable in polynomial time.
+- If $g$ p-simulates $f$ by $h$, then $g$ simulates $f$. The translation $h(w)$ of a shortest $f$-proof $w$ has length at most a polynomial in $\abs{w}$, because $h$ runs in polynomial time.
+- For every proof system $f$ there is a polynomial $t$ with $\abs{\tau} \le t(s_f(\tau))$. The reason is that $f$ computes $\tau$ from a proof $w$ in time polynomial in $\abs{w}$, and it writes at most one letter in each step.
+- A polynomially bounded proof system $g$, with bound $q$, simulates every proof system $f$: $s_g(\tau) \le q(\abs{\tau}) \le q(t(s_f(\tau)))$ by the previous item. So it is optimal.
+- A polynomially bounded proof system exists if and only if $\mathrm{NP} = \mathrm{coNP}$. This is the [[Cook-Reckhow theorem|YS1T29B00B]].
+
+### Optimal proof systems
+
+Whether an optimal propositional proof system exists is an open problem.
+Whether a p-optimal propositional proof system exists is also an open problem.
+Krajíček and Pudlák showed in 1989 that an optimal system exists if $\mathrm{NE} = \mathrm{coNE}$, and that a p-optimal system exists if $\mathrm{E} = \mathrm{NE}$.
+The converses of these implications are not known.
+
+### History
+
+Stephen Cook and Robert Reckhow gave the definition in their 1979 paper "The relative efficiency of propositional proof systems" in the Journal of Symbolic Logic.
+The definition turns the informal idea "a proof can be checked quickly" into a condition of complexity theory.
+
+### Common errors
+
+- A proof system is required to be onto $\mathrm{TAUT}$. A sound system that proves only some tautologies is not a proof system in this sense.
+- The size counts symbols. A bound on the number of lines is a different statement, since one line can be very long.
+- A lower bound for one proof system says nothing about a stronger system. Each lower bound in this topic names its system.
+
+## Explanations
+
+### L1 human
+
+A proof is a piece of evidence that a checker can verify quickly.
+The definition allows any kind of evidence, as long as a fast program accepts exactly the evidence for true formulas.
+A truth table is evidence of this kind: a formula with $3$ variables has a table with $8$ rows, and a program checks the rows one by one.
+But a formula with $100$ variables has a table with $2^{100}$ rows, and that evidence is far too long to write.
+The main question of proof complexity is whether some kind of evidence is always short.
+
+### L2 human
+
+Here is a check that resolution, through CNFs, gives a proof system.
+
+1. A proof of $\tau$ is a pair $(\tau, \pi)$, where $\pi$ is a resolution refutation of a fixed polynomial-time CNF translation $F_\tau$ of $\neg \tau$.
+2. The function $f$ tests that $\pi$ is a refutation of $F_\tau$. Each clause is an axiom of $F_\tau$ or a resolvent of two earlier clauses, and the last clause is empty. This test takes polynomial time.
+3. If the test passes, $f$ outputs $\tau$; otherwise $f$ outputs $p \lor \neg p$.
+4. Soundness: a refutation shows that $F_\tau$ is unsatisfiable, so $\neg \tau$ is unsatisfiable and $\tau$ is a tautology.
+5. Completeness: resolution is refutation complete, so every unsatisfiable $F_\tau$ has a refutation.
+
+The typical use of the definition is to compare two systems by a p-simulation, or to prove that a family of tautologies has no short proofs in one system.
+A trap: the definition does not ask that proofs be short, only that they be easy to check.
+Short proofs are the subject of the Cook-Reckhow theorem.
+
+### L3 human
+
+The definition is the propositional case of a general idea: a proof system for a language $L$ is a polynomial-time function onto $L$.
+For $L = \mathrm{TAUT}$, the language is coNP-complete, so the existence of short proofs for $L$ is the question $\mathrm{NP} = \mathrm{coNP}$.
+The simulation order turns the set of proof systems into a preorder, and the open questions on optimal systems ask whether this preorder has a greatest element.
+Strong systems correspond to strong theories of [[bounded arithmetic|RA380RWEC0]]: extended Frege corresponds to Cook's theory PV, and the reflection principles of a theory define the strength of its proof system.
