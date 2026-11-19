@@ -1,0 +1,49 @@
+---
+tag: HBN6HZYJP3
+kind: example
+name: The natural numbers as a frame of KC
+msc: ["03B55"]
+topics: [38EQ20GR7M]
+audience: research
+instance_of: [H9Z8BWRN69]
+illustrates: [CX032ACTMZ]
+uses: [5GTQ69W47T, CX032ACTMZ, D9RY4667K6]
+sources:
+  - url: https://eprints.illc.uva.nl/id/document/492
+    locator: Section 3.3
+---
+
+## Example
+
+Let $F = (\mathbb{N}, \leq)$, a rooted Kripke frame with root $0$.
+We check that $F$ validates $\neg \varphi \vee \neg \neg \varphi$ for every formula $\varphi$, although $F$ has no greatest element.
+
+1. $F$ is [[directed|D9RY4667K6]]: for $m, n \in \mathbb{N}$, the number $\max(m, n)$ lies above both.
+2. Fix a model on $F$ and a formula $\varphi$. Suppose some world $n$ forces $\varphi$.
+3. For every $m$, the world $\max(m, n)$ forces $\varphi$ by persistence, and it lies above $m$. So no world forces $\neg \varphi$.
+4. Hence every world forces $\neg \neg \varphi$.
+5. Otherwise no world forces $\varphi$, and every world forces $\neg \varphi$.
+6. In both cases every world forces $\neg \varphi \vee \neg \neg \varphi$. This agrees with item 3 of [[the theorem|CX032ACTMZ]].
+7. $F$ has no greatest element, since $n + 1 > n$ for every $n$.
+
+## Remarks
+
+Item 4 of the theorem speaks of finite frames, where directedness and a greatest element coincide.
+The frame $F$ shows that, for infinite frames, the right condition is directedness.
+The frame is also linear, so it validates $\mathsf{LC}$; its up-sets form an infinite chain, and its logic is exactly $\mathsf{LC}$.
+
+## Explanations
+
+### L1 human
+
+Along the natural numbers, any two stages have a common later stage: the larger one.
+So once $p$ becomes known at some stage, no stage can rule $p$ out forever.
+That is enough for the weak excluded middle, even though there is no last stage.
+
+### L2 human
+
+1. To test the weak excluded middle on a frame, look for two worlds above a common world without a common upper bound.
+2. In $(\mathbb{N}, \leq)$ there are none, since the maximum is an upper bound.
+
+The typical use is to separate the frame condition of $\mathsf{KC}$ from its finite form.
+A trap: "has a greatest element" is not a first-order characterization of the frames of $\mathsf{KC}$ in general.

@@ -1,0 +1,73 @@
+---
+tag: PFRT3T5ZQ1
+kind: proof
+name: Proof of the theorems on weak excluded middle by confluent canonical models
+msc: ["03B55"]
+topics: [38EQ20GR7M]
+audience: research
+proves: CX032ACTMZ
+uses: [H9Z8BWRN69, 5GTQ69W47T, 480TCT5CJ9, DGJ176J5CT, TVE4F04KME, 6ZZSHAKG5F, 9X08XK5RV2]
+methods: [0NTF6DMVAP, 0J0XBKG64S, 0WCP0PVET6]
+sources:
+  - url: https://eprints.illc.uva.nl/id/document/492
+    locator: Section 3.3
+  - url: https://en.wikipedia.org/wiki/Intermediate_logic
+    locator: Syntactics
+---
+
+## Proof
+
+"The IPC proof" refers to [[the proof of Kripke completeness for IPC|GWK70Q7WR3]], and "the LC proof" to [[the proof of completeness of LC|99DE3VQ4YC]].
+
+Part A: item 1.
+
+1. Take the fork: a root $r$ and incomparable worlds $a, b$ above it, with $V(p) = \set{a}$.
+2. $a \Vdash p$, so $r \nVdash \neg p$. The world $b$ is maximal and $b \nVdash p$, so $b \Vdash \neg p$ and $r \nVdash \neg \neg p$.
+3. So $r \nVdash \neg p \vee \neg \neg p$, and [[Kripke soundness|480TCT5CJ9]] gives item 1.
+
+Part B: item 2.
+
+4. Assume the schema $\neg \varphi \vee \neg \neg \varphi$. From $\neg (\varphi \wedge \psi)$, $\psi$ and $\varphi$ we get $\varphi \wedge \psi$ and then $\bot$. So $\neg (\varphi \wedge \psi) \vdash \psi \to \neg \varphi$, by the [[deduction theorem|9X08XK5RV2]].
+5. Case $\neg \neg \varphi$: from $\psi$ we get $\neg \varphi$ by step 4, and then $\bot$. So $\neg \psi$, and $\neg \varphi \vee \neg \psi$.
+6. Case $\neg \varphi$: then $\neg \varphi \vee \neg \psi$ at once.
+7. Disjunction elimination on the instance $\neg \varphi \vee \neg \neg \varphi$ gives $\neg (\varphi \wedge \psi) \vdash \neg \varphi \vee \neg \psi$, and the deduction theorem gives the De Morgan schema.
+8. Conversely, assume the De Morgan schema and take $\psi := \neg \varphi$. This gives $\neg (\varphi \wedge \neg \varphi) \to \neg \varphi \vee \neg \neg \varphi$.
+9. $\mathsf{IPC} \vdash \neg (\varphi \wedge \neg \varphi)$: from $\varphi \wedge \neg \varphi$ we get $\varphi$ and $\neg \varphi$, hence $\bot$. Modus ponens gives $\neg \varphi \vee \neg \neg \varphi$.
+10. Each of the two logics contains every instance of the other's axiom, so the two logics are equal.
+
+Part C: item 3.
+
+11. Let $F$ be confluent, let $w$ be a world of a model on $F$, and let $\varphi$ be any formula. Suppose $w \nVdash \neg \varphi$. Then some $u \geq w$ forces $\varphi$.
+12. Let $v \geq w$. Confluence gives $x$ with $u \leq x$ and $v \leq x$, and $x \Vdash \varphi$ by persistence. So $v \nVdash \neg \varphi$.
+13. No world above $w$ forces $\neg \varphi$, so $w \Vdash \neg \neg \varphi$. Hence every instance of the schema is valid on $F$.
+14. Conversely, let $w \leq u$ and $w \leq v$ have no common upper bound. Put $V(p) = \mathord{\uparrow} u$, an up-set.
+15. $u \Vdash p$, so $w \nVdash \neg p$. If $y \geq v$ and $y \Vdash p$, then $y \geq u$, and $y$ is a common upper bound. So $v \Vdash \neg p$, and $w \nVdash \neg \neg p$.
+16. In a frame with root $r$, any two worlds lie above $r$. So confluence implies directedness, and directedness implies confluence.
+
+Part D: the canonical model of $\mathsf{KC}$.
+
+17. Define $\vdash_{\mathsf{KC}}$, prime $\mathsf{KC}$-theories and the canonical model as in steps 10 to 14 of the LC proof, with $\mathsf{KC}$ in place of $\mathsf{LC}$. Prime extension and the truth lemma hold with the same proofs.
+18. Let $T \subseteq U_1$ and $T \subseteq U_2$ be prime. Suppose $U_1 \cup U_2 \vdash_{\mathsf{KC}} \bot$. A derivation uses finitely many hypotheses, and theories are closed under $\wedge$. So there are $\chi \in U_1$ and $\psi \in U_2$ with $\chi, \psi \vdash_{\mathsf{KC}} \bot$.
+19. By the deduction theorem, $\vdash_{\mathsf{KC}} \chi \to \neg \psi$, so $\neg \psi \in U_1$.
+20. The instance $\neg \psi \vee \neg \neg \psi$ is in $T$, and $T$ is prime. If $\neg \psi \in T \subseteq U_2$, then $\bot \in U_2$. If $\neg \neg \psi \in T \subseteq U_1$, then $\bot \in U_1$ by step 19. Both contradict primeness.
+21. So $U_1 \cup U_2 \nvdash_{\mathsf{KC}} \bot$. Prime extension gives a prime $U \supseteq U_1 \cup U_2$, an upper bound of $U_1$ and $U_2$. The canonical model is confluent.
+
+Part E: item 4.
+
+22. A frame with a greatest element $t$ is confluent, with $x = t$. By steps 11 to 13 and Kripke soundness, all axioms of $\mathsf{KC}$ are valid on it. Modus ponens preserves validity, so every theorem of $\mathsf{KC}$ is valid on it.
+23. Let $\mathsf{KC} \nvdash \varphi$. Prime extension gives a prime $T_0$ with $\varphi \notin T_0$, and $T_0 \nVdash \varphi$. Restrict the canonical model to $W_0 = \mathord{\uparrow} T_0$, as in step 19 of the LC proof.
+24. Apply steps 30 to 36 of the IPC proof to this model and $w = T_0$. The finite model on $W' = \set{\Sigma(x) : x \in W_0}$ has at most $2^n$ worlds, its least element is $\Sigma(T_0)$, and $\varphi$ fails there.
+25. $W'$ is directed: for $x, y \in W_0$, step 21 gives $z \in W_0$ above both, and persistence gives $\Sigma(x) \cup \Sigma(y) \subseteq \Sigma(z)$.
+26. A finite directed poset has a greatest element. Take a maximal $m$; for any $s$, an upper bound of $m$ and $s$ must equal $m$, so $s \leq m$.
+27. So $\varphi$ fails on a finite rooted frame with a greatest element and at most $2^n$ worlds. By contraposition with step 22, this proves item 4.
+
+## Idea
+
+The weak excluded middle says that the possible futures of a world can always be joined again.
+In the canonical model this holds because two extensions of a theory that contradict each other would split some $\neg \psi \vee \neg \neg \psi$.
+Filtration keeps directedness, and a finite directed order has a top.
+
+## Variants
+
+1. Algebraically, a subdirectly irreducible Heyting algebra satisfies $\neg a \vee \neg \neg a = 1$ iff $0$ is meet irreducible: $a \wedge b = 0$ implies $a = 0$ or $b = 0$.
+2. Item 2 also follows from item 3 and completeness, since both schemas correspond to confluence; the syntactic proof above avoids semantics.

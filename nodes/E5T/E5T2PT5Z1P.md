@@ -1,0 +1,73 @@
+---
+tag: E5T2PT5Z1P
+kind: proof
+name: Proof of the representation of AGM revision by total preorders
+msc: ["03B42", "68T27"]
+topics: [CQM9SRN8PM]
+audience: research
+proves: KV8J5H7KF2
+uses: [Y05YQN7HGQ, 0VABYWJWH9]
+methods: [0NTF6DMVAP, 0WCP0PVET6, 0J0XBKG64S]
+sources:
+  - url: https://en.wikipedia.org/wiki/Belief_revision
+    locator: Conditions equivalent to the AGM postulates
+  - book: isbn:9780262071093
+    locator: Gärdenfors, Knowledge in Flux
+---
+
+## Proof
+
+We use the notation of [[the representation theorem|KV8J5H7KF2]].
+Since the language is finite, each $S \subseteq \Omega$ is $\mathrm{Mod}(\mathrm{form}(S))$ for some formula $\mathrm{form}(S)$, and a belief set is determined by its set of models.
+We write $\mathrm{form}(x, y)$ for $\mathrm{form}(\set{x, y})$, and $\mathrm{M}(\varphi)$ for $\mathrm{Mod}(K * \varphi)$.
+The postulates are numbered as in [[AGM belief revision|Y05YQN7HGQ]].
+
+Part 1: from a faithful preorder to the postulates.
+
+1. Define $K * \varphi$ as the set of formulas true in all of $\min(\mathrm{Mod}(\varphi), \le)$. Postulate 1 holds, since such a set is closed under consequence.
+2. Postulate 2 holds, since $\min(\mathrm{Mod}(\varphi), \le) \subseteq \mathrm{Mod}(\varphi)$.
+3. Postulate 6 holds, since the definition depends only on $\mathrm{Mod}(\varphi)$.
+4. Postulate 5: if $\varphi$ is consistent, $\mathrm{Mod}(\varphi)$ is finite and non-empty. A total preorder on a finite non-empty set has a minimal element.
+5. Postulates 3 and 4. If $\neg\varphi \in K$, then $K + \varphi$ is inconsistent, so postulate 3 holds and postulate 4 is vacuous.
+6. Let $\neg\varphi \notin K$, so $\mathrm{Mod}(K) \cap \mathrm{Mod}(\varphi) \neq \emptyset$. By faithfulness, each $x$ in this set has $x \le y$ for every $y$, so $x$ is minimal in $\mathrm{Mod}(\varphi)$.
+7. Each $y \in \mathrm{Mod}(\varphi) \setminus \mathrm{Mod}(K)$ has $x < y$ for such $x$, so $y$ is not minimal.
+8. So $\min(\mathrm{Mod}(\varphi), \le) = \mathrm{Mod}(K) \cap \mathrm{Mod}(\varphi) = \mathrm{Mod}(K + \varphi)$. Hence $K * \varphi = K + \varphi$, which gives postulates 3 and 4.
+9. Postulate 7. Put $A = \mathrm{Mod}(\varphi)$ and $B = \mathrm{Mod}(\psi)$. Let $x \in \min(A, \le) \cap B$.
+10. Then $x \le y$ for all $y \in A \cap B$, and $x \in A \cap B$. So $x \in \min(A \cap B, \le)$, and $\min(A, \le) \cap B \subseteq \min(A \cap B, \le)$, which is postulate 7.
+11. Postulate 8. Suppose $\neg\psi \notin K * \varphi$, so there is $z \in \min(A, \le) \cap B$. Let $y \in \min(A \cap B, \le)$.
+12. Then $y \le z$, since $z \in A \cap B$, and $z \le a$ for every $a \in A$. Transitivity gives $y \le a$, so $y \in \min(A, \le) \cap B$.
+13. So $\min(A \cap B, \le) \subseteq \min(A, \le) \cap B$, which is postulate 8.
+
+Part 2: from the postulates to a faithful preorder.
+
+14. Lemma. Let $T \subseteq S \subseteq \Omega$ with $\mathrm{M}(\mathrm{form}(S)) \cap T \neq \emptyset$. Then $\mathrm{M}(\mathrm{form}(T)) = \mathrm{M}(\mathrm{form}(S)) \cap T$.
+15. Proof of the lemma: $\mathrm{form}(S) \wedge \mathrm{form}(T)$ is equivalent to $\mathrm{form}(T)$, so postulate 6 lets us use it. Postulate 7 gives $\mathrm{M}(\mathrm{form}(S)) \cap T \subseteq \mathrm{M}(\mathrm{form}(T))$.
+16. The hypothesis says that $\neg\mathrm{form}(T) \notin K * \mathrm{form}(S)$. Postulate 8 gives the other inclusion.
+17. Define $x \le y$ if and only if $x \in \mathrm{M}(\mathrm{form}(x, y))$.
+18. Totality. $\mathrm{M}(\mathrm{form}(x, y))$ is a subset of $\set{x, y}$ by postulate 2, and non-empty by postulate 5. So $x \le y$ or $y \le x$.
+19. Transitivity. Let $x \le y$ and $y \le z$, and put $S = \mathrm{M}(\mathrm{form}(x, y, z))$, a non-empty subset of $\set{x, y, z}$ by postulates 2 and 5.
+20. Case $S \cap \set{x, y} \neq \emptyset$. The lemma gives $S \cap \set{x, y} = \mathrm{M}(\mathrm{form}(x, y))$, which contains $x$. So $x \in S$.
+21. Then $S \cap \set{x, z} \ni x$, and the lemma gives $\mathrm{M}(\mathrm{form}(x, z)) = S \cap \set{x, z} \ni x$. So $x \le z$.
+22. Case $S \cap \set{x, y} = \emptyset$. Then $S = \set{z}$ and $z \neq y$. The lemma with $T = \set{y, z}$ gives $\mathrm{M}(\mathrm{form}(y, z)) = \set{z}$.
+23. So $y \notin \mathrm{M}(\mathrm{form}(y, z))$, which contradicts $y \le z$. This case is impossible.
+24. Minimal models. Let $A = \mathrm{Mod}(\varphi)$ and $M = \mathrm{M}(\varphi)$. If $A = \emptyset$, then $M = \emptyset = \min(A, \le)$ by postulate 2.
+25. Let $A \neq \emptyset$, so $M \subseteq A$ is non-empty by postulates 2 and 5. Let $x \in M$ and $y \in A$.
+26. The lemma with $T = \set{x, y}$ gives $\mathrm{M}(\mathrm{form}(x, y)) = M \cap \set{x, y} \ni x$. So $x \le y$, and $x \in \min(A, \le)$.
+27. Conversely, let $x \in \min(A, \le)$ and pick $m \in M$. The lemma with $T = \set{x, m}$ gives $\mathrm{M}(\mathrm{form}(x, m)) = M \cap \set{x, m}$.
+28. Since $x \le m$, $x$ lies in this set, so $x \in M$. Hence $M = \min(A, \le)$.
+29. Faithfulness. Let $x \in \mathrm{Mod}(K)$ and $y \in \Omega$. Then $\mathrm{form}(x, y)$ is consistent with $K$, so postulates 3 and 4 give $K * \mathrm{form}(x, y) = K + \mathrm{form}(x, y)$.
+30. So $\mathrm{M}(\mathrm{form}(x, y)) = \mathrm{Mod}(K) \cap \set{x, y}$. If $y \in \mathrm{Mod}(K)$, this is $\set{x, y}$, and $x \le y$, $y \le x$.
+31. If $y \notin \mathrm{Mod}(K)$, this is $\set{x}$, so $x \le y$ and not $y \le x$. Hence $\le$ is faithful, and the theorem is proved.
+
+## Idea
+
+The preorder is read off from revisions by two-element sets: $x \le y$ means that revision by "$x$ or $y$" keeps $x$.
+Postulates 7 and 8 together say that revision by a smaller set is revision by the larger set, cut down, whenever the cut is non-empty.
+This "restriction lemma" gives transitivity and the minimal-model formula.
+Postulates 3 and 4 put the models of $K$ at the bottom.
+
+## Variants
+
+1. Grove's proof for infinite languages works with maximal consistent sets and builds spheres from revisions, using a limit assumption instead of finiteness.
+2. One can define the preorder through the Harper identity and contraction, which gives the same order.
+3. A proof by choice functions first shows that postulates 7 and 8 are Arrow's conditions on a choice function, and then uses the classical result that such choice functions come from total preorders.

@@ -1,0 +1,56 @@
+---
+tag: FA88H7FDPY
+kind: definition
+name: Definition of Gödel-Dummett logic LC
+msc: ["03B55"]
+topics: [38EQ20GR7M]
+audience: grad
+defines: 474SGS2N0X
+uses: [H5NSKEP3P2, 52XCYMK0WW, P4T18C5736]
+sources:
+  - url: https://plato.stanford.edu/entries/logic-intuitionistic/
+    locator: 6.1 Subintuitionistic and Intermediate Logics
+  - url: https://en.wikipedia.org/wiki/Intermediate_logic
+    locator: Syntactics
+  - url: https://eprints.illc.uva.nl/id/document/492
+    locator: Section 3.3, Exercise 16
+---
+
+## Definition
+
+*Gödel-Dummett logic* is the [[intermediate logic|H5NSKEP3P2]]
+$$\mathsf{LC} = \mathsf{IPC} + (p \to q) \vee (q \to p).$$
+So $\mathsf{LC}$ is the least set of formulas that contains the [[axioms of IPC|52XCYMK0WW]] and every substitution instance of $(p \to q) \vee (q \to p)$, and is closed under modus ponens.
+Equivalently, it is the Hilbert system of $\mathsf{IPC}$ with the extra axiom schema $(\varphi \to \psi) \vee (\psi \to \varphi)$ for all formulas $\varphi, \psi$.
+The formula $(p \to q) \vee (q \to p)$ is the [[prelinearity axiom|P4T18C5736]].
+
+## Notation
+
+We write $\vdash_{\mathsf{LC}} \varphi$ or $\varphi \in \mathsf{LC}$.
+For a set $\Gamma$, $\Gamma \vdash_{\mathsf{LC}} \varphi$ means that $\varphi$ follows from $\Gamma$ and theorems of $\mathsf{LC}$ by modus ponens.
+Other names are $\mathsf{G}$, $\mathsf{G}_\infty$ and Dummett's logic.
+
+## Remarks
+
+1. The schema form and the substitution form give the same set of theorems. A substitution instance of a theorem is proved by applying the substitution to every line of its derivation.
+2. $\mathsf{LC} \subseteq \mathsf{CPC}$, since prelinearity is a classical tautology: if $q$ is true, then $p \to q$ is true, and if $q$ is false, then $q \to p$ is true.
+3. Over $\mathsf{IPC}$, each of $(p \to q \vee r) \to (p \to q) \vee (p \to r)$ and $((p \to q) \to q) \to p \vee q$ axiomatizes the same logic.
+4. The deduction theorem holds for $\vdash_{\mathsf{LC}}$, since $\mathsf{LC}$ contains the axioms used in its proof for $\mathsf{IPC}$.
+5. The semantic characterization is [[completeness for finite linear frames|DGJ176J5CT]].
+
+## Explanations
+
+### L1 human
+
+Gödel-Dummett logic is intuitionistic logic with one extra principle.
+The principle says: for any two statements, the first implies the second, or the second implies the first.
+Classically this is always true, so the new logic still lies below classical logic.
+
+### L2 human
+
+1. To prove $\neg p \vee \neg \neg p$ in $\mathsf{LC}$, use the instance $(p \to \neg p) \vee (\neg p \to p)$; see [[the derivation|F448T49KSX]].
+2. To prove that $\varphi \notin \mathsf{LC}$, refute $\varphi$ on a finite chain.
+3. To prove that $\varphi \in \mathsf{LC}$, show that no chain with at most $n + 1$ worlds refutes it, where $n$ counts the subformulas.
+
+The typical use is to fix the axiom when one compares $\mathsf{LC}$ with other intermediate logics.
+A trap: adding the single formula without closure under substitution gives a set that is not a logic.

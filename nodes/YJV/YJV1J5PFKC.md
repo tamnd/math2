@@ -1,0 +1,56 @@
+---
+tag: YJV1J5PFKC
+kind: example
+name: The Jankov formula of the two-element Boolean algebra
+msc: ["03B55", "06D20"]
+topics: [38EQ20GR7M]
+audience: research
+instance_of: [W0CYVZ48CK]
+illustrates: [D25R70HQ7C]
+uses: [CVGBEFQG0Q, D25R70HQ7C, DP4WNWHXXA, CFCNGMEFEG, 05006AJ7DZ]
+sources:
+  - arxiv: 1407.5823v1
+    locator: Section 1.2, Definition 1.1
+  - url: https://en.wikipedia.org/wiki/Intermediate_logic
+    locator: Properties
+---
+
+## Example
+
+Let $\mathbf{2} = \set{0, 1}$ be the two-element Boolean algebra.
+It is subdirectly irreducible, with unique coatom $s = 0$.
+
+1. By [[the definition|CVGBEFQG0Q]], $\chi(\mathbf{2}) = \delta(\mathbf{2}) \to p_0$, with variables $p_0$ and $p_1$.
+2. Substitute $\bot$ for $p_0$ and $\bot \to \bot$ for $p_1$. Each conjunct of $\delta(\mathbf{2})$ becomes an $\mathsf{IPC}$-theorem, because $\bot$ and $\bot \to \bot$ obey the tables of $\mathbf{2}$ up to provable equivalence. For instance $p_{0 \to 1} \leftrightarrow (p_0 \to p_1)$ becomes $(\bot \to \bot) \leftrightarrow (\bot \to (\bot \to \bot))$.
+3. So this substitution instance of $\chi(\mathbf{2})$ is $\mathsf{IPC}$-equivalent to $\bot$.
+4. Hence a superintuitionistic logic containing $\chi(\mathbf{2})$ contains $\bot$, and it is [[the inconsistent logic|CFCNGMEFEG]].
+5. $\mathrm{Log}(\mathbf{2})$ is the set of [[tautologies|05006AJ7DZ]], that is $\mathsf{CPC}$, since valuations in $\mathbf{2}$ are truth assignments.
+6. By part 3 of [[the Jankov-de Jongh theorem|D25R70HQ7C]], every superintuitionistic logic $L$ satisfies $\chi(\mathbf{2}) \in L$ or $L \subseteq \mathsf{CPC}$.
+7. So $L$ is inconsistent or $L \subseteq \mathsf{CPC}$. This is a second proof that [[classical logic is the greatest consistent superintuitionistic logic|DP4WNWHXXA]].
+8. On frames: $\mathbf{2}$ is the algebra of up-sets of the one-point frame $F_1$. Every nonempty frame $G$ has $F_1 \leq G$, by mapping $\mathord{\uparrow} w$ to the point. So $\chi(F_1)$ is valid on no nonempty frame, as step 3 predicts.
+
+## Remarks
+
+The example shows why the trap between "superintuitionistic" and "intermediate" matters.
+The inconsistent logic is superintuitionistic, and it is exactly the logic that contains $\chi(\mathbf{2})$.
+Intermediate logics are the consistent ones, and they all lie between $\mathsf{IPC}$ and $\mathsf{CPC}$.
+
+## Explanations
+
+### L1 human
+
+Classical truth tables are the smallest nontrivial table of truth values.
+The Jankov formula of this table says "this table does not occur".
+But it occurs in every nontrivial structure, so the formula is false everywhere it can be tested.
+A logic proving it proves everything.
+
+### L2 human
+
+1. Write $\top$ for $\bot \to \bot$.
+2. The conjunct for $0 \vee 1 = 1$ becomes $\top \leftrightarrow (\bot \vee \top)$, an $\mathsf{IPC}$-theorem.
+3. The conjunct for $\neg 0 = 1$ becomes $\top \leftrightarrow \neg \bot$, an $\mathsf{IPC}$-theorem.
+4. The conjunct for $1 \to 0 = 0$ becomes $\bot \leftrightarrow (\top \to \bot)$, an $\mathsf{IPC}$-theorem.
+5. All conjuncts are of this kind, so the instance is $\top \to \bot$, which is equivalent to $\bot$.
+
+The typical use is the short splitting argument in step 6.
+A trap: the dichotomy holds for superintuitionistic logics in the wide sense, which includes the inconsistent one.

@@ -1,0 +1,82 @@
+---
+tag: GJN7A5DJHK
+kind: statement
+role: theorem
+name: Rybakov's theorem on admissible rules of intuitionistic logic
+msc: ["03B20", "03B25", "03B55"]
+topics: [38EQ20GR7M]
+audience: research
+uses: [C5K35H0R4Y, JNFV2NMNFR, TN9G24VABN]
+about: [C5K35H0R4Y]
+proofs: [WYFEEA2SV3]
+sources:
+  - url: https://plato.stanford.edu/entries/logic-intuitionistic/
+    locator: 4.2 Admissible rules of intuitionistic logic and arithmetic
+  - url: https://en.wikipedia.org/wiki/Admissible_rule
+    locator: Decidability and reduced rules
+  - url: https://en.wikipedia.org/wiki/Admissible_rule
+    locator: Bases of admissible rules
+---
+
+## Statement
+
+Consider [[admissible rules|C5K35H0R4Y]] of $\mathsf{IPC}$ with finitely many premises.
+
+**Theorem (Rybakov).**
+
+1. Admissibility in $\mathsf{IPC}$ is decidable: an algorithm decides, for all formulas $A_1, \dots, A_k$ and $B$, whether $A_1, \dots, A_k \mathrel{|\!\sim}_{\mathsf{IPC}} B$.
+2. $\mathsf{IPC}$ has no finite basis of admissible rules.
+
+The proof is in [[the proof from enumerability and a cited lemma|WYFEEA2SV3]].
+
+## Remarks
+
+### Why each hypothesis is needed
+
+1. The proof of item 1 uses the decidability of $\mathsf{IPC}$. For a logic whose theorems are undecidable, the search for a bad substitution is not effective.
+2. Item 2 concerns finite sets. The infinite family of Visser rules is a basis, by [[Iemhoff's theorem|JNFV2NMNFR]].
+
+### Consequences
+
+1. The structural consequence relation $\mathrel{|\!\sim}_{\mathsf{IPC}}$ is decidable, so questions such as "is this rule admissible but not derivable" are decidable.
+2. Every basis of the admissible rules of $\mathsf{IPC}$ contains rules in arbitrarily many variables.
+
+### Converse
+
+Decidability of admissibility does not need an explicit basis.
+Conversely, for a decidable logic, a recursively enumerable basis gives decidability, by the argument in the proof.
+
+### Generalizations
+
+1. Rybakov's methods give decidability of admissibility for many intermediate and transitive modal logics, including $\mathsf{KC}$, $\mathsf{K4}$, $\mathsf{S4}$, $\mathsf{GL}$ and $\mathsf{Grz}$.
+2. The basic transitive logics $\mathsf{K4}$, $\mathsf{S4}$, $\mathsf{GL}$ and $\mathsf{Grz}$ also have no finite basis of admissible rules.
+3. Jeřábek proved that admissibility in $\mathsf{IPC}$ is coNEXP-complete, while derivability is PSPACE-complete.
+
+## History
+
+Rybakov proved both items, and the SEP cites his 1997 monograph *Admissibility of Logical Inference Rules* for them.
+The monograph reduces admissibility in $\mathsf{IPC}$ to admissibility in the modal logic $\mathsf{Grz}$, through the [[Gödel-McKinsey-Tarski translation|BXVNEN55MR]].
+
+## Explanations
+
+### L1 human
+
+Some inferences are safe for intuitionistic theorems without being provable.
+Rybakov showed that a computer can decide, for each such inference, whether it is safe.
+He also showed that no finite list of safe inferences generates all of them.
+
+### L2 human
+
+1. To decide $A \mathrel{|\!\sim} B$, run two searches in parallel.
+2. One search looks for a substitution $\sigma$ with $\vdash \sigma A$ and $\nvdash \sigma B$.
+3. The other looks for a derivation of $B$ from $A$ with the Visser rules.
+4. Exactly one search succeeds, and it gives the answer.
+
+The typical use is to settle admissibility questions about concrete rules by computation.
+A trap: the decision procedure does not come from the finite model property alone, since admissible rules lack it.
+
+### L3 human
+
+Admissibility in $\mathsf{IPC}$ is the validity of quasi-identities in the free Heyting algebra on countably many generators.
+So item 1 says that the universal Horn theory of this algebra is decidable.
+Item 2 says that the quasivariety it generates is not finitely axiomatizable relative to the variety of Heyting algebras.
