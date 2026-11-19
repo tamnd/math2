@@ -1,0 +1,45 @@
+---
+tag: 8NJY1C9GVH
+kind: example
+name: Direction cosines of the vector (2, -1, 2)
+msc: ["51N20", "97G70"]
+topics: [VKVAJ94SKZ]
+audience: school
+instance_of: [0ZEHZY85E6]
+uses: [0ZEHZY85E6, 0S52TNNTH9, 0XKBKGTCPC]
+sources:
+  - url: https://en.wikipedia.org/wiki/Direction_cosine
+    locator: Three-dimensional Cartesian coordinates
+---
+
+## Example
+
+Let $v = (2, -1, 2)$.
+The direction angles $\alpha$, $\beta$ and $\gamma$ are the [[angles|0ZEHZY85E6]] between $v$ and the axis vectors $\mathbf{i}$, $\mathbf{j}$ and $\mathbf{k}$.
+
+1. The [[length|0XKBKGTCPC]] is $\|v\| = \sqrt{4 + 1 + 4} = 3$, and each axis vector has length $1$.
+2. $v \cdot \mathbf{i} = 2$, so $\cos \alpha = \tfrac{2}{3 \cdot 1} = \tfrac{2}{3}$, and $\alpha \approx 48.19^\circ$.
+3. $v \cdot \mathbf{j} = -1$, so $\cos \beta = -\tfrac{1}{3}$, and $\beta \approx 109.47^\circ$.
+4. $v \cdot \mathbf{k} = 2$, so $\cos \gamma = \tfrac{2}{3}$, and $\gamma \approx 48.19^\circ$.
+5. Check: $\cos^2 \alpha + \cos^2 \beta + \cos^2 \gamma = \tfrac{4}{9} + \tfrac{1}{9} + \tfrac{4}{9} = 1$.
+
+## Remarks
+
+The direction cosines are the components of the unit vector $\tfrac{1}{3}v = (\tfrac{2}{3}, -\tfrac{1}{3}, \tfrac{2}{3})$.
+So the identity in step 5 says that this unit vector has length $1$.
+The same identity holds for every nonzero vector, and it shows that the three direction angles are not independent.
+The angle $\beta$ is obtuse because the second component of $v$ is negative.
+
+## Explanations
+
+### L1 human
+
+The direction cosines describe a direction in space by its angles with the three axes.
+The vector $(2, -1, 2)$ makes equal angles with the $x$-axis and the $z$-axis.
+It makes an obtuse angle with the $y$-axis, because it points to the negative side of that axis.
+
+### L2 human
+
+To get the direction cosines, divide each component by the length.
+Two direction angles do not fix the third: from $\cos^2 \alpha + \cos^2 \beta + \cos^2 \gamma = 1$ we get $\cos \gamma$ only up to its sign.
+A trap: the direction angles are angles with the axes, not with the coordinate planes.

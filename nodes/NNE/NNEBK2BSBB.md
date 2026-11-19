@@ -1,0 +1,58 @@
+---
+tag: NNEBK2BSBB
+kind: example
+name: Parallel, intersecting and skew lines in space
+msc: ["51N20", "97G70"]
+topics: [VKVAJ94SKZ]
+audience: school
+instance_of: [0399QFDFS8]
+uses: [0399QFDFS8, 0N5N15HWZ7]
+sources:
+  - url: https://en.wikipedia.org/wiki/Skew_lines
+    locator: Testing for skewness
+---
+
+## Example
+
+We classify three pairs of [[lines|0399QFDFS8]] in $\mathbb{R}^3$.
+
+**Pair 1: parallel.** $L_1 = (0, 0, 0) + t(1, 2, 2)$ and $L_2 = (1, 0, 0) + s(-2, -4, -4)$.
+
+1. The directions satisfy $(-2, -4, -4) = -2 \, (1, 2, 2)$, so the lines are parallel.
+2. Is $(1, 0, 0)$ on $L_1$? The $x$ equation gives $t = 1$, but then $y = 2 \neq 0$. So the lines are parallel and distinct.
+
+**Pair 2: intersecting.** $L_1 = (1, 2, 0) + t(1, -1, 1)$ and $L_2 = (2, -1, -3) + s(0, 1, 2)$.
+
+3. The directions are not multiples of each other, since the first has $x$ component $1$ and the second $0$.
+4. Equal points: $1 + t = 2$, $2 - t = -1 + s$, $t = -3 + 2s$.
+5. The first equation gives $t = 1$, then the second gives $s = 2$.
+6. Check in the third equation: $1 = -3 + 4$. So the lines meet at $(2, 1, 1)$.
+
+**Pair 3: skew.** $L_1 = (1, 0, 0) + t(1, 1, 0)$ and $L_2 = (0, 0, 2) + s(0, 1, 1)$.
+
+7. The directions are not multiples of each other, so the lines are not parallel.
+8. Equal points: $1 + t = 0$, $t = s$, $0 = 2 + s$.
+9. The first equation gives $t = -1$, the second $s = -1$, and the third needs $s = -2$.
+10. The system has no solution, so the lines do not meet. They are skew.
+
+## Remarks
+
+The [[cross product|0N5N15HWZ7]] test of the [[coplanarity theorem|7RMCRQ9ERC]] gives the same answers for pairs 2 and 3.
+For pair 2, $d \times e = (-3, -2, 1)$ and $(b - a) \cdot (d \times e) = (1, -3, -3) \cdot (-3, -2, 1) = 0$, so the lines meet.
+For pair 3, $d \times e = (1, -1, 1)$ and $(b - a) \cdot (d \times e) = (-1, 0, 2) \cdot (1, -1, 1) = 1 \neq 0$, so the lines are skew.
+The distance between the skew lines of pair 3 is $\tfrac{1}{\sqrt{3}}$, by the [[distance example|GQY9X52ZPJ]].
+
+## Explanations
+
+### L1 human
+
+Two straight roads in space can run side by side, can cross, or can pass over each other like a bridge over a road.
+The third case, skew lines, cannot happen in a flat plane.
+To decide which case holds, first compare the directions, and then try to solve for a common point.
+
+### L2 human
+
+The method: compare the directions; if they are not parallel, set the two vector equations equal with two different parameters.
+This gives three equations in two unknowns.
+Solve two of them and test the third.
+A trap: a solution of two of the three equations is not enough; in pair 3 the first two equations have a solution, but the third fails.

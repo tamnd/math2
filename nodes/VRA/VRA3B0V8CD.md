@@ -2,8 +2,8 @@
 tag: VRA3B0V8CD
 kind: example
 name: The cross product is not associative
-msc: [08A02, 15A72]
-topics: [BAZT8JJ70S]
+msc: ["08A02", "15A72"]
+topics: [BAZT8JJ70S, VKVAJ94SKZ]
 audience: school
 not_instance_of:
   - target: 0K8F7PVDMX
@@ -29,7 +29,7 @@ We show that the cross product is not [[associative|0K8F7PVDMX]].
 ## Remarks
 
 The rule $\mathbf{i} \times \mathbf{k} = -\mathbf{j}$ comes from $\mathbf{k} \times \mathbf{i} = \mathbf{j}$ and the rule $\mathbf{u} \times \mathbf{v} = -(\mathbf{v} \times \mathbf{u})$.
-For all vectors, the identity $\mathbf{a} \times (\mathbf{b} \times \mathbf{c}) = (\mathbf{a} \cdot \mathbf{c})\mathbf{b} - (\mathbf{a} \cdot \mathbf{b})\mathbf{c}$ holds.
+For all vectors, the [[vector triple product formula|03FTB26QYD]] $\mathbf{a} \times (\mathbf{b} \times \mathbf{c}) = (\mathbf{a} \cdot \mathbf{c})\mathbf{b} - (\mathbf{a} \cdot \mathbf{b})\mathbf{c}$ holds.
 With it, the difference of the two groupings is $\mathbf{a} \times (\mathbf{b} \times \mathbf{c}) - (\mathbf{a} \times \mathbf{b}) \times \mathbf{c} = (\mathbf{b} \cdot \mathbf{c})\mathbf{a} - (\mathbf{a} \cdot \mathbf{b})\mathbf{c}$.
 For the triple above, this is $0 \cdot \mathbf{i} - 1 \cdot \mathbf{j} = -\mathbf{j}$, as in steps 2 and 3.
 In place of associativity, the cross product satisfies the [[Jacobi identity|ZKFN197MBR]] $\mathbf{a} \times (\mathbf{b} \times \mathbf{c}) + \mathbf{b} \times (\mathbf{c} \times \mathbf{a}) + \mathbf{c} \times (\mathbf{a} \times \mathbf{b}) = \mathbf{0}$, so $\mathbb{R}^3$ with the cross product is a [[Lie algebra|5JJYBJ6A8K]].
