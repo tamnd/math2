@@ -1,0 +1,52 @@
+---
+tag: CGHMNHTWGK
+kind: proof
+name: Proof of the description of the solutions of a system in reduced row echelon form
+msc: ["15A06"]
+topics: [DXSXFVDMXQ]
+audience: ug1
+proves: P3HMRQN5KT
+uses: [0NNR68BFRY, 0JTRMBQ1SA]
+methods: [0NTF6DMVAP, 0WCP0PVET6, 41JZ39GE3F]
+sources:
+  - book: isbn:9780321982384
+    locator: Section 1.2
+  - url: https://en.wikipedia.org/wiki/Row_echelon_form
+    locator: Systems of linear equations
+---
+
+## Proof
+
+Write $(r_{i1}, \dots, r_{in} \mid c_i)$ for row $i$ of $[R \mid c]$.
+
+Part 1.
+
+1. Suppose that row $i$ has its leading entry in column $n + 1$.
+2. By the definition of a leading entry, $r_{i1} = \dots = r_{in} = 0$. By [[reduced row echelon form|0NNR68BFRY]], condition 2, $c_i = 1$.
+3. So equation $i$ reads $0 x_1 + \dots + 0 x_n = 1$, which no $x \in F^n$ satisfies.
+4. So the system has no solution.
+
+Parts 3 and 4, assuming that column $n + 1$ has no leading entry.
+
+5. Then every leading entry lies in a column of $R$. Let rows $1, \dots, r$ be the nonzero rows, with leading entries in columns $p_1 < \dots < p_r$.
+6. Rows $r + 1, \dots, m$ of $[R \mid c]$ are zero, by condition 1 of row echelon form. So equations $r + 1, \dots, m$ read $0 = 0$ and hold for every $x$.
+7. Fix $i \le r$. Entry $r_{i p_i}$ is $1$, by condition 2.
+8. For $l \ne i$, the entry $r_{i p_l}$ is $0$, by condition 3, since column $p_l$ has a leading entry in row $l$.
+9. The entries $r_{ij}$ with $j < p_i$ are $0$, since $p_i$ is the first nonzero entry of row $i$.
+10. So equation $i$ reads $x_{p_i} + \sum_{l=1}^{k} r_{i f_l} x_{f_l} = c_i$; only $x_{p_i}$ and free variables appear.
+11. By steps 6 and 10, $x \in F^n$ is a solution if and only if $x_{p_i} = c_i - \sum_{l} r_{i f_l} x_{f_l}$ for $i = 1, \dots, r$.
+12. Given $t \in F^k$, set $x_{f_l} = t_l$ and define $x_{p_i}$ by the formula of the statement. By step 11, $x$ is a solution.
+13. Any solution $x'$ with $x'_{f_l} = t_l$ satisfies the same formulas by step 11, so $x' = x$. This proves part 3.
+14. For part 4, the map $t \mapsto x$ is injective, because $t$ is read back from the coordinates $x_{f_l}$.
+15. It is onto the solution set: a solution $x$ is the image of $t = (x_{f_1}, \dots, x_{f_k})$, by part 3.
+16. So the map is a bijection from $F^k$ onto the solution set.
+
+## Idea
+
+In the reduced form, each nonzero equation contains exactly one basic variable, with coefficient $1$, and some free variables.
+So the equations say "each basic variable equals a known expression in the free variables".
+A row with its leading $1$ in the last column is the equation $0 = 1$.
+
+## Variants
+
+For a system in row echelon form that is not reduced, the same conclusion holds, but the basic variables are found one at a time by [[back substitution|0ATFVE08MW]], from the last nonzero row up.

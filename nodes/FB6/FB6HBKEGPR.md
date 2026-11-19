@@ -1,0 +1,51 @@
+---
+tag: FB6HBKEGPR
+kind: example
+name: A nonlinear system with exactly two solutions
+msc: ["15A06"]
+topics: [DXSXFVDMXQ]
+audience: school
+not_instance_of:
+  - target: 0GT4WWGWH2
+    note: the second equation xy = 0 is not linear, and the system has exactly two solutions, which no linear system over the reals can have
+uses: [0GT4WWGWH2, 0Q3ZT8J05R]
+sources:
+  - url: https://en.wikipedia.org/wiki/System_of_linear_equations
+    locator: lead section
+---
+
+## Example
+
+Consider the system over $\R$
+$$x + y = 1, \qquad xy = 0.$$
+
+1. The equation $xy = 0$ contains a product of two unknowns, so it is not a [[linear equation|0Q3ZT8J05R]].
+2. So the system is not a [[system of linear equations|0GT4WWGWH2]].
+3. From $xy = 0$ we get $x = 0$ or $y = 0$.
+4. If $x = 0$, then $y = 1$. If $y = 0$, then $x = 1$.
+5. So the solutions are exactly $(0, 1)$ and $(1, 0)$.
+6. Check: $0 + 1 = 1$ and $0 \cdot 1 = 0$; $1 + 0 = 1$ and $1 \cdot 0 = 0$.
+7. Their midpoint $(\tfrac12, \tfrac12)$ satisfies $x + y = 1$ but gives $xy = \tfrac14 \ne 0$.
+
+## Remarks
+
+A linear system over $\R$ with two solutions $s \ne t$ has every point $s + c(t - s)$ as a solution, so it has infinitely many.
+So the count "exactly two" proves that no linear system has the same solution set.
+
+## Explanations
+
+### L1 human
+
+The line $x + y = 1$ meets the two axes in two points.
+The equation $xy = 0$ describes the two axes, which together are not one straight line.
+That is why we get exactly two answers.
+
+### L2 human
+
+The test "count the solutions" detects nonlinear systems.
+
+1. Find two solutions $s$ and $t$.
+2. Check whether the midpoint $\tfrac12(s + t)$ is a solution.
+3. If it is not, the solution set cannot be the solution set of a linear system over $\R$.
+
+A trap: the converse fails; a nonlinear system can have a line of solutions, for example $x^2 = 0$ in the unknowns $x, y$.
