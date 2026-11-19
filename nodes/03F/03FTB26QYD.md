@@ -34,7 +34,7 @@ So the space must be $\mathbb{R}^3$.
 
 - The other bracketing: $(a \times b) \times c = -c \times (a \times b) = (a \cdot c) \, b - (b \cdot c) \, a$.
 - The cross product is not associative. For $a = b = \mathbf{i}$ and $c = \mathbf{j}$: $\mathbf{i} \times (\mathbf{i} \times \mathbf{j}) = \mathbf{i} \times \mathbf{k} = -\mathbf{j}$, but $(\mathbf{i} \times \mathbf{i}) \times \mathbf{j} = 0$.
-- The [[Jacobi identity|~d54cd1fb]] $a \times (b \times c) + b \times (c \times a) + c \times (a \times b) = 0$.
+- The [[Jacobi identity|NDDB9EDN84]] $a \times (b \times c) + b \times (c \times a) + c \times (a \times b) = 0$.
 - For a unit vector $n$, $v = (v \cdot n) \, n + n \times (v \times n)$. This splits $v$ into its parts along and across $n$.
 - The Binet-Cauchy identity $(a \times b) \cdot (c \times d) = (a \cdot c)(b \cdot d) - (a \cdot d)(b \cdot c)$, by the exchange of dot and cross.
 
@@ -59,7 +59,7 @@ A memory aid is "BAC minus CAB": $a \times (b \times c) = b (a \cdot c) - c (a \
 
 ### L2 human
 
-Worked check with $a = (1, 2, 3)$, $b = (4, 5, 6)$ and $c = (7, 8, 10)$; the [[worked example|~ef2efaab]] gives all details.
+Worked check with $a = (1, 2, 3)$, $b = (4, 5, 6)$ and $c = (7, 8, 10)$; the [[worked example|V2CJH2RJ93]] gives all details.
 
 1. $b \times c = (2, 2, -3)$ and $a \times (b \times c) = (-12, 9, -2)$.
 2. $a \cdot c = 53$ and $a \cdot b = 32$, and $53 \, (4, 5, 6) - 32 \, (7, 8, 10) = (-12, 9, -2)$.

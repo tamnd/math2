@@ -44,15 +44,15 @@ In $\mathbb{R}^n$ for $n \geq 4$ there is no picture, and we take the same formu
 ### Examples
 
 - $\|(3, 4)\| = \sqrt{9 + 16} = 5$.
-- $\|(2, -1, 2)\| = \sqrt{4 + 1 + 4} = 3$, so $(\tfrac{2}{3}, -\tfrac{1}{3}, \tfrac{2}{3})$ is a unit vector. The [[worked example|~64bfef2d]] gives the details.
+- $\|(2, -1, 2)\| = \sqrt{4 + 1 + 4} = 3$, so $(\tfrac{2}{3}, -\tfrac{1}{3}, \tfrac{2}{3})$ is a unit vector. The [[worked example|PHDF089S8P]] gives the details.
 - $\|(1, 1, 1, 1)\| = \sqrt{4} = 2$ in $\mathbb{R}^4$.
-- The distance from $(1, 2, 3)$ to $(4, 6, 15)$ is $\|(3, 4, 12)\| = 13$. The [[distance example|~88ca68c8]] computes it step by step.
+- The distance from $(1, 2, 3)$ to $(4, 6, 15)$ is $\|(3, 4, 12)\| = 13$. The [[distance example|M2J9EPM1WJ]] computes it step by step.
 - Each standard unit vector $\mathbf{i}$, $\mathbf{j}$, $\mathbf{k}$ has length $1$.
 
 ### Non-examples
 
 - The sum of the components is not a length: $(1, -1)$ has sum $0$, but it is not the zero vector.
-- The sum of the absolute values of the components is a [[norm|0V2WP9B1MF]], but it is not the Euclidean length. The [[taxicab non-example|~a963a6ca]] shows that it gives $7$ for $(3, 4)$, not $5$.
+- The sum of the absolute values of the components is a [[norm|0V2WP9B1MF]], but it is not the Euclidean length. The [[taxicab non-example|WW2RB40VYX]] shows that it gives $7$ for $(3, 4)$, not $5$.
 - The expression $v_1^2 + v_2^2$ without the square root is the square of the length, not the length. It is not homogeneous of degree $1$: doubling $v$ multiplies it by $4$.
 
 ### Basic properties

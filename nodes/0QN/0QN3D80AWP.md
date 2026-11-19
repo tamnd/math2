@@ -51,16 +51,16 @@ So geometry in the plane and in space becomes algebra, and the same algebra then
 
 ### Examples
 
-- The vector from $A = (1, 2)$ to $B = (4, 6)$ is $\overrightarrow{AB} = (3, 4)$. The [[worked example|~8b8b3ceb]] adds it to another vector by the parallelogram rule.
+- The vector from $A = (1, 2)$ to $B = (4, 6)$ is $\overrightarrow{AB} = (3, 4)$. The [[worked example|DPADSQ4DFJ]] adds it to another vector by the parallelogram rule.
 - The position vector of the point $P = (2, -1, 5)$ is $\overrightarrow{OP} = (2, -1, 5)$. Each point has exactly one position vector.
 - The standard unit vectors $\mathbf{i} = (1, 0, 0)$, $\mathbf{j} = (0, 1, 0)$ and $\mathbf{k} = (0, 0, 1)$ have length $1$. Each vector of $\mathbb{R}^3$ is $v_1 \mathbf{i} + v_2 \mathbf{j} + v_3 \mathbf{k}$.
 - A velocity of $3$ m/s east and $4$ m/s north is the vector $(3, 4)$. Its speed is $5$ m/s.
-- A list of $4$ measurements, such as $(20, 18, 25, 22)$, is a vector of $\mathbb{R}^4$. The [[example on lists|~f5e61e59]] computes with such vectors.
+- A list of $4$ measurements, such as $(20, 18, 25, 22)$, is a vector of $\mathbb{R}^4$. The [[example on lists|30AYM35BMY]] computes with such vectors.
 
 ### Non-examples
 
 - A point is not a vector. Two points cannot be added in a meaningful way, because the sum depends on the choice of the origin.
-- A rotation by a fixed angle about an axis has a size and a direction, but it is not a vector. The [[non-example of rotations|~34c4d369]] shows that two rotations do not commute, while vector addition does.
+- A rotation by a fixed angle about an axis has a size and a direction, but it is not a vector. The [[non-example of rotations|AW7Q0F3M8J]] shows that two rotations do not commute, while vector addition does.
 - A temperature has a size but no direction. It is a scalar, not a vector.
 
 ### Basic properties

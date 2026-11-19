@@ -46,13 +46,13 @@ This is why one linear equation in three unknowns describes a plane.
 ### Examples
 
 - The plane $z = 0$ has the normal vector $(0, 0, 1)$ and the parametric form $s(1, 0, 0) + t(0, 1, 0)$.
-- The plane through $(1, 0, 0)$, $(0, 2, 0)$ and $(0, 0, 3)$ is $6x + 3y + 2z = 6$. The [[three-point example|~305ce7fa]] derives it.
+- The plane through $(1, 0, 0)$, $(0, 2, 0)$ and $(0, 0, 3)$ is $6x + 3y + 2z = 6$. The [[three-point example|B1N13NEAJQ]] derives it.
 - The plane through $(1, 2, 3)$ with the normal $(2, -1, 4)$ is $2x - y + 4z = 2 - 2 + 12 = 12$.
-- The planes $x + y = 1$ and $y + z = 2$ make the angle $\tfrac{\pi}{3}$. The [[angle example|~49200a35]] computes it.
+- The planes $x + y = 1$ and $y + z = 2$ make the angle $\tfrac{\pi}{3}$. The [[angle example|P0VS33VRSR]] computes it.
 
 ### Non-examples
 
-- The equation $0x + 0y + 0z = d$ is not a plane: it is empty for $d \neq 0$ and all of $\mathbb{R}^3$ for $d = 0$. The [[non-example|~b7a5de3d]] treats this and three collinear points.
+- The equation $0x + 0y + 0z = d$ is not a plane: it is empty for $d \neq 0$ and all of $\mathbb{R}^3$ for $d = 0$. The [[non-example|3BV88R6A66]] treats this and three collinear points.
 - In $\mathbb{R}^3$, the equation $x + y = 1$ is a plane, not a line; it is a line only in $\mathbb{R}^2$.
 - The set $\{a + s u + t v\}$ with $u \parallel v$ is a line, not a plane.
 
@@ -64,7 +64,7 @@ This is why one linear equation in three unknowns describes a plane.
 - Angle between two planes: the angle $\varphi \in [0, \tfrac{\pi}{2}]$ with $\cos \varphi = \dfrac{|n_1 \cdot n_2|}{\|n_1\| \, \|n_2\|}$.
 - Angle between a line with direction $d$ and a plane: $\sin \psi = \dfrac{|d \cdot n|}{\|d\| \, \|n\|}$.
 - The line $a + t d$ meets the plane $n \cdot r = e$ in one point if and only if $n \cdot d \neq 0$.
-- The distance from a point $q$ to the plane $n \cdot r = d$ is $\dfrac{|n \cdot q - d|}{\|n\|}$, by the [[distance formulas|~1297517b]].
+- The distance from a point $q$ to the plane $n \cdot r = d$ is $\dfrac{|n \cdot q - d|}{\|n\|}$, by the [[distance formulas|C6GAS92QHX]].
 
 ### History
 

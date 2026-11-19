@@ -1,0 +1,47 @@
+---
+tag: 3VX46SFKZB
+kind: example
+name: Three coplanar vectors with a zero triple product
+msc: ["15A72", "97G70"]
+topics: [VKVAJ94SKZ]
+audience: school
+instance_of: [34VJYG6GVD]
+illustrates: [7RMCRQ9ERC]
+uses: [34VJYG6GVD, 0N5N15HWZ7, 0S52TNNTH9, 0CRMGPAH83]
+sources:
+  - url: https://en.wikipedia.org/wiki/Triple_product
+    locator: Scalar triple product
+---
+
+## Example
+
+Let $u = (1, 2, 3)$, $v = (4, 5, 6)$ and $w = (7, 8, 9)$.
+We show that the [[scalar triple product|34VJYG6GVD]] is $0$ and find the dependence.
+
+1. [[Cross product|0N5N15HWZ7]]: $v \times w = (5 \cdot 9 - 6 \cdot 8, \; 6 \cdot 7 - 4 \cdot 9, \; 4 \cdot 8 - 5 \cdot 7) = (-3, 6, -3)$.
+2. [[Dot product|0S52TNNTH9]]: $u \cdot (v \times w) = -3 + 12 - 9 = 0$.
+3. By the [[coplanarity test|7RMCRQ9ERC]], $u$, $v$, $w$ are [[linearly dependent|0CRMGPAH83]].
+4. To find the dependence, solve $w = x u + y v$. The first two components give $x + 4y = 7$ and $2x + 5y = 8$.
+5. These give $y = 2$ and $x = -1$. The third component checks: $-3 + 2 \cdot 6 = 9$.
+6. So $w = 2v - u$, and $u - 2v + w = 0$.
+
+## Remarks
+
+The vectors lie in the plane through $0$ with the normal vector $v \times w = (-3, 6, -3)$, that is, the plane $x - 2y + z = 0$.
+Check: $1 - 4 + 3 = 0$, $4 - 10 + 6 = 0$ and $7 - 16 + 9 = 0$.
+No two of the three vectors are parallel, so the zero comes from all three together.
+The matrix with the rows $u$, $v$, $w$ is a standard example of a singular matrix.
+
+## Explanations
+
+### L1 human
+
+The three arrows $(1, 2, 3)$, $(4, 5, 6)$ and $(7, 8, 9)$ lie flat in one plane through the origin.
+The box they make is flat, so its volume is $0$, and the triple product is $0$.
+The steps from $u$ to $v$ and from $v$ to $w$ are both $(3, 3, 3)$, which explains the flat box.
+
+### L2 human
+
+The zero in step 2 tells only that a dependence exists; steps 4 and 5 find it.
+Here $v - u = w - v = (3, 3, 3)$, so the tips of $u$, $v$, $w$ lie on one line, and that line and $0$ span the plane.
+A trap: a zero triple product does not mean that two of the vectors are parallel, and here none are.

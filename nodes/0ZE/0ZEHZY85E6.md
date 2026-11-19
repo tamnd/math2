@@ -45,14 +45,14 @@ This works only if the quotient lies between $-1$ and $1$, and the Cauchy-Schwar
 
 - $(1, 0)$ and $(0, 1)$: the dot product is $0$, so $\theta = \tfrac{\pi}{2}$.
 - $(1, 1, 0)$ and $(1, 0, 1)$: $\cos \theta = \tfrac{1}{2}$, so $\theta = \tfrac{\pi}{3}$. The three points $0$, $(1, 1, 0)$ and $(1, 0, 1)$ form an equilateral triangle.
-- $(1, 2)$ and $(-3, 1)$: $\cos \theta = -\tfrac{1}{5\sqrt{2}}$, so $\theta \approx 98.13^\circ$, an obtuse angle. The [[worked example|~e9e732b2]] gives the steps.
+- $(1, 2)$ and $(-3, 1)$: $\cos \theta = -\tfrac{1}{5\sqrt{2}}$, so $\theta \approx 98.13^\circ$, an obtuse angle. The [[worked example|KK2HKZ8F1A]] gives the steps.
 - In $\mathbb{R}^4$, $(1, 1, 1, 1)$ and $(1, 0, 0, 0)$: $\cos \theta = \tfrac{1}{2 \cdot 1}$, so $\theta = \tfrac{\pi}{3}$.
-- The direction cosines of $(2, -1, 2)$ are $\tfrac{2}{3}$, $-\tfrac{1}{3}$ and $\tfrac{2}{3}$. The [[direction cosine example|~a7428d5d]] checks that their squares add to $1$.
+- The direction cosines of $(2, -1, 2)$ are $\tfrac{2}{3}$, $-\tfrac{1}{3}$ and $\tfrac{2}{3}$. The [[direction cosine example|8NJY1C9GVH]] checks that their squares add to $1$.
 
 ### Non-examples
 
 - The angle with the zero vector is not defined: $\|0\| = 0$ is in the denominator.
-- The arccosine of $\frac{u \star v}{\sqrt{u \star u} \sqrt{v \star v}}$ for a form $\star$ that is not an inner product need not exist. The [[non-example with the Minkowski form|~ae2b64d5]] gets the value $\tfrac{2}{\sqrt{3}} > 1$.
+- The arccosine of $\frac{u \star v}{\sqrt{u \star u} \sqrt{v \star v}}$ for a form $\star$ that is not an inner product need not exist. The [[non-example with the Minkowski form|VDK0B2K1XT]] gets the value $\tfrac{2}{\sqrt{3}} > 1$.
 - The oriented angle from $u$ to $v$ in the plane, in $(-\pi, \pi]$, is a different notion. It changes sign when we swap $u$ and $v$, and the angle between vectors does not.
 
 ### Basic properties

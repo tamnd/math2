@@ -7,8 +7,8 @@ aliases: [mixed-product, box-product]
 msc: ["15A72", "15A15"]
 topics: [VKVAJ94SKZ]
 audience: school
-about: [~d7839aac]
-uses: [0N5N15HWZ7, 0S52TNNTH9, ~d7839aac, 00KDZRW4C0]
+about: [34VJYG6GVD]
+uses: [0N5N15HWZ7, 0S52TNNTH9, 34VJYG6GVD, 00KDZRW4C0]
 sources:
   - url: https://en.wikipedia.org/wiki/Triple_product
     locator: Scalar triple product
@@ -18,7 +18,7 @@ sources:
 
 Let $a = (a_1, a_2, a_3)$, $b = (b_1, b_2, b_3)$ and $c = (c_1, c_2, c_3)$ be vectors in $\mathbb{R}^3$.
 Let $\times$ be the [[cross product|0N5N15HWZ7]] and let $\cdot$ be the [[dot product|0S52TNNTH9]].
-Then the [[scalar triple product|~d7839aac]] is the [[determinant|00KDZRW4C0]] of the matrix with the rows $a$, $b$ and $c$:
+Then the [[scalar triple product|34VJYG6GVD]] is the [[determinant|00KDZRW4C0]] of the matrix with the rows $a$, $b$ and $c$:
 $$a \cdot (b \times c) = \det \begin{pmatrix} a_1 & a_2 & a_3 \\ b_1 & b_2 & b_3 \\ c_1 & c_2 & c_3 \end{pmatrix}.$$
 
 ## Remarks
@@ -34,7 +34,7 @@ The space must be $\mathbb{R}^3$, because the cross product and the $3 \times 3$
 - A swap of two of the vectors changes the sign, since a row swap changes the sign of a determinant.
 - $a \cdot (b \times c) = (a \times b) \cdot c$, by cyclic symmetry and the symmetry of the dot product.
 - The value is $0$ if two of the vectors are equal, since the determinant then has two equal rows.
-- The [[volume and coplanarity test|~15dbbcb4]] can be read off from the determinant: $\det = 0$ if and only if the rows are linearly dependent.
+- The [[volume and coplanarity test|7RMCRQ9ERC]] can be read off from the determinant: $\det = 0$ if and only if the rows are linearly dependent.
 
 ### Converse
 

@@ -15,10 +15,10 @@ It covers the overview of the area, its teaching, and geometric vectors in the p
 
 ### Reading order
 
-1. [[Linear algebra: overview|~0a3756c5]]: the three views of the subject and the map of the sub-areas.
-2. [[Teaching linear algebra|~48fab349]]: matrix-first and abstract-first courses, proofs and software.
-3. [[Linear algebra without determinants|~2e5ccd05]]: eigenvalues from polynomials in the operator.
-4. [[Common errors in learning linear algebra|~5aa23dfb]]: five frequent errors with counterexamples.
+1. [[Linear algebra: overview|Y7PBW8VD4Q]]: the three views of the subject and the map of the sub-areas.
+2. [[Teaching linear algebra|9AXCDDT1Z1]]: matrix-first and abstract-first courses, proofs and software.
+3. [[Linear algebra without determinants|4C6EBHFF3R]]: eigenvalues from polynomials in the operator.
+4. [[Common errors in learning linear algebra|79YPKR857M]]: five frequent errors with counterexamples.
 5. [[Euclidean vector|0QN3D80AWP]]: arrows, components, sums and scalar multiples.
 6. [[Length of a vector|0XKBKGTCPC]]: the Euclidean norm, unit vectors and distances.
 7. [[Dot product|0S52TNNTH9]]: the coordinate and the geometric definitions and their equivalence.
@@ -26,12 +26,12 @@ It covers the overview of the area, its teaching, and geometric vectors in the p
 9. [[Perpendicular vectors and the dot product|03NK6RSRQ1]]: perpendicular exactly when the dot product is zero.
 10. [[Vector projection|0JW13B48YP]]: the component along a vector and the orthogonal decomposition.
 11. [[Cross product|0N5N15HWZ7]]: the product in space, its length as an area, and Lagrange's identity.
-12. [[Scalar triple product|~d7839aac]]: a determinant, a volume and a test for coplanarity.
+12. [[Scalar triple product|34VJYG6GVD]]: a determinant, a volume and a test for coplanarity.
 13. [[Vector triple product|03FTB26QYD]]: the expansion formula and the Jacobi identity.
 14. [[Vector and parametric equations of a line|0399QFDFS8]]: lines in the plane and in space, and skew lines.
 15. [[Normal vector and equation of a plane|07SDJ5DNE4]]: point-normal and parametric forms, and angles between planes.
-16. [[Distances between points, lines and planes|~1297517b]]: the distance formulas by projections and cross products.
-17. [[Vector proofs in plane geometry|~4fea2d77]]: medians, parallelograms, forces and velocities.
+16. [[Distances between points, lines and planes|C6GAS92QHX]]: the distance formulas by projections and cross products.
+17. [[Vector proofs in plane geometry|ZVEKWJTSV7]]: medians, parallelograms, forces and velocities.
 
 ### Prerequisites
 

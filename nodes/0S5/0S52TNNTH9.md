@@ -55,13 +55,13 @@ Physics found the same number independently: the work of a constant force $F$ al
 - $(1, 2, 3) \cdot (4, 5, 6) = 4 + 10 + 18 = 32$.
 - $(1, 2) \cdot (-2, 1) = -2 + 2 = 0$, so the two vectors are perpendicular.
 - For the standard unit vectors, $\mathbf{i} \cdot \mathbf{i} = 1$ and $\mathbf{i} \cdot \mathbf{j} = 0$.
-- For $u = (3, 0)$ and $v = (2, 2)$ both definitions give $6$. The [[worked comparison|~98714500]] shows the steps.
-- A force $(2, 3, 1)$ newtons along the displacement $(4, -1, 2)$ metres does the work $7$ joules. The [[work example|~d27715bf]] gives the details.
+- For $u = (3, 0)$ and $v = (2, 2)$ both definitions give $6$. The [[worked comparison|9C7YQTW1ZM]] shows the steps.
+- A force $(2, 3, 1)$ newtons along the displacement $(4, -1, 2)$ metres does the work $7$ joules. The [[work example|2ZK5YBNB59]] gives the details.
 
 ### Non-examples
 
 - The product component by component, $(1, 2, 3) \ast (4, 5, 6) = (4, 10, 18)$, is a vector, not the dot product. The dot product adds these numbers.
-- The form $u_1 v_1 - u_2 v_2$ on $\mathbb{R}^2$ is symmetric and bilinear, but it is not positive. The [[non-example of the Minkowski form|~22f8dc4f]] shows that the vector $(1, 1)$ gives $0$.
+- The form $u_1 v_1 - u_2 v_2$ on $\mathbb{R}^2$ is symmetric and bilinear, but it is not positive. The [[non-example of the Minkowski form|TFGECQ5C32]] shows that the vector $(1, 1)$ gives $0$.
 - The product $\|u\| \, \|v\|$ of the lengths is not the dot product: it does not change when $v$ turns, and the dot product does.
 
 ### Basic properties

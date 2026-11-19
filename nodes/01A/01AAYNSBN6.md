@@ -6,7 +6,7 @@ name: Distance from a point to a line
 msc: ["51N20"]
 topics: [VKVAJ94SKZ]
 audience: school
-about: [~1297517b]
+about: [C6GAS92QHX]
 uses: [0NPPGHQNXQ, 0MP9BCF6DP, 0WQJJCCTC8]
 sources:
   - url: https://en.wikipedia.org/wiki/Distance_from_a_point_to_a_line
@@ -44,7 +44,7 @@ The distance is $0$ if and only if $P \in L$.
 
 In $\mathbb{R}^n$, let $L$ be the line through $A$ with the direction $v$.
 The distance from $P$ to $L$ is the length of $(P - A) - \dfrac{(P - A) \cdot v}{v \cdot v} v$.
-In $\mathbb{R}^3$ it is also $\|(P - A) \times v\| / \|v\|$, by the [[distance theorem for lines in space|~c9d9dc6b]].
+In $\mathbb{R}^3$ it is also $\|(P - A) \times v\| / \|v\|$, by the [[distance theorem for lines in space|Q6YGYNSY5H]].
 The [[distance to a plane|0K1E2S6Z69]] is the same formula one dimension higher.
 
 ## Explanations

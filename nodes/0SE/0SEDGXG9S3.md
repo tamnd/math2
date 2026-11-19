@@ -32,7 +32,7 @@ In Mathlib the cross product of two vectors $a, b : \text{Fin } 3 \to R$ is `cro
 ## Remarks
 
 For the standard basis vectors $e_1$, $e_2$, $e_3$ of $\mathbb{R}^3$: $e_1 \times e_2 = e_3$, $e_2 \times e_3 = e_1$ and $e_3 \times e_1 = e_2$.
-If $\theta$ is the angle between nonzero vectors $a$ and $b$, then $\|a \times b\| = \|a\| \, \|b\| \sin \theta$, the area of the parallelogram with the sides $a$ and $b$, by the [[length formula|~bafd22bd]].
+If $\theta$ is the angle between nonzero vectors $a$ and $b$, then $\|a \times b\| = \|a\| \, \|b\| \sin \theta$, the area of the parallelogram with the sides $a$ and $b$, by the [[length formula|SAZ353S8W0]].
 The cross product is [[perpendicular to its factors|0T4QHJXSD4]] and [[anticommutative|07ZS685JJC]], and it is bilinear but not associative.
 In the usual right-handed coordinates, $a$, $b$ and $a \times b$ follow the right-hand rule.
 

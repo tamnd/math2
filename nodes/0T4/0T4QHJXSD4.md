@@ -31,7 +31,7 @@ The statement holds for all $a, b \in \mathbb{R}^3$, including the zero vector a
 
 - If $a$ and $b$ are not parallel, then $a \times b$ is a normal vector of the plane through $0$ spanned by $a$ and $b$, as the row on the [[equation of a plane|07SDJ5DNE4]] uses.
 - $a \times b$ is perpendicular to each linear combination $sa + tb$, by the linearity of the dot product.
-- The scalar triple products $a \cdot (a \times b)$ and $b \cdot (a \times b)$ are $0$, which matches the fact that the [[scalar triple product|~d7839aac]] of three coplanar vectors is $0$.
+- The scalar triple products $a \cdot (a \times b)$ and $b \cdot (a \times b)$ are $0$, which matches the fact that the [[scalar triple product|34VJYG6GVD]] of three coplanar vectors is $0$.
 
 ### Converse
 
