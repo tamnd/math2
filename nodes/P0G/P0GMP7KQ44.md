@@ -1,0 +1,53 @@
+---
+tag: P0GMP7KQ44
+kind: example
+name: Every finite chain is a p-morphic image of a Medvedev frame
+msc: ["03B55"]
+topics: [38EQ20GR7M]
+audience: research
+instance_of: [R2FD01J3PC]
+uses: [R2FD01J3PC, 5GTQ69W47T, DGJ176J5CT]
+sources:
+  - arxiv: 2404.04349v1
+    locator: page 3
+  - url: https://en.wikipedia.org/wiki/Intermediate_logic
+    locator: Syntactics
+---
+
+## Example
+
+Let $C_n$ be the chain $0 < 1 < \dots < n - 1$, viewed as a Kripke frame.
+We show that $C_n$ is a p-morphic image of $M_n$, and deduce $\mathsf{ML} \subseteq \mathsf{LC}$.
+
+1. Define $f \colon M_n \to C_n$ by $f(K) = n - |K|$. Since $1 \leq |K| \leq n$, the value lies in $\set{0, \dots, n - 1}$.
+2. Monotone: if $K \leq L$ in $M_n$, then $L \subseteq K$, so $|L| \leq |K|$ and $f(K) \leq f(L)$.
+3. Back condition: let $f(K) \leq c$. Then $1 \leq n - c \leq |K|$, so $K$ has a nonempty subset $L$ with $|L| = n - c$. Then $K \leq L$ and $f(L) = c$.
+4. Transfer: let $V$ be a valuation on $C_n$ and put $V'(p) = f^{-1}[V(p)]$, an up-set by step 2. By induction on $\chi$, $K \Vdash_{V'} \chi$ iff $f(K) \Vdash_V \chi$. The implication case uses step 2 in one direction and step 3 in the other.
+5. $f$ is onto, by step 3 applied to the root. So if $\chi$ fails at some $c$ under $V$, it fails at a world of $M_n$ under $V'$.
+6. Hence every formula of $\mathsf{ML}$ is valid on every finite chain.
+7. By [[the completeness of Gödel-Dummett logic|DGJ176J5CT]], $\mathsf{LC}$ is the logic of the finite chains. So $\mathsf{ML} \subseteq \mathsf{LC}$.
+
+## Remarks
+
+The inclusion is strict, since $\neg p \vee \neg \neg p \in \mathsf{LC}$ and [[it is not in ML|GNTDZ4S97V]].
+For $n = 2$, $f$ maps the fork onto the two-element chain by sending both leaves to the top.
+The method works for any finite rooted frame that is a p-morphic image of a generated subframe of some $M_n$; every such frame validates $\mathsf{ML}$.
+
+## Explanations
+
+### L1 human
+
+In a puzzle with $n$ candidates, forget which candidates remain and keep only how many.
+The count goes down by steps, from $n$ to $1$, as you learn.
+This forgetful view is a chain of $n$ stages.
+Every law of Medvedev's logic survives this forgetting, so it is also a law of the logic of chains.
+
+### L2 human
+
+1. Take $n = 3$. $M_3$ has the root $\set{1, 2, 3}$, three worlds of size $2$, and three maximal worlds.
+2. $f$ sends the root to $0$, the worlds of size 2 to $1$, and the singletons to $2$.
+3. From the root one reaches every size, and from a world of size 2 one reaches size 1. So the back condition holds.
+4. The prelinearity formula $(p \to q) \vee (q \to p)$ is valid on $C_3$ but fails on $M_3$, so the inclusion cannot be reversed.
+
+The typical use is to compare $\mathsf{ML}$ with logics given by other frames.
+A trap: p-morphisms preserve validity from the source frame to the image, not the other way.

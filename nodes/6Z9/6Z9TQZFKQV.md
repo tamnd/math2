@@ -1,0 +1,48 @@
+---
+tag: 6Z9TQZFKQV
+kind: example
+name: Frames with a greatest element validate the Kreisel-Putnam axiom
+msc: ["03B55"]
+topics: [38EQ20GR7M]
+audience: research
+instance_of: [669Y0EGM3N]
+uses: [X0C1NC7FXX, 5GTQ69W47T, CX032ACTMZ]
+sources:
+  - url: https://eprints.illc.uva.nl/id/document/492
+    locator: Section 3.3
+---
+
+## Example
+
+Let $F$ be a frame with a greatest element $t$.
+We show that every instance of the [[Kreisel-Putnam axiom|X0C1NC7FXX]] is valid on $F$, and deduce $\mathsf{KP} \subseteq \mathsf{KC}$.
+
+1. Fix a model on $F$ and a formula $\varphi$. If $t \Vdash \varphi$, every world sees $t$, so no world forces $\neg \varphi$.
+2. If $t \nVdash \varphi$, then no world forces $\varphi$, by persistence. So every world forces $\neg \varphi$.
+3. Let $w \Vdash \neg \varphi \to \psi \vee \chi$. In the case of step 1, $w$ forces $\neg \varphi \to \psi$ vacuously.
+4. In the case of step 2, $w \Vdash \neg \varphi$, so $w \Vdash \psi$ or $w \Vdash \chi$. Say $w \Vdash \psi$; then $w \Vdash \neg \varphi \to \psi$ by persistence.
+5. So $w$ forces the conclusion of the axiom, and every theorem of $\mathsf{KP}$ is valid on $F$.
+6. By item 4 of [[the theorem on weak excluded middle|CX032ACTMZ]], $\mathsf{KC}$ is the logic of the finite rooted frames with a greatest element. Hence $\mathsf{KP} \subseteq \mathsf{KC}$.
+
+## Remarks
+
+On such a frame, $\neg \varphi$ is either true everywhere or nowhere.
+So a negated premise behaves like a classical constant, and the axiom holds for the same reason as in classical logic.
+The argument uses only that every world sees a common world, so it works for every directed rooted frame.
+
+## Explanations
+
+### L1 human
+
+When all lines of research meet in a final state, every negated statement is settled from the start.
+Either it is true at every stage, or false at every stage.
+An implication from such a statement to "$\psi$ or $\chi$" then splits into one of the two implications.
+
+### L2 human
+
+1. Check whether the top forces $\varphi$.
+2. If it does, $\neg \varphi$ is false everywhere; if not, it is true everywhere.
+3. In both cases the axiom holds at once.
+
+The typical use is to compare $\mathsf{KP}$ with $\mathsf{KC}$.
+A trap: the converse inclusion fails, so $\mathsf{KC}$ is strictly stronger; see [[the fork|8D3VFWCW5A]].

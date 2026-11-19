@@ -5,7 +5,7 @@ name: Logic of weak excluded middle
 msc: ["03B55"]
 topics: [38EQ20GR7M]
 audience: research
-uses: [~57af80cc, ~11b532e9, D9RY4667K6]
+uses: [H5NSKEP3P2, 5GTQ69W47T, D9RY4667K6]
 sources:
   - wikipedia: en:76765067@r1368301704
     locator: Glossary of logic, section L
@@ -23,7 +23,7 @@ inventory: [NAQDKJMENM]
 
 ## Summary
 
-The *logic of weak excluded middle* is the [[intermediate logic|~57af80cc]] obtained by adding all instances of weak excluded middle to intuitionistic logic.
+The *logic of weak excluded middle* is the [[intermediate logic|H5NSKEP3P2]] obtained by adding all instances of weak excluded middle to intuitionistic logic.
 So $\mathsf{KC} = \mathsf{IPC} + \neg p \vee \neg \neg p$.
 It is also called "KC", "Jankov's logic" and "De Morgan logic".
 By [[the theorem on weak excluded middle|CX032ACTMZ]], it is also axiomatized by the De Morgan law $\neg (p \wedge q) \to \neg p \vee \neg q$.
@@ -48,24 +48,24 @@ Through the Gödel-McKinsey-Tarski translation, $\mathsf{S4.2}$ is a modal compa
 
 ### Examples
 
-1. [[The natural numbers as a frame of KC|~9391a9ad]]: $(\mathbb{N}, \leq)$ validates $\mathsf{KC}$ without a greatest element.
-2. [[A double negation shift in KC|~59e17663]]: $\mathsf{KC} \vdash \neg \neg (p \vee q) \to \neg \neg p \vee \neg \neg q$.
-3. The diamond is a frame of $\mathsf{KC}$ that is not linear; see [[weak excluded middle in LC|~65d4934d]].
-4. The three-element Heyting chain validates the weak excluded middle; see [[the three-element chain|~3ee60f92]].
+1. [[The natural numbers as a frame of KC|HBN6HZYJP3]]: $(\mathbb{N}, \leq)$ validates $\mathsf{KC}$ without a greatest element.
+2. [[A double negation shift in KC|ERFK4DR5TV]]: $\mathsf{KC} \vdash \neg \neg (p \vee q) \to \neg \neg p \vee \neg \neg q$.
+3. The diamond is a frame of $\mathsf{KC}$ that is not linear; see [[weak excluded middle in LC|F448T49KSX]].
+4. The three-element Heyting chain validates the weak excluded middle; see [[the three-element chain|G4S6HY9SHK]].
 
 ### Non-examples
 
-1. [[The open sets of the real line|~ea03da59]] refute the weak excluded middle, so they do not form a model of $\mathsf{KC}$.
-2. [[The fork|~55d54e6d]] is not a frame of $\mathsf{KC}$: its two leaves have no common upper bound.
+1. [[The open sets of the real line|TQ7914VC4C]] refute the weak excluded middle, so they do not form a model of $\mathsf{KC}$.
+2. [[The fork|1ENA02ZNAH]] is not a frame of $\mathsf{KC}$: its two leaves have no common upper bound.
 
 ### Basic properties
 
-1. $\mathsf{IPC} \subsetneq \mathsf{KC} \subsetneq \mathsf{LC} \subsetneq \mathsf{CPC}$; see [[the theorem|CX032ACTMZ]] and [[the derivation in LC|~65d4934d]].
+1. $\mathsf{IPC} \subsetneq \mathsf{KC} \subsetneq \mathsf{LC} \subsetneq \mathsf{CPC}$; see [[the theorem|CX032ACTMZ]] and [[the derivation in LC|F448T49KSX]].
 2. $\mathsf{KC}$ is complete for finite rooted frames with a greatest element, so it has the finite model property and is decidable.
 3. $\mathsf{KC}$ lacks the disjunction property, since it proves $\neg p \vee \neg \neg p$ but neither disjunct.
-4. [[Jankov's theorem|~830f1475]]: $\mathsf{KC}$ is the largest intermediate logic whose negation-free theorems are those of $\mathsf{IPC}$.
-5. $\mathsf{KC}$ has the Craig interpolation property; it is one of [[Maksimova's seven logics|~a89c6574]].
-6. $\mathsf{KC}$ is not structurally complete, and Visser's rules form a basis of its admissible rules; see [[admissible rules|~41ee4c18]].
+4. [[Jankov's theorem|DEKDMG563N]]: $\mathsf{KC}$ is the largest intermediate logic whose negation-free theorems are those of $\mathsf{IPC}$.
+5. $\mathsf{KC}$ has the Craig interpolation property; it is one of [[Maksimova's seven logics|M3RTNGG3J5]].
+6. $\mathsf{KC}$ is not structurally complete, and Visser's rules form a basis of its admissible rules; see [[admissible rules|C5K35H0R4Y]].
 
 ### History
 

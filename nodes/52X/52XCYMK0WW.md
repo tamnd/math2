@@ -41,13 +41,13 @@ Both choices give the same theorems after the translation $\neg\varphi \mapsto \
 ## Remarks
 
 1. Axioms 1 to 6 with modus ponens form positive intuitionistic logic. Axiom 7 is the principle of [[explosion|TTKZGJEEK7]].
-2. Dropping axiom 7 gives [[minimal logic|~77bc5ed0]]. Adding the [[law of excluded middle|0RYYK8PG4S]] $\varphi \vee \neg\varphi$ gives classical [[propositional logic|09K9MWD2QQ]].
+2. Dropping axiom 7 gives [[minimal logic|3MBG95617E]]. Adding the [[law of excluded middle|0RYYK8PG4S]] $\varphi \vee \neg\varphi$ gives classical [[propositional logic|09K9MWD2QQ]].
 3. The [[deduction theorem|9X08XK5RV2]] holds: $\Gamma, \varphi \vdash_{\mathsf{i}} \psi$ if and only if $\Gamma \vdash_{\mathsf{i}} \varphi \to \psi$. Its proof uses only axioms 1 and 2.
 4. $\mathsf{IPC}$ is closed under uniform substitution, since each axiom is a scheme.
 5. Intuitionistic predicate logic $\mathsf{IQC}$ adds the quantifier axioms $\forall x \varphi \to \varphi[t/x]$ and $\varphi[t/x] \to \exists x \varphi$, and two rules. From $\psi \to \varphi$ derive $\psi \to \forall x\varphi$, and from $\varphi \to \psi$ derive $\exists x\varphi \to \psi$, when $x$ is not free in $\psi$.
 6. The natural deduction system $\mathrm{NJ}$ has the introduction and elimination rules for $\wedge$, $\vee$, $\to$ and the rule "from $\bot$ infer $\varphi$". It has no rule of reductio ad absurdum. The sequent calculus $\mathrm{LJ}$ is $\mathrm{LK}$ with at most one formula on the right of each sequent. Both derive exactly the theorems of $\mathsf{IPC}$.
 7. Example: $\varphi \to \neg\neg\varphi$ is derivable. By the deduction theorem it suffices to derive $\bot$ from $\varphi$ and $\varphi \to \bot$, which is one step of modus ponens.
-8. Non-example: $p \vee \neg p$ is not derivable for a variable $p$. In the [[Kripke model|~8db2fc65]] with worlds $u \le v$ and $p$ true only at $v$, neither $p$ nor $\neg p$ holds at $u$; see [[the two-point countermodel|~bc4c4586]].
+8. Non-example: $p \vee \neg p$ is not derivable for a variable $p$. In the [[Kripke model|35VKJY77TY]] with worlds $u \le v$ and $p$ true only at $v$, neither $p$ nor $\neg p$ holds at $u$; see [[the two-point countermodel|8BKRJ0KPVD]].
 
 ## Explanations
 
@@ -74,5 +74,5 @@ A trap: derivations in this system are long, so in practice one derives formulas
 ### L3 human
 
 The Hilbert system for $\mathsf{IPC}$ is the classical one without excluded middle, and its theorems are exactly the formulas valid in all [[Heyting algebras|NG943XNQWH]].
-Every [[intermediate logic|~57af80cc]] is obtained by adding axiom schemes to this system and closing under modus ponens and substitution.
-Proof-theoretic properties, such as cut elimination and the [[disjunction property|~59f11dc8]], are easier to see in $\mathrm{LJ}$, where the single formula on the right blocks the classical derivation of $p \vee \neg p$.
+Every [[intermediate logic|H5NSKEP3P2]] is obtained by adding axiom schemes to this system and closing under modus ponens and substitution.
+Proof-theoretic properties, such as cut elimination and the [[disjunction property|YTRVX6F3FX]], are easier to see in $\mathrm{LJ}$, where the single formula on the right blocks the classical derivation of $p \vee \neg p$.

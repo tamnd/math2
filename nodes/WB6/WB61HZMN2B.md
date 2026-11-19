@@ -1,0 +1,61 @@
+---
+tag: WB61HZMN2B
+kind: example
+name: Intuitionistic derivations with negation
+msc: ["03B20"]
+topics: [38EQ20GR7M]
+audience: grad
+instance_of: [Q11N8X99FK]
+uses: [52XCYMK0WW, 6KT3BJZ7D1]
+sources:
+  - url: https://en.wikipedia.org/wiki/Intuitionistic_logic
+    locator: Double negations
+---
+
+## Example
+
+We derive $p \to \neg\neg p$ and $\neg\neg\neg p \to \neg p$ in [[natural deduction|6KT3BJZ7D1]] for [[intuitionistic logic|52XCYMK0WW]].
+Recall that $\neg\varphi$ is $\varphi \to \bot$, so $\neg\neg p$ is $(p \to \bot) \to \bot$.
+
+Derivation of $p \to \neg\neg p$.
+
+1. Assume $p$.
+2. Assume $\neg p$, that is, $p \to \bot$.
+3. Apply step 2 to step 1 by $\to$-elimination, and get $\bot$.
+4. Discharge step 2 by $\to$-introduction, and get $\neg p \to \bot$, that is, $\neg\neg p$.
+5. Discharge step 1, and get $p \to \neg\neg p$.
+
+Derivation of $\neg\neg\neg p \to \neg p$.
+
+6. Assume $\neg\neg\neg p$, that is, $\neg\neg p \to \bot$.
+7. Assume $p$.
+8. Steps 1 to 4, with the assumption $p$ of step 7, give $\neg\neg p$.
+9. Apply step 6 to step 8, and get $\bot$.
+10. Discharge step 7, and get $\neg p$.
+11. Discharge step 6, and get $\neg\neg\neg p \to \neg p$.
+
+No step uses $\bot$-elimination or reductio ad absurdum, so both formulas are theorems of [[minimal logic|3MBG95617E]] too.
+
+## Remarks
+
+The converse $\neg p \to \neg\neg\neg p$ is the instance of $q \to \neg\neg q$ with $q := \neg p$.
+So $\neg\neg\neg p \leftrightarrow \neg p$: a triple negation reduces to a single negation.
+The direction $\neg\neg p \to p$ is not derivable; it fails in [[the two-point countermodel|8BKRJ0KPVD]].
+So in intuitionistic logic, the formulas built from $p$ with $\neg$ alone fall into three classes: $p$, $\neg p$ and $\neg\neg p$.
+
+## Explanations
+
+### L1 human
+
+"If $p$ is true, then it is false that $p$ is false" is a law of intuitionistic logic.
+The reason is direct: if $p$ holds and someone claims "$p$ is false", that claim leads to a contradiction at once.
+But "if it is false that $p$ is false, then $p$" is not a law, because ruling out a refutation does not give a proof.
+
+### L2 human
+
+1. Take $p$ to be the statement "there are infinitely many twin primes".
+2. A proof of $p$ gives a proof of $\neg\neg p$ by steps 1 to 5.
+3. A proof of $\neg\neg p$ only shows that $p$ can not be refuted, and it does not give a proof of $p$.
+
+The typical use of $p \to \neg\neg p$ is in double negation translations, where every atom is replaced by its double negation.
+A trap: from $\neg\neg\neg p \to \neg p$, one may not conclude $\neg\neg p \to p$ by "cancelling" a negation.

@@ -7,9 +7,9 @@ aliases: [weak-excluded-middle, weak-law-of-the-excluded-middle]
 msc: ["03B05", "03B55"]
 topics: [38EQ20GR7M]
 audience: research
-uses: [H9Z8BWRN69, ~11b532e9, ~ac029000, 09PKJKA6J0]
+uses: [H9Z8BWRN69, 5GTQ69W47T, 480TCT5CJ9, 09PKJKA6J0]
 about: [H9Z8BWRN69]
-proofs: [~400c41ed]
+proofs: [PFRT3T5ZQ1]
 sources:
   - wikipedia: en:17637@r1370685960
     locator: Law of excluded middle, section Analogous laws > Law of the weak excluded middle
@@ -37,21 +37,21 @@ A Kripke frame is *confluent* if $w \leq u$ and $w \leq v$ imply that $u \leq x$
 4. $\mathsf{KC} \vdash \varphi$ iff $\varphi$ is valid on every finite rooted frame with a greatest element. A non-theorem fails on such a frame with at most $2^n$ worlds, where $n$ is the number of subformulas of $\varphi$.
 
 The formula in item 2 is one direction of a [[De Morgan law|09PKJKA6J0]]; $\mathsf{IPC}$ proves the converse direction, but not this one.
-The proof is in [[the proof by confluent canonical models|~400c41ed]].
+The proof is in [[the proof by confluent canonical models|PFRT3T5ZQ1]].
 
 ## Remarks
 
 ### Why each hypothesis is needed
 
-1. Confluence can not be dropped: the fork has no common upper bound for its two leaves, and it refutes the law; see [[the fork countermodel|~55d54e6d]].
-2. In item 4, finiteness matters for the form of the frames. The infinite frame $(\mathbb{N}, \leq)$ is directed and validates the law, but it has no greatest element; see [[the natural numbers as a frame of KC|~9391a9ad]].
+1. Confluence can not be dropped: the fork has no common upper bound for its two leaves, and it refutes the law; see [[the fork countermodel|1ENA02ZNAH]].
+2. In item 4, finiteness matters for the form of the frames. The infinite frame $(\mathbb{N}, \leq)$ is directed and validates the law, but it has no greatest element; see [[the natural numbers as a frame of KC|HBN6HZYJP3]].
 3. Item 2 holds for the schemas, not for single instances with fixed variables. The instance $\neg (p \wedge \neg p) \to \neg p \vee \neg \neg p$ of the De Morgan law gives the weak excluded middle for $p$.
 
 ### Consequences
 
 1. $\mathsf{KC}$ is decidable, by the bound in item 4.
-2. $\mathsf{KC} \subseteq \mathsf{LC}$, since linear frames are confluent; see [[weak excluded middle in LC|~65d4934d]].
-3. $\mathsf{KC}$ proves $\neg \neg (p \vee q) \to \neg \neg p \vee \neg \neg q$; see [[the derivation|~59e17663]].
+2. $\mathsf{KC} \subseteq \mathsf{LC}$, since linear frames are confluent; see [[weak excluded middle in LC|F448T49KSX]].
+3. $\mathsf{KC}$ proves $\neg \neg (p \vee q) \to \neg \neg p \vee \neg \neg q$; see [[the derivation|ERFK4DR5TV]].
 4. $\mathsf{KC}$ does not have the disjunction property, since it proves $\neg p \vee \neg \neg p$ and neither disjunct.
 
 ### Converse
@@ -62,7 +62,7 @@ Item 1 has no converse to state; the classical counterpart is that $\mathsf{CPC}
 ### Generalizations
 
 1. The weak excluded middle is equivalent over $\mathsf{IPC}$ to $(p \to q) \vee (\neg p \to \neg q)$.
-2. [[Jankov's theorem on KC|~830f1475]]: $\mathsf{KC}$ is the largest intermediate logic with the same negation-free theorems as $\mathsf{IPC}$.
+2. [[Jankov's theorem on KC|DEKDMG563N]]: $\mathsf{KC}$ is the largest intermediate logic with the same negation-free theorems as $\mathsf{IPC}$.
 3. In a Heyting algebra, the law says that the pseudocomplement satisfies the Stone identity $\neg a \vee \neg \neg a = 1$.
 
 ## History

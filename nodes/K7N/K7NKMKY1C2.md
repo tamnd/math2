@@ -1,0 +1,54 @@
+---
+tag: K7NKMKY1C2
+kind: example
+name: The four-element Boolean algebra has no Jankov formula
+msc: ["03B55", "06D20"]
+topics: [38EQ20GR7M]
+audience: research
+not_instance_of:
+  - target: W0CYVZ48CK
+    note: The algebra has two coatoms, so it is not subdirectly irreducible, and no formula is refuted exactly by the algebras B with this algebra in SH(B).
+illustrates: [D25R70HQ7C]
+uses: [CVGBEFQG0Q, D25R70HQ7C, TYYS649FAJ, BND6A96S3D]
+sources:
+  - arxiv: 1407.5823v1
+    locator: Section 1.3, Proposition 1.6
+  - url: https://eprints.illc.uva.nl/id/document/492
+    locator: Section 5.3, Theorem 95
+---
+
+## Example
+
+Let $\mathbf{2} \times \mathbf{2}$ be the four-element Boolean algebra $\set{(0,0), (1,0), (0,1), (1,1)}$, with operations computed in each coordinate.
+
+1. It has two coatoms, $(1,0)$ and $(0,1)$. So it is not [[subdirectly irreducible|TYYS649FAJ]], and [[the definition|CVGBEFQG0Q]] gives it no Jankov formula.
+2. Claim: no formula $\chi$ satisfies, for every [[Heyting algebra|BND6A96S3D]] $B$, that $B \nvDash \chi$ iff $\mathbf{2} \times \mathbf{2} \in \mathbf{SH}(B)$.
+3. Suppose $\chi$ had this property. The homomorphic images of $\mathbf{2}$ have at most two elements, and so do their subalgebras. So $\mathbf{2} \times \mathbf{2} \notin \mathbf{SH}(\mathbf{2})$, and $\mathbf{2} \vDash \chi$.
+4. A valuation $v$ in $\mathbf{2} \times \mathbf{2}$ is a pair of valuations $v_1, v_2$ in $\mathbf{2}$, and $v(\varphi) = (v_1(\varphi), v_2(\varphi))$ for every $\varphi$, by induction on $\varphi$.
+5. Since $\mathbf{2} \vDash \chi$, we get $v(\chi) = (1, 1)$ for every $v$. So $\mathbf{2} \times \mathbf{2} \vDash \chi$.
+6. But $\mathbf{2} \times \mathbf{2} \in \mathbf{SH}(\mathbf{2} \times \mathbf{2})$, so $\mathbf{2} \times \mathbf{2} \nvDash \chi$. This contradicts step 5.
+7. On frames: $\mathbf{2} \times \mathbf{2}$ is the algebra of up-sets of the two-point antichain, which is not rooted. Part 2 of [[the Jankov-de Jongh theorem|D25R70HQ7C]] needs a rooted frame.
+
+## Remarks
+
+The argument works for every finite product $A_1 \times A_2$ of nontrivial algebras with $A_1 \times A_2 \notin \mathbf{SH}(A_1) \cup \mathbf{SH}(A_2)$.
+Validity of a formula is preserved by products, but membership in $\mathbf{SH}$ is not inherited from the factors.
+So the unique coatom in the definition cannot be dropped.
+
+## Explanations
+
+### L1 human
+
+Two independent switches give four combinations.
+A formula that fails on the four combinations would fail on one of the switches alone.
+But a single switch does not contain four combinations.
+So no formula can say "four combinations do not occur".
+
+### L2 human
+
+1. Take $\chi = \neg p \vee \neg \neg p$, which is valid in $\mathbf{2}$.
+2. In $\mathbf{2} \times \mathbf{2}$, put $v(p) = (1, 0)$. Then $\neg p = (0, 1)$ and $\neg \neg p = (1, 0)$, and the join is $(1, 1)$.
+3. So this $\chi$ is valid in $\mathbf{2} \times \mathbf{2}$, as step 5 predicts for every formula valid in $\mathbf{2}$.
+
+The typical use is to check whether a finite model can be excluded by a single formula.
+A trap: subdirect irreducibility, not size or Booleanness, is the property that matters.

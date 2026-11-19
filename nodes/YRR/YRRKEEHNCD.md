@@ -1,0 +1,111 @@
+---
+tag: YRRKEEHNCD
+kind: concept
+name: Kleene slash
+msc: ["03F05", "03B20", "03F50"]
+topics: [38EQ20GR7M]
+audience: research
+uses: [Q11N8X99FK, 52XCYMK0WW]
+sources:
+  - url: https://plato.stanford.edu/entries/logic-intuitionistic/
+    locator: 4.2 Admissible rules of intuitionistic logic and arithmetic
+  - url: https://festschriften.illc.uva.nl/D65/nbezhanis.pdf
+    locator: Definition 3.2, footnote 2, Theorem 3.6
+  - url: https://en.wikipedia.org/wiki/Harrop_formula
+    locator: Discussion
+---
+
+## Summary
+
+The *Kleene slash* is a relation $\Gamma \mid \varphi$ between a set $\Gamma$ of formulas and a formula $\varphi$, defined by induction on $\varphi$.
+It is stronger than provability: $\Gamma \mid \varphi$ implies $\Gamma \vdash \varphi$ in [[intuitionistic logic|Q11N8X99FK]].
+For a disjunction it asks that one disjunct be slashed, so it reads $\vee$ in a constructive way.
+A set $\Gamma$ that slashes all its members slashes all its consequences.
+This gives the [[disjunction property|YTRVX6F3FX]] for $\Gamma$, and with a clause for $\exists$ also the existence property.
+The method is purely syntactic, and it works for theories such as Heyting arithmetic where Kripke models are harder to use.
+
+## Motivation
+
+The disjunction property says that a proof of $\varphi \vee \psi$ yields a proof of $\varphi$ or a proof of $\psi$.
+Cut elimination proves it for pure logic, but not for theories with many nonlogical axioms.
+Kleene looked for an invariant of derivations that keeps track of which disjunct is provable.
+Provability alone is not such an invariant, since $\vdash \varphi \vee \psi$ does not mention a disjunct.
+The slash strengthens provability at each disjunction and each existential quantifier, and it is preserved by every rule.
+It is an early abstract form of realizability, in which the "realizer" of a formula is the choice of disjuncts and witnesses.
+
+## Notation
+
+We use the version of the slash with provability in the clause for implication; for a set $\Gamma$ of formulas, $\vdash$ is derivability in $\mathsf{IPC}$ from $\Gamma$.
+
+1. $\Gamma \mid p$ iff $\Gamma \vdash p$, for $p$ atomic, and $\Gamma \mid \bot$ iff $\Gamma \vdash \bot$.
+2. $\Gamma \mid \varphi \wedge \psi$ iff $\Gamma \mid \varphi$ and $\Gamma \mid \psi$.
+3. $\Gamma \mid \varphi \vee \psi$ iff $\Gamma \mid \varphi$ or $\Gamma \mid \psi$.
+4. $\Gamma \mid \varphi \to \psi$ iff $\Gamma \vdash \varphi \to \psi$, and $\Gamma \mid \varphi$ implies $\Gamma \mid \psi$.
+5. For predicate logic, $\Gamma \mid \exists x\, \varphi(x)$ iff $\Gamma \mid \varphi(t)$ for some closed term $t$.
+6. For predicate logic, $\Gamma \mid \forall x\, \varphi(x)$ iff $\Gamma \vdash \forall x\, \varphi(x)$ and $\Gamma \mid \varphi(t)$ for every closed term $t$.
+
+We write $\mid \varphi$ for $\emptyset \mid \varphi$.
+The set $\Gamma$ is *self-slashing* if $\Gamma \mid \gamma$ for every $\gamma \in \Gamma$.
+A *Harrop formula* is built from atoms and $\bot$ with $\wedge$, $\forall$, and implications $\chi \to \eta$ whose consequent $\eta$ is Harrop.
+
+## Remarks
+
+### Examples
+
+1. [[The Harrop rule by the slash|9Q2E33B4AE]]: if $\vdash \neg \varphi \to \psi \vee \chi$, then $\vdash \neg \varphi \to \psi$ or $\vdash \neg \varphi \to \chi$.
+2. [[A Harrop hypothesis that does not give excluded middle|2GFT9P96S1]]: $\neg \neg p \to p \nvdash p \vee \neg p$.
+3. The empty set is self-slashing, and so is every set of Harrop formulas.
+4. An inconsistent set $\Gamma$ slashes every formula, by induction on the formula.
+5. For a consistent $\Gamma$, $\Gamma \mid \neg \varphi$ holds iff $\Gamma \vdash \neg \varphi$. Indeed, if $\Gamma \vdash \neg \varphi$, then $\Gamma \nvdash \varphi$, so $\Gamma \mid \varphi$ fails and the second half of clause 4 holds vacuously.
+
+### Non-examples
+
+1. [[A disjunctive hypothesis is not self-slashing|9VMWRPJ96D]]: $\set{p \vee q} \mid p \vee q$ fails.
+2. If clause 4 is weakened to "$\Gamma \mid \varphi$ implies $\Gamma \mid \psi$", then $\mid p \to q$ holds, since $\mid p$ fails. But $\nvdash p \to q$, so this relation is not stronger than provability.
+
+### Basic properties
+
+1. If $\Gamma \mid \varphi$, then $\Gamma \vdash \varphi$. The proof is an induction on $\varphi$; see Part A of [[the slash proof|284EX5GB4A]].
+2. If $\Gamma$ is self-slashing and $\Gamma \vdash \varphi$, then $\Gamma \mid \varphi$. The proof is an induction on derivations; see Part B of [[the slash proof|284EX5GB4A]].
+3. A self-slashing set has the disjunction property: $\Gamma \vdash \varphi \vee \psi$ implies $\Gamma \vdash \varphi$ or $\Gamma \vdash \psi$.
+4. For every $\Gamma$ and every Harrop formula $\eta$, $\Gamma \vdash \eta$ implies $\Gamma \mid \eta$. So sets of Harrop formulas are self-slashing.
+5. Kleene proved a converse for $\mathsf{IPC}$: $\varphi \mid \varphi$ holds iff the theory $\set{\varphi}$ has the disjunction property. De Jongh proved that in every proper intermediate logic the analogous equivalence fails for some formula, as Kleene had conjectured.
+6. For Heyting arithmetic $\mathsf{HA}$, the slash with clauses 5 and 6 proves the disjunction and existence properties. The induction axioms are slashed by an induction on numerals; see [[Heyting arithmetic|CK8ZQRN183]].
+
+### History
+
+Kleene introduced the slash in 1962 and 1963 to prove the disjunction and existence properties of intuitionistic formal systems.
+Aczel gave a variant in 1968.
+The provability condition in clause 4 is due to Aczel.
+Harrop studied the formulas now named after him in his work on disjunctions and existential statements.
+
+### Common errors
+
+1. Dropping the provability condition in clause 4. Then non-example 2 shows that the slash no longer implies provability.
+2. Treating the slash as truth in a model. The slash depends on $\Gamma$ and on derivability, and it is not closed under classical reasoning.
+3. Assuming that every consistent set is self-slashing. Non-example 1 is consistent, and it is not.
+4. Reading Harrop formulas as formulas without $\vee$. A Harrop formula may contain $\vee$ and $\exists$ in the antecedent of an implication, as in $(p \vee q) \to r$.
+
+## Explanations
+
+### L1 human
+
+Proving "$A$ or $B$" intuitionistically should mean proving one of them.
+The slash is a test of a formula that checks this demand at every "or" and "there exists".
+A formula that passes the test is provable, and every provable formula passes it.
+So a proof of "$A$ or $B$" must come from a proof of $A$ or a proof of $B$.
+
+### L2 human
+
+1. Check that $\mid p \vee \neg p$ fails: $\mid p$ fails, since $\nvdash p$, and $\mid \neg p$ fails, since $\nvdash \neg p$.
+2. By basic property 2, $p \vee \neg p$ is not provable.
+3. Check that $\mid \neg \neg p \to p$ fails: its provability half fails, since $\nvdash \neg \neg p \to p$.
+
+The typical use is to prove that a theory has the disjunction property, or that a rule is admissible.
+A trap: the slash of a formula depends on $\Gamma$, so $\Gamma \mid \varphi$ and $\Delta \mid \varphi$ can differ for the same $\varphi$.
+
+### L3 human
+
+The slash is a realizability interpretation in which realizers carry no computational content beyond choices of disjuncts and terms.
+Combined with provability, it is a gluing construction: the slash is a logical relation between syntax and the term model.
+In categorical logic, this corresponds to the Freyd cover, or Artin gluing of the category of contexts along the global sections functor.
