@@ -1,0 +1,48 @@
+---
+tag: 6S7TSV01WB
+kind: example
+name: The fork refutes prelinearity
+msc: ["03B55"]
+topics: [38EQ20GR7M]
+audience: grad
+not_instance_of:
+  - target: 474SGS2N0X
+    note: the fork is not a frame of Gödel-Dummett logic, and IPC does not prove the prelinearity axiom
+uses: [5GTQ69W47T, 480TCT5CJ9, FA88H7FDPY]
+sources:
+  - url: https://plato.stanford.edu/entries/logic-intuitionistic/
+    locator: 6.1 Subintuitionistic and Intermediate Logics
+---
+
+## Example
+
+The *fork* has a root $r$ and two incomparable worlds $a, b$ above it.
+We show that it refutes $(p \to q) \vee (q \to p)$.
+
+1. Put $V(p) = \set{a}$ and $V(q) = \set{b}$. Both are up-sets, since $a$ and $b$ are maximal.
+2. $a \Vdash p$ and $a \nVdash q$. Since $a \geq r$, $r \nVdash p \to q$.
+3. $b \Vdash q$ and $b \nVdash p$. Since $b \geq r$, $r \nVdash q \to p$.
+4. So $r$ forces neither disjunct, and $r \nVdash (p \to q) \vee (q \to p)$.
+5. By [[Kripke soundness|480TCT5CJ9]], $\mathsf{IPC} \nvdash (p \to q) \vee (q \to p)$. So $\mathsf{IPC} \subsetneq \mathsf{LC}$.
+
+## Remarks
+
+The fork is the smallest frame that is not locally linear.
+It also refutes weak excluded middle; see [[the fork countermodel|1ENA02ZNAH]].
+So the fork does not separate $\mathsf{LC}$ from $\mathsf{KC}$, while the diamond does; see [[weak excluded middle in LC|F448T49KSX]].
+
+## Explanations
+
+### L1 human
+
+At the root, the future branches into two worlds.
+In one world $p$ becomes known without $q$, in the other $q$ without $p$.
+So at the root neither "$p$ implies $q$" nor "$q$ implies $p$" is known.
+
+### L2 human
+
+1. To refute $\varphi \to \psi$ at $r$, find a world above $r$ with $\varphi$ and without $\psi$.
+2. Do this once for each disjunct, using a different branch.
+
+The typical use is to show that a logic does not contain $\mathsf{LC}$.
+A trap: on a two-world chain, every valuation satisfies prelinearity.

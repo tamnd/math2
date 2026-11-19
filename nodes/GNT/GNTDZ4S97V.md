@@ -1,0 +1,49 @@
+---
+tag: GNTDZ4S97V
+kind: example
+name: Medvedev's logic does not prove weak excluded middle
+msc: ["03B55"]
+topics: [38EQ20GR7M]
+audience: research
+instance_of: [R2FD01J3PC]
+illustrates: [TH1ZZFWEH1]
+uses: [R2FD01J3PC, TH1ZZFWEH1, CX032ACTMZ]
+sources:
+  - arxiv: 2404.04349v1
+    locator: page 1
+---
+
+## Example
+
+We show $\neg p \vee \neg \neg p \notin \mathsf{ML}$ in two ways, and draw consequences.
+
+1. On $M_1$, a single world, let $p$ be true. Then $\neg p$ fails, so $\neg p \notin \mathsf{ML}$.
+2. On $M_1$, let $p$ be false. Then $\neg p$ holds and $\neg \neg p$ fails, so $\neg \neg p \notin \mathsf{ML}$.
+3. By [[the disjunction property of ML|TH1ZZFWEH1]], $\neg p \vee \neg \neg p \notin \mathsf{ML}$.
+4. Directly: on $M_2$, let $p$ be true only at $\set{1}$. At the root, $\neg p$ fails because of $\set{1}$, and $\neg \neg p$ fails because $\set{2} \Vdash \neg p$.
+5. So $\mathsf{KC} \not\subseteq \mathsf{ML}$, since [[weak excluded middle|CX032ACTMZ]] is the axiom of $\mathsf{KC}$.
+6. Also $\mathsf{ML}$ is not $\mathsf{LC}$ and not classical logic, since both prove $\neg p \vee \neg \neg p$.
+
+## Remarks
+
+Step 4 is the gluing of two copies of $M_1$ that proves the disjunction property, done by hand.
+The same argument works for every logic with the disjunction property whose theorems are classical tautologies.
+Every such logic omits $\neg p \vee \neg \neg p$, because $\neg p$ and $\neg \neg p$ are not tautologies.
+
+## Explanations
+
+### L1 human
+
+With one candidate, any statement is simply true or false.
+So "not $p$" can fail, and "not not $p$" can fail too.
+With two candidates side by side, both can fail at the start.
+So the logic does not decide between "not $p$" and "not not $p$".
+
+### L2 human
+
+1. Refute each disjunct on a small frame.
+2. Combine the countermodels on $M_2$, or quote the disjunction property.
+3. Read off that $\mathsf{KC}$, $\mathsf{LC}$ and classical logic are not contained in $\mathsf{ML}$.
+
+The typical use is to separate a logic with the disjunction property from logics with weak excluded middle.
+A trap: $\mathsf{ML} \subseteq \mathsf{LC}$ holds, so the separation goes only one way.

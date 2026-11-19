@@ -1,0 +1,59 @@
+---
+tag: XA3YR52RWC
+kind: example
+name: The double negation of excluded middle
+msc: ["03B20"]
+topics: [38EQ20GR7M]
+audience: grad
+instance_of: [Q11N8X99FK, 3MBG95617E]
+uses: [52XCYMK0WW, 6KT3BJZ7D1, 0RYYK8PG4S]
+sources:
+  - url: https://en.wikipedia.org/wiki/Intuitionistic_logic
+    locator: Double negations
+  - url: https://plato.stanford.edu/entries/logic-intuitionistic/
+    locator: Rejection of Tertium Non Datur
+---
+
+## Example
+
+The formula $\neg\neg(p \vee \neg p)$ is a theorem of [[intuitionistic logic|52XCYMK0WW]], derived here in [[natural deduction|6KT3BJZ7D1]].
+
+1. Assume $\neg(p \vee \neg p)$, that is, $(p \vee \neg p) \to \bot$.
+2. Assume $p$.
+3. From step 2, $\vee$-introduction gives $p \vee \neg p$.
+4. Apply step 1 to step 3, and get $\bot$.
+5. Discharge step 2 by $\to$-introduction, and get $p \to \bot$, that is, $\neg p$.
+6. From step 5, $\vee$-introduction gives $p \vee \neg p$.
+7. Apply step 1 to step 6, and get $\bot$.
+8. Discharge step 1, and get $\neg(p \vee \neg p) \to \bot$, that is, $\neg\neg(p \vee \neg p)$.
+
+The derivation uses only the rules for $\to$ and $\vee$, so the formula is also a theorem of [[minimal logic|3MBG95617E]].
+
+## Remarks
+
+The [[law of excluded middle|0RYYK8PG4S]] $p \vee \neg p$ is not a theorem, but its double negation is.
+So intuitionistic logic never refutes an instance of excluded middle: $\neg(\varphi \vee \neg\varphi)$ is inconsistent for every $\varphi$.
+The same argument with $\varphi$ in place of $p$ gives $\vdash \neg\neg(\varphi \vee \neg\varphi)$ for every formula.
+This is the first step of [[Glivenko's theorem|B9M3P61ZVA]]: every classical tautology becomes an intuitionistic theorem after a double negation.
+In predicate logic, $\neg\neg\forall x(Px \vee \neg Px)$ is not a theorem, so the argument does not pass under a quantifier.
+
+## Explanations
+
+### L1 human
+
+Suppose someone claims: "it is false that $p$ is true or false".
+Then $p$ can not be true, because then "$p$ is true or false" would hold.
+So $p$ is false.
+But then "$p$ is true or false" holds again, which contradicts the claim.
+So the claim is refuted, even in a logic that does not accept "$p$ is true or false" as a law.
+
+### L2 human
+
+1. Take a Kripke model with worlds $u \le v$ and $p$ true only at $v$.
+2. At $u$, the formula $p \vee \neg p$ fails, since $p$ fails at $u$ and $\neg p$ fails, as $v \ge u$ forces $p$.
+3. At $v$, $p$ holds, so $p \vee \neg p$ holds.
+4. So no world forces $\neg(p \vee \neg p)$: at $u$ and at $v$, the later world $v$ forces $p \vee \neg p$.
+5. Hence both worlds force $\neg\neg(p \vee \neg p)$, as the derivation predicts.
+
+The typical use of this example is to show that the double negation of a classical law can hold when the law fails.
+A trap: from $\neg\neg(p \vee \neg p)$ one may not drop the double negation; that step is exactly the classical rule.

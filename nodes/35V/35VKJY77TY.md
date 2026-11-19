@@ -1,0 +1,98 @@
+---
+tag: 35VKJY77TY
+kind: concept
+name: Kripke semantics for intuitionistic logic
+msc: ["03B20"]
+topics: [38EQ20GR7M]
+audience: grad
+uses: [Q11N8X99FK, 0QV2JS9RJ3, ETCE287E2R, NGHWZ9Y7ZV]
+sources:
+  - url: https://en.wikipedia.org/wiki/Kripke_semantics
+    locator: Semantics of intuitionistic logic
+  - url: https://plato.stanford.edu/entries/logic-intuitionistic/
+    locator: Kripke and Beth semantics for intuitionistic logic
+  - url: https://builds.openlogicproject.org/
+    locator: Intuitionistic Logic
+---
+
+## Summary
+
+*Kripke semantics for intuitionistic logic* interprets formulas in models $(W, \leq, V)$, where $(W, \leq)$ is a nonempty [[partial order|0QV2JS9RJ3]] and $V$ assigns an [[up-set|ETCE287E2R]] to each variable; see [[the definition|5GTQ69W47T]].
+A world $w$ forces $\varphi \to \psi$ when every $v \geq w$ that forces $\varphi$ also forces $\psi$, and the clauses for $\wedge$, $\vee$ and atoms are local; no world forces $\bot$.
+Forced formulas stay forced along $\leq$.
+The semantics is sound and complete for [[intuitionistic logic|Q11N8X99FK]], so small finite models refute non-theorems such as $p \vee \neg p$.
+
+## Motivation
+
+Classical truth tables validate $p \vee \neg p$, so they can not show that a formula is not intuitionistic.
+Kripke's idea is to add time: truth is relative to a state of knowledge, and knowledge only grows.
+A negation is then a strong claim about the future, while a disjunction is a claim about the present.
+This semantics comes from the [[Kripke semantics of modal logic|NGHWZ9Y7ZV]] for $\mathsf{S4}$, read through the Gödel-McKinsey-Tarski translation.
+
+## Notation
+
+$w \Vdash \varphi$ is read "$w$ forces $\varphi$".
+$[\![\varphi]\!]$ is the set of worlds that force $\varphi$, and $\mathrm{Up}(W)$ is the set of up-sets.
+A *rooted* frame has a least element, the root.
+
+## Remarks
+
+### Examples
+
+1. The two-point chain $u < v$ with $p$ true at $v$ refutes $p \vee \neg p$, $\neg\neg p \to p$ and Peirce's law; see [[the two-point countermodel|8BKRJ0KPVD]].
+2. The fork, a root below two incomparable worlds, refutes $\neg p \vee \neg\neg p$; see [[the fork countermodel|1ENA02ZNAH]].
+3. A one-point frame is a classical truth table: $w \Vdash \varphi$ is classical truth at $w$.
+4. Every finite chain validates $(p \to q) \vee (q \to p)$; this gives [[Gödel-Dummett logic|474SGS2N0X]].
+
+### Non-examples
+
+1. A valuation that is not an up-set breaks persistence, and the axiom $p \to (q \to p)$ fails; see [[a valuation that is not an up-set|KH72FWWF6A]].
+2. The classical clause "$w \Vdash \varphi \to \psi$ iff $w \nVdash \varphi$ or $w \Vdash \psi$" on a poset with more than one world is not this semantics. With it, forced formulas need not stay forced.
+
+### Basic properties
+
+1. Persistence: every truth set is an up-set.
+2. Soundness and strong completeness: $\Gamma \vdash_{\mathsf{i}} \varphi$ if and only if $\Gamma \Vdash \varphi$; see [[the completeness theorem|480TCT5CJ9]].
+3. Finite model property: a non-theorem of $\mathsf{IPC}$ is refuted on a finite rooted frame. Hence $\mathsf{IPC}$ is decidable.
+4. The truth sets of a model form the Heyting algebra $\mathrm{Up}(W)$, which links Kripke semantics to [[Heyting algebra semantics|JM1XJXWZYH]].
+5. The up-sets of a poset are the open sets of its Alexandrov topology; see [[Alexandrov spaces give Kripke semantics|CWZ1K5AN1N]].
+6. Gluing a new root below a family of rooted models proves the [[disjunction property|YTRVX6F3FX]].
+
+### History
+
+Kripke introduced this semantics in 1965, in "Semantical analysis of intuitionistic logic I".
+Beth had earlier given a semantics with trees and bars; see [[Beth semantics|WGKY0PXMBQ]].
+Grzegorczyk had proposed a related semantics in 1964.
+
+### Common errors
+
+1. Forgetting that $\neg\varphi$ looks at all later worlds. A world where $\varphi$ is false can still fail to force $\neg\varphi$.
+2. Choosing a valuation that is not upward closed. Then soundness fails.
+3. Thinking that a formula valid on all finite chains is an intuitionistic theorem. Chains validate $(p \to q) \vee (q \to p)$.
+
+## Explanations
+
+### L1 human
+
+A Kripke model is a map of possible states of knowledge, with arrows to later states.
+Facts never get lost along an arrow.
+In a two-state map, at first nothing is known about $p$, and later $p$ becomes known.
+At the first state, "$p$" is not known, and "not $p$" is not known either, because $p$ becomes known later.
+So "$p$ or not $p$" fails at the first state.
+
+### L2 human
+
+1. Take worlds $u \leq v$ and $V(p) = \set{v}$.
+2. At $u$: $p$ is not forced, since $u \notin V(p)$.
+3. At $u$: $\neg p$ is not forced, since $v \geq u$ forces $p$.
+4. So $u \nVdash p \vee \neg p$, and excluded middle is not an intuitionistic theorem, by soundness.
+5. At $u$: $\neg\neg p$ is forced, since every world above $u$ sees $v$, where $p$ holds.
+
+The typical use of Kripke models is to show that a formula is not derivable, with a model of two or three worlds.
+A trap: a refutation needs one world where the formula fails, but checking that world needs all worlds above it.
+
+### L3 human
+
+Algebraically, a Kripke frame gives the Heyting algebra of its up-sets, and every Heyting algebra embeds into one of this form, through prime filters and [[Esakia duality|CD9Y7YP4EJ]].
+So Kripke semantics is complete for $\mathsf{IPC}$, but some [[intermediate logics|H5NSKEP3P2]] are not complete for any class of frames.
+The same idea of growing worlds gives semantics for intuitionistic predicate logic, with growing domains, and the forcing of set theory has a similar form.

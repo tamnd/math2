@@ -1,0 +1,98 @@
+---
+tag: MW0RVDRFTA
+kind: concept
+name: Intuitionistic predicate logic
+msc: ["03B20", "03F55"]
+topics: [38EQ20GR7M]
+audience: grad
+uses: [52XCYMK0WW, 086QKPF0A6, 5GTQ69W47T, NGHWZ9Y7ZV]
+sources:
+  - url: https://en.wikipedia.org/wiki/Kripke_semantics
+    locator: Intuitionistic first-order logic
+  - url: https://plato.stanford.edu/entries/logic-intuitionistic/
+    locator: 2.1 The formal systems H-IPC and H-IQC
+  - book: isbn:9781447145578
+    locator: Chapter 5
+---
+
+## Summary
+
+Intuitionistic predicate logic $\mathsf{IQC}$ is the first-order extension of [[intuitionistic propositional logic|Q11N8X99FK]].
+It adds the quantifiers $\forall$ and $\exists$ with their intuitionistic axioms and rules.
+Its Kripke models have domains that may grow from one world to the next.
+It has the disjunction and existence properties, and its monadic fragment is undecidable.
+
+## Motivation
+
+Constructive mathematics needs quantifiers: a proof of $\exists x\, A(x)$ should provide a witness.
+$\mathsf{IQC}$ is the logic of such reasoning, without any arithmetic or set theory.
+It is the base logic of [[Heyting arithmetic|CK8ZQRN183]] and of intuitionistic set theories.
+
+## Notation
+
+$\mathsf{IQC}$ is also written $\mathsf{IQL}$ or $\mathbf{H\text{-}IQC}$, and classical predicate logic is $\mathsf{CQC}$.
+The quantifier axioms and rules are listed in [[the definition of intuitionistic logic|52XCYMK0WW]], remark 5.
+A *Kripke model for* $\mathsf{IQC}$ is a [[Kripke model|5GTQ69W47T]] $(W, \leq, D, V)$ with a nonempty domain $D(w)$ for each world.
+It satisfies $D(w) \subseteq D(v)$ and persistence of atomic facts for $w \leq v$.
+The quantifier clauses are as follows.
+
+- $w \Vdash \exists x\, \varphi(x)$ if $w \Vdash \varphi(d)$ for some $d \in D(w)$.
+- $w \Vdash \forall x\, \varphi(x)$ if $v \Vdash \varphi(d)$ for every $v \geq w$ and every $d \in D(v)$.
+
+## Remarks
+
+### Examples
+
+1. $\mathsf{IQC} \vdash \exists x\, \neg A(x) \to \neg \forall x\, A(x)$; see [[the derivation|XFQSTCC4YM]].
+2. The constant domain axiom $\forall x\,(q \vee P(x)) \to q \vee \forall x\, P(x)$ fails in a model with growing domains; see [[the countermodel|42GA7FHGW2]].
+3. $\mathsf{IQC} \vdash \neg \neg \forall x\, A(x) \to \forall x\, \neg \neg A(x)$, but the converse, the double negation shift, is not provable.
+
+### Non-examples
+
+1. The classical law $\neg \forall x\, P(x) \to \exists x\, \neg P(x)$ is not a theorem of $\mathsf{IQC}$; see [[the countermodel|SF981BPVYJ]].
+2. The formula $\neg \neg \forall x\,(P(x) \vee \neg P(x))$ is classically valid but not a theorem of $\mathsf{IQC}$; see [[the failure of Glivenko's theorem|ZV2MWBRN04]].
+
+### Basic properties
+
+1. Soundness and completeness: $\mathsf{IQC} \vdash \varphi$ if and only if $\varphi$ is forced at every world of every Kripke model with growing domains.
+2. $\mathsf{IQC}$ has the [[disjunction and existence properties|YTRVX6F3FX]].
+3. $\mathsf{IQC}$ is undecidable, since the [[Gödel-Gentzen translation|WC4TDGEWZR]] reduces classical validity to it, and classical validity is undecidable by [[Church's theorem|VA6BNNY2YC]].
+4. Its monadic fragment is undecidable as well; see [[the undecidability of monadic IQC|744RW1KZJ9]]. The classical [[monadic predicate calculus|SERN6CRVWW]] is decidable.
+5. The *constant domain logic* $\mathsf{CD}$ adds the axiom $\forall x\,(\varphi \vee \psi(x)) \to \varphi \vee \forall x\, \psi(x)$, with $x$ not free in $\varphi$. It is complete for Kripke models with constant domains.
+6. [[Glivenko's theorem|B9M3P61ZVA]] fails for $\mathsf{IQC}$, but it holds for formulas without $\forall$.
+
+### History
+
+Heyting formalized intuitionistic predicate logic in 1930, together with the propositional part.
+Kripke gave its semantics with growing domains in 1965.
+
+### Common errors
+
+1. Reading $\forall$ locally. The clause for $\forall$ looks at all later worlds, because later worlds may contain new objects.
+2. Assuming constant domains. With constant domains, the axiom of $\mathsf{CD}$ becomes valid, and the semantics is no longer complete for $\mathsf{IQC}$.
+3. Treating $\neg \forall x\, P(x)$ as $\exists x\, \neg P(x)$. Only the direction from right to left holds.
+
+## Explanations
+
+### L1 human
+
+Intuitionistic predicate logic adds "for all" and "there exists" to intuitionistic logic.
+To prove "there exists an $x$ with $A(x)$", one must in effect point at such an $x$.
+To prove "for all $x$, $A(x)$", one must cover every object, including objects found later.
+So "not every $x$ has $A$" does not give a particular $x$ without $A$.
+
+### L2 human
+
+1. Take worlds $w_0 \leq w_1$ with domains $\set{a}$ and $\set{a, b}$.
+2. Let $P(a)$ hold at both worlds and $P(b)$ nowhere.
+3. Then $w_0 \nVdash \forall x\, P(x)$, because the later object $b$ fails $P$.
+4. But $w_0$ has no object without $P$, so $w_0 \nVdash \exists x\, \neg P(x)$.
+
+The typical use of Kripke models with growing domains is to refute a classical quantifier law.
+A trap: at $w_0$ every existing object has $P$, but this does not give $\forall x\, P(x)$.
+
+### L3 human
+
+$\mathsf{IQC}$ is complete for presheaf models over posets, the Kripke models, and for sheaf models over topological spaces.
+In categorical logic, it is the internal logic of a topos, which explains its role in constructive mathematics.
+Its monadic fragment is undecidable, while the classical monadic fragment is decidable.

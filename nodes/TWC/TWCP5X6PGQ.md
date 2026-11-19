@@ -1,0 +1,86 @@
+---
+tag: TWCP5X6PGQ
+kind: statement
+role: theorem
+name: Structural completeness of Medvedev's logic
+msc: ["03B55", "03B22"]
+topics: [38EQ20GR7M]
+audience: research
+uses: [R2FD01J3PC, C5K35H0R4Y, 9X08XK5RV2]
+about: [R2FD01J3PC]
+proofs: [SGQ76R2WJY]
+history:
+  first_stated: "Prucnal, 1976, Structural completeness of Medvedev's propositional calculus"
+sources:
+  - arxiv: 2404.04349v1
+    locator: pages 2 and 3
+  - url: https://en.wikipedia.org/wiki/Admissible_rule
+    locator: Structural completeness
+---
+
+## Statement
+
+Let $\mathsf{ML}$ be [[Medvedev's logic|R2FD01J3PC]].
+A rule $\varphi / \psi$ is *admissible* in $\mathsf{ML}$ if $\sigma(\varphi) \in \mathsf{ML}$ implies $\sigma(\psi) \in \mathsf{ML}$ for every substitution $\sigma$.
+It is *derivable* in $\mathsf{ML}$ if $\varphi \to \psi \in \mathsf{ML}$.
+
+Theorem: every rule $\varphi / \psi$ that is admissible in $\mathsf{ML}$ is derivable in $\mathsf{ML}$.
+So $\mathsf{ML}$ is structurally complete in the sense of [[admissible rules|C5K35H0R4Y]].
+
+## Remarks
+
+### Why each hypothesis is needed
+
+The statement is about the particular logic $\mathsf{ML}$, and it fails for other intermediate logics.
+In $\mathsf{IPC}$ the [[Kreisel-Putnam rule is admissible but not derivable|ZBTCC4C61S]], so $\mathsf{IPC}$ is not structurally complete.
+The definition of derivability uses the [[deduction theorem|9X08XK5RV2]]: $\psi$ follows from $\varphi$ by the theorems of $\mathsf{ML}$ and modus ponens iff $\varphi \to \psi \in \mathsf{ML}$.
+A rule with premises $\varphi_1, \dots, \varphi_k$ is admissible or derivable iff the rule with the single premise $\varphi_1 \wedge \dots \wedge \varphi_k$ is, so single premises suffice.
+
+### Consequences
+
+1. The Kreisel-Putnam rule is derivable in $\mathsf{ML}$, in line with [[the validity of the Kreisel-Putnam axiom on Medvedev frames|28FPR0F5WK]].
+2. Every rule admissible in $\mathsf{ML}$ is also valid on every Medvedev frame, in the sense that every world forcing the premise forces the conclusion.
+
+### Converse
+
+The converse holds in every logic closed under substitution.
+If $\varphi \to \psi \in \mathsf{ML}$ and $\sigma(\varphi) \in \mathsf{ML}$, then $\sigma(\varphi) \to \sigma(\psi) \in \mathsf{ML}$, and modus ponens gives $\sigma(\psi) \in \mathsf{ML}$.
+
+### Generalizations
+
+The proof shows more: each Medvedev frame carries a universal valuation, of which every other valuation is a substitution instance.
+The same key lemma underlies Maksimova's theorem that $\mathsf{ML}$ is the largest extension of the weak Kreisel-Putnam logic with the disjunction property.
+We cite that theorem without proof.
+[[Gödel-Dummett logic|474SGS2N0X]] is even hereditarily structurally complete, by a different argument.
+
+## History
+
+Prucnal proved the theorem in 1976.
+Skvortsov gave the proof by universal valuations in a 1999 volume in memory of Rasiowa.
+Přenosil retold both this proof and Levin's theorem in a 2024 note, which the proof here follows.
+
+## Explanations
+
+### L1 human
+
+A rule says: whenever the premise is a law, so is the conclusion.
+Some rules are safe for this reason only, without the premise implying the conclusion.
+In Medvedev's logic this never happens.
+Each safe rule is backed by a law "premise implies conclusion".
+
+### L2 human
+
+1. Take the rule $\neg p \to q \vee r \;/\; (\neg p \to q) \vee (\neg p \to r)$.
+2. It is admissible in $\mathsf{IPC}$, but $\mathsf{IPC}$ does not prove the implication from premise to conclusion.
+3. In $\mathsf{ML}$ the implication is the Kreisel-Putnam axiom, which is a theorem.
+4. So in $\mathsf{ML}$ the rule is derivable, as the theorem predicts.
+
+The typical use is to reduce a question about admissible rules of $\mathsf{ML}$ to a question about its theorems.
+A trap: structural completeness does not pass to extensions in general, so the theorem says nothing about logics above $\mathsf{ML}$.
+
+### L3 human
+
+In algebraic terms, a logic is structurally complete iff its variety of algebras is generated as a quasivariety by its free algebra on countably many generators.
+The proof realizes this concretely: every valuation on a Medvedev frame factors through a fixed valuation and a substitution.
+The universal valuation is built from pairwise inconsistent formulas, one for each maximal world, which is also the key lemma in Levin's theorem.
+For the general theory of admissible rules in intermediate logics, see [[admissible rules|C5K35H0R4Y]].
