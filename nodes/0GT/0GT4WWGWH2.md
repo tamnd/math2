@@ -53,26 +53,26 @@ The answer has a fixed shape: the solution set is empty, or it is one particular
 
 ### Examples
 
-1. The system $x + y + z = 6$, $2x - y + z = 3$, $x + 2y - z = 2$ over $\R$ has the unique solution $(1, 2, 3)$, see [[three planes meeting in a point|~382fc66c]].
-2. The system $x + y + z = 3$, $x - y + 3z = 1$ has a line of solutions, see [[the line example|~f4f0e07b]].
-3. The system $x + y = 2$, $x - y = 0$, $x + 2y = 4$ has no solution, see [[the inconsistent triangle|~464a82a7]].
-4. The system $x + 2y + 3z = 1$, $2x + y + z = 4$ over $\mathbb{F}_5$ has exactly $5$ solutions, see [[systems over finite fields|~5cac521a]].
-5. The equations of the game Lights Out form a system over $\mathbb{F}_2$, see [[the Lights Out example|~1680847d]].
+1. The system $x + y + z = 6$, $2x - y + z = 3$, $x + 2y - z = 2$ over $\R$ has the unique solution $(1, 2, 3)$, see [[three planes meeting in a point|YM0PB9F9HG]].
+2. The system $x + y + z = 3$, $x - y + 3z = 1$ has a line of solutions, see [[the line example|PRB44DTZ1P]].
+3. The system $x + y = 2$, $x - y = 0$, $x + 2y = 4$ has no solution, see [[the inconsistent triangle|XJX2NN45ED]].
+4. The system $x + 2y + 3z = 1$, $2x + y + z = 4$ over $\mathbb{F}_5$ has exactly $5$ solutions, see [[systems over finite fields|J6A58MEM8R]].
+5. The equations of the game Lights Out form a system over $\mathbb{F}_2$, see [[the Lights Out example|JD8FEPHM6T]].
 
 ### Non-examples
 
-1. The system $x + y = 1$, $xy = 0$ is not linear, and it has exactly two solutions, which no linear system over $\R$ can have; see [[the nonlinear system|~c3f6a7d4]].
+1. The system $x + y = 1$, $xy = 0$ is not linear, and it has exactly two solutions, which no linear system over $\R$ can have; see [[the nonlinear system|FB6HBKEGPR]].
 2. An infinite list of equations $x_1 + x_k = 0$ for all $k \ge 2$ in infinitely many unknowns is not a system in the sense used here, because $m$ and $n$ must be finite.
 3. The inequalities $x + y \le 1$, $x \ge 0$, $y \ge 0$ are not equations; they belong to linear programming, which is outside this topic.
 
 ### Basic properties
 
-1. Two systems with the same solution set are called equivalent; [[elementary row operations|04XWH28452]] turn a system into an equivalent one, see [[the theorem on row operations|~6410ee51]].
-2. Every system is equivalent to a system in [[reduced row echelon form|0WF5AQYTW6]], and the solutions can be read from it, see [[the lemma on systems in RREF|~e45eea91]].
+1. Two systems with the same solution set are called equivalent; [[elementary row operations|04XWH28452]] turn a system into an equivalent one, see [[the theorem on row operations|K41GT10YM6]].
+2. Every system is equivalent to a system in [[reduced row echelon form|0WF5AQYTW6]], and the solutions can be read from it, see [[the lemma on systems in RREF|P3HMRQN5KT]].
 3. A system is consistent if and only if no echelon form of $[A \mid b]$ has a pivot in its last column, see [[the existence and uniqueness theorem|BKA191KD1S]].
-4. The solution set is empty or of the form $p + N$, where $N$ is the [[null space|0PHDYNR24D]] of $A$, see [[the structure theorem|~a01a76ca]].
+4. The solution set is empty or of the form $p + N$, where $N$ is the [[null space|0PHDYNR24D]] of $A$, see [[the structure theorem|PDH3HKXWAZ]].
 5. A system is consistent if and only if $\rank A = \rank [A \mid b]$, which is the [[Rouché-Capelli theorem|0HV1SKWPMS]].
-6. A homogeneous system with more unknowns than equations has a nontrivial solution, see [[the theorem on homogeneous systems|~37f18967]].
+6. A homogeneous system with more unknowns than equations has a nontrivial solution, see [[the theorem on homogeneous systems|JPW6KVS70A]].
 
 ### History
 
@@ -116,7 +116,7 @@ A trap: always check the answer in all the original equations, not only in the r
 ### L3 human
 
 The system $Ax = b$ asks whether $b$ is in the image of the linear map $x \mapsto Ax$ from $F^n$ to $F^m$, and for the full preimage of $b$.
-So the solution set is a fibre of a [[linear map|0NRYHJPQG2]]: empty, or a translate of the kernel, see [[the structure theorem|~a01a76ca]].
+So the solution set is a fibre of a [[linear map|0NRYHJPQG2]]: empty, or a translate of the kernel, see [[the structure theorem|PDH3HKXWAZ]].
 The rank of $A$ governs everything: the [[Rouché-Capelli theorem|0HV1SKWPMS]] decides consistency, and the dimension of the solution set is $n - \rank A$.
 For large systems over $\R$, numerical linear algebra replaces exact elimination by pivoting strategies and iterative methods; these are outside this topic.
 Over $\mathbb{Z}$ or another ring, solvability needs more than ranks, for example the Smith normal form.

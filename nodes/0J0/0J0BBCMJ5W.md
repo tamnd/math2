@@ -48,14 +48,14 @@ So counting pivots counts the independent conditions, and the remaining columns 
 ### Examples
 
 1. In $\begin{bmatrix} 1 & 2 & 3 \\ 0 & 0 & 4 \\ 0 & 0 & 0 \end{bmatrix}$, the pivots are $1$ at $(1, 1)$ and $4$ at $(2, 3)$; the pivot columns are $1$ and $3$.
-2. The matrix in [[the pivots example|~f5c146f8]] has pivot positions $(1, 2)$ and $(2, 4)$, basic variables $x_2, x_4$ and free variables $x_1, x_3, x_5$.
-3. In the system $x + y + z = 3$, $x - y + 3z = 1$ of [[the line example|~f4f0e07b]], $x$ and $y$ are basic and $z$ is free.
+2. The matrix in [[the pivots example|HQVWQBHQSC]] has pivot positions $(1, 2)$ and $(2, 4)$, basic variables $x_2, x_4$ and free variables $x_1, x_3, x_5$.
+3. In the system $x + y + z = 3$, $x - y + 3z = 1$ of [[the line example|PRB44DTZ1P]], $x$ and $y$ are basic and $z$ is free.
 4. An invertible $n \times n$ matrix has $n$ pivots, one in each row and each column, and no free variables.
-5. In [[the 4 by 5 example|~57cb9856]], the pivot columns are $1$, $3$ and $5$.
+5. In [[the 4 by 5 example|TSZFS6VP5M]], the pivot columns are $1$, $3$ and $5$.
 
 ### Non-examples
 
-1. In $\begin{bmatrix} 0 & 1 \\ 1 & 0 \end{bmatrix}$, the leading entries of the rows are not pivots, because the matrix is not in echelon form; the pivot positions are $(1, 1)$ and $(2, 2)$, see [[the non-example|~fac38c23]].
+1. In $\begin{bmatrix} 0 & 1 \\ 1 & 0 \end{bmatrix}$, the leading entries of the rows are not pivots, because the matrix is not in echelon form; the pivot positions are $(1, 1)$ and $(2, 2)$, see [[the non-example|RY5BJ98F63]].
 2. A zero entry is never a pivot: elimination cannot divide by it, so a zero in a pivot place forces a row exchange.
 3. A variable that is missing from one equation is not free for that reason; free means that its column has no pivot.
 
@@ -63,7 +63,7 @@ So counting pivots counts the independent conditions, and the remaining columns 
 
 1. Each row and each column contains at most one pivot.
 2. So the number $r$ of pivots satisfies $r \le m$ and $r \le n$.
-3. The number of pivots is the rank of $A$: the pivot columns of $A$ form a basis of its [[column space|03AJKXH1AV]], see [[the pivot basis|11CSKXQNG3]] and [[the second proof of Rouché-Capelli|~403d5028]].
+3. The number of pivots is the rank of $A$: the pivot columns of $A$ form a basis of its [[column space|03AJKXH1AV]], see [[the pivot basis|11CSKXQNG3]] and [[the second proof of Rouché-Capelli|N8HEMWKHZ0]].
 4. The number of free variables of $Ax = 0$ is $n - r$, and it is the dimension of the [[null space|0PHDYNR24D]].
 5. A consistent system has a unique solution exactly when it has no free variables, see [[the existence and uniqueness theorem|BKA191KD1S]].
 6. $Ax = b$ is consistent for every $b$ exactly when every row of $A$ has a pivot, see [[the pivot criterion|HJTF7B36W9]].

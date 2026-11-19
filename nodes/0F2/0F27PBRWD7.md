@@ -32,7 +32,7 @@ Lay calls the form defined here "echelon form" and does not require leading $1$s
 
 The matrix $\begin{bmatrix} 1 & 2 & 3 \\ 0 & 0 & 4 \\ 0 & 0 & 0 \end{bmatrix}$ is in row echelon form.
 In row echelon form, all the entries below a leading entry are zero.
-[[Gaussian elimination|0JVJ2WCXZH]] changes each matrix into a row echelon form by elementary row operations, see [[the existence theorem|~d9e684c6]].
+[[Gaussian elimination|0JVJ2WCXZH]] changes each matrix into a row echelon form by elementary row operations, see [[the existence theorem|FCM29NQ6DN]].
 
 ## Explanations
 

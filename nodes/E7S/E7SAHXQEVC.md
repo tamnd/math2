@@ -7,7 +7,7 @@ msc: [15A06]
 topics: [DXSXFVDMXQ]
 audience: school
 uses: [0PDVQEP0ZC, 0V8F3E48E6, 0T6MWGZSXA, 0GT4WWGWH2, 0DTY8B9HMS]
-proofs: [~d1f3d13b]
+proofs: [8A7X3ZSNHB]
 sources:
   - url: https://github.com/davidaustinm/ula/blob/b6ea263ef23703072b7007485bb7a2d89c5f399b/src/section2-2.xml#L901
     locator: src/section2-2.xml:901

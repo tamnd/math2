@@ -26,7 +26,7 @@ An *elementary row operation* on $A$ is one of these three operations:
 
 ## Remarks
 
-Each elementary row operation has an inverse operation of the same type, see [[the theorem|~6410ee51]].
+Each elementary row operation has an inverse operation of the same type, see [[the theorem|K41GT10YM6]].
 Each elementary row operation on $A$ is the same as the product $EA$ for an [[elementary matrix|01REXW3WWE]] $E$.
 Elementary row operations on an [[augmented matrix|0T6MWGZSXA]] do not change the solution set of the system.
 Elementary column operations have the same definition with columns in place of rows.

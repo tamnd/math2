@@ -6,9 +6,9 @@ name: Augmentation principle for reduced row echelon form
 msc: ["15A06"]
 topics: [DXSXFVDMXQ]
 audience: ug1
-uses: [0WF5AQYTW6, 0T6MWGZSXA, BF9SMZMJZE, ~6410ee51]
+uses: [0WF5AQYTW6, 0T6MWGZSXA, BF9SMZMJZE, K41GT10YM6]
 about: [0WF5AQYTW6]
-proofs: [~9e135e9b]
+proofs: [CQ1CPPK3JH]
 sources:
   - url: https://github.com/davidaustinm/ula/blob/b6ea263ef23703072b7007485bb7a2d89c5f399b/src/section1-3.xml#L683
     locator: src/section1-3.xml:683

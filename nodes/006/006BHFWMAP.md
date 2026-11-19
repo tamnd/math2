@@ -23,7 +23,7 @@ same_as:
 Let $F$ be a field and let $A$ and $B$ be $m \times n$ matrices over $F$.
 The matrix $A$ is row equivalent to $B$ when a finite sequence of [[elementary row operations|04XWH28452]] changes $A$ into $B$.
 The exact definition is in [[the definition node|095DDGZF16]].
-Row equivalence is an equivalence relation, and row equivalent matrices have the same row space and the same null space, see [[the theorem|~e3949f1c]].
+Row equivalence is an equivalence relation, and row equivalent matrices have the same row space and the same null space, see [[the theorem|E4GKK727ZM]].
 It matters because two systems with row equivalent augmented matrices have the same solutions, so row reduction may replace a system by a simpler one.
 
 ## Motivation
@@ -41,23 +41,23 @@ Lay writes $A \sim B$ in examples of row reduction.
 
 ### Examples
 
-1. $\begin{bmatrix} 1 & 2 & 3 \\ 2 & 4 & 7 \end{bmatrix}$ and $\begin{bmatrix} 1 & 2 & 0 \\ 1 & 2 & 1 \end{bmatrix}$ are row equivalent, since both reduce to the same RREF, see [[the test example|~1cd380f5]].
+1. $\begin{bmatrix} 1 & 2 & 3 \\ 2 & 4 & 7 \end{bmatrix}$ and $\begin{bmatrix} 1 & 2 & 0 \\ 1 & 2 & 1 \end{bmatrix}$ are row equivalent, since both reduce to the same RREF, see [[the test example|13RPZZFD43]].
 2. Every invertible $n \times n$ matrix is row equivalent to $I_n$.
-3. The augmented matrix $\left[\begin{array}{cc|c} 1 & 1 & 3 \\ 1 & -1 & 1 \end{array}\right]$ is row equivalent to $\left[\begin{array}{cc|c} 1 & 0 & 2 \\ 0 & 1 & 1 \end{array}\right]$, and the reverse sequence is in [[the reversing example|~e06fbfe4]].
+3. The augmented matrix $\left[\begin{array}{cc|c} 1 & 1 & 3 \\ 1 & -1 & 1 \end{array}\right]$ is row equivalent to $\left[\begin{array}{cc|c} 1 & 0 & 2 \\ 0 & 1 & 1 \end{array}\right]$, and the reverse sequence is in [[the reversing example|HASTW7ARPD]].
 4. Any matrix is row equivalent to the same matrix with two rows swapped.
 
 ### Non-examples
 
-1. $\begin{bmatrix} 1 & 0 \\ 0 & 0 \end{bmatrix}$ and $\begin{bmatrix} 0 & 1 \\ 0 & 0 \end{bmatrix}$ have the same column space, but they are not row equivalent, see [[the non-example|~698f64c0]].
+1. $\begin{bmatrix} 1 & 0 \\ 0 & 0 \end{bmatrix}$ and $\begin{bmatrix} 0 & 1 \\ 0 & 0 \end{bmatrix}$ have the same column space, but they are not row equivalent, see [[the non-example|A6P6MMDQBF]].
 2. $\begin{bmatrix} 1 & 2 & 3 \\ 2 & 4 & 7 \end{bmatrix}$ and $\begin{bmatrix} 1 & 2 & 3 \\ 2 & 4 & 6 \end{bmatrix}$ are not row equivalent, since their ranks are $2$ and $1$.
 3. Matrices of different sizes are never row equivalent.
 
 ### Basic properties
 
-1. Row equivalence is reflexive, symmetric and transitive, see [[the theorem|~e3949f1c]].
+1. Row equivalence is reflexive, symmetric and transitive, see [[the theorem|E4GKK727ZM]].
 2. $A \sim B$ implies $B = PA$ for an invertible matrix $P$; over a field the converse also holds, since every invertible matrix is a product of [[elementary matrices|01REXW3WWE]].
-3. Row equivalent matrices have the same row space and the same null space, see [[the theorem|~e3949f1c]].
-4. Every matrix is row equivalent to exactly one matrix in [[reduced row echelon form|0WF5AQYTW6]], see [[the existence theorem|~d9e684c6]] and [[the uniqueness theorem|BF9SMZMJZE]].
+3. Row equivalent matrices have the same row space and the same null space, see [[the theorem|E4GKK727ZM]].
+4. Every matrix is row equivalent to exactly one matrix in [[reduced row echelon form|0WF5AQYTW6]], see [[the existence theorem|FCM29NQ6DN]] and [[the uniqueness theorem|BF9SMZMJZE]].
 5. So $A \sim B$ if and only if $A$ and $B$ have the same RREF.
 
 ### History

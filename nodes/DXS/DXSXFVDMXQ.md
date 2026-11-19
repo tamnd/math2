@@ -32,11 +32,11 @@ It covers linear systems in any number of unknowns over a field, their matrices,
 15. [[Gauss-Jordan elimination|098D6FQN3N]]: reduction to the RREF, its cost, and inverses.
 16. [[Linear systems as vector equations|E7SAHXQEVC]]: consistency means that $b$ is in the column space.
 17. [[Existence and uniqueness of solutions|BKA191KD1S]]: the pivot test for none, one or many solutions.
-18. [[Parametric form of the solution set|~dc297165]]: a point plus a span of independent directions.
-19. [[Structure of the solution set|~a01a76ca]]: a particular solution plus the null space.
+18. [[Parametric form of the solution set|KQT68YPHD1]]: a point plus a span of independent directions.
+19. [[Structure of the solution set|PDH3HKXWAZ]]: a particular solution plus the null space.
 20. [[Rouché-Capelli theorem|0HV1SKWPMS]]: consistency and dimension by ranks.
 21. [[Overdetermined and underdetermined systems|QJ0P26J9BV]]: the usual behaviour, least squares and minimum length.
-22. [[Linear systems over finite fields|~5cac521a]]: elimination modulo $p$, the count $q^{n-r}$, and Lights Out.
+22. [[Linear systems over finite fields|J6A58MEM8R]]: elimination modulo $p$, the count $q^{n-r}$, and Lights Out.
 
 ### Prerequisites
 

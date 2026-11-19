@@ -25,8 +25,8 @@ For any system $Ax = b$, the system $Ax = 0$ is its *associated homogeneous syst
 
 The tuple $(0, \dots, 0)$ is always a solution, the *trivial solution*.
 The solution set of $Ax = 0$ is a [[linear subspace|00YC1D652K]] of $F^n$, the [[null space|0PHDYNR24D]] of $A$.
-If a system $Ax = b$ has a solution $p$, then its solution set is $\set{p + v : Av = 0}$, see [[the structure theorem|~a01a76ca]].
-A homogeneous system with more unknowns than equations has a nontrivial solution, see [[the theorem|~37f18967]].
+If a system $Ax = b$ has a solution $p$, then its solution set is $\set{p + v : Av = 0}$, see [[the structure theorem|PDH3HKXWAZ]].
+A homogeneous system with more unknowns than equations has a nontrivial solution, see [[the theorem|JPW6KVS70A]].
 
 ## Explanations
 

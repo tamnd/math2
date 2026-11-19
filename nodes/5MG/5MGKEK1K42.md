@@ -7,7 +7,7 @@ msc: ["15A06"]
 topics: [DXSXFVDMXQ]
 audience: school
 uses: [0X6V9B1V10, 0GT4WWGWH2, 0BCMGDHZGR, BKA191KD1S]
-proofs: [~69961e16]
+proofs: [DBEVX34DZJ]
 sources:
   - url: https://github.com/davidaustinm/ula/blob/b6ea263ef23703072b7007485bb7a2d89c5f399b/src/section1-4.xml#L917
     locator: src/section1-4.xml:917
@@ -44,8 +44,8 @@ Both parts together give a converse: if a consistent system has exactly one solu
 
 ### Generalizations
 
-The count of solutions over a field with $q$ elements is $q^k$, with $k$ the number of free variables, see [[the theorem on finite fields|~b461276f]].
-The [[parametric form|~dc297165]] describes all the solutions with $k$ parameters.
+The count of solutions over a field with $q$ elements is $q^k$, with $k$ the number of free variables, see [[the theorem on finite fields|8QM2Y41P69]].
+The [[parametric form|KQT68YPHD1]] describes all the solutions with $k$ parameters.
 
 ## Explanations
 
@@ -69,4 +69,4 @@ A trap: the pivots must be those of the coefficient matrix $A$; a pivot in the l
 ### L3 human
 
 The number of free variables is $n - \operatorname{rank} A$, the dimension of the null space.
-So the statement is the case "$\dim N(A) = 0$ or not" of [[the structure of the solution set|~a01a76ca]].
+So the statement is the case "$\dim N(A) = 0$ or not" of [[the structure of the solution set|PDH3HKXWAZ]].

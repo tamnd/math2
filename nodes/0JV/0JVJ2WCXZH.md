@@ -40,7 +40,7 @@ Gaussian elimination matters because it solves every linear system in finitely m
 To solve two equations in two unknowns, we subtract a multiple of one equation from the other to remove one unknown.
 Gaussian elimination repeats this idea in an organized way, so that it works for any number of equations and unknowns.
 The organization matters for a computer, and also for a person, because it guarantees termination and a correct result.
-The correctness rests on the fact that row operations do not change the solution set, see [[the theorem on row operations|~6410ee51]].
+The correctness rests on the fact that row operations do not change the solution set, see [[the theorem on row operations|K41GT10YM6]].
 
 ## Notation
 
@@ -52,10 +52,10 @@ The correctness rests on the fact that row operations do not change the solution
 
 ### Examples
 
-1. The $3 \times 3$ system of [[the three planes example|~382fc66c]] is solved by three eliminations, one swap and back substitution.
-2. [[The elimination example with a row exchange|~07a7fb26]] needs a swap because a zero appears in a pivot place.
-3. The system of [[the inconsistent triangle|~464a82a7]] produces the row $(0, 0 \mid 1)$, which shows that it has no solution.
-4. Over $\mathbb{F}_2$, the same algorithm solves the Lights Out puzzle, see [[the Lights Out example|~1680847d]].
+1. The $3 \times 3$ system of [[the three planes example|YM0PB9F9HG]] is solved by three eliminations, one swap and back substitution.
+2. [[The elimination example with a row exchange|8MW9Y8QF95]] needs a swap because a zero appears in a pivot place.
+3. The system of [[the inconsistent triangle|XJX2NN45ED]] produces the row $(0, 0 \mid 1)$, which shows that it has no solution.
+4. Over $\mathbb{F}_2$, the same algorithm solves the Lights Out puzzle, see [[the Lights Out example|JD8FEPHM6T]].
 
 ### Non-examples
 
@@ -65,7 +65,7 @@ The correctness rests on the fact that row operations do not change the solution
 
 ### Basic properties
 
-1. The algorithm stops after at most $\min(m, n)$ pivot steps, and the result is in row echelon form, see [[the existence theorem|~d9e684c6]].
+1. The algorithm stops after at most $\min(m, n)$ pivot steps, and the result is in row echelon form, see [[the existence theorem|FCM29NQ6DN]].
 2. The output is row equivalent to the input, so a system and its eliminated form have the same solutions.
 3. Operation count for an $n \times n$ matrix, where one operation is one addition, subtraction, multiplication or division in $F$: step $j$ (with $j$ rows left below the pivot) costs $j$ divisions for the multipliers and $2j^2$ operations for the updates.
 4. The total is $\sum_{j=1}^{n-1} (j + 2j^2) = \tfrac{n(n-1)}{2} + \tfrac{n(n-1)(2n-1)}{3}$, with leading term $\tfrac23 n^3$; for $n = 3$ it is $13$.

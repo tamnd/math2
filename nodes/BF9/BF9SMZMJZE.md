@@ -6,9 +6,9 @@ name: Uniqueness of the reduced row echelon form
 msc: ["15A06"]
 topics: [DXSXFVDMXQ]
 audience: ug1
-uses: [0WF5AQYTW6, 095DDGZF16, 0NNR68BFRY, ~e3949f1c, ~d9e684c6, ~e45eea91]
+uses: [0WF5AQYTW6, 095DDGZF16, 0NNR68BFRY, E4GKK727ZM, FCM29NQ6DN, P3HMRQN5KT]
 about: [0WF5AQYTW6]
-proofs: [~4e6ac683]
+proofs: [Y80F8462DG]
 sources:
   - url: https://github.com/davidaustinm/ula/blob/b6ea263ef23703072b7007485bb7a2d89c5f399b/src/section1-2.xml#L1343
     locator: src/section1-2.xml:1343
@@ -28,9 +28,9 @@ Equivalently: if two $m \times n$ matrices $R$ and $S$ in reduced row echelon fo
 
 ### Why each hypothesis is needed
 
-1. The word "reduced" is needed. The matrix $\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}$ is row equivalent to the two different row echelon forms $\begin{bmatrix} 1 & 2 \\ 0 & -2 \end{bmatrix}$ and $\begin{bmatrix} 3 & 4 \\ 0 & \tfrac23 \end{bmatrix}$, see [[two echelon forms|~492b4f42]].
+1. The word "reduced" is needed. The matrix $\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}$ is row equivalent to the two different row echelon forms $\begin{bmatrix} 1 & 2 \\ 0 & -2 \end{bmatrix}$ and $\begin{bmatrix} 3 & 4 \\ 0 & \tfrac23 \end{bmatrix}$, see [[two echelon forms|19FNDHJ181]].
 2. Both conditions of the reduced form are needed. The matrices $\begin{bmatrix} 1 & 2 \\ 0 & 1 \end{bmatrix}$ and $\begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}$ have leading $1$s and are row equivalent, but only the second has zeros above its pivots.
-3. Over a field, existence is [[the existence theorem|~d9e684c6]]; the content here is uniqueness.
+3. Over a field, existence is [[the existence theorem|FCM29NQ6DN]]; the content here is uniqueness.
 
 ### Consequences
 

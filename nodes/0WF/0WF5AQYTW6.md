@@ -21,8 +21,8 @@ sources:
 
 A matrix over a field is in reduced row echelon form when it is in [[row echelon form|0VYCDGMJJJ]], each leading entry is $1$, and each leading entry is the only nonzero entry in its column.
 The exact definition is in [[the definition node|0NNR68BFRY]].
-Every matrix is row equivalent to exactly one matrix in reduced row echelon form, see [[the existence theorem|~d9e684c6]] and [[the uniqueness theorem|BF9SMZMJZE]]; it is called the RREF of the matrix.
-The RREF matters because the solutions of a system can be read from the RREF of its augmented matrix without further computation, see [[the lemma on systems in RREF|~e45eea91]].
+Every matrix is row equivalent to exactly one matrix in reduced row echelon form, see [[the existence theorem|FCM29NQ6DN]] and [[the uniqueness theorem|BF9SMZMJZE]]; it is called the RREF of the matrix.
+The RREF matters because the solutions of a system can be read from the RREF of its augmented matrix without further computation, see [[the lemma on systems in RREF|P3HMRQN5KT]].
 
 ## Motivation
 
@@ -44,19 +44,19 @@ This form is unique, so it is a fingerprint of the matrix up to row operations.
 
 1. $\begin{bmatrix} 1 & 2 & 0 \\ 0 & 0 & 1 \\ 0 & 0 & 0 \end{bmatrix}$ is in RREF, with pivot columns $1$ and $3$.
 2. The identity matrix $I_n$ is in RREF, and it is the RREF of every invertible $n \times n$ matrix.
-3. $\left[\begin{array}{rrr|r} 1 & 0 & 2 & 2 \\ 0 & 1 & -1 & 1 \end{array}\right]$ is in RREF, and it gives the line of solutions in [[the line example|~f4f0e07b]].
-4. The three cases "unique", "none" and "infinitely many" are read off three RREFs in [[the reading example|~e19ce05e]].
-5. The RREFs of $A$ and of $[A \mid b]$ can have different numbers of pivots, see [[the trap example|~7ea020f3]].
+3. $\left[\begin{array}{rrr|r} 1 & 0 & 2 & 2 \\ 0 & 1 & -1 & 1 \end{array}\right]$ is in RREF, and it gives the line of solutions in [[the line example|PRB44DTZ1P]].
+4. The three cases "unique", "none" and "infinitely many" are read off three RREFs in [[the reading example|390YXGS32E]].
+5. The RREFs of $A$ and of $[A \mid b]$ can have different numbers of pivots, see [[the trap example|HCYVBVXBF4]].
 
 ### Non-examples
 
-1. $\begin{bmatrix} 1 & 2 & 0 \\ 0 & 3 & 1 \end{bmatrix}$ is in row echelon form but not in RREF, because a leading entry is $3$, see [[the non-examples|~c5f4bde3]].
+1. $\begin{bmatrix} 1 & 2 & 0 \\ 0 & 3 & 1 \end{bmatrix}$ is in row echelon form but not in RREF, because a leading entry is $3$, see [[the non-examples|WCXMCF2T7S]].
 2. $\begin{bmatrix} 1 & 2 & 5 \\ 0 & 1 & 3 \end{bmatrix}$ is not in RREF, because the entry $2$ lies above the leading $1$ of row 2.
 3. $\begin{bmatrix} 0 & 1 \\ 1 & 0 \end{bmatrix}$ is not in RREF, because it is not in row echelon form.
 
 ### Basic properties
 
-1. Every matrix has an RREF, see [[the existence theorem|~d9e684c6]], and it is unique, see [[the uniqueness theorem|BF9SMZMJZE]].
+1. Every matrix has an RREF, see [[the existence theorem|FCM29NQ6DN]], and it is unique, see [[the uniqueness theorem|BF9SMZMJZE]].
 2. Two matrices of the same size are row equivalent if and only if they have the same RREF.
 3. The pivot columns of the RREF are the unit vectors $e_1, \dots, e_r$, where $r$ is the number of pivots.
 4. The number $r$ of nonzero rows of the RREF is the [[rank|0ZC9YTXZRY]] of the matrix, and the nonzero rows are a basis of its row space.

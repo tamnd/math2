@@ -43,15 +43,15 @@ The prediction can fail when some equations depend on others, so the exact answe
 
 ### Examples
 
-1. [[Three lines without a common point|~464a82a7]] is an overdetermined system that is inconsistent.
-2. [[A consistent overdetermined system and a least squares fit|~f2f526db]] has $3$ equations, $2$ unknowns and a solution, until one right side changes.
-3. [[Two planes meeting in a line|~f4f0e07b]] is an underdetermined system with a line of solutions.
+1. [[Three lines without a common point|XJX2NN45ED]] is an overdetermined system that is inconsistent.
+2. [[A consistent overdetermined system and a least squares fit|XYTJ19AEKC]] has $3$ equations, $2$ unknowns and a solution, until one right side changes.
+3. [[Two planes meeting in a line|PRB44DTZ1P]] is an underdetermined system with a line of solutions.
 4. The system $x + y + z = 1$, $x + y + z = 2$ is underdetermined and inconsistent.
 5. The system $x + y = 1$, $2x + 2y = 2$, $3x + 3y = 3$ is overdetermined by count, but it has infinitely many solutions, because its rank is $1$.
 
 ### Non-examples
 
-1. [[A square system|~56a25f71]] has as many equations as unknowns.
+1. [[A square system|SZZX4B3JMY]] has as many equations as unknowns.
 2. A single equation $ax = b$ in one unknown is square, not underdetermined.
 
 ### Basic properties

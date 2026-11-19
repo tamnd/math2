@@ -1,0 +1,55 @@
+---
+tag: YA133QECTT
+kind: example
+name: Inverting a 3 by 3 matrix by Gauss-Jordan elimination
+msc: ["15A06", "15A09"]
+topics: [DXSXFVDMXQ]
+audience: school
+instance_of: [098D6FQN3N]
+uses: [098D6FQN3N, 0Z83DHFMYM, 0EB9N0S33C]
+sources:
+  - url: https://en.wikipedia.org/wiki/Gaussian_elimination
+    locator: Finding the inverse of a matrix
+---
+
+## Example
+
+Let $A = \begin{bmatrix} 1 & 2 & 3 \\ 0 & 1 & 4 \\ 5 & 6 & 0 \end{bmatrix}$ over $\R$.
+We reduce $[A \mid I]$ by [[Gauss-Jordan elimination|098D6FQN3N]], see [[computing the inverse by row reduction|0Z83DHFMYM]].
+
+1. The start is $\left[\begin{array}{rrr|rrr} 1 & 2 & 3 & 1 & 0 & 0 \\ 0 & 1 & 4 & 0 & 1 & 0 \\ 5 & 6 & 0 & 0 & 0 & 1 \end{array}\right]$.
+2. $R_3 \leftarrow R_3 - 5R_1$ gives $(0, -4, -15 \mid -5, 0, 1)$.
+3. $R_3 \leftarrow R_3 + 4R_2$ gives $(0, 0, 1 \mid -5, 4, 1)$.
+4. $R_2 \leftarrow R_2 - 4R_3$ gives $(0, 1, 0 \mid 20, -15, -4)$.
+5. $R_1 \leftarrow R_1 - 3R_3$ gives $(1, 2, 0 \mid 16, -12, -3)$.
+6. $R_1 \leftarrow R_1 - 2R_2$ gives $(1, 0, 0 \mid -24, 18, 5)$.
+7. The left block is $I$, so $A$ is [[invertible|0EB9N0S33C]] and $A^{-1} = \begin{bmatrix} -24 & 18 & 5 \\ 20 & -15 & -4 \\ -5 & 4 & 1 \end{bmatrix}$.
+
+Check that $AA^{-1} = I$, row by row:
+
+1. Row 1 of $A$ is $(1, 2, 3)$; it gives $-24 + 40 - 15 = 1$, $18 - 30 + 12 = 0$ and $5 - 8 + 3 = 0$.
+2. Row 2 of $A$ is $(0, 1, 4)$; it gives $20 - 20 = 0$, $-15 + 16 = 1$ and $-4 + 4 = 0$.
+3. Row 3 of $A$ is $(5, 6, 0)$; it gives $-120 + 120 = 0$, $90 - 90 = 0$ and $25 - 24 = 1$.
+
+## Remarks
+
+The determinant of $A$ is $1$, because no swap or scaling was used and the pivots are $1, 1, 1$; so the entries of $A^{-1}$ are integers.
+Each column of $A^{-1}$ solves $Ax = e_j$, so one reduction solves three systems at once.
+
+## Explanations
+
+### L1 human
+
+We write the matrix and the identity matrix side by side.
+We use row operations to turn the left half into the identity.
+The same operations turn the right half into the inverse.
+
+### L2 human
+
+1. Write $[A \mid I]$.
+2. Reduce the left block to its RREF, and apply each operation to the whole row.
+3. If the left block becomes $I$, read $A^{-1}$ in the right block.
+4. Check by multiplying $A$ by the result.
+
+The typical use is to invert a small matrix by hand.
+A trap: applying an operation only to the left block, which gives a wrong right block.

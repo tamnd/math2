@@ -6,9 +6,9 @@ name: Existence and uniqueness of solutions of a linear system
 msc: ["15A06"]
 topics: [DXSXFVDMXQ]
 audience: school
-uses: [0GT4WWGWH2, 0T6MWGZSXA, 0J0BBCMJ5W, 0X6V9B1V10, 0VYCDGMJJJ, BF9SMZMJZE, ~e45eea91, ~e3949f1c]
+uses: [0GT4WWGWH2, 0T6MWGZSXA, 0J0BBCMJ5W, 0X6V9B1V10, 0VYCDGMJJJ, BF9SMZMJZE, P3HMRQN5KT, E4GKK727ZM]
 about: [0X6V9B1V10]
-proofs: [~298c2db2]
+proofs: [550R9YRC28]
 sources:
   - url: https://github.com/davidaustinm/ula/blob/b6ea263ef23703072b7007485bb7a2d89c5f399b/src/section1-4.xml#L575
     locator: src/section1-4.xml:575
@@ -81,4 +81,4 @@ A trap: a zero row $(0, \dots, 0 \mid 0)$ is harmless; only a zero row of $A$ wi
 ### L3 human
 
 In terms of rank, part 1 says that $\operatorname{rank}[A \mid b] = \operatorname{rank} A$, and parts 2 and 3 say that $k = n - \operatorname{rank} A$.
-The solution set, when it is not empty, is a coset of the null space, which has dimension $k$, see [[the structure of the solution set|~a01a76ca]].
+The solution set, when it is not empty, is a coset of the null space, which has dimension $k$, see [[the structure of the solution set|PDH3HKXWAZ]].

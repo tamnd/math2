@@ -8,7 +8,7 @@ msc: [15A06]
 topics: [DXSXFVDMXQ]
 audience: ug1
 uses: [0JTRMBQ1SA, 0YCDZ7N8VD, 0EWQEYRVA8]
-proofs: [Q7FMCDJRET, ~403d5028]
+proofs: [Q7FMCDJRET, N8HEMWKHZ0]
 sources:
   - url: https://en.wikipedia.org/wiki/Rouché–Capelli_theorem
     locator: lead section
@@ -40,7 +40,7 @@ Over $\mathbb{Q}$ the equation $2x = 1$ has $\rank A = \rank [A \mid b] = 1$, bu
 
 1. A system with $\rank A = m$ is consistent for every $b$, because $\rank [A \mid b] \le m$.
 2. A square system has a unique solution for every $b$ if and only if $\rank A = n$, that is, $A$ is invertible.
-3. Over a field with $q$ elements, a consistent system has $q^{n - \rank A}$ solutions, see [[the theorem on finite fields|~b461276f]].
+3. Over a field with $q$ elements, a consistent system has $q^{n - \rank A}$ solutions, see [[the theorem on finite fields|8QM2Y41P69]].
 
 ### Converse
 
@@ -67,7 +67,7 @@ When solutions exist, each unknown without a pivot is free, and it adds one dime
 
 ### L2 human
 
-We use [[the example with a parameter in the right side|~8027660c]]: $x + y + z = 1$, $x + 2y + 3z = 2$, $x + 3y + 5z = a$ over $\R$.
+We use [[the example with a parameter in the right side|2WB9Z90K4Y]]: $x + y + z = 1$, $x + 2y + 3z = 2$, $x + 3y + 5z = a$ over $\R$.
 
 1. Row reduction gives the rows $(1, 1, 1 \mid 1)$, $(0, 1, 2 \mid 1)$ and $(0, 0, 0 \mid a - 3)$.
 2. So $\rank A = 2$ for every $a$.
@@ -80,4 +80,4 @@ A trap: comparing $\rank A$ with $n$ instead of with $\rank [A \mid b]$ answers 
 ### L3 human
 
 The rank condition says that $b$ lies in the column space, since adding $b$ keeps the span exactly when $b$ is already in it.
-The dimension claim is the rank-nullity theorem for $x \mapsto Ax$, together with [[the structure of the solution set|~a01a76ca]].
+The dimension claim is the rank-nullity theorem for $x \mapsto Ax$, together with [[the structure of the solution set|PDH3HKXWAZ]].

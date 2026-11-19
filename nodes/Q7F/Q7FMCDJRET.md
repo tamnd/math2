@@ -65,5 +65,5 @@ The dimension of the null space comes from the rank-nullity theorem.
 
 ## Variants
 
-A proof by row reduction, without the rank-nullity theorem, is [[the proof of the Rouché-Capelli theorem by row reduction|~403d5028]].
+A proof by row reduction, without the rank-nullity theorem, is [[the proof of the Rouché-Capelli theorem by row reduction|N8HEMWKHZ0]].
 It counts pivots in the reduced row echelon form instead of dimensions.

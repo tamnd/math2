@@ -34,13 +34,13 @@ Only the numbers change, so we keep only the numbers in a table.
 ### Examples
 
 1. The system $2x + y = 5$, $x - 3y = 0$ has the coefficient matrix $\begin{bmatrix} 2 & 1 \\ 1 & -3 \end{bmatrix}$.
-2. The system in [[the example with missing unknowns|~ca284b76]] needs zero entries for the missing unknowns.
+2. The system in [[the example with missing unknowns|2E4TZ2ZV57]] needs zero entries for the missing unknowns.
 3. A homogeneous system $Ax = 0$ is given by its coefficient matrix alone.
 
 ### Non-examples
 
 1. The [[augmented matrix|0T6MWGZSXA]] $[A \mid b]$ has one more column than the coefficient matrix.
-2. The array read off before all unknowns are moved to the left side is not the coefficient matrix, see [[the example with unknowns on both sides|~5353a581]].
+2. The array read off before all unknowns are moved to the left side is not the coefficient matrix, see [[the example with unknowns on both sides|PE7H79RRY9]].
 
 ### Basic properties
 

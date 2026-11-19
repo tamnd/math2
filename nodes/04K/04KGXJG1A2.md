@@ -21,8 +21,8 @@ sources:
 A homogeneous system of linear equations is a [[system of linear equations|0GT4WWGWH2]] in which every constant term is zero, so in matrix form it is $Ax = 0$.
 The exact definition is in [[the definition node|06JT7KDHXM]].
 Such a system always has the trivial solution $x = 0$, and its solution set is a [[linear subspace|00YC1D652K]] of $F^n$, the [[null space|0PHDYNR24D]] of $A$.
-It has a nontrivial solution exactly when some column of $A$ has no pivot, and this always happens when there are more unknowns than equations, see [[the theorem|~37f18967]].
-Homogeneous systems matter because the solutions of every consistent system $Ax = b$ are one particular solution plus the solutions of $Ax = 0$, see [[the structure theorem|~a01a76ca]].
+It has a nontrivial solution exactly when some column of $A$ has no pivot, and this always happens when there are more unknowns than equations, see [[the theorem|JPW6KVS70A]].
+Homogeneous systems matter because the solutions of every consistent system $Ax = b$ are one particular solution plus the solutions of $Ax = 0$, see [[the structure theorem|PDH3HKXWAZ]].
 
 ## Motivation
 
@@ -42,14 +42,14 @@ So the question "does $Ax = 0$ have a nonzero solution?" appears everywhere in l
 
 ### Examples
 
-1. The system $x_1 + 2x_2 - x_3 + x_4 = 0$, $2x_1 + 4x_2 + x_3 + 5x_4 = 0$ has a two-parameter family of solutions, see [[the 2 by 4 example|~1916a6fe]].
-2. The system with the coefficient matrix of [[the three planes example|~382fc66c]] has only the trivial solution, see [[the trivial-solution example|~48f5f04e]].
+1. The system $x_1 + 2x_2 - x_3 + x_4 = 0$, $2x_1 + 4x_2 + x_3 + 5x_4 = 0$ has a two-parameter family of solutions, see [[the 2 by 4 example|3GN7PFNRV2]].
+2. The system with the coefficient matrix of [[the three planes example|YM0PB9F9HG]] has only the trivial solution, see [[the trivial-solution example|8QMWDVE4RE]].
 3. The single equation $x + y + z = 0$ over $\R$ has a plane through the origin as its solution set.
 4. The conditions $c_1 (1, 2) + c_2 (2, 4) = 0$ give the homogeneous system $c_1 + 2c_2 = 0$, $2c_1 + 4c_2 = 0$, with the nontrivial solution $(2, -1)$.
 
 ### Non-examples
 
-1. The system $x + y = 1$, $x - y = 0$ is not homogeneous, and its solution set $\set{(\tfrac12, \tfrac12)}$ is not a subspace, see [[the non-homogeneous example|~39ed94be]].
+1. The system $x + y = 1$, $x - y = 0$ is not homogeneous, and its solution set $\set{(\tfrac12, \tfrac12)}$ is not a subspace, see [[the non-homogeneous example|J291MKHE97]].
 2. The equation $x^2 + y^2 = 0$ has zero right side, but it is not linear, so it is not a homogeneous linear system.
 
 ### Basic properties
@@ -58,8 +58,8 @@ So the question "does $Ax = 0$ have a nonzero solution?" appears everywhere in l
 2. If $u$ and $v$ are solutions and $c \in F$, then $u + v$ and $cu$ are solutions, because $A(u + v) = Au + Av = 0$ and $A(cu) = cAu = 0$.
 3. So the solution set is a subspace of $F^n$, the null space of $A$.
 4. A nontrivial solution exists if and only if the reduced row echelon form of $A$ has a free column.
-5. If $n > m$, a nontrivial solution exists, see [[the theorem on homogeneous systems|~37f18967]].
-6. The dimension of the solution set is $n - r$, where $r$ is the number of pivots, see [[the parametric form|~dc297165]].
+5. If $n > m$, a nontrivial solution exists, see [[the theorem on homogeneous systems|JPW6KVS70A]].
+6. The dimension of the solution set is $n - r$, where $r$ is the number of pivots, see [[the parametric form|KQT68YPHD1]].
 
 ### History
 

@@ -34,7 +34,7 @@ Two systems in the same unknowns are *equivalent* if they have the same solution
 With the [[coefficient matrix|0HQFZAP3ND]] $A = (a_{ij})$, the vector $b = (b_1, \dots, b_m)^T$ and $x = (x_1, \dots, x_n)^T$, the system is the single equation $Ax = b$.
 Over a field, a system has no solution, exactly one solution, or more than one solution.
 When $F$ is infinite, "more than one" means infinitely many.
-When $F$ is finite with $q$ elements, the number of solutions is $0$ or a power of $q$, see [[the theorem on finite fields|~b461276f]].
+When $F$ is finite with $q$ elements, the number of solutions is $0$ or a power of $q$, see [[the theorem on finite fields|8QM2Y41P69]].
 
 ## Explanations
 

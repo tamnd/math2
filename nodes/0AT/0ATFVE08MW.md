@@ -39,10 +39,10 @@ Each step uses only values that we already know, and each step solves one equati
 
 ### Examples
 
-1. [[A 3 by 3 upper triangular system|~283a851a]] gives $(1, 3, 2)$ in three steps.
-2. [[A forward substitution example|~9ebca448]] solves a lower triangular system from the top.
-3. [[A triangular matrix with a zero on the diagonal|~2cf83436]] gives no solution or infinitely many, depending on the right-hand side.
-4. The last stage of [[the three planes example|~382fc66c]] is a back substitution.
+1. [[A 3 by 3 upper triangular system|9G9Y9880MV]] gives $(1, 3, 2)$ in three steps.
+2. [[A forward substitution example|ZN0DY3MZ5D]] solves a lower triangular system from the top.
+3. [[A triangular matrix with a zero on the diagonal|39WWGKFHFV]] gives no solution or infinitely many, depending on the right-hand side.
+4. The last stage of [[the three planes example|YM0PB9F9HG]] is a back substitution.
 
 ### Non-examples
 

@@ -34,25 +34,25 @@ More generally, for an $m \times k$ matrix $B$, the matrix $[A \mid B]$ is the $
 
 1. The system $2x + y = 5$, $x - 3y = 0$ has the augmented matrix $\left[\begin{array}{cc|c} 2 & 1 & 5 \\ 1 & -3 & 0 \end{array}\right]$.
 2. Conversely, the augmented matrix $\left[\begin{array}{ccc|c} 1 & 0 & 2 & 3 \\ 0 & 1 & -1 & 1 \end{array}\right]$ in the unknowns $x, y, z$ is the system $x + 2z = 3$, $y - z = 1$.
-3. Two systems $Ax = b$ and $Ax = c$ with the same $A$ are solved together by reducing $[A \mid b \; c]$, see [[the example with two right-hand sides|~697909d5]].
-4. The inverse of an invertible $A$ is found by reducing $[A \mid I]$ to $[I \mid A^{-1}]$, see [[the inverse example|~3f9cc605]].
+3. Two systems $Ax = b$ and $Ax = c$ with the same $A$ are solved together by reducing $[A \mid b \; c]$, see [[the example with two right-hand sides|KZ1G2TB2Q3]].
+4. The inverse of an invertible $A$ is found by reducing $[A \mid I]$ to $[I \mid A^{-1}]$, see [[the inverse example|YA133QECTT]].
 
 ### Non-examples
 
 1. The coefficient matrix $\begin{bmatrix} 2 & 1 \\ 1 & -3 \end{bmatrix}$ of example 1 is not the augmented matrix: it lacks the column $b$.
-2. The table $\left[\begin{array}{cc|c} 1 & 1 & 3 \\ 1 & -1 & 1 \end{array}\right]$ obtained from $x^2 + y = 3$, $x - y = 1$ by treating $x^2$ as $x$ is not an augmented matrix of that system, see [[the nonlinear array|~81e627f4]].
+2. The table $\left[\begin{array}{cc|c} 1 & 1 & 3 \\ 1 & -1 & 1 \end{array}\right]$ obtained from $x^2 + y = 3$, $x - y = 1$ by treating $x^2$ as $x$ is not an augmented matrix of that system, see [[the nonlinear array|VDC3D0JADY]].
 
 ### Basic properties
 
 1. The system is determined by $[A \mid b]$ once the order of the unknowns is fixed, and conversely.
-2. [[Elementary row operations|04XWH28452]] on $[A \mid b]$ do not change the solution set of the system, see [[the theorem on row operations|~6410ee51]].
+2. [[Elementary row operations|04XWH28452]] on $[A \mid b]$ do not change the solution set of the system, see [[the theorem on row operations|K41GT10YM6]].
 3. A row operation on $[A \mid B]$ acts on $A$ and $B$ together: $E[A \mid B] = [EA \mid EB]$ for every matrix $E$ with $m$ columns.
 4. The system is inconsistent exactly when an echelon form of $[A \mid b]$ has a pivot in the last column, see [[the existence and uniqueness theorem|BKA191KD1S]].
 5. The rank of $[A \mid b]$ is $\rank A$ or $\rank A + 1$; it is $\rank A$ exactly when the system is consistent, by the [[Rouché-Capelli theorem|0HV1SKWPMS]].
 
 ### Common errors
 
-1. Reducing $A$ alone and then trying to read off the solution of $Ax = b$; the operations must also act on $b$, see [[the trap example|~7ea020f3]].
+1. Reducing $A$ alone and then trying to read off the solution of $Ax = b$; the operations must also act on $b$, see [[the trap example|HCYVBVXBF4]].
 2. Treating the last column as an unknown, so that a pivot there is read as a value of a variable instead of the equation $0 = 1$.
 
 ## Explanations

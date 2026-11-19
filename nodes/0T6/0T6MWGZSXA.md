@@ -34,17 +34,17 @@ Keeping the right sides in an extra column of the table lets us apply each row o
 ### Examples
 
 1. The system $2x + y = 5$, $x - 3y = 0$ has the augmented matrix $\left[\begin{array}{cc|c} 2 & 1 & 5 \\ 1 & -3 & 0 \end{array}\right]$.
-2. Several right sides are handled at once with $[A \mid b \; c]$, see [[the example with two right-hand sides|~697909d5]].
-3. The reduced forms of $A$ and of $[A \mid b]$ can differ in rank, see [[the trap example|~7ea020f3]].
+2. Several right sides are handled at once with $[A \mid b \; c]$, see [[the example with two right-hand sides|KZ1G2TB2Q3]].
+3. The reduced forms of $A$ and of $[A \mid b]$ can differ in rank, see [[the trap example|HCYVBVXBF4]].
 
 ### Non-examples
 
 1. The coefficient matrix $A$ alone is not the augmented matrix.
-2. An array built from a nonlinear system is not an augmented matrix, see [[the nonlinear array|~81e627f4]].
+2. An array built from a nonlinear system is not an augmented matrix, see [[the nonlinear array|VDC3D0JADY]].
 
 ### Basic properties
 
-1. Row operations on $[A \mid b]$ keep the solution set, see [[the theorem on row operations|~6410ee51]].
+1. Row operations on $[A \mid b]$ keep the solution set, see [[the theorem on row operations|K41GT10YM6]].
 2. The system is consistent exactly when $\rank [A \mid b] = \rank A$, see the [[Rouché-Capelli theorem|0HV1SKWPMS]].
 
 ### History

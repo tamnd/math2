@@ -24,7 +24,7 @@ Let $A$ be an $m \times n$ [[matrix|0VD9ZSWWJG]] over a field, and call the firs
 $A$ is in row echelon form when every zero row lies below every nonzero row, and the leading entry of each nonzero row is strictly to the right of the leading entry of the row above it.
 The exact definition is in [[the definition node|0F27PBRWD7]].
 Then all entries below a leading entry are zero, and the nonzero rows form a staircase.
-Every matrix can be brought to row echelon form by [[elementary row operations|04XWH28452]], see [[the existence theorem|~d9e684c6]], but the form is not unique.
+Every matrix can be brought to row echelon form by [[elementary row operations|04XWH28452]], see [[the existence theorem|FCM29NQ6DN]], but the form is not unique.
 Row echelon form matters because a system in this form is solved from the bottom up by [[back substitution|0ATFVE08MW]], and its pivot positions show the rank and the free variables.
 
 ## Motivation
@@ -47,21 +47,21 @@ It is the target of the forward phase of [[Gaussian elimination|0JVJ2WCXZH]].
 ### Examples
 
 1. $\begin{bmatrix} 1 & 2 & 3 \\ 0 & 0 & 4 \\ 0 & 0 & 0 \end{bmatrix}$ is in row echelon form, with leading entries in columns $1$ and $3$.
-2. $\begin{bmatrix} 1 & 2 \\ 0 & -2 \end{bmatrix}$ and $\begin{bmatrix} 3 & 4 \\ 0 & \tfrac23 \end{bmatrix}$ are two row echelon forms of the same matrix, see [[two echelon forms|~492b4f42]].
-3. The $4 \times 5$ matrix in [[the 4 by 5 example|~57cb9856]] is in row echelon form with pivot columns $1$, $3$ and $5$.
+2. $\begin{bmatrix} 1 & 2 \\ 0 & -2 \end{bmatrix}$ and $\begin{bmatrix} 3 & 4 \\ 0 & \tfrac23 \end{bmatrix}$ are two row echelon forms of the same matrix, see [[two echelon forms|19FNDHJ181]].
+3. The $4 \times 5$ matrix in [[the 4 by 5 example|TSZFS6VP5M]] is in row echelon form with pivot columns $1$, $3$ and $5$.
 4. Every upper triangular matrix with nonzero diagonal entries is in row echelon form.
 5. The zero matrix is in row echelon form, with no leading entries.
 
 ### Non-examples
 
-1. $\begin{bmatrix} 1 & 2 & 3 \\ 0 & 0 & 0 \\ 0 & 4 & 5 \end{bmatrix}$ is not in row echelon form, because a zero row lies above a nonzero row, see [[the non-examples|~127031fb]].
+1. $\begin{bmatrix} 1 & 2 & 3 \\ 0 & 0 & 0 \\ 0 & 4 & 5 \end{bmatrix}$ is not in row echelon form, because a zero row lies above a nonzero row, see [[the non-examples|KEV3SBST22]].
 2. $\begin{bmatrix} 1 & 2 & 3 \\ 0 & 4 & 5 \\ 0 & 6 & 7 \end{bmatrix}$ is not in row echelon form, because rows 2 and 3 have their leading entries in the same column.
 3. $\begin{bmatrix} 0 & 1 \\ 1 & 0 \end{bmatrix}$ is not in row echelon form, because the leading entry of row 2 is left of that of row 1.
 
 ### Basic properties
 
-1. Every matrix over a field is row equivalent to a matrix in row echelon form, see [[the existence theorem|~d9e684c6]].
-2. Row echelon forms of a matrix are not unique, see [[two echelon forms|~492b4f42]].
+1. Every matrix over a field is row equivalent to a matrix in row echelon form, see [[the existence theorem|FCM29NQ6DN]].
+2. Row echelon forms of a matrix are not unique, see [[two echelon forms|19FNDHJ181]].
 3. The positions of the leading entries do not depend on the echelon form chosen, since they are the pivot positions of the unique RREF, see [[the uniqueness theorem|BF9SMZMJZE]].
 4. So the number of nonzero rows of any echelon form of $A$ is the same; it is the rank of $A$.
 5. The nonzero rows of a row echelon form are linearly independent, and they span the row space of $A$.
