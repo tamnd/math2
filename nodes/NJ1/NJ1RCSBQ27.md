@@ -8,7 +8,7 @@ audience: ug3
 not_instance_of:
   - target: D9G8M42GKC
     note: a metalanguage for the truth of the sentences of arithmetic must define the set of true sentences, and no formula of arithmetic defines it, so arithmetic cannot be its own truth metalanguage
-uses: [D9G8M42GKC, MFJXPAF0R0, 3PRW76471J, YRV6SYK2BY, 3K1AKGXF8A, DYAB23WA1X]
+uses: [D9G8M42GKC, MFJXPAF0R0, 3PRW76471J, YRV6SYK2BY, 3K1AKGXF8A, KBYY281V8T]
 sources:
   - url: https://en.wikipedia.org/wiki/Tarski%27s_undefinability_theorem
     locator: lead section
@@ -38,7 +38,7 @@ By step 7, $L_A$ cannot do this, so the pair ($L_A$ as object language, $L_A$ as
 
 ## Remarks
 
-The sentence $\lambda$ says of itself, through its code, "I am not true", so the argument is a precise form of the [[liar sentence|DYAB23WA1X]].
+The sentence $\lambda$ says of itself, through its code, "I am not true", so the argument is a precise form of the [[liar sentence|KBYY281V8T]].
 The example does not say that $L_A$ cannot speak about its own syntax.
 The property "$\varphi$ is provable in $\mathsf{PA}$" is expressed by a formula $\mathrm{Prov}(x)$ of $L_A$, and this is the basis of the incompleteness theorems.
 So arithmetic is a metalanguage for its own syntax but not for its own truth.
