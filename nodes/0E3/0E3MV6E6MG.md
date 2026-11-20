@@ -46,14 +46,14 @@ For a square matrix $A$, $p(A) = c_0 I_n + c_1 A + \cdots + c_d A^d$.
 
 ### Examples
 
-- [[A polynomial in a symmetric 2 by 2 matrix|~d6227a22]]: for $A = \begin{pmatrix} 2 & 1 \\ 1 & 2 \end{pmatrix}$ and $p(x) = x^2 - 4x$, $p(A) = -3I$.
-- [[Polynomials in a projection|~0ca6f4d2]]: if $P^2 = P$, then $p(P) = p(0)(I - P) + p(1)P$.
+- [[A polynomial in a symmetric 2 by 2 matrix|SPNE23C2MM]]: for $A = \begin{pmatrix} 2 & 1 \\ 1 & 2 \end{pmatrix}$ and $p(x) = x^2 - 4x$, $p(A) = -3I$.
+- [[Polynomials in a projection|F5TTF31NR5]]: if $P^2 = P$, then $p(P) = p(0)(I - P) + p(1)P$.
 - For a diagonal matrix $D = \operatorname{diag}(d_1, \dots, d_n)$, $p(D) = \operatorname{diag}(p(d_1), \dots, p(d_n))$.
 - For $A = SDS^{-1}$, $p(A) = S\, p(D)\, S^{-1}$, because $(SDS^{-1})^k = SD^kS^{-1}$.
 
 ### Non-examples
 
-- [[The entrywise square is not a polynomial in the matrix|~949caecd]]: it does not commute with the matrix.
+- [[The entrywise square is not a polynomial in the matrix|P50X3T3Y9V]]: it does not commute with the matrix.
 - $p(A)$ is not obtained by applying $p$ to each entry of $A$. For $A = \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}$ and $p(x) = x^2$, $p(A) = 0$, while the entrywise square is $A$.
 
 ### Basic properties
@@ -61,8 +61,8 @@ For a square matrix $A$, $p(A) = c_0 I_n + c_1 A + \cdots + c_d A^d$.
 - $(p + q)(T) = p(T) + q(T)$, $(cp)(T) = c\,p(T)$, $(pq)(T) = p(T)q(T)$ and $1(T) = I$.
 - So $p(T)q(T) = q(T)p(T)$, and $F[T]$ is commutative.
 - If $T v = \lambda v$, then $p(T)v = p(\lambda)v$. So each eigenvector of $T$ is an eigenvector of $p(T)$.
-- The theorem on the [[eigenvalues of a polynomial in an endomorphism|~ceb4bf0e]] gives $\sigma(p(T)) = p(\sigma(T))$ over an algebraically closed field, and $\sigma(T^{-1}) = \{1/\lambda : \lambda \in \sigma(T)\}$.
-- If $V$ is finite-dimensional, then $F[T]$ has dimension equal to the degree of the minimal polynomial, by the theorem on [[annihilating polynomials|~540651d7]].
+- The theorem on the [[eigenvalues of a polynomial in an endomorphism|F2S8WGVARA]] gives $\sigma(p(T)) = p(\sigma(T))$ over an algebraically closed field, and $\sigma(T^{-1}) = \{1/\lambda : \lambda \in \sigma(T)\}$.
+- If $V$ is finite-dimensional, then $F[T]$ has dimension equal to the degree of the minimal polynomial, by the theorem on [[annihilating polynomials|AH34SFJ8SF]].
 - Every subspace that is invariant under $T$ is invariant under $p(T)$. In particular $\ker p(T)$ and $\operatorname{im} p(T)$ are invariant under $T$.
 
 ### History

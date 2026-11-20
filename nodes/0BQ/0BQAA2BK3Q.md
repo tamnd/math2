@@ -45,17 +45,17 @@ Mathlib writes `Module.End.HasEigenvalue T λ`.
 
 ### Examples
 
-- [[The symmetric matrix with rows (2, 1) and (1, 2)|~300f406e]] has the eigenvalues $1$ and $3$.
-- [[The spectrum depends on the field|~3e12f65b]]: the matrix with rows $(0, -1)$ and $(1, 0)$ has no eigenvalue over $\R$, the eigenvalues $\pm i$ over $\C$, and the eigenvalues $2$ and $3$ over $\mathbb{F}_5$.
-- [[The left shift on sequences|~56ecd655]] has every scalar as an eigenvalue, and the right shift has none.
-- [[The derivative on smooth functions|~358c3d83]] has every real number as an eigenvalue, with the eigenvector $e^{\lambda x}$.
-- A triangular matrix has its diagonal entries as eigenvalues, as in [[a triangular example|~fa4b2e8e]].
+- [[The symmetric matrix with rows (2, 1) and (1, 2)|Z6K3QPP7DY]] has the eigenvalues $1$ and $3$.
+- [[The spectrum depends on the field|B7C9Y27YA3]]: the matrix with rows $(0, -1)$ and $(1, 0)$ has no eigenvalue over $\R$, the eigenvalues $\pm i$ over $\C$, and the eigenvalues $2$ and $3$ over $\mathbb{F}_5$.
+- [[The left shift on sequences|HBVWZ0FXWC]] has every scalar as an eigenvalue, and the right shift has none.
+- [[The derivative on smooth functions|1SKH5XJ5RB]] has every real number as an eigenvalue, with the eigenvector $e^{\lambda x}$.
+- A triangular matrix has its diagonal entries as eigenvalues, as in [[a triangular example|NHR1K0GPS1]].
 
 ### Non-examples
 
-- [[A rotation of the plane by an angle that is not a multiple of pi|~805e3c17]] has no real eigenvalue.
-- [[The diagonal entries of a non-triangular matrix|~7c7ab2bb]] are in general not its eigenvalues.
-- [[Row reduction changes the eigenvalues|~19d290f5]]: the echelon form of a matrix has other eigenvalues.
+- [[A rotation of the plane by an angle that is not a multiple of pi|5AE98D7959]] has no real eigenvalue.
+- [[The diagonal entries of a non-triangular matrix|FT8XA974H9]] are in general not its eigenvalues.
+- [[Row reduction changes the eigenvalues|M1XGWNT48M]]: the echelon form of a matrix has other eigenvalues.
 
 ### Basic properties
 
@@ -64,7 +64,7 @@ Mathlib writes `Module.End.HasEigenvalue T λ`.
 - In finite dimension $n \ge 1$, the eigenvalues are [[the roots of the characteristic polynomial|053QVHF6N7]]. So there are at most $n$ of them.
 - [[Over an algebraically closed field, an eigenvalue exists|08CJB2NQ92]] when $0 < \dim V < \infty$. Over $\R$ this fails for rotations.
 - The eigenvalues are also [[the roots of the minimal polynomial|0QF4ZEFG52]].
-- If $\lambda$ is an eigenvalue of $T$ and $p$ is a polynomial, then $p(\lambda)$ is an eigenvalue of $p(T)$, by the theorem on [[eigenvalues of a polynomial in an endomorphism|~ceb4bf0e]].
+- If $\lambda$ is an eigenvalue of $T$ and $p$ is a polynomial, then $p(\lambda)$ is an eigenvalue of $p(T)$, by the theorem on [[eigenvalues of a polynomial in an endomorphism|F2S8WGVARA]].
 - Similar matrices have the same eigenvalues, because they have the same characteristic polynomial.
 - The sum of the eigenvalues with multiplicity is the [[trace|0NMXDCNNKR]], and their product is the [[determinant|0C2F40MEBC]], when the characteristic polynomial splits.
 

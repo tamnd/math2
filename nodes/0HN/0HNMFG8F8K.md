@@ -39,7 +39,7 @@ Let $F$ be a field, let $V$ be a vector space over $F$, and let $T \colon V \to 
 
 - An $n \times n$ matrix with $n$ distinct eigenvalues is diagonalisable, by the theorem that [[distinct eigenvalues imply diagonalisability|0Y95Z7MT02]].
 - $T$ is [[diagonalisable|07SQCNV233]] if and only if $\sum_\lambda \dim E_\lambda = \dim V$.
-- In infinite dimension, the functions $e^{\lambda x}$ for distinct real $\lambda$ are linearly independent, because they are eigenvectors of the [[derivative|~358c3d83]] for distinct eigenvalues.
+- In infinite dimension, the functions $e^{\lambda x}$ for distinct real $\lambda$ are linearly independent, because they are eigenvectors of the [[derivative|1SKH5XJ5RB]] for distinct eigenvalues.
 
 ### Converse
 

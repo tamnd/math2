@@ -25,7 +25,7 @@ It is monic of degree $n$, its roots in $F$ are the eigenvalues of $T$, and it i
 ## Motivation
 
 The eigenvalues of $T$ do not depend on a basis, so a polynomial that finds them should not depend on one either.
-The theorem on the [[characteristic polynomial of an endomorphism|~756cfc1f]] shows that each basis gives the same polynomial.
+The theorem on the [[characteristic polynomial of an endomorphism|C98TZ6ZAXC]] shows that each basis gives the same polynomial.
 This makes the trace, the determinant and the algebraic multiplicities invariants of the map $T$ itself.
 
 ## Notation
@@ -38,19 +38,19 @@ Mathlib writes `LinearMap.charpoly T`, for an endomorphism of a finite free modu
 
 ### Examples
 
-- [[A rotation of the plane|~805e3c17]] by the angle $\theta$ has $p_T(t) = t^2 - 2 \cos\theta \, t + 1$, in the standard basis and in each other basis.
-- [[A projection of the plane|~0ca6f4d2]] onto a line along another line has $p_T(t) = t(t - 1)$.
-- [[The derivative on polynomials of degree at most 2|~358c3d83]] has $p_D(t) = t^3$, because its matrix in the basis $1, x, x^2$ is strictly upper triangular.
+- [[A rotation of the plane|5AE98D7959]] by the angle $\theta$ has $p_T(t) = t^2 - 2 \cos\theta \, t + 1$, in the standard basis and in each other basis.
+- [[A projection of the plane|F5TTF31NR5]] onto a line along another line has $p_T(t) = t(t - 1)$.
+- [[The derivative on polynomials of degree at most 2|1SKH5XJ5RB]] has $p_D(t) = t^3$, because its matrix in the basis $1, x, x^2$ is strictly upper triangular.
 - The identity of $V$ has $p(t) = (t - 1)^n$, and the zero map has $p(t) = t^n$.
 
 ### Non-examples
 
-- [[The left shift on all sequences|~56ecd655]] has no characteristic polynomial: every scalar is an eigenvalue, and a nonzero polynomial has finitely many roots.
+- [[The left shift on all sequences|HBVWZ0FXWC]] has no characteristic polynomial: every scalar is an eigenvalue, and a nonzero polynomial has finitely many roots.
 - A linear map $V \to W$ with $V \ne W$ has a matrix that need not be square, and it has no characteristic polynomial.
 
 ### Basic properties
 
-- $p_T$ does not depend on the basis, is monic of degree $n$, and is multiplicative on invariant direct sums, by the theorem on the [[characteristic polynomial of an endomorphism|~756cfc1f]].
+- $p_T$ does not depend on the basis, is monic of degree $n$, and is multiplicative on invariant direct sums, by the theorem on the [[characteristic polynomial of an endomorphism|C98TZ6ZAXC]].
 - If $U$ is a $T$-invariant subspace, then $p_{T|_U}$ divides $p_T$, by the same theorem.
 - The roots of $p_T$ in $F$ are the eigenvalues of $T$, by the theorem that [[eigenvalues are the roots of the characteristic polynomial|053QVHF6N7]].
 - The coefficient of $t^{n-1}$ is $-\operatorname{tr} T$, the [[trace of the linear map|0KZDNGA561]], and the constant term is $(-1)^n \det T$.

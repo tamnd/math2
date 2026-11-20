@@ -6,7 +6,7 @@ msc: ["15A18"]
 topics: [6R1D6QPY3S]
 audience: ug2
 defines: 03NDVCSHSB
-uses: [052M4SX57M, ~540651d7]
+uses: [052M4SX57M, AH34SFJ8SF]
 formal:
   - system: lean4
     library: mathlib
@@ -32,7 +32,7 @@ Mathlib sets `minpoly F x = 0` when no nonzero annihilating polynomial exists; i
 
 ## Remarks
 
-The definition makes sense because of the theorem on [[annihilating polynomials|~540651d7]].
+The definition makes sense because of the theorem on [[annihilating polynomials|AH34SFJ8SF]].
 That theorem shows that $I_T \ne 0$ in finite dimension, that $I_T$ has exactly one monic generator, and that this generator is the unique monic element of least degree.
 So the two descriptions in the definition agree.
 The minimal polynomial of $A$ equals that of the map $x \mapsto Ax$, because $p(A)x = p(L_A)(x)$ for every $p$.

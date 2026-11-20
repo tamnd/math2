@@ -44,14 +44,14 @@ Mathlib writes `spectrum F A`, for an element $A$ of an $F$-algebra.
 
 ### Examples
 
-- [[The symmetric matrix with rows (2, 1) and (1, 2)|~300f406e]] has spectrum $\{1, 3\}$.
-- [[The spectrum depends on the field|~3e12f65b]]: one integer matrix has empty spectrum over $\R$, spectrum $\{i, -i\}$ over $\C$, and spectrum $\{2, 3\}$ over $\mathbb{F}_5$.
+- [[The symmetric matrix with rows (2, 1) and (1, 2)|Z6K3QPP7DY]] has spectrum $\{1, 3\}$.
+- [[The spectrum depends on the field|B7C9Y27YA3]]: one integer matrix has empty spectrum over $\R$, spectrum $\{i, -i\}$ over $\C$, and spectrum $\{2, 3\}$ over $\mathbb{F}_5$.
 - The spectrum of a [[diagonal matrix|044JNC7ZAA]] or of an [[upper triangular matrix|0N4XY7Z3NN]] is the set of its diagonal entries.
 - A [[nilpotent matrix|07BSPZPSMF]] of size $n \ge 1$ has spectrum $\{0\}$.
 
 ### Non-examples
 
-- [[The diagonal entries of a non-triangular matrix|~7c7ab2bb]]: the matrix with rows $(0, 1)$ and $(1, 0)$ has diagonal entries $0, 0$ and spectrum $\{1, -1\}$.
+- [[The diagonal entries of a non-triangular matrix|FT8XA974H9]]: the matrix with rows $(0, 1)$ and $(1, 0)$ has diagonal entries $0, 0$ and spectrum $\{1, -1\}$.
 - The set of singular values is in general not the spectrum. For the matrix with rows $(0, 1)$ and $(0, 0)$, the singular values are $1$ and $0$, and the spectrum is $\{0\}$.
 
 ### Basic properties
@@ -60,8 +60,8 @@ Mathlib writes `spectrum F A`, for an element $A$ of an $F$-algebra.
 - So $|\sigma(A)| \le n$, and similar matrices have the same spectrum.
 - $\sigma(A^{\mathsf{T}}) = \sigma(A)$, because $\det(tI - A^{\mathsf{T}}) = \det(tI - A)$.
 - $A$ is invertible if and only if $0 \notin \sigma(A)$. Then $\sigma(A^{-1}) = \{\lambda^{-1} : \lambda \in \sigma(A)\}$.
-- For a polynomial $p$, $p(\sigma(A)) \subseteq \sigma(p(A))$, with equality over an algebraically closed field, by the theorem on [[eigenvalues of a polynomial in an endomorphism|~ceb4bf0e]].
-- $\sigma(AB) \setminus \{0\} = \sigma(BA) \setminus \{0\}$, by the theorem on the [[eigenvalues of AB and BA|~4971526f]].
+- For a polynomial $p$, $p(\sigma(A)) \subseteq \sigma(p(A))$, with equality over an algebraically closed field, by the theorem on [[eigenvalues of a polynomial in an endomorphism|F2S8WGVARA]].
+- $\sigma(AB) \setminus \{0\} = \sigma(BA) \setminus \{0\}$, by the theorem on the [[eigenvalues of AB and BA|MCXV71BY74]].
 
 ### History
 

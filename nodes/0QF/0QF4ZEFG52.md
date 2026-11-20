@@ -53,7 +53,7 @@ For the shear, $x - 1$ has the same root as $m = (x - 1)^2$, but it does not ann
 ### Generalizations
 
 - Over any field, $m_T$ and $p_T$ have the same irreducible factors. This follows from the structure of $V$ as a module over $F[x]$.
-- The [[eigenvalues of a polynomial in an endomorphism|~ceb4bf0e]] satisfy a similar rule: every annihilating polynomial vanishes on the eigenvalues.
+- The [[eigenvalues of a polynomial in an endomorphism|F2S8WGVARA]] satisfy a similar rule: every annihilating polynomial vanishes on the eigenvalues.
 
 ## History
 
@@ -69,7 +69,7 @@ So the minimal polynomial is a second way to find the eigenvalues.
 
 ### L2 human
 
-We check the theorem for $A = \begin{pmatrix} 4 & 1 & 1 \\ 1 & 4 & 1 \\ 1 & 1 & 4 \end{pmatrix}$, studied in the [[worked 3 by 3 example|~29b91e21]].
+We check the theorem for $A = \begin{pmatrix} 4 & 1 & 1 \\ 1 & 4 & 1 \\ 1 & 1 & 4 \end{pmatrix}$, studied in the [[worked 3 by 3 example|7XFGVVTZ2X]].
 
 1. $A - 3I$ has every entry equal to $1$, and $A - 6I$ has the rows $(-2, 1, 1)$, $(1, -2, 1)$ and $(1, 1, -2)$.
 2. Each entry of $(A - 3I)(A - 6I)$ is a column sum of $A - 6I$, and each column sum is $0$. So $(A - 3I)(A - 6I) = 0$. So $m_A$ divides $(x - 3)(x - 6)$.

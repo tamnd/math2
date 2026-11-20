@@ -45,4 +45,4 @@ Any nonzero vector in the image of $q(T)$ is then an eigenvector for $\lambda$.
 ## Variants
 
 - With the Cayley-Hamilton theorem, one direction of part 2 is immediate: $m_T$ divides $p_T$, so every root of $m_T$ is a root of $p_T$. The proof above avoids this, so that the theorem can be used before the Cayley-Hamilton theorem.
-- [[Axler's proof of the existence of an eigenvalue|~7e0a20f5]] uses the same idea of a factor that is not injective.
+- [[Axler's proof of the existence of an eigenvalue|6TPH8WGRJJ]] uses the same idea of a factor that is not injective.

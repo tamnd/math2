@@ -31,7 +31,7 @@ The same holds for an $n \times n$ matrix $A$ over $F$, with $E_\lambda = \ker(A
 
 - $\lambda$ must be an eigenvalue for the lower bound. For a scalar that is not an eigenvalue, $E_\lambda = 0$ and $m = 0$.
 - $V$ must be finite-dimensional, because $p_T$ and $m$ are defined only then.
-- The upper bound can be strict: for the [[shear|~919ae3c7]], $\dim E_1 = 1 < 2 = m$.
+- The upper bound can be strict: for the [[shear|HTAWRAC3QE]], $\dim E_1 = 1 < 2 = m$.
 
 ### Consequences
 
@@ -63,7 +63,7 @@ When it is smaller, the map cannot be diagonalised.
 
 ### L2 human
 
-We check the theorem for $A = \begin{pmatrix} 1 & 1 & 0 \\ -1 & 3 & 0 \\ -1 & 1 & 1 \end{pmatrix}$, studied in the [[3 by 3 defective example|~5db5cf19]].
+We check the theorem for $A = \begin{pmatrix} 1 & 1 & 0 \\ -1 & 3 & 0 \\ -1 & 1 & 1 \end{pmatrix}$, studied in the [[3 by 3 defective example|18XQY67HMS]].
 
 1. $p_A(t) = (t - 1)(t - 2)^2$, so $m(2) = 2$ and $m(1) = 1$.
 2. $A - 2I$ has the rows $(-1, 1, 0)$, $(-1, 1, 0)$ and $(-1, 1, -1)$, of rank $2$. So $\dim E_2 = 1$.

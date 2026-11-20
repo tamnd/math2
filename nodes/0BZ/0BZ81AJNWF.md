@@ -25,7 +25,7 @@ Mathlib writes `LinearMap.charpoly T`.
 
 ## Remarks
 
-The polynomial does not depend on $B$, by the theorem on the [[characteristic polynomial of an endomorphism|~756cfc1f]].
+The polynomial does not depend on $B$, by the theorem on the [[characteristic polynomial of an endomorphism|C98TZ6ZAXC]].
 Its degree is $\dim V$.
 For the identity map of $V$, it is $(t - 1)^n$.
 

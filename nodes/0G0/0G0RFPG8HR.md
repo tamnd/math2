@@ -42,14 +42,14 @@ Mathlib writes `Module.End.eigenspace T λ`.
 
 ### Examples
 
-- [[The 3 by 3 matrix with 4 on the diagonal and 1 elsewhere|~29b91e21]] has the plane $x + y + z = 0$ as eigenspace for $3$ and the line through $(1, 1, 1)$ as eigenspace for $6$.
-- [[The derivative on smooth functions|~358c3d83]] has the line spanned by $e^{\lambda x}$ as eigenspace for $\lambda$.
-- [[Projections, reflections and shears of the plane|~ceb3d262]]: a reflection has a line of fixed vectors and a line of flipped vectors.
+- [[The 3 by 3 matrix with 4 on the diagonal and 1 elsewhere|7XFGVVTZ2X]] has the plane $x + y + z = 0$ as eigenspace for $3$ and the line through $(1, 1, 1)$ as eigenspace for $6$.
+- [[The derivative on smooth functions|1SKH5XJ5RB]] has the line spanned by $e^{\lambda x}$ as eigenspace for $\lambda$.
+- [[Projections, reflections and shears of the plane|HJ117SV1AN]]: a reflection has a line of fixed vectors and a line of flipped vectors.
 - The eigenspace of $\id_V$ for $1$ is all of $V$, and the eigenspace of the zero map for $0$ is all of $V$.
 
 ### Non-examples
 
-- [[The union of two eigenspaces is not a subspace|~55a6e983]].
+- [[The union of two eigenspaces is not a subspace|7WYEAWSYNZ]].
 - For a scalar $\lambda$ that is not an eigenvalue, $E_\lambda = 0$. Some authors do not call this zero space an eigenspace.
 
 ### Basic properties

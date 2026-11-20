@@ -35,4 +35,4 @@ The minimal polynomial has the least degree among nonzero annihilating polynomia
 
 ## Variants
 
-- In the language of ideals: the annihilating polynomials form an ideal of the principal ideal domain $F[x]$, and $m_T$ is its monic generator. See the theorem on [[annihilating polynomials|~540651d7]].
+- In the language of ideals: the annihilating polynomials form an ideal of the principal ideal domain $F[x]$, and $m_T$ is its monic generator. See the theorem on [[annihilating polynomials|AH34SFJ8SF]].

@@ -42,7 +42,7 @@ The formal definition is the [[definition of the characteristic polynomial|039HF
 Common symbols are $p_A$, $\chi_A$, $c_A$ and $P_A$.
 This encyclopedia and Mathlib use $\det(t I - A)$, which is monic.
 Many textbooks, for example Lay and Strang, use $\det(A - t I) = (-1)^n \det(t I - A)$.
-The two conventions agree for even $n$ and differ by the sign for odd $n$; see the [[non-example on this sign|~f7f14dfc]].
+The two conventions agree for even $n$ and differ by the sign for odd $n$; see the [[non-example on this sign|BCF4Z6BN0C]].
 Mathlib writes `Matrix.charpoly A`, and `LinearMap.charpoly f` for an endomorphism.
 For an endomorphism of a finite-dimensional space, the [[characteristic polynomial of an endomorphism|0J5EMJRRFM]] is $p_A$ for any matrix $A$ of the map.
 
@@ -50,15 +50,15 @@ For an endomorphism of a finite-dimensional space, the [[characteristic polynomi
 
 ### Examples
 
-- [[The 3 by 3 matrix with 4 on the diagonal and 1 elsewhere|~29b91e21]] has $p_A(t) = t^3 - 12t^2 + 45t - 54 = (t - 3)^2 (t - 6)$.
-- [[A real matrix with complex eigenvalues|~8162274d]] has $p_A(t) = t^2 - 2t + 5$, with the roots $1 \pm 2i$.
-- [[A rotation of the plane|~805e3c17]] by the angle $\theta$ has $p(t) = t^2 - 2\cos\theta \, t + 1$.
+- [[The 3 by 3 matrix with 4 on the diagonal and 1 elsewhere|7XFGVVTZ2X]] has $p_A(t) = t^3 - 12t^2 + 45t - 54 = (t - 3)^2 (t - 6)$.
+- [[A real matrix with complex eigenvalues|XGRN8RY29P]] has $p_A(t) = t^2 - 2t + 5$, with the roots $1 \pm 2i$.
+- [[A rotation of the plane|5AE98D7959]] by the angle $\theta$ has $p(t) = t^2 - 2\cos\theta \, t + 1$.
 - For $A = \begin{pmatrix} a & b \\ c & d \end{pmatrix}$, $p_A(t) = t^2 - (a + d) t + (ad - bc)$.
 - The [[companion matrix|0ZCWPNZTQ3]] of a monic polynomial $f$ has characteristic polynomial $f$. So every monic polynomial of degree $n \ge 1$ is a characteristic polynomial.
 
 ### Non-examples
 
-- [[The polynomial det(A - tI) for a 3 by 3 matrix|~f7f14dfc]] has leading coefficient $-1$, so it is not $p_A$.
+- [[The polynomial det(A - tI) for a 3 by 3 matrix|BCF4Z6BN0C]] has leading coefficient $-1$, so it is not $p_A$.
 - The polynomial $\prod_i (t - a_{ii})$ of the diagonal entries is $p_A$ only for triangular matrices.
 
 ### Basic properties
@@ -67,8 +67,8 @@ For an endomorphism of a finite-dimensional space, the [[characteristic polynomi
 - Similar matrices have the same characteristic polynomial, by the theorem that the [[characteristic polynomial does not depend on the basis|0TYMASG33Y]].
 - $p_{A^{\mathsf{T}}} = p_A$, because a matrix and its transpose have the same determinant.
 - Over a field, the roots of $p_A$ are the eigenvalues of $A$, by the theorem that [[eigenvalues are the roots of the characteristic polynomial|053QVHF6N7]].
-- $p_{AB} = p_{BA}$ for square $A$ and $B$, by the theorem on the [[eigenvalues of AB and BA|~4971526f]].
-- For a block upper triangular matrix, $p_A$ is the product of the characteristic polynomials of the diagonal blocks, by the theorem on the [[characteristic polynomial of an endomorphism|~756cfc1f]].
+- $p_{AB} = p_{BA}$ for square $A$ and $B$, by the theorem on the [[eigenvalues of AB and BA|MCXV71BY74]].
+- For a block upper triangular matrix, $p_A$ is the product of the characteristic polynomials of the diagonal blocks, by the theorem on the [[characteristic polynomial of an endomorphism|C98TZ6ZAXC]].
 - $p_A(A) = 0$, by the [[Cayley-Hamilton theorem|0F765KFC2J]].
 
 ### History

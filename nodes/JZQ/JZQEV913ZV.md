@@ -31,5 +31,5 @@ Over an algebraically closed field such a polynomial has a root, and each root i
 
 ## Variants
 
-- [[Axler's proof|~7e0a20f5]] avoids determinants. It factors a polynomial that kills one vector.
+- [[Axler's proof|6TPH8WGRJJ]] avoids determinants. It factors a polynomial that kills one vector.
 - For $F = \C$, step 4 is the [[fundamental theorem of algebra|0JP0W07Y9A]].

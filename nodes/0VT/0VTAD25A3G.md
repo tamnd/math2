@@ -45,7 +45,7 @@ The direction from 2 to 1 is direct: if $p = q m_T$, then $p(T) = q(T) m_T(T) = 
 
 ### Generalizations
 
-- The theorem on [[annihilating polynomials|~540651d7]] states that $I_T = m_T \, F[x]$, which is the same fact in the language of ideals.
+- The theorem on [[annihilating polynomials|AH34SFJ8SF]] states that $I_T = m_T \, F[x]$, which is the same fact in the language of ideals.
 - For an element $a$ algebraic over a field $K$, the minimal polynomial of $a$ divides every polynomial over $K$ with root $a$. This is the field theory version.
 
 ## History

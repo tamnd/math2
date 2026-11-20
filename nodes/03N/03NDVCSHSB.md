@@ -39,21 +39,21 @@ It also gives $T^{-1}$ and high powers $T^k$ as polynomials in $T$ of small degr
 The formal definition is the [[definition of the minimal polynomial|0V58FPM3EQ]].
 Common symbols are $m_T$, $\mu_T$ and $\min_T$.
 Mathlib writes `minpoly F T`.
-The theorem on [[annihilating polynomials|~540651d7]] shows that $m_T$ exists and is unique.
+The theorem on [[annihilating polynomials|AH34SFJ8SF]] shows that $m_T$ exists and is unique.
 
 ## Remarks
 
 ### Examples
 
-- [[The 3 by 3 matrix with 4 on the diagonal and 1 elsewhere|~29b91e21]]: $m_A = (x - 3)(x - 6)$, of degree $2$, while $p_A = (x - 3)^2 (x - 6)$.
-- [[The shear of the plane|~919ae3c7]]: $m_A = (x - 1)^2 = p_A$.
-- [[A 3 by 3 matrix with a defective eigenvalue|~5db5cf19]]: $m_A = p_A = (x - 1)(x - 2)^2$.
-- [[Polynomials in a projection|~0ca6f4d2]]: a projection $P \ne 0, I$ has $m_P = x^2 - x$.
-- [[Minimal polynomials of a diagonal and a nilpotent matrix|~e3d6a004]]: $\operatorname{diag}(1, 1, 2)$ has $m = (x - 1)(x - 2)$, and the $3 \times 3$ shift has $m = x^3$.
+- [[The 3 by 3 matrix with 4 on the diagonal and 1 elsewhere|7XFGVVTZ2X]]: $m_A = (x - 3)(x - 6)$, of degree $2$, while $p_A = (x - 3)^2 (x - 6)$.
+- [[The shear of the plane|HTAWRAC3QE]]: $m_A = (x - 1)^2 = p_A$.
+- [[A 3 by 3 matrix with a defective eigenvalue|18XQY67HMS]]: $m_A = p_A = (x - 1)(x - 2)^2$.
+- [[Polynomials in a projection|F5TTF31NR5]]: a projection $P \ne 0, I$ has $m_P = x^2 - x$.
+- [[Minimal polynomials of a diagonal and a nilpotent matrix|APPAHXTJ6C]]: $\operatorname{diag}(1, 1, 2)$ has $m = (x - 1)(x - 2)$, and the $3 \times 3$ shift has $m = x^3$.
 
 ### Non-examples
 
-- [[The identity matrix of size 2|~fe73ec25]]: $p = (x - 1)^2$ annihilates $I_2$, but it is not the minimal polynomial $x - 1$.
+- [[The identity matrix of size 2|MSQTBBM86Q]]: $p = (x - 1)^2$ annihilates $I_2$, but it is not the minimal polynomial $x - 1$.
 - A nonmonic polynomial such as $2x - 2$ annihilates $I_2$, but it is not the minimal polynomial, which is monic by definition.
 
 ### Basic properties
@@ -61,7 +61,7 @@ The theorem on [[annihilating polynomials|~540651d7]] shows that $m_T$ exists an
 - $m_T$ divides every annihilating polynomial, by the theorem that the [[minimal polynomial divides every annihilating polynomial|0VTAD25A3G]].
 - The roots of $m_T$ in $F$ are the eigenvalues of $T$, by the theorem that the [[eigenvalues are the roots of the minimal polynomial|0QF4ZEFG52]].
 - $m_T$ divides $p_T$, by the theorem that the [[minimal polynomial divides the characteristic polynomial|093X6MN6Y6]]. So $\deg m_T \le \dim V$.
-- $\dim F[T] = \deg m_T$, by the theorem on [[annihilating polynomials|~540651d7]].
+- $\dim F[T] = \deg m_T$, by the theorem on [[annihilating polynomials|AH34SFJ8SF]].
 - Similar matrices have the same minimal polynomial, because $p(SAS^{-1}) = S\,p(A)\,S^{-1}$.
 - For $D = \operatorname{diag}(d_1, \dots, d_n)$ with distinct values $c_1, \dots, c_r$ among the $d_i$, $m_D = (x - c_1) \cdots (x - c_r)$.
 - If $N^k = 0$ and $N^{k-1} \ne 0$, then $m_N = x^k$.

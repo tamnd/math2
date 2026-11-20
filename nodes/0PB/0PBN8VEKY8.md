@@ -35,19 +35,19 @@ The ideal is written $I_T$, $\operatorname{Ann}(T)$ or $\ker(\operatorname{ev}_T
 
 ### Examples
 
-- [[Polynomials in a projection|~0ca6f4d2]]: a projection $P$ is annihilated by $x^2 - x$ and by every multiple of it, such as $x^3 - x$.
-- [[Minimal polynomials of a diagonal and a nilpotent matrix|~e3d6a004]]: $(x - 1)(x - 2)$ annihilates $\operatorname{diag}(1, 1, 2)$, and $x^3$ annihilates the $3 \times 3$ shift.
+- [[Polynomials in a projection|F5TTF31NR5]]: a projection $P$ is annihilated by $x^2 - x$ and by every multiple of it, such as $x^3 - x$.
+- [[Minimal polynomials of a diagonal and a nilpotent matrix|APPAHXTJ6C]]: $(x - 1)(x - 2)$ annihilates $\operatorname{diag}(1, 1, 2)$, and $x^3$ annihilates the $3 \times 3$ shift.
 - A reflection $R$ with $R^2 = I$ is annihilated by $x^2 - 1$.
 - By the [[Cayley-Hamilton theorem|0F765KFC2J]], the characteristic polynomial annihilates $T$.
 
 ### Non-examples
 
-- [[A polynomial that kills one vector but not the map|~9cd78b0b]]: for the shear $A$, $x - 1$ kills $e_1$, but $A - I \ne 0$.
+- [[A polynomial that kills one vector but not the map|BF2G985KRZ]]: for the shear $A$, $x - 1$ kills $e_1$, but $A - I \ne 0$.
 - For the derivative $D$ on $C^\infty(\R)$, no nonzero polynomial annihilates $D$, because every real number is an eigenvalue of $D$.
 
 ### Basic properties
 
-- $I_T$ is an ideal of $F[x]$, by the theorem on [[annihilating polynomials|~540651d7]].
+- $I_T$ is an ideal of $F[x]$, by the theorem on [[annihilating polynomials|AH34SFJ8SF]].
 - If $\dim V = n$ is finite, then $I_T$ contains a nonzero polynomial of degree at most $n^2$, by the same theorem, and of degree $n$, by the Cayley-Hamilton theorem.
 - If $p(T) = 0$ and $Tv = \lambda v$ with $v \ne 0$, then $p(\lambda)v = p(T)v = 0$, so $p(\lambda) = 0$.
 - Similar matrices have the same annihilating polynomials.
