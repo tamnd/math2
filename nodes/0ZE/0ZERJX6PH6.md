@@ -27,7 +27,7 @@ Let $\pi \colon V \to V / W$ be the [[quotient map|0J0SK5FF4M]] onto the [[quoti
 Let $T \colon V \to U$ be a [[linear map|0RJF668P1T]] with $W \subseteq \ker T$, where $\ker T$ is the [[kernel|02YFME3RGW]].
 Then there is exactly one linear map $\bar T \colon V / W \to U$ with $\bar T \circ \pi = T$.
 It is given by $\bar T(v + W) = T(v)$.
-Moreover, $\ker \bar T = \ker T / W$ and $\operatorname{im} \bar T = \operatorname{im} T$.
+Also, $\ker \bar T = \ker T / W$ and $\operatorname{im} \bar T = \operatorname{im} T$.
 
 ## Remarks
 

@@ -95,4 +95,4 @@ The trap is the infinite case: the product of infinitely many lines is not spann
 In the category of vector spaces, the product is the limit of a discrete diagram and the direct sum is the colimit.
 The canonical map $\bigoplus_i V_i \to \prod_i V_i$ is an isomorphism exactly when only finitely many $V_i$ are nonzero.
 Duality exchanges them: $\left(\bigoplus_i V_i\right)^* \cong \prod_i V_i^*$, while the dual of a product is in general larger than the sum of the duals.
-By the Erdős–Kaplansky theorem, $\dim F^{\N} = |F|^{\aleph_0}$ for an infinite field $F$, which is uncountable.
+By the Erdős-Kaplansky theorem, $\dim F^{\N} = |F|^{\aleph_0}$ for an infinite field $F$, which is uncountable.

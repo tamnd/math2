@@ -40,7 +40,7 @@ Equivalently, $\dim(V / W) = \dim V - \dim W$.
 
 - The number $\dim(V / W)$ is the [[codimension|~ccb24df5]] of $W$ in $V$. In finite dimension it equals $\dim V - \dim W$.
 - Every complement of $W$ has dimension $\dim V - \dim W$, since it is [[isomorphic to the quotient|~7fe638c8]].
-- With the [[first isomorphism theorem|0MTBGVZ4XJ]], the formula gives the rank–nullity theorem: $\dim V - \dim \ker f = \dim(V / \ker f) = \dim \operatorname{im} f$.
+- With the [[first isomorphism theorem|0MTBGVZ4XJ]], the formula gives the rank-nullity theorem: $\dim V - \dim \ker f = \dim(V / \ker f) = \dim \operatorname{im} f$.
 - With the [[second isomorphism theorem|0APN65D6Y6]], it gives the [[Grassmann formula|06HTJNCMPA]] for $\dim(U + W)$.
 - $W = V$ if and only if $\dim W = \dim V$, since $V / W = 0$ exactly when $W = V$.
 
