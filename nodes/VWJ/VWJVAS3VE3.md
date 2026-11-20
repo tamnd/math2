@@ -1,0 +1,86 @@
+---
+tag: VWJVAS3VE3
+kind: statement
+role: theorem
+name: Every structural logic is determined by its Lindenbaum matrices
+aliases: [wojcicki-theorem-matrix-semantics]
+msc: ["03B22", "03G27", "03B50"]
+topics: [WZP584JQ06]
+audience: grad
+about: [P7E926JK13, FCXHSC6Z4R]
+uses: [AJEJS6TFWP, J78Y1M4GND]
+proofs: [6R0QSZ41EE]
+history:
+  notes: "SEP cites Wójcicki, Theory of Logical Calculi (1988), chapter 4, for the proof in the Set-Fmla framework."
+sources:
+  - url: https://plato.stanford.edu/entries/logic-manyvalued/
+    locator: 3.4 Many-valuedness and rule-based approaches
+  - url: https://en.wikipedia.org/wiki/Consequence_relation
+    locator: lead section
+---
+
+## Statement
+
+Let $\vdash$ be a structural [[consequence relation|J78Y1M4GND]] on the formula algebra $\mathrm{Fm}$.
+So $\vdash$ satisfies reflexivity, monotonicity and cut, and $\Gamma \vdash \varphi$ implies $\sigma[\Gamma] \vdash \sigma(\varphi)$ for every substitution $\sigma$.
+Let $\mathcal{K}$ be the class of its [[Lindenbaum matrices|AJEJS6TFWP]] $\langle \mathrm{Fm}, T \rangle$, where $T$ ranges over the closed sets of $\vdash$.
+
+**Theorem.**
+
+1. For all $\Gamma$ and $\varphi$: $\Gamma \vdash \varphi$ iff $\Gamma \models_{\mathcal{K}} \varphi$.
+2. The theorems of $\vdash$ are exactly the tautologies of the single matrix $\langle \mathrm{Fm}, \mathrm{Cn}(\emptyset) \rangle$.
+3. Hence a consequence relation on $\mathrm{Fm}$ is the consequence relation of some class of [[logical matrices|P7E926JK13]] iff it is structural.
+
+The proof is in [[the proof by the identity valuation|6R0QSZ41EE]].
+
+## Remarks
+
+### Why each hypothesis is needed
+
+1. Structurality. Define $\Gamma \vdash \varphi$ iff $\varphi \in \Gamma \cup \set{p}$ for a fixed variable $p$. This is a consequence relation, and $\emptyset \vdash p$ but $\emptyset \nvdash q$. Every matrix consequence is structural, so no class of matrices gives $\vdash$.
+2. Cut. Without cut, $\mathrm{Cn}(\Gamma)$ need not be closed, and the proof of item 1 uses that it is closed.
+3. Monotonicity. Every $\models_{\mathcal{K}}$ is monotone, so a non-monotone relation, such as a default logic, has no matrix semantics.
+
+### Consequences
+
+1. Every structural logic, classical or not, has a many-valued semantics in the broad sense; so "many-valued" is a property of a semantics.
+2. A logic given by a Hilbert system with schematic axioms and rules is structural, so it has a matrix semantics.
+3. Item 2 is the propositional form of the Lindenbaum-Tarski method; compare the [[Lindenbaum-Tarski algebra|QC9M3Q8B8Q]].
+
+### Converse
+
+Item 3 is an equivalence: every class of matrices gives a structural consequence relation, by the remarks of [[the definition|AJEJS6TFWP]].
+
+### Generalizations
+
+1. SEP states the same result for generalized consequence relations with sets of conclusions, with proofs by Blasio, Marcos and Wansing (2017) and by Chemla and Égré (2019).
+2. SEP notes that further properties of a consequence relation identify the logics given by a single matrix, and the finite-valued logics among them.
+
+## History
+
+SEP cites chapter 4 of Wójcicki's book "Theory of Logical Calculi" (1988) for the typical proof.
+SEP also notes that the property of structurality goes back to Łoś and Suszko (1958), who called it "structural".
+
+## Explanations
+
+### L1 human
+
+Many logics are given by rules of proof, not by truth tables.
+The theorem says that each such logic, if its rules do not single out particular letters, also has truth tables.
+The "truth values" are the formulas themselves, and "true" means "provable from the assumptions".
+So truth tables exist for every reasonable logic, though they are often infinite.
+
+### L2 human
+
+1. Take intuitionistic logic, which has no finite truth tables.
+2. Its Lindenbaum matrix $\langle \mathrm{Fm}, \mathrm{Cn}(\emptyset) \rangle$ has the formulas as values.
+3. A formula is a tautology of this matrix iff each of its substitution instances is a theorem, iff it is a theorem.
+
+The typical use is to show that a structural logic has some matrix semantics before one looks for a small one.
+A trap: the theorem gives infinite matrices; it does not say that a logic has a finite matrix.
+
+### L3 human
+
+The theorem is the starting point of abstract algebraic logic: one replaces the Lindenbaum matrices by their quotients by the Leibniz congruence and asks when these quotients form a class of algebras.
+For algebraizable logics this class is a quasivariety, as for classical logic and Boolean algebras, or Łukasiewicz logic and [[MV-algebras|8T4M7RN9AC]]; see [[algebraic logic|QYA4H5Y7VR]].
+The same idea, with theories as truth values, gives the canonical models of modal logic and the term models of first-order logic.
