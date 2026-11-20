@@ -1,9 +1,12 @@
 ---
 tag: E2XSXEVC2Y
 kind: proof
-name: Proof that a matrix is diagonalisable iff its minimal polynomial has distinct roots
-msc: [15A20]
+name: Proof by Lagrange interpolation that a matrix is diagonalizable iff its minimal polynomial has simple roots
+msc: ["15A20"]
+topics: [Z6S6PWMJPH]
+audience: ug2
 proves: 0MPAJRB23T
+methods: [0NTF6DMVAP, 0ASJVEFA9J]
 uses: [0Y17PEKF24, 0V58FPM3EQ, 0BNEXSKNRV, 0VTAD25A3G, 0QF4ZEFG52, 0K3MWA7DMC, 0KJVQV3E0F, 0AYEPBQMAW, 06MRNP4BNT, 056SW1E0AC, 0B5H4208Z9, 0GJM24EXP9]
 sources:
   - url: https://kconrad.math.uconn.edu/blurbs/linmultialg/minpolyandappns.pdf
@@ -12,12 +15,14 @@ sources:
 
 ## Proof
 
-We prove the two implications separately. The converse uses Lagrange interpolation polynomials.
+We prove the equivalence of conditions 1.1 and 1.3 for an $n \times n$ matrix $A$.
+For an endomorphism, apply it to the matrix of $T$ in a basis.
+The converse uses Lagrange interpolation polynomials.
 
 1. For a square matrix $C$, its annihilating polynomials are those of the map $x \mapsto C x$. Indeed, $p(C) x$ is the value of $p$ at this map applied to $x$. So we may apply results on [[minimal polynomials|0V58FPM3EQ]] of endomorphisms to matrices.
 2. Let $P$ be invertible and $C = P^{-1} A P$. By induction on $k$, $C^k = P^{-1} A^k P$. So $p(C) = P^{-1} p(A) P$ for each $p \in F[t]$, by the definition of the [[value of $p$|0BNEXSKNRV]].
 3. By step 2, $p(C) = 0$ if and only if $p(A) = 0$. Hence $m_C = m_A$.
-4. First let $A$ be [[diagonalisable|0Y17PEKF24]]. Choose $P$ with $P^{-1} A P = D = \operatorname{diag}(d_1, \dots, d_n)$. Let $\mu_1, \dots, \mu_k$ be the distinct values among $d_1, \dots, d_n$, and let $f = \prod_{j=1}^{k} (t - \mu_j)$.
+4. First let $A$ be [[diagonalizable|0Y17PEKF24]]. Choose $P$ with $P^{-1} A P = D = \operatorname{diag}(d_1, \dots, d_n)$. Let $\mu_1, \dots, \mu_k$ be the distinct values among $d_1, \dots, d_n$, and let $f = \prod_{j=1}^{k} (t - \mu_j)$.
 5. Powers and linear combinations of diagonal matrices are computed entry by entry. So $f(D) = \operatorname{diag}(f(d_1), \dots, f(d_n))$, and each $f(d_i) = 0$. Hence $f(D) = 0$.
 6. By step 5 and [[divisibility by the minimal polynomial|0VTAD25A3G]], $m_D$ divides $f$.
 7. Each $\mu_j$ equals some $d_i$, and $D e_i = d_i e_i$ for the standard basis vector $e_i$. So $\mu_j$ is an eigenvalue of $D$, and $m_D(\mu_j) = 0$ by [[the roots of the minimal polynomial|0QF4ZEFG52]].
@@ -34,8 +39,16 @@ We prove the two implications separately. The converse uses Lagrange interpolati
 18. Since $(t - \lambda_i) f_i = m_A$, we get $(A - \lambda_i I_n) u_i = c_i^{-1} m_A(A) v = 0$. So $u_i$ lies in the [[eigenspace|0AYEPBQMAW]] of $\lambda_i$.
 19. So each $u_i$ is zero or an [[eigenvector|0B5H4208Z9]] of $A$. By step 17, the set $S$ of all eigenvectors of $A$ spans $F^n$.
 20. [[Every spanning set contains a basis|06MRNP4BNT]], so $F^n$ has a basis contained in $S$. This is a basis of eigenvectors of $A$.
-21. By the [[characterisation by eigenvectors|056SW1E0AC]], $A$ is diagonalisable over $F$.
+21. By the [[characterization by eigenvectors|056SW1E0AC]], $A$ is diagonalizable over $F$.
 
 ## Idea
 
-A diagonal matrix is killed by the product of $t - \mu$ over its distinct diagonal entries. Each of these factors is needed, since each $\mu$ is a root of the minimal polynomial. Conversely, when $m_A$ has distinct roots, the interpolation polynomials $f_i / f_i(\lambda_i)$ add up to $1$. Applied to a vector, they split it into eigenvectors.
+A diagonal matrix is killed by the product of $t - \mu$ over its distinct diagonal entries.
+Each of these factors is needed, since each $\mu$ is a root of the minimal polynomial.
+Conversely, when $m_A$ has simple roots, the interpolation polynomials $f_i / f_i(\lambda_i)$ add up to $1$.
+Applied to a vector, they split it into eigenvectors.
+
+## Variants
+
+The [[proof by the kernels lemma|~d5a889fb]] replaces the interpolation polynomials by Bézout coefficients.
+It works for any pairwise coprime factors, not only for linear ones.

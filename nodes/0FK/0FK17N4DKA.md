@@ -2,29 +2,84 @@
 tag: 0FK17N4DKA
 kind: statement
 role: theorem
-name: Simultaneous diagonalisation
-msc: [15A20, 15A27]
-uses: [0Y17PEKF24]
+name: Simultaneous diagonalization
+msc: ["15A20", "15A27"]
+topics: [Z6S6PWMJPH]
+audience: ug2
+about: [07SQCNV233]
+uses: [0Y17PEKF24, 0Q9PGXD9E4, MX26N71ZD3]
 sources:
   - url: https://en.wikipedia.org/wiki/Diagonalizable_matrix
     locator: Simultaneous diagonalization
+  - book: isbn:9780135367971
+    locator: Section 6.5
+  - book: isbn:9783031410253
+    locator: Chapter 5
 ---
 
 ## Statement
 
-Let $F$ be a field and let $A$ and $B$ be [[diagonalisable|07SQCNV233]] $n \times n$ matrices over $F$.
-Then there is one invertible $n \times n$ matrix $P$ such that both $P^{-1} A P$ and $P^{-1} B P$ are diagonal if and only if $AB = BA$.
+Let $F$ be a field, let $V$ be a vector space over $F$ of finite dimension $n$, and let $\mathcal{F}$ be a set of [[diagonalizable|07SQCNV233]] endomorphisms of $V$.
+The set $\mathcal{F}$ may be finite or infinite.
+The following conditions are equivalent.
+
+1. There is a basis of $V$ in which the matrix of every $T \in \mathcal{F}$ is [[diagonal|044JNC7ZAA]].
+2. $S T = T S$ for all $S, T \in \mathcal{F}$.
+
+In matrix form: a set of diagonalizable $n \times n$ matrices over $F$ has one invertible $P$ with $P^{-1} A P$ diagonal for every $A$ in the set if and only if its members [[commute|8G3X8MPG7E]] pairwise.
 
 ## Remarks
 
-Diagonal matrices commute, so the condition $AB = BA$ is necessary.
-For sufficiency, $B$ maps each eigenspace of $A$ to itself, and it is diagonalisable on each of them.
-The same holds for each family of pairwise commuting diagonalisable matrices.
+### Why each hypothesis is needed
+
+- Each member must be diagonalizable. The [[shear|~58e14c85]] commutes with $I$, but no basis makes the shear diagonal.
+- The members must commute. $A = \operatorname{diag}(1, 2)$ and $B = \begin{pmatrix} 1 & 1 \\ 0 & 2 \end{pmatrix}$ are both diagonalizable, but $A B = \begin{pmatrix} 1 & 1 \\ 0 & 4 \end{pmatrix} \ne \begin{pmatrix} 1 & 2 \\ 0 & 4 \end{pmatrix} = B A$. So no common basis exists.
+- Finite dimension is used in the proof to reduce an infinite family to a finite one. The span of $\mathcal{F}$ in $\operatorname{End}(V)$ has dimension at most $n^2$.
+
+### Consequences
+
+- If $S$ and $T$ are commuting diagonalizable maps, then $S + T$, $S T$ and every polynomial in $S$ and $T$ are diagonalizable.
+- In particular, the difference $S - S'$ of two commuting diagonalizable maps is diagonalizable. This is the key step in the uniqueness of the [[Jordan-Chevalley decomposition|011K11VPJN]].
+- $V$ is the direct sum of the common eigenspaces $\{v : T v = \alpha_T v \text{ for all } T \in \mathcal{F}\}$, one for each function $T \mapsto \alpha_T$ that occurs.
+
+### Converse
+
+Both directions hold.
+Without the hypothesis that each member is diagonalizable, commuting matrices over $\C$ need not have a common eigenbasis, but they can be put in upper triangular form together, by [[simultaneous triangularization|~55f0caf5]].
+
+### Generalizations
+
+A commuting family of normal matrices over $\C$ can be diagonalized by one unitary matrix, by the [[spectral theorem|06J4PXRG22]].
+In a Lie algebra, a commuting family of semisimple elements acts by weights, and $V$ is the direct sum of its weight spaces; this is the starting point of the theory of Cartan subalgebras.
+Over a [[perfect field|VWBVKT794W]], the sum of two commuting [[semisimple|08VRX3Q4PB]] maps is semisimple, since both become diagonalizable over the algebraic closure.
+
+## History
+
+The result is a standard textbook theorem, for example in Hoffman and Kunze, Section 6.5.
+We do not know of a first source.
 
 ## Explanations
 
 ### L1 human
 
-Two diagonalisable matrices can be diagonalised by the same change of basis exactly when they commute.
-Then they share a basis of eigenvectors.
-This fact is important in quantum mechanics, where commuting observables can be measured together.
+Two matrices can be made diagonal with the same change of axes exactly when they commute.
+Then they share the same special directions.
+In quantum mechanics, two quantities that commute can be measured at the same time for this reason.
+
+### L2 human
+
+Let $A = \begin{pmatrix} 1 & 2 \\ 2 & 1 \end{pmatrix}$ and $B = \begin{pmatrix} 3 & 1 \\ 1 & 3 \end{pmatrix}$ over $\R$.
+
+1. $A B = \begin{pmatrix} 5 & 7 \\ 7 & 5 \end{pmatrix}$ and $B A = \begin{pmatrix} 5 & 7 \\ 7 & 5 \end{pmatrix}$, so $A B = B A$.
+2. $A$ has the eigenvalues $3$ and $-1$, with eigenvectors $(1, 1)$ and $(1, -1)$.
+3. The eigenspaces of $A$ are lines, and $B$ preserves them: $B(1, 1) = (4, 4)$ and $B(1, -1) = (2, -2)$.
+4. With $P = \begin{pmatrix} 1 & 1 \\ 1 & -1 \end{pmatrix}$, $P^{-1} A P = \operatorname{diag}(3, -1)$ and $P^{-1} B P = \operatorname{diag}(4, 2)$.
+
+The typical use is to diagonalize the easier matrix first and then diagonalize the other one inside each eigenspace.
+The trap is a repeated eigenvalue: if $A = I$, every basis diagonalizes $A$, and one must choose the basis by $B$.
+
+### L3 human
+
+The theorem says that a commutative subalgebra of $\operatorname{End}(V)$ generated by diagonalizable elements is conjugate to a subalgebra of the diagonal matrices.
+For the unit group, a commuting family of diagonalizable invertible matrices lies in a split torus.
+The analogue in analysis is the simultaneous spectral decomposition of commuting self-adjoint operators.
