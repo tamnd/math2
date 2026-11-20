@@ -2,11 +2,15 @@
 tag: QTC57AJEVR
 kind: definition
 name: Categorical theory
-msc: [03C35]
+msc: ["03C35"]
+topics: [6XEXRME4C1]
+audience: grad
 defines: 1JJCGNX240
 uses: [92SWXST1ZM, MVCH6N9SNW, 0EBACQFAZW, 0G0ASKNA6Z, MT8TDVPBXB, CAEHMSX9RT]
 sources:
   - url: https://en.wikipedia.org/wiki/Categorical_theory
+    locator: lead section
+  - book: isbn:9780387987606
 ---
 
 ## Definition
@@ -19,8 +23,10 @@ The theory $T$ is *$\kappa$-categorical* if two conditions hold.
 
 ## Remarks
 
-A theory is *uncountably categorical* if it is $\kappa$-categorical for every uncountable $\kappa$.
-Some authors drop the existence of a model of size $\kappa$ from the definition.
+A theory is *uncountably categorical* if it is $\kappa$-categorical for every uncountable $\kappa$, and *totally categorical* if it is $\kappa$-categorical for every infinite $\kappa$.
+Some authors drop condition 1 from the definition.
+For a theory with an infinite model and $\kappa \ge \abs{L}$, condition 1 holds by the Löwenheim-Skolem theorem, so the two versions agree.
+The main page of the idea is [[categorical theory|1JJCGNX240]].
 
 Example: the theory $\mathrm{ACF}_0$ of [[algebraically closed fields|MT8TDVPBXB]] of characteristic $0$ is $\kappa$-categorical for every uncountable $\kappa$.
 By [[Steinitz's theorem|CAEHMSX9RT]], such a field is determined up to isomorphism by its transcendence degree over $\Q$, and a field of uncountable size $\kappa$ has transcendence degree $\kappa$.
