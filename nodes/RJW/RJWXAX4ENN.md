@@ -3,6 +3,8 @@ tag: RJWXAX4ENN
 kind: proof
 name: Proof of the universal property of the quotient space
 msc: [15A04]
+topics: [QHKTJ89V6S]
+audience: ug1
 proves: 0ZERJX6PH6
 uses: [0BR3FY5Q8M, 0N4F5FMQZW, 0NRYHJPQG2, 0S23E6YE83]
 sources:
@@ -27,4 +29,6 @@ We define $\bar T$ on cosets, check that this makes sense, and then prove unique
 
 ## Idea
 
-A map on cosets is defined through representatives, so it only makes sense if all representatives of a coset give the same value. They differ by elements of $W$, which $T$ sends to $0$. Uniqueness holds because the quotient map hits every coset.
+A map on cosets is defined through representatives, so it only makes sense if all representatives of a coset give the same value.
+They differ by elements of $W$, which $T$ sends to $0$.
+Uniqueness holds because the quotient map hits every coset.

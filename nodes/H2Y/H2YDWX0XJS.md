@@ -1,8 +1,10 @@
 ---
 tag: H2YDWX0XJS
 kind: proof
-name: Proof of the first isomorphism theorem for linear maps
+name: Proof of the first isomorphism theorem for vector spaces
 msc: [15A04, 16D10]
+topics: [QHKTJ89V6S]
+audience: ug1
 proves: 0MTBGVZ4XJ
 uses: [0NRYHJPQG2, 0S23E6YE83, 0WSFKKT6FF, 00YC1D652K, 0BR3FY5Q8M, 0BJBYCGMWE, 0B8T10CE7N]
 sources:
@@ -30,4 +32,6 @@ We check in turn that $\bar T$ is well defined, linear, injective and surjective
 
 ## Idea
 
-Two vectors have the same image under $T$ exactly when they differ by an element of the kernel. So $T$ gives a well-defined map on cosets of the kernel, and this map can no longer merge distinct cosets. Its image is the image of $T$.
+Two vectors have the same image under $T$ exactly when they differ by an element of the kernel.
+So $T$ gives a well-defined map on cosets of the kernel, and this map can no longer merge distinct cosets.
+Its image is the image of $T$.

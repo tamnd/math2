@@ -3,6 +3,8 @@ tag: 6JGF4G3QRC
 kind: proof
 name: Proof of the dimension formula for a quotient space
 msc: [15A03]
+topics: [QHKTJ89V6S]
+audience: ug1
 proves: 0SXDQ6TN00
 uses: [0QW084460E, 0M4SXE5WW3, 0WK0Y8RH1M, 0BR3FY5Q8M, 0KCQ9Y3QKA, 0CRMGPAH83, 088RYKAWK9, 03GSZ8RTZJ, 0ZHWKQMVX5]
 sources:
@@ -31,4 +33,6 @@ We extend a basis of $W$ to a basis of $V$ and show that the cosets of the new v
 
 ## Idea
 
-Choose a basis of $V$ that starts with a basis of $W$. Passing to the quotient kills the vectors of $W$. The remaining basis vectors survive as cosets and form a basis of $V / W$, so exactly $\dim W$ dimensions are lost.
+Choose a basis of $V$ that starts with a basis of $W$.
+Passing to the quotient kills the vectors of $W$.
+The remaining basis vectors survive as cosets and form a basis of $V / W$, so exactly $\dim W$ dimensions are lost.

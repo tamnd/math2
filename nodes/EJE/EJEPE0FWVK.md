@@ -3,6 +3,8 @@ tag: EJEPE0FWVK
 kind: proof
 name: Proof of the second isomorphism theorem for vector spaces
 msc: [15A03, 16D10]
+topics: [QHKTJ89V6S]
+audience: ug1
 proves: 0APN65D6Y6
 uses: [0MTBGVZ4XJ, 0V33SPH7RR, 0JMTY8MF54, 0BR3FY5Q8M, 0NRYHJPQG2, 0S23E6YE83, 0WSFKKT6FF, 00YC1D652K]
 sources:
@@ -26,4 +28,6 @@ We apply the first isomorphism theorem to the map $U \to (U + W)/W$ that sends $
 
 ## Idea
 
-Every coset in $(U + W)/W$ already has a representative in $U$, because the $W$ part can be dropped. Two vectors of $U$ give the same coset exactly when their difference lies in $U \cap W$. The first isomorphism theorem turns these two facts into the isomorphism.
+Every coset in $(U + W)/W$ already has a representative in $U$, because the $W$ part can be dropped.
+Two vectors of $U$ give the same coset exactly when their difference lies in $U \cap W$.
+The first isomorphism theorem turns these two facts into the isomorphism.
