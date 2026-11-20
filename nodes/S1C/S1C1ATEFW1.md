@@ -2,9 +2,12 @@
 tag: S1C1ATEFW1
 kind: proof
 name: Proof that row rank equals column rank by a factorization A = CR
-msc: [15A03]
+msc: ["15A03"]
+topics: [S6559D61BP]
+audience: ug1
 proves: 0TZAG60ZYT
 uses: [069MCGX635, 03AJKXH1AV, 09DXWYRD43, 0ZC9YTXZRY, 032Q9FB8MT, 08ZDRN6H41, 0QW084460E, 0QK7FPE6VE, 0KCQ9Y3QKA, 0DTY8B9HMS, 03GSZ8RTZJ]
+methods: [S3QADD13E9]
 sources:
   - url: https://en.wikipedia.org/wiki/Rank_(linear_algebra)
     locator: Proof using linear combinations
@@ -33,4 +36,14 @@ We first prove that the row rank is at most the column rank for every matrix, an
 
 ## Idea
 
-Choose a basis of the column space and write every column of $A$ in it; this factors $A = CR$ with $R$ having only $r$ rows. The same factorization shows that every row of $A$ is a combination of those $r$ rows. So the row space is no bigger than the column space, and the transpose gives the reverse inequality.
+Choose a basis of the column space and write every column of $A$ in it.
+This factors $A = CR$, where $R$ has only $r$ rows.
+The same factorization shows that every row of $A$ is a combination of those $r$ rows.
+So the row space is no bigger than the column space, and the transpose gives the reverse inequality.
+
+## Variants
+
+- [[By row reduction|WK6YWCWJD0]]: both dimensions equal the number of pivots.
+- [[By orthogonality over the real numbers|4JYHHBC6J7]]: $A$ is injective on its row space.
+- The factorization of step 7 is the [[rank factorization|5JGAG62VN8]] of $A$.
+

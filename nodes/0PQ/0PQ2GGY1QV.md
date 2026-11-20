@@ -2,7 +2,9 @@
 tag: 0PQ2GGY1QV
 kind: definition
 name: Null space
-msc: [15A03, 15A06]
+msc: ["15A03", "15A06"]
+topics: [S6559D61BP]
+audience: ug1
 defines: 0PHDYNR24D
 uses: [02YFME3RGW, 0N1MY1T0W9]
 sources:
@@ -21,7 +23,7 @@ It is the [[kernel|0S23E6YE83]] of the linear map $x \mapsto Ax$.
 
 ## Remarks
 
-The null space is a subspace of $F^n$, of dimension $n - \rank A$, the [[nullity|0APCFW7639]] of $A$.
+The null space is a subspace of $F^n$, of dimension $n - \rank A$, the [[nullity|0APCFW7639]] of $A$, by the [[theorem on the free variables|5NKND0CPKP]].
 Row equivalent matrices have the same null space.
 The null space of $\begin{pmatrix} 1 & 1 \end{pmatrix}$ is the line spanned by $(1, -1)^T$.
 Each vector of the null space is orthogonal to each row of $A$, for the dot product.
@@ -31,5 +33,5 @@ Each vector of the null space is orthogonal to each row of $A$, for the dot prod
 ### L1 human
 
 The null space of a matrix is the set of solutions of $Ax = 0$.
-We find a basis of it by row reduction: each free variable gives one basis vector.
+A basis comes from row reduction: each free variable gives one basis vector.
 It is the kernel of the matrix, viewed as a linear map.

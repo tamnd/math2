@@ -2,9 +2,16 @@
 tag: 0EWQEYRVA8
 kind: definition
 name: Rank of a matrix
-msc: [15A03]
+msc: ["15A03"]
+topics: [S6559D61BP]
+audience: ug1
 defines: 0ZC9YTXZRY
 uses: [0F0RPPJ2TT, 05G2G0P224]
+formal:
+  - system: lean4
+    library: mathlib
+    decl: Matrix.rank
+    match: exact
 sources:
   - url: https://en.wikipedia.org/wiki/Rank_(linear_algebra)
     locator: lead section
@@ -20,11 +27,17 @@ The *rank* of $A$ is
 $$\rank A = \dim \operatorname{Col}(A),$$
 the [[dimension|03GSZ8RTZJ]] of the [[column space|03AJKXH1AV]] of $A$.
 
+## Notation
+
+The rank is written $\rank A$ or $\operatorname{rk} A$.
+In Mathlib it is `Matrix.rank A`, the dimension of the range of `Matrix.mulVecLin A`.
+
 ## Remarks
 
 The rank is the maximal number of linearly independent columns of $A$.
 It also equals the dimension of the row space, by [[row rank equals column rank|0TZAG60ZYT]].
-It equals the number of pivots in a row echelon form of $A$, and the largest order of a nonzero minor of $A$.
+It equals the number of pivots in a row echelon form of $A$, by the [[theorem on the column space|11CSKXQNG3]].
+It also equals the largest order of a nonzero minor of $A$.
 An $n \times n$ matrix is invertible if and only if its rank is $n$.
 
 ## Explanations
@@ -33,4 +46,9 @@ An $n \times n$ matrix is invertible if and only if its rank is $n$.
 
 The rank of a matrix counts how many of its columns are really independent.
 For $\begin{pmatrix} 1 & 2 \\ 2 & 4 \end{pmatrix}$, the second column is twice the first, so the rank is $1$.
-We compute the rank by row reduction and count the pivots.
+Row reduction finds the rank: it is the number of pivots.
+
+### L2 human
+
+The rank is the dimension of the image of the map $x \mapsto Ax$ from $F^n$ to $F^m$.
+So it is at most $m$, and at most $n$.
