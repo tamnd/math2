@@ -3,10 +3,15 @@ tag: 7DWHFWF1D8
 kind: definition
 name: Elementary class
 msc: ["03C52", "03C07"]
+topics: [AY09KYSW81]
+audience: ug2
 defines: MEC3ZMC4F1
 uses: [WDVVEYD6AT, 983GZBQYT4, 92SWXST1ZM, MVCH6N9SNW]
 sources:
   - url: https://en.wikipedia.org/wiki/Elementary_class
+    locator: Definition
+  - book: isbn:9780387987606
+    locator: Chapter 2
 ---
 
 ## Definition
@@ -28,3 +33,20 @@ Suppose $T$ axiomatized them.
 Add a new constant $c$ and the sentences $c^n \ne e$ for all $n \ge 1$.
 Each finite subset of this theory has a model, namely a finite cyclic group of large order with $c$ a generator.
 By the [[compactness theorem|1NR3HAWG9D]] the whole theory has a model, which is a model of $T$ with an element of infinite order, a contradiction.
+
+## Explanations
+
+### L1 human
+
+An elementary class is a class of structures that a list of first-order axioms describes exactly.
+The structures in the class are the ones that satisfy every axiom on the list.
+
+### L2 human
+
+We check that the class of nontrivial groups is a basic elementary class in the signature $(\cdot, {}^{-1}, e)$.
+
+1. Let $\tau$ be the conjunction of the three group axioms and the sentence $\exists x \, \neg(x = e)$.
+2. A structure satisfies $\tau$ exactly when it is a group with an element other than $e$, that is, a nontrivial group.
+3. So the class is $\operatorname{Mod}(\tau)$ for one sentence $\tau$.
+
+A trap is to think that every class defined by a property of groups is elementary; torsion groups are not, as the non-example above shows.
