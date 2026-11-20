@@ -46,7 +46,7 @@ The [[proof|RATQ474V7S]] expands $B(b'_k, b'_l)$ by bilinearity.
 - The rank of a form is well defined. A form on $V$ is [[nondegenerate|01NHFZF2SK]] exactly when its rank is $\dim V$.
 - When $B$ is nondegenerate, the class of $\det M$ in the [[square class group|9160DW40TE]] $F^\times / (F^\times)^2$ is the discriminant of $B$. It does not depend on the basis.
 - Over $\R$ the sign of $\det M$ does not depend on the basis, since $(\det P)^2 > 0$.
-- The [[worked example|~a27dd70c]] shows the rule for a form on $\Q^2$.
+- The [[worked example|2X09GT6SMD]] shows the rule for a form on $\Q^2$.
 
 ### Converse
 

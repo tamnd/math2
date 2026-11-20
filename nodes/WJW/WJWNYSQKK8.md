@@ -46,20 +46,20 @@ So the classification of forms is the classification of matrices up to congruenc
 
 - $I_2$ and $\operatorname{diag}(4, 9)$ are congruent over $\Q$, with $P = \operatorname{diag}(2, 3)$, because $P^T I_2 P = P^2$.
 - $\begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$ and $\operatorname{diag}(2, -2)$ are congruent over $\Q$, with $P = \begin{pmatrix} 1 & 1 \\ 1 & -1 \end{pmatrix}$.
-- [[$\begin{pmatrix} 1 & 2 \\ 2 & 1 \end{pmatrix}$ and $\operatorname{diag}(1, -3)$ are congruent|~84099d24]], but their eigenvalues differ.
-- The matrices of a [[change of basis on $\Q^2$|~a27dd70c]] are congruent: $\begin{pmatrix} 1 & 2 \\ 0 & 3 \end{pmatrix}$ and $\begin{pmatrix} 6 & -4 \\ 0 & 2 \end{pmatrix}$.
-- Every alternating matrix is congruent to a block diagonal matrix of blocks $\begin{pmatrix} 0 & 1 \\ -1 & 0 \end{pmatrix}$ and zeros, by the [[classification of alternating forms|~a52a9f11]].
+- [[$\begin{pmatrix} 1 & 2 \\ 2 & 1 \end{pmatrix}$ and $\operatorname{diag}(1, -3)$ are congruent|57GZX8S4ES]], but their eigenvalues differ.
+- The matrices of a [[change of basis on $\Q^2$|2X09GT6SMD]] are congruent: $\begin{pmatrix} 1 & 2 \\ 0 & 3 \end{pmatrix}$ and $\begin{pmatrix} 6 & -4 \\ 0 & 2 \end{pmatrix}$.
+- Every alternating matrix is congruent to a block diagonal matrix of blocks $\begin{pmatrix} 0 & 1 \\ -1 & 0 \end{pmatrix}$ and zeros, by the [[classification of alternating forms|V8KKHKXXB3]].
 
 ### Non-examples
 
 - $I_2$ and $-I_2$ are not congruent over $\R$: $x^T P^T P x = \norm{Px}^2 \ge 0$, but $x^T(-I_2)x < 0$ for $x \neq 0$.
-- [[$I_2$ and $\operatorname{diag}(1, 2)$ are not congruent over $\Q$|~9711237b]]: the ratio $2$ of their determinants is not a square in $\Q$.
+- [[$I_2$ and $\operatorname{diag}(1, 2)$ are not congruent over $\Q$|R4ZDJG99Q0]]: the ratio $2$ of their determinants is not a square in $\Q$.
 - A symmetric matrix and a nonsymmetric matrix are never congruent, because congruence keeps symmetry.
 - $\operatorname{diag}(1, 0)$ and $I_2$ are not congruent over any field, because congruence keeps the rank.
 
 ### Basic properties
 
-- [[Congruence is an equivalence relation, and it keeps rank and symmetry|~12295b2d]].
+- [[Congruence is an equivalence relation, and it keeps rank and symmetry|D3E2Y85S6H]].
 - It also keeps skew-symmetry and the property $x^T A x = 0$ for all $x$.
 - It multiplies the determinant by the nonzero square $(\det P)^2$.
 - Over $\R$, the congruence class of a symmetric matrix is fixed by its rank and its [[signature|07EZA80NEH]], by [[Sylvester's law of inertia|0WFED3K3DQ]].

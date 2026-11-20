@@ -35,7 +35,7 @@ For them, each linear form $\varphi$ is $B(u, \cdot)$ for exactly one $u$, just 
 
 ## Notation
 
-- The radical of a [[reflexive form|~b3103bb5]] is written $\operatorname{rad} B$, $V^\perp$ or $\ker B$. For a reflexive form the left and right radicals are equal.
+- The radical of a [[reflexive form|M0G958M917]] is written $\operatorname{rad} B$, $V^\perp$ or $\ker B$. For a reflexive form the left and right radicals are equal.
 - Some books say "nonsingular" or "regular" for nondegenerate.
 - In Mathlib the predicate is `LinearMap.BilinForm.Nondegenerate`, with the left radical.
 - For a pairing $V \times W \to F$ with $\dim V = \dim W$, "perfect pairing" is a common name for the nondegenerate case.
@@ -45,22 +45,22 @@ For them, each linear form $\varphi$ is $B(u, \cdot)$ for exactly one $u$, just 
 ### Examples
 
 - The [[dot product|0S52TNNTH9]] on $F^n$ is nondegenerate, because its matrix is the identity matrix.
-- The [[trace form on $M_2(F)$|~1d5e4bea]] is nondegenerate, because its matrix has determinant $-1$.
-- The [[determinant form on $F^2$|~d5093041]] is nondegenerate, because its matrix $\begin{pmatrix} 0 & 1 \\ -1 & 0 \end{pmatrix}$ has determinant $1$.
-- The [[form $x_1 y_1 - x_2 y_2$ on $\R^2$|~68ff0c35]] is nondegenerate, though it has nonzero vectors with $B(v, v) = 0$.
+- The [[trace form on $M_2(F)$|CWKB533GHM]] is nondegenerate, because its matrix has determinant $-1$.
+- The [[determinant form on $F^2$|8K74K4BF5H]] is nondegenerate, because its matrix $\begin{pmatrix} 0 & 1 \\ -1 & 0 \end{pmatrix}$ has determinant $1$.
+- The [[form $x_1 y_1 - x_2 y_2$ on $\R^2$|X6C1Z0W252]] is nondegenerate, though it has nonzero vectors with $B(v, v) = 0$.
 - The evaluation pairing $V^* \times V \to F$, $(\varphi, v) \mapsto \varphi(v)$, is a perfect pairing for finite-dimensional $V$.
 
 ### Non-examples
 
-- The [[form on $\Q^3$ with matrix $\begin{pmatrix} 1 & 1 & 2 \\ 1 & 2 & 3 \\ 2 & 3 & 5 \end{pmatrix}$|~1d850c8c]] is degenerate: its radical is the line through $(1, 1, -1)$.
+- The [[form on $\Q^3$ with matrix $\begin{pmatrix} 1 & 1 & 2 \\ 1 & 2 & 3 \\ 2 & 3 & 5 \end{pmatrix}$|RZMEYX1YJT]] is degenerate: its radical is the line through $(1, 1, -1)$.
 - The form $x_1 y_1$ on $F^2$ is degenerate: $e_2$ is in its radical.
-- The [[alternating form on $\Q^3$ with matrix $\begin{pmatrix} 0 & 1 & 0 \\ -1 & 0 & 1 \\ 0 & -1 & 0 \end{pmatrix}$|~35320308]] is degenerate, as is every alternating form on a space of odd dimension outside characteristic $2$.
+- The [[alternating form on $\Q^3$ with matrix $\begin{pmatrix} 0 & 1 & 0 \\ -1 & 0 & 1 \\ 0 & -1 & 0 \end{pmatrix}$|J16BA48F44]] is degenerate, as is every alternating form on a space of odd dimension outside characteristic $2$.
 
 ### Basic properties
 
-- The [[criteria for nondegeneracy|~acb831c2]]: the left radical is zero exactly when the right radical is zero, exactly when the matrix is invertible, exactly when $V \to V^*$ is an isomorphism.
+- The [[criteria for nondegeneracy|3ND2FNJ38Y]]: the left radical is zero exactly when the right radical is zero, exactly when the matrix is invertible, exactly when $V \to V^*$ is an isomorphism.
 - The two radicals have the same dimension, $\dim V - \rank B$.
-- For a nondegenerate $B$ and a subspace $W$, $\dim W + \dim W^\perp = \dim V$, by the [[dimension statement for orthogonal complements|~fb9287d6]].
+- For a nondegenerate $B$ and a subspace $W$, $\dim W + \dim W^\perp = \dim V$, by the [[dimension statement for orthogonal complements|M2JH84VEY9]].
 - A nondegenerate form may be degenerate on a subspace. The form $x_1 y_1 - x_2 y_2$ is zero on the line through $(1, 1)$.
 - If $B$ is reflexive, then $B$ induces a nondegenerate form on $V / \operatorname{rad} B$.
 

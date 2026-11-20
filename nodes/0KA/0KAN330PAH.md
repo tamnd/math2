@@ -32,7 +32,7 @@ Mathlib writes `B.Nondegenerate` for `B : LinearMap.BilinForm F V`.
 
 ## Remarks
 
-$B$ is nondegenerate if and only if its matrix in a basis has a nonzero determinant, by the [[criteria for nondegeneracy|~acb831c2]].
+$B$ is nondegenerate if and only if its matrix in a basis has a nonzero determinant, by the [[criteria for nondegeneracy|3ND2FNJ38Y]].
 So, in finite dimensions, the condition in the first argument is equivalent to the same condition in the second argument.
 $B$ is nondegenerate if and only if $u \mapsto B(u, \cdot)$ is an isomorphism from $V$ to its dual space.
 Each inner product is nondegenerate; the form $B(x, y) = x_1 y_1$ on $\R^2$ is degenerate.

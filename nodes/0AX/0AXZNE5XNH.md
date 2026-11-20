@@ -46,24 +46,24 @@ Symmetric forms also arise from functions of degree $2$: the expression $q(x + y
 ### Examples
 
 - The [[dot product|0S52TNNTH9]] on $F^n$ is symmetric, because $x_k y_k = y_k x_k$ in $F$.
-- The [[trace form $\tr(XY)$ on $M_2(F)$|~1d5e4bea]] is symmetric, because $\tr(XY) = \tr(YX)$.
-- The [[form $x_1 y_1 - x_2 y_2$ on $\R^2$|~68ff0c35]] is symmetric. It is not positive, and it has nonzero vectors with $B(v, v) = 0$.
+- The [[trace form $\tr(XY)$ on $M_2(F)$|CWKB533GHM]] is symmetric, because $\tr(XY) = \tr(YX)$.
+- The [[form $x_1 y_1 - x_2 y_2$ on $\R^2$|X6C1Z0W252]] is symmetric. It is not positive, and it has nonzero vectors with $B(v, v) = 0$.
 - For each symmetric matrix $A$, the form $x^T A y$ is symmetric, because $y^T A x$ is a $1 \times 1$ matrix and so equals its transpose $x^T A^T y = x^T A y$.
 - Every real [[inner product|0NB0AWGJBW]] is a symmetric form with $B(v, v) > 0$ for $v \neq 0$.
 
 ### Non-examples
 
-- The [[form with matrix $\begin{pmatrix} 1 & 2 \\ 0 & 3 \end{pmatrix}$|~08303f03]] is not symmetric: $B(e_1, e_2) = 2$ but $B(e_2, e_1) = 0$.
-- The [[determinant form $x_1 y_2 - x_2 y_1$|~d5093041]] is not symmetric when $\operatorname{char} F \neq 2$: it gives $1$ on $(e_1, e_2)$ and $-1$ on $(e_2, e_1)$.
+- The [[form with matrix $\begin{pmatrix} 1 & 2 \\ 0 & 3 \end{pmatrix}$|N9CJZW5596]] is not symmetric: $B(e_1, e_2) = 2$ but $B(e_2, e_1) = 0$.
+- The [[determinant form $x_1 y_2 - x_2 y_1$|8K74K4BF5H]] is not symmetric when $\operatorname{char} F \neq 2$: it gives $1$ on $(e_1, e_2)$ and $-1$ on $(e_2, e_1)$.
 - The [[standard inner product on $\C^n$|TFZ8DYVJ1J]] is not a symmetric bilinear form: it is conjugate-linear in the second slot, and $\ip{y}{x} = \overline{\ip{x}{y}}$.
 
 ### Basic properties
 
-- $B$ is symmetric exactly when its matrix $A$ satisfies $A^T = A$. One direction: $A_{ji} = B(e_j, e_i) = B(e_i, e_j) = A_{ij}$. The other direction: the formula $x^T A y$ of the [[correspondence theorem|~36ca4726]].
+- $B$ is symmetric exactly when its matrix $A$ satisfies $A^T = A$. One direction: $A_{ji} = B(e_j, e_i) = B(e_i, e_j) = A_{ij}$. The other direction: the formula $x^T A y$ of the [[correspondence theorem|ZVMJAF7D53]].
 - $B$ is symmetric exactly when the two maps $u \mapsto B(u, \cdot)$ and $v \mapsto B(\cdot, v)$ into $V^*$ are equal.
 - The symmetric forms on a space of dimension $n$ form a subspace of dimension $n(n + 1)/2$, since a symmetric matrix is fixed by its entries on and above the diagonal.
 - If $\operatorname{char} F \neq 2$, every bilinear form is the sum of a symmetric form $\frac12(B(u, v) + B(v, u))$ and a [[skew-symmetric form|0DGDS5XY84]] $\frac12(B(u, v) - B(v, u))$.
-- For a symmetric form, orthogonality is a symmetric relation, so the form is [[reflexive|~b3103bb5]].
+- For a symmetric form, orthogonality is a symmetric relation, so the form is [[reflexive|M0G958M917]].
 - If $\operatorname{char} F \neq 2$, a symmetric form is fixed by its values $B(v, v)$, by the [[polar form|0HYFWKKY3C]]. Sub-area 20 studies this link with quadratic forms.
 
 ### History
@@ -73,7 +73,7 @@ Sylvester published his law of inertia for real symmetric forms in 1852, accordi
 ### Common errors
 
 - A symmetric form need not be positive. The form $x_1 y_1 - x_2 y_2$ is symmetric, and $B(e_2, e_2) = -1$.
-- In characteristic $2$, symmetric and skew-symmetric forms are the same, since $-1 = 1$. Then a symmetric form need not come from its values $B(v, v)$: the [[determinant form|~d5093041]] over $\mathbb{F}_2$ is symmetric with $B(v, v) = 0$ for all $v$.
+- In characteristic $2$, symmetric and skew-symmetric forms are the same, since $-1 = 1$. Then a symmetric form need not come from its values $B(v, v)$: the [[determinant form|8K74K4BF5H]] over $\mathbb{F}_2$ is symmetric with $B(v, v) = 0$ for all $v$.
 - The matrix of a symmetric form is symmetric in every basis, but it is diagonal only in special bases.
 
 ## Explanations

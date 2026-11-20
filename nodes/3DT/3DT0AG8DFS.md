@@ -1,0 +1,71 @@
+---
+tag: 3DT0AG8DFS
+kind: proof
+name: Proof of the dimension statement for orthogonal complements of a bilinear form
+msc: ["15A63"]
+topics: [DYAK7YMK7B]
+audience: ug1
+proves: M2JH84VEY9
+methods: [0NTF6DMVAP, TFQ1845T84]
+uses: [05Q4JD6XEH, 3ND2FNJ38Y, 00889YD15K, 0W4FSW1TVB, 0M4SXE5WW3, 0R8X9XA83A, 20A0K3KBZD, 06HTJNCMPA, 0WGAXEK99E, M0G958M917]
+sources:
+  - url: https://en.wikipedia.org/wiki/Orthogonal_complement
+    locator: General bilinear forms
+  - book: isbn:9780387728285
+    locator: Chapter 11
+---
+
+## Proof
+
+Let $k = \dim W$.
+Define $\rho \colon V \to W^*$ by $\rho(v) = B(\cdot, v)|_W$, the linear form $w \mapsto B(w, v)$ on $W$.
+
+Part 1.
+
+1. $\rho(v)$ is a linear form on $W$, because $B$ is linear in the first slot.
+2. $\rho$ is linear, because $B$ is linear in the second slot: $\rho(av + bv') = a\rho(v) + b\rho(v')$.
+3. $\ker \rho$ is the set of $v$ with $B(w, v) = 0$ for all $w \in W$. By the [[definition|05Q4JD6XEH]], this is $W^\perp$.
+4. The [[rank-nullity theorem|0W4FSW1TVB]] gives $n = \dim W^\perp + \dim \im \rho$.
+5. $\im \rho \subseteq W^*$, and $\dim W^* = k$ by the [[dimension of the dual space|00889YD15K]]. So $\dim \im \rho \leq k$.
+6. Steps 4 and 5 give $\dim W^\perp \geq n - k$, which is part 1.
+
+Part 2.
+Let $B$ be nondegenerate.
+
+7. By the [[criteria for nondegeneracy|3ND2FNJ38Y]], the map $R_B \colon V \to V^*$, $v \mapsto B(\cdot, v)$, is an isomorphism.
+8. Let $\psi \in W^*$. [[Extend a basis|0M4SXE5WW3]] $(w_1, \dots, w_k)$ of $W$ to a basis $(w_1, \dots, w_n)$ of $V$.
+9. [[A linear map is fixed by its values on a basis|0R8X9XA83A]], so there is $\varphi \in V^*$ with $\varphi(w_i) = \psi(w_i)$ for $i \leq k$ and $\varphi(w_i) = 0$ for $i > k$. Then $\varphi|_W = \psi$.
+10. By step 7, $\varphi = R_B(v)$ for some $v \in V$. Then $\rho(v) = R_B(v)|_W = \varphi|_W = \psi$.
+11. So $\rho$ is surjective, and $\dim \im \rho = k$. Step 4 gives $\dim W^\perp = n - k$, which is part 2.
+
+Part 3.
+
+12. $W \cap W^\perp$ is the set of $w \in W$ with $B(w', w) = 0$ for all $w' \in W$. This is the right radical of the restriction $B_W$ of $B$ to $W \times W$.
+13. By the criteria for nondegeneracy, applied to $B_W$ on $W$, this right radical is $\{0\}$ exactly when $B_W$ is nondegenerate.
+14. Let $B_W$ be nondegenerate. By step 13, $W \cap W^\perp = \{0\}$. By the [[criteria for a direct sum|20A0K3KBZD]], the sum $W + W^\perp$ is direct.
+15. By [[Grassmann's formula|06HTJNCMPA]] and part 1, $\dim(W + W^\perp) = k + \dim W^\perp - 0 \geq n$.
+16. A [[subspace of full dimension is the whole space|0WGAXEK99E]], so $W + W^\perp = V$ and $V = W \oplus W^\perp$.
+17. Conversely, let $V = W \oplus W^\perp$. Then $W \cap W^\perp = \{0\}$, and step 13 shows that $B_W$ is nondegenerate.
+
+Part 4.
+Let $B$ be nondegenerate and [[reflexive|M0G958M917]].
+
+18. Let $w \in W$ and $v \in W^\perp$. Then $B(w, v) = 0$, and by reflexivity $B(v, w) = 0$.
+19. This holds for all $v \in W^\perp$, so $w \in (W^\perp)^\perp$. Hence $W \subseteq (W^\perp)^\perp$.
+20. Part 2, applied to $W^\perp$ and then to $W$, gives $\dim (W^\perp)^\perp = n - \dim W^\perp = n - (n - k) = k$.
+21. So $W$ is a subspace of $(W^\perp)^\perp$ of full dimension, and step 16's reason gives $W = (W^\perp)^\perp$.
+
+This proves all four parts.
+
+## Idea
+
+The orthogonal complement $W^\perp$ is the kernel of a linear map from $V$ to the dual $W^*$, which has dimension $\dim W$.
+Rank-nullity gives the inequality at once.
+For a nondegenerate form the map is surjective, since every linear form on $W$ extends to $V$ and comes from a vector.
+The direct sum criterion then reduces to the question whether $W$ meets its complement.
+
+## Variants
+
+One can prove part 2 with matrices.
+Pick a basis of $W$ and write it as the columns of an $n \times k$ matrix $C$ of rank $k$.
+Then $W^\perp$ is the null space of $C^T A$, and $\rank C^T A = k$ when $A$ is invertible.

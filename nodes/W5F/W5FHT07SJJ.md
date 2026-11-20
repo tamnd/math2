@@ -34,7 +34,7 @@ It is alternating, since each term vanishes when $u = u'$.
 It is nondegenerate: if $u$ has $x_i \ne 0$, then $\omega(u, f_i) = x_i \ne 0$, and if $u$ has $y_i \ne 0$, then $\omega(u, e_i) = -y_i \ne 0$.
 Here $e_i$ and $f_i$ are the standard basis vectors for the coordinates $x_i$ and $y_i$.
 Non-example: the form $\omega(u, u') = x_1 y'_1 - x'_1 y_1$ on $F^3$ with coordinates $(x_1, y_1, z)$ is alternating but degenerate, because $(0, 0, 1)$ pairs to zero with every vector.
-Every symplectic vector space has even dimension $2m$ and a basis $e_1, \dots, e_m, f_1, \dots, f_m$ with $\omega(e_i, f_j) = \delta_{ij}$ and $\omega(e_i, e_j) = \omega(f_i, f_j) = 0$, by the [[classification of alternating forms|~a52a9f11]].
+Every symplectic vector space has even dimension $2m$ and a basis $e_1, \dots, e_m, f_1, \dots, f_m$ with $\omega(e_i, f_j) = \delta_{ij}$ and $\omega(e_i, e_j) = \omega(f_i, f_j) = 0$, by the [[classification of alternating forms|V8KKHKXXB3]].
 When $\operatorname{char} F \neq 2$, alternating is the same as skew-symmetric: $\omega(v, w) = -\omega(w, v)$.
 In characteristic $2$ it is not.
 

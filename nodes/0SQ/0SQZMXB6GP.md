@@ -50,14 +50,14 @@ A bilinear form is the common frame for all these pairings, over any field.
 
 - The [[dot product|0S52TNNTH9]] $x \cdot y = \sum_k x_k y_k$ on $F^n$ is bilinear, because each term $x_k y_k$ is linear in $x$ and in $y$.
 - For each $n \times n$ matrix $A$ over $F$, the map $B(x, y) = x^T A y$ on $F^n$ is bilinear, because matrix products are linear in each factor.
-- The [[trace form on $2 \times 2$ matrices|~1d5e4bea]] $B(X, Y) = \tr(XY)$ is bilinear, because the product is bilinear and the trace is linear.
-- The [[form with matrix $\begin{pmatrix} 1 & 2 \\ 0 & 3 \end{pmatrix}$|~08303f03]] on $\Q^2$ is bilinear but not symmetric.
+- The [[trace form on $2 \times 2$ matrices|CWKB533GHM]] $B(X, Y) = \tr(XY)$ is bilinear, because the product is bilinear and the trace is linear.
+- The [[form with matrix $\begin{pmatrix} 1 & 2 \\ 0 & 3 \end{pmatrix}$|N9CJZW5596]] on $\Q^2$ is bilinear but not symmetric.
 - The determinant form $x_1 y_2 - x_2 y_1$ on $F^2$ is bilinear and [[alternating|0DGDS5XY84]].
 - The [[trace pairing|4F7GWKTQ1H]] and the zero form $B(x, y) = 0$ are bilinear forms too.
 
 ### Non-examples
 
-- The [[map $x_1 y_1 + x_2$ on $\R^2$|~af4ab818]] is not bilinear: it is not linear in $y$, since $y = 0$ does not give $0$.
+- The [[map $x_1 y_1 + x_2$ on $\R^2$|5JPJW2GJR6]] is not bilinear: it is not linear in $y$, since $y = 0$ does not give $0$.
 - The map $(x, y) \mapsto \norm{x} \, \norm{y}$ on $\R^2$ is not bilinear: it is not additive in $x$, since $\norm{x} + \norm{-x} \neq \norm{0}$ for $x \neq 0$.
 - The [[standard inner product on $\C^n$|TFZ8DYVJ1J]] is not bilinear over $\C$: it is conjugate-linear in the second slot, so it is a [[sesquilinear form|054YEQ0Y8M]].
 
@@ -66,7 +66,7 @@ A bilinear form is the common frame for all these pairings, over any field.
 - $B(0, y) = 0$ and $B(x, 0) = 0$, because a linear map sends $0$ to $0$.
 - The bilinear forms on $V$ form a vector space over $F$ under the pointwise sum and scalar multiple.
 - If $\dim V = n$, a form is fixed by its $n^2$ values $B(e_i, e_j)$ on a [[basis|0KCQ9Y3QKA]]. These values make the [[matrix of the form|0QK6K857HS]], so the space of forms has dimension $n^2$.
-- A bilinear form is the same as a linear map $V \to V^*$ into the [[dual space|07JBSZE0V4]], by the [[correspondence with linear maps into the dual|~36ca4726]].
+- A bilinear form is the same as a linear map $V \to V^*$ into the [[dual space|07JBSZE0V4]], by the [[correspondence with linear maps into the dual|ZVMJAF7D53]].
 - The main special classes are [[symmetric forms|0AXZNE5XNH]], [[alternating forms|0DGDS5XY84]] and [[nondegenerate forms|01NHFZF2SK]].
 
 ### Common errors

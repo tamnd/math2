@@ -7,7 +7,7 @@ aliases: [witt-extension-theorem]
 msc: ["11E04", "15A63"]
 topics: [DYAK7YMK7B]
 audience: grad
-uses: [0ZHWKQMVX5, 0AXZNE5XNH, 01NHFZF2SK, 00YC1D652K, 0F6ES3BRYP, ~0d389e21, ~caf8e8bf]
+uses: [0ZHWKQMVX5, 0AXZNE5XNH, 01NHFZF2SK, 00YC1D652K, 0F6ES3BRYP, MZHFGPV1YT, 43VKGAA2H7]
 about: [0AXZNE5XNH, 0RBQS1JJCR]
 sources:
   - url: https://en.wikipedia.org/wiki/Witt's_theorem
@@ -27,10 +27,10 @@ Let $F$ be a field whose [[characteristic|0F6ES3BRYP]] is not $2$.
 Let $V$ be a [[finite-dimensional vector space|0ZHWKQMVX5]] over $F$ with a [[nondegenerate|01NHFZF2SK]] [[symmetric bilinear form|0AXZNE5XNH]] $B$.
 
 1. (Witt extension.) Let $U$ and $W$ be [[linear subspaces|00YC1D652K]] of $V$, and let $\sigma \colon U \to W$ be a linear bijection with $B(\sigma(x), \sigma(y)) = B(x, y)$ for all $x, y \in U$. Then there is a linear bijection $\tau \colon V \to V$ with $B(\tau(x), \tau(y)) = B(x, y)$ for all $x, y \in V$ and $\tau(x) = \sigma(x)$ for all $x \in U$.
-2. Let $W_1, W_2$ be [[totally isotropic|~0d389e21]] subspaces of $V$ with $\dim W_1 = \dim W_2$. Then there is an isometry $\tau$ of $V$ with $\tau(W_1) = W_2$.
+2. Let $W_1, W_2$ be [[totally isotropic|MZHFGPV1YT]] subspaces of $V$ with $\dim W_1 = \dim W_2$. Then there is an isometry $\tau$ of $V$ with $\tau(W_1) = W_2$.
 
 The subspaces $U$ and $W$ in part 1 may be degenerate.
-The [[proof|~c87dfa1f]] enlarges $U$ until the form on it is nondegenerate, and then applies the [[reflection lemma|~caf8e8bf]].
+The [[proof|XRXMHP9Z76]] enlarges $U$ until the form on it is nondegenerate, and then applies the [[reflection lemma|43VKGAA2H7]].
 
 ## Remarks
 
@@ -51,8 +51,8 @@ Finite dimension is used in the proof, in the dimension formula for orthogonal c
 
 ### Consequences
 
-- Witt cancellation: if $V_1 \perp V_2$ and $V_1 \perp V_3$ are isometric and $V_1, V_2, V_3$ are nondegenerate, then $V_2$ and $V_3$ are isometric. The [[reflection lemma|~caf8e8bf]] proves this directly.
-- All maximal totally isotropic subspaces of $V$ have the same dimension, the Witt index, and by part 2 the isometry group acts transitively on them. The [[Witt decomposition|~1d0d0be2]] also gives the first claim.
+- Witt cancellation: if $V_1 \perp V_2$ and $V_1 \perp V_3$ are isometric and $V_1, V_2, V_3$ are nondegenerate, then $V_2$ and $V_3$ are isometric. The [[reflection lemma|43VKGAA2H7]] proves this directly.
+- All maximal totally isotropic subspaces of $V$ have the same dimension, the Witt index, and by part 2 the isometry group acts transitively on them. The [[Witt decomposition|BPMRSPB6GD]] also gives the first claim.
 - For example, in $\R^n$ with the dot product, any isometric map between two subspaces extends to an orthogonal map of $\R^n$.
 - Two vectors $x, y$ with $B(x, x) = B(y, y)$, both nonzero, lie in one orbit of the isometry group. This holds also when $B(x, x) = 0$.
 

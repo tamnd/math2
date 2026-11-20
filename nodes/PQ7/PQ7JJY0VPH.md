@@ -6,7 +6,7 @@ msc: ["15A63", "53D05"]
 topics: [DYAK7YMK7B]
 audience: grad
 specializes: [000AYPA9AJ]
-uses: [0DGDS5XY84, 01NHFZF2SK, ~a52a9f11, 01TXN7ETH2, ~0d389e21]
+uses: [0DGDS5XY84, 01NHFZF2SK, V8KKHKXXB3, 01TXN7ETH2, MZHFGPV1YT]
 sources:
   - url: https://en.wikipedia.org/wiki/Symplectic_vector_space
     locator: Standard symplectic space
@@ -25,8 +25,8 @@ same_as:
 
 Let $F$ be a field.
 A symplectic vector space is a finite-dimensional vector space $V$ over $F$ with a symplectic form: an [[alternating bilinear form|0DGDS5XY84]] $\omega$ that is [[nondegenerate|01NHFZF2SK]].
-By the [[classification of alternating forms|~a52a9f11]], $\dim V = 2m$ is even, and $V$ has a basis $(e_1, \dots, e_m, f_1, \dots, f_m)$ with $\omega(e_i, f_j) = \delta_{ij}$ and $\omega(e_i, e_j) = \omega(f_i, f_j) = 0$.
-A Lagrangian subspace is a subspace $L$ with $L^\perp = L$; each has dimension $m$, by the [[statement on Lagrangian subspaces|~95ea40c5]].
+By the [[classification of alternating forms|V8KKHKXXB3]], $\dim V = 2m$ is even, and $V$ has a basis $(e_1, \dots, e_m, f_1, \dots, f_m)$ with $\omega(e_i, f_j) = \delta_{ij}$ and $\omega(e_i, e_j) = \omega(f_i, f_j) = 0$.
+A Lagrangian subspace is a subspace $L$ with $L^\perp = L$; each has dimension $m$, by the [[statement on Lagrangian subspaces|30PND47YCP]].
 The [[formal definition|W5FHT07SJJ]] states the axioms.
 Symplectic vector spaces are the linear model of phase space in classical mechanics and of the tangent spaces of symplectic manifolds.
 
@@ -50,23 +50,23 @@ Unlike inner products, all such forms of one dimension are alike, so the theory 
 
 ### Examples
 
-- [[The determinant form on $F^2$|~d5093041]] makes $F^2$ a symplectic plane, for every field $F$.
-- [[$\Q^4$ with the alternating matrix of Pfaffian $8$|~b44ceee3]] is a symplectic space, with an explicit symplectic basis.
+- [[The determinant form on $F^2$|8K74K4BF5H]] makes $F^2$ a symplectic plane, for every field $F$.
+- [[$\Q^4$ with the alternating matrix of Pfaffian $8$|C8S4RH68S0]] is a symplectic space, with an explicit symplectic basis.
 - For each finite-dimensional space $U$, the space $U \oplus U^*$ with $\omega((x, \varphi), (y, \psi)) = \psi(x) - \varphi(y)$ is symplectic, and $U$ and $U^*$ are Lagrangian subspaces.
 - $\C^m$ with $\omega(x, y) = \operatorname{Im} \sum_i x_i \bar y_i$, viewed as a real space of dimension $2m$, is a real symplectic space.
 
 ### Non-examples
 
-- [[The alternating form on $\Q^3$ with radical $(1, 0, 1)$|~35320308]] is not symplectic, because it is degenerate. No alternating form on a space of odd dimension is symplectic.
-- [[The form $x_1 y_1 + x_2 y_2$ on $\mathbb{F}_2^2$|~45504b21]] is nondegenerate and skew-symmetric, but not alternating, so it is not symplectic.
+- [[The alternating form on $\Q^3$ with radical $(1, 0, 1)$|J16BA48F44]] is not symplectic, because it is degenerate. No alternating form on a space of odd dimension is symplectic.
+- [[The form $x_1 y_1 + x_2 y_2$ on $\mathbb{F}_2^2$|1V7NMPCSK9]] is nondegenerate and skew-symmetric, but not alternating, so it is not symplectic.
 - An inner product is not symplectic, because $\langle v, v \rangle > 0$ for $v \neq 0$, while a symplectic form has $\omega(v, v) = 0$.
 
 ### Basic properties
 
 - $\dim V$ is even, and all symplectic spaces of the same dimension are isometric, by the classification of alternating forms.
-- Every nonzero vector is [[isotropic|~0d389e21]], and every line is an isotropic subspace.
+- Every nonzero vector is [[isotropic|MZHFGPV1YT]], and every line is an isotropic subspace.
 - For each subspace $W$, $\dim W + \dim W^\perp = \dim V$ and $(W^\perp)^\perp = W$, but $W \cap W^\perp$ can be nonzero.
-- Isotropic subspaces have dimension at most $m$, Lagrangian subspaces have dimension exactly $m$, and every isotropic subspace lies in a Lagrangian one, by the [[statement on Lagrangian subspaces|~95ea40c5]].
+- Isotropic subspaces have dimension at most $m$, Lagrangian subspaces have dimension exactly $m$, and every isotropic subspace lies in a Lagrangian one, by the [[statement on Lagrangian subspaces|30PND47YCP]].
 - Each symplectic map $T \in \operatorname{Sp}_{2m}(F)$ satisfies $T^T J T = J$ in matrices, and $\det T = 1$. The symplectic group is treated in Lie theory.
 
 ### History

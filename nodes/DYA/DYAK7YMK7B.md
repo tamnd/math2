@@ -21,16 +21,16 @@ It covers bilinear and sesquilinear forms over any field: their matrices, congru
 4. [[Congruent matrices|WJWNYSQKK8]]: the equivalence relation that this rule gives.
 5. [[Symmetric bilinear form|0AXZNE5XNH]]: forms with $B(x, y) = B(y, x)$.
 6. [[Alternating bilinear form|0DGDS5XY84]]: forms with $B(v, v) = 0$, and skew-symmetric forms.
-7. [[Reflexive bilinear forms|~b3103bb5]]: when orthogonality is a symmetric relation.
+7. [[Reflexive bilinear forms|M0G958M917]]: when orthogonality is a symmetric relation.
 8. [[Nondegenerate bilinear form|01NHFZF2SK]]: the radical and the map $V \to V^*$.
 9. [[Orthogonality for a bilinear form|01TXN7ETH2]]: complements and their dimensions.
-10. [[Isotropic vectors and subspaces|~0d389e21]]: vectors with $B(v, v) = 0$.
-11. [[Hyperbolic plane|~70f96526]]: the plane with matrix $\begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$.
+10. [[Isotropic vectors and subspaces|MZHFGPV1YT]]: vectors with $B(v, v) = 0$.
+11. [[Hyperbolic plane|1X5PZSK44P]]: the plane with matrix $\begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$.
 12. [[Sesquilinear form|054YEQ0Y8M]]: forms over $\C$ with one conjugate-linear slot.
 13. [[Hermitian form|48P4A1CX85]]: sesquilinear forms with real values $h(v, v)$.
-14. [[Classification of alternating forms|~a52a9f11]]: symplectic bases and even rank.
+14. [[Classification of alternating forms|V8KKHKXXB3]]: symplectic bases and even rank.
 15. [[Symplectic vector space|PQ7JJY0VPH]]: nondegenerate alternating forms and Lagrangian subspaces.
-16. [[Witt decomposition and Witt index|~1d0d0be2]]: hyperbolic planes plus an anisotropic part.
+16. [[Witt decomposition and Witt index|BPMRSPB6GD]]: hyperbolic planes plus an anisotropic part.
 17. [[Witt's theorem|CCB8VNQCV0]]: isometries between subspaces extend.
 
 ### Prerequisites

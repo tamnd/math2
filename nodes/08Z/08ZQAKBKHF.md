@@ -27,7 +27,7 @@ Some books say "antisymmetric" for skew-symmetric.
 
 ## Remarks
 
-An alternating form is skew-symmetric, and if the characteristic of $F$ is not $2$, each skew-symmetric form is alternating, by [[this statement|~205a4a20]].
+An alternating form is skew-symmetric, and if the characteristic of $F$ is not $2$, each skew-symmetric form is alternating, by [[this statement|SX9CD5NEPD]].
 In characteristic $2$ the two notions differ: the form $x_1 y_1$ on $\mathbb{F}_2$ is skew-symmetric but not alternating.
 On $F^2$, the form $B(x, y) = x_1 y_2 - x_2 y_1$ is alternating; it is the determinant of the matrix with the columns $x$ and $y$.
 A nondegenerate alternating form is a *symplectic form*.

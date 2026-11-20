@@ -34,7 +34,7 @@ For a symmetric or alternating form, the two complements are equal.
 
 For an inner product, these are the usual notions of orthogonal vectors, families and complements.
 For a general $B$, the relation $u \perp v$ need not be symmetric in $u$ and $v$.
-It is symmetric exactly for the [[reflexive forms|~b3103bb5]].
+It is symmetric exactly for the [[reflexive forms|M0G958M917]].
 In a basis that is orthogonal for $B$, the matrix of $B$ is diagonal.
 Unlike in an inner product space, a nonzero vector can be orthogonal to itself: for $B(x, y) = x_1 y_1 - x_2 y_2$, take $v = (1, 1)$.
 The set $W^\perp$ is a subspace of $V$ for every subset $W$, since it is an intersection of kernels of linear forms $B(w, \cdot)$.

@@ -22,7 +22,7 @@ Let $B$ be a [[bilinear form|0SQZMXB6GP]] on a vector space $V$ over a field $F$
 Two vectors $u, v$ are orthogonal for $B$ when $B(u, v) = 0$, and a family of vectors is orthogonal when $B$ is zero on each pair of distinct members.
 For a subspace $W$, the orthogonal complement $W^\perp$ is the subspace of all $v$ with $B(w, v) = 0$ for every $w \in W$.
 The [[formal definition|05Q4JD6XEH]] states these notions.
-In finite dimension, $\dim W + \dim W^\perp \geq \dim V$, with equality when $B$ is [[nondegenerate|01NHFZF2SK]], by the [[dimension statement|~fb9287d6]].
+In finite dimension, $\dim W + \dim W^\perp \geq \dim V$, with equality when $B$ is [[nondegenerate|01NHFZF2SK]], by the [[dimension statement|M2JH84VEY9]].
 Unlike for an inner product, $W \cap W^\perp$ can be nonzero, and a vector can be orthogonal to itself.
 
 ## Motivation
@@ -37,7 +37,7 @@ In an orthogonal basis, the [[matrix of the form|0QK6K857HS]] is diagonal, which
 
 - We write $u \perp v$ or $u \perp_B v$ for $B(u, v) = 0$.
 - For a subspace $W$, the right orthogonal is $W^\perp = \{v : B(w, v) = 0 \text{ for all } w \in W\}$, and the left orthogonal is ${}^\perp W = \{u : B(u, w) = 0 \text{ for all } w \in W\}$.
-- For a [[reflexive form|~b3103bb5]] the two are equal, and most books write only $W^\perp$.
+- For a [[reflexive form|M0G958M917]] the two are equal, and most books write only $W^\perp$.
 - $V^\perp$ is the right radical of $B$.
 - Some sources write $W^\perp$ for the left orthogonal instead. For a non-reflexive form, check which convention a source uses.
 - Some books write $W^{\perp_B}$ when several forms are in use.
@@ -47,8 +47,8 @@ In an orthogonal basis, the [[matrix of the form|0QK6K857HS]] is diagonal, which
 ### Examples
 
 - For the [[dot product|0S52TNNTH9]] on $\R^n$, these notions are the usual ones, and $W^\perp$ is the usual orthogonal complement.
-- For [[the form $x_1 y_1 - x_2 y_2$ on $\R^2$|~68ff0c35]], the line $W$ through $(1, 1)$ has $W^\perp = W$.
-- For the [[determinant form|~d5093041]] $B(x, y) = x_1 y_2 - x_2 y_1$ on $F^2$, every vector is orthogonal to itself, and $W^\perp = W$ for every line $W$.
+- For [[the form $x_1 y_1 - x_2 y_2$ on $\R^2$|X6C1Z0W252]], the line $W$ through $(1, 1)$ has $W^\perp = W$.
+- For the [[determinant form|8K74K4BF5H]] $B(x, y) = x_1 y_2 - x_2 y_1$ on $F^2$, every vector is orthogonal to itself, and $W^\perp = W$ for every line $W$.
 - For $x_1 y_1 + x_2 y_2 + x_3 y_3$ on $\mathbb{F}_2^3$, the vector $(1, 1, 0)$ is orthogonal to itself.
 - The standard basis of $F^n$ is an orthogonal family for every form with a diagonal matrix.
 

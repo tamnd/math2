@@ -29,7 +29,7 @@ The relation $A' = P^* A P$ over $\C$, with the [[conjugate transpose|0DXKE10PHF
 Example: over $\R$, let $A = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$ and $P = \begin{pmatrix} 1 & 1 \\ 1 & -1 \end{pmatrix}$.
 Then $P$ is invertible, since $\det P = -2$, and $P^{T} A P = \begin{pmatrix} 2 & 0 \\ 0 & -2 \end{pmatrix}$, so these two matrices are congruent.
 Non-example: over $\R$, $I_2$ and $-I_2$ are not congruent, because $x^{T} P^{T} I_2 P x = \norm{Px}^2 \ge 0$, while $x^{T} (-I_2) x < 0$ for $x \ne 0$.
-Congruence is an [[equivalence relation|~12295b2d]] on $n \times n$ matrices.
+Congruence is an [[equivalence relation|D3E2Y85S6H]] on $n \times n$ matrices.
 Let $A$ be the matrix of a [[bilinear form|0SQZMXB6GP]] in one basis, and let $P$ be the [[change of basis matrix|0MKRHZB3WS]] to a second basis.
 Then $P^{T} A P$ is the matrix of the same form in the second basis, by the [[change of basis rule|0SPYAGE7T0]].
 Congruence keeps symmetry and the rank, and it multiplies the determinant by the nonzero square $(\det P)^2$.

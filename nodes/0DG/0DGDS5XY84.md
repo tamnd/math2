@@ -43,26 +43,26 @@ The same forms appear in classical mechanics, where positions and momenta pair b
 
 ### Examples
 
-- The [[determinant form $x_1 y_2 - x_2 y_1$ on $F^2$|~d5093041]] is alternating, because $x_1 x_2 - x_2 x_1 = 0$.
+- The [[determinant form $x_1 y_2 - x_2 y_1$ on $F^2$|8K74K4BF5H]] is alternating, because $x_1 x_2 - x_2 x_1 = 0$.
 - On $F^4$ the form $x_1 y_3 + x_2 y_4 - x_3 y_1 - x_4 y_2$ is alternating, because $B(x, x) = x_1 x_3 + x_2 x_4 - x_3 x_1 - x_4 x_2 = 0$.
-- The [[Pfaffian example|M0JEPXXWQM]] matrix $\begin{pmatrix} 0 & 1 & 2 & 3 \\ -1 & 0 & 4 & 5 \\ -2 & -4 & 0 & 6 \\ -3 & -5 & -6 & 0 \end{pmatrix}$ defines an alternating form on $\Q^4$; a [[symplectic basis for it|~b44ceee3]] exists.
-- The [[form on $\Q^3$ with matrix $\begin{pmatrix} 0 & 1 & 0 \\ -1 & 0 & 1 \\ 0 & -1 & 0 \end{pmatrix}$|~35320308]] is alternating and degenerate.
+- The [[Pfaffian example|M0JEPXXWQM]] matrix $\begin{pmatrix} 0 & 1 & 2 & 3 \\ -1 & 0 & 4 & 5 \\ -2 & -4 & 0 & 6 \\ -3 & -5 & -6 & 0 \end{pmatrix}$ defines an alternating form on $\Q^4$; a [[symplectic basis for it|C8S4RH68S0]] exists.
+- The [[form on $\Q^3$ with matrix $\begin{pmatrix} 0 & 1 & 0 \\ -1 & 0 & 1 \\ 0 & -1 & 0 \end{pmatrix}$|J16BA48F44]] is alternating and degenerate.
 - For $a, b \in V^*$, the form $B(u, v) = a(u) b(v) - a(v) b(u)$ is alternating, because $B(u, u) = a(u)b(u) - a(u)b(u) = 0$.
 
 ### Non-examples
 
-- The [[identity form $x_1 y_1 + x_2 y_2$ over $\mathbb{F}_2$|~45504b21]] is skew-symmetric but not alternating: $B(e_1, e_1) = 1$.
+- The [[identity form $x_1 y_1 + x_2 y_2$ over $\mathbb{F}_2$|1V7NMPCSK9]] is skew-symmetric but not alternating: $B(e_1, e_1) = 1$.
 - The [[dot product|0S52TNNTH9]] on $\R^n$ is not alternating, because $e_1 \cdot e_1 = 1$.
-- The [[form with matrix $\begin{pmatrix} 1 & 2 \\ 0 & 3 \end{pmatrix}$|~08303f03]] is neither symmetric nor skew-symmetric.
+- The [[form with matrix $\begin{pmatrix} 1 & 2 \\ 0 & 3 \end{pmatrix}$|N9CJZW5596]] is neither symmetric nor skew-symmetric.
 
 ### Basic properties
 
-- [[Alternating forms are skew-symmetric, and the converse holds outside characteristic 2|~205a4a20]].
+- [[Alternating forms are skew-symmetric, and the converse holds outside characteristic 2|SX9CD5NEPD]].
 - In the same statement: $B$ is alternating exactly when its matrix $A$ satisfies $A^T = -A$ and $A_{ii} = 0$ for all $i$.
 - In characteristic $2$, skew-symmetric means symmetric, since $-1 = 1$.
-- The rank of an alternating form is even, and its matrix is [[congruent|WJWNYSQKK8]] to a sum of blocks $\begin{pmatrix} 0 & 1 \\ -1 & 0 \end{pmatrix}$ and zeros, by the [[classification of alternating forms|~a52a9f11]].
-- Orthogonality for an alternating form is symmetric, since $B(u, v) = 0$ gives $B(v, u) = 0$. So the form is [[reflexive|~b3103bb5]].
-- Every vector is orthogonal to itself, so every vector is [[isotropic|~0d389e21]] for an alternating form.
+- The rank of an alternating form is even, and its matrix is [[congruent|WJWNYSQKK8]] to a sum of blocks $\begin{pmatrix} 0 & 1 \\ -1 & 0 \end{pmatrix}$ and zeros, by the [[classification of alternating forms|V8KKHKXXB3]].
+- Orthogonality for an alternating form is symmetric, since $B(u, v) = 0$ gives $B(v, u) = 0$. So the form is [[reflexive|M0G958M917]].
+- Every vector is orthogonal to itself, so every vector is [[isotropic|MZHFGPV1YT]] for an alternating form.
 - If $\operatorname{char} F \neq 2$, a [[skew-symmetric matrix of odd size is singular|55RX9C0ZTH]]. So an alternating form on a space of odd dimension is degenerate.
 - The determinant of an alternating matrix is the square of its [[Pfaffian|NH5HWBPWS9]].
 
