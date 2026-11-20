@@ -1,0 +1,96 @@
+---
+tag: JR6XPJ7X56
+kind: concept
+name: Finitely axiomatizable theory
+aliases: [finitely-axiomatized-theory]
+msc: ["03C07", "03C52"]
+topics: [AY09KYSW81]
+audience: ug2
+uses: [92SWXST1ZM, MEC3ZMC4F1, 1HK0VYWTV7, 1NR3HAWG9D, DKFGQTRYZE]
+sources:
+  - url: https://en.wikipedia.org/wiki/Elementary_class
+    locator: A basic elementary class
+  - book: isbn:9780387987606
+    locator: Chapter 2
+---
+
+## Summary
+
+A [[theory|92SWXST1ZM]] $T$ is *finitely axiomatizable* when some finite set of [[sentences|DKFGQTRYZE]], or equivalently one sentence, has the same models as $T$.
+Its class of models is then a basic [[elementary class|MEC3ZMC4F1]].
+The theories of groups, rings, fields and dense linear orders are finitely axiomatizable, while the theories of fields of characteristic $0$, of algebraically closed fields, of infinite sets and Peano arithmetic are not.
+By the [[compactness theorem|1NR3HAWG9D]], a finitely axiomatizable theory is axiomatized by a finite part of any of its axiomatizations.
+
+## Motivation
+
+Many natural theories are written with infinitely many axioms, often as a schema: one axiom for each prime, each degree or each formula.
+It is natural to ask whether the infinite list is needed, or whether a cleverer finite list would do.
+The answer matters in logic: a finite axiomatization can be quantified over as one sentence, and a complete finitely axiomatizable theory is decidable.
+The compactness theorem turns the question into a question about models.
+
+## Notation
+
+There is no special symbol.
+Some books say that the class $\operatorname{Mod}(T)$ is "basic elementary", "finitely axiomatizable" or in $\mathrm{EC}$, as opposed to $\mathrm{EC}_\Delta$.
+Mathlib has no separate name for the notion; a finite theory is a `FirstOrder.Language.Theory` that is a finite set.
+
+## Remarks
+
+### Examples
+
+- The theory of groups, in two signatures; see [[this example|Q3G2XKD8HR]].
+- The theory of dense linear orders without endpoints, with the axioms of [[this example|41Z2M61ZNV]].
+- [[Robinson arithmetic|C0ZBS445B4]], with seven axioms.
+- The theory of a finite structure in a finite signature, by its diagram sentence.
+
+### Non-examples
+
+- The theory of fields of characteristic $0$; see [[this example|XB3DB1KW29]].
+- The theory of algebraically closed fields; see [[this non-example|2ZTTR9VZ4P]].
+- The theory of infinite sets, since each finite part has finite models.
+- [[Peano arithmetic|M5WNB181T7]].
+
+### Basic properties
+
+- $\operatorname{Mod}(T)$ is basic elementary if and only if $\operatorname{Mod}(T)$ and its complement are both elementary; see [[the criterion|9XKWFMVKJD]].
+- If $T$ is finitely axiomatizable, then some finite subset of $T$ axiomatizes it.
+- So $T$ is not finitely axiomatizable as soon as each finite subset of $T$ has a model that is not a model of $T$.
+- A complete, finitely axiomatizable theory is decidable.
+- Finite axiomatizability depends on the signature: adding a defined symbol together with its defining axiom keeps it, but passing to a reduct may lose it.
+
+### History
+
+Ryll-Nardzewski proved in 1952 that Peano arithmetic is not finitely axiomatizable.
+By contrast, [[Robinson arithmetic|C0ZBS445B4]] is a finitely axiomatized fragment of arithmetic that is still undecidable.
+
+### Common errors
+
+- To think that a theory given by a schema is not finitely axiomatizable. The theory of groups can be written with redundant schemas and still has a finite axiomatization.
+- To use the failure of one finite subset. One must show that every finite subset has a model outside the class.
+- To confuse finite axiomatizability with decidability. Robinson arithmetic is finitely axiomatizable and undecidable.
+
+## Explanations
+
+### L1 human
+
+A theory is finitely axiomatizable when a finite list of rules says everything that the theory says.
+Groups need only three rules.
+Fields of characteristic $0$ need a rule for each prime number, and no clever finite list can replace them.
+
+### L2 human
+
+We show that the theory $T_\infty$ of infinite sets is not finitely axiomatizable.
+
+1. $T_\infty = \set{\lambda_n : n \ge 2}$, where $\lambda_n$ says "there are at least $n$ elements".
+2. A finite subset of $T_\infty$ is contained in $\set{\lambda_2, \dots, \lambda_N}$ for some $N$.
+3. A set with $N$ elements satisfies these sentences, and it is not a model of $T_\infty$.
+4. By the criterion, $T_\infty$ is not finitely axiomatizable.
+
+The typical use of the criterion is to show that an infinite schema is needed.
+A trap is to forget that the finite list may use sentences that are not among the given axioms; the criterion handles this through compactness.
+
+### L3 human
+
+The criterion is the statement that the basic elementary classes are the clopen sets in the space of complete theories, while elementary classes are the closed sets.
+For arithmetic, the failure of finite axiomatizability of Peano arithmetic comes from reflection: Peano arithmetic proves the consistency of each of its finite subsets; see the sub-area on [[models of arithmetic|XFKQW3988J]].
+In algebra, varieties such as groups and rings are finitely axiomatizable, and infinite schemas appear when one adds infinitely many conditions, such as characteristic $0$ or algebraic closure; the model theory of such theories is in the sub-area on [[fields|Q3S2YF9BCR]].

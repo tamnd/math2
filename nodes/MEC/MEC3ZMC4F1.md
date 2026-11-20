@@ -5,7 +5,7 @@ name: Elementary class
 msc: ["03C52", "03C07"]
 topics: [AY09KYSW81]
 audience: ug2
-uses: [MVCH6N9SNW, 92SWXST1ZM, 983GZBQYT4, P3B1V182N4, ~305c87e7, 1NR3HAWG9D]
+uses: [MVCH6N9SNW, 92SWXST1ZM, 983GZBQYT4, P3B1V182N4, X9HV9C6X4F, 1NR3HAWG9D]
 sources:
   - url: https://en.wikipedia.org/wiki/Elementary_class
     locator: Definition; Examples
@@ -34,21 +34,21 @@ The compactness theorem, the Löwenheim-Skolem theorems and ultraproducts work f
 ## Notation
 
 Some books write $\mathrm{EC}$ for the basic elementary classes and $\mathrm{EC}_\Delta$ for the elementary classes; other books say "axiomatizable" and "finitely axiomatizable" class.
-The class of models of $T$ is $\operatorname{Mod}(T)$, and the smallest elementary class that contains a class $K$ is $\operatorname{Mod}(\operatorname{Th}(K))$, built from the [[theory of $K$|~305c87e7]].
+The class of models of $T$ is $\operatorname{Mod}(T)$, and the smallest elementary class that contains a class $K$ is $\operatorname{Mod}(\operatorname{Th}(K))$, built from the [[theory of $K$|X9HV9C6X4F]].
 Universal classes, quasivarieties and varieties are elementary classes whose axioms have special shapes.
 
 ## Remarks
 
 ### Examples
 
-- Fields of characteristic $0$ form an elementary class that is not basic; see [[this example|~c1b10a5a]].
-- Groups form a basic elementary class, in either of two signatures; see [[this example|~aab22eea]].
-- Algebraically closed fields form an elementary class that is not basic; see [[this non-example|~a0f7620d]].
+- Fields of characteristic $0$ form an elementary class that is not basic; see [[this example|XB3DB1KW29]].
+- Groups form a basic elementary class, in either of two signatures; see [[this example|Q3G2XKD8HR]].
+- Algebraically closed fields form an elementary class that is not basic; see [[this non-example|2ZTTR9VZ4P]].
 - Infinite sets, in the empty signature, form an elementary class that is not basic.
 
 ### Non-examples
 
-- Finite sets, torsion groups, well-orders, connected graphs, Archimedean ordered fields and simple groups; see [[this non-example|~941125b4]].
+- Finite sets, torsion groups, well-orders, connected graphs, Archimedean ordered fields and simple groups; see [[this non-example|T1S9T0RKHJ]].
 - [[Finite groups|3J825EJ81F]].
 - Fields of positive characteristic: an ultraproduct of the fields $\mathbb{F}_p$ over a nonprincipal ultrafilter on the primes has characteristic $0$.
 
@@ -58,7 +58,7 @@ Universal classes, quasivarieties and varieties are elementary classes whose axi
 - The intersection of elementary classes $\operatorname{Mod}(T_i)$ is $\operatorname{Mod}(\bigcup_i T_i)$, and the union of two basic elementary classes $\operatorname{Mod}(\sigma)$, $\operatorname{Mod}(\tau)$ is $\operatorname{Mod}(\sigma \lor \tau)$.
 - An elementary class is closed under [[ultraproducts|AX9Q86GB8M]], by [[Łoś's theorem|AGYBSTD7BG]].
 - A class $K$ is elementary if and only if it is closed under elementary equivalence and ultraproducts.
-- $K$ is basic elementary if and only if both $K$ and its complement are elementary; see [[the criterion|~c5dccb2a]].
+- $K$ is basic elementary if and only if both $K$ and its complement are elementary; see [[the criterion|9XKWFMVKJD]].
 - The complement of an elementary class need not be elementary: infinite sets form one, finite sets do not.
 
 ### History

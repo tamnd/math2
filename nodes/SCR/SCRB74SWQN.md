@@ -43,19 +43,19 @@ Mathlib uses bundled maps: `L.Hom M N` for homomorphisms (notation `M →[L] N`)
 ### Examples
 
 - The inclusion of any [[substructure|676H7EGTKJ]] is an embedding.
-- The inclusion $\Z \to \Q$ is an embedding of rings in the signature $\set{+, -, \cdot, 0, 1}$; see [[this example|~3ca411f0]].
-- The inclusion $(\Z, <) \to (\Q, <)$ and the map $n \mapsto 2n$ from $(\Z, <)$ to itself are embeddings of orders; see [[this example|~e614153d]].
+- The inclusion $\Z \to \Q$ is an embedding of rings in the signature $\set{+, -, \cdot, 0, 1}$; see [[this example|CEK6DKRS4E]].
+- The inclusion $(\Z, <) \to (\Q, <)$ and the map $n \mapsto 2n$ from $(\Z, <)$ to itself are embeddings of orders; see [[this example|K04ME9C0HX]].
 - Cayley's theorem gives an embedding of a group $G$ into the symmetric group on $G$, in the signature $\set{\cdot, {}^{-1}, e}$.
 
 ### Non-examples
 
-- The identity map from the graph with two vertices and no edge to the graph with one edge is an injective homomorphism but not an embedding; see [[this non-example|~3e0fe003]].
+- The identity map from the graph with two vertices and no edge to the graph with one edge is an injective homomorphism but not an embedding; see [[this non-example|TTGF1CREZN]].
 - The quotient map $\Z \to \Z/2\Z$ is a ring homomorphism but not an embedding, because it is not injective: $0$ and $2$ have the same image.
 
 ### Basic properties
 
 - A composition of embeddings is an embedding, and the identity is an embedding.
-- An embedding preserves and reflects every quantifier-free formula, preserves existential formulas and reflects universal formulas; see [[embeddings preserve quantifier-free formulas|~9a0a1ffd]].
+- An embedding preserves and reflects every quantifier-free formula, preserves existential formulas and reflects universal formulas; see [[embeddings preserve quantifier-free formulas|C9494XYEMN]].
 - So if $\mathcal{M}$ embeds into $\mathcal{N}$ and a universal sentence is true in $\mathcal{N}$, it is true in $\mathcal{M}$.
 - A surjective embedding is an isomorphism, and [[isomorphic structures satisfy the same sentences|NDTJ2E895C]].
 - In a signature without relation symbols, the embeddings are exactly the injective homomorphisms.

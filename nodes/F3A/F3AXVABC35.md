@@ -52,7 +52,7 @@ Kurt Gödel proved the completeness theorem in 1929, Anatoly Mal'cev proved the 
 In the 1950s Tarski and Abraham Robinson made model theory a branch of mathematics with applications to algebra, and Jerzy Łoś proved his theorem on ultraproducts in 1955.
 Michael Morley proved his categoricity theorem in 1965, and Saharon Shelah then built the classification theory of complete theories.
 From the 1980s, the work of Zilber, Hrushovski, Pillay, van den Dries, Wilkie and others joined model theory with algebraic geometry and number theory.
-The [[history of model theory|~f440592a]] gives a longer account.
+The [[history of model theory|JNBJW8RTJD]] gives a longer account.
 
 ### How to read the area
 

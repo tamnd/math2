@@ -47,12 +47,12 @@ A function $f \colon M^n \to M$ is *definable* when its graph is a definable sub
 - The even numbers in $(\N, +)$; see [[this example|JY67Q6H6H9]].
 - The order in the field of reals, by $\exists z \, (y = x + z \cdot z \land \neg(x = y))$; see [[this example|TCJZNK8PT2]].
 - Divisibility and the primes in $(\N, +, \cdot)$; see [[this example|BD4PEHWBRX]].
-- In $(\Z, <, 0)$ the set $\set{1}$ is $\emptyset$-definable; see [[this example|~0804090f]].
+- In $(\Z, <, 0)$ the set $\set{1}$ is $\emptyset$-definable; see [[this example|PQJHXNMFC6]].
 
 ### Non-examples
 
 - The positive integers in $(\Z, +)$; see [[this non-example|9ZGWM7XXJ5]].
-- The order in $(\Z, +)$; see [[this non-example|~8dc06e57]].
+- The order in $(\Z, +)$; see [[this non-example|E5FY1JDZFR]].
 - The set $\set{0}$ in $(\R, <)$ without parameters, since $x \mapsto x + 1$ is an automorphism that moves it.
 
 ### Basic properties

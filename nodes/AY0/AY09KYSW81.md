@@ -17,18 +17,18 @@ The pages define the basic maps between structures, the theory of a structure an
 ### Reading order
 
 1. [[Model theory|HFTBG5PMXC]]: an overview of the subject and of this area.
-1. [[History of model theory|~f440592a]]: from Löwenheim and Skolem to tame geometry.
+1. [[History of model theory|JNBJW8RTJD]]: from Löwenheim and Skolem to tame geometry.
 1. [[Substructure|676H7EGTKJ]]: subsets closed under the functions and constants.
 1. [[Embedding|SCRB74SWQN]]: homomorphisms, embeddings and isomorphisms, and what they preserve.
-1. [[Reducts and expansions|~ad0fa7f2]]: forgetting and adding symbols, and naming elements by constants.
-1. [[Theory of a structure|~305c87e7]]: the sets $\operatorname{Th}(\mathcal{M})$ and $\operatorname{Mod}(T)$ and their duality.
+1. [[Reducts and expansions|EY20BF96SJ]]: forgetting and adding symbols, and naming elements by constants.
+1. [[Theory of a structure|X9HV9C6X4F]]: the sets $\operatorname{Th}(\mathcal{M})$ and $\operatorname{Mod}(T)$ and their duality.
 1. [[Elementary equivalence|P3B1V182N4]]: structures that satisfy the same sentences.
 1. [[Complete theory|655K8Y7VS8]]: theories that decide every sentence, and how to prove completeness.
 1. [[Elementary class|MEC3ZMC4F1]]: classes of structures defined by first-order axioms.
-1. [[Finitely axiomatizable theory|~8205aea8]]: theories given by one sentence, and the compactness criterion.
+1. [[Finitely axiomatizable theory|JR6XPJ7X56]]: theories given by one sentence, and the compactness criterion.
 1. [[Definable set|CY1TXHF6KQ]]: sets cut out by formulas, and the automorphism test.
-1. [[Examples of first-order theories|~e79f6814]]: groups, rings, fields, orders, graphs, vector spaces and arithmetic.
-1. [[Properties that are not first-order|~941125b4]]: finiteness, torsion, well-ordering, connectedness and simplicity.
+1. [[Examples of first-order theories|AWASYPREVT]]: groups, rings, fields, orders, graphs, vector spaces and arithmetic.
+1. [[Properties that are not first-order|T1S9T0RKHJ]]: finiteness, torsion, well-ordering, connectedness and simplicity.
 
 ### Prerequisites
 

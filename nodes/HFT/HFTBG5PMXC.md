@@ -42,16 +42,16 @@ We write $\mathcal{M}, \mathcal{N}$ for structures and $M, N$ for their domains.
 We write $\mathcal{M} \models \sigma$ when the sentence $\sigma$ is true in $\mathcal{M}$, and $\mathcal{M} \models \varphi(\bar{a})$ when the formula $\varphi(\bar{x})$ is satisfied by the tuple $\bar{a}$.
 Some books write $\mathcal{M} \models \varphi[\bar{a}]$ instead of $\mathcal{M} \models \varphi(\bar{a})$.
 The words "structure", "model" and "algebra" are used for the same object in different books; in math2 a model is a structure together with a theory that it satisfies.
-$\operatorname{Th}(\mathcal{M})$ is the [[theory of the structure|~305c87e7]] $\mathcal{M}$, and $\operatorname{Mod}(T)$ is the class of models of $T$.
+$\operatorname{Th}(\mathcal{M})$ is the [[theory of the structure|X9HV9C6X4F]] $\mathcal{M}$, and $\operatorname{Mod}(T)$ is the class of models of $T$.
 
 ## Remarks
 
 ### Examples
 
-- The ordered sets $(\Q, <)$ and $(\R, <)$ satisfy exactly the same first-order sentences, so first-order logic cannot see the difference between countable and uncountable here; see [[this example|~aba9d1ce]].
-- The field $\C$ and the field of algebraic numbers satisfy the same sentences, because the theory of algebraically closed fields of characteristic $0$ is [[complete|655K8Y7VS8]]; see [[this example|~81e191f1]].
+- The ordered sets $(\Q, <)$ and $(\R, <)$ satisfy exactly the same first-order sentences, so first-order logic cannot see the difference between countable and uncountable here; see [[this example|TZZVG88865]].
+- The field $\C$ and the field of algebraic numbers satisfy the same sentences, because the theory of algebraically closed fields of characteristic $0$ is [[complete|655K8Y7VS8]]; see [[this example|N0VJ3FPSQ2]].
 - In the field $\R$, the formula $\exists y \, (y \cdot y = x)$ defines the set $[0, \infty)$, so the order of $\R$ is [[definable|CY1TXHF6KQ]] from the field operations.
-- The [[compactness theorem|1NR3HAWG9D]] shows that the class of torsion groups is not an [[elementary class|MEC3ZMC4F1]]; see [[properties that are not first-order|~941125b4]].
+- The [[compactness theorem|1NR3HAWG9D]] shows that the class of torsion groups is not an [[elementary class|MEC3ZMC4F1]]; see [[properties that are not first-order|T1S9T0RKHJ]].
 - [[Nonstandard analysis|WM62GKCBWN]] builds an ordered field with infinitesimals that satisfies the same first-order sentences as $\R$ in a large language.
 
 ### Non-examples
@@ -62,7 +62,7 @@ $\operatorname{Th}(\mathcal{M})$ is the [[theory of the structure|~305c87e7]] $\
 ### Basic properties
 
 - Two slogans describe the subject: "model theory = universal algebra + logic" (Chang and Keisler) and "model theory = algebraic geometry minus fields" (Hodges).
-- The first slogan stresses structures and their maps: [[substructures|676H7EGTKJ]], [[embeddings|SCRB74SWQN]] and [[reducts and expansions|~ad0fa7f2]].
+- The first slogan stresses structures and their maps: [[substructures|676H7EGTKJ]], [[embeddings|SCRB74SWQN]] and [[reducts and expansions|EY20BF96SJ]].
 - The second slogan stresses [[definable sets|CY1TXHF6KQ]], which behave like the algebraic sets of algebraic geometry in many structures.
 - [[Elementary equivalence|P3B1V182N4]] is weaker than isomorphism: by the [[Löwenheim-Skolem theorem|484M0TZ1S7]], an infinite structure in a countable signature is elementarily equivalent to structures of every infinite size.
 - Pure model theory classifies complete theories by the behavior of their models ([[stable theories|T7JW5QY6KR]], [[NIP theories|74VCDYQDGP]]); tame geometry studies structures whose definable sets are simple, such as [[o-minimal|DTWHAW1N0V]] structures.
@@ -72,7 +72,7 @@ $\operatorname{Th}(\mathcal{M})$ is the [[theory of the structure|~305c87e7]] $\
 Löwenheim (1915) and Skolem (1920) proved the first theorems about the sizes of models.
 Gödel proved the completeness theorem in 1929, and Tarski gave the definition of truth in a structure in 1933.
 Tarski and Abraham Robinson made model theory a separate branch of logic in the 1950s.
-The [[history of model theory|~f440592a]] gives a longer account.
+The [[history of model theory|JNBJW8RTJD]] gives a longer account.
 
 ### Common errors
 
