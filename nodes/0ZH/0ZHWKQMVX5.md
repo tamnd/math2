@@ -19,7 +19,7 @@ sources:
 ## Summary
 
 A vector space $V$ over $F$ is finite-dimensional when it has a finite [[spanning set|088RYKAWK9]]; see the [[definition|018W3V3TCT]].
-This holds exactly when $V$ has a finite basis, and exactly when $V \cong F^n$ for some $n$; see [[equivalent conditions|~8f24018a]].
+This holds exactly when $V$ has a finite basis, and exactly when $V \cong F^n$ for some $n$; see [[equivalent conditions|HW9HN5A5HJ]].
 Most of undergraduate linear algebra, such as matrices of linear maps, determinants and eigenvalues, works in finite-dimensional spaces.
 
 ## Motivation

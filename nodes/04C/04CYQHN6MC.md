@@ -40,7 +40,7 @@ In Mathlib, `b.repr v` is the coordinate function of `v` in the basis `b`.
 
 ### Examples
 
-1. In $F^n$ with the [[standard basis|~91c029b0]] $E$, we have $[x]_E = x$.
+1. In $F^n$ with the [[standard basis|C5QA672NPH]] $E$, we have $[x]_E = x$.
 2. In $\R^2$ with $B = ((1, 1), (1, -1))$: $[(3, 1)]_B = (2, 1)^T$, because $2(1, 1) + 1(1, -1) = (3, 1)$.
 3. In $P_2(\R)$ with $B = (1, x - 1, (x - 1)^2)$: $[x^2]_B = (1, 2, 1)^T$, because $x^2 = 1 + 2(x - 1) + (x - 1)^2$.
 4. In $M_2(F)$ with the matrix units $(E_{11}, E_{12}, E_{21}, E_{22})$: the coordinates of $\begin{pmatrix} a & b \\ c & d \end{pmatrix}$ are $(a, b, c, d)^T$.

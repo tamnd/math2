@@ -7,7 +7,7 @@ topics: [MVH97H8B2J]
 audience: ug1
 proves: 059THXBRBB
 methods: [0NTF6DMVAP, 01XM7JEKHY]
-uses: [~89452b4d, 0KCQ9Y3QKA, 04CYQHN6MC, 0XM8BZD76G, 0NRYHJPQG2, 0B8T10CE7N, 01VG2A0BHW]
+uses: [E2ZRZGXSNX, 0KCQ9Y3QKA, 04CYQHN6MC, 0XM8BZD76G, 0NRYHJPQG2, 0B8T10CE7N, 01VG2A0BHW]
 sources:
   - url: https://dec41.user.srcf.net/notes/IB_M/linear_algebra_thm_proof.pdf
     locator: Section 2.1
@@ -31,6 +31,6 @@ We check linearity from the uniqueness of coordinates, and then exhibit a two-si
 
 ## Idea
 
-Coordinates exist because a basis spans, and they are unique because a basis is independent; see [[unique coordinates|~89452b4d]].
+Coordinates exist because a basis spans, and they are unique because a basis is independent; see [[unique coordinates|E2ZRZGXSNX]].
 Uniqueness makes the coordinate map linear.
 Rebuilding a vector from its coordinates is the inverse map.

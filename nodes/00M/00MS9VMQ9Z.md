@@ -42,7 +42,7 @@ The zero space is no exception: its basis is the empty set.
 
 1. Each vector space over $F$ is isomorphic to $F^{(B)}$, the space of finitely supported functions on a basis $B$.
 2. Each vector space has a [[dimension|03GSZ8RTZJ]], and each subspace has a complement.
-3. $\R$ has a basis over $\Q$, a Hamel basis; see the [[Hamel basis example|~2a984d12]].
+3. $\R$ has a basis over $\Q$, a Hamel basis; see the [[Hamel basis example|ZCBD0GRGVA]].
 4. There are additive maps $f \colon \R \to \R$ that are not of the form $f(x) = cx$: choose a Hamel basis $B$ and let $f$ act on the coordinates.
 
 ### Converse

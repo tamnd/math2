@@ -24,7 +24,7 @@ same_as:
 
 A family of vectors $(v_i)_{i \in I}$ in a vector space over $F$ is linearly independent when only the trivial [[linear combination|0V8F3E48E6]] of them equals $0$.
 See the [[definition|0EVHJFTG9Z]].
-Equivalently, no vector of the family is a combination of the others; this is the [[dependence lemma|~ddec9473]].
+Equivalently, no vector of the family is a combination of the others; this is the [[dependence lemma|H75GS7QVPB]].
 Independence is the second half of the notion of a [[basis|0KCQ9Y3QKA]], and it makes coordinates unique.
 
 ## Motivation
@@ -46,7 +46,7 @@ In Mathlib, `LinearIndependent F v` is stated for a family `v : ι → V`, not f
 1. $(1, 0), (1, 1)$ in $\R^2$: if $a(1, 0) + b(1, 1) = (a + b, b) = (0, 0)$, then $b = 0$ and then $a = 0$.
 2. $1, x, x^2$ in $P_2(\R)$: if $a + bx + cx^2$ is the zero polynomial, then $a = b = c = 0$ by the definition of equality of polynomials.
 3. The functions $\sin$ and $\cos$ on $\R$: if $a \sin t + b \cos t = 0$ for all $t$, then $t = 0$ gives $b = 0$, and $t = \pi/2$ gives $a = 0$.
-4. The vectors $(1, 0, 1), (0, 1, 1), (1, 1, 0)$ are independent over $\R$ but dependent over $\mathbb{F}_2$; see [[this example|~949067e6]].
+4. The vectors $(1, 0, 1), (0, 1, 1), (1, 1, 0)$ are independent over $\R$ but dependent over $\mathbb{F}_2$; see [[this example|KFJ7M9FRXV]].
 5. The empty family is independent, because it has no nontrivial combination.
 
 ### Non-examples
@@ -59,7 +59,7 @@ In Mathlib, `LinearIndependent F v` is stated for a family `v : ι → V`, not f
 ### Basic properties
 
 1. A family of at least one vector is dependent if and only if one of its vectors is a combination of the others.
-   See the [[dependence lemma|~ddec9473]].
+   See the [[dependence lemma|H75GS7QVPB]].
 2. If $(v_1, \dots, v_k)$ is independent and $v \notin \operatorname{span}(v_1, \dots, v_k)$, then $(v_1, \dots, v_k, v)$ is independent.
 3. A subfamily of an independent family is independent, and a superfamily of a dependent family is dependent.
 4. In $F^m$, the columns of a matrix $A$ are independent exactly when every column of $A$ has a pivot.
@@ -76,7 +76,7 @@ The modern definition by the trivial relation appears in Peano's axiomatic work 
 
 1. Families versus sets: the family $(v, v)$ is dependent, but the set $\set{v}$ is independent for $v \ne 0$. Mathlib works with families, so repeated vectors matter there.
 2. Pairwise independence is not independence: $(1, 0), (0, 1), (1, 1)$ are pairwise independent in $\R^2$ but dependent as a family.
-3. Independence depends on the field: see [[the example over $\mathbb{F}_2$|~949067e6]].
+3. Independence depends on the field: see [[the example over $\mathbb{F}_2$|KFJ7M9FRXV]].
 4. To show independence, start from $\sum a_i v_i = 0$ and prove all $a_i = 0$; finding one zero combination with zero coefficients proves nothing.
 
 ## Explanations

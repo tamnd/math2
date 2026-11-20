@@ -42,12 +42,12 @@ The natural number `Module.finrank F V` is the dimension, with the value $0$ for
 
 ### Examples
 
-1. $\dim F^n = n$: the [[standard basis|~91c029b0]] has $n$ vectors.
+1. $\dim F^n = n$: the [[standard basis|C5QA672NPH]] has $n$ vectors.
 2. $\dim M_{m \times n}(F) = mn$ and $\dim P_n(F) = n + 1$; see the [[space of matrices|0RE6X3BGPN]] and the [[space of polynomials|0JGZCDT5DN]].
 3. $\dim_\R \C = 2$, with basis $1, i$; and $\dim_\C \C = 1$, with basis $1$.
 4. $\dim \set{0} = 0$, because the empty family is a basis of the zero space.
 5. The plane $W = \set{(x, y, z) \in \R^3 : x + y + z = 0}$ has dimension $2$: the vectors $(1, -1, 0)$ and $(0, 1, -1)$ lie in $W$, are independent, and $(x, y, z) = x(1, -1, 0) + (x + y)(0, 1, -1)$ for $z = -x - y$.
-6. $\dim F[x] = \aleph_0$, and $\dim_\Q \R = 2^{\aleph_0}$; see the [[Hamel basis example|~2a984d12]].
+6. $\dim F[x] = \aleph_0$, and $\dim_\Q \R = 2^{\aleph_0}$; see the [[Hamel basis example|ZCBD0GRGVA]].
 
 ### Non-examples
 
@@ -63,7 +63,7 @@ The natural number `Module.finrank F V` is the dimension, with the value $0$ for
    A list of exactly $n$ vectors is a basis if it is independent or spanning; see [[the right-size criterion|096V7H13H9]].
 4. $\dim(U + W) + \dim(U \cap W) = \dim U + \dim W$ for finite-dimensional subspaces; see [[Grassmann's formula|06HTJNCMPA]].
 5. For a [[linear map|0NRYHJPQG2]] $T$ on a finite-dimensional space, $\dim V = \dim \ker T + \dim \operatorname{im} T$, by [[rank-nullity|0W4FSW1TVB]].
-6. If $V$ is a complex space, then $\dim_\R V = 2 \dim_\C V$; see [[complexification and realification|~bd0d4b76]].
+6. If $V$ is a complex space, then $\dim_\R V = 2 \dim_\C V$; see [[complexification and realification|CT2F31EDH8]].
 
 ### History
 

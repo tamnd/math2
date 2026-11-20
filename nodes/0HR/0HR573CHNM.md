@@ -28,7 +28,7 @@ $$\operatorname{span}(S) = \{a_1 v_1 + \cdots + a_k v_k : k \ge 0, \ a_i \in F, 
 
 ## Remarks
 
-The span is a [[linear subspace|00YC1D652K]] of $V$, and it is the intersection of all subspaces of $V$ that contain $S$; see [[this statement|~13840ba2]].
+The span is a [[linear subspace|00YC1D652K]] of $V$, and it is the intersection of all subspaces of $V$ that contain $S$; see [[this statement|2BX666XF68]].
 The span of the empty set is $\{0\}$, because $k = 0$ is allowed.
 In $\R^3$, the span of one nonzero vector is a line through the origin.
 The span of two non-parallel vectors is a plane through the origin.

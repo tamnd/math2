@@ -26,7 +26,7 @@ Addition and scalar multiplication act on coefficients: the coefficient of $x^k$
 
 1. Closure in $F[x]$: a sum and a scalar multiple of polynomials are polynomials.
 2. Closure in $P_n(F)$: if $p$ and $q$ have no terms above $x^n$, then neither have $p + q$ and $cp$.
-3. The axioms: a polynomial is determined by its sequence of coefficients $(a_0, a_1, \dots)$, which has only finitely many nonzero terms. The operations act entry by entry on these sequences, so each axiom reduces to a rule of $F$, as in the [[coordinate space|~9949dfd5]].
+3. The axioms: a polynomial is determined by its sequence of coefficients $(a_0, a_1, \dots)$, which has only finitely many nonzero terms. The operations act entry by entry on these sequences, so each axiom reduces to a rule of $F$, as in the [[coordinate space|713F6AM1X1]].
 4. The zero vector is the zero polynomial, and $-p$ has coefficients $-a_k$.
 
 So $F[x]$ and $P_n(F)$ are [[vector spaces|000AYPA9AJ]] over $F$, and $P_n(F)$ is a [[subspace|00YC1D652K]] of $F[x]$.

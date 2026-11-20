@@ -31,7 +31,7 @@ A *linear subspace* of $V$ is a subset $W \subseteq V$ with these three properti
 
 ## Remarks
 
-With the operations of $V$, a subspace $W$ is itself a vector space over $F$; see the [[subspace test|~3900ae4c]].
+With the operations of $V$, a subspace $W$ is itself a vector space over $F$; see the [[subspace test|Z5XKYXTC0K]].
 Condition 1 can be replaced by "$W$ is nonempty", because $0v = 0$ then gives $0 \in W$ by condition 3.
 The sets $\set{0}$ and $V$ are subspaces of $V$.
 The lines through the origin are the one-dimensional subspaces of $\R^2$; a line that misses the origin is not a subspace.

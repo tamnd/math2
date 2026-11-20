@@ -8,7 +8,7 @@ topics: [MVH97H8B2J]
 audience: ug1
 about: [0KCQ9Y3QKA]
 uses: [0VTQTPQGAV, 0BJKVF90Z6]
-proofs: [~ab455f63, KS6PP0BVSD]
+proofs: [GJKC4QQWAW, KS6PP0BVSD]
 formal:
   - system: lean4
     library: mathlib

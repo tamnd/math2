@@ -21,7 +21,7 @@ inventory: [JN56MBD6F4]
 
 Let $U$ and $W$ be [[subspaces|00YC1D652K]] of a vector space $V$.
 Their sum is $U + W = \set{u + w : u \in U, \ w \in W}$; the precise statement is in the [[definition|0RMKABS2S5]].
-It is the [[smallest subspace that contains $U \cup W$|~a8f7cf5b]], so it plays the role of a join, while $U \cap W$ plays the role of a meet.
+It is the [[smallest subspace that contains $U \cup W$|EDF9C7G048]], so it plays the role of a join, while $U \cap W$ plays the role of a meet.
 
 ## Motivation
 
@@ -51,11 +51,11 @@ When each vector of the sum has only one decomposition, we write $U \oplus W$; s
 
 ### Basic properties
 
-1. $U + W$ is a subspace, and it is the smallest subspace that contains $U \cup W$; see [[this statement|~a8f7cf5b]].
+1. $U + W$ is a subspace, and it is the smallest subspace that contains $U \cup W$; see [[this statement|EDF9C7G048]].
 2. $U + W = \operatorname{span}(U \cup W)$, the [[span|0DTY8B9HMS]] of the union.
 3. The sum is commutative and associative, and $U \subseteq U + W$.
 4. For finite-dimensional subspaces, [[Grassmann's formula|06HTJNCMPA]] gives $\dim(U + W) = \dim U + \dim W - \dim(U \cap W)$.
-5. The lattice of subspaces with $+$ and $\cap$ is modular: if $U \subseteq X$, then $X \cap (U + W) = U + (X \cap W)$. It is not distributive; see [[three lines in the plane|~d4abcdaa]].
+5. The lattice of subspaces with $+$ and $\cap$ is modular: if $U \subseteq X$, then $X \cap (U + W) = U + (X \cap W)$. It is not distributive; see [[three lines in the plane|38AKN9MG6J]].
 
 ### History
 
@@ -67,7 +67,7 @@ Peano gave the axiomatic definition of a vector space in 1888.
 
 1. $U + W$ is not $U \cup W$, and it is usually much larger.
 2. A decomposition $v = u + w$ need not be unique; it is unique for all $v$ exactly when $U \cap W = \set{0}$.
-3. The sum of three subspaces does not obey the inclusion-exclusion formula for dimension; see [[three lines in the plane|~d4abcdaa]].
+3. The sum of three subspaces does not obey the inclusion-exclusion formula for dimension; see [[three lines in the plane|38AKN9MG6J]].
 
 ## Explanations
 

@@ -8,7 +8,7 @@ topics: [MVH97H8B2J]
 audience: ug1
 uses: [0DTY8B9HMS, 0BCMGDHZGR, 0XM8BZD76G, 0BJKVF90Z6]
 about: [088RYKAWK9]
-proofs: [~7399a93b]
+proofs: [AVT1JV7PDX]
 sources:
   - url: https://github.com/davidaustinm/ula/blob/b6ea263ef23703072b7007485bb7a2d89c5f399b/src/section2-3.xml#L1347
     locator: src/section2-3.xml:1347
@@ -18,7 +18,7 @@ sources:
 
 ## Statement
 
-Let $F$ be a field, and let $v_1, \dots, v_n$ be vectors in the [[coordinate space|~9949dfd5]] $F^m$.
+Let $F$ be a field, and let $v_1, \dots, v_n$ be vectors in the [[coordinate space|713F6AM1X1]] $F^m$.
 Let $A$ be the $m \times n$ matrix whose columns are $v_1, \dots, v_n$.
 
 1. The vectors $v_1, \dots, v_n$ [[span|0BJKVF90Z6]] $F^m$ if and only if every row of $A$ contains a [[pivot|0BCMGDHZGR]] position.

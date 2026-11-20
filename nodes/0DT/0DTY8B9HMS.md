@@ -26,7 +26,7 @@ inventory: [TJ0X2DJ1E9]
 
 The linear span of a subset $S$ of a vector space $V$ is the set of all [[linear combinations|0V8F3E48E6]] of finitely many vectors of $S$.
 See the [[definition|0HR573CHNM]].
-It is the [[smallest subspace that contains $S$|~13840ba2]].
+It is the [[smallest subspace that contains $S$|2BX666XF68]].
 So the span describes a subspace from inside, by combinations, while the intersection of all subspaces that contain $S$ describes it from outside.
 
 ## Motivation
@@ -58,11 +58,11 @@ In Mathlib, the span is `Submodule.span F S`.
 
 ### Basic properties
 
-1. $\operatorname{span}(S)$ is a subspace that contains $S$, and it lies in each subspace that contains $S$; see [[this statement|~13840ba2]].
+1. $\operatorname{span}(S)$ is a subspace that contains $S$, and it lies in each subspace that contains $S$; see [[this statement|2BX666XF68]].
 2. If $S \subseteq T$, then $\operatorname{span}(S) \subseteq \operatorname{span}(T)$.
 3. $\operatorname{span}(\operatorname{span}(S)) = \operatorname{span}(S)$, and $S$ is a subspace if and only if $\operatorname{span}(S) = S$.
 4. $\operatorname{span}(S \cup T) = \operatorname{span}(S) + \operatorname{span}(T)$, the [[sum|0JMTY8MF54]] of the spans.
-5. If $v \in \operatorname{span}(S)$, then $\operatorname{span}(S \cup \set{v}) = \operatorname{span}(S)$; this is the key step of the [[dependence lemma|~ddec9473]].
+5. If $v \in \operatorname{span}(S)$, then $\operatorname{span}(S \cup \set{v}) = \operatorname{span}(S)$; this is the key step of the [[dependence lemma|H75GS7QVPB]].
 
 ### History
 

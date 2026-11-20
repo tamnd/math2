@@ -15,7 +15,7 @@ sources:
 
 View $\R$ as a vector space over the field $\Q$ of rational numbers.
 The numbers $1$ and $\sqrt{2}$ are linearly independent over $\Q$, because $\sqrt{2}$ is irrational.
-By the [[axiom of choice|0HTGB13FE2]], this independent set extends to a [[basis|0KCQ9Y3QKA]] $B$ of $\R$ over $\Q$, called a [[Hamel basis|~2a984d12]].
+By the [[axiom of choice|0HTGB13FE2]], this independent set extends to a [[basis|0KCQ9Y3QKA]] $B$ of $\R$ over $\Q$, called a [[Hamel basis|ZCBD0GRGVA]].
 Every real $x$ is then a unique finite sum $x = \sum_{b \in B} q_b(x)\, b$ with rational coefficients $q_b(x)$, almost all zero.
 Define $f \colon \R \to \R$ by $f(x) = q_1(x)$, the coefficient of the basis vector $1$.
 

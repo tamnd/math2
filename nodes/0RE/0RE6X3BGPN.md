@@ -25,7 +25,7 @@ The operations are [[matrix addition|0Y7H3SAVA1]] and [[scalar multiplication|09
 1. Closure: the sum and the scalar multiple are again $m \times n$ matrices over $F$.
 2. Axioms 1 to 8 of the [[definition|05EGHEQZAW]] hold, because each one is an identity in each entry $(i, j)$.
    In each entry, it is a rule of the field $F$.
-   This is the same check as for the [[coordinate space|~9949dfd5]] $F^{mn}$.
+   This is the same check as for the [[coordinate space|713F6AM1X1]] $F^{mn}$.
 3. The zero vector is the [[zero matrix|0ZTKJJDGR7]], and the negative of $A$ is $-A$, with entries $-A_{ij}$.
 
 So $M_{m \times n}(F)$ is a [[vector space|000AYPA9AJ]] over $F$.

@@ -9,7 +9,7 @@ topics: [MVH97H8B2J]
 audience: ug1
 about: [0KCQ9Y3QKA]
 uses: [0VTQTPQGAV]
-proofs: [~40706ffc, ~cfd666bd, ~a2826c82]
+proofs: [WXB40PTZNV, 2BVBSVQYMB, C6V1B2MC0X]
 sources:
   - url: https://en.wikipedia.org/wiki/Dimension_theorem_for_vector_spaces
     locator: lead section
@@ -74,7 +74,7 @@ We call this number the dimension.
 ### L2 human
 
 There are three proofs here.
-The [[proof by Steinitz|~40706ffc]] uses the exchange lemma in both directions.
-The [[proof by row reduction|~cfd666bd]] turns too many vectors into a homogeneous system with more unknowns than equations.
-The [[proof for infinite bases|~a2826c82]] counts finite supports with cardinal arithmetic.
+The [[proof by Steinitz|WXB40PTZNV]] uses the exchange lemma in both directions.
+The [[proof by row reduction|2BVBSVQYMB]] turns too many vectors into a homogeneous system with more unknowns than equations.
+The [[proof for infinite bases|C6V1B2MC0X]] counts finite supports with cardinal arithmetic.
 A trap: the zero space has the empty basis, so its dimension is $0$, not $1$.

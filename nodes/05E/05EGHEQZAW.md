@@ -45,11 +45,11 @@ Some books list closure ("$u + v \in V$ and $av \in V$") as two more axioms; her
 ## Remarks
 
 Axioms 1 to 4 say that $(V, +)$ is an [[abelian group|082GHNPJ53]].
-The axioms give $0v = 0$ and $(-1)v = -v$ for all $v \in V$, see [[first consequences of the axioms|~2d07617c]].
+The axioms give $0v = 0$ and $(-1)v = -v$ for all $v \in V$, see [[first consequences of the axioms|5E4VBC0A4H]].
 A vector space is a [[module|0NZ8JA25WK]] over a field; Mathlib uses `Module F V` for both, with `[Field F]` for the vector space case.
-Examples are the [[coordinate space|~9949dfd5]] $F^n$, [[spaces of matrices|0RE6X3BGPN]] and [[function spaces|0GZB2SN0PH]].
+Examples are the [[coordinate space|713F6AM1X1]] $F^n$, [[spaces of matrices|0RE6X3BGPN]] and [[function spaces|0GZB2SN0PH]].
 The axioms are not independent: commutativity of addition follows from the others, by expanding $(1 + 1)(u + v)$ in two ways with axioms 7 and 8.
-Axiom 6 does not follow from the others, as [[this non-example|~f227008c]] shows.
+Axiom 6 does not follow from the others, as [[this non-example|C4AGZJBAM6]] shows.
 
 ## Explanations
 

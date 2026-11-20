@@ -24,8 +24,8 @@ same_as:
 ## Summary
 
 A basis of a vector space $V$ over $F$ is a family $(b_i)_{i \in I}$ that is [[linearly independent|0CRMGPAH83]] and [[spans|088RYKAWK9]] $V$; see the [[definition|0VTQTPQGAV]].
-Each vector of $V$ is then a combination of the basis vectors in [[exactly one way|~89452b4d]], and the coefficients are its [[coordinates|04CYQHN6MC]].
-Equivalently, a basis is a [[maximal independent family or a minimal spanning family|~5426450b]].
+Each vector of $V$ is then a combination of the basis vectors in [[exactly one way|E2ZRZGXSNX]], and the coefficients are its [[coordinates|04CYQHN6MC]].
+Equivalently, a basis is a [[maximal independent family or a minimal spanning family|AP9TD7QF51]].
 
 ## Motivation
 
@@ -43,7 +43,7 @@ In Mathlib, `Module.Basis ι F V` is a basis indexed by the type `ι`, stored as
 
 ### Examples
 
-1. The [[standard basis|~91c029b0]] $e_1, \dots, e_n$ of $F^n$.
+1. The [[standard basis|C5QA672NPH]] $e_1, \dots, e_n$ of $F^n$.
 2. $(1, 1), (1, -1)$ in $\R^2$. Spanning: $(a, b) = \tfrac{a + b}{2}(1, 1) + \tfrac{a - b}{2}(1, -1)$. Independence: $c(1, 1) + d(1, -1) = (c + d, c - d) = 0$ gives $c = d = 0$.
 3. $1, x - 1, (x - 1)^2$ in $P_2(\R)$: $a + b(x - 1) + c(x - 1)^2 = 0$ forces $c = 0$ from the $x^2$ term, then $b = 0$, then $a = 0$; spanning holds since $x^2 = 1 + 2(x - 1) + (x - 1)^2$ and $x = 1 + (x - 1)$.
 4. The matrix units $E_{ij}$ form a basis of the [[space of matrices|0RE6X3BGPN]].
@@ -57,11 +57,11 @@ In Mathlib, `Module.Basis ι F V` is a basis indexed by the type `ι`, stored as
 
 ### Basic properties
 
-1. A family is a basis if and only if each vector is a combination of it in exactly one way; see [[unique coordinates|~89452b4d]].
-2. A basis is a maximal independent family and a minimal spanning family; see [[this statement|~5426450b]].
+1. A family is a basis if and only if each vector is a combination of it in exactly one way; see [[unique coordinates|E2ZRZGXSNX]].
+2. A basis is a maximal independent family and a minimal spanning family; see [[this statement|AP9TD7QF51]].
 3. [[Every spanning set contains a basis|06MRNP4BNT]], and [[every independent set extends to a basis|0M4SXE5WW3]].
 4. [[Every vector space has a basis|00MS9VMQ9Z]], and [[all bases of a space have the same cardinality|0WK0Y8RH1M]], which is its [[dimension|03GSZ8RTZJ]].
-5. The columns of an $n \times n$ matrix form a basis of $F^n$ exactly when the matrix is invertible; see [[this statement|~fab8b33f]].
+5. The columns of an $n \times n$ matrix form a basis of $F^n$ exactly when the matrix is invertible; see [[this statement|WFM1CX5PZT]].
 
 ### History
 

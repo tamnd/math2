@@ -1,0 +1,37 @@
+---
+tag: KGFAG81ZNC
+kind: proof
+name: Proof of the linear dependence lemma
+msc: ["15A03"]
+topics: [MVH97H8B2J]
+audience: ug1
+proves: H75GS7QVPB
+methods: [0NTF6DMVAP, 0J0XBKG64S, MKHVRNW68H]
+uses: [0EVHJFTG9Z, 0HR573CHNM, 05EGHEQZAW]
+sources:
+  - url: https://en.wikipedia.org/wiki/Linear_independence
+    locator: Definition
+  - book: isbn:9783031410253
+    locator: Section 2A
+---
+
+## Proof
+
+1. (Part 1) The family is dependent, so there are $a_1, \dots, a_m \in F$, not all $0$, with $a_1 v_1 + \cdots + a_m v_m = 0$.
+2. Let $k$ be the largest index with $a_k \ne 0$. Then $a_1 v_1 + \cdots + a_k v_k = 0$, because the later coefficients are $0$.
+3. Subtract $a_k v_k$ and multiply by $a_k^{-1}$, which exists in the field $F$: $v_k = \sum_{i < k} (-a_k^{-1} a_i) v_i$.
+4. So $v_k \in \operatorname{span}(v_1, \dots, v_{k-1})$. For $k = 1$, the sum is empty, so $v_1 = 0$.
+5. (Part 2) Write $v_k = \sum_{i < k} b_i v_i$. The span without $v_k$ is contained in the span of all $v_i$, because it uses fewer vectors.
+6. For the other inclusion, let $w = \sum_{i=1}^m c_i v_i$. Replace $v_k$ by $\sum_{i < k} b_i v_i$. Then $w = \sum_{i < k} (c_i + c_k b_i) v_i + \sum_{i > k} c_i v_i$, a combination without $v_k$.
+7. So the two spans are equal.
+8. (Part 3, "only if") If the family is dependent, part 1 gives $v_k \in \operatorname{span}(v_1, \dots, v_{k-1})$, which lies in the span of the $v_i$ with $i \ne k$.
+9. (Part 3, "if") Assume $v_j = \sum_{i \ne j} b_i v_i$. Then $\sum_{i \ne j} b_i v_i + (-1) v_j = 0$. The coefficient of $v_j$ is $-1 \ne 0$, so this relation is nontrivial, and the family is dependent.
+10. (Part 4) Assume $c_1 v_1 + \cdots + c_m v_m + c v = 0$. Suppose, for a contradiction, that $c \ne 0$.
+11. Then $v = \sum_i (-c^{-1} c_i) v_i \in \operatorname{span}(v_1, \dots, v_m)$, which contradicts the hypothesis. So $c = 0$.
+12. Then $c_1 v_1 + \cdots + c_m v_m = 0$, and independence of $(v_1, \dots, v_m)$ gives $c_1 = \cdots = c_m = 0$.
+13. So all coefficients are $0$, and $(v_1, \dots, v_m, v)$ is independent.
+
+## Idea
+
+A nontrivial relation can be solved for its last vector with a nonzero coefficient, because we can divide in a field.
+Substituting this expression removes the vector from any combination, so the span does not change.

@@ -24,7 +24,7 @@ For subspaces $U_1, \dots, U_k$, the sum is $U_1 + \cdots + U_k = \{u_1 + \cdots
 
 ## Remarks
 
-The sum $U + W$ is a subspace, and it is the [[smallest subspace of $V$ that contains $U \cup W$|~a8f7cf5b]].
+The sum $U + W$ is a subspace, and it is the [[smallest subspace of $V$ that contains $U \cup W$|EDF9C7G048]].
 The sum is the [[span|0DTY8B9HMS]] of $U \cup W$.
 When $U \cap W = \{0\}$, the sum is a [[direct sum|0XYYT5KNTX]].
 For finite-dimensional subspaces, [[Grassmann's formula|06HTJNCMPA]] gives $\dim(U + W) = \dim U + \dim W - \dim(U \cap W)$.

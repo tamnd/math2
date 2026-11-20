@@ -31,9 +31,9 @@ A *basis* of $V$ is a family $(b_i)_{i \in I}$ of vectors of $V$ that is [[linea
 ## Remarks
 
 A family $(b_i)_{i \in I}$ is a basis if and only if each $v \in V$ has exactly one expression $v = \sum_{i \in I} a_i b_i$.
-Here $(a_i)_{i \in I}$ is a finitely supported family of scalars; see [[unique coordinates|~89452b4d]].
+Here $(a_i)_{i \in I}$ is a finitely supported family of scalars; see [[unique coordinates|E2ZRZGXSNX]].
 The scalars $a_i$ are the [[coordinates|04CYQHN6MC]] of $v$ in the basis.
-The [[standard basis|~91c029b0]] $e_1, \dots, e_n$ is a basis of $F^n$; the vectors $(1, 1)$ and $(1, -1)$ form another basis of $\R^2$.
+The [[standard basis|C5QA672NPH]] $e_1, \dots, e_n$ is a basis of $F^n$; the vectors $(1, 1)$ and $(1, -1)$ form another basis of $\R^2$.
 The empty family is a basis of the zero space.
 [[Every vector space has a basis|00MS9VMQ9Z]], and all bases of a space have the same cardinality.
 Mathlib's `Module.Basis ι R M` stores a basis as a linear isomorphism `M ≃ₗ[R] (ι →₀ R)`, which is the unique-coordinates form of the definition.

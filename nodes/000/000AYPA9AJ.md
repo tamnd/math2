@@ -54,17 +54,17 @@ In Mathlib, a vector space over a field $F$ is a module: `[Field F] [AddCommGrou
 
 ### Examples
 
-1. The [[coordinate space|~9949dfd5]] $F^n$ of $n$-tuples, with entrywise operations, is the prototype of a finite-dimensional space.
+1. The [[coordinate space|713F6AM1X1]] $F^n$ of $n$-tuples, with entrywise operations, is the prototype of a finite-dimensional space.
 2. The [[space of matrices|0RE6X3BGPN]] $M_{m \times n}(F)$, with entrywise addition and scaling, is a vector space of dimension $mn$.
 3. The [[space of polynomials|0JGZCDT5DN]] $F[x]$, and its part of degree at most $n$, are vector spaces under the usual sum and scaling.
 4. The [[spaces of functions and sequences|0GZB2SN0PH]] $F^S$, with pointwise operations, include $\R^\N$ and the continuous functions on $[0, 1]$.
-5. The [[positive real numbers with product as addition|~fb18a251]] form a real vector space, with $0$ played by the number $1$.
+5. The [[positive real numbers with product as addition|DQQ6NXK1SQ]] form a real vector space, with $0$ played by the number $1$.
 6. The field $\C$ is a vector space over $\R$, and $\R$ is a vector space over $\Q$; the scalars come from a subfield.
 
 ### Non-examples
 
-1. On $\R^2$, the rule $a(x, y) = (ax, 0)$ breaks only the axiom $1v = v$; see [[this non-example|~f227008c]].
-2. On $\R^2$, the rule $a(x, y) = (a^2 x, a^2 y)$ breaks only the axiom $(a + b)v = av + bv$; see [[this non-example|~607e7b30]].
+1. On $\R^2$, the rule $a(x, y) = (ax, 0)$ breaks only the axiom $1v = v$; see [[this non-example|C4AGZJBAM6]].
+2. On $\R^2$, the rule $a(x, y) = (a^2 x, a^2 y)$ breaks only the axiom $(a + b)v = av + bv$; see [[this non-example|A815XEJAF7]].
 3. The set $\Z^2$ with real scalars is not a vector space: $\tfrac12 (1, 0) = (\tfrac12, 0)$ is not in $\Z^2$, so scalar multiplication does not map into the set.
 4. The polynomials of degree exactly $2$ do not form a vector space: $(x^2 + x) + (-x^2) = x$ has degree $1$, so the sum leaves the set.
 
@@ -74,7 +74,7 @@ In Mathlib, a vector space over a field $F$ is a module: `[Field F] [AddCommGrou
 2. For all $v \in V$ and $a \in F$: $0v = 0$, $a0 = 0$ and $(-1)v = -v$.
 3. If $av = 0$, then $a = 0$ or $v = 0$.
 
-The proofs from the axioms are in [[first consequences of the axioms|~2d07617c]].
+The proofs from the axioms are in [[first consequences of the axioms|5E4VBC0A4H]].
 Each [[subspace|00YC1D652K]] of a vector space is again a vector space, with the same operations.
 Each vector space has a [[basis|0KCQ9Y3QKA]], and its [[dimension|03GSZ8RTZJ]] classifies it up to isomorphism.
 

@@ -6,7 +6,7 @@ msc: ["15A03"]
 topics: [MVH97H8B2J]
 audience: ug1
 defines: 04CYQHN6MC
-uses: [0VTQTPQGAV, ~89452b4d]
+uses: [0VTQTPQGAV, E2ZRZGXSNX]
 sources:
   - url: https://en.wikipedia.org/wiki/Coordinate_vector
     locator: Definition
@@ -17,7 +17,7 @@ sources:
 ## Definition
 
 Let $F$ be a field, let $V$ be a vector space over $F$, and let $B = (b_1, \dots, b_n)$ be an ordered [[basis|0VTQTPQGAV]] of $V$.
-Each $v \in V$ is equal to $a_1 b_1 + \cdots + a_n b_n$ for exactly one $(a_1, \dots, a_n) \in F^n$, by [[unique coordinates|~89452b4d]].
+Each $v \in V$ is equal to $a_1 b_1 + \cdots + a_n b_n$ for exactly one $(a_1, \dots, a_n) \in F^n$, by [[unique coordinates|E2ZRZGXSNX]].
 The *coordinate vector* of $v$ in the basis $B$ is
 $$[v]_B = (a_1, \dots, a_n)^T \in F^n.$$
 The scalars $a_i$ are the *coordinates* of $v$ in $B$.

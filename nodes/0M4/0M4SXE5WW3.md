@@ -9,7 +9,7 @@ topics: [MVH97H8B2J]
 audience: ug1
 about: [0KCQ9Y3QKA]
 uses: [0VTQTPQGAV, 0EVHJFTG9Z, 0BJKVF90Z6]
-proofs: [~940381cb, MEFZB7GHA9]
+proofs: [SS0XKV9TAN, MEFZB7GHA9]
 sources:
   - url: https://en.wikipedia.org/wiki/Basis_(linear_algebra)
     locator: Properties

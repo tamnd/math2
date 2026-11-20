@@ -38,7 +38,7 @@ The same proof works for functions $S \to V$ with values in a vector space $V$.
 
 Special cases:
 
-- For $S = \set{1, \dots, n}$, the space $F^S$ is the [[coordinate space|~9949dfd5]] $F^n$.
+- For $S = \set{1, \dots, n}$, the space $F^S$ is the [[coordinate space|713F6AM1X1]] $F^n$.
 - For $S = \N$, the space $F^{\N}$ is the space of all [[sequences|0G9EKM0E15]] $(a_0, a_1, a_2, \dots)$ in $F$.
 - The finitely supported functions, which are $0$ at all but finitely many points, form a subspace $F^{(S)}$ of $F^S$.
 - The [[continuous functions|0X3WGX95FE]] $[0, 1] \to \R$ form a subspace $C[0, 1]$ of $\R^{[0, 1]}$, because sums and scalar multiples of continuous functions are continuous, and $0$ is continuous.

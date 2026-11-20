@@ -24,7 +24,7 @@ If $\dim W = \dim V$, then $W = V$.
 ### Why each hypothesis is needed
 
 The statement fails for infinite-dimensional spaces.
-In $F[x]$, the subspace of polynomials with $p(0) = 0$ has the same dimension $\aleph_0$ as $F[x]$, but it is not equal to $F[x]$; see [[this example|~c51d6709]].
+In $F[x]$, the subspace of polynomials with $p(0) = 0$ has the same dimension $\aleph_0$ as $F[x]$, but it is not equal to $F[x]$; see [[this example|DVEZQ8SP64]].
 The inclusion $W \subseteq V$ is needed: two different lines in $\R^2$ both have dimension $1$.
 
 ### Consequences

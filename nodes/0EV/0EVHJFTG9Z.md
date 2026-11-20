@@ -35,7 +35,7 @@ A subset $S \subseteq V$ is linearly independent when the family $(v)_{v \in S}$
 The vectors $(1, 0)$ and $(1, 1)$ in $\R^2$ are linearly independent; the vectors $(1, 2)$ and $(2, 4)$ are linearly dependent.
 A family that contains the zero vector, or the same vector twice, is linearly dependent.
 A family of at least one vector is linearly dependent if and only if one of its vectors is a linear combination of the others.
-See the [[dependence lemma|~ddec9473]].
+See the [[dependence lemma|H75GS7QVPB]].
 In $F^n$, a family of more than $n$ vectors is linearly dependent.
 The empty family is linearly independent.
 Mathlib's `LinearIndependent R v` takes a family `v : ι → M`; for a set `s`, one writes `LinearIndependent R ((↑) : s → M)`.

@@ -38,7 +38,7 @@ where $U + W$ is the [[sum of the subspaces|0RMKABS2S5]] and $\dim$ is the [[dim
 Finite dimension is needed for the subtraction form $\dim(U + W) = \dim U + \dim W - \dim(U \cap W)$.
 For infinite cardinals, $\aleph_0 + \aleph_0 = \aleph_0 + 0$, so the term $\dim(U \cap W)$ cannot be recovered from the others.
 The formula is for two subspaces only.
-For three lines $U_1, U_2, U_3$ in $\R^2$, the inclusion-exclusion formula gives $1 + 1 + 1 - 0 - 0 - 0 + 0 = 3$, but $\dim(U_1 + U_2 + U_3) = 2$; see [[three lines in the plane|~d4abcdaa]].
+For three lines $U_1, U_2, U_3$ in $\R^2$, the inclusion-exclusion formula gives $1 + 1 + 1 - 0 - 0 - 0 + 0 = 3$, but $\dim(U_1 + U_2 + U_3) = 2$; see [[three lines in the plane|38AKN9MG6J]].
 
 ### Consequences
 
