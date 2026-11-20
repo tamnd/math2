@@ -3,9 +3,9 @@ tag: FG3K8FHYNE
 kind: example
 name: The identity matrix is the identity for matrix multiplication
 msc: [08A02, 15A99]
-topics: [BAZT8JJ70S]
+topics: [BAZT8JJ70S, Y1ESNQ2V52]
 audience: school
-instance_of: [07WYQPB8E3]
+instance_of: [07WYQPB8E3, 06DW9BAWB1]
 uses: [06DW9BAWB1, 032Q9FB8MT, 0JXZKX526R]
 sources:
   - url: https://en.wikipedia.org/wiki/Identity_matrix

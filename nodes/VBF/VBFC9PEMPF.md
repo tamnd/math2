@@ -1,0 +1,40 @@
+---
+tag: VBFC9PEMPF
+kind: example
+name: A system of two equations as one matrix equation
+msc: ["15A06", "15A99"]
+topics: [Y1ESNQ2V52]
+audience: school
+instance_of: [0PDVQEP0ZC]
+uses: [0CCQV3884B, 0GT4WWGWH2, 0HQFZAP3ND]
+sources:
+  - url: https://en.wikipedia.org/wiki/System_of_linear_equations
+    locator: Matrix equation
+---
+
+## Example
+
+Consider the [[system|0GT4WWGWH2]] $x + 2y = 5$, $3x - y = 1$.
+
+1. The [[coefficient matrix|0HQFZAP3ND]] is $A = \begin{pmatrix} 1 & 2 \\ 3 & -1 \end{pmatrix}$, and the right side is $b = (5, 1)^{\mathsf{T}}$.
+2. For $v = (x, y)^{\mathsf{T}}$, the [[product|0CCQV3884B]] is $Av = (x + 2y, 3x - y)^{\mathsf{T}}$.
+3. So the system is the single equation $Av = b$.
+4. The vector $v = (1, 2)^{\mathsf{T}}$ gives $Av = (1 + 4, 3 - 2)^{\mathsf{T}} = (5, 1)^{\mathsf{T}} = b$, so it is a solution.
+5. In the column view, $b = 1 \cdot (1, 3)^{\mathsf{T}} + 2 \cdot (2, -1)^{\mathsf{T}}$, a combination of the columns of $A$.
+
+## Remarks
+
+The solution is unique: the second equation gives $y = 3x - 1$, and then $7x - 2 = 5$, so $x = 1$.
+Methods to solve $Av = b$ in general belong to the topic on [[systems of linear equations|DXSXFVDMXQ]].
+
+## Explanations
+
+### L1 human
+
+A system of equations has a table of coefficients and a list of right sides.
+The matrix-vector product packs the left sides into one column, so the system becomes $Av = b$.
+
+### L2 human
+
+The two views of $Av$ match two views of the system.
+The row view is the list of equations, and the column view asks for weights that combine the columns into $b$.

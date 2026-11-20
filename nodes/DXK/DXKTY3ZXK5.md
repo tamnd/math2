@@ -1,0 +1,41 @@
+---
+tag: DXKTY3ZXK5
+kind: example
+name: The 2 × 3 zero matrix as the identity for addition
+msc: ["15A99"]
+topics: [Y1ESNQ2V52]
+audience: school
+instance_of: [0ZTKJJDGR7]
+uses: [4KY5AWGMW5, 0BVXADM10P, 0K28YXMS7Q]
+sources:
+  - url: https://en.wikipedia.org/wiki/Zero_matrix
+    locator: Properties
+---
+
+## Example
+
+Let
+$$A = \begin{pmatrix} 1 & -2 & 0 \\ 3 & 5 & -1 \end{pmatrix}, \qquad 0 = 0_{2 \times 3} = \begin{pmatrix} 0 & 0 & 0 \\ 0 & 0 & 0 \end{pmatrix}.$$
+
+1. Each entry of $A + 0$ is $a_{ij} + 0 = a_{ij}$, by the rule for [[addition|0BVXADM10P]]. So $A + 0 = A$.
+2. In the same way $0 + A = A$.
+3. The matrix $-A = \begin{pmatrix} -1 & 2 & 0 \\ -3 & -5 & 1 \end{pmatrix}$ gives $A + (-A) = 0$, entry by entry.
+4. By the rule for [[scalar multiplication|0K28YXMS7Q]], $0 \cdot A$ has the entries $0 \cdot a_{ij} = 0$. So $0 \cdot A = 0_{2 \times 3}$.
+5. The $2 \times 2$ zero matrix does not work here: $A + 0_{2 \times 2}$ is not defined, because the sizes differ.
+
+## Remarks
+
+The [[zero matrix|4KY5AWGMW5]] of each size is the zero vector of the [[vector space of matrices|0RE6X3BGPN]] of that size.
+The scalar $0$ in step 4 and the matrix $0$ on the right are different objects with the same symbol.
+
+## Explanations
+
+### L1 human
+
+Adding a table of zeros to a table of the same size changes nothing.
+Each matrix also has a negative, and the sum of the two is the zero matrix.
+
+### L2 human
+
+Steps 1 to 3 are the vector space axioms for the zero vector and for negatives, checked entry by entry.
+Step 5 shows that the zero matrix depends on the size.
