@@ -1,0 +1,98 @@
+---
+tag: FVEVRE5XNZ
+kind: concept
+name: Quantifier rank
+aliases: [quantifier-rank, quantifier-depth]
+msc: ["03C07", "03B10"]
+topics: [N64R1MGDBN]
+audience: ug2
+uses: [HYJ10AF6RT, MCZRXR3SVB, DKFGQTRYZE, P3B1V182N4, K7XDVK5854]
+sources:
+  - url: https://en.wikipedia.org/wiki/Quantifier_rank
+    locator: Definition
+  - book: isbn:9780521587136
+    locator: Chapter 3
+---
+
+## Summary
+
+The *quantifier rank* of a first-order [[formula|HYJ10AF6RT]] is the largest number of quantifiers that are nested inside each other in it.
+It is defined by recursion on the formula.
+An [[atomic formula|MCZRXR3SVB]] has rank $0$, negation does not change the rank, a conjunction or disjunction takes the larger rank of its parts, and a quantifier adds $1$.
+The formal definition is [[this definition|MQ2KK8P8NT]].
+Two structures are *$n$-equivalent*, written $\mathcal{A} \equiv_n \mathcal{B}$, when they satisfy the same [[sentences|DKFGQTRYZE]] of quantifier rank at most $n$.
+The rank is the measure that matches the number of rounds of the [[Ehrenfeucht-Fraïssé game|2RE7YAZK8R]].
+
+## Motivation
+
+[[Elementary equivalence|P3B1V182N4]] asks for agreement on infinitely many sentences, and this is hard to check directly.
+The rank cuts the sentences into layers, one for each $n$, so that $\mathcal{A} \equiv \mathcal{B}$ exactly when $\mathcal{A} \equiv_n \mathcal{B}$ for every $n$.
+For a finite relational signature each layer contains only [[finitely many sentences up to equivalence|3Q49RH1ZEK]].
+So each layer is a finite amount of information, and a game with $n$ rounds can test it.
+The number of quantifiers would not work as well: it grows with the length of the formula, while the rank counts only how deep the search for witnesses goes.
+
+## Notation
+
+We write $\operatorname{qr}(\varphi)$ for the rank.
+Some books say *quantifier depth* and write $\operatorname{qd}(\varphi)$.
+The relation $\equiv_n$ is also written $\equiv^n$; $\equiv_0$ means agreement on quantifier-free sentences.
+
+## Remarks
+
+### Examples
+
+- The density axiom $\forall x \, \forall y \, (x < y \to \exists z \, (x < z \wedge z < y))$ has rank $3$, and the axiom of no endpoints has rank $2$; see [[this example|6WKWVYFPN1]].
+- The sentence "there are at least $n$ elements" has rank $n$ with $n$ variables; see [[this example|7EPP1D7MGF]].
+- The formula $\exists x \, P(x) \wedge \exists y \, Q(y)$ has rank $1$, although it has two quantifiers.
+
+### Non-examples
+
+- The number of quantifier symbols is not the rank; see [[this non-example|JG7V0PXK2T]].
+- The number of distinct variables is not the rank. The formula $\exists x \, (P(x) \wedge \exists y \, (x < y \wedge \exists x \, (y < x)))$ reuses $x$, has two variables and rank $3$.
+
+### Basic properties
+
+- $\operatorname{qr}(\varphi) = 0$ exactly when $\varphi$ is quantifier-free.
+- If $\mathcal{A} \equiv_{n+1} \mathcal{B}$, then $\mathcal{A} \equiv_n \mathcal{B}$.
+- $\mathcal{A} \equiv \mathcal{B}$ if and only if $\mathcal{A} \equiv_n \mathcal{B}$ for all $n$.
+- Each $\equiv_n$ is an equivalence relation on $L$-structures.
+- Renaming bound variables does not change the rank.
+- Putting a formula in prenex normal form can raise the rank: $\exists x \, P(x) \wedge \exists y \, Q(y)$ becomes $\exists x \, \exists y \, (P(x) \wedge Q(y))$, of rank $2$.
+- For a finite relational signature there are finitely many formulas of rank at most $n$ in $k$ free variables, up to logical equivalence; see [[this lemma|3Q49RH1ZEK]].
+
+### History
+
+The rank is the syntactic measure behind the games of Ehrenfeucht and Fraïssé, where it counts rounds.
+
+### Common errors
+
+- To count all quantifiers. Only nesting counts.
+- To expect $\equiv_n$ for one fixed $n$ to give elementary equivalence. The linear orders with $7$ and $8$ elements are $3$-equivalent, by [[the result on linear orders|ZZPXVVZARC]], but a sentence of rank $4$ separates them.
+
+## Explanations
+
+### L1 human
+
+A formula can ask for elements one after another: "there is an $x$, and for it there is a $y$, and for those there is a $z$".
+The quantifier rank counts how long the longest such chain of questions is.
+Questions asked side by side, rather than one inside another, do not add up.
+Two structures that agree on all sentences with chains of length at most $n$ cannot be told apart by asking $n$ nested questions.
+
+### L2 human
+
+We compute the rank of $\varphi = \forall x \, (\exists y \, (x < y) \wedge \neg \exists z \, \exists w \, (z < w \wedge w < x))$.
+
+1. The atomic formulas $x < y$, $z < w$, $w < x$ have rank $0$.
+2. $\exists y \, (x < y)$ has rank $1$.
+3. $\exists w \, (z < w \wedge w < x)$ has rank $1$, so $\exists z \, \exists w \, (\dots)$ has rank $2$, and its negation also has rank $2$.
+4. The conjunction has rank $\max(1, 2) = 2$.
+5. The outer $\forall x$ adds $1$, so $\operatorname{qr}(\varphi) = 3$.
+
+The typical use of the rank is to state the [[Ehrenfeucht-Fraïssé theorem|72BMYXGFA8]]: Duplicator wins $n$ rounds exactly when the structures are $n$-equivalent.
+A trap is to put a formula in prenex form before computing the rank, which can make the rank larger.
+
+### L3 human
+
+The rank is the analogue for logic of the depth of a game tree.
+In descriptive complexity, the rank bounds the number of rounds and the number of variables bounds the number of pebbles in the pebble games.
+For the infinitary logic $L_{\infty\omega}$ the rank is an ordinal, defined with a supremum at infinite conjunctions, and it measures the length of the [[back-and-forth systems|EWB8KXZMCV]] needed.
