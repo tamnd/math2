@@ -1,0 +1,106 @@
+---
+tag: C170QFW8QB
+kind: example
+name: Curve fitting and linear regression by least squares
+msc: ["15A06", "62J05", "65F20"]
+topics: [K0FNC6CWZN]
+audience: ug1
+instance_of: [0BYTQ4X1HC]
+illustrates: [4D7MRG4D91, V9AH43ZY91, 0MCDDSCB9Z]
+uses: [0BYTQ4X1HC, 4D7MRG4D91, V9AH43ZY91, 0B8KZRT28M, 0MCDDSCB9Z]
+sources:
+  - book: isbn:9780321982384
+    locator: Section 6.6
+  - url: https://en.wikipedia.org/wiki/Linear_least_squares
+    locator: Fitting a parabola
+  - url: https://en.wikipedia.org/wiki/Coefficient_of_determination
+    locator: Definitions
+---
+
+## Example
+
+We fit a line and then a parabola to the five data points
+$$(s, y) = (-2, 0),\ (-1, 0),\ (0, 0),\ (1, 1),\ (2, 4).$$
+No line and no parabola goes through all five points, so we use [[least squares|0BYTQ4X1HC]].
+For each fit, we also compute the coefficient of determination $R^2$ as a ratio of squared lengths.
+
+**The regression line $y = c + m s$.**
+
+1. The model asks for $A x \approx y$ with the columns $\mathbf{1} = (1, 1, 1, 1, 1)$ and $s = (-2, -1, 0, 1, 2)$ in $A$, $x = (c, m)$ and $y = (0, 0, 0, 1, 4)$.
+2. The two columns are independent, so the least-squares solution is unique, by [[existence and uniqueness of least-squares solutions|V9AH43ZY91]].
+3. The [[normal equations|4D7MRG4D91]] $A^{\mathsf T} A x = A^{\mathsf T} y$ need $\sum 1 = 5$, $\sum s = 0$, $\sum s^2 = 10$, $\sum y = 5$ and $\sum s y = 0 + 0 + 0 + 1 + 8 = 9$.
+4. So $\begin{pmatrix} 5 & 0 \\ 0 & 10 \end{pmatrix} \begin{pmatrix} c \\ m \end{pmatrix} = \begin{pmatrix} 5 \\ 9 \end{pmatrix}$, and $c = 1$, $m = 0.9$.
+5. The fitted values $\hat y = 1 + 0.9 s$ are $(-0.8, 0.1, 1, 1.9, 2.8)$.
+6. The residual is $r = y - \hat y = (0.8, -0.1, -1, -0.9, 1.2)$.
+7. Check: $r \cdot \mathbf 1 = 0$ and $r \cdot s = -1.6 + 0.1 + 0 - 0.9 + 2.4 = 0$. So $r$ is orthogonal to the column space, as the normal equations say.
+8. The residual sum of squares is $\norm{r}^2 = 0.64 + 0.01 + 1 + 0.81 + 1.44 = 3.9$.
+
+**The parabola $y = a + b s + c s^2$.**
+
+1. Add the column $s^2 = (4, 1, 0, 1, 4)$ to $A$.
+2. The three columns are independent, because a nonzero polynomial of degree at most $2$ has at most $2$ roots, and here we have $5$ distinct values of $s$.
+3. The new sums are $\sum s^3 = 0$, $\sum s^4 = 16 + 1 + 0 + 1 + 16 = 34$ and $\sum s^2 y = 1 + 16 = 17$.
+4. The normal equations are
+$$\begin{pmatrix} 5 & 0 & 10 \\ 0 & 10 & 0 \\ 10 & 0 & 34 \end{pmatrix} \begin{pmatrix} a \\ b \\ c \end{pmatrix} = \begin{pmatrix} 5 \\ 9 \\ 17 \end{pmatrix}.$$
+5. The second row gives $b = 0.9$.
+6. The first row gives $a = 1 - 2c$. Put this into the third row: $10 - 20 c + 34 c = 17$, so $c = 0.5$ and $a = 0$.
+7. The fitted parabola is $y = 0.9 s + 0.5 s^2$, with the fitted values $(0.2, -0.4, 0, 1.4, 3.8)$.
+8. The residual is $(-0.2, 0.4, 0, -0.4, 0.2)$, and its squared length is $0.4$.
+
+**The coefficient of determination as a projection.**
+
+1. The mean of $y$ is $\bar y = 1$. The centred data is $y - \bar y \mathbf 1 = (-1, -1, -1, 0, 3)$, with squared length $12$.
+2. Both models contain the constant column $\mathbf 1$. So $\hat y - \bar y \mathbf 1$ is the [[orthogonal projection|0B8KZRT28M]] of $y - \bar y \mathbf 1$ onto a subspace, and it is orthogonal to $r$.
+3. By the Pythagorean theorem, $\norm{y - \bar y \mathbf 1}^2 = \norm{\hat y - \bar y \mathbf 1}^2 + \norm{r}^2$.
+4. For the line, $\hat y - \bar y \mathbf 1 = 0.9\, s$, with squared length $0.81 \cdot 10 = 8.1$. Check: $8.1 + 3.9 = 12$.
+5. So $R^2 = \norm{\hat y - \bar y \mathbf 1}^2 / \norm{y - \bar y \mathbf 1}^2 = 8.1 / 12 = 0.675$.
+6. For the parabola, $\hat y - \bar y \mathbf 1 = (-0.8, -1.4, -1, 0.4, 2.8)$, with squared length $11.6$. Check: $11.6 + 0.4 = 12$.
+7. So $R^2 = 11.6 / 12 = 29/30 \approx 0.967$.
+8. Thus $R^2$ is the squared cosine of the angle between the centred data and its projection onto the model space.
+
+## Remarks
+
+The parabola fits better than the line, and this always holds for nested models.
+The model space of the line is a subspace of the model space of the parabola.
+So by the [[best approximation theorem|0MCDDSCB9Z]], the residual of the parabola is never longer than the residual of the line.
+This is why $R^2$ alone cannot choose between models: a model with more columns never has a smaller $R^2$.
+
+The values of $s$ are centred, with $\sum s = 0$ and $\sum s^3 = 0$.
+This makes the column $s$ orthogonal to the columns $\mathbf 1$ and $s^2$, and the normal equations split into smaller systems.
+For data that is not centred, subtract the mean of $s$ first, or solve the full system.
+
+If the data has fewer distinct values of $s$ than the number of coefficients, the columns of $A$ are dependent.
+Then the least-squares solution is not unique, although the fitted values $\hat y$ are still unique.
+
+The statistical meaning of the fit belongs to [[linear regression|41FVC4P5JB]] in statistics, and the statistical meaning of $R^2$ belongs to [[coefficient of determination|B45RMKMVZ5]].
+That includes the noise model, confidence intervals and tests.
+A smaller example with the line only is [[a least-squares line through four points|H2D0QA4AXV]].
+
+## Explanations
+
+### L1 human
+
+Data from an experiment rarely lies exactly on a line or a curve.
+Least squares picks the line that makes the sum of the squared vertical errors as small as possible.
+For the five points here, the best line is $y = 1 + 0.9 s$, and the best parabola is $y = 0.9 s + 0.5 s^2$.
+The number $R^2$ tells how much of the spread of the data the fit explains: about $68\%$ for the line and about $97\%$ for the parabola.
+
+### L2 human
+
+To fit a model $y \approx x_1 f_1(s) + \dots + x_k f_k(s)$ to data, do these steps.
+
+1. Make the matrix $A$ whose column $j$ holds the values of $f_j$ at the data points.
+2. Solve the normal equations $A^{\mathsf T} A x = A^{\mathsf T} y$.
+3. Compute the fitted values $A x$ and the residual $r = y - A x$, and check that $A^{\mathsf T} r = 0$.
+4. If $\mathbf 1$ is a column, compute $R^2 = 1 - \norm{r}^2 / \norm{y - \bar y \mathbf 1}^2$.
+
+The model must be linear in the unknown coefficients, but not in $s$: a parabola is a linear model.
+The trap is to use $R^2$ without a constant column, because then the Pythagorean split in step 3 of the last part fails.
+A second trap is a large badly scaled problem, where forming $A^{\mathsf T} A$ loses accuracy, and a QR factorization is better.
+
+### L3 human
+
+Least squares is the orthogonal projection of $y$ onto the column space of $A$, in the inner product $\sum_i u_i v_i$.
+A weighted inner product $\sum_i w_i u_i v_i$ gives weighted least squares, with the normal equations $A^{\mathsf T} W A x = A^{\mathsf T} W y$.
+With centred data and one predictor, $R^2$ is the square of the correlation coefficient of $s$ and $y$: here $0.9^2 \cdot 10 / 12 = 0.675$.
+In general, $R^2$ is the square of the cosine of the angle between the centred data $y - \bar y \mathbf 1$ and the fitted vector $\hat y - \bar y \mathbf 1$.
