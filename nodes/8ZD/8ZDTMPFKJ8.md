@@ -1,0 +1,49 @@
+---
+tag: 8ZDTMPFKJ8
+kind: example
+name: The module of a scalar matrix
+msc: ["15A21", "13C05"]
+topics: [GEBYZKYV3D]
+audience: grad
+instance_of: [KGVTFBZX59]
+illustrates: [R5X8SNHBGG]
+uses: [KGVTFBZX59, R5X8SNHBGG, 06DW9BAWB1, 0ACX5QT8TE]
+sources:
+  - url: https://en.wikipedia.org/wiki/Structure_theorem_for_finitely_generated_modules_over_a_principal_ideal_domain
+    locator: Corollaries
+---
+
+## Example
+
+Let $F$ be a field, $c \in F$, $n \ge 1$, and $A = c I_n$, with $I_n$ the [[identity matrix|06DW9BAWB1]].
+Consider the [[module|KGVTFBZX59]] $F^n_A$.
+
+1. For $f \in F[x]$ and $v \in F^n$, $f \cdot v = f(cI_n) v = f(c) v$, since $(cI_n)^k = c^k I_n$.
+2. So $(x - c) \cdot v = 0$ for every $v$, and the annihilator of the module is the ideal $(x - c)$.
+3. Every subspace $U$ is closed under $v \mapsto f(c) v$, so every subspace is a submodule. This matches the fact that every subspace is $cI_n$-invariant.
+4. The map $F[x]/(x - c) \to F$, $f \mapsto f(c)$, is a module isomorphism onto $F$ with $x$ acting as $c$.
+5. So $F^n_A = F e_1 \oplus \cdots \oplus F e_n \cong (F[x]/(x - c))^n$.
+6. For $n \ge 2$, this module is not cyclic: each $F[x] v = F v$ has dimension at most $1$.
+
+## Remarks
+
+The example shows the opposite extreme to a cyclic module: $n$ summands, all equal to $F[x]/(x - c)$.
+In terms of invariant factors, $c I_n$ has $n$ invariant factors $x - c, \dots, x - c$.
+For $c = 0$ the module is $F^n$ with $x$ acting as $0$.
+
+## Explanations
+
+### L1 human
+
+A scalar matrix multiplies every vector by the same number.
+So acting by any polynomial on a vector just multiplies it by a number.
+Every line through the origin is kept by the map, and the space splits into $n$ copies of one simple piece.
+
+### L2 human
+
+1. Take $A = 2 I_2$ over $\mathbb{Q}$ and $v = (1, 3)$.
+2. $(x^2 - 1) \cdot v = (4 - 1) v = (3, 9)$.
+3. $(x - 2) \cdot v = 0$, so $v$ has annihilator $x - 2$ and $F[x] v = \mathbb{Q} v$.
+
+The typical use is a check that the number of cyclic summands can be as large as $n$.
+The trap is to confuse "every subspace is a submodule" with "the module is simple": it splits into $n$ summands.

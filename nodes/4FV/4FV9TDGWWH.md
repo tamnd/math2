@@ -1,0 +1,82 @@
+---
+tag: 4FV9TDGWWH
+kind: statement
+role: theorem
+name: Conjugacy classes of GL_n over a finite field
+aliases: [conjugacy-classes-of-gl-n-over-finite-fields, number-of-conjugacy-classes-of-gl-n-fq]
+msc: ["20G40", "15A21"]
+topics: [GEBYZKYV3D]
+audience: grad
+about: [0FCHE902D7, 0DEBXAJ5SA]
+uses: [0FCHE902D7, 0DEBXAJ5SA, 0ZXZ82FTX2, 042JWAR3Q0, F7GJPMVBXA, 0JV30XN73Z, 0JQ1KNQW2K, 08BPSC6YTE, 0VK5V9P8G3, GXZGWZSJ2J]
+sources:
+  - url: https://en.wikipedia.org/wiki/Conjugacy_class
+    locator: Conjugacy class equation
+  - url: https://en.wikipedia.org/wiki/General_linear_group
+    locator: Over finite fields
+  - url: https://en.wikipedia.org/wiki/Frobenius_normal_form
+    locator: General case and theory
+---
+
+## Statement
+
+Let $q$ be a prime power, $\mathbb{F}_q$ the [[finite field|0ZXZ82FTX2]] with $q$ elements, and $n \ge 1$.
+Let $G = GL_n(\mathbb{F}_q)$ be the [[general linear group|0FCHE902D7]], and let $c_n(q)$ be the number of its [[conjugacy classes|0DEBXAJ5SA]].
+Let $\Phi$ be the set of monic irreducible polynomials in $\mathbb{F}_q[x]$ other than $x$.
+
+1. Two matrices in $G$ are conjugate in $G$ if and only if they have the same [[invariant factors|F7GJPMVBXA]]. So the conjugacy classes of $G$ correspond bijectively to the [[rational canonical forms|042JWAR3Q0]] $C(d_1) \oplus \cdots \oplus C(d_r)$ with $d_1 \mid \cdots \mid d_r$ monic and nonconstant, $\sum \deg d_i = n$, and $d_r(0) \ne 0$.
+2. Equivalently, the classes correspond bijectively to the maps $f \mapsto \lambda(f)$ that assign to each $f \in \Phi$ an [[integer partition|0JV30XN73Z]] $\lambda(f)$, with $\sum_{f \in \Phi} \deg f \cdot |\lambda(f)| = n$.
+3. As formal power series in $u$,
+$$\sum_{n \ge 0} c_n(q)\, u^n = \prod_{k \ge 1} \frac{1 - u^k}{1 - q u^k},$$
+with $c_0(q) = 1$.
+In particular $c_1 = q - 1$, $c_2 = q^2 - 1$, $c_3 = q^3 - q$ and $c_4 = q^4 - q$.
+4. For $n = 2$, the $q^2 - 1$ classes are of four types:
+
+| type | representative | number of classes | centralizer order | class size |
+|---|---|---|---|---|
+| scalar | $a I_2$, $a \ne 0$ | $q - 1$ | $(q^2 - 1)(q^2 - q)$ | $1$ |
+| one eigenvalue, not scalar | $\begin{pmatrix} a & 1 \\ 0 & a \end{pmatrix}$, $a \ne 0$ | $q - 1$ | $q(q - 1)$ | $q^2 - 1$ |
+| two eigenvalues in $\mathbb{F}_q$ | $\operatorname{diag}(a, b)$, $a \ne b$, $ab \ne 0$ | $(q - 1)(q - 2)/2$ | $(q - 1)^2$ | $q(q + 1)$ |
+| no eigenvalue in $\mathbb{F}_q$ | $C(f)$, $f$ irreducible of degree $2$ | $(q^2 - q)/2$ | $q^2 - 1$ | $q(q - 1)$ |
+
+The class sizes add up to $|G| = (q^2 - 1)(q^2 - q)$, as the [[class equation|08BPSC6YTE]] requires.
+
+## Remarks
+
+### Why each hypothesis is needed
+
+The field must be finite for the counts in parts 3 and 4.
+Part 1 holds over every field, with the same proof.
+Over an infinite field there are infinitely many classes, since the scalar matrices $a I_n$ with $a \ne 0$ are pairwise not conjugate.
+
+### Consequences
+
+- The number of classes $c_n(q)$ is a polynomial in $q$ with integer coefficients, of degree $n$ and leading term $q^n$.
+- The centralizer of $A \in G$ is the group of units of the algebra of [[matrices that commute with $A$|GXZGWZSJ2J]]. For a cyclic $A$ this algebra is $\mathbb{F}_q[A] \cong \mathbb{F}_q[x]/(\chi_A)$.
+- By the [[class size formula|0VK5V9P8G3]], the size of the class of $A$ is $|G| / |C_G(A)|$, with $|G|$ given by the [[order of the general linear group|0JQ1KNQW2K]].
+- The group $GL_2(\mathbb{F}_2)$ has order $6$ and $2^2 - 1 = 3$ classes. It is isomorphic to the symmetric group $S_3$, which also has $3$ classes.
+
+### Generalizations
+
+The same method counts the similarity classes in $M_n(\mathbb{F}_q)$: drop the condition $d_r(0) \ne 0$ and allow $f = x$ in part 2.
+The generating function is then $\prod_{k \ge 1} 1/(1 - q u^k)$.
+
+## Explanations
+
+### L1 human
+
+Two invertible matrices over a finite field are conjugate exactly when they have the same rational canonical form.
+So counting conjugacy classes means counting rational canonical forms.
+For $2 \times 2$ matrices over a field with $q$ elements, there are $q^2 - 1$ classes.
+
+### L2 human
+
+For $q = 3$ the four types of part 4 give $2$, $2$, $1$ and $3$ classes, in total $8 = 3^2 - 1$.
+Their sizes are $1$, $8$, $12$ and $6$, and
+$$2 \cdot 1 + 2 \cdot 8 + 1 \cdot 12 + 3 \cdot 6 = 48 = (9 - 1)(9 - 3) = |GL_2(\mathbb{F}_3)|.$$
+The trap is the third type: the pair $a, b$ is unordered, because $\operatorname{diag}(a, b)$ and $\operatorname{diag}(b, a)$ are conjugate by a permutation matrix.
+
+### L3 human
+
+The conjugacy classes of $GL_n(\mathbb{F}_q)$ are indexed by partition-valued functions on $\Phi$.
+This indexing is the starting point of the character theory of $GL_n(\mathbb{F}_q)$, which belongs to the representation theory of finite groups.

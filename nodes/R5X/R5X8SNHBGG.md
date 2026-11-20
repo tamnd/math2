@@ -1,0 +1,85 @@
+---
+tag: R5X8SNHBGG
+kind: statement
+role: theorem
+name: Invariant subspaces and similarity in the language of F[x]-modules
+aliases: [similarity-is-module-isomorphism]
+msc: ["15A21", "13C05"]
+topics: [GEBYZKYV3D]
+audience: grad
+about: [KGVTFBZX59, 0E89HQATM8]
+uses: [KGVTFBZX59, 0ACX5QT8TE, 05WDSN597C, 027KDW2K72, 05QY1VEBYD, 03NDVCSHSB]
+sources:
+  - url: https://en.wikipedia.org/wiki/Structure_theorem_for_finitely_generated_modules_over_a_principal_ideal_domain
+    locator: Corollaries
+  - book: isbn:9780471433347
+    locator: Chapter 12
+---
+
+## Statement
+
+Let $F$ be a field, let $V$ and $W$ be finite-dimensional vector spaces over $F$, and let $T \colon V \to V$ and $S \colon W \to W$ be linear.
+Let $V_T$ and $W_S$ be the [[$F[x]$-modules of $T$ and $S$|KGVTFBZX59]].
+
+1. $V_T$ is an $F[x]$-module, it is [[finitely generated|05QY1VEBYD]], and it is torsion: the [[minimal polynomial|03NDVCSHSB]] $m_T$ kills every element.
+2. A subset $U \subseteq V$ is a [[submodule|05WDSN597C]] of $V_T$ if and only if $U$ is a [[$T$-invariant subspace|0ACX5QT8TE]].
+3. A map $\varphi \colon V \to W$ is a homomorphism of $F[x]$-modules $V_T \to W_S$ if and only if $\varphi$ is $F$-linear and $\varphi T = S \varphi$. It is an isomorphism if and only if, in addition, it is bijective.
+4. For $A, B \in M_n(F)$, the matrices are [[similar|027KDW2K72]] if and only if $F^n_A \cong F^n_B$ as $F[x]$-modules.
+5. Every $F[x]$-module $M$ with $\dim_F M = n < \infty$ is isomorphic to $F^n_A$ for some $A \in M_n(F)$.
+
+So $A \mapsto F^n_A$ induces a bijection from the similarity classes of $M_n(F)$ to the isomorphism classes of $F[x]$-modules of $F$-dimension $n$.
+These modules are exactly the finitely generated torsion $F[x]$-modules of $F$-dimension $n$.
+
+## Remarks
+
+### Why each hypothesis is needed
+
+Finite dimension gives part 1: on an infinite-dimensional space a map can satisfy no polynomial, and then $V_T$ is not torsion.
+In part 4 both matrices must have the same size $n$, since an isomorphism is a bijection of $F$-spaces.
+In part 3 the condition $\varphi T = S \varphi$ cannot be dropped: a linear bijection that does not intertwine $T$ and $S$ is not a module map.
+
+### Consequences
+
+- An $F[x]$-module decomposition $V_T = U_1 \oplus U_2$ is the same as a decomposition of $V$ into two $T$-invariant subspaces.
+- Similarity invariants of $A$ are the isomorphism invariants of $F^n_A$, for example its invariant factors.
+- The [[cyclic decomposition theorem|R3Z20J19BR]] follows from the structure theorem for modules over a principal ideal domain.
+
+### Converse
+
+Every part is an equivalence.
+In part 5, every finitely generated torsion $F[x]$-module has finite $F$-dimension: it is a quotient of a finite direct sum of modules $F[x]/(a)$ with $a \ne 0$.
+
+### Generalizations
+
+For a commutative ring $R$ and an $R$-module $V$ with an endomorphism $T$, $V$ is an $R[x]$-module in the same way.
+For several commuting endomorphisms $T_1, \dots, T_k$, $V$ becomes a module over $F[x_1, \dots, x_k]$.
+
+## Explanations
+
+### L1 human
+
+A linear map turns its space into a module over polynomials.
+The theorem gives a dictionary between the two languages.
+A subspace that the map keeps inside itself is a submodule.
+A change of basis that turns one matrix into another is an isomorphism of modules.
+So "these two matrices are similar" means "these two modules are the same up to renaming".
+
+### L2 human
+
+Let $A = \begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$ and $B = \begin{pmatrix} 1 & 0 \\ 1 & 1 \end{pmatrix}$ over $\mathbb{Q}$.
+
+1. Let $\varphi$ swap the two coordinates, with matrix $P = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$.
+2. $PB = \begin{pmatrix} 1 & 1 \\ 1 & 0 \end{pmatrix}$ and $AP = \begin{pmatrix} 1 & 1 \\ 1 & 0 \end{pmatrix}$, so $PB = AP$.
+3. By part 3, $\varphi$ is an isomorphism $\mathbb{Q}^2_B \to \mathbb{Q}^2_A$.
+4. By part 4, $A$ and $B$ are similar, with $B = P^{-1} A P$.
+5. The only proper nonzero submodule of $\mathbb{Q}^2_A$ is the line $\mathbb{Q} e_1$, the only invariant line of $A$.
+
+The typical use is to apply theorems on modules to matrices.
+The trap is to think that every linear bijection is a module isomorphism: the identity of $\mathbb{Q}^2$ is not a module map from $\mathbb{Q}^2_B$ to $\mathbb{Q}^2_A$, since $B \ne A$.
+
+### L3 human
+
+Parts 3 to 5 say that $(V, T) \mapsto V_T$ is an equivalence of categories between finite-dimensional spaces with an endomorphism and $F[x]$-modules of finite $F$-dimension.
+Under this equivalence, $\operatorname{End}_{F[x]}(V_T)$ is the [[centralizer|GXZGWZSJ2J]] of $T$.
+The classification of finitely generated torsion modules over the principal ideal domain $F[x]$ gives the [[rational canonical form|042JWAR3Q0]].
+Over an algebraically closed field, the primary decomposition gives the [[Jordan normal form|085HQ5G5TE]].
