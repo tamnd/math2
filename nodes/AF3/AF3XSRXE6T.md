@@ -52,5 +52,5 @@ The renumbering moves row $i$ and column $j$ to the end, and this costs the sign
 
 ## Variants
 
-A second proof uses multilinearity in row $i$ and row operations; see the [[proof by multilinearity|~c72d447c]].
-Grouping the Leibniz terms by the images of $k$ rows at once gives the [[general Laplace expansion|~14ae98a3]].
+A second proof uses multilinearity in row $i$ and row operations; see the [[proof by multilinearity|97HQ4MPNBS]].
+Grouping the Leibniz terms by the images of $k$ rows at once gives the [[general Laplace expansion|KKEHEMTSYY]].

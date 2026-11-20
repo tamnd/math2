@@ -6,7 +6,7 @@ msc: ["15A15"]
 topics: [DTBK11SR77]
 audience: ug1
 defines: 00KDZRW4C0
-uses: [0MSWYWHYF5, 0CP7YY6NAG, 06DW9BAWB1, ~1e90e396]
+uses: [0MSWYWHYF5, 0CP7YY6NAG, 06DW9BAWB1, 1C8RRWHD45]
 formal:
   - system: lean4
     library: mathlib
@@ -29,7 +29,7 @@ The *determinant* is the unique map $\det \colon M_n(K) \to K$ with these proper
 2. $\det A = 0$ when two rows of $A$ are equal.
 3. $\det I_n = 1$, for the [[identity matrix|06DW9BAWB1]] $I_n$.
 
-Such a map exists and is unique by the [[existence and uniqueness theorem|~1e90e396]], and it is given by the Leibniz sum
+Such a map exists and is unique by the [[existence and uniqueness theorem|1C8RRWHD45]], and it is given by the Leibniz sum
 $$\det A = \sum_{\sigma \in S_n} \sgn(\sigma)\, a_{1 \sigma(1)} a_{2 \sigma(2)} \cdots a_{n \sigma(n)}.$$
 
 ## Notation
@@ -40,7 +40,7 @@ For $n = 0$ one sets $\det$ of the empty matrix equal to $1$; this convention ma
 ## Remarks
 
 Properties 1 and 2 say that $\det$ is an [[alternating multilinear map|0MSWYWHYF5]] of the rows.
-The same three properties with columns in place of rows define the same function, by the [[equivalence theorem|~1841dd6c]].
+The same three properties with columns in place of rows define the same function, by the [[equivalence theorem|W3JN0WPZ10]].
 Mathlib defines `Matrix.det` by the Leibniz sum and proves that it is alternating and multilinear in the rows.
 The definition uses no division, so it makes sense over $\mathbb{Z}$, over polynomial rings and over $\mathbb{Z}/m\mathbb{Z}$.
 

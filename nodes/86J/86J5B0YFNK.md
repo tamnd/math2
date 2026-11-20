@@ -7,7 +7,7 @@ topics: [DTBK11SR77]
 audience: ug1
 proves: 04CPJ6AF00
 methods: [GQHHNV79PA]
-uses: [076JGP6R3T, 0C3CFHDN6R, ~1e90e396, 06DW9BAWB1]
+uses: [076JGP6R3T, 0C3CFHDN6R, 1C8RRWHD45, 06DW9BAWB1]
 sources:
   - url: https://proofwiki.org/wiki/Determinant_of_Matrix_Product
     locator: Proof 4
@@ -25,7 +25,7 @@ For an $n \times n$ matrix $X$, put $D(X) = \det(XB)$.
 3. So $D$ is multilinear in the rows of $X$.
 4. If rows $i \neq k$ of $X$ are equal, then rows $i$ and $k$ of $XB$ are equal, by step 1.
 5. By property 2 of the definition, $D(X) = \det(XB) = 0$ in that case. So $D$ is alternating.
-6. By part 2 of the [[existence and uniqueness theorem|~1e90e396]], $D(X) = D(I_n) \det X$ for every $X$.
+6. By part 2 of the [[existence and uniqueness theorem|1C8RRWHD45]], $D(X) = D(I_n) \det X$ for every $X$.
 7. For the [[identity matrix|06DW9BAWB1]], $D(I_n) = \det(I_n B) = \det B$.
 8. With $X = A$, steps 6 and 7 give $\det(AB) = \det B \det A = \det A \det B$.
 
@@ -39,4 +39,4 @@ Such a map is a multiple of $\det$, and the multiple is its value at $I_n$, whic
 The same argument made explicit: expand each row $\sum_k a_{ik} \beta_k$ of $AB$ by multilinearity.
 Terms with a repeated $\beta_k$ vanish, and the rest are row permutations of $B$ with determinant $\sgn(\sigma) \det B$.
 The coefficients add up to the [[Leibniz formula|016PE4VZ8Q]] for $\det A$.
-A second proof, by elementary matrices over a field, is the [[proof by row reduction|~33453c01]].
+A second proof, by elementary matrices over a field, is the [[proof by row reduction|3WPWGE036Q]].

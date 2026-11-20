@@ -42,20 +42,20 @@ A *principal minor* has $I = J$, and the *leading principal minor* of order $k$ 
 
 ### Examples
 
-- The first minors and the leading principal minors of a $3 \times 3$ matrix; see the [[worked example|~d9e96ee9]].
-- The three $2 \times 2$ minors of a $2 \times 3$ matrix, and the rank they give; see the [[rectangular example|~5e7a773a]].
+- The first minors and the leading principal minors of a $3 \times 3$ matrix; see the [[worked example|B2YDT3YNCW]].
+- The three $2 \times 2$ minors of a $2 \times 3$ matrix, and the rank they give; see the [[rectangular example|8827Y0CH3H]].
 - The minors of order $1$ are the entries, and the only minor of order $n$ of an $n \times n$ matrix is $\det A$.
 
 ### Non-examples
 
-- The determinant of a submatrix with its columns put in another order is not in general a minor; it can differ by the sign. See the [[non-example|~183e7ce7]].
+- The determinant of a submatrix with its columns put in another order is not in general a minor; it can differ by the sign. See the [[non-example|Q3M8S1K799]].
 - A non-square submatrix has no determinant, so it gives no minor.
 
 ### Basic properties
 
 - An $m \times n$ matrix has $\binom{m}{k} \binom{n}{k}$ minors of order $k$.
 - The first minors with signs are the [[cofactors|0XPKR18APA]], and they give the [[Laplace expansion|0C08BQ3M05]].
-- Over a field, the [[rank|0ZC9YTXZRY]] of $A$ is the largest $k$ with a nonzero minor of order $k$; see the [[rank by minors|~ffa904d5]].
+- Over a field, the [[rank|0ZC9YTXZRY]] of $A$ is the largest $k$ with a nonzero minor of order $k$; see the [[rank by minors|HVHQ50TJB1]].
 - The minors of $AB$ are sums of products of minors of $A$ and of $B$, by the [[Cauchy-Binet formula|08WE2W7DYS]].
 - A real symmetric matrix is positive definite if and only if all its leading principal minors are positive, by [[Sylvester's criterion|0WKEF78PMV]].
 

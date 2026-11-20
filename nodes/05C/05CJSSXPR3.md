@@ -34,20 +34,20 @@ The determinant in $B$ then measures signed volume in this unit.
 ### Examples
 
 - $\det_B(B) = 1$ for every basis $B$.
-- In $\mathbb{R}^2$, $(1, 2), (3, 4)$ has determinant $-2$ in the standard basis and $-1$ in the basis $(2, 0), (0, 1)$: [[example|~c479a81c]].
-- The polynomials $1 + x$, $x + x^2$, $1 + x^2$ have determinant $2$ in the basis $1, x, x^2$: [[example|~651ec5dd]].
+- In $\mathbb{R}^2$, $(1, 2), (3, 4)$ has determinant $-2$ in the standard basis and $-1$ in the basis $(2, 0), (0, 1)$: [[example|Q9N66CYVH4]].
+- The polynomials $1 + x$, $x + x^2$, $1 + x^2$ have determinant $2$ in the basis $1, x, x^2$: [[example|XNG0N654EM]].
 
 ### Non-examples
 
-- Two vectors in $\mathbb{R}^3$ have no determinant in a basis of $\mathbb{R}^3$: [[non-example|~4c58885d]].
+- Two vectors in $\mathbb{R}^3$ have no determinant in a basis of $\mathbb{R}^3$: [[non-example|CECRXV7KAZ]].
 - A family without a chosen basis has no determinant, since the value changes with the basis.
 
 ### Basic properties
 
 - $\det_B$ is linear in each vector, and it is $0$ when two vectors are equal.
 - Exchanging two vectors changes the sign of $\det_B$.
-- [[Change of basis rule|~89aed52d]]: $\det_{B'} = \det_{B'}(B) \cdot \det_B$, and $\det_B(B') \det_{B'}(B) = 1$.
-- [[Basis criterion|~4e6d2a1b]]: over a field, $v_1, \dots, v_n$ is a basis if and only if $\det_B(v_1, \dots, v_n) \ne 0$.
+- [[Change of basis rule|T1WN2DHS63]]: $\det_{B'} = \det_{B'}(B) \cdot \det_B$, and $\det_B(B') \det_{B'}(B) = 1$.
+- [[Basis criterion|5D1CHPV9Z3]]: over a field, $v_1, \dots, v_n$ is a basis if and only if $\det_B(v_1, \dots, v_n) \ne 0$.
 - For an endomorphism $T$, $\det_B(T v_1, \dots, T v_n) = \det T \cdot \det_B(v_1, \dots, v_n)$, with the [[determinant of $T$|0X0HQYSZ0K]].
 
 ### Common errors

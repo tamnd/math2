@@ -43,7 +43,7 @@ Over the quaternions, with $A = \begin{pmatrix} i & j \\ i & j \end{pmatrix}$, t
 ### Converse
 
 The statement is an identity, so there is no converse in the usual sense.
-It shows that the three properties of the definition, stated for columns, characterize the same function; this is part of the [[equivalence theorem|~1841dd6c]].
+It shows that the three properties of the definition, stated for columns, characterize the same function; this is part of the [[equivalence theorem|W3JN0WPZ10]].
 
 ### Generalizations
 

@@ -39,4 +39,4 @@ A relation among the rows works the same way, but leaves the factor $c_i$ in fro
 ## Variants
 
 With the Leibniz sum as the definition, part 1 is proved by pairing $\sigma$ with $\sigma \tau$, where $\tau$ exchanges the two equal rows: the two terms are equal with opposite signs.
-This is step 4 of the proof of the [[existence and uniqueness theorem|~1e90e396]], and it also works in characteristic $2$.
+This is step 4 of the proof of the [[existence and uniqueness theorem|1C8RRWHD45]], and it also works in characteristic $2$.

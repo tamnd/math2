@@ -43,4 +43,4 @@ Induction then collects one factor $x_j - x_i$ for each pair $i < j$.
 
 ## Variants
 
-The [[proof by roots of polynomials|~687fe1b8]] treats $\det V$ as a polynomial in $x_n$ and uses the bound on the number of roots.
+The [[proof by roots of polynomials|R653HXJ20N]] treats $\det V$ as a polynomial in $x_n$ and uses the bound on the number of roots.

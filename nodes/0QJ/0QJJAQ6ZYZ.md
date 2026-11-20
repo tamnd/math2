@@ -38,12 +38,12 @@ This is the language for "counterclockwise" in the plane and "right-handed" in s
 ### Examples
 
 - The standard orientation of $\mathbb{R}^n$ is the class of $(e_1, \dots, e_n)$.
-- In $\mathbb{R}^3$, $(e_2, e_3, e_1)$ is right-handed and $(e_2, e_1, e_3)$ is left-handed: [[example|~36a22b7d]].
-- In $\mathbb{R}^2$, $((1, 1), (-1, 1))$ has the standard orientation, and $((1, 2), (3, 4))$ has the opposite one: [[example|~01756810]].
+- In $\mathbb{R}^3$, $(e_2, e_3, e_1)$ is right-handed and $(e_2, e_1, e_3)$ is left-handed: [[example|HRPH272492]].
+- In $\mathbb{R}^2$, $((1, 1), (-1, 1))$ has the standard orientation, and $((1, 2), (3, 4))$ has the opposite one: [[example|XMMDY7VQBK]].
 
 ### Non-examples
 
-- A complex vector space has no orientation in this sense, since a complex change of basis determinant has no sign: [[non-example|~b62c8837]].
+- A complex vector space has no orientation in this sense, since a complex change of basis determinant has no sign: [[non-example|2YFXSSX9GJ]].
 - Over a field such as $\mathbb{Q}$, the sign still makes sense, but over $\mathbb{F}_p$ there is no order, so "positive determinant" has no meaning.
 
 ### Basic properties

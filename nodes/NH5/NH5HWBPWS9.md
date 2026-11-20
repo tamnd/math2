@@ -38,17 +38,17 @@ It has about half as many factors per term as the determinant, and far fewer ter
 ### Examples
 
 - $\operatorname{pf} \begin{pmatrix} 0 & a \\ -a & 0 \end{pmatrix} = a$.
-- For $4 \times 4$, $\operatorname{pf}(A) = a_{12} a_{34} - a_{13} a_{24} + a_{14} a_{23}$; an integer matrix with Pfaffian $8$ and determinant $64$ is the [[example|~6febb6e4]].
-- Two forms of the standard symplectic matrix have Pfaffians $-1$ and $1$: [[example|~863651cc]].
+- For $4 \times 4$, $\operatorname{pf}(A) = a_{12} a_{34} - a_{13} a_{24} + a_{14} a_{23}$; an integer matrix with Pfaffian $8$ and determinant $64$ is the [[example|M0JEPXXWQM]].
+- Two forms of the standard symplectic matrix have Pfaffians $-1$ and $1$: [[example|65Q3YWX09Q]].
 
 ### Non-examples
 
-- The symmetric matrix $\begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$ over $\mathbb{R}$ has no Pfaffian, and its determinant $-1$ is not a square: [[non-example|~f0f0643f]].
-- An alternating matrix of odd size has Pfaffian $0$ by convention, because its determinant is $0$; see the [[odd size statement|~0e7877a3]].
+- The symmetric matrix $\begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$ over $\mathbb{R}$ has no Pfaffian, and its determinant $-1$ is not a square: [[non-example|Z172P2ZBQ8]].
+- An alternating matrix of odd size has Pfaffian $0$ by convention, because its determinant is $0$; see the [[odd size statement|55RX9C0ZTH]].
 
 ### Basic properties
 
-- [[Square identity|~89d141ad]]: $\operatorname{pf}(A)^2 = \det A$ for every alternating matrix of even size.
+- [[Square identity|473MBZST4D]]: $\operatorname{pf}(A)^2 = \det A$ for every alternating matrix of even size.
 - $\operatorname{pf}(B A B^T) = \det(B) \operatorname{pf}(A)$ for every $2n \times 2n$ matrix $B$.
 - $\operatorname{pf}(\lambda A) = \lambda^n \operatorname{pf}(A)$ for a $2n \times 2n$ matrix $A$, and $\operatorname{pf}(A^T) = (-1)^n \operatorname{pf}(A)$.
 - An alternating matrix over a field is invertible if and only if its Pfaffian is nonzero.

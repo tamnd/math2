@@ -57,7 +57,7 @@ A one-sided version also holds: if $AB = I_n$ for square $A$ and $B$ over $F$, t
 
 ### Generalizations
 
-The [[rank by minors|~ffa904d5]] refines condition 2: the rank of any matrix is the largest size of a nonzero minor.
+The [[rank by minors|HVHQ50TJB1]] refines condition 2: the rank of any matrix is the largest size of a nonzero minor.
 Over a commutative ring, $A$ is invertible if and only if $\det A$ is a unit, by the [[adjugate|0ENVM493VK]].
 
 ## History

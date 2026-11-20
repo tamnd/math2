@@ -35,4 +35,4 @@ So the expansion along column $j$ of $A$ is the expansion along row $j$ of $A^T$
 
 ## Variants
 
-The [[proof by multilinearity|~c72d447c]] can be run with columns in place of rows, using linearity of $\det$ in the columns.
+The [[proof by multilinearity|97HQ4MPNBS]] can be run with columns in place of rows, using linearity of $\det$ in the columns.

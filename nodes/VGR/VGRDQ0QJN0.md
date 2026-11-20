@@ -31,4 +31,4 @@ The three matrices share all rows except row $i$, so linearity in row $i$ is exa
 ## Variants
 
 With the Leibniz sum as the definition, each product $\prod_k a_{k \sigma(k)}$ contains exactly one entry of row $i$, so each term is linear in row $i$, and so is the sum.
-This is step 1 to 3 of the proof of the [[existence and uniqueness theorem|~1e90e396]].
+This is step 1 to 3 of the proof of the [[existence and uniqueness theorem|1C8RRWHD45]].

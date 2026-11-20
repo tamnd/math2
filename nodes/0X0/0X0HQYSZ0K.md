@@ -38,13 +38,13 @@ So the determinant of any matrix of $T$ gives such a number.
 ### Examples
 
 - $\det \operatorname{id}_V = 1$, and $\det(c \operatorname{id}_V) = c^n$ for a scalar $c$.
-- The map $p(x) \mapsto p(2x)$ on polynomials of degree at most $2$ has determinant $8$: [[example|~1e526ee8]].
-- The transpose map on $2 \times 2$ matrices has determinant $-1$: [[example|~f6e84b87]].
+- The map $p(x) \mapsto p(2x)$ on polynomials of degree at most $2$ has determinant $8$: [[example|GXDM4QPRN5]].
+- The transpose map on $2 \times 2$ matrices has determinant $-1$: [[example|STX4PZKC69]].
 - The rotation of $\mathbb{R}^2$ by an angle $\theta$ has determinant $\cos^2 \theta + \sin^2 \theta = 1$.
 
 ### Non-examples
 
-- A linear map $\mathbb{R}^2 \to \mathbb{R}^3$ has no determinant, because its matrices are not square: [[non-example|~884a037c]].
+- A linear map $\mathbb{R}^2 \to \mathbb{R}^3$ has no determinant, because its matrices are not square: [[non-example|WYHE1FWPHN]].
 - For a map $V \to W$ between two different spaces of equal dimension, the determinant of its matrix depends on the two bases.
 - The identity map of an infinite-dimensional space has no determinant in this sense, because it has no finite matrix.
 

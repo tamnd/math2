@@ -37,12 +37,12 @@ Others use it for the [[Weinstein-Aronszajn identity|0G24VQ1088]], $\det(I_m + A
 
 The ring must be commutative, as in every use of the determinant.
 The condition $k < n$ makes $B$ a matrix of size at least $1$.
-No invertibility is needed: the [[proof|~c3ae09a4]] works with a generic matrix.
+No invertibility is needed: the [[proof|XSZEXPCWA6]] works with a generic matrix.
 
 ### Consequences
 
 - For $k = n - 1$, the matrix $B$ is $1 \times 1$ with entry $\det A$, and the identity reads $\det A = (\det A_0)^0 \det A$.
-- For $k = n - 2$, after the interior rows and columns are moved to the front, it is the [[Desnanot-Jacobi identity|~aa63b68e]].
+- For $k = n - 2$, after the interior rows and columns are moved to the front, it is the [[Desnanot-Jacobi identity|KWW7519E58]].
 - For $k = 1$, the entries of $B$ are the $2 \times 2$ minors $a_{11} a_{ij} - a_{i1} a_{1j}$, and $\det B = a_{11}^{n-2} \det A$.
 - [[Dodgson condensation|RQ44FKS5QM]] applies the case $k = n - 2$ again and again.
 - The [[Bareiss algorithm|ZDBW3AB587]] is fraction-free elimination over the integers: its intermediate entries are bordered minors, and the division by the previous pivot is exact.
@@ -72,7 +72,7 @@ Take $A = \begin{pmatrix} 2 & 1 & 3 \\ 1 & 4 & 1 \\ 3 & 2 & 5 \end{pmatrix}$ and
 2. $b_{32} = 2 \cdot 2 - 1 \cdot 3 = 1$ and $b_{33} = 2 \cdot 5 - 3 \cdot 3 = 1$.
 3. So $\det B = 7 \cdot 1 - (-1) \cdot 1 = 8$.
 4. The identity gives $\det A = \det B / a_{11}^{1} = 8 / 2 = 4$.
-5. Check by the [[rule of Sarrus|~ca424b6f]]: $40 + 3 + 6 - 36 - 4 - 5 = 4$.
+5. Check by the [[rule of Sarrus|7H2P40X0MV]]: $40 + 3 + 6 - 36 - 4 - 5 = 4$.
 The typical use is a proof that the bordered minors of an integer matrix are divisible by powers of $\det A_0$, as in fraction-free elimination.
 A trap: the minors $b_{ij}$ all contain the whole block $A_0$; they are not the $2 \times 2$ minors of $A$ unless $k = 1$.
 

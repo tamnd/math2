@@ -42,7 +42,7 @@ If neither corner is invertible, then neither formula applies, but the [[Leibniz
 
 - For $p = q = 1$ and $a$ a unit, it gives $\det \begin{pmatrix} a & b \\ c & d \end{pmatrix} = a(d - cb/a) = ad - bc$.
 - For $C = 0$ it gives the [[block triangular rule|0J9TVTNB4K]].
-- If $A, B, C, D$ are square of the same size and $CD = DC$, then the determinant is $\det(AD - BC)$; see [[commuting blocks|~f4c12cfe]].
+- If $A, B, C, D$ are square of the same size and $CD = DC$, then the determinant is $\det(AD - BC)$; see [[commuting blocks|T4TRMJHX3S]].
 - The [[Weinstein-Aronszajn identity|0G24VQ1088]] follows by computing $\det \begin{pmatrix} I_m & -A \\ B & I_n \end{pmatrix}$ with both corners.
 
 ### Converse
@@ -53,7 +53,7 @@ A related equivalence holds: when $A$ is invertible, the block matrix is inverti
 ### Generalizations
 
 - The same method gives the inverse of a block matrix in terms of $A^{-1}$ and the inverse of the Schur complement.
-- A trap: the naive formula $\det A \det D - \det B \det C$ is false for blocks of size at least $2$; see the [[non-example|~1a876b36]].
+- A trap: the naive formula $\det A \det D - \det B \det C$ is false for blocks of size at least $2$; see the [[non-example|4WK6BCJF6D]].
 
 ## Explanations
 

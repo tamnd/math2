@@ -1,0 +1,42 @@
+---
+tag: E4H8SGZWXW
+kind: proof
+name: Proof of the change of basis rule for the determinant of a family
+msc: [15A15, 15A75]
+topics: [DTBK11SR77]
+audience: ug2
+proves: T1WN2DHS63
+methods: [0NTF6DMVAP]
+uses: [0V94H674MB, 0VTQTPQGAV, 0BMVBHTWV2, 076JGP6R3T, 04CPJ6AF00, 0Z4BWARC38]
+sources:
+  - url: https://en.wikipedia.org/wiki/Determinant
+    locator: Determinant of n vectors
+---
+
+## Proof
+
+We compare the coordinate matrices of $v_1, \dots, v_n$ in the two bases.
+
+1. Let $P$ be the $n \times n$ matrix whose column $k$ is the [[coordinate vector|0BMVBHTWV2]] $[b'_k]_B$.
+2. By the [[definition|0V94H674MB]], $\det P = \det_B(B')$.
+3. Let $v \in V$ and $c = [v]_{B'}$, so $v = \sum_k c_k b'_k$.
+4. By step 1, $b'_k = \sum_i P_{ik} b_i$ for each $k$.
+5. So $v = \sum_i \big( \sum_k P_{ik} c_k \big) b_i$.
+6. Coordinates in the [[basis|0VTQTPQGAV]] $B$ are unique, so $[v]_B = P c = P [v]_{B'}$, a [[matrix product|076JGP6R3T]].
+7. Let $M$ and $M'$ have columns $[v_j]_B$ and $[v_j]_{B'}$. By step 6, column $j$ of $M$ is $P$ times column $j$ of $M'$.
+8. So $M = P M'$.
+9. By the [[product rule|04CPJ6AF00]], $\det M = \det P \cdot \det M'$.
+10. By the definition and step 2, this reads $\det_B(v_1, \dots, v_n) = \det_B(B') \det_{B'}(v_1, \dots, v_n)$.
+11. Take $v_j = b_j$. Then $[b_j]_B$ is the column $e_j$, so $\det_B(B) = \det I_n = 1$ by the [[identity rule|0Z4BWARC38]].
+12. Step 10 with $v = B$ gives $1 = \det_B(B') \det_{B'}(B)$.
+13. Exchange the roles of $B$ and $B'$ in step 10. This gives $\det_{B'} = \det_{B'}(B) \cdot \det_B$.
+
+## Idea
+
+The coordinates in $B$ are the coordinates in $B'$ multiplied by the change of basis matrix $P$.
+So the coordinate matrices differ by the factor $P$, and the product rule turns this into the factor $\det P$.
+
+## Variants
+
+A proof without matrices uses that the alternating $n$-linear forms on $V$ form a line.
+Then $\det_B = c \det_{B'}$ for some scalar $c$, and evaluation at $B'$ gives $c = \det_B(B')$.

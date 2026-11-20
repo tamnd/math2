@@ -43,7 +43,7 @@ Without part 2 the case $m > n$ would have no formula, since there are no subset
 - For $m = 1$, it is the formula for the product of a row and a column.
 - The determinants $\det(A_S)$ and $\det(B^S)$ are [[minors|0SD528P0EK]] of order $m$.
 - Gram determinants: over $\mathbb{R}$, take $B = A^T$; then $\det(A A^T) = \sum_S \det(A_S)^2 \ge 0$.
-- Equality holds if and only if the rows of $A$ are linearly dependent, by the [[rank by minors|~ffa904d5]].
+- Equality holds if and only if the rows of $A$ are linearly dependent, by the [[rank by minors|HVHQ50TJB1]].
 - Lagrange's identity is the case $m = 2$ with rows $a$, $b$ of $A$ and $B = A^T$:
 $$\Bigl(\sum_i a_i^2\Bigr)\Bigl(\sum_i b_i^2\Bigr) - \Bigl(\sum_i a_i b_i\Bigr)^2 = \sum_{i<j} (a_i b_j - a_j b_i)^2.$$
 - Lagrange's identity proves the Cauchy-Schwarz inequality in $\mathbb{R}^n$, with the case of equality.

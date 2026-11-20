@@ -16,7 +16,7 @@ It covers the determinant of a square matrix and of an endomorphism: its definit
 ### Reading order
 
 1. [[Determinant of a 2 × 2 matrix|0ZN2J42SK7]]: the formula $ad - bc$ and its meaning as an area.
-2. [[Rule of Sarrus|~ca424b6f]]: a pattern for $3 \times 3$ determinants that fails for larger sizes.
+2. [[Rule of Sarrus|7H2P40X0MV]]: a pattern for $3 \times 3$ determinants that fails for larger sizes.
 3. [[Alternating multilinear map|0K6CH0MT0F]]: the kind of map that the determinant is.
 4. [[Determinant|00KDZRW4C0]]: the unique normalized alternating multilinear function of the columns.
 5. [[Leibniz formula|016PE4VZ8Q]]: the sum over all permutations.
@@ -44,10 +44,10 @@ It covers the determinant of a square matrix and of an endomorphism: its definit
 27. [[Matrix determinant lemma|0BC3Q6K92H]]: the determinant after a rank one update.
 28. [[Sylvester's determinant identity|7SSKBQYFW1]]: determinants of bordered minors.
 29. [[Dodgson condensation|RQ44FKS5QM]]: a recursion by $2 \times 2$ minors.
-30. [[Rank by minors|~ffa904d5]]: the rank is the largest size of a nonzero minor.
+30. [[Rank by minors|HVHQ50TJB1]]: the rank is the largest size of a nonzero minor.
 31. [[Determinant of a linear map|0X0HQYSZ0K]]: an invariant of an endomorphism.
 32. [[Determinant of a family in a basis|05CJSSXPR3]]: volume measured with a basis as unit.
-33. [[Determinant as volume scaling factor|~be9e3bea]]: $\lvert \det A \rvert$ is the volume of the image of the unit cube.
+33. [[Determinant as volume scaling factor|RC5BTSG8T2]]: $\lvert \det A \rvert$ is the volume of the image of the unit cube.
 34. [[Orientation|0QJJAQ6ZYZ]]: the meaning of the sign.
 35. [[Jacobi's formula|357FEAZ0Q4]]: the derivative of the determinant.
 36. [[Pfaffian|NH5HWBPWS9]]: the square root of the determinant of an alternating matrix.

@@ -36,5 +36,5 @@ The others are row permutations of the identity, whose determinant is the sign o
 
 ## Variants
 
-The same computation, done for any alternating multilinear function $D$, is part 2 of the [[existence and uniqueness theorem|~1e90e396]]; with $D = \det$ it gives the formula at once.
+The same computation, done for any alternating multilinear function $D$, is part 2 of the [[existence and uniqueness theorem|1C8RRWHD45]]; with $D = \det$ it gives the formula at once.
 For $n = 2$ the computation has $4$ pieces: $ad \det(e_1, e_2) + bc \det(e_2, e_1)$ survive and give $ad - bc$.

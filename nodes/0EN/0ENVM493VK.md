@@ -59,7 +59,7 @@ Take $A = \begin{pmatrix} 2 & 1 \\ 5 & 3 \end{pmatrix}$, with $\det A = 6 - 5 = 
 3. Check: $\begin{pmatrix} 2 & 1 \\ 5 & 3 \end{pmatrix} \begin{pmatrix} 3 & -1 \\ -5 & 2 \end{pmatrix} = \begin{pmatrix} 6 - 5 & -2 + 2 \\ 15 - 15 & -5 + 6 \end{pmatrix} = I_2$.
 
 The inverse has integer entries, as the special case for $\det A = \pm 1$ predicts.
-A $3 \times 3$ case is in the [[adjugate example|~ef1b2481]].
+A $3 \times 3$ case is in the [[adjugate example|BDHT6DBGC9]].
 A trap: the formula uses the transpose of the cofactor matrix; with the cofactor matrix itself, the product $AC$ is not $\det A \cdot I$ in general.
 
 ### L3 human

@@ -37,7 +37,7 @@ For the matching $\set{\set{1,3}, \set{2,4}}$, the permutation $\pi_M$ is $1 \ma
 
 Non-example: the symmetric matrix $\begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$ is not alternating, because $a_{21} \ne -a_{12}$ unless $2 = 0$ in $K$, so it has no Pfaffian in this sense.
 
-The main facts are $\operatorname{pf}(A)^2 = \det A$, the [[square identity|~89d141ad]], and $\operatorname{pf}(B A B^T) = \det(B) \operatorname{pf}(A)$ for every $2n \times 2n$ matrix $B$, where $\det$ is the [[determinant|00KDZRW4C0]].
+The main facts are $\operatorname{pf}(A)^2 = \det A$, the [[square identity|473MBZST4D]], and $\operatorname{pf}(B A B^T) = \det(B) \operatorname{pf}(A)$ for every $2n \times 2n$ matrix $B$, where $\det$ is the [[determinant|00KDZRW4C0]].
 Alternating matrices over a field are the same as [[skew-symmetric matrices|0PBY4E9GQF]] when the characteristic is not $2$.
 
 ## Explanations

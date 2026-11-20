@@ -46,7 +46,7 @@ Then $CB = 0$, so the [[Schur complement formula|0KA7A4ENVJ]] gives $\det M = \d
 ### Generalizations
 
 - When $A$ is invertible, the [[Schur complement formula|0KA7A4ENVJ]] handles a general block matrix.
-- For a general block matrix, $\det \begin{pmatrix} A & B \\ C & D \end{pmatrix} = \det A \det D - \det B \det C$ is false; the [[non-example|~1a876b36]] shows a $4 \times 4$ case.
+- For a general block matrix, $\det \begin{pmatrix} A & B \\ C & D \end{pmatrix} = \det A \det D - \det B \det C$ is false; the [[non-example|4WK6BCJF6D]] shows a $4 \times 4$ case.
 
 The [[proof by the Leibniz formula|92GVP9180G]] works over every commutative ring.
 A second argument factors $\begin{pmatrix} A & B \\ 0 & D \end{pmatrix} = \begin{pmatrix} I_m & 0 \\ 0 & D \end{pmatrix} \begin{pmatrix} A & B \\ 0 & I_n \end{pmatrix}$ and expands each factor by Laplace.
@@ -65,7 +65,7 @@ Take $M = \begin{pmatrix} 1 & 2 & 5 & 6 \\ 3 & 4 & 7 & 8 \\ 0 & 0 & 2 & 1 \\ 0 &
 
 1. $\det A = 4 - 6 = -2$ and $\det D = 6 - 1 = 5$.
 2. The formula gives $\det M = -2 \cdot 5 = -10$.
-3. Check by the [[generalized Laplace expansion|~69866df1]] along rows 1 and 2: only the columns $\{1, 2\}$ give a nonzero lower minor, so $\det M = \det A \cdot \det D = -10$.
+3. Check by the [[generalized Laplace expansion|541X51GQTV]] along rows 1 and 2: only the columns $\{1, 2\}$ give a nonzero lower minor, so $\det M = \det A \cdot \det D = -10$.
 4. Check by row operations: subtract $3$ times row 1 from row 2 to get the pivots $1, -2$, then $D$ reduces to the pivots $2, 5/2$; the product is $1 \cdot (-2) \cdot 2 \cdot 5/2 = -10$.
 The typical use is a matrix that becomes block triangular after a reordering of rows and columns.
 A trap: the zero block must be off the diagonal.

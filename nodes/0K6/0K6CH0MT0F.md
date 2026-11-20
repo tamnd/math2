@@ -39,15 +39,15 @@ They give a definition of the determinant that does not depend on a formula.
 
 The alternating $n$-linear maps $M^n \to N$ form a $K$-module, often written $\operatorname{Alt}^n(M; N)$ or $L^n_a(M; N)$.
 For $N = K$ one writes $\operatorname{Alt}^n(M)$; it is the dual of the top exterior power $\Lambda^n M$ when $M$ is free of rank $n$.
-Some books write "skew-symmetric" or "antisymmetric" for the sign rule of the [[antisymmetry theorem|~188b0ad5]].
+Some books write "skew-symmetric" or "antisymmetric" for the sign rule of the [[antisymmetry theorem|VJZVSTWYYW]].
 That rule is weaker than "alternating" in characteristic $2$.
 
 ## Remarks
 
 ### Examples
 
-- The signed area $\omega(u, v) = u_1 v_2 - u_2 v_1$ on $\mathbb{R}^2$. It is bilinear, and $\omega(u, u) = 0$; see the [[worked example|~256df11c]].
-- The [[scalar triple product|059Q2XWJDC]] $(u, v, w) \mapsto u \cdot (v \times w)$ on $\mathbb{R}^3$. It is trilinear and vanishes when two vectors are equal; see the [[second example|~24e2893f]].
+- The signed area $\omega(u, v) = u_1 v_2 - u_2 v_1$ on $\mathbb{R}^2$. It is bilinear, and $\omega(u, u) = 0$; see the [[worked example|VFFVMRTVRZ]].
+- The [[scalar triple product|059Q2XWJDC]] $(u, v, w) \mapsto u \cdot (v \times w)$ on $\mathbb{R}^3$. It is trilinear and vanishes when two vectors are equal; see the [[second example|DT0H0YQ4H7]].
 - The [[determinant|00KDZRW4C0]] of the rows of an $n \times n$ matrix, as a map $(K^n)^n \to K$.
 - The [[cross product|0N5N15HWZ7]] $(u, v) \mapsto u \times v$ from $(\mathbb{R}^3)^2$ to $\mathbb{R}^3$. It is bilinear and $u \times u = 0$.
 - For $k \le n$ and fixed columns $j_1 < \dots < j_k$, the map that sends $k$ vectors of $K^n$ to the determinant of their entries in these columns. This is an alternating $k$-linear form on $K^n$.
@@ -56,16 +56,16 @@ That rule is weaker than "alternating" in characteristic $2$.
 ### Non-examples
 
 - The [[dot product|0S52TNNTH9]] on $\mathbb{R}^2$ is bilinear but not alternating, because $e_1 \cdot e_1 = 1 \neq 0$.
-- The form $f(x, y) = xy$ on the field $\mathbb{F}_2$ is antisymmetric but not alternating, because $f(1, 1) = 1$; see the [[non-example|~a63aeed2]].
+- The form $f(x, y) = xy$ on the field $\mathbb{F}_2$ is antisymmetric but not alternating, because $f(1, 1) = 1$; see the [[non-example|QFAWSF1A04]].
 - The permanent $\operatorname{perm}\begin{pmatrix} a & b \\ c & d \end{pmatrix} = ad + bc$ is multilinear in the rows, but it is $2$ on the matrix with two rows $(1, 1)$.
 - The map $(u, v) \mapsto u_1 v_2 - u_2 v_1 + 1$ is not multilinear, because it is not $0$ when $u = 0$.
 
 ### Basic properties
 
-- An alternating map changes sign when two arguments are exchanged, and $f(v_{\sigma(1)}, \dots, v_{\sigma(n)}) = \sgn(\sigma) f(v_1, \dots, v_n)$. The converse holds when $2$ is not a zero divisor on $N$, so outside characteristic $2$ for vector spaces. See the [[antisymmetry theorem|~188b0ad5]].
+- An alternating map changes sign when two arguments are exchanged, and $f(v_{\sigma(1)}, \dots, v_{\sigma(n)}) = \sgn(\sigma) f(v_1, \dots, v_n)$. The converse holds when $2$ is not a zero divisor on $N$, so outside characteristic $2$ for vector spaces. See the [[antisymmetry theorem|VJZVSTWYYW]].
 - An alternating map is zero on each family in which one vector is a linear combination of the others. Over a field it is zero on each [[linearly dependent|0CRMGPAH83]] family, by the same theorem.
 - So on a vector space of dimension $n$, each alternating $k$-linear map with $k > n$ is zero.
-- The alternating $n$-linear forms on $K^n$ form a free $K$-module of rank $1$, with the Leibniz form as a basis. This is the [[existence and uniqueness theorem|~1e90e396]].
+- The alternating $n$-linear forms on $K^n$ form a free $K$-module of rank $1$, with the Leibniz form as a basis. This is the [[existence and uniqueness theorem|1C8RRWHD45]].
 
 ### Common errors
 
@@ -90,7 +90,7 @@ We check that $\omega(u, v) = u_1 v_2 - u_2 v_1$ is alternating and bilinear on 
 1. For fixed $v$, the map $u \mapsto u_1 v_2 - u_2 v_1$ is a linear combination of the coordinates of $u$, so it is linear.
 2. For fixed $u$, the map $v \mapsto u_1 v_2 - u_2 v_1$ is linear for the same reason.
 3. $\omega(u, u) = u_1 u_2 - u_2 u_1 = 0$, so $\omega$ is alternating.
-4. Then $\omega(v, u) = -\omega(u, v)$, by the [[antisymmetry theorem|~188b0ad5]]; directly, $v_1 u_2 - v_2 u_1 = -(u_1 v_2 - u_2 v_1)$.
+4. Then $\omega(v, u) = -\omega(u, v)$, by the [[antisymmetry theorem|VJZVSTWYYW]]; directly, $v_1 u_2 - v_2 u_1 = -(u_1 v_2 - u_2 v_1)$.
 
 The typical use is to prove that a formula equals a determinant: check that it is multilinear, alternating and $1$ on the standard basis.
 A trap: a symmetric form such as the dot product is never alternating unless it is zero, because $f(u, u) = 0$ for all $u$ forces $f(u, v) = -f(v, u) = -f(u, v)$, so $2 f(u, v) = 0$.

@@ -39,12 +39,12 @@ $$\begin{pmatrix} + & - & + & - \\ - & + & - & + \\ + & - & + & - \\ - & + & - &
 ### Examples
 
 - For $\begin{pmatrix} a & b \\ c & d \end{pmatrix}$, the cofactors are $C_{11} = d$, $C_{12} = -c$, $C_{21} = -b$ and $C_{22} = a$.
-- The cofactor matrix of a $3 \times 3$ matrix, and an expansion along row $2$; see the [[worked example|~9bb9fd5d]].
-- The cofactors of a $4 \times 4$ triangular matrix, and the expansion along every row; see the [[second example|~301f6810]].
+- The cofactor matrix of a $3 \times 3$ matrix, and an expansion along row $2$; see the [[worked example|CS8M5BY36A]].
+- The cofactors of a $4 \times 4$ triangular matrix, and the expansion along every row; see the [[second example|206N17YCRR]].
 
 ### Non-examples
 
-- The first minor $M_{ij}$ without its sign is not the cofactor when $i + j$ is odd; the expansion with unsigned minors gives a wrong value. See the [[non-example|~265ba4d6]].
+- The first minor $M_{ij}$ without its sign is not the cofactor when $i + j$ is odd; the expansion with unsigned minors gives a wrong value. See the [[non-example|4HC79H7TJR]].
 
 ### Basic properties
 
@@ -61,7 +61,7 @@ Vandermonde had already given a special case.
 ### Common errors
 
 - Forgetting the sign $(-1)^{i+j}$.
-- Using the cofactor matrix instead of its transpose for the inverse; see the [[adjugate non-example|~53fcebc0]].
+- Using the cofactor matrix instead of its transpose for the inverse; see the [[adjugate non-example|2BJC4DHCMK]].
 
 ## Explanations
 

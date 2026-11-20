@@ -48,21 +48,21 @@ In Lean's Mathlib the function is `Matrix.det`, defined by the Leibniz sum.
 ### Examples
 
 - For $n = 1$, $\det(a) = a$. For $n = 2$, $\det \begin{pmatrix} a & b \\ c & d \end{pmatrix} = ad - bc$, by the [[2 × 2 formula|0ZN2J42SK7]].
-- A $3 \times 3$ determinant, computed by the Leibniz formula, by a Laplace expansion and by row reduction, with the same value $6$; see the [[worked example|~93f1d6af]].
-- A rotation of the plane has determinant $1$, and a reflection has determinant $-1$; see the [[example on rotations and reflections|~1fbab83c]].
+- A $3 \times 3$ determinant, computed by the Leibniz formula, by a Laplace expansion and by row reduction, with the same value $6$; see the [[worked example|7YSM0NJQX1]].
+- A rotation of the plane has determinant $1$, and a reflection has determinant $-1$; see the [[example on rotations and reflections|D3F3XAZA0M]].
 - A diagonal matrix has determinant equal to the product of its diagonal entries, by the [[triangular rule|0K1KKMFHYH]].
 - The [[permutation matrix|08SP3DF8NB]] of $\sigma$ has determinant $\sgn(\sigma)$, by the [[effect of row operations|09YB3WQG38]].
 
 ### Non-examples
 
-- The [[permanent|X9B1XETBPF]] $\sum_\sigma a_{1 \sigma(1)} \cdots a_{n \sigma(n)}$ is multilinear with value $1$ on $I_n$, but it is not alternating; see the [[non-example|~7a79cba2]].
+- The [[permanent|X9B1XETBPF]] $\sum_\sigma a_{1 \sigma(1)} \cdots a_{n \sigma(n)}$ is multilinear with value $1$ on $I_n$, but it is not alternating; see the [[non-example|K9T8BNTZ2G]].
 - The [[trace|0XC1RDBY7A]] is linear in the matrix and has $\operatorname{tr} I_n = n$, so for $n \ge 2$ it is neither multilinear in the columns nor normalized.
 - A non-square matrix has no determinant.
-- The function $A \mapsto \det A + \det B_0$ for a fixed nonzero $B_0$ is not the determinant, because the determinant is not additive; see the [[counterexample on sums|~cbff1373]].
+- The function $A \mapsto \det A + \det B_0$ for a fixed nonzero $B_0$ is not the determinant, because the determinant is not additive; see the [[counterexample on sums|D5VBC7621G]].
 
 ### Basic properties
 
-- Three definitions agree: the axiomatic one, the [[Leibniz formula|016PE4VZ8Q]] and the recursive [[Laplace expansion|0C08BQ3M05]]; see the [[equivalence theorem|~1841dd6c]].
+- Three definitions agree: the axiomatic one, the [[Leibniz formula|016PE4VZ8Q]] and the recursive [[Laplace expansion|0C08BQ3M05]]; see the [[equivalence theorem|W3JN0WPZ10]].
 - It is [[multilinear in the rows|0PPG793642]], and it is zero for [[equal rows, a zero row or dependent rows|0K4VQB7HWR]].
 - [[Row operations|09YB3WQG38]] change it in a known way, and the [[determinant of a triangular matrix|0K1KKMFHYH]] is the product of the diagonal.
 - $\det A^{\mathsf{T}} = \det A$, by the [[transpose rule|0ZZQ2E1MTE]], and $\det(AB) = \det A \det B$, by [[multiplicativity|04CPJ6AF00]].

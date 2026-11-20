@@ -21,7 +21,7 @@ same_as:
 Dodgson condensation is a method to compute the [[determinant|00KDZRW4C0]] of an $n \times n$ matrix over a field by $n - 1$ steps of condensation.
 Each step replaces the current matrix by the smaller matrix of its connected $2 \times 2$ minors, and divides each of them by the matching interior entry of the matrix from two steps before.
 The method is defined when no divisor is zero, and then the last $1 \times 1$ matrix is the determinant; the [[definition|F7D849A4RZ]] gives the exact recursion.
-It matters because it uses only $2 \times 2$ determinants and exact divisions, and it rests on the [[Desnanot-Jacobi identity|~aa63b68e]].
+It matters because it uses only $2 \times 2$ determinants and exact divisions, and it rests on the [[Desnanot-Jacobi identity|KWW7519E58]].
 
 ## Motivation
 
@@ -34,12 +34,12 @@ The Desnanot-Jacobi identity expresses a determinant through four minors of size
 ### Examples
 
 - A $3 \times 3$ matrix with central entry $5$: the [[definition|F7D849A4RZ]] works it out, with result $-3$.
-- A $4 \times 4$ condensation with result $21$, checked by Laplace expansion: [[worked example|~a87ea8c1]].
-- A $4 \times 4$ case with the negative divisor $-1$ and result $-14$: [[second example|~dd500009]].
+- A $4 \times 4$ condensation with result $21$, checked by Laplace expansion: [[worked example|FZJMAYK2DN]].
+- A $4 \times 4$ case with the negative divisor $-1$ and result $-14$: [[second example|WHN8H0777X]].
 
 ### Non-examples
 
-- A matrix with a zero interior entry: the method gives $0/0$ and stops; see the [[non-example|~93e1d396]].
+- A matrix with a zero interior entry: the method gives $0/0$ and stops; see the [[non-example|AD6GEXKCB1]].
 - A matrix over a ring with zero divisors: the divisions need not be defined, even when the divisors are nonzero.
 
 ### Basic properties

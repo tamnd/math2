@@ -29,8 +29,8 @@ For a square matrix, "alternating in the rows" means that the map is alternating
 
 The condition is about equal arguments in any two positions, not only in adjacent positions.
 For a multilinear map, zero on equal adjacent arguments already implies zero on all equal pairs, because an exchange of adjacent arguments changes the sign.
-An alternating map changes sign when two arguments are exchanged, by the [[antisymmetry theorem|~188b0ad5]].
-The converse needs that $2$ is not a zero divisor on $N$; it fails over $\mathbb{F}_2$, as the [[form $xy$ on $\mathbb{F}_2$|~a63aeed2]] shows.
+An alternating map changes sign when two arguments are exchanged, by the [[antisymmetry theorem|VJZVSTWYYW]].
+The converse needs that $2$ is not a zero divisor on $N$; it fails over $\mathbb{F}_2$, as the [[form $xy$ on $\mathbb{F}_2$|QFAWSF1A04]] shows.
 
 ## Explanations
 
