@@ -1,0 +1,43 @@
+---
+tag: 36GFGXK44K
+kind: example
+name: The columns of the 3 × 3 identity matrix are the standard basis vectors
+msc: ["15A99"]
+topics: [Y1ESNQ2V52]
+audience: school
+instance_of: [06DW9BAWB1]
+uses: [6NHZRCKJNW, 0CCQV3884B, 0V7ZD6P7RK]
+sources:
+  - url: https://en.wikipedia.org/wiki/Identity_matrix
+    locator: Properties
+  - url: https://en.wikipedia.org/wiki/Standard_basis
+    locator: lead section
+---
+
+## Example
+
+Let
+$$I_3 = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{pmatrix}, \qquad x = \begin{pmatrix} x_1 \\ x_2 \\ x_3 \end{pmatrix}.$$
+
+1. By the [[definition|6NHZRCKJNW]], column $j$ of $I_3$ has the entry $1$ in row $j$ and $0$ in the other rows.
+2. So the columns of $I_3$ are $e_1 = (1, 0, 0)^{\mathsf{T}}$, $e_2 = (0, 1, 0)^{\mathsf{T}}$ and $e_3 = (0, 0, 1)^{\mathsf{T}}$, the [[standard basis vectors|0V7ZD6P7RK]].
+3. The [[matrix-vector product|0CCQV3884B]] $I_3 x$ is the combination $x_1 e_1 + x_2 e_2 + x_3 e_3$ of the columns.
+4. This combination is $(x_1, x_2, x_3)^{\mathsf{T}} = x$. So $I_3 x = x$ for every $x$.
+5. For instance, $I_3 (2, -1, 7)^{\mathsf{T}} = 2e_1 - e_2 + 7e_3 = (2, -1, 7)^{\mathsf{T}}$.
+
+## Remarks
+
+The rows of $I_3$ are the transposes $e_1^{\mathsf{T}}, e_2^{\mathsf{T}}, e_3^{\mathsf{T}}$, so $I_3$ is [[symmetric|0VR671PHE5]].
+For any matrix $A$ with 3 columns, $Ae_j$ is column $j$ of $A$, so $AI_3$ has the same columns as $A$.
+
+## Explanations
+
+### L1 human
+
+The identity matrix is built from the three unit vectors that point along the axes.
+Multiplying it by a vector gives the same vector back.
+
+### L2 human
+
+Step 3 uses the column view of $Ax$.
+The identity matrix is the matrix whose columns are the images of $e_1, e_2, e_3$ under the identity map.

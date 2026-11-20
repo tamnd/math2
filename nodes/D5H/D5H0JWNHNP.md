@@ -3,9 +3,9 @@ tag: D5H0JWNHNP
 kind: example
 name: The entries of a matrix with two subscripts
 msc: ["00A35", "15A99"]
-topics: [Z2WNQ1DNTX]
+topics: [Z2WNQ1DNTX, Y1ESNQ2V52]
 audience: school
-instance_of: [QKEX4PD029]
+instance_of: [QKEX4PD029, 0VD9ZSWWJG]
 uses: [QKEX4PD029, 0VD9ZSWWJG, 09DXWYRD43]
 sources:
   - url: https://en.wikipedia.org/wiki/Matrix_(mathematics)

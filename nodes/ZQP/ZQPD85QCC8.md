@@ -1,0 +1,75 @@
+---
+tag: ZQPD85QCC8
+kind: statement
+role: theorem
+name: The centre of the endomorphism algebra consists of the scalar maps
+msc: ["15A04", "16S50"]
+topics: [9080WQTZ3M]
+audience: ug2
+about: [5JA4CYT1TB, MVT64B3B6H]
+uses: [7BDGQ1Q46E, CQSZTPMSEP]
+sources:
+  - url: https://en.wikipedia.org/wiki/Center_(ring_theory)
+    locator: Examples
+  - url: https://en.wikipedia.org/wiki/Center_(ring_theory)
+    locator: lead section
+  - book: isbn:9783031410253
+    locator: Chapter 3
+---
+
+## Statement
+
+Let $F$ be a field and let $V$ be a vector space over $F$, of any dimension.
+Then the [[centre|CQSZTPMSEP]] of the [[algebra of endomorphisms|5JA4CYT1TB]] $\End(V)$ is the set of scalar maps:
+$$Z(\End(V)) = \{a\, \id_V : a \in F\}.$$
+So an endomorphism $T$ satisfies $TS = ST$ for every $S \in \End(V)$ if and only if $T = a \id_V$ for some $a \in F$.
+If $V \ne \{0\}$, the map $a \mapsto a \id_V$ is an isomorphism of $F$ onto the centre.
+
+## Remarks
+
+### Why each hypothesis is needed
+
+- The theorem quantifies over all $S \in \End(V)$. A single endomorphism can commute with many non-scalar maps: every polynomial in $T$ commutes with $T$.
+- The scalars must commute with each other. Over a noncommutative division ring, the map $v \mapsto av$ is not linear in general, since $a(bv) \ne b(av)$.
+- For $V = \{0\}$, the algebra is $\{0\}$, and the statement holds with $a \id_V = 0$ for every $a$.
+
+### Consequences
+
+- For $\dim V = n$, the centre of the [[matrix ring|AB2MD5CD13]] $M_n(F)$ is the set of [[scalar matrices|067NKSBEWT]] $aI$. This is the [[matrix form of the theorem|DVZ1V4A884]].
+- For $\dim V \ge 2$, $\End(V)$ is not commutative, since its centre is a proper subspace.
+
+### Converse
+
+The scalar maps lie in the centre for every $V$: $(a\id)S = aS = S(a\id)$, by homogeneity of $S$.
+This is the easy direction of the theorem.
+
+### Generalizations
+
+- For a commutative ring $R$, the centre of the matrix ring $M_n(R)$ consists of the scalar matrices $rI$ with $r \in R$.
+- For a module $M$ over a commutative ring $R$, the maps $r \id_M$ always lie in the centre of $\End_R(M)$.
+
+## History
+
+The notation $Z$ for the centre comes from the German word *Zentrum*, meaning centre.
+The matrix form of the theorem is a standard example of a centre in ring theory.
+The basis-free form proved here also holds in infinite dimension, where matrices are not available.
+
+## Explanations
+
+### L1 human
+
+A scalar map $v \mapsto av$ commutes with every linear map, since linear maps respect scaling.
+The theorem says that no other endomorphism commutes with all of them.
+
+### L2 human
+
+To test whether $T$ is central, it is enough to compare $T$ with projections onto lines.
+If $T$ commutes with the projection onto the line through $v$, then $T(v)$ lies on that line.
+A map that sends each vector to a multiple of itself is a scalar map.
+The trap is to stop after checking a few maps $S$; the condition involves every $S$.
+
+### L3 human
+
+The theorem shows that $\End(V)$ is a central algebra over $F$.
+For finite-dimensional $V$, it is also simple, so it is a central simple algebra, and its class in the Brauer group of $F$ is trivial.
+In representation theory, the same argument shows that the commutant of $\End(V)$ acting on $V$ is $F$.

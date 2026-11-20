@@ -1,0 +1,41 @@
+---
+tag: 5F9NN7QTXA
+kind: example
+name: The trace is not multiplicative
+msc: ["15A15"]
+topics: [Y1ESNQ2V52]
+audience: ug1
+not_instance_of:
+  - target: 0VTH8KPCG2
+    note: the trace M2(Q) → Q is not a ring homomorphism, because tr(I · I) = 2 but tr I · tr I = 4, and tr I = 2 is not 1
+uses: [07PTPSZPME]
+sources:
+  - url: https://en.wikipedia.org/wiki/Trace_(linear_algebra)
+    locator: Trace of a product
+---
+
+## Example
+
+Work in $M_2(\mathbb{Q})$.
+
+1. $\operatorname{tr} I_2 = 1 + 1 = 2$, so a [[ring homomorphism|0VTH8KPCG2]] would need $\operatorname{tr} I_2 = 1$, and this fails.
+2. $\operatorname{tr}(I_2 \cdot I_2) = \operatorname{tr} I_2 = 2$, but $\operatorname{tr} I_2 \cdot \operatorname{tr} I_2 = 4$.
+3. For $A = \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}$ and $B = \begin{pmatrix} 0 & 0 \\ 1 & 0 \end{pmatrix}$, $AB = \begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix}$, so $\operatorname{tr}(AB) = 1$ while $\operatorname{tr} A \operatorname{tr} B = 0$.
+
+## Remarks
+
+The [[trace|07PTPSZPME]] is additive but not multiplicative.
+In fact $M_n(F)$ has no ring homomorphism onto $F$ for $n \ge 2$, because $M_n(F)$ has no nontrivial two-sided ideals; see [[this theorem|Z46WD9W1ZS]].
+The determinant is multiplicative, but it is not additive.
+
+## Explanations
+
+### L1 human
+
+The trace of a product is usually not the product of the traces.
+Even for the identity matrix, $2 \neq 4$.
+
+### L2 human
+
+The trace keeps the structure of addition but not of multiplication.
+What survives of multiplication is the cyclic property $\operatorname{tr}(AB) = \operatorname{tr}(BA)$.

@@ -2,8 +2,11 @@
 tag: 06DW9BAWB1
 kind: object
 name: Identity matrix
-msc: [15A99]
+msc: ["15A99"]
+topics: [Y1ESNQ2V52]
+audience: school
 instance_of: [0VD9ZSWWJG]
+uses: [0CP7YY6NAG]
 sources:
   - url: https://en.wikipedia.org/wiki/Identity_matrix
     locator: lead section
@@ -14,16 +17,19 @@ same_as:
 
 ## Description
 
-Let $R$ be a ring and let $n \ge 0$ be an integer.
+Let $R$ be a ring with identity and let $n \ge 0$ be an integer.
 The *identity matrix* $I_n$ is the $n \times n$ [[matrix|0VD9ZSWWJG]] over $R$ with entries $1$ on the main diagonal and $0$ elsewhere.
-Its entries are $(I_n)_{ij} = \delta_{ij}$, where $\delta_{ij} = 1$ if $i = j$ and $\delta_{ij} = 0$ otherwise.
+Its entries are $(I_n)_{ij} = \delta_{ij}$, the Kronecker delta, as in the [[formal definition|6NHZRCKJNW]].
 For each $m \times n$ matrix $A$, $A I_n = A$ and $I_m A = A$.
 
 ## Remarks
 
-The identity matrix $I_n$ is the identity element of the [[matrix ring|0FHVPRAE60]] $M_n(R)$.
-It is the matrix of the identity map in any basis.
-For example, $I_2 = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}$.
+- The identity matrix $I_n$ is the identity element of the [[matrix ring|AB2MD5CD13]] $M_n(R)$.
+- It is the matrix of the identity map in any basis.
+- For example, $I_2 = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}$.
+- The [[columns of $I_3$|36GFGXK44K]] are the standard basis vectors of $R^3$.
+- The [[all-ones matrix|QCV57HQ0PE]] is a common wrong guess for an identity for multiplication.
+- Its scalar multiples $cI_n$ are the [[scalar matrices|067NKSBEWT]].
 
 ## Explanations
 
@@ -32,3 +38,8 @@ For example, $I_2 = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}$.
 The identity matrix has ones on the diagonal and zeros everywhere else.
 It plays the role of the number $1$: multiplying by it changes nothing.
 As a map, it leaves each vector where it is.
+
+### L2 human
+
+There is one identity matrix for each order $n$.
+In the equation $I_m A = A = A I_n$ for a rectangular $A$, the two identity matrices have different sizes.

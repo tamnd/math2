@@ -1,0 +1,46 @@
+---
+tag: CJA2QVWQCE
+kind: example
+name: Stopping at an echelon form does not give the inverse
+msc: ["15A09"]
+topics: [P8J6QR66TJ]
+audience: ug1
+not_instance_of:
+  - target: 0Z83DHFMYM
+    note: the reduction stops at an echelon form, so the right block is the record E of the operations with EA in echelon form, and E is not the inverse of A
+uses: [0Z83DHFMYM, 0VYCDGMJJJ, 0T6MWGZSXA, 032Q9FB8MT]
+sources:
+  - url: https://en.wikipedia.org/wiki/Gaussian_elimination
+    locator: Finding the inverse of a matrix
+---
+
+## Example
+
+Let $A = \begin{pmatrix} 2 & 1 \\ 1 & 1 \end{pmatrix}$ over $\mathbb{Q}$, with $A^{-1} = \begin{pmatrix} 1 & -1 \\ -1 & 2 \end{pmatrix}$.
+
+1. Start with $[A \mid I_2] = \left(\begin{array}{cc|cc} 2 & 1 & 1 & 0 \\ 1 & 1 & 0 & 1 \end{array}\right)$.
+2. $R_2 \to R_2 - \tfrac{1}{2} R_1$ gives $\left(\begin{array}{cc|cc} 2 & 1 & 1 & 0 \\ 0 & \tfrac{1}{2} & -\tfrac{1}{2} & 1 \end{array}\right)$.
+3. The left block $U = \begin{pmatrix} 2 & 1 \\ 0 & \tfrac{1}{2} \end{pmatrix}$ is an [[echelon form|0VYCDGMJJJ]] with two pivots, so $A$ is invertible.
+4. The right block is $E = \begin{pmatrix} 1 & 0 \\ -\tfrac{1}{2} & 1 \end{pmatrix}$, which is not $A^{-1}$.
+5. Check: $EA = \begin{pmatrix} 2 & 1 \\ -1 + 1 & -\tfrac{1}{2} + 1 \end{pmatrix} = \begin{pmatrix} 2 & 1 \\ 0 & \tfrac{1}{2} \end{pmatrix} = U \ne I_2$.
+6. To finish, $R_1 \to R_1 - 2R_2$ gives row 1 equal to $(2, 0 \mid 2, -2)$.
+7. Then $R_1 \to \tfrac{1}{2} R_1$ and $R_2 \to 2R_2$ give $\left(\begin{array}{cc|cc} 1 & 0 & 1 & -1 \\ 0 & 1 & -1 & 2 \end{array}\right)$, and the right block is now $A^{-1}$.
+
+## Remarks
+
+The right block is always the product $E$ of the elementary matrices used so far, and the left block is $EA$.
+So the right block equals $A^{-1}$ exactly when the left block is $I_n$.
+An echelon form is enough to decide invertibility, but not to read off the inverse.
+
+## Explanations
+
+### L1 human
+
+If we stop the row steps too early, the right half is not yet the inverse.
+We must continue until the left half is exactly the identity matrix.
+
+### L2 human
+
+The point is that the method of [[computing the inverse by row reduction|0Z83DHFMYM]] has a fixed end: the identity on the left.
+A typical use of the echelon form of step 3 is to solve one system by back substitution, which is cheaper than inverting.
+A trap: the matrix $E$ of step 4 is useful, since $EA = U$ gives $A = E^{-1}U$, an LU factorization.

@@ -1,0 +1,43 @@
+---
+tag: GHV77C35RT
+kind: example
+name: The matrix ring of real 2 × 2 matrices contains a copy of the complex numbers
+msc: ["16S50", "15A99"]
+topics: [Y1ESNQ2V52]
+audience: ug1
+instance_of: [AB2MD5CD13]
+uses: [0FHVPRAE60, 076JGP6R3T, 0BVXADM10P]
+sources:
+  - url: https://en.wikipedia.org/wiki/Complex_number
+    locator: Matrix representation of complex numbers
+---
+
+## Example
+
+In the [[matrix ring|0FHVPRAE60]] $M_2(\mathbb{R})$, let
+$$C = \Bigl\{ \begin{pmatrix} a & -b \\ b & a \end{pmatrix} : a, b \in \mathbb{R} \Bigr\}, \qquad \phi(a + bi) = \begin{pmatrix} a & -b \\ b & a \end{pmatrix}.$$
+
+1. $\phi$ respects sums: $\phi(z) + \phi(w)$ is computed entry by entry, and it is $\phi(z + w)$.
+2. For $z = a + bi$ and $w = c + di$, the [[product|076JGP6R3T]] is
+$$\begin{pmatrix} a & -b \\ b & a \end{pmatrix}\begin{pmatrix} c & -d \\ d & c \end{pmatrix} = \begin{pmatrix} ac - bd & -(ad + bc) \\ ad + bc & ac - bd \end{pmatrix}.$$
+3. Since $zw = (ac - bd) + (ad + bc)i$, step 2 says $\phi(z)\phi(w) = \phi(zw)$.
+4. $\phi(1) = I$, and $\phi$ is injective, because $a$ and $b$ can be read off the first column.
+5. So $C$ is a subring of $M_2(\mathbb{R})$ isomorphic to $\mathbb{C}$. In particular, $C$ is commutative, although $M_2(\mathbb{R})$ is not.
+6. The image of $i$ is the rotation $R = \begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}$, and $R^2 = -I = \phi(-1)$.
+
+## Remarks
+
+A nonzero element of $C$ has the inverse $\frac{1}{a^2 + b^2}\begin{pmatrix} a & b \\ -b & a \end{pmatrix}$, so $C$ is a field inside a ring with zero divisors.
+The multiplication by $z$ on $\mathbb{C} \cong \mathbb{R}^2$ is the linear map with matrix $\phi(z)$ in the basis $1, i$.
+
+## Explanations
+
+### L1 human
+
+Complex numbers can be written as special $2 \times 2$ real matrices.
+Adding and multiplying the matrices does the same as adding and multiplying the complex numbers.
+
+### L2 human
+
+This is a first example of a representation: an abstract ring is mapped into a matrix ring by a ring homomorphism.
+The quaternions have a similar representation by $2 \times 2$ complex matrices.

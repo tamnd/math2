@@ -1,0 +1,40 @@
+---
+tag: DAVRDS5NV4
+kind: example
+name: The powers of the diagonal matrix diag(2, −1, 3)
+msc: ["15A99"]
+topics: [Y1ESNQ2V52]
+audience: school
+instance_of: [044JNC7ZAA]
+uses: [0Q9PGXD9E4, 076JGP6R3T, 0ASJVEFA9J]
+sources:
+  - url: https://en.wikipedia.org/wiki/Diagonal_matrix
+    locator: Matrix operations
+---
+
+## Example
+
+Let $D = \operatorname{diag}(2, -1, 3) = \begin{pmatrix} 2 & 0 & 0 \\ 0 & -1 & 0 \\ 0 & 0 & 3 \end{pmatrix}$, a [[diagonal matrix|0Q9PGXD9E4]].
+
+1. By the [[product rule|076JGP6R3T]], $(D^2)_{ij} = \sum_k d_{ik} d_{kj}$. Only $k = i = j$ gives a nonzero term, so $D^2 = \operatorname{diag}(4, 1, 9)$.
+2. By [[induction|0ASJVEFA9J]] on $k$, $D^k = \operatorname{diag}(2^k, (-1)^k, 3^k)$: if it holds for $k$, then $D^{k+1} = D^k D = \operatorname{diag}(2^{k+1}, (-1)^{k+1}, 3^{k+1})$ by step 1.
+3. For example, $D^5 = \operatorname{diag}(32, -1, 243)$.
+4. $D$ is invertible with $D^{-1} = \operatorname{diag}(\tfrac{1}{2}, -1, \tfrac{1}{3})$, since the product is $\operatorname{diag}(1, 1, 1) = I$.
+5. For the polynomial $p(x) = x^2 - x - 6 = (x - 3)(x + 2)$, $p(D) = \operatorname{diag}(p(2), p(-1), p(3)) = \operatorname{diag}(-4, -4, 0)$.
+
+## Remarks
+
+The rule of step 5 holds for every polynomial: $p(\operatorname{diag}(d)) = \operatorname{diag}(p(d_1), \dots, p(d_n))$.
+Thus $p(D) = 0$ exactly when $p$ vanishes at every $d_i$; for $D$ this means $(x - 2)(x + 1)(x - 3)$ divides $p$.
+
+## Explanations
+
+### L1 human
+
+To raise a diagonal matrix to a power, raise each diagonal number to that power.
+The zeros off the diagonal stay zero.
+
+### L2 human
+
+The axes are stretched by $2$, $-1$ and $3$; doing it $k$ times stretches them by the $k$-th powers.
+For a general matrix, the [[diagonalisation|07SQCNV233]] $A = PDP^{-1}$ gives $A^k = PD^kP^{-1}$ by the same idea.
