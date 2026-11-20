@@ -1,0 +1,37 @@
+---
+tag: 8EX79BTCZ3
+kind: proof
+name: Proof that kernels and images of commuting maps are invariant
+msc: ["15A04"]
+topics: [Z6S6PWMJPH]
+audience: ug1
+proves: 8YNE1HTZEP
+methods: [0NTF6DMVAP]
+uses: [0EP59ESQ94, 0BNEXSKNRV, 02YFME3RGW]
+sources:
+  - url: https://en.wikipedia.org/wiki/Invariant_subspace
+    locator: For a single operator
+---
+
+## Proof
+
+We check the definition of an invariant subspace in each case.
+
+1. Let $S T = T S$ and let $v \in \ker S$. Then $S(T(v)) = T(S(v)) = T(0) = 0$. So $T(v) \in \ker S$, and $\ker S$ is [[$T$-invariant|0EP59ESQ94]].
+2. Let $w \in \im S$, so $w = S(u)$ for some $u \in V$. Then $T(w) = T(S(u)) = S(T(u))$, which lies in $\im S$. So $\im S$ is $T$-invariant.
+3. Let $p, q \in F[x]$. Evaluation at $T$ respects products, so $p(T) q(T) = (pq)(T) = (qp)(T) = q(T) p(T)$, by the definition of the [[value at $T$|0BNEXSKNRV]].
+4. By step 3, $p(T)$ commutes with $q(T)$. Steps 1 and 2 with $S = p(T)$ and $q(T)$ in place of $T$ show that $\ker p(T)$ and $\im p(T)$ are $q(T)$-invariant.
+5. With $q = x$, we have $q(T) = T$. So $\ker p(T)$ and $\im p(T)$ are $T$-invariant. This proves part 2.
+6. Let $U$ and $W$ be $T$-invariant, and let $v = u + w$ with $u \in U$ and $w \in W$. Then $T(v) = T(u) + T(w)$ with $T(u) \in U$ and $T(w) \in W$. So $T(v) \in U + W$.
+7. Let $v \in U \cap W$. Then $T(v) \in U$ because $U$ is invariant, and $T(v) \in W$ because $W$ is invariant. So $T(v) \in U \cap W$.
+8. Steps 1 and 2 prove part 1, steps 3 to 5 prove part 2, and steps 6 and 7 prove part 3.
+
+## Idea
+
+If $S$ commutes with $T$, then $T$ can be moved past $S$.
+So $T$ cannot take a vector that $S$ kills to a vector that $S$ does not kill.
+Polynomials in $T$ commute with $T$, which gives the main case.
+
+## Variants
+
+In module language, $p(T)$ is an endomorphism of the $F[x]$-module $V$, and kernels and images of module maps are submodules.

@@ -1,0 +1,55 @@
+---
+tag: HBVWZ0FXWC
+kind: example
+name: Eigenvalues of the shift operators on sequences
+msc: ["15A18", "47A10"]
+topics: [6R1D6QPY3S]
+audience: ug2
+instance_of: [0BQAA2BK3Q, 0N6960W0BV]
+not_instance_of:
+  - target: 0J5EMJRRFM
+    note: The space of sequences is infinite-dimensional, so the shifts have no characteristic polynomial
+illustrates: [08CJB2NQ92]
+uses: [0ZND7NQ970, 0B5H4208Z9, 0AYEPBQMAW]
+sources:
+  - url: https://en.wikipedia.org/wiki/Shift_operator
+    locator: Sequences
+  - book: isbn:9783031410253
+    locator: Chapter 5
+---
+
+## Example
+
+Let $F$ be a field and let $V = F^{\mathbb{N}}$ be the space of sequences $(x_0, x_1, x_2, \dots)$ in $F$.
+Let $L(x_0, x_1, x_2, \dots) = (x_1, x_2, x_3, \dots)$ be the left shift and $R(x_0, x_1, \dots) = (0, x_0, x_1, \dots)$ the right shift.
+These are the [[shift operators|MRJ5JPW9HN]].
+
+1. Let $\lambda \in F$ and $v = (1, \lambda, \lambda^2, \dots)$. Then $Lv = (\lambda, \lambda^2, \lambda^3, \dots) = \lambda v$, and $v \ne 0$.
+2. So every $\lambda \in F$ is an [[eigenvalue|0ZND7NQ970]] of $L$, with [[eigenvector|0B5H4208Z9]] $v$.
+3. If $Lx = \lambda x$, then $x_{k+1} = \lambda x_k$ for all $k$. So $x_k = \lambda^k x_0$ and $x = x_0 v$.
+4. So each [[eigenspace|0AYEPBQMAW]] of $L$ is the line spanned by $v$.
+5. Suppose $Rx = \lambda x$. The first entries give $0 = \lambda x_0$, and the entry $k + 1$ gives $x_k = \lambda x_{k+1}$.
+6. If $\lambda = 0$, then $x_k = 0$ for all $k$ by step 5.
+7. If $\lambda \ne 0$, then $x_0 = 0$, and $x_{k+1} = \lambda^{-1} x_k$ gives $x_k = 0$ for all $k$ by induction.
+8. So $Rx = \lambda x$ forces $x = 0$, and $R$ has no eigenvalue.
+
+## Remarks
+
+- In finite dimension over $\C$, every operator has an eigenvalue. Here $R$ has none, even over $\C$.
+- So the [[existence of an eigenvalue over an algebraically closed field|08CJB2NQ92]] needs finite dimension.
+- $LR = \id$ but $RL \ne \id$. In finite dimension a one-sided inverse is two-sided.
+- On Banach spaces such as $\ell^2$, the spectrum of an operator is larger than its set of eigenvalues. This belongs to the [[spectrum of an operator|XXXSST2DR5]].
+
+## Explanations
+
+### L1 human
+
+The left shift drops the first term of a sequence.
+A geometric sequence $1, \lambda, \lambda^2, \dots$ becomes $\lambda$ times itself.
+The right shift puts a $0$ in front, and no nonzero sequence is a multiple of its own right shift.
+
+### L2 human
+
+The two shifts show that infinite-dimensional operators behave differently.
+One has every scalar as an eigenvalue, the other has none.
+A trap is to apply determinant arguments here: there is no characteristic polynomial in infinite dimension.

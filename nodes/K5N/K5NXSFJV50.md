@@ -1,0 +1,55 @@
+---
+tag: K5NXSFJV50
+kind: example
+name: Diagonalizing a 3 × 3 matrix with a repeated eigenvalue
+msc: ["15A20", "15A18"]
+topics: [Z6S6PWMJPH]
+audience: ug1
+instance_of: [07SQCNV233, D0AP2R7272]
+illustrates: [CDB8KCNNG9]
+uses: [0Y17PEKF24, 039HF58KQ5, 0AYEPBQMAW, 0TWTS88TWN]
+sources:
+  - url: https://en.wikipedia.org/wiki/Diagonalizable_matrix
+    locator: Examples
+  - book: isbn:9780321982384
+    locator: Section 5.3
+---
+
+## Example
+
+Let $A = \begin{pmatrix} 2 & 1 & 1 \\ 1 & 2 & 1 \\ 1 & 1 & 2 \end{pmatrix}$ over $\R$.
+
+1. Write $A = I + J$, where $J$ is the matrix of all ones. Then $J(1, 1, 1) = 3(1, 1, 1)$, and $J v = 0$ for each $v$ with $x + y + z = 0$.
+2. So $A(1, 1, 1) = 4(1, 1, 1)$, and $A v = v$ for each $v$ in the plane $x + y + z = 0$.
+3. The [[characteristic polynomial|0VSSPAFM2C]] is $(t - 4)(t - 1)^2$. Its roots are $4$ (simple) and $1$ (double).
+4. The [[eigenspace|0G0RFPG8HR]] of $1$ is $\ker(A - I) = \ker J$, the plane $x + y + z = 0$, with the basis $(1, -1, 0)$ and $(1, 0, -1)$. So the geometric multiplicity of $1$ is $2$, equal to the algebraic one.
+5. The eigenspace of $4$ is spanned by $(1, 1, 1)$.
+6. Let $P = \begin{pmatrix} 1 & 1 & 1 \\ 1 & -1 & 0 \\ 1 & 0 & -1 \end{pmatrix}$ and $D = \operatorname{diag}(4, 1, 1)$. Then $\det P = 3$, and $P^{-1} = \frac{1}{3} \begin{pmatrix} 1 & 1 & 1 \\ 1 & -2 & 1 \\ 1 & 1 & -2 \end{pmatrix}$.
+7. Multiply back: $A P = \begin{pmatrix} 4 & 1 & 1 \\ 4 & -1 & 0 \\ 4 & 0 & -1 \end{pmatrix} = P D$. Since $P$ is invertible, $A = P D P^{-1}$.
+8. So $A$ is [[diagonalizable|07SQCNV233]], although its eigenvalue $1$ is repeated.
+
+## Remarks
+
+The example shows that a repeated eigenvalue does not prevent diagonalization: what matters is the dimension of its eigenspace, by the [[test by multiplicities|CDB8KCNNG9]].
+The matrix is symmetric, so the [[spectral theorem|06J4PXRG22]] even gives an orthonormal basis of eigenvectors, for example after the Gram-Schmidt process in the plane $x + y + z = 0$.
+For $\begin{pmatrix} 1 & 1 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 4 \end{pmatrix}$, the characteristic polynomial is also $(t - 4)(t - 1)^2$, but the eigenspace of $1$ is a line, and the matrix is not diagonalizable.
+
+## Explanations
+
+### L1 human
+
+This matrix stretches the diagonal direction through $(1, 1, 1)$ by $4$.
+It does not move any arrow in the flat plane where the three coordinates add up to $0$.
+A plane gives two independent directions, and the diagonal gives a third one.
+So we have three independent special directions in space, which is enough to make the matrix diagonal.
+
+### L2 human
+
+We check the inverse in step 6.
+
+1. Row $1$ of $P$ times column $1$ of $3P^{-1}$ is $1 + 1 + 1 = 3$.
+2. Row $2$ of $P$ times column $2$ of $3P^{-1}$ is $1 + 2 + 0 = 3$.
+3. Row $2$ of $P$ times column $1$ of $3P^{-1}$ is $1 - 1 + 0 = 0$.
+4. The other entries are checked in the same way, and $P \cdot 3P^{-1} = 3I$.
+
+The trap is to count the eigenvalues with multiplicity and conclude from "three eigenvalues" that $A$ is diagonalizable; the comparison matrix in the remarks has the same eigenvalues and is not.

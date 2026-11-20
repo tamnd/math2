@@ -1,0 +1,85 @@
+---
+tag: AH34SFJ8SF
+kind: statement
+role: theorem
+name: The ideal of annihilating polynomials is nonzero and principal
+aliases: [existence-of-annihilating-polynomials]
+msc: ["15A18"]
+topics: [6R1D6QPY3S]
+audience: ug2
+about: [0PBN8VEKY8]
+uses: [052M4SX57M, 0BNEXSKNRV, 0MYSA6MYNA]
+sources:
+  - url: https://en.wikipedia.org/wiki/Minimal_polynomial_(linear_algebra)
+    locator: Formal definition
+  - book: isbn:9780135367971
+  - book: isbn:9783031410253
+    locator: Chapter 5
+---
+
+## Statement
+
+Let $F$ be a field, let $V$ be a vector space over $F$, and let $T \colon V \to V$ be a linear map.
+Let $I_T = \{p \in F[x] : p(T) = 0\}$ be the set of [[annihilating polynomials|0PBN8VEKY8]] of $T$.
+
+1. $I_T$ is an [[ideal|096Z9MP2ME]] of $F[x]$.
+2. If $\dim V = n$ is finite, then $I_T$ contains a nonzero polynomial of degree at most $n^2$.
+3. If $I_T \ne 0$, then there is exactly one monic polynomial $g$ with $I_T = g\,F[x]$. It is the unique monic polynomial of least degree in $I_T$.
+4. If $I_T \ne 0$ and $d = \deg g$, then $I, T, \dots, T^{d-1}$ is a basis of $F[T] = \{p(T) : p \in F[x]\}$. So $\dim F[T] = d$.
+
+The same holds for an $n \times n$ matrix $A$ over $F$.
+
+## Remarks
+
+The proof is in [[the proof by counting dimensions|47AJE1N8C3]].
+The polynomial $g$ of part 3 is the [[minimal polynomial|03NDVCSHSB]] of $T$.
+Part 2 is a weak bound; the [[Cayley-Hamilton theorem|0F765KFC2J]] gives a nonzero annihilating polynomial of degree $n$.
+
+### Why each hypothesis is needed
+
+- Part 2 needs finite dimension. The [[derivative on smooth functions|1SKH5XJ5RB]] has every $\lambda \in \R$ as an eigenvalue. A nonzero $p$ with $p(D) = 0$ would give $p(\lambda) = 0$ for all $\lambda$, which is impossible. So $I_D = 0$.
+- Part 3 needs $I_T \ne 0$. The zero ideal has the generator $0$, which is not monic.
+
+### Consequences
+
+- In finite dimension, the minimal polynomial exists and is unique.
+- Every annihilating polynomial is a multiple of $g$. This is the theorem that the [[minimal polynomial divides every annihilating polynomial|0VTAD25A3G]].
+- If $T$ is invertible, then $g(0) \ne 0$. Otherwise $g = xh$ and $T h(T) = 0$ give $h(T) = 0$ with $\deg h < d$.
+- In that case $T^{-1} = -g(0)^{-1} h_1(T)$, where $g = x h_1 + g(0)$. So $T^{-1}$ is a polynomial in $T$.
+
+### Generalizations
+
+- The same proof works for any element $a$ of a finite-dimensional algebra $B$ over $F$: the kernel of $p \mapsto p(a)$ is a nonzero ideal. For a field extension, this gives the minimal polynomial of an algebraic element, a topic of field theory.
+- For a module over $F[x]$, $I_T$ is the annihilator of the module.
+
+## History
+
+Hoffman and Kunze introduce the minimal polynomial as the monic generator of this ideal.
+
+## Explanations
+
+### L1 human
+
+The powers $I, T, T^2, \dots$ of a linear map live in a space of finite dimension.
+So they cannot all be independent, and some combination of them is zero.
+That combination gives a polynomial that kills $T$.
+All such polynomials are multiples of one smallest monic polynomial.
+
+### L2 human
+
+We find $I_P$ for the projection $P = \begin{pmatrix} 1 & 1 \\ 0 & 0 \end{pmatrix}$, studied in the [[projection example|F5TTF31NR5]].
+
+1. $P^2 = \begin{pmatrix} 1 & 1 \\ 0 & 0 \end{pmatrix} = P$, so $x^2 - x \in I_P$.
+2. A monic polynomial $x - c$ of degree $1$ gives $P - cI = \begin{pmatrix} 1 - c & 1 \\ 0 & -c \end{pmatrix}$, which is never $0$ because of the entry $1$.
+3. A nonzero constant $c$ gives $cI \ne 0$.
+4. So $g = x^2 - x$ is the monic polynomial of least degree in $I_P$, and $I_P = (x^2 - x)$.
+5. Part 4: $F[P]$ has the basis $I, P$, so $\dim F[P] = 2$.
+
+The typical use is to prove that the minimal polynomial exists.
+A trap: the bound $n^2$ in part 2 is far from sharp; the least degree is at most $n$.
+
+### L3 human
+
+Evaluation $F[x] \to \End_F(V)$ has kernel $I_T$ and image $F[T]$, so $F[T] \cong F[x]/I_T$.
+In finite dimension the image is finite-dimensional, so the kernel is nonzero.
+This is the same argument that shows that every element of a finite field extension is algebraic.

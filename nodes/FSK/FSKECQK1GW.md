@@ -1,0 +1,85 @@
+---
+tag: FSKECQK1GW
+kind: statement
+role: proposition
+name: Characterizations of nilpotent endomorphisms
+msc: ["15A04", "15A18"]
+topics: [Z6S6PWMJPH]
+audience: ug2
+about: [063D5Z2C70]
+uses: [0M8MHYERTY, 0MKABWDRNC, 0BZ81AJNWF, 0ZND7NQ970]
+sources:
+  - url: https://en.wikipedia.org/wiki/Nilpotent_matrix
+    locator: Characterization
+  - book: isbn:9783031410253
+    locator: Chapter 8
+---
+
+## Statement
+
+Let $F$ be a field, let $V$ be a vector space over $F$ of finite dimension $n \ge 1$, and let $T \colon V \to V$ be linear.
+The following conditions are equivalent.
+
+1. $T$ is [[nilpotent|063D5Z2C70]], that is, $T^k = 0$ for some $k \ge 1$.
+2. $T^n = 0$.
+3. There is a basis of $V$ in which the matrix of $T$ is strictly [[upper triangular|0N4XY7Z3NN]], that is, upper triangular with zero diagonal.
+4. The [[characteristic polynomial|0J5EMJRRFM]] of $T$ is $t^n$.
+
+If these hold, then $0$ is an [[eigenvalue|0BQAA2BK3Q]] of $T$, and it is the only one.
+If $F$ is [[algebraically closed|0PF6TM8TWT]], then the conditions are also equivalent to:
+
+5. $0$ is the only eigenvalue of $T$.
+
+## Remarks
+
+### Why each hypothesis is needed
+
+- Condition 5 needs the characteristic polynomial to split. Over $\R$, the matrix $\begin{pmatrix} 0 & 0 & 0 \\ 0 & 0 & -1 \\ 0 & 1 & 0 \end{pmatrix}$ has $p = t(t^2 + 1)$. Its only real eigenvalue is $0$, but it is not nilpotent.
+- Finite dimension is needed for condition 2. The derivative on $\R[x]$ kills each polynomial after finitely many steps, but no single power is $0$.
+
+### Consequences
+
+- The minimal polynomial of a nilpotent $T$ is $t^k$ with $k \le n$, where $k$ is the least power with $T^k = 0$.
+- A nilpotent $T$ has trace $0$ and determinant $0$, from condition 4.
+- A nonzero nilpotent $T$ is not [[diagonalizable|07SQCNV233]], since a diagonal matrix with only the eigenvalue $0$ is $0$.
+- If $S$ and $T$ are nilpotent and $S T = T S$, then $S + T$ is nilpotent. This uses the [[binomial theorem for commuting matrices|DS9TS6AFMW]].
+
+### Converse
+
+Condition 3 is also sufficient on its own: every strictly upper triangular matrix is nilpotent, by [[the triangular power argument|AW5RBMW7RK]].
+
+### Generalizations
+
+Over any commutative ring, a matrix $A$ is nilpotent exactly when all coefficients of its characteristic polynomial except the leading one are nilpotent.
+Over a field this reduces to condition 4.
+In Lie theory, [[Engel's theorem|V0ZWMA3FTH]] gives a simultaneous strictly upper triangular form for a Lie algebra of nilpotent matrices.
+
+## History
+
+The words "nilpotent" and "idempotent" go back to Peirce, in his Linear Associative Algebra of 1870.
+The triangular form of condition 3 is the case of a single eigenvalue $0$ in [[triangularization|0363JMQ42Y]].
+
+## Explanations
+
+### L1 human
+
+A nilpotent matrix becomes the zero matrix after you multiply it by itself enough times.
+In size $n$, it never needs more than $n$ factors.
+Its only eigenvalue is $0$, and in a good basis all its entries on and below the diagonal are zero.
+
+### L2 human
+
+Test $A = \begin{pmatrix} 2 & -4 \\ 1 & -2 \end{pmatrix}$.
+
+1. The trace is $0$ and the determinant is $-4 + 4 = 0$, so $p_A = t^2$.
+2. By condition 4, $A$ is nilpotent, and by condition 2, $A^2 = 0$.
+3. Check: $A^2 = \begin{pmatrix} 4 - 4 & -8 + 8 \\ 2 - 2 & -4 + 4 \end{pmatrix} = 0$.
+4. $\ker A$ is spanned by $(2, 1)$. In the basis $((2, 1), (1, 0))$, $A(1, 0) = (2, 1)$, so the matrix is $\begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}$.
+
+The typical use is to test nilpotence by the characteristic polynomial instead of computing many powers.
+The trap is to test the entries: $A$ has no zero entries, but it is nilpotent.
+
+### L3 human
+
+The nilpotent matrices of size $n$ form a closed set, the nilpotent cone, cut out by the coefficients of the characteristic polynomial.
+Up to similarity, they are classified by the partitions of $n$, through the sizes of their Jordan blocks.

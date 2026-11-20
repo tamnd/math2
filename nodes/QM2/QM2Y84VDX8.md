@@ -1,0 +1,70 @@
+---
+tag: QM2Y84VDX8
+kind: statement
+role: theorem
+name: Minimum-norm solution of an underdetermined system
+msc: [15A06, 15A09]
+topics: [8GQVME4SZZ]
+audience: ug1
+about: [QJ0P26J9BV]
+uses: [0EX045E2BP, 0EP73HK4C4, 0PQ2GGY1QV, 0EWQEYRVA8, 0EB9N0S33C, 0PSRCMCM5X, 0Q8HZTJC7G]
+sources:
+  - url: https://en.wikipedia.org/wiki/Moore%E2%80%93Penrose_inverse
+    locator: Minimum norm solution to a linear system
+  - book: isbn:9781733146678
+    locator: Chapter 4
+---
+
+## Statement
+
+Let $\mathbb{K} = \R$ or $\C$ with the standard inner product, and let $A$ be an $m \times n$ matrix over $\mathbb{K}$ with [[conjugate transpose|0EX045E2BP]] $A^*$.
+Let $b \in \mathbb{K}^m$, and assume that $Ax = b$ has a solution.
+Then:
+
+1. Among all solutions of $Ax = b$, there is exactly one solution $x_0$ of smallest norm.
+2. $x_0$ is the unique solution in $\operatorname{Col}(A^*)$, which over $\R$ is the [[row space|0EP73HK4C4]] of $A$. Every solution is $x = x_0 + z$ with $z$ in the [[null space|0PQ2GGY1QV]] of $A$, and $\norm{x}^2 = \norm{x_0}^2 + \norm{z}^2$.
+3. For every solution $x$, $x_0$ is the [[orthogonal projection|0Q8HZTJC7G]] of $x$ onto $\operatorname{Col}(A^*)$.
+4. Full row rank. If the [[rank|0EWQEYRVA8]] of $A$ is $m$, that is, if the rows of $A$ are linearly independent, then $A A^*$ is [[invertible|0EB9N0S33C]], the system $Ax = b$ has a solution for every $b$, and
+$$x_0 = A^* (A A^*)^{-1} b.$$
+5. In the case of part 4, $A^* (A A^*)^{-1}$ is the [[Moore-Penrose inverse|0PSRCMCM5X]] $A^+$ of $A$, so $x_0 = A^+ b$.
+
+The [[proof|CA0AYVS1XD]] combines the orthogonality of the null space and $\operatorname{Col}(A^*)$ with the Pythagorean theorem.
+
+## Remarks
+
+### Why each hypothesis is needed
+
+- A solution must exist. If $Ax = b$ has no solution, parts 1 to 3 say nothing; the natural replacement is the least-squares solution of least norm, which is $A^+ b$.
+- Full row rank in part 4: for $A = \begin{pmatrix} 1 & 1 \\ 1 & 1 \end{pmatrix}$, $A A^{\mathsf{T}} = \begin{pmatrix} 2 & 2 \\ 2 & 2 \end{pmatrix}$ is singular, so the formula fails. Parts 1 to 3 still hold for $b = (2, 2)$, with $x_0 = (1, 1)$.
+- The norm is the norm of the inner product. For another norm, such as $\norm{x}_1 = \sum_j \abs{x_j}$, the minimizer need not be unique: for $x_1 + x_2 = 1$, every solution with $x_1, x_2 \ge 0$ has $\norm{x}_1 = 1$.
+
+### Consequences
+
+- The minimum-norm solution is the point of the solution set $x_0 + \operatorname{Nul}(A)$ that is closest to the origin. So $\norm{x_0}$ is the distance from $0$ to this affine subspace.
+- For one equation $a^{\mathsf{T}} x = \beta$ with $a \ne 0$ in $\R^n$, part 4 gives $x_0 = \frac{\beta}{a^{\mathsf{T}} a} a$ and $\norm{x_0} = \abs{\beta} / \norm{a}$, the distance from the origin to a hyperplane.
+
+### Generalizations
+
+For any $A$ and $b$, the vector $A^+ b$ is the least-squares solution of least norm; see the [[Moore-Penrose inverse|0YY8VX28JR]] and the [[least-squares solution from a reduced singular value decomposition|SBP2PCHH9M]].
+This statement is the case where the least-squares solutions are exact solutions.
+
+## Explanations
+
+### L1 human
+
+An underdetermined system usually has infinitely many solutions.
+Among them, one is shorter than all others.
+It is the solution that has no component in the null space of $A$.
+
+### L2 human
+
+For $A = \begin{pmatrix} 1 & 1 & 0 \\ 0 & 1 & 1 \end{pmatrix}$ and $b = (2, 2)$, the [[worked example|SAXMQJ4PKE]] gives $x_0 = (2/3, 4/3, 2/3)$ with $\norm{x_0}^2 = 8/3$.
+Other solutions, such as $(2, 0, 2)$ and $(0, 2, 0)$, are longer.
+The typical use is to pick one natural solution of a system with free variables, for example in control or in signal recovery.
+The trap is to use $A^{\mathsf{T}} (A A^{\mathsf{T}})^{-1}$ when the rows are dependent; then $A A^{\mathsf{T}}$ is singular.
+The other trap is to confuse this formula with $(A^{\mathsf{T}} A)^{-1} A^{\mathsf{T}}$, which belongs to independent columns and least squares.
+
+### L3 human
+
+The map $b \mapsto x_0$ is linear, and it is the inverse of the bijection $A|_{\operatorname{Col}(A^*)} \colon \operatorname{Col}(A^*) \to \operatorname{Col}(A)$.
+This is the description of $A^+$ by the four fundamental subspaces: $A^+$ inverts $A$ from the column space back to the row space, and it is zero on $\operatorname{Nul}(A^*)$.

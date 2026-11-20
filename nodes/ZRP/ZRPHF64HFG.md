@@ -3,6 +3,8 @@ tag: ZRPHF64HFG
 kind: proof
 name: Proof of the QR decomposition by clearing the first column
 msc: [15A23, 65F25]
+topics: [8GQVME4SZZ]
+audience: ug1
 proves: 0ERWG4NXQ9
 uses: [0D6RMJ10M9, 0QRBVFJ50X, 0MKABWDRNC, 0EX045E2BP, 0VGSYBWHV2, 09VYHEF2VT, 0Y85GYEGSF, 0753Y2X5K6, 09GK5PS824, 04CPJ6AF00, 0K1KKMFHYH, FBSAPTP1PR]
 sources:
@@ -11,6 +13,7 @@ sources:
 
 ## Proof
 
+This proof covers part 4 of the statement, the square case; the [[proof by Gram-Schmidt|KHFJXQDZGC]] covers parts 1 to 3.
 We prove existence by induction on $n$, and uniqueness by comparing two factorisations.
 
 1. For $x, y \in \C^n$ let $\ip{x}{y} = y^* x = \sum_i x_i \overline{y_i}$, where $^*$ is the [[conjugate transpose|0EX045E2BP]]. This is an [[inner product|0VGSYBWHV2]], since it is linear in $x$, $\ip{y}{x} = \overline{\ip{x}{y}}$, and $\ip{x}{x} = \sum_i \abs{x_i}^2 > 0$ for $x \ne 0$.
@@ -50,4 +53,6 @@ We prove existence by induction on $n$, and uniqueness by comparing two factoris
 
 ## Idea
 
-A unitary matrix can turn any vector into a multiple of $e_1$. Doing this to the first column of $A$ leaves a smaller block, which we factor by induction. For uniqueness, two factorisations differ by a matrix that is both unitary and triangular with positive diagonal, and only the identity is both.
+A unitary matrix can turn any vector into a multiple of $e_1$.
+Doing this to the first column of $A$ leaves a smaller block, which we factor by induction.
+For uniqueness, two factorisations differ by a matrix that is both unitary and triangular with positive diagonal, and only the identity is both.

@@ -5,7 +5,7 @@ name: A nilpotent 2 × 2 matrix with no zero entries
 msc: ["15A99"]
 topics: [Y1ESNQ2V52]
 audience: ug1
-instance_of: [07BSPZPSMF]
+instance_of: [07BSPZPSMF, 063D5Z2C70]
 illustrates: [N40XPYS89W]
 uses: [0419GJC84P, 076JGP6R3T]
 sources:

@@ -1,0 +1,49 @@
+---
+tag: YT9XQ7NNJZ
+kind: proof
+name: Proof of the formulas for the orthogonal projection
+msc: [15A04, 46C05]
+topics: [8GQVME4SZZ]
+audience: ug1
+proves: AK3JJ5HHG2
+uses: [0Q8HZTJC7G, 0SP7P0G7KQ, GQF2KG1R1N, 0EX045E2BP, 0EB9N0S33C, 0EVHJFTG9Z, 0PDVQEP0ZC]
+methods: [0NTF6DMVAP]
+sources:
+  - book: isbn:9780321982384
+    locator: Section 6.3
+  - url: https://en.wikipedia.org/wiki/Projection_(linear_algebra)
+    locator: Formulas
+---
+
+## Proof
+
+By the [[orthogonal decomposition|0SP7P0G7KQ]], each $v \in V$ is $v = u + u'$ with unique $u \in U$ and $u' \in U^\perp$, and $Pv = u$ by the [[definition|0Q8HZTJC7G]].
+So to show $Pv = p$, it is enough to show that $p \in U$ and $v - p \in U^\perp$.
+We call this the test.
+
+1. Linearity: let $v, w \in V$ and $a, b \in \mathbb{K}$. Then $av + bw = (aPv + bPw) + (a(v - Pv) + b(w - Pw))$. The first part lies in the subspace $U$, and the second in the subspace $U^\perp$. The test gives $P(av + bw) = aPv + bPw$.
+2. For $u \in U$, the splitting $u = u + 0$ passes the test, so $Pu = u$.
+3. For every $v$, $Pv \in U$, so step 2 gives $P(Pv) = Pv$. Hence $P^2 = P$.
+4. The image of $P$ lies in $U$ by the definition, and contains $U$ by step 2. So the image is $U$.
+5. If $v \in U^\perp$, the splitting $v = 0 + v$ passes the test, so $Pv = 0$. If $Pv = 0$, then $v = 0 + (v - Pv)$ with $v - Pv \in U^\perp$, so $v \in U^\perp$. Hence the kernel is $U^\perp$. This proves part 1.
+6. Part 2 is part 2 of the orthogonal decomposition theorem.
+7. Part 3: set $e_i = u_i / \norm{u_i}$. These vectors are pairwise orthogonal and have norm $1$, and there are $k = \dim U$ of them, so they form an orthonormal basis of $U$.
+8. Linearity in the first argument and conjugate linearity in the second give $\ip{v}{e_i} e_i = \frac{1}{\norm{u_i}^2} \ip{v}{u_i} u_i = \frac{\ip{v}{u_i}}{\ip{u_i}{u_i}} u_i$. Part 2 now gives part 3.
+9. Part 4, invertibility: let $x \in \mathbb{K}^k$ with $A^* A x = 0$. Then $\norm{Ax}^2 = (Ax)^* (Ax) = x^* (A^* A x) = 0$, by the rule $(BC)^* = C^* B^*$ for the [[conjugate transpose|0EX045E2BP]].
+10. So $Ax = 0$. The columns of $A$ are [[linearly independent|0EVHJFTG9Z]] and $Ax$ is the combination of the columns with coefficients $x_j$, so $x = 0$.
+11. Hence the $k \times k$ matrix $A^* A$ has null space $\set{0}$, and it is [[invertible|0EB9N0S33C]].
+12. Part 4, formula: let $v \in \mathbb{K}^n$, and set $c = (A^* A)^{-1} A^* v$ and $p = A c$. Then $p$ is a combination of the columns of $A$, so $p \in U$.
+13. $A^* (v - p) = A^* v - A^* A (A^* A)^{-1} A^* v = A^* v - A^* v = 0$. So $v - p \in \operatorname{Nul}(A^*)$.
+14. By part 1 of the [[orthogonality of the fundamental subspaces|GQF2KG1R1N]], $\operatorname{Nul}(A^*) = \operatorname{Col}(A)^\perp = U^\perp$. So $v - p \in U^\perp$.
+15. The test gives $Pv = p = A (A^* A)^{-1} A^* v$. Over $\R$, $A^* = A^{\mathsf{T}}$. This proves part 4.
+16. Part 5: entry $(i, j)$ of $Q^* Q$ is $q_i^* q_j = \ip{q_j}{q_i}$, which is $1$ for $i = j$ and $0$ otherwise. So $Q^* Q = I$, and part 4 gives $P = Q I^{-1} Q^* = Q Q^*$.
+
+## Idea
+
+The orthogonal projection is fixed by two conditions: the result lies in $U$, and the error is orthogonal to $U$.
+Each formula produces a vector of $U$, and a short computation shows that the error is orthogonal to $U$.
+For the matrix formula, the error condition is $A^* (v - p) = 0$, which is a linear system for the coefficients of $p$.
+
+## Variants
+
+Part 4 also follows from part 2 with the QR decomposition: if $A = Q R$ with $R$ invertible, then $A (A^* A)^{-1} A^* = Q R (R^* R)^{-1} R^* Q^* = Q Q^*$; see the [[QR decomposition|0ERWG4NXQ9]].
