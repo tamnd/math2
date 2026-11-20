@@ -1,0 +1,62 @@
+---
+tag: 25VGETDK53
+kind: example
+name: Two readings of every man loves a woman
+msc: ["03B65", "03B10"]
+topics: [NJB94B39QK]
+audience: research
+instance_of: [FT512R206H]
+uses: [FT512R206H, F8E0PCTM2R, Y9B9CVY6SJ]
+sources:
+  - url: https://plato.stanford.edu/entries/montague-semantics/
+    locator: Montague Semantics (SEP entry), section 2.5
+---
+
+## Example
+
+In [[Montague grammar|FT512R206H]], the sentence "Every man loves a woman" has two derivations with different meanings.
+We use the translations of [[the grammar for every man|F8E0PCTM2R]], extended by these:
+
+- "a" translates to $\lambda P \lambda Q\, \exists y\, (P(y) \land Q(y))$, so "a woman" translates to $\lambda Q\, \exists y\, (\mathbf{woman}(y) \land Q(y))$ after [[beta reduction|Y9B9CVY6SJ]];
+- "loves" translates to a constant $\mathbf{love}$ of type $\langle e, \langle e, t \rangle \rangle$; we write $\mathbf{love}(x, y)$ for "$x$ loves $y$";
+- a transitive verb $\tau$ and a noun phrase $\eta$ give the verb phrase $\lambda x\, \eta'(\lambda y\, \tau'(x, y))$.
+
+Reading 1: "every" has wide scope.
+
+1. "loves a woman" translates to $\lambda x\, \exists y\, (\mathbf{woman}(y) \land \mathbf{love}(x, y))$, after one beta reduction.
+2. Applying "every man" and reducing gives
+$$\varphi_1 = \forall x\, (\mathbf{man}(x) \to \exists y\, (\mathbf{woman}(y) \land \mathbf{love}(x, y))).$$
+
+Reading 2: "a woman" has wide scope, by the quantifying-in rule.
+
+3. Derive "every man loves him$_1$" with the variable $y_1$ for him$_1$. It translates to $\forall x\, (\mathbf{man}(x) \to \mathbf{love}(x, y_1))$.
+4. Quantifying-in replaces him$_1$ by "a woman". The semantic rule applies the translation of "a woman" to $\lambda y_1$ of step 3. This gives
+$$\varphi_2 = \exists y_1\, (\mathbf{woman}(y_1) \land \forall x\, (\mathbf{man}(x) \to \mathbf{love}(x, y_1))).$$
+
+Claim: $\varphi_2$ entails $\varphi_1$, but $\varphi_1$ does not entail $\varphi_2$.
+
+5. Assume $\varphi_2$ in a model, with a witness $w$. Let $x$ be a man. Then $\mathbf{love}(x, w)$ and $\mathbf{woman}(w)$, so $x$ satisfies $\exists y\, (\mathbf{woman}(y) \land \mathbf{love}(x, y))$. So $\varphi_1$ holds.
+6. Take the domain $\set{m_1, m_2, w_1, w_2}$, with $\mathbf{man} = \set{m_1, m_2}$, $\mathbf{woman} = \set{w_1, w_2}$ and $\mathbf{love} = \set{(m_1, w_1), (m_2, w_2)}$.
+7. Each man loves a woman, so $\varphi_1$ is true.
+8. The woman $w_1$ is not loved by $m_2$, and $w_2$ is not loved by $m_1$. So no woman is loved by every man, and $\varphi_2$ is false.
+
+## Remarks
+
+The two derivations produce the same string, so the ambiguity is in the derivational history, not in the words.
+The derivation tree of reading 2 is larger than the constituent structure, because him$_1$ is introduced and then removed.
+Cooper storage, Discourse Representation Theory and type-lifting rules are later methods for the same ambiguity.
+For "Every woman loves one man" the SEP entry notes that the two readings are logically independent.
+
+## Explanations
+
+### L1 human
+
+"Every man loves a woman" can mean that each man has his own beloved.
+It can also mean that there is one woman whom all men love.
+Montague grammar builds the sentence in two ways, and each way gives one of the meanings.
+
+### L2 human
+
+The quantifying-in rule first builds the sentence with a placeholder pronoun, and then puts "a woman" in its place.
+Its semantic rule binds the variable of the pronoun by the quantifier of "a woman", so this quantifier takes wide scope.
+The second reading is stronger: it implies the first, and the model in step 6 shows that the converse fails.

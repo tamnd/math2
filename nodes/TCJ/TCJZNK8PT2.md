@@ -3,7 +3,7 @@ tag: TCJZNK8PT2
 kind: example
 name: The order is definable in the field of reals
 msc: ["03C07", "12D15"]
-topics: [NJDME6F845]
+topics: [NJDME6F845, AY09KYSW81]
 audience: ug2
 instance_of: [CY1TXHF6KQ]
 uses: [1DQ1M6ZWS4, 08J2M1JYAG, 1WTCZB4DVB]

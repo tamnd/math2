@@ -3,7 +3,7 @@ tag: BD4PEHWBRX
 kind: example
 name: Divisibility, evenness and primality as formulas of arithmetic
 msc: ["03F30", "03B10"]
-topics: [QHCRN4JVG0]
+topics: [QHCRN4JVG0, AY09KYSW81]
 audience: ug2
 instance_of: [CY1TXHF6KQ]
 illustrates: [D8SD54M5PN]

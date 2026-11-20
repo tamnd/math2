@@ -1,0 +1,49 @@
+---
+tag: 29C6DJHAD2
+kind: example
+name: A guarded division formula under strong Kleene disjunction
+msc: ["03B50", "03B60"]
+topics: [NJB94B39QK]
+audience: ug2
+instance_of: [F5SP7HQFFS]
+uses: [F5SP7HQFFS, SZHA10A9X7, BCK5QXQXA6]
+sources:
+  - url: https://en.wikipedia.org/wiki/Three-valued_logic
+    locator: Kleene and Priest logics
+  - url: https://plato.stanford.edu/entries/logic-manyvalued/
+    locator: Many-Valued Logic (SEP entry), section 2
+---
+
+## Example
+
+Let $x$ range over the integers, and let $x/x$ be undefined at $x = 0$ and equal to $1$ otherwise.
+In [[partial logic|F5SP7HQFFS]], an atom with an undefined term has the value $\mathsf{U}$.
+Consider $\varphi(x) := x = 0 \lor x/x = 1$, with the [[strong Kleene|SZHA10A9X7]] disjunction: $\max$ on $\mathsf{F} < \mathsf{U} < \mathsf{T}$.
+
+1. At $x = 0$: $x = 0$ is $\mathsf{T}$ and $x/x = 1$ is $\mathsf{U}$. So $\varphi(0) = \max(\mathsf{T}, \mathsf{U}) = \mathsf{T}$.
+2. At $x \neq 0$: $x = 0$ is $\mathsf{F}$ and $x/x = 1$ is $\mathsf{T}$. So $\varphi(x) = \max(\mathsf{F}, \mathsf{T}) = \mathsf{T}$.
+3. So $\varphi(x)$ is $\mathsf{T}$ for every $x$, and $\forall x\, \varphi(x)$ is true.
+
+With the [[weak Kleene|BCK5QXQXA6]] tables, any undefined argument makes the result undefined.
+Then $\varphi(0) = \mathsf{U}$, and $\forall x\, \varphi(x)$ is not true.
+
+## Remarks
+
+The formula expresses "if $x \neq 0$ then $x/x = 1$", which every reader accepts.
+Strong Kleene logic agrees, because a true disjunct decides a disjunction even when the other disjunct is undefined.
+The order of the disjuncts does not matter in strong Kleene logic; in programming languages with short-circuit "or", it does.
+So strong Kleene disjunction is the commutative form of short-circuit evaluation.
+
+## Explanations
+
+### L1 human
+
+The rule "if $x$ is not zero, then $x$ divided by $x$ is $1$" is true for every $x$.
+At $x = 0$ the division makes no sense, but the "if" part already fails, so the rule holds.
+Strong Kleene logic gets this right: "true or undefined" is true.
+
+### L2 human
+
+Check the two cases $x = 0$ and $x \neq 0$.
+In each case, one disjunct is true, so the disjunction is true.
+A trap is to use weak Kleene tables, where "true or undefined" is undefined; then a correct specification fails.

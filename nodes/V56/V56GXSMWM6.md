@@ -1,0 +1,54 @@
+---
+tag: V56GXSMWM6
+kind: example
+name: The integer and rational orders are not elementarily equivalent
+msc: ["03C07"]
+topics: [AY09KYSW81]
+audience: ug2
+not_instance_of:
+  - target: P3B1V182N4
+    note: the density sentence is true in the rational order and false in the integer order
+uses: [P3B1V182N4, DKFGQTRYZE, 2W4S2H4VYA]
+sources:
+  - url: https://en.wikipedia.org/wiki/Elementary_equivalence
+    locator: Elementarily equivalent structures
+  - book: isbn:9780387987606
+    locator: Chapter 1
+---
+
+## Example
+
+Let $L = \set{<}$.
+We check that $(\Z, <)$ and $(\Q, <)$ are not [[elementarily equivalent|P3B1V182N4]] by giving a [[sentence|DKFGQTRYZE]] true in one and false in the other.
+
+1. Let $\delta = \forall x \, \forall y \, (x < y \to \exists z \, (x < z \land z < y))$, the density sentence.
+2. In $\Q$, for $x < y$ take $z = (x + y)/2$. So $(\Q, <) \models \delta$.
+3. In $\Z$, take $x = 0$ and $y = 1$. No integer $z$ satisfies $0 < z < 1$. So $(\Z, <) \models \neg\delta$.
+4. So $\delta \in \operatorname{Th}(\Q, <) \setminus \operatorname{Th}(\Z, <)$, and $(\Z, <) \not\equiv (\Q, <)$.
+
+A second separating sentence is $\forall x \, \exists y \, (x < y \land \neg\exists z \, (x < z \land z < y))$, "every element has an immediate successor": in $\Z$ take $y = x + 1$; in $\Q$, for every $y > x$ the element $(x + y)/2$ lies between.
+
+## Remarks
+
+Both orders are countable, infinite, linear and without endpoints, and they agree on many sentences, for instance $\forall x \, \exists y \, (x < y)$.
+They are also not isomorphic, but the failure of elementary equivalence says more than nonisomorphism, since isomorphic structures are elementarily equivalent.
+$(\Q, <)$ is a model of the complete theory of [[dense linear orders without endpoints|2W4S2H4VYA]], and $(\Z, <)$ is not.
+
+## Explanations
+
+### L1 human
+
+The integers come in steps: after $0$ comes $1$, and there is nothing in between.
+The fractions have no steps: between any two of them there is another one.
+The sentence "between any two elements there is a third" is true for the fractions and false for the integers.
+So the two orders can be told apart by a first-order sentence.
+
+### L2 human
+
+We check the successor sentence at $x = 3$.
+
+1. In $\Z$, take $y = 4$. Then $3 < 4$, and no integer $z$ has $3 < z < 4$.
+2. In $\Q$, let $y > 3$. Then $z = (3 + y)/2$ satisfies $3 < z < y$. So no $y$ is an immediate successor of $3$.
+
+The typical use of such a sentence is to prove that two structures are not elementarily equivalent.
+A trap is to think that two countable infinite linear orders without endpoints must be elementarily equivalent.

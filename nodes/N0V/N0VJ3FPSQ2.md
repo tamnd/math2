@@ -1,0 +1,53 @@
+---
+tag: N0VJ3FPSQ2
+kind: example
+name: The complex numbers and the algebraic numbers are elementarily equivalent
+msc: ["03C07", "03C60"]
+topics: [AY09KYSW81]
+audience: ug2
+instance_of: [P3B1V182N4]
+uses: [P3B1V182N4, MT8TDVPBXB, 0PF6TM8TWT, 0MNF0BYFQC, ZR7Y5C235P, D7TR0YWR9H, 01TQB88H4C, 0W7FBYS1F1]
+sources:
+  - url: https://en.wikipedia.org/wiki/Complete_theory
+    locator: Examples
+  - book: isbn:9780387987606
+    locator: Chapter 2
+---
+
+## Example
+
+Let $L = \set{+, -, \cdot, 0, 1}$, and let $\overline{\Q} \subseteq \C$ be the field of [[algebraic numbers|0MNF0BYFQC]].
+We check that $(\C, +, -, \cdot, 0, 1) \equiv (\overline{\Q}, +, -, \cdot, 0, 1)$, that is, that the two fields are [[elementarily equivalent|P3B1V182N4]], and that they are not isomorphic.
+
+1. Both are [[algebraically closed fields|0PF6TM8TWT]] of characteristic $0$. For $\C$ this is the fundamental theorem of algebra. For $\overline{\Q}$: a root of a monic polynomial with algebraic coefficients is algebraic over $\Q$.
+2. So both are models of the theory $\mathrm{ACF}_0$, the field axioms with the sentences "every monic polynomial of degree $n$ has a root" for $n \ge 1$ and $\neg(1 + \cdots + 1 = 0)$ with $p$ ones for each prime $p$.
+3. $\mathrm{ACF}_0$ has no finite models: a field of characteristic $0$ contains $0, 1, 1 + 1, \dots$, which are distinct.
+4. Two algebraically closed fields of characteristic $0$ are isomorphic if they have the same [[transcendence degree|D7TR0YWR9H]] over $\Q$. A field of uncountable cardinality $\kappa$ has transcendence degree $\kappa$, so $\mathrm{ACF}_0$ is $\kappa$-categorical for each uncountable $\kappa$.
+5. By the [[Łoś-Vaught test|ZR7Y5C235P]], $\mathrm{ACF}_0$ is complete. So, as in the order example, every $L$-sentence has the same truth value in $\C$ and in $\overline{\Q}$.
+6. $\overline{\Q}$ is [[countable|01TQB88H4C]], since there are countably many polynomials over $\Q$ and each has finitely many roots. $\C$ is [[uncountable|0W7FBYS1F1]]. So the fields are not isomorphic.
+
+## Remarks
+
+The two fields have the same first-order theory, the theory [[ACF|MT8TDVPBXB]] in characteristic $0$.
+So a first-order statement about polynomials over $\C$, with integer coefficients, holds over $\C$ exactly when it holds over $\overline{\Q}$.
+The fields $\overline{\Q}$ and the algebraic closure of $\Q(t)$ are both countable models of $\mathrm{ACF}_0$, of transcendence degree $0$ and $1$; they are elementarily equivalent and not isomorphic, so equal cardinality does not help.
+The ordered field $(\R, +, \cdot, <)$ and the real algebraic numbers form a similar pair for the theory of [[real closed fields|DDY3Q3PJ6W]].
+
+## Explanations
+
+### L1 human
+
+The complex numbers and the algebraic numbers are two number systems in which every polynomial equation has a solution.
+A first-order statement in the language of addition and multiplication cannot tell them apart.
+But the algebraic numbers can be listed one after another, and the complex numbers cannot, so they are different fields.
+
+### L2 human
+
+We test the sentence $\sigma = \exists x \, (x \cdot x + 1 = 0)$.
+
+1. In $\C$, $x = i$ satisfies $i^2 + 1 = 0$.
+2. $i$ is a root of $x^2 + 1$, a polynomial with rational coefficients, so $i \in \overline{\Q}$.
+3. So $\sigma$ holds in both fields, as the example predicts.
+
+The typical use of the example is to move a statement about polynomials from $\C$ to a countable field, or back.
+A trap is to use $\pi$ in a sentence: $\pi$ is not named by any term, and the language sees only what terms built from $0$ and $1$ can name.
