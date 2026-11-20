@@ -1,0 +1,56 @@
+---
+tag: N232QBKCAA
+kind: example
+name: An equivalence relation with infinitely many infinite classes
+aliases: [equivalence-relation-infinitely-many-infinite-classes]
+msc: ["03C35", "03C15"]
+topics: [6XEXRME4C1]
+audience: grad
+instance_of: [A22K1X8GKD]
+uses: [A22K1X8GKD, 1JJCGNX240, 0SGTMBEWRF, ZR7Y5C235P, 1513J40TKA, 0K1SCPBNKJ]
+sources:
+  - url: https://en.wikipedia.org/wiki/Omega-categorical_theory
+    locator: Examples
+  - book: isbn:9780387987606
+---
+
+## Example
+
+Let $L = \set{E}$ with $E$ binary.
+Let $T$ say that $E$ is an [[equivalence relation|0SGTMBEWRF]], that there are at least $n$ classes for each $n$, and that each class has at least $n$ elements for each $n$.
+We show that $T$ is [[$\omega$-categorical|A22K1X8GKD]], complete, and not $\kappa$-categorical for uncountable $\kappa$.
+
+1. A countable model $M$ has infinitely many classes, so $\aleph_0$ of them, and each class is infinite, so it has $\aleph_0$ elements.
+2. Let $M$ and $N$ be countable models. Choose a bijection $g$ from the classes of $M$ to the classes of $N$, and for each class $C$ a bijection $h_C : C \to g(C)$. The union of the $h_C$ is an isomorphism, since it maps $E$-related pairs to $E$-related pairs and unrelated pairs to unrelated pairs.
+3. So $T$ is $\omega$-categorical. It has no finite models and $L$ is countable, so it is complete by the [[Łoś-Vaught test|ZR7Y5C235P]].
+4. In the countable model, the type of an $n$-tuple is fixed by its pattern: which entries are equal and which are $E$-related. There are finitely many patterns, as the [[Ryll-Nardzewski theorem|1513J40TKA]] requires.
+5. Let $\kappa$ be uncountable. Let $M_1$ have $\kappa$ classes of size $\aleph_0$, and let $M_2$ have one class of size $\kappa$ and $\aleph_0$ classes of size $\aleph_0$. Both are models of size $\kappa$.
+6. An isomorphism maps classes onto classes of the same size. $M_2$ has a class of size $\kappa$ and $M_1$ has none, so $M_1 \not\cong M_2$.
+
+## Remarks
+
+A model of $T$ is fixed by how many classes of each infinite size it has, and this is more than one cardinal of information.
+The theory is $\omega$-stable: over a countable set $A$, a $1$-type says that $x$ equals an element of $A$, or lies in the class of an element of $A$, or lies in a new class.
+So $\omega$-stability does not imply uncountable categoricity.
+With classes of size exactly $2$ in place of infinite classes, the theory becomes categorical in every infinite cardinal.
+With exactly two infinite classes, it is $\omega$-categorical and not uncountably categorical, by the same steps.
+
+## Explanations
+
+### L1 human
+
+Picture infinitely many rooms, each holding infinitely many people.
+If there are countably many people in all, any two such arrangements match: pair the rooms, then pair the people in each room.
+In uncountable sizes the rooms can have different sizes, so two arrangements of the same total size can differ.
+
+### L2 human
+
+We list the $2$-types in step 4.
+
+1. $x_1 = x_2$.
+2. $x_1 \ne x_2$ and $x_1 \mathrel{E} x_2$.
+3. $\neg (x_1 \mathrel{E} x_2)$.
+
+In the countable model each pattern is one orbit of the [[automorphism group|0K1SCPBNKJ]]: an automorphism can permute the classes and permute inside each class.
+The typical use is a first example of an $\omega$-categorical theory that is not uncountably categorical, simpler than the rational order.
+A trap is to think that $\omega$-categoricity forces one model in each size.

@@ -1,0 +1,51 @@
+---
+tag: F898Z0PCXD
+kind: proof
+name: Proof of the existence of atomic models by omitting types
+msc: ["03C50", "03C15"]
+topics: [6XEXRME4C1]
+audience: grad
+proves: MXVGKQ783S
+uses: [HSJ4F9J8SM, 7MFGBVDVG9, 1NR3HAWG9D, EXC8913GGX]
+methods: [TFQ1845T84, 0J0XBKG64S, 01XM7JEKHY]
+sources:
+  - book: isbn:9780387987606
+---
+
+## Proof
+
+Let $T$ be complete with infinite models in a countable signature.
+Recall that a complete formula $\theta(\bar x)$ is a formula consistent with $T$ that isolates a complete type.
+
+### Atomic model implies density
+
+1. Let $M$ be atomic and let $\varphi(\bar x)$ be consistent with $T$.
+2. Since $T$ is complete, $T \models \exists \bar x \, \varphi(\bar x)$. Choose $\bar a \in M$ with $M \models \varphi(\bar a)$.
+3. The type of $\bar a$ is isolated, because $M$ is atomic, and it contains $\varphi$.
+
+### Density implies an atomic model
+
+1. For each $n \ge 1$, let $\Gamma_n(\bar x)$ be the set of formulas $\neg\theta(\bar x)$, for all complete formulas $\theta$ in $n$ variables.
+2. A tuple $\bar a$ realizes $\Gamma_n$ exactly when its type is not isolated.
+3. $\Gamma_n$ is not isolated. Suppose that $\varphi$ is consistent with $T$ and implies every formula of $\Gamma_n$. By density, some complete $\theta$ has $T \models \theta \to \varphi$. Then $T \models \theta \to \neg\theta$, so $\theta$ is inconsistent with $T$, a contradiction.
+4. The [[omitting types theorem|7MFGBVDVG9]], in the form for countably many types, gives a countable model $M$ that omits every $\Gamma_n$. If some $\Gamma_n$ is inconsistent with $T$, every model omits it.
+5. By step 2, every tuple of $M$ has an isolated type. So $M$ is atomic and countable, hence prime by [[this theorem|EXC8913GGX]].
+
+### Few types imply density
+
+1. Suppose that $T$ has countably many complete $n$-types, and that $\varphi(\bar x)$ is consistent with $T$ but lies in no isolated type.
+2. Then no consistent $\psi$ with $T \models \psi \to \varphi$ is complete. So there is $\chi$ with $\psi \wedge \chi$ and $\psi \wedge \neg\chi$ both consistent with $T$.
+3. Starting from $\varphi$, split repeatedly. This gives formulas $\varphi_s$ for finite $0$-$1$ sequences $s$, with $\varphi_{s0}$ and $\varphi_{s1}$ consistent, each implying $\varphi_s$, and contradicting each other.
+4. For each infinite $0$-$1$ sequence $\sigma$, the set $\set{\varphi_s : s \text{ an initial segment of } \sigma}$ is finitely satisfiable with $T$. By the [[compactness theorem|1NR3HAWG9D]], it extends to a complete type $p_\sigma$.
+5. For $\sigma \ne \tau$, the types $p_\sigma$ and $p_\tau$ contain contradicting formulas, so they differ. This gives $2^{\aleph_0}$ types, a contradiction.
+
+## Idea
+
+Being non-isolated is a single type, the set of negations of all complete formulas.
+Density says that this type is itself not isolated, so it can be omitted, and a model that omits it is atomic.
+Few types force density, because a formula with no isolated type below it splits into a binary tree with continuum many branches.
+
+## Variants
+
+In the Stone space $S_n(T)$, the last part says that a countable compact Hausdorff space has a dense set of isolated points.
+The Baire category theorem gives this directly, and the omitting types theorem is also a Baire category argument.
