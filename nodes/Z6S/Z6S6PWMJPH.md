@@ -20,23 +20,23 @@ It covers invariant subspaces, the conditions for an endomorphism to be diagonal
 3. [[Diagonalizable matrix|07SQCNV233]]: $A = P D P^{-1}$ with eigenvectors as the columns of $P$.
 4. [[Diagonalizable iff there is a basis of eigenvectors|056SW1E0AC]]: equivalently, $V$ is the direct sum of the eigenspaces.
 5. [[Distinct eigenvalues imply diagonalizable|0Y95Z7MT02]]: a sufficient condition that is not necessary.
-6. [[Diagonalizability test by multiplicities|~1ac265ba]]: $p_T$ splits and each geometric multiplicity equals the algebraic one.
+6. [[Diagonalizability test by multiplicities|CDB8KCNNG9]]: $p_T$ splits and each geometric multiplicity equals the algebraic one.
 7. [[Minimal polynomial criterion|0MPAJRB23T]]: $T$ is diagonalizable exactly when $m_T$ splits with simple roots.
-8. [[Defective matrix|~45999c7f]]: the shear, nonzero nilpotent matrices and real rotations.
-9. [[Eigendecomposition|~f8ac4249]]: $A = Q \Lambda Q^{-1}$ and the spectral sum of projections.
+8. [[Defective matrix|5F2AV5855Y]]: the shear, nonzero nilpotent matrices and real rotations.
+9. [[Eigendecomposition|D0AP2R7272]]: $A = Q \Lambda Q^{-1}$ and the spectral sum of projections.
 10. [[Powers of a diagonalizable matrix|0TNR9BQ871]]: $A^k = P D^k P^{-1}$, Fibonacci numbers and long-term behaviour.
 11. [[Simultaneous diagonalization|0FK17N4DKA]]: commuting diagonalizable maps share an eigenbasis.
 12. [[Triangularization|0363JMQ42Y]]: $T$ is triangularizable exactly when $p_T$ splits, through flags of invariant subspaces.
-13. [[Simultaneous triangularization|~55f0caf5]]: commuting matrices over $\C$ share a triangular basis.
-14. [[Kernels lemma|~4b2aa8fd]]: $\ker (p q)(T) = \ker p(T) \oplus \ker q(T)$ for coprime $p$ and $q$.
-15. [[Primary decomposition theorem|~81757fe9]]: the splitting of $V$ along the factorization of $m_T$.
+13. [[Simultaneous triangularization|42PG67Q5YN]]: commuting matrices over $\C$ share a triangular basis.
+14. [[Kernels lemma|ACBNK1VFVG]]: $\ker (p q)(T) = \ker p(T) \oplus \ker q(T)$ for coprime $p$ and $q$.
+15. [[Primary decomposition theorem|49ZHBMYKVE]]: the splitting of $V$ along the factorization of $m_T$.
 16. [[Generalized eigenvector|01H6QKWGDH]]: vectors killed by a power of $T - \lambda$, and Jordan chains.
 17. [[Generalized eigenspace|0AJ035ZTZE]]: $\ker (T - \lambda)^n$, whose dimension is the algebraic multiplicity.
 18. [[Decomposition into generalized eigenspaces|0Z3GDY89T5]]: $V = \bigoplus_\lambda V_\lambda$ when $p_T$ splits, and $T = D + N$.
 19. [[Nilpotent endomorphism|063D5Z2C70]]: $T^n = 0$, a strictly upper triangular form, and $p_T = t^n$.
 20. [[Semisimple endomorphism|08VRX3Q4PB]]: every invariant subspace has an invariant complement, and $m_T$ is squarefree.
 21. [[Jordan-Chevalley decomposition|011K11VPJN]]: $T = S + N$ with commuting semisimple and nilpotent parts that are polynomials in $T$.
-22. [[Fitting decomposition|~c7b346ae]]: $V = \ker T^n \oplus \operatorname{im} T^n$, with a nilpotent part and an invertible part.
+22. [[Fitting decomposition|77SACA9CVQ]]: $V = \ker T^n \oplus \operatorname{im} T^n$, with a nilpotent part and an invertible part.
 
 ### Prerequisites
 

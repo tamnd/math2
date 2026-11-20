@@ -32,7 +32,7 @@ In matrix form: a set of diagonalizable $n \times n$ matrices over $F$ has one i
 
 ### Why each hypothesis is needed
 
-- Each member must be diagonalizable. The [[shear|~58e14c85]] commutes with $I$, but no basis makes the shear diagonal.
+- Each member must be diagonalizable. The [[shear|SBDF8APDF7]] commutes with $I$, but no basis makes the shear diagonal.
 - The members must commute. $A = \operatorname{diag}(1, 2)$ and $B = \begin{pmatrix} 1 & 1 \\ 0 & 2 \end{pmatrix}$ are both diagonalizable, but $A B = \begin{pmatrix} 1 & 1 \\ 0 & 4 \end{pmatrix} \ne \begin{pmatrix} 1 & 2 \\ 0 & 4 \end{pmatrix} = B A$. So no common basis exists.
 - Finite dimension is used in the proof to reduce an infinite family to a finite one. The span of $\mathcal{F}$ in $\operatorname{End}(V)$ has dimension at most $n^2$.
 
@@ -45,7 +45,7 @@ In matrix form: a set of diagonalizable $n \times n$ matrices over $F$ has one i
 ### Converse
 
 Both directions hold.
-Without the hypothesis that each member is diagonalizable, commuting matrices over $\C$ need not have a common eigenbasis, but they can be put in upper triangular form together, by [[simultaneous triangularization|~55f0caf5]].
+Without the hypothesis that each member is diagonalizable, commuting matrices over $\C$ need not have a common eigenbasis, but they can be put in upper triangular form together, by [[simultaneous triangularization|42PG67Q5YN]].
 
 ### Generalizations
 

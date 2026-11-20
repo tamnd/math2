@@ -59,7 +59,7 @@ Triangular in the basis $(v_1, \dots, v_n)$ means exactly that the spans of the 
 
 The same induction can be written without matrices, with the [[quotient operator|0PFPWKBDTJ]].
 Let $U = F v$ for an eigenvector $v$.
-By the [[block triangular form|~955c2a39]], $p_T = (t - \lambda_1) p_{\bar T}$, so $p_{\bar T}$ splits on $V / U$.
+By the [[block triangular form|ENVF51H5S3]], $p_T = (t - \lambda_1) p_{\bar T}$, so $p_{\bar T}$ splits on $V / U$.
 A flag of $\bar T$-invariant subspaces of $V / U$ pulls back under the quotient map to a flag of $T$-invariant subspaces of $V$ that contain $U$.
 Adding $U$ at the bottom gives a full flag of $V$.
 Over $\C$ with an inner product, applying Gram-Schmidt to a triangular basis keeps the flag, which gives the [[Schur decomposition|V1JG4C7R7B]].

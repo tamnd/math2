@@ -50,5 +50,5 @@ Applied to a vector, they split it into eigenvectors.
 
 ## Variants
 
-The [[proof by the kernels lemma|~d5a889fb]] replaces the interpolation polynomials by Bézout coefficients.
+The [[proof by the kernels lemma|ZAYD2GV1KT]] replaces the interpolation polynomials by Bézout coefficients.
 It works for any pairwise coprime factors, not only for linear ones.

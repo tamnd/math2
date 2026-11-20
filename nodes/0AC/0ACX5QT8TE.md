@@ -48,17 +48,17 @@ In Mathlib, a submodule `U` is invariant under `T` when `U ≤ U.comap T`, and t
 - The subspaces $\{0\}$ and $V$ are invariant under every $T$, since $T(0) = 0$ and $T(V) \subseteq V$.
 - The [[kernel|0S23E6YE83]] and the [[image|0WSFKKT6FF]] of $T$ are invariant: if $T(u) = 0$, then $T(T(u)) = 0$, and $T(T(v))$ lies in $\im T$.
 - Each [[eigenspace|0G0RFPG8HR]] $E_\lambda = \ker(T - \lambda \id_V)$ is invariant, since $T(v) = \lambda v$ lies in $E_\lambda$ for $v \in E_\lambda$.
-- For the [[derivative on polynomials|~6463dbd0]], the polynomials of degree less than $k$ form an invariant subspace, since the derivative lowers the degree.
-- For a [[diagonal matrix with distinct entries|~a6d591ec]], the invariant subspaces are exactly the spans of sets of standard basis vectors.
+- For the [[derivative on polynomials|7DGJWWZ8DW]], the polynomials of degree less than $k$ form an invariant subspace, since the derivative lowers the degree.
+- For a [[diagonal matrix with distinct entries|9GVFNZBNE7]], the invariant subspaces are exactly the spans of sets of standard basis vectors.
 
 ### Non-examples
 
-- For the [[rotation of the plane by a right angle|~43d2ecd4]], no line through $0$ is invariant over $\R$. The line $\R e_1$ is sent to the line $\R e_2$.
+- For the [[rotation of the plane by a right angle|XS5H42KEP5]], no line through $0$ is invariant over $\R$. The line $\R e_1$ is sent to the line $\R e_2$.
 - For the shear $T(x, y) = (x + y, y)$, the line $\R e_2$ is not invariant, since $T(e_2) = e_1 + e_2$ does not lie on it.
 
 ### Basic properties
 
-- The [[kernel and the image of each polynomial in $T$ are invariant|~62fe55d3]], and so are sums and intersections of invariant subspaces.
+- The [[kernel and the image of each polynomial in $T$ are invariant|8YNE1HTZEP]], and so are sums and intersections of invariant subspaces.
 - If $U$ is invariant and $V$ is finite-dimensional, then in a basis of $V$ that extends a basis of $U$, the [[matrix|0YQSGNYE3K]] of $T$ is block upper triangular, see [[restriction and quotient operators|0KN7EPH7Z0]].
 - If $V = U_1 \oplus \cdots \oplus U_k$ with each $U_i$ invariant, then the matrix of $T$ in an adapted basis is [[block diagonal|001T5FJDC1]].
 - A line $Fv$ with $v \ne 0$ is invariant if and only if $v$ is an eigenvector of $T$.

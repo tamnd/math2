@@ -33,8 +33,8 @@ With the [[quotient map|0N4F5FMQZW]] $\pi$, it is characterized by $\bar T \circ
 The restriction is defined because $T(u) \in U$ for $u \in U$, and it is linear because $T$ is linear.
 The quotient operator is well defined: if $v + U = v' + U$, then $v - v' \in U$, so $T(v) - T(v') = T(v - v') \in U$, and $T(v) + U = T(v') + U$.
 It is linear, since $\bar T((v + U) + c(w + U)) = T(v + cw) + U = (T(v) + U) + c(T(w) + U)$.
-Both definitions need the invariance of $U$, see the [[non-example of a subspace that is not invariant|~cdde18e6]].
-The relation of their matrices and characteristic polynomials to those of $T$ is the [[block triangular form|~955c2a39]].
+Both definitions need the invariance of $U$, see the [[non-example of a subspace that is not invariant|B448MTVVJW]].
+The relation of their matrices and characteristic polynomials to those of $T$ is the [[block triangular form|ENVF51H5S3]].
 
 ## Explanations
 

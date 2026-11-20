@@ -31,7 +31,7 @@ In Mathlib, this subspace is `Module.End.maxGenEigenspace`, the union of the sub
 The kernels $\ker (T - \lambda \id_V)^k$ increase with $k$, so their union is a subspace.
 It is $T$-[[invariant|0ACX5QT8TE]], since $T$ commutes with $(T - \lambda \id_V)^k$.
 It contains the [[eigenspace|0AYEPBQMAW]] $E_\lambda = \ker (T - \lambda \id_V)$.
-If $\dim V = n$ is finite, then $V_\lambda = \ker (T - \lambda \id_V)^n$, and its dimension is the [[algebraic multiplicity|0FY42N02DV]] of $\lambda$, by the [[dimension of the generalized eigenspace|~b8d53cf6]].
+If $\dim V = n$ is finite, then $V_\lambda = \ker (T - \lambda \id_V)^n$, and its dimension is the [[algebraic multiplicity|0FY42N02DV]] of $\lambda$, by the [[dimension of the generalized eigenspace|PHZ684KGWS]].
 
 ## Explanations
 

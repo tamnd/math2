@@ -59,6 +59,6 @@ For the dimensions, $T$ is block diagonal with one block for each eigenvalue, an
 
 ## Variants
 
-Steps 1 to 10 are the [[kernels lemma|~4b2aa8fd]] for the coprime factors $(t - \lambda_i)^{m_i}$ of $p_T$, applied with $p_T(T) = 0$.
-Steps 16 to 24 can be replaced by the [[dimension of the generalized eigenspace|~b8d53cf6]], which gives $\dim V_{\lambda_i} = m_i$ directly.
+Steps 1 to 10 are the [[kernels lemma|ACBNK1VFVG]] for the coprime factors $(t - \lambda_i)^{m_i}$ of $p_T$, applied with $p_T(T) = 0$.
+Steps 16 to 24 can be replaced by the [[dimension of the generalized eigenspace|PHZ684KGWS]], which gives $\dim V_{\lambda_i} = m_i$ directly.
 Axler, Chapter 8, avoids the characteristic polynomial: he shows that the generalized eigenspaces span $V$ by induction on $\dim V$, using $V = \ker (T - \lambda)^n \oplus \operatorname{im} (T - \lambda)^n$.

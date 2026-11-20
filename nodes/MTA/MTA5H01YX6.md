@@ -7,7 +7,7 @@ topics: [Z6S6PWMJPH]
 audience: ug2
 proves: 0FK17N4DKA
 methods: [0ASJVEFA9J, B2D8PTFNN1, TFQ1845T84]
-uses: [0Y17PEKF24, 0Q9PGXD9E4, 0MPAJRB23T, ~62fe55d3, 056SW1E0AC, 06MRNP4BNT, 041JTZCK9Q, 0AYEPBQMAW]
+uses: [0Y17PEKF24, 0Q9PGXD9E4, 0MPAJRB23T, 8YNE1HTZEP, 056SW1E0AC, 06MRNP4BNT, 041JTZCK9Q, 0AYEPBQMAW]
 sources:
   - url: https://kconrad.math.uconn.edu/blurbs/linmultialg/minpolyandappns.pdf
     locator: Theorem 5.2
@@ -26,7 +26,7 @@ We prove necessity by a computation, then sufficiency for finite families by str
 5. Otherwise, choose $j$ with $T_j$ not scalar. Let $\lambda_1, \dots, \lambda_k$ be its distinct eigenvalues, and $E_m = \ker(T_j - \lambda_m \id_V)$.
 6. Since $T_j$ is [[diagonalizable|0Y17PEKF24]], $V = E_1 \oplus \cdots \oplus E_k$, by the [[characterization by eigenvectors|056SW1E0AC]].
 7. If $k = 1$, then $V = E_1$ and $T_j = \lambda_1 \id_V$, which contradicts step 5. So $k \ge 2$, and $\dim E_m < n$ for each $m$.
-8. Each $T_i$ commutes with $T_j - \lambda_m \id_V$. So $E_m$ is $T_i$-invariant, by [[kernels of commuting maps are invariant|~62fe55d3]].
+8. Each $T_i$ commutes with $T_j - \lambda_m \id_V$. So $E_m$ is $T_i$-invariant, by [[kernels of commuting maps are invariant|8YNE1HTZEP]].
 9. Each restriction $T_i|_{E_m}$ is diagonalizable, by part 3 of the [[minimal polynomial criterion|0MPAJRB23T]].
 10. The restrictions to $E_m$ commute, since $T_i T_l = T_l T_i$ on $V$.
 11. By the induction hypothesis for $E_m$, there is a basis $\mathcal{B}_m$ of $E_m$ of common eigenvectors of the $T_i|_{E_m}$.

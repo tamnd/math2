@@ -42,20 +42,20 @@ Some authors call a map semisimple only when it is diagonalizable over the algeb
 
 ### Examples
 
-- Every [[diagonalizable matrix|~36eb7d45]] is semisimple. An invariant $W$ is the sum of the $W \cap E_\lambda$, and complements of these inside the eigenspaces $E_\lambda$ add up to an invariant complement.
-- The [[rotation by a right angle|~43d2ecd4]] over $\R$ is semisimple, since its only invariant subspaces are $0$ and $\R^2$.
-- The [[companion matrix of x² + s over F₂(s)|~d837395a]] is semisimple, but it is not diagonalizable over the algebraic closure.
-- The matrix $B$ of the [[primary decomposition example|~81757fe9]] has minimal polynomial $(t^2 + 1)(t - 2)$, which is squarefree, so $B$ is semisimple over $\R$.
+- Every [[diagonalizable matrix|306FBDECMB]] is semisimple. An invariant $W$ is the sum of the $W \cap E_\lambda$, and complements of these inside the eigenspaces $E_\lambda$ add up to an invariant complement.
+- The [[rotation by a right angle|XS5H42KEP5]] over $\R$ is semisimple, since its only invariant subspaces are $0$ and $\R^2$.
+- The [[companion matrix of x² + s over F₂(s)|C720K6S84D]] is semisimple, but it is not diagonalizable over the algebraic closure.
+- The matrix $B$ of the [[primary decomposition example|49ZHBMYKVE]] has minimal polynomial $(t^2 + 1)(t - 2)$, which is squarefree, so $B$ is semisimple over $\R$.
 
 ### Non-examples
 
-- The [[shear|~58e14c85]] is not semisimple: the invariant line $F e_1$ has no invariant complement.
+- The [[shear|SBDF8APDF7]] is not semisimple: the invariant line $F e_1$ has no invariant complement.
 - A nonzero [[nilpotent|063D5Z2C70]] map $N$ is not semisimple, since its minimal polynomial $t^k$ with $k \ge 2$ has a repeated factor.
-- The [[Jordan block of size 3|~6530bcca]] is not semisimple, since its minimal polynomial is $(t - 2)^3$.
+- The [[Jordan block of size 3|1YGY396SAS]] is not semisimple, since its minimal polynomial is $(t - 2)^3$.
 
 ### Basic properties
 
-- $T$ is semisimple exactly when $m_T = p_1 \cdots p_k$ with distinct monic irreducible $p_i$. This follows from the [[primary decomposition theorem|~81757fe9]].
+- $T$ is semisimple exactly when $m_T = p_1 \cdots p_k$ with distinct monic irreducible $p_i$. This follows from the [[primary decomposition theorem|49ZHBMYKVE]].
 - If $p_T$ splits, then $T$ is semisimple exactly when it is diagonalizable, by the [[minimal polynomial criterion|0MPAJRB23T]].
 - Over a perfect field, irreducible polynomials have distinct roots in the algebraic closure. So $T$ is semisimple exactly when it is diagonalizable over the [[algebraic closure|0X6AB5P3G1]].
 - The restriction of a semisimple map to an invariant subspace is semisimple, since its minimal polynomial divides $m_T$.
@@ -69,7 +69,7 @@ Chevalley used semisimple and nilpotent parts in his work on algebraic groups an
 ### Common errors
 
 - Identifying "semisimple" with "diagonalizable". This holds only when the characteristic polynomial splits, and the rotation over $\R$ is a counterexample.
-- Identifying "semisimple" with "diagonalizable over the algebraic closure" in characteristic $p$. This needs a perfect field, as the [[imperfect field example|~d837395a]] shows.
+- Identifying "semisimple" with "diagonalizable over the algebraic closure" in characteristic $p$. This needs a perfect field, as the [[imperfect field example|C720K6S84D]] shows.
 - Thinking that $n$ eigenvalues counted with multiplicity make $T$ semisimple. The shear has the eigenvalue $1$ twice and is not semisimple.
 
 ## Explanations

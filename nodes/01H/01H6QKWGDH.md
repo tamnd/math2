@@ -27,7 +27,7 @@ Generalized eigenvectors fill the gap left by a matrix that has too few eigenvec
 
 ## Motivation
 
-The [[shear|~58e14c85]] $\begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$ has only one line of eigenvectors, so it is not [[diagonalizable|07SQCNV233]].
+The [[shear|SBDF8APDF7]] $\begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$ has only one line of eigenvectors, so it is not [[diagonalizable|07SQCNV233]].
 The vector $e_2$ is not an eigenvector, but $(S - I) e_2 = e_1$ is one, so $(S - I)^2 e_2 = 0$.
 Allowing higher powers of $T - \lambda$ recovers enough vectors to make a basis, and this leads to the [[Jordan normal form|085HQ5G5TE]].
 
@@ -44,14 +44,14 @@ In Mathlib, the generalized eigenvectors of rank at most $k$, together with $0$,
 ### Examples
 
 - For the shear, $e_2$ is a generalized eigenvector for $1$ of rank $2$, since $(S - I) e_2 = e_1 \ne 0$ and $(S - I)^2 = 0$.
-- For the [[Jordan block of size 3|~6530bcca]], $e_3$ has rank $3$, and its chain is $e_3, e_2, e_1$.
-- For the [[derivative on cubic polynomials|~6463dbd0]], every nonzero polynomial is a generalized eigenvector for $0$. The rank of a polynomial of degree $d$ is $d + 1$.
-- For the [[3 × 3 matrix with a repeated eigenvalue|~47d94525]], $(0, 1, 0)$ is a generalized eigenvector for $2$ of rank $2$.
-- For the [[matrix with the single eigenvalue 2|~b3d99dba]], every nonzero vector of $\R^2$ is a generalized eigenvector for $2$.
+- For the [[Jordan block of size 3|1YGY396SAS]], $e_3$ has rank $3$, and its chain is $e_3, e_2, e_1$.
+- For the [[derivative on cubic polynomials|7DGJWWZ8DW]], every nonzero polynomial is a generalized eigenvector for $0$. The rank of a polynomial of degree $d$ is $d + 1$.
+- For the [[3 × 3 matrix with a repeated eigenvalue|18WSA33PKA]], $(0, 1, 0)$ is a generalized eigenvector for $2$ of rank $2$.
+- For the [[matrix with the single eigenvalue 2|6918MS1QRN]], every nonzero vector of $\R^2$ is a generalized eigenvector for $2$.
 
 ### Non-examples
 
-- The [[vector (1, 1) for diag(1, 2)|~19a26702]] is not a generalized eigenvector for any scalar: it has components in two eigenspaces.
+- The [[vector (1, 1) for diag(1, 2)|EWGV69Z2VZ]] is not a generalized eigenvector for any scalar: it has components in two eigenspaces.
 - The zero vector is never a generalized eigenvector, by definition.
 - For the rotation by a right angle over $\R$, no real $\lambda$ has a generalized eigenvector, since $\lambda$ would be an eigenvalue.
 
@@ -59,8 +59,8 @@ In Mathlib, the generalized eigenvectors of rank at most $k$, together with $0$,
 
 - If $v$ has rank $k$ for $\lambda$, then $N_\lambda^{k-1} v$ is an eigenvector for $\lambda$. So $\lambda$ is an [[eigenvalue|0BQAA2BK3Q]].
 - The vectors of a Jordan chain are linearly independent. Apply $N_\lambda^{k-1}$ to a relation $\sum_j c_j N_\lambda^j v = 0$ to get $c_0 = 0$, and repeat with lower powers.
-- In dimension $n$, every generalized eigenvector has rank at most $n$. This follows from the chain independence, and also from the [[dimension of the generalized eigenspace|~b8d53cf6]].
-- Generalized eigenvectors for distinct eigenvalues are linearly independent, by the [[kernels lemma|~4b2aa8fd]], since $(t - \lambda)^k$ and $(t - \mu)^l$ are coprime.
+- In dimension $n$, every generalized eigenvector has rank at most $n$. This follows from the chain independence, and also from the [[dimension of the generalized eigenspace|PHZ684KGWS]].
+- Generalized eigenvectors for distinct eigenvalues are linearly independent, by the [[kernels lemma|ACBNK1VFVG]], since $(t - \lambda)^k$ and $(t - \mu)^l$ are coprime.
 - The generalized eigenvectors for $\lambda$, together with $0$, form the [[generalized eigenspace|0AJ035ZTZE]].
 
 ### History

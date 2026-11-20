@@ -42,20 +42,20 @@ In Mathlib, the restriction is `LinearMap.restrict` and the quotient operator is
 
 ### Examples
 
-- For the [[derivative on cubic polynomials|~6463dbd0]] and $U$ the polynomials of degree at most $1$, both $D|_U$ and $\bar D$ are nilpotent $2 \times 2$ blocks.
-- For a [[3 × 3 block triangular matrix|~27c38ea6]], the restriction to the plane $z = 0$ and the quotient operator give the factors $(t - 3)(t + 1)$ and $t - 4$ of the characteristic polynomial.
+- For the [[derivative on cubic polynomials|7DGJWWZ8DW]] and $U$ the polynomials of degree at most $1$, both $D|_U$ and $\bar D$ are nilpotent $2 \times 2$ blocks.
+- For a [[3 × 3 block triangular matrix|D59VWM8NX7]], the restriction to the plane $z = 0$ and the quotient operator give the factors $(t - 3)(t + 1)$ and $t - 4$ of the characteristic polynomial.
 - If $U = \ker T$, then $T|_U = 0$. If $U = V$, then $T|_U = T$ and $V / U = 0$.
 - If $U = E_\lambda$ is an eigenspace, then $T|_U = \lambda \id_U$.
 
 ### Non-examples
 
-- For a [[subspace that is not invariant|~cdde18e6]], the rule $v + U \mapsto T(v) + U$ gives different values on two representatives of one coset, so it defines no map.
+- For a [[subspace that is not invariant|B448MTVVJW]], the rule $v + U \mapsto T(v) + U$ gives different values on two representatives of one coset, so it defines no map.
 - The map $u \mapsto T(u)$ for $u \in U$ is always defined as a map $U \to V$, but it is an endomorphism of $U$ only when $U$ is invariant.
 
 ### Basic properties
 
 - Both maps are linear, and $\pi \circ T = \bar T \circ \pi$.
-- In a basis of $V$ that extends a basis of $U$, the matrix of $T$ is $\begin{pmatrix} A & B \\ 0 & C \end{pmatrix}$ with $A$ the matrix of $T|_U$ and $C$ that of $\bar T$, and $p_T = p_{T|_U} \, p_{\bar T}$, by the [[block triangular form|~955c2a39]].
+- In a basis of $V$ that extends a basis of $U$, the matrix of $T$ is $\begin{pmatrix} A & B \\ 0 & C \end{pmatrix}$ with $A$ the matrix of $T|_U$ and $C$ that of $\bar T$, and $p_T = p_{T|_U} \, p_{\bar T}$, by the [[block triangular form|ENVF51H5S3]].
 - So each eigenvalue of $T|_U$ or of $\bar T$ is an eigenvalue of $T$, and $\det T = \det(T|_U) \det \bar T$.
 - For each polynomial $p$, $p(T)|_U = p(T|_U)$ and $\overline{p(T)} = p(\bar T)$. So the [[minimal polynomials|03NDVCSHSB]] of $T|_U$ and $\bar T$ divide that of $T$.
 - If $T$ is [[diagonalizable|07SQCNV233]], then so is $T|_U$, by the [[minimal polynomial criterion|0MPAJRB23T]].

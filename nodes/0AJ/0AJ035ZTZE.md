@@ -40,25 +40,25 @@ The subspaces themselves, indexed by $k$, are `Module.End.genEigenspace`.
 
 ### Examples
 
-- For the [[Jordan block of size 3|~6530bcca]] with eigenvalue $2$, $V_2 = F^3$, while the eigenspace is the line $F e_1$.
-- For the [[3 × 3 matrix with eigenvalues 1, 2, 2|~47d94525]], $V_2$ is the plane $z = 0$ and $V_1$ is the line spanned by $(1, 1, -1)$.
-- For [[the matrix with p = (t − 2)²|~b3d99dba]], $V_2 = \R^2$, while the eigenspace is a line.
+- For the [[Jordan block of size 3|1YGY396SAS]] with eigenvalue $2$, $V_2 = F^3$, while the eigenspace is the line $F e_1$.
+- For the [[3 × 3 matrix with eigenvalues 1, 2, 2|18WSA33PKA]], $V_2$ is the plane $z = 0$ and $V_1$ is the line spanned by $(1, 1, -1)$.
+- For [[the matrix with p = (t − 2)²|6918MS1QRN]], $V_2 = \R^2$, while the eigenspace is a line.
 - For a [[diagonalizable|07SQCNV233]] map, each $V_\lambda$ is the eigenspace $E_\lambda$, since $T - \lambda$ is invertible on the sum of the other eigenspaces.
-- For the [[derivative on cubic polynomials|~6463dbd0]], $V_0$ is the whole space.
+- For the [[derivative on cubic polynomials|7DGJWWZ8DW]], $V_0$ is the whole space.
 
 ### Non-examples
 
-- For the [[sum of two eigenvectors|~19a26702]] $(1, 1)$ of $\operatorname{diag}(1, 2)$, the vector lies in no generalized eigenspace. So the union of the $V_\lambda$ is not a subspace.
-- The kernel $\ker (T - \lambda)$ alone is not the generalized eigenspace when $T$ has a nontrivial Jordan block for $\lambda$, as for the [[shear|~58e14c85]].
+- For the [[sum of two eigenvectors|EWGV69Z2VZ]] $(1, 1)$ of $\operatorname{diag}(1, 2)$, the vector lies in no generalized eigenspace. So the union of the $V_\lambda$ is not a subspace.
+- The kernel $\ker (T - \lambda)$ alone is not the generalized eigenspace when $T$ has a nontrivial Jordan block for $\lambda$, as for the [[shear|SBDF8APDF7]].
 - For the rotation by a right angle over $\R$, every real $\lambda$ has $V_\lambda = 0$.
 
 ### Basic properties
 
 - $E_\lambda \subseteq V_\lambda$, and $V_\lambda \ne 0$ exactly when $\lambda$ is an eigenvalue.
 - $V_\lambda$ is invariant under $T$ and under every map that commutes with $T$, since it is the kernel of a polynomial in $T$.
-- In dimension $n$, $\dim V_\lambda$ equals the algebraic multiplicity of $\lambda$, by the [[dimension of the generalized eigenspace|~b8d53cf6]].
+- In dimension $n$, $\dim V_\lambda$ equals the algebraic multiplicity of $\lambda$, by the [[dimension of the generalized eigenspace|PHZ684KGWS]].
 - On $V_\lambda$, $T - \lambda$ is [[nilpotent|063D5Z2C70]], and $T$ has the single eigenvalue $\lambda$.
-- Generalized eigenspaces for distinct $\lambda$ form a direct sum, by the [[kernels lemma|~4b2aa8fd]].
+- Generalized eigenspaces for distinct $\lambda$ form a direct sum, by the [[kernels lemma|ACBNK1VFVG]].
 
 ### History
 

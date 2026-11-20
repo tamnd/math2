@@ -34,7 +34,7 @@ For $T$ in the ring of endomorphisms this is the same notion, since $T^0 = \id_V
 
 ## Remarks
 
-If $\dim V = n$ is finite and $T$ is nilpotent, then $T^n = 0$, by the [[characterizations of nilpotent maps|~662223db]].
+If $\dim V = n$ is finite and $T$ is nilpotent, then $T^n = 0$, by the [[characterizations of nilpotent maps|FSKECQK1GW]].
 In finite dimension, $T$ is nilpotent exactly when its characteristic polynomial is $t^n$.
 Over an algebraically closed field, this means that $0$ is its only eigenvalue.
 The derivative on the space of polynomials of degree less than $n$ is nilpotent of index $n$.
