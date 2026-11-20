@@ -1,0 +1,67 @@
+---
+tag: ~47ef5efa
+kind: proof
+name: Proof that the standard MV-algebra satisfies Chang's axioms
+msc: ["06D35", "03B50"]
+topics: [QYA4H5Y7VR]
+audience: research
+proves: ~bd015994
+uses: [QVWHWDJ5X1, 0N6R902FG1]
+methods: [0NTF6DMVAP, S3QADD13E9]
+sources:
+  - url: https://en.wikipedia.org/wiki/MV-algebra
+    locator: Examples of MV-algebras
+---
+
+## Proof
+
+Let $x, y, z \in [0, 1]$.
+
+**Part A: the operations are well defined.**
+
+1. $x + y \ge 0$, so $\min(1, x + y) \in [0, 1]$.
+2. $0 \le 1 - x \le 1$, so $\neg x \in [0, 1]$.
+
+**Part B: $([0, 1], \oplus, 0)$ is a commutative monoid.**
+
+3. $x \oplus y = \min(1, x + y) = \min(1, y + x) = y \oplus x$, by commutativity of $+$.
+4. $x \oplus 0 = \min(1, x) = x$, since $x \le 1$.
+5. Claim: $(x \oplus y) \oplus z = \min(1, x + y + z)$.
+6. If $x + y \le 1$, then $(x \oplus y) \oplus z = \min(1, x + y + z)$ by definition.
+7. If $x + y > 1$, then $(x \oplus y) \oplus z = \min(1, 1 + z) = 1$.
+8. In that case $x + y + z > 1$ too, so $\min(1, x + y + z) = 1$.
+9. By steps 5 to 8 and commutativity, $x \oplus (y \oplus z) = (y \oplus z) \oplus x = \min(1, x + y + z)$.
+10. So $\oplus$ is associative.
+
+**Part C: the laws for $\neg$.**
+
+11. $\neg \neg x = 1 - (1 - x) = x$.
+12. $\neg 0 = 1$, and $x \oplus 1 = \min(1, x + 1) = 1$, since $x \ge 0$.
+
+**Part D: the last axiom.**
+
+13. Claim: $\neg(\neg x \oplus y) \oplus y = \max(x, y)$.
+14. Case $y \ge x$: then $1 - x + y \ge 1$, so $\neg x \oplus y = 1$.
+15. Then $\neg(\neg x \oplus y) \oplus y = 0 \oplus y = y = \max(x, y)$, by step 4.
+16. Case $y < x$: then $1 - x + y < 1$, so $\neg x \oplus y = 1 - x + y$.
+17. Then $\neg(\neg x \oplus y) = x - y$, and $(x - y) \oplus y = \min(1, x) = x = \max(x, y)$.
+18. Swap $x$ and $y$ in step 13: $\neg(\neg y \oplus x) \oplus x = \max(y, x)$.
+19. So both sides of the axiom equal $\max(x, y)$.
+
+**Part E: the order, $\odot$ and the subalgebras.**
+
+20. $\neg x \oplus y = 1$ iff $1 - x + y \ge 1$ iff $x \le y$; so the derived order is the usual order.
+21. $x \odot y = 1 - \min(1, 2 - x - y) = \max(0, x + y - 1)$.
+22. Let $x = \tfrac{a}{n}$, $y = \tfrac{b}{n}$ with integers $0 \le a, b \le n$.
+23. Then $x \oplus y = \tfrac{\min(n, a + b)}{n}$ and $\neg x = \tfrac{n - a}{n}$, both in $L_n$.
+24. Also $0 \in L_n$; so $L_n$ is a subalgebra, and identities hold in subalgebras. $\blacksquare$
+
+## Idea
+
+Each axiom reduces to a statement about real numbers, with two cases for the cut at $1$.
+The last axiom is the symmetry of $\max$.
+
+## Variants
+
+1. One can deduce Part B from the group $\mathbb{R}$: $[0, 1]$ is $\Gamma(\mathbb{R}, 1)$, and the [[$\Gamma$ theorem|~41795275]] covers all such segments.
+2. A computer check on $L_n$ for small $n$ tests the axioms on all triples, but it does not replace the proof for $[0, 1]$.
