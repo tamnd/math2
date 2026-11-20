@@ -1,5 +1,5 @@
 ---
-tag: ~c4bcd5dd
+tag: E8DZ9CPEEE
 kind: example
 name: Lights Out puzzle
 msc: ["15A06", "91A46", "12E20"]

@@ -1,5 +1,5 @@
 ---
-tag: ~804444f5
+tag: 1QXFM0DNAH
 kind: example
 name: Applications of linear systems
 msc: ["15A06", "15A99", "91B66"]
@@ -117,8 +117,8 @@ The columns of $C$ add up to $0.75$ and $0.6$, both less than $1$, and this make
 Leontief was the first to describe a national economy by a matrix.
 The economic theory of the model belongs to [[input-output model|PF15E9SVQV]] in mathematical economics.
 
-A system of the same kind gives the coefficients of a polynomial through given points, in [[polynomial interpolation by a linear system|~ecba65a7]].
-The incidence matrix of a graph turns the current law into one matrix equation, in [[matrices of graphs|~9c52ce32]].
+A system of the same kind gives the coefficients of a polynomial through given points, in [[polynomial interpolation by a linear system|NR58EBS932]].
+The incidence matrix of a graph turns the current law into one matrix equation, in [[matrices of graphs|JFWP2SBCF0]].
 
 ## Explanations
 

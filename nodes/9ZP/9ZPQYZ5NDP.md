@@ -1,5 +1,5 @@
 ---
-tag: ~dd98a0b6
+tag: 9ZPQYZ5NDP
 kind: example
 name: PageRank as an eigenvector problem
 msc: ["15A18", "15B51", "68P20"]
@@ -7,7 +7,7 @@ topics: [K0FNC6CWZN]
 audience: ug1
 instance_of: [TA8QR5HFAY]
 illustrates: [HBE0MHJ2ZP]
-uses: [YVNZGHHZJ5, TA8QR5HFAY, HBE0MHJ2ZP, ~f92b40f5, 0R5HTV7REV]
+uses: [YVNZGHHZJ5, TA8QR5HFAY, HBE0MHJ2ZP, Y9FRWY8YX4, 0R5HTV7REV]
 sources:
   - url: https://en.wikipedia.org/wiki/PageRank
     locator: Algorithm
@@ -54,7 +54,7 @@ The usual fix replaces that column by $\frac1n \mathbf 1$, so that the surfer ju
 
 PageRank was developed by Page and Brin at Stanford University in 1996.
 The method of computing the dominant eigenvector by repeated multiplication is [[power iteration|H4MQD841BR]] in numerical linear algebra.
-The general theory is the same as in [[steady-state vectors of Markov chains|~f92b40f5]].
+The general theory is the same as in [[steady-state vectors of Markov chains|Y9FRWY8YX4]].
 
 ## Explanations
 

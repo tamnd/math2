@@ -1,5 +1,5 @@
 ---
-tag: ~4183944f
+tag: 6NANBCYMG2
 kind: example
 name: Change of basis in signal and image processing
 msc: ["15A04", "94A08", "42C40"]

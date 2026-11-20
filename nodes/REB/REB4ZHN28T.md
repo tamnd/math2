@@ -1,5 +1,5 @@
 ---
-tag: ~14be26aa
+tag: REB4ZHN28T
 kind: example
 name: Linear algebra in computer graphics
 msc: ["15A04", "68U05", "51N15"]

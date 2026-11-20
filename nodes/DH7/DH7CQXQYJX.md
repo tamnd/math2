@@ -61,7 +61,7 @@ The existence of a solution for every initial value is a theorem of ODE theory, 
 
 - For every square matrix, the solutions are $x(t) = e^{t A} x(0)$. When $A$ has no eigenbasis, its Jordan form gives terms $t^m e^{\lambda t}$.
 - The inhomogeneous system $x' = A x + f(t)$ has the solutions $x = x_{\mathrm p} + x_{\mathrm h}$, with one particular solution and a solution of the homogeneous system.
-- The discrete analogue $x_{k+1} = A x_k$ has $\lambda^k v$ in place of $e^{\lambda t} v$, as in [[linear discrete dynamical systems|~3507d389]].
+- The discrete analogue $x_{k+1} = A x_k$ has $\lambda^k v$ in place of $e^{\lambda t} v$, as in [[linear discrete dynamical systems|2F1B461YN7]].
 - The existence, uniqueness and stability theory of differential equations belongs to ODE theory.
 
 ## Explanations

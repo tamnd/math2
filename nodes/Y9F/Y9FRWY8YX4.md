@@ -1,5 +1,5 @@
 ---
-tag: ~f92b40f5
+tag: Y9FRWY8YX4
 kind: example
 name: Steady-state vectors of Markov chains
 msc: ["15B51", "60J10", "15A18"]
@@ -7,7 +7,7 @@ topics: [K0FNC6CWZN]
 audience: ug1
 instance_of: [TA8QR5HFAY]
 illustrates: [HBE0MHJ2ZP]
-uses: [YVNZGHHZJ5, TA8QR5HFAY, 0ZND7NQ970, 0PHDYNR24D, 0TNR9BQ871, HBE0MHJ2ZP, ~3507d389]
+uses: [YVNZGHHZJ5, TA8QR5HFAY, 0ZND7NQ970, 0PHDYNR24D, 0TNR9BQ871, HBE0MHJ2ZP, 2F1B461YN7]
 sources:
   - url: https://en.wikipedia.org/wiki/Stochastic_matrix
     locator: lead section
@@ -56,7 +56,7 @@ The other two eigenvalues become $0.35 \pm 0.132\, i$, of absolute value about $
 
 The general theory of stochastic matrices rests on the [[Perron-Frobenius theorem|62NS7PV1M9]] for nonnegative matrices.
 The probability theory of Markov chains, including the row convention $\pi P = \pi$ and the [[stationary distribution|0KRH5157WP]], belongs to probability theory.
-A two-state model is worked out in [[a Markov chain with two states|N73KSZZ4V9]], and the ranking of web pages in [[PageRank as an eigenvector problem|~dd98a0b6]] is the same problem for a large matrix.
+A two-state model is worked out in [[a Markov chain with two states|N73KSZZ4V9]], and the ranking of web pages in [[PageRank as an eigenvector problem|9ZPQYZ5NDP]] is the same problem for a large matrix.
 
 ## Explanations
 

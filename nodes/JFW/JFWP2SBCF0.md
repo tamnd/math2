@@ -1,5 +1,5 @@
 ---
-tag: ~9c52ce32
+tag: JFWP2SBCF0
 kind: example
 name: Matrices of graphs as linear algebra examples
 msc: ["05C50", "15A06", "94C15"]
@@ -66,7 +66,7 @@ The eigenvalues of $L$ are $0$, $1$, $3$ and $4$.
 The eigenvalue $0$ is simple because the graph is connected, and the product $1 \cdot 3 \cdot 4 / 4 = 3$ is the number of spanning trees, by the matrix-tree theorem.
 These facts, and the study of graphs through the eigenvalues of their matrices, belong to [[spectral graph theory|5JESM2ZN48]].
 The physical laws themselves are [[Kirchhoff's circuit laws|9B0V41V2F8]], which Kirchhoff first described in 1845.
-The same balance equations appear in the traffic and circuit problems of [[applications of linear systems|~804444f5]].
+The same balance equations appear in the traffic and circuit problems of [[applications of linear systems|1QXFM0DNAH]].
 
 ## Explanations
 
@@ -94,4 +94,4 @@ A second trap is the sign convention of $B$: changing the orientation of an edge
 The incidence matrix is the boundary map from edges to vertices in the chain complex of the graph as a one-dimensional cell complex.
 Its kernel is the first homology, the cycle space, and its cokernel has dimension equal to the number of components.
 The Laplacian $L = B B^{\mathsf T}$ is a discrete analogue of the Laplace operator, and the second smallest eigenvalue of $L$ measures how well the graph is connected.
-For directed graphs, $A^k$ still counts directed walks, and the dominant eigenvector of $A$ gives rankings such as [[PageRank|~dd98a0b6]].
+For directed graphs, $A^k$ still counts directed walks, and the dominant eigenvector of $A$ gives rankings such as [[PageRank|9ZPQYZ5NDP]].

@@ -1,5 +1,5 @@
 ---
-tag: ~4b981261
+tag: T1ABKPPXG3
 kind: proof
 name: Proof of linear recurrences by linear algebra
 msc: ["39A06", "15A03"]

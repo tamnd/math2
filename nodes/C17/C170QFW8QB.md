@@ -1,5 +1,5 @@
 ---
-tag: ~9d6b4476
+tag: C170QFW8QB
 kind: example
 name: Curve fitting and linear regression by least squares
 msc: ["15A06", "62J05", "65F20"]

@@ -1,5 +1,5 @@
 ---
-tag: ~e0dc1c00
+tag: 9QB82PPEMV
 kind: example
 name: Image compression by the SVD
 msc: ["15A18", "65F55", "94A08"]
@@ -48,7 +48,7 @@ If the image is $A_2$ itself, with the entries $7$ and $3$, then $\sigma_3 = 0$,
 A random noise image has singular values of similar size, and no small $k$ gives a good approximation.
 
 The SVD is not the method of JPEG.
-It needs a new basis for each image, which must be stored, while the cosine basis of JPEG is fixed; see [[change of basis in signal and image processing|~4183944f]].
+It needs a new basis for each image, which must be stored, while the cosine basis of JPEG is fixed; see [[change of basis in signal and image processing|6NANBCYMG2]].
 The fast algorithms for the SVD of large matrices belong to numerical linear algebra.
 
 ## Explanations
