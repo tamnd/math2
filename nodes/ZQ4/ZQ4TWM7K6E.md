@@ -105,7 +105,7 @@ The revision theory says that this endless change is the meaning of the paradox.
 4. Each sentence with $n$ nested $T$ over $0 = 0$ enters at stage $n + 1$ and stays.
 
 The typical use is to classify sentences as categorical, stable in some sequences, or unstable.
-The trap is to read a single stage as the truth: only the long-run behaviour counts.
+The trap is to read a single stage as the truth: only the long-run behavior counts.
 
 ### L3 human
 
