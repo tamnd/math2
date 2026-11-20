@@ -1,0 +1,58 @@
+---
+tag: PQJHXNMFC6
+kind: example
+name: Expansion of the integer order by a constant
+msc: ["03C07"]
+topics: [AY09KYSW81]
+audience: ug2
+instance_of: [EY20BF96SJ]
+uses: [EY20BF96SJ, CY1TXHF6KQ, DSQ17TNW1C, P33CMYHJW9]
+sources:
+  - url: https://en.wikipedia.org/wiki/Reduct
+    locator: Definition
+  - book: isbn:9780387987606
+    locator: Chapter 1
+---
+
+## Example
+
+Let $L = \set{<}$ and $\mathcal{M} = (\Z, <)$ with the usual order.
+Let $A = \set{0}$, so $L_A = \set{<, c_0}$, and let $\mathcal{M}_A = (\Z, <, 0)$, with $c_0$ interpreted as $0$.
+We check that $\mathcal{M}_A$ is an [[expansion|EY20BF96SJ]] of $\mathcal{M}$, and we compare their definable sets.
+
+1. The domain of $\mathcal{M}_A$ is $\Z$, the domain of $\mathcal{M}$.
+2. The symbol $<$ has the same interpretation in both. So the reduct of $\mathcal{M}_A$ to $L$ is $\mathcal{M}$, and $\mathcal{M}_A$ is an expansion of $\mathcal{M}$.
+3. In $\mathcal{M}_A$ the formula $\sigma(x) = c_0 < x \land \neg\exists z \, (c_0 < z \land z < x)$ holds of $x$ exactly when $x$ is the successor of $0$. So $\set{1}$ is [[definable|CY1TXHF6KQ]] without parameters in $\mathcal{M}_A$.
+4. In $\mathcal{M}$, the map $s(n) = n + 1$ is an [[automorphism|DSQ17TNW1C]], because $m < n \iff m + 1 < n + 1$ and $s$ is a bijection.
+5. A set that is definable without parameters in $\mathcal{M}$ is mapped onto itself by every automorphism. But $s(\set{1}) = \set{2} \ne \set{1}$, so $\set{1}$ is not definable without parameters in $\mathcal{M}$.
+6. In $\mathcal{M}$ with the parameter $0$, the formula $\tau(x, y) = y < x \land \neg\exists z \, (y < z \land z < x)$ with $y = 0$ defines $\set{1}$.
+
+So the new constant adds definable sets without parameters, and they are exactly the sets definable in $\mathcal{M}$ with the parameter $0$.
+
+## Remarks
+
+The example shows the general rule: a set is definable in $\mathcal{M}_A$ without parameters if and only if it is definable in $\mathcal{M}$ with parameters from $A$.
+To pass from $\mathcal{M}_A$ to $\mathcal{M}$, replace each constant $c_a$ by a new variable and assign $a$ to it.
+In $\mathcal{M}_A$ every integer is definable without parameters, since $n$ is the $n$-th successor of $0$ or the $|n|$-th predecessor; so $\mathcal{M}_A$ has no automorphism except the identity.
+If we take $A = \emptyset$, we get $\mathcal{M}$ back, and its only $\emptyset$-definable subsets of $\Z$ are $\emptyset$ and $\Z$, since the automorphisms $n \mapsto n + k$ move every other set.
+The expansion by all elements, $\mathcal{M}_M$, is the structure used in the elementary diagram of $\mathcal{M}$.
+
+## Explanations
+
+### L1 human
+
+In the integers with their order, every number looks like every other number: shifting everything by one keeps the order.
+So no sentence can single out one number.
+If we give the number $0$ a name, the picture changes.
+Now we can say "the number just after the named one", and that is exactly $1$.
+
+### L2 human
+
+We define $-2$ in $\mathcal{M}_A$.
+
+1. "$y$ is the predecessor of $x$" is $\pi(x, y) = y < x \land \neg\exists z \, (y < z \land z < x)$.
+2. Then $\exists u \, (\pi(c_0, u) \land \pi(u, x))$ holds of $x$ exactly when $x$ is the predecessor of the predecessor of $0$.
+3. The predecessor of $0$ is $-1$ and the predecessor of $-1$ is $-2$, so the formula defines $\set{-2}$.
+
+The typical use of constants is to turn statements with parameters into sentences of a larger language.
+A trap is to read $\mathcal{M}_A$ as a new structure with new elements; it has the same elements and only new names.

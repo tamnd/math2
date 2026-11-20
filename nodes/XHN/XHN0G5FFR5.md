@@ -1,0 +1,83 @@
+---
+tag: XHN0G5FFR5
+kind: definition
+name: Routley-Meyer frame and model
+msc: ["03B47", "03B45"]
+topics: [98QF5J4W16]
+audience: research
+defines: H4Z8J0KMAY
+uses: [KXTCZ2FY5M, ETCE287E2R]
+sources:
+  - url: https://en.wikipedia.org/wiki/Relevance_logic
+    locator: Models, Routley-Meyer models
+  - url: https://plato.stanford.edu/entries/logic-relevance/
+    locator: 1 Semantics for Relevant Implication; 2 Semantics for Negation
+    note: Mares, Relevance Logic, Stanford Encyclopedia of Philosophy, revision of 2020-11-13
+  - doi: 10.1016/S0049-237X(08)71541-6
+    locator: pages 199-243
+    note: Routley and Meyer, The semantics of entailment, in Truth, Syntax and Modality, Studies in Logic and the Foundations of Mathematics 68 (1973)
+---
+
+## Definition
+
+A *Routley-Meyer frame* is a quadruple $F = (W, R, {}^*, 0)$, where $W$ is a nonempty set, $R \subseteq W^3$, ${}^* : W \to W$ and $0 \in W$.
+Write $a \leq b$ for $R0ab$.
+The frame must satisfy, for all $a, b, c, d \in W$:
+
+1. $a \leq a$.
+2. If $a \leq b$ and $b \leq c$, then $a \leq c$.
+3. If $d \leq a$ and $Rabc$, then $Rdbc$.
+4. $a^{**} = a$.
+5. If $a \leq b$, then $b^* \leq a^*$.
+
+A *Routley-Meyer model* is a frame with a relation $\Vdash$ between points and propositional variables that is *hereditary*: if $a \Vdash p$ and $a \leq b$, then $b \Vdash p$.
+Truth extends to all formulas of the language with $\wedge$, $\vee$, $\neg$ and $\rightarrow$:
+
+1. $a \Vdash A \wedge B$ if and only if $a \Vdash A$ and $a \Vdash B$.
+2. $a \Vdash A \vee B$ if and only if $a \Vdash A$ or $a \Vdash B$.
+3. $a \Vdash \neg A$ if and only if $a^* \nVdash A$.
+4. $a \Vdash A \rightarrow B$ if and only if, for all $b, c \in W$ with $Rabc$ and $b \Vdash A$, we have $c \Vdash B$.
+
+A formula $A$ *holds in the model* if $0 \Vdash A$.
+It *holds on the frame* if it holds in every model on the frame, and it is *valid* in a class of frames if it holds on every frame of the class.
+
+## Notation
+
+The Wikipedia article uses this notation; the SEP entry writes $\mathbin{\&}$ for conjunction.
+Authors differ on the base: some use a set of normal points in place of the single point $0$.
+
+## Remarks
+
+**Hereditariness for all formulas.**
+If $a \Vdash A$ and $a \leq a'$, then $a' \Vdash A$, by induction on $A$.
+
+1. For variables this is the condition on $\Vdash$, so the set of points where $p$ is true is an [[upper set|ETCE287E2R]] for $\leq$.
+2. For $\wedge$ and $\vee$, it follows from the induction hypothesis.
+3. For $\neg A$: let $a^* \nVdash A$ and $a \leq a'$.
+   Then $a'^* \leq a^*$ by condition 5.
+   If $a'^* \Vdash A$, the induction hypothesis gives $a^* \Vdash A$, a contradiction.
+4. For $A \rightarrow B$: let $a \Vdash A \rightarrow B$, $a \leq a'$, $Ra'bc$ and $b \Vdash A$.
+   Condition 3 with $d = a$ gives $Rabc$, so $c \Vdash B$.
+
+**Frame conditions for stronger logics.**
+The Wikipedia article states that the class of all frames validates the relevance logic $\mathbf{B}$, and it lists conditions for further axioms.
+Examples from its list: $Raaa$ validates $(A \wedge (A \rightarrow B)) \rightarrow B$; $Rabc \Rightarrow Rbac$ validates $A \rightarrow ((A \rightarrow B) \rightarrow B)$; $0^* \leq 0$ validates $A \vee \neg A$.
+The condition $Rabc \Rightarrow b \leq c$ validates $A \rightarrow (B \rightarrow A)$, which relevance logics reject.
+
+## Explanations
+
+### L1 human
+
+A frame is a set of points with a three-place relation and a "star" map.
+A formula $A \rightarrow B$ is true at a point $a$ when $a$ takes every point where $A$ holds to points where $B$ holds, along $R$.
+Negation looks at the star point, not at the point itself.
+
+### L2 human
+
+We check that modus ponens keeps truth at $0$: if $0 \Vdash A$ and $0 \Vdash A \rightarrow B$, then $0 \Vdash B$.
+
+1. Condition 1 gives $0 \leq 0$, which is $R000$.
+2. $0 \Vdash A \rightarrow B$, $R000$ and $0 \Vdash A$ give $0 \Vdash B$, by clause 4.
+
+The typical use of the definition is to build a small model in which a formula fails at $0$.
+A trap: a point $a$ with $a = a^*$ makes $\neg$ classical at $a$, but points with $a \neq a^*$ can make both $p$ and $\neg p$ true at $a$.

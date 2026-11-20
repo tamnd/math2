@@ -80,7 +80,7 @@ Team semantics first appeared for IF logic and was later used for [[dependence l
 - Compactness: a set of IF sentences has a model if every finite subset has one. Löwenheim-Skolem: an IF sentence with an infinite model has models of every infinite cardinality.
 - Consequence is not compact: some set $T$ of IF sentences implies an IF sentence $\varphi$, while no finite subset of $T$ implies $\varphi$.
 - Truth definition: Sandu proved in 1998 that there is an IF formula $\mathrm{TRUE}(x)$ in the language of arithmetic with $\mathbb{N} \models \varphi \iff \mathbb{N} \models \mathrm{TRUE}(\ulcorner \varphi \urcorner)$ for every IF sentence $\varphi$.
-- This does not contradict [[Tarski's undefinability theorem|YRV6SYK2BY]]. Tarski's [[liar|DYAB23WA1X]] argument needs a sentence that is true exactly when $\mathrm{TRUE}(\ulcorner \lambda \urcorner)$ is not true, and IF logic has no such contradictory negation.
+- This does not contradict [[Tarski's undefinability theorem|YRV6SYK2BY]]. Tarski's [[liar|KBYY281V8T]] argument needs a sentence that is true exactly when $\mathrm{TRUE}(\ulcorner \lambda \urcorner)$ is not true, and IF logic has no such contradictory negation.
 - Väänänen showed in 2001 that the set of valid IF sentences is recursively isomorphic to the set of valid sentences of full [[second-order logic|G6X7SZSNC5]]. So IF logic has no complete proof system.
 
 ### History

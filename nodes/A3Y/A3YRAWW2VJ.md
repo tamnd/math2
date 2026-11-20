@@ -1,0 +1,52 @@
+---
+tag: A3YRAWW2VJ
+kind: example
+name: Multiplexing in soft linear logic
+msc: ["03F52", "68Q15"]
+topics: [98QF5J4W16]
+audience: research
+instance_of: [E7JVJSSWBT]
+uses: [H408H4WHBA, 9ZMEDB2YP4]
+sources:
+  - doi: 10.1016/j.tcs.2003.10.018
+    locator: pages 163-180
+    note: Lafont, Soft linear logic and polynomial time, Theoretical Computer Science 318 (2004)
+  - url: https://plato.stanford.edu/entries/logic-linear/
+    locator: 6.1 Different treatments of modality
+    note: Di Cosmo and Miller, Linear Logic, Stanford Encyclopedia of Philosophy, revision of 2023-09-16
+---
+
+## Example
+
+In soft linear logic (SLL), the rule of *multiplexing* is: from $\vdash \Gamma, A, \ldots, A$, with $k \geq 0$ copies of $A$, infer $\vdash \Gamma, ?A$.
+With it, $!A \multimap A \otimes A$ is derivable.
+In one-sided form this is $?A^{\perp} \mathbin{\wp} (A \otimes A)$.
+
+1. $\vdash A^{\perp}, A$ is an axiom, used twice.
+2. The rule $\otimes$ gives $\vdash A^{\perp}, A^{\perp}, A \otimes A$.
+3. Multiplexing with $k = 2$ gives $\vdash ?A^{\perp}, A \otimes A$.
+4. The rule $\mathbin{\wp}$ gives $\vdash ?A^{\perp} \mathbin{\wp} (A \otimes A)$.
+
+## Remarks
+
+In the same way, for each fixed $k$, multiplexing gives $!A \multimap A \otimes \cdots \otimes A$ with $k$ factors, and $!A \multimap 1$ for $k = 0$.
+In full linear logic the same formula is derived with two derelictions and one contraction, as in the [[contraction example|9ZMEDB2YP4]].
+Multiplexing replaces these steps by one rule, and the number $k$ of copies is fixed in the derivation.
+
+## Explanations
+
+### L1 human
+
+A "!" box of $A$ can be opened into any fixed number of copies of $A$ in one step.
+Here we open it into two copies and pair them.
+
+### L2 human
+
+We derive $!A \multimap 1$, the weakening case, with $k = 0$.
+
+1. $\vdash 1$ is an axiom.
+2. Multiplexing with $k = 0$ adds $?A^{\perp}$ to the empty context: $\vdash ?A^{\perp}, 1$.
+3. The rule $\mathbin{\wp}$ gives $\vdash ?A^{\perp} \mathbin{\wp} 1$, which is $!A \multimap 1$.
+
+The typical use of multiplexing is to copy data a fixed number of times in a program typed in SLL.
+A trap: the case $k = 1$ of multiplexing is dereliction, so SLL keeps dereliction while it drops contraction for $?$.

@@ -1,0 +1,96 @@
+---
+tag: BNRWJB2R8C
+kind: statement
+role: theorem
+name: Decidability of linear logic
+msc: ["03F52", "03B25", "68Q17"]
+topics: [98QF5J4W16]
+audience: research
+uses: [H408H4WHBA, SBDQH0TJ5X, XNRQHTG7QM, REKDJ8V504, VTMF1QTZ9R, 3J6YG01N22]
+about: [2P2184B6HE, YAVW1XHNFH]
+proofs: [12N6JEYVHX]
+sources:
+  - url: https://plato.stanford.edu/entries/logic-linear/
+    locator: 4. Complexity
+    note: Di Cosmo and Miller, Linear Logic, Stanford Encyclopedia of Philosophy, revision of 2023-09-16
+  - url: https://plato.stanford.edu/entries/logic-linear/
+    locator: 6.1 Different treatments of modality
+    note: Di Cosmo and Miller, Linear Logic, Stanford Encyclopedia of Philosophy, revision of 2023-09-16
+  - url: https://en.wikipedia.org/wiki/Linear_logic
+    locator: Decidability/complexity of entailment
+  - doi: 10.1016/0168-0072(92)90075-B
+    locator: pages 239-311
+    note: Lincoln, Mitchell, Scedrov and Shankar, Decision problems for propositional linear logic, Annals of Pure and Applied Logic 56 (1992)
+  - doi: 10.1109/LICS.1992.185533
+    locator: pages 200-210
+    note: Kanovich, Horn programming in linear logic is NP-complete, LICS 1992
+  - doi: 10.1016/0304-3975(94)00108-1
+    locator: pages 155-169
+    note: Lincoln and Winkler, Constant-only multiplicative linear logic is NP-complete, Theoretical Computer Science 135 (1994)
+  - doi: 10.1016/j.tcs.2019.02.022
+    locator: pages 91-98
+    note: Straßburger, On the decision problem for MELL, Theoretical Computer Science 768 (2019)
+---
+
+## Statement
+
+Consider provability of sequents in fragments of propositional [[linear logic|H408H4WHBA]], with the size of a sequent as input size.
+
+1. MLL provability is in [[NP|SBDQH0TJ5X]], and it is [[NP-complete|REKDJ8V504]].
+2. MALL provability is in [[PSPACE|XNRQHTG7QM]], and it is [[PSPACE-complete|VTMF1QTZ9R]].
+3. Provability in full propositional linear logic, with the exponentials, is not [[decidable|3J6YG01N22]].
+
+The [[proof|12N6JEYVHX]] proves the upper bounds of parts 1 and 2 in full.
+It cites the lower bounds of parts 1 and 2 and all of part 3.
+NP-hardness of MLL is due to Kanovich (1992), and PSPACE-hardness of MALL and part 3 are due to Lincoln, Mitchell, Scedrov and Shankar (1992).
+
+## Remarks
+
+### Why each hypothesis is needed
+
+Part 2 needs the absence of the exponentials: the rule $?C$ keeps a copy of a formula, so a premise need not be smaller than its conclusion.
+Part 3 needs the exponentials, since without them part 2 gives a decision procedure.
+The SEP entry reports that Kanovich (2016) proved undecidability for a much smaller fragment.
+With unrestricted weakening, the situation changes: the SEP entry and the Wikipedia article state that [[affine linear logic|K67C2N2QAH]] is decidable, by Kopylov (1995).
+
+### Consequences
+
+1. The SEP entry states that parts 1 and 2 hold even for formulas built from the constants only, by Lincoln and Winkler (1994).
+2. A cut-free proof search for MALL needs only polynomial space, though it may take exponential time.
+
+### The fragment MELL
+
+MELL is the fragment with the multiplicatives and the exponentials.
+The SEP entry, in its revision of 2023-09-16, states that the decidability of MELL is "currently being debated".
+It reports a proof of decidability by Bimbó (2015) and a gap in that proof reported by Straßburger (2019).
+It also states that if MELL is decidable, then it is at least TOWER-hard, by the equivalence with reachability for branching vector addition systems with states.
+
+### A reported dispute
+
+The SEP entry, in the same revision, reports a machine-checked proof of part 3 by Forster and Larchey-Wendling (2019).
+It also reports that Bimbó and Dunn (2022) published a proof of decidability of propositional linear logic and claim to have found mistakes in the undecidability papers.
+This node does not assess that claim.
+
+## History
+
+The SEP entry states that proofs of the undecidability of propositional linear logic were published in the early 1990s, by Lincoln, Mitchell, Scedrov and Shankar (1992) and by Lincoln (1995).
+
+## Explanations
+
+### L1 human
+
+We ask whether a computer can decide, for each sequent, whether it has a proof.
+For the part of linear logic without "!" and "?", the answer is yes, and the theorem says how much time or memory this needs.
+With "!" and "?", hypotheses can be copied without bound, and the full logic can describe any computation, so no program decides it.
+
+### L2 human
+
+We see why MALL search needs little memory.
+
+1. Each rule of MALL without cut makes the sequent smaller from conclusion to premise.
+2. So a branch of a search tree has at most $n$ steps for a sequent of size $n$.
+3. A depth-first search keeps one branch in memory, with one sequent and one choice counter per step.
+4. Each sequent has size at most $n$, and each counter has at most $n$ bits, so the memory is about $n^2$ symbols.
+
+The typical use of the theorem is to choose a fragment of linear logic for an application with a decidable proof search.
+A trap: "in PSPACE" is not "fast"; the search can still take time exponential in $n$.

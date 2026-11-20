@@ -3,7 +3,7 @@ tag: B3CSQE56G8
 kind: example
 name: A maximal consistent set without witnesses has a term model that fails it
 msc: ["03C07", "03B10"]
-topics: [FBWW4J1XWG]
+topics: [FBWW4J1XWG, AY09KYSW81]
 audience: ug2
 instance_of: [655K8Y7VS8]
 not_instance_of:

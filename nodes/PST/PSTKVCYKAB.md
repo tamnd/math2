@@ -1,0 +1,74 @@
+---
+tag: PSTKVCYKAB
+kind: example
+name: A Routley-Meyer model of R in which disjunctive syllogism fails
+msc: ["03B47"]
+topics: [98QF5J4W16]
+audience: research
+instance_of: [H4Z8J0KMAY]
+uses: [XHN0G5FFR5, KXTCZ2FY5M, 6EFJF9NAYX]
+sources:
+  - url: https://en.wikipedia.org/wiki/Relevance_logic
+    locator: Models, Routley-Meyer models
+  - url: https://plato.stanford.edu/entries/logic-relevance/logicR.html
+    locator: supplement The Logic R
+    note: Mares, Relevance Logic, Stanford Encyclopedia of Philosophy, revision of 2020-11-13
+  - url: https://plato.stanford.edu/entries/logic-relevance/
+    locator: 6 Systems Closely Related to Mainstream Relevance Logic
+    note: Mares, Relevance Logic, Stanford Encyclopedia of Philosophy, revision of 2020-11-13
+---
+
+## Example
+
+Let $W = \set{0, 1}$, $0^* = 1$, $1^* = 0$, and let $Rabc$ hold for every triple in $W^3$ except $(0, 0, 1)$.
+This is a [[Routley-Meyer frame|XHN0G5FFR5]] whose models satisfy every theorem of $\mathbf{R}$, and in it [[disjunctive syllogism|6EFJF9NAYX]] fails.
+
+1. $a \leq b$ means $R0ab$, so $0 \leq 0$, $1 \leq 1$ and $1 \leq 0$ hold, and $0 \leq 1$ fails.
+2. Conditions 1 and 2 of the definition hold, since $\leq$ is the order with $1$ below $0$.
+3. Condition 3 can fail only if $Rdbc$ fails, that is, $(d, b, c) = (0, 0, 1)$.
+   Then $d \leq a$ forces $a = 0$, and $Rabc$ is $R001$, which fails, so the condition holds.
+4. Condition 4 holds, since ${}^*$ swaps $0$ and $1$.
+   For condition 5, the only case with $a \neq b$ is $1 \leq 0$, and it asks $0^* \leq 1^*$, which is $1 \leq 0$.
+5. The hereditary sets are $\emptyset$, $\set{0}$ and $W$, since a set with $1$ must contain $0$.
+6. Put $p$ true at $0$ only and $q$ true nowhere.
+7. $0 \Vdash p$, so $0 \Vdash p \vee q$.
+8. $0^* = 1$ and $1 \nVdash p$, so $0 \Vdash \neg p$.
+9. $0 \nVdash q$.
+
+So the point $0$ makes $p \vee q$ and $\neg p$ true and $q$ false, and the inference of disjunctive syllogism does not keep truth at $0$.
+The formula $((p \vee q) \wedge \neg p) \rightarrow q$ fails at $0$, by $R000$ and steps 7 to 9, so it is not a theorem of $\mathbf{R}$.
+
+**Every theorem of $\mathbf{R}$ holds at $0$.**
+The SEP supplement axiomatizes $\mathbf{R}$ with eleven axiom schemes, modus ponens and adjunction.
+Each scheme has at most three letters, and each letter takes one of the three hereditary truth sets.
+A direct check of the $27$ cases shows that each scheme is true at $0$.
+Modus ponens keeps truth at $0$, since $R000$ holds.
+Adjunction keeps truth at $0$, by the clause for $\wedge$.
+By induction on derivations, every theorem of $\mathbf{R}$ is true at $0$.
+
+## Remarks
+
+The point $0$ is *inconsistent*: $p$ and $\neg p$ are both true at $0$.
+The same valuation shows that $(p \wedge \neg p) \rightarrow q$ fails at $0$, so $\mathbf{R}$ is paraconsistent.
+The frame also meets the Wikipedia conditions for pseudo modus ponens ($Raaa$), assertion ($Rabc \Rightarrow Rbac$), excluded middle ($0^* \leq 0$) and mingle.
+It breaks the condition $Rabc \Rightarrow b \leq c$ for $A \rightarrow (B \rightarrow A)$, since $R101$ holds and $0 \leq 1$ fails.
+
+## Explanations
+
+### L1 human
+
+The model has two points, and the point $0$ says both "$p$" and "not $p$".
+At $0$, "$p$ or $q$" is true because $p$ is true, and "not $p$" is true too.
+So we have both premises of disjunctive syllogism, but the conclusion $q$ is false.
+
+### L2 human
+
+We check two frame conditions from the Wikipedia list.
+
+1. Assertion asks: if $Rabc$, then $Rbac$.
+2. The only triple not in $R$ is $(0, 0, 1)$, and swapping its first two places gives the same triple.
+3. So if $Rabc$ holds, then $(b, a, c) \neq (0, 0, 1)$, and $Rbac$ holds.
+4. Pseudo modus ponens asks for $Raaa$: $R000$ and $R111$ hold, since neither is $(0, 0, 1)$.
+
+The typical use of this model is to show that disjunctive syllogism and explosion are not theorems of $\mathbf{R}$.
+A trap: the model does not refute every instance of disjunctive syllogism; for example, $((p \vee p) \wedge \neg p) \rightarrow p$ is true at $0$ here.

@@ -3,7 +3,7 @@ tag: P50P8AZNEE
 kind: example
 name: The successor relation is definable in the integers with order
 msc: ["03C07", "06A05"]
-topics: [NJDME6F845]
+topics: [NJDME6F845, AY09KYSW81]
 audience: ug2
 instance_of: [CY1TXHF6KQ]
 uses: [1DQ1M6ZWS4, 0C4JS9RF5M, P33CMYHJW9, NDTJ2E895C]

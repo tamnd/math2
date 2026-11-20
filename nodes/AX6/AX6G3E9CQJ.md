@@ -1,0 +1,58 @@
+---
+tag: AX6G3E9CQJ
+kind: example
+name: An LP valuation that refutes explosion and modus ponens
+msc: ["03B53", "03B50"]
+topics: [NJB94B39QK]
+audience: ug2
+instance_of: [BXJZG67PX3, C7YWCR87QJ]
+not_instance_of:
+  - target: TTKZGJEEK7
+    note: the valuation shows that LP consequence is not explosive
+uses: [W28EY7C3FA, TTKZGJEEK7, 0Y0MQYST0M, 6EFJF9NAYX]
+sources:
+  - url: https://plato.stanford.edu/entries/logic-paraconsistent/
+    locator: Paraconsistent Logic (SEP entry), section 3.6
+  - book: isbn:9780521670265
+---
+
+## Example
+
+Work in the [[logic of paradox|W28EY7C3FA]] with values $1$, $\tfrac12$, $0$ and designated values $1$, $\tfrac12$.
+Let $v(p) = \tfrac12$ and $v(q) = 0$.
+
+1. $v(\neg p) = 1 - \tfrac12 = \tfrac12$.
+2. $v(p \supset q) = v(\neg p \lor q) = \max(\tfrac12, 0) = \tfrac12$.
+3. $v(p \lor q) = \max(\tfrac12, 0) = \tfrac12$.
+4. $v(q) = 0$.
+
+The values $\tfrac12$ are designated and $0$ is not.
+So $v$ refutes three classical inferences.
+
+- Explosion: $p, \neg p \nvDash_{\mathrm{LP}} q$, by lines 1 and 4. So LP is not [[explosive|TTKZGJEEK7]].
+- [[Modus ponens|0Y0MQYST0M]] for $\supset$: $p, p \supset q \nvDash_{\mathrm{LP}} q$, by lines 2 and 4.
+- [[Disjunctive syllogism|6EFJF9NAYX]]: $p \lor q, \neg p \nvDash_{\mathrm{LP}} q$, by lines 3, 1 and 4.
+
+## Remarks
+
+The three failures are linked.
+Modus ponens for $\supset$ is disjunctive syllogism in disguise, since $p \supset q$ abbreviates $\neg p \lor q$.
+The Lewis argument for explosion uses disjunctive syllogism, so LP must reject it to block explosion.
+If we change $v(p)$ to $1$ or $0$, the valuation is classical, and it no longer refutes any of the three inferences.
+So the value $\tfrac12$ for $p$ is needed.
+
+## Explanations
+
+### L1 human
+
+Give $p$ the value "both true and false" and $q$ the value "false".
+Then "$p$" and "not $p$" are both accepted.
+But $q$ is not accepted.
+So a contradiction about $p$ does not force us to accept $q$.
+
+### L2 human
+
+The check is a three-line table computation.
+The negation of $\tfrac12$ is $\tfrac12$, and the maximum of $\tfrac12$ and $0$ is $\tfrac12$.
+So $\neg p$, $p \lor q$ and $p \supset q$ all get $\tfrac12$, which is designated, while $q$ gets $0$.
+A trap is to try $v(q) = \tfrac12$; then $q$ is designated, and the valuation refutes nothing.

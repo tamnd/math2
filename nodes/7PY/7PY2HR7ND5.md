@@ -1,0 +1,65 @@
+---
+tag: 7PY2HR7ND5
+kind: example
+name: Exchange fails in the Lambek calculus
+msc: ["03B47"]
+topics: [98QF5J4W16]
+audience: research
+instance_of: [ZZKTJY5J4T, 5FAC9KX4H0]
+not_instance_of:
+  - target: YAFD18WYJ8
+    note: the sequent A, A\B => B is derivable but its permutation A\B, A => B is not, so exchange is not admissible
+uses: [46AN6CZMRD]
+sources:
+  - url: https://en.wikipedia.org/wiki/Categorial_grammar
+    locator: Lambek calculus
+  - url: https://plato.stanford.edu/entries/logic-substructural/
+    locator: 2.3 The Lambek Calculus
+    note: Restall, Substructural Logics, Stanford Encyclopedia of Philosophy, revision of 2024-08-15
+---
+
+## Example
+
+Let $A$ and $B$ be distinct atoms of the [[Lambek calculus|46AN6CZMRD]] $\mathsf{L}$.
+The sequent $A, A \backslash B \Rightarrow B$ is derivable, and the sequent $A \backslash B, A \Rightarrow B$ is not.
+
+1. $A \Rightarrow A$ and $B \Rightarrow B$ are axioms.
+2. The rule ${\backslash}\mathrm{L}$ takes $\Gamma \Rightarrow A$ and $\Delta, B, \Delta' \Rightarrow C$ to $\Delta, \Gamma, A \backslash B, \Delta' \Rightarrow C$.
+3. With $\Gamma = A$, empty $\Delta$ and $\Delta'$, and $C = B$, step 2 gives $A, A \backslash B \Rightarrow B$.
+
+Now we show that $A \backslash B, A \Rightarrow B$ has no derivation.
+By [[cut elimination|JSAH84Y9G2]], it is enough to show that it has no cut-free derivation.
+
+4. The sequent is not an axiom, since its antecedent has two formulas.
+5. The succedent $B$ is an atom, so the last rule is not a right rule.
+6. The formula $A$ is an atom, so no left rule acts on it.
+7. The rule ${\backslash}\mathrm{L}$ on $A \backslash B$ needs a nonempty $\Gamma$ directly to the left of $A \backslash B$.
+   Nothing is to the left of $A \backslash B$.
+8. No other rule applies, so the sequent is not derivable.
+
+## Remarks
+
+The example shows that $\mathsf{L}$ has no exchange rule, and that exchange is not admissible either.
+The two implications of $\mathsf{L}$ record a direction: $A \backslash B$ takes an argument on its left, and $B / A$ takes one on its right.
+If we add exchange, then $A \backslash B$ and $B / A$ prove each other, and the two implications collapse into one.
+In categorial grammar, this is why "John sleeps" is a sentence and "sleeps John" is not.
+
+## Explanations
+
+### L1 human
+
+In the Lambek calculus, a formula $A \backslash B$ is like a word that needs a partner on its left.
+Given $A$ first and then $A \backslash B$, the two combine into $B$.
+Given them in the other order, they do not combine.
+So the order of the hypotheses matters.
+
+### L2 human
+
+We check one more instance of the same pattern.
+
+1. $B / A, A \Rightarrow B$ is derivable: the rule ${/}\mathrm{L}$ with $\Gamma = A$ on the right of $B / A$ applies to the axioms $A \Rightarrow A$ and $B \Rightarrow B$.
+2. $A, B / A \Rightarrow B$ is not derivable: ${/}\mathrm{L}$ needs a nonempty $\Gamma$ directly to the right of $B / A$, and nothing is there.
+3. The other steps are as in steps 4 to 8 above.
+
+The typical use is a proof search that follows the order of the formulas.
+A trap: in a calculus with exchange the same search succeeds, so one must fix the calculus before searching.

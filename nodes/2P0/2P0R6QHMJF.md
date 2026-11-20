@@ -1,0 +1,45 @@
+---
+tag: 2P0R6QHMJF
+kind: proof
+name: Proof of the upward Löwenheim-Skolem theorem by compactness
+proves: 484M0TZ1S7
+msc: ["03C07"]
+topics: [2RE7GWWXM5]
+audience: ug2
+uses: [1NR3HAWG9D, EP5E317TNW, EY20BF96SJ, CGH8C8EA9N, 0G0ASKNA6Z, PZMGQMDN25]
+methods: [0NTF6DMVAP]
+sources:
+  - url: https://en.wikipedia.org/wiki/Löwenheim–Skolem_theorem
+    locator: Upward part
+  - book: isbn:9780387987606
+    locator: Chapter 2
+---
+
+## Proof
+
+We prove part 2 of the statement.
+Let $\mathcal{M}$ be an infinite $L$-structure, and let $\kappa$ be infinite with $\abs{L} \le \kappa$ and $\abs{M} \le \kappa$.
+
+1. New signature. Let $L'$ be $L_M$, the signature with a constant $c_m$ for each $m \in M$, together with new constants $d_i$ for $i < \kappa$. Then $\abs{L'} \le \abs{L} + \abs{M} + \kappa = \kappa$.
+2. The set of sentences. Let $\Gamma = \mathrm{ElDiag}(\mathcal{M}) \cup \set{d_i \ne d_j : i < j < \kappa}$, with the [[elementary diagram|EP5E317TNW]] of $\mathcal{M}$.
+3. Finite satisfiability. A finite $\Gamma_0 \subseteq \Gamma$ mentions finitely many new constants $d_{i_1}, \dots, d_{i_k}$.
+4. $M$ is infinite, so we can choose distinct $m_1, \dots, m_k \in M$. Interpret $c_m$ as $m$, $d_{i_j}$ as $m_j$, and every other $d_i$ as $m_1$.
+5. This [[expansion|EY20BF96SJ]] of $\mathcal{M}$ satisfies $\mathrm{ElDiag}(\mathcal{M})$ by the definition of the diagram, and the inequalities in $\Gamma_0$ by step 4. So it is a model of $\Gamma_0$.
+6. By the [[compactness theorem|1NR3HAWG9D]], $\Gamma$ has a model $\mathcal{N}'$ with at most $\max(\abs{L'}, \aleph_0) = \kappa$ elements.
+7. The values of the $d_i$ in $\mathcal{N}'$ are pairwise distinct, so $\mathcal{N}'$ has at least $\kappa$ elements. So $\abs{N'} = \kappa$.
+8. Let $\mathcal{N}$ be the $L$-reduct of $\mathcal{N}'$, and let $h(m)$ be the value of $c_m$. By the [[diagram lemma|EP5E317TNW]], part 2, $h \colon \mathcal{M} \to \mathcal{N}$ is an [[elementary embedding|CGH8C8EA9N]].
+9. Replace each element $h(m)$ of $N$ by $m$, and each other element by a new object outside $M$. This gives a structure [[isomorphic|PZMGQMDN25]] to $\mathcal{N}$ that contains $\mathcal{M}$, and $h$ becomes the inclusion.
+10. So $\mathcal{M}$ has an elementary extension of cardinality $\kappa$.
+
+## Idea
+
+The elementary diagram forces any model to contain an elementary copy of $\mathcal{M}$.
+The $\kappa$ new constants, forced to be distinct, make the model large, and compactness applies because $\mathcal{M}$ is infinite and so satisfies any finitely many of the inequalities.
+The size bound in the compactness theorem, together with $\abs{L} \le \kappa$ and $\abs{M} \le \kappa$, makes the model no larger than $\kappa$.
+
+## Variants
+
+Without the size bound of the compactness theorem, $\Gamma$ has a model of some cardinality $\ge \kappa$.
+The downward part, with $A$ the set of values of the constants, cuts it down to cardinality $\kappa$; see [[the proof by Skolem hulls|J640Y51K78]].
+An ultrapower of $\mathcal{M}$ by a nonprincipal ultrafilter on $\N$ is a proper elementary extension, by Łoś's theorem; see [[ultraproduct|AX9Q86GB8M]].
+This gives a large elementary extension, but control of the exact cardinality needs more work.

@@ -1,0 +1,56 @@
+---
+tag: MQ2KK8P8NT
+kind: definition
+name: Quantifier rank
+defines: FVEVRE5XNZ
+msc: ["03C07", "03B10"]
+topics: [N64R1MGDBN]
+audience: ug2
+uses: [HYJ10AF6RT, MCZRXR3SVB, DKFGQTRYZE, 983GZBQYT4]
+sources:
+  - url: https://en.wikipedia.org/wiki/Quantifier_rank
+    locator: Definition
+  - book: isbn:9780521587136
+    locator: Chapter 3
+---
+
+## Definition
+
+Let $L$ be a signature.
+The *quantifier rank* $\operatorname{qr}(\varphi)$ of a first-order $L$-[[formula|HYJ10AF6RT]] $\varphi$ is the natural number defined by recursion on $\varphi$.
+
+1. If $\varphi$ is [[atomic|MCZRXR3SVB]], then $\operatorname{qr}(\varphi) = 0$.
+2. $\operatorname{qr}(\neg\varphi) = \operatorname{qr}(\varphi)$.
+3. $\operatorname{qr}(\varphi \wedge \psi) = \operatorname{qr}(\varphi \vee \psi) = \operatorname{qr}(\varphi \to \psi) = \max(\operatorname{qr}(\varphi), \operatorname{qr}(\psi))$.
+4. $\operatorname{qr}(\exists x \, \varphi) = \operatorname{qr}(\forall x \, \varphi) = \operatorname{qr}(\varphi) + 1$.
+
+Two $L$-[[structures|983GZBQYT4]] $\mathcal{A}$ and $\mathcal{B}$ are *$n$-equivalent*, written $\mathcal{A} \equiv_n \mathcal{B}$, when for every $L$-[[sentence|DKFGQTRYZE]] $\sigma$ with $\operatorname{qr}(\sigma) \le n$, $\mathcal{A} \models \sigma$ if and only if $\mathcal{B} \models \sigma$.
+
+## Notation
+
+Some books say *quantifier depth*.
+For tuples $\bar a$ in $\mathcal{A}$ and $\bar b$ in $\mathcal{B}$ of the same length $k$, $(\mathcal{A}, \bar a) \equiv_n (\mathcal{B}, \bar b)$ means that $\mathcal{A} \models \varphi(\bar a) \iff \mathcal{B} \models \varphi(\bar b)$ for all formulas $\varphi(x_1, \dots, x_k)$ of rank at most $n$.
+
+## Remarks
+
+If the language has other connectives, such as $\leftrightarrow$, they also take the maximum of the ranks of their parts.
+Example: $\operatorname{qr}(\exists x \, \forall y \, (y = x)) = 2$.
+Non-example: the formula $\exists x \, P(x) \vee \exists x \, Q(x)$ has two quantifiers, but its rank is $1$, not $2$.
+
+## Explanations
+
+### L1 human
+
+The rank of a formula counts its quantifiers along the deepest path from the outside of the formula to an atomic formula.
+Connectives do not add to it, and quantifiers placed side by side count once.
+
+### L2 human
+
+We compute $\operatorname{qr}(\exists x \, (\forall y \, R(x, y) \wedge \exists z \, \exists w \, R(z, w)))$ with the rules.
+
+1. The atomic formulas $R(x, y)$ and $R(z, w)$ have rank $0$ by rule 1.
+2. $\forall y \, R(x, y)$ has rank $1$, and $\exists z \, \exists w \, R(z, w)$ has rank $2$, by rule 4.
+3. The conjunction has rank $\max(1, 2) = 2$ by rule 3.
+4. The outer $\exists x$ gives rank $3$ by rule 4.
+
+A trap is to add the ranks of the two conjuncts, which would give $4$.

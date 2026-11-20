@@ -1,0 +1,87 @@
+---
+tag: 6FJXAN1ND9
+kind: counterexample
+name: Yablo paradox
+aliases: [yablos-paradox, omega-liar]
+msc: ["03A05"]
+topics: [6Q4JJ2MMV8]
+audience: ug2
+uses: [99XVFR5ZN5, ASVGQGMW9P]
+refutes:
+  - target: 99XVFR5ZN5
+    via: 4C40VGJHDD
+sources:
+  - url: https://plato.stanford.edu/entries/self-reference/
+    locator: "Self-Reference and Paradox, 1.6 Paradoxes without Self-Reference"
+  - url: https://plato.stanford.edu/entries/liar-paradox/
+    locator: "Liar Paradox, 1.5 Infinite sequences"
+---
+
+## Counterexample
+
+The claim refuted is the [[naive truth schema|99XVFR5ZN5]], in the form: there is a classical assignment of truth values that makes every T-sentence true.
+The counterexample uses an infinite sequence of sentences $S_0, S_1, S_2, \ldots$.
+
+$$S_n: \quad \text{for every } k > n, \ S_k \text{ is not true.}$$
+
+1. Assume the T-sentence for each $S_n$: $S_n$ is true if and only if every $S_k$ with $k > n$ is not true.
+2. Suppose $S_n$ is true for some $n$. Then every $S_k$ with $k > n$ is not true.
+3. In particular $S_{n + 1}$ is not true, and every $S_k$ with $k > n + 1$ is not true.
+4. The second half of step 3 is what $S_{n + 1}$ says. By step 1, $S_{n + 1}$ is true. This contradicts step 3.
+5. So no $S_n$ is true. In particular every $S_k$ with $k > 0$ is not true.
+6. That is what $S_0$ says, so $S_0$ is true, by step 1. This contradicts step 5.
+
+No sentence in the sequence speaks about itself: each speaks only about later sentences.
+In arithmetic the sequence exists by the diagonal lemma with parameters.
+There the argument gives an $\omega$-inconsistent theory, and not an inconsistent one; see the [[proposition on the Yablo T-sentences|ASVGQGMW9P]] and [[its proof|4C40VGJHDD]].
+
+## Remarks
+
+### Is it self-referential?
+
+The SEP entry on self-reference states that the structure of reference is the order $<$ on the natural numbers, which has no cycles.
+It reports that Yablo (1993) argues that the paradox is not self-referential, and that Priest (1997) argues that it is.
+In arithmetic, the sequence comes from one formula $Y(y)$ that contains a name of its own code.
+This is one form of Priest's point: the predicate "is a Yablo sentence" is defined by a fixed point.
+The SEP entry on the liar paradox states that similar constructions are in Visser (1984) and Yablo (1985).
+
+### ω-inconsistency
+
+The derivation above uses step 5, "no $S_n$ is true", as a single claim about all $n$.
+In a first-order theory with T-sentences only for the numerals, step 5 is available only one numeral at a time.
+So the theory proves "some $S_n$ is true" and also "$S_n$ is not true" for each numeral $n$.
+This is $\omega$-inconsistency: the theory is consistent, but it has no model with only standard numbers.
+
+### Finite variants
+
+The SEP entry on self-reference states that every finitary variant is consistent.
+For example, take $N$ sentences, where $S_n$ says that all $S_k$ with $n < k < N$ are untrue.
+Then $S_{N - 1}$ is true, since it speaks about no sentence, and $S_n$ is false for every $n < N - 1$.
+
+## Explanations
+
+### L1 human
+
+Imagine an endless line of people, numbered $0, 1, 2, \ldots$.
+Each person says: "everyone behind me in the line is lying".
+If some person tells the truth, then the next person lies, but everyone after that person also lies, so the next person tells the truth.
+So nobody tells the truth, but then person $0$ tells the truth.
+Unlike the liar, no person talks about themselves.
+
+### L2 human
+
+Check the finite variant with $N = 3$: $S_0$ says "$S_1$ and $S_2$ are untrue", $S_1$ says "$S_2$ is untrue", and $S_2$ says nothing about other sentences.
+
+1. $S_2$ says "every $S_k$ with $2 < k < 3$ is untrue". No such $k$ exists, so $S_2$ is true.
+2. $S_1$ says "$S_2$ is untrue". By step 1, $S_1$ is false.
+3. $S_0$ says "$S_1$ and $S_2$ are untrue". By step 1, $S_0$ is false.
+4. All three T-sentences hold. So the paradox needs the infinite sequence.
+
+The typical use is to test whether a diagnosis of the liar depends on circularity.
+The trap is to think that the formal version is inconsistent: it is only $\omega$-inconsistent.
+
+### L3 human
+
+The Yablo paradox moves the source of paradox from cycles to infinite descending chains of reference.
+In arithmetic it gives a theory whose models are all nonstandard, like [[McGee's theorem|GQW8RQVZJ4]] for the revision axioms.
+In [[Kripke's theory of truth|ES71QTSTNV]], every Yablo sentence is ungrounded.

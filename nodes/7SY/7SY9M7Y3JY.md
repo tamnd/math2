@@ -1,0 +1,76 @@
+---
+tag: 7SY9M7Y3JY
+kind: example
+name: Collapse of classical and intuitionistic implication
+aliases: [collapse-problem, collapsing-problem]
+msc: ["03B62", "03B20"]
+topics: [NJB94B39QK]
+audience: research
+instance_of: [HP1N0MBTDJ]
+uses: [HP1N0MBTDJ, Q11N8X99FK, GMSZ75D5WE, 8BKRJ0KPVD]
+sources:
+  - url: https://plato.stanford.edu/entries/logic-combining/
+    locator: Combining Logics (SEP entry), section 5
+---
+
+## Example
+
+This is the collapse problem of [[combining logics|HP1N0MBTDJ]], in the form that Gabbay gave.
+Take a language with two implications: $\to_1$, meant to be intuitionistic, and $\to_2$, meant to be classical.
+Let $\vdash$ be a consequence relation on this language with these properties.
+
+- Reflexivity: $\varphi \vdash \varphi$.
+- Monotonicity: if $\Gamma \vdash \psi$ and $\Gamma \subseteq \Gamma'$, then $\Gamma' \vdash \psi$.
+- Cut: if $\Gamma \vdash \varphi$ and $\Gamma, \varphi \vdash \psi$, then $\Gamma \vdash \psi$.
+- Deduction theorem for $i = 1, 2$: $\Gamma, \varphi \vdash \psi$ if and only if $\Gamma \vdash \varphi \to_i \psi$.
+- $\vdash$ extends classical logic for $\to_2$; in particular $\vdash ((p \to_2 q) \to_2 p) \to_2 p$, which is [[Peirce's law|GMSZ75D5WE]].
+
+We show that $\vdash ((p \to_1 q) \to_1 p) \to_1 p$.
+
+Lemma 1 (modus ponens): $\varphi \to_i \psi, \varphi \vdash \psi$.
+
+1. By Reflexivity, $\varphi \to_i \psi \vdash \varphi \to_i \psi$.
+2. The deduction theorem for $\to_i$, from right to left, gives $\varphi \to_i \psi, \varphi \vdash \psi$.
+
+Lemma 2 (the implications are interderivable): $\varphi \to_1 \psi \vdash \varphi \to_2 \psi$ and $\varphi \to_2 \psi \vdash \varphi \to_1 \psi$.
+
+3. By Lemma 1, $\varphi \to_1 \psi, \varphi \vdash \psi$.
+4. The deduction theorem for $\to_2$, from left to right, gives $\varphi \to_1 \psi \vdash \varphi \to_2 \psi$.
+5. Exchange the roles of $1$ and $2$ for the second claim.
+
+Peirce's law for $\to_1$: put $A = (p \to_1 q) \to_1 p$.
+
+6. By the deduction theorem for $\to_2$ applied to Peirce's law for $\to_2$, we get $(p \to_2 q) \to_2 p \vdash p$.
+7. By Lemma 2 and Monotonicity, $A, p \to_2 q \vdash p \to_1 q$.
+8. By Lemma 1 with $\varphi = p \to_1 q$ and $\psi = p$, and Monotonicity, $A, p \to_2 q, p \to_1 q \vdash p$.
+9. Cut on steps 7 and 8 gives $A, p \to_2 q \vdash p$.
+10. The deduction theorem for $\to_2$ gives $A \vdash (p \to_2 q) \to_2 p$.
+11. By step 6 and Monotonicity, $A, (p \to_2 q) \to_2 p \vdash p$. Cut on steps 10 and 11 gives $A \vdash p$.
+12. The deduction theorem for $\to_1$ gives $\vdash A \to_1 p$.
+
+So $\to_1$ satisfies Peirce's law.
+[[Intuitionistic logic|Q11N8X99FK]] does not prove Peirce's law, see [[the two-point countermodel|8BKRJ0KPVD]].
+So $\vdash$ is not a conservative extension of intuitionistic logic: the intuitionistic implication has collapsed into the classical one.
+
+## Remarks
+
+The proof uses only the structural rules and the two deduction theorems.
+So every combination method that keeps both deduction theorems has this collapse.
+In algebraic terms, the algebras of the combination are Heyting algebras that are also Boolean algebras.
+Del Cerro and Herzig gave an explicit collapse of this kind for their system $\mathsf{C} + \mathsf{J}$, and they avoided it by a weaker form of the intuitionistic weakening axiom.
+Algebraic fibring does not in general keep the deduction theorem, and modulated fibring and cryptofibring avoid the collapse.
+
+## Explanations
+
+### L1 human
+
+We try to put two kinds of "if ... then" into one logic: a strict one and a classical one.
+Both obey the rule "to prove 'if A then B', assume A and prove B".
+This one shared rule is enough to make the two kinds of "if" the same.
+
+### L2 human
+
+The deduction theorem ties each implication to the same consequence relation $\vdash$.
+So each implication is the internal form of $\vdash$, and two internal forms of one relation must coincide.
+After the collapse, every classical law about $\to_2$ holds for $\to_1$, for example Peirce's law.
+A trap is to think the problem comes from a bad semantics; it comes from the rules alone.

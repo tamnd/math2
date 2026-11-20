@@ -1,0 +1,102 @@
+---
+tag: XTNYY0WRQ5
+kind: concept
+name: Partial elementary map
+aliases: [partial-elementary-map, elementary-map]
+msc: ["03C07"]
+topics: [2RE7GWWXM5]
+audience: grad
+uses: [983GZBQYT4, HYJ10AF6RT, K7XDVK5854, CGH8C8EA9N, P3B1V182N4]
+sources:
+  - url: https://en.wikipedia.org/wiki/Elementary_equivalence
+    locator: Elementary embeddings
+  - book: isbn:9780387987606
+  - book: isbn:9780521587136
+---
+
+## Summary
+
+Let $\mathcal{M}$ and $\mathcal{N}$ be $L$-[[structures|983GZBQYT4]], and let $A \subseteq M$.
+A map $f \colon A \to N$ is a *partial elementary map* from $\mathcal{M}$ to $\mathcal{N}$ when, for every $L$-[[formula|HYJ10AF6RT]] $\varphi(x_1, \dots, x_n)$ and all $a_1, \dots, a_n \in A$,
+$$\mathcal{M} \models \varphi(a_1, \dots, a_n) \iff \mathcal{N} \models \varphi(f(a_1), \dots, f(a_n)).$$
+The set $A$ need not be the domain of a substructure, and the truth of $\varphi$ is computed in $\mathcal{M}$ and in $\mathcal{N}$.
+Partial elementary maps are the steps from which back-and-forth arguments and saturation arguments build [[elementary embeddings|CGH8C8EA9N]] and isomorphisms.
+
+## Motivation
+
+An elementary embedding is often built one element at a time.
+After finitely many steps, or fewer than $\kappa$ steps, only a part of $\mathcal{M}$ has an image.
+The condition that must hold at each stage is that the part of the map built so far preserves all formulas.
+Partial elementary maps make this stage condition exact, and the extension property below says when one more element can be added.
+
+## Notation
+
+Some books write $f \colon \mathcal{M} \rightharpoonup \mathcal{N}$ or $f \colon A \to_{e} \mathcal{N}$, or say *elementary map*.
+For a tuple $\bar a$ of $M$, the map $\bar a \mapsto \bar b$ is partial elementary exactly when $\bar a$ in $\mathcal{M}$ and $\bar b$ in $\mathcal{N}$ have the same complete type, written $\mathrm{tp}^{\mathcal{M}}(\bar a) = \mathrm{tp}^{\mathcal{N}}(\bar b)$.
+
+## Remarks
+
+### Examples
+
+- In $(\Q, <)$, every order-preserving map between finite subsets is partial elementary; see [[this example|6V2ENEMAS8]].
+- In the complex field, the map $i \mapsto -i$ is partial elementary, because complex conjugation is an automorphism that extends it; see [[this example|73QXGVZ3NT]].
+- The restriction of an elementary embedding to any subset is partial elementary. For example, the identity map of $\Q$ is a partial elementary map from $(\Q, <)$ to $(\R, <)$.
+- The empty map is partial elementary from $\mathcal{M}$ to $\mathcal{N}$ exactly when $\mathcal{M}$ and $\mathcal{N}$ are [[elementarily equivalent|P3B1V182N4]].
+
+### Non-examples
+
+- In $(\Z, <)$, the map $0 \mapsto 0$, $1 \mapsto 2$ preserves the order but not the formula "nothing lies between $x$ and $y$"; see [[this non-example|5MN48ESK0F]].
+- In the real field, $\sqrt{2} \mapsto -\sqrt{2}$ preserves all polynomial equations with rational coefficients, but not the formula $\exists z \, (x = z \cdot z)$.
+- The empty map from $(\Z, <)$ to $(\Q, <)$ is not partial elementary, because the two orders are [[not elementarily equivalent|V56GXSMWM6]].
+
+### Basic properties
+
+- A partial elementary map is injective, by the formula $x_1 = x_2$, and its inverse is a partial elementary map from $\mathcal{N}$ to $\mathcal{M}$.
+- Restrictions and compositions of partial elementary maps are partial elementary.
+- A partial elementary map with domain $M$ is an elementary embedding.
+- Extension: let $\mathcal{N}$ be $\kappa$-[[saturated|RMTZ5J64FX]], let $f \colon A \to N$ be partial elementary with $\abs{A} < \kappa$, and let $b \in M$. Then $f$ extends to a partial elementary map on $A \cup \set{b}$.
+- So if $\mathcal{M} \equiv \mathcal{N}$, $\abs{M} \le \kappa$ and $\mathcal{N}$ is $\kappa$-saturated, then $\mathcal{M}$ embeds elementarily into $\mathcal{N}$, by a transfinite construction that starts from the empty map.
+- A partial elementary map $f \colon A \to N$ always extends to an elementary embedding of $\mathcal{M}$ into some elementary extension of $\mathcal{N}$, by the method of the [[elementary amalgamation theorem|P2VMSM4H4Y]].
+
+### History
+
+Maps between finite parts of two structures appear in the back-and-forth proof that two countable dense linear orders without endpoints are isomorphic.
+Roland Fraïssé and Andrzej Ehrenfeucht used systems of partial isomorphisms to characterize elementary equivalence; see [[Ehrenfeucht-Fraïssé games|2RE7YAZK8R]].
+Partial elementary maps are the form of these ideas used in the theory of saturated models.
+
+### Common errors
+
+- A partial isomorphism, a map that preserves quantifier-free formulas, need not be partial elementary. The two notions agree in theories with quantifier elimination, such as the theory of dense linear orders.
+- A partial elementary map need not extend to an elementary embedding of $\mathcal{M}$ into $\mathcal{N}$ itself. The empty map from $(\R, <)$ to $(\Q, <)$ is partial elementary, and $\R$ does not embed into $\Q$, since $\R$ is uncountable.
+- Whether $f$ is partial elementary depends on $\mathcal{M}$ and $\mathcal{N}$, not only on $A$ and its image. The identity of $\set{0, 1}$ is partial elementary from $(\Q, <)$ to $(\Q, <)$, but not from $(\Z, <)$ to $(\Q, <)$.
+
+## Explanations
+
+### L1 human
+
+A partial elementary map matches some elements of one structure with some elements of another.
+It is required to keep every statement true or false, as long as the statement only names matched elements.
+For example, in the rational numbers with their order, match $0$ with $5$ and $1$ with $7$.
+Every statement about $0$ and $1$, such as "there is a number between them", has the same truth value for $5$ and $7$.
+In the whole numbers, matching $0$ with $0$ and $1$ with $2$ fails, because there is a whole number between $0$ and $2$ but none between $0$ and $1$.
+
+### L2 human
+
+We check that the map $f \colon \set{\sqrt{2}} \to \R$, $f(\sqrt{2}) = -\sqrt{2}$, is not partial elementary in the real field, although it preserves all atomic formulas.
+
+1. An atomic formula in one variable $x$ in the ring language is an equation $p(x) = q(x)$ with $p, q \in \Z[x]$.
+2. $p(\sqrt{2}) = q(\sqrt{2})$ means that $\sqrt{2}$ is a root of $p - q$. Then $x^2 - 2$ divides $p - q$, because it is the minimal polynomial of $\sqrt{2}$ over $\Q$.
+3. So $-\sqrt{2}$ is also a root of $p - q$, and $f$ preserves this atomic formula. The converse holds by symmetry.
+4. Let $\varphi(x) = \exists z \, (x = z \cdot z)$. Then $\R \models \varphi(\sqrt{2})$, with $z = \sqrt[4]{2}$.
+5. Every square in $\R$ is $\ge 0$, so $\R \models \neg\varphi(-\sqrt{2})$. So $f$ is not partial elementary.
+
+The typical use of partial elementary maps is the back-and-forth construction: extend the map one element at a time, keeping it elementary.
+A trap is to check only atomic formulas, as steps 1 to 3 do; they show a partial isomorphism, which is not enough.
+
+### L3 human
+
+A partial elementary map $\bar a \mapsto \bar b$ is the same as an equality of complete types $\mathrm{tp}(\bar a) = \mathrm{tp}(\bar b)$.
+So the theory of partial elementary maps is the theory of types, and the extension property is the definition of saturation in another form.
+A structure is strongly $\kappa$-homogeneous when each partial elementary map from it to itself with domain of size less than $\kappa$ extends to an automorphism, as in the [[sub-area on types and saturated models|Z772KEC9BY]].
+In the [[back-and-forth methods|N64R1MGDBN]], families of partial isomorphisms with the back and forth properties characterize equivalence in $L_{\infty\omega}$.
+Between two elementarily equivalent saturated structures of the same cardinality, the partial elementary maps with small domain form such a family, and the back-and-forth construction gives an isomorphism.

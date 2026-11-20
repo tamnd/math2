@@ -42,7 +42,7 @@ The proof is in [[the proof of Tarski's theorem|M6M7T09E36]].
 
 1. The set of true arithmetic sentences is not arithmetical: it is not $\Sigma_n$ for any $n$ in the [[arithmetical hierarchy|7CVJCQKY41]].
 2. Provability in a theory with c.e. axioms is $\Sigma_1$-definable, and truth is not definable. So, for a sound c.e. theory $T$, some true sentence is unprovable in $T$. This gives a short proof of a form of [[the first incompleteness theorem|X9WYNYE29C]].
-3. The theorem is a precise form of the [[liar paradox|DYAB23WA1X]]: a truth predicate would allow the sentence "this sentence is not true".
+3. The theorem is a precise form of the [[liar paradox|KBYY281V8T]]: a truth predicate would allow the sentence "this sentence is not true".
 
 ### Converse
 
