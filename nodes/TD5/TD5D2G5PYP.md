@@ -1,0 +1,100 @@
+---
+tag: TD5D2G5PYP
+kind: concept
+name: Keisler's order
+aliases: [keislers-order, keisler-order]
+msc: ["03C20", "03C45"]
+topics: [HZG1YP26AB]
+audience: research
+uses: [5ZVJK0V0GF, DYXQP8WS63, RMTZ5J64FX, 655K8Y7VS8, J64Y3JC0RE, T7JW5QY6KR]
+sources:
+  - url: https://arxiv.org/abs/1503.08341
+  - url: https://arxiv.org/abs/1208.5424
+  - url: https://arxiv.org/abs/1906.10241
+---
+
+## Summary
+
+Keisler's order compares [[complete theories|655K8Y7VS8]] in a countable language by how hard it is to make their [[ultrapowers|5ZVJK0V0GF]] saturated.
+An ultrafilter $\mathcal{D}$ on an infinite cardinal $\lambda$ is *regular* when some sets $X_\alpha \in \mathcal{D}$, $\alpha < \lambda$, have the property that each $i \in \lambda$ lies in only finitely many $X_\alpha$.
+For a regular $\mathcal{D}$, whether $\mathcal{M}^\lambda / \mathcal{D}$ is $\lambda^+$-[[saturated|RMTZ5J64FX]] depends only on the theory of $\mathcal{M}$; then $\mathcal{D}$ *saturates* that theory.
+Define $T_1 \trianglelefteq T_2$ when every regular ultrafilter, on any infinite $\lambda$, that saturates $T_2$ also saturates $T_1$.
+This is a preorder, and its equivalence classes are the classes of Keisler's order.
+A theory higher in the order needs a stronger ultrafilter.
+
+## Motivation
+
+[[Ultraproducts are $\aleph_1$-saturated|DYXQP8WS63]] when the ultrafilter is countably incomplete.
+At larger cardinals saturation depends on the theory: one regular ultrafilter on $\lambda$ can give a $\lambda^+$-saturated ultrapower of one theory but not of another.
+Keisler turned this into a way to measure the complexity of a theory, by the ultrafilters that saturate it.
+The surprise is that the measure detects the dividing lines of classification theory, such as [[stability|T7JW5QY6KR]], without being built from them.
+
+## Notation
+
+We write $T_1 \trianglelefteq T_2$, read "$T_1$ is below $T_2$ in Keisler's order", and $T_1 \triangleleft T_2$ when also $T_2 \not\trianglelefteq T_1$.
+"$\mathcal{D}$ saturates $T$" means that $\mathcal{M}^\lambda / \mathcal{D}$ is $\lambda^+$-saturated for some, equivalently every, model $\mathcal{M}$ of $T$.
+Only regular ultrafilters on infinite $\lambda$ and complete theories in countable languages enter the definition.
+
+## Remarks
+
+### Examples
+
+- The [[theory of infinite sets|Z7ZAR44QX2]] is saturated by every regular ultrafilter, so it lies in the minimum class.
+- At $\lambda = \aleph_0$ [[every theory is saturated|RXPQ85KPX1]], so the order is decided at uncountable $\lambda$.
+- Keisler found a minimum class, which contains the theory of algebraically closed fields of a fixed characteristic, and a maximum class, which contains Peano arithmetic.
+- The theory of [[dense linear orders|2W4S2H4VYA]] is in the maximum class.
+- The theory of the [[random graph|TNT3DG0HRJ]] is the minimum class among the unstable theories.
+
+### Non-examples
+
+- If principal ultrafilters were allowed, saturation would depend on the model and not on the theory; see [[this non-example|S46KCTEJJ5]].
+- Incomplete theories have no place in the order, since their models need not be elementarily equivalent.
+
+### Basic properties
+
+- $\trianglelefteq$ is reflexive and transitive, so it is a preorder on complete countable theories.
+- A regular ultrafilter is countably incomplete, so its ultrapowers are $\aleph_1$-saturated.
+- A regular ultrafilter on $\lambda$ saturates every countable theory exactly when it is $\lambda^+$-good, by Keisler's theorem. Such ultrafilters exist on every infinite $\lambda$ (Kunen), so every theory is saturated by some regular ultrafilter.
+- The stable theories form the two lowest classes: theories without the finite cover property, then stable theories with it (Shelah). Every unstable theory lies strictly above them.
+
+### History
+
+Keisler introduced the order in 1967 and found its minimum and maximum classes.
+Shelah identified the stable classes in his book on classification theory.
+Malliaris and Shelah showed in 2016 that theories with the property $SOP_2$ are maximal, in a paper that also proves $\mathfrak{p} = \mathfrak{t}$.
+They later showed that the order has infinitely many classes (2018), and then the maximum possible number of classes (2021).
+A full description of the order above the stable theories is open.
+
+### Common errors
+
+- To read $T_1 \trianglelefteq T_2$ as "$T_1$ is more complex". It means that $T_2$ is at least as hard to saturate.
+- To compare models instead of theories. Keisler's lemma shows that only the theory matters, and only for regular ultrafilters.
+- To expect a well-order with few classes. The order has infinitely many classes and an infinite strictly descending chain.
+
+## Explanations
+
+### L1 human
+
+Ultraproducts fill gaps: conditions that can be met a few at a time are met all at once.
+A strong enough ultrafilter fills all gaps of a given size.
+Some theories have gaps that are easy to fill, and others have gaps that only very strong ultrafilters fill.
+Keisler's order ranks theories by this difficulty.
+
+### L2 human
+
+We place two theories using the examples above.
+
+1. Let $T_0$ be the theory of infinite sets. Every regular ultrafilter saturates $T_0$, so $T_0 \trianglelefteq T$ for every countable complete $T$.
+2. Let $T_1$ be the theory of $(\Q, <)$. It is in the maximum class, so $\mathcal{D}$ saturates $T_1$ exactly when $\mathcal{D}$ is $\lambda^+$-good.
+3. Since $T_0$ is stable and $T_1$ is unstable, Shelah's results give $T_0 \triangleleft T_1$.
+4. At $\lambda = \aleph_0$ the two cannot be told apart: every nonprincipal ultrapower is $\aleph_1$-saturated.
+
+The typical use is to show that two theories differ in complexity by finding an ultrafilter that saturates one and not the other.
+The trap is to work at $\lambda = \aleph_0$, where nothing is separated.
+
+### L3 human
+
+Keisler's order links model theory with set theory: its classes are described by combinatorial properties of ultrafilters.
+The work of Malliaris and Shelah on $SOP_2$ uses cofinality spectra, and it settles the equality $\mathfrak{p} = \mathfrak{t}$ of two [[cardinal characteristics of the continuum|66748CE93N]].
+Their later results use simple unstable theories, such as theories of hypergraphs without certain finite configurations.
+For a related interpretability order $\trianglelefteq^*$, Malliaris and Shelah showed that the random graph is again the minimum among the unstable theories.
