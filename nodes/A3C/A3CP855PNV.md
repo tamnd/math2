@@ -3,7 +3,7 @@ tag: A3CP855PNV
 kind: example
 name: An isomorphism from R^2 to its dual given by a basis is not canonical
 msc: ["00A35", "15A04"]
-topics: [Z2WNQ1DNTX]
+topics: [Z2WNQ1DNTX, 9K7FFF26QR]
 audience: ug2
 not_instance_of:
   - target: F8WNADZFMM

@@ -3,7 +3,7 @@ tag: J3X26BSQEY
 kind: example
 name: The evaluation map from a vector space to its double dual is canonical
 msc: ["00A35", "15A04"]
-topics: [Z2WNQ1DNTX]
+topics: [Z2WNQ1DNTX, 9K7FFF26QR]
 audience: ug2
 instance_of: [F8WNADZFMM]
 uses: [F8WNADZFMM, 0ZJM9D7NPS, 07JBSZE0V4, 0ZD2CF6ZS0, 0KCQ9Y3QKA]
