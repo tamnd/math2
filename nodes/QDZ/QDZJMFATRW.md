@@ -1,0 +1,82 @@
+---
+tag: QDZJMFATRW
+kind: statement
+role: theorem
+name: Determinant and eigenvalues of an orthogonal matrix
+aliases: [orthogonal-matrix-determinant-plus-or-minus-one, eigenvalues-of-orthogonal-matrix-on-unit-circle]
+msc: ["15B10", "15A18"]
+topics: [AZS5BPF5H3]
+audience: ug1
+about: [0W02QESPJQ, 00KDZRW4C0, 0BQAA2BK3Q]
+uses: [0QRBVFJ50X, 0C3CFHDN6R, 0ZND7NQ970, 039HF58KQ5]
+sources:
+  - url: https://en.wikipedia.org/wiki/Orthogonal_matrix
+    locator: Matrix properties
+  - book: isbn:9780134860244
+    locator: Section 6.5
+---
+
+## Statement
+
+Let $Q$ be a real $n \times n$ [[orthogonal matrix|0QRBVFJ50X]].
+
+1. The [[determinant|0C3CFHDN6R]] of $Q$ is $1$ or $-1$.
+2. Every complex root $\lambda$ of the [[characteristic polynomial|039HF58KQ5]] of $Q$ has $\abs{\lambda} = 1$. In particular, every real [[eigenvalue|0ZND7NQ970]] of $Q$ is $1$ or $-1$.
+3. The non-real roots come in pairs $\lambda$, $\overline{\lambda}$ with the same multiplicity, and $\overline{\lambda} = \lambda^{-1}$.
+
+## Remarks
+
+### Why each hypothesis is needed
+
+- Without orthogonality, part 1 fails: $\operatorname{diag}(2, 1)$ has determinant $2$.
+- Without orthogonality, part 2 fails: $\operatorname{diag}(2, \frac{1}{2})$ has determinant $1$, but its eigenvalues $2$ and $\frac{1}{2}$ are not on the unit circle.
+- Part 3 needs a real matrix. The complex unitary matrix $\operatorname{diag}(i, 1)$ has the eigenvalue $i$, but not $-i$.
+
+### Consequences
+
+- The orthogonal matrices split into two classes: the rotations with $\det Q = 1$, which form the [[special orthogonal group|6WBVP2PB1Y]], and those with $\det Q = -1$, such as the [[reflections|06BRDF3F0E]].
+- If $n$ is odd and $\det Q = 1$, then $1$ is an eigenvalue. The non-real roots pair up with products $\lambda\overline{\lambda} = 1$, so the real roots are an odd number of values $\pm 1$ with product $1$. So at least one of them is $1$, and this gives [[Euler's rotation theorem|2ZVG43GSKA]].
+- The trace of $Q$ is real and $\abs{\tr Q} \le n$, because it is the sum of $n$ roots of absolute value $1$.
+
+### Converse
+
+The converse is false.
+The shear $\begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$ has determinant $1$, and its only eigenvalue is $1$, on the unit circle.
+But it is not orthogonal, because its second column $(1, 1)$ has length $\sqrt{2}$.
+The converse holds for [[normal matrices|0MR0BYF0K2]]: a real normal matrix with all eigenvalues on the unit circle is orthogonal, by the [[real normal form|G6T1FNE3JC]].
+
+### Generalizations
+
+- For a unitary matrix $U$, $\abs{\det U} = 1$ and every eigenvalue has absolute value $1$, see [[the properties of unitary matrices|GZ7NG7J3J8]].
+- For any linear isometry $T$ of a finite-dimensional inner product space, the same proof gives $\abs{\lambda} = 1$ for every eigenvalue: $\norm{v} = \norm{Tv} = \abs{\lambda}\norm{v}$.
+
+## Explanations
+
+### L1 human
+
+An orthogonal matrix turns or mirrors space, and it keeps all lengths.
+The determinant measures how volumes change, and a sign for mirror images.
+Volumes do not change, so the determinant is $1$ or $-1$.
+An eigenvector is an arrow that the matrix only stretches.
+The stretch factor must be $1$ or $-1$, because the length stays the same.
+
+### L2 human
+
+Worked example: $Q = \begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}$, the quarter turn.
+
+1. $Q^TQ = \begin{pmatrix} 0 & 1 \\ -1 & 0 \end{pmatrix}\begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix} = I$, so $Q$ is orthogonal.
+2. $\det Q = 0 \cdot 0 - (-1) \cdot 1 = 1$.
+3. The characteristic polynomial is $t^2 + 1$, with the roots $i$ and $-i$.
+4. Both roots have absolute value $1$, and they are complex conjugates of each other.
+5. $Q$ has no real eigenvalue, which fits: a quarter turn fixes no direction.
+
+The typical use: a quick test.
+A real matrix with an eigenvalue $2$, or with determinant $3$, is not orthogonal.
+A trap: the converse fails, as the shear $\begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$ shows.
+
+### L3 human
+
+The determinant is a [[group homomorphism|0JYTG5K9Y4]] from the orthogonal group onto $\set{1, -1}$, and its kernel is the special orthogonal group.
+The eigenvalues on the unit circle reflect the compactness of $O(n)$: the powers $Q^k$ and $Q^{-k} = (Q^T)^k$ stay bounded, so no eigenvalue can be larger or smaller than $1$ in absolute value.
+The same argument works for any compact group of matrices.
+The [[normal form of orthogonal matrices|QTY3VMFGY1]] shows exactly how the eigenvalues $e^{\pm i\theta}$ arise from rotations in perpendicular planes.
