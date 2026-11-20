@@ -1,5 +1,5 @@
 ---
-tag: ~fbef995e
+tag: HSJ4F9J8SM
 kind: concept
 name: Atomic model
 aliases: [atomic-model, atomic-structure]
@@ -41,22 +41,22 @@ A type is isolated exactly when it is an [[isolated point|0A1YXSKB48]] of $S_n(T
 
 ### Examples
 
-- The field of algebraic numbers is an atomic model of the theory of algebraically closed fields of characteristic $0$; see [[this example|~5820c59d]].
-- Every model of the theory of dense linear orders without endpoints is atomic, including $\R$; see [[this example|~309e2d86]].
+- The field of algebraic numbers is an atomic model of the theory of algebraically closed fields of characteristic $0$; see [[this example|NS2NZRZXJB]].
+- Every model of the theory of dense linear orders without endpoints is atomic, including $\R$; see [[this example|CWZ3T8F542]].
 - Every model of an $\aleph_0$-categorical theory is atomic, because by the [[Ryll-Nardzewski theorem|1513J40TKA]] all types of such a theory are isolated.
 
 ### Non-examples
 
-- The complex field is not atomic: a transcendental element realizes a type that is not isolated; see [[this non-example|~528f8a9a]].
+- The complex field is not atomic: a transcendental element realizes a type that is not isolated; see [[this non-example|GPMKBKJ4A7]].
 - In $\operatorname{Th}(\Z, <)$, the type of a pair $a < b$ with infinitely many elements between them is omitted by $\Z$, so it is not isolated. So $\Z + \Z$, which realizes it, is not atomic.
-- The theory of [[independent unary predicates|~a949e251]] has no isolated $1$-types, so it has no atomic model at all.
+- The theory of [[independent unary predicates|9MV9VG8G67]] has no isolated $1$-types, so it has no atomic model at all.
 
 ### Basic properties
 
 - An elementary substructure of an atomic model is atomic, since a tuple has the same type in both.
-- If $L$ is countable, every prime model is atomic, and a countable atomic model is prime; see [[this theorem|~ddda0a28]].
+- If $L$ is countable, every prime model is atomic, and a countable atomic model is prime; see [[this theorem|EXC8913GGX]].
 - Two countable atomic models of $T$ are isomorphic, by a back-and-forth argument.
-- $T$ has an atomic model exactly when the isolated types are dense in each $S_n(T)$; see [[this theorem|~24829d6c]]. This holds when each $S_n(T)$ is countable, that is, when $T$ is [[small|~166b8a9e]].
+- $T$ has an atomic model exactly when the isolated types are dense in each $S_n(T)$; see [[this theorem|MXVGKQ783S]]. This holds when each $S_n(T)$ is countable, that is, when $T$ is [[small|W6XM5NVNRP]].
 
 ### History
 

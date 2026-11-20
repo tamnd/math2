@@ -1,5 +1,5 @@
 ---
-tag: ~2f97a8b0
+tag: N232QBKCAA
 kind: example
 name: An equivalence relation with infinitely many infinite classes
 aliases: [equivalence-relation-infinitely-many-infinite-classes]

@@ -1,12 +1,12 @@
 ---
-tag: ~b067529e
+tag: 43CWKNJGBT
 kind: proof
 name: Proof that prime models are the countable atomic models
 msc: ["03C50", "03C15"]
 topics: [6XEXRME4C1]
 audience: grad
-proves: ~ddda0a28
-uses: [~fbef995e, 7MFGBVDVG9, 484M0TZ1S7, XTNYY0WRQ5, 6F2DB4HTJR, CGH8C8EA9N]
+proves: EXC8913GGX
+uses: [HSJ4F9J8SM, 7MFGBVDVG9, 484M0TZ1S7, XTNYY0WRQ5, 6F2DB4HTJR, CGH8C8EA9N]
 methods: [TFQ1845T84, 0J0XBKG64S, 01XM7JEKHY]
 sources:
   - book: isbn:9780387987606

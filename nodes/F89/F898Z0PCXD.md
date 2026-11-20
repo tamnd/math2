@@ -1,12 +1,12 @@
 ---
-tag: ~f73f35ae
+tag: F898Z0PCXD
 kind: proof
 name: Proof of the existence of atomic models by omitting types
 msc: ["03C50", "03C15"]
 topics: [6XEXRME4C1]
 audience: grad
-proves: ~24829d6c
-uses: [~fbef995e, 7MFGBVDVG9, 1NR3HAWG9D, ~ddda0a28]
+proves: MXVGKQ783S
+uses: [HSJ4F9J8SM, 7MFGBVDVG9, 1NR3HAWG9D, EXC8913GGX]
 methods: [TFQ1845T84, 0J0XBKG64S, 01XM7JEKHY]
 sources:
   - book: isbn:9780387987606
@@ -29,7 +29,7 @@ Recall that a complete formula $\theta(\bar x)$ is a formula consistent with $T$
 2. A tuple $\bar a$ realizes $\Gamma_n$ exactly when its type is not isolated.
 3. $\Gamma_n$ is not isolated. Suppose that $\varphi$ is consistent with $T$ and implies every formula of $\Gamma_n$. By density, some complete $\theta$ has $T \models \theta \to \varphi$. Then $T \models \theta \to \neg\theta$, so $\theta$ is inconsistent with $T$, a contradiction.
 4. The [[omitting types theorem|7MFGBVDVG9]], in the form for countably many types, gives a countable model $M$ that omits every $\Gamma_n$. If some $\Gamma_n$ is inconsistent with $T$, every model omits it.
-5. By step 2, every tuple of $M$ has an isolated type. So $M$ is atomic and countable, hence prime by [[this theorem|~ddda0a28]].
+5. By step 2, every tuple of $M$ has an isolated type. So $M$ is atomic and countable, hence prime by [[this theorem|EXC8913GGX]].
 
 ### Few types imply density
 

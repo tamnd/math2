@@ -1,12 +1,12 @@
 ---
-tag: ~8b0c6152
+tag: 1ZVPY7J2Z8
 kind: proof
 name: Outline of the proof of Morley's theorem on countable models via Scott analysis
 msc: ["03C15", "03C75", "03E15"]
 topics: [6XEXRME4C1]
 audience: research
-proves: ~630e3683
-uses: [KAWWZ2DF0G, PQG7VAZ1R2, 3RWWZYPAFV, H47ZGRR13V, 584GXXY73M, ~166b8a9e]
+proves: JFG783DEG8
+uses: [KAWWZ2DF0G, PQG7VAZ1R2, 3RWWZYPAFV, H47ZGRR13V, 584GXXY73M, W6XM5NVNRP]
 methods: [0WCP0PVET6]
 sources:
   - book: isbn:9780387987606
@@ -28,7 +28,7 @@ Let $T$ be a theory in a countable signature $L$.
 1. Suppose that for some $\alpha$, uncountably many $F_\alpha$-types are realized in countable models of $T$.
 2. The $F_\alpha$-types form a Polish space, and the set of realized ones is the image of a Borel set under a continuous map, so it is an [[analytic set|3RWWZYPAFV]].
 3. An uncountable analytic set contains a perfect set, by the [[perfect set property|H47ZGRR13V]]. So $2^{\aleph_0}$ types are realized.
-4. Each countable model realizes countably many types, so $T$ has $2^{\aleph_0}$ countable models, as in the counting argument for [[small theories|~166b8a9e]].
+4. Each countable model realizes countably many types, so $T$ has $2^{\aleph_0}$ countable models, as in the counting argument for [[small theories|W6XM5NVNRP]].
 
 ### Case 2: every fragment has countably many types
 

@@ -1,5 +1,5 @@
 ---
-tag: ~ddda0a28
+tag: EXC8913GGX
 kind: statement
 role: theorem
 name: Prime models are the countable atomic models
@@ -7,8 +7,8 @@ aliases: [prime-iff-countable-atomic, uniqueness-of-prime-models]
 msc: ["03C50", "03C15"]
 topics: [6XEXRME4C1]
 audience: grad
-uses: [~fbef995e, S8W40PYNHX, 655K8Y7VS8, 9V71Q3SD1G, 6F2DB4HTJR, XTNYY0WRQ5]
-about: [~fbef995e, S8W40PYNHX]
+uses: [HSJ4F9J8SM, S8W40PYNHX, 655K8Y7VS8, 9V71Q3SD1G, 6F2DB4HTJR, XTNYY0WRQ5]
+about: [HSJ4F9J8SM, S8W40PYNHX]
 sources:
   - url: https://en.wikipedia.org/wiki/Prime_model
     locator: Relationship with saturated models
@@ -19,24 +19,24 @@ sources:
 
 Let $T$ be a [[complete theory|655K8Y7VS8]] with infinite models in a countable signature $L$.
 
-1. A model $M$ of $T$ is a [[prime model|S8W40PYNHX]] if and only if $M$ is countable and [[atomic|~fbef995e]].
+1. A model $M$ of $T$ is a [[prime model|S8W40PYNHX]] if and only if $M$ is countable and [[atomic|HSJ4F9J8SM]].
 2. Any two countable atomic models of $T$ are isomorphic.
 3. In particular, if $T$ has a prime model, it is unique up to isomorphism.
 
-The proof is [[here|~b067529e]].
+The proof is [[here|43CWKNJGBT]].
 
 ## Remarks
 
 ### Why each hypothesis is needed
 
 - Countable signature. Let $L$ have constants $c_\alpha$ for $\alpha < \omega_1$, and let $T$ say that the $c_\alpha$ are pairwise distinct and that there are infinitely many elements. The model whose elements are exactly the constants is prime, and it is uncountable.
-- Countable model. In the theory of dense linear orders without endpoints, $(\R, <)$ is atomic but not prime; see [[this example|~309e2d86]].
+- Countable model. In the theory of dense linear orders without endpoints, $(\R, <)$ is atomic but not prime; see [[this example|CWZ3T8F542]].
 - Completeness of $T$ is part of the definitions: isolation and elementary embeddings into all models both need a fixed complete theory.
 
 ### Consequences
 
-- The field of [[algebraic numbers|~5820c59d]] is the prime model of $\mathrm{ACF}_0$, and $(\Q, <)$ is the prime model of the theory of dense linear orders.
-- A theory with no isolated $n$-type for some $n$, such as the theory of [[independent unary predicates|~a949e251]], has no atomic model, and so no prime model.
+- The field of [[algebraic numbers|NS2NZRZXJB]] is the prime model of $\mathrm{ACF}_0$, and $(\Q, <)$ is the prime model of the theory of dense linear orders.
+- A theory with no isolated $n$-type for some $n$, such as the theory of [[independent unary predicates|9MV9VG8G67]], has no atomic model, and so no prime model.
 - If $T$ is $\aleph_0$-categorical, its countable model is atomic and prime.
 
 ### Converse
@@ -52,7 +52,7 @@ In an $\omega$-stable theory, every set $A$ inside a model has a prime model ove
 
 ## History
 
-This theorem is one of the basic results on countable models of complete theories, together with the existence theorem for [[atomic models|~24829d6c]] and [[Vaught's never-two theorem|~ea319e25]].
+This theorem is one of the basic results on countable models of complete theories, together with the existence theorem for [[atomic models|MXVGKQ783S]] and [[Vaught's never-two theorem|E5W3RRSY5Z]].
 
 ## Explanations
 

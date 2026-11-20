@@ -48,13 +48,13 @@ In older texts a theory is *categorical* when all its models are isomorphic; thi
 
 - The theory of [[dense linear orders without endpoints|2W4S2H4VYA]] is $\aleph_0$-categorical, by Cantor's back-and-forth argument, and not $\kappa$-categorical for uncountable $\kappa$.
 - The theory of infinite sets in the empty signature is totally categorical, because two sets of the same cardinality are in bijection.
-- The theory of nonzero [[vector spaces over the rationals|~187e3871]] is uncountably categorical, because a space of uncountable size $\kappa$ has dimension $\kappa$; it is not $\aleph_0$-categorical.
+- The theory of nonzero [[vector spaces over the rationals|97YPZ0YHEB]] is uncountably categorical, because a space of uncountable size $\kappa$ has dimension $\kappa$; it is not $\aleph_0$-categorical.
 - The theory of algebraically closed fields of a fixed characteristic is uncountably categorical, by Steinitz's classification by transcendence degree.
-- More cases, with a table of all four possible behaviors, are in [[the standard examples|~9a561b71]].
+- More cases, with a table of all four possible behaviors, are in [[the standard examples|20QJANNKP7]].
 
 ### Non-examples
 
-- The complete theory of $(\Z, <)$ is $\kappa$-categorical for no infinite $\kappa$; see [[this non-example|~9769b292]]. The uniqueness condition fails in every infinite size.
+- The complete theory of $(\Z, <)$ is $\kappa$-categorical for no infinite $\kappa$; see [[this non-example|91WRBX69MB]]. The uniqueness condition fails in every infinite size.
 - The theory of groups is not $\kappa$-categorical for any infinite $\kappa$: the abelian groups $\bigoplus_{\kappa} \Z/2\Z$ and $\bigoplus_{\kappa} \Z/3\Z$ both have size $\kappa$, and they are not isomorphic, since only the first has an element of order $2$.
 - Let $L$ have constants $c_\alpha$ for $\alpha < \omega_1$, and let $T$ say that they are pairwise distinct. Then $T$ has no countable model, so the existence condition fails and $T$ is not $\aleph_0$-categorical.
 

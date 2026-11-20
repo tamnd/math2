@@ -1,5 +1,5 @@
 ---
-tag: ~9a561b71
+tag: 20QJANNKP7
 kind: example
 name: Standard examples of categoricity
 aliases: [four-categoricity-patterns]
@@ -7,7 +7,7 @@ msc: ["03C35"]
 topics: [6XEXRME4C1]
 audience: grad
 instance_of: [1JJCGNX240]
-uses: [1JJCGNX240, KFWXHKBHYT, 000AYPA9AJ, 2W4S2H4VYA, RMXR0FEF54, 0SGTMBEWRF, MT8TDVPBXB, ~187e3871, ~9769b292, V7N84P60SJ, CAEHMSX9RT]
+uses: [1JJCGNX240, KFWXHKBHYT, 000AYPA9AJ, 2W4S2H4VYA, RMXR0FEF54, 0SGTMBEWRF, MT8TDVPBXB, 97YPZ0YHEB, 91WRBX69MB, V7N84P60SJ, CAEHMSX9RT]
 sources:
   - url: https://en.wikipedia.org/wiki/Categorical_theory
     locator: Examples
@@ -53,9 +53,9 @@ Rows 1 to 7 are the $\aleph_0$-categorical rows.
 Rows 8 to 11 are not $\aleph_0$-categorical.
 
 8. [[Algebraically closed fields|MT8TDVPBXB]] of characteristic $p$. A model is fixed by its transcendence degree, by [[Steinitz's theorem|CAEHMSX9RT]]. In size $\kappa > \aleph_0$ the degree is $\kappa$, while the countable models have degrees $0, 1, 2, \dots, \aleph_0$.
-9. Vector spaces over $\Q$. This is [[this example|~187e3871]], with dimension in place of transcendence degree.
+9. Vector spaces over $\Q$. This is [[this example|97YPZ0YHEB]], with dimension in place of transcendence degree.
 10. The successor function $s$ on $\Z$. A model is a disjoint union of copies of $(\Z, s)$, since $s$ is a bijection without cycles. A model of size $\kappa > \aleph_0$ has $\kappa$ copies, while countable models can have $1, 2, \dots$ or $\aleph_0$ copies.
-11. The order of $\Z$. This is [[this example|~9769b292]]: there are two non-isomorphic models in every infinite size.
+11. The order of $\Z$. This is [[this example|91WRBX69MB]]: there are two non-isomorphic models in every infinite size.
 
 ## Remarks
 

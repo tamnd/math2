@@ -1,5 +1,5 @@
 ---
-tag: ~9769b292
+tag: 91WRBX69MB
 kind: example
 name: The integer order is categorical in no infinite cardinal
 aliases: [theory-of-the-integer-order-is-not-categorical]
@@ -36,7 +36,7 @@ The theory $T$ is complete, because it is the theory of one structure, and it ha
 So the converse of the [[Łoś-Vaught test|ZR7Y5C235P]] fails: a complete theory need not be categorical in any cardinal.
 For $\kappa = \aleph_0$ the example says that $\Z$ and $\Z + \Z$ are elementarily equivalent and not isomorphic.
 Every countable model of $T$ has the form $\Z \cdot I$ for a countable nonempty order $I$, and there are $2^{\aleph_0}$ countable orders up to isomorphism, so $T$ has $2^{\aleph_0}$ countable models.
-The theory is still [[small|~166b8a9e]]: an $n$-type is fixed by the order of the points and by the distances that are finite.
+The theory is still [[small|W6XM5NVNRP]]: an $n$-type is fixed by the order of the points and by the distances that are finite.
 
 ## Explanations
 

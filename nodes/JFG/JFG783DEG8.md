@@ -1,5 +1,5 @@
 ---
-tag: ~630e3683
+tag: JFG783DEG8
 kind: statement
 role: theorem
 name: Morley's theorem on the number of countable models
@@ -23,7 +23,7 @@ Let $T$ be a [[complete theory|655K8Y7VS8]] in a countable first-order signature
 Let $I(T, \aleph_0)$ be the number of [[countable|01TQB88H4C]] models of $T$ up to isomorphism.
 Then $I(T, \aleph_0) \le \aleph_1$ or $I(T, \aleph_0) = 2^{\aleph_0}$.
 
-An outline of the proof is [[here|~8b0c6152]].
+An outline of the proof is [[here|1ZVPY7J2Z8]].
 
 ## Remarks
 
@@ -35,7 +35,7 @@ An outline of the proof is [[here|~8b0c6152]].
 ### Consequences
 
 - Under the [[continuum hypothesis|0MN2MER9WN]], the number of countable models is at most $\aleph_0$ or equal to $2^{\aleph_0}$.
-- With [[Vaught's never-two theorem|~ea319e25]], the possible numbers are $1, 3, 4, 5, \dots$, $\aleph_0$, $\aleph_1$ and $2^{\aleph_0}$, and only $\aleph_1$ is in doubt when $\aleph_1 < 2^{\aleph_0}$.
+- With [[Vaught's never-two theorem|E5W3RRSY5Z]], the possible numbers are $1, 3, 4, 5, \dots$, $\aleph_0$, $\aleph_1$ and $2^{\aleph_0}$, and only $\aleph_1$ is in doubt when $\aleph_1 < 2^{\aleph_0}$.
 
 ### Converse
 

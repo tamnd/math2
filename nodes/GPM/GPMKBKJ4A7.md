@@ -1,5 +1,5 @@
 ---
-tag: ~528f8a9a
+tag: GPMKBKJ4A7
 kind: example
 name: The complex field is not an atomic model
 aliases: [complex-field-is-not-atomic]
@@ -7,11 +7,11 @@ msc: ["03C50", "03C60", "12L12"]
 topics: [6XEXRME4C1]
 audience: grad
 not_instance_of:
-  - target: ~fbef995e
+  - target: HSJ4F9J8SM
     note: a transcendental complex number realizes the type of a transcendental element, which is not isolated in the theory of algebraically closed fields of characteristic zero
   - target: S8W40PYNHX
     note: the complex field is uncountable, so it does not embed into the countable field of algebraic numbers
-uses: [~fbef995e, S8W40PYNHX, MT8TDVPBXB, 7FDDXV3JK7, ~5820c59d, 8H2PE4ZS53]
+uses: [HSJ4F9J8SM, S8W40PYNHX, MT8TDVPBXB, 7FDDXV3JK7, NS2NZRZXJB, 8H2PE4ZS53]
 sources:
   - book: isbn:9780387987606
 ---
@@ -19,7 +19,7 @@ sources:
 ## Example
 
 Let $T = \mathrm{ACF}_0$ and consider the model $\C$.
-We show that $\C$ is neither an [[atomic model|~fbef995e]] nor a [[prime model|S8W40PYNHX]] of $T$.
+We show that $\C$ is neither an [[atomic model|HSJ4F9J8SM]] nor a [[prime model|S8W40PYNHX]] of $T$.
 
 1. Let $p(x) = \set{f(x) \ne 0 : f \in \Z[x], f \ne 0}$. Every finite part of $p$ excludes finitely many roots, so it is satisfied in $\C$.
 2. $p$ is a complete type of $T$. By [[quantifier elimination|7FDDXV3JK7]], a formula in $x$ is equivalent modulo $T$ to a Boolean combination of equations $f(x) = 0$, and $p$ decides each of them.
@@ -32,7 +32,7 @@ We show that $\C$ is neither an [[atomic model|~fbef995e]] nor a [[prime model|S
 ## Remarks
 
 The same steps show that a model of $\mathrm{ACF}_0$ is atomic exactly when it has transcendence degree $0$ over $\Q$.
-So $\overline{\Q}$, the [[prime model|~5820c59d]], is the only atomic model up to isomorphism.
+So $\overline{\Q}$, the [[prime model|NS2NZRZXJB]], is the only atomic model up to isomorphism.
 The countable model of transcendence degree $1$ is countable and still not atomic.
 So countability alone does not make a model prime; the types it realizes matter.
 

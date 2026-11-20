@@ -1,13 +1,13 @@
 ---
-tag: ~afa32723
+tag: DKE21EBN3M
 kind: example
 name: Algebraically closed fields of characteristic zero form a small theory
 aliases: [acf0-is-small]
 msc: ["03C60", "03C15", "12L12"]
 topics: [6XEXRME4C1]
 audience: grad
-instance_of: [~166b8a9e]
-uses: [~166b8a9e, MT8TDVPBXB, 7FDDXV3JK7, 0YKA9J3XEE, 06HC6HK0Z8]
+instance_of: [W6XM5NVNRP]
+uses: [W6XM5NVNRP, MT8TDVPBXB, 7FDDXV3JK7, 0YKA9J3XEE, 06HC6HK0Z8]
 sources:
   - book: isbn:9780387987606
 ---
@@ -15,7 +15,7 @@ sources:
 ## Example
 
 Let $T = \mathrm{ACF}_0$.
-We show that $T$ is [[small|~166b8a9e]]: for each $n$, $T$ has countably many complete $n$-types.
+We show that $T$ is [[small|W6XM5NVNRP]]: for each $n$, $T$ has countably many complete $n$-types.
 
 1. By [[quantifier elimination|7FDDXV3JK7]], the type of a tuple $\bar a$ in a model $K$ is fixed by $I(\bar a) = \set{f \in \Q[x_1, \dots, x_n] : f(\bar a) = 0}$; see [[this page|MT8TDVPBXB]].
 2. $I(\bar a)$ is a [[prime ideal|06HC6HK0Z8]], since $\Q[\bar x] / I(\bar a)$ embeds in the field $K$.

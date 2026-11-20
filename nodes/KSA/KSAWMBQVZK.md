@@ -1,12 +1,12 @@
 ---
-tag: ~069fa44c
+tag: KSAWMBQVZK
 kind: proof
 name: Proof of the Ryll-Nardzewski theorem by omitting types and back-and-forth
 msc: ["03C35", "03C15"]
 topics: [6XEXRME4C1]
 audience: grad
 proves: 1513J40TKA
-uses: [~ddda0a28, ~fbef995e, 7MFGBVDVG9, 1NR3HAWG9D, 484M0TZ1S7, 0K1SCPBNKJ, QC9M3Q8B8Q]
+uses: [EXC8913GGX, HSJ4F9J8SM, 7MFGBVDVG9, 1NR3HAWG9D, 484M0TZ1S7, 0K1SCPBNKJ, QC9M3Q8B8Q]
 methods: [TFQ1845T84, 0J0XBKG64S]
 sources:
   - book: isbn:9780387987606
@@ -33,14 +33,14 @@ Then $\theta_i \in q_i$ and $\theta_i \notin q_j$ for $j \ne i$.
 
 ### Clauses 1 and 4
 
-1. $(4) \Rightarrow (1)$. If all types are isolated, every countable model is [[atomic|~fbef995e]]. Two countable atomic models are isomorphic by [[this theorem|~ddda0a28]].
+1. $(4) \Rightarrow (1)$. If all types are isolated, every countable model is [[atomic|HSJ4F9J8SM]]. Two countable atomic models are isomorphic by [[this theorem|EXC8913GGX]].
 2. $(1) \Rightarrow (4)$. Suppose that $p$ is not isolated. The [[omitting types theorem|7MFGBVDVG9]] gives a countable model $M$ that omits $p$.
 3. By compactness, $T$ has a model realizing $p$, and by the [[Löwenheim-Skolem theorem|484M0TZ1S7]] a countable one, $N$.
 4. $N$ realizes $p$ and $M$ does not, so $M \not\cong N$, and $T$ is not $\aleph_0$-categorical.
 
 ### Clauses 2 and 5
 
-1. $(2) \Rightarrow (5)$. Let $M$ be a countable model. It is atomic by $(2) \Rightarrow (4)$. The back-and-forth proof in [[this theorem|~ddda0a28]], run from $M$ to itself, shows that two tuples of $M$ with the same type are mapped to each other by an [[automorphism|0K1SCPBNKJ]]. So the orbits on $M^n$ are at most $\abs{S_n(T)}$ in number.
+1. $(2) \Rightarrow (5)$. Let $M$ be a countable model. It is atomic by $(2) \Rightarrow (4)$. The back-and-forth proof in [[this theorem|EXC8913GGX]], run from $M$ to itself, shows that two tuples of $M$ with the same type are mapped to each other by an [[automorphism|0K1SCPBNKJ]]. So the orbits on $M^n$ are at most $\abs{S_n(T)}$ in number.
 2. $(5) \Rightarrow (2)$. An automorphism keeps types, so all tuples in one orbit have the same type. So $M$ realizes finitely many $n$-types $q_1, \dots, q_m$, at most one per orbit. Take $\theta_i$ as above.
 3. A tuple of $M$ that satisfies $\theta_i$ has type $q_i$. So for $\varphi \in q_i$, $M \models \forall \bar x \, (\theta_i \to \varphi)$, and this sentence is in $T$. So $\theta_i$ isolates $q_i$ in $T$.
 4. Also $M \models \forall \bar x \, (\theta_1 \vee \dots \vee \theta_m)$, so this sentence is in $T$. Every $p \in S_n(T)$ contains some $\theta_i$, so $p = q_i$.

@@ -1,11 +1,11 @@
 ---
-tag: ~8ee510b8
+tag: S76RB8WCZ0
 kind: definition
 name: Small theory
 msc: ["03C15", "03C50"]
 topics: [6XEXRME4C1]
 audience: grad
-defines: ~166b8a9e
+defines: W6XM5NVNRP
 uses: [655K8Y7VS8, 9V71Q3SD1G, 01TQB88H4C]
 sources:
   - book: isbn:9780387987606
@@ -25,7 +25,7 @@ Some books write $S_n^T$ or $S_n(\emptyset)$ for $S_n(T)$, and some say "$T$ has
 
 The definition counts types over the empty set.
 Counting types over each finite set of parameters in a model gives the same notion, since a type over a tuple of length $m$ corresponds to a type of $T$ in $m$ more variables.
-This is the definition of the concept [[small theory|~166b8a9e]].
+This is the definition of the concept [[small theory|W6XM5NVNRP]].
 
 ## Explanations
 

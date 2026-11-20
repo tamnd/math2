@@ -6,7 +6,7 @@ msc: ["03C50", "03C15"]
 topics: [6XEXRME4C1]
 audience: grad
 defines: S8W40PYNHX
-uses: [655K8Y7VS8, MVCH6N9SNW, CGH8C8EA9N, MT8TDVPBXB, 484M0TZ1S7, ~309e2d86]
+uses: [655K8Y7VS8, MVCH6N9SNW, CGH8C8EA9N, MT8TDVPBXB, 484M0TZ1S7, CWZ3T8F542]
 sources:
   - url: https://en.wikipedia.org/wiki/Prime_model
   - book: isbn:9780387987606
@@ -31,9 +31,9 @@ This field embedding is elementary, because $\mathrm{ACF}_0$ has quantifier elim
 Non-example: $\C$ is a model of $\mathrm{ACF}_0$, but it is not prime, since it is uncountable and so cannot embed into the countable model $\overline{\Q}$.
 
 If $L$ is countable, a prime model of $T$ is countable by the downward [[Löwenheim-Skolem theorem|484M0TZ1S7]].
-Then a model is prime if and only if it is countable and [[atomic|~fbef995e]], that is, every tuple of it realizes an isolated type.
-Two prime models of $T$ are isomorphic; see [[this theorem|~ddda0a28]].
-Another example is $(\Q, <)$, the [[prime model|~309e2d86]] of the theory of dense linear orders without endpoints.
+Then a model is prime if and only if it is countable and [[atomic|HSJ4F9J8SM]], that is, every tuple of it realizes an isolated type.
+Two prime models of $T$ are isomorphic; see [[this theorem|EXC8913GGX]].
+Another example is $(\Q, <)$, the [[prime model|CWZ3T8F542]] of the theory of dense linear orders without endpoints.
 This is the definition of the concept [[prime model|S8W40PYNHX]].
 
 ## Explanations

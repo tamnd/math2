@@ -6,7 +6,7 @@ aliases: [vaughts-conjecture, vaught-conjecture]
 msc: ["03C15", "03C45"]
 topics: [6XEXRME4C1]
 audience: research
-uses: [655K8Y7VS8, MVCH6N9SNW, 01TQB88H4C, 0V2H5PGJ9B, ~ea319e25, ~630e3683, 0MN2MER9WN, ~51f2568c]
+uses: [655K8Y7VS8, MVCH6N9SNW, 01TQB88H4C, 0V2H5PGJ9B, E5W3RRSY5Z, JFG783DEG8, 0MN2MER9WN, XT2D23G98S]
 about: [655K8Y7VS8]
 sources:
   - url: https://en.wikipedia.org/wiki/Vaught_conjecture
@@ -31,13 +31,13 @@ The conjecture says that $I(T, \aleph_0)$ is at most [[$\aleph_0$|0V2H5PGJ9B]] o
 ## Remarks
 
 The conjecture is open for first-order theories, as of November 2026.
-By [[Morley's theorem on countable models|~630e3683]], $I(T, \aleph_0)$ is at most $\aleph_1$ or equal to $2^{\aleph_0}$.
+By [[Morley's theorem on countable models|JFG783DEG8]], $I(T, \aleph_0)$ is at most $\aleph_1$ or equal to $2^{\aleph_0}$.
 So the conjecture holds under the [[continuum hypothesis|0MN2MER9WN]], and the open case is a theory with exactly $\aleph_1$ countable models when $\aleph_1 < 2^{\aleph_0}$.
 A stronger form, equivalent to the original, says that a theory with uncountably many countable models has a perfect set of pairwise non-isomorphic ones.
 
 All allowed values occur.
-The theory of dense linear orders without endpoints has one countable model, and by [[Vaught's never-two theorem|~ea319e25]] the value $2$ never occurs.
-[[Ehrenfeucht's theory|~51f2568c]] has $3$, and its variants have every finite number from $3$ on.
+The theory of dense linear orders without endpoints has one countable model, and by [[Vaught's never-two theorem|E5W3RRSY5Z]] the value $2$ never occurs.
+[[Ehrenfeucht's theory|XT2D23G98S]] has $3$, and its variants have every finite number from $3$ on.
 $\mathrm{ACF}_0$ has $\aleph_0$ countable models, one for each transcendence degree.
 The theory of $(\Z, <)$ has $2^{\aleph_0}$.
 

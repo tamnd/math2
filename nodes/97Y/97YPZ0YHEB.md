@@ -1,5 +1,5 @@
 ---
-tag: ~187e3871
+tag: 97YPZ0YHEB
 kind: example
 name: Vector spaces over the rationals are categorical in every uncountable cardinal
 aliases: [rational-vector-spaces-are-uncountably-categorical]

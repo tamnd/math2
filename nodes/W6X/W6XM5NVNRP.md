@@ -1,5 +1,5 @@
 ---
-tag: ~166b8a9e
+tag: W6XM5NVNRP
 kind: concept
 name: Small theory
 aliases: [small-theory, theory-with-countably-many-types]
@@ -37,19 +37,19 @@ Some books state the condition without a name, as "$T$ has countably many types"
 ### Examples
 
 - Every $\aleph_0$-categorical theory, which has only finitely many $n$-types for each $n$.
-- The theory $\mathrm{ACF}_0$; see [[this example|~afa32723]].
-- The theory of $(\Z, <)$, in which an $n$-type is fixed by the order of the points and the finite distances between them; see [[this example|~9769b292]].
-- [[Ehrenfeucht's theory|~51f2568c]] with exactly three countable models.
+- The theory $\mathrm{ACF}_0$; see [[this example|DKE21EBN3M]].
+- The theory of $(\Z, <)$, in which an $n$-type is fixed by the order of the points and the finite distances between them; see [[this example|91WRBX69MB]].
+- [[Ehrenfeucht's theory|XT2D23G98S]] with exactly three countable models.
 
 ### Non-examples
 
-- The theory of [[independent unary predicates|~a949e251]], with $2^{\aleph_0}$ complete $1$-types.
+- The theory of [[independent unary predicates|9MV9VG8G67]], with $2^{\aleph_0}$ complete $1$-types.
 - The theory of $(\N, 0, 1, +, \cdot, <)$: for each set $X$ of primes there is a type saying that $x$ is divisible by the primes in $X$ and by no others.
 
 ### Basic properties
 
-- $T$ is small if and only if it has a countable saturated model; see [[this theorem|~2528b92a]].
-- A small theory has a prime model; see [[this theorem|~24829d6c]].
+- $T$ is small if and only if it has a countable saturated model; see [[this theorem|7GN6XF590M]].
+- A small theory has a prime model; see [[this theorem|MXVGKQ783S]].
 - If $T$ is small, then $T$ with finitely many new constants naming a tuple is small. A $k$-type over a tuple $\bar c$ corresponds to an $(m + k)$-type of $T$, where $m$ is the length of $\bar c$.
 - So a small theory has a prime model over every finite tuple $\bar a$ of every model, and a countable saturated model of $\operatorname{Th}(M, \bar a)$.
 - If $T$ is not small, then some $S_n(T)$ is uncountable. It is a compact metrizable space, so it has $2^{\aleph_0}$ points, and $T$ has $2^{\aleph_0}$ countable models.
@@ -57,7 +57,7 @@ Some books state the condition without a name, as "$T$ has countably many types"
 
 ### History
 
-The condition of countably many types appears in the first studies of countable models of complete theories, through its link with countable saturated models and [[Vaught's never-two theorem|~ea319e25]].
+The condition of countably many types appears in the first studies of countable models of complete theories, through its link with countable saturated models and [[Vaught's never-two theorem|E5W3RRSY5Z]].
 
 ### Common errors
 
@@ -88,4 +88,4 @@ A trap is to skip the topology: an uncountable $S_n(T)$ has size $2^{\aleph_0}$ 
 ### L3 human
 
 In descriptive set theory terms, $S_n(T)$ is a compact Polish space, and an uncountable Polish space contains a perfect set.
-[[Morley's theorem on countable models|~630e3683]] extends this kind of argument from types to whole models.
+[[Morley's theorem on countable models|JFG783DEG8]] extends this kind of argument from types to whole models.

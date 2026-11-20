@@ -46,14 +46,14 @@ For the countable model $M$, the group $\Aut(M)$ acts on $M^n$, and the conditio
 - The [[theory of dense linear orders without endpoints|2W4S2H4VYA]].
 - The theory of the [[Rado graph|RMXR0FEF54]], given by the extension axioms.
 - Infinite vector spaces over a fixed finite field, and atomless Boolean algebras.
-- An [[equivalence relation with infinitely many infinite classes|~2f97a8b0]].
+- An [[equivalence relation with infinitely many infinite classes|N232QBKCAA]].
 
 ### Non-examples
 
 - $\mathrm{ACF}_0$, with one countable model of each transcendence degree $0, 1, \dots, \aleph_0$.
-- The theory of $(\Z, <)$; see [[this non-example|~9769b292]].
-- Nonzero vector spaces over $\Q$; see [[this example|~187e3871]].
-- [[Ehrenfeucht's theory|~51f2568c]], with exactly three countable models.
+- The theory of $(\Z, <)$; see [[this non-example|91WRBX69MB]].
+- Nonzero vector spaces over $\Q$; see [[this example|97YPZ0YHEB]].
+- [[Ehrenfeucht's theory|XT2D23G98S]], with exactly three countable models.
 
 ### Basic properties
 

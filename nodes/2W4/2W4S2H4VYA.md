@@ -86,4 +86,4 @@ A trap is to think that the explicit map in step 4 is always available; for two 
 
 $\mathrm{DLO}$ is the theory of the [[Fraïssé limit|HJVRBDQSGG]] of the finite linear orders, and its automorphism group is a standard example of an oligomorphic permutation group.
 It is the basic example of an unstable theory and of an [[o-minimal|DTWHAW1N0V]] structure.
-With infinitely many constants added, it gives [[Ehrenfeucht's theory|~51f2568c]] with exactly three countable models.
+With infinitely many constants added, it gives [[Ehrenfeucht's theory|XT2D23G98S]] with exactly three countable models.

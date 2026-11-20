@@ -1,5 +1,5 @@
 ---
-tag: ~5ae680b5
+tag: K7Z88ZYSZ7
 kind: proof
 name: Proof of the Łoś-Vaught test by the Löwenheim-Skolem theorem
 msc: ["03C35"]

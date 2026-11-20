@@ -1,5 +1,5 @@
 ---
-tag: ~24829d6c
+tag: MXVGKQ783S
 kind: statement
 role: theorem
 name: Existence of atomic models
@@ -7,8 +7,8 @@ aliases: [existence-of-prime-models, atomic-model-existence]
 msc: ["03C50", "03C15"]
 topics: [6XEXRME4C1]
 audience: grad
-uses: [~fbef995e, 655K8Y7VS8, 9V71Q3SD1G, 7MFGBVDVG9, ~166b8a9e]
-about: [~fbef995e]
+uses: [HSJ4F9J8SM, 655K8Y7VS8, 9V71Q3SD1G, 7MFGBVDVG9, W6XM5NVNRP]
+about: [HSJ4F9J8SM]
 sources:
   - url: https://en.wikipedia.org/wiki/Atomic_model_(mathematical_logic)
   - book: isbn:9780387987606
@@ -19,23 +19,23 @@ sources:
 Let $T$ be a [[complete theory|655K8Y7VS8]] with infinite models in a countable signature $L$.
 Say that the isolated types of $T$ are *dense* if every formula $\varphi(x_1, \dots, x_n)$ consistent with $T$ belongs to some isolated complete $n$-[[type|9V71Q3SD1G]].
 
-1. $T$ has an [[atomic model|~fbef995e]] if and only if its isolated types are dense. The atomic model can then be taken countable, so it is the prime model.
-2. If $T$ has only countably many complete $n$-types for each $n$, that is, if $T$ is [[small|~166b8a9e]], then the isolated types are dense, and $T$ has a prime model.
+1. $T$ has an [[atomic model|HSJ4F9J8SM]] if and only if its isolated types are dense. The atomic model can then be taken countable, so it is the prime model.
+2. If $T$ has only countably many complete $n$-types for each $n$, that is, if $T$ is [[small|W6XM5NVNRP]], then the isolated types are dense, and $T$ has a prime model.
 
-The proof is [[here|~f73f35ae]].
+The proof is [[here|F898Z0PCXD]].
 
 ## Remarks
 
 ### Why each hypothesis is needed
 
 - Countable signature. The proof of clause 1 uses the [[omitting types theorem|7MFGBVDVG9]], which needs a countable signature.
-- In clause 2, countably many types is needed. The theory of [[independent unary predicates|~a949e251]] has $2^{\aleph_0}$ complete $1$-types and no isolated ones, so it has no atomic model.
+- In clause 2, countably many types is needed. The theory of [[independent unary predicates|9MV9VG8G67]] has $2^{\aleph_0}$ complete $1$-types and no isolated ones, so it has no atomic model.
 
 ### Consequences
 
 - An $\aleph_0$-categorical theory has finitely many $n$-types for each $n$, so it has a prime model.
 - The theories $\mathrm{ACF}_p$ and $\operatorname{Th}(\Z, <)$ are small, so they have prime models.
-- Every small theory has a prime model and also a countable saturated model; see [[this theorem|~2528b92a]].
+- Every small theory has a prime model and also a countable saturated model; see [[this theorem|7GN6XF590M]].
 
 ### Converse
 
@@ -49,7 +49,7 @@ Clause 2 is then a fact about Stone spaces: a countable Stone space has a dense 
 
 ## History
 
-The theorem is a basic result on countable models of complete theories, usually stated together with the theorem that [[prime models are the countable atomic models|~ddda0a28]].
+The theorem is a basic result on countable models of complete theories, usually stated together with the theorem that [[prime models are the countable atomic models|EXC8913GGX]].
 
 ## Explanations
 

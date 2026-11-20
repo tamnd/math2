@@ -1,5 +1,5 @@
 ---
-tag: ~ea319e25
+tag: E5W3RRSY5Z
 kind: statement
 role: theorem
 name: Vaught's never-two theorem
@@ -7,7 +7,7 @@ aliases: [vaught-never-two-theorem, never-two-theorem]
 msc: ["03C15", "03C35"]
 topics: [6XEXRME4C1]
 audience: grad
-uses: [A22K1X8GKD, 655K8Y7VS8, ~166b8a9e, S8W40PYNHX, RMTZ5J64FX, 01TQB88H4C]
+uses: [A22K1X8GKD, 655K8Y7VS8, W6XM5NVNRP, S8W40PYNHX, RMTZ5J64FX, 01TQB88H4C]
 about: [A22K1X8GKD]
 history:
   first_stated: "Robert Vaught, 1961"
@@ -22,7 +22,7 @@ sources:
 Let $T$ be a [[complete theory|655K8Y7VS8]] with infinite models in a countable signature.
 Then $T$ does not have exactly two [[countable|01TQB88H4C]] models up to isomorphism.
 
-The proof is [[here|~df8ef9f2]].
+The proof is [[here|94T8C8QJ8W]].
 
 ## Remarks
 
@@ -33,19 +33,19 @@ The proof is [[here|~df8ef9f2]].
 
 ### Consequences
 
-- A complete theory with finitely many countable models, but more than one, is [[small|~166b8a9e]], and its [[prime model|S8W40PYNHX]] and countable [[saturated model|RMTZ5J64FX]] are two different countable models.
+- A complete theory with finitely many countable models, but more than one, is [[small|W6XM5NVNRP]], and its [[prime model|S8W40PYNHX]] and countable [[saturated model|RMTZ5J64FX]] are two different countable models.
 - The proof shows that the countable saturated model of such a theory has a third model below it, so the number of countable models is $1$ or at least $3$.
 
 ### Converse
 
 Every other finite number occurs.
-[[Ehrenfeucht's theory|~51f2568c]] has exactly three countable models, and a version with $m$ colors has exactly $m + 2$.
+[[Ehrenfeucht's theory|XT2D23G98S]] has exactly three countable models, and a version with $m$ colors has exactly $m + 2$.
 So the possible finite numbers of countable models are $1, 3, 4, 5, \dots$
 
 ### Generalizations
 
 The number of countable models of a complete countable theory is $1$, a finite number at least $3$, $\aleph_0$, $\aleph_1$ or $2^{\aleph_0}$.
-[[Morley's theorem on countable models|~630e3683]] rules out every infinite number strictly between $\aleph_1$ and $2^{\aleph_0}$.
+[[Morley's theorem on countable models|JFG783DEG8]] rules out every infinite number strictly between $\aleph_1$ and $2^{\aleph_0}$.
 The [[Vaught conjecture|YVBHE2SEE6]] asks whether $\aleph_1$ can be ruled out too.
 
 ## History
