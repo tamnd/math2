@@ -7,7 +7,7 @@ topics: [P8J6QR66TJ]
 audience: ug1
 proves: 0S4WTRE9GG
 methods: [0NTF6DMVAP, 0ASJVEFA9J, TFQ1845T84]
-uses: [0TWTS88TWN, ~139b320d, 076JGP6R3T, 073E4XC016, 06DW9BAWB1, 0753Y2X5K6]
+uses: [0TWTS88TWN, FMCX4D7RD4, 076JGP6R3T, 073E4XC016, 06DW9BAWB1, 0753Y2X5K6]
 sources:
   - url: https://en.wikipedia.org/wiki/Invertible_matrix
     locator: Properties
@@ -25,7 +25,7 @@ sources:
 4. Since $A I_n = A$, step 3 gives $(AB)C = AA^{-1} = I_n$.
 5. By associativity, $C(AB) = B^{-1}(A^{-1}A)B = B^{-1} I_n B = B^{-1} B = I_n$.
 6. By steps 4 and 5, $(AB)C = C(AB) = I_n$. So $AB$ is invertible by definition.
-7. The inverse is unique, by the [[uniqueness of the inverse|~139b320d]]. So $(AB)^{-1} = C = B^{-1} A^{-1}$.
+7. The inverse is unique, by the [[uniqueness of the inverse|FMCX4D7RD4]]. So $(AB)^{-1} = C = B^{-1} A^{-1}$.
 
 **Part 2.** We use induction on $k$.
 

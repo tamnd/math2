@@ -26,7 +26,7 @@ same_as:
 An elementary matrix is a square matrix that we get from the [[identity matrix|06DW9BAWB1]] by one [[elementary row operation|04XWH28452]].
 There are three types: a row exchange, a row scaling by a nonzero scalar, and a row replacement.
 A row replacement adds a multiple of one row to another row.
-Multiplying a matrix on the left by an elementary matrix performs that row operation, by the [[row operation theorem|~11309c07]].
+Multiplying a matrix on the left by an elementary matrix performs that row operation, by the [[row operation theorem|F7F6AA3XQ7]].
 Multiplying on the right performs a matching column operation.
 Each elementary matrix is invertible, and its inverse is the elementary matrix of the inverse operation.
 Elementary matrices turn Gaussian elimination into matrix algebra: a whole elimination is a product of elementary matrices.
@@ -38,7 +38,7 @@ To prove facts about it, we want to write each step as an algebraic operation.
 Take the step "add $-3$ times row 1 to row 2" on a matrix with two rows.
 This step is the same as the [[matrix product|032Q9FB8MT]] with $\begin{pmatrix} 1 & 0 \\ -3 & 1 \end{pmatrix}$ on the left.
 Then a reduction $A \to R$ becomes an equation $R = E_k \cdots E_1 A$.
-This equation lets us compute inverses, prove the [[invertible matrix theorem|~9b681771]] and find factorizations such as the [[LU decomposition|0RKG5YW66Y]].
+This equation lets us compute inverses, prove the [[invertible matrix theorem|ACDFDABVQK]] and find factorizations such as the [[LU decomposition|0RKG5YW66Y]].
 
 ## Notation
 
@@ -52,18 +52,18 @@ This equation lets us compute inverses, prove the [[invertible matrix theorem|~9
 ### Examples
 
 - For $n = 2$: $P_{12} = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$, $D_2(5) = \begin{pmatrix} 1 & 0 \\ 0 & 5 \end{pmatrix}$ and $T_{21}(-3) = \begin{pmatrix} 1 & 0 \\ -3 & 1 \end{pmatrix}$.
-- The [[row operation example|~c061c582]] applies one matrix of each type to a $3 \times 2$ matrix.
-- The [[column operation example|~9fa7c479]] multiplies on the right and checks the inverses.
+- The [[row operation example|J8M8K5EXE1]] applies one matrix of each type to a $3 \times 2$ matrix.
+- The [[column operation example|17K9NNTCZ7]] multiplies on the right and checks the inverses.
 
 ### Non-examples
 
-- The matrix $\begin{pmatrix} 0 & 2 \\ 1 & 0 \end{pmatrix}$ is invertible but not elementary, since it needs two row operations on $I_2$; see the [[non-example|~562eb430]].
+- The matrix $\begin{pmatrix} 0 & 2 \\ 1 & 0 \end{pmatrix}$ is invertible but not elementary, since it needs two row operations on $I_2$; see the [[non-example|YYBT7MBTY6]].
 - $D_1(0) = \begin{pmatrix} 0 & 0 \\ 0 & 1 \end{pmatrix}$ is not elementary: scaling a row by $0$ is not an elementary row operation, and the result is singular.
 - $I_2 + E_{11} = \operatorname{diag}(2, 1)$ is elementary of type $D_1(2)$, but it is not of type $T_{ij}(c)$, because that type needs $i \ne j$.
 
 ### Basic properties
 
-- $EA$ is the result of the row operation of $E$ on $A$. Also, $AE$ is the result of a column operation, by the [[row operation theorem|~11309c07]].
+- $EA$ is the result of the row operation of $E$ on $A$. Also, $AE$ is the result of a column operation, by the [[row operation theorem|F7F6AA3XQ7]].
 - $P_{ij}^{-1} = P_{ij}$, $D_i(c)^{-1} = D_i(c^{-1})$ and $T_{ij}(c)^{-1} = T_{ij}(-c)$, by the same theorem.
 - The transpose of an elementary matrix is elementary: $P_{ij}^{\mathsf{T}} = P_{ij}$, $D_i(c)^{\mathsf{T}} = D_i(c)$ and $T_{ij}(c)^{\mathsf{T}} = T_{ji}(c)$.
 - $\det P_{ij} = -1$, $\det D_i(c) = c$ and $\det T_{ij}(c) = 1$; the sub-area on [[determinants|DTBK11SR77]] uses these values.
@@ -102,6 +102,6 @@ The typical use is to turn the statement "$A$ row reduces to $R$" into the equat
 ### L3 human
 
 The elementary matrices generate the [[general linear group|0FCHE902D7]] $\mathrm{GL}_n(F)$ over a field.
-The matrices $T_{ij}(c)$ alone generate the [[special linear group|0V9PMN0RBH]], by the theorem on [[generation by transvections|~b06f837f]].
+The matrices $T_{ij}(c)$ alone generate the [[special linear group|0V9PMN0RBH]], by the theorem on [[generation by transvections|YSS4XNY9RC]].
 Over a commutative ring, elementary matrices still make sense, with $c$ a unit in $D_i(c)$, but they need not generate $\mathrm{GL}_n(R)$.
 The subgroup they generate is studied in algebraic K-theory.

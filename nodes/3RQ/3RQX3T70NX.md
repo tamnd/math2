@@ -27,7 +27,7 @@ Let $F$ be a field and let $A$ be an [[invertible|0EB9N0S33C]] $n \times n$ matr
 ### Why each hypothesis is needed
 
 If $A$ is singular, the system can have no solution or many solutions.
-For $A = \begin{pmatrix} 1 & 2 \\ 2 & 4 \end{pmatrix}$, the right-hand side $(3, 6)^{\mathsf{T}}$ gives infinitely many solutions and $(3, 7)^{\mathsf{T}}$ gives none, as the [[singular example|~872a66f4]] shows.
+For $A = \begin{pmatrix} 1 & 2 \\ 2 & 4 \end{pmatrix}$, the right-hand side $(3, 6)^{\mathsf{T}}$ gives infinitely many solutions and $(3, 7)^{\mathsf{T}}$ gives none, as the [[singular example|7XVJ4ZCXTV]] shows.
 
 ### Consequences
 
@@ -36,7 +36,7 @@ For $A = \begin{pmatrix} 1 & 2 \\ 2 & 4 \end{pmatrix}$, the right-hand side $(3,
 
 ### Converse
 
-If $Ax = b$ has a solution for each $b \in F^n$, then $A$ is invertible, by the [[invertible matrix theorem|~9b681771]].
+If $Ax = b$ has a solution for each $b \in F^n$, then $A$ is invertible, by the [[invertible matrix theorem|ACDFDABVQK]].
 If $Ax = 0$ has only the solution $x = 0$, then $A$ is invertible, by [[invertibility and row reduction|1ZK55FS2BF]].
 
 ### Generalizations
@@ -52,7 +52,7 @@ There is no other solution.
 
 ### L2 human
 
-The method is in the concept [[solving linear systems by matrix inversion|~83a4c6b6]], with the examples there.
+The method is in the concept [[solving linear systems by matrix inversion|FBQCE3HVMP]], with the examples there.
 A trap: $x = bA^{-1}$ is wrong; the inverse must stand on the left of $b$.
 
 ### L3 human

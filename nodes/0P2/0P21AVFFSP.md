@@ -28,9 +28,9 @@ The two conventions define the same relation, because the inverse of an invertib
 ## Remarks
 
 Two matrices are equivalent if and only if they represent the same linear map $F^n \to F^m$ in two pairs of bases.
-Two $m \times n$ matrices over a field are equivalent if and only if they have the same [[rank|0ZC9YTXZRY]], by the [[rank normal form theorem|~4b545a0b]].
+Two $m \times n$ matrices over a field are equivalent if and only if they have the same [[rank|0ZC9YTXZRY]], by the [[rank normal form theorem|T2H2QV0M06]].
 A matrix of rank $r$ is equivalent to the block matrix $\begin{pmatrix} I_r & 0 \\ 0 & 0 \end{pmatrix}$.
-[[Similarity|0E89HQATM8]] is a finer relation: similar matrices are equivalent, but equivalent square matrices need not be similar, as the [[unitriangular example|~16dcf0f8]] shows.
+[[Similarity|0E89HQATM8]] is a finer relation: similar matrices are equivalent, but equivalent square matrices need not be similar, as the [[unitriangular example|6CKAMR5WK9]] shows.
 
 ## Explanations
 

@@ -43,12 +43,12 @@ The augmented matrix $[A \mid I_n]$ carries all $n$ right-hand sides at once.
 ### Examples
 
 - For $A = \begin{pmatrix} 2 & 1 \\ 1 & 1 \end{pmatrix}$, four row operations give $A^{-1} = \begin{pmatrix} 1 & -1 \\ -1 & 2 \end{pmatrix}$; the steps are in the L2 explanation of [[invertibility and row reduction|1ZK55FS2BF]].
-- The [[worked $3 \times 3$ inversion|~7e5fa2f4]] inverts $\begin{pmatrix} 1 & 2 & 3 \\ 0 & 1 & 4 \\ 5 & 6 & 0 \end{pmatrix}$ with five row operations.
-- The [[singular $3 \times 3$ example|~99eccb2d]] shows how a zero row appears in the left block.
+- The [[worked $3 \times 3$ inversion|743HGXHH7Q]] inverts $\begin{pmatrix} 1 & 2 & 3 \\ 0 & 1 & 4 \\ 5 & 6 & 0 \end{pmatrix}$ with five row operations.
+- The [[singular $3 \times 3$ example|6V8NDXGNJ2]] shows how a zero row appears in the left block.
 
 ### Non-examples
 
-- Stopping at an echelon form does not give the inverse: the right block is then not $A^{-1}$, as the [[echelon form non-example|~7bc9909b]] shows.
+- Stopping at an echelon form does not give the inverse: the right block is then not $A^{-1}$, as the [[echelon form non-example|CJA2QVWQCE]] shows.
 - Column operations on $[A \mid I_n]$ are not allowed, because they mix the blocks; they would correspond to multiplication on the right.
 
 ### Basic properties

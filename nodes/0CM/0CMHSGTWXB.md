@@ -20,7 +20,7 @@ same_as:
 
 Two $m \times n$ matrices $A$ and $B$ over a field are *equivalent* when $B = PAQ$ for [[invertible|0EB9N0S33C]] matrices $P$ of size $m \times m$ and $Q$ of size $n \times n$.
 The formal definition is in [[equivalent matrices (definition)|0P21AVFFSP]].
-By the [[rank normal form theorem|~4b545a0b]], each matrix of [[rank|0ZC9YTXZRY]] $r$ is equivalent to $\begin{pmatrix} I_r & 0 \\ 0 & 0 \end{pmatrix}$.
+By the [[rank normal form theorem|T2H2QV0M06]], each matrix of [[rank|0ZC9YTXZRY]] $r$ is equivalent to $\begin{pmatrix} I_r & 0 \\ 0 & 0 \end{pmatrix}$.
 So two matrices of the same size are equivalent exactly when they have the same rank.
 
 ## Motivation
@@ -42,14 +42,14 @@ The answer to the question is that only the rank is left.
 
 ### Examples
 
-- The [[worked rank normal form|~030b6376]] of $\begin{pmatrix} 1 & 2 & 3 \\ 2 & 4 & 7 \end{pmatrix}$ is $(I_2 \ 0)$, with $P$ and $Q$ found by row and column operations.
+- The [[worked rank normal form|RX693922PV]] of $\begin{pmatrix} 1 & 2 & 3 \\ 2 & 4 & 7 \end{pmatrix}$ is $(I_2 \ 0)$, with $P$ and $Q$ found by row and column operations.
 - Each invertible $n \times n$ matrix $A$ is equivalent to $I_n$, with $P = A^{-1}$ and $Q = I_n$.
-- The [[upper unitriangular matrix and the identity|~16dcf0f8]] are equivalent but not similar.
+- The [[upper unitriangular matrix and the identity|6CKAMR5WK9]] are equivalent but not similar.
 - Each nonzero column vector in $F^m$ is equivalent to $e_1$, since both have rank $1$.
 
 ### Non-examples
 
-- The matrices [[$\operatorname{diag}(1, 0)$ and $I_2$|~32fbf66e]] are not equivalent, because their ranks are $1$ and $2$.
+- The matrices [[$\operatorname{diag}(1, 0)$ and $I_2$|NEH45RWK66]] are not equivalent, because their ranks are $1$ and $2$.
 - Matrices of different sizes are never equivalent, even if their ranks agree.
 
 ### Basic properties

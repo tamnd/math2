@@ -28,7 +28,7 @@ sources:
 ### Why each hypothesis is needed
 
 In part 3 the factors must be square.
-For the $2 \times 3$ matrix $A$ and the $3 \times 2$ matrix $B$ of the [[right inverse example|~710ae60f]], the product $AB = I_2$ is invertible, but neither factor is invertible.
+For the $2 \times 3$ matrix $A$ and the $3 \times 2$ matrix $B$ of the [[right inverse example|540E86V3N9]], the product $AB = I_2$ is invertible, but neither factor is invertible.
 The order of the factors in part 1 matters: $(AB)^{-1} = A^{-1} B^{-1}$ is false in general.
 For $A = \begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$ and $B = \begin{pmatrix} 1 & 0 \\ 1 & 1 \end{pmatrix}$, the matrix $A^{-1} B^{-1}$ is not the inverse of $AB$, as the L2 explanation shows.
 

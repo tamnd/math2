@@ -16,24 +16,24 @@ The topics are the invertible matrix theorem, the general and special linear gro
 
 ### Reading order
 
-1. [[Invertible matrix|0EB9N0S33C]] and the [[uniqueness of the inverse|~139b320d]].
+1. [[Invertible matrix|0EB9N0S33C]] and the [[uniqueness of the inverse|FMCX4D7RD4]].
 2. [[Inverse of a 2 × 2 matrix|8XWC7RKNN1]].
 3. [[Inverse of a product|0S4WTRE9GG]].
 4. [[One-sided inverses of square matrices|0753Y2X5K6]].
-5. [[Elementary matrix|01REXW3WWE]] and the [[theorem on elementary matrices|~11309c07]].
+5. [[Elementary matrix|01REXW3WWE]] and the [[theorem on elementary matrices|F7F6AA3XQ7]].
 6. [[Invertibility and the reduced row echelon form|1ZK55FS2BF]].
 7. [[Computing the inverse by row reduction|0Z83DHFMYM]].
 8. [[Solving a system with the inverse matrix|3RQX3T70NX]].
-9. [[Invertible matrix theorem|~9b681771]].
+9. [[Invertible matrix theorem|ACDFDABVQK]].
 10. [[Inverse of a triangular matrix|7X1B65CTG4]].
 11. [[General linear group|0FCHE902D7]].
 12. [[Special linear group|0V9PMN0RBH]].
 13. [[Transvection|0DTCBCKEJP]].
-14. [[Generation of SL and GL by elementary matrices|~b06f837f]], with the [[reduction to diagonal form|CFB41AZX87]].
-15. [[LU decomposition|0RKG5YW66Y]], with its [[existence|~8a5f1cba]] and [[uniqueness|~abf13bad]].
-16. [[Schur complement|6HWFBXYPZP]] and the [[block inverse formula|~801e2989]].
-17. [[Sherman-Morrison-Woodbury formula|~e4e78e97]].
-18. [[Equivalent matrices|0CMHSGTWXB]] and the [[rank normal form|~4b545a0b]].
+14. [[Generation of SL and GL by elementary matrices|YSS4XNY9RC]], with the [[reduction to diagonal form|CFB41AZX87]].
+15. [[LU decomposition|0RKG5YW66Y]], with its [[existence|3PPBWG0B96]] and [[uniqueness|R424G32KFA]].
+16. [[Schur complement|6HWFBXYPZP]] and the [[block inverse formula|5QTK7JWXF3]].
+17. [[Sherman-Morrison-Woodbury formula|MDZDEFE53C]].
+18. [[Equivalent matrices|0CMHSGTWXB]] and the [[rank normal form|T2H2QV0M06]].
 
 ### Prerequisites
 

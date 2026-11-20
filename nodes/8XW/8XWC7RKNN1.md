@@ -47,7 +47,7 @@ A case where the formula fails: let $C = \begin{pmatrix} 2 & 4 \\ 3 & 6 \end{pma
 
 If $\delta = 0$, then $A$ has no inverse.
 Indeed, $\det(AB) = \det A \det B$ for all $2 \times 2$ matrices, so $AB = I_2$ would give $0 \cdot \det B = 1$, which is impossible.
-Matrix multiplication is associative, so the inverse is [[unique|~139b320d]], and the formula gives the only inverse.
+Matrix multiplication is associative, so the inverse is [[unique|FMCX4D7RD4]], and the formula gives the only inverse.
 For square matrices, one of the checks is enough, because [[a one-sided inverse of a square matrix is two-sided|0753Y2X5K6]].
 The same formula works over each commutative ring when $\delta$ is a unit; it is the case $n = 2$ of the [[inverse via the adjugate|0ENVM493VK]].
 The invertible $2 \times 2$ matrices form the [[general linear group|0FCHE902D7]] $\mathrm{GL}_2(\mathbb{R})$.

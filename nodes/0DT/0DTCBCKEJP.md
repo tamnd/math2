@@ -30,7 +30,7 @@ Over a field, every matrix of determinant $1$ is a product of them.
 
 Gaussian elimination uses three kinds of row operations, but the row replacements do most of the work.
 They do not change the determinant, while exchanges change its sign and scalings multiply it.
-So the matrices of determinant $1$ should be reachable by row replacements alone, and this is the theorem on [[generation by transvections|~b06f837f]].
+So the matrices of determinant $1$ should be reachable by row replacements alone, and this is the theorem on [[generation by transvections|YSS4XNY9RC]].
 In the plane, $T_{12}(c) = \begin{pmatrix} 1 & c \\ 0 & 1 \end{pmatrix}$ is the horizontal shear $(x, y) \mapsto (x + cy, y)$.
 
 ## Notation
@@ -43,13 +43,13 @@ In the plane, $T_{12}(c) = \begin{pmatrix} 1 & c \\ 0 & 1 \end{pmatrix}$ is the 
 
 ### Examples
 
-- The [[shear by $3$|~a7ddcb86]] $\begin{pmatrix} 1 & 3 \\ 0 & 1 \end{pmatrix}$ fixes the $x$-axis and moves each point parallel to it.
-- The matrix $\begin{pmatrix} 2 & -1 \\ 1 & 0 \end{pmatrix}$ is a transvection in the coordinate-free sense, as the [[hyperplane example|~9b221b3a]] shows; it is not of the form $T_{ij}(c)$.
+- The [[shear by $3$|DRW0DE4TM2]] $\begin{pmatrix} 1 & 3 \\ 0 & 1 \end{pmatrix}$ fixes the $x$-axis and moves each point parallel to it.
+- The matrix $\begin{pmatrix} 2 & -1 \\ 1 & 0 \end{pmatrix}$ is a transvection in the coordinate-free sense, as the [[hyperplane example|66XNSFCMQ1]] shows; it is not of the form $T_{ij}(c)$.
 - For $n = 3$, $T_{13}(5) = \begin{pmatrix} 1 & 0 & 5 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{pmatrix}$ adds $5$ times row $3$ to row $1$.
 
 ### Non-examples
 
-- $\operatorname{diag}(2, 1)$ is not a transvection: it fixes a line pointwise, but its determinant is $2$; see the [[non-example|~e907434a]].
+- $\operatorname{diag}(2, 1)$ is not a transvection: it fixes a line pointwise, but its determinant is $2$; see the [[non-example|Y4YPA5V3KJ]].
 - $I_n + cE_{ii}$ is not a transvection for $c \ne 0$, because the indices are equal; it is the scaling $D_i(1 + c)$.
 - A rotation by a quarter turn fixes no nonzero vector, so it is not a transvection.
 
@@ -59,7 +59,7 @@ In the plane, $T_{12}(c) = \begin{pmatrix} 1 & c \\ 0 & 1 \end{pmatrix}$ is the 
 - $T_{ij}(a)\, T_{ij}(b) = T_{ij}(a + b)$, since $E_{ij}^2 = 0$ for $i \ne j$. In particular $T_{ij}(c)^{-1} = T_{ij}(-c)$.
 - For distinct $i, j, k$: $T_{ij}(a)\, T_{jk}(b)\, T_{ij}(-a)\, T_{jk}(-b) = T_{ik}(ab)$. For example, $a = 2$ and $b = 5$ give $T_{13}(10)$.
 - A transvection $\tau$ fixes the hyperplane $\ker \varphi$ pointwise, and $\tau(x) - x$ lies in the line through $v$. In a suitable basis, its matrix is $I_n + E_{12}$.
-- Over a field, the transvections generate $\mathrm{SL}_n(F)$, by the theorem on [[generation by transvections|~b06f837f]].
+- Over a field, the transvections generate $\mathrm{SL}_n(F)$, by the theorem on [[generation by transvections|YSS4XNY9RC]].
 
 ### History
 

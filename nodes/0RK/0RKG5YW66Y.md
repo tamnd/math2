@@ -43,20 +43,20 @@ For an $n \times n$ matrix, the factorization costs about $n^3/3$ multiplication
 
 ### Examples
 
-- The [[worked $3 \times 3$ LU decomposition|~3fa7f06e]] factors $\begin{pmatrix} 2 & 1 & 1 \\ 4 & 3 & 3 \\ 8 & 7 & 9 \end{pmatrix}$, solves a system with it, and gives the LDU form.
-- The [[worked $PA = LU$ example|~595614c8]] needs one row exchange first.
+- The [[worked $3 \times 3$ LU decomposition|B61PAXBBHQ]] factors $\begin{pmatrix} 2 & 1 & 1 \\ 4 & 3 & 3 \\ 8 & 7 & 9 \end{pmatrix}$, solves a system with it, and gives the LDU form.
+- The [[worked $PA = LU$ example|EYPH6X8N5G]] needs one row exchange first.
 - For an invertible upper triangular $A$, the decomposition is $A = I_n A$.
 - For $A = \begin{pmatrix} a & b \\ c & d \end{pmatrix}$ with $a \ne 0$, one step $R_2 \to R_2 - (c/a) R_1$ gives $A = \begin{pmatrix} 1 & 0 \\ c/a & 1 \end{pmatrix} \begin{pmatrix} a & b \\ 0 & d - bc/a \end{pmatrix}$.
 
 ### Non-examples
 
-- The [[exchange matrix $\begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$|~a3b4cee2]] is invertible but has no LU decomposition, because its entry $(1, 1)$ is $0$.
+- The [[exchange matrix $\begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$|HZR79K1TZ6]] is invertible but has no LU decomposition, because its entry $(1, 1)$ is $0$.
 - A factorization $A = UL$ with the triangular factors in the other order is a different factorization, and it exists under different conditions.
 
 ### Basic properties
 
-- The theorem on [[existence of the LU decomposition|~8a5f1cba]]: an invertible $A$ has an LU decomposition if and only if $\Delta_1, \dots, \Delta_n$ are all nonzero. Then the pivots are $u_{kk} = \Delta_k / \Delta_{k-1}$.
-- The theorem on [[uniqueness of the LDU decomposition|~abf13bad]]. For invertible $A$ the LU and the LDU decompositions are unique, and a symmetric $A$ has $A = LDL^{\mathsf{T}}$.
+- The theorem on [[existence of the LU decomposition|3PPBWG0B96]]: an invertible $A$ has an LU decomposition if and only if $\Delta_1, \dots, \Delta_n$ are all nonzero. Then the pivots are $u_{kk} = \Delta_k / \Delta_{k-1}$.
+- The theorem on [[uniqueness of the LDU decomposition|R424G32KFA]]. For invertible $A$ the LU and the LDU decompositions are unique, and a symmetric $A$ has $A = LDL^{\mathsf{T}}$.
 - Entry $(i, j)$ of $L$ below the diagonal is the multiplier $\ell_{ij}$ in the row operation $R_i \to R_i - \ell_{ij} R_j$. The reason is that $L = E_1^{-1} \cdots E_k^{-1}$ for the [[elementary matrices|01REXW3WWE]] $E_l$ of these operations.
 - $\det A = \det U = u_{11} \cdots u_{nn}$, because $\det L = 1$.
 - For a [[positive definite|0KX66CZMBB]] matrix, all $\Delta_k$ are positive, and the symmetric form leads to the [[Cholesky decomposition|0WKG8CYY6A]].

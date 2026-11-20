@@ -1,0 +1,45 @@
+---
+tag: GG5VAMGJ2B
+kind: example
+name: A diagonal matrix with nonzero diagonal entries is invertible
+msc: ["15A09"]
+topics: [P8J6QR66TJ]
+audience: school
+instance_of: [0EB9N0S33C]
+uses: [0TWTS88TWN, 044JNC7ZAA, 032Q9FB8MT, 06DW9BAWB1]
+sources:
+  - url: https://en.wikipedia.org/wiki/Diagonal_matrix
+    locator: Matrix operations
+  - url: https://en.wikipedia.org/wiki/Invertible_matrix
+    locator: Definition
+---
+
+## Example
+
+Let $D = \operatorname{diag}(2, 3, -1) = \begin{pmatrix} 2 & 0 & 0 \\ 0 & 3 & 0 \\ 0 & 0 & -1 \end{pmatrix}$ over $\mathbb{Q}$, a [[diagonal matrix|044JNC7ZAA]].
+Let $E = \operatorname{diag}(\tfrac{1}{2}, \tfrac{1}{3}, -1)$.
+
+1. The product of two diagonal matrices is diagonal, and its diagonal entries are the products of the matching entries. Entry $(i, k)$ of $DE$ is $\sum_j d_{ij} e_{jk} = d_{ii} e_{ik}$, which is $0$ for $i \ne k$.
+2. So $DE = \operatorname{diag}(2 \cdot \tfrac{1}{2}, 3 \cdot \tfrac{1}{3}, (-1)(-1)) = \operatorname{diag}(1, 1, 1) = I_3$.
+3. In the same way, $ED = \operatorname{diag}(\tfrac{1}{2} \cdot 2, \tfrac{1}{3} \cdot 3, (-1)(-1)) = I_3$.
+4. By steps 2 and 3, $D$ is invertible and $D^{-1} = \operatorname{diag}(\tfrac{1}{2}, \tfrac{1}{3}, -1)$.
+5. Check on a vector: $D(1, 1, 1)^{\mathsf{T}} = (2, 3, -1)^{\mathsf{T}}$, and $E(2, 3, -1)^{\mathsf{T}} = (1, 1, 1)^{\mathsf{T}}$.
+
+## Remarks
+
+The same computation shows that $\operatorname{diag}(d_1, \dots, d_n)$ over a field is invertible when each $d_i \ne 0$, with inverse $\operatorname{diag}(d_1^{-1}, \dots, d_n^{-1})$.
+If some $d_k = 0$, then $D e_k = 0$ for the standard basis vector $e_k$, so $D$ is singular.
+Over $\mathbb{Z}$ the matrix $D$ above is singular, since $\tfrac{1}{2}$ and $\tfrac{1}{3}$ are not integers.
+
+## Explanations
+
+### L1 human
+
+The matrix $D$ stretches the first coordinate by $2$, the second by $3$, and flips the sign of the third.
+To undo it, we shrink the first coordinate by $2$, shrink the second by $3$, and flip the third sign back.
+
+### L2 human
+
+Diagonal matrices are the one case where the inverse is entry by entry.
+This works because diagonal matrices multiply entry by entry on the diagonal.
+A trap: for a matrix that is not diagonal, inverting each entry gives the wrong answer in general.

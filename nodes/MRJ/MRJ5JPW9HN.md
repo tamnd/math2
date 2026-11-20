@@ -1,0 +1,55 @@
+---
+tag: MRJ5JPW9HN
+kind: example
+name: The shift operators have a one-sided inverse that is not two-sided
+msc: ["15A09", "47B39"]
+topics: [P8J6QR66TJ]
+audience: ug2
+instance_of: [05SG20AMXH]
+not_instance_of:
+  - target: 0B8T10CE7N
+    note: the right shift S has the left inverse L with LS = id, but SL is not the identity, so S is not an isomorphism of the space of sequences
+uses: [MBK6AE6734, 0NRYHJPQG2, 05SG20AMXH]
+sources:
+  - url: https://en.wikipedia.org/wiki/Shift_operator
+    locator: Sequences
+  - url: https://en.wikipedia.org/wiki/Invertible_matrix
+    locator: Properties
+---
+
+## Example
+
+Let $F$ be a field and let $V = F^{\mathbb{N}}$ be the space of all sequences $x = (x_1, x_2, x_3, \dots)$ with entries in $F$.
+Define the right [[shift|MBK6AE6734]] $S$ and the left shift $L$ by
+$$S(x_1, x_2, x_3, \dots) = (0, x_1, x_2, \dots), \qquad L(x_1, x_2, x_3, \dots) = (x_2, x_3, x_4, \dots).$$
+
+1. Both maps are [[linear|0NRYHJPQG2]], because each entry of the image is an entry of $x$ or $0$.
+2. $LS(x) = L(0, x_1, x_2, \dots) = (x_1, x_2, \dots) = x$. So $LS = \id_V$, and $L$ is a [[left inverse|05SG20AMXH]] of $S$.
+3. Let $e_1 = (1, 0, 0, \dots)$. Then $L(e_1) = (0, 0, \dots) = 0$ and $SL(e_1) = S(0) = 0 \ne e_1$. So $SL \ne \id_V$.
+4. $S$ is not surjective: each sequence $S(x)$ has first entry $0$, so $e_1$ is not in the image. So $S$ has no right inverse.
+5. $L$ is not injective, by step 3. So $L$ has no left inverse.
+6. In matrix form, $S$ has the infinite matrix with entries $s_{i+1, i} = 1$ and $0$ elsewhere, and $L$ has the transpose, with $l_{i, i+1} = 1$.
+7. Row $i$ of $L$ times column $j$ of $S$ is $\sum_k l_{ik} s_{kj} = l_{i,i+1} s_{i+1,j}$, which is $1$ for $j = i$ and $0$ otherwise. So $LS = I$, the infinite identity matrix.
+8. In the same way, $(SL)_{ij} = s_{i,i-1} l_{i-1,j}$ for $i \ge 2$ and $(SL)_{1j} = 0$. So $SL = I - E_{11}$, where $E_{11}$ has a single entry $1$ in position $(1, 1)$.
+
+## Remarks
+
+The example shows that the theorem on [[one-sided inverses of square matrices|0753Y2X5K6]] needs finite dimension.
+Each finite truncation fails to give a counterexample: the $n \times n$ upper left corners $L_n$ and $S_n$ satisfy $L_n S_n = I_n - E_{nn}$, which is not $I_n$.
+The left inverse of $S$ is not unique: the map $L'(x) = (x_2, x_3, \dots) + x_1 (1, 0, 0, \dots)$ also satisfies $L'S = \id_V$, since $S(x)$ has first entry $0$.
+Another view of the same phenomenon is the [[shift on the natural numbers|M9QVG263VV]].
+
+## Explanations
+
+### L1 human
+
+Think of a long queue of people.
+The right shift moves everybody one place back and puts an empty place at the front.
+The left shift moves everybody one place forward, and the person at the front leaves.
+Moving back and then forward gives the old queue, but moving forward and then back loses the first person.
+
+### L2 human
+
+The point is that $LS = I$ and $SL \ne I$ can both hold for infinite matrices.
+For square matrices of finite size this is impossible, by the theorem on one-sided inverses.
+The typical use of this example is as a warning: a proof that $AB = I$ gives $BA = I$ must use finite dimension, for example through rank-nullity.

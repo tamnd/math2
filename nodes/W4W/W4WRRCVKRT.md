@@ -39,5 +39,5 @@ A left inverse and a right inverse of the same matrix are always equal, because 
 
 ## Variants
 
-The [[elimination proof|~af7c15b5]] replaces rank-nullity by row reduction.
+The [[elimination proof|MT0Z14F36B]] replaces rank-nullity by row reduction.
 Over a commutative ring, the determinant gives a third proof: $\det B \det A = 1$, so $\det A$ is a unit.

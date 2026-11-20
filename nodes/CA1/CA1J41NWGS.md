@@ -37,11 +37,11 @@ Example: let $M = \begin{pmatrix} 2 & 1 \\ 4 & 5 \end{pmatrix}$ with $p = q = 1$
 Then $M/A = 5 - 4 \cdot \tfrac{1}{2} \cdot 1 = 3$, and indeed $\det M = 10 - 4 = 6 = 2 \cdot 3$.
 
 Non-example: for $M = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$ and $A = (0)$, the block $A$ is not invertible, so $M/A$ is not defined, although $M$ itself is invertible.
-This case is worked in the [[exchange matrix non-example|~74c14e5a]].
+This case is worked in the [[exchange matrix non-example|D31650AJ43]].
 
 The definition comes from the factorisation
 $$M = \begin{pmatrix} I_p & 0 \\ C A^{-1} & I_q \end{pmatrix} \begin{pmatrix} A & 0 \\ 0 & M/A \end{pmatrix} \begin{pmatrix} I_p & A^{-1} B \\ 0 & I_q \end{pmatrix},$$
-which is proved in the theorem on the [[block inverse formula|~801e2989]].
+which is proved in the theorem on the [[block inverse formula|5QTK7JWXF3]].
 It gives $\det M = \det A \cdot \det(M/A)$; see [[determinant via the Schur complement|0KA7A4ENVJ]].
 In particular, when $A$ is invertible, $M$ is invertible if and only if $M/A$ is invertible.
 The same formulas hold over any commutative ring when $A$ is invertible.
