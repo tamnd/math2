@@ -1,0 +1,48 @@
+---
+tag: HPFSXJNG8R
+kind: example
+name: An indefinite Hermitian form on the complex plane
+msc: ["15A63", "11E39"]
+topics: [DYAK7YMK7B]
+audience: ug1
+instance_of: [48P4A1CX85]
+not_instance_of:
+  - target: 0NB0AWGJBW
+    note: h(x, y) = x_1 conj(y_1) - x_2 conj(y_2) has h(e_2, e_2) = -1 < 0 and h((1, 1), (1, 1)) = 0, so it is not positive definite
+uses: [8NJ7XY6F1S, AXH4S084MR]
+sources:
+  - url: https://en.wikipedia.org/wiki/Sesquilinear_form
+    locator: Hermitian form
+---
+
+## Example
+
+On $\C^2$ let $h(x, y) = x_1 \bar y_1 - x_2 \bar y_2$, with matrix $M = \operatorname{diag}(1, -1)$.
+
+1. $M$ is real and diagonal, so $M^* = M$, and $h$ is Hermitian by the [[characterization|AXH4S084MR]].
+2. $h(v, v) = \abs{v_1}^2 - \abs{v_2}^2$, which is real for every $v$.
+3. $h(e_1, e_1) = 1 > 0$ and $h(e_2, e_2) = -1 < 0$. So $h$ is indefinite, and it is not an inner product.
+4. $h(v, v) = 0$ exactly when $\abs{v_1} = \abs{v_2}$. For example $(1, 1)$, $(1, i)$ and $(1, e^{i\theta})$ for every real $\theta$.
+5. Let $u = (1, 1)$ and $w = \frac12 (1, -1)$. Then $h(u, w) = \frac12 + \frac12 = 1$ and $h(w, w) = \frac14 - \frac14 = 0$.
+6. So in the basis $(u, w)$ the matrix of $h$ is $\begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$.
+
+## Remarks
+
+The form is nondegenerate, since $\det M = -1 \neq 0$.
+Its isotropic vectors form a real cone of real dimension $3$ in $\C^2 \cong \R^4$, not a finite union of complex lines: each $(1, e^{i\theta})$ spans a different complex line.
+Step 6 shows a Hermitian hyperbolic plane, the analogue of the [[real hyperbolic plane|X6C1Z0W252]].
+The isometry group of this form is the unitary group $U(1, 1)$.
+
+## Explanations
+
+### L1 human
+
+This Hermitian form gives positive values on some vectors and negative values on others.
+So it is not an inner product.
+On the vectors with $\abs{v_1} = \abs{v_2}$ it gives $0$.
+
+### L2 human
+
+To find the signs of a diagonal Hermitian form, read the signs of the diagonal entries.
+Here they are $+1$ and $-1$, so the form is indefinite.
+A trap: over $\C$ the bilinear form $x_1 y_1 - x_2 y_2$ is equivalent to $x_1 y_1 + x_2 y_2$ by the change $x_2 \mapsto i x_2$, but the Hermitian form $x_1 \bar y_1 - x_2 \bar y_2$ is not equivalent to the standard inner product, since $h(v, v)$ takes negative values.

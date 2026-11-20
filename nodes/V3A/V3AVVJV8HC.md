@@ -1,0 +1,56 @@
+---
+tag: V3AVVJV8HC
+kind: example
+name: Witt decomposition of x1 y1 + x2 y2 - x3 y3
+msc: ["15A63", "11E04"]
+topics: [DYAK7YMK7B]
+audience: grad
+instance_of: [0AXZNE5XNH, 01NHFZF2SK, MZHFGPV1YT]
+illustrates: [BPMRSPB6GD]
+uses: [BPMRSPB6GD, SN50886T80, 1X5PZSK44P, 0SPYAGE7T0]
+sources:
+  - url: https://en.wikipedia.org/wiki/Witt's_theorem
+    locator: Witt's decomposition theorem
+---
+
+## Example
+
+On $\Q^3$ let $B(x, y) = x_1 y_1 + x_2 y_2 - x_3 y_3$, with matrix $A = \operatorname{diag}(1, 1, -1)$.
+$\det A = -1 \neq 0$, so $B$ is nondegenerate.
+We compute its [[Witt decomposition|BPMRSPB6GD]].
+
+1. $u = e_1 + e_3 = (1, 0, 1)$ has $B(u, u) = 1 - 1 = 0$. So $u$ is isotropic.
+2. $z = e_1$ has $B(u, z) = 1$ and $B(z, z) = 1$.
+3. As in the [[hyperbolic plane statement|SN50886T80]], put $v = z - \frac{B(z, z)}{2} u = (\frac12, 0, -\frac12)$.
+4. $B(v, v) = \frac14 - \frac14 = 0$ and $B(u, v) = \frac12 + \frac12 = 1$. So $(u, v)$ is a hyperbolic pair, and $H = \operatorname{span}(u, v)$ is the plane $x_2 = 0$.
+5. $H^\perp$ is the set of $x$ with $B(u, x) = x_1 - x_3 = 0$ and $B(v, x) = \frac12 x_1 + \frac12 x_3 = 0$. So $H^\perp = \operatorname{span}(e_2)$.
+6. $B(e_2, e_2) = 1 \neq 0$, so $H^\perp$ is anisotropic.
+7. So $\Q^3 = H \perp \operatorname{span}(e_2)$, with Witt index $m = 1$ and anisotropic part $\langle 1 \rangle$.
+8. In the basis $(u, v, e_2)$, let $P$ have the columns $u, v, e_2$. Then $\det P = 1$, and the [[change of basis rule|0SPYAGE7T0]] gives $P^T A P = \begin{pmatrix} 0 & 1 & 0 \\ 1 & 0 & 0 \\ 0 & 0 & 1 \end{pmatrix}$, of determinant $-1 = (\det P)^2 \det A$.
+9. The line $\operatorname{span}(u)$ is a maximal totally isotropic subspace. No plane is totally isotropic, since $2 \cdot 2 > 3$.
+
+## Remarks
+
+The decomposition is not unique as a set of subspaces.
+The isotropic vector $u' = e_2 + e_3$ gives the hyperbolic plane $H' = \operatorname{span}(e_2, e_3)$ and $H'^\perp = \operatorname{span}(e_1)$.
+Then $H' \neq H$, but both anisotropic parts are $\langle 1 \rangle$, as the uniqueness part says.
+Over $\R$ the result is the same: the form has signature $(2, 1)$, and the Witt index is $\min(2, 1) = 1$.
+The anisotropic part $\langle 1 \rangle$ cannot be replaced by $\langle -1 \rangle$.
+The form $H \perp \langle -1 \rangle$ has determinant $1$, not $-1$, and the determinant up to squares is an invariant.
+
+## Explanations
+
+### L1 human
+
+The form $x_1^2 + x_2^2 - x_3^2$ has a cone of isotropic vectors.
+One isotropic vector and a partner span a hyperbolic plane.
+What remains is the line of $e_2$, where the form is $x_2^2$, with no isotropic vector.
+So this form is one hyperbolic plane plus one anisotropic line.
+
+### L2 human
+
+A reader can test the steps on the vector $x = (3, 4, 5)$, which is isotropic: $9 + 16 - 25 = 0$.
+In the basis $(u, v, e_2)$, write $x = a u + b v + c e_2$.
+Then $c = 4$, $a + \frac12 b = 3$ and $a - \frac12 b = 5$, so $a = 4$ and $b = -2$.
+The value is $B(x, x) = 2ab + c^2 = -16 + 16 = 0$, which agrees.
+A trap: the coordinates $a, b$ are not the coordinates of an orthogonal basis, so $B(x, x)$ is $2ab + c^2$, not $a^2 + b^2 + c^2$.

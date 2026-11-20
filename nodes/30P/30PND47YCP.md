@@ -1,0 +1,84 @@
+---
+tag: 30PND47YCP
+kind: statement
+role: proposition
+name: Lagrangian subspaces of a symplectic vector space
+aliases: [lagrangian-subspace, maximal-isotropic-subspaces-of-a-symplectic-space]
+msc: ["15A63", "53D05"]
+topics: [DYAK7YMK7B]
+audience: grad
+about: [PQ7JJY0VPH]
+uses: [W5FHT07SJJ, PQ7JJY0VPH, 05Q4JD6XEH, M2JH84VEY9, M0G958M917, MZHFGPV1YT]
+sources:
+  - url: https://en.wikipedia.org/wiki/Symplectic_vector_space
+    locator: Subspaces
+  - book: isbn:9780387728285
+    locator: Chapter 11
+---
+
+## Statement
+
+Let $(V, \omega)$ be a [[symplectic vector space|W5FHT07SJJ]] of dimension $2m$ over a field $F$.
+For a subspace $W$, let $W^\perp = \{v \in V : \omega(w, v) = 0 \text{ for all } w \in W\}$ be its [[orthogonal complement|05Q4JD6XEH]].
+Call $W$ isotropic when $W \subseteq W^\perp$, and Lagrangian when $W = W^\perp$.
+
+1. For each subspace $W$, $\dim W + \dim W^\perp = 2m$ and $(W^\perp)^\perp = W$.
+2. Each isotropic subspace $W$ has $\dim W \leq m$.
+3. A subspace $W$ is Lagrangian if and only if it is isotropic and $\dim W = m$.
+4. Each isotropic subspace lies in a Lagrangian subspace. So Lagrangian subspaces exist, and they are exactly the maximal isotropic subspaces.
+
+The [[proof|YKK5M72GW7]] uses the dimension formula for orthogonal complements and adds one vector of $W^\perp$ at a time.
+
+## Remarks
+
+### Why each hypothesis is needed
+
+- Nondegeneracy is needed for parts 1 to 3. For the zero form on $F^2$, which is alternating, $V$ itself is isotropic of dimension $2 > 1$.
+- The form must be alternating for part 4 to give dimension $m$. For the dot product on $\R^2$, which is symmetric and nondegenerate, only $\{0\}$ is totally isotropic, so the maximal ones have dimension $0$, not $1$.
+- Finite dimension is needed for part 1. The proof uses the rank-nullity theorem.
+
+### Consequences
+
+- In a symplectic plane, every line is Lagrangian, because every vector is [[isotropic|MZHFGPV1YT]].
+- In the standard space $F^{2m}$ with $\omega((x, y), (x', y')) = x^T y' - x'^T y$, the graph $\{(x, Ax) : x \in F^m\}$ of a matrix $A$ is Lagrangian if and only if $A$ is symmetric. Indeed $\omega((x, Ax), (x', Ax')) = x^T (A - A^T) x'$.
+- Each isotropic subspace of dimension $k$ has $W^\perp$ of dimension $2m - k$. So $W^\perp \supseteq W$ is a coisotropic subspace.
+
+### Converse
+
+Part 2 is sharp in each dimension: for $k \leq m$, the span of $e_1, \dots, e_k$ in the standard space is isotropic of dimension $k$.
+Part 3 is an equivalence, and it is the usual test for a Lagrangian subspace: check $\omega = 0$ on a basis, then count dimensions.
+
+### Generalizations
+
+For a nondegenerate symmetric form with $\operatorname{char} F \neq 2$, all maximal totally isotropic subspaces also have one dimension, the Witt index, by the [[Witt decomposition|BPMRSPB6GD]].
+This index can be less than half the dimension.
+If $W$ is coisotropic, that is $W^\perp \subseteq W$, then $\omega$ gives a symplectic form on $W / W^\perp$.
+This is linear symplectic reduction.
+The tangent spaces of a [[Lagrangian submanifold|H8ACPTMX08]] of a symplectic manifold are Lagrangian subspaces; symplectic geometry studies them.
+
+## Explanations
+
+### L1 human
+
+In a symplectic space of dimension $2m$, an isotropic subspace is one on which the area form is zero.
+Such a subspace can have dimension at most $m$, half of the whole.
+The isotropic subspaces of dimension exactly $m$ are Lagrangian, and each isotropic subspace grows into one.
+
+### L2 human
+
+We grow $W = \operatorname{span}(e_1)$ to a Lagrangian subspace of the standard space $F^4$ with the basis $e_1, e_2, f_1, f_2$ and $\omega(e_i, f_j) = \delta_{ij}$.
+
+1. For $v = a_1 e_1 + a_2 e_2 + b_1 f_1 + b_2 f_2$, $\omega(e_1, v) = b_1$. So $W^\perp = \operatorname{span}(e_1, e_2, f_2)$, of dimension $3 = 4 - 1$.
+2. Take $x = e_2 + f_2 \in W^\perp$, which is not in $W$.
+3. Put $L = \operatorname{span}(e_1, e_2 + f_2)$. Then $\omega(e_1, e_2 + f_2) = 0$, so $L$ is isotropic.
+4. $\dim L = 2 = m$, so $L$ is Lagrangian by part 3.
+5. A check: $\omega(e_2 + f_2, v) = b_2 - a_2$. So $L^\perp = \{b_1 = 0, b_2 = a_2\} = L$.
+
+The typical use is part 3: to show that a subspace is Lagrangian, check that $\omega$ vanishes on a basis and that the dimension is $m$.
+A trap: a Lagrangian subspace has no complement of the form $L^\perp$, since $L^\perp = L$.
+A Lagrangian complement must be found by other means.
+
+### L3 human
+
+The set of Lagrangian subspaces of $\R^{2m}$ is the Lagrangian Grassmannian, a manifold of dimension $m(m + 1) / 2$.
+Near a fixed Lagrangian $L_0 = \operatorname{span}(e_1, \dots, e_m)$, the Lagrangian complements of $\operatorname{span}(f_1, \dots, f_m)$ are the graphs of symmetric matrices, which gives this dimension.
