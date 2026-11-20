@@ -1,0 +1,31 @@
+---
+tag: SS0XKV9TAN
+kind: proof
+name: Proof that an independent set extends to a basis, in finite dimension
+msc: ["15A03"]
+topics: [MVH97H8B2J]
+audience: ug1
+proves: 0M4SXE5WW3
+methods: [0ASJVEFA9J, X5HG1RNWQX]
+uses: [H75GS7QVPB, 08ZDRN6H41, 0VTQTPQGAV, 0BJKVF90Z6]
+sources:
+  - book: isbn:9783031410253
+    locator: Section 2B
+---
+
+## Proof
+
+This proof covers a space $V$ with a finite spanning set $W$ of $m$ vectors; the general case is in the [[proof by Zorn's lemma|MEFZB7GHA9]].
+
+1. By the [[Steinitz exchange lemma|08ZDRN6H41]], each independent set in $V$ has at most $m$ vectors. So $L$ is finite.
+2. For part 1, let $S = L \cup W$. It contains $W$, so it [[spans|0BJKVF90Z6]] $V$. So part 1 follows from part 2.
+3. For part 2, let $S \supseteq L$ span $V$. We use induction on $m - \abs{L}$, which is at least $0$ by step 1.
+4. Case 1: each $s \in S$ lies in $\operatorname{span}(L)$. Then $V = \operatorname{span}(S) \subseteq \operatorname{span}(L)$, because a span is a subspace. So $L$ spans $V$ and is independent, and $B = L$ is a [[basis|0VTQTPQGAV]].
+5. Case 2: some $s \in S$ is not in $\operatorname{span}(L)$. By part 4 of the [[dependence lemma|H75GS7QVPB]], $L' = L \cup \set{s}$ is independent.
+6. Also $L \subseteq L' \subseteq S$, and $m - \abs{L'} = m - \abs{L} - 1$.
+7. By the induction hypothesis, there is a basis $B$ with $L' \subseteq B \subseteq S$. Then $L \subseteq B \subseteq S$.
+
+## Idea
+
+Add vectors of $S$ outside the current span, one at a time.
+Each addition keeps independence, and the Steinitz bound stops the process after at most $m$ steps.

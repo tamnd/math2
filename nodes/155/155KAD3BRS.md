@@ -2,17 +2,23 @@
 tag: 155KAD3BRS
 kind: proof
 name: Proof of the Steinitz exchange lemma by induction
-msc: [15A03]
+msc: ["15A03"]
+topics: [MVH97H8B2J]
+audience: ug1
 proves: 08ZDRN6H41
+methods: [0ASJVEFA9J, 0J0XBKG64S]
 uses: [0EVHJFTG9Z, 0BJKVF90Z6, 0HR573CHNM, 0EPTJA5QV4]
 sources:
   - url: https://en.wikipedia.org/wiki/Steinitz_exchange_lemma
     locator: Proof
+  - book: isbn:9780134860244
+    locator: Section 1.6
 ---
 
 ## Proof
 
-We argue by induction on $k$. For $0 \le k \le m$, let $P(k)$ be this claim: $k \le n$, and after a renumbering of the $w_j$, the family $u_1, \dots, u_k, w_{k+1}, \dots, w_n$ spans $V$.
+We argue by induction on $k$.
+For $0 \le k \le m$, let $P(k)$ be this claim: $k \le n$, and after a renumbering of the $w_j$, the family $u_1, \dots, u_k, w_{k+1}, \dots, w_n$ spans $V$.
 
 1. The claim $P(0)$ holds: $0 \le n$, and $w_1, \dots, w_n$ [[span|0BJKVF90Z6]] $V$ by hypothesis.
 2. Let $0 \le k < m$, and assume $P(k)$. Number the $w_j$ as in $P(k)$, so that $u_1, \dots, u_k, w_{k+1}, \dots, w_n$ span $V$.
@@ -29,4 +35,6 @@ We argue by induction on $k$. For $0 \le k \le m$, let $P(k)$ be this claim: $k 
 
 ## Idea
 
-Each new independent vector $u_{k+1}$ is a combination of the current spanning family. Independence forces some remaining $w_j$ to appear with a nonzero coefficient, so we can trade that $w_j$ for $u_{k+1}$ and still span $V$. Each trade uses up one $w_j$, so there must be at least as many $w$'s as $u$'s.
+Each new independent vector $u_{k+1}$ is a combination of the current spanning family.
+Independence forces some remaining $w_j$ to appear with a nonzero coefficient, so we can trade that $w_j$ for $u_{k+1}$ and still span $V$.
+Each trade uses up one $w_j$, so there must be at least as many vectors $w_j$ as vectors $u_i$.

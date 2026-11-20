@@ -1,0 +1,32 @@
+---
+tag: WXB40PTZNV
+kind: proof
+name: Proof of the finite dimension theorem by the Steinitz exchange lemma
+msc: ["15A03"]
+topics: [MVH97H8B2J]
+audience: ug1
+proves: 0WK0Y8RH1M
+methods: [0NTF6DMVAP, 0J0XBKG64S]
+uses: [08ZDRN6H41, 0VTQTPQGAV, 0EVHJFTG9Z]
+sources:
+  - url: https://en.wikipedia.org/wiki/Steinitz_exchange_lemma
+    locator: Statement
+  - book: isbn:9783031410253
+    locator: Section 2C
+---
+
+## Proof
+
+This proof gives part 1 of the statement, and part 2 when one basis is finite.
+
+1. Let $B = (b_1, \dots, b_n)$ be a basis of $V$, and let $C = (c_i)_{i \in I}$ be another basis.
+2. Suppose, for a contradiction, that $I$ has more than $n$ elements. Choose $n + 1$ distinct indices $i_0, \dots, i_n \in I$.
+3. The subfamily $c_{i_0}, \dots, c_{i_n}$ of the [[independent|0EVHJFTG9Z]] family $C$ is independent, and $b_1, \dots, b_n$ span $V$.
+4. By the [[Steinitz exchange lemma|08ZDRN6H41]], $n + 1 \le n$. This is false, so $I$ is finite, with $m \le n$ elements.
+5. Now $C = (c_1, \dots, c_m)$ is a finite basis. It spans $V$, and $B$ is independent.
+6. By the Steinitz exchange lemma with the roles exchanged, $n \le m$.
+7. By steps 4 and 6, $m = n$. So every basis of $V$ has exactly $n$ vectors.
+
+## Idea
+
+Each basis is independent and spanning, so the exchange lemma compares them in both directions.

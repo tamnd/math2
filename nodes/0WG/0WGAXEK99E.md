@@ -3,8 +3,12 @@ tag: 0WGAXEK99E
 kind: statement
 role: proposition
 name: A subspace of full dimension is the whole space
-msc: [15A03]
+msc: ["15A03"]
+topics: [MVH97H8B2J]
+audience: ug1
+about: [03GSZ8RTZJ]
 uses: [05G2G0P224, 0EPTJA5QV4]
+proofs: [345D462T59]
 sources:
   - url: https://en.wikipedia.org/wiki/Dimension_(vector_space)
     locator: Properties
@@ -17,10 +21,25 @@ If $\dim W = \dim V$, then $W = V$.
 
 ## Remarks
 
-A basis of $W$ is a linearly independent family of $\dim V$ vectors in $V$.
-So it is a basis of $V$, see [[linearly independent set of the right size is a basis|096V7H13H9]].
+### Why each hypothesis is needed
+
 The statement fails for infinite-dimensional spaces.
-In $F[x]$, the subspace of polynomials with $p(0) = 0$ has the same dimension as $F[x]$, but it is not equal to $F[x]$.
+In $F[x]$, the subspace of polynomials with $p(0) = 0$ has the same dimension $\aleph_0$ as $F[x]$, but it is not equal to $F[x]$; see [[this example|DVEZQ8SP64]].
+The inclusion $W \subseteq V$ is needed: two different lines in $\R^2$ both have dimension $1$.
+
+### Consequences
+
+Two finite-dimensional subspaces $U \subseteq W$ with $\dim U = \dim W$ are equal.
+So a proof of $U = W$ needs only one inclusion and a count of dimensions.
+
+### Converse
+
+The converse is trivial: $W = V$ gives $\dim W = \dim V$.
+
+### Generalizations
+
+This is part 2 of [[the dimension of a subspace|0QW084460E]].
+For modules over $\Z$, it fails: $2 \Z \subsetneq \Z$, and both are free of rank $1$.
 
 ## Explanations
 

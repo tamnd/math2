@@ -2,16 +2,23 @@
 tag: 75VVYAZBK3
 kind: proof
 name: Proof of Grassmann's formula by extending a basis of the intersection
-msc: [15A03]
+msc: ["15A03"]
+topics: [MVH97H8B2J]
+audience: ug1
 proves: 06HTJNCMPA
+methods: [01XM7JEKHY, 0NTF6DMVAP]
 uses: [0RMKABS2S5, 0V33SPH7RR, 05G2G0P224, 0VTQTPQGAV, 0EVHJFTG9Z, 0BJKVF90Z6, 0EPTJA5QV4, 0QW084460E, 0M4SXE5WW3, 0WK0Y8RH1M]
 sources:
-  - url: https://proofwiki.org/wiki/Grassmann%27s_Formula
+  - book: isbn:9783031410253
+    locator: Section 2C
+  - url: https://en.wikipedia.org/wiki/Dimension_(vector_space)
+    locator: Facts
 ---
 
 ## Proof
 
-We extend a basis of $U \cap W$ to bases of $U$ and of $W$, and show that together they give a basis of $U + W$.
+We extend a basis of $U \cap W$ to bases of $U$ and of $W$.
+We show that together they give a basis of $U + W$.
 
 1. By [[intersection of subspaces|0V33SPH7RR]], $U \cap W$ is a [[linear subspace|0EPTJA5QV4]] of $U$. By [[the dimension of a subspace|0QW084460E]], it is finite-dimensional. Let $k = \dim(U \cap W)$ and let $z_1, \dots, z_k$ be a [[basis|0VTQTPQGAV]] of it.
 2. The family $z_1, \dots, z_k$ is [[linearly independent|0EVHJFTG9Z]] in $U$. By [[the extension to a basis|0M4SXE5WW3]], it extends to a basis of $U$.
@@ -32,4 +39,6 @@ We extend a basis of $U \cap W$ to bases of $U$ and of $W$, and show that togeth
 
 ## Idea
 
-Vectors in both subspaces get counted twice in $\dim U + \dim W$. Starting from a basis of $U \cap W$ and extending it inside $U$ and inside $W$ makes this double count explicit. The combined family is a basis of $U + W$, because any relation among it forces a vector of $W$ into $U \cap W$, where it must vanish.
+Vectors in both subspaces get counted twice in $\dim U + \dim W$.
+Starting from a basis of $U \cap W$ and extending it inside $U$ and inside $W$ makes this double count explicit.
+The combined family is a basis of $U + W$, because any relation among it forces a vector of $W$ into $U \cap W$, where it must vanish.

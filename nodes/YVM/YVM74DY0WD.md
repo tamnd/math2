@@ -2,8 +2,11 @@
 tag: YVM74DY0WD
 kind: proof
 name: Proof that every vector space has a basis, by Zorn's lemma
-msc: [15A03, "03E25"]
+msc: ["15A03", "03E25"]
+topics: [MVH97H8B2J]
+audience: ug1
 proves: 00MS9VMQ9Z
+methods: [01XM7JEKHY, 0J0XBKG64S]
 uses: [0VTQTPQGAV, 0EVHJFTG9Z, 0BJKVF90Z6, 0HR573CHNM, 04RXTQA5ZA, 011C29Q1S1, 0GP9ASVQ1X, 0H5J02P8S9, 0TZEEFTNCC]
 sources:
   - url: https://en.wikipedia.org/wiki/Basis_(linear_algebra)
@@ -12,7 +15,8 @@ sources:
 
 ## Proof
 
-We apply [[Zorn's lemma|04RXTQA5ZA]] to the linearly independent subsets of $V$. A subset is [[linearly independent|0EVHJFTG9Z]] when it is so as a family indexed by itself.
+We apply [[Zorn's lemma|04RXTQA5ZA]] to the linearly independent subsets of $V$.
+A subset is [[linearly independent|0EVHJFTG9Z]] when it is so as a family indexed by itself.
 
 1. Let $P$ be the set of linearly independent subsets of $V$. Order $P$ by inclusion. This is a [[partial order|011C29Q1S1]].
 2. The empty set is linearly independent, since it has no nontrivial linear combination. So $P$ is nonempty.
@@ -32,4 +36,6 @@ We apply [[Zorn's lemma|04RXTQA5ZA]] to the linearly independent subsets of $V$.
 
 ## Idea
 
-A basis is a linearly independent set that cannot be enlarged. Zorn's lemma gives such a maximal set, because the union of a chain of independent sets is still independent. If the maximal set missed a vector of $V$, adding that vector would keep it independent, which is impossible.
+A basis is a linearly independent set that cannot be enlarged.
+Zorn's lemma gives such a maximal set, because the union of a chain of independent sets is still independent.
+If the maximal set missed a vector of $V$, adding that vector would keep it independent, which is impossible.
