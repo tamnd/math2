@@ -1,0 +1,43 @@
+---
+tag: AWMEN8EZJ6
+kind: example
+name: A complex quadratic form has no definiteness type
+msc: [15A63]
+topics: [6TSCEW8QMK]
+audience: ug1
+not_instance_of:
+  - target: 01RBSSGMY5
+    note: z^2 takes the values 1, -1 and i, so no sign condition applies to it
+uses: [01RBSSGMY5, 0HZNE5QZDJ]
+sources:
+  - url: https://en.wikipedia.org/wiki/Definite_quadratic_form
+    locator: lead section
+---
+
+## Example
+
+Let $Q(z) = z^2$ on $\C$, a [[quadratic form|0HZNE5QZDJ]] over $\C$.
+
+1. $Q(1) = 1 > 0$.
+2. $Q(i) = i^2 = -1 < 0$.
+3. $Q(e^{i\pi/4}) = e^{i\pi/2} = i$, which is not a real number.
+4. So the conditions $Q(v) > 0$, $Q(v) \ge 0$ and so on have no meaning for all $v$, and $Q$ has none of [[the five types|01RBSSGMY5]].
+
+## Remarks
+
+Steps 1 and 2 show the general reason: if $Q(v) = c$, then $Q(iv) = -c$.
+So no nonzero complex quadratic form can be definite or semidefinite.
+On complex spaces, definiteness belongs to Hermitian forms, such as $\abs{z}^2 = \bar z z$, whose values are real.
+The real part of $z^2$, as a form on $\R^2$ with $z = x + iy$, is $x^2 - y^2$, which is indefinite.
+
+## Explanations
+
+### L1 human
+
+Over the complex numbers, a quadratic form can take values that are not real.
+Then words such as "positive" do not apply.
+For complex vectors, the right object is $\abs z^2$, not $z^2$.
+
+### L2 human
+
+A trap: the "positive definite" complex matrices in many books are Hermitian, and the form is $\bar x^T A x$, not $x^T A x$.

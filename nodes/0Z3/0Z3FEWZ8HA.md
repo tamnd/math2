@@ -2,27 +2,68 @@
 tag: 0Z3FEWZ8HA
 kind: statement
 role: theorem
-name: Diagonalisation of a quadratic form
+name: Diagonalization of a quadratic form
 msc: ["11E04", 15A63]
-uses: [0HZNE5QZDJ, 05Q4JD6XEH]
+topics: [6TSCEW8QMK]
+audience: ug1
+about: [0RBQS1JJCR, 0AXZNE5XNH]
+uses: [0HZNE5QZDJ, 05Q4JD6XEH, VN9AG8JKYT, NZJDNC6EP6]
+proofs: [PP93XQZ6WR, BDT6XBCRDJ]
+formal:
+  - system: lean4
+    library: mathlib
+    decl: QuadraticForm.equivalent_weightedSumSquares
+    match: exact
 sources:
   - url: https://en.wikipedia.org/wiki/Quadratic_form
     locator: Equivalence of forms
+  - url: https://en.wikipedia.org/wiki/Symmetric_bilinear_form
+    locator: Orthogonal basis
+  - book: isbn:9780387728285
 ---
 
 ## Statement
 
 Let $F$ be a field of characteristic not $2$, and let $V$ be a vector space over $F$ of finite dimension $n$.
-Let $Q$ be a [[quadratic form|0RBQS1JJCR]] on $V$.
+Let $Q$ be a [[quadratic form|0HZNE5QZDJ]] on $V$.
 Then $V$ has a basis $(e_1, \dots, e_n)$ and there are $a_1, \dots, a_n \in F$ such that, for all $x_1, \dots, x_n \in F$,
 $$Q(x_1 e_1 + \cdots + x_n e_n) = a_1 x_1^2 + a_2 x_2^2 + \cdots + a_n x_n^2.$$
+The basis is [[orthogonal|05Q4JD6XEH]] for the associated symmetric bilinear form, and $a_i = Q(e_i)$.
+
+In matrix form: for each symmetric $n \times n$ matrix $A$ over $F$, there is an invertible matrix $P$ such that $P^T A P$ is diagonal.
+So every symmetric matrix is [[congruent|NZJDNC6EP6]] to a diagonal matrix.
 
 ## Remarks
 
-The basis is [[orthogonal|01TXN7ETH2]] for the associated symmetric bilinear form, and $a_i = Q(e_i)$.
-In matrix terms, each symmetric matrix $A$ over $F$ has an invertible $P$ such that $P^T A P$ is diagonal.
-The numbers $a_i$ are not unique; for example, each $a_i$ can be multiplied by a nonzero square.
-Over $\R$, the orthogonal diagonalisation of the [[principal axis theorem|0PR5P9Z4KM]] is a special case.
+### Why each hypothesis is needed
+
+- Characteristic not $2$: over $\F_2$, the form $xy$ is not equivalent to any $a x^2 + b y^2$. Indeed, $a x^2 + b y^2$ is additive there, and $xy$ is not; see [[the forms over $\F_2$|ZEGSCCVGZF]].
+- For a symmetric bilinear form in characteristic $2$, the form $B(u, v) = u_1 v_2 + u_2 v_1$ on $\F_2^2$ has no orthogonal basis. Each $v$ has $B(v, v) = 2 v_1 v_2 = 0$, so an orthogonal basis would make $B$ zero.
+- Finite dimension: both proofs use induction on $n$, and the statement uses a finite basis.
+
+### Consequences
+
+- In matrix form, the theorem is used to compute the [[rank|0EWQEYRVA8]] of a form, as the number of nonzero $a_i$.
+- Over $\R$, [[Sylvester's law of inertia|0WFED3K3DQ]] says that the numbers of positive, negative and zero $a_i$ do not depend on the basis.
+- Over $\C$, each nonzero $a_i$ is a square, so the form becomes [[a sum of squares|0CEX9BRXRZ]].
+- Over a finite field of odd characteristic, the theorem is the first step of [[the classification by dimension and discriminant|2HBR7137AD]].
+
+### Converse
+
+If $Q$ is diagonal in a basis, then that basis is orthogonal for the associated bilinear form.
+So the theorem is equivalent to the existence of an orthogonal basis.
+
+### Generalizations
+
+- The coefficients $a_i$ are not unique. Each $a_i$ can be multiplied by a nonzero square, and other changes are possible, for example $x^2 + y^2 \cong 2x^2 + 2y^2$ over $\Q$ through $(x + y, x - y)$.
+- Over $\R$, [[the principal axis theorem|0PR5P9Z4KM]] gives an orthonormal basis, with the eigenvalues of $A$ as coefficients.
+- For symmetric bilinear forms, the statement says that every symmetric bilinear form outside characteristic $2$ has an orthogonal basis. The general theory is in the topic on [[bilinear and sesquilinear forms|DYAK7YMK7B]].
+
+## History
+
+No source in the reading list of this topic dates the theorem or the method of completing squares.
+So we give no date.
+The name Lagrange's method for completing squares is common, but we do not attach a date or a text to it.
 
 ## Explanations
 
@@ -31,3 +72,23 @@ Over $\R$, the orthogonal diagonalisation of the [[principal axis theorem|0PR5P9
 Every quadratic form becomes a sum of squares with coefficients after a good change of variables.
 For example, $x^2 + 2xy = (x + y)^2 - y^2$.
 With $u = x + y$ and $v = y$, the form becomes $u^2 - v^2$.
+
+### L2 human
+
+Worked example: we diagonalize $Q = x^2 + 4xy + 2xz + 5y^2 + 8yz + 2z^2$, as in [[the full example|Z762YHP338]].
+
+1. Collect the terms with $x$: $x^2 + 4xy + 2xz = (x + 2y + z)^2 - 4y^2 - 4yz - z^2$.
+2. So $Q = (x + 2y + z)^2 + y^2 + 4yz + z^2$.
+3. Collect the terms with $y$: $y^2 + 4yz = (y + 2z)^2 - 4z^2$.
+4. So $Q = (x + 2y + z)^2 + (y + 2z)^2 - 3z^2$.
+
+The new variables $u = x + 2y + z$, $v = y + 2z$, $w = z$ give $u^2 + v^2 - 3w^2$.
+A trap: the new coefficients are not the eigenvalues of the matrix of $Q$.
+Over $\R$, only their signs agree with the signs of the eigenvalues.
+
+### L3 human
+
+The theorem says that every nondegenerate quadratic space is an orthogonal sum of lines, written $\langle a_1, \dots, a_n \rangle$.
+This makes the Witt group generated by the classes $\langle a \rangle$ for $a \in F^\times$.
+Uniqueness questions are then about relations between such sums.
+Over $\R$ the answer is [[the law of inertia|0WFED3K3DQ]], and over $\Q$ it is [[the Hasse-Minkowski theorem|R8HCWA981S]].

@@ -4,6 +4,8 @@ kind: definition
 name: Symmetric bilinear form associated with a quadratic form
 msc: [15A63, "11E04"]
 defines: 0KRVRV5V80
+topics: [6TSCEW8QMK]
+audience: ug1
 uses: [0HZNE5QZDJ, 02STTYFBVY, 0744CN4MDA]
 sources:
   - url: https://en.wikipedia.org/wiki/Quadratic_form
@@ -20,9 +22,11 @@ $$B(u, v) = \tfrac{1}{2} \bigl( Q(u + v) - Q(u) - Q(v) \bigr) \qquad (u, v \in V
 ## Remarks
 
 $B$ is a [[symmetric bilinear form|0AXZNE5XNH]] with $B(v, v) = Q(v)$, and it is the only one.
-Conversely, each symmetric bilinear form $B$ gives the quadratic form $v \mapsto B(v, v)$; the two constructions are inverse to each other.
+Conversely, each symmetric bilinear form $B$ gives the quadratic form $v \mapsto B(v, v)$.
+By [[the correspondence theorem|VN9AG8JKYT]], the two constructions are inverse to each other.
 For $Q(x) = x^T A x$ with $A$ symmetric, $B(x, y) = x^T A y$.
 It is half of the [[polar form|0HYFWKKY3C]] of $Q$.
+In characteristic $2$ the factor $\frac12$ does not exist, and [[some quadratic forms have no associated symmetric bilinear form|ZEGSCCVGZF]].
 
 ## Explanations
 

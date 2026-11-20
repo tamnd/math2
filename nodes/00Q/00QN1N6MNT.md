@@ -4,6 +4,8 @@ kind: definition
 name: Positive definite quadratic form
 msc: [15A63, "11E04"]
 defines: 0RP20HFYM3
+topics: [6TSCEW8QMK]
+audience: ug1
 uses: [0HZNE5QZDJ]
 sources:
   - url: https://en.wikipedia.org/wiki/Definite_quadratic_form
@@ -20,7 +22,7 @@ $$Q(v) > 0 \qquad \text{for all } v \in V \text{ with } v \ne 0.$$
 ## Remarks
 
 $Q(x) = x^T A x$ with $A$ symmetric is positive definite if and only if $A$ is a [[positive definite matrix|0KX66CZMBB]].
-Equivalently, the signature of $Q$ is $(n, 0, 0)$, with $n = \dim V$.
+Equivalently, the [[signature|07EZA80NEH]] of $Q$ is $(n, 0, 0)$, with $n = \dim V$.
 The form $x^2 + y^2$ is positive definite on $\R^2$; the forms $x^2 - y^2$ and $x^2$ are not.
 $Q$ is positive definite if and only if its associated symmetric bilinear form is an inner product.
 
