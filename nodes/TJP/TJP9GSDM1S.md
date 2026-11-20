@@ -3,7 +3,10 @@ tag: TJP9GSDM1S
 kind: proof
 name: Proof of the Vandermonde determinant by column operations
 msc: [15A15, 15B05]
+topics: [DTBK11SR77]
+audience: ug1
 proves: 0P84B554AS
+methods: [0NTF6DMVAP]
 uses: [016PE4VZ8Q, 01ZTQBK64Q, 0ZZQ2E1MTE, 0W809K6AW0, 0C08BQ3M05, 0SD528P0EK, 009CY8JXFX]
 sources:
   - url: https://en.wikipedia.org/wiki/Vandermonde_matrix
@@ -34,4 +37,10 @@ We argue by induction on $n$.
 
 ## Idea
 
-Subtracting $x_1$ times each column from the next clears the first row except for a $1$. What is left has a factor $x_i - x_1$ in each row and is otherwise a smaller Vandermonde matrix. Induction then collects one factor $x_j - x_i$ for each pair $i < j$.
+Subtracting $x_1$ times each column from the next clears the first row except for a $1$.
+What is left has a factor $x_i - x_1$ in each row and is otherwise a smaller Vandermonde matrix.
+Induction then collects one factor $x_j - x_i$ for each pair $i < j$.
+
+## Variants
+
+The [[proof by roots of polynomials|~687fe1b8]] treats $\det V$ as a polynomial in $x_n$ and uses the bound on the number of roots.

@@ -2,8 +2,11 @@
 tag: QB1QD9E6VH
 kind: proof
 name: Proof of the determinant of a triangular matrix by the Leibniz formula
-msc: [15A15]
+msc: ["15A15"]
+topics: [DTBK11SR77]
+audience: ug1
 proves: 0K1KKMFHYH
+methods: [0NTF6DMVAP, 0WCP0PVET6]
 uses: [016PE4VZ8Q, 0MKABWDRNC, 0EZSD6T9E0, 0SK90238BH]
 sources:
   - url: https://en.wikipedia.org/wiki/Triangular_matrix
@@ -25,4 +28,11 @@ sources:
 
 ## Idea
 
-Each term of the Leibniz formula picks one entry from each row and each column. Any permutation other than the identity must step below the diagonal somewhere and also above it somewhere. In a triangular matrix one of those entries is zero, so only the diagonal product survives.
+Each term of the Leibniz formula picks one entry from each row and each column.
+Any permutation other than the identity must step below the diagonal somewhere and also above it somewhere.
+In a triangular matrix one of those entries is zero, so only the diagonal product survives.
+
+## Variants
+
+A proof by expansion along the first column, with induction on $n$, uses the [[Laplace expansion|0C08BQ3M05]]: only $a_{11}$ is nonzero in the first column of an upper triangular matrix.
+A third proof uses row operations: if all $a_{ii}$ are units, adding multiples of rows clears the entries above the diagonal, and the result is diagonal.

@@ -2,8 +2,11 @@
 tag: X7GPHANKB6
 kind: proof
 name: Proof of the Cauchy–Binet formula by multilinearity
-msc: [15A15]
+msc: ["15A15"]
+topics: [DTBK11SR77]
+audience: ug2
 proves: 08WE2W7DYS
+methods: [0NTF6DMVAP]
 uses: [0C3CFHDN6R, 076JGP6R3T, 0PPG793642, 0K4VQB7HWR, 09YB3WQG38, 016PE4VZ8Q, 05RWFKVTJ7]
 sources:
   - url: https://en.wikipedia.org/wiki/Cauchy–Binet_formula
@@ -14,12 +17,16 @@ sources:
 
 We expand the rows of $AB$ by multilinearity and sort the terms by the set of rows of $B$ that they use.
 
-1. Let $A = (a_{ik})$ be $m \times n$ and $B$ be $n \times m$ over $K$, with $1 \le m \le n$. Here $m \ge 1$, since the [[determinant|0C3CFHDN6R]] is defined for sizes at least $1$. Let $\beta_1, \dots, \beta_n$ be the rows of $B$.
+1. Let $A = (a_{ik})$ be $m \times n$ and $B$ be $n \times m$ over $K$, with $m, n \ge 1$.
+   Here $m \ge 1$, since the [[determinant|0C3CFHDN6R]] is defined for sizes at least $1$.
+   Let $\beta_1, \dots, \beta_n$ be the rows of $B$.
 2. By the definition of the [[matrix product|076JGP6R3T]], row $i$ of the $m \times m$ matrix $AB$ is $\sum_{k=1}^{n} a_{ik} \beta_k$.
 3. For a map $f \colon \set{1, \dots, m} \to \set{1, \dots, n}$, let $B_f$ be the $m \times m$ matrix whose row $i$ is $\beta_{f(i)}$.
 4. Apply [[multilinearity in the rows|0PPG793642]] to the sums of step 2, in each of the rows $1, \dots, m$ in turn.
 5. This gives $\det(AB) = \sum_{f} \left(\prod_{i=1}^{m} a_{i, f(i)}\right) \det B_f$, over all maps $f$ of step 3.
 6. If $f$ is not injective, then $B_f$ has two equal rows. So $\det B_f = 0$ by the rule for [[two equal rows|0K4VQB7HWR]].
+   If $m > n$, then no map $f$ is injective, so $\det(AB) = 0$ by step 5; this proves part 2.
+   From now on let $m \le n$.
 7. Let $f$ be injective, and let $S = f(\set{1, \dots, m})$. Then $S$ has $m$ elements. Write $S = \set{s_1 < s_2 < \cdots < s_m}$.
 8. There is exactly one [[permutation|05RWFKVTJ7]] $\sigma \in S_m$ with $f(i) = s_{\sigma(i)}$ for all $i$. Conversely, each pair $(S, \sigma)$ defines an injective $f$ in this way.
 9. So the injective maps $f$ correspond one to one to the pairs $(S, \sigma)$, where $S$ has $m$ elements and $\sigma \in S_m$.
@@ -31,4 +38,10 @@ We expand the rows of $AB$ by multilinearity and sort the terms by the set of ro
 
 ## Idea
 
-Each row of $AB$ is a combination of the rows of $B$. Expanding by multilinearity leaves only choices of $m$ distinct rows of $B$. For a fixed set $S$ of rows, the orderings of $S$ give $\det B^S$ times the Leibniz formula for $\det A_S$.
+Each row of $AB$ is a combination of the rows of $B$.
+Expanding by multilinearity leaves only choices of $m$ distinct rows of $B$.
+For a fixed set $S$ of rows, the orderings of $S$ give $\det B^S$ times the Leibniz formula for $\det A_S$.
+
+## Variants
+
+Over a field, a second proof writes $\det(AB)$ as a multilinear alternating function of the columns of $A$, and compares both sides on the unit vectors.

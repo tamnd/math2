@@ -3,7 +3,9 @@ tag: 01ZTQBK64Q
 kind: statement
 role: proposition
 name: Adding a multiple of one row to another preserves the determinant
-msc: [15A15]
+msc: ["15A15"]
+topics: [DTBK11SR77]
+audience: ug1
 uses: [0C3CFHDN6R]
 sources:
   - url: https://en.wikipedia.org/wiki/Determinant
