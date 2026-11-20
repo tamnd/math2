@@ -3,7 +3,9 @@ tag: 0T0X8GTYYS
 kind: statement
 role: proposition
 name: Determinant is a coefficient of the characteristic polynomial
-msc: [15A15, 15A18]
+msc: ["15A15", "15A18"]
+topics: [6R1D6QPY3S]
+audience: ug1
 uses: [039HF58KQ5, 0C3CFHDN6R]
 sources:
   - url: https://en.wikipedia.org/wiki/Characteristic_polynomial

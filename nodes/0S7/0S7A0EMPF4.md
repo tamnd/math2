@@ -2,7 +2,9 @@
 tag: 0S7A0EMPF4
 kind: definition
 name: Algebraic multiplicity
-msc: [15A18]
+msc: ["15A18"]
+topics: [6R1D6QPY3S]
+audience: ug2
 defines: 0FY42N02DV
 uses: [0ZND7NQ970, 0BZ81AJNWF]
 sources:
@@ -15,6 +17,11 @@ sources:
 Let $F$ be a field, let $V$ be a finite-dimensional vector space over $F$, and let $T \colon V \to V$ be a linear map.
 Let $\lambda$ be an [[eigenvalue|0BQAA2BK3Q]] of $T$.
 The *algebraic multiplicity* of $\lambda$ is the largest integer $m \ge 1$ such that $(t - \lambda)^m$ divides the [[characteristic polynomial|0J5EMJRRFM]] $p_T(t)$.
+For a square matrix $A$, it is the algebraic multiplicity of $\lambda$ for the map $x \mapsto Ax$.
+
+## Notation
+
+Mathlib writes `Polynomial.rootMultiplicity λ (Matrix.charpoly A)` for this number.
 
 ## Remarks
 

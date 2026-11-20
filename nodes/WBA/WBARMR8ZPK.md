@@ -2,9 +2,12 @@
 tag: WBARMR8ZPK
 kind: proof
 name: Proof that the eigenvalues are the roots of the characteristic polynomial
-msc: [15A18]
+msc: ["15A18"]
+topics: [6R1D6QPY3S]
+audience: ug1
 proves: 053QVHF6N7
-uses: [0ZND7NQ970, 0BZ81AJNWF, 039HF58KQ5, 0YYMY95FWS, 016PE4VZ8Q, 0125QVNCFQ, 0BJBYCGMWE, 02YFME3RGW, 0912EEEVCT, 059THXBRBB, 05Q1B7MH0M, 03Q7RE2HXR, 0TWTS88TWN, 0TYMASG33Y]
+methods: [0NTF6DMVAP, TFQ1845T84, 0J0XBKG64S]
+uses: [0ZND7NQ970, 0BZ81AJNWF, 039HF58KQ5, 0YYMY95FWS, 016PE4VZ8Q, 0125QVNCFQ, 0BJBYCGMWE, 02YFME3RGW, 0912EEEVCT, 059THXBRBB, 05Q1B7MH0M, 03Q7RE2HXR, 0TWTS88TWN, 0TYMASG33Y, 0KJVQV3E0F]
 sources:
   - url: https://en.wikipedia.org/wiki/Characteristic_polynomial
     locator: Motivation
@@ -12,6 +15,7 @@ sources:
 
 ## Proof
 
+Part 1.
 We show that both conditions say that the map $\lambda \id_V - T$ is not injective.
 
 1. Let $n = \dim V$. The [[characteristic polynomial of $T$|0BZ81AJNWF]] needs $n \ge 1$, so let $n \ge 1$. Fix a basis $B = (b_1, \dots, b_n)$ of $V$.
@@ -33,6 +37,22 @@ We show that both conditions say that the map $\lambda \id_V - T$ is not injecti
 17. By steps 8, 12 and 16, $\lambda$ is an eigenvalue of $T$ if and only if $\det M = 0$.
 18. By step 6, this holds if and only if $p_T(\lambda) = 0$.
 
+Part 2.
+
+19. By the definition of the [[characteristic polynomial|039HF58KQ5]], $p_T = p_A$ is monic of degree $n$. In particular $p_T \ne 0$.
+20. A nonzero polynomial over a field has at most as many roots as its degree, by the [[root bound|0KJVQV3E0F]]. So $p_T$ has at most $n$ roots in $F$.
+21. By part 1, the eigenvalues of $T$ are exactly the roots of $p_T$ in $F$. So $T$ has at most $n$ eigenvalues.
+
+The matrix form follows by applying parts 1 and 2 to the map $x \mapsto Ax$, whose matrix in the standard basis is $A$.
+
 ## Idea
 
-The scalar $\lambda$ is an eigenvalue exactly when $\lambda \id_V - T$ kills a nonzero vector. In finite dimensions this happens exactly when the matrix $\lambda I - A$ is not invertible, that is, when its determinant is $0$. That determinant is the characteristic polynomial evaluated at $\lambda$.
+The scalar $\lambda$ is an eigenvalue exactly when $\lambda \id_V - T$ kills a nonzero vector.
+In finite dimensions this happens exactly when the matrix $\lambda I - A$ is not invertible, that is, when its determinant is $0$.
+That determinant is the characteristic polynomial evaluated at $\lambda$.
+The bound on the number of eigenvalues then comes from the bound on the number of roots of a polynomial.
+
+## Variants
+
+- Part 2 has a proof without determinants: eigenvectors for distinct eigenvalues are [[linearly independent|0HNMFG8F8K]], and an independent list in $V$ has at most $n$ vectors.
+- For a matrix, step 6 is often skipped in textbooks, but it needs the fact that evaluation at $\lambda$ is a ring homomorphism $F[t] \to F$.

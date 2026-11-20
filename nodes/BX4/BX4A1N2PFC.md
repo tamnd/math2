@@ -1,0 +1,44 @@
+---
+tag: BX4A1N2PFC
+kind: example
+name: Counting diagonal entries gives the algebraic multiplicity
+msc: ["15A18"]
+topics: [6R1D6QPY3S]
+audience: ug1
+not_instance_of:
+  - target: 099TWVJ909
+    note: The number of times 1 appears on the diagonal of the shear is 2, which is its algebraic multiplicity, while its geometric multiplicity is 1
+uses: [06YSJVR356, 0S7A0EMPF4, 0W4FSW1TVB]
+sources:
+  - url: https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors
+    locator: Eigenspaces, geometric multiplicities, and eigenbasis for a matrix
+---
+
+## Example
+
+Let $A = \begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$, the [[shear|HTAWRAC3QE]].
+
+1. The entry $1$ appears twice on the diagonal of the triangular matrix $A$. So $p_A(t) = (t - 1)^2$, and the [[algebraic multiplicity|0S7A0EMPF4]] of $1$ is $2$.
+2. $A - I = \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}$ has rank $1$.
+3. By the [[rank-nullity theorem|0W4FSW1TVB]], $\dim \ker(A - I) = 2 - 1 = 1$. So the [[geometric multiplicity|06YSJVR356]] of $1$ is $1$.
+4. Check: $A(1, 0) = (1, 0)$, and $A(0, 1) = (1, 1) \ne (0, 1)$.
+5. So the count $2$ of diagonal entries is not the geometric multiplicity.
+
+## Remarks
+
+- For a triangular matrix, counting diagonal entries gives the algebraic multiplicity.
+- The geometric multiplicity is $n - \operatorname{rank}(A - \lambda I)$, and it can be smaller.
+- For a diagonal matrix, the two counts agree.
+
+## Explanations
+
+### L1 human
+
+The diagonal of the shear shows the eigenvalue $1$ twice.
+But the shear has only one line of eigenvectors.
+So the diagonal count gives the algebraic, not the geometric, multiplicity.
+
+### L2 human
+
+The typical lesson is to compute the geometric multiplicity from the rank of $A - \lambda I$.
+A trap is to assume that a triangular matrix is diagonalisable because its eigenvalues are visible.
