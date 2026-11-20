@@ -5,7 +5,7 @@ name: The orthogonal projection onto the line spanned by (1, 1)
 msc: ["15A99"]
 topics: [Y1ESNQ2V52, QHKTJ89V6S]
 audience: ug1
-instance_of: [0KCE8CG86P, 033DA1WE8Y]
+instance_of: [0KCE8CG86P, 033DA1WE8Y, 0B8KZRT28M]
 uses: [0K7TD9BV2D, 0RH4E3CAV9, 076JGP6R3T, 0N28QN4CYA]
 sources:
   - url: https://en.wikipedia.org/wiki/Idempotent_matrix
