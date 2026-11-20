@@ -1,0 +1,102 @@
+---
+tag: HC5V2QFFWB
+kind: statement
+role: theorem
+name: Jónsson-Tarski representation theorem
+aliases: [jonsson-tarski-representation-theorem, jonsson-tarski-theorem]
+msc: ["03G05", "06E25", "03B45"]
+topics: [QYA4H5Y7VR]
+audience: research
+about: [3H85NSFWHK]
+uses: [JCP47TNBSD, S4QJ395PA5, CQM84EW10G, 3MKZST79MK]
+proofs: [21WFAJWMHX]
+sources:
+  - url: https://en.wikipedia.org/wiki/General_frame
+    locator: Operations and morphisms on general frames
+  - url: https://en.wikipedia.org/wiki/Modal_algebra
+    locator: lead section
+  - book: isbn:9780521527149
+    locator: Chapter 5
+---
+
+## Statement
+
+Let $(A, \Diamond)$ be a [[modal algebra|JCP47TNBSD]] in diamond form: $\Diamond 0 = 0$ and $\Diamond(x \lor y) = \Diamond x \lor \Diamond y$.
+Write $\Box x = \neg \Diamond \neg x$.
+Let $\mathrm{Uf}\,A$ be the set of [[ultrafilters|CQM84EW10G]] of $A$.
+Define a relation $R$ on $\mathrm{Uf}\,A$ by $u R v$ iff $\Diamond b \in u$ for every $b \in v$.
+The *ultrafilter frame* of $A$ is $A_+ = (\mathrm{Uf}\,A, R)$, and its complex algebra is $(A_+)^+ = (\mathcal{P}(\mathrm{Uf}\,A), \langle R \rangle)$, with $\langle R \rangle X = \set{u : u R v \text{ for some } v \in X}$.
+
+**Theorem.**
+
+1. $u R v$ iff $\set{b : \Box b \in u} \subseteq v$.
+2. The map $h(a) = \set{u \in \mathrm{Uf}\,A : a \in u}$ is an injective homomorphism of modal algebras from $(A, \Diamond)$ into $(A_+)^+$.
+3. So every modal algebra is isomorphic to a subalgebra of the complex algebra of a Kripke frame.
+
+The theorem holds in the same form for Boolean algebras with operators of any arity; this general case is cited below.
+
+## Remarks
+
+### Why each hypothesis is needed
+
+1. Normality $\Diamond 0 = 0$ is needed: in a complex algebra, $\langle R \rangle \emptyset = \emptyset$.
+   So the map $\Diamond x = 1$ of [[this non-example|RXWW8J8RGJ]] has no such embedding.
+2. Additivity $\Diamond(x \lor y) = \Diamond x \lor \Diamond y$ is needed, because $\langle R \rangle$ preserves unions.
+3. The proof needs the [[ultrafilter lemma|3MKZST79MK]], as in [[Stone's representation theorem|S4QJ395PA5]]; for finite $A$ it is not needed.
+
+### Consequences
+
+1. If $A$ is finite, $h$ is an isomorphism: each subset of $\mathrm{Uf}\,A$ is $h(a)$ for $a$ the join of the corresponding atoms.
+   So every finite modal algebra is the complex algebra of a finite frame.
+2. The complex algebra $(A_+)^+$ is the *canonical extension* $A^\sigma$ of $A$.
+   An equation is *canonical* if it is preserved from $A$ to $A^\sigma$.
+3. [[Sahlqvist's theorem|S4SSDMETJM]] gives canonicity of Sahlqvist formulas.
+   So a normal logic axiomatized by Sahlqvist formulas is complete for a class of Kripke frames, since its canonical frame validates it.
+4. With the image $h(A)$ as the admissible sets, $A_+$ becomes a descriptive [[general frame|GGG7BB78JB]].
+   This gives a dual equivalence between modal algebras and descriptive frames, called Jónsson-Tarski duality.
+5. For the Lindenbaum-Tarski algebra of a normal logic, $A_+$ is the canonical frame, and $h$ is the truth set map of the [[canonical model|TVE4F04KME]].
+
+### Converse
+
+The image of $h$ is in general a proper subalgebra: $(A_+)^+$ is complete and atomic, and $A$ need not be.
+For example, if $A$ is the countable atomless Boolean algebra with $\Diamond = \mathrm{id}$, then $A$ has no atoms, while $(A_+)^+$ has one atom for each ultrafilter.
+
+### Generalizations
+
+1. Let $f$ be a normal operator of arity $n$ on a Boolean algebra $A$.
+   Define $R_f(u, v_1, \dots, v_n)$ iff $f(b_1, \dots, b_n) \in u$ for all $b_i \in v_i$.
+   Then $h$ embeds $(A, f)$ into $\mathcal{P}(\mathrm{Uf}\,A)$ with the operator induced by $R_f$; see Blackburn, de Rijke and Venema, Chapter 5.
+2. For distributive lattices with operators and for Heyting algebras, the same method uses prime filters in place of ultrafilters; for Heyting algebras this gives [[Esakia duality|CD9Y7YP4EJ]].
+
+## History
+
+Jónsson and Tarski proved the theorem for Boolean algebras with operators of any arity in "Boolean algebras with operators, Part I" (American Journal of Mathematics, 1951).
+They did not connect it with modal logic; that connection came later, with the duality between modal algebras and descriptive frames.
+
+## Explanations
+
+### L1 human
+
+A modal algebra is an abstract system of statements with a "possibly" operation.
+The theorem says that we can always realize it by possible worlds.
+The worlds are the complete consistent descriptions, the ultrafilters.
+One world "sees" another if everything true in the second world is possible in the first.
+Each statement becomes the set of worlds where it is true, and "possibly" becomes "true in some world that we see".
+
+### L2 human
+
+1. Take the complex algebra $A$ of the frame $W = \set{0, 1}$, $R = \set{(0, 1)}$; it has four elements.
+2. Its ultrafilters are $u_0 = \set{x : 0 \in x}$ and $u_1 = \set{x : 1 \in x}$.
+3. $u_0 R' u_1$: each $b \ni 1$ has $\Diamond b \ni 0$, since $0 R 1$; so $\Diamond b \in u_0$.
+4. $u_1$ sees nothing, because $\Diamond W = \set{0}$ does not contain $1$.
+5. So the ultrafilter frame is isomorphic to $(W, R)$, and $h$ is an isomorphism, as consequence 1 says.
+
+The typical use: the theorem turns algebraic completeness into Kripke completeness for logics whose axioms survive in $(A_+)^+$.
+The trap: $(A_+)^+$ can validate fewer equations than $A$, so the embedding does not give Kripke completeness for every logic.
+
+### L3 human
+
+The theorem is Stone's representation theorem with an operator added, and the ultrafilter frame is the Stone space with a relation.
+Category theory reads it as half of a duality: $A \mapsto A_+$ with the Stone topology is a dual equivalence between modal algebras and descriptive frames.
+The canonical extension $A^\sigma$ can be described without points, as the unique dense and compact completion; this gives canonical extensions of lattices with operators in general.
+Canonicity is the algebraic core of [[Sahlqvist's theorem|S4SSDMETJM]] and of many completeness proofs in modal logic.

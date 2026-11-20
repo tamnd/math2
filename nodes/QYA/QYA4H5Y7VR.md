@@ -17,28 +17,28 @@ It covers the algebraic semantics of logics: Lindenbaum-Tarski algebras, Boolean
 
 1. [[Algebraic logic|Z3DE4R4RET]]: the program of replacing a logic by a class of algebras, and what it buys.
 2. [[Lindenbaum–Tarski algebra|QC9M3Q8B8Q]]: formulas up to provable equivalence, the first bridge between proofs and algebra.
-3. [[Boolean algebras in logic|~c23b1581]]: classical propositional logic as the equational theory of Boolean algebras.
+3. [[Boolean algebras in logic|KG7730QZMQ]]: classical propositional logic as the equational theory of Boolean algebras.
 4. [[Interior algebra|BDEX7HET71]]: a Boolean algebra with an interior operator, the algebraic face of S4.
-5. [[Modal algebra|~1058f5d7]]: Boolean algebras with a normal box, the algebras of normal modal logics.
-6. [[Jónsson-Tarski representation theorem|~b331e15e]]: every modal algebra embeds in the complex algebra of a frame.
+5. [[Modal algebra|3H85NSFWHK]]: Boolean algebras with a normal box, the algebras of normal modal logics.
+6. [[Jónsson-Tarski representation theorem|HC5V2QFFWB]]: every modal algebra embeds in the complex algebra of a frame.
 7. [[MV-algebra|8T4M7RN9AC]]: the algebras of infinite-valued Łukasiewicz logic.
-8. [[Mundici's equivalence|~41795275]]: MV-algebras and lattice-ordered abelian groups with a strong unit.
-9. [[BL-algebra|~d07e9350]]: the algebras of Hájek's basic fuzzy logic, which contain the MV-algebras.
+8. [[Mundici's equivalence|64NDFWQEZ2]]: MV-algebras and lattice-ordered abelian groups with a strong unit.
+9. [[BL-algebra|ERNYMVEGKC]]: the algebras of Hájek's basic fuzzy logic, which contain the MV-algebras.
 10. [[Residuated lattice|E337A6WVH3]]: the common frame for substructural logics and their algebras.
 11. [[Residuated Boolean algebra|KCG48CWY69]]: a Boolean algebra with a residuated monoid operation.
 12. [[Post algebra|RD2A5Z7E2B]]: the algebras of Post's $n$-valued logic, which are Boolean powers of a finite chain.
-13. [[Łukasiewicz-Moisil algebra|~4569fbbc]]: De Morgan algebras with the Moisil operators, which read off the levels of a truth value.
-14. [[Nelson algebra|~edb454f5]]: the algebras of constructive logic with strong negation.
+13. [[Łukasiewicz-Moisil algebra|51A2GMPDYK]]: De Morgan algebras with the Moisil operators, which read off the levels of a truth value.
+14. [[Nelson algebra|XRGDT262HQ]]: the algebras of constructive logic with strong negation.
 15. [[Cylindric algebra|1MDT9BF81H]]: the algebras of first-order logic with cylindrifications and diagonals.
-16. [[Representation theorems for cylindric algebras|~c002d063]]: which cylindric algebras are algebras of sets, and which are not.
-17. [[Polyadic algebra|~8ae1836e]]: Halmos's alternative algebraization of quantifiers by substitutions.
+16. [[Representation theorems for cylindric algebras|WZ1BZYVD5G]]: which cylindric algebras are algebras of sets, and which are not.
+17. [[Polyadic algebra|CQ9A86S3J4]]: Halmos's alternative algebraization of quantifiers by substitutions.
 18. [[Relation algebra|GQK4DSA11K]]: composition, converse and identity added to a Boolean algebra.
-19. [[Representation theorems for relation algebras|~122d50e8]]: the representable ones form a variety that is not finitely axiomatizable.
-20. [[Relation algebras and three-variable logic|~5e39b628]]: equations of relation algebras as sentences with three variables.
-21. [[Algebraizable logic|~d9ad8170]]: the Blok-Pigozzi definition and the correspondence between theories and congruences.
-22. [[Leibniz hierarchy|~5cf31243]]: the classes of logics sorted by the behavior of the Leibniz operator.
+19. [[Representation theorems for relation algebras|7R95RBEPP8]]: the representable ones form a variety that is not finitely axiomatizable.
+20. [[Relation algebras and three-variable logic|AHWXJ3GT02]]: equations of relation algebras as sentences with three variables.
+21. [[Algebraizable logic|CESWST3NWA]]: the Blok-Pigozzi definition and the correspondence between theories and congruences.
+22. [[Leibniz hierarchy|6JT3CMJT8F]]: the classes of logics sorted by the behavior of the Leibniz operator.
 23. [[Suszko's reduction|2FQB3NQF8A]]: every structural logic is two-valued in a suitable sense.
-24. [[Bridge theorems of algebraic logic|~048e6aae]]: logical properties such as interpolation, Beth definability and the deduction theorem read as algebraic properties.
+24. [[Bridge theorems of algebraic logic|C3DC1C23SQ]]: logical properties such as interpolation, Beth definability and the deduction theorem read as algebraic properties.
 
 ### Prerequisites
 

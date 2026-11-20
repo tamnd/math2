@@ -38,15 +38,15 @@ Some texts use the lattice signature with constants $e_i$ and unary operations $
 
 ### Examples
 
-1. [[The chain $\mathbf{P}_3$|~9ff77138]], the generator of $\mathbf{Post}_3$.
-2. [[The square $\mathbf{P}_3^2$|~916a89e3]], with its nine elements as the decreasing pairs of complemented elements.
+1. [[The chain $\mathbf{P}_3$|P7MWSZ837M]], the generator of $\mathbf{Post}_3$.
+2. [[The square $\mathbf{P}_3^2$|8YXQWBZJQW]], with its nine elements as the decreasing pairs of complemented elements.
 3. Every Boolean algebra, as a Post algebra of order $2$ with $x' = \neg x$.
 4. The power $\mathbf{P}_n^X$ for a set $X$, with the pointwise operations.
 5. The continuous maps from a Stone space to the discrete $\mathbf{P}_n$, with the pointwise operations.
 
 ### Non-examples
 
-1. [[The three-element Kleene chain|~ac28b9e8]]: the negation $x' = 2 - x$ fails $x''' = x$.
+1. [[The three-element Kleene chain|G8JCK81ASR]]: the negation $x' = 2 - x$ fails $x''' = x$.
 2. The chain $\mathbf{P}_3$ is not a Post algebra of order $2$: the identity $x'' = x$ fails at $x = 0$, since $0'' = 2$.
 3. The four-element chain with $x' = x + 1 \bmod 4$ is a Post algebra of order $4$ but not of order $3$, since $0''' = 3 \ne 0$.
 

@@ -24,7 +24,7 @@ same_as:
 An MV-algebra is a structure $(A, \oplus, \neg, 0)$ such that $(A, \oplus, 0)$ is a commutative [[monoid|0N6R902FG1]], $\neg \neg x = x$, $x \oplus \neg 0 = \neg 0$, and $\neg(\neg x \oplus y) \oplus y = \neg(\neg y \oplus x) \oplus x$ for all $x, y$; see [[the definition|QVWHWDJ5X1]].
 The model is the unit interval with $x \oplus y = \min(1, x + y)$ and $\neg x = 1 - x$, the standard MV-algebra.
 MV-algebras are the algebras of [[infinite-valued Łukasiewicz logic|JQ713VVD0G]], a [[many-valued logic|DWYCKAKXZD]], as Boolean algebras are the algebras of classical logic.
-They link many-valued logic to ordered groups, through [[Mundici's equivalence|~41795275]].
+They link many-valued logic to ordered groups, through [[Mundici's equivalence|64NDFWQEZ2]].
 
 ## Motivation
 
@@ -45,17 +45,17 @@ Texts differ on the index: some take $\set{0, \tfrac{1}{n}, \dots, 1}$ with $n +
 
 ### Examples
 
-1. The standard MV-algebra $[0, 1]$; [[it satisfies the axioms|~bd015994]].
-2. [[The three-element MV-algebra|~593aaada]] $\set{0, \tfrac12, 1}$, the algebra of three-valued Łukasiewicz logic.
+1. The standard MV-algebra $[0, 1]$; [[it satisfies the axioms|5JHJT1HJ4W]].
+2. [[The three-element MV-algebra|RXFSSJJE6Q]] $\set{0, \tfrac12, 1}$, the algebra of three-valued Łukasiewicz logic.
 3. Every [[Boolean algebra|0XADJKM699]], with $\oplus = \lor$; an MV-algebra is Boolean iff $x \oplus x = x$ for all $x$.
-4. [[Chang's algebra $C$|~28156fb0]]: a chain with an element $\varepsilon > 0$ and $n\varepsilon < \neg \varepsilon$ for every $n$.
-5. $\Gamma(G, u)$ for a unital abelian ℓ-group; for instance [[$\Gamma(\mathbb{Z}, n)$|~71202a4c]], an $(n+1)$-element chain.
+4. [[Chang's algebra $C$|W7AD8Q3PMK]]: a chain with an element $\varepsilon > 0$ and $n\varepsilon < \neg \varepsilon$ for every $n$.
+5. $\Gamma(G, u)$ for a unital abelian ℓ-group; for instance [[$\Gamma(\mathbb{Z}, n)$|SEYHKY2ZQT]], an $(n+1)$-element chain.
 
 ### Non-examples
 
-1. [[The Zadeh algebra on $[0, 1]$|~b5821df8]] with $x \oplus y = \max(x, y)$ and $\neg x = 1 - x$: the last axiom fails at $x = 0.6$, $y = 0.5$.
+1. [[The Zadeh algebra on $[0, 1]$|23SA9NRBNE]] with $x \oplus y = \max(x, y)$ and $\neg x = 1 - x$: the last axiom fails at $x = 0.6$, $y = 0.5$.
 2. The integers with $+$, $-$, $0$: they fail $x \oplus \neg 0 = \neg 0$, since $1 + 0 = 1 \ne 0$.
-3. The three-element [[Heyting chain|~6ca00a91]] with $\lor$ and its pseudocomplement: $\neg \neg \tfrac12 = 1$, so $\neg$ is not involutive.
+3. The three-element [[Heyting chain|YBT5KSQ2GC]] with $\lor$ and its pseudocomplement: $\neg \neg \tfrac12 = 1$, so $\neg$ is not involutive.
 
 ### Basic properties
 
@@ -64,7 +64,7 @@ Texts differ on the index: some take $\set{0, \tfrac{1}{n}, \dots, 1}$ with $n +
 3. An *ideal* is a set $I$ with $0 \in I$, $x \le y \in I \Rightarrow x \in I$, and $x, y \in I \Rightarrow x \oplus y \in I$.
    Ideals correspond one to one to congruences, by $x \equiv_I y$ iff $(x \odot \neg y) \oplus (y \odot \neg x) \in I$; see Cignoli, D'Ottaviano and Mundici.
 4. Every MV-algebra is a [[subdirect product|88WN3AD2VQ]] of MV-chains; see Cignoli, D'Ottaviano and Mundici.
-5. [[Mundici's equivalence|~41795275]]: MV-algebras are the unit intervals $\Gamma(G, u)$ of unital abelian ℓ-groups.
+5. [[Mundici's equivalence|64NDFWQEZ2]]: MV-algebras are the unit intervals $\Gamma(G, u)$ of unital abelian ℓ-groups.
 
 ### History
 
@@ -102,7 +102,7 @@ The trap: $x \odot x$ is in general smaller than $x$; in $[0, 1]$, $0.5 \odot 0.
 ### L3 human
 
 MV-algebras are term equivalent to the bounded commutative BCK-algebras.
-Among [[BL-algebras|~d07e9350]], they are those with $\neg \neg x = x$.
-[[Mundici's equivalence|~41795275]] makes the category of MV-algebras equivalent to the category of unital abelian ℓ-groups, so MV-algebras are a finitary form of ordered groups.
+Among [[BL-algebras|ERNYMVEGKC]], they are those with $\neg \neg x = x$.
+[[Mundici's equivalence|64NDFWQEZ2]] makes the category of MV-algebras equivalent to the category of unital abelian ℓ-groups, so MV-algebras are a finitary form of ordered groups.
 Through ordered groups, countable MV-algebras classify AF C*-algebras with lattice-ordered dimension group, an application in operator algebras; see [[AF C*-algebras|4Y7VENNBVK]].
 In geometry, free MV-algebras are algebras of McNaughton functions, continuous piecewise linear functions with integer coefficients; see [[McNaughton's theorem|E11A9H8Z7Q]].

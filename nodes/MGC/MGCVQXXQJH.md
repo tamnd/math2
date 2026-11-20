@@ -35,7 +35,7 @@ The order is $[\varphi] \le [\psi]$ iff $T \vdash \varphi \to \psi$.
 
 ## Remarks
 
-The operations are well defined, and the result is a [[Boolean algebra|0XADJKM699]]; both facts are proved in [[the Lindenbaum-Tarski theorem|~b1e6292b]].
+The operations are well defined, and the result is a [[Boolean algebra|0XADJKM699]]; both facts are proved in [[the Lindenbaum-Tarski theorem|JVZ8APEV7A]].
 The same construction works for any language with the connectives taken as primitive; the algebras that result are isomorphic.
 
 Example: for $P = \set{p}$ and $T = \emptyset$, every formula is equivalent to one of $\bot$, $p$, $\neg p$, $\top$, and no two of these are equivalent, as their truth tables differ.
@@ -64,4 +64,4 @@ The trap: the relation needs both implications; one implication gives only the o
 
 The definition is the special case for classical logic of the quotient of the formula algebra by the Leibniz congruence of a theory.
 For logics with a good implication, this congruence is "provably equivalent", as here.
-For other logics the Leibniz congruence is the right replacement; see [[the Leibniz hierarchy|~5cf31243]].
+For other logics the Leibniz congruence is the right replacement; see [[the Leibniz hierarchy|6JT3CMJT8F]].

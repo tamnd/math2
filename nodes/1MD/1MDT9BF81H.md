@@ -7,7 +7,7 @@ msc: ["03G15"]
 topics: [QYA4H5Y7VR]
 audience: research
 specializes: [0XADJKM699]
-uses: [RKCSWWVYTC, 0XADJKM699, 086QKPF0A6, QC9M3Q8B8Q, ~1058f5d7]
+uses: [RKCSWWVYTC, 0XADJKM699, 086QKPF0A6, QC9M3Q8B8Q, 3H85NSFWHK]
 sources:
   - url: https://en.wikipedia.org/wiki/Cylindric_algebra
     locator: Definition; Generalizations
@@ -44,15 +44,15 @@ $\mathbf{Cs}_\alpha$ is the class of cylindric set algebras, and $\mathbf{RCA}_\
 
 ### Examples
 
-1. [[The full cylindric set algebra of dimension $2$ on $\set{0, 1}$|~0da34828]], with $16$ elements.
-2. [[The cylindric algebra of a first-order theory|~4b38e814]], which is locally finite of dimension $\omega$.
+1. [[The full cylindric set algebra of dimension $2$ on $\set{0, 1}$|CSKAYE1PA7]], with $16$ elements.
+2. [[The cylindric algebra of a first-order theory|5MH9ZKCEHV]], which is locally finite of dimension $\omega$.
 3. The full cylindric set algebra $\mathcal{P}(U^\alpha)$ for a nonempty set $U$.
 4. Every Boolean algebra, with $c_\kappa x = x$ and $d_{\kappa\lambda} = 1$. It is a subalgebra of a power of the set algebra on a one-element $U$.
-5. For $\alpha = 1$, the cylindric algebras are the monadic algebras: Boolean algebras with one closure operator $c$ whose image is a Boolean subalgebra. They are the [[modal algebras|~1058f5d7]] of S5, with $c$ as $\Diamond$.
+5. For $\alpha = 1$, the cylindric algebras are the monadic algebras: Boolean algebras with one closure operator $c$ whose image is a Boolean subalgebra. They are the [[modal algebras|3H85NSFWHK]] of S5, with $c$ as $\Diamond$.
 
 ### Non-examples
 
-1. [[The power set of the real line with topological closure|~ee08e47b]] fails the axiom $c(x \cdot c y) = c x \cdot c y$.
+1. [[The power set of the real line with topological closure|TCA8AZBXRC]] fails the axiom $c(x \cdot c y) = c x \cdot c y$.
 2. On a Boolean algebra with $0 \ne 1$, the operation $c_\kappa x = 0$ fails $x \le c_\kappa x$ at $x = 1$.
 3. On a Boolean algebra with $0 \ne 1$, the operation $c_\kappa x = 1$ fails $c_\kappa 0 = 0$.
 
@@ -60,7 +60,7 @@ $\mathbf{Cs}_\alpha$ is the class of cylindric set algebras, and $\mathbf{RCA}_\
 
 1. Each $c_\kappa$ is additive, monotone and idempotent, and $c_\kappa(-c_\kappa x) = -c_\kappa x$. So the fixed points of $c_\kappa$ form a Boolean subalgebra.
 2. $\mathbf{CA}_\alpha$ is a variety of Boolean algebras with operators, defined by finitely many equation schemas.
-3. Every algebra in $\mathbf{Lf}_\alpha$ with $\alpha \ge \omega$ is representable; this is the algebraic form of the completeness theorem. See [[this theorem|~c002d063]].
+3. Every algebra in $\mathbf{Lf}_\alpha$ with $\alpha \ge \omega$ is representable; this is the algebraic form of the completeness theorem. See [[this theorem|WZ1BZYVD5G]].
 4. For $\alpha \ge 3$, $\mathbf{RCA}_\alpha$ is a variety and a proper subclass of $\mathbf{CA}_\alpha$. For finite $\alpha \ge 3$, it is not finitely axiomatizable.
 5. The [[Lindenbaum-Tarski algebra|QC9M3Q8B8Q]] of a first-order theory, built on formulas with free variables, is a locally finite cylindric algebra.
 

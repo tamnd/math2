@@ -38,7 +38,7 @@ Non-example: the integers $(\Z, +, -, 0)$ satisfy clauses 1 and 2, but fail clau
 
 Every [[Boolean algebra|0XADJKM699]] is an MV-algebra with $\oplus = \vee$ and $\neg$ the complement.
 An MV-algebra is Boolean iff $x \oplus x = x$ for all $x$.
-The [[standard MV-algebra satisfies these axioms|~bd015994]], and [[MV-algebras|8T4M7RN9AC]] are the algebras of Łukasiewicz logic.
+The [[standard MV-algebra satisfies these axioms|5JHJT1HJ4W]], and [[MV-algebras|8T4M7RN9AC]] are the algebras of Łukasiewicz logic.
 
 ## Explanations
 

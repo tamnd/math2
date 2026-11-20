@@ -1,0 +1,67 @@
+---
+tag: X6RYPK2WHD
+kind: proof
+name: Proof that Γ(G, u) is an MV-algebra and that Γ is a functor
+msc: ["06D35", "06F20"]
+topics: [QYA4H5Y7VR]
+audience: research
+proves: 64NDFWQEZ2
+uses: [QVWHWDJ5X1, G5AN43WE9D, 28NQ0KRHD3]
+methods: [0NTF6DMVAP, S3QADD13E9]
+sources:
+  - url: https://en.wikipedia.org/wiki/MV-algebra
+    locator: Examples of MV-algebras
+  - book: isbn:9780792360094
+---
+
+## Proof
+
+Let $G$ be an abelian [[lattice-ordered group|G5AN43WE9D]], $u \ge 0$, and $x, y, z \in \Gamma(G, u)$.
+We use two ℓ-group rules: (R1) $(a \land b) + c = (a + c) \land (b + c)$, and (R2) $c - (a \land b) = (c - a) \lor (c - b)$.
+(R1) holds because $t \mapsto t + c$ is an order automorphism; (R2) holds because $t \mapsto c - t$ reverses the order.
+
+**Part A: the operations stay in $[0, u]$.**
+
+1. $x + y \ge 0$ and $u \ge 0$, so $u \land (x + y) \ge 0$; also $u \land (x + y) \le u$.
+2. From $0 \le x \le u$, add $u - x$ to get $u - x \le u$, and subtract $x$ to get $0 \le u - x$.
+
+**Part B: $(\Gamma(G, u), \oplus, 0)$ is a commutative monoid.**
+
+3. $x \oplus y = u \land (x + y) = u \land (y + x) = y \oplus x$, since $G$ is abelian.
+4. $x \oplus 0 = u \land x = x$, since $x \le u$.
+5. $(x \oplus y) \oplus z = u \land ((u \land (x + y)) + z) = u \land (u + z) \land (x + y + z)$, by (R1).
+6. $z \ge 0$ gives $u \le u + z$, so $(x \oplus y) \oplus z = u \land (x + y + z)$.
+7. The same expression arises for $x \oplus (y \oplus z)$, by step 3 and step 6; so $\oplus$ is associative.
+
+**Part C: the laws for $\neg$.**
+
+8. $\neg \neg x = u - (u - x) = x$.
+9. $\neg 0 = u$, and $x \oplus u = u \land (x + u) = u$, since $x \ge 0$.
+
+**Part D: the last axiom.**
+
+10. $\neg x \oplus y = u \land (u - x + y)$.
+11. By (R2), $\neg(\neg x \oplus y) = (u - u) \lor (u - u + x - y) = 0 \lor (x - y)$.
+12. Then $\neg(\neg x \oplus y) + y = y \lor x$, by the dual of (R1) for $\lor$.
+13. $x \lor y \le u$, so $\neg(\neg x \oplus y) \oplus y = u \land (x \lor y) = x \lor y$.
+14. Swapping $x$ and $y$ gives $x \lor y$ again, so the last axiom holds.
+15. By steps 3 to 14, $\Gamma(G, u)$ is an [[MV-algebra|QVWHWDJ5X1]].
+
+**Part E: $\Gamma$ is a functor.**
+
+16. Let $h : (G, u) \to (H, v)$ preserve $+$, $\land$, $\lor$, with $h(u) = v$.
+17. $h$ preserves $\land$, so it is monotone; thus $0 = h(0) \le h(x) \le h(u) = v$.
+18. So $h$ maps $\Gamma(G, u)$ into $\Gamma(H, v)$; call the restriction $\Gamma(h)$.
+19. $\Gamma(h)(x \oplus y) = h(u) \land (h(x) + h(y)) = \Gamma(h)(x) \oplus \Gamma(h)(y)$.
+20. $\Gamma(h)(\neg x) = h(u) - h(x) = \neg \Gamma(h)(x)$, and $\Gamma(h)(0) = 0$.
+21. The restriction of an identity map is the identity, and restriction commutes with composition. $\blacksquare$
+
+## Idea
+
+Each MV axiom becomes a lattice-group identity once the cut $u \land {-}$ is moved outside with (R1) and (R2).
+The last axiom computes the join $x \lor y$, which is symmetric.
+
+## Variants
+
+1. For a totally ordered group, $\land$ is $\min$, and the proof becomes the case check of [[the standard MV-algebra theorem|5JHJT1HJ4W]].
+2. Part 3 of the theorem, the equivalence, needs the inverse functor of good sequences; it is proved in Cignoli, D'Ottaviano and Mundici.

@@ -40,14 +40,14 @@ $\mathsf{RA}$ is the class of relation algebras and $\mathsf{RRA}$ the class of 
 
 ### Examples
 
-1. [[The full relation algebra on a set|~1daf4bfe]]; on two points it has $16$ elements.
-2. [[A Boolean algebra with $;$ equal to meet and trivial converse|~391395a2]].
+1. [[The full relation algebra on a set|BQ9EEFPS10]]; on two points it has $16$ elements.
+2. [[A Boolean algebra with $;$ equal to meet and trivial converse|KACAJCSSCR]].
 3. For a group $G$, the power set $\mathcal{P}(G)$ with $X ; Y = \set{gh : g \in X, h \in Y}$, $\breve{X} = \set{g^{-1} : g \in X}$ and $1' = \set{e}$.
 4. The algebra of relations contained in an equivalence relation $E$ on $U$, with top element $E$.
 
 ### Non-examples
 
-1. [[The algebra of formal languages|~36c0fb5a]] is a residuated Boolean algebra, but no unary operation on it satisfies the axioms of converse.
+1. [[The algebra of formal languages|FCA4HXDAHQ]] is a residuated Boolean algebra, but no unary operation on it satisfies the axioms of converse.
 2. The relations on a set with at least two elements, with converse replaced by the identity map, fail $\breve{(x ; y)} = \breve{y} ; \breve{x}$.
 
 ### Basic properties

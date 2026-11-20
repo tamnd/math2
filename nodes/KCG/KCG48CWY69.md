@@ -7,7 +7,7 @@ msc: ["03G15", "06E25", "06F05"]
 topics: [QYA4H5Y7VR]
 audience: research
 specializes: [E337A6WVH3, 0XADJKM699]
-uses: [~fbfe9e5e, E337A6WVH3, 0XADJKM699, 0N6R902FG1, GQK4DSA11K]
+uses: [NX61CKEYY9, E337A6WVH3, 0XADJKM699, 0N6R902FG1, GQK4DSA11K]
 sources:
   - wikipedia: en:12435391@r1352956591
     locator: Residuated Boolean algebra
@@ -25,7 +25,7 @@ inventory: [W4FV457732]
 
 ## Summary
 
-A residuated Boolean algebra is a [[residuated lattice|E337A6WVH3]] whose lattice is a [[Boolean algebra|0XADJKM699]]; see [[the definition|~fbfe9e5e]].
+A residuated Boolean algebra is a [[residuated lattice|E337A6WVH3]] whose lattice is a [[Boolean algebra|0XADJKM699]]; see [[the definition|NX61CKEYY9]].
 So it is a Boolean algebra with a [[monoid|0N6R902FG1]] multiplication $x \cdot y$ and two residuals $x \backslash z$ and $z / y$.
 The Boolean algebras with $\cdot = \land$, the formal languages over an alphabet with concatenation, and the binary relations on a set with composition are examples.
 [[Relation algebras|GQK4DSA11K]] are the residuated Boolean algebras with one more operation, the converse.
@@ -48,17 +48,17 @@ Many texts write RBA for a residuated Boolean algebra.
 
 ### Examples
 
-1. [[A Boolean algebra with multiplication $\land$|~0eedd6e6]]: the unit is $1$, and both residuals are $x \to z = \neg x \lor z$.
-2. [[The formal languages over an alphabet|~92bb6b9d]]: the multiplication is concatenation, and the unit is $\set{\varepsilon}$.
-3. [[The full relation algebra on a set|~1daf4bfe]]: the multiplication is composition, and the unit is the identity relation.
+1. [[A Boolean algebra with multiplication $\land$|FE906GQNPN]]: the unit is $1$, and both residuals are $x \to z = \neg x \lor z$.
+2. [[The formal languages over an alphabet|TB04CWS3R1]]: the multiplication is concatenation, and the unit is $\set{\varepsilon}$.
+3. [[The full relation algebra on a set|BQ9EEFPS10]]: the multiplication is composition, and the unit is the identity relation.
 4. The power set of a monoid $M$, with $X Y = \set{x y : x \in X, y \in Y}$ and unit $\set{1}$. Languages are the case of a [[free monoid|CV013KHVJG]].
 5. Every relation algebra, with $x \backslash z = \neg(x^{\smile} ; \neg z)$ and $z / y = \neg(\neg z ; y^{\smile})$.
 
 ### Non-examples
 
-1. [[A Boolean algebra with multiplication $\lor$|~9f52e2ba]]: the unit is $0$, and $1 \backslash 0$ does not exist.
+1. [[A Boolean algebra with multiplication $\lor$|ZMEQVXEZH8]]: the unit is $0$, and $1 \backslash 0$ does not exist.
 2. A Heyting algebra that is not Boolean, such as the three-element chain, is a residuated lattice, but its lattice has no complements.
-3. [[The ideals of the integers|~7fd8cf5a]] form a residuated lattice, but the ideals $2\mathbb{Z}$ and $3\mathbb{Z}$ have no complements.
+3. [[The ideals of the integers|FQVX0VN1AW]] form a residuated lattice, but the ideals $2\mathbb{Z}$ and $3\mathbb{Z}$ have no complements.
 
 ### Basic properties
 
@@ -76,7 +76,7 @@ The examples of languages and of power sets of monoids were known earlier from t
 
 ### Common errors
 
-1. Expecting every residuated Boolean algebra to be a relation algebra. The algebra of languages has no converse with the required laws; see [[this example|~36c0fb5a]].
+1. Expecting every residuated Boolean algebra to be a relation algebra. The algebra of languages has no converse with the required laws; see [[this example|FCA4HXDAHQ]].
 2. Assuming that the multiplication is commutative. Concatenation and composition are not commutative.
 3. Confusing the conjugates with the residuals. The residuals are monotone in $z$; the conjugates are their Boolean duals.
 
@@ -105,4 +105,4 @@ The trap: the residuals are not complements; $x \backslash z$ grows with $z$ and
 A residuated Boolean algebra is a Boolean algebra with a binary operator whose conjugates exist, so the duality theory of Boolean algebras with operators applies.
 Its dual is a Stone space with a ternary relation, and the complex algebras of ternary frames are complete examples.
 In relevance logic, the same ternary frames give the Routley-Meyer semantics, and the residuals are the implications.
-The [[Jónsson-Tsinakis characterization|~fbfe9e5e]] makes relation algebras a subvariety of an expansion of this class.
+The [[Jónsson-Tsinakis characterization|NX61CKEYY9]] makes relation algebras a subvariety of an expansion of this class.

@@ -38,11 +38,11 @@ Let $;$ be the [[composition|0PYSR20HGF]] $R ; S = \set{(a, c) : (a, b) \in R \t
 Let $\breve{R}$ be the [[converse|054K3HNN5Z]] relation and $1'$ the identity relation.
 Check of clause 6: if $(a, c) \in \breve{R} ; -(R ; S)$, there is $b$ with $(b, a) \in R$ and $(b, c) \notin R ; S$.
 If $(a, c)$ were in $S$, then $(b, c) \in R ; S$; so $(a, c) \notin S$.
-See [[the full relation algebra on two points|~1daf4bfe]].
+See [[the full relation algebra on two points|BQ9EEFPS10]].
 2. On the relations of a set $U$ with at least two elements, keep the Boolean operations, $;$ and $1'$, but take $\breve{R} = R$.
 Clause 5 then says $R ; S = S ; R$ for all relations, which fails for $U = \set{a, b}$, $R = \set{(a, b)}$ and $S = \set{(b, b)}$, since $R ; S = \set{(a, b)}$ and $S ; R = \emptyset$.
-3. Clause 5 holds with $\breve{x} = x$ when $;$ is commutative; [[Boolean algebras with $;$ equal to meet|~391395a2]] are relation algebras of this kind.
-4. [[Formal languages|~36c0fb5a]] with concatenation satisfy clauses 1 to 3, but no unary operation on them satisfies clauses 4 and 6.
+3. Clause 5 holds with $\breve{x} = x$ when $;$ is commutative; [[Boolean algebras with $;$ equal to meet|KACAJCSSCR]] are relation algebras of this kind.
+4. [[Formal languages|FCA4HXDAHQ]] with concatenation satisfy clauses 1 to 3, but no unary operation on them satisfies clauses 4 and 6.
 5. Right distributivity $z ; (x \vee y) = z ; x \vee z ; y$ is not listed; it follows from clauses 3, 4 and 5 by taking converses.
 
 ## Explanations

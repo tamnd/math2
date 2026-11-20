@@ -39,9 +39,9 @@ The term $c_\kappa(d_{\kappa\lambda} \cdot x)$ is the substitution of $v_\lambda
 
 1. Example: let $U$ be a nonempty set and let $A$ be the set of all subsets of $U^\alpha$, with the set operations. Put $c_\kappa X = \set{y \in U^\alpha : y \text{ agrees with some } x \in X \text{ outside the coordinate } \kappa}$ and $d_{\kappa\lambda} = \set{x \in U^\alpha : x_\kappa = x_\lambda}$.
 2. For clause 7 in that example, a point $y$ in both sets would agree outside $\kappa$ with some $x \in X$ and some $x' \notin X$, both with $\kappa$-th coordinate equal to $y_\lambda$; then $x = x'$, a contradiction. The other clauses are checked in the same way, and $A$ is a cylindric set algebra.
-3. Example: [[the full set algebra of dimension $2$ on $\set{0, 1}$|~0da34828]], and [[the algebra of a first-order theory|~4b38e814]].
+3. Example: [[the full set algebra of dimension $2$ on $\set{0, 1}$|CSKAYE1PA7]], and [[the algebra of a first-order theory|5MH9ZKCEHV]].
 4. Non-example: on a Boolean algebra with $0 \ne 1$, taking $c_\kappa x = 0$ for all $x$ fails clause 2 at $x = 1$.
-5. Non-example: [[topological closure on the subsets of the line|~ee08e47b]] satisfies clauses 1 and 2, but fails clause 3.
+5. Non-example: [[topological closure on the subsets of the line|TCA8AZBXRC]] satisfies clauses 1 and 2, but fails clause 3.
 6. A cylindric algebra is called representable if it is isomorphic to a subdirect product of cylindric set algebras. For dimension at least $3$, not every cylindric algebra is representable.
 7. Clauses 1 to 3 say that each $c_\kappa$ is a quantifier in the sense of Halmos.
 

@@ -44,22 +44,22 @@ $B^\circ = \set{x : Ix = x}$ is the set of open elements, and $\set{x : Cx = x}$
 ### Examples
 
 1. The power set of a topological space $X$ with the topological interior; for $\mathbb{R}$ see [[this example|WZF6Y41AEV]].
-2. [[The Sierpiński space|~374e04d3]]: three open sets, and the open elements form a three-element chain.
-3. [[Up-sets of a finite preorder|~faaa65ad]]: $I(x)$ is the largest up-set inside $x$; this is the [[Alexandrov topology|ATP1JK3V27]].
+2. [[The Sierpiński space|XHWTMP0JBT]]: three open sets, and the open elements form a three-element chain.
+3. [[Up-sets of a finite preorder|8GP4VQYFHJ]]: $I(x)$ is the largest up-set inside $x$; this is the [[Alexandrov topology|ATP1JK3V27]].
 4. Any Boolean algebra with $I = \mathrm{id}$: every element is open, and $B^\circ = B$.
 
 ### Non-examples
 
-1. [[A reflexive relation that is not transitive|~47b1a5e5]]: its box operator fails $IIx = Ix$.
+1. [[A reflexive relation that is not transitive|5G6MKZQ453]]: its box operator fails $IIx = Ix$.
 2. On a Boolean algebra with $0 \ne 1$, the map $Ix = 0$ fails $I1 = 1$.
 3. The complement map $Ix = \neg x$ fails $Ix \le x$ at $x = 0$, since $\neg 0 = 1$.
 
 ### Basic properties
 
 1. $I$ is monotone, and $I0 = 0$.
-2. [[The open elements form a Heyting algebra|~960c7881]], with $x \Rightarrow y = I(\neg x \lor y)$; the closed elements form a [[co-Heyting algebra|6G03V0BVZT]].
-3. An interior algebra is the same as a modal algebra that validates the S4 axioms; see [[modal algebra|~1058f5d7]].
-4. Each finite interior algebra is isomorphic to the power set of a finite preorder, with $I x$ the largest up-set inside $x$. This follows from the [[Jónsson-Tarski theorem|~b331e15e]], since $Ix \le x$ and $IIx = Ix$ make the relation reflexive and transitive.
+2. [[The open elements form a Heyting algebra|KCDVRED7B2]], with $x \Rightarrow y = I(\neg x \lor y)$; the closed elements form a [[co-Heyting algebra|6G03V0BVZT]].
+3. An interior algebra is the same as a modal algebra that validates the S4 axioms; see [[modal algebra|3H85NSFWHK]].
+4. Each finite interior algebra is isomorphic to the power set of a finite preorder, with $I x$ the largest up-set inside $x$. This follows from the [[Jónsson-Tarski theorem|HC5V2QFFWB]], since $Ix \le x$ and $IIx = Ix$ make the relation reflexive and transitive.
 5. The [[Blok-Esakia theorem|BB9TA5Q9PN]] and the [[Gödel-McKinsey-Tarski translation|BXVNEN55MR]] relate S4 and its extensions to intuitionistic logic and its extensions.
 
 ### History

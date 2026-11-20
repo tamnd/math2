@@ -1,0 +1,53 @@
+---
+tag: WCWENEJ5GG
+kind: example
+name: The two modal algebras on the two-element Boolean algebra
+msc: ["03G05", "03B45"]
+topics: [QYA4H5Y7VR]
+audience: research
+instance_of: [3H85NSFWHK]
+uses: [JCP47TNBSD, 0WG43AC0EV, NGHWZ9Y7ZV]
+sources:
+  - url: https://en.wikipedia.org/wiki/Modal_algebra
+    locator: lead section
+  - book: isbn:9780521527149
+    locator: Chapter 5
+---
+
+## Example
+
+Let $\mathbf{2} = \set{0, 1}$ be the [[two-element Boolean algebra|0WG43AC0EV]].
+A modal operator on $\mathbf{2}$ must have $\Box 1 = 1$, so only $\Box 0$ is free.
+
+1. $\Box 0 = 0$: then $\Box$ is the identity map.
+   It is the complex algebra of one reflexive point.
+   It validates $\Box p \leftrightarrow p$, the axiom of the logic often called Triv.
+2. $\Box 0 = 1$: then $\Box$ is the constant map $1$.
+   It is the complex algebra of one point with no successor.
+   It validates $\Box \bot$, the axiom of the logic often called Ver.
+
+Both maps preserve $\land$: for the identity both sides equal $x \land y$, and for the constant map both sides are $1$.
+
+## Remarks
+
+1. These are the only modal algebras on $\mathbf{2}$.
+2. Every consistent normal modal logic is contained in the logic of one of them; this is Makinson's theorem, which we do not prove here.
+3. The second algebra shows that $\Box x \le x$ is not a consequence of the axioms: $\Box 0 = 1 \not\le 0$.
+
+## Explanations
+
+### L1 human
+
+With only "true" and "false", "necessarily true" must stay true.
+So we only choose what "necessarily false" means.
+If it is false, necessity changes nothing.
+If it is true, everything is necessary, even falsehood.
+
+### L2 human
+
+1. In the second algebra, compute $\Diamond 1 = \neg \Box \neg 1 = \neg \Box 0 = \neg 1 = 0$.
+2. So $\Diamond \top$ is false: there is no possible world.
+3. In the first algebra, $\Diamond x = x$ for both values of $x$.
+
+The typical use: these two algebras give quick countermodels in modal logic.
+The trap: a modal algebra need not satisfy $\Box x \le x$; that is the extra axiom T.

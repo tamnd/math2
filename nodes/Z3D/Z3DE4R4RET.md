@@ -25,7 +25,7 @@ same_as:
 *Algebraic logic* is the study of a logic $\mathcal{L}$ through a class $\mathsf{K}$ of algebras of the same signature as the formulas of $\mathcal{L}$.
 The link is a translation: a formula $\varphi$ is a theorem of $\mathcal{L}$ iff the equation $\varphi \approx 1$ (or a set of equations built from $\varphi$) holds in every algebra of $\mathsf{K}$.
 The class $\mathsf{K}$ is often a [[variety|AJNZJD8442]], and it is found as the class of quotients of the formula algebra by provable equivalence, as in the [[Lindenbaum-Tarski algebra|QC9M3Q8B8Q]].
-The field has a propositional branch (Boolean, Heyting, modal, MV and residuated algebras), a first-order branch (cylindric, polyadic and relation algebras) and an abstract branch ([[algebraizable logics|~d9ad8170]] and the [[Leibniz hierarchy|~5cf31243]]).
+The field has a propositional branch (Boolean, Heyting, modal, MV and residuated algebras), a first-order branch (cylindric, polyadic and relation algebras) and an abstract branch ([[algebraizable logics|CESWST3NWA]] and the [[Leibniz hierarchy|6JT3CMJT8F]]).
 It matters because it turns questions on proofs into questions on equations, where the tools of universal algebra apply.
 
 ## Motivation
@@ -46,24 +46,24 @@ Many authors write $\mathrm{Alg}(\mathcal{L})$ or $\mathbf{Alg}\,\mathcal{L}$ fo
 
 ### Examples
 
-1. Classical propositional logic and Boolean algebras: a formula is a theorem iff it takes the value $1$ in every Boolean algebra; see [[the algebraic completeness theorem|~ca5a7c20]].
+1. Classical propositional logic and Boolean algebras: a formula is a theorem iff it takes the value $1$ in every Boolean algebra; see [[the algebraic completeness theorem|J2GTJ8FKF2]].
 2. [[Intuitionistic logic|Q11N8X99FK]] and [[Heyting algebras|NG943XNQWH]]: a formula is a theorem iff it is valid in every Heyting algebra, by [[Heyting algebra semantics|JM1XJXWZYH]].
-3. Normal [[modal logics|C3RZY20ETK]] and [[modal algebras|~1058f5d7]]: each normal modal logic is the set of formulas valid in a variety of modal algebras, by [[the algebraic completeness of normal modal logics|~b53b6d4a]].
+3. Normal [[modal logics|C3RZY20ETK]] and [[modal algebras|3H85NSFWHK]]: each normal modal logic is the set of formulas valid in a variety of modal algebras, by [[the algebraic completeness of normal modal logics|Z0S91AK9WG]].
 4. [[Infinite-valued Łukasiewicz logic|NFCEM44XYH]] and [[MV-algebras|8T4M7RN9AC]]: [[Chang's completeness theorem|QM0F33QE9P]] shows that the standard MV-algebra $[0, 1]$ generates the variety of all MV-algebras.
-5. [[First-order logic|086QKPF0A6]] with equality and [[cylindric algebras|1MDT9BF81H]]: formulas modulo equivalence in a theory form a locally finite cylindric algebra; see [[this example|~4b38e814]].
+5. [[First-order logic|086QKPF0A6]] with equality and [[cylindric algebras|1MDT9BF81H]]: formulas modulo equivalence in a theory form a locally finite cylindric algebra; see [[this example|5MH9ZKCEHV]].
 
 ### Non-examples
 
 1. A single truth table is a computation in one algebra, the two-element algebra; it is not a study of a logic through a class of algebras.
-2. The algebra of formulas itself, without the quotient, is not a Boolean algebra, since $p \land q$ and $q \land p$ are different terms; see [[this non-example|~a5ffa607]].
-3. The $\{\land, \lor\}$-fragment of classical logic has a class of algebras (distributive lattices), but it is not [[algebraizable|~d9ad8170]]; see [[this non-example|~731dd680]].
+2. The algebra of formulas itself, without the quotient, is not a Boolean algebra, since $p \land q$ and $q \land p$ are different terms; see [[this non-example|S563QJHDTK]].
+3. The $\{\land, \lor\}$-fragment of classical logic has a class of algebras (distributive lattices), but it is not [[algebraizable|CESWST3NWA]]; see [[this non-example|N1FSY99EQ8]].
 
 ### Basic properties
 
-1. For classical logic the [[Lindenbaum-Tarski algebra|QC9M3Q8B8Q]] of the empty theory is the free Boolean algebra on the variables; see [[this theorem|~b1e6292b]].
-2. For a normal modal logic $\Lambda$, the normal extensions of $\Lambda$ match the subvarieties of its variety of modal algebras, by [[the algebraic completeness theorem|~b53b6d4a]].
-3. For an algebraizable logic, the lattice of its extensions is dually isomorphic to the lattice of subquasivarieties of its equivalent algebraic semantics, and the axiomatic extensions match the relative subvarieties, by [[the correspondence theorem|~59c5f9d4]].
-4. Bridge theorems relate logical and algebraic properties, for example interpolation and amalgamation; see [[the bridge theorems|~048e6aae]].
+1. For classical logic the [[Lindenbaum-Tarski algebra|QC9M3Q8B8Q]] of the empty theory is the free Boolean algebra on the variables; see [[this theorem|JVZ8APEV7A]].
+2. For a normal modal logic $\Lambda$, the normal extensions of $\Lambda$ match the subvarieties of its variety of modal algebras, by [[the algebraic completeness theorem|Z0S91AK9WG]].
+3. For an algebraizable logic, the lattice of its extensions is dually isomorphic to the lattice of subquasivarieties of its equivalent algebraic semantics, and the axiomatic extensions match the relative subvarieties, by [[the correspondence theorem|8ZFJ67HTWR]].
+4. Bridge theorems relate logical and algebraic properties, for example interpolation and amalgamation; see [[the bridge theorems|C3DC1C23SQ]].
 
 ### History
 
@@ -75,7 +75,7 @@ Abstract algebraic logic grew from the work of Rasiowa, Sikorski, Łoś and Susz
 ### Common errors
 
 1. Identifying a logic with one algebra. A logic corresponds to a class of algebras, and one algebra can fail to generate the whole class.
-2. Assuming that every logic has a good algebraic counterpart. The $\{\land, \lor\}$-fragment of classical logic and first-degree entailment are not protoalgebraic; see [[the Leibniz hierarchy|~5cf31243]].
+2. Assuming that every logic has a good algebraic counterpart. The $\{\land, \lor\}$-fragment of classical logic and first-degree entailment are not protoalgebraic; see [[the Leibniz hierarchy|6JT3CMJT8F]].
 3. Confusing the algebra of formulas with the Lindenbaum-Tarski algebra. Only the quotient by provable equivalence satisfies the laws of the algebras of the logic.
 
 ## Explanations
@@ -105,7 +105,7 @@ The trap: one algebra that validates a formula does not show that the formula is
 ### L3 human
 
 Algebraic logic has two levels.
-At the first level one studies a fixed logic and its algebras: Boolean algebras with [[Stone duality|B9T33D5MJK]], Heyting algebras with [[Esakia duality|CD9Y7YP4EJ]], modal algebras with [[the Jónsson-Tarski theorem|~b331e15e]], MV-algebras with [[Mundici's equivalence|~41795275]], cylindric and relation algebras with their representation problems.
+At the first level one studies a fixed logic and its algebras: Boolean algebras with [[Stone duality|B9T33D5MJK]], Heyting algebras with [[Esakia duality|CD9Y7YP4EJ]], modal algebras with [[the Jónsson-Tarski theorem|HC5V2QFFWB]], MV-algebras with [[Mundici's equivalence|64NDFWQEZ2]], cylindric and relation algebras with their representation problems.
 At the second level, abstract algebraic logic studies the process itself: when does a logic have an equivalent algebraic semantics, and what does the Leibniz operator do.
 This second level is to the first what universal algebra is to the theory of groups and rings.
 The results of the second level are the bridge theorems, which turn a metalogical property into an algebraic property for a whole class of logics.
