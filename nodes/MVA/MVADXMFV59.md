@@ -54,7 +54,7 @@ Truth tables use T and F, with the rows in the standard order.
 
 1. [[No inhabitant of the island can say "I am a knave"|5KXKTWPV3P]]: the translation $a \leftrightarrow \neg a$ is false in every row, so this statement never occurs on the island.
 2. An inhabitant who sometimes lies and sometimes tells the truth is not a knight or a knave. Smullyan calls such an inhabitant a normal, and a statement by a normal gives no constraint at all.
-3. The sentence "this sentence is false" is not a statement of an inhabitant. It is the [[liar sentence|DYAB23WA1X]], and it has no speaker whose type could absorb the paradox.
+3. The sentence "this sentence is false" is not a statement of an inhabitant. It is the [[liar sentence|KBYY281V8T]], and it has no speaker whose type could absorb the paradox.
 
 ### Basic properties
 

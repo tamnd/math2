@@ -1,0 +1,110 @@
+---
+tag: GQW8RQVZJ4
+kind: statement
+role: theorem
+name: McGee's theorem
+aliases: [mcgees-theorem, mcgee-omega-inconsistency]
+msc: ["03F25", "03A05"]
+topics: [6Q4JJ2MMV8]
+audience: research
+about: [KE8ZX8KVA3, 4S29X1GTV4]
+uses: [4S29X1GTV4, 3K1AKGXF8A, P3XFQC6ACX, BJF29XET83]
+proofs: [QJJ5J1AJQT]
+sources:
+  - url: https://plato.stanford.edu/entries/truth-axiomatic/
+    locator: "Axiomatic Theories of Truth, 4.3 The Friedman-Sheard theory and revision semantics"
+  - url: https://plato.stanford.edu/entries/liar-paradox/
+    locator: "Liar Paradox, 4.3.4 Quasi-classical compositionality: the closed-off Kripke construction"
+  - book: isbn:9780521115810
+history:
+  first_stated: McGee, 1985
+  notes: The SEP entry on axiomatic truth states that the omega-inconsistency of FS follows from results due to McGee (1985). The three-condition form below is the form proved on the proof page.
+---
+
+## Statement
+
+Let $\mathcal{L}_T$ be the language of arithmetic with a unary predicate $T$, with a fixed [[Gödel numbering|MFJXPAF0R0]].
+For a formula $\chi(x)$ with only $x$ free, $T\ulcorner \chi(\dot y) \urcorner$ abbreviates $\exists u\, (\mathrm{Sb}(\ulcorner \chi \urcorner, y, u) \wedge T(u))$.
+Here $\mathrm{Sb}$ [[represents in Q|BJF29XET83]] the function that sends $(\ulcorner \chi \urcorner, m)$ to the code of $\chi(\underline{m})$.
+Let $S$ be a classical theory in $\mathcal{L}_T$ that contains [[Robinson arithmetic|3K1AKGXF8A]] $\mathsf{Q}$, with the following three properties.
+
+1. *(NEC)* If $S \vdash \varphi$, then $S \vdash T\ulcorner \varphi \urcorner$, for every sentence $\varphi$.
+2. *(D)* $S \vdash T\ulcorner \neg \varphi \urcorner \to \neg T\ulcorner \varphi \urcorner$, for every sentence $\varphi$.
+3. *(U)* $S \vdash \forall y\, T\ulcorner \chi(\dot y) \urcorner \to T\ulcorner \forall x\, \chi(x) \urcorner$, for every formula $\chi(x)$ with only $x$ free.
+
+Then $S$ is [[ω-inconsistent|4S29X1GTV4]].
+There is a formula $\theta(x)$ such that $S \vdash \theta(\underline{n})$ for every $n \in \mathbb{N}$, and $S \vdash \exists x\, \neg \theta(x)$.
+
+*Corollary.* The Friedman-Sheard theory FS is $\omega$-inconsistent, and so it has no model whose numbers are the standard natural numbers.
+
+## Remarks
+
+### Why each hypothesis is needed
+
+1. *Without NEC.* Let $X$ be the set of sentences true in $(\mathcal{N}, \emptyset)$, and let $S$ be the theory of $(\mathcal{N}, X)$.
+2. For each sentence, $\ulcorner \neg \varphi \urcorner \in X$ iff $\ulcorner \varphi \urcorner \notin X$. Also $\ulcorner \forall x\, \chi \urcorner \in X$ iff every $\ulcorner \chi(\underline{n}) \urcorner \in X$. So (D) and (U) hold in $S$.
+3. $S$ is $\omega$-consistent, since its model has the standard numbers. NEC fails: $S \vdash T\ulcorner 0 = 0 \urcorner$, but $T\ulcorner 0 = 0 \urcorner$ is false in $(\mathcal{N}, \emptyset)$.
+4. *Without (D).* The theory $\mathsf{Q} + \forall x\, T(x)$ proves every sentence $T\ulcorner \varphi \urcorner$. So NEC and (U) hold, and $(\mathcal{N}, \mathbb{N})$ is a standard model.
+5. *Without (U).* Call $X \subseteq \mathbb{N}$ *coherent* if it contains no pair $\ulcorner \varphi \urcorner$, $\ulcorner \neg \varphi \urcorner$.
+6. For a set $W$ of sentences, let $\Theta(W)$ be the set of sentences true in every $(\mathcal{N}, X)$ with $X$ coherent and $W \subseteq X$.
+7. $\Theta$ is monotone. Iterate it from $\emptyset$, with unions at limits; the stages increase and reach a fixed point $W^*$.
+8. If $W$ is coherent, the class for $W$ contains $X := W$, so $\Theta(W)$ is the theory of a nonempty class. So $\Theta(W)$ is coherent.
+9. So every stage is coherent, and $S := W^*$ is the theory of a nonempty class of standard models. It is $\omega$-consistent.
+10. (D) holds in each model, since each $X$ is coherent. NEC holds: if $\varphi \in W^*$, then $\ulcorner \varphi \urcorner \in X$ for each $X$ in the class.
+11. So, by the theorem, $W^*$ fails (U) for some $\chi$.
+
+### Consequences
+
+1. FS has the rules NEC and CONEC, the negation axiom and the axiom $T[\forall v\, A(v)] \leftrightarrow \forall x\, T[A(\dot x)]$. So FS satisfies the three hypotheses, and the corollary follows.
+2. The SEP entry notes that the arithmetical theorems of FS are all true. So FS is consistent, and the theorem cannot be strengthened to inconsistency.
+3. No classical theory in $\mathcal{L}_T$ that contains $\mathsf{Q}$, is closed under NEC and has the negation and $\forall$ axioms can have a standard model.
+4. The SEP entry on the liar contrasts FS with $\mathsf{KF}$, which has a [[standard model|Z1HBM98428]] and so is $\omega$-consistent.
+5. The SEP entry describes FS as an axiomatization of the revision semantics for all finite levels. Its strength is that of ramified analysis for all finite levels (Halbach 1994).
+
+### Converse
+
+The converse is false.
+An $\omega$-inconsistent theory need not satisfy the hypotheses.
+For example, $\mathsf{PA} + \neg \mathrm{Con}(\mathsf{PA})$ is consistent and $\omega$-inconsistent, and it has no axiom about $T$, so NEC fails.
+
+### Generalizations
+
+1. The proof does not use induction. So the theorem holds over any base theory that contains $\mathsf{Q}$.
+2. The predicate $T$ need not be read as truth. Any predicate with NEC, (D) and (U) over $\mathsf{Q}$ gives an $\omega$-inconsistent theory.
+
+## History
+
+The SEP entry states that the $\omega$-inconsistency of FS follows from results due to McGee (1985).
+It names FS after Friedman and Sheard (1987).
+It also reports Sheard's result (2001) that FS keeps its strength when one direction of the rule is dropped.
+
+## Explanations
+
+### L1 human
+
+Imagine a theory that says three things about truth.
+Whatever it proves, it also proves true.
+A sentence and its negation are not both true.
+If each instance of a general claim is true, then the general claim is true.
+McGee showed that such a theory makes a strange claim about a property $\theta$ of numbers.
+It proves "some number does not have $\theta$", and it also proves "$0$ has $\theta$", "$1$ has $\theta$", and so on for every number.
+No such theory is true of the ordinary natural numbers.
+
+### L2 human
+
+1. Build $\theta(x)$ with $\theta(0) \leftrightarrow T\ulcorner \neg \forall x\, \theta(x) \urcorner$ and $\theta(n + 1) \leftrightarrow T\ulcorner \theta(\underline{n}) \urcorner$.
+2. If $\forall x\, \theta(x)$, then each $T\ulcorner \theta(\underline{n}) \urcorner$, so $T\ulcorner \forall x\, \theta(x) \urcorner$ by (U).
+3. If $\forall x\, \theta(x)$, then $\theta(0)$, so $T\ulcorner \neg \forall x\, \theta(x) \urcorner$, and $\neg T\ulcorner \forall x\, \theta(x) \urcorner$ by (D).
+4. Steps 2 and 3 contradict each other. So $S \vdash \neg \forall x\, \theta(x)$.
+5. NEC and step 1 give $\theta(0)$. Then NEC and step 1 give $\theta(1)$, $\theta(2)$, and so on.
+
+The typical use is to rule out a combination of truth principles by a test that is stronger than consistency.
+The trap is to read $\omega$-inconsistency as inconsistency: FS is consistent, but it has no standard model.
+
+### L3 human
+
+McGee's theorem is the truth-theoretic form of a pattern that also appears in the [[Yablo paradox|6FJXAN1ND9]].
+There, the T-sentences for an infinite sequence give an $\omega$-inconsistent theory, but no contradiction.
+The SEP entry describes FS as an axiomatization of the finite stages of the [[revision theory|ZQ4TWM7K6E]].
+The [[Kripke-Feferman theory|2F15E76R0Z]] avoids the theorem in a different way: $\mathsf{KF} + \mathsf{Cons}$ proves (D) and (U), but it is not closed under NEC.
+It proves the liar $\lambda$, and it also proves $\neg T\ulcorner \lambda \urcorner$.
