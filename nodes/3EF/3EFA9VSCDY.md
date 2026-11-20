@@ -1,0 +1,40 @@
+---
+tag: 3EFA9VSCDY
+kind: proof
+name: Proof that the quotient space is a vector space
+msc: ["15A03"]
+topics: [QHKTJ89V6S]
+audience: ug1
+proves: YYH67TQ9GV
+methods: [41JZ39GE3F, 0NTF6DMVAP]
+uses: [0SVR29SV1V, 0J0SK5FF4M, 0EPTJA5QV4, 05EGHEQZAW, 02YFME3RGW]
+sources:
+  - url: https://en.wikipedia.org/wiki/Quotient_space_(linear_algebra)
+    locator: Definition
+  - book: isbn:9783031410253
+    locator: Section 3E
+---
+
+## Proof
+
+1. Define $v \sim w$ when $v - w \in U$. It is reflexive, since $v - v = 0 \in U$. It is symmetric, since $w - v = -(v - w) \in U$. It is transitive, since $v - x = (v - w) + (w - x) \in U$. Each step uses that $U$ is a [[subspace|0EPTJA5QV4]].
+2. The class of $v$ is $\{w : w - v \in U\} = \{v + u : u \in U\} = v + U$. So the cosets are the equivalence classes.
+3. Equivalence classes are equal or disjoint, and each vector lies in its own class. Hence $v + U = w + U$ if and only if $v \sim w$, that is, $v - w \in U$. This proves part 1.
+4. Addition. Let $v + U = v' + U$ and $w + U = w' + U$, so $v - v' \in U$ and $w - w' \in U$. Then $(v + w) - (v' + w') = (v - v') + (w - w') \in U$. So $(v + w) + U = (v' + w') + U$.
+5. Scalars. With $v - v' \in U$ and $a \in F$, we get $av - av' = a(v - v') \in U$. So $av + U = av' + U$. This proves part 2.
+6. Each vector space axiom for $V / U$ follows from the same axiom in $V$, applied to representatives. For example, $\big((v + U) + (w + U)\big) + (x + U) = ((v + w) + x) + U = (v + (w + x)) + U = (v + U) + \big((w + U) + (x + U)\big)$.
+7. The zero is $0 + U$, since $(v + U) + (0 + U) = v + U$. The negative of $v + U$ is $(-v) + U$, since their sum is $0 + U$. This proves part 3, so $V / U$ is a [[vector space|05EGHEQZAW]].
+8. By the definition of the operations, $\pi(v + w) = (v + w) + U = \pi(v) + \pi(w)$ and $\pi(av) = av + U = a \pi(v)$. So the [[quotient map|0J0SK5FF4M]] $\pi$ is linear.
+9. Every coset $v + U$ equals $\pi(v)$, so $\pi$ is surjective.
+10. $\pi(v) = 0 + U$ if and only if $v - 0 \in U$, by step 3. So the [[kernel|02YFME3RGW]] of $\pi$ is $U$. This proves part 4.
+
+## Idea
+
+The three closure properties of a subspace are exactly what is needed.
+The zero vector gives reflexivity, and closure under addition gives transitivity and the addition of classes.
+Closure under scalars gives symmetry and the scalar multiplication of classes.
+
+## Variants
+
+- One can define $V / U$ as the set of equivalence classes from the start, without the language of cosets.
+- The same proof works for a submodule of a module over any ring, and for a normal subgroup of a group, where only the group operation is involved.

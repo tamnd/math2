@@ -1,0 +1,72 @@
+---
+tag: EFBRMNWDQM
+kind: statement
+role: proposition
+name: Alternating sum of dimensions in an exact sequence
+msc: ["15A03", "18G35"]
+topics: [QHKTJ89V6S]
+audience: grad
+about: [946YAZNYKX]
+uses: [CBDM280TDF, 05G2G0P224, 018W3V3TCT]
+sources:
+  - url: https://en.wikipedia.org/wiki/Exact_sequence
+    locator: Properties
+  - url: https://en.wikipedia.org/wiki/Euler_characteristic
+    locator: Homological algebra
+---
+
+## Statement
+
+Let $F$ be a field and let
+$$0 \to V_0 \xrightarrow{f_0} V_1 \xrightarrow{f_1} \cdots \xrightarrow{f_{n-1}} V_n \to 0$$
+be an [[exact sequence|CBDM280TDF]] of [[finite-dimensional|018W3V3TCT]] vector spaces over $F$.
+Then
+$$\sum_{i=0}^{n} (-1)^i \dim V_i = 0,$$
+where $\dim$ is the [[dimension|05G2G0P224]].
+
+## Remarks
+
+### Why each hypothesis is needed
+
+- Exactness is needed at every place. The sequence $0 \to \R \to 0$ is not exact at $\R$, and its sum is $1 \ne 0$.
+- The outer zeros are needed. The map $\R \to \R^2$, $t \mapsto (t, 0)$, is a sequence with no inner place, so it is exact at once, but $1 - 2 \ne 0$.
+- Finite dimension is needed for the sum to be defined.
+
+### Consequences
+
+- For $n = 2$, a short exact sequence $0 \to U \to V \to W \to 0$ gives $\dim V = \dim U + \dim W$.
+- For $0 \to \ker T \to V \xrightarrow{T} W \to W / \operatorname{im} T \to 0$, it gives $\dim \ker T - \dim V + \dim W - \dim \operatorname{coker} T = 0$. This is the rank-nullity theorem written with the cokernel.
+- The index $\dim \ker T - \dim \operatorname{coker} T$ of a map between finite-dimensional spaces equals $\dim V - \dim W$, and so it does not depend on $T$.
+
+### Converse
+
+The vanishing of the alternating sum does not imply exactness: the sequence $0 \to \R \xrightarrow{0} \R \to 0$ has alternating sum $0$ but is not exact.
+
+## History
+
+Alternating sums of ranks go back to Euler's formula $V - E + F = 2$ for polyhedra and to Poincaré's work on Betti numbers in the 1890s.
+The algebraic form for exact sequences became standard with homological algebra in the 1950s.
+
+## Explanations
+
+### L1 human
+
+Along an exact sequence, each space is split into what comes in from the left and what goes out to the right.
+Counting dimensions with alternating signs, everything cancels.
+
+### L2 human
+
+For $0 \to \R \to \R^3 \to \R^2 \to 0$, as in [[the example|EEN9A35R25]], the sum is $1 - 3 + 2 = 0$.
+For a longer example, let $T \colon \R^3 \to \R^3$ be the projection onto the $xy$-plane.
+
+1. $\ker T$ is the $z$-axis, of dimension $1$.
+2. $\operatorname{coker} T = \R^3 / \operatorname{im} T$ has dimension $1$.
+3. The exact sequence $0 \to \ker T \to \R^3 \to \R^3 \to \operatorname{coker} T \to 0$ gives $1 - 3 + 3 - 1 = 0$.
+
+The trap is to forget a term at either end of the sequence.
+
+### L3 human
+
+The statement says that the Euler characteristic of an exact complex is $0$.
+More generally, for any bounded complex of finite-dimensional spaces, the alternating sum of dimensions equals the alternating sum of the dimensions of the homology, which is the invariance of the [[Euler characteristic|RNDDWDAFJ5]].
+The [[proof|AQA03KNXD6]] is a telescoping sum based on the [[first isomorphism theorem|0MTBGVZ4XJ]].

@@ -1,0 +1,96 @@
+---
+tag: 946YAZNYKX
+kind: concept
+name: Exact sequence of vector spaces
+msc: ["15A03", "18G35"]
+topics: [QHKTJ89V6S]
+audience: grad
+specializes: [JB7ZBFBA9C]
+uses: [0NRYHJPQG2, 0S23E6YE83, 0WSFKKT6FF, 0BR3FY5Q8M]
+sources:
+  - url: https://en.wikipedia.org/wiki/Exact_sequence
+    locator: Definition
+  - book: isbn:9783031410253
+    locator: Section 3E
+---
+
+## Summary
+
+A sequence of vector spaces and [[linear maps|0NRYHJPQG2]]
+$$V_0 \xrightarrow{f_0} V_1 \xrightarrow{f_1} V_2 \to \cdots \xrightarrow{f_{n-1}} V_n$$
+is *exact* at $V_i$ when the [[image|0WSFKKT6FF]] of the incoming map equals the [[kernel|0S23E6YE83]] of the outgoing map, $\operatorname{im} f_{i-1} = \ker f_i$.
+It is exact when it is exact at each inner space.
+A *short exact sequence* $0 \to U \xrightarrow{f} V \xrightarrow{g} W \to 0$ says that $f$ is injective, $g$ is surjective, and $\operatorname{im} f = \ker g$.
+For vector spaces, every short exact sequence splits, so $V \cong U \oplus W$, and the dimensions in a finite exact sequence have alternating sum $0$.
+
+## Motivation
+
+The statements "$f$ is injective", "$g$ is surjective" and "$\operatorname{im} f = \ker g$" appear together again and again.
+A short exact sequence packages them: it says that $V$ contains a copy of $U$ with [[quotient|0BR3FY5Q8M]] $W$.
+Longer exact sequences connect kernels and cokernels of several maps, and they let us compute one dimension from the others.
+For vector spaces, the theory is simple because every sequence splits.
+It is the model for homological algebra, where exact sequences of modules, groups and sheaves need not split.
+
+## Notation
+
+We write $0 \to U \to V \to W \to 0$ for a short exact sequence, where the outer zeros mean that $f$ is injective and $g$ is surjective.
+The arrows $\hookrightarrow$ and $\twoheadrightarrow$ are also used for injective and surjective maps.
+A short exact sequence *splits* when there is a linear map $s \colon W \to V$ with $g \circ s = \operatorname{id}_W$.
+
+## Remarks
+
+### Examples
+
+- [[A short exact sequence with R³ in the middle|EEN9A35R25]]: $0 \to \R \to \R^3 \to \R^2 \to 0$, with $f(t) = (t, t, t)$ and $g(x, y, z) = (x - y, y - z)$.
+- For a subspace $U$ of $V$, the sequence $0 \to U \to V \to V / U \to 0$ with the inclusion and the quotient map is exact.
+- For any linear map $T \colon V \to W$, the sequence $0 \to \ker T \to V \xrightarrow{T} W \to W / \operatorname{im} T \to 0$ is exact.
+- For an external direct sum, $0 \to U \to U \oplus W \to W \to 0$ with $u \mapsto (u, 0)$ and $(u, w) \mapsto w$ is exact.
+
+### Non-examples
+
+- $0 \to \R \to \R^2 \to \R \to 0$ with $f(t) = (t, 0)$ and $g(x, y) = x$ is not exact at $\R^2$: $\operatorname{im} f$ is the $x$-axis and $\ker g$ is the $y$-axis.
+- $0 \to \R^2 \to \R^2 \to 0$ with $f(x, y) = (x, 0)$ is not exact, since $f$ is neither injective nor surjective.
+
+### Basic properties
+
+- [[Short exact sequences of vector spaces split|1GYTT98CC5]]: there is $s$ with $g \circ s = \operatorname{id}_W$, and $V \cong U \oplus W$.
+- The [[alternating sum of dimensions|EFBRMNWDQM]] in a finite exact sequence of finite-dimensional spaces is $0$.
+- For a short exact sequence, $\dim V = \dim U + \dim W$. This is the [[dimension of a quotient|0SXDQ6TN00]], since $W \cong V / f(U)$.
+- Exactness is preserved by taking duals: if $0 \to U \to V \to W \to 0$ is exact, then so is $0 \to W^* \to V^* \to U^* \to 0$.
+
+### History
+
+Exact sequences were introduced by Hurewicz in 1941 in algebraic topology, and the term was made standard by Eilenberg and Steenrod in their axioms for homology of 1952.
+Cartan and Eilenberg built homological algebra on them in 1956.
+
+### Common errors
+
+- Checking only that $g \circ f = 0$. This gives $\operatorname{im} f \subseteq \ker g$, which is weaker than exactness.
+- Forgetting the outer zeros: $U \to V \to W$ exact does not say that $f$ is injective or that $g$ is surjective.
+- Expecting splitting for modules over rings. The sequence $0 \to \Z \xrightarrow{2} \Z \to \Z / 2\Z \to 0$ of abelian groups does not split.
+
+## Explanations
+
+### L1 human
+
+An exact sequence is a chain of linear maps in which what one map produces is exactly what the next map kills.
+A short exact sequence says that a big space is built from a subspace and a quotient.
+For vector spaces, the big space is simply the direct sum of the two pieces.
+
+### L2 human
+
+For the sequence $0 \to \R \xrightarrow{f} \R^3 \xrightarrow{g} \R^2 \to 0$ of the example, we check exactness at each place.
+
+1. At $\R$: $f(t) = (t, t, t)$ is zero only for $t = 0$, so $f$ is injective.
+2. At $\R^3$: $g(t, t, t) = (0, 0)$, and $g(x, y, z) = 0$ forces $x = y = z$. So $\operatorname{im} f = \ker g$.
+3. At $\R^2$: $g(a + b, b, 0) = (a, b)$, so $g$ is surjective.
+
+The dimensions satisfy $1 - 3 + 2 = 0$.
+The trap is to check $g \circ f = 0$ and stop, which proves only one inclusion in step 2.
+
+### L3 human
+
+Exact sequences of vector spaces are boring in a useful way: every short exact sequence splits, so every additive functor preserves exactness.
+This is why linear algebra has no homological invariants beyond dimension.
+For modules over a ring, the failure of splitting is measured by the functor $\operatorname{Ext}^1$, and the failure of exactness of functors such as $\operatorname{Hom}$ and $\otimes$ gives the derived functors.
+The alternating sum formula is the simplest case of the invariance of the [[Euler characteristic|RNDDWDAFJ5]] of a complex under passage to homology.

@@ -1,0 +1,80 @@
+---
+tag: N04WS31KXB
+kind: statement
+role: proposition
+name: Universal property of the external direct sum
+msc: ["15A03", "18A30"]
+topics: [QHKTJ89V6S]
+audience: ug2
+about: [0S7W6EG32V]
+uses: [02WZB422CE, 0RJF668P1T, 05EGHEQZAW]
+formal:
+  - system: lean4
+    library: mathlib
+    decl: DirectSum.toModule
+    match: partial
+sources:
+  - url: https://en.wikipedia.org/wiki/Direct_sum_of_modules
+    locator: Universal property
+  - book: isbn:9783031410253
+    locator: Section 3E
+---
+
+## Statement
+
+Let $F$ be a field, let $(V_i)_{i \in I}$ be a family of vector spaces over $F$, and let $\iota_j \colon V_j \to \bigoplus_{i \in I} V_i$ be the canonical injections of the [[external direct sum|02WZB422CE]].
+Let $X$ be a [[vector space|05EGHEQZAW]] over $F$, and for each $i \in I$ let $f_i \colon V_i \to X$ be a [[linear map|0RJF668P1T]].
+Then there is exactly one linear map $f \colon \bigoplus_{i \in I} V_i \to X$ with $f \circ \iota_i = f_i$ for every $i \in I$.
+It is given by
+$$f\big((v_i)_{i \in I}\big) = \sum_{i \in I} f_i(v_i),$$
+where the sum has only finitely many nonzero terms.
+
+## Remarks
+
+### Why each hypothesis is needed
+
+- The families in the direct sum must have finite support. In the [[product|0EX2HPXPJ6]] $\R^{\N}$ with $f_i(t) = t$ for each $i$, the formula would need the sum $1 + 1 + 1 + \cdots$ for the vector $(1, 1, 1, \dots)$, which has no value.
+- The maps $f_i$ must be linear. If $f_1 \colon \R \to \R$ is $t \mapsto t^2$, then no linear $f$ satisfies $f \circ \iota_1 = f_1$, since $f \circ \iota_1$ is linear.
+- All $f_i$ must take values in one space $X$. Otherwise the sum $\sum_i f_i(v_i)$ has no meaning.
+
+### Consequences
+
+- The map $f \mapsto (f \circ \iota_i)_{i \in I}$ is an isomorphism $\mathcal{L}\big(\bigoplus_i V_i, X\big) \cong \prod_i \mathcal{L}(V_i, X)$ of [[spaces of linear maps|0X9MBPP2Z3]].
+- For $X = F$, this gives $\left(\bigoplus_i V_i\right)^* \cong \prod_i V_i^*$: the dual of a direct sum is the product of the duals.
+- A linear map out of $V_1 \oplus V_2$ is a pair of linear maps, one on each summand. In matrix form, the matrix of $f$ is the block row $\begin{pmatrix} A_1 & A_2 \end{pmatrix}$.
+- The direct sum is determined up to a unique isomorphism by this property. It is the [[coproduct|4FJ0S71P58]] in the category of vector spaces.
+
+### Converse
+
+If a space $S$ with linear maps $j_i \colon V_i \to S$ has the same property, then the induced map $\bigoplus_i V_i \to S$ is an isomorphism.
+So the property characterizes the direct sum.
+
+## History
+
+Universal properties were introduced by Samuel in 1948 and made systematic by Mac Lane and the theory of categories.
+The direct sum as a coproduct is one of the first examples in Mac Lane's *Categories for the Working Mathematician* of 1971.
+
+## Explanations
+
+### L1 human
+
+To give a linear map out of a direct sum, give a linear map on each piece.
+The map on the whole sum adds the results of the pieces.
+There is no other choice, because each vector of the sum is a sum of vectors from the pieces.
+
+### L2 human
+
+Let $V_1 = \R^2$, $V_2 = \R$ and $X = \R$, with $f_1(x, y) = x + y$ and $f_2(t) = 2t$.
+
+1. The formula gives $f(x, y, t) = f_1(x, y) + f_2(t) = x + y + 2t$.
+2. $f \circ \iota_1 (x, y) = f(x, y, 0) = x + y = f_1(x, y)$.
+3. $f \circ \iota_2 (t) = f(0, 0, t) = 2t = f_2(t)$.
+
+The trap is the product of infinitely many spaces, where the same formula would need an infinite sum.
+
+### L3 human
+
+The property says that $\bigoplus_i V_i$ represents the functor $X \mapsto \prod_i \mathcal{L}(V_i, X)$.
+Dually, the product $\prod_i V_i$ represents $X \mapsto \prod_i \mathcal{L}(X, V_i)$, by the [[universal property of the product|YT3GZ6YCAH]].
+For finite families, one space has both properties, so finite direct sums are biproducts and the category of vector spaces is additive.
+Mathlib builds the induced map as `DirectSum.toModule`.

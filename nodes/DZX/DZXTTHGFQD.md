@@ -3,10 +3,10 @@ tag: DZXTTHGFQD
 kind: example
 name: An oblique projection of the plane onto a line
 msc: ["15A99"]
-topics: [Y1ESNQ2V52]
+topics: [Y1ESNQ2V52, QHKTJ89V6S]
 audience: ug1
-instance_of: [0KCE8CG86P]
-uses: [0K7TD9BV2D, 076JGP6R3T]
+instance_of: [0KCE8CG86P, 033DA1WE8Y]
+uses: [0K7TD9BV2D, 0RH4E3CAV9, 076JGP6R3T]
 sources:
   - url: https://en.wikipedia.org/wiki/Idempotent_matrix
     locator: Examples
