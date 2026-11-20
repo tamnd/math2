@@ -26,7 +26,7 @@ A *Tarskian hierarchy* over the [[language of arithmetic|D8SD54M5PN]] $\mathcal{
 In the intended model $\mathcal{N}_{n+1}$, the predicate $T_n$ holds of exactly the codes of the sentences of $\mathcal{L}_n$ that are true in $\mathcal{N}_n$.
 The typed axioms are the T-sentences $T_k(\ulcorner \varphi \urcorner) \leftrightarrow \varphi$ for every $k$ and every sentence $\varphi$ of $\mathcal{L}_k$.
 Each language has a truth predicate for the languages below it, and no language has a truth predicate for itself.
-The hierarchy is the classical way to keep Convention T and avoid the [[liar paradox|~005ac188]].
+The hierarchy is the classical way to keep Convention T and avoid the [[liar paradox|KBYY281V8T]].
 
 ## Motivation
 
@@ -47,15 +47,15 @@ Iterating this step gives the hierarchy.
 
 ### Examples
 
-1. The first levels over arithmetic, with the computation of $T_1(\ulcorner T_0(\ulcorner 2 + 2 = 4 \urcorner) \urcorner)$, are in [[this example|~de6e125a]].
-2. A liar sentence for $T_1$ exists in $\mathcal{L}_2$, but it is simply true at level $2$; see [[the liar attempt at level one|~17cb076b]].
-3. Tarski's own setting has two levels: an object language and a metalanguage. An instance is the definition of [[truth for arithmetic in set theory|~e9e7c9af]].
+1. The first levels over arithmetic, with the computation of $T_1(\ulcorner T_0(\ulcorner 2 + 2 = 4 \urcorner) \urcorner)$, are in [[this example|151M7YHAQV]].
+2. A liar sentence for $T_1$ exists in $\mathcal{L}_2$, but it is simply true at level $2$; see [[the liar attempt at level one|VTTMVKGK40]].
+3. Tarski's own setting has two levels: an object language and a metalanguage. An instance is the definition of [[truth for arithmetic in set theory|QS0FWVFZWZ]].
 4. The theory $\mathsf{PA}$ plus the typed T-sentences of all levels is consistent. The expansion of $\mathcal{N}_0$ that interprets each $T_n$ as in $\mathcal{N}_{n+1}$ satisfies every axiom.
 
 ### Non-examples
 
-1. A language with one type-free truth predicate, as in [[Kripke's theory of truth|~1dd87a57]], is not a level of the hierarchy. Its truth predicate applies to sentences that contain it.
-2. A pair of claims that speak about each other cannot be placed in the hierarchy; see [[the example of Jc and Michael|~3b3773fc]].
+1. A language with one type-free truth predicate, as in [[Kripke's theory of truth|ES71QTSTNV]], is not a level of the hierarchy. Its truth predicate applies to sentences that contain it.
+2. A pair of claims that speak about each other cannot be placed in the hierarchy; see [[the example of Jc and Michael|8CMS44DM16]].
 3. A predicate "true at some level" would apply to sentences of every level, including sentences that contain it. Allowing it brings back the paradox, as the SEP entry notes.
 
 ### Basic properties
@@ -102,6 +102,6 @@ The trap is step 4: the lower predicate does not "see" sentences of its own leve
 ### L3 human
 
 The hierarchy is the semantic counterpart of the ramified hierarchy of types.
-Its axiomatic form is a sequence of [[typed theories of truth|~67eedfc4]], one for each level.
-The type-free theories, from [[Kripke's theory of truth|~1dd87a57]] to the [[Kripke-Feferman theory|~a625d303]], replace the fixed syntactic levels by stages of an inductive construction.
+Its axiomatic form is a sequence of [[typed theories of truth|KE8ZX8KVA3]], one for each level.
+The type-free theories, from [[Kripke's theory of truth|ES71QTSTNV]] to the [[Kripke-Feferman theory|VQG258JQAD]], replace the fixed syntactic levels by stages of an inductive construction.
 The page on the Kripke-Feferman theory states its strength in terms of ramified analysis, which is a transfinite hierarchy of this kind.

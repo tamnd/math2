@@ -39,7 +39,7 @@ The distinction matters because it keeps statements about formulas apart from th
 The sentence "$p \to p$ is a theorem" mixes two levels.
 The part $p \to p$ is a string of the object language, and the part "is a theorem" is English that speaks about this string.
 When the two levels are mixed without care, paradoxes appear.
-The [[liar sentence|~005ac188]] "this sentence is false" is a sentence that speaks about its own truth, and it can be neither true nor false.
+The [[liar sentence|KBYY281V8T]] "this sentence is false" is a sentence that speaks about its own truth, and it can be neither true nor false.
 Alfred Tarski showed that such paradoxes disappear when the truth of sentences of $L$ is defined in a separate metalanguage.
 In the same way, David Hilbert's study of formal systems needed a clear metalanguage in which to prove statements such as "no derivation ends in $0 = 1$".
 

@@ -1,0 +1,124 @@
+---
+tag: 2BV7KAZG1H
+kind: counterexample
+name: Sorites paradox
+aliases: [paradox-of-the-heap, sorites, heap-paradox]
+msc: ["03A05", "03B52"]
+topics: [6Q4JJ2MMV8]
+audience: ug2
+uses: [PM4SDQK13Z, PDFBXAN9CC, QQPVKJSAX1, 37ACYXP8QN]
+refutes:
+  - target: PM4SDQK13Z
+    via: 8N9FJ4M9RE
+sources:
+  - url: https://plato.stanford.edu/entries/sorites-paradox/
+    locator: "Sorites Paradox, 1. The Sorites in History"
+  - url: https://plato.stanford.edu/entries/sorites-paradox/
+    locator: "Sorites Paradox, 2. Different Formulations of the Paradox"
+  - url: https://plato.stanford.edu/entries/sorites-paradox/
+    locator: "Sorites Paradox, 3.2 The Epistemic Theory"
+  - url: https://plato.stanford.edu/entries/sorites-paradox/
+    locator: "Sorites Paradox, 3.3.1 Supervaluationism"
+  - url: https://plato.stanford.edu/entries/sorites-paradox/
+    locator: "Sorites Paradox, 3.3.3 Degree and Many-Valued Theories"
+---
+
+## Counterexample
+
+The claim refuted is the [[tolerance principle|PM4SDQK13Z]] for "heap", taken together with two clear cases.
+Let $H(n)$ say "$n$ grains of wheat make a heap", and let $N := 10000$.
+The explicit premises are the following $10001$ sentences.
+
+- (P1) $H(10000)$: ten thousand grains make a heap.
+- (P2) $\neg H(1)$: one grain does not make a heap.
+- (C$_n$) $H(n + 1) \to H(n)$, for each $n$ with $1 \le n \le 9999$. These are the $9999$ tolerance conditionals.
+
+1. The [[sorites series|PDFBXAN9CC]] is $1, 2, \ldots, 10000$ grains, and neighbors differ by one grain.
+2. (P1) is a clear case and (P2) is a clear non-case. Both are accepted by every competent speaker.
+3. Each C$_n$ looks true: one grain cannot turn a heap into a non-heap.
+4. By [[the proof of the sorites theorem|8N9FJ4M9RE]], (P1) and C$_1$ to C$_{9999}$ give $H(1)$, by exactly $9999$ steps of modus ponens.
+5. This contradicts (P2). So the $10001$ premises are inconsistent.
+6. We keep (P1), (P2) and classical logic. Then some C$_n$ is false.
+7. So, by the line-drawing form of the theorem, there is $n$ with $1 \le n \le 9999$, $H(n + 1)$ and $\neg H(n)$.
+8. This $n$ is the counterexample to tolerance. The argument does not say which $n$ it is.
+
+## Remarks
+
+### Three forms
+
+The SEP entry gives three forms.
+The *conditional form* is the chain above.
+The *induction form* replaces the $9999$ conditionals by one universal premise and uses mathematical induction.
+The *line-drawing form* derives the existence of a sharp boundary, as in step 7.
+An informal variant is the [[forced march sorites|FNV5BSZ95G]], in which a speaker classifies the members of the series one at a time.
+
+### Epistemicism
+
+On the [[epistemic view|37ACYXP8QN]], "heap" has a sharp boundary, and step 7 is literally true.
+The boundary is fixed by the use of the word, but we cannot know where it is.
+The SEP entry names Williamson as a main defender, and explains the ignorance by margin for error principles.
+Such a principle says: if $x$ is known to be a heap and $y$ differs from $x$ by one grain, then $y$ is a heap.
+So near the boundary, no correct classification is knowledge.
+
+### Supervaluation
+
+A [[supervaluational semantics|QQPVKJSAX1]] counts a sentence as true if it is true on every admissible sharpening of "heap".
+This view treats vagueness as [[semantic vagueness|7B1QJ5YA0X]]: the word, not the world, is unsettled.
+For a small model, let a sharpening be "$H(n)$ iff $n \ge k$", with admissible cutoffs $k$ for $100 \le k \le 1000$.
+
+1. (P1) is true on every sharpening, since $10000 \ge k$. So (P1) is super-true.
+2. (P2) is true on every sharpening, since $1 < 100 \le k$. So (P2) is super-true.
+3. C$_n$ is false on the sharpening $k$ exactly when $n + 1 \ge k > n$, that is, when $k = n + 1$.
+4. So for $99 \le n \le 999$, C$_n$ is false on one sharpening and true on the others. It is neither super-true nor super-false.
+5. For the other values of $n$, C$_n$ is true on every sharpening, so it is super-true.
+6. The universal form of tolerance fails on each sharpening at $n = k - 1$. So it is super-false.
+7. The sentence $\exists n\, (H(n + 1) \wedge \neg H(n))$ is true on each sharpening, so it is super-true. But each instance is true on one sharpening only, so no instance is super-true.
+
+The SEP entry gives this diagnosis: the universal premise is false and no single conditional is false.
+The existential sentence is true, but no instance of it is true.
+
+### Degrees of truth
+
+A degree theory, as in [[fuzzy logic|8DH4QM6AX8]], gives $H(n)$ a value in $[0, 1]$.
+Take $v(H(n)) := (n - 1) / 9999$, so $v(H(10000)) = 1$ and $v(H(1)) = 0$.
+With the Łukasiewicz conditional $v(A \to B) = \min(1, 1 - v(A) + v(B))$, each C$_n$ has value $1 - n/9999 + (n - 1)/9999 = 1 - 1/9999$.
+So each conditional is almost true, and the small losses add up over $9999$ steps; see [[the sorites in Łukasiewicz logic|EP8J937EQC]].
+
+### Higher-order vagueness
+
+The model of supervaluation above has sharp cutoffs at $100$ and $1000$.
+The degree model has a sharp point where the value of $H(n)$ passes $1/2$.
+The SEP entry notes that [[higher-order vagueness|ZZH00G9EK8]] makes such second boundaries as doubtful as the first one.
+
+### Relation to the liar
+
+The SEP entry reports proposals by McGee (1991) and Tappenden (1993) to treat the [[liar paradox|KBYY281V8T]] and the sorites in the same way.
+It also reports Priest's view that both have a common structure, with a paraconsistent response for both.
+
+### History
+
+The SEP entry states that Eubulides, a Megarian philosopher of the fourth century BC, is usually credited with the first formulation.
+The name comes from the Greek word *soros*, "heap".
+The same entry states that the Sceptics later used the paradox against the Stoics.
+
+## Explanations
+
+### L1 human
+
+Ten thousand grains of wheat make a heap.
+If you take away one grain, you still have a heap.
+Take away another, and another.
+After many steps, one grain is left, and one grain is not a heap.
+So somewhere a single grain made the difference, although no single grain seems able to do that.
+
+### L2 human
+
+Take the small case $N = 3$ with the premises $H(3)$, $\neg H(1)$, $H(3) \to H(2)$, $H(2) \to H(1)$.
+
+1. From $H(3)$ and $H(3) \to H(2)$, modus ponens gives $H(2)$.
+2. From $H(2)$ and $H(2) \to H(1)$, modus ponens gives $H(1)$.
+3. This contradicts $\neg H(1)$. So one of the two conditionals is false.
+4. If $H(2)$ is true, then $H(2) \to H(1)$ is false. If $H(2)$ is false, then $H(3) \to H(2)$ is false.
+
+The typical use of the sorites is as a test case for theories of vague language.
+The trap is to think that the paradox shows a fault in modus ponens: each response above keeps modus ponens valid in some form.

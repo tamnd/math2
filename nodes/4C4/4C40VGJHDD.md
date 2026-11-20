@@ -1,0 +1,77 @@
+---
+tag: 4C40VGJHDD
+kind: proof
+name: Proof that the Yablo T-sentences are consistent but omega-inconsistent
+msc: ["03A05", "03F25"]
+topics: [6Q4JJ2MMV8]
+audience: grad
+proves: ASVGQGMW9P
+uses: [P3XFQC6ACX, BJF29XET83, 1NR3HAWG9D, 4S29X1GTV4, 4A84VHDTHV, WP27CABPA4]
+methods: [0J0XBKG64S]
+sources:
+  - url: https://plato.stanford.edu/entries/self-reference/
+    locator: "Self-Reference and Paradox, 1.6 Paradoxes without Self-Reference"
+---
+
+## Proof
+
+We use the notation of the [[statement|ASVGQGMW9P]], and write $s(n) := \mathrm{sub}(\ulcorner Y \urcorner, n)$, the code of $Y_n$.
+
+*Preliminary facts.*
+
+1. $\mathrm{Sb}$ [[represents|BJF29XET83]] $\mathrm{sub}$. So $\mathsf{PA} \vdash \forall u\,(\mathrm{Sb}(\ulcorner Y \urcorner, \underline{n}, u) \leftrightarrow u = \underline{s(n)})$ for each $n$.
+2. By step 1, $\mathsf{PA}_T \vdash \tau(\underline{n}) \leftrightarrow T(\ulcorner Y_n \urcorner)$ for each $n$.
+3. Distinct $n$ give distinct strings $Y_n$, so $s(n) \neq s(m)$ for $n \neq m$.
+
+*Part 1.* Suppose $v$ is such a function.
+
+4. Suppose $v(n) = 1$ for some $n$. By the clause for $n$, $v(k) = 0$ for all $k > n$.
+5. In particular $v(n + 1) = 0$, and $v(k) = 0$ for all $k > n + 1$.
+6. By the clause for $n + 1$, the second half of step 5 gives $v(n + 1) = 1$. This contradicts step 5.
+7. So $v(n) = 0$ for all $n$. Then $v(k) = 0$ for all $k > 0$, so $v(0) = 1$. This is a contradiction.
+
+*Part 3.* Fix $n$.
+We argue in $\mathsf{U}$.
+
+8. Assume $\tau(\underline{n})$. By step 2, $T(\ulcorner Y_n \urcorner)$. By the T-sentence for $Y_n$, we get $Y_n$.
+9. By the diagonal equivalence, $\forall z\,(\underline{n} < z \to \neg \tau(z))$.
+10. So $\neg \tau(\underline{n + 1})$. Also $\forall z\,(\underline{n + 1} < z \to \neg \tau(z))$, since $\mathsf{PA}$ proves $n + 1 < z \to n < z$.
+11. By the diagonal equivalence for $n + 1$, step 10 gives $Y_{n + 1}$.
+12. The T-sentence for $Y_{n + 1}$ gives $T(\ulcorner Y_{n + 1} \urcorner)$. By step 2, $\tau(\underline{n + 1})$.
+13. Steps 10 and 12 contradict each other. So $\mathsf{U} \vdash \neg \tau(\underline{n})$, by negation introduction.
+
+*Part 4.*
+
+14. By part 3, $\mathsf{U} \vdash \neg \tau(\underline{0})$. By step 2, $\mathsf{U} \vdash \neg T(\ulcorner Y_0 \urcorner)$.
+15. The T-sentence for $Y_0$ gives $\mathsf{U} \vdash \neg Y_0$.
+16. By the diagonal equivalence, $\mathsf{U} \vdash \neg \forall z\,(0 < z \to \neg \tau(z))$.
+17. In classical logic this gives $\mathsf{U} \vdash \exists z\,(0 < z \wedge \tau(z))$, so $\mathsf{U} \vdash \exists z\, \tau(z)$.
+
+*Part 5.*
+
+18. By parts 3 and 4, $\mathsf{U}$ proves $\exists z\, \tau(z)$ and $\neg \tau(\underline{n})$ for each $n$. So $\mathsf{U}$ is [[ω-inconsistent|4S29X1GTV4]].
+19. Suppose $(\mathcal{N}, E) \models \mathsf{U}$. By part 4 and [[soundness|4A84VHDTHV]], some $m \in \mathbb{N}$ has $(\mathcal{N}, E) \models \tau(\underline{m})$.
+20. By part 3 and soundness, $(\mathcal{N}, E) \models \neg \tau(\underline{m})$. This is a contradiction.
+
+*Part 2.*
+
+21. Let $\mathsf{U}_0$ be a finite subset of $\mathsf{U}$. It contains T-sentences only for $Y_n$ with $n \le N$, for some $N$.
+22. Let $E := \{s(N + 1)\}$, and interpret $T$ by $E$ in the [[standard model|WP27CABPA4]].
+23. $(\mathcal{N}, E)$ satisfies $\mathsf{PA}_T$, since every subset of $\mathbb{N}$ satisfies the induction principle.
+24. By steps 2 and 3, $(\mathcal{N}, E) \models \tau(\underline{m})$ if and only if $m = N + 1$.
+25. Let $n \le N$. Then $(\mathcal{N}, E) \models \neg T(\ulcorner Y_n \urcorner)$, since $s(n) \neq s(N + 1)$ by step 3.
+26. Also $(\mathcal{N}, E) \models \neg Y_n$, by the diagonal equivalence and step 24 with $z = N + 1 > n$.
+27. So the T-sentence for $Y_n$ holds in $(\mathcal{N}, E)$, with both sides false. So $(\mathcal{N}, E) \models \mathsf{U}_0$.
+28. Every finite subset of $\mathsf{U}$ has a model. By the [[compactness theorem|1NR3HAWG9D]], $\mathsf{U}$ has a model.
+
+## Idea
+
+The informal argument has two steps: each sentence is untrue, and so the first sentence is true.
+In arithmetic the first step gives one theorem for each numeral, and the second step needs a universal statement.
+The T-sentences give only the numeral instances, so the second step fails, and $\omega$-inconsistency remains.
+Compactness gives a model, but by part 5 its true Yablo sentence has a nonstandard index.
+
+## Variants
+
+1. Add the uniform T-sentence $\forall x\,(\tau(x) \leftrightarrow Y(x))$. Then steps 8 to 13 with a variable in place of $\underline{n}$ prove $\forall z\, \neg \tau(z)$. With part 4 this gives an inconsistency.
+2. Part 1 alone is the version in the SEP entries. It uses that the values are classical and that the clauses hold for all $n$.

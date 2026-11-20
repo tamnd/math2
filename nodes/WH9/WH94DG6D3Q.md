@@ -27,11 +27,11 @@ In a partial interpretation $(E, A)$ of a truth predicate $T$, a sentence $\varp
 In the *logic of paradox* $\mathrm{LP}$, the values are $1$, $\mathrm{b}$ (both) and $0$, and the designated values are $1$ and $\mathrm{b}$.
 A glut has the value $\mathrm{b}$.
 A theory that accepts gluts must use a [[paraconsistent logic|C7YWCR87QJ]], so that a contradiction does not imply every sentence.
-*Dialetheism* is the view that some sentences, for example the [[liar|~005ac188]], are true gluts.
+*Dialetheism* is the view that some sentences, for example the [[liar|KBYY281V8T]], are true gluts.
 
 ## Motivation
 
-The [[naive truth schema|~34d21c75]] and the liar give a contradiction.
+The [[naive truth schema|99XVFR5ZN5]] and the liar give a contradiction.
 A [[gap theory|4CBCWZQZ12]] blocks the derivation by rejecting excluded middle.
 A glut theory accepts the derivation up to the contradiction, and it rejects the next step, [[explosion|TTKZGJEEK7]].
 The SEP entry reports Priest's argument that the T-schema and excluded middle both hold, so that the liar is both true and not true.
@@ -48,17 +48,17 @@ On this view the contradiction is real, but it stays local.
 
 ### Examples
 
-1. The [[liar is a glut in every LP fixed point|~bba62832]].
-2. In first-degree entailment, the liar is a gap or a glut in every fixed point, and both cases occur; see [[this example|~1fc35e2d]].
+1. The [[liar is a glut in every LP fixed point|4204V9JTCV]].
+2. In first-degree entailment, the liar is a gap or a glut in every fixed point, and both cases occur; see [[this example|H8PMKKPKQB]].
 3. Let $v(p) = \mathrm{b}$ and $v(q) = 0$ in $\mathrm{LP}$. Then $p \wedge \neg p$ has the value $\mathrm{b}$, which is designated, and $q$ has the value $0$. So $p \wedge \neg p \not\models_{\mathrm{LP}} q$.
 4. With the same valuation, $p \vee q$ and $\neg p$ are designated and $q$ is not. So disjunctive syllogism fails in $\mathrm{LP}$.
 5. A [[contradictory theory in the logic of paradox|5D02W0KT45]] can be absolutely consistent: it does not prove every sentence.
 
 ### Non-examples
 
-1. In [[Kripke's theory of truth|~1dd87a57]], $E$ and $A$ are disjoint, so no sentence is a glut. The liar is a [[gap|~c48c7e65]] there.
+1. In [[Kripke's theory of truth|ES71QTSTNV]], $E$ and $A$ are disjoint, so no sentence is a glut. The liar is a [[gap|XRRGJK0927]] there.
 2. In a classical model, no sentence is both true and false.
-3. In an LP fixed point, the [[truth-teller|~66f66b7a]] $\tau$ only needs the same value as $T(\ulcorner \tau \urcorner)$. Each of the three values meets this condition, so $\tau$ is not forced to be a glut.
+3. In an LP fixed point, the [[truth-teller|XADBJH4872]] $\tau$ only needs the same value as $T(\ulcorner \tau \urcorner)$. Each of the three values meets this condition, so $\tau$ is not forced to be a glut.
 
 ### Basic properties
 

@@ -8,7 +8,7 @@ audience: school
 not_instance_of:
   - target: MVADXMFV59
     note: the translation a <-> not a is false in both rows, so no knight or knave can make this statement
-uses: [MVADXMFV59, 0S6GMNJ62Y, 05RSK4Q657, ~005ac188]
+uses: [MVADXMFV59, 0S6GMNJ62Y, 05RSK4Q657, KBYY281V8T]
 sources:
   - url: https://en.wikipedia.org/wiki/Knights_and_Knaves
     locator: lead section
@@ -29,7 +29,7 @@ We show that this situation cannot occur on the island, so it is not a knights a
 
 ## Remarks
 
-The sentence "I am a knave" is the island's version of the [[liar sentence|~005ac188]].
+The sentence "I am a knave" is the island's version of the [[liar sentence|KBYY281V8T]].
 The difference is that the liar sentence produces a paradox, while on the island the sentence produces only a contradiction with the assumption that $A$ said it.
 So a puzzle that reports this statement has no solution, and the conclusion is that the report is false.
 The same argument shows that no inhabitant can say "I am a knave and $2 + 2 = 4$".

@@ -33,7 +33,7 @@ The conception makes truth a mathematical notion, and it is the base of the defi
 
 ## Motivation
 
-Before Tarski, truth was a philosophical notion, and the [[liar paradox|~005ac188]] showed that careless use of "true" leads to contradiction.
+Before Tarski, truth was a philosophical notion, and the [[liar paradox|KBYY281V8T]] showed that careless use of "true" leads to contradiction.
 Logic needs a precise notion of truth to state soundness and completeness theorems.
 Tarski asked two questions.
 What is a satisfactory definition of truth for a given language?
@@ -52,14 +52,14 @@ The answer to the second question is that the definition exists, in a metalangua
 
 ### Examples
 
-1. For a propositional language with a fixed valuation, an inductive truth definition satisfies Convention T; see [[this example|~81878c83]].
+1. For a propositional language with a fixed valuation, an inductive truth definition satisfies Convention T; see [[this example|PWRQX8JKYQ]].
 2. For a finite language with finitely many sentences, a list of the true sentences is a formally correct and materially adequate definition. The SEP entry reports that this was one of Tarski's four examples.
-3. In set theory, the set of true sentences of the [[language of arithmetic|D8SD54M5PN]] has an explicit definition that proves every T-sentence; see [[this example|~e9e7c9af]].
+3. In set theory, the set of true sentences of the [[language of arithmetic|D8SD54M5PN]] has an explicit definition that proves every T-sentence; see [[this example|QS0FWVFZWZ]].
 4. For each $n$, a [[partial truth predicate|Y2MF1EZAM7]] for $\Sigma_n$ sentences satisfies Convention T restricted to $\Sigma_n$ sentences. It is a formula of arithmetic itself.
 
 ### Non-examples
 
-1. [[Provability in PA|~8bd1f1b1]] is formally correct, but it is not materially adequate: by [[Gödel's first incompleteness theorem|X9WYNYE29C]] some true sentence is not provable.
+1. [[Provability in PA|KV0MA19KSX]] is formally correct, but it is not materially adequate: by [[Gödel's first incompleteness theorem|X9WYNYE29C]] some true sentence is not provable.
 2. Take a formula of arithmetic that is meant to define truth for arithmetic, with $\mathsf{PA}$ as the metalanguage. It can be formally correct, but it is not materially adequate, by [[Tarski's undefinability theorem|YRV6SYK2BY]].
 3. A definition that uses an undefined primitive such as "denotes" is not formally correct in Tarski's sense. The formula $\varphi$ may use only syntax, set theory and the notions of $L$.
 
@@ -112,5 +112,5 @@ The semantic conception is the model-theoretic notion of [[truth in a structure|
 Its two conditions split the problem of truth into a syntactic part (formal correctness) and a semantic part (material adequacy).
 The undefinability theorem shows that the two conditions cannot both hold inside one sufficiently strong language.
 The later theories of this topic keep Convention T as a guide, but weaken it.
-[[Kripke's theory of truth|~1dd87a57]] weakens it by gaps.
-[[Axiomatic theories of truth|~67eedfc4]] restrict it to some sentences, and give axioms in place of a definition.
+[[Kripke's theory of truth|ES71QTSTNV]] weakens it by gaps.
+[[Axiomatic theories of truth|KE8ZX8KVA3]] restrict it to some sentences, and give axioms in place of a definition.

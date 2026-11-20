@@ -6,7 +6,7 @@ aliases: [gap, paracomplete-truth, neither-true-nor-false]
 msc: ["03A05", "03B50"]
 topics: [6Q4JJ2MMV8]
 audience: grad
-uses: [SZHA10A9X7, 0RYYK8PG4S, QQPVKJSAX1, ~1dd87a57]
+uses: [SZHA10A9X7, 0RYYK8PG4S, QQPVKJSAX1, ES71QTSTNV]
 sources:
   - wikipedia: en:76765067@r1368301704
     locator: Glossary of logic, section T
@@ -30,11 +30,11 @@ A *truth-value gap* is a sentence that is neither true nor false in a given sema
 In a three-valued semantics such as [[strong Kleene logic|SZHA10A9X7]], a gap is a sentence with the third value $\mathrm{u}$.
 In a partial interpretation $(E, A)$ of a truth predicate $T$, a sentence $\varphi$ is a gap if $\ulcorner \varphi \urcorner \notin E$ and $\ulcorner \varphi \urcorner \notin A$.
 A theory of truth that allows gaps, and so gives up the [[law of excluded middle|0RYYK8PG4S]] for some sentences, is called *paracomplete*.
-The main example is [[Kripke's theory of truth|~1dd87a57]], in which the [[liar|~005ac188]] is a gap.
+The main example is [[Kripke's theory of truth|ES71QTSTNV]], in which the [[liar|KBYY281V8T]] is a gap.
 
 ## Motivation
 
-The [[naive truth schema|~34d21c75]] and classical logic together give the liar paradox.
+The [[naive truth schema|99XVFR5ZN5]] and classical logic together give the liar paradox.
 A paracomplete theory keeps the equivalence of $\varphi$ and $T(\ulcorner \varphi \urcorner)$, and it rejects excluded middle for the liar.
 The SEP entry describes this view: the liar teaches that some sentences "neither hold nor do not hold".
 The same idea appears for vague predicates, where borderline cases are often treated as gaps.
@@ -49,17 +49,17 @@ The same idea appears for vague predicates, where borderline cases are often tre
 
 ### Examples
 
-1. The [[liar is a gap in every Kripke fixed point|~c48c7e65]].
-2. The [[truth-teller|~66f66b7a]] is a gap in the least Kripke fixed point. It is true or false in some other fixed points.
+1. The [[liar is a gap in every Kripke fixed point|XRRGJK0927]].
+2. The [[truth-teller|XADBJH4872]] is a gap in the least Kripke fixed point. It is true or false in some other fixed points.
 3. In strong Kleene logic, $p \vee \neg p$ is a gap when $p$ is a gap. So $K_3$ has no valid sentences, as the SEP entry notes.
 4. In a supervaluation scheme, the liar $\lambda$ is a gap, but $\lambda \vee \neg \lambda$ is super-true. The SEP entry on axiomatic truth reports that Cantini's system VF proves $T(\ulcorner \lambda \vee \neg \lambda \urcorner)$.
-5. In supervaluational treatments of vagueness, "$n$ grains make a heap" is a gap for a borderline $n$; see the [[sorites paradox|~13b952b1]].
+5. In supervaluational treatments of vagueness, "$n$ grains make a heap" is a gap for a borderline $n$; see the [[sorites paradox|2BV7KAZG1H]].
 
 ### Non-examples
 
-1. The sentence $T(\ulcorner 0 = 0 \urcorner)$ is [[grounded and true|~10e4a74d]], so it is not a gap in any fixed point.
-2. In the logic of paradox, the liar is a [[truth-value glut|WH94DG6D3Q]], not a gap; see [[this example|~bba62832]].
-3. In the [[revision theory|~721e1cff]], each stage is classical, so no sentence is a gap at any stage. The liar is unstable instead.
+1. The sentence $T(\ulcorner 0 = 0 \urcorner)$ is [[grounded and true|RCGBM5KS25]], so it is not a gap in any fixed point.
+2. In the logic of paradox, the liar is a [[truth-value glut|WH94DG6D3Q]], not a gap; see [[this example|4204V9JTCV]].
+3. In the [[revision theory|ZQ4TWM7K6E]], each stage is classical, so no sentence is a gap at any stage. The liar is unstable instead.
 4. In a [[Tarskian hierarchy|Z6MCGB0ZFX]], a sentence $T_0(\ulcorner \psi \urcorner)$ with $\psi$ outside $\mathcal{L}_0$ is false, not a gap.
 
 ### Basic properties
@@ -104,5 +104,5 @@ The trap is the strengthened liar: "not true" includes "gap", so a gappy liar is
 ### L3 human
 
 Gaps are the order-theoretic bottom element of a partial information order on values.
-The [[Kripke-Feferman theory|~a625d303]] gives an axiomatic form of the gap view in classical logic, with $T$ for "true" and $T(\ulcorner \neg \cdot \urcorner)$ for "false".
+The [[Kripke-Feferman theory|VQG258JQAD]] gives an axiomatic form of the gap view in classical logic, with $T$ for "true" and $T(\ulcorner \neg \cdot \urcorner)$ for "false".
 The dual idea, a sentence that is both true and false, is a [[glut|WH94DG6D3Q]], and [[first-degree entailment|KXTP4P3GHT]] allows both.
