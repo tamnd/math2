@@ -1,23 +1,29 @@
 ---
 tag: 6NB1CYDTNK
 kind: proof
-name: Proof of the Cauchy–Schwarz inequality
-msc: [15A63, 46C05]
+name: Proof of the Cauchy-Schwarz inequality by orthogonal projection
+msc: ["15A63", "46C05"]
+topics: [1D4JTZ9VS3]
+audience: ug1
 proves: 0RFWW56Y22
-uses: [0QVNCJXRY3, 0NB0AWGJBW, 0MFJJV97RJ, 0BJV24C4SY, 0ZB7J071WQ, 0GMV7GP8W0, 0EVHJFTG9Z]
+methods: [0NTF6DMVAP, 0WCP0PVET6]
+uses: [01EK923SKP, 0VGSYBWHV2, 0KG4D8AP6G, 0BJV24C4SY, 0ZB7J071WQ, 0GMV7GP8W0, 0EVHJFTG9Z]
 sources:
   - url: https://en.wikipedia.org/wiki/Cauchy–Schwarz_inequality
     locator: Proof via the orthogonal projection
+  - book: isbn:9783031410253
+    locator: Chapter 6
 ---
 
 ## Proof
 
-Let $\mathbb{K}$ be the scalar field, $\R$ or $\C$. Over $\R$, the [[complex conjugate|0BJV24C4SY]] $\bar a$ of a scalar $a$ is $a$ itself.
+Let $\mathbb{K}$ be the scalar field, $\mathbb{R}$ or $\mathbb{C}$.
+Over $\mathbb{R}$, the [[complex conjugate|0BJV24C4SY]] $\bar a$ of a scalar $a$ is $a$ itself, so the proof covers both cases.
 
-1. By axiom 1 of the [[inner product|0NB0AWGJBW]], $\langle 0, v \rangle = \langle 0 \cdot 0, v \rangle = 0 \langle 0, v \rangle = 0$ for every $v \in V$.
+1. By axiom 1 of the [[inner product|0VGSYBWHV2]], $\langle 0, v \rangle = \langle 0 \cdot 0, v \rangle = 0 \langle 0, v \rangle = 0$ for every $v \in V$.
 2. By axioms 1 and 2, for $u, v, w \in V$ and $a, b \in \mathbb{K}$, we get $\langle w, a u + b v \rangle = \overline{a \langle u, w \rangle + b \langle v, w \rangle}$. This equals $\bar a \langle w, u \rangle + \bar b \langle w, v \rangle$.
 3. By axiom 2, $\langle v, v \rangle$ equals its own conjugate, so it is real. By axiom 3 and step 1, $\langle v, v \rangle \ge 0$, with equality only for $v = 0$.
-4. So the [[induced norm|0MFJJV97RJ]] $\norm{v} = \sqrt{\langle v, v \rangle}$ is a real number $\ge 0$. Also $\norm{v} = 0$ holds if and only if $v = 0$.
+4. So the [[induced norm|0KG4D8AP6G]] $\norm{v} = \sqrt{\langle v, v \rangle}$ is a real number $\ge 0$. Also $\norm{v} = 0$ holds if and only if $v = 0$.
 5. Suppose first that $y = 0$. By steps 1 and 2, $\langle x, 0 \rangle = \overline{\langle 0, x \rangle} = 0$, and $\norm{y} = 0$. So both sides are $0$ and equality holds.
 6. In this case $x$ and $y$ are also linearly dependent, since $0 \cdot x + 1 \cdot y = 0$. So the whole claim holds when $y = 0$.
 7. Now suppose that $y \ne 0$. Then $\langle y, y \rangle > 0$ by axiom 3. Put $c = \langle x, y \rangle / \langle y, y \rangle$ and $z = x - c y$.
@@ -34,4 +40,12 @@ Let $\mathbb{K}$ be the scalar field, $\R$ or $\C$. Over $\R$, the [[complex con
 
 ## Idea
 
-Subtract from $x$ its projection $c y$ onto the line through $y$. The remainder $z$ is orthogonal to $y$, so a Pythagoras identity gives $\norm{x}^2 = \norm{z}^2 + \abs{c}^2 \norm{y}^2$. Dropping $\norm{z}^2$ gives the inequality, and equality means $z = 0$.
+Subtract from $x$ its projection $c y$ onto the line through $y$.
+The remainder $z$ is orthogonal to $y$, so a Pythagoras identity gives $\norm{x}^2 = \norm{z}^2 + |c|^2 \norm{y}^2$.
+Dropping $\norm{z}^2$ gives the inequality, and equality means $z = 0$, that is, $x$ is a multiple of $y$.
+
+## Variants
+
+- The [[proof by the discriminant|~79f198c9]] studies the real quadratic $t \mapsto \norm{x - t\lambda y}^2$ and uses that its discriminant is not positive.
+- One can first reduce to unit vectors and then expand $\norm{x \pm y}^2 \geq 0$. The [[example of this reduction|N8Z4J61ZHV]] does it in $\mathbb{R}^n$. Over $\mathbb{C}$, one first multiplies $y$ by a scalar of modulus $1$ that makes $\ip{x}{y}$ real.
+- With the [[Gram matrix|00SPJSDT3Z]]: the inequality says that the Gram determinant of $x, y$ is $\geq 0$, which follows from $\det G = \norm{u_1}^2 \norm{u_2}^2$ for the Gram-Schmidt vectors $u_1, u_2$.
