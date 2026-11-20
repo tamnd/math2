@@ -1,0 +1,95 @@
+---
+tag: PT5PHKJDYM
+kind: concept
+name: Monoidal t-norm based logic
+aliases: [mtl, monoidal-t-norm-logic]
+msc: ["03B52"]
+topics: [WZP584JQ06]
+audience: research
+uses: [VR6D8JXX1W]
+sources:
+  - url: https://plato.stanford.edu/entries/logic-fuzzy/
+    locator: "2. MTL: A fundamental fuzzy logic; 7. Algebraic semantics"
+  - url: https://en.wikipedia.org/wiki/Monoidal_t-norm_logic
+    locator: lead; Axioms; Semantics
+  - url: https://en.wikipedia.org/wiki/T-norm_fuzzy_logics
+    locator: History
+---
+
+## Summary
+
+*Monoidal t-norm based logic* MTL is the propositional logic of all left-continuous [[t-norms|VR6D8JXX1W]].
+A formula is valid in MTL iff it has value $1$ under every evaluation, for every left-continuous t-norm and its residuum.
+Esteva and Godo introduced it in 2001, with a Hilbert calculus and modus ponens; see [[the definition|TGQ8T276MG]].
+SEP calls it the weakest logic whose connectives are interpreted by a t-norm and its residuum.
+[[BL|3AQ5GHTXA4]] is MTL plus divisibility.
+
+## Motivation
+
+A t-norm needs only left-continuity to have a residuum, by [[the left-continuity statement|D1R4D2HEPP]].
+So left-continuous t-norms are the widest class for which the residuated semantics of fuzzy logic works.
+BL covers only the continuous ones, and it leaves out t-norms such as the nilpotent minimum.
+MTL is the logic of the whole class.
+
+## Notation
+
+SEP writes strong conjunction as $\&$, Wikipedia writes $\otimes$, and this sub-area writes $\odot$ for the Łukasiewicz case.
+In MTL weak conjunction $\land$ is a primitive connective, because it is not definable from $\otimes$ and $\to$ without divisibility.
+The standard MTL-algebra of a left-continuous t-norm $*$ is written $[0, 1]_*$.
+
+## Remarks
+
+### Examples
+
+1. [[The nilpotent minimum|ZJX7P6TVG9]] gives a standard MTL-algebra that is not a BL-algebra.
+2. [[The three basic t-norms|E1M4RTRAVS]] give standard BL-algebras, and every BL-algebra is an MTL-algebra.
+3. Every Boolean algebra and every linearly ordered Heyting algebra is an MTL-algebra, with $\otimes = \land$, as Wikipedia lists.
+4. [[Prelinearity|D0ZADJFPQE]] is valid for every left-continuous t-norm, so the axiom MTL6 is sound for the standard semantics.
+
+### Non-examples
+
+1. [[The drastic t-norm|VK2A62AQ0F]] is a t-norm without a residuum, so it gives no MTL-algebra.
+2. A Heyting algebra that is not a subdirect product of chains is not an MTL-algebra; [[the fork|6S7TSV01WB]] gives one, since it refutes prelinearity.
+
+### Basic properties
+
+1. Strong completeness: $\Gamma \models_{\mathrm{MTL}} \varphi$ iff $\Gamma \vdash_{\mathrm{MTL}} \varphi$, for every set $\Gamma$ of premises, as SEP states.
+2. MTL is complete for all MTL-algebras and for all MTL-chains, by the decomposition of every MTL-algebra into a subdirect product of chains.
+3. Standard completeness: a formula is provable in MTL iff it is valid in $[0, 1]_*$ for every left-continuous t-norm $*$.
+4. $\varphi \otimes \psi \to \varphi \land \psi$ is a tautology, and its converse is not.
+5. The validity problem is decidable; SEP reports that its computational complexity is not known.
+6. BL, Łukasiewicz, Gödel and product logic are axiomatic extensions of MTL.
+
+### History
+
+SEP and Wikipedia report that Esteva and Godo introduced MTL and MTL-algebras in 2001.
+Wikipedia credits the standard completeness theorem to Jenei and Montagna (2002).
+SEP states that their proof starts from completeness for MTL-chains.
+Cintula (2005) and Chvalovský (2012) showed that the axioms MTL2 and MTL3 are redundant.
+
+### Common errors
+
+1. Defining $\land$ by $A \otimes (A \to B)$ in MTL. This works only in BL; for the nilpotent minimum it gives $0$ at $A = 0.4$, $B = 0.3$.
+2. Calling MTL the logic of all t-norms. Only left-continuous t-norms have the residuum that interprets $\to$.
+3. Assuming that each MTL-algebra is a chain. Only the subdirectly irreducible ones are; the product $[0, 1]_* \times [0, 1]_*$ is not linearly ordered.
+
+## Explanations
+
+### L1 human
+
+MTL is the most general of the main fuzzy logics.
+It allows every "and" on degrees of truth that has a matching "if then".
+Its laws hold in each of these fuzzy logics.
+
+### L2 human
+
+To refute a formula in MTL, find one left-continuous t-norm and one evaluation where its value is below $1$.
+The nilpotent minimum is a good first test, since it is not continuous.
+A trap: $\land$ and $\otimes$ are different connectives, and $\land$ must be read as $\min$, not as the t-norm.
+
+### L3 human
+
+MTL-algebras are the prelinear commutative bounded integral residuated lattices, as Wikipedia states.
+They form a variety, and the subdirect decomposition into chains gives completeness for chains.
+Standard completeness, proved by Jenei and Montagna, reduces validity in all MTL-chains to validity in the chains $[0, 1]_*$.
+Běhounek and Cintula used completeness with respect to chains to propose a general definition of fuzzy logic, as SEP reports.

@@ -1,0 +1,85 @@
+---
+tag: ND17WYDNA5
+kind: statement
+role: theorem
+name: Strong Kleene logic has no tautologies
+msc: ["03B50"]
+topics: [WZP584JQ06]
+audience: grad
+about: [SZHA10A9X7]
+uses: [74R8A41V6M, TFDYXS3K1N]
+proofs: [VT9D8SA2AX]
+sources:
+  - url: https://en.wikipedia.org/wiki/Three-valued_logic
+    locator: Kleene and Priest logics
+  - url: https://plato.stanford.edu/entries/logic-manyvalued/
+    locator: "2.2 From two to three truth values: gaps and gluts"
+---
+
+## Statement
+
+Let $\varphi$ be a [[formula|TFDYXS3K1N]] built from variables with $\neg$, $\land$, $\lor$ and $\to$, where $\varphi \to \psi$ abbreviates $\neg \varphi \lor \psi$.
+Evaluate $\varphi$ in the [[strong Kleene matrix|74R8A41V6M]].
+
+**Theorem.**
+
+1. The valuation that gives every variable the value $\tfrac12$ gives $\varphi$ the value $\tfrac12$.
+2. So no formula is a tautology of $\mathsf{K}_3$: $\not\models_{\mathsf{K}_3} \varphi$ for every $\varphi$.
+3. More generally, $\Gamma \models_{\mathsf{K}_3} \varphi$ implies that $\Gamma$ is nonempty.
+
+The proof is [[by structural induction|VT9D8SA2AX]].
+
+## Remarks
+
+### Why each hypothesis is needed
+
+1. No constants. If the constant $1$ (often written $\top$) is a formula, then $\top$ is a tautology, so the theorem fails.
+2. The designated set $\set{1}$. With designated set $\set{\tfrac12, 1}$, the logic $\mathsf{LP}$ has the tautology $p \lor \neg p$.
+3. The connectives. With Łukasiewicz implication, $p \to p$ always has the value $1$; see [[the non-definability theorem|729J1FD1GZ]].
+
+### Consequences
+
+1. Every classical tautology fails in $\mathsf{K}_3$; for a concrete case see [[the example of $p \to p$|MBVRGSV45Y]].
+2. $\mathsf{K}_3$ has no deduction theorem: $p \models_{\mathsf{K}_3} p$, but $\not\models_{\mathsf{K}_3} p \to p$.
+3. Any Hilbert-style system for $\mathsf{K}_3$ must have no axioms; it consists of rules only.
+
+### Converse
+
+Every valid inference of $\mathsf{K}_3$ is classically valid, because valuations into $\set{0, 1}$ are $\mathsf{K}_3$ valuations.
+The converse fails, also with premises: $q \models p \lor \neg p$ holds classically, but $q = 1$, $p = \tfrac12$ refutes it in $\mathsf{K}_3$.
+
+### Generalizations
+
+1. The same argument works for every connective $f$ with $f(\tfrac12, \dots, \tfrac12) = \tfrac12$, for example weak Kleene connectives.
+2. [[First-degree entailment|KXTP4P3GHT]] has no tautologies for the same reason, with the value "neither".
+
+## History
+
+Kleene introduced the strong tables in 1938 for partial recursive predicates.
+The Wikipedia article "Three-valued logic" states the fact: if all variables are Unknown, the formula is Unknown.
+
+## Explanations
+
+### L1 human
+
+Put "undefined" into every variable.
+"Not undefined" is undefined, and "undefined and undefined" is undefined.
+So the whole formula is undefined, never true.
+This means no formula is true in every case.
+
+### L2 human
+
+We check item 1 for $\varphi = (p \land q) \to p$.
+
+1. At $p = q = \tfrac12$: $p \land q = \tfrac12$.
+2. $\neg(p \land q) = \tfrac12$.
+3. $(p \land q) \to p = \max(\tfrac12, \tfrac12) = \tfrac12$.
+
+The typical use: to show that an inference needs premises, or that a law of classical logic is lost.
+A trap: "no tautologies" does not mean "no valid inferences"; $(p \land q) \models p$ still holds.
+
+### L3 human
+
+The set $\set{\tfrac12}$ is a subuniverse of the strong Kleene algebra, so it is closed under every term operation.
+The theorem is an instance of a general fact: if a matrix without constants has a one-element subalgebra outside the designated set, then the matrix has no tautologies.
+The same subalgebra argument shows that [[first-degree entailment|KXTP4P3GHT]] and weak Kleene logic have no tautologies.

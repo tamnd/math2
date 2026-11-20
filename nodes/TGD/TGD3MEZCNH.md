@@ -1,0 +1,52 @@
+---
+tag: TGD3MEZCNH
+kind: example
+name: The three basic t-norms and their residua at 0.7 and 0.4
+msc: ["03B52"]
+topics: [WZP584JQ06]
+audience: grad
+instance_of: [VR6D8JXX1W]
+illustrates: [7R2JBNNMT5]
+uses: [BHGCVPAJW0]
+sources:
+  - url: https://plato.stanford.edu/entries/logic-fuzzy/
+    locator: 1. Fuzzy connectives based on t-norms
+  - url: https://en.wikipedia.org/wiki/T-norm
+    locator: Prominent examples; Residua of common left-continuous t-norms
+---
+
+## Example
+
+Let $x = 0.7$ and $y = 0.4$.
+We compute the three basic [[t-norms|BHGCVPAJW0]], their residua, their negations and their t-conorms.
+
+1. Łukasiewicz: $x \odot y = \max(0, 0.7 + 0.4 - 1) = 0.1$.
+2. Gödel: $\min(0.7, 0.4) = 0.4$.
+3. Product: $0.7 \cdot 0.4 = 0.28$.
+4. So $0.1 \le 0.28 \le 0.4$, as the pointwise order Łukasiewicz $\le$ product $\le$ minimum requires.
+5. Residua at $x > y$, by [[the residua statement|7R2JBNNMT5]]: Łukasiewicz $\min(1, 1 - 0.7 + 0.4) = 0.7$; Gödel $0.4$; product $0.4 / 0.7 = 4/7 \approx 0.571$.
+6. Check for product: $\tfrac47 \cdot 0.7 = 0.4 \le 0.4$, and any $z > \tfrac47$ gives $z \cdot 0.7 > 0.4$.
+7. Residua in the other direction: $0.4 \Rightarrow 0.7 = 1$ for all three, since $0.4 \le 0.7$.
+8. Negations of $0.7$: Łukasiewicz $0.3$; Gödel and product $0$.
+9. T-conorms: Łukasiewicz $\min(1, 1.1) = 1$; maximum $0.7$; probabilistic sum $0.7 + 0.4 - 0.28 = 0.82$.
+
+## Remarks
+
+1. The conjunction $x \odot (x \Rightarrow y)$ gives back $\min(x, y) = 0.4$ in all three cases: $0.7 \odot 0.7 = 0.4$, $\min(0.7, 0.4) = 0.4$, and $0.7 \cdot \tfrac47 = 0.4$.
+   Wikipedia states this equality for every continuous t-norm.
+2. The residuum $x \Rightarrow y$ is largest for Łukasiewicz and smallest for Gödel here, because a smaller t-norm leaves more room for $z$.
+
+## Explanations
+
+### L1 human
+
+The same two degrees give three different answers for "and": $0.1$, $0.4$ and $0.28$.
+Each fuzzy logic picks one rule and keeps it.
+
+### L2 human
+
+1. Compute the t-norm.
+2. For the residuum at $x > y$, solve $z * x \le y$ for the largest $z$.
+3. For the negation, put $y = 0$.
+
+A trap: the product residuum is $y / x$, not $x / y$ and not $y - x$.

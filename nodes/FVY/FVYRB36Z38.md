@@ -1,0 +1,56 @@
+---
+tag: FVYRB36Z38
+kind: example
+name: The one-point Routley-Meyer frame is classical
+msc: ["03B47", "03B05"]
+topics: [98QF5J4W16]
+audience: research
+instance_of: [H4Z8J0KMAY]
+uses: [XHN0G5FFR5, 05RSK4Q657]
+sources:
+  - url: https://en.wikipedia.org/wiki/Relevance_logic
+    locator: Models, Routley-Meyer models
+  - url: https://plato.stanford.edu/entries/logic-relevance/logicR.html
+    locator: supplement The Logic R
+    note: Mares, Relevance Logic, Stanford Encyclopedia of Philosophy, revision of 2020-11-13
+---
+
+## Example
+
+Let $W = \set{0}$, $R = \set{(0, 0, 0)}$ and $0^* = 0$.
+This is a [[Routley-Meyer frame|XHN0G5FFR5]], and the formulas that hold on it are exactly the classical tautologies.
+
+1. $0 \leq 0$ holds, since $R000$ holds, so conditions 1 and 2 of the definition hold.
+2. Condition 3 holds, since the only triple is $(0, 0, 0)$ and it is in $R$.
+3. $0^{**} = 0$, and condition 5 reduces to $0 \leq 0$.
+4. A valuation is a choice of truth value at $0$ for each variable; every set of points is hereditary here.
+5. $0 \Vdash \neg A$ if and only if $0^* = 0 \nVdash A$, which is the classical clause for negation.
+6. $0 \Vdash A \rightarrow B$ if and only if $0 \Vdash A$ implies $0 \Vdash B$, since $R000$ is the only triple.
+7. With the classical clauses for $\wedge$ and $\vee$, truth at $0$ is computed by the [[truth tables|05RSK4Q657]].
+8. So a formula holds on the frame if and only if it is a classical tautology.
+
+## Remarks
+
+On this frame, the paradoxes $p \rightarrow (q \rightarrow p)$ and $(p \wedge \neg p) \rightarrow q$ hold, so this frame validates formulas that relevance logics reject.
+Relevance logics fail these formulas because other frames, such as the [[two-point model|PSTKVCYKAB]], are also allowed.
+Each axiom scheme of $\mathbf{R}$ in the SEP supplement is a classical tautology, and modus ponens and adjunction keep tautologies.
+So every theorem of $\mathbf{R}$ is a classical tautology.
+The converse fails, since $p \rightarrow (q \rightarrow p)$ is a tautology but not a theorem of $\mathbf{R}$.
+
+## Explanations
+
+### L1 human
+
+With one point, the three-place relation has nothing to choose, and the star sends the point to itself.
+Then "if" and "not" behave as in ordinary truth tables.
+
+### L2 human
+
+We compute $p \rightarrow (q \rightarrow p)$ at $0$ when $p$ is true and $q$ is false.
+
+1. $q \rightarrow p$ is true at $0$, since $p$ is true at $0$.
+2. $p \rightarrow (q \rightarrow p)$ is true at $0$, since $q \rightarrow p$ is true at $0$.
+3. In the other three cases the formula is also true, as in the classical truth table.
+
+The typical use of this frame is to show that relevance logics are contained in classical logic.
+A trap: the frame validates more than $\mathbf{R}$, so it cannot show that a formula is not a theorem of $\mathbf{R}$, unless the formula fails classically.

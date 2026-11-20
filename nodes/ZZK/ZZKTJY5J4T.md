@@ -1,0 +1,125 @@
+---
+tag: ZZKTJY5J4T
+kind: concept
+name: Substructural logic
+msc: ["03B47"]
+topics: [98QF5J4W16]
+audience: research
+uses: [PZX9J3VEMT, W72CA3R9MP, E337A6WVH3]
+sources:
+  - url: https://en.wikipedia.org/wiki/Substructural_logic
+    locator: lead section
+  - url: https://en.wikipedia.org/wiki/Substructural_logic
+    locator: History
+  - url: https://plato.stanford.edu/entries/logic-substructural/
+    locator: 1. Structural Rules
+    note: Restall, Substructural Logics, Stanford Encyclopedia of Philosophy, revision of 2024-08-15
+  - book: isbn:9780415215343
+    note: Restall, An Introduction to Substructural Logics
+  - book: isbn:9780444521415
+    note: Galatos, Jipsen, Kowalski and Ono, Residuated Lattices
+  - url: https://plato.stanford.edu/entries/logic-linear/
+    locator: 1.1 A bit of history
+    note: Di Cosmo and Miller, Linear Logic, Stanford Encyclopedia of Philosophy, revision of 2023-09-16
+---
+
+## Summary
+
+A *substructural logic* is a logic whose [[sequent calculus|W72CA3R9MP]] lacks at least one of the structural rules of Gentzen's calculus LK or LJ.
+The structural rules are [[weakening|VHRXX0T5XT]], [[contraction|V0MZVC2XA9]] and [[exchange|YAFD18WYJ8]]; see the rules WL, WR, CL, CR, XL and XR in [[the definition of LK|PZX9J3VEMT]].
+Each logic of the family keeps the identity axiom $A \Rightarrow A$ and the logical rules, and it keeps or drops each structural rule.
+The common base is the [[full Lambek calculus|V5XVVN16GS]] $\mathsf{FL}$, which has none of the three rules.
+Its algebraic models are the [[residuated lattices|E337A6WVH3]], and each structural rule corresponds to an equation on these lattices.
+Substructural logics matter because the structural rules encode assumptions about the use of hypotheses: order, repetition and relevance.
+
+## Motivation
+
+In classical and intuitionistic logic, a hypothesis can be used any number of times, in any order, or not at all.
+These freedoms come from the structural rules, not from the meaning of the connectives.
+When we read a hypothesis as a resource, such as a coin or a word in a sentence, the freedoms fail.
+A coin spent once is gone, so contraction fails.
+In the sentence "the dog sleeps", the order of the words matters, so exchange fails.
+In an argument, an unused premise is irrelevant, so a relevance logician rejects weakening.
+Dropping a structural rule changes the logic, and it also splits each connective into several versions.
+For example, without weakening and contraction the conjunction "and" splits into a multiplicative $\otimes$ and an additive $\mathbin{\&}$.
+
+## Notation
+
+We write two-sided sequents as $\Gamma \Rightarrow A$ or $\Gamma \Rightarrow \Delta$, as in [[the definition of LK|PZX9J3VEMT]], and keep $\vdash$ for derivability.
+For [[linear logic|2P2184B6HE]] we use one-sided sequents $\vdash \Gamma$, as Girard does.
+The multiplicative conjunction is written $A \cdot B$ (fusion) in the Lambek tradition and $A \otimes B$ (tensor) in the linear tradition.
+The names $\mathsf{FL}$, $\mathsf{FL}_e$, $\mathsf{FL}_w$, $\mathsf{FL}_{ew}$ follow Galatos, Jipsen, Kowalski and Ono: the subscripts $e$, $w$, $c$ name the structural rules that are added.
+
+## Remarks
+
+### Examples
+
+1. The [[Lambek calculus|5FAC9KX4H0]] has no exchange, no weakening and no contraction; see [[exchange fails in the Lambek calculus|7PY2HR7ND5]].
+2. [[Linear logic|2P2184B6HE]] has exchange but no weakening and no contraction, except for formulas marked with the exponentials $!$ and $?$.
+3. [[Affine logic|K67C2N2QAH]] has exchange and weakening but no contraction.
+4. [[Relevance logic|KXTCZ2FY5M]], for example the system $\mathbf{R}$, has exchange and contraction but no weakening.
+5. [[Abelian logic|W3CPQAFQJ3]] has neither weakening nor contraction, and it proves $((A \to B) \to B) \to A$.
+6. The [[table of substructural logics by their structural rules|4RTQGMFQTN]] lists these cases side by side.
+
+### Non-examples
+
+1. Intuitionistic logic is not substructural: LJ has all three rules; see [[intuitionistic logic is not substructural|YAQY3P8BT0]].
+2. Classical logic is not substructural: LK has all three rules on both sides of the sequent.
+3. A logic that changes only the logical rules, such as [[minimal logic|3MBG95617E]], is not substructural, since it keeps every structural rule.
+
+### Basic properties
+
+1. Most logics of the family are contained in classical logic, when we read each connective as its classical counterpart.
+   Abelian logic is an exception, since it proves $((p \to q) \to q) \to p$, which is not a classical tautology.
+2. In the presence of weakening and contraction, the multiplicative and additive conjunctions prove each other.
+   So the split of the connectives is a consequence of dropping these rules.
+3. The [[full Lambek calculus|V5XVVN16GS]] and its extensions by exchange and weakening have [[cut elimination|JSAH84Y9G2]].
+   With contraction, the usual proof replaces cut by Gentzen's mix rule, and we do not treat that case.
+4. Each extension of $\mathsf{FL}$ is complete for a variety of [[residuated lattices|E337A6WVH3]]; see [[the definition of FL|Q47701D0E1]].
+   Exchange gives commutativity, weakening gives integrality $x \leq 1$ and $0 \leq x$, and contraction gives $x \leq x \cdot x$.
+5. Decidability varies across the family: [[multiplicative-additive linear logic is decidable, but full linear logic is not|BNRWJB2R8C]], and the relevance logic $\mathbf{R}$ is [[undecidable|X7F69S7QPX]].
+
+### History
+
+The Stanford Encyclopedia of Philosophy entry dates the Lambek calculus to 1958 and the systems of relevant logic to work of Moh (1950), Church (1951) and Ackermann (1956).
+Wikipedia reports that Došen proposed the name "substructural logic" at a conference in Tübingen in October 1990.
+Girard introduced [[linear logic|2P2184B6HE]] in 1987.
+
+### Common errors
+
+1. Reading "substructural" as "weaker than classical logic in every way".
+   Linear logic has more connectives than classical logic, and its exponentials recover classical and intuitionistic logic by translation.
+2. Forgetting that the order of formulas is part of the structure.
+   Without exchange, $A, B \Rightarrow C$ and $B, A \Rightarrow C$ are different sequents.
+3. Counting cut among the rules that define the family.
+   The family is defined by weakening, contraction and exchange, and the logics treated here keep cut.
+
+## Explanations
+
+### L1 human
+
+Ordinary logic lets us use a fact again and again, in any order, or ignore it.
+A substructural logic removes some of these freedoms.
+Think of a shopping list where each item costs one coin, and we have two coins.
+We can buy two items, but not three, because each coin is used once.
+A logic that counts in this way has no contraction, the rule that copies a fact.
+
+### L2 human
+
+We compare two derivations of $p \Rightarrow p \wedge p$.
+
+1. In LJ, start with two axioms $p \Rightarrow p$.
+2. The rule for $\wedge$ on the right, in the form with a shared context, gives $p \Rightarrow p \wedge p$.
+3. In the form with split contexts, the rule gives $p, p \Rightarrow p \wedge p$, and contraction CL gives $p \Rightarrow p \wedge p$.
+4. In LJ the two forms derive the same sequents, because weakening and contraction move between them.
+5. Without contraction, the split form gives the tensor $p \otimes p$ of [[linear logic|2P2184B6HE]], and $p \Rightarrow p \otimes p$ is [[not derivable|V444A285N3]].
+
+The typical use of a substructural logic is to model a resource that can be used only in a controlled way.
+A trap: the two forms of the $\wedge$ rule are equivalent only in the presence of weakening and contraction.
+
+### L3 human
+
+Algebraically, the family is the study of varieties of [[residuated lattices|E337A6WVH3]], and each structural rule is an equation; this is the subject of the later sub-area on algebraic logic.
+Categorically, the multiplicative fragment lives in [[symmetric monoidal closed categories|EKJBDD07TY]], and the structural rules ask for diagonal and terminal maps, which make the category cartesian.
+In proof theory, the same distinctions appear as [[hypersequent|3PR9PEMXJ4]] and [[display|1X7D5CBXB7]] calculi, which let one treat many substructural logics with one method.
+Contraction is the rule behind [[Curry's paradox|40Q1NK471S]], and it also causes the large growth of proofs under cut elimination, which motivates [[light linear logics|E7JVJSSWBT]].

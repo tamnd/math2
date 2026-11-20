@@ -1,0 +1,63 @@
+---
+tag: 4RTQGMFQTN
+kind: example
+name: Substructural logics by their structural rules
+msc: ["03B47"]
+topics: [98QF5J4W16]
+audience: research
+instance_of: [ZZKTJY5J4T]
+uses: [PZX9J3VEMT, VHRXX0T5XT, V0MZVC2XA9, YAFD18WYJ8]
+sources:
+  - url: https://en.wikipedia.org/wiki/Substructural_logic
+    locator: Examples
+  - url: https://plato.stanford.edu/entries/logic-substructural/
+    locator: 2. Different Logics
+    note: Restall, Substructural Logics, Stanford Encyclopedia of Philosophy, revision of 2024-08-15
+---
+
+## Example
+
+The table lists six logics with the structural rules that each one has.
+A mark "yes" means that the rule is a rule of the calculus or is admissible; "no" means that it is not admissible.
+
+| Logic | Exchange | Weakening | Contraction |
+|---|---|---|---|
+| [[Lambek calculus|5FAC9KX4H0]] $\mathsf{L}$ | no | no | no |
+| [[Full Lambek calculus|V5XVVN16GS]] $\mathsf{FL}_e$ | yes | no | no |
+| [[Linear logic|2P2184B6HE]], without $!$ and $?$ | yes | no | no |
+| [[Affine logic|K67C2N2QAH]] | yes | yes | no |
+| [[Relevance logic|KXTCZ2FY5M]] $\mathbf{R}$ | yes | no | yes |
+| [[Intuitionistic logic|Q11N8X99FK]] | yes | yes | yes |
+
+We check each "no" with one sequent.
+
+1. $\mathsf{L}$ lacks exchange: $A, A \backslash B \Rightarrow B$ is derivable and $A \backslash B, A \Rightarrow B$ is not; see [[exchange fails in the Lambek calculus|7PY2HR7ND5]].
+2. $\mathsf{FL}_e$ and linear logic lack weakening: $A \multimap (B \multimap A)$ is not derivable; see [[weakening is not admissible in linear logic|V1ZRAX3GBM]].
+3. $\mathsf{FL}_e$, linear logic and affine logic lack contraction: $A \multimap A \otimes A$ is not derivable; see [[the sequent A to A tensor A|V444A285N3]] and [[contraction fails in affine logic|DPKJWDD7XN]].
+4. $\mathbf{R}$ lacks weakening: $p \to (q \to p)$ is not a theorem of $\mathbf{R}$; see [[the paradox of weakening fails in R|8V97CTCPS9]].
+
+So the first five logics are substructural, and the last one is not.
+
+## Remarks
+
+The table shows that weakening and contraction are independent: affine logic has weakening without contraction, and $\mathbf{R}$ has contraction without weakening.
+Linear logic recovers weakening and contraction for formulas $?A$ in one-sided sequents, so the "no" in its row is about formulas without exponentials.
+Adding all three rules to $\mathsf{FL}$ gives intuitionistic logic, as the [[non-example|YAQY3P8BT0]] shows.
+
+## Explanations
+
+### L1 human
+
+Each row of the table is a logic, and each column is a freedom: change the order, add a fact, or copy a fact.
+A substructural logic is a row with at least one "no".
+Intuitionistic logic says "yes" three times, so it is not substructural.
+
+### L2 human
+
+We check the row of affine logic in two steps.
+
+1. Weakening holds: from $\vdash A^{\perp}, A$ the affine rule gives $\vdash A^{\perp}, A, B^{\perp}$, and two par rules give $A \multimap (B \multimap A)$.
+2. Contraction fails: $\vdash A^{\perp}, A \otimes A$ has no cut-free derivation; see [[contraction fails in affine logic|DPKJWDD7XN]].
+
+The typical use of such a table is to choose a logic for a given notion of resource.
+A trap: a rule can be absent from a calculus and still be admissible, so "no" must be checked with a sequent, as above.

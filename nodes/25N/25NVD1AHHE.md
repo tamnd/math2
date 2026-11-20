@@ -1,0 +1,65 @@
+---
+tag: 25NVD1AHHE
+kind: example
+name: Phase space on the group of order two
+msc: ["03F52"]
+topics: [98QF5J4W16]
+audience: research
+instance_of: [64MHHQQ6G6]
+uses: [5M4Z5EE88F, 14Z5D0JX98]
+sources:
+  - doi: 10.1016/0304-3975(87)90045-4
+    locator: pages 1-101
+    note: Girard, Linear logic, Theoretical Computer Science 50 (1987)
+  - url: https://plato.stanford.edu/entries/logic-linear/
+    locator: 3.1 Semantics of provability
+    note: Di Cosmo and Miller, Linear Logic, Stanford Encyclopedia of Philosophy, revision of 2023-09-16
+---
+
+## Example
+
+Let $M = \mathbb{Z}/2 = \set{0, 1}$ with addition, so the unit is $0$, and let $\bot = \set{0}$.
+This is a [[phase space|5M4Z5EE88F]], and we compute its facts and two connectives.
+
+1. $\emptyset^{\perp} = M$, since the condition is empty.
+2. $\set{0}^{\perp} = \set{m \mid m + 0 = 0} = \set{0}$.
+3. $\set{1}^{\perp} = \set{m \mid m + 1 = 0} = \set{1}$.
+4. $M^{\perp} = \set{0}^{\perp} \cap \set{1}^{\perp} = \emptyset$.
+5. So $X^{\perp\perp} = X$ for all four subsets, and every subset is a fact.
+6. The units: $1^* = \set{0}^{\perp\perp} = \set{0}$ and $\bot^* = \set{0}$, so $1^* = \bot^*$.
+   Also $\top^* = M$ and $0^* = \emptyset$.
+7. For facts $X$ and $Y$, $(X \otimes Y)^* = (X + Y)^{\perp\perp} = X + Y$, since every set is a fact.
+
+Put $p^* = q^* = \set{1}$.
+
+1. $(p \otimes p)^* = \set{1 + 1} = \set{0}$, and $p^* = \set{1} \not\subseteq \set{0}$.
+   So $\vdash p^{\perp}, p \otimes p$ is not valid: contraction fails.
+2. $(p \otimes q)^* = \set{0}$, and $\set{0} \not\subseteq p^*$.
+   So $\vdash (p \otimes q)^{\perp}, p$ is not valid: weakening fails.
+3. By [[soundness|14Z5D0JX98]], neither sequent is derivable in linear logic.
+
+## Remarks
+
+The negation $X \mapsto X^{\perp}$ is the identity on $\set{0}$ and $\set{1}$, and it exchanges $\emptyset$ and $M$.
+Since $(1^*)^{\perp} = \set{0}$, we get $V(1, 1) = \set{0} + \set{0} = \set{0} \subseteq \bot$, so $\vdash 1, 1$ is valid in this model.
+The sequent $\vdash 1, 1$ is not derivable, since a cut-free derivation would end with the axiom $\vdash 1$, which has one formula.
+So this model is sound but far from complete, as soundness allows.
+
+## Explanations
+
+### L1 human
+
+The model has two elements, "even" and "odd", and adding two odd numbers gives an even one.
+We read $p$ as "odd".
+Then "$p$ and $p$" is "even", which does not contain the odd element, so one $p$ does not give two.
+
+### L2 human
+
+We check that the axiom $\vdash p^{\perp}, p$ is valid, as soundness requires.
+
+1. The sequent $\vdash p^{\perp}, p$ is valid if and only if $p^* \subseteq p^*$.
+2. This holds for every fact, and in particular for $p^* = \set{1}$.
+3. Directly: $V(p^{\perp}, p) = (p^*)^{\perp\perp} + (p^*)^{\perp} = \set{1} + \set{1} = \set{0} \subseteq \bot$.
+
+The typical use of this model is to refute contraction and weakening for the tensor in one small computation.
+A trap: the model validates $\vdash 1, 1$, which is not derivable, so validity here does not imply derivability.
