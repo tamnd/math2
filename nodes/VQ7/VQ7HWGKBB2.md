@@ -1,0 +1,60 @@
+---
+tag: VQ7HWGKBB2
+kind: example
+name: Tweety in default logic
+msc: ["68T27", "03B60"]
+topics: [NJB94B39QK]
+audience: ug2
+instance_of: [BKDFH4PKRP, K4AYFFKY2D]
+uses: [BKDFH4PKRP, 44Z7CFSJAE]
+sources:
+  - url: https://plato.stanford.edu/entries/logic-nonmonotonic/
+    locator: Non-monotonic Logic (SEP entry), sections 1 and 3.4
+  - book: isbn:9781904987000
+---
+
+## Example
+
+We show that skeptical consequence in default logic is not monotonic, so default logic is a [[nonmonotonic logic|BKDFH4PKRP]].
+Use the atoms $b$ ("Tweety is a bird"), $p$ ("Tweety is a penguin") and $f$ ("Tweety flies").
+Let $d$ be the default $(b : f)/f$, and use the [[extensions|44Z7CFSJAE]] of Reiter.
+
+First theory: $T_1 = (\set{b}, \set{d})$.
+
+1. Let $E_1 = \mathrm{Cn}(\set{b, f})$. The valuation with $b$ and $f$ true satisfies $E_1$ and falsifies $\neg f$, so $\neg f \notin E_1$.
+2. So $d$ is not blocked by $E_1$. Every set with the three properties for $E_1$ contains $b$, hence $f$, hence $\mathrm{Cn}(\set{b, f})$.
+3. $\mathrm{Cn}(\set{b, f})$ itself has the three properties, so $\Gamma_{T_1}(E_1) = E_1$, and $E_1$ is an extension.
+4. Let $E$ be any extension. If $\neg f \in E$, then $d$ is blocked and $\Gamma_{T_1}(E) = \mathrm{Cn}(\set{b})$, which does not contain $\neg f$. This contradicts $\Gamma_{T_1}(E) = E$.
+5. So $\neg f \notin E$, and as in step 2, $E = \Gamma_{T_1}(E) = \mathrm{Cn}(\set{b, f})$.
+6. So $E_1$ is the only extension, and $f$ is a skeptical consequence of $T_1$.
+
+Second theory: $T_2 = (W_2, \set{d})$ with $W_2 = \set{b, p, p \to \neg f}$.
+
+7. $W_2$ classically implies $\neg f$, so every extension $E \supseteq W_2$ contains $\neg f$ and blocks $d$.
+8. Then $E = \Gamma_{T_2}(E) = \mathrm{Cn}(W_2)$.
+9. Conversely, $\mathrm{Cn}(W_2)$ contains $\neg f$, so it blocks $d$, and $\Gamma_{T_2}(\mathrm{Cn}(W_2)) = \mathrm{Cn}(W_2)$.
+10. So $\mathrm{Cn}(W_2)$ is the only extension. The valuation with $b, p$ true and $f$ false satisfies $W_2$, so $f \notin \mathrm{Cn}(W_2)$.
+
+Conclusion: $\set{b} \subseteq W_2$, and $f$ follows skeptically from $T_1$ but not from $T_2$.
+
+## Remarks
+
+The new facts do not contradict the old conclusion as a fact; they block the default that produced it.
+The same pattern holds for credulous consequence, since both theories have one extension.
+Default logic keeps the classical consequences: $b$ is in every extension of both theories.
+
+## Explanations
+
+### L1 human
+
+We know that Tweety is a bird, and we use the rule "birds fly unless we know otherwise".
+So we conclude that Tweety flies.
+When we learn that Tweety is a penguin and that penguins do not fly, the rule no longer applies.
+The conclusion "Tweety flies" is lost, although we only added information.
+
+### L2 human
+
+For each theory, we guess an extension and check it with the operator $\Gamma_T$.
+In the first theory, nothing contradicts $f$, so the default fires.
+In the second theory, $\neg f$ follows from the facts, so the default is blocked.
+A trap is to put $\neg f$ into the facts and still apply the default; the extension test forbids this.

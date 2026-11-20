@@ -1,0 +1,63 @@
+---
+tag: FBQPD8FV4F
+kind: example
+name: Skeptical default consequence fails Cautious Monotony
+msc: ["68T27", "03B60"]
+topics: [NJB94B39QK]
+audience: grad
+not_instance_of:
+  - target: G4QC9MKFAG
+    note: skeptical consequence in Reiter's default logic fails Cautious Monotony, one of the rules of system P
+uses: [G4QC9MKFAG, 7J659YV5WA, 44Z7CFSJAE]
+sources:
+  - url: https://plato.stanford.edu/entries/logic-nonmonotonic/
+    locator: Non-monotonic Logic (SEP entry), section 3.4
+  - book: isbn:9781904987000
+---
+
+## Example
+
+This example is due to Makinson (1994), as reported in the SEP entry.
+Let $\theta$ and $\gamma$ be atoms, and let $D = \set{d_1, d_2}$ with
+$$d_1 = (\top : \theta)/\theta, \qquad d_2 = (\theta \lor \gamma : \neg\theta)/\neg\theta.$$
+For a formula $\alpha$, put $\alpha \mathrel{|\!\sim} \beta$ if $\beta$ is in every [[extension|44Z7CFSJAE]] of $(\set{\alpha}, D)$.
+We show that $\mathrel{|\!\sim}$ fails Cautious Monotony, a rule of the [[preferential|G4QC9MKFAG]] system $\mathbf{P}$ in [[its definition|7J659YV5WA]].
+
+The theory $(\set{\top}, D)$.
+
+1. Let $E = \mathrm{Cn}(\set{\theta})$. It does not contain $\neg\theta$, so $d_1$ is not blocked, and it contains $\theta$, so $d_2$ is blocked.
+2. The smallest deductively closed set that contains $\top$ and is closed under $d_1$ is $\mathrm{Cn}(\set{\theta})$. So $E$ is an extension.
+3. Let $E'$ be any extension. If $\neg\theta \in E'$, then $d_1$ is blocked. The prerequisite $\theta \lor \gamma$ of $d_2$ is not in $\mathrm{Cn}(\set{\top})$, so $\Gamma(E') = \mathrm{Cn}(\set{\top})$, which does not contain $\neg\theta$. Contradiction.
+4. So $\neg\theta \notin E'$, $d_1$ applies, $\theta \in E'$ blocks $d_2$, and $E' = \mathrm{Cn}(\set{\theta}) = E$.
+5. So $\top \mathrel{|\!\sim} \theta$, and by deductive closure $\top \mathrel{|\!\sim} \theta \lor \gamma$.
+
+The theory $(\set{\top \land (\theta \lor \gamma)}, D)$.
+
+6. The set $E = \mathrm{Cn}(\set{\theta})$ is again an extension, by the argument of steps 1 and 2.
+7. Let $E_2 = \mathrm{Cn}(\set{\theta \lor \gamma, \neg\theta})$. It contains $\neg\theta$, so $d_1$ is blocked. It does not contain $\theta$ (take $\theta$ false and $\gamma$ true), so $d_2$ is not blocked.
+8. The prerequisite $\theta \lor \gamma$ is in the facts, so $d_2$ applies and gives $\neg\theta$. The result is $\mathrm{Cn}(\set{\theta \lor \gamma, \neg\theta}) = E_2$, so $E_2$ is an extension.
+9. $\theta \notin E_2$, so $\top \land (\theta \lor \gamma) \mathrel{|\!\not\sim} \theta$.
+
+By steps 5 and 9, $\top \mathrel{|\!\sim} \theta \lor \gamma$ and $\top \mathrel{|\!\sim} \theta$, but $\top \land (\theta \lor \gamma) \mathrel{|\!\not\sim} \theta$.
+So Cautious Monotony fails, and $\mathrel{|\!\sim}$ is not a preferential consequence relation.
+
+## Remarks
+
+Adding the consequence $\theta \lor \gamma$ as a fact makes $d_2$ applicable without $d_1$, and so creates a new extension.
+The same example shows that credulous consequence fails Cut: $E_2$ gives $\top \land (\theta \lor \gamma) \mathrel{|\!\sim}_{\mathrm{cr}} \neg\theta$, but $\top \mathrel{|\!\sim}_{\mathrm{cr}} \neg\theta$ fails.
+Antonelli's general extensions give a variant of default logic that satisfies Cut and Cautious Monotony.
+
+## Explanations
+
+### L1 human
+
+From no facts, the defaults conclude $\theta$, and so also "$\theta$ or $\gamma$".
+If we add "$\theta$ or $\gamma$" as a fact, nothing new should follow.
+But the new fact lets the second default fire on its own, and a new picture of the world appears without $\theta$.
+
+### L2 human
+
+The second default needs the prerequisite $\theta \lor \gamma$ as a derived fact, before $d_1$ decides the question.
+In the first theory, it can only get it from $d_1$, which also blocks it.
+In the second theory, it gets it from the facts, and it can win.
+A trap is to think that every nonmonotonic logic satisfies system $\mathbf{P}$; Reiter's default logic does not.
