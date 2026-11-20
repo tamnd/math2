@@ -66,7 +66,7 @@ Example: $\vdash A^{\perp}, A \mathbin{\&} A$ is derivable: apply the rule for $
 
 Non-example: $\vdash p^{\perp}, p \otimes p$ is not derivable for an atom $p$.
 By cut elimination, a derivation can be taken cut-free, and then its last rule is the $\otimes$ rule, since the other formula is an atom.
-That rule gives $p^{\perp}$ to one premise and nothing to the other, and $\vdash p$ is not derivable; see [[the full check|~4201f767]].
+That rule gives $p^{\perp}$ to one premise and nothing to the other, and $\vdash p$ is not derivable; see [[the full check|V444A285N3]].
 In classical [[propositional logic|09K9MWD2QQ]], $p \to p \wedge p$ is a tautology, which shows the role of contraction.
 
 The rules are symmetric under negation: the rule for $\mathbin{\wp}$ plays the role of the left rule for $\otimes$ in a two-sided calculus.

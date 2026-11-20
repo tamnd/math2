@@ -22,10 +22,10 @@ inventory: [2GPQGR9T5S]
 
 ## Summary
 
-*Weakening* is the structural rule of a [[sequent calculus|W72CA3R9MP]] that adds a formula to a derivable sequent: from $\Gamma \Rightarrow \Delta$ infer $\Gamma, A \Rightarrow \Delta$ (left weakening) or $\Gamma \Rightarrow \Delta, A$ (right weakening); see [[the definition|~20ee74f2]].
+*Weakening* is the structural rule of a [[sequent calculus|W72CA3R9MP]] that adds a formula to a derivable sequent: from $\Gamma \Rightarrow \Delta$ infer $\Gamma, A \Rightarrow \Delta$ (left weakening) or $\Gamma \Rightarrow \Delta, A$ (right weakening); see [[the definition|JNYY1WD8SR]].
 The rule says that a valid inference stays valid when we add a premise or a possible conclusion.
 In Hilbert style it corresponds to the axiom $A \to (B \to A)$, and in residuated lattices to integrality, $x \leq 1$.
-Logics without weakening, such as [[relevance logic|~366e4c45]] and [[linear logic|2P2184B6HE]], require every hypothesis to be used.
+Logics without weakening, such as [[relevance logic|KXTCZ2FY5M]] and [[linear logic|2P2184B6HE]], require every hypothesis to be used.
 
 ## Motivation
 
@@ -45,21 +45,21 @@ In the names $\mathsf{FL}_w$ and $\mathsf{FL}_{ew}$ of extensions of the full La
 
 ### Examples
 
-1. In LJ, weakening derives $p \to (q \to p)$; see [[weakening derives the paradox of weakening|~f76d7f8b]].
-2. In linear logic, weakening on $?$-formulas derives $A \multimap (!B \multimap A)$; see [[controlled weakening in linear logic|~e9d02b4f]].
-3. [[Affine logic|K67C2N2QAH]] is linear logic with unrestricted weakening, so it proves $A \otimes B \multimap A$; see [[the example|~f904a999]].
+1. In LJ, weakening derives $p \to (q \to p)$; see [[weakening derives the paradox of weakening|M7Z40M37TQ]].
+2. In linear logic, weakening on $?$-formulas derives $A \multimap (!B \multimap A)$; see [[controlled weakening in linear logic|K428NVQY1M]].
+3. [[Affine logic|K67C2N2QAH]] is linear logic with unrestricted weakening, so it proves $A \otimes B \multimap A$; see [[the example|W1B5YCDK93]].
 4. In a Heyting algebra, weakening is the inequality $x \wedge y \leq x$.
 
 ### Non-examples
 
-1. In linear logic without exponentials, weakening is not admissible: $A \multimap (B \multimap A)$ has no derivation; see [[weakening is not admissible in linear logic|~ba0ba405]].
-2. In the relevance logic $\mathbf{R}$, the formula $p \to (q \to p)$ is not a theorem; see [[the paradox of weakening fails in R|~359f1e48]].
+1. In linear logic without exponentials, weakening is not admissible: $A \multimap (B \multimap A)$ has no derivation; see [[weakening is not admissible in linear logic|V1ZRAX3GBM]].
+2. In the relevance logic $\mathbf{R}$, the formula $p \to (q \to p)$ is not a theorem; see [[the paradox of weakening fails in R|8V97CTCPS9]].
 3. In [[abelian logic|W3CPQAFQJ3]], the formula $p \to (q \to p)$ takes the value $-q$ in $\mathbb{Z}$, so it is not valid.
 
 ### Basic properties
 
 1. In LK and LJ, weakening is admissible in the cut-free calculus without the weakening rules, if the axioms are $\Gamma, A \Rightarrow A, \Delta$; this is the form used in [[contraction-free calculi|KP5KA51FC4]].
-2. In the full Lambek calculus, left weakening is sound in a residuated lattice exactly when $x \leq 1$ for all $x$, and right weakening exactly when $0 \leq x$ for all $x$; see [[the definition|~20ee74f2]].
+2. In the full Lambek calculus, left weakening is sound in a residuated lattice exactly when $x \leq 1$ for all $x$, and right weakening exactly when $0 \leq x$ for all $x$; see [[the definition|JNYY1WD8SR]].
 3. With weakening, the multiplicative conjunction implies the additive one: from $A, B \Rightarrow A$ and $A, B \Rightarrow B$ we get $A \cdot B \Rightarrow A \wedge B$.
 
 ### History

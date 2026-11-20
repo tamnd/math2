@@ -28,7 +28,7 @@ inventory: [C0TJKGJAYY]
 
 ## Summary
 
-*Exchange*, also called permutation, is the structural rule of a [[sequent calculus|W72CA3R9MP]] that swaps two neighboring formulas: from $\Gamma, A, B, \Gamma' \Rightarrow \Delta$ infer $\Gamma, B, A, \Gamma' \Rightarrow \Delta$, and the same on the right; see [[the definition|~1e8b283a]].
+*Exchange*, also called permutation, is the structural rule of a [[sequent calculus|W72CA3R9MP]] that swaps two neighboring formulas: from $\Gamma, A, B, \Gamma' \Rightarrow \Delta$ infer $\Gamma, B, A, \Gamma' \Rightarrow \Delta$, and the same on the right; see [[the definition|3ZNQNN1A45]].
 It says that the order of the hypotheses does not matter.
 In Hilbert style it corresponds to the axiom $(A \to (B \to C)) \to (B \to (A \to C))$, and in residuated lattices to the commutativity of fusion, $x \cdot y = y \cdot x$.
 Logics without exchange, such as the [[Lambek calculus|5FAC9KX4H0]], are called non-commutative, and in them implication splits into two residuals.
@@ -52,19 +52,19 @@ Without exchange, there are two implications: $A \backslash B$ (hypothesis $A$ o
 ### Examples
 
 1. LK and LJ have exchange, so their sequents can be read as multisets.
-2. Linear logic has exchange, and it derives $A \otimes B \multimap B \otimes A$; see [[the derivation|~d0f6e178]].
-3. In $\mathsf{FL}_e$, fusion is commutative: $p \cdot q \Rightarrow q \cdot p$ is derivable; see [[the example|~115e334f]].
+2. Linear logic has exchange, and it derives $A \otimes B \multimap B \otimes A$; see [[the derivation|8KN0QTZ1ED]].
+3. In $\mathsf{FL}_e$, fusion is commutative: $p \cdot q \Rightarrow q \cdot p$ is derivable; see [[the example|SSHRBKVCK6]].
 4. The relevance logic $\mathbf{R}$ has the permutation axiom $(A \to (B \to C)) \to (B \to (A \to C))$.
 
 ### Non-examples
 
-1. The [[Lambek calculus|5FAC9KX4H0]] has no exchange, and $p, q \Rightarrow p \cdot q$ does not give $q, p \Rightarrow p \cdot q$; see [[exchange fails in the Lambek calculus|~86d518d3]].
+1. The [[Lambek calculus|5FAC9KX4H0]] has no exchange, and $p, q \Rightarrow p \cdot q$ does not give $q, p \Rightarrow p \cdot q$; see [[exchange fails in the Lambek calculus|7PY2HR7ND5]].
 2. The languages over the alphabet $\set{a, b}$, with concatenation as fusion, form a residuated lattice in which $\set{a} \cdot \set{b} = \set{ab}$ differs from $\set{b} \cdot \set{a} = \set{ba}$.
 3. The relevance logic $\mathbf{E}$ of entailment has no full permutation axiom, since it is a logic of necessary implication.
 
 ### Basic properties
 
-1. Exchange is sound in a residuated lattice exactly when fusion is commutative; see [[the definition|~1e8b283a]].
+1. Exchange is sound in a residuated lattice exactly when fusion is commutative; see [[the definition|3ZNQNN1A45]].
 2. With exchange, the two implications coincide: $A \backslash B$ and $B / A$ prove each other.
 3. Exchange is independent of weakening and contraction: linear logic has exchange but neither of the other two, and the Lambek calculus has none of the three.
 
@@ -107,4 +107,4 @@ A trap: some authors write $B / A$ as $A \rightarrow B$ or as $B \leftarrow A$, 
 
 Algebraically, exchange is commutativity of the monoid of a residuated lattice, and categorically it is a symmetry of a monoidal category.
 A non-commutative residuated lattice has two residuals, as a monoidal closed category that is not symmetric has two internal homs.
-The [[Lambek calculus|5FAC9KX4H0]] is the logic of residuated semigroups, and the [[full Lambek calculus|~31b7d92c]] is the logic of residuated lattices without any structural rule.
+The [[Lambek calculus|5FAC9KX4H0]] is the logic of residuated semigroups, and the [[full Lambek calculus|V5XVVN16GS]] is the logic of residuated lattices without any structural rule.

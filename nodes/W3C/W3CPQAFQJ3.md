@@ -5,7 +5,7 @@ name: Abelian logic
 msc: ["03B47", "06F20"]
 topics: [98QF5J4W16]
 audience: research
-uses: [~fef4b751, 082GHNPJ53, J0DHYQ0MDE]
+uses: [ZZKTJY5J4T, 082GHNPJ53, J0DHYQ0MDE]
 sources:
   - wikipedia: en:76765067@r1368301704
     locator: Glossary of logic, section A
@@ -29,8 +29,8 @@ inventory: [DS26MBK56Q]
 ## Summary
 
 *Abelian logic* is the logic of the ordered additive group of real numbers, with implication $a \to b = b - a$.
-Its designated values are the non-negative numbers; see [[the definition|~48af5789]].
-It is a [[substructural logic|~fef4b751]] with neither weakening nor contraction.
+Its designated values are the non-negative numbers; see [[the definition|49QSARV4BA]].
+It is a [[substructural logic|ZZKTJY5J4T]] with neither weakening nor contraction.
 It proves $((A \to B) \to B) \to A$, which is not a classical tautology.
 The abstract of Metcalfe, Olivetti and Gabbay calls it the logic of [[lattice-ordered|J0DHYQ0MDE]] [[abelian groups|082GHNPJ53]].
 
@@ -51,20 +51,20 @@ A formula $A$ is *valid* if $v(A) \geq 0$ for every valuation $v$.
 
 ### Examples
 
-1. [[The formula $((A \to B) \to B) \to A$|~92c8d795]] has the value $0$ under every valuation, so it is valid.
+1. [[The formula $((A \to B) \to B) \to A$|74YHTDPEKW]] has the value $0$ under every valuation, so it is valid.
 2. The identity $A \to A$ has the value $v(A) - v(A) = 0$, so it is valid.
 3. Prefixing $(A \to B) \to ((C \to A) \to (C \to B))$ has the value $(b - a) - (b - a) = 0$, where $a, b$ are the values of $A, B$.
 4. Permutation $(A \to (B \to C)) \to (B \to (A \to C))$ has the value $(c - a - b) - (c - b - a) = 0$.
 
 ### Non-examples
 
-1. [[Contraction|~5cda3dd2]] $(A \to (A \to B)) \to (A \to B)$ has the value $v(A)$, so it fails when $v(A) < 0$.
+1. [[Contraction|K16VJQASTK]] $(A \to (A \to B)) \to (A \to B)$ has the value $v(A)$, so it fails when $v(A) < 0$.
 2. [[Weakening|VHRXX0T5XT]] in the form $p \to (q \to p)$ has the value $-v(q)$, so it fails when $v(q) > 0$.
-3. Classical logic does not contain abelian logic, since [[$((p \to q) \to q) \to p$ is not a classical tautology|~5296b8f7]].
+3. Classical logic does not contain abelian logic, since [[$((p \to q) \to q) \to p$ is not a classical tautology|JG17B0XHTB]].
 
 ### Basic properties
 
-1. The integers, the rationals and the reals give the same valid formulas; [[the definition|~48af5789]] proves this.
+1. The integers, the rationals and the reals give the same valid formulas; [[the definition|49QSARV4BA]] proves this.
 2. A formula built from atoms with $\to$ alone has the value $\sum_i n_i v(p_i)$ for integers $n_i$.
    It is valid if and only if every $n_i$ is $0$; the definition proves this.
 3. So the valid formulas with $\to$ alone are decidable: count, for each atom, its signed number of occurrences.
@@ -78,7 +78,7 @@ The abstract of Metcalfe, Olivetti and Gabbay (2005) gives two embeddings of Łu
 ### Common errors
 
 The Wikipedia glossary calls abelian logic a type of relevance logic.
-It does not have the variable sharing property of [[relevance logic|~366e4c45]]: $(p \to p) \to (q \to q)$ has the value $0 - 0 = 0$, so it is valid.
+It does not have the variable sharing property of [[relevance logic|KXTCZ2FY5M]]: $(p \to p) \to (q \to q)$ has the value $0 - 0 = 0$, so it is valid.
 Its antecedent and its consequent have no atom in common.
 
 ## Explanations

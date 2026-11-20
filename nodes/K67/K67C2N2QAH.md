@@ -5,7 +5,7 @@ name: Affine logic
 msc: ["03F52", "03B47"]
 topics: [98QF5J4W16]
 audience: research
-uses: [2P2184B6HE, H408H4WHBA, VHRXX0T5XT, ~54d8cf2f, 0HESMMSYEG]
+uses: [2P2184B6HE, H408H4WHBA, VHRXX0T5XT, V0MZVC2XA9, 0HESMMSYEG]
 sources:
   - wikipedia: en:76765067@r1368301704
     locator: Glossary of logic, section A
@@ -32,8 +32,8 @@ inventory: [46SEPVAV98]
 
 ## Summary
 
-*Affine logic* is the substructural logic with [[weakening|VHRXX0T5XT]] but without [[contraction|~54d8cf2f]].
-In its usual form it is [[linear logic|2P2184B6HE]] with the weakening rule added for all formulas, not only for formulas $?A$; the [[precise definition|~963ba4ac]] gives the rules.
+*Affine logic* is the substructural logic with [[weakening|VHRXX0T5XT]] but without [[contraction|V0MZVC2XA9]].
+In its usual form it is [[linear logic|2P2184B6HE]] with the weakening rule added for all formulas, not only for formulas $?A$; the [[precise definition|YREXK6X3RP]] gives the rules.
 In the resource reading, each hypothesis may be used at most once, where linear logic demands exactly once.
 Affine logic is decidable, while full linear logic is not.
 
@@ -53,21 +53,21 @@ Some authors call the logic *linear affine logic* or *affine linear logic*.
 
 ### Examples
 
-1. [[$A \otimes B \multimap A$|~f904a999]] is derivable: discard $B$ by weakening.
-2. The [[implications B, C and K|~593258d3]] are derivable; K needs weakening, and B and C are already linear.
+1. [[$A \otimes B \multimap A$|W1B5YCDK93]] is derivable: discard $B$ by weakening.
+2. The [[implications B, C and K|8Y8NCVGWSA]] are derivable; K needs weakening, and B and C are already linear.
 3. In affine logic $1$ and $\top$ are equivalent, since weakening gives $\vdash 0, 1$ from $\vdash 1$, which is $\top \multimap 1$.
 
 ### Non-examples
 
-[[$A \multimap A \otimes A$ is not derivable|~baf61dfc]] in affine logic, since affine logic has no contraction.
-Linear logic is not affine: in it, $p \otimes q \multimap p$ is not derivable, as the [[example|~f904a999]] shows for MALL.
+[[$A \multimap A \otimes A$ is not derivable|DPKJWDD7XN]] in affine logic, since affine logic has no contraction.
+Linear logic is not affine: in it, $p \otimes q \multimap p$ is not derivable, as the [[example|W1B5YCDK93]] shows for MALL.
 
 ### Basic properties
 
 1. $A \otimes B \multimap A \mathbin{\&} B$ is derivable: weakening gives $\vdash A^{\perp}, B^{\perp}, A$ and $\vdash A^{\perp}, B^{\perp}, B$, and the rule for $\mathbin{\&}$ joins them.
 2. The Wikipedia article states that affine logic embeds into linear logic by sending $A \rightarrow B$ to $A \multimap B \otimes \top$.
 3. The SEP entry states that linear logic with unrestricted weakening is decidable (Kopylov 1995) and hard for exponential space (Urquhart 2000).
-4. Full propositional [[linear logic is undecidable|~673b5224]], so adding weakening makes the decision problem easier.
+4. Full propositional [[linear logic is undecidable|BNRWJB2R8C]], so adding weakening makes the decision problem easier.
 
 ### History
 
@@ -103,6 +103,6 @@ A trap: affine logic keeps contraction for formulas $?A$, so $!A \multimap A \ot
 
 ### L3 human
 
-The Wikipedia article states that affine logic is the foundation of [[ludics|~dbdabe57]].
+The Wikipedia article states that affine logic is the foundation of [[ludics|S4PWX2MFM2]].
 The Wikipedia article on BCK algebras states that these algebras describe an implicational logic called BCK logic.
-The [[formulas B, C and K|~593258d3]] are derivable in affine logic, and only K needs weakening.
+The [[formulas B, C and K|8Y8NCVGWSA]] are derivable in affine logic, and only K needs weakening.

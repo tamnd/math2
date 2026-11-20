@@ -6,7 +6,7 @@ aliases: [ternary-semantics]
 msc: ["03B47", "03B45"]
 topics: [98QF5J4W16]
 audience: research
-uses: [~366e4c45, NGHWZ9Y7ZV]
+uses: [KXTCZ2FY5M, NGHWZ9Y7ZV]
 sources:
   - wikipedia: en:76765067@r1368301704
     locator: Glossary of logic, section T
@@ -29,12 +29,12 @@ inventory: [M9P728Y2FH]
 
 ## Summary
 
-*Routley-Meyer semantics*, also called *ternary semantics*, interprets [[relevance logics|~366e4c45]] in frames $(W, R, {}^*, 0)$.
+*Routley-Meyer semantics*, also called *ternary semantics*, interprets [[relevance logics|KXTCZ2FY5M]] in frames $(W, R, {}^*, 0)$.
 Here $W$ is a nonempty set of points, $R$ is a ternary relation on $W$, ${}^*$ is a map from $W$ to $W$, and $0 \in W$ is the base point.
 An implication $A \rightarrow B$ is true at $a$ if and only if, for all $b, c$ with $Rabc$, if $A$ is true at $b$ then $B$ is true at $c$.
 A negation $\neg A$ is true at $a$ if and only if $A$ is false at $a^*$, the *Routley star* of $a$.
 A formula holds in a model when it is true at $0$.
-The [[precise definition|~212d1096]] adds conditions on $R$ and ${}^*$; further conditions give models for stronger logics such as $\mathbf{R}$.
+The [[precise definition|XHN0G5FFR5]] adds conditions on $R$ and ${}^*$; further conditions give models for stronger logics such as $\mathbf{R}$.
 It gives one pattern of models for many substructural logics, and small models show that a formula is not a theorem.
 
 ## Motivation
@@ -53,19 +53,19 @@ Some authors write $\Vdash$ for truth at a point, and some write the base point 
 
 ### Examples
 
-1. The [[two-point model|~06edf471]] validates $\mathbf{R}$ and falsifies disjunctive syllogism at $0$.
-2. The [[one-point frame|~7522e914]] with $0^* = 0$ gives exactly classical truth tables.
+1. The [[two-point model|PSTKVCYKAB]] validates $\mathbf{R}$ and falsifies disjunctive syllogism at $0$.
+2. The [[one-point frame|FVYRB36Z38]] with $0^* = 0$ gives exactly classical truth tables.
 3. For the [[Lambek calculus|5FAC9KX4H0]], the SEP entry on substructural logics takes the points to be words, and $Rxyz$ to say that $x$ followed by $y$ is $z$.
 
 ### Non-examples
 
-A structure whose star is [[not an involution|~1c2190a2]] is not a Routley-Meyer frame, and the axiom $\neg\neg A \rightarrow A$ fails in it.
+A structure whose star is [[not an involution|NY42G4JYKY]] is not a Routley-Meyer frame, and the axiom $\neg\neg A \rightarrow A$ fails in it.
 The structure with $W = \set{0}$, $R = \emptyset$ and $0^* = 0$ is not a frame, since $0 \leq 0$ fails; in it every implication is true at $0$, even $p \rightarrow q$.
 
 ### Basic properties
 
 1. Truth is *hereditary*: if $A$ is true at $a$ and $a \leq b$, then $A$ is true at $b$.
-   The [[definition node|~212d1096]] proves this.
+   The [[definition node|XHN0G5FFR5]] proves this.
 2. The Wikipedia article states that the class of all Routley-Meyer frames validates the relevance logic $\mathbf{B}$.
 3. The Wikipedia article lists frame conditions that validate further axioms; for example, $Rabc \Rightarrow Rbac$ validates assertion $A \rightarrow ((A \rightarrow B) \rightarrow B)$.
 4. The SEP entry on substructural logics states that a symmetry condition on $R$ models commutative premise combination.
