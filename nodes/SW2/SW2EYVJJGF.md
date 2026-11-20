@@ -1,5 +1,5 @@
 ---
-tag: ~b408bbbf
+tag: SW2EYVJJGF
 kind: example
 name: The positive integers are not an elementary substructure of the natural numbers
 msc: ["03C07"]

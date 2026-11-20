@@ -1,14 +1,14 @@
 ---
-tag: ~265c8e42
+tag: 5MN48ESK0F
 kind: example
 name: An order-preserving finite map of the integers that is not partial elementary
 msc: ["03C07"]
 topics: [2RE7GWWXM5]
 audience: ug2
 not_instance_of:
-  - target: ~7e54c18a
+  - target: XTNYY0WRQ5
     note: the map 0 to 0, 1 to 2 in the integer order preserves the order but not the formula saying that nothing lies between x and y
-uses: [~7e54c18a, C9494XYEMN]
+uses: [XTNYY0WRQ5, C9494XYEMN]
 sources:
   - url: https://en.wikipedia.org/wiki/Elementary_equivalence
     locator: Elementary embeddings
@@ -20,7 +20,7 @@ sources:
 
 Let $L = \set{<}$ and $\mathcal{M} = \mathcal{N} = (\Z, <)$.
 Let $f \colon \set{0, 1} \to \Z$ be the map $f(0) = 0$, $f(1) = 2$.
-We check that $f$ preserves all quantifier-free formulas but is not a [[partial elementary map|~7e54c18a]].
+We check that $f$ preserves all quantifier-free formulas but is not a [[partial elementary map|XTNYY0WRQ5]].
 
 1. The atomic formulas in two variables are $x_1 < x_2$, $x_2 < x_1$, $x_1 = x_2$ and the trivial ones $x_j < x_j$, $x_j = x_j$.
 2. $0 < 1$ and $0 < 2$; $1 \not< 0$ and $2 \not< 0$; $0 \ne 1$ and $0 \ne 2$. So $f$ preserves each atomic formula, and hence each Boolean combination of them.
@@ -32,7 +32,7 @@ We check that $f$ preserves all quantifier-free formulas but is not a [[partial 
 ## Remarks
 
 The example shows the difference between a partial isomorphism, which preserves [[quantifier-free formulas|C9494XYEMN]], and a partial elementary map.
-In $(\Q, <)$ the same kind of map is partial elementary, because $\Q$ is dense; see [[this example|~9e4d93f6]].
+In $(\Q, <)$ the same kind of map is partial elementary, because $\Q$ is dense; see [[this example|6V2ENEMAS8]].
 In $(\Z, <)$ a finite map $a_1 < \dots < a_n \mapsto b_1 < \dots < b_n$ is partial elementary exactly when $b_{j+1} - b_j = a_{j+1} - a_j$ for each $j$.
 Indeed, the distance $d$ between two elements is expressed by the formula "there are exactly $d - 1$ elements between $x$ and $y$", and a translation is an automorphism of $(\Z, <)$.
 So the type of a pair in $(\Z, <)$ records the distance, which is not quantifier-free information.

@@ -1,12 +1,12 @@
 ---
-tag: ~898ff17c
+tag: 73QXGVZ3NT
 kind: example
 name: Complex conjugation of i is a partial elementary map
 msc: ["03C07", "03C60"]
 topics: [2RE7GWWXM5]
 audience: ug2
-instance_of: [~7e54c18a]
-uses: [~7e54c18a, XY6CJMDY5M, NDTJ2E895C, MT8TDVPBXB]
+instance_of: [XTNYY0WRQ5]
+uses: [XTNYY0WRQ5, XY6CJMDY5M, NDTJ2E895C, MT8TDVPBXB]
 sources:
   - url: https://en.wikipedia.org/wiki/Complex_conjugate
     locator: lead section
@@ -18,7 +18,7 @@ sources:
 
 Let $L = \set{+, -, \cdot, 0, 1}$ and $\mathcal{M} = \mathcal{N} = (\C, +, -, \cdot, 0, 1)$.
 Let $f \colon \set{i} \to \C$ be the map $f(i) = -i$.
-We check that $f$ is a [[partial elementary map|~7e54c18a]].
+We check that $f$ is a [[partial elementary map|XTNYY0WRQ5]].
 
 1. Let $\sigma(a + bi) = a - bi$ be complex conjugation. It is a bijection of $\C$, and it is its own inverse.
 2. $\sigma(z + w) = \sigma(z) + \sigma(w)$ and $\sigma(z w) = \sigma(z) \sigma(w)$ for all $z, w$, by direct computation with $i^2 = -1$. Also $\sigma(0) = 0$, $\sigma(1) = 1$ and $\sigma(-z) = -\sigma(z)$.

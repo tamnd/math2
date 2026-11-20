@@ -1,5 +1,5 @@
 ---
-tag: ~6b659f6b
+tag: 4WGKBXG068
 kind: example
 name: Elementary equivalence versus isomorphism
 aliases: [elementary-equivalence-versus-isomorphism]

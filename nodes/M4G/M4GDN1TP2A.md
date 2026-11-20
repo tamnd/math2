@@ -1,8 +1,8 @@
 ---
-tag: ~4dff371b
+tag: M4GDN1TP2A
 kind: proof
 name: Proof of the diagram lemmas
-proves: ~4a49d7ae
+proves: EP5E317TNW
 msc: ["03C07"]
 topics: [2RE7GWWXM5]
 audience: ug2

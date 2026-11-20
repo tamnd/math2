@@ -1,5 +1,5 @@
 ---
-tag: ~65feae4d
+tag: B78BPKYW8Z
 kind: example
 name: The inclusion of the even integers in the integer order is not elementary
 msc: ["03C07"]
@@ -35,7 +35,7 @@ The example shows that an embedding between elementarily equivalent structures, 
 Elementarity is about formulas with parameters, and the parameters $0$ and $2$ see the gap that the inclusion opens.
 The same happens for $n \mathbb{Z} \subseteq \Z$ for every $n \ge 2$, with the parameters $0$ and $n$.
 For $n = 1$ the inclusion is the identity map, which is elementary.
-In contrast, $(\Q, <) \preceq (\R, <)$, because in a dense order no such gap can appear; see [[this example|~89a66bd3]].
+In contrast, $(\Q, <) \preceq (\R, <)$, because in a dense order no such gap can appear; see [[this example|AY1QQFQZ41]].
 The map $g$ of step 2 is an elementary embedding of $(\Z, <)$ onto $(2\Z, <)$, since it is an isomorphism; it is the inclusion $h$ that fails.
 
 ## Explanations

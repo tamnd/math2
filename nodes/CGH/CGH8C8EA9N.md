@@ -45,14 +45,14 @@ In set theory, an elementary embedding $j \colon V \to M$ of the universe into a
 ### Examples
 
 - Every [[isomorphism|PZMGQMDN25]] is an elementary embedding, because [[isomorphisms preserve the truth of formulas|NDTJ2E895C]].
-- The inclusion of $(\Q, <)$ into $(\R, <)$ is elementary; see [[this example|~89a66bd3]].
-- Every embedding of one algebraically closed field into another is elementary, for example $\overline{\Q} \subseteq \C$; see [[this example|~4bfe8f6c]].
+- The inclusion of $(\Q, <)$ into $(\R, <)$ is elementary; see [[this example|AY1QQFQZ41]].
+- Every embedding of one algebraically closed field into another is elementary, for example $\overline{\Q} \subseteq \C$; see [[this example|61VW0F3R83]].
 - If $T$ is a [[model complete theory|YR6HCMABTE]], then every embedding between two models of $T$ is elementary; this is the definition of model completeness.
 - The diagonal map of a structure into an [[ultrapower|AX9Q86GB8M]] is elementary, by Łoś's theorem.
 
 ### Non-examples
 
-- The inclusion of $(2\Z, <)$ into $(\Z, <)$ is an embedding, and the two orders are isomorphic, but the inclusion is not elementary; see [[this non-example|~65feae4d]].
+- The inclusion of $(2\Z, <)$ into $(\Z, <)$ is an embedding, and the two orders are isomorphic, but the inclusion is not elementary; see [[this non-example|B78BPKYW8Z]].
 - The map $n \mapsto n + 1$ from $(\N, <)$ to $(\N, <)$ is an embedding, but $0$ is the least element and its image $1$ is not.
 - The inclusion $\Z \to \Q$ of rings is an embedding, but $\exists y \, (y + y = 1)$ is false in $\Z$ and true in $\Q$.
 
@@ -62,8 +62,8 @@ In set theory, an elementary embedding $j \colon V \to M$ of the universe into a
 - The composition of two elementary embeddings is elementary, and the identity map is elementary.
 - If $g \colon \mathcal{N} \to \mathcal{P}$ and $g \circ h$ are elementary, then $h$ is elementary, since $\mathcal{N} \models \varphi(h(\bar a))$ and $\mathcal{P} \models \varphi(g(h(\bar a)))$ agree.
 - If $\mathcal{M}$ embeds elementarily into $\mathcal{N}$, then $\mathcal{M}$ and $\mathcal{N}$ are [[elementarily equivalent|P3B1V182N4]], so they are models of the same complete theory.
-- The structures into which $\mathcal{M}$ embeds elementarily are the models of its elementary diagram, by the [[diagram lemmas|~4a49d7ae]].
-- The union of a chain of elementary embeddings is elementary over each member, by the [[elementary chain theorem|~26b49e10]].
+- The structures into which $\mathcal{M}$ embeds elementarily are the models of its elementary diagram, by the [[diagram lemmas|EP5E317TNW]].
+- The union of a chain of elementary embeddings is elementary over each member, by the [[elementary chain theorem|NHCRZ74JHH]].
 
 ### History
 
@@ -74,7 +74,7 @@ The same paper proved the [[Tarski-Vaught test|60SA99BER7]] and the elementary c
 
 - To think that an embedding of two elementarily equivalent structures is elementary. The inclusion $(2\Z, <) \subseteq (\Z, <)$ is a counterexample.
 - To check only sentences. Elementarity is about formulas with parameters from $M$, which is much stronger than $\mathcal{M} \equiv \mathcal{N}$.
-- To forget that the map must be defined on all of $M$. A map on a subset that preserves formulas is a [[partial elementary map|~7e54c18a]].
+- To forget that the map must be defined on all of $M$. A map on a subset that preserves formulas is a [[partial elementary map|XTNYY0WRQ5]].
 
 ## Explanations
 
@@ -102,7 +102,7 @@ A trap is to test elementarity only with sentences: the test above needs the par
 ### L3 human
 
 The $L$-structures with elementary embeddings form a category, and each connected part of it lies inside the models of one complete theory.
-This category has directed colimits, by the elementary chain theorem, and it has the amalgamation property, by the [[elementary amalgamation theorem|~c9e11fa5]].
+This category has directed colimits, by the elementary chain theorem, and it has the amalgamation property, by the [[elementary amalgamation theorem|P2VMSM4H4Y]].
 These two facts are the starting point of the monster model of a complete theory and of abstract elementary classes.
 An elementary embedding preserves complete types, so it is the global form of a partial elementary map; the sub-areas on [[types and saturated models|Z772KEC9BY]] and [[back-and-forth methods|N64R1MGDBN]] build elementary embeddings one element at a time.
 In set theory the same word names embeddings $j \colon V \to M$ of the universe into a transitive class, and a nontrivial one exists exactly when there is a [[measurable cardinal|AKBWT323RQ]].

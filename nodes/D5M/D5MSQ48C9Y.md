@@ -1,5 +1,5 @@
 ---
-tag: ~76723848
+tag: D5MSQ48C9Y
 kind: example
 name: The real algebraic numbers form an elementary substructure of the real field
 msc: ["03C07", "03C64", "12L12"]
@@ -35,7 +35,7 @@ $\R_{\mathrm{alg}}$ is countable, because there are countably many polynomials w
 A consequence: a system of polynomial equations and inequalities with real algebraic coefficients that has a real solution has a real algebraic solution.
 If we replace $\R_{\mathrm{alg}}$ by $\Q$, the conclusion fails, since $\exists y \, (y \cdot y = 1 + 1)$ holds in $\R$ and fails in $\Q$.
 If we drop the order from the signature, the inclusion is still elementary, because the order of a real closed field is definable: $x \le y$ if and only if $\exists z \, (y - x = z \cdot z)$.
-The same argument with algebraically closed fields gives $\overline{\Q} \preceq \C$; see [[this example|~4bfe8f6c]].
+The same argument with algebraically closed fields gives $\overline{\Q} \preceq \C$; see [[this example|61VW0F3R83]].
 
 ## Explanations
 

@@ -1,5 +1,5 @@
 ---
-tag: ~7e54c18a
+tag: XTNYY0WRQ5
 kind: concept
 name: Partial elementary map
 aliases: [partial-elementary-map, elementary-map]
@@ -38,14 +38,14 @@ For a tuple $\bar a$ of $M$, the map $\bar a \mapsto \bar b$ is partial elementa
 
 ### Examples
 
-- In $(\Q, <)$, every order-preserving map between finite subsets is partial elementary; see [[this example|~9e4d93f6]].
-- In the complex field, the map $i \mapsto -i$ is partial elementary, because complex conjugation is an automorphism that extends it; see [[this example|~898ff17c]].
+- In $(\Q, <)$, every order-preserving map between finite subsets is partial elementary; see [[this example|6V2ENEMAS8]].
+- In the complex field, the map $i \mapsto -i$ is partial elementary, because complex conjugation is an automorphism that extends it; see [[this example|73QXGVZ3NT]].
 - The restriction of an elementary embedding to any subset is partial elementary. For example, the identity map of $\Q$ is a partial elementary map from $(\Q, <)$ to $(\R, <)$.
 - The empty map is partial elementary from $\mathcal{M}$ to $\mathcal{N}$ exactly when $\mathcal{M}$ and $\mathcal{N}$ are [[elementarily equivalent|P3B1V182N4]].
 
 ### Non-examples
 
-- In $(\Z, <)$, the map $0 \mapsto 0$, $1 \mapsto 2$ preserves the order but not the formula "nothing lies between $x$ and $y$"; see [[this non-example|~265c8e42]].
+- In $(\Z, <)$, the map $0 \mapsto 0$, $1 \mapsto 2$ preserves the order but not the formula "nothing lies between $x$ and $y$"; see [[this non-example|5MN48ESK0F]].
 - In the real field, $\sqrt{2} \mapsto -\sqrt{2}$ preserves all polynomial equations with rational coefficients, but not the formula $\exists z \, (x = z \cdot z)$.
 - The empty map from $(\Z, <)$ to $(\Q, <)$ is not partial elementary, because the two orders are [[not elementarily equivalent|V56GXSMWM6]].
 
@@ -56,7 +56,7 @@ For a tuple $\bar a$ of $M$, the map $\bar a \mapsto \bar b$ is partial elementa
 - A partial elementary map with domain $M$ is an elementary embedding.
 - Extension: let $\mathcal{N}$ be $\kappa$-[[saturated|RMTZ5J64FX]], let $f \colon A \to N$ be partial elementary with $\abs{A} < \kappa$, and let $b \in M$. Then $f$ extends to a partial elementary map on $A \cup \set{b}$.
 - So if $\mathcal{M} \equiv \mathcal{N}$, $\abs{M} \le \kappa$ and $\mathcal{N}$ is $\kappa$-saturated, then $\mathcal{M}$ embeds elementarily into $\mathcal{N}$, by a transfinite construction that starts from the empty map.
-- A partial elementary map $f \colon A \to N$ always extends to an elementary embedding of $\mathcal{M}$ into some elementary extension of $\mathcal{N}$, by the method of the [[elementary amalgamation theorem|~c9e11fa5]].
+- A partial elementary map $f \colon A \to N$ always extends to an elementary embedding of $\mathcal{M}$ into some elementary extension of $\mathcal{N}$, by the method of the [[elementary amalgamation theorem|P2VMSM4H4Y]].
 
 ### History
 

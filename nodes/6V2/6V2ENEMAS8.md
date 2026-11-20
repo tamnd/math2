@@ -1,12 +1,12 @@
 ---
-tag: ~9e4d93f6
+tag: 6V2ENEMAS8
 kind: example
 name: Finite order-preserving maps of the rational order are partial elementary
 msc: ["03C07"]
 topics: [2RE7GWWXM5]
 audience: ug2
-instance_of: [~7e54c18a]
-uses: [~7e54c18a, XY6CJMDY5M, NDTJ2E895C, 2W4S2H4VYA]
+instance_of: [XTNYY0WRQ5]
+uses: [XTNYY0WRQ5, XY6CJMDY5M, NDTJ2E895C, 2W4S2H4VYA]
 sources:
   - url: https://en.wikipedia.org/wiki/Dense_order
     locator: lead section
@@ -18,7 +18,7 @@ sources:
 
 Let $L = \set{<}$ and $\mathcal{M} = \mathcal{N} = (\Q, <)$.
 Let $a_1 < a_2 < \dots < a_n$ and $b_1 < b_2 < \dots < b_n$ be rationals, with $n \ge 1$, and let $f(a_i) = b_i$.
-We check that $f \colon \set{a_1, \dots, a_n} \to \Q$ is a [[partial elementary map|~7e54c18a]].
+We check that $f \colon \set{a_1, \dots, a_n} \to \Q$ is a [[partial elementary map|XTNYY0WRQ5]].
 
 1. Define $\sigma \colon \Q \to \Q$ by $\sigma(x) = x + (b_1 - a_1)$ for $x \le a_1$, and $\sigma(x) = x + (b_n - a_n)$ for $x \ge a_n$.
 2. For $a_i \le x \le a_{i+1}$, let $\sigma(x) = b_i + \frac{b_{i+1} - b_i}{a_{i+1} - a_i} (x - a_i)$, the increasing affine map of $[a_i, a_{i+1}]$ onto $[b_i, b_{i+1}]$.
@@ -33,7 +33,7 @@ We check that $f \colon \set{a_1, \dots, a_n} \to \Q$ is a [[partial elementary 
 The example shows that in $(\Q, <)$ the partial elementary maps with finite domain are exactly the order-preserving maps; the converse holds because $x < y$ is a formula.
 So a type of a finite tuple in $(\Q, <)$ is fixed by the order relations among its entries.
 The same argument works in $(\R, <)$, with real coefficients.
-It fails in $(\Z, <)$, whose only automorphisms are the translations; see [[this non-example|~265c8e42]].
+It fails in $(\Z, <)$, whose only automorphisms are the translations; see [[this non-example|5MN48ESK0F]].
 Every [[dense linear order|2W4S2H4VYA]] without endpoints has the same property, because its theory has quantifier elimination, but the proof by automorphisms needs a model with many automorphisms, such as $\Q$ or $\R$.
 For infinite domains the claim also holds, because a formula mentions only finitely many elements.
 

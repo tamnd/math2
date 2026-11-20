@@ -1,5 +1,5 @@
 ---
-tag: ~26b49e10
+tag: NHCRZ74JHH
 kind: statement
 role: theorem
 name: Elementary chain theorem
@@ -30,7 +30,7 @@ Let $M = \bigcup_{i \in I} M_i$, the [[union|0X1GSWNBN1]] of the domains.
 2. Chains of models of $\forall\exists$ theories: let $T$ be a [[theory|92SWXST1ZM]] whose axioms have the form $\forall \bar x \, \exists \bar y \, \theta(\bar x, \bar y)$ with $\theta$ quantifier-free. If every $\mathcal{M}_i$ is a model of $T$, then $\mathcal{M}$ is a model of $T$.
 
 Here $\mathcal{M}_i \preceq \mathcal{M}_j$ means that $\mathcal{M}_i$ is an [[elementary substructure|8WZF9SBP39]] of $\mathcal{M}_j$.
-A proof is in [[the proof of the elementary chain theorem|~bedbc3ae]].
+A proof is in [[the proof of the elementary chain theorem|9WG6V123PZ]].
 
 ## Remarks
 

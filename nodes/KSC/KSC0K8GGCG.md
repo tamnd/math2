@@ -1,14 +1,14 @@
 ---
-tag: ~ad253bd2
+tag: KSC0K8GGCG
 kind: example
 name: The complex field has no definable Skolem function for square roots
 msc: ["03C07", "03C60"]
 topics: [2RE7GWWXM5]
 audience: ug2
 not_instance_of:
-  - target: ~71af893e
+  - target: NKQY9NB955
     note: no function defined by a formula without parameters is a Skolem function for y·y = x in the complex field, because complex conjugation would have to fix its value at -1
-uses: [~71af893e, CY1TXHF6KQ, XY6CJMDY5M, NDTJ2E895C]
+uses: [NKQY9NB955, CY1TXHF6KQ, XY6CJMDY5M, NDTJ2E895C]
 sources:
   - url: https://en.wikipedia.org/wiki/Skolem_normal_form
     locator: Skolem theories
@@ -20,7 +20,7 @@ sources:
 
 Let $L = \set{+, -, \cdot, 0, 1}$ and $\mathcal{C} = (\C, +, -, \cdot, 0, 1)$.
 Let $\varphi(x, y)$ be the formula $y \cdot y = x$.
-We check that no $L$-formula $\psi(x, y)$ without parameters defines a [[Skolem function|~71af893e]] for $\varphi$ in $\mathcal{C}$.
+We check that no $L$-formula $\psi(x, y)$ without parameters defines a [[Skolem function|NKQY9NB955]] for $\varphi$ in $\mathcal{C}$.
 
 1. Assume that $\psi(x, y)$ defines a function $f \colon \C \to \C$, and that $f$ is a Skolem function for $\varphi$.
 2. $\mathcal{C} \models \exists y \, \varphi(-1, y)$, with $y = i$. So $c = f(-1)$ satisfies $c^2 = -1$, and $c = i$ or $c = -i$.
@@ -33,7 +33,7 @@ We check that no $L$-formula $\psi(x, y)$ without parameters defines a [[Skolem 
 ## Remarks
 
 The example shows that Skolem functions exist, by the axiom of choice, but in general they are not definable.
-In $\R$ the order separates the two square roots and gives a [[definable Skolem function|~aee599ed]]; in $\C$ an automorphism exchanges them.
+In $\R$ the order separates the two square roots and gives a [[definable Skolem function|117B3EEJD8]]; in $\C$ an automorphism exchanges them.
 Parameters do not help.
 For finitely many parameters $\bar a$, choose $x$ transcendental over $\Q(\bar a)$.
 Then $x$ is not a square in $\Q(\bar a, x)$, so some automorphism of $\C$ fixes $\Q(\bar a, x)$ and exchanges the two square roots of $x$; the argument of steps 4 to 6 then applies at $x$.

@@ -43,15 +43,15 @@ In formulas we use the elements of $M$ as parameters; formally we add a constant
 
 ### Examples
 
-- $(\Q, <) \preceq (\R, <)$; see [[this example|~89a66bd3]].
-- Every infinite subset of an infinite set is an elementary substructure in the empty signature; see [[this example|~5f284855]].
-- The ordered field of real algebraic numbers is an elementary substructure of $(\R, +, \cdot, <)$; see [[this example|~76723848]].
-- The algebraic numbers form an elementary substructure of the field $\C$; see [[this example|~4bfe8f6c]].
+- $(\Q, <) \preceq (\R, <)$; see [[this example|AY1QQFQZ41]].
+- Every infinite subset of an infinite set is an elementary substructure in the empty signature; see [[this example|JJ1S2E9D2S]].
+- The ordered field of real algebraic numbers is an elementary substructure of $(\R, +, \cdot, <)$; see [[this example|D5MSQ48C9Y]].
+- The algebraic numbers form an elementary substructure of the field $\C$; see [[this example|61VW0F3R83]].
 - Every structure is an elementary substructure of itself.
 
 ### Non-examples
 
-- The positive integers are a substructure of $(\N, <)$ and are isomorphic to it, but they are not an elementary substructure; see [[this non-example|~b408bbbf]].
+- The positive integers are a substructure of $(\N, <)$ and are isomorphic to it, but they are not an elementary substructure; see [[this non-example|SW2EYVJJGF]].
 - $(\Z, <)$ is a substructure of $(\Q, <)$ but not an elementary one, because the two orders do not even satisfy the same sentences.
 - The field $\Q$ is a subfield of $\R$ but not an elementary substructure, because $\exists y \, (y \cdot y = 1 + 1)$ holds in $\R$ and fails in $\Q$.
 
@@ -61,8 +61,8 @@ In formulas we use the elements of $M$ as parameters; formally we add a constant
 - The relation $\preceq$ is reflexive and transitive.
 - If $\mathcal{M} \subseteq \mathcal{M}' \subseteq \mathcal{N}$ with $\mathcal{M} \preceq \mathcal{N}$ and $\mathcal{M}' \preceq \mathcal{N}$, then $\mathcal{M} \preceq \mathcal{M}'$, because both sides of the condition agree with $\mathcal{N}$.
 - A substructure is elementary if and only if it passes the [[Tarski-Vaught test|60SA99BER7]].
-- Every structure $\mathcal{N}$ and every subset $A \subseteq N$ give an elementary substructure that contains $A$ and has at most $\abs{A} + \abs{L} + \aleph_0$ elements; see [[Skolem functions and Skolem hulls|~71af893e]].
-- The union of an elementary chain is an elementary extension of each member, by the [[elementary chain theorem|~26b49e10]].
+- Every structure $\mathcal{N}$ and every subset $A \subseteq N$ give an elementary substructure that contains $A$ and has at most $\abs{A} + \abs{L} + \aleph_0$ elements; see [[Skolem functions and Skolem hulls|NKQY9NB955]].
+- The union of an elementary chain is an elementary extension of each member, by the [[elementary chain theorem|NHCRZ74JHH]].
 - A [[definable set|CY1TXHF6KQ]] with parameters in $M$ is nonempty in $\mathcal{N}$ exactly when it meets $M$.
 
 ### History
@@ -100,7 +100,7 @@ A trap: checking a few formulas never proves elementarity, since there are infin
 
 ### L3 human
 
-The relation $\preceq$ organizes the models of a complete theory into a directed system: any two elementary extensions of one model have a common elementary extension, by the [[elementary amalgamation theorem|~c9e11fa5]].
+The relation $\preceq$ organizes the models of a complete theory into a directed system: any two elementary extensions of one model have a common elementary extension, by the [[elementary amalgamation theorem|P2VMSM4H4Y]].
 Model completeness is the property that every substructure which is a model of the theory is elementary; it links this sub-area with [[quantifier elimination and model completeness|1A9JSC5YG8]].
 In set theory, countable elementary substructures $M \preceq V_\theta$ of initial segments of the universe are a standard tool, for example in proofs about stationary sets.
 The study of the countable elementary substructures and extensions of a model leads to the sub-areas on [[types and saturated models|Z772KEC9BY]] and on [[countable models and categoricity|6XEXRME4C1]].

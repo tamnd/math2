@@ -1,5 +1,5 @@
 ---
-tag: ~c9e11fa5
+tag: P2VMSM4H4Y
 kind: statement
 role: theorem
 name: Elementary amalgamation theorem
@@ -7,7 +7,7 @@ aliases: [elementary-amalgamation-theorem, elementary-amalgamation]
 msc: ["03C07"]
 topics: [2RE7GWWXM5]
 audience: grad
-uses: [CGH8C8EA9N, 983GZBQYT4, P3B1V182N4, 1NR3HAWG9D, ~4a49d7ae]
+uses: [CGH8C8EA9N, 983GZBQYT4, P3B1V182N4, 1NR3HAWG9D, EP5E317TNW]
 about: [CGH8C8EA9N]
 sources:
   - url: https://en.wikipedia.org/wiki/Diagram_(mathematical_logic)
@@ -24,7 +24,7 @@ Let $\mathcal{M}$, $\mathcal{N}_1$ and $\mathcal{N}_2$ be $L$-[[structures|983GZ
 
 In both parts we can choose $\mathcal{N}$ with $\abs{N} \le \abs{N_1} + \abs{N_2} + \abs{L} + \aleph_0$, and with $g_1$ an inclusion, so that $\mathcal{N}_1 \preceq \mathcal{N}$.
 Here $\equiv$ is [[elementary equivalence|P3B1V182N4]].
-A proof is in [[the proof by compactness and diagrams|~ae08988f]].
+A proof is in [[the proof by compactness and diagrams|G005EF2Y1B]].
 
 ## Remarks
 
@@ -65,7 +65,7 @@ For example, the rational numbers grow into the real numbers in two copies, and 
 
 We build an explicit amalgam for $\mathcal{M} = (\Q, <)$ and $\mathcal{N}_1 = \mathcal{N}_2 = (\R, <)$, with inclusions $f_1 = f_2$.
 
-1. $(\Q, <) \preceq (\R, <)$, by [[this example|~89a66bd3]], so the hypotheses hold.
+1. $(\Q, <) \preceq (\R, <)$, by [[this example|AY1QQFQZ41]], so the hypotheses hold.
 2. Let $\mathcal{N} = \R \times \Q$, ordered by $(x, p) < (y, q)$ iff $x < y$, or $x = y$ and $p < q$.
 3. $\mathcal{N}$ is a [[dense linear order|2W4S2H4VYA]] without endpoints. Between $(x, p) < (y, q)$ lies $(x, p + 1)$ when $x < y$, and $(x, (p + q)/2)$ when $x = y$.
 4. Let $g_1(x) = (x, 0)$. Let $g_2(x) = (x, 0)$ for $x \in \Q$, and $g_2(x) = (x, 1)$ for $x \notin \Q$. Both maps preserve the order, and $g_1 = g_2$ on $\Q$.
@@ -78,6 +78,6 @@ A trap is to think that the amalgam is unique; step 6 gives two different amalga
 ### L3 human
 
 The theorem says that, for a complete theory $T$, the category of models of $T$ with elementary embeddings has amalgamation and joint embedding.
-With the [[elementary chain theorem|~26b49e10]] it gives directed colimits, and these are the properties used to build universal and homogeneous models, and the monster model of a complete theory.
+With the [[elementary chain theorem|NHCRZ74JHH]] it gives directed colimits, and these are the properties used to build universal and homogeneous models, and the monster model of a complete theory.
 For other classes of structures and embeddings, amalgamation becomes a hypothesis: Fraïssé theory and the theory of abstract elementary classes assume it.
 In a stable theory one can choose $\mathcal{N}_1$ and $\mathcal{N}_2$ independent over $\mathcal{M}$ in the sense of forking, and this independent amalgam is unique up to isomorphism, because types over models are stationary.

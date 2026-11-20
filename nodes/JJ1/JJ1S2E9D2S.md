@@ -1,5 +1,5 @@
 ---
-tag: ~5f284855
+tag: JJ1S2E9D2S
 kind: example
 name: Infinite subsets of a pure set are elementary substructures
 msc: ["03C07"]

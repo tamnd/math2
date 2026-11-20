@@ -1,5 +1,5 @@
 ---
-tag: ~3ffc403a
+tag: T0GQFH30JS
 kind: proof
 name: Proof of the Tarski-Vaught test
 proves: 60SA99BER7
@@ -51,4 +51,4 @@ The induction hypothesis must hold for all tuples of $M$ at once, because the st
 ## Variants
 
 The same induction, with $h(\bar a)$ in place of $\bar a$, proves the version for an embedding $h \colon \mathcal{M} \to \mathcal{N}$.
-When $\mathcal{N}$ has Skolem functions, (TV) reduces to closure of $M$ under these functions, and the proof becomes the statement that a substructure of a Skolemized structure is elementary; see [[Skolem functions and Skolem hulls|~71af893e]].
+When $\mathcal{N}$ has Skolem functions, (TV) reduces to closure of $M$ under these functions, and the proof becomes the statement that a substructure of a Skolemized structure is elementary; see [[Skolem functions and Skolem hulls|NKQY9NB955]].
