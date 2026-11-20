@@ -3,10 +3,15 @@ tag: ZTTPPXGB30
 kind: definition
 name: Definable set
 msc: [03C07, 03C40]
+topics: [AY09KYSW81]
+audience: ug2
 defines: CY1TXHF6KQ
 uses: [983GZBQYT4, HYJ10AF6RT]
 sources:
   - url: https://en.wikipedia.org/wiki/Definable_set
+    locator: Definition
+  - book: isbn:9780387987606
+    locator: Section 1.3
 ---
 
 ## Definition
@@ -34,3 +39,14 @@ The definable subsets of $M^n$ are closed under finite unions, finite intersecti
 
 The definable sets are the sets that the language of the structure can describe.
 Allowing parameters means that the description may name finitely many fixed elements.
+
+### L2 human
+
+We check that the set $E$ of even numbers is $\emptyset$-definable in $(\Z, +)$.
+
+1. Let $\varphi(x) = \exists y \, (y + y = x)$.
+2. If $x = 2k$, then $y = k$ witnesses $\varphi(x)$.
+3. If $x$ is odd, then $y + y$ is even for every $y$, so $y + y \ne x$, and $\varphi(x)$ fails.
+4. So $\varphi$ defines $E$, with no parameters.
+
+A trap is to think that a set that needs a parameter in one formula needs one in every formula; the question is whether some formula without parameters works.

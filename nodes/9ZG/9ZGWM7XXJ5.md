@@ -3,7 +3,7 @@ tag: 9ZGWM7XXJ5
 kind: example
 name: The positive integers are not definable in the integers with addition
 msc: ["03C07", "03C40"]
-topics: [NJDME6F845]
+topics: [NJDME6F845, AY09KYSW81]
 audience: ug2
 not_instance_of:
   - target: CY1TXHF6KQ
