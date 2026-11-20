@@ -48,13 +48,13 @@ We write $t\!\downarrow$ for "$t$ is defined".
 
 ### Examples
 
-- [[The formula $x = 0 \lor x/x = 1$|~d327d464]] is true for every value of $x$ under strong Kleene disjunction, although $x/x = 1$ is undefined at $0$.
-- [[A partial model where excluded middle fails|~54c9495c]]: $Pa \lor \neg Pa$ is undefined when $a$ is in neither $P^{+}$ nor $P^{-}$.
+- [[The formula $x = 0 \lor x/x = 1$|29C6DJHAD2]] is true for every value of $x$ under strong Kleene disjunction, although $x/x = 1$ is undefined at $0$.
+- [[A partial model where excluded middle fails|81EJ8BVE5Q]]: $Pa \lor \neg Pa$ is undefined when $a$ is in neither $P^{+}$ nor $P^{-}$.
 - Kripke's theory of truth uses partial models of a truth predicate; the liar sentence lies in neither the extension nor the anti-extension.
 
 ### Non-examples
 
-- [[The logic of paradox has gluts, not gaps|~0c49b351]]; it is not a partial logic in this sense.
+- [[The logic of paradox has gluts, not gaps|GGMQ2RABP7]]; it is not a partial logic in this sense.
 - Classical first-order logic, where every atom is true or false in every model.
 
 ### Basic properties

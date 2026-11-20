@@ -1,0 +1,59 @@
+---
+tag: QW6MAMT52F
+kind: example
+name: Two copies of classical conjunction collapse
+msc: ["03B62", "03B05"]
+topics: [NJB94B39QK]
+audience: research
+instance_of: [HP1N0MBTDJ]
+uses: [HP1N0MBTDJ, J78Y1M4GND]
+sources:
+  - url: https://plato.stanford.edu/entries/logic-combining/
+    locator: Combining Logics (SEP entry), section 4.3
+---
+
+## Example
+
+The logic of classical conjunction has these rules, for all formulas $\varphi$ and $\psi$:
+$$\varphi \land \psi \vdash \varphi, \qquad \varphi \land \psi \vdash \psi, \qquad \varphi, \psi \vdash \varphi \land \psi.$$
+Take two copies with the connectives $\land_1$ and $\land_2$, and combine them as in [[combining logics|HP1N0MBTDJ]].
+The combined $\vdash$ is the least [[consequence relation|J78Y1M4GND]] on the language with both connectives that is closed under the rules of both copies.
+So $\vdash$ has Reflexivity, Monotonicity and Cut, and the schemas range over all mixed formulas.
+
+Claim 1: $\varphi \land_1 \psi \vdash \varphi \land_2 \psi$, and $\varphi \land_2 \psi \vdash \varphi \land_1 \psi$.
+
+1. By the rules for $\land_1$, $\varphi \land_1 \psi \vdash \varphi$ and $\varphi \land_1 \psi \vdash \psi$.
+2. By the rule of introduction for $\land_2$ and Monotonicity, $\varphi \land_1 \psi, \varphi, \psi \vdash \varphi \land_2 \psi$.
+3. Two applications of Cut with step 1 give $\varphi \land_1 \psi \vdash \varphi \land_2 \psi$.
+4. The second claim follows in the same way with $1$ and $2$ exchanged.
+
+Claim 2: if $\varphi \vdash \varphi'$ and $\psi \vdash \psi'$, then $\varphi \land_i \psi \vdash \varphi' \land_i \psi'$ for $i = 1, 2$.
+
+5. From $\varphi \land_i \psi \vdash \varphi$ and $\varphi \vdash \varphi'$, Monotonicity and Cut give $\varphi \land_i \psi \vdash \varphi'$.
+6. In the same way, $\varphi \land_i \psi \vdash \psi'$.
+7. Introduction and Cut, as in steps 2 and 3, give $\varphi \land_i \psi \vdash \varphi' \land_i \psi'$.
+
+By Claim 2 and induction on formulas, interderivable formulas can replace each other inside any formula.
+With Claim 1, we can replace every $\land_2$ by $\land_1$ and keep all consequences.
+So the combination is the logic of a single conjunction with two names: the two copies have collapsed.
+
+## Remarks
+
+The SEP entry reports this collapse from work of Caleiro and others (2019).
+It also reports that two copies of classical negation do not collapse in this way, and neither do two copies of classical disjunction.
+The fibring of two copies of classical negation is not finite-valued, but a 5-valued non-deterministic matrix characterizes it.
+So whether a combination collapses depends on the connective, not only on the method.
+
+## Explanations
+
+### L1 human
+
+We take the rules for "and" twice, with two different names for "and".
+The rules alone force the two names to mean the same thing.
+From "A and$_1$ B" we get A and B, and from these we get "A and$_2$ B".
+
+### L2 human
+
+The rules for conjunction fix it up to interderivability: anything that obeys them is the greatest lower bound of its two arguments.
+Two connectives with the same characterizing rules must coincide in any logic that has both sets of rules.
+This collapse is harmless, because both copies were meant to be the same; for implications it is not harmless.

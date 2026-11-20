@@ -6,7 +6,7 @@ aliases: [dialethic-logic, dialethism, dialetheia, true-contradiction]
 msc: ["03B53", "03A05"]
 topics: [NJB94B39QK]
 audience: ug2
-uses: [MP4R7T546Z, C7YWCR87QJ, TTKZGJEEK7, WH94DG6D3Q, ~26a0362d]
+uses: [MP4R7T546Z, C7YWCR87QJ, TTKZGJEEK7, WH94DG6D3Q, BXJZG67PX3]
 sources:
   - wikipedia: en:76765067@r1368301704
     locator: Glossary of logic, section D
@@ -25,7 +25,7 @@ inventory: [R3XS78DGB2]
 A *dialetheia* is a sentence $A$ such that $A$ and its negation $\neg A$ are both true; in a many-valued semantics, it is a [[truth-value glut|WH94DG6D3Q]].
 So dialetheism rejects the [[law of non-contradiction|MP4R7T546Z]] in its strong form.
 A dialetheist must use a [[paraconsistent logic|C7YWCR87QJ]], since in an [[explosive|TTKZGJEEK7]] logic one true contradiction would make every sentence true.
-The glossary name "dialethic logic" refers to the logics that dialetheists use, such as the [[logic of paradox|~26a0362d]].
+The glossary name "dialethic logic" refers to the logics that dialetheists use, such as the [[logic of paradox|BXJZG67PX3]].
 
 ## Motivation
 
@@ -44,13 +44,13 @@ In the logic of paradox, this is the value $\mathsf{B}$, and a dialetheia is a f
 
 ### Examples
 
-- [[The liar sentence in LP|~0dda8b01]] has the value $\mathsf{B}$ in every model of the truth schema.
-- [[The Russell set in naive set theory|~40e3adc4]] is and is not a member of itself, under LP.
+- [[The liar sentence in LP|GCB0Z1CGKE]] has the value $\mathsf{B}$ in every model of the truth schema.
+- [[The Russell set in naive set theory|166GE0RAPR]] is and is not a member of itself, under LP.
 - Other proposed dialetheias include borderline cases of vague predicates and the instant at which a moving object leaves a place.
 
 ### Non-examples
 
-- [[Reasoning from an inconsistent database with LP|~794ba27b]] is paraconsistent but not dialetheic, since it makes no claim that a contradiction is true.
+- [[Reasoning from an inconsistent database with LP|JS5ZKYH03B]] is paraconsistent but not dialetheic, since it makes no claim that a contradiction is true.
 - Trivialism, the view that every sentence is true, implies dialetheism but is not implied by it: "some" does not imply "all".
 
 ### Basic properties

@@ -1,0 +1,60 @@
+---
+tag: 2YA3PJNVMS
+kind: definition
+name: Discussive consequence
+msc: ["03B53", "03B45"]
+topics: [NJB94B39QK]
+audience: grad
+defines: 489SFB5NX2
+uses: [VC3A2VWXND, 6BQ71KQ6QT, 09K9MWD2QQ, 1HK0VYWTV7]
+sources:
+  - url: https://plato.stanford.edu/entries/logic-paraconsistent/
+    locator: Paraconsistent Logic (SEP entry), section 3.1
+---
+
+## Definition
+
+Formulas are those of classical [[propositional logic|09K9MWD2QQ]], with $\neg$, $\land$, $\lor$ and $\supset$.
+An *S5 model* is a [[Kripke model|6BQ71KQ6QT]] $M = (W, V)$ with a nonempty set $W$ of worlds, in which every world sees every world, and a valuation $V$ of atoms at each world.
+For a formula $A$, the formula $\Diamond A$ is true in $M$ when $A$ is true at some world of $W$.
+
+Let $A_1, \ldots, A_n$ and $B$ be formulas.
+Then $B$ is a *discussive consequence* of $A_1, \ldots, A_n$, written $A_1, \ldots, A_n \vDash_{D_2} B$, when
+$$\Diamond A_1, \ldots, \Diamond A_n \vDash_{\mathrm{S5}} \Diamond B,$$
+that is, when every S5 model in which each $\Diamond A_i$ is true makes $\Diamond B$ true.
+*Discussive logic* $D_2$ is this [[consequence relation|1HK0VYWTV7]].
+
+The *discussive conjunction* and *discussive implication* are
+$$A \land_d B := A \land \Diamond B, \qquad A \supset_d B := \Diamond A \supset B,$$
+read inside the translation; a formula with $\land_d$ or $\supset_d$ is in $D_2$ when its translation satisfies the condition above.
+
+## Notation
+
+A formula $A$ *holds in the discussion* $M$ when $\Diamond A$ is true in $M$.
+Some authors write $\land_d$ and $\to_d$, or $\mathbin{\land_d}$ and $\mathbin{\supset_d}$.
+
+## Remarks
+
+Since each $\Diamond A_i$ has the same truth value at all worlds of an [[S5|VC3A2VWXND]] model, local and global S5 consequence agree here.
+A world is a participant's view; a formula holds in the discussion when some participant asserts it.
+The definition gives single-premise classical logic for free: if $A \vDash B$ classically, then $\Diamond A \vDash_{\mathrm{S5}} \Diamond B$.
+
+## Explanations
+
+### L1 human
+
+A discussion is a set of views, one for each person.
+A sentence holds in the discussion if at least one person holds it.
+An argument is discussively valid when, in every discussion where all premises hold, the conclusion holds.
+
+### L2 human
+
+To test $A_1, \ldots, A_n \vDash_{D_2} B$, look for a set of worlds where each $A_i$ is true at some world and $B$ is false at every world.
+If you find one, the inference fails.
+A trap is to require all premises at the same world; that would give classical consequence again.
+
+### L3 human
+
+$D_2$ is the image of S5 under the map $A \mapsto \Diamond A$ on premises and conclusion.
+Its consequence relation is reflexive, monotone and transitive, but it is not closed under adjunction.
+Discussive conjunction and implication are the connectives that commute well with the translation.

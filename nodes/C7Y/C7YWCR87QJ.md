@@ -45,18 +45,18 @@ In three-valued semantics, the values are $\mathsf{T}$, $\mathsf{B}$ ("both") an
 
 ### Examples
 
-- The [[logic of paradox|~26a0362d]] designates $\mathsf{T}$ and $\mathsf{B}$, and the valuation $v(p) = \mathsf{B}$, $v(q) = \mathsf{F}$ refutes $p, \neg p \vDash q$; see the [[explicit valuation|~05cece33]].
+- The [[logic of paradox|BXJZG67PX3]] designates $\mathsf{T}$ and $\mathsf{B}$, and the valuation $v(p) = \mathsf{B}$, $v(q) = \mathsf{F}$ refutes $p, \neg p \vDash q$; see the [[explicit valuation|AX6G3E9CQJ]].
 - First-degree entailment, a four-valued logic, is paraconsistent and paracomplete; see [[FDE|KXTP4P3GHT]].
-- [[Da Costa's systems|~3c6ff4aa]] $C_n$ keep positive classical logic and weaken negation; a contradiction about $A$ explodes only when $A$ is consistent.
-- [[Jaśkowski's discussive logic|~3a0900b2]] reads each premise as a claim of one participant in a discussion, so that $A$ and $\neg A$ do not combine.
-- [[Adaptive logics|~132437fd]] act like classical logic until a contradiction appears, and then withdraw only the affected inferences.
+- [[Da Costa's systems|KN2VBRQB3Q]] $C_n$ keep positive classical logic and weaken negation; a contradiction about $A$ explodes only when $A$ is consistent.
+- [[Jaśkowski's discussive logic|489SFB5NX2]] reads each premise as a claim of one participant in a discussion, so that $A$ and $\neg A$ do not combine.
+- [[Adaptive logics|X8RW5F4261]] act like classical logic until a contradiction appears, and then withdraw only the affected inferences.
 - Relevance logics require a connection of content between premises and conclusion; see the topic [[substructural and relevance logics|98QF5J4W16]].
 
 ### Non-examples
 
-- Classical logic is explosive, by the [[principle of explosion|~53891d1b]].
-- [[Intuitionistic logic is explosive|~e32fccda]], even though it rejects excluded middle.
-- [[Strong Kleene logic K3 is explosive|~8e0cd38f]], although it has the same tables as the logic of paradox.
+- Classical logic is explosive, by the [[principle of explosion|K33VPAPJQG]].
+- [[Intuitionistic logic is explosive|EQ9DND41TR]], even though it rejects excluded middle.
+- [[Strong Kleene logic K3 is explosive|2ZDYGB4J5N]], although it has the same tables as the logic of paradox.
 
 ### Basic properties
 

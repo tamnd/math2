@@ -26,7 +26,7 @@ Let $\vdash$ be a [[consequence relation|J78Y1M4GND]] on a language with a [[neg
 The relation $\vdash$ is *explosive* when $\set{\varphi, \neg\varphi} \vdash \psi$ for all formulas $\varphi$ and $\psi$.
 In words: from a contradiction, every formula follows.
 This property is called *explosion*, or *ex contradictione quodlibet*.
-For classical logic it is the [[principle of explosion|~53891d1b]].
+For classical logic it is the [[principle of explosion|K33VPAPJQG]].
 Explosion matters because it makes every inconsistent theory trivial, so in an explosive logic "consistent" and "not every formula is provable" mean the same.
 
 ## Motivation
@@ -49,20 +49,20 @@ Some authors write ECQ for ex contradictione quodlibet and EFQ for ex falso quod
 
 ### Examples
 
-- Classical propositional logic is explosive. This is the [[principle of explosion|~53891d1b]], with a syntactic and a semantic proof.
-- [[Intuitionistic logic is explosive|~e32fccda]], by $\to$-elimination and ex falso.
-- [[Strong Kleene logic K3 is explosive|~8e0cd38f]], although it has a third truth value: no valuation designates both $p$ and $\neg p$.
+- Classical propositional logic is explosive. This is the [[principle of explosion|K33VPAPJQG]], with a syntactic and a semantic proof.
+- [[Intuitionistic logic is explosive|EQ9DND41TR]], by $\to$-elimination and ex falso.
+- [[Strong Kleene logic K3 is explosive|2ZDYGB4J5N]], although it has a third truth value: no valuation designates both $p$ and $\neg p$.
 
 ### Non-examples
 
-- The [[logic of paradox|~05cece33]] is not explosive: the valuation $v(p) = \mathsf{B}$, $v(q) = \mathsf{F}$ designates $p$ and $\neg p$ but not $q$.
+- The [[logic of paradox|AX6G3E9CQJ]] is not explosive: the valuation $v(p) = \mathsf{B}$, $v(q) = \mathsf{F}$ designates $p$ and $\neg p$ but not $q$.
 - [[Minimal logic|T2SXPH67RQ]] does not prove $\bot \to p$, and $p, \neg p \nvdash q$ in it, although $p, \neg p \vdash \neg q$.
-- [[Jaśkowski's discussive logic|~5e13c759]] is not explosive, because $p$ and $\neg p$ can be possible at different worlds.
+- [[Jaśkowski's discussive logic|9X7ZPK15C5]] is not explosive, because $p$ and $\neg p$ can be possible at different worlds.
 
 ### Basic properties
 
 - In an explosive logic, a set $\Gamma$ is [[consistent|VM8TQ70CVJ]] (no $\varphi$ with $\Gamma \vdash \varphi$ and $\Gamma \vdash \neg\varphi$) if and only if it is [[Post consistent|WK2P0E82B4]] (some formula is not derivable).
-- Every consequence relation that has disjunction introduction, disjunctive syllogism and transitivity is explosive, by the Lewis argument in the [[proof of the principle|~9dabb726]].
+- Every consequence relation that has disjunction introduction, disjunctive syllogism and transitivity is explosive, by the Lewis argument in the [[proof of the principle|ZPCMHD9HJ7]].
 - Explosion is a property of $\vdash$, not of a theory. A paraconsistent logic can still have theories that are trivial.
 
 ### History
@@ -98,12 +98,12 @@ We check that explosion fails in a three-valued logic and holds in classical log
 5. So $\set{p, \neg p} \nvDash_{\mathrm{LP}} q$, and LP is not explosive.
 
 The typical use of explosion is the step "a contradiction proves the goal" at the end of a proof by cases.
-A trap is to think that every three-valued logic avoids explosion: [[K3|~8e0cd38f]] has three values and is explosive.
+A trap is to think that every three-valued logic avoids explosion: [[K3|2ZDYGB4J5N]] has three values and is explosive.
 
 ### L3 human
 
 Explosion is the statement that the trivial theory is the only inconsistent theory.
 In algebraic terms, for a logic with an algebraic semantics, explosion says that an element and its negation have meet $0$, as in Boolean and Heyting algebras.
 Paraconsistent semantics drop this law: De Morgan algebras, used for [[first-degree entailment|KXTP4P3GHT]], have elements with $a \land \neg a \ne 0$.
-Logics of formal inconsistency keep explosion for consistent formulas only, through the gentle explosion rule $\circ\varphi, \varphi, \neg\varphi \vdash \psi$; see [[da Costa's systems|~3c6ff4aa]].
+Logics of formal inconsistency keep explosion for consistent formulas only, through the gentle explosion rule $\circ\varphi, \varphi, \neg\varphi \vdash \psi$; see [[da Costa's systems|KN2VBRQB3Q]].
 Weaker and stronger forms are the [[weak paraconsistency|V5AWSJJJ4G]] and [[strong paraconsistency|GYCRTA2TN9]] of a logic.

@@ -62,13 +62,13 @@ The only rule is modus ponens.
 
 ### Examples
 
-- [[Aristotle's theses in Wansing's C|~a45c6718]]: AT and AT′ are theorems of $\mathbf{C}$.
-- [[Boethius' theses in Wansing's C|~7018a484]]: BT and BT′ are theorems of $\mathbf{C}$, and the implication is not symmetric.
+- [[Aristotle's theses in Wansing's C|249ZFZKD78]]: AT and AT′ are theorems of $\mathbf{C}$.
+- [[Boethius' theses in Wansing's C|S1X1BYWD3G]]: BT and BT′ are theorems of $\mathbf{C}$, and the implication is not symmetric.
 - The system CC1, due to Angell (1962) and McCall (1966), validates AT and BT′.
 
 ### Non-examples
 
-- [[Classical logic is not connexive|~02c938fb]]: each of AT, AT′, BT and BT′ fails in some row of the truth table.
+- [[Classical logic is not connexive|1BFPYQHAQF]]: each of AT, AT′, BT and BT′ fails in some row of the truth table.
 - Every subsystem of classical logic, for example intuitionistic logic, fails AT, because AT is not a classical tautology.
 
 ### Basic properties

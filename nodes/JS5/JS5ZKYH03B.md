@@ -1,0 +1,54 @@
+---
+tag: JS5ZKYH03B
+kind: example
+name: An inconsistent database read with LP is not dialetheism
+msc: ["03B53", "68T27"]
+topics: [NJB94B39QK]
+audience: ug2
+instance_of: [C7YWCR87QJ]
+not_instance_of:
+  - target: 3P0FM0AQF3
+    note: the reasoner uses a paraconsistent logic but makes no claim that any contradiction is true
+uses: [3P0FM0AQF3, C7YWCR87QJ, W28EY7C3FA]
+sources:
+  - url: https://plato.stanford.edu/entries/dialetheism/
+    locator: Dialetheism (SEP entry), section 1
+  - url: https://en.wikipedia.org/wiki/Paraconsistent_logic
+    locator: Applications
+---
+
+## Example
+
+A train database has two records from two sources: $p$ = "train 7 leaves at 9:00" and $\neg p$.
+It also has a consistent record $r$ = "train 8 leaves at 10:00".
+A clerk reads the records with the [[logic of paradox|W28EY7C3FA]].
+
+1. The valuation $v(p) = \tfrac12$, $v(r) = 1$, $v(q) = 0$ designates all three records and leaves $q$ undesignated, for any unrelated letter $q$.
+2. So the clerk cannot derive $q$; the conflict about train 7 does not spread.
+3. The clerk can still derive $r \lor s$ for any $s$, and $p \land \neg p$.
+
+The clerk treats the value $\tfrac12$ as "the sources disagree", not as "the train both does and does not leave at 9:00".
+So the clerk uses a [[paraconsistent logic|C7YWCR87QJ]] but is not a [[dialetheist|3P0FM0AQF3]].
+
+## Remarks
+
+The SEP entry on dialetheism says that paraconsistent logicians need not be dialetheists.
+They may reject explosion for reasons that concern information, not truth: databases, legal cases, fiction, and belief revision.
+In the grades of paraconsistency that the entry lists, this clerk has gentle-strength paraconsistency only.
+The formal tools are the same as in the [[liar example|GCB0Z1CGKE]]; the difference lies in the reading of the middle value.
+
+## Explanations
+
+### L1 human
+
+Two sources disagree about a train time.
+The clerk does not think the train both leaves and does not leave at 9:00.
+The clerk only wants a rule that stops one conflict from ruining every other answer.
+That is paraconsistent reasoning without dialetheism.
+
+### L2 human
+
+The test is the reading of the value $\mathsf{B}$.
+If it means "both true and false in the world", the user is a dialetheist.
+If it means "the evidence points both ways", the user is not.
+A trap is to infer a philosophical view from the choice of LP; the same logic serves both readings.

@@ -1,0 +1,66 @@
+---
+tag: BF667DMTVM
+kind: proof
+name: Proof of the tautology and duality theorem for LP and K3
+msc: ["03B53", "03B50"]
+topics: [NJB94B39QK]
+audience: ug2
+proves: DHRMY6TC52
+uses: [W28EY7C3FA, 05006AJ7DZ, 0QV2JS9RJ3]
+methods: [12MQ2NJ29A, 0J0XBKG64S, TFQ1845T84]
+sources:
+  - url: https://en.wikipedia.org/wiki/Three-valued_logic
+    locator: Kleene and Priest logics
+  - book: isbn:9780521670265
+---
+
+## Proof
+
+We code the values as $1$, $\tfrac12$, $0$, with the tables of the [[definition of LP|W28EY7C3FA]].
+A formula is designated in LP when its value is not $0$, and in K3 when its value is $1$.
+
+**Lemma (monotonicity).**
+Let $\sqsubseteq$ be the [[partial order|0QV2JS9RJ3]] on $\set{1, \tfrac12, 0}$ with $\tfrac12 \sqsubseteq 0$, $\tfrac12 \sqsubseteq 1$, and $a \sqsubseteq a$ for all $a$.
+If $v(p) \sqsubseteq w(p)$ for every atom $p$, then $v(\varphi) \sqsubseteq w(\varphi)$ for every formula $\varphi$.
+
+1. We use induction on $\varphi$. For atoms, this is the hypothesis.
+2. Note: if $a$ is $0$ or $1$ and $a \sqsubseteq b$, then $b = a$, because the classical values are maximal.
+3. Negation. Let $a = v(\psi) \sqsubseteq b = w(\psi)$. If $a = \tfrac12$, then $1 - a = \tfrac12 \sqsubseteq 1 - b$. Otherwise $a = b$ by step 2, and $1 - a = 1 - b$.
+4. Conjunction. Let $a \sqsubseteq a'$ and $b \sqsubseteq b'$, and let $m = \min(a, b)$. If $m = \tfrac12$, then $m \sqsubseteq \min(a', b')$. If $m = 0$, then one of $a$, $b$ is $0$, so the matching one of $a'$, $b'$ is $0$ by step 2, and $\min(a', b') = 0$. If $m = 1$, then $a = b = 1$, so $a' = b' = 1$ and $\min(a', b') = 1$.
+5. Disjunction. This is step 4 with $\max$ in place of $\min$ and the roles of $0$ and $1$ exchanged.
+
+**Part 1.**
+Let $\varphi$ be an LP tautology.
+Every classical valuation is an LP valuation, because the tables restricted to $\set{0, 1}$ are the classical tables.
+So $\varphi$ is true under every classical valuation, and it is a classical [[tautology|05006AJ7DZ]].
+
+6. For the converse, let $\varphi$ be a classical tautology. Suppose, for a contradiction, that some LP valuation $v$ gives $v(\varphi) = 0$.
+7. Define $w(p) = 0$ if $v(p) = \tfrac12$, and $w(p) = v(p)$ otherwise. Then $w$ is a classical valuation and $v(p) \sqsubseteq w(p)$ for every atom $p$.
+8. By the lemma, $v(\varphi) \sqsubseteq w(\varphi)$. Since $v(\varphi) = 0$, step 2 gives $w(\varphi) = 0$.
+9. This contradicts the assumption that $\varphi$ is a classical tautology. So $v(\varphi) \neq 0$ for all $v$, and $\varphi$ is an LP tautology.
+
+**Part 2.** Let $h$ be the valuation with $h(p) = \tfrac12$ for every atom $p$.
+
+10. By induction on $\varphi$, $h(\varphi) = \tfrac12$: atoms have this value by definition, $1 - \tfrac12 = \tfrac12$, and $\min(\tfrac12, \tfrac12) = \max(\tfrac12, \tfrac12) = \tfrac12$.
+11. So $h(\varphi) \neq 1$, and no formula is a K3 tautology.
+
+**Part 3.** Let $\gamma_1, \ldots, \gamma_n$ with $n \geq 1$ and $\varphi$ be given, and let $v$ be any valuation.
+
+12. $v(\neg\varphi) = 1$ if and only if $v(\varphi) = 0$, by the table of $\neg$.
+13. $v(\neg\gamma_1 \lor \cdots \lor \neg\gamma_n) = \max_i (1 - v(\gamma_i))$. This is $1$ if and only if some $v(\gamma_i) = 0$.
+14. So $v$ is a counterexample to $\neg\varphi \vDash_{\mathrm{K3}} \bigvee_i \neg\gamma_i$ if and only if $v(\varphi) = 0$ and $v(\gamma_i) \neq 0$ for all $i$.
+15. By the definition of designation in LP, the right side of step 14 says that $v$ is a counterexample to $\gamma_1, \ldots, \gamma_n \vDash_{\mathrm{LP}} \varphi$.
+16. The two inferences have the same counterexamples. So one is valid if and only if the other is. $\blacksquare$
+
+## Idea
+
+A three-valued valuation is a classical valuation with some values left open.
+Closing the open values in any way cannot change a value that is already classical, by monotonicity; this gives part 1.
+The all-open valuation leaves every formula open; this gives part 2.
+Negation swaps "value $0$" with "value $1$", which turns LP counterexamples into K3 counterexamples; this gives part 3.
+
+## Variants
+
+- In step 7 we can send $\tfrac12$ to $1$ instead of $0$; any classical refinement works.
+- For $n = 0$, steps 12 and 15 show that $\varphi$ is an LP tautology if and only if no K3 valuation designates $\neg\varphi$.
+- The multiple-conclusion form $\Gamma \vDash_{\mathrm{LP}} \Delta$ if and only if $\neg\Delta \vDash_{\mathrm{K3}} \neg\Gamma$ follows from steps 12 and 13 with sets in place of finite lists.

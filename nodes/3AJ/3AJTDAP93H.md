@@ -47,9 +47,9 @@ An empty right side means "the premises cannot all be true"; an empty left side 
 
 ### Examples
 
-- [[Disjunction elimination in multiple-conclusion form|~e3c5064f]]: in classical logic $p \lor q \vdash p, q$, while neither $p$ nor $q$ follows alone.
-- [[Multiple conclusions fix the classical truth tables|~1a2a16fd]]: the valuations that respect classical multiple-conclusion consequence are exactly the Boolean valuations.
-- [[Multiple-conclusion duality of K3 and LP|~9836f65a]]: one valuation space gives two dual consequence relations.
+- [[Disjunction elimination in multiple-conclusion form|SQXC89ZP9F]]: in classical logic $p \lor q \vdash p, q$, while neither $p$ nor $q$ follows alone.
+- [[Multiple conclusions fix the classical truth tables|B5TPYADN4W]]: the valuations that respect classical multiple-conclusion consequence are exactly the Boolean valuations.
+- [[Multiple-conclusion duality of K3 and LP|H1CSPXEVM1]]: one valuation space gives two dual consequence relations.
 - Gentzen reads a sequent $\Gamma \Rightarrow \Delta$ of LK as the formula $\bigwedge \Gamma \to \bigvee \Delta$; for finite sets, this agrees with classical multiple-conclusion consequence.
 
 ### Non-examples

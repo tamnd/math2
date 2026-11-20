@@ -39,7 +39,7 @@ No valuation makes both $\varphi$ and $\neg\varphi$ true, so every $\psi$ follow
 Intuitionistic logic is explosive too, through the rule that derives every $\psi$ from $\bot$.
 
 The definition is negative: it names a property that a logic lacks.
-So it covers systems with very different motives, from the [[logic of paradox|~26a0362d]] to [[da Costa's systems|~3c6ff4aa]].
+So it covers systems with very different motives, from the [[logic of paradox|BXJZG67PX3]] to [[da Costa's systems|KN2VBRQB3Q]].
 A variant requires that $\set{\varphi, \neg\varphi} \nvdash \psi$ for some $\psi$ in the language, even when $\psi$ is restricted to atoms; for logics closed under substitution the two forms agree.
 The definition depends on the choice of $\neg$; a logic can be paraconsistent for one negation and explosive for another.
 

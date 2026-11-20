@@ -43,7 +43,7 @@ So the distributive law of classical logic fails in $\mathcal{L}(\C^2)$.
 
 Non-example: the hexagon ortholattice $O_6$, with $0 < a < b < 1$, $0 < b^\perp < a^\perp < 1$ and no other relations, is orthocomplemented.
 It is not orthomodular, since $a \le b$ but $a \vee (a^\perp \wedge b) = a \vee 0 = a \ne b$; so it is not a quantum logic in the abstract sense.
-For full proofs in $\R^2$ and for $O_6$, see [[distributivity fails in the subspace lattice of the plane|~e0e7fd0d]] and [[the hexagon ortholattice is not orthomodular|~1a47735b]].
+For full proofs in $\R^2$ and for $O_6$, see [[distributivity fails in the subspace lattice of the plane|RRWDAKDMJQ]] and [[the hexagon ortholattice is not orthomodular|9Y3BG1Y7QA]].
 
 ## Explanations
 
