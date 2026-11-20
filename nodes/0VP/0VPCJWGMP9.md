@@ -2,32 +2,49 @@
 tag: 0VPCJWGMP9
 kind: definition
 name: Space of linear maps
-msc: [15A04]
+msc: ["15A04"]
+topics: [9080WQTZ3M]
+audience: ug1
 defines: 0X9MBPP2Z3
-uses: [0RJF668P1T]
+uses: [0RJF668P1T, 05EGHEQZAW]
 sources:
   - url: https://en.wikipedia.org/wiki/Linear_map
     locator: Vector space of linear maps
+  - book: isbn:9783031410253
+    locator: Chapter 3
+  - book: isbn:9780135367971
+    locator: Section 3.2
 ---
 
 ## Definition
 
-Let $F$ be a field and let $V$ and $W$ be vector spaces over $F$.
-The *space of linear maps* $\Hom_F(V, W)$, also written $L(V, W)$, is the set of all [[linear maps|0NRYHJPQG2]] $V \to W$. It has the operations
+Let $F$ be a field and let $V$ and $W$ be [[vector spaces|05EGHEQZAW]] over $F$.
+The *space of linear maps* $\Hom_F(V, W)$ is the set of all [[linear maps|0RJF668P1T]] $V \to W$, with the operations
 $$(S + T)(v) = S(v) + T(v), \qquad (aT)(v) = a\, T(v)$$
 for $S, T \in \Hom_F(V, W)$, $a \in F$ and $v \in V$.
-It is a vector space over $F$, with the zero map as zero vector.
+
+## Notation
+
+Other notations are $\Hom(V, W)$, $L(V, W)$ and $\mathcal L(V, W)$.
+For $W = V$, the space is written $\End(V)$.
+For $W = F$, it is the dual space $V^*$.
 
 ## Remarks
 
-For $V = F^n$ and $W = F^m$, the matrix map is an isomorphism $\Hom_F(F^n, F^m) \cong M_{m \times n}(F)$.
-The [[dimension of the space of linear maps|0Z9N1ER0W0]] is $\dim V \cdot \dim W$ in finite dimensions.
-For $W = F$, it is the [[dual space|07JBSZE0V4]] of $V$, and for $W = V$, it is the space of [[endomorphisms|0J7H0YBFDJ]] of $V$.
+- The operations are pointwise: each one acts on the values $S(v)$ and $T(v)$ in $W$.
+- The sum $S + T$ and the multiple $aT$ are again linear, and the vector space axioms hold. A separate statement proves this.
+- The zero vector is the zero map $v \mapsto 0$.
+- The definition does not use composition. Composition is a second operation, defined only when the spaces match.
 
 ## Explanations
 
 ### L1 human
 
-Linear maps can be added and scaled, value by value, and the result is again linear.
-So the linear maps from $V$ to $W$ form a vector space themselves.
-In coordinates, this is the vector space of matrices of a fixed size.
+The space of linear maps collects all linear maps from $V$ to $W$.
+Two such maps are added by adding their values, and a map is scaled by scaling its values.
+
+### L2 human
+
+For $S(x, y) = (2x, y)$ and $T(x, y) = (y, 0)$ on $\R^2$, the definition gives $(S + T)(x, y) = (2x + y,\ y)$.
+Also $(3T)(x, y) = (3y, 0)$.
+The trap is to read $S + T$ as "apply $S$, then $T$"; that is the composite $T \circ S$.
