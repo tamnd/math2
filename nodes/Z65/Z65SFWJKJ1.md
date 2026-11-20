@@ -1,0 +1,39 @@
+---
+tag: Z65SFWJKJ1
+kind: proof
+name: Proof of the Frobenius and Sylvester rank inequalities
+msc: ["15A03"]
+topics: [S6559D61BP]
+audience: ug2
+proves: GS8WE1ZYV9
+uses: [0EWQEYRVA8, 0F0RPPJ2TT, 0PQ2GGY1QV, 0W4FSW1TVB, 073E4XC016, 0QW084460E]
+methods: [0NTF6DMVAP]
+sources:
+  - url: https://en.wikipedia.org/wiki/Rank_(linear_algebra)
+    locator: Properties
+---
+
+## Proof
+
+1. For a subspace $W \subseteq F^n$, let $A(W) = \{Aw : w \in W\}$. Let $L_W \colon W \to F^m$, $L_W(w) = Aw$. Its image is $A(W)$ and its kernel is $W \cap \operatorname{Null}(A)$, with the [[null space|0PQ2GGY1QV]] of $A$.
+2. By the [[rank-nullity theorem for linear maps|0W4FSW1TVB]] for $L_W$, $\dim W = \dim A(W) + \dim(W \cap \operatorname{Null}(A))$.
+3. The [[column space|0F0RPPJ2TT]] of $B$ is $\{Bx\}$. So $A(\operatorname{Col}(B)) = \{ABx\} = \operatorname{Col}(AB)$.
+4. By [[associativity|073E4XC016]], $A(\operatorname{Col}(BC)) = \{A(BC)y\} = \{(ABC)y\} = \operatorname{Col}(ABC)$.
+5. Put $W_1 = \operatorname{Col}(B)$ and $W_2 = \operatorname{Col}(BC)$. Since $BCy = B(Cy)$, $W_2 \subseteq W_1$.
+6. By steps 2 and 3, with the [[definition of rank|0EWQEYRVA8]], $\rank B - \rank(AB) = \dim(W_1 \cap \operatorname{Null}(A))$.
+7. By steps 2 and 4, $\rank(BC) - \rank(ABC) = \dim(W_2 \cap \operatorname{Null}(A))$.
+8. By step 5, $W_2 \cap \operatorname{Null}(A) \subseteq W_1 \cap \operatorname{Null}(A)$. So its dimension is not larger, by the [[dimension of a subspace|0QW084460E]].
+9. Steps 6 to 8 give $\rank(BC) - \rank(ABC) \le \rank B - \rank(AB)$. This rearranges to part 1.
+10. For part 2, apply part 1 to the three matrices $A$, $I_n$ and $B$. This gives $\rank A + \rank B \le \rank I_n + \rank(AB)$.
+11. The columns of $I_n$ are the standard basis of $F^n$, so $\rank I_n = n$. Step 10 becomes $\rank A + \rank B - n \le \rank(AB)$.
+
+## Idea
+
+The rank lost by applying $A$ to a subspace is the dimension of its intersection with the null space of $A$.
+A smaller subspace loses less.
+Applied to $\operatorname{Col}(BC) \subseteq \operatorname{Col}(B)$ this is the Frobenius inequality, and the middle factor $I_n$ gives Sylvester's inequality.
+
+## Variants
+
+Part 2 also follows from step 6 alone: $\rank B - \rank(AB) \le \dim \operatorname{Null}(A) = n - \rank A$.
+That short proof uses the [[rank-nullity theorem for matrices|TR48YQGCCA]] for $A$.

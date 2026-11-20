@@ -2,9 +2,12 @@
 tag: 84XDSB1RJ7
 kind: proof
 name: Proof that the matrix of a composition is the product of the matrices
-msc: [15A04]
+msc: ["15A04"]
+topics: [S6559D61BP]
+audience: ug1
 proves: 05Q1B7MH0M
 uses: [0YQSGNYE3K, 032Q9FB8MT, 00BKRZKMSS, 0NRYHJPQG2, 0KCQ9Y3QKA]
+methods: [0NTF6DMVAP, 41JZ39GE3F]
 sources:
   - url: https://dec41.user.srcf.net/notes/IB_M/linear_algebra_thm_proof.pdf
     locator: Section 2.2
@@ -26,4 +29,11 @@ We compute the image of each basis vector of $U$ under $T \circ S$ in two steps.
 
 ## Idea
 
-Column $k$ of a matrix records where the $k$-th basis vector goes. Pushing $a_k$ first through $S$ and then through $T$ produces exactly the sum that defines the $(i, k)$ entry of the product. This is why matrix multiplication is defined the way it is.
+Column $k$ of a matrix records where the $k$-th basis vector goes.
+Pushing $a_k$ first through $S$ and then through $T$ gives the sum that defines the $(i, k)$ entry of the product.
+This is why matrix multiplication is defined the way it is.
+
+## Variants
+
+- With the [[coordinate formula|8B63KHW6D5]], the proof is shorter. For each $u \in U$, $[T(S(u))]_C = [T]_{C,B}[S(u)]_B = [T]_{C,B}[S]_{B,A}[u]_A$, by associativity of the matrix-vector product. The uniqueness part of the coordinate formula then gives the theorem.
+- Column by column: column $k$ of a product $MN$ is $M$ times column $k$ of $N$. So column $k$ of $[T]_{C,B}[S]_{B,A}$ is $[T]_{C,B}[S(a_k)]_B = [T(S(a_k))]_C$.

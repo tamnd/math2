@@ -1,0 +1,42 @@
+---
+tag: JVTHT2561H
+kind: proof
+name: Proof that the nonzero rows of an echelon form are a basis of the row space
+msc: ["15A03"]
+topics: [S6559D61BP]
+audience: ug1
+proves: 1JGMW9DM4Z
+uses: [E4GKK727ZM, 0EP73HK4C4, 0F27PBRWD7, 0HR573CHNM, 0VTQTPQGAV, 05G2G0P224]
+methods: [0NTF6DMVAP, 0ASJVEFA9J]
+sources:
+  - url: https://en.wikipedia.org/wiki/Row_and_column_spaces
+    locator: Basis
+  - book: isbn:9780321982384
+    locator: Section 4.6
+---
+
+## Proof
+
+Let $u_1, \dots, u_r$ be the nonzero rows of $U$, from top to bottom, and let the pivot of $u_k$ be in column $p_k$.
+
+1. By part 3 of the [[theorem on row equivalence|E4GKK727ZM]], $\operatorname{Row}(A) = \operatorname{Row}(U)$. This proves part 1.
+2. By the [[definition of the row space|0EP73HK4C4]], $\operatorname{Row}(U)$ is the [[span|0HR573CHNM]] of all rows of $U$. A zero row adds nothing to a span. So $u_1, \dots, u_r$ span $\operatorname{Row}(U)$.
+3. By the definition of [[row echelon form|0F27PBRWD7]], $p_1 < p_2 < \dots < p_r$, and each entry of $u_k$ to the left of column $p_k$ is $0$.
+4. So for $k > j$, entry $p_j$ of $u_k$ is $0$, since $p_j < p_k$.
+5. Let $c_1 u_1 + \dots + c_r u_r = 0$ with $c_k \in F$. We show $c_j = 0$ by induction on $j$.
+6. Let $j \ge 1$ and assume $c_1 = \dots = c_{j-1} = 0$. Then $c_j u_j + \dots + c_r u_r = 0$. Look at entry $p_j$: by step 4, it is $c_j (u_j)_{p_j} = 0$.
+7. The pivot $(u_j)_{p_j}$ is nonzero, and $F$ is a field. So $c_j = 0$.
+8. By induction, all $c_j$ are $0$, and $u_1, \dots, u_r$ are linearly independent.
+9. By steps 2 and 8, $u_1, \dots, u_r$ form a [[basis|0VTQTPQGAV]] of $\operatorname{Row}(U) = \operatorname{Row}(A)$. This proves part 2.
+10. Each nonzero row of $U$ holds exactly one pivot. So the number of pivots is $r$, and by the definition of [[dimension|05G2G0P224]], $\dim \operatorname{Row}(A) = r$. This proves part 3.
+
+## Idea
+
+Row operations are reversible, so they keep the row space.
+In echelon form, the nonzero rows have a staircase shape: each pivot sits in a column where all lower rows are zero.
+Reading a vanishing combination at the pivot columns, from the top, kills the coefficients one by one.
+
+## Variants
+
+- One can avoid the induction: the $r \times r$ submatrix of $U$ in the rows $1, \dots, r$ and the columns $p_1, \dots, p_r$ is upper triangular with nonzero diagonal, so it is invertible, and its rows are independent.
+- For the reduced row echelon form the check is shorter: entry $p_j$ of $\sum_k c_k u_k$ is $c_j$, since the pivots are $1$ and the other entries of the pivot columns are $0$.

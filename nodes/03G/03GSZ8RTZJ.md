@@ -94,5 +94,5 @@ Example 5 above: the equation $x + y + z = 0$ has one pivot and two free variabl
 
 ### L3 human
 
-The dimension of an infinite-dimensional space is a cardinal, and it can be large: $\dim_F F^{\N} = \abs{F}^{\aleph_0}$ by the Erdős-Kaplansky theorem.
+The dimension of an infinite-dimensional space is a cardinal, and it can be large: $\dim_F F^{\N} = \abs{F}^{\aleph_0}$ by the [[Erdős-Kaplansky theorem|S5ET1HG2ZX]].
 For modules over rings, the analogue is the rank of a free module, which is well defined over nonzero commutative rings.
