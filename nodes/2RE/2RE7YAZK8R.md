@@ -6,7 +6,7 @@ aliases: [ehrenfeucht-fraisse-game, ef-game, back-and-forth-game]
 msc: ["03C07", "03C13"]
 topics: [N64R1MGDBN]
 audience: grad
-uses: [983GZBQYT4, WDVVEYD6AT, ~95b1c1d3, ~e5a7f04b, P3B1V182N4, 676H7EGTKJ]
+uses: [983GZBQYT4, WDVVEYD6AT, EWB8KXZMCV, FVEVRE5XNZ, P3B1V182N4, 676H7EGTKJ]
 sources:
   - url: https://en.wikipedia.org/wiki/Ehrenfeucht–Fraïssé_game
     locator: Main idea
@@ -24,9 +24,9 @@ The Ehrenfeucht-Fraïssé game is a two-player game played on two [[structures|9
 In the game $G_n(\mathcal{A}, \mathcal{B})$ with $n$ rounds, Spoiler picks in each round an element of either structure, and Duplicator answers with an element of the other.
 Duplicator wins when the chosen elements $a_i \mapsto b_i$ form a partial isomorphism, that is, they satisfy the same atomic formulas.
 The formal definition is [[this definition|1DVRN1T2Z0]].
-For a finite relational signature, Duplicator has a winning strategy in $G_n$ exactly when $\mathcal{A}$ and $\mathcal{B}$ agree on all sentences of [[quantifier rank|~e5a7f04b]] at most $n$; this is the [[Ehrenfeucht-Fraïssé theorem|~9f527b73]].
-In the infinite game, with one round for each natural number, Duplicator wins exactly when a [[back-and-forth system|~95b1c1d3]] exists.
-The game is the main tool for showing that a property is [[not first-order definable|~51a6b3d5]], in particular on finite structures.
+For a finite relational signature, Duplicator has a winning strategy in $G_n$ exactly when $\mathcal{A}$ and $\mathcal{B}$ agree on all sentences of [[quantifier rank|FVEVRE5XNZ]] at most $n$; this is the [[Ehrenfeucht-Fraïssé theorem|72BMYXGFA8]].
+In the infinite game, with one round for each natural number, Duplicator wins exactly when a [[back-and-forth system|EWB8KXZMCV]] exists.
+The game is the main tool for showing that a property is [[not first-order definable|VT2PSXKM50]], in particular on finite structures.
 
 ## Motivation
 
@@ -47,13 +47,13 @@ We write $\mathcal{A} \sim_n \mathcal{B}$ when Duplicator has a winning strategy
 
 ### Examples
 
-- On sets with $m$ and $k$ elements and no structure, Duplicator wins $G_n$ if and only if $m = k$ or both are at least $n$; see [[this example|~544e1961]].
-- Duplicator wins every $G_n$ on $(\Z, <)$ and $(\Z + \Z, <)$, by keeping short distances equal and long distances long; see [[this example|~4a7a973a]].
-- On finite linear orders of sizes $m \ne k$, Duplicator wins $G_n$ if and only if $m, k \ge 2^n - 1$; see [[games on linear orders|~992acee7]].
+- On sets with $m$ and $k$ elements and no structure, Duplicator wins $G_n$ if and only if $m = k$ or both are at least $n$; see [[this example|X98C7KEQRV]].
+- Duplicator wins every $G_n$ on $(\Z, <)$ and $(\Z + \Z, <)$, by keeping short distances equal and long distances long; see [[this example|JPE6BXFX3F]].
+- On finite linear orders of sizes $m \ne k$, Duplicator wins $G_n$ if and only if $m, k \ge 2^n - 1$; see [[games on linear orders|ZZPXVVZARC]].
 
 ### Non-examples
 
-- The one-sided game, in which Spoiler must always play in $\mathcal{A}$, tests only existential sentences; see [[this non-example|~c67d9ad9]].
+- The one-sided game, in which Spoiler must always play in $\mathcal{A}$, tests only existential sentences; see [[this non-example|S56YBNF2XR]].
 - A game whose winning condition only asks that $a_i \mapsto b_i$ be injective ignores the relations, so it tests only cardinality, not the structure.
 
 ### Basic properties
@@ -75,7 +75,7 @@ The names Abelard and Eloise were introduced by Wilfrid Hodges.
 
 - To let Duplicator answer in the same structure as Spoiler. Every answer lies in the other structure.
 - To check the winning condition only on the last pair. All chosen pairs must form one partial isomorphism together.
-- To use the theorem for an infinite signature. With infinitely many unary predicates, structures can agree on all rank $1$ sentences while Spoiler wins in one round; see [[the theorem|~9f527b73]].
+- To use the theorem for an infinite signature. With infinitely many unary predicates, structures can agree on all rank $1$ sentences while Spoiler wins in one round; see [[the theorem|72BMYXGFA8]].
 
 ## Explanations
 

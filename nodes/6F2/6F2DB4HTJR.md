@@ -1,0 +1,110 @@
+---
+tag: 6F2DB4HTJR
+kind: concept
+name: Back-and-forth method
+aliases: [back-and-forth-method, zig-zag-method]
+msc: ["03C07", "03C15", "06A05"]
+topics: [N64R1MGDBN]
+audience: ug2
+uses: [983GZBQYT4, PZMGQMDN25, 01TQB88H4C, 0FRXBVVR03, K4D3S1MBZH, ABN5PTXEHY]
+sources:
+  - url: https://en.wikipedia.org/wiki/Back-and-forth_method
+    locator: lead section
+  - url: https://en.wikipedia.org/wiki/Rado_graph
+    locator: Uniqueness
+  - book: isbn:9780387987606
+  - book: isbn:9780521587136
+    locator: Chapter 3
+---
+
+## Summary
+
+Let $\mathcal{A}$ and $\mathcal{B}$ be [[structures|983GZBQYT4]] in a relational signature $L$, with domains $A$ and $B$.
+A *finite partial isomorphism* is an injective map $p$ from a finite subset of $A$ into $B$ that preserves and reflects every relation.
+That is, $R^{\mathcal{A}}(a_1, \dots, a_k) \iff R^{\mathcal{B}}(p(a_1), \dots, p(a_k))$ for each relation symbol $R$ and all $a_i$ in the domain of $p$.
+The *back-and-forth method* builds an [[isomorphism|PZMGQMDN25]] between two [[countable|01TQB88H4C]] structures from a family $I$ of finite partial isomorphisms that has two extension properties.
+Forth: for each $p \in I$ and $a \in A$ there is $q \in I$ with $q \supseteq p$ and $a$ in the domain of $q$.
+Back: for each $p \in I$ and $b \in B$ there is $q \in I$ with $q \supseteq p$ and $b$ in the range of $q$.
+List $A = \set{a_0, a_1, \dots}$ and $B = \set{b_0, b_1, \dots}$, start with some $p_0 \in I$, and at step $n$ use forth to add $a_n$ and back to add $b_n$.
+The union of the chain $p_0 \subseteq p_1 \subseteq \cdots$ is an isomorphism from $\mathcal{A}$ onto $\mathcal{B}$.
+The method proves that many countable structures are unique up to isomorphism, and it is the model for the games and systems of this sub-area.
+
+## Motivation
+
+To show that two countable structures are isomorphic, one often knows only local facts: each finite configuration in one structure can be copied into the other.
+A map built only "forth", one element of $A$ after another, is an embedding, but it can miss elements of $B$.
+A map built only "back" can miss elements of $A$.
+The method alternates the two directions, so that every element of both lists is eventually used.
+The local facts become the two extension properties, and countability turns them into a global isomorphism.
+
+## Notation
+
+The family $I$ is a [[back-and-forth system|EWB8KXZMCV]].
+The method is also called the *zig-zag method*.
+When the structures need not be countable, a family $I$ with both extension properties gives only a potential isomorphism, written $\mathcal{A} \cong_p \mathcal{B}$.
+In the game form, the forth steps are the moves of Spoiler in $\mathcal{A}$ and the back steps are the moves of Spoiler in $\mathcal{B}$; see the [[Ehrenfeucht-Fraïssé game|2RE7YAZK8R]].
+
+## Remarks
+
+### Examples
+
+- Countable [[dense linear orders|K4D3S1MBZH]] without endpoints: the order-preserving finite maps have both extension properties, which gives [[Cantor's isomorphism theorem|ABN5PTXEHY]]. The step is worked out in the L2 explanation below.
+- Countable graphs with the extension property: any two are isomorphic, so the countable random graph is unique; see [[this example|3713A2H6N4]].
+- Two countable infinite sets in the empty signature: all finite injections have both extension properties, and the method gives a bijection; see [[this example|YP2QSESJXH]].
+- Forth alone: every countable [[linear order|0FRXBVVR03]] embeds into $(\Q, <)$; see [[this example|A14V9CHSZF]].
+
+### Non-examples
+
+- $(\Q, <)$ and $(\R, <)$: the order-preserving finite maps have both extension properties, but $\R$ has no enumeration $b_0, b_1, \dots$, so the construction cannot use every real; see [[this non-example|C0TE34BHYQ]].
+- $(\Z, <)$ and $(\Z + \Z, <)$: the extension properties fail for every family of finite partial isomorphisms; see [[this non-example|4TAA50T7QB]].
+
+### Basic properties
+
+- The union of a chain of partial isomorphisms is a partial isomorphism, because each tuple of the union lies in the domain of one member of the chain.
+- If the domain of the union is $A$ and its range is $B$, the union is an isomorphism, since it is a bijection that preserves and reflects every relation.
+- Forth alone suffices to embed $\mathcal{A}$ into $\mathcal{B}$: the union is then defined on all of $A$, and it is an embedding.
+- Forth alone also suffices when it yields a surjection for another reason, for example when $\mathcal{A}$ and $\mathcal{B}$ are finite of the same size.
+- The method extends a given $p_0 \in I$. So, in a countable structure with a back-and-forth system of finite partial isomorphisms onto itself, each member of the system extends to an automorphism.
+
+### History
+
+Georg Cantor proved in 1895 that countable dense linear orders without endpoints are isomorphic.
+The back-and-forth proof of that theorem was not Cantor's original proof; it was developed by Edward Vermilye Huntington in 1904 and by Felix Hausdorff in 1914.
+Roland Fraïssé made back-and-forth systems a general tool of model theory, and Andrzej Ehrenfeucht recast them as games.
+
+### Common errors
+
+- To build only forth and claim an isomorphism. The forth construction from $(\N, <)$ into $(\Q, <)$ succeeds at every step, but the result is not onto.
+- To forget countability. The extension properties hold between $(\Q, <)$ and $(\R, <)$, and the two orders are not isomorphic.
+- To choose the image of $a_n$ without checking all relations with the earlier elements. In an order, the new image must lie in the same gap of the finite image as $a_n$ lies in the finite domain.
+
+## Explanations
+
+### L1 human
+
+Two people each hold an infinite list of points, and they want to pair the points so that the pattern on both sides is the same.
+They take turns: first the next unpaired point of the first list gets a partner, then the next unpaired point of the second list gets a partner.
+Each new pair must fit the pairs made before.
+For the fractions, between $0$ and $1$ there is always room for one more point, so a fitting partner always exists.
+In the end every point of both lists has a partner, and the pairing is a perfect match.
+
+### L2 human
+
+We do one forth step for two countable dense linear orders $\mathcal{A}$ and $\mathcal{B}$ without endpoints.
+
+1. Let $p$ map $a_1 < a_2 < \dots < a_k$ to $b_1 < b_2 < \dots < b_k$, and let $a \in A$ be new.
+2. If $a < a_1$, choose $b < b_1$ in $B$. It exists because $B$ has no least element.
+3. If $a_i < a < a_{i+1}$, choose $b$ with $b_i < b < b_{i+1}$. It exists because $B$ is dense.
+4. If $a > a_k$, choose $b > b_k$. It exists because $B$ has no greatest element.
+5. Then $p \cup \set{(a, b)}$ preserves and reflects $<$, because $b$ has the same position relative to $b_1, \dots, b_k$ as $a$ has relative to $a_1, \dots, a_k$.
+
+The back step is the same with $A$ and $B$ exchanged, so the method gives Cantor's theorem.
+The typical use is to prove that a theory has only one countable model, which is $\aleph_0$-categoricity.
+A trap is to choose $b$ only by the relation to the last chosen element; the position relative to all earlier elements counts.
+
+### L3 human
+
+The method is the countable case of a general principle: a back-and-forth system between two structures means that they agree on all sentences of the infinitary logic $L_{\infty\omega}$, by [[Karp's theorem|KAWWZ2DF0G]], and between countable structures it gives an isomorphism.
+Bounded versions, with $n$ steps only, give the [[Ehrenfeucht-Fraïssé game|2RE7YAZK8R]] and the characterization of agreement on sentences of [[quantifier rank|FVEVRE5XNZ]] at most $n$.
+The same pattern proves the uniqueness of [[Fraïssé limits|HJVRBDQSGG]], the Ryll-Nardzewski theorem in the sub-area on [[countable models|6XEXRME4C1]], and the uniqueness of saturated models of the same cardinality, where partial elementary maps replace partial isomorphisms.
+In modal logic and in computer science, [[bisimulations|X27BR4YP2Y]] are back-and-forth systems for transition systems.

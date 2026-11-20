@@ -1,0 +1,55 @@
+---
+tag: W0JEQM6ZTH
+kind: example
+name: Hamiltonicity is not first-order definable
+aliases: [hamiltonicity-is-not-first-order, perfect-matching-is-not-first-order]
+msc: ["03C13", "05C45", "05C70"]
+topics: [N64R1MGDBN]
+audience: grad
+instance_of: [VT2PSXKM50]
+uses: [VT2PSXKM50, 72BMYXGFA8, 2RE7YAZK8R, 00C0BR7D7H, 0V0GC7BQAN, 0HF30P75G4, 05ZPH8KF9K]
+sources:
+  - url: https://en.wikipedia.org/wiki/Ehrenfeucht%E2%80%93Fra%C3%AFss%C3%A9_game
+    locator: Equivalence and inexpressibility
+  - book: isbn:9780521587136
+    locator: Chapter 3
+---
+
+## Example
+
+Let $L = \set{E}$, so that finite [[graphs|00C0BR7D7H]] are $L$-structures.
+For $n \ge 2$ let $\mathcal{A}_n = K_{n,n}$ and $\mathcal{B}_n = K_{n,n+1}$, the [[complete bipartite graphs|0V0GC7BQAN]] with parts $X, Y$ and $X', Y'$, where $\abs{X} = \abs{Y} = \abs{X'} = n$ and $\abs{Y'} = n + 1$.
+
+1. $K_{n,n}$ has a [[Hamiltonian cycle|0HF30P75G4]]: $x_1 y_1 x_2 y_2 \cdots x_n y_n x_1$, and a [[perfect matching|05ZPH8KF9K]] $\set{x_i y_i}$.
+2. $K_{n,n+1}$ has neither. A cycle in a bipartite graph alternates between the parts, so it uses as many vertices of $X'$ as of $Y'$, and it cannot visit all $2n + 1$ vertices. A perfect matching needs an even number of vertices.
+3. Duplicator wins the [[Ehrenfeucht-Fraïssé game|2RE7YAZK8R]] $G_n(\mathcal{A}_n, \mathcal{B}_n)$. A point chosen before is answered by its partner. A new point of $X$ is answered by a new point of $X'$, and a new point of $Y$ by a new point of $Y'$, and the same in the other direction.
+4. A new point always exists: before round $i \le n$, at most $i - 1 < n$ points of each part are chosen, and each part has at least $n$ points.
+5. After $n$ rounds, two chosen points are equal on one side exactly when their partners are equal, and they are in different parts exactly when their partners are. In a complete bipartite graph, $E(u, v)$ holds exactly when $u$ and $v$ lie in different parts. So Duplicator wins.
+6. Let $\sigma$ have rank $n \ge 2$. By the [[Ehrenfeucht-Fraïssé theorem|72BMYXGFA8]], $\mathcal{A}_n \models \sigma \iff \mathcal{B}_n \models \sigma$. So $\sigma$ does not express Hamiltonicity, nor the existence of a perfect matching, on finite graphs.
+
+This is an instance of the [[method of games|VT2PSXKM50]].
+
+## Remarks
+
+Both properties can be decided by a computer: a perfect matching in polynomial time, and a Hamiltonian cycle by search.
+So undefinability in first-order logic is not a matter of computational difficulty; first-order logic simply cannot count the sizes of the parts.
+The same pair shows that "the graph is bipartite with parts of equal size" is not first-order.
+A sentence of rank $n$ treats parts with at least $n$ vertices as equally large, as in [[the game on finite sets|X98C7KEQRV]].
+
+## Explanations
+
+### L1 human
+
+A complete bipartite graph is fixed by the sizes of its two sides.
+A sentence with $n$ nested quantifiers can look at only $n$ vertices, so it cannot tell a side with $n$ vertices from a side with $n + 1$.
+But a closed tour that visits every vertex once must switch sides at each step, so it exists only when the sides have the same size.
+
+### L2 human
+
+We follow Duplicator in $G_2(K_{2,2}, K_{2,3})$, with parts $X = \set{x_1, x_2}$, $Y = \set{y_1, y_2}$, $X' = \set{x'_1, x'_2}$ and $Y' = \set{y'_1, y'_2, y'_3}$.
+
+1. Round 1: Spoiler picks $y'_3 \in Y'$. Duplicator answers $y_1 \in Y$.
+2. Round 2: Spoiler picks $x_2 \in X$. Duplicator answers $x'_1 \in X'$.
+3. $E(y_1, x_2)$ holds and $E(y'_3, x'_1)$ holds, and no point is repeated, so Duplicator wins.
+
+A trap is to answer a new point by a point of the wrong part: then the edge relation differs at once.

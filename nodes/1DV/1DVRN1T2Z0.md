@@ -45,9 +45,9 @@ Spoiler first picks $2$ in $\set{1, 2}$, and Duplicator answers some $q \in \Q$.
 Spoiler then picks $q + 1$ in $\Q$, and no element of $\set{1, 2}$ lies above $2$.
 
 Let $L$ be finite.
-The [[Ehrenfeucht-Fraïssé theorem|~9f527b73]] says that Duplicator wins $G_n(\mathcal{A}, \mathcal{B})$ if and only if $\mathcal{A}$ and $\mathcal{B}$ satisfy the same sentences of [[quantifier rank|~e5a7f04b]] at most $n$.
+The [[Ehrenfeucht-Fraïssé theorem|72BMYXGFA8]] says that Duplicator wins $G_n(\mathcal{A}, \mathcal{B})$ if and only if $\mathcal{A}$ and $\mathcal{B}$ satisfy the same sentences of [[quantifier rank|FVEVRE5XNZ]] at most $n$.
 Hence $\mathcal{A} \equiv \mathcal{B}$ when Duplicator wins $G_n$ for every $n$.
-Duplicator wins $G_\omega(\mathcal{A}, \mathcal{B})$ if and only if a [[back-and-forth system|~95b1c1d3]] from $\mathcal{A}$ to $\mathcal{B}$ exists.
+Duplicator wins $G_\omega(\mathcal{A}, \mathcal{B})$ if and only if a [[back-and-forth system|EWB8KXZMCV]] from $\mathcal{A}$ to $\mathcal{B}$ exists.
 
 ## Explanations
 
