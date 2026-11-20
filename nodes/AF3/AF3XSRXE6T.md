@@ -2,8 +2,11 @@
 tag: AF3XSRXE6T
 kind: proof
 name: Proof of the Laplace expansion along a row by the Leibniz formula
-msc: [15A15]
+msc: ["15A15"]
+topics: [DTBK11SR77]
+audience: ug1
 proves: 0C08BQ3M05
+methods: [0NTF6DMVAP]
 uses: [016PE4VZ8Q, 0W2QAVJQ1W, 0SD528P0EK, 05RWFKVTJ7, 0V0E04DWX2, 0JEJJCB0EX, 0SK90238BH]
 sources:
   - url: https://en.wikipedia.org/wiki/Laplace_expansion
@@ -43,4 +46,11 @@ We group the terms of the Leibniz formula by the column of the factor taken from
 
 ## Idea
 
-Every term of the Leibniz formula uses exactly one entry of row $i$. The terms that use $a_{ij}$ are, after renumbering, the terms of the Leibniz formula for the minor $M_{ij}$. The renumbering moves row $i$ and column $j$ to the end, and this costs the sign $(-1)^{i+j}$.
+Every term of the Leibniz formula uses exactly one entry of row $i$.
+The terms that use $a_{ij}$ are, after renumbering, the terms of the Leibniz formula for the minor $M_{ij}$.
+The renumbering moves row $i$ and column $j$ to the end, and this costs the sign $(-1)^{i+j}$.
+
+## Variants
+
+A second proof uses multilinearity in row $i$ and row operations; see the [[proof by multilinearity|97HQ4MPNBS]].
+Grouping the Leibniz terms by the images of $k$ rows at once gives the [[general Laplace expansion|KKEHEMTSYY]].

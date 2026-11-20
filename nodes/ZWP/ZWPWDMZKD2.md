@@ -2,8 +2,11 @@
 tag: ZWPWDMZKD2
 kind: proof
 name: Proof that similar matrices have the same characteristic polynomial
-msc: [15A15, 15A18]
+msc: ["15A15", "15A18"]
+topics: [6R1D6QPY3S]
+audience: ug1
 proves: 0TYMASG33Y
+methods: [0NTF6DMVAP, XP5SDYKJX0]
 uses: [039HF58KQ5, 0TWTS88TWN, 076JGP6R3T, 073E4XC016, 0RXD6EZYBK, 04CPJ6AF00, 0Z4BWARC38, 027KDW2K72, 0Q9EZS90GY]
 sources:
   - url: https://en.wikipedia.org/wiki/Characteristic_polynomial
@@ -26,4 +29,5 @@ We write $t I - P^{-1} A P$ as a conjugate of $t I - A$ and use the product rule
 
 ## Idea
 
-The matrix $t I$ commutes with everything, so $t I - P^{-1} A P = P^{-1} (t I - A) P$. Taking determinants, the factors $\det P^{-1}$ and $\det P$ cancel.
+The matrix $t I$ commutes with everything, so $t I - P^{-1} A P = P^{-1} (t I - A) P$.
+Taking determinants, the factors $\det P^{-1}$ and $\det P$ cancel.

@@ -3,7 +3,9 @@ tag: 06AMCJMMVM
 kind: statement
 role: theorem
 name: Laplace expansion along a column
-msc: [15A15]
+msc: ["15A15"]
+topics: [DTBK11SR77]
+audience: ug1
 uses: [0C3CFHDN6R, 0W2QAVJQ1W]
 sources:
   - url: https://en.wikipedia.org/wiki/Laplace_expansion
