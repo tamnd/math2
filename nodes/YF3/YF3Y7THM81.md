@@ -1,0 +1,47 @@
+---
+tag: YF3Y7THM81
+kind: example
+name: The image of a non-linear map need not be a subspace
+msc: ["15A04"]
+topics: [9080WQTZ3M]
+audience: ug1
+not_instance_of:
+  - target: 0WSFKKT6FF
+    note: the map x ↦ (x, x²) is not linear, and its image, a parabola, contains (1, 1) and (−1, 1) but not their sum (0, 2)
+uses: [0JB228DCWB, 0EPTJA5QV4, 0RJF668P1T]
+sources:
+  - url: https://en.wikipedia.org/wiki/Image_(mathematics)
+    locator: lead section
+---
+
+## Example
+
+Let $f \colon \R \to \R^2$ be $f(x) = (x, x^2)$.
+Its set of values is the parabola $P = \{(x, y) : y = x^2\}$.
+
+1. $f$ is not a [[linear map|0RJF668P1T]]: $f(2) = (2, 4)$, but $2 f(1) = (2, 2)$.
+2. $f(1) = (1, 1)$ and $f(-1) = (-1, 1)$ lie on $P$.
+3. Their sum is $(0, 2)$. A point $(0, y)$ of $P$ has $y = 0^2 = 0$, so $(0, 2) \notin P$.
+4. So $P$ is not closed under addition, and $P$ is not a [[subspace|0EPTJA5QV4]] of $\R^2$.
+
+So $P$ is not the [[image of a linear map|0JB228DCWB]]: such an image is always a subspace.
+
+## Remarks
+
+- $P$ contains $(0, 0) = f(0)$, so the test "$0$ is in the set" does not detect the failure here.
+- $P$ is also not closed under scalar multiples: $2\,(1, 1) = (2, 2)$, but $2 \ne 2^2$.
+- The span of $P$ is all of $\R^2$, since $(1, 1)$ and $(-1, 1)$ are independent.
+
+## Explanations
+
+### L1 human
+
+The outputs of $x \mapsto (x, x^2)$ form a parabola.
+A parabola is curved, and a subspace of the plane is a point, a line through the origin or the whole plane.
+So this set is not the image of any linear map.
+
+### L2 human
+
+The example shows why linearity matters for the image to be a subspace.
+For a non-linear map, sums of outputs need not be outputs.
+The trap is to check only that $0$ is an output.

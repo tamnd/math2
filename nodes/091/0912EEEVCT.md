@@ -34,7 +34,7 @@ Then these conditions are equivalent:
 
 ### Why each hypothesis is needed
 
-- Finite dimension is necessary. On the space of sequences, the [[right shift|~834be223]] is injective and not surjective, and the left shift is surjective and not injective.
+- Finite dimension is necessary. On the space of sequences, the [[right shift|N1G1WQW59J]] is injective and not surjective, and the left shift is surjective and not injective.
 - On $F[x]$, multiplication by $x$ is injective and not surjective.
 - The domain and the codomain must have the same dimension. The inclusion $\R \to \R^2$, $x \mapsto (x, 0)$, is injective and not surjective.
 - Linearity is necessary. The map $\R \to \R$, $x \mapsto e^x$, is injective and not surjective. Here $\R$ has dimension $1$.

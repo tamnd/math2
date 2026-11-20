@@ -45,13 +45,13 @@ Mathlib writes `V →ₗ[F] W` for the type of linear maps, with its vector spac
 
 ### Examples
 
-- [[The linear forms on $F^2$|~ca677c2c]]: $\Hom(F^2, F)$ is the set of maps $(x, y) \mapsto ax + by$, a space of dimension $2$.
-- [[Sums and multiples of two plane maps|~91f1668e]]: a rotation plus a scaling of $\R^2$ is again a linear map.
+- [[The linear forms on $F^2$|TZXEB00DW7]]: $\Hom(F^2, F)$ is the set of maps $(x, y) \mapsto ax + by$, a space of dimension $2$.
+- [[Sums and multiples of two plane maps|KC7XFCE6T1]]: a rotation plus a scaling of $\R^2$ is again a linear map.
 - $\Hom(F^n, F^m)$, identified with the matrices $M_{m \times n}(F)$ through $A \mapsto (x \mapsto Ax)$.
 
 ### Non-examples
 
-- [[The invertible maps of a space|~82757841]] do not form a subspace of $\End(V)$: $\id$ and $-\id$ are invertible, but their sum $0$ is not.
+- [[The invertible maps of a space|T1FZVSM1FN]] do not form a subspace of $\End(V)$: $\id$ and $-\id$ are invertible, but their sum $0$ is not.
 - The set of all maps $\R \to \R$ is a vector space, but its elements are not all linear. The linear ones form the subspace $\Hom(\R, \R)$.
 
 ### Basic properties
@@ -59,8 +59,8 @@ Mathlib writes `V →ₗ[F] W` for the type of linear maps, with its vector spac
 - The zero vector of $\Hom(V, W)$ is the zero map, and the negative of $T$ is $v \mapsto -T(v)$.
 - In finite dimension, $\dim \Hom(V, W) = \dim V \cdot \dim W$, by the [[dimension theorem|0Z9N1ER0W0]].
 - After a choice of bases, the [[matrix of a linear map|0YQSGNYE3K]] gives an isomorphism $\Hom(V, W) \cong M_{m \times n}(F)$, where $n = \dim V$ and $m = \dim W$.
-- Composition $\Hom(U, V) \times \Hom(V, W) \to \Hom(U, W)$ is linear in each argument, by the [[theorem on composites|~ed2e194c]].
-- The space $\End(V) = \Hom(V, V)$ is also a ring under composition, the [[algebra of endomorphisms|~42300f41]].
+- Composition $\Hom(U, V) \times \Hom(V, W) \to \Hom(U, W)$ is linear in each argument, by the [[theorem on composites|FSXBBV9C76]].
+- The space $\End(V) = \Hom(V, V)$ is also a ring under composition, the [[algebra of endomorphisms|5JA4CYT1TB]].
 
 ### History
 
@@ -71,7 +71,7 @@ The space $\Hom(V, W)$ is the basis-free form of the space of matrices of a fixe
 ### Common errors
 
 - Thinking that the product of two linear maps in $\Hom(V, W)$ is defined. Composition needs the codomain of one map to equal the domain of the other.
-- Confusing the pointwise product $(ST)(v) = S(v) \cdot T(v)$ with composition. The [[pointwise product|~8cc2e580]] is not linear.
+- Confusing the pointwise product $(ST)(v) = S(v) \cdot T(v)$ with composition. The [[pointwise product|ZVW35WJ3YZ]] is not linear.
 - Writing $\dim \Hom(V, W) = \dim V + \dim W$. The dimensions multiply.
 
 ## Explanations

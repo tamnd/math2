@@ -55,24 +55,24 @@ The concept of a linear map isolates this property and makes it the object of st
 ### Examples
 
 - For an $m \times n$ matrix $A$, the map $x \mapsto Ax$ from $F^n$ to $F^m$ is linear, and every linear map $F^n \to F^m$ has this form, by the [[theorem on matrix transformations|W6KB0J3SZZ]].
-- Rotations, reflections, projections, shears and scalings of the plane are linear; the [[plane transformations example|~0b7363a3]] gives their matrices.
+- Rotations, reflections, projections, shears and scalings of the plane are linear; the [[plane transformations example|5BXHREC8C8]] gives their matrices.
 - Differentiation and integration of polynomials, shifts of sequences, evaluation at a point, the trace and the transpose are linear; see the [[examples of linear maps|0SS770NS8B]].
 - The zero map $v \mapsto 0$ and the identity map $v \mapsto v$ are linear on every vector space.
 - For a fixed scalar $c$, the map $v \mapsto cv$ is linear, because $c(u + v) = cu + cv$ and $c(av) = a(cv)$ by the axioms of a vector space.
 
 ### Non-examples
 
-- A [[translation|~866bb5bd]] $v \mapsto v + w_0$ with $w_0 \ne 0$ fails both conditions, and it sends $0$ to $w_0 \ne 0$.
-- The [[squaring map|~1498930f]] $x \mapsto x^2$ on $\R$ fails additivity, because $(1 + 1)^2 = 4$ but $1^2 + 1^2 = 2$.
-- Complex conjugation $z \mapsto \bar z$ on $\C$ is additive, but it fails homogeneity over $\C$: it sends $i \cdot 1$ to $-i$, while $i \cdot \bar 1 = i$. It is a [[semilinear map|~8c967182]].
+- A [[translation|DTCM6N02A9]] $v \mapsto v + w_0$ with $w_0 \ne 0$ fails both conditions, and it sends $0$ to $w_0 \ne 0$.
+- The [[squaring map|RMC0D67M01]] $x \mapsto x^2$ on $\R$ fails additivity, because $(1 + 1)^2 = 4$ but $1^2 + 1^2 = 2$.
+- Complex conjugation $z \mapsto \bar z$ on $\C$ is additive, but it fails homogeneity over $\C$: it sends $i \cdot 1$ to $-i$, while $i \cdot \bar 1 = i$. It is a [[semilinear map|BNPDDM95KF]].
 - The map $(x, y) \mapsto \sqrt[3]{x^3 + y^3}$ from $\R^2$ to $\R$ is homogeneous, but it fails additivity: $(1, 0)$ and $(0, 1)$ go to $1$ and $1$, while $(1, 1)$ goes to $\sqrt[3]{2} \ne 2$.
-- The map $x \mapsto x^3$ on $\R$ is a bijection, but it [[is not linear|~cf936aba]].
+- The map $x \mapsto x^3$ on $\R$ is a bijection, but it [[is not linear|T4286X5GA4]].
 
 ### Basic properties
 
-- A linear map sends $0$ to $0$, $-v$ to $-T(v)$, and each linear combination $\sum a_i v_i$ to $\sum a_i T(v_i)$, by the [[lemma on zero and linear combinations|~c10ad39e]].
+- A linear map sends $0$ to $0$, $-v$ to $-T(v)$, and each linear combination $\sum a_i v_i$ to $\sum a_i T(v_i)$, by the [[lemma on zero and linear combinations|STYEWH8R4E]].
 - The two conditions together are equivalent to the single condition $T(au + v) = a T(u) + T(v)$ for all $u, v \in V$ and $a \in F$, by the same lemma.
-- The [[composite of two linear maps is linear|~ed2e194c]], and the [[inverse of a bijective linear map is linear|~12368ba0]].
+- The [[composite of two linear maps is linear|FSXBBV9C76]], and the [[inverse of a bijective linear map is linear|E08G7CVKPK]].
 - The [[kernel|0S23E6YE83]] of a linear map is a subspace of $V$, and its [[image|0WSFKKT6FF]] is a subspace of $W$.
 - A linear map is [[determined by its values on a basis|0R8X9XA83A]], and these values can be chosen freely.
 
@@ -116,6 +116,6 @@ The trap: $T(0) = 0$ does not prove linearity, because the squaring map sends $0
 Linear maps are the morphisms of the [[category|A2DE66937D]] of vector spaces over $F$.
 Kernels, images, isomorphisms, direct sums and quotients are the categorical constructions in this category, and every short exact sequence in it splits.
 The same definition over a ring gives the homomorphisms of [[modules|0NZ8JA25WK]], and the additivity condition alone gives a [[group homomorphism|0JYTG5K9Y4]] of the additive groups.
-A [[semilinear map|~8c967182]] twists homogeneity by an automorphism of the field, and Mathlib takes this general form as its basic notion.
+A [[semilinear map|BNPDDM95KF]] twists homogeneity by an automorphism of the field, and Mathlib takes this general form as its basic notion.
 In analysis one adds continuity, which gives the [[continuous linear maps|03TM135G0N]] of normed spaces.
 With bases, a linear map between finite-dimensional spaces becomes a [[matrix|0YQSGNYE3K]], and maps to the field itself form the [[dual space|07JBSZE0V4]].

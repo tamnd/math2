@@ -38,18 +38,18 @@ For a map $T \colon V \to V$, the powers are $T^0 = \id_V$, $T^1 = T$ and $T^{k+
 
 ### Examples
 
-- [[A rotation and a reflection of the plane|~a7ff7d55]]: the two orders give two different reflections.
-- [[Differentiation and integration of polynomials|~71de384c]]: $D \circ J$ is the identity, but $J \circ D$ is not.
+- [[A rotation and a reflection of the plane|W9GA3QFG24]]: the two orders give two different reflections.
+- [[Differentiation and integration of polynomials|25N6VYJ127]]: $D \circ J$ is the identity, but $J \circ D$ is not.
 - The composite of the [[matrix transformations|W6KB0J3SZZ]] $x \mapsto Bx$ and $y \mapsto Ay$ is $x \mapsto (AB)x$.
 
 ### Non-examples
 
-- [[The pointwise product of two linear maps|~8cc2e580]] is not their composite, and it is not linear.
+- [[The pointwise product of two linear maps|ZVW35WJ3YZ]] is not their composite, and it is not linear.
 - Composition is defined only when the target of $S$ is the source of $T$. For $S \colon \R^2 \to \R^3$ and $T \colon \R^2 \to \R^2$, the composite $T \circ S$ does not exist.
 
 ### Basic properties
 
-- The composite of two linear maps is linear, by the [[theorem on composites|~ed2e194c]].
+- The composite of two linear maps is linear, by the [[theorem on composites|FSXBBV9C76]].
 - Composition is associative: $(R \circ T) \circ S = R \circ (T \circ S)$. This holds for all [[functions|0THBK9V825]].
 - The identity maps are neutral: $T \circ \id_V = T = \id_W \circ T$.
 - Composition is bilinear: $T \circ (S_1 + S_2) = T \circ S_1 + T \circ S_2$, $(T_1 + T_2) \circ S = T_1 \circ S + T_2 \circ S$, and scalars move out of each factor.
@@ -59,7 +59,7 @@ For a map $T \colon V \to V$, the powers are $T^0 = \id_V$, $T^1 = T$ and $T^{k+
 ### History
 
 Cayley introduced matrices in 1858 and defined their product as the composite of two linear substitutions.
-Peano gave the abstract definition of a linear map in 1888, and composition then became the product in the [[algebra of endomorphisms|~42300f41]].
+Peano gave the abstract definition of a linear map in 1888, and composition then became the product in the [[algebra of endomorphisms|5JA4CYT1TB]].
 
 ### Common errors
 
@@ -90,5 +90,5 @@ The trap is to forget that the order of the factors matters.
 
 Vector spaces over $F$ and linear maps form a category, with composition as the operation on arrows.
 Bilinearity of composition makes this category enriched over vector spaces: each $\Hom(U, V)$ is a vector space.
-For $V = W = U$, composition is the multiplication of the [[algebra of endomorphisms|~42300f41]].
+For $V = W = U$, composition is the multiplication of the [[algebra of endomorphisms|5JA4CYT1TB]].
 In Mathlib the composite of `g` and `f` is written `g.comp f` or `g ∘ₗ f`.

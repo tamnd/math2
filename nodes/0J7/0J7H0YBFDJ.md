@@ -45,20 +45,20 @@ The invertible endomorphisms form the [[general linear group|0FCHE902D7]] $GL(V)
 
 ### Examples
 
-- [[The rotation by a quarter turn|~197ae80d]] of $\R^2$, an automorphism with $R^4 = \id$.
-- [[The derivative on quadratic polynomials|~1197ce29]], an endomorphism $D$ of $P_2$ with $D^3 = 0$.
+- [[The rotation by a quarter turn|HGGYPYA9XB]] of $\R^2$, an automorphism with $R^4 = \id$.
+- [[The derivative on quadratic polynomials|29A5DCNMHJ]], an endomorphism $D$ of $P_2$ with $D^3 = 0$.
 - For a square matrix $A \in M_n(F)$, the map $x \mapsto Ax$ of $F^n$.
 - The identity $\id_V$ and the zero map $0$ of each space $V$.
 
 ### Non-examples
 
-- [[The projection of $\R^3$ onto $\R^2$|~696fc91b]], $(x, y, z) \mapsto (x, y)$, is linear but not an endomorphism, since its codomain differs from its domain.
+- [[The projection of $\R^3$ onto $\R^2$|VPN91Y1K18]], $(x, y, z) \mapsto (x, y)$, is linear but not an endomorphism, since its codomain differs from its domain.
 - The map $x \mapsto x + 1$ of $\R$ sends $\R$ to itself, but it is not linear.
 
 ### Basic properties
 
-- The composite of two endomorphisms of $V$ is an endomorphism of $V$, by the [[theorem on composites|~ed2e194c]].
-- $\End(V)$ is a vector space, as the case $W = V$ of the [[space of linear maps|0X9MBPP2Z3]]. With composition, it is the [[algebra of endomorphisms|~42300f41]].
+- The composite of two endomorphisms of $V$ is an endomorphism of $V$, by the [[theorem on composites|FSXBBV9C76]].
+- $\End(V)$ is a vector space, as the case $W = V$ of the [[space of linear maps|0X9MBPP2Z3]]. With composition, it is the [[algebra of endomorphisms|5JA4CYT1TB]].
 - In finite dimension, an endomorphism is injective if and only if it is surjective, by the [[theorem on endomorphisms|0912EEEVCT]].
 - In a basis of an $n$-dimensional space, an endomorphism has an $n \times n$ [[matrix|0YQSGNYE3K]]. A change of basis replaces the matrix $A$ by $P^{-1} A P$.
 - The invertible endomorphisms are the units of the ring $\End(V)$, so $GL(V)$ is the [[group of units|07C6ECNJET]] of $\End(V)$.
@@ -73,7 +73,7 @@ In abstract algebra, the word means more generally a homomorphism from any objec
 
 - Calling every square-matrix-like map an endomorphism. A map $\R^3 \to \R^2$ is not one, and neither is an isomorphism $P_2 \to \R^3$.
 - Writing $T^2$ for a map $T \colon V \to W$ with $W \ne V$. The composite $T \circ T$ is not defined.
-- Assuming that an injective endomorphism is invertible in infinite dimension. The [[right shift|~834be223]] is a counterexample.
+- Assuming that an injective endomorphism is invertible in infinite dimension. The [[right shift|N1G1WQW59J]] is a counterexample.
 
 ## Explanations
 

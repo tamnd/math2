@@ -39,19 +39,19 @@ For a matrix $A$, the image of $x \mapsto Ax$ is the [[column space|03AJKXH1AV]]
 
 ### Examples
 
-- [[A matrix map of $\R^3$|~d6ded6f4]]: the image is the plane $c = a + b$.
-- [[Differentiation on cubic polynomials|~dbea8ea9]]: the image is the space of polynomials of degree at most $2$.
+- [[A matrix map of $\R^3$|RZNXVEHTCE]]: the image is the plane $c = a + b$.
+- [[Differentiation on cubic polynomials|SMEX3CNE69]]: the image is the space of polynomials of degree at most $2$.
 - The image of the projection $(x, y, z) \mapsto (x, y, 0)$ of $\R^3$ is the $xy$-plane.
 - The image of the [[trace|0XC1RDBY7A]] $M_n(F) \to F$ is all of $F$, since $\tr(c E_{11}) = c$.
 
 ### Non-examples
 
-- [[The image of $x \mapsto (x, x^2)$|~a1a700e2]] is a parabola. It is not a subspace, because the map is not linear.
+- [[The image of $x \mapsto (x, x^2)$|YF3Y7THM81]] is a parabola. It is not a subspace, because the map is not linear.
 - The target $W$ is not the image in general. The projection $\R^2 \to \R^2$, $(x, y) \mapsto (x, 0)$, has target $\R^2$ and image the $x$-axis.
 
 ### Basic properties
 
-- $\im T$ is a subspace of $W$, and it is spanned by the images of any spanning set of $V$, by the [[theorem on the image|~b1674adb]].
+- $\im T$ is a subspace of $W$, and it is spanned by the images of any spanning set of $V$, by the [[theorem on the image|B6KFVB1H5F]].
 - If $V$ is finite-dimensional, then $\dim \im T \le \dim V$. The dimension of the image is the [[rank|0ZZXSBTR4J]].
 - $\im(S \circ T) \subseteq \im S$ for each linear map $S \colon W \to U$.
 - $\im T \cong V / \ker T$, by the [[first isomorphism theorem|0MTBGVZ4XJ]].

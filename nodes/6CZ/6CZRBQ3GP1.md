@@ -7,7 +7,7 @@ topics: [9080WQTZ3M]
 audience: ug1
 proves: 0Z9N1ER0W0
 methods: [01XM7JEKHY, 0NTF6DMVAP]
-uses: [0X9MBPP2Z3, 0VPCJWGMP9, ~dbc9db14, 0R8X9XA83A, 0KCQ9Y3QKA, 0CRMGPAH83, 088RYKAWK9, 03GSZ8RTZJ, 0ZHWKQMVX5]
+uses: [0X9MBPP2Z3, 0VPCJWGMP9, PB7N4R8C6X, 0R8X9XA83A, 0KCQ9Y3QKA, 0CRMGPAH83, 088RYKAWK9, 03GSZ8RTZJ, 0ZHWKQMVX5]
 sources:
   - url: https://dec41.user.srcf.net/notes/IB_M/linear_algebra_thm_proof.pdf
     locator: Section 2.2
@@ -22,7 +22,7 @@ We write down an explicit basis of $\Hom_F(V, W)$ with $\dim V \cdot \dim W$ ele
 1. Let $n = \dim V$ and $m = \dim W$. Let $(b_1, \dots, b_n)$ be a [[basis|0KCQ9Y3QKA]] of $V$ and $(c_1, \dots, c_m)$ a basis of $W$.
 2. Write $\delta_{jk} = 1$ if $j = k$, and $\delta_{jk} = 0$ if $j \ne k$.
 3. Fix $i \le m$ and $j \le n$. By the [[theorem on bases|0R8X9XA83A]], there is a linear map $E_{ij} \colon V \to W$ with $E_{ij}(b_k) = \delta_{jk} c_i$.
-4. These $mn$ maps lie in [[$\Hom_F(V, W)$|0VPCJWGMP9]]. By the [[vector space theorem|~dbc9db14]], this set is a vector space with pointwise operations.
+4. These $mn$ maps lie in [[$\Hom_F(V, W)$|0VPCJWGMP9]]. By the [[vector space theorem|PB7N4R8C6X]], this set is a vector space with pointwise operations.
 5. (Spanning.) Let $T \in \Hom_F(V, W)$. For each $k$, write $T(b_k) = \sum_{i=1}^m a_{ik} c_i$ with $a_{ik} \in F$.
 6. Let $S = \sum_{i,j} a_{ij} E_{ij}$. The operations are pointwise, so $S(b_k) = \sum_{i,j} a_{ij} \delta_{jk} c_i$.
 7. Only the terms with $j = k$ remain. So $S(b_k) = \sum_{i=1}^m a_{ik} c_i = T(b_k)$ for each $k$.

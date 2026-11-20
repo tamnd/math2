@@ -25,10 +25,10 @@ So $S(T + U) = ST + SU$, $(S + T)U = SU + TU$ and $a(ST) = (aS)T = S(aT)$ for al
 
 ## Remarks
 
-- The general notion, with examples and non-examples, is the concept of the [[algebra of endomorphisms|~42300f41]].
-- The algebra axioms are proved in the [[theorem on the algebra structure|~36493d79]].
+- The general notion, with examples and non-examples, is the concept of the [[algebra of endomorphisms|5JA4CYT1TB]].
+- The algebra axioms are proved in the [[theorem on the algebra structure|7BDGQ1Q46E]].
 - If $\dim V = n$, a basis of $V$ gives an algebra isomorphism $\End_F(V) \cong M_n(F)$.
-- For $\dim V \ge 2$, the algebra is not commutative. Its centre consists of the scalar maps $a \id_V$, by the [[centre theorem|~8f0300be]].
+- For $\dim V \ge 2$, the algebra is not commutative. Its centre consists of the scalar maps $a \id_V$, by the [[centre theorem|ZQPD85QCC8]].
 - Its group of units is the group $GL(V)$ of linear automorphisms of $V$.
 
 ## Explanations

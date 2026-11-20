@@ -7,7 +7,7 @@ topics: [9080WQTZ3M]
 audience: ug1
 proves: 0R8X9XA83A
 methods: [01XM7JEKHY, GQHHNV79PA, 0NTF6DMVAP]
-uses: [0KCQ9Y3QKA, 0NRYHJPQG2, 0V8F3E48E6, 0VTQTPQGAV, 0RJF668P1T, ~c10ad39e]
+uses: [0KCQ9Y3QKA, 0NRYHJPQG2, 0V8F3E48E6, 0VTQTPQGAV, 0RJF668P1T, STYEWH8R4E]
 sources:
   - url: https://dec41.user.srcf.net/notes/IB_M/linear_algebra_thm_proof.pdf
     locator: Section 2.2
@@ -22,7 +22,7 @@ We first prove uniqueness, then build the map from the coordinates of each vecto
 1. By the [[definition of a basis|0VTQTPQGAV]], each $v \in V$ is a [[linear combination|0V8F3E48E6]] $v = \sum_{i \in I} a_i b_i$ in exactly one way.
 2. In step 1, $a_i \in F$, and $a_i = 0$ for all but finitely many $i$.
 3. Let $S, T$ be [[linear maps|0RJF668P1T]] with $S(b_i) = T(b_i)$ for all $i$. Let $v$ be written as in step 1.
-4. By the [[lemma on linear combinations|~c10ad39e]], $S(v) = \sum_i a_i S(b_i)$ and $T(v) = \sum_i a_i T(b_i)$.
+4. By the [[lemma on linear combinations|STYEWH8R4E]], $S(v) = \sum_i a_i S(b_i)$ and $T(v) = \sum_i a_i T(b_i)$.
 5. The right sides of step 4 are equal term by term. So $S(v) = T(v)$ for all $v$, and $S = T$.
 6. Now let $(w_i)_{i \in I}$ be a family in $W$. For $v = \sum_i a_i b_i$ as in step 1, define $T(v) = \sum_i a_i w_i$.
 7. This is a finite sum by step 2. The coefficients $a_i$ are unique, so $T(v)$ is well defined.

@@ -60,7 +60,7 @@ Send $r$ basis vectors of $V$ to independent vectors of $W$ and the others to $0
 ### Generalizations
 
 - Infinite-dimensional form. For any vector spaces $V$ and $W$ and a linear map $T \colon V \to W$, there is a subspace $U$ with $V = \ker T \oplus U$ and $U \cong \im T$. So $\dim V = \dim \ker T + \dim \im T$ as cardinal numbers.
-- In the infinite case the equation cannot be solved for one term. The [[right shift|~834be223]] on sequences has nullity $0$ and image of the same infinite dimension as $V$, but it is not surjective.
+- In the infinite case the equation cannot be solved for one term. The [[right shift|N1G1WQW59J]] on sequences has nullity $0$ and image of the same infinite dimension as $V$, but it is not surjective.
 - The [[first isomorphism theorem|0MTBGVZ4XJ]] $V / \ker T \cong \im T$ is the form of the theorem without dimensions.
 - For an exact sequence $0 \to V_1 \to \dots \to V_k \to 0$ of finite-dimensional spaces, the alternating sum of the dimensions is $0$. Rank-nullity is the case of $0 \to \ker T \to V \to \im T \to 0$.
 - Mathlib states the theorem for modules over a division ring, which is more general than a field.

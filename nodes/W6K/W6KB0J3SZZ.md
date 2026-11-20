@@ -34,14 +34,14 @@ The map $T_A$ is called the *matrix transformation* of $A$, and $A$ is called th
 ### Why each hypothesis is needed
 
 - The source and target must be $F^n$ and $F^m$ with the same field $F$. For an abstract space $V$, a matrix needs a choice of basis, which is the subject of the [[matrix of a linear map|0YQSGNYE3K]].
-- Part 2 needs linearity. The map $x \mapsto x^2$ on $F = \R$ is not of the form $x \mapsto ax$, since it is [[not linear|~1498930f]].
+- Part 2 needs linearity. The map $x \mapsto x^2$ on $F = \R$ is not of the form $x \mapsto ax$, since it is [[not linear|RMC0D67M01]].
 
 ### Consequences
 
 - The linear maps $F \to F$ are exactly the maps $x \mapsto ax$ with $a \in F$.
 - To find the matrix of a linear map, compute the images of $e_1, \dots, e_n$. For the rotation of $\R^2$ by a right angle, $e_1 \mapsto e_2$ and $e_2 \mapsto -e_1$, so $A = \begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}$.
-- The map $A \mapsto T_A$ is a bijection from $M_{m \times n}(F)$ to the [[space of linear maps|0X9MBPP2Z3]] from $F^n$ to $F^m$. Under it, the matrix product corresponds to the [[composite|~ed2e194c]].
-- The [[image of $T_A$|~b1674adb]] is the column space of $A$, and the kernel is the null space of $A$.
+- The map $A \mapsto T_A$ is a bijection from $M_{m \times n}(F)$ to the [[space of linear maps|0X9MBPP2Z3]] from $F^n$ to $F^m$. Under it, the matrix product corresponds to the [[composite|FSXBBV9C76]].
+- The [[image of $T_A$|B6KFVB1H5F]] is the column space of $A$, and the kernel is the null space of $A$.
 
 ### Converse
 

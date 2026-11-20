@@ -33,7 +33,7 @@ We use the rank-nullity theorem to compare the kernel and the image.
 Rank-nullity says that the dimensions of the kernel and the image add up to $\dim V$.
 A trivial kernel forces the image to have full dimension.
 A full image forces the kernel to be trivial.
-This trade-off needs finite dimension: the [[right shift|~834be223]] on sequences is injective but not surjective.
+This trade-off needs finite dimension: the [[right shift|N1G1WQW59J]] on sequences is injective but not surjective.
 
 ## Variants
 

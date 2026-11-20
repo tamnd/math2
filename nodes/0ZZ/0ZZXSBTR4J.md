@@ -39,19 +39,19 @@ For a matrix $A$, the rank of $x \mapsto Ax$ is the [[rank of the matrix|0ZC9YTX
 
 ### Examples
 
-- [[A $3 \times 3$ matrix map|~d6ded6f4]] has image a plane, so its rank is $2$.
-- [[Differentiation on cubic polynomials|~dbea8ea9]] has image $P_2$, so its rank is $3$.
+- [[A $3 \times 3$ matrix map|RZNXVEHTCE]] has image a plane, so its rank is $2$.
+- [[Differentiation on cubic polynomials|SMEX3CNE69]] has image $P_2$, so its rank is $3$.
 - The projection $(x, y, z) \mapsto (x, y)$ of $\R^3$ onto $\R^2$ has rank $2$.
 - The zero map has rank $0$, and the identity of an $n$-dimensional space has rank $n$.
 
 ### Non-examples
 
-- [[The number of nonzero columns of a matrix|~f5341b0f]] is not its rank.
+- [[The number of nonzero columns of a matrix|R7N2K2EVJP]] is not its rank.
 - The dimension of the target is not the rank in general. The projection $\R^2 \to \R^2$, $(x, y) \mapsto (x, 0)$, has target of dimension $2$ but rank $1$.
 
 ### Basic properties
 
-- $\rank T \le \dim V$, since the image of a basis spans the image, by the [[theorem on the image|~b1674adb]].
+- $\rank T \le \dim V$, since the image of a basis spans the image, by the [[theorem on the image|B6KFVB1H5F]].
 - $\rank T \le \dim W$, since the image is a subspace of $W$.
 - $\rank T = \dim W$ if and only if $T$ is surjective, when $W$ is finite-dimensional.
 - $\rank T + \dim \ker T = \dim V$, by the [[rank-nullity theorem|0W4FSW1TVB]].
