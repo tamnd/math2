@@ -6,7 +6,7 @@ aliases: [first-degree-entailment-fde, belnap-dunn-logic, fde]
 msc: ["03B50", "03B47"]
 topics: [WZP584JQ06]
 audience: research
-uses: [DWYCKAKXZD, ~d80767f3, SZHA10A9X7]
+uses: [DWYCKAKXZD, P7E926JK13, SZHA10A9X7]
 sources:
   - wikipedia: en:76765067@r1368301704
     locator: Glossary of logic, section F
@@ -27,7 +27,7 @@ inventory: [12BTK3EH85]
 ## Summary
 
 *First-degree entailment* $\mathsf{FDE}$, also called Belnap-Dunn logic $\mathrm{BD}$, is the four-valued [[many-valued logic|DWYCKAKXZD]] in $\neg$, $\land$, $\lor$ whose values are the subsets of $\set{T, F}$.
-A sentence can be told true, told false, told both, or told neither; see [[the definition|~95890a5e]].
+A sentence can be told true, told false, told both, or told neither; see [[the definition|AWEG5PR3GF]].
 Consequence preserves "told at least true".
 $\mathsf{FDE}$ contains both [[strong Kleene logic|SZHA10A9X7]] and Priest's $\mathsf{LP}$ as three-valued extensions, and it is neither explosive nor has it any tautologies.
 
@@ -48,14 +48,14 @@ The SEP entry on truth values calls the structure with both orders the bilattice
 
 ### Examples
 
-1. [[Explosion and excluded middle fail in FDE|~0d34f99b]].
-2. [[The two orders of FOUR and the Routley star|~a72409c4]] give two equivalent pictures of the same logic.
+1. [[Explosion and excluded middle fail in FDE|5DFTBDQAR4]].
+2. [[The two orders of FOUR and the Routley star|ZV62Y5X00V]] give two equivalent pictures of the same logic.
 3. De Morgan laws and double negation hold: $\neg \neg p \models p$, $p \models \neg \neg p$, $\neg(p \land q) \models \neg p \lor \neg q$.
 4. $p \land q \models p$ and $p \models p \lor q$ hold, as in classical logic.
 
 ### Non-examples
 
-1. [[Strong Kleene logic is not FDE|~93c26ce4]]: explosion holds in $\mathsf{K}_3$.
+1. [[Strong Kleene logic is not FDE|QZ9FRRH7Y1]]: explosion holds in $\mathsf{K}_3$.
 2. Classical logic is not $\mathsf{FDE}$, since $\models p \lor \neg p$ classically.
 
 ### Basic properties

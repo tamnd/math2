@@ -6,7 +6,7 @@ aliases: [strong-kleene-connectives, k3]
 msc: ["03B50"]
 topics: [WZP584JQ06]
 audience: grad
-uses: [DWYCKAKXZD, ~d80767f3, TFDYXS3K1N]
+uses: [DWYCKAKXZD, P7E926JK13, TFDYXS3K1N]
 sources:
   - wikipedia: en:76765067@r1368301704
     locator: Glossary of logic, section S
@@ -22,10 +22,10 @@ inventory: [907BAF6V51]
 
 ## Summary
 
-*Strong Kleene logic* $\mathsf{K}_3$ is the [[many-valued logic|DWYCKAKXZD]] of the matrix with values $\set{0, \tfrac12, 1}$, designated set $\set{1}$ and the operations $\neg x = 1 - x$, $x \land y = \min(x, y)$, $x \lor y = \max(x, y)$; see [[the definition|~e50e75c5]].
+*Strong Kleene logic* $\mathsf{K}_3$ is the [[many-valued logic|DWYCKAKXZD]] of the matrix with values $\set{0, \tfrac12, 1}$, designated set $\set{1}$ and the operations $\neg x = 1 - x$, $x \land y = \min(x, y)$, $x \lor y = \max(x, y)$; see [[the definition|74R8A41V6M]].
 Implication is the abbreviation $\neg \varphi \lor \psi$.
 The middle value is read as "undefined": a compound gets a classical value whenever the classical values of its parts already decide it.
-$\mathsf{K}_3$ has [[no tautologies|~70290107]] but a rich consequence relation, and it is the logic of truth-value gaps, used in Kripke's theory of truth.
+$\mathsf{K}_3$ has [[no tautologies|ND17WYDNA5]] but a rich consequence relation, and it is the logic of truth-value gaps, used in Kripke's theory of truth.
 
 ## Motivation
 
@@ -44,22 +44,22 @@ With the designated set $\set{\tfrac12, 1}$ instead, the same tables give Priest
 
 ### Examples
 
-1. [[A classical tautology that is not a K3 tautology|~d5612762]]: $p \to p$ has the value $\tfrac12$ at $p = \tfrac12$.
-2. [[Partial recursive predicates|~fffdddf4]] obey the strong Kleene tables under parallel evaluation.
-3. [[One formula in Ł3, K3 and weak Kleene logic|~71d1e02f]] compares the tables.
-4. Explosion $p \land \neg p \models q$ is valid, since $\min(x, 1 - x) \le \tfrac12$ is never designated; see [[the comparison with LP|~89c152fd]].
+1. [[A classical tautology that is not a K3 tautology|MBVRGSV45Y]]: $p \to p$ has the value $\tfrac12$ at $p = \tfrac12$.
+2. [[Partial recursive predicates|DSFTFBFADA]] obey the strong Kleene tables under parallel evaluation.
+3. [[One formula in Ł3, K3 and weak Kleene logic|XZ2NRGZ69N]] compares the tables.
+4. Explosion $p \land \neg p \models q$ is valid, since $\min(x, 1 - x) \le \tfrac12$ is never designated; see [[the comparison with LP|BJMXHXJ7QQ]].
 
 ### Non-examples
 
-1. [[Łukasiewicz's three-valued logic is not K3|~404c4155]]: they differ only at $\tfrac12 \to \tfrac12$, and $p \to p$ separates them.
+1. [[Łukasiewicz's three-valued logic is not K3|61J1PFA9CW]]: they differ only at $\tfrac12 \to \tfrac12$, and $p \to p$ separates them.
 2. [[Weak Kleene logic|BCK5QXQXA6]] is not $\mathsf{K}_3$: it gives $1 \lor \tfrac12 = \tfrac12$.
 
 ### Basic properties
 
-1. [[K3 has no tautologies|~70290107]], because the valuation with every variable $\tfrac12$ gives every formula the value $\tfrac12$.
+1. [[K3 has no tautologies|ND17WYDNA5]], because the valuation with every variable $\tfrac12$ gives every formula the value $\tfrac12$.
 2. Every valid inference of $\mathsf{K}_3$ is classically valid, by restricting to valuations into $\set{0, 1}$.
 3. Valid inferences include $p \land q \models p$, $p \models p \lor q$, modus ponens $p, \neg p \lor q \models q$ and De Morgan's laws in both directions.
-4. Every formula is monotone in the order of information, in which $\tfrac12$ lies below $0$ and $1$; see [[the proof|~b88595da]], steps 6 to 10.
+4. Every formula is monotone in the order of information, in which $\tfrac12$ lies below $0$ and $1$; see [[the proof|GWPJHN5CNB]], steps 6 to 10.
 5. The consequence relation of $\mathsf{K}_3$ extends that of [[first-degree entailment|KXTP4P3GHT]] by explosion.
 
 ### History

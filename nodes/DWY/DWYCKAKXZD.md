@@ -24,8 +24,8 @@ same_as:
 A *many-valued logic* is a propositional logic whose semantics uses a set $V$ of truth values with more than two elements; see [[the definition|66NMTCQNQV]].
 Each connective is interpreted by a function on $V$, and a nonempty proper subset $D \subseteq V$ of *designated values* plays the role of "true".
 A formula $\varphi$ follows from a set $\Gamma$ when every valuation that gives designated values to all members of $\Gamma$ also gives a designated value to $\varphi$.
-The structure $(V, \text{operations}, D)$ is a [[logical matrix|~d80767f3]].
-The logic is *finitely valued* when $V$ is finite, as in [[Łukasiewicz's three-valued logic|~d7a9d81e]], and *infinite-valued* when $V$ is infinite, as in [[Łukasiewicz logic on the unit interval|~ca73eab3]].
+The structure $(V, \text{operations}, D)$ is a [[logical matrix|P7E926JK13]].
+The logic is *finitely valued* when $V$ is finite, as in [[Łukasiewicz's three-valued logic|1CE2TGM6MQ]], and *infinite-valued* when $V$ is infinite, as in [[Łukasiewicz logic on the unit interval|NFCEM44XYH]].
 Many-valued logics test which classical laws depend on [[bivalence|5DYNDW9526]], and they model future contingents, vague predicates and partial information.
 
 ## Motivation
@@ -50,24 +50,24 @@ In this topic we write $\odot$ for strong conjunction and $\oplus$ for strong di
 
 ### Examples
 
-1. [[Łukasiewicz's three-valued logic|~d7a9d81e]] $\mathrm{Ł}_3$: $V = \set{0, \tfrac12, 1}$, $D = \set{1}$. The [[evaluation of $p \lor \neg p$|6S872VHF67]] gives $\tfrac12$, so excluded middle fails.
+1. [[Łukasiewicz's three-valued logic|1CE2TGM6MQ]] $\mathrm{Ł}_3$: $V = \set{0, \tfrac12, 1}$, $D = \set{1}$. The [[evaluation of $p \lor \neg p$|6S872VHF67]] gives $\tfrac12$, so excluded middle fails.
 2. [[Strong Kleene logic|SZHA10A9X7]] $\mathsf{K}_3$: the same values with Kleene's tables and $D = \set{1}$. It has no tautologies.
 3. [[First-degree entailment|KXTP4P3GHT]]: four values "true", "false", "both" and "neither", with two designated values.
-4. [[Post's many-valued logics|~e204f5cc]]: $V = \set{0, 1, \dots, m - 1}$ with a cyclic negation.
-5. [[Fuzzy logics|~b4bfdbf0]] such as [[Łukasiewicz logic|~ca73eab3]] and [[Gödel-Dummett logic|474SGS2N0X]], with $V = [0, 1]$.
-6. [[Suszko's two-valued reduction of Ł3|~37339d27]] shows the same logic with a different, non-truth-functional semantics.
+4. [[Post's many-valued logics|YHYSGRE7JV]]: $V = \set{0, 1, \dots, m - 1}$ with a cyclic negation.
+5. [[Fuzzy logics|8DH4QM6AX8]] such as [[Łukasiewicz logic|NFCEM44XYH]] and [[Gödel-Dummett logic|474SGS2N0X]], with $V = [0, 1]$.
+6. [[Suszko's two-valued reduction of Ł3|MAYHP6P8NC]] shows the same logic with a different, non-truth-functional semantics.
 
 ### Non-examples
 
-1. [[Classical logic has a two-element characteristic matrix|~b17fba19]], so it is not many-valued, even though it also has a four-element matrix.
+1. [[Classical logic has a two-element characteristic matrix|WETMPAHWZV]], so it is not many-valued, even though it also has a four-element matrix.
 2. Intuitionistic logic is not the logic of any finite matrix; Gödel proved this in 1932. It is many-valued only in the broad sense of an infinite matrix, a [[Heyting algebra|NG943XNQWH]].
-3. A probability assignment is not a valuation of a matrix: [[probability is not truth-functional|~a4e05182]].
+3. A probability assignment is not a valuation of a matrix: [[probability is not truth-functional|EVW7FAWM68]].
 
 ### Basic properties
 
 1. For a finite matrix with $n$ values, a formula with $k$ variables has $n^k$ valuations, so its tautologies are decidable by a finite table.
-2. [[Suszko's reduction|~0bb543fb]]: every consequence relation that satisfies reflexivity, monotonicity and cut is determined by a class of two-valued valuations.
-3. [[Wójcicki's theorem|~9995d199]]: every structural consequence relation is the consequence relation of a class of logical matrices.
+2. [[Suszko's reduction|2FQB3NQF8A]]: every consequence relation that satisfies reflexivity, monotonicity and cut is determined by a class of two-valued valuations.
+3. [[Wójcicki's theorem|VWJVAS3VE3]]: every structural consequence relation is the consequence relation of a class of logical matrices.
 4. A many-valued logic can be weaker than classical logic, as $\mathrm{Ł}_3$ is, or have no tautologies at all, as [[Strong Kleene logic|SZHA10A9X7]] has none.
 5. Restricted to the values $0$ and $1$, the tables of Łukasiewicz and Kleene are the classical tables, so each of their tautologies is a classical [[tautology|05006AJ7DZ]].
 
@@ -80,7 +80,7 @@ Suszko argued in the 1970s that every such logic is two-valued in a deeper sense
 
 ### Common errors
 
-1. Reading the value $\tfrac12$ as a probability. Probabilities are not truth-functional; see [[the example|~a4e05182]].
+1. Reading the value $\tfrac12$ as a probability. Probabilities are not truth-functional; see [[the example|EVW7FAWM68]].
 2. Saying that a logic "has $n$ values". The number of values belongs to a matrix, and one logic has matrices of different sizes.
 3. Forgetting the designated set. The same tables with $D = \set{1}$ and with $D = \set{\tfrac12, 1}$ give different logics, such as $\mathsf{K}_3$ and the logic of paradox.
 
@@ -108,7 +108,7 @@ A trap: a classical law can fail in one many-valued logic and hold in another wi
 
 ### L3 human
 
-Abstractly, a many-valued logic is a structural consequence relation presented by a matrix, and [[Wójcicki's theorem|~9995d199]] says that every structural logic has such a presentation.
-So "many-valued" is a property of a semantics, not of a logic; [[Suszko's reduction|~0bb543fb]] makes the same point from the two-valued side.
+Abstractly, a many-valued logic is a structural consequence relation presented by a matrix, and [[Wójcicki's theorem|VWJVAS3VE3]] says that every structural logic has such a presentation.
+So "many-valued" is a property of a semantics, not of a logic; [[Suszko's reduction|2FQB3NQF8A]] makes the same point from the two-valued side.
 The algebras of the matrices are studied in [[algebraic logic|QYA4H5Y7VR]]: [[MV-algebras|8T4M7RN9AC]] for Łukasiewicz logic, [[Post algebras|RD2A5Z7E2B]] for Post's logics and [[residuated lattices|E337A6WVH3]] for the fuzzy logics.
 Related non-classical logics are the [[substructural logics|98QF5J4W16]] and the [[paraconsistent logics|NJB94B39QK]], whose semantics also often use more than two values.

@@ -36,14 +36,14 @@ It is *finitely valued* when some such $M$ is finite, and *infinite-valued* when
 
 Common names are $\mathrm{Ł}_3$, $\mathsf{K}_3$ and $\mathsf{G}_3$ for three-valued logics, and $\mathrm{Ł}_\infty$ or $\mathrm{Ł}$ for Łukasiewicz logic on $[0, 1]$.
 Some authors call only the set of tautologies "the logic"; we use the consequence relation, which carries more information.
-The general notion, with any number of values, is a [[logical matrix|~d80767f3]].
+The general notion, with any number of values, is a [[logical matrix|P7E926JK13]].
 
 ## Remarks
 
 1. With $V = \set{0, 1}$, $D = \set{1}$ and the usual tables, $\models_M$ is classical consequence of the [[propositional calculus|09K9MWD2QQ]]; clause 1 excludes this two-valued case.
-2. Example: [[Łukasiewicz's three-valued logic|~09f1e8d9]] has $V = \set{0, \tfrac12, 1}$, $D = \set{1}$, $\neg x = 1 - x$ and $x \to y = \min(1, 1 - x + y)$. Then $p \to p$ is a tautology, since $\min(1, 1 - x + x) = 1$.
+2. Example: [[Łukasiewicz's three-valued logic|F9NDCFY3GS]] has $V = \set{0, \tfrac12, 1}$, $D = \set{1}$, $\neg x = 1 - x$ and $x \to y = \min(1, 1 - x + y)$. Then $p \to p$ is a tautology, since $\min(1, 1 - x + x) = 1$.
 3. Non-example of a tautology: $p \lor \neg p$ with $x \lor y = \max(x, y)$ is a classical [[tautology|05006AJ7DZ]] but not a tautology of $\mathrm{Ł}_3$. The valuation $p \mapsto \tfrac12$ gives $\tfrac12 \notin D$.
-4. Two matrices with the same tables and different designated sets give different logics. Kleene's tables with $D = \set{1}$ give $\mathsf{K}_3$, and with $D = \set{\tfrac12, 1}$ they give the logic of paradox; see [[the comparison|~89c152fd]].
+4. Two matrices with the same tables and different designated sets give different logics. Kleene's tables with $D = \set{1}$ give $\mathsf{K}_3$, and with $D = \set{\tfrac12, 1}$ they give the logic of paradox; see [[the comparison|BJMXHXJ7QQ]].
 5. A logic can be given by a class of matrices instead of one matrix: $\Gamma \models \varphi$ holds when it holds in every matrix of the class.
 6. Consequence and tautologies can differ in strength. In [[Strong Kleene logic|SZHA10A9X7]] there are no tautologies, but $p \land q \models p$ holds.
 
