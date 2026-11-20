@@ -27,16 +27,16 @@ The inclusion $U \subseteq (U^\perp)^\perp$ holds in every inner product space; 
 
 ### Why each hypothesis is needed
 
-- Finite dimension: in $\ell^2$, the subspace $c_{00}$ of finitely supported sequences has $(c_{00}^\perp)^\perp = \ell^2 \ne c_{00}$, by [[the counterexample in l2|~52588f49]].
+- Finite dimension: in $\ell^2$, the subspace $c_{00}$ of finitely supported sequences has $(c_{00}^\perp)^\perp = \ell^2 \ne c_{00}$, by [[the counterexample in l2|DNZF0R4VMZ]].
 - Subspace: for a subset $S$ that is not a subspace, $(S^\perp)^\perp$ is the span of $S$. For $S = \set{(1, 0)}$ in $\R^2$, $(S^\perp)^\perp$ is the whole $x$-axis, not $S$.
 - Positivity: for the form $\langle x, y \rangle = x_1 y_1$ on $\R^2$ and $U = \set{0}$, we get $U^\perp = \R^2$ and $(U^\perp)^\perp = \R(0, 1) \ne U$.
 
 ### Consequences
 
-- For subspaces $U, W$ of $V$: $U \subseteq W$ if and only if $W^\perp \subseteq U^\perp$. One direction is part 2 of the [[basic properties|~2c397fab]]; for the other, apply that part to $W^\perp \subseteq U^\perp$ and use the theorem twice.
+- For subspaces $U, W$ of $V$: $U \subseteq W$ if and only if $W^\perp \subseteq U^\perp$. One direction is part 2 of the [[basic properties|T5Q51M5BAK]]; for the other, apply that part to $W^\perp \subseteq U^\perp$ and use the theorem twice.
 - $U^\perp = W^\perp$ implies $U = W$. So a subspace is determined by its orthogonal complement.
 - $(U \cap W)^\perp = U^\perp + W^\perp$: the sum rule for $U^\perp$ and $W^\perp$ gives $(U^\perp + W^\perp)^\perp = U \cap W$, and then we take complements.
-- For a real matrix $A$, $\operatorname{Row}(A) = \operatorname{Nul}(A)^\perp$ follows from $\operatorname{Nul}(A) = \operatorname{Row}(A)^\perp$, as in the [[orthogonality of the fundamental subspaces|~b3a6e0d4]].
+- For a real matrix $A$, $\operatorname{Row}(A) = \operatorname{Nul}(A)^\perp$ follows from $\operatorname{Nul}(A) = \operatorname{Row}(A)^\perp$, as in the [[orthogonality of the fundamental subspaces|GQF2KG1R1N]].
 
 ### Converse
 

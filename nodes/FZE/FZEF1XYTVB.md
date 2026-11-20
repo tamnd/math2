@@ -6,7 +6,7 @@ msc: [46C05]
 topics: [8GQVME4SZZ]
 audience: ug1
 proves: 0PXN9G4MX1
-uses: [0VGSYBWHV2, 079D68S3AW, ~2c397fab, 0E2NYPVSP9, 0WGAXEK99E, 0QW084460E]
+uses: [0VGSYBWHV2, 079D68S3AW, T5Q51M5BAK, 0E2NYPVSP9, 0WGAXEK99E, 0QW084460E]
 methods: [0NTF6DMVAP]
 sources:
   - url: https://linear.axler.net/LADR4e.pdf
@@ -22,7 +22,7 @@ We show one inclusion, and then compare dimensions.
 1. Let $V$ be a finite-dimensional inner product space over $\R$ or $\C$, with [[inner product|0VGSYBWHV2]] $\ip{\cdot}{\cdot}$. Let $U$ be a subspace of $V$ and $U^\perp$ its [[orthogonal complement|079D68S3AW]]. Set $n = \dim V$.
 2. Let $u \in U$ and $x \in U^\perp$. By conjugate symmetry, $\ip{u}{x} = \overline{\ip{x}{u}} = \overline{0} = 0$.
 3. So $u$ is orthogonal to every vector of $U^\perp$, that is, $u \in (U^\perp)^\perp$. Hence $U \subseteq (U^\perp)^\perp$. This step does not use finite dimension.
-4. $U^\perp$ is a subspace of $V$, by part 1 of the [[basic properties|~2c397fab]]. By the [[dimension formula|0E2NYPVSP9]], $\dim U^\perp = n - \dim U$.
+4. $U^\perp$ is a subspace of $V$, by part 1 of the [[basic properties|T5Q51M5BAK]]. By the [[dimension formula|0E2NYPVSP9]], $\dim U^\perp = n - \dim U$.
 5. The same formula for the subspace $U^\perp$ gives $\dim (U^\perp)^\perp = n - \dim U^\perp = n - (n - \dim U) = \dim U$.
 6. By step 3, $U$ is a subspace of the [[finite-dimensional|0QW084460E]] space $(U^\perp)^\perp$, and by step 5 it has the same dimension.
 7. A [[subspace of full dimension is the whole space|0WGAXEK99E]]. Hence $U = (U^\perp)^\perp$.

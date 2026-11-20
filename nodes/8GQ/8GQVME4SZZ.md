@@ -18,15 +18,15 @@ It covers orthogonal complements and decompositions, orthogonal projections and 
 1. [[Orthogonal complement|0XJXTBCB2T]]: the vectors orthogonal to a subspace, computed as a null space.
 2. [[Orthogonal decomposition|0SP7P0G7KQ]]: $V = U \oplus U^\perp$ and $\dim U^\perp = \dim V - \dim U$ in finite dimension.
 3. [[Double orthogonal complement|0PXN9G4MX1]]: $(U^\perp)^\perp = U$ in finite dimension.
-4. [[Orthogonality of the fundamental subspaces|~b3a6e0d4]]: the null space and the row space are orthogonal complements, and so are the column space and the left null space.
+4. [[Orthogonality of the fundamental subspaces|GQF2KG1R1N]]: the null space and the row space are orthogonal complements, and so are the column space and the left null space.
 5. [[Orthogonal projection|0B8KZRT28M]]: the projection along $U^\perp$, its formulas and its matrix $A (A^{\mathsf{T}} A)^{-1} A^{\mathsf{T}}$.
 6. [[Best approximation theorem|0MCDDSCB9Z]]: the projection is the unique closest point of the subspace.
 7. [[Least squares|0BYTQ4X1HC]]: minimize $\norm{Ax - b}$ by projecting $b$ onto the column space.
-8. [[Normal equations|~b9f67439]]: $A^{\mathsf{T}} A x = A^{\mathsf{T}} b$, and why they square the condition number.
+8. [[Normal equations|4D7MRG4D91]]: $A^{\mathsf{T}} A x = A^{\mathsf{T}} b$, and why they square the condition number.
 9. [[QR decomposition|0ERWG4NXQ9]]: Gram-Schmidt in matrix form, and least squares by $R x = Q^{\mathsf{T}} b$.
-10. [[Minimum-norm solution|~6f828050]]: the shortest solution of an underdetermined system lies in the row space.
-11. [[Principal angles between subspaces|~179768d8]]: angles between two subspaces from the singular values of $Q_1^{\mathsf{T}} Q_2$.
-12. [[Best mean-square approximation|~5c06ec2d]]: Legendre polynomials and Fourier coefficients as projections in spaces of functions.
+10. [[Minimum-norm solution|QM2Y84VDX8]]: the shortest solution of an underdetermined system lies in the row space.
+11. [[Principal angles between subspaces|YHVD3773AW]]: angles between two subspaces from the singular values of $Q_1^{\mathsf{T}} Q_2$.
+12. [[Best mean-square approximation|899D63WW04]]: Legendre polynomials and Fourier coefficients as projections in spaces of functions.
 
 ### Prerequisites
 

@@ -34,7 +34,7 @@ The map $v \mapsto u$ is the [[orthogonal projection|0B8KZRT28M]] onto $U$.
 
 ### Why each hypothesis is needed
 
-- Finite dimension of $U$: in the Hilbert space $\ell^2$ of square-summable sequences, the subspace $c_{00}$ of finitely supported sequences has $c_{00}^\perp = \set{0}$. So $c_{00} + c_{00}^\perp = c_{00} \ne \ell^2$, as [[the counterexample in l2|~52588f49]] shows.
+- Finite dimension of $U$: in the Hilbert space $\ell^2$ of square-summable sequences, the subspace $c_{00}$ of finitely supported sequences has $c_{00}^\perp = \set{0}$. So $c_{00} + c_{00}^\perp = c_{00} \ne \ell^2$, as [[the counterexample in l2|DNZF0R4VMZ]] shows.
 - Positivity of the inner product: for the form $\langle x, y \rangle = x_1 y_1 - x_2 y_2$ on $\R^2$ and $U = \R(1, 1)$, we get $U^\perp = U$. So $U + U^\perp = U \ne \R^2$.
 - Finite dimension of $V$ is needed only for part 3, because $\dim V - \dim U$ has no meaning otherwise.
 
@@ -43,7 +43,7 @@ The map $v \mapsto u$ is the [[orthogonal projection|0B8KZRT28M]] onto $U$.
 - The [[dimension of the orthogonal complement|0E2NYPVSP9]] is part 3, stated alone.
 - The [[double orthogonal complement|0PXN9G4MX1]] satisfies $(U^\perp)^\perp = U$ in finite dimension.
 - The [[best approximation theorem|0MCDDSCB9Z]]: the part $u$ is the point of $U$ closest to $v$.
-- Every vector of $\R^n$ splits into a row space part and a null space part, by the [[orthogonality of the fundamental subspaces|~b3a6e0d4]].
+- Every vector of $\R^n$ splits into a row space part and a null space part, by the [[orthogonality of the fundamental subspaces|GQF2KG1R1N]].
 
 ### Converse
 
@@ -69,14 +69,14 @@ A line and a plane at right angles together fill space, and $1 + 2 = 3$.
 
 We split $v = (1, 2, 3)$ in $\R^3$ with $U$ the plane spanned by $(1, 1, 0)$ and $(0, 1, 1)$.
 
-1. By [[the plane example|~f9f46f63]], $U^\perp = \R(1, -1, 1)$.
+1. By [[the plane example|38S0WYCSA3]], $U^\perp = \R(1, -1, 1)$.
 2. Write $v = u + t(1, -1, 1)$ with $u \in U$; the dot product with $n = (1, -1, 1)$ gives $v \cdot n = 3t$, since $u \cdot n = 0$.
 3. Here $v \cdot n = 1 - 2 + 3 = 2$, so $t = 2/3$ and $u' = (2/3, -2/3, 2/3)$.
 4. Then $u = v - u' = (1/3, 8/3, 7/3)$, and $u \cdot n = 1/3 - 8/3 + 7/3 = 0$, so $u \in U$.
 
 The typical use is to split a problem into a part that lies in $U$ and an error part orthogonal to $U$.
 The trap is to use a basis of $U$ that is not orthonormal in the formula of part 2.
-For the basis $(1, 1, 0), (0, 1, 1)$ the formula gives $3(1, 1, 0) + 5(0, 1, 1) = (3, 8, 5)$, which is wrong; the [[projection formulas|~680b213e]] give the correct matrix form.
+For the basis $(1, 1, 0), (0, 1, 1)$ the formula gives $3(1, 1, 0) + 5(0, 1, 1) = (3, 8, 5)$, which is wrong; the [[projection formulas|AK3JJ5HHG2]] give the correct matrix form.
 
 ### L3 human
 

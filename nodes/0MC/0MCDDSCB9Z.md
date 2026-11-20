@@ -35,14 +35,14 @@ The [[proof|6RSYZNC0V8]] uses the Pythagorean theorem.
 ### Why each hypothesis is needed
 
 - Subspace: for a set that is not convex, a closest point need not be unique. On the unit circle in $\R^2$, every point is at distance $1$ from the origin.
-- Finite dimension of $U$: in $\ell^2$, take the subspace $c_{00}$ of finitely supported sequences and $y = (1, 1/2, 1/3, \dots)$. The distance $d(y, c_{00})$ is $0$, by the truncation in [[the counterexample in l2|~52588f49]], but $y \notin c_{00}$, so no point of $c_{00}$ attains it.
+- Finite dimension of $U$: in $\ell^2$, take the subspace $c_{00}$ of finitely supported sequences and $y = (1, 1/2, 1/3, \dots)$. The distance $d(y, c_{00})$ is $0$, by the truncation in [[the counterexample in l2|DNZF0R4VMZ]], but $y \notin c_{00}$, so no point of $c_{00}$ attains it.
 - Inner product norm: for the norm $\norm{(x_1, x_2)}_\infty = \max(\abs{x_1}, \abs{x_2})$ on $\R^2$, the points $(t, 0)$ with $0 \le t \le 2$ are all at distance $1$ from $(1, 1)$. So the closest point of the $x$-axis is not unique.
 
 ### Consequences
 
 - The method of [[least squares|0BYTQ4X1HC]] is part 1 for the column space of a matrix.
 - [[Bessel's inequality|0RBT5PB74K]] follows from part 4, since $d(v, U)^2 \ge 0$.
-- In a space of functions, part 4 computes the mean-square error of the best polynomial or trigonometric approximation; see [[the polynomial and Fourier example|~5c06ec2d]].
+- In a space of functions, part 4 computes the mean-square error of the best polynomial or trigonometric approximation; see [[the polynomial and Fourier example|899D63WW04]].
 
 ### Converse
 
@@ -66,7 +66,7 @@ This turns problems of best approximation into problems of projection.
 
 We find the distance from $v = (1, 2, 3)$ to the plane $U$ spanned by $(1, 1, 0)$ and $(0, 1, 1)$.
 
-1. By [[the projection onto a plane|~33fbc74c]], $P_U v = (1/3, 8/3, 7/3)$.
+1. By [[the projection onto a plane|8YDFZV8S5W]], $P_U v = (1/3, 8/3, 7/3)$.
 2. So $v - P_U v = (2/3, -2/3, 2/3)$, and $d(v, U) = \sqrt{3 \cdot 4/9} = 2/\sqrt{3}$.
 3. Check with part 4: $\norm{v}^2 = 14$ and $\norm{P_U v}^2 = (1 + 64 + 49)/9 = 114/9$. Then $14 - 114/9 = 12/9 = 4/3$, and $\sqrt{4/3} = 2/\sqrt{3}$.
 4. Check with another point of $U$, say $u = (1, 2, 1)$: $\norm{v - u}^2 = 0 + 0 + 4 = 4 > 4/3$.

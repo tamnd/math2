@@ -50,21 +50,21 @@ In Mathlib the orthogonal complement of `U : Submodule 𝕜 E` is `Uᗮ`, define
 
 ### Examples
 
-1. [[The orthogonal complement of a plane in R3|~f9f46f63]]: the plane spanned by $(1, 1, 0)$ and $(0, 1, 1)$ has the complement $\R(1, -1, 1)$, found as a null space.
-2. [[The sum rule for two lines in R3|~5f8ab60c]]: for $U = \R(1, 1, 0)$ and $W = \R(0, 1, 1)$, the intersection $U^\perp \cap W^\perp$ is the line $(U + W)^\perp = \R(1, -1, 1)$.
+1. [[The orthogonal complement of a plane in R3|38S0WYCSA3]]: the plane spanned by $(1, 1, 0)$ and $(0, 1, 1)$ has the complement $\R(1, -1, 1)$, found as a null space.
+2. [[The sum rule for two lines in R3|1JKAGB6W4Z]]: for $U = \R(1, 1, 0)$ and $W = \R(0, 1, 1)$, the intersection $U^\perp \cap W^\perp$ is the line $(U + W)^\perp = \R(1, -1, 1)$.
 3. In $\R^n$ with the [[dot product|0S52TNNTH9]], the complement of the span of $e_1, \dots, e_k$ is the span of $e_{k+1}, \dots, e_n$, since $x \cdot e_i = x_i$.
 4. For a real $m \times n$ matrix $A$, the [[null space|0PHDYNR24D]] of $A$ is the complement of its [[row space|069MCGX635]], because entry $i$ of $Ax$ is the dot product of row $i$ with $x$.
 5. In the space of real polynomials of degree at most $2$ with $\ip{f}{g} = \int_{-1}^{1} f g \, dx$, the complement of the constants is the set of $p$ with $\int_{-1}^{1} p \, dx = 0$. It contains $x$ and $3x^2 - 1$.
 
 ### Non-examples
 
-1. [[A complement that is not orthogonal|~08979893]]: in $\R^2$, the line $\R(1, 1)$ is a complement of the $x$-axis in the sense of direct sums, but its vectors are not orthogonal to $(1, 0)$.
+1. [[A complement that is not orthogonal|NFHJSAH156]]: in $\R^2$, the line $\R(1, 1)$ is a complement of the $x$-axis in the sense of direct sums, but its vectors are not orthogonal to $(1, 0)$.
 2. The set difference $\R^3 \setminus U$ of a plane $U$ is not $U^\perp$: it does not contain $0$, so it is not a subspace.
 3. The [[annihilator|0ASHNYF7AG]] $U^0$ lives in the dual space $V^*$ and needs no inner product, so it is not a subset of $V$; [[the example in the duality sub-area|ENNMQ30X9F]] compares the two.
 
 ### Basic properties
 
-The [[basic properties of the orthogonal complement|~2c397fab]] hold for every subset $S$ and all subspaces $U$, $W$ of any inner product space:
+The [[basic properties of the orthogonal complement|T5Q51M5BAK]] hold for every subset $S$ and all subspaces $U$, $W$ of any inner product space:
 
 - $S^\perp$ is a subspace, and $S^\perp = (\operatorname{span} S)^\perp$.
 - $U \cap U^\perp = \set{0}$.
@@ -74,7 +74,7 @@ The [[basic properties of the orthogonal complement|~2c397fab]] hold for every s
 
 For a finite-dimensional $U$, the [[orthogonal decomposition|0SP7P0G7KQ]] gives $V = U \oplus U^\perp$.
 In a finite-dimensional $V$, it gives $\dim U^\perp = \dim V - \dim U$, and the [[double orthogonal complement|0PXN9G4MX1]] satisfies $(U^\perp)^\perp = U$.
-For matrices, the [[orthogonality of the fundamental subspaces|~b3a6e0d4]] gives $\operatorname{Row}(A) = \operatorname{Nul}(A)^\perp$ and $\operatorname{Col}(A) = \operatorname{Nul}(A^{\mathsf{T}})^\perp$.
+For matrices, the [[orthogonality of the fundamental subspaces|GQF2KG1R1N]] gives $\operatorname{Row}(A) = \operatorname{Nul}(A)^\perp$ and $\operatorname{Col}(A) = \operatorname{Nul}(A^{\mathsf{T}})^\perp$.
 
 ### History
 
@@ -85,7 +85,7 @@ The notion grew with the theory of Hilbert spaces, where complements of closed s
 
 - Confusing the orthogonal complement with a complementary subspace. A subspace has many complements, but only one orthogonal complement.
 - Testing $v \in U^\perp$ against a few vectors of $U$ that do not span $U$. It is enough to test a spanning set, but the spanning set must span all of $U$.
-- Assuming $(U^\perp)^\perp = U$ in every space. It fails for [[non-closed subspaces of an infinite-dimensional space|~52588f49]].
+- Assuming $(U^\perp)^\perp = U$ in every space. It fails for [[non-closed subspaces of an infinite-dimensional space|DNZF0R4VMZ]].
 
 ## Explanations
 

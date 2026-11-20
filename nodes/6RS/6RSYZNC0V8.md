@@ -6,7 +6,7 @@ msc: [46C05, 65F20]
 topics: [8GQVME4SZZ]
 audience: ug1
 proves: 0MCDDSCB9Z
-uses: [0VGSYBWHV2, 0KG4D8AP6G, 0Q8HZTJC7G, 079D68S3AW, 0TS7VZJBWD, 0BVTDM872V, ~680b213e, 0SP7P0G7KQ]
+uses: [0VGSYBWHV2, 0KG4D8AP6G, 0Q8HZTJC7G, 079D68S3AW, 0TS7VZJBWD, 0BVTDM872V, AK3JJ5HHG2, 0SP7P0G7KQ]
 methods: [0NTF6DMVAP, TFQ1845T84]
 sources:
   - url: https://linear.axler.net/LADR4e.pdf
@@ -30,7 +30,7 @@ We write $v - u$ as a sum of two orthogonal vectors and apply the Pythagorean th
 9. Part 3, backward direction: if $u_0 \in U$ and $v - u_0 \in U^\perp$, then $v = u_0 + (v - u_0)$ is a splitting with parts in $U$ and $U^\perp$. By the uniqueness in the [[orthogonal decomposition|0SP7P0G7KQ]], $u_0 = P_U v$, which is the closest point by part 1.
 10. Part 4: by parts 1 and 2 the minimum exists and equals $\norm{v - P_U v}$.
 11. $P_U v \in U$ and $v - P_U v \in U^\perp$ are orthogonal, so the Pythagorean theorem gives $\norm{v}^2 = \norm{P_U v}^2 + \norm{v - P_U v}^2$. Hence $d(v, U)^2 = \norm{v}^2 - \norm{P_U v}^2$.
-12. By the [[projection formulas|~680b213e]], $P_U v = \sum_i \ip{v}{e_i} e_i$. The $e_i$ are orthonormal, so the Pythagorean theorem for $k$ orthogonal terms gives $\norm{P_U v}^2 = \sum_i \abs{\ip{v}{e_i}}^2$. This proves part 4.
+12. By the [[projection formulas|AK3JJ5HHG2]], $P_U v = \sum_i \ip{v}{e_i} e_i$. The $e_i$ are orthonormal, so the Pythagorean theorem for $k$ orthogonal terms gives $\norm{P_U v}^2 = \sum_i \abs{\ip{v}{e_i}}^2$. This proves part 4.
 
 ## Idea
 

@@ -33,7 +33,7 @@ In Mathlib, `Submodule.orthogonalProjection U` has codomain `U`; it needs `U` to
 ## Remarks
 
 $P_U$ is the [[projection|0RH4E3CAV9]] onto $U$ along $U^\perp$.
-The [[formulas for the orthogonal projection|~680b213e]] prove that it is linear and give it in an orthonormal basis and as a matrix.
+The [[formulas for the orthogonal projection|AK3JJ5HHG2]] prove that it is linear and give it in an orthonormal basis and as a matrix.
 For the line spanned by $a \ne 0$, $P(v) = \frac{\ip{v}{a}}{\ip{a}{a}} a$.
 $P_U(v)$ is the point of $U$ [[closest to v|0MCDDSCB9Z]].
 

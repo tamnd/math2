@@ -46,21 +46,21 @@ The [[transpose|0W809K6AW0]] is written $A^{\mathsf{T}}$; Lay writes $A^T$.
 
 ### Examples
 
-1. [[A least-squares line through four points|~942c5c13]]: the line $y = 0.9 + 0.9 t$ fits $(0, 1)$, $(1, 2)$, $(2, 2)$, $(3, 4)$ with residual sum of squares $7/10$.
-2. [[Least squares with dependent columns|~4c571e93]]: for $A$ with two parallel columns, the least-squares solutions form a line, and the closest point $A \hat x$ is still unique.
+1. [[A least-squares line through four points|H2D0QA4AXV]]: the line $y = 0.9 + 0.9 t$ fits $(0, 1)$, $(1, 2)$, $(2, 2)$, $(3, 4)$ with residual sum of squares $7/10$.
+2. [[Least squares with dependent columns|FM9VEAKSA7]]: for $A$ with two parallel columns, the least-squares solutions form a line, and the closest point $A \hat x$ is still unique.
 3. If $Ax = b$ has a solution, then the least-squares solutions are the exact solutions, and the residual is $0$; see [[the consistent overdetermined system|XYTJ19AEKC]].
 4. For $A = (1, 1, \dots, 1)^{\mathsf{T}}$, an $m \times 1$ column, the least-squares solution of $Ax = b$ is the mean $\frac{1}{m} \sum_i b_i$.
 5. [[Least squares by QR|JAHVYKS2VQ]] and [[least squares by the SVD|SBP2PCHH9M]] compute the same $\hat x$ by other routes.
 
 ### Non-examples
 
-1. [[A line through three of the four points|~d9aa819c]]: the line $y = 1 + t$ fits three points exactly but has residual sum of squares $1 > 7/10$, so it is not a least-squares solution.
+1. [[A line through three of the four points|MH3VAGXW9R]]: the line $y = 1 + t$ fits three points exactly but has residual sum of squares $1 > 7/10$, so it is not a least-squares solution.
 2. Minimizing the sum of absolute values $\sum_i \abs{(Ax - b)_i}$ is a different problem. Its solutions need not be least-squares solutions, and the method of projection does not apply to it.
 
 ### Basic properties
 
 - A least-squares solution always exists, and it is unique exactly when the columns of $A$ are linearly independent, by [[existence and uniqueness of least-squares solutions|V9AH43ZY91]].
-- The least-squares solutions are exactly the solutions of the [[normal equations|~b9f67439]] $A^{\mathsf{T}} A \hat x = A^{\mathsf{T}} b$, and the residual is orthogonal to every column of $A$.
+- The least-squares solutions are exactly the solutions of the [[normal equations|4D7MRG4D91]] $A^{\mathsf{T}} A \hat x = A^{\mathsf{T}} b$, and the residual is orthogonal to every column of $A$.
 - With a [[QR decomposition|0ERWG4NXQ9]] $A = QR$, the solution is found from $R \hat x = Q^{\mathsf{T}} b$, which is preferred in computation.
 - Among all least-squares solutions, exactly one lies in the row space, and it has the smallest norm; it is $A^+ b$ with the [[Moore-Penrose pseudoinverse|0YY8VX28JR]].
 
@@ -100,4 +100,4 @@ The trap is to forget the column of ones in a line fit $y = c + s t$, which forc
 The least-squares solution is a projection, so it is linear in $b$: $\hat x = A^+ b$ with the [[Moore-Penrose pseudoinverse|0YY8VX28JR]].
 In statistics, under the Gauss-Markov assumptions, the least-squares estimator is the best linear unbiased estimator; this is the subject of [[ordinary least squares|YM708KHV2W]] and [[linear regression|41FVC4P5JB]], which we only name here.
 In numerical analysis, [[numerical methods for least squares|AWQA2Y30N4]] compare the normal equations, QR by Householder reflections and the SVD.
-In infinite dimension, the same idea gives best approximation in $L^2$, as in [[the polynomial and Fourier example|~5c06ec2d]].
+In infinite dimension, the same idea gives best approximation in $L^2$, as in [[the polynomial and Fourier example|899D63WW04]].

@@ -13,7 +13,7 @@ sources:
 
 ## Proof
 
-This proof covers part 4 of the statement, the square case; the [[proof by Gram-Schmidt|~5880a6ea]] covers parts 1 to 3.
+This proof covers part 4 of the statement, the square case; the [[proof by Gram-Schmidt|KHFJXQDZGC]] covers parts 1 to 3.
 We prove existence by induction on $n$, and uniqueness by comparing two factorisations.
 
 1. For $x, y \in \C^n$ let $\ip{x}{y} = y^* x = \sum_i x_i \overline{y_i}$, where $^*$ is the [[conjugate transpose|0EX045E2BP]]. This is an [[inner product|0VGSYBWHV2]], since it is linear in $x$, $\ip{y}{x} = \overline{\ip{x}{y}}$, and $\ip{x}{x} = \sum_i \abs{x_i}^2 > 0$ for $x \ne 0$.

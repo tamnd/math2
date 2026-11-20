@@ -1,0 +1,53 @@
+---
+tag: 8YDFZV8S5W
+kind: example
+name: The orthogonal projection onto a plane in R3
+msc: [15A04]
+topics: [8GQVME4SZZ]
+audience: ug1
+instance_of: [0B8KZRT28M]
+illustrates: [AK3JJ5HHG2, ZJRJNWJ8V1]
+uses: [0Q8HZTJC7G, 0W809K6AW0, 05HQYM0R4G, 0EB9N0S33C]
+sources:
+  - url: https://en.wikipedia.org/wiki/Projection_(linear_algebra)
+    locator: Formulas
+  - book: isbn:9780321982384
+    locator: Section 6.3
+---
+
+## Example
+
+Let $U \subseteq \R^3$ be the plane spanned by $(1, 1, 0)$ and $(0, 1, 1)$, and let $A = \begin{pmatrix} 1 & 0 \\ 1 & 1 \\ 0 & 1 \end{pmatrix}$ have these vectors as columns.
+We compute the matrix $P = A (A^{\mathsf{T}} A)^{-1} A^{\mathsf{T}}$ of the [[orthogonal projection|0Q8HZTJC7G]] onto $U$, by the [[projection formulas|AK3JJ5HHG2]].
+
+1. $A^{\mathsf{T}} A = \begin{pmatrix} 2 & 1 \\ 1 & 2 \end{pmatrix}$, with determinant $3$, so it is [[invertible|0EB9N0S33C]] and $(A^{\mathsf{T}} A)^{-1} = \frac{1}{3} \begin{pmatrix} 2 & -1 \\ -1 & 2 \end{pmatrix}$.
+2. $A (A^{\mathsf{T}} A)^{-1} = \frac{1}{3} \begin{pmatrix} 2 & -1 \\ 1 & 1 \\ -1 & 2 \end{pmatrix}$.
+3. Multiplying by $A^{\mathsf{T}} = \begin{pmatrix} 1 & 1 & 0 \\ 0 & 1 & 1 \end{pmatrix}$ gives
+$$P = \frac{1}{3} \begin{pmatrix} 2 & 1 & -1 \\ 1 & 2 & 1 \\ -1 & 1 & 2 \end{pmatrix}.$$
+4. Symmetric: the entries in places $(1, 2)$, $(1, 3)$, $(2, 3)$ are $1/3$, $-1/3$, $1/3$, and they equal the entries in places $(2, 1)$, $(3, 1)$, $(3, 2)$.
+5. Idempotent: row $1$ of $3P$ times column $1$ of $3P$ is $4 + 1 + 1 = 6$, so entry $(1, 1)$ of $9P^2$ is $6$ and of $P^2$ is $2/3$. The other eight entries are checked in the same way, and $P^2 = P$.
+6. Check against the normal vector $n = (1, -1, 1)$ of $U$: $I - \frac{1}{3} n n^{\mathsf{T}} = I - \frac{1}{3} \begin{pmatrix} 1 & -1 & 1 \\ -1 & 1 & -1 \\ 1 & -1 & 1 \end{pmatrix}$, which is the matrix of step 3.
+7. For $v = (1, 2, 3)$, $P v = \frac{1}{3} (2 + 2 - 3, 1 + 4 + 3, -1 + 2 + 6) = (1/3, 8/3, 7/3)$.
+8. The error is $v - P v = (2/3, -2/3, 2/3) = \frac{2}{3} n$, which is orthogonal to $U$.
+9. The trace of $P$ is $(2 + 2 + 2)/3 = 2 = \dim U$.
+
+## Remarks
+
+The distance from $v$ to the plane is $\norm{v - P v} = \frac{2}{3} \sqrt{3} = 2/\sqrt{3}$.
+This agrees with the point-to-plane formula $\frac{\abs{n \cdot v}}{\norm{n}} = \frac{\abs{1 - 2 + 3}}{\sqrt{3}}$; see [[distances between points, lines and planes|C6GAS92QHX]].
+The columns of $A$ are not orthogonal, since $(1, 1, 0) \cdot (0, 1, 1) = 1$, so the sum of the two line projections is not $P$.
+The sum of the two line projections has trace $1 + 1 = 2$ but entry $(2, 2)$ equal to $\frac{1}{2} + \frac{1}{2} = 1$, while $P$ has $2/3$ there.
+
+## Explanations
+
+### L1 human
+
+The projection onto a plane removes the part of a vector that sticks out of the plane.
+For $(1, 2, 3)$ that part is $\frac{2}{3}(1, -1, 1)$, along the normal of the plane.
+
+### L2 human
+
+The factor $(A^{\mathsf{T}} A)^{-1}$ corrects for the angle between the two columns.
+In $\R^3$ the shortcut $P = I - \frac{n n^{\mathsf{T}}}{n^{\mathsf{T}} n}$ is faster, because the complement of a plane is a line.
+The typical use is to project data onto a plane of best fit.
+The trap is to forget the inverse factor and use $A A^{\mathsf{T}}$, which here has entry $(2, 2)$ equal to $2$ and is not idempotent.

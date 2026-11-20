@@ -6,7 +6,7 @@ msc: [46C05]
 topics: [8GQVME4SZZ]
 audience: ug1
 proves: 0SP7P0G7KQ
-uses: [0VGSYBWHV2, 079D68S3AW, 041JTZCK9Q, 0EPTJA5QV4, 0Y85GYEGSF, 0FWJ0VW561, 09DZ8CD1AK, ~2c397fab, 06HTJNCMPA]
+uses: [0VGSYBWHV2, 079D68S3AW, 041JTZCK9Q, 0EPTJA5QV4, 0Y85GYEGSF, 0FWJ0VW561, 09DZ8CD1AK, T5Q51M5BAK, 06HTJNCMPA]
 methods: [0NTF6DMVAP, 01XM7JEKHY]
 sources:
   - url: https://linear.axler.net/LADR4e.pdf
@@ -21,7 +21,7 @@ We use an orthonormal basis of $U$ to split each vector, and then show that $U \
 
 1. Let $V$ be an inner product space over $\mathbb{K} = \R$ or $\C$, with [[inner product|0VGSYBWHV2]] $\ip{\cdot}{\cdot}$. Let $U$ be a finite-dimensional [[subspace|0EPTJA5QV4]] of $V$, and let $U^\perp$ be its [[orthogonal complement|079D68S3AW]].
 2. For all $x, y \in V$ and $a \in \mathbb{K}$, conjugate symmetry and linearity in the first argument give $\ip{x}{a y} = \overline{a} \ip{x}{y}$. In the same way, $\ip{x}{\cdot}$ is additive.
-3. $U^\perp$ is a subspace of $V$, by part 1 of the [[basic properties|~2c397fab]].
+3. $U^\perp$ is a subspace of $V$, by part 1 of the [[basic properties|T5Q51M5BAK]].
 4. The restriction of $\ip{\cdot}{\cdot}$ to $U$ is an inner product on $U$. So $U$ is a finite-dimensional inner product space, and it has an [[orthonormal basis|0Y85GYEGSF]] $e_1, \dots, e_k$. If $U = \set{0}$, then $k = 0$ and every sum below is $0$.
 5. Let $v \in V$. Set $u = \sum_{i=1}^{k} \ip{v}{e_i} e_i$, which lies in $U$, and $u' = v - u$. Then $v = u + u'$.
 6. For each $j$, linearity in the first argument and $\ip{e_i}{e_j} = 0$ for $i \ne j$, $\ip{e_j}{e_j} = 1$ give $\ip{u}{e_j} = \ip{v}{e_j}$. So $\ip{u'}{e_j} = \ip{v}{e_j} - \ip{u}{e_j} = 0$.
@@ -42,5 +42,5 @@ Uniqueness holds because a vector orthogonal to itself is zero, and the dimensio
 
 ## Variants
 
-In $\R^n$ there is a proof by matrices: if the columns of $A$ form a basis of $U$, then $A^{\mathsf{T}} A$ is invertible, and $u = A (A^{\mathsf{T}} A)^{-1} A^{\mathsf{T}} v$, as in the [[projection formulas|~680b213e]].
+In $\R^n$ there is a proof by matrices: if the columns of $A$ form a basis of $U$, then $A^{\mathsf{T}} A$ is invertible, and $u = A (A^{\mathsf{T}} A)^{-1} A^{\mathsf{T}} v$, as in the [[projection formulas|AK3JJ5HHG2]].
 Part 3 in $\R^n$ also follows from rank-nullity: $U^\perp$ is the null space of a $k \times n$ matrix of rank $k$, so its dimension is $n - k$.

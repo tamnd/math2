@@ -30,7 +30,7 @@ Let $\mathbb{K} = \R$ or $\C$, with the standard inner product $\ip{x}{y} = y^* 
 3. Least squares. In part 1, for every $b \in \mathbb{K}^m$, the unique least-squares solution of $Ax = b$ is the solution $\hat x$ of the triangular system $R \hat x = Q^* b$.
 4. Square case. Every $n \times n$ complex matrix is $A = QR$ with $Q$ [[unitary|0D6RMJ10M9]] and $R$ upper triangular. If $A$ is real, $Q$ and $R$ can be chosen real, with $Q$ orthogonal. If $A$ is invertible and the diagonal entries of $R$ are positive, then $Q$ and $R$ are unique.
 
-Parts 1 to 3 have a [[proof by Gram-Schmidt|~5880a6ea]].
+Parts 1 to 3 have a [[proof by Gram-Schmidt|KHFJXQDZGC]].
 Part 4 has a [[proof by clearing the first column|ZRPHF64HFG]], which also covers singular square matrices.
 
 ## Remarks
@@ -69,7 +69,7 @@ The matrix $R$ records how to rebuild each column of $A$ from the columns of $Q$
 
 ### L2 human
 
-For $A = \begin{pmatrix} 1 & 3 \\ 2 & 0 \\ 2 & 3 \end{pmatrix}$, [[the worked QR example|~91b65301]] gives $q_1 = \frac{1}{3}(1, 2, 2)$, $q_2 = \frac{1}{3}(2, -2, 1)$ and $R = \begin{pmatrix} 3 & 3 \\ 0 & 3 \end{pmatrix}$.
+For $A = \begin{pmatrix} 1 & 3 \\ 2 & 0 \\ 2 & 3 \end{pmatrix}$, [[the worked QR example|HNAQ6AXB2X]] gives $q_1 = \frac{1}{3}(1, 2, 2)$, $q_2 = \frac{1}{3}(2, -2, 1)$ and $R = \begin{pmatrix} 3 & 3 \\ 0 & 3 \end{pmatrix}$.
 The product $QR$ gives back $A$.
 The typical use is to solve least-squares problems: $R \hat x = Q^{\mathsf{T}} b$ is triangular and is solved by back substitution.
 The trap is to call this $Q$ an orthogonal matrix and to use $Q Q^{\mathsf{T}} = I$, which is false for a $3 \times 2$ matrix.
@@ -78,4 +78,4 @@ The trap is to call this $Q$ an orthogonal matrix and to use $Q Q^{\mathsf{T}} =
 
 The QR decomposition is the Gram-Schmidt process in matrix form, and its uniqueness says that the flag of subspaces $\operatorname{span}(a_1) \subseteq \operatorname{span}(a_1, a_2) \subseteq \cdots$ has exactly one adapted orthonormal basis with positive coordinates.
 For invertible matrices it is the Iwasawa decomposition $GL_n(\R) = O(n) \cdot T^+$ of the general linear group, with $T^+$ the upper triangular matrices with positive diagonal.
-Since $A^* A = R^* R$, the factor $R$ is the Cholesky factor of the [[positive definite matrix|0QQCG3JWJ4]] $A^* A$, which links QR to the [[normal equations|~b9f67439]].
+Since $A^* A = R^* R$, the factor $R$ is the Cholesky factor of the [[positive definite matrix|0QQCG3JWJ4]] $A^* A$, which links QR to the [[normal equations|4D7MRG4D91]].
