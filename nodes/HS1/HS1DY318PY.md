@@ -1,0 +1,46 @@
+---
+tag: HS1DY318PY
+kind: example
+name: A form with positive coefficients that is not positive definite
+msc: [15A63]
+topics: [6TSCEW8QMK]
+audience: ug1
+not_instance_of:
+  - target: 0RP20HFYM3
+    note: all coefficients are positive, but the form takes the value -2 at (3, -2)
+uses: [00QN1N6MNT, 0WKEF78PMV]
+sources:
+  - url: https://en.wikipedia.org/wiki/Definite_quadratic_form
+    locator: lead section
+---
+
+## Example
+
+Let $Q(x, y) = 2x^2 + 6xy + 4y^2$ on $\R^2$, with symmetric matrix $A = \begin{pmatrix} 2 & 3 \\ 3 & 4 \end{pmatrix}$.
+All coefficients of $Q$ and all entries of $A$ are positive.
+
+1. At $(3, -2)$: $Q = 2 \cdot 9 + 6 \cdot (-6) + 4 \cdot 4 = 18 - 36 + 16 = -2 < 0$.
+2. So $Q$ is not [[positive definite|00QN1N6MNT]].
+3. The minors test agrees: $2 > 0$, but $\det A = 8 - 9 = -1 < 0$. So [[Sylvester's criterion|0WKEF78PMV]] fails.
+4. Factorization: $Q = 2(x + y)(x + 2y)$. It is $0$ on the lines $y = -x$ and $y = -\frac x2$, and negative between them.
+5. The eigenvalues are $3 \pm \sqrt{10}$, approximately $6.16$ and $-0.16$. One is negative, so $Q$ is indefinite.
+
+## Remarks
+
+The value $Q(1, -1) = 2 - 6 + 4 = 0$ shows the failure too, at a nonzero vector on one of the lines of step 4.
+For a $2 \times 2$ form, $a x^2 + b x y + c y^2$ is positive definite only when $b^2 < 4ac$; here $36 > 32$.
+A large cross term can make a form indefinite even when all coefficients are positive.
+
+## Explanations
+
+### L1 human
+
+All numbers in the form are positive, so it is tempting to say that the form is positive.
+But the cross term $6xy$ is negative when $x$ and $y$ have opposite signs.
+At $(3, -2)$ it wins, and the form is $-2$.
+
+### L2 human
+
+A trap: positive entries are neither necessary nor sufficient for a positive definite matrix.
+The matrix $\begin{pmatrix} 2 & -1 \\ -1 & 2 \end{pmatrix}$ has negative entries and is positive definite.
+Always test the minors, the eigenvalues or a completion of squares.

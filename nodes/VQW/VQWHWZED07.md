@@ -1,0 +1,50 @@
+---
+tag: VQWHWZED07
+kind: proof
+name: Proof of the correspondence between quadratic forms and symmetric bilinear forms
+msc: [15A63, "11E04"]
+topics: [6TSCEW8QMK]
+audience: ug1
+proves: VN9AG8JKYT
+methods: [0NTF6DMVAP]
+uses: [0HZNE5QZDJ, 0744CN4MDA, 0P799D6AMN, 0P24YW565F]
+sources:
+  - url: https://en.wikipedia.org/wiki/Quadratic_form
+    locator: Definitions
+  - book: isbn:9780387728285
+---
+
+## Proof
+
+Let $F$ be a field with $2 \ne 0$ in $F$, and let $V$ be a finite-dimensional vector space over $F$.
+
+1. Let $B$ be a [[symmetric bilinear form|0744CN4MDA]] on $V$, and let $Q_B(v) = B(v, v)$.
+2. For $a \in F$ and $v \in V$, bilinearity gives $Q_B(av) = B(av, av) = a^2 B(v, v) = a^2 Q_B(v)$.
+3. For $u, v \in V$, bilinearity gives $B(u + v, u + v) = B(u, u) + B(u, v) + B(v, u) + B(v, v)$.
+4. By symmetry, $B(v, u) = B(u, v)$. So $Q_B(u + v) - Q_B(u) - Q_B(v) = 2B(u, v)$.
+5. The map $2B$ is bilinear. By steps 2 and 4 and [[the definition|0HZNE5QZDJ]], $Q_B$ is a quadratic form with polar form $2B$. This proves part 1.
+6. Let $Q$ be a quadratic form, and let $b_Q(u, v) = Q(u + v) - Q(u) - Q(v)$. By the definition, $b_Q$ is [[bilinear|0P799D6AMN]].
+7. The formula for $b_Q(u, v)$ does not change when $u$ and $v$ are exchanged, since $u + v = v + u$. So $b_Q$ is symmetric.
+8. Since $2 \ne 0$ in $F$, the element $\frac12$ exists. So $B_Q = \frac12 b_Q$ is defined, and it is symmetric and bilinear. Here the hypothesis on the characteristic is used.
+9. With $a = 2$, the first condition gives $Q(2v) = 4Q(v)$. So $b_Q(v, v) = Q(2v) - 2Q(v) = 2Q(v)$.
+10. By steps 8 and 9, $B_Q(v, v) = \frac12 \cdot 2Q(v) = Q(v)$. This proves part 2. The division by $2$ uses the hypothesis again.
+11. Step 10 says that $Q_{B_Q} = Q$ for every quadratic form $Q$.
+12. Let $B$ be symmetric bilinear. By step 4, $b_{Q_B} = 2B$, so $B_{Q_B} = \frac12 \cdot 2B = B$.
+13. By steps 11 and 12, the two maps are inverse to each other. So both are bijections, which proves part 3.
+14. Let $(e_1, \dots, e_n)$ be a basis, and let $A = (B_Q(e_i, e_j))$ be the [[matrix of $B_Q$|0P24YW565F]]. It is symmetric, since $B_Q$ is symmetric.
+15. For $v = \sum_i x_i e_i$, bilinearity gives $Q(v) = B_Q(v, v) = \sum_{i, j} x_i x_j B_Q(e_i, e_j) = x^T A x$. So $A$ has the property of part 4.
+16. Let $A'$ be another symmetric matrix with $Q(\sum_i x_i e_i) = x^T A' x$ for all $x$. Define $B'(\sum_i x_i e_i, \sum_j y_j e_j) = x^T A' y$.
+17. $B'$ is bilinear, and it is symmetric because $(x^T A' y)^T = y^T A'^T x = y^T A' x$, and a $1 \times 1$ matrix equals its transpose.
+18. By step 16, $Q_{B'} = Q$. By step 12 applied to $B'$, $B' = B_{Q_{B'}} = B_Q$.
+19. So $A'$ and $A$ are both the matrix of $B_Q$ in the basis $(e_i)$, and $A' = A$. This proves part 4.
+
+## Idea
+
+Going from $B$ to $Q$ is putting the same vector twice.
+Going back uses the expansion $Q(u + v) = Q(u) + 2B(u, v) + Q(v)$, solved for $B(u, v)$.
+Solving needs a division by $2$, and this is the only place where the characteristic matters.
+
+## Variants
+
+- The formula $B(u, v) = \frac14 \bigl( Q(u + v) - Q(u - v) \bigr)$ gives the same $B$. It follows from step 4 applied to $u + v$ and $u - v$.
+- In coordinates, the proof is the rule $a_{ii} = c_{ii}$ and $a_{ij} = a_{ji} = \frac12 c_{ij}$ for $Q = \sum_{i \le j} c_{ij} x_i x_j$. Uniqueness then follows by comparing coefficients.

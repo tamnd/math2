@@ -1,0 +1,34 @@
+---
+tag: DQH11Y1KMD
+kind: proof
+name: Proof that the discriminant is an invariant of equivalence
+msc: ["11E04", 15A63]
+topics: [6TSCEW8QMK]
+audience: ug2
+proves: WYQGZK8GFT
+methods: [0NTF6DMVAP]
+uses: [D3E2Y85S6H, FBSAPTP1PR, 0SPYAGE7T0, VN9AG8JKYT, 9160DW40TE]
+sources:
+  - url: https://en.wikipedia.org/wiki/Quadratic_form
+    locator: Equivalence of forms
+---
+
+## Proof
+
+1. By part 5 of [[the congruence statement|D3E2Y85S6H]], $\det(P^T A P) = \det(P)^2 \det A$. This proves part 1.
+2. Let $Q$ be a quadratic form on $V$, and let $A$ and $A'$ be its symmetric matrices in two bases. By [[the correspondence theorem|VN9AG8JKYT]], they are the matrices of the associated bilinear form $B$.
+3. By [[the change of basis rule|0SPYAGE7T0]], $A' = P^T A P$, where $P$ is the invertible change of basis matrix.
+4. By step 1, $\det A' = \det(P)^2 \det A$. Since $P$ is invertible, [[$\det P \ne 0$|FBSAPTP1PR]].
+5. If $\det A = 0$, then $\det A' = 0$. Otherwise $\det A' / \det A = \det(P)^2$ is a nonzero square, so the two determinants lie in the same [[square class|9160DW40TE]]. This proves part 2.
+6. Let $Q' = Q \circ T$ with $T \colon V \to V$ invertible and linear. Then the associated form of $Q'$ is $B'(u, v) = B(Tu, Tv)$, since both sides are symmetric and bilinear with value $Q(Tv)$ at $u = v$.
+7. Fix a basis $(e_i)$, and let $S$ be the matrix of $T$ in it. The matrix of $B'$ has entries $B(Te_i, Te_j)$, which form $S^T A S$.
+8. $S$ is invertible, since $T$ is. By step 5 with $P = S$, the forms $Q$ and $Q'$ have the same discriminant. This proves part 3.
+
+## Idea
+
+A change of basis multiplies the determinant by the square $\det(P)^2$, since the determinant is multiplicative and $\det P^T = \det P$.
+
+## Variants
+
+- In coordinates, the proof of step 7 is the rule $B(Su, Sv) = (Su)^T A (Sv) = u^T (S^T A S) v$.
+- For a diagonal form $\langle a_1, \dots, a_n \rangle$, the discriminant is $a_1 \cdots a_n$. The theorem then says that every diagonalization of $Q$ has the same product of coefficients, up to a square.

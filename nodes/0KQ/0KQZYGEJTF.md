@@ -4,6 +4,8 @@ kind: definition
 name: Signature of a quadratic form
 msc: [15A63, "11E04"]
 defines: 07EZA80NEH
+topics: [6TSCEW8QMK]
+audience: ug1
 uses: [0HZNE5QZDJ, 0WFED3K3DQ]
 sources:
   - url: https://en.wikipedia.org/wiki/Metric_signature
@@ -21,13 +23,15 @@ The *signature* of $Q$ is the triple $(p, q, r)$.
 
 By [[Sylvester's law of inertia|0WFED3K3DQ]], the triple does not depend on the choice of the basis.
 For a symmetric matrix $A$ of $Q$, the numbers $p$, $q$ and $r$ count the positive, negative and zero eigenvalues of $A$, with multiplicity.
-Conventions vary: some authors write only $(p, q)$, or the number $p - q$.
+Conventions vary: some authors write only $(p, q)$, and others call the number $p - q$ the signature.
+The rank of $Q$ is $p + q$.
 The Minkowski form $x_1^2 - x_2^2 - x_3^2 - x_4^2$ on $\R^4$ has $p = 1$, $q = 3$ and $r = 0$.
 
 ## Explanations
 
 ### L1 human
 
-The signature counts the plus signs, the minus signs and the zeros in a real quadratic form, after diagonalisation.
+The signature counts the plus signs, the minus signs and the zeros in a real quadratic form, after diagonalization.
 It is the complete invariant of a real quadratic form.
 Two real quadratic forms are equivalent exactly when they have the same signature.
+For example, $x^2 + 2xy = (x + y)^2 - y^2$ has signature $(1, 1, 0)$.

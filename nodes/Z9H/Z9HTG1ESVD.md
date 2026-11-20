@@ -1,0 +1,59 @@
+---
+tag: Z9HTG1ESVD
+kind: example
+name: The inertia of a 3 × 3 symmetric matrix computed in two ways
+msc: [15A63, 15A18]
+topics: [6TSCEW8QMK]
+audience: ug1
+instance_of: [07EZA80NEH]
+illustrates: [0WFED3K3DQ]
+uses: [0KQZYGEJTF, 0WFED3K3DQ, 0Z3FEWZ8HA, 0B5H4208Z9]
+sources:
+  - url: https://en.wikipedia.org/wiki/Sylvester's_law_of_inertia
+    locator: Statement in terms of eigenvalues
+---
+
+## Example
+
+Let
+$$A = \begin{pmatrix} 1 & 1 & 1 \\ 1 & 0 & 2 \\ 1 & 2 & 0 \end{pmatrix}, \qquad Q(x, y, z) = x^2 + 2xy + 2xz + 4yz.$$
+$A$ is the symmetric matrix of $Q$.
+We find the [[signature|0KQZYGEJTF]] of $Q$ in two ways.
+
+**First way: eigenvalues.**
+
+1. $A (1, 1, 1)^T = (3, 3, 3)^T$, so $3$ is an eigenvalue with [[eigenvector|0B5H4208Z9]] $(1, 1, 1)$.
+2. $A (0, 1, -1)^T = (0, -2, 2)^T$, so $-2$ is an eigenvalue with eigenvector $(0, 1, -1)$.
+3. $A (-2, 1, 1)^T = (0, 0, 0)^T$, so $0$ is an eigenvalue with eigenvector $(-2, 1, 1)$.
+4. The three eigenvalues are distinct, so they are all the eigenvalues. Check: their sum is $1 = \tr A$, and their product is $0 = \det A$.
+5. One positive, one negative and one zero eigenvalue give the signature $(1, 1, 1)$.
+
+**Second way: completing squares.**
+
+6. $(x + y + z)^2 = x^2 + y^2 + z^2 + 2xy + 2xz + 2yz$.
+7. So $Q - (x + y + z)^2 = -y^2 - z^2 + 2yz = -(y - z)^2$.
+8. With $u = x + y + z$, $v = y - z$ and $w = z$, we get $Q = u^2 - v^2 + 0 \cdot w^2$.
+9. In matrices, $P^T A P = \operatorname{diag}(1, -1, 0)$ for
+$$P = \begin{pmatrix} 1 & -1 & -2 \\ 0 & 1 & 1 \\ 0 & 0 & 1 \end{pmatrix},$$
+   whose columns are the new basis vectors.
+10. One plus sign, one minus sign and one zero coefficient give the signature $(1, 1, 1)$ again.
+
+## Remarks
+
+The two diagonal forms are $3u'^2 - 2v'^2$ and $u^2 - v^2$, with different coefficients but the same signs.
+This is what [[Sylvester's law of inertia|0WFED3K3DQ]] predicts.
+The rank is $p + q = 2$, which agrees with $\det A = 0$ and with the [[diagonalization|0Z3FEWZ8HA]] having one zero coefficient.
+The third column of $P$ is $(-2, 1, 1)$, the eigenvector for $0$: it spans the radical of the form in both computations.
+
+## Explanations
+
+### L1 human
+
+The eigenvalue method needs the roots of a polynomial of degree $3$, which can be hard.
+Completing squares needs only addition and multiplication.
+Both methods give one positive sign, one negative sign and one zero.
+
+### L2 human
+
+In practice, completing squares is faster by hand, and eigenvalues are better on a computer.
+A trap: the diagonal entries $1, -1, 0$ of $P^T A P$ are not eigenvalues of $A$; only their signs agree with the eigenvalues $3, -2, 0$.

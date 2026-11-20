@@ -1,9 +1,12 @@
 ---
 tag: PP93XQZ6WR
 kind: proof
-name: Proof of the diagonalisation of a quadratic form by an orthogonal basis
+name: Proof of the diagonalization of a quadratic form by an orthogonal basis
 msc: ["11E04", 15A63]
+topics: [6TSCEW8QMK]
+audience: ug1
 proves: 0Z3FEWZ8HA
+methods: [0ASJVEFA9J, 0WCP0PVET6]
 uses: [0HZNE5QZDJ, 0TX2YH2FQS, 0744CN4MDA, 0P799D6AMN, 05Q4JD6XEH, 0RJF668P1T, 02YFME3RGW, 0W4FSW1TVB, 05G2G0P224, 0VTQTPQGAV, 0EVHJFTG9Z, 096V7H13H9]
 sources:
   - url: https://kconrad.math.uconn.edu/blurbs/linmultialg/bilinearform.pdf
@@ -25,7 +28,7 @@ We reduce the statement to the existence of an orthogonal basis, which we prove 
 9. So $2 B(u, v) = 0$, and $B(u, v) = 0$ for all $u, v$. Then every basis of $V$ is orthogonal.
 10. Otherwise choose $e_1 \in V$ with $c = B(e_1, e_1) \ne 0$. The map $f(v) = B(e_1, v)$ is a [[linear map|0RJF668P1T]] from $V$ to $F$.
 11. Since $f(e_1) = c \ne 0$, the image of $f$ is all of $F$, which has dimension $1$. Let $W$ be the [[kernel|02YFME3RGW]] of $f$.
-12. By the [[rank–nullity theorem|0W4FSW1TVB]], $\dim W = n - 1$.
+12. By the [[rank-nullity theorem|0W4FSW1TVB]], $\dim W = n - 1$.
 13. The restriction of $B$ to $W \times W$ is a symmetric bilinear form on $W$. By the induction hypothesis, $W$ has a basis $e_2, \dots, e_n$ that is orthogonal for $B$.
 14. The family $e_1, \dots, e_n$ is [[linearly independent|0EVHJFTG9Z]]. Indeed, let $c_1 e_1 + \cdots + c_n e_n = 0$. Applying $f$ gives $c_1 c = 0$, since $f(e_i) = 0$ for $i \ge 2$.
 15. So $c_1 = 0$. Then $c_2 e_2 + \cdots + c_n e_n = 0$, and $c_2 = \cdots = c_n = 0$ since $e_2, \dots, e_n$ is a basis of $W$.
@@ -36,4 +39,12 @@ We reduce the statement to the existence of an orthogonal basis, which we prove 
 
 ## Idea
 
-In an orthogonal basis the cross terms $x_i x_j$ disappear, so it is enough to build such a basis. Pick a vector $e_1$ with $Q(e_1) \ne 0$ and pass to the hyperplane of vectors orthogonal to it. Induction finishes the job, and if no such $e_1$ exists the form is zero.
+In an orthogonal basis the cross terms $x_i x_j$ disappear, so it is enough to build such a basis.
+Pick a vector $e_1$ with $Q(e_1) \ne 0$ and pass to the hyperplane of vectors orthogonal to it.
+Induction finishes the job, and if no such $e_1$ exists the form is zero.
+
+## Variants
+
+- [[Lagrange's method|BDT6XBCRDJ]] proves the same theorem in coordinates, by completing squares one variable at a time.
+- In matrix form, the proof is a symmetric row and column reduction: each row operation on $A$ is followed by the same column operation. This turns $A$ into $P^T A P$ with $P$ invertible.
+- Over $\R$, [[the principal axis theorem|0PR5P9Z4KM]] gives an orthonormal basis, but its proof needs the spectral theorem.
