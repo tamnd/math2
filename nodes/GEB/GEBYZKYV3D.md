@@ -17,24 +17,24 @@ The topic ends with the real Jordan form, the Weyr form, the matrices that commu
 
 ### Reading order
 
-1. [[Cyclic subspace and cyclic vector|~33677c91]]: the subspace spanned by $v, Tv, T^2 v, \dots$ and the cyclicity criterion.
+1. [[Cyclic subspace and cyclic vector|42MMQBTP0M]]: the subspace spanned by $v, Tv, T^2 v, \dots$ and the cyclicity criterion.
 2. [[Companion matrix|0ZCWPNZTQ3]]: the matrix of $T$ on a cyclic subspace, with characteristic and minimal polynomial $p$.
-3. [[An endomorphism as an $F[x]$-module|~772e5994]]: similarity as isomorphism of modules.
-4. [[Cyclic decomposition theorem|~168ae65b]]: a direct sum of cyclic subspaces with dividing annihilators.
-5. [[Invariant factors and elementary divisors|~bcfda459]]: the complete invariants of similarity.
+3. [[An endomorphism as an $F[x]$-module|KGVTFBZX59]]: similarity as isomorphism of modules.
+4. [[Cyclic decomposition theorem|R3Z20J19BR]]: a direct sum of cyclic subspaces with dividing annihilators.
+5. [[Invariant factors and elementary divisors|F7GJPMVBXA]]: the complete invariants of similarity.
 6. [[Rational canonical form|042JWAR3Q0]]: one block diagonal matrix of companion matrices in each class.
-7. [[Similarity via the characteristic matrix|~57adc122]]: the Smith normal form of $xI - A$ computes the invariant factors.
-8. [[Similarity does not depend on the field|~a2ce4e28]]: similarity over a larger field implies similarity over the smaller one.
-9. [[A matrix is similar to its transpose|~762fdc0e]]: by a symmetric matrix.
+7. [[Similarity via the characteristic matrix|92VZF0QRM8]]: the Smith normal form of $xI - A$ computes the invariant factors.
+8. [[Similarity does not depend on the field|5PVFX89NM7]]: similarity over a larger field implies similarity over the smaller one.
+9. [[A matrix is similar to its transpose|C708QKZPE6]]: by a symmetric matrix.
 10. [[Jordan block|07PH4RX0X5]]: powers and polynomials of $\lambda I + N$.
-11. [[Normal form of nilpotent endomorphisms|~29b2bf0c]]: Jordan chains and partitions.
+11. [[Normal form of nilpotent endomorphisms|Z2RTKWZZAZ]]: Jordan chains and partitions.
 12. [[Jordan normal form|085HQ5G5TE]]: existence and uniqueness when the characteristic polynomial splits.
-13. [[Computing the Jordan form|~f6e144c3]]: block counts from $\dim \ker (A - \lambda I)^k$ and a check of $AP = PJ$.
-14. [[Real Jordan form|~fd1ae118]]: real $2 \times 2$ blocks for pairs of complex eigenvalues.
-15. [[Weyr canonical form|~ee1d6eec]]: the dual form, adapted to commuting matrices.
-16. [[Matrices that commute with a given matrix|~0a19e561]]: the dimension formula and the case of cyclic matrices.
-17. [[Classification of matrices up to similarity|~74e79a9b]]: an overview, and the contrast with the wild problem of pairs.
-18. [[Conjugacy classes of $GL_n$ over a finite field|~82afa2e3]]: classes as rational canonical forms, and their number.
+13. [[Computing the Jordan form|7M1W0ZA49Q]]: block counts from $\dim \ker (A - \lambda I)^k$ and a check of $AP = PJ$.
+14. [[Real Jordan form|MPFT45RFGV]]: real $2 \times 2$ blocks for pairs of complex eigenvalues.
+15. [[Weyr canonical form|9XEA4VR8WP]]: the dual form, adapted to commuting matrices.
+16. [[Matrices that commute with a given matrix|GXZGWZSJ2J]]: the dimension formula and the case of cyclic matrices.
+17. [[Classification of matrices up to similarity|H3E52HTEZ2]]: an overview, and the contrast with the wild problem of pairs.
+18. [[Conjugacy classes of $GL_n$ over a finite field|4FV9TDGWWH]]: classes as rational canonical forms, and their number.
 
 ### Prerequisites
 

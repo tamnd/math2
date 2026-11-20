@@ -31,7 +31,7 @@ State the version in use before you compute with it.
 ## Remarks
 
 - In terms of the standard basis, $C(p) e_i = e_{i+1}$ for $i < n$ and $C(p) e_n = -\sum_{i=1}^{n} c_{i-1} e_i$.
-- The [[characteristic polynomial|039HF58KQ5]] and the [[minimal polynomial|03NDVCSHSB]] of $C(p)$ are both $p$, by the [[theorem on companion matrices|~dd227218]].
+- The [[characteristic polynomial|039HF58KQ5]] and the [[minimal polynomial|03NDVCSHSB]] of $C(p)$ are both $p$, by the [[theorem on companion matrices|XYR7GPH20K]].
 - Companion matrices are the blocks of the [[rational canonical form|042JWAR3Q0]].
 
 ## Explanations

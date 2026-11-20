@@ -1,0 +1,66 @@
+---
+tag: C708QKZPE6
+kind: statement
+role: theorem
+name: A matrix is similar to its transpose
+aliases: [matrix-similar-to-its-transpose, similarity-of-a-matrix-and-its-transpose]
+msc: ["15A21"]
+topics: [GEBYZKYV3D]
+audience: grad
+about: [0E89HQATM8, 09DXWYRD43]
+uses: [027KDW2K72, 0W809K6AW0, 0N28QN4CYA]
+sources:
+  - url: https://en.wikipedia.org/wiki/Transpose
+    locator: Properties
+  - book: isbn:9780521839402
+    locator: Chapter 3
+---
+
+## Statement
+
+Let $F$ be a field and $A \in M_n(F)$.
+Then $A$ is [[similar|027KDW2K72]] over $F$ to its [[transpose|0W809K6AW0]] $A^{\mathsf T}$.
+More precisely, there is an invertible [[symmetric matrix|0N28QN4CYA]] $T \in M_n(F)$ with $A^{\mathsf T} = T A T^{-1}$.
+
+## Remarks
+
+### Why each hypothesis is needed
+
+The only hypothesis is that the entries lie in a field, and the result holds over every field.
+The statement fails for the conjugate transpose: the $1 \times 1$ complex matrix $(i)$ is not similar to $(i)^* = (-i)$, since similar matrices have the same eigenvalues.
+
+### Consequences
+
+The matrices $A$ and $A^{\mathsf T}$ have the same Jordan form and the same invariant factors.
+For each eigenvalue $\lambda$ and each $k$, the kernels of $(A - \lambda I)^k$ and $(A^{\mathsf T} - \lambda I)^k$ have the same dimension.
+A linear map $V \to V$ and its dual map $V^* \to V^*$ are similar, because their matrices in dual bases are transposes of each other.
+Every square matrix is a product of two symmetric matrices, one of them invertible.
+Indeed, $T A = A^{\mathsf T} T$ gives $(TA)^{\mathsf T} = A^{\mathsf T} T = TA$, so $A = T^{-1} (TA)$ with $T^{-1}$ and $TA$ symmetric.
+
+### Generalizations
+
+For a cyclic matrix $A$, the symmetric matrix $T$ is unique up to a polynomial factor: every $X$ with $X A = A^{\mathsf T} X$ is $T f(A)$ for a polynomial $f$, by the [[theorem on centralizers|GXZGWZSJ2J]].
+In particular every such $X$ is symmetric, since $(T f(A))^{\mathsf T} = f(A^{\mathsf T}) T = T f(A)$.
+
+## Explanations
+
+### L1 human
+
+Write a square matrix and then flip it over its main diagonal.
+The new matrix looks different, but it describes the same linear map in another basis.
+You can even choose the change of basis to be a symmetric matrix.
+
+### L2 human
+
+Take $A = \begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$, so $A^{\mathsf T} = \begin{pmatrix} 1 & 0 \\ 1 & 1 \end{pmatrix}$.
+The symmetric matrix $T = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$ swaps the two basis vectors and $T^{-1} = T$.
+Then $T A = \begin{pmatrix} 0 & 1 \\ 1 & 1 \end{pmatrix}$ and $A^{\mathsf T} T = \begin{pmatrix} 0 & 1 \\ 1 & 1 \end{pmatrix}$.
+So $T A = A^{\mathsf T} T$, that is, $A^{\mathsf T} = T A T^{-1}$.
+In the same way, the reversal permutation matrix turns each Jordan block into its transpose.
+
+### L3 human
+
+The quickest proof uses the [[characteristic matrix|92VZF0QRM8]]: $xI - A^{\mathsf T} = (xI - A)^{\mathsf T}$, and transposition keeps all minors, so the determinantal divisors agree.
+The symmetric similarity comes from the companion matrix $C(p)$.
+This is the matrix of multiplication by $x$ on $F[x]/(p)$, which is self-adjoint for the bilinear form $(f, g) \mapsto \lambda(fg)$, where $\lambda$ takes the coefficient of $x^{n-1}$.
+The Gram matrix of this form is a [[Hankel matrix|PQ1D8FQB3E]] with ones on the antidiagonal and zeros above it.

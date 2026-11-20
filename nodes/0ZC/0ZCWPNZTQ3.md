@@ -30,7 +30,7 @@ Companion matrices are the matrices of cyclic endomorphisms, and they are the bl
 
 ## Motivation
 
-Let $T$ have a [[cyclic vector|~33677c91]] $v$, and let $n = \dim V$.
+Let $T$ have a [[cyclic vector|42MMQBTP0M]] $v$, and let $n = \dim V$.
 In the basis $v, Tv, \dots, T^{n-1} v$, the map $T$ moves each basis vector to the next one.
 The image $T^n v$ of the last one is a combination of the basis, and the coefficients of this combination give a monic polynomial $p$ with $p(T) v = 0$.
 So the whole matrix of $T$ is fixed by the $n$ coefficients of $p$, and this matrix is $C(p)$.
@@ -49,22 +49,22 @@ The symbols $C(p)$, $C_p$ and $\operatorname{Comp}(p)$ are common.
 ### Examples
 
 - $C(x - c) = (c)$, a $1 \times 1$ matrix.
-- $C(x^2 + 1) = \begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}$, the [[rotation by a quarter turn|~84d1406c]].
-- $C((x - 1)^2) = \begin{pmatrix} 0 & -1 \\ 1 & 2 \end{pmatrix}$, which is [[similar to the Jordan block $J_2(1)$|~ebd6aae2]].
+- $C(x^2 + 1) = \begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}$, the [[rotation by a quarter turn|AK9AABZCZM]].
+- $C((x - 1)^2) = \begin{pmatrix} 0 & -1 \\ 1 & 2 \end{pmatrix}$, which is [[similar to the Jordan block $J_2(1)$|6FE9Q55AV1]].
 - $C(x^n)$ is the nilpotent matrix with $e_i \mapsto e_{i+1}$ and $e_n \mapsto 0$, similar to the [[Jordan block|07PH4RX0X5]] $J_n(0)$.
 - $C(x^n - 1)$ is the permutation matrix of the cycle $e_1 \mapsto e_2 \mapsto \cdots \mapsto e_n \mapsto e_1$.
 
 ### Non-examples
 
-- The [[identity matrix $I_2$|~d92dcecd]] is not similar to any companion matrix, since its minimal polynomial $x - 1$ differs from its characteristic polynomial $(x - 1)^2$.
+- The [[identity matrix $I_2$|M135QJH5NQ]] is not similar to any companion matrix, since its minimal polynomial $x - 1$ differs from its characteristic polynomial $(x - 1)^2$.
 - $\operatorname{diag}(1, 1, 2)$ is not similar to a companion matrix: its minimal polynomial $(x - 1)(x - 2)$ has degree $2 < 3$.
 - The matrix $\begin{pmatrix} 1 & 0 \\ 1 & 1 \end{pmatrix}$ is not itself a companion matrix in the column version, since its first column is not $e_2$. It is similar to $C((x - 1)^2)$, since it is cyclic with cyclic vector $e_1$.
 
 ### Basic properties
 
-- [[The characteristic and the minimal polynomial of $C(p)$ are both $p$|~dd227218]], and $e_1$ is a cyclic vector.
-- If $v$ is a cyclic vector of $T$, the matrix of $T$ in the basis $v, Tv, \dots, T^{n-1} v$ is $C(\chi_T)$, by the [[lemma on cyclic subspaces|~9c6edc2a]].
-- A matrix is similar to a companion matrix [[if and only if its minimal and characteristic polynomials are equal|~55322f5b]].
+- [[The characteristic and the minimal polynomial of $C(p)$ are both $p$|XYR7GPH20K]], and $e_1$ is a cyclic vector.
+- If $v$ is a cyclic vector of $T$, the matrix of $T$ in the basis $v, Tv, \dots, T^{n-1} v$ is $C(\chi_T)$, by the [[lemma on cyclic subspaces|5VYBJYPYMW]].
+- A matrix is similar to a companion matrix [[if and only if its minimal and characteristic polynomials are equal|RK1QVMYW7H]].
 - $C(p)$ is invertible if and only if $c_0 = p(0) \ne 0$, since $\det C(p) = (-1)^n c_0$.
 - The eigenvalues of $C(p)$ in $F$ are the roots of $p$ in $F$; for a root $\lambda$, the row vector $(1, \lambda, \lambda^2, \dots, \lambda^{n-1})$ is a left eigenvector.
 - Every [[matrix is similar to a block diagonal matrix of companion matrices|042JWAR3Q0]], its rational canonical form.
@@ -105,6 +105,6 @@ The trap is the sign: with the coefficients $c_i$ in place of $-c_i$, the charac
 ### L3 human
 
 The companion matrix is the matrix of multiplication by $x$ on $F[x]/(p)$ in the basis $1, x, \dots, x^{n-1}$.
-So it is the matrix of a cyclic $F[x]$-module, and every finite-dimensional $F[x]$-module is a direct sum of such modules by the [[cyclic decomposition theorem|~168ae65b]].
+So it is the matrix of a cyclic $F[x]$-module, and every finite-dimensional $F[x]$-module is a direct sum of such modules by the [[cyclic decomposition theorem|R3Z20J19BR]].
 When $p$ is irreducible, $F[x]/(p)$ is the field $F(\alpha)$, and $C(p)$ is the matrix of multiplication by $\alpha$ in the power basis.
 Linear recurrences $u_{k+n} = -c_{n-1} u_{k+n-1} - \cdots - c_0 u_k$ are governed by the row version of $C(p)$, and the shift on the solution space is cyclic.
