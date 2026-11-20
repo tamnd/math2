@@ -1,0 +1,58 @@
+---
+tag: ~bedbc3ae
+kind: proof
+name: Proof of the elementary chain theorem
+proves: ~26b49e10
+msc: ["03C07"]
+topics: [2RE7GWWXM5]
+audience: ug2
+uses: [676H7EGTKJ, 8WZF9SBP39, K7XDVK5854, C9494XYEMN, 0X1GSWNBN1]
+methods: [12MQ2NJ29A, 0NTF6DMVAP]
+sources:
+  - url: https://en.wikipedia.org/wiki/Elementary_equivalence
+    locator: Elementary substructures and elementary extensions
+  - book: isbn:9780387987606
+    locator: Chapter 2
+---
+
+## Proof
+
+Let $(\mathcal{M}_i)_{i \in I}$ be a chain of $L$-structures, and let $M = \bigcup_{i \in I} M_i$.
+We use one fact many times: a finite tuple $\bar a$ of $M$ lies in a single $M_k$, because each entry lies in some $M_i$ and the largest of these finitely many indices works.
+
+Part 0, the union structure.
+
+1. For a constant symbol $c$, all $c^{\mathcal{M}_i}$ are equal, because $\mathcal{M}_i$ is a [[substructure|676H7EGTKJ]] of $\mathcal{M}_j$ for $i < j$. Let $c^{\mathcal{M}}$ be this element.
+2. For a function symbol $f$ and $\bar a$ in $M$, choose $k$ with $\bar a$ in $M_k$, and let $f^{\mathcal{M}}(\bar a) = f^{\mathcal{M}_k}(\bar a)$. If $\bar a$ also lies in $M_j$ with $k < j$, then $f^{\mathcal{M}_j}(\bar a) = f^{\mathcal{M}_k}(\bar a)$, since $\mathcal{M}_k$ is a substructure of $\mathcal{M}_j$. So the value does not depend on $k$.
+3. For a relation symbol $R$, put $R^{\mathcal{M}} = \bigcup_i R^{\mathcal{M}_i}$. For $\bar a$ in $M_k$, $\bar a \in R^{\mathcal{M}}$ iff $\bar a \in R^{\mathcal{M}_k}$, by the same reason.
+4. By steps 1 to 3, each $\mathcal{M}_k$ is a substructure of $\mathcal{M}$. The same steps show that any structure on $M$ with this property has these interpretations, so $\mathcal{M}$ is unique.
+
+Part 1: assume $\mathcal{M}_i \preceq \mathcal{M}_j$ for $i < j$.
+We show by [[induction on formulas|12MQ2NJ29A]]: for every formula $\varphi(\bar x)$, every $i \in I$ and every $\bar a$ in $M_i$, $\mathcal{M}_i \models \varphi(\bar a)$ iff $\mathcal{M} \models \varphi(\bar a)$.
+
+5. Atomic formulas: $\mathcal{M}_i$ is a substructure of $\mathcal{M}$ by step 4, and [[embeddings preserve quantifier-free formulas|C9494XYEMN]].
+6. Negation and conjunction: the [[definition of truth|K7XDVK5854]] and the induction hypothesis, as in every such induction.
+7. Let $\varphi(\bar x) = \exists y \, \chi(\bar x, y)$, and assume $\mathcal{M}_i \models \varphi(\bar a)$. A witness $b \in M_i$ has $\mathcal{M}_i \models \chi(\bar a, b)$, so $\mathcal{M} \models \chi(\bar a, b)$ by the induction hypothesis for $\chi$ and $i$.
+8. Conversely, assume $\mathcal{M} \models \chi(\bar a, b)$ with $b \in M$. Choose $k \ge i$ with $b \in M_k$. Then $\bar a, b$ lie in $M_k$.
+9. By the induction hypothesis for $\chi$ and the index $k$, $\mathcal{M}_k \models \chi(\bar a, b)$. So $\mathcal{M}_k \models \varphi(\bar a)$.
+10. $\mathcal{M}_i \preceq \mathcal{M}_k$ (or $i = k$), and $\bar a$ lies in $M_i$. So $\mathcal{M}_i \models \varphi(\bar a)$.
+11. The induction covers all formulas, so each $\mathcal{M}_i \preceq \mathcal{M}$.
+
+Part 2: assume each $\mathcal{M}_i \models T$, with axioms $\forall \bar x \, \exists \bar y \, \theta(\bar x, \bar y)$ and $\theta$ quantifier-free.
+
+12. Let $\bar a$ be a tuple of $M$. Choose $k$ with $\bar a$ in $M_k$.
+13. $\mathcal{M}_k \models \exists \bar y \, \theta(\bar a, \bar y)$, so there is $\bar b$ in $M_k$ with $\mathcal{M}_k \models \theta(\bar a, \bar b)$.
+14. $\theta$ is quantifier-free and $\mathcal{M}_k$ is a substructure of $\mathcal{M}$, so $\mathcal{M} \models \theta(\bar a, \bar b)$ by [[the preservation of quantifier-free formulas|C9494XYEMN]].
+15. So $\mathcal{M} \models \exists \bar y \, \theta(\bar a, \bar y)$ for every $\bar a$, and $\mathcal{M}$ satisfies each axiom of $T$.
+
+## Idea
+
+The union is a structure because the members agree on their common elements.
+For part 1, the induction moves a witness $b$ from the union down to a member $\mathcal{M}_k$ that contains it, and then down to $\mathcal{M}_i$ by elementarity of the chain.
+The induction hypothesis is used for all indices at once, because step 9 uses the index $k$ and not $i$.
+For part 2, a witness for an existential statement in a member stays a witness in the union, because the rest of the formula is quantifier-free.
+
+## Variants
+
+Part 1 also follows from the [[Tarski-Vaught test|60SA99BER7]] applied inside a larger structure, when the chain lies in one structure $\mathcal{N}$ with each $\mathcal{M}_i \preceq \mathcal{N}$.
+For a directed system of elementary embeddings, the same induction works for the direct limit, with a common upper bound of finitely many indices in place of the largest index.
