@@ -2,8 +2,11 @@
 tag: QS6HC9XDKB
 kind: proof
 name: Proof that n independent or n spanning vectors in an n-dimensional space form a basis
-msc: [15A03]
+msc: ["15A03"]
+topics: [MVH97H8B2J]
+audience: ug1
 proves: 096V7H13H9
+methods: [0J0XBKG64S, 0WCP0PVET6]
 uses: [0VTQTPQGAV, 05G2G0P224, 0EVHJFTG9Z, 0BJKVF90Z6, 0HR573CHNM, 0EPTJA5QV4, 08ZDRN6H41]
 sources:
   - url: https://en.wikipedia.org/wiki/Basis_(linear_algebra)
@@ -28,4 +31,7 @@ Both parts compare the given family with a basis, using the [[Steinitz exchange 
 
 ## Idea
 
-The exchange lemma says that an independent family is never longer than a spanning family. An independent family of $n$ vectors that missed a vector could be made longer than the basis. A spanning family of $n$ dependent vectors could be made shorter than the basis. Both are impossible.
+The exchange lemma says that an independent family is never longer than a spanning family.
+An independent family of $n$ vectors that missed a vector could be made longer than the basis.
+A spanning family of $n$ dependent vectors could be made shorter than the basis.
+Both are impossible.

@@ -2,8 +2,11 @@
 tag: MEFZB7GHA9
 kind: proof
 name: Proof that every linearly independent set extends to a basis, by Zorn's lemma
-msc: [15A03]
+msc: ["15A03"]
+topics: [MVH97H8B2J]
+audience: ug1
 proves: 0M4SXE5WW3
+methods: [01XM7JEKHY, 0J0XBKG64S]
 uses: [0VTQTPQGAV, 0EVHJFTG9Z, 0BJKVF90Z6, 0HR573CHNM, 04RXTQA5ZA, 011C29Q1S1, 0GP9ASVQ1X, 0H5J02P8S9, 0TZEEFTNCC]
 sources:
   - url: https://en.wikipedia.org/wiki/Basis_(linear_algebra)
@@ -12,7 +15,8 @@ sources:
 
 ## Proof
 
-We apply [[Zorn's lemma|04RXTQA5ZA]] to the linearly independent subsets of $V$ that contain $L$. A subset is [[linearly independent|0EVHJFTG9Z]] when it is so as a family indexed by itself.
+We apply [[Zorn's lemma|04RXTQA5ZA]] to the linearly independent subsets of $V$ that contain $L$.
+A subset is [[linearly independent|0EVHJFTG9Z]] when it is so as a family indexed by itself.
 
 1. Let $P$ be the set of linearly independent subsets $K \subseteq V$ with $L \subseteq K$. Inclusion is a [[partial order|011C29Q1S1]] on $P$.
 2. By hypothesis, $L \in P$. So $P$ is nonempty.
@@ -31,4 +35,6 @@ We apply [[Zorn's lemma|04RXTQA5ZA]] to the linearly independent subsets of $V$ 
 
 ## Idea
 
-Among the independent sets that contain $L$, Zorn's lemma gives one that cannot be enlarged. If it missed some vector of $V$ in its span, that vector could be added without losing independence. So the maximal set spans $V$, and it is a basis that contains $L$.
+Among the independent sets that contain $L$, Zorn's lemma gives one that cannot be enlarged.
+If it missed some vector of $V$ in its span, that vector could be added without losing independence.
+So the maximal set spans $V$, and it is a basis that contains $L$.
