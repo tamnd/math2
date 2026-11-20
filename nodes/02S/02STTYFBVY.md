@@ -23,8 +23,8 @@ $$B_Q(u, v) = Q(u + v) - Q(u) - Q(v).$$
 $B_Q$ is a [[symmetric bilinear form|0AXZNE5XNH]], and $B_Q(v, v) = 2 Q(v)$ for all $v$.
 For $Q(x) = x^T A x$ on $F^n$, $B_Q(x, y) = x^T (A + A^T) y$.
 Many authors divide by $2$ when the characteristic is not $2$, so that the result $B$ satisfies $B(v, v) = Q(v)$; see [[the associated form|0KRVRV5V80]].
-Outside characteristic $2$, [[quadratic forms and symmetric bilinear forms correspond|~00a7a300]] by this construction.
-In characteristic $2$, $B_Q(v, v) = 0$ for all $v$, and [[the correspondence fails|~2908ed20]].
+Outside characteristic $2$, [[quadratic forms and symmetric bilinear forms correspond|VN9AG8JKYT]] by this construction.
+In characteristic $2$, $B_Q(v, v) = 0$ for all $v$, and [[the correspondence fails|ZEGSCCVGZF]].
 This construction is the degree $2$ case of the polarization of homogeneous polynomials.
 
 ## Explanations

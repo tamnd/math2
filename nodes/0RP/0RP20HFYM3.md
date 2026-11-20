@@ -41,13 +41,13 @@ So it is useful to decide, from the coefficients, whether a given form is positi
 ### Examples
 
 - $x_1^2 + \cdots + x_n^2$ on $\R^n$: a sum of squares is $0$ only when every term is $0$.
-- [[The form $x^2 + xy + y^2$|~513f51a9]]: it equals $(x + \frac y2)^2 + \frac34 y^2$, a sum of squares with positive coefficients.
+- [[The form $x^2 + xy + y^2$|TZETVDBJG9]]: it equals $(x + \frac y2)^2 + \frac34 y^2$, a sum of squares with positive coefficients.
 - $Q(x) = x^T A x$ with $A = \begin{pmatrix} 2 & -1 \\ -1 & 2 \end{pmatrix}$: its eigenvalues are $3$ and $1$, both positive.
 - For any real matrix $M$ with independent columns, $Q(x) = \norm{Mx}^2 = x^T M^T M x$: it is $0$ only when $Mx = 0$, that is, when $x = 0$.
 
 ### Non-examples
 
-- [[The form $2x^2 + 6xy + 4y^2$|~eda011e3]] has only positive coefficients, but $Q(3, -2) = -2$.
+- [[The form $2x^2 + 6xy + 4y^2$|HS1DY318PY]] has only positive coefficients, but $Q(3, -2) = -2$.
 - $x^2$ on $\R^2$ is positive semidefinite but not positive definite: $Q(0, 1) = 0$.
 - $x^2 - y^2$ is indefinite: $Q(0, 1) = -1$.
 
@@ -70,7 +70,7 @@ We found no source in the reading list of this topic for the first use of the te
 
 ### Common errors
 
-- Testing only the diagonal entries. Positive diagonal entries are necessary but not sufficient, as [[the form $2x^2 + 6xy + 4y^2$|~eda011e3]] shows.
+- Testing only the diagonal entries. Positive diagonal entries are necessary but not sufficient, as [[the form $2x^2 + 6xy + 4y^2$|HS1DY318PY]] shows.
 - Using the minors test for semidefinite forms. The matrix $\operatorname{diag}(0, -1)$ has leading minors $0$ and $0$, but it is not positive semidefinite.
 - Forgetting the factor $\frac12$: the matrix of $x^2 + xy + y^2$ has off-diagonal entries $\frac12$, not $1$.
 

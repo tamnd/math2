@@ -45,7 +45,7 @@ The theory of quadratic forms answers these questions, and the answer depends on
 - We write $Q$ or $q$ for a quadratic form, and $b_Q(u, v) = Q(u + v) - Q(u) - Q(v)$ for its [[polar form|0HYFWKKY3C]].
 - Outside characteristic $2$, the [[associated symmetric bilinear form|0KRVRV5V80]] is $B = \frac12 b_Q$, and $B(v, v) = Q(v)$.
 - The *matrix* of $Q$ in a basis $(e_i)$ is the matrix $A = (B(e_i, e_j))$ of $B$. Then $Q(x) = x^T A x$ for the coordinate vector $x$.
-- A warning: the off-diagonal entries of $A$ are half of the coefficients of the cross terms. So [[the matrix of $x^2 + xy$|~29e27cdf]] has the entries $\frac12$ off the diagonal.
+- A warning: the off-diagonal entries of $A$ are half of the coefficients of the cross terms. So [[the matrix of $x^2 + xy$|V5AKNSKQNG]] has the entries $\frac12$ off the diagonal.
 - Some books in number theory write $ax^2 + bxy + cy^2$ as $[a, b, c]$ and use the matrix $\begin{pmatrix} 2a & b \\ b & 2c \end{pmatrix}$ of the polar form instead.
 - For a diagonal form $a_1 x_1^2 + \cdots + a_n x_n^2$, many books write $\langle a_1, \dots, a_n \rangle$.
 - Two forms $Q$ on $V$ and $Q'$ on $V'$ are *equivalent* (or *isometric*) when $Q' = Q \circ T$ for a linear bijection $T \colon V' \to V$. In matrices, $A' = P^T A P$ with $P$ invertible: the matrices are [[congruent|WJWNYSQKK8]].
@@ -55,17 +55,17 @@ The theory of quadratic forms answers these questions, and the answer depends on
 ### Examples
 
 - The squared length $x_1^2 + \cdots + x_n^2$ on $\R^n$ is a quadratic form with matrix $I_n$. It is the main example of a [[positive definite form|0RP20HFYM3]].
-- [[The form $x^2 + xy$ on $\R^2$|~29e27cdf]] is a quadratic form whose symmetric matrix has non-integer entries.
-- [[The determinant of a $2 \times 2$ matrix|~2d401abe]] is a quadratic form on the $4$-dimensional space of $2 \times 2$ matrices.
+- [[The form $x^2 + xy$ on $\R^2$|V5AKNSKQNG]] is a quadratic form whose symmetric matrix has non-integer entries.
+- [[The determinant of a $2 \times 2$ matrix|BQQZX1QS4S]] is a quadratic form on the $4$-dimensional space of $2 \times 2$ matrices.
 - The Minkowski form $x^2 + y^2 + z^2 - t^2$ on $\R^4$ is a quadratic form that takes positive, negative and zero values.
 - On the space of $n \times n$ matrices, $Q(X) = \operatorname{tr}(X^2)$ is a quadratic form. Indeed $Q(aX) = a^2 Q(X)$, and $Q(X + Y) - Q(X) - Q(Y) = 2 \operatorname{tr}(XY)$ is bilinear.
-- Over the field $\F_2$ with two elements, $Q(x, y) = xy$ is a quadratic form, but [[it does not come from a symmetric bilinear form|~2908ed20]].
+- Over the field $\F_2$ with two elements, $Q(x, y) = xy$ is a quadratic form, but [[it does not come from a symmetric bilinear form|ZEGSCCVGZF]].
 
 ### Non-examples
 
 - $Q(x, y) = x^2 + y$ on $\R^2$ is not homogeneous. The condition $Q(av) = a^2 Q(v)$ fails: $Q(0, 2) = 2$, but $2^2 Q(0, 1) = 4$.
 - $Q(x) = x^3$ on $\R$ fails the same condition: $Q(2) = 8 \ne 4 = 2^2 Q(1)$.
-- [[The function $x^4 / (x^2 + y^2)$|~e710098a]] satisfies $Q(av) = a^2 Q(v)$, but its polar form is not bilinear. So the second condition is needed.
+- [[The function $x^4 / (x^2 + y^2)$|AN5RQ78DD8]] satisfies $Q(av) = a^2 Q(v)$, but its polar form is not bilinear. So the second condition is needed.
 
 ### Basic properties
 
@@ -75,7 +75,7 @@ The theory of quadratic forms answers these questions, and the answer depends on
 $$Q\Bigl(\sum_i x_i e_i\Bigr) = \sum_i Q(e_i) x_i^2 + \sum_{i < j} b_Q(e_i, e_j)\, x_i x_j.$$
 So every quadratic form is a homogeneous polynomial of degree $2$ in the coordinates.
 - Conversely, $\sum_{i \le j} c_{ij} x_i x_j$ is a quadratic form: each monomial $x_i x_j$ has $Q(ax) = a^2 Q(x)$, and its polar form $x_i y_j + y_i x_j$ is bilinear.
-- Outside characteristic $2$, quadratic forms and [[symmetric bilinear forms|0AXZNE5XNH]] [[correspond one to one|~00a7a300]]. In characteristic $2$ this fails.
+- Outside characteristic $2$, quadratic forms and [[symmetric bilinear forms|0AXZNE5XNH]] [[correspond one to one|VN9AG8JKYT]]. In characteristic $2$ this fails.
 - Under a change of basis with matrix $P$, the matrix $A$ of $Q$ becomes $P^T A P$, by [[the change of basis rule for bilinear forms|0SPYAGE7T0]].
 - If $T \colon W \to V$ is linear, then $Q \circ T$ is a quadratic form on $W$. In particular, the restriction of $Q$ to a subspace is a quadratic form.
 - Outside characteristic $2$, each quadratic form has [[a diagonal form|0Z3FEWZ8HA]] $a_1 x_1^2 + \cdots + a_n x_n^2$ in a suitable basis.
@@ -90,7 +90,7 @@ Forms over the integers and over number fields belong to number theory, in the t
 ### Common errors
 
 - Students put the full coefficient of $x_i x_j$ in both entries $a_{ij}$ and $a_{ji}$. The correct symmetric matrix has $a_{ij} = a_{ji} = \frac12 c_{ij}$.
-- Students think that every function with $Q(av) = a^2 Q(v)$ is a quadratic form. [[The non-example above|~e710098a]] shows that the bilinearity condition is also needed.
+- Students think that every function with $Q(av) = a^2 Q(v)$ is a quadratic form. [[The non-example above|AN5RQ78DD8]] shows that the bilinearity condition is also needed.
 - Students carry the formula $B(u, v) = \frac12 (Q(u + v) - Q(u) - Q(v))$ to characteristic $2$, where $\frac12$ does not exist.
 
 ## Explanations

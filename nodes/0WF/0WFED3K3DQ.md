@@ -78,7 +78,7 @@ Worked example: we write $Q = 2xy$ in two ways.
 2. With $x = u + 3v$, $y = u - \frac v3$: $Q = 2u^2 + \frac{16}{3} uv - 2v^2$. This one is not diagonal, so complete the square: $Q = 2(u + \frac43 v)^2 - \frac{50}{9} v^2$.
 3. Both have one positive and one negative coefficient. The law says that no change of variables gives two positive ones.
 
-A trap: the diagonal entries of a non-diagonal symmetric matrix do not show the signature; see [[the example with $\begin{pmatrix} 1 & 2 \\ 2 & 1 \end{pmatrix}$|~26da1679]].
+A trap: the diagonal entries of a non-diagonal symmetric matrix do not show the signature; see [[the example with $\begin{pmatrix} 1 & 2 \\ 2 & 1 \end{pmatrix}$|WE1ZY9FZJG]].
 
 ### L3 human
 

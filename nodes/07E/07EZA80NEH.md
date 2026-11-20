@@ -52,14 +52,14 @@ Read the definition in each source before using its formulas.
 ### Examples
 
 - $x^2 + y^2 + z^2$ on $\R^3$ has signature $(3, 0, 0)$, and $p - q = 3$.
-- $x^2 + 2xy + 2xz + 4yz$ has signature $(1, 1, 1)$; [[we compute it in two ways|~6efc183f]].
-- [[The form of completing squares|~eadb0c41]] $x^2 + 4xy + 2xz + 5y^2 + 8yz + 2z^2$ has signature $(2, 1, 0)$.
-- [[The determinant on $2 \times 2$ matrices|~2d401abe]] has signature $(2, 2, 0)$.
-- [[The Minkowski form|~3c5b95b1]] $x^2 + y^2 + z^2 - t^2$ on $\R^4$ has signature $(3, 1, 0)$, and $p - q = 2$.
+- $x^2 + 2xy + 2xz + 4yz$ has signature $(1, 1, 1)$; [[we compute it in two ways|Z9HTG1ESVD]].
+- [[The form of completing squares|Z762YHP338]] $x^2 + 4xy + 2xz + 5y^2 + 8yz + 2z^2$ has signature $(2, 1, 0)$.
+- [[The determinant on $2 \times 2$ matrices|BQQZX1QS4S]] has signature $(2, 2, 0)$.
+- [[The Minkowski form|84NG83XQJ7]] $x^2 + y^2 + z^2 - t^2$ on $\R^4$ has signature $(3, 1, 0)$, and $p - q = 2$.
 
 ### Non-examples
 
-- [[The signs of the diagonal entries of a non-diagonal matrix|~26da1679]] do not give the signature: $x^2 + 4xy + y^2$ has positive diagonal entries but signature $(1, 1, 0)$.
+- [[The signs of the diagonal entries of a non-diagonal matrix|WE1ZY9FZJG]] do not give the signature: $x^2 + 4xy + y^2$ has positive diagonal entries but signature $(1, 1, 0)$.
 - Over $\C$ there is no signature: $x^2$ and $-x^2$ are equivalent through $x \mapsto ix$. Only the rank is an invariant there, by [[the complex classification|0CEX9BRXRZ]].
 
 ### Basic properties

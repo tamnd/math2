@@ -1,0 +1,64 @@
+---
+tag: WYQGZK8GFT
+kind: statement
+role: theorem
+name: The discriminant of a quadratic form is an invariant of equivalence
+msc: ["11E04", 15A63]
+topics: [6TSCEW8QMK]
+audience: ug2
+about: [MZFRXECCMC]
+uses: [0HZNE5QZDJ, VN9AG8JKYT, 0SPYAGE7T0, D3E2Y85S6H, 00KDZRW4C0, 9160DW40TE]
+proofs: [DQH11Y1KMD]
+sources:
+  - url: https://en.wikipedia.org/wiki/Quadratic_form
+    locator: Equivalence of forms
+---
+
+## Statement
+
+Let $F$ be a field of characteristic not $2$, and let $A$ be a symmetric $n \times n$ matrix over $F$.
+
+1. For every invertible $n \times n$ matrix $P$ over $F$, $\det(P^T A P) = \det(P)^2 \det A$, as in [[the congruence statement|D3E2Y85S6H]].
+2. So the matrices of a [[quadratic form|0HZNE5QZDJ]] $Q$ in two bases have determinants that are both $0$ or lie in the same [[square class|9160DW40TE]]. The discriminant of $Q$ does not depend on the basis.
+3. If two quadratic forms on $V$ are equivalent, then they have the same discriminant.
+
+## Remarks
+
+### Why each hypothesis is needed
+
+- $P$ invertible: for $P = 0$, $\det(P^T A P) = 0$ for every $A$, and the class is lost. An invertible $P$ has $\det P \ne 0$, so $\det(P)^2$ is a nonzero square.
+- Characteristic not $2$: part 1 holds over every field. But in characteristic $2$, the symmetric matrix of a quadratic form is not defined; see [[the forms over $\F_2$|ZEGSCCVGZF]].
+
+### Consequences
+
+- If two forms have different discriminants, they are not equivalent. Over $\Q$, $x^2 + y^2$ and $x^2 + 2y^2$ are [[not equivalent|C18PABZVSN]].
+- Over $\R$, the sign of $\det A$ is an invariant, and it equals $(-1)^q$ for a nondegenerate form of signature $(p, q, 0)$.
+- Nondegeneracy, $\det A \ne 0$, does not depend on the basis.
+
+### Converse
+
+The converse fails in general: over $\Q$, $x^2 + y^2$ and $-x^2 - y^2$ have the same discriminant $1$ and are not equivalent.
+Over a finite field of odd order, the converse holds for nondegenerate forms of the same dimension, by [[the finite field theorem|2HBR7137AD]].
+
+### Generalizations
+
+The same rule $\det(P^T A P) = \det(P)^2 \det A$ shows that the discriminant of a symmetric bilinear form is defined in every characteristic.
+For Hermitian forms, $\det(P^* A P) = \abs{\det P}^2 \det A$, so the determinant is an invariant up to positive real factors.
+
+## History
+
+We found no source in the reading list of this topic that dates this statement, so we give no date.
+
+## Explanations
+
+### L1 human
+
+Changing the basis multiplies the determinant of the matrix of a form by a square number.
+So the determinant up to squares is the same in every basis.
+For example, $x^2 + y^2$ and $(x + y)^2 + (x - y)^2 = 2x^2 + 2y^2$ have determinants $1$ and $4 = 2^2$.
+
+### L2 human
+
+The typical use is to prove that two forms are not equivalent.
+Compute both determinants and test whether their quotient is a square in $F$.
+A trap: the test depends on the field; the quotient $2$ is a square in $\R$ but not in $\Q$.

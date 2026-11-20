@@ -45,14 +45,14 @@ So the five types give the local behaviour of the function: minimum, maximum or 
 
 ### Examples
 
-- On $\R^2$, the forms $x^2 + y^2$, $x^2$, $-x^2 - y^2$, $-y^2$ and $x^2 - y^2$ show the five types in the order of the table. See [[the five types in the plane|~265ce1cc]].
+- On $\R^2$, the forms $x^2 + y^2$, $x^2$, $-x^2 - y^2$, $-y^2$ and $x^2 - y^2$ show the five types in the order of the table. See [[the five types in the plane|T3WM6BXX8W]].
 - The zero form is both positive semidefinite and negative semidefinite.
-- [[The second derivative test for $x^3 - 3x + y^2$|~3f51fbd9]] uses a positive definite Hessian at one critical point and an indefinite one at the other.
+- [[The second derivative test for $x^3 - 3x + y^2$|Z4F0TEHBP1]] uses a positive definite Hessian at one critical point and an indefinite one at the other.
 - The form $xy$ is indefinite: $Q(1, 1) = 1$ and $Q(1, -1) = -1$.
 
 ### Non-examples
 
-- [[A complex quadratic form such as $z^2$|~ee2bc073]] has no type, because its values are not real: $Q(e^{i\pi/4}) = i$.
+- [[A complex quadratic form such as $z^2$|AWMEN8EZJ6]] has no type, because its values are not real: $Q(e^{i\pi/4}) = i$.
 - A function that is not a quadratic form, such as $x^4 + y^4$, is positive at every nonzero vector, but the words apply only to quadratic forms. Its Hessian at $0$ is the zero matrix.
 
 ### Basic properties

@@ -54,4 +54,4 @@ To check that $Q(x, y) = x^2 + 3xy + 2y^2$ satisfies the definition, we test the
 1. $Q(ax, ay) = a^2 x^2 + 3a^2 xy + 2a^2 y^2 = a^2 Q(x, y)$.
 2. $Q(x + x', y + y') - Q(x, y) - Q(x', y') = 2xx' + 3(xy' + x'y) + 4yy'$, which is bilinear in $(x, y)$ and $(x', y')$.
 
-A trap: condition 1 alone does not make $Q$ a quadratic form, as [[the function $x^4 / (x^2 + y^2)$|~e710098a]] shows.
+A trap: condition 1 alone does not make $Q$ a quadratic form, as [[the function $x^4 / (x^2 + y^2)$|AN5RQ78DD8]] shows.

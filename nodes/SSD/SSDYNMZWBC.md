@@ -1,0 +1,40 @@
+---
+tag: SSDYNMZWBC
+kind: proof
+name: Proof of the extreme values of a quadratic form from the Rayleigh quotient
+msc: [15A18, 15A63]
+topics: [6TSCEW8QMK]
+audience: ug1
+proves: YS4HT1EYE5
+methods: [0NTF6DMVAP]
+uses: [T7MFPSY009, 0MB8HQW495, 0VR671PHE5, 0B5H4208Z9]
+sources:
+  - url: https://en.wikipedia.org/wiki/Rayleigh_quotient
+    locator: Bounds for Hermitian M
+---
+
+## Proof
+
+We use $\R^m$ with the dot product, and the map $T(\mathbf x) = A \mathbf x$.
+
+1. $T$ is [[self-adjoint|0MB8HQW495]], because $(A\mathbf x) \cdot \mathbf y = \mathbf x^T A^T \mathbf y = \mathbf x \cdot (A \mathbf y)$, since $A^T = A$.
+2. The eigenvalues of $T$ are the eigenvalues $\lambda_1 \ge \dots \ge \lambda_m$ of $A$, with the same eigenvectors.
+3. Let $\mathbf u$ be a unit vector. Then $\mathbf u \cdot \mathbf u = 1$.
+4. So the Rayleigh quotient of $T$ at $\mathbf u$ is $(A\mathbf u) \cdot \mathbf u = \mathbf u^T A \mathbf u = q_A(\mathbf u)$.
+5. By part 1 of [[the Rayleigh quotient statement|T7MFPSY009]], $\lambda_m \le q_A(\mathbf u) \le \lambda_1$ for every unit vector $\mathbf u$.
+6. Let $\mathbf v = \mathbf u_1 / \norm{\mathbf u_1}$. It is a unit vector, and $A \mathbf v = \lambda_1 \mathbf v$ by linearity.
+7. Then $q_A(\mathbf v) = \mathbf v^T (\lambda_1 \mathbf v) = \lambda_1 (\mathbf v \cdot \mathbf v) = \lambda_1$.
+8. By steps 5 and 7, $\lambda_1$ is the largest value of $q_A$ on unit vectors. This proves part 1.
+9. The same argument with $\mathbf u_m / \norm{\mathbf u_m}$ and $\lambda_m$ proves part 2.
+10. By step 4 and part 2 of [[that statement|T7MFPSY009]], $q_A(\mathbf u) = \lambda_1$ exactly when $\mathbf u$ is an [[eigenvector|0B5H4208Z9]] for $\lambda_1$.
+11. The same holds for $\lambda_m$. This proves part 3.
+
+## Idea
+
+On unit vectors, the quadratic form is the Rayleigh quotient, since the denominator $\mathbf u \cdot \mathbf u$ is $1$.
+So the result is the Rayleigh quotient theorem for the self-adjoint map $\mathbf x \mapsto A \mathbf x$.
+
+## Variants
+
+- A direct proof uses [[the principal axis theorem|0PR5P9Z4KM]]. With $\mathbf x = P \mathbf y$ and $P$ orthogonal, $\norm{\mathbf y} = 1$ and $q_A = \sum_i \lambda_i y_i^2$. Then $\lambda_m \sum_i y_i^2 \le \sum_i \lambda_i y_i^2 \le \lambda_1 \sum_i y_i^2$.
+- A proof by calculus finds the maximum on the compact unit sphere and applies [[Lagrange multipliers|0VKKP8X6Q6]]. The condition $\nabla q_A = 2\mu \mathbf x$ gives $A \mathbf x = \mu \mathbf x$.

@@ -30,14 +30,14 @@ Two quadratic forms on $V$ are equivalent if and only if their matrices have the
 ### Why each hypothesis is needed
 
 - Every element must be a square. Over $\R$, $x^2$ and $-x^2$ have the same rank but are not equivalent, by [[Sylvester's law of inertia|0WFED3K3DQ]].
-- Over a finite field $\F_q$ with $q$ odd, half of the nonzero elements are not squares. There are two classes in each rank $r \ge 1$; see [[forms over finite fields|~18a8da08]].
+- Over a finite field $\F_q$ with $q$ odd, half of the nonzero elements are not squares. There are two classes in each rank $r \ge 1$; see [[forms over finite fields|2HBR7137AD]].
 - Characteristic not $2$: in characteristic $2$, a sum of squares is additive. So the form $xy$ is not a sum of squares there, even over an algebraically closed field.
 
 ### Consequences
 
 - Over $\C$ there are exactly $n + 1$ equivalence classes of quadratic forms in $n$ variables, one for each rank $0, 1, \dots, n$.
 - Every nondegenerate complex quadratic form is equivalent to $x_1^2 + \cdots + x_n^2$, and also to $x_1 x_2 + x_3^2 + \cdots + x_n^2$ when $n \ge 2$.
-- [[Over $\C$, $x^2 + y^2$ and $xy$ are equivalent|~12532245]], so the circle and the hyperbola become the same curve over $\C$.
+- [[Over $\C$, $x^2 + y^2$ and $xy$ are equivalent|YWT3N8DA3J]], so the circle and the hyperbola become the same curve over $\C$.
 - A nondegenerate complex form in dimension at least $2$ has nonzero [[isotropic vectors|MZHFGPV1YT]], for example $(1, i)$ for $x^2 + y^2$.
 
 ### Converse

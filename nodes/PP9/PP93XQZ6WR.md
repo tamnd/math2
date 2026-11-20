@@ -45,6 +45,6 @@ Induction finishes the job, and if no such $e_1$ exists the form is zero.
 
 ## Variants
 
-- [[Lagrange's method|~1b10049b]] proves the same theorem in coordinates, by completing squares one variable at a time.
+- [[Lagrange's method|BDT6XBCRDJ]] proves the same theorem in coordinates, by completing squares one variable at a time.
 - In matrix form, the proof is a symmetric row and column reduction: each row operation on $A$ is followed by the same column operation. This turns $A$ into $P^T A P$ with $P$ invertible.
 - Over $\R$, [[the principal axis theorem|0PR5P9Z4KM]] gives an orthonormal basis, but its proof needs the spectral theorem.

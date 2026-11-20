@@ -42,8 +42,8 @@ The matrix $P$ can be chosen with $\det P = 1$, so that $x = Py$ is a rotation.
 ### Consequences
 
 - The lines spanned by the columns of $P$ are the *principal axes* of $Q$. They are orthogonal, so lengths and angles are kept.
-- The level set $Q(x) = 1$ is classified by the signs of the eigenvalues: [[ellipses and hyperbolas in the plane|~b2d5342d]], and [[ellipsoids and hyperboloids in space|~2c434f52]].
-- [[The principal axes of $5x^2 + 4xy + 2y^2 = 1$|~aeb4d8e6]] are the eigenvectors $(2, 1)$ and $(-1, 2)$, and the curve is $6u^2 + v^2 = 1$.
+- The level set $Q(x) = 1$ is classified by the signs of the eigenvalues: [[ellipses and hyperbolas in the plane|1DGT7X9E35]], and [[ellipsoids and hyperboloids in space|F42W4DQHBK]].
+- [[The principal axes of $5x^2 + 4xy + 2y^2 = 1$|GP4XSY4FNH]] are the eigenvectors $(2, 1)$ and $(-1, 2)$, and the curve is $6u^2 + v^2 = 1$.
 - The numbers $p$, $q$ and $r$ of [[the signature|07EZA80NEH]] are the numbers of positive, negative and zero eigenvalues.
 - [[The extreme values of $Q$ on the unit sphere|YS4HT1EYE5]] are the largest and smallest eigenvalues.
 

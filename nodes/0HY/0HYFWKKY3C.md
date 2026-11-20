@@ -21,7 +21,7 @@ The *polar form* of $Q$ is the map $b_Q \colon V \times V \to F$ with
 $$b_Q(u, v) = Q(u + v) - Q(u) - Q(v).$$
 By the definition of a quadratic form, $b_Q$ is a [[bilinear form|0SQZMXB6GP]], and it is [[symmetric|0AXZNE5XNH]] with $b_Q(v, v) = 2Q(v)$.
 When the characteristic of $F$ is not $2$, many books call $B = \frac12 b_Q$ the polar form; it is the [[associated symmetric bilinear form|0KRVRV5V80]], with $B(v, v) = Q(v)$.
-Outside characteristic $2$, the map $Q \mapsto \frac12 b_Q$ is [[a bijection from quadratic forms to symmetric bilinear forms|~00a7a300]].
+Outside characteristic $2$, the map $Q \mapsto \frac12 b_Q$ is [[a bijection from quadratic forms to symmetric bilinear forms|VN9AG8JKYT]].
 So each question about $Q$ becomes a question about a symmetric matrix.
 
 ## Motivation
@@ -43,15 +43,15 @@ This is the [[polarization identity|05FKHRT0B4]] of inner product spaces.
 
 ### Examples
 
-- For $Q(x, y) = x^2 + xy$ on $\R^2$, [[the polar form|~29e27cdf]] is $b_Q(u, v) = 2xx' + xy' + x'y$.
-- For [[the determinant on $2 \times 2$ matrices|~2d401abe]], the polar form is $ad' + a'd - bc' - b'c$.
+- For $Q(x, y) = x^2 + xy$ on $\R^2$, [[the polar form|V5AKNSKQNG]] is $b_Q(u, v) = 2xx' + xy' + x'y$.
+- For [[the determinant on $2 \times 2$ matrices|BQQZX1QS4S]], the polar form is $ad' + a'd - bc' - b'c$.
 - For the squared length on $\R^n$, $b_Q(u, v) = 2 \sum_i u_i v_i$, and $B$ is the dot product.
 - For $Q(x) = x^T A x$ with $A$ symmetric and $2 \ne 0$ in $F$, $b_Q(x, y) = 2\, x^T A y$, so $B(x, y) = x^T A y$.
-- Over the field $\F_2$, the form $Q(x) = x^2$ has $b_Q(u, v) = 2uv = 0$. So [[its polar form is zero|~2908ed20]], although $Q \ne 0$.
+- Over the field $\F_2$, the form $Q(x) = x^2$ has $b_Q(u, v) = 2uv = 0$. So [[its polar form is zero|ZEGSCCVGZF]], although $Q \ne 0$.
 
 ### Non-examples
 
-- [[The bilinear form $u_1 v_2$ on $\R^2$|~858e3173]] is not the polar form of any quadratic form, because it is not symmetric.
+- [[The bilinear form $u_1 v_2$ on $\R^2$|WW5X7DHHQ6]] is not the polar form of any quadratic form, because it is not symmetric.
 - The function $Q(u + v) - Q(u) - Q(v)$ for $Q(x) = x^3$ on $\R$ is $3u^2 v + 3uv^2$. It is not bilinear, because $Q$ is not a quadratic form.
 
 ### Basic properties
@@ -59,7 +59,7 @@ This is the [[polarization identity|05FKHRT0B4]] of inner product spaces.
 - $b_Q$ is symmetric, because the formula does not change when $u$ and $v$ are exchanged.
 - $b_Q(v, v) = Q(2v) - 2Q(v) = 4Q(v) - 2Q(v) = 2Q(v)$.
 - So, in characteristic $2$, $b_Q(v, v) = 0$ for all $v$: the polar form is alternating.
-- Outside characteristic $2$, $Q$ and $B = \frac12 b_Q$ determine each other, by [[the correspondence theorem|~00a7a300]].
+- Outside characteristic $2$, $Q$ and $B = \frac12 b_Q$ determine each other, by [[the correspondence theorem|VN9AG8JKYT]].
 - The matrix of $B$ in a basis is the symmetric matrix of $Q$. The matrix of $b_Q$ is twice that matrix.
 - The polar form is compatible with linear maps: $b_{Q \circ T}(u, v) = b_Q(Tu, Tv)$.
 

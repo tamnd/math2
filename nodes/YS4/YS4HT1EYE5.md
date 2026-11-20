@@ -9,7 +9,7 @@ topics: [6TSCEW8QMK]
 audience: ug1
 about: [0RBQS1JJCR, 0VR671PHE5]
 uses: [0RBQS1JJCR, 0VR671PHE5, 0BQAA2BK3Q, T7MFPSY009]
-proofs: [~c12802a2]
+proofs: [SSDYNMZWBC]
 sources:
   - locator: src/section7-2.xml:839
     url: https://github.com/davidaustinm/ula/blob/b6ea263ef23703072b7007485bb7a2d89c5f399b/src/section7-2.xml#L839
@@ -43,7 +43,7 @@ This is the case of real symmetric matrices of [[the extreme values of the Rayle
 
 - For every $\mathbf x \in \R^m$, $\lambda_m \norm{\mathbf x}^2 \le \mathbf x^T A \mathbf x \le \lambda_1 \norm{\mathbf x}^2$.
 - $q_A$ is [[positive definite|0RP20HFYM3]] if and only if $\lambda_m > 0$.
-- For $q = 5x^2 + 4xy + 2y^2$, the extremes on the unit circle are $6$ at $\pm(2, 1)/\sqrt 5$ and $1$ at $\pm(-1, 2)/\sqrt 5$. The [[ellipse example|~aeb4d8e6]] and [[the Rayleigh quotient example|3FXAQ6P15S]] use the same matrix.
+- For $q = 5x^2 + 4xy + 2y^2$, the extremes on the unit circle are $6$ at $\pm(2, 1)/\sqrt 5$ and $1$ at $\pm(-1, 2)/\sqrt 5$. The [[ellipse example|GP4XSY4FNH]] and [[the Rayleigh quotient example|3FXAQ6P15S]] use the same matrix.
 
 ### Converse
 

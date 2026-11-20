@@ -7,8 +7,8 @@ msc: ["11E04", 15A63]
 topics: [6TSCEW8QMK]
 audience: ug1
 about: [0RBQS1JJCR, 0AXZNE5XNH]
-uses: [0HZNE5QZDJ, 05Q4JD6XEH, ~00a7a300, NZJDNC6EP6]
-proofs: [PP93XQZ6WR, ~1b10049b]
+uses: [0HZNE5QZDJ, 05Q4JD6XEH, VN9AG8JKYT, NZJDNC6EP6]
+proofs: [PP93XQZ6WR, BDT6XBCRDJ]
 formal:
   - system: lean4
     library: mathlib
@@ -37,7 +37,7 @@ So every symmetric matrix is [[congruent|NZJDNC6EP6]] to a diagonal matrix.
 
 ### Why each hypothesis is needed
 
-- Characteristic not $2$: over $\F_2$, the form $xy$ is not equivalent to any $a x^2 + b y^2$. Indeed, $a x^2 + b y^2$ is additive there, and $xy$ is not; see [[the forms over $\F_2$|~2908ed20]].
+- Characteristic not $2$: over $\F_2$, the form $xy$ is not equivalent to any $a x^2 + b y^2$. Indeed, $a x^2 + b y^2$ is additive there, and $xy$ is not; see [[the forms over $\F_2$|ZEGSCCVGZF]].
 - For a symmetric bilinear form in characteristic $2$, the form $B(u, v) = u_1 v_2 + u_2 v_1$ on $\F_2^2$ has no orthogonal basis. Each $v$ has $B(v, v) = 2 v_1 v_2 = 0$, so an orthogonal basis would make $B$ zero.
 - Finite dimension: both proofs use induction on $n$, and the statement uses a finite basis.
 
@@ -46,7 +46,7 @@ So every symmetric matrix is [[congruent|NZJDNC6EP6]] to a diagonal matrix.
 - In matrix form, the theorem is used to compute the [[rank|0EWQEYRVA8]] of a form, as the number of nonzero $a_i$.
 - Over $\R$, [[Sylvester's law of inertia|0WFED3K3DQ]] says that the numbers of positive, negative and zero $a_i$ do not depend on the basis.
 - Over $\C$, each nonzero $a_i$ is a square, so the form becomes [[a sum of squares|0CEX9BRXRZ]].
-- Over a finite field of odd characteristic, the theorem is the first step of [[the classification by dimension and discriminant|~18a8da08]].
+- Over a finite field of odd characteristic, the theorem is the first step of [[the classification by dimension and discriminant|2HBR7137AD]].
 
 ### Converse
 
@@ -75,7 +75,7 @@ With $u = x + y$ and $v = y$, the form becomes $u^2 - v^2$.
 
 ### L2 human
 
-Worked example: we diagonalize $Q = x^2 + 4xy + 2xz + 5y^2 + 8yz + 2z^2$, as in [[the full example|~eadb0c41]].
+Worked example: we diagonalize $Q = x^2 + 4xy + 2xz + 5y^2 + 8yz + 2z^2$, as in [[the full example|Z762YHP338]].
 
 1. Collect the terms with $x$: $x^2 + 4xy + 2xz = (x + 2y + z)^2 - 4y^2 - 4yz - z^2$.
 2. So $Q = (x + 2y + z)^2 + y^2 + 4yz + z^2$.
