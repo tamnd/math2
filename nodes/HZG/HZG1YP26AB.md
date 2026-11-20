@@ -20,14 +20,14 @@ With these tools the compactness theorem gets an algebraic proof, elementary cla
 1. [[Reduced product|F4WRD396PB]]: quotients of products by a filter, and the Horn sentences they keep.
 2. [[Ultraproduct|AX9Q86GB8M]]: the reduced product over an ultrafilter.
 3. [[Łoś's theorem|AGYBSTD7BG]]: a formula holds in an ultraproduct exactly when it holds on a set in the ultrafilter.
-4. [[Compactness via ultraproducts|~0aa1297f]]: a proof of the compactness theorem by an ultraproduct of models of finite parts.
-5. [[Ultrapower|~93a646cd]]: an ultraproduct of copies of one structure, with the elementary diagonal embedding.
-6. [[Keisler-Shelah isomorphism theorem|~4f3e3ffa]]: elementary equivalence means isomorphic ultrapowers.
-7. [[Frayne's theorem|~484684ac]]: elementary equivalence means elementary embedding into an ultrapower.
-8. [[Keisler's characterization of elementary classes|~40a55d17]]: elementary classes are those closed under ultraproducts and ultraroots.
-9. [[Feferman-Vaught theorem|~adae22d8]]: the theory of a product is computed from the theories of the factors.
-10. [[Saturation of ultraproducts|~bf3451a3]]: countably incomplete ultraproducts are $\aleph_1$-saturated, and good ultrafilters give more.
-11. [[Keisler's order|~889bca65]]: theories ranked by the regular ultrafilters that saturate their ultrapowers.
+4. [[Compactness via ultraproducts|EY09JT7270]]: a proof of the compactness theorem by an ultraproduct of models of finite parts.
+5. [[Ultrapower|5ZVJK0V0GF]]: an ultraproduct of copies of one structure, with the elementary diagonal embedding.
+6. [[Keisler-Shelah isomorphism theorem|A37HPCKCE2]]: elementary equivalence means isomorphic ultrapowers.
+7. [[Frayne's theorem|QPX9HG9BH4]]: elementary equivalence means elementary embedding into an ultrapower.
+8. [[Keisler's characterization of elementary classes|4HNAJQQ8Z0]]: elementary classes are those closed under ultraproducts and ultraroots.
+9. [[Feferman-Vaught theorem|RYMZZ2AWFT]]: the theory of a product is computed from the theories of the factors.
+10. [[Saturation of ultraproducts|DYXQP8WS63]]: countably incomplete ultraproducts are $\aleph_1$-saturated, and good ultrafilters give more.
+11. [[Keisler's order|TD5D2G5PYP]]: theories ranked by the regular ultrafilters that saturate their ultrapowers.
 
 ### Prerequisites
 

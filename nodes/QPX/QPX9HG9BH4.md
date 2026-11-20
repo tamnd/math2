@@ -1,0 +1,80 @@
+---
+tag: QPX9HG9BH4
+kind: statement
+role: theorem
+name: Frayne's theorem
+aliases: [frayne-theorem]
+msc: ["03C20"]
+topics: [HZG1YP26AB]
+audience: grad
+about: [P3B1V182N4, 5ZVJK0V0GF]
+uses: [P3B1V182N4, 5ZVJK0V0GF, CGH8C8EA9N, AGYBSTD7BG, MEC3ZMC4F1]
+sources:
+  - url: https://en.wikipedia.org/wiki/Ultraproduct
+    locator: Łoś's theorem
+  - book: isbn:9780387987606
+---
+
+## Statement
+
+Let $\mathcal{M}$ and $\mathcal{N}$ be $L$-structures with nonempty domains.
+Then $\mathcal{M} \equiv \mathcal{N}$ if and only if there are a set $I$, an ultrafilter $\mathcal{U}$ on $I$ and an [[elementary embedding|CGH8C8EA9N]] $h : \mathcal{M} \to \mathcal{N}^I / \mathcal{U}$ into the [[ultrapower|5ZVJK0V0GF]].
+One can take for $I$ the set of finite subsets of the elementary diagram of $\mathcal{M}$.
+
+Corollary: a class $\mathcal{K}$ of $L$-structures is an [[elementary class|MEC3ZMC4F1]], that is, $\mathcal{K} = \operatorname{Mod}(T)$ for a set $T$ of sentences, if and only if $\mathcal{K}$ is closed under isomorphism, ultraproducts and elementary substructures.
+
+## Remarks
+
+### Why each hypothesis is needed
+
+- The embedding must be elementary. $(\Z, <)$ embeds into $(\Q, <)$, but $(\Z, <) \not\equiv (\Q, <)$, since $\Q$ is dense.
+- An ultrapower is needed, not $\mathcal{N}$ itself. $(\R, <) \equiv (\Q, <)$, but $\R$ does not embed into the countable $\Q$.
+- In the corollary, closure under elementary substructures cannot be dropped: the class of uncountable infinite sets is closed under isomorphism and ultraproducts, but it is not elementary; see [[this non-example|TWVY0QXN0K]].
+
+### Consequences
+
+- Every structure elementarily equivalent to $\mathcal{N}$ lives, up to isomorphism, inside an ultrapower of $\mathcal{N}$.
+- In particular every elementary extension of $\mathcal{N}$ embeds elementarily into an ultrapower of $\mathcal{N}$.
+- The corollary is one of the [[characterizations of elementary classes|4HNAJQQ8Z0]] by ultraproducts.
+
+### Converse
+
+The "if" direction is the easy one: $\mathcal{M} \equiv \mathcal{N}^I / \mathcal{U}$ because $h$ is elementary, and $\mathcal{N}^I / \mathcal{U} \equiv \mathcal{N}$ by [[Łoś's theorem|AGYBSTD7BG]].
+The theorem does not give an isomorphism with an ultrapower; that stronger statement is the [[Keisler-Shelah theorem|A37HPCKCE2]].
+
+### Generalizations
+
+- If $\mathcal{M} \preceq \mathcal{N}$, the embedding $h$ can be chosen to agree with the diagonal embedding on $M$.
+- The proof gives an index set of size at most $\abs{M} + \abs{L} + \aleph_0$.
+
+## History
+
+The theorem is named after Frayne, and it appears in the 1962 paper "Reduced direct products" of Frayne, Morel and Scott.
+Keisler characterized elementary classes by ultraproducts in his 1961 paper "Ultraproducts and elementary classes".
+The corollary combines his result with Frayne's theorem.
+
+## Explanations
+
+### L1 human
+
+Two structures are elementarily equivalent when no first-order statement tells them apart.
+The theorem says that then one of them fits, without any change in first-order truth, inside a large ultrapower of the other.
+For example, the real numbers with their order fit in this way inside an ultrapower of the rational numbers.
+
+### L2 human
+
+We follow the [[proof|JTTYE452Z3]] for $\mathcal{M} = (\R, <)$ and $\mathcal{N} = (\Q, <)$.
+
+1. The elementary diagram of $\R$ contains, for example, the sentence $c_{\sqrt{2}} < c_{\pi}$ and the sentence $\exists x \, (c_{\sqrt{2}} < x < c_{\pi})$.
+2. A finite part of the diagram mentions finitely many reals $r_1 < \dots < r_n$. Choose rationals $q_1 < \dots < q_n$, and interpret each $c_{r_j}$ as $q_j$.
+3. The theory of dense orders without endpoints has quantifier elimination, so every formula of the finite part holds under such an order-preserving choice.
+4. The ultraproduct of these choices sends each real $r$ to the class of the function $\delta \mapsto$ the rational chosen for $r$ in the finite part $\delta$.
+
+The typical use is to reduce questions about all models of $\operatorname{Th}(\mathcal{N})$ to questions about ultrapowers of $\mathcal{N}$.
+The trap is step 2: the rationals must be chosen in the same order as the reals, or the diagram fails.
+
+### L3 human
+
+Frayne's theorem shows that, up to elementary embeddings, the models of a complete theory are generated from one model by ultrapowers.
+Categorically, it says that the ultrapowers of $\mathcal{N}$ are cofinal among models of $\operatorname{Th}(\mathcal{N})$ with elementary embeddings.
+This is the base of the algebraic characterization of first-order logic, completed by the [[Keisler-Shelah theorem|A37HPCKCE2]].

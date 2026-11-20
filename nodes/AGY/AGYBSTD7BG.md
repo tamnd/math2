@@ -41,17 +41,17 @@ In particular, an $L$-sentence $\sigma$ holds in $\mathcal{M}$ if and only if $\
 
 ### Why each hypothesis is needed
 
-- $\mathcal{U}$ must be an ultrafilter. For the [[Fréchet filter|QN98V7NMCD]] on $\N$, the field axioms hold in each factor $\R$ and fail in $\R^{\N}$ modulo the filter; see [[this example|~d563b9b4]].
-- $\varphi$ must be first-order. An ultraproduct of finite sets over a nonprincipal ultrafilter is infinite, so "the domain is finite" is not kept; see [[this example|~08410ca2]].
+- $\mathcal{U}$ must be an ultrafilter. For the [[Fréchet filter|QN98V7NMCD]] on $\N$, the field axioms hold in each factor $\R$ and fail in $\R^{\N}$ modulo the filter; see [[this example|7TJPSD6H5P]].
+- $\varphi$ must be first-order. An ultraproduct of finite sets over a nonprincipal ultrafilter is infinite, so "the domain is finite" is not kept; see [[this example|V4090YNR6F]].
 - The domains must be nonempty, or the product of the domains is empty.
 - The proof uses the [[axiom of choice|0HTGB13FE2]] at the existential step. If each $M_i$ carries a given well-order, the least witness can be taken, and choice is not needed there.
 
 ### Consequences
 
 - If every $\mathcal{M}_i$ is a model of a theory $T$, so is $\mathcal{M}$; ultraproducts of groups, fields or ordered fields are again of the same kind.
-- The [[diagonal embedding into an ultrapower is elementary|~50eaa729]].
-- The [[compactness theorem|1NR3HAWG9D]] follows by an [[ultraproduct construction|~0aa1297f]].
-- A class closed under elementary equivalence and ultraproducts is [[axiomatizable|~40a55d17]].
+- The [[diagonal embedding into an ultrapower is elementary|E4TD8X2ZRX]].
+- The [[compactness theorem|1NR3HAWG9D]] follows by an [[ultraproduct construction|EY09JT7270]].
+- A class closed under elementary equivalence and ultraproducts is [[axiomatizable|4HNAJQQ8Z0]].
 - For the hyperreals, the theorem is the [[transfer principle|GXG80SQ66Z]].
 - If a sentence holds in algebraically closed fields of characteristic $p$ for infinitely many $p$, then it holds in some ultraproduct of them, which is algebraically closed of characteristic $0$. This is one form of the [[Lefschetz principle|SKTMN14X5P]].
 
@@ -63,7 +63,7 @@ The sentence $\forall x \, (x = 0 \lor x = 1)$ holds in every factor, and the cl
 
 ### Generalizations
 
-- For a filter, [[Horn formulas are preserved by reduced products|~4fd58f67]], and the [[Feferman-Vaught theorem|~adae22d8]] computes truth in reduced products from the quotient Boolean algebra.
+- For a filter, [[Horn formulas are preserved by reduced products|8RRECJJM3G]], and the [[Feferman-Vaught theorem|RYMZZ2AWFT]] computes truth in reduced products from the quotient Boolean algebra.
 - For a $\kappa$-complete ultrafilter, the theorem holds for the infinitary logic $L_{\kappa\kappa}$; this is the basis of the theory of [[measurable cardinals|AKBWT323RQ]].
 - In continuous logic, ultraproducts of metric structures such as Banach spaces satisfy a Łoś theorem for continuous formulas.
 - Mathlib states the theorem for sentences as `FirstOrder.Language.Ultraproduct.sentence_realize`. The version for formulas follows by naming the elements $[a_k]$ with new constants.
@@ -72,7 +72,7 @@ The sentence $\forall x \, (x = 0 \lor x = 1)$ holds in every factor, and the cl
 
 Jerzy Łoś stated and proved the theorem in 1955, in a paper that introduced ultraproducts of general structures.
 In the following decade, Frayne, Morel, Scott and Keisler developed the theory of ultraproducts and used it to study elementary equivalence.
-The [[proof by induction on formulas|~149ef575]] is the standard proof.
+The [[proof by induction on formulas|REAJ3C5Q24]] is the standard proof.
 
 ## Explanations
 
@@ -102,4 +102,4 @@ The trap is to transfer an infinite set of sentences as if it were one: "charact
 Łoś's theorem says that the ultraproduct is a limit of the factors in the sense of first-order truth: the truth value of $\varphi$ is the limit of its truth values along $\mathcal{U}$.
 In topological terms, $\mathcal{U}$ is a point of the Stone-Čech compactification $\beta I$, and the ultraproduct evaluates each formula at that point.
 The same pattern gives [[ultralimits|3R9GQGFHP5]] in metric geometry and ultraproducts of Banach spaces in analysis.
-Within model theory, the theorem is the base of the results that describe elementary equivalence by ultrapowers, such as [[Frayne's theorem|~484684ac]] and the [[Keisler-Shelah theorem|~4f3e3ffa]].
+Within model theory, the theorem is the base of the results that describe elementary equivalence by ultrapowers, such as [[Frayne's theorem|QPX9HG9BH4]] and the [[Keisler-Shelah theorem|A37HPCKCE2]].

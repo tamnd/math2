@@ -1,0 +1,89 @@
+---
+tag: 8RRECJJM3G
+kind: statement
+role: theorem
+name: Reduced products preserve Horn formulas
+aliases: [horn-sentences-preserved-by-reduced-products]
+msc: ["03C20", "03C40"]
+topics: [HZG1YP26AB]
+audience: grad
+about: [F4WRD396PB]
+uses: [F4WRD396PB, 15PF73BKY6, HYJ10AF6RT, MCZRXR3SVB]
+sources:
+  - url: https://en.wikipedia.org/wiki/Horn_clause
+    locator: lead section
+  - url: https://en.wikipedia.org/wiki/Reduced_product
+    locator: lead section
+---
+
+## Statement
+
+Let $L$ be a signature.
+A *basic Horn formula* is a disjunction $\theta_1 \lor \dots \lor \theta_m$ with $m \ge 1$, where each $\theta_k$ is an [[atomic formula|MCZRXR3SVB]] or the negation of one, and at most one $\theta_k$ is atomic.
+The *Horn formulas* form the smallest set of $L$-[[formulas|HYJ10AF6RT]] that contains the basic Horn formulas and is closed under $\land$, $\exists x$ and $\forall x$.
+A *Horn sentence* is a Horn formula without free variables.
+
+Let $F$ be a [[filter|15PF73BKY6]] on a nonempty set $I$, and let $(\mathcal{M}_i)_{i \in I}$ be $L$-structures with nonempty domains $M_i$.
+Let $\varphi(x_1, \dots, x_n)$ be a Horn formula, and let $a_1, \dots, a_n \in \prod_{i \in I} M_i$.
+If
+$$\set{i \in I : \mathcal{M}_i \models \varphi(a_1(i), \dots, a_n(i))} \in F,$$
+then the [[reduced product|F4WRD396PB]] satisfies $\prod_{i \in I} \mathcal{M}_i / F \models \varphi([a_1]_F, \dots, [a_n]_F)$.
+
+In particular, a Horn sentence that holds in every $\mathcal{M}_i$ holds in every reduced product of the $\mathcal{M}_i$, and in their direct product.
+
+## Remarks
+
+### Why each hypothesis is needed
+
+- The formula must be Horn. The sentence $\forall x \, (x = 0 \lor \exists y \, (x \cdot y = 1))$ holds in each factor $\R$. It fails in $\R \times \R$, a reduced product with $F = \set{\set{1, 2}}$: the element $(1, 0)$ is nonzero and has no inverse.
+- A disjunction with two atomic parts is the typical failure: "$x \le y$ or $y \le x$" holds in $(\N, \le)$ and fails in $(\N, \le)^{\N} / F$ for the Fréchet filter $F$.
+- The filter must be proper, as filters are by definition. For $F = \mathcal{P}(I)$ the quotient has one point, and the Horn sentence $\neg(c = d)$ fails there although it may hold in each factor.
+
+### Consequences
+
+- Groups, abelian groups, rings, commutative rings, lattices and partial orders have Horn axioms, so these classes are closed under reduced products and direct products.
+- A [[universal Horn class|9A4CYWXPEA]] is closed under reduced products.
+- Fields are not closed under products, so the class of fields has no set of Horn axioms.
+
+### Converse
+
+The converse holds in this form: a sentence that is preserved by every reduced product is logically equivalent to a Horn sentence.
+Its proof is much harder than the induction that proves the theorem.
+A formula that is not Horn can still hold in one particular reduced product; the converse concerns preservation by all reduced products.
+
+### Generalizations
+
+For ultrafilters, every first-order formula is preserved, and the implication becomes an equivalence; this is [[Łoś's theorem|AGYBSTD7BG]].
+
+## History
+
+Alfred Horn studied in 1951 the sentences that are preserved by direct products, and the Horn sentences carry his name.
+The book of Chang and Keisler presents the preservation of Horn formulas by reduced products together with its converse.
+
+## Explanations
+
+### L1 human
+
+A Horn rule has the form "if these basic facts hold, then that basic fact holds", or "these basic facts never hold together".
+Such rules survive when we combine many structures into one by a reduced product.
+For example, "if $x \le y$ and $y \le z$, then $x \le z$" survives.
+A rule with a real choice, like "$x \le y$ or $y \le x$", can fail.
+
+### L2 human
+
+We check one Horn axiom of rings in $\R^{\N} / F$, $F$ the Fréchet filter: the distributive law $\forall x \, \forall y \, \forall z \, (x \cdot (y + z) = x \cdot y + x \cdot z)$.
+
+1. The inner formula is atomic, so it is a basic Horn formula with $m = 1$.
+2. Universal quantifiers keep the Horn form, so the sentence is a Horn sentence.
+3. The law holds in each factor $\R$, so its truth set is $\N \in F$.
+4. The theorem gives the law in $\R^{\N} / F$.
+
+The typical use is to see at once that a quotient of a product is again a group, ring or lattice.
+The trap is to apply the theorem to "every nonzero element is invertible", which is not Horn.
+
+### L3 human
+
+A reduced product is a filtered colimit of direct products, so the theorem says that Horn formulas survive products and filtered colimits of a special kind.
+In logic programming, Horn clauses are the clauses with at most one positive literal, and a set of Horn clauses has a least model; this is the propositional shadow of the same phenomenon.
+In universal algebra, quasivarieties are exactly the classes axiomatized by universal Horn sentences with one atomic part, and they are closed under products and ultraproducts.
+The full first-order analysis of reduced products is the [[Feferman-Vaught theorem|RYMZZ2AWFT]] for reduced products.

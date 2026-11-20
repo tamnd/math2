@@ -38,7 +38,7 @@ Ultraproducts thus give the [[compactness theorem|1NR3HAWG9D]], nonstandard mode
 ## Notation
 
 We write $\prod_{i \in I} \mathcal{M}_i / \mathcal{U}$, $\prod_{\mathcal{U}} \mathcal{M}_i$ or $\prod \mathcal{M}_i / \mathcal{U}$, and $[a]$ or $[a]_{\mathcal{U}}$ for the class of $a$.
-When all factors equal $\mathcal{M}$, the ultraproduct is the [[ultrapower|~93a646cd]] $\mathcal{M}^I / \mathcal{U}$.
+When all factors equal $\mathcal{M}$, the ultraproduct is the [[ultrapower|5ZVJK0V0GF]] $\mathcal{M}^I / \mathcal{U}$.
 Chang and Keisler write $D$ for the ultrafilter, and some texts write $\mathcal{F}$.
 The truth set of a formula $\varphi$ at $a_1, \dots, a_n$ is $[\![ \varphi(a_1, \dots, a_n) ]\!] = \set{i \in I : \mathcal{M}_i \models \varphi(a_1(i), \dots, a_n(i))}$.
 In Mathlib, ultraproducts of first-order structures are in the namespace `FirstOrder.Language.Ultraproduct`.
@@ -49,15 +49,15 @@ The formal construction, with the check that it is well defined, is the [[defini
 ### Examples
 
 - For a nonprincipal ultrafilter $\mathcal{U}$ on $\N$, the ultrapower $\R^{\N} / \mathcal{U}$ of the ordered field $\R$ is a field of [[hyperreal numbers|421QMTFG9T]]; the class of $(1, 1/2, 1/3, \dots)$ is a positive infinitesimal.
-- For a nonprincipal ultrafilter on the set of primes, the ultraproduct of the prime fields $\F_p$ is a field of characteristic $0$; see [[this example|~e99f36f5]].
-- For a principal ultrafilter at $i_0$, the ultraproduct is isomorphic to $\mathcal{M}_{i_0}$; see [[this example|~7d5e0b68]].
-- For a nonprincipal ultrafilter on $\N$, the ultrapower of $(\N, +, \cdot, 0, 1, <)$ is a nonstandard model of arithmetic; see [[this example|~3c3d87d7]].
-- An ultraproduct of finite sets of unbounded size over a nonprincipal ultrafilter on $\N$ is infinite; see [[this example|~19a24785]].
+- For a nonprincipal ultrafilter on the set of primes, the ultraproduct of the prime fields $\F_p$ is a field of characteristic $0$; see [[this example|145GABE79C]].
+- For a principal ultrafilter at $i_0$, the ultraproduct is isomorphic to $\mathcal{M}_{i_0}$; see [[this example|DN8AEN4CQ3]].
+- For a nonprincipal ultrafilter on $\N$, the ultrapower of $(\N, +, \cdot, 0, 1, <)$ is a nonstandard model of arithmetic; see [[this example|5B6GQKKDMG]].
+- An ultraproduct of finite sets of unbounded size over a nonprincipal ultrafilter on $\N$ is infinite; see [[this example|NWC4594R42]].
 
 ### Non-examples
 
-- The reduced power $\R^{\N} / F$ for the [[Fréchet filter|QN98V7NMCD]] $F$ is not an ultraproduct, since $F$ is not an ultrafilter; it is a ring with zero divisors. See [[this non-example|~d563b9b4]].
-- An ultraproduct of finite sets is infinite, so the property "finite", which is not first-order, is not kept; see [[this non-example|~08410ca2]].
+- The reduced power $\R^{\N} / F$ for the [[Fréchet filter|QN98V7NMCD]] $F$ is not an ultraproduct, since $F$ is not an ultrafilter; it is a ring with zero divisors. See [[this non-example|7TJPSD6H5P]].
+- An ultraproduct of finite sets is infinite, so the property "finite", which is not first-order, is not kept; see [[this non-example|V4090YNR6F]].
 - If one factor has an empty domain, the Cartesian product is empty, and the construction gives no structure; this is why domains are nonempty.
 
 ### Basic properties
@@ -65,7 +65,7 @@ The formal construction, with the check that it is well defined, is the [[defini
 - [[Łoś's theorem|AGYBSTD7BG]]: $\prod_{\mathcal{U}} \mathcal{M}_i \models \varphi([a_1], \dots, [a_n])$ if and only if $[\![ \varphi(a_1, \dots, a_n) ]\!] \in \mathcal{U}$.
 - If each $\mathcal{M}_i$ is a model of a theory $T$, so is the ultraproduct; for example, ultraproducts of groups are groups and ultraproducts of fields are fields.
 - If $\mathcal{U}$ is principal at $i_0$, then $\prod_{\mathcal{U}} \mathcal{M}_i \cong \mathcal{M}_{i_0}$.
-- If $\mathcal{U}$ is nonprincipal on a countable set $I$ and the language is countable, the ultraproduct is $\aleph_1$-saturated; see [[saturation of ultraproducts|~bf3451a3]].
+- If $\mathcal{U}$ is nonprincipal on a countable set $I$ and the language is countable, the ultraproduct is $\aleph_1$-saturated; see [[saturation of ultraproducts|DYXQP8WS63]].
 - An ultraproduct of a countably infinite family over a nonprincipal ultrafilter on $\N$ is finite or has at least $2^{\aleph_0}$ elements.
 
 ### History
@@ -111,4 +111,4 @@ An ultraproduct is a filtered colimit of products, and the ultrafilter makes the
 In categorical logic, Makkai and later Lurie studied categories of models together with their ultraproducts, called ultracategories, to recover a theory from its models.
 In analysis, the [[ultralimit|3R9GQGFHP5]] of a bounded sequence along $\mathcal{U}$ and ultraproducts of Banach spaces follow the same pattern with a norm instead of equality.
 In algebra, ultraproducts of finite fields are pseudofinite fields, and they connect statements about all large primes with characteristic $0$.
-Ultrapowers lead to [[saturation|~bf3451a3]], the [[Keisler-Shelah theorem|~4f3e3ffa]] and [[Keisler's order|~889bca65]], and in set theory to measurable cardinals.
+Ultrapowers lead to [[saturation|DYXQP8WS63]], the [[Keisler-Shelah theorem|A37HPCKCE2]] and [[Keisler's order|TD5D2G5PYP]], and in set theory to measurable cardinals.

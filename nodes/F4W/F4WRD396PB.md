@@ -48,14 +48,14 @@ The formal definition, with the check that the interpretations do not depend on 
 
 ### Examples
 
-- For $F = \set{I}$, the relation $\sim_F$ is equality, so the reduced product is the direct product; see [[this example|~07e41cc4]].
+- For $F = \set{I}$, the relation $\sim_F$ is equality, so the reduced product is the direct product; see [[this example|J2C48GYQWG]].
 - For a nonempty $J \subseteq I$ and the filter $F = \set{X \subseteq I : J \subseteq X}$, the reduced product is isomorphic to $\prod_{j \in J} \mathcal{M}_j$, because only the coordinates in $J$ matter.
-- For the [[Fréchet filter|QN98V7NMCD]] of cofinite subsets of $\N$, the reduced power $\R^{\N} / F$ is a commutative ring that is not a field; see [[this example|~d563b9b4]].
+- For the [[Fréchet filter|QN98V7NMCD]] of cofinite subsets of $\N$, the reduced power $\R^{\N} / F$ is a commutative ring that is not a field; see [[this example|7TJPSD6H5P]].
 - For the Fréchet filter $F$, the reduced power $(\N, \le)^{\N} / F$ is a partial order that is not linear; see the L2 explanation below.
 
 ### Non-examples
 
-- The relation "agree on infinitely many indices" on $\Z^{\N}$ is not transitive, so it gives no reduced product; the infinite sets do not form a filter. See [[this non-example|~3e6f4f3f]].
+- The relation "agree on infinitely many indices" on $\Z^{\N}$ is not transitive, so it gives no reduced product; the infinite sets do not form a filter. See [[this non-example|W2J10Y5TC5]].
 - For $I = \set{1, 2, 3}$, the family $\set{\set{1, 2}, \set{2, 3}, I}$ is not closed under intersection, and the relation it defines on $\Z^3$ is not transitive.
 - If we allow the improper filter $\mathcal{P}(I)$, then any two elements are equal and every relation holds, so the quotient is a one-point structure that keeps no information. This is why filters are proper.
 
@@ -63,7 +63,7 @@ The formal definition, with the check that the interpretations do not depend on 
 
 - The relation $\sim_F$ is an equivalence relation, and the interpretations are well defined, because $F$ is closed under supersets and finite intersections.
 - For an atomic formula $\alpha$, $\prod_F \mathcal{M}_i \models \alpha([a_1], \dots, [a_n])$ if and only if $[\![ \alpha(a_1, \dots, a_n) ]\!] \in F$.
-- [[Reduced products preserve Horn formulas|~4fd58f67]]: if a Horn formula holds on a set of indices in $F$, it holds in the reduced product.
+- [[Reduced products preserve Horn formulas|8RRECJJM3G]]: if a Horn formula holds on a set of indices in $F$, it holds in the reduced product.
 - So every class of structures axiomatized by Horn sentences, such as groups, rings, partial orders and [[universal Horn classes|9A4CYWXPEA]], is closed under reduced products.
 - If $F \subseteq G$ are filters, then $\prod_G \mathcal{M}_i$ is a quotient of $\prod_F \mathcal{M}_i$, by the map $[a]_F \mapsto [a]_G$.
 
@@ -109,6 +109,6 @@ The trap is linearity: "$x \le y$ or $y \le x$" has two positive parts, so it is
 The reduced product is a filtered colimit of products.
 For $X \subseteq Y$ in $F$, project $\prod_{i \in Y} \mathcal{M}_i$ onto $\prod_{i \in X} \mathcal{M}_i$; the colimit of this directed system, indexed by $F$ under reverse inclusion, is $\prod_F \mathcal{M}_i$.
 In the Boolean-valued view, a formula has the truth value $[\![ \varphi ]\!]$ in the power set algebra $\mathcal{P}(I)$, and the reduced product reads it in the quotient algebra $\mathcal{P}(I) / F$.
-The [[Feferman-Vaught theorem|~adae22d8]] makes this precise for all formulas.
+The [[Feferman-Vaught theorem|RYMZZ2AWFT]] makes this precise for all formulas.
 The converse of Horn preservation also holds: a sentence that is preserved by all reduced products is equivalent to a Horn sentence.
 Reduced products also appear in algebra as subdirect constructions and in the study of [[preservation theorems|JYJHB4YBAH]].
