@@ -1,0 +1,96 @@
+---
+tag: 5JA4CYT1TB
+kind: concept
+name: Algebra of endomorphisms
+msc: ["15A04", "16S50"]
+topics: [9080WQTZ3M]
+audience: ug1
+specializes: [3CTW1P4HBP]
+uses: [0J7H0YBFDJ, 0X9MBPP2Z3, 3CTW1P4HBP]
+sources:
+  - url: https://en.wikipedia.org/wiki/Endomorphism_ring
+    locator: Description
+  - url: https://en.wikipedia.org/wiki/Endomorphism_ring
+    locator: Examples
+  - url: https://en.wikipedia.org/wiki/Linear_map
+    locator: Endomorphisms and automorphisms
+  - book: isbn:9780135367971
+    locator: Section 3.2
+  - book: isbn:9783031410253
+    locator: Chapter 3
+---
+
+## Summary
+
+The [[endomorphisms|0J7H0YBFDJ]] of a vector space $V$ form an [[associative algebra|3CTW1P4HBP]] $\End(V)$.
+Endomorphisms are added and scaled pointwise, as in the [[space of linear maps|0X9MBPP2Z3]], and they are multiplied by composition.
+For $\dim V = n$, a basis identifies $\End(V)$ with the matrix algebra $M_n(F)$.
+
+## Motivation
+
+Endomorphisms can be added and composed, and these operations interact like those of numbers.
+For example, $T^2 - 3T + 2\id = (T - \id)(T - 2\id)$ holds for every endomorphism $T$.
+The algebra $\End(V)$ is the setting for polynomials in $T$, for eigenvalue theory and for normal forms.
+It explains why square matrices form a ring: they are the endomorphisms of $F^n$ written in a basis.
+
+## Notation
+
+The algebra is written $\End_F(V)$, $\End(V)$ or $L(V)$.
+The product of $S$ and $T$ is $ST = S \circ T$, so $(ST)(v) = S(T(v))$.
+The unit is $\id_V$, often written $I$ or $1$, and $T^0 = I$.
+The specific object for a given $V$ is the node [[$\End_F(V)$|0E3X2G1ZQB]].
+
+## Remarks
+
+### Examples
+
+- [[$\End(F^2)$|D7CQ3JQDE0]], identified with $M_2(F)$, in which two matrix units do not commute.
+- [[$\End(F)$|3AWAJSQR16]], which is isomorphic to the field $F$ itself.
+- The endomorphisms of the space $F[x]$ of polynomials, an infinite-dimensional algebra that contains the derivative $D$ and multiplication by $x$. They satisfy $DX - XD = \id$.
+
+### Non-examples
+
+- [[All maps $\R \to \R$ under composition|R1SP7B1F0V]]: they form a vector space, but composition is not distributive on the left.
+- The space $M_{2 \times 3}(F)$ is a vector space of linear maps, but it is not an algebra, since two $2 \times 3$ matrices cannot be multiplied.
+
+### Basic properties
+
+- $\End(V)$ is an associative algebra with unit, and $\End(V) \cong M_n(F)$ for $\dim V = n$, by the [[algebra theorem|7BDGQ1Q46E]].
+- Its dimension is $n^2$ for $\dim V = n$, by the [[dimension theorem|0Z9N1ER0W0]].
+- It is not commutative for $\dim V \ge 2$.
+- Its centre consists of the scalar maps $a \id_V$, by the [[centre theorem|ZQPD85QCC8]].
+- Its units are the automorphisms, so the [[group of units|07C6ECNJET]] is $GL(V)$.
+- For $\dim V = n$, its two-sided ideals are $\{0\}$ and $\End(V)$, so it is a [[simple ring|62M0NC3E2T]]. For infinite-dimensional $V$, the [[finite-rank operators|Z8FABSYQTS]] form a proper nonzero [[two-sided ideal|0CD87SFM2N]].
+
+### History
+
+Hoffman and Kunze study the linear operators on a space, with composition as multiplication, in their section on the algebra of linear transformations.
+The [[matrix ring|AB2MD5CD13]] $M_n(F)$ is the coordinate form of this algebra.
+For abelian groups, the endomorphisms also form a ring, the endomorphism ring, with the same operations.
+
+### Common errors
+
+- Assuming that $ST = TS$. In $\End(\R^2)$, the rotation by $90°$ and the reflection in the $x$-axis do not commute.
+- Assuming that $ST = 0$ forces $S = 0$ or $T = 0$. For $\dim V \ge 2$, $\End(V)$ has zero divisors.
+- Writing $(S + T)^2 = S^2 + 2ST + T^2$. The correct expansion is $S^2 + ST + TS + T^2$.
+
+## Explanations
+
+### L1 human
+
+The endomorphisms of a space can be added, scaled and composed.
+Composition acts as multiplication, so the endomorphisms behave like numbers in many ways.
+Two differences matter: the order of composition matters, and nonzero maps can compose to zero.
+
+### L2 human
+
+In a basis of $V$, the algebra $\End(V)$ becomes the algebra of $n \times n$ matrices.
+Sums of maps become sums of matrices, and composites become products.
+So matrix algebra is the computational form of $\End(V)$.
+The trap is to use rules of commutative algebra, such as $(S + T)^2 = S^2 + 2ST + T^2$, without checking that $ST = TS$.
+
+### L3 human
+
+$\End(V)$ is the endomorphism ring of $V$ in the category of vector spaces over $F$, with an extra $F$-algebra structure.
+Representations of a group or an algebra $A$ on $V$ are homomorphisms $A \to \End(V)$.
+For finite-dimensional $V \ne \{0\}$, $\End(V)$ is simple with centre $F$, so it is a central simple algebra over $F$.

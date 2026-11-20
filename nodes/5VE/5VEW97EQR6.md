@@ -3,8 +3,9 @@ tag: 5VEW97EQR6
 kind: example
 name: An idempotent matrix whose powers never reach the identity
 msc: [20A05, 20M99]
-topics: [BAZT8JJ70S]
+topics: [BAZT8JJ70S, Y1ESNQ2V52]
 audience: ug1
+instance_of: [0KCE8CG86P]
 not_instance_of:
   - target: 0WE2NHZJ7B
     note: the matrix E with entries 1, 0, 0, 0 satisfies E^n = E for each positive n, but it is not invertible, so it is not an element of a group of matrices with the identity matrix as identity, and it has no order

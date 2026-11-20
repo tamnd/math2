@@ -1,0 +1,49 @@
+---
+tag: ZN0DY3MZ5D
+kind: example
+name: Forward substitution in a lower triangular system
+msc: ["15A06"]
+topics: [DXSXFVDMXQ]
+audience: school
+instance_of: [0ATFVE08MW]
+uses: [0ATFVE08MW, 00J3KZP8Y0]
+sources:
+  - url: https://en.wikipedia.org/wiki/Triangular_matrix
+    locator: Forward and back substitution
+---
+
+## Example
+
+Let $L = \begin{bmatrix} 1 & 0 & 0 \\ 2 & 1 & 0 \\ -1 & 3 & 1 \end{bmatrix}$ and $b = (2, 7, 9)$ over $\R$.
+The matrix $L$ is [[lower triangular|00J3KZP8Y0]] with $1$s on the diagonal.
+We solve $Ly = b$ by forward substitution, from the top down.
+
+1. Row 1 reads $y_1 = 2$.
+2. Row 2 reads $2y_1 + y_2 = 7$, so $y_2 = 7 - 4 = 3$.
+3. Row 3 reads $-y_1 + 3y_2 + y_3 = 9$, so $y_3 = 9 + 2 - 9 = 2$.
+4. Check: $2 = 2$, $4 + 3 = 7$ and $-2 + 9 + 2 = 9$.
+
+So $y = (2, 3, 2)$.
+
+## Remarks
+
+Forward substitution is the mirror image of [[back substitution|0ATFVE08MW]].
+In an LU solve, this step finds $y$ with $Ly = b$, and back substitution then finds $x$ with $Ux = y$.
+Here the diagonal entries are $1$, so no divisions are needed.
+
+## Explanations
+
+### L1 human
+
+The first equation has one unknown, so we solve it first.
+Each equation below it then has only one new unknown.
+
+### L2 human
+
+1. Solve the first row.
+2. Put the value into the second row and solve for $y_2$.
+3. Put both values into the third row and solve for $y_3$.
+4. Check all three equations.
+
+The typical use is the first of the two triangular solves after an LU decomposition.
+A trap: starting from the bottom row, where all three unknowns appear.

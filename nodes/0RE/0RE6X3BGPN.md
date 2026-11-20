@@ -2,8 +2,10 @@
 tag: 0RE6X3BGPN
 kind: example
 name: Space of matrices
-msc: [15A03]
-instance_of: [000AYPA9AJ]
+msc: ["15A03"]
+topics: [Y1ESNQ2V52]
+audience: ug1
+instance_of: [000AYPA9AJ, 0Y7H3SAVA1]
 uses: [0N1MY1T0W9, 0BVXADM10P, 0K28YXMS7Q]
 sources:
   - url: https://en.wikipedia.org/wiki/Matrix_(mathematics)

@@ -1,0 +1,42 @@
+---
+tag: 4H93XF4RVH
+kind: definition
+name: Matrix units
+msc: ["15A99", "16S50"]
+topics: [Y1ESNQ2V52]
+audience: ug1
+defines: A4HTT7JFD1
+uses: [0N1MY1T0W9]
+sources:
+  - url: https://en.wikipedia.org/wiki/Matrix_unit
+    locator: lead section
+---
+
+## Definition
+
+Let $R$ be a ring with identity and let $m, n \ge 1$.
+For $1 \le i \le m$ and $1 \le j \le n$, the *matrix unit* $E_{ij}$ is the $m \times n$ [[matrix|0N1MY1T0W9]] over $R$ with entries
+$$(E_{ij})_{pq} = \delta_{ip} \delta_{jq} = \begin{cases} 1 & \text{if } p = i \text{ and } q = j, \\ 0 & \text{otherwise.} \end{cases}$$
+Here $\delta$ is the Kronecker delta.
+
+## Notation
+
+- Other notations are $e_{ij}$ and $E^{(ij)}$.
+- The size $m \times n$ is not part of the symbol; it comes from the context.
+- In Mathlib, `Matrix.stdBasisMatrix i j 1` is this matrix; recent versions call it `Matrix.single i j 1`.
+
+## Remarks
+
+- For $m = n = 2$ the matrix units are $E_{11} = \begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix}$, $E_{12} = \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}$, $E_{21} = \begin{pmatrix} 0 & 0 \\ 1 & 0 \end{pmatrix}$ and $E_{22} = \begin{pmatrix} 0 & 0 \\ 0 & 1 \end{pmatrix}$.
+- There are $mn$ matrix units of size $m \times n$.
+- The word "unit" here means "a single $1$". A matrix unit is not a unit of the ring $M_n(R)$ when $n \ge 2$, because it is not invertible.
+
+## Explanations
+
+### L1 human
+
+The matrix unit $E_{ij}$ has a $1$ in row $i$ and column $j$, and $0$ in every other place.
+
+### L2 human
+
+The definition needs the elements $0$ and $1$ of $R$, so $R$ must have an identity.

@@ -2,13 +2,17 @@
 tag: 1QVWFSF796
 kind: proof
 name: Proof of the associativity of matrix multiplication
-msc: [15A99]
+msc: ["15A99"]
+topics: [Y1ESNQ2V52]
+audience: ug1
 proves: 073E4XC016
+methods: [0NTF6DMVAP]
 uses: [076JGP6R3T, 0894J980RK]
 sources:
+  - url: https://en.wikipedia.org/wiki/Matrix_multiplication
+    locator: Associativity
   - url: https://proofwiki.org/wiki/Matrix_Multiplication_is_Associative
 ---
-
 ## Proof
 
 We compare the two sides entry by entry.
@@ -25,4 +29,10 @@ We compare the two sides entry by entry.
 
 ## Idea
 
-Both products have entry $(i, l)$ equal to the sum of $a_{ij} b_{jk} c_{kl}$ over all pairs $(j, k)$. The two ways of bracketing only add these terms in a different order, which does not change a finite sum.
+Both products have entry $(i, l)$ equal to the sum of $a_{ij} b_{jk} c_{kl}$ over all pairs $(j, k)$.
+The two ways of bracketing only add these terms in a different order, which does not change a finite sum.
+
+## Variants
+
+- The [[proof by composition|KC9SCPKS2G]] compares the columns $((AB)C)e_l$ and $(A(BC))e_l$, and it uses the rule $(AB)x = A(Bx)$.
+- With the [[matrix units|A4HTT7JFD1]], both sides are additive in each factor. So it suffices to take $A = aE_{ij}$, $B = bE_{j'k}$ and $C = cE_{k'l}$. Both sides are $0$ unless $j = j'$ and $k = k'$, and then they are $(ab)c\,E_{il}$ and $a(bc)\,E_{il}$.

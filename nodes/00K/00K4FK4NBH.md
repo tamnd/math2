@@ -2,27 +2,35 @@
 tag: 00K4FK4NBH
 kind: definition
 name: Nullity
-msc: [15A03, 15A04]
+msc: ["15A03", "15A04"]
+topics: [9080WQTZ3M]
+audience: ug1
 defines: 0APCFW7639
 uses: [02YFME3RGW, 05G2G0P224]
 sources:
   - url: https://en.wikipedia.org/wiki/Kernel_(linear_algebra)
     locator: Properties
+  - book: isbn:9780134860244
+    locator: Section 2.1
 ---
 
 ## Definition
 
-Let $F$ be a field, let $V$ and $W$ be vector spaces over $F$, and let $T \colon V \to W$ be a [[linear map|0NRYHJPQG2]].
+Let $F$ be a field, let $V$ and $W$ be vector spaces over $F$, and let $T \colon V \to W$ be a [[linear map|0RJF668P1T]] with finite-dimensional kernel.
 The *nullity* of $T$ is
 $$\operatorname{nullity} T = \dim \ker T,$$
-the [[dimension|03GSZ8RTZJ]] of the [[kernel|0S23E6YE83]] of $T$.
-The nullity of a matrix $A$ is the nullity of the map $x \mapsto Ax$, the dimension of the [[null space|0PHDYNR24D]] of $A$.
+the [[dimension|05G2G0P224]] of the [[kernel|02YFME3RGW]] of $T$.
+The nullity of a matrix $A$ is the nullity of the map $x \mapsto Ax$, the dimension of the [[null space|0PQ2GGY1QV]] of $A$.
+
+## Notation
+
+Other notations are $\operatorname{null} T$ and $n(T)$.
 
 ## Remarks
 
-The nullity is $0$ if and only if $T$ is injective.
-For an $m \times n$ matrix, the nullity is the number of free variables of $Ax = 0$.
-By the [[rank–nullity theorem|0W4FSW1TVB]], $\rank T + \operatorname{nullity} T = \dim V$ when $V$ is finite-dimensional.
+- If $V$ is finite-dimensional, then the kernel is finite-dimensional, so the nullity is defined.
+- For an $m \times n$ matrix, the nullity is the number of free variables of $Ax = 0$.
+- For infinite-dimensional kernels, the same formula defines the nullity as a cardinal.
 
 ## Explanations
 
@@ -30,4 +38,8 @@ By the [[rank–nullity theorem|0W4FSW1TVB]], $\rank T + \operatorname{nullity} 
 
 The nullity counts the dimensions that the map crushes to zero.
 The projection of space onto a plane crushes one direction, so its nullity is $1$.
-Rank counts what survives, and nullity counts what is lost.
+
+### L2 human
+
+For $A = \begin{pmatrix} 1 & 1 & 1 \end{pmatrix}$, the system $x_1 + x_2 + x_3 = 0$ has two free variables, $x_2$ and $x_3$.
+The null space has basis $(-1, 1, 0)$ and $(-1, 0, 1)$, so the nullity is $2$.

@@ -3,11 +3,13 @@ tag: 60W7PZXBVB
 kind: example
 name: The binomial formula does not generalize to matrices
 msc: ["00A35", "15A99"]
-topics: [N4P3E53HM0]
+topics: [N4P3E53HM0, Y1ESNQ2V52]
 audience: ug1
 not_instance_of:
   - target: 976RZZCT1H
     note: the passage from numbers to matrices drops the commutativity ab = ba, which the proof of the formula needs, so the generalized formula is false
+  - target: 8G3X8MPG7E
+    note: A = (1, 1; 0, 1) and B = (1, 0; 1, 1) give AB = (2, 1; 1, 1) but BA = (1, 1; 1, 2), so the pair does not commute
 uses: [976RZZCT1H, 032Q9FB8MT, 099E72KTF8, 0EHWPWGHB2]
 sources:
   - url: https://en.wikipedia.org/wiki/Matrix_multiplication

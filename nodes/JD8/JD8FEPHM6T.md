@@ -1,0 +1,70 @@
+---
+tag: JD8FEPHM6T
+kind: example
+name: The Lights Out puzzle on a 2 by 2 board
+msc: ["15A06", "91A46"]
+topics: [DXSXFVDMXQ]
+audience: ug1
+instance_of: [0GT4WWGWH2]
+uses: [0GT4WWGWH2, 0ZXZ82FTX2, 0JVJ2WCXZH, 0ATFVE08MW, 8QM2Y41P69]
+sources:
+  - url: https://en.wikipedia.org/wiki/Lights_Out_(game)
+    locator: Mathematics
+  - url: https://en.wikipedia.org/wiki/Lights_Out_(game)
+    locator: lead section
+---
+
+## Example
+
+Lights Out is a puzzle on a grid of lights; pressing a light switches it and its horizontal and vertical neighbours.
+The aim is to switch off all the lights.
+Tiger Electronics sold it as a handheld game in 1995, on a $5 \times 5$ grid.
+We solve the $2 \times 2$ version over [[the field|0ZXZ82FTX2]] $\mathbb{F}_2$.
+
+Name the cells $a, b$ in the top row and $c, d$ in the bottom row.
+A state is a vector $s \in \mathbb{F}_2^4$, with $1$ for a light that is on.
+A choice of presses is a vector $p \in \mathbb{F}_2^4$: pressing twice is the same as not pressing, and the order does not matter.
+Pressing $a$ switches $a, b, c$, so the column of $a$ is $(1, 1, 1, 0)$; in the same way we get the other columns, and
+$$A = \begin{bmatrix} 1 & 1 & 1 & 0 \\ 1 & 1 & 0 & 1 \\ 1 & 0 & 1 & 1 \\ 0 & 1 & 1 & 1 \end{bmatrix}.$$
+The presses $p$ switch off the state $s$ exactly when $Ap = s$, a [[linear system|0GT4WWGWH2]] over $\mathbb{F}_2$.
+
+We solve it for the state with only $a$ on, $s = (1, 0, 0, 0)$, by [[Gaussian elimination|0JVJ2WCXZH]].
+
+1. The rows of $[A \mid s]$ are $(1, 1, 1, 0 \mid 1)$, $(1, 1, 0, 1 \mid 0)$, $(1, 0, 1, 1 \mid 0)$, $(0, 1, 1, 1 \mid 0)$.
+2. $R_2 \leftarrow R_2 + R_1$ gives $(0, 0, 1, 1 \mid 1)$.
+3. $R_3 \leftarrow R_3 + R_1$ gives $(0, 1, 0, 1 \mid 1)$.
+4. Swap $R_2$ and $R_3$, so that row 2 has its leading entry in column 2.
+5. $R_4 \leftarrow R_4 + R_2$ gives $(0, 0, 1, 0 \mid 1)$.
+6. $R_4 \leftarrow R_4 + R_3$ gives $(0, 0, 0, 1 \mid 0)$.
+7. [[Back substitution|0ATFVE08MW]]: $p_d = 0$; row 3 gives $p_c = 1 + p_d = 1$; row 2 gives $p_b = 1 + p_d = 1$.
+8. Row 1 gives $p_a = 1 + p_b + p_c = 1 + 1 + 1 = 1$.
+9. So $p = (1, 1, 1, 0)$: press $a$, $b$ and $c$.
+10. Check: the columns of $a$, $b$ and $c$ add to $(1, 1, 1, 0) + (1, 1, 0, 1) + (1, 0, 1, 1) = (3, 2, 2, 2) = (1, 0, 0, 0)$ in $\mathbb{F}_2$.
+
+## Remarks
+
+The elimination has four pivots, so $A$ is invertible over $\mathbb{F}_2$, and every state of the $2 \times 2$ board has exactly one solution, by [[the theorem on finite fields|8QM2Y41P69]].
+In fact $A^2 = I$ over $\mathbb{F}_2$: each row of $A$ has three $1$s, and any two different rows share exactly two $1$s.
+So the solution for any state $s$ is $p = As$, and the solution above is the column of $a$.
+On larger square boards the matrix has size $n^2 \times n^2$.
+Its rank over $\mathbb{F}_2$ is $9$ for $3 \times 3$, $12$ for $4 \times 4$ and $23$ for $5 \times 5$.
+So on the $5 \times 5$ board only $2^{23}$ of the $2^{25}$ states, one in four, can be switched off, and each such state has $2^{25 - 23} = 4$ solutions.
+
+## Explanations
+
+### L1 human
+
+Each light is on or off, which we write as $1$ or $0$.
+Pressing a button adds $1$ to some lights, and $1 + 1 = 0$, because switching twice gives the original state.
+So the puzzle is a system of linear equations with the numbers $0$ and $1$.
+
+### L2 human
+
+1. Write the effect of each button as a column of $0$s and $1$s.
+2. Put the columns into a matrix $A$ and the start state into $s$.
+3. Solve $Ap = s$ by elimination modulo $2$.
+4. Press the buttons with $p_i = 1$, in any order.
+5. Check by adding the pressed columns modulo $2$.
+
+The typical use is to decide whether a start state can be solved, and to find the fewest presses.
+A trap: over $\R$ the same matrix gives a different answer, because there $1 + 1 = 2$, not $0$.
