@@ -2,9 +2,12 @@
 tag: YXXTBTMPY5
 kind: proof
 name: Proof of the rank inequality for a product of matrices
-msc: [15A03]
+msc: ["15A03"]
+topics: [S6559D61BP]
+audience: ug1
 proves: 02FDWY55AS
 uses: [0ZC9YTXZRY, 03AJKXH1AV, 032Q9FB8MT, 0QW084460E, 0QK7FPE6VE, 0TZAG60ZYT, 09GK5PS824, 09DXWYRD43]
+methods: [0NTF6DMVAP]
 sources:
   - url: https://statisticaloddsandends.wordpress.com/2018/05/20/rank-of-ab/
 ---
@@ -27,4 +30,11 @@ We compare column spaces, and then pass to transposes for the second inequality.
 
 ## Idea
 
-Every column of $AB$ is a combination of columns of $A$, so $AB$ cannot have a larger column space than $A$. Transposing turns $B$ into the left factor, and transposing does not change rank. So the same argument bounds $\rank(AB)$ by $\rank B$.
+Every column of $AB$ is a combination of columns of $A$, so $AB$ cannot have a larger column space than $A$.
+Transposing turns $B$ into the left factor, and transposing does not change rank.
+So the same argument bounds $\rank(AB)$ by $\rank B$.
+
+## Variants
+
+- The bound $\rank(AB) \le \rank B$ also follows without transposes: $x \mapsto Ax$ maps $\operatorname{Col}(B)$ onto $\operatorname{Col}(AB)$, and a linear map does not increase dimension.
+- The [[Frobenius inequality|~ed13de3d]] refines this bound.

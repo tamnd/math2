@@ -2,9 +2,12 @@
 tag: 72AQPHFDE0
 kind: proof
 name: Proof of the change of basis formula
-msc: [15A04]
+msc: ["15A04"]
+topics: [S6559D61BP]
+audience: ug1
 proves: 0MQXVZEBMT
 uses: [0YQSGNYE3K, 0MKRHZB3WS, 032Q9FB8MT, 0EB9N0S33C, 0753Y2X5K6, 073E4XC016, 04CYQHN6MC, 0KCQ9Y3QKA]
+methods: [0NTF6DMVAP]
 sources:
   - url: https://dec41.user.srcf.net/notes/IB_M/linear_algebra_thm_proof.pdf
     locator: Section 2.4
@@ -27,7 +30,17 @@ We compute $T(b'_j)$ in the basis $C$ in two ways, and then show that $Q$ is inv
 11. Multiply $QM' = MP$ on the left by $Q^{-1}$. By [[associativity|073E4XC016]], $M' = (Q^{-1} Q) M' = Q^{-1}(QM') = Q^{-1}(MP) = Q^{-1} M P$.
 12. So $[T]_{C',B'} = Q^{-1} [T]_{C,B} P$.
 13. For an endomorphism $T$ of $V$ with $C = B$ and $C' = B'$, $Q$ is the change of basis matrix from $B$ to $B'$. So $Q = P$, and $[T]_{B'} = P^{-1} [T]_B P$.
+14. For part 1, let $v = \sum_j x'_j b'_j$, so $[v]_{B'} = x'$. By step 2, $v = \sum_j x'_j \sum_k p_{kj} b_k = \sum_k (P x')_k b_k$. So $[v]_B = P[v]_{B'}$.
+15. Steps 7 to 10 for $V$ in place of $W$ show that $P$ is invertible. Multiplying step 14 by $P^{-1}$ gives $[v]_{B'} = P^{-1}[v]_B$.
 
 ## Idea
 
-Expand $T(b'_j)$ in the old output basis $C$ in two ways. Going through the new output basis $C'$ gives column $j$ of $QM'$. Going through the old input basis $B$ gives column $j$ of $MP$. Equating them and inverting $Q$ gives the formula.
+Expand $T(b'_j)$ in the old output basis $C$ in two ways.
+Going through the new output basis $C'$ gives column $j$ of $QM'$.
+Going through the old input basis $B$ gives column $j$ of $MP$.
+Equating them and inverting $Q$ gives the formula.
+
+## Variants
+
+- The formula follows from the [[matrix of a composition|05Q1B7MH0M]] applied to $\id_W \circ T \circ \id_V$, since $P = [\id_V]_{B, B'}$ and $Q^{-1} = [\id_W]_{C', C}$.
+- For coordinates alone, part 1 is the [[coordinate formula|~73b91b18]] for the identity map, with the matrix $P = [\id_V]_{B, B'}$.

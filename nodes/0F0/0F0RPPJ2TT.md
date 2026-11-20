@@ -2,7 +2,9 @@
 tag: 0F0RPPJ2TT
 kind: definition
 name: Column space
-msc: [15A03]
+msc: ["15A03"]
+topics: [S6559D61BP]
+audience: ug1
 defines: 03AJKXH1AV
 uses: [0HR573CHNM, 0N1MY1T0W9]
 sources:
@@ -25,7 +27,7 @@ the [[linear span|0DTY8B9HMS]] of the columns.
 The column space is $\{Ax : x \in F^n\}$, the image of the map $x \mapsto Ax$.
 The system $Ax = b$ is [[consistent|0X6V9B1V10]] if and only if $b \in \operatorname{Col}(A)$.
 The dimension of the column space is the [[rank|0ZC9YTXZRY]] of $A$.
-The pivot columns of $A$ form a basis of $\operatorname{Col}(A)$.
+The pivot columns of $A$ form a basis of $\operatorname{Col}(A)$, by the [[theorem on the pivot basis|11CSKXQNG3]].
 
 ## Explanations
 
