@@ -62,7 +62,7 @@ In philosophy, a proposition is the meaning that a sentence expresses, so "it is
 1. [[The open sentence $x > 3$ is not a statement|1812QVCW76]]: the variable $x$ is free, and the truth value changes with $x$. It is a [[predicate|0QHEWQD30B]].
 2. "Is $91$ prime?" is a question, so it claims nothing. The sentence "$91$ is prime" is a proposition, and it is false, because $91 = 7 \cdot 13$.
 3. "Let $n = 5$" is an instruction. It fixes a value, and it has no truth value.
-4. "This sentence is false" is the [[liar sentence|DYAB23WA1X]]. If it were true, it would be false, and if it were false, it would be true, so it has no truth value.
+4. "This sentence is false" is the [[liar sentence|~005ac188]]. If it were true, it would be false, and if it were false, it would be true, so it has no truth value.
 
 ### Basic properties
 

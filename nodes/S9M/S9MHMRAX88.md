@@ -55,7 +55,7 @@ This page uses the word "statement" to avoid the conflict.
 1. [[The open sentence $x > 3$ is not a statement|1812QVCW76]]: it is true for $x = 4$ and false for $x = 2$.
 2. "Is $91$ prime?" is a question. The related statement "$91$ is prime" is false, because $91 = 7 \cdot 13$.
 3. "Compute $\int_0^1 x \, dx$" is a command. The related statement "$\int_0^1 x \, dx = \tfrac{1}{2}$" is true.
-4. "This sentence is false" is the [[liar sentence|DYAB23WA1X]]. If it is true, then it is false, and if it is false, then it is true. So it has no truth value, and it is not a statement.
+4. "This sentence is false" is the [[liar sentence|~005ac188]]. If it is true, then it is false, and if it is false, then it is true. So it has no truth value, and it is not a statement.
 
 ### Basic properties
 
