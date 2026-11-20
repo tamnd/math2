@@ -36,7 +36,7 @@ is well defined, and it is a linear [[isomorphism|0XSJ25Z9M4]] of [[quotient spa
 ### Consequences
 
 - In finite dimension, both sides have dimension $\dim V - \dim U$, by the [[dimension of a quotient|0SXDQ6TN00]].
-- The subspaces of $V / W$ are exactly the spaces $U / W$ with $W \subseteq U \subseteq V$, by the [[correspondence theorem|~8f7f6587]].
+- The subspaces of $V / W$ are exactly the spaces $U / W$ with $W \subseteq U \subseteq V$, by the [[correspondence theorem|GCHY414Y11]].
 - Quotients can be taken in stages: dividing by $W$ and then by the image of $U$ is the same as dividing by $U$ at once.
 
 ### Converse
@@ -59,7 +59,7 @@ The same theorem holds for groups, rings and modules.
 
 ### L2 human
 
-Let $W$ be the $z$-axis and $U$ the $yz$-plane in $\R^3$, as in [[the example of a chain of subspaces|~eea7628d]].
+Let $W$ be the $z$-axis and $U$ the $yz$-plane in $\R^3$, as in [[the example of a chain of subspaces|BBQGT4RJKX]].
 
 1. $V / W \cong \R^2$ through $(x, y, z) + W \mapsto (x, y)$.
 2. Under this isomorphism, $U / W$ becomes the line $\{(0, y)\}$ in $\R^2$.

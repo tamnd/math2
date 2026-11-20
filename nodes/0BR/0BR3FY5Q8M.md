@@ -44,24 +44,24 @@ Mathlib writes `V ⧸ U` with the special slash `⧸`, and `Submodule.mkQ U` for
 
 ### Examples
 
-- [[The plane modulo a line|~c6553dec]]: $\R^2 / \R(1, 1)$ is the set of lines $x - y = c$, and it is isomorphic to $\R$.
-- [[Polynomials modulo multiples of x²|~86678d6f]]: $\R[x] / x^2 \R[x]$ has the basis $1 + U$, $x + U$, so it has dimension $2$.
+- [[The plane modulo a line|PEPJFPPRDK]]: $\R^2 / \R(1, 1)$ is the set of lines $x - y = c$, and it is isomorphic to $\R$.
+- [[Polynomials modulo multiples of x²|PHA4SATHWE]]: $\R[x] / x^2 \R[x]$ has the basis $1 + U$, $x + U$, so it has dimension $2$.
 - $V / \{0\}$ is isomorphic to $V$, and $V / V$ is the zero space.
-- If $V = U \oplus W$, then $V / U \cong W$, by the [[theorem on complements and quotients|~7fe638c8]].
+- If $V = U \oplus W$, then $V / U \cong W$, by the [[theorem on complements and quotients|244KTXDJHW]].
 - Functions modulo constants: on the space of differentiable functions, the derivative $f \mapsto f'$ factors through the quotient by the constant functions.
 
 ### Non-examples
 
-- [[A quotient by a line not through the origin|~6118285a]] is not defined: the rule "$u \sim v$ when $u - v \in S$" is not an equivalence relation when $S$ is not a subspace.
+- [[A quotient by a line not through the origin|E3MQ50YQNR]] is not defined: the rule "$u \sim v$ when $u - v \in S$" is not an equivalence relation when $S$ is not a subspace.
 - A coset $v + U$ with $v \notin U$ is not a subspace of $V$, since it does not contain $0$. The elements of $V / U$ are cosets, and $V / U$ is not a subspace of $V$.
 
 ### Basic properties
 
-- The [[operations on cosets are well defined|~1aa01a37]], $V / U$ is a vector space with zero $0 + U = U$, and the quotient map is linear and surjective with kernel $U$.
+- The [[operations on cosets are well defined|YYH67TQ9GV]], $V / U$ is a vector space with zero $0 + U = U$, and the quotient map is linear and surjective with kernel $U$.
 - The [[dimension of a quotient|0SXDQ6TN00]]: if $V$ is finite-dimensional, then $\dim(V / U) = \dim V - \dim U$.
 - The [[universal property|0ZERJX6PH6]]: a linear map $f \colon V \to X$ with $U \subseteq \ker f$ factors uniquely as $f = \bar f \circ \pi$.
 - The [[isomorphism theorems|0MTBGVZ4XJ]]: $V / \ker f \cong \operatorname{im} f$, $(U + W)/W \cong U / (U \cap W)$, and $(V / W)/(U / W) \cong V / U$.
-- The subspaces of $V / U$ correspond to the subspaces of $V$ that contain $U$, by the [[correspondence theorem|~8f7f6587]].
+- The subspaces of $V / U$ correspond to the subspaces of $V$ that contain $U$, by the [[correspondence theorem|GCHY414Y11]].
 
 ### History
 

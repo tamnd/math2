@@ -47,25 +47,25 @@ The external direct sum is `DirectSum` in Mathlib.
 
 ### Examples
 
-- [[The plane as the direct sum of two lines|~66f2bc91]]: $\R^2 = F(1, 0) \oplus F(1, 2)$, and the two lines need not be perpendicular.
-- [[Even and odd functions|~074a2fec]]: each function $\R \to \R$ is a unique sum of an even and an odd function.
+- [[The plane as the direct sum of two lines|TBP8ZNSCGQ]]: $\R^2 = F(1, 0) \oplus F(1, 2)$, and the two lines need not be perpendicular.
+- [[Even and odd functions|YK0X90WB6H]]: each function $\R \to \R$ is a unique sum of an even and an odd function.
 - $\R^3$ is the direct sum of the $xy$-plane and the $z$-axis, since $(x, y, z) = (x, y, 0) + (0, 0, z)$ and the two meet only in $0$.
 - Each square matrix over $\R$ is a unique sum of a symmetric and a skew-symmetric matrix, by the [[decomposition into symmetric and skew-symmetric parts|K284W6D15Z]].
 - If $b_1, \dots, b_n$ is a [[basis|0KCQ9Y3QKA]] of $V$, then $V = F b_1 \oplus \cdots \oplus F b_n$, because coordinates are unique.
 
 ### Non-examples
 
-- [[Three lines in the plane|~7846d01c]] that meet pairwise only in $0$ do not form a direct sum: the condition of unique expression fails.
+- [[Three lines in the plane|FRMQ1JB4RB]] that meet pairwise only in $0$ do not form a direct sum: the condition of unique expression fails.
 - The $xy$-plane and the $yz$-plane of $\R^3$ have sum $\R^3$, but they meet in the $y$-axis, so the condition $U \cap W = \{0\}$ fails.
-- [[The $x$-axis and the $y$-axis in $\R^3$|~d559e535]] meet only in $0$, but their sum is a plane, so they are not a direct sum decomposition of $\R^3$.
+- [[The $x$-axis and the $y$-axis in $\R^3$|PAJHW0002P]] meet only in $0$, but their sum is a plane, so they are not a direct sum decomposition of $\R^3$.
 
 ### Basic properties
 
-- The [[criteria for a direct sum of two subspaces|~26635bdc]]: $U + W$ is direct if and only if $U \cap W = \{0\}$, if and only if $0 = u + w$ forces $u = w = 0$.
-- The [[dimension criterion|~daf08520]]: for finite-dimensional $V$, we have $V = U \oplus W$ if and only if $U \cap W = \{0\}$ and $\dim U + \dim W = \dim V$.
-- The [[criterion for several subspaces|~550a8327]]: $U_1 + \cdots + U_k$ is direct if and only if each $U_i$ meets $U_1 + \cdots + U_{i-1}$ only in $0$.
+- The [[criteria for a direct sum of two subspaces|20A0K3KBZD]]: $U + W$ is direct if and only if $U \cap W = \{0\}$, if and only if $0 = u + w$ forces $u = w = 0$.
+- The [[dimension criterion|P4JG9DJ2HH]]: for finite-dimensional $V$, we have $V = U \oplus W$ if and only if $U \cap W = \{0\}$ and $\dim U + \dim W = \dim V$.
+- The [[criterion for several subspaces|FVKY28HHBC]]: $U_1 + \cdots + U_k$ is direct if and only if each $U_i$ meets $U_1 + \cdots + U_{i-1}$ only in $0$.
 - If $V = U \oplus W$, then $W$ is a [[complement|0M83V17KHX]] of $U$, and each complement of $U$ is isomorphic to $V / U$.
-- The decompositions $V = U \oplus W$ correspond exactly to the [[projections|033DA1WE8Y]] on $V$, by the [[theorem on projections and decompositions|~d025ab24]].
+- The decompositions $V = U \oplus W$ correspond exactly to the [[projections|033DA1WE8Y]] on $V$, by the [[theorem on projections and decompositions|2ZX5Q7V4VN]].
 
 ### History
 
@@ -95,7 +95,7 @@ We check that $\R^3 = U \oplus W$ for the plane $U = \{(x, y, z) : z = 0\}$ and 
 1. $U$ and $W$ are subspaces: $U$ is the kernel of $(x, y, z) \mapsto z$, and $W$ is a span.
 2. $U \cap W = \{0\}$: a vector $t(1, 1, 1)$ lies in $U$ only when $t = 0$.
 3. $\dim U + \dim W = 2 + 1 = 3 = \dim \R^3$.
-4. By the [[dimension criterion|~daf08520]], $\R^3 = U \oplus W$.
+4. By the [[dimension criterion|P4JG9DJ2HH]], $\R^3 = U \oplus W$.
 5. Explicitly, $(x, y, z) = (x - z, y - z, 0) + z(1, 1, 1)$.
 
 A direct sum is used to split a problem into smaller ones.

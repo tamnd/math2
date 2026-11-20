@@ -1,0 +1,82 @@
+---
+tag: YYH67TQ9GV
+kind: statement
+role: proposition
+name: The quotient space is a vector space
+msc: ["15A03"]
+topics: [QHKTJ89V6S]
+audience: ug1
+about: [0BR3FY5Q8M]
+uses: [0SVR29SV1V, 0J0SK5FF4M, 0EPTJA5QV4, 05EGHEQZAW, 02YFME3RGW]
+formal:
+  - system: lean4
+    library: mathlib
+    decl: Submodule.Quotient.eq
+    match: partial
+  - system: lean4
+    library: mathlib
+    decl: Submodule.ker_mkQ
+    match: partial
+sources:
+  - url: https://en.wikipedia.org/wiki/Quotient_space_(linear_algebra)
+    locator: Definition
+  - book: isbn:9783031410253
+    locator: Section 3E
+---
+
+## Statement
+
+Let $V$ be a vector space over a field $F$ and let $U$ be a [[subspace|0EPTJA5QV4]] of $V$.
+
+1. For $v, w \in V$, the cosets $v + U$ and $w + U$ are equal if and only if $v - w \in U$. Two distinct cosets are disjoint, and every vector lies in its own coset.
+2. The addition $(v + U) + (w + U) = (v + w) + U$ and the scalar multiplication $a(v + U) = av + U$ on the [[quotient space|0SVR29SV1V]] $V / U$ are well defined: they do not depend on the choice of representatives.
+3. With these operations, $V / U$ is a [[vector space|05EGHEQZAW]] over $F$, with zero vector $0 + U = U$ and $-(v + U) = (-v) + U$.
+4. The [[quotient map|0J0SK5FF4M]] $\pi \colon V \to V / U$, $\pi(v) = v + U$, is linear and surjective, and its [[kernel|02YFME3RGW]] is $U$.
+
+## Remarks
+
+### Why each hypothesis is needed
+
+- $U$ must contain $0$ for part 1. Otherwise $v$ need not lie in $v + U$, and the relation $v - w \in U$ is not reflexive.
+- $U$ must be closed under addition for part 2. In $\R$ with $S = \Z \cup \sqrt2 \Z$, the vectors $1$ and $\sqrt2$ are related to $0$, but $1 + \sqrt 2$ is not, so addition of classes fails.
+- $U$ must be closed under scalars for part 2. In $\R$ with $S = \Z$, we have $1 \sim 0$, but $\tfrac12 \cdot 1 - \tfrac12 \cdot 0 = \tfrac12 \notin \Z$, so scalar multiplication of classes fails.
+- These failures are collected in the [[non-example of an affine line|E3MQ50YQNR]].
+
+### Consequences
+
+- Every subspace $U$ is the kernel of a linear map, namely $\pi$.
+- To define a linear map on $V / U$, it is enough to define a linear map on $V$ that vanishes on $U$, by the [[universal property|0ZERJX6PH6]].
+- A linear map $g$ on $V / U$ is determined by $g \circ \pi$, since $\pi$ is surjective.
+
+### Converse
+
+If $S$ is a subset of $V$ such that $u - v \in S$ is an equivalence relation compatible with the operations, then $S$ is a subspace.
+Indeed, $S$ is the class of $0$, and compatibility makes this class closed under the operations.
+
+## History
+
+The construction of quotients by checking that operations on classes are well defined goes back to Gauss's congruences of 1801 and to Dedekind's quotient rings.
+For vector spaces it is standard in the abstract treatments that followed Noether and van der Waerden.
+
+## Explanations
+
+### L1 human
+
+We want to compute with cosets by computing with any vector inside them.
+This works because changing the chosen vector by something in $U$ changes the answer only by something in $U$.
+
+### L2 human
+
+Let $U = \R(1, 1)$ in $\R^2$.
+
+1. $(2, 0) + U = (3, 1) + U$, since $(3, 1) - (2, 0) = (1, 1) \in U$.
+2. Add $(0, 1) + U$ to both: $(2, 1) + U$ and $(3, 2) + U$. These agree, since the difference is $(1, 1)$.
+3. Multiply both by $5$: $(10, 0) + U$ and $(15, 5) + U$. These agree, since the difference is $(5, 5) \in U$.
+
+The trap is to define a map such as $(x, y) + U \mapsto x$, which gives $2$ and $3$ on the same coset, so it is not well defined.
+
+### L3 human
+
+The statement says that the congruence $v \equiv w \pmod U$ is a congruence relation of the vector space structure.
+In universal algebra, quotients of an algebra correspond to its congruences, and for vector spaces and modules the congruences correspond to the subspaces through the class of $0$.
+Mathlib builds `V ⧸ U` as a quotient type and proves that `Submodule.mkQ U` is linear with kernel `U`.

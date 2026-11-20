@@ -27,8 +27,8 @@ It covers internal and external direct sums, products of spaces, complements, pr
 10. [[First isomorphism theorem for vector spaces|0MTBGVZ4XJ]]: $V / \ker T \cong \operatorname{im} T$.
 11. [[Second isomorphism theorem for vector spaces|0APN65D6Y6]]: $(U + W) / W \cong U / (U \cap W)$, and the Grassmann formula.
 12. [[Third isomorphism theorem for vector spaces|07RB3EMBWW]]: $(V / U) / (W / U) \cong V / W$, and the correspondence of subspaces.
-13. [[Codimension of a subspace|~ccb24df5]]: $\dim V / U$, which makes sense in infinite dimension, and its behaviour under intersection.
-14. [[Exact sequence of vector spaces|~0aaa706f]]: short exact sequences, their splitting, and the alternating sum of dimensions.
+13. [[Codimension of a subspace|JJCGJ1EGCQ]]: $\dim V / U$, which makes sense in infinite dimension, and its behaviour under intersection.
+14. [[Exact sequence of vector spaces|946YAZNYKX]]: short exact sequences, their splitting, and the alternating sum of dimensions.
 
 ### Prerequisites
 

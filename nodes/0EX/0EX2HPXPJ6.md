@@ -28,7 +28,7 @@ For finitely many spaces the product equals the [[external direct sum|0S7W6EG32V
 
 Many spaces in analysis are spaces of all sequences or all functions, such as $\R^{\N}$ or the space of all functions $[0, 1] \to \R$.
 These are products of copies of $\R$, one copy for each index.
-The product is also the natural target of a family of maps: maps $X \to V_i$ for all $i$ combine into one map $X \to \prod_i V_i$, by the [[universal property|~252e7378]].
+The product is also the natural target of a family of maps: maps $X \to V_i$ for all $i$ combine into one map $X \to \prod_i V_i$, by the [[universal property|YT3GZ6YCAH]].
 So the product is the place where we record several pieces of information at once.
 
 ## Notation
@@ -43,21 +43,21 @@ Mathlib writes `(i : ι) → V i` for the product, with the vector space structu
 
 ### Examples
 
-- [[R² × R³|~97da2c70]] is a product of dimension $5$, isomorphic to $\R^5$.
+- [[R² × R³|QW80919JXK]] is a product of dimension $5$, isomorphic to $\R^5$.
 - The space $\R^{\N}$ of all real sequences is the product of countably many copies of $\R$.
 - The space of all functions $S \to F$ on a set $S$ is the product $F^S$.
 - The space of formal power series $F[[x]]$ is isomorphic to $F^{\N}$ through the coefficients.
 
 ### Non-examples
 
-- [[The product of countably many lines is not their direct sum|~7439fe10]]: the sequence $(1, 1, 1, \dots)$ lies in $\R^{\N}$ but not in $\R^{(\N)}$.
+- [[The product of countably many lines is not their direct sum|6DEMNQEGG8]]: the sequence $(1, 1, 1, \dots)$ lies in $\R^{\N}$ but not in $\R^{(\N)}$.
 - A real vector space and a complex vector space have no product as vector spaces, until we view the complex space as a real space. The factors must share one field.
 
 ### Basic properties
 
 - The [[dimension of a direct product|06HN47VPTH]]: $\dim(V \times W) = \dim V + \dim W$.
 - The projections $\pi_j$ are linear and surjective.
-- The [[universal property|~252e7378]]: linear maps $g_i \colon X \to V_i$ come from exactly one linear map $g \colon X \to \prod_i V_i$ with $\pi_i \circ g = g_i$, namely $g(x) = (g_i(x))_i$. The product is the [[categorical product|S5744QZV4N]] of vector spaces.
+- The [[universal property|YT3GZ6YCAH]]: linear maps $g_i \colon X \to V_i$ come from exactly one linear map $g \colon X \to \prod_i V_i$ with $\pi_i \circ g = g_i$, namely $g(x) = (g_i(x))_i$. The product is the [[categorical product|S5744QZV4N]] of vector spaces.
 - The external direct sum $\bigoplus_i V_i$ is the subspace of the product made of the families with finite support.
 
 ### History

@@ -33,7 +33,7 @@ If $V$ is finite-dimensional, then every complement $W$ satisfies $\dim W = \dim
 
 ### Why each hypothesis is needed
 
-- $F$ must be a field. Over the ring $\Z$, the submodule $2\Z$ of $\Z$ [[has no complement|~16a41b18]]. The proofs divide by a nonzero scalar, which needs a field.
+- $F$ must be a field. Over the ring $\Z$, the submodule $2\Z$ of $\Z$ [[has no complement|XK7YECSHR9]]. The proofs divide by a nonzero scalar, which needs a field.
 - $U$ must be a subspace. A subset that is not a subspace, such as a line not through $0$, cannot be one of the summands of a direct sum.
 - No finite-dimensionality is needed for existence. In infinite dimension, the proof uses Zorn's lemma, and it cannot be done without some form of the axiom of choice.
 
@@ -41,13 +41,13 @@ If $V$ is finite-dimensional, then every complement $W$ satisfies $\dim W = \dim
 
 - Every subspace is the [[image of a projection|033DA1WE8Y]]: take the projection onto $U$ along a complement.
 - Every linear map $g \colon U \to X$ extends to a linear map $V \to X$: set it equal to $0$ on a complement.
-- Every injective linear map $f \colon U \to V$ has a left inverse, and every surjective linear map has a right inverse. So every [[short exact sequence|~5d243d10]] of vector spaces splits.
-- Every quotient $V / U$ is isomorphic to a subspace of $V$, namely to any complement, by the [[theorem on complements and quotients|~7fe638c8]].
+- Every injective linear map $f \colon U \to V$ has a left inverse, and every surjective linear map has a right inverse. So every [[short exact sequence|1GYTT98CC5]] of vector spaces splits.
+- Every quotient $V / U$ is isomorphic to a subspace of $V$, namely to any complement, by the [[theorem on complements and quotients|244KTXDJHW]].
 
 ### Converse
 
 The complement is unique only when $U = \{0\}$ or $U = V$.
-In the other cases, over an infinite field, there are infinitely many complements, as for [[the x-axis in the plane|~1703fda9]].
+In the other cases, over an infinite field, there are infinitely many complements, as for [[the x-axis in the plane|S8TRB7953Y]].
 
 ### Generalizations
 
@@ -76,7 +76,7 @@ The [[proof by extending a basis|K653S85P27]] is a recipe.
 
 1. Take $U = \{(x, y, z) : x + y + z = 0\}$ in $\R^3$, with basis $(1, -1, 0)$ and $(0, 1, -1)$.
 2. Add $e_1 = (1, 0, 0)$. The three vectors are independent, so they form a basis of $\R^3$.
-3. Then $W = \R e_1$ is a complement, as worked out in [[the example of a plane in R³|~09539e17]].
+3. Then $W = \R e_1$ is a complement, as worked out in [[the example of a plane in R³|DVP2D04EZD]].
 
 The trap is to look for "the" complement: the line $\R(1, 1, 1)$ is another one.
 
@@ -84,6 +84,6 @@ The trap is to look for "the" complement: the line $\R(1, 1, 1)$ is another one.
 
 There are two standard proofs.
 The [[first proof|K653S85P27]] extends a basis of $U$ to a basis of $V$, which in infinite dimension rests on Zorn's lemma.
-The [[second proof|~b831b6bc]] applies Zorn's lemma directly to the subspaces that meet $U$ only in $0$.
+The [[second proof|P9V296DEAX]] applies Zorn's lemma directly to the subspaces that meet $U$ only in $0$.
 The statement says that the lattice of subspaces is complemented, and together with modularity this makes it a projective geometry.
 In category theory, it says that every object of the category of vector spaces is injective and projective.

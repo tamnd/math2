@@ -32,14 +32,14 @@ Equivalently, $\dim(V / W) = \dim V - \dim W$.
 
 ### Why each hypothesis is needed
 
-- $V$ must be finite-dimensional for the form $\dim V - \dim W$. For $V = \R[x]$, the subspaces $x^2 \R[x]$ and $V$ itself both have countably infinite dimension, but the quotients have dimensions $2$ and $0$, see [[polynomials modulo x²|~86678d6f]]. So $\dim V$ and $\dim W$ do not determine $\dim(V / W)$.
-- $W$ must be a subspace, since otherwise $V / W$ is not defined, as for [[a line that misses the origin|~6118285a]].
+- $V$ must be finite-dimensional for the form $\dim V - \dim W$. For $V = \R[x]$, the subspaces $x^2 \R[x]$ and $V$ itself both have countably infinite dimension, but the quotients have dimensions $2$ and $0$, see [[polynomials modulo x²|PHA4SATHWE]]. So $\dim V$ and $\dim W$ do not determine $\dim(V / W)$.
+- $W$ must be a subspace, since otherwise $V / W$ is not defined, as for [[a line that misses the origin|E3MQ50YQNR]].
 - With dimensions as cardinal numbers, the sum form $\dim(V / W) + \dim W = \dim V$ still holds in infinite dimension, since $V \cong W \oplus V / W$.
 
 ### Consequences
 
-- The number $\dim(V / W)$ is the [[codimension|~ccb24df5]] of $W$ in $V$. In finite dimension it equals $\dim V - \dim W$.
-- Every complement of $W$ has dimension $\dim V - \dim W$, since it is [[isomorphic to the quotient|~7fe638c8]].
+- The number $\dim(V / W)$ is the [[codimension|JJCGJ1EGCQ]] of $W$ in $V$. In finite dimension it equals $\dim V - \dim W$.
+- Every complement of $W$ has dimension $\dim V - \dim W$, since it is [[isomorphic to the quotient|244KTXDJHW]].
 - With the [[first isomorphism theorem|0MTBGVZ4XJ]], the formula gives the rank-nullity theorem: $\dim V - \dim \ker f = \dim(V / \ker f) = \dim \operatorname{im} f$.
 - With the [[second isomorphism theorem|0APN65D6Y6]], it gives the [[Grassmann formula|06HTJNCMPA]] for $\dim(U + W)$.
 - $W = V$ if and only if $\dim W = \dim V$, since $V / W = 0$ exactly when $W = V$.
@@ -69,12 +69,12 @@ Let $V = \R^4$ and $W$ the span of $(1, 0, 1, 0)$ and $(0, 1, 0, 1)$.
 1. The two vectors are independent, so $\dim W = 2$.
 2. The theorem gives $\dim(\R^4 / W) = 4 - 2 = 2$.
 3. The [[proof|6JGF4G3QRC]] finds a basis: extend the basis of $W$ by $e_1$ and $e_2$, and take $e_1 + W$, $e_2 + W$.
-4. The worked computation is in [[a quotient of R⁴|~737e4bcc]].
+4. The worked computation is in [[a quotient of R⁴|CX9P5CZF5N]].
 
 The trap is to use the formula in infinite dimension, where $\infty - \infty$ has no meaning.
 
 ### L3 human
 
 The formula says that dimension is additive on short exact sequences $0 \to W \to V \to V / W \to 0$.
-This makes the dimension an Euler characteristic on finite-dimensional spaces, and the [[alternating sum formula|~78f0e572]] for exact sequences follows.
+This makes the dimension an Euler characteristic on finite-dimensional spaces, and the [[alternating sum formula|EFBRMNWDQM]] for exact sequences follows.
 For modules over a ring, the length of a module of finite length is additive in the same way.

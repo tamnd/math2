@@ -39,7 +39,7 @@ An endomorphism with this property is also called *idempotent*.
 
 If $P$ is a projection, then $V = \operatorname{im} P \oplus \ker P$, and $P$ acts as the identity on $\operatorname{im} P$.
 Conversely, $P_{U, W}$ is a projection with image $U$ and kernel $W$.
-These two constructions are inverse to each other, by the [[theorem on projections and decompositions|~d025ab24]].
+These two constructions are inverse to each other, by the [[theorem on projections and decompositions|2ZX5Q7V4VN]].
 If $P$ is a projection, then $I - P$ is the projection with image $\ker P$ and kernel $\operatorname{im} P$.
 In an inner product space, an [[orthogonal projection|0B8KZRT28M]] is a projection whose kernel is orthogonal to its image.
 

@@ -32,8 +32,8 @@ Some books reserve $\oplus$ for this internal notion, and other books reserve it
 
 The definition asks for two things: every vector has an expression (the sum is $V$), and the expression is unique (the sum is direct).
 Uniqueness can be tested on the zero vector alone: the sum is direct if and only if $u_1 + \cdots + u_k = 0$ with $u_i \in U_i$ forces each $u_i = 0$.
-For two subspaces, this test becomes $U \cap W = \{0\}$, by the [[criteria for a direct sum of two subspaces|~26635bdc]].
-For three or more subspaces, pairwise zero intersections are not enough, as [[three lines in the plane|~7846d01c]] show.
+For two subspaces, this test becomes $U \cap W = \{0\}$, by the [[criteria for a direct sum of two subspaces|20A0K3KBZD]].
+For three or more subspaces, pairwise zero intersections are not enough, as [[three lines in the plane|FRMQ1JB4RB]] show.
 
 ## Explanations
 

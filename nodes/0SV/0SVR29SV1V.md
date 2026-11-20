@@ -34,7 +34,7 @@ The coset $v + U$ is also written $[v]$ or $\bar v$.
 
 ## Remarks
 
-The operations are well defined, because $U$ is a subspace: the result does not depend on the choice of $v$ and $w$ in their cosets, see the [[proposition on cosets|~1aa01a37]].
+The operations are well defined, because $U$ is a subspace: the result does not depend on the choice of $v$ and $w$ in their cosets, see the [[proposition on cosets|YYH67TQ9GV]].
 Two cosets $v + U$ and $w + U$ are equal if and only if $v - w \in U$.
 The zero vector of $V / U$ is the coset $0 + U = U$.
 In $\R^2$ with $U$ the $x$-axis, the cosets are the horizontal lines, and $V / U$ is isomorphic to $\R$.
