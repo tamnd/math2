@@ -2,12 +2,16 @@
 tag: BRFPQM1MMW
 kind: proof
 name: Proof that the minimal polynomial divides every annihilating polynomial
-msc: [15A18]
+msc: ["15A18"]
+topics: [6R1D6QPY3S]
+audience: ug2
 proves: 0VTAD25A3G
+methods: [0NTF6DMVAP, 0J0XBKG64S]
 uses: [0V58FPM3EQ, 052M4SX57M, 0BNEXSKNRV, 0MES3KS0ZC, 0BDX4MBKT4]
 sources:
   - url: https://kconrad.math.uconn.edu/blurbs/linmultialg/minpolyandappns.pdf
     locator: Theorem 4.4
+  - book: isbn:9780135367971
 ---
 
 ## Proof
@@ -21,7 +25,14 @@ We divide with remainder and use the minimality of the degree.
 5. Since $p(T) = 0$ and $m_T(T) = 0$, step 4 gives $r(T) = 0$.
 6. If $r \ne 0$, then $r$ would be a nonzero annihilating polynomial with $\deg r < \deg m_T$. This contradicts step 1.
 7. Hence $r = 0$ and $p = q m_T$. So $m_T$ divides $p$.
+8. Conversely, if $p = q m_T$, then $p(T) = q(T) m_T(T) = q(T) \circ 0 = 0$, by step 4. So $p$ annihilates $T$.
 
 ## Idea
 
-Divide $p$ by $m_T$. The remainder still kills $T$, but it has smaller degree than $m_T$. The minimal polynomial has the least degree among nonzero annihilating polynomials, so the remainder must be zero.
+Divide $p$ by $m_T$.
+The remainder still kills $T$, but it has smaller degree than $m_T$.
+The minimal polynomial has the least degree among nonzero annihilating polynomials, so the remainder must be zero.
+
+## Variants
+
+- In the language of ideals: the annihilating polynomials form an ideal of the principal ideal domain $F[x]$, and $m_T$ is its monic generator. See the theorem on [[annihilating polynomials|~540651d7]].

@@ -3,7 +3,9 @@ tag: 0TYMASG33Y
 kind: statement
 role: proposition
 name: Characteristic polynomial does not depend on the basis
-msc: [15A15, 15A18]
+msc: ["15A15", "15A18"]
+topics: [6R1D6QPY3S]
+audience: ug1
 uses: [039HF58KQ5, 027KDW2K72]
 sources:
   - url: https://en.wikipedia.org/wiki/Characteristic_polynomial
