@@ -2,8 +2,11 @@
 tag: VGRDQ0QJN0
 kind: proof
 name: Proof that the determinant is multilinear in the rows
-msc: [15A15]
+msc: ["15A15"]
+topics: [DTBK11SR77]
+audience: ug1
 proves: 0PPG793642
+methods: [41JZ39GE3F]
 uses: [0C3CFHDN6R, 0443XNARDV]
 sources:
   - url: https://en.wikipedia.org/wiki/Determinant
@@ -21,4 +24,11 @@ sources:
 
 ## Idea
 
-This is property 1 of the definition, unpacked. Multilinear means linear in each row when the other rows are held fixed. The three matrices share all rows except row $i$, so linearity in row $i$ is exactly the claim.
+This is property 1 of the definition, unpacked.
+Multilinear means linear in each row when the other rows are held fixed.
+The three matrices share all rows except row $i$, so linearity in row $i$ is exactly the claim.
+
+## Variants
+
+With the Leibniz sum as the definition, each product $\prod_k a_{k \sigma(k)}$ contains exactly one entry of row $i$, so each term is linear in row $i$, and so is the sum.
+This is step 1 to 3 of the proof of the [[existence and uniqueness theorem|1C8RRWHD45]].

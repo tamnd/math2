@@ -2,7 +2,9 @@
 tag: 0W2QAVJQ1W
 kind: definition
 name: Cofactor
-msc: [15A15]
+msc: ["15A15"]
+topics: [DTBK11SR77]
+audience: ug1
 defines: 0XPKR18APA
 uses: [0SD528P0EK]
 sources:
@@ -15,13 +17,15 @@ sources:
 Let $K$ be a commutative ring and let $A$ be an $n \times n$ matrix over $K$, with $n \ge 2$.
 The *cofactor* of $A$ in position $(i, j)$ is
 $$C_{ij} = (-1)^{i+j} M_{ij},$$
-where $M_{ij}$ is a first [[minor|0BT9BYWVRY]] of $A$. It is the minor that results when row $i$ and column $j$ are deleted.
+where $M_{ij}$ is the first [[minor|0SD528P0EK]] of $A$ that deletes row $i$ and column $j$.
+The *cofactor matrix* of $A$ is the $n \times n$ matrix $(C_{ij})$.
+For $n = 1$ one sets $C_{11} = 1$, the determinant of the empty matrix.
 
 ## Remarks
 
 The signs $(-1)^{i+j}$ form a checkerboard pattern, with $+$ in the top left corner.
 The cofactors give the [[Laplace expansion|0C08BQ3M05]] of the determinant.
-The transpose of the matrix of cofactors is the [[adjugate matrix|07W9H8QF38]].
+The transpose of the cofactor matrix is the [[adjugate matrix|07W9H8QF38]].
 
 ## Explanations
 

@@ -3,7 +3,9 @@ tag: 009CY8JXFX
 kind: statement
 role: proposition
 name: Scaling a row scales the determinant
-msc: [15A15]
+msc: ["15A15"]
+topics: [DTBK11SR77]
+audience: ug1
 uses: [0C3CFHDN6R]
 sources:
   - url: https://en.wikipedia.org/wiki/Determinant

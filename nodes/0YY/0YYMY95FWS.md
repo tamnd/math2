@@ -2,9 +2,16 @@
 tag: 0YYMY95FWS
 kind: definition
 name: Matrix of a linear map
-msc: [15A04]
+msc: ["15A04"]
+topics: [S6559D61BP]
+audience: ug1
 defines: 0YQSGNYE3K
 uses: [0RJF668P1T, 0VTQTPQGAV, 0BMVBHTWV2]
+formal:
+  - system: lean4
+    library: mathlib
+    decl: LinearMap.toMatrix
+    match: exact
 sources:
   - url: https://en.wikipedia.org/wiki/Transformation_matrix
     locator: lead section
@@ -20,10 +27,10 @@ Equivalently, column $j$ of $[T]_{C,B}$ is the [[coordinate vector|04CYQHN6MC]] 
 
 ## Remarks
 
-For each $v \in V$, $[T(v)]_C = [T]_{C,B} [v]_B$.
-The map $T \mapsto [T]_{C,B}$ is a linear isomorphism $\Hom_F(V, W) \to M_{m \times n}(F)$.
+For each $v \in V$, $[T(v)]_C = [T]_{C,B} [v]_B$, by the [[coordinate formula|8B63KHW6D5]].
+The map $T \mapsto [T]_{C,B}$ is a linear isomorphism $\Hom_F(V, W) \to M_{m \times n}(F)$, by the [[theorem on linear maps and matrices|Q3EDKTZ6TA]].
 For the rotation of $\R^2$ by an angle $\theta$, in the standard basis, the matrix is $\begin{pmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{pmatrix}$.
-Mathlib writes this map as `LinearMap.toMatrix`.
+Mathlib writes this map as `LinearMap.toMatrix`, and the basis of the domain indexes the columns, as here.
 
 ## Explanations
 

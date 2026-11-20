@@ -2,8 +2,11 @@
 tag: NFCBC71T08
 kind: proof
 name: Proof of the determinant of a scalar multiple
-msc: [15A15]
+msc: ["15A15"]
+topics: [DTBK11SR77]
+audience: ug1
 proves: 01EXSMK864
+methods: [0NTF6DMVAP]
 uses: [09V6DDACXR, 009CY8JXFX]
 sources:
   - url: https://en.wikipedia.org/wiki/Determinant
@@ -21,4 +24,5 @@ sources:
 
 ## Idea
 
-Multiplying a matrix by $c$ multiplies each of its $n$ rows by $c$. Each row scaling brings out one factor $c$, so in total we get $c^n$.
+Multiplying a matrix by $c$ multiplies each of its $n$ rows by $c$.
+Each row scaling brings out one factor $c$, so in total we get $c^n$.

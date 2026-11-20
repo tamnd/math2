@@ -2,8 +2,11 @@
 tag: 3JJPXYGSB4
 kind: proof
 name: Proof of the Laplace expansion along a column by transposition
-msc: [15A15]
+msc: ["15A15"]
+topics: [DTBK11SR77]
+audience: ug1
 proves: 06AMCJMMVM
+methods: [0NTF6DMVAP]
 uses: [0C08BQ3M05, 0ZZQ2E1MTE, 0W809K6AW0, 0W2QAVJQ1W, 0SD528P0EK]
 sources:
   - url: https://en.wikipedia.org/wiki/Laplace_expansion
@@ -27,4 +30,9 @@ We apply the expansion along a row to the transpose of $A$.
 
 ## Idea
 
-Transposing turns columns into rows and does not change any determinant. So the expansion along column $j$ of $A$ is the expansion along row $j$ of $A^T$, with the same minors.
+Transposing turns columns into rows and does not change any determinant.
+So the expansion along column $j$ of $A$ is the expansion along row $j$ of $A^T$, with the same minors.
+
+## Variants
+
+The [[proof by multilinearity|97HQ4MPNBS]] can be run with columns in place of rows, using linearity of $\det$ in the columns.

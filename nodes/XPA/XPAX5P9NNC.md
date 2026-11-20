@@ -1,0 +1,47 @@
+---
+tag: XPAX5P9NNC
+kind: example
+name: The two quarter-turn rotations are similar
+msc: ["15A21"]
+topics: [S6559D61BP]
+audience: ug1
+instance_of: [0E89HQATM8]
+uses: [027KDW2K72, 0TWTS88TWN, 076JGP6R3T]
+sources:
+  - url: https://en.wikipedia.org/wiki/Matrix_similarity
+    locator: lead section
+---
+
+## Example
+
+Let
+$$R = \begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}, \qquad S = \begin{pmatrix} 0 & 1 \\ -1 & 0 \end{pmatrix}, \qquad P = \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}$$
+over $\R$.
+The matrix $R$ is the rotation by $90$ degrees counterclockwise, and $S$ is the rotation by $90$ degrees clockwise.
+
+1. $P^2 = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}$, so $P$ is [[invertible|0TWTS88TWN]] and $P^{-1} = P$.
+2. [[Product|076JGP6R3T]]: $RP = \begin{pmatrix} 0 \cdot 1 + (-1) \cdot 0 & 0 \cdot 0 + (-1)(-1) \\ 1 \cdot 1 + 0 \cdot 0 & 1 \cdot 0 + 0 \cdot (-1) \end{pmatrix} = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$.
+3. Product: $P^{-1}(RP) = \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix} \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix} = \begin{pmatrix} 0 & 1 \\ -1 & 0 \end{pmatrix} = S$.
+4. So $S = P^{-1} R P$, and $S$ is [[similar|027KDW2K72]] to $R$.
+5. Check the trace: $\operatorname{tr} R = 0 = \operatorname{tr} S$.
+6. Check the determinant: $\det R = 0 \cdot 0 - (-1) \cdot 1 = 1$ and $\det S = 0 \cdot 0 - 1 \cdot (-1) = 1$.
+7. Both characteristic polynomials are $x^2 + 1$. It has no real root, so neither matrix is similar to a real diagonal matrix.
+
+## Remarks
+
+- The matrix $P$ is the change of basis to $(e_1, -e_2)$. This basis has the opposite orientation, and in it a counterclockwise turn looks clockwise.
+- A rotation $Q$ cannot replace $P$. Rotations of the plane commute, so $Q^{-1} R Q = R \ne S$.
+- Over $\C$, both matrices are similar to $\operatorname{diag}(i, -i)$.
+
+## Explanations
+
+### L1 human
+
+The rotation by a quarter turn to the left looks like a quarter turn to the right in a mirror.
+The matrix $P$ is that mirror, the reflection in the horizontal axis.
+
+### L2 human
+
+Similar matrices can look different, here with signs exchanged.
+The trace $0$ and the determinant $1$ are the same, as they must be.
+Over $\R$, a $2 \times 2$ matrix with characteristic polynomial $x^2 + 1$ is similar to $R$, so $R$ and $S$ are in one class.

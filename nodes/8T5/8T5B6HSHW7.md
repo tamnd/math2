@@ -2,8 +2,11 @@
 tag: 8T5B6HSHW7
 kind: proof
 name: Proof that a matrix with a zero row has determinant zero
-msc: [15A15]
+msc: ["15A15"]
+topics: [DTBK11SR77]
+audience: ug1
 proves: 0FS6B46E5T
+methods: [0NTF6DMVAP]
 uses: [009CY8JXFX]
 sources:
   - url: https://en.wikipedia.org/wiki/Determinant
@@ -19,4 +22,5 @@ sources:
 
 ## Idea
 
-A zero row is unchanged when it is multiplied by $0$. Since the determinant is linear in that row, it must be multiplied by $0$ too.
+A zero row is unchanged when it is multiplied by $0$.
+Since the determinant is linear in that row, it must be multiplied by $0$ too.
