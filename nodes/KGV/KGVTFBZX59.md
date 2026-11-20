@@ -1,0 +1,101 @@
+---
+tag: KGVTFBZX59
+kind: concept
+name: An endomorphism as an F[x]-module
+aliases: [module-of-an-endomorphism, vector-space-as-a-module-over-polynomials]
+msc: ["15A21", "13C05"]
+topics: [GEBYZKYV3D]
+audience: grad
+uses: [0NZ8JA25WK, 0J7H0YBFDJ, 0E3MV6E6MG, 0SDC934R52, 000AYPA9AJ]
+sources:
+  - url: https://en.wikipedia.org/wiki/Structure_theorem_for_finitely_generated_modules_over_a_principal_ideal_domain
+    locator: Corollaries
+  - book: isbn:9780471433347
+    locator: Chapter 12
+---
+
+## Summary
+
+Let $V$ be a finite-dimensional [[vector space|000AYPA9AJ]] over a field $F$ and let $T \colon V \to V$ be an [[endomorphism|0J7H0YBFDJ]].
+The *$F[x]$-module of $T$*, written $V_T$, is the abelian group $V$ with the scalar multiplication $f \cdot v = f(T) v$ for $f$ in the [[polynomial ring|0SDC934R52]] $F[x]$ and $v \in V$.
+So $x$ acts as $T$, and the constants act as the usual scalars.
+For a square matrix $A \in M_n(F)$, $F^n_A$ is the module of the map $v \mapsto Av$.
+This turns the study of one linear map into the study of one [[module|0NZ8JA25WK]] over the principal ideal domain $F[x]$, where the structure theorem applies.
+
+## Motivation
+
+A linear map $T$ lets us multiply vectors by $T$, by $T^2$, and by every polynomial in $T$.
+These multiplications obey the rules of a module, with the ring $F[x]$ in place of the field $F$.
+The language of modules then says many things at once.
+An invariant subspace is a submodule, a cyclic subspace is a cyclic submodule, and the minimal polynomial generates the annihilator.
+The structure theorem for modules over a principal ideal domain then gives the canonical forms of $T$.
+
+## Notation
+
+Books write $V_T$, $V^T$, $V$ with "$F[x]$-module structure given by $T$", or $F[T]$-module $V$.
+For a matrix $A$, the notations $F^n_A$ and $M_A$ are common.
+Some books use $t$ or $\lambda$ for the variable instead of $x$.
+
+## Remarks
+
+### Examples
+
+- For the [[Jordan block $J_2(0)$|XZCSJCXK5C]], $F^2_{J_2(0)} \cong F[x]/(x^2)$.
+- For a [[scalar matrix $c I_n$|8ZDTMPFKJ8]], $F^n_{cI_n} \cong (F[x]/(x - c))^n$, and every subspace is a submodule.
+- For a [[companion matrix|0ZCWPNZTQ3]] $C(p)$, the module $F^n_{C(p)}$ is isomorphic to $F[x]/(p)$, a cyclic module.
+- For $T = 0$ on $V$, $V_T$ is $V$ with $x$ acting as $0$, so $V_T \cong (F[x]/(x))^{\dim V}$.
+- For the derivative $D$ on polynomials of degree at most $2$ over $\mathbb{Q}$, $V_D \cong \mathbb{Q}[x]/(x^3)$.
+
+### Non-examples
+
+- The [[module $F[x]$ itself|TTDW9TYCZ7]] is not of the form $V_T$ with $V$ finite-dimensional, since it is infinite-dimensional over $F$.
+- $\mathbb{Z}$ is a module over $\mathbb{Z}$, but it is not a module over $F[x]$ for any field $F$, since it is not a vector space.
+- A module over $F[x, y]$ with $V$ finite-dimensional is a pair of commuting endomorphisms, not a single one.
+
+### Basic properties
+
+- The [[submodules of $V_T$ are the $T$-invariant subspaces|R5X8SNHBGG]], and the $F[x]$-linear maps $V_T \to W_S$ are the linear maps $\varphi$ with $\varphi T = S \varphi$.
+- Two matrices $A, B \in M_n(F)$ are similar if and only if $F^n_A \cong F^n_B$.
+- $V_T$ is finitely generated and torsion: the [[minimal polynomial|03NDVCSHSB]] $m_T$ kills every vector.
+- The annihilator of $V_T$ is the ideal $(m_T)$, and the annihilator of $v$ is $(m_v)$, with $m_v$ the [[$T$-annihilator|42MMQBTP0M]].
+- The cyclic submodule $F[x] v$ is the cyclic subspace $Z(v; T)$.
+
+### History
+
+The module point of view on linear maps is the standard approach of modern algebra texts, for example Dummit and Foote in their chapter on modules over principal ideal domains.
+It derives the rational and Jordan canonical forms from the structure theorem for finitely generated modules over a principal ideal domain.
+
+### Common errors
+
+- Forgetting that the module depends on $T$: the same space $V$ gives different modules for different maps.
+- Confusing $\dim_F V_T$ with the number of generators of $V_T$ over $F[x]$: a cyclic $V_T$ has one generator but can have any dimension.
+- Thinking that $V_T$ is free over $F[x]$: it is torsion, since $m_T(T) = 0$.
+
+## Explanations
+
+### L1 human
+
+A linear map lets us "multiply" a vector by the map: apply the map to the vector.
+We can also apply the map twice, or take sums of such things.
+So a polynomial such as $x$ squared plus one can act on a vector: apply the map twice and add the vector.
+With this rule, the vectors behave like numbers that we can multiply by polynomials.
+This is the idea of a module over polynomials, and it makes the tools of algebra available for linear maps.
+
+### L2 human
+
+Let $A = \begin{pmatrix} 2 & 0 \\ 0 & 3 \end{pmatrix}$ on $\mathbb{Q}^2$.
+
+1. $(x^2 + 1) \cdot e_1 = (A^2 + I) e_1 = (4 + 1) e_1 = 5 e_1$.
+2. $(x - 2) \cdot e_1 = 0$ and $(x - 3) \cdot e_2 = 0$.
+3. So $\mathbb{Q} e_1$ and $\mathbb{Q} e_2$ are submodules, isomorphic to $\mathbb{Q}[x]/(x - 2)$ and $\mathbb{Q}[x]/(x - 3)$.
+4. Hence $\mathbb{Q}^2_A \cong \mathbb{Q}[x]/(x - 2) \oplus \mathbb{Q}[x]/(x - 3) \cong \mathbb{Q}[x]/((x - 2)(x - 3))$, by the Chinese remainder theorem.
+
+The typical use is to translate a question on similarity into a question on module isomorphism.
+The trap is to forget that a constant polynomial $c$ acts as $c$ times the identity, not as $0$.
+
+### L3 human
+
+The assignment $(V, T) \mapsto V_T$ is an equivalence between the category of finite-dimensional vector spaces with an endomorphism and the category of $F[x]$-modules of finite $F$-dimension.
+Under this equivalence, the [[cyclic decomposition theorem|R3Z20J19BR]] is the structure theorem for finitely generated torsion modules over the principal ideal domain $F[x]$, and similarity becomes isomorphism.
+The same idea with a group ring $F[G]$ in place of $F[x]$ is the start of representation theory.
+With $F[x, y]$ it describes pairs of commuting matrices, and for these no such simple classification exists.
