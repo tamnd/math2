@@ -52,14 +52,14 @@ The rules for adding and multiplying matrices come from these two uses.
 ### Examples
 
 - The [[matrix with entries 10i + j|D5H0JWNHNP]], $a_{ij} = 10i + j$, is $\begin{pmatrix} 11 & 12 & 13 \\ 21 & 22 & 23 \end{pmatrix}$, a $2 \times 3$ matrix.
-- A [[table of sales|~bd27cc08]] of 3 products in 2 shops is a $2 \times 3$ matrix.
+- A [[table of sales|N1N2FH8NR2]] of 3 products in 2 shops is a $2 \times 3$ matrix.
 - The [[coefficient matrix|0HQFZAP3ND]] of the system $x + 2y = 5$, $3x - y = 1$ is $\begin{pmatrix} 1 & 2 \\ 3 & -1 \end{pmatrix}$.
 - A column vector of $\mathbb{R}^3$ is a $3 \times 1$ matrix, and a row vector is a $1 \times 3$ matrix.
 - The [[zero matrix|0ZTKJJDGR7]] and the [[identity matrix|06DW9BAWB1]] are matrices of every size and of every square size.
 
 ### Non-examples
 
-- A [[ragged array|~53e75452]] whose rows have different lengths is not a matrix.
+- A [[ragged array|8F1WW3852E]] whose rows have different lengths is not a matrix.
 - A list of numbers with no row and column structure, such as $(1, 2, 3, 4)$, is not a $2 \times 2$ matrix until we choose an arrangement.
 - The determinant $\begin{vmatrix} 1 & 2 \\ 3 & 4 \end{vmatrix} = -2$ is a number, not a matrix.
 
@@ -69,7 +69,7 @@ The rules for adding and multiplying matrices come from these two uses.
 - So $\begin{pmatrix} 1 & 2 & 3 \end{pmatrix} \neq \begin{pmatrix} 1 \\ 2 \\ 3 \end{pmatrix}$, although the entries are the same.
 - Over a field $F$, the $m \times n$ matrices form a [[vector space|0RE6X3BGPN]] of dimension $mn$ under [[addition and scalar multiplication|0Y7H3SAVA1]].
 - An $m \times n$ matrix and an $n \times p$ matrix have a [[product|032Q9FB8MT]], which is $m \times p$.
-- The $n \times n$ matrices form the [[matrix ring|~de637a64]] $M_n(R)$.
+- The $n \times n$ matrices form the [[matrix ring|AB2MD5CD13]] $M_n(R)$.
 - Each matrix $A \in M_{m \times n}(F)$ gives the [[linear map|094V2VBJXJ]] $x \mapsto Ax$ from $F^n$ to $F^m$, and each linear map $F^n \to F^m$ comes from exactly one matrix.
 
 ### History

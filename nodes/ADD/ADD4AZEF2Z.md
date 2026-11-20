@@ -35,4 +35,4 @@ Commutativity of $R$ makes the two sums equal.
 ## Variants
 
 - Over a field, a proof by duality is possible. The matrix of a dual map is the transpose, and $(g \circ f)^* = f^* \circ g^*$; see [[this statement|0ZPB3180AY]].
-- A proof by matrix units checks the rule on $E_{ij} E_{kl} = \delta_{jk} E_{il}$ and extends it by bilinearity; see [[matrix units|~709aa34e]].
+- A proof by matrix units checks the rule on $E_{ij} E_{kl} = \delta_{jk} E_{il}$ and extends it by bilinearity; see [[matrix units|A4HTT7JFD1]].

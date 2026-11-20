@@ -19,7 +19,7 @@ same_as:
 
 Two [[square matrices|0JXZKX526R]] $A$ and $B$ of the same size commute when $AB = BA$; the [[formal definition|MX26N71ZD3]] states it.
 [[Matrix multiplication|032Q9FB8MT]] is [[not commutative|0P506SPZP2]] in general, so commuting pairs are special.
-For commuting matrices, the algebra of numbers works: the [[binomial theorem|~af4d44e0]] holds, and $e^{A + B} = e^{A} e^{B}$ by [[this theorem|04BD23PSK5]].
+For commuting matrices, the algebra of numbers works: the [[binomial theorem|DS9TS6AFMW]] holds, and $e^{A + B} = e^{A} e^{B}$ by [[this theorem|04BD23PSK5]].
 Over $\mathbb{C}$, commuting matrices have a common eigenvector.
 
 ## Motivation
@@ -38,15 +38,15 @@ In quantum mechanics, two observables can be measured together exactly when thei
 
 ### Examples
 
-- [[A polynomial in A commutes with A|~8d0e01aa]].
-- [[Two upper triangular 2 × 2 matrices that commute|~5ce7b775]].
+- [[A polynomial in A commutes with A|BSTF110SFK]].
+- [[Two upper triangular 2 × 2 matrices that commute|EVM25ZY7BV]].
 - Every matrix commutes with itself, with its powers, with $I$ and with every [[scalar matrix|067NKSBEWT]] $cI$.
 - Two [[diagonal matrices|0Q9PGXD9E4]] of the same size commute, because their products are computed entry by entry on the diagonal.
 
 ### Non-examples
 
 - [[The pair used to test the square formula|60W7PZXBVB]]: $\begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$ and $\begin{pmatrix} 1 & 0 \\ 1 & 1 \end{pmatrix}$ do not commute.
-- The [[matrix units|~709aa34e]] $E_{12}$ and $E_{21}$ do not commute: $E_{12} E_{21} = E_{11}$ and $E_{21} E_{12} = E_{22}$.
+- The [[matrix units|A4HTT7JFD1]] $E_{12}$ and $E_{21}$ do not commute: $E_{12} E_{21} = E_{11}$ and $E_{21} E_{12} = E_{22}$.
 
 ### Basic properties
 
@@ -54,8 +54,8 @@ Let $A$ be an $n \times n$ matrix over a field $F$.
 
 - Each polynomial $p(A) = c_0 I + c_1 A + \dots + c_k A^k$ commutes with $A$. The reason is $A \cdot A^j = A^{j + 1} = A^j \cdot A$ for each $j$.
 - The matrices that commute with $A$ form a subspace that is closed under products, the [[centraliser|02YYV36BFM]] of $A$.
-- The matrices that commute with every $n \times n$ matrix are the [[scalar matrices|~30ae7883]].
-- If $AB = BA$, then the [[binomial theorem|~af4d44e0]] gives $(A + B)^m = \sum_{k = 0}^{m} \binom{m}{k} A^k B^{m - k}$.
+- The matrices that commute with every $n \times n$ matrix are the [[scalar matrices|TX4J5JR205]].
+- If $AB = BA$, then the [[binomial theorem|DS9TS6AFMW]] gives $(A + B)^m = \sum_{k = 0}^{m} \binom{m}{k} A^k B^{m - k}$.
 - If $AB = BA$ and $A$ and $B$ are [[nilpotent|07BSPZPSMF]], then $A + B$ is nilpotent, by the binomial theorem.
 - Commuting is not transitive: $I$ commutes with every matrix, but not every two matrices commute.
 
@@ -86,7 +86,7 @@ The matrices $\begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$ and $\begin{pmatrix}
 
 The matrix $AB - BA$ measures the failure of $A$ and $B$ to commute.
 Its [[trace|07PTPSZPME]] is always $0$, by the [[cyclic property|0Y4NF1DRKD]].
-So no two matrices over $\mathbb{R}$ have $AB - BA = I$, by [[this theorem|~94d188c9]].
+So no two matrices over $\mathbb{R}$ have $AB - BA = I$, by [[this theorem|E2P5TNE0G9]].
 
 ### L3 human
 

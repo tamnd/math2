@@ -24,8 +24,8 @@ inventory: [HSZH6NG7SR]
 
 A nilpotent matrix is a [[square matrix|0JXZKX526R]] $N$ with $N^k = 0$ for some integer $k \ge 1$.
 The least such $k$ is the *index* of $N$; the [[formal definition|0419GJC84P]] states both.
-[[Strictly upper triangular matrices|~0f948644]] are nilpotent, and over a field every nilpotent matrix is similar to one of them.
-If $N$ is nilpotent, then $I - N$ is invertible with inverse $I + N + \cdots + N^{k-1}$, by the [[geometric series for nilpotent matrices|~9c73b141]].
+[[Strictly upper triangular matrices|AW5RBMW7RK]] are nilpotent, and over a field every nilpotent matrix is similar to one of them.
+If $N$ is nilpotent, then $I - N$ is invertible with inverse $I + N + \cdots + N^{k-1}$, by the [[geometric series for nilpotent matrices|N40XPYS89W]].
 
 ## Motivation
 
@@ -43,23 +43,23 @@ For nilpotent $N$, the exponential $e^{N} = I + N + \cdots + N^{k-1}/(k-1)!$ is 
 
 ### Examples
 
-- [[A nilpotent 2 × 2 matrix with no zero entries|~1cfd4aa0]].
-- [[A strictly upper triangular 3 × 3 matrix and its powers|~9021d76b]].
-- [[The matrix E₁₂, a nonzero matrix with zero square|~47ca595b]].
+- [[A nilpotent 2 × 2 matrix with no zero entries|YHCD6MTSV8]].
+- [[A strictly upper triangular 3 × 3 matrix and its powers|NRNV4AJJ0E]].
+- [[The matrix E₁₂, a nonzero matrix with zero square|DXX58EAKG3]].
 - The zero matrix is nilpotent of index $1$.
 
 ### Non-examples
 
-- [[Two matrices that look nilpotent but are not|~fe703052]]: an upper triangular matrix with $1$ on the diagonal, and a matrix with zero diagonal and nonzero square.
+- [[Two matrices that look nilpotent but are not|EA0YN4H604]]: an upper triangular matrix with $1$ on the diagonal, and a matrix with zero diagonal and nonzero square.
 - An [[invertible matrix|0EB9N0S33C]] is never nilpotent, because $N^k = 0$ would give $I = (N^{-1})^k N^k = 0$.
 
 ### Basic properties
 
 Let $N$ be a nilpotent $n \times n$ matrix with $N^k = 0$.
 
-- $I - N$ and $I + N$ are invertible, with $(I - N)^{-1} = I + N + \cdots + N^{k-1}$, by [[this theorem|~9c73b141]].
+- $I - N$ and $I + N$ are invertible, with $(I - N)^{-1} = I + N + \cdots + N^{k-1}$, by [[this theorem|N40XPYS89W]].
 - $cN$ is nilpotent for each scalar $c$, and $P^{-1} N P$ is nilpotent for each invertible $P$.
-- If $M$ is nilpotent and $MN = NM$, then $M + N$ and $MN$ are nilpotent, by the [[binomial theorem for commuting matrices|~af4d44e0]].
+- If $M$ is nilpotent and $MN = NM$, then $M + N$ and $MN$ are nilpotent, by the [[binomial theorem for commuting matrices|DS9TS6AFMW]].
 - Over a field, the index of $N$ is at most $n$, so $N^n = 0$. The proof uses the kernels $\ker N \subsetneq \ker N^2 \subsetneq \cdots$ or the [[characteristic polynomial|0VSSPAFM2C]], which belong to later topics.
 - Over a field, the only eigenvalue of $N$ is $0$. So the [[trace|0XC1RDBY7A]] of $N$ is $0$, by the theorem that the [[trace is the sum of the eigenvalues|0NMXDCNNKR]].
 - The sum of two nilpotent matrices that do not commute need not be nilpotent: $E_{12} + E_{21}$ has square $I$.

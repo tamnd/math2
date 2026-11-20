@@ -17,14 +17,14 @@ It covers matrices over a field or a commutative ring, the operations on them, a
 
 1. [[Matrix|0VD9ZSWWJG]]: a rectangular array of entries, its size and its entries.
 2. [[Square matrix|0JXZKX526R]]: equal numbers of rows and columns, and the main diagonal.
-3. [[Zero matrix|~d9ded4cd]]: the identity for addition.
-4. [[Identity matrix|~495c2486]]: the identity for multiplication.
+3. [[Zero matrix|4KY5AWGMW5]]: the identity for addition.
+4. [[Identity matrix|6NHZRCKJNW]]: the identity for multiplication.
 5. [[Matrix addition and scalar multiplication|0Y7H3SAVA1]]: the vector space of matrices of one size.
 6. [[Matrix-vector product|0PDVQEP0ZC]]: the row view and the column view of $Ax$.
 7. [[Matrix multiplication|032Q9FB8MT]]: the row-column rule and the composition of linear maps.
 8. [[Associativity of matrix multiplication|073E4XC016]]: a proof by sums and a proof by composition.
 9. [[Non-commutativity of matrix multiplication|0P506SPZP2]]: two matrices with $AB \neq BA$.
-10. [[Matrix ring|~de637a64]]: the ring $M_n(R)$, its centre and its ideals.
+10. [[Matrix ring|AB2MD5CD13]]: the ring $M_n(R)$, its centre and its ideals.
 11. [[Scalar matrix|067NKSBEWT]]: the matrices $cI$ and the matrices that commute with all others.
 12. [[Diagonal matrix|044JNC7ZAA]]: sums, products and powers entry by entry.
 13. [[Upper and lower triangular matrices|0N4XY7Z3NN]]: closed under products, and strictly triangular matrices are nilpotent.
@@ -40,9 +40,9 @@ It covers matrices over a field or a commutative ring, the operations on them, a
 23. [[Cyclic property of the trace|0Y4NF1DRKD]]: $\operatorname{tr}(AB) = \operatorname{tr}(BA)$, and no solution of $AB - BA = I$.
 24. [[Nilpotent matrix|07BSPZPSMF]]: $N^k = 0$, and the inverse of $I - N$.
 25. [[Idempotent matrix|0KCE8CG86P]]: $P^2 = P$, and projections.
-26. [[Involutory matrix|~c8443172]]: $A^2 = I$, and reflections.
+26. [[Involutory matrix|NH2QE3671N]]: $A^2 = I$, and reflections.
 27. [[Commuting matrices|8G3X8MPG7E]]: $AB = BA$, and the binomial theorem.
-28. [[Matrix units|~2c685e2c]]: the matrices $E_{ij}$ and the rule $E_{ij} E_{kl} = \delta_{jk} E_{il}$.
+28. [[Matrix units|4H93XF4RVH]]: the matrices $E_{ij}$ and the rule $E_{ij} E_{kl} = \delta_{jk} E_{il}$.
 
 ### Prerequisites
 

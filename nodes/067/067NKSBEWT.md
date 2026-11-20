@@ -20,7 +20,7 @@ inventory: [2HSM4TW6Y6]
 A scalar matrix is a [[diagonal matrix|044JNC7ZAA]] whose diagonal entries are all equal: $cI_n = \operatorname{diag}(c, \dots, c)$.
 The [[formal definition|0FRM62SG7D]] states it with the [[identity matrix|06DW9BAWB1]].
 Multiplying by $cI$ is the same as multiplying by the scalar $c$: $(cI)A = cA$.
-Over a field, the scalar matrices are [[exactly the matrices that commute with every matrix|~c64c046f]].
+Over a field, the scalar matrices are [[exactly the matrices that commute with every matrix|DVZ1V4A884]].
 
 ## Motivation
 
@@ -37,21 +37,21 @@ This copy of $F$ is the centre of the ring, the part that commutes with everythi
 
 ### Examples
 
-- [[The matrix 3I commutes with every matrix|~fcc587ea]] and acts as multiplication by $3$.
-- [[The scalar matrices form a copy of the field|~6cae0a02]] inside $M_2(\mathbb{R})$.
+- [[The matrix 3I commutes with every matrix|B8AH9ZEYTX]] and acts as multiplication by $3$.
+- [[The scalar matrices form a copy of the field|SJM276KGDB]] inside $M_2(\mathbb{R})$.
 - The [[zero matrix|0ZTKJJDGR7]] $0 = 0I$ and the identity $I = 1I$ are scalar matrices.
 
 ### Non-examples
 
-- [[The diagonal matrix diag(1, 2)|~80d5c38d]] is not scalar, and it does not commute with $E_{12}$.
+- [[The diagonal matrix diag(1, 2)|RGEJG5KD95]] is not scalar, and it does not commute with $E_{12}$.
 - The all-ones matrix $J$ is not scalar: it has nonzero entries off the diagonal.
 
 ### Basic properties
 
 - $cI + dI = (c + d)I$ and $(cI)(dI) = (cd)I$.
 - $(cI)A = cA$ and $A(cI) = Ac$ for every $n \times n$ matrix $A$.
-- If $c$ is central in $R$, then $cI$ commutes with every matrix; conversely, the [[centre theorem|~c64c046f]] shows that only such matrices do.
-- A matrix that commutes with all [[matrix units|~709aa34e]] is scalar, by [[this lemma|~30ae7883]].
+- If $c$ is central in $R$, then $cI$ commutes with every matrix; conversely, the [[centre theorem|DVZ1V4A884]] shows that only such matrices do.
+- A matrix that commutes with all [[matrix units|A4HTT7JFD1]] is scalar, by [[this lemma|TX4J5JR205]].
 - Over a field, $cI$ is similar only to itself, since $P(cI)P^{-1} = cI$.
 - The only eigenvalue of $cI$ is $c$, and every nonzero vector is an [[eigenvector|0N6960W0BV]].
 

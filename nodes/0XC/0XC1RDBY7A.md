@@ -42,13 +42,13 @@ The formula $\operatorname{tr}(A^{\mathsf{T}} B) = \sum_{i,j} a_{ij} b_{ij}$ mak
 
 ### Examples
 
-- [[The trace of AᵀA is the sum of the squares of the entries|~eb388508]].
-- [[The Frobenius inner product of two matrices|~cde503c5]].
+- [[The trace of AᵀA is the sum of the squares of the entries|6VBAP0MZQN]].
+- [[The Frobenius inner product of two matrices|Z88VRHAS1X]].
 - $\operatorname{tr} I_n = n$ and $\operatorname{tr} 0 = 0$.
 
 ### Non-examples
 
-- [[The trace is not a ring homomorphism|~c5ad9f38]].
+- [[The trace is not a ring homomorphism|5F9NN7QTXA]].
 - A $2 \times 3$ matrix has no trace, because it is not square.
 
 ### Basic properties
@@ -58,8 +58,8 @@ For $n \times n$ matrices $A$ and $B$ over a commutative ring $R$ and $c \in R$:
 - $\operatorname{tr}(A + B) = \operatorname{tr} A + \operatorname{tr} B$ and $\operatorname{tr}(cA) = c \operatorname{tr} A$, by [[linearity|0GJWQZCPZM]].
 - $\operatorname{tr}(A^{\mathsf{T}}) = \operatorname{tr} A$, by [[this statement|09E1RCZ7YT]].
 - $\operatorname{tr}(AB) = \operatorname{tr}(BA)$, also for an $m \times n$ matrix $A$ and an $n \times m$ matrix $B$, by the [[cyclic property|0Y4NF1DRKD]].
-- $\operatorname{tr}(ABC) = \operatorname{tr}(BCA) = \operatorname{tr}(CAB)$, but $\operatorname{tr}(ABC)$ can differ from $\operatorname{tr}(BAC)$; see [[this counterexample|~59a53e89]].
-- $\operatorname{tr}(AB - BA) = 0$. So [[AB − BA = I has no solution|~94d188c9]] over a field of characteristic $0$.
+- $\operatorname{tr}(ABC) = \operatorname{tr}(BCA) = \operatorname{tr}(CAB)$, but $\operatorname{tr}(ABC)$ can differ from $\operatorname{tr}(BAC)$; see [[this counterexample|GMT2VT9841]].
+- $\operatorname{tr}(AB - BA) = 0$. So [[AB − BA = I has no solution|E2P5TNE0G9]] over a field of characteristic $0$.
 - For real matrices, $\operatorname{tr}(A^{\mathsf{T}} A) = \sum_{i,j} a_{ij}^2 \ge 0$, with equality only for $A = 0$.
 - The trace of a [[nilpotent matrix|07BSPZPSMF]] over a field is $0$, and the trace of an [[idempotent matrix|0KCE8CG86P]] over a field is its rank; both use later theory.
 

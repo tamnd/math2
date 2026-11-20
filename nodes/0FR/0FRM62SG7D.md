@@ -6,7 +6,7 @@ msc: ["15A99"]
 topics: [Y1ESNQ2V52]
 audience: school
 defines: 067NKSBEWT
-uses: [0Q9PGXD9E4, ~495c2486]
+uses: [0Q9PGXD9E4, 6NHZRCKJNW]
 sources:
   - url: https://en.wikipedia.org/wiki/Diagonal_matrix
     locator: Scalar matrix
@@ -18,7 +18,7 @@ inventory: [2HSM4TW6Y6]
 Let $R$ be a ring with identity, let $n \ge 0$ be an integer, and let $c \in R$.
 The *scalar matrix* of order $n$ with value $c$ is the [[diagonal matrix|0Q9PGXD9E4]]
 $$cI_n = \operatorname{diag}(c, \dots, c) = \begin{pmatrix} c & & \\ & \ddots & \\ & & c \end{pmatrix},$$
-where $I_n$ is the [[identity matrix|~495c2486]].
+where $I_n$ is the [[identity matrix|6NHZRCKJNW]].
 Its entries are $(cI_n)_{ij} = c\,\delta_{ij}$.
 A square matrix is a *scalar matrix* when it equals $cI_n$ for some $c \in R$.
 
@@ -30,7 +30,7 @@ A square matrix is a *scalar matrix* when it equals $cI_n$ for some $c \in R$.
 ## Remarks
 
 - Over a commutative ring, a scalar matrix commutes with every square matrix of the same order.
-- Over a field, the scalar matrices are exactly the $n \times n$ matrices that commute with every $n \times n$ matrix, by the [[centre theorem|~c64c046f]].
+- Over a field, the scalar matrices are exactly the $n \times n$ matrices that commute with every $n \times n$ matrix, by the [[centre theorem|DVZ1V4A884]].
 - As a linear map, $cI_n$ multiplies each vector by $c$.
 
 ## Explanations

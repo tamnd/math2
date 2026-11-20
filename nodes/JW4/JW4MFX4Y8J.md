@@ -34,4 +34,4 @@ Commutativity lets us match the factors.
 ## Variants
 
 - By matrix units: both sides are bilinear in $A$ and $B$, so it is enough to take $A = E_{ij}$ and $B = E_{kl}$.
-- Then $E_{ij} E_{kl} = \delta_{jk} E_{il}$ has trace $\delta_{jk} \delta_{il}$, and $E_{kl} E_{ij} = \delta_{li} E_{kj}$ has trace $\delta_{li} \delta_{kj}$, the same number; see [[matrix units|~709aa34e]].
+- Then $E_{ij} E_{kl} = \delta_{jk} E_{il}$ has trace $\delta_{jk} \delta_{il}$, and $E_{kl} E_{ij} = \delta_{li} E_{kj}$ has trace $\delta_{li} \delta_{kj}$, the same number; see [[matrix units|A4HTT7JFD1]].

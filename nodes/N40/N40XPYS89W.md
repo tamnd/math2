@@ -1,0 +1,50 @@
+---
+tag: N40XPYS89W
+kind: statement
+role: theorem
+name: Geometric series for a nilpotent matrix
+msc: ["15A09", "15A99"]
+topics: [Y1ESNQ2V52]
+audience: ug1
+about: [07BSPZPSMF, 0EB9N0S33C]
+uses: [0419GJC84P, 0EB9N0S33C, 6NHZRCKJNW]
+sources:
+  - url: https://en.wikipedia.org/wiki/Nilpotent_matrix
+    locator: Properties
+---
+
+## Statement
+
+Let $R$ be a ring and let $N$ be an $n \times n$ matrix over $R$ with $N^k = 0$ for some $k \ge 1$.
+Then $I - N$ is [[invertible|0EB9N0S33C]], and
+$$(I - N)^{-1} = I + N + N^2 + \cdots + N^{k-1}.$$
+
+## Remarks
+
+### Why each hypothesis is needed
+
+- Nilpotency makes the series finite. For $N = \tfrac12 I$ the inverse $(I - N)^{-1} = 2I$ is the sum of an infinite series, and for $N = I$ the matrix $I - N = 0$ is not invertible.
+
+### Consequences
+
+- Replacing $N$ by $-N$: $I + N$ is invertible with inverse $I - N + N^2 - \cdots + (-1)^{k-1} N^{k-1}$.
+- A unitriangular matrix $I + N$, with $N$ strictly upper triangular, is invertible, and its inverse is unitriangular.
+- If $U$ is invertible and $N$ is nilpotent with $UN = NU$, then $U - N = U(I - U^{-1} N)$ is invertible.
+- [[This example|YHCD6MTSV8]] checks the formula for a $2 \times 2$ matrix with $N^2 = 0$.
+
+### Generalizations
+
+- The same proof works for a nilpotent element of any ring with $1$: $1 - x$ is a unit.
+- For a matrix $A$ with $\|A\| < 1$ in an operator norm, $(I - A)^{-1} = \sum_{j \ge 0} A^j$, the Neumann series.
+
+## Explanations
+
+### L1 human
+
+For numbers, $1/(1 - x) = 1 + x + x^2 + \cdots$ when $|x| < 1$.
+For a nilpotent matrix the same series stops after finitely many terms, so it always gives the inverse.
+
+### L2 human
+
+The identity $(1 - x)(1 + x + \cdots + x^{k-1}) = 1 - x^k$ holds in every ring.
+When $x^k = 0$ the right side is $1$, so the second factor is the inverse.

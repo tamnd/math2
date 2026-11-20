@@ -19,16 +19,16 @@ same_as:
 
 Let $R$ be a ring with identity and let $n \ge 0$ be an integer.
 The *identity matrix* $I_n$ is the $n \times n$ [[matrix|0VD9ZSWWJG]] over $R$ with entries $1$ on the main diagonal and $0$ elsewhere.
-Its entries are $(I_n)_{ij} = \delta_{ij}$, the Kronecker delta, as in the [[formal definition|~495c2486]].
+Its entries are $(I_n)_{ij} = \delta_{ij}$, the Kronecker delta, as in the [[formal definition|6NHZRCKJNW]].
 For each $m \times n$ matrix $A$, $A I_n = A$ and $I_m A = A$.
 
 ## Remarks
 
-- The identity matrix $I_n$ is the identity element of the [[matrix ring|~de637a64]] $M_n(R)$.
+- The identity matrix $I_n$ is the identity element of the [[matrix ring|AB2MD5CD13]] $M_n(R)$.
 - It is the matrix of the identity map in any basis.
 - For example, $I_2 = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}$.
-- The [[columns of $I_3$|~e7479e3b]] are the standard basis vectors of $R^3$.
-- The [[all-ones matrix|~09787bdc]] is a common wrong guess for an identity for multiplication.
+- The [[columns of $I_3$|36GFGXK44K]] are the standard basis vectors of $R^3$.
+- The [[all-ones matrix|QCV57HQ0PE]] is a common wrong guess for an identity for multiplication.
 - Its scalar multiples $cI_n$ are the [[scalar matrices|067NKSBEWT]].
 
 ## Explanations

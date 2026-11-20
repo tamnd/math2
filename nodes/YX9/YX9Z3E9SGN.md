@@ -1,0 +1,45 @@
+---
+tag: YX9Z3E9SGN
+kind: statement
+role: proposition
+name: A product of symmetric matrices is symmetric if and only if they commute
+msc: ["15A99", "15B57"]
+topics: [Y1ESNQ2V52]
+audience: ug1
+about: [0VR671PHE5, 8G3X8MPG7E]
+uses: [0N28QN4CYA, MX26N71ZD3, 09GK5PS824]
+sources:
+  - url: https://en.wikipedia.org/wiki/Symmetric_matrix
+    locator: Properties
+---
+
+## Statement
+
+Let $R$ be a commutative ring, and let $A$ and $B$ be [[symmetric|0N28QN4CYA]] $n \times n$ matrices over $R$.
+Then $AB$ is symmetric if and only if $AB = BA$, that is, if and only if $A$ and $B$ [[commute|MX26N71ZD3]].
+
+## Remarks
+
+### Why each hypothesis is needed
+
+- Commutativity of $R$ is used through the [[transpose of a product|09GK5PS824]], which can fail over the quaternions.
+- Both matrices must be symmetric. With $A = I$ and $B = \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}$, the matrices commute, but $AB = B$ is not symmetric.
+
+### Consequences
+
+- $A^k$ is symmetric for each $k \ge 0$, because $A$ commutes with itself.
+- Each polynomial $p(A)$ in a symmetric matrix is symmetric.
+- If $A$ and $B$ are symmetric, then $AB + BA$ is symmetric, but $AB - BA$ is [[skew-symmetric|0PBY4E9GQF]].
+- [[This example|3MD62SJJEP]] gives two symmetric $2 \times 2$ matrices with a product that is not symmetric.
+
+## Explanations
+
+### L1 human
+
+Two symmetric matrices can have a product that is not symmetric.
+The product is symmetric exactly when the order of the two factors does not matter.
+
+### L2 human
+
+The transpose of $AB$ is $B^{\mathsf{T}} A^{\mathsf{T}} = BA$.
+So "$AB$ is symmetric" and "$AB = BA$" are the same equation.

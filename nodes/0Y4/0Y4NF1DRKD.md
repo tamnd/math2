@@ -36,9 +36,9 @@ Then $\operatorname{tr}(AB) = \operatorname{tr}(BA)$, where $\operatorname{tr}$ 
 ### Consequences
 
 - Cyclic shifts: $\operatorname{tr}(A_1 A_2 \cdots A_k) = \operatorname{tr}(A_2 \cdots A_k A_1)$. Apply the theorem to $A_1$ and $A_2 \cdots A_k$.
-- So $\operatorname{tr}(ABC) = \operatorname{tr}(BCA) = \operatorname{tr}(CAB)$. Other orders can give other values, as [[this counterexample|~59a53e89]] shows.
+- So $\operatorname{tr}(ABC) = \operatorname{tr}(BCA) = \operatorname{tr}(CAB)$. Other orders can give other values, as [[this counterexample|GMT2VT9841]] shows.
 - $\operatorname{tr}(P^{-1} A P) = \operatorname{tr}(A P P^{-1}) = \operatorname{tr} A$ for an [[invertible|0EB9N0S33C]] $P$. So [[similar matrices|0E89HQATM8]] have the same trace.
-- $\operatorname{tr}(AB - BA) = 0$ for square $A$ and $B$. Hence [[AB − BA = I has no solution|~94d188c9]] over a field of characteristic $0$.
+- $\operatorname{tr}(AB - BA) = 0$ for square $A$ and $B$. Hence [[AB − BA = I has no solution|E2P5TNE0G9]] over a field of characteristic $0$.
 
 ### Generalizations
 

@@ -1,0 +1,45 @@
+---
+tag: 7C93RPT1MB
+kind: example
+name: Multiplication of two 3 × 3 matrices in 2 + 1 blocks
+msc: ["15A99"]
+topics: [Y1ESNQ2V52]
+audience: ug1
+instance_of: [0ASDFEQS6P]
+illustrates: [WR3RCF5PSQ]
+uses: [01AXG9KZQF, 076JGP6R3T]
+sources:
+  - url: https://en.wikipedia.org/wiki/Block_matrix
+    locator: Block matrix operations
+---
+
+## Example
+
+Cut the rows and the columns of two $3 \times 3$ matrices as $2 + 1$:
+$$A = \left(\begin{array}{cc|c} 1 & 2 & 0 \\ 0 & 1 & 0 \\ \hline 3 & 0 & 2 \end{array}\right), \qquad B = \left(\begin{array}{cc|c} 1 & 0 & 1 \\ 1 & 1 & 0 \\ \hline 0 & 2 & 1 \end{array}\right).$$
+So $A_{11} = \begin{pmatrix} 1 & 2 \\ 0 & 1 \end{pmatrix}$, $A_{12} = \begin{pmatrix} 0 \\ 0 \end{pmatrix}$, $A_{21} = \begin{pmatrix} 3 & 0 \end{pmatrix}$ and $A_{22} = (2)$.
+Also $B_{11} = \begin{pmatrix} 1 & 0 \\ 1 & 1 \end{pmatrix}$, $B_{12} = \begin{pmatrix} 1 \\ 0 \end{pmatrix}$, $B_{21} = \begin{pmatrix} 0 & 2 \end{pmatrix}$ and $B_{22} = (1)$.
+
+1. $(AB)_{11} = A_{11} B_{11} + A_{12} B_{21} = \begin{pmatrix} 3 & 2 \\ 1 & 1 \end{pmatrix} + \begin{pmatrix} 0 & 0 \\ 0 & 0 \end{pmatrix} = \begin{pmatrix} 3 & 2 \\ 1 & 1 \end{pmatrix}$.
+2. $(AB)_{12} = A_{11} B_{12} + A_{12} B_{22} = \begin{pmatrix} 1 \\ 0 \end{pmatrix} + \begin{pmatrix} 0 \\ 0 \end{pmatrix} = \begin{pmatrix} 1 \\ 0 \end{pmatrix}$.
+3. $(AB)_{21} = A_{21} B_{11} + A_{22} B_{21} = \begin{pmatrix} 3 & 0 \end{pmatrix} + \begin{pmatrix} 0 & 4 \end{pmatrix} = \begin{pmatrix} 3 & 4 \end{pmatrix}$.
+4. $(AB)_{22} = A_{21} B_{12} + A_{22} B_{22} = (3) + (2) = (5)$.
+5. So the [[block rule|WR3RCF5PSQ]] gives $AB = \begin{pmatrix} 3 & 2 & 1 \\ 1 & 1 & 0 \\ 3 & 4 & 5 \end{pmatrix}$.
+6. The [[entry rule|076JGP6R3T]] agrees. For example, $(AB)_{32} = 3 \cdot 0 + 0 \cdot 1 + 2 \cdot 2 = 4$ and $(AB)_{13} = 1 \cdot 1 + 2 \cdot 0 + 0 \cdot 1 = 1$.
+
+## Remarks
+
+Here $A_{12} = 0$, so $A$ is block lower triangular, and $(AB)_{11} = A_{11} B_{11}$ depends only on the top left blocks.
+The column partition $2 + 1$ of $A$ matches the row partition $2 + 1$ of $B$, as the theorem requires.
+
+## Explanations
+
+### L1 human
+
+We multiply the $2 \times 2$ grid of blocks like a $2 \times 2$ matrix of numbers.
+Each "number" is a small matrix, and we keep the order of each product.
+
+### L2 human
+
+Step 1 needs one $2 \times 2$ product and one product of a column by a row.
+The zero block $A_{12}$ removes half of the work in steps 1 and 2.

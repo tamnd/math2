@@ -25,7 +25,7 @@ The set of square matrices of order $n$ over $R$ is written $M_n(R)$.
 
 ## Remarks
 
-- The product of two $n \times n$ matrices is again an $n \times n$ matrix, so $M_n(R)$ is a [[ring|~de637a64]].
+- The product of two $n \times n$ matrices is again an $n \times n$ matrix, so $M_n(R)$ is a [[ring|AB2MD5CD13]].
 - The [[trace|0XC1RDBY7A]], the [[determinant|00KDZRW4C0]] and the [[eigenvalues|0BQAA2BK3Q]] are defined only for square matrices.
 - A square matrix represents a linear map from a space to itself.
 - In Mathlib, a square matrix is a term of `Matrix n n α`, with the same index type for rows and columns.

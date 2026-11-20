@@ -27,7 +27,7 @@ Equivalently, $a_{ji} = -a_{ij}$ for all $i$ and $j$.
 ## Remarks
 
 - If $2$ is not a zero divisor in $R$, for example over $\mathbb{R}$, then each diagonal entry of a skew-symmetric matrix is $0$.
-- When $2$ is invertible in $R$, each square matrix is the sum of a [[symmetric matrix|0VR671PHE5]] and a skew-symmetric matrix; see [[this theorem|~3a63c44b]].
+- When $2$ is invertible in $R$, each square matrix is the sum of a [[symmetric matrix|0VR671PHE5]] and a skew-symmetric matrix; see [[this theorem|K284W6D15Z]].
 - The matrix $\begin{pmatrix} 0 & 2 \\ -2 & 0 \end{pmatrix}$ is skew-symmetric.
 
 ## Explanations

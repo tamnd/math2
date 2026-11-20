@@ -31,7 +31,7 @@ In it, $A_{ij}$ fills rows $m_1 + \cdots + m_{i-1} + 1$ to $m_1 + \cdots + m_i$ 
 
 - All blocks in one block row have the same height $m_i$, and all blocks in one block column have the same width $n_j$.
 - Every $m \times n$ matrix is a block matrix for each choice of the two partitions.
-- If the column partition of $A$ matches the row partition of $B$, then $(AB)_{ik} = \sum_j A_{ij} B_{jk}$; see the [[block multiplication rule|~439d27b5]].
+- If the column partition of $A$ matches the row partition of $B$, then $(AB)_{ik} = \sum_j A_{ij} B_{jk}$; see the [[block multiplication rule|WR3RCF5PSQ]].
 
 ## Explanations
 

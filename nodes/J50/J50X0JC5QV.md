@@ -1,0 +1,37 @@
+---
+tag: J50X0JC5QV
+kind: proof
+name: Proof of the Cartesian decomposition of a complex square matrix
+msc: ["15B57"]
+topics: [Y1ESNQ2V52]
+audience: ug1
+proves: E2MNC3W2DM
+methods: [0NTF6DMVAP]
+uses: [0EKZCX4K3P, 0EX045E2BP]
+sources:
+  - url: https://en.wikipedia.org/wiki/Hermitian_matrix
+    locator: Properties
+---
+
+## Proof
+
+Let $A$ be a complex $n \times n$ matrix.
+We use $(A^*)^* = A$, $(X + Y)^* = X^* + Y^*$ and $(cX)^* = \overline{c}\, X^*$ from the [[definition of the conjugate transpose|0EX045E2BP]].
+
+1. Existence: put $H = \tfrac12 (A + A^*)$ and $K = \tfrac{1}{2i} (A - A^*)$.
+2. $H^* = \tfrac12 (A^* + A) = H$, because $\tfrac12$ is real. So $H$ is [[Hermitian|0EKZCX4K3P]].
+3. $\overline{1/(2i)} = -1/(2i)$, so $K^* = -\tfrac{1}{2i} (A^* - A) = \tfrac{1}{2i} (A - A^*) = K$. So $K$ is Hermitian.
+4. $H + iK = \tfrac12 (A + A^*) + \tfrac12 (A - A^*) = A$.
+5. Uniqueness: suppose $A = H' + iK'$ with $H'$ and $K'$ Hermitian.
+6. Then $A^* = H'^* + \overline{i}\, K'^* = H' - iK'$.
+7. Adding steps 5 and 6 gives $A + A^* = 2H'$, so $H' = H$.
+8. Subtracting gives $A - A^* = 2iK'$, so $K' = K$.
+
+## Idea
+
+Taking the conjugate transpose of $A = H + iK$ gives $A^* = H - iK$.
+Adding and subtracting the two equations gives $H$ and $K$, as for the real and imaginary parts of a complex number.
+
+## Variants
+
+- The [[symmetric plus skew-symmetric decomposition|T2153B5Y7V]] has the same proof with the transpose in place of the conjugate transpose.

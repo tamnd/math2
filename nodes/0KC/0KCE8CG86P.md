@@ -29,7 +29,7 @@ Their eigenvalues lie in $\{0, 1\}$, and over a field of characteristic $0$ thei
 
 Projections are the first tool for splitting a space into two parts.
 Least squares, orthogonal decompositions and the spectral theorem all use idempotent matrices.
-In the [[matrix ring|~de637a64]], idempotents play the role that $0$ and $1$ play in a field: $P$ and $I - P$ split $I$ into two parts with $P(I - P) = 0$.
+In the [[matrix ring|AB2MD5CD13]], idempotents play the role that $0$ and $1$ play in a field: $P$ and $I - P$ split $I$ into two parts with $P(I - P) = 0$.
 
 ## Notation
 
@@ -40,14 +40,14 @@ In the [[matrix ring|~de637a64]], idempotents play the role that $0$ and $1$ pla
 
 ### Examples
 
-- [[An oblique projection of the plane onto a line|~67b706ca]].
-- [[The orthogonal projection onto the line spanned by (1, 1)|~682250bb]].
+- [[An oblique projection of the plane onto a line|DZXTTHGFQD]].
+- [[The orthogonal projection onto the line spanned by (1, 1)|MAP4F54GJW]].
 - [[The matrix E₁₁, whose powers never reach the identity|5VEW97EQR6]].
 - $0$ and $I$ are idempotent, and so is every diagonal matrix with entries in $\{0, 1\}$.
 
 ### Non-examples
 
-- [[A matrix with eigenvalues in {0, 1} that is not idempotent|~49c9a6f7]].
+- [[A matrix with eigenvalues in {0, 1} that is not idempotent|AVTQZC769M]].
 - $2I$ is not idempotent, because $(2I)^2 = 4I$.
 
 ### Basic properties
@@ -61,7 +61,7 @@ Let $P$ be an idempotent $n \times n$ matrix.
 - Over a field, every eigenvalue $\lambda$ of $P$ is $0$ or $1$. If $Pv = \lambda v$ with $v \neq 0$, then $\lambda v = P v = P^2 v = \lambda^2 v$, so $\lambda^2 = \lambda$.
 - Over a field, $\operatorname{im} P$ is the set of vectors with $Pv = v$, and $V = \operatorname{im} P \oplus \ker P$, because $v = Pv + (v - Pv)$.
 - Over a field, $\operatorname{tr} P = \operatorname{rank} P \cdot 1$. The proof uses a basis adapted to $\operatorname{im} P \oplus \ker P$, in which $P = \operatorname{diag}(I_r, 0)$; see [[projection|033DA1WE8Y]] and [[rank|0ZC9YTXZRY]].
-- Outside characteristic $2$, $P$ is idempotent if and only if $2P - I$ is [[involutory|~c8443172]].
+- Outside characteristic $2$, $P$ is idempotent if and only if $2P - I$ is [[involutory|NH2QE3671N]].
 
 ### Common errors
 

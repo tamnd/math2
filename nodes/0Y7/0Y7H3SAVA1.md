@@ -48,13 +48,13 @@ For tables of data, such as the sales of two weeks, the entrywise sum is the nat
 
 ### Examples
 
-- The [[combination 2A − 3B|~7b79c6a0]] of two $2 \times 2$ matrices, computed entry by entry.
+- The [[combination 2A − 3B|R3SH1T0KYW]] of two $2 \times 2$ matrices, computed entry by entry.
 - The [[space of matrices|0RE6X3BGPN]] $M_{m \times n}(F)$ is a vector space with these operations.
 - $\begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix} + \begin{pmatrix} 0 & 0 \\ 0 & 1 \end{pmatrix} = I_2$.
 
 ### Non-examples
 
-- [[Matrices of different sizes cannot be added|~0ec54b75]]: a $2 \times 2$ matrix plus a $2 \times 3$ matrix is not defined.
+- [[Matrices of different sizes cannot be added|VRD3P83FH7]]: a $2 \times 2$ matrix plus a $2 \times 3$ matrix is not defined.
 - Adding a number to a matrix, as in $A + 1$, is not matrix addition. Software often reads it as adding $1$ to each entry, and algebra books read it as $A + I$.
 
 ### Basic properties
@@ -64,7 +64,7 @@ For matrices $A, B, C$ of one size and scalars $c, d$ in a field:
 - $A + B = B + A$ and $(A + B) + C = A + (B + C)$, because these laws hold for each entry.
 - $A + 0 = A$ for the [[zero matrix|0ZTKJJDGR7]], and $A + (-A) = 0$.
 - $c(A + B) = cA + cB$, $(c + d)A = cA + dA$, $c(dA) = (cd)A$ and $1A = A$.
-- Every $m \times n$ matrix is the combination $\sum_{i,j} a_{ij} E_{ij}$ of the [[matrix units|~709aa34e]].
+- Every $m \times n$ matrix is the combination $\sum_{i,j} a_{ij} E_{ij}$ of the [[matrix units|A4HTT7JFD1]].
 - Addition and scalar multiplication are compatible with the product: $A(B + C) = AB + AC$ by the [[distributive law|0RXD6EZYBK]], and $A(cB) = c(AB)$ over a commutative ring.
 
 ### Common errors

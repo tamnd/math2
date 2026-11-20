@@ -46,13 +46,13 @@ Many methods reduce a problem to a diagonal one by a change of coordinates.
 
 ### Examples
 
-- [[The powers of diag(2, −1, 3)|~48e063c1]] are $\operatorname{diag}(2^k, (-1)^k, 3^k)$.
-- [[Multiplying by a diagonal matrix scales rows or columns|~875d0d73]].
+- [[The powers of diag(2, −1, 3)|DAVRDS5NV4]] are $\operatorname{diag}(2^k, (-1)^k, 3^k)$.
+- [[Multiplying by a diagonal matrix scales rows or columns|3BTM4ZNHX8]].
 - The [[scalar matrices|067NKSBEWT]], the [[identity|06DW9BAWB1]] and the [[zero matrix|0ZTKJJDGR7]] of order $n$ are diagonal.
 
 ### Non-examples
 
-- [[The swap matrix with zero diagonal|~3a72ecb5]] $\begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$ squares to $I$, but it is not diagonal.
+- [[The swap matrix with zero diagonal|JP3T5EWT3M]] $\begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$ squares to $I$, but it is not diagonal.
 - An upper [[triangular matrix|0N4XY7Z3NN]] with a nonzero entry above the diagonal is not diagonal.
 
 ### Basic properties

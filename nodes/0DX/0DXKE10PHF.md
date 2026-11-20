@@ -43,13 +43,13 @@ So $A^*$ is the matrix of the adjoint map.
 
 ### Examples
 
-- [[The conjugate transpose of a 2 × 2 matrix and the product rule|~53ef5cb8]].
-- [[For a complex vector x, x*x is its squared length|~185f7b23]].
+- [[The conjugate transpose of a 2 × 2 matrix and the product rule|NPKE6PDQQ8]].
+- [[For a complex vector x, x*x is its squared length|THMQA9AQZK]].
 - For a real matrix, $A^* = A^{\mathsf{T}}$.
 
 ### Non-examples
 
-- [[The plain transpose of a complex vector|~21bf0015]] does not give its length.
+- [[The plain transpose of a complex vector|5AG0M5GR5T]] does not give its length.
 - The entrywise conjugate $\overline{A}$ is not $A^*$ unless $A$ is symmetric.
 
 ### Basic properties

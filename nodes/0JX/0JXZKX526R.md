@@ -26,7 +26,7 @@ A square matrix is a [[matrix|0VD9ZSWWJG]] with the same number of rows and colu
 The [[formal definition|0CP7YY6NAG]] calls an $n \times n$ matrix a square matrix of order $n$.
 The entries $a_{11}, a_{22}, \dots, a_{nn}$ form its main diagonal.
 Two $n \times n$ matrices always have a [[product|032Q9FB8MT]], and the product is again $n \times n$.
-So a square matrix has powers $A^2, A^3, \dots$, and the square matrices of order $n$ form a [[ring|~de637a64]].
+So a square matrix has powers $A^2, A^3, \dots$, and the square matrices of order $n$ form a [[ring|AB2MD5CD13]].
 
 ## Motivation
 
@@ -46,14 +46,14 @@ The [[determinant|00KDZRW4C0]], the [[trace|0XC1RDBY7A]] and the [[eigenvalues|0
 
 ### Examples
 
-- The [[3 × 3 matrix with diagonal 1, 5, 9|~b19cf784]] shows the main diagonal and the square of a square matrix.
-- [[1 × 1 matrices|~10157e74]] add and multiply like their single entries.
+- The [[3 × 3 matrix with diagonal 1, 5, 9|C7N0PT179M]] shows the main diagonal and the square of a square matrix.
+- [[1 × 1 matrices|WYJ95EEQFJ]] add and multiply like their single entries.
 - Every [[identity matrix|06DW9BAWB1]] $I_n$ is square.
 - The rotation matrix $\begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}$ of the plane is a $2 \times 2$ square matrix.
 
 ### Non-examples
 
-- A [[2 × 3 matrix has no square|~28cb6538]], because the product $AA$ is not defined.
+- A [[2 × 3 matrix has no square|TVNYJ89WDJ]], because the product $AA$ is not defined.
 - A column vector of length $n \ge 2$ is an $n \times 1$ matrix, so it is not square.
 
 ### Basic properties

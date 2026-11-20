@@ -41,14 +41,14 @@ So one product connects equations with combinations of vectors.
 
 ### Examples
 
-- The [[product of a 2 × 3 matrix with a vector|~32cc287b]] computed by rows and by columns.
-- The [[system x + 2y = 5, 3x − y = 1|~39155860]] written as $Ax = b$.
+- The [[product of a 2 × 3 matrix with a vector|1NYHYECE0A]] computed by rows and by columns.
+- The [[system x + 2y = 5, 3x − y = 1|VBFC9PEMPF]] written as $Ax = b$.
 - $Ae_j$ is column $j$ of $A$, for the [[standard basis vector|0V7ZD6P7RK]] $e_j$, by [[this statement|PFEYWQJDK1]].
 - $I_n x = x$ for the [[identity matrix|06DW9BAWB1]].
 
 ### Non-examples
 
-- A [[2 × 2 matrix times a vector with 3 entries|~1daa7e3f]] is not defined.
+- A [[2 × 2 matrix times a vector with 3 entries|VZN1T7QCWE]] is not defined.
 - The entrywise product of a column of $A$ with $x$ is not $Ax$.
 
 ### Basic properties

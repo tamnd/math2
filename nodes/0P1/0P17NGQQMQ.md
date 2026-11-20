@@ -27,7 +27,7 @@ A Hermitian matrix is a complex square matrix equal to its [[conjugate transpose
 A skew-Hermitian matrix satisfies $A^* = -A$.
 The [[formal definition|0EKZCX4K3P]] says $a_{ij} = \overline{a_{ji}}$, so the diagonal of a Hermitian matrix is real.
 Hermitian matrices are the complex analogue of [[symmetric matrices|0VR671PHE5]], and they play the role of real numbers among matrices.
-Each complex square matrix is $H + iK$ with $H$ and $K$ Hermitian, by the [[Cartesian decomposition|~016d9f4f]].
+Each complex square matrix is $H + iK$ with $H$ and $K$ Hermitian, by the [[Cartesian decomposition|E2MNC3W2DM]].
 
 ## Motivation
 
@@ -46,14 +46,14 @@ In quantum mechanics, observable quantities are Hermitian operators.
 
 ### Examples
 
-- [[A Hermitian 2 × 2 matrix with real eigenvalues|~a1d9225e]].
-- [[The Cartesian decomposition of a 2 × 2 matrix|~0b7f2689]].
+- [[A Hermitian 2 × 2 matrix with real eigenvalues|GGFA8S4NZ2]].
+- [[The Cartesian decomposition of a 2 × 2 matrix|NQBXQ87CXZ]].
 - A real symmetric matrix is Hermitian.
 - $iI$ and $\begin{pmatrix} i & 1 \\ -1 & 0 \end{pmatrix}$ are skew-Hermitian.
 
 ### Non-examples
 
-- [[A complex symmetric matrix that is not Hermitian|~68969318]].
+- [[A complex symmetric matrix that is not Hermitian|DAZBNZXZK7]].
 - $iI$ is not Hermitian, because $(iI)^* = -iI$.
 
 ### Basic properties
@@ -63,7 +63,7 @@ Let $A$ and $B$ be Hermitian $n \times n$ matrices.
 - The diagonal entries are real, because $a_{ii} = \overline{a_{ii}}$.
 - $A + B$ and $cA$ for real $c$ are Hermitian. So the Hermitian matrices form a real vector space of dimension $n^2$, not a complex one.
 - $A$ is Hermitian if and only if $iA$ is skew-Hermitian.
-- $AB$ is Hermitian if and only if $AB = BA$, by the same proof as for [[symmetric matrices|~85664979]].
+- $AB$ is Hermitian if and only if $AB = BA$, by the same proof as for [[symmetric matrices|YX9Z3E9SGN]].
 - $x^* A x$ is real for each $x \in \mathbb{C}^n$, because $\overline{x^* A x} = (x^* A x)^* = x^* A^* x = x^* A x$.
 - $C^* C$ and $C C^*$ are Hermitian for every complex matrix $C$.
 - Hermitian and skew-Hermitian matrices are [[normal|0MR0BYF0K2]], so they are unitarily diagonalizable; this is later theory.

@@ -32,7 +32,7 @@ Equivalently, $a_{ij} = a_{ji}$ for all $i$ and $j$.
 ## Remarks
 
 - The matrix $\begin{pmatrix} 1 & 7 \\ 7 & 2 \end{pmatrix}$ is symmetric.
-- For each $m \times n$ matrix $B$ over a commutative ring, $B^{\mathsf{T}} B$ and $B B^{\mathsf{T}}$ are symmetric; see [[this example|~fca1333e]].
+- For each $m \times n$ matrix $B$ over a commutative ring, $B^{\mathsf{T}} B$ and $B B^{\mathsf{T}}$ are symmetric; see [[this example|VR8VKQA9BN]].
 - A real symmetric matrix has real eigenvalues and an orthonormal basis of eigenvectors, by the [[spectral theorem|06J4PXRG22]].
 - Symmetric matrices represent [[symmetric bilinear forms|0AXZNE5XNH]] in a basis.
 

@@ -45,13 +45,13 @@ This rule is the coordinate form of the dual map, and it is the source of [[symm
 
 ### Examples
 
-- [[The transpose of a 2 × 3 matrix and its rules|~7c0c40f2]].
-- [[For an invertible 2 × 2 matrix, the inverse of the transpose is the transpose of the inverse|~543933c8]].
+- [[The transpose of a 2 × 3 matrix and its rules|7RHY1Z1E5Y]].
+- [[For an invertible 2 × 2 matrix, the inverse of the transpose is the transpose of the inverse|G9XS9NZ7DV]].
 - For a column $x \in \mathbb{R}^n$, $x^{\mathsf{T}}$ is a row and $x^{\mathsf{T}} x = \|x\|^2$.
 
 ### Non-examples
 
-- [[Turning the array by a quarter turn|~84079e58]] is not the transpose.
+- [[Turning the array by a quarter turn|CZRM8TAY7T]] is not the transpose.
 - Reversing the order of the rows is not the transpose.
 
 ### Basic properties

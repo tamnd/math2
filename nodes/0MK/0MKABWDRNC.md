@@ -27,7 +27,7 @@ It is *lower triangular* when $u_{ij} = 0$ for all $i < j$, and *strictly lower 
 
 ## Remarks
 
-- Sums and products of upper triangular matrices of the same order are upper triangular, by the [[product theorem|~16a77e22]].
+- Sums and products of upper triangular matrices of the same order are upper triangular, by the [[product theorem|45RET2Y995]].
 - The [[determinant of a triangular matrix|0K1KKMFHYH]] is the product of its diagonal entries.
 - The diagonal entries of an upper triangular matrix over a field are its [[eigenvalues|0BQAA2BK3Q]].
 - A system $Ux = b$ with $U$ upper triangular and invertible is solved by [[back substitution|0ATFVE08MW]].

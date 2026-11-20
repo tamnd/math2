@@ -34,5 +34,5 @@ The two ways of bracketing only add these terms in a different order, which does
 
 ## Variants
 
-- The [[proof by composition|~c239e1a3]] compares the columns $((AB)C)e_l$ and $(A(BC))e_l$, and it uses the rule $(AB)x = A(Bx)$.
-- With the [[matrix units|~709aa34e]], both sides are additive in each factor. So it suffices to take $A = aE_{ij}$, $B = bE_{j'k}$ and $C = cE_{k'l}$. Both sides are $0$ unless $j = j'$ and $k = k'$, and then they are $(ab)c\,E_{il}$ and $a(bc)\,E_{il}$.
+- The [[proof by composition|KC9SCPKS2G]] compares the columns $((AB)C)e_l$ and $(A(BC))e_l$, and it uses the rule $(AB)x = A(Bx)$.
+- With the [[matrix units|A4HTT7JFD1]], both sides are additive in each factor. So it suffices to take $A = aE_{ij}$, $B = bE_{j'k}$ and $C = cE_{k'l}$. Both sides are $0$ unless $j = j'$ and $k = k'$, and then they are $(ab)c\,E_{il}$ and $a(bc)\,E_{il}$.

@@ -24,7 +24,7 @@ inventory: [2FP1241FAJ]
 A skew-symmetric matrix is a [[square matrix|0JXZKX526R]] whose [[transpose|09DXWYRD43]] is its negative: $A^{\mathsf{T}} = -A$.
 The [[formal definition|03RNVFDEAN]] says $a_{ji} = -a_{ij}$ for all $i$ and $j$.
 Outside characteristic $2$, the diagonal of a skew-symmetric matrix is $0$.
-Each square matrix is the sum of a [[symmetric|0VR671PHE5]] and a skew-symmetric matrix in one way only, [[when 2 is invertible|~3a63c44b]].
+Each square matrix is the sum of a [[symmetric|0VR671PHE5]] and a skew-symmetric matrix in one way only, [[when 2 is invertible|K284W6D15Z]].
 
 ## Motivation
 
@@ -41,13 +41,13 @@ They also give the alternating bilinear forms, such as the symplectic form.
 
 ### Examples
 
-- [[The cross product matrix of a vector in R³|~bb248cc8]].
-- [[The symmetric and skew-symmetric parts of a 2 × 2 matrix|~c08f8568]].
+- [[The cross product matrix of a vector in R³|92G2HF4JT8]].
+- [[The symmetric and skew-symmetric parts of a 2 × 2 matrix|T4EGXYA8H3]].
 - $\begin{pmatrix} 0 & 2 \\ -2 & 0 \end{pmatrix}$ is skew-symmetric, and so is the zero matrix.
 
 ### Non-examples
 
-- [[A matrix with zero diagonal that is symmetric over the reals|~dc2b7786]] is not skew-symmetric.
+- [[A matrix with zero diagonal that is symmetric over the reals|8YRP1P4XRX]] is not skew-symmetric.
 - $\begin{pmatrix} 1 & 1 \\ -1 & 0 \end{pmatrix}$ is not skew-symmetric over $\mathbb{R}$, because $a_{11} = 1 \neq -a_{11}$.
 
 ### Basic properties

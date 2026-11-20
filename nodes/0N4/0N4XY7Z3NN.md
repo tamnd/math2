@@ -22,8 +22,8 @@ inventory: [1W8C1QV0S3]
 An upper triangular matrix is a [[square matrix|0JXZKX526R]] whose entries below the main diagonal are $0$: $u_{ij} = 0$ for $i > j$.
 The [[formal definition|0MKABWDRNC]] also defines the strictly upper triangular matrices, with $u_{ij} = 0$ for $i \ge j$.
 A [[lower triangular matrix|00J3KZP8Y0]] has zeros above the diagonal, and its transpose is upper triangular; this page treats both through the upper case.
-A [[product of upper triangular matrices|~16a77e22]] is upper triangular, and its diagonal is the product of the diagonals.
-A [[strictly upper triangular matrix is nilpotent|~0f948644]].
+A [[product of upper triangular matrices|45RET2Y995]] is upper triangular, and its diagonal is the product of the diagonals.
+A [[strictly upper triangular matrix is nilpotent|AW5RBMW7RK]].
 Triangular matrices are the end point of elimination, and every complex matrix is [[similar to one|0363JMQ42Y]].
 
 ## Motivation
@@ -43,21 +43,21 @@ Triangular matrices also keep the flag of subspaces $\langle e_1 \rangle \subset
 
 ### Examples
 
-- [[A product of two 3 × 3 upper triangular matrices|~1091bcac]], with the diagonal $2, 4, 18$.
-- [[A strictly upper triangular 3 × 3 matrix of index 3|~9021d76b]].
+- [[A product of two 3 × 3 upper triangular matrices|NFJP659QFK]], with the diagonal $2, 4, 18$.
+- [[A strictly upper triangular 3 × 3 matrix of index 3|NRNV4AJJ0E]].
 - Diagonal matrices are upper and lower triangular.
 - The Jordan block $\begin{pmatrix} \lambda & 1 \\ 0 & \lambda \end{pmatrix}$ is upper triangular.
 
 ### Non-examples
 
-- [[The product of an upper and a lower triangular matrix|~23722604]] need not be triangular.
+- [[The product of an upper and a lower triangular matrix|8GDWHV3EPB]] need not be triangular.
 - A rectangular $2 \times 3$ matrix is not triangular in this sense, although row echelon forms are sometimes called upper trapezoidal.
 
 ### Basic properties
 
 - Sums, scalar multiples and products of upper triangular matrices of order $n$ are upper triangular, so they form a subring of $M_n(R)$.
-- The diagonal of $UV$ is $(u_{11} v_{11}, \dots, u_{nn} v_{nn})$, by the [[product theorem|~16a77e22]].
-- A strictly upper triangular $N$ of order $n$ satisfies $N^n = 0$, by the [[nilpotency theorem|~0f948644]].
+- The diagonal of $UV$ is $(u_{11} v_{11}, \dots, u_{nn} v_{nn})$, by the [[product theorem|45RET2Y995]].
+- A strictly upper triangular $N$ of order $n$ satisfies $N^n = 0$, by the [[nilpotency theorem|AW5RBMW7RK]].
 - The transpose of an upper triangular matrix is lower triangular, so each fact has a lower triangular twin.
 - The [[determinant|0K1KKMFHYH]] is the product of the diagonal entries, and $U$ is [[invertible|7X1B65CTG4]] over a field exactly when no diagonal entry is $0$; the inverse is again upper triangular.
 - Over a field, the diagonal entries are the [[eigenvalues|0BQAA2BK3Q]], with multiplicity.
