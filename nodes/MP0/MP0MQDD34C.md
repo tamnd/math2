@@ -1,0 +1,79 @@
+---
+tag: MP0MQDD34C
+kind: proof
+name: Proof of the equivalent conditions for a linear isometry
+msc: ["15A04", "46C05"]
+topics: [AZS5BPF5H3]
+audience: ug1
+proves: 95ST99SEW7
+uses: [05FKHRT0B4, 09VYHEF2VT, 0Y85GYEGSF, 0FWJ0VW561, 0ST8QF9T3T, 0W4FSW1TVB]
+methods: [0NTF6DMVAP]
+sources:
+  - url: https://en.wikipedia.org/wiki/Polarization_identity
+    locator: Isometries
+  - book: isbn:9783031410253
+    locator: Chapter 7
+---
+
+## Proof
+
+We prove the implications from 1 to 2, 2 to 3, 3 to 4, 4 to 5 and 5 to 1.
+Then we prove that 5, 6 and 7 are equivalent when $\dim V = \dim W$.
+
+**From 1 to 2.**
+
+1. Assume condition 1, and let $u, v \in V$. First let $\mathbb{K} = \R$.
+2. The [[polarization identity|05FKHRT0B4]] in $W$ gives $\ip{Tu}{Tv} = \frac{1}{4}\left(\norm{Tu + Tv}^2 - \norm{Tu - Tv}^2\right)$.
+3. $T$ is linear, so $Tu + Tv = T(u + v)$ and $Tu - Tv = T(u - v)$.
+4. By condition 1, $\norm{T(u + v)} = \norm{u + v}$ and $\norm{T(u - v)} = \norm{u - v}$.
+5. So $\ip{Tu}{Tv} = \frac{1}{4}\left(\norm{u + v}^2 - \norm{u - v}^2\right)$, and this is $\ip{u}{v}$ by the polarization identity in $V$.
+6. Now let $\mathbb{K} = \C$. The complex polarization identity is $\ip{x}{y} = \frac{1}{4}\sum_{k=0}^{3} i^k \norm{x + i^k y}^2$.
+7. By linearity, $Tu + i^k Tv = T(u + i^k v)$, and condition 1 gives $\norm{T(u + i^k v)} = \norm{u + i^k v}$ for $k = 0, 1, 2, 3$.
+8. So the identity for $\ip{Tu}{Tv}$ in $W$ has the same four terms as the identity for $\ip{u}{v}$ in $V$. Hence $\ip{Tu}{Tv} = \ip{u}{v}$.
+
+**From 2 to 3.**
+
+9. Let $f_1, \dots, f_m$ be an [[orthonormal family|09VYHEF2VT]] of $V$. So $\ip{f_j}{f_k} = 1$ for $j = k$, and $\ip{f_j}{f_k} = 0$ for $j \neq k$.
+10. By condition 2, $\ip{Tf_j}{Tf_k} = \ip{f_j}{f_k}$ for all $j$ and $k$. So $Tf_1, \dots, Tf_m$ is an orthonormal family of $W$.
+
+**From 3 to 4.**
+
+11. $V$ is finite-dimensional, so it has an [[orthonormal basis|0FWJ0VW561]], by [[the existence theorem|0Y85GYEGSF]].
+12. Condition 3 applies to this basis, and it gives condition 4.
+
+**From 4 to 5.**
+
+13. Let $e_1, \dots, e_n$ be as in condition 4, and let $u = \sum_j a_j e_j$ and $v = \sum_k b_k e_k$ with $a_j, b_k \in \mathbb{K}$.
+14. The inner product is linear in the first argument and conjugate-linear in the second, and $T$ is linear. So $\ip{Tu}{Tv} = \sum_{j, k} a_j \overline{b_k} \ip{Te_j}{Te_k}$.
+15. By condition 4, $\ip{Te_j}{Te_k}$ is $1$ for $j = k$ and $0$ otherwise. So $\ip{Tu}{Tv} = \sum_j a_j \overline{b_j}$.
+16. The same computation in $V$, with the orthonormal basis $e_1, \dots, e_n$, gives $\ip{u}{v} = \sum_j a_j \overline{b_j}$. So $\ip{Tu}{Tv} = \ip{u}{v}$.
+17. By the definition of the [[adjoint|0ST8QF9T3T]], $\ip{Tu}{Tv} = \ip{u}{T^*Tv}$. With step 16, $\ip{u}{T^*Tv - v} = 0$ for all $u, v \in V$.
+18. Fix $v$ and take $u = T^*Tv - v$. Then $\norm{T^*Tv - v}^2 = 0$, so $T^*Tv = v$. This holds for every $v$, so $T^*T = I_V$.
+
+**From 5 to 1.**
+
+19. Let $v \in V$. By the definition of the adjoint and condition 5, $\norm{Tv}^2 = \ip{Tv}{Tv} = \ip{v}{T^*Tv} = \ip{v}{v} = \norm{v}^2$.
+20. Norms are nonnegative, so $\norm{Tv} = \norm{v}$.
+
+**Equal dimensions.** Now let $\dim V = \dim W = n$.
+
+21. Assume condition 5. If $Tv = 0$, then $v = T^*Tv = T^*0 = 0$. So $T$ is injective.
+22. By [[the rank-nullity theorem|0W4FSW1TVB]], the range of $T$ has dimension $n - 0 = \dim W$. So $T$ is surjective, and $T$ is invertible.
+23. Then $T^* = T^*(TT^{-1}) = (T^*T)T^{-1} = T^{-1}$, by condition 5. This is condition 6.
+24. Assume condition 6. Then $TT^* = TT^{-1} = I_W$. This is condition 7.
+25. Assume condition 7. If $T^*w = 0$, then $w = TT^*w = 0$, so $T^* \colon W \to V$ is injective. By rank-nullity, $T^*$ is invertible.
+26. Then $T = T(T^*(T^*)^{-1}) = (TT^*)(T^*)^{-1} = (T^*)^{-1}$. So $T^*T = T^*(T^*)^{-1} = I_V$. This is condition 5.
+
+So conditions 1 to 5 are equivalent, and they are equivalent to conditions 6 and 7 when $\dim V = \dim W$.
+
+## Idea
+
+The polarization identity writes inner products with norms, so a map that keeps norms keeps inner products.
+An inner product is fixed by its values on an orthonormal basis, so a finite check is enough.
+The adjoint turns "keeps inner products" into the operator equation $T^*T = I$.
+For equal dimensions, rank-nullity turns a one-sided inverse into a two-sided inverse.
+
+## Variants
+
+- From 1 to 5 directly: the operator $S = T^*T - I$ is self-adjoint, and $\ip{Sv}{v} = \norm{Tv}^2 - \norm{v}^2 = 0$ for all $v$. A self-adjoint operator with this property is $0$.
+- From 4 to 5 with matrices: the matrix $A$ of $T$ in orthonormal bases has the columns $Te_j$ in coordinates. The entries of $A^*A$ are the inner products $\ip{Te_k}{Te_j}$, so condition 4 says $A^*A = I$.

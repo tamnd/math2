@@ -1,0 +1,50 @@
+---
+tag: R304WJSMWX
+kind: example
+name: The matrices with determinant plus or minus one are not the orthogonal group
+msc: ["15B10", "20G20"]
+topics: [AZS5BPF5H3]
+audience: ug2
+not_instance_of:
+  - target: WWK2E8BRGF
+    note: the group contains the shear with rows (1, 1) and (0, 1), which has determinant 1 but is not an orthogonal matrix
+uses: [0QRBVFJ50X, 0C3CFHDN6R, 0N0PXCTYA7]
+sources:
+  - url: https://en.wikipedia.org/wiki/Orthogonal_group
+    locator: lead section
+---
+
+## Example
+
+Let $G = \set{A \in M_2(\R) : \det A = 1 \text{ or } \det A = -1}$, with matrix multiplication.
+We check that $G$ is a group, and that it is not the [[orthogonal group|WWK2E8BRGF]] $O(2)$.
+
+1. $G$ is a group: $\det(I) = 1$, $\det(AB) = \det A \det B = \pm 1$, and $\det(A^{-1}) = (\det A)^{-1} = \pm 1$.
+2. Let $S = \begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$, the shear. Its [[determinant|0C3CFHDN6R]] is $1 \cdot 1 - 1 \cdot 0 = 1$, so $S \in G$.
+3. $S^TS = \begin{pmatrix} 1 & 0 \\ 1 & 1 \end{pmatrix}\begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix} = \begin{pmatrix} 1 & 1 \\ 1 & 2 \end{pmatrix} \neq I_2$.
+4. So $S$ is not [[orthogonal|0QRBVFJ50X]], and $S \notin O(2)$.
+5. A length check: $S$ sends $(0, 1)$, of length $1$, to $(1, 1)$, of length $\sqrt{2}$.
+6. So $G$ contains $O(2)$, by [[the determinant theorem|QDZJMFATRW]], but $G \neq O(2)$.
+
+## Remarks
+
+- The example shows that the condition $\det A = \pm 1$ keeps areas, but not lengths.
+- The powers $S^k = \begin{pmatrix} 1 & k \\ 0 & 1 \end{pmatrix}$ have unbounded entries, so $G$ is not compact. In $O(2)$, all entries lie in $[-1, 1]$.
+- The shear $\begin{pmatrix} 1 & t \\ 0 & 1 \end{pmatrix}$ is orthogonal only for $t = 0$, because its second column $(t, 1)$ has length $\sqrt{t^2 + 1}$.
+- In the same way, the special linear group $SL_2(\R)$ is larger than $SO(2)$.
+
+## Explanations
+
+### L1 human
+
+A shear slides the top of a square sideways, so the square becomes a slanted shape.
+The area stays the same, but the slanted sides are longer.
+So a shear does not keep lengths, and it is not in the orthogonal group.
+The group of all matrices that keep areas is therefore larger than the orthogonal group.
+
+### L2 human
+
+The worked check is in the Example.
+The typical use: to show that a matrix is not orthogonal, find one vector whose length changes.
+A trap: a matrix with determinant $1$ is not always a rotation.
+Determinant $1$ means only that areas and orientation stay the same.

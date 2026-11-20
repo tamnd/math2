@@ -1,0 +1,108 @@
+---
+tag: 6WBVP2PB1Y
+kind: concept
+name: Special orthogonal group
+aliases: [rotation-group, special-orthogonal-group-so-n]
+msc: ["15B10", "20G20"]
+topics: [AZS5BPF5H3]
+audience: ug2
+uses: [WWK2E8BRGF, 0C3CFHDN6R, 0N0PXCTYA7, 0W77CVBCHQ]
+sources:
+  - url: https://en.wikipedia.org/wiki/Orthogonal_group
+    locator: Special orthogonal group
+  - url: https://en.wikipedia.org/wiki/Circle_group
+    locator: Special orthogonal group SO(2)
+  - url: https://en.wikipedia.org/wiki/Cayley_transform
+    locator: Matrix map
+  - book: isbn:9780134860244
+    locator: Section 6.11
+---
+
+## Summary
+
+Let $n \ge 1$.
+The *special orthogonal group* $SO(n)$ is the set of real orthogonal $n \times n$ matrices with [[determinant|0C3CFHDN6R]] $1$, $SO(n) = \set{Q \in O(n) : \det Q = 1}$.
+It is a [[normal subgroup|0W77CVBCHQ]] of index $2$ of the [[orthogonal group|WWK2E8BRGF]] $O(n)$, by [[this theorem|XAVVA317M0]].
+Its elements are the *rotations* of $\R^n$: the linear isometries that keep the orientation.
+The group $SO(2)$ is the group of plane rotations $R(\theta)$, and it is isomorphic to the circle group.
+The group $SO(3)$ is the group of rotations of space, and each of its elements turns space about a fixed axis.
+
+## Motivation
+
+A rigid body that moves around a fixed point cannot become its own mirror image during the motion.
+So the motions of the body form a smaller group than $O(n)$.
+The determinant detects the mirror images: it is $-1$ on them.
+So we keep only the orthogonal matrices with determinant $1$.
+This group describes the positions of a rigid body with a fixed point, for example a spinning top.
+
+## Notation
+
+- Books write $SO(n)$, $SO_n(\R)$, $SO(n, \R)$ or $O^+(n)$.
+- Mathlib writes `Matrix.specialOrthogonalGroup (Fin n) ℝ`.
+- Some authors call the elements of $SO(n)$ the "orthogonal transformations". In this topic, that name means any element of $O(n)$.
+- In this topic, "rotation" means an element of $SO(n)$, and $R(\theta) = \begin{pmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{pmatrix}$ is the [[rotation matrix|HNY4CPEEJA]] of the plane.
+
+## Remarks
+
+### Examples
+
+- $SO(1) = \set{(1)}$, the trivial group.
+- $SO(2) = \set{R(\theta) : \theta \in \R}$, and $R(\theta)R(\varphi) = R(\theta + \varphi)$, by [[the classification of O(2)|C97Z06HHB2]].
+- [[The rotation by sixty degrees about the diagonal|TFWTJ9K6K7]] is an element of $SO(3)$ with axis $(1, 1, 1)$.
+- [[The half turn diag(−1, −1, 1)|EKK87GQF5W]] is an element of $SO(3)$. It turns space by $\pi$ about the $z$-axis.
+- The $24$ signed permutation matrices of size $3$ with determinant $1$ form a subgroup of $SO(3)$, the rotation group of the cube.
+
+### Non-examples
+
+- [[The matrix −I₃|X77QN4Y9VD]] is orthogonal, but its determinant is $-1$, so it is not in $SO(3)$.
+- A reflection in a line of $\R^2$, for example $\operatorname{diag}(1, -1)$, has determinant $-1$, so it is not in $SO(2)$.
+- The shear $\begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$ has determinant $1$, but it is not orthogonal, so it is not in $SO(2)$.
+
+### Basic properties
+
+- $SO(n)$ is the [[kernel|0Z424HK8CQ]] of the homomorphism $\det \colon O(n) \to \set{1, -1}$. So it is a normal subgroup, of index $2$, see [[this theorem|XAVVA317M0]].
+- $SO(2)$ is commutative, and it is isomorphic to the [[circle group|04EAFVFTF7]] by $R(\theta) \mapsto e^{i\theta}$.
+- $SO(n)$ is not commutative for $n \ge 3$, see [[the rotations about two axes|F1KZ5GE4TC]].
+- For $n$ odd, $-I_n \notin SO(n)$, and $O(n)$ is the direct product of $SO(n)$ and $\set{I_n, -I_n}$.
+- Each element of $SO(3)$ is a rotation about an axis, by [[Euler's rotation theorem|2ZVG43GSKA]].
+- $SO(n)$ is the connected component of the identity in $O(n)$. It is a compact [[Lie group|7JBRGCVJRB]] of dimension $\frac{n(n - 1)}{2}$.
+
+### History
+
+The [[Cayley transform|HKQ5YY027B]] of 1846, by Cayley, gives a rational parametrization of most elements of $SO(n)$ by skew-symmetric matrices.
+
+### Common errors
+
+- "Determinant $1$" alone is not enough. A matrix in $SO(n)$ must also be orthogonal, and the shear above shows the difference.
+- $-I_n$ is in $SO(n)$ when $n$ is even. For example, $-I_2 = R(\pi)$ is the half turn of the plane, not a reflection.
+- In $\R^3$, the map $x \mapsto -x$ is not a rotation. It is a rotation by $\pi$ followed by a reflection, see [[the classification of O(3)|2ZVG43GSKA]].
+
+## Explanations
+
+### L1 human
+
+A rotation turns space about a fixed point and never makes a mirror image.
+In the plane, a rotation turns everything about the origin by a fixed angle.
+In space, a rotation turns everything about a fixed line, the axis.
+Two rotations done one after the other give another rotation.
+The special orthogonal group is the collection of all these rotations.
+
+### L2 human
+
+Worked example: we check that $Q = \begin{pmatrix} 0 & 0 & 1 \\ 1 & 0 & 0 \\ 0 & 1 & 0 \end{pmatrix}$ is in $SO(3)$.
+
+1. The columns of $Q$ are $e_2$, $e_3$ and $e_1$. They are orthonormal, so $Q$ is orthogonal.
+2. Expand along the first row: $\det Q = 1 \cdot \det\begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix} = 1$. The sign of the $(1, 3)$ position is $(-1)^{1 + 3} = 1$.
+3. So $Q \in SO(3)$.
+4. $Q$ sends $e_1 \mapsto e_2 \mapsto e_3 \mapsto e_1$, and it fixes $(1, 1, 1)$. So it is a rotation about the axis through $(1, 1, 1)$, by the angle $\frac{2\pi}{3}$, see [[this example|E6SGA0X325]].
+
+The typical use: a change between two right-handed orthonormal bases is an element of $SO(n)$.
+A trap: a permutation matrix of a transposition, for example the swap of $e_1$ and $e_2$, has determinant $-1$.
+
+### L3 human
+
+$SO(n)$ is a compact connected Lie group of dimension $\frac{n(n - 1)}{2}$, and its Lie algebra is the space of real skew-symmetric matrices.
+The exponential map from this Lie algebra onto $SO(n)$ is surjective, by the [[normal form|QTY3VMFGY1]]: each block $R(\theta)$ is the exponential of $\begin{pmatrix} 0 & -\theta \\ \theta & 0 \end{pmatrix}$.
+For $n \ge 3$, the fundamental group of $SO(n)$ is $\Z/2\Z$, and its universal cover is the [[spin group|JJSXXJQGEH]].
+For $n = 3$, this cover is $SU(2) \to SO(3)$, see [[the unit quaternions|EAK8KT5AMD]].
+The Lie theory of $SO(n)$ belongs to the area of Lie groups.
