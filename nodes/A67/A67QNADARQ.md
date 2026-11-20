@@ -1,0 +1,77 @@
+---
+tag: A67QNADARQ
+kind: proof
+name: Proof of the Jordan-von Neumann theorem
+msc: ["46C15", "39B52"]
+topics: [1D4JTZ9VS3]
+audience: ug2
+proves: 46WGVM5VS6
+methods: [TFQ1845T84, 0NTF6DMVAP, 0ASJVEFA9J, J2J35J3055, GQHHNV79PA, DX2H7AD66G]
+uses: [00A0RPAQ8A, 0VGSYBWHV2, 026HPGYGS4, 05FKHRT0B4, 0FJZMBX0ZZ, 0STX0WRDNG, 055Z15H69G, 05M5SWSZZD, KF719SZD5T]
+sources:
+  - url: https://en.wikipedia.org/wiki/Polarization_identity
+    locator: Jordan–von Neumann theorems
+  - url: https://en.wikipedia.org/wiki/Parallelogram_law
+    locator: Normed vector spaces satisfying the parallelogram law
+---
+
+## Proof
+
+The direction from 1 to 2 is the [[parallelogram law|026HPGYGS4]], which holds in every inner product space.
+We prove the direction from 2 to 1, first over $\mathbb{R}$, then over $\mathbb{C}$, and then the uniqueness.
+Let $(V, \norm{\cdot})$ be a [[normed vector space|00A0RPAQ8A]] whose norm satisfies the parallelogram law.
+
+Part A: the real case.
+Let $\mathbb{K} = \mathbb{R}$, and for $x, y \in V$ define
+$$r(x, y) = \frac14\left(\norm{x + y}^2 - \norm{x - y}^2\right).$$
+
+1. Symmetry. $\norm{y - x} = \norm{(-1)(x - y)} = \norm{x - y}$ by homogeneity of the norm. So $r(y, x) = r(x, y)$.
+2. The diagonal. $r(x, x) = \frac14(\norm{2x}^2 - \norm{0}^2) = \frac14 \cdot 4\norm{x}^2 = \norm{x}^2$, by homogeneity.
+3. Signs. $r(-x, y) = \frac14(\norm{y - x}^2 - \norm{-(x + y)}^2) = -r(x, y)$, by homogeneity. With $x = 0$ this gives $r(0, y) = -r(0, y)$, so $r(0, y) = 0$.
+4. A key identity. Apply the parallelogram law to the pair $(u + y, v)$ and to the pair $(u - y, v)$. This gives $\norm{u + v + y}^2 + \norm{u - v + y}^2 = 2\norm{u + y}^2 + 2\norm{v}^2$ and $\norm{u + v - y}^2 + \norm{u - v - y}^2 = 2\norm{u - y}^2 + 2\norm{v}^2$.
+5. Subtract the second equation of step 4 from the first, and divide by $4$. The terms $2\norm{v}^2$ cancel, and we get $r(u + v, y) + r(u - v, y) = 2r(u, y)$ for all $u, v, y \in V$.
+6. Doubling. Put $v = u$ in step 5. Since $r(0, y) = 0$ by step 3, we get $r(2u, y) = 2r(u, y)$.
+7. Additivity. Let $x, x' \in V$, and put $u = \frac12(x + x')$ and $v = \frac12(x - x')$. Then $u + v = x$ and $u - v = x'$.
+8. Step 5 gives $r(x, y) + r(x', y) = 2r(u, y)$, and step 6 gives $2r(u, y) = r(2u, y) = r(x + x', y)$. So $r(x + x', y) = r(x, y) + r(x', y)$.
+9. Integer multiples. For $n \geq 0$, induction on $n$ with step 8 gives $r(nx, y) = n\,r(x, y)$: the case $n = 0$ is step 3, and $r((n + 1)x, y) = r(nx, y) + r(x, y)$. For $n < 0$, step 3 gives $r(nx, y) = -r(|n|x, y) = n\,r(x, y)$.
+10. Rational multiples: let $q = m/n$ with $m, n$ integers and $n \geq 1$. By step 9, $n\,r(qx, y) = r(nqx, y) = r(mx, y) = m\,r(x, y)$. So $r(qx, y) = q\,r(x, y)$.
+11. Continuity. Fix $x, y$, and let $g(t) = r(tx, y)$ for real $t$. By the reverse [[triangle inequality for norms|0FJZMBX0ZZ]], $\big|\norm{tx \pm y} - \norm{sx \pm y}\big| \leq \norm{(t - s)x} = |t - s|\,\norm{x}$.
+12. So $t \mapsto \norm{tx + y}$ and $t \mapsto \norm{tx - y}$ are continuous functions of $t$. Their squares and the difference of the squares are continuous too, so $g$ is continuous.
+13. Real multiples: let $t \in \mathbb{R}$. By the [[density of the rationals|0STX0WRDNG]], for each $k \geq 1$ there is a rational $q_k$ with $t < q_k < t + \frac1k$. Then $q_k \to t$, in the sense of the [[limit of a sequence|05M5SWSZZD]].
+14. By step 10, $g(q_k) = q_k\,r(x, y) \to t\,r(x, y)$. By step 12 and [[sequential continuity|055Z15H69G]], $g(q_k) \to g(t)$. A sequence has only one limit, so $r(tx, y) = t\,r(x, y)$.
+15. Conclusion of part A: by steps 8 and 14, $r$ is linear in the first argument. By step 1 it is symmetric. By step 2, $r(x, x) = \norm{x}^2 > 0$ for $x \neq 0$, since a norm vanishes only at $0$.
+16. So $r$ is an [[inner product|0VGSYBWHV2]] on the real space $V$, and its induced norm is $\sqrt{r(x, x)} = \norm{x}$.
+
+Part B: the complex case.
+Let $\mathbb{K} = \mathbb{C}$.
+Every complex vector space is also a real vector space, and the norm still satisfies the law.
+So part A gives a real inner product $r$ on $V$ with $r(x, x) = \norm{x}^2$.
+Define
+$$\ip{x}{y} = r(x, y) + i\,r(x, iy).$$
+
+17. Multiplication by $i$ preserves the norm, because $\norm{iz} = |i|\,\norm{z} = \norm{z}$. With $z = x \pm y$, this gives $\norm{ix \pm iy} = \norm{x \pm y}$, so $r(ix, iy) = r(x, y)$.
+18. By step 17 applied to $ix$ and $y$, and by step 3, $r(ix, y) = r(i \cdot ix, iy) = r(-x, iy) = -r(x, iy)$.
+19. With $y = x$, step 18 gives $r(ix, x) = -r(x, ix)$. By symmetry $r(ix, x) = r(x, ix)$, so $r(x, ix) = 0$.
+20. Real linearity. By part A, $r$ is real-linear in its first argument. So $\ip{\cdot}{y}$ is additive and $\ip{tx}{y} = t\ip{x}{y}$ for real $t$.
+21. The factor $i$. By steps 18 and 17, $\ip{ix}{y} = r(ix, y) + i\,r(ix, iy) = -r(x, iy) + i\,r(x, y) = i\left(r(x, y) + i\,r(x, iy)\right) = i\ip{x}{y}$.
+22. Complex linearity. For $a = s + ti$ with $s, t$ real, steps 20 and 21 give $\ip{ax}{y} = s\ip{x}{y} + t\ip{ix}{y} = (s + ti)\ip{x}{y}$. So axiom 1 holds.
+23. Conjugate symmetry. By symmetry of $r$ and step 18, $\ip{y}{x} = r(y, x) + i\,r(y, ix) = r(x, y) + i\,r(ix, y) = r(x, y) - i\,r(x, iy) = \overline{\ip{x}{y}}$.
+24. The diagonal. By step 19, $\ip{x}{x} = r(x, x) + i \cdot 0 = \norm{x}^2$, which is $> 0$ for $x \neq 0$. So $\ip{\cdot}{\cdot}$ is a complex inner product, and it induces $\norm{\cdot}$.
+25. The formula. Expand $r(x, y) + i\,r(x, iy) = \frac14\left(\norm{x + y}^2 - \norm{x - y}^2\right) + \frac{i}{4}\left(\norm{x + iy}^2 - \norm{x - iy}^2\right)$. Since $i^2 = -1$ and $i^3 = -i$, this is $\frac14\sum_{k=0}^{3} i^k\norm{x + i^k y}^2$.
+
+Part C: uniqueness.
+
+26. Let $\ip{\cdot}{\cdot}'$ be any inner product on $V$ with $\ip{x}{x}' = \norm{x}^2$. Apply the [[polarization identity|05FKHRT0B4]] to it. Its values are the formula of part A over $\mathbb{R}$, and of step 25 over $\mathbb{C}$.
+27. These formulas involve only the norm. So $\ip{\cdot}{\cdot}'$ equals the inner product that we built, and the inner product is unique.
+
+## Idea
+
+Define the candidate inner product by the polarization formula, since any inner product that induces the norm must have this form.
+The parallelogram law gives additivity in the first argument, and additivity gives homogeneity for rational scalars.
+The continuity of the norm and the density of $\mathbb{Q}$ in $\mathbb{R}$ extend homogeneity to all real scalars.
+Over $\mathbb{C}$, the isometry $x \mapsto ix$ turns the real inner product into the real part of a complex one.
+
+## Variants
+
+- One can prove homogeneity in step 14 without sequences: an additive function $\mathbb{R} \to \mathbb{R}$ that is continuous at one point is linear. The node on [[additive functions|KF719SZD5T]] discusses this.
+- The [[quadratic functional equation|7MZGZFQ347]] treats the same argument for a general function $f$ with $f(x + y) + f(x - y) = 2f(x) + 2f(y)$.
