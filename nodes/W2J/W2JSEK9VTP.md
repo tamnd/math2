@@ -1,0 +1,52 @@
+---
+tag: W2JSEK9VTP
+kind: proof
+name: Proof that projections correspond to direct sum decompositions
+msc: ["15A04"]
+topics: [QHKTJ89V6S]
+audience: ug1
+proves: 2ZX5Q7V4VN
+methods: [0NTF6DMVAP, 01XM7JEKHY]
+uses: [0RH4E3CAV9, 041JTZCK9Q, 20A0K3KBZD, 02YFME3RGW, 0JB228DCWB]
+sources:
+  - url: https://en.wikipedia.org/wiki/Projection_(linear_algebra)
+    locator: Properties and classification
+  - book: isbn:9783031410253
+    locator: Section 3E
+---
+
+## Proof
+
+Part 1: let $P$ be a [[projection|0RH4E3CAV9]].
+
+1. Let $v \in \operatorname{im} P$, the [[image|0JB228DCWB]], so $v = P x$ for some $x$. Then $P v = P^2 x = P x = v$. So $P$ fixes each vector of its image.
+2. For $v \in V$, write $v = P v + (v - P v)$. The first term lies in $\operatorname{im} P$. And $P(v - P v) = P v - P^2 v = 0$, so the second term lies in the [[kernel|02YFME3RGW]] $\ker P$. Hence $V = \operatorname{im} P + \ker P$.
+3. If $v \in \operatorname{im} P \cap \ker P$, then $v = P v$ by step 1 and $P v = 0$. So $v = 0$.
+4. By the [[criteria for a direct sum|20A0K3KBZD]], $V = \operatorname{im} P \oplus \ker P$.
+5. $(I - P)^2 = I - 2P + P^2 = I - P$, so $I - P$ is a projection.
+6. If $v \in \ker P$, then $(I - P) v = v$, so $\ker P \subseteq \operatorname{im}(I - P)$. Conversely, $P (I - P) = P - P^2 = 0$, so $\operatorname{im}(I - P) \subseteq \ker P$.
+7. $(I - P) v = 0$ means $P v = v$, which holds exactly for $v \in \operatorname{im} P$, by step 1 and since $P v \in \operatorname{im} P$. So $\ker(I - P) = \operatorname{im} P$.
+
+Part 2: let $V = U \oplus W$ be a [[direct sum|041JTZCK9Q]].
+
+8. Each $v$ has a unique decomposition $v = u + w$, so $P_{U, W}(v) = u$ is well defined.
+9. If $v = u + w$ and $v' = u' + w'$, then $v + v' = (u + u') + (w + w')$ and $a v = a u + a w$ are the decompositions of $v + v'$ and $a v$, by uniqueness. So $P_{U, W}$ is linear.
+10. For $u \in U$, the decomposition is $u = u + 0$, so $P_{U, W}(u) = u$. Hence $P_{U, W}^2 (v) = P_{U, W}(u) = u = P_{U, W}(v)$.
+11. The image lies in $U$ by definition, and contains $U$ by step 10. So the image is $U$.
+12. $P_{U, W}(u + w) = 0$ exactly when $u = 0$, that is, when $v = w \in W$. So the kernel is $W$.
+
+Part 3: the two maps are inverse to each other.
+
+13. By part 2, the composite $(U, W) \mapsto P_{U, W} \mapsto (\operatorname{im} P_{U, W}, \ker P_{U, W})$ is the identity on pairs.
+14. Let $P$ be a projection, $U = \operatorname{im} P$ and $W = \ker P$. By step 2, the decomposition of $v$ in $U \oplus W$ is $v = P v + (v - P v)$. So $P_{U, W}(v) = P v$, and $P_{U, W} = P$.
+15. So the two maps are inverse to each other, and both are bijections.
+
+## Idea
+
+The identity $v = P v + (I - P) v$ splits each vector, and $P^2 = P$ makes the two parts land in the image and the kernel.
+Conversely, a unique decomposition defines the map that keeps one part.
+
+## Variants
+
+- Part 1 can be phrased with eigenvalues: $P^2 = P$ means that $x^2 - x = x(x - 1)$ annihilates $P$, so $V$ is the sum of the eigenspaces for $1$ and $0$, by the primary decomposition.
+- The same proof works for modules over any ring, where it shows that direct summands are images of idempotents.

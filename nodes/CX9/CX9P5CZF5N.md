@@ -1,0 +1,43 @@
+---
+tag: CX9P5CZF5N
+kind: example
+name: A two-dimensional quotient of R⁴
+msc: ["15A03"]
+topics: [QHKTJ89V6S]
+audience: ug1
+instance_of: [0BR3FY5Q8M]
+illustrates: [0SXDQ6TN00]
+uses: [0SVR29SV1V, 0VTQTPQGAV, 05G2G0P224]
+sources:
+  - url: https://en.wikipedia.org/wiki/Quotient_space_(linear_algebra)
+    locator: Properties
+---
+
+## Example
+
+Let $V = \R^4$ and $W = \operatorname{span}\{(1, 0, 1, 0), (0, 1, 0, 1)\}$.
+We check the [[dimension formula|0SXDQ6TN00]] by finding a basis of the [[quotient space|0SVR29SV1V]] $V / W$.
+
+1. The vectors $w_1 = (1, 0, 1, 0)$ and $w_2 = (0, 1, 0, 1)$ are independent, since neither is a multiple of the other. So $\dim W = 2$.
+2. Add $e_1 = (1, 0, 0, 0)$ and $e_2 = (0, 1, 0, 0)$. Then $e_3 = w_1 - e_1$ and $e_4 = w_2 - e_2$, so $w_1, w_2, e_1, e_2$ span $\R^4$. Four spanning vectors in a space of [[dimension|05G2G0P224]] $4$ form a [[basis|0VTQTPQGAV]].
+3. By the proof of the theorem, $e_1 + W$ and $e_2 + W$ form a basis of $V / W$. So $\dim(V / W) = 2 = 4 - 2$.
+4. To write the coset of $v = (3, 5, 7, 2)$ in this basis, solve $v = a w_1 + b w_2 + c e_1 + d e_2$. The third entry gives $a = 7$, the fourth gives $b = 2$, the first gives $c = 3 - 7 = -4$, and the second gives $d = 5 - 2 = 3$.
+5. So $(3, 5, 7, 2) + W = -4(e_1 + W) + 3(e_2 + W)$.
+
+## Remarks
+
+The map $(x_1, x_2, x_3, x_4) \mapsto (x_1 - x_3, x_2 - x_4)$ from $\R^4$ to $\R^2$ is linear, surjective and has kernel $W$.
+It induces an isomorphism $V / W \cong \R^2$ that sends $e_1 + W$ to $(1, 0)$ and $e_2 + W$ to $(0, 1)$.
+For $v = (3, 5, 7, 2)$, it gives $(-4, 3)$, which matches step 5.
+
+## Explanations
+
+### L1 human
+
+The subspace $W$ ties the first entry to the third and the second to the fourth.
+Modulo $W$, only the differences $x_1 - x_3$ and $x_2 - x_4$ matter, and these are two numbers.
+
+### L2 human
+
+The coordinates of a coset do not depend on the representative.
+For $v + w_1 = (4, 5, 8, 2)$, the same computation gives $a = 8$, $b = 2$, $c = -4$ and $d = 3$, so the coset has the same coordinates $(-4, 3)$.

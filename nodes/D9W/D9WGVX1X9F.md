@@ -1,0 +1,36 @@
+---
+tag: D9WGVX1X9F
+kind: proof
+name: Proof of the naturality of the evaluation map
+msc: ["15A04"]
+topics: [9K7FFF26QR]
+audience: ug2
+proves: R19758JQWE
+methods: [0NTF6DMVAP]
+uses: [0ZJM9D7NPS, 0C2TQMW5A1]
+sources:
+  - url: https://en.wikipedia.org/wiki/Natural_transformation
+    locator: Double dual of a vector space
+---
+
+## Proof
+
+Two elements of $W^{**}$ are equal when they agree on every $\varphi \in W^*$.
+So we fix $v \in V$ and $\varphi \in W^*$, and compare the values of both sides.
+
+1. By the definition of the [[dual map|0C2TQMW5A1]], applied to $f^*$, we have $f^{**}(\Psi) = \Psi \circ f^*$ for $\Psi \in V^{**}$.
+2. So $f^{**}(\operatorname{ev}_V(v))(\varphi) = \operatorname{ev}_V(v)(f^*(\varphi))$.
+3. By the definition of $\operatorname{ev}_V$, this is $(f^*(\varphi))(v)$.
+4. By the definition of $f^*$, $f^*(\varphi) = \varphi \circ f$. So the value is $\varphi(f(v))$.
+5. On the other side, the definition of $\operatorname{ev}_W$ gives $\operatorname{ev}_W(f(v))(\varphi) = \varphi(f(v))$.
+6. Steps 4 and 5 give the same value. Since $\varphi$ was arbitrary, $f^{**}(\operatorname{ev}_V(v)) = \operatorname{ev}_W(f(v))$.
+7. Since $v$ was arbitrary, $f^{**} \circ \operatorname{ev}_V = \operatorname{ev}_W \circ f$.
+
+## Idea
+
+Unwind the definitions: both sides send $\varphi$ to $\varphi(f(v))$.
+
+## Variants
+
+In finite dimension, one can check the square in bases instead.
+With dual bases, $f$ has matrix $A$, the map $f^{**}$ has matrix $(A^{\mathsf{T}})^{\mathsf{T}} = A$, and $\operatorname{ev}_V$, $\operatorname{ev}_W$ have identity matrices in the bases $(b_i)$ and $(b_i^{**})$.

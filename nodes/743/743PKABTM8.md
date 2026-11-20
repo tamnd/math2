@@ -3,6 +3,8 @@ tag: 743PKABTM8
 kind: proof
 name: Proof of the third isomorphism theorem for vector spaces
 msc: [15A03, 16D10]
+topics: [QHKTJ89V6S]
+audience: ug1
 proves: 07RB3EMBWW
 uses: [0MTBGVZ4XJ, 0ZERJX6PH6, 0BR3FY5Q8M, 0N4F5FMQZW, 00YC1D652K, 0NRYHJPQG2, 0S23E6YE83, 0WSFKKT6FF]
 sources:
@@ -28,4 +30,6 @@ We build the map $V / W \to V / U$ with the universal property and apply the fir
 
 ## Idea
 
-Since $W \subseteq U$, cosets of $W$ are finer than cosets of $U$, so each coset $v + W$ lies in a single coset $v + U$. This gives a surjective map $V / W \to V / U$. It sends $v + W$ to zero exactly when $v \in U$, so its kernel is $U / W$.
+Since $W \subseteq U$, cosets of $W$ are finer than cosets of $U$, so each coset $v + W$ lies in a single coset $v + U$.
+This gives a surjective map $V / W \to V / U$.
+It sends $v + W$ to zero exactly when $v \in U$, so its kernel is $U / W$.
