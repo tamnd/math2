@@ -24,12 +24,12 @@ Equivalently, $\tr [T]_{B'} = \tr [T]_B$ for any two bases $B$ and $B'$ of $V$.
 
 ### Why each hypothesis is needed
 
-- The same basis must be used for the domain and the codomain. For $\id$ on $\R^2$ with $B = (e_1, e_2)$ and $C = (2e_1, e_2)$, $[\id]_{C,B} = \operatorname{diag}(1/2, 1)$ has diagonal sum $3/2$, but $\tr \id = 2$. This is the [[non-example|~970c5f78]].
+- The same basis must be used for the domain and the codomain. For $\id$ on $\R^2$ with $B = (e_1, e_2)$ and $C = (2e_1, e_2)$, $[\id]_{C,B} = \operatorname{diag}(1/2, 1)$ has diagonal sum $3/2$, but $\tr \id = 2$. This is the [[non-example|VND2T4RZK8]].
 - $V$ must be finite-dimensional, so that $T$ has a square matrix with finitely many diagonal entries.
 
 ### Consequences
 
-- The trace of $T$ can be computed in the most convenient basis. For a [[projection|033DA1WE8Y]] this gives $\tr P = (\rank P) \cdot 1_F$, by the [[theorem on the trace of a projection|~f21ebbcb]].
+- The trace of $T$ can be computed in the most convenient basis. For a [[projection|033DA1WE8Y]] this gives $\tr P = (\rank P) \cdot 1_F$, by the [[theorem on the trace of a projection|BJTJ41YW55]].
 - Similar matrices have the same trace, since they are the matrices of one endomorphism in two bases.
 - If $T$ has a basis of eigenvectors with eigenvalues $\lambda_1, \dots, \lambda_n$, then $\tr T = \lambda_1 + \dots + \lambda_n$.
 
@@ -41,7 +41,7 @@ On $\R^2$, the zero map and the map with matrix $\operatorname{diag}(1, -1)$ bot
 ### Generalizations
 
 - The same statement holds for a free module of finite rank over a commutative ring, with the same proof.
-- The determinant and the characteristic polynomial of $T$ are also independent of the basis, by the [[theorem on similarity invariants|~b354e4d1]].
+- The determinant and the characteristic polynomial of $T$ are also independent of the basis, by the [[theorem on similarity invariants|191HBJ7PVZ]].
 
 ## History
 

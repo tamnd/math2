@@ -40,15 +40,15 @@ In Mathlib, the column space is `LinearMap.range (Matrix.mulVecLin A)`.
 
 ### Examples
 
-- [[A $3 \times 4$ matrix|~e2144491]]: the pivot columns $(1, 2, 3)$ and $(0, 1, 1)$ are a basis, and the column space is the plane $w = u + v$.
-- [[A $3 \times 2$ matrix and consistency|~1683419d]]: the column space is the plane $2u - v + 2w = 0$, and this equation tests whether $Ax = b$ is solvable.
+- [[A $3 \times 4$ matrix|AGHYPF25CY]]: the pivot columns $(1, 2, 3)$ and $(0, 1, 1)$ are a basis, and the column space is the plane $w = u + v$.
+- [[A $3 \times 2$ matrix and consistency|WK9NW65N8Z]]: the column space is the plane $2u - v + 2w = 0$, and this equation tests whether $Ax = b$ is solvable.
 - The column space of an invertible $n \times n$ matrix is all of $F^n$.
 - The column space of the zero matrix is $\{0\}$.
 - The column space of $\begin{pmatrix} 1 & 2 \\ 2 & 4 \end{pmatrix}$ is the line spanned by $(1, 2)$.
 
 ### Non-examples
 
-- [[The span of the pivot columns of the reduced form|~41f359cb]]: for $\begin{pmatrix} 1 & 2 \\ 2 & 4 \end{pmatrix}$ it is the line spanned by $(1, 0)$, not the column space.
+- [[The span of the pivot columns of the reduced form|K21W7FA8MQ]]: for $\begin{pmatrix} 1 & 2 \\ 2 & 4 \end{pmatrix}$ it is the line spanned by $(1, 0)$, not the column space.
 - The span of the rows of a non-square matrix lies in a different space. For a $2 \times 3$ matrix, the rows lie in $F^3$ and the column space lies in $F^2$.
 
 ### Basic properties
@@ -58,7 +58,7 @@ In Mathlib, the column space is `LinearMap.range (Matrix.mulVecLin A)`.
 - $\operatorname{Col}(AB) \subseteq \operatorname{Col}(A)$, since $ABx = A(Bx)$. This gives $\rank AB \le \rank A$ in the [[rank inequality|02FDWY55AS]].
 - $\operatorname{Col}(AE) = \operatorname{Col}(A)$ for each invertible $E$. So column operations keep the column space, but row operations do not.
 - $\dim \operatorname{Col}(A) = \dim \operatorname{Col}(A^\top)$, by the theorem that [[row rank equals column rank|0TZAG60ZYT]].
-- Over $\R$, $\operatorname{Col}(A)$ is the orthogonal complement of the null space of $A^\top$, by the [[theorem on the four fundamental subspaces|~c3d8720b]].
+- Over $\R$, $\operatorname{Col}(A)$ is the orthogonal complement of the null space of $A^\top$, by the [[theorem on the four fundamental subspaces|73DVECPAT6]].
 
 ### History
 

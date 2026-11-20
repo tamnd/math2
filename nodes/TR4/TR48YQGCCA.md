@@ -66,7 +66,7 @@ So the two numbers add up to the number of columns.
 
 The null space is a subspace of $F^n$, the space of column vectors with $n$ entries.
 The claim splits $n$ into the part that $A$ keeps, the rank, and the part that $A$ sends to zero, the nullity.
-For the [[$3 \times 4$ example|~9b3c620b]], the rank is $2$ and the nullity is $2$.
+For the [[$3 \times 4$ example|GG03BSSZ43]], the rank is $2$ and the nullity is $2$.
 
 ### L3 human
 

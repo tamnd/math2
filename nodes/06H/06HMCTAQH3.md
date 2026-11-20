@@ -38,20 +38,20 @@ For the standard bases of `n → R` and `m → R`, Mathlib also has `Matrix.toLi
 
 ### Examples
 
-- [[One matrix in two bases|~0904e24c]]: the matrix $\begin{pmatrix} 1 & 2 \\ 0 & 1 \end{pmatrix}$ gives a shear in the standard basis and the map $(x, y) \mapsto (-x + 2y, -2x + 3y)$ in the basis $((1, 1), (0, 1))$.
-- [[The maps of the matrix units|~7908f252]]: they form a basis of $\Hom(\R^3, \R^2)$.
+- [[One matrix in two bases|V8J40J1DKG]]: the matrix $\begin{pmatrix} 1 & 2 \\ 0 & 1 \end{pmatrix}$ gives a shear in the standard basis and the map $(x, y) \mapsto (-x + 2y, -2x + 3y)$ in the basis $((1, 1), (0, 1))$.
+- [[The maps of the matrix units|XQB25QZHAH]]: they form a basis of $\Hom(\R^3, \R^2)$.
 - In the standard bases, the map of $\begin{pmatrix} 1 & 0 & -1 \end{pmatrix}$ is the linear form $(x, y, z) \mapsto x - z$ on $\R^3$.
 - The map of the identity matrix $I_n$ in bases $B$ and $B$ is the identity of $V$.
 - The map of the $m \times n$ zero matrix is the zero map, for every choice of bases.
 
 ### Non-examples
 
-- [[A translation|~dda8192e]]: the map $x \mapsto x + (1, 0)$ of $\R^2$ is not linear, so it is not the map of any matrix.
+- [[A translation|PGCAMM8J4T]]: the map $x \mapsto x + (1, 0)$ of $\R^2$ is not linear, so it is not the map of any matrix.
 - The map $x \mapsto Ax$ for a $2 \times 3$ matrix $A$ goes from $F^3$ to $F^2$, not from $F^2$ to $F^3$. So no $2 \times 3$ matrix gives a map $F^2 \to F^3$.
 
 ### Basic properties
 
-- The matrix of $T_A$ in the bases $B$ and $C$ is $A$, and $T_{[T]_{C,B}} = T$. So the two constructions are inverse, by the [[theorem on linear maps and matrices|~9fe7c0d8]].
+- The matrix of $T_A$ in the bases $B$ and $C$ is $A$, and $T_{[T]_{C,B}} = T$. So the two constructions are inverse, by the [[theorem on linear maps and matrices|Q3EDKTZ6TA]].
 - $A \mapsto T_A$ is a linear isomorphism $M_{m \times n}(F) \to \Hom_F(V, W)$.
 - $T_{AB} = T_A \circ T_B$ when the bases fit, by the theorem on the [[matrix of a composition|05Q1B7MH0M]].
 - For the standard bases of $F^n$ and $F^m$, every linear map $F^n \to F^m$ is $x \mapsto Ax$ for one matrix $A$, by the theorem on [[matrix transformations of $F^n$|W6KB0J3SZZ]].

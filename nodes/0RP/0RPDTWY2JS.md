@@ -30,7 +30,7 @@ The value does not depend on $B$, by the [[theorem on the independence of the ba
 Another basis gives $P^{-1} [T]_B P$ by the [[change of basis formula|0MQXVZEBMT]], and $\tr(P^{-1} A P) = \tr A$.
 The trace is a linear map $\End_F(V) \to F$, and $\tr(ST) = \tr(TS)$.
 The trace of the identity map of $V$ is $\dim V \cdot 1$.
-A [[projection|033DA1WE8Y]] $P$ has $\tr P = (\rank P) \cdot 1_F$, by the [[theorem on the trace of a projection|~f21ebbcb]].
+A [[projection|033DA1WE8Y]] $P$ has $\tr P = (\rank P) \cdot 1_F$, by the [[theorem on the trace of a projection|BJTJ41YW55]].
 So $\tr P = \rank P$ in characteristic $0$, but not in general in characteristic $p$.
 
 ## Explanations

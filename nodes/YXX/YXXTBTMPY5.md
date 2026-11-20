@@ -37,4 +37,4 @@ So the same argument bounds $\rank(AB)$ by $\rank B$.
 ## Variants
 
 - The bound $\rank(AB) \le \rank B$ also follows without transposes: $x \mapsto Ax$ maps $\operatorname{Col}(B)$ onto $\operatorname{Col}(AB)$, and a linear map does not increase dimension.
-- The [[Frobenius inequality|~ed13de3d]] refines this bound.
+- The [[Frobenius inequality|GS8WE1ZYV9]] refines this bound.

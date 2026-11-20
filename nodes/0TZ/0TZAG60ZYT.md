@@ -45,7 +45,7 @@ Equivalently, $\rank A^\top = \rank A$, where $A^\top$ is the [[transpose|09DXWY
 ### Consequences
 
 - $\rank A \le \min(m, n)$, since the column space lies in $F^m$ and the row space lies in $F^n$.
-- The [[four fundamental subspaces|~c3d8720b]] have dimensions $r$, $n - r$, $r$ and $m - r$.
+- The [[four fundamental subspaces|73DVECPAT6]] have dimensions $r$, $n - r$, $r$ and $m - r$.
 - A square matrix has independent rows if and only if it has independent columns.
 - The second half of the [[rank of a product|02FDWY55AS]], $\rank(AB) \le \rank B$, follows by transposing.
 
@@ -75,9 +75,9 @@ For a $3 \times 5$ matrix, it shows at once that the rank is at most $3$.
 
 There are several proofs.
 
-- [[By row reduction|~1fa1acd5]]: both dimensions equal the number of pivots of the reduced row echelon form.
+- [[By row reduction|WK6YWCWJD0]]: both dimensions equal the number of pivots of the reduced row echelon form.
 - [[By a rank factorization|S1C1ATEFW1]]: a basis of the column space gives $A = CR$ with $r$ rows in $R$, so the row rank is at most $r$.
-- [[By orthogonality over the real numbers|~53093409]]: $A$ is injective on the row space, so the row space fits into the column space.
+- [[By orthogonality over the real numbers|4JYHHBC6J7]]: $A$ is injective on the row space, so the row space fits into the column space.
 - By duality: the [[matrix of the dual map is the transpose|0ZPB3180AY]], and the [[dimension of the annihilator|06Q1EFVH0Q]] gives the equal ranks. This proof belongs to the sub-area on dual spaces.
 
 ### L3 human

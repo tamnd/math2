@@ -27,8 +27,8 @@ Equivalently, column $j$ of $[T]_{C,B}$ is the [[coordinate vector|04CYQHN6MC]] 
 
 ## Remarks
 
-For each $v \in V$, $[T(v)]_C = [T]_{C,B} [v]_B$, by the [[coordinate formula|~73b91b18]].
-The map $T \mapsto [T]_{C,B}$ is a linear isomorphism $\Hom_F(V, W) \to M_{m \times n}(F)$, by the [[theorem on linear maps and matrices|~9fe7c0d8]].
+For each $v \in V$, $[T(v)]_C = [T]_{C,B} [v]_B$, by the [[coordinate formula|8B63KHW6D5]].
+The map $T \mapsto [T]_{C,B}$ is a linear isomorphism $\Hom_F(V, W) \to M_{m \times n}(F)$, by the [[theorem on linear maps and matrices|Q3EDKTZ6TA]].
 For the rotation of $\R^2$ by an angle $\theta$, in the standard basis, the matrix is $\begin{pmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{pmatrix}$.
 Mathlib writes this map as `LinearMap.toMatrix`, and the basis of the domain indexes the columns, as here.
 

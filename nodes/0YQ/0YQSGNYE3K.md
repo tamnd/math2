@@ -43,21 +43,21 @@ Mathlib writes `LinearMap.toMatrix v₁ v₂ f`, where `v₁` is the basis of th
 
 ### Examples
 
-- [[The derivative $P_2 \to P_1$|~975801e1]]: in the bases $(1, x, x^2)$ and $(1, x)$ the matrix is $\begin{pmatrix} 0 & 1 & 0 \\ 0 & 0 & 2 \end{pmatrix}$.
-- [[A symmetric map of the plane|~14ec321e]]: the map $(x, y) \mapsto (2x + y, x + 2y)$ has a diagonal matrix in the basis $((1, 1), (1, -1))$.
+- [[The derivative $P_2 \to P_1$|KWN1RM45D5]]: in the bases $(1, x, x^2)$ and $(1, x)$ the matrix is $\begin{pmatrix} 0 & 1 & 0 \\ 0 & 0 & 2 \end{pmatrix}$.
+- [[A symmetric map of the plane|7HRGTM3RKJ]]: the map $(x, y) \mapsto (2x + y, x + 2y)$ has a diagonal matrix in the basis $((1, 1), (1, -1))$.
 - The rotation of $\R^2$ by the angle $\theta$ has the matrix $\begin{pmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{pmatrix}$ in the standard basis.
 - The identity map of $V$ has the identity matrix $I_n$ in the bases $B$ and $B$. In two different bases, its matrix is a [[change-of-basis matrix|0MKRHZB3WS]].
 - For an $m \times n$ matrix $A$, the map $x \mapsto Ax$ has the matrix $A$ in the standard bases.
 
 ### Non-examples
 
-- [[Images written as rows|~d84f4967]]: the array with the images of the basis vectors as rows is the transpose of the matrix, and it gives wrong products.
+- [[Images written as rows|RSET6QRFJR]]: the array with the images of the basis vectors as rows is the transpose of the matrix, and it gives wrong products.
 - A map that is not linear has no matrix. The map $x \mapsto x + 1$ on $\R$ is not $x \mapsto ax$ for any $a$.
 
 ### Basic properties
 
-- $[T(v)]_C = [T]_{C,B}[v]_B$ for each $v$, and $[T]_{C,B}$ is the only matrix with this property, by the [[coordinate formula|~73b91b18]].
-- The map $T \mapsto [T]_{C,B}$ is a linear isomorphism $\Hom(V, W) \to M_{m \times n}(F)$, by the [[theorem on linear maps and matrices|~9fe7c0d8]]. Its inverse sends a matrix to its [[linear map|06HMCTAQH3]].
+- $[T(v)]_C = [T]_{C,B}[v]_B$ for each $v$, and $[T]_{C,B}$ is the only matrix with this property, by the [[coordinate formula|8B63KHW6D5]].
+- The map $T \mapsto [T]_{C,B}$ is a linear isomorphism $\Hom(V, W) \to M_{m \times n}(F)$, by the [[theorem on linear maps and matrices|Q3EDKTZ6TA]]. Its inverse sends a matrix to its [[linear map|06HMCTAQH3]].
 - $[S \circ T]_{C,A} = [S]_{C,B}[T]_{B,A}$, by the theorem on the [[matrix of a composition|05Q1B7MH0M]].
 - The rank of $T$ is the [[rank|0ZC9YTXZRY]] of $[T]_{C,B}$, for every choice of bases.
 - If the bases change, the matrix changes by the [[change-of-basis formula|0MQXVZEBMT]].

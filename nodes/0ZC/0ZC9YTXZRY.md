@@ -42,15 +42,15 @@ In Mathlib, `Matrix.rank A` is the dimension of the range of `Matrix.mulVecLin A
 
 ### Examples
 
-- [[A $3 \times 4$ matrix of rank 2|~b964ba7f]]: the rank is computed by pivots, by columns, by rows and by minors.
-- [[The $3 \times 3$ matrix with entries 1 to 9|~94c0778f]]: it has rank $2$ over $\R$ and rank $1$ over $\mathbb{F}_3$.
+- [[A $3 \times 4$ matrix of rank 2|MDB2CHQDXJ]]: the rank is computed by pivots, by columns, by rows and by minors.
+- [[The $3 \times 3$ matrix with entries 1 to 9|6X9G57XHMF]]: it has rank $2$ over $\R$ and rank $1$ over $\mathbb{F}_3$.
 - The identity matrix $I_n$ has rank $n$, and the zero matrix has rank $0$.
-- For nonzero $u \in F^m$ and $v \in F^n$, the matrix $uv^\top$ has rank $1$, by the [[rank factorization theorem|~5d7700d1]].
+- For nonzero $u \in F^m$ and $v \in F^n$, the matrix $uv^\top$ has rank $1$, by the [[rank factorization theorem|5JGAG62VN8]].
 - The diagonal matrix $\operatorname{diag}(1, 0, 3)$ has rank $2$, the number of nonzero diagonal entries.
 
 ### Non-examples
 
-- [[Counting the nonzero rows of $A$ itself|~f5639817]] does not give the rank: $\begin{pmatrix} 1 & 2 \\ 2 & 4 \end{pmatrix}$ has two nonzero rows and rank $1$.
+- [[Counting the nonzero rows of $A$ itself|KXG0P38NCE]] does not give the rank: $\begin{pmatrix} 1 & 2 \\ 2 & 4 \end{pmatrix}$ has two nonzero rows and rank $1$.
 - [[Counting columns|R7N2K2EVJP]] does not give the rank of a linear map either.
 
 ### Basic properties
@@ -72,7 +72,7 @@ Frobenius used the notion of rank in his work on linear equations and bilinear f
 
 - Computing the rank of a matrix that is not reduced, by counting its nonzero rows.
 - Forgetting that the rank depends on the field: the rank over $\mathbb{F}_p$ can be smaller than the rank over $\Q$.
-- Assuming that $\rank(A + B) = \rank A + \rank B$. Only the inequality $\le$ holds, by [[subadditivity|~6224e0e0]].
+- Assuming that $\rank(A + B) = \rank A + \rank B$. Only the inequality $\le$ holds, by [[subadditivity|5M6SX7JN01]].
 - Assuming that $\rank(AB) = \rank(BA)$. For $A = \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}$ and $B = \begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix}$, $AB = 0$ but $BA = A$ has rank $1$.
 
 ## Explanations

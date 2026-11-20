@@ -43,10 +43,10 @@ where $\rank$ is the [[rank of a matrix|0ZC9YTXZRY]].
 ### Converse
 
 There are lower bounds as well.
-[[Sylvester's rank inequality|~ed13de3d]] gives $\rank A + \rank B - n \le \rank(AB)$.
+[[Sylvester's rank inequality|GS8WE1ZYV9]] gives $\rank A + \rank B - n \le \rank(AB)$.
 The Frobenius inequality in the same node bounds the rank of a product of three matrices.
-For a sum, [[subadditivity|~6224e0e0]] gives $\rank(A + B) \le \rank A + \rank B$.
-Over $\R$, [[the rank of the Gram matrix|~9758208b]] gives the equality $\rank(A^\top A) = \rank A$.
+For a sum, [[subadditivity|5M6SX7JN01]] gives $\rank(A + B) \le \rank A + \rank B$.
+Over $\R$, [[the rank of the Gram matrix|FGPT52R1ZE]] gives the equality $\rank(A^\top A) = \rank A$.
 
 ### Generalizations
 

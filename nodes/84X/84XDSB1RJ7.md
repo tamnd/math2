@@ -35,5 +35,5 @@ This is why matrix multiplication is defined the way it is.
 
 ## Variants
 
-- With the [[coordinate formula|~73b91b18]], the proof is shorter. For each $u \in U$, $[T(S(u))]_C = [T]_{C,B}[S(u)]_B = [T]_{C,B}[S]_{B,A}[u]_A$, by associativity of the matrix-vector product. The uniqueness part of the coordinate formula then gives the theorem.
+- With the [[coordinate formula|8B63KHW6D5]], the proof is shorter. For each $u \in U$, $[T(S(u))]_C = [T]_{C,B}[S(u)]_B = [T]_{C,B}[S]_{B,A}[u]_A$, by associativity of the matrix-vector product. The uniqueness part of the coordinate formula then gives the theorem.
 - Column by column: column $k$ of a product $MN$ is $M$ times column $k$ of $N$. So column $k$ of $[T]_{C,B}[S]_{B,A}$ is $[T]_{C,B}[S(a_k)]_B = [T(S(a_k))]_C$.

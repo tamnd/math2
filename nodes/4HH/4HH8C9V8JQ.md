@@ -32,7 +32,7 @@ Let $F$ be a [[field|04C5ZBG1WT]] and let $A$ be an $m \times n$ matrix over $F$
 
 ### Why each hypothesis is needed
 
-- The test uses the null space of $A^{\top}$, not the null space of $A$. For $A = \begin{pmatrix} 1 & 2 \\ 3 & 6 \end{pmatrix}$, the null space of $A$ gives a wrong test. This is the trap in the [[worked example|~50805d3a]].
+- The test uses the null space of $A^{\top}$, not the null space of $A$. For $A = \begin{pmatrix} 1 & 2 \\ 3 & 6 \end{pmatrix}$, the null space of $A$ gives a wrong test. This is the trap in the [[worked example|V8XEQX465M]].
 - Part 3 needs a square matrix. For the $1 \times 2$ matrix $A = \begin{pmatrix} 1 & 0 \end{pmatrix}$, every $b$ is reached, but $Ax = 0$ has the solution $x = (0, 1) \ne 0$. So existence for all $b$ does not give uniqueness.
 - The space must be finite-dimensional. On the space of sequences, the shift $(x_1, x_2, \dots) \mapsto (0, x_1, x_2, \dots)$ is injective but not surjective.
 

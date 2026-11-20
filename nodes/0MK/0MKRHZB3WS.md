@@ -46,15 +46,15 @@ Always check which coordinates the matrix takes as input.
 
 ### Examples
 
-- [[A basis of the plane|~3f7d5cf4]]: for $B'$ $= ((1, 1), (1, -1))$, $P = \begin{pmatrix} 1 & 1 \\ 1 & -1 \end{pmatrix}$, and $(5, 1)$ has new coordinates $(3, 2)$.
-- [[Taylor coordinates of polynomials|~cc3f9754]]: the basis $1, x - 1, (x - 1)^2$ of polynomials of degree at most $2$.
+- [[A basis of the plane|MRQWBXDZCG]]: for $B'$ $= ((1, 1), (1, -1))$, $P = \begin{pmatrix} 1 & 1 \\ 1 & -1 \end{pmatrix}$, and $(5, 1)$ has new coordinates $(3, 2)$.
+- [[Taylor coordinates of polynomials|F4TC36FYWW]]: the basis $1, x - 1, (x - 1)^2$ of polynomials of degree at most $2$.
 - For $B' = B$, the change of basis matrix is the identity $I_n$.
 - For $B' = (b_2, b_1)$ in a plane, $P = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$, a permutation matrix.
 - For $B' = (2b_1, b_2)$, $P = \operatorname{diag}(2, 1)$, and $[v]_{B'} = (x/2, y)$ when $[v]_B = (x, y)$.
 
 ### Non-examples
 
-- [[A singular matrix|~8fd4d703]]: the columns $(1, 2)$ and $(2, 4)$ do not form a basis, so $\begin{pmatrix} 1 & 2 \\ 2 & 4 \end{pmatrix}$ is not a change of basis matrix.
+- [[A singular matrix|EX8DT1BY8G]]: the columns $(1, 2)$ and $(2, 4)$ do not form a basis, so $\begin{pmatrix} 1 & 2 \\ 2 & 4 \end{pmatrix}$ is not a change of basis matrix.
 - A non-square matrix is never a change of basis matrix, since two bases of $V$ have the same number of vectors.
 
 ### Basic properties

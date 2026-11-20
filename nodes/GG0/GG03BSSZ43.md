@@ -1,0 +1,49 @@
+---
+tag: GG03BSSZ43
+kind: example
+name: A basis of the null space of a 3 × 4 matrix from its free variables
+msc: ["15A03", "15A06"]
+topics: [S6559D61BP]
+audience: ug1
+instance_of: [0PHDYNR24D]
+illustrates: [5NKND0CPKP]
+uses: [0PQ2GGY1QV, 0NNR68BFRY, 0BCMGDHZGR]
+sources:
+  - url: https://en.wikipedia.org/wiki/Kernel_(linear_algebra)
+    locator: Computation by Gaussian elimination
+  - book: isbn:9780321982384
+    locator: Section 4.2
+---
+
+## Example
+
+Let
+$$A = \begin{pmatrix} 1 & 2 & 0 & 1 \\ 2 & 4 & 1 & 4 \\ 3 & 6 & 1 & 5 \end{pmatrix}, \qquad R = \begin{pmatrix} 1 & 2 & 0 & 1 \\ 0 & 0 & 1 & 2 \\ 0 & 0 & 0 & 0 \end{pmatrix},$$
+where $R$ is the [[reduced row echelon form|0NNR68BFRY]] of $A$, found in the [[column space example|AGHYPF25CY]].
+
+1. The [[pivot columns|0BCMGDHZGR]] are 1 and 3. The free columns are 2 and 4. So $n - r = 4 - 2 = 2$.
+2. The system $Rx = 0$ reads $x_1 + 2x_2 + x_4 = 0$ and $x_3 + 2x_4 = 0$. So $x_1 = -2x_2 - x_4$ and $x_3 = -2x_4$.
+3. Put $x_2 = 1$, $x_4 = 0$. This gives $s_1 = (-2, 1, 0, 0)$.
+4. Put $x_2 = 0$, $x_4 = 1$. This gives $s_2 = (-1, 0, -2, 1)$.
+5. Check $A s_1 = (-2 + 2,\ -4 + 4,\ -6 + 6) = (0, 0, 0)$.
+6. Check $A s_2 = (-1 + 0 + 0 + 1,\ -2 + 0 - 2 + 4,\ -3 + 0 - 2 + 5) = (0, 0, 0)$.
+7. So $\{s_1, s_2\}$ is a basis of the [[null space|0PQ2GGY1QV]], and $\dim \operatorname{Null}(A) = 2$.
+8. The general solution of $Ax = 0$ is $x = t_1 s_1 + t_2 s_2 = (-2t_1 - t_2,\ t_1,\ -2t_2,\ t_2)$. Its entries 2 and 4 are $t_1$ and $t_2$, which shows the independence.
+
+## Remarks
+
+- The vector $s_1$ records the relation $a_2 = 2a_1$ among the columns, as $-2a_1 + a_2 = 0$. The vector $s_2$ records $a_4 = a_1 + 2a_3$.
+- Each $s_l$ is orthogonal to each row of $A$. For example, $(2, 4, 1, 4) \cdot s_2 = -2 + 0 - 2 + 4 = 0$.
+
+## Explanations
+
+### L1 human
+
+The two free variables can be chosen freely, and the other two then follow.
+So the solutions of $Ax = 0$ form a plane in $\R^4$, spanned by two vectors.
+
+### L2 human
+
+Each basis vector comes from one free variable set to $1$ and the others to $0$.
+The pivot entries of the basis vector are the negatives of the entries of $R$ in the free column.
+The rank $2$ and the nullity $2$ add up to the $4$ columns.

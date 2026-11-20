@@ -43,7 +43,7 @@ So the row space is no bigger than the column space, and the transpose gives the
 
 ## Variants
 
-- [[By row reduction|~1fa1acd5]]: both dimensions equal the number of pivots.
-- [[By orthogonality over the real numbers|~53093409]]: $A$ is injective on its row space.
-- The factorization of step 7 is the [[rank factorization|~5d7700d1]] of $A$.
+- [[By row reduction|WK6YWCWJD0]]: both dimensions equal the number of pivots.
+- [[By orthogonality over the real numbers|4JYHHBC6J7]]: $A$ is injective on its row space.
+- The factorization of step 7 is the [[rank factorization|5JGAG62VN8]] of $A$.
 

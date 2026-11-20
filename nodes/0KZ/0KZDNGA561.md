@@ -36,15 +36,15 @@ In Mathlib, the trace of a linear map is `LinearMap.trace R M`.
 
 ### Examples
 
-- [[The derivative on polynomials of degree at most 2|~e5280206]]: two bases give two different matrices, both with trace $0$.
-- [[Transposition of 2 x 2 matrices|~a277ea4e]]: the map $X \mapsto X^\top$ on $M_2(\R)$ has trace $2$.
-- [[A projection and the identity over F2|~ce58de75]]: an oblique projection of rank $1$ has trace $1$, and the identity of $\mathbb{F}_2^2$ has trace $0$.
+- [[The derivative on polynomials of degree at most 2|SFGW76FSS3]]: two bases give two different matrices, both with trace $0$.
+- [[Transposition of 2 x 2 matrices|RKJES8857B]]: the map $X \mapsto X^\top$ on $M_2(\R)$ has trace $2$.
+- [[A projection and the identity over F2|BJ3ZVHZ6VF]]: an oblique projection of rank $1$ has trace $1$, and the identity of $\mathbb{F}_2^2$ has trace $0$.
 - The identity map of $V$ has trace $(\dim V) \cdot 1$.
 - The map $v \mapsto cv$ has trace $(\dim V) \cdot c$.
 
 ### Non-examples
 
-- [[A matrix with two bases|~970c5f78]]: the diagonal sum of $[\id]_{C,B}$ with $C \ne B$ is not the trace of the identity.
+- [[A matrix with two bases|VND2T4RZK8]]: the diagonal sum of $[\id]_{C,B}$ with $C \ne B$ is not the trace of the identity.
 - A linear map $T \colon V \to W$ with $V \ne W$ has no trace. Its matrices can be rectangular, and a change of bases in $V$ and $W$ can change the diagonal sum.
 
 ### Basic properties
@@ -52,7 +52,7 @@ In Mathlib, the trace of a linear map is `LinearMap.trace R M`.
 - $\tr T = \tr [T]_B$ for every basis $B$, by the [[theorem on the independence of the basis|0WCPH5Z7FA]].
 - $\tr(S + T) = \tr S + \tr T$ and $\tr(cT) = c \tr T$.
 - $\tr(ST) = \tr(TS)$ for endomorphisms $S$ and $T$ of $V$.
-- If $P$ is a projection, then $\tr P = (\rank P) \cdot 1_F$, by the [[theorem on the trace of a projection|~f21ebbcb]].
+- If $P$ is a projection, then $\tr P = (\rank P) \cdot 1_F$, by the [[theorem on the trace of a projection|BJTJ41YW55]].
 - $\tr T$ is minus the coefficient of $x^{n-1}$ in the characteristic polynomial $\det(x \id - T)$, where $n = \dim V$.
 
 ### History
@@ -61,7 +61,7 @@ In German, the trace is called "Spur", and some books write $\operatorname{Sp} A
 
 ### Common errors
 
-- Using two different bases for the domain and the codomain, as in the [[non-example|~970c5f78]].
+- Using two different bases for the domain and the codomain, as in the [[non-example|VND2T4RZK8]].
 - Writing $\tr P = \rank P$ in positive characteristic. Over $\mathbb{F}_2$, the identity of $\mathbb{F}_2^2$ has rank $2$ but trace $0$.
 - Assuming $\tr(STU) = \tr(SUT)$. Only cyclic permutations of the factors keep the trace.
 

@@ -34,5 +34,5 @@ This makes the trace a property of the map and not of the chosen basis.
 
 ## Variants
 
-- One can use the [[theorem on similarity invariants|~b354e4d1]] in place of steps 3 to 5, since $M$ and $M'$ are similar.
+- One can use the [[theorem on similarity invariants|191HBJ7PVZ]] in place of steps 3 to 5, since $M$ and $M'$ are similar.
 - Without matrices: the trace is the evaluation map on $V^* \otimes V \cong \End(V)$, which needs no basis. Then one checks that it gives $\tr [T]_B$ in every basis $B$.

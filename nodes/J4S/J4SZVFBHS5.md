@@ -31,7 +31,7 @@ Over $\C$ with the Hermitian product, the correct statement uses the conjugate t
 ### Consequences
 
 - $Ax = b$ has a solution if and only if $b \perp \operatorname{Nul}(A^\top)$. This is the [[Fredholm alternative|4HH8C9V8JQ]].
-- $\R^m = \operatorname{Col}(A) \oplus \operatorname{Nul}(A^\top)$, part of the [[theorem on the four fundamental subspaces|~c3d8720b]].
+- $\R^m = \operatorname{Col}(A) \oplus \operatorname{Nul}(A^\top)$, part of the [[theorem on the four fundamental subspaces|73DVECPAT6]].
 
 ### Converse
 

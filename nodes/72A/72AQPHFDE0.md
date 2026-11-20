@@ -43,4 +43,4 @@ Equating them and inverting $Q$ gives the formula.
 ## Variants
 
 - The formula follows from the [[matrix of a composition|05Q1B7MH0M]] applied to $\id_W \circ T \circ \id_V$, since $P = [\id_V]_{B, B'}$ and $Q^{-1} = [\id_W]_{C', C}$.
-- For coordinates alone, part 1 is the [[coordinate formula|~73b91b18]] for the identity map, with the matrix $P = [\id_V]_{B, B'}$.
+- For coordinates alone, part 1 is the [[coordinate formula|8B63KHW6D5]] for the identity map, with the matrix $P = [\id_V]_{B, B'}$.

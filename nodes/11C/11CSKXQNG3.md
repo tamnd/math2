@@ -29,7 +29,7 @@ Let $F$ be a field and let $A$ be an $m \times n$ matrix over $F$.
 
 ### Why each hypothesis is needed
 
-- The basis consists of columns of $A$ itself. The pivot columns of the reduced row echelon form are in general not in $\operatorname{Col}(A)$, as the [[trap example|~41f359cb]] shows.
+- The basis consists of columns of $A$ itself. The pivot columns of the reduced row echelon form are in general not in $\operatorname{Col}(A)$, as the [[trap example|K21W7FA8MQ]] shows.
 - The entries must lie in a field. Over $\mathbb{Z}$, the $1 \times 2$ matrix $\begin{pmatrix} 2 & 3 \end{pmatrix}$ is in echelon form with its pivot in column 1.
   Its column space is $2\mathbb{Z} + 3\mathbb{Z} = \mathbb{Z}$, since $1 = 3 - 2$, but the pivot column spans only $2\mathbb{Z}$.
 

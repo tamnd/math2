@@ -41,15 +41,15 @@ In Mathlib, the null space is `LinearMap.ker (Matrix.mulVecLin A)`.
 
 ### Examples
 
-- [[A $3 \times 4$ matrix|~9b3c620b]]: the free variables $x_2$ and $x_4$ give the basis $(-2, 1, 0, 0)$, $(-1, 0, -2, 1)$.
-- [[The left null space of the same matrix|~b0b75fbe]]: it is the line spanned by $(-1, -1, 1)$, which records that row 3 is the sum of rows 1 and 2.
+- [[A $3 \times 4$ matrix|GG03BSSZ43]]: the free variables $x_2$ and $x_4$ give the basis $(-2, 1, 0, 0)$, $(-1, 0, -2, 1)$.
+- [[The left null space of the same matrix|KJ7X8CZWNT]]: it is the line spanned by $(-1, -1, 1)$, which records that row 3 is the sum of rows 1 and 2.
 - The null space of an invertible matrix is $\{0\}$.
 - The null space of the $m \times n$ zero matrix is $F^n$.
 - The null space of $\begin{pmatrix} 1 & 1 & 1 \end{pmatrix}$ is the plane $x + y + z = 0$ in $F^3$, with basis $(-1, 1, 0)$, $(-1, 0, 1)$.
 
 ### Non-examples
 
-- [[The left null space|~43ec3fa6]]: for $\begin{pmatrix} 1 & 1 \\ 0 & 0 \end{pmatrix}$ it is the line through $(0, 1)$, not the null space, the line through $(1, -1)$.
+- [[The left null space|GS2PYPBGGJ]]: for $\begin{pmatrix} 1 & 1 \\ 0 & 0 \end{pmatrix}$ it is the line through $(0, 1)$, not the null space, the line through $(1, -1)$.
 - [[The solution set of an inhomogeneous equation|HSXSS57MS3]] does not contain $0$, so it is not a subspace and not a null space.
 
 ### Basic properties
@@ -58,7 +58,7 @@ In Mathlib, the null space is `LinearMap.ker (Matrix.mulVecLin A)`.
 - Row equivalent matrices have the same null space, by the [[theorem on row equivalence|E4GKK727ZM]].
 - $\operatorname{Null}(B) \subseteq \operatorname{Null}(AB)$, since $Bx = 0$ gives $ABx = 0$.
 - $Ax = b$ has at most one solution if and only if $\operatorname{Null}(A) = \{0\}$, that is, $\rank A = n$.
-- Over $\R$, $\operatorname{Null}(A)$ is the orthogonal complement of the row space of $A$, by the [[theorem on the four fundamental subspaces|~c3d8720b]].
+- Over $\R$, $\operatorname{Null}(A)$ is the orthogonal complement of the row space of $A$, by the [[theorem on the four fundamental subspaces|73DVECPAT6]].
 
 ### History
 

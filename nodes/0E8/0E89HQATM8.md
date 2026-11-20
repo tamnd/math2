@@ -45,23 +45,23 @@ The similarity class of $A$ is the orbit of $A$ under the conjugation action of 
 
 ### Examples
 
-- [[A diagonalization|~fcc4cf33]]: $\begin{pmatrix} 1 & 1 \\ 0 & 2 \end{pmatrix}$ is similar to $\operatorname{diag}(1, 2)$, with $P = \begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$.
-- [[Rotations by a quarter turn|~a154582b]]: $\begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}$ is similar to $\begin{pmatrix} 0 & 1 \\ -1 & 0 \end{pmatrix}$, with $P = \operatorname{diag}(1, -1)$.
+- [[A diagonalization|X1CZSG8JEC]]: $\begin{pmatrix} 1 & 1 \\ 0 & 2 \end{pmatrix}$ is similar to $\operatorname{diag}(1, 2)$, with $P = \begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$.
+- [[Rotations by a quarter turn|XPAX5P9NNC]]: $\begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}$ is similar to $\begin{pmatrix} 0 & 1 \\ -1 & 0 \end{pmatrix}$, with $P = \operatorname{diag}(1, -1)$.
 - [[Similar matrices are conjugate in GL2(R)|ATXHWJGTJV]]: similarity is conjugation in the group of invertible matrices.
 - Every matrix is similar to itself, with $P = I_n$.
 - A scalar matrix $cI_n$ is similar only to itself, since $P^{-1}(cI_n)P = cI_n$ for every invertible $P$.
 
 ### Non-examples
 
-- [[A Jordan block and the identity|~1ebbf521]]: $\begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$ and $I_2$ share the trace, determinant and characteristic polynomial, but they are not similar.
-- [[Matrices with the same five invariants|~d351ee64]]: two $4 \times 4$ matrices share the rank, trace, determinant, and characteristic and minimal polynomials, but they are not similar.
+- [[A Jordan block and the identity|62XEH0NYE1]]: $\begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$ and $I_2$ share the trace, determinant and characteristic polynomial, but they are not similar.
+- [[Matrices with the same five invariants|J4Q3B9ZNHF]]: two $4 \times 4$ matrices share the rank, trace, determinant, and characteristic and minimal polynomials, but they are not similar.
 - [[Equivalent matrices that are not similar|6CKAMR5WK9]]: $B = QAP$ with two different invertible matrices is a weaker relation.
 - Matrices of different sizes are never similar.
 
 ### Basic properties
 
-- Similarity is reflexive, symmetric and transitive, by the [[theorem on the equivalence relation|~e995afb1]].
-- Similar matrices have the same rank, trace, determinant, and characteristic and minimal polynomials, by the [[theorem on similarity invariants|~b354e4d1]].
+- Similarity is reflexive, symmetric and transitive, by the [[theorem on the equivalence relation|HWKZ8DM8P0]].
+- Similar matrices have the same rank, trace, determinant, and characteristic and minimal polynomials, by the [[theorem on similarity invariants|191HBJ7PVZ]].
 - By the [[change of basis formula|0MQXVZEBMT]], $A$ and $B$ are similar if and only if they are the matrices of one endomorphism of $F^n$ in two bases.
 - If $B = P^{-1} A P$, then $B^k = P^{-1} A^k P$ for every $k \ge 0$, and $q(B) = P^{-1} q(A) P$ for every polynomial $q$.
 - If $A$ is invertible, then $A^{-1}$ and $B^{-1}$ are similar, with the same $P$.
@@ -74,7 +74,7 @@ Its classification by canonical forms was developed in the nineteenth century, w
 ### Common errors
 
 - Taking $P^{-1} A Q$ with two different matrices. That is [[equivalence|0CMHSGTWXB]], which only preserves the rank.
-- Thinking that the same characteristic polynomial implies similarity. The [[Jordan block|~1ebbf521]] shows that it does not.
+- Thinking that the same characteristic polynomial implies similarity. The [[Jordan block|62XEH0NYE1]] shows that it does not.
 - Forgetting that $P$ must be invertible. With a singular $P$, the product $P^{-1} A P$ is not defined.
 - Mixing up $P^{-1} A P$ and $P A P^{-1}$ inside one computation.
 

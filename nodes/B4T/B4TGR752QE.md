@@ -1,0 +1,34 @@
+---
+tag: B4TGR752QE
+kind: proof
+name: Proof that the transpose times a real matrix has the same rank
+msc: ["15A03"]
+topics: [S6559D61BP]
+audience: ug2
+proves: FGPT52R1ZE
+uses: [0PQ2GGY1QV, 09GK5PS824, 05HQYM0R4G, TR48YQGCCA, 0TZAG60ZYT, 0EWQEYRVA8]
+methods: [MKHVRNW68H]
+sources:
+  - url: https://en.wikipedia.org/wiki/Rank_(linear_algebra)
+    locator: Properties
+---
+
+## Proof
+
+1. Claim: $\operatorname{Null}(A^\top A) = \operatorname{Null}(A)$, with the [[null space|0PQ2GGY1QV]]. If $Ax = 0$, then $A^\top A x = A^\top 0 = 0$.
+2. Conversely, let $A^\top A x = 0$. Then $x^\top A^\top A x = 0$.
+3. By the [[transpose of a product|09GK5PS824]], $x^\top A^\top = (Ax)^\top$. So $(Ax)^\top (Ax) = 0$, that is, the [[dot product|05HQYM0R4G]] $y \cdot y = 0$ for $y = Ax \in \R^m$.
+4. $y \cdot y = y_1^2 + \dots + y_m^2$ is a sum of real squares. It is $0$ only if $y = 0$. So $Ax = 0$, which proves the claim.
+5. Both $A$ and $A^\top A$ have $n$ columns. By the [[rank-nullity theorem for matrices|TR48YQGCCA]], $\rank(A^\top A) = n - \dim \operatorname{Null}(A^\top A) = n - \dim \operatorname{Null}(A) = \rank A$.
+6. Apply step 5 to the real matrix $A^\top$. Since $(A^\top)^\top = A$, it gives $\rank(A A^\top) = \rank A^\top$.
+7. By [[row rank equals column rank|0TZAG60ZYT]], $\rank A^\top = \rank A$. So $\rank(A A^\top) = \rank A$, by the [[definition of rank|0EWQEYRVA8]].
+
+## Idea
+
+The quadratic form $x^\top A^\top A x$ is the squared length of $Ax$.
+So $A^\top A$ kills exactly the vectors that $A$ kills, and rank-nullity gives equal ranks.
+
+## Variants
+
+Over $\C$, the same proof with $A^*$ and the Hermitian product gives $\rank(A^* A) = \rank A$.
+The singular value decomposition gives another proof: the nonzero eigenvalues of $A^\top A$ are the squares of the nonzero singular values of $A$.
