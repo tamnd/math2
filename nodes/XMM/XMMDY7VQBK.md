@@ -1,0 +1,42 @@
+---
+tag: XMMDY7VQBK
+kind: example
+name: Two bases of the plane with opposite orientations
+msc: [15A04, 15A15]
+topics: [DTBK11SR77]
+audience: ug2
+instance_of: [0QJJAQ6ZYZ]
+uses: [0Q8BZXVT1Z]
+sources:
+  - url: https://en.wikipedia.org/wiki/Orientation_(vector_space)
+---
+
+## Example
+
+In $\mathbb{R}^2$ with the standard basis $E = (e_1, e_2)$, let $B = ((1, 1), (-1, 1))$ and $C = ((1, 2), (3, 4))$.
+
+1. The change of basis matrix from $E$ to $B$ has columns $(1, 1)$ and $(-1, 1)$, with determinant $1 \cdot 1 - (-1) \cdot 1 = 2 > 0$.
+2. So by the [[definition|0Q8BZXVT1Z]], $B$ has the standard orientation.
+3. The matrix for $C$ has determinant $1 \cdot 4 - 3 \cdot 2 = -2 < 0$, so $C$ has the opposite orientation.
+4. Check with angles: $(1, 1)$ has angle $45^\circ$ and $(-1, 1)$ has angle $135^\circ$, a counterclockwise turn of $90^\circ$, like $e_1$ to $e_2$.
+5. For $C$, $(1, 2)$ has angle about $63^\circ$ and $(3, 4)$ about $53^\circ$, a clockwise turn.
+6. Check by a continuous path: $B_t = ((1, t), (-t, 1))$ for $t \in [0, 1]$ has determinant $1 + t^2 > 0$, and it joins $E$ to $B$ through bases.
+
+## Remarks
+
+The change of basis matrix from $B$ to $C$ has determinant $\det_B(C) = (-2)/2 = -1$, by the change of basis rule for determinants of families.
+Its sign is negative, which confirms that $B$ and $C$ lie in different classes.
+No continuous path of bases joins $E$ to $C$, since the determinant would have to pass through $0$.
+
+## Explanations
+
+### L1 human
+
+In the plane, a basis is positively oriented when the second vector lies counterclockwise from the first, by less than half a turn.
+The basis $B$ turns counterclockwise, and $C$ turns clockwise.
+
+### L2 human
+
+The sign of one $2 \times 2$ determinant decides the orientation.
+Step 6 shows the other description: bases with the same orientation can be joined by a path of bases.
+A trap: the angles must be measured from the first vector to the second, in this order.

@@ -2,8 +2,11 @@
 tag: VCTVF3AZ1Q
 kind: proof
 name: Proof that adding a multiple of one row to another preserves the determinant
-msc: [15A15]
+msc: ["15A15"]
+topics: [DTBK11SR77]
+audience: ug1
 proves: 01ZTQBK64Q
+methods: [0NTF6DMVAP]
 uses: [0PPG793642, 0K4VQB7HWR]
 sources:
   - url: https://en.wikipedia.org/wiki/Determinant
@@ -21,4 +24,5 @@ sources:
 
 ## Idea
 
-Split the new row into its old part and the added part. The added part gives a matrix with a repeated row, and that determinant is zero.
+Split the new row into its old part and the added part.
+The added part gives a matrix with a repeated row, and that determinant is zero.

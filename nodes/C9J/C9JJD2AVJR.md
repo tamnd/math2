@@ -3,6 +3,8 @@ tag: C9JJD2AVJR
 kind: definition
 name: Pfaffian
 msc: [15A15]
+topics: [DTBK11SR77]
+audience: grad
 defines: NH5HWBPWS9
 uses: [0PBY4E9GQF, 0NHK9MFFW9, 02DKV69ZH0, 0310REJJY8, 00KDZRW4C0]
 sources:
@@ -19,10 +21,15 @@ The *Pfaffian* of $A$ is
 $$\operatorname{pf}(A) = \sum_{M \in \Pi} \sgn(\pi_M) \prod_{k=1}^{n} a_{i_k j_k},$$
 where $\sgn$ is the [[sign of a permutation|02DKV69ZH0]].
 
+## Notation
+
+- $\operatorname{pf}(A)$, also written $\operatorname{Pf}(A)$.
+- $\Pi$ is the set of perfect matchings of $\set{1, \dots, 2n}$, and $\pi_M$ is the permutation attached to $M \in \Pi$.
+
 ## Remarks
 
 The term of $M$ does not depend on the order in which the pairs are listed, because exchanging two pairs is an even permutation.
-For an alternating matrix of odd size, the Pfaffian is set to $0$.
+For an alternating matrix of odd size, the Pfaffian is set to $0$, and for the empty matrix it is $1$.
 
 Example: for $n = 2$ there are three matchings, and
 $$\operatorname{pf}(A) = a_{12} a_{34} - a_{13} a_{24} + a_{14} a_{23}.$$
@@ -30,7 +37,7 @@ For the matching $\set{\set{1,3}, \set{2,4}}$, the permutation $\pi_M$ is $1 \ma
 
 Non-example: the symmetric matrix $\begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$ is not alternating, because $a_{21} \ne -a_{12}$ unless $2 = 0$ in $K$, so it has no Pfaffian in this sense.
 
-The main facts are $\operatorname{pf}(A)^2 = \det A$ and $\operatorname{pf}(B A B^T) = \det(B) \operatorname{pf}(A)$ for every $2n \times 2n$ matrix $B$, where $\det$ is the [[determinant|00KDZRW4C0]].
+The main facts are $\operatorname{pf}(A)^2 = \det A$, the [[square identity|473MBZST4D]], and $\operatorname{pf}(B A B^T) = \det(B) \operatorname{pf}(A)$ for every $2n \times 2n$ matrix $B$, where $\det$ is the [[determinant|00KDZRW4C0]].
 Alternating matrices over a field are the same as [[skew-symmetric matrices|0PBY4E9GQF]] when the characteristic is not $2$.
 
 ## Explanations
@@ -39,3 +46,16 @@ Alternating matrices over a field are the same as [[skew-symmetric matrices|0PBY
 
 The Pfaffian adds up, with signs, one product for each way to split the indices into pairs.
 It plays for skew-symmetric matrices the role that the determinant plays for all square matrices.
+
+### L2 human
+
+For $2n = 4$ there are $3$ matchings, and for $2n = 6$ there are $5 \cdot 3 \cdot 1 = 15$.
+In general, $\Pi$ has $(2n - 1)(2n - 3) \cdots 3 \cdot 1$ elements, since the index $1$ has $2n - 1$ partners, and so on.
+For $A$ with $a_{12} = 1$, $a_{13} = 2$, $a_{14} = 3$, $a_{23} = 4$, $a_{24} = 5$, $a_{34} = 6$, the formula gives $6 - 10 + 12 = 8$.
+The typical use is to compute the square root of the determinant of an alternating matrix with its sign.
+A trap: the sign of each term comes from $\pi_M$, not from the number of pairs.
+
+### L3 human
+
+The Pfaffian of a matrix of indeterminates is a polynomial with integer coefficients, so the definition makes sense over every commutative ring.
+Without matchings, $\omega^n / n! = \operatorname{pf}(A)\, e_1 \wedge \dots \wedge e_{2n}$ for $\omega = \sum_{i < j} a_{ij}\, e_i \wedge e_j$.

@@ -1,0 +1,48 @@
+---
+tag: WYHE1FWPHN
+kind: example
+name: A linear map from R² to R³ has no determinant
+msc: [15A04, 15A15]
+topics: [DTBK11SR77]
+audience: ug2
+not_instance_of:
+  - target: 0X0HQYSZ0K
+    note: the map T(x, y) = (x, y, 0) from R^2 to R^3 is not an endomorphism, and its 3 × 2 matrices have no determinant
+uses: [03F5KP94K0, 0YYMY95FWS]
+sources:
+  - url: https://en.wikipedia.org/wiki/Determinant
+    locator: Determinant of an endomorphism
+---
+
+## Example
+
+Let $T \colon \mathbb{R}^2 \to \mathbb{R}^3$ be $T(x, y) = (x, y, 0)$.
+This is a non-example: $T$ has no determinant.
+
+1. The [[definition|03F5KP94K0]] needs an endomorphism, a map from a space to the same space.
+2. The domain and the codomain of $T$ have dimensions $2$ and $3$, so $T$ is not an endomorphism.
+3. Every [[matrix of $T$|0YYMY95FWS]] has $3$ rows and $2$ columns, and a $3 \times 2$ matrix has no determinant.
+4. Check with a related map: $T$ followed by the projection $(x, y, z) \mapsto (x, y)$ is $\operatorname{id}_{\mathbb{R}^2}$, with determinant $1$.
+5. The projection after $T$ in the other order is $(x, y, z) \mapsto (x, y, 0)$ on $\mathbb{R}^3$, with determinant $0$.
+6. So no single number for $T$ can make both composites multiplicative.
+
+## Remarks
+
+Equal dimensions are not enough either.
+For the identity map of $\mathbb{R}^2$, take the basis $e_1, e_2$ for the domain and $2 e_1, e_2$ for the codomain.
+Then the matrix is $\operatorname{diag}(1/2, 1)$, with determinant $1/2$, while the standard basis on both sides gives $1$.
+So a map $V \to W$ between different spaces has no well-defined determinant unless extra structure, such as volume forms, is given.
+
+## Explanations
+
+### L1 human
+
+A determinant needs a square matrix.
+A map from a plane into space has a $3 \times 2$ matrix, which is not square.
+So the question "what is its determinant" has no answer.
+
+### L2 human
+
+Steps 4 and 5 show why: the two composites have determinants $1$ and $0$.
+If $T$ had a determinant $d$ and the projection a determinant $e$, then $de = 1$ and $de = 0$.
+A trap: for maps between spaces of the same dimension, we still need one basis used on both sides.

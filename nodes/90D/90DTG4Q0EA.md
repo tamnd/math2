@@ -2,8 +2,11 @@
 tag: 90DTG4Q0EA
 kind: proof
 name: Proof that scaling a row scales the determinant
-msc: [15A15]
+msc: ["15A15"]
+topics: [DTBK11SR77]
+audience: ug1
 proves: 009CY8JXFX
+methods: [0NTF6DMVAP]
 uses: [0PPG793642]
 sources:
   - url: https://en.wikipedia.org/wiki/Determinant
@@ -19,4 +22,5 @@ sources:
 
 ## Idea
 
-Linearity in one row includes homogeneity: a scalar factor in that row comes out of the determinant. We get it from the linearity rule by taking the second coefficient to be zero.
+Linearity in one row includes homogeneity: a scalar factor in that row comes out of the determinant.
+We get it from the linearity rule by taking the second coefficient to be zero.
