@@ -1,28 +1,94 @@
 ---
 tag: 1ZK55FS2BF
 kind: statement
-role: proposition
+role: theorem
 name: Invertibility and the reduced row echelon form
 msc: [15A09]
-uses: [0EB9N0S33C, 0WF5AQYTW6, 0T6MWGZSXA, 098D6FQN3N]
+topics: [P8J6QR66TJ]
+audience: ug1
+uses: [0EB9N0S33C, 0WF5AQYTW6, 0T6MWGZSXA, 098D6FQN3N, 0M79HRJCRR, 04KGXJG1A2]
 about: [0EB9N0S33C, 0WF5AQYTW6]
 sources:
   - url: https://github.com/davidaustinm/ula/blob/b6ea263ef23703072b7007485bb7a2d89c5f399b/src/section3-1.xml#L551
     locator: src/section3-1.xml:551
+  - book: isbn:9780321982384
+    locator: Section 2.2
+  - book: isbn:9780135367971
+    locator: Section 1.6
+  - url: https://hefferon.net/linearalgebra/
+    locator: Chapter Three, Section IV.4, Inverses
 ---
 
 ## Statement
 
-Let $A$ be a square matrix.
-Then $A$ is [[invertible|0EB9N0S33C]] if and only if its [[reduced row echelon form|0WF5AQYTW6]] is the identity matrix $I$, that is, $A \sim I$.
+Let $F$ be a field and let $A$ be an $n \times n$ matrix over $F$.
+The following conditions are equivalent.
 
-Moreover, when $A$ is invertible, row reduction finds the inverse.
-Form the [[augmented matrix|0T6MWGZSXA]] $[A \mid I]$ and apply [[Gauss–Jordan elimination|098D6FQN3N]].
-The result is
-$$[A \mid I] \sim [I \mid A^{-1}].$$
+1. $A$ is [[invertible|0EB9N0S33C]].
+2. The [[homogeneous system|04KGXJG1A2]] $Ax = 0$ has only the trivial solution $x = 0$.
+3. The [[reduced row echelon form|0WF5AQYTW6]] of $A$ is the identity matrix $I_n$.
+4. $A$ is a product of [[elementary matrices|0M79HRJCRR]].
+
+When these conditions hold, row reduction finds the inverse.
+If row operations reduce $A$ to $I_n$, then the same operations, in the same order, turn $I_n$ into $A^{-1}$.
+So [[Gauss-Jordan elimination|098D6FQN3N]] on the [[augmented matrix|0T6MWGZSXA]] $[A \mid I_n]$ ends with $[I_n \mid A^{-1}]$.
 
 ## Remarks
 
-Each row operation is left multiplication by an invertible matrix.
-So reducing $A$ to $I$ gives a product $E$ of such matrices with $EA = I$.
-Applying the same operations to $I$ gives $EI = E = A^{-1}$.
+### Why each hypothesis is needed
+
+The matrix must be square.
+The $2 \times 3$ matrix $\begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \end{pmatrix}$ is in reduced row echelon form with a pivot in each row, but it is not invertible.
+Also, $Ax = 0$ has the solution $x = (0, 0, 1)^{\mathsf{T}}$.
+The scalars must form a field, or at least the pivots must be units.
+Over $\mathbb{Z}$, the $1 \times 1$ matrix $(2)$ satisfies condition 2, but it is not invertible over $\mathbb{Z}$.
+
+### Consequences
+
+- A square matrix over a field is invertible exactly when elimination finds $n$ pivots.
+- The elementary matrices generate the [[general linear group|0FCHE902D7]] $\mathrm{GL}_n(F)$.
+- Two invertible $n \times n$ matrices are [[row equivalent|006BHFWMAP]], since both reduce to $I_n$.
+- The method of [[computing the inverse by row reduction|0Z83DHFMYM]] rests on the last part of the statement.
+- The theorem that a [[one-sided inverse is two-sided|0753Y2X5K6]] follows from condition 2.
+
+### Converse
+
+Each condition implies each other condition, so the statement is its own converse.
+The [[invertible matrix theorem|~9b681771]] adds many more equivalent conditions.
+
+### Generalizations
+
+Over a commutative ring, condition 2 is weaker than invertibility, and the right test is that $\det A$ is a unit, by the [[determinant criterion|03Q7RE2HXR]].
+Over a principal ideal domain such as $\mathbb{Z}$, the [[Smith normal form|MV28Z5N9XX]] replaces the reduced row echelon form; it belongs to the theory of modules.
+
+## History
+
+Gauss used elimination for systems of linear equations in his work on least squares.
+Jordan's variant, which clears the entries above each pivot as well, gives the reduced row echelon form; the name Gauss-Jordan elimination refers to it.
+
+## Explanations
+
+### L1 human
+
+A square matrix has an inverse exactly when row reduction turns it into the identity matrix.
+Row reduction then also gives the inverse: we do the same steps to the identity matrix at the same time.
+
+### L2 human
+
+Worked example: let $A = \begin{pmatrix} 2 & 1 \\ 1 & 1 \end{pmatrix}$.
+
+1. Start with $[A \mid I_2] = \left(\begin{array}{cc|cc} 2 & 1 & 1 & 0 \\ 1 & 1 & 0 & 1 \end{array}\right)$.
+2. $R_1 \leftrightarrow R_2$ gives $\left(\begin{array}{cc|cc} 1 & 1 & 0 & 1 \\ 2 & 1 & 1 & 0 \end{array}\right)$.
+3. $R_2 \to R_2 - 2R_1$ gives $\left(\begin{array}{cc|cc} 1 & 1 & 0 & 1 \\ 0 & -1 & 1 & -2 \end{array}\right)$.
+4. $R_2 \to -R_2$ gives $\left(\begin{array}{cc|cc} 1 & 1 & 0 & 1 \\ 0 & 1 & -1 & 2 \end{array}\right)$.
+5. $R_1 \to R_1 - R_2$ gives $\left(\begin{array}{cc|cc} 1 & 0 & 1 & -1 \\ 0 & 1 & -1 & 2 \end{array}\right)$.
+6. So the reduced form of $A$ is $I_2$, and $A^{-1} = \begin{pmatrix} 1 & -1 \\ -1 & 2 \end{pmatrix}$.
+7. Check: $AA^{-1} = \begin{pmatrix} 2 - 1 & -2 + 2 \\ 1 - 1 & -1 + 2 \end{pmatrix} = I_2$.
+
+The four steps also give $A$ as a product of elementary matrices: $A = P_{12}\, T_{21}(2)\, D_2(-1)\, T_{12}(1)$.
+A trap: an echelon form with $n$ pivots is enough to decide invertibility, but the inverse appears only after the full reduction.
+
+### L3 human
+
+The theorem says that $\mathrm{GL}_n(F)$ is generated by elementary matrices, and that the orbit of $I_n$ under row operations is exactly $\mathrm{GL}_n(F)$.
+In the language of the rank, condition 3 says that $A$ has rank $n$; the [[rank normal form|~4b545a0b]] extends the theorem to all matrices.

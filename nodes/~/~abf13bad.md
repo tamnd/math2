@@ -1,0 +1,72 @@
+---
+tag: ~abf13bad
+kind: statement
+role: theorem
+name: Uniqueness of the LU and LDU decompositions
+msc: ["15A23"]
+topics: [P8J6QR66TJ]
+audience: ug2
+about: [0RKG5YW66Y]
+uses: [0RKG5YW66Y, 00J3KZP8Y0, 0N4XY7Z3NN, 0Q9PGXD9E4, 0EB9N0S33C]
+sources:
+  - url: https://en.wikipedia.org/wiki/LU_decomposition
+    locator: LDU decomposition
+  - book: isbn:9780521548236
+    locator: Section 3.5
+---
+
+## Statement
+
+Let $F$ be a field and let $A$ be an [[invertible|0EB9N0S33C]] $n \times n$ matrix over $F$.
+
+1. If $A = L_1 U_1 = L_2 U_2$ with $L_1, L_2$ unit [[lower triangular|00J3KZP8Y0]] and $U_1, U_2$ [[upper triangular|0N4XY7Z3NN]], then $L_1 = L_2$ and $U_1 = U_2$.
+2. If $A$ has an [[LU decomposition|0RKG5YW66Y]] $A = LU$, then $A = L D V$ with $D = \operatorname{diag}(u_{11}, \dots, u_{nn})$ invertible and $V = D^{-1} U$ unit upper triangular.
+3. The factorization $A = LDV$ with $L$ unit lower triangular, $D$ [[diagonal|0Q9PGXD9E4]] and $V$ unit upper triangular is unique.
+4. If $A$ is also symmetric, then $V = L^{\mathsf{T}}$, so $A = L D L^{\mathsf{T}}$.
+
+## Remarks
+
+### Why each hypothesis is needed
+
+- Invertibility is needed for uniqueness. For example, $\begin{pmatrix} 0 & 0 \\ 0 & 0 \end{pmatrix} = \begin{pmatrix} 1 & 0 \\ t & 1 \end{pmatrix} \begin{pmatrix} 0 & 0 \\ 0 & 0 \end{pmatrix}$ for each $t \in F$.
+- The normalization "unit" is needed. Without it, $A = (LC)(C^{-1}U)$ for each invertible diagonal $C$, so $L$ and $U$ are fixed only up to such a $C$.
+
+### Consequences
+
+- The multipliers of elimination without row exchanges depend only on $A$, not on the order in which the entries below the pivots are cleared.
+- The pivots $u_{kk}$ are invariants of $A$; by the theorem on [[existence of the LU decomposition|~8a5f1cba]], they are $\Delta_k/\Delta_{k-1}$.
+- For a symmetric [[positive definite|0KX66CZMBB]] matrix, the entries of $D$ are positive, and $L D^{1/2}$ is the factor of the [[Cholesky decomposition|0WKG8CYY6A]].
+
+### Converse
+
+Each product $LDV$ of the given form with an invertible $D$ is invertible, so it has an LU decomposition $L \cdot (DV)$.
+
+### Generalizations
+
+With row exchanges, $PA = LU$ is in general not unique: different choices of the pivot rows give different $P$.
+For a fixed permutation matrix $P$, the factorization $PA = LU$ is unique when it exists, by part 1 applied to $PA$.
+
+## Explanations
+
+### L1 human
+
+An invertible matrix can be split in only one way into "unit lower triangular times upper triangular".
+So the result of elimination does not depend on how you do it, as long as you do not swap rows.
+Pulling the pivots out of $U$ gives the more balanced form $LDV$.
+
+### L2 human
+
+For $A = \begin{pmatrix} 2 & 1 \\ 6 & 4 \end{pmatrix}$ we have $A = \begin{pmatrix} 1 & 0 \\ 3 & 1 \end{pmatrix}\begin{pmatrix} 2 & 1 \\ 0 & 1 \end{pmatrix}$.
+
+1. The pivots are $2$ and $1$, so $D = \operatorname{diag}(2, 1)$.
+2. Divide row 1 of $U$ by $2$ and row 2 by $1$: $V = \begin{pmatrix} 1 & 1/2 \\ 0 & 1 \end{pmatrix}$.
+3. Check: $DV = \begin{pmatrix} 2 & 1 \\ 0 & 1 \end{pmatrix} = U$, so $LDV = LU = A$.
+
+For the symmetric matrix $S = \begin{pmatrix} 2 & 4 \\ 4 & 11 \end{pmatrix}$, the step $R_2 \to R_2 - 2R_1$ gives $L = \begin{pmatrix} 1 & 0 \\ 2 & 1 \end{pmatrix}$ and $U = \begin{pmatrix} 2 & 4 \\ 0 & 3 \end{pmatrix}$.
+Then $D = \operatorname{diag}(2, 3)$ and $V = \begin{pmatrix} 1 & 2 \\ 0 & 1 \end{pmatrix} = L^{\mathsf{T}}$, as part 4 predicts.
+
+### L3 human
+
+The proof rests on one fact: the unit lower triangular group meets the upper triangular group only in $\set{I_n}$.
+This is the uniqueness part of the decomposition $B^- B^+$ in group terms.
+Over $\mathbb{R}$, the signs of the entries of $D$ in $A = LDL^{\mathsf{T}}$ give the signature of the symmetric matrix $A$, by Sylvester's law of inertia.
