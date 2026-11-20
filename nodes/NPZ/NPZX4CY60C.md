@@ -33,5 +33,5 @@ The number $c_i^*(T(b_j))$ is entry $(i, j)$ of $[T]$ and also entry $(j, i)$ of
 
 ## Variants
 
-- For $V = F^n$ and $W = F^m$ with standard bases, write forms as rows. Then $T^*(y) = yA$, and $(yA)^{\mathsf{T}} = A^{\mathsf{T}} y^{\mathsf{T}}$; see [[the dual of a matrix map|~f6882d01]].
+- For $V = F^n$ and $W = F^m$ with standard bases, write forms as rows. Then $T^*(y) = yA$, and $(yA)^{\mathsf{T}} = A^{\mathsf{T}} y^{\mathsf{T}}$; see [[the dual of a matrix map|QM8XZDS9TK]].
 - The general case reduces to this one with the coordinate isomorphisms $V \cong F^n$ and $W \cong F^m$ given by the bases.

@@ -45,12 +45,12 @@ $$\operatorname{ev}_V(v)(f) = f(v) \qquad (v \in V,\ f \in V^*).$$
 - In finite dimension, each element of $V^{**}$ is $\operatorname{ev}_V(v)$ for exactly one $v$. So $V$ may be treated as the dual of $V^*$, and the roles of $V$ and $V^*$ are symmetric.
 - If $V$ is finite-dimensional and $\varphi_1, \dots, \varphi_n$ is a basis of $V^*$, then there is a unique basis $v_1, \dots, v_n$ of $V$ whose dual basis is $\varphi_1, \dots, \varphi_n$. Take $v_i = \operatorname{ev}_V^{-1}(\varphi_i^*)$.
 - The dual basis of a dual basis $b_1^*, \dots, b_n^*$ is $\operatorname{ev}_V(b_1), \dots, \operatorname{ev}_V(b_n)$, since $\operatorname{ev}_V(b_j)(b_i^*) = b_i^*(b_j) = \delta_{ij}$.
-- The map is natural: for each linear map $f \colon V \to W$, we have $f^{**} \circ \operatorname{ev}_V = \operatorname{ev}_W \circ f$, by the [[naturality lemma|~f17af3fe]]. The [[example of the canonical evaluation map|J3X26BSQEY]] discusses why it is called canonical.
+- The map is natural: for each linear map $f \colon V \to W$, we have $f^{**} \circ \operatorname{ev}_V = \operatorname{ev}_W \circ f$, by the [[naturality lemma|R19758JQWE]]. The [[example of the canonical evaluation map|J3X26BSQEY]] discusses why it is called canonical.
 
 ### Converse
 
 If $\operatorname{ev}_V$ is surjective, then $V$ is finite-dimensional; this is the "only if" of part 3.
-The [[Erdős-Kaplansky theorem|~ecdd288b]] gives a second proof: for infinite-dimensional $V$, $\dim V^{**} > \dim V^* > \dim V$.
+The [[Erdős-Kaplansky theorem|S5ET1HG2ZX]] gives a second proof: for infinite-dimensional $V$, $\dim V^{**} > \dim V^* > \dim V$.
 
 ### Generalizations
 

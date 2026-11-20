@@ -34,15 +34,15 @@ Parts 1 and 2 hold in any dimension.
 
 ### Why each hypothesis is needed
 
-- Part 3 needs finite dimension. For $V = F^{(\N)}$ and $U = \set{0}$, we get $U^0 = V^*$, and $\dim V^* > \dim V$ by the [[Erdős-Kaplansky theorem|~ecdd288b]]. So $\dim U + \dim U^0 \ne \dim V$.
+- Part 3 needs finite dimension. For $V = F^{(\N)}$ and $U = \set{0}$, we get $U^0 = V^*$, and $\dim V^* > \dim V$ by the [[Erdős-Kaplansky theorem|S5ET1HG2ZX]]. So $\dim U + \dim U^0 \ne \dim V$.
 - In part 2, surjectivity uses that every form on $U$ extends to $V$. This needs a basis of $V$ that extends a basis of $U$, which exists over a field. Over $\Z$, the form $\Z \to \Z$, $x \mapsto x$, on the subgroup $2\Z \cong \Z$ sends $2 \mapsto 1$ and does not extend to $\Z$.
 
 ### Consequences
 
 - A subspace $U$ of dimension $k$ in $F^n$ is the solution set of a system of exactly $n - k$ independent linear equations: take a basis of $U^0$.
-- For a hyperplane $H$, $\dim H^0 = 1$. This is again the uniqueness of the equation of a hyperplane up to a factor, from the theorem on [[hyperplanes and linear forms|~577d8228]].
-- With the [[lemma on annihilators|~40061d3d]], $U \mapsto U^0$ is an inclusion-reversing bijection between the subspaces of $V$ and those of $V^*$ in finite dimension.
-- The [[kernel and image of the dual map|~0b4dab92]] are computed from part 3.
+- For a hyperplane $H$, $\dim H^0 = 1$. This is again the uniqueness of the equation of a hyperplane up to a factor, from the theorem on [[hyperplanes and linear forms|XR0EQN0H8T]].
+- With the [[lemma on annihilators|Z71CEX564V]], $U \mapsto U^0$ is an inclusion-reversing bijection between the subspaces of $V$ and those of $V^*$ in finite dimension.
+- The [[kernel and image of the dual map|7FA499AW3T]] are computed from part 3.
 
 ### Converse
 

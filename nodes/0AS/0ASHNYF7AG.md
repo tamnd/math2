@@ -43,21 +43,21 @@ Mathlib writes `Submodule.dualAnnihilator`.
 
 ### Examples
 
-- [[The annihilator of a plane in R^3|~3651743e]]: for $U = \set{x + y + z = 0}$, the annihilator is $U^0 = \R \cdot (x + y + z)$. For the line spanned by $(1, 2, 3)$, it is spanned by $-2x + y$ and $-3x + z$.
-- [[The annihilator of the trace-zero matrices|~b41703bb]] is the line spanned by the trace.
+- [[The annihilator of a plane in R^3|5VNTTZGN1A]]: for $U = \set{x + y + z = 0}$, the annihilator is $U^0 = \R \cdot (x + y + z)$. For the line spanned by $(1, 2, 3)$, it is spanned by $-2x + y$ and $-3x + z$.
+- [[The annihilator of the trace-zero matrices|5QM5REJ243]] is the line spanned by the trace.
 - $\set{0}^0 = V^*$ and $V^0 = \set{0}$.
 
 ### Non-examples
 
-- [[The orthogonal complement is not the annihilator|~2e7ce126]]: in $\R^2$, the orthogonal complement of a line is a line in $\R^2$, and it depends on the inner product. The annihilator is a line in $(\R^2)^*$, and it needs no inner product.
+- [[The orthogonal complement is not the annihilator|ENNMQ30X9F]]: in $\R^2$, the orthogonal complement of a line is a line in $\R^2$, and it depends on the inner product. The annihilator is a line in $(\R^2)^*$, and it needs no inner product.
 - The set of forms $f$ on $\R^2$ with $f(1, 0) = 1$ is not the annihilator of any subspace. It does not contain the zero form, so it is not even a subspace of $(\R^2)^*$.
 
 ### Basic properties
 
-- If $U \subseteq W$, then $W^0 \subseteq U^0$. Further, $(U + W)^0 = U^0 \cap W^0$ and $(U \cap W)^0 = U^0 + W^0$, in any dimension, by the [[lemma on annihilators|~40061d3d]].
+- If $U \subseteq W$, then $W^0 \subseteq U^0$. Further, $(U + W)^0 = U^0 \cap W^0$ and $(U \cap W)^0 = U^0 + W^0$, in any dimension, by the [[lemma on annihilators|Z71CEX564V]].
 - In finite dimension, $\dim U^0 = \dim V - \dim U$, by the theorem on the [[dimension of the annihilator|06Q1EFVH0Q]]. Also $U^0 \cong (V/U)^*$ and $V^*/U^0 \cong U^*$.
-- The [[kernel of the dual map|~0b4dab92]] is an annihilator: $\ker f^* = (\im f)^0$.
-- If $U = \ker f$ for a nonzero form $f$, then $U^0 = Ff$; this is part 3 of the theorem on [[hyperplanes and linear forms|~577d8228]].
+- The [[kernel of the dual map|7FA499AW3T]] is an annihilator: $\ker f^* = (\im f)^0$.
+- If $U = \ker f$ for a nonzero form $f$, then $U^0 = Ff$; this is part 3 of the theorem on [[hyperplanes and linear forms|XR0EQN0H8T]].
 
 ### History
 

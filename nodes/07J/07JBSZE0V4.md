@@ -49,22 +49,22 @@ Mathlib writes `Module.Dual F V` for $V^*$.
 
 ### Examples
 
-- [[Row vectors as linear forms|~455e6319]]: $(F^n)^*$ is isomorphic to the space of rows of length $n$, by $c \mapsto (x \mapsto cx)$.
-- [[The dual of F^(N)|~95d934a4]]: the dual of the space of finitely supported sequences is the space $F^{\N}$ of all sequences.
-- [[The trace pairing on matrices|~cf01dd68]]: $A \mapsto (X \mapsto \tr(AX))$ is an isomorphism from $M_n(F)$ onto $M_n(F)^*$.
+- [[Row vectors as linear forms|EGJXHX96R9]]: $(F^n)^*$ is isomorphic to the space of rows of length $n$, by $c \mapsto (x \mapsto cx)$.
+- [[The dual of F^(N)|GZ627X1S7Y]]: the dual of the space of finitely supported sequences is the space $F^{\N}$ of all sequences.
+- [[The trace pairing on matrices|4F7GWKTQ1H]]: $A \mapsto (X \mapsto \tr(AX))$ is an isomorphism from $M_n(F)$ onto $M_n(F)^*$.
 - The dual of the zero space is the zero space, since the only map $\set{0} \to F$ sends $0$ to $0$.
 - The dual of $F$, as a vector space over itself, is $F$: each linear form on $F$ is $x \mapsto cx$ with $c = f(1)$.
 
 ### Non-examples
 
-- [[The affine functions on R^2|~f40f6be3]] form a vector space of dimension $3$, but they are not the dual space: the constant function $1$ is not linear.
+- [[The affine functions on R^2|FWNY6EYBC3]] form a vector space of dimension $3$, but they are not the dual space: the constant function $1$ is not linear.
 - The space of all functions $\R^2 \to \R$ is not $(\R^2)^*$: it contains $(x, y) \mapsto xy$, which is not additive.
 - The space $V$ itself is not $V^*$, even when the two have the same dimension. An isomorphism $V \to V^*$ needs a choice, as the [[basis-dependent isomorphism of R^2 and its dual|A3CP855PNV]] shows.
 
 ### Basic properties
 
 - If $\dim V = n$ is finite, then $\dim V^* = n$, by the theorem on the [[dimension of the dual space|00889YD15K]]. A basis of $V$ gives the [[dual basis|0ZD2CF6ZS0]] of $V^*$.
-- If $V$ is infinite-dimensional, then $\dim V^* > \dim V$, by the [[Erdős-Kaplansky theorem|~ecdd288b]].
+- If $V$ is infinite-dimensional, then $\dim V^* > \dim V$, by the [[Erdős-Kaplansky theorem|S5ET1HG2ZX]].
 - The evaluation map $V \to V^{**}$ is injective, and it is an isomorphism exactly when $V$ is finite-dimensional, by the theorem on the [[double dual|0ZJM9D7NPS]].
 - Each subspace $U$ of $V$ has an [[annihilator|0ASHNYF7AG]] $U^0 \subseteq V^*$, and in finite dimension $\dim U + \dim U^0 = \dim V$.
 - Each linear map $f \colon V \to W$ has a [[dual map|0AZ5ARP287]] $f^* \colon W^* \to V^*$, and $(g \circ f)^* = f^* \circ g^*$.
@@ -79,7 +79,7 @@ The algebraic dual space of an arbitrary vector space, with no topology, became 
 ### Common errors
 
 - Thinking that $V^*$ is "the same as" $V$. In finite dimension they are isomorphic, but no isomorphism is preferred, and in infinite dimension they are not isomorphic.
-- Thinking that the coordinate forms of an infinite basis are a basis of $V^*$. They are linearly independent, but they [[do not span V*|~d17873c6]].
+- Thinking that the coordinate forms of an infinite basis are a basis of $V^*$. They are linearly independent, but they [[do not span V*|JCMJDY59CH]].
 - Confusing the algebraic dual of this page with the continuous dual of a normed space.
 
 ## Explanations

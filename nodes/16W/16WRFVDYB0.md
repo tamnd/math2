@@ -1,0 +1,57 @@
+---
+tag: 16WRFVDYB0
+kind: example
+name: The inner product adjoint is not the dual map
+msc: ["15A04", "15A63"]
+topics: [9K7FFF26QR]
+audience: ug2
+not_instance_of:
+  - target: 0AZ5ARP287
+    note: for the inner product with Gram matrix diag(1, 2) on R^2, the adjoint of A = E12 is a map R^2 to R^2 with matrix G^-1 A^T G, which differs from the transpose A^T
+uses: [0C2TQMW5A1, 0ST8QF9T3T, 0NB0AWGJBW, 0W809K6AW0, 04GYPXDXNH]
+sources:
+  - url: https://en.wikipedia.org/wiki/Transpose_of_a_linear_map
+    locator: Relation to the Hermitian adjoint
+  - url: https://en.wikipedia.org/wiki/Hermitian_adjoint
+    locator: Definition for bounded operators between Hilbert spaces
+---
+
+## Example
+
+Let $V = \R^2$ with the [[inner product|0NB0AWGJBW]] $\langle v, w \rangle = v^{\mathsf{T}} G w$, where $G = \begin{pmatrix} 1 & 0 \\ 0 & 2 \end{pmatrix}$.
+Let $f(x) = Ax$ with $A = \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}$.
+We compare the [[adjoint|0ST8QF9T3T]] $f^\dagger$, defined by $\langle f v, w \rangle = \langle v, f^\dagger w \rangle$, with the [[dual map|0C2TQMW5A1]] $f^*$.
+
+1. The dual map $f^* \colon V^* \to V^*$ has the matrix $A^{\mathsf{T}} = \begin{pmatrix} 0 & 0 \\ 1 & 0 \end{pmatrix}$ in the dual of the standard basis. It needs no inner product.
+2. The adjoint is a map $V \to V$. Let $M$ be its matrix. The condition is $(Av)^{\mathsf{T}} G w = v^{\mathsf{T}} G M w$ for all $v, w$.
+3. The left side is $v^{\mathsf{T}} A^{\mathsf{T}} G w$. So $A^{\mathsf{T}} G = G M$, and $M = G^{-1} A^{\mathsf{T}} G$.
+4. Compute: $A^{\mathsf{T}} G = \begin{pmatrix} 0 & 0 \\ 1 & 0 \end{pmatrix} \begin{pmatrix} 1 & 0 \\ 0 & 2 \end{pmatrix} = \begin{pmatrix} 0 & 0 \\ 1 & 0 \end{pmatrix}$.
+5. Then $M = \begin{pmatrix} 1 & 0 \\ 0 & \frac{1}{2} \end{pmatrix} \begin{pmatrix} 0 & 0 \\ 1 & 0 \end{pmatrix} = \begin{pmatrix} 0 & 0 \\ \frac{1}{2} & 0 \end{pmatrix}$.
+6. Check with $v = e_2$, $w = e_1$: $\langle A e_2, e_1 \rangle = \langle e_1, e_1 \rangle = 1$, and $\langle e_2, M e_1 \rangle = \langle e_2, \tfrac{1}{2} e_2 \rangle = \tfrac{1}{2} \cdot 2 = 1$.
+7. So $M \ne A^{\mathsf{T}}$. The adjoint and the dual map act on different spaces, and even their matrices differ.
+
+## Remarks
+
+- The two are related by the [[Riesz map|04GYPXDXNH]] $R \colon V \to V^*$, $R(w) = \langle w, \cdot \rangle$: one has $f^\dagger = R^{-1} \circ f^* \circ R$. The Riesz map depends on the inner product.
+- For the dot product, $G = I$, and the adjoint has matrix $A^{\mathsf{T}}$. So the two agree in orthonormal bases, which is the source of the common confusion.
+- The [[transpose|0W809K6AW0]] of a matrix is the matrix of the dual map in dual bases, for every basis. It is the matrix of the adjoint only in orthonormal bases.
+
+## Explanations
+
+### L1 human
+
+The dual map and the adjoint are two different "reverses" of a linear map.
+The dual map acts on linear forms and needs nothing extra.
+The adjoint acts on vectors and needs an inner product.
+With the usual dot product they have the same matrix, but with another inner product they differ.
+
+### L2 human
+
+To find the adjoint for an inner product with Gram matrix $G$, use the formula $G^{-1} A^{\mathsf{T}} G$.
+
+1. Write the defining equation $\langle Av, w \rangle = \langle v, Mw \rangle$ in matrices.
+2. Solve for $M$: $M = G^{-1} A^{\mathsf{T}} G$.
+3. Compare with $A^{\mathsf{T}}$, the matrix of the dual map.
+
+The typical use is to keep the two notions apart in spaces without a preferred inner product.
+A trap: older books write $f^*$ for both maps.

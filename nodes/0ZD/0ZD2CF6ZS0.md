@@ -46,20 +46,20 @@ Mathlib writes `Module.Basis.dualBasis`.
 
 ### Examples
 
-- For the standard basis $e_1, \dots, e_n$ of $F^n$, the dual basis is the family of coordinate forms $e_i^*(x) = x_i$; see the [[row vectors as linear forms|~455e6319]].
-- [[The dual basis of a basis of R^2|~9ec3ae83]]: for $b_1 = (1, 1)$ and $b_2 = (1, 2)$, the dual basis is $b_1^* = 2x - y$ and $b_2^* = -x + y$.
-- [[Evaluation at nodes and Lagrange polynomials|~fbd2f34b]]: on $P_2(\R)$, the evaluations at $0, 1, 2$ are the dual basis of the Lagrange basis for these nodes.
+- For the standard basis $e_1, \dots, e_n$ of $F^n$, the dual basis is the family of coordinate forms $e_i^*(x) = x_i$; see the [[row vectors as linear forms|EGJXHX96R9]].
+- [[The dual basis of a basis of R^2|YMRSMANN2E]]: for $b_1 = (1, 1)$ and $b_2 = (1, 2)$, the dual basis is $b_1^* = 2x - y$ and $b_2^* = -x + y$.
+- [[Evaluation at nodes and Lagrange polynomials|J8RDPQXN1Z]]: on $P_2(\R)$, the evaluations at $0, 1, 2$ are the dual basis of the Lagrange basis for these nodes.
 
 ### Non-examples
 
-- [[The coordinate forms of an infinite basis|~d17873c6]] are linearly independent in $V^*$, but they do not span $V^*$. So there is no dual basis in infinite dimension.
+- [[The coordinate forms of an infinite basis|JCMJDY59CH]] are linearly independent in $V^*$, but they do not span $V^*$. So there is no dual basis in infinite dimension.
 - For a basis $b_1, b_2$ of $V$, the forms $b_1^*, b_2^*$ of one basis are not the forms of another basis with the same $b_1$. For $b_1 = (1, 1)$, the dual form $b_1^*$ is $y$ when $b_2 = (1, 0)$, but $2x - y$ when $b_2 = (1, 2)$.
 
 ### Basic properties
 
 - The dual basis is a basis of $V^*$. This is the main step in the proof of the [[dimension of the dual space|00889YD15K]].
 - Expansions: $v = \sum_i b_i^*(v)\, b_i$ for $v \in V$, and $f = \sum_i f(b_i)\, b_i^*$ for $f \in V^*$. Both follow because linear maps that agree on a basis are equal, by the [[theorem on maps determined by a basis|0R8X9XA83A]].
-- If a new basis is $c_j = \sum_i p_{ij} b_i$ with matrix $P$, then the new dual basis has matrix $(P^{-1})^{\mathsf{T}}$ in the old dual basis, by the [[change of dual basis lemma|~6d879f22]].
+- If a new basis is $c_j = \sum_i p_{ij} b_i$ with matrix $P$, then the new dual basis has matrix $(P^{-1})^{\mathsf{T}}$ in the old dual basis, by the [[change of dual basis lemma|SXWX10HSB6]].
 - The dual basis of the dual basis is the image of $b_1, \dots, b_n$ under the evaluation map $V \to V^{**}$ of the [[double dual theorem|0ZJM9D7NPS]].
 - In $F^n$, if the basis vectors are the columns of an invertible matrix $P$, then the dual basis forms are the rows of $P^{-1}$, since $P^{-1} P = I$.
 

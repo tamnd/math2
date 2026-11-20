@@ -74,4 +74,4 @@ A trap: a function space with the pointwise operations is different from a funct
 
 The space $F^S$ is the product of copies of $F$ indexed by $S$, and $F^{(S)}$ is the direct sum.
 The space $F^{(S)}$ is the free vector space on $S$, and its dual is $F^S$.
-For infinite $S$, the dimension of $F^S$ is $\abs{F}^{\abs{S}}$, by the [[Erdős-Kaplansky theorem|~ecdd288b]], so it is strictly larger than $\abs{S}$.
+For infinite $S$, the dimension of $F^S$ is $\abs{F}^{\abs{S}}$, by the [[Erdős-Kaplansky theorem|S5ET1HG2ZX]], so it is strictly larger than $\abs{S}$.

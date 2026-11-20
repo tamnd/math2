@@ -35,9 +35,9 @@ Mathlib writes `Module.Dual.transpose`.
 ## Remarks
 
 - $T^*(\varphi)$ is linear as a composition of linear maps, and $T^*$ is linear because the operations of $V^*$ are pointwise.
-- It reverses the order of composition: $(T \circ S)^* = S^* \circ T^*$, and $(\id_V)^* = \id_{V^*}$; see the [[functoriality lemma|~3163ec56]].
+- It reverses the order of composition: $(T \circ S)^* = S^* \circ T^*$, and $(\id_V)^* = \id_{V^*}$; see the [[functoriality lemma|XBKREPBM9D]].
 - In dual bases, the matrix of $T^*$ is the transpose of the matrix of $T$; see [[the matrix of the dual map|0ZPB3180AY]].
-- The kernel of $T^*$ is the [[annihilator|0R6M158SQ9]] of the image of $T$; see the [[kernel and image of the dual map|~0b4dab92]].
+- The kernel of $T^*$ is the [[annihilator|0R6M158SQ9]] of the image of $T$; see the [[kernel and image of the dual map|7FA499AW3T]].
 
 ## Explanations
 
