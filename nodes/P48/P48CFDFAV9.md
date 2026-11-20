@@ -1,10 +1,13 @@
 ---
 tag: P48CFDFAV9
 kind: proof
-name: Proof of the spectral theorem for normal matrices by deflation
-msc: [15A21, 47B15]
+name: Proof of the complex spectral theorem by deflation
+msc: ["15A21", "47B15"]
+topics: [3YM9EK6VMB]
+audience: ug1
 proves: 04CW1P44VD
 uses: [0XYKE8BE7X, 0EX045E2BP, 0D6RMJ10M9, 0Q9PGXD9E4, 076JGP6R3T, 01AXG9KZQF, 0753Y2X5K6, 0ZND7NQ970, 08CJB2NQ92, 02SJG1HC32, 0JP0W07Y9A, 0VGSYBWHV2, 0Y85GYEGSF]
+methods: [0ASJVEFA9J, TFQ1845T84]
 sources:
   - url: https://ocw.mit.edu/courses/res-18-011-algebra-i-student-notes-fall-2021/mit18_701f21_lect28.pdf
     locator: Lemma 28.4 and proof of Theorem 28.1
@@ -12,7 +15,8 @@ sources:
 
 ## Proof
 
-The converse is a direct computation. For the main direction, we argue by induction on $n$, splitting off one eigenvector at a time.
+The converse is a direct computation.
+For the main direction, we argue by induction on $n$, splitting off one eigenvector at a time.
 
 1. Write $M^*$ for the [[conjugate transpose|0EX045E2BP]]. For matrices of matching sizes, $(MN)^* = N^* M^*$ and $(M^*)^* = M$, by the formula $(M^*)_{ij} = \overline{m_{ji}}$.
 2. Converse. Let $A = U D U^*$ with $U$ [[unitary|0D6RMJ10M9]] and $D$ [[diagonal|0Q9PGXD9E4]]. Then $U^* U = I$, so $U U^* = I$ by the [[one-sided inverse theorem|0753Y2X5K6]].
@@ -39,4 +43,13 @@ The converse is a direct computation. For the main direction, we argue by induct
 
 ## Idea
 
-For a normal matrix, $\norm{A^* x} = \norm{A x}$ for every $x$, and the same holds for $A - \lambda I$. So an eigenvector of $A$ for $\lambda$ is an eigenvector of $A^*$ for $\overline{\lambda}$. In an orthonormal basis that starts with this vector, both the first row and the first column of $A$ vanish off the diagonal. The rest is a smaller normal matrix, and induction finishes.
+For a normal matrix, $\norm{A^* x} = \norm{A x}$ for every $x$, and the same holds for $A - \lambda I$.
+So an eigenvector of $A$ for $\lambda$ is an eigenvector of $A^*$ for $\overline{\lambda}$.
+In an orthonormal basis that starts with this vector, both the first row and the first column of $A$ vanish off the diagonal.
+The rest is a smaller normal matrix, and induction finishes.
+
+## Variants
+
+- [[The proof through the Schur decomposition|~1f620799]] triangularizes $A$ by a unitary matrix first, and then shows that a normal upper triangular matrix is diagonal.
+- Steps 7 to 9 are a special case of [[the norm criterion for normal operators|~98fd04c3]], which gives $\norm{N x} = \norm{N^* x}$ for every normal $N$.
+- The same deflation works for operators: if $T e_1 = \lambda e_1$ and $T$ is normal, then $e_1^\perp$ is invariant under $T$ and $T^*$, and the restriction of $T$ to $e_1^\perp$ is normal.
