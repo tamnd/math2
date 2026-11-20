@@ -1,0 +1,59 @@
+---
+tag: 5MN48ESK0F
+kind: example
+name: An order-preserving finite map of the integers that is not partial elementary
+msc: ["03C07"]
+topics: [2RE7GWWXM5]
+audience: ug2
+not_instance_of:
+  - target: XTNYY0WRQ5
+    note: the map 0 to 0, 1 to 2 in the integer order preserves the order but not the formula saying that nothing lies between x and y
+uses: [XTNYY0WRQ5, C9494XYEMN]
+sources:
+  - url: https://en.wikipedia.org/wiki/Elementary_equivalence
+    locator: Elementary embeddings
+  - book: isbn:9780387987606
+    locator: Chapter 2
+---
+
+## Example
+
+Let $L = \set{<}$ and $\mathcal{M} = \mathcal{N} = (\Z, <)$.
+Let $f \colon \set{0, 1} \to \Z$ be the map $f(0) = 0$, $f(1) = 2$.
+We check that $f$ preserves all quantifier-free formulas but is not a [[partial elementary map|XTNYY0WRQ5]].
+
+1. The atomic formulas in two variables are $x_1 < x_2$, $x_2 < x_1$, $x_1 = x_2$ and the trivial ones $x_j < x_j$, $x_j = x_j$.
+2. $0 < 1$ and $0 < 2$; $1 \not< 0$ and $2 \not< 0$; $0 \ne 1$ and $0 \ne 2$. So $f$ preserves each atomic formula, and hence each Boolean combination of them.
+3. Let $\varphi(x_1, x_2)$ be $x_1 < x_2 \land \neg \exists z \, (x_1 < z \land z < x_2)$, "$x_2$ is the successor of $x_1$".
+4. $\Z \models \varphi(0, 1)$, since no integer lies strictly between $0$ and $1$.
+5. $\Z \models \neg\varphi(0, 2)$, since $0 < 1 < 2$.
+6. So $f$ does not preserve $\varphi$, and $f$ is not partial elementary.
+
+## Remarks
+
+The example shows the difference between a partial isomorphism, which preserves [[quantifier-free formulas|C9494XYEMN]], and a partial elementary map.
+In $(\Q, <)$ the same kind of map is partial elementary, because $\Q$ is dense; see [[this example|6V2ENEMAS8]].
+In $(\Z, <)$ a finite map $a_1 < \dots < a_n \mapsto b_1 < \dots < b_n$ is partial elementary exactly when $b_{j+1} - b_j = a_{j+1} - a_j$ for each $j$.
+Indeed, the distance $d$ between two elements is expressed by the formula "there are exactly $d - 1$ elements between $x$ and $y$", and a translation is an automorphism of $(\Z, <)$.
+So the type of a pair in $(\Z, <)$ records the distance, which is not quantifier-free information.
+
+## Explanations
+
+### L1 human
+
+In the whole numbers with their order, send $0$ to $0$ and $1$ to $2$.
+The order is kept: $0$ is still below the image of $1$.
+But $1$ comes right after $0$, and $2$ does not come right after $0$, because $1$ lies between them.
+So the statement "the second number comes right after the first" is true before the map and false after it.
+
+### L2 human
+
+We check the criterion of the Remarks for the map $(3, 5, 6) \mapsto (10, 12, 13)$.
+
+1. The gaps are $5 - 3 = 2$, $6 - 5 = 1$ and $12 - 10 = 2$, $13 - 12 = 1$. They agree.
+2. The translation $\tau(x) = x + 7$ is an automorphism of $(\Z, <)$ with $\tau(3) = 10$, $\tau(5) = 12$, $\tau(6) = 13$.
+3. Automorphisms preserve formulas, so the map is partial elementary.
+4. For $(3, 5, 6) \mapsto (10, 11, 13)$ the first gaps are $2$ and $1$, so "exactly one element lies between $x_1$ and $x_2$" separates the two triples.
+
+The typical use is to test a claim about partial elementary maps on a structure without density.
+A trap is to check only the order relations between the elements, which is the quantifier-free part of the type.
