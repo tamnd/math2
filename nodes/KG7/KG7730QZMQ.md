@@ -1,0 +1,102 @@
+---
+tag: KG7730QZMQ
+kind: concept
+name: Boolean algebras in logic
+aliases: [boolean-algebras-in-logic, boolean-semantics-of-classical-logic]
+msc: ["03G05", "06E15"]
+topics: [QYA4H5Y7VR]
+audience: grad
+uses: [0XADJKM699, 09K9MWD2QQ, QC9M3Q8B8Q]
+sources:
+  - url: https://en.wikipedia.org/wiki/Algebraic_logic
+    locator: History
+  - url: https://en.wikipedia.org/wiki/Stone%27s_representation_theorem_for_Boolean_algebras
+    locator: lead section
+  - url: https://plato.stanford.edu/entries/logic-algebraic-propositional/
+    locator: "5. The algebraic counterparts of classical and intuitionistic logic"
+  - book: isbn:9780387905785
+---
+
+## Summary
+
+Classical propositional logic is the logic of [[Boolean algebras|0XADJKM699]] in this precise sense.
+A formula $\varphi$ is a theorem iff $v(\varphi) = 1$ for every Boolean algebra $B$ and every valuation $v$ of the variables in $B$, where $\neg$, $\land$, $\lor$ act as complement, meet and join and $\varphi \to \psi$ is read as $\neg \varphi \lor \psi$.
+The same holds with the [[two-element Boolean algebra|0WG43AC0EV]] alone, and a theory $T$ proves $\varphi$ iff every such valuation that sends $T$ to $1$ sends $\varphi$ to $1$.
+Under [[Stone duality|B9T33D5MJK]], the models of $T$ are the points of the Stone space of the [[Lindenbaum-Tarski algebra|QC9M3Q8B8Q]] of $T$.
+This view turns logical facts, such as completeness and compactness, into facts about algebras and spaces.
+
+## Motivation
+
+A truth table computes with the values $0$ and $1$ by the rules of $\mathbf{2}$.
+The same rules hold for subsets of a set under union, intersection and complement.
+So a formula can be evaluated in any Boolean algebra, for example as the set of possible worlds where it is true.
+The question is which algebras give the same theorems as truth tables; the answer is all Boolean algebras.
+
+## Notation
+
+A valuation is a map $v \colon P \to B$, extended to formulas by $v(\neg \varphi) = \neg v(\varphi)$ and $v(\varphi \to \psi) = \neg v(\varphi) \lor v(\psi)$.
+We write $B \models \varphi$ when $v(\varphi) = 1$ for every valuation $v$ in $B$.
+In equational form, $B \models \varphi$ is the same as $B \models \varphi \approx 1$.
+For the Stone space of $B$ we write $S(B)$, the set of [[ultrafilters|CQM84EW10G]] of $B$.
+
+## Remarks
+
+### Examples
+
+1. The [[two-element Boolean algebra|0WG43AC0EV]]: valuations in it are the rows of truth tables.
+2. [[The power set of a two-element set|EA28WBY0P0]]: the theorem $((p \to q) \to p) \to p$ gets the value $1$ under every valuation, and $p \to q$ does not.
+3. [[The Lindenbaum-Tarski algebra on countably many variables|XQTHXBC2CG]]: it is the countable atomless Boolean algebra, the algebra of clopen sets of the Cantor space.
+4. The Lindenbaum-Tarski algebra of a theory $T$: the canonical valuation $p \mapsto [p]$ refutes every $\varphi$ with $T \nvdash \varphi$.
+
+### Non-examples
+
+1. [[The three-element Heyting chain|YBT5KSQ2GC]]: $p \lor \neg p$ takes the value $\tfrac12$, because complements are missing.
+2. The four-element [[De Morgan algebra|5Q53XWV0QN]] of Belnap and Dunn: it has an involution, but the involution is not a Boolean complement, so $p \land \neg p$ can be different from $0$.
+
+### Basic properties
+
+1. Soundness and completeness for all Boolean algebras and for $\mathbf{2}$: [[the algebraic completeness theorem|J2GTJ8FKF2]].
+2. The Lindenbaum-Tarski algebra of the empty theory is a free Boolean algebra: [[this theorem|JVZ8APEV7A]].
+3. Valuations in $\mathbf{2}$ that make $T$ true correspond to ultrafilters of the Lindenbaum-Tarski algebra of $T$, hence to points of its Stone space.
+4. Compactness of propositional logic corresponds to compactness of the Stone space; see [[Stone duality|B9T33D5MJK]].
+5. The equations that hold in $\mathbf{2}$ are the equations of all Boolean algebras, so $\mathbf{2}$ generates the [[variety|AJNZJD8442]].
+
+### History
+
+Boole published *The Mathematical Analysis of Logic* in 1847, and in it he computed with classes and propositions by algebraic laws.
+Stone proved in 1936 that every Boolean algebra is isomorphic to an algebra of sets.
+His later duality with Stone spaces gave the topological side of the semantics.
+
+### Common errors
+
+1. Reading $\to$ as an operation of the lattice only. In a Boolean algebra $a \to b$ is $\neg a \lor b$, and $a \le b$ iff $a \to b = 1$.
+2. Thinking that a value strictly between $0$ and $1$ means "partly true". In the power set algebra it means "true in some worlds".
+3. Mixing up the two uses of Boolean algebras: an algebra of values for formulas, and the Lindenbaum-Tarski algebra built from formulas.
+
+## Explanations
+
+### L1 human
+
+In ordinary logic every sentence is true or false.
+Instead of "true" and "false", we can use sets: a sentence gets the set of situations where it is true.
+"And" becomes the overlap of sets, "or" the union, and "not" the complement.
+A sentence that is true in every situation, for every choice of sets, is exactly a sentence that logic can prove.
+For example, with two situations, "$p$ or not $p$" always gets both situations.
+
+### L2 human
+
+1. Take $B$ the power set of $\set{1, 2}$, and $v(p) = \set{1}$, $v(q) = \emptyset$.
+2. Then $v(p \to q) = \set{2} \cup \emptyset = \set{2}$.
+3. Then $v((p \to q) \to p) = \set{1} \cup \set{1} = \set{1}$.
+4. Then $v(((p \to q) \to p) \to p) = \set{2} \cup \set{1} = \set{1, 2} = 1$.
+5. So Peirce's law gets the value $1$ here, as completeness predicts.
+
+The typical use: to show that $\varphi$ is not a theorem, find a valuation in some Boolean algebra with value different from $1$.
+The trap: for intuitionistic logic one must use Heyting algebras; Peirce's law fails there.
+
+### L3 human
+
+The Boolean semantics is the first example of an equivalent algebraic semantics in the sense of [[algebraizable logic|CESWST3NWA]].
+The translation sends a formula $\varphi$ to the equation $\varphi \approx 1$, and an equation $s \approx t$ back to the formula $(s \to t) \land (t \to s)$.
+Stone duality adds a topological side: Boolean algebras correspond to Stone spaces, theories to closed sets, and models to points.
+For first-order logic, Boolean algebras are not enough; one adds quantifiers as operators and obtains [[cylindric algebras|1MDT9BF81H]] and [[polyadic algebras|CQ9A86S3J4]].

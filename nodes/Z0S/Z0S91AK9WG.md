@@ -1,0 +1,85 @@
+---
+tag: Z0S91AK9WG
+kind: statement
+role: theorem
+name: Algebraic completeness of normal modal logics
+aliases: [algebraic-completeness-normal-modal-logics, modal-logics-varieties-duality]
+msc: ["03B45", "03G05"]
+topics: [QYA4H5Y7VR]
+audience: research
+about: [3H85NSFWHK, D1TJYZZDCY]
+uses: [JCP47TNBSD, JS8W7PA6JK, MGCVQXXQJH, 5083DHSK82]
+proofs: [1R431TTG7C]
+sources:
+  - url: https://en.wikipedia.org/wiki/Modal_algebra
+    locator: lead section
+  - url: https://plato.stanford.edu/entries/logic-algebraic-propositional/
+    locator: "10. The Leibniz hierarchy"
+  - book: isbn:9780521527149
+    locator: Chapter 5
+---
+
+## Statement
+
+Let $\Lambda$ be a [[normal modal logic|JS8W7PA6JK]] over a countably infinite set of variables.
+A formula $\varphi$ is *valid* in a [[modal algebra|JCP47TNBSD]] $A$, written $A \models \varphi$, if $v(\varphi) = 1$ for every homomorphism $v$ from the formula algebra to $A$.
+Let $\mathsf{V}(\Lambda)$ be the class of modal algebras in which every formula of $\Lambda$ is valid.
+For a class $\mathsf{K}$ of modal algebras, let $\mathrm{Log}(\mathsf{K})$ be the set of formulas valid in every member of $\mathsf{K}$.
+
+**Theorem.**
+
+1. For every formula $\varphi$: $\varphi \in \Lambda$ iff $A \models \varphi$ for every $A \in \mathsf{V}(\Lambda)$.
+   That is, $\mathrm{Log}(\mathsf{V}(\Lambda)) = \Lambda$.
+2. $\mathsf{V}(\Lambda)$ is a variety, and for every variety $\mathsf{V}$ of modal algebras, $\mathrm{Log}(\mathsf{V})$ is a normal modal logic with $\mathsf{V}(\mathrm{Log}(\mathsf{V})) = \mathsf{V}$.
+3. So $\Lambda \mapsto \mathsf{V}(\Lambda)$ is a bijection from normal modal logics to varieties of modal algebras that reverses inclusion.
+
+## Remarks
+
+### Why each hypothesis is needed
+
+1. Normality is needed: the Lindenbaum-Tarski algebra of a logic without necessitation need not respect $\Box$.
+   For example, if $p \leftrightarrow q$ is in the logic but $\Box p \leftrightarrow \Box q$ is not, then $\Box$ is not defined on classes.
+2. Closure under substitution is needed for part 1. Validity in an algebra is closed under substitution, so a set without this closure cannot be $\mathrm{Log}(\mathsf{K})$.
+3. Algebras are needed, and frames are not enough. Some normal modal logics are not the logic of any class of frames; see [[Kripke incompleteness|W67YJQTT50]].
+
+### Consequences
+
+1. Every normal modal logic is complete for its algebraic semantics, even when it is Kripke incomplete.
+2. The lattice of normal modal logics is dually isomorphic to the lattice of subvarieties of the variety of modal algebras, by part 3.
+3. Properties of logics become properties of varieties: for instance, finite axiomatizability of $\Lambda$ corresponds to a finite equational basis of $\mathsf{V}(\Lambda)$ relative to the modal algebras.
+
+### Converse
+
+Part 3 is a bijection, so each variety of modal algebras is $\mathsf{V}(\Lambda)$ for exactly one normal modal logic $\Lambda$, namely $\mathrm{Log}(\mathsf{V})$.
+
+### Generalizations
+
+1. The same holds for the [[interior algebras|BDEX7HET71]] and the normal extensions of S4, and for Heyting algebras and intermediate logics.
+2. For Boolean algebras with several operators, the statement holds with multimodal normal logics.
+3. In abstract algebraic logic, this theorem is part of the statement that the global consequence of $\mathsf{K}$ is [[algebraizable|CESWST3NWA]] with the modal algebras as equivalent algebraic semantics.
+
+## Explanations
+
+### L1 human
+
+A normal modal logic is a list of formulas closed under some rules.
+The theorem says that such a list is always the list of formulas that come out "true" in some algebras.
+The algebras are Boolean algebras with an extra operation for "necessarily".
+For example, S4 is the list of formulas true in all algebras whose extra operation behaves like the inside of a set.
+
+### L2 human
+
+1. Let $\Lambda = \mathsf{K}$, the smallest normal modal logic.
+2. $\mathsf{V}(\mathsf{K})$ is the class of all modal algebras, since every modal algebra validates $\mathsf{K}$.
+3. The formula $\Box p \to p$ is not in $\mathsf{K}$.
+4. A modal algebra that refutes it is the complex algebra of the frame $0 R 1$, with $v(p) = \emptyset$: $v(\Box p) = \set{1}$.
+5. So $v(\Box p \to p) = \set{0} \cup \emptyset = \set{0} \ne 1$.
+
+The typical use: to show that $\varphi \notin \Lambda$, find a modal algebra of $\Lambda$ in which $\varphi$ fails.
+The trap: the algebra must validate all of $\Lambda$, not only the formula one tests.
+
+### L3 human
+
+Parts 2 and 3 are a Galois correspondence between sets of formulas and classes of algebras whose closed sets are the normal logics and the varieties.
+The modal algebras of a logic play the role that the Boolean algebras play for classical logic and the Heyting algebras for intuitionistic logic.
+Duality theory adds frames: by the [[Jónsson-Tarski theorem|HC5V2QFFWB]], each modal algebra embeds into the complex algebra of a frame, and descriptive general frames are dual to modal algebras.

@@ -1,0 +1,62 @@
+---
+tag: K6NXV8S7EP
+kind: example
+name: An ordinal sum of a three-element MV-chain and a two-element chain
+msc: ["03G25", "06D35"]
+topics: [QYA4H5Y7VR]
+audience: research
+instance_of: [ERNYMVEGKC]
+uses: [WVKZX0PT6R, RXFSSJJE6Q]
+sources:
+  - url: https://plato.stanford.edu/entries/logic-fuzzy/
+    locator: "1. Fuzzy connectives based on t-norms"
+  - book: isbn:9780792352389
+---
+
+## Example
+
+Take the chain $0 < a < c < 1$.
+The lower block $\set{0, a, 1}$ is [[the three-element MV-algebra|RXFSSJJE6Q]], with $a$ in the role of $\tfrac12$.
+The upper block $\set{c, 1}$ is a two-element chain with $c \otimes c = c$.
+Both blocks share the top $1$.
+For $x, y$ in the same block, $\otimes$ and $\to$ are computed in that block.
+For $x$ and $y$ in different blocks, with $x < y$: $x \otimes y = x$, $x \to y = 1$ and $y \to x = x$.
+
+| $\otimes$ | $0$ | $a$ | $c$ | $1$ |
+|---|---|---|---|---|
+| $0$ | $0$ | $0$ | $0$ | $0$ |
+| $a$ | $0$ | $0$ | $a$ | $a$ |
+| $c$ | $0$ | $a$ | $c$ | $c$ |
+| $1$ | $0$ | $a$ | $c$ | $1$ |
+
+| $\to$ | $0$ | $a$ | $c$ | $1$ |
+|---|---|---|---|---|
+| $0$ | $1$ | $1$ | $1$ | $1$ |
+| $a$ | $a$ | $1$ | $1$ | $1$ |
+| $c$ | $0$ | $a$ | $1$ | $1$ |
+| $1$ | $0$ | $a$ | $c$ | $1$ |
+
+## Remarks
+
+1. Checking all $64$ triples shows that $\otimes$ is a commutative monoid with unit $1$, residuation, prelinearity and divisibility. So it is a [[BL-algebra|WVKZX0PT6R]].
+2. It is not an MV-algebra: $\neg c = 0$, so $\neg \neg c = 1 \ne c$.
+3. It is not a Gödel algebra: $a \otimes a = 0 \ne a$.
+4. It is the finite analog of a continuous t-norm that acts as Łukasiewicz on a lower interval and as minimum above it.
+
+## Explanations
+
+### L1 human
+
+Stack two small logics on top of each other.
+At the bottom there is three-valued Łukasiewicz logic; above it there is a step that behaves like ordinary "and".
+The result obeys all the rules of basic fuzzy logic, but it is neither of the two familiar kinds.
+
+### L2 human
+
+1. Compute $a \otimes c = a$, since $a$ is in the lower block.
+2. Compute $c \to a = a$: the largest $z$ with $z \otimes c \le a$ is $a$.
+3. Check divisibility at $x = c$, $y = a$: $c \otimes (c \to a) = c \otimes a = a = c \land a$.
+4. Check $x \lor y = (x \to y) \to y$ at $x = c$, $y = 0$: $(c \to 0) \to 0 = 0 \to 0 = 1 \ne c$.
+
+The typical use: a small model that separates BL from both MV and Gödel logic.
+The trap: the blocks share their top element; the top $1$ of the lower block is not a separate element.

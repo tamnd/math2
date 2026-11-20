@@ -5,14 +5,14 @@ role: theorem
 name: Suszko's reduction
 aliases: [suszko-thesis, suszkos-thesis]
 msc: ["03B50", "03B22"]
-topics: [WZP584JQ06]
+topics: [WZP584JQ06, QYA4H5Y7VR]
 audience: grad
 about: [DWYCKAKXZD, FCXHSC6Z4R]
 uses: [J78Y1M4GND, DWYCKAKXZD]
 proofs: [PJ478J8BR4]
 history:
   first_stated: "Suszko, 1970s (one paper of 1977)"
-  notes: "SEP dates Suszko's papers on the thesis to the 1970s, and gives Malinowski (1993) and da Costa, Béziau and Bueno (1996) for the general bivalent semantics."
+  notes: "General bivalent semantics were later developed by Malinowski and by da Costa, Béziau and Bueno."
 sources:
   - url: https://plato.stanford.edu/entries/logic-manyvalued/
     locator: 4.3 Are many-valued logics actually bivalent?
@@ -38,7 +38,7 @@ The proof is in [[the proof by closed theories|PJ478J8BR4]].
 ### Why each hypothesis is needed
 
 1. Monotonicity (M). Without it, let $L = \set{p, q, r}$ and let $\vdash$ be the relation with $\Gamma \vdash \varphi$ iff $\varphi \in \Gamma$, or $\Gamma = \set{p}$ and $\varphi = q$. Then $\set{p, r}$ is closed, its valuation makes $p$ true and $q$ false, and the semantic side of $\set{p} \vdash q$ fails.
-2. Reflexivity (R). If $\vdash$ is empty, then $L$ is the only closed set, and $b_L$ makes every formula true. The semantic side then holds for $\set{p} \vdash p$, but $\set{p} \nvdash p$.
+2. Reflexivity (R). If $\vdash$ is empty, then every subset of $L$ is closed. The semantic side of $\set{p} \vdash p$ holds, since every $b_T$ with $b_T(p) = 1$ has $b_T(p) = 1$, but $\set{p} \nvdash p$.
 3. Cut (C). The proof needs that $\set{\psi : \Gamma \vdash \psi}$ is closed, and this is an instance of cut.
 
 ### Consequences
@@ -56,13 +56,13 @@ For (C): if $b$ makes $\Gamma$ true, it makes each $\psi \in \Delta$ true, hence
 ### Generalizations
 
 For a logic given by one matrix $(V, D)$, a simpler class of valuations works: $b_v(\varphi) = 1$ iff $v(\varphi) \in D$, for each matrix valuation $v$.
-SEP describes the general construction of such bivalent semantics in the work of Malinowski and of da Costa, Béziau and Bueno.
+Malinowski, and da Costa, Béziau and Bueno, developed general constructions of such bivalent semantics.
 
 ## History
 
-Suszko presented the reduction in papers of the 1970s, including one of 1977.
-In them he called Łukasiewicz "the chief perpetrator of a magnificent conceptual deceit", as SEP reports.
-SEP discusses the thesis in its section on whether many-valued logics are bivalent.
+Suszko presented the reduction in papers of the 1970s.
+He distinguished the algebraic values of a many-valued matrix from the logical values "designated" and "not designated", and argued that only the latter two matter for consequence.
+The claim that every logic is in this sense two-valued became known as Suszko's thesis, and it started a debate on what makes a logic many-valued.
 
 ## Explanations
 

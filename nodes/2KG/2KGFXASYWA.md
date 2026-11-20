@@ -1,0 +1,49 @@
+---
+tag: 2KGFXASYWA
+kind: example
+name: The polyadic algebra of a first-order theory
+msc: ["03G15", "03C07"]
+topics: [QYA4H5Y7VR]
+audience: research
+instance_of: [CQ9A86S3J4]
+uses: [3GG2T69SSE, 086QKPF0A6, QC9M3Q8B8Q]
+sources:
+  - url: https://en.wikipedia.org/wiki/Polyadic_algebra
+---
+
+## Example
+
+Let $T$ be a theory of [[first-order logic|086QKPF0A6]] without equality, with an infinite set of variables $\set{v_i : i \in I}$.
+Let $A = \mathrm{Fm} / {\equiv_T}$, where $\varphi \equiv_T \psi$ iff $T \vdash \varphi \leftrightarrow \psi$.
+
+1. Boolean algebra. The connectives give a Boolean algebra, the [[Lindenbaum-Tarski algebra|QC9M3Q8B8Q]] of $T$ with free variables.
+2. Substitutions. For $\tau : I \to I$, let $S(\tau)[\varphi]$ be the class of the result of replacing each free $v_i$ by $v_{\tau(i)}$ at once, after renaming bound variables to avoid capture.
+3. Quantifiers. For $J \subseteq I$, let $\exists(J)[\varphi] = [\exists v_{j_1} \cdots \exists v_{j_k} \varphi]$, where $j_1, \dots, j_k$ are the indices in $J$ of the free variables of $\varphi$.
+4. The clauses of [[the definition|3GG2T69SSE]] are rules of first-order logic: for example clause 5 says that renaming does not touch bound variables.
+
+So $A$ is a [[polyadic algebra|CQ9A86S3J4]] of infinite degree.
+
+## Remarks
+
+1. $A$ is locally finite: the set of free variables of $\varphi$ is a finite support of $[\varphi]$.
+2. Each model $M$ of $T$ gives a homomorphism into the functional algebra $\mathcal{P}(M^I)$, sending $[\varphi]$ to the set of assignments that satisfy $\varphi$.
+3. The completeness theorem says that these homomorphisms separate the elements of $A$; this is Halmos's representation theorem for this algebra.
+4. In clause 6, injectivity matters: replacing $v_2$ by $v_1$ in $\exists v_1 R(v_1, v_2)$ needs a renaming of the bound $v_1$ first.
+
+## Explanations
+
+### L1 human
+
+Take all formulas of a theory, and identify those that the theory proves equivalent.
+Renaming variables and adding existential quantifiers are operations on these classes.
+They satisfy the laws of a polyadic algebra.
+
+### L2 human
+
+1. Let $T$ have one binary relation symbol $R$, and let $\tau$ swap $1$ and $2$.
+2. Then $S(\tau)[R(v_1, v_2)] = [R(v_2, v_1)]$.
+3. $\exists(\set{2})[R(v_1, v_2)] = [\exists v_2 R(v_1, v_2)]$, whose only free variable is $v_1$.
+4. So $\set{1}$ is a support of this element.
+
+The typical use: this example is the reason for the definition, and representation of it is the completeness theorem.
+The trap: the substitution must rename bound variables first, or the class is not well defined.
