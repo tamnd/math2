@@ -1,0 +1,78 @@
+---
+tag: EMW3QTE3H9
+kind: statement
+role: proposition
+name: Normal operators have equal norms for T and its adjoint
+aliases: [normal-iff-norm-of-tv-equals-norm-of-adjoint-v]
+msc: ["15A04", "47B15"]
+topics: [3YM9EK6VMB]
+audience: ug1
+about: [0C8BR8XRTR]
+uses: [0ENZN5G4CV, 0ST8QF9T3T, TPP76FP659, WAYMK9GR5S]
+sources:
+  - url: https://en.wikipedia.org/wiki/Normal_operator
+    locator: Properties
+  - book: isbn:9783031410253
+    locator: Chapter 7
+  - book: isbn:9780134860244
+    locator: Section 6.4
+---
+
+## Statement
+
+Let $V$ be a finite-dimensional inner product space over $\mathbb{K} = \mathbb{R}$ or $\mathbb{C}$, and let $T \colon V \to V$ be a linear operator with [[adjoint|0ST8QF9T3T]] $T^*$.
+
+1. $T$ is [[normal|0ENZN5G4CV]] if and only if $\norm{Tv} = \norm{T^* v}$ for every $v \in V$.
+2. If $T$ is normal, then $\ker T = \ker T^*$.
+3. If $T$ is normal and $\lambda \in \mathbb{K}$, then $T - \lambda I$ is normal, and for $v \in V$
+$$Tv = \lambda v \iff T^* v = \overline{\lambda} v.$$
+So $T$ and $T^*$ have the same eigenvectors, with conjugate eigenvalues.
+
+## Remarks
+
+### Why each hypothesis is needed
+
+- Parts 2 and 3 fail without normality. For $A = \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}$ on $\mathbb{R}^2$, $\ker A$ is spanned by $e_1$ and $\ker A^T$ is spanned by $e_2$.
+- For [[the non-normal matrix with entries $1$, $1$, $0$, $1$|BF9MKKHH4Z]], the vector $e_1$ is an eigenvector of $A$, but $A^T e_1 = (1, 1)$ is not a multiple of $e_1$.
+
+### Consequences
+
+- [[Orthogonality of eigenspaces|0JHGAV9H25]]: for a normal operator, eigenvectors for distinct eigenvalues are orthogonal. The proof uses part 3.
+- If $T$ is normal, then $\ker T$ and $\im T$ are orthogonal, and $V = \ker T \oplus \im T$. Indeed $\im T = (\ker T^*)^\perp = (\ker T)^\perp$, by [[the kernel and image of the adjoint|YPP8XT6B7Y]] and part 2.
+- If $T$ is normal and $U$ is an eigenspace of $T$, then $U$ is invariant under $T^*$, by part 3. Then $U^\perp$ is invariant under $T$. This is a step in the deflation proof of [[the complex spectral theorem|04CW1P44VD]].
+
+### Converse
+
+Part 1 is an equivalence.
+Part 2 has no converse: $\begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$ is invertible, so $\ker A = \ker A^T = 0$, but $A$ is not normal.
+
+### Generalizations
+
+- Parts 1 to 3 hold for bounded operators on a Hilbert space, with the same proof.
+- An operator with $\norm{T^* v} \leq \norm{Tv}$ for all $v$ is called [[hyponormal|35XKRHEC3Q]]. In finite dimension every hyponormal operator is normal.
+
+## Explanations
+
+### L1 human
+
+A normal operator and its adjoint stretch each vector by the same amount.
+They can turn it in different ways, but the length of the result is the same.
+For a quarter turn $R$ of the plane, $R$ and $R^* = -R$ both keep all lengths, so $R$ is normal.
+
+### L2 human
+
+Worked example: a non-normal matrix fails the test.
+
+1. Let $A = \begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$ on $\mathbb{R}^2$ with the dot product, so $A^* = A^T = \begin{pmatrix} 1 & 0 \\ 1 & 1 \end{pmatrix}$.
+2. For $v = e_1 = (1, 0)$, we get $A e_1 = (1, 0)$ and $A^T e_1 = (1, 1)$.
+3. So $\norm{A e_1} = 1$ and $\norm{A^T e_1} = \sqrt{2}$. By part 1, $A$ is not normal.
+4. Direct check: $A A^T = \begin{pmatrix} 2 & 1 \\ 1 & 1 \end{pmatrix}$ and $A^T A = \begin{pmatrix} 1 & 1 \\ 1 & 2 \end{pmatrix}$ differ.
+
+The typical use of part 3 is to move an eigenvector of $T$ to an eigenvector of $T^*$ inside a proof.
+A trap: the eigenvalue changes to its conjugate, so for $T^*$ the eigenvalue is $\overline{\lambda}$ and not $\lambda$.
+
+### L3 human
+
+Part 1 says that $T^* T - T T^*$ vanishes exactly when its quadratic form vanishes, which holds because this operator is self-adjoint.
+In operator theory, the size of $T^* T - T T^*$ measures how far $T$ is from normal.
+The same identity $\norm{Tv}^2 - \norm{T^* v}^2 = \ip{(T^* T - T T^*) v}{v}$ is the start of the theory of hyponormal and subnormal operators.

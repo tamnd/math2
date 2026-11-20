@@ -50,6 +50,6 @@ The rest is a smaller normal matrix, and induction finishes.
 
 ## Variants
 
-- [[The proof through the Schur decomposition|~1f620799]] triangularizes $A$ by a unitary matrix first, and then shows that a normal upper triangular matrix is diagonal.
-- Steps 7 to 9 are a special case of [[the norm criterion for normal operators|~98fd04c3]], which gives $\norm{N x} = \norm{N^* x}$ for every normal $N$.
+- [[The proof through the Schur decomposition|A5M6ZY42WR]] triangularizes $A$ by a unitary matrix first, and then shows that a normal upper triangular matrix is diagonal.
+- Steps 7 to 9 are a special case of [[the norm criterion for normal operators|EMW3QTE3H9]], which gives $\norm{N x} = \norm{N^* x}$ for every normal $N$.
 - The same deflation works for operators: if $T e_1 = \lambda e_1$ and $T$ is normal, then $e_1^\perp$ is invariant under $T$ and $T^*$, and the restriction of $T$ to $e_1^\perp$ is normal.

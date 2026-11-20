@@ -50,25 +50,25 @@ The complex spectral theorem says that this condition is also sufficient.
 
 - Every self-adjoint operator is normal, since $T^* T = T^2 = T T^*$.
 - Every skew-adjoint operator is normal, since $T^* T = -T^2 = T T^*$.
-- Every unitary or orthogonal operator is normal, since $T^* T = I = T T^*$. [[The rotation by a right angle|~369bb802]] is an example.
+- Every unitary or orthogonal operator is normal, since $T^* T = I = T T^*$. [[The rotation by a right angle|1CF483TZZA]] is an example.
 - The matrix $\begin{pmatrix} 1 & i \\ i & 1 \end{pmatrix}$ is normal, with $A A^* = 2I = A^* A$. It is neither Hermitian, nor skew-Hermitian, nor unitary.
 - The real matrix $A = \begin{pmatrix} 1 & 1 & 0 \\ 0 & 1 & 1 \\ 1 & 0 & 1 \end{pmatrix}$ is $I + P$ with a cyclic permutation matrix $P$. It is normal, since $P^T = P^{-1}$ commutes with $P$.
 - Every diagonal matrix with complex entries is normal.
 
 ### Non-examples
 
-- [[The shear $\begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$|~1dc00298]]: $A A^T = \begin{pmatrix} 2 & 1 \\ 1 & 1 \end{pmatrix}$ differs from $A^T A = \begin{pmatrix} 1 & 1 \\ 1 & 2 \end{pmatrix}$.
+- [[The shear $\begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$|BF9MKKHH4Z]]: $A A^T = \begin{pmatrix} 2 & 1 \\ 1 & 1 \end{pmatrix}$ differs from $A^T A = \begin{pmatrix} 1 & 1 \\ 1 & 2 \end{pmatrix}$.
 - The nilpotent matrix $N = \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}$: $N N^T = \begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix}$ and $N^T N = \begin{pmatrix} 0 & 0 \\ 0 & 1 \end{pmatrix}$.
-- [[Differentiation on the polynomials of degree at most 2|~b4273655]] with the inner product $\int_{-1}^{1} pq$ is not normal.
-- [[The matrix with the Schur form $\begin{pmatrix} 3 & 4 \\ 0 & 3 \end{pmatrix}$|~56036455]] is not normal, because its Schur form is not diagonal.
+- [[Differentiation on the polynomials of degree at most 2|CR3EXBJNPF]] with the inner product $\int_{-1}^{1} pq$ is not normal.
+- [[The matrix with the Schur form $\begin{pmatrix} 3 & 4 \\ 0 & 3 \end{pmatrix}$|HFW74NJ8G3]] is not normal, because its Schur form is not diagonal.
 
 ### Basic properties
 
-- [[The norm criterion|~98fd04c3]]: $T$ is normal if and only if $\norm{Tv} = \norm{T^* v}$ for all $v$. Then $T$ and $T^*$ have the same eigenvectors, with conjugate eigenvalues.
+- [[The norm criterion|EMW3QTE3H9]]: $T$ is normal if and only if $\norm{Tv} = \norm{T^* v}$ for all $v$. Then $T$ and $T^*$ have the same eigenvectors, with conjugate eigenvalues.
 - [[Orthogonality of eigenspaces|0JHGAV9H25]]: eigenvectors of a normal operator for distinct eigenvalues are orthogonal.
 - [[The complex spectral theorem|04CW1P44VD]]: over $\mathbb{C}$, $T$ is normal if and only if $V$ has an orthonormal basis of eigenvectors of $T$.
-- [[The real normal form|~abc653f3]]: over $\mathbb{R}$, a normal operator has a block diagonal matrix with $1 \times 1$ blocks and $2 \times 2$ scaled rotation blocks in an orthonormal basis.
-- [[The spectral decomposition|~e55cbc04]]: a normal operator is $T = \sum \lambda_i P_i$ with orthogonal projections $P_i$, and $T^*$ is a polynomial in $T$.
+- [[The real normal form|G6T1FNE3JC]]: over $\mathbb{R}$, a normal operator has a block diagonal matrix with $1 \times 1$ blocks and $2 \times 2$ scaled rotation blocks in an orthonormal basis.
+- [[The spectral decomposition|D5KVBA1K9R]]: a normal operator is $T = \sum \lambda_i P_i$ with orthogonal projections $P_i$, and $T^*$ is a polynomial in $T$.
 - Over $\mathbb{C}$, write $T = A + iB$ with $A$ and $B$ self-adjoint. Then $T$ is normal if and only if $AB = BA$.
 - The sum and the product of two normal operators need not be normal. For example, $\begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix} + \begin{pmatrix} 0 & 1 \\ -1 & 0 \end{pmatrix} = \begin{pmatrix} 0 & 2 \\ 0 & 0 \end{pmatrix}$.
 
@@ -79,7 +79,7 @@ It refers to the longer lists of Grone, Johnson, Sá and Wolkowicz from 1987, an
 
 ### Common errors
 
-- Students think that every diagonalizable matrix is normal. [[The trap matrices|~3859cd16]] include $\begin{pmatrix} 1 & 1 \\ 0 & 2 \end{pmatrix}$, which is diagonalizable but not normal.
+- Students think that every diagonalizable matrix is normal. [[The trap matrices|5RQ7EC5RC6]] include $\begin{pmatrix} 1 & 1 \\ 0 & 2 \end{pmatrix}$, which is diagonalizable but not normal.
 - Students test $A A^T = A^T A$ for a complex matrix. The correct test uses the conjugate transpose $A^*$.
 - Students think that a normal matrix has real eigenvalues. Only the self-adjoint ones do.
 

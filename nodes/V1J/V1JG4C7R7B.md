@@ -39,15 +39,15 @@ In part 3, the $1 \times 1$ blocks are the real eigenvalues of $A$, and each $2 
 
 ### Why each hypothesis is needed
 
-- Part 1 needs a complex space. [[The rotation by a right angle|~369bb802]] on $\mathbb{R}^2$ has no eigenvalue, so no real basis makes its matrix triangular. The real Schur form of part 3 is the best possible over $\mathbb{R}$.
-- A real matrix with only real eigenvalues has a real Schur form with only $1 \times 1$ blocks. So it is orthogonally similar to a real upper triangular matrix, as [[the Schur form of a defective matrix|~56036455]] shows.
+- Part 1 needs a complex space. [[The rotation by a right angle|1CF483TZZA]] on $\mathbb{R}^2$ has no eigenvalue, so no real basis makes its matrix triangular. The real Schur form of part 3 is the best possible over $\mathbb{R}$.
+- A real matrix with only real eigenvalues has a real Schur form with only $1 \times 1$ blocks. So it is orthogonally similar to a real upper triangular matrix, as [[the Schur form of a defective matrix|HFW74NJ8G3]] shows.
 - The theorem does not give a diagonal $U$. The matrix $\begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}$ is already upper triangular, and it is not similar to a diagonal matrix.
 
 ### Consequences
 
 - The trace of $A$ is the sum of the eigenvalues, and the determinant is their product, since $A$ and $U$ are similar.
 - [[The complex spectral theorem|04CW1P44VD]]: if $A$ is normal, then $U$ is normal and upper triangular, hence diagonal.
-- [[The real normal form|~abc653f3]]: if a real $A$ is normal, then $M$ is block diagonal, with $1 \times 1$ blocks and $2 \times 2$ blocks of the form $\begin{pmatrix} a & -b \\ b & a \end{pmatrix}$.
+- [[The real normal form|G6T1FNE3JC]]: if a real $A$ is normal, then $M$ is block diagonal, with $1 \times 1$ blocks and $2 \times 2$ blocks of the form $\begin{pmatrix} a & -b \\ b & a \end{pmatrix}$.
 - The order of the eigenvalues on the diagonal of $U$ can be chosen freely. The proof picks an eigenvector for any eigenvalue at each step.
 
 ### Converse
@@ -72,7 +72,7 @@ For real matrices, some $2 \times 2$ blocks must stay on the diagonal, one for e
 
 ### L2 human
 
-Worked example: [[a real matrix with a repeated eigenvalue|~56036455]].
+Worked example: [[a real matrix with a repeated eigenvalue|HFW74NJ8G3]].
 
 1. Let $A = \begin{pmatrix} 1 & 2 \\ -2 & 5 \end{pmatrix}$. Its characteristic polynomial is $t^2 - 6t + 9 = (t - 3)^2$.
 2. The eigenvalue $3$ has the eigenvector $(1, 1)$, since $A(1, 1) = (3, 3)$. Normalize it to $q_1 = \tfrac{1}{\sqrt{2}}(1, 1)$.

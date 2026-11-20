@@ -6,7 +6,7 @@ msc: ["47B15", "15A18"]
 topics: [3YM9EK6VMB]
 audience: ug1
 proves: 0JHGAV9H25
-uses: [0VGSYBWHV2, 0MB8HQW495, 0ENZN5G4CV, 0ST8QF9T3T, 0B5H4208Z9, 0AYEPBQMAW, 0TS7VZJBWD, ~98fd04c3]
+uses: [0VGSYBWHV2, 0MB8HQW495, 0ENZN5G4CV, 0ST8QF9T3T, 0B5H4208Z9, 0AYEPBQMAW, 0TS7VZJBWD, EMW3QTE3H9]
 methods: [0NTF6DMVAP]
 sources:
   - url: https://linear.axler.net/LADR4e.pdf
@@ -22,7 +22,7 @@ We compute $\ip{Tv}{w}$ in two ways, and we move $T$ to the second slot as $T^*$
 1. Let $V$ be a finite-dimensional inner product space over $\mathbb{K} = \mathbb{R}$ or $\mathbb{C}$, with [[inner product|0VGSYBWHV2]] $\ip{\cdot}{\cdot}$.
 2. Let $T$ be [[normal|0ENZN5G4CV]]. A [[self-adjoint|0MB8HQW495]] operator is normal, because $T^* T = T T = T T^*$. So the self-adjoint case is included.
 3. Let $v$ and $w$ be [[eigenvectors|0B5H4208Z9]] with $Tv = \lambda v$ and $Tw = \mu w$, where $\lambda \neq \mu$.
-4. By part 3 of [[the norm criterion for normal operators|~98fd04c3]], $Tw = \mu w$ gives $T^* w = \overline{\mu} w$.
+4. By part 3 of [[the norm criterion for normal operators|EMW3QTE3H9]], $Tw = \mu w$ gives $T^* w = \overline{\mu} w$.
 5. Linearity in the first slot gives $\ip{Tv}{w} = \ip{\lambda v}{w} = \lambda \ip{v}{w}$.
 6. By the [[definition of the adjoint|0ST8QF9T3T]] and step 4, $\ip{Tv}{w} = \ip{v}{T^* w} = \ip{v}{\overline{\mu} w}$.
 7. Conjugate linearity in the second slot gives $\ip{v}{\overline{\mu} w} = \overline{\overline{\mu}}\, \ip{v}{w} = \mu \ip{v}{w}$.

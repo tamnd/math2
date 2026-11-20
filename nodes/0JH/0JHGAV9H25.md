@@ -32,7 +32,7 @@ So the [[eigenspaces|0AYEPBQMAW]] $E_\lambda$ and $E_\mu$ of $T$ for distinct ei
 
 ### Why each hypothesis is needed
 
-- Normality is needed. [[The upper triangular matrix with diagonal $1$, $2$|~3859cd16]] has the eigenvectors $(1, 0)$ for $1$ and $(1, 1)$ for $2$, and $(1, 0) \cdot (1, 1) = 1 \neq 0$.
+- Normality is needed. [[The upper triangular matrix with diagonal $1$, $2$|5RQ7EC5RC6]] has the eigenvectors $(1, 0)$ for $1$ and $(1, 1)$ for $2$, and $(1, 0) \cdot (1, 1) = 1 \neq 0$.
 - The eigenvalues must differ. Inside one eigenspace of dimension at least $2$, eigenvectors need not be orthogonal: for $T = I$ on $\mathbb{R}^2$, the eigenvectors $(1, 0)$ and $(1, 1)$ are not orthogonal.
 
 ### Consequences
@@ -76,7 +76,7 @@ A trap: inside a single eigenspace, orthogonality is not automatic, and Gram-Sch
 
 ### L3 human
 
-For a normal operator, the eigenspaces are the images of the orthogonal projections in [[the spectral decomposition|~e55cbc04]] $T = \sum \lambda_i P_i$.
+For a normal operator, the eigenspaces are the images of the orthogonal projections in [[the spectral decomposition|D5KVBA1K9R]] $T = \sum \lambda_i P_i$.
 The orthogonality of the eigenspaces is the statement $P_i P_j = 0$ for $i \neq j$.
 In quantum mechanics, the eigenstates of an observable for different measured values are orthogonal, so the outcomes are mutually exclusive.
 For orthogonal polynomials and Fourier series, the orthogonality comes from a self-adjoint differential operator with distinct eigenvalues.

@@ -27,7 +27,7 @@ same_as:
 
 Let $V$ and $W$ be finite-dimensional [[inner product spaces|0QVNCJXRY3]] over $\mathbb{K} = \mathbb{R}$ or $\mathbb{C}$, and let $T \colon V \to W$ be a [[linear map|0NRYHJPQG2]].
 The adjoint of $T$ is the linear map $T^* \colon W \to V$ with $\ip{Tv}{w} = \ip{v}{T^* w}$ for all $v \in V$ and $w \in W$.
-The [[formal definition|0ST8QF9T3T]] states this, and [[the existence theorem|~f77002ca]] shows that exactly one such map exists.
+The [[formal definition|0ST8QF9T3T]] states this, and [[the existence theorem|E0KFAXMTC2]] shows that exactly one such map exists.
 The adjoint matters because it turns questions about $T$ into questions about the pair $T$, $T^*$, and the spectral theorems are statements about this pair.
 
 ## Motivation
@@ -51,21 +51,21 @@ It needs no basis, so it also works for spaces of polynomials or functions.
 
 - For a real $m \times n$ matrix $A$, the adjoint of $x \mapsto Ax$ from $\mathbb{R}^n$ to $\mathbb{R}^m$ with the dot products is $y \mapsto A^T y$. The reason is $(Ax) \cdot y = y^T A x = (A^T y)^T x$.
 - For a complex matrix $A$ and the standard inner products, the adjoint of $x \mapsto Ax$ is $y \mapsto A^* y$, by the same computation with conjugates.
-- [[Differentiation on the polynomials of degree at most 2|~b4273655]] with the inner product $\int_{-1}^{1} pq$ has the adjoint $D^*(1) = 3x$, $D^*(x) = \tfrac{5}{2}(3x^2 - 1)$, $D^*(x^2) = x$.
+- [[Differentiation on the polynomials of degree at most 2|CR3EXBJNPF]] with the inner product $\int_{-1}^{1} pq$ has the adjoint $D^*(1) = 3x$, $D^*(x) = \tfrac{5}{2}(3x^2 - 1)$, $D^*(x^2) = x$.
 - For fixed $u \in V$ and $z \in W$, the rank-one map $T(v) = \ip{v}{u} z$ has the adjoint $T^*(w) = \ip{w}{z} u$. Indeed $\ip{Tv}{w} = \ip{v}{u} \ip{z}{w}$ and $\ip{v}{\ip{w}{z} u} = \overline{\ip{w}{z}} \ip{v}{u} = \ip{z}{w} \ip{v}{u}$.
-- [[An operator in a basis that is not orthonormal|~1737579b]]: the matrix of the adjoint there is not the transpose of the matrix of the map.
+- [[An operator in a basis that is not orthonormal|2YX64QQ94Y]]: the matrix of the adjoint there is not the transpose of the matrix of the map.
 
 ### Non-examples
 
-- [[The transpose for a weighted inner product|~6b5e5bb9]]: on $\mathbb{R}^2$ with $\ip{x}{y} = 2x_1 y_1 + x_2 y_2$, the map $y \mapsto A^T y$ is not the adjoint of $x \mapsto Ax$ for $A = \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}$. The defining identity fails.
+- [[The transpose for a weighted inner product|CPQB5HABC6]]: on $\mathbb{R}^2$ with $\ip{x}{y} = 2x_1 y_1 + x_2 y_2$, the map $y \mapsto A^T y$ is not the adjoint of $x \mapsto Ax$ for $A = \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}$. The defining identity fails.
 - For a complex matrix $A$ with a non-real entry, the plain transpose $A^T$ is not the adjoint of $x \mapsto Ax$ on $\mathbb{C}^n$. For $A = (i)$ on $\mathbb{C}$, we have $\ip{i \cdot 1}{1} = i$, but $\ip{1}{i \cdot 1} = -i$.
 
 ### Basic properties
 
-- [[Existence and uniqueness of the adjoint|~f77002ca]]: each linear map $T \colon V \to W$ has exactly one adjoint, and it is linear.
-- [[Algebraic properties of the adjoint|~2b450581]]: $(S + T)^* = S^* + T^*$, $(aT)^* = \overline{a} T^*$, $(ST)^* = T^* S^*$, $(T^*)^* = T$, $I^* = I$, and $(T^{-1})^* = (T^*)^{-1}$ for invertible $T$. So the map $T \mapsto T^*$ is antilinear over $\mathbb{C}$.
+- [[Existence and uniqueness of the adjoint|E0KFAXMTC2]]: each linear map $T \colon V \to W$ has exactly one adjoint, and it is linear.
+- [[Algebraic properties of the adjoint|TPP76FP659]]: $(S + T)^* = S^* + T^*$, $(aT)^* = \overline{a} T^*$, $(ST)^* = T^* S^*$, $(T^*)^* = T$, $I^* = I$, and $(T^{-1})^* = (T^*)^{-1}$ for invertible $T$. So the map $T \mapsto T^*$ is antilinear over $\mathbb{C}$.
 - [[The matrix of the adjoint|0DBTE6HVBD]] in orthonormal bases is the conjugate transpose of the matrix of $T$.
-- [[Kernel and image of the adjoint|~09be9c75]]: $\ker T^* = (\im T)^\perp$, $\im T^* = (\ker T)^\perp$, and $\rank T^* = \rank T$.
+- [[Kernel and image of the adjoint|YPP8XT6B7Y]]: $\ker T^* = (\im T)^\perp$, $\im T^* = (\ker T)^\perp$, and $\rank T^* = \rank T$.
 
 ### History
 
@@ -74,7 +74,7 @@ The same article defines the adjoint for bounded operators between Hilbert space
 
 ### Common errors
 
-- Students use the transpose of the matrix of $T$ in any basis. This is correct only in orthonormal bases, as [[the basis example|~1737579b]] shows.
+- Students use the transpose of the matrix of $T$ in any basis. This is correct only in orthonormal bases, as [[the basis example|2YX64QQ94Y]] shows.
 - Students forget the conjugation over $\mathbb{C}$ and write $(aT)^* = aT^*$. The correct rule is $(aT)^* = \overline{a} T^*$.
 - Students reverse the order in a product and write $(ST)^* = S^* T^*$. The correct order is $(ST)^* = T^* S^*$, as for the transpose of a product of matrices.
 

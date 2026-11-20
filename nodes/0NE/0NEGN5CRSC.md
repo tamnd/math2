@@ -49,27 +49,27 @@ Over $\mathbb{C}$, the same role belongs to the [[Hermitian matrices|0P17NGQQMQ]
 
 ### Examples
 
-- [[The Hermitian matrix with entries $1$, $2i$, $-2i$, $1$|~d6488332]] has the real eigenvalues $3$ and $-1$ and an orthonormal eigenbasis.
-- [[A real symmetric $3 \times 3$ matrix|~1a3781ab]] with the eigenvalues $3$, $4$ and $6$.
+- [[The Hermitian matrix with entries $1$, $2i$, $-2i$, $1$|4119199XBW]] has the real eigenvalues $3$ and $-1$ and an orthonormal eigenbasis.
+- [[A real symmetric $3 \times 3$ matrix|2P021RCC4Y]] with the eigenvalues $3$, $4$ and $6$.
 - [[A Hermitian $2 \times 2$ matrix|GGFA8S4NZ2]] and its real eigenvalues.
 - Every [[orthogonal projection|0Q8HZTJC7G]] $P$ onto a subspace $U$ is self-adjoint. Indeed, $\ip{Pv}{w} = \ip{Pv}{Pw} = \ip{v}{Pw}$, because $v - Pv$ and $w - Pw$ are orthogonal to $U$.
 - For every linear map $S \colon V \to W$, the operators $S^* S$ on $V$ and $S S^*$ on $W$ are self-adjoint, since $(S^* S)^* = S^* S^{**} = S^* S$.
 
 ### Non-examples
 
-- [[The rotation by a right angle|~369bb802]] has $R^* = -R$. It is normal, but not self-adjoint, and its eigenvalues are $\pm i$.
+- [[The rotation by a right angle|1CF483TZZA]] has $R^* = -R$. It is normal, but not self-adjoint, and its eigenvalues are $\pm i$.
 - [[The complex symmetric matrix|DAZBNZXZK7]] with $A^T = A$ but $A^* \neq A$ is not self-adjoint for the standard inner product on $\mathbb{C}^2$.
-- [[The real rotation with zero quadratic form|~f1842a69]] has only real values $\ip{Rv}{v} = 0$, but it is not self-adjoint. Over $\mathbb{R}$, real values of the quadratic form do not imply self-adjointness.
-- A symmetric matrix is not self-adjoint for every inner product. [[The weighted inner product example|~6b5e5bb9]] shows this.
+- [[The real rotation with zero quadratic form|VMHPYDZERM]] has only real values $\ip{Rv}{v} = 0$, but it is not self-adjoint. Over $\mathbb{R}$, real values of the quadratic form do not imply self-adjointness.
+- A symmetric matrix is not self-adjoint for every inner product. [[The weighted inner product example|CPQB5HABC6]] shows this.
 
 ### Basic properties
 
 - If $S$ and $T$ are self-adjoint and $a \in \mathbb{R}$, then $S + T$ and $aT$ are self-adjoint. So the self-adjoint operators form a real vector space. Over $\mathbb{C}$ it is not a complex vector space, because $(iT)^* = -iT$.
 - If $S$ and $T$ are self-adjoint, then $ST$ is self-adjoint if and only if $ST = TS$. The reason: $(ST)^* = T^* S^* = TS$.
-- Over $\mathbb{C}$, $T$ is self-adjoint if and only if $\ip{Tv}{v}$ is real for all $v$. This is [[the quadratic form statement|~4dc472c7]], which fails over $\mathbb{R}$.
+- Over $\mathbb{C}$, $T$ is self-adjoint if and only if $\ip{Tv}{v}$ is real for all $v$. This is [[the quadratic form statement|WAYMK9GR5S]], which fails over $\mathbb{R}$.
 - [[The eigenvalues are real|0C4NT4GT3X]], and [[eigenvectors for distinct eigenvalues are orthogonal|0JHGAV9H25]].
 - [[The real spectral theorem|06J4PXRG22]]: on a real space, $T$ is self-adjoint if and only if $V$ has an orthonormal basis of eigenvectors of $T$. On a complex space, $T$ is self-adjoint if and only if it has an orthonormal eigenbasis and all eigenvalues are real.
-- [[The Rayleigh quotient|06WHP8SE98]] of $T$ has the largest eigenvalue as its maximum and the smallest eigenvalue as its minimum, by [[the extreme value statement|~5c6d5f8a]].
+- [[The Rayleigh quotient|06WHP8SE98]] of $T$ has the largest eigenvalue as its maximum and the smallest eigenvalue as its minimum, by [[the extreme value statement|T7MFPSY009]].
 - Cartesian decomposition. Over $\mathbb{C}$, every operator is $T = A + iB$ with $A = \tfrac{1}{2}(T + T^*)$ and $B = \tfrac{1}{2i}(T - T^*)$ both self-adjoint. The pair $A$, $B$ is unique, and $T$ is [[normal|0C8BR8XRTR]] if and only if $AB = BA$.
 - An operator $T$ is skew-adjoint if and only if $iT$ is self-adjoint, because $(iT)^* = -iT^*$.
 
@@ -83,7 +83,7 @@ The general [[spectral theorem|06J4PXRG22]] has its own history, and the [[spect
 
 - Students think that a complex matrix with $A^T = A$ is self-adjoint. For the standard inner product on $\mathbb{C}^n$ the condition is $A^* = A$, with conjugation.
 - Students test self-adjointness with the matrix in a basis that is not orthonormal. The matrix of a self-adjoint operator in such a basis need not be symmetric.
-- Students conclude $T = 0$ from $\ip{Tv}{v} = 0$ for all $v$ on a real space. This needs $T$ self-adjoint, as [[the rotation counterexample|~f1842a69]] shows.
+- Students conclude $T = 0$ from $\ip{Tv}{v} = 0$ for all $v$ on a real space. This needs $T$ self-adjoint, as [[the rotation counterexample|VMHPYDZERM]] shows.
 - Students think that the product of two self-adjoint operators is self-adjoint. This holds only when they commute. For example, $\begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix} \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix} = \begin{pmatrix} 0 & 1 \\ -1 & 0 \end{pmatrix}$, which is not symmetric.
 
 ## Explanations

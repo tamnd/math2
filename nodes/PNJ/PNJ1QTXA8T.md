@@ -48,4 +48,4 @@ For a real symmetric matrix, the real spectral theorem gives real eigenvectors, 
 
 - Part 1 also follows from [[the complex spectral theorem|04CW1P44VD]]. A self-adjoint map is [[normal|0ENZN5G4CV]], so it has an orthonormal eigenbasis. Its eigenvalues are real by [[the theorem on real eigenvalues|0C4NT4GT3X]].
 - Part 2 does not follow from part 1 alone. Part 1 gives a unitary $U$, which can have non-real entries. Real eigenvectors exist because the real and the imaginary parts of a complex eigenvector of a real matrix are eigenvectors too.
-- [[The variational proof|~8046c4e7]] gives both parts directly: it finds the eigenvectors one by one as maximizers of the quadratic form on spheres.
+- [[The variational proof|GHGBEV51GZ]] gives both parts directly: it finds the eigenvectors one by one as maximizers of the quadratic form on spheres.

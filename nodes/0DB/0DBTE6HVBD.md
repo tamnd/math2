@@ -35,8 +35,8 @@ $$[T^*]_B = H^{-1} \left([T]_B\right)^* H.$$
 
 ### Why each hypothesis is needed
 
-- Part 1 needs orthonormal bases. [[The example with the basis $(1, 0)$, $(1, 1)$|~1737579b]] has $[T]_B = \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}$ but $[T^*]_B = \begin{pmatrix} -1 & -1 \\ 1 & 1 \end{pmatrix}$, which is not the transpose.
-- Part 1 needs the inner products on $V$ and $W$ that define $T^*$. For [[a weighted inner product|~6b5e5bb9]] on $\mathbb{R}^2$, the standard basis is not orthonormal, and the transpose is not the adjoint.
+- Part 1 needs orthonormal bases. [[The example with the basis $(1, 0)$, $(1, 1)$|2YX64QQ94Y]] has $[T]_B = \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}$ but $[T^*]_B = \begin{pmatrix} -1 & -1 \\ 1 & 1 \end{pmatrix}$, which is not the transpose.
+- Part 1 needs the inner products on $V$ and $W$ that define $T^*$. For [[a weighted inner product|CPQB5HABC6]] on $\mathbb{R}^2$, the standard basis is not orthonormal, and the transpose is not the adjoint.
 - Over $\mathbb{C}$, the conjugation is needed. For $T = iI$ on $\mathbb{C}$, the matrix is $(i)$, its transpose is $(i)$, but $T^* = -iI$ has the matrix $(-i)$.
 
 ### Consequences

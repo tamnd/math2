@@ -38,7 +38,7 @@ An $n \times n$ matrix $A$ over $\mathbb{K}$ is *normal* when $A A^* = A^* A$, w
 
 - The operator $x \mapsto Ax$ on $\mathbb{K}^n$ with the standard inner product is normal if and only if the matrix $A$ is normal, by [[the matrix of the adjoint|0DBTE6HVBD]]. The same holds for the matrix of $T$ in any orthonormal basis.
 - Self-adjoint, skew-adjoint and unitary operators are normal.
-- An equivalent condition is $\norm{Tv} = \norm{T^* v}$ for all $v \in V$, by [[the norm criterion|~98fd04c3]].
+- An equivalent condition is $\norm{Tv} = \norm{T^* v}$ for all $v \in V$, by [[the norm criterion|EMW3QTE3H9]].
 - Normality depends on the inner product, because the adjoint does.
 
 ## Explanations

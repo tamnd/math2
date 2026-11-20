@@ -32,7 +32,7 @@ In particular, every real [[symmetric|0N28QN4CYA]] $n \times n$ matrix with $n \
 
 ### Why each hypothesis is needed
 
-- Self-adjointness is needed in both parts. [[The rotation by a right angle|~369bb802]] has the eigenvalues $\pm i$ over $\mathbb{C}$, and over $\mathbb{R}$ it has no eigenvalue at all.
+- Self-adjointness is needed in both parts. [[The rotation by a right angle|1CF483TZZA]] has the eigenvalues $\pm i$ over $\mathbb{C}$, and over $\mathbb{R}$ it has no eigenvalue at all.
 - A real matrix with $A^T = A$ needs the real field. [[The complex symmetric matrix|DAZBNZXZK7]] has $A^T = A$ but is not Hermitian, and it can have eigenvalues that are not real.
 - Part 2 needs finite dimension. On the Hilbert space $L^2[0, 1]$, multiplication by $x$ is a bounded self-adjoint operator with no eigenvalue, as the Wikipedia article on the spectral theorem explains in "Possible absence of eigenvectors". The unit sphere there is not compact.
 
@@ -40,7 +40,7 @@ In particular, every real [[symmetric|0N28QN4CYA]] $n \times n$ matrix with $n \
 
 - The characteristic polynomial of a self-adjoint operator splits into real linear factors. Over $\mathbb{C}$ this follows from part 1. Over $\mathbb{R}$ it follows by induction from part 2, or from part 1 applied to the complexification.
 - Part 2 is the first step of the inductive proof of [[the real spectral theorem|06J4PXRG22]].
-- The maximum $\lambda$ in part 2 is the largest eigenvalue of $T$. This is [[the extreme value statement for the Rayleigh quotient|~5c6d5f8a]].
+- The maximum $\lambda$ in part 2 is the largest eigenvalue of $T$. This is [[the extreme value statement for the Rayleigh quotient|T7MFPSY009]].
 - The eigenvalues of a [[Hermitian matrix|0P17NGQQMQ]] are real, and its determinant and trace are real.
 
 ### Converse

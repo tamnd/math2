@@ -6,7 +6,7 @@ msc: ["15A04", "47A05"]
 topics: [3YM9EK6VMB]
 audience: ug1
 defines: 0R9NMSM1ZP
-uses: [01EK923SKP, 0RJF668P1T, 0NRYHJPQG2, ~f77002ca]
+uses: [01EK923SKP, 0RJF668P1T, 0NRYHJPQG2, E0KFAXMTC2]
 formal:
   - system: lean4
     library: mathlib
@@ -26,7 +26,7 @@ sources:
 Let $V$ and $W$ be finite-dimensional [[inner product spaces|01EK923SKP]] over $\mathbb{K} = \mathbb{R}$ or $\mathbb{C}$, and let $T \colon V \to W$ be a [[linear map|0NRYHJPQG2]].
 The *adjoint* of $T$ is the map $T^* \colon W \to V$ such that
 $$\ip{Tv}{w} = \ip{v}{T^* w} \qquad \text{for all } v \in V \text{ and } w \in W.$$
-By [[the existence theorem|~f77002ca]], exactly one map $T^*$ has this property, and $T^*$ is linear.
+By [[the existence theorem|E0KFAXMTC2]], exactly one map $T^*$ has this property, and $T^*$ is linear.
 
 ## Notation
 
@@ -36,10 +36,10 @@ By [[the existence theorem|~f77002ca]], exactly one map $T^*$ has this property,
 
 ## Remarks
 
-- The adjoint depends on the inner products on $V$ and on $W$. The same map has different adjoints for different inner products, as [[the weighted example|~6b5e5bb9]] shows.
+- The adjoint depends on the inner products on $V$ and on $W$. The same map has different adjoints for different inner products, as [[the weighted example|CPQB5HABC6]] shows.
 - To compute $T^*(w)$ for a given $w$, find the vector $u \in V$ with $\ip{Tv}{w} = \ip{v}{u}$ for all $v$. The [[Riesz representation theorem|04GYPXDXNH]] gives this $u$.
 - The equivalent identity $\ip{T^* w}{v} = \ip{w}{Tv}$ follows from the definition by conjugate symmetry. So the adjoint can also move from the left slot to the right slot.
-- The rules for sums, scalar multiples, products and inverses are in [[the algebraic properties|~2b450581]].
+- The rules for sums, scalar multiples, products and inverses are in [[the algebraic properties|TPP76FP659]].
 - In orthonormal bases, the matrix of $T^*$ is the conjugate transpose of the matrix of $T$, by [[the matrix of the adjoint|0DBTE6HVBD]].
 
 ## Explanations

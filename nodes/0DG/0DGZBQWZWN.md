@@ -42,14 +42,14 @@ The columns of $U$, or of $Q$, are an orthonormal basis of eigenvectors.
 
 - The condition $A^* = A$ cannot be replaced by $A^T = A$ for complex matrices. [[The complex symmetric matrix|DAZBNZXZK7]] $\begin{pmatrix} 1 & i \\ i & 1 \end{pmatrix}$ has the eigenvalues $1 \pm i$, so no real $D$ is possible.
 - A normal matrix that is not Hermitian still has the form $U D U^*$, by [[the complex spectral theorem|04CW1P44VD]]. But then $D$ is not real. The same matrix $\begin{pmatrix} 1 & i \\ i & 1 \end{pmatrix}$ is normal, with $D = \operatorname{diag}(1 + i, 1 - i)$.
-- In part 2, the symmetry of $A$ is needed for a real orthogonal $Q$. [[The trap matrices|~3859cd16]] are real with real eigenvalues, but they are not orthogonally diagonalizable.
+- In part 2, the symmetry of $A$ is needed for a real orthogonal $Q$. [[The trap matrices|5RQ7EC5RC6]] are real with real eigenvalues, but they are not orthogonally diagonalizable.
 
 ### Consequences
 
 - The trace and the determinant of a Hermitian matrix are real, because they are the sum and the product of the diagonal entries of $D$.
 - Powers and polynomials are easy to compute: $p(A) = U p(D) U^*$.
 - The rank of $A$ is the number of nonzero diagonal entries of $D$.
-- $A$ is the sum $\sum_j \lambda_j u_j u_j^*$ of rank one matrices, where $u_j$ is column $j$ of $U$. This is [[the spectral decomposition|~e55cbc04]].
+- $A$ is the sum $\sum_j \lambda_j u_j u_j^*$ of rank one matrices, where $u_j$ is column $j$ of $U$. This is [[the spectral decomposition|D5KVBA1K9R]].
 - The largest and the smallest eigenvalue are the maximum and the minimum of the [[Rayleigh quotient|06WHP8SE98]].
 
 ### Converse
@@ -78,14 +78,14 @@ For example, $\begin{pmatrix} 2 & 1 \\ 1 & 2 \end{pmatrix}$ stretches the direct
 
 ### L2 human
 
-Worked example: [[a Hermitian $2 \times 2$ matrix|~d6488332]].
+Worked example: [[a Hermitian $2 \times 2$ matrix|4119199XBW]].
 
 1. Let $A = \begin{pmatrix} 1 & 2i \\ -2i & 1 \end{pmatrix}$. Then $A^* = A$.
 2. The characteristic polynomial is $(1 - t)^2 - 4$, with the real roots $3$ and $-1$.
 3. Unit eigenvectors are $u_1 = \tfrac{1}{\sqrt{2}}(i, 1)$ for $3$ and $u_2 = \tfrac{1}{\sqrt{2}}(1, i)$ for $-1$. They are orthogonal.
 4. With $U = \tfrac{1}{\sqrt{2}} \begin{pmatrix} i & 1 \\ 1 & i \end{pmatrix}$, we get $A = U \operatorname{diag}(3, -1) U^*$.
 
-A real example is [[the symmetric $3 \times 3$ matrix with eigenvalues $3$, $4$ and $6$|~1a3781ab]].
+A real example is [[the symmetric $3 \times 3$ matrix with eigenvalues $3$, $4$ and $6$|2P021RCC4Y]].
 The typical use is to change to the eigenvector coordinates, solve the problem for the diagonal matrix $D$, and change back.
 A trap: the eigenvectors must be normalized, or $U$ is not unitary and $U^*$ is not the inverse of $U$.
 

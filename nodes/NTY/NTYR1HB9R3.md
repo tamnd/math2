@@ -1,0 +1,44 @@
+---
+tag: NTYR1HB9R3
+kind: proof
+name: Proof of simultaneous unitary diagonalization
+msc: ["15A21", "47B15"]
+topics: [3YM9EK6VMB]
+audience: ug2
+proves: BFQQDA489F
+uses: [04CW1P44VD, 06J4PXRG22, 0JHGAV9H25, D5KVBA1K9R, 0Y85GYEGSF, 0AYEPBQMAW, 0ENZN5G4CV, 0MB8HQW495, 0JWM6GJNQW, 096V7H13H9]
+methods: [0KMVFSHFGZ, 0WCP0PVET6, TFQ1845T84]
+sources:
+  - url: https://en.wikipedia.org/wiki/Normal_matrix
+    locator: Consequences
+---
+
+## Proof
+
+We use strong induction on $n = \dim V$ and split $V$ into the eigenspaces of one member that is not a scalar.
+
+1. Direction "if". Let $e_1, \dots, e_n$ be a common orthonormal eigenbasis. Every member of $\mathcal{F}$ has a diagonal matrix in this basis. Diagonal matrices commute, so the members commute.
+2. Direction "only if". Let $\mathbb{K}$ be $\mathbb{C}$ with normal members, or $\mathbb{R}$ with self-adjoint members. Let $P(n)$ be the claim of parts 1 and 2 for all spaces of dimension $n$. Let $n \geq 0$, and assume $P(d)$ for all $d < n$.
+3. Case 1: every member of $\mathcal{F}$ is a scalar multiple of $I$. Every nonzero vector is then an eigenvector of every member. So [[any orthonormal basis|0Y85GYEGSF]] of $V$ works.
+4. Case 2: some $A \in \mathcal{F}$ is not a scalar multiple of $I$. By [[the complex spectral theorem|04CW1P44VD]] or [[the real spectral theorem|06J4PXRG22]], $A$ has an orthonormal eigenbasis.
+5. Let $\lambda_1, \dots, \lambda_m$ be the distinct eigenvalues of $A$, with [[eigenspaces|0AYEPBQMAW]] $E_1, \dots, E_m$. The eigenbasis lies in their union, so $V = E_1 + \dots + E_m$. The $E_i$ are pairwise orthogonal, by [[orthogonality of eigenspaces|0JHGAV9H25]].
+6. If $m = 1$, then $A = \lambda_1 I$, which is excluded. So $m \geq 2$. Each $E_i$ is nonzero, so $\dim E_i < n$.
+7. Let $B \in \mathcal{F}$ and $v \in E_i$. Then $A(Bv) = B(Av) = \lambda_i Bv$. So $Bv \in E_i$, and $E_i$ is invariant under $B$.
+8. By part 5 of [[the spectral decomposition|D5KVBA1K9R]] applied to $B$, $B^* = g(B)$ for a polynomial $g$. So $B^*$ commutes with $A$, and step 7 for $B^*$ shows that $E_i$ is invariant under $B^*$.
+9. Let $B_i$ be the restriction of $B$ to $E_i$. For $v, w \in E_i$, $\ip{B_i v}{w} = \ip{v}{B^* w}$, and $B^* w \in E_i$. So the adjoint of $B_i$ on $E_i$ is the restriction of $B^*$.
+10. So $B_i$ is [[normal|0ENZN5G4CV]] if $B$ is normal, and [[self-adjoint|0MB8HQW495]] if $B$ is self-adjoint. For $B, C \in \mathcal{F}$, the restrictions commute, because $B C = C B$ on $V$.
+11. By $P(\dim E_i)$, each $E_i$ has an orthonormal basis of common eigenvectors of all $B_i$. Each vector of it is an eigenvector of every $B \in \mathcal{F}$.
+12. Join these bases. Vectors from different $E_i$ are orthogonal by step 5, so the joined family is orthonormal. It spans each $E_i$, so it spans $V$ by step 5.
+13. An orthonormal family is [[linearly independent|0JWM6GJNQW]], so the joined family is [[a basis|096V7H13H9]] of $V$. This proves $P(n)$.
+14. Part 3. Apply parts 1 and 2 to the maps $x \mapsto A_j x$ with the standard inner product. Put the common orthonormal eigenvectors as the columns of $U$. Then $U$ is unitary, or real orthogonal, and every $U^* A_j U$ is diagonal.
+
+## Idea
+
+Choose one member $A$ that is not a scalar, and split the space into its eigenspaces.
+Every member that commutes with $A$ maps each eigenspace into itself, and so does its adjoint.
+So the problem splits into smaller problems on the eigenspaces, and induction finishes the proof.
+
+## Variants
+
+- Step 8 is the finite-dimensional case of Fuglede's theorem: if $A B = B A$ and $B$ is normal, then $A B^* = B^* A$. For bounded operators on a Hilbert space, $B^*$ need not be a polynomial in $B$, and the proof is harder.
+- For a finite family $A_1, \dots, A_k$, one can split by the eigenspaces of $A_1$, then of $A_2$, and so on. The common eigenspaces are the intersections $E^{(1)}_{i_1} \cap \dots \cap E^{(k)}_{i_k}$.
