@@ -7,7 +7,7 @@ aliases: [cartan-dieudonne-theorem, isometries-are-products-of-reflections]
 msc: ["51F15", "15B10"]
 topics: [AZS5BPF5H3]
 audience: grad
-about: [~dc22fe40, 06BRDF3F0E]
+about: [WWK2E8BRGF, 06BRDF3F0E]
 uses: [025158VEYZ, 0QRBVFJ50X, 0717XXPWM6, 06BRDF3F0E]
 sources:
   - url: https://en.wikipedia.org/wiki/Cartan–Dieudonné_theorem
@@ -40,13 +40,13 @@ Part 3 is stated here with the reference, and its proof is longer, because a vec
 
 ### Consequences
 
-- Each element of [[$SO(n)$|~5781ca68]] is a product of an even number of reflections, at most $n$, because each reflection has determinant $-1$.
+- Each element of [[$SO(n)$|6WBVP2PB1Y]] is a product of an even number of reflections, at most $n$, because each reflection has determinant $-1$.
 - Each rotation of $\R^3$ is a product of two reflections in planes through its axis. An element of $O(3)$ with determinant $-1$ is a product of one or three reflections.
-- Each rotation $R(\theta)$ of $\R^2$ is the product of two reflections in lines at the angle $\theta/2$, see [[this example|~083b5241]].
+- Each rotation $R(\theta)$ of $\R^2$ is the product of two reflections in lines at the angle $\theta/2$, see [[this example|SRN03D73AJ]].
 
 ### Converse
 
-Each composition of reflections is a linear isometry, because each reflection is one, by [[the reflection theorem|~c91e3beb]].
+Each composition of reflections is a linear isometry, because each reflection is one, by [[the reflection theorem|FEER10D15S]].
 So the linear isometries of $V$ are exactly the compositions of at most $n$ reflections.
 
 ### Generalizations
@@ -69,7 +69,7 @@ In the plane, a turn is two flips in mirrors that meet at half the angle of the 
 
 ### L2 human
 
-Worked example: $T = \begin{pmatrix} 0 & 0 & -1 \\ -1 & 0 & 0 \\ 0 & -1 & 0 \end{pmatrix}$, see [[this example|~31ad8b72]].
+Worked example: $T = \begin{pmatrix} 0 & 0 & -1 \\ -1 & 0 & 0 \\ 0 & -1 & 0 \end{pmatrix}$, see [[this example|YXTM3P2YV8]].
 
 1. $Te_1 = -e_2$, so $u = Te_1 - e_1 = -(1, 1, 0)$. The reflection $s_{(1, 1, 0)}$ swaps $e_1$ and $-e_2$.
 2. $S = s_{(1, 1, 0)}T$ fixes $e_1$, and on the plane $e_1^\perp$ it is a rotation by $-\frac{\pi}{2}$.

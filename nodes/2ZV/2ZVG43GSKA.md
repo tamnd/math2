@@ -7,8 +7,8 @@ aliases: [eulers-rotation-theorem, axis-angle-form-of-a-rotation, classification
 msc: ["70B10", "15B10", "51F25"]
 topics: [AZS5BPF5H3]
 audience: ug2
-about: [0CGYNDCWRR, 0HFREYRSZP, ~5781ca68, ~dc22fe40]
-uses: [~7e2db5c6, 0XNZWJ96HK, 0BQAA2BK3Q, 0N6960W0BV, 00KDZRW4C0, 0XC1RDBY7A, 0FWJ0VW561]
+about: [0CGYNDCWRR, 0HFREYRSZP, 6WBVP2PB1Y, WWK2E8BRGF]
+uses: [GPWRS6HSNR, 0XNZWJ96HK, 0BQAA2BK3Q, 0N6960W0BV, 00KDZRW4C0, 0XC1RDBY7A, 0FWJ0VW561]
 sources:
   - url: https://en.wikipedia.org/wiki/Euler%27s_rotation_theorem
     locator: Matrix proof
@@ -54,7 +54,7 @@ The pair is unique for $0 < \theta < \pi$, while $(u, \pi)$ and $(-u, \pi)$ give
 
 ### Generalizations
 
-- In $\R^n$, each orthogonal matrix has a block diagonal normal form with blocks $R(\theta_j)$, $1$ and $-1$, see [[the normal form|~ff85d703]].
+- In $\R^n$, each orthogonal matrix has a block diagonal normal form with blocks $R(\theta_j)$, $1$ and $-1$, see [[the normal form|QTY3VMFGY1]].
 - For $n$ odd, each element of $SO(n)$ fixes a nonzero vector, by the argument of part 1.
 - For rigid motions with translations, the analogue is [[Chasles' theorem|X4R728TVZE]].
 
@@ -73,7 +73,7 @@ A mirror image of space is a turn followed by one mirror.
 
 ### L2 human
 
-Worked example: the cyclic matrix $R = \begin{pmatrix} 0 & 0 & 1 \\ 1 & 0 & 0 \\ 0 & 1 & 0 \end{pmatrix}$, see [[this example|~942de4eb]].
+Worked example: the cyclic matrix $R = \begin{pmatrix} 0 & 0 & 1 \\ 1 & 0 & 0 \\ 0 & 1 & 0 \end{pmatrix}$, see [[this example|E6SGA0X325]].
 
 1. $\tr R = 0 = 1 + 2\cos\theta$, so $\cos\theta = -\frac{1}{2}$ and $\theta = \frac{2\pi}{3}$.
 2. $r_{32} - r_{23} = 1$, $r_{13} - r_{31} = 1$ and $r_{21} - r_{12} = 1$.

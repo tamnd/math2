@@ -36,7 +36,7 @@ Then the following conditions are equivalent.
 ### Why each hypothesis is needed
 
 - The matrix must be square for conditions 2, 3 and 5. The $3 \times 2$ matrix $A$ with the columns $(1, 0, 0)$ and $(0, 1, 0)$ has $A^TA = I_2$, but $AA^T = \operatorname{diag}(1, 1, 0)$.
-- In condition 4, orthogonal columns are not enough. [[The matrix $\begin{pmatrix} 1 & 1 \\ -1 & 1 \end{pmatrix}$|~28937827]] has orthogonal columns of length $\sqrt{2}$, and $Q^TQ = 2I$.
+- In condition 4, orthogonal columns are not enough. [[The matrix $\begin{pmatrix} 1 & 1 \\ -1 & 1 \end{pmatrix}$|B5SD0BTPZG]] has orthogonal columns of length $\sqrt{2}$, and $Q^TQ = 2I$.
 - In condition 4, unit columns are not enough. The columns $(1, 0)$ and $\frac{1}{\sqrt{2}}(1, 1)$ are unit vectors, but their dot product is $\frac{1}{\sqrt{2}} \neq 0$.
 
 ### Consequences
@@ -52,8 +52,8 @@ The statement is a list of equivalences, so each condition implies each other co
 
 ### Generalizations
 
-- For complex matrices, the same list holds with the conjugate transpose $Q^*$ in place of $Q^T$ and the standard inner product of $\C^n$. This gives the [[conditions for a unitary matrix|~2220a569]].
-- For a linear map between finite-dimensional inner product spaces, the [[equivalent conditions for a linear isometry|~d0f0e2fd]] give the same list without coordinates.
+- For complex matrices, the same list holds with the conjugate transpose $Q^*$ in place of $Q^T$ and the standard inner product of $\C^n$. This gives the [[conditions for a unitary matrix|GZ7NG7J3J8]].
+- For a linear map between finite-dimensional inner product spaces, the [[equivalent conditions for a linear isometry|95ST99SEW7]] give the same list without coordinates.
 
 ## Explanations
 

@@ -39,41 +39,41 @@ The same matrices describe the rigid motions of $\R^n$ that fix the origin, such
 
 ## Notation
 
-- The set of real orthogonal $n \times n$ matrices is the [[orthogonal group|~dc22fe40]] $O(n)$, also written $O_n(\R)$ or $O(n, \R)$.
+- The set of real orthogonal $n \times n$ matrices is the [[orthogonal group|WWK2E8BRGF]] $O(n)$, also written $O_n(\R)$ or $O(n, \R)$.
 - Mathlib writes `Matrix.orthogonalGroup n ℝ` for this set. It is defined for any ring with an involution as the matrices with $A^*A = 1$, so over $\C$ it gives the unitary matrices.
 - Some books say "orthonormal matrix", because the columns are orthonormal, not only orthogonal.
 - A warning on words: some authors call a map an "orthogonal transformation" only when it is a rotation, so only when $\det Q = 1$. Here an orthogonal transformation is any linear isometry, with $\det Q = \pm 1$.
-- A complex matrix with $Q^TQ = I$ is a *complex orthogonal matrix*. It is not the same as a [[unitary matrix|0AR68JTMDT]], see [[this example|~83b36d34]].
+- A complex matrix with $Q^TQ = I$ is a *complex orthogonal matrix*. It is not the same as a [[unitary matrix|0AR68JTMDT]], see [[this example|JRPHE0FG7D]].
 
 ## Remarks
 
 ### Examples
 
 - The identity matrix $I_n$ is orthogonal.
-- The [[rotation matrix|~8cba9603]] $R(\theta) = \begin{pmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{pmatrix}$ is orthogonal, because its columns are unit vectors with dot product $0$.
+- The [[rotation matrix|HNY4CPEEJA]] $R(\theta) = \begin{pmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{pmatrix}$ is orthogonal, because its columns are unit vectors with dot product $0$.
 - Each [[permutation matrix|08SP3DF8NB]] is orthogonal, because its columns are the standard basis vectors in another order.
 - A diagonal matrix with entries $\pm 1$ is orthogonal.
-- The [[Householder matrix|~c7e61f61]] $I - 2vv^T$ of a unit vector $v$ is orthogonal and symmetric.
-- [[The matrix $\frac{1}{3}\begin{pmatrix} 2 & -1 & 2 \\ 2 & 2 & -1 \\ -1 & 2 & 2 \end{pmatrix}$|~129123c7]] is orthogonal, and it is a rotation of $\R^3$ about the axis through $(1, 1, 1)$.
+- The [[Householder matrix|BE65CTF1HQ]] $I - 2vv^T$ of a unit vector $v$ is orthogonal and symmetric.
+- [[The matrix $\frac{1}{3}\begin{pmatrix} 2 & -1 & 2 \\ 2 & 2 & -1 \\ -1 & 2 & 2 \end{pmatrix}$|TFWTJ9K6K7]] is orthogonal, and it is a rotation of $\R^3$ about the axis through $(1, 1, 1)$.
 
 ### Non-examples
 
-- [[The matrix $\begin{pmatrix} 1 & 1 \\ -1 & 1 \end{pmatrix}$|~28937827]] has orthogonal columns, but they have length $\sqrt{2}$, so $Q^TQ = 2I$.
+- [[The matrix $\begin{pmatrix} 1 & 1 \\ -1 & 1 \end{pmatrix}$|B5SD0BTPZG]] has orthogonal columns, but they have length $\sqrt{2}$, so $Q^TQ = 2I$.
 - The shear $\begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$ has determinant $1$, but its second column $(1, 1)$ is not a unit vector.
 - A $3 \times 2$ matrix with orthonormal columns satisfies $Q^TQ = I_2$, but it is not square, so it is not an orthogonal matrix.
 
 ### Basic properties
 
 - [[Equivalent conditions|F7M8ZXB4P7]]: $Q^TQ = I$, $QQ^T = I$, $Q^{-1} = Q^T$, orthonormal columns, orthonormal rows, and $\norm{Qx} = \norm{x}$ for all $x$.
-- [[Determinant and eigenvalues|~d705bf24]]: $\det Q = \pm 1$, and every complex eigenvalue of $Q$ has absolute value $1$.
+- [[Determinant and eigenvalues|QDZJMFATRW]]: $\det Q = \pm 1$, and every complex eigenvalue of $Q$ has absolute value $1$.
 - Products, inverses and transposes of orthogonal matrices are orthogonal. So the orthogonal $n \times n$ matrices form the [[group|G5S1M9]] $O(n)$.
 - An orthogonal matrix is [[normal|0MR0BYF0K2]], because $QQ^T = I = Q^TQ$.
-- In a suitable orthonormal basis, an orthogonal matrix is block diagonal with blocks $\pm 1$ and $2 \times 2$ rotations, by the [[normal form|~ff85d703]].
+- In a suitable orthonormal basis, an orthogonal matrix is block diagonal with blocks $\pm 1$ and $2 \times 2$ rotations, by the [[normal form|QTY3VMFGY1]].
 
 ### History
 
 Cayley described in 1846 a map that sends skew-symmetric matrices to special orthogonal matrices.
-This map is now called the [[Cayley transform|~be1c3d3e]], and it gives a rational description of orthogonal matrices.
+This map is now called the [[Cayley transform|HKQ5YY027B]], and it gives a rational description of orthogonal matrices.
 
 ### Common errors
 

@@ -6,7 +6,7 @@ msc: ["51F15", "15B10"]
 topics: [AZS5BPF5H3]
 audience: grad
 proves: 0VMWGYY35Q
-uses: [0VGSYBWHV2, 0717XXPWM6, 0R7VXTYHYZ, 025158VEYZ, 0Q8HZTJC7G, 079D68S3AW, 0SP7P0G7KQ, 0E2NYPVSP9, 0WGAXEK99E, F7M8ZXB4P7, ~c91e3beb]
+uses: [0VGSYBWHV2, 0717XXPWM6, 0R7VXTYHYZ, 025158VEYZ, 0Q8HZTJC7G, 079D68S3AW, 0SP7P0G7KQ, 0E2NYPVSP9, 0WGAXEK99E, F7M8ZXB4P7, FEER10D15S]
 methods: [0ASJVEFA9J]
 sources:
   - url: https://www.cis.upenn.edu/~cis6100/geombchap7.pdf
@@ -42,7 +42,7 @@ A hyperplane of $V$ is a subspace of dimension $n - 1$.
 22. Hence $S = R_1 \circ \cdots \circ R_k$. By step 6, $T = R_u \circ R_u \circ T = R_u \circ S = R_u \circ R_1 \circ \cdots \circ R_k$.
 23. This is a composition of $k + 1 \le n$ reflections in hyperplanes of $V$. This proves $P(n)$, and part 1 follows by induction.
 24. Part 2: let $Q \in O(n)$. By [[the equivalent conditions|F7M8ZXB4P7]], $x \mapsto Qx$ is a linear isometry of $\R^n$ with the dot product.
-25. By part 1, $Q$ is a product of at most $n$ reflections $R_u$. For a unit vector $u$, the matrix of $R_u$ is $I_n - 2uu^T$, by part 4 of [[the reflection theorem|~c91e3beb]]. We may scale each $u$ to length $1$, because $R_{cu} = R_u$ for $c \neq 0$.
+25. By part 1, $Q$ is a product of at most $n$ reflections $R_u$. For a unit vector $u$, the matrix of $R_u$ is $I_n - 2uu^T$, by part 4 of [[the reflection theorem|FEER10D15S]]. We may scale each $u$ to length $1$, because $R_{cu} = R_u$ for $c \neq 0$.
 
 ## Idea
 
@@ -52,5 +52,5 @@ Induction on that hyperplane gives at most $n - 1$ more reflections.
 
 ## Variants
 
-- [[The proof of the reflection theorem|~910cc1bb]] runs the same induction with matrices. It sends $Qe_n$ to $e_n$ by one reflection and uses the block form of the result.
+- [[The proof of the reflection theorem|CWPWRR6NQA]] runs the same induction with matrices. It sends $Qe_n$ to $e_n$ by one reflection and uses the block form of the result.
 - For a nondegenerate symmetric bilinear form $B$, the vector $u = T(v) - v$ can have $B(u, u) = 0$, and then the reflection in $u$ is not defined. The general proof must treat this case separately.

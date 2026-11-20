@@ -1,0 +1,49 @@
+---
+tag: TEZ3YS5VTB
+kind: example
+name: The Cayley transform of a three by three skew-symmetric matrix
+msc: ["15B10", "15A16"]
+topics: [AZS5BPF5H3]
+audience: grad
+instance_of: [6WBVP2PB1Y]
+illustrates: [HKQ5YY027B, R9Z3W1CFPP]
+uses: [03RNVFDEAN, 0EB9N0S33C, 0C3CFHDN6R]
+sources:
+  - url: https://en.wikipedia.org/wiki/Cayley_transform
+    locator: Matrix map
+---
+
+## Example
+
+Let $A = \frac{1}{3}\begin{pmatrix} 0 & 1 & -1 \\ -1 & 0 & 1 \\ 1 & -1 & 0 \end{pmatrix}$, a [[skew-symmetric matrix|03RNVFDEAN]].
+We compute its [[Cayley transform|HKQ5YY027B]] $Q = (I - A)(I + A)^{-1}$.
+
+1. $I + A = \frac{1}{3}\begin{pmatrix} 3 & 1 & -1 \\ -1 & 3 & 1 \\ 1 & -1 & 3 \end{pmatrix}$.
+2. The integer matrix has [[determinant|0C3CFHDN6R]] $3(9 + 1) - 1(-3 - 1) - 1(1 - 3) = 30 + 4 + 2 = 36$. So $\det(I + A) = \frac{36}{27} = \frac{4}{3}$, and $I + A$ is [[invertible|0EB9N0S33C]].
+3. The adjugate of the integer matrix is $\begin{pmatrix} 10 & -2 & 4 \\ 4 & 10 & -2 \\ -2 & 4 & 10 \end{pmatrix}$. So $(I + A)^{-1} = 3 \cdot \frac{1}{36}\begin{pmatrix} 10 & -2 & 4 \\ 4 & 10 & -2 \\ -2 & 4 & 10 \end{pmatrix} = \frac{1}{6}\begin{pmatrix} 5 & -1 & 2 \\ 2 & 5 & -1 \\ -1 & 2 & 5 \end{pmatrix}$.
+4. $I - A = \frac{1}{3}\begin{pmatrix} 3 & -1 & 1 \\ 1 & 3 & -1 \\ -1 & 1 & 3 \end{pmatrix}$.
+5. The first row of $(I - A)(I + A)^{-1}$ is $\frac{1}{18}(15 - 2 - 1,\ -3 - 5 + 2,\ 6 + 1 + 5) = \frac{1}{18}(12, -6, 12)$.
+6. The other rows follow in the same way. So $Q = \frac{1}{3}\begin{pmatrix} 2 & -1 & 2 \\ 2 & 2 & -1 \\ -1 & 2 & 2 \end{pmatrix}$.
+7. This is the [[rotation by sixty degrees|TFWTJ9K6K7]] about the line through $(1, 1, 1)$. That example checks $Q^TQ = I$ and $\det Q = 1$.
+
+## Remarks
+
+- The example shows how the Cayley transform produces a rotation of $\R^3$ with rational entries from three free numbers.
+- Write $A = -[w]_\times$, where $[w]_\times x = w \times x$ and $w = \frac{1}{3}(1, 1, 1)$. The axis of $Q$ is the line through $w$.
+- The angle satisfies $\tan\frac{\theta}{2} = \norm{w} = \frac{1}{\sqrt{3}}$, so $\theta = \frac{\pi}{3}$. This matches the angle found from the trace, $\tr Q = 2 = 1 + 2\cos\theta$.
+- The [[Cayley transform theorem|R9Z3W1CFPP]] gives $A = (I - Q)(I + Q)^{-1}$, so $A$ can be found back from $Q$.
+
+## Explanations
+
+### L1 human
+
+Three free numbers, here all equal to $\frac{1}{3}$, go into a skew-symmetric table.
+The recipe turns the table into a turn of space.
+The turn has its axis along the direction of the three numbers.
+The size of the numbers fixes the angle of the turn.
+
+### L2 human
+
+The worked computation is in the Example.
+The typical use: to build a rotation of space with a given axis $w$ and rational entries, put $A = -[w]_\times$.
+A trap: the angle is not $\norm{w}$, but the angle $\theta$ with $\tan\frac{\theta}{2} = \norm{w}$.

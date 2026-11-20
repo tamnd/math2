@@ -26,8 +26,8 @@ Let $V$ be a real inner product space, and let $u \in V$ with $u \neq 0$.
 The *reflection* in the hyperplane $u^\perp$ is the linear map
 $$s_u(x) = x - 2\frac{\ip{x}{u}}{\ip{u}{u}}u.$$
 It fixes each vector of the hyperplane $u^\perp$, and it sends $u$ to $-u$.
-It is a [[linear isometry|07SJXTWVQW]] with $s_u^2 = \id$ and $\det s_u = -1$, by [[this theorem|~c91e3beb]].
-Reflections generate the [[orthogonal group|~dc22fe40]], and the [[Cartan-Dieudonné theorem|0VMWGYY35Q]] says that $n$ of them suffice for each element of $O(n)$.
+It is a [[linear isometry|07SJXTWVQW]] with $s_u^2 = \id$ and $\det s_u = -1$, by [[this theorem|FEER10D15S]].
+Reflections generate the [[orthogonal group|WWK2E8BRGF]], and the [[Cartan-Dieudonné theorem|0VMWGYY35Q]] says that $n$ of them suffice for each element of $O(n)$.
 
 ## Motivation
 
@@ -46,16 +46,16 @@ Reflections are the simplest isometries that are not rotations, and every isomet
 
 ### Examples
 
-- In $\R^2$, the reflection in the line at the angle $\alpha$ to the $x$-axis is $S(\alpha) = \begin{pmatrix} \cos 2\alpha & \sin 2\alpha \\ \sin 2\alpha & -\cos 2\alpha \end{pmatrix}$, see [[the classification of O(2)|~233ca0a4]].
-- [[The Householder matrix of the vector (1, 2, 2)/3|~c7e61f61]] is the reflection of $\R^3$ in the plane $x + 2y + 2z = 0$.
-- [[The map p(x) ↦ p(−x) on polynomials of degree at most 2|~fcfe5c8a]] is the reflection in the even polynomials, for the inner product $\int_{-1}^{1}pq$.
+- In $\R^2$, the reflection in the line at the angle $\alpha$ to the $x$-axis is $S(\alpha) = \begin{pmatrix} \cos 2\alpha & \sin 2\alpha \\ \sin 2\alpha & -\cos 2\alpha \end{pmatrix}$, see [[the classification of O(2)|C97Z06HHB2]].
+- [[The Householder matrix of the vector (1, 2, 2)/3|BE65CTF1HQ]] is the reflection of $\R^3$ in the plane $x + 2y + 2z = 0$.
+- [[The map p(x) ↦ p(−x) on polynomials of degree at most 2|W4MHG5MZ1S]] is the reflection in the even polynomials, for the inner product $\int_{-1}^{1}pq$.
 - $\operatorname{diag}(1, \dots, 1, -1)$ is the reflection of $\R^n$ in the hyperplane $x_n = 0$.
 - The swap $(x, y) \mapsto (y, x)$ is the reflection of $\R^2$ in the line $y = x$, with normal vector $(1, -1)$.
 
 ### Non-examples
 
-- [[The half turn diag(−1, −1, 1)|~0a09fa5d]] is orthogonal and $Q^2 = I$, but it negates a plane, not a line. It is a rotation, not a reflection.
-- [[The point reflection −I₃|~f5678826]] has determinant $-1$, but it negates all of $\R^3$, so it is not a reflection in a hyperplane.
+- [[The half turn diag(−1, −1, 1)|EKK87GQF5W]] is orthogonal and $Q^2 = I$, but it negates a plane, not a line. It is a rotation, not a reflection.
+- [[The point reflection −I₃|X77QN4Y9VD]] has determinant $-1$, but it negates all of $\R^3$, so it is not a reflection in a hyperplane.
 - An orthogonal projection $P$ onto a hyperplane fixes the hyperplane, but it sends $u$ to $0$, not to $-u$. It is not invertible.
 
 ### Basic properties
@@ -63,7 +63,7 @@ Reflections are the simplest isometries that are not rotations, and every isomet
 - $s_u$ depends only on the line $\R u$: $s_{cu} = s_u$ for $c \neq 0$.
 - $s_u$ is self-adjoint and orthogonal, so $s_u^{-1} = s_u^* = s_u$.
 - $\det s_u = -1$, because in an orthogonal basis $u, e_2, \dots, e_n$ with $e_k \in u^\perp$, its matrix is $\operatorname{diag}(-1, 1, \dots, 1)$.
-- If $\norm{x} = \norm{y}$ and $x \neq y$, then $s_{x - y}$ swaps $x$ and $y$, by [[this theorem|~c91e3beb]].
+- If $\norm{x} = \norm{y}$ and $x \neq y$, then $s_{x - y}$ swaps $x$ and $y$, by [[this theorem|FEER10D15S]].
 - The product of two reflections is a rotation. In $\R^2$, $S(\alpha)S(\beta) = R(2(\alpha - \beta))$.
 - For $Q \in O(n)$, $Qs_uQ^{-1} = s_{Qu}$. So the conjugates of a reflection are reflections.
 

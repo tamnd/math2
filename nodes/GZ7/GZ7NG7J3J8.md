@@ -1,0 +1,92 @@
+---
+tag: GZ7NG7J3J8
+kind: statement
+role: theorem
+name: Properties of a unitary matrix
+aliases: [equivalent-conditions-for-a-unitary-matrix, eigenvalues-of-unitary-matrix-on-unit-circle]
+msc: ["15B57", "15A18"]
+topics: [AZS5BPF5H3]
+audience: ug2
+about: [0AR68JTMDT]
+uses: [0D6RMJ10M9, 0EX045E2BP, 0C3CFHDN6R, 0ZND7NQ970, 0B5H4208Z9, 0XYKE8BE7X]
+sources:
+  - url: https://en.wikipedia.org/wiki/Unitary_matrix
+    locator: Properties
+  - url: https://en.wikipedia.org/wiki/Unitary_matrix
+    locator: Equivalent conditions
+  - book: isbn:9780521839402
+    locator: Chapter 2
+---
+
+## Statement
+
+Let $U$ be a complex $n \times n$ matrix, and let $\ip{x}{y} = \sum_k x_k\overline{y_k} = y^*x$ be the standard inner product on $\C^n$.
+The following seven conditions are equivalent.
+
+1. $U^*U = I_n$, where $U^*$ is the [[conjugate transpose|0EX045E2BP]].
+2. $UU^* = I_n$.
+3. $U$ is invertible and $U^{-1} = U^*$.
+4. The columns of $U$ are an orthonormal basis of $\C^n$.
+5. The rows of $U$ are an orthonormal basis of $\C^n$.
+6. $\ip{Ux}{Uy} = \ip{x}{y}$ for all $x, y \in \C^n$.
+7. $\norm{Ux} = \norm{x}$ for all $x \in \C^n$.
+
+If $U$ satisfies these conditions, so $U$ is [[unitary|0D6RMJ10M9]], then:
+
+1. $\abs{\det U} = 1$.
+2. Every [[eigenvalue|0ZND7NQ970]] $\lambda$ of $U$ has $\abs{\lambda} = 1$.
+3. [[Eigenvectors|0B5H4208Z9]] of $U$ for different eigenvalues are orthogonal.
+4. $U$ is [[normal|0XYKE8BE7X]], and $U = VDV^*$ for a unitary matrix $V$ and a diagonal matrix $D$ whose diagonal entries have absolute value $1$.
+
+Conversely, each matrix $VDV^*$ with $V$ unitary and $D$ diagonal with diagonal entries of absolute value $1$ is unitary.
+
+## Remarks
+
+### Why each hypothesis is needed
+
+- Conditions 1 to 3 need a square matrix. The $2 \times 1$ matrix $U = \begin{pmatrix} 1 \\ 0 \end{pmatrix}$ has $U^*U = (1)$, but $UU^* = \operatorname{diag}(1, 0) \neq I_2$.
+- The converse needs a unitary $V$. With $V = \begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$ and $D = \operatorname{diag}(1, -1)$, the matrix $VDV^* = \begin{pmatrix} 0 & -1 \\ -1 & -1 \end{pmatrix}$ is not unitary: its second column has length $\sqrt{2}$.
+
+### Consequences
+
+- $U(n)$ is closed under products and inverses: $(UW)^*(UW) = W^*U^*UW = I_n$.
+- Each unitary matrix is unitarily similar to $\operatorname{diag}(e^{i\theta_1}, \dots, e^{i\theta_n})$.
+- The real case gives [[the determinant theorem for orthogonal matrices|QDZJMFATRW]], because a real orthogonal matrix is unitary.
+
+### Converse
+
+A matrix with all eigenvalues on the unit circle is not always unitary.
+The matrix $\begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$ has the only eigenvalue $1$, but its second column has length $\sqrt{2}$.
+The last part of the statement gives the correct converse: a normal matrix with all eigenvalues on the unit circle is unitary.
+
+### Generalizations
+
+- For a linear map $T$ of a finite-dimensional complex inner product space, the same conditions with the [[adjoint|0ST8QF9T3T]] $T^*$ define a [[unitary operator|MM0EJ2GDE4]].
+- In an infinite-dimensional Hilbert space, condition 1 alone gives only an isometry. The shift $(x_1, x_2, \dots) \mapsto (0, x_1, x_2, \dots)$ satisfies $S^*S = I$, but $SS^* \neq I$.
+
+## Explanations
+
+### L1 human
+
+A unitary matrix keeps all lengths in complex space.
+Many tests show this, and the theorem says that they all agree.
+The eigenvalues of such a matrix are complex numbers of size $1$, points on the unit circle.
+In a good choice of axes, the matrix only turns each axis by an angle in the complex plane.
+
+### L2 human
+
+Worked example: $U = \frac{1}{\sqrt{2}}\begin{pmatrix} 1 & i \\ i & 1 \end{pmatrix}$, see [[this example|F3P6M0A78R]].
+
+1. $\det U = \frac{1}{2}(1 \cdot 1 - i \cdot i) = 1$, so $\abs{\det U} = 1$.
+2. The eigenvalues are $\frac{1 + i}{\sqrt{2}}$ and $\frac{1 - i}{\sqrt{2}}$, with eigenvectors $(1, 1)$ and $(1, -1)$.
+3. Both eigenvalues have absolute value $\sqrt{\frac{1}{2} + \frac{1}{2}} = 1$.
+4. The eigenvectors are orthogonal: $\ip{(1, 1)}{(1, -1)} = 1 - 1 = 0$.
+
+The typical use: to diagonalize a unitary matrix, find its eigenvalues and choose an orthonormal basis of eigenvectors.
+A trap: in the inner product $\ip{x}{y} = \sum_k x_k\overline{y_k}$, the second vector is conjugated.
+
+### L3 human
+
+The theorem says that $U(n)$ acts on $\C^n$ as the full group of linear isometries.
+The spectral form $U = VDV^*$ shows that each element of $U(n)$ lies in a maximal torus, a conjugate of the diagonal group $\set{\operatorname{diag}(e^{i\theta_1}, \dots, e^{i\theta_n})}$.
+So the exponential map from the skew-Hermitian matrices onto $U(n)$ is surjective, and $U(n)$ is connected.

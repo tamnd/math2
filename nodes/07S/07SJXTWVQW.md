@@ -46,15 +46,15 @@ A bijective linear isometry is an isomorphism of inner product spaces, so it kee
 ### Examples
 
 - The identity map of a normed space is a linear isometry.
-- The [[rotation matrix|~8cba9603]] $R(\theta)$ gives a linear isometry of $\R^2$, because $(x\cos\theta - y\sin\theta)^2 + (x\sin\theta + y\cos\theta)^2 = x^2 + y^2$.
+- The [[rotation matrix|HNY4CPEEJA]] $R(\theta)$ gives a linear isometry of $\R^2$, because $(x\cos\theta - y\sin\theta)^2 + (x\sin\theta + y\cos\theta)^2 = x^2 + y^2$.
 - A [[reflection|06BRDF3F0E]] in a hyperplane of a real inner product space is a linear isometry.
-- [[The inclusion of the plane in space|~ed15b8e6]], $(x, y) \mapsto (x, y, 0)$, is a linear isometry from $\R^2$ to $\R^3$ that is not surjective.
-- [[The map $p(x) \mapsto p(-x)$|~fcfe5c8a]] on real polynomials of degree at most $2$, with $\ip{p}{q} = \int_{-1}^{1} p(x)q(x)\,dx$, is a linear isometry.
+- [[The inclusion of the plane in space|X132TDT8X2]], $(x, y) \mapsto (x, y, 0)$, is a linear isometry from $\R^2$ to $\R^3$ that is not surjective.
+- [[The map $p(x) \mapsto p(-x)$|W4MHG5MZ1S]] on real polynomials of degree at most $2$, with $\ip{p}{q} = \int_{-1}^{1} p(x)q(x)\,dx$, is a linear isometry.
 - Multiplication by a complex number $z$ with $\abs{z} = 1$ is a linear isometry of $\C$, because $\abs{zw} = \abs{z}\abs{w} = \abs{w}$.
 
 ### Non-examples
 
-- [[Scaling by $2$|~01f072d6]] on $\R^2$ is linear, but it doubles every length.
+- [[Scaling by $2$|69P6G54T72]] on $\R^2$ is linear, but it doubles every length.
 - The orthogonal projection of $\R^2$ onto the $x$-axis is linear, but it sends $(0, 1)$ to $0$.
 - The shear $(x, y) \mapsto (x + y, y)$ is linear, but it sends $(0, 1)$, of length $1$, to $(1, 1)$, of length $\sqrt{2}$.
 - A translation $v \mapsto v + a$ with $a \neq 0$ keeps distances, but it is not linear, because it moves $0$.
@@ -66,7 +66,7 @@ Let $T \colon V \to W$ be a linear isometry.
 - $T$ is injective, because $Tv = 0$ gives $\norm{v} = \norm{Tv} = 0$.
 - $T$ keeps distances: $\norm{Tu - Tv} = \norm{T(u - v)} = \norm{u - v}$.
 - Between inner product spaces, $T$ keeps inner products, by [[polarization|0R7VXTYHYZ]]. So $T$ keeps angles and orthogonality.
-- For finite-dimensional inner product spaces, [[the equivalent conditions|~d0f0e2fd]] say that $T$ is a linear isometry exactly when it sends an orthonormal basis to an orthonormal family, and exactly when $T^*T = I$.
+- For finite-dimensional inner product spaces, [[the equivalent conditions|95ST99SEW7]] say that $T$ is a linear isometry exactly when it sends an orthonormal basis to an orthonormal family, and exactly when $T^*T = I$.
 - The composite of two linear isometries is a linear isometry. The inverse of a bijective linear isometry is a linear isometry.
 - If $\dim V = \dim W$ is finite, then $T$ is bijective, by [[the rank-nullity theorem|0W4FSW1TVB]].
 - The matrix of a linear isometry of $\R^n$ in the standard basis is an [[orthogonal matrix|0W02QESPJQ]]. The matrix of a linear isometry of $\C^n$ is a [[unitary matrix|0AR68JTMDT]].
@@ -111,8 +111,8 @@ For the inclusion $\iota \colon \R^2 \to \R^3$, we have $\iota^*\iota = I$, but 
 ### L3 human
 
 Linear isometries are the maps of inner product spaces that keep the full structure, and the bijective ones are the isomorphisms.
-For a finite-dimensional real inner product space $V$, the bijective linear isometries of $V$ form the [[orthogonal group|~dc22fe40]] $O(V)$.
-In the complex case, they form the [[unitary group|~4244c18b]] $U(V)$.
+For a finite-dimensional real inner product space $V$, the bijective linear isometries of $V$ form the [[orthogonal group|WWK2E8BRGF]] $O(V)$.
+In the complex case, they form the [[unitary group|VW5H9XFNJB]] $U(V)$.
 
 In infinite dimensions, the conditions $T^*T = I$ and $TT^* = I$ differ.
 The unilateral shift on $\ell^2(\N)$ satisfies the first condition and not the second, as the node on [[unitary operators|DJHVKR63H5]] shows.

@@ -26,7 +26,7 @@ inventory: [YNRSTBKDN5]
 ## Summary
 
 A complex $n \times n$ matrix $U$ is *unitary* when $U^*U = I_n$, where $U^*$ is the [[conjugate transpose|0DXKE10PHF]].
-[[Equivalently|~2220a569]], $U$ is invertible with $U^{-1} = U^*$, and its columns form an [[orthonormal basis|0S9GGTR0EX]] of $\C^n$ for the standard inner product $\ip{x}{y} = \sum_k x_k\overline{y_k}$.
+[[Equivalently|GZ7NG7J3J8]], $U$ is invertible with $U^{-1} = U^*$, and its columns form an [[orthonormal basis|0S9GGTR0EX]] of $\C^n$ for the standard inner product $\ip{x}{y} = \sum_k x_k\overline{y_k}$.
 Unitary matrices are the matrices of the [[linear isometries|07SJXTWVQW]] of $\C^n$, and they are the complex analogue of [[orthogonal matrices|0W02QESPJQ]].
 Their determinants and eigenvalues lie on the unit circle, and each unitary matrix can be diagonalized by another unitary matrix.
 
@@ -40,29 +40,29 @@ Unitary matrices appear wherever complex lengths must stay the same, for example
 ## Notation
 
 - The conjugate transpose is written $U^*$, $U^H$ or $U^\dagger$.
-- The set of unitary $n \times n$ matrices is the [[unitary group|~4244c18b]] $U(n)$. Mathlib writes `Matrix.unitaryGroup (Fin n) ℂ`.
+- The set of unitary $n \times n$ matrices is the [[unitary group|VW5H9XFNJB]] $U(n)$. Mathlib writes `Matrix.unitaryGroup (Fin n) ℂ`.
 
 ## Remarks
 
 ### Examples
 
-- [[The matrix with rows (1, i) and (i, 1) divided by the square root of two|~ee8e12f5]] is unitary with determinant $1$.
-- [[The Fourier matrix of size three|~3dc0ee36]] is unitary, and its fourth power is $I_3$.
+- [[The matrix with rows (1, i) and (i, 1) divided by the square root of two|F3P6M0A78R]] is unitary with determinant $1$.
+- [[The Fourier matrix of size three|SF3EBT2Z4F]] is unitary, and its fourth power is $I_3$.
 - Each diagonal matrix $\operatorname{diag}(e^{i\theta_1}, \dots, e^{i\theta_n})$ is unitary.
 - Each real orthogonal matrix is unitary, because then $Q^* = Q^T$.
-- [[The unitary matrix with rows (0, i) and (1, 0)|~24dc021c]] has determinant $-i$.
+- [[The unitary matrix with rows (0, i) and (1, 0)|6NZCDBCSKQ]] has determinant $-i$.
 
 ### Non-examples
 
-- [[A complex matrix with $N^TN = I$|~83b36d34]] need not be unitary: the plain transpose is the wrong test over $\C$.
-- [[The matrix with rows (i, 1) and (0, 1)|~b46dc950]] has determinant $i$, on the unit circle, but it is not unitary.
+- [[A complex matrix with $N^TN = I$|JRPHE0FG7D]] need not be unitary: the plain transpose is the wrong test over $\C$.
+- [[The matrix with rows (i, 1) and (0, 1)|RMXFKRW9WQ]] has determinant $i$, on the unit circle, but it is not unitary.
 - $\operatorname{diag}(2, \frac{1}{2})$ is not unitary: its first column has length $2$.
 
 ### Basic properties
 
 - $U$ is unitary exactly when $U^*$ is unitary, and exactly when $U^T$ is unitary.
 - Products and inverses of unitary matrices are unitary, so they form the group $U(n)$.
-- $\abs{\det U} = 1$, and every eigenvalue $\lambda$ of $U$ has $\abs{\lambda} = 1$, see [[the properties|~2220a569]].
+- $\abs{\det U} = 1$, and every eigenvalue $\lambda$ of $U$ has $\abs{\lambda} = 1$, see [[the properties|GZ7NG7J3J8]].
 - $U$ is [[normal|0MR0BYF0K2]], so $U = VDV^*$ with $V$ unitary and $D$ diagonal, by the [[complex spectral theorem|04CW1P44VD]].
 - A $2 \times 2$ unitary matrix has the form $\begin{pmatrix} a & b \\ -e^{i\varphi}\overline{b} & e^{i\varphi}\overline{a} \end{pmatrix}$ with $\abs{a}^2 + \abs{b}^2 = 1$, and its determinant is $e^{i\varphi}$.
 
