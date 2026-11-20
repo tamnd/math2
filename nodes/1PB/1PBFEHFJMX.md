@@ -1,0 +1,58 @@
+---
+tag: 1PBFEHFJMX
+kind: example
+name: Classical logic fails the variable sharing principle
+msc: ["03B47", "03B05"]
+topics: [98QF5J4W16]
+audience: grad
+not_instance_of:
+  - target: KXTCZ2FY5M
+    note: classical logic proves (p and not p) implies q, whose two sides share no atom, so it is not a relevance logic
+uses: [09K9MWD2QQ, 05RSK4Q657, 3T7ZJFC9QF]
+sources:
+  - url: https://plato.stanford.edu/entries/logic-relevance/
+    locator: introduction
+    note: Mares, Relevance Logic, Stanford Encyclopedia of Philosophy, revision of 2020-11-13
+  - url: https://en.wikipedia.org/wiki/Relevance_logic
+    locator: lead
+---
+
+## Example
+
+The *variable sharing principle* says: if $A \rightarrow B$ is provable, then $A$ and $B$ have a propositional variable in common.
+[[Classical propositional logic|09K9MWD2QQ]] does not have this property.
+The witness is the formula $(p \wedge \neg p) \rightarrow q$, with $\rightarrow$ the material implication.
+
+1. The antecedent $p \wedge \neg p$ contains only the variable $p$.
+2. The consequent $q$ contains only the variable $q$, so the two parts share no variable.
+3. If $p$ is true, then $\neg p$ is false, so $p \wedge \neg p$ is false.
+4. If $p$ is false, then $p \wedge \neg p$ is false.
+5. So the antecedent is false in all four rows of the [[truth table|05RSK4Q657]].
+6. A material implication with a false antecedent is true, so the formula is true in all four rows.
+7. By the completeness of classical propositional logic, the formula is provable.
+
+## Remarks
+
+A second witness is $p \rightarrow (q \rightarrow q)$.
+Its consequent $q \rightarrow q$ is true in every row, so the formula is a tautology, and $p$ does not occur in $q \rightarrow q$.
+Both formulas are [[paradoxes of material implication|3T7ZJFC9QF]] in the sense of the SEP entry.
+So classical logic is not a relevance logic.
+
+## Explanations
+
+### L1 human
+
+In classical logic, a contradiction implies every sentence, even a sentence about something else.
+The formula $(p \wedge \neg p) \rightarrow q$ is true, but $p$ and $q$ may be about different topics.
+
+### L2 human
+
+We check the truth table of $(p \wedge \neg p) \rightarrow q$ row by row.
+
+1. $p$ true, $q$ true: antecedent false, consequent true, formula true.
+2. $p$ true, $q$ false: antecedent false, consequent false, formula true.
+3. $p$ false, $q$ true: antecedent false, consequent true, formula true.
+4. $p$ false, $q$ false: antecedent false, consequent false, formula true.
+
+The typical use of this example is to show why a relevance logic must reject some classical tautologies.
+A trap: the formula $(p \wedge \neg p) \rightarrow p$ shares the variable $p$, so it is no witness; it is a theorem of $\mathbf{R}$.

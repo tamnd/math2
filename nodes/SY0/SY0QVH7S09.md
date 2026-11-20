@@ -1,0 +1,68 @@
+---
+tag: SY0QVH7S09
+kind: example
+name: Cut elimination on a small proof net
+msc: ["03F52", "03F05"]
+topics: [98QF5J4W16]
+audience: research
+instance_of: [HN6WN1VE39]
+uses: [6G6M2V85RZ, SBY2YQ8EN6, SYMW99C0EV]
+sources:
+  - url: https://plato.stanford.edu/entries/logic-linear/
+    locator: 2.3 Proof nets
+    note: Di Cosmo and Miller, Linear Logic, Stanford Encyclopedia of Philosophy, revision of 2023-09-16
+---
+
+## Example
+
+Cut elimination on [[proof nets|6G6M2V85RZ]] uses two rewrite steps, which the SEP entry calls the axiom move and the multiplicative move.
+
+1. Multiplicative move: a cut link between the conclusions of a $\otimes$ link with premises $A$, $B$ and of a $\mathbin{\wp}$ link with premises $A^{\perp}$, $B^{\perp}$ becomes two cut links, on $A$ with $A^{\perp}$ and on $B$ with $B^{\perp}$.
+2. Axiom move: an axiom link with conclusions $x = A^{\perp}$ and $y = A$, and a cut link between $y$ and another occurrence $z = A^{\perp}$, are removed, and $x$ and $z$ become one occurrence.
+
+We reduce one net with a cut.
+Let $N_1$ be the net of $\vdash p^{\perp} \otimes q^{\perp}, p \mathbin{\wp} q$ and $N_2$ the net of $\vdash p^{\perp} \otimes q^{\perp}, q \mathbin{\wp} p$.
+Mark the occurrences of $N_1$ with index $1$ and those of $N_2$ with index $2$.
+
+1. $N_1$ has axiom links $p_1^{\perp} - p_1$ and $q_1^{\perp} - q_1$, a $\otimes$ link on $p_1^{\perp}$, $q_1^{\perp}$, and a $\mathbin{\wp}$ link on $p_1$, $q_1$.
+2. $N_2$ has axiom links $p_2^{\perp} - p_2$ and $q_2^{\perp} - q_2$, a $\otimes$ link on $p_2^{\perp}$, $q_2^{\perp}$, and a $\mathbin{\wp}$ link on $q_2$, $p_2$.
+3. Add a cut link between $p_1 \mathbin{\wp} q_1$ and $p_2^{\perp} \otimes q_2^{\perp}$.
+   The result $N$ has conclusions $p^{\perp} \otimes q^{\perp}$ from $N_1$ and $q \mathbin{\wp} p$ from $N_2$.
+4. $N$ has $12$ occurrences.
+   Each correction graph has $5$ edges in each part and one cut edge, so $11$ edges, and it is connected.
+   So $N$ satisfies the [[Danos-Regnier criterion|SBY2YQ8EN6]].
+5. The multiplicative move gives two cuts: $p_1 - p_2^{\perp}$ and $q_1 - q_2^{\perp}$.
+6. The axiom move on $p_1^{\perp} - p_1$ and the cut $p_1 - p_2^{\perp}$ merges $p_1^{\perp}$ with $p_2^{\perp}$.
+   The result has the axiom link $p_2^{\perp} - p_2$, with $p_2^{\perp}$ a premise of the $\otimes$ link of $N_1$.
+7. The axiom move on $q_1$ does the same for $q$.
+8. The final net has axiom links $p^{\perp} - p$ and $q^{\perp} - q$, a $\otimes$ link on $p^{\perp}$, $q^{\perp}$ and a $\mathbin{\wp}$ link on $q$, $p$.
+9. Its conclusions are $p^{\perp} \otimes q^{\perp}$ and $q \mathbin{\wp} p$, the same as those of $N$, and it has no cut.
+
+## Remarks
+
+The final net is the net of $N_2$ itself.
+This is expected: $N_1$ is the net of an identity, since $p^{\perp} \otimes q^{\perp}$ is the negation of $p \mathbin{\wp} q$.
+In the sequent calculus, the [[cut elimination theorem|SYMW99C0EV]] reaches the same result, with the key case first and then two axiom cases.
+
+## Explanations
+
+### L1 human
+
+A cut joins two pictures at a formula and its negation.
+The two moves remove the join piece by piece.
+First the join on "$p$ par $q$" becomes a join on $p$ and a join on $q$.
+Then each small join meets a straight line and disappears.
+
+### L2 human
+
+We count the links in each step to see that the number of cuts and links falls.
+
+1. Start: $4$ axiom links, $2$ links of type $\otimes$, $2$ of type $\mathbin{\wp}$, $1$ cut.
+   The count $4 = 2 + 1 + 1$ of the criterion holds.
+2. After the multiplicative move: $4$ axiom links, $1$ link of type $\otimes$, $1$ of type $\mathbin{\wp}$, $2$ cuts.
+   The count $4 = 1 + 2 + 1$ holds.
+3. After two axiom moves: $2$ axiom links, $1$ link of type $\otimes$, $1$ of type $\mathbin{\wp}$, $0$ cuts.
+   The count $2 = 1 + 0 + 1$ holds.
+
+The typical use of this example is to see that each move is local: it changes only the links next to the cut.
+A trap: after the multiplicative move the cuts are on atoms, but the net is not yet cut-free; the axiom moves remove these cuts.

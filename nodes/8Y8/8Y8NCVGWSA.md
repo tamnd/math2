@@ -1,0 +1,68 @@
+---
+tag: 8Y8NCVGWSA
+kind: example
+name: The formulas B, C and K in affine logic
+msc: ["03F52", "03B47"]
+topics: [98QF5J4W16]
+audience: research
+instance_of: [K67C2N2QAH]
+uses: [YREXK6X3RP, W1B5YCDK93]
+sources:
+  - url: https://en.wikipedia.org/wiki/BCK_algebra
+    locator: lead
+  - url: https://en.wikipedia.org/wiki/Affine_logic
+    locator: lead
+---
+
+## Example
+
+Write $\multimap$ for linear implication and consider three formulas:
+
+- B: $(B \multimap C) \multimap ((A \multimap B) \multimap (A \multimap C))$,
+- C: $(A \multimap (B \multimap C)) \multimap (B \multimap (A \multimap C))$,
+- K: $A \multimap (B \multimap A)$.
+
+All three are derivable in [[affine logic|YREXK6X3RP]]; B and C are derivable without weakening, and K needs it.
+
+Derivation of K, in one-sided form $\vdash A^{\perp} \mathbin{\wp} (B^{\perp} \mathbin{\wp} A)$:
+
+1. $\vdash A^{\perp}, A$ is an axiom.
+2. Weakening adds $B^{\perp}$: $\vdash A^{\perp}, B^{\perp}, A$.
+3. The rule $\mathbin{\wp}$ gives $\vdash A^{\perp}, B^{\perp} \mathbin{\wp} A$.
+4. The rule $\mathbin{\wp}$ gives $\vdash A^{\perp} \mathbin{\wp} (B^{\perp} \mathbin{\wp} A)$.
+
+Derivation of C, whose negated antecedent is $A \otimes (B \otimes C^{\perp})$, so that the goal is $\vdash A \otimes (B \otimes C^{\perp}), B^{\perp} \mathbin{\wp} (A^{\perp} \mathbin{\wp} C)$:
+
+1. $\vdash B^{\perp}, B$ and $\vdash C, C^{\perp}$ are axioms.
+2. The rule $\otimes$ gives $\vdash B^{\perp}, C, B \otimes C^{\perp}$.
+3. With the axiom $\vdash A^{\perp}, A$, the rule $\otimes$ gives $\vdash A^{\perp}, B^{\perp}, C, A \otimes (B \otimes C^{\perp})$.
+4. The rule $\mathbin{\wp}$ on $A^{\perp}$ and $C$ gives $\vdash B^{\perp}, A^{\perp} \mathbin{\wp} C, A \otimes (B \otimes C^{\perp})$.
+5. The rule $\mathbin{\wp}$ gives $\vdash B^{\perp} \mathbin{\wp} (A^{\perp} \mathbin{\wp} C), A \otimes (B \otimes C^{\perp})$.
+6. The rule $\mathbin{\wp}$ on the two formulas gives C.
+
+## Remarks
+
+The derivation of B has the same shape as that of C: three axioms joined by two uses of $\otimes$, then uses of $\mathbin{\wp}$.
+Its negated antecedent is $B \otimes C^{\perp}$, and it uses no weakening.
+The Wikipedia article on BCK algebras states that these algebras describe implicational logics called BCI and BCK logics.
+This node proves only that the three formulas are derivable; it does not identify the implicational fragment of affine logic.
+
+## Explanations
+
+### L1 human
+
+B composes two maps, C swaps the order of two inputs, and K ignores its second input.
+Only K throws something away, so only K needs weakening.
+
+### L2 human
+
+We derive B, in one-sided form $\vdash B \otimes C^{\perp}, (A \otimes B^{\perp}) \mathbin{\wp} (A^{\perp} \mathbin{\wp} C)$.
+
+1. From the axioms $\vdash A^{\perp}, A$ and $\vdash B, B^{\perp}$, the rule $\otimes$ gives $\vdash A^{\perp}, A \otimes B^{\perp}, B$.
+2. With $\vdash C^{\perp}, C$, the rule $\otimes$ on $B$ and $C^{\perp}$ gives $\vdash A^{\perp}, A \otimes B^{\perp}, B \otimes C^{\perp}, C$.
+3. The rule $\mathbin{\wp}$ on $A^{\perp}$ and $C$ gives $\vdash A \otimes B^{\perp}, A^{\perp} \mathbin{\wp} C, B \otimes C^{\perp}$.
+4. The rule $\mathbin{\wp}$ gives $\vdash (A \otimes B^{\perp}) \mathbin{\wp} (A^{\perp} \mathbin{\wp} C), B \otimes C^{\perp}$.
+5. The rule $\mathbin{\wp}$ on the two formulas gives B.
+
+The typical use of these formulas is to compare implicational logics by the axioms they accept.
+A trap: K is $A \multimap (B \multimap A)$, not $A \multimap (A \multimap B)$; the second is not derivable even in affine logic.

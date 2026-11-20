@@ -1,0 +1,110 @@
+---
+tag: 5JKHNK7AR5
+kind: concept
+name: Bunched logic
+aliases: [logic-of-bunched-implications]
+msc: ["03B47", "68Q60"]
+topics: [98QF5J4W16]
+audience: research
+uses: [ZZKTJY5J4T, Q11N8X99FK, NGHWZ9Y7ZV]
+sources:
+  - url: https://en.wikipedia.org/wiki/Bunched_logic
+    locator: lead; Foundations
+  - url: https://en.wikipedia.org/wiki/Bunched_logic
+    locator: Applications, Separation logic
+  - doi: 10.2307/421090
+    locator: pages 215-244
+    note: O'Hearn and Pym, The Logic of Bunched Implications, Bulletin of Symbolic Logic 5 (1999)
+---
+
+## Summary
+
+*Bunched logic*, or the logic of *bunched implications* (BI), is a [[substructural logic|ZZKTJY5J4T]] with two conjunctions and two implications.
+The additive pair $\wedge$ and $\to$ behaves as in [[intuitionistic logic|Q11N8X99FK]].
+The multiplicative pair $\ast$ and $\mathrel{-\!\!*}$ has no weakening and no contraction.
+In a proof, the hypotheses form a *bunch*: a finite tree whose leaves are formulas and whose inner nodes are commas or semicolons.
+The precise syntax and the resource semantics are in [[the definition|F0R5WTBN8Y]].
+
+## Motivation
+
+The Wikipedia article states that bunched logic provides primitives for reasoning about the composition of resources.
+In classical logic, $A \wedge B \vdash C$ holds if and only if $A \vdash B \to C$.
+Bunched logic has this law and a second one of the same form:
+$$A \ast B \vdash C \iff A \vdash B \mathrel{-\!\!*} C.$$
+In the resource reading, $A \ast B$ holds of a resource that splits into a part for $A$ and a part for $B$.
+The formula $B \mathrel{-\!\!*} C$ holds of a resource that gives $C$ when we add to it any resource for $B$.
+
+## Notation
+
+The formulas are built from atoms and the constants $\top$, $\bot$ and $I$ with $\wedge$, $\vee$, $\to$, $\ast$ and $\mathrel{-\!\!*}$.
+The constant $I$, also written $\mathrm{emp}$, is the unit of $\ast$.
+In a bunch, the comma $\Gamma, \Delta$ is the multiplicative composition, and the semicolon $\Gamma ; \Delta$ is the additive composition.
+We write $r \models A$ for "the resource $r$ forces $A$".
+
+## Remarks
+
+### Examples
+
+1. In [[a resource model on the natural numbers|J7F9HPATG5]], the formulas $p$ and $p \ast p$ hold at different resources, so $\ast$ has no contraction.
+2. In every resource model, [[$A \ast (A \mathrel{-\!\!*} B)$ entails $B$|4ZW3M0NSXN]], which is modus ponens for $\mathrel{-\!\!*}$.
+3. The Wikipedia article describes the heap model of [[separation logic|CF5Y39BPB0]]:
+   a heap is a finite partial function from locations to values.
+   The composition $h_0 \bullet h_1$ is the union of two heaps with disjoint domains, and it is undefined when the domains overlap.
+   The article states that this is a model of the boolean variant of bunched logic.
+4. In the boolean variant, $\wedge$ and $\to$, and also $\neg$, are the connectives of classical propositional logic.
+
+### Non-examples
+
+1. [[The monoid of strings|45WQ34YA2E]] under concatenation is not commutative, and there $p \ast q$ does not entail $q \ast p$.
+   So it does not give a model of bunched logic.
+2. The relevance logic $\mathbf{R}$ is not bunched logic.
+   The Wikipedia article states that the semantics of BI draws on [[Routley-Meyer semantics|H4Z8J0KMAY]] but does not require $r \bullet r \leq r$.
+3. [[Linear logic|2P2184B6HE]] is not bunched logic.
+   The Wikipedia article states that BI keeps the standard semantics of $\wedge$ and $\to$, which linear logic rejects.
+
+### Basic properties
+
+1. The comma admits neither weakening nor contraction, and the semicolon admits both, for whole bunches.
+2. The Wikipedia article states that these structural rules can act deep inside a bunch, not only at its root.
+3. In the resource semantics, a formula forced by $r$ is forced by every larger resource; [[the definition|F0R5WTBN8Y]] proves this.
+4. The Wikipedia article states that an algebraic model of BI is a Heyting algebra that is also a commutative [[residuated lattice|E337A6WVH3]] on the same lattice.
+5. The Wikipedia article states that a categorical model of BI is a category with two closed structures, one symmetric monoidal closed and one cartesian closed.
+
+### History
+
+The Wikipedia article and the paper of O'Hearn and Pym cited here (1999) name O'Hearn and Pym as the authors of bunched logic.
+The article states that the forcing semantics is due to Pym and that it is analogous to [[Kripke semantics|NGHWZ9Y7ZV]].
+It also states that bunched logic is the base of the assertion language of separation logic, an extension of [[Hoare logic|H1M6RSBJ5H]].
+
+### Common errors
+
+The two conjunctions do not entail each other.
+In [[the model on the natural numbers|J7F9HPATG5]], with $p$ and $q$ both true exactly at $1$, the resource $1$ forces $p \wedge q$ but not $p \ast q$.
+In the same model, the resource $2$ forces $p \ast q$ but not $p \wedge q$.
+The Wikipedia article notes that in heap models $r \bullet r$ can be undefined, so "two copies of the same resource" need not exist.
+
+## Explanations
+
+### L1 human
+
+Think of a formula as a statement about a resource, for example a part of computer memory.
+"$A$ and $B$" with $\wedge$ says that the same memory satisfies both.
+"$A \ast B$" says that the memory splits into two separate parts, one for $A$ and one for $B$.
+
+### L2 human
+
+We use the model of [[the example|J7F9HPATG5]]: resources are natural numbers, composition is $+$, and the order is equality.
+
+1. Let $p$ hold exactly at the resource $1$.
+2. Then $1 \models p \wedge p$, since $1 \models p$ twice.
+3. $r \models p \ast p$ needs $s + t = r$ with $s = t = 1$, so it holds only at $r = 2$.
+4. So $1 \models p$ but $1 \not\models p \ast p$, and $p \ast p$ is not equivalent to $p$.
+
+The typical use of $\ast$ is to state that two pieces of memory do not overlap.
+A trap: $p \ast p$ is not "$p$ twice at the same place"; it needs two separate resources.
+
+### L3 human
+
+The two implications come from two adjunctions on one category, one for $\ast$ and one for $\wedge$.
+The Wikipedia article states that Day's tensor product construction gives many categorical models.
+The proof theory then follows the semantics: the comma imitates $\ast$ and the semicolon imitates $\wedge$.
