@@ -6,6 +6,9 @@ msc: ["15A99"]
 topics: [Y1ESNQ2V52, QHKTJ89V6S]
 audience: ug1
 instance_of: [0KCE8CG86P, 033DA1WE8Y]
+not_instance_of:
+  - target: 0B8KZRT28M
+    note: P is idempotent but not symmetric; its kernel R(1, -1) is not orthogonal to its image, the x-axis
 uses: [0K7TD9BV2D, 0RH4E3CAV9, 076JGP6R3T]
 sources:
   - url: https://en.wikipedia.org/wiki/Idempotent_matrix
