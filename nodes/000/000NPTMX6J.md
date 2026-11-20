@@ -55,11 +55,11 @@ The real version of part 3 is also stated as [[the SVD and the four fundamental 
 
 ### Consequences
 
-- [[The $2 \times 2$ example|~ab3b9c7a]] and [[the $3 \times 2$ example|~461482fa]] compute full SVDs and multiply them back.
-- [[The unit circle goes to an ellipse|~16170aab]] with semi-axes $\sigma_1 u_1$ and $\sigma_2 u_2$.
+- [[The $2 \times 2$ example|B546BDVFQZ]] and [[the $3 \times 2$ example|GK1B93DKD3]] compute full SVDs and multiply them back.
+- [[The unit circle goes to an ellipse|JAEKA59DNZ]] with semi-axes $\sigma_1 u_1$ and $\sigma_2 u_2$.
 - The rank of $A$ is the number of nonzero singular values.
 - The [[polar decomposition|0J2C7BDJQA]] of a square $A$ is $A = (U V^*)(V \Sigma V^*)$.
-- The [[Moore-Penrose inverse|0YY8VX28JR]] is $A^+ = V \Sigma^+ U^*$, by [[its SVD formula|~724d9669]].
+- The [[Moore-Penrose inverse|0YY8VX28JR]] is $A^+ = V \Sigma^+ U^*$, by [[its SVD formula|Q9YN0F60ZW]].
 - Truncating the sum in part 2 after $k$ terms gives the best rank-$k$ approximation, by the [[Eckart-Young-Mirsky theorem|JJT6GC055J]].
 - The SVD of $A^*$ is $V \Sigma^T U^*$; see [[the transpose of an SVD|TTJBJ9H02C]].
 - The reduced form solves [[least squares problems|SBP2PCHH9M]].

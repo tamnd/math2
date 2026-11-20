@@ -8,7 +8,7 @@ topics: [SS4EVPKT3A]
 audience: ug2
 uses: [000NPTMX6J, 09VMDSRXWJ, 0ZC9YTXZRY, JT8Q204E4R, 06EKW1AKXF]
 about: [000NPTMX6J, 0ZC9YTXZRY]
-proofs: [~ad4b833d]
+proofs: [7TTA01BTBJ]
 sources:
   - url: https://en.wikipedia.org/wiki/Low-rank_approximation
     locator: Basic low-rank approximation problem
@@ -47,7 +47,7 @@ So $A_k$ is a best approximation of $A$ of rank at most $k$ in both norms.
 
 - The distance from $A$ to the matrices of rank at most $k$ is $\sigma_{k+1}$ in the operator norm.
 - For a square invertible $A$, the smallest singular value $\sigma_n$ is the distance in the operator norm to the singular matrices.
-- [[The rank-one approximation of a $2 \times 2$ matrix|~90df945c]] computes $A_1$ and checks that both errors equal $\sigma_2$.
+- [[The rank-one approximation of a $2 \times 2$ matrix|RFHTECHY4J]] computes $A_1$ and checks that both errors equal $\sigma_2$.
 - Truncated SVD is the basis of [[principal component analysis|ABXD13M340]] in statistics and of low-rank compression in numerical linear algebra.
 
 ### Converse

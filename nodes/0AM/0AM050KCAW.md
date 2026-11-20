@@ -33,7 +33,7 @@ For real matrices the same holds with $B^T B$ and real $B$.
 
 ### Why each hypothesis is needed
 
-- In part 2 the columns must be independent. For $B = \begin{pmatrix} 1 & 1 \end{pmatrix}$, the columns are equal and $B^T B$ is [[the all-ones matrix|~811342c5]], which is not positive definite.
+- In part 2 the columns must be independent. For $B = \begin{pmatrix} 1 & 1 \end{pmatrix}$, the columns are equal and $B^T B$ is [[the all-ones matrix|YAAQD2E1BZ]], which is not positive definite.
 - In part 3 the matrix must be positive semidefinite, since every $B^* B$ is by part 1.
 
 ### Consequences
@@ -47,7 +47,7 @@ For real matrices the same holds with $B^T B$ and real $B$.
 
 Parts 3 and 4 are the converses of parts 1 and 2.
 The factor $B$ is not unique: if $A = B^* B$ and $W$ is [[unitary|0D6RMJ10M9]], then $A = (WB)^* (WB)$.
-Two special choices are the [[Cholesky factor|0WKG8CYY6A]], with $B$ upper triangular, and the [[square root|~21ece919]], with $B$ positive semidefinite.
+Two special choices are the [[Cholesky factor|0WKG8CYY6A]], with $B$ upper triangular, and the [[square root|EQ98KW1ZN4]], with $B$ positive semidefinite.
 
 ### Generalizations
 

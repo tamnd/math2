@@ -49,16 +49,16 @@ In least squares, the matrix $A^T A$ of the [[normal equations|4D7MRG4D91]] is p
 
 - The identity matrix $I_n$ is positive definite, since $x^* I_n x = \sum_i \abs{x_i}^2 > 0$ for $x \neq 0$.
 - A diagonal matrix with positive real diagonal entries $d_1, \dots, d_n$ is positive definite, since $x^* D x = \sum_i d_i \abs{x_i}^2$.
-- [[The tridiagonal $3 \times 3$ matrix with entries $2$ and $-1$|~0bee96cf]] is positive definite. Sylvester's test gives the leading minors $2, 3, 4$.
-- [[The matrix of a Cholesky example|~717552fe]] is positive definite, because it equals $L L^T$ with $L$ invertible.
+- [[The tridiagonal $3 \times 3$ matrix with entries $2$ and $-1$|RSQW92W4PD]] is positive definite. Sylvester's test gives the leading minors $2, 3, 4$.
+- [[The matrix of a Cholesky example|M3YVJ6CFJ5]] is positive definite, because it equals $L L^T$ with $L$ invertible.
 - The [[Hilbert matrix|2DTWB6F5TA]] $\left(\frac{1}{i + j - 1}\right)$ is positive definite, because it is the Gram matrix of the independent functions $1, t, \dots, t^{n-1}$ on $[0, 1]$.
 - For a matrix $B$ with linearly independent columns, $B^* B$ is positive definite, by [[the Gram matrix theorem|0AM050KCAW]].
 
 ### Non-examples
 
-- [[The matrix $\begin{pmatrix} 1 & 1 \\ 1 & 1 \end{pmatrix}$|~811342c5]] is positive semidefinite but not positive definite. Strict positivity fails at $x = (1, -1)$, where the form is $0$.
-- [[The matrix $\begin{pmatrix} 1 & 2 \\ 2 & 1 \end{pmatrix}$|~e4e2045e]] has positive entries, but the form is $-2$ at $x = (1, -1)$. Positivity of the form fails.
-- [[The matrix $\begin{pmatrix} 1 & -3 \\ 0 & 1 \end{pmatrix}$|~23bc28ba]] is not symmetric, so the Hermitian condition fails. Its leading minors are $1$ and $1$, but the form is $-1$ at $x = (1, 1)$.
+- [[The matrix $\begin{pmatrix} 1 & 1 \\ 1 & 1 \end{pmatrix}$|YAAQD2E1BZ]] is positive semidefinite but not positive definite. Strict positivity fails at $x = (1, -1)$, where the form is $0$.
+- [[The matrix $\begin{pmatrix} 1 & 2 \\ 2 & 1 \end{pmatrix}$|N9TX4J2W4R]] has positive entries, but the form is $-2$ at $x = (1, -1)$. Positivity of the form fails.
+- [[The matrix $\begin{pmatrix} 1 & -3 \\ 0 & 1 \end{pmatrix}$|VB4AQ8TKVP]] is not symmetric, so the Hermitian condition fails. Its leading minors are $1$ and $1$, but the form is $-1$ at $x = (1, 1)$.
 - The matrix $-I_n$ is Hermitian, but $x^*(-I_n)x = -\norm{x}^2 < 0$ for $x \neq 0$.
 
 ### Basic properties
@@ -67,7 +67,7 @@ In least squares, the matrix $A^T A$ of the [[normal equations|4D7MRG4D91]] is p
 - A Hermitian matrix is positive definite if and only if all its leading principal minors are positive. This is [[Sylvester's criterion|0WKEF78PMV]].
 - A matrix is positive definite if and only if it equals $B^* B$ for some $B$ with independent columns, by [[the Gram matrix theorem|0AM050KCAW]].
 - A matrix is positive definite if and only if it has a [[Cholesky decomposition|0WKG8CYY6A]] $A = L L^*$ with $L$ lower triangular with positive diagonal.
-- A positive definite matrix has a unique positive definite [[square root|~21ece919]].
+- A positive definite matrix has a unique positive definite [[square root|EQ98KW1ZN4]].
 - A positive definite matrix is invertible, its determinant and its trace are positive, and its inverse is positive definite. The first three facts follow from the eigenvalue test.
 - The diagonal entries are positive, because $a_{ii} = e_i^* A e_i > 0$ for the standard basis vector $e_i$.
 - If $A \succ 0$ and $P$ is invertible, then $P^* A P \succ 0$, because $x^* P^* A P x = (Px)^* A (Px)$ and $Px \neq 0$ for $x \neq 0$.
@@ -81,8 +81,8 @@ The test by leading minors carries the name of Sylvester, by the Wikipedia artic
 
 ### Common errors
 
-- Students think that positive entries make a matrix positive definite. [[The matrix with entries $1, 2, 2, 1$|~e4e2045e]] shows that this is false.
-- Students apply Sylvester's test to a matrix that is not symmetric. [[The non-symmetric example|~23bc28ba]] has positive leading minors and a negative value of the form.
+- Students think that positive entries make a matrix positive definite. [[The matrix with entries $1, 2, 2, 1$|N9TX4J2W4R]] shows that this is false.
+- Students apply Sylvester's test to a matrix that is not symmetric. [[The non-symmetric example|VB4AQ8TKVP]] has positive leading minors and a negative value of the form.
 - Students check only $x^T A x > 0$ at the standard basis vectors. This only shows that the diagonal entries are positive.
 
 ## Explanations
@@ -116,5 +116,5 @@ The positive definite $n \times n$ matrices form an open convex cone in the real
 It is the interior of the closed cone of [[positive semidefinite matrices|01MMVW8CKC]].
 The group $GL_n(\C)$ acts on the cone by $A \mapsto P^* A P$, and the action has one orbit: every positive definite $A$ equals $L L^*$ by Cholesky.
 So the cone is the homogeneous space $GL_n(\C) / U(n)$, where $U(n)$ is the [[unitary group|0R9R0Y1HDK]].
-Positive definite matrices are the same as inner products on $\C^n$, and the [[simultaneous diagonalization with a positive definite matrix|~340f7467]] is the spectral theorem for a second inner product.
+Positive definite matrices are the same as inner products on $\C^n$, and the [[simultaneous diagonalization with a positive definite matrix|K559AQ9H67]] is the spectral theorem for a second inner product.
 In functional analysis the same notion gives positive operators, and in probability it gives covariance matrices of nondegenerate random vectors.

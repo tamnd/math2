@@ -28,7 +28,7 @@ inventory: [Z0BK2ZVY1Y]
 The Moore-Penrose inverse, or pseudoinverse, of an $m \times n$ complex matrix $A$ is the $n \times m$ matrix $A^+$ that satisfies the four Penrose conditions.
 These conditions are $A A^+ A = A$, $A^+ A A^+ = A^+$, and that $A A^+$ and $A^+ A$ are Hermitian.
 The [[formal definition|0PSRCMCM5X]] states them.
-Every matrix has exactly one pseudoinverse, also a rectangular or singular matrix, by [[the theorem on the pseudoinverse from the SVD|~724d9669]].
+Every matrix has exactly one pseudoinverse, also a rectangular or singular matrix, by [[the theorem on the pseudoinverse from the SVD|Q9YN0F60ZW]].
 For $b \in \C^m$, the vector $A^+ b$ is the least-squares solution of $Ax = b$ with the smallest norm.
 
 ## Motivation
@@ -52,14 +52,14 @@ The four Penrose conditions describe this matrix by equations, without a minimiz
 
 - If $A$ is square and invertible, then $A^+ = A^{-1}$, since $A^{-1}$ satisfies the four conditions.
 - The zero $m \times n$ matrix has the zero $n \times m$ matrix as pseudoinverse.
-- [[The rank-one $3 \times 2$ matrix with columns $(1, 2, 3)$ and $(2, 4, 6)$|~ea4778b5]] has $A^+ = \tfrac{1}{70} A^T$. All four conditions are checked there.
-- [[The $3 \times 2$ matrix with independent columns|~ea697397]] has $A^+ = (A^T A)^{-1} A^T$.
+- [[The rank-one $3 \times 2$ matrix with columns $(1, 2, 3)$ and $(2, 4, 6)$|PHVR0HP7M5]] has $A^+ = \tfrac{1}{70} A^T$. All four conditions are checked there.
+- [[The $3 \times 2$ matrix with independent columns|SYDSCH64X8]] has $A^+ = (A^T A)^{-1} A^T$.
 - For a diagonal matrix $D$, $D^+$ inverts the nonzero diagonal entries and keeps the zeros. For example, $\operatorname{diag}(2, 0)^+ = \operatorname{diag}(\tfrac12, 0)$.
 - If $A$ has independent rows, then $A^+ = A^* (A A^*)^{-1}$, by the [[minimum-norm solution theorem|QM2Y84VDX8]].
 
 ### Non-examples
 
-- [[For $A = \operatorname{diag}(1, 0)$, the identity matrix|~157686fd]] satisfies conditions 1, 3 and 4, but not $XAX = X$. So $I$ is a generalized inverse of $A$, but not its pseudoinverse.
+- [[For $A = \operatorname{diag}(1, 0)$, the identity matrix|2GME1M2784]] satisfies conditions 1, 3 and 4, but not $XAX = X$. So $I$ is a generalized inverse of $A$, but not its pseudoinverse.
 - In general $(AB)^+ \ne B^+ A^+$. For $A = (1\ 1)$ and $B = (1\ 0)^T$, $AB = (1)$ and $(AB)^+ = 1$, but $B^+ A^+ = (1\ 0) \cdot \tfrac12 (1\ 1)^T = \tfrac12$.
 
 ### Basic properties

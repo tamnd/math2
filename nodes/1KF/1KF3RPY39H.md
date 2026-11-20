@@ -42,5 +42,5 @@ For the converse, diagonalize $A$ and take the square roots of the nonnegative e
 
 ## Variants
 
-- For part 3 one can also take $B$ to be the [[positive semidefinite square root|~21ece919]] of $A$, since $B^* B = B^2 = A$.
+- For part 3 one can also take $B$ to be the [[positive semidefinite square root|EQ98KW1ZN4]] of $A$, since $B^* B = B^2 = A$.
 - For positive definite $A$, the [[Cholesky decomposition|0WKG8CYY6A]] gives a triangular $B$ without the spectral theorem.

@@ -47,21 +47,21 @@ They are the diagonal of the [[singular value decomposition|000NPTMX6J]].
 
 ### Examples
 
-- [[The matrix $\begin{pmatrix} 3 & 0 \\ 4 & 5 \end{pmatrix}$|~ab3b9c7a]] has the singular values $3\sqrt5$ and $\sqrt5$. Its eigenvalues are $3$ and $5$.
-- [[The $3 \times 2$ matrix $\begin{pmatrix} 1 & 1 \\ 1 & 0 \\ 0 & 1 \end{pmatrix}$|~461482fa]] has the singular values $\sqrt3$ and $1$.
+- [[The matrix $\begin{pmatrix} 3 & 0 \\ 4 & 5 \end{pmatrix}$|B546BDVFQZ]] has the singular values $3\sqrt5$ and $\sqrt5$. Its eigenvalues are $3$ and $5$.
+- [[The $3 \times 2$ matrix $\begin{pmatrix} 1 & 1 \\ 1 & 0 \\ 0 & 1 \end{pmatrix}$|GK1B93DKD3]] has the singular values $\sqrt3$ and $1$.
 - A diagonal matrix $\operatorname{diag}(d_1, \dots, d_n)$ has the singular values $\abs{d_1}, \dots, \abs{d_n}$, sorted in decreasing order.
 - A [[unitary matrix|0AR68JTMDT]] has all singular values $1$, since $U^* U = I$.
 - A rank-one matrix $u v^*$ with $u \in \C^m$, $v \in \C^n$ has one nonzero singular value, $\norm u \norm v$. Indeed $(uv^*)^* (uv^*) = \norm{u}^2 v v^*$, with the nonzero eigenvalue $\norm u^2 \norm v^2$.
 
 ### Non-examples
 
-- [[The eigenvalues of $\begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$|~8a41d219]] are $1, 1$, but its singular values are $\tfrac{\sqrt5 + 1}{2}$ and $\tfrac{\sqrt5 - 1}{2}$.
+- [[The eigenvalues of $\begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$|S3ZGYKVBRR]] are $1, 1$, but its singular values are $\tfrac{\sqrt5 + 1}{2}$ and $\tfrac{\sqrt5 - 1}{2}$.
 - The eigenvalues of $\operatorname{diag}(-2, 1)$ are $-2$ and $1$. Singular values are never negative; here they are $2$ and $1$.
 - The eigenvalues of $A^* A$ are not the singular values of $A$. They are the squares $\sigma_i^2$.
 
 ### Basic properties
 
-- The number of nonzero singular values is the rank of $A$, by [[the rank theorem for singular values|~f8b3ecc3]].
+- The number of nonzero singular values is the rank of $A$, by [[the rank theorem for singular values|6VXM1T8PG7]].
 - $\sigma_1(A) = \max_{\norm x = 1} \norm{Ax}$, the [[operator norm|06EKW1AKXF]] for the Euclidean norms. This is also in that theorem.
 - $\sigma_1^2 + \dots + \sigma_n^2 = \norm{A}_F^2$, the square of the [[Frobenius norm|JT8Q204E4R]].
 - $A$ and $A^*$ have the same nonzero singular values.
@@ -76,7 +76,7 @@ The same article says that the name singular value was first quoted by Smithies 
 
 ### Common errors
 
-- Students use the eigenvalues of $A$ as its singular values. [[The shear example|~8a41d219]] shows the difference.
+- Students use the eigenvalues of $A$ as its singular values. [[The shear example|S3ZGYKVBRR]] shows the difference.
 - Students forget the square root and use the eigenvalues of $A^* A$.
 - Students list the singular values in increasing order; the convention is decreasing.
 

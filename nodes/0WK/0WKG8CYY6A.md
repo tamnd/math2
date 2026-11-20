@@ -37,12 +37,12 @@ Some books write $A = R^* R$ with $R = L^*$ upper triangular; this is the same d
 
 ### Why each hypothesis is needed
 
-- Positive definiteness is needed for existence with a positive diagonal. If $A = L L^*$ with $L$ invertible, then $A$ is positive definite by part 2. So [[the all-ones matrix|~811342c5]], which is singular, has no such factor.
+- Positive definiteness is needed for existence with a positive diagonal. If $A = L L^*$ with $L$ invertible, then $A$ is positive definite by part 2. So [[the all-ones matrix|YAAQD2E1BZ]], which is singular, has no such factor.
 - The diagonal of $L$ must be positive for uniqueness. If $D$ is diagonal with entries $\pm 1$, then $(LD)(LD)^* = L L^*$.
 
 ### Consequences
 
-- [[A $3 \times 3$ example|~717552fe]] computes $L$ for $\begin{pmatrix} 4 & 2 & -2 \\ 2 & 10 & 2 \\ -2 & 2 & 6 \end{pmatrix}$ and multiplies it back.
+- [[A $3 \times 3$ example|M3YVJ6CFJ5]] computes $L$ for $\begin{pmatrix} 4 & 2 & -2 \\ 2 & 10 & 2 \\ -2 & 2 & 6 \end{pmatrix}$ and multiplies it back.
 - The decomposition is a symmetric form of the [[LU decomposition|0RKG5YW66Y]]. If $D$ is the diagonal of $L$, then $A = (L D^{-1}) (D L^*)$, with $L D^{-1}$ unit lower triangular and $D L^*$ upper triangular.
 - It is linked to [[Gram-Schmidt|0VT6P0GNQR]] and the [[QR decomposition|0ERWG4NXQ9]]. If $B = QR$ with $Q$ having orthonormal columns and $R$ upper triangular with positive diagonal, then $B^* B = R^* R$. So $R^*$ is the Cholesky factor of $B^* B$.
 - The test "Cholesky succeeds" is a practical test for positive definiteness. The algorithm stops at a nonpositive pivot exactly when $A$ is not positive definite.
@@ -80,7 +80,7 @@ For column $j$:
 2. $l_{ij} = \left(a_{ij} - \sum_{k < j} l_{ik} \overline{l_{jk}}\right) / l_{jj}$ for $i > j$.
 
 The number under the square root in item 1 is positive exactly when $A$ is positive definite.
-[[The $3 \times 3$ example|~717552fe]] follows these formulas.
+[[The $3 \times 3$ example|M3YVJ6CFJ5]] follows these formulas.
 A trap: the formulas need $A$ to be Hermitian, and they read only the lower half of $A$, so they give a wrong answer for a non-symmetric $A$.
 
 ### L3 human

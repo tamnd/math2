@@ -35,8 +35,8 @@ The same holds for a real [[symmetric matrix|0VR671PHE5]] with the real definiti
 
 ### Why each hypothesis is needed
 
-- The matrix must be Hermitian. [[The non-symmetric matrix $\begin{pmatrix} 1 & -3 \\ 0 & 1 \end{pmatrix}$|~23bc28ba]] has the eigenvalues $1, 1$, but $x^T M x = -1$ at $x = (1, 1)$.
-- The test needs every eigenvalue. [[The matrix $\begin{pmatrix} 1 & 2 \\ 2 & 1 \end{pmatrix}$|~e4e2045e]] has the positive eigenvalue $3$ and the negative eigenvalue $-1$.
+- The matrix must be Hermitian. [[The non-symmetric matrix $\begin{pmatrix} 1 & -3 \\ 0 & 1 \end{pmatrix}$|VB4AQ8TKVP]] has the eigenvalues $1, 1$, but $x^T M x = -1$ at $x = (1, 1)$.
+- The test needs every eigenvalue. [[The matrix $\begin{pmatrix} 1 & 2 \\ 2 & 1 \end{pmatrix}$|N9TX4J2W4R]] has the positive eigenvalue $3$ and the negative eigenvalue $-1$.
 
 ### Consequences
 

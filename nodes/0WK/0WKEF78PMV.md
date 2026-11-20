@@ -38,14 +38,14 @@ For a real $\begin{pmatrix} a & b \\ b & c \end{pmatrix}$, part 1 is the test $a
 
 ### Why each hypothesis is needed
 
-- $A$ must be Hermitian. [[The matrix $\begin{pmatrix} 1 & -3 \\ 0 & 1 \end{pmatrix}$|~23bc28ba]] has $\Delta_1 = \Delta_2 = 1$, but $x^T M x = -1$ at $x = (1, 1)$.
-- In part 2, the leading minors are not enough. [[The matrix $\begin{pmatrix} 0 & 0 \\ 0 & -1 \end{pmatrix}$|~ce5f5d94]] has $\Delta_1 = \Delta_2 = 0 \ge 0$, but it is not positive semidefinite. Its principal minor $a_{22} = -1$ is negative.
-- In part 1, the strict inequalities are needed. The [[all-ones matrix|~811342c5]] has $\Delta_1 = 1$ and $\Delta_2 = 0$, and it is not positive definite.
+- $A$ must be Hermitian. [[The matrix $\begin{pmatrix} 1 & -3 \\ 0 & 1 \end{pmatrix}$|VB4AQ8TKVP]] has $\Delta_1 = \Delta_2 = 1$, but $x^T M x = -1$ at $x = (1, 1)$.
+- In part 2, the leading minors are not enough. [[The matrix $\begin{pmatrix} 0 & 0 \\ 0 & -1 \end{pmatrix}$|9ZQ1GV2F0G]] has $\Delta_1 = \Delta_2 = 0 \ge 0$, but it is not positive semidefinite. Its principal minor $a_{22} = -1$ is negative.
+- In part 1, the strict inequalities are needed. The [[all-ones matrix|YAAQD2E1BZ]] has $\Delta_1 = 1$ and $\Delta_2 = 0$, and it is not positive definite.
 
 ### Consequences
 
 - A positive definite matrix has positive diagonal entries and a positive determinant.
-- [[The tridiagonal $3 \times 3$ example|~0bee96cf]] is positive definite, since its leading minors are $2, 3, 4$.
+- [[The tridiagonal $3 \times 3$ example|RSQW92W4PD]] is positive definite, since its leading minors are $2, 3, 4$.
 - $A$ is negative definite if and only if $-A$ is positive definite, that is, if and only if $(-1)^k \Delta_k > 0$ for all $k$.
 - In the proof, $\Delta_k / \Delta_{k-1}$ is the $k$-th pivot of Gaussian elimination without row exchanges. So a positive definite matrix has positive pivots, which links the test to the [[Cholesky decomposition|0WKG8CYY6A]].
 
@@ -81,7 +81,7 @@ Recipe for positive definiteness:
 2. Compute $\Delta_1 = a_{11}$, then $\Delta_2$, and so on.
 3. Stop at the first $\Delta_k \le 0$: then $A$ is not positive definite.
 
-[[The tridiagonal example|~0bee96cf]] runs this recipe on a $3 \times 3$ matrix.
+[[The tridiagonal example|RSQW92W4PD]] runs this recipe on a $3 \times 3$ matrix.
 A trap: the recipe for positive definiteness uses strict inequalities, and replacing them by "$\ge 0$" does not give a test for semidefiniteness.
 
 ### L3 human

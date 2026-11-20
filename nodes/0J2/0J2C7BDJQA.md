@@ -7,7 +7,7 @@ msc: [15A23]
 topics: [SS4EVPKT3A]
 audience: ug2
 about: [0AR68JTMDT, 01MMVW8CKC]
-uses: [0D6RMJ10M9, 0880F9EQCP, ~21ece919, 0EX045E2BP]
+uses: [0D6RMJ10M9, 0880F9EQCP, EQ98KW1ZN4, 0EX045E2BP]
 proofs: [M76S68K6YD]
 sources:
   - url: https://en.wikipedia.org/wiki/Polar_decomposition
@@ -29,7 +29,7 @@ Let $A$ be an $n \times n$ complex matrix.
 
 1. There are a [[unitary matrix|0AR68JTMDT]] $U$ and a [[positive semidefinite|01MMVW8CKC]] matrix $P$ with
 $$A = UP.$$
-2. The factor $P$ is unique: $P = (A^* A)^{1/2}$, the [[positive semidefinite square root|~21ece919]] of $A^* A$.
+2. The factor $P$ is unique: $P = (A^* A)^{1/2}$, the [[positive semidefinite square root|EQ98KW1ZN4]] of $A^* A$.
 3. If $A$ is invertible, then $P$ is positive definite, and $U = A P^{-1}$ is unique.
 4. If $A$ is real, then $U$ can be chosen real orthogonal, and $P$ is real.
 5. With the same $U$, $A = P' U$ with $P' = U P U^* = (A A^*)^{1/2}$. This is the *left polar decomposition*.
@@ -44,7 +44,7 @@ $$A = UP.$$
 
 ### Consequences
 
-- [[The $2 \times 2$ example|~532a4bf7]] writes $\begin{pmatrix} -1 & -2 \\ 2 & 1 \end{pmatrix}$ as a rotation by $90^\circ$ times $\begin{pmatrix} 2 & 1 \\ 1 & 2 \end{pmatrix}$.
+- [[The $2 \times 2$ example|3PBTVVRPD1]] writes $\begin{pmatrix} -1 & -2 \\ 2 & 1 \end{pmatrix}$ as a rotation by $90^\circ$ times $\begin{pmatrix} 2 & 1 \\ 1 & 2 \end{pmatrix}$.
 - For real invertible matrices, $(U, P) \mapsto UP$ is a bijection from $O(n) \times \set{\text{positive definite } P}$ onto $GL_n(\R)$. The [[orthogonal group|0TKYAEJ8N7]] is the first factor.
 - $\abs{\det A} = \det P$, since $\abs{\det U} = 1$.
 - The eigenvalues of $P$ are the [[singular values|09VMDSRXWJ]] of $A$.
@@ -82,7 +82,7 @@ Recipe for an invertible $A$:
 2. Compute its square root $P = (A^* A)^{1/2}$, by diagonalizing $A^* A$.
 3. Compute $U = A P^{-1}$.
 
-[[The $2 \times 2$ example|~532a4bf7]] follows this recipe.
+[[The $2 \times 2$ example|3PBTVVRPD1]] follows this recipe.
 A trap: $P$ comes from $A^* A$ and not from $A A^*$.
 The matrix $(A A^*)^{1/2}$ is the factor of the left decomposition $A = P' U$.
 

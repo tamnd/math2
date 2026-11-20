@@ -22,14 +22,14 @@ It also covers singular values, the singular value decomposition, the pseudoinve
 4. [[Gram matrices are positive semidefinite|0AM050KCAW]].
 5. [[Sylvester's criterion|0WKEF78PMV]].
 6. [[Cholesky decomposition|0WKG8CYY6A]].
-7. [[Square root of a positive semidefinite matrix|~21ece919]].
+7. [[Square root of a positive semidefinite matrix|EQ98KW1ZN4]].
 8. [[Polar decomposition|0J2C7BDJQA]].
-9. [[Singular value|09VMDSRXWJ]], its [[definition|0K2TX12X58]], and [[singular values, rank and the operator norm|~f8b3ecc3]].
+9. [[Singular value|09VMDSRXWJ]], its [[definition|0K2TX12X58]], and [[singular values, rank and the operator norm|6VXM1T8PG7]].
 10. [[Singular value decomposition|000NPTMX6J]].
-11. [[The unit circle goes to an ellipse|~16170aab]].
-12. [[Moore-Penrose inverse|0YY8VX28JR]], its [[definition|0PSRCMCM5X]], and [[the pseudoinverse from the SVD|~724d9669]].
+11. [[The unit circle goes to an ellipse|JAEKA59DNZ]].
+12. [[Moore-Penrose inverse|0YY8VX28JR]], its [[definition|0PSRCMCM5X]], and [[the pseudoinverse from the SVD|Q9YN0F60ZW]].
 13. [[Eckart-Young-Mirsky theorem|JJT6GC055J]].
-14. [[Simultaneous diagonalization with a positive definite matrix|~340f7467]].
+14. [[Simultaneous diagonalization with a positive definite matrix|K559AQ9H67]].
 
 ### Prerequisites
 
