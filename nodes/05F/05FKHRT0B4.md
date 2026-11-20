@@ -36,7 +36,7 @@ The [[proof|EMX1YRTN0N]] expands the squared norms.
 
 ### Why each hypothesis is needed
 
-- The norm must be induced by an inner product. For the [[maximum norm on $\mathbb{R}^2$|~4a30dace]], the formula of part 1 gives a function that is not bilinear, by the [[Jordan-von Neumann theorem|46WGVM5VS6]].
+- The norm must be induced by an inner product. For the [[maximum norm on $\mathbb{R}^2$|J5V8HEYXCM]], the formula of part 1 gives a function that is not bilinear, by the [[Jordan-von Neumann theorem|46WGVM5VS6]].
 - Over $\mathbb{C}$, the real formula is not enough. It gives only $\operatorname{Re}\ip{x}{y}$: for $x = 1$ and $y = i$ in $\mathbb{C}$, it gives $\frac14(2 - 2) = 0$, but $\ip{1}{i} = \overline{i} = -i$.
 - In part 3, $T$ must be linear. The map $f(x) = \norm{x}\,e_1$ on $\mathbb{R}^2$ keeps norms, but $f(e_1) = f(e_2) = e_1$, so $\ip{f(e_1)}{f(e_2)} = 1 \neq 0 = \ip{e_1}{e_2}$.
 - In part 3, the conjugate-linear [[conjugation on $\mathbb{C}^n$|MMSPCWKJQY]] keeps norms, but $\ip{\overline{x}}{\overline{y}} = \overline{\ip{x}{y}}$, which differs from $\ip{x}{y}$ when the inner product is not real.

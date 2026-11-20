@@ -7,7 +7,7 @@ topics: [1D4JTZ9VS3]
 audience: ug1
 proves: 047RFCNVSK
 methods: [0NTF6DMVAP]
-uses: [0VGSYBWHV2, 0KG4D8AP6G, 0FWJ0VW561, 09DZ8CD1AK, 0BJV24C4SY, ~a4d9ba49]
+uses: [0VGSYBWHV2, 0KG4D8AP6G, 0FWJ0VW561, 09DZ8CD1AK, 0BJV24C4SY, TFZ8DYVJ1J]
 sources:
   - url: https://linear.axler.net/LADR4e.pdf
     locator: Theorem 6.30
@@ -27,7 +27,7 @@ Let $(e_1, \dots, e_n)$ be an [[orthonormal basis|0FWJ0VW561]] of $V$.
 7. For each $z \in \mathbb{C}$, $z\overline{z} = |z|^2$, by the [[complex conjugate|0BJV24C4SY]]. So $\norm{x}^2 = \sum_{i} |\ip{x}{e_i}|^2$.
 8. Part 3, linearity. Each map $x \mapsto \ip{x}{e_i}$ is linear, by linearity in the first argument. So $C$ is linear.
 9. Part 3, bijectivity. The coordinates of a vector in a basis exist and are unique. By step 3 they are the entries of $C(x)$, so $C$ is the coordinate map, which is bijective.
-10. Part 3, inner products. The [[standard inner product|~a4d9ba49]] of $C(x)$ and $C(y)$ is $\sum_i a_i \overline{b_i}$. By step 5 it equals $\ip{x}{y}$.
+10. Part 3, inner products. The [[standard inner product|TFZ8DYVJ1J]] of $C(x)$ and $C(y)$ is $\sum_i a_i \overline{b_i}$. By step 5 it equals $\ip{x}{y}$.
 
 ## Idea
 

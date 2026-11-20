@@ -1,0 +1,61 @@
+---
+tag: JPDVZM20EX
+kind: example
+name: Legendre polynomials from the Gram-Schmidt process
+msc: ["15A63", "33C45", "42C05"]
+topics: [1D4JTZ9VS3]
+audience: ug1
+instance_of: [0VT6P0GNQR, 0RW9TNNT87]
+uses: [A1Y41YZFB6, 4JVVDAQ9XX, 0VGSYBWHV2]
+sources:
+  - url: https://en.wikipedia.org/wiki/Legendre_polynomials
+    locator: Definition by construction as an orthogonal system
+  - url: https://en.wikipedia.org/wiki/Legendre_polynomials
+    locator: Orthogonality and normalization
+  - url: https://en.wikipedia.org/wiki/Gram–Schmidt_process
+    locator: Description
+---
+
+## Example
+
+On $\mathcal{P}_3(\mathbb{R})$, the real polynomials of degree at most $3$, use the [[inner product|0VGSYBWHV2]] $\ip{p}{q} = \int_{-1}^{1} p(x) q(x)\, dx$.
+Apply the [[Gram-Schmidt process|A1Y41YZFB6]] to $1, x, x^2, x^3$.
+We use $\int_{-1}^1 x^m\, dx = \frac{2}{m + 1}$ for even $m$ and $0$ for odd $m$.
+
+1. $u_0 = 1$, with $\ip{u_0}{u_0} = 2$.
+2. $\ip{x}{1} = 0$, so $u_1 = x$, with $\ip{u_1}{u_1} = \frac23$.
+3. $\ip{x^2}{1} = \frac23$ and $\ip{x^2}{x} = 0$. So $u_2 = x^2 - \frac{2/3}{2} = x^2 - \frac13$.
+4. $\ip{u_2}{u_2} = \int_{-1}^1 (x^4 - \frac23 x^2 + \frac19)\, dx = \frac25 - \frac49 + \frac29 = \frac{8}{45}$.
+5. $\ip{x^3}{1} = 0$, $\ip{x^3}{x} = \frac25$ and $\ip{x^3}{u_2} = 0$, since $x^3 u_2$ is odd. So $u_3 = x^3 - \frac{2/5}{2/3} x = x^3 - \frac35 x$.
+6. $\ip{u_3}{u_3} = \int_{-1}^1 (x^6 - \frac65 x^4 + \frac{9}{25} x^2)\, dx = \frac27 - \frac{12}{25} + \frac{6}{25} = \frac{8}{175}$.
+7. The [[Legendre polynomials|4JVVDAQ9XX]] are normalized by $P_n(1) = 1$: $P_0 = 1$, $P_1 = x$, $P_2 = \frac32 u_2 = \frac12(3x^2 - 1)$ and $P_3 = \frac52 u_3 = \frac12(5x^3 - 3x)$.
+8. Their squared norms are $2$, $\frac23$, $\frac94 \cdot \frac{8}{45} = \frac25$ and $\frac{25}{4} \cdot \frac{8}{175} = \frac27$. So $\norm{P_n}^2 = \frac{2}{2n + 1}$ for $n \leq 3$.
+9. The orthonormal output is $e_n = \sqrt{\frac{2n + 1}{2}}\, P_n$: $e_0 = \frac{1}{\sqrt2}$, $e_1 = \sqrt{\frac32}\, x$, $e_2 = \sqrt{\frac52} \cdot \frac12(3x^2 - 1)$ and $e_3 = \sqrt{\frac72} \cdot \frac12(5x^3 - 3x)$.
+
+## Remarks
+
+There are three normalizations: the monic $u_n$, the Legendre $P_n$ with $P_n(1) = 1$, and the orthonormal $e_n$.
+All three are orthogonal, and only the $e_n$ have norm $1$.
+The process keeps the parity: $u_n$ is even for even $n$ and odd for odd $n$, because odd and even polynomials are orthogonal on $[-1, 1]$.
+On $[0, 1]$ instead of $[-1, 1]$ the same process gives the shifted Legendre polynomials, for example $u_1 = x - \frac12$.
+With the weight $\frac{1}{\sqrt{1 - x^2}}$ in the integral, the process gives the Chebyshev polynomials instead.
+
+## Explanations
+
+### L1 human
+
+Polynomials can be perpendicular, if we measure them with an integral.
+Starting from $1, x, x^2, x^3$, the Gram-Schmidt process gives polynomials whose products integrate to $0$ on $[-1, 1]$.
+These are the Legendre polynomials, up to a scale factor.
+
+### L2 human
+
+Worked example: the best approximation of $x^3$ by polynomials of degree at most $1$ on $[-1, 1]$.
+
+1. Use the orthonormal $e_0 = \frac{1}{\sqrt2}$ and $e_1 = \sqrt{\frac32}\, x$.
+2. $\ip{x^3}{e_0} = 0$ and $\ip{x^3}{e_1} = \sqrt{\frac32} \cdot \frac25$.
+3. So the projection is $\ip{x^3}{e_1} e_1 = \frac32 \cdot \frac25 x = \frac35 x$.
+4. The error is $x^3 - \frac35 x = u_3$, with squared norm $\frac{8}{175}$, by step 6.
+
+The typical use is mean-square approximation of functions by polynomials.
+A trap: the Legendre polynomials $P_n$ are orthogonal but not orthonormal, since $\norm{P_n}^2 = \frac{2}{2n + 1}$.

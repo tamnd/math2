@@ -39,7 +39,7 @@ Conversely, by the [[Jordan-von Neumann theorem|46WGVM5VS6]], a norm that satisf
 ### Why each hypothesis is needed
 
 The only hypothesis is that the norm comes from an inner product, and it cannot be dropped.
-For the [[maximum norm on $\mathbb{R}^2$|~4a30dace]], $x = (1, 0)$ and $y = (0, 1)$ give $1 + 1 = 2$ on the left and $2 + 2 = 4$ on the right.
+For the [[maximum norm on $\mathbb{R}^2$|J5V8HEYXCM]], $x = (1, 0)$ and $y = (0, 1)$ give $1 + 1 = 2$ on the left and $2 + 2 = 4$ on the right.
 For the [[taxicab norm|WW2RB40VYX]] $|x_1| + |x_2|$ and the same vectors, the left side is $4 + 4 = 8$ and the right side is $4$.
 
 ### Consequences

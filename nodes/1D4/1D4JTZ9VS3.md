@@ -22,7 +22,7 @@ Physics books and Mathlib use the second slot.
 2. [[Inner product space|0QVNCJXRY3]]: a vector space with a chosen inner product, and the main examples.
 3. [[Norm induced by an inner product|0MFJJV97RJ]]: the length $\sqrt{\ip{x}{x}}$ and the distance it defines.
 4. [[Cauchy-Schwarz inequality|0RFWW56Y22]]: $|\ip{x}{y}| \leq \norm{x}\norm{y}$, with equality exactly for dependent vectors.
-5. [[Triangle inequality for the induced norm|~0cdd82af]]: the induced norm is a norm.
+5. [[Triangle inequality for the induced norm|SRN4T2G6AM]]: the induced norm is a norm.
 6. [[Parallelogram law|026HPGYGS4]]: the identity that singles out the norms that come from inner products.
 7. [[Polarization identity|05FKHRT0B4]]: the norm determines the inner product.
 8. [[Orthogonal vectors|0Y2X7P2WB7]]: $\ip{x}{y} = 0$, and the trap of the symmetric condition over $\mathbb{C}$.

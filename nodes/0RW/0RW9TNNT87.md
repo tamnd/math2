@@ -49,14 +49,14 @@ The property that makes them work is exactly $\ip{e_i}{e_j} = \delta_{ij}$, so w
 
 - The standard basis $e_1, \dots, e_n$ of $\mathbb{R}^n$ or $\mathbb{C}^n$ is orthonormal for the standard inner product, because $e_i \cdot e_j = \delta_{ij}$.
 - In $\mathbb{R}^2$, $(\frac35, \frac45)$ and $(-\frac45, \frac35)$ are orthonormal: the norms are $\frac{9 + 16}{25} = 1$, and the dot product is $-\frac{12}{25} + \frac{12}{25} = 0$.
-- In $\mathbb{C}^2$, $\frac{1}{\sqrt2}(1, i)$ and $\frac{1}{\sqrt2}(1, -i)$ are orthonormal. The [[orthonormal basis of $\mathbb{C}^2$|~22363b43]] checks this.
-- For the [[trace inner product|~381c6461]] on $M_2(\mathbb{C})$, the four [[matrix units|A4HTT7JFD1]] $E_{jk}$ are orthonormal, because $\tr(E_{lm}^* E_{jk})$ is $1$ for $(j, k) = (l, m)$ and $0$ otherwise.
-- On polynomials with $\ip{p}{q} = \int_{-1}^{1} p q$, the family $\frac{1}{\sqrt2}$, $\sqrt{\frac32}\,x$ is orthonormal: $\int_{-1}^1 \frac12 = 1$, $\int_{-1}^1 \frac32 x^2 = 1$ and $\int_{-1}^1 x = 0$. The [[Legendre polynomials|~8c407ecd]] continue it.
+- In $\mathbb{C}^2$, $\frac{1}{\sqrt2}(1, i)$ and $\frac{1}{\sqrt2}(1, -i)$ are orthonormal. The [[orthonormal basis of $\mathbb{C}^2$|V2B3V8T8TX]] checks this.
+- For the [[trace inner product|JVH9RZ7QAB]] on $M_2(\mathbb{C})$, the four [[matrix units|A4HTT7JFD1]] $E_{jk}$ are orthonormal, because $\tr(E_{lm}^* E_{jk})$ is $1$ for $(j, k) = (l, m)$ and $0$ otherwise.
+- On polynomials with $\ip{p}{q} = \int_{-1}^{1} p q$, the family $\frac{1}{\sqrt2}$, $\sqrt{\frac32}\,x$ is orthonormal: $\int_{-1}^1 \frac12 = 1$, $\int_{-1}^1 \frac32 x^2 = 1$ and $\int_{-1}^1 x = 0$. The [[Legendre polynomials|JPDVZM20EX]] continue it.
 - The empty family is orthonormal, since there is nothing to check.
 
 ### Non-examples
 
-- The vectors $(1, 1)$ and $(1, -1)$ of $\mathbb{R}^2$ are orthogonal, but their norm is $\sqrt2$, so the [[family is not orthonormal|~f4d12cdc]]. Dividing each by $\sqrt2$ repairs it.
+- The vectors $(1, 1)$ and $(1, -1)$ of $\mathbb{R}^2$ are orthogonal, but their norm is $\sqrt2$, so the [[family is not orthonormal|72YCTDMG60]]. Dividing each by $\sqrt2$ repairs it.
 - The unit vectors $(1, 0)$ and $\frac{1}{\sqrt2}(1, 1)$ of $\mathbb{R}^2$ are not orthonormal, because their dot product is $\frac{1}{\sqrt2} \neq 0$.
 - The family $(1, 0)$, $(0, 1)$, $(1, 0)$ in $\mathbb{R}^2$ repeats a vector. The first and third vectors have inner product $1$, so the family is not orthonormal.
 - Orthonormality depends on the inner product. For $\ip{x}{y} = 2x_1 y_1 + x_2 y_2$ on $\mathbb{R}^2$, the standard basis is not orthonormal, since $\ip{e_1}{e_1} = 2$.
@@ -66,7 +66,7 @@ The property that makes them work is exactly $\ip{e_i}{e_j} = \delta_{ij}$, so w
 - An orthonormal family is [[linearly independent|0JWM6GJNQW]]. So in a space of dimension $n$ it has at most $n$ vectors.
 - If $v = \sum_j a_j e_j$ is a finite combination, then $a_j = \ip{v}{e_j}$ and $\norm{v}^2 = \sum_j |a_j|^2$, by the [[Pythagorean theorem|0BVTDM872V]].
 - An orthonormal family of $n$ vectors in a space of dimension $n$ is an [[orthonormal basis|0S9GGTR0EX]].
-- The columns $q_1, \dots, q_k$ of an $n \times k$ matrix $Q$ are orthonormal in $\mathbb{K}^n$ if and only if $Q^* Q = I_k$, by the [[criterion for orthonormal columns|~f79cc316]].
+- The columns $q_1, \dots, q_k$ of an $n \times k$ matrix $Q$ are orthonormal in $\mathbb{K}^n$ if and only if $Q^* Q = I_k$, by the [[criterion for orthonormal columns|83QE4F4E4V]].
 - For each $v \in V$, [[Bessel's inequality|0RBT5PB74K]] gives $\sum_j |\ip{v}{e_j}|^2 \leq \norm{v}^2$.
 - The [[Gram-Schmidt process|0VT6P0GNQR]] turns each finite independent family into an orthonormal family with the same initial spans.
 

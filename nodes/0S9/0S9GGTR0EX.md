@@ -48,15 +48,15 @@ With it, an abstract inner product space of dimension $n$ behaves exactly like $
 ### Examples
 
 - The standard basis of $\mathbb{R}^n$ or $\mathbb{C}^n$ is orthonormal for the standard inner product.
-- For each angle $\theta$, the vectors $(\cos\theta, \sin\theta)$ and $(-\sin\theta, \cos\theta)$ form an orthonormal basis of $\mathbb{R}^2$. The [[rotated basis for $\theta = \pi/6$|~90e8f47b]] computes coordinates in it.
-- The vectors $\frac{1}{\sqrt2}(1, i)$ and $\frac{1}{\sqrt2}(1, -i)$ form an [[orthonormal basis of $\mathbb{C}^2$|~22363b43]].
-- The four [[matrix units|A4HTT7JFD1]] form an orthonormal basis of $M_2(\mathbb{C})$ for the [[trace inner product|~381c6461]].
-- The normalized [[Legendre polynomials|~8c407ecd]] $e_0, e_1, e_2$ form an orthonormal basis of $\mathcal{P}_2(\mathbb{R})$ for $\int_{-1}^1 pq$.
-- The columns of each [[orthogonal matrix|0W02QESPJQ]] of size $n$ form an orthonormal basis of $\mathbb{R}^n$, by the [[criterion for orthonormal columns|~f79cc316]].
+- For each angle $\theta$, the vectors $(\cos\theta, \sin\theta)$ and $(-\sin\theta, \cos\theta)$ form an orthonormal basis of $\mathbb{R}^2$. The [[rotated basis for $\theta = \pi/6$|73MQS3Y26E]] computes coordinates in it.
+- The vectors $\frac{1}{\sqrt2}(1, i)$ and $\frac{1}{\sqrt2}(1, -i)$ form an [[orthonormal basis of $\mathbb{C}^2$|V2B3V8T8TX]].
+- The four [[matrix units|A4HTT7JFD1]] form an orthonormal basis of $M_2(\mathbb{C})$ for the [[trace inner product|JVH9RZ7QAB]].
+- The normalized [[Legendre polynomials|JPDVZM20EX]] $e_0, e_1, e_2$ form an orthonormal basis of $\mathcal{P}_2(\mathbb{R})$ for $\int_{-1}^1 pq$.
+- The columns of each [[orthogonal matrix|0W02QESPJQ]] of size $n$ form an orthonormal basis of $\mathbb{R}^n$, by the [[criterion for orthonormal columns|83QE4F4E4V]].
 
 ### Non-examples
 
-- The basis $(1, 1)$, $(1, -1)$ of $\mathbb{R}^2$ is orthogonal, but [[not orthonormal|~f4d12cdc]], since both vectors have norm $\sqrt2$.
+- The basis $(1, 1)$, $(1, -1)$ of $\mathbb{R}^2$ is orthogonal, but [[not orthonormal|72YCTDMG60]], since both vectors have norm $\sqrt2$.
 - The single vector $e_1$ in $\mathbb{R}^2$ is an orthonormal family, but it does not span $\mathbb{R}^2$. So it is not a basis.
 - The standard basis of $\mathbb{R}^2$ is not orthonormal for $\ip{x}{y} = 2x_1 y_1 + x_2 y_2$, since $\ip{e_1}{e_1} = 2$.
 

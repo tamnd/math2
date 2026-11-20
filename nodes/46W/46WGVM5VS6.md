@@ -34,13 +34,13 @@ $$\ip{x}{y} = \frac14\left(\norm{x + y}^2 - \norm{x - y}^2\right),$$
 and for $\mathbb{K} = \mathbb{C}$, with $\ip{\cdot}{\cdot}$ linear in the first argument, it is
 $$\ip{x}{y} = \frac14 \sum_{k=0}^{3} i^k \norm{x + i^k y}^2.$$
 
-The [[proof|~3d2820ec]] gives all details of the real case and derives the complex case from it.
+The [[proof|A67QNADARQ]] gives all details of the real case and derives the complex case from it.
 
 ## Remarks
 
 ### Why each hypothesis is needed
 
-- The parallelogram law must hold for all pairs. The [[maximum norm on $\mathbb{R}^2$|~4a30dace]] satisfies it for $x = (1, 0)$ and $y = (2, 0)$, but it fails for $x = (1, 0)$ and $y = (0, 1)$, and no inner product induces this norm.
+- The parallelogram law must hold for all pairs. The [[maximum norm on $\mathbb{R}^2$|J5V8HEYXCM]] satisfies it for $x = (1, 0)$ and $y = (2, 0)$, but it fails for $x = (1, 0)$ and $y = (0, 1)$, and no inner product induces this norm.
 - The triangle inequality of the norm is used in the proof, to show that $t \mapsto \norm{tx + y}$ is continuous. Without some regularity, additivity alone does not give homogeneity over $\mathbb{R}$, since there are additive functions $\mathbb{R} \to \mathbb{R}$ that are not linear.
 
 ### Consequences

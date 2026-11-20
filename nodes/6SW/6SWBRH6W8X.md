@@ -1,0 +1,52 @@
+---
+tag: 6SWBRH6W8X
+kind: example
+name: The Gram-Schmidt process fails on a dependent family
+msc: ["15A63", "65F25"]
+topics: [1D4JTZ9VS3]
+audience: ug1
+not_instance_of:
+  - target: 0VT6P0GNQR
+    note: the family (1, 2), (2, 4) is linearly dependent, the process gives u_2 = 0, and u_2 cannot be normalized
+uses: [A1Y41YZFB6, 0EVHJFTG9Z]
+sources:
+  - url: https://en.wikipedia.org/wiki/Gram–Schmidt_process
+    locator: Properties
+---
+
+## Example
+
+In $\mathbb{R}^2$ with the dot product, let $v_1 = (1, 2)$ and $v_2 = (2, 4)$.
+
+1. The family is [[linearly dependent|0EVHJFTG9Z]], since $2v_1 - v_2 = 0$. So the hypothesis of the [[Gram-Schmidt process|A1Y41YZFB6]] fails.
+2. If we run the recursion anyway, $u_1 = (1, 2)$ and $u_1 \cdot u_1 = 5$.
+3. $v_2 \cdot u_1 = 2 + 8 = 10$, so $u_2 = (2, 4) - \frac{10}{5}(1, 2) = (0, 0)$.
+4. The normalization $e_2 = u_2 / \norm{u_2}$ divides by $0$. So the process does not give an orthonormal family of two vectors.
+
+## Remarks
+
+The example shows why the process needs independence: $u_j = 0$ exactly when $v_j$ lies in the span of $v_1, \dots, v_{j-1}$.
+So the process is also a test for independence: run it, and look for a zero vector.
+If we skip the zero vector, the output $e_1 = \frac{1}{\sqrt5}(1, 2)$ is an orthonormal basis of the span, which is a line.
+If we change $v_2$ to $(2, 4 + t)$ with $t \neq 0$, the family is independent, and $u_2 = (0, t) - \frac{2t}{5}(1, 2) = \frac{t}{5}(-2, 1)$, which is nonzero.
+On a computer, a nearly dependent family gives a very small $u_j$, and dividing by its norm magnifies rounding errors.
+
+## Explanations
+
+### L1 human
+
+The two vectors $(1, 2)$ and $(2, 4)$ point along the same line.
+When we remove from the second one its part along the first one, nothing is left.
+A zero vector has no direction, so we cannot scale it to length $1$.
+
+### L2 human
+
+To find an orthonormal basis of a span of possibly dependent vectors, run the process and drop the zero vectors.
+
+1. Let $v_1 = (1, 0, 1)$, $v_2 = (2, 0, 2)$ and $v_3 = (0, 1, 0)$ in $\mathbb{R}^3$.
+2. $u_1 = v_1$, and $u_2 = v_2 - \frac{4}{2}v_1 = 0$. Drop it.
+3. $u_3 = v_3 - \frac{0}{2}v_1 = (0, 1, 0)$.
+4. So $\frac{1}{\sqrt2}(1, 0, 1)$ and $(0, 1, 0)$ form an orthonormal basis of the span.
+
+The typical use is to compute the rank and an orthonormal basis of a column space at once.
+A trap: in floating point, test "$u_j$ is small" against a tolerance, not "$u_j = 0$".

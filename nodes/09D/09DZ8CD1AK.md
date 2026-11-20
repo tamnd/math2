@@ -27,9 +27,9 @@ Then, for each $v \in V$:
 
 ### Why each hypothesis is needed
 
-- The basis must be normalized. For the orthogonal basis $(1, 1)$, $(1, -1)$ of $\mathbb{R}^2$ and $v = (3, 1)$, the formula gives $2v$, as the [[non-example|~f4d12cdc]] shows.
+- The basis must be normalized. For the orthogonal basis $(1, 1)$, $(1, -1)$ of $\mathbb{R}^2$ and $v = (3, 1)$, the formula gives $2v$, as the [[non-example|72YCTDMG60]] shows.
 - The family must span $V$. For the orthonormal family $(e_1)$ in $\mathbb{R}^2$ and $v = (1, 1)$, the sum is $\ip{v}{e_1} e_1 = (1, 0) \neq v$, and $1 < 2 = \norm{v}^2$.
-- The slots matter over $\mathbb{C}$. With $\ip{e_i}{v}$ in place of $\ip{v}{e_i}$, the [[basis of $\mathbb{C}^2$|~22363b43]] gives $-v$ for $v = (0, 1)$.
+- The slots matter over $\mathbb{C}$. With $\ip{e_i}{v}$ in place of $\ip{v}{e_i}$, the [[basis of $\mathbb{C}^2$|V2B3V8T8TX]] gives $-v$ for $v = (0, 1)$.
 
 ### Consequences
 

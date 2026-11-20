@@ -25,7 +25,7 @@ same_as:
 Let $V$ be an inner product space over $\mathbb{R}$ or $\mathbb{C}$, and let $v_1, \dots, v_k \in V$ be [[linearly independent|0EVHJFTG9Z]].
 The Gram-Schmidt process sets $u_1 = v_1$ and $u_j = v_j - \sum_{i < j} \frac{\ip{v_j}{u_i}}{\ip{u_i}{u_i}} u_i$, and then $e_j = u_j / \norm{u_j}$.
 The result $(e_1, \dots, e_k)$ is an [[orthonormal family|09VYHEF2VT]] with $\operatorname{span}(e_1, \dots, e_j) = \operatorname{span}(v_1, \dots, v_j)$ for each $j$, where span is the [[linear span|0HR573CHNM]].
-The [[formal definition|~53ebde52]] states the recursion, and the [[Gram-Schmidt theorem|0WXBGBTA3D]] proves these properties.
+The [[formal definition|A1Y41YZFB6]] states the recursion, and the [[Gram-Schmidt theorem|0WXBGBTA3D]] proves these properties.
 The process matters because it turns any basis into an orthonormal basis, and so it proves that orthonormal bases exist.
 
 ## Motivation
@@ -46,13 +46,13 @@ The process does this in a fixed order, and it keeps the spans of the first $j$ 
 ### Examples
 
 - In $\mathbb{R}^2$, $v_1 = (1, 1)$ and $v_2 = (1, 0)$ give $u_2 = (\frac12, -\frac12)$, so $e_1 = \frac{1}{\sqrt2}(1, 1)$ and $e_2 = \frac{1}{\sqrt2}(1, -1)$.
-- In $\mathbb{R}^3$, the [[process on $(1, 1, 0)$, $(1, 0, 1)$, $(0, 1, 1)$|~c17e7a83]] gives $\frac{1}{\sqrt2}(1, 1, 0)$, $\frac{1}{\sqrt6}(1, -1, 2)$ and $\frac{1}{\sqrt3}(-1, 1, 1)$.
-- On polynomials with $\int_{-1}^1 pq$, the process on $1, x, x^2, x^3$ gives multiples of the [[Legendre polynomials|~8c407ecd]].
+- In $\mathbb{R}^3$, the [[process on $(1, 1, 0)$, $(1, 0, 1)$, $(0, 1, 1)$|2D1189E3N9]] gives $\frac{1}{\sqrt2}(1, 1, 0)$, $\frac{1}{\sqrt6}(1, -1, 2)$ and $\frac{1}{\sqrt3}(-1, 1, 1)$.
+- On polynomials with $\int_{-1}^1 pq$, the process on $1, x, x^2, x^3$ gives multiples of the [[Legendre polynomials|JPDVZM20EX]].
 - If $v_1, \dots, v_k$ are already orthonormal, the process returns them unchanged, by part 4 of the [[Gram-Schmidt theorem|0WXBGBTA3D]].
 
 ### Non-examples
 
-- The process does not apply to a [[dependent family|~f19cab36]]: for $(1, 2)$ and $(2, 4)$ it gives $u_2 = 0$, which cannot be normalized.
+- The process does not apply to a [[dependent family|6SWBRH6W8X]]: for $(1, 2)$ and $(2, 4)$ it gives $u_2 = 0$, which cannot be normalized.
 - Dividing each $v_j$ by its norm is not the process: $(1, 1)$ and $(1, 0)$ become $\frac{1}{\sqrt2}(1, 1)$ and $(1, 0)$, which are not orthogonal.
 - Subtracting projections onto the old vectors $v_i$ instead of the new $u_i$ is not the process. For $(1, 0, 0)$, $(1, 1, 0)$, $(1, 1, 1)$ it gives a third vector $(-1, 0, 1)$, which is not orthogonal to $(1, 0, 0)$.
 

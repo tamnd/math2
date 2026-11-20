@@ -50,21 +50,21 @@ It adds to a vector space one map, with three axioms, and nothing else.
 ### Examples
 
 - The space $\mathbb{R}^n$ with the [[dot product|0S52TNNTH9]] is a Euclidean space. It is the model [[Euclidean space|0XPR1E85W0]].
-- The space $\mathbb{C}^n$ with the [[standard inner product|~a4d9ba49]] $\sum_k x_k \overline{y_k}$ is a unitary space.
-- The space $M_2(\mathbb{C})$ with the [[trace inner product|~381c6461]] $\tr(B^* A)$ is a unitary space of dimension $4$.
-- The space $\mathcal{P}_2(\mathbb{R})$ with the [[integral inner product|~8366abd2]] $\int_0^1 pq$ is a Euclidean space of dimension $3$.
+- The space $\mathbb{C}^n$ with the [[standard inner product|TFZ8DYVJ1J]] $\sum_k x_k \overline{y_k}$ is a unitary space.
+- The space $M_2(\mathbb{C})$ with the [[trace inner product|JVH9RZ7QAB]] $\tr(B^* A)$ is a unitary space of dimension $4$.
+- The space $\mathcal{P}_2(\mathbb{R})$ with the [[integral inner product|W6NJ22XGWT]] $\int_0^1 pq$ is a Euclidean space of dimension $3$.
 - Every subspace $U$ of an inner product space is an inner product space with the restricted inner product. The reason is that the three axioms hold for all vectors of $V$.
 
 ### Non-examples
 
-- The plane $\mathbb{R}^2$ with the [[maximum norm|~4a30dace]] is a normed space, but no inner product induces this norm: the parallelogram law fails.
-- The space $\mathbb{C}^2$ with the [[bilinear form $x_1 y_1 + x_2 y_2$|~09439661]] is not an inner product space: the form gives $0$ on $(1, i)$.
+- The plane $\mathbb{R}^2$ with the [[maximum norm|J5V8HEYXCM]] is a normed space, but no inner product induces this norm: the parallelogram law fails.
+- The space $\mathbb{C}^2$ with the [[bilinear form $x_1 y_1 + x_2 y_2$|3W8AFC4A9P]] is not an inner product space: the form gives $0$ on $(1, i)$.
 - The plane $\mathbb{R}^2$ with the [[Minkowski form|TFGECQ5C32]] is not an inner product space: the form gives $0$ on $(1, 1)$.
 
 ### Basic properties
 
 - Each inner product space has the [[induced norm|0MFJJV97RJ]] $\norm{x} = \sqrt{\ip{x}{x}}$, and so a distance $d(x, y) = \norm{x - y}$.
-- The [[Cauchy-Schwarz inequality|0RFWW56Y22]], the [[triangle inequality|~0cdd82af]], the [[parallelogram law|026HPGYGS4]] and the [[Pythagorean theorem|0BVTDM872V]] hold in every inner product space.
+- The [[Cauchy-Schwarz inequality|0RFWW56Y22]], the [[triangle inequality|SRN4T2G6AM]], the [[parallelogram law|026HPGYGS4]] and the [[Pythagorean theorem|0BVTDM872V]] hold in every inner product space.
 - Each inner product space of finite dimension has an [[orthonormal basis|0Y85GYEGSF]].
 - So each real inner product space of dimension $n$ is isometric to $\mathbb{R}^n$ with the dot product. Each complex one is isometric to $\mathbb{C}^n$ with the standard inner product. The [[coordinates in an orthonormal basis|09DZ8CD1AK]] give the isometry.
 - An inner product space that is complete for the induced norm is a [[Hilbert space|HM2HHE3J51]]. Every inner product space of finite dimension is complete, so it is a Hilbert space. Functional analysis studies the infinite-dimensional ones.

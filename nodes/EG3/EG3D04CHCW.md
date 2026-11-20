@@ -7,7 +7,7 @@ topics: [1D4JTZ9VS3]
 audience: ug1
 proves: 0WXBGBTA3D
 methods: [0ASJVEFA9J, 0J0XBKG64S, 0NTF6DMVAP]
-uses: [0VGSYBWHV2, ~53ebde52, 0TS7VZJBWD, 0EVHJFTG9Z, 0HR573CHNM, 09VYHEF2VT, 0KG4D8AP6G]
+uses: [0VGSYBWHV2, A1Y41YZFB6, 0TS7VZJBWD, 0EVHJFTG9Z, 0HR573CHNM, 09VYHEF2VT, 0KG4D8AP6G]
 sources:
   - url: https://linear.axler.net/LADR4e.pdf
     locator: Theorem 6.32
@@ -16,7 +16,7 @@ sources:
 ## Proof
 
 Let $V$ be an inner product space over $\mathbb{K} = \mathbb{R}$ or $\mathbb{C}$, with [[inner product|0VGSYBWHV2]] $\ip{\cdot}{\cdot}$.
-Let $v_1, \dots, v_k$ be [[linearly independent|0EVHJFTG9Z]], and let $u_j$, $e_j$ be as in the [[Gram-Schmidt process|~53ebde52]], with $c_{ji} = \ip{v_j}{u_i} / \ip{u_i}{u_i}$.
+Let $v_1, \dots, v_k$ be [[linearly independent|0EVHJFTG9Z]], and let $u_j$, $e_j$ be as in the [[Gram-Schmidt process|A1Y41YZFB6]], with $c_{ji} = \ip{v_j}{u_i} / \ip{u_i}{u_i}$.
 For $1 \leq j \leq k$, let $P(j)$ be the claim: $u_1, \dots, u_j$ are defined, nonzero and pairwise [[orthogonal|0TS7VZJBWD]], and $\operatorname{span}(u_1, \dots, u_j) = \operatorname{span}(v_1, \dots, v_j)$.
 
 1. Base case: $u_1 = v_1$. An independent family has no zero vector, since $1 \cdot 0 = 0$ is a nontrivial relation. So $u_1 \neq 0$.

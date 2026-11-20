@@ -32,7 +32,7 @@ Let $V$ be an [[inner product space|01EK923SKP]] over $\mathbb{K} = \mathbb{R}$ 
 - Part 1 needs orthogonality. For $x = y = (1, 0)$ in $\mathbb{R}^2$, $\norm{x + y}^2 = 4$, but $\norm{x}^2 + \norm{y}^2 = 2$.
 - Part 2 needs the vectors to be pairwise orthogonal, not only consecutive ones. In $\mathbb{R}^2$, $x_1 = (1, 0)$, $x_2 = (0, 1)$ and $x_3 = (1, 0)$ give $\norm{(2, 1)}^2 = 5$, but the sum of the squares is $3$.
 - The norm must be the induced norm. For the maximum norm on $\mathbb{R}^2$ and the vectors $(1, 1)$ and $(1, -1)$, $\norm{(2, 0)}^2 = 4$, but $1 + 1 = 2$, although the two vectors are orthogonal for the dot product.
-- Part 4 needs $\mathbb{K} = \mathbb{R}$. The [[counterexample over $\mathbb{C}$|~9026ead5]] gives the details of part 5.
+- Part 4 needs $\mathbb{K} = \mathbb{R}$. The [[counterexample over $\mathbb{C}$|VT90B84J5V]] gives the details of part 5.
 
 ### Consequences
 
@@ -67,7 +67,7 @@ The theorem holds in every inner product space, also in spaces of functions.
 
 Worked example: the Pythagorean theorem for functions.
 
-1. On $\mathcal{P}_2(\mathbb{R})$ use the [[integral inner product|~8366abd2]] $\ip{p}{q} = \int_0^1 p(t) q(t) \, dt$.
+1. On $\mathcal{P}_2(\mathbb{R})$ use the [[integral inner product|W6NJ22XGWT]] $\ip{p}{q} = \int_0^1 p(t) q(t) \, dt$.
 2. Let $p = 1$ and $q = t - \frac12$. Then $\ip{p}{q} = \int_0^1 (t - \frac12) \, dt = \frac12 - \frac12 = 0$, so $p \perp q$.
 3. The norms are $\norm{p}^2 = 1$ and $\norm{q}^2 = \int_0^1 (t - \frac12)^2 \, dt = \frac13 - \frac12 + \frac14 = \frac{1}{12}$.
 4. The sum is $p + q = t + \frac12$, and $\norm{p + q}^2 = \frac13 + \frac12 + \frac14 = \frac{13}{12} = 1 + \frac{1}{12}$.

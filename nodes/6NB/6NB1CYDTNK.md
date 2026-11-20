@@ -46,6 +46,6 @@ Dropping $\norm{z}^2$ gives the inequality, and equality means $z = 0$, that is,
 
 ## Variants
 
-- The [[proof by the discriminant|~79f198c9]] studies the real quadratic $t \mapsto \norm{x - t\lambda y}^2$ and uses that its discriminant is not positive.
+- The [[proof by the discriminant|7SW8PQYAEH]] studies the real quadratic $t \mapsto \norm{x - t\lambda y}^2$ and uses that its discriminant is not positive.
 - One can first reduce to unit vectors and then expand $\norm{x \pm y}^2 \geq 0$. The [[example of this reduction|N8Z4J61ZHV]] does it in $\mathbb{R}^n$. Over $\mathbb{C}$, one first multiplies $y$ by a scalar of modulus $1$ that makes $\ip{x}{y}$ real.
 - With the [[Gram matrix|00SPJSDT3Z]]: the inequality says that the Gram determinant of $x, y$ is $\geq 0$, which follows from $\det G = \norm{u_1}^2 \norm{u_2}^2$ for the Gram-Schmidt vectors $u_1, u_2$.

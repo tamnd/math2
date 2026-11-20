@@ -40,7 +40,7 @@ Axiom 3 is a statement about real numbers, since axiom 2 with $y = x$ gives $\ip
 - Axioms 1 and 2 give conjugate-linearity in the second argument: $\ip{x}{ay + bz} = \overline{a}\ip{x}{y} + \overline{b}\ip{x}{z}$.
 - Over $\mathbb{R}$, an inner product is a symmetric bilinear form $\ip{\cdot}{\cdot}$ with $\ip{x}{x} > 0$ for $x \neq 0$.
 - The axioms imply $\ip{0}{0} = 0$, so positivity cannot hold at $x = 0$. Some books state axiom 3 as two parts: $\ip{x}{x} \geq 0$, and $\ip{x}{x} = 0$ only for $x = 0$.
-- The [[dot product|0S52TNNTH9]] on $\mathbb{R}^n$ and the [[standard inner product on $\mathbb{C}^n$|~a4d9ba49]] satisfy the three axioms.
+- The [[dot product|0S52TNNTH9]] on $\mathbb{R}^n$ and the [[standard inner product on $\mathbb{C}^n$|TFZ8DYVJ1J]] satisfy the three axioms.
 - A vector space with an inner product is an [[inner product space|01EK923SKP]].
 
 ## Explanations

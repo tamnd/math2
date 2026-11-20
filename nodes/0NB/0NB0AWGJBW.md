@@ -51,15 +51,15 @@ This is the reason for conjugate symmetry in place of symmetry.
 ### Examples
 
 - The [[dot product|0S52TNNTH9]] on $\mathbb{R}^n$ is an inner product. Sub-area 1 checks the three axioms.
-- The [[standard inner product on $\mathbb{C}^n$|~a4d9ba49]], $\ip{x}{y} = \sum_k x_k \overline{y_k}$, is an inner product, because $\ip{x}{x} = \sum_k |x_k|^2$.
+- The [[standard inner product on $\mathbb{C}^n$|TFZ8DYVJ1J]], $\ip{x}{y} = \sum_k x_k \overline{y_k}$, is an inner product, because $\ip{x}{x} = \sum_k |x_k|^2$.
 - On $\mathbb{R}^2$, the formula $\ip{x}{y} = 2x_1 y_1 + x_2 y_2$ is an inner product, because $\ip{x}{x} = 2x_1^2 + x_2^2$.
-- The [[trace inner product|~381c6461]] $\ip{A}{B} = \tr(B^* A)$ on $2 \times 2$ complex matrices is an inner product, because $\ip{A}{A}$ is the sum of the $|a_{jk}|^2$.
-- The [[integral inner product on polynomials|~8366abd2]] $\ip{p}{q} = \int_0^1 p(t) q(t) \, dt$ is an inner product, because a nonzero polynomial is not zero on a whole interval.
+- The [[trace inner product|JVH9RZ7QAB]] $\ip{A}{B} = \tr(B^* A)$ on $2 \times 2$ complex matrices is an inner product, because $\ip{A}{A}$ is the sum of the $|a_{jk}|^2$.
+- The [[integral inner product on polynomials|W6NJ22XGWT]] $\ip{p}{q} = \int_0^1 p(t) q(t) \, dt$ is an inner product, because a nonzero polynomial is not zero on a whole interval.
 - For a [[positive definite matrix|0KX66CZMBB]] $A$, the formula $\ip{x}{y} = y^* A x$ is an inner product on $\mathbb{C}^n$, and every inner product on $\mathbb{C}^n$ has this form.
 
 ### Non-examples
 
-- The [[symmetric bilinear form $x_1 y_1 + x_2 y_2$ on $\mathbb{C}^2$|~09439661]] is not an inner product: it is not conjugate symmetric, and it gives $0$ on $(1, i)$.
+- The [[symmetric bilinear form $x_1 y_1 + x_2 y_2$ on $\mathbb{C}^2$|3W8AFC4A9P]] is not an inner product: it is not conjugate symmetric, and it gives $0$ on $(1, i)$.
 - The [[Minkowski form|TFGECQ5C32]] $x_1 y_1 - x_2 y_2$ on $\mathbb{R}^2$ is not an inner product: positivity fails at $(1, 1)$.
 - On $\mathbb{R}^2$, the form $\ip{x}{y} = x_1 y_1$ is symmetric and bilinear, but it is not positive definite: it gives $0$ on $(0, 1)$.
 - The map $(x, y) \mapsto \norm{x} \, \norm{y}$ on $\mathbb{R}^2$ is not an inner product: it is not additive. For $x = (1, 0)$, $x' = (-1, 0)$ and $y = (1, 0)$, it gives $0$ on $(x + x', y)$, but $1 + 1 = 2$ on the two pairs $(x, y)$ and $(x', y)$.

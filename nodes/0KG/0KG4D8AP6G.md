@@ -31,7 +31,7 @@ The *distance* between $x$ and $y$ is $d(x, y) = \norm{x - y}$.
 
 ## Remarks
 
-- The induced norm is a [[norm|0V2WP9B1MF]]: positivity and homogeneity follow from the axioms, and the [[triangle inequality|~0cdd82af]] follows from the [[Cauchy-Schwarz inequality|0RFWW56Y22]].
+- The induced norm is a [[norm|0V2WP9B1MF]]: positivity and homogeneity follow from the axioms, and the [[triangle inequality|SRN4T2G6AM]] follows from the [[Cauchy-Schwarz inequality|0RFWW56Y22]].
 - For the dot product on $\mathbb{R}^n$, it is the Euclidean length $\sqrt{x_1^2 + \dots + x_n^2}$.
 - It satisfies the [[parallelogram law|026HPGYGS4]], and the [[polarization identity|05FKHRT0B4]] recovers the inner product from it.
 - For $x \neq 0$, the vector $x / \norm{x}$ is a unit vector. This step is [[normalization|M2FAMD9HZN]].

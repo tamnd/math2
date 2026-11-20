@@ -44,13 +44,13 @@ The positivity axiom of the inner product is the condition that makes this squar
 ### Examples
 
 - On $\mathbb{R}^n$ with the dot product, $\norm{x} = \sqrt{x_1^2 + \dots + x_n^2}$ is the [[Euclidean length|0XKBKGTCPC]]. For example, $\norm{(3, 4)} = 5$.
-- On $\mathbb{C}^n$ with the [[standard inner product|~a4d9ba49]], $\norm{x} = \sqrt{|x_1|^2 + \dots + |x_n|^2}$. For example, $\norm{(1 + i, 2)} = \sqrt{6}$.
-- On $M_2(\mathbb{C})$ with the [[trace inner product|~381c6461]], the induced norm is the [[Frobenius norm|JT8Q204E4R]], the square root of the sum of $|a_{jk}|^2$.
-- On $\mathcal{P}_2(\mathbb{R})$ with the [[integral inner product|~8366abd2]], $\norm{t} = \sqrt{\int_0^1 t^2 \, dt} = 1/\sqrt{3}$.
+- On $\mathbb{C}^n$ with the [[standard inner product|TFZ8DYVJ1J]], $\norm{x} = \sqrt{|x_1|^2 + \dots + |x_n|^2}$. For example, $\norm{(1 + i, 2)} = \sqrt{6}$.
+- On $M_2(\mathbb{C})$ with the [[trace inner product|JVH9RZ7QAB]], the induced norm is the [[Frobenius norm|JT8Q204E4R]], the square root of the sum of $|a_{jk}|^2$.
+- On $\mathcal{P}_2(\mathbb{R})$ with the [[integral inner product|W6NJ22XGWT]], $\norm{t} = \sqrt{\int_0^1 t^2 \, dt} = 1/\sqrt{3}$.
 
 ### Non-examples
 
-- The [[maximum norm on $\mathbb{R}^2$|~4a30dace]], $\max(|x_1|, |x_2|)$, is a norm, but no inner product induces it, because it fails the parallelogram law.
+- The [[maximum norm on $\mathbb{R}^2$|J5V8HEYXCM]], $\max(|x_1|, |x_2|)$, is a norm, but no inner product induces it, because it fails the parallelogram law.
 - The [[taxicab length|WW2RB40VYX]] $|x_1| + |x_2|$ on $\mathbb{R}^2$ is a norm, but no inner product induces it. For $(1, 0)$ and $(0, 1)$, the parallelogram law would need $4 + 4 = 2 + 2$.
 - The map $x \mapsto \ip{x}{x}$, without the square root, is not a norm. On $\mathbb{R}$ with $\ip{x}{y} = xy$, it gives $1$ at $x = 1$ and $4$ at $x = 2$. Homogeneity requires the value $2 \cdot 1 = 2$ at $x = 2$.
 
@@ -63,7 +63,7 @@ For all $x, y \in V$ and all scalars $a$:
 - Expansion of a square: $\norm{x + y}^2 = \norm{x}^2 + 2\operatorname{Re}\ip{x}{y} + \norm{y}^2$, because $\ip{x}{y} + \ip{y}{x} = \ip{x}{y} + \overline{\ip{x}{y}} = 2\operatorname{Re}\ip{x}{y}$.
 - [[Normalization|M2FAMD9HZN]]: for $x \neq 0$, the vector $x / \norm{x}$ is a unit vector, by homogeneity with $a = 1/\norm{x}$.
 - The [[Cauchy-Schwarz inequality|0RFWW56Y22]] gives $|\ip{x}{y}| \leq \norm{x} \, \norm{y}$.
-- The [[triangle inequality|~0cdd82af]] gives $\norm{x + y} \leq \norm{x} + \norm{y}$. With positivity and homogeneity it shows that the induced norm is a norm, so $d(x, y) = \norm{x - y}$ is a distance.
+- The [[triangle inequality|SRN4T2G6AM]] gives $\norm{x + y} \leq \norm{x} + \norm{y}$. With positivity and homogeneity it shows that the induced norm is a norm, so $d(x, y) = \norm{x - y}$ is a distance.
 - The induced norm satisfies the [[parallelogram law|026HPGYGS4]], and the [[polarization identity|05FKHRT0B4]] recovers the inner product from it.
 
 ### History

@@ -1,0 +1,71 @@
+---
+tag: W6NJ22XGWT
+kind: example
+name: The integral inner product on polynomials of degree at most 2
+msc: ["15A63"]
+topics: [1D4JTZ9VS3]
+audience: ug1
+instance_of: [0NB0AWGJBW, 0QVNCJXRY3, 0MFJJV97RJ]
+uses: [0VGSYBWHV2, 0JGZCDT5DN, 0W29TBTY12, 0MBWQKM8QR, 0KJVQV3E0F, 0X3WGX95FE]
+sources:
+  - url: https://en.wikipedia.org/wiki/Inner_product_space
+    locator: Examples
+  - book: isbn:9783031410253
+    locator: Chapter 6
+---
+
+## Example
+
+Let $V = \mathcal{P}_2(\mathbb{R})$ be the [[space of real polynomials|0JGZCDT5DN]] of degree at most $2$.
+For $p, q \in V$ put
+$$\ip{p}{q} = \int_0^1 p(t) \, q(t) \, dt,$$
+where the integral is the [[Riemann integral|0W29TBTY12]].
+We check the three axioms of an [[inner product|0VGSYBWHV2]], and then we compute some values.
+
+1. The integral exists, because $pq$ is a polynomial, so it is [[continuous|0X3WGX95FE]] on $[0, 1]$.
+2. Linearity in the first argument: $\int_0^1 (ap + br) q = a\int_0^1 pq + b\int_0^1 rq$, by the linearity of the integral.
+3. Symmetry: $p(t)q(t) = q(t)p(t)$ for each $t$, so $\ip{p}{q} = \ip{q}{p}$. Over $\mathbb{R}$ this is conjugate symmetry.
+4. Positivity, first part. Let $p \neq 0$. A nonzero polynomial of degree at most $2$ has [[at most $2$ roots|0KJVQV3E0F]], so there is $t_0 \in (0, 1)$ with $p(t_0) \neq 0$.
+5. Positivity, second part. By continuity there is $\delta > 0$ with $[t_0 - \delta, t_0 + \delta] \subseteq [0, 1]$ and $|p(t)| \geq |p(t_0)|/2$ on this interval.
+6. Positivity, third part. So $p(t)^2 \geq c = p(t_0)^2/4 > 0$ on an interval of length $2\delta$, and $p(t)^2 \geq 0$ on all of $[0, 1]$.
+7. By the [[monotonicity of the integral|0MBWQKM8QR]], $\ip{p}{p} = \int_0^1 p^2 \geq 2\delta c > 0$.
+8. Values on the monomials: $\ip{t^j}{t^k} = \int_0^1 t^{j + k} \, dt = \frac{1}{j + k + 1}$. So $\ip{1}{1} = 1$, $\ip{1}{t} = \frac12$, $\ip{t}{t} = \frac13$, $\ip{t}{t^2} = \frac14$ and $\ip{t^2}{t^2} = \frac15$.
+9. Let $p = 1 + t$ and $q = t$. By step 8 and linearity, $\ip{p}{q} = \frac12 + \frac13 = \frac56$.
+10. The [[induced norms|0MFJJV97RJ]] are $\norm{p}^2 = 1 + 2 \cdot \frac12 + \frac13 = \frac73$ and $\norm{q}^2 = \frac13$.
+11. The [[Cauchy-Schwarz inequality|0RFWW56Y22]] holds: $\ip{p}{q}^2 = \frac{25}{36}$ and $\norm{p}^2 \norm{q}^2 = \frac79 = \frac{28}{36}$.
+12. The polynomials $1$ and $t - \frac12$ are [[orthogonal|0Y2X7P2WB7]]: $\int_0^1 (t - \frac12) \, dt = \frac12 - \frac12 = 0$.
+
+So $(\mathcal{P}_2(\mathbb{R}), \ip{\cdot}{\cdot})$ is an [[inner product space|0QVNCJXRY3]].
+
+## Remarks
+
+The example shows that functions can carry a geometry of lengths and angles.
+Steps 4 to 7 use only that a nonzero polynomial is not zero on a whole interval.
+So the same proof works for $\mathcal{P}_n(\mathbb{R})$ and for continuous functions.
+On the Riemann integrable functions the formula is not positive definite.
+A function that is $1$ at one point and $0$ elsewhere is not zero, but its integral is $0$.
+The [[Gram matrix of $1, t, t^2$|JNME2MD8GM]] for this inner product is the Hilbert matrix of step 8.
+On the interval $[-1, 1]$ in place of $[0, 1]$, the [[Gram-Schmidt process|0VT6P0GNQR]] applied to $1, t, t^2, t^3$ gives the [[Legendre polynomials|JPDVZM20EX]].
+
+## Explanations
+
+### L1 human
+
+Two polynomials can be multiplied, and the product can be integrated from $0$ to $1$.
+The result is one number, and it plays the role of the dot product.
+For the polynomial $t$ paired with itself, we integrate $t^2$ and get $\frac13$.
+So the length of $t$ for this rule is $\frac{1}{\sqrt{3}}$.
+A polynomial that is not zero is not zero on a whole interval, so its square has a positive integral.
+
+### L2 human
+
+Worked example: the projection of $t$ onto the constant polynomials.
+
+1. The constant $1$ has $\norm{1}^2 = 1$ and $\ip{t}{1} = \frac12$.
+2. The [[vector projection|0JW13B48YP]] formula, with the inner product in place of the dot product, gives $\frac{\ip{t}{1}}{\ip{1}{1}} \cdot 1 = \frac12$.
+3. The difference $t - \frac12$ is orthogonal to $1$, by step 12.
+4. By the [[closest point theorem|0MCDDSCB9Z]], $\frac12$ is the best constant approximation of $t$ on $[0, 1]$ in this norm. It is the mean value of $t$ on the interval.
+
+The typical use is to approximate a function by a polynomial of low degree, in the sense of least squares.
+A trap: the values depend on the interval.
+On $[-1, 1]$ we get $\ip{1}{t} = 0$, but on $[0, 1]$ we get $\ip{1}{t} = \frac12$.

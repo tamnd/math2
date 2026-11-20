@@ -7,7 +7,7 @@ msc: ["15A63", "65F25"]
 topics: [1D4JTZ9VS3]
 audience: ug1
 about: [0VT6P0GNQR, 0RW9TNNT87]
-uses: [~53ebde52, 0TS7VZJBWD, 09VYHEF2VT, 0HR573CHNM, 0EVHJFTG9Z]
+uses: [A1Y41YZFB6, 0TS7VZJBWD, 09VYHEF2VT, 0HR573CHNM, 0EVHJFTG9Z]
 sources:
   - url: https://en.wikipedia.org/wiki/Gram–Schmidt_process
     locator: Properties
@@ -18,7 +18,7 @@ sources:
 ## Statement
 
 Let $V$ be an [[inner product space|01EK923SKP]] over $\mathbb{K} = \mathbb{R}$ or $\mathbb{C}$, and let $v_1, \dots, v_k \in V$ be [[linearly independent|0EVHJFTG9Z]].
-Let $u_1, \dots, u_k$ and $e_1, \dots, e_k$ be the vectors of the [[Gram-Schmidt process|~53ebde52]].
+Let $u_1, \dots, u_k$ and $e_1, \dots, e_k$ be the vectors of the [[Gram-Schmidt process|A1Y41YZFB6]].
 Then, for each $j$ with $1 \leq j \leq k$:
 
 1. the vector $u_j$ is defined and nonzero, and $u_1, \dots, u_j$ are pairwise [[orthogonal|0TS7VZJBWD]];
@@ -31,7 +31,7 @@ Then, for each $j$ with $1 \leq j \leq k$:
 
 ### Why each hypothesis is needed
 
-- Independence is needed. For the [[dependent family|~f19cab36]] $(1, 2)$, $(2, 4)$ in $\mathbb{R}^2$, the process gives $u_2 = 0$, so $e_2$ is not defined.
+- Independence is needed. For the [[dependent family|6SWBRH6W8X]] $(1, 2)$, $(2, 4)$ in $\mathbb{R}^2$, the process gives $u_2 = 0$, so $e_2$ is not defined.
 - Positive definiteness is needed. For the form $\beta(x, y) = x_1 y_1 - x_2 y_2$ on $\mathbb{R}^2$ and $v_1 = (1, 1)$, $\beta(u_1, u_1) = 0$, so the coefficient $\beta(v_2, u_1)/\beta(u_1, u_1)$ is not defined.
 - Part 5 needs orthonormality of the first $m$ vectors. For the orthogonal vectors $(2, 0)$, $(0, 3)$, the process gives $e_1 = (1, 0) \neq v_1$.
 

@@ -31,8 +31,8 @@ The Gram determinant of $v_1, \dots, v_k$ is $\det G(v_1, \dots, v_k)$.
 ## Remarks
 
 - The Gram matrix is Hermitian and [[positive semidefinite|01MMVW8CKC]]. The [[concept page|00SPJSDT3Z]] proves both.
-- It is invertible if and only if $v_1, \dots, v_k$ are [[linearly independent|~271d272f]].
-- Its determinant is the square of the $k$-dimensional [[volume of the parallelepiped|~6efb00d4]] spanned by the $v_i$.
+- It is invertible if and only if $v_1, \dots, v_k$ are [[linearly independent|EM1QNRGWQ8]].
+- Its determinant is the square of the $k$-dimensional [[volume of the parallelepiped|FWA0AKJA2R]] spanned by the $v_i$.
 
 ## Explanations
 

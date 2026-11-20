@@ -48,13 +48,13 @@ For column vectors in $\mathbb{R}^n$, the Gram matrix is $A^T A$, the matrix of 
 ### Examples
 
 - The Gram matrix of an [[orthonormal family|0RW9TNNT87]] is the identity matrix $I_k$. The Gram matrix of an orthogonal family is diagonal, with the entries $\norm{v_i}^2$.
-- In $\mathbb{R}^3$, the vectors $(1, 1, 0)$ and $(1, 0, 1)$ have the [[Gram matrix with determinant 3|~d04ddcaf]]. The parallelogram that they span has area $\sqrt{3}$.
-- For $1, x, x^2$ with $\ip{p}{q} = \int_0^1 pq$, the Gram matrix is the [[Hilbert matrix|~8b34fb11]] $H_3$, with the entries $\frac{1}{i + j - 1}$.
+- In $\mathbb{R}^3$, the vectors $(1, 1, 0)$ and $(1, 0, 1)$ have the [[Gram matrix with determinant 3|QG8VQCE4QC]]. The parallelogram that they span has area $\sqrt{3}$.
+- For $1, x, x^2$ with $\ip{p}{q} = \int_0^1 pq$, the Gram matrix is the [[Hilbert matrix|JNME2MD8GM]] $H_3$, with the entries $\frac{1}{i + j - 1}$.
 - For two vectors, $\det G(x, y) = \norm{x}^2\norm{y}^2 - |\ip{x}{y}|^2$. This is $\geq 0$ by the [[Cauchy-Schwarz inequality|0RFWW56Y22]].
 
 ### Non-examples
 
-- The [[symmetric matrix with entries 1, 2, 2, 1|~a766ff9d]] is not a Gram matrix, since its determinant is $-3 < 0$.
+- The [[symmetric matrix with entries 1, 2, 2, 1|572X387N7F]] is not a Gram matrix, since its determinant is $-3 < 0$.
 - The matrix $\begin{pmatrix} 1 & i \\ i & 1 \end{pmatrix}$ is not a Gram matrix, since $G_{21}$ must be $\overline{G_{12}} = -i$.
 - A matrix of values $\beta(v_i, v_j)$ for the [[Minkowski form|TFGECQ5C32]] $\beta(x, y) = x_1 y_1 - x_2 y_2$ is not a Gram matrix in general. For $(0, 1)$ alone it is $(-1)$, and a Gram matrix has $G_{11} = \norm{v_1}^2 \geq 0$.
 
@@ -62,8 +62,8 @@ For column vectors in $\mathbb{R}^n$, the Gram matrix is $A^T A$, the matrix of 
 
 - $G$ is [[Hermitian|0P17NGQQMQ]]: $G_{ji} = \ip{v_j}{v_i} = \overline{\ip{v_i}{v_j}} = \overline{G_{ij}}$. Over $\mathbb{R}$, $G$ is symmetric.
 - $G$ is [[positive semidefinite|01MMVW8CKC]]: for $c \in \mathbb{K}^k$, $\sum_{i,j} c_i \overline{c_j}\, G_{ij} = \norm{\sum_i c_i v_i}^2 \geq 0$.
-- $G$ is invertible if and only if $v_1, \dots, v_k$ are linearly independent, by the [[Gram invertibility theorem|~271d272f]]. The rank of $G$ is the dimension of the span.
-- For an independent family, $\det G = \norm{u_1}^2 \cdots \norm{u_k}^2$, with $u_j$ the Gram-Schmidt output. This is the [[squared volume theorem|~6efb00d4]].
+- $G$ is invertible if and only if $v_1, \dots, v_k$ are linearly independent, by the [[Gram invertibility theorem|EM1QNRGWQ8]]. The rank of $G$ is the dimension of the span.
+- For an independent family, $\det G = \norm{u_1}^2 \cdots \norm{u_k}^2$, with $u_j$ the Gram-Schmidt output. This is the [[squared volume theorem|FWA0AKJA2R]].
 - Two families have the same Gram matrix if and only if a linear isometry between their spans maps one family to the other.
 
 ### History
