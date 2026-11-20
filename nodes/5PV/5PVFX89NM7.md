@@ -1,0 +1,74 @@
+---
+tag: 5PVFX89NM7
+kind: statement
+role: theorem
+name: Similarity does not depend on the field
+aliases: [similarity-is-invariant-under-field-extension, similarity-over-a-field-extension]
+msc: ["15A21"]
+topics: [GEBYZKYV3D]
+audience: grad
+about: [0E89HQATM8, 0EQWVHF3W5]
+uses: [0EQWVHF3W5, 027KDW2K72, F7GJPMVBXA, 03NDVCSHSB]
+sources:
+  - url: https://en.wikipedia.org/wiki/Frobenius_normal_form
+    locator: General case and theory
+  - url: https://en.wikipedia.org/wiki/Transpose
+    locator: Properties
+  - book: isbn:9780135367971
+    locator: Section 7.2
+---
+
+## Statement
+
+Let $K \subseteq L$ be a [[field extension|0EQWVHF3W5]] and let $A, B \in M_n(K)$.
+
+1. The [[invariant factors|F7GJPMVBXA]] of $A$ over $K$ are also the invariant factors of $A$ over $L$.
+2. If $A$ and $B$ are [[similar|027KDW2K72]] over $L$, that is, $B = Q^{-1} A Q$ for some $Q \in GL_n(L)$, then $B = P^{-1} A P$ for some $P \in GL_n(K)$.
+3. In particular, the [[minimal polynomial|03NDVCSHSB]] of $A$ is the same over $K$ and over $L$.
+
+## Remarks
+
+### Why each hypothesis is needed
+
+Both matrices must have entries in $K$.
+The real matrix $\begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}$ is similar over $\mathbb{C}$ to $\operatorname{diag}(i, -i)$, but the second matrix is not in $M_2(\mathbb{R})$, so no similarity over $\mathbb{R}$ is possible.
+The theorem needs no hypothesis on $L$: the extension can be finite or infinite, algebraic or transcendental.
+
+### Consequences
+
+To decide if two rational matrices are similar, one can compute over $\mathbb{C}$, for example with Jordan forms.
+If two real matrices have the same complex Jordan form, then they are similar over $\mathbb{R}$, even when the Jordan form has nonreal entries.
+The invariant factors and the rational canonical form of $A$ can be computed in the smallest field that contains the entries of $A$.
+
+### Converse
+
+The converse is immediate: a similarity over $K$ is a similarity over $L$, since $GL_n(K) \subseteq GL_n(L)$.
+
+### Generalizations
+
+The same result holds for finitely generated modules over a finite-dimensional algebra: modules over $K$ that become isomorphic over $L$ are isomorphic over $K$.
+This is the Noether-Deuring theorem.
+For a single matrix, the algebra is $K[x]$ acting through $A$.
+
+## Explanations
+
+### L1 human
+
+Suppose two matrices have only rational numbers as entries.
+If you can change one into the other with a complex change of basis, then you can do it with a rational change of basis.
+So the extra numbers in a larger field never make two matrices similar.
+
+### L2 human
+
+Take $A = \begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}$ and $B = \begin{pmatrix} 1 & -2 \\ 1 & -1 \end{pmatrix}$ over $\mathbb{R}$.
+Both have trace $0$ and determinant $1$, so both have characteristic polynomial $x^2 + 1$.
+Over $\mathbb{C}$ both are similar to $\operatorname{diag}(i, -i)$, since the eigenvalues $i$ and $-i$ are distinct.
+The theorem gives a real $P$ with $B = P^{-1} A P$.
+For example, $P = \begin{pmatrix} 1 & -1 \\ 0 & 1 \end{pmatrix}$ works: $AP = \begin{pmatrix} 0 & -1 \\ 1 & -1 \end{pmatrix} = PB$.
+
+### L3 human
+
+The rational canonical form of $A$ over $K$ has entries in $K$ and is also a rational canonical form over $L$, so uniqueness over $L$ forces the two forms to agree.
+Equivalently, the Smith normal form of $xI - A$ uses only gcd computations, and the gcd of polynomials in $K[x]$ does not change in $L[x]$.
+For infinite $K$ there is also a direct argument.
+The solutions of $AX = XB$ form a $K$-subspace whose $L$-span is the solution space over $L$, and $\det$ is a nonzero polynomial on it.
