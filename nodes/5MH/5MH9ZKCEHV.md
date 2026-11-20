@@ -1,0 +1,53 @@
+---
+tag: 5MH9ZKCEHV
+kind: example
+name: The cylindric algebra of a first-order theory
+msc: ["03G15", "03C07"]
+topics: [QYA4H5Y7VR]
+audience: research
+instance_of: [1MDT9BF81H]
+uses: [RKCSWWVYTC, 086QKPF0A6, QC9M3Q8B8Q]
+sources:
+  - url: https://en.wikipedia.org/wiki/Cylindric_algebra
+  - book: isbn:9780720420432
+---
+
+## Example
+
+Let $T$ be a theory of [[first-order logic|086QKPF0A6]] with equality, with variables $v_0, v_1, \dots$.
+Let $A = \mathrm{Fm} / {\equiv_T}$, where $\varphi \equiv_T \psi$ iff $T \vdash \varphi \leftrightarrow \psi$.
+Put $c_\kappa [\varphi] = [\exists v_\kappa \varphi]$ and $d_{\kappa\lambda} = [v_\kappa = v_\lambda]$, with the Boolean operations from the connectives.
+
+1. Well defined. $\equiv_T$ is a congruence for the connectives and for $\exists v_\kappa$, by the rules of first-order logic.
+2. Clauses 1 and 2 of [[the definition|RKCSWWVYTC]]: $\exists v_\kappa \bot \leftrightarrow \bot$ and $\varphi \to \exists v_\kappa \varphi$ are provable.
+3. Clause 3: $v_\kappa$ is not free in $\exists v_\kappa \psi$, so $\exists v_\kappa(\varphi \land \exists v_\kappa \psi) \leftrightarrow \exists v_\kappa \varphi \land \exists v_\kappa \psi$ is provable.
+4. Clause 4: $\exists v_\kappa \exists v_\lambda \varphi \leftrightarrow \exists v_\lambda \exists v_\kappa \varphi$.
+5. Clauses 5 and 6: $v_\kappa = v_\kappa$, and $v_\lambda = v_\mu \leftrightarrow \exists v_\kappa(v_\lambda = v_\kappa \land v_\kappa = v_\mu)$ for $\kappa \notin \set{\lambda, \mu}$.
+6. Clause 7: $\exists v_\kappa(v_\kappa = v_\lambda \land \varphi)$ and $\exists v_\kappa(v_\kappa = v_\lambda \land \neg \varphi)$ say that $\varphi$ and $\neg \varphi$ hold with $v_\lambda$ in place of $v_\kappa$, so their conjunction is refutable.
+
+So $A$ is a [[cylindric algebra|1MDT9BF81H]] of dimension $\omega$.
+
+## Remarks
+
+1. $A$ is locally finite: if $v_\kappa$ is not free in $\varphi$, then $c_\kappa[\varphi] = [\varphi]$, and $\varphi$ has finitely many free variables.
+2. Its Boolean reduct is the [[Lindenbaum-Tarski algebra|QC9M3Q8B8Q]] of $T$ with free variables.
+3. Each model $M$ of $T$ gives a homomorphism into the set algebra $\mathcal{P}(M^\omega)$: send $[\varphi]$ to the set of assignments that satisfy $\varphi$.
+4. The completeness theorem says that these homomorphisms separate the elements of $A$, so $A$ is representable.
+5. Conversely, the representation theorem for locally finite algebras of dimension $\omega$, applied to this example, gives the completeness theorem back.
+
+## Explanations
+
+### L1 human
+
+Take all formulas, and identify two of them when the theory proves them equivalent.
+The classes form an algebra with "and", "or" and "not".
+"There exists $v_\kappa$" and "$v_\kappa = v_\lambda$" add the cylindric structure.
+
+### L2 human
+
+1. Let $T$ be the theory of a dense linear order without endpoints, in the language $<$.
+2. Then $c_1[v_0 < v_1] = [\exists v_1\, v_0 < v_1] = [v_0 = v_0] = 1$, since $T$ proves that there is no largest element.
+3. And $c_1[v_0 < v_1 \land v_1 < v_0] = 0$, since $<$ is a strict order.
+
+The typical use: this example turns the completeness theorem into a representation theorem.
+The trap: the dimension is the number of variables, $\omega$, even if every formula uses only finitely many.

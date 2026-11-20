@@ -1,0 +1,54 @@
+---
+tag: TB04CWS3R1
+kind: example
+name: The formal languages over an alphabet as a residuated Boolean algebra
+msc: ["03G15", "68Q45"]
+topics: [QYA4H5Y7VR]
+audience: research
+instance_of: [KCG48CWY69]
+uses: [NX61CKEYY9, 5MFZ4VNY6D, CV013KHVJG]
+sources:
+  - url: https://en.wikipedia.org/wiki/Residuated_Boolean_algebra
+    locator: Examples
+---
+
+## Example
+
+Let $\Sigma$ be an alphabet, and let $\Sigma^*$ be the [[free monoid|CV013KHVJG]] of words over $\Sigma$, with empty word $\varepsilon$.
+Let $A = \mathcal{P}(\Sigma^*)$ be the set of all [[formal languages|5MFZ4VNY6D]] over $\Sigma$.
+We check [[the definition|NX61CKEYY9]].
+
+1. Boolean algebra. $A$ is a power set, with $\cap$, $\cup$ and complement in $\Sigma^*$.
+2. Monoid. Concatenation $L M = \set{u v : u \in L, v \in M}$ is associative, and $\set{\varepsilon}$ is its unit.
+3. Residuals. Put $L \backslash N = \set{w \in \Sigma^* : L w \subseteq N}$ and $N / M = \set{w \in \Sigma^* : w M \subseteq N}$.
+4. Left residuation. $L M \subseteq N$ iff $u v \in N$ for all $u \in L$, $v \in M$ iff $L v \subseteq N$ for all $v \in M$ iff $M \subseteq L \backslash N$.
+5. Right residuation. In the same way, $L M \subseteq N$ iff $L \subseteq N / M$.
+
+So $A$ is a [[residuated Boolean algebra|KCG48CWY69]].
+
+## Remarks
+
+1. Take $\Sigma = \set{a, b}$, $L = \set{a}$ and $N = \set{ab, b}$. Then $L \backslash N = \set{b}$, since $a w \in N$ only for $w = b$.
+2. The multiplication is not commutative: $\set{a}\set{b} = \set{ab} \ne \set{ba} = \set{b}\set{a}$.
+3. The unit $\set{\varepsilon}$ is not the top $\Sigma^*$, so the algebra is not integral.
+4. This algebra is not a relation algebra: no converse operation satisfies the relation algebra axioms; see [[this example|FCA4HXDAHQ]].
+5. The same construction works for the power set of every monoid.
+
+## Explanations
+
+### L1 human
+
+A language is a set of words.
+Two languages are multiplied by gluing each word of the first in front of each word of the second.
+The left residual $L \backslash N$ collects the words $w$ that land in $N$ whatever word of $L$ you glue in front.
+
+### L2 human
+
+1. Let $L = \set{a, ab}$ and $N = \set{ab, abb, b}$.
+2. A word $w$ is in $L \backslash N$ iff $a w \in N$ and $a b w \in N$.
+3. $a w \in N$ gives $w \in \set{b, bb}$.
+4. $a b w \in N$ gives $w \in \set{\varepsilon, b}$.
+5. So $L \backslash N = \set{b}$, and indeed $L \set{b} = \set{ab, abb} \subseteq N$.
+
+The typical use: residuals of languages are the left and right quotients used in automata theory.
+The trap: $L \backslash N$ removes a prefix from $L$, and $N / M$ removes a suffix from $M$; the side matters.
