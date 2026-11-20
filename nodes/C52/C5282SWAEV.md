@@ -2,12 +2,17 @@
 tag: C5282SWAEV
 kind: proof
 name: Proof that the coordinate map is a linear isomorphism
-msc: [15A03]
+msc: ["15A03"]
+topics: [MVH97H8B2J]
+audience: ug1
 proves: 059THXBRBB
-uses: [0KCQ9Y3QKA, 04CYQHN6MC, 0XM8BZD76G, 0NRYHJPQG2, 0B8T10CE7N, 01VG2A0BHW]
+methods: [0NTF6DMVAP, 01XM7JEKHY]
+uses: [E2ZRZGXSNX, 0KCQ9Y3QKA, 04CYQHN6MC, 0XM8BZD76G, 0NRYHJPQG2, 0B8T10CE7N, 01VG2A0BHW]
 sources:
   - url: https://dec41.user.srcf.net/notes/IB_M/linear_algebra_thm_proof.pdf
     locator: Section 2.1
+  - book: isbn:9780134860244
+    locator: Section 2.4
 ---
 
 ## Proof
@@ -26,4 +31,6 @@ We check linearity from the uniqueness of coordinates, and then exhibit a two-si
 
 ## Idea
 
-Coordinates exist because a basis spans, and they are unique because a basis is independent. Uniqueness makes the coordinate map linear. Rebuilding a vector from its coordinates is the inverse map.
+Coordinates exist because a basis spans, and they are unique because a basis is independent; see [[unique coordinates|E2ZRZGXSNX]].
+Uniqueness makes the coordinate map linear.
+Rebuilding a vector from its coordinates is the inverse map.

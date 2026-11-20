@@ -2,18 +2,20 @@
 tag: FFTNS66XG6
 kind: example
 name: Discontinuous additive functions via a Hamel basis
-msc: [39B22, 15A03]
+msc: ["39B22", "15A03"]
+topics: [MVH97H8B2J]
 instance_of: [KF719SZD5T]
 uses: [0KCQ9Y3QKA, 0HTGB13FE2, 0X3WGX95FE]
 sources:
   - url: https://en.wikipedia.org/wiki/Cauchy%27s_functional_equation
+    locator: Existence of nonlinear solutions over the real numbers
 ---
 
 ## Example
 
 View $\R$ as a vector space over the field $\Q$ of rational numbers.
 The numbers $1$ and $\sqrt{2}$ are linearly independent over $\Q$, because $\sqrt{2}$ is irrational.
-By the [[axiom of choice|0HTGB13FE2]], this independent set extends to a [[basis|0KCQ9Y3QKA]] $B$ of $\R$ over $\Q$, called a Hamel basis.
+By the [[axiom of choice|0HTGB13FE2]], this independent set extends to a [[basis|0KCQ9Y3QKA]] $B$ of $\R$ over $\Q$, called a [[Hamel basis|ZCBD0GRGVA]].
 Every real $x$ is then a unique finite sum $x = \sum_{b \in B} q_b(x)\, b$ with rational coefficients $q_b(x)$, almost all zero.
 Define $f \colon \R \to \R$ by $f(x) = q_1(x)$, the coefficient of the basis vector $1$.
 

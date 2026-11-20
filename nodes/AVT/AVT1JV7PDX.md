@@ -1,0 +1,36 @@
+---
+tag: AVT1JV7PDX
+kind: proof
+name: Proof of the pivot test for spanning F^m
+msc: ["15A03", "15A06"]
+topics: [MVH97H8B2J]
+audience: ug1
+proves: D3PN42EP4X
+methods: [0NTF6DMVAP, TFQ1845T84]
+uses: [E7SAHXQEVC, K41GT10YM6, FCM29NQ6DN, BKA191KD1S, 0BCMGDHZGR]
+sources:
+  - url: https://en.wikipedia.org/wiki/Row_echelon_form
+    locator: Systems of linear equations
+  - book: isbn:9780321982384
+    locator: Section 1.4
+---
+
+## Proof
+
+1. By [[linear systems as vector equations|E7SAHXQEVC]], $x_1 v_1 + \cdots + x_n v_n = Ax$. So $\operatorname{span}(v_1, \dots, v_n) = \set{Ax : x \in F^n}$, and $b$ lies in the span exactly when $Ax = b$ is consistent.
+2. By [[the existence of echelon forms|FCM29NQ6DN]], a sequence of elementary row operations takes $A$ to a matrix $R$ in row echelon form.
+3. By [[the matrix form of row operations|K41GT10YM6]], $R = EA$ for a product $E$ of elementary matrices, and $E$ is invertible.
+4. The same operations take $[A \mid b]$ to $[R \mid Eb]$, because they act on each column separately.
+5. ("If") Assume that every row of $R$ has a pivot, and let $b \in F^m$. Then $[R \mid Eb]$ is in row echelon form, and its pivots are the pivots of $R$, so its last column is not a pivot column.
+6. By [[the consistency criterion|BKA191KD1S]], $Ax = b$ is consistent. So $b$ lies in the span, and the vectors span $F^m$.
+7. ("Only if") Assume that some row of $R$ has no pivot. Then this row is zero, and in row echelon form the zero rows are at the bottom; so row $m$ of $R$ is zero.
+8. Let $e_m = (0, \dots, 0, 1)$ and $b = E^{-1} e_m$. Then the operations of step 4 take $[A \mid b]$ to $[R \mid e_m]$.
+9. The matrix $[R \mid e_m]$ is in row echelon form, and its last row is $(0, \dots, 0 \mid 1)$. By the consistency criterion, $Ax = b$ has no solution.
+10. So $b$ is not in the span, and the vectors do not span $F^m$. This proves part 1.
+11. (Part 2) Each pivot of $R$ lies in a different column, so $R$ has at most $n$ pivots.
+12. If the vectors span $F^m$, then by part 1 each of the $m$ rows has a pivot, so $m \le n$.
+
+## Idea
+
+Row operations do not change which right sides are reachable, up to the invertible matrix $E$.
+In echelon form, a pivot in every row makes every system consistent, and a zero last row lets us choose a right side that gives $0 = 1$.

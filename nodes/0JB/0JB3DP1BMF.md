@@ -2,18 +2,22 @@
 tag: 0JB3DP1BMF
 kind: definition
 name: Linear combination
-msc: [15A03]
+msc: ["15A03"]
+topics: [MVH97H8B2J]
+audience: ug1
 defines: 0V8F3E48E6
 uses: [05EGHEQZAW]
 sources:
   - url: https://en.wikipedia.org/wiki/Linear_combination
     locator: Definition
+  - book: isbn:9783031410253
+    locator: Section 2A
 inventory: [AW41B4D2VT]
 ---
 
 ## Definition
 
-Let $F$ be a field and let $V$ be a [[vector space|000AYPA9AJ]] over $F$.
+Let $F$ be a field and let $V$ be a [[vector space|05EGHEQZAW]] over $F$.
 Let $v_1, \dots, v_k \in V$.
 A *linear combination* of $v_1, \dots, v_k$ is a vector of the form
 $$a_1 v_1 + a_2 v_2 + \cdots + a_k v_k,$$
@@ -25,7 +29,7 @@ For an arbitrary family $(v_i)_{i \in I}$, a linear combination is a sum $\sum_{
 The empty linear combination, with $k = 0$, is the zero vector.
 The vector $(3, 5)$ is the linear combination $3 e_1 + 5 e_2$ of the standard basis vectors of $F^2$.
 The set of all linear combinations of a family is its [[linear span|0DTY8B9HMS]].
-The [[matrix–vector product|0PDVQEP0ZC]] $Ax$ is a linear combination of the columns of $A$, with the entries of $x$ as coefficients.
+The [[matrix-vector product|0PDVQEP0ZC]] $Ax$ is a linear combination of the columns of $A$, with the entries of $x$ as coefficients.
 
 ## Explanations
 

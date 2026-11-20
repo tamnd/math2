@@ -2,8 +2,11 @@
 tag: KS6PP0BVSD
 kind: proof
 name: Proof that every spanning set contains a basis, by Zorn's lemma
-msc: [15A03]
+msc: ["15A03"]
+topics: [MVH97H8B2J]
+audience: ug1
 proves: 06MRNP4BNT
+methods: [01XM7JEKHY, 0J0XBKG64S]
 uses: [0VTQTPQGAV, 0BJKVF90Z6, 0EVHJFTG9Z, 0HR573CHNM, 0EPTJA5QV4, 04RXTQA5ZA, 011C29Q1S1, 0GP9ASVQ1X, 0H5J02P8S9, 0TZEEFTNCC]
 sources:
   - url: https://en.wikipedia.org/wiki/Basis_(linear_algebra)
@@ -12,7 +15,8 @@ sources:
 
 ## Proof
 
-We apply [[Zorn's lemma|04RXTQA5ZA]] to the linearly independent subsets of $S$. A subset is [[linearly independent|0EVHJFTG9Z]] when it is so as a family indexed by itself.
+We apply [[Zorn's lemma|04RXTQA5ZA]] to the linearly independent subsets of $S$.
+A subset is [[linearly independent|0EVHJFTG9Z]] when it is so as a family indexed by itself.
 
 1. Let $P$ be the set of linearly independent subsets of $S$, with the [[partial order|011C29Q1S1]] given by inclusion.
 2. The empty set is linearly independent and lies in $S$. So $P$ is nonempty.
@@ -33,4 +37,6 @@ We apply [[Zorn's lemma|04RXTQA5ZA]] to the linearly independent subsets of $S$.
 
 ## Idea
 
-Take an independent subset of $S$ that cannot be enlarged inside $S$; Zorn's lemma provides one. Every vector of $S$ is then a combination of this subset, or else it could be added. So the subset spans everything that $S$ spans, which is $V$.
+Take an independent subset of $S$ that cannot be enlarged inside $S$; Zorn's lemma provides one.
+Every vector of $S$ is then a combination of this subset, or else it could be added.
+So the subset spans everything that $S$ spans, which is $V$.
