@@ -1,0 +1,53 @@
+---
+tag: PHVR0HP7M5
+kind: example
+name: Pseudoinverse of a rank-one 3 × 2 matrix
+msc: [15A09]
+topics: [SS4EVPKT3A]
+audience: ug2
+instance_of: [0YY8VX28JR]
+illustrates: [Q9YN0F60ZW]
+uses: [0PSRCMCM5X, 000NPTMX6J, 0BYTQ4X1HC]
+sources:
+  - url: https://en.wikipedia.org/wiki/Moore–Penrose_inverse
+    locator: Singular value decomposition (SVD)
+  - url: https://en.wikipedia.org/wiki/Moore–Penrose_inverse
+    locator: Linear least-squares
+---
+
+## Example
+
+Let $A = \begin{pmatrix} 1 & 2 \\ 2 & 4 \\ 3 & 6 \end{pmatrix}$.
+The second column is twice the first, so $\operatorname{rank} A = 1$ and $A^T A = \begin{pmatrix} 14 & 28 \\ 28 & 56 \end{pmatrix}$ is singular.
+Write $A = u v^T$ with $u = (1, 2, 3)$ and $v = (1, 2)$, so $\norm{u}^2 = 14$ and $\norm{v}^2 = 5$.
+
+1. A reduced [[SVD|000NPTMX6J]] is $A = \sigma_1 u_1 v_1^T$ with $\sigma_1 = \norm{u} \norm{v} = \sqrt{70}$, $u_1 = u / \sqrt{14}$ and $v_1 = v / \sqrt5$.
+2. So $A^+ = \frac{1}{\sigma_1} v_1 u_1^T = \frac{v u^T}{70} = \frac{1}{70} \begin{pmatrix} 1 & 2 & 3 \\ 2 & 4 & 6 \end{pmatrix}$.
+3. $A A^+ = \frac{u (v^T v) u^T}{70} = \frac{u u^T}{14} = \frac{1}{14} \begin{pmatrix} 1 & 2 & 3 \\ 2 & 4 & 6 \\ 3 & 6 & 9 \end{pmatrix}$.
+4. $A^+ A = \frac{v (u^T u) v^T}{70} = \frac{v v^T}{5} = \frac15 \begin{pmatrix} 1 & 2 \\ 2 & 4 \end{pmatrix}$.
+5. Condition 1: $A A^+ A = \frac{u (u^T u) v^T}{14} = u v^T = A$.
+6. Condition 2: $A^+ A A^+ = \frac{v (v^T v) u^T}{5 \cdot 70} = \frac{v u^T}{70} = A^+$.
+7. Conditions 3 and 4: the matrices in steps 3 and 4 are real and symmetric.
+8. Least squares with $b = (1, 1, 1)$: $A^+ b = \frac{1}{70} (6, 12) = \left(\frac{3}{35}, \frac{6}{35}\right)$.
+9. Then $A A^+ b = \frac{u^T b}{14} u = \frac{6}{14} u = \frac37 (1, 2, 3)$. The residual $b - A A^+ b = \frac17 (4, 1, -2)$ is orthogonal to $u$, since $4 + 2 - 6 = 0$.
+10. Every $x$ with $v^T x = x_1 + 2 x_2 = \frac37$ is also a least-squares solution, for example $x = (\frac37, 0)$. Its norm is $\frac37 \approx 0.429$, and $\norm{A^+ b} = \frac{3\sqrt5}{35} \approx 0.192$ is smaller.
+
+## Remarks
+
+- The normal equations $A^T A x = A^T b$ have a whole line of solutions here, so they do not single out one answer. The pseudoinverse picks the solution in the row space, a multiple of $v$.
+- The formula $(A^T A)^{-1} A^T$ cannot be used, because $A^T A$ has determinant $14 \cdot 56 - 28^2 = 0$.
+- For any rank-one matrix $A = u v^*$, the same computation gives $A^+ = \frac{v u^*}{\norm{u}^2 \norm{v}^2}$.
+
+## Explanations
+
+### L1 human
+
+This matrix sends every vector to a multiple of $(1, 2, 3)$.
+So $Ax = (1, 1, 1)$ has no solution, and we take the closest point $\frac37 (1, 2, 3)$ on that line.
+Many $x$ reach that point, and the pseudoinverse picks the shortest one.
+
+### L2 human
+
+For a rank-one matrix the SVD has one term, and $A^+$ is a multiple of $A^T$.
+Steps 5 to 7 check the four Penrose conditions with the products $u^T u$ and $v^T v$, without large matrix products.
+A trap: one condition is not enough; the identity-like matrix in [[the diagonal non-example|2GME1M2784]] satisfies three conditions and is still wrong.

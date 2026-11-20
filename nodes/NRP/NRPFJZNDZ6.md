@@ -3,15 +3,21 @@ tag: NRPFJZNDZ6
 kind: proof
 name: Proof of the Cholesky decomposition by induction on the size
 msc: [15A23, 65F05]
+topics: [SS4EVPKT3A]
+audience: ug1
 proves: 0WKG8CYY6A
-uses: [0QQCG3JWJ4, 0EKZCX4K3P, 0EZSD6T9E0, 0MKABWDRNC, 0EX045E2BP, 09GK5PS824, 0K1KKMFHYH, FBSAPTP1PR, 068BZBXE0C]
+methods: [0ASJVEFA9J, GQHHNV79PA, 01XM7JEKHY]
+uses: [0QQCG3JWJ4, 0EKZCX4K3P, 0EZSD6T9E0, 0MKABWDRNC, 0EX045E2BP, 09GK5PS824, 0K1KKMFHYH, FBSAPTP1PR, 068BZBXE0C, 0AM050KCAW]
 sources:
   - url: https://nhigham.com/2020/08/11/what-is-a-cholesky-factorization/
+  - url: https://en.wikipedia.org/wiki/Cholesky_decomposition
+    locator: Statement
 ---
 
 ## Proof
 
-We prove existence by induction on $n$, then uniqueness, then the real case. Here $^*$ is the [[conjugate transpose|0EX045E2BP]].
+We prove existence by induction on $n$, then uniqueness, then the real case, then the converse.
+Here $^*$ is the [[conjugate transpose|0EX045E2BP]].
 
 1. For matrices $X$ and $Y$ with $XY$ defined, $(XY)^* = Y^* X^*$. This is the [[transpose of a product|09GK5PS824]] with all entries conjugated.
 2. For $n = 1$, $A = (a)$ and $a = e_1^* A e_1 > 0$ by [[positive definiteness|0QQCG3JWJ4]]. By the [[existence of square roots|068BZBXE0C]], $L = (\sqrt a)$ works.
@@ -42,7 +48,16 @@ We prove existence by induction on $n$, then uniqueness, then the real case. Her
 27. Real case: let $A$ be real, and let $\bar L$ be the matrix of complex conjugates of the entries of $L$.
 28. Then $\bar L$ is lower triangular with the same positive diagonal entries, and $\bar L\, \bar L^* = \overline{L L^*} = \bar A = A$.
 29. By the uniqueness of steps 20 to 26, $\bar L = L$. So all entries of $L$ are real.
+30. Converse: let $A = L L^*$ with $L$ lower triangular with positive diagonal entries. As in step 6, $L$ is invertible, so the columns of $B = L^*$ are linearly independent.
+31. Then $A = B^* B$, and by [[the Gram matrix theorem|0AM050KCAW]], part 2, $A$ is positive definite.
 
 ## Idea
 
-Split off the last row and column. The top left block has a Cholesky factor by induction, and the last row of $L$ is then forced by two equations. The only delicate point is that $c - m^* m$ is positive, and it is the value $x^* A x$ at a well chosen vector $x$.
+Split off the last row and column.
+The top left block has a Cholesky factor by induction, and the last row of $L$ is then forced by two equations.
+The only delicate point is that $c - m^* m$ is positive, and it is the value $x^* A x$ at a well chosen vector $x$.
+
+## Variants
+
+- Existence also follows from [[Sylvester's criterion|0WKEF78PMV]]: the leading minors are positive, so Gaussian elimination needs no row exchanges and has positive pivots $\Delta_k / \Delta_{k-1}$.
+- Another route uses the [[QR decomposition|0ERWG4NXQ9]]. Write $A = B^* B$ with $B$ invertible, by the Gram matrix theorem, and $B = QR$. Then $A = R^* R$, and $L = R^*$ after scaling the rows of $R$ to a positive diagonal.

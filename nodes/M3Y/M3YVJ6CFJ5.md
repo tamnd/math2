@@ -1,0 +1,52 @@
+---
+tag: M3YVJ6CFJ5
+kind: example
+name: Cholesky decomposition of a 3 × 3 matrix
+msc: [15A23, 15B57]
+topics: [SS4EVPKT3A]
+audience: ug1
+instance_of: [0KX66CZMBB]
+illustrates: [0WKG8CYY6A, 0WKEF78PMV]
+uses: [0EZSD6T9E0, 0QQCG3JWJ4]
+sources:
+  - url: https://en.wikipedia.org/wiki/Cholesky_decomposition
+    locator: Example
+---
+
+## Example
+
+Let
+$$A = \begin{pmatrix} 4 & 2 & -2 \\ 2 & 10 & 2 \\ -2 & 2 & 6 \end{pmatrix}.$$
+We find the [[lower triangular|0EZSD6T9E0]] $L = (l_{ij})$ with positive diagonal and $A = L L^T$, column by column.
+
+1. Column 1: $l_{11} = \sqrt{a_{11}} = \sqrt 4 = 2$. Then $l_{21} = a_{21} / l_{11} = 2/2 = 1$ and $l_{31} = a_{31} / l_{11} = -2/2 = -1$.
+2. Column 2: $l_{22} = \sqrt{a_{22} - l_{21}^2} = \sqrt{10 - 1} = 3$. Then $l_{32} = (a_{32} - l_{31} l_{21}) / l_{22} = (2 - (-1)(1))/3 = 1$.
+3. Column 3: $l_{33} = \sqrt{a_{33} - l_{31}^2 - l_{32}^2} = \sqrt{6 - 1 - 1} = 2$.
+4. So
+$$L = \begin{pmatrix} 2 & 0 & 0 \\ 1 & 3 & 0 \\ -1 & 1 & 2 \end{pmatrix}.$$
+5. Multiply back. Row 1 of $L L^T$ is $(2 \cdot 2,\ 2 \cdot 1,\ 2 \cdot (-1)) = (4, 2, -2)$.
+6. Row 2 is $(1 \cdot 2,\ 1 \cdot 1 + 3 \cdot 3,\ 1 \cdot (-1) + 3 \cdot 1) = (2, 10, 2)$.
+7. Row 3 is $((-1) \cdot 2,\ (-1) \cdot 1 + 1 \cdot 3,\ (-1)^2 + 1^2 + 2^2) = (-2, 2, 6)$.
+8. So $L L^T = A$. All three square roots in steps 1 to 3 had positive arguments, so $A$ is [[positive definite|0QQCG3JWJ4]].
+
+## Remarks
+
+- The leading minors of $A$ are $4$, $4 \cdot 10 - 2 \cdot 2 = 36$ and $\det A = (\det L)^2 = (2 \cdot 3 \cdot 2)^2 = 144$. They are the squares of $2$, $6$ and $12$, the products of the leading diagonal entries of $L$.
+- So [[Sylvester's criterion|0WKEF78PMV]] gives the same answer, and $l_{kk}^2 = \Delta_k / \Delta_{k-1}$: $4$, $36/4 = 9$ and $144/36 = 4$.
+- To solve $Ax = b$ with $b = (4, 14, 6)$, solve $Ly = b$ to get $y = (2, 4, 2)$. Then solve $L^T x = y$ to get $x = (1, 1, 1)$. Indeed $A(1, 1, 1) = (4, 14, 6)$.
+
+## Explanations
+
+### L1 human
+
+We write a positive definite matrix as a lower triangular matrix times its transpose.
+The entries come one at a time, from the top left corner.
+Each diagonal entry is a square root, and each entry below it is a division.
+Multiplying back gives the original matrix.
+
+### L2 human
+
+The algorithm reads only the lower half of $A$ and fills $L$ column by column.
+At each diagonal step we take the square root of $a_{jj}$ minus the squares already used in row $j$.
+If this number is not positive, the matrix is not positive definite, and the algorithm stops.
+A trap: in step 2, the correction $l_{31} l_{21}$ uses entries of the earlier column, and forgetting it gives $l_{32} = 2/3$, which is wrong.
