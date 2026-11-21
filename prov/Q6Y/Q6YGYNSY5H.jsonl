@@ -1,1 +1,5 @@
 {"field":"*","op":"add","agent":"m2-agent/write@0.1.0","model":"claude-opus-5-5","prompt":"0.1.0","run":"r-2026-11-19-f7d71ce8","human":"github:tamnd","at":"2026-11-19T04:34:35Z"}
+{"field":"body.explanations.L1","op":"change","agent":"m2-agent/write@0.1.0","model":"claude-opus-5-5","prompt":"0.1.0","run":"r-2026-11-22-8fe76b51","human":"github:tamnd","at":"2026-11-21T20:17:13Z"}
+{"field":"body.explanations.L2","op":"change","agent":"m2-agent/write@0.1.0","model":"claude-opus-5-5","prompt":"0.1.0","run":"r-2026-11-22-8fe76b51","human":"github:tamnd","at":"2026-11-21T20:17:13Z"}
+{"field":"body.remarks","op":"change","agent":"m2-agent/write@0.1.0","model":"claude-opus-5-5","prompt":"0.1.0","run":"r-2026-11-22-8fe76b51","human":"github:tamnd","at":"2026-11-21T20:17:13Z"}
+{"field":"body.statement","op":"change","agent":"m2-agent/write@0.1.0","model":"claude-opus-5-5","prompt":"0.1.0","run":"r-2026-11-22-8fe76b51","human":"github:tamnd","at":"2026-11-21T20:17:13Z"}

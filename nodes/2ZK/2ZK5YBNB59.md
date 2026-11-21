@@ -16,20 +16,23 @@ sources:
 
 ## Example
 
-A constant force $F = (2, 3, 1)$, in newtons, moves an object along the straight displacement $d = (4, -1, 2)$, in metres.
+A constant force $F = (2, 3, 1)$, in newtons, moves an object along the straight displacement $d = (4, -1, 2)$, in meters.
 The work of the force is $W = F \cdot d$, the [[dot product|0S52TNNTH9]] of force and displacement.
 
-1. The products of the components are $2 \cdot 4 = 8$, $3 \cdot (-1) = -3$ and $1 \cdot 2 = 2$.
-2. Their sum is $W = 8 - 3 + 2 = 7$. So the work is $7$ joules.
-3. The [[lengths|0XKBKGTCPC]] are $\|F\| = \sqrt{14}$ newtons and $\|d\| = \sqrt{21}$ metres.
-4. So $\cos \theta = \dfrac{7}{\sqrt{14}\sqrt{21}} = \dfrac{7}{7\sqrt{6}} = \dfrac{1}{\sqrt{6}} \approx 0.408$, and the angle between force and motion is about $65.9^\circ$.
-5. Only the part of the force along the motion does work: $\|F\| \cos \theta = \tfrac{7}{\sqrt{21}} \approx 1.53$ newtons, over $\sqrt{21}$ metres.
+1. Multiply the matching components: $2 \cdot 4 = 8$, $3 \cdot (-1) = -3$ and $1 \cdot 2 = 2$.
+2. Add them: $W = 8 - 3 + 2 = 7$, so the work is $7$ joules.
+3. The [[lengths|0XKBKGTCPC]] are $\|F\| = \sqrt{14}$ newtons and $\|d\| = \sqrt{21}$ meters.
+4. The angle between force and motion has the cosine
+   $$\cos \theta = \frac{7}{\sqrt{14} \, \sqrt{21}} = \frac{7}{7\sqrt{6}} = \frac{1}{\sqrt{6}} \approx 0.408,$$
+   so $\theta$ is about $65.9^\circ$.
+5. Only the part of the force along the motion does work. That part is $\|F\| \cos \theta = 7 / \sqrt{21} \approx 1.53$ newtons over $\sqrt{21}$ meters, which gives $7$ joules again.
 
 ## Remarks
 
-The formula $W = F \cdot d$ is the special case of the [[work done by a force field|0CDZ684TCD]] for a constant force and a straight path.
-If the force is perpendicular to the motion, the work is $0$; gravity does no work on a car that drives on a level road.
-If the force points against the motion, the work is negative; friction does negative work.
+The formula $W = F \cdot d$ is the case of a constant force and a straight path of the [[work done by a force field|0CDZ684TCD]] along a curve.
+The sign of the work follows the sign of the dot product.
+A force perpendicular to the motion does no work, which is why gravity does no work on a car on a level road, and a force against the motion does negative work, as friction does.
+Doubling the force or the displacement doubles the work, because the dot product is linear in each factor.
 
 ## Explanations
 
@@ -42,6 +45,6 @@ Here the force and the motion give $8 - 3 + 2 = 7$ joules.
 
 ### L2 human
 
-The product in step 5 is the scalar component of $F$ along $d$ times the length of $d$: $\tfrac{7}{\sqrt{21}} \cdot \sqrt{21} = 7$.
-This is the physical reading of $F \cdot d = \|F\| \, \|d\| \cos \theta$.
-A trap: work is a number, not a vector, so it has no direction.
+Step 5 is the physical reading of $F \cdot d = \|F\| \, \|d\| \cos \theta$: the scalar component of $F$ along $d$, times the length of $d$.
+In numbers, $\tfrac{7}{\sqrt{21}} \cdot \sqrt{21} = 7$.
+Watch out: work is a number, not a vector, so it has a sign but no direction.

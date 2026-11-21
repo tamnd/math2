@@ -16,7 +16,7 @@ sources:
 ## Example
 
 Let $u = (1, 2, 3)$, $v = (4, 5, 6)$ and $w = (7, 8, 9)$.
-We show that the [[scalar triple product|34VJYG6GVD]] is $0$ and find the dependence.
+We show that the [[scalar triple product|34VJYG6GVD]] is $0$ and then find the dependence it predicts.
 
 1. [[Cross product|0N5N15HWZ7]]: $v \times w = (5 \cdot 9 - 6 \cdot 8, \; 6 \cdot 7 - 4 \cdot 9, \; 4 \cdot 8 - 5 \cdot 7) = (-3, 6, -3)$.
 2. [[Dot product|0S52TNNTH9]]: $u \cdot (v \times w) = -3 + 12 - 9 = 0$.
@@ -27,10 +27,10 @@ We show that the [[scalar triple product|34VJYG6GVD]] is $0$ and find the depend
 
 ## Remarks
 
-The vectors lie in the plane through $0$ with the normal vector $v \times w = (-3, 6, -3)$, that is, the plane $x - 2y + z = 0$.
-Check: $1 - 4 + 3 = 0$, $4 - 10 + 6 = 0$ and $7 - 16 + 9 = 0$.
+The plane that holds the three vectors has the normal vector $v \times w = (-3, 6, -3)$, so it is the plane $x - 2y + z = 0$.
+Each vector satisfies its equation: $1 - 4 + 3 = 0$, $4 - 10 + 6 = 0$ and $7 - 16 + 9 = 0$.
 No two of the three vectors are parallel, so the zero comes from all three together.
-The matrix with the rows $u$, $v$, $w$ is a standard example of a singular matrix.
+The matrix with rows $u$, $v$, $w$ is a standard example of a singular matrix, and this example shows the geometry behind it.
 
 ## Explanations
 
@@ -42,6 +42,6 @@ The steps from $u$ to $v$ and from $v$ to $w$ are both $(3, 3, 3)$, which explai
 
 ### L2 human
 
-The zero in step 2 tells only that a dependence exists; steps 4 and 5 find it.
-Here $v - u = w - v = (3, 3, 3)$, so the tips of $u$, $v$, $w$ lie on one line, and that line and $0$ span the plane.
-A trap: a zero triple product does not mean that two of the vectors are parallel, and here none are.
+The zero in step 2 tells you only that a dependence exists, and steps 4 and 5 find it.
+Here $v - u = w - v = (3, 3, 3)$, so the tips of $u$, $v$, $w$ lie on one line, and that line together with $0$ spans the plane.
+Watch out: a zero triple product does not mean that two of the vectors are parallel, and here none are.

@@ -15,6 +15,7 @@ sources:
 
 ## Statement
 
+This is the property that makes the cross product useful: it hands you a vector at a right angle to two given vectors.
 Let $a$ and $b$ be vectors in $\mathbb{R}^3$, and let $a \times b$ be their [[cross product|0N5N15HWZ7]].
 Let $u \cdot v = u_1 v_1 + u_2 v_2 + u_3 v_3$ be the [[dot product|0S52TNNTH9]].
 Then
@@ -25,23 +26,29 @@ So $a \times b$ is [[perpendicular|03NK6RSRQ1]] to $a$ and to $b$.
 
 ### Why each hypothesis is needed
 
-The statement holds for all $a, b \in \mathbb{R}^3$, including the zero vector and parallel vectors; in these cases $a \times b = 0$, and the zero vector is perpendicular to every vector.
+The statement holds for all $a, b \in \mathbb{R}^3$, with no exceptions.
+If $a$ or $b$ is zero, or if they are parallel, then $a \times b = 0$, and the zero vector is perpendicular to every vector.
+In those cases the statement is true but tells you nothing.
 
-### Consequences
+### What it gives you
 
-- If $a$ and $b$ are not parallel, then $a \times b$ is a normal vector of the plane through $0$ spanned by $a$ and $b$, as the row on the [[equation of a plane|07SDJ5DNE4]] uses.
-- $a \times b$ is perpendicular to each linear combination $sa + tb$, by the linearity of the dot product.
-- The scalar triple products $a \cdot (a \times b)$ and $b \cdot (a \times b)$ are $0$, which matches the fact that the [[scalar triple product|34VJYG6GVD]] of three coplanar vectors is $0$.
+When $a$ and $b$ are not parallel, they span a plane through $0$, and $a \times b$ is a normal vector of that plane.
+That is how the page on the [[equation of a plane|07SDJ5DNE4]] finds a normal from two direction vectors.
+By the linearity of the dot product, $a \times b$ is also perpendicular to every combination $sa + tb$, that is, to the whole plane.
 
-### Converse
+The statement fits with volumes too.
+The scalar triple products $a \cdot (a \times b)$ and $b \cdot (a \times b)$ are $0$, as they must be, since the [[scalar triple product|34VJYG6GVD]] of three vectors in one plane is $0$.
+
+### The converse
 
 If $a$ and $b$ are not parallel, then every vector perpendicular to both is a multiple of $a \times b$.
-The reason: such vectors solve two independent linear equations in three unknowns, so they form a line, and $a \times b \neq 0$ lies on it.
-If $a$ and $b$ are parallel, the perpendicular vectors form a plane, and $a \times b = 0$ does not span it.
+Such vectors solve two independent linear equations in three unknowns, so they form a line, and the nonzero vector $a \times b$ lies on it.
+If $a$ and $b$ are parallel, the perpendicular vectors form a whole plane, and $a \times b = 0$ does not span it.
 
-### Generalizations
+### Beyond three dimensions
 
-In $\mathbb{R}^n$, a vector perpendicular to $n - 1$ given vectors comes from the formal determinant with the first row $e_1, \dots, e_n$; this generalized cross product takes $n - 1$ factors.
+In $\mathbb{R}^n$, a vector perpendicular to $n - 1$ given vectors comes from the formal determinant with first row $e_1, \dots, e_n$.
+This generalized cross product takes $n - 1$ factors.
 In $\mathbb{R}^7$ there is also a product of two vectors that is perpendicular to both factors.
 
 ## Explanations
@@ -54,15 +61,14 @@ So it makes a right angle with each pencil.
 
 ### L2 human
 
-Check with $a = (1, 2, 3)$, $b = (4, 5, 6)$ and $a \times b = (-3, 6, -3)$.
-
-1. $a \cdot (a \times b) = -3 + 12 - 9 = 0$.
-2. $b \cdot (a \times b) = -12 + 30 - 18 = 0$.
-
-The typical use is a quick check of a computed cross product: if one of these dot products is not $0$, there is an arithmetic error.
-A trap: perpendicularity does not fix the sign of $a \times b$; the right-hand rule does.
+Here is the check for $a = (1, 2, 3)$, $b = (4, 5, 6)$ and $a \times b = (-3, 6, -3)$:
+$$a \cdot (a \times b) = -3 + 12 - 9 = 0, \qquad b \cdot (a \times b) = -12 + 30 - 18 = 0.$$
+The typical use is a quick test of a computed cross product.
+If one of these dot products is not $0$, there is an arithmetic error.
+Watch out: perpendicularity does not fix the sign of $a \times b$, since $-(a \times b)$ is perpendicular too; the right-hand rule fixes it.
 
 ### L3 human
 
-In the language of determinants, $c \cdot (a \times b) = \det(c, a, b)$, and this vanishes for $c = a$ or $c = b$ because a determinant with two equal rows is $0$.
+In the language of determinants, $c \cdot (a \times b) = \det(c, a, b)$.
+This vanishes for $c = a$ or $c = b$ because a determinant with two equal rows is $0$.
 So the statement is a special case of the alternating property of the determinant, treated in the sub-area on [[determinants|DTBK11SR77]].

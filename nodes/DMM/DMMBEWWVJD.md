@@ -16,20 +16,22 @@ sources:
 
 ## Example
 
-Let $u = (1, 2, 3)$ and $v = (1, 1, 1)$, and let $w = (u \cdot v)\, v$.
+Let $u = (1, 2, 3)$ and $v = (1, 1, 1)$, and let $w = (u \cdot v)\, v$, the formula with the division by $v \cdot v$ left out.
 We show that $w$ is not the [[vector projection|0JW13B48YP]] of $u$ along $v$.
 
 1. The [[dot product|0S52TNNTH9]] is $u \cdot v = 6$, so $w = 6v = (6, 6, 6)$.
 2. The remainder is $u - w = (-5, -4, -3)$.
-3. Its dot product with $v$ is $-5 - 4 - 3 = -12 \neq 0$. So $u - w$ is not perpendicular to $v$.
-4. The projection is the unique multiple of $v$ with a perpendicular remainder, so $w$ is not the projection.
-5. The correct projection is $\tfrac{6}{3} v = (2, 2, 2)$. It differs from $w$ by the factor $v \cdot v = 3$.
+3. Its dot product with $v$ is $-5 - 4 - 3 = -12 \neq 0$, so $u - w$ is not perpendicular to $v$.
+4. The projection is the only multiple of $v$ whose remainder is perpendicular to $v$, so $w$ is not the projection.
+5. The correct projection is $\tfrac{6}{3}\, v = (2, 2, 2)$, and $w$ is too long by the factor $v \cdot v = 3$.
 
 ## Remarks
 
 The formula $(u \cdot v)\, v$ is correct exactly when $v \cdot v = 1$, that is, when $v$ is a unit vector.
-With the unit vector $\hat v = \tfrac{1}{\sqrt{3}}(1, 1, 1)$, the formula $(u \cdot \hat v)\, \hat v$ gives $\tfrac{6}{\sqrt{3}} \cdot \tfrac{1}{\sqrt{3}}(1, 1, 1) = (2, 2, 2)$.
-The error grows with the length of $v$: for $v = (2, 2, 2)$, the wrong formula gives $(24, 24, 24)$.
+With the unit vector $\hat v = \tfrac{1}{\sqrt{3}}(1, 1, 1)$ the shortcut works:
+$$(u \cdot \hat v)\, \hat v = \frac{6}{\sqrt{3}} \cdot \frac{1}{\sqrt{3}}(1, 1, 1) = (2, 2, 2).$$
+The error grows with the length of $v$.
+For $v = (2, 2, 2)$ the wrong formula gives $(24, 24, 24)$, while the true projection is still $(2, 2, 2)$.
 
 ## Explanations
 
@@ -42,5 +44,5 @@ The vector $(6, 6, 6)$ has length about $10.4$, so it cannot be the shadow.
 ### L2 human
 
 The test for a projection is the perpendicular remainder, as in step 3.
-A quick check of length also helps: a projection is never longer than the original vector.
-A trap: formulas from books that assume unit vectors must be adapted with the factor $\tfrac{1}{v \cdot v}$.
+A quick check of length also helps, since a projection is never longer than the original vector.
+Watch out: formulas in books that assume unit vectors need the extra factor $\tfrac{1}{v \cdot v}$ before you use them with other vectors.

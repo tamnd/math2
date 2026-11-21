@@ -19,35 +19,38 @@ sources:
 
 ## Definition
 
-Let $n \geq 1$ and let $x = (x_1, \dots, x_n)$ and $y = (y_1, \dots, y_n)$ be vectors of the [[coordinate space|0XM8BZD76G]] $\mathbb{R}^n$.
+The dot product of two vectors of the same size is the sum of the products of their matching entries.
+Let $n \ge 1$ and let $x = (x_1, \dots, x_n)$ and $y = (y_1, \dots, y_n)$ be vectors of the [[coordinate space|0XM8BZD76G]] $\mathbb{R}^n$.
 The dot product of $x$ and $y$ is the real number
 $$x \cdot y = \sum_{i=1}^{n} x_i y_i = x_1 y_1 + x_2 y_2 + \dots + x_n y_n.$$
 
 ## Notation
 
 Other notations are $\langle x, y \rangle$ and $(x, y)$.
-In matrix notation, $x \cdot y = x^{\mathsf{T}} y$ for column vectors $x$ and $y$.
-In Mathlib the dot product of two vectors $x, y : \text{Fin } n \to R$ is `dotProduct x y`, written `x ⬝ᵥ y`, for any commutative semiring $R$.
+For column vectors, $x \cdot y = x^{\mathsf{T}} y$, a $1 \times 1$ matrix that we read as a number.
+In Mathlib the dot product of $x, y : \text{Fin } n \to R$ is `dotProduct x y`, written `x ⬝ᵥ y`, and it is defined for any commutative semiring $R$.
 
 ## Remarks
 
-The dot product is symmetric, bilinear and positive definite, so it is an [[inner product|0NB0AWGJBW]] on $\mathbb{R}^n$.
-In the plane and in space, $x \cdot y = \|x\| \, \|y\| \cos \theta$, where $\theta$ is the angle between $x$ and $y$; the [[geometric formula|070TXS9AXM]] proves this.
-The same formula defines a symmetric bilinear form on $F^n$ for every field $F$, but over $\mathbb{C}$ or a finite field it is not positive.
+The definition asks for two things: the vectors have the same number $n$ of entries, and the entries are real numbers.
+The first condition gives each entry of $x$ a partner in $y$.
+For example, $(1, 2, 3) \cdot (4, 5, 6) = 4 + 10 + 18 = 32$, but $(1, 2) \cdot (1, 2, 3)$ is not defined.
+
+The second condition gives the dot product its geometry.
+Over $\mathbb{R}$ the number $x \cdot x = x_1^2 + \dots + x_n^2$ is never negative and is zero only for $x = 0$, so the dot product is an [[inner product|0NB0AWGJBW]] and gives lengths and angles, as the [[concept page|0S52TNNTH9]] explains.
+Over $\mathbb{C}$ the same formula fails positivity: the vector $(1, i)$ gives $1 + i^2 = 0$, and that is why complex inner products conjugate one factor.
+In the plane and in space the dot product also equals $\|x\| \, \|y\| \cos \theta$, where $\theta$ is the angle between $x$ and $y$; the [[geometric formula|070TXS9AXM]] proves it.
 
 ## Explanations
 
 ### L1 human
 
-The dot product multiplies two vectors component by component and adds the results.
+The dot product multiplies two vectors entry by entry and adds the results.
 For example, $(1, 2, 3) \cdot (4, 5, 6) = 4 + 10 + 18 = 32$.
 It is zero exactly when the two vectors are perpendicular, or when one of them is zero.
 
 ### L2 human
 
-For $x = (2, -1, 0, 3)$ and $y = (1, 4, 7, 1)$ in $\mathbb{R}^4$:
-
-1. The products of the components are $2$, $-4$, $0$ and $3$.
-2. Their sum is $x \cdot y = 1$.
-
-A trap: both vectors must have the same number of components, or the dot product is not defined.
+For $x = (2, -1, 0, 3)$ and $y = (1, 4, 7, 1)$ in $\mathbb{R}^4$, multiply the matching entries and add:
+$$x \cdot y = 2 - 4 + 0 + 3 = 1.$$
+Watch out: a zero entry still holds its position, so do not drop it and shift the other entries.

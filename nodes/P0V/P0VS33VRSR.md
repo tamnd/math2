@@ -14,22 +14,25 @@ sources:
 
 ## Example
 
+The angle between two planes is read off from their normals, and the cross product of the normals points along the line where the planes meet.
 Let $P_1$ be the plane $x + y = 1$ and let $P_2$ be the plane $y + z = 2$ in $\mathbb{R}^3$.
 We compute the angle between them and their line of intersection.
 
-1. Normals from the [[general form|07SDJ5DNE4]]: $n_1 = (1, 1, 0)$ and $n_2 = (0, 1, 1)$.
-2. [[Dot product|0S52TNNTH9]]: $n_1 \cdot n_2 = 0 + 1 + 0 = 1$, and $\|n_1\| = \|n_2\| = \sqrt{2}$.
-3. $\cos \varphi = \dfrac{|1|}{\sqrt{2} \cdot \sqrt{2}} = \tfrac{1}{2}$.
-4. So the [[angle|0ZEHZY85E6]] between the planes is $\varphi = \tfrac{\pi}{3}$, or $60^\circ$.
-5. The line of intersection has the direction $n_1 \times n_2 = (1 \cdot 1 - 0 \cdot 1, \; 0 \cdot 0 - 1 \cdot 1, \; 1 \cdot 1 - 1 \cdot 0) = (1, -1, 1)$.
-6. A common point: put $y = 0$; then $x = 1$ and $z = 2$. So the line is $(1, 0, 2) + t(1, -1, 1)$.
-7. Check: $(1 + t) + (-t) = 1$ and $(-t) + (2 + t) = 2$ for all $t$.
+1. The [[general form|07SDJ5DNE4]] gives the normals $n_1 = (1, 1, 0)$ and $n_2 = (0, 1, 1)$.
+2. The [[dot product|0S52TNNTH9]] is $n_1 \cdot n_2 = 0 + 1 + 0 = 1$, and $\|n_1\| = \|n_2\| = \sqrt{2}$.
+3. So
+   $$\cos \varphi = \frac{|n_1 \cdot n_2|}{\|n_1\| \, \|n_2\|} = \frac{1}{\sqrt{2} \cdot \sqrt{2}} = \frac{1}{2},$$
+   and the [[angle|0ZEHZY85E6]] between the planes is $\varphi = \tfrac{\pi}{3}$, or $60^\circ$.
+4. The line of intersection lies in both planes, so its direction is perpendicular to both normals. The [[cross product|0N5N15HWZ7]] gives one:
+   $$n_1 \times n_2 = (1 \cdot 1 - 0 \cdot 1, \; 0 \cdot 0 - 1 \cdot 1, \; 1 \cdot 1 - 1 \cdot 0) = (1, -1, 1).$$
+5. For a common point, put $y = 0$; then $x = 1$ and $z = 2$. So the line is $(1, 0, 2) + t(1, -1, 1)$.
+6. Check: $(1 + t) + (-t) = 1$ and $(-t) + (2 + t) = 2$ for all $t$.
 
 ## Remarks
 
-The angle between the planes is the angle between their normals, or its supplement if that is obtuse.
-With $n_2$ replaced by $-n_2 = (0, -1, -1)$, the normals make the angle $\tfrac{2\pi}{3}$, but the planes still make the angle $\tfrac{\pi}{3}$.
-The direction of the line of intersection is perpendicular to both normals, so it lies in both planes.
+A plane has two opposite normals, and the absolute value in step 3 makes the answer independent of which one we pick.
+With $n_2$ replaced by $-n_2 = (0, -1, -1)$, the normals make the angle $\tfrac{2\pi}{3}$, yet the planes still meet at $\tfrac{\pi}{3}$.
+So the angle between two planes is the acute one of the two angles between their normals.
 
 ## Explanations
 
@@ -41,6 +44,7 @@ So we measure the angle between the normals, which is a dot product computation.
 
 ### L2 human
 
-Steps 1 to 4 are the method for the angle, and steps 5 and 6 are the method for the line of intersection.
-The absolute value in step 3 chooses the acute angle, because a plane has two opposite normals.
-A trap: the angle between two planes is not the angle between two direction vectors chosen in them; such vectors can make any angle.
+Steps 1 to 3 are the method for the angle, and steps 4 and 5 are the method for the line of intersection.
+Any value of one coordinate works in step 5, as long as the two equations can then be solved for the other two.
+Watch out: the angle between two planes is not the angle between two direction vectors chosen in them.
+Such vectors can make any angle at all, while the normals are fixed up to sign.

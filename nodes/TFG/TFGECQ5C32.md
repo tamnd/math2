@@ -17,20 +17,22 @@ sources:
 ## Example
 
 For $u, v \in \mathbb{R}^2$ let $u \star v = u_1 v_1 - u_2 v_2$.
-This form has two of the three basic properties of the [[dot product|0S52TNNTH9]], but not the third.
+This form has two of the three basic properties of the [[dot product|0S52TNNTH9]], symmetry and linearity, but not positivity.
 
-1. Symmetry holds: $v \star u = v_1 u_1 - v_2 u_2 = u \star v$, by the commutativity of real multiplication.
-2. Linearity in $u$ holds: $(au + bw) \star v = (au_1 + bw_1)v_1 - (au_2 + bw_2)v_2 = a(u \star v) + b(w \star v)$.
-3. Positivity fails. Let $u = (1, 1)$. Then $u \star u = 1 - 1 = 0$, but $u \neq 0$.
-4. Positivity fails in a second way. Let $u = (0, 1)$. Then $u \star u = -1 < 0$, so $\sqrt{u \star u}$ is not a real number.
-5. So the form gives no length: a "length" from $\star$ would be $0$ for $(1, 1)$ and undefined for $(0, 1)$.
+1. Symmetry holds, because real multiplication commutes: $v \star u = v_1 u_1 - v_2 u_2 = u \star v$.
+2. Linearity in the first factor holds, because multiplication distributes over addition:
+   $$(au + bw) \star v = (au_1 + bw_1)v_1 - (au_2 + bw_2)v_2 = a(u \star v) + b(w \star v).$$
+   By symmetry the form is linear in the second factor too.
+3. Positivity fails at a nonzero vector with value $0$: for $u = (1, 1)$, $u \star u = 1 - 1 = 0$.
+4. Positivity also fails at a vector with a negative value: for $u = (0, 1)$, $u \star u = -1$, so $\sqrt{u \star u}$ is not a real number.
+5. Hence the form gives no length. A "length" built from $\star$ would be $0$ for the nonzero vector $(1, 1)$ and undefined for $(0, 1)$.
 
 ## Remarks
 
-The example shows that positivity is a separate condition, and it does not follow from symmetry and bilinearity.
+Positivity is a separate condition, and symmetry and bilinearity do not imply it.
 The form $\star$ is the Minkowski form of special relativity in one space dimension, with the time coordinate first.
-Vectors with $u \star u = 0$, such as $(1, 1)$, are light-like.
-If we change the sign to $u_1 v_1 + u_2 v_2$, we get the dot product back.
+Vectors with $u \star u = 0$, such as $(1, 1)$, are the light-like vectors, the directions in which light travels.
+If the minus sign becomes a plus, the form is the dot product again, and every nonzero vector gets a positive value.
 
 ## Explanations
 
@@ -44,6 +46,6 @@ A real nonzero arrow cannot have length $0$, so this form is not a dot product.
 ### L2 human
 
 To test whether a symmetric bilinear form is an inner product, test $u \star u > 0$ for all $u \neq 0$.
-One vector with $u \star u \leq 0$ and $u \neq 0$ is enough to show that the form is not one.
-A trap: positive values on the basis vectors do not prove positivity.
-The form $u_1 v_1 - 2u_1 v_2 - 2u_2 v_1 + u_2 v_2$ gives $1$ on $(1, 0)$ and on $(0, 1)$, but $-2$ on $(1, 1)$.
+One nonzero vector with $u \star u \le 0$ is enough to show that the form is not one.
+Watch out: positive values on the basis vectors do not prove positivity.
+The form $u_1 v_1 - 2u_1 v_2 - 2u_2 v_1 + u_2 v_2$ gives $1$ on $(1, 0)$ and on $(0, 1)$, but $1 - 2 - 2 + 1 = -2$ on $(1, 1)$.
