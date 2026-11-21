@@ -67,7 +67,7 @@ The SEP entry on truth values calls the structure with both orders the bilattice
 
 ### History
 
-Dunn introduced the four-valued semantics in 1976 under the name first-degree entailment.
+Dunn introduced the four-valued semantics of first-degree entailment, the system of Anderson and Belnap, in 1976.
 Belnap promoted it in 1977 as a logic for computers that handle incomplete and inconsistent information.
 Routley and Routley gave the star semantics for negation in 1972.
 
