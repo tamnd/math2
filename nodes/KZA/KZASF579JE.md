@@ -1,12 +1,12 @@
 ---
-tag: ~7eb41167
+tag: KZASF579JE
 kind: example
 name: Increasing sequences in a dense linear order are indiscernible
 msc: ["03C30", "03C10", "06A05"]
 topics: [W9CHA4PD9H]
 audience: grad
-instance_of: [~0949d8de, ~9c5e0903]
-uses: [~cc1977c7, 2W4S2H4VYA, E52RM0KX94, 7FDDXV3JK7, 0FRXBVVR03]
+instance_of: [6EG0ZK1YBX, RQS808ZC8T]
+uses: [4016QKAHFB, 2W4S2H4VYA, E52RM0KX94, 7FDDXV3JK7, 0FRXBVVR03]
 sources:
   - url: https://en.wikipedia.org/wiki/Indiscernibles
     locator: Examples
@@ -18,7 +18,7 @@ sources:
 
 Let $\mathcal{M} = (M, <)$ be a model of the [[theory of dense linear orders without endpoints|2W4S2H4VYA]], for example $(\Q, <)$ or $(\R, <)$.
 Let $(I, <)$ be a [[linear order|0FRXBVVR03]], and let $(a_i)_{i \in I}$ be strictly increasing: $i < j$ implies $a_i < a_j$.
-We show that $(a_i)_{i \in I}$ is an [[order-indiscernible sequence|~cc1977c7]] over $\emptyset$, and that it is not an indiscernible set.
+We show that $(a_i)_{i \in I}$ is an [[order-indiscernible sequence|4016QKAHFB]] over $\emptyset$, and that it is not an indiscernible set.
 
 1. By [[quantifier elimination for dense linear orders|E52RM0KX94]], every formula $\varphi(x_1, \dots, x_n)$ is equivalent in $\mathcal{M}$ to a quantifier-free formula $\psi(x_1, \dots, x_n)$.
 2. The formula $\psi$ is a Boolean combination of atomic formulas $x_k < x_l$ and $x_k = x_l$, with $1 \le k, l \le n$. The signature has no constants, so no other atomic formulas occur.
@@ -32,7 +32,7 @@ We show that $(a_i)_{i \in I}$ is an [[order-indiscernible sequence|~cc1977c7]] 
 The example shows that the order of the indices can be visible to the formulas.
 Over a set of parameters $A \subseteq M$ the sequence stays indiscernible when each element of $A$ lies below all members or above all members.
 For instance, $a_n = n$ for $n \ge 1$ in $(\Q, <)$ is indiscernible over $\set{0}$ and not over $\set{3/2}$, since $x_1 < 3/2$ holds at $a_1$ and fails at $a_2$.
-For $(\Q, <)$ itself, the identity map indexed by $(\Q, <)$ is an indiscernible sequence, and it is a first instance of [[generalized indiscernibles|~9c5e0903]] indexed by an ordered structure.
+For $(\Q, <)$ itself, the identity map indexed by $(\Q, <)$ is an indiscernible sequence, and it is a first instance of [[generalized indiscernibles|RQS808ZC8T]] indexed by an ordered structure.
 A sequence that is not monotone, such as $0, 2, 1, 3$, is not indiscernible, since $x_1 < x_2$ holds at $(0, 2)$ and fails at $(2, 1)$.
 A strictly decreasing sequence is also indiscernible, by the same steps with $<$ reversed.
 

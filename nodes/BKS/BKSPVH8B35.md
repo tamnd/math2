@@ -1,11 +1,11 @@
 ---
-tag: ~13b64864
+tag: BKSPVH8B35
 kind: proof
 name: Proof of Vaught's two-cardinal theorem
 msc: ["03C55", "03C50"]
 topics: [W9CHA4PD9H]
 audience: grad
-proves: ~cdfd261d
+proves: XT227BYP7B
 uses: [484M0TZ1S7, 1NR3HAWG9D, NHCRZ74JHH, 4NJS7W57VK, 8WZF9SBP39, 9V71Q3SD1G, EY20BF96SJ, Z92S2GVCX9, 0ZHQMQ2C1N]
 methods: [01XM7JEKHY, 0ZHQMQ2C1N]
 sources:

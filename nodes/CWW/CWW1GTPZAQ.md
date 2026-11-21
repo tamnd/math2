@@ -1,14 +1,14 @@
 ---
-tag: ~56ca9cc6
+tag: CWW1GTPZAQ
 kind: example
 name: The integer order indexed by itself is not an indiscernible family
 msc: ["03C30", "06A05"]
 topics: [W9CHA4PD9H]
 audience: research
 not_instance_of:
-  - target: ~9c5e0903
+  - target: RQS808ZC8T
     note: "the pairs (0, 1) and (0, 2) have the same order pattern, and only (0, 2) has an element between its members"
-uses: [~9c5e0903, ~cc1977c7, H8VM37SSAX, DSQ17TNW1C, ~7eb41167]
+uses: [RQS808ZC8T, 4016QKAHFB, H8VM37SSAX, DSQ17TNW1C, KZASF579JE]
 sources:
   - url: https://en.wikipedia.org/wiki/Indiscernibles
     locator: Generalizations
@@ -19,7 +19,7 @@ sources:
 ## Example
 
 Take the structure $(\Z, <)$ both as the index structure and as the model, and let $a_n = n$.
-We show that $(a_n)_{n \in \Z}$ is not a $(\Z, <)$-indexed [[indiscernible family|~9c5e0903]], although all its members have the same type.
+We show that $(a_n)_{n \in \Z}$ is not a $(\Z, <)$-indexed [[indiscernible family|RQS808ZC8T]], although all its members have the same type.
 
 1. In the signature $\set{<}$, the quantifier-free type of a pair $(m, n)$ records only whether $m < n$, $m = n$ or $m > n$.
 2. So $(0, 1)$ and $(0, 2)$ have the same quantifier-free type, since $0 < 1$ and $0 < 2$.
@@ -34,9 +34,9 @@ The shift $n \mapsto n + k$ is an [[automorphism|DSQ17TNW1C]] of $(\Z, <)$ that 
 
 The example shows that an index structure indexed by itself is indiscernible only when its quantifier-free types decide its types.
 This holds for [[ultrahomogeneous|H8VM37SSAX]] structures, and $(\Z, <)$ is not ultrahomogeneous: the isomorphism $\set{0, 1} \to \set{0, 2}$ has no extension to an automorphism.
-Since the index structure is a linear order, the example also shows that $(n)_{n \in \Z}$ is not an [[order-indiscernible sequence|~cc1977c7]] in $(\Z, <)$.
+Since the index structure is a linear order, the example also shows that $(n)_{n \in \Z}$ is not an [[order-indiscernible sequence|4016QKAHFB]] in $(\Z, <)$.
 The subfamily of even integers fails in the same way, with the pairs $(0, 2)$ and $(0, 4)$ and the formula "at least two elements lie between $x_1$ and $x_2$".
-Inside $(\Q, <)$ the same family is indiscernible; see [[this example|~7eb41167]].
+Inside $(\Q, <)$ the same family is indiscernible; see [[this example|KZASF579JE]].
 
 ## Explanations
 

@@ -1,14 +1,14 @@
 ---
-tag: ~c1ae29d1
+tag: CGEPN90SDZ
 kind: example
 name: Infinitary sentences whose largest models have size beth-alpha
 msc: ["03C55", "03C75"]
 topics: [W9CHA4PD9H]
 audience: research
 not_instance_of:
-  - target: ~506bb18e
+  - target: A9XBRF3A7Z
     note: "for each countable ordinal alpha, beth_alpha is not the Hanf number of L_omega1omega, since phi_alpha has a model of size beth_alpha and no larger model"
-uses: [~506bb18e, PQG7VAZ1R2, ZC4BHVHWE9, 0YSCSX5YZC, 0ASJVEFA9J]
+uses: [A9XBRF3A7Z, PQG7VAZ1R2, ZC4BHVHWE9, 0YSCSX5YZC, 0ASJVEFA9J]
 sources:
   - url: https://en.wikipedia.org/wiki/Beth_number
     locator: lead section
@@ -27,7 +27,7 @@ Let $\varphi_\alpha$ be the conjunction of the following sentences of the [[infi
 - (c) for $\beta + 1 \le \alpha$: two elements of $P_{\beta+1}$ with the same $E$-predecessors in $P_\beta$ are equal;
 - (d) for limit $\delta \le \alpha$: $\forall x \, (P_\delta(x) \to \bigvee_{\beta < \delta} P_\beta(x))$, a countable disjunction.
 
-We show that $\varphi_\alpha$ has a model of size $\beth_\alpha$ and no larger model, so $\beth_\alpha$ is not the [[Hanf number|~506bb18e]] of $L_{\omega_1\omega}$.
+We show that $\varphi_\alpha$ has a model of size $\beth_\alpha$ and no larger model, so $\beth_\alpha$ is not the [[Hanf number|A9XBRF3A7Z]] of $L_{\omega_1\omega}$.
 
 1. Upper bound, by [[induction|0ASJVEFA9J]] on $\beta \le \alpha$: in a model $\mathcal{M}$, $\abs{P_\beta} \le \beth_\beta$. For $\beta = 0$, (a) gives $\abs{P_0} = \aleph_0 = \beth_0$.
 2. For $\beta + 1$: by (c), $x \mapsto \set{z \in P_\beta : z E x}$ is injective on $P_{\beta+1}$, so $\abs{P_{\beta+1}} \le 2^{\beth_\beta} = \beth_{\beta+1}$.
@@ -40,7 +40,7 @@ We show that $\varphi_\alpha$ has a model of size $\beth_\alpha$ and no larger m
 
 The example shows that the Hanf number of $L_{\omega_1\omega}$ is at least $\sup_{\alpha < \omega_1} \beth_\alpha = \beth_{\omega_1}$.
 Indeed, a cardinal $\kappa < \beth_{\omega_1}$ is below some $\beth_\alpha$, and $\varphi_\alpha$ has a model of size at least $\kappa$ but no arbitrarily large models.
-Together with Morley's upper bound this gives the value $\beth_{\omega_1}$; see [[this example|~89d54b4c]].
+Together with Morley's upper bound this gives the value $\beth_{\omega_1}$; see [[this example|QC25K2Y91B]].
 For $\alpha = 0$ the sentence says that every element is one of the constants, and its models are countable.
 The example needs countable disjunctions only in (a) and (d); for an uncountable $\alpha$ the disjunction in (d) would be uncountable, so the sentence leaves $L_{\omega_1\omega}$.
 In first-order logic, (a) and (d) cannot be expressed, and indeed no first-order sentence bounds the size of its infinite models.

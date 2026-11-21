@@ -1,5 +1,5 @@
 ---
-tag: ~85a7510c
+tag: TSGB29FJM0
 kind: statement
 role: theorem
 name: Ehrenfeucht-Mostowski models
@@ -7,8 +7,8 @@ aliases: [ehrenfeucht-mostowski-model, em-model, ehrenfeucht-mostowski-theorem]
 msc: ["03C30", "03C50"]
 topics: [W9CHA4PD9H]
 audience: grad
-about: [~0949d8de, NKQY9NB955]
-uses: [~cc1977c7, ~c0b513d4, NKQY9NB955, 92SWXST1ZM, CGH8C8EA9N, AZES1C6VMT, 0K1SCPBNKJ, 01CGSJ0GNQ, 9V71Q3SD1G, EY20BF96SJ]
+about: [6EG0ZK1YBX, NKQY9NB955]
+uses: [4016QKAHFB, RG6D2FAS14, NKQY9NB955, 92SWXST1ZM, CGH8C8EA9N, AZES1C6VMT, 0K1SCPBNKJ, 01CGSJ0GNQ, 9V71Q3SD1G, EY20BF96SJ]
 history:
   notes: "Ehrenfeucht and Mostowski introduced these models in 1956, to show that theories with infinite models have models with many automorphisms."
 sources:
@@ -24,7 +24,7 @@ sources:
 
 Let $T$ be a [[theory|92SWXST1ZM]] with infinite models in a signature $L$.
 By [[Skolemization|NKQY9NB955]], $T$ extends to a Skolem theory $T^*$ in a signature $L^* \supseteq L$ with $\abs{L^*} = \abs{L} + \aleph_0$.
-Let $\Phi$ be the Ehrenfeucht-Mostowski type of an infinite [[indiscernible sequence|~cc1977c7]] in some model of $T^*$; one exists by the [[existence of indiscernibles|~c0b513d4]].
+Let $\Phi$ be the Ehrenfeucht-Mostowski type of an infinite [[indiscernible sequence|4016QKAHFB]] in some model of $T^*$; one exists by the [[existence of indiscernibles|RG6D2FAS14]].
 Let $I$ and $J$ be infinite linear orders.
 
 1. There is a model $\operatorname{EM}(I, \Phi)$ of $T^*$ that is the Skolem hull of an indiscernible sequence $(a_i)_{i \in I}$ with type $\Phi$. It is unique up to an isomorphism that fixes each $a_i$.
@@ -34,7 +34,7 @@ Let $I$ and $J$ be infinite linear orders.
 5. If $L$ is countable and $I$ is a [[well-order|01CGSJ0GNQ]], then $\operatorname{EM}(I, \Phi)$ realizes only countably many [[types|9V71Q3SD1G]] over each countable subset.
 
 Parts 2 to 5 also hold for the [[reduct|EY20BF96SJ]] of $\operatorname{EM}(I, \Phi)$ to $L$, which is a model of $T$.
-The proof is in [[the proof for Ehrenfeucht-Mostowski models|~76e49ab2]].
+The proof is in [[the proof for Ehrenfeucht-Mostowski models|CT28GNTX2P]].
 
 ## Remarks
 
@@ -59,9 +59,9 @@ The map in part 3 is not onto in general: if $\Phi$ is the type of an indiscerni
 
 ### Generalizations
 
-The same construction works for [[generalized indiscernibles|~9c5e0903]] indexed by other structures, such as trees, when such indiscernibles exist with the required type.
+The same construction works for [[generalized indiscernibles|RQS808ZC8T]] indexed by other structures, such as trees, when such indiscernibles exist with the required type.
 Shelah used Ehrenfeucht-Mostowski models over trees and other index structures in his work on the number of nonisomorphic models.
-The construction with Morley's form of the existence theorem gives models that omit types, which bounds the [[Hanf number|~506bb18e]].
+The construction with Morley's form of the existence theorem gives models that omit types, which bounds the [[Hanf number|A9XBRF3A7Z]].
 
 ## History
 
@@ -95,4 +95,4 @@ The map $I \mapsto \operatorname{EM}(I, \Phi)$ is a functor from linear orders w
 It preserves directed unions, and it makes the model reflect the combinatorics of the index order.
 Well-orders give few types, and orders with many automorphisms give models with many automorphisms.
 The same idea, with other index structures, is the source of the many-models theorems of classification theory.
-Ehrenfeucht-Mostowski models are used in the [[two-cardinal theorems|~cdfd261d]] and in the computation of the [[Hanf number|~506bb18e]] of infinitary logic.
+Ehrenfeucht-Mostowski models are used in the [[two-cardinal theorems|XT227BYP7B]] and in the computation of the [[Hanf number|A9XBRF3A7Z]] of infinitary logic.

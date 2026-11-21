@@ -1,12 +1,12 @@
 ---
-tag: ~cc1977c7
+tag: 4016QKAHFB
 kind: definition
 name: Indiscernible sequence
 aliases: [indiscernible-sequence, order-indiscernible, totally-indiscernible-set]
 msc: ["03C30", "03C50"]
 topics: [W9CHA4PD9H]
 audience: grad
-defines: ~0949d8de
+defines: 6EG0ZK1YBX
 uses: [983GZBQYT4, HYJ10AF6RT, 0FRXBVVR03, 9V71Q3SD1G, WDVVEYD6AT]
 sources:
   - url: https://en.wikipedia.org/wiki/Indiscernibles
@@ -36,11 +36,11 @@ The same definitions apply to families of $k$-tuples for a fixed $k$, with formu
 
 ## Remarks
 
-The main page of the idea is [[indiscernible sequence|~0949d8de]].
+The main page of the idea is [[indiscernible sequence|6EG0ZK1YBX]].
 An indiscernible set is an order-indiscernible sequence for every linear order of the index set, since every increasing tuple has distinct indices.
 An order-indiscernible sequence with $(I, <)$ infinite is either constant or injective, because the formula $x_1 = x_2$ has the same truth value on all increasing pairs.
-The examples of the definition are the [[bases of vector spaces|~5413a315]], the [[transcendence bases of algebraically closed fields|~4c00c548]] and the [[increasing sequences in dense linear orders|~7eb41167]].
-A non-example is the sequence of [[natural numbers in their order|~a7f9e86c]].
+The examples of the definition are the [[bases of vector spaces|H7RFGN5RV7]], the [[transcendence bases of algebraically closed fields|8BDCM2MBV9]] and the [[increasing sequences in dense linear orders|KZASF579JE]].
+A non-example is the sequence of [[natural numbers in their order|1T221XPKPJ]].
 
 ## Explanations
 

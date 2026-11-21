@@ -1,5 +1,5 @@
 ---
-tag: ~506bb18e
+tag: A9XBRF3A7Z
 kind: concept
 name: Hanf number
 aliases: [hanf-number, hanf-number-of-a-logic, hanf-number-for-omitting-types]
@@ -43,14 +43,14 @@ The [[beth numbers|ZC4BHVHWE9]] $\beth_\alpha$ give the values: $\beth_0 = \alep
 
 ### Examples
 
-- First-order logic has Hanf number $\aleph_0$: the sentences "there are exactly $n$ elements" exclude finite values, and upward Löwenheim-Skolem gives the bound; see [[this example|~b15a9e83]].
-- The logic $L_{\omega_1\omega}$ with countable signatures has Hanf number $\beth_{\omega_1}$, by Morley's method of indiscernibles and a matching family of sentences; see [[this example|~89d54b4c]].
+- First-order logic has Hanf number $\aleph_0$: the sentences "there are exactly $n$ elements" exclude finite values, and upward Löwenheim-Skolem gives the bound; see [[this example|Y1TD2DS14K]].
+- The logic $L_{\omega_1\omega}$ with countable signatures has Hanf number $\beth_{\omega_1}$, by Morley's method of indiscernibles and a matching family of sentences; see [[this example|QC25K2Y91B]].
 - The Hanf number for omitting types in countable first-order theories is $\beth_{\omega_1}$, by the same method; Chang's reduction turns sentences of $L_{\omega_1\omega}$ into countable theories with countably many types to omit.
 - Second-order logic has a Hanf number, since its sentences in a fixed set of symbols form a set. If an [[inaccessible cardinal|NW4DREQ5DQ]] exists, the Hanf number is larger than the least one.
 
 ### Non-examples
 
-- For $L_{\omega_1\omega}$ no $\beth_\alpha$ with $\alpha < \omega_1$ is the Hanf number: some sentence has a model of size $\beth_\alpha$ and no larger model; see [[this example|~c1ae29d1]].
+- For $L_{\omega_1\omega}$ no $\beth_\alpha$ with $\alpha < \omega_1$ is the Hanf number: some sentence has a model of size $\beth_\alpha$ and no larger model; see [[this example|CGEPN90SDZ]].
 - The value $\aleph_0$ is not the Hanf number of $L_{\omega_1\omega}$: the sentence $\forall x \bigvee_{n} x = c_n$ has a countably infinite model and no uncountable one.
 - The logic $L_{\infty\omega}$ with all set-sized conjunctions has no Hanf number. For each cardinal $\mu$, the sentence $\forall x \bigvee_{\beta < \mu} x = c_\beta$ with distinct constants has models of size exactly $\mu$ only.
 
@@ -58,8 +58,8 @@ The [[beth numbers|ZC4BHVHWE9]] $\beth_\alpha$ give the values: $\beth_0 = \alep
 
 - If every sentence of $\mathcal{L}$ is equivalent to a sentence of $\mathcal{L}'$, then $h(\mathcal{L}) \le h(\mathcal{L}')$.
 - The Hanf number differs from the Löwenheim number, the least $\kappa$ such that every satisfiable sentence has a model of size at most $\kappa$. For $L_{\omega_1\omega}$ the Löwenheim number is $\aleph_0$ and the Hanf number is $\beth_{\omega_1}$.
-- For $L_{\omega_1\omega}$, a sentence with models of size at least $\beth_\alpha$ for all $\alpha < \omega_1$ has models of every infinite size, by [[Ehrenfeucht-Mostowski models|~85a7510c]].
-- The upper bound for $L_{\omega_1\omega}$ uses Morley's form of the [[existence of indiscernibles|~c0b513d4]].
+- For $L_{\omega_1\omega}$, a sentence with models of size at least $\beth_\alpha$ for all $\alpha < \omega_1$ has models of every infinite size, by [[Ehrenfeucht-Mostowski models|TSGB29FJM0]].
+- The upper bound for $L_{\omega_1\omega}$ uses Morley's form of the [[existence of indiscernibles|RG6D2FAS14]].
 
 ### History
 
@@ -99,4 +99,4 @@ Hanf numbers are the size side of abstract model theory, as Löwenheim numbers a
 For $L_{\omega_1\omega}$ the value $\beth_{\omega_1}$ is computed by Morley's use of the Erdős-Rado theorem, and it is sharp because $L_{\omega_1\omega}$ can describe the levels $V_{\omega + \alpha}$ for countable $\alpha$.
 For second-order logic the Hanf number is beyond the reach of ZFC: it depends on which large cardinals exist, and second-order sentences can describe $V_\kappa$ for many large cardinals $\kappa$.
 Hanf numbers also appear as thresholds for abstract elementary classes, for instance in [[Shelah's categoricity conjecture|TSFJ71QC4G]].
-The partition methods behind the computation are those of the [[existence of indiscernibles|~c0b513d4]], and the models that realize the bound are Ehrenfeucht-Mostowski models.
+The partition methods behind the computation are those of the [[existence of indiscernibles|RG6D2FAS14]], and the models that realize the bound are Ehrenfeucht-Mostowski models.

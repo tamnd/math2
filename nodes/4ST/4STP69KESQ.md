@@ -1,5 +1,5 @@
 ---
-tag: ~ed1f54df
+tag: 4STP69KESQ
 kind: statement
 role: theorem
 name: Chang's two-cardinal theorem
@@ -7,8 +7,8 @@ aliases: [chang-two-cardinal-theorem, changs-two-cardinal-theorem]
 msc: ["03C55", "03C50", "03E45"]
 topics: [W9CHA4PD9H]
 audience: research
-about: [~cdfd261d]
-uses: [~cdfd261d, 92SWXST1ZM, 13ZV2F8JAR, RMTZ5J64FX, GSQ833HAZT, DZ65A6X12W, 0MN2MER9WN]
+about: [XT227BYP7B]
+uses: [XT227BYP7B, 92SWXST1ZM, 13ZV2F8JAR, RMTZ5J64FX, GSQ833HAZT, DZ65A6X12W, 0MN2MER9WN]
 history:
   notes: "Chen Chung Chang proved the theorem; Jensen invented morasses for his proof that cardinal transfer theorems hold under the axiom of constructibility."
 sources:
@@ -24,14 +24,14 @@ sources:
 ## Statement
 
 Let $L$ be a countable signature with a unary relation symbol $P$, and let $T$ be an $L$-[[theory|92SWXST1ZM]].
-A $(\kappa, \lambda)$-model of $T$ is a model $\mathcal{M}$ with $\abs{M} = \kappa$ and $\abs{P^{\mathcal{M}}} = \lambda$, as in [[Vaught's two-cardinal theorem|~cdfd261d]].
+A $(\kappa, \lambda)$-model of $T$ is a model $\mathcal{M}$ with $\abs{M} = \kappa$ and $\abs{P^{\mathcal{M}}} = \lambda$, as in [[Vaught's two-cardinal theorem|XT227BYP7B]].
 Let $\kappa$ be an infinite cardinal with $\kappa^{<\kappa} = \kappa$.
 
 If $T$ has an $(\aleph_1, \aleph_0)$-model, then $T$ has a $(\kappa^+, \kappa)$-model.
 
 The condition $\kappa^{<\kappa} = \kappa$ implies that $\kappa$ is [[regular|13ZV2F8JAR]].
 Under the generalized continuum hypothesis it holds for every regular $\kappa$, so then $(\aleph_1, \aleph_0)$-models give $(\kappa^+, \kappa)$-models for all regular $\kappa$.
-An outline of the proof is in [[the outline proof of Chang's two-cardinal theorem|~e9224b3e]].
+An outline of the proof is in [[the outline proof of Chang's two-cardinal theorem|5C2K2REQCC]].
 
 ## Remarks
 

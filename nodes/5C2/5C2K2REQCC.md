@@ -1,12 +1,12 @@
 ---
-tag: ~e9224b3e
+tag: 5C2K2REQCC
 kind: proof
 name: Outline proof of Chang's two-cardinal theorem
 msc: ["03C55", "03C50"]
 topics: [W9CHA4PD9H]
 audience: research
-proves: ~ed1f54df
-uses: [~cdfd261d, ~13b64864, GSQ833HAZT, RMTZ5J64FX, DZ65A6X12W, NHCRZ74JHH, 13ZV2F8JAR, BAWHE1W6MH, 0ZHQMQ2C1N]
+proves: 4STP69KESQ
+uses: [XT227BYP7B, BKSPVH8B35, GSQ833HAZT, RMTZ5J64FX, DZ65A6X12W, NHCRZ74JHH, 13ZV2F8JAR, BAWHE1W6MH, 0ZHQMQ2C1N]
 methods: [01XM7JEKHY, 0ZHQMQ2C1N]
 sources:
   - book: isbn:9780486488219
@@ -22,7 +22,7 @@ For $\kappa = \aleph_0$ there is nothing to prove, so let $\kappa$ be uncountabl
 
 ### Step 1: a complete theory of pairs
 
-1. Step 1 of [[the proof of Vaught's theorem|~13b64864]], with $\lambda = \aleph_0$, gives a Vaughtian pair: $\mathcal{N} \preceq \mathcal{M}$ with $\mathcal{N} \ne \mathcal{M}$, $P^{\mathcal{N}} = P^{\mathcal{M}}$, and $P^{\mathcal{M}}$ infinite.
+1. Step 1 of [[the proof of Vaught's theorem|BKSPVH8B35]], with $\lambda = \aleph_0$, gives a Vaughtian pair: $\mathcal{N} \preceq \mathcal{M}$ with $\mathcal{N} \ne \mathcal{M}$, $P^{\mathcal{N}} = P^{\mathcal{M}}$, and $P^{\mathcal{M}}$ infinite.
 2. Let $T'$ be the complete $L_U$-theory of the expansion $(\mathcal{M}, N)$, with $U$ interpreted as $N$. Its models are again Vaughtian pairs, as in step 2 of that proof.
 
 ### Step 2: a saturated pair

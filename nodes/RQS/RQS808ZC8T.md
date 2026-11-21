@@ -1,12 +1,12 @@
 ---
-tag: ~9c5e0903
+tag: RQS808ZC8T
 kind: concept
 name: Generalized indiscernibles
 aliases: [generalized-indiscernibles, generalized-indiscernible-family, tree-indexed-indiscernibles, modeling-property]
 msc: ["03C30", "03C45", "05D10"]
 topics: [W9CHA4PD9H]
 audience: research
-uses: [~0949d8de, ~cc1977c7, 983GZBQYT4, 9V71Q3SD1G, 5FKW715RGJ, 8XS8FCTF8T, H8VM37SSAX]
+uses: [6EG0ZK1YBX, 4016QKAHFB, 983GZBQYT4, 9V71Q3SD1G, 5FKW715RGJ, 8XS8FCTF8T, H8VM37SSAX]
 sources:
   - url: https://en.wikipedia.org/wiki/Indiscernibles
     locator: Generalizations
@@ -19,7 +19,7 @@ sources:
 Let $\mathcal{I}$ be a [[structure|983GZBQYT4]] in a signature $L_0$, called the *index structure*, and let $\mathcal{M}$ be an $L$-structure with $A \subseteq M$.
 A family $(a_i)_{i \in \mathcal{I}}$ of elements of $M$ is an *$\mathcal{I}$-indexed indiscernible family over $A$* if the following holds for every $n$ and all $n$-tuples $\bar{\imath}$ and $\bar{\jmath}$ from $\mathcal{I}$.
 If $\bar{\imath}$ and $\bar{\jmath}$ have the same quantifier-free type in $\mathcal{I}$, then $a_{\bar{\imath}}$ and $a_{\bar{\jmath}}$ have the same [[type|9V71Q3SD1G]] over $A$ in $\mathcal{M}$.
-For a linear order $\mathcal{I}$ this is an [[indiscernible sequence|~0949d8de]], and for a set with no structure it is an indiscernible set.
+For a linear order $\mathcal{I}$ this is an [[indiscernible sequence|6EG0ZK1YBX]], and for a set with no structure it is an indiscernible set.
 Other index structures, such as trees and ordered graphs, measure combinatorial patterns of a theory and characterize the dividing lines of classification theory.
 
 ## Motivation
@@ -40,24 +40,24 @@ Locally based means: for each finite set $\Delta$ of formulas and each finite tu
 
 ### Examples
 
-- A linear order $(I, <)$ as index structure: the quantifier-free type of a tuple is its order pattern, so the definition gives [[order-indiscernible sequences|~cc1977c7]].
-- A set with no structure as index structure: the quantifier-free type records only equalities, so the definition gives indiscernible sets, such as a [[basis of a vector space|~5413a315]].
-- $(\Q, <)$ indexed by itself: tuples with the same order pattern are moved onto each other by an automorphism; see [[this example|~7eb41167]].
-- The Rado graph indexed by itself: tuples with the same quantifier-free type are moved onto each other by an automorphism, by ultrahomogeneity; see [[this example|~054605b5]].
+- A linear order $(I, <)$ as index structure: the quantifier-free type of a tuple is its order pattern, so the definition gives [[order-indiscernible sequences|4016QKAHFB]].
+- A set with no structure as index structure: the quantifier-free type records only equalities, so the definition gives indiscernible sets, such as a [[basis of a vector space|H7RFGN5RV7]].
+- $(\Q, <)$ indexed by itself: tuples with the same order pattern are moved onto each other by an automorphism; see [[this example|KZASF579JE]].
+- The Rado graph indexed by itself: tuples with the same quantifier-free type are moved onto each other by an automorphism, by ultrahomogeneity; see [[this example|ERPYT4T50E]].
 - More generally, every [[ultrahomogeneous|H8VM37SSAX]] relational structure indexed by itself is an indiscernible family, for the same reason.
 
 ### Non-examples
 
-- $(\Z, <)$ indexed by itself: the pairs $(0, 1)$ and $(0, 2)$ have the same order pattern, but only the second has an element between its members; see [[this example|~56ca9cc6]].
+- $(\Z, <)$ indexed by itself: the pairs $(0, 1)$ and $(0, 2)$ have the same order pattern, but only the second has an element between its members; see [[this example|CWW1GTPZAQ]].
 - The vertices of the Rado graph, indexed by the same set with no structure: two pairs of distinct vertices have the same equalities, but one can be an edge and the other not.
-- The natural numbers in $(\N, <)$ indexed by $(\N, <)$: the elements $0$ and $1$ have the same quantifier-free type, but $\exists y \, (y < x)$ separates them; see [[this example|~a7f9e86c]].
+- The natural numbers in $(\N, <)$ indexed by $(\N, <)$: the elements $0$ and $1$ have the same quantifier-free type, but $\exists y \, (y < x)$ separates them; see [[this example|1T221XPKPJ]].
 
 ### Basic properties
 
 - If $\mathcal{I}'$ is an expansion of $\mathcal{I}$ with the same universe, every $\mathcal{I}$-indexed indiscernible family is $\mathcal{I}'$-indexed indiscernible, since equal quantifier-free types in $\mathcal{I}'$ give equal ones in $\mathcal{I}$.
 - For a substructure $\mathcal{J} \subseteq \mathcal{I}$, the subfamily $(a_j)_{j \in \mathcal{J}}$ is $\mathcal{J}$-indexed indiscernible, since quantifier-free types do not change in a substructure.
 - If $\mathcal{I}$ is ultrahomogeneous, then every automorphism $\sigma$ of $\mathcal{I}$ gives a partial elementary map $a_i \mapsto a_{\sigma(i)}$ of $\mathcal{M}$.
-- Existence: for suitable countable ordered index structures whose [[age|5FKW715RGJ]] is a [[Ramsey class|8XS8FCTF8T]], the compactness argument for the [[existence of indiscernibles|~c0b513d4]] works with the Ramsey property of the age in place of Ramsey's theorem.
+- Existence: for suitable countable ordered index structures whose [[age|5FKW715RGJ]] is a [[Ramsey class|8XS8FCTF8T]], the compactness argument for the [[existence of indiscernibles|RG6D2FAS14]] works with the Ramsey property of the age in place of Ramsey's theorem.
 - [[Finite linear orders form a Ramsey class|X3K7KWH5BK]], and this is the case of ordinary indiscernible sequences.
 
 ### History

@@ -1,5 +1,5 @@
 ---
-tag: ~cdfd261d
+tag: XT227BYP7B
 kind: statement
 role: theorem
 name: Vaught's two-cardinal theorem
@@ -25,7 +25,7 @@ For cardinals $\kappa$ and $\lambda$, a *$(\kappa, \lambda)$-model* of $T$ is a 
 If $T$ has a $(\kappa, \lambda)$-model for some cardinals $\kappa > \lambda \ge \aleph_0$, then $T$ has an $(\aleph_1, \aleph_0)$-model.
 
 The proof uses *Vaughtian pairs*: a pair $\mathcal{N} \preceq \mathcal{M}$ of models of $T$ with $\mathcal{N} \ne \mathcal{M}$, $P^{\mathcal{N}} = P^{\mathcal{M}}$ and $P^{\mathcal{M}}$ infinite, where $\preceq$ is the [[elementary substructure|8WZF9SBP39]] relation.
-The proof is in [[the proof of Vaught's two-cardinal theorem|~13b64864]].
+The proof is in [[the proof of Vaught's two-cardinal theorem|BKSPVH8B35]].
 
 ## Remarks
 
@@ -52,7 +52,7 @@ But a model with $\abs{P} = \lambda$ has at most $\lambda + 2^\lambda$ elements,
 
 ### Generalizations
 
-[[Chang's two-cardinal theorem|~ed1f54df]] gives $(\kappa^+, \kappa)$-models from an $(\aleph_1, \aleph_0)$-model, for regular $\kappa$ under the generalized continuum hypothesis.
+[[Chang's two-cardinal theorem|4STP69KESQ]] gives $(\kappa^+, \kappa)$-models from an $(\aleph_1, \aleph_0)$-model, for regular $\kappa$ under the generalized continuum hypothesis.
 Transfers between other gaps, such as from $(\aleph_2, \aleph_0)$-models to $(\aleph_3, \aleph_1)$-models, are the gap-$n$ problems discussed there.
 
 ## History
@@ -85,5 +85,5 @@ The trap is to apply the theorem to a definable set that is finite: the hypothes
 
 The theorem is a Löwenheim-Skolem theorem for pairs of cardinals: a two-cardinal property of a countable theory moves down to the smallest gap $(\aleph_1, \aleph_0)$.
 The proof shows that the gap is a property of a countable configuration, a Vaughtian pair of countable homogeneous models with the same types, which then repeats along $\omega_1$.
-Moving up is harder, and it needs set theory: [[Chang's theorem|~ed1f54df]] uses saturated models and the generalized continuum hypothesis, and the general gap problems are independent of ZFC.
+Moving up is harder, and it needs set theory: [[Chang's theorem|4STP69KESQ]] uses saturated models and the generalized continuum hypothesis, and the general gap problems are independent of ZFC.
 Vaughtian pairs return in the analysis of [[uncountably categorical theories|V7N84P60SJ]], where their absence controls the size of definable sets.

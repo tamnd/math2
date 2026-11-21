@@ -1,12 +1,12 @@
 ---
-tag: ~4c00c548
+tag: 8BDCM2MBV9
 kind: example
 name: A transcendence basis of an algebraically closed field is an indiscernible set
 msc: ["03C30", "03C60", "12F20"]
 topics: [W9CHA4PD9H]
 audience: grad
-instance_of: [~0949d8de]
-uses: [~cc1977c7, 0PF6TM8TWT, E45PA267S4, 0X6AB5P3G1, DSQ17TNW1C, 2NBBJADY5N]
+instance_of: [6EG0ZK1YBX]
+uses: [4016QKAHFB, 0PF6TM8TWT, E45PA267S4, 0X6AB5P3G1, DSQ17TNW1C, 2NBBJADY5N]
 sources:
   - url: https://en.wikipedia.org/wiki/Indiscernibles
     locator: Examples
@@ -19,7 +19,7 @@ sources:
 Let $K$ be an [[algebraically closed field|0PF6TM8TWT]], viewed as a structure in the signature of rings $\set{+, -, \cdot, 0, 1}$.
 Let $k$ be the prime field of $K$, and let $B$ be an infinite [[transcendence basis|E45PA267S4]] of $K$ over $k$.
 List $B$ without repetitions as $(b_i)_{i \in I}$.
-We show that $(b_i)_{i \in I}$ is an [[indiscernible set|~cc1977c7]] over $\emptyset$.
+We show that $(b_i)_{i \in I}$ is an [[indiscernible set|4016QKAHFB]] over $\emptyset$.
 
 1. Let $\bar{\imath}$ and $\bar{\jmath}$ be $n$-tuples of pairwise distinct indices. As $B$ is infinite, the map $b_{i_m} \mapsto b_{j_m}$ extends to a permutation $\pi$ of $B$.
 2. The set $B$ is algebraically independent over $k$, so $k[B]$ is a polynomial ring in the variables $B$. Renaming the variables by $\pi$ gives a ring automorphism of $k[B]$, and it extends to an automorphism $\tau$ of the fraction field $k(B)$.

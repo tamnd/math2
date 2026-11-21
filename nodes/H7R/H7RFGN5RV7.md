@@ -1,12 +1,12 @@
 ---
-tag: ~5413a315
+tag: H7RFGN5RV7
 kind: example
 name: A basis of a vector space is an indiscernible set
 msc: ["03C30", "15A03"]
 topics: [W9CHA4PD9H]
 audience: grad
-instance_of: [~0949d8de, ~9c5e0903]
-uses: [~cc1977c7, 000AYPA9AJ, 0KCQ9Y3QKA, 0CRMGPAH83, DSQ17TNW1C, 983GZBQYT4]
+instance_of: [6EG0ZK1YBX, RQS808ZC8T]
+uses: [4016QKAHFB, 000AYPA9AJ, 0KCQ9Y3QKA, 0CRMGPAH83, DSQ17TNW1C, 983GZBQYT4]
 sources:
   - url: https://en.wikipedia.org/wiki/Indiscernibles
     locator: Examples
@@ -19,7 +19,7 @@ sources:
 Let $F$ be a field and let $V$ be a [[vector space|000AYPA9AJ]] over $F$ with an infinite [[basis|0KCQ9Y3QKA]] $B$.
 View $V$ as a [[structure|983GZBQYT4]] in the signature $L_F = \set{+, -, 0} \cup \set{f_\lambda : \lambda \in F}$, where $f_\lambda(v) = \lambda v$.
 List $B$ without repetitions as $(b_i)_{i \in I}$.
-We show that $(b_i)_{i \in I}$ is an [[indiscernible set|~cc1977c7]] over $\emptyset$.
+We show that $(b_i)_{i \in I}$ is an [[indiscernible set|4016QKAHFB]] over $\emptyset$.
 
 1. Let $\bar{\imath} = (i_1, \dots, i_n)$ and $\bar{\jmath} = (j_1, \dots, j_n)$ be tuples of pairwise distinct indices. The map $b_{i_k} \mapsto b_{j_k}$ is a bijection between two subsets of $B$ with $n$ elements.
 2. Both complements in $B$ are infinite and have the same cardinality as $B$, so the bijection extends to a permutation $\pi$ of $B$.
@@ -37,7 +37,7 @@ Let $B_0 \subseteq B$ be finite and let $A$ be a subset of the span of $B_0$.
 Then $B \setminus B_0$ is an indiscernible set over $A$, since permutations of $B$ that fix $B_0$ give automorphisms that fix the span of $B_0$ pointwise.
 The family is no longer indiscernible over $A = \set{b_{i_0}}$ if it contains $b_{i_0}$, since the formula $x = b_{i_0}$ separates $b_{i_0}$ from the other members.
 A [[linearly independent|0CRMGPAH83]] set that is not a basis is also indiscernible, since it extends to a basis.
-In the language of index structures, the basis is a family indexed by a set with no structure, so it is an example of [[generalized indiscernibles|~9c5e0903]].
+In the language of index structures, the basis is a family indexed by a set with no structure, so it is an example of [[generalized indiscernibles|RQS808ZC8T]].
 
 ## Explanations
 

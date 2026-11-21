@@ -1,12 +1,12 @@
 ---
-tag: ~d8089f85
+tag: TMWDJVRV3Z
 kind: proof
 name: Proof of the existence of indiscernibles
 msc: ["03C30", "05D10"]
 topics: [W9CHA4PD9H]
 audience: grad
-proves: ~c0b513d4
-uses: [~cc1977c7, 1NR3HAWG9D, YSZ82MRXT8, S1BHE358VX, ZC4BHVHWE9, Z92S2GVCX9, 13ZV2F8JAR, EP5E317TNW]
+proves: RG6D2FAS14
+uses: [4016QKAHFB, 1NR3HAWG9D, YSZ82MRXT8, S1BHE358VX, ZC4BHVHWE9, Z92S2GVCX9, 13ZV2F8JAR, EP5E317TNW]
 methods: [90Q4PK1CST, JZQVJ9XT63]
 sources:
   - book: isbn:9780387987606
@@ -48,7 +48,7 @@ It mentions finitely many formulas $\varphi_1, \dots, \varphi_t$ in the third gr
 
 By the [[compactness theorem|1NR3HAWG9D]], $\Sigma$ has a model.
 Its reduct to $L$ is an elementary extension $\mathcal{N}$ of $\mathcal{M}$, so $\mathcal{N} \equiv \mathcal{M}$.
-The elements $a_i := d_i^{\mathcal{N}}$ form an injective [[indiscernible sequence|~cc1977c7]] by the second and third groups, and the fourth group gives the last claim of part 1.
+The elements $a_i := d_i^{\mathcal{N}}$ form an injective [[indiscernible sequence|4016QKAHFB]] by the second and third groups, and the fourth group gives the last claim of part 1.
 For part 2, take an infinite model $\mathcal{M}$ of $T$ and any injective sequence in it.
 
 ### Step 4: the invariant of part 3
@@ -100,4 +100,4 @@ There the Erdős-Rado theorem takes the place of Ramsey's theorem.
 Part 1 also follows from the infinite [[Ramsey theorem|00TQV3F5S4]]: an infinite homogeneous subsequence for finitely many formulas exists in $\mathcal{M}$ itself, and compactness finishes as before.
 In a monster model, a variant applies the Erdős-Rado theorem to a long enough sequence and obtains an indiscernible sequence over a set $A$ of parameters.
 Each finite tuple of the new sequence then has the type over $A$ of some increasing tuple of the original sequence.
-Part 3 is often stated in the special case where each $\mathcal{M}_\alpha$ omits a countable set of types, which is the case used for the [[Hanf number|~506bb18e]].
+Part 3 is often stated in the special case where each $\mathcal{M}_\alpha$ omits a countable set of types, which is the case used for the [[Hanf number|A9XBRF3A7Z]].

@@ -1,5 +1,5 @@
 ---
-tag: ~c0b513d4
+tag: RG6D2FAS14
 kind: statement
 role: theorem
 name: Existence of indiscernibles
@@ -7,8 +7,8 @@ aliases: [existence-of-indiscernible-sequences, ehrenfeucht-mostowski-existence-
 msc: ["03C30", "03C50", "05D10"]
 topics: [W9CHA4PD9H]
 audience: grad
-about: [~0949d8de]
-uses: [~cc1977c7, 92SWXST1ZM, 1NR3HAWG9D, YSZ82MRXT8, S1BHE358VX, ZC4BHVHWE9, Z92S2GVCX9, 0FRXBVVR03]
+about: [6EG0ZK1YBX]
+uses: [4016QKAHFB, 92SWXST1ZM, 1NR3HAWG9D, YSZ82MRXT8, S1BHE358VX, ZC4BHVHWE9, Z92S2GVCX9, 0FRXBVVR03]
 history:
   notes: "Ehrenfeucht and Mostowski proved the existence of indiscernible sequences in 1956 with Ramsey's theorem; the method with the Erdős-Rado theorem is due to Morley."
 sources:
@@ -25,7 +25,7 @@ sources:
 ## Statement
 
 Let $L$ be a signature and let $T$ be an $L$-[[theory|92SWXST1ZM]].
-Indiscernible means [[order-indiscernible over the empty set|~cc1977c7]].
+Indiscernible means [[order-indiscernible over the empty set|4016QKAHFB]].
 
 1. (Ramsey form.) Let $\mathcal{M} \models T$ and let $(b_n)_{n \in \N}$ be an injective sequence in $M$. Let $(I, <)$ be an infinite [[linear order|0FRXBVVR03]]. Then some $\mathcal{N} \equiv \mathcal{M}$ has an injective indiscernible sequence $(a_i)_{i \in I}$ such that every formula true at all increasing tuples of $(b_n)$ is true at all increasing tuples of $(a_i)$.
 2. In particular, if $T$ has an infinite model, then for every infinite linear order $I$ some model of $T$ has an injective indiscernible sequence indexed by $I$.
@@ -38,21 +38,21 @@ The conditions of part 3 are the following.
 - (c) For each infinite linear order $I$, some $\mathcal{N} \models T$ has an injective indiscernible sequence $(a_i)_{i \in I}$ with this property. For each $k$ there is one $j$ such that $\psi_{k,j}$ holds at all increasing $n_k$-tuples of $(a_i)$.
 
 Here $\beth_\alpha$ is the [[beth number|ZC4BHVHWE9]] and $\omega_1$ is the [[first uncountable ordinal|Z92S2GVCX9]].
-The proof is in [[the proof of the existence of indiscernibles|~d8089f85]].
+The proof is in [[the proof of the existence of indiscernibles|TMWDJVRV3Z]].
 
 ## Remarks
 
 ### Why each hypothesis is needed
 
 - Infinite models in part 2: a theory whose models all have $5$ elements has no injective sequence with $6$ members, so no injective indiscernible sequence indexed by an infinite order.
-- Passing to another model $\mathcal{N}$ in part 1: in $(\N, <)$ no infinite injective sequence is indiscernible, since each $n$ is definable; see [[this non-example|~a7f9e86c]].
+- Passing to another model $\mathcal{N}$ in part 1: in $(\N, <)$ no infinite injective sequence is indiscernible, since each $n$ is definable; see [[this non-example|1T221XPKPJ]].
 - Countable $L$ in part 3: the proof decides the countably many formulas of $L$ one at a time, in $\omega$ steps. For an uncountable signature the method needs sizes $\beth_\alpha$ for a longer sequence of ordinals $\alpha$.
-- All $\alpha < \omega_1$ in part 3: for each $\beta < \omega_1$ there is an infinitary sentence with a model of size $\beth_\beta$ and no larger model; see [[this example|~c1ae29d1]]. As a countable theory with types to omit, it meets the hypothesis for $\alpha \le \beta$. The conclusion fails for it, since it would give models of every size.
+- All $\alpha < \omega_1$ in part 3: for each $\beta < \omega_1$ there is an infinitary sentence with a model of size $\beth_\beta$ and no larger model; see [[this example|CGEPN90SDZ]]. As a countable theory with types to omit, it meets the hypothesis for $\alpha \le \beta$. The conclusion fails for it, since it would give models of every size.
 
 ### Consequences
 
-- Every theory with infinite models has, for each infinite linear order $I$, a model with an injective indiscernible sequence indexed by $I$, and so a model with many automorphisms; see [[Ehrenfeucht-Mostowski models|~85a7510c]].
-- Part 3 with $\Psi_{(p, t)} = \set{\neg \sigma(t(\bar{x})) : \sigma \in p}$, for Skolem terms $t$ and a type $p$ to be omitted, gives the bound for the [[Hanf number|~506bb18e]] of omitting types.
+- Every theory with infinite models has, for each infinite linear order $I$, a model with an injective indiscernible sequence indexed by $I$, and so a model with many automorphisms; see [[Ehrenfeucht-Mostowski models|TSGB29FJM0]].
+- Part 3 with $\Psi_{(p, t)} = \set{\neg \sigma(t(\bar{x})) : \sigma \in p}$, for Skolem terms $t$ and a type $p$ to be omitted, gives the bound for the [[Hanf number|A9XBRF3A7Z]] of omitting types.
 - Indiscernible sequences exist in the monster model of every complete theory with infinite models, with any given index order.
 
 ### Converse
@@ -64,7 +64,7 @@ This stretched sequence is a set $X_\alpha$ of size $\beth_\alpha$ on which each
 
 ### Generalizations
 
-A version of the Ramsey form holds for suitable ordered index structures whose finite substructures form a [[Ramsey class|8XS8FCTF8T]], and it gives [[generalized indiscernibles|~9c5e0903]].
+A version of the Ramsey form holds for suitable ordered index structures whose finite substructures form a [[Ramsey class|8XS8FCTF8T]], and it gives [[generalized indiscernibles|RQS808ZC8T]].
 The same proofs give indiscernible sequences over a set $A$ of parameters, by adding constants for $A$ to $L$.
 
 ## History
@@ -97,4 +97,4 @@ The trap is to expect the sequence inside the given model: compactness places it
 The theorem is the model-theoretic face of partition calculus: finite Ramsey theory gives indiscernibles of every order type by compactness, and the Erdős-Rado theorem gives indiscernibles that keep a property of every member of a family of large models.
 The second kind is what the omission of types needs, because omitting a type is not expressed by one first-order sentence.
 The general principle is the modeling property of an index structure: indiscernibles indexed by $I$ exist with the local properties of any $I$-indexed family when the age of $I$ is a Ramsey class.
-These results lead to [[Ehrenfeucht-Mostowski models|~85a7510c]], to the [[Hanf number|~506bb18e]] of infinitary logic, and to the two-cardinal theorems of [[Vaught|~cdfd261d]] and [[Chang|~ed1f54df]].
+These results lead to [[Ehrenfeucht-Mostowski models|TSGB29FJM0]], to the [[Hanf number|A9XBRF3A7Z]] of infinitary logic, and to the two-cardinal theorems of [[Vaught|XT227BYP7B]] and [[Chang|4STP69KESQ]].

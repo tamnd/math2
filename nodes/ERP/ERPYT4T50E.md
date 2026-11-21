@@ -1,12 +1,12 @@
 ---
-tag: ~054605b5
+tag: ERPYT4T50E
 kind: example
 name: The Rado graph indexed by itself is an indiscernible family
 msc: ["03C30", "03C15", "05C80"]
 topics: [W9CHA4PD9H]
 audience: research
-instance_of: [~9c5e0903]
-uses: [~9c5e0903, RMXR0FEF54, H8VM37SSAX, DSQ17TNW1C, 9V71Q3SD1G, ~cc1977c7]
+instance_of: [RQS808ZC8T]
+uses: [RQS808ZC8T, RMXR0FEF54, H8VM37SSAX, DSQ17TNW1C, 9V71Q3SD1G, 4016QKAHFB]
 sources:
   - url: https://en.wikipedia.org/wiki/Indiscernibles
     locator: Generalizations
@@ -18,7 +18,7 @@ sources:
 
 Let $R = (V, E)$ be the [[Rado graph|RMXR0FEF54]], as a structure in the signature $\set{E}$ with one binary relation.
 Take $R$ both as the index structure and as the model, and let $a_v = v$ for $v \in V$.
-We show that $(a_v)_{v \in R}$ is an $R$-indexed [[indiscernible family|~9c5e0903]] over $\emptyset$.
+We show that $(a_v)_{v \in R}$ is an $R$-indexed [[indiscernible family|RQS808ZC8T]] over $\emptyset$.
 
 1. Let $\bar{u} = (u_1, \dots, u_n)$ and $\bar{v} = (v_1, \dots, v_n)$ have the same quantifier-free type in $R$. The atomic formulas are $x_k = x_l$ and $x_k E x_l$, so $u_k = u_l$ exactly when $v_k = v_l$, and $u_k E u_l$ exactly when $v_k E v_l$.
 2. By the first equivalence, the map $u_k \mapsto v_k$ is well defined and injective on $\set{u_1, \dots, u_n}$.
@@ -29,7 +29,7 @@ We show that $(a_v)_{v \in R}$ is an $R$-indexed [[indiscernible family|~9c5e090
 ## Remarks
 
 The example shows that the right index structure for a family can be richer than a linear order.
-For any linear order on $V$, the family is not an [[order-indiscernible sequence|~cc1977c7]].
+For any linear order on $V$, the family is not an [[order-indiscernible sequence|4016QKAHFB]].
 Indeed, $R$ has an edge and a non-edge, and listing each pair in increasing order gives increasing pairs on which $x_1 E x_2$ has different truth values.
 If one adds a parameter $w \in V$, the family is no longer indiscernible over $\set{w}$: the formula $x E w$ separates the neighbors of $w$ from the other vertices.
 It becomes indiscernible over $\set{w}$ again for the index structure $R$ expanded by a constant for $w$, since automorphisms of $R$ that fix $w$ give the same argument.

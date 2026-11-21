@@ -1,12 +1,12 @@
 ---
-tag: ~b15a9e83
+tag: Y1TD2DS14K
 kind: example
 name: The Hanf number of first-order logic is aleph-zero
 msc: ["03C55", "03C07"]
 topics: [W9CHA4PD9H]
 audience: research
-instance_of: [~506bb18e]
-uses: [~506bb18e, 484M0TZ1S7, DKFGQTRYZE, EY20BF96SJ, 6Q9Z2BM1XR]
+instance_of: [A9XBRF3A7Z]
+uses: [A9XBRF3A7Z, 484M0TZ1S7, DKFGQTRYZE, EY20BF96SJ, 6Q9Z2BM1XR]
 sources:
   - url: https://en.wikipedia.org/wiki/Löwenheim–Skolem_theorem
     locator: lead section
@@ -17,7 +17,7 @@ sources:
 ## Example
 
 Let $\mathcal{L}$ be first-order logic, with signatures of any size.
-We show that its [[Hanf number|~506bb18e]] is $\aleph_0$.
+We show that its [[Hanf number|A9XBRF3A7Z]] is $\aleph_0$.
 
 1. Upper bound. Let $\varphi$ be a first-order [[sentence|DKFGQTRYZE]] with a model $\mathcal{M}$ of size at least $\aleph_0$. Let $L_0$ be the finite set of symbols that occur in $\varphi$.
 2. The [[reduct|EY20BF96SJ]] $\mathcal{M}|L_0$ is an infinite model of $\varphi$. By the upward [[Löwenheim-Skolem theorem|484M0TZ1S7]] for the finite signature $L_0$, $\varphi$ has an $L_0$-model of every infinite size $\kappa$.
@@ -31,7 +31,7 @@ We show that its [[Hanf number|~506bb18e]] is $\aleph_0$.
 The example shows that the Hanf number of first-order logic is as small as possible, given that finite sizes can be fixed by single sentences.
 The proof uses only the upward Löwenheim-Skolem theorem, which in turn rests on compactness.
 For a theory instead of a sentence the same holds: a first-order theory with an infinite model in a signature $L$ has models of every size at least $\abs{L} + \aleph_0$.
-In stronger logics compactness fails, and then a sentence can have infinite models of bounded size, as in [[the computation for infinitary logic|~89d54b4c]].
+In stronger logics compactness fails, and then a sentence can have infinite models of bounded size, as in [[the computation for infinitary logic|QC25K2Y91B]].
 The Löwenheim number of first-order logic is also $\aleph_0$, by the downward Löwenheim-Skolem theorem.
 
 ## Explanations
