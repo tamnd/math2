@@ -43,15 +43,15 @@ For $\aleph_1$-saturation in nonstandard analysis one also says countable satura
 
 ### Examples
 
-- The order $(\Q, <)$ is saturated, since each type over a finite set asks for a point in an open interval; see [[the rational order is saturated|~c8f8cf10]].
-- An algebraically closed field of transcendence degree $\kappa$ over its prime field is saturated when $\kappa$ is infinite; see [[saturated algebraically closed fields|~b53b2a60]].
+- The order $(\Q, <)$ is saturated, since each type over a finite set asks for a point in an open interval; see [[the rational order is saturated|9H064SE6ZN]].
+- An algebraically closed field of transcendence degree $\kappa$ over its prime field is saturated when $\kappa$ is infinite; see [[saturated algebraically closed fields|QX6K7CWWNV]].
 - The [[Rado graph|RMXR0FEF54]] is a countable saturated graph.
 - For a countable language, every ultrapower $\mathcal{M}^{\N}/\mathcal{U}$ by a nonprincipal ultrafilter is $\aleph_1$-saturated; see [[saturation of ultraproducts|DYXQP8WS63]].
 
 ### Non-examples
 
-- The field $\overline{\Q}$ of algebraic numbers is not $\aleph_0$-saturated, since it omits the transcendental type; see [[the algebraic numbers are not saturated|~26b4029f]].
-- The order $(\Z, <)$ is not $\aleph_0$-saturated, since no element lies at an infinite distance from $0$; see [[the integer order is homogeneous but not saturated|~1121b6eb]].
+- The field $\overline{\Q}$ of algebraic numbers is not $\aleph_0$-saturated, since it omits the transcendental type; see [[the algebraic numbers are not saturated|9JGR3GXPMK]].
+- The order $(\Z, <)$ is not $\aleph_0$-saturated, since no element lies at an infinite distance from $0$; see [[the integer order is homogeneous but not saturated|YNSR6VMS8A]].
 - The order $(\R, <)$ is $\aleph_0$-saturated but not saturated: it has size $2^{\aleph_0}$ and omits the type of an element just above $0$ over the countable set $\Q$.
 
 ### Basic properties
@@ -59,9 +59,9 @@ For $\aleph_1$-saturation in nonstandard analysis one also says countable satura
 - A $\kappa$-saturated structure realizes every complete or partial $n$-type over fewer than $\kappa$ parameters, for every $n$, by realizing one variable at a time.
 - If $\lambda < \kappa$, then $\kappa$-saturated implies $\lambda$-saturated.
 - No infinite structure is $\abs{M}^+$-saturated, since the type $\set{x \ne m : m \in M}$ over $M$ is not realized.
-- Two saturated models of the same complete theory and the same size are isomorphic; see [[uniqueness of saturated models|~a2cbf168]].
-- A saturated model is [[universal|~40536de0]] and [[strongly homogeneous|~ee122c2b]].
-- Every structure has a $\kappa^+$-saturated elementary extension, but saturated models need set-theoretic or stability hypotheses; see [[existence of saturated models|~b797b7c8]].
+- Two saturated models of the same complete theory and the same size are isomorphic; see [[uniqueness of saturated models|DZ65A6X12W]].
+- A saturated model is [[universal|F30ZVR4AD5]] and [[strongly homogeneous|4NJS7W57VK]].
+- Every structure has a $\kappa^+$-saturated elementary extension, but saturated models need set-theoretic or stability hypotheses; see [[existence of saturated models|GSQ833HAZT]].
 
 ### History
 
@@ -98,6 +98,6 @@ The trap is to forget the size bound on the parameters: the type over $\Q$ above
 ### L3 human
 
 Saturated models are the model-theoretic counterpart of injective or universal objects: every small model embeds in them, and every small partial elementary map extends to an automorphism.
-In stability theory one works inside a [[monster model|~84f3dbc1]], a very saturated model of the theory, so that types become orbits and definable sets become classes.
+In stability theory one works inside a [[monster model|EYTTQZ0E1S]], a very saturated model of the theory, so that types become orbits and definable sets become classes.
 In nonstandard analysis, $\aleph_1$-saturation gives the countable saturation principle; see [[nonstandard analysis|T28ZZJRDJ6]].
 Saturation of ultrapowers leads to [[Keisler's order|TD5D2G5PYP]], which compares theories by how hard their ultrapowers are to saturate.

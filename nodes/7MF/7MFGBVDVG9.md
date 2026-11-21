@@ -6,8 +6,8 @@ name: Omitting types theorem
 msc: ["03C07", "03C15"]
 topics: [Z772KEC9BY]
 audience: grad
-uses: [9V71Q3SD1G, VA7AK1R5AN, ~ecb9582c, ~13f847af, 92SWXST1ZM, MVCH6N9SNW, 01TQB88H4C]
-about: [9V71Q3SD1G, ~ecb9582c]
+uses: [9V71Q3SD1G, VA7AK1R5AN, A0VNTN725W, M05ANGBTC0, 92SWXST1ZM, MVCH6N9SNW, 01TQB88H4C]
+about: [9V71Q3SD1G, A0VNTN725W]
 sources:
   - url: https://en.wikipedia.org/wiki/Type_(model_theory)
     locator: Omitting types theorem
@@ -19,13 +19,13 @@ sources:
 ## Statement
 
 Let $L$ be a [[countable|01TQB88H4C]] signature and let $T$ be a satisfiable $L$-[[theory|92SWXST1ZM]].
-For each $k \in \N$ let $p_k(x_1, \dots, x_{n_k})$ be an $n_k$-[[type|9V71Q3SD1G]] of $T$ that is not [[isolated|~ecb9582c]].
+For each $k \in \N$ let $p_k(x_1, \dots, x_{n_k})$ be an $n_k$-[[type|9V71Q3SD1G]] of $T$ that is not [[isolated|A0VNTN725W]].
 So no $L$-formula $\varphi(\bar{x})$ with $T \cup \set{\varphi}$ satisfiable has $T \models \forall \bar{x} \, (\varphi \to \psi)$ for all $\psi \in p_k$.
 Then $T$ has a countable [[model|MVCH6N9SNW]] that omits every $p_k$.
 
 ## Remarks
 
-Two proofs are given: a [[Henkin construction|~77fed017]] and a [[Baire category argument|~fdd9ca8f]].
+Two proofs are given: a [[Henkin construction|N82JBAR3CB]] and a [[Baire category argument|PYAR8R8AQR]].
 
 ### Why each hypothesis is needed
 
@@ -38,7 +38,7 @@ Two proofs are given: a [[Henkin construction|~77fed017]] and a [[Baire category
 
 - A countable complete theory whose isolated types are dense in each $S_n(T)$ has a countable model that realizes only isolated types, an atomic model, which is a [[prime model|S8W40PYNHX]].
 - If a countable complete theory has a non-isolated type, then it has a countable model that omits it and one that realizes it, so it is not [[$\aleph_0$-categorical|A22K1X8GKD]]; this is one direction of the [[Ryll-Nardzewski theorem|1513J40TKA]].
-- The [[type of an infinite natural number|~a176ff80]] is not isolated, and the standard model is a countable model that omits it.
+- The [[type of an infinite natural number|Q0H5CJGCAY]] is not isolated, and the standard model is a countable model that omits it.
 
 ### Converse
 
@@ -76,5 +76,5 @@ The trap is to apply the theorem to an isolated type of an incomplete theory and
 The Baire category proof shows the general shape of the theorem.
 The models of $T$ built from constants form a compact space, the models that realize a non-isolated type form a meager set, and a generic model avoids countably many meager sets.
 This is the model-theoretic form of forcing, and the same argument builds generic structures in many areas.
-The theorem is the companion of the [[realizing types theorem|~17fa6973]]: compactness produces models that realize types, and this theorem produces models that omit them.
+The theorem is the companion of the [[realizing types theorem|8R31F7BQGY]]: compactness produces models that realize types, and this theorem produces models that omit them.
 It is the main tool of the study of countable models and of [[Vaught's conjecture|YVBHE2SEE6]].

@@ -40,8 +40,8 @@ Non-example: the field $\overline{\Q}$ of algebraic numbers is a model of the th
 The set $\set{f(x) \ne 0 : f \in \Z[x], f \ne 0}$ is consistent with its theory over $A = \emptyset$, as $\C$ shows, and it extends to a complete type.
 No element of $\overline{\Q}$ realizes it, since every algebraic number is a root of a nonzero integer polynomial.
 
-Every structure has a $\kappa$-saturated elementary extension for each $\kappa$; see [[existence of saturated models|~b797b7c8]].
-Saturated models of the same complete theory and the same cardinality are isomorphic; see [[uniqueness of saturated models|~a2cbf168]].
+Every structure has a $\kappa$-saturated elementary extension for each $\kappa$; see [[existence of saturated models|GSQ833HAZT]].
+Saturated models of the same complete theory and the same cardinality are isomorphic; see [[uniqueness of saturated models|DZ65A6X12W]].
 
 ## Explanations
 

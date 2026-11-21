@@ -1,0 +1,50 @@
+---
+tag: H7HWCSH40Z
+kind: example
+name: Algebraic but not definable elements in the complex field
+msc: ["03C60", "12F10"]
+topics: [Z772KEC9BY]
+audience: grad
+not_instance_of:
+  - target: DKAGC639W9
+    note: "the number pi is not in the algebraic closure of the empty set, and the square root of 2 is in it but not in the definable closure"
+uses: [DKAGC639W9, T4X9WWYQ8A, DSQ17TNW1C, 0NQMZ89X4A]
+sources:
+  - url: https://en.wikipedia.org/wiki/Strongly_minimal_theory
+    locator: lead section
+---
+
+## Example
+
+Let $\mathcal{C} = (\C, +, \cdot, 0, 1)$ be the complex field.
+We show that $\sqrt{2} \in \operatorname{acl}(\emptyset) \setminus \operatorname{dcl}(\emptyset)$ and that $\pi \notin \operatorname{acl}(\emptyset)$.
+
+1. The formula $x \cdot x = 1 + 1$ holds at $\sqrt{2}$ and has exactly two solutions, $\pm \sqrt{2}$. So $\sqrt{2} \in \operatorname{acl}(\emptyset)$.
+2. The field $\Q(\sqrt{2})$ has the automorphism $a + b\sqrt{2} \mapsto a - b\sqrt{2}$, and it extends to an [[automorphism|DSQ17TNW1C]] $\sigma$ of $\C$.
+3. If $\varphi(x)$ had $\sqrt{2}$ as its only solution, then $\sigma(\sqrt{2}) = -\sqrt{2}$ would also satisfy $\varphi$, since $\sigma$ preserves all formulas without parameters.
+4. So no formula over $\emptyset$ defines $\sqrt{2}$, and $\sqrt{2} \notin \operatorname{dcl}(\emptyset)$.
+5. The number $\pi$ is [[transcendental|0NQMZ89X4A]], so by [[the computation in algebraically closed fields|T4X9WWYQ8A]] every formula over $\emptyset$ that holds at $\pi$ has infinitely many solutions.
+6. So $\pi \notin \operatorname{acl}(\emptyset)$.
+
+## Remarks
+
+In the ordered field $(\R, +, \cdot, <)$ the number $\sqrt{2}$ is definable over $\emptyset$ by $x \cdot x = 1 + 1 \wedge 0 < x$, so adding the order changes the closure.
+In $\C$, $\operatorname{dcl}(\emptyset) = \Q$ and $\operatorname{acl}(\emptyset) = \overline{\Q}$, the algebraic numbers.
+Over the parameter set $\set{\sqrt{2}}$, the number $\sqrt{2}$ is of course definable, by $x = \sqrt{2}$.
+
+## Explanations
+
+### L1 human
+
+With only addition and multiplication, nothing tells $\sqrt{2}$ apart from $-\sqrt{2}$: both square to $2$.
+So $\sqrt{2}$ is one of two candidates, which makes it algebraic, but it is not named exactly.
+The number $\pi$ is not even one of finitely many candidates.
+
+### L2 human
+
+The general test for $b \notin \operatorname{dcl}(A)$ is an automorphism that fixes $A$ and moves $b$.
+
+1. Here $A = \emptyset$, so any automorphism of $\C$ will do.
+2. The automorphism $\sigma$ of step 2 moves $\sqrt{2}$.
+
+The trap is to use complex conjugation, which fixes $\sqrt{2}$: it moves $i$, and it shows only that $i \notin \operatorname{dcl}(\emptyset)$.
