@@ -17,6 +17,7 @@ sources:
 
 ## Statement
 
+The theorem turns the geometric question "is this a right angle?" into one line of arithmetic.
 Let $n$ be a positive integer, and let $u, v \in \mathbb{R}^n$, with [[dot product|0S52TNNTH9]] $u \cdot v = u_1 v_1 + \dots + u_n v_n$.
 Call $u$ and $v$ perpendicular, written $u \perp v$, when $u = 0$, or $v = 0$, or the [[angle between $u$ and $v$|0ZEHZY85E6]] is $\theta = \tfrac{\pi}{2}$.
 Then
@@ -27,52 +28,63 @@ In particular, the zero vector is perpendicular to every vector, and it is the o
 
 ### Why each hypothesis is needed
 
-- The convention for the zero vector is needed. Without it, $0 \cdot v = 0$ holds, but the angle between $0$ and $v$ is not defined, so "$\theta = \tfrac{\pi}{2}$" would be meaningless.
-- For $n \geq 4$ the angle is the one of the [[definition by the arccosine|0PRAS55318]]. So the statement for $n \geq 4$ depends on the Cauchy-Schwarz inequality through that definition.
+The convention for the zero vector is needed because the zero vector has no angle with anything.
+The product $0 \cdot v = 0$ holds for every $v$, so without the convention the right side of the equivalence would be true and the left side would have no meaning.
 
-### Consequences
+The meaning of "angle" depends on the dimension.
+For $n = 2$ or $3$ it is the angle of elementary geometry, and the theorem says something about pictures.
+For $n \ge 4$ it is the angle of the [[definition by the arccosine|0PRAS55318]], so the theorem there rests on the Cauchy-Schwarz inequality, through that definition.
 
-- The [[Pythagorean theorem|0VP3A1290K]] in vector form: $\|u + v\|^2 = \|u\|^2 + \|v\|^2$ if and only if $u \perp v$, because $\|u + v\|^2 = \|u\|^2 + 2\, u \cdot v + \|v\|^2$.
-- A vector $w$ perpendicular to both $u$ and $v$ is perpendicular to each linear combination $au + bv$, since $w \cdot (au + bv) = a(w \cdot u) + b(w \cdot v)$.
-- If $w \perp w$, then $w \cdot w = \|w\|^2 = 0$, so $w = 0$. This proves the last sentence of the statement.
-- The [[vector projection|0JW13B48YP]] and the [[normal vector of a plane|0WQJJCCTC8]] rest on this test.
+### What it gives you
 
-### Converse
+The first gift is the Pythagorean theorem in vector form.
+Expanding a square of a sum gives $\|u + v\|^2 = \|u\|^2 + 2\, u \cdot v + \|v\|^2$, so
+$$\|u + v\|^2 = \|u\|^2 + \|v\|^2 \iff u \perp v.$$
+For $u = (3, 0)$ and $v = (0, 4)$ this reads $25 = 9 + 16$, the [[Pythagorean theorem|0VP3A1290K]] for the triangle with legs 3 and 4.
 
-The statement is already an equivalence.
-A related claim is false: $u \cdot v = 0$ and $u \cdot w = 0$ do not give $v = w$; for $u = (1, 0)$, $v = (0, 1)$ and $w = (0, 5)$ both products are $0$.
+The second gift is that perpendicularity passes to combinations.
+If $w \perp u$ and $w \perp v$, then $w \cdot (au + bv) = a(w \cdot u) + b(w \cdot v) = 0$, so $w$ is perpendicular to the whole plane that $u$ and $v$ span.
+That is the idea behind the [[normal vector of a plane|0WQJJCCTC8]], and the [[vector projection|0JW13B48YP]] rests on the same test.
+
+Finally, a vector perpendicular to itself is zero: $w \perp w$ gives $w \cdot w = \|w\|^2 = 0$, so $w = 0$.
+This proves the last sentence of the statement.
+
+### The converse
+
+The statement is already an equivalence, so each direction is the converse of the other.
+A nearby claim is false: $u \cdot v = 0$ and $u \cdot w = 0$ do not give $v = w$.
+For $u = (1, 0)$, $v = (0, 1)$ and $w = (0, 5)$ both products are $0$, but $v \neq w$.
 
 ### Generalizations
 
-In a real or complex [[inner product space|1D4JTZ9VS3]], one defines $u \perp v$ by $\langle u, v \rangle = 0$, so the statement becomes a definition there.
-The theorem above is the reason why this definition is the right one.
+In a real or complex [[inner product space|1D4JTZ9VS3]] one defines $u \perp v$ by $\langle u, v \rangle = 0$, so there the statement becomes a definition.
+The theorem here is the reason why that definition is the right one: in the plane and in space it agrees with right angles.
 
 ## History
 
-Perpendicularity is a basic notion of Euclid's Elements.
+Perpendicularity is a basic notion of Euclid's *Elements*.
 The test by the dot product is part of the vector analysis of Gibbs and Heaviside in the 1880s.
 
 ## Explanations
 
 ### L1 human
 
-This gives a quick test for a right angle.
+The theorem gives a quick test for a right angle.
 The vectors $(2, 1)$ and $(-1, 2)$ have the dot product $-2 + 2 = 0$, so they are perpendicular.
-We do not need to draw them or to measure an angle.
+You do not need to draw them or to measure an angle.
 
 ### L2 human
 
-Worked example: find all vectors $(x, y)$ perpendicular to $(3, -2)$.
-
-1. The condition is $(x, y) \cdot (3, -2) = 3x - 2y = 0$.
-2. So $y = \tfrac{3}{2} x$, and the solutions are the multiples $t(2, 3)$ of $(2, 3)$.
-3. Check: $(2, 3) \cdot (3, -2) = 6 - 6 = 0$.
-
-The typical use is to find a vector perpendicular to given vectors, as in step 2, or to test a right angle in a figure.
-A trap: in space, the vectors perpendicular to one vector form a whole plane, not one line.
+Here is a typical problem: find all vectors $(x, y)$ perpendicular to $(3, -2)$.
+The condition is one linear equation:
+$$(x, y) \cdot (3, -2) = 3x - 2y = 0.$$
+So $y = \tfrac{3}{2} x$, and the solutions are the multiples $t(2, 3)$ of $(2, 3)$.
+Check: $(2, 3) \cdot (3, -2) = 6 - 6 = 0$.
+The problem shows the common pattern: the vectors perpendicular to a given vector are the solutions of a linear equation.
+Watch out: in space the vectors perpendicular to one vector form a whole plane, not a line, and you need two conditions to cut them down to a line.
 
 ### L3 human
 
 Perpendicularity is the relation $\langle u, v \rangle = 0$ of a bilinear form, and it is symmetric because the form is symmetric.
 For any symmetric bilinear form one defines the orthogonal complement of a subspace, and the sub-area on [[orthogonality and least squares|8GQVME4SZZ]] uses it to split $\mathbb{R}^n$ into a subspace and its complement.
-For the Minkowski form, a nonzero vector can be perpendicular to itself, and this is the reason why positivity matters.
+For the Minkowski form a nonzero vector can be perpendicular to itself, which is why positivity matters for that splitting.
