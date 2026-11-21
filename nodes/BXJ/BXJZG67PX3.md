@@ -96,7 +96,7 @@ A trap is to think that LP fails because the premises are "false"; they are desi
 
 ### L3 human
 
-LP is the three-valued extension of FDE with excluded middle, and an inference is FDE-valid if and only if it is valid in both LP and K3.
+LP is the three-valued extension of FDE with excluded middle, and every FDE-valid inference is valid in both LP and K3. The converse fails: $p \land \neg p \vDash q \lor \neg q$ is valid in LP and in K3 but not in FDE.
 In the information order $\mathsf{B} \sqsubseteq \mathsf{T}$, $\mathsf{B} \sqsubseteq \mathsf{F}$, all strong Kleene connectives are monotone, and this gives the coincidence of LP and classical tautologies.
 LP is the basis of Priest's dialetheic theories of truth and sets; to keep a detachable conditional, these theories add a relevant implication, and must then avoid Curry's paradox.
 The duality with K3 comes from the involution $\neg$ swapping designated and undesignated values.
