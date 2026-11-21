@@ -92,7 +92,8 @@ Benjamin Rossman showed in 2008 that the homomorphism preservation theorem survi
 Some rules about a structure only forbid patterns, like "no point is linked to itself".
 If a big structure follows such a rule, every part of it follows the rule too.
 Other rules ask for something to exist, like "every number has a half".
-The even numbers do not have halves for all their members, although the rational numbers do.
+Every fraction has a half among the fractions, but the whole number $1$ has no half among the whole numbers.
+So this rule holds for the fractions and fails for a part of them.
 A preservation theorem says that the way a family of structures reacts to an operation tells exactly which type of rule describes it.
 
 ### L2 human

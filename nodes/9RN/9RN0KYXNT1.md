@@ -3,11 +3,18 @@ tag: 9RN0KYXNT1
 kind: statement
 role: theorem
 name: Łoś–Tarski preservation theorem
+aliases: [los-tarski-preservation-theorem, los-tarski-theorem]
 msc: ["03C40", "03C52"]
-uses: [92SWXST1ZM, MVCH6N9SNW, 676H7EGTKJ, ZSTEZ3PRT9, 1NR3HAWG9D]
+topics: [JYJHB4YBAH]
+audience: grad
+uses: [WDVVEYD6AT, 92SWXST1ZM, MVCH6N9SNW, 676H7EGTKJ, ZSTEZ3PRT9, 1NR3HAWG9D, DKFGQTRYZE, SCRB74SWQN, CS82V969DE]
 about: [ZSTEZ3PRT9, MEC3ZMC4F1]
+history:
+  notes: The theorem dates from the 1950s and carries the names of Jerzy Łoś and Alfred Tarski. William Tait showed in 1959 that it fails over finite structures.
 sources:
   - url: https://en.wikipedia.org/wiki/Łoś–Tarski_preservation_theorem
+    locator: Statement
+  - book: isbn:9780521587136
 same_as:
   wikidata: Q8080822
   wikipedia: Łoś–Tarski preservation theorem
@@ -15,42 +22,86 @@ same_as:
 
 ## Statement
 
-Let $\sigma$ be a first-order signature and let $T$ be a first-order [[theory|92SWXST1ZM]] in $\sigma$.
-Then the following are equivalent.
+Let $L$ be a first-order [[signature|WDVVEYD6AT]], and let $T$ be an $L$-[[theory|92SWXST1ZM]].
+A [[sentence|DKFGQTRYZE]] is *universal* if it has the form $\forall x_1 \cdots \forall x_n \, \theta$ with $\theta$ quantifier-free, and *existential* if it has the form $\exists x_1 \cdots \exists x_n \, \theta$.
+Let $T_\forall$ and $T_\exists$ be the sets of universal and of existential sentences that are consequences of $T$.
 
-1. The class of [[models|MVCH6N9SNW]] of $T$ is closed under [[substructures|676H7EGTKJ]]: if $B \models T$ and $A$ is a substructure of $B$, then $A \models T$.
-2. There is a set $U$ of universal sentences of $\sigma$ with the same models as $T$; so the models of $T$ form a [[universal class|ZSTEZ3PRT9]].
+1. The class of [[models|MVCH6N9SNW]] of $T$ is closed under [[substructures|676H7EGTKJ]] if and only if $T_\forall$ has the same models as $T$. So the models of $T$ form a [[universal class|ZSTEZ3PRT9]].
+2. The class of models of $T$ is closed under extensions if and only if $T_\exists$ has the same models as $T$.
+3. A sentence $\varphi$ is preserved by substructures if and only if it is logically equivalent to a universal sentence. It is preserved by extensions if and only if it is logically equivalent to an existential sentence.
+
+Here "closed under substructures" means: if $B \models T$ and $A$ is a substructure of $B$, then $A \models T$.
+"Closed under extensions" means: if $A \models T$ and $A$ is a substructure of $B$, then $B \models T$.
+A proof is in [[the proof of the Łoś–Tarski theorem|~1f796e8b]].
 
 ## Remarks
 
-The direction from 2 to 1 holds because universal sentences pass from a structure to its substructures.
-For the other direction, let $U$ be the set of universal sentences that follow from $T$, and let $A \models U$.
-Expand the signature by a constant for each element of $A$, and let $D$ be the set of quantifier-free sentences true in $A$, its diagram.
-If $T \cup D$ had no model, then by the [[compactness theorem|1NR3HAWG9D]] $T$ would prove the negation of a finite conjunction from $D$.
-Replacing the new constants by variables gives a universal sentence in $U$ that fails in $A$.
-So $T \cup D$ has a model $B$, into which $A$ embeds, and condition 1 gives $A \models T$.
+### Why each hypothesis is needed
 
-A version for formulas holds too: a formula is preserved by substructures between models of $T$ exactly when it is equivalent modulo $T$ to a universal formula.
-Dually, the class of models of $T$ is closed under extensions exactly when $T$ is equivalent to a set of existential sentences.
+- First-order axioms. The class of [[well-orders|01CGSJ0GNQ]] is closed under substructures, since a subset of a well-order is well-ordered. It is not an [[elementary class|MEC3ZMC4F1]], so it has no universal axioms.
+- The signature. In the signature $\set{\cdot}$ the positive integers form a substructure of the group $(\mathbb{Z}, +)$ that is not a group. In $\set{\cdot, {}^{-1}, e}$ the group axioms are universal, and the class is closed under substructures.
+- All structures, not only finite ones. Over finite structures the theorem fails, as the next subsection shows.
 
-Example: the theory of groups in the signature $(\cdot, {}^{-1}, e)$ is closed under substructures, and the group axioms are indeed universal.
-In the signature $(\cdot)$ alone, a substructure of a group is only a subsemigroup, such as $\N_{>0}$ in $(\Z, +)$, and the axioms of groups in this signature need existential quantifiers.
+### Failure over finite structures
 
-The theorem uses compactness, and it fails when only finite structures are considered.
+Let $L = \set{<, S, \min, \max}$ with $S$ binary and $\min, \max$ constants.
+Let $\alpha$ be the universal sentence that says: $<$ is a linear order, every $x$ satisfies $\min \le x \le \max$, and $S(x, y)$ implies that $y$ is the immediate successor of $x$.
+Let $\varphi$ be $\alpha \wedge \exists x \, (x \ne \max \wedge \forall y \, \neg S(x, y))$, so $\varphi$ says that the $S$-chain is broken somewhere.
+We check five facts.
+
+1. Let $A$ be a finite model of $\alpha$, and let $B$ be a substructure. Then $B \models \alpha$, since $\alpha$ is universal, and $B$ contains $\min$ and $\max$.
+2. Suppose that every $x \ne \max$ in $B$ has an $S$-successor in $B$. Then the chain from $\min$ runs through consecutive elements of $A$ up to $\max$, so $B = A$.
+3. So a proper substructure of a finite model of $\alpha$ is broken, and it satisfies $\varphi$. Hence finite models of $\varphi$ are closed under substructures.
+4. Suppose that $\varphi$ is equivalent on finite structures to $\forall x_1 \cdots \forall x_n \, \theta$. The full chain $C$ on $0 < 1 < \dots < n + 2$ fails $\varphi$, so $C \models \neg\theta(\bar a)$ for some $\bar a$. The substructure on $\bar a$, $0$ and $n + 2$ is proper, so it satisfies $\varphi$ by step 3, but it fails $\theta(\bar a)$, a contradiction.
+5. Over infinite structures $\varphi$ is not preserved: the order $\omega + 1 + \omega^*$ is broken only at its middle point, and removing that point gives a model of $\neg\varphi$.
+
+### Consequences
+
+- The integral domains are closed under subrings with $1$, so they have universal axioms; the fields are not, so they have none.
+- A finitely axiomatizable theory closed under substructures is axiomatized by one universal sentence, by part 3.
+- For every theory $T$, each model of $T_\forall$ embeds in a model of $T$. This is the main lemma of the proof, and it needs no closure hypothesis.
+
+### Converse
+
+The easy direction of each part is the converse: universal sentences pass to substructures by [[this statement|C9494XYEMN]], and existential sentences pass to extensions.
+
+### Generalizations
+
+- Relative form: a formula $\varphi(\bar x)$ is preserved by substructures between models of $T$ if and only if it is equivalent modulo $T$ to a universal formula.
+- Unions of chains and $\forall\exists$ sentences: the [[Chang-Łoś-Suszko theorem|~99a892b2]].
+- The pattern of [[preservation theorems|~00cd7ceb]] lists the other constructions.
+
+## History
+
+The theorem dates from the 1950s and carries the names of Jerzy Łoś and Alfred Tarski.
+William Tait showed in 1959 that it fails over finite structures, and Yuri Gurevich and Saharon Shelah later found this failure again.
 
 ## Explanations
 
 ### L1 human
 
-A universal axiom says that something holds for all elements, without asking for any element to exist.
-Such axioms survive passing to a part of a structure.
-The theorem says the converse: if a first-order axiom system always survives passing to parts, then it can be rewritten with universal axioms only.
-So a semantic property, closure under substructures, matches a syntactic one, the shape of the axioms.
+A universal rule says that something holds for all elements, and it never asks for an element to exist.
+Such a rule still holds when one keeps only a part of a structure.
+The theorem gives the converse: if a list of first-order rules always survives when one passes to a part, then the list can be replaced by universal rules.
+So a property of the models, closure under parts, decides the shape of the axioms.
 
 ### L2 human
 
-The Łoś–Tarski theorem is the first of the preservation theorems of model theory.
-Others in the same spirit are the Chang–Łoś–Suszko theorem, for unions of chains and $\forall\exists$ sentences, and Lyndon's theorem, for homomorphic images and positive sentences.
-In universal algebra it explains why an elementary class of algebras closed under subalgebras has a universal axiomatization.
-This is a first step towards the descriptions of quasivarieties and varieties.
-The proof method, realizing the diagram of a structure in a model of $T$, is the method of diagrams used throughout model theory.
+We test the theorem on the theory of fields in the signature $\set{+, -, \cdot, 0, 1}$.
+
+1. The ring $\mathbb{Z}$ is a substructure of the field $\mathbb{Q}$: it contains $0$ and $1$ and is closed under $+$, $-$ and $\cdot$.
+2. In $\mathbb{Z}$ the element $2$ has no inverse, so $\mathbb{Z}$ is not a field.
+3. So the class of fields is not closed under substructures.
+4. By part 1, no set of universal sentences axiomatizes the fields.
+5. The class of integral domains is closed under substructures, and its axioms are universal: $0 \ne 1$ and $\forall x \forall y \, (x y = 0 \rightarrow x = 0 \vee y = 0)$, with the ring axioms.
+
+The typical use is to prove that a class has no universal axioms, by one substructure.
+A trap is to apply the theorem to a class of finite structures; the example above shows that it fails there.
+
+### L3 human
+
+The proof realizes the diagram of a model of $T_\forall$ inside a model of $T$, by compactness.
+It is the simplest case of the general plan of [[preservation theorems|~00cd7ceb]], which continues with unions of chains, homomorphisms and reduced products.
+The theorem gives an inclusion of [[universal classes|ZSTEZ3PRT9]] among elementary classes, and their characterization by substructures and ultraproducts is [[this theorem|~f72a8819]].
+In the language of categories of models, closure under monomorphisms (embeddings) matches universal axioms.
+In finite model theory the theorem fails, while Rossman's homomorphism preservation theorem survives; see [[Lyndon's theorem|~79a402be]].
