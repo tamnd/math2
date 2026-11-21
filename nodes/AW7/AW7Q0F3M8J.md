@@ -18,23 +18,25 @@ sources:
 
 ## Example
 
-A rotation of space about an axis through the origin has an angle and a direction (the axis).
-So it looks like a quantity with a size and a direction.
-We show that rotations do not combine like [[vectors|0QN3D80AWP]].
+A rotation of space about an axis through the origin has a size, its angle, and a direction, its axis.
+So it looks like a quantity with a size and a direction, the informal description of a [[vector|0QN3D80AWP]].
+We show that rotations do not combine the way vectors add, because the result of two rotations depends on their order.
 
-1. Let $R_x$ be the rotation by $90^\circ$ about the $x$-axis: $R_x(x, y, z) = (x, -z, y)$. It sends $(0, 1, 0)$ to $(0, 0, 1)$.
-2. Let $R_y$ be the rotation by $90^\circ$ about the $y$-axis: $R_y(x, y, z) = (z, y, -x)$. It sends $(0, 0, 1)$ to $(1, 0, 0)$.
-3. We apply $R_x$ first and then $R_y$ to $e_1 = (1, 0, 0)$. We get $R_x(e_1) = (1, 0, 0)$ and then $R_y(1, 0, 0) = (0, 0, -1)$.
-4. We apply $R_y$ first and then $R_x$ to $e_1$. We get $R_y(e_1) = (0, 0, -1)$ and then $R_x(0, 0, -1) = (0, 1, 0)$.
-5. The results $(0, 0, -1)$ and $(0, 1, 0)$ are different. So the result of two rotations depends on their order.
-6. The sum of two vectors does not depend on the order, because $u + v = v + u$. So no rule "rotation plus rotation" can be the vector sum.
+1. Let $R_x$ be the quarter turn about the $x$-axis, $R_x(x, y, z) = (x, -z, y)$. It sends $(0, 1, 0)$ to $(0, 0, 1)$, so it turns the $y$-axis into the $z$-axis.
+2. Let $R_y$ be the quarter turn about the $y$-axis, $R_y(x, y, z) = (z, y, -x)$. It sends $(0, 0, 1)$ to $(1, 0, 0)$, so it turns the $z$-axis into the $x$-axis.
+3. Apply $R_x$ first and then $R_y$ to $e_1 = (1, 0, 0)$. The first turn fixes $e_1$, since it lies on the axis, and the second turn gives
+   $$R_y(R_x(e_1)) = R_y(1, 0, 0) = (0, 0, -1).$$
+4. Apply $R_y$ first and then $R_x$ to $e_1$:
+   $$R_x(R_y(e_1)) = R_x(0, 0, -1) = (0, 1, 0).$$
+5. The results $(0, 0, -1)$ and $(0, 1, 0)$ differ, so the result of the two rotations depends on their order.
+6. Vector addition does not depend on the order, because $u + v = v + u$. So no rule of the form "rotation plus rotation" can be the vector sum.
 
 ## Remarks
 
-The example shows that "a size and a direction" is not enough to make a vector.
-A vector quantity must also add by the parallelogram rule.
-For very small angles the two orders give almost the same result.
-This is why angular velocity, which describes an infinitesimal rotation, is a vector.
+"A size and a direction" is not enough to make a vector.
+A vector quantity must also combine with others by the parallelogram rule, and in particular in either order.
+For small angles the two orders give almost the same result, and the difference shrinks faster than the angles do.
+That is why angular velocity, which describes rotation over a very short time, is a vector, while a finite rotation is not.
 
 ## Explanations
 
@@ -43,10 +45,10 @@ This is why angular velocity, which describes an infinitesimal rotation, is a ve
 Hold a book flat, turn it a quarter turn forward, and then a quarter turn to the side.
 Start again, and do the two turns in the other order.
 The book ends in a different position.
-Moves along vectors never do this: 3 steps east and then 4 steps north end at the same place as 4 north and then 3 east.
+Moves along vectors never do this: 3 steps east and then 4 steps north end at the same place as 4 steps north and then 3 steps east.
 
 ### L2 human
 
-The formulas in steps 1 and 2 come from the right-hand rule: a turn about the $x$-axis moves the $y$-axis to the $z$-axis.
-The check in steps 3 and 4 uses only the substitution of numbers into these formulas.
-A trap: a quantity with a magnitude and a direction is a vector only when it also combines by vector addition.
+The formulas in steps 1 and 2 come from the right-hand rule: with the thumb along the positive $x$-axis, the fingers turn the $y$-axis toward the $z$-axis.
+The check in steps 3 and 4 needs only the substitution of numbers into these formulas.
+Watch out: a quantity with a size and a direction is a vector only when it also combines by vector addition, and order-dependent quantities such as rotations fail that test.

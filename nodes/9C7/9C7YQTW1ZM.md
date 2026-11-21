@@ -16,20 +16,21 @@ sources:
 ## Example
 
 Let $u = (3, 0)$ and $v = (2, 2)$ in the plane.
-We compute the [[dot product|0S52TNNTH9]] in two ways.
+We compute the [[dot product|0S52TNNTH9]] in two ways and compare.
 
-1. Coordinate definition: $u \cdot v = 3 \cdot 2 + 0 \cdot 2 = 6$.
+1. The coordinate definition multiplies and adds: $u \cdot v = 3 \cdot 2 + 0 \cdot 2 = 6$.
 2. The [[lengths|0XKBKGTCPC]] are $\|u\| = 3$ and $\|v\| = \sqrt{4 + 4} = 2\sqrt{2}$.
-3. The vector $u$ lies on the positive $x$-axis. The vector $v$ lies on the line $y = x$ in the first quadrant.
-4. So the [[angle between them|0ZEHZY85E6]] is $\theta = 45^\circ$, and $\cos \theta = \tfrac{\sqrt{2}}{2}$.
-5. Geometric definition: $\|u\| \, \|v\| \cos \theta = 3 \cdot 2\sqrt{2} \cdot \tfrac{\sqrt{2}}{2} = 3 \cdot 2 = 6$.
-6. Both definitions give $6$, as the [[geometric formula|070TXS9AXM]] predicts.
+3. The vector $u$ lies on the positive $x$-axis, and $v$ lies on the line $y = x$ in the first quadrant. So the [[angle between them|0ZEHZY85E6]] is $\theta = 45^\circ$, with $\cos \theta = \tfrac{\sqrt{2}}{2}$.
+4. The geometric definition gives
+   $$\|u\| \, \|v\| \cos \theta = 3 \cdot 2\sqrt{2} \cdot \tfrac{\sqrt{2}}{2} = 6.$$
+5. Both definitions give $6$, as the [[geometric formula|070TXS9AXM]] says they must.
 
 ## Remarks
 
-The example uses a pair of vectors whose angle we know from the picture, without the dot product.
-If we replace $v$ by $(0, 2)$, the angle is $90^\circ$, and both definitions give $0$.
-If we replace $v$ by $(-2, 2)$, the angle is $135^\circ$, and both give $-6$: the coordinate value is $-6 + 0$, and the geometric value is $3 \cdot 2\sqrt{2} \cdot (-\tfrac{\sqrt{2}}{2})$.
+The pair is chosen so that the angle can be read from the picture without any dot product, so the test of the formula is honest.
+Turning $v$ changes both sides together.
+For $v = (0, 2)$ the angle is $90^\circ$ and both definitions give $0$.
+For $v = (-2, 2)$ the angle is $135^\circ$, the coordinate value is $-6 + 0 = -6$, and the geometric value is $3 \cdot 2\sqrt{2} \cdot \left(-\tfrac{\sqrt{2}}{2}\right) = -6$.
 
 ## Explanations
 
@@ -42,6 +43,6 @@ So the quick rule with components measures the angle in a hidden way.
 
 ### L2 human
 
-In practice we use the coordinate definition to compute, and the geometric definition to interpret.
+In practice you compute with the coordinate definition and interpret with the geometric one.
 Here the value $6$ is positive, so the angle is acute.
-A trap: in degrees, $\cos 45^\circ = \tfrac{\sqrt{2}}{2}$; a calculator set to radians gives $\cos 45 \approx 0.525$, which is wrong here.
+Watch out: $\cos 45^\circ = \tfrac{\sqrt{2}}{2}$, but a calculator set to radians gives $\cos 45 \approx 0.525$, which is wrong here.

@@ -17,89 +17,115 @@ sources:
 
 ## Summary
 
-The angle between two nonzero [[vectors|0QN3D80AWP]] $u$ and $v$ is the number $\theta \in [0, \pi]$ with
+The angle between two vectors measures how far apart their directions are, and the dot product lets you compute it from coordinates alone.
+For nonzero [[vectors|0QN3D80AWP]] $u$ and $v$ the angle is the number $\theta \in [0, \pi]$ with
 $$\cos \theta = \frac{u \cdot v}{\|u\| \, \|v\|},$$
 where $u \cdot v$ is the [[dot product|0S52TNNTH9]] and $\|\cdot\|$ is the [[length|0XKBKGTCPC]].
-In the plane and in space this is the opening between the two arrows drawn from one point, as the [[geometric formula for the dot product|070TXS9AXM]] shows.
-In $\mathbb{R}^n$ for $n \geq 4$ the formula is the [[definition|0PRAS55318]], and it makes sense only because the [[Cauchy-Schwarz inequality|0RFWW56Y22]] puts the quotient in $[-1, 1]$.
-The angle matters because it measures how far two directions differ, and it gives meaning to "perpendicular" and "parallel" in any dimension.
+In the plane and in space this is the opening between the two arrows drawn from one point, by the [[geometric formula for the dot product|070TXS9AXM]].
+In $\mathbb{R}^n$ for $n \ge 4$ the formula is the [[definition|0PRAS55318]], and it makes sense only because the [[Cauchy-Schwarz inequality|0RFWW56Y22]] keeps the quotient in $[-1, 1]$.
 
 ## Motivation
 
-In the plane, we can measure the angle between two arrows with a protractor.
-With coordinates, we want a formula instead.
-The law of cosines leads to the identity $u \cdot v = \|u\| \, \|v\| \cos \theta$, so the cosine of the angle is a quotient of numbers that we can compute.
-For lists of length $4$ or more, there is no picture.
-The quotient $\frac{u \cdot v}{\|u\| \, \|v\|}$ can still be computed, and we would like to call its arccosine the angle.
-This works only if the quotient lies between $-1$ and $1$, and the Cauchy-Schwarz inequality guarantees exactly this.
+In the plane you can measure the angle between two arrows with a protractor, but with coordinates you want a formula.
+The law of cosines leads to the identity $u \cdot v = \|u\| \, \|v\| \cos \theta$, so the cosine of the angle is a quotient of numbers that you can compute.
+
+For lists of length $4$ or more there is no picture, and yet the angle is still useful.
+In statistics the cosine of the angle between two centered data vectors is their correlation, and in a search engine the angle between two lists of word counts measures how similar two texts are.
+The quotient $\frac{u \cdot v}{\|u\| \, \|v\|}$ can always be computed, and we would like to call its arccosine the angle.
+That works only if the quotient lies between $-1$ and $1$, and the Cauchy-Schwarz inequality guarantees exactly that.
+The angle then gives a meaning to "perpendicular" in every dimension, the subject of the [[criterion for perpendicular vectors|03NK6RSRQ1]].
 
 ## Notation
 
-- The angle is written $\theta$, $\angle(u, v)$ or $\sphericalangle(u, v)$.
-- The angle is measured in radians in $[0, \pi]$, or in degrees in $[0^\circ, 180^\circ]$.
-- For a vector $v \neq 0$ of $\mathbb{R}^3$, the angles $\alpha$, $\beta$ and $\gamma$ with the axes are the direction angles. Their cosines $\cos \alpha = v_1 / \|v\|$, $\cos \beta = v_2 / \|v\|$ and $\cos \gamma = v_3 / \|v\|$ are the direction cosines.
+The angle is written $\theta$ or $\angle(u, v)$, and it is measured in radians in $[0, \pi]$ or in degrees in $[0^\circ, 180^\circ]$.
+For a nonzero vector $v$ of $\mathbb{R}^3$, the angles $\alpha$, $\beta$ and $\gamma$ that it makes with the three axes are its direction angles.
+Their cosines, the direction cosines, are
+$$\cos \alpha = \frac{v_1}{\|v\|}, \qquad \cos \beta = \frac{v_2}{\|v\|}, \qquad \cos \gamma = \frac{v_3}{\|v\|}.$$
 
 ## Remarks
 
-### Examples
+### A first computation
 
-- $(1, 0)$ and $(0, 1)$: the dot product is $0$, so $\theta = \tfrac{\pi}{2}$.
-- $(1, 1, 0)$ and $(1, 0, 1)$: $\cos \theta = \tfrac{1}{2}$, so $\theta = \tfrac{\pi}{3}$. The three points $0$, $(1, 1, 0)$ and $(1, 0, 1)$ form an equilateral triangle.
-- $(1, 2)$ and $(-3, 1)$: $\cos \theta = -\tfrac{1}{5\sqrt{2}}$, so $\theta \approx 98.13^\circ$, an obtuse angle. The [[worked example|KK2HKZ8F1A]] gives the steps.
-- In $\mathbb{R}^4$, $(1, 1, 1, 1)$ and $(1, 0, 0, 0)$: $\cos \theta = \tfrac{1}{2 \cdot 1}$, so $\theta = \tfrac{\pi}{3}$.
-- The direction cosines of $(2, -1, 2)$ are $\tfrac{2}{3}$, $-\tfrac{1}{3}$ and $\tfrac{2}{3}$. The [[direction cosine example|8NJY1C9GVH]] checks that their squares add to $1$.
+Take $u = (2, 1, -2)$ and $v = (1, 1, 0)$.
+The dot product and the lengths are
+$$u \cdot v = 2 + 1 + 0 = 3, \qquad \|u\| = \sqrt{4 + 1 + 4} = 3, \qquad \|v\| = \sqrt{2}.$$
+So $\cos \theta = 3 / (3\sqrt{2}) = 1 / \sqrt{2}$, and $\theta = \tfrac{\pi}{4} = 45^\circ$.
+The same recipe gives $\theta = \tfrac{\pi}{3}$ for $(1, 1, 0)$ and $(1, 0, 1)$, whose tips form an equilateral triangle with the origin.
+It also works where you cannot draw: in $\mathbb{R}^4$, the vectors $(1, 1, 1, 1)$ and $(1, 0, 0, 0)$ give $\cos \theta = 1 / (2 \cdot 1) = \tfrac{1}{2}$, so $\theta = \tfrac{\pi}{3}$.
 
-### Non-examples
+### Acute, right and obtuse
 
-- The angle with the zero vector is not defined: $\|0\| = 0$ is in the denominator.
-- The arccosine of $\frac{u \star v}{\sqrt{u \star u} \sqrt{v \star v}}$ for a form $\star$ that is not an inner product need not exist. The [[non-example with the Minkowski form|VDK0B2K1XT]] gets the value $\tfrac{2}{\sqrt{3}} > 1$.
-- The oriented angle from $u$ to $v$ in the plane, in $(-\pi, \pi]$, is a different notion. It changes sign when we swap $u$ and $v$, and the angle between vectors does not.
+The lengths in the denominator are positive, so the sign of $\cos \theta$ is the sign of $u \cdot v$.
+The angle is acute when $u \cdot v > 0$, right when $u \cdot v = 0$, and obtuse when $u \cdot v < 0$.
+For $u = (1, 2)$ and $v = (-3, 1)$ the dot product is $-3 + 2 = -1$, so the angle is obtuse before you compute anything else.
+The [[worked example|KK2HKZ8F1A]] finishes the computation: $\cos \theta = -1 / \sqrt{50}$ and $\theta \approx 98.13^\circ$, just past a right angle.
 
-### Basic properties
+### Direction cosines
 
-- Symmetry: the angle between $u$ and $v$ equals the angle between $v$ and $u$, since $u \cdot v = v \cdot u$.
-- Scaling: for $a, b > 0$ the angle between $au$ and $bv$ equals the angle between $u$ and $v$. The factor $ab$ cancels in the quotient.
-- Reversal: the angle between $-u$ and $v$ is $\pi - \theta$, since $\cos(\pi - \theta) = -\cos \theta$.
-- The angle is acute ($\theta < \tfrac{\pi}{2}$) if $u \cdot v > 0$, right if $u \cdot v = 0$, and obtuse ($\theta > \tfrac{\pi}{2}$) if $u \cdot v < 0$. The reason is that the lengths are positive.
-- $\theta = 0$ if and only if $v = cu$ with $c > 0$, and $\theta = \pi$ if and only if $v = cu$ with $c < 0$. This is the equality case of the Cauchy-Schwarz inequality.
-- The direction cosines of $v$ are the components of the unit vector $v / \|v\|$, so $\cos^2 \alpha + \cos^2 \beta + \cos^2 \gamma = 1$.
+The angles with the axes come from dot products with $\mathbf{i}$, $\mathbf{j}$ and $\mathbf{k}$, which pick out the components.
+For $v = (2, -1, 2)$, with $\|v\| = 3$, the direction cosines are $\tfrac{2}{3}$, $-\tfrac{1}{3}$ and $\tfrac{2}{3}$, as the [[direction cosines example|8NJY1C9GVH]] shows.
+They are the components of the unit vector $v / \|v\|$, so they always satisfy
+$$\cos^2 \alpha + \cos^2 \beta + \cos^2 \gamma = 1.$$
+
+### The rules you can use
+
+The angle is symmetric, because $u \cdot v = v \cdot u$.
+It does not change when you stretch either vector by a positive factor, since for $a, b > 0$ the factor $ab$ cancels in the quotient.
+Reversing one vector replaces $\theta$ by $\pi - \theta$, because $(-u) \cdot v = -(u \cdot v)$ and $\cos(\pi - \theta) = -\cos \theta$.
+The extreme values mean parallel vectors: $\theta = 0$ exactly when $v = cu$ with $c > 0$, and $\theta = \pi$ exactly when $v = cu$ with $c < 0$.
+This is the case of equality in the Cauchy-Schwarz inequality.
+
+### What is not an angle
+
+The zero vector has no angle with anything, because $\|0\| = 0$ would be in the denominator.
+A form that is not an inner product can push the quotient out of $[-1, 1]$.
+The [[Minkowski example|VDK0B2K1XT]] gets the value $2 / \sqrt{3} > 1$, which is the cosine of no angle.
+The oriented angle from $u$ to $v$ in the plane, a number in $(-\pi, \pi]$, is a different idea: it changes sign when you swap $u$ and $v$, and the angle between vectors does not.
+
+### Watch out
+
+In $\mathbb{R}^n$ the arccosine formula has no meaning until you know that the quotient lies in $[-1, 1]$.
+So a proof of the [[Cauchy-Schwarz inequality|0RFWW56Y22]] in $\mathbb{R}^n$ cannot use angles in $\mathbb{R}^n$; that would be circular.
+A second slip is to take the arccosine of $u \cdot v$ without dividing by the lengths.
+For $(1, 1)$ and $(1, 0)$ that gives $\arccos 1 = 0$, but the true angle is $45^\circ$, since $\cos \theta = 1 / \sqrt{2}$.
+The shortcut works only for unit vectors.
 
 ### History
 
-The measure of angles is as old as geometry, and Euclid's Elements studies angles without numbers.
-The definition of the angle by the arccosine of the quotient, in any dimension, is possible only after the Cauchy-Schwarz inequality.
-Cauchy proved the inequality for sums in 1821, and Schwarz proved a version for integrals in 1888.
+The measure of angles is as old as geometry, and Euclid's *Elements* studies angles without numbers.
+Cauchy proved the inequality for finite sums in 1821, and Schwarz proved a version for integrals in 1888.
+The definition of the angle by the arccosine of the quotient, in any dimension, rests on that inequality.
 
-### Common errors
+### Try it
 
-- In $\mathbb{R}^n$, students use the arccosine formula before they know that the quotient is in $[-1, 1]$. Without the [[Cauchy-Schwarz inequality|0RFWW56Y22]] the formula has no meaning.
-- Students take the arccosine of $u \cdot v$ without dividing by the lengths. This works only for unit vectors.
-- Students give an angle larger than $\pi$, or a negative angle. The angle between vectors is always in $[0, \pi]$.
+Find the angle between $(1, 0, 1)$ and $(0, 1, 1)$.
+The dot product is $1$ and both lengths are $\sqrt{2}$, so $\cos \theta = \tfrac{1}{2}$ and $\theta = 60^\circ$.
+
+Is the angle between $(3, -1, 2)$ and $(1, 5, 1)$ acute, right or obtuse?
+The dot product is $3 - 5 + 2 = 0$, so it is a right angle.
 
 ## Explanations
 
 ### L1 human
 
 Put two arrows at the same start point.
-The angle between them is the opening between the arrows, from $0^\circ$ (same direction) to $180^\circ$ (opposite directions).
-For the arrows $(1, 0)$ and $(1, 1)$, the opening is half a right angle, $45^\circ$.
-The formula gives the same: $\cos \theta = \frac{1}{1 \cdot \sqrt{2}}$, and the angle with this cosine is $45^\circ$.
+The angle between them is the opening between the arrows, from $0^\circ$ for the same direction to $180^\circ$ for opposite directions.
+For the arrows $(1, 0)$ and $(1, 1)$ the opening is half a right angle, $45^\circ$.
+The formula agrees: $\cos \theta = \frac{1}{1 \cdot \sqrt{2}}$, and the angle with this cosine is $45^\circ$.
 
 ### L2 human
 
-Worked example: the angle between $u = (2, 1, -2)$ and $v = (1, 1, 0)$.
-
-1. $u \cdot v = 2 + 1 + 0 = 3$.
-2. $\|u\| = \sqrt{4 + 1 + 4} = 3$ and $\|v\| = \sqrt{2}$.
-3. $\cos \theta = \frac{3}{3\sqrt{2}} = \frac{1}{\sqrt{2}}$.
-4. So $\theta = \tfrac{\pi}{4} = 45^\circ$.
-
-The typical use is to find angles in triangles and between lines in coordinates.
-The trap is the one in Common errors: in $\mathbb{R}^n$ the formula needs the Cauchy-Schwarz inequality first, and a proof that uses angles in $\mathbb{R}^n$ cannot be used to prove that inequality.
+Here is a typical use: find the angle at $A$ in the triangle with corners $A = (1, 0, 0)$, $B = (2, 1, 0)$ and $C = (1, 1, 1)$.
+The sides that leave $A$ are
+$$u = B - A = (1, 1, 0), \qquad v = C - A = (0, 1, 1).$$
+Their dot product is $0 + 1 + 0 = 1$, and both lengths are $\sqrt{2}$, so
+$$\cos \theta = \frac{1}{\sqrt{2} \cdot \sqrt{2}} = \frac{1}{2}, \qquad \theta = 60^\circ.$$
+Check: the third side is $C - B = (-1, 0, 1)$, of length $\sqrt{2}$, so the triangle is equilateral and every angle is $60^\circ$.
+The method needs only the two side vectors at the corner, and that is how angles in triangles and between lines are found in coordinates.
 
 ### L3 human
 
 In any real [[inner product space|1D4JTZ9VS3]] the same formula defines the angle, for example between two functions with the inner product $\int_0^1 f g$.
-The angle is the distance on the unit sphere: for unit vectors, $\theta$ is the length of the shortest arc of the great circle through them.
-Angles between subspaces, principal angles, extend the idea, and they come from the singular values of a matrix of the sub-area on [[positive matrices and singular values|SS4EVPKT3A]].
-In statistics, the cosine of the angle between two centred data vectors is their correlation coefficient.
+For unit vectors the angle is a distance on the unit sphere: it is the length of the shorter arc of the great circle through them.
+Angles between subspaces, the principal angles, extend the idea, and they come from the singular values of a matrix, as in the sub-area on [[positive matrices and singular values|SS4EVPKT3A]].
+In statistics the cosine of the angle between two centered data vectors is their correlation coefficient.

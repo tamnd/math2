@@ -14,22 +14,28 @@ sources:
 
 ## Example
 
+Three points not on one line fix a plane, and the cross product of two edges turns them into an equation.
 Let $A = (1, 0, 0)$, $B = (0, 2, 0)$ and $C = (0, 0, 3)$.
 We find the [[equation of the plane|07SDJ5DNE4]] through $A$, $B$ and $C$.
 
-1. Two directions in the plane: $u = B - A = (-1, 2, 0)$ and $v = C - A = (-1, 0, 3)$.
-2. Normal by the [[cross product|0N5N15HWZ7]]: $n = u \times v = (2 \cdot 3 - 0 \cdot 0, \; 0 \cdot (-1) - (-1) \cdot 3, \; (-1) \cdot 0 - 2 \cdot (-1)) = (6, 3, 2)$.
+1. Two directions in the plane are the edges from $A$:
+   $$u = B - A = (-1, 2, 0), \qquad v = C - A = (-1, 0, 3).$$
+2. The [[cross product|0N5N15HWZ7]] gives a normal:
+   $$n = u \times v = (2 \cdot 3 - 0 \cdot 0, \; 0 \cdot (-1) - (-1) \cdot 3, \; (-1) \cdot 0 - 2 \cdot (-1)) = (6, 3, 2).$$
 3. Check with the [[dot product|0S52TNNTH9]]: $n \cdot u = -6 + 6 + 0 = 0$ and $n \cdot v = -6 + 0 + 6 = 0$.
-4. Constant: $d = n \cdot A = 6$.
-5. Equation: $6x + 3y + 2z = 6$.
-6. Check: $B$ gives $0 + 6 + 0 = 6$ and $C$ gives $0 + 0 + 6 = 6$.
-7. Parametric form: $r = (1, 0, 0) + s(-1, 2, 0) + t(-1, 0, 3)$.
+4. The constant is $d = n \cdot A = 6$, so the plane is $6x + 3y + 2z = 6$.
+5. Check the other two points: $B$ gives $0 + 6 + 0 = 6$ and $C$ gives $0 + 0 + 6 = 6$.
+6. The same plane in parametric form is $r = (1, 0, 0) + s(-1, 2, 0) + t(-1, 0, 3)$.
 
 ## Remarks
 
-Division by $6$ gives the intercept form $\dfrac{x}{1} + \dfrac{y}{2} + \dfrac{z}{3} = 1$, which shows the three axis points at once.
-The point $(1, 2, 3)$ gives $6 + 6 + 6 = 18 > 6$, so it lies on the side of the plane into which $n$ points.
-The length $\|n\| = 7$ gives the area $\tfrac{7}{2}$ of the triangle $ABC$, as in the [[area example|Q6QW96GXK3]].
+Dividing by $6$ gives the intercept form
+$$\frac{x}{1} + \frac{y}{2} + \frac{z}{3} = 1,$$
+which shows the three points where the plane crosses the axes; that is no accident, since $A$, $B$ and $C$ were chosen on the axes.
+
+The equation also tells the two sides of the plane apart.
+The point $(1, 2, 3)$ gives $6 + 6 + 6 = 18$, which is more than $6$, so it lies on the side into which $n$ points.
+And the normal carries one more fact: $\|n\| = 7$ is the area of the parallelogram on $u$ and $v$, so the triangle $ABC$ has area $\tfrac{7}{2}$, as in the [[area example|Q6QW96GXK3]].
 
 ## Explanations
 
@@ -41,6 +47,6 @@ That arrow, $(6, 3, 2)$, gives the left side of the equation, and the point $A$ 
 
 ### L2 human
 
-The method: two edge vectors from one point, their cross product as normal, then $d = n \cdot A$.
-The checks in steps 3 and 6 catch most arithmetic errors.
-A trap: if the three points are on one line, the cross product in step 2 is $0$ and the method fails.
+The method has three moves: two edge vectors from one point, their cross product as the normal, and then $d = n \cdot A$.
+The checks in steps 3 and 5 catch most arithmetic errors, and they cost only a few multiplications.
+Watch out: if the three points lie on one line, the cross product in step 2 is $0$, and there is no single plane to find.

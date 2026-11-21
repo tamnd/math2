@@ -18,16 +18,18 @@ Let $u = (1, 2)$ and $v = (-3, 1)$.
 We compute the [[angle|0ZEHZY85E6]] $\theta$ between $u$ and $v$.
 
 1. The [[dot product|0S52TNNTH9]] is $u \cdot v = 1 \cdot (-3) + 2 \cdot 1 = -1$.
-2. The [[lengths|0XKBKGTCPC]] are $\|u\| = \sqrt{1 + 4} = \sqrt{5}$ and $\|v\| = \sqrt{9 + 1} = \sqrt{10}$.
-3. So $\cos \theta = \dfrac{-1}{\sqrt{5}\sqrt{10}} = \dfrac{-1}{\sqrt{50}} = -\dfrac{1}{5\sqrt{2}} \approx -0.1414$.
-4. The dot product is negative, so the angle is obtuse.
+2. The dot product is negative, so the angle is obtuse, before any further work.
+3. The [[lengths|0XKBKGTCPC]] are $\|u\| = \sqrt{1 + 4} = \sqrt{5}$ and $\|v\| = \sqrt{9 + 1} = \sqrt{10}$.
+4. Divide the dot product by the product of the lengths:
+   $$\cos \theta = \frac{-1}{\sqrt{5} \, \sqrt{10}} = -\frac{1}{\sqrt{50}} = -\frac{1}{5\sqrt{2}} \approx -0.1414.$$
 5. A calculator in degree mode gives $\theta = \arccos(-0.1414) \approx 98.13^\circ$.
 
 ## Remarks
 
 The angle is only a little more than a right angle, because the dot product $-1$ is small compared with $\|u\| \, \|v\| = \sqrt{50} \approx 7.07$.
-If we change $v$ to $(-2, 1)$, the dot product becomes $0$, and the angle is exactly $90^\circ$.
-If we change $v$ to $(3, -1)$, the dot product becomes $1$, and the angle is $180^\circ - 98.13^\circ = 81.87^\circ$.
+Small changes of $v$ show how the sign controls the type of angle.
+For $v = (-2, 1)$ the dot product becomes $-2 + 2 = 0$, and the angle is exactly $90^\circ$.
+For $v = (3, -1)$, the reverse of the original $v$, the dot product becomes $1$, and the angle is $180^\circ - 98.13^\circ = 81.87^\circ$.
 
 ## Explanations
 
@@ -36,10 +38,10 @@ If we change $v$ to $(3, -1)$, the dot product becomes $1$, and the angle is $18
 The vector $(1, 2)$ points up and a little to the right.
 The vector $(-3, 1)$ points to the left and a little up.
 The opening between them is a bit more than a right angle.
-The negative dot product $-1$ tells us this before we compute the angle.
+The negative dot product $-1$ tells you this before you compute the angle.
 
 ### L2 human
 
-The sign of the dot product gives the type of the angle at once, and the size needs the lengths.
-We use this to classify the angles of a triangle quickly.
-A trap: $\arccos$ on a calculator returns values in $[0^\circ, 180^\circ]$; it never returns a negative angle, and it needs no correction here.
+The sign of the dot product gives the type of the angle at once, and the size of the angle needs the lengths.
+That is the quick way to classify the angles of a triangle: three dot products, one at each corner.
+Watch out: $\arccos$ on a calculator returns values in $[0^\circ, 180^\circ]$, so it never returns a negative angle, and here its answer needs no correction.

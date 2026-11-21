@@ -17,17 +17,17 @@ sources:
 Let $A = (1, 2, 3)$ and $B = (4, 6, 15)$ be points of space.
 We compute the [[Euclidean distance|0NPPGHQNXQ]] $d(A, B)$ as the [[length|0XKBKGTCPC]] of the vector $\overrightarrow{AB}$.
 
-1. The vector is $\overrightarrow{AB} = B - A = (3, 4, 12)$.
-2. The squares of its components are $9$, $16$ and $144$.
-3. Their sum is $169$.
-4. So $d(A, B) = \sqrt{169} = 13$.
-5. The order does not matter: $\overrightarrow{BA} = (-3, -4, -12)$ has the same squares, so $d(B, A) = 13$.
+1. The vector from $A$ to $B$ is end minus start, $\overrightarrow{AB} = B - A = (3, 4, 12)$.
+2. Square the components and add:
+   $$3^2 + 4^2 + 12^2 = 9 + 16 + 144 = 169.$$
+3. Take the square root: $d(A, B) = \sqrt{169} = 13$.
+4. The order of the points does not matter. The vector $\overrightarrow{BA} = (-3, -4, -12)$ has the same squares, so $d(B, A) = 13$ as well.
 
 ## Remarks
 
-The example combines two Pythagorean triples: $3^2 + 4^2 = 5^2$ and $5^2 + 12^2 = 13^2$.
-In the box with edges $3$, $4$ and $12$, the diagonal of the bottom face has length $5$, and the space diagonal has length $13$.
-If we change $B$ to $(4, 6, 3)$, then $\overrightarrow{AB} = (3, 4, 0)$, and the distance is $5$.
+The number $13$ comes from two Pythagorean triples, $3^2 + 4^2 = 5^2$ and $5^2 + 12^2 = 13^2$.
+In the box with edges $3$, $4$ and $12$, the diagonal of the bottom face has length $5$, and the diagonal through the box has length $13$.
+If $B$ changes to $(4, 6, 3)$, then $\overrightarrow{AB} = (3, 4, 0)$ and the distance drops to $5$: the two points now lie in one horizontal plane, and only the first triple remains.
 
 ## Explanations
 
@@ -39,6 +39,7 @@ Square these numbers, add, and take the square root: $\sqrt{9 + 16 + 144} = 13$.
 
 ### L2 human
 
-The distance formula is $d(A, B) = \sqrt{(b_1 - a_1)^2 + (b_2 - a_2)^2 + (b_3 - a_3)^2}$.
-We use it to test whether a point lies on a sphere: the point lies on the sphere with center $A$ and radius $13$ when its distance from $A$ is $13$.
-A trap: subtract before squaring, because $b_1^2 - a_1^2$ is not $(b_1 - a_1)^2$.
+In general the distance between $A = (a_1, a_2, a_3)$ and $B = (b_1, b_2, b_3)$ is
+$$d(A, B) = \sqrt{(b_1 - a_1)^2 + (b_2 - a_2)^2 + (b_3 - a_3)^2}.$$
+A typical use is to test whether a point lies on a sphere: a point lies on the sphere with center $A$ and radius $13$ exactly when its distance from $A$ is $13$, so $B$ is on that sphere.
+Watch out: subtract before you square, because $b_1^2 - a_1^2$ is not $(b_1 - a_1)^2$; for the first coordinates here, $16 - 1 = 15$ but $(4 - 1)^2 = 9$.
