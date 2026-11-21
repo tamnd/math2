@@ -8,30 +8,40 @@ topics: [GN8GYSDZFX]
 
 ## Summary
 
-This topic is a part of [[linear algebra|GN8GYSDZFX]].
-It covers the overview of the area, its teaching, and geometric vectors in the plane and in space, with the products of vectors and the equations of lines and planes that school and first courses use.
+This is where [[linear algebra|GN8GYSDZFX]] starts, with arrows you can draw.
+The first four pages step back and look at the whole subject: what it studies, how it is taught, how it can be built without determinants, and which errors students make most often.
+Then the story becomes concrete.
+A vector is an arrow, or a list of numbers, and arrows can be added and stretched.
+Pythagoras gives an arrow a length, and the dot product, one number made from two arrows, gives the angle between them and tells when they are perpendicular.
+Splitting an arrow into a part along another arrow and a part across it is the projection, the seed of least squares later in the area.
+In space a second product appears, the cross product, whose length is an area; three arrows then give a volume, the first determinant a reader meets.
+With these tools, lines and planes get equations, and every distance between points, lines and planes becomes a short computation.
+A last page uses the same arrows to prove theorems of plane geometry and to add forces.
+Almost every later idea of the area, from bases to orthogonal projections to determinants as volumes, appears here first in a form you can picture.
 
 ## Remarks
 
 ### Reading order
 
-1. [[Linear algebra: overview|Y7PBW8VD4Q]]: the three views of the subject and the map of the sub-areas.
-2. [[Teaching linear algebra|9AXCDDT1Z1]]: matrix-first and abstract-first courses, proofs and software.
-3. [[Linear algebra without determinants|4C6EBHFF3R]]: eigenvalues from polynomials in the operator.
-4. [[Common errors in learning linear algebra|79YPKR857M]]: five frequent errors with counterexamples.
-5. [[Euclidean vector|0QN3D80AWP]]: arrows, components, sums and scalar multiples.
-6. [[Length of a vector|0XKBKGTCPC]]: the Euclidean norm, unit vectors and distances.
-7. [[Dot product|0S52TNNTH9]]: the coordinate and the geometric definitions and their equivalence.
-8. [[Angle between two vectors|0ZEHZY85E6]]: the cosine formula and why it needs Cauchy-Schwarz.
-9. [[Perpendicular vectors and the dot product|03NK6RSRQ1]]: perpendicular exactly when the dot product is zero.
-10. [[Vector projection|0JW13B48YP]]: the component along a vector and the orthogonal decomposition.
-11. [[Cross product|0N5N15HWZ7]]: the product in space, its length as an area, and Lagrange's identity.
-12. [[Scalar triple product|34VJYG6GVD]]: a determinant, a volume and a test for coplanarity.
-13. [[Vector triple product|03FTB26QYD]]: the expansion formula and the Jacobi identity.
-14. [[Vector and parametric equations of a line|0399QFDFS8]]: lines in the plane and in space, and skew lines.
-15. [[Normal vector and equation of a plane|07SDJ5DNE4]]: point-normal and parametric forms, and angles between planes.
-16. [[Distances between points, lines and planes|C6GAS92QHX]]: the distance formulas by projections and cross products.
-17. [[Vector proofs in plane geometry|ZVEKWJTSV7]]: medians, parallelograms, forces and velocities.
+1. [[Linear algebra: overview|Y7PBW8VD4Q]]: see the three views of the subject, through equations, matrices and maps, and where each sub-area fits.
+2. [[Teaching linear algebra|9AXCDDT1Z1]]: learn why some courses start with matrices and others with abstract spaces, and what role proofs and software play.
+3. [[Linear algebra without determinants|4C6EBHFF3R]]: see how eigenvalues can be found from polynomials in the operator, and what that route gains and loses.
+4. [[Common errors in learning linear algebra|79YPKR857M]]: meet five frequent errors, each with a counterexample that shows why it fails.
+5. [[Euclidean vector|0QN3D80AWP]]: learn to add vectors, stretch them and pass between arrows and lists of components.
+6. [[Length of a vector|0XKBKGTCPC]]: compute lengths and distances from Pythagoras, and scale any vector to a unit vector.
+7. [[Dot product|0S52TNNTH9]]: get one number from two vectors, and see why its coordinate and geometric definitions agree.
+8. [[Angle between two vectors|0ZEHZY85E6]]: find angles from the dot product, and see why the Cauchy-Schwarz inequality makes this possible.
+9. [[Perpendicular vectors and the dot product|03NK6RSRQ1]]: test perpendicularity with one computation, a dot product equal to zero.
+10. [[Vector projection|0JW13B48YP]]: split a vector into a part along another vector and a part perpendicular to it.
+11. [[Cross product|0N5N15HWZ7]]: build a vector perpendicular to two given ones, whose length is the area they span.
+12. [[Scalar triple product|34VJYG6GVD]]: compute the volume of a box from three edges, and test whether three vectors lie in one plane.
+13. [[Vector triple product|03FTB26QYD]]: replace two cross products in a row by dot products, and see why the cross product is not associative.
+14. [[Vector and parametric equations of a line|0399QFDFS8]]: describe a line by a point and a direction, and tell parallel, meeting and skew lines apart.
+15. [[Normal vector and equation of a plane|07SDJ5DNE4]]: write a plane as one linear equation, and find angles between planes.
+16. [[Distances between points, lines and planes|C6GAS92QHX]]: compute every distance in space with a projection or a cross product.
+17. [[Vector proofs in plane geometry|ZVEKWJTSV7]]: prove that the medians of a triangle meet, and add forces and velocities, using only vector arithmetic.
+
+Each page links its own examples, non-examples and proofs, and these are best read right after it.
 
 ### Prerequisites
 
