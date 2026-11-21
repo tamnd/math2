@@ -24,6 +24,8 @@ Let $t = (1, 1)$, $s = (c_0, 0)$, $A = \set{(1, b) : b \in K}$ and $H = \set{(c,
 - $\Gamma$ defines $K$ in $G$ over $t$, with domain $A$ and coordinate map $f_\Gamma(1, b) = b$, as in [[this example|~62af360f]].
 - $\Delta$ defines $G$ in $K$ without parameters, with domain $\set{(x_1, x_2) : x_1 \neq 0}$, the product formula $z_1 = x_1 y_1 \wedge z_2 = x_1 y_2 + x_2$, and $f_\Delta(a, b) = (a, b)$.
 
+### The checks
+
 We check that $(\Gamma, \Delta)$ is a [[bi-interpretation|~80d07c0a]] over the parameters $t$ and $s$.
 
 1. $\Delta$ is a definition. The formulas copy the definition of the product, so $f_\Delta$ is an isomorphism onto $G$.

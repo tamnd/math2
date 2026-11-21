@@ -25,6 +25,8 @@ Here $E_1(p, q)$ means that $p$ and $q$ have the same first coordinate, and $E_2
 - $\Delta$ interprets $M$ in $N$ in dimension $1$: the domain is $N$, $\varepsilon$ is $E_1$, and $f_\Delta(a, b) = a$.
 
 Both are interpretations without parameters, since $M$ has no relations to translate.
+### No bi-interpretation
+
 We show that $M$ and $N$ are not $\emptyset$-bi-interpretable, for any choice of interpretations.
 
 1. A $\emptyset$-[[bi-interpretation|~80d07c0a]] gives an isomorphism of the [[automorphism groups|0K1SCPBNKJ]] $\operatorname{Aut}(M)$ and $\operatorname{Aut}(N)$. Each $\sigma \in \operatorname{Aut}(M)$ induces $f_\Gamma(\bar a) \mapsto f_\Gamma(\sigma \bar a)$, and the definable composites make the induced maps inverse to each other.
