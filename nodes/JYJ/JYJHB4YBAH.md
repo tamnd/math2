@@ -10,3 +10,25 @@ topics: [F3AXVABC35]
 
 This topic is a part of [[model theory|F3AXVABC35]].
 It covers the theorems that match a semantic property of a class of models with a syntactic form of its axioms, and the theorems that change implicit definitions into explicit definitions.
+
+## Remarks
+
+### Reading order
+
+1. [[Preservation theorems|~00cd7ceb]]: the general pattern that links closure of a class under a construction with a syntactic form of its axioms.
+2. [[Łoś-Tarski preservation theorem|9RN0KYXNT1]]: preservation under substructures and universal sentences.
+3. [[Chang-Łoś-Suszko theorem|~99a892b2]]: unions of chains and $\forall\exists$ sentences.
+4. [[Lyndon's homomorphism preservation theorem|~79a402be]]: surjective homomorphisms and positive sentences.
+5. [[Universal class|ZSTEZ3PRT9]] and its [[characterization|~f72a8819]], with examples from graphs and orders.
+6. [[Universal Horn class|9A4CYWXPEA]] and its [[characterization|~b2077580]] by isomorphisms, substructures and reduced products.
+7. [[Horn sentences and reduced products|~a403cb4d]]: the sentences preserved under all reduced products.
+8. [[Beth definability theorem|RJBDSA2ETP]]: implicit definitions are explicit, and Padoa's method.
+9. [[Svenonius's theorem|~8495e2be]]: definability through automorphisms of models.
+10. [[Chang-Makkai theorem|~09dc0606]]: definability through the number of automorphic images in saturated models.
+11. [[Pseudo-elementary class|~d3135277]]: classes of reducts, and how interpolation separates them.
+
+### Prerequisites
+
+- [[Elementary extensions and the Löwenheim-Skolem theorems|2RE7GWWXM5]]: elementary chains, diagrams and downward Löwenheim-Skolem.
+- [[Ultraproducts and product constructions|HZG1YP26AB]]: filters, reduced products and Łoś's theorem.
+- The [[Craig interpolation theorem|E2CBFNAVZY]], which the definability proofs use.
