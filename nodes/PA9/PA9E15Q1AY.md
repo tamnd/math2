@@ -1,0 +1,60 @@
+---
+tag: PA9E15Q1AY
+kind: example
+name: Real closed fields are the model completion of ordered fields
+aliases: [real-closed-fields-model-completion-of-ordered-fields]
+msc: ["03C10", "12D15"]
+topics: [1A9JSC5YG8]
+audience: grad
+instance_of: [68GG7QKN7C]
+uses: [WSJ2QN9YTY, 0P3VCBDEE2, 778KFSM09P, DDY3Q3PJ6W, FSJ9NGRRPA, EP5E317TNW, 655K8Y7VS8]
+sources:
+  - url: https://en.wikipedia.org/wiki/Real_closed_field
+    locator: Model theory
+  - url: https://en.wikipedia.org/wiki/Model_complete_theory
+    locator: Examples
+  - book: isbn:9780387987606
+    locator: Chapter 3
+---
+
+## Example
+
+Let $L = \set{+, -, \cdot, 0, 1, <}$, let $T$ be the theory of [[ordered fields|0P3VCBDEE2]], and let $\mathrm{RCF}$ be the theory of [[real closed ordered fields|DDY3Q3PJ6W]].
+We check the conditions of [[this definition|WSJ2QN9YTY]] for $\mathrm{RCF}$ as a model completion of $T$.
+
+1. Let $(K, <)$ be an ordered field. Its [[real closure|778KFSM09P]] $R$ is a real closed field whose order extends the order of $K$. So $(K, <)$ embeds into a model of $\mathrm{RCF}$.
+2. Every model of $\mathrm{RCF}$ is an ordered field, so it is a model of $T$.
+3. $\mathrm{RCF}$ has [[quantifier elimination|FSJ9NGRRPA]] in $L$. So it is model complete.
+4. Let $(K, <) \models T$, and let $\sigma$ be an $L_K$-sentence. By quantifier elimination, $\sigma$ is equivalent modulo $\mathrm{RCF}$ to a quantifier-free $L_K$-sentence $\sigma'$.
+5. A quantifier-free $L_K$-sentence is a Boolean combination of atomic sentences with parameters in $K$. Each of them, or its negation, belongs to the [[atomic diagram|EP5E317TNW]] $\mathrm{Diag}(K)$.
+6. So $\mathrm{RCF} \cup \mathrm{Diag}(K)$ proves $\sigma$ or proves $\neg \sigma$, and it is [[complete|655K8Y7VS8]].
+
+So $\mathrm{RCF}$ is the model completion of the theory of ordered fields.
+
+## Remarks
+
+Step 6 can also be seen with the real closure.
+A model $R'$ of $\mathrm{RCF} \cup \mathrm{Diag}(K)$ is a real closed field containing $(K, <)$, so it contains a copy of the real closure $R$ of $K$ over $K$, since the real closure is unique and embeds into every real closed extension.
+By model completeness $R \preceq R'$, so all such $R'$ have the same theory over $K$.
+
+It follows that ordered fields have the amalgamation property: two ordered field extensions of $(K, <)$ embed over $K$ into one real closed field.
+
+In the ring signature the order is gone, and the result changes.
+Then $\mathrm{RCF}$ is only a model companion of the theory of formally real fields, because a formally real field can have several orderings, as explained in the [[concept page|68GG7QKN7C]].
+
+## Explanations
+
+### L1 human
+
+Every ordered number system, like the rationals, sits inside a "real closed" one, like the real algebraic numbers, where every positive number has a square root and every odd-degree polynomial has a root.
+The theory of these real closed fields is the model completion of the ordered fields.
+Over a fixed ordered field, it decides every question that one can ask in the language of ordered rings.
+
+### L2 human
+
+We see step 6 for $K = \Q$.
+The sentence "there is $x$ with $x^3 = 2$ and $x > 1$" has no parameters beyond $\Q$.
+In every real closed field it is true, since $x^3 - 2$ has odd degree, so it has a root $x$, and $x^3 = 2 > 1$ forces $x > 1$.
+So $\mathrm{RCF} \cup \mathrm{Diag}(\Q)$ proves it, as step 6 predicts.
+The typical use is to transfer facts about the real numbers to every real closed extension of an ordered field.
+A trap is to drop the order: without $<$ in the signature, step 4 fails, as the concept page explains.
