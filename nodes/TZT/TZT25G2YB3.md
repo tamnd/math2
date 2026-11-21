@@ -26,7 +26,7 @@ inventory: [C1VZ02V7CS]
 For $n \ge 3$, the *Henson graph* $G_n$ is the countable [[graph|00C0BR7D7H]] with no [[clique|0BYX1D7C2E]] of size $n$ that is [[ultrahomogeneous|H8VM37SSAX]] and contains every finite $K_n$-free graph as an [[induced subgraph|0EREPBVG2G]].
 It is the [[Fraïssé limit|HJVRBDQSGG]] of the class of finite graphs without a copy of the [[complete graph|03WKB2H474]] $K_n$.
 For instance, $G_3$ is triangle-free and contains every finite triangle-free graph.
-The graphs $G_n$ and their complements are, together with the Rado graph and the disjoint unions of complete graphs, the countably infinite homogeneous graphs.
+The countably infinite homogeneous graphs are the graphs $G_n$, the Rado graph, the disjoint unions $m \cdot K_n$ of $m$ copies of the complete graph $K_n$ with $mn$ infinite, and the complements of all of these.
 
 ## Motivation
 

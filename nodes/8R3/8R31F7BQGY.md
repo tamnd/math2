@@ -51,7 +51,7 @@ So the types over $A$ are exactly the sets of $L_A$-formulas that are realized i
 
 ### Generalizations
 
-A single type over $M$ is also realized in an ultrapower of $\mathcal{M}$, and every type over a countable set is realized in each countably incomplete ultrapower; see [[saturation of ultraproducts|DYXQP8WS63]].
+A single type over $M$ is also realized in an ultrapower of $\mathcal{M}$, and, when the signature is countable, every type over a countable set is realized in each countably incomplete ultrapower; see [[saturation of ultraproducts|DYXQP8WS63]].
 Iterating the theorem along a chain gives $\kappa^+$-saturated elementary extensions.
 
 ## History

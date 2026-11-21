@@ -33,7 +33,8 @@ The conjecture says that $I(T, \aleph_0)$ is at most [[$\aleph_0$|0V2H5PGJ9B]] o
 The conjecture is open for first-order theories, as of November 2026.
 By [[Morley's theorem on countable models|JFG783DEG8]], $I(T, \aleph_0)$ is at most $\aleph_1$ or equal to $2^{\aleph_0}$.
 So the conjecture holds under the [[continuum hypothesis|0MN2MER9WN]], and the open case is a theory with exactly $\aleph_1$ countable models when $\aleph_1 < 2^{\aleph_0}$.
-A stronger form, equivalent to the original, says that a theory with uncountably many countable models has a perfect set of pairwise non-isomorphic ones.
+A stronger form says that a theory with uncountably many countable models has a perfect set of pairwise non-isomorphic ones.
+It implies the original, and by Morley's theorem the two forms are equivalent when the continuum hypothesis fails.
 
 All allowed values occur.
 The theory of dense linear orders without endpoints has one countable model, and by [[Vaught's never-two theorem|E5W3RRSY5Z]] the value $2$ never occurs.
