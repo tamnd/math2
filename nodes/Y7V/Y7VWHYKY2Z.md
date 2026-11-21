@@ -1,0 +1,80 @@
+---
+tag: Y7VWHYKY2Z
+kind: example
+name: The natural numbers and the integers are bi-interpretable
+aliases: [natural-numbers-and-integers-bi-interpretable, n-and-z-bi-interpretation]
+msc: ["03C07", "03F30"]
+topics: [SZRM3N6BXW]
+audience: research
+instance_of: [KHZ1E7RMMQ]
+uses: [ZA0RN56STN, C5BWHPHAGA, 0KYYSMEVHH]
+sources:
+  - url: https://en.wikipedia.org/wiki/Interpretation_(model_theory)
+    locator: Bi-interpretability
+  - book: isbn:9780521587136
+---
+
+## Example
+
+Let $M = (\mathbb{N}, +, \cdot)$, with $0 \in \mathbb{N}$, and let $N = (\mathbb{Z}, +, \cdot)$.
+We give interpretations $\Gamma$ of $N$ in $M$ and $\Delta$ of $M$ in $N$, both without parameters.
+
+### The two interpretations
+
+The interpretation $\Gamma$ is $2$-dimensional, and a pair $(a, b)$ stands for $a - b$.
+
+- Domain: $\partial_\Gamma(x_1, x_2)$ is $x_1 = x_1$, so the domain is $\mathbb{N}^2$.
+- Equality: $\varepsilon_\Gamma(\bar x, \bar y)$ is $x_1 + y_2 = x_2 + y_1$.
+- Addition: $\varphi_+(\bar x, \bar y, \bar z)$ is $x_1 + y_1 + z_2 = x_2 + y_2 + z_1$.
+- Multiplication: $\varphi_\times(\bar x, \bar y, \bar z)$ is $x_1 y_1 + x_2 y_2 + z_2 = x_1 y_2 + x_2 y_1 + z_1$.
+- Coordinate map: $f_\Gamma(a, b) = a - b$.
+
+The interpretation $\Delta$ is $1$-dimensional, and it is a definition of $M$ in $N$.
+
+- Domain: $\partial_\Delta(x)$ is $\exists y_1 \, \exists y_2 \, \exists y_3 \, \exists y_4 \, (x = y_1 y_1 + y_2 y_2 + y_3 y_3 + y_4 y_4)$.
+- Equality is equality, $\varphi_+(x, y, z)$ is $z = x + y$, and $\varphi_\times(x, y, z)$ is $z = x y$.
+- Coordinate map: $f_\Delta(x) = x$.
+
+### The checks
+
+We check the conditions.
+
+1. $\Gamma$, equality. Each integer is $a - b$ for some $a, b \in \mathbb{N}$, and $a - b = c - d$ exactly when $a + d = b + c$.
+2. $\Gamma$, addition. $(a - b) + (c - d) = e - g$ exactly when $a + c + g = b + d + e$, by adding $b + d + g$ to both sides.
+3. $\Gamma$, multiplication. $(a - b)(c - d) = (a c + b d) - (a d + b c)$, so it equals $e - g$ exactly when $a c + b d + g = a d + b c + e$.
+4. $\Delta$, domain. A sum of squares is at least $0$. By [[Lagrange's four-square theorem|0KYYSMEVHH]], each $x \ge 0$ is a sum of four squares. So $\partial_\Delta(\mathbb{Z}) = \mathbb{N}$.
+5. $\Delta$, operations. The sum and product of two elements of $\mathbb{N}$ in $\mathbb{Z}$ are their sum and product in $\mathbb{N}$.
+6. Composite in $M$. A pair $(a, b)$ is in its domain when $a - b \ge 0$, and it maps to $f_\Delta(a - b) = a - b$. The graph is the set of $(a, b, c)$ with $a = b + c$, which the formula $x_1 = x_2 + y$ defines.
+7. Composite in $N$. A pair $(x, y)$ is in its domain when $x \ge 0$ and $y \ge 0$, and it maps to $x - y$. The graph is defined by $\partial_\Delta(x_1) \wedge \partial_\Delta(x_2) \wedge x_1 = x_2 + y$.
+
+So $(\Gamma, \Delta)$ is a [[bi-interpretation|ZA0RN56STN]], and $M$ and $N$ are $\emptyset$-bi-interpretable.
+
+## Remarks
+
+The formulas do not mention $\mathbb{N}$ or $\mathbb{Z}$, so they work in all models of the two theories.
+Each model of $\operatorname{Th}(\mathbb{N}, +, \cdot)$ gives a model of $\operatorname{Th}(\mathbb{Z}, +, \cdot)$ by pairs, and each model of $\operatorname{Th}(\mathbb{Z}, +, \cdot)$ gives back its part of sums of four squares.
+So the nonstandard models of arithmetic and the nonstandard models of the theory of the ring $\mathbb{Z}$ correspond to each other.
+
+The multiplication is needed for $\Delta$.
+In the group $(\mathbb{Z}, +)$ the map $x \mapsto -x$ is an automorphism, and it does not fix the set $\mathbb{N}$, so $\mathbb{N}$ is not $\emptyset$-definable there.
+
+## Explanations
+
+### L1 human
+
+Every whole number, positive or negative, is a difference of two counting numbers: $-3 = 2 - 5$.
+So the integers can be built from pairs of counting numbers.
+In the other direction, the counting numbers are the integers that are sums of four squares, such as $7 = 4 + 1 + 1 + 1$.
+Each way of building is a rule written with $+$ and $\cdot$ only, and the round trips are rules of the same kind.
+
+### L2 human
+
+We follow one integer through the round trip in $N = \mathbb{Z}$.
+
+1. Start with the pair $(2, 5)$ of integers. Both are sums of four squares: $2 = 1 + 1 + 0 + 0$ and $5 = 4 + 1 + 0 + 0$.
+2. So $(2, 5)$ is a pair of elements of the interpreted copy of $\mathbb{N}$.
+3. Under $f_\Gamma$, this pair stands for the integer $2 - 5 = -3$.
+4. The graph formula holds at $(2, 5, -3)$, since $2 = 5 + (-3)$.
+
+The typical use is to move a result between arithmetic and the ring $\mathbb{Z}$, such as the undecidability of either theory.
+A trap is to use the formula $\exists y \, (x = y y)$ for $x \ge 0$: it defines only the squares.

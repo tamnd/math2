@@ -1,0 +1,67 @@
+---
+tag: 1CHPFKRTKP
+kind: example
+name: The constants of a differentially closed field are stably embedded
+aliases: [constants-of-dcf-stably-embedded, field-of-constants-pure-acf]
+msc: ["03C45", "03C60", "12H05"]
+topics: [SZRM3N6BXW]
+audience: research
+instance_of: [14WPPDDK8M]
+uses: [FN98G2RH9W, KPCN3KHG50, GA5PTQGC6G, 0PF6TM8TWT, T7JW5QY6KR]
+sources:
+  - url: https://en.wikipedia.org/wiki/Stable_theory
+    locator: Examples and non-examples
+  - book: isbn:9780198534372
+---
+
+## Example
+
+Let $(K, \delta)$ be a [[differentially closed field|KPCN3KHG50]] of characteristic $0$, in the signature $\set{+, -, \cdot, 0, 1, \delta}$.
+Let $C = \set{x \in K : \delta x = 0}$ be its set of constants.
+We show that $C$ is [[stably embedded|FN98G2RH9W]], and that every trace on $C$ is defined in the pure field $C$.
+We use that $\mathrm{DCF}_0$ has quantifier elimination in this signature.
+
+### The field of constants
+
+1. $C$ is a subfield. The rules $\delta(x + y) = \delta x + \delta y$ and $\delta(x y) = x \, \delta y + y \, \delta x$ of a [[differential field|GA5PTQGC6G]] give closure under $+$ and $\cdot$. For $x \neq 0$, $\delta(1/x) = -\delta x / x^2$.
+2. $C$ is [[algebraically closed|0PF6TM8TWT]]. A nonconstant $q \in C[X]$ has a root $a$ in the algebraically closed field $K$; let $p$ be the minimal polynomial of $a$ over $C$. Then $0 = \delta(p(a)) = p'(a) \, \delta a$, since the coefficients are constants, and $p'(a) \neq 0$ in characteristic $0$, so $\delta a = 0$ and $a \in C$.
+
+### Traces on the constants
+
+3. Reduction. Let $X = \varphi(K, \bar b) \cap C^n$. By quantifier elimination, $\varphi$ is a Boolean combination of equations $P(\bar x, \delta \bar x, \delta^2 \bar x, \dots) = 0$, with coefficients built from $\bar b$ and its derivatives.
+4. On constants, $\delta^k x_i = 0$ for $k \ge 1$. So on $C^n$ each equation becomes $Q(\bar x) = 0$ for a polynomial $Q \in K[\bar x]$.
+5. Linear algebra. Choose $e_1, \dots, e_m \in K$, linearly independent over $C$, that span the coefficients of $Q$ over $C$. Then $Q = \sum_i e_i Q_i$ with $Q_i \in C[\bar x]$.
+6. For $\bar x \in C^n$, each $Q_i(\bar x)$ is in $C$, so $Q(\bar x) = 0$ exactly when $Q_i(\bar x) = 0$ for every $i$.
+7. So $X$ is a Boolean combination of zero sets of polynomials over $C$, and it is definable in the field $C$ with parameters from $C$.
+
+Hence $C$ is stably embedded, and its induced structure is the pure algebraically closed field $C$.
+The argument works in every model of $\mathrm{DCF}_0$, so in particular in the monster model.
+
+## Remarks
+
+Stable embeddedness of $C$ also follows from the general fact, since $\mathrm{DCF}_0$ is [[stable|T7JW5QY6KR]], in fact $\omega$-stable.
+The computation above gives more: the induced structure is the field structure, with no new relations.
+
+This example is the basis of the model theoretic approach to differential Galois theory.
+The solutions of a linear differential equation are internal to $C$, and the automorphisms over $C$ act on them as a group of matrices over $C$.
+
+## Explanations
+
+### L1 human
+
+In a field with a derivative, the constants are the numbers with derivative zero.
+They form a field of their own, in which every polynomial has a root.
+Any condition on constants that uses derivatives and outside numbers boils down to polynomial equations with constant coefficients.
+For example, $t x = 2 t$, with $t$ not constant, says that $x = 2$ when $x$ is a constant.
+
+### L2 human
+
+We compute one trace on $C$, with $t \in K$ such that $\delta t = 1$, so $1$ and $t$ are linearly independent over $C$.
+
+1. Let $\varphi(x, t)$ be $\delta(t x) = x + 3$.
+2. For $x \in C$, $\delta(t x) = x \, \delta t + t \, \delta x = x$.
+3. So the condition becomes $x = x + 3$, which is false, and the trace is empty.
+4. Instead, $t x^2 + x = 4 t + 2$ becomes $t (x^2 - 4) + (x - 2) = 0$, so $x^2 = 4$ and $x = 2$, by the argument of step 6 of the example. The trace is $\set{2}$.
+
+The typical use is to reduce a question about constants to a question about an algebraically closed field.
+A trap is to forget step 5: the equation $t x = 2 t$ has coefficients outside $C$, and only the linear independence over $C$ lets us split it.

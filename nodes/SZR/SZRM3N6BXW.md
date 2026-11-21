@@ -15,13 +15,13 @@ It covers structures that are defined inside other structures, quotients by defi
 
 ### Reading order
 
-1. [[Interpretation|~cbc38bc9]]: a structure built from a definable set of tuples, a definable equivalence relation and definable relations.
-2. [[Bi-interpretability|~1e54365e]]: two interpretations whose composites are definably isomorphic to the identity.
-3. [[Imaginary elements|~25317890]]: the classes of $\emptyset$-definable equivalence relations, collected in $M^{\mathrm{eq}}$.
-4. [[Elimination of imaginaries|~f002ea16]]: every imaginary is coded by a real tuple, as in algebraically closed fields.
-5. [[Stably embedded set|~6b1bff6b]]: a definable set on which outside parameters define nothing new.
-6. [[Hyperimaginaries|~edde366e]]: classes of type-definable equivalence relations, and when they reduce to imaginaries.
-7. [[Reconstruction from automorphism groups|~38ed35ba]]: $\omega$-categorical structures are determined by their topological automorphism groups, up to bi-interpretation.
+1. [[Interpretation|7R0SJPH37J]]: a structure built from a definable set of tuples, a definable equivalence relation and definable relations.
+2. [[Bi-interpretability|KHZ1E7RMMQ]]: two interpretations whose composites are definably isomorphic to the identity.
+3. [[Imaginary elements|Q0HM88QQKN]]: the classes of $\emptyset$-definable equivalence relations, collected in $M^{\mathrm{eq}}$.
+4. [[Elimination of imaginaries|6M2R0ER3KV]]: every imaginary is coded by a real tuple, as in algebraically closed fields.
+5. [[Stably embedded set|14WPPDDK8M]]: a definable set on which outside parameters define nothing new.
+6. [[Hyperimaginaries|NQPCDVV3NB]]: classes of type-definable equivalence relations, and when they reduce to imaginaries.
+7. [[Reconstruction from automorphism groups|AM0523XJ9D]]: $\omega$-categorical structures are determined by their topological automorphism groups, up to bi-interpretation.
 
 ### Prerequisites
 
