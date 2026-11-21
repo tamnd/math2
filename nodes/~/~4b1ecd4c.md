@@ -30,7 +30,7 @@ For a structure $B$, let $L_B$ be $L$ with a constant for each element of $B$, a
 6. Suppose $\Gamma$ has no model. By the [[compactness theorem|1NR3HAWG9D]] and closure of universal sentences under $\wedge$, $T \models \neg\forall \bar z \, \theta(\bar c, \bar z)$ for one universal sentence $\forall \bar z \, \theta(\bar c, \bar z)$ true in $C$.
 7. The constants $\bar c$ do not occur in $T$, so $T \models \forall \bar y \, \exists \bar z \, \neg\theta(\bar y, \bar z)$. This is a $\forall\exists$ sentence, so it holds in $C$, and then $C \models \exists \bar z \, \neg\theta(\bar c, \bar z)$, a contradiction.
 8. So $\Gamma$ has a model $A$. It satisfies $\mathrm{Diag}(C)$, so $C$ [[embeds|SCRB74SWQN]] in $A$, and we identify $C$ with its image.
-9. Lemma 2: if $C \subseteq A$ and every universal $L_C$-sentence true in $C$ is true in $A$, there is $C' $ with $C \preceq C'$ and $A \subseteq C'$.
+9. Lemma 2: if $C \subseteq A$ and every universal $L_C$-sentence true in $C$ is true in $A$, there is $C'$ with $C \preceq C'$ and $A \subseteq C'$.
 10. Proof of lemma 2. Consider $\mathrm{ElDiag}(C) \cup \mathrm{Diag}(A)$, where the elements of $C$ have the same constants in both parts. Suppose it has no model.
 11. By compactness, $\mathrm{ElDiag}(C) \models \neg\delta(\bar c, \bar d)$ for one quantifier-free $\delta(\bar c, \bar d) \in \mathrm{Diag}(A)$, where $\bar d$ are constants for elements of $A \setminus C$.
 12. The $\bar d$ do not occur in $\mathrm{ElDiag}(C)$, so $C \models \forall \bar x \, \neg\delta(\bar c, \bar x)$. This universal $L_C$-sentence then holds in $A$, but $\bar d$ witnesses $\delta$ in $A$, a contradiction.
@@ -60,6 +60,5 @@ It is also an elementary extension of $B$, so $B$ is a model of $T$.
 
 ## Variants
 
-- One can replace lemmas 1 and 2 by a single compactness argument that gives a model $A$ of $T$ with $B \subseteq A \subseteq B'$ and $B \preceq B'$, and then iterate.
-- With $\kappa$-saturated models, lemma 2 becomes an embedding of $A$ over $B$ into a saturated elementary extension of $B$.
-- Keisler's sandwich theorem refines the chain argument and characterizes the theories whose models are closed under unions of elementary chains of a given kind.
+- With saturated models, lemma 2 has a second proof. If every existential $L_C$-sentence true in $A$ is true in $C$, then $A$ embeds over $C$ into every $\abs{A}^+$-[[saturated|RMTZ5J64FX]] elementary extension of $C$.
+- The same chain, with homomorphisms in place of embeddings, proves [[Lyndon's theorem|~79a402be]].
