@@ -16,9 +16,10 @@ sources:
 
 ## Example
 
-Consider the system $x - y = 1$, $z = 0$ over $\R$ in the unknowns $x, y, z$.
+A description can cover exactly the right set and still be wasteful, if two parameters move along the same direction.
+Consider the system $x - y = 1$, $z = 0$ over $\mathbb{R}$ in the unknowns $x, y, z$.
 Look at the description
-$$S' = \set{(1, 0, 0) + s(1, 1, 0) + t(2, 2, 0) : s, t \in \R}.$$
+$$S' = \{(1, 0, 0) + s(1, 1, 0) + t(2, 2, 0) : s, t \in \mathbb{R}\}.$$
 
 1. Every point of $S'$ is $(1 + s + 2t, s + 2t, 0)$.
 2. It solves the system: $(1 + s + 2t) - (s + 2t) = 1$ and $z = 0$.
@@ -49,5 +50,4 @@ So many pairs of parameters give the same point.
 3. Find two parameter pairs with the same point.
 4. Compare with the parametric form from the RREF, which has one parameter.
 
-The typical use is to test whether a description by parameters is the standard one.
-A trap: counting parameters to find the dimension gives $2$ here, which is wrong; the dimension is the number of independent directions.
+Watch out: counting parameters gives $2$ here, but the dimension of the line is $1$, the number of independent directions.
