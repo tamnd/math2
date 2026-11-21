@@ -1,0 +1,54 @@
+---
+tag: Y9XAHREJ8W
+kind: example
+name: Conjugate complex numbers
+msc: ["03C50", "03C60", "12F10"]
+topics: [Z772KEC9BY]
+audience: grad
+instance_of: [7WH24MZZQ8]
+not_instance_of:
+  - target: EPNZKJQHWJ
+    note: "complex conjugation is an automorphism of the complex field that is not the identity"
+uses: [7WH24MZZQ8, EPNZKJQHWJ, QX6K7CWWNV, DZ65A6X12W, MT8TDVPBXB, BFT6ZXY8QG, 03NDVCSHSB, 0NQMZ89X4A, XTNYY0WRQ5, DSQ17TNW1C]
+sources:
+  - url: https://en.wikipedia.org/wiki/Type_(model_theory)
+    locator: Examples
+  - book: isbn:9780387987606
+    locator: Chapter 4
+---
+
+## Example
+
+Let $\mathcal{C} = (\C, 0, 1, +, \cdot)$ and let $a, b \in \C$.
+
+1. By quantifier elimination for [[algebraically closed fields|MT8TDVPBXB]], $\operatorname{tp}(a)$ is fixed by the polynomials $f \in \Z[x]$ with $f(a) = 0$.
+2. So $\operatorname{tp}(a) = \operatorname{tp}(b)$ exactly when $a$ and $b$ have the same [[minimal polynomial|03NDVCSHSB]] over $\Q$, so that they are [[conjugate|BFT6ZXY8QG]], or both are [[transcendental|0NQMZ89X4A]].
+3. If $\operatorname{tp}(a) = \operatorname{tp}(b)$, then $\set{a \mapsto b}$ is a [[partial elementary map|XTNYY0WRQ5]].
+4. The field $\C$ is saturated of size $2^{\aleph_0}$, by [[saturated algebraically closed fields|QX6K7CWWNV]]. By [[uniqueness of saturated models|DZ65A6X12W]], part 1, the map $\set{a \mapsto b}$ extends to an [[automorphism|DSQ17TNW1C]] of $\C$.
+5. Conversely, automorphisms preserve types. So the orbits of $\operatorname{Aut}(\mathcal{C})$ on $\C$ are the sets of conjugates of algebraic numbers and the set of transcendental numbers, and [[types are orbits|7WH24MZZQ8]].
+6. For example, $i$ and $-i$ have the minimal polynomial $x^2 + 1$, and complex conjugation maps one to the other. So $\mathcal{C}$ is not [[rigid|EPNZKJQHWJ]].
+
+## Remarks
+
+Step 4 also gives an automorphism of $\C$ that maps $\pi$ to $e$, since both are transcendental.
+Such an automorphism is not continuous, since the only continuous automorphisms of $\C$ are the identity and complex conjugation.
+The same steps work over a countable set $A$ of parameters: two numbers have the same type over $A$ exactly when an automorphism of $\C$ that fixes $A$ maps one to the other.
+
+## Explanations
+
+### L1 human
+
+Two complex numbers look the same to the field operations when they solve the same polynomial equations with rational coefficients.
+For such numbers there is always a symmetry of the complex field that moves one to the other.
+For example, $\sqrt{2}$ and $-\sqrt{2}$ are exchanged by a symmetry, and so are any two transcendental numbers.
+
+### L2 human
+
+We check that $\sqrt[3]{2}$ and $\omega \sqrt[3]{2}$, with $\omega = e^{2\pi i/3}$, are in the same orbit.
+
+1. Both are roots of $x^3 - 2$, which is irreducible over $\Q$ by Eisenstein's criterion at $2$.
+2. So they have the same minimal polynomial, and by step 2 the same type.
+3. By step 4, some automorphism of $\C$ maps $\sqrt[3]{2}$ to $\omega \sqrt[3]{2}$.
+
+The typical use is to see the Galois group of a polynomial as the action of automorphisms on the type of a root.
+The trap is to restrict to continuous automorphisms: complex conjugation alone does not move $\sqrt[3]{2}$.

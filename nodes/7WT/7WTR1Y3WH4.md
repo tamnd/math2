@@ -2,11 +2,16 @@
 tag: 7WTR1Y3WH4
 kind: definition
 name: Saturated model
-msc: [03C50]
+msc: ["03C50"]
+topics: [Z772KEC9BY]
+audience: grad
 defines: RMTZ5J64FX
 uses: [9V71Q3SD1G, MVCH6N9SNW, 0EBACQFAZW, 0G0ASKNA6Z]
 sources:
   - url: https://en.wikipedia.org/wiki/Saturated_model
+    locator: Definition
+  - book: isbn:9780387987606
+    locator: Chapter 4
 ---
 
 ## Definition
@@ -16,8 +21,14 @@ The structure $M$ is *$\kappa$-saturated* if the following holds for every set $
 Every complete $1$-[[type|9V71Q3SD1G]] over $A$ is realized in $M$.
 The structure $M$ is *saturated* if it is infinite and $\abs{M}$-saturated, where $\abs{M}$ is the [[cardinality|0G0ASKNA6Z]] of its domain.
 
+## Notation
+
+One writes $\omega$-saturated for $\aleph_0$-saturated.
+Here a type over $A$ means a type of the theory $\operatorname{Th}_A(\mathcal{M})$ in the language $L_A$, so its formulas may use the elements of $A$ as parameters.
+
 ## Remarks
 
+The main page of the idea is [[saturated model|RMTZ5J64FX]].
 A $\kappa$-saturated structure also realizes every complete $n$-type over fewer than $\kappa$ parameters, for every $n \ge 1$.
 
 Example: $(\Q, <)$ is saturated.
@@ -29,5 +40,21 @@ Non-example: the field $\overline{\Q}$ of algebraic numbers is a model of the th
 The set $\set{f(x) \ne 0 : f \in \Z[x], f \ne 0}$ is consistent with its theory over $A = \emptyset$, as $\C$ shows, and it extends to a complete type.
 No element of $\overline{\Q}$ realizes it, since every algebraic number is a root of a nonzero integer polynomial.
 
-Every structure has a $\kappa$-saturated elementary extension for each $\kappa$.
-Saturated models of the same complete theory and the same cardinality are isomorphic.
+Every structure has a $\kappa$-saturated elementary extension for each $\kappa$; see [[existence of saturated models|GSQ833HAZT]].
+Saturated models of the same complete theory and the same cardinality are isomorphic; see [[uniqueness of saturated models|DZ65A6X12W]].
+
+## Explanations
+
+### L1 human
+
+A structure is saturated when every consistent description of an element, written with fewer parameters than the structure has elements, is met by an element of the structure.
+
+### L2 human
+
+To check that a structure $\mathcal{M}$ is $\kappa$-saturated, follow these steps.
+
+1. Take a parameter set $A$ with $\abs{A} < \kappa$.
+2. Describe all complete $1$-types over $A$, usually with quantifier elimination.
+3. Find an element of $\mathcal{M}$ that realizes each of them.
+
+The trap is to check only the types over finite sets: that gives $\aleph_0$-saturation, which is weaker than saturation for an uncountable structure.
