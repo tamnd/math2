@@ -1,0 +1,50 @@
+---
+tag: F7GJACF8VB
+kind: example
+name: The Leibniz congruence of a filter of the four-element Boolean algebra
+msc: ["03G27", "06E05"]
+topics: [QYA4H5Y7VR]
+audience: research
+instance_of: [6JT3CMJT8F]
+uses: [6JT3CMJT8F, 0XADJKM699, DCSXXT4SER]
+sources:
+  - url: https://en.wikipedia.org/wiki/Abstract_algebraic_logic
+  - book: isbn:9781848902077
+---
+
+## Example
+
+Let $B = \set{0, a, b, 1}$ be the four-element [[Boolean algebra|0XADJKM699]], with $b = \lnot a$, and let $F = \set{a, 1}$, a filter.
+We compute the [[Leibniz congruence|6JT3CMJT8F]] $\Omega^B(F)$.
+
+1. Let $\theta$ have the classes $\set{0, b}$ and $\set{a, 1}$. It is the congruence of the filter $F$: $x \mathrel{\theta} y$ iff $x \leftrightarrow y \in F$. For instance $0 \leftrightarrow b = \lnot b = a \in F$.
+2. $F$ is a union of $\theta$-classes, so $\theta$ is compatible with $F$.
+3. The only [[congruence|DCSXXT4SER]] above $\theta$ is $B \times B$, which is not compatible with $F$, since $a \in F$ and $0 \notin F$.
+4. So $\Omega^B(F) = \theta$.
+
+The quotient $B/\theta$ is the two-element Boolean algebra, with $F/\theta = \set{1}$.
+
+## Remarks
+
+1. With the formula criterion: $a$ and $1$ are related, since $\varphi(a, \vec{c}) \in F \iff \varphi(1, \vec{c}) \in F$ for every $\varphi$, because $\varphi(x, \vec{c})$ only depends on $x$ through $\theta$.
+2. $0$ and $a$ are not related: the formula $x$ itself separates them.
+3. For $F = \set{1}$, $\Omega^B(F)$ is the identity, so $(B, \set{1})$ is a reduced matrix.
+4. In general, for classical logic $\Omega^B(F)$ is the congruence of the filter $F$, and the reduced models are the Boolean algebras with the filter $\set{1}$.
+
+## Explanations
+
+### L1 human
+
+The filter $F$ treats $a$ as true and $b$ as false.
+From the point of view of $F$, $a$ and $1$ cannot be told apart, nor can $0$ and $b$.
+Identifying them gives the two-element algebra of truth values.
+
+### L2 human
+
+1. Take the pair $(0, b)$.
+2. For the formula $\lnot x$: $\lnot 0 = 1 \in F$ and $\lnot b = a \in F$.
+3. For $x \lor c$ with $c = a$: $0 \lor a = a \in F$ and $b \lor a = 1 \in F$.
+4. No formula separates $0$ and $b$ with respect to $F$, as the congruence argument shows.
+
+The typical use: computing $\Omega$ on small algebras shows what the reduced models of a logic look like.
+The trap: $\Omega^B(F)$ depends on $F$, not only on $B$; the same algebra has different Leibniz congruences for different filters.

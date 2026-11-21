@@ -1,0 +1,63 @@
+---
+tag: JCP47TNBSD
+kind: definition
+name: Modal algebra
+msc: ["03G05", "03B45"]
+topics: [QYA4H5Y7VR]
+audience: research
+defines: 3H85NSFWHK
+uses: [0XADJKM699, NGHWZ9Y7ZV, AJNZJD8442]
+sources:
+  - url: https://en.wikipedia.org/wiki/Modal_algebra
+    locator: lead section
+  - url: https://en.wikipedia.org/wiki/General_frame
+    locator: Operations and morphisms on general frames
+  - book: isbn:9780521527149
+    locator: Chapter 5
+---
+
+## Definition
+
+A *modal algebra* is a structure $\langle A, \land, \lor, \neg, 0, 1, \Box \rangle$ such that $\langle A, \land, \lor, \neg, 0, 1 \rangle$ is a [[Boolean algebra|0XADJKM699]] and, for all $x, y \in A$,
+
+1. $\Box 1 = 1$;
+2. $\Box(x \land y) = \Box x \land \Box y$.
+
+More generally, let $f \colon A^n \to A$ with $n \ge 1$.
+The map $f$ is an *operator* if it preserves finite joins in each argument: $f(\dots, x \lor y, \dots) = f(\dots, x, \dots) \lor f(\dots, y, \dots)$ with the other arguments fixed.
+It is *normal* if $f(a_1, \dots, a_n) = 0$ whenever some $a_i = 0$.
+A *Boolean algebra with operators* is a Boolean algebra with a family of normal operators.
+
+For a [[Kripke frame|NGHWZ9Y7ZV]] $\mathfrak{F} = (W, R)$, the *complex algebra* $\mathfrak{F}^+$ is the power set $\mathcal{P}(W)$ with
+$$\Box x = \set{w \in W : v \in x \text{ for every } v \text{ with } w R v}.$$
+
+## Notation
+
+We write $\Diamond x = \neg \Box \neg x$.
+Then $(A, \Diamond)$ is a Boolean algebra with one normal unary operator, and $\Box x = \neg \Diamond \neg x$ recovers $\Box$.
+In the complex algebra, $\Diamond x = \set{w : w R v \text{ for some } v \in x}$.
+The modal algebras form a [[variety|AJNZJD8442]], since the definition consists of identities.
+
+## Remarks
+
+The two clauses for $\Box$ are equivalent to the two clauses $\Diamond 0 = 0$ and $\Diamond(x \lor y) = \Diamond x \lor \Diamond y$, by the De Morgan laws.
+The complex algebra of a frame is a modal algebra: every $w$ has all its successors in $W$, and "all successors lie in $x \cap y$" means "in $x$ and in $y$".
+A modal formula $\varphi$ is *valid* in $A$ if $v(\varphi) = 1$ for every homomorphism $v$ from the formula algebra to $A$.
+A formula is valid in $\mathfrak{F}^+$ iff it is valid in the frame $\mathfrak{F}$, since valuations in $\mathfrak{F}^+$ are the valuations of Kripke semantics.
+
+## Explanations
+
+### L1 human
+
+A modal algebra is a Boolean algebra with one more operation $\Box$.
+Two rules hold: $\Box$ of "true" is "true", and $\Box$ of "$x$ and $y$" is "$\Box x$ and $\Box y$".
+Sets of worlds with "true in all next worlds" give such an algebra.
+
+### L2 human
+
+1. Take $W = \set{0, 1, 2}$ with $0 R 1$, $0 R 2$.
+2. For $x = \set{1, 2}$: the successors of $0$ are in $x$, and $1$, $2$ have no successors, so $\Box x = W$.
+3. For $x = \set{1}$: world $0$ fails, since $0 R 2$ and $2 \notin x$; so $\Box x = \set{1, 2}$.
+4. Check clause 2 at $x = \set{1}$, $y = \set{2}$: $\Box \emptyset = \set{1, 2}$, and $\Box\set{1} \cap \Box\set{2} = \set{1, 2} \cap \set{1, 2}$.
+
+The trap: $\Box$ need not preserve joins; here $\Box\set{1} \cup \Box\set{2} = \set{1, 2} \ne W = \Box\set{1, 2}$.

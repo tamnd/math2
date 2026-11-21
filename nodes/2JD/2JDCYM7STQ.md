@@ -1,0 +1,52 @@
+---
+tag: 2JDCYM7STQ
+kind: example
+name: The Gödel three-element chain
+msc: ["03G25", "06D20"]
+topics: [QYA4H5Y7VR]
+audience: research
+instance_of: [ERNYMVEGKC]
+uses: [WVKZX0PT6R, 474SGS2N0X]
+sources:
+  - url: https://plato.stanford.edu/entries/logic-fuzzy/
+    locator: "4. Gödel–Dummett logic"
+---
+
+## Example
+
+Let $G_3 = \set{0, \tfrac12, 1}$ with the usual order, $x \otimes y = \min(x, y)$, and $x \to y = 1$ if $x \le y$, else $x \to y = y$.
+
+| $x \to y$ | $0$ | $\tfrac12$ | $1$ |
+|---|---|---|---|
+| $0$ | $1$ | $1$ | $1$ |
+| $\tfrac12$ | $0$ | $1$ | $1$ |
+| $1$ | $0$ | $\tfrac12$ | $1$ |
+
+1. $(G_3, \min, 1)$ is a commutative monoid, and the order is a bounded chain.
+2. Residuation: $\min(z, x) \le y$ iff $z \le x \to y$, checked on all $27$ triples.
+3. Prelinearity holds, since in a chain $x \le y$ or $y \le x$, so one implication is $1$.
+4. Divisibility: $\min(x, x \to y) = \min(x, y)$ in all nine cases.
+
+So $G_3$ is a [[BL-algebra|WVKZX0PT6R]].
+
+## Remarks
+
+1. $\neg \tfrac12 = \tfrac12 \to 0 = 0$, so $\neg \neg \tfrac12 = 1 \ne \tfrac12$; $G_3$ is not an MV-algebra.
+2. $\tfrac12 \lor \neg \tfrac12 = \tfrac12$: excluded middle fails.
+3. It is the three-element Heyting chain, and it is a model of [[Gödel-Dummett logic|474SGS2N0X]].
+
+## Explanations
+
+### L1 human
+
+There are three truth values: false, half true and true.
+"And" takes the smaller value.
+"If $x$ then $y$" is fully true when $y$ is at least as true as $x$; otherwise it is just $y$.
+
+### L2 human
+
+1. Compute $\tfrac12 \to 0 = 0$ and $1 \to \tfrac12 = \tfrac12$.
+2. Check residuation at $x = 1$, $y = \tfrac12$: the largest $z$ with $\min(z, 1) \le \tfrac12$ is $\tfrac12 = 1 \to \tfrac12$.
+
+The typical use: the smallest BL-chain that is not Boolean and not MV.
+The trap: its negation is not $1 - x$; compare [[the three-element MV-algebra|RXFSSJJE6Q]], where $\neg \tfrac12 = \tfrac12$.
