@@ -90,7 +90,7 @@ Some authors also extend the index $\nu$ beyond $\omega$; this page keeps $\nu \
 
 Wilfried Buchholz introduced the functions in "A new system of proof-theoretic ordinal functions", Annals of Pure and Applied Logic 32 (1986).
 He showed that they give the same values as Feferman's $\theta$-functions at the points used in proof theory, for example $\psi_0(\varepsilon_{\Omega_\nu + 1}) = \theta_{\varepsilon_{\Omega_\nu + 1}}(0)$.
-The functions became a standard tool for the ordinals of $\mathrm{ID}_\nu$ and of $\Pi^1_1$-comprehension, and Buchholz also used the notation for the [[Buchholz hydra|CS9FHV1F3S]] game.
+The functions became a standard tool for the ordinals of $\mathrm{ID}_\nu$ and of $\Pi^1_1$-comprehension, and Buchholz also used the notation for the [[Buchholz hydra|9APRFM0G7F]] game.
 
 ### Common errors
 
@@ -126,4 +126,4 @@ The trap is to forget the condition $\xi < \alpha$: without it the definition is
 Buchholz's system is the simplest member of a family of collapsing functions indexed by regular cardinals.
 In proof theory the cardinal $\Omega_{\nu + 1}$ stands for the $(\nu + 1)$-th admissible ordinal above $\omega$, and the collapse $\psi_\nu$ mirrors the collapsing lemma for derivations with the $\Omega_{\nu + 1}$-rule of [[local predicativity|5C4YBXQV15]].
 Replacing the countable tower by an inaccessible cardinal, a Mahlo cardinal or a weakly compact cardinal gives the systems of Rathjen, for example [[Rathjen's psi function|M7D1HEJQVH]], and stronger theories.
-The terms of $\mathrm{OT}$ can be drawn as finite labelled trees, and the [[Buchholz hydra|CS9FHV1F3S]] uses these trees to give a combinatorial statement that strong subsystems of second-order arithmetic do not prove.
+The terms of $\mathrm{OT}$ can be drawn as finite labelled trees, and the [[Buchholz hydra|9APRFM0G7F]] uses these trees to give a combinatorial statement that strong subsystems of second-order arithmetic do not prove.

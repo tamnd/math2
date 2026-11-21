@@ -50,7 +50,7 @@ So $\mathsf{S5}$ is the logic of these two readings, and its frames are the equi
 ### Examples
 
 1. In a card game, the relation "same own card" between deals is an equivalence relation. So the knowledge of a player obeys $\mathsf{S5}$, see [[the card game|81J8VDK9RX]].
-2. Every string of boxes and diamonds before $p$ reduces to its last operator, so $\mathsf{S5}$ has six modalities, see [[the reduction in S5|GHPPQ19J6B]].
+2. Every string of boxes and diamonds before $p$ reduces to its last operator, so $\mathsf{S5}$ has three modalities without negation ($p$, $\square p$ and $\lozenge p$) and six with it, see [[the reduction in S5|GHPPQ19J6B]].
 3. $\mathsf{S5} \vdash \square(p \vee \square q) \leftrightarrow (\square p \vee \square q)$, while $\mathsf{S4}$ does not prove it, see [[the distribution example|BAV2SAADQT]].
 4. The universal frame on two worlds with $V(p) = \set{1}$ makes $\lozenge p \wedge \lozenge\neg p$ true at both worlds.
 

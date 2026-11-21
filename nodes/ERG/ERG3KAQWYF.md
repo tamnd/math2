@@ -68,7 +68,7 @@ The study of these combinations is the theory of multimodal logic.
 
 Prior introduced the tense operators in "Time and Modality" (1957).
 Hintikka gave the possible-worlds reading of knowledge and belief in "Knowledge and Belief" (1962).
-Pratt introduced propositional dynamic logic in 1976, and Fischer and Ladner proved its decidability in 1979.
+Pratt introduced dynamic logic in 1976, and Fischer and Ladner defined its propositional version and proved it decidable in 1979.
 Halpern and Moses classified the completeness and complexity of the multi-agent logics of knowledge and belief in 1992.
 
 ### Common errors
