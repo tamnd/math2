@@ -2,9 +2,18 @@
 tag: 7FDDXV3JK7
 kind: concept
 name: Quantifier elimination
-msc: [03C10]
+aliases: [quantifier-elimination, eliminates-quantifiers, morleyization]
+msc: ["03C10"]
+topics: [1A9JSC5YG8]
+audience: grad
+uses: [92SWXST1ZM, HYJ10AF6RT, WDVVEYD6AT, MVCH6N9SNW, CY1TXHF6KQ, MCZRXR3SVB]
 sources:
   - url: https://en.wikipedia.org/wiki/Quantifier_elimination
+    locator: lead section
+  - url: https://en.wikipedia.org/wiki/Quantifier_elimination
+    locator: Relationship with decidability
+  - book: isbn:9780387987606
+  - book: isbn:9780521587136
 same_as:
   wikidata: Q1849020
   wikipedia: Quantifier elimination
@@ -12,17 +21,94 @@ same_as:
 
 ## Summary
 
-A theory has quantifier elimination when every formula is equivalent, modulo the theory, to a formula without quantifiers.
-Then the definable sets of its models are simple to describe, and questions about the theory reduce to questions about quantifier-free formulas.
-Quantifier elimination often gives completeness and decidability.
-Classical examples are dense linear orders without endpoints, [[algebraically closed fields|MT8TDVPBXB]], and [[real closed fields|DDY3Q3PJ6W]] in the language of ordered rings.
+Let $T$ be a [[theory|92SWXST1ZM]] in a [[signature|WDVVEYD6AT]] $L$.
+The theory $T$ has *quantifier elimination* when for every $L$-[[formula|HYJ10AF6RT]] $\varphi(\bar x)$ there is a quantifier-free $L$-formula $\psi(\bar x)$ with $T \models \forall \bar x \, (\varphi \leftrightarrow \psi)$.
+For sentences, the quantifier-free sentences $\top$ and $\bot$ are allowed; the formal page is [[this definition|RE5TFTDP4D]].
+Quantifier elimination reduces every question about the [[models|MVCH6N9SNW]] of $T$ to questions about [[atomic formulas|MCZRXR3SVB]], so it describes the [[definable sets|CY1TXHF6KQ]] and often gives completeness and decidability.
+
+## Motivation
+
+In a structure, the atomic formulas are the conditions that one can check by calculation: equations, inequalities, membership in a basic relation.
+A quantifier asks for a search through the whole structure, which can be infinite.
+The question "does $x^2 + bx + c$ have a real root" contains a search, but over $\R$ it has the same answer as the calculation $b^2 - 4c \ge 0$.
+Quantifier elimination asks for such a calculation for every formula, uniformly in all models of $T$.
+When it holds, the definable sets are Boolean combinations of the sets given by atomic formulas, and these are often known from algebra or geometry.
+
+## Notation
+
+Authors say "$T$ has quantifier elimination", "$T$ admits elimination of quantifiers" or "$T$ eliminates quantifiers".
+The abbreviation QE is common.
+A structure $M$ has quantifier elimination when $\operatorname{Th}(M)$ has it.
+The *Morleyization* of $T$ is the expansion of $T$ by a new relation symbol $R_\varphi$ for each formula $\varphi$, with the axioms $\forall \bar x \, (R_\varphi(\bar x) \leftrightarrow \varphi(\bar x))$.
+
+## Remarks
+
+### Examples
+
+- [[Dense linear orders without endpoints|~f961c7a6]] have quantifier elimination in $\set{<}$, by density and the absence of endpoints.
+- The [[theory of infinite sets|~7a954c5b]] has quantifier elimination in the empty signature, since a new element can avoid finitely many values.
+- [[Algebraically closed fields|~561b0711]] have quantifier elimination in the ring signature; geometrically, this is Chevalley's theorem on constructible sets.
+- [[Real closed fields|FSJ9NGRRPA]] have quantifier elimination in the signature of ordered rings; this is Tarski's theorem.
+- [[Presburger arithmetic|~0727c76f]] has quantifier elimination once divisibility predicates $D_n$ are added.
+- [[Divisible torsion-free abelian groups|~e6977377]] have quantifier elimination in $\set{+, -, 0}$.
+
+### Non-examples
+
+- The [[real field without the order|~5a627ec0]]: the set of squares is not quantifier-free definable in $\set{+, -, \cdot, 0, 1}$.
+- Dense linear orders with endpoints: $0$ and $1$ in $[0, 1] \cap \Q$ have the same quantifier-free type but different types.
+- The theory of all nonempty sets: $\exists y \, (y \ne x)$ is not equivalent to a quantifier-free formula, since its truth depends on the size of the model.
+- $\operatorname{Th}(\Z, +, -, 0, 1, <)$: the set of even numbers is defined by $\exists y \, (x = y + y)$, but no quantifier-free formula defines it.
+
+### Basic properties
+
+- By the [[tests for quantifier elimination|~e415d689]], it suffices to eliminate one existential quantifier in front of a conjunction of literals. An equivalent condition uses embeddings into saturated models.
+- An embedding preserves quantifier-free formulas, so a theory with quantifier elimination is [[model complete|YR6HCMABTE]]: every embedding between models is elementary.
+- If $T$ has quantifier elimination and two models of $T$ contain isomorphic substructures, then they are elementarily equivalent. If $L$ has no constant symbols, a consistent $T$ with quantifier elimination is complete.
+- With quantifier elimination, the type of a tuple $\bar a$ is determined by its quantifier-free type, that is, by the isomorphism type of the substructure generated by $\bar a$ together with its generators.
+- If $T$ has a recursive axiom system, an effective elimination procedure, and decidable quantifier-free sentences, then $T$ is decidable.
+- Every theory becomes a theory with quantifier elimination after Morleyization. So the property is informative only for a natural signature.
+
+### History
+
+Mojżesz Presburger used quantifier elimination in 1929 to decide the additive theory of the natural numbers.
+Alfred Tarski proved quantifier elimination for the real field in the ordered signature, and his decision method was published in 1948.
+Abraham Robinson introduced model completeness in the 1950s as a weaker property with a model-theoretic test.
+
+### Common errors
+
+- Forgetting the signature. Quantifier elimination is a property of a theory in a given signature, and adding a definable relation can create it.
+- Confusing quantifier elimination with completeness. The theory of all algebraically closed fields has quantifier elimination, but it is not complete: the quantifier-free sentence $1 + 1 = 0$ is true in some models and false in others.
+- Assuming that quantifier elimination gives an algorithm. A proof by compactness gives a quantifier-free equivalent but no bound on how to find it.
 
 ## Explanations
 
 ### L1 human
 
-Quantifiers are the words "for all" and "there exists".
-A theory has quantifier elimination if every statement that uses them can be rewritten as a statement that does not use them.
-The rewriting must keep the meaning in every model of the theory.
-For example, over the real numbers, "there exists $x$ with $x^2 + bx + c = 0$" means the same as "$b^2 - 4c \ge 0$".
-After the rewriting, one only has to check equations and inequalities about the given numbers.
+The words "for all" and "there is" are called quantifiers.
+A theory has quantifier elimination when every statement with these words can be rewritten without them.
+The new statement must mean the same in every model of the theory.
+For example, for real numbers $b$ and $c$, "there is an $x$ with $x^2 + bx + c = 0$" means the same as "$b^2 - 4c$ is at least $0$".
+For $b = 2$ and $c = 1$ the calculation gives $0$, and indeed $x = -1$ is a root.
+
+### L2 human
+
+We use quantifier elimination for the real field to decide a sentence.
+
+1. Let $\sigma$ be $\forall b \, \forall c \, \bigl(c < 0 \to \exists x \, (x^2 + bx + c = 0)\bigr)$.
+2. The formula $\exists x \, (x^2 + bx + c = 0)$ is equivalent to $b^2 - 4c \ge 0$ over $\R$, by the quadratic formula.
+3. So $\sigma$ is equivalent to $\forall b \, \forall c \, (c < 0 \to b^2 - 4c \ge 0)$.
+4. If $c < 0$, then $-4c > 0$ and $b^2 \ge 0$, so $b^2 - 4c > 0$. So $\sigma$ is true in $\R$.
+
+The typical use of quantifier elimination is to describe definable sets and to prove completeness, as in [[Tarski's theorem|FSJ9NGRRPA]].
+A trap is to forget the signature: without the symbol $<$ the formula of step 2 has no quantifier-free equivalent.
+
+### L3 human
+
+Quantifier elimination says that the type of a tuple is determined by the substructure that it generates.
+This gives the [[embedding test|~e415d689]]: $T$ has quantifier elimination exactly when partial isomorphisms between finitely generated substructures extend, one element at a time, into saturated models.
+In this form it is a weak back-and-forth property, and for $\aleph_0$-categorical theories it is close to [[ultrahomogeneity|H8VM37SSAX]].
+A weaker property, [[model completeness|YR6HCMABTE]], asks only that every formula be existential, and the [[model companion|~7269c0e3]] of a theory is the model complete theory of its existentially closed models.
+
+Morleyization shows that quantifier elimination is a statement about a signature, not about the definable sets.
+The useful cases are those where the atomic formulas have a geometric meaning: constructible sets for algebraically closed fields, semialgebraic sets for real closed fields, and congruences for Presburger arithmetic.
+Weaker forms are [[o-minimality|DTWHAW1N0V]], which asks for simple definable sets in one variable only, and relative quantifier elimination, which reduces a theory to the theories of some of its parts, as in the Ax-Kochen-Ershov theory of [[Henselian fields|3ACEE4N6NE]].
