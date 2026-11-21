@@ -1,0 +1,57 @@
+---
+tag: GPMKBKJ4A7
+kind: example
+name: The complex field is not an atomic model
+aliases: [complex-field-is-not-atomic]
+msc: ["03C50", "03C60", "12L12"]
+topics: [6XEXRME4C1]
+audience: grad
+not_instance_of:
+  - target: HSJ4F9J8SM
+    note: a transcendental complex number realizes the type of a transcendental element, which is not isolated in the theory of algebraically closed fields of characteristic zero
+  - target: S8W40PYNHX
+    note: the complex field is uncountable, so it does not embed into the countable field of algebraic numbers
+uses: [HSJ4F9J8SM, S8W40PYNHX, MT8TDVPBXB, 7FDDXV3JK7, NS2NZRZXJB, 8H2PE4ZS53]
+sources:
+  - book: isbn:9780387987606
+---
+
+## Example
+
+Let $T = \mathrm{ACF}_0$ and consider the model $\C$.
+We show that $\C$ is neither an [[atomic model|HSJ4F9J8SM]] nor a [[prime model|S8W40PYNHX]] of $T$.
+
+1. Let $p(x) = \set{f(x) \ne 0 : f \in \Z[x], f \ne 0}$. Every finite part of $p$ excludes finitely many roots, so it is satisfied in $\C$.
+2. $p$ is a complete type of $T$. By [[quantifier elimination|7FDDXV3JK7]], a formula in $x$ is equivalent modulo $T$ to a Boolean combination of equations $f(x) = 0$, and $p$ decides each of them.
+3. The field $\overline{\Q}$ of algebraic numbers is a model of $T$, and each of its elements is a root of a nonzero integer polynomial. So $\overline{\Q}$ omits $p$.
+4. An isolated type of a complete theory is realized in every model. By step 3, $p$ is not isolated.
+5. $\C$ has a transcendental element $t$, because the algebraic numbers are countable and $\C$ is not; see [[this example|8H2PE4ZS53]]. Then $t$ realizes $p$.
+6. So the $1$-tuple $(t)$ has a type that is not isolated, and $\C$ is not atomic.
+7. $\C$ is not prime: it is uncountable, so it has no embedding into the countable model $\overline{\Q}$.
+
+## Remarks
+
+The same steps show that a model of $\mathrm{ACF}_0$ is atomic exactly when it has transcendence degree $0$ over $\Q$.
+So $\overline{\Q}$, the [[prime model|NS2NZRZXJB]], is the only atomic model up to isomorphism.
+The countable model of transcendence degree $1$ is countable and still not atomic.
+So countability alone does not make a model prime; the types it realizes matter.
+
+## Explanations
+
+### L1 human
+
+A transcendental number like $\pi$ is not the root of any polynomial with integer coefficients.
+No single equation can describe it, so no single formula pins it down.
+The algebraic numbers form a model with no such element, which shows that the theory does not force such elements to exist.
+So the complex numbers contain optional elements, and they are not atomic.
+
+### L2 human
+
+We check step 1 for the finite part $\set{x \ne 0, x^2 - 2 \ne 0}$.
+
+1. The roots to avoid are $0$, $\sqrt{2}$ and $-\sqrt{2}$.
+2. The number $1$ avoids all three, so the finite part is satisfied.
+3. In general, finitely many nonzero polynomials have finitely many roots in total, and $\C$ is infinite.
+
+The typical use is to detect non-atomic models by finding an omissible type that they realize.
+A trap is to think that $\C$ fails to be prime only because of its size; the countable field $\overline{\Q(t)}$ fails too.

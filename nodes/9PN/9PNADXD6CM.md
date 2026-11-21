@@ -1,0 +1,58 @@
+---
+tag: 9PNADXD6CM
+kind: proof
+name: Proof that types are realized in elementary extensions
+msc: ["03C07", "03C50"]
+topics: [Z772KEC9BY]
+audience: grad
+proves: 8R31F7BQGY
+uses: [1NR3HAWG9D, EP5E317TNW, 484M0TZ1S7, 8WZF9SBP39, 9V71Q3SD1G]
+methods: [0NTF6DMVAP]
+sources:
+  - url: https://en.wikipedia.org/wiki/Type_(model_theory)
+    locator: Definitions
+  - book: isbn:9780387987606
+    locator: Chapter 4
+---
+
+## Proof
+
+We use the notation of the statement: $p_i(\bar{x}_i)$ is a set of $L_{A_i}$-formulas for $i \in I$, and each $p_i$ is finitely satisfiable in $\mathcal{M}$.
+
+### The set of sentences
+
+1. Let $L_M$ be $L$ with a new constant $c_m$ for each $m \in M$, and let $\operatorname{Th}_M(\mathcal{M})$ be the elementary diagram, the set of $L_M$-sentences true in $\mathcal{M}$.
+2. For each $i \in I$ take a tuple $\bar{d}_i$ of new constants of the length of $\bar{x}_i$, with different constants for different $i$.
+3. Let $\Sigma = \operatorname{Th}_M(\mathcal{M}) \cup \bigcup_{i \in I} p_i(\bar{d}_i)$, where $p_i(\bar{d}_i)$ replaces $\bar{x}_i$ by $\bar{d}_i$ and each $a \in A_i$ by $c_a$.
+### Finite satisfiability
+
+4. Let $\Sigma_0 \subseteq \Sigma$ be finite. It mentions finitely many indices $i_1, \dots, i_k$, and contains a finite part $q_j$ of $p_{i_j}$ for each $j$.
+5. By hypothesis, each $q_j$ is satisfied in $\mathcal{M}$ by some tuple $\bar{a}_j$.
+6. Interpret each $c_m$ as $m$, each $\bar{d}_{i_j}$ as $\bar{a}_j$, and the other new constants as any element. This is possible because the tuples $\bar{d}_{i_j}$ are disjoint.
+7. This expansion of $\mathcal{M}$ satisfies $\operatorname{Th}_M(\mathcal{M})$ and every $q_j(\bar{d}_{i_j})$, so it is a model of $\Sigma_0$.
+### The extension
+
+8. By the [[compactness theorem|1NR3HAWG9D]], $\Sigma$ has a model $\mathcal{N}^*$.
+9. Let $\mathcal{N}$ be the $L$-reduct of $\mathcal{N}^*$. Since $\mathcal{N}^*$ satisfies the elementary diagram, the map $m \mapsto c_m^{\mathcal{N}^*}$ is an elementary embedding of $\mathcal{M}$ into $\mathcal{N}$, by the [[diagram lemmas|EP5E317TNW]].
+10. Replace $\mathcal{N}$ by an isomorphic copy that contains $M$ and in which this embedding is the inclusion. Then $\mathcal{M} \preceq \mathcal{N}$.
+11. Let $\bar{b}_i$ be the interpretation of $\bar{d}_i$. Since $\mathcal{N}^* \models p_i(\bar{d}_i)$ and $c_a$ names $a$, the tuple $\bar{b}_i$ realizes $p_i$ in $\mathcal{N}$.
+### The size bound
+
+12. By the downward [[Löwenheim-Skolem theorem|484M0TZ1S7]], some $\mathcal{N}' \preceq \mathcal{N}$ contains $M$ and all $\bar{b}_i$, with $\abs{N'} \le \abs{M} + \abs{L} + \abs{I} + \aleph_0$.
+13. Since $\mathcal{M} \preceq \mathcal{N}$ and $\mathcal{N}' \preceq \mathcal{N}$ with $M \subseteq N'$, every formula with parameters in $M$ has the same truth value in $\mathcal{M}$, $\mathcal{N}$ and $\mathcal{N}'$, so $\mathcal{M} \preceq \mathcal{N}'$.
+14. The tuple $\bar{b}_i$ satisfies each formula of $p_i$ in $\mathcal{N}$, hence in $\mathcal{N}' \preceq \mathcal{N}$.
+
+So $\mathcal{N}'$ is an elementary extension of $\mathcal{M}$ of the required size that realizes every $p_i$.
+
+## Idea
+
+The elementary diagram forces any model to contain an elementary copy of $\mathcal{M}$.
+New constants name the wanted tuples, and finite satisfiability in $\mathcal{M}$ makes each finite part of the whole set consistent.
+Compactness then gives one model in which all the new constants realize their types at once.
+
+## Variants
+
+A single type $p$ over $A \subseteq M$ is realized in an ultrapower.
+Let $J$ be the set of finite subsets of $p$, and let $\mathcal{U}$ be an ultrafilter on $J$ that contains each set $\set{s \in J : s \supseteq s_0}$.
+Choose for each $s \in J$ a tuple $f(s)$ that satisfies $s$ in $\mathcal{M}$.
+By [[Łoś's theorem|AGYBSTD7BG]], the class of $f$ realizes $p$ in the [[ultrapower|5ZVJK0V0GF]] $\mathcal{M}^J / \mathcal{U}$, and the diagonal embedding is elementary.
