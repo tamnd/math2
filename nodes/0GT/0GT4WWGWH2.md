@@ -26,68 +26,102 @@ inventory: [J6QQKN30M4]
 
 ## Summary
 
-A system of linear equations over a [[field|04C5ZBG1WT]] $F$ is a finite list of $m$ [[linear equations|0Q3ZT8J05R]] in the same $n$ unknowns $x_1, \dots, x_n$:
-$$a_{i1} x_1 + a_{i2} x_2 + \cdots + a_{in} x_n = b_i \quad (i = 1, \dots, m).$$
-A solution is a tuple in $F^n$ that satisfies all $m$ equations at the same time, and the solution set is the set of all solutions.
-The exact definition is in [[the definition node|0JTRMBQ1SA]].
-In matrix form the system is $Ax = b$, with the [[coefficient matrix|0HQFZAP3ND]] $A$ and the right-hand side $b \in F^m$.
-Over a field, a system has no solution, exactly one solution, or more than one; over an infinite field, "more than one" means infinitely many.
-Systems of linear equations matter because almost every computation in linear algebra, from inverses to bases and eigenvectors, reduces to solving one.
+A system of linear equations is a list of [[linear equations|0Q3ZT8J05R]] that must all hold at the same time.
+Solving one is the basic computation of linear algebra: inverses, bases, eigenvectors and least squares fits all come down to it.
+Over a [[field|04C5ZBG1WT]] $F$, a system of $m$ equations in the $n$ unknowns $x_1, \dots, x_n$ reads
+$$a_{i1} x_1 + a_{i2} x_2 + \cdots + a_{in} x_n = b_i \qquad (i = 1, \dots, m).$$
+A solution is a tuple in $F^n$ that satisfies all $m$ equations, and the solution set is the intersection of the solution sets of the single equations.
+In matrix form the system is $Ax = b$, with the [[coefficient matrix|0HQFZAP3ND]] $A$ and the right side $b \in F^m$.
+The [[formal definition|0JTRMBQ1SA]] gives every condition.
 
 ## Motivation
 
 Many problems ask for several unknown numbers that satisfy several conditions at once.
-A diet with given amounts of protein, fat and carbohydrate, a balanced chemical equation, the currents in an electric network and the forces in a truss all lead to linear conditions.
-One linear equation in three unknowns describes a plane, so a system of three equations asks where three planes meet.
-Row reduction, which is [[Gaussian elimination|0JVJ2WCXZH]], answers this question for every system in a finite number of steps.
-The answer has a fixed shape: the solution set is empty, or it is one particular solution plus all solutions of the [[homogeneous system|04KGXJG1A2]].
+A diet with given amounts of protein, fat and carbohydrate, a balanced chemical equation, the currents in an electric network and the forces in a bridge all lead to linear conditions.
+One linear equation in three unknowns describes a plane, so a system of three such equations asks where three planes meet.
+
+The rest of the sub-area answers that question for every system.
+Row reduction, also called [[Gaussian elimination|0JVJ2WCXZH]], finds all solutions in a finite number of steps.
+The answer always has the same shape: the solution set is empty, or it is one particular solution plus all solutions of the [[homogeneous system|04KGXJG1A2]].
+Later sub-areas read the same system as a question about a linear map, and the rank of the matrix becomes the main number.
 
 ## Notation
 
-1. $m$ is the number of equations and $n$ is the number of unknowns; we speak of an $m \times n$ system.
-2. $a_{ij}$ is the coefficient of $x_j$ in equation $i$, and $b_i$ is the right-hand side of equation $i$.
-3. $A = (a_{ij})$ is the [[coefficient matrix|0HQFZAP3ND]], $[A \mid b]$ is the [[augmented matrix|0T6MWGZSXA]], and $Ax = b$ is the matrix form.
-4. We write $R_i$ for equation $i$, or row $i$, when we describe row operations, as in "$R_2 - 2R_1$".
+We call a system of $m$ equations in $n$ unknowns an $m \times n$ system.
+The coefficient of $x_j$ in equation $i$ is $a_{ij}$, so the first index names the equation and the second names the unknown.
+The matrix $A = (a_{ij})$ is the coefficient matrix, and $[A \mid b]$ is the [[augmented matrix|0T6MWGZSXA]].
+When we describe row operations we write $R_i$ for equation $i$, as in "$R_2 - 2R_1$".
+Many books say "linear system" for short.
 
 ## Remarks
 
-### Examples
+### Three pictures of one system
 
-1. The system $x + y + z = 6$, $2x - y + z = 3$, $x + 2y - z = 2$ over $\R$ has the unique solution $(1, 2, 3)$, see [[three planes meeting in a point|YM0PB9F9HG]].
-2. The system $x + y + z = 3$, $x - y + 3z = 1$ has a line of solutions, see [[the line example|PRB44DTZ1P]].
-3. The system $x + y = 2$, $x - y = 0$, $x + 2y = 4$ has no solution, see [[the inconsistent triangle|XJX2NN45ED]].
-4. The system $x + 2y + 3z = 1$, $2x + y + z = 4$ over $\mathbb{F}_5$ has exactly $5$ solutions, see [[systems over finite fields|J6A58MEM8R]].
-5. The equations of the game Lights Out form a system over $\mathbb{F}_2$, see [[the Lights Out example|JD8FEPHM6T]].
+Take the $3 \times 3$ system over $\mathbb{R}$
+$$x + y + z = 6, \qquad 2x - y + z = 3, \qquad x + 2y - z = 2.$$
+In the row picture, each equation is a plane in space, and a solution is a point on all three planes.
+These three planes meet in the single point $(1, 2, 3)$, as [[three planes meeting in one point|YM0PB9F9HG]] shows step by step.
 
-### Non-examples
+In the column picture, we read the system as one equation between vectors in $\mathbb{R}^3$:
+$$x \begin{pmatrix} 1 \\ 2 \\ 1 \end{pmatrix} + y \begin{pmatrix} 1 \\ -1 \\ 2 \end{pmatrix} + z \begin{pmatrix} 1 \\ 1 \\ -1 \end{pmatrix} = \begin{pmatrix} 6 \\ 3 \\ 2 \end{pmatrix}.$$
+Now the question is how to combine the three columns to get the right side.
+Check: $1 \cdot (1, 2, 1) + 2 \cdot (1, -1, 2) + 3 \cdot (1, 1, -1) = (6, 3, 2)$.
+The theorem on [[linear systems as vector equations|E7SAHXQEVC]] makes this view exact.
 
-1. The system $x + y = 1$, $xy = 0$ is not linear, and it has exactly two solutions, which no linear system over $\R$ can have; see [[the nonlinear system|FB6HBKEGPR]].
-2. An infinite list of equations $x_1 + x_k = 0$ for all $k \ge 2$ in infinitely many unknowns is not a system in the sense used here, because $m$ and $n$ must be finite.
-3. The inequalities $x + y \le 1$, $x \ge 0$, $y \ge 0$ are not equations; they belong to linear programming, which is outside this topic.
+The matrix form packs both pictures into $Ax = b$, where row $i$ of $A$ holds the coefficients of equation $i$ and column $j$ holds the coefficients of $x_j$.
 
-### Basic properties
+### None, one or infinitely many
 
-1. Two systems with the same solution set are called equivalent; [[elementary row operations|04XWH28452]] turn a system into an equivalent one, see [[the theorem on row operations|K41GT10YM6]].
-2. Every system is equivalent to a system in [[reduced row echelon form|0WF5AQYTW6]], and the solutions can be read from it, see [[the lemma on systems in RREF|P3HMRQN5KT]].
-3. A system is consistent if and only if no echelon form of $[A \mid b]$ has a pivot in its last column, see [[the existence and uniqueness theorem|BKA191KD1S]].
-4. The solution set is empty or of the form $p + N$, where $N$ is the [[null space|0PHDYNR24D]] of $A$, see [[the structure theorem|PDH3HKXWAZ]].
-5. A system is consistent if and only if $\rank A = \rank [A \mid b]$, which is the [[Rouché-Capelli theorem|0HV1SKWPMS]].
-6. A homogeneous system with more unknowns than equations has a nontrivial solution, see [[the theorem on homogeneous systems|JPW6KVS70A]].
+Not every system meets in one point.
+The two planes $x + y + z = 3$ and $x - y + 3z = 1$ meet in a line, worked out in [[two planes meeting in a line|PRB44DTZ1P]].
+The three lines $x + y = 2$, $x - y = 0$ and $x + 2y = 4$ have no common point, as [[three lines without a common point|XJX2NN45ED]] shows.
+
+Why can a system not have exactly two solutions?
+If $s$ and $t$ are different solutions, then for every scalar $c$ the point $s + c(t - s)$ is a solution, because
+$$A\big(s + c(t - s)\big) = As + c(At - As) = b + c(b - b) = b.$$
+Over $\mathbb{R}$ this gives infinitely many solutions.
+Over a finite field with $q$ elements the count is $0$ or a power of $q$.
+For example, $x + 2y + 3z = 1$, $2x + y + z = 4$ over $\mathbb{F}_5$ has exactly $5$ solutions, see [[linear systems over finite fields|J6A58MEM8R]].
+The puzzle Lights Out is also a system, over $\mathbb{F}_2$, and [[the Lights Out example|JD8FEPHM6T]] solves a small board.
+
+### What is not a linear system
+
+The system $x + y = 1$, $xy = 0$ has exactly the two solutions $(1, 0)$ and $(0, 1)$.
+That is impossible for a linear system over $\mathbb{R}$, and the reason is the product $xy$; see [[a nonlinear system with exactly two solutions|FB6HBKEGPR]].
+An infinite list of equations, such as $x_1 + x_k = 0$ for all $k \ge 2$, is not a system in our sense, because $m$ and $n$ must be finite.
+Inequalities such as $x + y \le 1$ are not equations at all, and they belong to linear programming.
+
+### The tools of the sub-area
+
+Two systems with the same solution set are called equivalent.
+[[Elementary row operations|04XWH28452]] turn a system into an equivalent one, by the theorem that [[row operations keep the solution set|K41GT10YM6]].
+Every system is equivalent to one in [[reduced row echelon form|0WF5AQYTW6]], and from that form you can [[read off the solutions|P3HMRQN5KT]].
+A system is consistent exactly when an echelon form of $[A \mid b]$ has no pivot in its last column, by the theorem on [[existence and uniqueness of solutions|BKA191KD1S]].
+In the language of rank, the same test is the [[Rouché-Capelli theorem|0HV1SKWPMS]]: $\rank A = \rank\, [A \mid b]$.
+When a solution exists, the full solution set is that solution plus the [[null space|0PHDYNR24D]] of $A$, by the [[structure theorem|PDH3HKXWAZ]].
+
+### Watch out
+
+Counting equations does not decide the answer.
+A square system can have no solution: $x + y = 1$ and $2x + 2y = 3$ describe parallel lines.
+A system with more equations than unknowns can have a solution: $x = 1$, $2x = 2$, $3x = 3$ has the solution $x = 1$.
+Also keep the unknowns in the same order in every equation before you write the matrix, or the columns will mix different unknowns.
 
 ### History
 
-Chapter 8 of the Chinese text *The Nine Chapters on the Mathematical Art*, called "Fangcheng" (rectangular arrays), solves systems by elimination on a counting board.
-Liu Hui wrote a commentary on it in the 3rd century.
+Chapter 8 of the Chinese book *The Nine Chapters on the Mathematical Art*, called "Fangcheng" (rectangular arrays), solves systems by elimination on a counting board.
+Liu Hui wrote a commentary on the book in the 3rd century.
 Leibniz in 1693 and Cramer in 1750 gave determinant formulas for square systems.
-Gauss used systematic elimination for the normal equations of least squares, and in 1810 he gave a notation for it.
-The theory of rank and consistency was completed in the second half of the 19th century, with the [[Rouché-Capelli theorem|0HV1SKWPMS]].
+Gauss used systematic elimination for the normal equations of least squares, and in 1810 he introduced a notation for it.
+The theory of rank and consistency took its final form in the late 19th century, with the [[Rouché-Capelli theorem|0HV1SKWPMS]].
 
-### Common errors
+### Try it
 
-1. Thinking that a system with as many equations as unknowns always has exactly one solution. The system $x + y = 1$, $2x + 2y = 3$ has none.
-2. Thinking that a system with more equations than unknowns has no solution. The system $x = 1$, $2x = 2$, $3x = 3$ has one.
-3. Thinking that a linear system can have exactly two solutions. If $s \ne t$ are solutions, then $s + c(t - s)$ is a solution for every $c \in F$.
-4. Changing the order of the unknowns in one equation but not in the others when writing the matrix.
+First, does $(2, 1)$ solve the system $x + y = 3$, $x - y = 1$, $3x - 2y = 4$?
+Yes: $2 + 1 = 3$, $2 - 1 = 1$ and $6 - 2 = 4$.
+
+Second, write the system $2x - z = 1$, $y + 4z = 0$ as $Ax = b$.
+With the unknowns in the order $x, y, z$, the matrix is $A = \begin{pmatrix} 2 & 0 & -1 \\ 0 & 1 & 4 \end{pmatrix}$ and $b = (1, 0)^{\mathsf{T}}$.
 
 ## Explanations
 
@@ -96,28 +130,25 @@ The theory of rank and consistency was completed in the second half of the 19th 
 A system of linear equations is a set of linear equations that must all be true at the same time.
 For example, $x + y = 3$ and $x - y = 1$ have the single common solution $x = 2$, $y = 1$.
 With two unknowns, each equation draws a line, and a solution is a point where all the lines meet.
-Two lines can meet in one point, be parallel and never meet, or be the same line.
+Two lines can cross in one point, be parallel and never meet, or be the same line.
 So a system has one solution, no solution, or infinitely many solutions.
 
 ### L2 human
 
-We solve $x + y + z = 6$, $2x - y + z = 3$, $x + 2y - z = 2$ by elimination.
-
-1. Replace $R_2$ by $R_2 - 2R_1$: $-3y - z = -9$.
-2. Replace $R_3$ by $R_3 - R_1$: $y - 2z = -4$.
-3. Swap the new $R_2$ and $R_3$, so the equation $y - 2z = -4$ comes second.
-4. Replace $R_3$ by $R_3 + 3R_2$: $-7z = -21$, so $z = 3$.
-5. Back substitution: $y = -4 + 2z = 2$ and $x = 6 - y - z = 1$.
-6. Check in all three equations: $1 + 2 + 3 = 6$, $2 - 2 + 3 = 3$, $1 + 4 - 3 = 2$.
-
-The typical use is to find the point where lines or planes meet, or to find unknown amounts that satisfy several balance conditions.
-A trap: always check the answer in all the original equations, not only in the reduced ones, because one wrong row operation changes the solution set.
+Here is the standard way to solve $x + y + z = 6$, $2x - y + z = 3$, $x + 2y - z = 2$.
+First remove $x$ from the second and third equations with $R_2 - 2R_1$ and $R_3 - R_1$:
+$$-3y - z = -9, \qquad y - 2z = -4.$$
+Swap these two so that $y - 2z = -4$ comes second, and then remove $y$ from the last equation with $R_3 + 3R_2$:
+$$-7z = -21, \qquad \text{so } z = 3.$$
+Back substitution gives $y = -4 + 2z = 2$ and then $x = 6 - y - z = 1$.
+Check in all three original equations: $1 + 2 + 3 = 6$, $2 - 2 + 3 = 3$ and $1 + 4 - 3 = 2$.
+The final check matters, because one wrong row operation changes the solution set without any warning.
 
 ### L3 human
 
-The system $Ax = b$ asks whether $b$ is in the image of the linear map $x \mapsto Ax$ from $F^n$ to $F^m$, and for the full preimage of $b$.
-So the solution set is a fibre of a [[linear map|0NRYHJPQG2]]: empty, or a translate of the kernel, see [[the structure theorem|PDH3HKXWAZ]].
-The rank of $A$ governs everything: the [[Rouché-Capelli theorem|0HV1SKWPMS]] decides consistency, and the dimension of the solution set is $n - \rank A$.
-For large systems over $\R$, numerical linear algebra replaces exact elimination by pivoting strategies and iterative methods; these are outside this topic.
+The system $Ax = b$ asks whether $b$ is in the image of the [[linear map|0NRYHJPQG2]] $x \mapsto Ax$ from $F^n$ to $F^m$, and for the full preimage of $b$.
+So the solution set is a fiber of a linear map: empty, or a translate of the kernel, by the [[structure theorem|PDH3HKXWAZ]].
+The rank of $A$ governs everything: the [[Rouché-Capelli theorem|0HV1SKWPMS]] decides consistency, and the solution set has dimension $n - \rank A$.
+For large systems over $\mathbb{R}$, numerical linear algebra adds pivoting strategies and iterative methods to exact elimination.
 Over $\mathbb{Z}$ or another ring, solvability needs more than ranks, for example the Smith normal form.
-Systems that have no solution are still useful: [[least squares|0BYTQ4X1HC]] finds the $x$ that makes $Ax$ closest to $b$.
+Systems without a solution are still useful: [[least squares|0BYTQ4X1HC]] finds the $x$ that makes $Ax$ closest to $b$.
