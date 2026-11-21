@@ -5,7 +5,7 @@ name: Takeuti-Feferman-Buchholz ordinal
 msc: ["03F15", "03E10"]
 topics: [XTTKZTYDSD]
 audience: research
-uses: [E7WEFRMQTB, C72RBH0CDR, 5VNT564Y2W, PQSHBKCE7V, DC60FYCSPM, CS9FHV1F3S]
+uses: [E7WEFRMQTB, C72RBH0CDR, 5VNT564Y2W, PQSHBKCE7V, DC60FYCSPM, 9APRFM0G7F]
 sources:
   - url: https://en.wikipedia.org/wiki/Takeuti%E2%80%93Feferman%E2%80%93Buchholz_ordinal
     locator: lead section
@@ -48,7 +48,7 @@ The difference between $\Pi^1_1\text{-}\mathrm{CA}_0$ and $\Pi^1_1\text{-}\mathr
 
 ### Buchholz hydra
 
-The [[Buchholz hydra|CS9FHV1F3S]] is a game on finite trees whose labels are the indices $\nu \le \omega$ of Buchholz's functions.
+The [[Buchholz hydra|9APRFM0G7F]] is a game on finite trees whose labels are the indices $\nu \le \omega$ of Buchholz's functions.
 Each hydra corresponds to a term of the notation system, and each move of the game lowers the term.
 The statement that every hydra game terminates is true, but it is not provable in $\Pi^1_1\text{-}\mathrm{CA} + \mathrm{BI}$ (Wikipedia, "Buchholz hydra", lead section).
 So the ordinal gives a natural combinatorial statement that the theory cannot prove.

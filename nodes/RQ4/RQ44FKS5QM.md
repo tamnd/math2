@@ -51,7 +51,7 @@ The Desnanot-Jacobi identity expresses a determinant through four minors of size
 ### History
 
 Charles Dodgson, better known as Lewis Carroll, discovered the method in 1866.
-Its proof of correctness rests on the Desnanot-Jacobi identity of 1841.
+Its proof of correctness rests on the Desnanot-Jacobi identity, stated by Desnanot in 1819 and proved in general by Jacobi in 1841.
 
 ### Common errors
 

@@ -61,7 +61,7 @@ For $\begin{pmatrix} 1 & 1 \\ 0 & 0 \end{pmatrix}$ the row space is spanned by $
 
 ## History
 
-Several proofs are known, and Wikipedia lists proofs by row reduction, by linear combinations, by orthogonality and by duality.
+Several proofs are known: by row reduction, by linear combinations, by orthogonality and by duality.
 
 ## Explanations
 
