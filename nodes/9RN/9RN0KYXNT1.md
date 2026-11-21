@@ -32,7 +32,7 @@ Let $T_\forall$ and $T_\exists$ be the sets of universal and of existential sent
 
 Here "closed under substructures" means: if $B \models T$ and $A$ is a substructure of $B$, then $A \models T$.
 "Closed under extensions" means: if $A \models T$ and $A$ is a substructure of $B$, then $B \models T$.
-A proof is in [[the proof of the Łoś–Tarski theorem|~1f796e8b]].
+A proof is in [[the proof of the Łoś-Tarski theorem|~1f796e8b]].
 
 ## Remarks
 

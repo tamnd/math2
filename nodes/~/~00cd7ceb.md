@@ -29,7 +29,7 @@ Field axioms need "there exists an inverse", and the subring $\mathbb{Z}$ of the
 This suggests a rule: universal axioms go down to substructures and existential axioms may fail to.
 One then asks whether the rule is sharp.
 If a class of models is closed under substructures, can one always rewrite its axioms as universal sentences?
-The Łoś–Tarski theorem says yes, and the same pattern repeats for other constructions.
+The Łoś-Tarski theorem says yes, and the same pattern repeats for other constructions.
 So the syntax of the axioms is not an accident of presentation; it is forced by the closure properties of the class.
 
 ## Notation
@@ -47,8 +47,8 @@ The classical preservation theorems are the following.
 
 | Construction | Syntactic form | Theorem |
 |---|---|---|
-| substructures | universal | [[Łoś–Tarski|9RN0KYXNT1]] |
-| extensions | existential | [[Łoś–Tarski|9RN0KYXNT1]], dual form |
+| substructures | universal | [[Łoś-Tarski|9RN0KYXNT1]] |
+| extensions | existential | [[Łoś-Tarski|9RN0KYXNT1]], dual form |
 | unions of chains | $\forall\exists$ | [[Chang-Łoś-Suszko|~99a892b2]] |
 | surjective homomorphic images | positive | [[Lyndon|~79a402be]] |
 | homomorphic images | existential-positive | homomorphism preservation theorem |
@@ -62,7 +62,7 @@ The definability theorems of [[Beth|RJBDSA2ETP]], [[Svenonius|~8495e2be]] and [[
 ### Non-examples
 
 - Direct products. Horn sentences are preserved by direct products, but Chang and Morel showed that an elementary class closed under direct products need not be axiomatized by Horn sentences. So the pair (direct products, Horn) is not a preservation theorem.
-- Finite structures. The Łoś–Tarski theorem fails when one considers only finite structures; the counterexample is in [[Łoś–Tarski|9RN0KYXNT1]]. Lyndon's theorem also fails in the finite.
+- Finite structures. The Łoś-Tarski theorem fails when one considers only finite structures; the counterexample is in [[Łoś-Tarski|9RN0KYXNT1]]. Lyndon's theorem also fails in the finite.
 
 ### Basic properties
 
@@ -73,10 +73,10 @@ The definability theorems of [[Beth|RJBDSA2ETP]], [[Svenonius|~8495e2be]] and [[
 
 ### History
 
-The Łoś–Tarski theorem, Lyndon's theorem and the homomorphism preservation theorem date from the 1950s.
+The Łoś-Tarski theorem, Lyndon's theorem and the homomorphism preservation theorem date from the 1950s.
 Alfred Horn studied the sentences preserved by direct products in 1951, and Roger Lyndon published his theorem on homomorphisms in 1959.
-H. Jerome Keisler proved the characterization of Horn sentences in 1965 under the continuum hypothesis, and Fred Galvin removed this hypothesis.
-In 1959 William Tait showed that the Łoś–Tarski theorem fails over finite structures.
+Keisler proved the characterization of Horn sentences in 1965 under the continuum hypothesis, and Fred Galvin removed this hypothesis.
+In 1959 William Tait showed that the Łoś-Tarski theorem fails over finite structures.
 Benjamin Rossman showed in 2008 that the homomorphism preservation theorem survives over finite structures.
 
 ### Common errors
@@ -103,7 +103,7 @@ We use the table to decide whether the class of groups in the signature $\set{\c
 1. The positive integers under addition are a substructure of the group $(\mathbb{Z}, +)$ in the signature $\set{+}$.
 2. The positive integers have no neutral element for $+$, so they do not form a group.
 3. So the class of groups in this signature is not closed under substructures.
-4. By the easy direction of Łoś–Tarski, no set of universal axioms in $\set{\cdot}$ describes the groups.
+4. By the easy direction of Łoś-Tarski, no set of universal axioms in $\set{\cdot}$ describes the groups.
 
 The typical use is negative: one closure failure rules out a whole syntactic form.
 A trap is to forget the signature: with $e$ and ${}^{-1}$ in the signature, the class of groups is universal.
@@ -116,6 +116,6 @@ One uses compactness and the method of [[diagrams|EP5E317TNW]] to find a model $
 Closure under the construction then gives $A \models T$.
 For unions of chains and for surjective homomorphisms, the chain is infinite, and the elementary chain theorem holds it together.
 
-Without compactness the plan breaks, and finite model theory shows this: Łoś–Tarski and Lyndon fail, while Rossman's homomorphism preservation theorem for finite structures needs a new combinatorial proof.
+Without compactness the plan breaks, and finite model theory shows this: Łoś-Tarski and Lyndon fail, while Rossman's homomorphism preservation theorem for finite structures needs a new combinatorial proof.
 In abstract model theory, [[Lindström's theorem|FYZ3CJGZYV]] explains why compactness is special to first-order logic.
 The same pattern appears in universal algebra, where [[Birkhoff's HSP theorem|5083DHSK82]] matches closure under homomorphic images, subalgebras and products with equational axioms.
