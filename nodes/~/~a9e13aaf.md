@@ -64,7 +64,7 @@ We see the extra symmetry of $N$ on a small piece of it.
 
 1. Let $M = \mathbb{N}$, and let $\sigma$ be the identity and $\tau$ swap $0$ and $1$.
 2. The automorphism $(\sigma, \tau)$ of $N$ sends $(0, 0)$ to $(0, 1)$, and it fixes every $E_1$-class.
-3. So it acts trivially on the copy $N / E_1$ of $M$, but it is not the identity on $N$.
+3. So it fixes every element of the copy $N / E_1$ of $M$, but it is not the identity on $N$.
 4. For a bi-interpretation, the map $\operatorname{Aut}(N) \to \operatorname{Aut}(M)$ through $\Delta$ must be injective, and here it is not.
 
 The typical use is to separate structures by their automorphism groups.
