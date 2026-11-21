@@ -24,96 +24,129 @@ same_as:
 
 ## Summary
 
-The dot product of two [[vectors|0QN3D80AWP]] $u = (u_1, \dots, u_n)$ and $v = (v_1, \dots, v_n)$ of $\mathbb{R}^n$ is the real number
+The dot product takes two [[vectors|0QN3D80AWP]] and returns one number.
+That number tells you how much the two vectors point the same way, and it is the tool that turns lengths and angles into arithmetic.
+For $u = (u_1, \dots, u_n)$ and $v = (v_1, \dots, v_n)$ in $\mathbb{R}^n$, you multiply matching entries and add the results:
 $$u \cdot v = u_1 v_1 + u_2 v_2 + \dots + u_n v_n.$$
 This is the coordinate definition, and the [[formal definition|05HQYM0R4G]] states it.
-In the plane and in space there is also a geometric definition: $u \cdot v = \|u\| \, \|v\| \cos \theta$, where $\|\cdot\|$ is the [[length|0XKBKGTCPC]] and $\theta$ is the [[angle between the vectors|0ZEHZY85E6]].
-The [[geometric formula for the dot product|070TXS9AXM]] shows by the law of cosines that the two definitions agree.
-The dot product matters because it turns lengths, angles and perpendicularity into calculations with numbers.
+In the plane and in space the same number also equals $\|u\| \, \|v\| \cos \theta$, where $\|u\|$ is the [[length|0XKBKGTCPC]] of $u$ and $\theta$ is the [[angle between the vectors|0ZEHZY85E6]].
 
 ## Motivation
 
-Many questions of geometry ask for an angle or for a length: is this corner a right angle, or how far is this point from that line.
-With coordinates, lengths come from the Pythagorean theorem, but angles need trigonometry.
-The law of cosines links the two: for the triangle with the sides $u$, $v$ and $v - u$, it gives $\|v - u\|^2 = \|u\|^2 + \|v\|^2 - 2\|u\| \, \|v\| \cos \theta$.
-If we expand $\|v - u\|^2$ in coordinates, the term $-2(u_1 v_1 + \dots + u_n v_n)$ appears.
-So the number $u_1 v_1 + \dots + u_n v_n$ is exactly $\|u\| \, \|v\| \cos \theta$.
-This number is easy to compute, and it carries the angle.
-Physics found the same number independently: the work of a constant force $F$ along a displacement $d$ is $F \cdot d$.
+Geometry keeps asking two kinds of question: how long is this, and what is this angle.
+Coordinates answer the first kind well, because the Pythagorean theorem gives a length from the entries of a vector.
+Angles are harder, since they seem to need trigonometry and a picture.
+The dot product removes that difficulty.
+It is one multiply-and-add over the entries, and the result already contains the cosine of the angle.
+
+The same number turns up whenever a quantity is a weighted total.
+A shopping bill is the dot product of the list of quantities with the list of prices.
+In physics, the [[work that a constant force does|2ZK5YBNB59]] along a displacement $d$ is $F \cdot d$, because only the part of the force $F$ along the motion counts.
+Later in linear algebra, every entry of a matrix product is a dot product of a row with a column.
 
 ## Notation
 
-- Books write $u \cdot v$, $\langle u, v \rangle$, $(u, v)$ or $\langle u \mid v \rangle$.
-- When vectors are columns, $u \cdot v = u^{\mathsf{T}} v$, a $1 \times 1$ matrix that we identify with a number.
-- Other names are the scalar product and, for $\mathbb{R}^n$, the standard inner product.
-- Do not confuse the dot product with the product $c \cdot v$ of a scalar and a vector, which some books also write with a dot.
+Most books write $u \cdot v$.
+You will also see $\langle u, v \rangle$, $(u, v)$ and $\langle u \mid v \rangle$, and the names *scalar product* and *standard inner product*.
+When $u$ and $v$ are columns, $u \cdot v = u^{\mathsf{T}} v$, a $1 \times 1$ matrix that we read as a number.
+Some books also use a dot for the product $c \cdot v$ of a scalar and a vector, so read the types of the two factors before you compute.
 
 ## Remarks
 
-### Examples
+### A first computation
 
-- $(1, 2, 3) \cdot (4, 5, 6) = 4 + 10 + 18 = 32$.
-- $(1, 2) \cdot (-2, 1) = -2 + 2 = 0$, so the two vectors are perpendicular.
-- For the standard unit vectors, $\mathbf{i} \cdot \mathbf{i} = 1$ and $\mathbf{i} \cdot \mathbf{j} = 0$.
-- For $u = (3, 0)$ and $v = (2, 2)$ both definitions give $6$. The [[worked comparison|9C7YQTW1ZM]] shows the steps.
-- A force $(2, 3, 1)$ newtons along the displacement $(4, -1, 2)$ metres does the work $7$ joules. The [[work example|2ZK5YBNB59]] gives the details.
+Take $u = (3, 4)$ and $v = (4, 3)$.
+Multiply the first entries, multiply the second entries, and add:
+$$u \cdot v = 3 \cdot 4 + 4 \cdot 3 = 24.$$
+Now take the dot product of $u$ with itself:
+$$u \cdot u = 3^2 + 4^2 = 25.$$
+That is the square of the length of $u$, so $\|u\| = 5$.
+This is no accident: for every vector, $v \cdot v = v_1^2 + \dots + v_n^2 = \|v\|^2$, which is the Pythagorean theorem written with a dot.
 
-### Non-examples
+### What the number means
 
-- The product component by component, $(1, 2, 3) \ast (4, 5, 6) = (4, 10, 18)$, is a vector, not the dot product. The dot product adds these numbers.
-- The form $u_1 v_1 - u_2 v_2$ on $\mathbb{R}^2$ is symmetric and bilinear, but it is not positive. The [[non-example of the Minkowski form|TFGECQ5C32]] shows that the vector $(1, 1)$ gives $0$.
-- The product $\|u\| \, \|v\|$ of the lengths is not the dot product: it does not change when $v$ turns, and the dot product does.
+Both vectors above have length 5, so the angle formula gives
+$$\cos \theta = \frac{u \cdot v}{\|u\| \, \|v\|} = \frac{24}{25} = 0.96,$$
+and $\theta$ is about $16.3$ degrees.
+The two arrows point almost the same way, and the dot product is close to its largest possible value $\|u\| \, \|v\| = 25$.
 
-### Basic properties
+The sign of the dot product is often all you need.
+When $u \cdot v > 0$, the angle is less than a right angle and the vectors agree.
+When $u \cdot v = 0$, the vectors are [[perpendicular|03NK6RSRQ1]].
+When $u \cdot v < 0$, the angle is more than a right angle and the vectors disagree.
+For example, $(1, 2) \cdot (-2, 1) = -2 + 2 = 0$, so these two vectors meet at a right angle.
 
-For all $u, v, w \in \mathbb{R}^n$ and all real $a$ and $b$:
+Why do the two definitions give the same number?
+Put $u$ and $v$ at the same starting point, so that the third side of the triangle is $v - u$.
+The law of cosines gives $\|v - u\|^2 = \|u\|^2 + \|v\|^2 - 2 \|u\| \, \|v\| \cos \theta$.
+If you expand $\|v - u\|^2 = (v - u) \cdot (v - u)$ with the rules below, you get $\|u\|^2 + \|v\|^2 - 2\, u \cdot v$.
+The two right sides must agree, so $u \cdot v = \|u\| \, \|v\| \cos \theta$.
+The [[geometric formula for the dot product|070TXS9AXM]] writes this out in full, and [[the case of (3, 0) and (2, 2)|9C7YQTW1ZM]] checks it with numbers.
 
-- Symmetry: $u \cdot v = v \cdot u$, because $u_i v_i = v_i u_i$ for each $i$.
-- Linearity in each factor: $(au + bw) \cdot v = a(u \cdot v) + b(w \cdot v)$, because real multiplication distributes over addition.
-- Positivity: $v \cdot v = v_1^2 + \dots + v_n^2 \geq 0$, with equality only for $v = 0$.
-- Length: $v \cdot v = \|v\|^2$, by the definition of the length.
-- Expansion of a square: $\|u + v\|^2 = \|u\|^2 + 2\, u \cdot v + \|v\|^2$, by linearity and symmetry.
-- [[Perpendicularity|03NK6RSRQ1]]: $u$ and $v$ are perpendicular exactly when $u \cdot v = 0$.
-- The [[Cauchy-Schwarz inequality|0RFWW56Y22]]: $|u \cdot v| \leq \|u\| \, \|v\|$.
+### The rules you can use
+
+The dot product behaves like ordinary multiplication in most ways, and each rule follows from the same rule for real numbers, entry by entry.
+It is symmetric, $u \cdot v = v \cdot u$, because $u_i v_i = v_i u_i$.
+It is linear in each factor, $(a u + b w) \cdot v = a (u \cdot v) + b (w \cdot v)$, because multiplication distributes over addition.
+It is positive, $v \cdot v \ge 0$, and $v \cdot v = 0$ only for $v = 0$, because a sum of squares is zero only when each square is zero.
+Together these give the expansion $\|u + v\|^2 = \|u\|^2 + 2\, u \cdot v + \|v\|^2$, which is the dot-product form of the law of cosines.
+The size of the dot product is bounded by the [[Cauchy-Schwarz inequality|0RFWW56Y22]], $|u \cdot v| \le \|u\| \, \|v\|$, and that is why the cosine above is always between $-1$ and $1$.
+
+### What it is not
+
+Multiplying matching entries without adding them, $(1, 2, 3) \ast (4, 5, 6) = (4, 10, 18)$, gives a vector.
+The dot product is the sum of those entries, $32$, and that sum is what carries the angle.
+The product of the lengths, $\|u\| \, \|v\|$, is not the dot product either, because it stays the same when $v$ turns and the dot product changes.
+The form $u_1 v_1 - u_2 v_2$ on $\mathbb{R}^2$ obeys symmetry and linearity but fails positivity, since it gives $0$ for $(1, 1)$; [[the Minkowski form|TFGECQ5C32]] studies it.
+
+### Watch out
+
+Three habits from ordinary multiplication fail here.
+The dot product is a number, not a vector, so $(u \cdot v) \cdot w$ has no meaning as a dot product.
+You cannot cancel: with $u = (1, 0)$, $v = (0, 1)$ and $w = (0, 2)$, both $u \cdot v$ and $u \cdot w$ are $0$, but $v \ne w$.
+All that $u \cdot v = u \cdot w$ tells you is that $u$ is perpendicular to $v - w$.
+You cannot regroup either: with $u = (1, 0)$, $v = (1, 1)$ and $w = (0, 1)$, the vector $(u \cdot v) w$ is $(0, 1)$ but $u (v \cdot w)$ is $(1, 0)$.
 
 ### History
 
-Hamilton found the dot product inside the product of quaternions in the 1840s.
+Hamilton met the dot product inside his product of quaternions in the 1840s.
 For two pure quaternions, the real part of the product is minus the dot product, and the vector part is the cross product.
-Gibbs, in his lectures on vector analysis of the 1880s, made the dot product a separate operation and introduced the notation $u \cdot v$.
+Gibbs, in his lectures on vector analysis in the 1880s, made the dot product an operation of its own and gave it the notation $u \cdot v$.
 
-### Common errors
+### Try it
 
-- Students treat $u \cdot v$ as a vector. It is a number, so an expression like $(u \cdot v) \cdot w$ has no meaning as a dot product.
-- Students cancel a factor: from $u \cdot v = u \cdot w$ they conclude $v = w$. For $u = (1, 0)$, $v = (0, 1)$ and $w = (0, 2)$ both products are $0$, but $v \neq w$.
-- Students regroup factors: $(u \cdot v) w$ and $u (v \cdot w)$ are in general different vectors. For $u = (1, 0)$, $v = (1, 1)$ and $w = (0, 1)$ they are $(0, 1)$ and $(1, 0)$.
+First, compute $(2, -1, 3) \cdot (1, 4, 2)$ and say whether the angle between the vectors is acute, right or obtuse.
+The answer is $2 - 4 + 6 = 4$, which is positive, so the angle is acute.
+
+Second, find a number $t$ that makes $(1, t)$ perpendicular to $(3, 6)$.
+You need $3 + 6t = 0$, so $t = -\tfrac{1}{2}$.
 
 ## Explanations
 
 ### L1 human
 
-The dot product takes two vectors and gives one number.
-Multiply the first components, multiply the second components, and add the results.
+Think of each vector as an arrow.
+The dot product asks how much the two arrows agree about direction.
+To compute it, multiply the first numbers, multiply the second numbers, and add.
 For $(3, 4)$ and $(2, 1)$ this gives $3 \cdot 2 + 4 \cdot 1 = 10$.
-The number is large and positive when the two arrows point in almost the same direction.
-It is zero when the arrows make a right angle, and negative when they point in almost opposite directions.
+A large positive answer means the arrows point nearly the same way.
+Zero means they make a right angle, and a negative answer means they point nearly opposite ways.
 
 ### L2 human
 
-Worked example: the angle at the vertex $A$ of the triangle with $A = (1, 1)$, $B = (4, 5)$ and $C = (5, -2)$.
-
-1. The sides from $A$ are $u = B - A = (3, 4)$ and $v = C - A = (4, -3)$.
-2. The dot product is $u \cdot v = 12 - 12 = 0$.
-3. So the angle at $A$ is a right angle, by the [[criterion for perpendicular vectors|03NK6RSRQ1]].
-4. Check by lengths: $\|u\| = 5$, $\|v\| = 5$ and $\|C - B\| = \|(1, -7)\| = \sqrt{50}$. Then $25 + 25 = 50$, as the Pythagorean theorem requires.
-
-The typical use is to test perpendicularity, to compute angles, and to compute projections.
-A trap: the dot product has no cancellation law, so $u \cdot v = u \cdot w$ only says that $u$ is perpendicular to $v - w$.
+Here is a typical use: is the triangle with corners $A = (1, 1)$, $B = (4, 5)$ and $C = (5, -2)$ right-angled at $A$?
+The two sides that leave $A$ are $u = B - A = (3, 4)$ and $v = C - A = (4, -3)$.
+Their dot product is $u \cdot v = 12 - 12 = 0$, so the angle at $A$ is a right angle by the [[criterion for perpendicular vectors|03NK6RSRQ1]].
+You can check this a second way with lengths.
+The sides have $\|u\| = 5$ and $\|v\| = 5$, and the third side is $C - B = (1, -7)$ with $\|C - B\| = \sqrt{50}$.
+Since $25 + 25 = 50$, the Pythagorean theorem agrees.
+Notice that the dot product needed one line of arithmetic and no square roots.
+This is why it is the standard way to test for right angles, to find angles and to compute projections.
 
 ### L3 human
 
-The dot product is the standard example of an [[inner product|0NB0AWGJBW]]: a symmetric, bilinear and positive definite form.
-The sub-area on [[inner product spaces|1D4JTZ9VS3]] takes these three properties as axioms, and all of Euclidean geometry follows from them.
-For a fixed $v$, the map $u \mapsto u \cdot v$ is a linear form, and each linear form on $\mathbb{R}^n$ has this shape for exactly one $v$; the sub-area on [[duality|9K7FFF26QR]] studies this.
-In matrix language $u \cdot v = u^{\mathsf{T}} v$, and the entry $(i, j)$ of a matrix product $AB$ is the dot product of row $i$ of $A$ with column $j$ of $B$.
-Dropping positivity leads to the [[bilinear forms|DYAK7YMK7B]] of signature $(p, q)$, such as the Minkowski form of special relativity.
+The dot product is the standard example of an [[inner product|0NB0AWGJBW]]: a form that is symmetric, bilinear and positive definite.
+The sub-area on [[inner product spaces|1D4JTZ9VS3]] takes these three properties as axioms, and Euclidean geometry follows from them alone.
+Fixing $v$ gives a linear form $u \mapsto u \cdot v$, and every linear form on $\mathbb{R}^n$ arises this way from exactly one $v$; the sub-area on [[duality|9K7FFF26QR]] builds on this.
+In matrix language $u \cdot v = u^{\mathsf{T}} v$, and the entry $(i, j)$ of a product $AB$ is the dot product of row $i$ of $A$ with column $j$ of $B$.
+If you drop positivity you reach the [[bilinear forms|DYAK7YMK7B]] of signature $(p, q)$, such as the Minkowski form of special relativity.
