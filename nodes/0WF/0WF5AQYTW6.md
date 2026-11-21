@@ -19,60 +19,81 @@ sources:
 
 ## Summary
 
-A matrix over a field is in reduced row echelon form when it is in [[row echelon form|0VYCDGMJJJ]], each leading entry is $1$, and each leading entry is the only nonzero entry in its column.
-The exact definition is in [[the definition node|0NNR68BFRY]].
-Every matrix is row equivalent to exactly one matrix in reduced row echelon form, see [[the existence theorem|FCM29NQ6DN]] and [[the uniqueness theorem|BF9SMZMJZE]]; it is called the RREF of the matrix.
-The RREF matters because the solutions of a system can be read from the RREF of its augmented matrix without further computation, see [[the lemma on systems in RREF|P3HMRQN5KT]].
+The reduced row echelon form is the end point of row reduction, the form from which the solutions can be read with no more work.
+A matrix is in reduced row echelon form when it is in [[row echelon form|0VYCDGMJJJ]], each leading entry is $1$, and each leading entry is the only nonzero entry in its column.
+Every matrix is row equivalent to exactly one such matrix, its RREF, by the [[existence theorem|FCM29NQ6DN]] and the [[uniqueness theorem|BF9SMZMJZE]].
+The solutions of a system can be read from the RREF of its augmented matrix, by the [[lemma on systems in RREF|P3HMRQN5KT]].
+The [[formal definition|0NNR68BFRY]] lists the three conditions.
 
 ## Motivation
 
-A row echelon form still needs [[back substitution|0ATFVE08MW]] before we see the solutions, and it is not unique.
-If we also clear the entries above each pivot and scale each pivot to $1$, each equation contains exactly one basic variable.
-Then each basic variable is given directly in terms of the free variables.
-This form is unique, so it is a fingerprint of the matrix up to row operations.
+A row echelon form is a staircase, but it still needs [[back substitution|0ATFVE08MW]] before we see the solutions.
+It is also not unique, so two people can reduce the same matrix and get different answers.
+
+Both problems go away if we do a little more work, using only [[elementary row operations|04XWH28452]].
+We scale each pivot to $1$ and clear the entries above each pivot as well as below.
+Then each equation contains exactly one basic variable, and it gives that variable directly in terms of the free variables.
+The resulting form is unique, so it is a fingerprint of the matrix up to row operations.
 
 ## Notation
 
-1. Common notations are $\operatorname{rref}(A)$ and $\operatorname{RREF}(A)$.
-2. Lay calls it the "reduced echelon form".
-3. Computer algebra systems compute it: MATLAB and Octave have `rref(A)`, SymPy has `Matrix.rref()`, and Sage has `A.rref()`.
-4. The RREF of the [[augmented matrix|0T6MWGZSXA]] $[A \mid b]$ is written $\operatorname{rref}[A \mid b]$; it is not $\operatorname{rref}(A)$ with a column added.
+Common notations are $\operatorname{rref}(A)$ and $\operatorname{RREF}(A)$.
+Lay's textbook calls the form the "reduced echelon form".
+Computer algebra systems compute it: MATLAB and Octave have `rref(A)`, SymPy has `Matrix.rref()`, and Sage has `A.rref()`.
+The RREF of the [[augmented matrix|0T6MWGZSXA]] $[A \mid b]$ is written $\operatorname{rref}[A \mid b]$, and it is not $\operatorname{rref}(A)$ with a column added.
 
 ## Remarks
 
-### Examples
+### Reading the solutions off
 
-1. $\begin{bmatrix} 1 & 2 & 0 \\ 0 & 0 & 1 \\ 0 & 0 & 0 \end{bmatrix}$ is in RREF, with pivot columns $1$ and $3$.
-2. The identity matrix $I_n$ is in RREF, and it is the RREF of every invertible $n \times n$ matrix.
-3. $\left[\begin{array}{rrr|r} 1 & 0 & 2 & 2 \\ 0 & 1 & -1 & 1 \end{array}\right]$ is in RREF, and it gives the line of solutions in [[the line example|PRB44DTZ1P]].
-4. The three cases "unique", "none" and "infinitely many" are read off three RREFs in [[the reading example|390YXGS32E]].
-5. The RREFs of $A$ and of $[A \mid b]$ can have different numbers of pivots, see [[the trap example|HCYVBVXBF4]].
+Suppose the augmented matrix of a system in $x_1, x_2, x_3, x_4$ has the RREF
+$$\left[\begin{array}{rrrr|r} 1 & 0 & 2 & 0 & 3 \\ 0 & 1 & -1 & 0 & 1 \\ 0 & 0 & 0 & 1 & -2 \end{array}\right].$$
+The last column has no pivot, so the system is consistent.
+The pivot columns are $1$, $2$ and $4$, so $x_1, x_2, x_4$ are basic and $x_3$ is free.
+Put $x_3 = t$.
+The rows say $x_1 + 2t = 3$, $x_2 - t = 1$ and $x_4 = -2$, so
+$$x = (3, 1, 0, -2) + t(-2, 1, 1, 0), \qquad t \in \mathbb{R}.$$
+Check $t = 1$, the point $(1, 2, 1, -2)$: $1 + 2 = 3$, $2 - 1 = 1$ and $x_4 = -2$.
+[[The reading example|390YXGS32E]] shows the other two cases, a unique solution and no solution.
+In three unknowns, the RREF $\left[\begin{array}{rrr|r} 1 & 0 & 2 & 2 \\ 0 & 1 & -1 & 1 \end{array}\right]$ gives a line of solutions, as in [[the line example|PRB44DTZ1P]].
 
-### Non-examples
+### What the RREF tells you about a matrix
 
-1. $\begin{bmatrix} 1 & 2 & 0 \\ 0 & 3 & 1 \end{bmatrix}$ is in row echelon form but not in RREF, because a leading entry is $3$, see [[the non-examples|WCXMCF2T7S]].
-2. $\begin{bmatrix} 1 & 2 & 5 \\ 0 & 1 & 3 \end{bmatrix}$ is not in RREF, because the entry $2$ lies above the leading $1$ of row 2.
-3. $\begin{bmatrix} 0 & 1 \\ 1 & 0 \end{bmatrix}$ is not in RREF, because it is not in row echelon form.
+The pivot columns of the RREF are the unit vectors $e_1, \dots, e_r$, where $r$ is the number of pivots.
+This number $r$ is the [[rank|0ZC9YTXZRY]] of the matrix, and the nonzero rows of the RREF are a basis of its row space.
+Two matrices of the same size are row equivalent if and only if they have the same RREF.
+A square matrix is invertible if and only if its RREF is the identity, so $I_n$ is the RREF of every invertible $n \times n$ matrix.
 
-### Basic properties
+### Adding columns on the right
 
-1. Every matrix has an RREF, see [[the existence theorem|FCM29NQ6DN]], and it is unique, see [[the uniqueness theorem|BF9SMZMJZE]].
-2. Two matrices of the same size are row equivalent if and only if they have the same RREF.
-3. The pivot columns of the RREF are the unit vectors $e_1, \dots, e_r$, where $r$ is the number of pivots.
-4. The number $r$ of nonzero rows of the RREF is the [[rank|0ZC9YTXZRY]] of the matrix, and the nonzero rows are a basis of its row space.
-5. The RREF of $[A \mid B]$ begins with the RREF of $A$, see [[the augmentation principle|BE3NZP35HY]].
-6. A square matrix is invertible if and only if its RREF is the identity matrix.
+The RREF of $[A \mid B]$ begins with the RREF of $A$, by the [[augmentation principle|BE3NZP35HY]].
+But the two RREFs can have different numbers of pivots.
+For $x + 2y = 3$, $2x + 4y = 7$, the RREF of $A$ has one pivot and the RREF of $[A \mid b]$ has two, as [[the trap example|HCYVBVXBF4]] shows.
+
+### Echelon but not reduced
+
+The matrix $\begin{bmatrix} 1 & 2 & 0 \\ 0 & 3 & 1 \end{bmatrix}$ is in row echelon form but not in RREF, because a leading entry is $3$.
+The matrix $\begin{bmatrix} 1 & 2 & 5 \\ 0 & 1 & 3 \end{bmatrix}$ is not in RREF, because the entry $2$ lies above the leading $1$ of row 2.
+[[The non-examples|WCXMCF2T7S]] finish the reduction of both.
+The matrix $\begin{bmatrix} 0 & 1 \\ 1 & 0 \end{bmatrix}$ is not in RREF, because it is not even in row echelon form.
+
+### Watch out
+
+Three slips are common.
+The first is to forget the entries above the pivots.
+The second is to compute $\operatorname{rref}(A)$ when the question is about $Ax = b$.
+The third is to read $x_1 = 3$ from the first row of the matrix above, ignoring the free variable $x_3$ in the same row.
+A zero row $(0, \dots, 0 \mid 0)$ is harmless, but a row $(0, \dots, 0 \mid 1)$ means there is no solution.
 
 ### History
 
 Wilhelm Jordan described elimination to this form in 1888 in a handbook of geodesy, and the method is now called [[Gauss-Jordan elimination|098D6FQN3N]].
-The name "reduced row echelon form" and the abbreviation RREF are standard in English textbooks such as Lay.
 
-### Common errors
+### Try it
 
-1. Forgetting to clear the entries above the pivots.
-2. Computing $\operatorname{rref}(A)$ when the question is about $Ax = b$.
-3. Reading the values of the basic variables from the last column while ignoring the free variables in the same row.
+Find the RREF of $\begin{bmatrix} 2 & 4 \\ 1 & 3 \end{bmatrix}$.
+Scale row 1 by $\tfrac12$ to get $(1, 2)$, then $R_2 \leftarrow R_2 - R_1$ gives $(0, 1)$, and $R_1 \leftarrow R_1 - 2R_2$ gives $(1, 0)$.
+The RREF is $I_2$, so the matrix is invertible.
 
 ## Explanations
 
@@ -85,20 +106,14 @@ From this form we can read the solutions of the system without more work.
 
 ### L2 human
 
-We read the solutions of the system whose augmented matrix has the RREF $\left[\begin{array}{rrrr|r} 1 & 0 & 2 & 0 & 3 \\ 0 & 1 & -1 & 0 & 1 \\ 0 & 0 & 0 & 1 & -2 \end{array}\right]$.
-
-1. The last column has no pivot, so the system is consistent.
-2. The pivot columns are $1$, $2$ and $4$; so $x_1, x_2, x_4$ are basic, and $x_3$ is free.
-3. Put $x_3 = t$. The rows say $x_1 + 2t = 3$, $x_2 - t = 1$ and $x_4 = -2$.
-4. So $x = (3, 1, 0, -2) + t(-2, 1, 1, 0)$.
-5. Check $t = 1$, the point $(1, 2, 1, -2)$: $1 + 2 = 3$, $2 - 1 = 1$ and $x_4 = -2$.
-
 The typical use is the final step of solving a system by hand or by computer.
-A trap: a zero row $(0, \dots, 0 \mid 0)$ is harmless, but a row $(0, \dots, 0 \mid 1)$ means there is no solution.
+Reduce the augmented matrix, look at the last column for a pivot, list the free columns, and solve each row for its basic variable.
+Each row of the RREF holds exactly one basic variable, so no back substitution is needed.
 
 ### L3 human
 
 The RREF is a canonical form for the action of $\mathrm{GL}_m(F)$ on $m \times n$ matrices by left multiplication.
 Its nonzero rows are the unique basis of the row space that is in reduced echelon form, so the RREF gives coordinates on the Grassmannian, cell by cell.
 The RREF computes the [[null space|0PHDYNR24D]], the rank and the pivot basis of the [[column space|03AJKXH1AV]] in one pass.
-For exact arithmetic over $\mathbb{Q}$ the entries can grow, and fraction-free methods are used; over $\R$ in floating point, the RREF is sensitive to rounding, so numerical software prefers factorizations.
+For exact arithmetic over $\mathbb{Q}$ the entries can grow, and fraction-free methods are used.
+In floating point over $\mathbb{R}$, the RREF is sensitive to rounding, so numerical software prefers factorizations.
