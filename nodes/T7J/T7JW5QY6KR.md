@@ -14,7 +14,7 @@ same_as:
 
 A complete theory is stable when its models have few [[types|9V71Q3SD1G]].
 For some infinite cardinal $\lambda$, every parameter set of size $\lambda$ has at most $\lambda$ complete types over it.
-Equivalently, no formula can define an infinite linear order on tuples, a condition called the order property.
+Equivalently, no formula $\varphi(\bar x, \bar y)$ has the order property: there is no infinite sequence of tuples $\bar a_0, \bar a_1, \dots$ in a model with $\varphi(\bar a_i, \bar a_j)$ true exactly when $i < j$.
 Stable theories, introduced and developed by Saharon Shelah, admit a good theory of independence and dimension.
 Algebraically closed fields, vector spaces and modules give stable theories, while dense linear orders and real closed fields do not.
 

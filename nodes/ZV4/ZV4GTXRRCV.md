@@ -31,7 +31,7 @@ Consider the Lindenbaum matrices $M_0 = \langle \mathrm{Fm}, \mathrm{Cn}(\emptys
 
 The example shows the two parts of [[the theorem on Lindenbaum matrices|VWJVAS3VE3]]: $M_0$ captures the theorems, and the family of all $\langle \mathrm{Fm}, T \rangle$ captures the consequence relation.
 The matrix $M_0$ is infinite, and its values are formulas, not numbers.
-Its quotient by classical equivalence is the Lindenbaum-Tarski algebra, a Boolean algebra; replacing classical logic by $\mathrm{Ł}_3$ gives a three-valued MV-algebra in the same way.
+Its quotient by classical equivalence is the Lindenbaum-Tarski algebra, a Boolean algebra; replacing classical logic by $\mathrm{Ł}_3$ gives in the same way an MV-algebra that satisfies the equations of the three-element MV-chain; this algebra is infinite, so it is not three-valued.
 
 ## Explanations
 

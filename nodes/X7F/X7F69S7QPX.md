@@ -41,7 +41,7 @@ The full language matters: the abstract of Urquhart's paper lists decidable frag
 1. The first-degree fragment, with no nested $\rightarrow$, is decidable; the abstract attributes this to Anderson and Belnap.
 2. The pure implication fragments of $\mathbf{R}$ and $\mathbf{E}$ are decidable; the abstract attributes this to Kripke, and states that his methods extend to implication with conjunction.
 3. The implication-negation fragments are decidable; the abstract attributes this to Belnap and Wallace.
-4. The SEP entry on substructural logics states that the fragment of $\mathbf{R}$ without disjunction is decidable by proof search in a Gentzen system.
+4. The SEP entry on substructural logics states that the fragment of $\mathbf{R}$ in $\to$ and $\wedge$ alone is decidable by proof search in a Gentzen system. With negation the restriction does not help, since $A \vee B$ is equivalent in $\mathbf{R}$ to $\neg(\neg A \wedge \neg B)$.
 
 Changing the logic also matters: the abstract states that R-mingle is decidable (Meyer), and that positive $\mathbf{R}$ without contraction is decidable (Giambrone).
 

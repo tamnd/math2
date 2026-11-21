@@ -26,8 +26,8 @@ So $S$ is a [[Łukasiewicz-Moisil algebra|51A2GMPDYK]], and $\to$ is not a term 
 
 ## Remarks
 
-1. The same works for every $n \ge 5$ with $S = \set{0, \tfrac{1}{n - 1}, \tfrac{n - 2}{n - 1}, 1}$. Then $\tfrac{n - 2}{n - 1} \to \tfrac{1}{n - 1} = \tfrac{2}{n - 1}$, which is in $S$ only for $n = 4$.
-2. So for $n \ge 5$, $L_5$ as an $\mathbf{LM}_5$ algebra and $L_5$ as an [[MV-algebra|8T4M7RN9AC]] have different term operations.
+1. The same works for every $n \ge 5$ with $S = \set{0, \tfrac{1}{n - 1}, \tfrac{n - 2}{n - 1}, 1}$. Then $\tfrac{n - 2}{n - 1} \to \tfrac{1}{n - 1} = \tfrac{2}{n - 1}$, which is not in $S$ for $n \ge 5$.
+2. So for $n \ge 5$, $L_n$ as an $\mathbf{LM}_n$ algebra and $L_n$ as an [[MV-algebra|8T4M7RN9AC]] have different term operations.
 3. For $n = 4$, the set $S$ is all of $L_4$, and the argument does not apply.
 
 ## Explanations
