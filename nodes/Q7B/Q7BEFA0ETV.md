@@ -17,14 +17,15 @@ sources:
 
 ## Proof
 
-We use [[the theorem on row operations|K41GT10YM6]], called Theorem E below.
+We get the equivalence relation from reversibility, turn a sequence of operations into one invertible matrix $P$, and then read the other parts off the equation $B = PA$.
+We use the [[theorem on row operations|K41GT10YM6]], called Theorem E below.
 
 Part 1, equivalence relation.
 
-1. Reflexive: the operation $R_1 \leftarrow 1 \cdot R_1$ is elementary and changes nothing, so $A \sim A$.
-2. Symmetric: let $A = A_0, A_1, \dots, A_k = B$, where $A_{t}$ comes from $A_{t-1}$ by an operation $\rho_t$.
+1. Reflexive: the empty sequence takes $A$ to $A$, so $A \sim A$.
+2. Symmetric: let $A = A_0, A_1, \dots, A_k = B$, where $A_t$ comes from $A_{t-1}$ by an operation $\rho_t$.
 3. By Theorem E, part 1, each $\rho_t$ has an inverse elementary operation $\rho_t'$.
-4. Then $\rho_1', \dots, \rho_k'$, applied in the order $\rho_k'$ first, take $B$ back to $A$. So $B \sim A$.
+4. Then $\rho_k', \rho_{k-1}', \dots, \rho_1'$, applied in this order, take $B$ back to $A$. So $B \sim A$.
 5. Transitive: if a sequence takes $A$ to $B$ and another takes $B$ to $C$, then the first followed by the second takes $A$ to $C$.
 6. So $\sim$ is an [[equivalence relation|0G8VEZ3WTK]].
 
@@ -38,7 +39,7 @@ Part 3, row space.
 
 10. Row $i$ of $PA$ is $\sum_l p_{il} R_l$, a linear combination of the rows $R_l$ of $A$.
 11. So every row of $B$ lies in the row space of $A$, which is a subspace. Hence the row space of $B$ is contained in that of $A$.
-12. By symmetry, $A = P^{-1} B$, so the row space of $A$ is contained in that of $B$.
+12. Since $A = P^{-1} B$, the same argument shows that the row space of $A$ is contained in that of $B$.
 13. So the two [[row spaces|0EP73HK4C4]] are equal.
 
 Part 4, null space.
