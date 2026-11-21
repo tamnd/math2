@@ -1,0 +1,90 @@
+---
+tag: 1FF2GRE6VX
+kind: statement
+role: theorem
+name: Horn sentences and reduced products
+aliases: [horn-sentences-and-reduced-products, keisler-galvin-theorem, reduced-product-sentences-are-horn]
+msc: ["03C20", "03C40"]
+topics: [JYJHB4YBAH]
+audience: research
+about: [F4WRD396PB]
+uses: [8RRECJJM3G, F4WRD396PB, 15PF73BKY6, DKFGQTRYZE, WDVVEYD6AT, 0MN2MER9WN]
+history:
+  notes: "Horn proved preservation under direct products in 1951; Keisler proved the converse under the continuum hypothesis in 1965, and Galvin showed that the hypothesis is unnecessary."
+sources:
+  - url: https://arxiv.org/abs/1905.10673
+    locator: Section 1
+  - book: isbn:9780521587136
+---
+
+## Statement
+
+Let $L$ be a [[signature|WDVVEYD6AT]], and let all $L$-structures have nonempty domains.
+An $L$-[[sentence|DKFGQTRYZE]] $\varphi$ is *preserved under reduced products* if the following holds for every nonempty set $I$, every [[filter|15PF73BKY6]] $F$ on $I$, and all $L$-structures $(\mathcal{M}_i)_{i \in I}$.
+If $\mathcal{M}_i \models \varphi$ for every $i \in I$, then the [[reduced product|F4WRD396PB]] satisfies $\prod_{i \in I} \mathcal{M}_i / F \models \varphi$.
+
+Recall that a Horn sentence is built from basic Horn formulas, disjunctions of literals with at most one unnegated atom, by $\wedge$, $\exists$ and $\forall$.
+
+1. Every Horn sentence is preserved under reduced products.
+2. Conversely, every sentence preserved under reduced products is logically equivalent to a Horn sentence.
+
+So the sentences preserved under reduced products are, up to logical equivalence, exactly the Horn sentences.
+Part 1 is a special case of [[this theorem|8RRECJJM3G]].
+Part 2 is due to Keisler, who assumed the [[continuum hypothesis|0MN2MER9WN]], and to Galvin, who removed that assumption.
+
+## Remarks
+
+### Why each hypothesis is needed
+
+- All filters, not only ultrafilters. By [[Łoś's theorem|AGYBSTD7BG]], every sentence is preserved under ultraproducts, so ultraproducts alone single out nothing.
+- More than direct products. Horn sentences are preserved under direct products, but Chang and Morel showed that this property does not characterize them.
+
+### Consequences
+
+- The field axiom $\forall x \, \exists y \, (x = 0 \vee x y = 1)$ is not equivalent to a Horn sentence, since $\mathbb{Q} \times \mathbb{Q}$ is not a field.
+- Totality $\forall x \forall y \, (x \le y \vee y \le x)$ is not equivalent to a Horn sentence, since the square of a $2$-element chain is not total.
+- For universal sentences, the converse has a direct proof that needs no set-theoretic hypothesis; see the [[characterization of universal Horn classes|VCJX55N45K]].
+
+### Converse
+
+Part 2 is the converse of part 1.
+Part 1 has a short induction on formulas; part 2 is much deeper.
+
+### Generalizations
+
+- In continuous logic, Goldbring and Keisler proved that a continuous sentence is preserved under reduced products exactly when it is equivalent to a countable set of conditional sentences, the continuous analogue of Horn sentences.
+- For theories of the form $\forall \bar x \, \theta$ with $\theta$ quantifier-free, the theorem specializes to the [[characterization of universal Horn classes|VCJX55N45K]].
+
+## History
+
+Horn introduced the sentences now named after him in 1951 and proved that they are preserved under direct products.
+Keisler proved in 1965, under the continuum hypothesis, that a sentence preserved under reduced products is equivalent to a Horn sentence.
+Galvin showed that the property "$\varphi$ is preserved under reduced products" is arithmetical, and an absoluteness argument then removes the continuum hypothesis.
+Goldbring and Keisler extended the theorem to continuous logic in 2019.
+
+## Explanations
+
+### L1 human
+
+A reduced product combines many structures into one, deciding each fact by a vote: a fact holds if it holds on a large enough set of coordinates.
+Some statements always survive this vote, and the theorem says which ones.
+They are the Horn sentences, which never ask to choose between two facts.
+
+### L2 human
+
+We test the field axiom in the direct product $\mathbb{Q} \times \mathbb{Q}$, the reduced product with $F = \set{\set{1, 2}}$.
+
+1. Take $x = (1, 0)$, which is not the zero $(0, 0)$.
+2. For any $y = (a, b)$, $xy = (a, 0) \ne (1, 1)$.
+3. So $x$ has no inverse, and the axiom fails in the product, though it holds in both factors.
+
+By part 1 the axiom is not equivalent to a Horn sentence.
+A trap is to rewrite it as $\forall x \exists y \, (\neg(x = 0) \rightarrow xy = 1)$: the matrix $x = 0 \vee xy = 1$ has two unnegated atoms, so this is still not Horn.
+
+### L3 human
+
+Keisler's proof of part 2 under the continuum hypothesis is long, and this page does not reproduce it.
+Galvin's absoluteness argument is short once his lemma is known.
+Both "preserved under reduced products" and "equivalent to a Horn sentence" are [[arithmetical|7CVJCQKY41]] properties of the code of $\varphi$.
+So the implication between them holds in the universe as soon as it holds in the [[constructible universe|6TF2JBTPPJ]], where the continuum hypothesis is true.
+The [[proof|T37HM8935S]] spells this out.

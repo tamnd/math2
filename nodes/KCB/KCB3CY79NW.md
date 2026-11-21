@@ -1,0 +1,57 @@
+---
+tag: KCB3CY79NW
+kind: proof
+name: Proof of the characterization of universal Horn classes
+aliases: [proof-of-characterization-of-universal-horn-classes]
+msc: ["03C52", "03C20"]
+topics: [JYJHB4YBAH]
+audience: grad
+proves: VCJX55N45K
+uses: [8RRECJJM3G, 84XXPH6XJ8, 15PF73BKY6, C9494XYEMN, 676H7EGTKJ, MCZRXR3SVB]
+methods: [TFQ1845T84, 0J0XBKG64S, 01XM7JEKHY]
+sources:
+  - book: isbn:9780521587136
+---
+
+## Proof
+
+**Preservation.** Let $\sigma = \forall \bar x \, \theta$ be universal Horn.
+
+1. If $\mathcal{B} \models \sigma$ and $\mathcal{A} \subseteq \mathcal{B}$, then $\mathcal{A} \models \sigma$, since [[embeddings preserve quantifier-free formulas|C9494XYEMN]].
+2. $\sigma$ is a Horn sentence, so it holds in every reduced product of models of $\sigma$ by [[this theorem|8RRECJJM3G]].
+3. A strict $\sigma$ holds in $\mathbf{1}_L$, since its unnegated atom is true there.
+
+This gives the direction from axioms to closure in parts 1 and 3, and the inclusion $\mathbf{I}\mathbf{S}\mathbf{P}_R(\mathcal{K}) \subseteq \operatorname{Mod}(\Sigma)$ in part 2, where $\Sigma$ is the set of universal Horn sentences true in $\mathcal{K}$.
+
+**Part 2, the other inclusion.**
+Let $\mathcal{A} \models \Sigma$, and add a constant $c_a$ for each $a \in A$.
+
+4. Let $D^+$ be the set of atomic sentences with these constants that hold in $\mathcal{A}$, and $D^-$ the set of those that fail. Let $I$ be the set of pairs $(S, \beta)$ with $S \subseteq D^+$ finite and $\beta \in D^- \cup \set{\ast}$.
+5. Claim: for $(S, \beta) \in I$ there are $\mathcal{B} \in \mathcal{K}$ and $h \colon A \to B$ such that every atom of $S$ holds in $\mathcal{B}$ when $c_a$ is read as $h(a)$, and $\beta$ fails, if $\beta \ne \ast$.
+6. Suppose not, for $\beta \ne \ast$. Replace each constant $c_a$ by a variable $x_a$. Then $\mathcal{K}$ satisfies the universal Horn sentence $\forall \bar x \, (\bigwedge S \rightarrow \beta)$, so it lies in $\Sigma$.
+7. Reading $x_a$ as $a$ in $\mathcal{A}$, every atom of $S$ holds, so $\beta$ holds in $\mathcal{A}$, against $\beta \in D^-$.
+8. For $\beta = \ast$ the same argument with $\forall \bar x \, \neg \bigwedge S$ gives the claim; if $S = \emptyset$, the claim says $\mathcal{K} \ne \emptyset$, and $\forall x \, \neg(x = x) \notin \Sigma$ because $A \ne \emptyset$.
+9. Choose such $\mathcal{B}_i$ and $h_i$ for every $i \in I$. For finite $S_0 \subseteq D^+$ let $X_{S_0} = \set{(S, \beta) \in I : S_0 \subseteq S}$. Then $X_{S_0} \cap X_{S_1} = X_{S_0 \cup S_1}$ and $(S_0, \ast) \in X_{S_0}$, so the supersets of the sets $X_{S_0}$ form a [[filter|15PF73BKY6]] $F$.
+10. Let $\mathcal{C} = \prod_{i} \mathcal{B}_i / F$ and $h(a) = [(h_i(a))_i]_F$. By the definition of the [[reduced product|84XXPH6XJ8]] and induction on terms, an atom holds of $h$-images in $\mathcal{C}$ exactly when the set of $i$ where it holds of the $h_i$-images is in $F$.
+11. For $\alpha \in D^+$ this set contains $X_{\set{\alpha}}$, so $\alpha$ holds in $\mathcal{C}$ under $h$.
+12. For $\beta \in D^-$ this set misses every pair $(S, \beta)$, while each $X_{S_0}$ contains $(S_0, \beta)$. So the set contains no $X_{S_0}$, it is not in $F$, and $\beta$ fails in $\mathcal{C}$ under $h$.
+13. By steps 11 and 12, $h$ preserves and reflects all atomic formulas, including equations, so it is an embedding of $\mathcal{A}$ into $\mathcal{C} \in \mathbf{P}_R(\mathcal{K})$.
+
+**Parts 1 and 3.**
+
+14. If $\mathcal{K}$ is closed under $\mathbf{I}$, $\mathbf{S}$ and $\mathbf{P}_R$, part 2 gives $\operatorname{Mod}(\Sigma) = \mathbf{I}\mathbf{S}\mathbf{P}_R(\mathcal{K}) = \mathcal{K}$, so $\mathcal{K}$ is universal Horn.
+15. For part 3, let $\Sigma^+ \subseteq \Sigma$ be the strict sentences, and let $\mathcal{A} \models \Sigma^+$. Run steps 4 to 13 with $\Sigma^+$ in place of $\Sigma$.
+16. Steps 6 and 7 use only the strict sentence $\forall \bar x \, (\bigwedge S \rightarrow \beta)$. For $\beta = \ast$ the claim holds with $\mathcal{B} = \mathbf{1}_L$, which lies in $\mathcal{K}$, and the constant map $h$.
+17. So $\mathcal{A} \in \mathbf{I}\mathbf{S}\mathbf{P}_R(\mathcal{K}) = \mathcal{K}$, and $\operatorname{Mod}(\Sigma^+) = \mathcal{K}$.
+
+## Idea
+
+Index the factors by "finite piece of what is true, plus one thing that is false".
+Each factor realizes its piece and refutes its one false fact; the filter keeps the true facts and loses each false one.
+Without disjunctions, nothing forces an ultrafilter, so a filter is enough.
+
+## Variants
+
+- The proof bounds the index set: $\lvert I \rvert \le \lvert A \rvert + \lvert L \rvert + \aleph_0$, so $\mathcal{A}$ embeds in a reduced product of that many members of $\mathcal{K}$.
+- [[Mal'cev's characterization|DFNM3BGMAY]] states the algebraic case with direct products and ultraproducts in place of reduced products.
+- For universal classes, where false atoms can combine in disjunctions, the same diagram argument needs an ultrafilter, as in [[this proof|8Q69SQYY9D]].

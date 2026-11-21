@@ -1,0 +1,82 @@
+---
+tag: MFR9Z5PPH4
+kind: statement
+role: theorem
+name: Chang-Makkai theorem
+aliases: [chang-makkai-theorem, chang-makkai-definability-theorem]
+msc: ["03C40", "03C50"]
+topics: [JYJHB4YBAH]
+audience: research
+about: [CY1TXHF6KQ]
+uses: [CY1TXHF6KQ, RMTZ5J64FX, DSQ17TNW1C, EY20BF96SJ, GSQ833HAZT, JNXY3WRYFY]
+history:
+  first_stated: "1964"
+sources:
+  - book: isbn:9780521587136
+---
+
+## Statement
+
+Let $L \subseteq L^+$ be signatures and $\varphi(x_1, \dots, x_n)$ an $L^+$-formula.
+For an $L^+$-structure $\mathcal{A}$, let $\nu(\varphi, \mathcal{A})$ be the number of distinct sets $\alpha(\varphi(\mathcal{A}))$, where $\alpha$ ranges over the [[automorphisms|DSQ17TNW1C]] of the [[reduct|EY20BF96SJ]] $\mathcal{A} | L$.
+
+1. Let $\mathcal{A}$ be a [[saturated|RMTZ5J64FX]] $L^+$-structure of cardinality $\kappa \ge \lvert L^+ \rvert + \aleph_0$. The following are equivalent.
+   - (a) $\varphi(\mathcal{A})$ is [[definable|CY1TXHF6KQ]] in $\mathcal{A} | L$ by an $L$-formula with parameters from $A$.
+   - (b) $\nu(\varphi, \mathcal{A}) \le \kappa$.
+   - (c) $\nu(\varphi, \mathcal{A}) < 2^\kappa$.
+2. Let $T$ be an $L^+$-theory, and assume that some uncountable cardinal $\kappa > \lvert L^+ \rvert$ satisfies $\kappa^{<\kappa} = \kappa$. The following are equivalent.
+   - (a) There are $L$-formulas $\psi_1(\bar x, \bar y), \dots, \psi_k(\bar x, \bar y)$ with $T \models \bigvee_{i = 1}^{k} \exists \bar y \, \forall \bar x \, (\varphi(\bar x) \leftrightarrow \psi_i(\bar x, \bar y))$.
+   - (b) $\nu(\varphi, \mathcal{A}) \le \lvert A \rvert + \aleph_0$ for every model $\mathcal{A}$ of $T$.
+3. Under the hypothesis of part 2, let $L^+ = L \cup \set{P}$ for a relation symbol $P \notin L$. If every model $\mathcal{A}$ of $T$ has at most $\lvert A \rvert + \aleph_0$ sets $Q$ with $(\mathcal{A} | L, Q) \models T$, then $P$ is defined in each model of $T$ by one of finitely many $L$-formulas with parameters.
+
+In part 3, each $\alpha(P^{\mathcal{A}})$ gives a model $(\mathcal{A} | L, \alpha(P^{\mathcal{A}})) \cong \mathcal{A}$, so the count of expansions bounds $\nu$.
+
+## Remarks
+
+### Why each hypothesis is needed
+
+- Saturation in part 1. In $(\mathbb{N}, <)$ the set of even numbers has one image under the trivial automorphism group, but it is not definable with parameters, since the definable subsets of $(\mathbb{N}, <)$ are finite or cofinite.
+- Parameters. In $(\mathbb{Q}, <, P)$ with $P = (0, \infty)$, the set $P$ is moved by $x \mapsto x - 1$, so it is not definable without parameters, but $x > 0$ defines it with the parameter $0$.
+- Finitely many formulas in part 2: as for [[Svenonius's theorem|JNXY3WRYFY]], the defining formula may change from model to model.
+
+### Consequences
+
+- The case $\nu(\varphi, \mathcal{A}) = 1$ gives definability without parameters in a saturated model, the saturated form of [[Svenonius's theorem|JNXY3WRYFY]].
+- In a saturated model, the number of automorphic images of a set is either at most $\kappa$ or exactly $2^\kappa$, with nothing in between.
+
+### Converse
+
+The directions (a) to (b) are immediate: if $\varphi(\mathcal{A}) = \psi(\mathcal{A}, \bar b)$, each image is $\psi(\mathcal{A}, \alpha(\bar b))$, so there are at most as many images as tuples $\bar b$, and there are $\lvert A \rvert + \aleph_0$ tuples.
+
+### Generalizations
+
+- Part 2 needs the hypothesis on $\kappa$ only to obtain a saturated model of size $\kappa$ by [[this theorem|GSQ833HAZT]]; under the generalized continuum hypothesis, $\kappa = (\lvert L^+ \rvert + \aleph_0)^{+}$ works.
+
+## History
+
+The theorem goes back to work of Chang and of Makkai, both published in 1964.
+It extends [[Svenonius's theorem|JNXY3WRYFY]] from invariant sets to sets with few automorphic images.
+
+## Explanations
+
+### L1 human
+
+A set that can be described with the help of a few fixed elements has few copies under the symmetries of the structure.
+The Chang-Makkai theorem gives the converse in a structure rich enough to have many symmetries: if a set has fewer copies than the largest possible number, it can be described with a few fixed elements.
+
+### L2 human
+
+We count images in $(\mathbb{Q}, <, P)$ with $P = \set{q \in \mathbb{Q} : q > \sqrt{2}}$.
+
+1. This structure is countable and saturated, so part 1 applies with $\kappa = \aleph_0$.
+2. An automorphism $\alpha$ of $(\mathbb{Q}, <)$ maps $P$ to the set above a cut of $\mathbb{Q}$ with no rational endpoint, and every such cut arises.
+3. There are $2^{\aleph_0}$ such cuts, one for each irrational number, so $\nu = 2^{\aleph_0}$.
+4. By part 1, $P$ is not definable in $(\mathbb{Q}, <)$ with parameters, as one can also see from the fact that definable sets are finite unions of intervals with rational or infinite endpoints.
+
+A trap is to count images in a structure that is not saturated; the counts in part 1 only have meaning in a saturated model.
+
+### L3 human
+
+The proof of (c) implies (a) builds a binary tree of partial automorphisms of height $\kappa$: at each node, two tuples with the same $L$-type over the current domain but different $\varphi$-values are sent to the same tuple.
+The $2^\kappa$ branches give $2^\kappa$ automorphisms with pairwise different images of $\varphi(\mathcal{A})$.
+This splitting argument recurs in stability theory, where counting types or images by $2^\kappa$ versus $\kappa$ separates tame from wild behavior.
