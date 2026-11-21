@@ -31,9 +31,12 @@ In Mathlib the cross product of two vectors $a, b : \text{Fin } 3 \to R$ is `cro
 
 ## Remarks
 
-For the standard basis vectors $e_1$, $e_2$, $e_3$ of $\mathbb{R}^3$: $e_1 \times e_2 = e_3$, $e_2 \times e_3 = e_1$ and $e_3 \times e_1 = e_2$.
-If $\theta$ is the angle between nonzero vectors $a$ and $b$, then $\|a \times b\| = \|a\| \, \|b\| \sin \theta$, the area of the parallelogram with the sides $a$ and $b$, by the [[length formula|SAZ353S8W0]].
-The cross product is [[perpendicular to its factors|0T4QHJXSD4]] and [[anticommutative|07ZS685JJC]], and it is bilinear but not associative.
+The pattern of indices is cyclic: the first component uses the indices $2, 3$, the second uses $3, 1$, and the third uses $1, 2$.
+So for the standard basis vectors $e_1 \times e_2 = e_3$, $e_2 \times e_3 = e_1$ and $e_3 \times e_1 = e_2$.
+
+The definition is pure arithmetic, but its meaning is geometric.
+The cross product is [[perpendicular to its factors|0T4QHJXSD4]], and it is [[anticommutative|07ZS685JJC]], bilinear and not associative.
+If $\theta$ is the angle between nonzero vectors $a$ and $b$, then $\|a \times b\| = \|a\| \, \|b\| \sin \theta$, the area of the parallelogram with sides $a$ and $b$, by the [[length formula|SAZ353S8W0]].
 In the usual right-handed coordinates, $a$, $b$ and $a \times b$ follow the right-hand rule.
 
 ## Explanations
@@ -46,6 +49,7 @@ The longer the two arrows, and the closer they are to a right angle, the longer 
 
 ### L2 human
 
-To compute a component, cover the column of that component and take the cross difference of the other two columns, with the sign $+$, $-$, $+$.
-For $a = (2, 0, 1)$ and $b = (1, 3, 0)$: $a \times b = (0 \cdot 0 - 1 \cdot 3, \; 1 \cdot 1 - 2 \cdot 0, \; 2 \cdot 3 - 0 \cdot 1) = (-3, 1, 6)$.
-A trap: the sign of the middle component is the one most often wrong.
+To compute a component, cover the column of that component and take the cross difference of the other two columns, with the signs $+$, $-$, $+$.
+For $a = (2, 0, 1)$ and $b = (1, 3, 0)$ this gives
+$$a \times b = (0 \cdot 0 - 1 \cdot 3, \; 1 \cdot 1 - 2 \cdot 0, \; 2 \cdot 3 - 0 \cdot 1) = (-3, 1, 6).$$
+Watch out: the middle component is the one most often wrong, because its sign comes out reversed if you read the columns in the usual order.
