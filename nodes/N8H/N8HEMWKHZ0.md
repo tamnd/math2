@@ -14,6 +14,7 @@ sources:
 
 ## Proof
 
+We count pivots: the rank is the number of pivots, and a pivot in the last column is exactly what makes the rank go up.
 First we show that $\rank M$ is the number of pivot columns of $\operatorname{rref}(M)$, for every matrix $M$ over $F$.
 Let $R = \operatorname{rref}(M)$, with pivot columns $p_1 < \dots < p_r$, and let $m_j$ and $c_j$ be column $j$ of $M$ and of $R$.
 
@@ -36,11 +37,11 @@ Now let $M = [A \mid b]$, with $R = \operatorname{rref}(M)$.
 14. By [[the existence and uniqueness theorem|BKA191KD1S]], part 1, the system is consistent if and only if column $n + 1$ holds no leading entry.
 15. By steps 13 and 14, the system is consistent if and only if $\rank A = \rank [A \mid b]$.
 16. Assume consistency, and let $k = n - r$ be the number of non-pivot columns of $R_0$, where $r = \rank A$.
-17. With $b = 0$, [[the lemma on systems in RREF|P3HMRQN5KT]] gives a bijection $t \mapsto t_1 v_1 + \dots + t_k v_k$ from $F^k$ onto $N = \set{x : Ax = 0}$.
+17. With $b = 0$, [[the lemma on systems in RREF|P3HMRQN5KT]] gives a bijection $t \mapsto t_1 v_1 + \dots + t_k v_k$ from $F^k$ onto $N = \{x : Ax = 0\}$.
 18. Entry $f_l$ of $v_l$ is $1$, and entry $f_l$ of $v_j$ is $0$ for $j \neq l$, where $f_l$ is the $l$-th free column.
 19. So $v_1, \dots, v_k$ are linearly independent; by step 17 they span $N$, so $\dim N = k = n - \rank A$.
 20. By [[the structure of the solution set|PDH3HKXWAZ]], part 3, the solution set is $p + N$ for any solution $p$, of dimension $n - \rank A$.
-21. The solution is unique if and only if $N = \set{0}$, that is, $k = 0$, that is, $\rank A = n$.
+21. The solution is unique if and only if $N = \{0\}$, that is, $k = 0$, that is, $\rank A = n$.
 
 ## Idea
 
