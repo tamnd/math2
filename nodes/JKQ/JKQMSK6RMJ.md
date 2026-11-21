@@ -1,0 +1,60 @@
+---
+tag: JKQMSK6RMJ
+kind: example
+name: The k-colorable graphs form a universal class
+aliases: [k-colorable-graphs-universal-class]
+msc: ["03C52", "05C15"]
+topics: [JYJHB4YBAH]
+audience: grad
+instance_of: [ZSTEZ3PRT9]
+uses: [ZSTEZ3PRT9, 0XHZW0VCPR, 00C0BR7D7H, 1NR3HAWG9D]
+sources:
+  - url: https://en.wikipedia.org/wiki/Graph_coloring
+    locator: Vertex coloring
+  - book: isbn:9780521587136
+---
+
+## Example
+
+Fix $k \ge 1$, let $L = \set{E}$, and let $\mathcal{K}$ be the class of [[$k$-colorable graphs|0XHZW0VCPR]]: [[graphs|00C0BR7D7H]] with a map $c \colon V \to \set{1, \dots, k}$ such that adjacent vertices get different colors.
+We show that $\mathcal{K}$ is a [[universal class|ZSTEZ3PRT9]].
+
+1. Let $\Sigma$ be the two graph axioms together with, for each finite graph $F$ that is not $k$-colorable, the universal sentence $\sigma_F$ that says "$F$ is not a subgraph". If $F$ has vertices $1, \dots, n$, then $\sigma_F$ is $\forall x_1 \cdots \forall x_n \, \neg(\bigwedge_{i < j} x_i \ne x_j \wedge \bigwedge_{ij \in E(F)} E(x_i, x_j))$.
+2. A $k$-colorable graph $G$ satisfies $\Sigma$. If $F$ were a subgraph of $G$, the restriction of a coloring of $G$ would color $F$.
+3. Let $G \models \Sigma$. Then every finite subgraph of $G$ is $k$-colorable, since a finite subgraph that is not would violate one $\sigma_F$.
+4. Add unary predicates $C_1, \dots, C_k$ and a constant $c_v$ for each vertex $v$ of $G$. Let $\Gamma$ contain, for each vertex $v$, a sentence saying that $c_v$ satisfies exactly one $C_i$, and, for each edge $uv$ of $G$ and each $i$, the sentence $\neg(C_i(c_u) \wedge C_i(c_v))$.
+5. A finite part $\Gamma_0$ of $\Gamma$ mentions a finite set $F$ of vertices. Interpret $c_v$ as $v$, color $F$ by a $k$-coloring of the finite subgraph on $F$, which exists by step 3, and give the other vertices color $1$. This expansion of $G$ satisfies $\Gamma_0$.
+6. By the [[compactness theorem|1NR3HAWG9D]], $\Gamma$ has a model $H$. Color $v$ by the unique $i$ with $H \models C_i(c_v)$; the sentences for the edges make this a $k$-coloring of $G$.
+7. So $G \in \mathcal{K}$, and $\mathcal{K}$ is the class of models of the universal set $\Sigma$.
+
+## Remarks
+
+Steps 3 to 6 prove the [[de Bruijn-Erdős theorem|Q2D88XQKGX]]: an infinite graph is $k$-colorable if every finite subgraph is.
+For $k \ge 2$ the class is not finitely axiomatizable; by the [[Łoś-Tarski theorem|9RN0KYXNT1]] it suffices to rule out a single universal sentence.
+A universal sentence with $n$ variables only sees induced subgraphs on at most $n$ vertices.
+A graph of girth greater than $n$ with chromatic number greater than $k$ [[exists|5SKPQNWNGD]], and all its induced subgraphs on $n$ vertices are forests, which are $2$-colorable.
+So this graph satisfies every universal sentence with $n$ variables that holds in all $k$-colorable graphs, without being $k$-colorable.
+For $k = 2$ the forbidden graphs can be taken to be the odd cycles, since a graph is bipartite exactly when it has no odd cycle.
+For $k = 1$ the class is the class of graphs with no edge, axiomatized by $\forall x \forall y \, \neg E(x, y)$.
+The class is closed under substructures and ultraproducts, as the [[characterization of universal classes|JPGDSW2TAP]] predicts.
+
+## Explanations
+
+### L1 human
+
+To color a map or a network with $3$ colors, neighbors must get different colors.
+If a big network can be colored, every part of it can be colored too, with the same colors.
+For an infinite network, the converse also holds: if every finite part can be colored, the whole network can.
+So the property is described by rules that forbid finite bad patterns.
+
+### L2 human
+
+We find a forbidden graph for $k = 2$ and check the claim of step 2 on it.
+
+1. The triangle $K_3$ is not $2$-colorable: two of its three vertices get the same color, and they are adjacent.
+2. So $\sigma_{K_3}$ is one of the axioms, and every $2$-colorable graph is triangle-free.
+3. The $5$-cycle is not $2$-colorable either: the colors must alternate along the cycle, and $5$ is odd.
+4. The $4$-cycle is $2$-colorable, with colors $1, 2, 1, 2$, so it satisfies $\Sigma$ for $k = 2$.
+
+The typical use is to transfer a statement about finite graphs to infinite ones.
+A trap in step 4 is to write the coloring rule as one sentence about all edges; then a finite part of $\Gamma$ can fail for a partial coloring extended by color $1$, and step 5 breaks.

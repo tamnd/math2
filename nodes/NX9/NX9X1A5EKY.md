@@ -34,7 +34,7 @@ The universal theory $\mathrm{Th}_\forall(\mathcal{K})$ is the set of universal 
 - Example: simple graphs form a universal class, with the axioms $\forall x \, \neg E(x, x)$ and $\forall x \forall y \, (E(x, y) \rightarrow E(y, x))$.
 - Non-example: fields in the signature $\set{+, -, \cdot, 0, 1}$. A universal sentence true in a structure is true in each [[substructure|676H7EGTKJ]], and the subring $\mathbb{Z}$ of the field $\mathbb{Q}$ is not a field.
 - Every universal class is an [[elementary class|MEC3ZMC4F1]]. The [[Łoś-Tarski theorem|9RN0KYXNT1]] shows that an elementary class is universal exactly when it is closed under substructures.
-- The concept page is [[universal class|ZSTEZ3PRT9]], and the characterization by closure properties is [[this theorem|~f72a8819]].
+- The concept page is [[universal class|ZSTEZ3PRT9]], and the characterization by closure properties is [[this theorem|JPGDSW2TAP]].
 
 ## Explanations
 

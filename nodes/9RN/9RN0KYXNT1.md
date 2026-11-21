@@ -32,7 +32,7 @@ Let $T_\forall$ and $T_\exists$ be the sets of universal and of existential sent
 
 Here "closed under substructures" means: if $B \models T$ and $A$ is a substructure of $B$, then $A \models T$.
 "Closed under extensions" means: if $A \models T$ and $A$ is a substructure of $B$, then $B \models T$.
-A proof is in [[the proof of the Łoś-Tarski theorem|~1f796e8b]].
+A proof is in [[the proof of the Łoś-Tarski theorem|TRXB894JMH]].
 
 ## Remarks
 
@@ -68,8 +68,8 @@ The easy direction of each part is the converse: universal sentences pass to sub
 ### Generalizations
 
 - Relative form: a formula $\varphi(\bar x)$ is preserved by substructures between models of $T$ if and only if it is equivalent modulo $T$ to a universal formula.
-- Unions of chains and $\forall\exists$ sentences: the [[Chang-Łoś-Suszko theorem|~99a892b2]].
-- The pattern of [[preservation theorems|~00cd7ceb]] lists the other constructions.
+- Unions of chains and $\forall\exists$ sentences: the [[Chang-Łoś-Suszko theorem|RK7NK2P75J]].
+- The pattern of [[preservation theorems|T69D2NS1HP]] lists the other constructions.
 
 ## History
 
@@ -101,7 +101,7 @@ A trap is to apply the theorem to a class of finite structures; the example abov
 ### L3 human
 
 The proof realizes the diagram of a model of $T_\forall$ inside a model of $T$, by compactness.
-It is the simplest case of the general plan of [[preservation theorems|~00cd7ceb]], which continues with unions of chains, homomorphisms and reduced products.
-The theorem gives an inclusion of [[universal classes|ZSTEZ3PRT9]] among elementary classes, and their characterization by substructures and ultraproducts is [[this theorem|~f72a8819]].
+It is the simplest case of the general plan of [[preservation theorems|T69D2NS1HP]], which continues with unions of chains, homomorphisms and reduced products.
+The theorem gives an inclusion of [[universal classes|ZSTEZ3PRT9]] among elementary classes, and their characterization by substructures and ultraproducts is [[this theorem|JPGDSW2TAP]].
 In the language of categories of models, closure under monomorphisms (embeddings) matches universal axioms.
-In finite model theory the theorem fails, while Rossman's homomorphism preservation theorem survives; see [[Lyndon's theorem|~79a402be]].
+In finite model theory the theorem fails, while Rossman's homomorphism preservation theorem survives; see [[Lyndon's theorem|8DJSRWME2X]].

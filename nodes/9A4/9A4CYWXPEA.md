@@ -19,7 +19,7 @@ sources:
 A *universal Horn sentence* is a sentence $\forall \bar x \, \theta$ in which $\theta$ is a disjunction of [[atomic formulas|MCZRXR3SVB]] and their negations with at most one unnegated atom, that is, a [[Horn clause|QR92EZDTKF]] of first-order atoms.
 A *universal Horn class* is the class of models of a set of universal Horn sentences.
 Every universal Horn class is a [[universal class|ZSTEZ3PRT9]], and it is closed under [[reduced products|F4WRD396PB]], in particular under direct products of nonempty families.
-By [[this theorem|~b2077580]], closure under isomorphisms, [[substructures|676H7EGTKJ]] and reduced products characterizes universal Horn classes.
+By [[this theorem|VCJX55N45K]], closure under isomorphisms, [[substructures|676H7EGTKJ]] and reduced products characterizes universal Horn classes.
 In an algebraic signature, the classes axiomatized by universal Horn sentences that each have an unnegated atom are the [[quasivarieties|WRXEKT4NQS]].
 The formal definition is [[this definition|PGZSNWS5VN]].
 
@@ -46,15 +46,15 @@ The smallest universal Horn class containing $\mathcal{K}$ is $\mathbf{I}\mathbf
 
 ### Examples
 
-- [[Partial orders|~0813f4cc]] are a universal Horn class: reflexivity, antisymmetry and transitivity are strict universal Horn sentences.
-- [[Torsion-free groups|~e7453cc6]] are a universal Horn class, axiomatized by the group laws and $\forall x \, (x^n = e \rightarrow x = e)$ for each $n \ge 1$.
+- [[Partial orders|S4EM1MDMJG]] are a universal Horn class: reflexivity, antisymmetry and transitivity are strict universal Horn sentences.
+- [[Torsion-free groups|WYKXBD3GFE]] are a universal Horn class, axiomatized by the group laws and $\forall x \, (x^n = e \rightarrow x = e)$ for each $n \ge 1$.
 - Every [[variety of algebras|AJNZJD8442]] is a universal Horn class, since identities are strict universal Horn sentences with $n = 0$.
 - [[Strict partial orders|60FNZ35H6R]] are a universal Horn class through the axiom $\forall x \, \neg (x < x)$ and transitivity.
 
 ### Non-examples
 
-- [[Total orders|~308423c2]] form a universal class that is not universal Horn: the square of a $2$-element chain has incomparable elements.
-- Fields are not even a universal class, since $\mathbb{Z}$ is a substructure of $\mathbb{Q}$; see [[this example|~c71294bd]].
+- [[Total orders|GTBBMP1K56]] form a universal class that is not universal Horn: the square of a $2$-element chain has incomparable elements.
+- Fields are not even a universal class, since $\mathbb{Z}$ is a substructure of $\mathbb{Q}$; see [[this example|ZJ4WWQWVG6]].
 - [[Divisible abelian groups|ZXVBEPMTCN]] are closed under reduced products but not under substructures, so they form no universal Horn class.
 
 ### Basic properties
@@ -102,4 +102,4 @@ When the signature has a constant symbol, a strict universal Horn theory has an 
 Its elements are the closed terms modulo the equations that the theory proves, its relations are the atomic facts that the theory proves, and it maps into every other model by a unique homomorphism.
 This is the reason why logic programming and term rewriting use Horn clauses.
 On the semantic side, $\mathbf{I}\mathbf{S}\mathbf{P}_R$ is a closure operator whose closed classes are the universal Horn classes, as $\mathbf{I}\mathbf{S}\mathbf{P}_U$ is for universal classes and $\mathbf{H}\mathbf{S}\mathbf{P}$ is for varieties by [[Birkhoff's theorem|5083DHSK82]].
-The step from universal Horn sentences to arbitrary Horn sentences, with quantifiers in any order, is the subject of [[Horn sentences and reduced products|~a403cb4d]].
+The step from universal Horn sentences to arbitrary Horn sentences, with quantifiers in any order, is the subject of [[Horn sentences and reduced products|1FF2GRE6VX]].

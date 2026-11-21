@@ -54,13 +54,13 @@ The converse of part 1 is the direction "explicit implies implicit", which is im
 ### Generalizations
 
 - The same holds for several new relation symbols at once, and for new function and constant symbols, by treating their graphs as relations.
-- A relation can be implicitly defined "up to finitely many choices"; [[Svenonius's theorem|~8495e2be]] and the [[Chang-Makkai theorem|~09dc0606]] describe what remains of definability then.
-- The [[proof|~dcbe7b50]] from [[Craig interpolation|E2CBFNAVZY]] shows that, in first-order logic, interpolation implies definability.
+- A relation can be implicitly defined "up to finitely many choices"; [[Svenonius's theorem|JNXY3WRYFY]] and the [[Chang-Makkai theorem|MFR9Z5PPH4]] describe what remains of definability then.
+- The [[proof|A91RG9GJFE]] from [[Craig interpolation|E2CBFNAVZY]] shows that, in first-order logic, interpolation implies definability.
 
 ## History
 
 Evert Willem Beth published the theorem in 1953.
-Craig gave a second proof by deriving it from his interpolation theorem, and this is the proof given [[here|~dcbe7b50]].
+Craig gave a second proof by deriving it from his interpolation theorem, and this is the proof given [[here|A91RG9GJFE]].
 The easy direction, used to show non-definability, is named after Alessandro Padoa, of Peano's school.
 
 ## Explanations
@@ -87,4 +87,4 @@ A trap is to look for one structure with two orders that are not isomorphic; Pad
 
 Beth's theorem says that first-order logic has no hidden definitions: whatever a theory determines, it also expresses.
 Its failure on finite structures is one of the classical gaps between finite and infinite model theory, together with the failure of the [[Łoś-Tarski theorem|9RN0KYXNT1]].
-Its semantic refinements, [[Svenonius's theorem|~8495e2be]] and the [[Chang-Makkai theorem|~09dc0606]], replace the comparison of two models by automorphisms or by counting expansions.
+Its semantic refinements, [[Svenonius's theorem|JNXY3WRYFY]] and the [[Chang-Makkai theorem|MFR9Z5PPH4]], replace the comparison of two models by automorphisms or by counting expansions.
