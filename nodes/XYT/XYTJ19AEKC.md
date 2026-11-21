@@ -15,6 +15,7 @@ sources:
 
 ## Example
 
+Three points lie on one line only by luck, and when they do not, least squares picks the best line instead.
 We look for a line $y = c + s t$ through the points $(t, y) = (0, 1)$, $(1, 3)$ and $(2, 5)$.
 Each point gives one linear equation in the two unknowns $c$ and $s$:
 $$c = 1, \qquad c + s = 3, \qquad c + 2s = 5.$$
@@ -23,16 +24,16 @@ This is an [[overdetermined system|QJ0P26J9BV]], with $3$ equations and $2$ unkn
 1. The first equation gives $c = 1$.
 2. The second equation then gives $s = 2$.
 3. The third equation reads $1 + 2 \cdot 2 = 5$, which is true.
-4. So the system is consistent, with the unique solution $(c, s) = (1, 2)$: the line $y = 1 + 2t$.
+4. So the system is consistent, with the unique solution $(c, s) = (1, 2)$, the line $y = 1 + 2t$.
 
 Now change the third point to $(2, 6)$, so the third equation is $c + 2s = 6$.
 
 5. Steps 1 and 2 still give $c = 1$ and $s = 2$, and the third equation reads $5 = 6$, which is false.
 6. So the new system is [[inconsistent|0X6V9B1V10]]: no line passes through all three points.
-7. The [[least squares|0BYTQ4X1HC]] solution solves $A^T A x = A^T b$ with $A = \begin{bmatrix} 1 & 0 \\ 1 & 1 \\ 1 & 2 \end{bmatrix}$ and $b = (1, 3, 6)$.
-8. Here $A^T A = \begin{bmatrix} 3 & 3 \\ 3 & 5 \end{bmatrix}$ and $A^T b = (10, 15)$.
+7. The [[least squares|0BYTQ4X1HC]] solution solves $A^{\mathsf{T}} A x = A^{\mathsf{T}} b$ with $A = \begin{bmatrix} 1 & 0 \\ 1 & 1 \\ 1 & 2 \end{bmatrix}$ and $b = (1, 3, 6)$.
+8. Here $A^{\mathsf{T}} A = \begin{bmatrix} 3 & 3 \\ 3 & 5 \end{bmatrix}$ and $A^{\mathsf{T}} b = (10, 15)$.
 9. The equations $3c + 3s = 10$ and $3c + 5s = 15$ give $2s = 5$, so $s = \tfrac52$ and $c = \tfrac56$.
-10. Check: the residual $b - Ax = (\tfrac16, -\tfrac13, \tfrac16)$, and $A^T$ times it is $(\tfrac16 - \tfrac13 + \tfrac16, -\tfrac13 + \tfrac13) = (0, 0)$.
+10. Check: the residual is $b - Ax = (\tfrac16, -\tfrac13, \tfrac16)$, and $A^{\mathsf{T}}$ times it is $(\tfrac16 - \tfrac13 + \tfrac16, -\tfrac13 + \tfrac13) = (0, 0)$.
 
 ## Remarks
 
@@ -51,8 +52,8 @@ If it does not, we choose the line that is closest to all three points.
 
 1. Write one equation for each data point.
 2. Solve two of them and test the rest.
-3. If a test fails, form the normal equations $A^T A x = A^T b$.
+3. If a test fails, form the normal equations $A^{\mathsf{T}} A x = A^{\mathsf{T}} b$.
 4. Solve them and check that the residual is orthogonal to the columns of $A$.
 
 The typical use is fitting a model with few parameters to many measurements.
-A trap: the least squares solution is not a solution of the original system; it makes the sum of the squared errors smallest.
+Watch out: the least squares solution is not a solution of the original system, but the vector that makes the sum of the squared errors smallest.
