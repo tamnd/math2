@@ -18,17 +18,18 @@ Let $v = (2, -1, 2)$.
 The direction angles $\alpha$, $\beta$ and $\gamma$ are the [[angles|0ZEHZY85E6]] between $v$ and the axis vectors $\mathbf{i}$, $\mathbf{j}$ and $\mathbf{k}$.
 
 1. The [[length|0XKBKGTCPC]] is $\|v\| = \sqrt{4 + 1 + 4} = 3$, and each axis vector has length $1$.
-2. $v \cdot \mathbf{i} = 2$, so $\cos \alpha = \tfrac{2}{3 \cdot 1} = \tfrac{2}{3}$, and $\alpha \approx 48.19^\circ$.
-3. $v \cdot \mathbf{j} = -1$, so $\cos \beta = -\tfrac{1}{3}$, and $\beta \approx 109.47^\circ$.
-4. $v \cdot \mathbf{k} = 2$, so $\cos \gamma = \tfrac{2}{3}$, and $\gamma \approx 48.19^\circ$.
-5. Check: $\cos^2 \alpha + \cos^2 \beta + \cos^2 \gamma = \tfrac{4}{9} + \tfrac{1}{9} + \tfrac{4}{9} = 1$.
+2. The dot product with $\mathbf{i}$ picks out the first component, $v \cdot \mathbf{i} = 2$. So $\cos \alpha = \tfrac{2}{3}$ and $\alpha \approx 48.19^\circ$.
+3. In the same way $v \cdot \mathbf{j} = -1$, so $\cos \beta = -\tfrac{1}{3}$ and $\beta \approx 109.47^\circ$.
+4. Finally $v \cdot \mathbf{k} = 2$, so $\cos \gamma = \tfrac{2}{3}$ and $\gamma \approx 48.19^\circ$.
+5. Check:
+   $$\cos^2 \alpha + \cos^2 \beta + \cos^2 \gamma = \tfrac{4}{9} + \tfrac{1}{9} + \tfrac{4}{9} = 1.$$
 
 ## Remarks
 
-The direction cosines are the components of the unit vector $\tfrac{1}{3}v = (\tfrac{2}{3}, -\tfrac{1}{3}, \tfrac{2}{3})$.
-So the identity in step 5 says that this unit vector has length $1$.
-The same identity holds for every nonzero vector, and it shows that the three direction angles are not independent.
+The direction cosines are the components of the unit vector $\tfrac{1}{3}v = \left(\tfrac{2}{3}, -\tfrac{1}{3}, \tfrac{2}{3}\right)$, so the identity in step 5 says that this unit vector has length $1$.
+The same identity holds for every nonzero vector, which means the three direction angles are not independent: two of them fix the third up to a choice of sign of its cosine.
 The angle $\beta$ is obtuse because the second component of $v$ is negative.
+If you change $v$ to $(2, 1, 2)$, the cosines become $\tfrac{2}{3}, \tfrac{1}{3}, \tfrac{2}{3}$, and $\beta$ becomes $\arccos \tfrac{1}{3} \approx 70.53^\circ$, the supplement of the old $\beta$.
 
 ## Explanations
 
@@ -41,5 +42,5 @@ It makes an obtuse angle with the $y$-axis, because it points to the negative si
 ### L2 human
 
 To get the direction cosines, divide each component by the length.
-Two direction angles do not fix the third: from $\cos^2 \alpha + \cos^2 \beta + \cos^2 \gamma = 1$ we get $\cos \gamma$ only up to its sign.
-A trap: the direction angles are angles with the axes, not with the coordinate planes.
+Two direction angles do not fix the third: from $\cos^2 \alpha + \cos^2 \beta + \cos^2 \gamma = 1$ you get $\cos \gamma$ only up to its sign.
+Watch out: the direction angles are angles with the axes, not with the coordinate planes.
