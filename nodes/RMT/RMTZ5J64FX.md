@@ -62,6 +62,7 @@ For $\aleph_1$-saturation in nonstandard analysis one also says countable satura
 - Two saturated models of the same complete theory and the same size are isomorphic; see [[uniqueness of saturated models|DZ65A6X12W]].
 - A saturated model is [[universal|F30ZVR4AD5]] and [[strongly homogeneous|4NJS7W57VK]].
 - Every structure has a $\kappa^+$-saturated elementary extension, but saturated models need set-theoretic or stability hypotheses; see [[existence of saturated models|GSQ833HAZT]].
+- A complete theory with infinite models in a countable signature has a countable saturated model if and only if it is small; see [[countable saturated models of small theories|7GN6XF590M]].
 
 ### History
 
