@@ -28,7 +28,7 @@ An embedding $f \colon M \to N$ has image $f(M) \subseteq N$, and $f(M)$ is isom
 
 ## Remarks
 
-By [[Robinson's test|~3847820a]], $T$ is model complete if and only if every $L$-formula is equivalent modulo $T$ to an existential formula $\exists \bar{y} \, \chi(\bar{x}, \bar{y})$ with $\chi$ quantifier-free.
+By [[Robinson's test|QHEADWYQ64]], $T$ is model complete if and only if every $L$-formula is equivalent modulo $T$ to an existential formula $\exists \bar{y} \, \chi(\bar{x}, \bar{y})$ with $\chi$ quantifier-free.
 A theory with [[quantifier elimination|7FDDXV3JK7]] is model complete.
 
 Example: the theory of dense linear orders without endpoints is model complete, since it has quantifier elimination.
@@ -40,8 +40,8 @@ Non-example: the theory of dense linear orders with a least and a greatest eleme
 The orders $[0, 1] \cap \Q$ and $[0, 2] \cap \Q$ are models, and the first is a substructure of the second.
 The element $1$ satisfies $\forall y \, (y \le x)$ in $[0, 1] \cap \Q$ but not in $[0, 2] \cap \Q$.
 
-The theory of real closed fields in the signature $\set{+, -, \cdot, 0, 1}$ is model complete but does not have quantifier elimination; see [[this example|~a3bccf2c]].
-The theory of the group $(\Z, +, -, 0)$ is not model complete; see [[this non-example|~4e820942]].
+The theory of real closed fields in the signature $\set{+, -, \cdot, 0, 1}$ is model complete but does not have quantifier elimination; see [[this example|G3GGANFA7C]].
+The theory of the group $(\Z, +, -, 0)$ is not model complete; see [[this non-example|HMXD4AM0Y9]].
 
 ## Explanations
 

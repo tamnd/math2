@@ -23,9 +23,9 @@ same_as:
 ## Summary
 
 A [[theory|92SWXST1ZM]] $T$ is *model complete* when for all [[models|MVCH6N9SNW]] $M$ and $N$ of $T$ with $M$ a [[substructure|676H7EGTKJ]] of $N$, $M$ is an [[elementary substructure|8WZF9SBP39]] of $N$.
-Equivalently, every [[embedding|SCRB74SWQN]] between models of $T$ is [[elementary|CGH8C8EA9N]], and by [[Robinson's test|~3847820a]], every formula is equivalent modulo $T$ to an existential formula.
+Equivalently, every [[embedding|SCRB74SWQN]] between models of $T$ is [[elementary|CGH8C8EA9N]], and by [[Robinson's test|QHEADWYQ64]], every formula is equivalent modulo $T$ to an existential formula.
 The formal page is [[this definition|ERVV6RWNNX]].
-Model completeness is weaker than [[quantifier elimination|7FDDXV3JK7]], and it is the property that the [[model companion|~7269c0e3]] of a theory must have.
+Model completeness is weaker than [[quantifier elimination|7FDDXV3JK7]], and it is the property that the [[model companion|68GG7QKN7C]] of a theory must have.
 
 ## Motivation
 
@@ -39,31 +39,31 @@ The definition uses only embeddings, so it is often easier to check than quantif
 
 Some authors write "model-complete" with a hyphen.
 For an inclusion $M \subseteq N$, the notation $M \preceq N$ means that $M$ is an elementary substructure of $N$.
-The notation $M \preceq_1 N$ means that existential formulas with parameters in $M$ that hold in $N$ already hold in $M$; then $M$ is [[existentially closed|~524465b6]] in $N$.
+The notation $M \preceq_1 N$ means that existential formulas with parameters in $M$ that hold in $N$ already hold in $M$; then $M$ is [[existentially closed|6M98MCW575]] in $N$.
 
 ## Remarks
 
 ### Examples
 
-- Every theory with quantifier elimination is model complete, for example [[dense linear orders without endpoints|~f961c7a6]].
+- Every theory with quantifier elimination is model complete, for example [[dense linear orders without endpoints|E52RM0KX94]].
 - The theory of [[algebraically closed fields|61VW0F3R83]] is model complete in the ring signature.
-- The theory of [[real closed fields in the ring signature|~a3bccf2c]] is model complete, but it has no quantifier elimination in that signature.
+- The theory of [[real closed fields in the ring signature|G3GGANFA7C]] is model complete, but it has no quantifier elimination in that signature.
 - The theory of [[differentially closed fields|KPCN3KHG50]] of characteristic $0$ is model complete in the signature of differential rings.
 - Presburger arithmetic in the signature $\set{0, 1, +, -, <}$ is model complete, since the divisibility predicates have existential definitions.
 
 ### Non-examples
 
-- The theory of [[the additive group of the integers|~4e820942]]: the even integers form a submodel in which $2$ is not divisible by $2$.
+- The theory of [[the additive group of the integers|HMXD4AM0Y9]]: the even integers form a submodel in which $2$ is not divisible by $2$.
 - Dense linear orders with endpoints: $[0, 1] \cap \Q \subseteq [0, 2] \cap \Q$, and $1$ is the greatest element only in the smaller model.
 - The theory of fields: $\Q \subseteq \C$, and $\exists y \, (y \cdot y = 1 + 1)$ holds only in $\C$.
 
 ### Basic properties
 
-- [[Robinson's test|~3847820a]]: $T$ is model complete if and only if $M \preceq_1 N$ for all models $M \subseteq N$, if and only if every formula is equivalent to an existential formula, if and only if every formula is equivalent to a universal formula.
+- [[Robinson's test|QHEADWYQ64]]: $T$ is model complete if and only if $M \preceq_1 N$ for all models $M \subseteq N$, if and only if every formula is equivalent to an existential formula, if and only if every formula is equivalent to a universal formula.
 - If $T$ is model complete and has a model that embeds into every model of $T$, then $T$ is complete. So the real algebraic numbers make the theory of real closed fields complete.
 - More generally, a model complete theory with the joint embedding property is complete: two models embed into a third one, elementarily.
-- The union of a chain of models of a model complete theory is an elementary chain, so it is a model. So a model complete theory is [[inductive|~719ccde0]].
-- A theory has at most one model complete extension with the same universal consequences; this is the [[uniqueness of the model companion|~7269c0e3]].
+- The union of a chain of models of a model complete theory is an elementary chain, so it is a model. So a model complete theory is [[inductive|G8TRE2KSRV]].
+- A theory has at most one model complete extension with the same universal consequences; this is the [[uniqueness of the model companion|68GG7QKN7C]].
 
 ### History
 
@@ -104,9 +104,9 @@ A trap is to test only inclusions between isomorphic models, or only one inclusi
 
 Model completeness is the existential part of quantifier elimination.
 Robinson's test says that it suffices to check that each model is existentially closed in each larger model.
-For a theory $T_0$ and its class of [[existentially closed models|~524465b6]], the question is whether this class is elementary; when it is, its theory is the model companion of $T_0$, and it is model complete.
+For a theory $T_0$ and its class of [[existentially closed models|6M98MCW575]], the question is whether this class is elementary; when it is, its theory is the model companion of $T_0$, and it is model complete.
 This explains the examples: algebraically closed fields for fields, real closed fields for formally real fields, differentially closed fields for differential fields.
 
 The property depends on the signature, like quantifier elimination, but less strongly.
 In geometric terms, model completeness says that the definable sets are projections of quantifier-free definable sets, and that their complements are also such projections.
-In the later theory, a theory with quantifier elimination is the model completion of its universal part, and [[Robinson forcing|~357e6442]] gives a forcing companion for every inductive theory, which equals the model companion when that exists.
+In the later theory, a theory with quantifier elimination is the model completion of its universal part, and [[Robinson forcing|2TYY0ZP7YQ]] gives a forcing companion for every inductive theory, which equals the model companion when that exists.

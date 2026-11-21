@@ -27,13 +27,13 @@ One scheme says that every polynomial of odd degree has a root.
 Then $\mathrm{RCF}$ admits [[quantifier elimination|RE5TFTDP4D]]: for every $\mathcal{L}$-[[formula|HYJ10AF6RT]] $\varphi(x_1, \dots, x_n)$ there is a quantifier-free $\mathcal{L}$-formula $\psi(x_1, \dots, x_n)$ such that
 $$\mathrm{RCF} \vdash \forall x_1 \cdots \forall x_n \, \bigl(\varphi(x_1, \dots, x_n) \leftrightarrow \psi(x_1, \dots, x_n)\bigr).$$
 
-A proof is [[the proof by the embedding test|~b1ff6306]].
+A proof is [[the proof by the embedding test|A9B90X77TX]].
 
 ## Remarks
 
 ### Why each hypothesis is needed
 
-- The symbol $<$. In the language of rings, the set $\set{x \in \R : \exists y \, (x = y^2)} = [0, \infty)$ is definable, but every quantifier-free definable subset of $\R$ in that language is finite or cofinite; see [[this example|~5a627ec0]].
+- The symbol $<$. In the language of rings, the set $\set{x \in \R : \exists y \, (x = y^2)} = [0, \infty)$ is definable, but every quantifier-free definable subset of $\R$ in that language is finite or cofinite; see [[this example|367Y9XDMXG]].
 - Real closedness. In the ordered field $\Q$, the set of squares is defined by $\exists y \, (x = y \cdot y)$. Every interval of positive length among the positive rationals contains squares and non-squares, so this set is not a finite union of points and convex sets. A quantifier-free set in one variable is such a union, since each integer polynomial has finitely many real roots.
 - The odd-degree scheme. The ordered fields in which every positive element is a square do not form a complete theory: $\exists y \, (y^3 = 2)$ holds in $\R$ but fails in the field of real constructible numbers. A theory of ordered fields with quantifier elimination is complete, since quantifier-free sentences compare integers.
 
@@ -41,7 +41,7 @@ A proof is [[the proof by the embedding test|~b1ff6306]].
 
 - $\mathrm{RCF}$ is [[complete|655K8Y7VS8]], so every real closed field satisfies the same first-order sentences as $\R$; and $\mathrm{RCF}$ is decidable.
 - $\mathrm{RCF}$ is model complete; for example [[the real algebraic numbers form an elementary substructure of the real field|D5MSQ48C9Y]].
-- $\mathrm{RCF}$ is the [[model completion of the theory of ordered fields|~4e7545e0]].
+- $\mathrm{RCF}$ is the [[model completion of the theory of ordered fields|PA9E15Q1AY]].
 - The projection of a semialgebraic set is semialgebraic, which is the [[Tarski-Seidenberg theorem|3W5JGDZAN0]].
 - Every definable subset of a real closed field is a finite union of points and open intervals, so $\mathrm{RCF}$ is [[o-minimal|DTWHAW1N0V]].
 
@@ -53,7 +53,7 @@ An ordered field is real closed if and only if every polynomial over it has the 
 ### Generalizations
 
 - Macintyre proved quantifier elimination for the field $\Q_p$ of $p$-adic numbers, in the language of rings with predicates for the $n$-th powers.
-- In the ring signature, $\mathrm{RCF}$ keeps model completeness but loses quantifier elimination; see [[this example|~a3bccf2c]].
+- In the ring signature, $\mathrm{RCF}$ keeps model completeness but loses quantifier elimination; see [[this example|G3GGANFA7C]].
 
 ## History
 
@@ -85,5 +85,5 @@ A trap is to drop the order: in the ring language, "$a$ is a square" has no quan
 Quantifier elimination is the model-theoretic core of real algebraic geometry.
 It shows that the sets definable in $\R$ with $+$, $\cdot$ and $<$ are exactly the semialgebraic sets, and that projections and images under polynomial maps stay in this class.
 The completeness of $\mathrm{RCF}$ transfers results from $\R$ to every real closed field, and gives a short proof of Artin's solution of [[Hilbert's seventeenth problem|J45F4F13VB]].
-The algorithmic forms of the theorem, such as [[cylindrical algebraic decomposition|~00975ede]], make the decision method practical in small dimensions.
-The analogous result for [[algebraically closed fields|~561b0711]] uses only the language of rings.
+The algorithmic forms of the theorem, such as [[cylindrical algebraic decomposition|GE8FCGKPTR]], make the decision method practical in small dimensions.
+The analogous result for [[algebraically closed fields|2NBBJADY5N]] uses only the language of rings.

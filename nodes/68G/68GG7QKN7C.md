@@ -1,0 +1,103 @@
+---
+tag: 68GG7QKN7C
+kind: concept
+name: Model companion
+aliases: [model-companion, model-completion]
+msc: ["03C10", "03C25"]
+topics: [1A9JSC5YG8]
+audience: grad
+uses: [92SWXST1ZM, MVCH6N9SNW, SCRB74SWQN, YR6HCMABTE, 6M98MCW575, XSCSX39GEZ]
+sources:
+  - url: https://en.wikipedia.org/wiki/Model_complete_theory
+    locator: Model companion and model completion
+  - url: https://en.wikipedia.org/wiki/Model_complete_theory
+    locator: Examples
+  - book: isbn:9780521587136
+---
+
+## Summary
+
+Let $T$ be a [[theory|92SWXST1ZM]] in a signature $L$.
+A *model companion* of $T$ is an $L$-theory $T^*$ that is [[model complete|YR6HCMABTE]] and such that every [[model|MVCH6N9SNW]] of $T$ [[embeds|SCRB74SWQN]] into a model of $T^*$ and every model of $T^*$ embeds into a model of $T$.
+It is a *model completion* if in addition $T^* \cup \mathrm{Diag}(M)$ is complete for every model $M$ of $T$; the formal page is [[this definition|WSJ2QN9YTY]].
+The model companion is unique when it exists, and for an inductive $T$ it is the theory of the [[existentially closed models|6M98MCW575]] of $T$, so it describes the "closed" structures of a class.
+
+## Motivation
+
+The theory of fields is not complete and not model complete, but its algebraically closed members are easy to understand.
+Every field lies in an algebraically closed field, and the theory $\mathrm{ACF}$ of these fields is model complete.
+The same pattern appears for ordered fields and real closed fields, for linear orders and dense linear orders, and for differential fields and differentially closed fields.
+A model companion is the general form of this pattern: a model complete theory with the same universal consequences as $T$.
+It turns the study of the e.c. models of $T$ into the study of one first-order theory.
+
+## Notation
+
+One writes $T^*$ for the model companion of $T$.
+Robinson used the term *model completion* first; the weaker *model companion* came later.
+A theory with a model companion is sometimes called *companionable*.
+
+## Remarks
+
+### Examples
+
+- $\mathrm{ACF}$ is the model completion of the theory of fields; see [[this example|2STE7K6ERM]].
+- The theory of real closed ordered fields is the [[model completion of the theory of ordered fields|PA9E15Q1AY]].
+- The theory of real closed fields in the ring signature is a model companion of the theory of formally real fields, but not a model completion.
+- $\mathrm{DLO}$ is the model completion of the theory of linear orders; see [[this example|4C0VH5FDC6]].
+- The theory of an equivalence relation with infinitely many classes, all infinite, is the model completion of the theory of equivalence relations.
+- The theory of [[differentially closed fields|KPCN3KHG50]] of characteristic $0$ is the model completion of the theory of differential fields of characteristic $0$.
+
+### Non-examples
+
+- The theory of groups has [[no model companion|5GS2AE651W]], although it has the amalgamation property.
+- The theory of commutative rings has no model companion.
+- The theory of dense linear orders with endpoints is not a model companion of the theory of linear orders, since it is not model complete.
+
+### Basic properties
+
+- A model companion is [[unique up to equivalence|V9KVDFCXW7]] when it exists.
+- If $T$ is [[inductive|G8TRE2KSRV]], then $T$ has a model companion if and only if the class of e.c. models of $T$ is elementary. Then the model companion is the theory of this class.
+- If $T^*$ is a model companion of $T$ and $T$ is universal, the following are equivalent: $T^*$ is a model completion of $T$; $T$ has the [[amalgamation property|XSCSX39GEZ]]; $T^*$ has quantifier elimination.
+- Every $\aleph_0$-categorical theory has a model companion.
+- If $T$ is model complete, then $T$ is its own model companion.
+
+### History
+
+Abraham Robinson introduced model completions in the 1950s, with $\mathrm{ACF}$ and real closed fields as the first examples.
+The theorem that an inductive theory has a model companion exactly when its e.c. models form an elementary class is due to Eklof and Sabbagh.
+
+### Common errors
+
+- Confusing the model companion with the model completion. Real closed fields in the ring signature are a model companion of formally real fields without being a model completion, since a formally real field can have several orderings.
+- Assuming that a model companion always exists. For groups and commutative rings it does not.
+- Assuming that the model companion has quantifier elimination. The theory of algebraically closed fields with an automorphism is the model companion of the theory of fields with an automorphism, and it does not have quantifier elimination.
+
+## Explanations
+
+### L1 human
+
+Many kinds of structures have special "complete" members, where every equation that could be solved is solved.
+For number systems called fields, these are the algebraically closed fields, like the complex numbers.
+The model companion is the theory that describes these special members.
+For example, the fraction field sits inside the complex numbers, and the complex numbers are again a field.
+
+### L2 human
+
+We check that $\mathrm{RCF}$, in the ring signature, is a model companion of the theory $T$ of formally real fields.
+
+1. A formally real field $K$ has an ordering, and its real closure is a real closed field that contains $K$.
+2. A real closed field is formally real, since $-1$ is not a sum of squares in it.
+3. $\mathrm{RCF}$ is model complete in the ring signature, by [[this example|G3GGANFA7C]].
+4. Take $K = \Q(\sqrt 2)$, with its two orderings. The two real closures give two embeddings that send $\sqrt 2$ to a positive and to a negative element. The sentence "$\sqrt 2$ is a square" is true in one and false in the other, so $\mathrm{RCF} \cup \mathrm{Diag}(K)$ is not complete.
+
+So $\mathrm{RCF}$ is a model companion, not a model completion, of the theory of formally real fields.
+The typical use of a model companion is to transfer questions about e.c. models to one well understood theory.
+A trap is to forget step 4: model completion needs a unique theory over each model of $T$.
+
+### L3 human
+
+Model companions are the model-theoretic form of the passage from a class of structures to its "algebraically closed" members.
+They connect to [[Fraïssé limits|HJVRBDQSGG]]: let $T$ be a universal theory in a finite relational signature whose finite models have the joint embedding and amalgamation properties.
+Then the theory of the Fraïssé limit of the finite models of $T$ is the model completion of $T$.
+Many modern examples come from fields with extra operators: differential fields, difference fields, and fields with several commuting derivations.
+When a theory has no model companion, the e.c. models still exist, and one studies them through [[Robinson forcing|2TYY0ZP7YQ]] and the Kaiser hull.
