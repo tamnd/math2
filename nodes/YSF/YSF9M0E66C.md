@@ -16,20 +16,24 @@ sources:
 
 ## Example
 
-Let $A = \begin{pmatrix} 1 & 2 \\ 2 & 4 \end{pmatrix}$ over $\mathbb{R}$.
-The second row is twice the first row.
+Let $A = \begin{pmatrix} 1 & 2 \\ 2 & 4 \end{pmatrix}$ over $\mathbb{R}$, whose second row is twice the first.
+We show that $A$ has neither a left inverse nor a right inverse, so it is not [[invertible|0TWTS88TWN]].
 
-1. Let $x = (2, -1)^{\mathsf{T}}$. The [[matrix-vector product|0CCQV3884B]] is $Ax = (1 \cdot 2 + 2 \cdot (-1), \; 2 \cdot 2 + 4 \cdot (-1))^{\mathsf{T}} = (0, 0)^{\mathsf{T}}$.
-2. Suppose that some $2 \times 2$ matrix $B$ satisfies $BA = I_2$.
-3. Then $x = I_2 x = (BA)x = B(Ax) = B \cdot 0 = 0$, by [[associativity|073E4XC016]].
-4. This contradicts $x \ne 0$. So $A$ has no left inverse, and $A$ is not [[invertible|0TWTS88TWN]].
-5. Also $A$ has no right inverse: each column of $AB$ has the form $(t, 2t)^{\mathsf{T}}$, so $AB$ cannot equal $I_2$, whose first column is $(1, 0)^{\mathsf{T}}$.
+1. Take $x = (2, -1)^{\mathsf{T}}$. The [[matrix-vector product|0CCQV3884B]] is
+$$Ax = \begin{pmatrix} 1 \cdot 2 + 2 \cdot (-1) \\ 2 \cdot 2 + 4 \cdot (-1) \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix}.$$
+2. Suppose some $2 \times 2$ matrix $B$ satisfies $BA = I_2$.
+3. Then $x = I_2 x = (BA)x = B(Ax) = B0 = 0$, by [[associativity|073E4XC016]].
+4. This contradicts $x \ne 0$, so $A$ has no left inverse.
+5. Each column of a product $AB$ is $A$ times a column of $B$, so it has the form $(t, 2t)^{\mathsf{T}}$. The first column of $I_2$ is $(1, 0)^{\mathsf{T}}$, which is not of this form, so $A$ has no right inverse either.
 
 ## Remarks
 
-The determinant is $1 \cdot 4 - 2 \cdot 2 = 0$, which gives the same conclusion by the [[2 × 2 formula|8XWC7RKNN1]].
-The argument of step 3 is general: a square matrix with a nonzero vector in its null space is singular.
-Row reduction finds the same fact: $R_2 - 2R_1$ gives the row $(0, 0)$, so the reduced row echelon form is not $I_2$.
+The argument of step 3 works for every square matrix: if a nonzero vector goes to $0$, there is no left inverse.
+The [[2 × 2 formula|8XWC7RKNN1]] gives the same verdict, since $ad - bc = 1 \cdot 4 - 2 \cdot 2 = 0$.
+Row reduction sees it too: the step $R_2 \leftarrow R_2 - 2R_1$ makes the second row $(0, 0)$, so the reduced row echelon form is not $I_2$.
+
+Change one entry and the picture changes.
+With $4$ replaced by $5$, the rows $(1, 2)$ and $(2, 5)$ are no longer proportional, $ad - bc = 5 - 4 = 1$, and the matrix is invertible with inverse $\begin{pmatrix} 5 & -2 \\ -2 & 1 \end{pmatrix}$.
 
 ## Explanations
 
@@ -42,5 +46,5 @@ After the squash we cannot tell which point we started from, so no matrix can un
 ### L2 human
 
 The test for singularity is to find one nonzero vector $x$ with $Ax = 0$.
-Here we found it from the proportional rows: $2 \cdot (\text{column } 1) - (\text{column } 2) = 0$.
-A trap: a matrix with no zero entries can still be singular, as this one is.
+Here the proportional rows suggest it, and so do the columns: $2 \cdot (\text{column } 1) - (\text{column } 2) = (2 - 2, 4 - 4) = 0$.
+Watch out: a matrix with no zero entries can still be singular, as this one is.

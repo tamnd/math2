@@ -24,6 +24,7 @@ inventory: [P2E2KV54BD]
 
 ## Definition
 
+This defines when a square matrix has a two-sided inverse.
 Let $R$ be a commutative ring, for example a field, and let $n \ge 1$.
 Let $A$ be an $n \times n$ [[square matrix|0CP7YY6NAG]] over $R$.
 An inverse of $A$ is an $n \times n$ matrix $B$ over $R$ with
@@ -34,16 +35,22 @@ A square matrix that is not invertible is *singular*.
 
 ## Notation
 
-A square matrix has at most one inverse, as the concept page shows.
+A square matrix has at most one inverse, by the [[uniqueness of the inverse|FMCX4D7RD4]].
 So we write $A^{-1}$ for the inverse of an invertible matrix $A$.
 Other names for invertible are *nonsingular* and *regular*.
 
 ## Remarks
 
-The definition asks for two equations, because matrix products do not commute in general.
-For square matrices over a field, each one of the two equations implies the other one; the concept page links the theorem.
+The definition asks for two equations because matrix products do not commute in general, so $AB = I_n$ alone does not say what $BA$ is.
+For square matrices over a field, each of the two equations implies the other, by [[one-sided inverses of square matrices|0753Y2X5K6]].
 A matrix $B$ with only $AB = I$ is a right inverse of $A$, and a matrix $C$ with only $CA = I$ is a left inverse.
-These one-sided notions also make sense for non-square matrices, but a non-square matrix is never called invertible.
+These one-sided notions make sense for non-square matrices too, but a non-square matrix is never called invertible.
+
+The ring $R$ matters.
+The $1 \times 1$ matrix $(2)$ is invertible over $\mathbb{Q}$, with inverse $(\tfrac{1}{2})$, but not over $\mathbb{Z}$, because $\tfrac{1}{2}$ is not an integer.
+The square size matters as well: the condition $n \ge 1$ only rules out the empty matrix, and the sizes of $A$ and $B$ must match so that both products are $n \times n$.
+The [[concept page|0EB9N0S33C]] gives the examples, the rules and the tests for invertibility.
+
 Mathlib defines `Matrix.inv` for every square matrix by $A^{-1} = (\det A)^{-1} \operatorname{adj} A$ when $\det A$ is a unit, and by $A^{-1} = 0$ otherwise.
 So the Mathlib inverse is a total function, and it agrees with the inverse of this definition exactly on the invertible matrices.
 
@@ -57,7 +64,9 @@ For the $1 \times 1$ matrix $(2)$ the inverse is $(\tfrac{1}{2})$, since $2 \cdo
 
 ### L2 human
 
-To check that $B$ is an inverse of $A$, we compute $AB$ and $BA$ and compare each with $I_n$.
-For $A = \begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$ and $B = \begin{pmatrix} 1 & -1 \\ 0 & 1 \end{pmatrix}$ we get $AB = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}$ and $BA = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}$.
-So $A$ is invertible with $A^{-1} = B$.
-A trap: over the ring $\mathbb{Z}$, the matrix $(2)$ is not invertible, because $\tfrac{1}{2}$ is not an integer.
+To check that $B$ is an inverse of $A$, compute $AB$ and $BA$ and compare each with $I_n$.
+Take $A = \begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$ and $B = \begin{pmatrix} 1 & -1 \\ 0 & 1 \end{pmatrix}$.
+Then
+$$AB = \begin{pmatrix} 1 & -1 + 1 \\ 0 & 1 \end{pmatrix} = I_2, \qquad BA = \begin{pmatrix} 1 & 1 - 1 \\ 0 & 1 \end{pmatrix} = I_2,$$
+so $A$ is invertible with $A^{-1} = B$.
+Watch out: checking only one product is enough for square matrices over a field, but not for non-square matrices.

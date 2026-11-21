@@ -19,38 +19,49 @@ sources:
 
 ## Statement
 
-Let $R$ be a commutative ring and let $A$, $B$ and $C$ be $n \times n$ matrices over $R$.
+A left inverse and a right inverse of the same matrix are equal, so a matrix has at most one inverse.
+Let $R$ be a commutative ring and let $A$, $B$ and $C$ be $n \times n$ matrices over $R$, with $I_n$ the [[identity matrix|06DW9BAWB1]].
 
 1. If $CA = I_n$ and $AB = I_n$, then $B = C$.
-2. In particular, a square matrix has at most one [[inverse|0TWTS88TWN]]: if $B$ and $C$ are both inverses of $A$, then $B = C$.
-
-Here $I_n$ is the [[identity matrix|06DW9BAWB1]].
+2. In particular, if $B$ and $C$ are both [[inverses|0TWTS88TWN]] of $A$, then $B = C$.
 
 ## Remarks
 
-### Why each hypothesis is needed
+### Why both sides are needed
 
-Part 1 needs a left inverse and a right inverse of the same matrix.
-Two right inverses can be different: for the $1 \times 2$ matrix $A = (1 \;\; 0)$, both $(1 \;\; 0)^{\mathsf{T}}$ and $(1 \;\; 5)^{\mathsf{T}}$ satisfy $AB = (1)$.
-Part 1 also holds for non-square matrices of matching sizes, with $I_m$ and $I_n$ in place of $I_n$, and the same proof.
-The proof uses only the [[associativity of matrix multiplication|073E4XC016]], so the commutativity of $R$ is not needed.
+Part 1 pairs a left inverse with a right inverse, and that pairing is what forces equality.
+Two right inverses of one matrix can differ.
+For the $1 \times 2$ matrix $A = (1 \;\; 0)$, both columns $B = (1, 0)^{\mathsf{T}}$ and $B' = (1, 5)^{\mathsf{T}}$ give
+$$AB = 1 \cdot 1 + 0 \cdot 0 = 1, \qquad AB' = 1 \cdot 1 + 0 \cdot 5 = 1.$$
+So a matrix can have many right inverses, but once it also has a left inverse, all of them collapse to one.
 
-### Consequences
+The square shape and the commutativity of $R$ are not needed for part 1.
+The proof uses only the [[associativity of matrix multiplication|073E4XC016]] and the identity matrices.
+For an $m \times n$ matrix $A$, two $n \times m$ matrices $C$ and $B$ with $CA = I_n$ and $AB = I_m$ are equal by the same argument.
 
-- The notation $A^{-1}$ is well defined.
-- If $A$ has both a left inverse and a right inverse, then $A$ is invertible, and both are equal to $A^{-1}$.
-- To prove that $B = A^{-1}$, it is enough to show $AB = BA = I_n$. The [[rules for inverses|2ZH4X4Q99D]] and the [[inverse of a product|0S4WTRE9GG]] use this idea.
+### What it gives you
 
-### Converse
+The notation $A^{-1}$ is well defined, because there is only one matrix it can name.
+To prove that a matrix $X$ is the inverse of $A$, it is enough to check $AX = XA = I_n$, and no search for other candidates is needed.
+The [[rules for inverses|2ZH4X4Q99D]] and the [[inverse of a product|0S4WTRE9GG]] work exactly this way.
+A matrix with both a left and a right inverse is invertible, and both one-sided inverses equal $A^{-1}$.
 
-The converse question is whether each matrix with a one-sided inverse is invertible.
+For a worked use, take $A = \begin{pmatrix} 1 & 2 \\ 0 & 1 \end{pmatrix}$ and $C = \begin{pmatrix} 1 & -2 \\ 0 & 1 \end{pmatrix}$.
+Then
+$$CA = \begin{pmatrix} 1 & 2 - 2 \\ 0 & 1 \end{pmatrix} = I_2,$$
+so if $A$ has any inverse $B$, the lemma gives $B = C$.
+
+### The converse
+
+The converse asks whether a one-sided inverse alone makes a matrix invertible.
 For square matrices over a field the answer is yes, by [[one-sided inverses of square matrices|0753Y2X5K6]].
-For non-square matrices the answer is no, by the [[right inverse of a 2 × 3 matrix|540E86V3N9]].
+For non-square matrices the answer is no, as the [[right inverse of a 2 × 3 matrix|540E86V3N9]] shows.
 
 ### Generalizations
 
-The same argument works in each [[monoid|0N6R902FG1]]: a left inverse and a right inverse of one element are equal.
-So the [[inverse element|0ZNZH0EXFX]] in a monoid is unique when it exists.
+The same argument works in any [[monoid|0N6R902FG1]]: if $ca = 1$ and $ab = 1$, then $c = b$.
+So an [[inverse element|0ZNZH0EXFX]] of a monoid is unique when it exists.
+In infinite dimensions a linear map can have a left inverse and no right inverse, as the [[shift operators|MRJ5JPW9HN]] show, and then the left inverse need not be unique.
 
 ## Explanations
 
@@ -58,22 +69,17 @@ So the [[inverse element|0ZNZH0EXFX]] in a monoid is unique when it exists.
 
 A matrix cannot have two different inverses.
 If two matrices both undo $A$, they must be the same matrix.
-The proof is a short chain of equalities with the identity matrix.
+The proof is a short chain of equalities that inserts the identity and moves the brackets.
 
 ### L2 human
 
-Worked example: let $A = \begin{pmatrix} 1 & 2 \\ 0 & 1 \end{pmatrix}$ and suppose that $B$ is an inverse of $A$.
-
-1. The matrix $C = \begin{pmatrix} 1 & -2 \\ 0 & 1 \end{pmatrix}$ satisfies $CA = \begin{pmatrix} 1 & 2 - 2 \\ 0 & 1 \end{pmatrix} = I_2$.
-2. By the lemma, $B = C$.
-3. So we do not need to search for other inverses: the inverse is $C$.
-
-The typical use is in proofs of formulas such as $(AB)^{-1} = B^{-1} A^{-1}$: we check that a candidate is an inverse, and uniqueness does the rest.
-A trap: the lemma says nothing about the existence of an inverse.
+The typical use is in proofs of formulas such as $(AB)^{-1} = B^{-1} A^{-1}$.
+We guess a candidate, check that its products with the matrix are $I_n$, and uniqueness does the rest.
+Watch out: the lemma says nothing about existence.
+It tells you that there is at most one inverse, and you still have to find one, or show that none exists.
 
 ### L3 human
 
-The lemma is the monoid fact $c = c(ab) = (ca)b = b$ for $ca = 1 = ab$.
-It holds in each associative structure with an identity, for example for linear maps of any vector space and for functions of a set.
-In infinite dimensions a linear map can have a left inverse and no right inverse, as the [[shift operators|MRJ5JPW9HN]] show.
-Then the left inverse need not be unique.
+The lemma is the monoid computation $c = c(ab) = (ca)b = b$.
+It holds in every associative structure with an identity, for example for linear maps of any vector space and for functions from a set to itself.
+In a group the lemma is built in, and the [[general linear group|0FCHE902D7]] is the group in which it lives for matrices.
