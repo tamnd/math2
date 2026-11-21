@@ -17,32 +17,31 @@ sources:
 ## Example
 
 Consider the equation $2x + 4y = 1$.
+It has no solution in integers, and yet it is not an inconsistent system.
 
-1. For integers $x, y$, the left side $2(x + 2y)$ is even, and the right side $1$ is odd.
-2. So the equation has no solution in $\mathbb{Z}^2$.
-3. Over the field $\mathbb{Q}$, put $y = 0$; then $x = \tfrac12$.
-4. Check: $2 \cdot \tfrac12 + 0 = 1$.
-5. So as a linear system over $\mathbb{Q}$, the equation is [[consistent|0X6V9B1V10]], not inconsistent.
+1. For integers $x, y$, the left side is $2(x + 2y)$, which is even, and the right side $1$ is odd. So the equation has no solution in $\mathbb{Z}^2$.
+2. Over the field $\mathbb{Q}$, put $y = 0$, and the equation gives $x = \tfrac12$. Check: $2 \cdot \tfrac12 + 4 \cdot 0 = 1$.
+3. So as a linear system over $\mathbb{Q}$, the equation is [[consistent|0X6V9B1V10]].
 
 ## Remarks
 
-Consistency is defined for systems over a field.
-Integer solutions are a different question, about linear Diophantine equations.
-The equation $ax + by = c$ has an integer solution exactly when $\gcd(a, b)$ divides $c$, and here $\gcd(2, 4) = 2$ does not divide $1$.
+Consistency is defined for systems over a field, and $\mathbb{Z}$ is not a field.
+The question of integer solutions belongs to the theory of linear Diophantine equations.
+There the answer is a divisibility test: $ax + by = c$ has an integer solution exactly when $\gcd(a, b)$ divides $c$.
+Here $\gcd(2, 4) = 2$ does not divide $1$.
+If you change the right side to $2$, the test passes, and $(1, 0)$ is an integer solution.
 
 ## Explanations
 
 ### L1 human
 
 If $x$ and $y$ are whole numbers, $2x + 4y$ is always even, so it is never $1$.
-But with fractions we can take $x = \tfrac12$ and $y = 0$.
+With fractions we can take $x = \tfrac12$ and $y = 0$.
 So the answer depends on which numbers we allow.
 
 ### L2 human
 
-To avoid this confusion, always fix the field before you row reduce.
-
-1. Over $\mathbb{Q}$ or $\R$, the row $(2, 4 \mid 1)$ has a pivot in column $1$, so the system is consistent.
-2. Over $\mathbb{Z}$, row reduction does not apply in the same way, because we cannot divide by $2$.
-
-A trap: row reduction over $\mathbb{Q}$ can introduce fractions, so it does not answer questions about integer solutions.
+To avoid this confusion, fix the field before you row reduce.
+Over $\mathbb{Q}$ or $\mathbb{R}$, the row $(2, 4 \mid 1)$ has a pivot in column $1$, and no row has the form $(0, 0 \mid c)$ with $c \ne 0$, so the system is consistent.
+Over $\mathbb{Z}$ we cannot divide by $2$, so row reduction does not apply in the same way.
+Watch out: row reduction over $\mathbb{Q}$ brings in fractions, so it does not answer questions about integer solutions.

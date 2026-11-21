@@ -14,33 +14,29 @@ sources:
 
 ## Example
 
-Consider the single equation $2x = 1$ in one unknown.
+Consider the single equation $2x = 1$ in one unknown, and read it over two fields.
 
-1. Over $\mathbb{Q}$, the coefficient $2$ is nonzero, so $x = \tfrac12$ is a solution.
-2. Check: $2 \cdot \tfrac12 = 1$. So the equation is [[consistent|0X6V9B1V10]] over $\mathbb{Q}$.
-3. Over the [[finite field|0ZXZ82FTX2]] $\mathbb{F}_2 = \set{0, 1}$, we have $2 = 1 + 1 = 0$.
-4. So over $\mathbb{F}_2$ the equation reads $0 \cdot x = 1$.
-5. Both $x = 0$ and $x = 1$ give $0 \ne 1$. So the equation is inconsistent over $\mathbb{F}_2$.
+1. Over $\mathbb{Q}$, the coefficient $2$ is nonzero, so we divide by it and get $x = \tfrac12$. Check: $2 \cdot \tfrac12 = 1$. So the equation is [[consistent|0X6V9B1V10]] over $\mathbb{Q}$.
+2. Over the [[finite field|0ZXZ82FTX2]] $\mathbb{F}_2 = \set{0, 1}$, we have $2 = 1 + 1 = 0$. So the equation reads $0 \cdot x = 1$.
+3. Both elements of $\mathbb{F}_2$ fail: $x = 0$ and $x = 1$ both give $0 \ne 1$. So the equation is inconsistent over $\mathbb{F}_2$.
 
 ## Remarks
 
-The same integer coefficients can give different answers over different fields.
-So "consistent" always refers to a fixed field.
-Over $\mathbb{F}_3$ the equation is consistent again, with solution $x = 2$, since $2 \cdot 2 = 4 = 1$.
+The same integer coefficients can give different answers over different fields, so "consistent" always refers to a fixed field.
+Over $\mathbb{F}_3$ the equation is consistent again, with the solution $x = 2$, because $2 \cdot 2 = 4 = 1$ there.
+In general $2x = 1$ is consistent over $\mathbb{F}_p$ for every odd prime $p$, because then $2 \ne 0$ in $\mathbb{F}_p$.
 
 ## Explanations
 
 ### L1 human
 
-In $\mathbb{F}_2$ we compute with even and odd: $0$ means even and $1$ means odd.
+In $\mathbb{F}_2$ we compute with even and odd: $0$ stands for even and $1$ for odd.
 Two times any whole number is even.
-So $2x$ can never be odd, and $2x = 1$ has no solution there.
+So $2x$ is never odd, and $2x = 1$ has no solution there.
 
 ### L2 human
 
-To test consistency over $\mathbb{F}_p$, reduce all coefficients modulo $p$ first.
-
-1. Here $2 \bmod 2 = 0$ and $1 \bmod 2 = 1$.
-2. The reduced row is $(0 \mid 1)$, which shows inconsistency.
-
-A trap: a pivot over $\mathbb{Q}$ can vanish modulo $p$, so the rank over $\mathbb{F}_p$ can be smaller than over $\mathbb{Q}$.
+To test consistency over $\mathbb{F}_p$, first reduce all coefficients modulo $p$.
+Here $2 \bmod 2 = 0$ and $1 \bmod 2 = 1$, so the reduced row is $(0 \mid 1)$, and that row shows inconsistency.
+Watch out: a pivot over $\mathbb{Q}$ can vanish modulo $p$.
+So the rank of a matrix with integer entries can be smaller over $\mathbb{F}_p$ than over $\mathbb{Q}$, and a consistent system can become inconsistent.
