@@ -6,7 +6,7 @@ msc: ["03C15", "03C52"]
 topics: [ZS8X8KS54R]
 audience: grad
 defines: HJVRBDQSGG
-uses: [983GZBQYT4, 676H7EGTKJ, XSCSX39GEZ, 01TQB88H4C, DSQ17TNW1C, ~41dc9926, ~7468669e]
+uses: [983GZBQYT4, 676H7EGTKJ, XSCSX39GEZ, 01TQB88H4C, DSQ17TNW1C, 5FKW715RGJ, H8VM37SSAX]
 sources:
   - url: https://en.wikipedia.org/wiki/Fraïssé_limit
     locator: Fraïssé's theorem
@@ -26,8 +26,8 @@ Let $\mathcal{K}$ be a class of finitely generated $L$-structures, closed under 
 A *Fraïssé limit* of $\mathcal{K}$ is an $L$-structure $M$ such that:
 
 1. $M$ is [[countable|01TQB88H4C]];
-2. the [[age|~41dc9926]] of $M$ is $\mathcal{K}$;
-3. $M$ is [[ultrahomogeneous|~7468669e]]: every isomorphism between two finitely generated [[substructures|676H7EGTKJ]] of $M$ extends to an [[automorphism|DSQ17TNW1C]] of $M$.
+2. the [[age|5FKW715RGJ]] of $M$ is $\mathcal{K}$;
+3. $M$ is [[ultrahomogeneous|H8VM37SSAX]]: every isomorphism between two finitely generated [[substructures|676H7EGTKJ]] of $M$ extends to an [[automorphism|DSQ17TNW1C]] of $M$.
 
 ## Notation
 
@@ -36,7 +36,7 @@ A class with the hypotheses of Fraïssé's theorem is called a *Fraïssé class*
 
 ## Remarks
 
-[[Fraïssé's theorem|~8123841a]]: suppose $\mathcal{K}$ is nonempty and has countably many isomorphism types.
+[[Fraïssé's theorem|V5CKNFP3HC]]: suppose $\mathcal{K}$ is nonempty and has countably many isomorphism types.
 Suppose it has the hereditary property, the joint embedding property and the [[amalgamation property|XSCSX39GEZ]].
 Then $\mathcal{K}$ has a Fraïssé limit, and any two Fraïssé limits of $\mathcal{K}$ are isomorphic.
 Conversely, the age of a countable ultrahomogeneous structure has these properties.

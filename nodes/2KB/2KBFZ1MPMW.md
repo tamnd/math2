@@ -32,15 +32,15 @@ Example: the class of finite [[graphs|00C0BR7D7H]] has the amalgamation property
 Given $f$ and $g$, take the disjoint union of $B$ and $C$, identify $f(a)$ with $g(a)$ for each $a \in A$, and add no new edges.
 Two vertices of $B$ are adjacent in the result exactly when they are adjacent in $B$, and the same holds for $C$.
 So the inclusions of $B$ and $C$ are embeddings, and they agree on $A$.
-The details are in [[this example|~dade84ce]].
+The details are in [[this example|XM3EG8TN42]].
 
 Non-example: the class of graphs with at most $2$ vertices fails the condition.
 Let $A$ be one vertex $a$, let $B$ be an edge $\set{a, b}$, and let $C$ be two non-adjacent vertices $a, c$.
 In any amalgam $D$, the images of $b$ and $c$ are distinct, since one is adjacent to the image of $a$ and the other is not.
 So $D$ has at least $3$ vertices and is not in the class.
-A less artificial failure, for finite bipartite graphs, is in [[this non-example|~85a0ac66]].
+A less artificial failure, for finite bipartite graphs, is in [[this non-example|7YEX9F1V8D]].
 
-When $A$ may be the empty structure, the amalgamation property implies the [[joint embedding property|~3b0d5f2d]]: any two members of $\mathcal{K}$ embed into a common member.
+When $A$ may be the empty structure, the amalgamation property implies the [[joint embedding property|59FQ5Q2B8R]]: any two members of $\mathcal{K}$ embed into a common member.
 
 ## Explanations
 

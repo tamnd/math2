@@ -6,7 +6,7 @@ aliases: [fraisse-limit, fraisse-class]
 msc: ["03C15", "03C52"]
 topics: [ZS8X8KS54R]
 audience: grad
-uses: [~41dc9926, XSCSX39GEZ, ~3b0d5f2d, ~7468669e, ~8123841a, 01TQB88H4C, 983GZBQYT4, A22K1X8GKD]
+uses: [5FKW715RGJ, XSCSX39GEZ, 59FQ5Q2B8R, H8VM37SSAX, V5CKNFP3HC, 01TQB88H4C, 983GZBQYT4, A22K1X8GKD]
 sources:
   - url: https://en.wikipedia.org/wiki/Fraïssé_limit
     locator: Fraïssé's theorem
@@ -18,9 +18,9 @@ same_as:
 
 ## Summary
 
-A *Fraïssé class* is a nonempty class $\mathcal{K}$ of finitely generated [[structures|983GZBQYT4]], closed under isomorphism, with countably many isomorphism types, the hereditary property, the [[joint embedding property|~3b0d5f2d]] and the [[amalgamation property|XSCSX39GEZ]].
-Its *Fraïssé limit* is the [[countable|01TQB88H4C]] [[ultrahomogeneous|~7468669e]] structure whose [[age|~41dc9926]] is $\mathcal{K}$.
-[[Fraïssé's theorem|~8123841a]] says that the limit exists and is unique up to isomorphism.
+A *Fraïssé class* is a nonempty class $\mathcal{K}$ of finitely generated [[structures|983GZBQYT4]], closed under isomorphism, with countably many isomorphism types, the hereditary property, the [[joint embedding property|59FQ5Q2B8R]] and the [[amalgamation property|XSCSX39GEZ]].
+Its *Fraïssé limit* is the [[countable|01TQB88H4C]] [[ultrahomogeneous|H8VM37SSAX]] structure whose [[age|5FKW715RGJ]] is $\mathcal{K}$.
+[[Fraïssé's theorem|V5CKNFP3HC]] says that the limit exists and is unique up to isomorphism.
 The rational order is the limit of the finite linear orders, and the [[Rado graph|RMXR0FEF54]] is the limit of the finite graphs.
 The limit is the most symmetric countable structure that contains every member of the class and nothing else of finite size.
 
@@ -41,21 +41,21 @@ The formal definition is [[this definition|HJBYFPJEQ1]].
 
 ### Examples
 
-- $(\Q, <)$ is the limit of the finite linear orders; see [[this example|~4627e0e4]].
-- The countable atomless Boolean algebra is the limit of the finite Boolean algebras; see [[this example|~efa643d7]].
-- The algebraic closure of $\mathbb{F}_p$ is the limit of the finite fields of characteristic $p$; see [[this example|~7dcd06ac]].
+- $(\Q, <)$ is the limit of the finite linear orders; see [[this example|86YZAQ1WWC]].
+- The countable atomless Boolean algebra is the limit of the finite Boolean algebras; see [[this example|4GCVG943HX]].
+- The algebraic closure of $\mathbb{F}_p$ is the limit of the finite fields of characteristic $p$; see [[this example|ZE2D07G8XQ]].
 - The Rado graph, and the [[Henson graphs|TZT25G2YB3]] as limits of the finite $K_n$-free graphs.
 - A countably infinite set is the limit of the finite sets in the empty signature.
 
 ### Non-examples
 
-- $(\Z, <)$ has the right age but is not ultrahomogeneous; see [[this non-example|~e359ec59]].
-- The finite bipartite graphs have no Fraïssé limit, since they fail AP; see [[this non-example|~85a0ac66]].
+- $(\Z, <)$ has the right age but is not ultrahomogeneous; see [[this non-example|5JVJ0HJV34]].
+- The finite bipartite graphs have no Fraïssé limit, since they fail AP; see [[this non-example|7YEX9F1V8D]].
 
 ### Basic properties
 
 - The limit is universal for countable structures with age contained in $\mathcal{K}$: each of them embeds into it.
-- In a finite relational signature, the theory of the limit is [[$\aleph_0$-categorical|A22K1X8GKD]] with quantifier elimination; see [[this theorem|~4c6933ec]].
+- In a finite relational signature, the theory of the limit is [[$\aleph_0$-categorical|A22K1X8GKD]] with quantifier elimination; see [[this theorem|ZRWJZK78MD]].
 - The automorphism group of the limit is a closed subgroup of $\operatorname{Sym}(\N)$ that acts transitively on copies of each member of $\mathcal{K}$.
 - If $\mathcal{K}$ has strong amalgamation, the limit has no algebraicity: the pointwise stabilizer of a finite set has no other finite orbits.
 
@@ -96,4 +96,4 @@ A trap is to guess the limit from one or two examples without checking the exten
 
 In a relational signature, the limit is the generic countable structure with age in $\mathcal{K}$: in the Polish space of such structures on $\N$, its isomorphism class is comeager.
 Model-theoretic properties of the limit, such as stability or simplicity, are coded by the combinatorics of $\mathcal{K}$.
-Its automorphism group is studied through the [[Kechris-Pestov-Todorcevic correspondence|~d7362f14]], the [[small index property|~22edb57f]] and the [[extension property for partial automorphisms|~6881f8c3]].
+Its automorphism group is studied through the [[Kechris-Pestov-Todorcevic correspondence|96Q4P7PZVY]], the [[small index property|RZAF6NVEXC]] and the [[extension property for partial automorphisms|TA9KGWV9NM]].

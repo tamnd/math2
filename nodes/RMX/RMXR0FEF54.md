@@ -7,7 +7,7 @@ msc: ["05C63", "03C15"]
 topics: [ZS8X8KS54R]
 audience: grad
 instance_of: [HJVRBDQSGG]
-uses: [00C0BR7D7H, 0F7QKGJS6B, TNT3DG0HRJ, 0MWKJ44V5A, HJVRBDQSGG, ~7468669e, 4S189K88T3, 0EREPBVG2G, 0MCYJ72VGA, 0R46A1XY60, A22K1X8GKD]
+uses: [00C0BR7D7H, 0F7QKGJS6B, TNT3DG0HRJ, 0MWKJ44V5A, HJVRBDQSGG, H8VM37SSAX, 4S189K88T3, 0EREPBVG2G, 0MCYJ72VGA, 0R46A1XY60, A22K1X8GKD]
 sources:
   - url: https://en.wikipedia.org/wiki/Rado_graph
     locator: Constructions
@@ -45,7 +45,7 @@ So these properties determine $R$ up to isomorphism.
 
 ### Properties
 
-- $R$ is [[ultrahomogeneous|~7468669e]]: every isomorphism between finite [[induced subgraphs|0EREPBVG2G]] extends to an automorphism.
+- $R$ is [[ultrahomogeneous|H8VM37SSAX]]: every isomorphism between finite [[induced subgraphs|0EREPBVG2G]] extends to an automorphism.
 - $R$ is a [[universal graph|4S189K88T3]]: every countable graph is an induced subgraph of it.
 - $R$ is isomorphic to its [[complement|0MCYJ72VGA]], since the complement also has the extension property.
 - Removing finitely many vertices, or changing finitely many edges, gives a graph isomorphic to $R$.
@@ -88,5 +88,5 @@ A trap is to read the binary digit of the smaller vertex; the rule always looks 
 ### L3 human
 
 The automorphism group of $R$ is a closed oligomorphic subgroup of $\operatorname{Sym}(\N)$, and Truss proved that it is a simple group.
-It has the [[small index property|~22edb57f]], through [[Hrushovski's extension property|~6881f8c3]] for finite graphs.
-With a generic linear order added, $R$ becomes the limit of a Ramsey class, and the [[Kechris-Pestov-Todorcevic correspondence|~d7362f14]] applies.
+It has the [[small index property|RZAF6NVEXC]], through [[Hrushovski's extension property|TA9KGWV9NM]] for finite graphs.
+With a generic linear order added, $R$ becomes the limit of a Ramsey class, and the [[Kechris-Pestov-Todorcevic correspondence|96Q4P7PZVY]] applies.

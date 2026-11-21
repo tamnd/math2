@@ -6,7 +6,7 @@ aliases: [henson-graph, generic-kn-free-graph, generic-triangle-free-graph]
 msc: ["05C63", "03C15"]
 topics: [ZS8X8KS54R]
 audience: grad
-uses: [00C0BR7D7H, 0BYX1D7C2E, 03WKB2H474, 0EREPBVG2G, HJVRBDQSGG, ~7468669e, XSCSX39GEZ, RMXR0FEF54, A22K1X8GKD]
+uses: [00C0BR7D7H, 0BYX1D7C2E, 03WKB2H474, 0EREPBVG2G, HJVRBDQSGG, H8VM37SSAX, XSCSX39GEZ, RMXR0FEF54, A22K1X8GKD]
 sources:
   - wikipedia: en:49104628@r1280021819
     locator: Henson graph
@@ -23,7 +23,7 @@ inventory: [C1VZ02V7CS]
 
 ## Summary
 
-For $n \ge 3$, the *Henson graph* $G_n$ is the countable [[graph|00C0BR7D7H]] with no [[clique|0BYX1D7C2E]] of size $n$ that is [[ultrahomogeneous|~7468669e]] and contains every finite $K_n$-free graph as an [[induced subgraph|0EREPBVG2G]].
+For $n \ge 3$, the *Henson graph* $G_n$ is the countable [[graph|00C0BR7D7H]] with no [[clique|0BYX1D7C2E]] of size $n$ that is [[ultrahomogeneous|H8VM37SSAX]] and contains every finite $K_n$-free graph as an [[induced subgraph|0EREPBVG2G]].
 It is the [[Fraïssé limit|HJVRBDQSGG]] of the class of finite graphs without a copy of the [[complete graph|03WKB2H474]] $K_n$.
 For instance, $G_3$ is triangle-free and contains every finite triangle-free graph.
 The graphs $G_n$ and their complements are, together with the Rado graph and the disjoint unions of complete graphs, the countably infinite homogeneous graphs.
@@ -46,13 +46,13 @@ For $n = 2$ the same construction gives the countably infinite edgeless graph, w
 
 ### Examples
 
-- $G_3$, the generic triangle-free graph; see [[this example|~b0e1941f]].
-- $G_4$, in which the neighborhood of each vertex is a copy of $G_3$; see [[this example|~e9860de5]].
+- $G_3$, the generic triangle-free graph; see [[this example|AH6BAJW1DA]].
+- $G_4$, in which the neighborhood of each vertex is a copy of $G_3$; see [[this example|6FG5TYXK9C]].
 - The complement of $G_n$ is again ultrahomogeneous, and it is the generic graph with no independent set of size $n$.
 
 ### Non-examples
 
-- $G_3$ with one extra isolated vertex is universal for countable triangle-free graphs, but it is not ultrahomogeneous; see [[this non-example|~2f1eb189]].
+- $G_3$ with one extra isolated vertex is universal for countable triangle-free graphs, but it is not ultrahomogeneous; see [[this non-example|9FZHWYSVJ5]].
 - The Rado graph is not a Henson graph, since it contains every finite clique.
 
 ### Basic properties
