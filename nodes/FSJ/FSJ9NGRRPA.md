@@ -3,10 +3,18 @@ tag: FSJ9NGRRPA
 kind: statement
 role: theorem
 name: Quantifier elimination for real closed fields
-msc: [03C10, 12L12, 12D15]
-uses: [0P3VCBDEE2]
+aliases: [tarski-quantifier-elimination-real-closed-fields, rcf-quantifier-elimination, tarskis-theorem-real-closed-fields]
+msc: ["03C10", "12L12", "12D15"]
+topics: [1A9JSC5YG8]
+audience: grad
+uses: [0P3VCBDEE2, RE5TFTDP4D, 92SWXST1ZM, HYJ10AF6RT]
+about: [7FDDXV3JK7]
 sources:
   - url: https://en.wikipedia.org/wiki/Real_closed_field
+  - url: https://en.wikipedia.org/wiki/Quantifier_elimination
+    locator: Examples
+  - book: isbn:9780387987606
+    locator: Chapter 3
 ---
 
 ## Statement
@@ -16,24 +24,40 @@ Let $\mathrm{RCF}$ be the $\mathcal{L}$-[[theory|92SWXST1ZM]] of [[real closed f
 Its axioms are those of an [[ordered field|0P3VCBDEE2]], together with two more.
 One axiom says that every positive element has a square root.
 One scheme says that every polynomial of odd degree has a root.
-Then $\mathrm{RCF}$ admits [[quantifier elimination|7FDDXV3JK7]]: for every $\mathcal{L}$-formula $\varphi(x_1, \dots, x_n)$ there is a quantifier-free $\mathcal{L}$-formula $\psi(x_1, \dots, x_n)$ such that
+Then $\mathrm{RCF}$ admits [[quantifier elimination|RE5TFTDP4D]]: for every $\mathcal{L}$-[[formula|HYJ10AF6RT]] $\varphi(x_1, \dots, x_n)$ there is a quantifier-free $\mathcal{L}$-formula $\psi(x_1, \dots, x_n)$ such that
 $$\mathrm{RCF} \vdash \forall x_1 \cdots \forall x_n \, \bigl(\varphi(x_1, \dots, x_n) \leftrightarrow \psi(x_1, \dots, x_n)\bigr).$$
+
+A proof is [[the proof by the embedding test|~b1ff6306]].
 
 ## Remarks
 
-The theorem is due to Tarski.
-It suffices to eliminate one existential quantifier in front of a conjunction of polynomial equations and inequalities in one variable $x$.
-Such a conjunction has a solution exactly when certain sign conditions on the coefficients hold.
-These conditions can be computed, for instance with Sturm sequences and the intermediate value property of polynomials over a real closed field.
+### Why each hypothesis is needed
 
-Example: for real closed fields,
-$$\exists x \, (x^2 + b x + c = 0) \quad \leftrightarrow \quad b^2 - 4c > 0 \ \lor \ b^2 - 4c = 0.$$
+- The symbol $<$. In the language of rings, the set $\set{x \in \R : \exists y \, (x = y^2)} = [0, \infty)$ is definable, but every quantifier-free definable subset of $\R$ in that language is finite or cofinite; see [[this example|~5a627ec0]].
+- Real closedness. In the ordered field $\Q$, the set of squares is defined by $\exists y \, (x = y \cdot y)$. Every interval of positive length among the positive rationals contains squares and non-squares, so this set is not a finite union of points and convex sets. A quantifier-free set in one variable is such a union, since each integer polynomial has finitely many real roots.
+- The odd-degree scheme. The ordered fields in which every positive element is a square do not form a complete theory: $\exists y \, (y^3 = 2)$ holds in $\R$ but fails in the field of real constructible numbers. A theory of ordered fields with quantifier elimination is complete, since quantifier-free sentences compare integers.
 
-Consequences: $\mathrm{RCF}$ is [[complete|655K8Y7VS8]], so every real closed field satisfies the same first-order sentences as $\R$; and $\mathrm{RCF}$ is decidable.
-Geometrically, the projection of a semialgebraic set is semialgebraic, which is the [[Tarski–Seidenberg theorem|3W5JGDZAN0]].
+### Consequences
 
-The symbol $<$ is necessary.
-In the language of rings alone, the set $\set{x \in \R : \exists y \, (x = y^2)} = [0, \infty)$ is definable, but every quantifier-free definable subset of $\R$ in that language is finite or cofinite.
+- $\mathrm{RCF}$ is [[complete|655K8Y7VS8]], so every real closed field satisfies the same first-order sentences as $\R$; and $\mathrm{RCF}$ is decidable.
+- $\mathrm{RCF}$ is model complete; for example [[the real algebraic numbers form an elementary substructure of the real field|D5MSQ48C9Y]].
+- $\mathrm{RCF}$ is the [[model completion of the theory of ordered fields|~4e7545e0]].
+- The projection of a semialgebraic set is semialgebraic, which is the [[Tarski-Seidenberg theorem|3W5JGDZAN0]].
+- Every definable subset of a real closed field is a finite union of points and open intervals, so $\mathrm{RCF}$ is [[o-minimal|DTWHAW1N0V]].
+
+### Converse
+
+The theorem characterizes the real closed fields among ordered fields in a weak sense.
+An ordered field is real closed if and only if every polynomial over it has the intermediate value property, and every o-minimal ordered field is real closed.
+
+### Generalizations
+
+- Macintyre proved quantifier elimination for the field $\Q_p$ of $p$-adic numbers, in the language of rings with predicates for the $n$-th powers.
+- In the ring signature, $\mathrm{RCF}$ keeps model completeness but loses quantifier elimination; see [[this example|~a3bccf2c]].
+
+## History
+
+Tarski proved the theorem and gave a decision method for elementary algebra and geometry; it was published in 1948.
 
 ## Explanations
 
@@ -46,9 +70,20 @@ So every such question about the real numbers can, in principle, be decided by a
 
 ### L2 human
 
+We eliminate the quantifier in $\varphi(b, c) = \exists x \, (x^2 + b x + c = 0)$.
+
+1. Complete the square: $x^2 + b x + c = (x + \frac b 2)^2 - \frac{b^2 - 4c}{4}$.
+2. So $\varphi(b, c)$ holds if and only if $\frac{b^2 - 4c}{4}$ is a square.
+3. In a real closed field, an element is a square if and only if it is $\ge 0$, by the square root axiom.
+4. So $\varphi(b, c) \leftrightarrow b^2 - 4c > 0 \lor b^2 - 4c = 0$, modulo $\mathrm{RCF}$.
+
+The typical use is to turn a question about all real closed fields into a sign condition on polynomials in the parameters.
+A trap is to drop the order: in the ring language, "$a$ is a square" has no quantifier-free equivalent.
+
+### L3 human
+
 Quantifier elimination is the model-theoretic core of real algebraic geometry.
 It shows that the sets definable in $\R$ with $+$, $\cdot$ and $<$ are exactly the semialgebraic sets, and that projections and images under polynomial maps stay in this class.
-It gives the completeness of the theory of real closed fields, which transfers results from $\R$ to every real closed field.
-This transfer gives a short modern proof of Artin's solution of [[Hilbert's seventeenth problem|J45F4F13VB]].
-It also shows that the theory of $\R$ is [[o-minimal|DTWHAW1N0V]]: every definable subset of the line is a finite union of points and intervals.
-The analogous result for [[algebraically closed fields|MT8TDVPBXB]] uses only the language of rings.
+The completeness of $\mathrm{RCF}$ transfers results from $\R$ to every real closed field, and gives a short proof of Artin's solution of [[Hilbert's seventeenth problem|J45F4F13VB]].
+The algorithmic forms of the theorem, such as [[cylindrical algebraic decomposition|~00975ede]], make the decision method practical in small dimensions.
+The analogous result for [[algebraically closed fields|~561b0711]] uses only the language of rings.
