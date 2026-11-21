@@ -75,7 +75,7 @@ The answer to the second question is that the definition exists, in a metalangua
 The SEP entry states that Tarski published his analysis of the notion of a true sentence in 1933, in Polish.
 It also states that Tarski called the criterion of material adequacy Convention T.
 His name for the whole approach was the semantic conception of truth.
-In 1956 Tarski and Vaught published a revision of one of the 1933 definitions for model-theoretic languages, per the same entry.
+In 1957 Tarski and Vaught published a revision of one of the 1933 definitions for model-theoretic languages, per the same entry.
 
 ### Common errors
 

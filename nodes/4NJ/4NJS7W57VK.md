@@ -55,7 +55,7 @@ In combinatorics, a homogeneous structure is one in which isomorphisms between f
 - Strongly $\kappa$-homogeneous implies $\kappa$-homogeneous, by restriction of the automorphism.
 - If $\abs{M} = \kappa$, then $\kappa$-homogeneous implies strongly $\kappa$-homogeneous, by the back-and-forth argument of [[uniqueness of saturated models|DZ65A6X12W]] with $\mathcal{N} = \mathcal{M}$.
 - Two countable homogeneous models of the same complete theory that realize the same $n$-types for every $n$ are isomorphic.
-- A countable structure is saturated exactly when it is homogeneous and [[universal|F30ZVR4AD5]].
+- In a countable signature, a countable structure is saturated exactly when it is homogeneous and [[universal|F30ZVR4AD5]].
 - If $\mathcal{M}$ is strongly $\kappa$-homogeneous and $\abs{A} < \kappa$, then the orbits of the automorphisms over $A$ are the sets of realizations of types over $A$; see [[types as orbits|7WH24MZZQ8]].
 
 ### History

@@ -69,7 +69,7 @@ In three-valued semantics, the values are $\mathsf{T}$, $\mathsf{B}$ ("both") an
 ### History
 
 Starting about 1910, Vasil'ev proposed a syllogistic that allows statements of the form "$S$ is both $P$ and not $P$".
-In 1929, Orlov gave the first axiomatization of the relevant logic $R$, which is paraconsistent.
+In 1929, Orlov gave the first axiomatization of the implication–negation fragment of the relevant logic $R$, which is paraconsistent.
 Jaśkowski, a student of Łukasiewicz, was the first formal logician to develop paraconsistent logic.
 Asenjo and da Costa developed paraconsistent logics in their doctoral dissertations of 1954 and 1963.
 Smiley in England in 1959, and Anderson and Belnap in the United States, proposed relevant logics.

@@ -1,0 +1,52 @@
+---
+tag: 57NRC0SCCX
+kind: example
+name: The cylindrical algebraic decomposition of the plane for the circle
+aliases: [cad-of-the-plane-for-the-circle]
+msc: ["14P10", "03C10"]
+topics: [1A9JSC5YG8]
+audience: grad
+instance_of: [GE8FCGKPTR]
+uses: [08J2M1JYAG, BX5WSK8ZCT, 0CCPN09EMJ, FSJ9NGRRPA]
+sources:
+  - url: https://en.wikipedia.org/wiki/Cylindrical_algebraic_decomposition
+---
+
+## Example
+
+Let $f(x, y) = x^2 + y^2 - 1$ over the [[real numbers|08J2M1JYAG]].
+We construct a CAD of $\R^2$ adapted to $\set{f}$.
+
+1. Projection. As a polynomial in $y$, $f$ has leading coefficient $1$ and [[discriminant|0CCPN09EMJ]] $-4(x^2 - 1)$. The number of real roots in $y$ can change only where the discriminant vanishes, at $x = \pm 1$.
+2. Base. The CAD of $\R$ has the cells $(-\infty, -1)$, $\set{-1}$, $(-1, 1)$, $\set{1}$, $(1, \infty)$.
+3. Over $(-1, 1)$: $f(x, y) = 0$ has the two roots $\xi_1(x) = -\sqrt{1 - x^2} < \xi_2(x) = \sqrt{1 - x^2}$, continuous on the cell. The stack has five cells: two arcs and three bands, with signs $+, 0, -, 0, +$ from bottom to top.
+4. Over $x = -1$ and $x = 1$: the only root is $y = 0$. Each stack has three cells: a point and two vertical half-lines, with signs $+, 0, +$.
+5. Over $(-\infty, -1)$ and $(1, \infty)$: $f(x, y) \ge x^2 - 1 > 0$, so there is no root. Each stack is one cell, an open half-plane, with sign $+$.
+6. In total $5 + 3 + 3 + 1 + 1 = 13$ cells. Each is the graph of a continuous function over a cell or a band between such graphs, so this is a CAD, and $f$ has constant sign on each cell.
+
+## Remarks
+
+The example shows the three phases of Collins's algorithm: projection to fewer variables, a decomposition of the line, and lifting by roots over each cell.
+It also shows why the projection is needed: the number of roots in $y$ jumps at $x = \pm 1$, and these points must be cells of the base.
+
+When the polynomial changes, the decomposition changes.
+For $g = x^2 + y^2 + 1$ the discriminant $-4(x^2 + 1)$ has no real root, $g$ has no real zero, and the CAD of $\R^2$ adapted to $g$ is the single cell $\R^2$.
+
+## Explanations
+
+### L1 human
+
+To cut the plane along the unit circle into simple pieces, we first cut the $x$-axis at $-1$ and $1$, where the vertical lines touch the circle.
+Above each piece of the axis, we cut the vertical strip at the points of the circle.
+This gives thirteen pieces: arcs, bands, points, half-lines and two outer strips.
+
+### L2 human
+
+We use the CAD to decide $\exists x \, \exists y \, (f(x, y) = 0 \land x > 0 \land y > 0)$.
+
+1. The cells where $f = 0$ are the two arcs over $(-1, 1)$ and the points $(\pm 1, 0)$.
+2. On the upper arc over $(-1, 1)$, take the sample point $x = \frac 3 5$, $y = \frac 4 5$. Then $x^2 + y^2 = \frac{9 + 16}{25} = 1$.
+3. This sample point has $x > 0$ and $y > 0$. The cell condition is met, so the sentence is true.
+
+The typical use is to eliminate several quantifiers by walking down the stacks.
+A trap is that $x > 0$ is not one of the polynomials of the CAD, so strictly one must refine the CAD with $x$ and $y$; here the sample point already decides it.

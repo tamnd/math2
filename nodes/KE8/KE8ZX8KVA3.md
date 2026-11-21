@@ -79,7 +79,7 @@ The last column gives the strength as reported in the SEP entry.
 1. $\mathsf{TB}$ does not prove that every sentence or its negation is true, as the SEP entry reports from Tarski. Its axioms are instances and do not prove generalizations.
 2. The compositional axioms imply each typed T-sentence, by induction on the build-up of the sentence in the metatheory.
 3. A theory with induction for $\mathcal{L}_T$ and the compositional axioms proves the global reflection principle for $\mathsf{PA}$. So it is not conservative over $\mathsf{PA}$, by [[Gödel's second incompleteness theorem|4PZM5GJTR5]].
-4. Over $\mathsf{PA}$, the type-free axioms $\forall A\,(T[TA] \leftrightarrow TA)$ and $\forall A\,(T[\neg A] \leftrightarrow \neg TA)$ are jointly inconsistent. $\mathsf{FS}$ keeps the second and $\mathsf{KF}$ keeps the first.
+4. Over $\mathsf{PA}$ with the compositional axioms for the atomic sentences, the connectives and the quantifiers, the type-free axioms $\forall A\,(T[TA] \leftrightarrow TA)$ and $\forall A\,(T[\neg A] \leftrightarrow \neg TA)$ are jointly inconsistent. $\mathsf{FS}$ keeps the second and $\mathsf{KF}$ keeps the first.
 5. Every theory in the table except $\mathsf{FS}$ has a standard model. $\mathsf{FS}$ is $\omega$-inconsistent, by [[McGee's theorem|GQW8RQVZJ4]].
 
 ### History

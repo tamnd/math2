@@ -51,7 +51,7 @@ The definition must be checked in each source.
 ### Basic properties
 
 - A $\kappa$-universal structure realizes every type over $\emptyset$ that is realized in some model of its theory of size less than $\kappa$.
-- A countable structure is saturated exactly when it is homogeneous and universal; the proof is in the [[definition|J6ZSWZ0CC1]].
+- In a countable signature, a countable structure is saturated exactly when it is homogeneous and universal; the proof is in the [[definition|J6ZSWZ0CC1]].
 - So a countable complete theory with a countable universal model has only countably many types over $\emptyset$ in each number of variables, since a countable model realizes only countably many types.
 - If $\mathcal{M}$ is $\kappa$-universal and $\mathcal{M} \preceq \mathcal{M}'$, then $\mathcal{M}'$ is $\kappa$-universal, since elementary embeddings compose.
 

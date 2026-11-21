@@ -42,7 +42,7 @@ The proofs are in [[proof of the existence of saturated models|9M392ZWY9Z]].
 
 ### Consequences
 
-- Under the generalized continuum hypothesis, $\kappa^{<\kappa} = \kappa$ for every regular uncountable $\kappa$, so every complete $T$ with infinite models has a saturated model in each regular $\kappa > \abs{L}$.
+- Under the generalized continuum hypothesis, $\kappa^{<\kappa} = \kappa$ for every regular uncountable $\kappa$, so every complete $T$ with infinite models has a saturated model in each regular uncountable $\kappa > \abs{L}$.
 - If $\kappa$ is an [[inaccessible cardinal|NW4DREQ5DQ]] with $\abs{L} < \kappa$, then $\kappa^{<\kappa} = \kappa$, and $T$ has a saturated model of size $\kappa$; this is one way to build a [[monster model|EYTTQZ0E1S]].
 - An $\omega$-stable countable theory is stable in every infinite $\lambda$, so it has a saturated model in every infinite regular cardinal, with no assumption on cardinal arithmetic.
 
