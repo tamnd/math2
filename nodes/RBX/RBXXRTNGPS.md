@@ -16,7 +16,8 @@ sources:
 
 ## Example
 
-Let $A = \begin{bmatrix} 1 & 2 \\ 2 & 4 \end{bmatrix}$ over $\R$.
+The same reduction that computes an inverse also detects when there is none: a zero row appears on the left.
+Let $A = \begin{bmatrix} 1 & 2 \\ 2 & 4 \end{bmatrix}$ over $\mathbb{R}$.
 We try to invert it by [[Gauss-Jordan elimination|098D6FQN3N]] on $[A \mid I]$.
 
 1. The start is $\left[\begin{array}{rr|rr} 1 & 2 & 1 & 0 \\ 2 & 4 & 0 & 1 \end{array}\right]$.
@@ -27,7 +28,7 @@ We try to invert it by [[Gauss-Jordan elimination|098D6FQN3N]] on $[A \mid I]$.
 
 ## Remarks
 
-The row $(0, 0 \mid -2, 1)$ says that $-2 \cdot (\text{row } 1) + (\text{row } 2) = 0$ for the rows of $A$.
+The row $(0, 0 \mid -2, 1)$ records that $-2 \cdot (\text{row } 1) + (\text{row } 2) = 0$ for the rows of $A$.
 The system $Ax = e_1$ has no solution, because its reduced augmented matrix has the row $(0, 0 \mid -2)$.
 
 ## Explanations
@@ -45,5 +46,4 @@ So $A$ has no inverse.
 3. The matrix is not invertible.
 4. Confirm with a nonzero vector $x$ with $Ax = 0$.
 
-The typical use is to test invertibility and to compute the inverse in one process.
-A trap: the right block is not zero in that row, so the zero row is easy to miss if we look only at the whole row.
+Watch out: the right block of that row is not zero, so look at the left block alone when you search for a zero row.

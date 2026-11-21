@@ -14,9 +14,10 @@ sources:
 
 ## Example
 
-Let $L = \begin{bmatrix} 1 & 0 & 0 \\ 2 & 1 & 0 \\ -1 & 3 & 1 \end{bmatrix}$ and $b = (2, 7, 9)$ over $\R$.
+A lower triangular system is solved the same way as an upper one, but from the top down.
+Let $L = \begin{bmatrix} 1 & 0 & 0 \\ 2 & 1 & 0 \\ -1 & 3 & 1 \end{bmatrix}$ and $b = (2, 7, 9)$ over $\mathbb{R}$.
 The matrix $L$ is [[lower triangular|00J3KZP8Y0]] with $1$s on the diagonal.
-We solve $Ly = b$ by forward substitution, from the top down.
+We solve $Ly = b$ by forward substitution.
 
 1. Row 1 reads $y_1 = 2$.
 2. Row 2 reads $2y_1 + y_2 = 7$, so $y_2 = 7 - 4 = 3$.
@@ -29,7 +30,7 @@ So $y = (2, 3, 2)$.
 
 Forward substitution is the mirror image of [[back substitution|0ATFVE08MW]].
 In an LU solve, this step finds $y$ with $Ly = b$, and back substitution then finds $x$ with $Ux = y$.
-Here the diagonal entries are $1$, so no divisions are needed.
+Here the diagonal entries are $1$, so no divisions are needed, which is why LU programs usually store $L$ with a unit diagonal.
 
 ## Explanations
 
@@ -45,5 +46,4 @@ Each equation below it then has only one new unknown.
 3. Put both values into the third row and solve for $y_3$.
 4. Check all three equations.
 
-The typical use is the first of the two triangular solves after an LU decomposition.
-A trap: starting from the bottom row, where all three unknowns appear.
+Watch out: starting from the bottom row does not work, since all three unknowns appear there.

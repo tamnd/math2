@@ -20,6 +20,7 @@ sources:
 
 ## Statement
 
+Row reduction always succeeds: every matrix over a field can be brought to echelon form, and further to reduced echelon form.
 Let $F$ be a [[field|04C5ZBG1WT]] and let $A$ be an $m \times n$ matrix over $F$.
 
 1. $A$ is [[row equivalent|006BHFWMAP]] to a matrix in [[row echelon form|0VYCDGMJJJ]].
@@ -29,21 +30,39 @@ The proof is an algorithm: [[Gaussian elimination|0JVJ2WCXZH]] gives part 1, and
 
 ## Remarks
 
-### Why each hypothesis is needed
+### The algorithm on one matrix
 
-1. $F$ must be a field, so that we can divide by a nonzero entry. Over $\mathbb{Z}$, the matrix $\begin{bmatrix} 2 & 1 \end{bmatrix}$ cannot be scaled to have leading entry $1$ by an invertible row operation, since only $\pm 1$ are units.
-2. The proof is an induction on the number $m$ of rows, so it needs $m$ and $n$ finite; for matrices with infinitely many rows the induction does not apply.
+Take $A = \begin{bmatrix} 0 & 2 & 4 \\ 1 & 1 & 1 \\ 2 & 4 & 6 \end{bmatrix}$.
+The top-left entry is $0$, so first swap $R_1 \leftrightarrow R_2$, which gives the rows $(1, 1, 1)$, $(0, 2, 4)$, $(2, 4, 6)$.
+Then $R_3 \leftarrow R_3 - 2R_1$ makes row 3 equal to $(0, 2, 4)$, and $R_3 \leftarrow R_3 - R_2$ makes it $(0, 0, 0)$.
+The matrix is now in row echelon form.
+For the reduced form, $R_2 \leftarrow \tfrac12 R_2$ gives $(0, 1, 2)$, and $R_1 \leftarrow R_1 - R_2$ gives $(1, 0, -1)$.
+So the RREF is
+$$\begin{bmatrix} 1 & 0 & -1 \\ 0 & 1 & 2 \\ 0 & 0 & 0 \end{bmatrix}.$$
 
-### Consequences
+### Why the scalars must form a field
 
-1. Every [[system of linear equations|0GT4WWGWH2]] is equivalent to a system in RREF, from which the solutions can be read, see [[the lemma on systems in RREF|P3HMRQN5KT]].
-2. Together with the [[uniqueness theorem|BF9SMZMJZE]], every matrix has exactly one RREF, so the RREF is a canonical form for row equivalence.
-3. Every square matrix is row equivalent to an upper triangular matrix.
+The algorithm divides by nonzero entries.
+Over $\mathbb{Z}$, the $1 \times 2$ matrix $\begin{bmatrix} 2 & 1 \end{bmatrix}$ cannot be given a leading entry $1$ by an invertible row operation, since the only invertible scalars are $\pm 1$.
+So part 2 fails over $\mathbb{Z}$ if row operations must stay inside the integers.
 
-### Converse
+### What follows
 
-There is no interesting converse: a matrix in echelon form is row equivalent to itself, by the empty sequence of operations.
-The real question is uniqueness, which fails for row echelon forms, see [[two echelon forms|19FNDHJ181]], and holds for the reduced form.
+Every [[system of linear equations|0GT4WWGWH2]] is equivalent to a system in RREF, from which the solutions can be read, by the [[lemma on systems in RREF|P3HMRQN5KT]].
+Together with the [[uniqueness theorem|BF9SMZMJZE]], every matrix has exactly one RREF, so the RREF is a canonical form for row equivalence.
+Every square matrix is row equivalent to an upper triangular matrix, since a square matrix in echelon form is upper triangular.
+
+### Existence is the easy half
+
+A matrix already in echelon form is row equivalent to itself, by the empty sequence, so there is no interesting converse.
+The real question is uniqueness.
+It fails for row echelon forms, as [[two echelon forms|19FNDHJ181]] shows, and it holds for the reduced form.
+
+### Watch out
+
+The swap in the example is needed only because the top-left entry is $0$, which cannot serve as a pivot.
+Some other row operation that puts a nonzero entry there, such as $R_1 \leftarrow R_1 + R_2$, would also work.
+What never works is dividing by the $0$.
 
 ## History
 
@@ -62,21 +81,14 @@ This always works, and it always stops after a finite number of moves.
 
 ### L2 human
 
-We reduce $A = \begin{bmatrix} 0 & 2 & 4 \\ 1 & 1 & 1 \\ 2 & 4 & 6 \end{bmatrix}$.
-
-1. Column 1 has a nonzero entry in row 2, so swap $R_1 \leftrightarrow R_2$: rows $(1, 1, 1)$, $(0, 2, 4)$, $(2, 4, 6)$.
-2. $R_3 \leftarrow R_3 - 2R_1$ gives $(0, 2, 4)$.
-3. $R_3 \leftarrow R_3 - R_2$ gives $(0, 0, 0)$. The matrix is in row echelon form.
-4. $R_2 \leftarrow \tfrac12 R_2$ gives $(0, 1, 2)$.
-5. $R_1 \leftarrow R_1 - R_2$ gives $(1, 0, -1)$.
-6. The RREF is $\begin{bmatrix} 1 & 0 & -1 \\ 0 & 1 & 2 \\ 0 & 0 & 0 \end{bmatrix}$.
-
 The typical use is the first step of every computation with a matrix: rank, null space, inverse, solutions.
-A trap: the swap in step 1 is needed because the top-left entry is $0$; elimination without row swaps fails on this matrix.
+Each of these is read off the RREF, and the theorem guarantees that the RREF exists.
+In practice you follow the steps of the example: find a pivot, clear below it, move one row down, and repeat.
 
 ### L3 human
 
 Part 1 is the existence half of the statement that the orbits of $\mathrm{GL}_m(F)$ on $m \times n$ matrices have canonical representatives.
 Combined with uniqueness, it shows that the orbits are classified by the RREF, and thus by the row space.
 Over a Euclidean domain, the same induction with division with remainder in place of division gives the Hermite normal form.
-In matrix terms, part 1 gives $PA = U$ with $P$ invertible and $U$ upper triangular; organizing the row swaps first gives the factorization $PA = LU$ with a permutation $P$, see [[LU decomposition|0RKG5YW66Y]].
+In matrix terms, part 1 gives $PA = U$ with $P$ invertible and $U$ in echelon form.
+Organizing the row swaps first gives the factorization $PA = LU$ with a permutation matrix $P$, as the page on [[LU decomposition|0RKG5YW66Y]] explains.

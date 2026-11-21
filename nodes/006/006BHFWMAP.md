@@ -20,54 +20,65 @@ same_as:
 
 ## Summary
 
-Let $F$ be a field and let $A$ and $B$ be $m \times n$ matrices over $F$.
-The matrix $A$ is row equivalent to $B$ when a finite sequence of [[elementary row operations|04XWH28452]] changes $A$ into $B$.
-The exact definition is in [[the definition node|095DDGZF16]].
-Row equivalence is an equivalence relation, and row equivalent matrices have the same row space and the same null space, see [[the theorem|E4GKK727ZM]].
-It matters because two systems with row equivalent augmented matrices have the same solutions, so row reduction may replace a system by a simpler one.
+Two matrices are row equivalent when row operations turn one into the other.
+For $m \times n$ [[matrices|0VD9ZSWWJG]] $A$ and $B$ over a field, $A$ is row equivalent to $B$ when a finite sequence of [[elementary row operations|04XWH28452]] changes $A$ into $B$.
+Row equivalence is an equivalence relation, and row equivalent matrices have the same row space and the same null space, by the [[theorem on row equivalence|E4GKK727ZM]].
+This is what makes elimination work: a system may be replaced by a simpler row equivalent one with the same solutions.
+The [[formal definition|095DDGZF16]] is short.
 
 ## Motivation
 
-Elimination changes a system step by step until we can read off the solutions.
-We need a name for "reachable by such steps", and we need to know what stays the same along the way.
-Row equivalence is that name, and the theorem on it lists what stays the same: the solution set, the row space, the null space and the rank.
+Elimination changes a system step by step until the solutions can be read off.
+We need a word for "reachable by such steps", and we need to know what stays the same along the way.
+Row equivalence is that word.
+
+The answer to the second question is a list of invariants.
+The solution set, the row space, the null space and the rank all survive every step.
+So any question about these can be asked of the simplest matrix in the class, the reduced row echelon form, instead of the original one.
 
 ## Notation
 
 Common notations are $A \sim B$, $A \sim_R B$ and $A \xrightarrow{\text{row}} B$.
-Lay writes $A \sim B$ in examples of row reduction.
+Lay's textbook writes $\sim$ between the stages of a row reduction.
 
 ## Remarks
 
-### Examples
+### A system and its solved form
 
-1. $\begin{bmatrix} 1 & 2 & 3 \\ 2 & 4 & 7 \end{bmatrix}$ and $\begin{bmatrix} 1 & 2 & 0 \\ 1 & 2 & 1 \end{bmatrix}$ are row equivalent, since both reduce to the same RREF, see [[the test example|13RPZZFD43]].
-2. Every invertible $n \times n$ matrix is row equivalent to $I_n$.
-3. The augmented matrix $\left[\begin{array}{cc|c} 1 & 1 & 3 \\ 1 & -1 & 1 \end{array}\right]$ is row equivalent to $\left[\begin{array}{cc|c} 1 & 0 & 2 \\ 0 & 1 & 1 \end{array}\right]$, and the reverse sequence is in [[the reversing example|HASTW7ARPD]].
-4. Any matrix is row equivalent to the same matrix with two rows swapped.
+The augmented matrix $\left[\begin{array}{cc|c} 1 & 1 & 3 \\ 1 & -1 & 1 \end{array}\right]$ of $x + y = 3$, $x - y = 1$ is row equivalent to $\left[\begin{array}{cc|c} 1 & 0 & 2 \\ 0 & 1 & 1 \end{array}\right]$.
+The second matrix is the system $x = 2$, $y = 1$, so both systems have the single solution $(2, 1)$.
+[[The reversing example|HASTW7ARPD]] goes from the first matrix to the second and back again.
 
-### Non-examples
+### Testing with the RREF
 
-1. $\begin{bmatrix} 1 & 0 \\ 0 & 0 \end{bmatrix}$ and $\begin{bmatrix} 0 & 1 \\ 0 & 0 \end{bmatrix}$ have the same column space, but they are not row equivalent, see [[the non-example|A6P6MMDQBF]].
-2. $\begin{bmatrix} 1 & 2 & 3 \\ 2 & 4 & 7 \end{bmatrix}$ and $\begin{bmatrix} 1 & 2 & 3 \\ 2 & 4 & 6 \end{bmatrix}$ are not row equivalent, since their ranks are $2$ and $1$.
-3. Matrices of different sizes are never row equivalent.
+Every matrix is row equivalent to exactly one matrix in [[reduced row echelon form|0WF5AQYTW6]], by the [[existence theorem|FCM29NQ6DN]] and the [[uniqueness theorem|BF9SMZMJZE]].
+So $A \sim B$ exactly when $A$ and $B$ have the same RREF.
+For instance, $\begin{bmatrix} 1 & 2 & 3 \\ 2 & 4 & 7 \end{bmatrix}$ and $\begin{bmatrix} 1 & 2 & 0 \\ 1 & 2 & 1 \end{bmatrix}$ both reduce to $\begin{bmatrix} 1 & 2 & 0 \\ 0 & 0 & 1 \end{bmatrix}$, as [[the test example|13RPZZFD43]] shows.
+In particular, every invertible $n \times n$ matrix is row equivalent to $I_n$.
 
-### Basic properties
+### Row equivalence as a matrix product
 
-1. Row equivalence is reflexive, symmetric and transitive, see [[the theorem|E4GKK727ZM]].
-2. $A \sim B$ implies $B = PA$ for an invertible matrix $P$; over a field the converse also holds, since every invertible matrix is a product of [[elementary matrices|01REXW3WWE]].
-3. Row equivalent matrices have the same row space and the same null space, see [[the theorem|E4GKK727ZM]].
-4. Every matrix is row equivalent to exactly one matrix in [[reduced row echelon form|0WF5AQYTW6]], see [[the existence theorem|FCM29NQ6DN]] and [[the uniqueness theorem|BF9SMZMJZE]].
-5. So $A \sim B$ if and only if $A$ and $B$ have the same RREF.
+A sequence of row operations is left multiplication by a product of [[elementary matrices|01REXW3WWE]].
+So $A \sim B$ implies $B = PA$ for an invertible matrix $P$.
+Over a field the converse holds too, since every invertible matrix is a product of elementary matrices.
 
-### History
+### What it does not keep
 
-Row equivalence as a named relation became standard in the textbooks of the 20th century; Hoffman and Kunze treat it in Chapter 1.
+Row operations can change the column space.
+The matrices $\begin{bmatrix} 1 & 0 \\ 0 & 0 \end{bmatrix}$ and $\begin{bmatrix} 0 & 1 \\ 0 & 0 \end{bmatrix}$ have the same column space but are not row equivalent, as [[the non-example|A6P6MMDQBF]] shows.
+The matrices $\begin{bmatrix} 1 & 2 & 3 \\ 2 & 4 & 7 \end{bmatrix}$ and $\begin{bmatrix} 1 & 2 & 3 \\ 2 & 4 & 6 \end{bmatrix}$ are not row equivalent either, since their ranks are $2$ and $1$.
+Matrices of different sizes are never row equivalent.
 
-### Common errors
+### Watch out
 
-1. Thinking that row equivalent matrices have the same column space.
-2. Thinking that row equivalent matrices are equal "up to scaling of rows"; row additions change rows in other ways.
+Row equivalent matrices need not be equal up to scaling of rows, since row additions change rows in other ways.
+And two different echelon forms do not prove that matrices are not row equivalent, because echelon forms are not unique.
+Only the reduced forms can be compared.
+
+### Try it
+
+Are $\begin{bmatrix} 1 & 3 \\ 2 & 7 \end{bmatrix}$ and $I_2$ row equivalent?
+Yes: $R_2 \leftarrow R_2 - 2R_1$ gives the rows $(1, 3)$ and $(0, 1)$, and $R_1 \leftarrow R_1 - 3R_2$ gives $I_2$.
 
 ## Explanations
 
@@ -82,18 +93,15 @@ For example, the system $x + y = 3$, $x - y = 1$ is row equivalent to the system
 
 We test whether $A = \begin{bmatrix} 1 & 2 \\ 3 & 6 \end{bmatrix}$ and $B = \begin{bmatrix} 2 & 4 \\ 1 & 2 \end{bmatrix}$ are row equivalent.
 
-1. For $A$: $R_2 \leftarrow R_2 - 3R_1$ gives $\begin{bmatrix} 1 & 2 \\ 0 & 0 \end{bmatrix}$.
-2. For $B$: $R_1 \leftrightarrow R_2$ gives $\begin{bmatrix} 1 & 2 \\ 2 & 4 \end{bmatrix}$, then $R_2 \leftarrow R_2 - 2R_1$ gives $\begin{bmatrix} 1 & 2 \\ 0 & 0 \end{bmatrix}$.
+1. For $A$, the step $R_2 \leftarrow R_2 - 3R_1$ gives $\begin{bmatrix} 1 & 2 \\ 0 & 0 \end{bmatrix}$.
+2. For $B$, the swap $R_1 \leftrightarrow R_2$ gives $\begin{bmatrix} 1 & 2 \\ 2 & 4 \end{bmatrix}$, and then $R_2 \leftarrow R_2 - 2R_1$ gives $\begin{bmatrix} 1 & 2 \\ 0 & 0 \end{bmatrix}$.
 3. The RREFs agree, so $A \sim B$.
-4. A sequence from $A$ to $B$: reduce $A$, then undo the steps for $B$ in reverse order: $R_2 \leftarrow R_2 + 2R_1$, then $R_1 \leftrightarrow R_2$.
+4. For a sequence from $A$ to $B$, reduce $A$, then undo the steps for $B$ in reverse order: $R_2 \leftarrow R_2 + 2R_1$, then $R_1 \leftrightarrow R_2$.
 5. Check: from $\begin{bmatrix} 1 & 2 \\ 0 & 0 \end{bmatrix}$ the first step gives $\begin{bmatrix} 1 & 2 \\ 2 & 4 \end{bmatrix}$, and the swap gives $B$.
-
-The typical use is the RREF test of step 3.
-A trap: two different echelon forms do not show that matrices are not row equivalent, because echelon forms are not unique; compare the RREFs.
 
 ### L3 human
 
 Row equivalence classes of $m \times n$ matrices correspond to subspaces of $F^n$ of dimension at most $m$, through the row space.
 So the set of classes of rank $r$ is the Grassmannian of $r$-dimensional subspaces of $F^n$.
 Column equivalence is the dual notion, with the column space in place of the row space.
-Over a ring such as $\mathbb{Z}$, the classes under invertible row operations have the Hermite normal form as canonical representatives.
+Over the integers, the classes under invertible row operations have the Hermite normal form as canonical representatives.

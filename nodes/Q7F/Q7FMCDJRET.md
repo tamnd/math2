@@ -12,12 +12,13 @@ sources:
 
 ## Proof
 
+We show that solvability means that $b$ lies in the column space, and then count the solutions with the rank-nullity theorem.
 The proof uses these facts about rank and dimension.
 The rank of a matrix is the dimension of its column space, by [[the definition of rank|0EWQEYRVA8]].
 A subspace of a finite-dimensional space with the same dimension is the whole space, by [[the subspace theorem|0WGAXEK99E]].
 The [[rank-nullity theorem|0W4FSW1TVB]] holds, and $\dim F^n = n$ by [[the dimension of the coordinate space|0QK7FPE6VE]].
 
-1. Let $a_1, \dots, a_n \in F^m$ be the columns of $A$, and write $x = (x_1, \dots, x_n)^T \in F^n$.
+1. Let $a_1, \dots, a_n \in F^m$ be the columns of $A$, and write $x = (x_1, \dots, x_n)^{\mathsf{T}} \in F^n$.
 2. By the definition of the [[matrix-vector product|0CCQV3884B]], entry $i$ of $Ax$ is $\sum_j a_{ij} x_j$.
 3. So $Ax = x_1 a_1 + \cdots + x_n a_n$, by comparing entries.
 4. Entry $i$ of the equation $Ax = b$ is equation $i$ of the [[system|0JTRMBQ1SA]].
@@ -41,18 +42,18 @@ The [[rank-nullity theorem|0W4FSW1TVB]] holds, and $\dim F^n = n$ by [[the dimen
 22. So $T$ is a [[linear map|0NRYHJPQG2]].
 23. By step 3, the image of $T$ is the set of all combinations of the columns, which is $\operatorname{Col}(A)$.
 24. So $\dim \im T = \rank A$.
-25. The kernel of $T$ is the [[null space|0PQ2GGY1QV]] $N = \set{x \in F^n : Ax = 0}$, a linear subspace of $F^n$.
+25. The kernel of $T$ is the [[null space|0PQ2GGY1QV]] $N = \{x \in F^n : Ax = 0\}$, a linear subspace of $F^n$.
 26. By the [[rank-nullity theorem|0W4FSW1TVB]] and [[the dimension of the coordinate space|0QK7FPE6VE]], $\dim N = n - \rank A$.
 27. Now suppose that a solution $p \in F^n$ exists, so $Ap = b$.
 28. For $x \in F^n$, linearity gives $Ax - b = Ax - Ap = A(x - p)$.
 29. So $x$ is a solution if and only if $x - p \in N$, that is, $x \in p + N$.
-30. So the solution set is $p + N = \set{p + w : w \in N}$.
+30. So the solution set is $p + N = \{p + w : w \in N\}$.
 31. This set is an [[affine subspace|0FBXFBZBH8]] of $F^n$ with direction $N$.
 32. Its [[dimension|05G2G0P224]] is $\dim N = n - \rank A$, by step 26.
 33. For the last claim, assume that a solution $p$ exists.
-34. By step 30, the solution is unique if and only if $N = \set{0}$.
-35. If $N = \set{0}$, the empty family is a [[basis|0VTQTPQGAV]] of $N$, so $\dim N = 0$.
-36. If $\dim N = 0$, then $N$ is the span of the empty set, which is $\set{0}$.
+34. By step 30, the solution is unique if and only if $N = \{0\}$.
+35. If $N = \{0\}$, the empty family is a [[basis|0VTQTPQGAV]] of $N$, so $\dim N = 0$.
+36. If $\dim N = 0$, then $N$ is the span of the empty set, which is $\{0\}$.
 37. So the solution is unique if and only if $\dim N = 0$.
 38. By step 26, this holds if and only if $\rank A = n$.
 

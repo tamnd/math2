@@ -15,7 +15,8 @@ sources:
 
 ## Example
 
-Consider the [[system|0GT4WWGWH2]] $x + y = 1$, $x - y = 0$ over $\R$.
+With as many equations as unknowns, a system sits on the boundary between the two kinds.
+Consider the [[system|0GT4WWGWH2]] $x + y = 1$, $x - y = 0$ over $\mathbb{R}$.
 
 1. It has $m = 2$ equations and $n = 2$ unknowns, so it is square.
 2. Adding the equations gives $2x = 1$, so $x = \tfrac12$.
@@ -42,5 +43,4 @@ Here they fix $x = y = \tfrac12$.
 2. If the counts are equal, the system is square.
 3. Solve it, and check whether the solution is unique.
 
-The typical use is as the boundary case between the two kinds of systems.
-A trap: counting the equations that are written, without first removing equations that are copies or combinations of others.
+Watch out: a square system with an equation that is a combination of the others behaves like an underdetermined one, so the count alone does not promise one solution.

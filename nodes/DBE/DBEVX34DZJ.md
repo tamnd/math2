@@ -12,6 +12,7 @@ sources:
 
 ## Proof
 
+We read the pivots of $A$ from an echelon form of $[A \mid b]$ and then apply the existence and uniqueness theorem.
 Let $A$ be $m \times n$, and let $E$ be an echelon form of $[A \mid b]$.
 
 1. The first $n$ columns of $E$ form an echelon form of $A$, because deleting the last column of an echelon matrix keeps the staircase pattern.
@@ -28,4 +29,4 @@ The statement is the special case of the existence and uniqueness theorem for co
 
 ## Variants
 
-A direct proof over $\R$ uses the solution formula from the RREF: a free variable can take every real value, and each value gives a different solution.
+A direct proof over $\mathbb{R}$ uses the solution formula from the RREF: a free variable can take every real value, and each value gives a different solution.

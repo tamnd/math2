@@ -21,6 +21,7 @@ inventory: [J6QQKN30M4]
 
 ## Definition
 
+A system of linear equations is a finite list of linear equations in the same unknowns, and a solution must satisfy all of them.
 Let $F$ be a [[field|04C5ZBG1WT]] and let $m, n \ge 1$ be integers.
 A *system of linear equations* over $F$, with $m$ equations in the unknowns $x_1, \dots, x_n$, is a list of [[linear equations|0Q3ZT8J05R]]
 $$\begin{aligned} a_{11} x_1 + a_{12} x_2 + \cdots + a_{1n} x_n &= b_1, \\ &\ \ \vdots \\ a_{m1} x_1 + a_{m2} x_2 + \cdots + a_{mn} x_n &= b_m, \end{aligned}$$
@@ -31,10 +32,17 @@ Two systems in the same unknowns are *equivalent* if they have the same solution
 
 ## Remarks
 
-With the [[coefficient matrix|0HQFZAP3ND]] $A = (a_{ij})$, the vector $b = (b_1, \dots, b_m)^T$ and $x = (x_1, \dots, x_n)^T$, the system is the single equation $Ax = b$.
-Over a field, a system has no solution, exactly one solution, or more than one solution.
-When $F$ is infinite, "more than one" means infinitely many.
-When $F$ is finite with $q$ elements, the number of solutions is $0$ or a power of $q$, see [[the theorem on finite fields|8QM2Y41P69]].
+All the equations use the same unknowns, so a solution is a single tuple that we can test in every equation.
+The numbers $m$ and $n$ are finite, and this is what makes elimination stop after finitely many steps.
+The coefficients lie in one field $F$, so we can divide by any nonzero coefficient during elimination.
+
+With the [[coefficient matrix|0HQFZAP3ND]] $A = (a_{ij})$, the column $b = (b_1, \dots, b_m)^{\mathsf{T}}$ and $x = (x_1, \dots, x_n)^{\mathsf{T}}$, the whole system is the single equation $Ax = b$.
+For example, $(2, 1)$ solves the system $x + y = 3$, $x - y = 1$, because $3 = 3$ and $1 = 1$.
+The pair $(1, 2)$ solves the first equation but not the second, since $1 - 2 = -1$, so it is not a solution of the system.
+
+Over a field, a system has no solution, exactly one solution, or more than one, and over an infinite field "more than one" means infinitely many.
+When $F$ has $q$ elements, the number of solutions is $0$ or a power of $q$, by the [[count of solutions over a finite field|8QM2Y41P69]].
+The concept page on the [[system of linear equations|0GT4WWGWH2]] shows the row picture and the column picture.
 
 ## Explanations
 
@@ -46,10 +54,9 @@ In the plane, each equation is a line, and a solution is a point on all the line
 
 ### L2 human
 
-We check that $(2, 1)$ solves $x + y = 3$, $x - y = 1$, $3x - 2y = 4$, and that $(1, 2)$ does not.
-
-1. For $(2, 1)$: $2 + 1 = 3$, $2 - 1 = 1$ and $6 - 2 = 4$, so all three equations hold.
-2. For $(1, 2)$: $1 + 2 = 3$ holds, but $1 - 2 = -1 \ne 1$.
-3. So $(1, 2)$ solves the first equation only, and it is not a solution of the system.
-
-A trap: a solution must satisfy every equation; satisfying most of them is not enough.
+Does $(2, 1)$ solve $x + y = 3$, $x - y = 1$, $3x - 2y = 4$, and does $(1, 2)$?
+For $(2, 1)$ the three left sides are
+$$2 + 1 = 3, \qquad 2 - 1 = 1, \qquad 6 - 2 = 4,$$
+so all three equations hold.
+For $(1, 2)$ the first equation holds, but $1 - 2 = -1 \ne 1$, so $(1, 2)$ is not a solution.
+Watch out: a solution must satisfy every equation, and satisfying most of them is not enough.

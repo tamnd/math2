@@ -12,6 +12,7 @@ sources:
 
 ## Proof
 
+Everything follows from the linearity of $x \mapsto Ax$, with the rank-nullity theorem added for the dimension count.
 We use that $A(x + y) = Ax + Ay$ and $A(cx) = c(Ax)$; both follow entrywise from the definition of the [[matrix-vector product|0PDVQEP0ZC]].
 
 1. Part 2: $A(c_1 x_1 + c_2 x_2) = c_1 Ax_1 + c_2 Ax_2$, by the two rules.

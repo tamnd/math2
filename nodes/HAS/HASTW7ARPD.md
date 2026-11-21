@@ -14,22 +14,28 @@ sources:
 
 ## Example
 
-Let $M = \left[\begin{array}{cc|c} 1 & 1 & 3 \\ 1 & -1 & 1 \end{array}\right]$, the system $x + y = 3$, $x - y = 1$.
+A row reduction can be run backward, which is why row equivalence works in both directions.
+Let
+$$M = \left[\begin{array}{cc|c} 1 & 1 & 3 \\ 1 & -1 & 1 \end{array}\right],$$
+the augmented matrix of $x + y = 3$, $x - y = 1$.
 
-1. $R_2 \leftarrow R_2 - R_1$ gives $(0, -2 \mid -2)$.
-2. $R_2 \leftarrow -\tfrac12 R_2$ gives $(0, 1 \mid 1)$.
-3. $R_1 \leftarrow R_1 - R_2$ gives $(1, 0 \mid 2)$.
+1. The step $R_2 \leftarrow R_2 - R_1$ makes row 2 equal to $(0, -2 \mid -2)$.
+2. The step $R_2 \leftarrow -\tfrac12 R_2$ makes it $(0, 1 \mid 1)$.
+3. The step $R_1 \leftarrow R_1 - R_2$ makes row 1 equal to $(1, 0 \mid 2)$.
 4. So $M$ is [[row equivalent|095DDGZF16]] to $N = \left[\begin{array}{cc|c} 1 & 0 & 2 \\ 0 & 1 & 1 \end{array}\right]$, and the solution is $(2, 1)$.
-5. Back from $N$: undo step 3 by $R_1 \leftarrow R_1 + R_2$, which gives $(1, 1 \mid 3)$.
-6. Undo step 2 by $R_2 \leftarrow -2R_2$, which gives $(0, -2 \mid -2)$.
-7. Undo step 1 by $R_2 \leftarrow R_2 + R_1$, which gives $(1, -1 \mid 1)$.
-8. The result is $M$ again. So $N$ is row equivalent to $M$, as symmetry predicts.
+5. Now go back from $N$. Undo step 3 by $R_1 \leftarrow R_1 + R_2$, which makes row 1 equal to $(1, 1 \mid 3)$.
+6. Undo step 2 by $R_2 \leftarrow -2R_2$, which makes row 2 equal to $(0, -2 \mid -2)$.
+7. Undo step 1 by $R_2 \leftarrow R_2 + R_1$, which makes row 2 equal to $(1, -1 \mid 1)$.
+8. The result is $M$ again, so $N$ is row equivalent to $M$.
 9. Check the solution: $2 + 1 = 3$ and $2 - 1 = 1$.
 
 ## Remarks
 
-The inverse steps come in the reverse order, like taking off shoes and socks.
-Each inverse step has the same type as the step it undoes, by [[the theorem on row operations|K41GT10YM6]].
+The inverse steps come in the reverse order, like taking off shoes before socks.
+Each inverse step has the same type as the step it undoes, by the [[theorem on row operations|K41GT10YM6]].
+
+The order matters.
+Undoing step 1 first, at $N$, would give the rows $(1, 0 \mid 2)$ and $(1, 1 \mid 3)$, and the remaining two inverse steps would not lead back to $M$.
 
 ## Explanations
 
@@ -44,4 +50,4 @@ Row moves work the same way.
 2. To go back, invert each step: a swap stays a swap, scaling by $c$ becomes scaling by $1/c$, and adding $c R_j$ becomes adding $-c R_j$.
 3. Apply the inverses from the last step to the first.
 
-A trap: undoing the steps in the original order usually does not give back the original matrix.
+Watch out: undoing the steps in the original order usually does not give back the original matrix.

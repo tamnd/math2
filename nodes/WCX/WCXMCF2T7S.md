@@ -16,19 +16,25 @@ sources:
 
 ## Example
 
-Let $N_1 = \begin{bmatrix} 1 & 2 & 0 \\ 0 & 3 & 1 \end{bmatrix}$ and $N_2 = \begin{bmatrix} 1 & 2 & 5 \\ 0 & 1 & 3 \end{bmatrix}$ over $\R$.
+A staircase can be correct and still not reduced, and each of the two extra conditions can fail on its own.
+Let
+$$N_1 = \begin{bmatrix} 1 & 2 & 0 \\ 0 & 3 & 1 \end{bmatrix}, \qquad N_2 = \begin{bmatrix} 1 & 2 & 5 \\ 0 & 1 & 3 \end{bmatrix}$$
+over $\mathbb{R}$.
 
 1. Both are in [[row echelon form|0F27PBRWD7]]: their leading entries are in columns $1$ and $2$, and they have no zero rows.
 2. The leading entry of row 2 of $N_1$ is $3 \ne 1$. So condition 2 of [[reduced row echelon form|0NNR68BFRY]] fails.
 3. In $N_2$, column 2 has a leading entry in row 2, and the entry $2$ above it is nonzero. So condition 3 fails.
-4. Reduce $N_1$: $R_2 \leftarrow \tfrac13 R_2$ gives $(0, 1, \tfrac13)$, then $R_1 \leftarrow R_1 - 2R_2$ gives $(1, 0, -\tfrac23)$.
-5. Reduce $N_2$: $R_1 \leftarrow R_1 - 2R_2$ gives $(1, 0, -1)$.
+4. Reduce $N_1$. The step $R_2 \leftarrow \tfrac13 R_2$ gives $(0, 1, \tfrac13)$, and then $R_1 \leftarrow R_1 - 2R_2$ gives $(1, 0, -\tfrac23)$.
+5. Reduce $N_2$. The step $R_1 \leftarrow R_1 - 2R_2$ gives $(1, 0, -1)$.
 6. The RREFs are $\begin{bmatrix} 1 & 0 & -\tfrac23 \\ 0 & 1 & \tfrac13 \end{bmatrix}$ and $\begin{bmatrix} 1 & 0 & -1 \\ 0 & 1 & 3 \end{bmatrix}$.
 
 ## Remarks
 
 The two RREFs differ, so $N_1$ and $N_2$ are not row equivalent, by the uniqueness theorem.
 Their pivot positions agree, which shows that pivot positions alone do not decide row equivalence.
+
+The order of the two steps for $N_1$ is a matter of convenience.
+Clearing first with $R_1 \leftarrow R_1 - \tfrac23 R_2$ and then scaling row 2 gives the same RREF, as uniqueness predicts.
 
 ## Explanations
 
@@ -41,4 +47,4 @@ A staircase is not yet fully reduced if a step starts with a number other than $
 1. Scale each pivot row so that its pivot is $1$.
 2. Use each pivot to clear the entries above it.
 
-A trap: entries in non-pivot columns, such as the $\tfrac13$ and $-\tfrac23$ in step 6, are allowed to be nonzero.
+Watch out: entries in non-pivot columns, such as the $\tfrac13$ and $-\tfrac23$ in step 6, are allowed to be nonzero.

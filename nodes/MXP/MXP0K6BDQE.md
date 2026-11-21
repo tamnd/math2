@@ -12,7 +12,8 @@ sources:
 
 ## Proof
 
-Let $N = \set{x \in F^n : Ax = 0}$ and $S = \set{x \in F^n : Ax = b}$.
+We count the null space through a basis, and then move the count to the solution set by a translation.
+Let $N = \{x \in F^n : Ax = 0\}$ and $S = \{x \in F^n : Ax = b\}$.
 
 1. By [[the structure theorem|PDH3HKXWAZ]], part 5, $N$ is a subspace of dimension $d = n - r$.
 2. Choose a [[basis|0KCQ9Y3QKA]] $v_1, \dots, v_d$ of $N$.

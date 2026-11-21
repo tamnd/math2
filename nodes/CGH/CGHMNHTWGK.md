@@ -17,6 +17,7 @@ sources:
 
 ## Proof
 
+We first show that a leading entry in the last column is the equation $0 = 1$, and then that, without one, each nonzero equation involves one basic variable and free variables only.
 Write $(r_{i1}, \dots, r_{in} \mid c_i)$ for row $i$ of $[R \mid c]$.
 
 Part 1.

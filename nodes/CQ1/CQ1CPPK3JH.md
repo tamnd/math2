@@ -15,6 +15,8 @@ sources:
 
 ## Proof
 
+We write the reduction as one invertible matrix $P$, see that its left block is a reduced matrix row equivalent to $A$, and conclude by uniqueness.
+
 1. Let $R = \operatorname{rref}[A \mid C]$. By [[the theorem on row equivalence|E4GKK727ZM]], part 2, $R = P[A \mid C]$ for an invertible $m \times m$ matrix $P$.
 2. By the rule for multiplying block matrices, $P[A \mid C] = [PA \mid PC]$. So the first $n$ columns of $R$ form the matrix $PA$.
 3. A matrix in [[reduced row echelon form|0NNR68BFRY]] stays in reduced row echelon form when its last column is deleted. This is the lemma in [[the proof of uniqueness|Y80F8462DG]].
