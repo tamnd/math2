@@ -1,0 +1,55 @@
+---
+tag: 7YEX9F1V8D
+kind: example
+name: Finite bipartite graphs do not have the amalgamation property
+aliases: [bipartite-graphs-fail-amalgamation]
+msc: ["03C15", "05C63"]
+topics: [ZS8X8KS54R]
+audience: grad
+not_instance_of:
+  - target: XSCSX39GEZ
+    note: two paths of lengths 2 and 3 between the same two vertices force an odd closed walk in every amalgam, so no amalgam is bipartite
+uses: [XSCSX39GEZ, 2KBFZ1MPMW, 07DVHJ8N0A, SCRB74SWQN, 0QQ0F12962]
+sources:
+  - book: isbn:9780521587136
+---
+
+## Example
+
+Let $\mathcal{B}$ be the class of finite [[bipartite graphs|07DVHJ8N0A]], in the signature of graphs.
+We show that $\mathcal{B}$ fails the [[amalgamation property|XSCSX39GEZ]].
+
+1. Let $A$ have two non-adjacent vertices $a, b$.
+2. Let $B$ be the path $a - c - b$, and let $C$ be the path $a - d - e - b$. Both are bipartite, and both contain $A$ as an induced subgraph.
+3. Suppose $D \in \mathcal{B}$ with [[embeddings|SCRB74SWQN]] $f' \colon B \to D$ and $g' \colon C \to D$ that agree on $A$.
+4. The images give a closed walk $a, c, b, e, d, a$ in $D$ of length $5$.
+5. A $2$-coloring of $D$ alternates colors along every walk, so a closed walk has even length.
+6. The length $5$ is odd, so $D$ is not bipartite, a contradiction.
+
+## Remarks
+
+In step 2, $a$ and $b$ must get the same color in $B$ and different colors in $C$.
+So the obstruction is a global parity condition, which a gluing over $\set{a, b}$ cannot satisfy.
+The class $\mathcal{B}$ has HP and JEP, so it is the age of a countable graph, for example the disjoint union of all finite bipartite graphs.
+No countable ultrahomogeneous graph has age $\mathcal{B}$, by Fraïssé's theorem.
+If the bipartition is part of the structure, as two unary predicates, the class of finite bipartite graphs with a named bipartition does have AP.
+
+## Explanations
+
+### L1 human
+
+Bipartite means one can color the vertices in two colors so that every edge joins different colors.
+Along a path the colors alternate.
+A path with two edges gives its ends the same color, and a path with three edges gives them different colors.
+If both paths join the same two vertices, no coloring works.
+
+### L2 human
+
+We check the closed walk in the amalgam.
+
+1. The walk $a \to c \to b$ uses the two edges of $B$.
+2. The walk $b \to e \to d \to a$ uses the three edges of $C$.
+3. Together they return to $a$ after $5$ steps, which is odd; compare the [[cycle graph|0QQ0F12962]] $C_5$.
+
+The typical use is to see that a class can have HP and JEP but no Fraïssé limit.
+A trap is to amalgamate only over a single vertex, where free amalgamation does work for bipartite graphs.

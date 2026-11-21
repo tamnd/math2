@@ -1,0 +1,53 @@
+---
+tag: 86YZAQ1WWC
+kind: example
+name: The rational order is ultrahomogeneous
+aliases: [rational-order-ultrahomogeneous]
+msc: ["03C15", "06A05"]
+topics: [ZS8X8KS54R]
+audience: grad
+instance_of: [H8VM37SSAX, HJVRBDQSGG]
+uses: [H8VM37SSAX, CZFGSN4JNE, K4D3S1MBZH, DSQ17TNW1C, 2W4S2H4VYA]
+sources:
+  - url: https://en.wikipedia.org/wiki/Fraïssé_limit
+    locator: Examples
+  - book: isbn:9780521587136
+---
+
+## Example
+
+We show that $(\Q, <)$ is [[ultrahomogeneous|H8VM37SSAX]].
+
+1. Let $p \colon A \to B$ be an order isomorphism between finite subsets of $\Q$.
+2. List $A$ as $a_1 < \dots < a_n$, and put $b_i = p(a_i)$, so $b_1 < \dots < b_n$.
+3. Put $a_0 = b_0 = -\infty$ and $a_{n+1} = b_{n+1} = +\infty$.
+4. For $0 \le i \le n$, choose an increasing bijection $\sigma_i$ from the interval $(a_i, a_{i+1}) \cap \Q$ onto $(b_i, b_{i+1}) \cap \Q$.
+5. Such a bijection exists because both sets are countable [[dense|K4D3S1MBZH]] orders without endpoints, so they are isomorphic by Cantor's theorem.
+6. Glue the $\sigma_i$ and $p$ into one map $\sigma$; it is an order [[automorphism|DSQ17TNW1C]] of $\Q$ that extends $p$.
+
+## Remarks
+
+In step 4, a piecewise affine map works for bounded intervals, so Cantor's theorem is not needed there; for the two unbounded intervals, a translation works.
+So in fact $\sigma$ can be taken piecewise affine with rational coefficients.
+The age of $(\Q, <)$ is the class of finite linear orders, and $(\Q, <)$ is its Fraïssé limit; see [[the dense linear order example|2W4S2H4VYA]].
+The same argument works for $(\R, <)$, but $\R$ is uncountable and is not a Fraïssé limit.
+
+## Explanations
+
+### L1 human
+
+Pick finitely many rationals and match them in order with another list of the same length.
+Stretch and slide each gap between consecutive points onto the matching gap.
+The result is an order-preserving rearrangement of all rationals that does the matching.
+
+### L2 human
+
+We extend $p(0) = 0$, $p(1) = 5$.
+
+1. On $(-\infty, 0]$ take $\sigma(x) = x$.
+2. On $[0, 1]$ take $\sigma(x) = 5x$.
+3. On $[1, \infty)$ take $\sigma(x) = x + 4$.
+4. The pieces agree at $0$ and $1$, each is increasing, and each maps rationals onto rationals.
+
+The typical use is as the model case of a Fraïssé limit.
+A trap is to use the map $x \mapsto 5x$ everywhere; it extends $p$ here, but a general $p$ needs different slopes on different gaps.
