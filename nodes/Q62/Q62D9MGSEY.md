@@ -18,11 +18,12 @@ sources:
 ## Proof
 
 We use one fact in both parts.
-If $x \cdot y = 0$, then $\|x + y\|^2 = \|x\|^2 + 2 x \cdot y + \|y\|^2 = \|x\|^2 + \|y\|^2$, by expanding the [[dot product|0S52TNNTH9]].
+If $x \cdot y = 0$, then expanding the [[dot product|0S52TNNTH9]] gives
+$$\|x + y\|^2 = \|x\|^2 + 2 x \cdot y + \|y\|^2 = \|x\|^2 + \|y\|^2.$$
 
 **Part 1: point and line.**
 
-1. Let $u = q - a$. For each $t$, $\|q - (a + t d)\| = \|u - t d\|$, by algebra.
+1. Let $u = q - a$. For each $t$, the distance from $q$ to the point $a + t d$ is $\|q - (a + t d)\| = \|u - t d\|$.
 2. By the [[orthogonal decomposition|NA6Q7ME9G0]], the least value of $\|u - t d\|$ is reached at $t = \dfrac{u \cdot d}{d \cdot d}$.
 3. By the same theorem, the least value is $\|w\|$ with $w = u - \dfrac{u \cdot d}{d \cdot d} d$, and $w \cdot d = 0$.
 4. By the fact above, $\|u\|^2 = \|w\|^2 + \dfrac{(u \cdot d)^2}{\|d\|^2}$. So $\|w\|^2 = \dfrac{\|u\|^2 \|d\|^2 - (u \cdot d)^2}{\|d\|^2}$.
@@ -46,5 +47,10 @@ The fixed part is perpendicular to the given sets, so by Pythagoras it is a lowe
 
 ## Variants
 
-- Part 1 with areas: the parallelogram on $q - a$ and $d$ has the area $\|(q - a) \times d\|$, by the [[length theorem|SAZ353S8W0]]. Its height over the base $d$ is the distance.
-- Part 2 with calculus: minimize $\|x(t, s)\|^2$, a quadratic in $t$ and $s$. The two partial derivatives give $x \cdot d = 0$ and $x \cdot e = 0$.
+Part 1 also follows from areas.
+The parallelogram on $q - a$ and $d$ has area $\|(q - a) \times d\|$, by the [[length theorem|SAZ353S8W0]], and its height over the base $d$ is the distance from $q$ to the line.
+Dividing the area by the base $\|d\|$ gives the formula.
+
+Part 2 also follows from calculus.
+The squared distance $\|x(t, s)\|^2$ is a quadratic function of $t$ and $s$, and setting its two partial derivatives to $0$ gives $x \cdot d = 0$ and $x \cdot e = 0$.
+So at the minimum the connecting vector is perpendicular to both lines, which is the common perpendicular of the proof above.
