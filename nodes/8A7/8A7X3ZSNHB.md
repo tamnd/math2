@@ -12,7 +12,8 @@ sources:
 
 ## Proof
 
-Write $A = (a_{ij})$, so that column $j$ is $v_j = (a_{1j}, \dots, a_{mj})^T$.
+We compare the three forms entry by entry, and each entry turns out to be the same sum.
+Write $A = (a_{ij})$, so that column $j$ is $v_j = (a_{1j}, \dots, a_{mj})^{\mathsf{T}}$.
 
 1. By the definition of the [[matrix-vector product|0PDVQEP0ZC]], entry $i$ of $Ax$ is $\sum_{j=1}^{n} a_{ij} x_j$.
 2. Entry $i$ of $x_j v_j$ is $x_j a_{ij}$, by the definition of scalar multiplication in $F^m$.
