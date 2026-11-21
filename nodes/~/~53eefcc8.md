@@ -72,4 +72,5 @@ We check one instance of the addition formula.
 5. With $\bar z = (10, 12)$ the formula also holds, since $10 \cdot 6 = 5 \cdot 12$. The formula is invariant under $\varepsilon$, as it must be.
 
 The typical use is to transfer facts about $\Z$ to facts about $\Q$.
-A trap is to write the addition formula as $z_1 = x_1 y_2 + y_1 x_2 \wedge z_2 = x_2 y_2$. This formula picks one representative of the sum, so it is not invariant under $\varepsilon$, and the relations condition fails for $\bar z = (10, 12)$.
+A trap is to write the addition formula as $z_1 = x_1 y_2 + y_1 x_2 \wedge z_2 = x_2 y_2$.
+This formula picks one representative of the sum, so it is not invariant under $\varepsilon$, and the relations condition fails for $\bar z = (10, 12)$.
