@@ -1,0 +1,59 @@
+---
+tag: CWW1GTPZAQ
+kind: example
+name: The integer order indexed by itself is not an indiscernible family
+msc: ["03C30", "06A05"]
+topics: [W9CHA4PD9H]
+audience: research
+not_instance_of:
+  - target: RQS808ZC8T
+    note: "the pairs (0, 1) and (0, 2) have the same order pattern, and only (0, 2) has an element between its members"
+uses: [RQS808ZC8T, 4016QKAHFB, H8VM37SSAX, DSQ17TNW1C, KZASF579JE]
+sources:
+  - url: https://en.wikipedia.org/wiki/Indiscernibles
+    locator: Generalizations
+  - url: https://en.wikipedia.org/wiki/Indiscernibles
+    locator: lead section
+---
+
+## Example
+
+Take the structure $(\Z, <)$ both as the index structure and as the model, and let $a_n = n$.
+We show that $(a_n)_{n \in \Z}$ is not a $(\Z, <)$-indexed [[indiscernible family|RQS808ZC8T]], although all its members have the same type.
+
+1. In the signature $\set{<}$, the quantifier-free type of a pair $(m, n)$ records only whether $m < n$, $m = n$ or $m > n$.
+2. So $(0, 1)$ and $(0, 2)$ have the same quantifier-free type, since $0 < 1$ and $0 < 2$.
+3. Let $\varphi(x_1, x_2)$ be $\exists z \, (x_1 < z \wedge z < x_2)$. It fails at $(0, 1)$, since no integer lies strictly between $0$ and $1$.
+4. It holds at $(0, 2)$, with the witness $z = 1$.
+5. So two pairs with the same quantifier-free type have different types, and the condition of the definition fails.
+
+For single elements the condition holds.
+The shift $n \mapsto n + k$ is an [[automorphism|DSQ17TNW1C]] of $(\Z, <)$ that maps $0$ to $k$, so all members have the same type.
+
+## Remarks
+
+The example shows that an index structure indexed by itself is indiscernible only when its quantifier-free types decide its types.
+This holds for [[ultrahomogeneous|H8VM37SSAX]] structures, and $(\Z, <)$ is not ultrahomogeneous: the isomorphism $\set{0, 1} \to \set{0, 2}$ has no extension to an automorphism.
+Since the index structure is a linear order, the example also shows that $(n)_{n \in \Z}$ is not an [[order-indiscernible sequence|4016QKAHFB]] in $(\Z, <)$.
+The subfamily of even integers fails in the same way, with the pairs $(0, 2)$ and $(0, 4)$ and the formula "at least two elements lie between $x_1$ and $x_2$".
+Inside $(\Q, <)$ the same family is indiscernible; see [[this example|KZASF579JE]].
+
+## Explanations
+
+### L1 human
+
+In the integers, every number looks like every other number, because a shift moves one to the other.
+But the pair $0, 1$ is different from the pair $0, 2$: there is a number between $0$ and $2$, and none between $0$ and $1$.
+Both pairs are "a smaller number, then a larger number", so the order pattern alone cannot see the difference.
+The language of order can still see it, so the family is not indiscernible.
+
+### L2 human
+
+The test is to find two tuples with the same quantifier-free type in the index structure and one formula that separates them in the model.
+
+1. Write down the atomic formulas of the index signature: here $x_k < x_l$ and $x_k = x_l$.
+2. Choose two tuples that satisfy the same atomic formulas: $(0, 1)$ and $(0, 2)$.
+3. Find a formula with quantifiers that separates them: "some element lies between $x_1$ and $x_2$".
+
+The typical use of such a non-example is to see that the index structure must be homogeneous enough, or the family must be chosen more sparsely.
+The trap is to check only single elements: a structure can have one type of element and still fail for pairs.

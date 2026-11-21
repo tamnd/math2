@@ -1,0 +1,61 @@
+---
+tag: 4016QKAHFB
+kind: definition
+name: Indiscernible sequence
+aliases: [indiscernible-sequence, order-indiscernible, totally-indiscernible-set]
+msc: ["03C30", "03C50"]
+topics: [W9CHA4PD9H]
+audience: grad
+defines: 6EG0ZK1YBX
+uses: [983GZBQYT4, HYJ10AF6RT, 0FRXBVVR03, 9V71Q3SD1G, WDVVEYD6AT]
+sources:
+  - url: https://en.wikipedia.org/wiki/Indiscernibles
+    locator: lead section
+  - book: isbn:9780387987606
+    locator: Chapter 5
+  - book: isbn:9780521763240
+    locator: Chapter 5
+---
+
+## Definition
+
+Let $L$ be a [[signature|WDVVEYD6AT]], let $\mathcal{M}$ be an $L$-[[structure|983GZBQYT4]], and let $A \subseteq M$.
+Let $(I, <)$ be a [[linear order|0FRXBVVR03]] with at least two elements, and let $(a_i)_{i \in I}$ be a family of elements of $M$.
+For a tuple $\bar{\imath} = (i_1, \dots, i_n)$ of indices, write $a_{\bar{\imath}} = (a_{i_1}, \dots, a_{i_n})$.
+
+1. The family is an *order-indiscernible sequence over $A$* if the following holds for every $n \ge 1$ and every $L$-[[formula|HYJ10AF6RT]] $\varphi(x_1, \dots, x_n)$ with parameters from $A$. For all $i_1 < \dots < i_n$ and all $j_1 < \dots < j_n$ in $I$, $\mathcal{M} \models \varphi(a_{\bar{\imath}})$ if and only if $\mathcal{M} \models \varphi(a_{\bar{\jmath}})$.
+2. The family is an *indiscernible set over $A$* if the same equivalence holds for all tuples $\bar{\imath}$ and $\bar{\jmath}$ of $n$ pairwise distinct indices, in any order.
+3. "Indiscernible" without "over $A$" means indiscernible over $\emptyset$.
+
+## Notation
+
+Condition 1 says that all increasing $n$-tuples of the family have the same complete [[type|9V71Q3SD1G]] $p_n(x_1, \dots, x_n)$ over $A$.
+The union $\Phi = \bigcup_n p_n$ is the *Ehrenfeucht-Mostowski type* of the sequence, also written $\operatorname{EM}((a_i)_{i \in I}/A)$.
+Many authors write "indiscernible sequence" for condition 1, and "totally indiscernible" or "indiscernible set" for condition 2.
+The same definitions apply to families of $k$-tuples for a fixed $k$, with formulas in $nk$ variables.
+
+## Remarks
+
+The main page of the idea is [[indiscernible sequence|6EG0ZK1YBX]].
+An indiscernible set is an order-indiscernible sequence for every linear order of the index set, since every increasing tuple has distinct indices.
+An order-indiscernible sequence with $(I, <)$ infinite is either constant or injective, because the formula $x_1 = x_2$ has the same truth value on all increasing pairs.
+The examples of the definition are the [[bases of vector spaces|H7RFGN5RV7]], the [[transcendence bases of algebraically closed fields|8BDCM2MBV9]] and the [[increasing sequences in dense linear orders|KZASF579JE]].
+A non-example is the sequence of [[natural numbers in their order|1T221XPKPJ]].
+
+## Explanations
+
+### L1 human
+
+A sequence is indiscernible when the formulas of the language cannot see any difference between its members, except their order.
+Two increasing pairs, two increasing triples, and so on, always satisfy the same formulas.
+For an indiscernible set even the order is invisible.
+
+### L2 human
+
+To check that a family is indiscernible, follow these steps.
+
+1. Fix $n$ and two increasing tuples $\bar{\imath}$ and $\bar{\jmath}$ of length $n$.
+2. Find an automorphism of $\mathcal{M}$ that fixes $A$ pointwise and maps $a_{\bar{\imath}}$ to $a_{\bar{\jmath}}$, or use quantifier elimination to compare the types directly.
+3. Conclude that $a_{\bar{\imath}}$ and $a_{\bar{\jmath}}$ satisfy the same formulas over $A$.
+
+The trap is to check only formulas without parameters when the definition asks for indiscernibility over a set $A$.
