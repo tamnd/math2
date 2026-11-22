@@ -23,23 +23,23 @@ Where books disagree, each page shows both readings, says how to tell which one 
 
 ### Reading order
 
-1. [[Mathematical notation|QKEX4PD029]]: you learn the letter conventions, subscripts, the ellipsis and the two-dimensional layout of formulas.
-2. [[Conflicting conventions|CSFEP56A7D]]: you learn the symbols and words that books define in two ways, such as $0 \in \mathbb{N}$, $\subset$, "increasing" and $f^{-1}$, and the choice of this site for each.
-3. [[Abuse of notation|JV68YRB5YZ]]: you learn the standard shortcuts, such as a group written as its set, and the check that keeps them safe.
-4. [[Equality, definition and equivalence signs|BCGR3NPPXC]]: you learn to tell $=$, $:=$, $\equiv$, $\approx$, $\cong$ and $\sim$ apart, and why the $=$ of big O reads only one way.
-5. [[Glossary of mathematical symbols|2PTCAGCWZE]]: you get a reference table of common symbols, with their readings and links to the pages that define them.
-6. [[Mathematical abbreviations|4ZNYMYRRY3]]: you learn to expand iff, wlog, TFAE, s.t., i.e., e.g. and a.e. correctly.
-7. [[Mathematical jargon|4M1FGQ0HNZ]]: you learn what "nice", "vanish", "upstairs" and "folklore" mean between mathematicians.
-8. [[Trivial, obvious and clearly|Y0HXCJRB9B]]: you learn what these words claim, and how to find the gap that they sometimes hide.
-9. [[Canonical and natural|F8WNADZFMM]]: you learn why the map $V \to V^{**}$ needs no choice and an isomorphism $V \to V^*$ does.
-10. [[Almost all, generic and in general|N1XSAXCQY3]]: you learn the several meanings of "almost all" and how to find the one an author means.
-11. [[Sufficiently large, eventually and frequently|FEQ7WATMHF]]: you learn to turn "for $n$ large enough" into quantifiers, and to tell it from "for infinitely many $n$".
-12. [[Stronger and weaker statements|KCK4AQ469Q]]: you learn to compare two results by implication, and what the strong and weak forms of a theorem are.
-13. [[Sharp and best possible results|KWQV0G0VJ3]]: you learn how an equality case shows that a bound cannot be improved.
-14. [[Elementary proof|84SZZBACP3]]: you learn that "elementary" means "without certain tools", not "easy".
-15. [[Pathological objects|WMBZPYPN2D]]: you meet objects that break a natural guess, and see how they became standard examples.
-16. [[Elegant and deep|STHWD1K9AN]]: you learn the informal words that judge proofs and theorems.
-17. [[Q.E.D. and end of proof marks|ET9J6R9T5C]]: you learn the signs that close a proof, a claim or a construction.
+1. [[Mathematical notation|QKEX4PD029]]: letter conventions, subscripts, the ellipsis and the layout of formulas.
+2. [[Conflicting conventions|CSFEP56A7D]]: symbols that books define in two ways, such as $\mathbb{N}$, $\subset$ and $f^{-1}$, and the choice of this site.
+3. [[Abuse of notation|JV68YRB5YZ]]: the standard shortcuts, and the check that keeps them safe.
+4. [[Equality, definition and equivalence signs|BCGR3NPPXC]]: how to tell $=$, $:=$, $\equiv$, $\approx$, $\cong$ and $\sim$ apart.
+5. [[Glossary of mathematical symbols|2PTCAGCWZE]]: a reference table of symbols with their readings.
+6. [[Mathematical abbreviations|4ZNYMYRRY3]]: how to expand iff, wlog, TFAE, s.t., i.e. and a.e.
+7. [[Mathematical jargon|4M1FGQ0HNZ]]: what "nice", "vanish" and "folklore" mean between mathematicians.
+8. [[Trivial, obvious and clearly|Y0HXCJRB9B]]: what these words claim, and the gaps they can hide.
+9. [[Canonical and natural|F8WNADZFMM]]: why $V \to V^{**}$ needs no choice and $V \cong V^*$ does.
+10. [[Almost all, generic and in general|N1XSAXCQY3]]: the several meanings of "almost all".
+11. [[Sufficiently large, eventually and frequently|FEQ7WATMHF]]: "for $n$ large enough" as quantifiers.
+12. [[Stronger and weaker statements|KCK4AQ469Q]]: how to compare two results by implication.
+13. [[Sharp and best possible results|KWQV0G0VJ3]]: how an equality case shows that a bound cannot be improved.
+14. [[Elementary proof|84SZZBACP3]]: why "elementary" means "without certain tools", not "easy".
+15. [[Pathological objects|WMBZPYPN2D]]: objects that break a natural guess.
+16. [[Elegant and deep|STHWD1K9AN]]: the informal words that judge proofs and theorems.
+17. [[Q.E.D. and end of proof marks|ET9J6R9T5C]]: the signs that close a proof, a claim or a construction.
 
 ### Prerequisites
 
