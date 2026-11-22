@@ -18,36 +18,47 @@ sources:
 
 ## Example
 
-Let $V = M_2(\R)$ be the [[space of $2 \times 2$ real matrices|0RE6X3BGPN]], and let $\det \colon V \to \R$ be the [[determinant|00KDZRW4C0]], $\det \begin{pmatrix} a & b \\ c & d \end{pmatrix} = ad - bc$.
-We show that $\det$ is not a [[linear form|0RT96J4D3H]] on $V$.
+Let $V = M_2(\mathbb{R})$ be the [[space of $2 \times 2$ real matrices|0RE6X3BGPN]], and let $\det \colon V \to \mathbb{R}$ be the [[determinant|00KDZRW4C0]],
+$$\det \begin{pmatrix} a & b \\ c & d \end{pmatrix} = ad - bc.$$
+The determinant returns one number for each matrix, but it is not a [[linear form|0RT96J4D3H]] on $V$.
+Both conditions of a linear form fail, and one small case is enough for each.
 
-1. Homogeneity fails. Let $I$ be the identity matrix. Then $\det(2I) = 2 \cdot 2 - 0 \cdot 0 = 4$.
-2. A linear form $f$ satisfies $f(2I) = 2 f(I)$. Here $2 \det I = 2 \cdot 1 = 2 \ne 4$.
-3. Additivity fails. Let $E_{11} = \begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix}$ and $E_{22} = \begin{pmatrix} 0 & 0 \\ 0 & 1 \end{pmatrix}$.
-4. Then $\det E_{11} = 1 \cdot 0 - 0 \cdot 0 = 0$ and $\det E_{22} = 0 \cdot 1 - 0 \cdot 0 = 0$.
-5. But $E_{11} + E_{22} = I$, and $\det I = 1 \ne 0 + 0$.
-6. So $\det$ satisfies neither condition of a linear form.
+Homogeneity fails.
+Let $I$ be the identity matrix, so $\det I = 1$.
+Doubling $I$ doubles both diagonal entries:
+$$\det(2I) = 2 \cdot 2 - 0 \cdot 0 = 4.$$
+A linear form $f$ would give $f(2I) = 2 f(I)$, and here $2 \det I = 2 \ne 4$.
+
+Additivity fails.
+Let $E_{11} = \begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix}$ and $E_{22} = \begin{pmatrix} 0 & 0 \\ 0 & 1 \end{pmatrix}$.
+Each has a zero on the diagonal, so
+$$\det E_{11} = 1 \cdot 0 - 0 \cdot 0 = 0, \qquad \det E_{22} = 0 \cdot 1 - 0 \cdot 0 = 0.$$
+But $E_{11} + E_{22} = I$, and $\det I = 1 \ne 0 + 0$.
 
 ## Remarks
 
-- The determinant is linear in each column when the other column is fixed. This property is multilinearity, and it is weaker than linearity in the whole matrix.
-- On $1 \times 1$ matrices, $\det(a) = a$, so the determinant is a linear form there. It fails to be linear for every size $n \ge 2$, since $\det(2I_n) = 2^n \ne 2$.
-- The [[trace|0XC1RDBY7A]] is a linear form on $M_2(\R)$, and it is often compared with the determinant: both are coefficients of the characteristic polynomial.
+The determinant is linear in each column when the other column is held fixed.
+This property is called multilinearity, and it is weaker than linearity in the whole matrix: doubling the matrix doubles both columns, so the determinant is multiplied by $2 \cdot 2 = 4$.
+
+The size of the matrix matters.
+On $1 \times 1$ matrices $\det(a) = a$, so there the determinant is a linear form.
+For every size $n \ge 2$ it fails, since $\det(2 I_n) = 2^n$, while linearity would give $2$.
+
+The [[trace|0XC1RDBY7A]] is a linear form on $M_2(\mathbb{R})$, and it makes a good contrast.
+Both numbers appear in the characteristic polynomial $t^2 - (\tr A) \, t + \det A$ of a $2 \times 2$ matrix, but only the trace is linear.
 
 ## Explanations
 
 ### L1 human
 
 The determinant of a $2 \times 2$ matrix is a single number, but it does not behave like a linear form.
-If every entry is doubled, the determinant becomes four times as large, not twice as large.
-Two matrices with determinant $0$ can add up to the identity matrix, which has determinant $1$.
+If you double every entry, the determinant becomes four times as large, not twice as large.
+Also, two matrices with determinant $0$ can add up to the identity matrix, which has determinant $1$.
 
 ### L2 human
 
-To show that a map to the scalars is not a linear form, one failed instance is enough.
-
-1. Test the scaling rule on a simple input: $\det(2I) = 4$, while linearity would give $2$.
-2. Test the sum rule on two simple inputs: $\det(E_{11} + E_{22}) = 1$, while linearity would give $0$.
-
-The typical use of this example is a warning: "linear in each row" and "linear" are different properties.
-A trap: the formula $\det(A + B) = \det A + \det B$ is false, and students sometimes use it in proofs.
+To show that a map to the scalars is not a linear form, one failing case is enough, and the best test cases are the simplest matrices.
+Try the scaling rule on $I$: $\det(2I) = 4$, while linearity would give $2$.
+Try the sum rule on $E_{11}$ and $E_{22}$: $\det(E_{11} + E_{22}) = 1$, while linearity would give $0$.
+The typical use of this example is as a warning that "linear in each column" and "linear" are different properties.
+Watch out: the formula $\det(A + B) = \det A + \det B$ is false, and it is a common slip in proofs.
