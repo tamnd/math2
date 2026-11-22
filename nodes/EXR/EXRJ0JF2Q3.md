@@ -59,7 +59,7 @@ So the induction could start at $n = 0$, and the step from $0$ to $1$ places exa
 The proof is also a recursive algorithm.
 It places one tromino at the center, and then tiles the four quarters in the same way, down to $2 \times 2$ boards.
 
-Solomon W. Golomb introduced polyominoes in a 1954 article in the American Mathematical Monthly, and this tiling result is known as Golomb's tromino theorem.
+Solomon Golomb introduced polyominoes in a 1954 article in the American Mathematical Monthly, and this tiling result is known as Golomb's tromino theorem.
 
 ## Explanations
 

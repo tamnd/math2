@@ -26,7 +26,9 @@ That step is correct algebra, but the base case is false, since $1 \ne 2$, and s
 
 An *error in an induction proof* is a gap of this kind: a part of the proof that the principle of [[mathematical induction|0ASJVEFA9J]] needs and the argument does not establish.
 A valid proof of "$P(n)$ for every $n \ge n_0$" proves $P(n_0)$, and proves the step for every $n \ge n_0$ using only the cases that the method allows.
-The common errors are a missing or false base case, too few base cases in [[strong induction|0KMVFSHFGZ]], a step that assumes the result, a step that fails for some small $n$, a step that leaves the domain of the claim, an induction on the wrong variable, and a step that builds up instead of breaking down.
+The errors in the base are a missing or false base case, and too few base cases in [[strong induction|0KMVFSHFGZ]].
+The errors in the step are a step that assumes the result, fails for some small $n$, or leaves the domain of the claim.
+The errors in the setup are an induction on the wrong variable, and a step that builds up instead of breaking down.
 
 ## Motivation
 
