@@ -17,8 +17,10 @@ sources:
 
 ## Statement
 
+A linear map is an orthogonal projection exactly when applying it twice changes nothing and it can be moved across the inner product.
+
 Let $V$ be a finite-dimensional inner product space over $\R$ or $\C$, and let $P \colon V \to V$ be linear.
-Then the following are equivalent:
+Then the following are equivalent.
 
 1. $P = P_U$ is the [[orthogonal projection|0Q8HZTJC7G]] onto some subspace $U$ of $V$.
 2. $P^2 = P$, and $\ip{Pv}{w} = \ip{v}{Pw}$ for all $v, w \in V$.
@@ -32,49 +34,61 @@ The [[proof|S0GB8AZT9W]] checks the error condition $v - Pv \perp U$ in one dire
 
 ### Why each hypothesis is needed
 
-- The idempotent condition alone is not enough: $P = \begin{pmatrix} 1 & 1 \\ 0 & 0 \end{pmatrix}$ satisfies $P^2 = P$ but $P^{\mathsf{T}} \ne P$. It is [[an oblique projection|DZXTTHGFQD]] onto the $x$-axis along the line $\R(1, -1)$.
-- The symmetry condition alone is not enough: $P = 2I$ is symmetric, but $P^2 = 4I \ne P$.
-- Finite dimension of $V$ makes $U = \im P$ finite-dimensional, so $P_U$ is defined by our [[definition|0Q8HZTJC7G]].
+Idempotence alone is not enough.
+The matrix $P = \begin{pmatrix} 1 & 1 \\ 0 & 0 \end{pmatrix}$ has $P^2 = P$, since its first row $(1, 1)$ times its columns gives $(1, 1)$ again and its second row is zero.
+But $P^{\mathsf{T}} \ne P$, and its kernel is the line $x + y = 0$, which is not perpendicular to its image, the $x$-axis.
+So it is [[an oblique projection|DZXTTHGFQD]], a [[projection|0RH4E3CAV9]] that is not orthogonal.
 
-### Consequences
+Symmetry alone is not enough either.
+The matrix $2I$ is symmetric, but $(2I)^2 = 4I \ne 2I$, so it is not a projection of any kind.
 
-- An orthogonal projection does not increase length: $\norm{Pv}^2 = \norm{v}^2 - \norm{v - Pv}^2 \le \norm{v}^2$.
-- The eigenvalues of an orthogonal projection are among $0$ and $1$. The eigenspaces are $\ker P = U^\perp$ and $\im P = U$, and they are orthogonal.
-- If $P$ is an orthogonal projection, then so is $I - P$, since $(I - P)^2 = I - 2P + P^2 = I - P$ and $I - P$ is self-adjoint.
+Finite dimension of $V$ makes the image $U = \im P$ finite-dimensional, so that $P_U$ is defined by our [[definition|0Q8HZTJC7G]].
+In a Hilbert space the theorem survives with closed subspaces, as described below.
 
-### Converse
+### What it gives you
 
-The statement is an equivalence.
-A related fact replaces symmetry by a norm condition: an idempotent $P$ with $\norm{Pv} \le \norm{v}$ for all $v$ is an orthogonal projection.
-We do not prove that fact here.
-The oblique projection above fails it: it maps $(1, 1)$, of norm $\sqrt{2}$, to $(2, 0)$, of norm $2$.
+The theorem gives a test that needs no picture: a matrix is an orthogonal projection exactly when it is symmetric and idempotent.
+It also gives quick consequences.
+The map $I - P$ is again an orthogonal projection, since $(I - P)^2 = I - 2P + P^2 = I - P$ and $I - P$ is self-adjoint.
+The eigenvalues of $P$ lie in $\{0, 1\}$, with eigenspaces $\ker P = U^\perp$ and $\im P = U$, and these are orthogonal.
+An orthogonal projection never increases length, because
+$$\norm{Pv}^2 = \norm{v}^2 - \norm{v - Pv}^2 \le \norm{v}^2.$$
+
+### A test by length
+
+The last property has a converse: an idempotent $P$ with $\norm{Pv} \le \norm{v}$ for every $v$ is an orthogonal projection.
+Here is the reason in outline.
+Take $u \in \im P$ and $w \in \ker P$; then $P(u + tw) = u$ for every scalar $t$, so $\norm{u} \le \norm{u + tw}$.
+So $0$ is the closest point of the line $\mathbb{K} w$ to $u$, and the [[best approximation theorem|0MCDDSCB9Z]] gives $\ip{u}{w} = 0$.
+Hence $\ker P \perp \im P$, and $P$ is the orthogonal projection onto its image.
+The oblique projection above fails the length test: it sends $(1, 1)$, of length $\sqrt{2}$, to $(2, 0)$, of length $2$.
 
 ### Generalizations
 
-In a Hilbert space, the orthogonal projections onto closed subspaces are exactly the bounded linear maps $P$ with $P^2 = P$ and $P^* = P$, where $P^*$ is the [[adjoint|0R9NMSM1ZP]].
 The condition $\ip{Pv}{w} = \ip{v}{Pw}$ says that $P$ is [[self-adjoint|0NEGN5CRSC]].
+In a Hilbert space, the orthogonal projections onto closed subspaces are exactly the bounded linear maps with $P^2 = P$ and $P^* = P$, where $P^*$ is the [[adjoint|0R9NMSM1ZP]].
+In a C*-algebra, an element $p$ with $p = p^2 = p^*$ is called a projection, and the theorem explains that name.
 
 ## Explanations
 
 ### L1 human
 
 A projection is a map that does nothing the second time you apply it.
-It is orthogonal exactly when its matrix is symmetric.
-A symmetric matrix that does nothing the second time is a perpendicular shadow onto its image.
+Among the projections, the orthogonal ones are those whose matrix is symmetric, the same when you flip it across the diagonal.
+For example, the shadow map onto the floor sends $(x, y, z)$ to $(x, y, 0)$, and its matrix has $1, 1, 0$ on the diagonal and zeros elsewhere, which is symmetric.
 
 ### L2 human
 
-We test $P = \frac{1}{2} \begin{pmatrix} 1 & 1 \\ 1 & 1 \end{pmatrix}$.
-
-1. $P^{\mathsf{T}} = P$, because the matrix is symmetric.
-2. $P^2 = \frac{1}{4} \begin{pmatrix} 2 & 2 \\ 2 & 2 \end{pmatrix} = P$.
-3. So $P$ is the orthogonal projection onto its image $\R(1, 1)$, as in [[the projection onto the line spanned by (1, 1)|MAP4F54GJW]].
-
-The typical use is to check a computed projection matrix: it must be symmetric and idempotent.
-The trap is to check only one of the two conditions.
+Here is a typical check: is $P = \frac{1}{2} \begin{pmatrix} 1 & 1 \\ 1 & 1 \end{pmatrix}$ an orthogonal projection?
+The matrix equals its transpose, so it is symmetric.
+Square it:
+$$P^2 = \frac{1}{4} \begin{pmatrix} 1 + 1 & 1 + 1 \\ 1 + 1 & 1 + 1 \end{pmatrix} = \frac{1}{2} \begin{pmatrix} 1 & 1 \\ 1 & 1 \end{pmatrix} = P.$$
+So $P$ is the orthogonal projection onto its image, the line $\R(1, 1)$, as in [[the projection onto the line spanned by (1, 1)|MAP4F54GJW]].
+The same two checks catch arithmetic mistakes when you compute a projection matrix by hand.
+Watch out: one check alone proves nothing, as the two examples above show.
 
 ### L3 human
 
-In a C*-algebra, an element $p$ with $p = p^2 = p^*$ is called a projection, and this theorem explains the name.
-The orthogonal projections of a finite-dimensional space form a lattice isomorphic to the lattice of subspaces.
-Two orthogonal projections commute exactly when their product is again an orthogonal projection, onto the intersection of their images.
+On a finite-dimensional space, the orthogonal projections correspond one to one with the subspaces, and the order $P \le Q$ given by $PQ = P$ matches the inclusion of images.
+Two orthogonal projections commute exactly when their product is again an orthogonal projection, and then the product projects onto the intersection of the two images.
+In the spectral theorems of the sub-area on [[operators on inner product spaces|3YM9EK6VMB]], every self-adjoint operator becomes a combination $\sum_i \lambda_i P_i$ of such projections.

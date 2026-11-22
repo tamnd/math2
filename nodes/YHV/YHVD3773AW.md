@@ -140,4 +140,5 @@ Watch out: the entries of $M$ suggest angles such as $\pi/4$, and none of them i
 The map $U \mapsto P_U$ is injective, so $\norm{P_U - P_W}_F$ is a distance on the [[Grassmannian|CYPA882RB9]] of $p$-dimensional subspaces, and by the formula above it depends only on the principal angles.
 The operator norm gives another distance: for $p = q$, $\norm{P_U - P_W}_2 = \sin \theta_p$, the sine of the largest angle.
 In statistics, the cosines of the principal angles between the column spaces of two centered data matrices are the [[canonical correlations|E0WKQ3XBAC]].
-The principal vectors give bases of $U$ and $W$ in which the projection $u \mapsto P_W u$ has a diagonal matrix with entries $\cos \theta_k$, so every pair of subspaces is, up to rotation, a list of independent planar angles.
+The principal vectors give bases of $U$ and $W$ in which the projection $u \mapsto P_W u$ has a diagonal matrix with entries $\cos \theta_k$.
+Since also $u_i \cdot w_j = 0$ for $i \ne j$, the spans of the pairs $(u_k, w_k)$ are mutually orthogonal, and the position of $U$ against $W$ splits into one angle in each of them.
