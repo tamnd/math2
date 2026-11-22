@@ -20,31 +20,42 @@ sources:
 ## Example
 
 Let $M = \begin{pmatrix} 1 & -3 \\ 0 & 1 \end{pmatrix}$.
+Its leading minors are positive, but $M$ is not positive definite, and its form even takes a negative value.
 
-1. $M$ is not [[symmetric|0N28QN4CYA]], since $m_{12} = -3 \ne 0 = m_{21}$.
-2. The leading principal [[minors|0SD528P0EK]] are $\Delta_1 = 1$ and $\Delta_2 = 1 \cdot 1 - (-3) \cdot 0 = 1$. Both are positive.
-3. For $x = (1, 1)$, we get $Mx = (1 - 3, 1) = (-2, 1)$.
-4. So $x^T M x = 1 \cdot (-2) + 1 \cdot 1 = -1 < 0$.
-5. So the form $x \mapsto x^T M x$ is not positive, even though both leading minors are positive.
-6. The form of $M$ equals the form of the symmetric part $S = \tfrac12(M + M^T) = \begin{pmatrix} 1 & -\tfrac32 \\ -\tfrac32 & 1 \end{pmatrix}$. Its minors are $1$ and $1 - \tfrac94 = -\tfrac54 < 0$, so Sylvester's test on $S$ gives the correct answer.
+1. $M$ is not [[symmetric|0N28QN4CYA]], since $m_{12} = -3$ and $m_{21} = 0$.
+2. The leading principal [[minors|0SD528P0EK]] are
+$$\Delta_1 = 1, \qquad \Delta_2 = 1 \cdot 1 - (-3) \cdot 0 = 1,$$
+and both are positive.
+3. For $x = (1, 1)$ we get $Mx = (1 - 3, 1) = (-2, 1)$, so
+$$x^{\mathsf{T}} M x = 1 \cdot (-2) + 1 \cdot 1 = -1 < 0.$$
+4. So $M$ is not [[positive definite|0QQCG3JWJ4]] under any convention, since the form is negative at a nonzero vector.
+5. The form of $M$ equals the form of its symmetric part
+$$S = \tfrac12 (M + M^{\mathsf{T}}) = \begin{pmatrix} 1 & -\tfrac32 \\ -\tfrac32 & 1 \end{pmatrix}.$$
+6. The leading minors of $S$ are $1$ and $1 - \tfrac94 = -\tfrac54$, so Sylvester's test on $S$ gives the correct answer.
+
+Check: $x^{\mathsf{T}} S x$ at $x = (1, 1)$ is $1 - \tfrac32 - \tfrac32 + 1 = -1$, the same value as in step 3.
 
 ## Remarks
 
-- [[Sylvester's criterion|0WKEF78PMV]] has the hypothesis that the matrix is Hermitian. This example shows that the hypothesis is needed, even for books that allow non-symmetric positive definite matrices.
-- The eigenvalues of $M$ are $1$ and $1$, both positive. So the eigenvalue test also fails for non-symmetric matrices.
-- The correct test for a non-symmetric real matrix is to test its symmetric part.
+[[Sylvester's criterion|0WKEF78PMV]] assumes that the matrix is Hermitian, and this example shows that the assumption is needed.
+It is needed even in books that allow non-symmetric positive definite matrices, since there the test must be run on the symmetric part.
+The leading minors of $M$ see the entry $0$ below the diagonal, but the form only sees the sum $m_{12} + m_{21} = -3$ of the two off-diagonal entries.
+
+The eigenvalue test fails in the same way: $M$ is triangular, so its eigenvalues are its diagonal entries $1$ and $1$, both positive.
+In fact every upper triangular matrix with positive diagonal has positive leading minors and positive eigenvalues, whatever its entries above the diagonal are.
+If we replace $-3$ by $c$, the form is $x_1^2 + c x_1 x_2 + x_2^2$, and it is positive for $x \ne 0$ exactly when $\abs{c} < 2$.
 
 ## Explanations
 
 ### L1 human
 
 Sylvester's test works only for symmetric matrices.
-This matrix is not symmetric, and its test numbers are $1$ and $1$.
-But at the vector $(1, 1)$ the value of $x^T M x$ is $-1$.
+This matrix is not symmetric, and its two test numbers are $1$ and $1$, both positive.
+But at the vector $(1, 1)$ the value of $x^{\mathsf{T}} M x$ is $-1$, so the test would give the wrong answer.
 
 ### L2 human
 
-For a non-symmetric real matrix $M$, only the symmetric part enters the form, because $x^T M x = x^T M^T x$.
-So any test must use $\tfrac12(M + M^T)$ and not $M$.
-The leading minors of $M$ see the entry $0$ below the diagonal, which the form does not see.
-A trap: an upper triangular matrix with a positive diagonal always has positive leading minors, whatever its other entries are.
+For a real matrix $M$, only the symmetric part enters the form, because $x^{\mathsf{T}} M x$ is a number and so equals its transpose $x^{\mathsf{T}} M^{\mathsf{T}} x$.
+Average the two expressions to get $x^{\mathsf{T}} M x = x^{\mathsf{T}} S x$ with $S = \tfrac12 (M + M^{\mathsf{T}})$.
+So every test for the sign of the form must be run on $S$, not on $M$.
+Watch out: a triangular matrix with a positive diagonal always passes the minor test and the eigenvalue test, so neither test says anything about a non-symmetric matrix.
