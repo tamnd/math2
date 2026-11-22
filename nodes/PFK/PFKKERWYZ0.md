@@ -16,23 +16,25 @@ sources:
 
 ## Example
 
-Claim: for every group $G$ and all subgroups $H$ and $K$ of $G$, the [[union|0X1GSWNBN1]] $H \cup K$ is a [[subgroup|0X1JXT47GA]] of $G$.
-We give a [[counterexample|0ED72CTBNP]].
+The claim is: for every group $G$ and all subgroups $H$ and $K$ of $G$, the [[union|0X1GSWNBN1]] $H \cup K$ is a [[subgroup|0X1JXT47GA]] of $G$.
+We refute it with a [[counterexample|0ED72CTBNP]] in the integers.
 
-1. Let $G = \mathbb{Z}$ with addition, $H = 2\mathbb{Z}$, the even integers, and $K = 3\mathbb{Z}$, the multiples of $3$.
-2. $H$ is a subgroup: it contains $0$, and sums and negatives of even integers are even. In the same way $K$ is a subgroup.
-3. $2 \in H$ and $3 \in K$, so $2$ and $3$ are in $H \cup K$.
-4. Their sum $5$ is not even and not a multiple of $3$, so $5 \notin H \cup K$.
-5. A subgroup is closed under the group operation, so $H \cup K$ is not a subgroup. The claim is false.
+1. Let $G = \mathbb{Z}$ with addition, let $H = 2\mathbb{Z}$ be the even integers, and let $K = 3\mathbb{Z}$ be the multiples of $3$.
+2. $H$ is a subgroup, because it contains $0$ and the sum and the negative of even integers are even.
+   For the same reason, $K$ is a subgroup.
+3. We have $2 \in H$ and $3 \in K$, so $2$ and $3$ both lie in $H \cup K$.
+4. Their sum is $5$, which is not even and not a multiple of $3$, so $5 \notin H \cup K$.
+5. A subgroup is closed under the group operation, so $H \cup K$ is not a subgroup, and the claim is false.
 
 ## Remarks
 
-The [[intersection|0ZNMMA9TF5]] of two subgroups is always a subgroup, and a student who knows this may expect the same for unions.
+The [[intersection|0ZNMMA9TF5]] of two subgroups is always a subgroup, so it is natural to expect the same of unions.
 The counterexample shows that the two operations behave differently.
 
-The claim becomes true under an extra hypothesis: $H \cup K$ is a subgroup if and only if $H \subseteq K$ or $K \subseteq H$.
-So any counterexample must use two subgroups, neither contained in the other, as $2\mathbb{Z}$ and $3\mathbb{Z}$ are.
-The smallest group with a counterexample is the Klein four-group $\{e, a, b, ab\}$, with $H = \{e, a\}$ and $K = \{e, b\}$: the product $ab$ is not in $H \cup K$.
+The claim becomes true with one extra hypothesis: $H \cup K$ is a subgroup if and only if $H \subseteq K$ or $K \subseteq H$.
+So every counterexample must use two subgroups, neither inside the other, as $2\mathbb{Z}$ and $3\mathbb{Z}$ are.
+In each group of order at most $3$, and in the cyclic group of order $4$, the subgroups form a chain, so these groups have no counterexample.
+The smallest group with one is the Klein four-group $\{e, a, b, ab\}$, with $H = \{e, a\}$ and $K = \{e, b\}$, since the product $ab$ lies in neither.
 
 ## Explanations
 
@@ -46,16 +48,14 @@ That one sum shows that the bag is not closed under addition.
 
 ### L2 human
 
+Why must a counterexample use two subgroups that are not nested?
 We prove the corrected statement: if $H \cup K$ is a subgroup of $G$, then $H \subseteq K$ or $K \subseteq H$.
-
-1. Suppose, for a contradiction, that $H \not\subseteq K$ and $K \not\subseteq H$.
-2. Choose $h \in H$ with $h \notin K$, and $k \in K$ with $k \notin H$.
-3. Since $H \cup K$ is a subgroup, $hk \in H \cup K$.
-4. If $hk \in H$, then $k = h^{-1}(hk) \in H$, which contradicts step 2.
-5. If $hk \in K$, then $h = (hk)k^{-1} \in K$, which contradicts step 2.
-6. Both cases are impossible, so $H \subseteq K$ or $K \subseteq H$.
-
-The typical use: a counterexample points to the missing hypothesis, and the proof of the corrected statement shows why the counterexample works.
-
-A trap: in step 2, the elements must be chosen outside the other subgroup.
-The elements $2$ and $3$ of the example work because $2 \notin 3\mathbb{Z}$ and $3 \notin 2\mathbb{Z}$.
+Suppose that $H \not\subseteq K$ and $K \not\subseteq H$, and choose $h \in H$ with $h \notin K$ and $k \in K$ with $k \notin H$.
+Since $H \cup K$ is a subgroup, the product $hk$ lies in $H$ or in $K$.
+If $hk \in H$, then
+$$k = h^{-1}(hk) \in H,$$
+which contradicts the choice of $k$.
+If $hk \in K$, then $h = (hk)k^{-1} \in K$, which contradicts the choice of $h$.
+Both cases are impossible, so one subgroup contains the other.
+In the example, $h = 2$ and $k = 3$ play these roles, because $2 \notin 3\mathbb{Z}$ and $3 \notin 2\mathbb{Z}$.
+So a counterexample points to the missing hypothesis, and the proof of the corrected statement explains why the counterexample works.
