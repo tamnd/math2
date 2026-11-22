@@ -47,7 +47,7 @@ $$J E_{43} = E_{12} E_{43} + E_{23} E_{43} = 0, \qquad E_{43} J = E_{43} E_{12} 
 So the centralizer of a Jordan matrix can have entries below the diagonal, and its shape is hard to describe.
 
 After the Weyr reordering of the basis, every commuting matrix is block upper triangular, with the block sizes of the Weyr structure.
-Problems about several commuting matrices, such as finding a basis that makes them all nearly triangular, become problems about such block matrices.
+Problems about several commuting matrices, such as approximating a commuting family by commuting diagonalizable matrices, then become problems about such block matrices.
 This is why the Weyr form is the main tool in the study of commuting matrices, while the Jordan form remains the standard one for a single matrix.
 
 ## Notation
