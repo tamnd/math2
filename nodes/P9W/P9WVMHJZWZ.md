@@ -18,24 +18,38 @@ sources:
 
 ## Example
 
-In analytic geometry, the plane is $\mathbb{R}^2$, the [[Cartesian product|09CEDJYBKP]] of the [[real numbers|08J2M1JYAG]] with themselves.
-Here a point and a [[line|0MP9BCF6DP]] are defined, so they are not [[primitive notions|QMQEJKFEYZ]].
+In analytic geometry the plane is $\mathbb{R}^2$, the [[Cartesian product|09CEDJYBKP]] of the [[real numbers|08J2M1JYAG]] with themselves.
+Here a point and a [[line|0MP9BCF6DP]] have definitions, so they are not [[primitive notions|QMQEJKFEYZ]].
+A point is a pair $(x, y)$ of real numbers.
+A line is a set
+$$\ell = \{(x, y) \in \mathbb{R}^2 : ax + by = c\}$$
+for real numbers $a$, $b$, $c$ with $(a, b) \ne (0, 0)$, and "the point $P$ lies on $\ell$" means $P \in \ell$.
+With these definitions, the incidence axiom "two distinct points lie on exactly one line" becomes a theorem, which we now prove.
 
-1. A point is a pair $(x, y)$ of real numbers.
-2. A line is a set $\ell = \{(x, y) \in \mathbb{R}^2 : ax + by = c\}$ for real numbers $a$, $b$, $c$ with $(a, b) \neq (0, 0)$.
-3. "The point $P$ lies on $\ell$" means $P \in \ell$.
-4. Axiom I1 of incidence geometry becomes a theorem. Let $(x_1, y_1) \neq (x_2, y_2)$.
-5. Existence: take $a = y_2 - y_1$, $b = x_1 - x_2$ and $c = a x_1 + b y_1$. Then $(a, b) \neq (0, 0)$, and both points satisfy $ax + by = c$, by direct substitution.
-6. Uniqueness: if both points satisfy $a'x + b'y = c'$, then $a'(x_2 - x_1) + b'(y_2 - y_1) = 0$. So $(a', b')$ is a multiple of $(a, b)$, and $c'$ is the same multiple of $c$, which gives the same set.
+1. Let $(x_1, y_1) \ne (x_2, y_2)$.
+2. Existence.
+   Take $a = y_2 - y_1$, $b = x_1 - x_2$ and $c = a x_1 + b y_1$.
+   Then $(a, b) \ne (0, 0)$, because the points differ.
+3. The first point satisfies $a x_1 + b y_1 = c$ by the choice of $c$.
+   For the second point, $a x_2 + b y_2 - c = a(x_2 - x_1) + b(y_2 - y_1) = (y_2 - y_1)(x_2 - x_1) - (x_2 - x_1)(y_2 - y_1) = 0$.
+4. Uniqueness.
+   Suppose that both points also satisfy $a' x + b' y = c'$ with $(a', b') \ne (0, 0)$.
+   Subtracting the two equations gives $a'(x_2 - x_1) + b'(y_2 - y_1) = 0$, so $(a', b')$ is perpendicular to the nonzero vector $(x_2 - x_1, y_2 - y_1)$.
+5. The vector $(a, b)$ is perpendicular to the same vector, by step 3.
+   In $\mathbb{R}^2$ the vectors perpendicular to a nonzero vector form a line through the origin, so $(a', b') = t(a, b)$ with $t \ne 0$.
+6. Then $c' = a' x_1 + b' y_1 = t c$, so the equation $a' x + b' y = c'$ is $t$ times the equation $ax + by = c$, and both define the same set.
 
-So in this setting "line" has a definition, and the axioms of incidence geometry are theorems about real numbers.
+So in analytic geometry "line" is a defined notion, and the axioms of incidence geometry are theorems about real numbers.
 
 ## Remarks
 
-1. The real numbers are themselves defined in set theory, so the chain of definitions ends at the primitive notions of set theory.
-2. The condition $(a, b) \neq (0, 0)$ is part of the definition. Without it, $0x + 0y = 0$ would give the whole plane, and $0x + 0y = 1$ would give the empty set.
-3. This model of geometry shows that the axioms of incidence geometry are consistent, if the real numbers are.
-4. Compare the [[three-point model|RF12XC7AY0]], where lines are sets with two elements.
+The condition $(a, b) \ne (0, 0)$ is part of the definition for a reason.
+Without it, $0x + 0y = 0$ would make the whole plane a "line", and $0x + 0y = 1$ would make the empty set one.
+
+The chain of definitions does not stop at the real numbers, since they are in turn defined sets.
+It ends at the primitive notions of set theory, set and membership.
+The coordinate plane is also a model of incidence geometry, so the incidence axioms are consistent if the real numbers are.
+Compare the [[three-point model|RF12XC7AY0]], another model in which lines are sets with two elements.
 
 ## Explanations
 
@@ -48,12 +62,10 @@ In pure geometry, without coordinates, the same words are not defined, and only 
 
 ### L2 human
 
-We find the line through $(1, 2)$ and $(3, 6)$ with the formula from step 5.
-
-1. Take $a = 6 - 2 = 4$ and $b = 1 - 3 = -2$.
-2. Then $c = 4 \cdot 1 + (-2) \cdot 2 = 0$. So the line is $4x - 2y = 0$, that is, $y = 2x$.
-3. Check: $4 \cdot 3 - 2 \cdot 6 = 0$, so $(3, 6)$ lies on it.
-
-The typical use: in coordinates, statements about lines become equations that we can solve.
-A trap is to think that the equation is unique.
-The equations $4x - 2y = 0$ and $2x - y = 0$ define the same line.
+We find the line through $(1, 2)$ and $(3, 6)$ with the formula of step 2.
+It gives
+$$a = 6 - 2 = 4, \qquad b = 1 - 3 = -2, \qquad c = 4 \cdot 1 + (-2) \cdot 2 = 0,$$
+so the line is $4x - 2y = 0$, which is $y = 2x$.
+Check: $4 \cdot 3 - 2 \cdot 6 = 0$, so $(3, 6)$ lies on it.
+The typical use is that statements about lines in coordinates become equations that we can solve.
+Watch out: the equation of a line is not unique, since $4x - 2y = 0$ and $2x - y = 0$ define the same line, as step 6 predicts with $t = \tfrac{1}{2}$.

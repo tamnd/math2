@@ -16,23 +16,34 @@ sources:
 
 ## Example
 
-In [[Zermelo-Fraenkel set theory|0HE5WDQ9FJ]], the objects are sets, and the only primitive relation is membership $x \in y$.
-Neither "set" nor "$\in$" has a definition.
-We show how other notions are defined from these [[primitive notions|QMQEJKFEYZ]], and how the axioms give them their properties.
+In [[Zermelo-Fraenkel set theory|0HE5WDQ9FJ]] the objects are sets, and the only primitive relation is membership, $x \in y$.
+Neither "set" nor "$\in$" has a definition, so both are [[primitive notions|QMQEJKFEYZ]].
+We follow a few definitions down to them, and we see how the axioms give the defined notions their properties.
 
-1. Subset is defined: $x \subseteq y$ means $\forall z\,(z \in x \Rightarrow z \in y)$, see [[subset|0BJR9QR08E]]. The definiens uses only $\in$ and logic.
-2. Equality is governed by the [[axiom of extensionality|0TB16T2C97]]: if $x$ and $y$ have the same elements, then $x = y$.
-3. Some set $x$ satisfies $\forall z\,(z \notin x)$. Some presentations take this as an axiom, and others derive it from the axioms of infinity and separation.
-4. It is unique by extensionality: two sets with no elements have the same elements.
-5. So "the [[empty set|0ECVK59Y03]]" is a legal definition, written $\varnothing$.
-6. The natural numbers are then defined: $0 = \varnothing$, $1 = \{\varnothing\}$, $2 = \{\varnothing, \{\varnothing\}\}$, and so on.
+1. [[Subset|0BJR9QR08E]] is defined from membership:
+   $$x \subseteq y \quad \text{means} \quad \forall z \, (z \in x \Rightarrow z \in y).$$
+   The definiens uses only $\in$ and logic.
+2. Equality of sets is governed by the [[axiom of extensionality|0TB16T2C97]]: if $x$ and $y$ have the same elements, then $x = y$.
+3. Some set $x$ satisfies $\forall z \, (z \notin x)$.
+   Some presentations take this as an axiom, and others derive it from the existence of some set and the axiom schema of separation.
+4. Such a set is unique, by extensionality: two sets with no elements have the same elements.
+5. So "the [[empty set|0ECVK59Y03]]", written $\varnothing$, is a legal definition by definite description.
+6. The natural numbers are then defined, in von Neumann's way, as
+   $$0 = \varnothing, \qquad 1 = \{\varnothing\}, \qquad 2 = \{\varnothing, \{\varnothing\}\},$$
+   and in general $n + 1 = n \cup \{n\}$.
 
 ## Remarks
 
-1. The axioms never say what a set "is". They state which sets exist and when two sets are equal.
-2. The naive description "a set is any collection of objects" leads to [[Russell's paradox|0HESMMSYEG]]. The axioms of ZF replace this description and allow only certain collections as sets.
-3. Some set theories, such as von Neumann-Bernays-Gödel set theory, add "class" as a second primitive notion.
-4. The step from $\in$ to the natural numbers shows that a single primitive relation can support most of mathematics.
+The axioms never say what a set is.
+They say which sets exist and when two sets are equal, and that is all a proof may use.
+
+The naive description "a set is any collection of objects" leads to [[Russell's paradox|0HESMMSYEG]]: the collection of all sets that are not elements of themselves would be an element of itself exactly when it is not.
+The axioms of ZF replace that description, and they allow only certain collections to be sets.
+Other set theories choose more primitive notions.
+Von Neumann-Bernays-Gödel set theory, for example, adds "class" as a second kind of object.
+
+The step from $\in$ to the natural numbers shows how far one primitive relation can carry a theory.
+Integers, rationals, real numbers, functions and spaces are all defined sets in ZF.
 
 ## Explanations
 
@@ -41,16 +52,13 @@ We show how other notions are defined from these [[primitive notions|QMQEJKFEYZ]
 Set theory starts with two ideas that it does not explain: a "set", and one thing being "in" a set.
 It then gives rules, such as "two sets with the same members are the same set".
 From these ideas and rules, mathematicians build numbers, functions and almost everything else.
-Even the number $0$ is built as the set with nothing in it.
+Even the number $0$ is built, as the set with nothing in it.
 
 ### L2 human
 
 We prove from extensionality that $\{a, a\} = \{a\}$.
-
-1. By definition, $z \in \{a, a\}$ exactly when $z = a$ or $z = a$, that is, exactly when $z = a$.
-2. By definition, $z \in \{a\}$ exactly when $z = a$.
-3. So the two sets have the same elements.
-4. By the axiom of extensionality, $\{a, a\} = \{a\}$.
-
-The typical use: to prove that two sets are equal, show that each element of one is an element of the other.
-A trap is to argue from a picture of a set as a list, where $\{a, a\}$ would have two entries.
+By the meaning of the brace notation, $z \in \{a, a\}$ holds exactly when $z = a$ or $z = a$, which is exactly when $z = a$.
+In the same way, $z \in \{a\}$ holds exactly when $z = a$.
+So the two sets have the same elements, and the axiom of extensionality gives $\{a, a\} = \{a\}$.
+The typical use of extensionality is this: to prove that two sets are equal, show that every element of each one is an element of the other.
+Watch out: a picture of a set as a list would give $\{a, a\}$ two entries, but a set has no order and no repeated members.
