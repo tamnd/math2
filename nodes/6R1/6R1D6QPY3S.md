@@ -28,6 +28,9 @@ All of this prepares [[diagonalization and invariant subspaces|Z6S6PWMJPH]] and 
 6. [[Characteristic polynomial of an endomorphism|C98TZ6ZAXC]]: why the polynomial does not depend on the basis, and how it splits for direct sums and block triangular matrices.
 7. [[Eigenvalues are the roots of the characteristic polynomial|053QVHF6N7]]: the link between the two definitions, and the bound of at most $n$ eigenvalues.
 8. [[Computing eigenvalues and eigenvectors by hand|7JJE96MZQY]]: the full method on $2 \times 2$ and $3 \times 3$ matrices, with complex and triangular cases.
+
+### Reading order, continued: multiplicities and existence
+
 9. [[Coefficients of the characteristic polynomial|0FRYPZ6D0X]]: how to read the polynomial off principal minors, with the trace and the determinant at the two ends.
 10. [[Trace is the sum of the eigenvalues|0NMXDCNNKR]]: a quick check on any eigenvalue computation, counted with multiplicity.
 11. [[Determinant is the product of the eigenvalues|0C2F40MEBC]]: the companion check, and a second view of invertibility.
@@ -38,6 +41,9 @@ All of this prepares [[diagonalization and invariant subspaces|Z6S6PWMJPH]] and 
 16. [[Invariant subspaces of dimension 1 or 2 for real operators|KAV44BRV77]]: what survives over the real numbers, including a real eigenvalue in odd dimension.
 17. [[Eigenvalues of AB and BA|MCXV71BY74]]: why the two products share their nonzero eigenvalues even when they are different matrices.
 18. [[Left eigenvector|32M8VY9A1M]]: eigenvectors that multiply from the left, their use in Markov chains, and their orthogonality to right eigenvectors.
+
+### Reading order, continued: polynomials in a map
+
 19. [[Polynomial of an endomorphism|0E3MV6E6MG]]: how to put a map into a polynomial, and why $p(T)$ has the eigenvalues $p(\lambda)$.
 20. [[Annihilating polynomial|0PBN8VEKY8]]: why some nonzero polynomial always kills a map in finite dimension.
 21. [[Minimal polynomial|03NDVCSHSB]]: the smallest such polynomial, and how to compute it for projections, nilpotent and diagonal matrices.
