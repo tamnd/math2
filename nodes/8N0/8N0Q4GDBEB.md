@@ -15,6 +15,8 @@ sources:
 
 ## Proof
 
+We compare two factorizations through the matrix $L_2^{-1} L_1 = U_2 U_1^{-1}$, which is both unit lower triangular and upper triangular and so must be $I_n$; the other parts follow by applying this to $L \cdot (DV)$ and to the transpose.
+
 We use one fact (T) several times.
 If $X$ and $Y$ are upper triangular, then $XY$ is upper triangular with diagonal entries $x_{ii} y_{ii}$.
 The reason is that entry $(i, j)$ is $\sum_l x_{il} y_{lj}$, and a term is nonzero only if $i \le l \le j$.
@@ -50,12 +52,13 @@ The same holds for lower triangular matrices.
 
 ## Idea
 
-Two LU decompositions give a matrix that is unit lower triangular and also upper triangular.
-Only the identity matrix has both forms.
-The LDU form and its symmetric case follow by applying this to $L \cdot (DV)$ and to the transpose.
+Put the lower triangular factors on one side of the equation and the upper triangular factors on the other.
+The two sides are then a matrix that is unit lower triangular and also upper triangular, and only the identity matrix has both forms.
+Invertibility is used once, to invert $U_1$; this is why the zero matrix, with its many factorizations, is not a counterexample.
+The LDU form and its symmetric case follow by applying the same fact to $L \cdot (DV)$ and to the transpose.
 
 ## Variants
 
-One can also prove part 1 from the [[existence theorem|3PPBWG0B96]].
-The entries of $L$ and $U$ are found one by one from $A = LU$, row by row.
-Each equation has exactly one solution.
+One can also prove part 1 by solving $A = LU$ for the unknown entries.
+Taken row by row, each new equation contains one new unknown entry of $L$ or $U$, and the entries of $L$ are found by dividing by a pivot $u_{kk}$.
+The pivots are nonzero because $A$ is invertible, so each equation has exactly one solution.

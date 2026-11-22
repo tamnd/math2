@@ -20,7 +20,7 @@ We use the [[rank-nullity theorem|0W4FSW1TVB]] to build a right inverse, and the
 1. Assume $BA = I_n$, where $I_n$ is the [[identity matrix|06DW9BAWB1]]. Define $T \colon F^n \to F^n$ by $T(x) = Ax$, the [[matrix-vector product|0CCQV3884B]].
 2. By [[distributivity|0RXD6EZYBK]], $A(x + y) = Ax + Ay$. Entry by entry, $A(cx) = c(Ax)$ for $c \in F$, since $F$ is commutative. So $T$ is a [[linear map|0NRYHJPQG2]].
 3. Let $x \in \ker T$, the [[kernel|02YFME3RGW]] of $T$, so $Ax = 0$. View $x$ as an $n \times 1$ matrix. By [[associativity|073E4XC016]], $x = I_n x = (BA)x = B(Ax) = B0 = 0$.
-4. So $\ker T = \set{0}$, and $\dim \ker T = 0$, since the empty family is a basis of $\set{0}$.
+4. So $\ker T = \{0\}$, and $\dim \ker T = 0$, since the empty family is a basis of $\{0\}$.
 5. By the rank-nullity theorem and the [[dimension of the coordinate space|0QK7FPE6VE]], $\dim \im T = n - 0 = n$, where $\im T$ is the [[image|0JB228DCWB]] of $T$.
 6. The image $\im T$ is a [[linear subspace|0EPTJA5QV4]] of $F^n$ of dimension $n = \dim F^n$. By [[a subspace of full dimension is the whole space|0WGAXEK99E]], $\im T = F^n$.
 7. Let $e_1, \dots, e_n$ be the [[standard basis|0V7ZD6P7RK]] of $F^n$. By step 6, for each $j$ there is $c_j \in F^n$ with $A c_j = e_j$.
@@ -33,11 +33,13 @@ We use the [[rank-nullity theorem|0W4FSW1TVB]] to build a right inverse, and the
 
 ## Idea
 
-A left inverse forces $x \mapsto Ax$ to be injective.
-For a square matrix, rank-nullity turns injective into surjective, so $A$ also has a right inverse $C$.
+A left inverse forces the map $x \mapsto Ax$ to be injective, because $B$ recovers $x$ from $Ax$.
+For a square matrix the source and the target have the same dimension, so rank-nullity turns injective into surjective.
+Surjectivity lets us solve $Ac_j = e_j$ for each column, which builds a right inverse $C$.
 A left inverse and a right inverse of the same matrix are always equal, because $B = B(AC) = (BA)C = C$.
 
 ## Variants
 
 The [[elimination proof|MT0Z14F36B]] replaces rank-nullity by row reduction.
 Over a commutative ring, the determinant gives a third proof: $\det B \det A = 1$, so $\det A$ is a unit.
+In infinite dimension step 6 fails, since an injective map can miss part of the space, as the right shift on sequences does.

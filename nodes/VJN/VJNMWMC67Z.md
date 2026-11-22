@@ -15,6 +15,8 @@ sources:
 
 ## Proof
 
+We treat upper triangular matrices by back substitution, which either builds a nonzero solution of $Ux = 0$ or builds the inverse column by column; lower triangular matrices then follow by the transpose, and the subgroups by multiplying out.
+
 First let $U = (u_{ij})$ be [[upper triangular|0N4XY7Z3NN]], so $u_{ij} = 0$ for $i > j$.
 
 **A zero on the diagonal makes $U$ singular.**
@@ -53,9 +55,10 @@ First let $U = (u_{ij})$ be [[upper triangular|0N4XY7Z3NN]], so $u_{ij} = 0$ for
 
 ## Idea
 
-Back substitution solves an upper triangular system from the bottom up, and it divides only by diagonal entries.
-If no diagonal entry is $0$, it solves $Ux = e_j$ for each $j$, and the solutions stay in the upper part.
-If a diagonal entry is $0$, the same method makes a nonzero solution of $Ux = 0$.
+Back substitution solves an upper triangular system from the bottom up, and the only divisions it needs are by diagonal entries.
+If no diagonal entry is $0$, it solves $Ux = e_j$ for each $j$, and since the bottom entries of $e_j$ are $0$, so are the bottom entries of the solution; that is why the inverse stays upper triangular.
+If a diagonal entry $u_{kk}$ is $0$, set $x_k = 1$ and run the same method upward from row $k - 1$, and the result is a nonzero solution of $Ux = 0$.
+Taking the first zero on the diagonal guarantees that every division in that run is allowed.
 
 ## Variants
 

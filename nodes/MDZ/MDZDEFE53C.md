@@ -15,6 +15,7 @@ sources:
 
 ## Statement
 
+When an invertible matrix is changed by a matrix of low rank, the new inverse is the old inverse minus a correction that needs only one small inversion.
 Let $F$ be a [[field|0QA8CHH8MG]], and let $A$ be an [[invertible|0EB9N0S33C]] $n \times n$ matrix over $F$.
 Let $U$ be $n \times k$, let $C$ be an invertible $k \times k$ matrix and let $V$ be $k \times n$.
 Put $K = C^{-1} + V A^{-1} U$, a $k \times k$ matrix.
@@ -26,28 +27,34 @@ $$(A + uv^{\mathsf{T}})^{-1} = A^{-1} - \frac{A^{-1} u v^{\mathsf{T}} A^{-1}}{1 
 
 ## Remarks
 
-### Why each hypothesis is needed
+### The theorem at work
 
-- $A$ must be invertible, because the formula uses $A^{-1}$. A rank one update of a singular matrix can be invertible: $\begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix} + e_2 e_2^{\mathsf{T}} = I_2$.
-- The condition on $K$ cannot be dropped. For $A = I_2$, $u = e_1$ and $v = -e_1$, we get $1 + v^{\mathsf{T}} u = 0$, and $A + uv^{\mathsf{T}} = \operatorname{diag}(0, 1)$ is singular.
-- $C$ must be invertible for $K$ to be defined. Without this, one can use the form $(A + UCV)^{-1} = A^{-1} - A^{-1} U (I_k + C V A^{-1} U)^{-1} C V A^{-1}$.
+Take $A = I_2$, $u = (1, 0)^{\mathsf{T}}$ and $v = (0, 1)^{\mathsf{T}}$, so that $A + uv^{\mathsf{T}} = \begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$.
+The denominator is $1 + v^{\mathsf{T}} u = 1 + 0 = 1$, and part 2 gives
+$$(I_2 + uv^{\mathsf{T}})^{-1} = I_2 - uv^{\mathsf{T}} = \begin{pmatrix} 1 & -1 \\ 0 & 1 \end{pmatrix}.$$
+Check: $\begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}\begin{pmatrix} 1 & -1 \\ 0 & 1 \end{pmatrix} = \begin{pmatrix} 1 & -1 + 1 \\ 0 & 1 \end{pmatrix} = I_2$.
+The [[worked $3 \times 3$ example|RNZ6YSRZWP]] has the denominator $3/2$.
 
-### Consequences
+### Why the hypotheses are needed
 
-- Updating an inverse: if $A^{-1}$ is known, the inverse after a rank $k$ change costs one $k \times k$ inversion and $O(n^2 k)$ further operations. A new $n \times n$ inversion is not needed.
-- Updating a solution: if $Ay = b$ and $Az = u$ are solved, then the solution of $(A + uv^{\mathsf{T}}) x = b$ is $x = y - \dfrac{v^{\mathsf{T}} y}{1 + v^{\mathsf{T}} z}\, z$.
-- The formula is used in the [[recursive least squares filter|HX0EMWJBNJ]] and in [[Broyden's method|GYNYT7KTC3]], where a rank one update is made at each step.
-- The [[matrix determinant lemma|0BC3Q6K92H]] is the companion result: $\det(A + uv^{\mathsf{T}}) = (1 + v^{\mathsf{T}} A^{-1} u) \det A$.
+$A$ must be invertible, because the formula uses $A^{-1}$, although a rank one update of a singular matrix can be invertible: $\begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix} + e_2 e_2^{\mathsf{T}} = I_2$.
+The condition on $K$ cannot be dropped.
+For $A = I_2$, $u = e_1$ and $v = -e_1$, we get $1 + v^{\mathsf{T}} u = 0$, and $A + uv^{\mathsf{T}} = \operatorname{diag}(0, 1)$ is singular.
+$C$ must be invertible for $K$ to be defined; without this, one can use the form $(A + UCV)^{-1} = A^{-1} - A^{-1} U (I_k + C V A^{-1} U)^{-1} C V A^{-1}$.
 
-### Converse
+### What it gives you
 
-The formula is symmetric: if $W = (A + UCV)^{-1}$ exists, then $K^{-1} = C - CVWUC$.
-This gives the "only if" direction of part 1.
+If $A^{-1}$ is known, the inverse after a change of rank $k$ costs one $k \times k$ inversion and $O(n^2 k)$ further operations, with no new $n \times n$ inversion.
+Solutions can be updated in the same way: if $Ay = b$ and $Az = u$ are solved, then the solution of $(A + uv^{\mathsf{T}}) x = b$ is
+$$x = y - \frac{v^{\mathsf{T}} y}{1 + v^{\mathsf{T}} z}\, z.$$
+The formula is used in the [[recursive least squares filter|HX0EMWJBNJ]] and in [[Broyden's method|GYNYT7KTC3]], where a rank one update is made at each step.
+The [[matrix determinant lemma|0BC3Q6K92H]] is the companion result, $\det(A + uv^{\mathsf{T}}) = (1 + v^{\mathsf{T}} A^{-1} u) \det A$.
 
-### Generalizations
+### Converse and generalizations
 
-- The identity holds in any ring for units $A$, $C$ and $K$, with the same proof by multiplication.
-- It is the upper left block of the [[block inverse formula|5QTK7JWXF3]] for $\begin{pmatrix} A & U \\ V & -C^{-1} \end{pmatrix}$, computed in two ways.
+The formula is symmetric: if $W = (A + UCV)^{-1}$ exists, then $K^{-1} = C - CVWUC$, and this gives the "only if" direction of part 1.
+The identity holds in any ring for units $A$, $C$ and $K$, with the same proof by multiplication.
+It is the upper left block of the [[block inverse formula|5QTK7JWXF3]] for $\begin{pmatrix} A & U \\ V & -C^{-1} \end{pmatrix}$, computed in two ways.
 
 ## History
 
@@ -64,14 +71,10 @@ For a change of rank one, the correction needs only one division by a number.
 
 ### L2 human
 
-Take $A = I_2$, $u = (1, 0)^{\mathsf{T}}$ and $v = (0, 1)^{\mathsf{T}}$.
-
-1. $A + uv^{\mathsf{T}} = \begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$.
-2. $1 + v^{\mathsf{T}} u = 1 + 0 = 1$.
-3. The formula gives $I_2 - uv^{\mathsf{T}} = \begin{pmatrix} 1 & -1 \\ 0 & 1 \end{pmatrix}$.
-4. Check: $\begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}\begin{pmatrix} 1 & -1 \\ 0 & 1 \end{pmatrix} = I_2$.
-
-The [[worked $3 \times 3$ example|RNZ6YSRZWP]] has the denominator $3/2$.
+Compute $z = A^{-1}u$ and $w^{\mathsf{T}} = v^{\mathsf{T}}A^{-1}$ first, then the number $1 + v^{\mathsf{T}} z$.
+If that number is $0$, stop: the new matrix is singular.
+Otherwise subtract the outer product $z w^{\mathsf{T}}$, divided by that number, from $A^{-1}$.
+A trap: the correction is $A^{-1} u v^{\mathsf{T}} A^{-1}$, not $u v^{\mathsf{T}}$; the factors $A^{-1}$ on both sides are easy to forget when $A \ne I_n$.
 
 ### L3 human
 

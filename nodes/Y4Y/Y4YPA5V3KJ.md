@@ -16,19 +16,24 @@ sources:
 
 ## Example
 
-Let $D = \operatorname{diag}(2, 1) = \begin{pmatrix} 2 & 0 \\ 0 & 1 \end{pmatrix}$ over $\mathbb{R}$.
+Fixing a line pointwise is not enough to be a transvection, as the dilation
+$$D = \operatorname{diag}(2, 1) = \begin{pmatrix} 2 & 0 \\ 0 & 1 \end{pmatrix}, \qquad D \begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 2x \\ y \end{pmatrix}$$
+over $\mathbb{R}$ shows.
+It fixes the $y$-axis pointwise, since $D(0, y)^{\mathsf{T}} = (0, y)^{\mathsf{T}}$, just as a transvection fixes its hyperplane.
 
-1. $D(0, y)^{\mathsf{T}} = (0, y)^{\mathsf{T}}$, so $D$ fixes the $y$-axis pointwise, as a transvection fixes its hyperplane.
-2. $D(x, y)^{\mathsf{T}} - (x, y)^{\mathsf{T}} = (x, 0)^{\mathsf{T}}$. This difference lies on the $x$-axis, which is not inside the fixed line.
-3. For a [[transvection|0NMN00FNW1]] $x \mapsto x + \varphi(x) v$, the difference lies on the line through $v$, and $v$ lies in the fixed hyperplane $\ker \varphi$. Step 2 breaks this.
-4. $\det D = 2 \ne 1$, while each transvection has determinant $1$.
-5. $D$ is not of the form $I_2 + cE_{ij}$ with $i \ne j$: we have $D = I_2 + E_{11}$, with equal indices.
+The difference is in the direction of motion.
+For a [[transvection|0NMN00FNW1]] $x \mapsto x + \varphi(x)v$, each point moves along the line through $v$, and $v$ lies in the fixed hyperplane $\ker\varphi$.
+For $D$,
+$$D \begin{pmatrix} x \\ y \end{pmatrix} - \begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} x \\ 0 \end{pmatrix},$$
+so points move along the $x$-axis, which is not inside the fixed line.
+The determinant confirms this: $\det D = 2$, while every transvection has determinant $1$.
+Finally, $D = I_2 + E_{11}$ has the form $I + cE_{ij}$ only with equal indices, which the definition of a transvection excludes.
 
 ## Remarks
 
-The example shows that "fixes a hyperplane" is not enough; the condition $\varphi(v) = 0$ is the heart of the definition.
+The condition $\varphi(v) = 0$ is the heart of the definition, and the dilation fails exactly there: in the coordinate-free form $D(x) = x + \varphi(x)v$ with $\varphi(x) = x_1$ and $v = e_1$, we get $\varphi(v) = 1$.
 If we replace $2$ by $1$, we get $I_2$, which some books count as the trivial transvection $T_{12}(0)$.
-$D$ is an elementary matrix of the scaling type $D_1(2)$, so it is invertible, with inverse $\operatorname{diag}(\tfrac{1}{2}, 1)$.
+The matrix $D$ is an elementary matrix of the scaling type $D_1(2)$, so it is invertible, with inverse $\operatorname{diag}(\tfrac{1}{2}, 1)$.
 
 ## Explanations
 
@@ -40,5 +45,6 @@ A shear never changes area, so this is not a shear.
 
 ### L2 human
 
-The test is the determinant or the direction of motion.
+There are two quick tests: the determinant must be $1$, and $D - I$ must square to $0$.
+Here $D - I = E_{11}$ and $E_{11}^2 = E_{11} \ne 0$, so both tests fail.
 A trap: $I + E_{11}$ looks like the formula $I + cE_{ij}$, but the indices must be different.

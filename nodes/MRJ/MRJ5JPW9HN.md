@@ -35,8 +35,12 @@ $$S(x_1, x_2, x_3, \dots) = (0, x_1, x_2, \dots), \qquad L(x_1, x_2, x_3, \dots)
 ## Remarks
 
 The example shows that the theorem on [[one-sided inverses of square matrices|0753Y2X5K6]] needs finite dimension.
-Each finite truncation fails to give a counterexample: the $n \times n$ upper left corners $L_n$ and $S_n$ satisfy $L_n S_n = I_n - E_{nn}$, which is not $I_n$.
-The left inverse of $S$ is not unique: the map $L'(x) = (x_2, x_3, \dots) + x_1 (1, 0, 0, \dots)$ also satisfies $L'S = \id_V$, since $S(x)$ has first entry $0$.
+Cutting the matrices down to a finite size does not give a counterexample.
+The $n \times n$ upper left corners $L_n$ and $S_n$ satisfy $L_n S_n = I_n - E_{nn}$, because the last row of $S_n$ is cut off, and this is not $I_n$.
+So the identity $LS = I$ lives only in infinite size.
+
+The left inverse of $S$ is not unique, unlike the inverse of an invertible matrix.
+The map $L'(x) = (x_1 + x_2, x_3, x_4, \dots)$ also satisfies $L'S = \id_V$, since $S(x)$ has first entry $0$.
 Another view of the same phenomenon is the [[shift on the natural numbers|M9QVG263VV]].
 
 ## Explanations

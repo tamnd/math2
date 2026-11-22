@@ -29,10 +29,12 @@ We multiply $A$ on the left by one $3 \times 3$ [[elementary matrix|0M79HRJCRR]]
 
 ## Remarks
 
-Each product in steps 1 to 3 follows the rule of the [[row operation theorem|F7F6AA3XQ7]].
-Row $k$ of $EA$ is the combination of the rows of $A$ given by row $k$ of $E$.
+Each product in steps 1 to 3 follows the rule of the [[row operation theorem|F7F6AA3XQ7]]: row $k$ of $EA$ is the combination of the rows of $A$ whose coefficients are the entries of row $k$ of $E$.
 Step 7 shows that the whole elimination is a single left multiplication by the invertible matrix $E$.
-Row 3 of $E$ records the dependence $a_1 - 2a_2 + a_3 = 0$ among the rows of $A$.
+
+The matrix $E$ also carries information about $A$.
+Its third row $(1, -2, 1)$ records the dependence $a_1 - 2a_2 + a_3 = 0$ among the rows $a_1, a_2, a_3$ of $A$, and that is why the echelon form has a zero row.
+If we change the last entry of $A$ from $6$ to $7$, row 3 of $EA$ becomes $(1 - 6 + 5, 2 - 8 + 7) = (0, 1)$, the dependence is gone, and the echelon form has two pivots and no zero row.
 
 ## Explanations
 

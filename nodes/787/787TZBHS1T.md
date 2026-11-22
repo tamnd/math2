@@ -17,20 +17,24 @@ sources:
 ## Example
 
 Let $A = \begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}$ over $\mathbb{R}$.
-The map $x \mapsto Ax$ turns each vector of the plane by a quarter turn counterclockwise: $A(x_1, x_2)^{\mathsf{T}} = (-x_2, x_1)^{\mathsf{T}}$.
+It turns each vector of the plane a quarter turn counterclockwise, because $A(x_1, x_2)^{\mathsf{T}} = (-x_2, x_1)^{\mathsf{T}}$; for example $(1, 0)$ goes to $(0, 1)$.
 Let $B = \begin{pmatrix} 0 & 1 \\ -1 & 0 \end{pmatrix}$, the quarter turn clockwise.
 
-1. $AB = \begin{pmatrix} 0 \cdot 0 + (-1)(-1) & 0 \cdot 1 + (-1) \cdot 0 \\ 1 \cdot 0 + 0 \cdot (-1) & 1 \cdot 1 + 0 \cdot 0 \end{pmatrix} = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix} = I_2$.
-2. $BA = \begin{pmatrix} 0 \cdot 0 + 1 \cdot 1 & 0 \cdot (-1) + 1 \cdot 0 \\ (-1) \cdot 0 + 0 \cdot 1 & (-1)(-1) + 0 \cdot 0 \end{pmatrix} = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix} = I_2$.
+1. Multiply row by column:
+$$AB = \begin{pmatrix} 0 \cdot 0 + (-1)(-1) & 0 \cdot 1 + (-1) \cdot 0 \\ 1 \cdot 0 + 0 \cdot (-1) & 1 \cdot 1 + 0 \cdot 0 \end{pmatrix} = I_2.$$
+2. In the other order:
+$$BA = \begin{pmatrix} 0 \cdot 0 + 1 \cdot 1 & 0 \cdot (-1) + 1 \cdot 0 \\ (-1) \cdot 0 + 0 \cdot 1 & (-1)(-1) + 0 \cdot 0 \end{pmatrix} = I_2.$$
 3. By steps 1 and 2 and the [[definition|0TWTS88TWN]], $A$ is invertible and $A^{-1} = B$.
-4. $A^2 = \begin{pmatrix} -1 & 0 \\ 0 & -1 \end{pmatrix} = -I_2$, the half turn.
-5. So $A^3 = A^2 A = -A = B$ and $A^4 = (-I_2)^2 = I_2$. The inverse is three quarter turns.
+4. Two quarter turns make a half turn: $A^2 = \begin{pmatrix} -1 & 0 \\ 0 & -1 \end{pmatrix} = -I_2$.
+5. So $A^3 = A^2 A = -A = B$ and $A^4 = (-I_2)^2 = I_2$, which means three quarter turns counterclockwise also undo one.
 
 ## Remarks
 
-The inverse $B = -A$ is also the transpose $A^{\mathsf{T}}$.
-This holds for each rotation matrix, because rotations keep lengths and angles; such matrices are the orthogonal matrices of the sub-area on [[isometries|AZS5BPF5H3]].
-The example also shows that $A^{-1}$ can be a power of $A$: here $A^{-1} = A^3$, since $A^4 = I_2$.
+The inverse $B$ equals $-A$, and it also equals the transpose $A^{\mathsf{T}}$.
+The second fact holds for every rotation matrix, because rotations keep lengths and angles; such matrices are the orthogonal matrices of the sub-area on [[isometries|AZS5BPF5H3]].
+The example also shows that an inverse can be a power of the matrix: here $A^{-1} = A^3$ because $A^4 = I_2$.
+
+If we replace the entry $-1$ by $0$, the matrix becomes $\begin{pmatrix} 0 & 0 \\ 1 & 0 \end{pmatrix}$, which sends $(0, 1)$ to $(0, 0)$ and is singular.
 
 ## Explanations
 
@@ -42,6 +46,6 @@ Four quarter turns to the left bring the picture back, so three turns to the lef
 
 ### L2 human
 
-The point of the example is that a matrix with zeros on the diagonal can still be invertible.
-The test is the product, not the look of the entries.
-A trap: the inverse is not the matrix with each entry inverted, which here does not even exist because of the zero entries.
+The point of the example is that a matrix with zeros on its diagonal can still be invertible.
+The test is the product with the candidate, not the look of the entries.
+Watch out: the inverse is not the matrix of inverted entries, which here does not even exist because of the zero entries.

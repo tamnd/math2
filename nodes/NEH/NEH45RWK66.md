@@ -15,6 +15,7 @@ sources:
 
 ## Example
 
+Two diagonal matrices that differ in a single entry can fail to be equivalent, because that entry changes the rank.
 Let $A = \begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix}$ and $B = I_2$ over $\mathbb{Q}$.
 
 1. The column space of $A$ is spanned by $e_1$, so $\operatorname{rank} A = 1$, by the [[definition of rank|0EWQEYRVA8]].
@@ -23,16 +24,22 @@ Let $A = \begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix}$ and $B = I_2$ over $\math
 4. By the [[rank of a product|02FDWY55AS]], $\operatorname{rank}(PAQ) \le \operatorname{rank} A = 1$.
 5. This contradicts $\operatorname{rank} B = 2$. So $A$ and $B$ are not [[equivalent|0P21AVFFSP]].
 
-A second argument, without rank:
-
-6. If $B = PAQ$, then $PAQ$ is invertible, so $A = P^{-1} B Q^{-1}$ is invertible as a [[product of invertible matrices|0S4WTRE9GG]].
-7. But $A e_2 = 0$ with $e_2 \ne 0$, so $A$ is not invertible. This is again a contradiction.
+A second argument avoids rank.
+If $B = PAQ$, then $A = P^{-1} B Q^{-1}$ is invertible as a [[product of invertible matrices|0S4WTRE9GG]].
+But $A e_2 = 0$ with $e_2 \ne 0$, so $A$ is not invertible, which is again a contradiction.
 
 ## Remarks
 
-The two matrices have the same size and are both diagonal, and they agree in the entry $(1, 1)$.
-None of this matters: equivalence sees only the rank.
+### What equivalence sees
+
+The two matrices have the same size, are both diagonal, and agree in the entry $(1, 1)$.
+None of this matters, because equivalence sees only the rank.
 For $2 \times 2$ matrices there are exactly three classes, of rank $0$, $1$ and $2$.
+
+### Watch out
+
+One cannot "scale the second row of $A$ up to $1$", because the scaling factor would have to turn $0$ into $1$, and no multiplication does this.
+Adding a multiple of row 1 to row 2 does not help either: it gives $\begin{pmatrix} 1 & 0 \\ c & 0 \end{pmatrix}$, whose second column is still zero, so the rank is still $1$.
 
 ## Explanations
 
@@ -44,6 +51,5 @@ So no sequence of such operations turns one into the other.
 
 ### L2 human
 
-The rank count is the whole story.
-If a student tries to "scale the second row of $A$ up to $1$", the scaling factor would have to turn $0$ into $1$.
-Multiplication cannot do this.
+To show that two matrices of the same size are not equivalent, it is enough to compute their ranks and find that they differ.
+To show that they are equivalent, equal ranks are enough too, by the rank normal form theorem.

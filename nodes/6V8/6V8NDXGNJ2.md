@@ -19,23 +19,40 @@ sources:
 
 ## Example
 
-Let $A = \begin{pmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9 \end{pmatrix}$ over $\mathbb{Q}$.
-We [[row reduce|0Z83DHFMYM]] the [[augmented matrix|0T6MWGZSXA]] $[A \mid I_3]$.
+The matrix
+$$A = \begin{pmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9 \end{pmatrix}$$
+over $\mathbb{Q}$ is singular, and [[row reduction|0Z83DHFMYM]] of the [[augmented matrix|0T6MWGZSXA]] $[A \mid I_3]$ shows this in three operations.
 
-1. Start: $\left(\begin{array}{ccc|ccc} 1 & 2 & 3 & 1 & 0 & 0 \\ 4 & 5 & 6 & 0 & 1 & 0 \\ 7 & 8 & 9 & 0 & 0 & 1 \end{array}\right)$.
-2. $R_2 \to R_2 - 4R_1$: row 2 becomes $(0, -3, -6 \mid -4, 1, 0)$.
-3. $R_3 \to R_3 - 7R_1$: row 3 becomes $(0, -6, -12 \mid -7, 0, 1)$.
-4. $R_3 \to R_3 - 2R_2$: row 3 becomes $(0, 0, 0 \mid 1, -2, 1)$.
-5. The left block has a zero row, so its reduced row echelon form is not $I_3$, and $A$ is singular.
-6. The right block is the product $E$ of the elementary matrices used, and the left block is $EA$. So row 3 of $EA$ is $(1, -2, 1)A$, which is $0$.
-7. Check: $(1, -2, 1)A = (1 - 8 + 7, \; 2 - 10 + 8, \; 3 - 12 + 9) = (0, 0, 0)$.
-8. If $AB = I_3$ for some $B$, then $(1, -2, 1) = (1, -2, 1)AB = 0 \cdot B = 0$, which is false. So $A$ has no right inverse, and $A$ is not invertible.
+The operations $R_2 \to R_2 - 4R_1$ and $R_3 \to R_3 - 7R_1$ clear the first column:
+$$\left(\begin{array}{ccc|ccc} 1 & 2 & 3 & 1 & 0 & 0 \\ 4 & 5 & 6 & 0 & 1 & 0 \\ 7 & 8 & 9 & 0 & 0 & 1 \end{array}\right) \to \left(\begin{array}{ccc|ccc} 1 & 2 & 3 & 1 & 0 & 0 \\ 0 & -3 & -6 & -4 & 1 & 0 \\ 0 & -6 & -12 & -7 & 0 & 1 \end{array}\right).$$
+Then $R_3 \to R_3 - 2R_2$ gives
+$$\left(\begin{array}{ccc|ccc} 1 & 2 & 3 & 1 & 0 & 0 \\ 0 & -3 & -6 & -4 & 1 & 0 \\ 0 & 0 & 0 & 1 & -2 & 1 \end{array}\right),$$
+since $-7 - 2(-4) = 1$, $0 - 2 \cdot 1 = -2$ and $1 - 0 = 1$.
+The left block has a zero row, so the reduced row echelon form of $A$ is not $I_3$, and $A$ is singular.
+
+The right block tells us more.
+It is the product $E$ of the operations used, and the left block is $EA$, so the zero row says $(1, -2, 1)A = 0$.
+Check:
+$$(1, -2, 1)A = (1 - 8 + 7, \; 2 - 10 + 8, \; 3 - 12 + 9) = (0, 0, 0).$$
+This vector also proves directly that $A$ has no inverse.
+If $AB = I_3$ for some $B$, then
+$$(1, -2, 1) = (1, -2, 1)AB = 0 \cdot B = 0,$$
+which is false.
 
 ## Remarks
 
-Here $(1, -2, 1)^{\mathsf{T}}$ also solves $Ax = 0$, since $A(1, -2, 1)^{\mathsf{T}} = (1 - 4 + 3, \; 4 - 10 + 6, \; 7 - 16 + 9)^{\mathsf{T}} = 0$.
-This is a coincidence of this matrix: in general a vector $y$ with $yA = 0$ and a vector $x$ with $Ax = 0$ are different.
-A zero row in the left block always means that the matrix is singular, by [[invertibility and row reduction|1ZK55FS2BF]].
+### Rows and columns
+
+The relation $(1, -2, 1)A = 0$ says that row 1 minus twice row 2 plus row 3 of $A$ is zero, a dependence among the rows.
+Here the column vector $(1, -2, 1)^{\mathsf{T}}$ also solves $Ax = 0$, since
+$$A \begin{pmatrix} 1 \\ -2 \\ 1 \end{pmatrix} = \begin{pmatrix} 1 - 4 + 3 \\ 4 - 10 + 6 \\ 7 - 16 + 9 \end{pmatrix} = 0.$$
+That is special to this matrix, whose rows and columns are both arithmetic progressions.
+For a general singular matrix, a vector $y$ with $yA = 0$ and a vector $x$ with $Ax = 0$ are different.
+
+### No zero entries needed
+
+None of the entries of $A$ is $0$, and no row is a multiple of another, yet $A$ is singular.
+A zero row in the left block always means that $A$ is singular, by [[invertibility and row reduction|1ZK55FS2BF]], and elimination is how the hidden dependence comes to light.
 
 ## Explanations
 
@@ -43,9 +60,10 @@ A zero row in the left block always means that the matrix is singular, by [[inve
 
 When we row reduce, a full row of zeros appears on the left.
 This means that one row of $A$ is a combination of the others, and then $A$ has no inverse.
+Here row 1 plus row 3 equals twice row 2.
 
 ### L2 human
 
 The point of the example is that the method needs no separate test for singularity: the zero row shows up on its own.
-The right block of the zero row is useful: it gives a combination of the rows of $A$ that is zero, here $R_1 - 2R_2 + R_3 = 0$.
-A trap: none of the entries of $A$ is $0$, and the matrix still is singular.
+The right part of that zero row is useful, because it lists the coefficients of the dependence, here $R_1 - 2R_2 + R_3 = 0$.
+A trap: you might expect a singular matrix to have zero entries or equal rows, and this one has neither.
