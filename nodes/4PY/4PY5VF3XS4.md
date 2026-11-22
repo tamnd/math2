@@ -17,40 +17,57 @@ sources:
 
 ## Proof
 
-We use the notation of the [[statement|J2P9FWBP3Q]]: a set $N$ with $0$, a [[successor|0832XVR512]] map $S$, and a relation $<$ that satisfy (B1) to (B4).
-We prove that (I) implies (SI), (SI) implies (WO), and (WO) implies (I).
-Then any one of the three principles implies the other two.
+We prove that (I) implies (SI), that (SI) implies (WO), and that (WO) implies (I), so that each principle implies the other two.
+We use the notation of the [[statement|J2P9FWBP3Q]]: a set $N$ with $0$, a [[successor|0832XVR512]] map $S$ and a relation $<$ that satisfy (B1) to (B4).
 
-1. (I) implies (SI). Assume (I). Let $A \subseteq N$ satisfy the hypothesis of (SI): for each $n$, if every $k < n$ lies in $A$, then $n \in A$.
+1. (I) implies (SI).
+   Assume (I), and let $A \subseteq N$ satisfy the hypothesis of (SI): for each $n$, if every $k < n$ lies in $A$, then $n \in A$.
 2. Let $Q$ be the set of all $n \in N$ such that every $k < n$ lies in $A$.
-3. We have $0 \in Q$, because no $k$ satisfies $k < 0$, by (B2).
-4. Let $n \in Q$. Then $n \in A$, by the hypothesis on $A$. Let $k < S(n)$.
-5. By (B1), we have $k < n$, or $k = n$, or $n < k$. The case $n < k < S(n)$ is impossible by (B3).
-6. If $k < n$, then $k \in A$, because $n \in Q$. If $k = n$, then $k \in A$ by step 4. So $S(n) \in Q$.
-7. By (I) applied to $Q$, we get $Q = N$. So for each $n$, every $k < n$ lies in $A$, and the hypothesis on $A$ gives $n \in A$. Thus $A = N$.
-8. (SI) implies (WO). Assume (SI). Let $A \subseteq N$ be nonempty, and suppose, for a contradiction, that $A$ has no least element.
-9. Let $C = N \setminus A$. We show that $C$ satisfies the hypothesis of (SI). Let $n \in N$, and assume that every $k < n$ lies in $C$.
-10. Suppose $n \in A$. Let $x \in A$. Then $x < n$ is false, because $x \notin C$. By (B1), $x = n$ or $n < x$, so $n \le x$.
-11. So $n$ is a least element of $A$, against the assumption. Hence $n \notin A$, that is, $n \in C$.
-12. By (SI) applied to $C$, we get $C = N$. So $A = \emptyset$, which contradicts the choice of $A$. Thus $A$ has a least element.
-13. (WO) implies (I). Assume (WO). Let $A \subseteq N$ with $0 \in A$, and with $S(n) \in A$ for each $n \in A$. Suppose, for a contradiction, that $A \neq N$.
-14. Then $N \setminus A$ is nonempty. By (WO), it has a least element $m$.
-15. We have $m \neq 0$, because $0 \in A$. By (B4), $m = S(k)$ for some $k$, and $k < m$ by (B3).
-16. Suppose $k \notin A$. Then $m \le k$, because $m$ is least in $N \setminus A$. With $k < m$ and (B1), this gives $m < m$ or $k < k$, which (B1) excludes.
-17. So $k \in A$. By the closure of $A$ under $S$, also $m = S(k) \in A$. This contradicts $m \in N \setminus A$.
-18. So $A = N$, and (I) holds. The cycle of implications is complete.
+   Then $0 \in Q$, because by (B2) no $k$ satisfies $k < 0$.
+3. Let $n \in Q$.
+   Then $n \in A$ by the hypothesis on $A$.
+4. Let $k < S(n)$.
+   By (B1), $k < n$ or $k = n$ or $n < k$, and the last case would give $n < k < S(n)$, which (B3) excludes.
+5. If $k < n$, then $k \in A$ because $n \in Q$, and if $k = n$, then $k \in A$ by step 3.
+   So $S(n) \in Q$.
+6. By (I) applied to $Q$, $Q = N$.
+   So for each $n$ every $k < n$ lies in $A$, the hypothesis on $A$ gives $n \in A$, and $A = N$.
+7. (SI) implies (WO).
+   Assume (SI), let $A \subseteq N$ be nonempty, and suppose, for a contradiction, that $A$ has no least element.
+8. Let $C = N \setminus A$.
+   To apply (SI) to $C$, let $n \in N$ and assume that every $k < n$ lies in $C$.
+9. Suppose $n \in A$, and let $x \in A$.
+   Then $x < n$ is false, because $x \notin C$, so by (B1) $x = n$ or $n < x$, that is, $n \le x$.
+10. So $n$ is a least element of $A$, against the assumption.
+    Hence $n \notin A$, that is, $n \in C$.
+11. By (SI) applied to $C$, $C = N$, so $A = \emptyset$.
+    This contradicts the choice of $A$, so $A$ has a least element.
+12. (WO) implies (I).
+    Assume (WO), let $A \subseteq N$ contain $0$ and satisfy $S(n) \in A$ for each $n \in A$, and suppose, for a contradiction, that $A \ne N$.
+13. Then $N \setminus A$ is nonempty, and (WO) gives a least element $m$ of $N \setminus A$.
+14. We have $m \ne 0$, because $0 \in A$.
+    By (B4), $m = S(k)$ for some $k$, and $k < m$ by (B3).
+15. Suppose $k \notin A$.
+    Then $m \le k$, because $m$ is least in $N \setminus A$.
+16. If $m = k$, then $k < m$ reads $k < k$, and if $m < k$, then $k < m$ and transitivity give $k < k$.
+    Both are excluded by (B1), so $k \in A$.
+17. By the closure of $A$ under $S$, $m = S(k) \in A$, which contradicts $m \in N \setminus A$.
+    So $A = N$, and (I) holds.
+18. The three implications form a cycle, so (I), (SI) and (WO) are equivalent.
 
 ## Idea
 
-Each principle is turned into the next by a change of set.
-From (I) to (SI), apply induction to the set $Q$ of all $n$ such that everything below $n$ is in $A$; this is the "stronger property" trick.
-From (SI) to (WO), apply strong induction to the complement of a set with no least element.
-From (WO) to (I), take the least element outside $A$; it is a successor of an element inside $A$.
-Steps 3 and 5 use (B2) and (B3), step 10 uses (B1), and step 15 uses (B3) and (B4).
+Each principle becomes the next one by a change of set.
+From (I) to (SI), apply induction to the set $Q$ of all $n$ below which everything lies in $A$; this is the stronger-property trick of strong induction.
+From (SI) to (WO), apply strong induction to the complement of a set with no least element, which shows that the complement is everything.
+From (WO) to (I), take the least element outside $A$: it is a successor of an element inside $A$, and closure under $S$ pulls it inside.
+Steps 2 and 4 use (B2) and (B3), step 9 uses (B1), and step 14 uses (B3) and (B4).
 
 ## Variants
 
-1. For the natural numbers built from the [[Peano axioms|0QFT7Z76N5]], the step from (I) to (SI) is the [[proof of strong induction|C54QYDXFP3]]. It also proves the needed facts about $<$ by induction.
-2. The step from (SI) to (WO) for $\mathbb{N}$ is the [[proof of the well-ordering principle|QPX5Z5YFH8]].
-3. The step from (WO) to (I) is a [[minimal counterexample|JGRCNPKNGG]] argument. It can also be written as a contrapositive, with no contradiction: a least element of $N \setminus A$ cannot exist.
-4. The direction from (SI) to (I) has a direct proof that uses only (B3) and (B4). It is given in the Converse section of the [[statement|J2P9FWBP3Q]].
+For the natural numbers built from the [[Peano axioms|0QFT7Z76N5]], the arrow from (I) to (SI) is the [[proof of strong induction|C54QYDXFP3]], which also proves the needed facts about $<$ by induction.
+The arrow from (SI) to (WO) for $\mathbb{N}$ is the [[proof of the well-ordering principle|QPX5Z5YFH8]].
+
+The arrow from (WO) to (I) is a [[minimal counterexample|JGRCNPKNGG]] argument.
+It can also be written without a contradiction, as a proof that a least element of $N \setminus A$ cannot exist.
+The direct arrow from (SI) to (I), which uses only (B3) and (B4), is in the remarks of the [[statement|J2P9FWBP3Q]].

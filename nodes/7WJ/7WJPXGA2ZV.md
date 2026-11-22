@@ -19,9 +19,9 @@ sources:
 Define a sequence $(h_n)_{n \ge 0}$ of natural numbers by a [[recursive definition|AM4GQQMZ3C]]:
 $$h_0 = 0, \qquad h_{n+1} = 2 h_n + 1 \quad \text{for } n \ge 0.$$
 The base gives one value, and the rule uses only the value just before, so one start value is enough.
-By the recursion theorem (see [[definition by recursion|0DSHAVH45F]]), exactly one sequence satisfies these two equations.
+By the recursion theorem, which the page on [[definition by recursion|0DSHAVH45F]] explains, exactly one sequence satisfies these two equations.
 
-We compute the first terms from the rule.
+We compute the first terms from the rule and compare them with the powers of $2$.
 
 | $n$ | $0$ | $1$ | $2$ | $3$ | $4$ | $5$ | $6$ |
 |---|---|---|---|---|---|---|---|
@@ -29,23 +29,31 @@ We compute the first terms from the rule.
 | $2^n - 1$ | $0$ | $1$ | $3$ | $7$ | $15$ | $31$ | $63$ |
 
 For example, $h_3 = 2 h_2 + 1 = 2 \cdot 3 + 1 = 7$ and $h_4 = 2 \cdot 7 + 1 = 15$.
-The table suggests the closed form $h_n = 2^n - 1$.
-We prove it by [[mathematical induction|0ASJVEFA9J]] on $n$.
+The table suggests the closed form $h_n = 2^n - 1$, and we prove it by [[mathematical induction|0ASJVEFA9J]] on $n$.
 
 1. Let $P(n)$ be the statement "$h_n = 2^n - 1$".
-2. Base case: $h_0 = 0$ by the definition, and $2^0 - 1 = 1 - 1 = 0$. So $P(0)$ holds.
+2. Base case: $h_0 = 0$ by the definition, and $2^0 - 1 = 1 - 1 = 0$.
+   So $P(0)$ holds.
 3. Induction step: let $n \ge 0$, and assume $P(n)$, that is, $h_n = 2^n - 1$.
-4. By the rule of the definition, $h_{n+1} = 2 h_n + 1$.
-5. By the assumption of step 3, $2 h_n + 1 = 2(2^n - 1) + 1 = 2^{n+1} - 2 + 1 = 2^{n+1} - 1$.
-6. So $h_{n+1} = 2^{n+1} - 1$, and $P(n + 1)$ holds.
-7. By induction, $h_n = 2^n - 1$ for each natural number $n$.
+4. The rule of the definition and the assumption give
+   $$h_{n+1} = 2 h_n + 1 = 2(2^n - 1) + 1 = 2^{n+1} - 2 + 1 = 2^{n+1} - 1.$$
+5. So $P(n + 1)$ holds.
+6. By induction, $h_n = 2^n - 1$ for each natural number $n$.
 
 ## Remarks
 
-1. The sequence is the minimum number of moves in the [[Tower of Hanoi|0906Z03EMN]] with $n$ discs. The rule $h_{n+1} = 2h_n + 1$ comes from the largest disc: move the $n$ smaller discs away, move the largest disc, and move the $n$ smaller discs back.
-2. The proof has the same shape as the definition: the base case of the proof uses the base of the definition, and the induction step uses the rule. This match is typical of proofs about recursively defined sequences.
-3. If the start value changes to $h_0 = c$, the same rule gives $h_n = 2^n (c + 1) - 1$. The induction step is the same calculation: $2(2^n(c + 1) - 1) + 1 = 2^{n+1}(c + 1) - 1$.
-4. If the rule changes to $h_{n+1} = 2 h_n$, then $h_0 = 0$ gives the zero sequence. The added $1$ in the rule is what makes the sequence grow.
+The sequence counts the minimum number of moves in the [[Tower of Hanoi|0906Z03EMN]] with $n$ discs.
+The rule comes from the largest disc: move the $n$ smaller discs away, move the largest disc, and move the $n$ smaller discs back, for $h_n + 1 + h_n$ moves.
+
+The proof has the same shape as the definition.
+Its base case uses the base of the definition, and its induction step uses the rule.
+This match is typical of proofs about recursively defined sequences.
+
+Change the start value to $h_0 = c$, and the same rule gives $h_n = 2^n (c + 1) - 1$.
+The step is the same calculation:
+$$2\big(2^n(c + 1) - 1\big) + 1 = 2^{n+1}(c + 1) - 1.$$
+Check: for $n = 0$ the formula gives $(c + 1) - 1 = c$.
+Change the rule to $h_{n+1} = 2 h_n$ instead, and the start $h_0 = 0$ gives the zero sequence, so the added $1$ is what makes the sequence grow.
 
 ## Explanations
 
@@ -59,13 +67,13 @@ If a number is one less than a power of $2$, then doubling it and adding $1$ giv
 
 ### L2 human
 
-We guess and prove a closed form for a related recursion, $g_0 = 1$ and $g_{n+1} = 3 g_n - 2$.
+Let us guess and prove a closed form for a related recursion, $g_0 = 1$ and $g_{n+1} = 3 g_n - 2$.
+The first terms are $g_0 = 1$, $g_1 = 3 - 2 = 1$ and $g_2 = 1$, so the sequence looks constant.
+The claim $g_n = 1$ has the base $g_0 = 1$, and the step: if $g_n = 1$, then $g_{n+1} = 3 \cdot 1 - 2 = 1$.
+So $g_n = 1$ for each $n$, by induction.
 
-1. The first terms are $g_0 = 1$, $g_1 = 1$, $g_2 = 1$. The sequence is constant.
-2. Claim: $g_n = 1$ for each $n$. Base: $g_0 = 1$ by the definition.
-3. Step: if $g_n = 1$, then $g_{n+1} = 3 \cdot 1 - 2 = 1$.
-4. So $g_n = 1$ for each $n$, by induction.
-5. With the start value $g_0 = 2$ instead, the terms are $2, 4, 10, 28$, and the closed form is $g_n = 3^n + 1$. The step is $3(3^n + 1) - 2 = 3^{n+1} + 1$.
-
-The typical use of a recursive definition is a quick computation of terms, followed by a guess of a closed form and a proof of it by induction.
-A trap is to trust the guess from the table without the proof: a table of finitely many values never proves a formula for all $n$.
+With the start value $g_0 = 2$ instead, the terms are $2, 4, 10, 28$, and the closed form is $g_n = 3^n + 1$.
+The step is
+$$3(3^n + 1) - 2 = 3^{n+1} + 1.$$
+That is the typical use of a recursive definition: compute some terms, guess a closed form, and prove it by induction.
+Watch out: a table of finitely many values never proves a formula for all $n$, so the proof is not optional.
