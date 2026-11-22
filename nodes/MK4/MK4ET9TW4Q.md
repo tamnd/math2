@@ -22,7 +22,7 @@ The matrix is [[symmetric|0N28QN4CYA]], so the map $x \mapsto Ax$ is self-adjoin
 
 1. The eigenvalues. Expand the characteristic polynomial:
 $$\det(A - tI) = (5 - t)(2 - t) - 2 \cdot 2 = t^2 - 7t + 6 = (t - 6)(t - 1).$$
-So the eigenvalues are $6$ and $1$. Check: their sum $7$ is the trace $5 + 2$, and their product $6$ is the determinant $10 - 4$.
+So the eigenvalues are $6$ and $1$, with the sum $7 = 5 + 2$, the trace, and the product $6 = 10 - 4$, the determinant.
 2. An eigenvector for $6$. The matrix $A - 6I$ has the rows $(-1, 2)$ and $(2, -4)$, so its kernel is spanned by $(2, 1)$. Check: $A(2, 1) = (10 + 2, 4 + 2) = (12, 6) = 6 \cdot (2, 1)$.
 3. An eigenvector for $1$. The matrix $A - I$ has the rows $(4, 2)$ and $(2, 1)$, so its kernel is spanned by $(1, -2)$. Check: $A(1, -2) = (5 - 4, 2 - 4) = (1, -2)$.
 4. Orthogonality. The dot product is $(2, 1) \cdot (1, -2) = 2 - 2 = 0$, and both vectors have length $\sqrt{5}$.

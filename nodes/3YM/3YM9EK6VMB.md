@@ -10,7 +10,7 @@ topics: [GN8GYSDZFX]
 
 An inner product lets a linear map act on either side of the pairing, and the map that acts on the other side is the adjoint $T^*$.
 For matrices in orthonormal coordinates the adjoint is the conjugate transpose, but it exists without coordinates, so it works on spaces of polynomials and functions as well.
-The story of [[linear algebra|GN8GYSDZFX]] that starts here asks which operators get along well with their adjoints.
+The theory of operators on inner product spaces, a part of [[linear algebra|GN8GYSDZFX]], asks which operators get along well with their adjoints.
 The self-adjoint operators, with $T^* = T$, have real eigenvalues and orthogonal eigenspaces.
 The normal operators, with $T T^* = T^* T$, are over $\mathbb{C}$ exactly the operators that are diagonal in some orthonormal basis.
 That last fact is the spectral theorem, and the name covers three versions: one for real symmetric matrices, one for Hermitian matrices and one for normal operators.
