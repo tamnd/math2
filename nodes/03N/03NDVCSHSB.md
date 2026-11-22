@@ -120,7 +120,7 @@ Both $1$ and $2$ are eigenvalues, so both $x - 1$ and $x - 2$ divide $m_B$, and 
 A square matrix satisfies many equations, such as $A^2 - 5A + 6I = 0$.
 Among all of them, take the shortest one whose leading coefficient is $1$.
 That is the minimal polynomial.
-Every other equation that the matrix satisfies is a multiple of it, in the same way as every multiple of $6$ is a multiple of $2$ and $3$.
+Every other equation that the matrix satisfies is a multiple of it, in the same way as every number in the list $6, 12, 18, \dots$ is a multiple of the smallest one.
 Its roots are exactly the stretch factors of the matrix, the eigenvalues.
 
 ### L2 human

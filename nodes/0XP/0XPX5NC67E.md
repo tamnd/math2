@@ -131,5 +131,5 @@ Watch out: the entries of $A$ alone do not decide this, since $\begin{pmatrix} 0
 
 For an element $a$ of a unital algebra over $F$, the spectrum is the set of $\lambda$ with $a - \lambda$ not a unit.
 For matrices this is the set of eigenvalues, because a square matrix is a unit exactly when it is injective.
-For bounded operators on Banach spaces the [[spectrum of an operator|XXXSST2DR5]] can contain points that are not eigenvalues, and it is a nonempty compact subset of $\mathbb{C}$.
+For bounded operators on nonzero complex Banach spaces the [[spectrum of an operator|XXXSST2DR5]] can contain points that are not eigenvalues, and it is a nonempty compact subset of $\mathbb{C}$.
 The [[spectral radius|3PR407YKHN]] $\max \{ |\lambda| : \lambda \in \sigma(A) \}$ and the [[spectral mapping theorem|Q71WX8HFYT]] belong to that general theory.
