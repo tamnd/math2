@@ -17,32 +17,49 @@ sources:
 
 ## Proof
 
-We prove the two implications separately.
+We prove the two directions of part 1 separately, using only the definition of $m_T$ and the factor theorem, and then we deduce part 2 from the characteristic polynomial.
+Let $m_T$ be the [[minimal polynomial|0V58FPM3EQ]] of $T$, and write $\mathrm{id}$ for the identity map of $V$.
 
-1. Let $m_T$ be the [[minimal polynomial|0V58FPM3EQ]] of $T$, and write $\id = \id_V$.
-2. First let $\lambda$ be an [[eigenvalue|0ZND7NQ970]] of $T$. So there is $v \in V$ with $v \ne 0$ and $T(v) = \lambda v$.
-3. By induction on $k$, $T^k(v) = \lambda^k v$ for all $k \ge 0$: the case $k = 0$ is $\id(v) = v$, and $T^{k+1}(v) = T(\lambda^k v) = \lambda^{k+1} v$.
-4. Write $m_T(x) = \sum_{k=0}^{d} c_k x^k$. By the definition of the [[value at $T$|0BNEXSKNRV]] and step 3, $m_T(T)(v) = \sum_k c_k \lambda^k v = m_T(\lambda) v$.
-5. Since $m_T(T) = 0$, step 4 gives $m_T(\lambda) v = 0$. As $v \ne 0$, we get $m_T(\lambda) = 0$.
-6. Conversely, let $m_T(\lambda) = 0$. By the [[factor theorem|0K3MWA7DMC]], $m_T = (x - \lambda) q$ for some $q \in F[x]$.
-7. The polynomial $q$ is monic, and its [[degree|0DPF6WRZW6]] is $\deg m_T - 1$. By the minimality of $\deg m_T$, $q(T) \ne 0$.
-8. So there is $w \in V$ with $u = q(T)(w) \ne 0$.
-9. Evaluation at $T$ respects products, so $(T - \lambda \id)(u) = \big((x - \lambda) q\big)(T)(w) = m_T(T)(w) = 0$.
-10. Hence $T(u) = \lambda u$ with $u \ne 0$, and $\lambda$ is an eigenvalue of $T$.
-11. Steps 5 and 10 show that $\lambda$ is an eigenvalue of $T$ if and only if $m_T(\lambda) = 0$. This proves part 1.
-12. By the theorem that [[eigenvalues are the roots of the characteristic polynomial|053QVHF6N7]], $\lambda$ is an eigenvalue of $T$ if and only if $p_T(\lambda) = 0$.
-13. By steps 11 and 12, $m_T(\lambda) = 0$ if and only if $p_T(\lambda) = 0$. This proves part 2.
+*Every eigenvalue is a root of $m_T$.*
+
+1. Let $\lambda$ be an [[eigenvalue|0ZND7NQ970]] of $T$.
+   So there is a vector $v \ne 0$ with $T(v) = \lambda v$.
+2. We show $T^k(v) = \lambda^k v$ for all $k \ge 0$ by induction on $k$.
+   For $k = 0$ both sides are $v$, and if it holds for $k$, then $T^{k+1}(v) = T(\lambda^k v) = \lambda^k T(v) = \lambda^{k+1} v$, by linearity of $T$.
+3. Write $m_T(x) = c_0 + c_1 x + \dots + c_d x^d$.
+   By the definition of the [[value at T|0BNEXSKNRV]] and step 2,
+$$m_T(T)(v) = \sum_{k=0}^{d} c_k T^k(v) = \sum_{k=0}^{d} c_k \lambda^k v = m_T(\lambda)\, v.$$
+4. The left side is $0$, because $m_T(T) = 0$.
+   So $m_T(\lambda)\, v = 0$, and since $v \ne 0$, the scalar $m_T(\lambda)$ is $0$.
+
+*Every root of $m_T$ is an eigenvalue.*
+
+5. Let $\lambda \in F$ with $m_T(\lambda) = 0$.
+   By the [[factor theorem|0K3MWA7DMC]], $m_T = (x - \lambda)\, q$ for some $q \in F[x]$.
+6. The polynomial $q$ is monic, because $m_T$ and $x - \lambda$ are monic, and its [[degree|0DPF6WRZW6]] is $\deg m_T - 1$.
+   Since no monic polynomial of degree less than $\deg m_T$ annihilates $T$, we have $q(T) \ne 0$.
+7. So there is a vector $w \in V$ with $u = q(T)(w) \ne 0$.
+8. Evaluation at $T$ respects products, so
+$$(T - \lambda\, \mathrm{id})(u) = (T - \lambda\, \mathrm{id})\big(q(T)(w)\big) = \big((x - \lambda)\, q\big)(T)(w) = m_T(T)(w) = 0.$$
+9. So $T(u) = \lambda u$ with $u \ne 0$, and $\lambda$ is an eigenvalue of $T$.
+
+*Conclusion.*
+
+10. Steps 4 and 9 show that $\lambda$ is an eigenvalue of $T$ if and only if $m_T(\lambda) = 0$, which is part 1.
+11. By the theorem that the [[eigenvalues are the roots of the characteristic polynomial|053QVHF6N7]], $\lambda$ is an eigenvalue of $T$ if and only if $p_T(\lambda) = 0$.
+12. Steps 10 and 11 together give $m_T(\lambda) = 0$ if and only if $p_T(\lambda) = 0$, which is part 2.
 
 No step uses the Cayley-Hamilton theorem.
 
 ## Idea
 
-On an eigenvector, a polynomial in $T$ acts as the same polynomial evaluated at $\lambda$.
-So $m_T(T) = 0$ forces $m_T(\lambda) = 0$.
-Conversely, if $x - \lambda$ is a factor of $m_T$, the other factor $q$ does not kill $T$, by minimality.
-Any nonzero vector in the image of $q(T)$ is then an eigenvector for $\lambda$.
+On an eigenvector, the map $T$ acts as the number $\lambda$, so every polynomial in $T$ acts as the same polynomial evaluated at $\lambda$.
+Since $m_T(T)$ is the zero map, $m_T(\lambda)$ must be $0$.
+For the other direction, split off the factor $x - \lambda$ and look at the other factor $q$.
+Its degree is too small for it to kill $T$, so it sends some vector to $u \ne 0$, and then $T - \lambda\, \mathrm{id}$ kills $u$, which makes $u$ an eigenvector.
 
 ## Variants
 
-- With the Cayley-Hamilton theorem, one direction of part 2 is immediate: $m_T$ divides $p_T$, so every root of $m_T$ is a root of $p_T$. The proof above avoids this, so that the theorem can be used before the Cayley-Hamilton theorem.
-- [[Axler's proof of the existence of an eigenvalue|6TPH8WGRJJ]] uses the same idea of a factor that is not injective.
+With the Cayley-Hamilton theorem, one half of part 2 is immediate: $m_T$ divides $p_T$, so every root of $m_T$ is a root of $p_T$.
+The proof above avoids this, so that the result can be used before the Cayley-Hamilton theorem and in a course that, like Axler's, puts determinants late.
+[[Axler's proof of the existence of an eigenvalue|6TPH8WGRJJ]] uses the same idea: a product of linear factors kills a nonzero vector, so one of the factors is not injective.

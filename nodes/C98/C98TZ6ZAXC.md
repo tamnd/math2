@@ -16,66 +16,76 @@ sources:
 
 ## Statement
 
-Let $F$ be a field, let $V$ be a vector space over $F$ with $n = \dim V \ge 1$, and let $T \colon V \to V$ be an endomorphism.
+The characteristic polynomial of a linear map does not depend on the basis, and it splits into factors along invariant subspaces.
+Let $F$ be a field, let $V$ be a vector space over $F$ with $n = \dim V$ and $1 \le n < \infty$, and let $T \colon V \to V$ be an endomorphism.
 
-1. (Basis independence.) For any two bases $B$ and $C$ of $V$, the [[matrices of $T$|0YYMY95FWS]] have the same characteristic polynomial: $p_{[T]_B} = p_{[T]_C}$. So $p_T$ is well defined, and it is monic of degree $n$.
-2. (Block triangular matrices.) Let $K$ be a commutative ring, and let $M = \begin{pmatrix} A & B \\ 0 & D \end{pmatrix}$ be a [[block matrix|0ASDFEQS6P]] over $K$ with square blocks $A$ and $D$. Then $p_M = p_A \cdot p_D$.
+1. (Basis independence.) For any two bases $B$ and $C$ of $V$, the [[matrices of T|0YYMY95FWS]] have the same characteristic polynomial, $p_{[T]_B} = p_{[T]_C}$. So $p_T$ is well defined, and it is monic of degree $n$.
+2. (Block triangular matrices.) Let $K$ be a commutative ring, and let $M = \begin{pmatrix} A & B \\ 0 & D \end{pmatrix}$ be a [[block matrix|0ASDFEQS6P]] over $K$ with square blocks $A$ and $D$. Then $p_M = p_A \, p_D$.
 3. (Invariant subspaces.) Let $U$ be a $T$-[[invariant subspace|0ACX5QT8TE]] with $0 \ne U \ne V$, and let $T|_U$ be the [[restriction|0KN7EPH7Z0]]. Then $p_{T|_U}$ divides $p_T$ in $F[t]$.
-4. (Invariant direct sums.) If $V = U \oplus W$ is an [[internal direct sum|0XYYT5KNTX]] of nonzero $T$-invariant subspaces, then $p_T = p_{T|_U} \cdot p_{T|_W}$.
+4. (Invariant direct sums.) If $V = U \oplus W$ is an [[internal direct sum|0XYYT5KNTX]] of nonzero $T$-invariant subspaces, then $p_T = p_{T|_U} \, p_{T|_W}$.
 
 ## Remarks
 
+### A block triangular example
+
+Take
+$$M = \begin{pmatrix} 1 & 2 & 5 \\ 3 & 4 & 6 \\ 0 & 0 & 7 \end{pmatrix}, \qquad A = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}, \qquad D = (7).$$
+The block $A$ has trace $5$ and determinant $-2$, so $p_A(t) = t^2 - 5t - 2$, and $p_D(t) = t - 7$.
+Part 2 gives
+$$p_M(t) = (t^2 - 5t - 2)(t - 7) = t^3 - 12t^2 + 33t + 14.$$
+Check with the [[coefficients of the characteristic polynomial|0FRYPZ6D0X]]: $\operatorname{tr} M = 12$, the three $2 \times 2$ principal minors are $-2$, $7$ and $28$ with sum $33$, and $\det M = 7 \cdot (-2) = -14$, so the constant term is $-(-14) = 14$.
+
 ### Why each hypothesis is needed
 
-- Part 1 needs the same basis $B$ for the source and the target of $T$. With two different bases, the matrix of $\id_V$ can be any invertible matrix, and its characteristic polynomial changes.
-- Part 2 needs $M$ block triangular. For $M = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$ with $1 \times 1$ blocks, $p_A p_D = t^2$, but $p_M = t^2 - 1$.
-- Parts 3 and 4 need invariant subspaces. For the rotation by $90$ degrees and the line $U = \R e_1$, which is not invariant, $p_T = t^2 + 1$ has no factor of degree $1$ over $\R$.
+Part 1 needs the same basis for the input and the output of $T$.
+With two different bases, the identity of $\mathbb{R}^2$ can have the matrix $\operatorname{diag}(2, 1)$, whose polynomial $(t - 2)(t - 1)$ is not $(t - 1)^2$.
 
-### Consequences
+Part 2 needs the zero block below the diagonal.
+For $M = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$ with $1 \times 1$ blocks $A = D = (0)$, the product $p_A \, p_D$ is $t^2$, but $p_M = t^2 - 1$.
 
-- The [[trace of a linear map|0KZDNGA561]] and the determinant of a linear map are coefficients of $p_T$, so they do not depend on a basis.
-- The [[algebraic multiplicity|0FY42N02DV]] of an eigenvalue is an invariant of $T$.
-- Part 3 is the main step in the proof that the [[geometric multiplicity is at most the algebraic multiplicity|FWY8A9M5HK]].
-- For a [[block diagonal matrix|001T5FJDC1]], $p_M$ is the product of the characteristic polynomials of the blocks.
+Parts 3 and 4 need invariant subspaces, because otherwise $T|_U$ is not a map from $U$ to $U$ and has no characteristic polynomial.
+The rotation of $\mathbb{R}^2$ by a right angle shows that nothing weaker would do: it has $p_T = t^2 + 1$, which has no factor of degree $1$ over $\mathbb{R}$, and in agreement with part 3 it has no invariant line.
 
-### Converse
+### What it gives you
 
-Equal characteristic polynomials do not imply similar matrices: $I_2$ and $\begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$ both have $p(t) = (t - 1)^2$.
-A matrix is determined up to similarity by its invariant factors, of which $p_T$ is the product; see the [[Jordan normal form|085HQ5G5TE]].
+The trace and the determinant of $T$ are coefficients of $p_T$, so part 1 makes the [[trace of a linear map|0KZDNGA561]] and the determinant of a linear map independent of the basis.
+The [[algebraic multiplicity|0FY42N02DV]] of each eigenvalue is an invariant of $T$ in the same way.
+Part 3 is the main step in the proof that the [[geometric multiplicity is at most the algebraic multiplicity|FWY8A9M5HK]]: an eigenspace of dimension $g$ gives the factor $(t - \lambda)^g$.
+For a [[block diagonal matrix|001T5FJDC1]], part 2 gives the product of the polynomials of the blocks.
+
+### The converse
+
+Equal characteristic polynomials do not make two matrices similar.
+The matrices $I_2$ and $\begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$ both have $p(t) = (t - 1)^2$, but only $I_2$ is similar to $I_2$.
+Similarity is decided by finer data, the invariant factors, whose product is $p_T$; see the [[Jordan normal form|085HQ5G5TE]].
 
 ### Generalizations
 
 Part 1 holds for an endomorphism of a finite free module over any commutative ring, with the same proof.
 Part 2 holds for block upper triangular matrices with any number of square diagonal blocks, by induction on the number of blocks.
 
-## History
-
-Part 1 makes the characteristic polynomial an invariant of the endomorphism, and not only of one matrix.
-So it is a first invariant in the study of matrices up to similarity.
-
 ## Explanations
 
 ### L1 human
 
-The characteristic polynomial of a map is computed from a matrix of the map.
-Different bases give different matrices, but always the same polynomial.
-If the map keeps a smaller subspace in place, then the polynomial splits into a part for the subspace and a part for the rest.
+To get the characteristic polynomial of a map, you write the map as a matrix and compute.
+Different axes give different matrices, but they always give the same polynomial.
+If the map keeps a smaller subspace in place, the polynomial splits into a part for that subspace and a part for the rest.
+For the mirror of space in a plane, the plane gives $(t - 1)^2$ and the normal line gives $t + 1$.
 
 ### L2 human
 
-We compute $p_M$ for $M = \begin{pmatrix} 1 & 2 & 5 \\ 3 & 4 & 6 \\ 0 & 0 & 7 \end{pmatrix}$, with blocks $A = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}$ and $D = (7)$.
-
-1. $p_A(t) = t^2 - 5t - 2$, from the trace $5$ and the determinant $-2$.
-2. $p_D(t) = t - 7$.
-3. By part 2, $p_M(t) = (t^2 - 5t - 2)(t - 7) = t^3 - 12t^2 + 33t + 14$.
-4. Check by the principal minors: $\operatorname{tr} M = 12$, the $2 \times 2$ principal minors are $-2$, $7$ and $28$ with sum $33$, and $\det M = 7 \cdot (-2) = -14$.
-5. So $p_M(t) = t^3 - 12t^2 + 33t - (-14)$, as in step 3.
-
-The typical use is to choose a basis that starts with a basis of an invariant subspace, and to split $p_T$ into two smaller factors.
-A trap: a block matrix with a nonzero block below the diagonal does not split in this way.
+Here is a typical use: find $p_T$ for $T(x, y, z) = (x + 2y, 3x + 4y, 5x + 6y + 7z)$ on $\mathbb{R}^3$.
+The $z$-axis $U$ is invariant, since $T(0, 0, z) = (0, 0, 7z)$, so put $e_3$ first in the basis $B = (e_3, e_1, e_2)$.
+Then $T(e_3) = 7 e_3$, $T(e_1) = 5 e_3 + e_1 + 3 e_2$ and $T(e_2) = 6 e_3 + 2 e_1 + 4 e_2$, and
+$$[T]_B = \begin{pmatrix} 7 & 5 & 6 \\ 0 & 1 & 2 \\ 0 & 3 & 4 \end{pmatrix}.$$
+Part 2 gives $p_T(t) = (t - 7)(t^2 - 5t - 2)$, the same polynomial as in the block triangular example above.
+The lesson is to start the basis with a basis of an invariant subspace, so that the matrix becomes block triangular.
+Watch out: a block matrix with a nonzero block below the diagonal does not split in this way.
 
 ### L3 human
 
-Part 3 says that $p_T = p_{T|_U} \cdot p_{\bar T}$, where $\bar T$ is the map induced on the quotient $V / U$, because $D$ is the matrix of $\bar T$.
-So the characteristic polynomial is multiplicative in short exact sequences of $F[t]$-modules.
-This is the reason that $p_T$ is the product of the characteristic polynomials of the factors in a composition series, the basis of [[triangularisation|0363JMQ42Y]].
+The lower right block $D$ in part 3 is the matrix of the map $\bar T$ that $T$ induces on the quotient $V / U$, so $p_T = p_{T|_U} \, p_{\bar T}$.
+In the language of modules over $F[t]$, the characteristic polynomial is multiplicative in short exact sequences.
+So $p_T$ is the product of the characteristic polynomials of the factors of a composition series of the $F[t]$-module $V$.
+When $p_T$ splits into linear factors, these factors are lines, and this gives [[triangularization|0363JMQ42Y]].

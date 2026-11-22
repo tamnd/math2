@@ -15,34 +15,50 @@ sources:
 
 ## Example
 
-Let $P = \begin{pmatrix} 9/10 & 1/10 \\ 1/2 & 1/2 \end{pmatrix}$.
-Entry $(i, j)$ is the probability of a step from state $i$ to state $j$, so each row sums to $1$.
-A probability row vector $\pi$ with $\pi P = \pi$ is a stationary distribution.
-It is a [[left eigenvector|32M8VY9A1M]] for the eigenvalue $1$.
+A chain has two states, $1$ and $2$.
+From state $1$ it stays with probability $9/10$ and moves with probability $1/10$; from state $2$ it moves or stays with probability $1/2$ each.
+The transition matrix, with entry $(i, j)$ the probability of a step from $i$ to $j$, is
+$$P = \begin{pmatrix} 9/10 & 1/10 \\ 1/2 & 1/2 \end{pmatrix},$$
+and each row sums to $1$.
+A probability row vector $\pi$ with $\pi P = \pi$ is a *stationary distribution*, and it is a [[left eigenvector|32M8VY9A1M]] for the eigenvalue $1$.
 
-1. Since each row sums to $1$, $P(1, 1)^{\mathsf T} = (1, 1)^{\mathsf T}$. So $1$ is an [[eigenvalue|0ZND7NQ970]] of $P$, with right [[eigenvector|0B5H4208Z9]] $(1, 1)^{\mathsf T}$.
-2. $\tr P = 7/5$ and $\det P = 9/20 - 1/20 = 2/5$. So $p_P(t) = t^2 - \frac{7}{5}t + \frac{2}{5} = (t - 1)(t - \frac{2}{5})$.
-3. Second method: $\det(tI - P) = (t - \frac{9}{10})(t - \frac{1}{2}) - \frac{1}{20} = t^2 - \frac{7}{5}t + \frac{9}{20} - \frac{1}{20}$, which is the same polynomial.
-4. Let $\pi = (5/6, 1/6)$. The first entry of $\pi P$ is $\frac{5}{6}\cdot\frac{9}{10} + \frac{1}{6}\cdot\frac{1}{2} = \frac{45}{60} + \frac{5}{60} = \frac{5}{6}$.
-5. The second entry of $\pi P$ is $\frac{5}{6}\cdot\frac{1}{10} + \frac{1}{6}\cdot\frac{1}{2} = \frac{5}{60} + \frac{5}{60} = \frac{1}{6}$. So $\pi P = \pi$.
-6. For the eigenvalue $2/5$: $(1, -1)P = (\frac{9}{10} - \frac{1}{2},\ \frac{1}{10} - \frac{1}{2}) = (\frac{2}{5}, -\frac{2}{5}) = \frac{2}{5}(1, -1)$.
+1. Since each row sums to $1$, multiplying $P$ by the column of ones adds up each row:
+$$P \begin{pmatrix} 1 \\ 1 \end{pmatrix} = \begin{pmatrix} 1 \\ 1 \end{pmatrix}.$$
+   So $1$ is an [[eigenvalue|0ZND7NQ970]] of $P$, with the right [[eigenvector|0B5H4208Z9]] $(1, 1)^{\mathsf{T}}$.
+2. The trace is $\tfrac{9}{10} + \tfrac{1}{2} = \tfrac{7}{5}$ and the determinant is $\tfrac{9}{20} - \tfrac{1}{20} = \tfrac{2}{5}$, so the [[characteristic polynomial|039HF58KQ5]] is
+$$p_P(t) = t^2 - \tfrac{7}{5} t + \tfrac{2}{5} = (t - 1)\big(t - \tfrac{2}{5}\big).$$
+   Check: $1 + \tfrac{2}{5} = \tfrac{7}{5}$ and $1 \cdot \tfrac{2}{5} = \tfrac{2}{5}$.
+3. To find $\pi = (a, b)$, write out $\pi P = \pi$.
+   The first entry gives $\tfrac{9}{10} a + \tfrac{1}{2} b = a$, that is, $b = \tfrac{1}{5} a$.
+   With $a + b = 1$ this gives $a = \tfrac{5}{6}$ and $b = \tfrac{1}{6}$.
+4. Check both entries of $\pi P$ for $\pi = (5/6, 1/6)$:
+$$\tfrac{5}{6} \cdot \tfrac{9}{10} + \tfrac{1}{6} \cdot \tfrac{1}{2} = \tfrac{45}{60} + \tfrac{5}{60} = \tfrac{5}{6}, \qquad \tfrac{5}{6} \cdot \tfrac{1}{10} + \tfrac{1}{6} \cdot \tfrac{1}{2} = \tfrac{5}{60} + \tfrac{5}{60} = \tfrac{1}{6}.$$
+   So $\pi P = \pi$.
+5. For the eigenvalue $2/5$, the row $(1, -1)$ is a left eigenvector:
+$$(1, -1) P = \big(\tfrac{9}{10} - \tfrac{1}{2}, \; \tfrac{1}{10} - \tfrac{1}{2}\big) = \big(\tfrac{2}{5}, -\tfrac{2}{5}\big) = \tfrac{2}{5}(1, -1).$$
 
 ## Remarks
 
-- The right eigenvector $(1, 1)^{\mathsf T}$ and the left eigenvector $\pi$ for the same eigenvalue $1$ are different vectors.
-- The left eigenvector $(1, -1)$ for $2/5$ is orthogonal to the right eigenvector $(1, 1)^{\mathsf T}$ for $1$, as the biorthogonality of left and right eigenvectors requires.
-- Since $|2/5| < 1$, the rows of $P^k$ tend to $\pi$ as $k \to \infty$.
+The right eigenvector $(1, 1)^{\mathsf{T}}$ and the left eigenvector $\pi$ belong to the same eigenvalue $1$, but they are different vectors.
+The left eigenvector $(1, -1)$ for $2/5$ has product $1 - 1 = 0$ with the right eigenvector $(1, 1)^{\mathsf{T}}$ for $1$, as biorthogonality requires.
+
+The second eigenvalue controls the speed of the chain.
+Every starting distribution $\mu$ with entries summing to $1$ can be written $\mu = \pi + c(1, -1)$, so after $k$ steps
+$$\mu P^k = \pi + c \big(\tfrac{2}{5}\big)^k (1, -1),$$
+which tends to $\pi$ because $\lvert 2/5 \rvert < 1$.
+If the chain left state $1$ with probability $1/2$ in place of $1/10$, the matrix would have all entries $1/2$, the second eigenvalue would be $0$, and the chain would reach $(1/2, 1/2)$ after one step.
 
 ## Explanations
 
 ### L1 human
 
-A chain moves between two states with fixed probabilities.
-In the long run it spends $5/6$ of the time in the first state.
-The vector $(5/6, 1/6)$ is unchanged by one step, so it is a left eigenvector for the eigenvalue $1$.
+Think of state $1$ as a sunny day and state $2$ as a rainy day.
+A sunny day is followed by sun nine times in ten, and a rainy day is followed by sun half the time.
+In the long run the chain spends $5/6$ of the days in sun and $1/6$ in rain.
+The row $(5/6, 1/6)$ does not change after one more step, and that is what it means to be a left eigenvector with factor $1$.
 
 ### L2 human
 
-The typical use is to find the long-run distribution by solving $\pi P = \pi$ with entries summing to $1$.
-The second eigenvalue $2/5$ controls how fast the chain approaches $\pi$.
-A trap is to solve $P v = v$ instead, which gives only the constant vector $(1, 1)^{\mathsf T}$.
+The typical use is to find the long-run distribution by solving $\pi P = \pi$ together with $a + b = 1$, as in step 3.
+The second eigenvalue $2/5$ then says how fast the chain forgets its start: the distance to $\pi$ shrinks by the factor $2/5$ at each step.
+Watch out: solving $Pv = v$ gives only the column of ones, which says nothing about the long run, because the chain acts on rows from the left of $P$.

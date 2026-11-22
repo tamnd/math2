@@ -16,33 +16,56 @@ sources:
 
 ## Example
 
-We find the [[eigenvectors|0B5H4208Z9]] of three maps of $\R^2$ and check each one.
+We find the [[eigenvectors|0B5H4208Z9]] of three maps of $\mathbb{R}^2$: a projection, a reflection and a shear.
+For each one we guess the eigenvectors from the geometry and then check them with the matrix.
 
-1. Projection. Let $P = \begin{pmatrix} 1 & 1 \\ 0 & 0 \end{pmatrix}$. Then $\tr P = 1$ and $\det P = 0$, so $p_P(t) = t^2 - t = t(t - 1)$.
-2. Second method for $P$: $\det(tI - P) = (t - 1)t - (-1)\cdot 0 = t^2 - t$.
-3. $P(1, 0) = (1, 0)$, so $(1, 0)$ is an eigenvector for $1$. $P(1, -1) = (1 - 1, 0) = (0, 0)$, so $(1, -1)$ is an eigenvector for $0$.
-4. Reflection. Let $S = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$, the reflection in the line $y = x$. Then $p_S(t) = t^2 - 1$, from $\tr S = 0$ and $\det S = -1$.
-5. Second method for $S$: $\det(tI - S) = t \cdot t - (-1)(-1) = t^2 - 1$.
-6. $S(1, 1) = (1, 1)$, so $(1, 1)$ is an eigenvector for $1$. $S(1, -1) = (-1, 1) = -(1, -1)$, so $(1, -1)$ is an eigenvector for $-1$.
-7. Shear. Let $H = \begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$. Then $p_H(t) = (t - 1)^2$ by $\tr H = 2$ and $\det H = 1$, and also by the triangular form of $tI - H$.
-8. $H(1, 0) = (1, 0)$. The [[eigenspace|0AYEPBQMAW]] $E_1 = \ker(H - I)$ is the line spanned by $(1, 0)$, since $(H - I)(x, y) = (y, 0)$.
+*A projection.*
+
+1. Let $P = \begin{pmatrix} 1 & 1 \\ 0 & 0 \end{pmatrix}$.
+   It sends $(x, y)$ to $(x + y, 0)$, so it moves each point along the direction $(1, -1)$ onto the horizontal axis, and $P^2 = P$.
+2. Its characteristic polynomial is
+$$\det(tI - P) = \det \begin{pmatrix} t - 1 & -1 \\ 0 & t \end{pmatrix} = (t - 1)t.$$
+   Check: $\tr P = 1$ and $\det P = 0$ give $t^2 - t$ as well.
+3. The points of the axis stay fixed: $P(1, 0) = (1, 0)$, so $(1, 0)$ is an eigenvector for $1$.
+4. The direction of the motion is killed: $P(1, -1) = (1 - 1, 0) = (0, 0)$, so $(1, -1)$ is an eigenvector for $0$.
+
+*A reflection.*
+
+5. Let $S = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$, the reflection in the line $y = x$.
+   Its characteristic polynomial is $\det(tI - S) = t \cdot t - (-1)(-1) = t^2 - 1$, and $\tr S = 0$, $\det S = -1$ agree.
+6. The mirror line stays fixed: $S(1, 1) = (1, 1)$, so $(1, 1)$ is an eigenvector for $1$.
+7. The perpendicular line is reversed: $S(1, -1) = (-1, 1) = -(1, -1)$, so $(1, -1)$ is an eigenvector for $-1$.
+
+*A shear.*
+
+8. Let $H = \begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$, which sends $(x, y)$ to $(x + y, y)$.
+   The matrix $tI - H$ is triangular, so $\det(tI - H) = (t - 1)^2$, and $\tr H = 2$, $\det H = 1$ agree.
+9. The only eigenvalue is $1$, and $(H - I)(x, y) = (y, 0)$.
+   So the [[eigenspace|0AYEPBQMAW]] $E_1 = \ker(H - I)$ is the horizontal axis, the line spanned by $(1, 0)$.
 
 ## Remarks
 
-- For $P$, the eigenspace $E_1$ is the image of $P$ and $E_0$ is its kernel. Every projection has only the [[eigenvalues|0ZND7NQ970]] $0$ and $1$.
-- For $S$, the eigenspace $E_1$ is the mirror line and $E_{-1}$ is the line perpendicular to it.
-- The shear is the [[shear of the plane|HTAWRAC3QE]], which has too few eigenvectors to form a basis.
+For the projection, the eigenspace $E_1$ is the image of $P$ and $E_0$ is its kernel.
+Every projection has only $0$ and $1$ as possible [[eigenvalues|0ZND7NQ970]]: from $P^2 = P$ and $Pv = \lambda v$ we get $\lambda^2 v = \lambda v$, so $\lambda^2 = \lambda$.
+For the reflection, $E_1$ is the mirror line and $E_{-1}$ is the line perpendicular to it.
+In the same way, $S^2 = I$ forces $\lambda^2 = 1$, so every reflection has only $1$ and $-1$ as possible eigenvalues.
+
+The projection and the reflection each have two independent eigenvectors, so each has a basis of eigenvectors.
+The shear has only one line of eigenvectors, too few for a basis; the [[shear of the plane|HTAWRAC3QE]] studies this defect.
+Changing the shear to $\begin{pmatrix} 1 & k \\ 0 & 1 \end{pmatrix}$ with $k \ne 0$ gives the same eigenspace, since $(H - I)(x, y) = (ky, 0)$.
+Only for $k = 0$, the identity, does every nonzero vector become an eigenvector.
 
 ## Explanations
 
 ### L1 human
 
-A projection keeps the vectors on its image and kills the vectors in its kernel.
-A reflection keeps the mirror line and reverses the perpendicular line.
-A shear keeps only one direction.
+A projection is like a shadow on the floor: points on the floor stay put, and all points on one ray of light land on the same spot.
+So the floor directions are eigenvectors for $1$, and the direction of the light is an eigenvector for $0$.
+A mirror keeps its own line and reverses the line at a right angle to it.
+A shear slides each horizontal row of points sideways by an amount that grows with the height, and only the bottom row of directions keeps its line.
 
 ### L2 human
 
-The typical use is to read eigenvectors from geometry and then check them with the matrix.
-A projection and a reflection each have two eigenvector lines, so each has a basis of eigenvectors.
-A trap is to think that the shear also fixes the vertical direction: $H(0, 1) = (1, 1)$.
+The typical use of these maps is to read eigenvectors from geometry and then confirm them with one matrix product.
+That is faster than solving $\det(tI - A) = 0$ and then a linear system.
+Watch out with the shear: it looks as if the vertical direction might also be kept, but $H(0, 1) = (1, 1)$, which is not on the vertical axis.
