@@ -16,31 +16,30 @@ sources:
 
 ## Example
 
-Claim: for every real number $x$ with $x^2 \leq 1$, $x + 1 \geq 0$.
+The claim is: for every real number $x$ with $x^2 \leq 1$, $x + 1 \geq 0$.
 A student plans the proof backward.
 
-1. Goal: $x + 1 \geq 0$.
+1. The goal is $x + 1 \geq 0$.
 2. "It suffices to show $(x + 1)^2 \geq 0$."
-3. A square is never negative, so $(x + 1)^2 \geq 0$. Done.
+3. "A square is never negative, so $(x + 1)^2 \geq 0$, and we are done."
 
-The claim is true, but the plan is not a valid use of the [[forward-backward method|V8ZB838JY5]].
-We check the condition that fails.
-
-1. A backward step must replace the goal $B$ by a statement $B'$ with $B' \Rightarrow B$.
-2. Here $B$ is $x + 1 \geq 0$ and $B'$ is $(x + 1)^2 \geq 0$.
-3. $B'$ does not imply $B$: for $x = -2$, $(x + 1)^2 = 1 \geq 0$, but $x + 1 = -1 < 0$.
-4. The implication holds the other way, $B \Rightarrow B'$, so $B'$ is a necessary condition for $B$, not a sufficient one.
-5. A sign of the error: the argument never uses the hypothesis $x^2 \leq 1$, so it would also "prove" $x + 1 \geq 0$ for $x = -2$, where it is false.
+The claim is true, but the plan is not a valid use of the [[forward-backward method|V8ZB838JY5]], and we can locate the failure.
+A backward step must replace the goal $B$ by a statement $B'$ with $B' \Rightarrow B$.
+Here $B$ is $x + 1 \geq 0$ and $B'$ is $(x + 1)^2 \geq 0$.
+But $B'$ does not imply $B$: for $x = -2$,
+$$(x + 1)^2 = 1 \geq 0, \qquad \text{but} \qquad x + 1 = -1 < 0.$$
+The implication holds the other way, $B \Rightarrow B'$, so $B'$ is a necessary condition for $B$ and not a sufficient one.
+A warning sign is that the argument never uses the hypothesis $x^2 \leq 1$, so it would also "prove" $x + 1 \geq 0$ for $x = -2$, where it is false.
 
 ## Remarks
 
 A correct plan uses the hypothesis.
-Backward: $x + 1 \geq 0$ means $x \geq -1$.
-Forward: $x^2 \leq 1$ gives $|x| \leq 1$, since both sides of $|x|^2 \leq 1^2$ are squares of nonnegative numbers; and $|x| \leq 1$ gives $-1 \leq x \leq 1$.
-The chains meet at $x \geq -1$.
+Backward, $x + 1 \geq 0$ means $x \geq -1$.
+Forward, $x^2 \leq 1$ gives $|x| \leq 1$, because $|x|$ and $1$ are nonnegative and $|x|^2 = x^2 \le 1^2$.
+Then $|x| \leq 1$ gives $-1 \leq x \leq 1$, and the chains meet at $x \geq -1$.
 
 Squaring is a safe backward step only when both sides are known to be at least $0$.
-Then $u \leq v$ and $u^2 \leq v^2$ are equivalent, and the step can be used in both directions.
+In that case $u \leq v$ and $u^2 \leq v^2$ are equivalent, and the step can be used in both directions.
 
 ## Explanations
 
@@ -53,14 +52,12 @@ A step that would "prove" a false claim as well cannot prove the true one.
 
 ### L2 human
 
-We test a proposed backward step "to show $B$, it suffices to show $B'$".
-
-1. Ask whether $B'$ implies $B$. If it does, the step is valid.
-2. To test it, look for a value that makes $B'$ true and $B$ false.
-3. For $B$: $x > 2$ and $B'$: $x^2 > 4$, the value $x = -3$ makes $B'$ true and $B$ false. The step is not valid.
-4. For $B$: $x^2 > 4$ and $B'$: $x > 2$, every $x > 2$ has $x^2 > 4$. The step is valid, but it may lose the solutions with $x < -2$ if the goal is to find all solutions.
-
-The typical use: one test value is enough to reject a backward step.
-
-A trap: a valid backward step can lead to a false goal even when the original goal is true.
-To show $x^2 > 4$ for $x = -3$, the valid step "it suffices to show $x > 2$" leads to the false goal $-3 > 2$.
+How do you test a proposed backward step "to show $B$, it suffices to show $B'$"?
+Ask whether $B'$ implies $B$, and look for a value that makes $B'$ true and $B$ false.
+Take $B$ to be $x > 2$ and $B'$ to be $x^2 > 4$.
+The value $x = -3$ makes $B'$ true and $B$ false, so the step is not valid.
+Now swap them, with $B$ the inequality $x^2 > 4$ and $B'$ the inequality $x > 2$.
+Every $x > 2$ has $x^2 > 4$, so this step is valid.
+One test value is enough to reject a backward step.
+Watch out: a valid backward step can still lead to a false goal.
+To show $x^2 > 4$ for $x = -3$, the valid step "it suffices to show $x > 2$" leads to the false goal $-3 > 2$, so a dead end means you should back up, not that the claim is false.
