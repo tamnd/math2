@@ -33,6 +33,11 @@ Now we check the inverses of the three types for $n = 3$.
 The inverses follow the [[row operation theorem|F7F6AA3XQ7]]: each inverse matrix undoes the operation of the original one.
 Step 3 shows the index rule for columns: $T_{ij}(c)$ on the right changes column $j$, using column $i$.
 
+Column operations change different things than row operations do.
+The column operation of step 3 keeps the column space of $B$, since column 2 of $BT$ is a combination of columns of $B$ and the step can be undone.
+It changes the row space, though: the first row went from $(1, 2, 3)$ to $(1, 0, 3)$.
+If we used $T_{21}(-2)$ on the right instead, column 1 would change, to $(1, 4) - 2(2, 5) = (-3, -6)$, and column 2 would stay.
+
 ## Explanations
 
 ### L1 human

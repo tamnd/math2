@@ -16,6 +16,7 @@ sources:
 
 ## Definition
 
+This defines the matrices that record a single row operation.
 Let $F$ be a field and let $n \ge 1$ be an integer.
 An $n \times n$ *elementary matrix* over $F$ is a matrix that results from the [[identity matrix|06DW9BAWB1]] $I_n$ by one [[elementary row operation|04XWH28452]].
 There are three types:
@@ -27,14 +28,23 @@ There are three types:
 ## Notation
 
 Let $E_{ij}$ be the $n \times n$ matrix with entry $1$ in position $(i, j)$ and $0$ in all other positions.
-Then $T_{ij}(c) = I_n + c E_{ij}$, and $D_i(c) = I_n + (c - 1) E_{ii}$.
-The matrix $P_{ij}$ equals $I_n - E_{ii} - E_{jj} + E_{ij} + E_{ji}$.
+Then $T_{ij}(c) = I_n + c E_{ij}$ and $D_i(c) = I_n + (c - 1) E_{ii}$.
+The exchange matrix is $P_{ij} = I_n - E_{ii} - E_{jj} + E_{ij} + E_{ji}$.
 
 ## Remarks
 
+Each condition keeps the operation reversible.
+In type 1 the condition $i \ne j$ only rules out the empty exchange.
+In type 2 the scalar must be nonzero, because scaling a row by $0$ destroys the row: $D_1(0)$ for $n = 2$ would be $\begin{pmatrix} 0 & 0 \\ 0 & 1 \end{pmatrix}$, which is singular.
+In type 3 the condition $i \ne j$ matters, because "add $c$ times row $i$ to row $i$" is a scaling by $1 + c$, and for $c = -1$ it would kill the row.
+
+For a small example, take $n = 3$:
+$$P_{13} = \begin{pmatrix} 0 & 0 & 1 \\ 0 & 1 & 0 \\ 1 & 0 & 0 \end{pmatrix}, \qquad D_2(5) = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 5 & 0 \\ 0 & 0 & 1 \end{pmatrix}, \qquad T_{31}(-2) = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ -2 & 0 & 1 \end{pmatrix}.$$
+In $T_{31}(-2)$ the entry $-2$ sits in row $3$ and column $1$, since the operation changes row $3$ by a multiple of row $1$.
+
 The type $T_{ij}(0)$ is the identity matrix, and some books exclude it.
-The concept page lists the main facts: left multiplication by an elementary matrix performs its row operation, and each elementary matrix is invertible.
 The same definition works over a commutative ring, when $c$ in type 2 is a unit.
+The [[concept page|01REXW3WWE]] shows that left multiplication by an elementary matrix performs its row operation, and that each elementary matrix is invertible.
 
 ## Explanations
 
@@ -46,6 +56,6 @@ Then a whole elimination becomes a product of elementary matrices.
 
 ### L2 human
 
-For $n = 3$, the three types include $P_{13} = \begin{pmatrix} 0 & 0 & 1 \\ 0 & 1 & 0 \\ 1 & 0 & 0 \end{pmatrix}$, $D_2(5) = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 5 & 0 \\ 0 & 0 & 1 \end{pmatrix}$ and $T_{31}(-2) = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ -2 & 0 & 1 \end{pmatrix}$.
-In $T_{31}(-2)$ the entry $-2$ sits in row $3$ and column $1$: the operation changes row $3$ by a multiple of row $1$.
-A trap: in type 2 the scalar must be nonzero, since multiplying a row by $0$ loses information.
+To build an elementary matrix, perform the row operation on $I_n$ and read off the result.
+To recognize one, check whether a single row operation turns it back into $I_n$.
+Watch out: the matrix $\begin{pmatrix} 0 & 2 \\ 1 & 0 \end{pmatrix}$ needs two operations, an exchange and a scaling, so it is not elementary.

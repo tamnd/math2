@@ -17,6 +17,7 @@ sources:
 
 ## Proof
 
+We read each row of $EA$ as a combination of rows of $A$, use the reverse operation for the inverse, and transpose for columns.
 Write $e_k^{\mathsf{T}}$ for row $k$ of $I_m$, and $a_k$ for row $k$ of $A$.
 
 **Part 1.**
@@ -45,10 +46,12 @@ Write $e_k^{\mathsf{T}}$ for row $k$ of $I_m$, and $a_k$ for row $k$ of $A$.
 
 ## Idea
 
-Row $k$ of $EA$ is the combination of the rows of $A$ given by row $k$ of $E$.
+Row $k$ of $EA$ is the combination of the rows of $A$ whose coefficients are the entries of row $k$ of $E$.
 For an elementary $E$, each row of $E$ picks one or two rows of $A$, exactly as the row operation does.
-The inverse operation gives the inverse matrix, by part 1 applied twice.
+The inverse then comes for free: doing $\rho$ and then its reverse on $I_m$ gives $I_m$ back, and part 1 turns that into $E'E = I_m$.
+Columns are rows of the transpose, so part 3 is part 1 seen in a mirror.
 
 ## Variants
 
-Part 3 can also be proved directly from the column view of the product: column $k$ of $AE$ is $A$ times column $k$ of $E$.
+Part 3 can also be proved directly from the column view of the product: column $k$ of $AE$ is $A$ times column $k$ of $E$, which is a combination of the columns of $A$.
+For $E = T_{ij}(c)$, column $j$ of $E$ is $e_j + c\,e_i$, so column $j$ of $AE$ is column $j$ of $A$ plus $c$ times column $i$.
