@@ -9,7 +9,8 @@ msc: ["00A35"]
 
 Reasoning and proof is about how mathematicians state results, prove them, write the proofs down and find them in the first place.
 Its central object is the [[mathematical proof|0B94TKFQJX]], an argument that shows a statement follows from axioms, definitions and earlier results, so that it holds in every case and not only in the cases someone checked.
-The area starts with what a proof is and what a theorem says, moves through the language, definitions and notation in which proofs are written, and then teaches the standard methods: direct proof, contradiction, cases, induction, and counting and extremal arguments.
+The area starts with what a proof is and what a theorem says, and it moves through the language, definitions and notation in which proofs are written.
+Then it teaches the standard methods: direct proof, contradiction, cases, induction, and counting and extremal arguments.
 It ends with the craft and the culture of proof: how to write a proof, what goes wrong, how results are discovered, how much rigor a proof needs, and how proof is taught.
 Logic appears here as a working tool, while formal logic, set theory and constructive mathematics have topics of their own.
 

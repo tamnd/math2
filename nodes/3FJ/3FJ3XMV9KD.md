@@ -17,58 +17,97 @@ sources:
 
 ## Summary
 
-The methodology of mathematics is the study of how mathematicians actually work.
-It asks how they form concepts, how they choose problems, how they find results, and how they test and accept them.
-It describes practice: the use of examples, analogies, special cases, generalization, conjectures, counterexamples and proofs.
-It does not ask what mathematical objects are or why mathematical knowledge is certain; those questions belong to the [[philosophy of mathematics|NTJ5XW0PVD]].
-The subject matters because a finished theorem hides the path that led to it, and the path is what a student or a researcher needs to learn.
+A finished theorem hides the path that led to it, and the methodology of mathematics studies that path.
+It asks how mathematicians form concepts, choose problems, find results, and test and accept them.
+Its material is practice: examples, special cases, analogies, generalization, [[conjectures|WMEMMHZ3BH]], counterexamples and [[proofs|0B94TKFQJX]].
+It does not ask what mathematical objects are or why mathematical knowledge is certain, since those questions belong to the [[philosophy of mathematics|NTJ5XW0PVD]].
 In the Mathematics Subject Classification it is the class 00A35.
 
 ## Motivation
 
-A textbook presents a theory in the order of logic: [[axioms|GD2JBXJV5Z]], definitions, lemmas and theorems.
-Research almost never proceeds in this order.
-A mathematician meets a problem, tries cases, makes a [[conjecture|WMEMMHZ3BH]], finds a counterexample, changes a definition, and only at the end writes a [[proof|0B94TKFQJX]].
+A textbook presents a theory in logical order: [[axioms|GD2JBXJV5Z]], definitions, lemmas, theorems.
+Research almost never runs in that order.
+A mathematician meets a problem, tries small cases, makes a conjecture, finds a counterexample, changes a definition, and only at the end writes a proof.
 A reader who sees only the final proof cannot see why the definitions have their form, or how anyone found the result.
-The methodology of mathematics studies this hidden part, so that it can be described, taught and improved.
+
+Here is a small case.
+Compute the sums of the first odd numbers:
+$$1 = 1, \quad 1 + 3 = 4, \quad 1 + 3 + 5 = 9, \quad 1 + 3 + 5 + 7 = 16.$$
+The squares suggest the conjecture $1 + 3 + \cdots + (2n - 1) = n^2$, by [[inductive reasoning|5V35SGEN1T]], and only then does anyone look for a proof.
+The order of finding was computation, pattern, conjecture, proof, while the textbook shows only the last step.
+The methodology of mathematics describes the hidden steps so that they can be taught and improved.
+
+## Notation
+
+The field has no symbols of its own.
+"Methodology" here means the study of methods, not a single method.
+"Mathematical practice" is a near synonym used in recent work, and "heuristic" names a rule of thumb for finding a result, such as "try a special case", as opposed to a rule for proving it.
 
 ## Remarks
 
-### Examples
+### Pólya's four phases on a small problem
 
-- Pólya's four phases of solving a problem: understand the problem, devise a plan, carry out the plan, and look back. He described them in *How to Solve It* (1945), with heuristics such as "solve a simpler related problem" and "work backward".
-- Plausible reasoning, which Pólya studied in *Mathematics and Plausible Reasoning* (1954): induction from cases, analogy and the weighing of evidence for a conjecture. The topic [[plausible reasoning and experimental mathematics|DME0TPC348]] treats it in detail.
-- Lakatos's method of proofs and refutations: a conjecture, a proof, a counterexample, and then a better conjecture or a better definition. *Proofs and Refutations* (1976) develops it with [[Euler's polyhedron formula|09HT3P35YP]].
-- The use of [[examples in mathematical practice|F3NNR77WKP]] to test conjectures and to shape definitions.
-- [[Abstraction and generalization|976RZZCT1H]], and the search for [[classifications and invariants|9HQ3TADPA8]], as common ways to organize results.
-- The balance between solving single problems and building theories, discussed in [[problem solvers and theory builders|Z29HM45R29]].
+George Pólya split problem solving into four phases: understand the problem, devise a plan, carry out the plan, and look back.
+Try them on the question of how many diagonals a convex polygon with $n$ sides has.
+To understand it, count small cases: a square has $2$ diagonals and a pentagon has $5$.
+For a plan, notice that each vertex joins by a diagonal to every vertex except itself and its two neighbors, so to $n - 3$ others.
+Carrying out the plan, $n$ vertices give $n(n - 3)$ ends of diagonals, and each diagonal has two ends:
+$$\text{number of diagonals} = \frac{n(n - 3)}{2}.$$
+Looking back, the formula gives $\frac{4 \cdot 1}{2} = 2$ and $\frac{5 \cdot 2}{2} = 5$, which match the counts, and it predicts $9$ for a hexagon.
+The sub-area on [[heuristics of discovery|X1NSTVGDNQ]] treats such rules in detail.
 
-### Non-examples
+### Definitions are results, not only starting points
 
-- The question whether numbers exist independently of minds is not methodology. It is a question of the ontology of mathematics, in the philosophy of mathematics.
-- A formal proof system, with its rules of inference, is not methodology. It is an object of [[mathematical logic|DYJ0KGTPMR]], although methodology studies how proofs are found and judged.
-- A list of contest tricks for one type of problem is not methodology by itself. It becomes methodology when it describes general strategies and their limits, as in the topic [[heuristics of discovery|X1NSTVGDNQ]].
+In a finished theory a definition comes first, but in practice it is often the last thing to be settled.
+The word "prime" is a short example.
+If $1$ counted as prime, then $6 = 2 \cdot 3 = 1 \cdot 2 \cdot 3$ would have two factorizations into primes, and the uniqueness of prime factorization would fail.
+So the definition was shaped by the theorem it had to serve, and [[why 1 is not a prime number|JSR7S5TZ9C]] tells this story in full.
+Imre Lakatos made the same point at length with the word "polyhedron", which changed under pressure from counterexamples to Euler's formula, as the L2 explanation shows.
 
-### Basic properties
+### Choosing problems
 
-- Discovery and justification follow different orders. A result is often found by [[inductive or abductive reasoning|5V35SGEN1T]] and then justified by deduction.
-- Definitions are results of the method, not only starting points. Lakatos showed how a definition such as "polyhedron" changes under pressure from counterexamples.
-- Proof has [[several functions|ENY0GKRJS8]] in practice: verification, explanation, communication, discovery and systematization.
-- Experiment and computation are part of the method. They suggest conjectures and test them, but they do not replace proof.
+A good problem is one whose solution teaches something beyond itself.
+David Hilbert presented a list of open problems at the International Congress of Mathematicians in Paris in 1900, and many of them shaped research for decades.
+The tension between solving hard single problems and building general theories is the subject of [[problem solvers and theory builders|Z29HM45R29]].
+[[Examples in mathematical practice|F3NNR77WKP]], [[abstraction and generalization|976RZZCT1H]] and the search for [[classifications and invariants|9HQ3TADPA8]] are other common ways in which problems are chosen and results organized.
+
+### Experiment and computation
+
+Computation suggests conjectures and tests them, but it does not replace proof.
+The polynomial $n^2 + n + 41$ is prime for $n = 0$ to $39$, and at $n = 40$ it equals $41^2 = 1681$.
+A good experimenter uses such data both ways: to form a guess and to try to break it.
+Proof then has [[several functions|ENY0GKRJS8]], since it verifies the guess, explains it and often suggests the next one.
+The sub-area on [[plausible reasoning and experimental mathematics|DME0TPC348]] continues this theme.
+
+### What it is not
+
+The question whether numbers exist independently of minds is not methodology.
+It is a question of ontology, and it belongs to the philosophy of mathematics.
+A formal proof system with its rules of inference is not methodology either, because it is an object of [[mathematical logic|DYJ0KGTPMR]], although methodology studies how proofs are found and judged.
+A list of contest tricks for one type of problem becomes methodology only when it describes general strategies and their limits.
+
+### Watch out
+
+Mathematics is not discovered in the order in which it is written.
+A paper chooses its order for checking, not for finding, so a student who tries to invent proofs in textbook order usually gets stuck.
+
+A heuristic is not a proof method.
+"Try a special case" helps you find a result, but a special case proves nothing about the general case, as $n^2 + n + 41$ shows.
 
 ### History
 
-René Descartes wrote rules for the direction of the mind, with mathematics as the model of method.
-Henri Poincaré described his own discovery of results on Fuchsian functions in an essay on mathematical creation, published in *Science et méthode* in 1908.
+Henri Poincaré described how he found results on Fuchsian functions in his essay on mathematical creation, published in *Science et méthode* in 1908.
 Jacques Hadamard collected such accounts in *The Psychology of Invention in the Mathematical Field* (1945).
 George Pólya published *How to Solve It* in 1945 and *Mathematics and Plausible Reasoning* in 1954.
-Imre Lakatos developed his method of proofs and refutations in articles of the 1960s, and the book *Proofs and Refutations* appeared in 1976, after his death in 1974.
+Imre Lakatos developed his method of [[proofs and refutations|79P9CTRN0V]] in articles of the 1960s, and the book *Proofs and Refutations* appeared in 1976, after his death in 1974.
 
-### Common errors
+### Try it
 
-- To think that mathematics is discovered in the order in which it is written. The order of a paper is chosen for checking, not for finding.
-- To think that a heuristic is a proof method. "Try a special case" helps to find a result, but a special case proves nothing about the general case.
-- To mix methodology with epistemology. "How did they find it?" and "why is it certain?" are different questions.
+First, apply Pólya's "look back" to the diagonal formula: does it give a sensible answer for a triangle?
+It gives $\frac{3 \cdot 0}{2} = 0$, which is right, since a triangle has no diagonals.
+
+Second, compute $1$, $1 + 2 + 1$, $1 + 2 + 3 + 2 + 1$ and $1 + 2 + 3 + 4 + 3 + 2 + 1$, and state a conjecture.
+The sums are $1, 4, 9, 16$, which suggests that $1 + 2 + \cdots + n + \cdots + 2 + 1 = n^2$; it is true, since the left side is $\frac{n(n + 1)}{2} + \frac{(n - 1)n}{2} = n^2$.
 
 ## Explanations
 
@@ -77,29 +116,30 @@ Imre Lakatos developed his method of proofs and refutations in articles of the 1
 A finished proof in a book looks neat, as if the author knew the way from the start.
 In reality the author tried small cases, made guesses, made mistakes and changed the question several times.
 The methodology of mathematics studies this real process.
-For example, before proving that the angles of a triangle sum to $180°$, someone may have measured the angles of many triangles and noticed the pattern.
-The pattern suggested the result, and only a proof made it certain.
+For example, someone who measures the angles of many paper triangles notices that they always add up to about $180°$.
+The pattern suggests the result, and only a proof makes it certain.
 
 ### L2 human
 
-We follow Lakatos's method on Euler's formula $V - E + F = 2$ for polyhedra, where $V$, $E$ and $F$ count vertices, edges and faces.
-
-1. Test: a cube has $V = 8$, $E = 12$ and $F = 6$, and $8 - 12 + 6 = 2$.
-2. Test: a tetrahedron has $V = 4$, $E = 6$ and $F = 4$, and $4 - 6 + 4 = 2$.
-3. Conjecture: $V - E + F = 2$ for each polyhedron.
-4. Counterexample: a picture frame, a square ring with a square hole, made of $16$ quadrilateral faces. It has $V = 16$, $E = 32$ and $F = 16$, so $V - E + F = 0$.
-5. Response: we can reject the frame as "not a polyhedron", or we can add the hypothesis "without holes" to the conjecture. Lakatos called these responses monster-barring and lemma-incorporation.
-6. The second response leads to a correct theorem: for each convex polyhedron, $V - E + F = 2$.
-
-The typical use of this method is in research: each counterexample shows which hypothesis or which definition must change.
-A trap is to bar the counterexample by a new definition without asking what it teaches.
-The frame led to the Euler characteristic of surfaces, which takes the value $0$ on the torus.
+Here is Lakatos's method run on [[Euler's polyhedron formula|09HT3P35YP]] $V - E + F = 2$, where $V$, $E$ and $F$ count the vertices, edges and faces.
+Two tests support it:
+$$\text{cube: } 8 - 12 + 6 = 2, \qquad \text{tetrahedron: } 4 - 6 + 4 = 2.$$
+So we conjecture that $V - E + F = 2$ for every polyhedron.
+Now take a picture frame: a square ring with a square hole, made of $16$ quadrilateral faces.
+It has $4$ outer, $4$ inner, $4$ top and $4$ bottom faces, $16$ vertices, and $16 \cdot 4 / 2 = 32$ edges, so
+$$V - E + F = 16 - 32 + 16 = 0.$$
+There are two responses.
+We can reject the frame as "not a real polyhedron", which Lakatos called monster-barring.
+Or we can find the hidden assumption in the proof and add it as a hypothesis, which he called lemma-incorporation.
+The second response leads to a correct theorem, for example $V - E + F = 2$ for every convex polyhedron.
+Watch out: barring a counterexample by a new definition, without asking what it teaches, loses information.
+The frame points to the [[Euler characteristic|RNDDWDAFJ5]] of surfaces, which is $0$ for the torus.
 
 ### L3 human
 
-The methodology of mathematics sits between the philosophy of mathematics, the history of mathematics, mathematics education and the practice of research.
-Its main texts are descriptive: Pólya and Hadamard wrote from their own experience, and Lakatos wrote a rational reconstruction of a historical episode.
-Later work studies practice with the tools of cognitive science, sociology and the analysis of proofs written for proof assistants.
+The methodology of mathematics sits between the philosophy of mathematics, the history of mathematics, mathematics education and research practice.
+Its classic texts are descriptive.
+Pólya and Hadamard wrote from their own experience, and Lakatos wrote a rational reconstruction of a historical episode in the form of a classroom dialogue.
+Later work studies practice with the tools of cognitive science and sociology, and with the record of proofs written for proof assistants.
 The questions are concrete: which proofs mathematicians find explanatory, how definitions are chosen, how a community decides that a long proof is correct, and how computers change the search for results.
-Within this site, the sub-areas on [[heuristics of discovery|X1NSTVGDNQ]], [[plausible reasoning and experimental mathematics|DME0TPC348]] and [[rigour and the acceptance of proofs|1BTHSHST4M]] continue these themes.
-The epistemological questions, such as whether mathematical knowledge is a priori, belong to the [[philosophy of mathematics|NTJ5XW0PVD]].
+The sub-areas on [[heuristics of discovery|X1NSTVGDNQ]] and [[rigor and the acceptance of proofs|1BTHSHST4M]] continue these themes, while questions such as whether mathematical knowledge is a priori go to the philosophy of mathematics.
