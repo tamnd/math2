@@ -28,7 +28,8 @@ $$\det A = 2 \bigl( 2 \cdot 2 - (-1)(-1) \bigr) - (-1) \bigl( (-1) \cdot 2 - (-1
 4. All three leading minors $2, 3, 4$ are positive, so $A$ is positive definite by [[Sylvester's criterion|0WKEF78PMV]].
 5. For the eigenvalue test, expand $\det(A - tI)$ along the first row:
 $$\det(A - tI) = (2 - t)\bigl( (2 - t)^2 - 1 \bigr) - (2 - t) = (2 - t)\bigl( (2 - t)^2 - 2 \bigr).$$
-The roots are $t = 2$ and $t = 2 \pm \sqrt2$, that is, about $0.586$, $2$ and $3.414$. All three are positive, so [[the eigenvalue test|0HYC2RHD3M]] gives the same answer.
+The roots are $t = 2$ and $t = 2 \pm \sqrt2$, that is, about $0.586$, $2$ and $3.414$.
+All three are positive, so [[the eigenvalue test|0HYC2RHD3M]] gives the same answer.
 6. For the form itself, write it as a sum of squares:
 $$x^{\mathsf{T}} A x = 2x_1^2 + 2x_2^2 + 2x_3^2 - 2x_1 x_2 - 2x_2 x_3 = x_1^2 + (x_1 - x_2)^2 + (x_2 - x_3)^2 + x_3^2.$$
 The sum is $0$ only when $x_1 = 0$, $x_2 = x_1$ and $x_3 = x_2$, that is, only at $x = 0$.

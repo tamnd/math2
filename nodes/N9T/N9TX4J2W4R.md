@@ -28,7 +28,8 @@ $$x^{\mathsf{T}} A x = 1 \cdot (-1) + (-1) \cdot 1 = -2 < 0.$$
 2. So $A$ is not [[positive semidefinite|0880F9EQCP]], and so it is not [[positive definite|0QQCG3JWJ4]] either.
 3. The eigenvalues. The characteristic polynomial is
 $$\det(A - tI) = (1 - t)^2 - 4 = t^2 - 2t - 3 = (t - 3)(t + 1),$$
-so the eigenvalues are $3$ and $-1$. The negative eigenvalue fails [[the eigenvalue test|0HYC2RHD3M]], and its eigenvector is $(1, -1)$, the vector of step 1.
+so the eigenvalues are $3$ and $-1$.
+The negative eigenvalue fails [[the eigenvalue test|0HYC2RHD3M]], and its eigenvector is $(1, -1)$, the vector of step 1.
 4. The determinant. It is $1 \cdot 1 - 2 \cdot 2 = -3 < 0$, while a positive definite matrix has a positive determinant, as the product of its positive eigenvalues.
 
 ## Remarks

@@ -21,90 +21,118 @@ inventory: [8XQP955FKQ]
 
 ## Summary
 
+A positive semidefinite matrix is the matrix version of a number that is greater than or equal to zero.
+The form $x^* A x$ is never negative, but it may be zero at a nonzero vector.
 Let $A$ be an $n \times n$ complex [[Hermitian matrix|0P17NGQQMQ]].
-The matrix $A$ is positive semidefinite when $x^* A x \ge 0$ for every vector $x \in \C^n$.
-For a real [[symmetric matrix|0VR671PHE5]] the condition is $x^T A x \ge 0$ for every $x \in \R^n$.
-The [[formal definition|0880F9EQCP]] states this.
-Positive semidefinite matrices are the matrix analogue of nonnegative numbers, and every [[positive definite matrix|0KX66CZMBB]] is one.
+Then $A$ is *positive semidefinite* when
+$$x^* A x \ge 0 \qquad \text{for every } x \in \C^n.$$
+For a real matrix, the condition is that $A$ is [[symmetric|0VR671PHE5]] and $x^{\mathsf{T}} A x \ge 0$ for every $x \in \R^n$.
+The [[formal definition|0880F9EQCP]] states both cases, and every [[positive definite matrix|0KX66CZMBB]] is positive semidefinite.
 
 ## Motivation
 
-Many matrices that come from data are positive semidefinite without being positive definite.
-The [[Gram matrix|00SPJSDT3Z]] of a list of vectors is positive semidefinite, and it is positive definite only when the vectors are independent.
-A [[covariance matrix|0V7G6WMFK0]] is positive semidefinite, because a variance is never negative.
-The matrices $A^* A$ and $A A^*$ are positive semidefinite for every matrix $A$, and the [[singular values|09VMDSRXWJ]] of $A$ come from them.
-So a theory that allows the value $0$ is needed.
+Many matrices that come from data are positive semidefinite without being positive definite, so we need a theory that allows the value $0$.
+The [[Gram matrix|00SPJSDT3Z]] of a list of vectors is positive semidefinite, and it is definite only when the vectors are independent.
+A [[covariance matrix|0V7G6WMFK0]] $C$ is positive semidefinite, because $v^{\mathsf{T}} C v$ is the variance of the combination $v_1 X_1 + \dots + v_n X_n$, and a variance is never negative.
+The matrices $A^* A$ and $A A^*$ are positive semidefinite for every matrix $A$, and the [[singular values|09VMDSRXWJ]] of $A$ are the square roots of the eigenvalues of $A^* A$.
+Later, the positive semidefinite square root gives the polar decomposition, and the same idea for operators on spaces of functions gives the positive operators of functional analysis.
 
 ## Notation
 
-- We write $A \succeq 0$ or $A \ge 0$ for "$A$ is positive semidefinite". The order $A \succeq B$ means $A - B \succeq 0$, which is the [[Loewner order|9G9S92T1VJ]].
-- Mathlib writes `Matrix.PosSemidef A`, and its definition includes the condition that $A$ is Hermitian.
-- As for positive definite matrices, some books do not ask for symmetry. This page always asks for it.
+Books write $A \succeq 0$ or $A \ge 0$, and $A \succeq B$ means $A - B \succeq 0$, which is the [[Loewner order|9G9S92T1VJ]].
+Mathlib writes `Matrix.PosSemidef A`, and its definition includes the condition that $A$ is Hermitian.
+As for positive definite matrices, some books do not ask for symmetry in the real case, and we always ask for it.
+Books on operators often say *positive operator* for the semidefinite case, so "positive" there means "$\ge 0$".
 
 ## Remarks
 
-### Examples
+### First examples
 
-- The zero matrix is positive semidefinite, and it is not positive definite for $n \ge 1$.
-- [[The all-ones $2 \times 2$ matrix|YAAQD2E1BZ]] is positive semidefinite, with eigenvalues $0$ and $2$.
-- [[The matrix $\begin{pmatrix} 5 & 4 \\ 4 & 5 \end{pmatrix}$ of the square root example|QTV6Y0710E]] is positive semidefinite, and in fact positive definite.
-- An [[orthogonal projection|0B8KZRT28M]] matrix $P$ with $P^* = P = P^2$ is positive semidefinite, because $x^* P x = x^* P^* P x = \norm{Px}^2$.
-- For every $m \times n$ matrix $B$, the matrix $B^* B$ is positive semidefinite, by [[the Gram matrix theorem|0AM050KCAW]].
-- Every positive definite matrix, for example [[the tridiagonal example|RSQW92W4PD]], is positive semidefinite.
+The zero matrix is positive semidefinite, since its form is $0$ everywhere, and it is not positive definite.
+[[The all-ones matrix|YAAQD2E1BZ]] $\begin{pmatrix} 1 & 1 \\ 1 & 1 \end{pmatrix}$ has the form $(x_1 + x_2)^2 \ge 0$, and the form is $0$ at $(1, -1)$.
+An [[orthogonal projection|0B8KZRT28M]] $P$ is positive semidefinite, because $P^* = P = P^2$ gives
+$$x^* P x = x^* P^* P x = \norm{Px}^2 \ge 0.$$
+For example, $\operatorname{diag}(1, 0)$ projects $\R^2$ onto the first axis, and its form is $x_1^2$.
+Every positive definite matrix, such as [[the tridiagonal example|RSQW92W4PD]] or [[the matrix of the square root example|QTV6Y0710E]], is also positive semidefinite.
 
-### Non-examples
+### Gram matrices and covariance matrices
 
-- [[The matrix $\begin{pmatrix} 0 & 0 \\ 0 & -1 \end{pmatrix}$|9ZQ1GV2F0G]] has leading minors $0$ and $0$, but the form is $-1$ at $e_2$.
-- [[The matrix $\begin{pmatrix} 1 & 2 \\ 2 & 1 \end{pmatrix}$|N9TX4J2W4R]] has positive entries and an eigenvalue $-1$.
-- The matrix $\begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}$ is Hermitian, and the form is $-1$ at $e_2$. Such a matrix is called indefinite.
+For every $m \times n$ matrix $B$, the matrix $B^* B$ is positive semidefinite, since $x^* B^* B x = \norm{Bx}^2$.
+This is the first part of [[the Gram matrix theorem|0AM050KCAW]], and its converse says that every positive semidefinite matrix has this form.
 
-### Basic properties
+A covariance matrix shows where the zero values come from.
+Let $X$ be a random variable with variance $1$, and let $Y = X$.
+The covariance matrix of $(X, Y)$ is the all-ones matrix, and
+$$v^{\mathsf{T}} C v = \operatorname{Var}(v_1 X + v_2 Y) = (v_1 + v_2)^2 \operatorname{Var}(X) = (v_1 + v_2)^2.$$
+At $v = (1, -1)$ the combination is $X - Y = 0$, a constant with variance $0$.
+So a covariance matrix is singular exactly when some nontrivial combination of the variables is constant.
 
-- A Hermitian matrix is positive semidefinite if and only if all its eigenvalues are nonnegative, by [[the eigenvalue test|0HYC2RHD3M]].
-- A Hermitian matrix is positive semidefinite if and only if all its principal minors are nonnegative, by [[Sylvester's criterion|0WKEF78PMV]]. The leading minors alone are not enough.
-- A matrix is positive semidefinite if and only if it equals $B^* B$ for some square $B$, by [[the Gram matrix theorem|0AM050KCAW]].
-- A positive semidefinite matrix has a unique positive semidefinite [[square root|EQ98KW1ZN4]].
-- A positive semidefinite matrix is positive definite if and only if it is invertible. This follows from the eigenvalue test, because $\det A$ is the product of the eigenvalues.
-- The diagonal entries are nonnegative. If $a_{ii} = 0$, then row $i$ and column $i$ are zero; a $2 \times 2$ principal minor $a_{ii}a_{jj} - \abs{a_{ij}}^2 \ge 0$ forces $a_{ij} = 0$.
-- If $A \succeq 0$, then $P^* A P \succeq 0$ for every $n \times k$ matrix $P$. In particular every principal submatrix is positive semidefinite.
-- Sums and nonnegative multiples of positive semidefinite matrices are positive semidefinite. So they form a closed convex cone, which belongs to matrix analysis.
+### What it is not
+
+[[The matrix diag(0, -1)|9ZQ1GV2F0G]] is symmetric, but its form is $-1$ at $e_2 = (0, 1)$.
+[[The matrix with entries 1, 2, 2, 1|N9TX4J2W4R]] has only positive entries, and still its form is $-2$ at $(1, -1)$, so nonnegative entries do not give semidefiniteness.
+The matrix $\operatorname{diag}(1, -1)$ is Hermitian with form $x_1^2 - x_2^2$, which takes both signs, and such a matrix is called *indefinite*.
+
+### The rules you can use
+
+A Hermitian matrix is positive semidefinite exactly when all its eigenvalues are nonnegative, by [[the eigenvalue test|0HYC2RHD3M]].
+It is positive semidefinite exactly when all its principal minors are nonnegative, by part 2 of [[Sylvester's criterion|0WKEF78PMV]].
+It has a unique positive semidefinite [[square root|EQ98KW1ZN4]].
+A positive semidefinite matrix is positive definite exactly when it is invertible, since both say that $0$ is not an eigenvalue.
+
+If $A \succeq 0$ and $P$ is any $n \times k$ matrix, then $P^* A P \succeq 0$, because $y^* P^* A P y = (Py)^* A (Py) \ge 0$.
+Taking for $P$ a selection of columns of $I_n$ shows that every principal submatrix is positive semidefinite.
+So each diagonal entry is nonnegative, and each $2 \times 2$ principal minor gives $\abs{a_{ij}}^2 \le a_{ii} a_{jj}$.
+In particular, a zero diagonal entry $a_{ii} = 0$ forces the whole row $i$ and column $i$ to be zero.
+Sums and nonnegative multiples of positive semidefinite matrices are positive semidefinite, so they form a closed convex cone.
+
+### Watch out
+
+The leading minors are not enough for semidefiniteness.
+The matrix $\operatorname{diag}(0, -1)$ has leading minors $0$ and $0$, both nonnegative, but it is not semidefinite.
+The principal minor $a_{22} = -1$ shows the failure, so check every principal minor, or use the eigenvalues.
+
+Do not expect a positive semidefinite matrix to be invertible: the all-ones matrix has determinant $0$.
+A zero value of the form does not force $x = 0$, but it does force $Ax = 0$.
+Indeed, $x^* A x = \norm{A^{1/2} x}^2$, so $x^* A x = 0$ gives $A^{1/2} x = 0$ and then $Ax = A^{1/2} A^{1/2} x = 0$.
 
 ### History
 
-The Wikipedia article on definite matrices gives the decomposition $A = B^* B$ as the main characterization, and it allows $B$ to be rectangular.
-It also notes that some authors drop the symmetry condition.
+In 1909 Mercer published his theorem on continuous kernels of positive type, the analogue of positive semidefinite matrices for integral operators.
+For a continuous symmetric kernel $k(s, t)$, this condition is equivalent to asking that every matrix $\bigl( k(s_i, s_j) \bigr)$ built from finitely many points is positive semidefinite.
 
-### Common errors
+### Try it
 
-- Students test only the leading principal minors. [[The matrix $\operatorname{diag}(0, -1)$|9ZQ1GV2F0G]] passes that test and is not positive semidefinite.
-- Students expect a positive semidefinite matrix to be invertible. [[The all-ones matrix|YAAQD2E1BZ]] has determinant $0$.
-- Students think that $x^* A x \ge 0$ and $x^* A x = 0$ imply $x = 0$. For the all-ones matrix, $x = (1, -1)$ gives $0$.
+First, decide whether $\begin{pmatrix} 1 & 2 \\ 2 & 4 \end{pmatrix}$ is positive semidefinite or positive definite.
+The form is $x_1^2 + 4x_1 x_2 + 4x_2^2 = (x_1 + 2x_2)^2 \ge 0$, and it is $0$ at $(2, -1)$, so the matrix is semidefinite but not definite.
+
+Second, find all real $t$ for which $\begin{pmatrix} t & 1 \\ 1 & t \end{pmatrix}$ is positive semidefinite.
+The principal minors are $t$, $t$ and $t^2 - 1$, and all are nonnegative exactly when $t \ge 1$.
 
 ## Explanations
 
 ### L1 human
 
-A positive semidefinite matrix never gives a negative number $x^T A x$.
-It may give $0$ for a nonzero vector.
+A positive semidefinite matrix never gives a negative number $x^{\mathsf{T}} A x$, but it may give $0$ for a nonzero vector.
 For example, $\begin{pmatrix} 1 & 1 \\ 1 & 1 \end{pmatrix}$ gives $(x_1 + x_2)^2$.
 This is never negative, and it is $0$ for $x = (1, -1)$.
-The graph of such a function is a bowl or a flat valley, and never a saddle.
+The graph of such a function is a bowl or a valley with a flat floor, and never a saddle.
 
 ### L2 human
 
-The fastest tests are these.
-
-1. Check that $A$ is Hermitian (real symmetric in the real case).
-2. Find the eigenvalues. If all are at least $0$, then $A$ is positive semidefinite.
-3. Or write $A = B^* B$ for some matrix $B$. Then $x^* A x = \norm{Bx}^2 \ge 0$.
-
-The typical use: the matrix $A^T A$ of a least squares problem is positive semidefinite, so the least squares function $\norm{Ax - b}^2$ is convex.
-A trap: for semidefiniteness, Sylvester's test needs all principal minors, not only the leading ones.
+Here is a typical use: the least-squares function is convex.
+For a matrix $A$ and a vector $b$, put $f(x) = \norm{Ax - b}^2$.
+Expanding gives
+$$f(x) = x^{\mathsf{T}} A^{\mathsf{T}} A x - 2 b^{\mathsf{T}} A x + b^{\mathsf{T}} b,$$
+and the Hessian of $f$ is the constant matrix $2 A^{\mathsf{T}} A$.
+That matrix is positive semidefinite for every $A$, so $f$ is convex, and every critical point of $f$ is a minimum.
+If the columns of $A$ are dependent, $A^{\mathsf{T}} A$ is singular, and the minimum is reached along a whole affine subspace.
+Watch out: to prove semidefiniteness from minors, you need every principal minor, not only the leading ones.
 
 ### L3 human
 
 The positive semidefinite $n \times n$ matrices form a closed convex cone in the real space of Hermitian matrices.
-The cone is self-dual for the trace inner product $\ip{A}{B} = \tr(AB)$.
+The cone is self-dual for the trace inner product $\ip{A}{B} = \tr(AB)$: a Hermitian $B$ has $\tr(AB) \ge 0$ for every $A \succeq 0$ exactly when $B \succeq 0$.
 Its interior is the cone of positive definite matrices, and its boundary is the set of singular positive semidefinite matrices.
-Positive semidefinite matrices correspond to Gram matrices of vectors in some inner product space, and their rank is the dimension of the span.
-In functional analysis the same notion gives positive operators, and in optimization it gives semidefinite programming.
+A positive semidefinite matrix of rank $r$ is the Gram matrix of $n$ vectors that span an $r$-dimensional space.
+In functional analysis the same notion gives positive operators and positive definite kernels, and in optimization it gives semidefinite programming.

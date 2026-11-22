@@ -18,30 +18,36 @@ sources:
 ## Example
 
 Let $A = \begin{pmatrix} 0 & 0 \\ 0 & -1 \end{pmatrix}$.
+Its leading minors are both $0$, so they pass the test "all leading minors are $\ge 0$", but $A$ is not positive semidefinite.
 
 1. $A$ is real and symmetric.
-2. The leading principal [[minors|0SD528P0EK]] are $\Delta_1 = 0$ and $\Delta_2 = 0 \cdot (-1) - 0 \cdot 0 = 0$. Both are nonnegative.
-3. For $x = e_2 = (0, 1)$, we get $x^T A x = a_{22} = -1 < 0$.
+2. The leading principal [[minors|0SD528P0EK]] are
+$$\Delta_1 = a_{11} = 0, \qquad \Delta_2 = 0 \cdot (-1) - 0 \cdot 0 = 0,$$
+and both are nonnegative.
+3. For $x = e_2 = (0, 1)$ we get $x^{\mathsf{T}} A x = a_{22} = -1 < 0$.
 4. So $A$ is not [[positive semidefinite|0880F9EQCP]].
 5. The principal minors are $a_{11} = 0$, $a_{22} = -1$ and $\det A = 0$. The minor $a_{22} = -1$ is negative, so the test with all principal minors finds the failure.
 
 ## Remarks
 
-- This example shows that the semidefinite part of [[Sylvester's criterion|0WKEF78PMV]] needs all principal minors, and not only the leading ones.
-- The matrix $\begin{pmatrix} 0 & 0 \\ 0 & -1 \end{pmatrix}$ is negative semidefinite. Its eigenvalues are $0$ and $-1$.
-- The positive definite test does not have this problem, because a leading minor $0$ already fails the test "all leading minors are positive".
+The example shows that part 2 of [[Sylvester's criterion|0WKEF78PMV]] needs all principal minors, and not only the leading ones.
+The zero in the top left corner hides the entry $-1$ from the $2 \times 2$ minor, since $0 \cdot (-1) = 0$.
+Only the principal minor of the bottom right corner looks at $a_{22}$ alone.
+
+The matrix is in fact negative semidefinite, with eigenvalues $0$ and $-1$.
+The positive definite test has no such problem, because there a leading minor equal to $0$ already fails the test "all leading minors are positive".
+If we change $a_{11}$ from $0$ to $1$, the leading minors become $1$ and $-1$, and now the leading minors detect the failure.
 
 ## Explanations
 
 ### L1 human
 
 For semidefiniteness, the leading minors can mislead.
-Here both leading minors are $0$, which is allowed.
+Here both leading minors are $0$, which looks harmless.
 But the vector $(0, 1)$ gives the value $-1$.
 
 ### L2 human
 
-The leading minors look only at the top-left corners.
-The zero in the top-left corner hides the entry $-1$ from the second minor, since $0 \cdot (-1) = 0$.
-The principal minor of the bottom-right corner, $a_{22} = -1$, shows the problem.
-A trap: this failure needs a zero leading minor, so it does not happen for the positive definite test.
+The leading minors look only at the top left corners, and a zero corner can hide everything below it.
+For a $2 \times 2$ symmetric $\begin{pmatrix} a & b \\ b & c \end{pmatrix}$, the correct semidefinite test is $a \ge 0$, $c \ge 0$ and $ac - b^2 \ge 0$, with three minors rather than two.
+Watch out: the failure needs a leading minor equal to $0$, so it never happens for the positive definite test with strict inequalities.
