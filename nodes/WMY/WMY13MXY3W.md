@@ -8,26 +8,34 @@ topics: [SGSVYFDSYK]
 
 ## Summary
 
-This topic is a part of [[reasoning and proof|SGSVYFDSYK]].
-It covers how statements are formed and read in mathematical English: conditionals, quantifiers, negation and the traps of ordinary language.
-The pages work with mathematical English, not with formal logic, and each one shows how a logical form appears in real definitions and theorems.
+A theorem is a sentence, and you cannot prove a sentence that you have misread.
+Take "every continuous function on $[0, 1]$ is bounded".
+It is a claim about every function $f$, it hides the conditional "if $f$ is continuous, then", and the word "bounded" packs two more quantifiers in a fixed order: there is $M$ such that $|f(x)| \le M$ for every $x$.
+This topic, a part of [[reasoning and proof|SGSVYFDSYK]], teaches you to take such sentences apart and to write them so that they have one meaning.
+
+The pages work with mathematical English, not with formal logic.
+They start with what a statement is, then build statements with "and", "or" and "not", with "if ... then", and with "for every" and "there is".
+Next they show how to negate a statement, which is what you need to find a counterexample, and how to prove "exactly one".
+They end with the traps that ordinary English sets: words with two meanings, and a famous experiment in which most people misread a conditional.
 
 ## Remarks
 
 ### Reading order
 
-1. [[The language of mathematics|661V0DH7V3]]: the mix of words and symbols, and how mathematical English differs from ordinary English.
-2. [[Mathematical statement|S9MHMRAX88]]: sentences with exactly one truth value, and open sentences.
-3. [[Connectives in mathematical language|12QQ51VK01]]: "and", "or", "not" and "but" in mathematical text.
-4. [[Conditional statements|FA6YZGR2SS]]: "if ... then", "only if", "necessary", "sufficient" and "if and only if".
-5. [[Quantifiers in mathematical writing|EGTZPA6QH3]]: "for every" and "there is", implicit and bounded quantifiers.
-6. [[Negating mathematical statements|K930V33BSC]]: pushing "not" inward, with negated definitions such as continuity.
-7. [[Existence and uniqueness statements|ACSC75R7R5]]: "exactly one" and "at most one", proved in two parts.
-8. [[Ambiguity in mathematical language|8BZPKYF912]]: "a" and "the", "or", "any", scope and grouping.
-9. [[Wason selection task|7GYZJ2MGY9]]: a famous test of how people read a conditional.
+1. [[The language of mathematics|661V0DH7V3]]: you learn how words and symbols share one sentence, and which ordinary words change meaning in mathematics.
+2. [[Mathematical statement|S9MHMRAX88]]: you learn which sentences have exactly one truth value, and what an open sentence is.
+3. [[Connectives in mathematical language|12QQ51VK01]]: you learn the fixed meanings of "and", "or", "not" and "but".
+4. [[Conditional statements|FA6YZGR2SS]]: you learn to read "if ... then", "only if", "unless", "necessary", "sufficient" and "if and only if".
+5. [[Quantifiers in mathematical writing|EGTZPA6QH3]]: you learn to find every "for every" and "there is", including the hidden ones, and why their order matters.
+6. [[Negating mathematical statements|K930V33BSC]]: you learn five rules that push "not" inward, and you use them on definitions such as continuity.
+7. [[Existence and uniqueness statements|ACSC75R7R5]]: you learn what "exactly one" claims, and how to prove it in two parts.
+8. [[Ambiguity in mathematical language|8BZPKYF912]]: you learn where double meanings hide, in "a", "the", "or", "any", "not" and spoken formulas.
+9. [[Wason selection task|7GYZJ2MGY9]]: you test your own reading of a conditional on four cards.
 
 ### Prerequisites
 
-1. No earlier topic is required. School algebra, with inequalities and the integers, is enough for the examples.
-2. A few examples use limits, continuity or groups, and they say so at the start.
-3. The formal laws behind the pages are in the topic [[propositions, connectives and quantifiers|PM1AYWABA7]], and the proof methods that use them are in the topic [[proof methods|G9JFJGY4TQ]].
+No earlier topic is required.
+School algebra, with inequalities and the integers, is enough for most examples.
+A few examples use limits, continuity or groups, and they say so at the start.
+The formal laws behind these pages are in the topic [[propositions, connectives and quantifiers|PM1AYWABA7]].
+The proof methods that use them are in the topic [[proof methods|G9JFJGY4TQ]].

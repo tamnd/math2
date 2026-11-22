@@ -17,52 +17,75 @@ sources:
 
 ## Definition
 
-A mathematical statement is a declarative sentence of mathematics that is either true or false, and not both.
-Its truth value is "true" when it is true and "false" when it is false.
-The sentence can use words, symbols or both.
-For example, "$7$ is a prime number" is a true statement, and "$2 + 2 = 5$" is a false statement.
-A statement must have a truth value, but we need not know it.
+A statement is a sentence that makes a claim, so that it is either true or false.
+Precisely, a *mathematical statement* is a declarative sentence of mathematics, written in words, in symbols or in both, that is either true or false, and not both.
+Its *truth value* is "true" in the first case and "false" in the second.
+A statement must have a truth value, but nobody needs to know which one it is.
 Three kinds of sentences are not statements.
 
-1. An open sentence contains a free variable, such as $x$ in "$x > 3$". Its truth value depends on the value of the variable.
-2. A question, such as "Is $91$ prime?", asks for a truth value but does not claim one.
-3. A command or an instruction, such as "Solve $x^2 = 4$" or "Let $n = 5$", tells the reader what to do.
+1. An *open sentence* contains a free variable, such as $x$ in "$x > 3$", and its truth value depends on the value of the variable.
+2. A question, such as "is $91$ prime?", asks for a truth value but does not claim one.
+3. A command or an instruction, such as "solve $x^2 = 4$" or "let $n = 5$", tells the reader what to do.
 
-At this informal level, the meaning of the words and the accepted definitions decide the truth value.
-Axioms, theorems, conjectures and the hypotheses of a theorem are statements, and a [[proof|0B94TKFQJX]] is a chain of statements.
+At this informal level, the meanings of the words and the accepted definitions decide the truth value.
 
 ## Notation
 
 Capital letters $P$, $Q$ and $R$ usually name statements.
-An open sentence with the variable $x$ is written $P(x)$, and $P(3)$ is the statement that we get when we put $3$ for $x$.
-Books on logic use the word [[proposition|0ZGC7ZESYN]] for a statement, and often use small letters $p$, $q$ and $r$.
+An open sentence with the variable $x$ is written $P(x)$, and $P(3)$ is the statement that we get when we put $3$ in place of $x$.
+Books on logic call a statement a [[proposition|0ZGC7ZESYN]], and they often use the small letters $p$, $q$ and $r$.
 The truth values are written T and F, or $1$ and $0$, or $\top$ and $\bot$.
-The word "proposition" has a second meaning in mathematical writing: it labels a result that is less important than a theorem.
-This page uses the word "statement" to avoid the conflict.
+Watch out for a clash of words: "proposition" also labels a proved result that is less important than a theorem.
+The word "statement" avoids the clash, and the pages on mathematical language use it.
 
 ## Remarks
 
-### Examples
+### Reading the definition
 
-1. "$\sqrt{2}$ is irrational" is a true statement. The [[irrationality of the square root of a prime|0YHFMXJJAZ]] proves it.
-2. "Every even integer greater than $2$ is a sum of two primes" is a statement, but nobody knows its truth value. This is [[Goldbach's conjecture as an example of a statement|2H9FT1ZV4J]].
-3. "For every real number $x$, $x^2 \geq 0$" is a true statement. The words "for every" turn the open sentence $x^2 \geq 0$ into a statement, as in [[quantifying an open sentence gives a statement|D8CYAZ8S9T]].
-4. "$2 + 2 = 5$" is a false statement. A false statement is still a statement.
-5. "If $n$ is an even integer, then $n^2$ is even" is a true statement. The variable $n$ looks free, but the reader understands "for every integer $n$" in front of the sentence.
+Every condition in the definition rules out a kind of sentence that a textbook really contains.
+"Declarative" rules out the questions and the commands of exercises, such as "is $91$ prime?" and "compute $\int_0^1 x \, dx$".
+Each of them has a related statement: "$91$ is prime" is false, because $91 = 7 \cdot 13$, and "$\int_0^1 x \, dx = \tfrac{1}{2}$" is true.
+"Either true or false" rules out the open sentences, which are true for some values of the variable and false for others.
+[[The open sentence $x > 3$|1812QVCW76]] is true for $x = 4$ and false for $x = 2$, so it is not a statement.
+"Not both" rules out sentences such as the [[liar sentence|KBYY281V8T]] "this sentence is false".
+If it were true, it would be false, and if it were false, it would be true, so it cannot have exactly one truth value.
 
-### Non-examples
+### Statements in a textbook
 
-1. [[The open sentence $x > 3$ is not a statement|1812QVCW76]]: it is true for $x = 4$ and false for $x = 2$.
-2. "Is $91$ prime?" is a question. The related statement "$91$ is prime" is false, because $91 = 7 \cdot 13$.
-3. "Compute $\int_0^1 x \, dx$" is a command. The related statement "$\int_0^1 x \, dx = \tfrac{1}{2}$" is true.
-4. "This sentence is false" is the [[liar sentence|KBYY281V8T]]. If it is true, then it is false, and if it is false, then it is true. So it has no truth value, and it is not a statement.
+Most sentences in the theorems and proofs of a textbook are statements.
+"$\sqrt{2}$ is irrational" is a true statement, and [[the irrationality of the square root of a prime|0YHFMXJJAZ]] proves it.
+"$2 + 2 = 5$" is a false statement, and a false statement is still a statement.
+"For every real number $x$, $x^2 \ge 0$" is a true statement: the words "for every" turn the open sentence $x^2 \ge 0$ into a statement, as in [[quantifying an open sentence|D8CYAZ8S9T]].
+"Every even integer greater than $2$ is a sum of two primes" is a statement whose truth value nobody knows; it is [[Goldbach's conjecture|2H9FT1ZV4J]].
 
-### Basic properties
+Axioms, theorems, conjectures and the hypotheses of theorems are all statements, and a [[proof|0B94TKFQJX]] is a chain of statements.
 
-1. Each statement has exactly one of the two truth values. The [[law of excluded middle|0RYYK8PG4S]] says that it has at least one, and the definition says that it does not have both.
-2. An open sentence $P(x)$ becomes a statement in two ways: we give $x$ a value, or we bind $x$ with a quantifier. See [[quantifiers in mathematical writing|EGTZPA6QH3]].
-3. Connectives such as "and", "or" and "not" make new statements from given statements. The results are [[compound statements|EBEMSMMDFE]]. See [[connectives in mathematical language|12QQ51VK01]].
-4. The negation of a statement is a statement with the opposite truth value. See [[negating mathematical statements|K930V33BSC]].
+### Hidden quantifiers
+
+The sentence "if $n$ is an even integer, then $n^2$ is even" has a variable $n$ with no value.
+Read literally, it is an open sentence.
+In a theorem, every reader adds "for every integer $n$" in front, and then it is a true statement.
+The same formula can be read two ways.
+In an algebra book, $x^2 - 1 = (x - 1)(x + 1)$ is an identity, true for every $x$.
+In an exercise, $x^2 = 1$ is an equation to solve, true for $x = \pm 1$ and false otherwise.
+The context decides which reading is meant, and careful authors write the quantifier.
+
+### The rules you can use
+
+Each statement has exactly one of the two truth values.
+The [[law of excluded middle|0RYYK8PG4S]] says that it has at least one, and the definition says that it does not have both.
+An open sentence $P(x)$ becomes a statement in two ways: we give $x$ a value, or we bind $x$ with a [[quantifier|EGTZPA6QH3]].
+The connectives "and", "or" and "not" build [[compound statements|EBEMSMMDFE]] from given statements, as [[connectives in mathematical language|12QQ51VK01]] explains.
+The negation of a statement is a statement with the opposite truth value, and [[negating mathematical statements|K930V33BSC]] shows how to write it.
+
+### Watch out
+
+The first error is to call an open sentence true or false.
+"$x^2 = 4$" is neither until $x$ has a value or a quantifier binds $x$.
+The second error is to think that a statement must be known to be true.
+Goldbach's conjecture is a statement, although its truth value is unknown.
+The third error is to treat every equation as a claim.
+In "solve $x + 1 = 3$", the equation is an open sentence, and the answer "the only solution is $x = 2$" is the statement.
 
 ### History
 
@@ -70,11 +93,13 @@ Aristotle, in his work On Interpretation, separated the sentences that are true 
 George Boole gave an algebra of such statements in 1847 and in 1854.
 Gottlob Frege wrote statements in a formal language in his Begriffsschrift of 1879.
 
-### Common errors
+### Try it
 
-1. A student calls an open sentence true or false. The sentence "$x^2 = 4$" is neither, until $x$ has a value or a quantifier binds $x$.
-2. A student thinks that a statement must be known to be true. Goldbach's conjecture is a statement, but its truth value is unknown.
-3. A student reads every equation as a statement. In "solve $x + 1 = 3$", the equation is an open sentence, and the answer "the only solution is $x = 2$" is a statement.
+First, is "$n^2 + n$ is even" a statement?
+Not as it stands, because $n$ is free; with "for every integer $n$" in front it is a true statement, since $n^2 + n = n(n + 1)$ is a product of two consecutive integers.
+
+Second, is "there is a real number $x$ with $x^2 = -1$" a statement?
+Yes, and it is false, because the square of every real number is at least $0$.
 
 ## Explanations
 
@@ -90,20 +115,17 @@ For the number three it is true, and for the number five it is false.
 
 ### L2 human
 
-We decide which of five sentences are statements, and we give the truth value when we can.
+Here is a typical sorting task: which of five sentences are statements, and what are their truth values?
+The sentence "$17$ is prime" is a true statement, because the only positive divisors of $17$ are $1$ and $17$.
+The sentence "$x^2 - 1 = (x - 1)(x + 1)$" in an algebra text means "for every real $x$", and it is true, since
+$$(x - 1)(x + 1) = x^2 + x - x - 1 = x^2 - 1.$$
+The sentence "$x^2 = 1$" in an exercise is an open sentence, true for $x = 1$ and $x = -1$ and false for $x = 0$.
+The sentence "there is a real number $x$ with $x^2 = -1$" is a false statement.
+The sentence "find all primes below $10$" is a command, so it is not a statement.
 
-1. "$17$ is prime." The only positive divisors of $17$ are $1$ and $17$. So this is a true statement.
-2. "$x^2 - 1 = (x - 1)(x + 1)$." In an algebra text, this identity means "for every real $x$". Each side multiplies out to $x^2 - 1$, so this is a true statement.
-3. "$x^2 = 1$." In an exercise, this equation asks for the values of $x$. It is an open sentence: true for $x = 1$ and $x = -1$, and false for $x = 0$.
-4. "There is a real number $x$ with $x^2 = -1$." The square of a real number is at least $0$, so this is a false statement.
-5. "Find all primes below $10$." This is a command, so it is not a statement.
-
-The typical use of this check comes before a proof.
-We first make sure that the claim is a statement, and we write out each variable and the quantifier that binds it.
-
-A trap: sentences 2 and 3 look alike, because both are equations in $x$.
-The context decides whether a hidden "for every" is present.
-A careful author writes the quantifier, as in "for all $x \in \mathbb{R}$, $x^2 - 1 = (x - 1)(x + 1)$".
+Watch out: the second and third sentences look alike, because both are equations in $x$.
+Only the context tells you whether a hidden "for every" is present.
+That is why a careful author writes "for all $x \in \mathbb{R}$, $x^2 - 1 = (x - 1)(x + 1)$", and why the first step before a proof is to make sure that the claim is a statement.
 
 ### L3 human
 
@@ -116,4 +138,4 @@ Truth and provability are different.
 The [[continuum hypothesis|0MN2MER9WN]] is a statement of set theory that can be neither proved nor refuted from the usual axioms of set theory.
 In classical mathematics we still treat it as true or false in each model of set theory.
 In [[intuitionistic logic|Q11N8X99FK]], a statement is not assumed to be true or false in advance, and the law of excluded middle is not used.
-The formal theory of propositions, connectives and quantifiers is in the topic [[propositions, connectives and quantifiers|PM1AYWABA7]].
+The formal theory is in the topic [[propositions, connectives and quantifiers|PM1AYWABA7]].
