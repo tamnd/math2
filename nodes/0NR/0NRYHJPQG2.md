@@ -25,68 +25,95 @@ same_as:
 
 ## Summary
 
-Let $F$ be a [[field|04C5ZBG1WT]] and let $V$ and $W$ be [[vector spaces|000AYPA9AJ]] over $F$.
-A *linear map* from $V$ to $W$ is a function $T \colon V \to W$ with two properties, for all $u, v \in V$ and all $a \in F$:
+A linear map is a function between [[vector spaces|000AYPA9AJ]] that respects the two operations, addition and scaling.
+It is the kind of function that linear algebra studies, in the same way that continuous functions are the subject of topology.
+Let $F$ be a [[field|04C5ZBG1WT]] and let $V$ and $W$ be vector spaces over $F$.
+A *linear map* from $V$ to $W$ is a function $T \colon V \to W$ such that, for all $u, v \in V$ and all $a \in F$,
 $$T(u + v) = T(u) + T(v) \quad \text{(additivity)}, \qquad T(av) = a\, T(v) \quad \text{(homogeneity)}.$$
 The [[formal definition|0RJF668P1T]] states these two conditions.
-Linear maps are the functions that respect the operations of a vector space, so they are the maps that linear algebra studies.
-Matrices, derivatives, integrals and coordinate maps are all linear maps.
+An equivalent single condition is $T(au + v) = a\,T(u) + T(v)$ for all $u, v \in V$ and $a \in F$.
 
 ## Motivation
 
-Many problems have the form "given $w$, find $v$ with $T(v) = w$".
-For a linear system $Ax = b$ the function is $x \mapsto Ax$.
-For the differential equation $y'' + y = f$ the function is $y \mapsto y'' + y$.
+Many problems in mathematics have the form "given $w$, find $v$ with $T(v) = w$".
+For a linear system $Ax = b$ the function is $x \mapsto Ax$, and for the differential equation $y'' + y = f$ it is $y \mapsto y'' + y$.
 In both cases the function respects sums and scalar multiples.
-This one property explains the shape of the solution set: one particular solution plus all solutions of $T(v) = 0$.
-The concept of a linear map isolates this property and makes it the object of study.
+That one property explains the shape of the solutions: one particular solution plus all solutions of $T(v) = 0$.
+So it pays to study the property once, in general, and the concept of a linear map does exactly that.
+
+Linear maps appear well outside algebra.
+In physics, a linear medium is one where the response to two causes is the sum of the two responses, which is the principle of superposition.
+In computing, every rotation, scaling and projection of a picture on the screen is a linear map of the coordinates.
+In the rest of the area, linear maps return as [[matrices|0YQSGNYE3K]] once bases are fixed, as the maps to the field that make up the [[dual space|07JBSZE0V4]], and as the maps whose eigenvalues the spectral theory studies.
 
 ## Notation
 
-- We write $T \colon V \to W$, and often $Tv$ for $T(v)$.
-- The terms "linear map", "linear mapping", "linear transformation", "linear operator" and "vector space homomorphism" name the same object in most books.
-- Some books, for example Axler, reserve "operator" for a linear map from a space to itself, an [[endomorphism|0J7H0YBFDJ]].
-- In functional analysis, "operator" often means a [[continuous linear map|03TM135G0N]], or a linear map defined only on a subspace.
-- The set of all linear maps $V \to W$ is written $\Hom_F(V, W)$, $\mathcal{L}(V, W)$ or $L(V, W)$; see the [[space of linear maps|0X9MBPP2Z3]].
-- In Mathlib, a linear map is a term of type `V →ₗ[F] W`, a structure `LinearMap` whose fields are the function and the two conditions.
+We write $T \colon V \to W$, and often $Tv$ for $T(v)$.
+The names "linear map", "linear mapping", "linear transformation", "linear operator" and "vector space homomorphism" mean the same object in most books.
+Some books, such as Axler, keep the word "operator" for a linear map from a space to itself, an [[endomorphism|0J7H0YBFDJ]], and in functional analysis an "operator" is often a [[continuous linear map|03TM135G0N]].
+The set of all linear maps $V \to W$ is written $\Hom_F(V, W)$, $\mathcal{L}(V, W)$ or $L(V, W)$, and it is itself a vector space, the [[space of linear maps|0X9MBPP2Z3]].
+In Mathlib a linear map is a term of type `V →ₗ[F] W`, a structure `LinearMap` that packs the function with the two conditions.
 
 ## Remarks
 
-### Examples
+### A first check
 
-- For an $m \times n$ matrix $A$, the map $x \mapsto Ax$ from $F^n$ to $F^m$ is linear, and every linear map $F^n \to F^m$ has this form, by the [[theorem on matrix transformations|W6KB0J3SZZ]].
-- Rotations, reflections, projections, shears and scalings of the plane are linear; the [[plane transformations example|5BXHREC8C8]] gives their matrices.
-- Differentiation and integration of polynomials, shifts of sequences, evaluation at a point, the trace and the transpose are linear; see the [[examples of linear maps|0SS770NS8B]].
-- The zero map $v \mapsto 0$ and the identity map $v \mapsto v$ are linear on every vector space.
-- For a fixed scalar $c$, the map $v \mapsto cv$ is linear, because $c(u + v) = cu + cv$ and $c(av) = a(cv)$ by the axioms of a vector space.
+Take $T \colon \R^2 \to \R^2$ with $T(x, y) = (2x + y, \; x - 3y)$, and test both conditions on concrete vectors first.
+For $u = (1, 2)$ and $v = (3, -1)$ we get $T(u) = (4, -5)$ and $T(v) = (5, 6)$.
+The sum is $u + v = (4, 1)$, and
+$$T(4, 1) = (8 + 1, \; 4 - 3) = (9, 1) = (4, -5) + (5, 6).$$
+For the scalar $a = 3$ we get $T(3u) = T(3, 6) = (12, -15) = 3\,T(u)$.
+A test on particular vectors can only disprove linearity.
+For a proof we repeat the computation with letters: each entry of $T(x, y)$ is a sum of constant multiples of $x$ and $y$, and such expressions split over sums and pull out scalars.
 
-### Non-examples
+### Where linear maps come from
 
-- A [[translation|DTCM6N02A9]] $v \mapsto v + w_0$ with $w_0 \ne 0$ fails both conditions, and it sends $0$ to $w_0 \ne 0$.
-- The [[squaring map|RMC0D67M01]] $x \mapsto x^2$ on $\R$ fails additivity, because $(1 + 1)^2 = 4$ but $1^2 + 1^2 = 2$.
-- Complex conjugation $z \mapsto \bar z$ on $\C$ is additive, but it fails homogeneity over $\C$: it sends $i \cdot 1$ to $-i$, while $i \cdot \bar 1 = i$. It is a [[semilinear map|BNPDDM95KF]].
-- The map $(x, y) \mapsto \sqrt[3]{x^3 + y^3}$ from $\R^2$ to $\R$ is homogeneous, but it fails additivity: $(1, 0)$ and $(0, 1)$ go to $1$ and $1$, while $(1, 1)$ goes to $\sqrt[3]{2} \ne 2$.
-- The map $x \mapsto x^3$ on $\R$ is a bijection, but it [[is not linear|T4286X5GA4]].
+The main source is matrices: for an $m \times n$ matrix $A$, the map $x \mapsto Ax$ from $F^n$ to $F^m$ is linear.
+The [[theorem on matrix transformations|W6KB0J3SZZ]] shows that every linear map $F^n \to F^m$ has this form.
+Geometry gives the [[rotations, reflections, projections and shears of the plane|5BXHREC8C8]].
+Calculus gives differentiation and integration of polynomials, and sequences give the shift maps; the [[examples of linear maps|0SS770NS8B]] work these out, together with evaluation at a point, the trace and the transpose.
+On every space there are also the zero map $v \mapsto 0$, the identity $v \mapsto v$ and, for a fixed scalar $c$, the scaling $v \mapsto cv$.
+The scaling is linear because $c(u + v) = cu + cv$ and $c(av) = a(cv)$ are axioms of a vector space.
 
-### Basic properties
+### What fails to be linear
 
-- A linear map sends $0$ to $0$, $-v$ to $-T(v)$, and each linear combination $\sum a_i v_i$ to $\sum a_i T(v_i)$, by the [[lemma on zero and linear combinations|STYEWH8R4E]].
-- The two conditions together are equivalent to the single condition $T(au + v) = a T(u) + T(v)$ for all $u, v \in V$ and $a \in F$, by the same lemma.
-- The [[composite of two linear maps is linear|FSXBBV9C76]], and the [[inverse of a bijective linear map is linear|E08G7CVKPK]].
-- The [[kernel|0S23E6YE83]] of a linear map is a subspace of $V$, and its [[image|0WSFKKT6FF]] is a subspace of $W$.
-- A linear map is [[determined by its values on a basis|0R8X9XA83A]], and these values can be chosen freely.
+A [[translation|DTCM6N02A9]] $v \mapsto v + w_0$ with $w_0 \ne 0$ moves the origin, so it fails both conditions.
+The [[squaring map|RMC0D67M01]] on $\R$ fixes the origin but fails additivity, since $(1 + 1)^2 = 4$ and $1^2 + 1^2 = 2$.
+The map $x \mapsto x^3$ is a bijection of $\R$, but [[it is not linear either|T4286X5GA4]].
+
+Neither condition implies the other, and two maps show it.
+Complex conjugation $z \mapsto \bar z$ on $\C$ is additive, but $\overline{i \cdot 1} = -i$ while $i \cdot \bar 1 = i$, so it fails homogeneity over $\C$; it is a [[semilinear map|BNPDDM95KF]].
+The map $(x, y) \mapsto \sqrt[3]{x^3 + y^3}$ from $\R^2$ to $\R$ is homogeneous, because a real cube root pulls out a real factor $a$.
+It fails additivity: $(1, 0)$ and $(0, 1)$ both go to $1$, while their sum $(1, 1)$ goes to $\sqrt[3]{2} \ne 2$.
+
+### The rules you get for free
+
+The two conditions have many consequences, and the [[lemma on zero and linear combinations|STYEWH8R4E]] collects the first ones.
+A linear map sends $0$ to $0$ and $-v$ to $-T(v)$, and it sends each linear combination $\sum a_i v_i$ to $\sum a_i T(v_i)$.
+The [[composite of two linear maps is linear|FSXBBV9C76]], and the [[inverse of a bijective linear map is linear|E08G7CVKPK]].
+The vectors that go to $0$ form a subspace, the [[kernel|0S23E6YE83]], and the values form a subspace, the [[image|0WSFKKT6FF]].
+Finally, a linear map is [[determined by its values on a basis|0R8X9XA83A]], and these values can be chosen freely.
+
+### Watch out
+
+In school, $x \mapsto 2x + 1$ is a "linear function" because its graph is a line.
+In linear algebra it is not linear, since it sends $0$ to $1$; it is an [[affine map|0JF0TVYGWT]].
+The second trap is to check only one condition: complex conjugation and the cube-root map above each pass one condition and fail the other.
+The third trap is to check a few chosen vectors and stop: the map $(x, y) \mapsto \sqrt[3]{x^3 + y^3}$ passes the test for $u = v = (1, 1)$, but it is not linear.
 
 ### History
 
-Linear substitutions of variables were used long before the abstract concept, for example in the theory of quadratic forms.
-Cayley's memoir of 1858 on matrices treated a matrix as a linear transformation of variables.
-Peano gave the first modern definition of a vector space and of a linear map in 1888.
+Linear substitutions of variables were in use long before the abstract concept, for example in the theory of quadratic forms.
+Cayley's memoir of 1858 on matrices introduced a matrix as a short notation for a linear transformation of variables.
+Peano gave the first modern axiomatic definition of a vector space and of a linear map in 1888.
 
-### Common errors
+### Try it
 
-- Calling $x \mapsto 2x + 1$ linear. Its graph is a line, but as a map $\R \to \R$ it is an [[affine map|0JF0TVYGWT]], because it sends $0$ to $1$.
-- Checking only one of the two conditions. The non-examples above show that neither condition implies the other in general.
-- Checking the conditions for a few chosen vectors only. A test on particular vectors can disprove linearity, but a proof needs arbitrary vectors and scalars.
+First, is $T(x, y) = (y, \; 0)$ on $\R^2$ linear?
+Yes: both entries are sums of constant multiples of $x$ and $y$, and $T$ is multiplication by $\begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}$.
+
+Second, is $S(x, y) = (xy, \; x)$ linear?
+No: $S(1, 1) = (1, 1)$ but $S(2, 2) = (4, 2) \ne 2\,S(1, 1) = (2, 2)$, so homogeneity fails.
 
 ## Explanations
 
@@ -95,27 +122,28 @@ Peano gave the first modern definition of a vector space and of a linear map in 
 A linear map is a rule that turns vectors into vectors and treats sums and scalings fairly.
 When the input is doubled, the output is doubled.
 When two inputs are added, their outputs are added.
-For example, the rule "multiply by 3" on numbers is linear: $3 \cdot (2 + 5) = 21$ and $3 \cdot 2 + 3 \cdot 5 = 21$.
+For example, "multiply by 3" on numbers is linear: $3 \cdot (2 + 5) = 21$ and $3 \cdot 2 + 3 \cdot 5 = 21$.
 The rule "add 1" is not linear, because it sends $0$ to $1$, and a linear rule must send $0$ to $0$.
 
 ### L2 human
 
-We show that $T \colon \R^3 \to \R^2$, $T(x, y, z) = (x + 2y,\ 3z - x)$, is linear.
-
-1. Let $u = (x_1, y_1, z_1)$ and $v = (x_2, y_2, z_2)$. Then $T(u + v) = \bigl(x_1 + x_2 + 2(y_1 + y_2),\ 3(z_1 + z_2) - (x_1 + x_2)\bigr)$.
-2. We regroup the terms: this equals $(x_1 + 2y_1,\ 3z_1 - x_1) + (x_2 + 2y_2,\ 3z_2 - x_2) = T(u) + T(v)$.
-3. For $a \in \R$, $T(au) = (a x_1 + 2 a y_1,\ 3 a z_1 - a x_1) = a\,(x_1 + 2y_1,\ 3z_1 - x_1) = a\,T(u)$.
-4. So $T$ is linear. For example, $T(1, 1, 1) = (3, 2)$, and $T$ is multiplication by the matrix $\begin{pmatrix} 1 & 2 & 0 \\ -1 & 0 & 3 \end{pmatrix}$.
-
-The typical use is a check of this kind with general vectors, followed by the tools of linear algebra: kernel, image, matrix and rank.
+Here is a typical check: is $T \colon \R^3 \to \R^2$, $T(x, y, z) = (x + 2y, \; 3z - x)$, linear?
+Take $u = (x_1, y_1, z_1)$ and $v = (x_2, y_2, z_2)$, add them first and then apply $T$:
+$$T(u + v) = \bigl(x_1 + x_2 + 2(y_1 + y_2), \; 3(z_1 + z_2) - (x_1 + x_2)\bigr).$$
+Regroup the terms by vector:
+$$T(u + v) = (x_1 + 2y_1, \; 3z_1 - x_1) + (x_2 + 2y_2, \; 3z_2 - x_2) = T(u) + T(v).$$
+For a real $a$, the factor $a$ comes out of every term, so $T(au) = a\,T(u)$.
+So $T$ is linear, and in fact it is multiplication by the matrix $\begin{pmatrix} 1 & 2 & 0 \\ -1 & 0 & 3 \end{pmatrix}$.
+Check: $T(1, 1, 1) = (3, 2)$, and the rows of the matrix give $1 + 2 + 0 = 3$ and $-1 + 0 + 3 = 2$.
+Once linearity is known, the tools of the area apply: kernel, image, matrix and rank.
 To show that a map is not linear, one failing instance is enough, and the quickest test is often $T(0) \ne 0$.
-The trap: $T(0) = 0$ does not prove linearity, because the squaring map sends $0$ to $0$ and is not linear.
+Watch out: $T(0) = 0$ does not prove linearity, since the squaring map fixes $0$.
 
 ### L3 human
 
 Linear maps are the morphisms of the [[category|A2DE66937D]] of vector spaces over $F$.
-Kernels, images, isomorphisms, direct sums and quotients are the categorical constructions in this category, and every short exact sequence in it splits.
-The same definition over a ring gives the homomorphisms of [[modules|0NZ8JA25WK]], and the additivity condition alone gives a [[group homomorphism|0JYTG5K9Y4]] of the additive groups.
-A [[semilinear map|BNPDDM95KF]] twists homogeneity by an automorphism of the field, and Mathlib takes this general form as its basic notion.
+Kernels, images, direct sums and quotients are the usual constructions in this category, and every short exact sequence in it splits.
+The same definition over a ring gives the homomorphisms of [[modules|0NZ8JA25WK]], and additivity alone gives a [[group homomorphism|0JYTG5K9Y4]] of the additive groups.
+A [[semilinear map|BNPDDM95KF]] twists homogeneity by an automorphism of the field, and Mathlib takes this twisted form as its basic notion.
 In analysis one adds continuity, which gives the [[continuous linear maps|03TM135G0N]] of normed spaces.
-With bases, a linear map between finite-dimensional spaces becomes a [[matrix|0YQSGNYE3K]], and maps to the field itself form the [[dual space|07JBSZE0V4]].
+With bases, a linear map between finite-dimensional spaces becomes a [[matrix|0YQSGNYE3K]], and the sub-area on matrices of linear maps builds this dictionary.
