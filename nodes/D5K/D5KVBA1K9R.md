@@ -82,7 +82,7 @@ Part 4 gives $P_1 = \tfrac{1}{2}(B + I)$ for $\lambda = 1$ and $P_2 = \tfrac{1}{
 
 ### L1 human
 
-A normal operator splits the space into perpendicular eigenspaces.
+A normal operator on a complex space, or a self-adjoint one on a real space, splits the space into perpendicular eigenspaces.
 On each eigenspace it multiplies every vector by one number.
 So you can compute $Tv$ in three moves: cast the shadow of $v$ on each eigenspace, multiply each shadow by its eigenvalue, and add the results.
 To apply a function to the operator, apply it to each eigenvalue and keep the shadows.

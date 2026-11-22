@@ -76,7 +76,7 @@ $$\ip{Pv}{w} = \ip{Pv}{Pw} + \ip{Pv}{w - Pw} = \ip{Pv}{Pw},$$
 and the same computation gives $\ip{v}{Pw} = \ip{Pv}{Pw}$.
 
 For every linear map $S \colon V \to W$, the operators $S^* S$ on $V$ and $S S^*$ on $W$ are self-adjoint, because $(S^* S)^* = S^* S^{**} = S^* S$.
-These operators lead to the singular values in a later sub-area.
+These operators lead to the singular values of $S$.
 
 On the [[polynomials of degree at most 2|0JGZCDT5DN]] with $\ip{p}{q} = \int_{-1}^{1} p(x) q(x) \, dx$, the reflection $(Tp)(x) = p(-x)$ is self-adjoint.
 The substitution $y = -x$ gives
@@ -173,4 +173,4 @@ The Cartesian decomposition $T = A + iB$ is the operator form of $z = x + iy$, a
 So the self-adjoint operators, times $i$, form the Lie algebra of the unitary group.
 In a $C^*$-algebra, self-adjoint elements have [[real spectrum|NXV8S3145K]].
 For unbounded operators on Hilbert space, the difference between symmetric and self-adjoint is essential, and self-adjoint extensions are a theory of their own.
-The sub-area on positive operators and singular values builds on the operators $S^* S$.
+The theory of positive operators and singular values builds on the operators $S^* S$.

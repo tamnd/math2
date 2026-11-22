@@ -23,21 +23,21 @@ Positive operators and the singular value decomposition come next, and they rest
 
 ### Reading order
 
-1. [[Adjoint of a linear map|0R9NMSM1ZP]]: the defining identity $\ip{Tv}{w} = \ip{v}{T^* w}$, its first examples, and the rules for sums, products and scalars.
-2. [[Matrix of the adjoint|0DBTE6HVBD]]: why the adjoint is the conjugate transpose in orthonormal bases, and the correction that other bases need.
-3. [[Kernel and image of the adjoint|YPP8XT6B7Y]]: how $T^*$ swaps kernels and images up to orthogonal complements, and a test for solving $Tv = w$.
-4. [[Self-adjoint operator|0NEGN5CRSC]]: symmetric and Hermitian matrices as operators, the real quadratic form $\ip{Tv}{v}$, and the skew-adjoint operators.
-5. [[Eigenvalues of a self-adjoint operator are real|0C4NT4GT3X]]: the one-line proof by $\ip{Tv}{v}$, and a real eigenvalue of a real symmetric matrix without the fundamental theorem of algebra.
-6. [[Orthogonality of eigenspaces|0JHGAV9H25]]: why eigenvectors for different eigenvalues of a self-adjoint or normal operator meet at right angles.
-7. [[Schur decomposition|V1JG4C7R7B]]: every complex operator is upper triangular in some orthonormal basis, proved by induction.
-8. [[Normal operator|0C8BR8XRTR]]: the condition $T T^* = T^* T$, the equal norms $\norm{Tv} = \norm{T^* v}$, and examples on both sides of the line.
+1. [[Adjoint of a linear map|0R9NMSM1ZP]]: the identity $\ip{Tv}{w} = \ip{v}{T^* w}$, first examples, and the algebra rules.
+2. [[Matrix of the adjoint|0DBTE6HVBD]]: the conjugate transpose in orthonormal bases, and the fix for other bases.
+3. [[Kernel and image of the adjoint|YPP8XT6B7Y]]: how $T^*$ swaps kernels and images, and a test for solving $Tv = w$.
+4. [[Self-adjoint operator|0NEGN5CRSC]]: symmetric and Hermitian matrices as operators, and the real form $\ip{Tv}{v}$.
+5. [[Eigenvalues of a self-adjoint operator are real|0C4NT4GT3X]]: a one-line proof by $\ip{Tv}{v}$.
+6. [[Orthogonality of eigenspaces|0JHGAV9H25]]: for a normal operator, eigenvectors for different eigenvalues meet at right angles.
+7. [[Schur decomposition|V1JG4C7R7B]]: every complex operator is upper triangular in some orthonormal basis.
+8. [[Normal operator|0C8BR8XRTR]]: the condition $T T^* = T^* T$ and the equal norms $\norm{Tv} = \norm{T^* v}$.
 9. [[Complex spectral theorem|04CW1P44VD]]: over $\mathbb{C}$, normal is the same as having an orthonormal basis of eigenvectors, so $A = U D U^*$.
 10. [[Spectral theorem for Hermitian matrices|0DGZBQWZWN]]: the case $A = U D U^*$ with a real diagonal $D$.
-11. [[Real spectral theorem|06J4PXRG22]]: over $\mathbb{R}$, self-adjoint is the same as orthonormally diagonalizable, with a proof by induction and a proof by maximization.
+11. [[Real spectral theorem|06J4PXRG22]]: over $\mathbb{R}$, self-adjoint is the same as orthonormally diagonalizable.
 12. [[Spectral decomposition of a normal operator|D5KVBA1K9R]]: $T = \sum_j \lambda_j P_j$ with orthogonal projections, and functions $f(T)$ of an operator.
-13. [[Normal form of a real normal operator|G6T1FNE3JC]]: what replaces diagonal form over $\mathbb{R}$, with $2 \times 2$ blocks $\begin{pmatrix} a & -b \\ b & a \end{pmatrix}$ for the eigenvalues that are not real.
+13. [[Normal form of a real normal operator|G6T1FNE3JC]]: over $\mathbb{R}$, $2 \times 2$ rotation and scaling blocks replace the eigenvalues that are not real.
 14. [[Simultaneous unitary diagonalization of commuting normal operators|BFQQDA489F]]: one orthonormal eigenbasis for a whole commuting family.
-15. [[Rayleigh quotient|06WHP8SE98]]: the largest and smallest eigenvalues as the extreme values of $\ip{Av}{v} / \ip{v}{v}$, and the path to the Courant-Fischer theorem.
+15. [[Rayleigh quotient|06WHP8SE98]]: the extreme eigenvalues as the extreme values of $\ip{Av}{v} / \ip{v}{v}$.
 
 ### Prerequisites
 

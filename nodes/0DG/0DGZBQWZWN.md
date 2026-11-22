@@ -108,4 +108,4 @@ The Hermitian matrices are the self-adjoint elements of the algebra of complex $
 The theorem says that the unitary group acts on them by conjugation, and that each orbit meets the real diagonal matrices in exactly one matrix, up to the order of the entries.
 So the eigenvalues, listed in decreasing order, are a complete invariant for unitary similarity of Hermitian matrices.
 In infinite dimension, compact self-adjoint operators have the same kind of diagonal form, and bounded ones need a [[projection-valued measure|X71XRPJR7D]].
-The sub-area on positive operators and singular values applies the theorem to $A^* A$ to build the singular value decomposition.
+The theory of positive operators applies the theorem to $A^* A$ to build the singular value decomposition.

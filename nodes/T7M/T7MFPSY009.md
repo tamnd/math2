@@ -95,4 +95,4 @@ Watch out: the bounds need a self-adjoint operator, as the matrix with the value
 The theorem is the first case of the min-max principle: the extreme eigenvalues are the extreme values of a quadratic form on the sphere.
 It holds for bounded self-adjoint operators on Hilbert space, with the ends of the spectrum in place of $\lambda_1$ and $\lambda_n$.
 The Courant-Fischer theorem extends it to every $\lambda_k$, and the Rayleigh-Ritz method uses it to approximate eigenvalues from a subspace of trial vectors.
-In the sub-area on positive operators and singular values, the same idea applied to $A^* A$ gives the largest singular value as the maximum of $\norm{Ax} / \norm{x}$.
+For singular values, the same idea applied to $A^* A$ gives the largest singular value as the maximum of $\norm{Ax} / \norm{x}$.

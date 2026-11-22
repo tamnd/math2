@@ -99,4 +99,4 @@ So the [[cross product|0N5N15HWZ7]] with $\omega$ is a turn by a right angle in 
 The theorem classifies real normal operators up to orthogonal similarity: the list of blocks, with $b > 0$, is unique up to order.
 For skew-symmetric matrices, it is the normal form of an element of the Lie algebra $\mathfrak{so}(n)$ under conjugation by $O(n)$.
 For a rotation in $SO(n)$, the form says that it is conjugate to an element of the standard [[maximal torus|Z2AJFZQTWT]] of block rotations.
-The sub-area on isometries uses this form to describe the orthogonal matrices, and the complex version is the unitary diagonalization of the [[complex spectral theorem|04CW1P44VD]].
+The theory of isometries uses this form to describe the orthogonal matrices, and the complex version is the unitary diagonalization of the [[complex spectral theorem|04CW1P44VD]].

@@ -100,6 +100,7 @@ A diagonalizable matrix need not be normal.
 Sums and products of normal matrices need not be normal either:
 $$\begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix} + \begin{pmatrix} 0 & 1 \\ -1 & 0 \end{pmatrix} = \begin{pmatrix} 0 & 2 \\ 0 & 0 \end{pmatrix},$$
 a symmetric plus an orthogonal matrix that gives a nilpotent one.
+For a product, the two self-adjoint matrices $\begin{pmatrix} 1 & 0 \\ 0 & 2 \end{pmatrix}$ and $\begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$ give $M = \begin{pmatrix} 0 & 1 \\ 2 & 0 \end{pmatrix}$, with $M M^{\mathsf{T}} = \operatorname{diag}(1, 4)$ and $M^{\mathsf{T}} M = \operatorname{diag}(4, 1)$.
 For a complex matrix, the test must use $A^*$, not $A^{\mathsf{T}}$, and a normal matrix can have eigenvalues that are not real.
 
 ### History
@@ -141,4 +142,4 @@ In any algebra with an involution, an element $a$ is normal when $a^* a = a a^*$
 In a $C^*$-algebra, a normal element generates a commutative $C^*$-subalgebra, and the continuous functional calculus applies to it.
 For bounded operators on a Hilbert space, normal operators have [[a spectral theorem with projection-valued measures|X71XRPJR7D]].
 [[Hyponormal|35XKRHEC3Q]] and subnormal operators weaken normality, and in finite dimension both classes reduce to the normal operators.
-The sub-area on isometries and the sub-area on positive operators and singular values both build on normal operators, the first through unitary matrices and the second through the spectral theorem for $A^* A$.
+The theory of isometries and the theory of positive operators and singular values both build on normal operators, the first through unitary matrices and the second through the spectral theorem for $A^* A$.

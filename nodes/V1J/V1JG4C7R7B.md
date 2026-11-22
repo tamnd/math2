@@ -62,7 +62,7 @@ In infinite dimension an operator can have no eigenvalue at all, and the stateme
 The theorem gives a triangular matrix, and a triangular matrix shows its eigenvalues on the diagonal.
 So the trace of $A$ is the sum of the eigenvalues and the determinant is their product, with multiplicity, because $A$ and $U$ are similar.
 
-The main use in the sub-area is [[the complex spectral theorem|04CW1P44VD]].
+The main use of the theorem is [[the complex spectral theorem|04CW1P44VD]].
 If $A$ is normal, then $U = Q^* A Q$ is normal too, and a normal upper triangular matrix is diagonal.
 In the same way, for a real normal matrix the real Schur form becomes block diagonal, which is [[the real normal form|G6T1FNE3JC]].
 The order of the eigenvalues on the diagonal of $U$ can be chosen freely, because the proof may start from any eigenvalue.
