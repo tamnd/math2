@@ -21,9 +21,10 @@ The rule of Sarrus computes a $3 \times 3$ determinant as three products along d
 Let $K$ be a commutative ring and let $a, b, c, d, e, f, g, h, i \in K$.
 Then the [[determinant|00KDZRW4C0]] of the $3 \times 3$ matrix with these entries is
 $$\det \begin{pmatrix} a & b & c \\ d & e & f \\ g & h & i \end{pmatrix} = aei + bfg + cdh - ceg - afh - bdi.$$
-In the scheme
-$$\begin{matrix} a & b & c & a & b \\ d & e & f & d & e \\ g & h & i & g & h \end{matrix}$$
-obtained by writing the first two columns again to the right of the matrix, the three positive terms are the products along the diagonals that go down to the right, and the three negative terms are the products along the diagonals that go up to the right.
+Write the first two columns again to the right of the matrix, which gives the scheme
+$$\begin{matrix} a & b & c & a & b \\ d & e & f & d & e \\ g & h & i & g & h \end{matrix}.$$
+In this scheme the three positive terms are the products along the diagonals that go down to the right.
+The three negative terms are the products along the diagonals that go up to the right.
 
 ## Remarks
 
