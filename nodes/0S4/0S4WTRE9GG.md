@@ -19,35 +19,52 @@ sources:
 
 ## Statement
 
-1. Let $R$ be a commutative ring and let $A$ and $B$ be [[invertible|0TWTS88TWN]] $n \times n$ matrices over $R$. Then the [[product|076JGP6R3T]] $AB$ is invertible, and $$(AB)^{-1} = B^{-1} A^{-1}.$$
+A product of invertible matrices is invertible, its inverse is the product of the inverses in the reverse order, and over a field a product of square matrices is invertible only when every factor is.
+
+1. Let $R$ be a commutative ring and let $A$ and $B$ be [[invertible|0TWTS88TWN]] $n \times n$ matrices over $R$. Then the [[product|076JGP6R3T]] $AB$ is invertible, and $(AB)^{-1} = B^{-1} A^{-1}$.
 2. More generally, if $A_1, \dots, A_k$ are invertible $n \times n$ matrices over $R$, then $A_1 A_2 \cdots A_k$ is invertible, and $(A_1 A_2 \cdots A_k)^{-1} = A_k^{-1} \cdots A_2^{-1} A_1^{-1}$.
 3. Let $F$ be a field and let $A_1, \dots, A_k$ be $n \times n$ matrices over $F$. Then the product $A_1 A_2 \cdots A_k$ is invertible if and only if each factor $A_i$ is invertible.
 
 ## Remarks
 
-### Why each hypothesis is needed
+### Why the order reverses
 
-In part 3 the factors must be square.
-For the $2 \times 3$ matrix $A$ and the $3 \times 2$ matrix $B$ of the [[right inverse example|540E86V3N9]], the product $AB = I_2$ is invertible, but neither factor is invertible.
-The order of the factors in part 1 matters: $(AB)^{-1} = A^{-1} B^{-1}$ is false in general.
-For $A = \begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$ and $B = \begin{pmatrix} 1 & 0 \\ 1 & 1 \end{pmatrix}$, the matrix $A^{-1} B^{-1}$ is not the inverse of $AB$, as the L2 explanation shows.
+The matrix $AB$ acts on a vector by applying $B$ first and $A$ second, since $(AB)x = A(Bx)$.
+To get back, we must undo the last step first, so $A^{-1}$ acts first and $B^{-1}$ second, and that is the matrix $B^{-1}A^{-1}$.
+In the product $(AB)(B^{-1}A^{-1})$ the two inner factors meet and cancel, $BB^{-1} = I_n$, and then the outer ones cancel too.
 
-### Consequences
+### A check with numbers
 
-- The invertible $n \times n$ matrices over $R$ form a group under multiplication, the [[general linear group|0FCHE902D7]].
-- A product of [[elementary matrices|01REXW3WWE]] is invertible, and its inverse is the product of the inverse elementary matrices in the reverse order.
-- By part 3, if $AB$ is singular, then $A$ or $B$ is singular.
+Take $A = \begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$ and $B = \begin{pmatrix} 1 & 0 \\ 1 & 1 \end{pmatrix}$, with inverses $A^{-1} = \begin{pmatrix} 1 & -1 \\ 0 & 1 \end{pmatrix}$ and $B^{-1} = \begin{pmatrix} 1 & 0 \\ -1 & 1 \end{pmatrix}$.
+Then
+$$AB = \begin{pmatrix} 2 & 1 \\ 1 & 1 \end{pmatrix}, \qquad B^{-1}A^{-1} = \begin{pmatrix} 1 & -1 \\ -1 & 2 \end{pmatrix},$$
+and their product is
+$$\begin{pmatrix} 2 & 1 \\ 1 & 1 \end{pmatrix}\begin{pmatrix} 1 & -1 \\ -1 & 2 \end{pmatrix} = \begin{pmatrix} 2 - 1 & -2 + 2 \\ 1 - 1 & -1 + 2 \end{pmatrix} = I_2.$$
 
-### Converse
+### Watch out
+
+The same order, $A^{-1}B^{-1}$, is wrong in general.
+For the matrices above, $A^{-1}B^{-1} = \begin{pmatrix} 2 & -1 \\ -1 & 1 \end{pmatrix}$, and
+$$(AB)(A^{-1}B^{-1}) = \begin{pmatrix} 2 & 1 \\ 1 & 1 \end{pmatrix}\begin{pmatrix} 2 & -1 \\ -1 & 1 \end{pmatrix} = \begin{pmatrix} 3 & -1 \\ 1 & 0 \end{pmatrix} \ne I_2.$$
+The two orders agree only when $A^{-1}$ and $B^{-1}$ commute, for example when $A$ and $B$ are diagonal.
+
+### Why the factors must be square
+
+Part 3 fails for factors that are not square.
+For the $2 \times 3$ matrix $A$ and the $3 \times 2$ matrix $B$ of the [[right inverse example|540E86V3N9]], the product $AB = I_2$ is invertible, but neither factor is invertible, because neither is square.
+The proof of part 3 needs the theorem that a [[one-sided inverse of a square matrix is two-sided|0753Y2X5K6]], and that theorem is where squareness enters.
+
+### What it gives you
+
+Parts 1 and 2 show that the invertible $n \times n$ matrices over $R$ are closed under products, so they form a group, the [[general linear group|0FCHE902D7]].
+A product of [[elementary matrices|01REXW3WWE]] is invertible, and its inverse is the product of the inverse elementary matrices in the reverse order.
+Part 3 is a test for singularity: if $AB$ is singular, then $A$ or $B$ is singular.
+
+### The converse and generalizations
 
 Part 3 is the converse of part 2 over a field.
-Its proof uses the theorem that a [[one-sided inverse of a square matrix is two-sided|0753Y2X5K6]].
-Part 3 also holds over each commutative ring, by the [[determinant criterion|03Q7RE2HXR]]: $\det(A_1 \cdots A_k)$ is a unit if and only if each $\det A_i$ is a unit.
-
-### Generalizations
-
-Parts 1 and 2 hold in each monoid.
-The units of a monoid form a group, and the inverse of a product is the product of the inverses in the reverse order.
+It also holds over any commutative ring, by the [[determinant criterion|03Q7RE2HXR]], because $\det(A_1 \cdots A_k)$ is a unit exactly when each $\det A_i$ is a unit.
+Parts 1 and 2 hold in any monoid, where the units form a group with the same rule for inverses of products.
 
 ## Explanations
 
@@ -55,23 +72,17 @@ The units of a monoid form a group, and the inverse of a product is the product 
 
 To undo two steps, we undo the last step first.
 If we first apply $B$ and then $A$, then we must first undo $A$ and then undo $B$.
-So the inverse of $AB$ is $B^{-1} A^{-1}$, with the order reversed.
-Think of socks and shoes: we put on socks first, but we take off shoes first.
+Think of socks and shoes: we put on the socks first, but we take off the shoes first.
 
 ### L2 human
 
-Worked example: let $A = \begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$ and $B = \begin{pmatrix} 1 & 0 \\ 1 & 1 \end{pmatrix}$.
-
-1. $AB = \begin{pmatrix} 1 + 1 & 0 + 1 \\ 0 + 1 & 0 + 1 \end{pmatrix} = \begin{pmatrix} 2 & 1 \\ 1 & 1 \end{pmatrix}$.
-2. $A^{-1} = \begin{pmatrix} 1 & -1 \\ 0 & 1 \end{pmatrix}$ and $B^{-1} = \begin{pmatrix} 1 & 0 \\ -1 & 1 \end{pmatrix}$; each product with the original matrix is $I_2$.
-3. $B^{-1} A^{-1} = \begin{pmatrix} 1 & -1 \\ -1 & 1 + 1 \end{pmatrix} = \begin{pmatrix} 1 & -1 \\ -1 & 2 \end{pmatrix}$.
-4. Check: $(AB)(B^{-1}A^{-1}) = \begin{pmatrix} 2 - 1 & -2 + 2 \\ 1 - 1 & -1 + 2 \end{pmatrix} = I_2$.
-5. The wrong order gives $A^{-1} B^{-1} = \begin{pmatrix} 2 & -1 \\ -1 & 1 \end{pmatrix}$, and $(AB)(A^{-1}B^{-1}) = \begin{pmatrix} 3 & -1 \\ 1 & 0 \end{pmatrix} \ne I_2$.
-
-The typical use of part 3 is to show that a matrix is singular, or to split an invertible matrix into simpler invertible factors.
+The typical use of part 2 is to invert a matrix that comes as a product of simple pieces.
+If $A = E_3 E_2 E_1$ with elementary matrices $E_i$, then $A^{-1} = E_1^{-1} E_2^{-1} E_3^{-1}$, and each $E_i^{-1}$ is read off at sight.
+The typical use of part 3 is the other direction: to prove that a factor is invertible because a product is.
+For example, if $A^2 = 3I_n$ over $\mathbb{Q}$, then $A^2$ is invertible, so $A$ is invertible, with $A^{-1} = \tfrac{1}{3}A$.
 
 ### L3 human
 
 Parts 1 and 2 hold in every monoid, so the invertible $n \times n$ matrices form the group of units $\mathrm{GL}_n(R)$ of the matrix ring.
-Part 3 uses that the factors are square matrices: it rests on the fact that a one-sided inverse of a square matrix is two-sided.
-In an arbitrary monoid part 3 fails, as the shift operators on sequences show: $ST = 1$ while neither $S$ nor $T$ is invertible.
+Part 3 is special to square matrices of finite size.
+In the monoid of linear maps of the space of sequences, the [[shift operators|MRJ5JPW9HN]] give $ST = 1$ while neither $S$ nor $T$ is invertible.
