@@ -15,27 +15,43 @@ sources:
 
 ## Example
 
-Let $J = J_3(2) = \begin{pmatrix} 2 & 1 & 0 \\ 0 & 2 & 1 \\ 0 & 0 & 2 \end{pmatrix} = 2I + N$, with $N = J_3(0)$.
+Let $J = J_3(2)$ be the [[Jordan block|0PBFS92AJP]] of size $3$ with eigenvalue $2$ over $\mathbb{Q}$.
+We compute $J^3$ by splitting $J$ into a scalar part and a shift:
+$$J = \begin{pmatrix} 2 & 1 & 0 \\ 0 & 2 & 1 \\ 0 & 0 & 2 \end{pmatrix} = 2I + N, \qquad N = \begin{pmatrix} 0 & 1 & 0 \\ 0 & 0 & 1 \\ 0 & 0 & 0 \end{pmatrix}.$$
 
-1. $N^2 = \begin{pmatrix} 0 & 0 & 1 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \end{pmatrix}$ and $N^3 = 0$.
-2. $2I$ and $N$ commute, so the [[binomial theorem for commuting matrices|DS9TS6AFMW]] gives $J^3 = 8I + 3 \cdot 4 N + 3 \cdot 2 N^2 + N^3 = 8I + 12N + 6N^2$.
-3. So $J^3 = \begin{pmatrix} 8 & 12 & 6 \\ 0 & 8 & 12 \\ 0 & 0 & 8 \end{pmatrix}$.
-4. Check by direct products: $J^2 = \begin{pmatrix} 4 & 4 & 1 \\ 0 & 4 & 4 \\ 0 & 0 & 4 \end{pmatrix}$, and $J^2 J$ has first row $(8, 4 + 8, 4 + 2) = (8, 12, 6)$ and second row $(0, 8, 8 + 4) = (0, 8, 12)$.
-5. The minimal polynomial of $J$ is $(x - 2)^3$, and indeed $(J - 2I)^3 = N^3 = 0$ while $(J - 2I)^2 = N^2 \ne 0$.
+1. The powers of $N$ move the ones up one diagonal at a time, and the third power is zero:
+$$N^2 = \begin{pmatrix} 0 & 0 & 1 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \end{pmatrix}, \qquad N^3 = 0.$$
+2. The scalar matrix $2I$ commutes with $N$, so the [[binomial theorem for commuting matrices|DS9TS6AFMW]] applies:
+$$J^3 = (2I)^3 + 3 (2I)^2 N + 3 (2I) N^2 + N^3 = 8I + 12 N + 6 N^2.$$
+3. Reading off the three diagonals gives
+$$J^3 = \begin{pmatrix} 8 & 12 & 6 \\ 0 & 8 & 12 \\ 0 & 0 & 8 \end{pmatrix}.$$
+4. Check with direct products. The square is
+$$J^2 = \begin{pmatrix} 4 & 4 & 1 \\ 0 & 4 & 4 \\ 0 & 0 & 4 \end{pmatrix},$$
+and the first row of $J^2 J$ is $(4 \cdot 2,\ 4 \cdot 1 + 4 \cdot 2,\ 4 \cdot 1 + 1 \cdot 2) = (8, 12, 6)$, while the second row is $(0, 8, 4 + 8) = (0, 8, 12)$.
+5. The minimal polynomial of $J$ is $(x - 2)^3$: the matrix $(J - 2I)^3 = N^3$ is zero, while $(J - 2I)^2 = N^2$ is not.
 
 ## Remarks
 
-The entries on the $j$-th diagonal above the main diagonal are $\binom{3}{j} 2^{3-j}$, that is $8$, $12$, $6$.
-The diagonal entry $8 = 2^3$ alone is not enough: the matrix $8I$ is the cube of $2I$, not of $J$.
+The entry on the $j$-th diagonal above the main one is $\binom{3}{j} 2^{3-j}$, which gives $8$, $12$ and $6$ for $j = 0, 1, 2$.
+The coefficients $1, 3, 3, 1$ of $(a + b)^3$ are all there, but the last one meets $N^3 = 0$ and drops out.
+If the block had size $4$, the term $N^3$ would survive and put a $1$ in the top right corner of $J_4(2)^3$.
+
+Watch out for the guess "cube the diagonal and keep the ones": the matrix $8I + N$ is not $J^3$.
+The cube of the scalar matrix $2I$ is $8I$, but $J$ also carries the shift, and the cross terms $12N$ and $6N^2$ come from it.
+The general rule is the [[lemma on powers of a Jordan block|B9CHNGJV5K]].
 
 ## Explanations
 
 ### L1 human
 
-To cube this matrix, split it into twice the identity plus a shift.
-The binomial formula then gives the answer in one line, because the shift cubed is zero.
+To cube this matrix, write it as "two times the identity" plus a shift that moves each basis vector one step.
+The shift applied three times gives zero, so the usual pattern $1, 3, 3, 1$ for cubing a sum stops early.
+The answer has $8$ on the diagonal, $12$ just above it, and $6$ in the corner.
 
 ### L2 human
 
-The coefficients $1, 3, 3, 1$ of $(a + b)^3$ appear as $8 = 1 \cdot 2^3$, $12 = 3 \cdot 2^2$ and $6 = 3 \cdot 2$.
-The last term $1 \cdot N^3$ is zero, so the corner entry is $6$ and nothing more.
+Here is the same idea used to predict a power without multiplying.
+For $J_3(2)^m$ the binomial formula gives $2^m$ on the diagonal, $m\, 2^{m-1}$ on the next diagonal and $\binom{m}{2} 2^{m-2}$ in the corner.
+For $m = 3$ these are $8$, $3 \cdot 4 = 12$ and $3 \cdot 2 = 6$, as above.
+For $m = 10$ they are $1024$, $10 \cdot 512 = 5120$ and $45 \cdot 256 = 11520$.
+This is the typical use: a power of a Jordan block costs a few binomial coefficients, not $m - 1$ matrix products.
