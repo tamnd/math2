@@ -141,5 +141,6 @@ That is the typical use: nilpotency turns infinite series into finite sums.
 
 In a commutative ring the nilpotent elements form an ideal, the nilradical.
 In $M_n(F)$ with $n \ge 2$ they do not even form a subgroup, since $E_{12} + E_{21}$ is not nilpotent.
-Over a field, every nilpotent matrix is similar to a strictly upper triangular one, and the Jordan form refines this to blocks with $1$ just above the diagonal; the number and sizes of the blocks are read from the ranks of $N, N^2, \dots$.
+Over a field, every nilpotent matrix is similar to a strictly upper triangular one.
+The Jordan form refines this to blocks with $1$ just above the diagonal, and the number and sizes of the blocks are read from the ranks of $N, N^2, \dots$.
 The nilpotent $n \times n$ matrices form the nilpotent cone, the set cut out by the vanishing of the non-leading coefficients of the characteristic polynomial, which is a central object in the theory of Lie algebras.
