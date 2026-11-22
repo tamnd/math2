@@ -48,7 +48,7 @@ Then we attach the other conditions one at a time.
 14. $7 \Leftrightarrow 10$: by step 13, a nonzero $x$ with $Ax = 0$ is the same as a nontrivial relation $\sum x_j a_j = 0$. So condition 7 is the definition of [[linear independence|0CRMGPAH83]] of the columns.
 15. $8 \Leftrightarrow 11$: by step 13, $Ax = b$ has a solution exactly when $b$ is a combination of the columns. So condition 8 says that the columns [[span|0DTY8B9HMS]] $F^n$.
 16. $12 \Leftrightarrow (10 \text{ and } 11)$ is the definition of a [[basis|0KCQ9Y3QKA]]. Since 10 and 11 are both equivalent to condition 1, so is 12.
-17. $13 \Leftrightarrow 7$: $T$ is injective exactly when its kernel is $\set{0}$, by the theorem that [[a linear map is injective iff its kernel is trivial|0BJBYCGMWE]]. The kernel of $T$ is the solution set of $Ax = 0$.
+17. $13 \Leftrightarrow 7$: $T$ is injective exactly when its kernel is $\{0\}$, by the theorem that [[a linear map is injective iff its kernel is trivial|0BJBYCGMWE]]. The kernel of $T$ is the solution set of $Ax = 0$.
 18. $14 \Leftrightarrow 8$: $T$ is surjective exactly when each $b$ is $Ax$ for some $x$, which is condition 8.
 19. $15 \Leftrightarrow (13 \text{ and } 14)$ is the definition of a bijection.
 20. $17 \Leftrightarrow 7$: the [[null space|0PHDYNR24D]] is the solution set of $Ax = 0$.
@@ -72,9 +72,12 @@ So all $22$ conditions are equivalent.
 
 Elimination reduces everything to the count of pivots.
 If there are $n$ pivots, the reduced form is $I_n$ and every condition holds.
-If there are fewer, a free variable gives a nonzero solution of $Ax = 0$, and a zero row gives a right-hand side with no solution.
+If there are fewer, two things go wrong at once: a column without a pivot gives a free variable and so a nonzero solution of $Ax = 0$, and a zero row of $R$ gives a right side, $E^{-1}e_n$, with no solution.
+So the "injective" conditions and the "surjective" conditions both come down to the same pivot count, and that is why they are equivalent for a square matrix.
+The remaining conditions are translations: columns, the linear map, the subspaces and the transpose each restate conditions 7 or 8 in another language.
 
 ## Variants
 
-The equivalence $13 \Leftrightarrow 14$ can also be proved directly by [[rank-nullity|0W4FSW1TVB]]: $\dim \ker T + \dim \im T = n$.
-This is the route of books such as Axler that start from linear maps.
+The equivalence $13 \Leftrightarrow 14$ can also be proved directly by [[rank-nullity|0W4FSW1TVB]]: $\dim \ker T + \dim \im T = n$, so the kernel is $\{0\}$ exactly when the image has dimension $n$.
+This is the natural route in treatments that start from linear maps rather than from elimination.
+Condition 20 can also be tied to condition 16 without the transpose rule, because the row rank of a matrix equals its column rank: the $n$ rows are independent exactly when the row rank is $n$.
