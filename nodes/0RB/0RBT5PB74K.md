@@ -105,7 +105,7 @@ Here $\ip{x}{e_1} = \tfrac{6}{\sqrt2} = 3\sqrt2$, so both sides are $18$, and in
 
 ## History
 
-The inequality is named after Friedrich Wilhelm Bessel, and the Wikipedia article states that he derived a special case of it in 1828.
+The inequality is named after Friedrich Wilhelm Bessel, who derived a special case of it in 1828.
 
 ## Explanations
 

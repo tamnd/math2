@@ -99,4 +99,4 @@ Watch out: extend to a basis before you run the process, since the process needs
 The theorem shows that a finite-dimensional inner product space has no invariant except its dimension and its field.
 So every statement about such spaces can be checked in $\mathbb{K}^n$ with the standard inner product.
 In infinite dimension the existence of a Hilbert basis needs Zorn's lemma in general, and the notion of basis changes to allow convergent series.
-The spectral theorems of a later sub-area improve the statement: for a normal operator one can choose the orthonormal basis to consist of eigenvectors.
+The spectral theorems of a later sub-area improve the statement: for a normal operator on a complex space, or a self-adjoint operator on a real space, one can choose the orthonormal basis to consist of eigenvectors.

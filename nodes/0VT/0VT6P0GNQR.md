@@ -118,7 +118,7 @@ A second common slip is to use $\ip{v_j}{u_i} u_i$ without the division by $\ip{
 ### History
 
 The process is named after Jørgen Pedersen Gram and Erhard Schmidt.
-The Wikipedia article states that Laplace knew the method before them.
+Laplace knew the method before either of them.
 
 ### Try it
 
