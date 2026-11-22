@@ -15,21 +15,33 @@ sources:
 
 ## Proof
 
+We show that $\pi|_W$ is linear, then that its kernel is zero, then that it is onto.
+
 1. The [[quotient map|0J0SK5FF4M]] $\pi$ is linear, so its restriction $\pi|_W$ to the subspace $W$ is linear.
-2. Kernel. Let $w \in W$ with $\pi(w) = 0$, that is, $w + U = 0 + U$ in the [[quotient space|0SVR29SV1V]]. Then $w - 0 = w \in U$.
-3. So $w \in U \cap W$. Since $W$ is a [[complement|04C3BAHV03]] of $U$, $U \cap W = \{0\}$, and $w = 0$.
+2. Let $w \in W$ with $\pi(w) = 0$, that is, $w + U = 0 + U$ in the [[quotient space|0SVR29SV1V]].
+   Two cosets are equal exactly when the representatives differ by a vector of $U$, so $w = w - 0 \in U$.
+3. So $w \in U \cap W$.
+   Since $W$ is a [[complement|04C3BAHV03]] of $U$, we have $U \cap W = \{0\}$, and so $w = 0$.
 4. So the [[kernel|02YFME3RGW]] of $\pi|_W$ is $\{0\}$, and $\pi|_W$ is injective by [[injectivity and the kernel|0BJBYCGMWE]].
-5. Image. Let $v + U$ be a coset. Since $U + W = V$, we can write $v = u + w$ with $u \in U$ and $w \in W$.
+5. Now let $v + U$ be any coset.
+   Since $U + W = V$, we can write $v = u + w$ with $u \in U$ and $w \in W$.
 6. Then $v - w = u \in U$, so $v + U = w + U = \pi|_W(w)$.
-7. So $\pi|_W$ is surjective.
-8. A bijective linear map is an isomorphism, so $\pi|_W \colon W \to V / U$ is an isomorphism.
-9. If $W'$ is another complement, then $(\pi|_{W'})^{-1} \circ \pi|_W \colon W \to W'$ is an isomorphism.
+   Hence $\pi|_W$ is surjective.
+7. A bijective linear map is an isomorphism, so $\pi|_W \colon W \to V / U$ is an isomorphism.
+8. If $W'$ is a second complement of $U$, then $\pi|_{W'}$ is also an isomorphism, by steps 1 to 7 for $W'$.
+   So the composite $(\pi|_{W'})^{-1} \circ \pi|_W \colon W \to W'$ is an isomorphism.
 
 ## Idea
 
-The intersection condition makes $\pi|_W$ injective, and the sum condition makes it surjective.
+The two conditions of a complement do the two halves of the work.
+The intersection condition $U \cap W = \{0\}$ makes $\pi|_W$ injective, because a vector of $W$ that dies in the quotient lies in $U$.
+The sum condition $U + W = V$ makes it surjective, because every coset has a representative in $W$.
 
 ## Variants
 
-- Apply the [[first isomorphism theorem|0MTBGVZ4XJ]] to $\pi|_W$, which is surjective with kernel $U \cap W = \{0\}$.
-- Define the inverse directly: send $v + U$ to the $W$-component of $v$. It is well defined because two representatives differ by a vector of $U$, which has $W$-component $0$.
+A shorter route applies the [[first isomorphism theorem|0MTBGVZ4XJ]] to $\pi|_W$.
+Steps 5 and 6 show that it is surjective, and its kernel is $U \cap W = \{0\}$, so $W \cong W / \{0\} \cong V / U$.
+
+One can also write down the inverse directly.
+Send the coset $v + U$ to the $W$-component of $v$ in the decomposition $V = U \oplus W$.
+This is well defined, because two representatives of one coset differ by a vector of $U$, and a vector of $U$ has $W$-component $0$.
