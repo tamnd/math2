@@ -20,11 +20,11 @@ This proof covers a space $V$ that has a finite spanning list $w_1, \dots, w_m$,
 
 1. Every finite subset of $L$ is an independent list, so by the [[Steinitz exchange lemma|08ZDRN6H41]] it has at most $m$ elements. Hence $L$ is finite and $\abs{L} \le m$.
 2. Part 1 follows from part 2. Indeed, $S = L \cup \{w_1, \dots, w_m\}$ contains a spanning list, so it [[spans|0BJKVF90Z6]] $V$, and it contains $L$.
-3. For part 2, let $S \supseteq L$ span $V$. We use induction on the number $m - \abs{L}$, which is at least $0$ by step 1, and which is the same for every independent set of the same size.
+3. For part 2, let $S \supseteq L$ span $V$. We use induction on $d = m - \abs{L}$, which is at least $0$ by step 1, and we assume part 2 for every independent set $L' \subseteq S$ with $m - \abs{L'} < d$.
 4. First case: every $s \in S$ lies in $\operatorname{span}(L)$. A span is a subspace, so $\operatorname{span}(L)$ contains every combination of elements of $S$, and $V = \operatorname{span}(S) \subseteq \operatorname{span}(L)$.
 5. In the first case $L$ is independent and spans $V$, so $B = L$ is a [[basis|0VTQTPQGAV]] with $L \subseteq B \subseteq S$.
 6. Second case: some $s \in S$ is not in $\operatorname{span}(L)$. By the [[linear dependence lemma|H75GS7QVPB]], adding a vector outside the span keeps independence, so $L' = L \cup \{s\}$ is independent.
-7. In the second case $L \subseteq L' \subseteq S$ and $m - \abs{L'} = m - \abs{L} - 1$. By the induction hypothesis there is a basis $B$ with $L' \subseteq B \subseteq S$, and then $L \subseteq B \subseteq S$.
+7. In the second case $L \subseteq L' \subseteq S$ and $m - \abs{L'} = d - 1$, which is at least $0$ by step 1 applied to $L'$. By the induction hypothesis there is a basis $B$ with $L' \subseteq B \subseteq S$, and then $L \subseteq B \subseteq S$.
 
 ## Idea
 
