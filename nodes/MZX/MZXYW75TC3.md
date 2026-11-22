@@ -16,27 +16,34 @@ sources:
 
 ## Example
 
-For $n \ge 1$, let $S_n = \sum_{k=1}^{n} 1/k^2$.
-Claim $P(n)$: $S_n < 2$.
-We try to prove $P(n)$ by plain [[induction|0ASJVEFA9J]], with the hypothesis $P(n)$ itself, and we see the step fail.
+For $n \ge 1$, let $S_n = \sum_{k=1}^{n} 1/k^2$, and let $P(n)$ be the claim $S_n < 2$.
+We try to prove $P(n)$ by plain [[induction|0ASJVEFA9J]], with $P(n)$ itself as the hypothesis, and we watch the step fail.
 
-1. Base case: $S_1 = 1 < 2$. So $P(1)$ holds.
-2. Step: assume $S_n < 2$. Then $S_{n+1} = S_n + \dfrac{1}{(n+1)^2}$.
-3. The hypothesis gives only $S_{n+1} < 2 + \dfrac{1}{(n+1)^2}$. This bound is larger than $2$.
-4. The hypothesis allows every value of $S_n$ below $2$. For example, it allows $S_n = 2 - \dfrac{1}{2(n+1)^2}$.
-5. For that value, $S_n + \dfrac{1}{(n+1)^2} = 2 + \dfrac{1}{2(n+1)^2} > 2$.
-6. So no argument that uses only "$S_n < 2$" and the formula of step 2 can prove $S_{n+1} < 2$.
-7. The step is not proved, and the attempt is not a proof.
+1. Base case.
+   We have $S_1 = 1 < 2$, so $P(1)$ holds.
+2. Step.
+   Assume $S_n < 2$, and add the next term:
+   $$S_{n+1} = S_n + \frac{1}{(n+1)^2} < 2 + \frac{1}{(n+1)^2}.$$
+   This bound is larger than $2$, so it does not give $P(n + 1)$.
+3. The hypothesis cannot do better, because it allows every value of $S_n$ below $2$.
+   For example, it allows $S_n = 2 - \dfrac{1}{2(n+1)^2}$.
+4. For that value the next sum would be
+   $$2 - \frac{1}{2(n+1)^2} + \frac{1}{(n+1)^2} = 2 + \frac{1}{2(n+1)^2} > 2.$$
+5. So no argument that uses only "$S_n < 2$" and the formula of step 2 can prove $S_{n+1} < 2$.
+   The step is not proved, and the attempt is not a proof.
 
 The claim itself is true.
-The attempt fails because it does not use a [[stronger induction hypothesis|F94KJC2RXP]], so it is not an instance of that method.
+The attempt fails because its hypothesis is the bare claim and not a [[stronger statement|F94KJC2RXP]], so it is not an instance of that method.
 
 ## Remarks
 
-1. The value in step 4 is not a real value of $S_n$. The point is that the hypothesis cannot rule it out, so the hypothesis carries too little information.
-2. The repair is the strengthened claim $S_n \le 2 - \tfrac1n$, on the page [[The sum of 1/k² is at most 2 − 1/n|DFVCKA01PN]].
-3. A plain induction does work for a bound that grows with $n$, such as $S_n \le n$. Such a bound is too weak to be of use here.
-4. The same failure happens for each bound $S_n < c$ with a constant $c$, because the terms $1/(n+1)^2$ are positive.
+The value in step 3 is not a real value of $S_n$, since the true $S_n$ is at most $2 - \tfrac1n$.
+The point is that the hypothesis cannot rule that value out, so the hypothesis carries too little information for the step.
+The repair is the strengthened claim $S_n \le 2 - \tfrac1n$, worked out in [[the sum of $1/k^2$ is at most $2 - 1/n$|DFVCKA01PN]].
+
+The same failure happens for every constant bound $S_n < c$, because each step adds a positive amount and the hypothesis says nothing about the distance to $c$.
+A plain induction does work for a bound that grows with $n$, such as $S_n \le n$, since $S_{n+1} \le n + \tfrac{1}{(n+1)^2} \le n + 1$.
+That bound is true and provable, but it is too weak to show that the series converges.
 
 ## Explanations
 
@@ -51,11 +58,11 @@ That is the idea of a stronger hypothesis.
 ### L2 human
 
 We put numbers into the failed step for $n = 3$.
+The hypothesis is $S_3 < 2$, while the true value is $S_3 = \tfrac{49}{36} \approx 1.361$.
+The new term is $\tfrac{1}{16} = 0.0625$.
+From the hypothesis alone, $S_3$ could be $1.99$, and then
+$$1.99 + 0.0625 = 2.0525 > 2.$$
+So the hypothesis does not decide whether $S_4 < 2$, even though the true value $S_4 = \tfrac{205}{144} \approx 1.424$ is below $2$.
 
-1. The hypothesis is $S_3 < 2$. The true value is $S_3 = \tfrac{49}{36} \approx 1.361$.
-2. The new term is $\tfrac{1}{16} = 0.0625$.
-3. From the hypothesis alone, $S_3$ could be $1.99$, and then $1.99 + 0.0625 = 2.0525 > 2$.
-4. So the hypothesis does not decide whether $S_4 < 2$, even though the true value $S_4 = \tfrac{205}{144} \approx 1.424$ is below $2$.
-
-The typical use of this non-example is to recognise a stalled step: the hypothesis is an inequality with a constant bound, and each step adds a positive amount.
-A trap is to "prove" the step by saying that the new term is small; small is not the same as smaller than the remaining gap.
+You can recognize a stalled step of this kind by its shape: the hypothesis is an inequality with a constant bound, and each step adds a positive amount.
+Watch out: "the new term is small" is not a proof of the step, because small is not the same as smaller than the remaining gap.

@@ -18,68 +18,96 @@ sources:
 
 ## Summary
 
-An error in an induction proof is a gap that makes the argument fail to prove $P(n)$ for every $n$, although each part looks correct.
-A proof by [[mathematical induction|0ASJVEFA9J]] is valid only if the base case is proved, and the induction step is proved for every $n$ from the base on, using only the cases that the method allows.
-The common errors in the base case are a missing or false base case, and too few base cases in [[strong induction|0KMVFSHFGZ]].
-The common errors in the step are assuming the result, a step that fails for some small $n$, a step that leaves the domain of the claim, an induction on the wrong variable, and building up instead of breaking down.
-The errors matter because each of them can "prove" a false statement, and a reader who knows the list can check an induction proof in a few minutes.
+An induction proof can look complete and still prove nothing, because one of its parts holds only on paper.
+Take the claim $1 + 2 + \cdots + n = \tfrac{n(n+1)}{2} + 1$ for every $n \ge 1$.
+If it holds for $n$, add $n + 1$ to both sides:
+$$\frac{n(n+1)}{2} + 1 + (n + 1) = \frac{(n+1)(n+2)}{2} + 1.$$
+That step is correct algebra, but the base case is false, since $1 \ne 2$, and so is the claim.
+
+An *error in an induction proof* is a gap of this kind: a part of the proof that the principle of [[mathematical induction|0ASJVEFA9J]] needs and the argument does not establish.
+A valid proof of "$P(n)$ for every $n \ge n_0$" proves $P(n_0)$, and proves the step for every $n \ge n_0$ using only the cases that the method allows.
+The errors in the base are a missing or false base case, and too few base cases in [[strong induction|0KMVFSHFGZ]].
+The errors in the step are a step that assumes the result, fails for some small $n$, or leaves the domain of the claim.
+The errors in the setup are an induction on the wrong variable, and a step that builds up instead of breaking down.
 
 ## Motivation
 
 Induction proofs have a fixed shape, and the shape makes them look convincing.
-A student who writes "base case", "induction hypothesis" and "induction step" can produce a text that looks like a proof and still proves nothing.
-Famous false proofs, such as the [[proof that all horses are the same color|AJ2FDJJGTH]], hide one gap in a correct-looking step.
-The way to avoid such errors is to know where they occur and to test each part of the proof on the smallest cases.
+A text with the words "base case", "induction hypothesis" and "induction step" can still prove nothing.
+Famous false proofs, such as the [[proof that all horses are the same color|AJ2FDJJGTH]], hide one gap inside a step that looks correct.
+Each error on the list can "prove" a false statement, so a reader who knows the list can check an induction proof in a few minutes.
+The method is the same every time: find where each part of the principle is used, and test that part on the smallest case.
 
 ## Notation
 
-1. $P(n)$ is the statement to be proved, $n_0$ is the first value of $n$, and the claim is "$P(n)$ for every $n \ge n_0$".
-2. "IH" abbreviates "induction hypothesis": the assumption $P(n)$ in ordinary induction, or "$P(k)$ for all $n_0 \le k < n$" in strong induction.
-3. In the step, the goal is $P(n + 1)$ in ordinary induction and $P(n)$ in strong induction. Books use both forms, and a proof must say which it uses.
+We write $P(n)$ for the statement, $n_0$ for the first value, and "IH" for the induction hypothesis.
+In ordinary induction the IH is $P(n)$ and the goal of the step is $P(n + 1)$.
+In strong induction the IH is "$P(k)$ for all $n_0 \le k < n$" and the goal is $P(n)$.
+Books use both forms, so a proof must say which form it uses, or the reader cannot check the range of the step.
 
 ## Remarks
 
-### The list of errors
+### Errors in the base case
 
-1. **Missing base case.** The step alone proves nothing. The claim "$n^2 + n$ is odd" has a [[correct step and a false base case|TYDB4F6J2F]].
-2. **Assuming the result.** The step must prove $P(n + 1)$ from $P(n)$. A step that starts from $P(n + 1)$ and derives a true statement proves nothing about $P(n + 1)$. A step that assumes "$P(k)$ for all $k$" is circular.
-3. **A step that fails for small $n$.** The step must work for every $n \ge n_0$. The [[horses argument|AJ2FDJJGTH]] has a step that works for $n \ge 2$ but fails from $1$ to $2$, and so the chain breaks at its first link.
-4. **Too few base cases.** A strong induction step that uses $P(n - 1)$ and $P(n - 2)$, or splits $n$ into smaller parts, often works only from some $n$ on. Every value below that point must be a base case. The [[false proof that $2n = 0$|32AP5ZDMJJ]] misses the case $n = 1$.
-5. **Leaving the domain.** The step must apply the IH only to objects that satisfy its hypotheses. In the false claim "if $\max(a, b) = n$, then $a = b$", the step passes from $a, b$ to $a - 1, b - 1$, but $a - 1$ is not a natural number when $a = 0$. The pair $a = 0$, $b = 1$ shows the failure at $n = 1$.
-6. **Induction on the wrong variable, or a hypothesis that is too weak.** If $P$ has two variables and the IH fixes one of them, the step cannot use another value of the fixed variable. The cure is to put "for all $m$" inside $P(n)$, to use [[double induction|AABX4YPKRR]], or to [[strengthen the induction hypothesis|F94KJC2RXP]].
-7. **Building up.** In an [[induction on size|B2D8PTFNN1]], the step must start from an arbitrary object of size $n + 1$. A step that adds to an object of size $n$ can miss objects, as the [[build-up argument for graphs|ECMJTM9A6C]] shows.
+A missing base case leaves the step with nothing to start from.
+The claim "$n^2 + n$ is odd" has a correct step, since $(n + 1)^2 + (n + 1) = (n^2 + n) + 2(n + 1)$ keeps the parity, but $0^2 + 0 = 0$ is even, and [[the step without a base case|TYDB4F6J2F]] proves nothing.
 
-### Examples
+Too few base cases is the same error in strong induction.
+A step that uses $P(n - 1)$ and $P(n - 2)$, or that splits $n$ into smaller parts, often works only from some $n_1$ on, and every value below $n_1$ must then be a base case.
+The [[false proof that $2n = 0$|32AP5ZDMJJ]] writes $n = a + b$ with $a, b < n$, which is impossible for $n = 1$, so the false case $P(1)$ is never proved.
 
-1. The claim "$n^2 + n$ is odd for every $n \in \mathbb{N}$" has a correct step: $(n + 1)^2 + (n + 1) = (n^2 + n) + 2(n + 1)$. The base case fails, because $0^2 + 0 = 0$ is even. Details are in the [[example|TYDB4F6J2F]].
-2. The claim "$2n = 0$ for every $n$", with a strong induction step that writes $n = a + b$ with $a, b < n$, fails at $n = 1$. Details are in the [[example|32AP5ZDMJJ]].
-3. The horses argument fails from $1$ to $2$: the two groups of one horse do not overlap.
-4. The claim "every graph without isolated vertices is connected" with a building-up step fails at $4$ vertices.
-5. A "proof" that $1 + 2 + \cdots + n = \frac{n(n+1)}{2} + 1$ has a correct step from $n$ to $n + 1$, because adding $n + 1$ to both sides keeps the equation. The base case $n = 1$ fails: $1 \neq 2$.
+### Errors in the step
 
-### Non-examples
+The step must prove $P(n + 1)$ from $P(n)$.
+A step that starts from $P(n + 1)$ and derives something true assumes the result, and so does a step that uses "$P(k)$ for all $k$".
 
-1. The [[proof that $F_n < 2^n$|3ZDPCTKC9M]] for the Fibonacci numbers uses strong induction with two earlier cases and checks both base cases $n = 0$ and $n = 1$. It has none of the errors.
-2. A proof that starts at $n_0 = 4$ because the claim fails at $n = 3$ is not an error, provided that the step is proved for every $n \ge 4$. An example is $2^n \ge n^2$ for $n \ge 4$, an [[induction from an arbitrary base case|0GF6AJEBZ0]].
-3. A step that uses $P(n)$ in a calculation that ends with $P(n + 1)$ is not "assuming the result". The IH $P(n)$ is an assumption, and this is the method.
+The step must also work for every $n \ge n_0$, including the smallest.
+The [[horses argument|AJ2FDJJGTH]] has a step that works for $n \ge 2$ but fails from $1$ to $2$, where the two groups of one horse do not overlap, so the chain breaks at its first link.
 
-### Basic properties
+The step must apply the IH only to objects that satisfy it.
+In the false claim "if $\max(a, b) = n$ for natural numbers $a, b$, then $a = b$", the step passes from $a, b$ to $a - 1, b - 1$.
+For $a = 0$, $b = 1$ and $n = 1$, the number $a - 1 = -1$ is not a natural number, so the IH does not cover it.
 
-1. A false base case and a correct step prove nothing, but the step still shows: if $P(m)$ holds for some $m$, then $P(n)$ holds for every $n \ge m$. For "$n^2 + n$ is odd", no such $m$ exists.
-2. A step that fails at exactly one value $n = n_1$ breaks the chain there, and the proof gives only $P(n_0), \ldots, P(n_1)$. In the horses argument, $n_1 = 1$, and only the trivial case of one horse is proved.
-3. To check a step, test it on the smallest $n$ for which it is used, with the smallest objects. Most errors of the list show up there.
-4. The errors are errors of the proof, not of the claim. The claim $2^n \ge n^2$ for $n \ge 4$ is true, and a proof of it without a base case is still wrong.
+### Errors in the setup
+
+An induction on the wrong variable fixes something that the step needs to change.
+In the lattice path count $L(m, n) = L(m - 1, n) + L(m, n - 1)$, an induction on $n$ with $m$ fixed has no access to $L(m - 1, n)$.
+The cure is to put "for all $m$" inside the claim, to use [[double induction|AABX4YPKRR]], to induct on $m + n$ as in [[counting lattice paths|HPB4XV5ACB]], or to [[strengthen the induction hypothesis|F94KJC2RXP]].
+
+Building up is the error of [[induction on size|B2D8PTFNN1]].
+The step must start from an arbitrary object of size $n + 1$ and break it down, and a step that adds to an object of size $n$ can miss objects.
+The [[build-up argument for graphs|ECMJTM9A6C]] "proves" that every graph without isolated vertices is connected, and two disjoint edges on $4$ vertices refute it.
+
+### Proofs that look wrong but are not
+
+The [[proof that $F_n < 2^n$|3ZDPCTKC9M]] for the Fibonacci numbers uses two earlier cases and checks both base cases $n = 0$ and $n = 1$, so it has none of the errors.
+A proof that starts at $n_0 = 4$ because the claim fails at $n = 3$ is also correct, as long as the step is proved for every $n \ge 4$; an example is $2^n \ge n^2$ for $n \ge 4$, an [[induction from an arbitrary base case|0GF6AJEBZ0]].
+Finally, a step that uses $P(n)$ in a calculation that ends with $P(n + 1)$ does not assume the result, because $P(n)$ is the hypothesis that the method allows.
+
+### How to check an induction proof
+
+A false base case with a correct step still proves something: if $P(m)$ holds for some $m$, then $P(n)$ holds for every $n \ge m$.
+A step that fails at one value $n_1$ breaks the chain there, and the proof gives only $P(n_0), \ldots, P(n_1)$.
+So check the parts in this order.
+
+1. Check the base cases by computation, and count them against the earlier cases that the step uses.
+2. Find the smallest $n$ at which the step is used, and run the step there with the smallest objects.
+3. At each use of the IH, check that the object is in the range of the IH.
+4. Check that the step starts from an arbitrary object of the next size.
+
+The errors are errors of the proof, not of the claim: a proof of the true claim $2^n \ge n^2$ for $n \ge 4$ without a base case is still wrong.
 
 ### History
 
-George Pólya gave the argument that any $n$ numbers are equal as an exercise on the false use of induction in *Induction and Analogy in Mathematics* (1954).
-Joel Cohen put it in the form "all horses are the same color" in a satirical article of 1961.
+The horses argument, the best known false induction, is credited to George Pólya.
 
-### Common errors
+### Try it
 
-1. A student checks the base case and several more cases and calls this the step. Checking $P(1)$ to $P(10)$ is evidence, not a proof of the step.
-2. A student writes the step for "$n$" and then uses it at a value of $n$ where it was never proved, such as $n = 1$ when the step needs $n \ge 2$.
-3. A student finds no error in a false proof because each sentence is true for large $n$. The check must be done at the smallest $n$.
+First, what is wrong with "$n! > 2^n$ for $n \ge 1$: $(n + 1)! = (n + 1)\, n! > (n + 1) 2^n \ge 2^{n+1}$"?
+The step is valid for $n \ge 1$, but the base case fails, since $1! = 1 < 2$; the claim holds from $n = 4$ on, where $24 > 16$, and fails at $n = 3$, where $6 < 8$.
+
+Second, a strong induction for $P(n)$, $n \ge 0$, has a step that derives $P(n)$ from $P(n - 1)$ and $P(n - 3)$; which base cases does it need?
+The step makes sense only when $n - 3 \ge 0$, that is, for $n \ge 3$, so $P(0)$, $P(1)$ and $P(2)$ must all be proved as base cases.
 
 ## Explanations
 
@@ -93,22 +121,23 @@ Most wrong induction proofs have exactly one of these faults: no first push, or 
 
 ### L2 human
 
-We find the error in a "proof" that $3^n = 1$ for every $n \in \mathbb{N}$, by strong induction.
+We find the error in a "proof" that $3^n = 1$ for every natural number $n$, by strong induction.
+The argument checks $3^0 = 1$, then for $n \ge 1$ assumes $3^k = 1$ for all $k < n$ and writes
+$$3^n = \frac{3^{n-1} \cdot 3^{n-1}}{3^{n-2}} = \frac{1 \cdot 1}{1} = 1.$$
+Test the step at the smallest $n$ where it is used, $n = 1$.
+There it needs $3^{n-2} = 3^{-1}$, and $-1$ is not a natural number, so the IH does not cover it.
+So the step is valid only for $n \ge 2$, and $n = 1$ needs its own base case.
+That base case is false, since $3^1 = 3 \ne 1$, so the claim fails at $n = 1$ and the proof is wrong.
 
-1. The argument: for $n = 0$, $3^0 = 1$. For $n \ge 1$, assume $3^k = 1$ for all $k < n$.
-2. Then $3^n = \frac{3^{n-1} \cdot 3^{n-1}}{3^{n-2}} = \frac{1 \cdot 1}{1} = 1$.
-3. Test the step at the smallest $n$ where it is used, $n = 1$. It needs $3^{n-2} = 3^{-1}$, and $-1$ is not a natural number, so the IH does not cover it.
-4. So the step is valid only for $n \ge 2$, and $n = 1$ needs its own base case.
-5. The base case $n = 1$ is false: $3^1 = 3 \neq 1$. So the claim fails at $n = 1$, and the proof is wrong.
-
-The typical use of the list of errors is to check a proof by induction part by part: the base, the range of the step, and each use of the IH.
-A trap is to check the step only for a general large $n$, where every line of a wrong proof can be true.
+The list of errors is a checklist: the base cases, the range of the step, and each use of the IH.
+Watch out for a check of the step at a general large $n$ only, where every line of a wrong proof can be true.
 
 ### L3 human
 
-Each error corresponds to a hypothesis of the induction principle that the proof does not establish.
-The principle needs a set $S$ of values with $n_0 \in S$ and $n \in S \Rightarrow n + 1 \in S$ for every $n \ge n_0$; a missing base case drops the first hypothesis, and a step that fails at $n_1$ drops the second at one point.
-In [[strong induction|0KMVFSHFGZ]] there is no separate base case, but the step at the small values often uses no earlier case, so those values are the base cases in disguise.
+Each error matches a hypothesis of the induction principle that the proof does not establish.
+The principle asks for a set $S$ with $n_0 \in S$ and $n \in S \Rightarrow n + 1 \in S$ for every $n \ge n_0$; a missing base case drops the first condition, and a step that fails at $n_1$ drops the second at one point.
+In strong induction there is no separate base case, but the step at the smallest values uses no earlier case, so those values are base cases in disguise.
+
 In well-founded induction over any relation, the same errors appear as a step that fails at minimal elements, or a "smaller" object that is not smaller in the chosen order.
 Proof assistants catch these errors mechanically: Lean's `induction` tactic produces one goal for each constructor, and Lean rejects a proof that leaves a goal open or uses a hypothesis that is not available.
-The study of errors in proofs in general is the subject of the topic [[fallacies and errors in proofs|T6QQ749DM5]].
+Errors in proofs in general are the subject of [[fallacies and errors in proofs|T6QQ749DM5]].

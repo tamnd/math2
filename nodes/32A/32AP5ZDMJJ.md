@@ -15,31 +15,39 @@ sources:
 ## Example
 
 False claim: $2n = 0$ for every natural number $n$.
-Here is a "proof" by [[strong induction|0KMVFSHFGZ]].
-It is an instance of the [[error in induction proofs|V52HDTMPV5]] called "too few base cases".
+Here is a "proof" by [[strong induction|0KMVFSHFGZ]], and it is an instance of the [[error in induction proofs|V52HDTMPV5]] called "too few base cases".
 
 1. Let $P(n)$ be the statement "$2n = 0$".
-2. Base case: $2 \cdot 0 = 0$, so $P(0)$ holds.
-3. Step: let $n \ge 1$, and assume $P(k)$ for every natural number $k < n$.
+2. Base case.
+   We have $2 \cdot 0 = 0$, so $P(0)$ holds.
+3. Step.
+   Let $n \ge 1$, and assume $P(k)$ for every natural number $k < n$.
 4. Write $n = a + b$ with natural numbers $a < n$ and $b < n$.
-5. By the assumption, $2a = 0$ and $2b = 0$. So $2n = 2a + 2b = 0 + 0 = 0$, and $P(n)$ holds.
+5. By the assumption, $2a = 0$ and $2b = 0$, so
+   $$2n = 2a + 2b = 0 + 0 = 0,$$
+   and $P(n)$ holds.
 6. "By strong induction", $P(n)$ holds for every $n$.
 
-We check each part.
+Now we check each part.
 
 1. The base case is correct.
-2. Step 5 is correct algebra, once $a$ and $b$ exist with $a, b < n$.
-3. Step 4 needs such $a$ and $b$. For $n \ge 2$, they exist: $a = 1$ and $b = n - 1$ satisfy $a + b = n$, $1 < n$ and $n - 1 < n$.
-4. For $n = 1$, they do not exist. The only ways to write $1 = a + b$ with natural numbers are $0 + 1$ and $1 + 0$, and in both one summand equals $1$, which is not less than $n = 1$.
-5. So the step proves $P(n)$ only for $n \ge 2$, and $P(1)$ is not covered. It needed its own base case.
-6. That base case is false: $2 \cdot 1 = 2 \neq 0$. So the claim fails at $n = 1$, and the proof is wrong.
+2. Step 5 is correct algebra, once numbers $a$ and $b$ with $a, b < n$ exist.
+3. For $n \ge 2$ they exist: $a = 1$ and $b = n - 1$ give $a + b = n$, with $1 < n$ and $n - 1 < n$.
+4. For $n = 1$ they do not exist.
+   The only ways to write $1 = a + b$ with natural numbers are $0 + 1$ and $1 + 0$, and in both one summand is $1$, which is not less than $n = 1$.
+5. So the step proves $P(n)$ only for $n \ge 2$, and $P(1)$ needed its own base case.
+6. That base case is false, since $2 \cdot 1 = 2 \ne 0$.
+   So the claim fails at $n = 1$, and the proof is wrong.
 
 ## Remarks
 
-1. The example shows that in strong induction the step must work for every $n$ above the base cases. If it works only from some $n_1$ on, then every value below $n_1$ must be checked as a base case.
-2. The step does derive $P(n)$ from $P(1)$ and $P(n - 1)$ for $n \ge 2$. So the step is a correct implication, and the whole error is at the single value $n = 1$.
-3. If the claim is changed to "$0 \cdot n = 0$", the same proof works with the base cases $n = 0$ and $n = 1$, because $0 \cdot 1 = 0$ is true. Then the claim is proved.
-4. The same error appears in strong induction steps of the form "$P(n - 1)$ and $P(n - 2)$ imply $P(n)$": such a step needs $n \ge 2$, so the base cases must include $n = 0$ and $n = 1$.
+In strong induction the step must work for every $n$ above the base cases.
+If it works only from some $n_1$ on, every value below $n_1$ must be checked as a base case.
+Here the step correctly derives $P(n)$ from $P(1)$ and $P(n - 1)$ for every $n \ge 2$, so the whole error sits at the single value $n = 1$.
+
+Change the claim and the same proof is correct.
+For "$0 \cdot n = 0$", the base cases $n = 0$ and $n = 1$ both hold, since $0 \cdot 1 = 0$, and the step for $n \ge 2$ is the same, so the claim is proved.
+The same care is needed for steps of the form "$P(n - 1)$ and $P(n - 2)$ imply $P(n)$": such a step needs $n \ge 2$, so the base cases must include $n = 0$ and $n = 1$, as in [[the proof that $F_n < 2^n$|3ZDPCTKC9M]].
 
 ## Explanations
 
@@ -47,20 +55,19 @@ We check each part.
 
 The argument says: every number is the sum of two smaller numbers, and if the smaller numbers have the property, so does the sum.
 That is true for $2$, which is $1 + 1$, and for $3$, which is $1 + 2$.
-But $1$ is not the sum of two numbers smaller than $1$: the only choices are $0 + 1$ and $1 + 0$.
+But $1$ is not the sum of two numbers smaller than $1$, because the only choices are $0 + 1$ and $1 + 0$.
 So the argument never reaches $1$, and in fact $2 \cdot 1 = 2$, not $0$.
 Because the chain breaks at $1$, every later step builds on a false claim.
 
 ### L2 human
 
-We check a correct strong induction of the same shape: every natural number $n \ge 2$ is a product of primes.
+Compare a correct strong induction of the same shape: every natural number $n \ge 2$ is a product of primes.
+The smallest value is $n = 2$, which is prime, so it is a product of one prime.
+For the step, let $n \ge 3$ and assume the claim for every $k$ with $2 \le k < n$.
+If $n$ is prime, it is a product of one prime.
+Otherwise $n = ab$ with $2 \le a, b < n$, by the definition of a composite number, and both factors are in the range of the assumption.
+So $a$ and $b$ are products of primes, and then $n = ab$ is one too.
 
-1. Base case: the smallest value is $n = 2$, which is a prime and so a product of one prime.
-2. Step: let $n \ge 3$ and assume the claim for all $k$ with $2 \le k < n$.
-3. If $n$ is prime, it is a product of one prime.
-4. Otherwise $n = ab$ with $2 \le a, b < n$, by the definition of a composite number. Both factors are in the range of the assumption.
-5. By the assumption, $a$ and $b$ are products of primes, so $n = ab$ is too.
-
-Here the step works for every $n \ge 3$, and the one value below, $n = 2$, is checked as a base case.
-The typical check: for each $n$ above the base cases, the smaller values used in the step must exist and must lie in the range of the assumption.
-A trap is to check the step only for a large $n$, where the split always exists.
+Here the step works for every $n \ge 3$, and the one value below it, $n = 2$, is a base case.
+The check is always the same: for each $n$ above the base cases, the smaller values that the step uses must exist and must lie in the range of the assumption.
+Watch out for a check of the step at a large $n$ only, where the split always exists.

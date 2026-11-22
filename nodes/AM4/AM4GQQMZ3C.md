@@ -18,123 +18,149 @@ sources:
 
 ## Summary
 
-An inductive definition describes a set $S$ by base clauses and rules.
+An inductive definition describes a collection by a starting point and a way to make new members from old ones.
+For example, the sequence with $h_0 = 0$ and $h_{n+1} = 2h_n + 1$ has the values $0, 1, 3, 7, 15$, and induction proves that $h_n = 2^n - 1$ for every $n$.
+
+In general, an inductive definition of a set $S$ has base clauses, rules and an extremal clause.
 The base clauses say that some given objects are in $S$.
 Each rule says that if some objects are in $S$, then an object built from them is in $S$.
-The set $S$ is then the smallest set that contains the given objects and is closed under the rules.
+The extremal clause says that $S$ is the smallest set that contains the given objects and is closed under the rules.
 A recursive definition of a sequence or a function on the [[natural numbers|0MWKJ44V5A]] gives the first values and a rule that computes each later value from earlier values.
-Both kinds of definition come with a proof method: a property holds for every member of $S$ if it holds for the given objects and the rules keep it.
-The idea matters because most objects of discrete mathematics and computer science (sequences, strings, trees, expressions, programs) are defined in this way.
+Both kinds come with a proof method: a property holds for every member of $S$ if it holds for the given objects and each rule keeps it.
 
 ## Motivation
 
 Some sets are easy to build step by step and hard to describe by one condition.
-The strings of balanced parentheses are an example: the empty string is balanced, a balanced string in parentheses is balanced, and two balanced strings side by side are balanced.
-A closed formula for the $n$th term of a sequence may be unknown, while the rule from one term to the next is simple.
-The minimum number of moves in the [[Tower of Hanoi|0906Z03EMN]] satisfies $h_{n+1} = 2 h_n + 1$ long before one finds $h_n = 2^n - 1$.
-In both cases the definition by base and rule is the natural one, and [[mathematical induction|0ASJVEFA9J]] is the natural way to prove things about the defined objects.
+The balanced strings of parentheses are an example: the empty string is balanced, a balanced string inside one more pair of parentheses is balanced, and two balanced strings side by side are balanced.
+In the same way, the rule from one term of a sequence to the next is often simple while no closed formula is known yet.
+The minimum number of moves in the [[Tower of Hanoi|0906Z03EMN]] obeys $h_{n+1} = 2h_n + 1$, and that rule comes first; the formula $h_n = 2^n - 1$ comes after.
+
+Most objects of discrete mathematics and computing are defined this way: sequences, strings, lists, trees, arithmetic expressions, formulas and programs.
+[[Mathematical induction|0ASJVEFA9J]] proves facts about recursive sequences, and [[structural induction|12MQ2NJ29A]] proves facts about inductively defined sets.
+In logic the formulas of a language are defined in the same way, and set theory proves that recursion on $\mathbb{N}$ defines a unique function.
 
 ## Notation
 
-1. A recursive definition of a sequence lists the base and the rule: $a_0 = c$ and $a_{n+1} = g(n, a_n)$ for $n \ge 0$.
-2. An inductive definition of a set is often written as a list of clauses: "(i) $x_0 \in S$; (ii) if $x \in S$, then $f(x) \in S$; (iii) nothing else is in $S$." The last clause is the extremal clause, and it means "$S$ is the smallest such set".
-3. In computer science, an inductive definition is often written as a grammar, for example $B ::= \varepsilon \mid (B) \mid B B$.
-4. In Lean 4, the command `inductive` declares an inductive type by its constructors, for example `inductive Tree where | leaf : Tree | node : Tree → Tree → Tree`. Lean then makes a recursor, which gives both definitions by recursion and proofs by induction on the type.
+A recursive definition of a sequence lists the base and the rule, as in $a_0 = c$ and $a_{n+1} = g(n, a_n)$ for $n \ge 0$.
+An inductive definition of a set is often written as clauses: "(i) $x_0 \in S$; (ii) if $x \in S$, then $f(x) \in S$; (iii) nothing else is in $S$."
+The last clause is the extremal clause, and books also write it as "$S$ is the smallest such set" or "$S$ is the intersection of all such sets".
+In computing, an inductive definition is often a grammar, such as $B ::= \varepsilon \mid (B) \mid B B$ for balanced strings, a [[context-free grammar|CTCY2R8Q77]].
+
+In Lean 4 the command `inductive` declares a type by its constructors, for example `inductive Tree where | leaf : Tree | node : Tree → Tree → Tree`.
+Lean then makes the recursor `Tree.rec`, which gives both definitions by recursion and proofs by induction on the type.
 
 ## Remarks
 
+### A set built by rules
+
+Take the balanced strings: $\varepsilon$ is balanced, $(w)$ is balanced when $w$ is, and $uv$ is balanced when $u$ and $v$ are.
+To show that $(()())$ is a member, build it.
+The base gives $\varepsilon$, the first rule gives $()$, the second rule gives $()()$, and the first rule again gives $(()())$.
+
+To show that every member has some property, check the base and each rule.
+Every member has as many "(" as ")": the empty string has $0$ of each, and each rule adds equal numbers.
+To show that $)($ is not a member, find a property that all members have and $)($ lacks.
+Equal counts do not help, since $)($ has one of each.
+The property "empty or starts with (" works, and the [[balanced strings of parentheses|VRVKTEHBB0]] check it rule by rule.
+
 ### The smallest closed set
 
-Let $U$ be a set, let $B \subseteq U$ be a set of base objects, and let $R$ be a set of rules, each a function from $U^k$ to $U$ for some $k \ge 1$.
-A set $C \subseteq U$ is closed if $B \subseteq C$ and $f(x_1, \ldots, x_k) \in C$ for each rule $f$ and all $x_1, \ldots, x_k \in C$.
-The set $U$ itself is closed.
-The intersection $S$ of all closed sets is closed, because each condition holds in each closed set and so holds in their intersection.
-So $S$ is the smallest closed set, and this is the set that the inductive definition defines.
-The same set $S$ is also the set of objects that are reached from $B$ by finitely many uses of the rules.
+Why does the extremal clause define one set?
+Let $U$ be a set, let $B \subseteq U$ be the base objects, and let each rule be a function $f \colon U^k \to U$ for some $k \ge 1$.
+Call $C \subseteq U$ closed if $B \subseteq C$ and $f(x_1, \ldots, x_k) \in C$ for each rule $f$ and all $x_1, \ldots, x_k \in C$.
+The set $U$ itself is closed, so there is at least one closed set.
+The intersection $S$ of all closed sets is closed, because each condition holds in every closed set and so holds in their intersection.
+So $S$ is the smallest closed set, and it is unique, because two smallest closed sets contain each other.
+
+The same $S$ is the set of objects reached from $B$ by finitely many uses of the rules.
+The reachable objects form a closed set, so they contain $S$.
+Each reachable object lies in every closed set, by induction on the number of rule uses, so it lies in $S$.
 
 ### Proof by induction on the rules
 
 Let $P$ be a property of the elements of $U$.
-Suppose that $P(b)$ holds for each $b \in B$.
-Suppose also that for each rule $f$, if $P(x_1), \ldots, P(x_k)$ hold, then $P(f(x_1, \ldots, x_k))$ holds.
+Suppose that $P(b)$ holds for each $b \in B$, and that for each rule $f$, if $P(x_1), \ldots, P(x_k)$ hold, then $P(f(x_1, \ldots, x_k))$ holds.
 Then $P(x)$ holds for each $x \in S$.
-The proof is one line: the set $\{x \in U : P(x)\}$ is closed, and $S$ is contained in each closed set.
-This principle is [[structural induction|12MQ2NJ29A]] on $S$, and ordinary induction is the case $U = \mathbb{N}$, $B = \{0\}$ and the one rule $n \mapsto n + 1$.
+The proof is one line: the set $\{x \in U : P(x)\}$ is closed, and $S$ lies inside every closed set.
+This principle is [[structural induction|12MQ2NJ29A]], and ordinary induction is the case $U = \mathbb{N}$, $B = \{0\}$, with the one rule $n \mapsto n + 1$.
 
 ### Recursion on the natural numbers
 
 A [[definition by recursion|0DSHAVH45F]] gives $f(0)$ and a rule for $f(n + 1)$ in terms of $n$ and $f(n)$.
-The recursion theorem says that exactly one function satisfies such a definition.
-That theorem belongs to set theory, and the page on the [[principle of recursive definition|BQ1D7T0EGD]] states a form of it.
-For work with a recursive definition, two facts matter: the values exist and are unique, and each fact about the values is proved by induction on $n$.
-A rule may use several earlier values, as the [[Fibonacci sequence|0GA9K57A39]] does with $F_{n+2} = F_{n+1} + F_n$; then the definition needs as many start values as the rule looks back.
+The recursion theorem of set theory says that exactly one function satisfies such a definition, and the [[principle of recursive definition|BQ1D7T0EGD]] states it.
+In practice two facts matter: the values exist and are unique, and each fact about the values is proved by induction on $n$.
+The [[factorial|MY3Z0QVFDX]], with $0! = 1$ and $(n + 1)! = (n + 1) \cdot n!$, looks back one step, so one start value is enough.
+The [[Fibonacci sequence|0GA9K57A39]] looks back two steps, $F_{n+2} = F_{n+1} + F_n$, so it needs two start values, $F_0 = 0$ and $F_1 = 1$.
 
-### Examples
+The [[sequence $h_{n+1} = 2h_n + 1$|7WJPXGA2ZV]] shows the usual workflow.
+Compute a few terms from the rule, guess a closed form, and prove it by induction, with the base case from the base and the step from the rule.
 
-1. The [[balanced strings of parentheses|VRVKTEHBB0]]: the empty string, $(w)$ for a balanced $w$, and $uv$ for balanced $u$ and $v$. The string $(()())$ is in the set, and $)($ is not, because each member starts with "(" or is empty.
-2. The [[sequence $h_0 = 0$, $h_{n+1} = 2h_n + 1$|7WJPXGA2ZV]] has the values $0, 1, 3, 7, 15$, and induction proves $h_n = 2^n - 1$.
-3. The [[recursive definition of the factorial|MY3Z0QVFDX]]: $0! = 1$ and $(n + 1)! = (n + 1) \cdot n!$. The rule uses one earlier value, so one start value is enough.
-4. The set of even natural numbers: $0$ is in it, and $n + 2$ is in it when $n$ is. The smallest set with these properties is $\{0, 2, 4, \ldots\}$.
-5. The [[binary trees|02A8EMC83C]]: the empty tree is a binary tree, and $\operatorname{node}(L, R)$ is a binary tree when $L$ and $R$ are.
+### What fails to be a definition
 
-### Non-examples
+Rules without the extremal clause do not fix a set.
+"$0 \in S$, and $n \in S$ implies $n + 2 \in S$" is true of the even numbers and also of $\mathbb{N}$, as [[closure rules without the word smallest|FVT2EA59S4]] shows.
 
-1. [[Closure rules without the word "smallest"|FVT2EA59S4]]: "$0 \in S$, and $n \in S$ implies $n + 2 \in S$" is true of $\mathbb{N}$ and of the even numbers. The extremal clause is missing, so the rules do not fix one set.
-2. An [[upward recursion|CCNEXYJDC0]] such as $f(n) = f(n + 1) + 1$ computes a value from a later value. It is not a recursive definition in the sense above, and no function from $\mathbb{N}$ to $\mathbb{N}$ satisfies it.
-3. The rule $a_{n+2} = a_{n+1} + a_n$ with the single start value $a_0 = 1$ does not define a sequence. The value $a_1$ is free, so the rule has many solutions.
+An [[upward recursion|CCNEXYJDC0]] such as $f(n) = f(n + 1) + 1$ computes a value from a later value.
+No function from $\mathbb{N}$ to $\mathbb{N}$ satisfies it, because it would give $f(0) = f(k) + k \ge k$ for every $k$.
 
-### Basic properties
+The rule $a_{n+2} = a_{n+1} + a_n$ with the single start value $a_0 = 1$ does not define a sequence either.
+The value $a_1$ is free, so the rule has many solutions: $a_1 = 1$ gives $1, 1, 2, 3, 5$, and $a_1 = 2$ gives $1, 2, 3, 5, 8$.
 
-1. The smallest closed set exists and is unique. Existence is the intersection argument above, and uniqueness holds because two smallest closed sets contain each other.
-2. Each element of the smallest closed set is reached by finitely many uses of the rules. The set of reachable objects is closed, so it contains $S$; each reachable object is in each closed set, by induction on the number of rule uses.
-3. Proof by induction on the rules is valid for every inductive definition, by the argument above.
-4. A function on $S$ can be defined by recursion on the rules when each element of $S$ is built in exactly one way. The [[binary trees|02A8EMC83C]] have this property. The balanced strings do not: the empty string $\varepsilon$ equals $\varepsilon\varepsilon$, so a recursion on that grammar must give the same value both ways.
+### Watch out
+
+A function on an inductively defined set can be defined by recursion on the rules only when each element is built in exactly one way.
+[[Binary trees|02A8EMC83C]] have this property, but the balanced strings do not.
+The empty string satisfies $\varepsilon = \varepsilon\varepsilon$, so it comes from the base and also from the second rule.
+A "definition" such as $g(\varepsilon) = 0$, $g((w)) = g(w)$ and $g(uv) = g(u) + g(v) + 1$ gives $g(\varepsilon) = 0$ and also $g(\varepsilon) = g(\varepsilon) + g(\varepsilon) + 1 = 1$.
+Such a $g$ is not [[well defined|HNGZEBKVY2]].
+The fix is a grammar with unique readings, or a proof that every way of building an element gives the same value.
 
 ### History
 
-Dedekind, in *Was sind und was sollen die Zahlen?* (1888), defined the natural numbers as the intersection of all sets that contain the first number and are closed under the successor map.
+Richard Dedekind, in *Was sind und was sollen die Zahlen?* (1888), defined the natural numbers as the intersection of all sets that contain the first number and are closed under the successor map.
 In the same work he proved that definitions by recursion on the natural numbers are legitimate.
 
-### Common errors
+### Try it
 
-1. A student gives the base clauses and the rules and forgets the extremal clause. Then the set is not determined, as the non-example with $n + 2$ shows.
-2. A student defines a sequence by a rule that uses two earlier terms and gives only one start value.
-3. A student defines a function on an inductively defined set by recursion on the rules when an element can be built in two ways. The two ways can give two different values, so the "function" is not [[well defined|HNGZEBKVY2]].
+First, describe the smallest set $S$ with $1 \in S$ and $n \in S \Rightarrow 2n \in S$.
+It is $\{1, 2, 4, 8, \ldots\}$, the powers of $2$: every power of $2$ is reached, and the powers of $2$ form a closed set.
+
+Second, define $a_0 = 2$ and $a_{n+1} = a_n^2$, and find $a_n$.
+The terms are $2, 4, 16, 256$, and induction gives $a_n = 2^{2^n}$, because $(2^{2^n})^2 = 2^{2^{n+1}}$.
 
 ## Explanations
 
 ### L1 human
 
 Some collections are best described by a starting point and a way to make new members.
-For example, start with the number $0$, and say that whenever a number is in the collection, the number two larger is too.
+Start with the number $0$, and say that whenever a number is in the collection, the number two larger is too.
 Then $0$, $2$, $4$, $6$ and so on are in the collection.
-We also say that nothing else is in it, and this is what makes the collection exactly the even numbers.
+We also say that nothing else is in it, and this last sentence makes the collection exactly the even numbers.
 A sequence can be described in the same way: start with $0$, and get each term by doubling the last one and adding $1$.
 This gives $0$, $1$, $3$, $7$, $15$, and so on.
 
 ### L2 human
 
-We define a set $S$ of natural numbers inductively and find it.
-Base: $1 \in S$.
-Rule: if $n \in S$, then $3n \in S$.
-And $S$ is the smallest set with these two properties.
+Let us define a set $S$ of natural numbers inductively and find it.
+The base is $1 \in S$, the rule is "if $n \in S$, then $3n \in S$", and $S$ is the smallest set with these two properties.
+The rule gives $3$, then $9$, then $27$, so each power $3^k$ is in $S$, by induction on $k$.
+Conversely, the set $T = \{3^k : k \in \mathbb{N}\}$ contains $1 = 3^0$, and it is closed under the rule:
+$$3 \cdot 3^k = 3^{k+1} \in T.$$
+Since $S$ is the smallest closed set, $S \subseteq T$, and so $S = T$.
 
-1. The rule gives $3 \in S$, then $9 \in S$, then $27 \in S$. So each power $3^k$ is in $S$, by induction on $k$.
-2. The set $T = \{3^k : k \in \mathbb{N}\}$ contains $1 = 3^0$.
-3. If $3^k \in T$, then $3 \cdot 3^k = 3^{k+1} \in T$. So $T$ is closed under the rule.
-4. Since $S$ is the smallest closed set, $S \subseteq T$.
-5. Steps 1 and 4 give $S = T$.
-6. Now we prove by induction on the rules that each element of $S$ is odd. The base element $1$ is odd. If $n$ is odd, then $3n$ is odd, as a product of two odd numbers.
-
-The typical use of an inductive definition is a proof like step 6: check the base objects and check that each rule keeps the property.
-A trap is step 4: the inclusion $S \subseteq T$ needs the word "smallest", and without it $S = \mathbb{N}$ would satisfy the base and the rule too.
+Now prove by induction on the rules that each element of $S$ is odd.
+The base element $1$ is odd, and if $n$ is odd, then $3n$ is odd, as a product of two odd numbers.
+That is the typical use of an inductive definition: check the base objects, then check that each rule keeps the property.
+Watch out for the inclusion $S \subseteq T$: it needs the word "smallest", and without it $\mathbb{N}$ would satisfy the base and the rule too.
 
 ### L3 human
 
 An inductive definition is a least fixed point.
-The rules define a monotone operator $\Phi(X) = B \cup \{f(\vec x) : f \in R, \vec x \in X^k\}$ on the subsets of $U$, and $S$ is the least $X$ with $\Phi(X) \subseteq X$, which is also the least fixed point by the [[Knaster-Tarski theorem|RHXP3HA64M]].
-When all rules are finitary, $S = \bigcup_{n} \Phi^n(\emptyset)$, and the stage $n$ at which an element first appears is the height used in proofs by [[induction on size|B2D8PTFNN1]].
+The rules define a monotone operator $\Phi(X) = B \cup \{f(\vec x) : f \text{ a rule}, \ \vec x \in X^k\}$ on the subsets of $U$, and $S$ is the least $X$ with $\Phi(X) \subseteq X$.
+By the [[Knaster-Tarski theorem|RHXP3HA64M]], this $S$ is also the least fixed point of $\Phi$.
+When all rules are finitary, $S = \bigcup_{n} \Phi^n(\emptyset)$, and the stage $n$ at which an element first appears is a height for proofs by [[induction on size|B2D8PTFNN1]].
 With infinitary rules, the stages run through the ordinals, and the theory of inductive definitions in logic studies how long they run.
-In type theory, an inductive type is the initial algebra of a polynomial functor, and its recursor is the unique map out of that algebra.
-Lean, Coq and Agda take [[inductive types|Q80JWCWNKX]] as primitive, so the natural numbers, lists and trees are all instances of one declaration form.
+
+In type theory, an inductive type is the [[initial algebra|R76EC56V9R]] of a functor, and its recursor is the unique map out of that algebra.
+Lean, Coq and Agda take [[inductive types|Q80JWCWNKX]] as primitive, so the natural numbers, lists and trees are all instances of one form of declaration.
 The dual notion, the greatest fixed point, gives coinductive definitions of infinite objects such as streams.
