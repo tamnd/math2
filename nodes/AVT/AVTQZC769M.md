@@ -17,26 +17,35 @@ sources:
 ## Example
 
 Let
-$$M = \operatorname{diag}\left(1, \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}\right) = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 0 & 1 \\ 0 & 0 & 0 \end{pmatrix}.$$
+$$M = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 0 & 1 \\ 0 & 0 & 0 \end{pmatrix}$$
+over the real numbers.
+Its eigenvalues are those of a projection, and yet $M$ is not [[idempotent|0K7TD9BV2D]].
 
-1. $M$ is upper triangular, so its eigenvalues are its diagonal entries $1, 0, 0$, all in $\{0, 1\}$.
-2. $M$ is [[block diagonal|0M0SNKZ482]], so $M^2 = \operatorname{diag}\left(1^2, \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}^2\right) = \operatorname{diag}(1, 0) = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \end{pmatrix}$.
-3. $M^2$ has entry $0$ at $(2, 3)$ and $M$ has entry $1$ there. So $M^2 \neq M$, and $M$ is not [[idempotent|0K7TD9BV2D]].
+1. The matrix is upper triangular, so its eigenvalues are its diagonal entries $1, 0, 0$, all in $\{0, 1\}$.
+2. The matrix is [[block diagonal|0M0SNKZ482]], with the $1 \times 1$ block $(1)$ and the $2 \times 2$ block $J = \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}$. Block diagonal matrices square block by block.
+3. The blocks square to $(1)$ and $J^2 = 0$, so
+$$M^2 = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \end{pmatrix}.$$
+4. The entry $(2, 3)$ of $M^2$ is $0$, and that of $M$ is $1$. So $M^2 \ne M$, and $M$ is not idempotent.
 
 ## Remarks
 
-The second block is nilpotent, and it stops $M$ from being diagonalizable.
-An idempotent matrix over a field is diagonalizable, so the eigenvalue condition is necessary but not sufficient.
-Also $\operatorname{tr} M = 1$ but $\operatorname{rank} M = 2$, so the rule "trace equals rank" fails here as well.
+The block $J$ is nilpotent, and it hides behind the eigenvalue $0$.
+It also stops $M$ from being diagonalizable, while every idempotent matrix over a field is diagonalizable.
+So eigenvalues in $\{0, 1\}$ are necessary for idempotency, but not sufficient; the matrix must also be diagonalizable.
+
+The rule "trace equals rank" fails as well: $\operatorname{tr} M = 1$, but $M$ has the two independent nonzero rows $(1, 0, 0)$ and $(0, 0, 1)$, so its rank is $2$.
+If we replace the entry $1$ in position $(2, 3)$ by $0$, we get $\operatorname{diag}(1, 0, 0)$, which is idempotent.
 
 ## Explanations
 
 ### L1 human
 
-The eigenvalues of $M$ are those of a projection, but $M$ is not a projection.
-Squaring $M$ removes the $1$ above the diagonal.
+The eigenvalues of $M$ are $1$, $0$ and $0$, the same as for the projection $\operatorname{diag}(1, 0, 0)$.
+But squaring $M$ removes the $1$ above the diagonal, so $M$ changes when we apply it twice.
+A projection never changes when we apply it twice, so $M$ is not a projection.
 
 ### L2 human
 
-The eigenvalues control only the diagonal part of a matrix.
-A nilpotent part can hide behind the eigenvalue $0$.
+The eigenvalues control only the diagonal part of a triangular matrix.
+A nilpotent part above the diagonal is invisible to them.
+Watch out: to prove that a matrix is idempotent, compute $P^2$, or show that it is diagonalizable with eigenvalues in $\{0, 1\}$; the eigenvalues alone prove nothing.
