@@ -26,7 +26,7 @@ Then the following hold.
 3. For each integer $k \ge 1$, all $v_1, \dots, v_k \in V$ and all $a_1, \dots, a_k \in F$, the [[linear combination|0V8F3E48E6]] is preserved:
 $$T(a_1 v_1 + \dots + a_k v_k) = a_1 T(v_1) + \dots + a_k T(v_k).$$
 
-Moreover, a function $T \colon V \to W$ is linear if and only if $T(au + v) = a\,T(u) + T(v)$ for all $u, v \in V$ and $a \in F$.
+In addition, a function $T \colon V \to W$ is linear if and only if $T(au + v) = a\,T(u) + T(v)$ for all $u, v \in V$ and $a \in F$.
 
 ## Remarks
 
