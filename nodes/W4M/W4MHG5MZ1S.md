@@ -19,40 +19,40 @@ sources:
 Let $\mathcal{P}_2$ be the real vector space of polynomials of degree at most $2$, with the [[inner product|0VGSYBWHV2]]
 $$\ip{p}{q} = \int_{-1}^{1} p(x)\,q(x)\,dx.$$
 Let $T \colon \mathcal{P}_2 \to \mathcal{P}_2$ be the map $(Tp)(x) = p(-x)$.
-We check that $T$ is a [[linear isometry|0717XXPWM6]], and that it is the reflection in the hyperplane orthogonal to $x$.
+We check that $T$ is a [[linear isometry|0717XXPWM6]], and that it is the reflection in the hyperplane orthogonal to the polynomial $x$.
 
-1. Linearity: $\big(T(ap + bq)\big)(x) = ap(-x) + bq(-x) = \big(aTp + bTq\big)(x)$.
-2. Norms: $\norm{Tp}^2 = \int_{-1}^{1} p(-x)^2\,dx$. The substitution $t = -x$, $dt = -dx$ swaps the limits, so this integral is $\int_{-1}^{1} p(t)^2\,dt = \norm{p}^2$.
-3. A check with $p(x) = 1 + x$: $\norm{p}^2 = \int_{-1}^{1} (1 + 2x + x^2)\,dx = 2 + 0 + \frac{2}{3} = \frac{8}{3}$.
-4. And $Tp = 1 - x$ has $\norm{Tp}^2 = \int_{-1}^{1} (1 - 2x + x^2)\,dx = 2 - 0 + \frac{2}{3} = \frac{8}{3}$, the same value.
-5. $T$ fixes $1$ and $x^2$, and $T(x) = -x$.
-6. $\ip{x}{1} = \int_{-1}^{1} x\,dx = 0$ and $\ip{x}{x^2} = \int_{-1}^{1} x^3\,dx = 0$. So $1$ and $x^2$ lie in the [[orthogonal complement|079D68S3AW]] $x^\perp$.
-7. $\dim \mathcal{P}_2 = 3$ and $x \neq 0$, so $x^\perp$ has dimension $2$. The independent vectors $1$ and $x^2$ span it.
-8. So $T$ fixes the hyperplane $x^\perp$ pointwise and sends $x$ to $-x$. This is the [[reflection|06BRDF3F0E]] in $x^\perp$.
+1. The map is linear, because $\big(T(ap + bq)\big)(x) = ap(-x) + bq(-x) = \big(aTp + bTq\big)(x)$.
+2. It keeps norms. We have $\norm{Tp}^2 = \int_{-1}^{1} p(-x)^2\,dx$, and the substitution $t = -x$ turns this into $\int_{-1}^{1} p(t)^2\,dt = \norm{p}^2$.
+3. As a check, take $p(x) = 1 + x$. Then $\norm{p}^2 = \int_{-1}^{1} (1 + 2x + x^2)\,dx = 2 + 0 + \tfrac{2}{3} = \tfrac{8}{3}$, and $Tp = 1 - x$ gives $\int_{-1}^{1} (1 - 2x + x^2)\,dx = \tfrac{8}{3}$ as well.
+4. The map fixes $1$ and $x^2$, and it sends $x$ to $-x$.
+5. The polynomials $1$ and $x^2$ are orthogonal to $x$, because $\int_{-1}^{1} x\,dx = 0$ and $\int_{-1}^{1} x^3\,dx = 0$. So they lie in the [[orthogonal complement|079D68S3AW]] $x^\perp$.
+6. Since $\dim \mathcal{P}_2 = 3$ and $x \ne 0$, the complement $x^\perp$ has dimension $2$, and the independent polynomials $1$ and $x^2$ span it.
+7. So $T$ fixes the hyperplane $x^\perp$ pointwise and sends $x$ to $-x$, which makes it the [[reflection|06BRDF3F0E]] in $x^\perp$.
 
 ## Remarks
 
-- The example shows that linear isometries occur in spaces of functions, not only in $\R^n$.
-- In the basis $1, x, x^2$, the matrix of $T$ is $\operatorname{diag}(1, -1, 1)$, and $\det T = -1$.
-- The basis $1, x, x^2$ is not orthonormal, because $\ip{1}{x^2} = \frac{2}{3}$. The isometry property does not depend on this basis.
-- With the inner product $\int_{0}^{1} p(x)q(x)\,dx$, the map $T$ is not an isometry: $\norm{1 + x}^2 = \frac{7}{3}$ but $\norm{1 - x}^2 = \frac{1}{3}$.
+The example shows that linear isometries live in spaces of functions as well as in $\R^n$.
+In the basis $1, x, x^2$ the matrix of $T$ is $\operatorname{diag}(1, -1, 1)$, so $\det T = -1$, as for every reflection.
+That basis is not orthonormal, since $\ip{1}{x^2} = \tfrac{2}{3}$, but the isometry property does not depend on the basis that we use to write the matrix.
+
+The inner product matters, though.
+With $\ip{p}{q} = \int_{0}^{1} p(x)q(x)\,dx$ the same map is no isometry: $\norm{1 + x}^2 = \tfrac{7}{3}$ but $\norm{1 - x}^2 = \tfrac{1}{3}$.
+The interval $[0, 1]$ is not symmetric about $0$, so the substitution $t = -x$ moves it to $[-1, 0]$.
 
 ## Explanations
 
 ### L1 human
 
-The map turns the graph of a polynomial over, as in a mirror on the vertical axis.
-The inner product measures a polynomial by the area under its square from $-1$ to $1$.
-A mirror image of the graph has the same area under its square, because the interval from $-1$ to $1$ is symmetric.
+The map flips the graph of a polynomial over the vertical axis, as a mirror would.
+The inner product measures a polynomial by the area under the graph of its square from $-1$ to $1$.
+The flipped graph has the same area under its square, because the interval from $-1$ to $1$ is the same on both sides of $0$.
 So the map keeps the size of every polynomial.
 
 ### L2 human
 
-Worked check of the last remark:
-
-1. On $[0, 1]$: $\int_0^1 (1 + x)^2\,dx = \left[\frac{(1 + x)^3}{3}\right]_0^1 = \frac{8 - 1}{3} = \frac{7}{3}$.
-2. $\int_0^1 (1 - x)^2\,dx = \left[-\frac{(1 - x)^3}{3}\right]_0^1 = 0 + \frac{1}{3} = \frac{1}{3}$.
-3. The two values differ, so $p(x) \mapsto p(-x)$ is not an isometry for this inner product.
-
-The typical use: symmetries of the interval give isometries of function spaces.
-A trap: whether a map is an isometry depends on the inner product, not only on the map.
+Here is the check of the second remark, on the interval $[0, 1]$.
+Integrate both squares:
+$$\int_0^1 (1 + x)^2\,dx = \left[\frac{(1 + x)^3}{3}\right]_0^1 = \frac{8 - 1}{3} = \frac{7}{3}, \qquad \int_0^1 (1 - x)^2\,dx = \left[-\frac{(1 - x)^3}{3}\right]_0^1 = \frac{1}{3}.$$
+The two values differ, so $p(x) \mapsto p(-x)$ is not an isometry for this inner product.
+Symmetries of the interval of integration give isometries of function spaces, and that is the typical source of such examples.
+Watch out: whether a map is an isometry depends on the inner product, not only on the map.

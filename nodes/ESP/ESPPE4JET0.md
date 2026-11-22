@@ -17,49 +17,56 @@ sources:
 
 ## Proof
 
-We use $\ip{x}{y} = y^*x$ throughout.
+We read the entries of $U^* U$ and $U U^*$ as inner products of columns and rows, we use the determinant to get invertibility, and we use the complex spectral theorem for the diagonal form.
+Throughout, $\langle x, y \rangle = y^* x$.
+
+**The determinant of the conjugate transpose.**
+
+1. The determinant is a polynomial in the entries with integer coefficients, and conjugation respects sums and products, so $\det \overline{U} = \overline{\det U}$.
+2. The [[determinant of the transpose|0ZZQ2E1MTE]] equals the determinant, so $\det(U^*) = \det(\overline{U}^{\mathsf{T}}) = \overline{\det U}$.
 
 **The equivalent conditions.**
 
-1. Assume condition 1. Then $\overline{\det U}\det U = \det(U^*)\det U = \det(U^*U) = 1$, by steps 11 and 12 below and [[multiplicativity of the determinant|04CPJ6AF00]]. So $\det U \neq 0$, and $U$ is invertible.
-2. Multiply $U^*U = I_n$ on the right by $U^{-1}$. This gives $U^* = U^{-1}$, which is condition 3.
-3. Condition 3 gives $UU^* = UU^{-1} = I_n$, which is condition 2. In the same way, condition 2 gives that $U^*$ is a right inverse, so $U^* = U^{-1}$ and condition 1 holds.
-4. The $(j, k)$ entry of $U^*U$ is $\sum_m \overline{u_{mj}}u_{mk} = \ip{c_k}{c_j}$, where $c_j$ is column $j$. So condition 1 says $\ip{c_k}{c_j} = 1$ for $j = k$ and $0$ for $j \neq k$, which is condition 4. Here $n$ orthonormal vectors in $\C^n$ are a basis, because they are linearly independent.
-5. The $(j, k)$ entry of $UU^*$ is $\sum_m u_{jm}\overline{u_{km}} = \ip{r_j}{r_k}$, where $r_j$ is row $j$. So condition 2 is condition 5, in the same way.
-6. Assume condition 1. Then $\ip{Ux}{Uy} = (Uy)^*(Ux) = y^*U^*Ux = y^*x = \ip{x}{y}$. This is condition 6.
-7. Condition 6 with $y = x$ gives $\norm{Ux}^2 = \norm{x}^2$, which is condition 7.
-8. Condition 7 implies condition 6, by [[the equivalent conditions for a linear isometry|95ST99SEW7]] applied to the map $x \mapsto Ux$. That proof uses the complex polarization identity.
-9. Assume condition 6. For all $x$ and $y$, $\ip{(U^*U - I_n)x}{y} = y^*U^*Ux - y^*x = \ip{Ux}{Uy} - \ip{x}{y} = 0$.
-10. Take $y = (U^*U - I_n)x$. Then $\norm{y}^2 = 0$, so $y = 0$. This holds for all $x$, so $U^*U = I_n$, which is condition 1.
+3. Assume condition 1. By step 2 and [[multiplicativity of the determinant|04CPJ6AF00]], $\overline{\det U} \det U = \det(U^* U) = \det I_n = 1$, so $\det U \ne 0$ and $U$ is invertible.
+4. Multiply $U^* U = I_n$ on the right by $U^{-1}$ to get $U^* = U^{-1}$, which is condition 3.
+5. Condition 3 gives $U U^* = U U^{-1} = I_n$, which is condition 2. In the same way, condition 2 makes $U^*$ a right inverse of the square matrix $U$, so $U^* = U^{-1}$, and conditions 3 and 1 follow.
+6. The entry in position $(j, k)$ of $U^* U$ is $\sum_m \overline{u_{mj}} u_{mk} = \langle c_k, c_j \rangle$, where $c_j$ is column $j$. So condition 1 says that the columns are orthonormal. Orthonormal vectors are linearly independent, so $n$ of them in $\C^n$ form a basis, and this is condition 4.
+7. The entry in position $(j, k)$ of $U U^*$ is $\sum_m u_{jm} \overline{u_{km}} = \langle r_j, r_k \rangle$, where $r_j$ is row $j$. So condition 2 is condition 5 in the same way.
+8. Assume condition 1. Then $\langle Ux, Uy \rangle = (Uy)^* (Ux) = y^* U^* U x = y^* x = \langle x, y \rangle$, which is condition 6.
+9. Condition 6 with $y = x$ gives $\lVert Ux \rVert^2 = \lVert x \rVert^2$, which is condition 7.
+10. Condition 7 implies condition 6, by [[the equivalent conditions for a linear isometry|95ST99SEW7]] applied to the complex-linear map $x \mapsto Ux$; that proof uses the complex polarization identity.
+11. Assume condition 6. For all $x$ and $y$,
+$$\langle (U^* U - I_n) x, y \rangle = y^* U^* U x - y^* x = \langle Ux, Uy \rangle - \langle x, y \rangle = 0.$$
+12. Take $y = (U^* U - I_n) x$. Then $\lVert y \rVert^2 = 0$, so $y = 0$. This holds for every $x$, so $U^* U = I_n$, which is condition 1.
 
-**The determinant.**
+**The determinant and the eigenvalues.**
 
-11. The determinant is a polynomial in the entries with integer coefficients. So the determinant of the entrywise conjugate $\overline{U}$ is $\overline{\det U}$.
-12. The [[determinant of the transpose|0ZZQ2E1MTE]] is the same determinant. So $\det(U^*) = \det(\overline{U}^T) = \overline{\det U}$.
-13. Now let $U$ be unitary. By steps 11 and 12, $\abs{\det U}^2 = \overline{\det U}\det U = \det(U^*U) = \det I_n = 1$. So $\abs{\det U} = 1$.
-
-**The eigenvalues and eigenvectors.**
-
-14. Let $Uv = \lambda v$ with $v \neq 0$. By condition 7, $\norm{v} = \norm{Uv} = \abs{\lambda}\norm{v}$.
-15. $\norm{v} \neq 0$, so $\abs{\lambda} = 1$. In particular, $\overline{\lambda} = \lambda^{-1}$.
-16. Let $Uw = \mu w$ with $w \neq 0$ and $\mu \neq \lambda$. By condition 6, $\ip{v}{w} = \ip{Uv}{Uw} = \lambda\overline{\mu}\ip{v}{w}$.
-17. By step 15, $\lambda\overline{\mu} = \lambda/\mu \neq 1$. So $(1 - \lambda/\mu)\ip{v}{w} = 0$ gives $\ip{v}{w} = 0$.
+13. Let $U$ be unitary. Step 3 gives $\lvert \det U \rvert^2 = \overline{\det U} \det U = 1$, so $\lvert \det U \rvert = 1$.
+14. Let $U v = \lambda v$ with $v \ne 0$. By condition 7, $\lVert v \rVert = \lVert U v \rVert = \lvert \lambda \rvert \lVert v \rVert$.
+15. Since $\lVert v \rVert \ne 0$, we get $\lvert \lambda \rvert = 1$, and so $\overline{\lambda} = \lambda^{-1}$.
+16. Let $U w = \mu w$ with $w \ne 0$ and $\mu \ne \lambda$. By condition 6, $\langle v, w \rangle = \langle U v, U w \rangle = \lambda \overline{\mu} \langle v, w \rangle$.
+17. By step 15, $\lambda \overline{\mu} = \lambda / \mu \ne 1$, so $(1 - \lambda / \mu) \langle v, w \rangle = 0$ gives $\langle v, w \rangle = 0$.
 
 **The spectral form and the converse.**
 
-18. By conditions 1 and 2, $U^*U = I_n = UU^*$. So $U$ is normal.
-19. By the [[complex spectral theorem|04CW1P44VD]], $\C^n$ has an [[orthonormal basis|0FWJ0VW561]] $v_1, \dots, v_n$ of eigenvectors of $U$, with $Uv_k = \lambda_kv_k$.
-20. Let $V$ be the matrix with columns $v_1, \dots, v_n$, and let $D = \operatorname{diag}(\lambda_1, \dots, \lambda_n)$. Then $V$ is unitary, by condition 4, and $UV = VD$.
-21. So $U = VDV^{-1} = VDV^*$, and $\abs{\lambda_k} = 1$ by step 15.
-22. For the converse, let $V$ be unitary and $D = \operatorname{diag}(d_1, \dots, d_n)$ with $\abs{d_k} = 1$. Then $D^*D = \operatorname{diag}(\abs{d_1}^2, \dots, \abs{d_n}^2) = I_n$.
-23. So $(VDV^*)^*(VDV^*) = VD^*V^*VDV^* = VD^*DV^* = VV^* = I_n$, and $VDV^*$ is unitary. $\blacksquare$
+18. Conditions 1 and 2 give $U^* U = I_n = U U^*$, so $U$ is normal.
+19. By the [[complex spectral theorem|04CW1P44VD]], $\C^n$ has an [[orthonormal basis|0FWJ0VW561]] $v_1, \dots, v_n$ of eigenvectors of $U$, with $U v_k = \lambda_k v_k$.
+20. Let $V$ have columns $v_1, \dots, v_n$, and let $D = \operatorname{diag}(\lambda_1, \dots, \lambda_n)$. Then $V$ is unitary by condition 4, and $U V = V D$.
+21. So $U = V D V^{-1} = V D V^*$, and $\lvert \lambda_k \rvert = 1$ by step 15.
+22. For the converse, let $V$ be unitary and $D = \operatorname{diag}(d_1, \dots, d_n)$ with $\lvert d_k \rvert = 1$. Then $D^* D = \operatorname{diag}(\lvert d_1 \rvert^2, \dots, \lvert d_n \rvert^2) = I_n$.
+23. So
+$$(V D V^*)^* (V D V^*) = V D^* V^* V D V^* = V D^* D V^* = V V^* = I_n,$$
+and $V D V^*$ is unitary.
 
 ## Idea
 
-The entries of $U^*U$ and $UU^*$ are the inner products of the columns and of the rows.
-The eigenvalue facts come from the fact that $U$ keeps lengths, and the spectral form comes from normality.
+Every entry of $U^* U$ is an inner product of two columns, and every entry of $U U^*$ is an inner product of two rows.
+So the matrix conditions are statements about orthonormal columns or rows, and the determinant shows that a one-sided inverse is two-sided.
+The eigenvalue facts come from the fact that $U$ keeps lengths: an eigenvector cannot grow or shrink.
+The diagonal form comes from normality and the spectral theorem.
 
 ## Variants
 
-- Step 8 can avoid the general theorem: the complex polarization identity writes $\ip{x}{y}$ with the four lengths $\norm{x + i^ky}$, and $U$ keeps them.
-- Steps 14 and 15 also follow from a bound: all powers $U^k$ have columns of length $1$, so $\abs{\lambda}^k\norm{v} = \norm{U^kv} = \norm{v}$ for all $k \in \Z$.
+Step 10 can avoid the general theorem on isometries.
+The complex polarization identity writes $4 \langle x, y \rangle$ as $\sum_{k=0}^{3} i^k \lVert x + i^k y \rVert^2$, and $U$ keeps each of the four lengths, because $U(x + i^k y) = Ux + i^k Uy$.
+Steps 14 and 15 also follow from powers: every power $U^k$ with $k \in \Z$ is unitary, so $\lvert \lambda \rvert^k \lVert v \rVert = \lVert U^k v \rVert = \lVert v \rVert$, and a positive number whose powers stay equal to $1$ is $1$.

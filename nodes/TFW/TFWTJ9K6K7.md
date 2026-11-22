@@ -19,46 +19,42 @@ sources:
 
 Let
 $$Q = \frac{1}{3}\begin{pmatrix} 2 & -1 & 2 \\ 2 & 2 & -1 \\ -1 & 2 & 2 \end{pmatrix}.$$
-We check that $Q$ is an [[orthogonal matrix|0QRBVFJ50X]] with determinant $1$, and we find its axis and angle.
+We check that $Q$ is an [[orthogonal matrix|0QRBVFJ50X]] with determinant $1$, and we find its axis, its angle and its sense of turning.
 
-1. The columns are $c_1 = \frac{1}{3}(2, 2, -1)$, $c_2 = \frac{1}{3}(-1, 2, 2)$ and $c_3 = \frac{1}{3}(2, -1, 2)$.
-2. Lengths: $c_1 \cdot c_1 = \frac{4 + 4 + 1}{9} = 1$, and in the same way $c_2 \cdot c_2 = c_3 \cdot c_3 = 1$.
-3. Dot products: $c_1 \cdot c_2 = \frac{-2 + 4 - 2}{9} = 0$, $c_1 \cdot c_3 = \frac{4 - 2 - 2}{9} = 0$ and $c_2 \cdot c_3 = \frac{-2 - 2 + 4}{9} = 0$.
-4. So $Q^TQ = I_3$, because its entries are these dot products.
-5. [[Determinant|0C3CFHDN6R]]: the integer matrix has determinant $2(4 + 2) + 1(4 - 1) + 2(4 + 2) = 27$, by expansion along the first row. So $\det Q = \frac{27}{27} = 1$.
-6. Axis: $Q(1, 1, 1)^T = \frac{1}{3}(2 - 1 + 2,\ 2 + 2 - 1,\ -1 + 2 + 2) = (1, 1, 1)$. So $Q$ fixes the line through $(1, 1, 1)$.
-7. Angle: the [[trace|07PTPSZPME]] is $\frac{2 + 2 + 2}{3} = 2$. For a rotation by $\theta$, the trace is $1 + 2\cos\theta$, so $\cos\theta = \frac{1}{2}$ and $\theta = \pi/3$.
-8. Sense of turning: $Q - Q^T = \begin{pmatrix} 0 & -1 & 1 \\ 1 & 0 & -1 \\ -1 & 1 & 0 \end{pmatrix}$. This is $2\sin\theta$ times the cross product matrix of the unit vector $u = \frac{1}{\sqrt{3}}(1, 1, 1)$, with $2\sin\theta = \sqrt{3}$.
-9. So $\sin\theta = \frac{\sqrt{3}}{2} > 0$, and $Q$ turns by $\pi/3$ counterclockwise when we look from the tip of $u$ to the origin.
+1. The columns are $c_1 = \frac{1}{3}(2, 2, -1)$, $c_2 = \frac{1}{3}(-1, 2, 2)$ and $c_3 = \frac{1}{3}(2, -1, 2)$. Each has squared length $\frac{4 + 4 + 1}{9} = 1$.
+2. The dot products are $c_1 \cdot c_2 = \frac{-2 + 4 - 2}{9} = 0$, $c_1 \cdot c_3 = \frac{4 - 2 - 2}{9} = 0$ and $c_2 \cdot c_3 = \frac{-2 - 2 + 4}{9} = 0$. These are the entries of $Q^TQ$, so $Q^TQ = I_3$.
+3. Expand the [[determinant|0C3CFHDN6R]] of the integer matrix $3Q$ along its first row: $2(4 + 2) + 1(4 - 1) + 2(4 + 2) = 12 + 3 + 12 = 27$. So $\det Q = \frac{27}{27} = 1$, and $Q$ is a rotation.
+4. For the axis, $Q(1, 1, 1)^T = \frac{1}{3}(2 - 1 + 2,\ 2 + 2 - 1,\ -1 + 2 + 2) = (1, 1, 1)$. So $Q$ fixes the line through $(1, 1, 1)$.
+5. For the angle, the [[trace|07PTPSZPME]] is $\frac{2 + 2 + 2}{3} = 2$. A rotation of $\R^3$ by $\theta$ has trace $1 + 2\cos\theta$, so $\cos\theta = \frac{1}{2}$.
+6. For the sense, $Q - Q^T = \begin{pmatrix} 0 & -1 & 1 \\ 1 & 0 & -1 \\ -1 & 1 & 0 \end{pmatrix}$. For a rotation by $\theta$ about the unit vector $u$, the matrix $Q - Q^T$ is $2\sin\theta$ times the cross product matrix of $u$.
+7. With $u = \frac{1}{\sqrt{3}}(1, 1, 1)$, the cross product matrix of $u$ is $\frac{1}{\sqrt 3}$ times the matrix of step 6, so $2\sin\theta = \sqrt{3}$ and $\sin\theta = \frac{\sqrt{3}}{2}$.
+8. So $\theta = \pi/3$, and $Q$ turns by $60$ degrees counterclockwise when we look from the tip of $u$ back to the origin.
 
 ## Remarks
 
-- The example shows a rotation of $\R^3$ that is not about a coordinate axis. Its axis and angle come from the eigenvector for $1$ and from the trace.
-- The characteristic polynomial is $(t - 1)(t^2 - t + 1)$, with the roots $1$ and $\frac{1}{2}(1 \pm i\sqrt{3}) = e^{\pm i\pi/3}$. All roots lie on the unit circle, as the [[eigenvalue theorem|QDZJMFATRW]] says.
-- $Q^3$ is the rotation by $\pi$ about the same axis, and $Q^6 = I$.
-- The [[normal form|QTY3VMFGY1]] of $Q$ is $\begin{pmatrix} \cos\frac{\pi}{3} & -\sin\frac{\pi}{3} & 0 \\ \sin\frac{\pi}{3} & \cos\frac{\pi}{3} & 0 \\ 0 & 0 & 1 \end{pmatrix}$.
-- If we replace $Q$ by $-Q$, the columns stay orthonormal, but $\det(-Q) = -1$, so $-Q$ is an improper rotation.
+The example shows a rotation of $\R^3$ that is not about a coordinate axis, and how to read off its axis and angle: the axis from the eigenvector for $1$, the angle from the trace, and the sense from $Q - Q^T$.
+The characteristic polynomial is $(t - 1)(t^2 - t + 1)$, with the roots $1$ and $\frac{1}{2}(1 \pm i\sqrt{3}) = e^{\pm i\pi/3}$.
+All three lie on the unit circle, as the [[eigenvalue theorem|QDZJMFATRW]] says.
+In an orthonormal basis $f_1, f_2, u$ with $f_1, f_2$ in the plane $x + y + z = 0$ and $f_1 \times f_2 = u$, the [[normal form|QTY3VMFGY1]] of $Q$ is the rotation $R(\pi/3)$ in the first two coordinates and $1$ in the third.
+
+Change one thing at a time.
+The power $Q^3$ is the half turn about the same axis, and $Q^6 = I$.
+The negative $-Q$ still has orthonormal columns, but $\det(-Q) = (-1)^3 = -1$, so $-Q$ is an improper rotation: a rotation by $\pi/3$ followed by the point reflection $x \mapsto -x$.
 
 ## Explanations
 
 ### L1 human
 
-Hold a cube by two opposite corners, and turn it about the line through these corners.
+Hold a cube by two opposite corners and turn it about the line through these corners.
 This matrix turns all of space about such a line, the line through $(0, 0, 0)$ and $(1, 1, 1)$.
-The angle of the turn is $60$ degrees.
-Points on the line stay where they are.
+The angle of the turn is $60$ degrees, and the points on the line stay where they are.
 After six such turns, everything is back in place.
 
 ### L2 human
 
-The worked check is in the Example.
-The method for any $3 \times 3$ matrix:
-
-1. Check that the columns have length $1$ and are perpendicular.
-2. Compute the determinant. If it is $1$, the matrix is a rotation.
-3. Solve $Qx = x$ to find the axis.
-4. Use $\tr Q = 1 + 2\cos\theta$ to find the angle.
-5. Use $Q - Q^T$ to find the sense of turning.
-
-A trap: the trace gives only $\cos\theta$, so it cannot tell $\theta$ from $-\theta$.
-Step 5 is needed for the sign.
+The same steps work for every $3 \times 3$ matrix that you suspect is a rotation.
+Check that the columns are orthonormal, and compute the determinant, which must be $1$.
+Solve $Qx = x$ for the axis, use $\tr Q = 1 + 2\cos\theta$ for the angle, and use $Q - Q^T$ for the sense.
+For $Q$ above, the trace step reads
+$$1 + 2\cos\theta = 2, \qquad \cos\theta = \tfrac{1}{2}, \qquad \theta = \pm\tfrac{\pi}{3}.$$
+Watch out: the trace gives only $\cos\theta$, so it cannot tell $\theta$ from $-\theta$, and the sign comes from $Q - Q^T$ and the chosen direction of the axis.
