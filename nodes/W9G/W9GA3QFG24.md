@@ -16,26 +16,30 @@ sources:
 
 ## Example
 
-Let $R$ be the rotation of $\R^2$ by a right angle and $S$ the reflection in the $x$-axis.
-Their matrices are
+A quarter turn and a flip of the plane give two different results in the two orders, so this pair is the smallest picture of a non-commutative composition.
+Let $R$ be the rotation of $\R^2$ by a right angle and $S$ the reflection in the $x$-axis, with matrices
 $$A = \begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}, \qquad B = \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}.$$
 By the [[theorem on composites|FSXBBV9C76]], $R \circ S$ has matrix $AB$ and $S \circ R$ has matrix $BA$.
 
-1. First row of $AB$: $(0 \cdot 1 + (-1) \cdot 0,\ 0 \cdot 0 + (-1)(-1)) = (0, 1)$.
-2. Second row of $AB$: $(1 \cdot 1 + 0 \cdot 0,\ 1 \cdot 0 + 0 \cdot (-1)) = (1, 0)$.
-3. So $AB = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$, which swaps the two coordinates. This is the reflection in the line $y = x$.
-4. First row of $BA$: $(1 \cdot 0 + 0 \cdot 1,\ 1 \cdot (-1) + 0 \cdot 0) = (0, -1)$.
-5. Second row of $BA$: $(0 \cdot 0 + (-1) \cdot 1,\ 0 \cdot (-1) + (-1) \cdot 0) = (-1, 0)$.
-6. So $BA = \begin{pmatrix} 0 & -1 \\ -1 & 0 \end{pmatrix}$, which sends $(x, y)$ to $(-y, -x)$. This is the reflection in the line $y = -x$.
-7. Direct check on $e_1 = (1, 0)$: $S(e_1) = (1, 0)$ and $R(1, 0) = (0, 1)$, so $(R \circ S)(e_1) = (0, 1)$. Also $R(e_1) = (0, 1)$ and $S(0, 1) = (0, -1)$, so $(S \circ R)(e_1) = (0, -1)$.
+1. The first row of $AB$ is $(0 \cdot 1 + (-1) \cdot 0, \; 0 \cdot 0 + (-1)(-1)) = (0, 1)$, and the second row is $(1 \cdot 1 + 0 \cdot 0, \; 1 \cdot 0 + 0 \cdot (-1)) = (1, 0)$.
+2. So $AB = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$, which swaps the two coordinates, and this is the reflection in the line $y = x$.
+3. The first row of $BA$ is $(1 \cdot 0 + 0 \cdot 1, \; 1 \cdot (-1) + 0 \cdot 0) = (0, -1)$, and the second row is $(0 \cdot 0 + (-1) \cdot 1, \; 0 \cdot (-1) + (-1) \cdot 0) = (-1, 0)$.
+4. So $BA = \begin{pmatrix} 0 & -1 \\ -1 & 0 \end{pmatrix}$, which sends $(x, y)$ to $(-y, -x)$, and this is the reflection in the line $y = -x$.
+5. As a direct check on $e_1 = (1, 0)$, we get $(R \circ S)(e_1) = R(1, 0) = (0, 1)$ and $(S \circ R)(e_1) = S(0, 1) = (0, -1)$.
 
-So $R \circ S \ne S \circ R$: the order of composition matters.
+So $R \circ S \ne S \circ R$, and the order of composition matters.
 
 ## Remarks
 
-- Both composites are reflections. The composite of a rotation and a reflection of the plane is always a reflection, since the determinant is $1 \cdot (-1) = -1$.
-- Two rotations of the plane about the origin do commute. Non-commuting pairs need a reflection or a map that is not a rotation.
-- $S \circ S = \id$ and $R \circ R \circ R \circ R = \id$. These maps generate the symmetry group of the square, which has $8$ elements.
+Both composites are reflections, and this is no accident.
+A rotation has determinant $1$ and a reflection has determinant $-1$, so each composite has determinant $1 \cdot (-1) = -1$, and every linear map of the plane that keeps lengths and has determinant $-1$ is a reflection.
+
+What changes if both maps are rotations?
+Two rotations about the origin, by angles $\alpha$ and $\beta$, give the rotation by $\alpha + \beta$ in either order, so they commute.
+A non-commuting pair in the plane therefore needs at least one map that is not a rotation.
+
+The two maps also satisfy $S \circ S = \id$ and $R^4 = \id$.
+Together they generate the symmetry group of the square, which has $8$ elements: four rotations and four reflections.
 
 ## Explanations
 
@@ -47,6 +51,7 @@ So the order of two linear maps changes the result.
 
 ### L2 human
 
-This is the smallest picture of the fact that matrix multiplication is not commutative.
-Each composite can be found in two ways: multiply the matrices, or follow $e_1$ and $e_2$ through both maps.
-The trap is to read $R \circ S$ as "first $R$"; the map on the right acts first.
+Each composite can be found in two ways, and doing both is a good habit.
+One way multiplies the matrices, as in steps 1 to 4.
+The other follows $e_1$ and $e_2$ through both maps: for $S \circ R$, the vector $e_2$ turns to $(-1, 0)$, and the flip leaves it at $(-1, 0)$, which is the second column of $BA$.
+Watch out: $R \circ S$ means "first $S$", because the map on the right acts first.
