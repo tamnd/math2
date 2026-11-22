@@ -19,76 +19,114 @@ sources:
 
 ## Summary
 
-Let $B$ and $B'$ be two [[bases|0KCQ9Y3QKA]] of an $n$-dimensional vector space $V$.
-The change of basis matrix from $B$ to $B'$ is the $n \times n$ [[matrix|0VD9ZSWWJG]] $P$ whose column $j$ is the [[coordinate vector|04CYQHN6MC]] of the new basis vector $b'_j$ in the old basis $B$.
-It converts new coordinates into old coordinates: $[v]_B = P[v]_{B'}$.
-It is invertible, and its inverse is the change of basis matrix from $B'$ to $B$.
+One vector has different coordinates in different bases, and the change of basis matrix is the dictionary that translates one list of coordinates into the other.
+It is a square matrix that you build once from the two bases and then apply to every vector.
+Let $B = (b_1, \dots, b_n)$ and $B' = (b'_1, \dots, b'_n)$ be two [[bases|0KCQ9Y3QKA]] of an $n$-dimensional vector space $V$ over a field $F$.
+The change of basis matrix from $B$ to $B'$ is the $n \times n$ [[matrix|0VD9ZSWWJG]] $P$ whose column $j$ is the [[coordinate vector|04CYQHN6MC]] of the new vector $b'_j$ in the old basis $B$:
+$$b'_j = \sum_{i=1}^{n} p_{ij}\, b_i \qquad (1 \le j \le n).$$
+It turns new coordinates into old ones, $[v]_B = P[v]_{B'}$ for every $v \in V$.
+It is [[invertible|0EB9N0S33C]], and its inverse is the change of basis matrix from $B'$ to $B$.
+The [[formal definition|0KWXYZPJKN]] states this with all the conditions.
 
 ## Motivation
 
-A vector has different coordinates in different bases.
-A good basis can make a linear map diagonal, or a quadratic form a sum of squares.
-The change of basis matrix is the tool that translates between the two coordinate systems.
+A good basis can make a problem easy.
+A linear map can become diagonal, a quadratic form can become a sum of squares, and a polynomial can be written around a chosen point.
+To use a good basis you must move between it and the basis in which the problem was given, and you must do this for vectors, for maps and for forms.
+The change of basis matrix does the move for vectors, and the [[change of basis formula|0MQXVZEBMT]] uses it to move matrices of linear maps.
+Later the same matrix decides when two matrices are [[similar|0E89HQATM8]], that is, when they describe one map in two bases.
 
 ## Notation
 
-The [[definition|0KWXYZPJKN]] writes $P$ for the matrix from $B$ to $B'$, with $b'_j = \sum_i p_{ij} b_i$.
-It is the matrix of the identity map with the domain basis $B'$ and the codomain basis $B$: $P = [\id_V]_{B, B'}$.
+We write $P$, or $P_{B \to B'}$ when the two bases must be named.
+The matrix is also the matrix of the identity map, with $B'$ in the domain and $B$ in the target: $P = [\mathrm{id}_V]_{B, B'}$.
 Friedberg, Insel and Spence call it the change of coordinate matrix that changes $B'$-coordinates into $B$-coordinates.
-Lay writes $P_{C \leftarrow B}$ for the matrix that changes $B$-coordinates into $C$-coordinates; its columns are $[b_j]_C$.
-In Mathlib, `Basis.toMatrix e v` has as column $j$ the coordinates of $v_j$ in the basis $e$.
-
-**Warning.** Books disagree on the direction.
-Some call $P$ the matrix "from $B$ to $B'$", and others call it the matrix "from $B'$ to $B$", or use $P^{-1}$.
-Always check which coordinates the matrix takes as input.
+Lay writes $P_{C \leftarrow B}$ for the matrix with columns $[b_j]_C$, which changes $B$-coordinates into $C$-coordinates, so the arrow points the way the coordinates move.
+In Mathlib, `Basis.toMatrix e v` has as column $j$ the coordinates of $v_j$ in the basis $e$, so it is our $P$ for $B = e$ and $B' = v$.
 
 ## Remarks
 
-### Examples
+### A first computation
 
-- [[A basis of the plane|MRQWBXDZCG]]: for $B'$ $= ((1, 1), (1, -1))$, $P = \begin{pmatrix} 1 & 1 \\ 1 & -1 \end{pmatrix}$, and $(5, 1)$ has new coordinates $(3, 2)$.
-- [[Taylor coordinates of polynomials|F4TC36FYWW]]: the basis $1, x - 1, (x - 1)^2$ of polynomials of degree at most $2$.
-- For $B' = B$, the change of basis matrix is the identity $I_n$.
-- For $B' = (b_2, b_1)$ in a plane, $P = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$, a permutation matrix.
-- For $B' = (2b_1, b_2)$, $P = \operatorname{diag}(2, 1)$, and $[v]_{B'} = (x/2, y)$ when $[v]_B = (x, y)$.
+Take $V = \mathbb{R}^2$ with the standard basis $B = (e_1, e_2)$ and the new basis $b'_1 = (1, 1)$, $b'_2 = (1, -1)$.
+In the standard basis a vector is its own coordinate vector, so the columns of $P$ are the new vectors themselves:
+$$P = \begin{pmatrix} 1 & 1 \\ 1 & -1 \end{pmatrix}.$$
+Which coordinates does $v = (5, 1)$ have in $B'$?
+We need $[v]_{B'} = P^{-1}[v]_B$, and $P^{-1} = \tfrac12 P$ here, so
+$$[v]_{B'} = \tfrac12 \begin{pmatrix} 1 & 1 \\ 1 & -1 \end{pmatrix} \begin{pmatrix} 5 \\ 1 \end{pmatrix} = \begin{pmatrix} 3 \\ 2 \end{pmatrix}.$$
+Check: $3(1, 1) + 2(1, -1) = (5, 1)$.
+The [[example of the plane|MRQWBXDZCG]] does every step of this computation.
 
-### Non-examples
+### More examples
 
-- [[A singular matrix|EX8DT1BY8G]]: the columns $(1, 2)$ and $(2, 4)$ do not form a basis, so $\begin{pmatrix} 1 & 2 \\ 2 & 4 \end{pmatrix}$ is not a change of basis matrix.
-- A non-square matrix is never a change of basis matrix, since two bases of $V$ have the same number of vectors.
+When $B' = B$, nothing changes and $P = I_n$.
+When $B' = (b_2, b_1)$ swaps the two vectors of a basis of a plane, the new vectors have old coordinates $(0, 1)$ and $(1, 0)$, so $P = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$, a permutation matrix.
+When $B' = (2b_1, b_2)$, we get $P = \operatorname{diag}(2, 1)$, and a vector with old coordinates $(x, y)$ has new coordinates $(x/2, y)$.
+The longer vector needs a smaller coefficient, which is the first hint that coordinates move by $P^{-1}$.
 
-### Basic properties
+For polynomials of degree at most $2$, the bases $(1, x, x^2)$ and $(1, x - 1, (x - 1)^2)$ give an upper triangular $P$.
+The new coordinates of a polynomial are then its [[Taylor coefficients at 1|F4TC36FYWW]].
 
-- $[v]_B = P[v]_{B'}$ and $[v]_{B'} = P^{-1}[v]_B$, by the [[change of basis formula|0MQXVZEBMT]].
-- $P$ is invertible. Conversely, every invertible $n \times n$ matrix is the change of basis matrix from $B$ to some basis $B'$.
-- If $Q$ is the matrix from $B'$ to $B''$, then $PQ$ is the matrix from $B$ to $B''$.
-- For $V = F^n$ and $B$ the standard basis, the columns of $P$ are the vectors of $B'$ themselves.
+### What it is not
+
+The matrix $\begin{pmatrix} 1 & 2 \\ 2 & 4 \end{pmatrix}$ is [[not a change of basis matrix|EX8DT1BY8G]], because its columns $(1, 2)$ and $(2, 4)$ are dependent and so are not a basis.
+A matrix that is not square is never a change of basis matrix either, since two bases of one space have the same number of vectors.
+Both cases fail the same condition: the columns of $P$ must form a basis, which for a square matrix means that $P$ is invertible.
+
+### The rules you can use
+
+Each rule comes from $[v]_B = P[v]_{B'}$.
+The matrix $P$ is invertible, and $[v]_{B'} = P^{-1}[v]_B$, because the matrix of the reverse change undoes $P$.
+Conversely, every invertible $n \times n$ matrix is the change of basis matrix from $B$ to some basis, namely to the basis whose $j$-th vector has $B$-coordinates equal to column $j$.
+Changes compose: if $Q$ is the matrix from $B'$ to $B''$, then $[v]_B = P[v]_{B'} = PQ[v]_{B''}$, so $PQ$ is the matrix from $B$ to $B''$.
+If both bases of $F^n$ are given as the columns of matrices $S$ and $S'$, then $S[v]_B = S'[v]_{B'}$, so $P = S^{-1}S'$.
+
+### Watch out
+
+Books disagree on the direction of the change of basis matrix.
+Some call our $P$ the matrix from $B$ to $B'$, others call it the matrix from $B'$ to $B$, and some use the name for $P^{-1}$.
+The safe test is to ask which coordinates the matrix takes as input.
+The most common error is to apply $P$ to old coordinates: in the first computation, $P(5, 1) = (6, 4)$, and $6(1, 1) + 4(1, -1) = (10, 2)$ is not $v$.
+The correct move is $P^{-1}(5, 1) = (3, 2)$.
 
 ### History
 
-Coordinate changes appear in the work of Cayley and Sylvester on invariants of quadratic forms in the nineteenth century.
+The idea is older than matrices.
+In the invariant theory of the nineteenth century, Cayley and Sylvester studied how the coefficients of a form change under a linear substitution of the variables, and such a substitution is a change of basis.
 
-### Common errors
+### Try it
 
-- Using $P$ where $P^{-1}$ is needed. New coordinates come from old ones by $P^{-1}$, not by $P$.
-- Writing the new basis vectors as rows instead of columns.
-- Mixing two conventions from two books in one computation.
+First, let $B'$ consist of $(2, 1)$ and $(1, 1)$ in $\mathbb{R}^2$, and find the coordinates of $(3, 2)$ in $B'$.
+Here $P = \begin{pmatrix} 2 & 1 \\ 1 & 1 \end{pmatrix}$ has $\det P = 1$ and $P^{-1} = \begin{pmatrix} 1 & -1 \\ -1 & 2 \end{pmatrix}$, so the coordinates are $(3 - 2, -3 + 4) = (1, 1)$, and indeed $(2, 1) + (1, 1) = (3, 2)$.
+
+Second, for $B' = (2b_1, b_2)$, what is the change of basis matrix from $B'$ back to $B$?
+It is the inverse $\operatorname{diag}(\tfrac12, 1)$, since $b_1 = \tfrac12 (2b_1)$ and $b_2 = b_2$.
 
 ## Explanations
 
 ### L1 human
 
-The change of basis matrix lists the new basis vectors, written in the old coordinates, as its columns.
-It translates coordinates in the new basis into coordinates in the old basis.
-Its inverse translates in the other direction.
+Think of two grids drawn on the same page, one square and one tilted.
+A point has one pair of grid readings in the square grid and another pair in the tilted grid.
+The change of basis matrix is the conversion table between the two readings.
+Its columns say where the steps of the tilted grid go, measured in the square grid.
+For the new directions $(1, 1)$ and $(1, -1)$, the point $(5, 1)$ is reached by $3$ steps along the first and $2$ steps along the second.
 
 ### L2 human
 
-To find new coordinates of a vector, solve $P y = [v]_B$ for $y = [v]_{B'}$.
-When $B$ is the standard basis of $F^n$, the matrix $P$ has the new basis vectors as columns.
-The matrix of a linear map changes by $P^{-1} A P$, by the change of basis formula.
+Here is a typical task: find the coordinates of $v = (4, 9)$ in the basis $b'_1 = (1, 2)$, $b'_2 = (1, 3)$ of $\mathbb{R}^2$.
+The change of basis matrix from the standard basis has the new vectors as columns:
+$$P = \begin{pmatrix} 1 & 1 \\ 2 & 3 \end{pmatrix}, \qquad \det P = 3 - 2 = 1, \qquad P^{-1} = \begin{pmatrix} 3 & -1 \\ -2 & 1 \end{pmatrix}.$$
+The new coordinates are the old ones multiplied by $P^{-1}$:
+$$[v]_{B'} = \begin{pmatrix} 3 & -1 \\ -2 & 1 \end{pmatrix} \begin{pmatrix} 4 \\ 9 \end{pmatrix} = \begin{pmatrix} 12 - 9 \\ -8 + 9 \end{pmatrix} = \begin{pmatrix} 3 \\ 1 \end{pmatrix}.$$
+Check: $3(1, 2) + 1(1, 3) = (4, 9)$.
+In practice you often skip the inverse and solve $Py = [v]_B$ by row reduction, which gives the same $y$.
+So $P$ itself is easy to write down, and the work of a change of basis lies in inverting it.
 
 ### L3 human
 
-The change of basis matrix is the matrix of $\id_V$ in the bases $B'$ and $B$.
-So the set of bases of $V$ is a principal homogeneous space for the group $GL_n(F)$, acting by $B \mapsto BP$.
+The change of basis matrix is the matrix of $\mathrm{id}_V$ in the bases $B'$ and $B$, so the rules above are cases of the theorem on the [[matrix of a composition|05Q1B7MH0M]].
+If we write a basis as a row $B = (b_1, \dots, b_n)$, the definition reads $B' = BP$, and the group $GL_n(F)$ acts on the set of bases from the right.
+This action is free and transitive, so after one basis is fixed, the bases of $V$ correspond to the invertible matrices.
+In differential geometry the same picture gives the frame bundle, and coordinates that change by the inverse matrix are called contravariant.
+The [[dual basis|0ZD2CF6ZS0]] changes by the inverse transpose, as the sub-area on duality shows.
