@@ -18,45 +18,72 @@ sources:
 
 ## Statement
 
+Four natural ways to say that a vector space is small all mean the same thing.
 Let $F$ be a field and let $V$ be a vector space over $F$.
-These four conditions are equivalent:
+The following four conditions are equivalent.
 
-1. $V$ is [[finite-dimensional|018W3V3TCT]]: it has a finite spanning set.
+1. $V$ is [[finite-dimensional|018W3V3TCT]], that is, $V$ has a finite spanning set.
 2. $V$ has a finite [[basis|0VTQTPQGAV]].
-3. There is an integer $N$ such that each [[independent|0EVHJFTG9Z]] family in $V$ has at most $N$ vectors.
+3. There is an integer $N \ge 0$ such that every [[linearly independent|0EVHJFTG9Z]] family in $V$ has at most $N$ vectors.
 4. $V$ is isomorphic to $F^n$ for some integer $n \ge 0$.
 
 ## Remarks
 
-### Why each hypothesis is needed
+### Which condition to use
 
-In condition 3, the bound $N$ must not depend on the family.
-In $F[x]$, each family $1, x, \dots, x^n$ is finite and independent, but these sizes have no common bound.
+Each condition is the easiest one to check in some situation.
+To show that a space is finite-dimensional, condition 1 is usually best: list a finite spanning set.
+For example, the polynomials $p$ of degree at most $2$ with $p(0) = 0$ are the combinations of $x$ and $x^2$, so they form a finite-dimensional space.
 
-### Consequences
+To show that a space is infinite-dimensional, the negation of condition 3 is usually best: find independent families of every size.
+In $F[x]$, the family $1, x, \dots, x^N$ has $N + 1$ independent vectors, so no bound $N$ works, and $F[x]$ is infinite-dimensional.
+The same argument works for the sequence space $F^{\mathbb{N}}$ with $e_0, e_1, \dots, e_N$, and for $C[0, 1]$ with the monomials.
 
-A space is infinite-dimensional exactly when it contains arbitrarily large finite independent families.
-So $F[x]$, $F^{\N}$ and $C[0, 1]$ are infinite-dimensional, because each contains $1, x, x^2, \dots$ or $e_0, e_1, \dots$.
-The integer $n$ in condition 4 is unique, and it equals $\dim V$, by the [[dimension theorem|0WK0Y8RH1M]].
+Condition 4 is the one that computations use: it turns every vector of $V$ into a column of $n$ numbers.
 
-### Converse
+### A weaker form of condition 3
 
-The statement is a list of equivalences.
+Condition 3 asks for one number $N$ that bounds all independent families at once.
+For vector spaces, the weaker condition "every independent family is finite" is also equivalent to the four conditions.
+The reason is that an infinite-dimensional space contains an infinite independent sequence.
+Choose $v_1 \ne 0$, and when $v_1, \dots, v_k$ are chosen, choose $v_{k + 1}$ outside their span, which is possible because finitely many vectors do not span $V$.
+By the [[dependence lemma|H75GS7QVPB]], no $v_j$ is a combination of the earlier ones, so the sequence is independent.
+In $F[x]$ this procedure can produce $1, x, x^2, \dots$.
 
-### Generalizations
+### Why the field is needed
 
-For modules over a ring, "finitely generated" and "has a finite basis" differ: $\Z/2$ is finitely generated over $\Z$ but has no basis.
-Over a nonzero commutative ring $R$, each independent family in $R^n$ still has at most $n$ elements, but the proof uses determinants.
+Over a ring, the conditions come apart.
+The group $\mathbb{Z}/2$ is finitely generated as a module over $\mathbb{Z}$, but it has no basis, since $2 \cdot \bar 1 = 0$ is a nontrivial relation.
+The rationals $\mathbb{Q}$ as a module over $\mathbb{Z}$ satisfy condition 3 with $N = 1$, since $\tfrac{a}{b}$ and $\tfrac{c}{d}$ with $a, c \ne 0$ satisfy $cb \cdot \tfrac{a}{b} - ad \cdot \tfrac{c}{d} = 0$, but $\mathbb{Q}$ is not finitely generated over $\mathbb{Z}$.
+The [[proof|3AMPZ016SQ]] uses division in $F$ through the [[dependence lemma|H75GS7QVPB]] and the [[Steinitz exchange lemma|08ZDRN6H41]].
+
+### What it gives you
+
+The integer $n$ in condition 4 is unique and equals $\dim V$, by the [[dimension theorem|0WK0Y8RH1M]], since an isomorphism carries a basis to a basis.
+The smallest possible $N$ in condition 3 is also $\dim V$.
+A space is infinite-dimensional exactly when it contains independent families of every finite size.
 
 ## Explanations
 
 ### L1 human
 
-A space is finite-dimensional when a finite list of vectors builds everything.
-Then it has a finite basis, it looks like $F^n$, and independent lists cannot grow without bound.
+There are several ways to say that a space is "finite".
+You can say that finitely many vectors build everything, or that it has a finite basis, or that it looks exactly like lists of $n$ numbers.
+You can also say that you can never find more than some fixed number of independent vectors in it.
+All four say the same thing.
 
 ### L2 human
 
-Use condition 3 to show that a space is infinite-dimensional.
-For $F[x]$: the family $1, x, \dots, x^N$ has $N + 1$ independent vectors, so no bound $N$ works.
-Use condition 1 to show that a space is finite-dimensional, by listing a finite spanning set.
+Here is a typical use, for the space $V$ of real $2 \times 2$ matrices $A$ with $A^{\mathsf{T}} = A$.
+Every such matrix is $\begin{pmatrix} a & b \\ b & c \end{pmatrix}$, so it equals
+$$a \begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix} + b \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix} + c \begin{pmatrix} 0 & 0 \\ 0 & 1 \end{pmatrix}.$$
+So condition 1 holds with three matrices, and these three are independent, since the combination is $0$ only for $a = b = c = 0$.
+By condition 2 they form a basis, and by condition 4 the map $A \mapsto (a, b, c)$ is an isomorphism $V \cong \mathbb{R}^3$.
+By condition 3, any four symmetric $2 \times 2$ matrices are dependent.
+Watch out: three independent matrices alone show only that the dimension is at least $3$; it is the spanning property that rules out a fourth independent matrix.
+
+### L3 human
+
+The conditions express one fact from four points of view: span (1), structure (2), size (3) and coordinates (4).
+For modules over a ring they split into separate notions: finitely generated, free of finite rank, and of finite rank in the sense of condition 3.
+Over a field all of them coincide, which is one reason why linear algebra over a field is so much simpler than module theory.
