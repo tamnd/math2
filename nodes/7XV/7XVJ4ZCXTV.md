@@ -16,17 +16,26 @@ sources:
 
 ## Example
 
-We try to solve $x + 2y = 3$ and $2x + 4y = 6$.
+The system $x + 2y = 3$, $2x + 4y = 6$ over $\mathbb{R}$ has infinitely many solutions, and no inverse matrix can pick one of them.
+The coefficient matrix is
+$$A = \begin{pmatrix} 1 & 2 \\ 2 & 4 \end{pmatrix}, \qquad ad - bc = 1 \cdot 4 - 2 \cdot 2 = 0,$$
+so $A$ has no inverse, by the [[2 × 2 formula|8XWC7RKNN1]].
+The second equation is twice the first, so the system says only $x + 2y = 3$.
+For each real number $t$, the pair $(x, y) = (3 - 2t, t)$ is a solution.
+Check: $(3 - 2t) + 2t = 3$, and the second equation is twice this.
+For $t = 0$ and $t = 1$ we get the two different solutions $(3, 0)$ and $(1, 1)$.
 
-1. The coefficient matrix is $A = \begin{pmatrix} 1 & 2 \\ 2 & 4 \end{pmatrix}$, with determinant $1 \cdot 4 - 2 \cdot 2 = 0$. So $A$ has no inverse, by the [[2 × 2 formula|8XWC7RKNN1]].
-2. The second equation is twice the first, so the system says only $x + 2y = 3$.
-3. For each number $t$, the pair $(x, y) = (3 - 2t, t)$ is a solution. For $t = 0$ and $t = 1$ we get $(3, 0)$ and $(1, 1)$, two different solutions.
-4. For the right-hand side $(3, 7)$ instead, the equations $x + 2y = 3$ and $2x + 4y = 7$ give $6 = 2(x + 2y) = 7$, which is false. So that system has no solution.
+Change the right side to $(3, 7)$.
+The equations $x + 2y = 3$ and $2x + 4y = 7$ would give
+$$6 = 2(x + 2y) = 2x + 4y = 7,$$
+which is false, so this system has no solution at all.
 
 ## Remarks
 
-A singular square matrix never gives exactly one solution: there are either none or infinitely many, by the [[Rouché-Capelli theorem|0HV1SKWPMS]].
-So the formula $x = A^{-1}b$ has no meaning here, and elimination is the right method.
+The same matrix gives many solutions for one right side and none for another, and never exactly one.
+That is the general picture for a singular square matrix: by the [[Rouché-Capelli theorem|0HV1SKWPMS]], the system has either no solution or more than one, and over $\mathbb{R}$ more than one means infinitely many.
+So the formula $x = A^{-1}b$ has no meaning here, and elimination is the method to use.
+Geometrically, the two equations describe the same line in the first case and two parallel lines in the second.
 
 ## Explanations
 
@@ -34,8 +43,10 @@ So the formula $x = A^{-1}b$ has no meaning here, and elimination is the right m
 
 The two equations say the same thing, so they do not fix the two unknowns.
 There are many answers, and no inverse matrix can pick one.
+If we change the second equation a little, the two lines become parallel and never meet.
 
 ### L2 human
 
-The test before using the inverse is the determinant or row reduction.
-A trap: a calculator may still print a "solution" in floating point for a nearly singular matrix.
+Before using the inverse, test the matrix with the determinant or with row reduction.
+Here the zero row after $R_2 \to R_2 - 2R_1$ shows the problem at once.
+A trap: a calculator may still print a "solution" in floating point for a matrix that is nearly singular.
