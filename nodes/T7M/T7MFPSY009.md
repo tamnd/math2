@@ -18,58 +18,81 @@ sources:
 
 ## Statement
 
+The largest and the smallest eigenvalue of a self-adjoint operator are the largest and the smallest value of its Rayleigh quotient, and they are reached exactly at the matching eigenvectors.
 Let $V$ be an inner product space of finite dimension $n \geq 1$ over $\mathbb{K} = \mathbb{R}$ or $\mathbb{C}$.
 Let $T \colon V \to V$ be [[self-adjoint|0MB8HQW495]], with [[eigenvalues|0ZND7NQ970]] $\lambda_1 \geq \lambda_2 \geq \dots \geq \lambda_n$, repeated by multiplicity.
 For $v \neq 0$, let $R(v) = \ip{Tv}{v} / \ip{v}{v}$ be the [[Rayleigh quotient|06WHP8SE98]].
 
-1. $\lambda_n \leq R(v) \leq \lambda_1$ for every $v \neq 0$.
-2. $R(v) = \lambda_1$ if and only if $v$ is an [[eigenvector|0B5H4208Z9]] for $\lambda_1$. Also $R(v) = \lambda_n$ if and only if $v$ is an eigenvector for $\lambda_n$.
-3. So the maximum of $R$ is the largest eigenvalue, and the minimum of $R$ is the smallest eigenvalue.
+1. For every $v \neq 0$,
+$$\lambda_n \leq R(v) \leq \lambda_1.$$
+2. $R(v) = \lambda_1$ if and only if $v$ is an [[eigenvector|0B5H4208Z9]] for $\lambda_1$, and $R(v) = \lambda_n$ if and only if $v$ is an eigenvector for $\lambda_n$.
+3. So the maximum of $R$ is $\lambda_1$, and the minimum of $R$ is $\lambda_n$.
 
-For a [[Hermitian|0EKZCX4K3P]] $n \times n$ matrix $A$, the same holds for $R_A(x) = x^* A x / x^* x$ on $\mathbb{C}^n$.
+For a [[Hermitian|0EKZCX4K3P]] $n \times n$ matrix $A$, the same holds for $R_A(x) = x^* A x / x^* x$ on $\mathbb{C}^n$, and for a real symmetric matrix on $\mathbb{R}^n$.
 
 ## Remarks
 
 ### Why each hypothesis is needed
 
-- Self-adjointness is needed. [[The matrix $\begin{pmatrix} 1 & 4 \\ 0 & 1 \end{pmatrix}$|39XSQ9MTZ3]] has the only eigenvalue $1$, but its Rayleigh quotient takes the values $3$ and $-1$.
-- The vector must be nonzero, because $R(0)$ is $0 / 0$.
+Self-adjointness is needed.
+[[The matrix with rows (1, 4) and (0, 1)|39XSQ9MTZ3]] has the single eigenvalue $1$, but its quotient takes the values $R(1, 1) = 3$ and $R(1, -1) = -1$, so part 1 fails.
+The vector must be nonzero, because $R(0)$ would be $0 / 0$.
+Finite dimension makes the eigenvalues exist and the maximum attained.
+On a Hilbert space the supremum of $R$ is the top of the spectrum, which need not be an eigenvalue.
 
-### Consequences
+### What it gives you
 
-- The quadratic form $\ip{Tv}{v}$ on the unit sphere has the maximum $\lambda_1$ and the minimum $\lambda_n$. For real symmetric matrices, this is [[the extreme values of a quadratic form on unit vectors|YS4HT1EYE5]].
-- $T$ is positive definite if and only if $\lambda_n > 0$.
-- The operator norm of a self-adjoint $T$ is $\max(\abs{\lambda_1}, \abs{\lambda_n})$.
-- The other eigenvalues are values of $R$ on subspaces. [[The Courant–Fischer min-max theorem|CJK2HS2508]] gives $\lambda_k$ as a max-min of $R$ over subspaces of dimension $k$.
+The theorem turns any test vector into an eigenvalue bound.
+For [[the matrix with rows (5, 2) and (2, 2)|3FXAQ6P15S]], with eigenvalues $6$ and $1$, the vector $(3, 1)$ gives
+$$\lambda_1 \ge R(3, 1) = \frac{45 + 12 + 2}{10} = 5.9.$$
+On the unit sphere, $R$ is the quadratic form $\ip{Tv}{v}$, so the form has the maximum $\lambda_1$ and the minimum $\lambda_n$ there.
+For real symmetric matrices this is [[the extreme values of a quadratic form on unit vectors|YS4HT1EYE5]].
 
-### Converse
+Three more facts follow at once.
+The operator $T$ is positive definite exactly when $\lambda_n > 0$, because $\ip{Tv}{v} \ge \lambda_n \ip{v}{v}$ with equality at an eigenvector.
+The operator norm of $T$ is $\max(\abs{\lambda_1}, \abs{\lambda_n})$.
+The other eigenvalues are max-min values of $R$ over subspaces, by the [[Courant-Fischer min-max theorem|CJK2HS2508]].
 
-Part 2 is an equivalence.
-Part 1 has a partial converse: every number in $[\lambda_n, \lambda_1]$ is a value of $R$, because $R$ is continuous on the connected set of nonzero vectors when $\dim V \geq 2$.
-For $n = 1$, the only value is $\lambda_1$.
+### The converse
+
+Part 2 is already an equivalence.
+Part 1 has a converse: every number in $[\lambda_n, \lambda_1]$ is a value of $R$.
+The reason is that $R$ is continuous on the nonzero vectors, which form a connected set when $\dim V \geq 2$ over $\mathbb{R}$ or $\dim V \ge 1$ over $\mathbb{C}$, and it reaches both ends.
+For $n = 1$ the interval is the single point $\lambda_1$.
+
+### Generalizations
+
+For a bounded self-adjoint operator on a Hilbert space, the supremum and the infimum of $R$ are the largest and the smallest points of the spectrum.
+For an arbitrary operator on a complex space, the set of values of $R$ is the numerical range, which is convex by the Toeplitz-Hausdorff theorem.
+For a normal operator in finite dimension, the numerical range is the convex hull of the eigenvalues.
+
+## History
+
+Rayleigh used the quotient in The Theory of Sound (1877) to estimate the frequencies of vibrating systems.
 
 ## Explanations
 
 ### L1 human
 
-The Rayleigh quotient measures how much $T$ stretches a vector in its own direction.
+The Rayleigh quotient measures how much $T$ stretches a vector along its own direction.
 For a self-adjoint operator, the largest stretch is the largest eigenvalue, and the smallest stretch is the smallest eigenvalue.
-These extreme stretches happen exactly along the eigenvectors.
+For the matrix with rows $(5, 2)$ and $(2, 2)$, no direction is stretched by more than $6$ or by less than $1$.
+These extreme stretches happen exactly along the eigenvectors $(2, 1)$ and $(1, -2)$.
 
 ### L2 human
 
-Worked example: [[the matrix $\begin{pmatrix} 5 & 2 \\ 2 & 2 \end{pmatrix}$|3FXAQ6P15S]] with the eigenvalues $6$ and $1$.
-
-1. $R(1, 0) = 5$, $R(0, 1) = 2$ and $R(1, 1) = \tfrac{11}{2}$. All lie between $1$ and $6$.
-2. $R(2, 1) = 6$, and $(2, 1)$ is an eigenvector for $6$.
-3. $R(1, -2) = 1$, and $(1, -2)$ is an eigenvector for $1$.
-
-The typical use: a test vector $v$ gives the lower bound $R(v) \leq \lambda_1$ for the largest eigenvalue without any eigenvector computation.
-A trap: the bounds need a self-adjoint operator, as the example with the value $-1$ shows.
+Here is a typical use: estimate the smallest eigenvalue of $A = \begin{pmatrix} 2 & 1 & 0 \\ 1 & 2 & 1 \\ 0 & 1 & 2 \end{pmatrix}$ from above.
+The test vector $x = (1, -1, 1)$ gives
+$$Ax = (2 - 1, -1 + 2 - 1, -1 + 2) = (1, 0, 1), \qquad R(x) = \frac{x \cdot Ax}{x \cdot x} = \frac{2}{3}.$$
+So $\lambda_3 \le \tfrac{2}{3} \approx 0.667$.
+The exact value is $\lambda_3 = 2 - \sqrt{2} \approx 0.586$, with the eigenvector $(1, -\sqrt{2}, 1)$.
+Check: $A(1, -\sqrt{2}, 1) = (2 - \sqrt{2}, 2 - 2\sqrt{2}, 2 - \sqrt{2}) = (2 - \sqrt{2})(1, -\sqrt{2}, 1)$.
+One test vector gave a bound within $0.09$ of the truth, with no characteristic polynomial.
+Watch out: the bounds need a self-adjoint operator, as the matrix with the value $-1$ above shows.
 
 ### L3 human
 
-The theorem is the first case of the min-max principle.
-It holds for bounded self-adjoint operators on a Hilbert space, with the supremum and the infimum of the spectrum in place of $\lambda_1$ and $\lambda_n$.
-The set of all values of $R$, for any operator, is the numerical range.
-For normal operators it is the convex hull of the eigenvalues.
+The theorem is the first case of the min-max principle: the extreme eigenvalues are the extreme values of a quadratic form on the sphere.
+It holds for bounded self-adjoint operators on Hilbert space, with the ends of the spectrum in place of $\lambda_1$ and $\lambda_n$.
+The Courant-Fischer theorem extends it to every $\lambda_k$, and the Rayleigh-Ritz method uses it to approximate eigenvalues from a subspace of trial vectors.
+For singular values, the same idea applied to $A^* A$ gives the largest singular value as the maximum of $\norm{Ax} / \norm{x}$.
