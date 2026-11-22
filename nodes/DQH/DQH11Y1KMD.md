@@ -15,20 +15,38 @@ sources:
 
 ## Proof
 
-1. By part 5 of [[the congruence statement|D3E2Y85S6H]], $\det(P^T A P) = \det(P)^2 \det A$. This proves part 1.
-2. Let $Q$ be a quadratic form on $V$, and let $A$ and $A'$ be its symmetric matrices in two bases. By [[the correspondence theorem|VN9AG8JKYT]], they are the matrices of the associated bilinear form $B$.
-3. By [[the change of basis rule|0SPYAGE7T0]], $A' = P^T A P$, where $P$ is the invertible change of basis matrix.
-4. By step 1, $\det A' = \det(P)^2 \det A$. Since $P$ is invertible, [[$\det P \ne 0$|FBSAPTP1PR]].
-5. If $\det A = 0$, then $\det A' = 0$. Otherwise $\det A' / \det A = \det(P)^2$ is a nonzero square, so the two determinants lie in the same [[square class|9160DW40TE]]. This proves part 2.
-6. Let $Q' = Q \circ T$ with $T \colon V \to V$ invertible and linear. Then the associated form of $Q'$ is $B'(u, v) = B(Tu, Tv)$, since both sides are symmetric and bilinear with value $Q(Tv)$ at $u = v$.
-7. Fix a basis $(e_i)$, and let $S$ be the matrix of $T$ in it. The matrix of $B'$ has entries $B(Te_i, Te_j)$, which form $S^T A S$.
-8. $S$ is invertible, since $T$ is. By step 5 with $P = S$, the forms $Q$ and $Q'$ have the same discriminant. This proves part 3.
+We compute the determinant of the new matrix with the product rule, and then we reduce both a change of basis and an equivalence of forms to that computation.
+
+1. By part 5 of [[the congruence statement|D3E2Y85S6H]], which uses the product rule and $\det P^{\mathsf{T}} = \det P$, we have $\det(P^{\mathsf{T}} A P) = \det(P)^2 \det A$.
+   This proves part 1.
+2. Let $Q$ be a quadratic form on $V$, and let $A$ and $A'$ be its symmetric matrices in two bases.
+   By [[the correspondence theorem|VN9AG8JKYT]], which needs characteristic not $2$, both are matrices of the same associated bilinear form $B$.
+3. By [[the change of basis rule|0SPYAGE7T0]], $A' = P^{\mathsf{T}} A P$, where $P$ is the invertible change of basis matrix.
+4. By step 1, $\det A' = \det(P)^2 \det A$.
+   Since $P$ is invertible, [[its determinant is nonzero|FBSAPTP1PR]].
+5. If $\det A = 0$, then $\det A' = 0$.
+   Otherwise $\det A' / \det A = \det(P)^2$ is a nonzero square, so the two determinants lie in the same [[square class|9160DW40TE]].
+   This proves part 2.
+6. Let $Q' = Q \circ T$ with $T \colon V \to V$ linear and invertible.
+   The map $B'(u, v) = B(Tu, Tv)$ is symmetric and bilinear, and $B'(v, v) = Q(Tv) = Q'(v)$.
+   By the uniqueness in the correspondence theorem, $B'$ is the associated bilinear form of $Q'$.
+7. Fix a basis $e_1, \dots, e_n$ of $V$, and let $S$ be the matrix of $T$ in it.
+   The matrix of $B'$ has entries $B(Te_i, Te_j)$, and these are the entries of $S^{\mathsf{T}} A S$.
+8. The matrix $S$ is invertible because $T$ is.
+   Steps 4 and 5 with $P = S$ show that $\det(S^{\mathsf{T}} A S)$ and $\det A$ are both $0$ or lie in the same square class.
+   So $Q$ and $Q'$ have the same discriminant, which proves part 3.
 
 ## Idea
 
-A change of basis multiplies the determinant by the square $\det(P)^2$, since the determinant is multiplicative and $\det P^T = \det P$.
+Everything comes down to one line: a new basis multiplies the determinant by $\det(P)^2$, because the determinant is multiplicative and a matrix and its transpose have the same determinant.
+A square is invisible in $F^\times / F^{\times 2}$, so the class survives.
+An equivalence $Q' = Q \circ T$ is the same computation with the matrix of $T$ in place of $P$.
 
 ## Variants
 
-- In coordinates, the proof of step 7 is the rule $B(Su, Sv) = (Su)^T A (Sv) = u^T (S^T A S) v$.
-- For a diagonal form $\langle a_1, \dots, a_n \rangle$, the discriminant is $a_1 \cdots a_n$. The theorem then says that every diagonalization of $Q$ has the same product of coefficients, up to a square.
+In coordinates, step 7 is the identity $(Su)^{\mathsf{T}} A (Sv) = u^{\mathsf{T}} (S^{\mathsf{T}} A S) v$, which reads off the matrix of $B'$ directly.
+
+A second route goes through diagonal forms.
+By [[the diagonalization theorem|0Z3FEWZ8HA]], $Q \cong \langle a_1, \dots, a_n \rangle$, and the discriminant is the class of $a_1 a_2 \cdots a_n$.
+The theorem then says that any two diagonalizations of $Q$ have products of coefficients that differ by a square.
+For example, $x^2 + y^2$ and its diagonalization $2u^2 + 2v^2$ have products $1$ and $4$.
