@@ -15,26 +15,40 @@ sources:
 
 ## Proof
 
-We expand each row in the standard basis and use the properties from the [[definition of the determinant|0C3CFHDN6R]].
+We write each row of $A$ in the standard basis, expand $\det A$ by multilinearity into $n^n$ pieces, and evaluate each piece with the properties from the [[definition of the determinant|0C3CFHDN6R]].
 
-1. Let $e_1, \dots, e_n$ be the rows of the [[identity matrix|06DW9BAWB1]] $I_n$. So $e_j$ has entry $1$ in place $j$ and $0$ elsewhere.
-2. Row $i$ of $A$ is $\sum_{j=1}^{n} a_{ij} e_j$.
-3. For a map $f \colon \set{1, \dots, n} \to \set{1, \dots, n}$, let $E_f$ be the matrix whose row $i$ is $e_{f(i)}$.
-4. Apply [[multilinearity|0PPG793642]] in row $1$ to the sum of step 2. Then apply it in row $2$ to each resulting term, and so on up to row $n$.
-5. This gives $\det A = \sum_{f} \left(\prod_{i=1}^{n} a_{i f(i)}\right) \det E_f$. The sum runs over all $n^n$ maps $f$ of step 3.
-6. If $f$ is not injective, then $f(i) = f(k)$ for some $i \ne k$. Then rows $i$ and $k$ of $E_f$ are equal, so $\det E_f = 0$ by the rule for [[equal rows|0K4VQB7HWR]].
-7. An injective map from the finite set $\set{1, \dots, n}$ to itself is a bijection. So the remaining maps $f$ are exactly the [[permutations|05RWFKVTJ7]] $\sigma \in S_n$.
-8. For $\sigma \in S_n$, row $i$ of $E_\sigma$ is row $\sigma(i)$ of $I_n$. By the rule for [[permutations of rows|09YB3WQG38]], $\det E_\sigma = \sgn(\sigma) \det I_n$.
-9. By the [[determinant of the identity|0Z4BWARC38]], $\det I_n = 1$. So $\det E_\sigma = \sgn(\sigma)$.
-10. Putting steps 5 to 9 together, $\det A = \sum_{\sigma \in S_n} \sgn(\sigma) \prod_{i=1}^{n} a_{i \sigma(i)}$.
+1. Let $e_1, \dots, e_n$ be the rows of the [[identity matrix|06DW9BAWB1]] $I_n$, so that $e_j$ has entry $1$ in place $j$ and $0$ elsewhere.
+2. Row $i$ of $A$ is then
+$$r_i = \sum_{j=1}^{n} a_{ij} e_j.$$
+3. For a map $f \colon \{1, \dots, n\} \to \{1, \dots, n\}$, let $E_f$ be the matrix whose row $i$ is $e_{f(i)}$.
+4. Apply [[multilinearity in the rows|0PPG793642]] to the sum of step 2 in row $1$, then in row $2$ of each resulting term, and so on up to row $n$.
+   Each choice of one index $j = f(i)$ in every row $i$ gives one term, so
+$$\det A = \sum_{f} \Bigl(\prod_{i=1}^{n} a_{i f(i)}\Bigr) \det E_f,$$
+   where the sum runs over all $n^n$ maps $f$ of step 3.
+5. Suppose that $f$ is not injective, so $f(i) = f(k)$ for some $i \ne k$.
+   Then rows $i$ and $k$ of $E_f$ are equal, and $\det E_f = 0$ by the rule for [[equal rows|0K4VQB7HWR]].
+6. An injective map from the finite set $\{1, \dots, n\}$ to itself is a bijection.
+   So the maps $f$ that remain are exactly the [[permutations|05RWFKVTJ7]] $\sigma \in S_n$.
+7. For $\sigma \in S_n$, the matrix $E_\sigma$ is $I_n$ with its rows rearranged by $\sigma$.
+   Write $\sigma$ as a product of $t$ transpositions; then $E_\sigma$ arises from $I_n$ by $t$ row swaps.
+   Each swap changes the sign of the determinant, by the [[effect of row operations|09YB3WQG38]], so $\det E_\sigma = (-1)^t \det I_n = \operatorname{sgn}(\sigma) \det I_n$.
+8. By the [[determinant of the identity|0Z4BWARC38]], $\det I_n = 1$, so $\det E_\sigma = \operatorname{sgn}(\sigma)$.
+9. Steps 4 to 8 together give
+$$\det A = \sum_{\sigma \in S_n} \operatorname{sgn}(\sigma) \prod_{i=1}^{n} a_{i \sigma(i)}.$$
 
 ## Idea
 
-Each row is a combination of the standard rows, so multilinearity breaks $\det A$ into $n^n$ simple pieces.
-A piece with a repeated standard row is zero.
-The others are row permutations of the identity, whose determinant is the sign of the permutation.
+Each row is a combination of the standard rows $e_1, \dots, e_n$, so multilinearity breaks $\det A$ into $n^n$ simple pieces, one for each way to pick a standard row in every position.
+A piece that uses some standard row twice has two equal rows and is zero.
+The pieces that survive are the identity matrix with its rows shuffled by a permutation, and such a shuffle has determinant equal to the sign of the permutation.
+What is left is the Leibniz sum.
 
 ## Variants
 
-The same computation, done for any alternating multilinear function $D$, is part 2 of the [[existence and uniqueness theorem|1C8RRWHD45]]; with $D = \det$ it gives the formula at once.
-For $n = 2$ the computation has $4$ pieces: $ad \det(e_1, e_2) + bc \det(e_2, e_1)$ survive and give $ad - bc$.
+For $n = 2$ the computation is short enough to write in full.
+Multilinearity gives four pieces,
+$$\det A = a_{11} a_{21} \det(e_1, e_1) + a_{11} a_{22} \det(e_1, e_2) + a_{12} a_{21} \det(e_2, e_1) + a_{12} a_{22} \det(e_2, e_2),$$
+the first and last vanish, and the other two give $a_{11} a_{22} - a_{12} a_{21}$.
+
+The same computation, done for any alternating multilinear function $D$ in place of $\det$, shows $D(A) = D(I_n) \sum_\sigma \operatorname{sgn}(\sigma) \prod_i a_{i \sigma(i)}$.
+That is part 2 of the [[existence and uniqueness theorem|1C8RRWHD45]], and with $D = \det$ it gives the formula at once.
