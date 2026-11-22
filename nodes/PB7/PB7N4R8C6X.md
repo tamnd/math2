@@ -19,40 +19,41 @@ sources:
 
 ## Statement
 
+Sums and scalar multiples of linear maps are linear, so the linear maps between two spaces form a vector space of their own.
+
 Let $F$ be a field and let $V$ and $W$ be vector spaces over $F$.
 Then $\Hom_F(V, W)$, with the pointwise operations of its [[definition|0VPCJWGMP9]], is a [[vector space|05EGHEQZAW]] over $F$.
 Its zero vector is the zero map $v \mapsto 0$, and the negative of $T$ is the map $v \mapsto -T(v)$.
 
 ## Remarks
 
-### Why each hypothesis is needed
+### Why the hypotheses are needed
 
-- The scalars must commute. The proof that $cT$ is linear uses $c\,a = a\,c$ for $a, c \in F$.
-- Over a noncommutative ring $R$, the $R$-linear maps between two left $R$-modules form an abelian group. In general, they do not form an $R$-module.
-- $V$ and $W$ must be over the same field, since $T(av) = a\,T(v)$ multiplies by $a$ on both sides.
+The scalars must commute, because the proof that $cT$ is linear uses $c\,a = a\,c$ for $a, c \in F$.
+Over a noncommutative ring $R$, the $R$-linear maps between two left $R$-modules form an abelian group, but in general not an $R$-module.
+The spaces $V$ and $W$ must be over the same field, since $T(av) = a\,T(v)$ multiplies by the same $a$ on both sides.
 
-### Consequences
+### What it gives you
 
-- The [[dual space|07JBSZE0V4]] $V^* = \Hom(V, F)$ is a vector space.
-- The endomorphisms $\End(V) = \Hom(V, V)$ form a vector space, and also an [[algebra|5JA4CYT1TB]] under composition.
-- The [[dimension theorem|0Z9N1ER0W0]] $\dim \Hom(V, W) = \dim V \cdot \dim W$ makes sense.
-- Expressions such as $T - \lambda \id_V$ and $a_0 \id + a_1 T + a_2 T^2$ are linear maps.
+The [[dual space|07JBSZE0V4]] $V^* = \Hom(V, F)$ is a vector space.
+The endomorphisms $\End(V) = \Hom(V, V)$ form a vector space, and also an [[algebra|5JA4CYT1TB]] under composition.
+The [[dimension theorem|0Z9N1ER0W0]] $\dim \Hom(V, W) = \dim V \cdot \dim W$ makes sense.
+Expressions such as $T - \lambda \id_V$ and $a_0 \id + a_1 T + a_2 T^2$ are linear maps.
 
-### Converse
+### The converse
 
 The set $W^V$ of all maps $V \to W$ is also a vector space, and $\Hom(V, W)$ is a subspace of it.
-If $W \ne \{0\}$, this subspace is proper: for $w \ne 0$, the constant map $v \mapsto w$ is not linear.
-So not every map in the larger space is linear.
+If $W \ne \{0\}$, this subspace is proper, since for $w \ne 0$ the constant map $v \mapsto w$ is not linear.
+So the larger space contains maps that are not linear.
 
 ### Generalizations
 
-- For modules $M$ and $N$ over a commutative ring $R$, $\Hom_R(M, N)$ is an $R$-module, with the same proof.
-- For topological vector spaces, the continuous linear maps form a subspace of $\Hom(V, W)$.
+For modules $M$ and $N$ over a commutative ring $R$, the set $\Hom_R(M, N)$ is an $R$-module, with the same proof.
+For topological vector spaces, the continuous linear maps form a subspace of $\Hom(V, W)$.
 
 ## History
 
 Peano gave the modern definition of vector spaces and linear maps in 1888.
-Textbooks such as Axler's and Hoffman and Kunze's prove the present result before they introduce the matrix of a linear map.
 
 ## Explanations
 
@@ -66,7 +67,7 @@ So the linear maps from $V$ to $W$ form a vector space of their own.
 
 For $S(x, y) = (x, 0)$ and $T(x, y) = (0, y)$ on $\R^2$, the sum is $S + T = \id$.
 The map $2S - T$ sends $(x, y)$ to $(2x, -y)$, which is again linear.
-The trap is to confuse the sum $S + T$ with the composite $S \circ T$; here $S \circ T = 0$.
+Watch out: the sum $S + T$ is not the composite $S \circ T$, which here is the zero map, since $S(T(x, y)) = S(0, y) = (0, 0)$.
 
 ### L3 human
 
