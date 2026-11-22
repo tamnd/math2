@@ -17,29 +17,32 @@ sources:
 ## Example
 
 A [[prime number|01826KMG2H]] is an integer $p > 1$ whose only positive divisors are $1$ and $p$.
-We show how the example of the number $1$ guides the condition $p > 1$ in this definition.
-Suppose for a moment that we drop the condition and call $1$ a prime.
+The number $1$ is the example that explains the condition $p > 1$.
+Its only positive divisor is $1$, which is both "$1$" and "itself", so without the condition it would pass the test.
+We suppose for a moment that $1$ counts as a prime and follow the consequences.
 
-1. The number $6$ has the factorization $6 = 2 \cdot 3$ into primes. The factors are $2$ and $3$.
-2. With $1$ as a prime, the product $6 = 1 \cdot 2 \cdot 3$ is also a factorization into primes. Its factors are $1$, $2$ and $3$.
-3. The product $6 = 1 \cdot 1 \cdot 2 \cdot 3$ is a third factorization. In general we can insert any number of factors $1$.
-4. So $6$ has infinitely many factorizations into primes, and they differ in the list of factors.
-5. The [[fundamental theorem of arithmetic|084HH1NDCB]] says that the factorization of each integer $n > 1$ into primes is unique up to the order of the factors.
-6. With $1$ as a prime, this theorem would be false as stated. It would need the words "with no factor equal to $1$" in each use.
+1. The number $6$ factors into primes as $6 = 2 \cdot 3$, with the list of factors $2, 3$.
+2. With $1$ as a prime, $6 = 1 \cdot 2 \cdot 3$ is also a factorization into primes, with the list $1, 2, 3$.
+3. We can insert as many factors $1$ as we like, so $6 = 1 \cdot 1 \cdot 2 \cdot 3$ is a third factorization, and there are infinitely many.
+4. These factorizations differ in their lists of factors, and not only in the order of the factors.
+5. The [[fundamental theorem of arithmetic|084HH1NDCB]] says that every integer $n > 1$ has exactly one factorization into primes, up to the order of the factors.
+   With $1$ as a prime, step 4 shows that this statement is false.
+6. To save the theorem we would have to add "with no factor equal to $1$" to it, and to every result that uses it.
 
-So the convention $p > 1$ is chosen to keep the main theorem about primes simple.
+So the condition $p > 1$ is a choice, made to keep the main theorem about primes true and short.
 
 ## Remarks
 
-The example shows that a definition is a choice, and that examples guide the choice.
-The number $1$ satisfies the condition "its only positive divisors are $1$ and itself", because its only positive divisor is $1$.
-So the naive definition admits $1$, and the extra condition $p > 1$ is needed to exclude it.
-An equivalent way to state the definition is "$p$ has exactly two positive divisors", which excludes $1$ because $1$ has only one positive divisor.
+The example shows that a definition is a decision, and that examples guide the decision.
+An equivalent form of the definition makes the choice visible: a prime is a positive integer with exactly two positive divisors.
+The number $1$ has only one positive divisor, so it fails, while $2$, $3$ and $5$ pass.
 
-Other theorems give the same reason.
-Euclid's lemma, "if $p$ divides $ab$ then $p$ divides $a$ or $b$", holds for $1$, but the formula for the sum of the divisors of $p$, which is $p + 1$, fails for $p = 1$.
-In ring theory the same choice appears in general form: a prime element must be a nonzero element that is not a unit, and $1$ is a unit.
-Some mathematicians of the past did count $1$ as a prime, so the convention is a decision of the community, not a fact of nature.
+Other results point the same way.
+The sum of the positive divisors of a prime $p$ is $p + 1$, but for $1$ the sum is $1$, not $2$.
+Euclid's lemma, "if $p$ divides $ab$, then $p$ divides $a$ or $b$", does hold for $1$, so not every result breaks.
+The decision rests on the results that do break.
+In ring theory the same choice appears in general form: a prime element must be nonzero and not a unit, and $1$ is a unit.
+Some mathematicians of the past counted $1$ as a prime, which confirms that the convention was chosen and not discovered.
 
 ## Explanations
 
@@ -48,18 +51,15 @@ Some mathematicians of the past did count $1$ as a prime, so the convention is a
 The number $12$ breaks into primes as $2 \cdot 2 \cdot 3$, and there is no other way to do it.
 If $1$ were a prime, we could also write $12 = 1 \cdot 2 \cdot 2 \cdot 3$, or put in as many $1$s as we like.
 Then "the" prime factors of $12$ would no longer be one fixed list.
-To keep the rule "each number breaks into primes in one way", mathematicians agree that $1$ is not a prime.
+To keep the rule "each number breaks into primes in exactly one way", mathematicians agree that $1$ is not a prime.
 
 ### L2 human
 
-We check the claim of step 6 on the number $30$.
-
-1. With the usual definition, $30 = 2 \cdot 3 \cdot 5$, and the multiset of prime factors is $\{2, 3, 5\}$.
-2. With $1$ as a prime, $30 = 1 \cdot 2 \cdot 3 \cdot 5$ gives the multiset $\{1, 2, 3, 5\}$.
-3. The two multisets are different, so uniqueness fails.
-4. The number of prime factors with multiplicity is $3$ in step 1 and $4$ in step 2. So the function "number of prime factors" is not defined.
-
-The typical use of such an example is in the design of a definition.
-We list the theorems that we want, and we check which edge cases break them.
-A trap is to think that the definition of a prime is forced by the meaning of the word.
-It is a convention that is chosen because of its consequences.
+We check the damage on the number $30$, and on a function that depends on unique factorization.
+With the usual definition, $30 = 2 \cdot 3 \cdot 5$, so its prime factors, with repeats, are $2, 3, 5$, and it has three of them.
+With $1$ as a prime, both of these are factorizations:
+$$30 = 2 \cdot 3 \cdot 5, \qquad 30 = 1 \cdot 2 \cdot 3 \cdot 5.$$
+The first has three factors and the second has four.
+So the function "number of prime factors of $n$, counted with repeats", which number theory uses all the time, would have no single value.
+This is the typical way to design a definition: list the theorems that you want, and check which edge cases break them.
+Watch out: the definition of a prime is not forced by the meaning of the word, and it is a convention chosen for its consequences.

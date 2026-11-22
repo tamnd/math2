@@ -15,41 +15,56 @@ sources:
 ## Example
 
 Let $a$ and $b$ be integers, not both $0$.
-Use this definition: "$\gcd(a, b)$ is the integer $d \geq 0$ such that $d \mid a$, $d \mid b$, and each common divisor of $a$ and $b$ divides $d$."
-The word "the" needs an existence proof and a uniqueness proof, see [[definite descriptions in definitions|5P955TVSS2]].
+We use this definition of the [[greatest common divisor|0C8WYW4KYQ]]: $\gcd(a, b)$ is the integer $d \ge 0$ such that $d \mid a$, $d \mid b$, and every common divisor of $a$ and $b$ divides $d$.
+The word "the" makes this a [[definite description|5P955TVSS2]], so we prove existence and uniqueness before we use the name.
 
-1. Existence. By [[Bézout's identity|0DQVHMYAGA]], the least positive integer $d$ of the form $ax + by$ divides $a$ and $b$.
-2. If $c \mid a$ and $c \mid b$, then $c \mid ax + by = d$. So $d$ satisfies the condition.
-3. Uniqueness. Let $d \geq 0$ and $d' \geq 0$ both satisfy the condition.
-4. Then $d'$ is a common divisor, so $d' \mid d$. In the same way, $d \mid d'$.
-5. So $d = kd'$ and $d' = ld$ for integers $k$ and $l$. Then $d = kld$, and $d \neq 0$ because $a$ and $b$ are not both $0$, so $kl = 1$.
-6. So $k = \pm 1$, and $d = \pm d'$. Both are non-negative, so $d = d'$.
+1. Existence.
+   The set of positive integers of the form $ax + by$ with integers $x, y$ is nonempty, because $a^2 + b^2 > 0$ is one of them.
+   Let $d = ax + by$ be its least element.
+   Divide: $a = qd + r$ with $0 \le r < d$.
+   Then $r = a(1 - qx) + b(-qy)$ has the same form, so $r > 0$ would contradict the choice of $d$.
+   So $r = 0$ and $d \mid a$, and in the same way $d \mid b$.
+   This is the argument behind [[Bézout's identity|0DQVHMYAGA]].
+2. The number $d$ satisfies the last condition.
+   If $c \mid a$ and $c \mid b$, then $c$ divides $ax + by = d$.
+3. Uniqueness.
+   Let $d \ge 0$ and $d' \ge 0$ both satisfy the definition.
+   Each is a common divisor, so the last condition for $d$ gives $d' \mid d$, and the last condition for $d'$ gives $d \mid d'$.
+4. Neither number is $0$.
+   If $d = 0$, then $d \mid a$ forces $a = 0$ and $d \mid b$ forces $b = 0$, which the hypothesis excludes.
+5. Write $d = k d'$ and $d' = l d$ with integers $k, l$.
+   Then $d = k l d$, and since $d \ne 0$ we get $k l = 1$, so $k = \pm 1$.
+6. So $d = \pm d'$, and since both are positive, $d = d'$.
 
 ## Remarks
 
-1. Without the condition $d \geq 0$, the condition holds for both $d$ and $-d$, and "the" would not be legal. The sign condition is the extra condition that picks one object.
-2. The usual school definition, "the largest common divisor", has an easier uniqueness proof: a largest element of a finite set of integers is unique. Its existence needs that the common divisors form a finite non-empty set.
-3. The two definitions give the same number. The second definition is the one that generalizes to rings, where "largest" has no meaning.
-4. In a general integral domain, a gcd is unique only up to a unit factor, and books say "a gcd".
+The sign condition $d \ge 0$ is the extra condition that makes "the" legal.
+Without it, both $d$ and $-d$ satisfy the divisibility conditions, and step 6 would stop at $d = \pm d'$.
+
+The school definition, "the largest common divisor", has an easier uniqueness proof, since a finite set of integers has at most one largest element.
+Its existence proof needs the common divisors to form a finite nonempty set: $1$ is always one, and each is at most $\max(|a|, |b|)$ in size.
+The two definitions give the same number, because the $d$ above is a common divisor and every common divisor $c$ divides $d$, so $|c| \le d$.
+The divisibility definition is the one that generalizes to rings, where "largest" has no meaning.
+In a general integral domain a gcd is unique only up to multiplication by a unit, so books there write "a gcd".
 
 ## Explanations
 
 ### L1 human
 
 The greatest common divisor of $12$ and $18$ is the largest number that divides both.
-The numbers that divide both are $1$, $2$, $3$ and $6$.
+The positive numbers that divide both are $1$, $2$, $3$ and $6$.
 The largest of them is $6$.
-There is only one largest number in a list, so "the greatest common divisor" names exactly one number.
+A list of numbers has only one largest member, so "the greatest common divisor" names exactly one number.
 
 ### L2 human
 
-We use the uniqueness proof to check a computed gcd.
+Uniqueness gives a way to check a computed gcd: show that the candidate satisfies the definition, and uniqueness does the rest.
+The [[Euclidean algorithm|0TRNT4X7J0]] for $84$ and $36$ takes two divisions:
+$$84 = 2 \cdot 36 + 12, \qquad 36 = 3 \cdot 12.$$
+It returns $12$, and $12 \mid 84$ and $12 \mid 36$ hold.
+Every common divisor of $84$ and $36$ divides $12$, because
+$$12 = 84 - 2 \cdot 36.$$
+So $12$ satisfies the definition, and $\gcd(84, 36) = 12$ by uniqueness.
 
-1. The [[Euclidean algorithm|0TRNT4X7J0]] for $84$ and $36$ gives $84 = 2 \cdot 36 + 12$ and $36 = 3 \cdot 12$. So it returns $12$.
-2. Check that $12 \mid 84$ and $12 \mid 36$.
-3. Check that each common divisor divides $12$: $12 = 84 - 2 \cdot 36$, so a divisor of $84$ and $36$ divides $12$.
-4. So $12$ satisfies the defining condition, and by uniqueness $\gcd(84, 36) = 12$.
-
-The typical use: to prove $\gcd(a, b) = d$, check the defining condition for $d$, and uniqueness does the rest.
-A trap is to check only that $d$ is a common divisor.
-The number $6$ also divides $84$ and $36$, but $12 \nmid 6$.
+Watch out: being a common divisor is not enough.
+The number $6$ divides $84$ and $36$, but the common divisor $12$ does not divide $6$, so $6$ fails the last condition.

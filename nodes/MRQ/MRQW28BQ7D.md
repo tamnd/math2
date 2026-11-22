@@ -16,64 +16,70 @@ sources:
 
 ## Example
 
-We read the axioms of a [[group|G5S1M9]] as an [[axiom system|GD2JBXJV5Z]], and we derive a first theorem from them.
+We read the axioms of a [[group|G5S1M9]] as an [[axiom system|GD2JBXJV5Z]] and derive a first theorem from them, naming the axiom behind each step.
 
-1. The primitive terms are a set $G$ and a [[binary operation|0M418FE7BB]] $*$ on $G$. The system does not say what the elements of $G$ are or how $*$ is computed.
-2. Axiom G1 ([[associativity|0K8F7PVDMX]]): for all $a, b, c \in G$, $(a * b) * c = a * (b * c)$.
-3. Axiom G2 (identity): there is an element $e \in G$ such that $e * a = a$ and $a * e = a$ for all $a \in G$.
-4. Axiom G3 (inverses): for each $a \in G$ there is an element $a' \in G$ such that $a * a' = e$ and $a' * a = e$.
-5. Definition: an element $e$ as in G2 is an [[identity element|07WYQPB8E3]]. An element $a'$ as in G3 is an [[inverse|0ZNZH0EXFX]] of $a$.
+The primitive terms are a set $G$ and a [[binary operation|0M418FE7BB]] $*$ on $G$.
+The system says nothing about what the elements of $G$ are or how $*$ is computed.
+There are three axioms.
+
+- G1 ([[associativity|0K8F7PVDMX]]): for all $a, b, c \in G$, $(a * b) * c = a * (b * c)$.
+- G2 (identity): there is an element $e \in G$ with $e * a = a$ and $a * e = a$ for all $a \in G$.
+- G3 (inverses): for each $a \in G$ there is an element $a' \in G$ with $a * a' = e$ and $a' * a = e$.
+
+An element $e$ as in G2 is called an [[identity element|07WYQPB8E3]], and an element $a'$ as in G3 is called an [[inverse|0ZNZH0EXFX]] of $a$.
 
 Theorem: the identity element is unique, and each element has exactly one inverse.
 
-6. Let $e$ and $f$ both satisfy G2. Then $e * f = f$, because $e$ is an identity. Also $e * f = e$, because $f$ is an identity. So $e = f$.
-7. Let $b$ and $c$ both be inverses of $a$. By G2, $b = b * e$.
-8. By G3 for $c$, $e = a * c$, so $b = b * (a * c)$.
-9. By G1, $b * (a * c) = (b * a) * c$.
-10. By G3 for $b$, $b * a = e$, so $(b * a) * c = e * c$.
-11. By G2, $e * c = c$. Steps 7 to 11 give $b = c$.
+1. Let $e$ and $f$ both satisfy G2.
+   Then $e * f = f$ because $e$ is an identity, and $e * f = e$ because $f$ is an identity.
+   So $e = f$.
+2. Let $b$ and $c$ both be inverses of $a$.
+   We start from $b$ and use G2, then G3 for $c$, then G1, then G3 for $b$, then G2 again.
+   $$b = b * e = b * (a * c) = (b * a) * c = e * c = c.$$
+3. So $a$ has only one inverse.
 
-The theorem is the lemma [[uniqueness of identity and inverses|0D9NDGE9KP]].
-After it, the notation $a^{-1}$ for "the inverse of $a$" is justified, because there is exactly one such element.
+The theorem is the lemma on the [[uniqueness of identity and inverses|0D9NDGE9KP]].
+It is what makes the notation $a^{-1}$, "the inverse of $a$", legitimate.
 
 ## Remarks
 
-The example shows the four parts of the method: primitive terms (step 1), axioms (steps 2 to 4), definitions (step 5) and a theorem with a proof (steps 6 to 11).
-Each proof step names the axiom or the definition that it uses.
+The example shows all four parts of the method at once.
+The primitive terms are $G$ and $*$, the axioms are G1 to G3, the definitions name the identity and the inverses, and the theorem is derived from these alone.
 No step uses a property of a particular group, so the theorem holds in every group.
-For example, it holds in $(\mathbb{Z}, +)$, where $e = 0$ and the inverse of $a$ is $-a$.
-It also holds in the nonzero rationals under multiplication, where $e = 1$ and the inverse of $a$ is $1/a$.
+In $(\mathbb{Z}, +)$ it says that $0$ is the only identity and $-a$ the only inverse of $a$.
+In the nonzero rationals under multiplication it says the same of $1$ and $1/a$.
 
-If we drop axiom G3, the system describes monoids.
-The uniqueness of the identity still holds, because step 6 uses only G2.
-Steps 7 to 11 use only G1 and G2 and the two equations $b * a = e$ and $a * c = e$.
-So in a monoid an element has at most one two-sided inverse.
-If we drop axiom G1, step 9 fails, and an element can have two different inverses.
-Take the set $\{e, a, b\}$ in which $e$ is an identity and each product of two elements from $\{a, b\}$ is $e$.
+What happens when we drop an axiom?
+Without G3 the system describes monoids.
+Part 1 of the proof used only G2, so a monoid still has one identity.
+Part 2 used only G1, G2 and the two equations $b * a = e$ and $a * c = e$, so in a monoid an element has at most one two-sided inverse.
+
+Without G1 the chain in part 2 breaks at the regrouping step, and uniqueness of inverses can fail.
+Take the set $\{e, a, b\}$ with $e$ as identity, and let every product of two elements of $\{a, b\}$ be $e$.
 Then $a * a = e$ and $a * b = b * a = e$, so $a$ has the two inverses $a$ and $b$.
-This operation is not associative, because $(a * a) * b = e * b = b$ but $a * (a * b) = a * e = a$.
+Check that associativity fails:
+$$(a * a) * b = e * b = b, \qquad a * (a * b) = a * e = a.$$
 
 ## Explanations
 
 ### L1 human
 
-The rules of a group say only three things about an operation, such as addition of whole numbers.
+The rules of a group say only three things about an operation such as adding whole numbers.
 Grouping does not matter, there is a "do nothing" element, and each element can be undone.
 From these three rules alone we can show that there is only one "do nothing" element.
-For addition, the "do nothing" element is $0$, because $0 + 5 = 5$.
-The argument never uses the fact that the elements are numbers, so it works for any group at all.
+For addition it is $0$, because $0 + 5 = 5$.
+The argument never uses the fact that the elements are numbers, so it works for every group.
 
 ### L2 human
 
-We check the theorem in a concrete group, the integers modulo $4$ under addition, $G = \{0, 1, 2, 3\}$.
+We check the theorem in one concrete group, the integers modulo $4$ under addition, $G = \{0, 1, 2, 3\}$.
 
 1. The element $0$ is an identity, because $0 + a = a$ for each $a \in G$.
-2. No other element is an identity: $1 + 1 = 2 \neq 1$, $2 + 1 = 3 \neq 1$, and $3 + 1 = 0 \neq 1$.
-3. The inverse of $1$ is $3$, because $1 + 3 = 4 = 0$ modulo $4$.
-4. No other element is an inverse of $1$: $1 + 0 = 1$, $1 + 1 = 2$ and $1 + 2 = 3$, and none of these is $0$.
+2. No other element is an identity, because adding it to $1$ changes $1$: $1 + 1 = 2$, $2 + 1 = 3$ and $3 + 1 = 0$.
+3. The inverse of $1$ is $3$, because $1 + 3 = 4 \equiv 0 \pmod 4$.
+4. No other element is an inverse of $1$, because $1 + 0 = 1$, $1 + 1 = 2$ and $1 + 2 = 3$, and none of these is $0$.
 
-The check agrees with the theorem, but it covers only one group.
-The proof in steps 6 to 11 covers all groups at once, and this is the reason to use axioms.
-A trap is to use a property of the example inside the general proof.
-In $\mathbb{Z}/4\mathbb{Z}$ the order of the factors does not matter, but commutativity is not a group axiom.
-So the general proof must keep $b * (a * c)$ and $(b * a) * c$ in the order that the axioms allow.
+The check agrees with the theorem, but it covers one group, while the proof covers all groups at once.
+That is the reason to work from axioms.
+Watch out: in $\mathbb{Z}/4\mathbb{Z}$ the order of the factors does not matter, but commutativity is not a group axiom.
+So the general proof keeps $b * (a * c)$ and $(b * a) * c$ in the order that the axioms allow, and never swaps two factors.

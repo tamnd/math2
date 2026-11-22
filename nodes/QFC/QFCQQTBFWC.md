@@ -14,25 +14,35 @@ sources:
 
 ## Example
 
-Let $I$ be an open [[interval|0Q1D85B8G6]], and let $f : I \to \mathbb{R}$.
-An [[antiderivative|0BYWRWFT4F]] of $f$ is a differentiable function $F$ with $F' = f$ on $I$.
-We show that two antiderivatives differ by a constant, so the antiderivative is unique [[up to|CBC72TX3NQ]] a constant.
+Let $I$ be an open [[interval|0Q1D85B8G6]], and let $f \colon I \to \mathbb{R}$.
+An [[antiderivative|0BYWRWFT4F]] of $f$ is a differentiable function $F \colon I \to \mathbb{R}$ with $F' = f$ on $I$.
+Write $F \sim G$ when $F - G$ is a constant function on $I$; this is an equivalence relation.
+We show that any two antiderivatives of $f$ satisfy $F \sim G$, so the antiderivative is unique [[up to|CBC72TX3NQ]] an added constant.
 
-1. Let $F$ and $G$ be antiderivatives of $f$, and let $H = F - G$.
-2. Then $H$ is differentiable, and $H' = F' - G' = f - f = 0$ on $I$.
-3. Let $x < y$ be points of $I$. The interval $[x, y]$ lies in $I$, because $I$ is an interval.
-4. By the [[mean value theorem|0BARQY52N5]], there is a $c$ between $x$ and $y$ with $H(y) - H(x) = H'(c)(y - x) = 0$.
-5. So $H(x) = H(y)$ for all $x$ and $y$ in $I$, and $H$ is a constant $C$.
-6. So $F = G + C$. Conversely, $G + C$ is an antiderivative for each constant $C$.
+1. Let $F$ and $G$ be antiderivatives of $f$, and put $H = F - G$.
+   Then $H$ is differentiable, and
+   $$H' = F' - G' = f - f = 0 \quad \text{on } I.$$
+2. Take points $x < y$ of $I$.
+   The whole interval $[x, y]$ lies in $I$, because $I$ is an interval.
+3. The function $H$ is continuous on $[x, y]$ and differentiable on $(x, y)$, so the [[mean value theorem|0BARQY52N5]] gives a point $c$ between $x$ and $y$ with
+   $$H(y) - H(x) = H'(c)\,(y - x) = 0.$$
+4. So $H(x) = H(y)$ for all $x, y \in I$, and $H$ equals a constant $C$.
+5. So $F = G + C$, which means $F \sim G$.
+   Conversely, $G + C$ is an antiderivative for every constant $C$, because the derivative of a constant is $0$.
 
-The relation is $F \sim G$ when $F - G$ is constant, and the antiderivatives of $f$ form exactly one class.
+So the antiderivatives of $f$ form exactly one equivalence class of $\sim$, whenever $f$ has one antiderivative.
 
 ## Remarks
 
-1. The hypothesis "interval" is needed. On $\mathbb{R} \setminus \{0\}$, the function equal to $0$ for $x < 0$ and to $1$ for $x > 0$ has derivative $0$, but it is not constant.
-2. So on $\mathbb{R} \setminus \{0\}$, the antiderivatives of $1/x$ have the form $\ln\abs{x} + C_1$ for $x < 0$ and $\ln\abs{x} + C_2$ for $x > 0$, with two independent constants.
-3. The notation $\int f(x)\, dx = F(x) + C$ names the whole class. The "$+ C$" is the "up to a constant".
-4. The condition $F(a) = 0$ for a fixed $a \in I$ picks one representative. With it, "the" antiderivative is legal.
+The hypothesis "interval" is needed, and step 2 is where the proof uses it.
+On $\mathbb{R} \setminus \{0\}$, the function equal to $0$ for $x < 0$ and to $1$ for $x > 0$ has derivative $0$ everywhere, but it is not constant.
+So on $\mathbb{R} \setminus \{0\}$ the antiderivatives of $1/x$ are
+$$F(x) = \begin{cases} \ln|x| + C_1, & x < 0, \\ \ln|x| + C_2, & x > 0, \end{cases}$$
+with two independent constants, and they are unique only up to a locally constant function.
+
+The notation $\int f(x) \, dx = F(x) + C$ names the whole class, and the "$+ C$" is the "up to a constant".
+A condition $F(a) = 0$ for a fixed $a \in I$ picks one member of the class.
+With it, "the antiderivative of $f$ that vanishes at $a$" is a legal definite description.
 
 ## Explanations
 
@@ -46,11 +56,11 @@ That is why the answers in integration tables end with "$+ C$".
 ### L2 human
 
 We find the antiderivative $F$ of $f(x) = 2x$ on $\mathbb{R}$ with $F(1) = 5$.
-
-1. The function $x^2$ is an antiderivative, because $(x^2)' = 2x$.
-2. By the theorem, each antiderivative has the form $F(x) = x^2 + C$.
-3. The condition $F(1) = 5$ gives $1 + C = 5$, so $C = 4$.
-4. So $F(x) = x^2 + 4$, and this is the only solution.
-
-The typical use: find one antiderivative, add $C$, and fix $C$ with an extra condition.
-A trap is a domain that is not an interval, as remark 1 shows.
+The function $x^2$ is one antiderivative, because $(x^2)' = 2x$.
+By the result above, every antiderivative has the form $F(x) = x^2 + C$.
+The condition gives
+$$F(1) = 1 + C = 5, \qquad C = 4.$$
+So $F(x) = x^2 + 4$, and no other function solves the problem.
+Check: $F'(x) = 2x$ and $F(1) = 1 + 4 = 5$.
+The typical use is to find one antiderivative, add $C$, and fix $C$ with one extra condition.
+Watch out: on a domain that is not an interval, one condition does not fix all the constants, as the example of $1/x$ shows.

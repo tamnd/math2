@@ -17,7 +17,7 @@ sources:
 
 ## Statement
 
-Let $F$ be $\C$, or more generally an [[algebraically closed field|0PF6TM8TWT]] of characteristic not $2$.
+Let $F$ be $\mathbb{C}$, or more generally an [[algebraically closed field|0PF6TM8TWT]] of characteristic not $2$.
 Let $V$ be a vector space over $F$ of finite dimension $n$, and let $Q$ be a [[quadratic form|0HZNE5QZDJ]] on $V$.
 Let $r$ be the [[rank|0ZC9YTXZRY]] of the symmetric matrix of $Q$ in a basis.
 Then $V$ has a basis $(e_1, \dots, e_n)$ such that, for all $x_1, \dots, x_n \in F$,
@@ -27,32 +27,52 @@ Two quadratic forms on $V$ are equivalent if and only if their matrices have the
 
 ## Remarks
 
+### The idea on one example
+
+Over $\mathbb{C}$ every number is a square, so the coefficients of a diagonal form can all be made equal to $1$.
+Take $Q = x^2 + 2xy - 3y^2$.
+Completing the square gives $Q = (x + y)^2 - 4y^2$.
+Since $-4 = (2i)^2$, this is $Q = (x + y)^2 + (2iy)^2$, and with $u = x + y$ and $v = 2iy$ we get $Q = u^2 + v^2$.
+Check: $(x + y)^2 + (2iy)^2 = x^2 + 2xy + y^2 - 4y^2 = x^2 + 2xy - 3y^2$.
+Over $\mathbb{R}$ the same form has signature $(1, 1, 0)$ and is not a sum of two squares, so the real and the complex answers differ.
+
 ### Why each hypothesis is needed
 
-- Every element must be a square. Over $\R$, $x^2$ and $-x^2$ have the same rank but are not equivalent, by [[Sylvester's law of inertia|0WFED3K3DQ]].
-- Over a finite field $\F_q$ with $q$ odd, half of the nonzero elements are not squares. There are two classes in each rank $r \ge 1$; see [[forms over finite fields|2HBR7137AD]].
-- Characteristic not $2$: in characteristic $2$, a sum of squares is additive. So the form $xy$ is not a sum of squares there, even over an algebraically closed field.
+Every element of $F$ must be a square.
+Over $\mathbb{R}$, the forms $x^2$ and $-x^2$ have the same rank but are not equivalent, by [[Sylvester's law of inertia|0WFED3K3DQ]].
+Over a finite field $\mathbb{F}_q$ with $q$ odd, half of the nonzero elements are not squares, and there are two classes in each rank $r \ge 1$; see [[forms over finite fields|2HBR7137AD]].
 
-### Consequences
+The characteristic must not be $2$.
+In characteristic $2$, squaring is additive, so a sum $\sum_i L_i^2$ of squares of linear forms is the single square $\bigl(\sum_i L_i\bigr)^2$.
+The form $xy$ is not a square of a linear form, so it is not a sum of squares there, even over an algebraically closed field.
 
-- Over $\C$ there are exactly $n + 1$ equivalence classes of quadratic forms in $n$ variables, one for each rank $0, 1, \dots, n$.
-- Every nondegenerate complex quadratic form is equivalent to $x_1^2 + \cdots + x_n^2$, and also to $x_1 x_2 + x_3^2 + \cdots + x_n^2$ when $n \ge 2$.
-- [[Over $\C$, $x^2 + y^2$ and $xy$ are equivalent|YWT3N8DA3J]], so the circle and the hyperbola become the same curve over $\C$.
-- A nondegenerate complex form in dimension at least $2$ has nonzero [[isotropic vectors|MZHFGPV1YT]], for example $(1, i)$ for $x^2 + y^2$.
+### What it gives you
 
-### Converse
+Over $\mathbb{C}$ there are exactly $n + 1$ equivalence classes of quadratic forms in $n$ variables, one for each rank $0, 1, \dots, n$.
+Every nondegenerate complex quadratic form is equivalent to $x_1^2 + \cdots + x_n^2$.
+When $n \ge 2$ it is also equivalent to $x_1 x_2 + x_3^2 + \cdots + x_n^2$, because [[$x^2 + y^2$ and $xy$ are equivalent over $\mathbb{C}$|YWT3N8DA3J]].
+So the circle and the hyperbola become the same curve over $\mathbb{C}$.
+A nondegenerate complex form in dimension at least $2$ has nonzero [[isotropic vectors|MZHFGPV1YT]], for example $(1, i)$ for $x^2 + y^2$.
 
-Equivalent forms have the same rank over every field, since $\rank(P^T A P) = \rank A$ for $P$ invertible.
-This is the converse half of the last sentence.
+The last sentence of the statement has an easy half that holds over every field.
+Equivalent forms have the same rank, since $\operatorname{rank}(P^{\mathsf{T}} A P) = \operatorname{rank} A$ for $P$ invertible.
 
-### Generalizations
+### Other settings
 
-- The same proof works over every field in which every element is a square and $2 \ne 0$, for example a quadratically closed field.
-- For Hermitian forms over $\C$, the answer is different: the law of inertia holds, with $P^* A P$ in place of $P^T A P$.
+The same proof works over every field in which every element is a square and $2 \ne 0$, that is, over every quadratically closed field of characteristic not $2$.
+For Hermitian forms over $\mathbb{C}$ the answer is different.
+There the change of basis rule is $P^* A P$, the values $Q(v)$ are real, and the law of inertia holds with a signature.
 
-## History
+### Watch out
 
-We found no source in the reading list of this topic that dates the theorem, so we give no date.
+The equivalence uses complex changes of variables.
+The substitution $v = 2iy$ above is not a real change of variables, so it says nothing about the form over $\mathbb{R}$.
+To classify a form with real coefficients over $\mathbb{R}$, use the signature, not the rank.
+
+### Try it
+
+Find the rank of $x^2 + 2xy + y^2 + z^2$ over $\mathbb{C}$, and write it as a sum of squares.
+It is $(x + y)^2 + z^2$, a sum of $2$ squares, so the rank is $2$.
 
 ## Explanations
 
@@ -61,20 +81,16 @@ We found no source in the reading list of this topic that dates the theorem, so 
 Over the complex numbers, every nonzero number is a square.
 So all coefficients of a diagonal form can be made equal to $1$.
 Only the number of squares remains, and it is the rank.
-For example, $-x^2 = (ix)^2$, so over $\C$ the form $-x^2$ is the same as $x^2$.
+For example, $-x^2 = (ix)^2$, so over $\mathbb{C}$ the form $-x^2$ is the same as $x^2$.
 
 ### L2 human
 
-Worked example: we write $Q = x^2 + 2xy - 3y^2$ as a sum of squares over $\C$.
-
-1. Complete the square: $Q = (x + y)^2 - 4y^2$.
-2. Write $-4y^2 = (2iy)^2$. So $Q = (x + y)^2 + (2iy)^2$.
-3. With $u = x + y$ and $v = 2iy$, $Q = u^2 + v^2$, a sum of $2$ squares. The rank is $2$.
-
-A trap: over $\R$ the same form has signature $(1, 1, 0)$, so the real and complex answers differ.
+To classify a complex form, find the rank of its symmetric matrix.
+Completing squares and then absorbing each coefficient into its square gives the normal form directly.
+Watch out: a coefficient $a$ is absorbed as $a y^2 = (c y)^2$ with $c^2 = a$, and either square root of $a$ works.
 
 ### L3 human
 
-The theorem says that the only invariant of a nondegenerate quadratic space over an algebraically closed field is its dimension.
-So the Witt group of such a field is $\Z / 2\Z$, generated by $\langle 1 \rangle$, since $\langle 1, 1 \rangle$ is hyperbolic.
+The theorem says that the only invariant of a nondegenerate quadratic space over an algebraically closed field of characteristic not $2$ is its dimension.
+So the Witt group of such a field is $\mathbb{Z} / 2\mathbb{Z}$, generated by the class of $\langle 1 \rangle$, since $\langle 1, 1 \rangle$ is a hyperbolic plane.
 In geometry, it says that all smooth quadrics in complex projective space of a given dimension are projectively equivalent.

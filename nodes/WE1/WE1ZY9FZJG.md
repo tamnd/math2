@@ -19,19 +19,25 @@ sources:
 Let
 $$A = \begin{pmatrix} 1 & 2 \\ 2 & 1 \end{pmatrix}, \qquad Q(x, y) = x^2 + 4xy + y^2.$$
 The diagonal entries of $A$ are $1$ and $1$, both positive.
-The pair $(2, 0, 0)$ read from them is not the signature of $Q$.
+The triple $(2, 0, 0)$ read from them is not the signature of $Q$.
 
-1. At $(1, -1)$: $Q = 1 - 4 + 1 = -2 < 0$. So $Q$ takes a negative value, and $q \ge 1$.
-2. Completing squares: $Q = (x + 2y)^2 - 3y^2$.
-3. With $u = x + 2y$ and $v = y$, $Q = u^2 - 3v^2$. So the [[signature|0KQZYGEJTF]] is $(1, 1, 0)$.
-4. Check with eigenvalues: $A (1, 1)^T = 3 (1, 1)^T$ and $A (1, -1)^T = -(1, -1)^T$. The eigenvalues $3$ and $-1$ have one positive and one negative sign.
+1. At $(1, -1)$ we get $Q = 1 - 4 + 1 = -2 < 0$.
+   So $Q$ takes a negative value, and $q \ge 1$.
+2. Complete the square: $x^2 + 4xy = (x + 2y)^2 - 4y^2$, so $Q = (x + 2y)^2 - 3y^2$.
+3. With $u = x + 2y$ and $v = y$, we get $Q = u^2 - 3v^2$.
+   So the [[signature|0KQZYGEJTF]] is $(1, 1, 0)$.
+4. Check with eigenvalues: $A (1, 1)^{\mathsf{T}} = 3 (1, 1)^{\mathsf{T}}$ and $A (1, -1)^{\mathsf{T}} = -(1, -1)^{\mathsf{T}}$.
+   The eigenvalues $3$ and $-1$ have one positive and one negative sign.
 
 ## Remarks
 
 The diagonal entries are the values $Q(e_1)$ and $Q(e_2)$ at the standard basis vectors.
 They give the signature only when the basis is orthogonal for the form, that is, when $A$ is diagonal.
 Here $e_1$ and $e_2$ are not orthogonal for $Q$, since the entry $2$ is not zero.
-A negative diagonal entry does prove $q \ge 1$, and a positive one proves $p \ge 1$.
+
+The diagonal still carries some information.
+A negative diagonal entry proves $q \ge 1$, and a positive one proves $p \ge 1$.
+The determinant carries more: in two variables, $\det A < 0$ forces signature $(1, 1, 0)$, and here $\det A = 1 - 4 = -3$.
 
 ## Explanations
 
@@ -39,9 +45,12 @@ A negative diagonal entry does prove $q \ge 1$, and a positive one proves $p \ge
 
 The matrix has positive numbers on the diagonal, so it is tempting to say that the form is always positive.
 But at $(1, -1)$ the form is $-2$.
-The large off-diagonal entries make the form negative in some directions.
+The large entries off the diagonal make the form negative in some directions.
 
 ### L2 human
 
 To find the signature, first [[diagonalize|0Z3FEWZ8HA]], by completing squares or by eigenvalues.
-A trap: the same mistake appears with definiteness; positive diagonal entries do not make a matrix positive definite.
+Watch out: the same mistake appears with definiteness, since positive diagonal entries do not make a matrix positive definite.
+
+Try it: for which real $b$ does $x^2 + 2bxy + y^2$ have signature $(2, 0, 0)$?
+Completing the square gives $(x + by)^2 + (1 - b^2) y^2$, so the answer is $-1 < b < 1$.

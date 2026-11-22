@@ -16,31 +16,37 @@ sources:
 
 ## Example
 
-Let $Q(x, y) = 2x^2 + 6xy + 4y^2$ on $\R^2$, with symmetric matrix $A = \begin{pmatrix} 2 & 3 \\ 3 & 4 \end{pmatrix}$.
-All coefficients of $Q$ and all entries of $A$ are positive.
+Let $Q(x, y) = 2x^2 + 6xy + 4y^2$ on $\mathbb{R}^2$.
+Its symmetric matrix is $A = \begin{pmatrix} 2 & 3 \\ 3 & 4 \end{pmatrix}$, with half of the coefficient $6$ in each off-diagonal place.
+Every coefficient of $Q$ and every entry of $A$ is positive, and yet $Q$ is not [[positive definite|00QN1N6MNT]].
 
-1. At $(3, -2)$: $Q = 2 \cdot 9 + 6 \cdot (-6) + 4 \cdot 4 = 18 - 36 + 16 = -2 < 0$.
-2. So $Q$ is not [[positive definite|00QN1N6MNT]].
-3. The minors test agrees: $2 > 0$, but $\det A = 8 - 9 = -1 < 0$. So [[Sylvester's criterion|0WKEF78PMV]] fails.
-4. Factorization: $Q = 2(x + y)(x + 2y)$. It is $0$ on the lines $y = -x$ and $y = -\frac x2$, and negative between them.
-5. The eigenvalues are $3 \pm \sqrt{10}$, approximately $6.16$ and $-0.16$. One is negative, so $Q$ is indefinite.
+1. Evaluate at $(3, -2)$: $Q(3, -2) = 2 \cdot 9 + 6 \cdot 3 \cdot (-2) + 4 \cdot 4 = 18 - 36 + 16 = -2$.
+   A negative value at a nonzero vector breaks the definition.
+2. The minors test agrees: the first minor is $2 > 0$, but $\det A = 8 - 9 = -1 < 0$, so [[Sylvester's criterion|0WKEF78PMV]] fails.
+3. The form factors as $Q = 2(x + y)(x + 2y)$.
+   Check: $2(x^2 + 3xy + 2y^2) = 2x^2 + 6xy + 4y^2$.
+   So $Q$ is $0$ on the lines $y = -x$ and $y = -\tfrac{1}{2} x$, and negative between them, where the two factors have opposite signs.
+4. The eigenvalues solve $t^2 - 6t - 1 = 0$, since $\operatorname{tr} A = 6$ and $\det A = -1$.
+   They are $3 \pm \sqrt{10}$, about $6.16$ and $-0.16$.
+   One is negative, so $Q$ is indefinite.
 
 ## Remarks
 
-The value $Q(1, -1) = 2 - 6 + 4 = 0$ shows the failure too, at a nonzero vector on one of the lines of step 4.
-For a $2 \times 2$ form, $a x^2 + b x y + c y^2$ is positive definite only when $b^2 < 4ac$; here $36 > 32$.
-A large cross term can make a form indefinite even when all coefficients are positive.
+The value $Q(1, -1) = 2 - 6 + 4 = 0$ shows the failure at a smaller point, on the line $y = -x$ of step 3.
+For a binary form $ax^2 + bxy + cy^2$ with $a > 0$, positive definiteness needs $b^2 < 4ac$.
+Here $b^2 = 36$ and $4ac = 32$, so the cross term is too large.
+If the cross coefficient $6$ were $5$, the determinant would be $8 - \tfrac{25}{4} = \tfrac{7}{4} > 0$, and the form would be positive definite.
 
 ## Explanations
 
 ### L1 human
 
-All numbers in the form are positive, so it is tempting to say that the form is positive.
-But the cross term $6xy$ is negative when $x$ and $y$ have opposite signs.
-At $(3, -2)$ it wins, and the form is $-2$.
+Every number in the form is positive, so it is tempting to say that the form is always positive.
+But the term $6xy$ is negative when $x$ and $y$ have opposite signs.
+At $(3, -2)$ that term is $-36$, and it beats the other two terms, $18$ and $16$.
 
 ### L2 human
 
-A trap: positive entries are neither necessary nor sufficient for a positive definite matrix.
-The matrix $\begin{pmatrix} 2 & -1 \\ -1 & 2 \end{pmatrix}$ has negative entries and is positive definite.
-Always test the minors, the eigenvalues or a completion of squares.
+The lesson is that the signs of the entries do not decide definiteness, in either direction.
+The matrix $\begin{pmatrix} 2 & -1 \\ -1 & 2 \end{pmatrix}$ has negative entries and is positive definite, with eigenvalues $3$ and $1$.
+Always use a real test: the leading minors, the eigenvalues, or a completion of squares.

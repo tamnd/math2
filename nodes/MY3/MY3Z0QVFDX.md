@@ -17,32 +17,37 @@ sources:
 ## Example
 
 The [[factorial|0XWG0JGDFW]] is the function $n \mapsto n!$ on the [[natural numbers|0MWKJ44V5A]] given by two rules:
-$$0! = 1, \qquad (n + 1)! = (n + 1) \cdot n! \quad \text{for each } n \geq 0.$$
-This is a recursive definition, one of the [[kinds of definitions|B60DBNF77S]].
-We check that the two rules define exactly one function.
+$$0! = 1, \qquad (n + 1)! = (n + 1) \cdot n! \quad \text{for each } n \ge 0.$$
+This is a recursive definition, one of the [[kinds of definitions|B60DBNF77S]], and its obligation is to show that the two rules fix exactly one function.
 
-1. The base case gives the value at $0$: $0! = 1$.
-2. The recursive case gives the value at $n + 1$ from the value at $n$ only. It never refers to a larger argument.
-3. Existence. The [[principle of recursive definition|BQ1D7T0EGD]] gives a function $h \colon \mathbb{N} \to \mathbb{N}$ with $h(0) = 1$ and $h(n + 1) = (n + 1) h(n)$.
-4. Uniqueness. Let $g$ be another function with $g(0) = 1$ and $g(n + 1) = (n + 1) g(n)$. We show $g(n) = h(n)$ for each $n$ by [[mathematical induction|0ASJVEFA9J]].
-5. Base step: $g(0) = 1 = h(0)$.
-6. Induction step: if $g(n) = h(n)$, then $g(n + 1) = (n + 1) g(n) = (n + 1) h(n) = h(n + 1)$.
+1. The base case gives the value at $0$, namely $0! = 1$.
+2. The recursive case gives the value at $n + 1$ from the value at $n$ alone.
+   It never refers to a larger argument.
+3. Existence.
+   The [[principle of recursive definition|BQ1D7T0EGD]] gives a function $h \colon \mathbb{N} \to \mathbb{N}$ with $h(0) = 1$ and $h(n + 1) = (n + 1) h(n)$.
+4. Uniqueness.
+   Let $g$ be a function with $g(0) = 1$ and $g(n + 1) = (n + 1) g(n)$.
+   We show $g(n) = h(n)$ for every $n$ by [[mathematical induction|0ASJVEFA9J]].
+5. The base step is $g(0) = 1 = h(0)$.
+6. For the induction step, suppose $g(n) = h(n)$.
+   Then
+   $$g(n + 1) = (n + 1) g(n) = (n + 1) h(n) = h(n + 1).$$
 7. So $g = h$, and the symbol $n!$ has exactly one meaning.
 
-The first values follow from the rules, one step at a time.
-
-1. $1! = 1 \cdot 0! = 1 \cdot 1 = 1$.
-2. $2! = 2 \cdot 1! = 2 \cdot 1 = 2$.
-3. $3! = 3 \cdot 2! = 3 \cdot 2 = 6$.
-4. $4! = 4 \cdot 3! = 4 \cdot 6 = 24$.
-5. $5! = 5 \cdot 4! = 5 \cdot 24 = 120$.
+The first values follow from the rules one step at a time:
+$$1! = 1 \cdot 1 = 1, \quad 2! = 2 \cdot 1 = 2, \quad 3! = 3 \cdot 2 = 6, \quad 4! = 4 \cdot 6 = 24, \quad 5! = 5 \cdot 24 = 120.$$
+Check: $5! = 1 \cdot 2 \cdot 3 \cdot 4 \cdot 5 = 120$.
 
 ## Remarks
 
-1. The recursive definition agrees with the explicit formula $n! = 1 \cdot 2 \cdots n$ for $n \geq 1$. Induction proves this: both sides satisfy the same two rules.
-2. The value $0! = 1$ is a choice, but it is the only choice that makes the rule $1! = 1 \cdot 0!$ give $1! = 1$. It also matches the count of orderings of an empty set, which is one.
-3. If we change the base case to $0! = c$, the rules define the function $n \mapsto c \cdot n!$. So the base case is part of the definition, and it cannot be left out.
-4. The same pattern defines powers: $a^0 = 1$ and $a^{n+1} = a \cdot a^n$.
+The recursive definition agrees with the product $n! = 1 \cdot 2 \cdots n$ for $n \ge 1$.
+Induction proves it, because the product also satisfies the recursive rule and gives $1$ at $n = 1$.
+
+The base case is part of the definition and cannot be left out.
+With $0! = c$ in place of $0! = 1$, the same rules give the function $n \mapsto c \cdot n!$, so each $c$ gives a different function.
+The choice $c = 1$ is the one that makes $1! = 1 \cdot 0!$ equal $1$, and it matches the count of orderings of the empty set, which is one.
+
+The same pattern defines powers, with $a^0 = 1$ and $a^{n + 1} = a \cdot a^n$, and sums, with an empty sum equal to $0$.
 
 ## Explanations
 
@@ -56,14 +61,16 @@ So the factorials are $1, 1, 2, 6, 24, 120$, and each one comes from the one bef
 
 ### L2 human
 
-We prove from the recursive definition that $n! \geq 2^{n-1}$ for each $n \geq 1$.
+We prove from the recursive definition that $n! \ge 2^{n - 1}$ for every $n \ge 1$.
 
-1. For $n = 1$: $1! = 1 = 2^0$.
-2. Suppose that $n! \geq 2^{n-1}$ for some $n \geq 1$.
+1. For $n = 1$ we have $1! = 1 = 2^0$.
+2. Suppose that $n! \ge 2^{n - 1}$ for some $n \ge 1$.
 3. By the recursive case, $(n + 1)! = (n + 1) \cdot n!$.
-4. Since $n \geq 1$, we have $n + 1 \geq 2$.
-5. So $(n + 1)! \geq 2 \cdot 2^{n-1} = 2^n$, by steps 2 and 4.
-6. By induction, the inequality holds for each $n \geq 1$.
+4. Since $n \ge 1$, we have $n + 1 \ge 2$.
+5. By steps 2 and 4,
+   $$(n + 1)! \ge 2 \cdot 2^{n - 1} = 2^n.$$
+6. By induction, the inequality holds for every $n \ge 1$.
 
-The typical use of a recursive definition is a proof by induction whose induction step uses the recursive case.
-A trap is to use the formula $1 \cdot 2 \cdots n$ for $n = 0$: the product has no factors, so its value $1$ comes from a convention, not from the formula.
+Check: $4! = 24 \ge 8 = 2^3$.
+The induction step of the proof uses the recursive case, and that is the usual way to prove facts about a recursively defined function.
+Watch out: the product $1 \cdot 2 \cdots n$ has no factors at $n = 0$, so the value $0! = 1$ comes from the base case or from the convention for an empty product, not from the product formula.
