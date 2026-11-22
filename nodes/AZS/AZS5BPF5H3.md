@@ -31,7 +31,7 @@ The Cayley transform closes the story: it describes the rotations without the ei
 9. [[Rotation matrix|HNY4CPEEJA]]: the matrices $R(\theta)$ and the basic rotations of $\R^3$.
 10. [[Reflection|06BRDF3F0E]]: the reflection in a hyperplane, the Householder matrix, and [[how reflections generate $O(n)$|FEER10D15S]].
 11. [[Classification of O(2)|C97Z06HHB2]]: every isometry of the plane that fixes $0$ is a rotation or a reflection.
-12. [[Classification of O(3) and Euler's rotation theorem|2ZVG43GSKA]]: every rotation of space has an axis, and the trace gives its angle.
+12. [[Classification of O(3) and Euler's rotation theorem|2ZVG43GSKA]]: every rotation of space has an axis.
 13. [[Normal form of an orthogonal matrix|QTY3VMFGY1]]: a block form with rotations and $\pm 1$, obtained from the [[real normal form|G6T1FNE3JC]].
 14. [[Cartan-Dieudonné theorem|0VMWGYY35Q]]: at most $n$ reflections suffice for each element of $O(n)$.
 15. [[Cayley transform of matrices|HKQ5YY027B]]: skew-symmetric matrices and [[the rotations without the eigenvalue $-1$|R9Z3W1CFPP]].
