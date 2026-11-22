@@ -20,7 +20,8 @@ sources:
 
 ## Statement
 
-Two matrices over a field are similar exactly when their characteristic matrices $xI - A$ and $xI - B$ can be turned into each other by invertible row and column operations over $F[x]$, and the Smith normal form of $xI - A$ lists the invariant factors of $A$.
+Two matrices over a field are similar exactly when their characteristic matrices $xI - A$ and $xI - B$ are related by invertible row and column operations over $F[x]$.
+The Smith normal form of $xI - A$ then lists the invariant factors of $A$.
 
 Let $F$ be a field and $A, B \in M_n(F)$.
 The *characteristic matrix* of $A$ is $xI - A \in M_n(F[x])$.
