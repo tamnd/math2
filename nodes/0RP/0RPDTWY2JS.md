@@ -39,6 +39,7 @@ A [[projection|033DA1WE8Y]] $P$ has $\tr P = (\rank P) \cdot 1_F$, by the [[theo
 So $\tr P = \rank P$ in characteristic $0$, but not always in characteristic $p$.
 
 Watch out: with two different bases $B$ and $C$, the diagonal sum of $[T]_{C,B}$ can change, as the [[non-example|VND2T4RZK8]] shows.
+The [[concept page on the trace of a linear map|0KZDNGA561]] collects more examples and the rules for computing with the trace.
 
 ## Explanations
 
