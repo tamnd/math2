@@ -20,90 +20,123 @@ sources:
 
 ## Summary
 
-Let $n \ge 1$.
-The *orthogonal group* $O(n)$ is the set of real $n \times n$ [[orthogonal matrices|0W02QESPJQ]], $O(n) = \set{Q \in M_n(\R) : Q^TQ = I_n}$, with matrix multiplication as the group operation.
+The orthogonal group collects all the ways to move $\R^n$ rigidly while the origin stays fixed.
+In the plane these moves are the turns about the origin and the mirror images in lines through the origin, and two of them done in a row give a third.
+For $n \ge 1$, the *orthogonal group* is the set of real $n \times n$ [[orthogonal matrices|0W02QESPJQ]],
+$$O(n) = \{ Q \in M_n(\R) : Q^{\mathsf{T}} Q = I_n \},$$
+with matrix multiplication as the group operation.
 It is a [[subgroup|0X1JXT47GA]] of the [[general linear group|0FCHE902D7]] $GL_n(\R)$.
-By [[the matrix form of isometries|F7M8ZXB4P7]], it is the group of [[linear isometries|07SJXTWVQW]] of $\R^n$ with the dot product.
-By [[the polarization theorem|0R7VXTYHYZ]], it is also the group of all maps $\R^n \to \R^n$ that keep distances and fix $0$.
-The orthogonal group is the symmetry group of Euclidean geometry around a fixed point, so it appears wherever lengths and angles matter.
+By [[the equivalent conditions for an orthogonal matrix|F7M8ZXB4P7]], it is the group of [[linear isometries|07SJXTWVQW]] of $\R^n$ with the dot product.
 
 ## Motivation
 
-The symmetries of a figure that keep its centre fixed form a group.
-For the round sphere centred at $0$, all rotations and all reflections in planes through $0$ are symmetries.
-We want one group that contains all these symmetries at once.
-This group is $O(n)$, and the symmetry group of every figure centred at $0$ that keeps distances is a subgroup of it.
+The symmetries of a figure that keep its center fixed form a group, and we want one group that contains all of them at once.
+For a square centered at $0$ the symmetries are four turns and four mirror images, and for a cube there are $48$.
+Each of these moves keeps lengths and fixes $0$.
+By [[the theorem on isometries and inner products|0R7VXTYHYZ]], a map of $\R^n$ that keeps distances and fixes $0$ is linear, so it is an orthogonal matrix.
+So $O(n)$ is the largest such group, and the symmetry group of every figure centered at $0$ sits inside it.
+
+The same group returns in many places.
+A change from one orthonormal basis of $\R^n$ to another is an element of $O(n)$.
+In mechanics, the positions of a rigid body with one fixed point are elements of the rotation subgroup, and the [[normal form|QTY3VMFGY1]] and the [[Cartan-Dieudonné theorem|0VMWGYY35Q]] later describe every element of $O(n)$ in simple pieces.
 
 ## Notation
 
-- Books write $O(n)$, $O_n(\R)$ or $O(n, \R)$. For a real inner product space $V$, the group of its bijective linear isometries is $O(V)$.
-- Mathlib writes `Matrix.orthogonalGroup (Fin n) ℝ`.
-- A warning on words: some authors use "orthogonal transformation" only for rotations, the elements of [[$SO(n)$|6WBVP2PB1Y]]. In this topic, an orthogonal transformation is any element of $O(n)$.
+Books write $O(n)$, $O_n(\R)$ or $O(n, \R)$, and for a real inner product space $V$ of finite dimension they write $O(V)$ for the group of its bijective linear isometries.
+Mathlib writes `Matrix.orthogonalGroup (Fin n) ℝ`, the matrices `A` with `star A * A = 1` and `A * star A = 1`, where `star` is the transpose for real matrices.
+Watch the words: some authors say "orthogonal transformation" only for rotations, the elements of the [[special orthogonal group|6WBVP2PB1Y]] $SO(n)$.
+Here an orthogonal transformation is any element of $O(n)$.
 
 ## Remarks
 
-### Examples
+### The smallest cases
 
-- [[$O(1) = \set{1, -1}$|D9VHRJRMAS]], because a $1 \times 1$ matrix $(a)$ with $a^2 = 1$ has $a = \pm 1$.
-- $O(2)$ consists of the rotations $R(\theta)$ and the reflections in lines through $0$, by [[the classification of O(2)|C97Z06HHB2]].
-- [[The eight signed permutation matrices of size 2|HV3HWHW9RE]] form a subgroup of $O(2)$, the symmetry group of a square centred at $0$.
-- The $48$ signed permutation matrices of size $3$ form a subgroup of $O(3)$, the symmetry group of the cube with vertices $(\pm 1, \pm 1, \pm 1)$. There are $3! = 6$ permutations and $2^3 = 8$ choices of signs.
-- The [[special orthogonal group|6WBVP2PB1Y]] $SO(n)$ is a subgroup of $O(n)$ of index $2$.
+For $n = 1$, a matrix $(a)$ is orthogonal when $a^2 = 1$, so [[O(1) has the two elements 1 and -1|D9VHRJRMAS]].
+For $n = 2$, the [[classification of O(2)|C97Z06HHB2]] shows that every element is a rotation
+$$R(\theta) = \begin{pmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{pmatrix}$$
+or a reflection in a line through $0$, so $O(2)$ is already infinite.
+Inside $O(2)$ sit [[the eight signed permutation matrices of size 2|HV3HWHW9RE]], the symmetry group of a square centered at $0$.
+In the same way, $O(3)$ contains the $3! \cdot 2^3 = 48$ signed permutation matrices of size $3$: there are $6$ ways to permute the axes and $8$ ways to choose the signs.
+They form the symmetry group of the cube with corners $(\pm 1, \pm 1, \pm 1)$.
 
-### Non-examples
+### Why it is a group
 
-- [[The group of real $2 \times 2$ matrices with determinant $\pm 1$|R304WJSMWX]] is not $O(2)$: it contains the shear $\begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$, which is not orthogonal.
-- The set of reflections of $\R^2$ is not a subgroup of $O(2)$. The product of two reflections is a rotation, so the set is not closed under products.
-- The set of $2 \times 2$ matrices with orthogonal columns is not a group, because it contains the zero matrix, which has no inverse.
+The identity is orthogonal, and products and inverses stay orthogonal.
+For $P, Q \in O(n)$ we compute
+$$(PQ)^{\mathsf{T}} (PQ) = Q^{\mathsf{T}} P^{\mathsf{T}} P Q = Q^{\mathsf{T}} Q = I_n.$$
+The inverse of $Q$ is $Q^{\mathsf{T}}$, and $(Q^{\mathsf{T}})^{\mathsf{T}} Q^{\mathsf{T}} = Q Q^{\mathsf{T}} = I_n$, because a one-sided inverse of a square matrix is two-sided.
+So $O(n)$ is a subgroup of $GL_n(\R)$.
+It is not commutative for $n \ge 2$, as the worked problem in the explanations below shows.
 
-### Basic properties
+### Two halves
 
-- $O(n)$ is a subgroup of $GL_n(\R)$. It contains $I_n$, and for $P, Q \in O(n)$ we have $(PQ)^T(PQ) = Q^TP^TPQ = Q^TQ = I_n$ and $(Q^{-1})^TQ^{-1} = QQ^T = I_n$.
-- Each element has determinant $\pm 1$, by [[the determinant theorem|QDZJMFATRW]], and $\det \colon O(n) \to \set{1, -1}$ is a surjective [[homomorphism|0JYTG5K9Y4]] with kernel $SO(n)$, see [[this theorem|XAVVA317M0]].
-- So $O(n)$ is the union of $SO(n)$ and the coset $D \cdot SO(n)$ of the matrices with determinant $-1$, where $D = \operatorname{diag}(-1, 1, \dots, 1)$.
-- These two cosets are the two connected components of $O(n)$. $SO(n)$ is the component of the identity.
-- $O(n)$ is compact, because the condition $Q^TQ = I_n$ is closed and makes each entry lie in $[-1, 1]$.
-- $O(n)$ is generated by reflections, by [[the reflection theorem|FEER10D15S]]. The [[Cartan-Dieudonné theorem|0VMWGYY35Q]] gives at most $n$ reflections for each element.
-- $O(n)$ is a compact [[Lie group|7JBRGCVJRB]] of dimension $\frac{n(n - 1)}{2}$, one of the [[classical groups|75H4HY10Z4]]. The Lie theory of these groups belongs to the area of Lie groups.
+Every orthogonal matrix has [[determinant 1 or -1|QDZJMFATRW]], and the map $\det \colon O(n) \to \{1, -1\}$ is a surjective [[homomorphism|0JYTG5K9Y4]].
+Its kernel is $SO(n)$, so [[SO(n) has index two|XAVVA317M0]], and the other coset is the set of orthogonal matrices with determinant $-1$.
+With $D = \operatorname{diag}(-1, 1, \dots, 1)$, that coset is $D \cdot SO(n)$.
+
+The two cosets are also the two connected components of $O(n)$.
+The determinant is continuous and takes only the values $1$ and $-1$, so no path in $O(n)$ joins a rotation to a mirror image.
+On the other side, $SO(n)$ is connected: by the normal form, a rotation is built from blocks $R(\theta_k)$, and the path $t \mapsto R(t\theta_k)$ for $t$ from $1$ to $0$ joins it to $I_n$.
+The group $O(n)$ is also compact, because $Q^{\mathsf{T}} Q = I_n$ is a closed condition and it forces every entry into $[-1, 1]$.
+
+### What it is not
+
+The [[matrices with determinant 1 or -1|R304WJSMWX]] form a group that is larger than $O(2)$.
+It contains the shear $\begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$, which keeps areas but sends $(0, 1)$ to $(1, 1)$, of length $\sqrt{2}$.
+The set of reflections of the plane is not a subgroup either, because the product of two reflections is a rotation.
+The set of $2 \times 2$ matrices with orthogonal columns is not a group, because it contains the zero matrix, which has no inverse.
+
+### Built from reflections
+
+Every element of $O(n)$ is a product of [[reflections|06BRDF3F0E]] in hyperplanes, by [[the theorem on reflections|FEER10D15S]].
+The [[Cartan-Dieudonné theorem|0VMWGYY35Q]] makes this exact: at most $n$ reflections are needed.
+The bound is reached, for example by [[a product of three reflections of space|YXTM3P2YV8]] that fixes no nonzero vector.
+The parity of the number of reflections is fixed by the determinant: an even number gives a rotation, and an odd number gives determinant $-1$.
+
+### Watch out
+
+The matrices with determinant $-1$ do not form a subgroup, because they do not contain $I_n$, and the product of two of them has determinant $1$.
+The map $x \mapsto -x$ is a rotation in even dimension and not in odd dimension, because $\det(-I_n) = (-1)^n$.
+So [[the point reflection of space|X77QN4Y9VD]] is in $O(3)$ but not in $SO(3)$, while $-I_2 = R(\pi)$ is a half turn of the plane.
 
 ### History
 
-The name comes from a property of its elements.
-Up to a scaling, the elements of $O(n)$ are the linear maps of a Euclidean space that send orthogonal vectors to orthogonal vectors.
+The name comes from a property of the elements.
+Up to a common scaling factor, the elements of $O(n)$ are exactly the linear maps of a Euclidean space that send orthogonal vectors to orthogonal vectors.
 
-### Common errors
+### Try it
 
-- $O(n)$ is not connected, so a continuous path inside $O(n)$ cannot join a rotation to a reflection.
-- $O(n)$ is not commutative for $n \ge 2$. Two reflections of the plane in different lines give different products in the two orders.
-- $SO(n)$ is the kernel of the determinant, so it is a normal subgroup, but the set of matrices with determinant $-1$ is not a subgroup: it does not contain $I_n$.
+First, is $Q = \frac{1}{3}\begin{pmatrix} 1 & 2 & 2 \\ 2 & 1 & -2 \\ 2 & -2 & 1 \end{pmatrix}$ in $O(3)$?
+Yes: each column has squared length $\frac{1 + 4 + 4}{9} = 1$, and the dot products of columns are $\frac{2 + 2 - 4}{9} = 0$, $\frac{2 - 4 + 2}{9} = 0$ and $\frac{4 - 2 - 2}{9} = 0$.
+
+Second, explain why $O(n)$ has no element $Q$ with $Q^2 = -I_n$ when $n$ is odd.
+Taking determinants gives $(\det Q)^2 = (-1)^n = -1$, which is impossible for a real number.
 
 ## Explanations
 
 ### L1 human
 
-The orthogonal group collects all the ways to turn or mirror space while the origin stays fixed.
-Two such moves done one after the other give another such move.
-Each move can be undone.
-In the plane, the moves are the turns about the origin and the mirror images in lines through the origin.
-For the number line, there are only two moves: do nothing, or swap each number with its negative.
+The orthogonal group is the collection of all the ways to turn or mirror space while the origin stays fixed.
+Two such moves done one after the other give another such move, and each move can be undone.
+On the number line there are only two moves: do nothing, or send each number $x$ to $-x$.
+In the plane there are infinitely many, one turn for each angle and one mirror for each line through the origin.
 
 ### L2 human
 
-Worked example: the group $O(2)$ contains a rotation and a reflection that do not commute.
-
-1. Let $R = R(\pi/2) = \begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}$ and $S = \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}$, the reflection in the $x$-axis.
-2. $RS = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$, the reflection in the line $y = x$.
-3. $SR = \begin{pmatrix} 0 & -1 \\ -1 & 0 \end{pmatrix}$, the reflection in the line $y = -x$.
-4. So $RS \neq SR$, and $O(2)$ is not commutative.
-5. Both products have determinant $-1$, as $\det(RS) = \det R \det S = 1 \cdot (-1)$ says.
-
-The typical use: to show that a set of matrices is a group of symmetries, show that it is a subgroup of $O(n)$.
-A trap: the matrices with determinant $-1$ do not form a subgroup.
+Here is a typical problem: do a rotation and a reflection of the plane commute?
+Take the quarter turn $R = R(\pi/2)$ and the reflection $S$ in the $x$-axis:
+$$R = \begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}, \qquad S = \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}.$$
+Multiply in both orders:
+$$RS = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}, \qquad SR = \begin{pmatrix} 0 & -1 \\ -1 & 0 \end{pmatrix}.$$
+The first product is the reflection in the line $y = x$, and the second is the reflection in the line $y = -x$.
+Check: both have determinant $-1$, as $\det(RS) = \det R \det S = 1 \cdot (-1)$ requires.
+So $RS \ne SR$, and $O(2)$ is not commutative.
+The problem shows the typical use of the group: you name the symmetries as matrices, and then products of matrices answer questions about doing one symmetry after another.
 
 ### L3 human
 
-$O(n)$ is a compact Lie group of dimension $\frac{n(n - 1)}{2}$, with Lie algebra the skew-symmetric matrices.
-It has two connected components, and $\pi_0(O(n)) = \Z/2\Z$ is detected by the determinant.
+The group $O(n)$ is a compact [[Lie group|7JBRGCVJRB]] of dimension $\frac{n(n-1)}{2}$, one of the [[classical groups|75H4HY10Z4]], and its Lie algebra is the space of real skew-symmetric matrices.
+Its two components are detected by the determinant, so $\pi_0(O(n)) \cong \Z/2\Z$; the area on Lie groups studies this structure.
 The [[Cayley transform|HKQ5YY027B]] gives a chart of $SO(n)$ near $I_n$ by skew-symmetric matrices.
-For a nondegenerate symmetric bilinear form $B$ on a vector space over any field, the matrices with $Q^TBQ = B$ form the orthogonal group $O(B)$.
-For the form with matrix $\operatorname{diag}(1, \dots, 1, -1, \dots, -1)$ over $\R$, this gives the [[indefinite orthogonal groups|M2900DMEW6]], for example the Lorentz group.
+For a nondegenerate symmetric bilinear form $B$ on a vector space over any field, the maps that keep $B$ form the orthogonal group $O(B)$.
+Over $\R$ with the form of matrix $\operatorname{diag}(1, \dots, 1, -1, \dots, -1)$ this gives the [[indefinite orthogonal groups|M2900DMEW6]], among them the Lorentz group of special relativity.
