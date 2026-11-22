@@ -21,7 +21,7 @@ sources:
 
 ## Definition
 
-Let $R$ be a commutative ring, let $n \ge 2$, let $i \ne j$ be indices in $\set{1, \dots, n}$ and let $c \in R$.
+Let $R$ be a commutative ring, let $n \ge 2$, let $i \ne j$ be indices in $\{1, \dots, n\}$ and let $c \in R$.
 Let $E_{ij}$ be the $n \times n$ matrix with entry $1$ in position $(i, j)$ and $0$ elsewhere.
 The *transvection matrix* is
 $$T_{ij}(c) = I_n + c E_{ij}.$$

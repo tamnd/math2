@@ -14,19 +14,29 @@ sources:
 
 ## Example
 
-Let $S = T_{12}(3) = \begin{pmatrix} 1 & 3 \\ 0 & 1 \end{pmatrix}$ over $\mathbb{R}$, a [[transvection matrix|0NMN00FNW1]].
+The horizontal shear by $3$ is the [[transvection matrix|0NMN00FNW1]]
+$$S = T_{12}(3) = \begin{pmatrix} 1 & 3 \\ 0 & 1 \end{pmatrix}, \qquad S \begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} x + 3y \\ y \end{pmatrix}$$
+over $\mathbb{R}$.
+Each point moves parallel to the $x$-axis by $3$ times its height $y$, and the points of the $x$-axis, where $y = 0$, stay fixed.
 
-1. $S(x, y)^{\mathsf{T}} = (x + 3y, \; y)^{\mathsf{T}}$. Each point moves parallel to the $x$-axis by $3$ times its height $y$.
-2. Points of the $x$-axis are fixed: $S(x, 0)^{\mathsf{T}} = (x, 0)^{\mathsf{T}}$.
-3. $\det S = 1 \cdot 1 - 3 \cdot 0 = 1$, so areas are kept. The unit square goes to the parallelogram with corners $(0, 0)$, $(1, 0)$, $(4, 1)$ and $(3, 1)$, which has base $1$ and height $1$.
-4. The inverse is $T_{12}(-3) = \begin{pmatrix} 1 & -3 \\ 0 & 1 \end{pmatrix}$. Check: $\begin{pmatrix} 1 & 3 \\ 0 & 1 \end{pmatrix}\begin{pmatrix} 1 & -3 \\ 0 & 1 \end{pmatrix} = \begin{pmatrix} 1 & -3 + 3 \\ 0 & 1 \end{pmatrix} = I_2$, and the product in the other order is $I_2$ by the same computation.
-5. $S^2 = T_{12}(6)$: $\begin{pmatrix} 1 & 3 \\ 0 & 1 \end{pmatrix}^2 = \begin{pmatrix} 1 & 3 + 3 \\ 0 & 1 \end{pmatrix}$.
+The unit square goes to the parallelogram with corners
+$$S(0, 0) = (0, 0), \quad S(1, 0) = (1, 0), \quad S(1, 1) = (4, 1), \quad S(0, 1) = (3, 1).$$
+It has base $1$ and height $1$, so its area is $1$, which matches $\det S = 1 \cdot 1 - 3 \cdot 0 = 1$.
+
+The shear in the opposite direction undoes $S$:
+$$\begin{pmatrix} 1 & 3 \\ 0 & 1 \end{pmatrix} \begin{pmatrix} 1 & -3 \\ 0 & 1 \end{pmatrix} = \begin{pmatrix} 1 & -3 + 3 \\ 0 & 1 \end{pmatrix} = I_2,$$
+and the product in the other order is $I_2$ by the same computation, so $S^{-1} = T_{12}(-3)$.
+Shearing twice by $3$ is shearing once by $6$:
+$$S^2 = \begin{pmatrix} 1 & 3 + 3 \\ 0 & 1 \end{pmatrix} = T_{12}(6).$$
 
 ## Remarks
 
-The example shows the law $T_{12}(a) T_{12}(b) = T_{12}(a + b)$ in steps 4 and 5.
-If we change $3$ to $c$, then the shear moves points by $c y$, and $c = 0$ gives the identity.
-The transpose $T_{21}(3) = \begin{pmatrix} 1 & 0 \\ 3 & 1 \end{pmatrix}$ is the vertical shear that fixes the $y$-axis.
+The last two computations are cases of the addition rule $T_{12}(a)\,T_{12}(b) = T_{12}(a + b)$, with $(a, b) = (3, -3)$ and $(3, 3)$.
+If we change $3$ to any $c$, the shear moves points by $cy$, and $c = 0$ gives the identity.
+The transpose $T_{21}(3) = \begin{pmatrix} 1 & 0 \\ 3 & 1 \end{pmatrix}$ is the vertical shear, which fixes the $y$-axis and moves points up by $3x$.
+
+A shear keeps areas but not lengths or angles.
+The side from $(0, 0)$ to $(0, 1)$ of the square, of length $1$, goes to the side from $(0, 0)$ to $(3, 1)$, of length $\sqrt{10}$, and the right angle at the origin is lost.
 
 ## Explanations
 
@@ -38,5 +48,5 @@ This is what the matrix does to the plane.
 
 ### L2 human
 
-The point is that a shear is invertible with determinant $1$, and its inverse is the shear in the opposite direction.
-A trap: the shear does not keep lengths or angles, only areas.
+The point is that a shear is invertible with determinant $1$, and its inverse is the shear by the same amount in the opposite direction.
+A trap: since the shear keeps area, it is easy to think it keeps shape too, but the square becomes a slanted parallelogram.
