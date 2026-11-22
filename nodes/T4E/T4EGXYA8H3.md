@@ -15,27 +15,41 @@ sources:
 
 ## Example
 
-Let $A = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}$ over $\mathbb{Q}$, so $A^{\mathsf{T}} = \begin{pmatrix} 1 & 3 \\ 2 & 4 \end{pmatrix}$.
+Let
+$$A = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}, \qquad A^{\mathsf{T}} = \begin{pmatrix} 1 & 3 \\ 2 & 4 \end{pmatrix}$$
+over $\mathbb{Q}$.
+We split $A$ into a symmetric part and a skew-symmetric part.
 
-1. $A + A^{\mathsf{T}} = \begin{pmatrix} 2 & 5 \\ 5 & 8 \end{pmatrix}$, so $S = \tfrac12 (A + A^{\mathsf{T}}) = \begin{pmatrix} 1 & 5/2 \\ 5/2 & 4 \end{pmatrix}$.
-2. $A - A^{\mathsf{T}} = \begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}$, so $K = \tfrac12 (A - A^{\mathsf{T}}) = \begin{pmatrix} 0 & -1/2 \\ 1/2 & 0 \end{pmatrix}$.
-3. $S$ is [[symmetric|0N28QN4CYA]], and $K$ is [[skew-symmetric|03RNVFDEAN]] with zero diagonal.
-4. Entry by entry, $S + K = \begin{pmatrix} 1 + 0 & 5/2 - 1/2 \\ 5/2 + 1/2 & 4 + 0 \end{pmatrix} = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix} = A$.
+1. Add $A$ and $A^{\mathsf{T}}$ and halve:
+$$A + A^{\mathsf{T}} = \begin{pmatrix} 2 & 5 \\ 5 & 8 \end{pmatrix}, \qquad S = \tfrac12 (A + A^{\mathsf{T}}) = \begin{pmatrix} 1 & 5/2 \\ 5/2 & 4 \end{pmatrix}.$$
+2. Subtract and halve:
+$$A - A^{\mathsf{T}} = \begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}, \qquad K = \tfrac12 (A - A^{\mathsf{T}}) = \begin{pmatrix} 0 & -1/2 \\ 1/2 & 0 \end{pmatrix}.$$
+3. The two entries of $S$ off the diagonal are equal, so $S$ is [[symmetric|0N28QN4CYA]]; the two entries of $K$ off the diagonal are opposite and its diagonal is $0$, so $K$ is [[skew-symmetric|03RNVFDEAN]].
+4. Add the parts entry by entry:
+$$S + K = \begin{pmatrix} 1 + 0 & 5/2 - 1/2 \\ 5/2 + 1/2 & 4 + 0 \end{pmatrix} = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix} = A.$$
 
 ## Remarks
 
 The [[decomposition theorem|K284W6D15Z]] says that no other pair works.
-For $x = (x_1, x_2)$, $x^{\mathsf{T}} A x = x_1^2 + 5 x_1 x_2 + 4 x_2^2 = x^{\mathsf{T}} S x$.
-So the skew part $K$ contributes nothing to the quadratic form.
+Indeed, if $A = S' + K'$ with $S'$ symmetric and $K'$ skew-symmetric, then entry $(1, 2)$ gives $s + k = 2$ and entry $(2, 1)$ gives $s - k = 3$, where $s = s'_{12}$ and $k = k'_{12}$; so $s = 5/2$ and $k = -1/2$.
+
+The skew part is invisible to the quadratic form of $A$.
+For $x = (x_1, x_2)$,
+$$x^{\mathsf{T}} A x = x_1^2 + (2 + 3) x_1 x_2 + 4 x_2^2 = x_1^2 + 5 x_1 x_2 + 4 x_2^2 = x^{\mathsf{T}} S x,$$
+since $x^{\mathsf{T}} K x = -\tfrac12 x_1 x_2 + \tfrac12 x_2 x_1 = 0$.
+
+Over $\mathbb{Z}$ the same matrix has no such splitting, since the entries $5/2$ and $1/2$ are not integers.
 
 ## Explanations
 
 ### L1 human
 
-The symmetric part averages the two mirror entries $2$ and $3$ to get $5/2$.
-The skew part keeps the difference, $\pm 1/2$, with opposite signs.
+The symmetric part replaces the two mirror entries $2$ and $3$ by their average, $5/2$.
+The skew part keeps half their difference, $-1/2$ above the diagonal and $1/2$ below it.
+Adding the two parts gives back $A$.
 
 ### L2 human
 
+The typical use is to simplify a quadratic form: replace $A$ by its symmetric part $S$, which gives the same values $x^{\mathsf{T}} A x$.
 The diagonal of $A$ goes entirely into $S$, because a skew-symmetric matrix over $\mathbb{Q}$ has zero diagonal.
-The entries $1/2$ show why the theorem needs $2$ to be invertible.
+Watch out: the halves are needed, which is why the theorem asks for $2$ to be invertible.

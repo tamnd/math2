@@ -16,28 +16,35 @@ sources:
 
 ## Example
 
+A pile of small matrices that fits together into a rectangle is not yet a block matrix: the cuts must form a grid.
 Take the $1 \times 2$ matrices $P = \begin{pmatrix} 1 & 2 \end{pmatrix}$ and $U = \begin{pmatrix} 5 & 6 \end{pmatrix}$, and the $1 \times 1$ matrices $Q = (3)$ and $S = (4)$.
-Try to form $\begin{pmatrix} P & Q \\ S & U \end{pmatrix}$.
+Try to form the array $\begin{pmatrix} P & Q \\ S & U \end{pmatrix}$.
 
-1. Writing the entries in place gives the rows $(1, 2, 3)$ and $(4, 5, 6)$, so a $2 \times 3$ array of numbers exists.
-2. In the first row the vertical cut lies after column $2$, and in the second row it lies after column $1$.
-3. A [[block matrix|01AXG9KZQF]] needs one cut for the columns that runs through all the rows.
-4. So the blocks $P$ and $S$ in the first block column have different widths, $2$ and $1$, and the array of blocks is not a block matrix.
+1. Writing the entries in place gives the rows $(1, 2, 3)$ and $(4, 5, 6)$, so a $2 \times 3$ array of numbers does appear.
+2. In the first row the vertical cut lies after column $2$, between $P$ and $Q$.
+3. In the second row the vertical cut lies after column $1$, between $S$ and $U$.
+4. A [[block matrix|01AXG9KZQF]] needs one column partition $n = n_1 + n_2$ that holds in every row, so the blocks of one block column must have equal widths.
+5. Here the first block column holds $P$ of width $2$ and $S$ of width $1$, so the condition fails, and the array is not a block matrix.
 
 ## Remarks
 
 The $2 \times 3$ matrix of step 1 is a block matrix for other partitions, for example rows $1 + 1$ and columns $2 + 1$.
-For that partition its blocks are $P$, $Q$, $\begin{pmatrix} 4 & 5 \end{pmatrix}$ and $(6)$, not the blocks above.
-The block rules, such as [[block multiplication|WR3RCF5PSQ]], need full cuts.
+For that partition its blocks are $P$, $Q$, $\begin{pmatrix} 4 & 5 \end{pmatrix}$ and $(6)$, not the four pieces above.
+
+The condition matters for the rules.
+The [[block multiplication rule|WR3RCF5PSQ]] multiplies a block row of $A$ against a block column of $B$, and that only works when every block in a block column has the same width.
+If we take $S = \begin{pmatrix} 4 & 5 \end{pmatrix}$ and $U = (6)$ instead, both block columns have constant widths $2$ and $1$, the cut is straight, and we get a block matrix.
 
 ## Explanations
 
 ### L1 human
 
-The lines that cut a block matrix must go all the way across.
-Here the vertical line would have to jump, so these pieces do not form a block matrix.
+The lines that cut a block matrix must go all the way across it.
+Here the vertical line would have to jump one column to the left between the first and the second row.
+So the pieces make a rectangle, but they do not make a grid.
 
 ### L2 human
 
-The condition says that the blocks form a grid.
-A grid is needed so that a block row of $A$ can meet a block column of $B$ in matching sizes.
+To test whether pieces form a block matrix, list the widths in each block column and the heights in each block row.
+Each list must be constant.
+Here the widths in the first block column are $2$ and $1$, so the test fails at that column.

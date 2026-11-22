@@ -17,27 +17,37 @@ sources:
 
 ## Example
 
-Let $A = \begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix}$ and $B = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$.
-Both are [[symmetric|0N28QN4CYA]].
+Let
+$$A = \begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix}, \qquad B = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$$
+over $\mathbb{R}$.
+Both are [[symmetric|0N28QN4CYA]], and we show that their [[product|076JGP6R3T]] is not.
 
-1. $AB = \begin{pmatrix} 1 \cdot 0 + 0 \cdot 1 & 1 \cdot 1 + 0 \cdot 0 \\ 0 \cdot 0 + 0 \cdot 1 & 0 \cdot 1 + 0 \cdot 0 \end{pmatrix} = \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}$.
-2. $BA = \begin{pmatrix} 0 \cdot 1 + 1 \cdot 0 & 0 \cdot 0 + 1 \cdot 0 \\ 1 \cdot 1 + 0 \cdot 0 & 1 \cdot 0 + 0 \cdot 0 \end{pmatrix} = \begin{pmatrix} 0 & 0 \\ 1 & 0 \end{pmatrix}$.
-3. $AB$ has entry $1$ at $(1, 2)$ and $0$ at $(2, 1)$, so $AB$ is not symmetric.
-4. Also $(AB)^{\mathsf{T}} = BA$, as the [[theorem|YX9Z3E9SGN]] predicts, and $AB \neq BA$.
+1. Multiply in the order $AB$:
+$$AB = \begin{pmatrix} 1 \cdot 0 + 0 \cdot 1 & 1 \cdot 1 + 0 \cdot 0 \\ 0 \cdot 0 + 0 \cdot 1 & 0 \cdot 1 + 0 \cdot 0 \end{pmatrix} = \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}.$$
+2. The entry of $AB$ at $(1, 2)$ is $1$ and the entry at $(2, 1)$ is $0$, so $AB$ is not symmetric.
+3. Multiply in the order $BA$:
+$$BA = \begin{pmatrix} 0 \cdot 1 + 1 \cdot 0 & 0 \cdot 0 + 1 \cdot 0 \\ 1 \cdot 1 + 0 \cdot 0 & 1 \cdot 0 + 0 \cdot 0 \end{pmatrix} = \begin{pmatrix} 0 & 0 \\ 1 & 0 \end{pmatrix}.$$
+4. So $AB \neq BA$, and $(AB)^{\mathsf{T}} = BA$, as the [[theorem on products of symmetric matrices|YX9Z3E9SGN]] predicts.
 
 ## Remarks
 
-$AB + BA = B$ is symmetric and $AB - BA = \begin{pmatrix} 0 & 1 \\ -1 & 0 \end{pmatrix}$ is [[skew-symmetric|0PBY4E9GQF]].
-So the symmetric matrices are closed under $A \circ B = (AB + BA)/2$ but not under the matrix product.
+The failure comes from the order of the factors, and two combinations of the products repair it.
+The sum $AB + BA = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix} = B$ is symmetric, and the difference $AB - BA = \begin{pmatrix} 0 & 1 \\ -1 & 0 \end{pmatrix}$ is [[skew-symmetric|0PBY4E9GQF]].
+This holds for every pair of symmetric matrices, since $(AB + BA)^{\mathsf{T}} = BA + AB$ and $(AB - BA)^{\mathsf{T}} = BA - AB$.
+So the symmetric matrices are closed under the product $(AB + BA)/2$, but not under the matrix product.
+
+A small change gives commuting factors.
+If we replace $B$ by $\begin{pmatrix} 0 & 0 \\ 0 & 1 \end{pmatrix}$, then $AB = BA = 0$, which is symmetric.
 
 ## Explanations
 
 ### L1 human
 
-Here two mirror-image matrices give a product that is not a mirror image.
-The cause is that $AB$ and $BA$ are different.
+Here two matrices that look the same after a flip over the diagonal have a product that does not.
+The reason is that $AB$ and $BA$ are different, and flipping $AB$ gives $BA$.
 
 ### L2 human
 
-$A$ projects onto the first axis and $B$ exchanges the axes.
-Exchanging and then projecting is not the same as projecting and then exchanging, and the failure of symmetry measures this.
+Read the two matrices as maps of the plane: $A$ projects onto the first axis, and $B$ exchanges the two axes.
+Exchanging and then projecting, which is $AB$, sends $(0, 1)$ to $(1, 0)$ and $(1, 0)$ to $0$, while projecting and then exchanging, which is $BA$, does the opposite.
+The lack of symmetry of $AB$ is exactly the difference $AB - BA$ between the two orders.
