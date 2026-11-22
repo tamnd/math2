@@ -15,31 +15,42 @@ sources:
 
 ## Example
 
-We prove that $2^n > n^2$ for every integer $n \ge 5$, by [[induction from the base case $5$|0GF6AJEBZ0]].
-
-1. Let $P(n)$ be the statement $2^n > n^2$.
-2. Base case: $2^5 = 32$ and $5^2 = 25$, and $32 > 25$. So $P(5)$ holds.
-3. A lemma for the step: for each integer $n \ge 3$, we have $n^2 \ge 2n + 1$. Indeed, $n^2 - 2n - 1 = (n - 1)^2 - 2$, and $(n - 1)^2 \ge 4$ for $n \ge 3$.
-4. Induction step: let $n \ge 5$ be arbitrary, and assume $P(n)$, that is, $2^n > n^2$.
-5. Multiply both sides by $2$: $2^{n+1} = 2 \cdot 2^n > 2n^2$, by the induction hypothesis.
-6. Write $2n^2 = n^2 + n^2$. By the lemma of step 3, $n^2 \ge 2n + 1$, because $n \ge 5 \ge 3$.
-7. So $2n^2 \ge n^2 + 2n + 1 = (n + 1)^2$. With step 5, $2^{n+1} > (n + 1)^2$, and $P(n + 1)$ holds.
-8. By steps 2 and 7 and induction from the base case $5$, $P(n)$ holds for every $n \ge 5$.
-
-The table shows the small cases:
+Doubling beats squaring in the long run, but not at the start.
+The table compares $2^n$ and $n^2$ for small $n$.
 
 | $n$ | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
 |---|---|---|---|---|---|---|---|---|
 | $2^n$ | 1 | 2 | 4 | 8 | 16 | 32 | 64 | 128 |
 | $n^2$ | 0 | 1 | 4 | 9 | 16 | 25 | 36 | 49 |
 
+The strict inequality $2^n > n^2$ holds at $n = 0$ and $n = 1$, fails at $n = 2, 3, 4$ (with equality at $2$ and at $4$), and holds again from $n = 5$ on.
+We prove that $2^n > n^2$ for every integer $n \ge 5$, by [[induction from the base case $5$|0GF6AJEBZ0]].
+
+1. Let $P(n)$ be the statement $2^n > n^2$.
+2. Base case.
+   We have $2^5 = 32$ and $5^2 = 25$, and $32 > 25$, so $P(5)$ holds.
+3. A lemma for the step: $n^2 \ge 2n + 1$ for every integer $n \ge 3$.
+   Indeed $n^2 - 2n - 1 = (n - 1)^2 - 2$, and $(n - 1)^2 \ge 4$ when $n \ge 3$.
+4. Induction step.
+   Let $n \ge 5$ be arbitrary, and assume $P(n)$, that is, $2^n > n^2$.
+5. Multiply the hypothesis by $2$, and then use the lemma, which applies because $n \ge 5 \ge 3$:
+   $$2^{n+1} = 2 \cdot 2^n > 2n^2 = n^2 + n^2 \ge n^2 + 2n + 1 = (n + 1)^2.$$
+   So $P(n + 1)$ holds.
+6. Steps 2 and 5 and induction from the base case $5$ give $P(n)$ for every $n \ge 5$.
+
+Check: at $n = 5$ the chain in step 5 reads $64 > 50 \ge 36$, and indeed $2^6 = 64 > 36 = 6^2$.
+
 ## Remarks
 
-1. The claim $2^n > n^2$ is true for $n = 0$ and $n = 1$, false for $n = 2, 3, 4$, and true for all $n \ge 5$.
-2. So the base case $5$ is the smallest base from which the induction works: $P(4)$ is false, so no induction from a base below $5$ can reach all $n \ge 5$.
-3. The step of steps 4 to 7 is valid for all $n \ge 3$, because the lemma needs only $n \ge 3$. But at $n = 3$ the hypothesis $P(3)$ is false, so the step gives nothing there.
-4. This shows that the base case and the step are independent: a true step does not make the claim true for small $n$.
-5. For the non-strict inequality $2^n \ge n^2$, the base case $n = 4$ works, because $16 \ge 16$.
+The base case $5$ is forced.
+An induction from a base $b$ proves $P(n)$ for every $n \ge b$, and $P(4)$ is false, so no base below $5$ can work.
+
+The step is valid for every $n \ge 3$, since the lemma needs only $n \ge 3$.
+At $n = 3$ and $n = 4$ the hypothesis $P(n)$ is false, so the step there is a true implication that gives nothing.
+This shows that the base case and the step are separate tasks: a valid step does not make the claim true for small $n$.
+
+For the weaker inequality $2^n \ge n^2$, the base case $n = 4$ works, because $16 \ge 16$, and the same step carries it to every $n \ge 4$.
+That inequality also holds at $n = 0, 1, 2$, but it fails at $n = 3$, where $8 < 9$.
 
 ## Explanations
 
@@ -48,20 +59,17 @@ The table shows the small cases:
 Doubling grows faster than squaring in the long run, but not at the start.
 At $n = 3$, doubling gives $8$ and squaring gives $9$, so the square is ahead.
 At $n = 5$, doubling gives $32$ and squaring gives $25$, so doubling is ahead.
-From then on, each doubling step adds more than the square grows, so doubling stays ahead forever.
+From then on, each doubling adds more than the square grows, so doubling stays ahead.
 That is why the proof starts at $5$ and not at $1$.
 
 ### L2 human
 
-We test the step at the place where the claim fails, to see why the base case matters.
+Why not start at $n = 1$, where the claim is true?
+Look at the step from $n = 1$ to $n = 2$.
+The hypothesis $2^1 > 1^2$ is true, but the conclusion $2^2 > 2^2$ says $4 > 4$, which is false.
+So the step fails at $n = 1$, and the lemma shows why: at $n = 1$ it would say $1 \ge 3$.
+At $n = 2$, $3$ and $4$ the step is a true implication, but each hypothesis ($4 > 4$, $8 > 9$, $16 > 16$) is false, so the chain cannot pass through.
+Only from $n = 5$ on are both the hypothesis and the step true.
 
-1. At $n = 3$, the step would say: if $2^3 > 3^2$, then $2^4 > 4^2$.
-2. The hypothesis $8 > 9$ is false, so the implication is true but gives no information.
-3. At $n = 4$, the step would say: if $16 > 16$, then $32 > 25$. Again the hypothesis is false.
-4. Only from $n = 5$ on are both the hypothesis and the step true, so the chain of implications starts there.
-
-The typical use of a later base case is an inequality between two functions that cross once.
-Find the crossing point by a table, then prove the step for all $n$ after it.
-A trap: a student checks the base case $n = 1$ and assumes that the step holds for every $n \ge 1$.
-The step from $1$ to $2$ fails, because $P(1)$ is true and $P(2)$ is false: $2^2 = 4$ is not greater than $2^2 = 4$.
-The lemma of step 3 needs $n \ge 3$, and this is where the student's step breaks.
+The usual way to use a later base case is to find, with a table, the point after which one function stays ahead of the other, and then to prove the step for every $n$ after that point.
+Watch out: a student who checks $n = 1$ and then writes a step "for every $n \ge 1$" has proved nothing, because the step breaks at $n = 1$.

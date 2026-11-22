@@ -18,85 +18,107 @@ sources:
 
 ## Summary
 
-Induction on size is a proof method for a claim about all objects of some kind, such as all finite graphs, sets, matrices or polynomials.
-We choose a size function $s$ that gives each object a natural number, such as the number of vertices, the number of edges, the number of elements or the degree.
-Then we prove, by [[mathematical induction|0ASJVEFA9J]] or [[strong induction|0KMVFSHFGZ]] on $n$, the statement "the claim holds for every object $X$ with $s(X) = n$".
-In the induction step we take an arbitrary object of size $n + 1$, break it into or reduce it to objects of smaller size, apply the induction hypothesis to these, and put the results back together.
-The method matters because it turns a claim about infinitely many structures into one reduction step, and it is the standard first attempt in graph theory, combinatorics and linear algebra.
+Induction on size proves a claim about all objects of some kind, such as all finite graphs or all polynomials, by induction on a number attached to each object.
+You take an arbitrary object of size $n + 1$, cut it down to a smaller object, and use the claim for the smaller one.
+
+Here is the standard first example.
+Every [[tree|0MJ0JS72DZ]] with $n \ge 1$ vertices has $n - 1$ edges.
+A tree with one vertex has $0$ edges.
+A tree with $n + 1 \ge 2$ vertices has a leaf, a vertex with one edge, and deleting the leaf and its edge leaves a tree with $n$ vertices.
+By the induction hypothesis that tree has $n - 1$ edges, so the original tree has $n$ edges, as claimed.
+
+In general, we choose a size function $s$ that gives each object a natural number: the number of vertices, edges or elements, or the degree, or the dimension.
+Then we prove, by [[mathematical induction|0ASJVEFA9J]] or [[strong induction|0KMVFSHFGZ]] on $n$, the statement
+$$P(n): \text{ the claim holds for every object } X \text{ with } s(X) = n.$$
+In the step, an arbitrary object of size $n + 1$ is reduced to objects of smaller size, the hypothesis is applied to them, and the results are put back together.
 
 ## Motivation
 
-Many claims are about objects that have no natural "next" object.
-There is no single graph after a given graph, so ordinary induction on the graphs themselves makes no sense.
-But each finite graph has a number of vertices, and removing a vertex gives a graph with one vertex fewer.
+Graphs, sets and polynomials have no single "next" object, so ordinary induction on the objects themselves makes no sense.
+But each finite graph has a number of vertices, and deleting a vertex gives a graph with one vertex fewer.
 So a claim about all finite graphs becomes a claim $P(n)$ about all graphs with $n$ vertices, and $P(n)$ can be proved by induction on $n$.
-The same idea works whenever objects have a size and a way to shrink.
+The same idea works whenever the objects have a size and a way to shrink.
+
+This is the first method to try in graph theory, combinatorics and linear algebra.
+The [[L-tromino tiling|EXRJ0JF2Q3]] is an induction on the exponent $n$ of a $2^n \times 2^n$ board.
+The [[proof of the spectral theorem|A81KPS16D7]] is an induction on the dimension, and a [[proof of Hall's marriage theorem|NGB06K7WKZ]] is an induction on the number of sets.
 
 ## Notation
 
-1. The claim is written $P(n)$: "for every object $X$ with $s(X) = n$, the property $Q(X)$ holds". The quantifier "for every $X$" is part of $P(n)$.
-2. Common size functions are $|V(G)|$ and $|E(G)|$ for a graph $G$, $|A|$ for a finite set $A$, $\deg f$ for a polynomial $f$, $\dim V$ for a vector space $V$, and $m + n$ for a pair of numbers.
-3. Proofs say "by induction on the number of vertices" or "by induction on $|V(G)|$". When the size is a sum such as $r + s$, they say "by induction on $r + s$".
+Proofs say "by induction on the number of vertices", "by induction on $|V(G)|$" or "by induction on $\deg f$".
+Common sizes are $|V(G)|$ and $|E(G)|$ for a graph $G$, $|A|$ for a finite set $A$, $\deg f$ for a polynomial $f$, $\dim V$ for a vector space $V$, and $m + n$ for a pair of numbers.
+The claim $P(n)$ always has the form "for every object $X$ with $s(X) = n$, $X$ has the property".
+The inner "for every" is a part of $P(n)$, and it is the part that beginners leave out.
 
 ## Remarks
 
-### The steps of the method
+### Why the method is valid
 
-1. Choose the size function $s$. The size must be a natural number, and the reduction step must lower it.
-2. State $P(n)$ with the quantifier over all objects of size $n$ inside it.
-3. Prove the base case: the claim for all objects of the smallest size.
-4. In the step, let $X$ be an arbitrary object of size $n + 1$ (or of size $n$, with the hypothesis for all smaller sizes).
-5. Reduce $X$: delete a vertex, an edge or an element, factor out a root, or restrict to a subspace. Check that the smaller object still satisfies the hypotheses of the claim.
-6. Apply the induction hypothesis to the smaller object, and deduce the claim for $X$.
+Induction on size is ordinary or strong induction on the natural number $n$, applied to the statement $P(n)$ with its inner quantifier.
+When $P(n)$ holds for every $n$, every object $X$ has the property, because $X$ has some size $s(X)$.
+So the method is valid exactly when induction on $\mathbb{N}$ is.
+
+Strong induction is often the right form, because a reduction can lower the size by more than one.
+Splitting a disconnected graph into two parts gives two smaller graphs of any sizes.
+Read backward, the method is a [[minimal counterexample|JGRCNPKNGG]]: a counterexample of least size exists by the [[well-ordering principle|01BX15HSRR]], and the reduction turns it into a smaller one.
 
 ### Breaking down, not building up
 
 The step must start from an arbitrary object of size $n + 1$ and reduce it.
 The opposite order, "take an object of size $n$ and add something", is called building up.
-Building up proves the claim only for the objects of size $n + 1$ that arise by adding something to an object of size $n$ that satisfies the hypotheses.
+Building up proves the claim only for the objects of size $n + 1$ that arise from an object of size $n$ by the chosen addition.
 Some objects of size $n + 1$ may not arise in this way, and then the proof misses them.
-The [[build-up argument for graphs without isolated vertices|ECMJTM9A6C]] shows a false claim "proved" in this way.
+
+The [[build-up argument for graphs without isolated vertices|ECMJTM9A6C]] "proves" a false claim in this way.
+It misses the graph made of two separate edges, which is not built from any smaller graph of the claim.
 A building-up step is correct only with an extra proof that every object of size $n + 1$ arises from an object of size $n$ that satisfies the hypotheses.
 
 ### Choosing the parameter
 
-The size function must be chosen so that the reduction keeps the hypotheses of the claim.
-For trees, removing a leaf gives a tree, so the number of vertices works; removing an arbitrary vertex can disconnect the tree.
-For a claim about connected graphs, one often removes an edge that is not a bridge, or a vertex that is not a cut vertex, and must prove that such an edge or vertex exists.
+The size must be chosen so that the reduction keeps the hypotheses of the claim.
+For trees, deleting a leaf gives a tree, so the number of vertices works.
+Deleting an arbitrary vertex does not: the middle vertex of a path with $3$ vertices leaves two separate vertices.
+For connected graphs one deletes an edge that is not a bridge, or a vertex that is not a cut vertex, and proves first that such an edge or vertex exists.
+
+For polynomials over a field, the [[root bound example|7TMGBKKMPE]] factors out $x - c$ for a root $c$, which lowers the degree by exactly $1$.
 When two parameters are involved, the sum $m + n$ or the lexicographic order on pairs can serve as the size, as in [[double induction|AABX4YPKRR]].
-When no choice of parameter makes the step work, the claim often needs to be strengthened first, which is the method of [[strengthening the induction hypothesis|F94KJC2RXP]].
+When no parameter makes the step work, the claim often needs to be stronger first, which is the method of [[strengthening the induction hypothesis|F94KJC2RXP]].
 
-### Examples
+### A count of subsets
 
-1. [[A tree with $n$ vertices has $n - 1$ edges|RJB83Z4N9B]], by induction on $n$: remove a leaf and its edge.
-2. [[A nonzero polynomial of degree $d$ over a field has at most $d$ roots|7TMGBKKMPE]], by induction on $d$: factor out $x - c$ for a root $c$.
-3. A set with $n$ elements has $2^n$ subsets, by induction on $n$: fix one element $a$; the subsets that do not contain $a$ and those that contain $a$ are each in bijection with the subsets of a set with $n - 1$ elements.
-4. Hall's marriage theorem has a [[proof by induction on the number of sets|NGB06K7WKZ]].
-5. The [[tiling of a deficient $2^n \times 2^n$ board by L-trominoes|EXRJ0JF2Q3]] is an induction on $n$: the board splits into four boards of size $2^{n-1}$.
-6. In linear algebra, the [[proof of triangularisation|PQ79GJDGRQ]] and the [[proof of the spectral theorem|A81KPS16D7]] are inductions on the dimension: split off one eigenvector and apply the hypothesis to a complement of smaller dimension.
+A set with $n$ elements has $2^n$ subsets, by induction on $n$.
+The empty set has the one subset $\emptyset$, and $2^0 = 1$.
+For a set $A$ with $n + 1$ elements, fix an element $a$ and put $A' = A \setminus \{a\}$.
+The subsets of $A$ without $a$ are the subsets of $A'$, and the subsets with $a$ are the sets $B \cup \{a\}$ for $B \subseteq A'$.
+Each kind has $2^n$ members by the hypothesis, so
+$$2^n + 2^n = 2^{n+1}.$$
+Check: $\{1, 2\}$ has the $4$ subsets $\emptyset$, $\{1\}$, $\{2\}$, $\{1, 2\}$.
 
-### Non-examples
+### What is not induction on size
 
-1. The [[build-up argument for graphs without isolated vertices|ECMJTM9A6C]] is not a valid induction on size. Its step adds a vertex to a smaller graph, and it does not reach the graph made of two disjoint edges.
-2. An "induction on the size" of real numbers, with the step from $x$ to $x + 1$, is not an induction on size. The real numbers have no natural-number size that each step lowers, and the argument reaches only the numbers $x_0, x_0 + 1, x_0 + 2, \ldots$.
-3. A proof that checks all graphs with at most $5$ vertices by computer is not an induction on size. It proves the claim only for those graphs, and no step carries it further.
+An argument on the real numbers with a step from $x$ to $x + 1$ is not induction on size.
+The reals have no natural-number size that each step lowers, and the argument reaches only $x_0, x_0 + 1, x_0 + 2, \ldots$.
+A computer check of all graphs with at most $5$ vertices is not induction on size either.
+It proves the claim for those graphs only, and no step carries it further.
 
-### Basic properties
+### Watch out
 
-1. Induction on size is a case of ordinary or strong induction on the natural number $n$, applied to the statement $P(n)$ with its inner quantifier over all objects of size $n$. So it is valid exactly when ordinary induction is.
-2. Strong induction on size is often needed, because a reduction can lower the size by more than one. Splitting a graph into two components gives two smaller graphs of any sizes.
-3. Induction on size is equivalent to a [[minimal counterexample|JGRCNPKNGG]] argument: take a counterexample of least size, which exists by the [[well-ordering principle|01BX15HSRR]], and reduce it to a smaller counterexample.
+The most common error is building up, as described above.
+The second is to apply the hypothesis to a smaller object that fails the hypotheses of the claim, for example a subgraph that is no longer connected after a vertex is deleted.
+The third is to fix one object first and then to induct on its size.
+Then the hypothesis is about that one object only, and it cannot be applied to the smaller object of the step; the quantifier "for every $X$ of size $n$" must sit inside $P(n)$.
 
 ### History
 
-Golomb's 1954 proof that a deficient $2^n \times 2^n$ board can be tiled by L-trominoes is an induction on the size parameter $n$.
-Induction on the dimension is the standard proof form for structure theorems of linear algebra, such as the triangularisation of complex matrices.
+Golomb introduced polyominoes in 1954, and the induction proof that a deficient $2^n \times 2^n$ board can be tiled by L-trominoes is due to him.
 
-### Common errors
+### Try it
 
-1. Building up instead of breaking down, as described above.
-2. Applying the induction hypothesis to a smaller object that does not satisfy the hypotheses of the claim, for example a subgraph that is no longer connected after a vertex is removed.
-3. Fixing the object first and then inducting on its size. The statement $P(n)$ must quantify over all objects of size $n$, or the hypothesis is about one object only and cannot be applied to the smaller object of the step.
+First, prove that a graph with $n$ vertices has at most $n(n - 1)/2$ edges.
+Delete a vertex $v$: it has at most $n - 1$ edges, and the rest has at most $(n - 1)(n - 2)/2$, so the total is at most $(n - 1)(n - 2)/2 + (n - 1) = n(n - 1)/2$.
+
+Second, say what is wrong with "add a leaf to a tree with $n$ vertices; it gains one vertex and one edge, so every tree with $n + 1$ vertices has $n$ edges".
+It builds up, so it needs the extra fact that every tree with $n + 1$ vertices comes from a smaller tree by adding a leaf, which is the leaf lemma.
 
 ## Explanations
 
@@ -106,29 +128,28 @@ Suppose that we want to show something about every possible road network.
 There are infinitely many networks, so we cannot check them all.
 Instead, we count the towns in a network.
 We show the claim for a network with one town.
-Then we show: if the claim holds for all networks with $5$ towns, it holds for every network with $6$ towns, because we can remove one town and use the smaller network.
-The same argument works from any number of towns to the next, so the claim holds for networks of every size.
+Then we show that the claim for all networks with $5$ towns gives it for every network with $6$ towns, by removing one town and using the smaller network.
+The same argument works from each number of towns to the next, so the claim holds for networks of every size.
 
 ### L2 human
 
-We prove that every finite set $A$ with $n$ elements has exactly $2^n$ subsets, by induction on $n$.
+We prove that a finite graph $G$ with $n$ vertices and $m$ edges has at least $n - m$ connected components, by induction on $m$.
+Here the size is the number of edges, and $P(m)$ says "every graph with $m$ edges and any number $n$ of vertices has at least $n - m$ components".
+For $m = 0$ each vertex is its own component, so there are exactly $n = n - 0$ components.
+For the step, take an arbitrary graph $G$ with $m + 1$ edges and delete one edge $e$.
+The smaller graph $G - e$ has $n$ vertices and $m$ edges, so it has at least $n - m$ components by $P(m)$.
+Putting $e$ back joins at most two components into one, so $G$ has at least
+$$(n - m) - 1 = n - (m + 1)$$
+components, which is $P(m + 1)$.
 
-1. Let $P(n)$ be the statement "every set with $n$ elements has exactly $2^n$ subsets".
-2. Base case: a set with $0$ elements is $\emptyset$. Its only subset is $\emptyset$, and $2^0 = 1$.
-3. Induction step: assume $P(n)$, and let $A$ be an arbitrary set with $n + 1$ elements.
-4. Since $n + 1 \ge 1$, the set $A$ has an element $a$. Let $A' = A \setminus \{a\}$, a set with $n$ elements.
-5. Each subset of $A$ either does not contain $a$, and then it is a subset of $A'$, or it contains $a$, and then it is $B \cup \{a\}$ for exactly one subset $B$ of $A'$.
-6. By $P(n)$, $A'$ has $2^n$ subsets, so each of the two kinds has $2^n$ members.
-7. So $A$ has $2^n + 2^n = 2^{n+1}$ subsets, and $P(n + 1)$ holds.
-
-The typical use is a claim about all finite structures of a kind, where removing one part gives a smaller structure of the same kind.
-The trap is in step 3: the step starts from an arbitrary set of size $n + 1$, not from a set of size $n$ with an element added.
-Here both orders happen to work, because every set of size $n + 1$ is a set of size $n$ with one element added; for graphs with extra hypotheses this is often false.
+Check: a tree with $n$ vertices has $m = n - 1$ edges and $1 = n - m$ component, so the bound can be reached.
+The typical use is a claim about all finite structures of a kind, where deleting one part gives a smaller structure of the same kind.
+Watch out: the step started from an arbitrary graph with $m + 1$ edges, and the inner quantifier over $n$ in $P(m)$ is what allowed the hypothesis to apply to $G - e$.
 
 ### L3 human
 
-Induction on size is induction along the map $s \colon \mathcal{C} \to \mathbb{N}$ from the class of objects to the natural numbers.
-The relation "$Y$ is smaller than $X$" defined by $s(Y) < s(X)$ is [[well-founded|0DQPNJNPYK]], because it is the inverse image of the well-founded order of $\mathbb{N}$, and every inverse image of a well-founded relation is well-founded.
-So induction on size is a special case of well-founded induction, and any well-founded measure can replace $s$: ordinals for transfinite constructions, the lexicographic order on pairs for [[double induction|AABX4YPKRR]], or the multiset order in termination proofs.
-In graph theory, the method is often refined to induction on $|V(G)| + |E(G)|$, or to the study of a minimal counterexample, as in the proofs of the four colour theorem.
-In algebra, induction on the dimension, on the length of a composition series, or on the order of a group (as in the [[proof of the first Sylow theorem|23T9VNK7W8]]) is the same method with a different measure.
+Induction on size is induction along a map $s \colon \mathcal{C} \to \mathbb{N}$ from a class of objects to the natural numbers.
+The relation "$s(Y) < s(X)$" is [[well-founded|0DQPNJNPYK]], because it is the inverse image of the well-founded order of $\mathbb{N}$.
+So the method is a case of well-founded induction, and any well-founded measure can replace $s$: the lexicographic order on pairs for [[double induction|AABX4YPKRR]], or the multiset order in termination proofs of programs.
+In graph theory the measure is often $|V(G)| + |E(G)|$.
+In algebra it is the dimension, as in the [[proof of triangularization|PQ79GJDGRQ]], the length of a composition series, or the order of a group, as in the [[proof of the first Sylow theorem|23T9VNK7W8]].

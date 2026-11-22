@@ -19,34 +19,40 @@ sources:
 ## Example
 
 Let $F_n$ be the [[Fibonacci numbers|0GA9K57A39]]: $F_0 = 0$, $F_1 = 1$ and $F_n = F_{n-1} + F_{n-2}$ for $n \ge 2$.
-Claim: $F_n < 2^n$ for every natural number $n$.
-We prove it by [[strong induction|0KMVFSHFGZ]], and then check the proof against the list of [[errors in induction proofs|V52HDTMPV5]].
+We prove that $F_n < 2^n$ for every natural number $n$ by [[strong induction|0KMVFSHFGZ]], and then we check the proof against the list of [[errors in induction proofs|V52HDTMPV5]].
 
 1. Let $P(n)$ be the statement "$F_n < 2^n$".
-2. Base case $n = 0$: $F_0 = 0 < 1 = 2^0$.
-3. Base case $n = 1$: $F_1 = 1 < 2 = 2^1$.
-4. Step: let $n \ge 2$, and assume $P(k)$ for every natural number $k < n$.
-5. Since $n \ge 2$, the numbers $n - 1$ and $n - 2$ are natural numbers less than $n$. So $F_{n-1} < 2^{n-1}$ and $F_{n-2} < 2^{n-2}$.
-6. By the recursion and step 5, $F_n = F_{n-1} + F_{n-2} < 2^{n-1} + 2^{n-2} = 3 \cdot 2^{n-2}$.
-7. Since $3 \cdot 2^{n-2} < 4 \cdot 2^{n-2} = 2^n$, we get $F_n < 2^n$, so $P(n)$ holds.
-8. By strong induction, $P(n)$ holds for every $n \ge 0$.
+2. Base cases.
+   We have $F_0 = 0 < 1 = 2^0$ and $F_1 = 1 < 2 = 2^1$.
+3. Step.
+   Let $n \ge 2$, and assume $P(k)$ for every natural number $k < n$.
+4. Since $n \ge 2$, the numbers $n - 1$ and $n - 2$ are natural numbers less than $n$.
+   So the assumption gives $F_{n-1} < 2^{n-1}$ and $F_{n-2} < 2^{n-2}$.
+5. Use the recursion and step 4:
+   $$F_n = F_{n-1} + F_{n-2} < 2^{n-1} + 2^{n-2} = 3 \cdot 2^{n-2} < 4 \cdot 2^{n-2} = 2^n.$$
+   So $P(n)$ holds.
+6. By strong induction, $P(n)$ holds for every $n \ge 0$.
 
-We check the proof against each usual error.
+Now we check the proof against the usual errors.
 
-1. Missing base case: both base cases are proved, in steps 2 and 3.
-2. Assuming the result: the step starts from the hypothesis on smaller values and ends with $F_n < 2^n$. It never uses $P(n)$ itself.
-3. A step that fails for small $n$: the step is used from $n = 2$ on, and at $n = 2$ it uses $P(1)$ and $P(0)$, which are both proved. It gives $F_2 = 1 < 3 < 4$.
-4. Too few base cases: the step uses two earlier values, so it needs $n \ge 2$, and the two values below, $0$ and $1$, are both base cases.
-5. Leaving the domain: step 5 checks that $n - 1$ and $n - 2$ are natural numbers less than $n$, so the hypothesis applies to them.
-6. Wrong variable: the statement has one variable, so this error cannot occur.
-7. Building up: the step starts from an arbitrary $n \ge 2$ and reduces it to smaller values, so no case is missed.
+1. Base cases: the step uses two earlier values, so it needs $n \ge 2$, and the two values below, $0$ and $1$, are both proved in step 2.
+2. Assuming the result: the step starts from the hypothesis on smaller values, ends with $F_n < 2^n$, and never uses $P(n)$ itself.
+3. The smallest case of the step: at $n = 2$ the step uses $P(1)$ and $P(0)$, which are proved, and gives $F_2 = 1 < 3 < 4$.
+4. The domain: step 4 checks that $n - 1$ and $n - 2$ are natural numbers less than $n$, so the hypothesis applies to them.
+5. The variable and the direction: the claim has one variable, and the step starts from an arbitrary $n \ge 2$ and reduces it to smaller values, so no case is missed.
 
 ## Remarks
 
-1. The second base case is needed. With only $n = 0$ checked, the step at $n = 1$ would need $F_{-1}$, which is not defined, and $P(1)$ would not be covered. This would be the error "too few base cases".
-2. The bound is far from sharp. The Fibonacci numbers grow like $\varphi^n$ with $\varphi = \frac{1 + \sqrt{5}}{2} \approx 1.618$, and the same proof gives $F_n < \left(\frac{7}{4}\right)^n$ for $n \ge 1$, because $\frac{4}{7} + \frac{16}{49} = \frac{44}{49} < 1$.
-3. The proof uses the hypothesis twice in one step, at $n - 1$ and at $n - 2$. This is why strong induction, or ordinary induction on the pair statement "$P(n)$ and $P(n + 1)$", is needed.
-4. The proof would also be correct if it started with ordinary induction on $Q(n)$: "$F_n < 2^n$ and $F_{n+1} < 2^{n+1}$". Then $Q(0)$ contains both base cases.
+The second base case is needed.
+With only $n = 0$ checked, the step at $n = 1$ would need $F_{-1}$, which is not defined, and $P(1)$ would not be covered; that is the error of [[too few base cases|32AP5ZDMJJ]].
+
+The step uses the hypothesis twice, at $n - 1$ and at $n - 2$, and that is why strong induction is the natural tool.
+Ordinary induction also works if we carry two cases at once, with $Q(n)$: "$F_n < 2^n$ and $F_{n+1} < 2^{n+1}$".
+Then $Q(0)$ contains both base cases, and $Q(n)$ gives $Q(n + 1)$ by the same calculation.
+
+The bound is far from sharp.
+The Fibonacci numbers grow like $\varphi^n$ with $\varphi = \tfrac{1 + \sqrt{5}}{2} \approx 1.618$, and the same proof gives $F_n < \left(\tfrac74\right)^n$ for every $n$, because
+$$\frac47 + \frac{16}{49} = \frac{44}{49} < 1.$$
 
 ## Explanations
 
@@ -54,18 +60,14 @@ We check the proof against each usual error.
 
 The Fibonacci numbers start $0, 1, 1, 2, 3, 5, 8, 13$, and each is the sum of the two before it.
 The powers of $2$ start $1, 2, 4, 8, 16, 32, 64, 128$, and each is twice the one before it.
-Since the sum of the two previous Fibonacci numbers is at most twice the larger one, the Fibonacci numbers cannot catch up with the powers of $2$.
+A sum of the two previous Fibonacci numbers is at most twice the larger one, so the Fibonacci numbers cannot catch up with the powers of $2$.
 The proof checks the first two numbers by hand, because each later number needs the two numbers before it.
 
 ### L2 human
 
-We follow the proof for $n = 2, 3, 4, 5$, using the step each time.
+We follow the step for $n = 2, 3, 4, 5$, and each time compare $F_n$ with the bound $2^{n-1} + 2^{n-2}$ from step 5 and with $2^n$:
+$$F_2 = 1 < 3 < 4, \quad F_3 = 2 < 6 < 8, \quad F_4 = 3 < 12 < 16, \quad F_5 = 5 < 24 < 32.$$
+Each case uses only the two cases before it, and the first case uses the two base cases.
 
-1. $n = 2$: $F_2 = F_1 + F_0 = 1 + 0 = 1$, and the step gives $F_2 < 2 + 1 = 3 < 4$.
-2. $n = 3$: $F_3 = 1 + 1 = 2$, and the step gives $F_3 < 4 + 2 = 6 < 8$.
-3. $n = 4$: $F_4 = 2 + 1 = 3$, and the step gives $F_4 < 8 + 4 = 12 < 16$.
-4. $n = 5$: $F_5 = 3 + 2 = 5$, and the step gives $F_5 < 16 + 8 = 24 < 32$.
-
-Each line uses only the two lines before it, and the first line uses the two base cases.
-The typical use of the proof is as a model: for a step that uses $k$ earlier values, check $k$ base cases.
-A trap is to check only $F_0 < 1$ and to start the step at $n = 1$.
+Use the proof as a model: for a step that uses $k$ earlier values, check $k$ base cases.
+Watch out for the version that checks only $F_0 < 1$ and starts the step at $n = 1$, because that step needs the undefined $F_{-1}$.
