@@ -56,7 +56,9 @@ $$\dim U + \dim U^0 = k + (n - k) = n = \dim V.$$
 Choose a basis of $V$ that starts with a basis of $U$.
 The forms of the [[dual basis|0ZD2CF6ZS0]] that belong to the remaining basis vectors kill $U$, and every form that kills $U$ is a combination of them.
 So the annihilator gets one dimension for each basis vector outside $U$, and that is $\dim V - \dim U$.
-Parts 1 and 2 say the same thing without coordinates: a form that kills $U$ is a form on $V/U$, and a form on $U$ is the restriction of a form on $V$, unique up to a form that kills $U$.
+Parts 1 and 2 say the same thing without coordinates.
+A form that kills $U$ is a form on $V/U$.
+A form on $U$ is the restriction of a form on $V$, which is unique up to a form that kills $U$.
 
 ## Variants
 

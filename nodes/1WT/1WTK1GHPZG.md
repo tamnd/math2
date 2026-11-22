@@ -17,7 +17,8 @@ sources:
 
 We first show that a form on a subspace extends to all of $V$, and then we prove the six parts of the [[lemma|Z71CEX564V]] in the order 1, 3, 2, 4, 5, 6.
 
-*Extension fact.* Let $Y$ be a subspace of $V$ and let $\psi \colon Y \to F$ be linear. Then $\psi = g|_Y$ for some $g \in V^*$.
+*Extension fact.* Let $Y$ be a subspace of $V$ and let $\psi \colon Y \to F$ be linear.
+Then $\psi = g|_Y$ for some $g \in V^*$.
 
 1. Choose a basis $C$ of $Y$. It is [[linearly independent|0CRMGPAH83]] in $V$, so it [[extends to a basis|0M4SXE5WW3]] $D \supseteq C$ of $V$.
 2. A linear map may take any values on a basis, by the [[theorem on maps determined by a basis|0R8X9XA83A]]. So there is $g \in V^*$ with $g(c) = \psi(c)$ for $c \in C$ and $g(d) = 0$ for $d \in D \setminus C$.
