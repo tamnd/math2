@@ -15,35 +15,41 @@ sources:
 
 ## Proof
 
-Let $V$, $v_1, \dots, v_k$ and $G$ be as in the statement.
+We write the vectors in terms of their Gram-Schmidt outputs with a triangular matrix, factor $G$ through the diagonal Gram matrix of the outputs, and take determinants.
+Let $V$, $v_1, \dots, v_k$ and $G$ be as in the statement, with the inner product linear in the first slot.
 
-1. Part 1. Let the $v_j$ be independent. By the [[Gram-Schmidt process|A1Y41YZFB6]], $u_j = v_j - \sum_{i<j} m_{ij} u_i$ with $m_{ij} = \ip{v_j}{u_i} / \ip{u_i}{u_i}$.
-2. So $v_j = \sum_{i=1}^k M_{ij} u_i$, where $M_{jj} = 1$, $M_{ij} = m_{ij}$ for $i < j$, and $M_{ij} = 0$ for $i > j$.
-3. By part 1 of the [[Gram-Schmidt theorem|0WXBGBTA3D]], the $u_i$ are nonzero and pairwise orthogonal.
+1. Part 1. Let the $v_j$ be independent. The [[Gram-Schmidt process|A1Y41YZFB6]] gives $u_j = v_j - \sum_{i < j} m_{ij} u_i$ with $m_{ij} = \ip{v_j}{u_i} / \ip{u_i}{u_i}$.
+2. So $v_j = \sum_{i=1}^k M_{ij} u_i$, where $M$ is the $k \times k$ matrix with $M_{jj} = 1$, $M_{ij} = m_{ij}$ for $i < j$, and $M_{ij} = 0$ for $i > j$.
+3. By the [[Gram-Schmidt theorem|0WXBGBTA3D]], the $u_i$ are nonzero and pairwise orthogonal.
 4. So the Gram matrix of $u_1, \dots, u_k$ is the diagonal matrix $D$ with the entries $\norm{u_1}^2, \dots, \norm{u_k}^2$.
-5. By step 2 and sesquilinearity of the [[inner product|0VGSYBWHV2]], $G_{ij} = \sum_p \sum_q M_{pi}\, \overline{M_{qj}}\, \ip{u_p}{u_q}$.
-6. By step 4, this is $\sum_p M_{pi}\, D_{pp}\, \overline{M_{pj}}$, the $(i, j)$ entry of $M^T D \overline{M}$. So $G = M^T D \overline{M}$.
-7. $M^T$ is lower triangular and $\overline{M}$ is upper triangular, both with diagonal entries $1$.
-8. By the [[determinant of a triangular matrix|0K1KKMFHYH]], $\det M^T = \det \overline{M} = 1$, and $\det D = \prod_j \norm{u_j}^2$.
+5. By step 2, linearity in the first slot and conjugate-linearity in the second slot of the [[inner product|0VGSYBWHV2]], $G_{ij} = \sum_p \sum_q M_{pi}\, \overline{M_{qj}}\, \ip{u_p}{u_q}$.
+6. By step 4 only the terms with $p = q$ remain, so $G_{ij} = \sum_p M_{pi}\, D_{pp}\, \overline{M_{pj}}$. This is the $(i, j)$ entry of $M^{\mathsf{T}} D \overline{M}$, so $G = M^{\mathsf{T}} D \overline{M}$.
+7. The matrix $M^{\mathsf{T}}$ is lower triangular and $\overline{M}$ is upper triangular, and both have all diagonal entries equal to $1$.
+8. By the [[determinant of a triangular matrix|0K1KKMFHYH]], $\det M^{\mathsf{T}} = \det \overline{M} = 1$ and $\det D = \prod_j \norm{u_j}^2$.
 9. [[Multiplicativity of the determinant|04CPJ6AF00]] gives $\det G = 1 \cdot \det D \cdot 1 = \prod_j \norm{u_j}^2$.
 10. Each $u_j$ is nonzero by step 3, so each factor is positive, and $\det G > 0$.
 11. Part 2. Let the $v_j$ be dependent. By part 4 of the [[Gram invertibility theorem|EM1QNRGWQ8]], $G$ is not invertible.
-12. So $\det G = 0$, by the [[invertible matrix theorem|ACDFDABVQK]], conditions 1 and 21.
-13. Steps 10 and 12 give $\det G \geq 0$ in both cases, and $\det G = 0$ exactly for dependent families.
-14. Part 3. For an independent family, step 9 gives $\det G = (\norm{u_1} \cdots \norm{u_k})^2 = \operatorname{vol}^2$.
-15. For a dependent family, step 12 gives $\det G = 0 = \operatorname{vol}^2$.
-16. Part 4. The entry $G_{ij} = \sum_l A_{li}\, \overline{A_{lj}}$ is the $(i, j)$ entry of $A^T \overline{A}$. So $G = A^T \overline{A}$.
-17. The determinant is a sum of products of entries with integer coefficients. Conjugation preserves sums and products, so $\det \overline{A} = \overline{\det A}$.
-18. By multiplicativity and the [[determinant of the transpose|0ZZQ2E1MTE]], $\det G = \det A \cdot \overline{\det A} = |\det A|^2$.
-19. By part 3, $\operatorname{vol}^2 = |\det A|^2$. Both numbers are $\geq 0$, so $\operatorname{vol} = |\det A|$.
+12. A square matrix that is not invertible has determinant $0$, by the [[invertible matrix theorem|ACDFDABVQK]]. So $\det G = 0$.
+13. Steps 10 and 12 give $\det G \ge 0$ in both cases, with $\det G = 0$ exactly for dependent families.
+14. Part 3. For an independent family, step 9 gives $\det G = (\norm{u_1} \cdots \norm{u_k})^2 = \operatorname{vol}(v_1, \dots, v_k)^2$. For a dependent family, step 12 gives $\det G = 0 = \operatorname{vol}(v_1, \dots, v_k)^2$.
+15. Part 4. For the standard inner product, $G_{ij} = \sum_l A_{li}\, \overline{A_{lj}}$, which is the $(i, j)$ entry of $A^{\mathsf{T}} \overline{A}$. So $G = A^{\mathsf{T}} \overline{A}$.
+16. The determinant is a sum of products of entries with integer coefficients, and conjugation preserves sums and products. So $\det \overline{A} = \overline{\det A}$.
+17. By multiplicativity and the [[determinant of the transpose|0ZZQ2E1MTE]], $\det G = \det A \cdot \overline{\det A} = \abs{\det A}^2$.
+18. By part 3, $\operatorname{vol}^2 = \abs{\det A}^2$. Both $\operatorname{vol}$ and $\abs{\det A}$ are $\ge 0$, so $\operatorname{vol} = \abs{\det A}$.
+
+This proves parts 1 to 4.
 
 ## Idea
 
-The Gram-Schmidt process writes the $v_j$ in terms of the orthogonal $u_i$ with a unitriangular matrix $M$.
-Then $G = M^T D \overline{M}$, with $D$ the diagonal Gram matrix of the $u_i$.
-Unitriangular matrices have determinant $1$, so $\det G = \det D$.
+The Gram-Schmidt process says that each $v_j$ is $u_j$ plus a combination of the earlier $u_i$, and that is a triangular change of basis with ones on the diagonal.
+Such a change does not alter determinants, so $\det G$ equals the determinant of the Gram matrix of the $u_i$.
+That Gram matrix is diagonal, because the $u_i$ are orthogonal, and its determinant is the product of the squared lengths: base times height, repeated.
 
 ## Variants
 
-- Row operations: subtract multiples of earlier rows and the matching columns from $G$. These operations do not change $\det G$, and they produce $D$.
-- For column vectors, $G = A^T \overline{A}$ and the QR factorization $A = QR$ give $\det G = |\det R|^2$ when $k = n$.
+The same factorization can be done with row and column operations on $G$ itself.
+Subtract a multiple of an earlier row from a later row, and the conjugate multiple of the matching column from the matching column; each such pair keeps $\det G$ and keeps $G$ Hermitian.
+These operations are Gaussian elimination on $G$, and they end at the diagonal matrix $D$.
+
+For column vectors with $k = n$, the [[QR decomposition|0ERWG4NXQ9]] $A = Q R$ with $Q$ unitary gives $A^* A = R^* R$, so $\det G = \abs{\det A}^2 = \abs{\det R}^2$, the product of the squared diagonal entries of $R$.
+Those diagonal entries are the lengths $\norm{u_j}$, so this is the same proof in matrix form.
