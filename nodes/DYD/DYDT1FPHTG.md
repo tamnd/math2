@@ -17,9 +17,7 @@ sources:
 
 ## Proof
 
-Each part has the same pattern.
-We name a linear candidate map and check the defining identity.
-Then the uniqueness part of [[the existence theorem|E0KFAXMTC2]] shows that the candidate is the adjoint.
+For each part we name a linear candidate map, check the defining identity, and let the uniqueness part of the [[existence theorem|E0KFAXMTC2]] conclude that the candidate is the adjoint.
 We use that the [[inner product|0VGSYBWHV2]] is linear in the first slot, conjugate linear in the second slot, and conjugate symmetric.
 
 1. Part 1. For $v \in V$ and $w \in W$, linearity in the first slot gives $\ip{(S + T)v}{w} = \ip{Sv}{w} + \ip{Tv}{w}$.
@@ -41,10 +39,12 @@ We use that the [[inner product|0VGSYBWHV2]] is linear in the first slot, conjug
 ## Idea
 
 The adjoint is unique, so a rule $X^* = Y$ follows as soon as $Y$ satisfies the defining identity of $X^*$.
-Each rule then comes from one or two applications of the definition.
-The order reverses in a product because each factor must move across the inner product separately, the outer factor first.
+Each rule then takes one or two uses of the definition.
+The order reverses in a product because the factors cross the inner product one at a time, and the outer factor $S$ crosses first, so $S^*$ acts on $w$ first and stands on the right in $T^* S^*$.
+For the inverse, we apply the product rule to $T T^{-1} = I$ and $T^{-1} T = I$.
 
 ## Variants
 
-In orthonormal bases, all six rules follow from the matching rules for the [[conjugate transpose|0EX045E2BP]] of matrices, by [[the matrix of the adjoint|0DBTE6HVBD]].
-This route needs the choice of bases, and the proof above does not.
+In orthonormal bases, all six rules follow from the matching rules for the [[conjugate transpose|0EX045E2BP]] of matrices, by the [[matrix of the adjoint|0DBTE6HVBD]].
+For example, $(AB)^* = B^* A^*$ for matrices holds because the $(i, j)$ entry of both sides is $\sum_k \overline{a_{jk}}\, \overline{b_{ki}}$.
+That route needs a choice of bases, while the proof above works without one.
