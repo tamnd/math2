@@ -21,20 +21,22 @@ The Cayley transform closes the story: it describes the rotations without the ei
 ### Reading order
 
 1. [[Linear isometry|07SJXTWVQW]]: the maps that keep lengths, and [[the equivalent conditions|95ST99SEW7]] that reduce the test to one orthonormal basis or to $T^*T = I$.
-2. [[Isometries preserve inner products|0R7VXTYHYZ]]: why keeping lengths means keeping angles, and why a distance-preserving map of a real space that fixes $0$ is linear.
+2. [[Isometries preserve inner products|0R7VXTYHYZ]]: keeping lengths means keeping angles, and a real distance-preserving map that fixes $0$ is linear.
 3. [[Orthogonal matrix|0W02QESPJQ]]: the matrix test $Q^TQ = I$, [[seven equivalent forms of it|F7M8ZXB4P7]], and [[why $\det Q = \pm 1$ and the eigenvalues lie on the unit circle|QDZJMFATRW]].
 4. [[Orthogonal group|WWK2E8BRGF]]: $O(n)$ as the group of linear isometries of $\R^n$, and its two pieces of determinant $1$ and $-1$.
 5. [[Special orthogonal group|6WBVP2PB1Y]]: the rotations, a subgroup of [[index two|XAVVA317M0]], with $SO(2)$ the circle group.
-6. [[Unitary matrix|0AR68JTMDT]]: the complex test $U^*U = I$ and [[what it gives|GZ7NG7J3J8]] for columns, eigenvalues and diagonalization.
+6. [[Unitary matrix|0AR68JTMDT]]: the complex test $U^*U = I$ and [[what follows from it|GZ7NG7J3J8]].
 7. [[Unitary group|VW5H9XFNJB]]: $U(n)$, whose determinants fill the unit circle, with $U(1)$ the circle group.
 8. [[Special unitary group|ZRYYPHWESP]]: $SU(n)$ as the kernel of the determinant, and [[$SU(2)$ as the unit quaternions|A763JSEVW8]].
-9. [[Rotation matrix|HNY4CPEEJA]]: the matrices $R(\theta)$, how angles add under composition, and the basic rotations of $\R^3$.
+9. [[Rotation matrix|HNY4CPEEJA]]: the matrices $R(\theta)$ and the basic rotations of $\R^3$.
 10. [[Reflection|06BRDF3F0E]]: the reflection in a hyperplane, the Householder matrix, and [[how reflections generate $O(n)$|FEER10D15S]].
 11. [[Classification of O(2)|C97Z06HHB2]]: every isometry of the plane that fixes $0$ is a rotation or a reflection.
 12. [[Classification of O(3) and Euler's rotation theorem|2ZVG43GSKA]]: every rotation of space has an axis, and the trace gives its angle.
 13. [[Normal form of an orthogonal matrix|QTY3VMFGY1]]: a block form with rotations and $\pm 1$, obtained from the [[real normal form|G6T1FNE3JC]].
 14. [[Cartan-Dieudonné theorem|0VMWGYY35Q]]: at most $n$ reflections suffice for each element of $O(n)$.
 15. [[Cayley transform of matrices|HKQ5YY027B]]: skew-symmetric matrices and [[the rotations without the eigenvalue $-1$|R9Z3W1CFPP]].
+
+### Where it leads
 
 Two later topics use these groups.
 The topic on [[canonical forms under similarity|GEBYZKYV3D]] gives normal forms for matrices that are not normal.
