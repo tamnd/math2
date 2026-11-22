@@ -24,11 +24,12 @@ same_as:
 
 ## Summary
 
-A proof by infinite descent shows that a set $S$ of objects is empty, where each object $x$ has a size $s(x)$ in the [[natural numbers|0MWKJ44V5A]].
-The proof shows one thing: for each $x$ in $S$ there is a $y$ in $S$ with $s(y) < s(x)$.
-If $S$ had an element $x_0$, this would give elements $x_1, x_2, \ldots$ of $S$ with $s(x_0) > s(x_1) > s(x_2) > \cdots$, an infinite strictly decreasing sequence of natural numbers.
-No such sequence exists, by the [[well-ordering principle|01BX15HSRR]], so $S$ is empty.
-The method matters because it proves impossibility results, above all that a [[Diophantine equation|08B1RTW7VZ]] has no solution in positive integers.
+Infinite descent proves that something cannot exist, because each example of it would give a smaller example, without end.
+Let $S$ be a set of objects, and give each object $x$ a size $s(x)$ in the [[natural numbers|0MWKJ44V5A]].
+The proof shows that for each $x$ in $S$ there is a $y$ in $S$ with $s(y) < s(x)$.
+An element $x_0$ of $S$ would then give elements $x_1, x_2, \ldots$ of $S$ with $s(x_0) > s(x_1) > s(x_2) > \cdots$.
+That is an infinite strictly decreasing sequence of natural numbers, and the [[well-ordering principle|01BX15HSRR]] rules it out, so $S$ is empty.
+The method is a main tool to show that a [[Diophantine equation|08B1RTW7VZ]] has no solution in positive integers.
 
 ## Motivation
 
@@ -36,50 +37,90 @@ To show that an equation has no solution, we cannot test all candidates, because
 A descent finds a rule that turns each solution into a smaller solution.
 A single solution would then start an endless chain of smaller and smaller positive integers.
 The positive integers do not allow such a chain, so there is no solution at all.
-The rule is often found with divisibility: if a prime divides every term of a solution, we divide the solution by that prime.
+The rule often comes from divisibility: if a prime divides every entry of a solution, we divide the solution by that prime.
 
 ## Notation
 
-1. The size is usually one entry of the solution, such as $z$ or the denominator $b$, or a sum such as $|x| + |y| + |z|$.
-2. Fermat's French name is *descente infinie*. Books also write "the method of descent" or "Fermat's method of descent".
-3. In the theory of elliptic curves the word "descent" has a wider, technical meaning, and the Mordell-Weil theorem uses that meaning.
+The size is usually one entry of the solution, such as $z$ or the denominator $b$, or a sum such as $|x| + |y| + |z|$.
+Fermat's French name for the method is *descente infinie*, and books also say "the method of descent" or "Fermat's method of descent".
+In the theory of elliptic curves the word "descent" has a wider, technical meaning, and the Mordell-Weil theorem uses that meaning.
 
 ## Remarks
 
-### The steps of the method
+### A first proof by descent
 
-1. Name the set $S$ that should be empty, for example the set of positive integer solutions of an equation.
-2. Choose a size $s \colon S \to \mathbb{N}$.
-3. Take an arbitrary $x$ in $S$, and build a $y$ from $x$.
-4. Check that $y$ is again in $S$: it satisfies the equation, and its entries are again positive integers.
-5. Check that $s(y) < s(x)$.
-6. Conclude that $S$ is empty.
+Here is a short theorem that the method proves: $\sqrt{2}$ is not a quotient of two positive integers.
+Suppose that $\sqrt{2} = a/b$ with positive integers $a$ and $b$, so that $a^2 = 2b^2$.
+Let $S$ be the set of such pairs $(a, b)$, and let the size of a pair be $b$.
+From $b^2 < 2b^2 = a^2 < 4b^2$ we get $b < a < 2b$.
+Put $a' = 2b - a$ and $b' = a - b$.
+The bounds give $a' > 0$ and $0 < b' < b$.
+Expand: $a'^2 - 2b'^2 = (4b^2 - 4ab + a^2) - (2a^2 - 4ab + 2b^2) = 2b^2 - a^2 = 0$.
+So $(a', b')$ is again in $S$, and its size is smaller.
+By descent $S$ is empty, which proves the [[irrationality of the square root of 2|0DZGSDHD92]].
 
-The minimal form replaces steps 3 to 6 by one contradiction: take $x$ in $S$ with the least size, and build $y$ in $S$ with $s(y) < s(x)$.
-This minimal form is the [[minimal counterexample|JGRCNPKNGG]] method, in which the counterexamples are the solutions.
+Check: the map turns $a^2 - 2b^2$ into $-(a^2 - 2b^2)$.
+For $(7, 5)$ we have $49 - 50 = -1$, and the map gives $(3, 2)$ with $9 - 8 = 1$.
+A pair with value $0$ goes to a pair with value $0$, which is what the proof needs.
 
-### Examples
+### Why the method is valid
 
-1. The [[irrationality of the square root of 2|0DZGSDHD92]]: a solution of $a^2 = 2 b^2$ in positive integers gives the smaller solution $(2b - a, a - b)$.
-2. [[The equation x² + y² = 3z² has only the zero solution|SWDMY3XJKF]]: $3$ divides $x$, $y$ and $z$, so $(x/3, y/3, z/3)$ is a smaller solution.
-3. [[The equation x³ + 2y³ + 4z³ = 0 has only the zero solution|TTMCPREC0F]]: $2$ divides $x$, $y$ and $z$, so $(x/2, y/2, z/2)$ is a smaller solution.
-4. [[Fermat's right triangle theorem|086BE0J3FZ]]: no right triangle with integer sides has a square area. Its [[proof by descent|8195EFVX2N]] builds a smaller such triangle from each one, and it gives [[Fermat's Last Theorem for n = 4|0E741HSMJ1]].
-5. [[Lagrange's four-square theorem|0KYYSMEVHH]]: its [[proof by descent|GBQDYYA8SE]] lowers the multiple $m p$ of a prime $p$ that is a sum of four squares until $m = 1$.
-6. [[Every integer at least 2 has a prime divisor|VSHHBWWXVX]]: a number with no prime divisor has a smaller factor with no prime divisor.
+The method needs one fact: there is no infinite strictly decreasing sequence $a_0 > a_1 > a_2 > \cdots$ of natural numbers.
+Suppose there were one.
+Its set of terms is nonempty, so it has a least element $a_k$ by the [[well-ordering principle|01BX15HSRR]].
+But $a_{k+1}$ is also a term, and $a_{k+1} < a_k$, which is impossible.
 
-### Non-examples
+The fact holds for $\mathbb{N}$ and fails for $\mathbb{Z}$ and for the positive rationals.
+So every descent must stay inside $\mathbb{N}$: the sizes must be natural numbers, and each new object must again lie in $S$.
 
-1. [[The pairs with x = 2y do not descend|3VFY8XCBEQ]]: the map $(x, y) \mapsto (y, y/2)$ makes smaller pairs, but it leaves the positive integers, so step 4 fails. The equation does have solutions.
-2. A chain in $\mathbb{Z}$ such as $0 > -1 > -2 > \cdots$ is infinite and decreasing. A descent with sizes in $\mathbb{Z}$ proves nothing, because step 2 needs sizes in $\mathbb{N}$.
-3. A chain in the positive rationals such as $1 > \tfrac12 > \tfrac14 > \cdots$ is also infinite and decreasing. Sizes in $\mathbb{Q}$ fail for the same reason.
+A second form takes an $x$ in $S$ of least size and builds a $y$ in $S$ of smaller size, a contradiction in one step.
+This is the [[minimal counterexample|JGRCNPKNGG]] method, in which the counterexamples are the solutions.
+Both forms are [[strong induction|0KMVFSHFGZ]] applied to the property "no element of $S$ has size $n$".
 
-### Basic properties
+### When to choose it
 
-1. There is no infinite strictly decreasing sequence $a_0 > a_1 > a_2 > \cdots$ of natural numbers. Proof: the set $\{a_0, a_1, a_2, \ldots\}$ is not empty, so it has a least element $a_k$ by the [[well-ordering principle|01BX15HSRR]]; but $a_{k+1}$ is in the set and $a_{k+1} < a_k$.
-2. Property 1 is the only fact that the method needs, so the method is valid.
-3. The descent form and the minimal form prove the same statements. Each is a form of [[strong induction|0KMVFSHFGZ]] applied to the property "no element of $S$ has size $n$".
-4. The method works with any size in a set with a [[well-founded relation|0DQPNJNPYK]], for example pairs of natural numbers in the lexicographic order.
-5. A descent proof that also bounds the number of steps is an algorithm. The Euclidean algorithm and the proof of Lagrange's four-square theorem are of this kind.
+Choose descent to prove that something does not exist, when each example of it contains a smaller one.
+The commonest case is an equation in which a prime must divide every entry of a solution.
+[[The equation x² + y² = 3z²|SWDMY3XJKF]] forces $3$ to divide $x$, $y$ and $z$, and [[the equation x³ + 2y³ + 4z³ = 0|TTMCPREC0F]] forces $2$ to divide all three.
+Division by the prime then gives a smaller solution.
+
+Some descents build the smaller object by a cleverer rule.
+[[Fermat's right triangle theorem|086BE0J3FZ]] says that no right triangle with integer sides has a square area.
+Its [[proof by descent|8195EFVX2N]] builds a smaller such triangle from each one, and it gives [[Fermat's Last Theorem for n = 4|0E741HSMJ1]].
+In [[Lagrange's four-square theorem|0KYYSMEVHH]], the [[proof by descent|GBQDYYA8SE]] starts from a multiple $mp$ of a prime $p$ that is a sum of four squares, and lowers $m$ until $m = 1$.
+That descent shows existence, and a descent that also bounds its number of steps is an algorithm.
+
+Descent also proves facts outside number equations.
+[[Every integer at least 2 has a prime divisor|VSHHBWWXVX]], because a number with no prime divisor would have a smaller factor with no prime divisor.
+
+### How it fails
+
+A descent fails when the new object leaves $S$.
+In [[the pairs with x = 2y|3VFY8XCBEQ]], the map $(x, y) \mapsto (y, y/2)$ gives smaller pairs, but $y/2$ is not an integer when $y$ is odd.
+The chain stops, and indeed the equation has solutions such as $(2, 1)$.
+
+A descent fails when the sizes are not natural numbers.
+The chain $0 > -1 > -2 > \cdots$ in $\mathbb{Z}$ and the chain $1 > \tfrac12 > \tfrac14 > \cdots$ in the positive rationals are infinite and decreasing.
+So "each $x$ gives a smaller $y$" proves nothing for sizes in $\mathbb{Z}$ or $\mathbb{Q}$.
+
+A descent fails when the size does not drop strictly.
+A chain of equal sizes can go on forever.
+
+### Descent beyond the natural numbers
+
+The method works for sizes in any set with a [[well-founded relation|0DQPNJNPYK]], since such a relation also has no infinite decreasing chain.
+Pairs of natural numbers in the lexicographic order are an example.
+The chain $(2, 0) > (1, 100) > (1, 99) > \cdots > (1, 0) > (0, 5) > \cdots$ can be long, but it always ends.
+A proof that a program stops is often a descent of this kind, on a measure that drops at each step of the program.
+
+### Watch out
+
+Check both conditions for the new object, every time.
+It must lie in $S$, which for an equation means that it solves the equation with positive integer entries.
+Its size must be strictly smaller.
+In the $\sqrt{2}$ proof, the bounds $b < a < 2b$ are what make $2b - a$ and $a - b$ positive, so a proof that skips them has a gap.
+Also choose $S$ with care.
+For $x^2 + y^2 = 3z^2$, the triple $(0, 0, 0)$ divided by $3$ is itself, so its size does not drop, and $S$ must leave it out.
 
 ### History
 
@@ -87,11 +128,14 @@ Euclid's *Elements*, Book VII, Proposition 31, proves that each composite number
 Fermat developed the method, named it *descente infinie*, and used it for Diophantine problems, for example to prove his right triangle theorem.
 In the twentieth century the [[Mordell-Weil theorem|MXRCPAH09H]] used a descent argument for the rational points of an elliptic curve, and Weil extended it to abelian varieties.
 
-### Common errors
+### Try it
 
-1. The new object is not checked to lie in $S$. If it is not a positive integer solution, the chain stops and there is no contradiction.
-2. The size does not decrease strictly. A chain of equal sizes can go on forever.
-3. The size takes values in $\mathbb{Z}$ or $\mathbb{Q}$. Then infinite decreasing chains exist, and the argument proves nothing.
+First, show that $x^2 = 3y^2$ has no solution in positive integers.
+From $3 \mid x^2$ we get $3 \mid x$, so $x = 3u$ and $9u^2 = 3y^2$, which gives $y^2 = 3u^2$.
+So $(y, u)$ is a new solution, and $y < x$ because $y^2 = x^2 / 3$.
+
+Second, find the error: "Each positive rational $q$ gives a smaller positive rational $q/2$, so by descent there is no positive rational."
+The sizes are rationals and not natural numbers, so the chain $q > q/2 > q/4 > \cdots$ is allowed and there is no contradiction.
 
 ## Explanations
 
@@ -101,27 +145,29 @@ Think of a staircase that starts at some floor and goes down, one or more steps 
 It must reach the ground floor after finitely many steps, because there are only finitely many floors below.
 A descent proof shows that every solution of a puzzle leads to a smaller solution, so the solutions would give a staircase with no bottom.
 Such a staircase does not exist, so the puzzle has no solution.
-For example, if $x^2 + y^2 = 3 z^2$ had a solution in positive whole numbers, then all three numbers would be multiples of $3$, and dividing by $3$ would give a smaller solution.
+For example, if $x^2 + y^2 = 3z^2$ had a solution in positive whole numbers, then all three numbers would be multiples of $3$.
+Dividing them by $3$ would give a smaller solution, and so on forever.
 
 ### L2 human
 
-We prove by descent that $\sqrt{2}$ is irrational.
+We prove by descent that $x^2 + y^2 = 3z^2$ has no solution in integers other than $(0, 0, 0)$.
+Let $S$ be the set of integer solutions that are not all zero, with size $|x| + |y| + |z|$, a positive natural number.
+A square leaves the remainder $0$ or $1$ on division by $3$, so $x^2 + y^2$ is a multiple of $3$ only when $x^2$ and $y^2$ both are.
+So $3$ divides $x$ and $y$, and then $9$ divides $3z^2$, so $3$ divides $z^2$ and $z$.
+The triple $(x/3, y/3, z/3)$ is again an integer solution, it is not all zero, and its size is one third of the old size.
+So each element of $S$ gives a smaller one, and $S$ is empty.
+Check the remainders: $0^2 = 0$, $1^2 = 1$ and $2^2 = 4 = 3 + 1$.
 
-1. Suppose that $\sqrt{2} = a/b$ with positive integers $a$ and $b$. Then $a^2 = 2 b^2$.
-2. Let $S$ be the set of pairs $(a, b)$ of positive integers with $a^2 = 2 b^2$, and let the size be $b$.
-3. From $b^2 < 2 b^2 = a^2 < 4 b^2$ we get $b < a < 2b$.
-4. Let $a' = 2b - a$ and $b' = a - b$. By step 3, $a' > 0$ and $b' > 0$, and $b' < b$ because $a < 2b$.
-5. We check the equation: $a'^2 - 2 b'^2 = 4b^2 - 4ab + a^2 - 2a^2 + 4ab - 2b^2 = 2b^2 - a^2 = 0$.
-6. So $(a', b')$ is in $S$, and its size $b'$ is less than $b$.
-7. By the method, $S$ is empty, and $\sqrt{2}$ is not a quotient of positive integers.
-
-The typical use of descent is an equation whose solutions are all divisible by a fixed number, or a geometric figure that contains a smaller copy of itself.
-A trap is step 4: the new pair must again consist of positive integers, and this needs the bounds of step 3.
+The typical use of descent is an equation whose solutions are all divisible by a fixed number, or a figure that contains a smaller copy of itself.
+Watch out: the new triple must again be a nonzero integer solution, and here the division by $3$ is exact because of the remainder argument.
 
 ### L3 human
 
 Infinite descent is the statement that the order of $\mathbb{N}$ is well-founded, used as a proof rule.
-In this form it extends to every [[well-founded relation|0DQPNJNPYK]], and it is the same principle as well-founded induction.
-In number theory, descent became a structural method: for an elliptic curve $E$ over $\mathbb{Q}$, a height function plays the role of the size, and the finiteness of $E(\mathbb{Q})/2E(\mathbb{Q})$ together with descent on the height gives the [[Mordell-Weil theorem|MXRCPAH09H]].
-In logic, a proof that a process terminates by a measure that decreases in a well-ordered set is a descent argument, and Gentzen's consistency proof of arithmetic uses a descent along ordinals below $\varepsilon_0$.
-The related pages are the [[minimal counterexample|JGRCNPKNGG]] and the [[equivalence of induction and well-ordering|J2P9FWBP3Q]].
+In this form it extends to every [[well-founded relation|0DQPNJNPYK]], and it is the same principle as well-founded induction, seen in the contrapositive.
+In number theory, descent became a structural method.
+For an elliptic curve $E$ over $\mathbb{Q}$, a height function plays the role of the size.
+The finiteness of $E(\mathbb{Q})/2E(\mathbb{Q})$, together with descent on the height, gives the [[Mordell-Weil theorem|MXRCPAH09H]].
+In logic, a proof that a process stops by a measure that drops in a well-ordered set is a descent argument.
+Gentzen's consistency proof of arithmetic uses a descent along the ordinals below $\varepsilon_0$.
+The [[equivalence of induction and well-ordering|J2P9FWBP3Q]] gives the exact link between descent and induction over $\mathbb{N}$.
