@@ -14,27 +14,41 @@ sources:
 
 ## Example
 
-Let $D = \operatorname{diag}(2, 3)$ and $A = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}$.
+Let
+$$D = \operatorname{diag}(2, 3) = \begin{pmatrix} 2 & 0 \\ 0 & 3 \end{pmatrix}, \qquad A = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}.$$
+We compute $DA$ and $AD$ and compare them.
 
-1. By the [[product rule|076JGP6R3T]], $(DA)_{ij} = d_i a_{ij}$. So $DA = \begin{pmatrix} 2 \cdot 1 & 2 \cdot 2 \\ 3 \cdot 3 & 3 \cdot 4 \end{pmatrix} = \begin{pmatrix} 2 & 4 \\ 9 & 12 \end{pmatrix}$: row $i$ is multiplied by $d_i$.
-2. Also $(AD)_{ij} = a_{ij} d_j$. So $AD = \begin{pmatrix} 1 \cdot 2 & 2 \cdot 3 \\ 3 \cdot 2 & 4 \cdot 3 \end{pmatrix} = \begin{pmatrix} 2 & 6 \\ 6 & 12 \end{pmatrix}$: column $j$ is multiplied by $d_j$.
-3. So $DA \neq AD$, although $D$ is [[diagonal|0Q9PGXD9E4]].
-4. With $D' = \operatorname{diag}(5, 7)$, the product $DD' = \operatorname{diag}(10, 21) = D'D$.
+1. By the [[product rule|076JGP6R3T]], $(DA)_{ij} = \sum_k d_{ik} a_{kj} = d_i a_{ij}$, because only $k = i$ gives a nonzero $d_{ik}$. So row $i$ of $A$ is multiplied by $d_i$:
+$$DA = \begin{pmatrix} 2 \cdot 1 & 2 \cdot 2 \\ 3 \cdot 3 & 3 \cdot 4 \end{pmatrix} = \begin{pmatrix} 2 & 4 \\ 9 & 12 \end{pmatrix}.$$
+2. In the same way, $(AD)_{ij} = \sum_k a_{ik} d_{kj} = a_{ij} d_j$. So column $j$ of $A$ is multiplied by $d_j$:
+$$AD = \begin{pmatrix} 1 \cdot 2 & 2 \cdot 3 \\ 3 \cdot 2 & 4 \cdot 3 \end{pmatrix} = \begin{pmatrix} 2 & 6 \\ 6 & 12 \end{pmatrix}.$$
+3. The entries at $(1, 2)$ are $4$ and $6$, so $DA \ne AD$, although $D$ is [[diagonal|0Q9PGXD9E4]].
+4. For a second diagonal matrix $D' = \operatorname{diag}(5, 7)$, both orders give the same result:
+$$DD' = \operatorname{diag}(2 \cdot 5, 3 \cdot 7) = \operatorname{diag}(10, 21) = D'D.$$
 
 ## Remarks
 
-Scaling rows on the left and columns on the right is used to balance a matrix before a numerical computation.
-In the sales example, a diagonal matrix of prices on the right turns units into money for each product.
+The example shows the two halves of one rule: a diagonal factor on the left acts on rows, and a diagonal factor on the right acts on columns.
+The diagonal entries of $DA$ and $AD$ agree, since $d_i a_{ii} = a_{ii} d_i$, and only the off-diagonal entries differ.
+
+When do $D$ and $A$ commute?
+Steps 1 and 2 show that $DA = AD$ exactly when $a_{ij}(d_i - d_j) = 0$ for all $i$ and $j$.
+Here $a_{12} = 2$ and $d_1 - d_2 = -1$, so the condition fails.
+If we change $D$ to $\operatorname{diag}(3, 3) = 3I$, then $d_1 = d_2$ and $D$ commutes with $A$, as every [[scalar matrix|067NKSBEWT]] does.
+
+Scaling on both sides is common in numerical work, where rows and columns are rescaled to balance a matrix before elimination.
 
 ## Explanations
 
 ### L1 human
 
-A diagonal matrix on the left multiplies each row by a number.
-A diagonal matrix on the right multiplies each column by a number.
-The two results differ.
+A diagonal matrix on the left multiplies each row of the other matrix by a number: the first row by $2$, the second row by $3$.
+A diagonal matrix on the right multiplies each column instead.
+Rows and columns are different things, so the two results are usually different.
 
 ### L2 human
 
-Two diagonal matrices commute, but a diagonal matrix and a general matrix usually do not.
-They commute exactly when $a_{ij}(d_i - d_j) = 0$ for all $i, j$.
+To compute a product with a diagonal factor, do not use the full row-times-column rule.
+Read off the scaling instead: on the left, scale row $i$ by $d_i$; on the right, scale column $j$ by $d_j$.
+Watch out: it is a common slip to scale rows when the diagonal matrix is on the right.
+A quick test is the entry $(1, 2)$: on the left it gets the factor $d_1$, on the right the factor $d_2$.

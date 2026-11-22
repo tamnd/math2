@@ -15,22 +15,31 @@ sources:
 
 ## Proof
 
-Let $N$ be strictly upper triangular, so $n_{ij} = 0$ when $j - i < 1$.
-We prove by induction on $k \ge 1$: $(N^k)_{ij} = 0$ whenever $j - i < k$.
+We prove the entry rule by induction on the exponent $k$, and then take $k = n$.
+Let $N = (n_{ij})$ be a strictly upper triangular $n \times n$ matrix over a ring $R$, so $n_{ij} = 0$ whenever $j - i < 1$.
+The claim for each $k \ge 1$ is that $(N^k)_{ij} = 0$ whenever $j - i < k$.
 
-1. Base case $k = 1$: this is the [[definition|0MKABWDRNC]] of strictly upper triangular.
-2. Induction step: assume the claim for $k$. By the [[product rule|076JGP6R3T]], $(N^{k+1})_{ij} = \sum_{l=1}^{n} (N^k)_{il}\, n_{lj}$.
-3. A term can be nonzero only if $(N^k)_{il} \neq 0$ and $n_{lj} \neq 0$. By the hypothesis and step 1, this needs $l - i \ge k$ and $j - l \ge 1$.
-4. Adding the two inequalities gives $j - i \ge k + 1$. So if $j - i < k + 1$, every term is $0$, and $(N^{k+1})_{ij} = 0$.
-5. This proves the claim for all $k \ge 1$ by [[induction|0ASJVEFA9J]].
-6. Take $k = n$. For all indices, $j - i \le n - 1 < n$. So every entry of $N^n$ is $0$, and $N^n = 0$.
+1. Base case $k = 1$: the claim says $n_{ij} = 0$ whenever $j - i < 1$, that is, whenever $i \ge j$, and this is the [[definition|0MKABWDRNC]] of strictly upper triangular.
+2. Induction step: assume the claim for some $k \ge 1$; by the [[product rule|076JGP6R3T]],
+$$(N^{k+1})_{ij} = (N^k N)_{ij} = \sum_{l=1}^{n} (N^k)_{il}\, n_{lj}.$$
+3. A term of this sum can be nonzero only if $(N^k)_{il} \neq 0$ and $n_{lj} \neq 0$, and by the induction hypothesis and by step 1 this needs $l - i \ge k$ and $j - l \ge 1$.
+4. Adding the two inequalities gives $j - i \ge k + 1$, so when $j - i < k + 1$ every term is $0$ and $(N^{k+1})_{ij} = 0$, which is the claim for $k + 1$.
+5. By [[induction|0ASJVEFA9J]], the claim holds for every $k \ge 1$.
+6. Take $k = n$; for all indices $1 \le i, j \le n$ we have $j - i \le n - 1 < n$, so every entry of $N^n$ is $0$ by step 5, and $N^n = 0$.
 
 ## Idea
 
-The entries of $N^k$ live on and above the $k$-th diagonal above the main one.
-An $n \times n$ matrix has only $n - 1$ diagonals above the main one, so $N^n$ has no room left.
+Number the diagonals by $j - i$.
+A nonzero entry of $N^k$ at $(i, j)$ needs a chain $i = l_0 < l_1 < \dots < l_k = j$ of indices, because each factor $N$ moves the index up by at least one.
+Such a chain climbs at least $k$ steps, so $j - i \ge k$.
+An $n \times n$ matrix has no positions with $j - i \ge n$, so $N^n$ has no room for a nonzero entry.
 
 ## Variants
 
-- By maps: $N V_j \subseteq V_{j-1}$ for $V_j = \langle e_1, \dots, e_j \rangle$ and $V_0 = 0$. So $N^k V_n \subseteq V_{n-k}$, and $N^n V_n = 0$.
-- The [[product theorem|45RET2Y995]] shows that products of strictly upper triangular matrices stay strictly upper triangular, but not the faster decay; the induction above gives the decay.
+The same proof can be told with maps.
+Let $V_j$ be the span of $e_1, \dots, e_j$, with $V_0 = 0$.
+Column $j$ of $N$ has zeros from row $j$ down, so $N V_j \subseteq V_{j-1}$, and by induction $N^k V_n \subseteq V_{n-k}$.
+For $k = n$ this gives $N^n V_n \subseteq V_0 = 0$, so $N^n = 0$.
+
+The [[product theorem|45RET2Y995]] shows only that each power of $N$ stays strictly upper triangular.
+It does not show that the powers reach zero, so the finer entry rule, or the flag argument, is needed.
