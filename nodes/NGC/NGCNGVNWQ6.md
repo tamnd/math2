@@ -15,25 +15,40 @@ sources:
 
 ## Proof
 
-Let $V$ be a finite-dimensional inner product space over $\mathbb{K} = \mathbb{R}$ or $\mathbb{C}$, with [[inner product|0VGSYBWHV2]] $\ip{\cdot}{\cdot}$.
+We write $v$ in the basis with unknown coefficients, find each coefficient by one inner product, and then get the norm from the Pythagorean theorem.
+Let $V$ be a finite-dimensional inner product space over $\mathbb{K} = \mathbb{R}$ or $\mathbb{C}$, with [[inner product|0VGSYBWHV2]] $\ip{\cdot}{\cdot}$ linear in the first slot.
 Let $(e_1, \dots, e_n)$ be an [[orthonormal basis|0FWJ0VW561]] of $V$, and let $v \in V$.
 
-1. Since $(e_1, \dots, e_n)$ is a [[basis|0VTQTPQGAV]], there are scalars $a_1, \dots, a_n$ with $v = \sum_{j=1}^{n} a_j e_j$.
-2. Fix $i$. Linearity in the first argument gives $\ip{v}{e_i} = \sum_{j=1}^{n} a_j \ip{e_j}{e_i}$.
-3. By [[orthonormality|09VYHEF2VT]], $\ip{e_j}{e_i} = 0$ for $j \neq i$ and $\ip{e_i}{e_i} = 1$. So $\ip{v}{e_i} = a_i$.
-4. Part 1. Put step 3 into step 1: $v = \sum_{i=1}^{n} \ip{v}{e_i} e_i$.
-5. Part 2. The vectors $a_1 e_1, \dots, a_n e_n$ are pairwise orthogonal, since $\ip{a_j e_j}{a_l e_l} = a_j \overline{a_l}\ip{e_j}{e_l} = 0$ for $j \neq l$.
-6. The [[Pythagorean theorem|0BVTDM872V]] for $n$ vectors gives $\norm{v}^2 = \sum_{j} \norm{a_j e_j}^2$.
-7. By homogeneity of the norm, $\norm{a_j e_j}^2 = |a_j|^2 \norm{e_j}^2 = |a_j|^2$.
-8. With step 3, $\norm{v}^2 = \sum_{j=1}^{n} |\ip{v}{e_j}|^2$.
+*Part 1.*
+
+1. Since $(e_1, \dots, e_n)$ is a [[basis|0VTQTPQGAV]], there are scalars $a_1, \dots, a_n$ with
+$$v = \sum_{j=1}^{n} a_j e_j.$$
+2. Fix $i$, and take the inner product of both sides with $e_i$ in the second slot.
+   Linearity in the first slot gives
+$$\ip{v}{e_i} = \sum_{j=1}^{n} a_j \ip{e_j}{e_i}.$$
+3. By [[orthonormality|09VYHEF2VT]], $\ip{e_j}{e_i} = 0$ for $j \neq i$ and $\ip{e_i}{e_i} = 1$.
+   So the sum in step 2 has one term left, and $\ip{v}{e_i} = a_i$.
+4. Put the values of step 3 into step 1 to get $v = \sum_{i=1}^{n} \ip{v}{e_i} e_i$.
+
+*Part 2.*
+
+5. The vectors $a_1 e_1, \dots, a_n e_n$ are pairwise orthogonal, since for $j \neq l$ linearity in the first slot and conjugate-linearity in the second give
+$$\ip{a_j e_j}{a_l e_l} = a_j \overline{a_l} \ip{e_j}{e_l} = 0.$$
+6. The [[Pythagorean theorem|0BVTDM872V]] for $n$ pairwise orthogonal vectors gives
+$$\norm{v}^2 = \sum_{j=1}^{n} \norm{a_j e_j}^2.$$
+7. By homogeneity of the norm, $\norm{a_j e_j}^2 = \abs{a_j}^2 \norm{e_j}^2 = \abs{a_j}^2$, since $\norm{e_j} = 1$.
+8. With $a_j = \ip{v}{e_j}$ from step 3, this gives $\norm{v}^2 = \sum_{j=1}^{n} \abs{\ip{v}{e_j}}^2$.
 
 ## Idea
 
 Write $v$ in the basis with unknown coefficients.
-The inner product with $e_i$ removes every term except the one with $e_i$, and that term is the coefficient $a_i$.
-The length then follows from Pythagoras, because the terms $a_j e_j$ are pairwise orthogonal.
+The inner product with $e_i$ removes every term except the one with $e_i$, and that term is exactly the coefficient $a_i$, because $e_i$ has length $1$.
+The length then follows from the Pythagorean theorem, because the pieces $a_j e_j$ are pairwise orthogonal.
 
 ## Variants
 
-- One can prove part 2 by direct expansion: $\ip{v}{v} = \sum_{j, l} a_j \overline{a_l}\ip{e_j}{e_l} = \sum_j |a_j|^2$.
-- One can avoid the existence of the coefficients in step 1. Put $w = v - \sum_i \ip{v}{e_i} e_i$, check $\ip{w}{e_i} = 0$ for all $i$, and conclude $w = 0$, since $w$ is orthogonal to a basis.
+Part 2 also follows by direct expansion, with no appeal to the Pythagorean theorem:
+$$\ip{v}{v} = \sum_{j, l} a_j \overline{a_l} \ip{e_j}{e_l} = \sum_{j} a_j \overline{a_j} = \sum_j \abs{a_j}^2.$$
+Part 1 can also be proved without naming the coefficients first.
+Put $w = v - \sum_i \ip{v}{e_i} e_i$ and check that $\ip{w}{e_k} = \ip{v}{e_k} - \ip{v}{e_k} = 0$ for every $k$.
+Then $w$ is orthogonal to a basis, hence to every vector, and in particular $\ip{w}{w} = 0$, so $w = 0$.
