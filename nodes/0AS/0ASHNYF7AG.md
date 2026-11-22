@@ -20,80 +20,134 @@ sources:
 
 ## Summary
 
+The annihilator of a subspace is the set of all linear equations that the subspace satisfies.
+It turns a subspace given by spanning vectors into a subspace of equations, and in finite dimension the equations give the subspace back.
 Let $V$ be a vector space over a field $F$ and let $U$ be a [[subspace|00YC1D652K]] of $V$.
-The annihilator of $U$ is the set $U^0 = \set{f \in V^* : f(u) = 0 \text{ for all } u \in U}$ of [[linear forms|07YQ1C78G0]] that vanish on $U$.
-It is a subspace of the [[dual space|07JBSZE0V4]] $V^*$.
-In finite dimension, $\dim U + \dim U^0 = \dim V$, and $U \mapsto U^0$ matches the subspaces of $V$ with those of $V^*$, reversing inclusions.
+The *annihilator* of $U$ is the set of [[linear forms|07YQ1C78G0]] that vanish on $U$:
+$$U^0 = \{ f \in V^* : f(u) = 0 \text{ for all } u \in U \}.$$
+It is a subspace of the [[dual space|07JBSZE0V4]] $V^*$, and the [[formal definition|0R6M158SQ9]] states it.
+When $V$ is finite-dimensional, $\dim U + \dim U^0 = \dim V$, and $U \mapsto U^0$ matches the subspaces of $V$ with the subspaces of $V^*$, with inclusions reversed.
 
 ## Motivation
 
-A subspace can be given by vectors that span it, or by linear equations that cut it out.
-The annihilator collects all linear equations that hold on $U$.
-For example, the plane $x + y + z = 0$ in $\R^3$ has the annihilator spanned by the form $x + y + z$.
-Passing from $U$ to $U^0$ turns "parametric" descriptions into "equation" descriptions, and back.
+There are two ways to describe a subspace.
+You can list vectors that span it, as in "the line through $(1, 2, 3)$", or you can list equations that cut it out, as in "the plane $x + y + z = 0$".
+The first description is good for producing points of the subspace, and the second is good for testing whether a given point lies in it.
+The annihilator is the tool that passes from the first description to the second: a basis of $U^0$ is a system of independent equations for $U$.
+
+The idea returns several times later in the sub-area.
+The [[kernel of the dual map|7FA499AW3T]] is an annihilator, and that fact gives a proof that row rank equals column rank.
+In an inner product space, the annihilator becomes the [[orthogonal complement|0XJXTBCB2T]] once each form is written as an inner product with a vector.
 
 ## Notation
 
-The annihilator is written $U^0$, $U^\circ$, $\operatorname{Ann}(U)$ or $U^\perp$.
-The notation $U^\perp$ is also used for the orthogonal complement in an inner product space, which is a subspace of $V$, not of $V^*$.
-For a subspace $X$ of $V^*$, the set $X_0 = \set{v \in V : f(v) = 0 \text{ for all } f \in X}$ is sometimes called the pre-annihilator.
-Mathlib writes `Submodule.dualAnnihilator`.
+Most books write $U^0$ or $U^\circ$, and some write $\operatorname{Ann}(U)$ or $U^\perp$.
+The symbol $U^\perp$ is a trap, because it also names the orthogonal complement, which is a subspace of $V$ and not of $V^*$.
+For a subspace $X$ of $V^*$, the set $X_0 = \{ v \in V : f(v) = 0 \text{ for all } f \in X \}$ is the common kernel of the forms in $X$, and some books call it the pre-annihilator of $X$.
+In Mathlib the annihilator is `Submodule.dualAnnihilator`.
 
 ## Remarks
 
-### Examples
+### A plane and a line in space
 
-- [[The annihilator of a plane in R^3|5VNTTZGN1A]]: for $U = \set{x + y + z = 0}$, the annihilator is $U^0 = \R \cdot (x + y + z)$. For the line spanned by $(1, 2, 3)$, it is spanned by $-2x + y$ and $-3x + z$.
-- [[The annihilator of the trace-zero matrices|5QM5REJ243]] is the line spanned by the trace.
-- $\set{0}^0 = V^*$ and $V^0 = \set{0}$.
+Write a form on $\mathbb{R}^3$ as $f = ax + by + cz$.
+The plane $U$ given by $x + y + z = 0$ has the basis $(1, -1, 0)$ and $(1, 0, -1)$.
+A form vanishes on $U$ when it vanishes on both basis vectors:
+$$f(1, -1, 0) = a - b = 0, \qquad f(1, 0, -1) = a - c = 0.$$
+So $a = b = c$, and $U^0$ is the line of multiples of $x + y + z$.
+The plane has dimension $2$ and its annihilator has dimension $1$.
 
-### Non-examples
+Now take the line $L$ spanned by $(1, 2, 3)$.
+A form lies in $L^0$ when $a + 2b + 3c = 0$, and the solutions are $(a, b, c) = b(-2, 1, 0) + c(-3, 0, 1)$.
+So $L^0$ is spanned by $-2x + y$ and $-3x + z$, and it has dimension $2$.
+Check: both forms give $0$ at $(1, 2, 3)$, since $-2 + 2 = 0$ and $-3 + 3 = 0$.
+[[The plane and the line in R^3|5VNTTZGN1A]] works both cases out in full.
 
-- [[The orthogonal complement is not the annihilator|ENNMQ30X9F]]: in $\R^2$, the orthogonal complement of a line is a line in $\R^2$, and it depends on the inner product. The annihilator is a line in $(\R^2)^*$, and it needs no inner product.
-- The set of forms $f$ on $\R^2$ with $f(1, 0) = 1$ is not the annihilator of any subspace. It does not contain the zero form, so it is not even a subspace of $(\R^2)^*$.
+### Two more examples
 
-### Basic properties
+The extreme cases are worth knowing.
+Every form vanishes at $0$, so $\{0\}^0 = V^*$.
+A form that vanishes on all of $V$ is the zero form, so $V^0 = \{0\}$.
 
-- If $U \subseteq W$, then $W^0 \subseteq U^0$. Further, $(U + W)^0 = U^0 \cap W^0$ and $(U \cap W)^0 = U^0 + W^0$, in any dimension, by the [[lemma on annihilators|Z71CEX564V]].
-- In finite dimension, $\dim U^0 = \dim V - \dim U$, by the theorem on the [[dimension of the annihilator|06Q1EFVH0Q]]. Also $U^0 \cong (V/U)^*$ and $V^*/U^0 \cong U^*$.
-- The [[kernel of the dual map|7FA499AW3T]] is an annihilator: $\ker f^* = (\im f)^0$.
-- If $U = \ker f$ for a nonzero form $f$, then $U^0 = Ff$; this is part 3 of the theorem on [[hyperplanes and linear forms|XR0EQN0H8T]].
+On the space $M_n(F)$ of square matrices, the trace-zero matrices form a subspace $U$ of dimension $n^2 - 1$.
+The trace itself vanishes on $U$, and a dimension count shows that every form that vanishes on $U$ is a multiple of the trace.
+So $U^0 = F \cdot \operatorname{tr}$, as [[the annihilator of the trace-zero matrices|5QM5REJ243]] shows.
 
-### History
+### What it is not
 
-The annihilator is the linear-algebra form of a general idea: the set of things that "kill" a given set.
-The same word is used for the [[annihilator in ring theory|HB4XDKJTW8]], and in harmonic analysis, where [[annihilator duality|YT42EZ7GQQ]] matches the closed subgroups of a locally compact abelian group with those of its dual group.
+The annihilator is not the orthogonal complement.
+In $\mathbb{R}^2$, the line $U$ spanned by $(1, 1)$ has the annihilator spanned by the form $x - y$, a line in $(\mathbb{R}^2)^*$.
+Its orthogonal complement for the dot product is the line spanned by the vector $(1, -1)$ in $\mathbb{R}^2$.
+For the inner product $v_1 w_1 + 2 v_2 w_2$ it is the line spanned by $(2, -1)$, while the annihilator does not change.
+[[The orthogonal complement is not the annihilator|ENNMQ30X9F]] computes both.
 
-### Common errors
+The set of forms $f$ on $\mathbb{R}^2$ with $f(1, 0) = 1$ is not the annihilator of any subspace.
+It does not contain the zero form, so it is not even a subspace of $(\mathbb{R}^2)^*$.
+An annihilator always asks for the value $0$, and that is why it is closed under sums and multiples.
 
-- Confusing $U^0 \subseteq V^*$ with the orthogonal complement $U^\perp \subseteq V$.
-- Expecting $U \mapsto U^0$ to be onto the subspaces of $V^*$ in infinite dimension. On $F^{(\N)}$, the span $X$ of the coordinate forms is a proper subspace of $V^*$, but no subspace $U$ has $U^0 = X$.
-- Getting the direction of inclusion wrong: a larger subspace has a smaller annihilator.
+### The rules you can use
+
+A larger subspace satisfies fewer equations, so $U \subseteq W$ gives $W^0 \subseteq U^0$.
+A form vanishes on $U + W$ exactly when it vanishes on $U$ and on $W$, so $(U + W)^0 = U^0 \cap W^0$.
+The rule $(U \cap W)^0 = U^0 + W^0$ also holds, but its proof needs to extend a form from a subspace to $V$.
+All of these hold in every dimension, by the [[lemma on annihilators|Z71CEX564V]].
+
+In finite dimension, the [[dimension of the annihilator|06Q1EFVH0Q]] is $\dim V - \dim U$.
+The same theorem gives $U^0 \cong (V/U)^*$ and $V^*/U^0 \cong U^*$ in every dimension.
+For a hyperplane $U = \ker f$ with $f \ne 0$, the annihilator is the line $F f$, which is part of the theorem on [[hyperplanes and linear forms|XR0EQN0H8T]].
+
+### Watch out
+
+The direction of inclusion is easy to get wrong: a bigger subspace has a smaller annihilator, not a bigger one.
+So $L \subseteq U$ holds exactly when $U^0 \subseteq L^0$.
+For the line $L$ and the plane $U$ above, this asks whether $L^0$ contains the form $x + y + z$.
+It does not, since that form gives $6$ at $(1, 2, 3)$, so $L$ does not lie in the plane.
+
+In infinite dimension, $U \mapsto U^0$ does not reach every subspace of $V^*$.
+On the space $F^{(\mathbb{N})}$ of [[finitely supported sequences|GZ627X1S7Y]], let $X$ be the span of the coordinate forms.
+If $U^0 = X$, then $U$ is contained in the common kernel of the coordinate forms, which is $\{0\}$.
+But $\{0\}^0$ is all of $V^*$, and $X$ is smaller, since the sum of all coordinates is [[not in X|JCMJDY59CH]].
+So no subspace has $X$ as its annihilator.
+
+### The same word elsewhere
+
+The word names the same kind of object in other parts of algebra: the set of things that kill a given set.
+In ring theory, the [[annihilator of a module|HB4XDKJTW8]] is the set of ring elements that send every element to $0$.
+In harmonic analysis, [[annihilator duality|YT42EZ7GQQ]] matches the closed subgroups of a locally compact abelian group with those of its dual group.
+
+### Try it
+
+First, find the annihilator of the line spanned by $(1, 1)$ in $\mathbb{R}^2$.
+A form $ax + by$ vanishes on it when $a + b = 0$, so the annihilator is spanned by $x - y$.
+
+Second, in $\mathbb{R}^4$, what is the dimension of the annihilator of a plane?
+By the dimension formula it is $4 - 2 = 2$, so the plane is cut out by two independent equations.
 
 ## Explanations
 
 ### L1 human
 
-The annihilator of a subspace is the set of all linear equations that the subspace satisfies.
-A plane through the origin in space satisfies one equation, up to a factor, so its annihilator is one-dimensional.
-A line through the origin in space satisfies two independent equations, so its annihilator is two-dimensional.
-In each case, the dimensions add up to $3$.
+Think of a flat plane through the origin in space.
+It obeys one rule, for example "the three coordinates add up to zero", and every other rule it obeys is a multiple of that one.
+A line through the origin obeys two independent rules, for example "the second coordinate is twice the first" and "the third is three times the first".
+The annihilator is the collection of all such rules.
+The plane has one independent rule and the line has two, and in each case the number of directions plus the number of rules is $3$.
 
 ### L2 human
 
-We find the annihilator of the line $U$ spanned by $(1, 2, 3)$ in $\R^3$.
-
-1. A form $f = ax + by + cz$ lies in $U^0$ exactly when $f(1, 2, 3) = a + 2b + 3c = 0$.
-2. The solutions are $(a, b, c) = b(-2, 1, 0) + c(-3, 0, 1)$.
-3. So $U^0$ is spanned by $-2x + y$ and $-3x + z$, and $\dim U^0 = 2 = 3 - 1$.
-4. The common kernel of these two forms is the set $y = 2x$, $z = 3x$, which is $U$ again.
-
-The typical use is to write a subspace as the solution set of a linear system: a basis of $U^0$ gives a system of equations for $U$.
-A trap: $U^0$ lives in $V^*$, so its elements are equations, not vectors.
+Here is a typical use: write the plane $U$ spanned by $(1, 0, 1, 0)$ and $(0, 1, 0, 1)$ in $\mathbb{R}^4$ as the solution set of equations.
+Take a general form $f = a x_1 + b x_2 + c x_3 + d x_4$ and ask that it vanish on both spanning vectors:
+$$a + c = 0, \qquad b + d = 0.$$
+The solutions are $(a, b, c, d) = a(1, 0, -1, 0) + b(0, 1, 0, -1)$, so $U^0$ is spanned by $x_1 - x_3$ and $x_2 - x_4$.
+So $U$ is the solution set of the system $x_1 = x_3$, $x_2 = x_4$.
+Check: both spanning vectors satisfy these two equations, and the solution set has dimension $4 - 2 = 2$, so it is all of $U$.
+This is the standard way to turn a spanning set into a system of equations.
+Watch out: you must test the form on a spanning set of $U$, because testing on fewer vectors gives a larger set of forms.
 
 ### L3 human
 
-In finite dimension, $U \mapsto U^0$ is an order-reversing bijection between the lattices of subspaces of $V$ and of $V^*$, which exchanges sums and intersections.
-Under the identification of $U^0$ with $(V/U)^*$, the annihilator is the dual of the quotient, and $V^* / U^0 \cong U^*$ is the dual of the inclusion.
-So annihilators express that duality turns subspaces into quotients and quotients into subspaces.
-In a normed space, the annihilator of a subspace inside the continuous dual is the starting point of the duality between subspaces and quotients in functional analysis.
+In finite dimension, $U \mapsto U^0$ is an inclusion-reversing bijection between the lattice of subspaces of $V$ and the lattice of subspaces of $V^*$, and it exchanges sums with intersections.
+The isomorphisms $U^0 \cong (V/U)^*$ and $V^*/U^0 \cong U^*$ say that duality turns subspaces into quotients and quotients into subspaces.
+The [[dual map|0AZ5ARP287]] carries this further: its kernel and image are annihilators of the image and kernel of the original map.
+With a [[nondegenerate bilinear form|01NHFZF2SK]] on $V$, the annihilator moves back into $V$ as an orthogonal complement.
+In a normed space, the annihilator inside the continuous dual plays the same role, with the [[Hahn-Banach theorem|QB5AE3VYZZ]] in place of the extension of a basis.
