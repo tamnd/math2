@@ -18,44 +18,56 @@ sources:
 
 ## Example
 
-On $\mathcal{P}_3(\mathbb{R})$, the real polynomials of degree at most $3$, use the [[inner product|0VGSYBWHV2]] $\ip{p}{q} = \int_{-1}^{1} p(x) q(x)\, dx$.
-Apply the [[Gram-Schmidt process|A1Y41YZFB6]] to $1, x, x^2, x^3$.
-We use $\int_{-1}^1 x^m\, dx = \frac{2}{m + 1}$ for even $m$ and $0$ for odd $m$.
+On $\mathcal{P}_3(\mathbb{R})$, the real polynomials of degree at most $3$, take the [[inner product|0VGSYBWHV2]]
+$$\ip{p}{q} = \int_{-1}^{1} p(x) q(x)\, dx,$$
+and apply the [[Gram-Schmidt process|A1Y41YZFB6]] to $1, x, x^2, x^3$.
+Every integral below comes from one rule: $\int_{-1}^1 x^m\, dx = \frac{2}{m + 1}$ for even $m$, and $0$ for odd $m$ because the integrand is odd.
 
-1. $u_0 = 1$, with $\ip{u_0}{u_0} = 2$.
-2. $\ip{x}{1} = 0$, so $u_1 = x$, with $\ip{u_1}{u_1} = \frac23$.
-3. $\ip{x^2}{1} = \frac23$ and $\ip{x^2}{x} = 0$. So $u_2 = x^2 - \frac{2/3}{2} = x^2 - \frac13$.
-4. $\ip{u_2}{u_2} = \int_{-1}^1 (x^4 - \frac23 x^2 + \frac19)\, dx = \frac25 - \frac49 + \frac29 = \frac{8}{45}$.
-5. $\ip{x^3}{1} = 0$, $\ip{x^3}{x} = \frac25$ and $\ip{x^3}{u_2} = 0$, since $x^3 u_2$ is odd. So $u_3 = x^3 - \frac{2/5}{2/3} x = x^3 - \frac35 x$.
-6. $\ip{u_3}{u_3} = \int_{-1}^1 (x^6 - \frac65 x^4 + \frac{9}{25} x^2)\, dx = \frac27 - \frac{12}{25} + \frac{6}{25} = \frac{8}{175}$.
-7. The [[Legendre polynomials|4JVVDAQ9XX]] are normalized by $P_n(1) = 1$: $P_0 = 1$, $P_1 = x$, $P_2 = \frac32 u_2 = \frac12(3x^2 - 1)$ and $P_3 = \frac52 u_3 = \frac12(5x^3 - 3x)$.
-8. Their squared norms are $2$, $\frac23$, $\frac94 \cdot \frac{8}{45} = \frac25$ and $\frac{25}{4} \cdot \frac{8}{175} = \frac27$. So $\norm{P_n}^2 = \frac{2}{2n + 1}$ for $n \leq 3$.
-9. The orthonormal output is $e_n = \sqrt{\frac{2n + 1}{2}}\, P_n$: $e_0 = \frac{1}{\sqrt2}$, $e_1 = \sqrt{\frac32}\, x$, $e_2 = \sqrt{\frac52} \cdot \frac12(3x^2 - 1)$ and $e_3 = \sqrt{\frac72} \cdot \frac12(5x^3 - 3x)$.
+1. Keep the first vector: $u_0 = 1$, with $\ip{u_0}{u_0} = \int_{-1}^1 1\, dx = 2$.
+2. Since $\ip{x}{1} = 0$, nothing is subtracted, so $u_1 = x$, with $\ip{u_1}{u_1} = \int_{-1}^1 x^2\, dx = \tfrac23$.
+3. For $x^2$ we have $\ip{x^2}{1} = \tfrac23$ and $\ip{x^2}{x} = 0$, so $u_2 = x^2 - \frac{2/3}{2} \cdot 1 = x^2 - \tfrac13$.
+4. Its squared norm is $\int_{-1}^1 \left(x^4 - \tfrac23 x^2 + \tfrac19\right) dx = \tfrac25 - \tfrac49 + \tfrac29 = \tfrac{8}{45}$.
+5. For $x^3$ we have $\ip{x^3}{1} = 0$, $\ip{x^3}{x} = \tfrac25$, and $\ip{x^3}{u_2} = 0$ because $x^3 u_2$ is odd, so $u_3 = x^3 - \frac{2/5}{2/3} x = x^3 - \tfrac35 x$.
+6. Its squared norm is $\int_{-1}^1 \left(x^6 - \tfrac65 x^4 + \tfrac{9}{25} x^2\right) dx = \tfrac27 - \tfrac{12}{25} + \tfrac{6}{25} = \tfrac{8}{175}$.
+7. Check two orthogonality relations that the parity argument does not cover: $\ip{u_2}{u_0} = \tfrac23 - \tfrac23 = 0$ and $\ip{u_3}{u_1} = \tfrac25 - \tfrac35 \cdot \tfrac23 = 0$.
+8. The [[Legendre polynomials|4JVVDAQ9XX]] are the multiples with $P_n(1) = 1$: $P_0 = 1$, $P_1 = x$, $P_2 = \tfrac32 u_2 = \tfrac12(3x^2 - 1)$ and $P_3 = \tfrac52 u_3 = \tfrac12(5x^3 - 3x)$.
+9. Their squared norms are $2$, $\tfrac23$, $\tfrac94 \cdot \tfrac{8}{45} = \tfrac25$ and $\tfrac{25}{4} \cdot \tfrac{8}{175} = \tfrac27$, so $\norm{P_n}^2 = \frac{2}{2n + 1}$ for $n \leq 3$.
+10. The orthonormal output is $e_n = \sqrt{\tfrac{2n + 1}{2}}\, P_n$, that is,
+
+$$e_0 = \tfrac{1}{\sqrt2}, \qquad e_1 = \sqrt{\tfrac32}\, x, \qquad e_2 = \sqrt{\tfrac52} \cdot \tfrac12(3x^2 - 1), \qquad e_3 = \sqrt{\tfrac72} \cdot \tfrac12(5x^3 - 3x).$$
+
+So the process turns the monomials into an orthonormal basis of $\mathcal{P}_3(\mathbb{R})$, and the vectors that it produces are multiples of the first four Legendre polynomials.
 
 ## Remarks
 
-There are three normalizations: the monic $u_n$, the Legendre $P_n$ with $P_n(1) = 1$, and the orthonormal $e_n$.
-All three are orthogonal, and only the $e_n$ have norm $1$.
-The process keeps the parity: $u_n$ is even for even $n$ and odd for odd $n$, because odd and even polynomials are orthogonal on $[-1, 1]$.
-On $[0, 1]$ instead of $[-1, 1]$ the same process gives the shifted Legendre polynomials, for example $u_1 = x - \frac12$.
-With the weight $\frac{1}{\sqrt{1 - x^2}}$ in the integral, the process gives the Chebyshev polynomials instead.
+Three normalizations of the same polynomials are in use: the monic $u_n$ that the process produces before normalizing, the Legendre $P_n$ with $P_n(1) = 1$, and the orthonormal $e_n$.
+All three families are orthogonal, but only the $e_n$ have norm $1$.
+
+The process keeps parity: $u_n$ is even for even $n$ and odd for odd $n$.
+The reason is that an even and an odd polynomial are always orthogonal on $[-1, 1]$, so $x^n$ only loses components of its own parity.
+That is why half of the inner products in the steps above vanish without any work.
+
+Change the interval or the weight and the output changes.
+On $[0, 1]$ the same process gives the shifted Legendre polynomials; for example $u_1 = x - \frac{\ip{x}{1}}{\ip{1}{1}} = x - \tfrac12$.
+With the weight $\frac{1}{\sqrt{1 - x^2}}$ in the integral on $[-1, 1]$, the process gives multiples of the Chebyshev polynomials instead.
 
 ## Explanations
 
 ### L1 human
 
-Polynomials can be perpendicular, if we measure them with an integral.
-Starting from $1, x, x^2, x^3$, the Gram-Schmidt process gives polynomials whose products integrate to $0$ on $[-1, 1]$.
-These are the Legendre polynomials, up to a scale factor.
+Polynomials can be at right angles to each other, if we measure them with an integral.
+Two polynomials count as perpendicular when the integral of their product from $-1$ to $1$ is zero.
+Starting from $1, x, x^2, x^3$, the Gram-Schmidt process produces polynomials that are perpendicular in this sense.
+For example $x^2 - \tfrac13$ is perpendicular to $1$, because the area under it from $-1$ to $1$ is $\tfrac23 - \tfrac23 = 0$.
+These polynomials are the Legendre polynomials, up to a scale factor.
 
 ### L2 human
 
-Worked example: the best approximation of $x^3$ by polynomials of degree at most $1$ on $[-1, 1]$.
-
-1. Use the orthonormal $e_0 = \frac{1}{\sqrt2}$ and $e_1 = \sqrt{\frac32}\, x$.
-2. $\ip{x^3}{e_0} = 0$ and $\ip{x^3}{e_1} = \sqrt{\frac32} \cdot \frac25$.
-3. So the projection is $\ip{x^3}{e_1} e_1 = \frac32 \cdot \frac25 x = \frac35 x$.
-4. The error is $x^3 - \frac35 x = u_3$, with squared norm $\frac{8}{175}$, by step 6.
-
-The typical use is mean-square approximation of functions by polynomials.
-A trap: the Legendre polynomials $P_n$ are orthogonal but not orthonormal, since $\norm{P_n}^2 = \frac{2}{2n + 1}$.
+Here is a typical use: find the straight line $a + bx$ closest to $x^3$ on $[-1, 1]$ in the sense of this inner product.
+The closest line is the projection of $x^3$ onto $\operatorname{span}(e_0, e_1)$, so we need two inner products:
+$$\ip{x^3}{e_0} = \tfrac{1}{\sqrt2} \int_{-1}^1 x^3\, dx = 0, \qquad \ip{x^3}{e_1} = \sqrt{\tfrac32} \int_{-1}^1 x^4\, dx = \sqrt{\tfrac32} \cdot \tfrac25.$$
+The projection is
+$$\ip{x^3}{e_1}\, e_1 = \tfrac32 \cdot \tfrac25\, x = \tfrac35 x.$$
+The error is $x^3 - \tfrac35 x = u_3$, which is orthogonal to every line, and its squared norm is $\tfrac{8}{175}$ by step 6.
+This is mean-square approximation of functions by polynomials, the continuous form of least squares.
+Watch out: the Legendre polynomials $P_n$ are orthogonal but not orthonormal, since $\norm{P_n}^2 = \frac{2}{2n + 1}$, so a projection with $P_n$ needs the division by $\norm{P_n}^2$.

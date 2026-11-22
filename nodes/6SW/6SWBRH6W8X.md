@@ -17,36 +17,46 @@ sources:
 ## Example
 
 In $\mathbb{R}^2$ with the dot product, let $v_1 = (1, 2)$ and $v_2 = (2, 4)$.
+This list is not a valid input of the Gram-Schmidt process, and running the recursion anyway shows where it breaks.
 
-1. The family is [[linearly dependent|0EVHJFTG9Z]], since $2v_1 - v_2 = 0$. So the hypothesis of the [[Gram-Schmidt process|A1Y41YZFB6]] fails.
-2. If we run the recursion anyway, $u_1 = (1, 2)$ and $u_1 \cdot u_1 = 5$.
-3. $v_2 \cdot u_1 = 2 + 8 = 10$, so $u_2 = (2, 4) - \frac{10}{5}(1, 2) = (0, 0)$.
-4. The normalization $e_2 = u_2 / \norm{u_2}$ divides by $0$. So the process does not give an orthonormal family of two vectors.
+1. The list is [[linearly dependent|0EVHJFTG9Z]], since $2v_1 - v_2 = (2, 4) - (2, 4) = 0$, so the hypothesis of the [[Gram-Schmidt process|A1Y41YZFB6]] fails.
+2. The first step still works: $u_1 = (1, 2)$, with $u_1 \cdot u_1 = 1 + 4 = 5$.
+3. The second step computes $v_2 \cdot u_1 = 2 + 8 = 10$, so the coefficient is $\tfrac{10}{5} = 2$.
+4. Subtracting the shadow leaves nothing: $u_2 = (2, 4) - 2(1, 2) = (0, 0)$.
+5. The normalization $e_2 = u_2 / \norm{u_2}$ would divide by $\norm{u_2} = 0$, so the process does not produce an orthonormal list of two vectors.
 
 ## Remarks
 
-The example shows why the process needs independence: $u_j = 0$ exactly when $v_j$ lies in the span of $v_1, \dots, v_{j-1}$.
-So the process is also a test for independence: run it, and look for a zero vector.
-If we skip the zero vector, the output $e_1 = \frac{1}{\sqrt5}(1, 2)$ is an orthonormal basis of the span, which is a line.
-If we change $v_2$ to $(2, 4 + t)$ with $t \neq 0$, the family is independent, and $u_2 = (0, t) - \frac{2t}{5}(1, 2) = \frac{t}{5}(-2, 1)$, which is nonzero.
-On a computer, a nearly dependent family gives a very small $u_j$, and dividing by its norm magnifies rounding errors.
+The example shows exactly why the process needs independence.
+In general $u_j = 0$ happens precisely when $v_j$ lies in the span of $v_1, \dots, v_{j-1}$, because $u_j$ is $v_j$ minus its projection onto that span.
+So the process doubles as a test for independence: run it and look for a zero vector.
+
+If we skip the zero vector, the output $e_1 = \tfrac{1}{\sqrt5}(1, 2)$ is an orthonormal basis of the span, which is a line.
+
+A small change of one number restores independence.
+For $v_2 = (2, 4 + t)$ with $t \neq 0$, we get $v_2 \cdot u_1 = 10 + 2t$ and
+$$u_2 = (2, 4 + t) - \frac{10 + 2t}{5}(1, 2) = \left(-\tfrac{2t}{5}, \tfrac{t}{5}\right) = \tfrac{t}{5}(-2, 1),$$
+which is nonzero and orthogonal to $(1, 2)$.
+As $t$ shrinks, $u_2$ shrinks with it, and on a computer the division by a tiny $\norm{u_2}$ magnifies rounding errors.
 
 ## Explanations
 
 ### L1 human
 
-The two vectors $(1, 2)$ and $(2, 4)$ point along the same line.
-When we remove from the second one its part along the first one, nothing is left.
-A zero vector has no direction, so we cannot scale it to length $1$.
+The two arrows $(1, 2)$ and $(2, 4)$ lie on the same line, and the second is twice the first.
+When we remove from the second arrow its part along the first one, nothing is left.
+A zero arrow has no direction, so we cannot stretch it to length $1$.
+So the process cannot produce a second perpendicular direction, and indeed the two arrows only ever reach one line.
 
 ### L2 human
 
-To find an orthonormal basis of a span of possibly dependent vectors, run the process and drop the zero vectors.
-
-1. Let $v_1 = (1, 0, 1)$, $v_2 = (2, 0, 2)$ and $v_3 = (0, 1, 0)$ in $\mathbb{R}^3$.
-2. $u_1 = v_1$, and $u_2 = v_2 - \frac{4}{2}v_1 = 0$. Drop it.
-3. $u_3 = v_3 - \frac{0}{2}v_1 = (0, 1, 0)$.
-4. So $\frac{1}{\sqrt2}(1, 0, 1)$ and $(0, 1, 0)$ form an orthonormal basis of the span.
-
-The typical use is to compute the rank and an orthonormal basis of a column space at once.
-A trap: in floating point, test "$u_j$ is small" against a tolerance, not "$u_j = 0$".
+Here is the typical use of the failure: to find an orthonormal basis of the span of a list that may be dependent, run the process and drop each zero vector.
+Take $v_1 = (1, 0, 1)$, $v_2 = (2, 0, 2)$ and $v_3 = (0, 1, 0)$ in $\mathbb{R}^3$.
+First $u_1 = v_1$ with $u_1 \cdot u_1 = 2$.
+Next $v_2 \cdot u_1 = 4$, so
+$$u_2 = (2, 0, 2) - \tfrac42 (1, 0, 1) = 0,$$
+and we drop it.
+Then $v_3 \cdot u_1 = 0$, so $u_3 = (0, 1, 0)$.
+So $\tfrac{1}{\sqrt2}(1, 0, 1)$ and $(0, 1, 0)$ form an orthonormal basis of the span, and the span has dimension $2$.
+This computes the rank and an orthonormal basis of a column space in one pass.
+Watch out: in floating point, test whether $\norm{u_j}$ is below a tolerance, not whether $u_j = 0$ exactly.
