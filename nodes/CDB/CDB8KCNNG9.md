@@ -67,11 +67,6 @@ The gap $m_\lambda - \dim \ker(T - \lambda \id_V)$ measures how far $T$ is from 
 In the [[Jordan normal form|085HQ5G5TE]], the geometric multiplicity is the number of Jordan blocks for $\lambda$, and the algebraic multiplicity is the sum of their sizes.
 The [[generalized eigenspace|0AJ035ZTZE]] always has dimension $m_\lambda$, by the [[dimension formula|PHZ684KGWS]], so the test asks that each generalized eigenspace is an ordinary eigenspace.
 
-## History
-
-The comparison of the two multiplicities is the standard textbook test, for example in Section 5.2 of the textbook of Friedberg, Insel and Spence.
-We know of no single first source for it.
-
 ## Explanations
 
 ### L1 human

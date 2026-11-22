@@ -74,11 +74,6 @@ Without the splitting condition, a minimal polynomial with no repeated irreducib
 For a general $m_T = \prod_i p_i^{e_i}$, the [[primary decomposition|49ZHBMYKVE]] splits $V$ into the pieces $\ker p_i(T)^{e_i}$.
 The exponent of $t - \lambda$ in $m_T$ is the size of the largest Jordan block for $\lambda$ in the [[Jordan normal form|085HQ5G5TE]], so the criterion says that every Jordan block has size $1$.
 
-## History
-
-Hoffman and Kunze prove the criterion in Section 6.4 of their textbook, in the chapter on elementary canonical forms.
-We know of no single first source for it.
-
 ## Explanations
 
 ### L1 human
