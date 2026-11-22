@@ -38,7 +38,7 @@ For example, every solution of $y'' + y = 0$ has the form $a \cos t + b \sin t$,
 
 The span also turns a question about equations into a question about vectors.
 Asking whether $b$ lies in the span of the columns of $A$ is the same as asking whether $Ax = b$ has a solution.
-Later in this sub-area, a [[spanning set|088RYKAWK9]] is a set whose span is everything, and a [[basis|0KCQ9Y3QKA]] is a spanning set with no waste.
+Building on span, a [[spanning set|088RYKAWK9]] is a set whose span is everything, and a [[basis|0KCQ9Y3QKA]] is a spanning set with no waste.
 
 ## Notation
 

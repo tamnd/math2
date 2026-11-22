@@ -39,7 +39,7 @@ So the question "are coefficients unique?" is the question "is the zero vector w
 Independence appears wherever one asks whether some quantities are really different.
 In differential equations, two solutions of a second order linear equation give all solutions only when they are independent.
 In data analysis, a column of a table that is a combination of other columns carries no new information.
-In this sub-area, independence leads to [[bases|0KCQ9Y3QKA]], to [[coordinates|04CYQHN6MC]] and, through the [[Steinitz exchange lemma|08ZDRN6H41]], to [[dimension|03GSZ8RTZJ]].
+Within linear algebra, independence leads to [[bases|0KCQ9Y3QKA]], to [[coordinates|04CYQHN6MC]] and, through the [[Steinitz exchange lemma|08ZDRN6H41]], to [[dimension|03GSZ8RTZJ]].
 
 ## Notation
 

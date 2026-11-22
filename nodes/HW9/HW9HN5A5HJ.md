@@ -78,8 +78,8 @@ Here is a typical use, for the space $V$ of real $2 \times 2$ matrices $A$ with 
 Every such matrix is $\begin{pmatrix} a & b \\ b & c \end{pmatrix}$, so it equals
 $$a \begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix} + b \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix} + c \begin{pmatrix} 0 & 0 \\ 0 & 1 \end{pmatrix}.$$
 So condition 1 holds with three matrices, and these three are independent, since the combination is $0$ only for $a = b = c = 0$.
-By condition 2 they form a basis, and by condition 4 the map $A \mapsto (a, b, c)$ is an isomorphism $V \cong \mathbb{R}^3$.
-By condition 3, any four symmetric $2 \times 2$ matrices are dependent.
+So they form a basis, which is condition 2, and the map $A \mapsto (a, b, c)$ is an isomorphism $V \cong \mathbb{R}^3$, which is condition 4.
+Since $\dim V = 3$, any four symmetric $2 \times 2$ matrices are dependent, which is condition 3 with $N = 3$.
 Watch out: three independent matrices alone show only that the dimension is at least $3$; it is the spanning property that rules out a fourth independent matrix.
 
 ### L3 human
