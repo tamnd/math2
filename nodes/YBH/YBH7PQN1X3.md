@@ -37,9 +37,10 @@ The other parts follow from part 1, the rule $T^{**} = T$, and the facts on orth
 
 ## Idea
 
-The kernel of $T^*$ consists of the vectors that $T^*$ kills, and by the definition these are the vectors orthogonal to every output of $T$.
-The other identities follow by applying this to $T^*$ and by taking orthogonal complements twice.
-Dimensions then follow from rank-nullity.
+The whole proof rests on one observation: $T^* w = 0$ means that $w$ is orthogonal to every output $Tv$, because $\ip{v}{T^* w} = \ip{Tv}{w}$.
+That is part 1.
+Applying part 1 to $T^*$, whose adjoint is $T$, gives the kernel of $T$, and taking orthogonal complements twice gives the images.
+In finite dimension a complement of a complement is the subspace again, and rank-nullity then gives the equality of ranks.
 
 ## Variants
 

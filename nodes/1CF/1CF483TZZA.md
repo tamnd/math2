@@ -20,39 +20,45 @@ sources:
 
 ## Example
 
-Let $R = \begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}$, [[the rotation by a right angle|XS5H42KEP5]], act on $\mathbb{C}^2$ with the standard inner product.
+Let $R = \begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}$, [[the rotation by a right angle|XS5H42KEP5]], act on $\mathbb{C}^2$ with the standard inner product $\ip{x}{y} = x_1 \overline{y_1} + x_2 \overline{y_2}$.
+We check that $R$ is normal and find a unitary matrix that makes it diagonal.
 
-1. The conjugate transpose is $R^* = \begin{pmatrix} 0 & 1 \\ -1 & 0 \end{pmatrix} = -R$.
-2. So $R^* R = -R^2 = I$ and $R R^* = -R^2 = I$. Hence $R$ is [[normal|0ENZN5G4CV]], and it is also [[unitary|0D6RMJ10M9]].
+1. The entries of $R$ are real, so the conjugate transpose is the transpose: $R^* = \begin{pmatrix} 0 & 1 \\ -1 & 0 \end{pmatrix} = -R$.
+2. Then $R^* R = -R^2$ and $R R^* = -R^2$, and $R^2 = -I$, so both products are $I$. Hence $R$ is [[normal|0ENZN5G4CV]], and it is also [[unitary|0D6RMJ10M9]].
 3. The characteristic polynomial is $t^2 + 1$, with the roots $i$ and $-i$.
 4. For $i$: $R(1, -i) = (i, 1) = i(1, -i)$. For $-i$: $R(1, i) = (-i, 1) = -i(1, i)$.
-5. The eigenvectors are orthogonal: $\ip{(1, -i)}{(1, i)} = 1 \cdot 1 + (-i) \cdot \overline{i} = 1 - 1 = 0$.
-6. With $U = \tfrac{1}{\sqrt{2}} \begin{pmatrix} 1 & 1 \\ -i & i \end{pmatrix}$, the matrix $U$ is unitary, and
+5. The two eigenvectors are orthogonal for the complex inner product:
+$$\ip{(1, -i)}{(1, i)} = 1 \cdot \overline{1} + (-i) \cdot \overline{i} = 1 + (-i)(-i) = 1 - 1 = 0.$$
+6. Each eigenvector has length $\sqrt{1 + 1} = \sqrt{2}$. So $U = \tfrac{1}{\sqrt{2}} \begin{pmatrix} 1 & 1 \\ -i & i \end{pmatrix}$, with the unit eigenvectors as columns, is unitary, and
 $$U^* R U = \begin{pmatrix} i & 0 \\ 0 & -i \end{pmatrix}.$$
+
+Check: $R U = \tfrac{1}{\sqrt{2}} \begin{pmatrix} i & -i \\ 1 & 1 \end{pmatrix}$, and $U \operatorname{diag}(i, -i) = \tfrac{1}{\sqrt{2}} \begin{pmatrix} i & -i \\ 1 & 1 \end{pmatrix}$ too.
 
 ## Remarks
 
-- This is the [[complex spectral theorem|04CW1P44VD]] for a normal matrix that is not Hermitian. The eigenvalues are not real, so $R$ is not self-adjoint.
-- Over $\mathbb{R}$, the matrix $R$ has no eigenvalue, so no real orthonormal basis diagonalizes it. The matrix is already in the form $\begin{pmatrix} a & -b \\ b & a \end{pmatrix}$ with $a = 0$ and $b = 1$ of [[the real normal form|G6T1FNE3JC]].
-- [[The norm criterion|EMW3QTE3H9]]: $\norm{Rv} = \norm{R^* v} = \norm{v}$ for every $v$, since both $R$ and $R^* = -R$ preserve lengths.
-- The eigenvalues $\pm i$ have absolute value $1$, as for every unitary matrix.
+The rotation is the [[complex spectral theorem|04CW1P44VD]] at work on a normal matrix that is not Hermitian.
+Its eigenvalues $\pm i$ are not real, so $R$ is not self-adjoint, and they have absolute value $1$, as the eigenvalues of every unitary matrix do.
+[[The norm criterion|EMW3QTE3H9]] is visible too: $\norm{Rv} = \norm{R^* v} = \norm{v}$ for every $v$, because $R$ and $R^* = -R$ both keep lengths.
+
+Over $\mathbb{R}$ the picture changes completely.
+The polynomial $t^2 + 1$ has no real root, so $R$ has no real eigenvector, and no real orthonormal basis makes $R$ diagonal.
+The best real form is the matrix itself, which already has the shape $\begin{pmatrix} a & -b \\ b & a \end{pmatrix}$ with $a = 0$ and $b = 1$ of [[the real normal form|G6T1FNE3JC]].
+If you replace the right angle by an angle $\theta$, the same eigenvectors work for every $\theta$, with the eigenvalues $\cos \theta \pm i \sin \theta = e^{\pm i\theta}$.
 
 ## Explanations
 
 ### L1 human
 
-A quarter turn of the plane has no real direction that it keeps.
+A quarter turn of the plane keeps no real direction fixed.
 With complex numbers, two special directions appear, and the turn multiplies them by $i$ and by $-i$.
 These two complex directions are perpendicular.
 So even a rotation becomes a diagonal matrix in a suitable orthonormal complex basis.
 
 ### L2 human
 
-The recipe for a normal matrix is the same as for a Hermitian matrix.
-
-1. Check $R^* R = R R^*$. Here both products are $I$.
-2. Find the eigenvalues. They need not be real, and here they are $\pm i$.
-3. Find unit eigenvectors, and check that they are orthogonal for the complex inner product.
-4. Put them as columns of $U$. Then $U^* R U$ is diagonal.
-
-A trap: over $\mathbb{R}$ the method fails at step 2, so a real normal matrix needs the real normal form with $2 \times 2$ blocks.
+The recipe for a normal matrix is the same as for a Hermitian matrix, with one change: the eigenvalues need not be real.
+First check $R^* R = R R^*$, and here both products are $I$.
+Next find the eigenvalues, here $\pm i$, and a unit eigenvector for each.
+Then check orthogonality with the complex inner product, which conjugates the second vector.
+Last put the unit eigenvectors as the columns of $U$, and $U^* R U$ is diagonal.
+Watch out: without the conjugation, the product of $(1, -i)$ and $(1, i)$ would be $1 + 1 = 2$, and the eigenvectors would wrongly look not orthogonal.

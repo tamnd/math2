@@ -49,3 +49,5 @@ In a general basis, the inner product in coordinates is $y^* H x$, and the matri
 
 Part 1 is the special case $H = I$ of part 2, since $H_{ij} = \ip{b_j}{b_i} = \delta_{ij}$ for an orthonormal basis.
 So one can prove part 2 first and deduce part 1 for $V = W$.
+For a matrix $A$ and the standard inner products, a one-line proof of part 1 is $\ip{Ax}{y} = y^* A x = (A^* y)^* x = \ip{x}{A^* y}$, which uses only the rule $(MN)^* = N^* M^*$ for matrices.
+The general case reduces to this one, because orthonormal bases turn $V$ and $W$ into $\mathbb{K}^n$ and $\mathbb{K}^m$ with their standard inner products.

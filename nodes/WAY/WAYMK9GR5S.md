@@ -19,6 +19,8 @@ sources:
 
 ## Statement
 
+On a complex space, the numbers $\ip{Tv}{v}$ determine the operator $T$, and they are all real exactly when $T$ is self-adjoint.
+On a real space, they determine $T$ only among the self-adjoint operators.
 Let $V$ be a finite-dimensional inner product space over $\mathbb{K} = \mathbb{R}$ or $\mathbb{C}$, and let $T \colon V \to V$ be a linear [[operator|0PTF1PTJK0]].
 
 1. Let $\mathbb{K} = \mathbb{C}$. If $\ip{Tv}{v} = 0$ for all $v \in V$, then $T = 0$.
@@ -29,50 +31,66 @@ Let $V$ be a finite-dimensional inner product space over $\mathbb{K} = \mathbb{R
 
 ### Why each hypothesis is needed
 
-- Parts 1 and 2 need $\mathbb{K} = \mathbb{C}$. [[The rotation by a right angle|VMHPYDZERM]] $R(x, y) = (-y, x)$ on $\mathbb{R}^2$ has $\ip{Rv}{v} = 0$ for all $v$, but $R \neq 0$. Each value $\ip{Rv}{v}$ is real, but $R$ is not self-adjoint.
-- Part 3 needs self-adjointness over $\mathbb{R}$, by the same rotation. Over $\mathbb{C}$, part 1 shows that this hypothesis is not needed.
+Parts 1 and 2 need complex scalars.
+On $\mathbb{R}^2$ with the dot product, [[the rotation by a right angle|VMHPYDZERM]] $R(x, y) = (-y, x)$ gives
+$$\ip{R(x, y)}{(x, y)} = -yx + xy = 0$$
+for every vector, but $R \ne 0$.
+So part 1 fails over $\mathbb{R}$, and part 2 fails too, since every value is the real number $0$ while $R^* = -R \ne R$.
 
-### Consequences
+Part 3 needs the self-adjoint hypothesis over $\mathbb{R}$, by the same rotation.
+Over $\mathbb{C}$ the hypothesis is not needed, because part 1 already covers every operator.
 
-- Over $\mathbb{C}$, two operators $S$ and $T$ with $\ip{Sv}{v} = \ip{Tv}{v}$ for all $v$ are equal: apply part 1 to $S - T$. So an operator on a complex space is determined by its quadratic form $v \mapsto \ip{Tv}{v}$.
-- Over $\mathbb{R}$ and $\mathbb{C}$, two self-adjoint operators with the same quadratic form are equal, by part 3.
-- [[Normal operators|EMW3QTE3H9]]: $T$ is normal if and only if $\norm{Tv} = \norm{T^* v}$ for all $v$. The proof applies part 3 to the self-adjoint operator $T^* T - T T^*$.
-- A [[Hermitian matrix|0EKZCX4K3P]] $A$ has $x^* A x \in \mathbb{R}$ for every $x \in \mathbb{C}^n$, and part 2 says that only Hermitian matrices have this property.
+### What it gives you
 
-### Converse
+The main use of part 1 is to prove an identity between operators by checking the quadratic forms.
+If $\ip{Sv}{v} = \ip{Tv}{v}$ for all $v$ in a complex space, then part 1 applied to $S - T$ gives $S = T$.
+Over $\mathbb{R}$ the same conclusion holds when $S$ and $T$ are both self-adjoint, by part 3.
 
-The converse of each part holds for a direct reason.
-The zero operator has $\ip{0v}{v} = 0$.
-A self-adjoint operator has $\ip{Tv}{v} = \ip{v}{Tv} = \overline{\ip{Tv}{v}}$, so the value is real.
+For example, the criterion for [[normal operators|EMW3QTE3H9]] says that $T$ is normal exactly when $\norm{Tv} = \norm{T^* v}$ for all $v$.
+Its proof writes $\norm{Tv}^2 - \norm{T^* v}^2 = \ip{(T^* T - T T^*) v}{v}$ and applies part 3 to the self-adjoint operator $T^* T - T T^*$.
+
+Part 2 says that a complex matrix $A$ has $x^* A x$ real for every $x \in \mathbb{C}^n$ exactly when $A$ is [[Hermitian|0EKZCX4K3P]].
+Take $A = \begin{pmatrix} 2 & 1 + i \\ 1 - i & 0 \end{pmatrix}$ and $x = (a, b)$:
+$$x^* A x = 2 \abs{a}^2 + (1 + i) \overline{a} b + (1 - i) a \overline{b}.$$
+The last two terms are complex conjugates of each other, so their sum is real, as part 2 predicts.
+
+### The converse
+
+Each part is an equivalence or has an easy converse.
+The zero operator has $\ip{0v}{v} = 0$ for every $v$.
+A self-adjoint operator has real values, because conjugate symmetry and $T^* = T$ give
+$$\overline{\ip{Tv}{v}} = \ip{v}{Tv} = \ip{Tv}{v}.$$
+This direction of part 2 holds over $\mathbb{R}$ as well, where it says nothing new.
 
 ### Generalizations
 
-- The same statements hold for bounded operators on a complex Hilbert space, with the same proofs.
-- Part 1 follows from the polarization identity for sesquilinear forms. The form $(u, w) \mapsto \ip{Tu}{w}$ is determined by its values on the diagonal $u = w$.
+The three parts hold for bounded operators on a complex or real Hilbert space, with the same proof.
+Part 1 is a case of polarization: a sesquilinear form on a complex space is determined by its values on the diagonal.
+A real bilinear form is determined by its diagonal only when it is symmetric, and that is why part 3 needs self-adjointness.
 
 ## Explanations
 
 ### L1 human
 
-The number $\ip{Tv}{v}$ measures how much $T$ moves $v$ in its own direction.
+The number $\ip{Tv}{v}$ measures how much $T$ moves $v$ along its own direction.
 Over the complex numbers, these numbers for all $v$ determine $T$ completely.
 Over the real numbers they do not.
-A quarter turn of the plane moves each vector at a right angle, so all these numbers are $0$, but the quarter turn is not the zero map.
+A quarter turn of the plane moves each arrow to a perpendicular arrow, so all these numbers are $0$, but the quarter turn is not the zero map.
 
 ### L2 human
 
-Worked example: a complex $2 \times 2$ matrix.
-
-1. Let $A = \begin{pmatrix} 2 & 1 + i \\ 1 - i & 0 \end{pmatrix}$ on $\mathbb{C}^2$ with the standard inner product.
-2. For $x = (a, b)$, we get $\ip{Ax}{x} = x^* A x = 2 \abs{a}^2 + (1 + i) \overline{a} b + (1 - i) a \overline{b}$.
-3. The last two terms are conjugates of each other, so their sum is $2 \operatorname{Re}\big((1 + i) \overline{a} b\big)$, a real number.
-4. So $\ip{Ax}{x}$ is real for every $x$, and $A$ is Hermitian, as part 2 predicts.
-
-The typical use of part 1 is to prove an identity between operators by checking it on the quadratic form.
-A trap: this only works over $\mathbb{C}$, or for self-adjoint operators.
+Here is a typical use: decide whether $A = \begin{pmatrix} 1 & i \\ 0 & 1 \end{pmatrix}$ is Hermitian by its quadratic form.
+For $x = (a, b)$ in $\mathbb{C}^2$,
+$$x^* A x = \abs{a}^2 + i \overline{a} b + \abs{b}^2.$$
+At $x = (1, 1)$ the value is $2 + i$, which is not real, so part 2 says that $A$ is not Hermitian.
+Check: $A^* = \begin{pmatrix} 1 & 0 \\ -i & 1 \end{pmatrix} \ne A$.
+One test vector with a non-real value settles the question, while a proof of self-adjointness by this route needs all vectors.
+Watch out: over $\mathbb{R}$ a real matrix always gives real values, so the test says nothing there.
 
 ### L3 human
 
-The statement is a form of polarization: a sesquilinear form on a complex space is determined by its quadratic form, while a bilinear form on a real space is determined by its quadratic form only when it is symmetric.
-The numerical range $\set{\ip{Tv}{v} : \norm{v} = 1}$ of an operator refines part 2: it lies in $\mathbb{R}$ exactly for self-adjoint operators on complex spaces.
-In quantum mechanics, $\ip{Tv}{v}$ is the expected value of an observable, and part 2 says that the observables with real expected values are the self-adjoint ones.
+The statement is a form of polarization.
+A real bilinear form splits into a symmetric part and an alternating part, and the quadratic form sees only the symmetric part.
+A complex sesquilinear form loses nothing, because the values on $u \pm w$ and $u \pm iw$ recover it.
+The numerical range $\{\ip{Tv}{v} : \norm{v} = 1\}$ refines part 2: on a complex space it lies in $\mathbb{R}$ exactly when $T$ is self-adjoint.
+In quantum mechanics, $\ip{Tv}{v}$ is the expected value of an observable in the state $v$, and part 2 says that the real expected values belong to the self-adjoint operators.
