@@ -18,20 +18,24 @@ sources:
 
 Let
 $$A = \begin{pmatrix} 1 & 1 \\ -1 & 1 \end{pmatrix}.$$
-We check the condition $A^TA = I$ of an [[orthogonal matrix|0QRBVFJ50X]].
+We test the condition $A^TA = I$ of an [[orthogonal matrix|0QRBVFJ50X]] and find that it fails.
 
 1. The columns are $a_1 = (1, -1)$ and $a_2 = (1, 1)$.
 2. Their dot product is $1 \cdot 1 + (-1) \cdot 1 = 0$, so the columns are orthogonal.
 3. Their squared lengths are $1 + 1 = 2$, so they are not unit vectors.
-4. So $A^TA = \begin{pmatrix} 2 & 0 \\ 0 & 2 \end{pmatrix} = 2I \neq I$, and $A$ is not orthogonal.
-5. Also $\det A = 1 \cdot 1 - 1 \cdot (-1) = 2$, which is not $\pm 1$.
+4. So $A^TA = \begin{pmatrix} 2 & 0 \\ 0 & 2 \end{pmatrix} = 2I \ne I$, and $A$ is not orthogonal.
+5. The determinant gives a second sign: $\det A = 1 \cdot 1 - 1 \cdot (-1) = 2$, which is not $\pm 1$.
 
 ## Remarks
 
-- The example is the main trap of the topic: the name "orthogonal matrix" asks for orthonormal columns.
-- The inverse of $A$ is $\frac{1}{2}A^T$, not $A^T$.
-- Division of each column by its length gives $\frac{1}{\sqrt{2}}\begin{pmatrix} 1 & 1 \\ -1 & 1 \end{pmatrix}$. This matrix is orthogonal: it is the rotation $R(-\pi/4)$.
-- The map $x \mapsto Ax$ is a rotation by $-\pi/4$ followed by scaling by $\sqrt{2}$. It keeps angles, but it multiplies lengths by $\sqrt{2}$.
+The example is the main trap of the topic.
+The name "orthogonal matrix" sounds as if orthogonal columns were enough, but the definition asks for orthonormal columns.
+For this $A$, the inverse is $\frac{1}{2}A^T$ and not $A^T$.
+
+Fix the lengths and the trap disappears.
+Dividing each column by its length $\sqrt 2$ gives $\frac{1}{\sqrt{2}}\begin{pmatrix} 1 & 1 \\ -1 & 1 \end{pmatrix}$, which is orthogonal: it is the rotation $R(-\pi/4)$, with $\cos(-\pi/4) = \frac{1}{\sqrt 2}$ and $\sin(-\pi/4) = -\frac{1}{\sqrt 2}$.
+So $x \mapsto Ax$ is the rotation by $-\pi/4$ followed by scaling by $\sqrt{2}$.
+It keeps angles, but it multiplies every length by $\sqrt{2}$.
 
 ## Explanations
 
@@ -43,11 +47,9 @@ So the matrix stretches the plane, and it is not orthogonal.
 
 ### L2 human
 
-Worked check on one vector:
-
-1. Take $x = (1, 0)$, of length $1$.
-2. Then $Ax = (1, -1)$, of length $\sqrt{2}$.
-3. A length changes, so $A$ is not orthogonal.
-
-A trap: a test of the dot products of the columns alone would pass.
-Always test the lengths too.
+One vector is enough to rule $A$ out.
+Take $x = (1, 0)$, of length $1$.
+Then $Ax = (1, -1)$, and its length is
+$$\sqrt{1^2 + (-1)^2} = \sqrt 2 \ne 1.$$
+A length changed, so $A$ is not orthogonal.
+Watch out: a test of the dot products of the columns alone would pass, so always test the lengths too.
