@@ -17,80 +17,113 @@ sources:
 
 ## Summary
 
-Let $A$ be an $n \times n$ matrix over a field $F$ with [[characteristic polynomial|0VSSPAFM2C]] $p_A(t) = t^n + c_{n-1}t^{n-1} + \cdots + c_1 t + c_0$.
-By the [[Cayley-Hamilton theorem|0F765KFC2J]], $A^n + c_{n-1}A^{n-1} + \cdots + c_1 A + c_0 I = 0$.
-If $A$ is invertible, then $c_0 = (-1)^n \det A \ne 0$, and
-$$A^{-1} = -\frac{1}{c_0}\left(A^{n-1} + c_{n-1}A^{n-2} + \cdots + c_1 I\right).$$
-For every $k$, divide $t^k$ by $p_A$ to get $t^k = q(t)p_A(t) + r(t)$ with $\deg r < n$.
-Then $A^k = r(A)$.
+The Cayley-Hamilton theorem gives every square matrix a polynomial equation, and that one equation lets you invert the matrix and compute its high powers using only $I, A, \dots, A^{n-1}$.
+Let $A$ be an $n \times n$ matrix over a field $F$ with [[characteristic polynomial|0VSSPAFM2C]] $p_A(t) = t^n + c_{n-1} t^{n-1} + \cdots + c_1 t + c_0$.
+By the [[Cayley-Hamilton theorem|0F765KFC2J]],
+$$A^n + c_{n-1} A^{n-1} + \cdots + c_1 A + c_0 I = 0.$$
+If $A$ is invertible, then $c_0 = (-1)^n \det A \ne 0$, and moving $c_0 I$ to the other side gives
+$$A^{-1} = -\frac{1}{c_0} \left( A^{n-1} + c_{n-1} A^{n-2} + \cdots + c_1 I \right).$$
+For powers, divide $t^k$ by $p_A$ with remainder, $t^k = q(t) p_A(t) + r(t)$ with $\deg r < n$, and then $A^k = r(A)$.
 
 ## Motivation
 
-The method turns the inverse and high powers of $A$ into [[polynomials in A|0E3MV6E6MG]] of degree less than $n$.
-It needs no row reduction and no eigenvectors.
-It shows that $A^{-1}$ commutes with every matrix that commutes with $A$.
-The same reduction gives closed formulas for $A^k$ and for functions such as $e^{tA}$ when $n$ is small.
+Row reduction finds an inverse, and repeated multiplication finds a power, but both hide the structure of the answer.
+The Cayley-Hamilton theorem shows that the inverse and every power are [[polynomials in A|0E3MV6E6MG]] of degree less than $n$.
+So a whole infinite list of matrices $A^2, A^3, \dots$ lives in a space of dimension at most $n$, and you only need to track $n$ coefficients.
+
+This has practical uses.
+A closed formula for $A^k$ solves a linear recurrence, such as the one for the Fibonacci numbers, and the same reduction gives $e^{sA}$ for small $n$ in the study of linear differential equations.
+It also shows that $A^{-1}$ commutes with every matrix that commutes with $A$, since $A^{-1}$ is a polynomial in $A$.
 
 ## Notation
 
-The remainder $r$ of $t^k$ modulo $p_A$ is written $t^k \bmod p_A$.
-Any annihilating polynomial can replace $p_A$, in particular the [[minimal polynomial|03NDVCSHSB]], which gives a remainder of smaller degree.
+The remainder of $t^k$ on division by $p_A$ is written $t^k \bmod p_A$, and we write $t^k \equiv r(t)$ when $t^k - r(t)$ is a multiple of $p_A$.
+Any polynomial that kills $A$ can replace $p_A$, in particular the [[minimal polynomial|03NDVCSHSB]], which can give a shorter formula.
+Watch the constant term: some books define the characteristic polynomial as $\det(A - tI)$, which multiplies every coefficient by $(-1)^n$.
 
 ## Remarks
 
-### Examples
+### A first inverse
 
-- [[The inverse of a 2 by 2 matrix from its characteristic polynomial|775NRHBDQR]]: for $A = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}$, $A^{-1} = \frac{1}{2}(A - 5I)$.
-- [[The inverse of a 3 by 3 matrix from its characteristic polynomial|ZD5XSYAT9W]]: $A^{-1} = \frac{1}{4}(A^2 - 5A + 8I)$.
-- [[Powers of a 2 by 2 matrix by reduction|82VDZSGDRK]]: $A^5 = 779A + 290I$ for $A = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}$.
-- For $n = 2$, $A^2 = (\tr A)A - (\det A)I$, and $A^{-1} = \frac{1}{\det A}\big((\tr A)I - A\big)$ when $\det A \ne 0$.
+Take $A = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}$, with trace $5$ and determinant $-2$, so $p_A(t) = t^2 - 5t - 2$.
+The theorem gives $A^2 - 5A - 2I = 0$, which we rewrite as
+$$A (A - 5I) = 2I, \qquad \text{so} \qquad A^{-1} = \tfrac{1}{2}(A - 5I) = \begin{pmatrix} -2 & 1 \\ \tfrac{3}{2} & -\tfrac{1}{2} \end{pmatrix}.$$
+The [[2 by 2 inverse example|775NRHBDQR]] checks this product.
+For every $2 \times 2$ matrix the same steps give $A^{-1} = \frac{1}{\det A} \left( (\operatorname{tr} A) I - A \right)$, which is the adjugate formula in disguise.
+For size $3$ the formula needs $A^2$, as in the [[3 by 3 inverse example|ZD5XSYAT9W]], where $A^{-1} = \tfrac{1}{4}(A^2 - 5A + 8I)$.
 
-### Non-examples
+### Reducing powers
 
-- [[A singular matrix has no inverse from the Cayley-Hamilton theorem|H7CPHN6GGK]]: for $\begin{pmatrix} 1 & 2 \\ 2 & 4 \end{pmatrix}$, $c_0 = 0$, and the formula cannot be used.
-- Over the integers, $A^{-1}$ need not have integer entries: the formula divides by $c_0 = \pm \det A$.
+To find $A^5$ for the same matrix, reduce powers of $t$ with the rule $t^2 \equiv 5t + 2$:
+$$t^3 \equiv 5t^2 + 2t \equiv 27t + 10, \qquad t^4 \equiv 27t^2 + 10t \equiv 145t + 54, \qquad t^5 \equiv 145t^2 + 54t \equiv 779t + 290.$$
+So $A^5 = 779A + 290I$, and the [[powers example|82VDZSGDRK]] confirms this by direct multiplication.
+Each step multiplies the remainder by $t$ and replaces $t^2$ once, so only two numbers change at each step.
 
-### Basic properties
+When $p_A$ has $n$ distinct roots $\lambda_1, \dots, \lambda_n$ in $F$, there is a shortcut.
+The remainder $r$ agrees with $t^k$ at each root, because $p_A(\lambda_i) = 0$, so $r$ is the polynomial of degree less than $n$ with $r(\lambda_i) = \lambda_i^k$.
+For $B = \begin{pmatrix} 2 & 1 \\ 1 & 2 \end{pmatrix}$ with roots $1$ and $3$, this gives $B^k = \frac{3^k - 1}{2} B + \frac{3 - 3^k}{2} I$.
 
-- The formula for $A^{-1}$ is valid if and only if $c_0 \ne 0$, that is, if and only if $A$ is invertible.
-- $A^k = r_k(A)$ with $r_k = t^k \bmod p_A$, and $r_{k+1} = (t\, r_k) \bmod p_A$. So each step costs one multiplication by $t$ and one reduction.
-- If $p_A$ has $n$ distinct roots $\lambda_i$, then $r_k$ is the polynomial of degree less than $n$ with $r_k(\lambda_i) = \lambda_i^k$ for all $i$, by Lagrange interpolation.
-- $A^{-1}$ lies in $F[A]$, so it commutes with every matrix that commutes with $A$.
+### When the method fails
+
+The inverse formula divides by $c_0$, so it fails exactly when $c_0 = 0$, that is, when $A$ is singular.
+For $\begin{pmatrix} 1 & 2 \\ 2 & 4 \end{pmatrix}$ the polynomial is $t^2 - 5t$, and the [[singular example|H7CPHN6GGK]] shows that the equation $A^2 = 5A$ has no multiple of $I$ to isolate.
+The reduction of powers still works there: $A^k = 5^{k-1} A$ for $k \ge 1$.
+
+Over the integers the formula can leave the integers, because it divides by $c_0 = \pm \det A$.
+For $\begin{pmatrix} 2 & 0 \\ 0 & 1 \end{pmatrix}$ it gives the inverse $\operatorname{diag}(\tfrac{1}{2}, 1)$, and the inverse has integer entries only when $\det A = \pm 1$.
+
+### A shorter polynomial can help
+
+The minimal polynomial gives the same results with less work when it has lower degree.
+For $A = 2 I_3$, the characteristic polynomial $(t - 2)^3$ leads to a formula for $A^{-1}$ of degree $2$ in $A$.
+The minimal polynomial $t - 2$ gives $A - 2I = 0$ at once, so $A^{-1} = \tfrac{1}{2} I$.
+
+### Watch out
+
+The constant term is $c_0 = p_A(0) = \det(-A) = (-1)^n \det A$, not $\det A$.
+For the $3 \times 3$ example above, $\det A = 4$ but $c_0 = -4$, and using $+4$ gives $-A^{-1}$ in place of $A^{-1}$.
+Also keep the identity matrix in every constant term: $A^2 - 5A - 2$ has no meaning, and the correct expression is $A^2 - 5A - 2I$.
 
 ### History
 
-Cayley stated the Cayley-Hamilton theorem in 1858, and Frobenius gave the first general proof in 1878.
-The formula for the inverse appears among the applications in the Wikipedia article on the Cayley-Hamilton theorem.
+The method rests on the Cayley-Hamilton theorem, which Cayley stated in 1858 and Frobenius proved in general in 1878.
 
-### Common errors
+### Try it
 
-- Writing $c_0$ as $\det A$. In fact $c_0 = p_A(0) = \det(-A) = (-1)^n \det A$.
-- Using $\det(A - tI)$ and forgetting the sign $(-1)^n$, which changes every coefficient.
-- Dropping the identity: $A^2 - 5A - 2$ must be read as $A^2 - 5A - 2I$.
+First, invert $A = \begin{pmatrix} 3 & 1 \\ 2 & 1 \end{pmatrix}$ with the theorem.
+Here $\operatorname{tr} A = 4$ and $\det A = 1$, so $A^2 - 4A + I = 0$ and $A^{-1} = 4I - A = \begin{pmatrix} 1 & -1 \\ -2 & 3 \end{pmatrix}$.
+
+Second, find $R^{10}$ for the quarter turn $R = \begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}$.
+Its polynomial is $t^2 + 1$, so $R^2 = -I$ and $R^{10} = (R^2)^5 = -I$.
+
+Third, can the theorem invert $\begin{pmatrix} 2 & 4 \\ 1 & 2 \end{pmatrix}$?
+No: its polynomial is $t^2 - 4t$, with constant term $0$, and indeed the determinant is $0$.
 
 ## Explanations
 
 ### L1 human
 
-The Cayley-Hamilton theorem gives an equation such as $A^2 = 5A + 2I$.
-Such an equation lets us replace $A^2$ by a simpler expression, again and again.
-So every power of $A$ is a short combination of $I, A, \dots, A^{n-1}$.
-If the constant term is not zero, the same equation also gives $A^{-1}$.
+For a $2 \times 2$ matrix the Cayley-Hamilton theorem gives an equation such as $A^2 = 5A + 2I$.
+You can use it like a rule for rewriting: each time $A^2$ appears, replace it by $5A + 2I$.
+After a few rewrites, any power of $A$ becomes "some number times $A$ plus some number times $I$".
+If the equation has a nonzero constant term, the same rule also tells you how to undo $A$.
 
 ### L2 human
 
-We find $A^{-1}$ and $A^3$ for $A = \begin{pmatrix} 2 & 1 \\ 1 & 1 \end{pmatrix}$.
-
-1. $\tr A = 3$ and $\det A = 1$, so $p_A(t) = t^2 - 3t + 1$ and $A^2 = 3A - I$.
-2. Rewrite as $A(3I - A) = I$. So $A^{-1} = 3I - A = \begin{pmatrix} 1 & -1 \\ -1 & 2 \end{pmatrix}$.
-3. Check: $\begin{pmatrix} 2 & 1 \\ 1 & 1 \end{pmatrix}\begin{pmatrix} 1 & -1 \\ -1 & 2 \end{pmatrix} = \begin{pmatrix} 2 - 1 & -2 + 2 \\ 1 - 1 & -1 + 2 \end{pmatrix} = I$.
-4. $A^3 = A \cdot A^2 = 3A^2 - A = 3(3A - I) - A = 8A - 3I = \begin{pmatrix} 13 & 8 \\ 8 & 5 \end{pmatrix}$.
-5. Check: $A^2 = \begin{pmatrix} 5 & 3 \\ 3 & 2 \end{pmatrix}$, and $A^2 A = \begin{pmatrix} 10 + 3 & 5 + 3 \\ 6 + 2 & 3 + 2 \end{pmatrix} = \begin{pmatrix} 13 & 8 \\ 8 & 5 \end{pmatrix}$.
-
-The typical use is to find $A^{-1}$ or $A^k$ for a small matrix by hand.
-A trap: the constant term of $p_A$ is $(-1)^n \det A$, so the sign depends on $n$.
+Here is a typical problem: find $A^{-1}$ and $A^3$ for $A = \begin{pmatrix} 2 & 1 \\ 1 & 1 \end{pmatrix}$.
+The trace is $3$ and the determinant is $1$, so $p_A(t) = t^2 - 3t + 1$ and the theorem gives $A^2 = 3A - I$.
+Rewrite this as $A(3I - A) = I$, which shows
+$$A^{-1} = 3I - A = \begin{pmatrix} 1 & -1 \\ -1 & 2 \end{pmatrix}.$$
+Check: $\begin{pmatrix} 2 & 1 \\ 1 & 1 \end{pmatrix} \begin{pmatrix} 1 & -1 \\ -1 & 2 \end{pmatrix} = \begin{pmatrix} 2 - 1 & -2 + 2 \\ 1 - 1 & -1 + 2 \end{pmatrix} = I$.
+For the cube, multiply the equation by $A$ and reduce again:
+$$A^3 = 3A^2 - A = 3(3A - I) - A = 8A - 3I = \begin{pmatrix} 13 & 8 \\ 8 & 5 \end{pmatrix}.$$
+Check: $A^2 = \begin{pmatrix} 5 & 3 \\ 3 & 2 \end{pmatrix}$, and $A^2 A = \begin{pmatrix} 13 & 8 \\ 8 & 5 \end{pmatrix}$.
+The numbers $1, 1, 2, 3, 5, 8, 13$ are Fibonacci numbers, and that is no accident, since the recurrence $a_{k+1} = 3a_k - a_{k-1}$ from $t^2 = 3t - 1$ picks out every second one.
+The method is best for small matrices by hand, and for proving that the inverse is a polynomial in $A$.
 
 ### L3 human
 
-$F[A] \cong F[t]/(m_A)$, and $A$ is a unit of this ring exactly when $t$ is coprime to $m_A$.
-The inverse is then found by the extended Euclidean algorithm for $t$ and $m_A$, which is the formula above when $m_A = p_A$.
+The ring $F[A]$ of polynomials in $A$ is isomorphic to $F[t]/(m_A)$, where $m_A$ is the minimal polynomial.
+In this ring $A$ is a unit exactly when $t$ and $m_A$ are coprime, that is, when $m_A(0) \ne 0$, and the extended Euclidean algorithm writes $1 = u(t) t + v(t) m_A(t)$ so that $A^{-1} = u(A)$.
+The same idea computes a function of $A$ given by a power series, such as $e^{sA}$, as $r(A)$ for a polynomial $r$ of degree less than $n$ that agrees with the function at the eigenvalues, when these are distinct.
+The sub-area on canonical forms explains what happens at repeated eigenvalues, where derivatives of the function enter.

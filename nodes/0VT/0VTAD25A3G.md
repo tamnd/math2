@@ -18,8 +18,9 @@ sources:
 
 ## Statement
 
+The polynomials that kill a map are exactly the multiples of its minimal polynomial.
 Let $F$ be a field, let $V$ be a finite-dimensional vector space over $F$, and let $T \colon V \to V$ be an endomorphism with [[minimal polynomial|03NDVCSHSB]] $m_T$.
-For $p \in F[x]$, the following are equivalent.
+For every $p \in F[x]$, the following are equivalent.
 
 1. $p(T) = 0$, that is, $p$ is an [[annihilating polynomial|0PBN8VEKY8]] of $T$.
 2. $m_T$ divides $p$ in $F[x]$.
@@ -28,51 +29,69 @@ The same holds for an $n \times n$ matrix $A$ over $F$ and its minimal polynomia
 
 ## Remarks
 
-The proof is in [[the proof by division with remainder|BRFPQM1MMW]].
-The direction from 2 to 1 is direct: if $p = q m_T$, then $p(T) = q(T) m_T(T) = 0$.
+### What it gives you
+
+The direction from 2 to 1 is the easy one: if $p = q\, m_T$, then $p(T) = q(T)\, m_T(T) = q(T) \circ 0 = 0$.
+The direction from 1 to 2 is the useful one, and the [[proof by division with remainder|BRFPQM1MMW]] proves it.
+It turns the search for $m_T$ into a finite search: once you know one annihilating polynomial, the minimal polynomial is one of its monic divisors.
+
+For example, if $A^2 = A$, then $m_A$ divides $x^2 - x = x(x - 1)$, so $m_A$ is $x$, $x - 1$ or $x^2 - x$.
+These three cases are $A = 0$, $A = I$, and a projection other than $0$ and $I$, as in the [[projection of the plane|F5TTF31NR5]].
+In the same way, if $A^k = 0$, then $m_A = x^j$ for some $j \le k$, and if $A^2 = I$, then $m_A$ is $x - 1$, $x + 1$ or $x^2 - 1$.
+
+### A worked use
+
+Take $A = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$.
+Its square is $I$, so $x^2 - 1 = (x - 1)(x + 1)$ annihilates $A$.
+By the theorem, $m_A$ is one of the monic divisors $1$, $x - 1$, $x + 1$ and $x^2 - 1$.
+The first three fail, because $I \ne 0$ and
+$$A - I = \begin{pmatrix} -1 & 1 \\ 1 & -1 \end{pmatrix} \ne 0, \qquad A + I = \begin{pmatrix} 1 & 1 \\ 1 & 1 \end{pmatrix} \ne 0.$$
+So $m_A = x^2 - 1$.
 
 ### Why each hypothesis is needed
 
-- $V$ must be finite-dimensional so that $m_T$ exists. For the derivative on $C^\infty(\R)$, only the zero polynomial annihilates, and there is no monic generator.
-- The divisor must be the minimal polynomial, not an arbitrary annihilating polynomial. For $I_2$, the polynomial $x - 1$ annihilates $I_2$ but is not divisible by $(x - 1)^2$.
+The space must be finite-dimensional so that $m_T$ exists.
+For the [[derivative on smooth functions|1SKH5XJ5RB]], only the zero polynomial annihilates, so there is no monic polynomial to divide by.
+
+The divisor must be the minimal polynomial and not just some annihilating polynomial.
+For $I_2$, the polynomial $(x - 1)^2$ annihilates $I_2$, and so does $x - 1$, but $(x - 1)^2$ does not divide $x - 1$.
 
 ### Consequences
 
-- If $A^2 = A$, then $m_A$ divides $x^2 - x$. So $m_A$ is $x$, $x - 1$ or $x^2 - x$.
-- If $A^k = 0$, then $m_A = x^j$ for some $j \le k$.
-- The minimal polynomial of the restriction of $T$ to an invariant subspace divides $m_T$, because $m_T$ annihilates the restriction.
-- Together with the Cayley-Hamilton theorem, it gives that $m_T$ divides the characteristic polynomial. This is the theorem that the [[minimal polynomial divides the characteristic polynomial|093X6MN6Y6]].
+Let $U$ be a subspace with $T(U) \subseteq U$.
+Then $m_T$ annihilates the restriction $T|_U$, so the minimal polynomial of $T|_U$ divides $m_T$.
+Together with the [[Cayley-Hamilton theorem|0F765KFC2J]], the theorem shows that the [[minimal polynomial divides the characteristic polynomial|093X6MN6Y6]].
 
 ### Generalizations
 
-- The theorem on [[annihilating polynomials|AH34SFJ8SF]] states that $I_T = m_T \, F[x]$, which is the same fact in the language of ideals.
-- For an element $a$ algebraic over a field $K$, the minimal polynomial of $a$ divides every polynomial over $K$ with root $a$. This is the field theory version.
+The theorem that [[the ideal of annihilating polynomials is nonzero and principal|AH34SFJ8SF]] says $I_T = m_T\, F[x]$, which is the same fact in the language of ideals.
+In field theory, the [[minimal polynomial of an algebraic element|0H628RSGWX]] $a$ divides every polynomial that has $a$ as a root, by the same division argument.
 
 ## History
 
-The division argument is standard in linear algebra textbooks, for example in Hoffman and Kunze.
+The division argument is the standard proof in linear algebra textbooks, for example in Hoffman and Kunze and in Axler.
 
 ## Explanations
 
 ### L1 human
 
-Every polynomial that kills $T$ is a multiple of the minimal polynomial.
-If a matrix satisfies $A^2 = A$, then its minimal polynomial divides $x^2 - x$.
-So it is $x$, $x - 1$ or $x^2 - x$.
+Every polynomial that kills a matrix is a multiple of its minimal polynomial.
+It works like divisibility of whole numbers: if every common multiple of two numbers is a multiple of their least common multiple, you only need to know the least one.
+So if a matrix satisfies $A^2 = A$, its minimal polynomial must be one of the three factors $x$, $x - 1$ or $x(x - 1)$.
 
 ### L2 human
 
-We use the theorem to find $m_A$ for $A = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$.
-
-1. $A^2 = I$, so $x^2 - 1 = (x - 1)(x + 1)$ annihilates $A$.
-2. By the theorem, $m_A$ is a monic divisor of $x^2 - 1$: one of $1$, $x - 1$, $x + 1$ and $x^2 - 1$.
-3. $1(A) = I \ne 0$, $A - I \ne 0$ and $A + I \ne 0$, because $A$ is not $\pm I$.
-4. So $m_A = x^2 - 1$.
-
-The typical use is to reduce the search for $m_A$ to the finitely many monic divisors of a known annihilating polynomial.
-A trap: the theorem needs $p(A) = 0$ for the whole matrix, not $p(A)v = 0$ for one vector.
+Here is a typical use: find the minimal polynomial of the diagonal matrix $A = \operatorname{diag}(0, 1, -1)$.
+Each diagonal entry $d$ satisfies $d^3 = d$, so $A^3 = A$, and $x^3 - x = x(x - 1)(x + 1)$ annihilates $A$.
+By the theorem, $m_A$ is a product of some of the three factors $x$, $x - 1$ and $x + 1$.
+A product that leaves out the factor $x - c$ is nonzero at the diagonal entry $c$, so it does not annihilate $A$.
+For example, $A(A + I) = \operatorname{diag}(0 \cdot 1, 1 \cdot 2, (-1) \cdot 0) = \operatorname{diag}(0, 2, 0) \ne 0$.
+So all three factors are needed, and $m_A = x^3 - x$.
+Watch out: the theorem needs $p(A) = 0$ as a matrix, not $p(A)v = 0$ for some vectors $v$.
 
 ### L3 human
 
-The statement says that the kernel of evaluation $F[x] \to \End_F(V)$ is the principal ideal $(m_T)$.
-The same division argument shows that $F[x]$ is a principal ideal domain.
+The statement says that the kernel of the evaluation map $F[x] \to \operatorname{End}_F(V)$ is the principal ideal $(m_T)$.
+The proof is the same division argument that shows that every ideal of $F[x]$ is principal.
+In the language of modules, $V$ is a module over $F[x]$ with $x$ acting as $T$, and the theorem says that its annihilator is generated by $m_T$.
+The sub-area on [[canonical forms|GEBYZKYV3D]] refines this generator into the invariant factors of $T$, and $m_T$ is the largest of them.
