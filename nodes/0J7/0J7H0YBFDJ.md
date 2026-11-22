@@ -23,14 +23,15 @@ sources:
 
 ## Summary
 
-An endomorphism of a vector space $V$ is a [[linear map|0NRYHJPQG2]] $T \colon V \to V$ from the space to itself.
+An endomorphism is a linear map that sends a space into itself, so it can be applied again and again.
+Precisely, an endomorphism of a vector space $V$ is a [[linear map|0NRYHJPQG2]] $T \colon V \to V$, as in the [[formal definition|0PTF1PTJK0]].
 Endomorphisms can be composed with each other, so powers $T^k$ and polynomials $p(T)$ make sense.
 An invertible endomorphism is an automorphism.
 
 ## Motivation
 
 Many linear maps send a space into itself: rotations of the plane, the derivative on polynomials, a change of state in a dynamical system.
-For such a map, the image $T(v)$ lies in the same space as $v$.
+For such a map, the output $T(v)$ lies in the same space as the input $v$.
 So one can compare $T(v)$ with $v$, ask whether $T(v) = \lambda v$, and iterate $T$.
 Eigenvalues, the trace and the determinant are defined for endomorphisms for this reason.
 
@@ -38,42 +39,54 @@ Eigenvalues, the trace and the determinant are defined for endomorphisms for thi
 
 The set of endomorphisms of $V$ is written $\End_F(V)$, $\End(V)$ or $L(V)$.
 An endomorphism is also called a linear operator on $V$, or a linear transformation of $V$.
-Powers are $T^0 = \id_V$ and $T^{k+1} = T \circ T^k$.
+Powers are defined by $T^0 = \id_V$ and $T^{k+1} = T \circ T^k$.
 The invertible endomorphisms form the [[general linear group|0FCHE902D7]] $GL(V)$.
 
 ## Remarks
 
 ### Examples
 
-- [[The rotation by a quarter turn|HGGYPYA9XB]] of $\R^2$, an automorphism with $R^4 = \id$.
-- [[The derivative on quadratic polynomials|29A5DCNMHJ]], an endomorphism $D$ of $P_2$ with $D^3 = 0$.
-- For a square matrix $A \in M_n(F)$, the map $x \mapsto Ax$ of $F^n$.
-- The identity $\id_V$ and the zero map $0$ of each space $V$.
+[[The rotation by a quarter turn|HGGYPYA9XB]] of $\R^2$ is an automorphism with $R^4 = \id$.
+[[The derivative on quadratic polynomials|29A5DCNMHJ]] is an endomorphism $D$ of $P_2$ with $D^3 = 0$.
+For a square matrix $A \in M_n(F)$, the map $x \mapsto Ax$ is an endomorphism of $F^n$.
+The identity $\id_V$ and the zero map are endomorphisms of every space $V$.
 
-### Non-examples
+### What it is not
 
-- [[The projection of $\R^3$ onto $\R^2$|VPN91Y1K18]], $(x, y, z) \mapsto (x, y)$, is linear but not an endomorphism, since its codomain differs from its domain.
-- The map $x \mapsto x + 1$ of $\R$ sends $\R$ to itself, but it is not linear.
+[[The projection of R³ onto R²|VPN91Y1K18]], $(x, y, z) \mapsto (x, y)$, is linear but not an endomorphism, since its target differs from its source.
+The map $x \mapsto x + 1$ of $\R$ sends $\R$ to itself, but it is not linear, so it is not an endomorphism in the sense of linear algebra.
 
-### Basic properties
+### Properties
 
-- The composite of two endomorphisms of $V$ is an endomorphism of $V$, by the [[theorem on composites|FSXBBV9C76]].
-- $\End(V)$ is a vector space, as the case $W = V$ of the [[space of linear maps|0X9MBPP2Z3]]. With composition, it is the [[algebra of endomorphisms|5JA4CYT1TB]].
-- In finite dimension, an endomorphism is injective if and only if it is surjective, by the [[theorem on endomorphisms|0912EEEVCT]].
-- In a basis of an $n$-dimensional space, an endomorphism has an $n \times n$ [[matrix|0YQSGNYE3K]]. A change of basis replaces the matrix $A$ by $P^{-1} A P$.
-- The invertible endomorphisms are the units of the ring $\End(V)$, so $GL(V)$ is the [[group of units|07C6ECNJET]] of $\End(V)$.
+The composite of two endomorphisms of $V$ is an endomorphism of $V$, by the [[theorem on composites|FSXBBV9C76]].
+The set $\End(V)$ is a vector space, as the case $W = V$ of the [[space of linear maps|0X9MBPP2Z3]], and with composition it is the [[algebra of endomorphisms|5JA4CYT1TB]].
+In finite dimension, an endomorphism is injective exactly when it is surjective, by the [[theorem on endomorphisms|0912EEEVCT]].
+The invertible endomorphisms are the units of the ring $\End(V)$, so $GL(V)$ is the [[group of units|07C6ECNJET]] of $\End(V)$.
+
+### Endomorphisms and square matrices
+
+In a basis of an $n$-dimensional space, an endomorphism has an $n \times n$ [[matrix|0YQSGNYE3K]], and powers of the map become powers of the matrix.
+A change of basis with matrix $P$ replaces the matrix $A$ by $P^{-1} A P$.
+So quantities that do not change under $A \mapsto P^{-1} A P$, such as the trace and the determinant, belong to the endomorphism itself.
 
 ### History
 
 Peano gave the modern definition of vector spaces and linear maps in 1888.
-Endomorphisms are the linear maps whose domain and codomain are the same space.
-In abstract algebra, the word means more generally a homomorphism from any object to itself.
+In abstract algebra, the word endomorphism means more generally a homomorphism from any object to itself.
 
-### Common errors
+### Watch out
 
-- Calling every square-matrix-like map an endomorphism. A map $\R^3 \to \R^2$ is not one, and neither is an isomorphism $P_2 \to \R^3$.
-- Writing $T^2$ for a map $T \colon V \to W$ with $W \ne V$. The composite $T \circ T$ is not defined.
-- Assuming that an injective endomorphism is invertible in infinite dimension. The [[right shift|N1G1WQW59J]] is a counterexample.
+A map between two spaces of the same dimension is not an endomorphism unless the spaces are the same: an isomorphism $P_2 \to \R^3$ is not one.
+For a map $T \colon V \to W$ with $W \ne V$, the expression $T^2$ has no meaning, since $T \circ T$ is not defined.
+In infinite dimension, an injective endomorphism need not be invertible, and the [[right shift|N1G1WQW59J]] is a counterexample.
+
+### Try it
+
+First, for the swap $T(x, y) = (y, x)$ of $\R^2$, find $T^2$.
+We get $T^2(x, y) = T(y, x) = (x, y)$, so $T^2 = \id$.
+
+Second, is $(x, y) \mapsto (x, \; y, \; x + y)$ an endomorphism?
+No: it is linear, but its source is $\R^2$ and its target is $\R^3$.
 
 ## Explanations
 
@@ -86,12 +99,12 @@ Rotating the plane by a quarter turn four times gives back each vector.
 ### L2 human
 
 For an endomorphism $T$ of $V$, ask what $T$, $T^2$ and $T^3$ do.
-For the derivative $D$ on polynomials of degree at most $2$, $D^3 = 0$, since three derivatives kill each quadratic.
+For the derivative $D$ on polynomials of degree at most $2$, we get $D^3 = 0$, since three derivatives kill each quadratic.
 In a basis, an endomorphism of $F^n$ is a square matrix, and powers of $T$ are powers of the matrix.
-The trap is to compose maps whose domain and codomain differ.
+Watch out: maps whose source and target differ cannot be composed with themselves.
 
 ### L3 human
 
 In category theory, an endomorphism is an arrow from an object to itself, and the endomorphisms of an object form a monoid.
 For a vector space, this monoid is the multiplicative part of the ring $\End(V)$.
-Spectral theory, Jordan normal form and the theory of [[nilpotent endomorphisms|063D5Z2C70]] all study the structure of single endomorphisms.
+Spectral theory, the Jordan normal form and the theory of [[nilpotent endomorphisms|063D5Z2C70]] all study the structure of single endomorphisms.
