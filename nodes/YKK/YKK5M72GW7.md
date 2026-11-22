@@ -17,17 +17,18 @@ sources:
 
 ## Proof
 
+We get every part from the dimension formula $\dim W + \dim W^\perp = 2m$, and for part 4 we add one vector of $W^\perp$ at a time.
 Let $(V, \omega)$ be [[symplectic|W5FHT07SJJ]] with $\dim V = 2m$, so $\omega$ is alternating and nondegenerate.
 
 Preliminary facts.
 
-1. $\omega$ is alternating, so $\omega(x, y) = -\omega(y, x)$ for all $x, y$, by the [[statement on alternating and skew-symmetric forms|SX9CD5NEPD]].
+1. Since $\omega$ is alternating, $\omega(x, y) = -\omega(y, x)$ for all $x, y$, by the [[statement on alternating and skew-symmetric forms|SX9CD5NEPD]].
 2. So $\omega(x, y) = 0$ implies $\omega(y, x) = 0$, and $\omega$ is [[reflexive|M0G958M917]].
 
 Part 1.
 
-3. $\omega$ is nondegenerate, so $\dim W + \dim W^\perp = 2m$, by part 2 of the [[dimension statement for orthogonal complements|M2JH84VEY9]].
-4. $\omega$ is nondegenerate and reflexive by step 2, so $(W^\perp)^\perp = W$, by part 4 of the same statement.
+3. Since $\omega$ is nondegenerate, $\dim W + \dim W^\perp = 2m$, by part 2 of the [[dimension statement for orthogonal complements|M2JH84VEY9]].
+4. Since $\omega$ is nondegenerate and, by step 2, reflexive, $(W^\perp)^\perp = W$, by part 4 of the same statement.
 
 Part 2.
 
@@ -38,30 +39,32 @@ Part 3.
 
 7. Let $W = W^\perp$. Then $W$ is isotropic, and step 3 gives $2 \dim W = 2m$, so $\dim W = m$.
 8. Conversely, let $W$ be isotropic with $\dim W = m$. Then $W \subseteq W^\perp$, and $\dim W^\perp = 2m - m = m = \dim W$ by step 3.
-9. A subspace of full dimension is the whole space, by the [[statement on subspaces of full dimension|0WGAXEK99E]]. So $W = W^\perp$.
+9. A subspace of full dimension is the whole space, by the [[statement on subspaces of full dimension|0WGAXEK99E]]. Applied inside $W^\perp$, this gives $W = W^\perp$.
 
 Part 4.
 
 10. Let $W$ be isotropic with $\dim W = k < m$. By step 3, $\dim W^\perp = 2m - k > k$, so $W \neq W^\perp$.
 11. Since $W \subseteq W^\perp$, there is $x \in W^\perp$ with $x \notin W$. Put $W' = W + Fx$.
-12. $\dim W' = k + 1$, because $x \notin W$, so a basis of $W$ together with $x$ is linearly independent.
-13. Let $w + ax$ and $w' + bx$ be in $W'$, with $w, w' \in W$ and $a, b \in F$. By bilinearity, $\omega(w + ax, w' + bx) = \omega(w, w') + b\,\omega(w, x) + a\,\omega(x, w') + ab\,\omega(x, x)$.
-14. $\omega(w, w') = 0$, since $W$ is isotropic. $\omega(w, x) = 0$, since $x \in W^\perp$.
-15. $\omega(x, w') = -\omega(w', x) = 0$ by step 1, since $x \in W^\perp$. $\omega(x, x) = 0$, since $\omega$ is alternating.
+12. Then $\dim W' = k + 1$, because $x \notin W$, so a basis of $W$ together with $x$ is linearly independent.
+13. Let $w + ax$ and $w' + bx$ be in $W'$, with $w, w' \in W$ and $a, b \in F$. Bilinearity gives
+$$\omega(w + ax, w' + bx) = \omega(w, w') + b\, \omega(w, x) + a\, \omega(x, w') + ab\, \omega(x, x).$$
+14. The term $\omega(w, w')$ is $0$, since $W$ is isotropic, and $\omega(w, x) = 0$, since $x \in W^\perp$.
+15. The term $\omega(x, w') = -\omega(w', x)$ is $0$ by step 1, since $x \in W^\perp$, and $\omega(x, x) = 0$, since $\omega$ is alternating.
 16. So $\omega$ is zero on $W'$, and $W'$ is isotropic of dimension $k + 1$.
-17. By induction on $m - k$, steps 10 to 16 give an isotropic subspace $L \supseteq W$ with $\dim L = m$. By part 3, $L$ is Lagrangian.
-18. Apply step 17 to $W = \{0\}$, which is isotropic. So Lagrangian subspaces exist.
-19. Let $W$ be a maximal isotropic subspace. By step 17, $W$ lies in a Lagrangian $L$, and maximality gives $W = L$.
-20. Let $L$ be Lagrangian, and let $U \supseteq L$ be isotropic. By part 2, $\dim U \leq m = \dim L$, so $U = L$ by step 9. So $L$ is maximal. $\blacksquare$
+17. Repeating steps 10 to 16, by induction on $m - k$, gives an isotropic subspace $L \supseteq W$ with $\dim L = m$. By part 3, $L$ is Lagrangian.
+18. The subspace $\{0\}$ is isotropic, so step 17 applied to it shows that Lagrangian subspaces exist.
+19. Let $W$ be a maximal isotropic subspace. By step 17, $W$ lies in a Lagrangian subspace $L$, which is isotropic, and maximality gives $W = L$.
+20. Let $L$ be Lagrangian, and let $U \supseteq L$ be isotropic. By part 2, $\dim U \leq m = \dim L$, so $U = L$ by the statement used in step 9. So $L$ is maximal isotropic. $\blacksquare$
 
 ## Idea
 
-Nondegeneracy fixes $\dim W^\perp = 2m - \dim W$, and an isotropic $W$ lies inside $W^\perp$.
-So $W$ has at most half the dimension, and while it is smaller than half, $W^\perp$ has room for one more vector.
-That vector pairs to zero with $W$ and with itself, so it can be added.
+Nondegeneracy fixes $\dim W^\perp = 2m - \dim W$, and an isotropic subspace $W$ sits inside $W^\perp$.
+So $W$ can have at most half of the dimension.
+While $W$ is smaller than half, $W^\perp$ is strictly bigger than $W$ and has room for one more vector.
+That vector pairs to zero with $W$ and, because the form is alternating, with itself, so it can be added without losing isotropy.
 
 ## Variants
 
-One can also extend a basis $e_1, \dots, e_k$ of $W$ to a symplectic basis, by the method of the [[classification of alternating forms|388BWRRP7H]].
+One can also extend a basis $e_1, \dots, e_k$ of $W$ to a symplectic basis $e_1, \dots, e_m, f_1, \dots, f_m$, with the method of the [[classification of alternating forms|388BWRRP7H]].
 Then $\operatorname{span}(e_1, \dots, e_m)$ is a Lagrangian subspace that contains $W$.
-This variant also gives a Lagrangian complement $\operatorname{span}(f_1, \dots, f_m)$, but it needs more work to choose the $f_i$.
+This route needs more care in choosing the $f_i$, but it also produces a Lagrangian complement $\operatorname{span}(f_1, \dots, f_m)$.

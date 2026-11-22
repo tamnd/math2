@@ -19,35 +19,46 @@ sources:
 
 ## Definition
 
-Let $F$ be a field and let $V$ be a finite-dimensional vector space over $F$.
-A [[bilinear form|0SQZMXB6GP]] $B$ on $V$ is *nondegenerate* when, for each $u \in V$,
+A nondegenerate bilinear form is one for which no nonzero vector pairs to zero with every vector.
+Let $F$ be a field, let $V$ be a finite-dimensional vector space over $F$, and let $B$ be a [[bilinear form|0SQZMXB6GP]] on $V$.
+The *left radical* and the *right radical* of $B$ are the subspaces
+$$\{u \in V : B(u, v) = 0 \text{ for all } v \in V\}, \qquad \{v \in V : B(u, v) = 0 \text{ for all } u \in V\}.$$
+The form $B$ is *nondegenerate* when its left radical is $\{0\}$, that is, when for each $u \in V$,
 $$B(u, v) = 0 \text{ for all } v \in V \implies u = 0.$$
 A bilinear form that is not nondegenerate is *degenerate*.
-The set of $u$ with $B(u, v) = 0$ for all $v$ is the *left radical* of $B$, and the set of $v$ with $B(u, v) = 0$ for all $u$ is the *right radical*.
 
 ## Notation
 
-For a reflexive form the two radicals agree, and we write $\operatorname{rad} B$ or $V^\perp$.
+For a reflexive form, such as a symmetric or an alternating form, the two radicals agree, and we write $\operatorname{rad} B$ or $V^\perp$ for them.
 Mathlib writes `B.Nondegenerate` for `B : LinearMap.BilinForm F V`.
 
 ## Remarks
 
-$B$ is nondegenerate if and only if its matrix in a basis has a nonzero determinant, by the [[criteria for nondegeneracy|3ND2FNJ38Y]].
-So, in finite dimensions, the condition in the first argument is equivalent to the same condition in the second argument.
-$B$ is nondegenerate if and only if $u \mapsto B(u, \cdot)$ is an isomorphism from $V$ to its dual space.
-Each inner product is nondegenerate; the form $B(x, y) = x_1 y_1$ on $\R^2$ is degenerate.
+The definition uses the left radical, and this looks like a choice.
+In finite dimension it is not a real choice, because the [[criteria for nondegeneracy|3ND2FNJ38Y]] show that the left radical is zero exactly when the right radical is zero.
+The same criteria show that $B$ is nondegenerate exactly when its matrix in one basis, and then in every basis, has nonzero determinant, and exactly when $u \mapsto B(u, \cdot)$ is an isomorphism $V \to V^*$.
+
+The implication in the definition must hold for each $u$ separately, and its hypothesis is about all $v$ at once.
+So one pair $(u, v)$ with $B(u, v) = 0$ says nothing: the dot product on $\mathbb{R}^2$ gives $(1, 0) \cdot (0, 1) = 0$ and is still nondegenerate.
+
+For a degenerate case, take $B(x, y) = x_1 y_1$ on $\mathbb{R}^2$ and $u = (0, 1)$.
+Then $B(u, v) = 0 \cdot v_1 = 0$ for every $v$, and $u \ne 0$, so $u$ lies in the left radical and $B$ is degenerate.
+The finite dimension in the hypothesis matters: on an infinite-dimensional space the left radical can be zero while the right radical is not, as the criteria page shows.
+The [[concept page|01NHFZF2SK]] gives more examples and the main uses.
 
 ## Explanations
 
 ### L1 human
 
 A form is nondegenerate when it can detect every nonzero vector.
-For each nonzero $u$, some $v$ gives $B(u, v) \ne 0$.
-In matrix terms, the matrix of the form is invertible.
+For each nonzero vector $u$, some vector $v$ must give a nonzero value $B(u, v)$.
+For the dot product, $u$ itself works, since $u \cdot u > 0$.
+In matrix terms, the test is that the matrix of the form has nonzero determinant.
 
 ### L2 human
 
-For $B(x, y) = x_1 y_1$ on $\R^2$, take $u = (0, 1)$.
-Then $B(u, v) = 0 \cdot v_1 = 0$ for every $v$, and $u \neq 0$.
-So $B$ is degenerate, and $u$ spans its radical.
-A trap: the definition asks for one $u \neq 0$ that gives $0$ with every $v$, not for one pair with value $0$.
+Take $B(x, y) = x_1 y_2 + x_2 y_1$ on $\mathbb{Q}^2$, with matrix $\begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$.
+For $u = (u_1, u_2)$, we get $B(u, e_1) = u_2$ and $B(u, e_2) = u_1$.
+If both are zero, then $u = 0$, so the left radical is $\{0\}$ and $B$ is nondegenerate.
+Check: the matrix has determinant $0 - 1 = -1 \ne 0$.
+Watch out: every vector $u$ on an axis has $B(u, u) = 2u_1 u_2 = 0$, but that does not make the form degenerate.

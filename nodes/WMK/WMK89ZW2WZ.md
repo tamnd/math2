@@ -17,6 +17,7 @@ sources:
 
 ## Proof
 
+We check part 1 by expanding $B(\tau_w x, \tau_w y)$, pick $x - y$ or $x + y$ for part 2, fix one anisotropic vector and pass to its complement for part 3, and compare complements for part 4.
 Let $\operatorname{char} F \neq 2$, and let $B$ be a [[nondegenerate|0KAN330PAH]] [[symmetric|0AXZNE5XNH]] form on $V$, with $\dim V = n$.
 
 Part 1.
@@ -54,8 +55,8 @@ For $k = 0$, the identity of $V$ extends $\sigma$.
 Part 4.
 
 21. Let $f \colon V_1 \perp V_2 \to V_1 \perp V_3 =: W$ be an isometry. $W$ is nondegenerate, as an orthogonal sum of nondegenerate spaces.
-22. In $W$, put $U = f(V_1)$ and $U' = V_1$. Both are nondegenerate, and $\sigma = f|_{V_1}$, read as a map $U' \to U$, gives an isometry $U' \to U$.
-23. By part 3, $\sigma$ extends to an isometry $\tau$ of $W$, so $\tau(V_1) = f(V_1)$.
+22. In $W$, the subspaces $V_1$ and $f(V_1)$ are both nondegenerate, and $\sigma = f|_{V_1}$ is an isometry from $V_1$ onto $f(V_1)$.
+23. By part 3, with $U = V_1$ and $U' = f(V_1)$, the map $\sigma$ extends to an isometry $\tau$ of $W$, so $\tau(V_1) = f(V_1)$.
 24. A bijective isometry maps the [[orthogonal complement|05Q4JD6XEH]] of a subspace onto the complement of its image, because $B(\tau x, \tau z) = B(x, z)$. So $\tau$ maps $V_1^\perp = V_3$ onto $f(V_1)^\perp$.
 25. In the same way, $f$ maps $V_2 = V_1^\perp$, taken in $V_1 \perp V_2$, onto $f(V_1)^\perp$, taken in $W$.
 26. So $\tau^{-1} \circ f$ maps $V_2$ isometrically onto $V_3$. $\blacksquare$
@@ -68,4 +69,7 @@ Cancellation follows, because an isometry that matches $V_1$ with $V_1$ must mat
 
 ## Variants
 
-In step 11 one can also take an orthogonal basis of $U$, and extend $\sigma$ one basis vector at a time.
+Part 3 can also start from an orthogonal basis $u_1, \dots, u_k$ of $U$, which exists by the [[diagonalization of a quadratic form|0Z3FEWZ8HA]] since $\operatorname{char} F \neq 2$.
+Each $B(u_i, u_i)$ is nonzero, because $U$ is nondegenerate, and the induction then fixes $u_1, u_2, \dots$ in turn.
+The same induction with a different first step proves [[Witt's theorem|CCB8VNQCV0]] for degenerate $U$, as in [[its proof|XRXMHP9Z76]].
+For part 4 alone, cancelling one line $\langle a \rangle$ at a time is enough, since $V_1$ has an orthogonal basis and part 2 moves one line onto another.
