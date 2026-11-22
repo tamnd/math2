@@ -16,26 +16,28 @@ sources:
 
 ## Example
 
-Statement: for all real numbers $a$ and $b$, if $a + b \geq 100$, then $a \geq 50$ or $b \geq 50$.
+Statement: for all real numbers $a$ and $b$, if $a + b \ge 100$, then $a \ge 50$ or $b \ge 50$.
 We give a [[proof by contrapositive|0BB5TPGQ1N]].
 
-1. The conclusion is "$a \geq 50$ or $b \geq 50$". By [[De Morgan's laws|09PKJKA6J0]], its negation is "$a < 50$ and $b < 50$".
-2. The negation of the hypothesis $a + b \geq 100$ is $a + b < 100$.
+1. The conclusion is "$a \ge 50$ or $b \ge 50$".
+   By [[De Morgan's laws|09PKJKA6J0]], its negation is "$a < 50$ and $b < 50$".
+2. The negation of the hypothesis $a + b \ge 100$ is $a + b < 100$.
 3. So the contrapositive is: if $a < 50$ and $b < 50$, then $a + b < 100$.
-4. Assume $a < 50$ and $b < 50$.
-5. Add the two inequalities: $a + b < 50 + 50 = 100$.
-6. This proves the contrapositive, and therefore the statement.
+4. Assume $a < 50$ and $b < 50$, and add the two inequalities:
+   $$a + b < 50 + 50 = 100.$$
+5. This proves the contrapositive, and therefore the statement.
 
 ## Remarks
 
-The conclusion of the statement is an "or", and a direct proof would have to decide which of $a$ and $b$ is large.
-The negated conclusion is an "and", which gives two facts to use at once.
-This is a common reason to choose the contrapositive.
+The conclusion is an "or", so a direct proof would have to decide which of $a$ and $b$ is the large one.
+The negated conclusion is an "and", which hands us two facts at once.
+This is one of the most common reasons to choose the contrapositive.
 
-The constant $50$ is the largest that works.
-The statement "if $a + b \geq 100$, then $a \geq 51$ or $b \geq 51$" is false for $a = b = 50$.
-For $n$ real numbers, the same proof gives: if $a_1 + \cdots + a_n \geq S$, then $a_i \geq S / n$ for some $i$.
-This is the averaging idea behind the [[pigeonhole principle|0HGVCWQGY3]].
+The constant $50$ is the best possible.
+The stronger claim "if $a + b \ge 100$, then $a \ge 51$ or $b \ge 51$" fails for $a = b = 50$.
+For $n$ real numbers the same proof gives: if $a_1 + \dots + a_n \ge S$, then $a_i \ge S / n$ for some $i$.
+If every $a_i$ were less than $S / n$, the sum would be less than $n \cdot S / n = S$.
+This averaging idea is behind the [[pigeonhole principle|0HGVCWQGY3]].
 
 ## Explanations
 
@@ -49,14 +51,10 @@ For example, $49$ coins and $49$ coins make only $98$.
 
 ### L2 human
 
-We use the same idea on three numbers: if $a + b + c \geq 30$, then at least one of $a$, $b$, $c$ is at least $10$.
-
-1. Negate the conclusion: "$a < 10$ and $b < 10$ and $c < 10$".
-2. Assume these three inequalities.
-3. Add them: $a + b + c < 30$.
-4. This proves the contrapositive.
-
-The typical use: a statement "some part is large" is proved by assuming "all parts are small" and adding.
-
-A trap: negating "$a \geq 10$ or $b \geq 10$ or $c \geq 10$" as "$a < 10$ or $b < 10$ or $c < 10$".
-This keeps the "or", and the proof in step 3 then fails, because only one inequality is known.
+The same idea works for three numbers: if $a + b + c \ge 30$, then at least one of $a$, $b$, $c$ is at least $10$.
+Negate the conclusion to get "$a < 10$ and $b < 10$ and $c < 10$", and assume these three inequalities.
+Adding them gives
+$$a + b + c < 10 + 10 + 10 = 30,$$
+which is the negated hypothesis, so the contrapositive holds.
+The typical use is the one shown: a claim "some part is large" is proved by assuming "every part is small" and adding.
+Watch out: the negation "$a < 10$ or $b < 10$ or $c < 10$" keeps the "or", and with only one inequality known the sum cannot be bounded.

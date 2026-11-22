@@ -18,34 +18,33 @@ sources:
 
 ## Example
 
-Statement: for all real numbers $a$ and $b$, $a^2 + b^2 \geq 2ab$.
+The claim is: for all real numbers $a$ and $b$, $a^2 + b^2 \geq 2ab$.
 A student writes this argument.
 
 1. $a^2 + b^2 \geq 2ab$.
 2. So $a^2 - 2ab + b^2 \geq 0$.
 3. So $(a - b)^2 \geq 0$.
-4. This is true, because a square of a real number is never negative.
+4. This is true, because the square of a real number is never negative.
 
-The argument is not a [[direct proof|0NTF6DMVAP]] of the statement.
-We check the condition that fails.
-
-1. A direct proof must start from the hypotheses and known facts, and it must end with the conclusion.
-2. The argument starts with the conclusion in its line 1. So it assumes what it wants to prove.
-3. It ends with a true statement in line 4. So it shows only "if $a^2 + b^2 \geq 2ab$, then $(a - b)^2 \geq 0$".
-4. An implication with a true conclusion is true whatever its hypothesis is. So line 4 gives no information about line 1.
+The argument is not a [[direct proof|0NTF6DMVAP]] of the claim, and we can say which condition fails.
+A direct proof must start from the hypotheses and from known facts, and it must end with the conclusion.
+The student's line 1 is the conclusion itself, so the argument assumes what it wants to prove.
+It ends with a true statement in line 4, so what it shows is "if $a^2 + b^2 \geq 2ab$, then $(a - b)^2 \geq 0$".
+An implication whose conclusion is true holds whatever its hypothesis is, so line 4 tells us nothing about line 1.
 
 ## Remarks
 
-Here the steps can be reversed, so a correct direct proof exists.
+In this case each step can be reversed, so a correct direct proof exists, and it is the student's chain read from the bottom up.
 
-1. For all real $a$ and $b$, $(a - b)^2 \geq 0$, because a square of a real number is never negative.
-2. Expand: $a^2 - 2ab + b^2 \geq 0$.
-3. Add $2ab$ to both sides: $a^2 + b^2 \geq 2ab$.
+1. For all real $a$ and $b$, $(a - b)^2 \geq 0$, because the square of a real number is never negative.
+2. Expand the square:
+   $$a^2 - 2ab + b^2 \geq 0.$$
+3. Add $2ab$ to both sides to get $a^2 + b^2 \geq 2ab$.
 
-The reversed chain is the proof, and the student's chain is only the scratch work that finds it.
-The danger shows when a step cannot be reversed.
-From the false claim $-1 = 1$, squaring gives $1 = 1$, which is true.
-So "starting from the claim and reaching a truth" can also happen for a false claim.
+So the student's work is good scratch work that finds the proof, but the proof must be written in the reverse order.
+The danger is real when a step cannot be reversed.
+Start from the false claim $-1 = 1$ and square both sides.
+You get $1 = 1$, which is true, so "start from the claim and reach a truth" can happen even when the claim is false.
 
 ## Explanations
 
@@ -55,17 +54,15 @@ An argument that starts from the claim can end with a true sentence even when th
 For example, start from the false claim $-1 = 1$ and square both sides.
 The result is $1 = 1$, a true sentence.
 So reaching a true sentence does not show that the starting claim is true.
-A proof must start from facts and end with the claim, not the other way.
+A proof must start from facts and end with the claim, not the other way round.
 
 ### L2 human
 
-We compare the two directions for the claim $x + \frac{1}{x} \geq 2$ for real $x > 0$.
-
-1. Scratch work, from the goal: $x + \frac{1}{x} \geq 2$, so $x^2 + 1 \geq 2x$ (multiply by $x > 0$), so $(x - 1)^2 \geq 0$.
-2. Check each step backward: from $(x - 1)^2 \geq 0$ we get $x^2 + 1 \geq 2x$ by expanding and adding $2x$. Dividing by $x > 0$ gives $x + \frac{1}{x} \geq 2$.
-3. Write the proof in the order of step 2.
-
-The typical use of scratch work from the goal is to find the proof; the [[forward-backward method|V8ZB838JY5]] makes this systematic.
-
-A trap: multiplying an inequality by $x$ keeps its direction only when $x > 0$.
-Without the hypothesis $x > 0$, the claim fails: $x = -1$ gives $-1 + \frac{1}{-1} = -2$.
+Take the claim $x + \frac{1}{x} \geq 2$ for every real $x > 0$, and do the scratch work from the goal first.
+Multiply by $x > 0$ and move every term to one side:
+$$x + \frac{1}{x} \geq 2 \quad \text{becomes} \quad x^2 + 1 \geq 2x \quad \text{becomes} \quad (x - 1)^2 \geq 0.$$
+Now check that each step runs backward.
+From $(x - 1)^2 \geq 0$, expanding and adding $2x$ gives $x^2 + 1 \geq 2x$, and dividing by $x > 0$ gives $x + \frac{1}{x} \geq 2$.
+The written proof follows this backward check, from $(x - 1)^2 \geq 0$ to the claim.
+Working from the goal to find a proof is normal, and the [[forward-backward method|V8ZB838JY5]] makes it systematic.
+Watch out: multiplying or dividing by $x$ keeps the direction of an inequality only when $x > 0$, and the claim fails without that hypothesis, since $x = -1$ gives $-1 + \frac{1}{-1} = -2$.

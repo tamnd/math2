@@ -22,62 +22,118 @@ same_as:
 
 ## Summary
 
-A proof by cases splits the situation into finitely many cases $C_1, \ldots, C_k$ such that at least one case always holds, and it proves the statement separately in each case.
-The cases must be exhaustive: in symbols, $C_1 \lor C_2 \lor \cdots \lor C_k$ must be true, either by a hypothesis or by a known fact.
-The cases need not exclude each other, although they often do.
-The basic rule is [[disjunction elimination|FTH70E7K1D]]: from $A \lor B$, $A \Rightarrow R$ and $B \Rightarrow R$, conclude $R$.
-The method applies whenever different inputs need different arguments, for example even and odd integers, or positive and negative real numbers.
+A proof by cases splits the situation into a few kinds, proves the statement for each kind separately, and makes sure that no kind is left out.
+It is the method to use when one argument does not fit every object, but two or three arguments do.
+
+Here is a small one: for every integer $n$, the number $n^2 + n$ is even.
+Every integer is even or odd, so there are two cases.
+If $n = 2k$, then $n^2 + n = 4k^2 + 2k = 2(2k^2 + k)$.
+If $n = 2k + 1$, then
+$$n^2 + n = n(n + 1) = (2k + 1)(2k + 2) = 2(2k + 1)(k + 1).$$
+In both cases $n^2 + n$ is twice an integer, so it is even.
+
+In general, a *proof by cases* of a statement $R$ chooses statements $C_1, \ldots, C_k$ such that $C_1 \lor C_2 \lor \cdots \lor C_k$ is true, by a hypothesis or by a known fact, and it proves $C_i \Rightarrow R$ for each $i$.
+The cases must be exhaustive, but they need not exclude each other.
+The underlying rule is [[disjunction elimination|FTH70E7K1D]]: from $A \lor B$, $A \Rightarrow R$ and $B \Rightarrow R$, conclude $R$.
 
 ## Motivation
 
-One argument does not always fit all elements of a set.
-The absolute value $|x|$ is $x$ for $x \geq 0$ and $-x$ for $x < 0$, so a statement about $|x|$ has no single formula to compute with.
-An integer is either $2k$ or $2k + 1$, and the two forms behave differently under multiplication.
-Splitting into cases gives each part of the argument a formula to work with.
-The price is that every case must be covered, and a forgotten case is a gap in the proof.
+Many objects come in kinds that behave differently.
+The [[absolute value|00S7C68D51]] $|x|$ is $x$ when $x \ge 0$ and $-x$ when $x < 0$, so a statement about $|x|$ has no single formula to compute with.
+An integer is $2k$ or $2k + 1$, and the two forms behave differently when you square them.
+A split into cases gives each part of the argument a formula of its own.
+
+The price is completeness.
+Every possibility must fall into some case, and a forgotten case is a gap in the proof, often exactly where the statement fails.
+Case splits return all through mathematics: by the sign of a number, by the remainder of an integer, by whether a set is empty, and, in [[mathematical induction|0ASJVEFA9J]], by whether a natural number is $0$ or a successor.
 
 ## Notation
 
 A proof by cases opens with a sentence that names the split and its reason, for example "Every integer is even or odd, so there are two cases."
-Each case starts with "Case 1: $n$ is even." and ends with the conclusion in that case.
-When the cases are many and each one is a finite check, the method is called proof by exhaustion, or the brute force method.
+Each case starts with a label such as "Case 1: $n$ is even." and ends with the conclusion in that case.
+When there are many cases and each one is a finite check, the method is also called *proof by exhaustion*.
 In Lean, `rcases h with h1 | h2` and `Or.elim` split a hypothesis `h : A ∨ B`, and `by_cases h : P` splits on a proposition `P` and its negation.
 
 ## Remarks
 
-### Examples
+### Why the method is valid
 
-1. [[The square of an integer leaves remainder 0 or 1 on division by 3|N70XWKTVMC]]: three cases by the remainder of $n$.
-2. [[The triangle inequality for real numbers by cases|P4BF8XV06T]]: two cases by the sign of $x + y$.
-3. For every integer $n$, $n^2 + n$ is even. If $n$ is even, then $n^2$ and $n$ are even. If $n$ is odd, then $n^2$ and $n$ are odd. In both cases the sum is even.
-4. For real $x$ and $y$, $\max(x, y) \geq \frac{x + y}{2}$. If $x \geq y$, then $\max(x, y) = x = \frac{x + x}{2} \geq \frac{x + y}{2}$; the case $y \geq x$ is the same with $x$ and $y$ exchanged. A symmetric split like this one is often shortened by [[without loss of generality|Y7NE0E6PCV]].
-5. The [[four colour theorem|0M406JC8J1]] was proved by Appel and Haken in 1976 with a computer check of a large finite set of configurations, a proof by exhaustion.
+Suppose $A \lor B$ is true, and you have proved $A \Rightarrow R$ and $B \Rightarrow R$.
+In any situation at least one of $A$ and $B$ holds.
+If $A$ holds, the first implication gives $R$; if $B$ holds, the second one does.
+So $R$ holds in every situation, and that is disjunction elimination.
+The same argument works for any finite number of cases.
 
-### Non-examples
+The cases may overlap.
+If $n = 0$ falls into both "$n \ge 0$" and "$n \le 0$", the statement is simply proved twice for $n = 0$, which does no harm.
+A split into $P$ and $\neg P$ is always exhaustive by the [[law of excluded middle|0RYYK8PG4S]].
+In intuitionistic logic disjunction elimination is still valid, but the disjunction $P \lor \neg P$ is not free: it must be proved for the particular $P$.
+For the integers this is no problem, since "even or odd" is proved by the division algorithm.
 
-1. [[A case split that misses the interval 0 < x < 1|QEGHS9BAS2]]: the "proof" that $x^2 \geq x$ for all real $x$ checks $x \geq 1$ and $x \leq 0$ only, and the claim fails at $x = \frac{1}{2}$.
-2. Checking the first hundred integers is not a proof by cases for a statement about all integers. The cases do not cover all integers.
-3. A case split whose cases are not proved separately. "Case 1: $n$ even, done. Case 2: similar." is not a proof unless case 2 is in fact the same argument after a change of variable.
+### Choosing the split
 
-### Basic properties
+A good split follows the definitions in the statement.
+For [[the triangle inequality by cases|P4BF8XV06T]], $|x + y| \le |x| + |y|$, the split by the sign of $x + y$ matches the definition of $|x + y|$ and gives two cases.
+A split by the signs of $x$ and $y$ also works, but it gives four cases, and the mixed ones need a further split.
 
-1. The cases must cover all possibilities, and each case may use its own assumption. They need not be disjoint, since a statement proved twice on an overlap is still proved.
-2. A split into $P$ and $\neg P$ is always exhaustive by the [[law of excluded middle|0RYYK8PG4S]]. So in intuitionistic logic, a proof by cases needs the disjunction itself to be proved.
-3. Cases can be nested: inside the case "$x \geq 0$" a second split "$y \geq 0$ or $y < 0$" gives four cases in total.
-4. Splitting a hypothesis of the form $A \lor B$ is a proof by cases; proving a goal of the form $A \lor B$ is different, and the usual method is to assume not $A$ and prove $B$.
-5. A proof by [[mathematical induction|0ASJVEFA9J]] splits the natural numbers into the base case and the successor case, so it contains a proof by cases.
+For a statement about divisibility by $m$, split by the remainder modulo $m$.
+For example, [[the square of an integer leaves remainder 0 or 1 on division by 3|N70XWKTVMC]] uses the three cases $n = 3k$, $3k + 1$ and $3k + 2$:
+$$(3k)^2 = 3(3k^2), \quad (3k + 1)^2 = 3(3k^2 + 2k) + 1, \quad (3k + 2)^2 = 3(3k^2 + 4k + 1) + 1.$$
+Check: $5 = 3 \cdot 1 + 2$ and $5^2 = 25 = 3 \cdot 8 + 1$.
+
+Cases can nest.
+Inside the case $x \ge 0$, a second split into $y \ge 0$ and $y < 0$ gives four cases in all.
+When two cases are copies of each other with the letters exchanged, [[without loss of generality|Y7NE0E6PCV]] lets you write only one of them.
+
+### Proof by exhaustion
+
+Some proofs check a large but finite list of cases.
+The [[four color theorem|0M406JC8J1]] says that the regions of every plane map can be colored with four colors so that neighboring regions differ.
+Its proof reduces the problem to a finite set of configurations and checks each one by computer.
+The logic is the same as in the two-case proof of the Summary; only the size is different.
+Such proofs raise questions about checking and trust, which the topic [[rigor and the acceptance of proofs|1BTHSHST4M]] discusses.
+
+### What is not a proof by cases
+
+[[A case split that misses the interval 0 < x < 1|QEGHS9BAS2]] tries to prove $x^2 \ge x$ for every real $x$ with the cases $x \ge 1$ and $x \le 0$.
+Each case is proved correctly, but the numbers between $0$ and $1$ are in neither case, and the claim fails at $x = \tfrac{1}{2}$.
+
+Checking the integers from $1$ to $100$ is not a proof by cases for a statement about all integers, because the cases do not cover all integers.
+A second case dismissed with the word "similar" is not proved either, unless the second case really is the first one after a change of letters that you can name.
+
+### Watch out
+
+The most common gap is a missing case.
+Typical ones are $x = 0$ between "positive" and "negative", equality between "$<$" and "$>$", and the remainder $2$ when only $n = 3k$ and $n = 3k + 1$ are checked.
+Before you prove any case, write the list of cases and check that it covers everything.
+
+The second trap is to use the assumption of one case inside another.
+Each case may use its own assumption and the common hypotheses, and nothing else.
+
+The third trap is to confuse splitting a hypothesis with proving a disjunction.
+To use a hypothesis "$A$ or $B$", you prove the goal in both cases.
+To prove a goal "$A$ or $B$", you prove one of the two, or, in classical logic, you assume not $A$ and prove $B$.
+
+### Writing it up
+
+State the split and say why it is exhaustive ("By the division algorithm, $n = 3k$, $3k + 1$ or $3k + 2$.").
+Label each case, prove the goal inside it, and end the case with the goal.
+Finish with one sentence that collects the cases ("The three cases cover all integers, so the statement holds.").
 
 ### History
 
-The name "proof by exhaustion" refers to the exhaustion of all cases; it is unrelated to the method of exhaustion of Eudoxus and Archimedes, which computes areas by approximation.
-In 1976 Kenneth Appel and Wolfgang Haken proved the [[four colour theorem|0M406JC8J1]] by a case analysis checked by computer.
+The name "proof by exhaustion" refers to exhausting all the cases.
+It is unrelated to the method of exhaustion of Eudoxus and Archimedes, which computes areas by approximation.
+In 1976 Kenneth Appel and Wolfgang Haken proved the four color theorem by a case analysis checked by computer.
 Thomas Hales announced a proof of the [[Kepler conjecture|AFMBQT06ZV]] in 1998 that also relies on a computer check of many cases, and a formal verification of that proof was completed in 2014.
 
-### Common errors
+### Try it
 
-1. A missing case. Typical gaps are $x = 0$ between "positive" and "negative", equality between "$<$" and "$>$", and the integers $n \equiv 2 \pmod 3$ when only $n = 3k$ and $n = 3k + 1$ are checked.
-2. A case assumption that is used in another case. Each case may only use its own assumption and the common hypotheses.
-3. "The other case is similar" when it is not. The writer must check that the second case really follows by the same steps, or by a symmetry that is stated.
+First, prove that $|xy| = |x| \, |y|$ for all real $x$ and $y$.
+Split by the signs: if $x, y \ge 0$, both sides are $xy$; if $x \ge 0 > y$, then $xy \le 0$ and both sides are $-xy$; the case $x < 0 \le y$ is the same with the letters exchanged; if $x, y < 0$, then $xy > 0$ and both sides are $xy = (-x)(-y)$.
+
+Second, find the gap in "for every integer $n$, $n^2 \equiv n \pmod 3$; if $n = 3k$, both sides are $0$; if $n = 3k + 1$, both sides are $1$".
+The case $n = 3k + 2$ is missing, and there the claim fails: $2^2 = 4 \equiv 1$, but $2 \not\equiv 1 \pmod 3$.
 
 ## Explanations
 
@@ -92,23 +148,20 @@ That is a proof by cases: split into kinds, check each kind, and make sure that 
 
 ### L2 human
 
-We prove: for every integer $n$, $n^3 - n$ is divisible by $3$.
-
-1. Factor: $n^3 - n = (n - 1) n (n + 1)$.
-2. By division by $3$, every integer has the form $3k$, $3k + 1$ or $3k + 2$ for an integer $k$. So there are three cases.
-3. Case $n = 3k$: the factor $n$ is $3k$, so $3$ divides the product.
-4. Case $n = 3k + 1$: the factor $n - 1$ is $3k$, so $3$ divides the product.
-5. Case $n = 3k + 2$: the factor $n + 1$ is $3k + 3 = 3(k + 1)$, so $3$ divides the product.
-6. The three cases cover all integers, so $3 \mid n^3 - n$ for every integer $n$.
-
-The typical use: split by the remainder modulo $m$ when a statement about integers involves divisibility by $m$.
-
-A trap: step 2 must name all remainders.
-A proof that treats only $3k$ and $3k + 1$ looks complete, because two cases feel like "even and odd", but it misses one third of the integers.
+Let us prove that $n^3 - n$ is divisible by $3$ for every integer $n$.
+First factor the expression, so that each case has something to work with:
+$$n^3 - n = (n - 1) \, n \, (n + 1).$$
+By the [[division algorithm|0CHQKZFK5S]], every integer is $3k$, $3k + 1$ or $3k + 2$, so three cases cover all integers.
+If $n = 3k$, the factor $n$ is a multiple of $3$.
+If $n = 3k + 1$, the factor $n - 1 = 3k$ is a multiple of $3$.
+If $n = 3k + 2$, the factor $n + 1 = 3(k + 1)$ is a multiple of $3$.
+In each case one factor is a multiple of $3$, so the product is too.
+Check: $n = 5$ gives $125 - 5 = 120 = 3 \cdot 40$.
+The problem shows the typical use: split by the remainder modulo $m$ when a statement about integers involves divisibility by $m$, and name every remainder.
 
 ### L3 human
 
 In natural deduction, proof by cases is the elimination rule for disjunction, and it is valid in intuitionistic logic; what intuitionistic logic rejects is the free use of $P \lor \neg P$ to create the cases.
-In type theory, a proof by cases on a hypothesis $A \lor B$ is a function defined by pattern matching on the two constructors of the sum type, and induction is pattern matching on a recursive type.
-Large proofs by exhaustion raise questions of checking and trust, which the topic [[rigour and the acceptance of proofs|1BTHSHST4M]] treats: the four colour theorem was formally verified in the proof assistant Coq by Georges Gonthier and coworkers.
-Case splits are also a source of symmetry arguments, and the method [[without loss of generality|Y7NE0E6PCV]] reduces symmetric cases to one.
+In type theory, a proof by cases on a hypothesis $A \lor B$ is a function defined by pattern matching on the two constructors of a sum type, and induction is pattern matching on a recursive type, as the topic [[induction and well-ordering|EEH2F76CYQ]] shows.
+Large proofs by exhaustion raise the question of who checks the checker: the four color theorem was formally verified in the proof assistant Coq by Georges Gonthier and coworkers.
+Case splits are also a source of symmetry arguments, and [[without loss of generality|Y7NE0E6PCV]] reduces symmetric cases to one.

@@ -18,49 +18,57 @@ sources:
 
 Statement: for sets $A$ and $B$, the following are equivalent.
 
-- (a) $A \subseteq B$.
-- (b) $A \cap B = A$.
-- (c) $A \cup B = B$.
+1. $A \subseteq B$.
+2. $A \cap B = A$.
+3. $A \cup B = B$.
 
-We [[prove the equivalence|TFQ1845T84]] by a cycle of three implications: (a) $\Rightarrow$ (b) $\Rightarrow$ (c) $\Rightarrow$ (a).
+We [[prove the equivalence|TFQ1845T84]] by the cycle $(1) \Rightarrow (2) \Rightarrow (3) \Rightarrow (1)$.
 Each set equality is proved by two inclusions, and each inclusion by an [[element argument|CX38X989TB]].
 
-1. (a) $\Rightarrow$ (b). Assume $A \subseteq B$. The inclusion $A \cap B \subseteq A$ holds for all sets. For the other inclusion, let $x \in A$. By (a), $x \in B$, so $x \in A \cap B$. Hence $A \cap B = A$.
-2. (b) $\Rightarrow$ (c). Assume $A \cap B = A$. The inclusion $B \subseteq A \cup B$ holds for all sets. For the other inclusion, let $x \in A \cup B$. If $x \in B$, we are done. If $x \in A$, then $x \in A \cap B$ by (b), so $x \in B$. Hence $A \cup B = B$.
-3. (c) $\Rightarrow$ (a). Assume $A \cup B = B$. Let $x \in A$. Then $x \in A \cup B = B$. Hence $A \subseteq B$.
-4. Each condition implies the next, and (c) implies (a), so each condition implies each other one. The three conditions are equivalent.
+1. $(1) \Rightarrow (2)$.
+   Assume $A \subseteq B$.
+   The inclusion $A \cap B \subseteq A$ holds for all sets, because every element of $A \cap B$ lies in $A$.
+   For the other inclusion, let $x \in A$; by (1), $x \in B$, so $x \in A \cap B$.
+   Hence $A \cap B = A$.
+2. $(2) \Rightarrow (3)$.
+   Assume $A \cap B = A$.
+   The inclusion $B \subseteq A \cup B$ holds for all sets.
+   For the other inclusion, let $x \in A \cup B$, so $x \in A$ or $x \in B$.
+   If $x \in B$, we are done.
+   If $x \in A$, then $x \in A \cap B$ by (2), so $x \in B$.
+   Hence $A \cup B = B$.
+3. $(3) \Rightarrow (1)$.
+   Assume $A \cup B = B$, and let $x \in A$.
+   Then $x \in A \cup B = B$, so $A \subseteq B$.
+4. Each condition implies the next one, and (3) implies (1).
+   So each condition implies every other one by following the cycle, and the three are equivalent.
 
 ## Remarks
 
-A cycle of three implications replaces six separate implications.
-For example, (b) $\Rightarrow$ (a) follows from (b) $\Rightarrow$ (c) and (c) $\Rightarrow$ (a).
+The cycle replaces six implications by three.
+For example, $(2) \Rightarrow (1)$ was never proved on its own, but it follows by chaining $(2) \Rightarrow (3)$ and $(3) \Rightarrow (1)$.
 
-The order of the cycle is a choice.
-A good order puts each step where it is short.
-Here (c) $\Rightarrow$ (a) is one line, while a direct proof of (c) $\Rightarrow$ (b) would need its own element argument.
-
-Step 2 contains a small [[proof by cases|0WCP0PVET6]], since $x \in A \cup B$ means $x \in A$ or $x \in B$.
+The order of the cycle is a choice, and a good order puts each arrow where its proof is short.
+Here $(3) \Rightarrow (1)$ takes one line, while a direct proof of $(3) \Rightarrow (2)$ would need its own element argument.
+Step 2 also contains a small [[proof by cases|0WCP0PVET6]], because $x \in A \cup B$ means $x \in A$ or $x \in B$.
 
 ## Explanations
 
 ### L1 human
 
-Think of $A$ as the set of students in the chess club and $B$ as the set of students in the school.
-Every chess player is a student of the school: that is (a).
-Then "chess players who are students" is the same group as "chess players": that is (b).
-And "chess players or students" is the same group as "students": that is (c).
-The proof shows that each of the three sentences says the same thing in different words.
+Think of $A$ as the students in the chess club and $B$ as the students in the school.
+Every chess player is a student of the school: that is (1).
+Then "chess players who are students" is the same group as "chess players": that is (2).
+And "chess players or students" is the same group as "students": that is (3).
+The proof shows that the three sentences say the same thing in different words.
 
 ### L2 human
 
-We use the equivalence to compute.
-Let $A = \{2, 4\}$ and $B = \{1, 2, 3, 4\}$.
-
-1. Every element of $A$ is in $B$, so (a) holds.
-2. By (a) $\Rightarrow$ (b), $A \cap B = A = \{2, 4\}$, with no further work.
-3. By (a) $\Rightarrow$ (c), $A \cup B = B = \{1, 2, 3, 4\}$.
-
-The typical use: after a TFAE theorem, any one of the conditions can be checked, and the others follow.
-
-A trap: the cycle must close.
-A proof of (a) $\Rightarrow$ (b) and (b) $\Rightarrow$ (c) alone does not show that (c) implies (a).
+Once the equivalence is proved, you check whichever condition is easiest and get the others for free.
+Take $A = \{2, 4\}$ and $B = \{1, 2, 3, 4\}$.
+Every element of $A$ is in $B$, so (1) holds.
+By $(1) \Rightarrow (2)$ and $(1) \Rightarrow (3)$, with no further work,
+$$A \cap B = A = \{2, 4\}, \qquad A \cup B = B = \{1, 2, 3, 4\}.$$
+Check: the common elements of $A$ and $B$ are $2$ and $4$, and the union adds nothing to $B$.
+The typical use of a TFAE theorem is exactly this: verify one condition and quote the rest.
+Watch out: the cycle must close, since $(1) \Rightarrow (2)$ and $(2) \Rightarrow (3)$ alone do not show that (3) implies (1).
