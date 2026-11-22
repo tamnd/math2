@@ -19,6 +19,7 @@ sources:
 
 ## Statement
 
+Every vector splits in exactly one way into a part inside a finite-dimensional subspace and a part orthogonal to it.
 Let $V$ be an inner product space over $\R$ or $\C$, and let $U$ be a finite-dimensional subspace of $V$.
 Let $U^\perp$ be the [[orthogonal complement|079D68S3AW]] of $U$.
 Then:
@@ -32,54 +33,69 @@ The map $v \mapsto u$ is the [[orthogonal projection|0B8KZRT28M]] onto $U$.
 
 ## Remarks
 
+### A first decomposition
+
+Take $V = \R^3$ and let $U$ be the plane spanned by $(1, 1, 0)$ and $(0, 1, 1)$.
+By [[the plane example|38S0WYCSA3]], $U^\perp$ is the line through $n = (1, -1, 1)$.
+To split $v = (1, 2, 3)$, write $v = u + t n$ with $u \in U$ and take the dot product with $n$.
+Since $u \cdot n = 0$, this gives $v \cdot n = t \, (n \cdot n)$:
+$$1 - 2 + 3 = 3t, \qquad t = \tfrac{2}{3}.$$
+So $u' = \tfrac{2}{3}(1, -1, 1) = (\tfrac{2}{3}, -\tfrac{2}{3}, \tfrac{2}{3})$ and $u = v - u' = (\tfrac{1}{3}, \tfrac{8}{3}, \tfrac{7}{3})$.
+Check: $u \cdot n = \tfrac{1}{3} - \tfrac{8}{3} + \tfrac{7}{3} = 0$, so $u$ lies in $U$.
+
 ### Why each hypothesis is needed
 
-- Finite dimension of $U$: in the Hilbert space $\ell^2$ of square-summable sequences, the subspace $c_{00}$ of finitely supported sequences has $c_{00}^\perp = \set{0}$. So $c_{00} + c_{00}^\perp = c_{00} \ne \ell^2$, as [[the counterexample in l2|DNZF0R4VMZ]] shows.
-- Positivity of the inner product: for the form $\langle x, y \rangle = x_1 y_1 - x_2 y_2$ on $\R^2$ and $U = \R(1, 1)$, we get $U^\perp = U$. So $U + U^\perp = U \ne \R^2$.
-- Finite dimension of $V$ is needed only for part 3, because $\dim V - \dim U$ has no meaning otherwise.
+The subspace $U$ must be finite-dimensional, or at least closed.
+In the Hilbert space $\ell^2$ of square-summable sequences, the subspace $c_{00}$ of finitely supported sequences has $c_{00}^\perp = \{0\}$.
+So $c_{00} + c_{00}^\perp = c_{00}$, which is not all of $\ell^2$, as [[the counterexample in l2|DNZF0R4VMZ]] shows.
 
-### Consequences
+The form must be positive.
+For $\langle x, y \rangle = x_1 y_1 - x_2 y_2$ on $\R^2$ and $U = \R(1, 1)$, the condition $x_1 - x_2 = 0$ gives $U^\perp = U$, so $U + U^\perp = U \ne \R^2$.
 
-- The [[dimension of the orthogonal complement|0E2NYPVSP9]] is part 3, stated alone.
-- The [[double orthogonal complement|0PXN9G4MX1]] satisfies $(U^\perp)^\perp = U$ in finite dimension.
-- The [[best approximation theorem|0MCDDSCB9Z]]: the part $u$ is the point of $U$ closest to $v$.
-- Every vector of $\R^n$ splits into a row space part and a null space part, by the [[orthogonality of the fundamental subspaces|GQF2KG1R1N]].
+The space $V$ must be finite-dimensional only for part 3, because $\dim V - \dim U$ has no meaning otherwise.
 
-### Converse
+### What it gives you
 
-If $V = U \oplus W$ and $W \subseteq U^\perp$, then $W = U^\perp$.
-Indeed, let $x \in U^\perp$ and write $x = u + w$; then $u = x - w$ lies in $U \cap U^\perp = \set{0}$, so $x = w \in W$.
-So $U^\perp$ is the only complement of $U$ that is orthogonal to $U$.
+Part 3, stated on its own, is the [[dimension of the orthogonal complement|0E2NYPVSP9]].
+It leads at once to the [[double orthogonal complement|0PXN9G4MX1]], $(U^\perp)^\perp = U$ in finite dimension.
+The [[best approximation theorem|0MCDDSCB9Z]] adds that $u$ is the point of $U$ closest to $v$.
+For a matrix, every vector of $\R^n$ splits into a row space part and a null space part, by the [[orthogonality of the fundamental subspaces|GQF2KG1R1N]].
+
+### The converse
+
+Suppose that $V = U \oplus W$ and that $W \subseteq U^\perp$.
+Then $W = U^\perp$.
+To see this, let $x \in U^\perp$ and write $x = u + w$ with $u \in U$ and $w \in W$.
+Then $u = x - w$ lies in $U^\perp$ as well as in $U$, so $u = 0$ and $x = w \in W$.
+So $U^\perp$ is the only complement of $U$ whose vectors are all orthogonal to $U$.
 
 ### Generalizations
 
-In a Hilbert space, the same decomposition holds for every closed subspace $U$, by the [[Hilbert projection theorem|J5YNTHQMFX]].
-In a general inner product space, it holds for complete subspaces, and finite-dimensional subspaces are complete.
-The subspace $c_{00}$ is not closed in $\ell^2$, and this is why it fails there.
+In a [[Hilbert space|HM2HHE3J51]], the same decomposition holds for every closed subspace $U$, by the [[Hilbert projection theorem|J5YNTHQMFX]].
+In a general inner product space, it holds for every complete subspace, and finite-dimensional subspaces are always complete.
+The subspace $c_{00}$ is not closed in $\ell^2$, which is why it fails there.
 
 ## Explanations
 
 ### L1 human
 
-Each vector splits in exactly one way into a part inside $U$ and a part at right angles to $U$.
-In space, with $U$ the floor, the first part is the shadow of the vector on the floor, and the second part is its vertical part.
-A line and a plane at right angles together fill space, and $1 + 2 = 3$.
+Every vector splits in exactly one way into a part inside $U$ and a part at a right angle to $U$.
+In a room, with $U$ the floor, the first part is the shadow of an arrow on the floor, and the second part is the vertical part.
+A line and a plane at a right angle to each other fill space, and the dimensions add up: $1 + 2 = 3$.
 
 ### L2 human
 
-We split $v = (1, 2, 3)$ in $\R^3$ with $U$ the plane spanned by $(1, 1, 0)$ and $(0, 1, 1)$.
-
-1. By [[the plane example|38S0WYCSA3]], $U^\perp = \R(1, -1, 1)$.
-2. Write $v = u + t(1, -1, 1)$ with $u \in U$; the dot product with $n = (1, -1, 1)$ gives $v \cdot n = 3t$, since $u \cdot n = 0$.
-3. Here $v \cdot n = 1 - 2 + 3 = 2$, so $t = 2/3$ and $u' = (2/3, -2/3, 2/3)$.
-4. Then $u = v - u' = (1/3, 8/3, 7/3)$, and $u \cdot n = 1/3 - 8/3 + 7/3 = 0$, so $u \in U$.
-
-The typical use is to split a problem into a part that lies in $U$ and an error part orthogonal to $U$.
-The trap is to use a basis of $U$ that is not orthonormal in the formula of part 2.
-For the basis $(1, 1, 0), (0, 1, 1)$ the formula gives $3(1, 1, 0) + 5(0, 1, 1) = (3, 8, 5)$, which is wrong; the [[projection formulas|AK3JJ5HHG2]] give the correct matrix form.
+The formula of part 2 needs an orthonormal basis, and the typical mistake is to use it with any basis.
+For $v = (1, 2, 3)$ and the basis $(1, 1, 0), (0, 1, 1)$ of the plane above, the inner products are $3$ and $5$, and the formula would give
+$$3(1, 1, 0) + 5(0, 1, 1) = (3, 8, 5).$$
+The vector $(3, 8, 5)$ does lie in $U$, but it is the wrong point of $U$.
+The difference $v - (3, 8, 5) = (-2, -6, -2)$ has dot product $-8$ with $(1, 1, 0)$, so it is not orthogonal to $U$.
+With the orthonormal basis $e_1 = \tfrac{1}{\sqrt 2}(1, 1, 0)$ and $e_2 = \tfrac{1}{\sqrt 6}(-1, 1, 2)$ the formula works:
+$$\ip{v}{e_1} e_1 + \ip{v}{e_2} e_2 = \tfrac{3}{2}(1, 1, 0) + \tfrac{7}{6}(-1, 1, 2) = (\tfrac{1}{3}, \tfrac{8}{3}, \tfrac{7}{3}).$$
+For a basis that is not orthonormal, the [[projection formulas|AK3JJ5HHG2]] give the correct matrix form.
 
 ### L3 human
 
-The theorem says that the lattice of subspaces of a finite-dimensional inner product space has a canonical complement operation, $U \mapsto U^\perp$.
-In functional analysis the closed subspaces of a [[Hilbert space|HM2HHE3J51]] keep this property.
+The theorem says that the subspaces of a finite-dimensional inner product space have a canonical complement, $U \mapsto U^\perp$.
+In functional analysis the closed subspaces of a Hilbert space keep this property, and Fourier series use it to split a function into orthogonal pieces.
 The decomposition is the start of the theory of orthogonal projections, the [[adjoint|0R9NMSM1ZP]] and the [[spectral theorem|06J4PXRG22]], where a space splits into orthogonal eigenspaces.

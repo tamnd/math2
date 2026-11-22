@@ -19,6 +19,7 @@ sources:
 
 ## Statement
 
+The orthogonal complement is always a subspace, it only sees the span of a set, it reverses inclusions, and it turns sums into intersections.
 Let $V$ be an inner product space over $\R$ or $\C$.
 For a subset $S$ of $V$, let $S^\perp$ be its [[orthogonal complement|079D68S3AW]].
 Let $S$ and $T$ be subsets of $V$, and let $U$ and $W$ be subspaces of $V$.
@@ -27,9 +28,9 @@ Then:
 1. $S^\perp$ is a subspace of $V$.
 2. If $S \subseteq T$, then $T^\perp \subseteq S^\perp$.
 3. $S^\perp = (\operatorname{span} S)^\perp$, where $\operatorname{span} S$ is the [[span|0DTY8B9HMS]] of $S$.
-4. $U \cap U^\perp = \set{0}$.
+4. $U \cap U^\perp = \{0\}$.
 5. $(U + W)^\perp = U^\perp \cap W^\perp$, where $U + W$ is the [[sum of subspaces|0RMKABS2S5]].
-6. $\set{0}^\perp = V$ and $V^\perp = \set{0}$.
+6. $\{0\}^\perp = V$ and $V^\perp = \{0\}$.
 
 The [[proof|CD6PQGCSWG]] uses only the axioms of an inner product.
 
@@ -37,49 +38,63 @@ The [[proof|CD6PQGCSWG]] uses only the axioms of an inner product.
 
 ### Why each hypothesis is needed
 
-- Part 4 needs positivity of the inner product. For the symmetric bilinear form $\langle x, y \rangle = x_1 y_1 - x_2 y_2$ on $\R^2$, the line $U = \R(1, 1)$ satisfies $\langle (1, 1), (1, 1) \rangle = 0$. So $U \subseteq U^\perp$ and $U \cap U^\perp = U \ne \set{0}$.
-- Part 5 is about subspaces. For subsets $S$ and $T$ the same proof gives $(S \cup T)^\perp = S^\perp \cap T^\perp$.
-- Parts 1, 2, 3 and 5 need neither finite dimension nor positivity. Part 6 needs positivity for $V^\perp = \set{0}$. For the form $\langle x, y \rangle = x_1 y_1$ on $\R^2$, which is not positive, $(0, 1)$ is orthogonal to every vector, so $V^\perp = \R(0, 1)$.
+Parts 1, 2, 3 and 5 use only linearity, so they hold for any bilinear or sesquilinear form, in any dimension.
+Parts 4 and 6 are different, because they need positivity.
+For the symmetric form $\langle x, y \rangle = x_1 y_1 - x_2 y_2$ on $\R^2$, the vector $(1, 1)$ has $\langle (1, 1), (1, 1) \rangle = 1 - 1 = 0$.
+So the line $U = \R(1, 1)$ lies inside its own complement, and $U \cap U^\perp = U \ne \{0\}$, so part 4 fails.
 
-### Consequences
+In part 6 the claim $V^\perp = \{0\}$ fails for the form $\langle x, y \rangle = x_1 y_1$ on $\R^2$, which is not positive.
+There $(0, 1)$ is orthogonal to every vector, so $V^\perp = \R(0, 1)$.
 
-- To compute $U^\perp$ it is enough to test a spanning set of $U$, by part 3. In $\R^n$ this makes $U^\perp$ the null space of the matrix whose rows span $U$, as in [[the plane example|38S0WYCSA3]].
-- By parts 5 and 3, $(U_1 + \dots + U_k)^\perp = U_1^\perp \cap \dots \cap U_k^\perp$ for any finite number of subspaces.
-- [[The sum rule for two lines in R3|1JKAGB6W4Z]] checks part 5 with numbers.
+Part 5 is stated for subspaces, because $U + W$ needs subspaces.
+For subsets the same proof gives $(S \cup T)^\perp = S^\perp \cap T^\perp$.
 
-### Converse
+### What it gives you
 
-The converse of part 2 is false for subsets: $S = \set{(1, 0)}$ and $T = \set{(2, 0)}$ in $\R^2$ have the same complement, the $y$-axis, but neither set contains the other.
-For subspaces of a finite-dimensional space the converse holds: $W^\perp \subseteq U^\perp$ implies $U \subseteq W$, by the [[double orthogonal complement|0PXN9G4MX1]].
+Part 3 is the rule that makes complements computable.
+To find $U^\perp$, test a spanning set of $U$ and nothing else.
+In $\R^n$ this makes $U^\perp$ the null space of the matrix whose rows span $U$, as in [[the plane example|38S0WYCSA3]].
+
+Parts 5 and 3 together give $(U_1 + \dots + U_k)^\perp = U_1^\perp \cap \dots \cap U_k^\perp$ for any finite number of subspaces, by induction on $k$.
+For example, with $U = \R(1, 0, 0)$ and $W = \R(0, 1, 0)$ in $\R^3$, the complements are the planes $x_1 = 0$ and $x_2 = 0$.
+They meet in the $x_3$-axis, and that axis is also the complement of the plane $U + W = \{x_3 = 0\}$.
+[[The sum rule for two lines in R3|1JKAGB6W4Z]] checks part 5 with a less symmetric pair.
+
+### The converse
+
+The converse of part 2 is false for subsets.
+In $\R^2$ the sets $S = \{(1, 0)\}$ and $T = \{(2, 0)\}$ have the same complement, the $y$-axis, but neither set contains the other.
+For subspaces of a finite-dimensional space the converse holds: $W^\perp \subseteq U^\perp$ implies $U \subseteq W$.
+To see this, apply part 2 to $W^\perp \subseteq U^\perp$ to get $(U^\perp)^\perp \subseteq (W^\perp)^\perp$, and then use the [[double orthogonal complement|0PXN9G4MX1]] on both sides.
 
 ### Generalizations
 
-The dual rule $(U \cap W)^\perp = U^\perp + W^\perp$ holds in finite dimension.
-It follows from part 5 applied to $U^\perp$ and $W^\perp$, together with $(X^\perp)^\perp = X$ for subspaces $X$.
-In an infinite-dimensional Hilbert space it can fail, because $U^\perp + W^\perp$ need not be closed.
+In finite dimension the dual rule $(U \cap W)^\perp = U^\perp + W^\perp$ also holds.
+Apply part 5 to the subspaces $U^\perp$ and $W^\perp$ to get $(U^\perp + W^\perp)^\perp = (U^\perp)^\perp \cap (W^\perp)^\perp = U \cap W$.
+Now take complements of both sides and use the double complement once more.
+In an infinite-dimensional Hilbert space the dual rule can fail, because $U^\perp + W^\perp$ need not be closed.
 
 ## Explanations
 
 ### L1 human
 
-The complement of a set of vectors is a flat space through the origin, even if the set itself is not flat.
-Adding more vectors to a set makes the complement smaller, because there are more conditions to meet.
-A vector perpendicular to two subspaces is perpendicular to everything built from them by adding.
+The vectors perpendicular to a set always form a flat space through the origin, even if the set itself is not flat.
+Adding more vectors to the set makes the complement smaller, because there are more conditions to meet.
+A vector that is perpendicular to two lines is also perpendicular to every sum of vectors from those lines.
 
 ### L2 human
 
-We check part 5 in $\R^3$ with $U = \R(1, 0, 0)$ and $W = \R(0, 1, 0)$.
-
-1. $U^\perp$ is the plane $x_1 = 0$, and $W^\perp$ is the plane $x_2 = 0$.
-2. Their intersection is the $x_3$-axis.
-3. The sum $U + W$ is the plane $x_3 = 0$, and its complement is also the $x_3$-axis.
-
-The typical use of the rules is to replace a subspace by a spanning set before a computation.
-The trap is to apply part 4 to a form that is not positive, such as the Minkowski form of relativity.
+The typical use is to replace a subspace by a spanning set before a computation.
+Take $U = \R(1, 1, 0)$ and $W = \R(0, 0, 1)$ in $\R^3$, and find $(U + W)^\perp$.
+By part 5 we intersect the two complements, which are the planes
+$$x_1 + x_2 = 0 \quad \text{and} \quad x_3 = 0.$$
+Their intersection is the line $\R(1, -1, 0)$.
+Check: $(1, -1, 0)$ is orthogonal to $(1, 1, 0)$ and to $(0, 0, 1)$, so it is orthogonal to the whole plane $U + W$.
+Watch out: part 4 depends on positivity, so do not use it for the Minkowski form of relativity, where light-like vectors are orthogonal to themselves.
 
 ### L3 human
 
-Parts 1 to 3 hold for any pairing, and they say that $S \mapsto S^\perp$ is an order-reversing map with $S \subseteq (S^\perp)^\perp$.
-Such a pair of maps is a Galois connection between subsets of $V$ and subsets of $V$.
+Parts 2 and 3, together with the symmetry of orthogonality, say that $S \mapsto S^\perp$ reverses order and satisfies $S \subseteq (S^\perp)^\perp$.
+Such a map, paired with itself, is a Galois connection on the subsets of $V$.
 Part 5 says that this map sends joins of subspaces to meets.
 The closed elements of the connection are the subspaces with $(U^\perp)^\perp = U$: all subspaces in finite dimension, and the closed subspaces in a Hilbert space.

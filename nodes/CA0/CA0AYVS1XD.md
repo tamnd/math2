@@ -6,7 +6,7 @@ msc: [15A06, 15A09]
 topics: [8GQVME4SZZ]
 audience: ug1
 proves: QM2Y84VDX8
-uses: [GQF2KG1R1N, 0BVTDM872V, 0Q8HZTJC7G, 0EWQEYRVA8, 0TZAG60ZYT, 0F0RPPJ2TT, ACDFDABVQK, 0PSRCMCM5X, 0EX045E2BP]
+uses: [GQF2KG1R1N, 0SP7P0G7KQ, 0BVTDM872V, 0Q8HZTJC7G, 0EWQEYRVA8, 0TZAG60ZYT, 0F0RPPJ2TT, ACDFDABVQK, 0PSRCMCM5X, 0EX045E2BP]
 methods: [0NTF6DMVAP, 01XM7JEKHY]
 sources:
   - url: https://en.wikipedia.org/wiki/Moore%E2%80%93Penrose_inverse
@@ -15,32 +15,43 @@ sources:
 
 ## Proof
 
+We split each solution into a row space part and a null space part, and then we find the row space part by a formula.
 Write $W = \operatorname{Col}(A^*) \subseteq \mathbb{K}^n$ and $N = \operatorname{Nul}(A)$.
 
-1. By part 2 of the [[orthogonality of the fundamental subspaces|GQF2KG1R1N]], $N = W^\perp$. So every $w \in W$ is orthogonal to every $z \in N$.
-2. By part 5 of the same theorem, $Ax = b$ has exactly one solution $x_0 \in W$, and the set of all solutions is $x_0 + N$.
-3. Let $x = x_0 + z$ be any solution, with $z \in N$. By step 1, $x_0 \perp z$, so the [[Pythagorean theorem|0BVTDM872V]] gives $\norm{x}^2 = \norm{x_0}^2 + \norm{z}^2$. This proves part 2.
-4. By step 3, $\norm{x} \ge \norm{x_0}$, with equality if and only if $\norm{z} = 0$, that is, $x = x_0$. So $x_0$ is the unique solution of smallest norm. This proves part 1.
-5. Part 3: for a solution $x = x_0 + z$, we have $x_0 \in W$ and $x - x_0 = z \in N = W^\perp$. By the definition of the [[orthogonal projection|0Q8HZTJC7G]], $x_0$ is the projection of $x$ onto $W$.
-6. Part 4: let $\rank A = m$. By [[row rank equals column rank|0TZAG60ZYT]], $\dim \operatorname{Col}(A) = m$, so the [[column space|0F0RPPJ2TT]] is all of $\mathbb{K}^m$. Hence $Ax = b$ has a solution for every $b$.
-7. Let $y \in \mathbb{K}^m$ with $A A^* y = 0$. Then $\norm{A^* y}^2 = (A^* y)^* (A^* y) = y^* (A A^* y) = 0$, so $A^* y = 0$.
-8. By part 1 of the fundamental subspaces theorem, $\operatorname{Nul}(A^*) = \operatorname{Col}(A)^\perp = (\mathbb{K}^m)^\perp = \set{0}$. So $y = 0$ by step 7.
-9. The square matrix $A A^*$ has null space $\set{0}$, so it is invertible by the [[invertible matrix theorem|ACDFDABVQK]].
-10. Put $x_1 = A^* (A A^*)^{-1} b$. Then $A x_1 = (A A^*) (A A^*)^{-1} b = b$, so $x_1$ is a solution.
-11. $x_1 = A^* y_1$ with $y_1 = (A A^*)^{-1} b$, so $x_1 \in W$. By the uniqueness in step 2, $x_1 = x_0$. This proves part 4.
-12. Part 5: let $B = A^* (A A^*)^{-1}$. The matrix $A A^*$ is self-adjoint, so its inverse is self-adjoint too, because $((A A^*)^{-1})^* = ((A A^*)^*)^{-1} = (A A^*)^{-1}$.
-13. We check the four conditions of the [[Moore-Penrose inverse|0PSRCMCM5X]]. First, $A B = A A^* (A A^*)^{-1} = I_m$. So $A B A = A$, and $(A B)^* = I_m = A B$.
-14. $B A B = B (A B) = B I_m = B$.
-15. $B A = A^* (A A^*)^{-1} A$, and $(B A)^* = A^* ((A A^*)^{-1})^* A = A^* (A A^*)^{-1} A = B A$ by step 12.
-16. So $B$ satisfies the four conditions, and by the uniqueness in the definition, $B = A^+$. With step 11, $x_0 = A^+ b$. This proves part 5.
+1. By the [[orthogonality of the fundamental subspaces|GQF2KG1R1N]], $N = W^\perp$, so every vector of $W$ is orthogonal to every vector of $N$.
+2. Fix one solution $x$ of $Ax = b$. By the [[orthogonal decomposition|0SP7P0G7KQ]] of $\mathbb{K}^n$ into $W \oplus W^\perp$, we can write $x = x_0 + z$ with $x_0 \in W$ and $z \in N$.
+3. Then $A x_0 = A x - A z = b - 0 = b$, so $x_0$ is a solution that lies in $W$.
+4. If $x_0'$ is a second solution in $W$, then $A(x_0 - x_0') = 0$, so $x_0 - x_0'$ lies in $W \cap N = W \cap W^\perp = \{0\}$.
+5. Hence $x_0$ is the only solution in $W$, which proves part 2.
+6. A vector $x$ is a solution if and only if $A(x - x_0) = 0$, that is, if and only if $x = x_0 + z$ with $z \in N$.
+7. For such $x$, step 1 gives $x_0 \perp z$, so the [[Pythagorean theorem|0BVTDM872V]] gives $\norm{x}^2 = \norm{x_0}^2 + \norm{z}^2$, which proves part 3.
+8. By step 7, $\norm{x} \ge \norm{x_0}$ for every solution, with equality only when $\norm{z} = 0$, that is, when $x = x_0$; this proves part 1.
+9. For a solution $x = x_0 + z$ we have $x_0 \in W$ and $x - x_0 = z \in W^\perp$, so $x_0$ is the [[orthogonal projection|0Q8HZTJC7G]] of $x$ onto $W$ by its definition; this proves part 4.
+10. Now let $\rank A = m$. Since [[row rank equals column rank|0TZAG60ZYT]], the [[column space|0F0RPPJ2TT]] has dimension $m$, so it is all of $\mathbb{K}^m$, and $Ax = b$ has a solution for every $b$.
+11. Let $y \in \mathbb{K}^m$ with $A A^* y = 0$. Then
+$$\norm{A^* y}^2 = (A^* y)^* (A^* y) = y^* (A A^* y) = 0,$$
+so $A^* y = 0$.
+12. The orthogonality of the fundamental subspaces also gives $\operatorname{Nul}(A^*) = \operatorname{Col}(A)^\perp = (\mathbb{K}^m)^\perp = \{0\}$, so $y = 0$.
+13. So the square matrix $A A^*$ has null space $\{0\}$, and it is invertible by the [[invertible matrix theorem|ACDFDABVQK]].
+14. Put $x_1 = A^* (A A^*)^{-1} b$. Then $A x_1 = (A A^*)(A A^*)^{-1} b = b$, so $x_1$ is a solution.
+15. Also $x_1 = A^* y_1$ with $y_1 = (A A^*)^{-1} b$, so $x_1 \in W$, and step 5 gives $x_1 = x_0$; this proves part 5.
+16. For part 6, put $B = A^* (A A^*)^{-1}$. The matrix $A A^*$ is self-adjoint, so its inverse is self-adjoint too:
+$$\big( (A A^*)^{-1} \big)^* = \big( (A A^*)^* \big)^{-1} = (A A^*)^{-1}.$$
+17. We check the four conditions of the [[Moore-Penrose inverse|0PSRCMCM5X]]. First, $A B = A A^* (A A^*)^{-1} = I_m$, so $A B A = A$ and $(A B)^* = I_m = A B$.
+18. Next, $B A B = B (A B) = B I_m = B$.
+19. Last, $B A = A^* (A A^*)^{-1} A$, and step 16 gives $(B A)^* = A^* \big( (A A^*)^{-1} \big)^* A = B A$.
+20. So $B$ satisfies the four conditions, and the uniqueness of the Moore-Penrose inverse gives $B = A^+$; with step 15, $x_0 = A^+ b$, which proves part 6.
 
 ## Idea
 
-The solution set is a translate of the null space, and the null space is orthogonal to $\operatorname{Col}(A^*)$.
-So every solution splits into a part in $\operatorname{Col}(A^*)$, which is the same for all solutions, and a part in the null space, which only adds length.
-The formula comes from looking for the solution in the form $x = A^* y$, which forces $A A^* y = b$.
+The solution set is a copy of the null space moved away from the origin, and the null space is orthogonal to the row space $\operatorname{Col}(A^*)$.
+So every solution splits into a row space part, which is the same for all solutions, and a null space part, which only adds length.
+The shortest solution is the row space part alone.
+To find it, we look for a solution of the form $x = A^* y$, since those are exactly the vectors of the row space, and then $Ax = b$ becomes the square system $A A^* y = b$.
 
 ## Variants
 
-By Lagrange multipliers: minimize $\norm{x}^2$ subject to $Ax = b$ over $\R$.
-The condition $2x = A^{\mathsf{T}} \lambda$ says that $x$ lies in the row space, and then $A A^{\mathsf{T}} \lambda = 2b$ gives the same formula.
+Over $\R$ one can use Lagrange multipliers: minimize $\norm{x}^2$ subject to $Ax = b$.
+The condition $2x = A^{\mathsf{T}} \lambda$ says that $x$ lies in the row space.
+Substituting into $Ax = b$ gives $A A^{\mathsf{T}} \lambda = 2b$, and this leads to the same formula $x = A^{\mathsf{T}} (A A^{\mathsf{T}})^{-1} b$.
+This route finds the candidate quickly, but it needs a separate argument that the critical point is a minimum, and the Pythagorean identity of step 7 supplies that argument.

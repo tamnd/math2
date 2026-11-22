@@ -17,26 +17,33 @@ sources:
 
 ## Proof
 
-Let $U = \operatorname{Col}(A) \subseteq \R^m$, the [[column space|0F0RPPJ2TT]], and let $p = P_U b$ be the [[orthogonal projection|0Q8HZTJC7G]] of $b$ onto $U$.
+We identify the vectors $Ax$ with the points of the column space, and then we apply the best approximation theorem to that subspace.
+Let $U = \operatorname{Col}(A) \subseteq \R^m$ be the [[column space|0F0RPPJ2TT]], and let $p = P_U b$ be the [[orthogonal projection|0Q8HZTJC7G]] of $b$ onto $U$.
 
-1. $U$ is spanned by the $n$ columns of $A$, so it is a finite-dimensional subspace of $\R^m$, and $p$ is defined.
-2. As $x$ runs over $\R^n$, the vector $Ax$ runs over all of $U$, because $Ax$ is the combination of the columns of $A$ with coefficients $x_1, \dots, x_n$, by the [[matrix-vector product|0PDVQEP0ZC]].
-3. Part 2, backward direction: let $A \hat x = p$. For every $x$, the vector $Ax$ lies in $U$, so the [[best approximation theorem|0MCDDSCB9Z]], part 1, gives $\norm{b - A \hat x} = \norm{b - p} \le \norm{b - Ax}$. So $\hat x$ is a least-squares solution.
-4. Part 1: $p \in U$, so by step 2 there is $\hat x$ with $A \hat x = p$. By step 3 it is a least-squares solution.
-5. Part 2, forward direction: let $\hat x$ be a least-squares solution. Then $A \hat x \in U$, and $\norm{b - A \hat x} \le \norm{b - Ax}$ for all $x$. By step 2, this says $\norm{b - A \hat x} \le \norm{b - u}$ for every $u \in U$.
-6. So $A \hat x$ is a closest point of $U$ to $b$, and by part 2 of the best approximation theorem, $A \hat x = p$.
-7. Part 3: let $\hat x$ be a least-squares solution. By part 2, a vector $x$ is a least-squares solution exactly when $Ax = p = A \hat x$, that is, when $A(x - \hat x) = 0$.
-8. So the least-squares solutions are the vectors $\hat x + z$ with $z$ in the [[null space|0PQ2GGY1QV]] $\operatorname{Nul}(A)$.
-9. Part 4: by part 3, the solution is unique exactly when $\operatorname{Nul}(A) = \set{0}$.
-10. $\operatorname{Nul}(A) = \set{0}$ means that $x_1 a_1 + \dots + x_n a_n = 0$ only for $x = 0$, where $a_j$ are the columns. This is the definition of [[linear independence|0CRMGPAH83]] of the columns.
+1. The subspace $U$ is spanned by the $n$ columns of $A$, so it is finite-dimensional, and the projection $p$ is defined.
+2. By the [[matrix-vector product|0PDVQEP0ZC]], $Ax = x_1 a_1 + \dots + x_n a_n$, where $a_1, \dots, a_n$ are the columns, so as $x$ runs over $\R^n$ the vector $Ax$ runs over all of $U$.
+3. We prove the backward direction of part 2, so let $A \hat x = p$.
+4. For every $x$ the vector $Ax$ lies in $U$, so part 1 of the [[best approximation theorem|0MCDDSCB9Z]] gives $\norm{b - A \hat x} = \norm{b - p} \le \norm{b - Ax}$, and $\hat x$ is a least-squares solution.
+5. For part 1, note that $p \in U$, so step 2 gives some $\hat x$ with $A \hat x = p$, and step 4 shows that it is a least-squares solution.
+6. For the forward direction of part 2, let $\hat x$ be a least-squares solution, so that $\norm{b - A \hat x} \le \norm{b - Ax}$ for all $x$.
+7. By step 2 this inequality says $\norm{b - A \hat x} \le \norm{b - u}$ for every $u \in U$, so $A \hat x$ is a closest point of $U$ to $b$.
+8. Part 2 of the best approximation theorem says that the closest point is unique and equals $p$, so $A \hat x = p$.
+9. For part 3, fix one least-squares solution $\hat x$; by part 2, a vector $x$ is a least-squares solution exactly when $Ax = p = A \hat x$.
+10. The equation $Ax = A \hat x$ means $A(x - \hat x) = 0$, that is, $x = \hat x + z$ with $z$ in the [[null space|0PQ2GGY1QV]] $\operatorname{Nul}(A)$.
+11. For part 4, part 3 shows that the solution is unique exactly when $\operatorname{Nul}(A) = \{0\}$.
+12. The condition $\operatorname{Nul}(A) = \{0\}$ says that $x_1 a_1 + \dots + x_n a_n = 0$ only for $x = 0$, which is the definition of [[linear independence|0CRMGPAH83]] of the columns.
+
+This proves all four parts.
 
 ## Idea
 
-The set of all $Ax$ is the column space, so minimizing $\norm{Ax - b}$ over $x$ is the same as finding the closest point of the column space to $b$.
-That point is the projection $p$, and it is unique.
-The freedom left is the choice of $x$ with $Ax = p$, which is a coset of the null space.
+The set of all vectors $Ax$ is the column space, so minimizing $\norm{b - Ax}$ over $x$ is the same problem as finding the point of the column space closest to $b$.
+The best approximation theorem says that this point exists, is unique and is the projection $p$.
+The only freedom left is the choice of $x$ with $Ax = p$, and two such choices differ by a vector of the null space.
 
 ## Variants
 
-A proof by calculus: $f(x) = \norm{Ax - b}^2$ is a quadratic function with gradient $2 A^{\mathsf{T}} (Ax - b)$.
-Its minimizers are its critical points, because $f$ is convex, and this gives the [[normal equations|4D7MRG4D91]].
+There is a proof by calculus.
+The function $f(x) = \norm{Ax - b}^2$ is a convex quadratic with gradient $2 A^{\mathsf{T}} (Ax - b)$.
+For a convex differentiable function, the minimizers are exactly the critical points, so the minimizers are the solutions of the [[normal equations|4D7MRG4D91]].
+Existence then needs a separate argument, for example that $A^{\mathsf{T}} b$ lies in the column space of $A^{\mathsf{T}}$, which equals the column space of $A^{\mathsf{T}} A$.
