@@ -23,19 +23,19 @@ Throughout, matrices are finite and real or complex.
 
 ### Reading order
 
-1. [[Positive definite matrix|0KX66CZMBB]] and its [[definition|0QQCG3JWJ4]]: what it means for a form to be positive, and where such matrices come from.
+1. [[Positive definite matrix|0KX66CZMBB]] and its [[definition|0QQCG3JWJ4]]: what a positive form is, and where such matrices arise.
 2. [[Positive semidefinite matrix|01MMVW8CKC]] and its [[definition|0880F9EQCP]]: the weaker condition that covariance matrices and Gram matrices satisfy.
 3. [[Eigenvalue test for definiteness|0HYC2RHD3M]]: how to read definiteness from the signs of the eigenvalues.
-4. [[Gram matrices are positive semidefinite|0AM050KCAW]]: why every $B^* B$ is positive semidefinite, and why every positive semidefinite matrix has this form.
+4. [[Gram matrices are positive semidefinite|0AM050KCAW]]: why every $B^* B$ is positive semidefinite, and why every such matrix has this form.
 5. [[Sylvester's criterion|0WKEF78PMV]]: a test by determinants, and why semidefiniteness needs all principal minors.
 6. [[Cholesky decomposition|0WKG8CYY6A]]: how to factor a positive definite matrix as $L L^*$ by elimination.
-7. [[Square root of a positive semidefinite matrix|EQ98KW1ZN4]]: how to compute the unique positive semidefinite square root from the eigenvalues.
-8. [[Polar decomposition|0J2C7BDJQA]]: how to write a square matrix as a unitary matrix times a positive semidefinite one, and when the factors are unique.
-9. [[Singular value|09VMDSRXWJ]], its [[definition|0K2TX12X58]], and [[singular values, rank and the operator norm|6VXM1T8PG7]]: what the stretch factors of a matrix are, and how they give the rank and the norm.
+7. [[Square root of a positive semidefinite matrix|EQ98KW1ZN4]]: the unique positive semidefinite root, computed from the eigenvalues.
+8. [[Polar decomposition|0J2C7BDJQA]]: a square matrix as a unitary factor times a positive semidefinite one, and when the factors are unique.
+9. [[Singular value|09VMDSRXWJ]], its [[definition|0K2TX12X58]], and [[singular values, rank and the operator norm|6VXM1T8PG7]]: the stretch factors of a matrix, and how they give its rank and norm.
 10. [[Singular value decomposition|000NPTMX6J]]: the factorization $A = U \Sigma V^*$ of every matrix, and how to compute it.
 11. [[Geometry of the singular value decomposition|JAEKA59DNZ]]: the picture of the unit circle going to an ellipse.
 12. [[Moore-Penrose inverse|0YY8VX28JR]], its [[definition|0PSRCMCM5X]], and [[the pseudoinverse from the SVD|Q9YN0F60ZW]]: the four conditions, and the shortest least-squares solution of any system.
-13. [[Eckart-Young-Mirsky theorem|JJT6GC055J]]: why cutting the SVD after $k$ terms gives the best rank $k$ approximation, in the operator norm and in the Frobenius norm.
+13. [[Eckart-Young-Mirsky theorem|JJT6GC055J]]: why the first $k$ terms of the SVD give the best rank $k$ approximation in both norms.
 14. [[Simultaneous diagonalization with a positive definite matrix|K559AQ9H67]]: how to diagonalize two forms at once when one of them is positive definite.
 
 ### Prerequisites
