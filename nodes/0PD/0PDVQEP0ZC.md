@@ -1,7 +1,7 @@
 ---
 tag: 0PDVQEP0ZC
 kind: concept
-name: Matrix–vector product
+name: Matrix-vector product
 msc: ["15A99"]
 topics: [Y1ESNQ2V52]
 audience: school
