@@ -22,70 +22,95 @@ sources:
 
 ## Statement
 
+A positive semidefinite matrix has exactly one positive semidefinite square root, just as a nonnegative number has exactly one nonnegative square root.
 Let $A$ be an $n \times n$ complex [[positive semidefinite|01MMVW8CKC]] matrix.
 
-1. There is exactly one positive semidefinite matrix $B$ with $B^2 = A$. It is written $A^{1/2}$ or $\sqrt A$.
-2. There is a polynomial $p$ with real coefficients such that $A^{1/2} = p(A)$. So $A^{1/2}$ commutes with every matrix that commutes with $A$.
-3. If $A = U D U^*$ with $U$ unitary and $D = \operatorname{diag}(\lambda_1, \dots, \lambda_n)$, then $A^{1/2} = U \operatorname{diag}(\sqrt{\lambda_1}, \dots, \sqrt{\lambda_n}) U^*$.
-4. $A^{1/2}$ and $A$ have the same null space and the same rank. In particular $A^{1/2}$ is [[positive definite|0KX66CZMBB]] if and only if $A$ is.
-5. If $A$ is real, then $A^{1/2}$ is real.
+1. Existence and uniqueness. There is exactly one positive semidefinite matrix $B$ with $B^2 = A$. We write $B = A^{1/2}$ or $B = \sqrt A$.
+2. Polynomial form. There is a polynomial $p$ with real coefficients such that $A^{1/2} = p(A)$. So $A^{1/2}$ commutes with every matrix that commutes with $A$.
+3. Construction. If $A = U D U^*$ with $U$ unitary and $D = \operatorname{diag}(\lambda_1, \dots, \lambda_n)$, then $A^{1/2} = U \operatorname{diag}(\sqrt{\lambda_1}, \dots, \sqrt{\lambda_n}) U^*$.
+4. Kernel and rank. $A^{1/2}$ and $A$ have the same null space and the same rank. In particular $A^{1/2}$ is [[positive definite|0KX66CZMBB]] if and only if $A$ is.
+5. Real case. If $A$ is real, then $A^{1/2}$ is real.
+
+The [[proof by the spectral theorem|MKM42YWBN6]] proves all five parts, and the [[definition of the square root|0N5GP3YT8T]] rests on part 1.
 
 ## Remarks
 
-The [[definition of the square root|0N5GP3YT8T]] uses part 1 of this theorem.
+### A first square root
+
+Take $A = \begin{pmatrix} 5 & 4 \\ 4 & 5 \end{pmatrix}$.
+It stretches the direction $(1, 1)$ by $9$ and the direction $(1, -1)$ by $1$, since $A(1, 1) = (9, 9)$ and $A(1, -1) = (1, -1)$.
+A square root must then stretch $(1, 1)$ by $3$ and $(1, -1)$ by $1$, and the matrix that does this is
+$$A^{1/2} = \begin{pmatrix} 2 & 1 \\ 1 & 2 \end{pmatrix}.$$
+Check: $\begin{pmatrix} 2 & 1 \\ 1 & 2 \end{pmatrix}^2 = \begin{pmatrix} 4 + 1 & 2 + 2 \\ 2 + 2 & 1 + 4 \end{pmatrix} = A$.
+The polynomial of part 2 is $p(t) = (t + 3)/4$, since $p(9) = 3$ and $p(1) = 1$, and indeed $\tfrac14 (A + 3I) = \tfrac14 \begin{pmatrix} 8 & 4 \\ 4 & 8 \end{pmatrix}$ is the same matrix.
+[[The worked example|QTV6Y0710E]] carries out both recipes in full.
 
 ### Why each hypothesis is needed
 
-- The condition $B \succeq 0$ is needed for uniqueness. [[The example $\begin{pmatrix} 5 & 4 \\ 4 & 5 \end{pmatrix}$|QTV6Y0710E]] has the four symmetric square roots $\pm\begin{pmatrix} 2 & 1 \\ 1 & 2 \end{pmatrix}$ and $\pm\begin{pmatrix} 1 & 2 \\ 2 & 1 \end{pmatrix}$, and only one of them is positive semidefinite.
-- The identity $I_2$ has infinitely many square roots: every reflection $\begin{pmatrix} \cos\theta & \sin\theta \\ \sin\theta & -\cos\theta \end{pmatrix}$ squares to $I_2$.
-- $A$ must be positive semidefinite. If $A$ has a negative eigenvalue, no Hermitian $B$ has $B^2 = A$, since $B^2 = B^* B$ is positive semidefinite.
+The condition that $B$ is positive semidefinite is what makes the root unique.
+The matrix $A$ above has four symmetric square roots, $\pm \begin{pmatrix} 2 & 1 \\ 1 & 2 \end{pmatrix}$ and $\pm \begin{pmatrix} 1 & 2 \\ 2 & 1 \end{pmatrix}$, and only the first has nonnegative eigenvalues.
+If we drop symmetry too, there are even more roots.
+The identity $I_2$ has infinitely many, since every reflection $\begin{pmatrix} \cos\theta & \sin\theta \\ \sin\theta & -\cos\theta \end{pmatrix}$ squares to $I_2$.
 
-### Consequences
+The matrix $A$ itself must be positive semidefinite for a root of this kind to exist.
+If $B$ is Hermitian, then $B^2 = B^* B$ is positive semidefinite by the [[Gram matrix theorem|0AM050KCAW]].
+So a Hermitian matrix with a negative eigenvalue, such as $\operatorname{diag}(1, -1)$, has no Hermitian square root at all.
 
-- The [[polar decomposition|0J2C7BDJQA]] $A = U P$ uses $P = (A^* A)^{1/2}$.
-- The [[singular values|09VMDSRXWJ]] of a matrix $A$ are the eigenvalues of $(A^* A)^{1/2}$.
-- Every positive semidefinite $A$ equals $B^* B$ with $B = A^{1/2}$, which is a second proof of the converse part of [[the Gram matrix theorem|0AM050KCAW]].
-- If $A$ and $C$ are positive semidefinite and commute, then $AC$ is positive semidefinite, since $AC = A^{1/2} C A^{1/2}$ by part 2.
+### What it gives you
 
-### Converse
+Part 1 together with this last remark says that $B \mapsto B^2$ is a bijection from the positive semidefinite matrices onto themselves, and $A \mapsto A^{1/2}$ is its inverse.
+Every positive semidefinite $A$ is then a Gram matrix, $A = B^* B$ with $B = A^{1/2}$.
+The [[polar decomposition|0J2C7BDJQA]] $A = UP$ takes $P = (A^* A)^{1/2}$, and the [[singular values|09VMDSRXWJ]] of $A$ are the eigenvalues of this $P$.
 
-If $B$ is positive semidefinite, then $B^2 = B^* B$ is positive semidefinite.
-So the square root is a bijection from the positive semidefinite matrices onto themselves, with inverse $B \mapsto B^2$.
+Part 2 gives a product rule.
+If $A$ and $C$ are positive semidefinite and $AC = CA$, then $C$ commutes with $A^{1/2}$, so $AC = A^{1/2} C A^{1/2}$.
+The right side is Hermitian and satisfies $x^* A^{1/2} C A^{1/2} x = y^* C y \ge 0$ with $y = A^{1/2} x$, so $AC$ is positive semidefinite.
+Without the commuting condition the product need not even be Hermitian.
+
+### Watch out
+
+The square root of a matrix is not the matrix of square roots of its entries.
+For the matrix $A$ above,
+$$\begin{pmatrix} \sqrt 5 & 2 \\ 2 & \sqrt 5 \end{pmatrix}^2 = \begin{pmatrix} 9 & 4 \sqrt 5 \\ 4 \sqrt 5 & 9 \end{pmatrix} \ne A.$$
+The entrywise rule is correct only for diagonal matrices, which is why part 3 first diagonalizes $A$.
+A second trap is to forget the positivity condition and call $\begin{pmatrix} 1 & 2 \\ 2 & 1 \end{pmatrix}$ "the" square root of $A$; it squares to $A$, but it has the eigenvalue $-1$.
 
 ### Generalizations
 
-- Every positive operator on a finite-dimensional inner product space has a unique positive square root; this is the [[operator version|3JY5HNFRMF]].
-- In the same way, $f(A) = U \operatorname{diag}(f(\lambda_i)) U^*$ defines $A^r$ for $r > 0$, $\log A$ for positive definite $A$, and other functions of $A$.
-- For bounded positive operators on a Hilbert space, the square root exists and is unique; this belongs to functional analysis.
+The same theorem holds for a positive operator on a finite-dimensional inner product space, in the form of the [[square root of a positive operator|3JY5HNFRMF]].
+The recipe of part 3 also defines other functions of a Hermitian matrix, $f(A) = U \operatorname{diag}(f(\lambda_1), \dots, f(\lambda_n)) U^*$, such as $A^r$ for $r > 0$ and $\log A$ for positive definite $A$.
+For bounded positive operators on a Hilbert space, a unique positive square root still exists, and that belongs to functional analysis.
 
-## History
+### Try it
 
-The Wikipedia article on the square root of a matrix states existence and uniqueness for positive semidefinite matrices, and it notes that the root is the unique positive semidefinite one.
+First, find the positive semidefinite square root of $\begin{pmatrix} 4 & 0 \\ 0 & 0 \end{pmatrix}$.
+It is $\begin{pmatrix} 2 & 0 \\ 0 & 0 \end{pmatrix}$, since the matrix is already diagonal with eigenvalues $4$ and $0$.
+
+Second, find the root of $\begin{pmatrix} 2 & 1 \\ 1 & 2 \end{pmatrix}$, whose eigenvalues are $3$ and $1$.
+The polynomial $p(t) = \big( (\sqrt3 - 1) t + 3 - \sqrt 3 \big)/2$ has $p(3) = \sqrt 3$ and $p(1) = 1$, so the root is $p(A) = \tfrac12 \begin{pmatrix} \sqrt3 + 1 & \sqrt3 - 1 \\ \sqrt3 - 1 & \sqrt3 + 1 \end{pmatrix}$.
 
 ## Explanations
 
 ### L1 human
 
-A nonnegative number has exactly one nonnegative square root.
-A positive semidefinite matrix has exactly one positive semidefinite square root.
-To find it, write the matrix in a basis of eigenvectors and take the square root of each eigenvalue.
-For example, $\begin{pmatrix} 5 & 4 \\ 4 & 5 \end{pmatrix}$ has the eigenvalues $9$ and $1$, and its square root $\begin{pmatrix} 2 & 1 \\ 1 & 2 \end{pmatrix}$ has the eigenvalues $3$ and $1$.
+A nonnegative number has exactly one nonnegative square root, for example $\sqrt 9 = 3$.
+A positive semidefinite matrix behaves the same way.
+It stretches some perpendicular directions by nonnegative amounts, and its square root stretches the same directions by the square roots of those amounts.
+For example, $\begin{pmatrix} 5 & 4 \\ 4 & 5 \end{pmatrix}$ stretches the diagonal direction by $9$, and its square root $\begin{pmatrix} 2 & 1 \\ 1 & 2 \end{pmatrix}$ stretches it by $3$.
 
 ### L2 human
 
-Recipe:
-
-1. Diagonalize: $A = U D U^*$ with $U$ unitary and $D$ diagonal with entries $\lambda_i \ge 0$.
-2. Replace each $\lambda_i$ by $\sqrt{\lambda_i}$.
-3. Multiply back: $A^{1/2} = U D^{1/2} U^*$.
-
-A second recipe uses part 2: find $p$ with $p(\mu) = \sqrt{\mu}$ at each distinct eigenvalue $\mu$, and compute $p(A)$.
-[[The $2 \times 2$ example|QTV6Y0710E]] uses both recipes.
-A trap: taking the square root of each entry of $A$ is wrong; $\begin{pmatrix} \sqrt5 & 2 \\ 2 & \sqrt5 \end{pmatrix}$ does not square to $A$.
+Here is a typical problem: find $A^{1/2}$ for $A = \begin{pmatrix} 2 & 2 \\ 2 & 5 \end{pmatrix}$.
+The characteristic polynomial is $t^2 - 7t + 6 = (t - 6)(t - 1)$, so the eigenvalues are $6$ and $1$, with eigenvectors $(1, 2)$ and $(2, -1)$.
+With the unit vectors $u_1 = \tfrac{1}{\sqrt5}(1, 2)$ and $u_2 = \tfrac{1}{\sqrt5}(2, -1)$, part 3 gives
+$$A^{1/2} = \sqrt 6 \, u_1 u_1^{\mathsf{T}} + 1 \cdot u_2 u_2^{\mathsf{T}} = \frac{1}{5} \begin{pmatrix} \sqrt6 + 4 & 2\sqrt6 - 2 \\ 2\sqrt6 - 2 & 4\sqrt6 + 1 \end{pmatrix}.$$
+Check the top left entry of the square: $\big( (\sqrt6 + 4)^2 + (2\sqrt6 - 2)^2 \big)/25 = (22 + 8\sqrt6 + 28 - 8\sqrt6)/25 = 2$.
+Square roots like this one appear whenever a positive definite matrix must be "split in half", as in the polar decomposition or in whitening data with a covariance matrix.
+The trap is to take square roots entry by entry, which works only for diagonal matrices.
 
 ### L3 human
 
-The square root is the case $f(t) = \sqrt t$ of the functional calculus $f(A) = \sum_i f(\mu_i) P_i$ for Hermitian matrices, with the [[spectral projections|D5KVBA1K9R]] $P_i$.
-Part 2 says that $A^{1/2}$ lies in the algebra generated by $A$, which is the reason for uniqueness and for the commuting property.
-The map $A \mapsto A^{1/2}$ is continuous on the positive semidefinite cone, and it is operator monotone: $A \succeq C \succeq 0$ implies $A^{1/2} \succeq C^{1/2}$.
-These facts belong to matrix analysis.
+The square root is the case $f(t) = \sqrt t$ of the functional calculus $f(A) = \sum_k f(\mu_k) P_k$, where the $P_k$ are the projections of the [[spectral decomposition|D5KVBA1K9R]].
+Part 2 says that $A^{1/2}$ lies in the algebra generated by $A$, and that fact is the core of the uniqueness proof.
+The map $A \mapsto A^{1/2}$ is continuous on the positive semidefinite cone, and it is operator monotone: $A \succeq C \succeq 0$ implies $A^{1/2} \succeq C^{1/2}$ in the [[Loewner order|9G9S92T1VJ]].
+The converse fails for squares, since $A \succeq C \succeq 0$ does not imply $A^2 \succeq C^2$; such questions belong to matrix analysis.
