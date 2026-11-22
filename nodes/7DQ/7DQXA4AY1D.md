@@ -15,27 +15,32 @@ sources:
 
 ## Proof
 
+We read the column rank of $A$ as the rank of the map $x \mapsto Ax$ and the row rank as the rank of its dual map, and then use that a map and its dual have the same rank.
 Let $A$ be an $m \times n$ matrix over a field $F$, and let $f \colon F^n \to F^m$ be the linear map $f(x) = Ax$.
-We show that $\dim \operatorname{Col}(A) = \operatorname{rank} f = \operatorname{rank} f^* = \dim \operatorname{Col}(A^{\mathsf{T}}) = \dim \operatorname{Row}(A)$.
 
-1. $f(x) = Ax$ is a linear combination of the columns of $A$ with coefficients $x_1, \dots, x_n$.
-2. So $\im f$ is the [[column space|0F0RPPJ2TT]] $\operatorname{Col}(A)$, and $\dim \operatorname{Col}(A) = \operatorname{rank} f$ by the definition of the [[rank|0JGB7A6GTS]].
-3. $F^n$ is finite-dimensional. By part 4 of the theorem on the [[kernel and image of the dual map|7FA499AW3T]], $\operatorname{rank} f^* = \operatorname{rank} f$.
-4. Let $\Phi_k \colon F^k \to (F^k)^*$ send $c$ to $\sum_j c_j e_j^*$, with $e_j^*$ the [[dual basis|0W6M3PSD08]] of the standard basis. $\Phi_k$ is an isomorphism, since the $e_j^*$ form a basis.
-5. By the theorem on the [[matrix of the dual map|0ZPB3180AY]], $f^*$ has the matrix $A^{\mathsf{T}}$ in these dual bases. That is, $f^*(\Phi_m(c)) = \Phi_n(A^{\mathsf{T}} c)$ for all $c \in F^m$.
-6. So $\im f^* = \Phi_n(\operatorname{Col}(A^{\mathsf{T}}))$, by steps 1 and 2 applied to $A^{\mathsf{T}}$.
-7. An isomorphism keeps the dimension of a subspace. So $\operatorname{rank} f^* = \dim \operatorname{Col}(A^{\mathsf{T}})$.
-8. The columns of $A^{\mathsf{T}}$ are the rows of $A$, written as columns, by the definition of the [[transpose|0W809K6AW0]].
-9. Writing rows as columns is a linear isomorphism from rows of length $n$ to $F^n$. It sends the [[row space|0EP73HK4C4]] $\operatorname{Row}(A)$ onto $\operatorname{Col}(A^{\mathsf{T}})$.
-10. So $\dim \operatorname{Row}(A) = \dim \operatorname{Col}(A^{\mathsf{T}})$.
-11. Steps 2, 3, 7 and 10 together give $\dim \operatorname{Row}(A) = \dim \operatorname{Col}(A)$.
+1. The vector $Ax$ is the linear combination of the columns of $A$ with coefficients $x_1, \dots, x_n$.
+2. So $\im f$ is the [[column space|0F0RPPJ2TT]] $\operatorname{Col}(A)$, and $\dim \operatorname{Col}(A) = \rank f$ by the definition of the [[rank|0JGB7A6GTS]].
+3. The space $F^n$ is finite-dimensional, so part 4 of the theorem on the [[kernel and image of the dual map|7FA499AW3T]] gives $\rank f^* = \rank f$.
+4. Let $\Phi_k \colon F^k \to (F^k)^*$ send a column $c$ to $\sum_j c_j e_j^*$, where $e_1^*, \dots, e_k^*$ is the [[dual basis|0W6M3PSD08]] of the standard basis. Since the $e_j^*$ form a basis, $\Phi_k$ is an isomorphism.
+5. By the theorem on the [[matrix of the dual map|0ZPB3180AY]], $f^*$ has the matrix $A^{\mathsf{T}}$ in these dual bases, which means $f^*(\Phi_m(c)) = \Phi_n(A^{\mathsf{T}} c)$ for all $c \in F^m$.
+6. Since $\Phi_m$ is onto, step 5 gives $\im f^* = \Phi_n(\operatorname{Col}(A^{\mathsf{T}}))$, by steps 1 and 2 applied to $A^{\mathsf{T}}$.
+7. An isomorphism keeps the dimension of a subspace, so $\rank f^* = \dim \operatorname{Col}(A^{\mathsf{T}})$.
+8. The columns of $A^{\mathsf{T}}$ are the rows of $A$ written as columns, by the definition of the [[transpose|0W809K6AW0]].
+9. Writing rows as columns is a linear isomorphism from rows of length $n$ to $F^n$, and it sends the [[row space|0EP73HK4C4]] $\operatorname{Row}(A)$ onto $\operatorname{Col}(A^{\mathsf{T}})$. So $\dim \operatorname{Row}(A) = \dim \operatorname{Col}(A^{\mathsf{T}})$.
+10. Steps 2, 3, 7 and 9 together give the chain below, which is the statement:
+$$\dim \operatorname{Col}(A) = \rank f = \rank f^* = \dim \operatorname{Col}(A^{\mathsf{T}}) = \dim \operatorname{Row}(A).$$
 
 ## Idea
 
-The column rank of $A$ is the rank of the map $x \mapsto Ax$, and the row rank is the rank of its dual map.
-The dual map has the same rank because its image is the annihilator of the kernel.
+Column rank is about the outputs of $x \mapsto Ax$, and row rank is about the linear forms that the rows of $A$ define.
+Those forms are exactly the pullbacks of the coordinate forms of $F^m$ under the dual map, so the row space is the image of $f^*$.
+The theorem on the kernel and image of the dual map says that this image is the annihilator of $\ker f$, and the annihilator of $\ker f$ has dimension $n - \dim \ker f = \rank f$.
+So the whole proof is the count $\dim (\ker f)^0 = n - \dim \ker f$, read in two ways.
 
 ## Variants
 
-- One can skip the transpose. With forms written as rows, $f^*(y) = yA$, as in [[the dual of a matrix map|QM8XZDS9TK]]. So $\im f^*$ is the set of rows $yA$, which is $\operatorname{Row}(A)$.
-- Other proofs use row reduction or a factorization $A = CR$; see the statement [[row rank equals column rank|0TZAG60ZYT]].
+One can skip the transpose.
+With forms written as rows, $f^*(y) = yA$, as in the example on [[the dual of a matrix map|QM8XZDS9TK]].
+So $\im f^*$ is the set of all rows $yA$, which is $\operatorname{Row}(A)$, and step 3 finishes the proof at once.
+
+Other proofs use row reduction to echelon form, a rank factorization $A = CR$, or orthogonality over $\R$; the statement [[row rank equals column rank|0TZAG60ZYT]] collects them.
