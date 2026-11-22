@@ -40,7 +40,7 @@ The rule and bilinearity determine every product of matrices, so they give a sec
 
 ## History
 
-The rule appears wherever matrices are studied through a basis of the matrix space, and it is the defining relation of a system of matrix units in ring theory.
+In ring theory the rule is turned around: a family of elements that satisfies it, together with $\sum_i e_{ii} = 1$, is called a system of matrix units, and the rule is taken as an axiom rather than proved.
 
 ## Explanations
 
