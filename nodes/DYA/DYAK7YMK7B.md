@@ -23,23 +23,23 @@ It is a part of [[linear algebra|GN8GYSDZFX]], and it leads to quadratic forms, 
 
 ### Reading order
 
-1. [[Bilinear form|0SQZMXB6GP]]: the definition, the four standard examples, and how to test a formula for bilinearity.
-2. [[Matrix of a bilinear form|0QK6K857HS]]: how a form becomes the product $x^{\mathsf{T}} A y$ and what the matrix tells you about the form.
-3. [[Change of basis for bilinear forms|0SPYAGE7T0]]: why the matrix changes to $P^{\mathsf{T}} A P$, and why the rank of a form is well defined.
-4. [[Congruent matrices|WJWNYSQKK8]]: the equivalence relation of congruence and how it differs from similarity.
-5. [[Symmetric bilinear form|0AXZNE5XNH]]: forms with $B(x, y) = B(y, x)$, symmetric matrices, and inner products as a special case.
-6. [[Alternating bilinear form|0DGDS5XY84]]: forms with $B(v, v) = 0$, and why skew-symmetric is a weaker condition in characteristic $2$.
-7. [[Reflexive bilinear forms|M0G958M917]]: why orthogonality is symmetric only for symmetric and alternating forms.
-8. [[Nondegenerate bilinear form|01NHFZF2SK]]: the radical, and the tests by the matrix and by the map into the dual space.
-9. [[Orthogonality for a bilinear form|01TXN7ETH2]]: orthogonal complements, their dimensions, and subspaces that meet their own complement.
+1. [[Bilinear form|0SQZMXB6GP]]: the definition, the standard examples, and a test for bilinearity.
+2. [[Matrix of a bilinear form|0QK6K857HS]]: how a form becomes $x^{\mathsf{T}} A y$.
+3. [[Change of basis for bilinear forms|0SPYAGE7T0]]: why the matrix becomes $P^{\mathsf{T}} A P$, and why the rank is well defined.
+4. [[Congruent matrices|WJWNYSQKK8]]: congruence, and how it differs from similarity.
+5. [[Symmetric bilinear form|0AXZNE5XNH]]: symmetric matrices, with inner products as a special case.
+6. [[Alternating bilinear form|0DGDS5XY84]]: forms with $B(v, v) = 0$, and the trap in characteristic $2$.
+7. [[Reflexive bilinear forms|M0G958M917]]: when orthogonality is a symmetric relation.
+8. [[Nondegenerate bilinear form|01NHFZF2SK]]: the radical, and the tests by the matrix and by the dual space.
+9. [[Orthogonality for a bilinear form|01TXN7ETH2]]: orthogonal complements and their dimensions.
 10. [[Isotropic vectors and subspaces|MZHFGPV1YT]]: nonzero vectors with $B(v, v) = 0$, and anisotropic forms.
-11. [[Hyperbolic plane|1X5PZSK44P]]: the plane with matrix $\begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$ and why every isotropic vector lies in one.
-12. [[Sesquilinear form|054YEQ0Y8M]]: forms over $\mathbb{C}$ with one conjugate-linear slot, and the two conventions for that slot.
-13. [[Hermitian form|48P4A1CX85]]: sesquilinear forms with real values $h(v, v)$, Hermitian matrices, and complex inner products.
-14. [[Classification of alternating forms|V8KKHKXXB3]]: symplectic bases, and why the rank of an alternating form is even.
-15. [[Symplectic vector space|PQ7JJY0VPH]]: nondegenerate alternating forms, even dimension, and Lagrangian subspaces.
-16. [[Witt decomposition and Witt index|BPMRSPB6GD]]: a symmetric form as hyperbolic planes plus an anisotropic part.
-17. [[Witt's theorem|CCB8VNQCV0]]: cancellation, the extension of isometries between subspaces, and the uniqueness of the anisotropic part.
+11. [[Hyperbolic plane|1X5PZSK44P]]: the basic plane that contains isotropic vectors.
+12. [[Sesquilinear form|054YEQ0Y8M]]: forms over $\mathbb{C}$ with one conjugate-linear slot.
+13. [[Hermitian form|48P4A1CX85]]: Hermitian matrices and complex inner products.
+14. [[Classification of alternating forms|V8KKHKXXB3]]: symplectic bases, and why the rank is even.
+15. [[Symplectic vector space|PQ7JJY0VPH]]: even dimension and Lagrangian subspaces.
+16. [[Witt decomposition and Witt index|BPMRSPB6GD]]: hyperbolic planes plus an anisotropic part.
+17. [[Witt's theorem|CCB8VNQCV0]]: cancellation and the extension of isometries.
 
 ### Prerequisites
 

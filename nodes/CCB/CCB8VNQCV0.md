@@ -62,7 +62,10 @@ Finite dimension is used in the proof, through the dimension formula for orthogo
 ### What it gives you
 
 Witt cancellation follows: if $V_1 \perp V_2 \cong V_1 \perp V_3$ with all three nondegenerate, then $V_2 \cong V_3$, and the [[reflection lemma|43VKGAA2H7]] already proves this case.
-By part 2, the isometry group acts transitively on the maximal totally isotropic subspaces, so they all have the same dimension, the Witt index of the [[Witt decomposition|BPMRSPB6GD]].
+All maximal totally isotropic subspaces have the same dimension, the Witt index of the [[Witt decomposition|BPMRSPB6GD]].
+To see this, take maximal $W_1, W_2$ with $\dim W_1 \leq \dim W_2$, and extend a linear injection $W_1 \to W_2$, which is an isometry because both forms are zero, to an isometry $\tau$ of $V$ by part 1.
+Then $\tau^{-1}(W_2)$ is totally isotropic and contains $W_1$, so it equals $W_1$ by maximality, and $\dim W_1 = \dim W_2$.
+By part 2, the isometry group then acts transitively on these subspaces.
 Two nonzero vectors $x, y$ with $B(x, x) = B(y, y)$ lie in one orbit of the isometry group, and this includes the isotropic case $B(x, x) = 0$.
 For $\mathbb{R}^n$ with the dot product, every map between two subspaces that keeps the dot product extends to an orthogonal map of $\mathbb{R}^n$.
 
