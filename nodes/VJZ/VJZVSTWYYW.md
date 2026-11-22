@@ -15,7 +15,8 @@ sources:
 
 ## Statement
 
-An alternating map changes sign under every exchange of two arguments, picks up the sign of a permutation when its arguments are permuted, and vanishes on dependent families; the sign rule gives back the alternating property when $2$ can be cancelled.
+An alternating map changes sign when two arguments are exchanged, picks up the sign of a permutation of its arguments, and vanishes on dependent families.
+When $2$ can be cancelled, the sign rule gives back the alternating property.
 Let $K$ be a commutative ring, let $M$ and $N$ be $K$-modules, and let $n \ge 2$.
 Let $f \colon M^n \to N$ be multilinear, and let $v_1, \dots, v_n \in M$.
 

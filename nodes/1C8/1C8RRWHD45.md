@@ -17,7 +17,8 @@ sources:
 
 ## Statement
 
-There is exactly one function of the rows of a square matrix that is linear in each row, vanishes when two rows are equal, and gives $1$ on the identity, and every function with the first two properties is a multiple of it.
+Exactly one function of the rows of a square matrix is linear in each row, vanishes when two rows are equal, and gives $1$ on the identity.
+Every function with the first two properties is a multiple of it.
 Let $K$ be a commutative ring and let $n \ge 1$.
 View an $n \times n$ matrix $A = (a_{ij})$ over $K$ as the family of its $n$ rows in $K^n$.
 Define $L \colon M_n(K) \to K$ by
