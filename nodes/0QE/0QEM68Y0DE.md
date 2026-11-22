@@ -38,7 +38,8 @@ Here the statement about the map is easier to see than the statement about its m
 ### Why each hypothesis is needed
 
 The space must be finite-dimensional, since otherwise $T$ has no characteristic polynomial.
-For example, differentiation on all real polynomials is killed by no nonzero polynomial at all, because $D^k x^k = k! \ne 0$ for each $k$ while a polynomial $p(D)$ of degree $d$ with $p \neq 0$ sends $x^d$ to a nonzero constant plus lower terms.
+For example, differentiation $D$ on all real polynomials is killed by no nonzero polynomial at all.
+If $p$ has degree $d$ and leading coefficient $c_d \ne 0$, then $p(D) x^d$ has constant term $c_d \, d! \ne 0$, so $p(D) \ne 0$.
 The field can be replaced by a commutative ring when $V$ is free of finite rank, with the same proof.
 
 ### Generalizations
