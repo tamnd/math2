@@ -20,59 +20,105 @@ same_as:
 
 ## Summary
 
+A generalized eigenvector is a vector that $T - \lambda$ does not send to zero at once, but sends to zero after a few steps.
+These vectors repair the matrices that have too few eigenvectors, and they are the building blocks of the Jordan normal form.
 Let $T \colon V \to V$ be an [[endomorphism|0J7H0YBFDJ]] of a vector space $V$ over a field $F$, and let $\lambda \in F$.
-A [[generalized eigenvector|0SAAHC36J9]] of $T$ for $\lambda$ is a vector $v \ne 0$ with $(T - \lambda \id_V)^k v = 0$ for some integer $k \ge 1$; the least such $k$ is its rank.
-The generalized eigenvectors of rank $1$ are the [[eigenvectors|0N6960W0BV]].
-Generalized eigenvectors fill the gap left by a matrix that has too few eigenvectors: over $\C$, every finite-dimensional space has a basis of them.
+A [[generalized eigenvector|0SAAHC36J9]] of $T$ for $\lambda$ is a vector $v \ne 0$ such that
+$$(T - \lambda \id_V)^k v = 0 \quad \text{for some integer } k \ge 1.$$
+The least such $k$ is the *rank* of $v$.
+The generalized eigenvectors of rank $1$ are exactly the [[eigenvectors|0N6960W0BV]] for $\lambda$.
 
 ## Motivation
 
-The [[shear|SBDF8APDF7]] $\begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$ has only one line of eigenvectors, so it is not [[diagonalizable|07SQCNV233]].
-The vector $e_2$ is not an eigenvector, but $(S - I) e_2 = e_1$ is one, so $(S - I)^2 e_2 = 0$.
-Allowing higher powers of $T - \lambda$ recovers enough vectors to make a basis, and this leads to the [[Jordan normal form|085HQ5G5TE]].
+Some matrices do not have enough eigenvectors to make a basis.
+The [[shear|SBDF8APDF7]] $S = \begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$ has only the line through $e_1$ as eigenvectors, so it is not [[diagonalizable|07SQCNV233]].
+The vector $e_2$ is not an eigenvector, but $(S - I) e_2 = e_1$ is one, and so $(S - I)^2 e_2 = 0$.
+If we allow higher powers of $S - I$, the vectors $e_1$ and $e_2$ together make a basis.
+
+This repair always works when the characteristic polynomial splits, for example over $\C$.
+Then $V$ has a basis of generalized eigenvectors, by the [[decomposition into generalized eigenspaces|0Z3GDY89T5]].
+The [[Jordan normal form|085HQ5G5TE]] of the next sub-area arranges such a basis into chains.
+In differential equations, the chains give the solutions of $x' = A x$ that contain factors $t e^{\lambda t}$, which appear exactly when $A$ has too few eigenvectors.
 
 ## Notation
 
-We write $N_\lambda = T - \lambda \id_V$.
-A Jordan chain of length $k$ is a list $v, N_\lambda v, \dots, N_\lambda^{k-1} v$ with $N_\lambda^{k-1} v \ne 0$ and $N_\lambda^k v = 0$.
-Some books order the chain the other way, starting from the eigenvector $N_\lambda^{k-1} v$.
-The rank is also called the height, the order or the grade.
-In Mathlib, the generalized eigenvectors of rank at most $k$, together with $0$, form `Module.End.genEigenspace`.
+We write $N_\lambda = T - \lambda \id_V$, or $N$ when $\lambda$ is fixed.
+A *Jordan chain* of length $k$ is a list $v, N v, \dots, N^{k-1} v$ with $N^{k-1} v \ne 0$ and $N^k v = 0$.
+Its last vector $N^{k-1} v$ is an eigenvector.
+Some books list the chain in the other order, starting from the eigenvector, so check the order before you read off a matrix.
+In Mathlib, the kernels $\ker N^k$ appear as `Module.End.genEigenspace`.
 
 ## Remarks
 
-### Examples
+### A first chain
 
-- For the shear, $e_2$ is a generalized eigenvector for $1$ of rank $2$, since $(S - I) e_2 = e_1 \ne 0$ and $(S - I)^2 = 0$.
-- For the [[Jordan block of size 3|1YGY396SAS]], $e_3$ has rank $3$, and its chain is $e_3, e_2, e_1$.
-- For the [[derivative on cubic polynomials|7DGJWWZ8DW]], every nonzero polynomial is a generalized eigenvector for $0$. The rank of a polynomial of degree $d$ is $d + 1$.
-- For the [[3 × 3 matrix with a repeated eigenvalue|18WSA33PKA]], $(0, 1, 0)$ is a generalized eigenvector for $2$ of rank $2$.
-- For the [[matrix with the single eigenvalue 2|6918MS1QRN]], every nonzero vector of $\R^2$ is a generalized eigenvector for $2$.
+Take the shear $S$ and $\lambda = 1$.
+Subtract the identity:
+$$N = S - I = \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}, \qquad N \begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} y \\ 0 \end{pmatrix}.$$
+Apply $N$ twice to any vector: the first step gives $(y, 0)$, and the second step gives $(0, 0)$.
+So $N^2 = 0$, and every nonzero vector of $F^2$ is a generalized eigenvector for $1$.
+A vector $(x, y)$ with $y = 0$ has rank $1$, and a vector with $y \ne 0$ has rank $2$.
+For $e_2$ the chain is $e_2 \mapsto e_1 \mapsto 0$.
 
-### Non-examples
+### Longer chains
 
-- The [[vector (1, 1) for diag(1, 2)|EWGV69Z2VZ]] is not a generalized eigenvector for any scalar: it has components in two eigenspaces.
-- The zero vector is never a generalized eigenvector, by definition.
-- For the rotation by a right angle over $\R$, no real $\lambda$ has a generalized eigenvector, since $\lambda$ would be an eigenvalue.
+For the [[Jordan block of size 3|1YGY396SAS]] with eigenvalue $2$, the map $N = J - 2I$ sends $e_3 \mapsto e_2 \mapsto e_1 \mapsto 0$.
+So $e_3$ has rank $3$, $e_2$ has rank $2$, and $e_1$ is an eigenvector.
 
-### Basic properties
+For the [[derivative on real cubic polynomials|7DGJWWZ8DW]] and $\lambda = 0$, a chain is
+$$x^3 \mapsto 3x^2 \mapsto 6x \mapsto 6 \mapsto 0.$$
+In the same way, every nonzero polynomial of degree $d \le 3$ is a generalized eigenvector for $0$ of rank $d + 1$.
 
-- If $v$ has rank $k$ for $\lambda$, then $N_\lambda^{k-1} v$ is an eigenvector for $\lambda$. So $\lambda$ is an [[eigenvalue|0BQAA2BK3Q]].
-- The vectors of a Jordan chain are linearly independent. Apply $N_\lambda^{k-1}$ to a relation $\sum_j c_j N_\lambda^j v = 0$ to get $c_0 = 0$, and repeat with lower powers.
-- In dimension $n$, every generalized eigenvector has rank at most $n$. This follows from the chain independence, and also from the [[dimension of the generalized eigenspace|PHZ684KGWS]].
-- Generalized eigenvectors for distinct eigenvalues are linearly independent, by the [[kernels lemma|ACBNK1VFVG]], since $(t - \lambda)^k$ and $(t - \mu)^l$ are coprime.
-- The generalized eigenvectors for $\lambda$, together with $0$, form the [[generalized eigenspace|0AJ035ZTZE]].
+The [[3 × 3 matrix with eigenvalues 1, 2, 2|18WSA33PKA]] has the generalized eigenvector $(0, 1, 0)$ for $2$, of rank $2$.
+The [[matrix with the single eigenvalue 2|6918MS1QRN]] makes every nonzero vector of $\R^2$ a generalized eigenvector for $2$.
+
+### Vectors that fail
+
+The vector $(1, 1)$ is not a generalized eigenvector of $A = \operatorname{diag}(1, 2)$ for any scalar, as [[the sum of two eigenvectors|EWGV69Z2VZ]] shows.
+For every $k \ge 1$,
+$$(A - I)^k \begin{pmatrix} 1 \\ 1 \end{pmatrix} = \begin{pmatrix} 0 \\ 1 \end{pmatrix}, \qquad (A - 2I)^k \begin{pmatrix} 1 \\ 1 \end{pmatrix} = \begin{pmatrix} (-1)^k \\ 0 \end{pmatrix},$$
+and $A - \lambda I$ is invertible for every other $\lambda$.
+The zero vector is excluded by the definition, just as for eigenvectors.
+The rotation of $\R^2$ by a right angle has no generalized eigenvectors over $\R$, because each one would produce a real eigenvector, as the next subsection shows.
+
+### The rules you can use
+
+If $v$ has rank $k$ for $\lambda$, then $N^{k-1} v$ is nonzero and $N$ sends it to $0$, so it is an eigenvector.
+So a generalized eigenvector for $\lambda$ exists only when $\lambda$ is an [[eigenvalue|0BQAA2BK3Q]].
+
+The vectors of a Jordan chain are linearly independent.
+Suppose that $c_0 v + c_1 N v + \dots + c_{k-1} N^{k-1} v = 0$.
+Apply $N^{k-1}$: every term except the first contains $N^j v$ with $j \ge k$, so $c_0 N^{k-1} v = 0$ and $c_0 = 0$.
+Then apply $N^{k-2}$ to get $c_1 = 0$, and go on in the same way.
+
+The chain lies in the [[generalized eigenspace|0AJ035ZTZE]] of $\lambda$, so the rank is at most its dimension.
+By the [[dimension of the generalized eigenspace|PHZ684KGWS]], that dimension is the [[algebraic multiplicity|0FY42N02DV]] of $\lambda$.
+Generalized eigenvectors for distinct eigenvalues are linearly independent, by the [[kernels lemma|ACBNK1VFVG]], because $(t - \lambda)^k$ and $(t - \mu)^l$ are coprime when $\lambda \ne \mu$.
+
+### Watch out
+
+A generalized eigenvector for $\lambda$ is not an eigenvector of $T^k$.
+For the shear, $e_2$ is a generalized eigenvector for $1$, but
+$$S^2 e_2 = \begin{pmatrix} 1 & 2 \\ 0 & 1 \end{pmatrix} \begin{pmatrix} 0 \\ 1 \end{pmatrix} = \begin{pmatrix} 2 \\ 1 \end{pmatrix},$$
+which is not a multiple of $e_2$.
+The correct move is to take powers of $T - \lambda$, not of $T$.
+The two ideas agree only for $\lambda = 0$.
+
+A second trap is to add generalized eigenvectors for different eigenvalues.
+The sum $e_1 + e_2$ for $\operatorname{diag}(1, 2)$ above is the failing case.
 
 ### History
 
-Generalized eigenvectors appear implicitly in the normal form of Jordan, whose 1870 treatise reduced matrices over finite fields to blocks.
-The name "generalized eigenvector" is standard in modern textbooks, for example in Axler, Chapter 8.
+Camille Jordan published the normal form that carries his name in his treatise on substitutions of 1870.
+Each block of that form is the matrix of $T$ on one chain of generalized eigenvectors.
 
-### Common errors
+### Try it
 
-- Thinking that a generalized eigenvector is an eigenvector of $T^k$. It is a vector killed by $(T - \lambda)^k$, which is different unless $\lambda = 0$.
-- Forgetting to fix $\lambda$. A vector can be a generalized eigenvector for one scalar only, but a sum of generalized eigenvectors for different scalars is in general not one.
-- Taking $k$ larger than needed as the rank. The rank is the least $k$, and it is at most the [[algebraic multiplicity|0FY42N02DV]] of $\lambda$.
+First, let $A = \begin{pmatrix} 5 & 1 \\ 0 & 5 \end{pmatrix}$ and find the rank of $(3, 2)$ for $\lambda = 5$.
+The vector $(A - 5I)(3, 2) = (2, 0)$ is not zero, and $(A - 5I)^2 = 0$, so the rank is $2$.
+
+Second, find the rank of $1 + x^2$ for the derivative $D$ on real cubic polynomials.
+We get $D(1 + x^2) = 2x$, then $D^2(1 + x^2) = 2$, then $D^3(1 + x^2) = 0$, so the rank is $3$.
 
 ## Explanations
 
@@ -80,23 +126,28 @@ The name "generalized eigenvector" is standard in modern textbooks, for example 
 
 An eigenvector is a direction that a matrix only stretches.
 Some matrices, like the shear, have too few such directions.
-A generalized eigenvector is a direction that becomes an eigenvector after we remove the stretching once or several times.
-These extra directions are enough to describe every matrix over the complex numbers.
+A generalized eigenvector is a vector that becomes zero after we subtract the stretch and apply the result a few times.
+For the shear, the vector $(0, 1)$ goes to $(1, 0)$ after one step and to $(0, 0)$ after two steps.
+So it is a generalized eigenvector of rank $2$, and together with $(1, 0)$ it fills the plane.
 
 ### L2 human
 
-Find the generalized eigenvectors of $A = \begin{pmatrix} 2 & 1 \\ 0 & 2 \end{pmatrix}$ for $2$.
+Solve $x' = A x$ with $A = \begin{pmatrix} 2 & 1 \\ 0 & 2 \end{pmatrix}$.
+The only eigenvalue is $2$, and $A - 2I = \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}$ has the kernel $\R e_1$.
+So $e^{2t} e_1$ is one solution, but we need a second one.
 
-1. $N = A - 2I = \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}$, and $N^2 = 0$.
-2. So every nonzero $v \in \R^2$ satisfies $N^2 v = 0$, and it is a generalized eigenvector.
-3. $N(x, y) = (y, 0)$. So $v$ has rank $1$ if $y = 0$, and rank $2$ if $y \ne 0$.
-4. The chain of $e_2$ is $e_2, e_1$, and in the basis $(e_1, e_2)$ the matrix is already the Jordan block $A$.
-
-The typical use is to complete a set of eigenvectors to a basis in which the matrix has Jordan form.
-The trap is to stop at $k = 1$: then only the line $\R e_1$ appears, and the second basis vector is missing.
+The vector $e_2$ is a generalized eigenvector of rank $2$, with $(A - 2I) e_2 = e_1$.
+Try the chain solution
+$$x(t) = e^{2t} \big( e_2 + t \, e_1 \big) = e^{2t} \begin{pmatrix} t \\ 1 \end{pmatrix}.$$
+Differentiate with the product rule:
+$$x'(t) = e^{2t} \begin{pmatrix} 2t + 1 \\ 2 \end{pmatrix}, \qquad A x(t) = e^{2t} \begin{pmatrix} 2t + 1 \\ 2 \end{pmatrix}.$$
+Check: the two sides agree, so $x$ is a solution, and it is independent of $e^{2t} e_1$.
+The problem shows the typical use: an eigenvector gives a pure exponential, and each further step of a chain adds one power of $t$.
 
 ### L3 human
 
-The generalized eigenvectors for $\lambda$ are the nonzero elements of the $(t - \lambda)$-primary part of $V$ as an $F[t]$-module.
-In infinite dimension, the rank can be unbounded, as for the derivative on all polynomials.
-For a Lie algebra acting on a module, generalized weight vectors play the same role, and they give the generalized weight spaces of Fitting's decomposition.
+Make $V$ a module over $F[t]$ by letting $t$ act as $T$.
+The generalized eigenvectors for $\lambda$, together with $0$, form the $(t - \lambda)$-primary part of this module.
+When the characteristic polynomial does not split, the [[primary decomposition theorem|49ZHBMYKVE]] uses the vectors killed by a power of an irreducible factor $p(T)$ instead.
+In infinite dimension the rank can be unbounded, as for the derivative on all polynomials.
+The sub-area on canonical forms turns chains into cyclic subspaces and proves the Jordan normal form from them.
