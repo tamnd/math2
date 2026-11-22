@@ -16,22 +16,29 @@ sources:
 
 ## Example
 
-Consider the display
+A worksheet asks "continue the [[sequence|0G9EKM0E15]] $1, 2, 4, \ldots$".
+We read the display
 $$1, 2, 4, \ldots$$
-offered as the definition of a [[sequence|0G9EKM0E15]] $a_0, a_1, a_2, \ldots$.
-We show that two simple rules fit the three given terms and disagree at the next term.
+as a proposed definition of a sequence $a_0, a_1, a_2, \ldots$, and we show that two simple rules fit the three given terms and disagree at the next one.
 
-1. Rule A is $a_n = 2^n$. It gives $a_0 = 1$, $a_1 = 2$, $a_2 = 4$, and then $a_3 = 8$.
-2. Rule B is $b_n = \frac{n^2 + n + 2}{2}$. It gives $b_0 = \frac{2}{2} = 1$, $b_1 = \frac{4}{2} = 2$, $b_2 = \frac{8}{2} = 4$, and then $b_3 = \frac{14}{2} = 7$.
+1. Rule A is $a_n = 2^n$.
+   It gives $a_0 = 1$, $a_1 = 2$ and $a_2 = 4$, and then $a_3 = 8$.
+2. Rule B is $b_n = \frac{n^2 + n + 2}{2}$.
+   It gives
+   $$b_0 = \frac{2}{2} = 1, \quad b_1 = \frac{4}{2} = 2, \quad b_2 = \frac{8}{2} = 4, \quad b_3 = \frac{14}{2} = 7.$$
 3. Both rules agree with the display, and $a_3 = 8 \neq 7 = b_3$.
-4. So the display does not determine $a_3$, and it fails the basic requirement of [[mathematical notation|QKEX4PD029]]: one expression, one meaning.
+4. So the display does not determine the next term.
+   It fails the basic requirement of [[mathematical notation|QKEX4PD029]]: one expression, one meaning.
 
 ## Remarks
 
-Rule B counts the largest number of pieces that $n$ straight cuts make of a pancake, so both rules occur in real problems.
-In general, for any finite list of numbers and any next value, a polynomial fits all of them, so no finite list fixes its continuation.
+Both rules occur in real problems.
+Rule A counts the subsets of a set with $n$ elements, and rule B counts the largest number of pieces that $n$ straight cuts make of a flat pancake.
+
+No finite list fixes its continuation.
+For any finite list of numbers and any chosen next value, some polynomial fits all of them, by Lagrange interpolation.
 The display becomes correct notation when the author adds the rule, for example "$1, 2, 4, \ldots, 2^n, \ldots$" or "$a_n = 2^n$".
-An ellipsis is safe in $1, 2, 3, \ldots, n$ because the reader shares the convention that the step is $1$.
+An ellipsis is safe in $1, 2, 3, \ldots, n$ only because every reader shares the habit that the step is $1$.
 
 ## Explanations
 
@@ -44,12 +51,12 @@ Both readers follow a fair rule, so the dots alone do not say which number comes
 
 ### L2 human
 
-We find a third rule that fits $1, 2, 4$ and gives any chosen value $c$ next.
-
-1. Look for $c_n = 2^n + t \, n(n-1)(n-2)$ with a constant $t$.
-2. For $n = 0, 1, 2$ the added term is $0$, so $c_0 = 1$, $c_1 = 2$, $c_2 = 4$.
-3. For $n = 3$ we get $c_3 = 8 + 6t$, and $t = \frac{c - 8}{6}$ gives $c_3 = c$.
-4. For $c = 7$ this gives $t = -\tfrac{1}{6}$, and $c_n$ agrees with rule B for $n = 0, 1, 2, 3$.
-
-The typical use of this argument is to show that a pattern in data is a conjecture, not a proof.
-A trap: a long list of matching terms makes a rule plausible, but it never proves the rule.
+We can do more: find a rule that fits $1, 2, 4$ and gives any chosen value $c$ next.
+Try $c_n = 2^n + t \, n(n-1)(n-2)$ with a constant $t$.
+For $n = 0, 1, 2$ the added term is $0$, so $c_0 = 1$, $c_1 = 2$ and $c_2 = 4$.
+For $n = 3$ the added term is $t \cdot 3 \cdot 2 \cdot 1 = 6t$, so
+$$c_3 = 8 + 6t, \qquad t = \frac{c - 8}{6}.$$
+For $c = 7$ this gives $t = -\tfrac{1}{6}$.
+Check: $c_3 = 8 + 6 \cdot \left(-\tfrac{1}{6}\right) = 7$, the value of rule B.
+So a pattern in a few numbers is a conjecture, not a definition and not a proof.
+Watch out: a long list of matching terms makes a rule plausible, but it never proves the rule.
