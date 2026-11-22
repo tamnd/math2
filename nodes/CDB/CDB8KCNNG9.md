@@ -19,10 +19,13 @@ sources:
 
 ## Statement
 
+A map is diagonalizable exactly when its characteristic polynomial factors into linear factors and every eigenvalue has as many independent eigenvectors as its multiplicity.
 Let $F$ be a field, let $V$ be a vector space over $F$ of finite dimension $n \ge 1$, and let $T \colon V \to V$ be linear with [[characteristic polynomial|0J5EMJRRFM]] $p_T$.
 
-1. For each [[eigenvalue|0BQAA2BK3Q]] $\lambda$ of $T$, the [[geometric multiplicity|099TWVJ909]] $\dim \ker(T - \lambda \id_V)$ satisfies $1 \le \dim \ker(T - \lambda \id_V) \le m_\lambda$, where $m_\lambda$ is the [[algebraic multiplicity|0FY42N02DV]] of $\lambda$.
-2. $T$ is [[diagonalizable|07SQCNV233]] if and only if both of these conditions hold:
+1. For each [[eigenvalue|0BQAA2BK3Q]] $\lambda \in F$ of $T$, the [[geometric multiplicity|099TWVJ909]] satisfies
+$$1 \le \dim \ker(T - \lambda \id_V) \le m_\lambda,$$
+   where $m_\lambda$ is the [[algebraic multiplicity|0FY42N02DV]] of $\lambda$.
+2. $T$ is [[diagonalizable|07SQCNV233]] over $F$ if and only if both of these conditions hold:
     - $p_T$ splits over $F$, that is, $p_T = (t - \lambda_1)^{m_1} \cdots (t - \lambda_k)^{m_k}$ with pairwise distinct $\lambda_i \in F$;
     - $\dim \ker(T - \lambda_i \id_V) = m_i$ for each $i$.
 
@@ -32,57 +35,62 @@ The same holds for an $n \times n$ matrix $A$ over $F$ and the map $x \mapsto A 
 
 ### Why each hypothesis is needed
 
-- The splitting condition is needed. The rotation $\begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}$ over $\R$ has no eigenvalue, so the second condition holds for no $\lambda$ and says nothing, but $T$ is not diagonalizable over $\R$.
-- The condition on each eigenvalue is needed. The [[shear|SBDF8APDF7]] $\begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$ has $p = (t - 1)^2$, which splits, but its eigenspace is a line, so $1 < 2$.
-- So "$n$ eigenvalues counted with multiplicity" does not imply diagonalizable. It is only the first condition.
+The splitting condition cannot be dropped.
+Over $\R$, the rotation $\begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}$ has $p = t^2 + 1$ and no eigenvalue at all.
+So the condition on the eigenspaces holds for every eigenvalue, because there are none, but the rotation is not diagonalizable over $\R$.
 
-### Consequences
+The condition on each eigenspace cannot be dropped either.
+The [[shear|SBDF8APDF7]] $\begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$ has $p = (t - 1)^2$, which splits, but its eigenspace is a line, so its geometric multiplicity $1$ is less than $m_1 = 2$.
+This is the trap of the subject: having $n$ eigenvalues counted with multiplicity is only the first condition, and it does not imply diagonalizable.
 
-- The diagonalization algorithm: factor $p_T$, compute a basis of each eigenspace by row reduction, and compare its size with the exponent. If all sizes agree, the bases together form the columns of $P$.
-- An eigenvalue with $m_\lambda = 1$ always passes the test, by part 1. So only the repeated eigenvalues must be checked.
-- If $n$ distinct eigenvalues exist, then all $m_i = 1$, and $T$ is diagonalizable, as in [[distinct eigenvalues imply diagonalizable|0Y95Z7MT02]].
-- Over an algebraically closed field, the first condition always holds, and $T$ is diagonalizable if and only if each geometric multiplicity equals the algebraic one.
+### The diagonalization algorithm
 
-### Converse
+The test turns into a procedure.
+Factor $p_T$ over $F$, and stop if it does not split.
+For each eigenvalue, row reduce $A - \lambda I$ to find a basis of its kernel, and compare the number of vectors with the exponent $m_\lambda$.
+If they agree for every eigenvalue, the bases together give the columns of $P$, and $D$ lists each eigenvalue $\lambda$ exactly $m_\lambda$ times.
 
-The statement is an equivalence, so its converse holds.
-Part 1 has no converse: any pair $1 \le g \le m$ occurs, for example as the geometric and algebraic multiplicities of $0$ for a nilpotent matrix of size $m$ with $g$ Jordan blocks.
+Part 1 saves work.
+An eigenvalue with $m_\lambda = 1$ has geometric multiplicity between $1$ and $1$, so it always passes, and only the repeated eigenvalues need a check.
+In particular, $n$ distinct eigenvalues in $F$ make every $m_i = 1$, which gives the rule that [[n distinct eigenvalues imply diagonalizable|0Y95Z7MT02]].
+Over an algebraically closed field such as $\C$, the first condition always holds, and only the eigenspaces need checking.
+
+### The converse
+
+Part 2 is an equivalence, so its converse holds.
+Part 1 has a converse of its own: every pair $1 \le g \le m$ occurs.
+A nilpotent matrix of size $m$ made of $g$ Jordan blocks has the single eigenvalue $0$ with algebraic multiplicity $m$ and geometric multiplicity $g$.
 
 ### Generalizations
 
-The difference $m_\lambda - \dim \ker(T - \lambda \id_V)$ measures how far $T$ is from diagonalizable at $\lambda$.
+The gap $m_\lambda - \dim \ker(T - \lambda \id_V)$ measures how far $T$ is from diagonalizable at $\lambda$.
 In the [[Jordan normal form|085HQ5G5TE]], the geometric multiplicity is the number of Jordan blocks for $\lambda$, and the algebraic multiplicity is the sum of their sizes.
-The [[generalized eigenspace|0AJ035ZTZE]] always has dimension $m_\lambda$, by the [[dimension formula|PHZ684KGWS]].
-
-## History
-
-The comparison of the geometric and the algebraic multiplicity is the standard textbook test, for example in Friedberg, Insel and Spence, Section 5.2.
-We do not know of a first source.
+The [[generalized eigenspace|0AJ035ZTZE]] always has dimension $m_\lambda$, by the [[dimension formula|PHZ684KGWS]], so the test asks that each generalized eigenspace is an ordinary eigenspace.
 
 ## Explanations
 
 ### L1 human
 
-Each stretch factor of a matrix appears a certain number of times as a root of a polynomial.
-Each stretch factor also comes with a space of special directions.
+Each stretch factor of a matrix appears a certain number of times as a root of the characteristic polynomial.
+Each stretch factor also comes with its own family of special directions.
 The matrix can be made diagonal exactly when, for each factor, the number of independent special directions equals the number of times the factor appears.
-For the shear, the factor $1$ appears twice but has only one special direction, so it fails.
+For the shear, the factor $1$ appears twice but has only one special direction, so the shear fails.
 
 ### L2 human
 
-Test $A = \begin{pmatrix} 5 & 4 & 2 \\ 0 & 1 & 0 \\ -2 & -2 & 0 \end{pmatrix}$.
-
-1. Expanding along the second row, $p_A = (t - 1)\big((t - 5) t + 4\big) = (t - 1)(t^2 - 5t + 4) = (t - 1)^2 (t - 4)$.
-2. So $p_A$ splits, with $m_1 = 2$ and $m_4 = 1$.
-3. $A - I = \begin{pmatrix} 4 & 4 & 2 \\ 0 & 0 & 0 \\ -2 & -2 & -1 \end{pmatrix}$ has rank $1$, since the third row is $-\tfrac{1}{2}$ times the first. So $\dim \ker(A - I) = 2 = m_1$.
-4. The eigenvalue $4$ is simple, so it passes by part 1.
-5. Hence $A$ is diagonalizable. A basis of $\ker(A - I)$ is $(1, -1, 0)$, $(1, 0, -2)$, and $\ker(A - 4I)$ is spanned by $(2, 0, -1)$.
-6. With $P$ having these three columns, $A P = P \operatorname{diag}(1, 1, 4)$: for example $A(2, 0, -1) = (8, 0, -4)$.
-
-The trap is to stop after step 2: a split characteristic polynomial is not enough.
+Let us test $A = \begin{pmatrix} 5 & 4 & 2 \\ 0 & 1 & 0 \\ -2 & -2 & 0 \end{pmatrix}$ over $\R$.
+Expanding $\det(tI - A)$ along the second row gives
+$$p_A = (t - 1)\big((t - 5) t + 4\big) = (t - 1)(t^2 - 5t + 4) = (t - 1)^2 (t - 4).$$
+So $p_A$ splits, with $m_1 = 2$ and $m_4 = 1$, and only the eigenvalue $1$ needs a check.
+The matrix $A - I$ has the rows $(4, 4, 2)$, $(0, 0, 0)$ and $(-2, -2, -1)$, and the third row is $-\tfrac{1}{2}$ times the first, so its rank is $1$.
+Its kernel, the plane $2x + 2y + z = 0$, has dimension $2 = m_1$, with the basis $(1, -1, 0)$ and $(1, 0, -2)$.
+So $A$ is diagonalizable, and the eigenvalue $4$ gives the third column $(2, 0, -1)$, since $A(2, 0, -1) = (8, 0, -4)$.
+With these columns in $P$ and $D = \operatorname{diag}(1, 1, 4)$, we have $\det P = 3$, and multiplying out confirms the result:
+$$P D P^{-1} = \begin{pmatrix} 1 & 1 & 8 \\ -1 & 0 & 0 \\ 0 & -2 & -4 \end{pmatrix} \cdot \frac{1}{3} \begin{pmatrix} 0 & -3 & 0 \\ -1 & -1 & -2 \\ 2 & 2 & 1 \end{pmatrix} = \frac{1}{3} \begin{pmatrix} 15 & 12 & 6 \\ 0 & 3 & 0 \\ -6 & -6 & 0 \end{pmatrix} = A.$$
+Watch out: stopping after the factorization of $p_A$ is the classic mistake, since a split polynomial alone is not enough.
 
 ### L3 human
 
-Part 1 is a special case of the block triangular form: the eigenspace is an invariant subspace on which $T$ is a scalar.
-The test is a computable criterion, but numerically it is unstable, because the rank of $A - \lambda I$ jumps under small perturbations.
-The [[minimal polynomial criterion|0MPAJRB23T]] is an equivalent test, which needs no eigenvectors.
+Part 1 is a special case of the block triangular form: the eigenspace is an invariant subspace on which $T$ acts as a scalar, so it contributes a factor $(t - \lambda)^g$ to $p_T$.
+The test is exact in exact arithmetic, but it is unstable in floating point, because the rank of $A - \lambda I$ can jump under a tiny change of the entries.
+The [[minimal polynomial criterion|0MPAJRB23T]] is an equivalent test that needs no eigenvectors at all.

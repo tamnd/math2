@@ -17,44 +17,56 @@ sources:
 
 ## Example
 
-Let $V$ be the real polynomials of degree at most $3$, with the basis $(1, x, x^2, x^3)$.
+Let $V$ be the space of real polynomials of degree at most $3$, with the basis $1, x, x^2, x^3$.
 Let $D \colon V \to V$ be the derivative, $D(p) = p'$.
-Let $U$ be the subspace of polynomials of degree at most $1$, with the basis $(1, x)$.
+For $k = 0, 1, 2, 3, 4$, let $U_k$ be the subspace of polynomials of degree less than $k$, so $U_0 = \{0\}$, $U_2 = \operatorname{span}(1, x)$ and $U_4 = V$.
+We work mostly with $U = U_2$.
 
-1. The subspace $U$ is [[invariant|0ACX5QT8TE]]. We have $D(1) = 0$ and $D(x) = 1$, and both lie in $U$.
-2. The [[matrix|0YQSGNYE3K]] of $D$ in the basis $(1, x, x^2, x^3)$ has the columns $D(1) = 0$, $D(x) = 1$, $D(x^2) = 2x$ and $D(x^3) = 3x^2$:
+1. The subspace $U$ is [[invariant|0ACX5QT8TE]].
+   Its spanning vectors go to $D(1) = 0$ and $D(x) = 1$, and both lie in $U$.
+2. The [[matrix|0YQSGNYE3K]] of $D$ has the columns $D(1) = 0$, $D(x) = 1$, $D(x^2) = 2x$ and $D(x^3) = 3x^2$:
 $$[D] = \begin{pmatrix} 0 & 1 & 0 & 0 \\ 0 & 0 & 2 & 0 \\ 0 & 0 & 0 & 3 \\ 0 & 0 & 0 & 0 \end{pmatrix}.$$
-3. The lower left $2 \times 2$ block is zero, which is the matrix form of step 1.
-4. The [[restriction|0KN7EPH7Z0]] $D|_U$ sends $a + bx$ to $b$. Its matrix in $(1, x)$ is the upper left block $\begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}$.
-5. The quotient $V / U$ has the basis $(x^2 + U, x^3 + U)$. The quotient operator sends $x^2 + U$ to $2x + U = 0 + U$, and $x^3 + U$ to $3x^2 + U$.
-6. So the matrix of the quotient operator is the lower right block $\begin{pmatrix} 0 & 3 \\ 0 & 0 \end{pmatrix}$.
-7. The characteristic polynomials are $t^2$ for $D|_U$, $t^2$ for the quotient operator, and $t^4$ for $D$. So $p_D = t^2 \cdot t^2$, as the [[product formula|ENVF51H5S3]] says.
-8. The polynomial $x^2$ is a [[generalized eigenvector|01H6QKWGDH]] for $0$ of rank $3$. We have $D(x^2) = 2x$, $D^2(x^2) = 2$ and $D^3(x^2) = 0$, and $2x \ne 0$, $2 \ne 0$.
-9. The map $D$ is [[nilpotent|063D5Z2C70]], since $D^4$ kills each basis vector: four derivatives of a cubic polynomial give $0$.
+   The lower left $2 \times 2$ block is zero, which is step 1 in matrix form.
+3. The [[restriction|0KN7EPH7Z0]] $D|_U$ sends $a + bx$ to $b$.
+   Its matrix in the basis $1, x$ is the upper left block $\begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}$.
+4. The quotient $V / U$ has the basis $x^2 + U, x^3 + U$.
+   The quotient operator sends $x^2 + U$ to $2x + U$, which is the zero coset because $2x \in U$.
+   It sends $x^3 + U$ to $3x^2 + U = 3(x^2 + U)$, so its matrix is the lower right block $\begin{pmatrix} 0 & 3 \\ 0 & 0 \end{pmatrix}$.
+5. The characteristic polynomials are $t^2$ for $D|_U$, $t^2$ for the quotient operator and $t^4$ for $D$.
+   So $p_D = t^2 \cdot t^2$, as the [[block triangular form|ENVF51H5S3]] says.
+6. The map $D$ is [[nilpotent|063D5Z2C70]]: four derivatives of a polynomial of degree at most $3$ give $0$, so $D^4 = 0$.
+7. The polynomial $x^2$ is a [[generalized eigenvector|01H6QKWGDH]] for the eigenvalue $0$ of rank $3$.
+   Indeed, $D(x^2) = 2x$, $D^2(x^2) = 2$ and $D^3(x^2) = 0$, while $D^2(x^2) \ne 0$.
+8. Every $U_k$ is invariant, since $D$ lowers the degree.
+   Conversely, let $W$ be any invariant subspace, of dimension $k$.
+   The restriction $D|_W$ is nilpotent on a space of dimension $k$, so $D^k$ kills $W$, and $W \subseteq \ker D^k = U_k$.
+   Both have dimension $k$, so $W = U_k$.
 
 ## Remarks
 
-For each $k$ from $0$ to $4$, the polynomials of degree less than $k$ form an invariant subspace $U_k$.
-These subspaces form a chain $0 = U_0 \subset U_1 \subset \cdots \subset U_4 = V$, and $D(U_k) \subseteq U_{k-1}$.
-This chain is a flag that makes $[D]$ strictly upper triangular.
-If $V$ is replaced by all real polynomials, then each $U_k$ is still invariant, but $D$ is no longer nilpotent.
+Step 8 shows that the five subspaces $U_0 \subset U_1 \subset U_2 \subset U_3 \subset U_4$ are the only invariant subspaces of $D$.
+They form a flag, and $D(U_k) \subseteq U_{k-1}$, which is why $[D]$ is strictly upper triangular.
+Step 8 used the fact that a nilpotent map on a space of dimension $k$ satisfies $D^k = 0$, from the [[characterizations of nilpotent endomorphisms|FSKECQK1GW]].
+
+If $V$ is replaced by the space of all real polynomials, each $U_k$ is still invariant, but $D$ is no longer nilpotent, since no power of $D$ kills every polynomial.
+If $D$ is replaced by $D + I$, the invariant subspaces do not change, because a subspace is invariant under $D + I$ exactly when it is invariant under $D$.
 
 ## Explanations
 
 ### L1 human
 
 Taking the derivative of a polynomial lowers its degree by one.
-So the derivative never takes a polynomial of small degree to one of large degree.
+So the derivative never takes a polynomial of small degree to one of larger degree.
 For example, the derivative of $5 + 7x$ is $7$, which again has degree at most $1$.
 This means that the polynomials of degree at most $1$ form a part of the space that the derivative never leaves.
 
 ### L2 human
 
-The same computation works for any $k$.
-
-1. Let $U = U_3$, the polynomials of degree at most $2$.
-2. $D(1) = 0$, $D(x) = 1$, $D(x^2) = 2x$ all lie in $U$, so $U$ is invariant.
-3. The quotient $V / U$ is spanned by $x^3 + U$, and $D(x^3) = 3x^2 \in U$, so the quotient operator is $0$.
-4. The restriction has characteristic polynomial $t^3$, the quotient has $t$, and their product is $t^4$.
-
-The trap is to forget to reduce modulo $U$: the image $3x^2 + U$ is the zero coset of $V / U$, although $3x^2 \ne 0$.
+The same computation works for the other subspaces of the flag.
+Take $U_3$, the polynomials of degree at most $2$.
+Its spanning vectors go to $D(1) = 0$, $D(x) = 1$ and $D(x^2) = 2x$, all in $U_3$, so $U_3$ is invariant.
+The quotient $V / U_3$ is spanned by $x^3 + U_3$, and
+$$D(x^3) + U_3 = 3x^2 + U_3 = 0 + U_3,$$
+so the quotient operator is $0$.
+The restriction has characteristic polynomial $t^3$ and the quotient has $t$, and their product is $t^4 = p_D$.
+Watch out: the image $3x^2$ is not zero in $V$, but it is zero in $V / U_3$, because it lies in $U_3$.

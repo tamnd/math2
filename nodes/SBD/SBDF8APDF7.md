@@ -27,25 +27,39 @@ sources:
 
 ## Example
 
-Let $F$ be any field and let $S = \begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$ over $F$, the shear, which is a [[transvection|0DTCBCKEJP]].
-We write $S = I + N$ with $N = \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}$.
+Let $F$ be any field and let $S = \begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$ over $F$.
+This is the shear, a [[transvection|0DTCBCKEJP]] of the plane.
+We write $S = I + N$ with $N = \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}$, and we check its properties one at a time.
 
-1. The [[characteristic polynomial|0VSSPAFM2C]] is $(t - 1)^2$, so the only eigenvalue is $1$.
-2. The [[eigenspace|0G0RFPG8HR]] is $\ker(S - I) = \ker N = F e_1$, a line. So $F^2$ has no basis of eigenvectors.
-3. Hence $S$ is not [[diagonalizable|07SQCNV233]] over $F$. A diagonal form would be $\operatorname{diag}(1, 1) = I$, and then $S = P I P^{-1} = I$, which is false.
-4. The line $F e_1$ is [[invariant|0ACX5QT8TE]], since $S e_1 = e_1$. By step 2, it is the only invariant line, since an invariant line is spanned by an eigenvector.
-5. So $F e_1$ has no invariant complement, and $S$ is not [[semisimple|08VRX3Q4PB]].
-6. $S$ is not [[nilpotent|063D5Z2C70]], since $\det S = 1$, so $\det S^k = 1$ and $S^k \ne 0$ for each $k$.
-7. Since $N^2 = 0$ and $N$ commutes with $I$, the binomial theorem gives $S^k = I + kN = \begin{pmatrix} 1 & k \\ 0 & 1 \end{pmatrix}$ for each $k \ge 0$.
+1. The [[characteristic polynomial|0VSSPAFM2C]] is $\det(tI - S) = (t - 1)^2$, because $tI - S$ is triangular with both diagonal entries $t - 1$.
+   So the only eigenvalue is $1$.
+2. The [[eigenspace|0G0RFPG8HR]] is $\ker(S - I) = \ker N$.
+   Since $N(x, y) = (y, 0)$, this kernel is the line $F e_1$ of vectors $(x, 0)$.
+   So two eigenvectors are always multiples of each other, and $F^2$ has no basis of eigenvectors.
+3. Hence $S$ is not [[diagonalizable|07SQCNV233]] over $F$.
+   A direct check: a diagonal form would have the eigenvalue $1$ twice, so it would be $I$, and then $S = P I P^{-1} = I$, which is false.
+4. The line $F e_1$ is [[invariant|0ACX5QT8TE]], since $S e_1 = e_1$.
+   Every invariant line is spanned by an eigenvector, so by step 2 it is the only invariant line.
+   So $F e_1$ has no invariant complement, and $S$ is not [[semisimple|08VRX3Q4PB]].
+5. The shear is not [[nilpotent|063D5Z2C70]]: $\det S = 1$, so $\det S^k = 1$ and $S^k \ne 0$ for every $k$.
+6. The powers have a simple form.
+   Since $N^2 = 0$ and $N$ commutes with $I$, the binomial theorem gives
+$$S^k = (I + N)^k = I + k N = \begin{pmatrix} 1 & k \\ 0 & 1 \end{pmatrix} \quad \text{for every } k \ge 0.$$
 
 ## Remarks
 
-The example shows the main trap: $S$ has two eigenvalues counted with multiplicity, but it is not diagonalizable.
-The powers in step 7 grow linearly in $k$, while the powers of a diagonalizable matrix with eigenvalue $1$ only would be constant.
-Over a field of characteristic $p > 0$, step 7 gives $S^p = I + pN = I$, so $S$ has finite order $p$ and is still not diagonalizable.
+The shear is the standard example of the trap in diagonalization.
+It has two eigenvalues counted with multiplicity, as many as its size, and it is still not diagonalizable.
+The powers in step 6 also show the failure: their corner entry grows like $k$, while every power of a diagonalizable matrix whose only eigenvalue is $1$ equals $I$.
+
+The conclusion does not depend on the field.
+Over a field of characteristic $p > 0$, step 6 gives $S^p = I + pN = I$, so $S$ has finite order $p$, and it is still not diagonalizable.
+Over $\C$, by contrast, every matrix of finite order is diagonalizable, so the shear has infinite order there.
+
+Changing the numbers shows where the line between the cases runs.
 For $\begin{pmatrix} 1 & a \\ 0 & 1 \end{pmatrix}$ with $a \ne 0$ the same argument works, and for $a = 0$ the matrix is $I$, which is diagonal.
 For $\begin{pmatrix} 1 & 1 \\ 0 & d \end{pmatrix}$ with $d \ne 1$, the eigenvalues $1$ and $d$ are distinct, and the matrix is diagonalizable.
-The [[generalized eigenspace|0AJ035ZTZE]] of $1$ is all of $F^2$, since $(S - I)^2 = 0$, while the eigenspace is a line.
+The eigenspace of $1$ is a line, but the [[generalized eigenspace|0AJ035ZTZE]] of $1$ is all of $F^2$, since $(S - I)^2 = N^2 = 0$.
 
 ## Explanations
 
@@ -58,10 +72,9 @@ Each time we apply the shear again, the sideways slide grows by one more step.
 
 ### L2 human
 
-We check step 7 by induction instead of the binomial theorem.
-
-1. For $k = 0$, $S^0 = I = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}$.
-2. If $S^k = \begin{pmatrix} 1 & k \\ 0 & 1 \end{pmatrix}$, then $S^{k+1} = S^k S = \begin{pmatrix} 1 & 1 + k \\ 0 & 1 \end{pmatrix}$.
-3. So the formula holds for all $k \ge 0$.
-
-The trap is to "diagonalize" $S$ with the single eigenvector $e_1$: a matrix $P$ with only one independent column is not invertible.
+Let us check the formula for $S^k$ by induction, without the binomial theorem.
+For $k = 0$, we have $S^0 = I = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}$.
+If $S^k = \begin{pmatrix} 1 & k \\ 0 & 1 \end{pmatrix}$, then
+$$S^{k+1} = S^k S = \begin{pmatrix} 1 & k \\ 0 & 1 \end{pmatrix} \begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix} = \begin{pmatrix} 1 & 1 + k \\ 0 & 1 \end{pmatrix},$$
+so the formula holds for every $k \ge 0$.
+Watch out: you cannot "diagonalize" $S$ with the single eigenvector $e_1$, because a $2 \times 2$ matrix $P$ whose columns are both multiples of $e_1$ is not invertible.

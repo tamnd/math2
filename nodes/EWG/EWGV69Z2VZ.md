@@ -18,21 +18,29 @@ sources:
 
 ## Example
 
-Let $A = \begin{pmatrix} 1 & 0 \\ 0 & 2 \end{pmatrix}$ over any field $F$, and let $v = (1, 1) = e_1 + e_2$.
-Then $v$ is not a [[generalized eigenvector|0SAAHC36J9]] of $A$ for any $\lambda \in F$.
+Let $F$ be any field, let $A = \begin{pmatrix} 1 & 0 \\ 0 & 2 \end{pmatrix}$ over $F$, and let $v = (1, 1) = e_1 + e_2$.
+We show that $v$ is not a [[generalized eigenvector|0SAAHC36J9]] of $A$ for any $\lambda \in F$.
+Every power of a diagonal matrix is diagonal, with the powers of the diagonal entries, so each step is one multiplication.
 
-1. For $k \ge 1$, $(A - I)^k = \operatorname{diag}(0, 1)$, so $(A - I)^k v = (0, 1) \ne 0$.
-2. For $k \ge 1$, $(A - 2I)^k = \operatorname{diag}((-1)^k, 0)$, so $(A - 2I)^k v = ((-1)^k, 0) \ne 0$.
-3. For $\lambda \ne 1, 2$, the matrix $A - \lambda I = \operatorname{diag}(1 - \lambda, 2 - \lambda)$ is invertible. So $(A - \lambda I)^k v \ne 0$ for all $k$.
-4. So no power of any $A - \lambda I$ kills $v$.
+1. Take $\lambda = 1$.
+   For $k \ge 1$ we get $(A - I)^k = \operatorname{diag}(0, 1)$, so $(A - I)^k v = (0, 1) \ne 0$.
+2. Take $\lambda = 2$.
+   For $k \ge 1$ we get $(A - 2I)^k = \operatorname{diag}((-1)^k, 0)$, so $(A - 2I)^k v = ((-1)^k, 0) \ne 0$.
+3. Take $\lambda \ne 1, 2$.
+   Then $A - \lambda I = \operatorname{diag}(1 - \lambda, 2 - \lambda)$ has two nonzero diagonal entries, so it is invertible.
+   A power of an invertible matrix is invertible, so $(A - \lambda I)^k v \ne 0$ for all $k$.
+4. So no power of any $A - \lambda I$ sends $v$ to $0$.
 
 ## Remarks
 
-The vector $v$ is a sum of two [[eigenvectors|0B5H4208Z9]], $e_1$ for $1$ and $e_2$ for $2$.
+The vector $v$ is the sum of two [[eigenvectors|0B5H4208Z9]], $e_1$ for $1$ and $e_2$ for $2$.
 So the generalized eigenvectors for different eigenvalues, together with $0$, do not form a subspace.
 Only the vectors for one fixed $\lambda$, together with $0$, form a subspace, the [[generalized eigenspace|0AJ035ZTZE]].
-The argument works in every characteristic, since $1 \ne 2$ in every field and $(-1)^k \ne 0$.
 A vector is a generalized eigenvector exactly when it is nonzero and lies in one generalized eigenspace.
+
+The argument works in every field, because $1 - 2 = -1$ is never zero and $(-1)^k \ne 0$.
+In characteristic $2$ the matrix becomes $\operatorname{diag}(1, 0)$, and the same steps apply with $2 = 0$.
+If we change $A$ to the identity, then $v$ becomes an eigenvector for $1$, since both entries now carry the same eigenvalue.
 
 ## Explanations
 
@@ -47,14 +55,15 @@ So no single choice of stretch factor sends the whole vector to zero.
 
 Decide whether $w = (3, 0)$ and $u = (3, 5)$ are generalized eigenvectors of $A$.
 
-1. $(A - I) w = (0, 0)$, so $w$ is a generalized eigenvector for $1$ of rank $1$.
-2. For $u$, the component $3 e_1$ lies in the eigenspace for $1$, and $5 e_2$ lies in the eigenspace for $2$.
-3. By the argument of steps 1 to 3, no power of any $A - \lambda I$ kills $u$.
+1. We have $(A - I) w = (0, 0)$, so $w$ is a generalized eigenvector for $1$ of rank $1$.
+2. For $u$, the part $3 e_1$ lies in the eigenspace for $1$, and the part $5 e_2$ lies in the eigenspace for $2$.
+3. As in steps 1 and 2 above, $(A - I)^k u = (0, 5)$ and $(A - 2I)^k u = (3 (-1)^k, 0)$, and both are nonzero.
+4. Step 3 of the example handles every other $\lambda$, so $u$ is not a generalized eigenvector.
 
-The typical use is to remember that the generalized eigenspaces are independent: a vector with two nonzero components is in none of them.
-The trap is to think that a sum of generalized eigenvectors is again one, as it is for a single eigenvalue.
+The typical use is to remember that the generalized eigenspaces are independent, so a vector with two nonzero parts lies in none of them.
+Watch out: a sum of generalized eigenvectors for one eigenvalue is again one, if it is nonzero, but a sum for two eigenvalues is not.
 
 ### L3 human
 
-In the decomposition $V = \bigoplus_\lambda V_\lambda$ into generalized eigenspaces, the generalized eigenvectors are the nonzero vectors with exactly one nonzero component.
-For a Lie algebra, the same holds for generalized weight vectors of different weights.
+When $V = \bigoplus_\lambda V_\lambda$ is the [[decomposition into generalized eigenspaces|0Z3GDY89T5]], the generalized eigenvectors are the nonzero vectors with exactly one nonzero component.
+The same holds for generalized weight vectors of different weights for a commuting family of maps.
