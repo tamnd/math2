@@ -47,5 +47,6 @@ The same calculation proves existence, since the solved formulas are Hermitian.
 ## Variants
 
 The [[decomposition into symmetric and skew-symmetric parts|T2153B5Y7V]] has the same proof, with the transpose in place of the conjugate transpose and without the factor $i$.
-A second route uses linear algebra over $\mathbb{R}$: the map $X \mapsto X^*$ is a real linear map with square equal to the identity, so $M_n(\mathbb{C})$ is the direct sum of its eigenspaces for $1$ and $-1$, the Hermitian and the skew-Hermitian matrices.
+A second route uses linear algebra over $\mathbb{R}$, where $X \mapsto X^*$ is a real linear map whose square is the identity.
+So $M_n(\mathbb{C})$ is the direct sum of its eigenspaces for $1$ and $-1$, which are the Hermitian and the skew-Hermitian matrices.
 Then $iK$ is the skew-Hermitian component of $A$.

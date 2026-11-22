@@ -20,10 +20,10 @@ Let $A$ and $B$ be upper triangular $n \times n$ matrices over a ring $R$, so $a
 
 1. By the [[product rule|076JGP6R3T]], for all $i$ and $j$,
 $$(AB)_{ij} = \sum_{k=1}^{n} a_{ik} b_{kj}.$$
-2. A term $a_{ik} b_{kj}$ can be nonzero only if $a_{ik} \neq 0$ and $b_{kj} \neq 0$. By the [[definition|0MKABWDRNC]] of upper triangular, this needs $i \le k$ and $k \le j$.
-3. Case $i > j$: no index $k$ satisfies $i \le k \le j$. So every term in step 1 is $0$, and $(AB)_{ij} = 0$. This shows that $AB$ is upper triangular.
-4. Case $i = j$: the only index with $i \le k \le i$ is $k = i$. All other terms are $0$ by step 2, so $(AB)_{ii} = a_{ii} b_{ii}$.
-5. Strict case: now $a_{ik} \neq 0$ needs $i < k$, and $b_{kj} \neq 0$ needs $k < j$. For $i \ge j$ no index satisfies $i < k < j$, so $(AB)_{ij} = 0$, and $AB$ is strictly upper triangular.
+2. A term $a_{ik} b_{kj}$ can be nonzero only if $a_{ik} \neq 0$ and $b_{kj} \neq 0$, and by the [[definition|0MKABWDRNC]] of upper triangular this needs $i \le k$ and $k \le j$.
+3. Case $i > j$: no index $k$ satisfies $i \le k \le j$, so every term in step 1 is $0$, $(AB)_{ij} = 0$, and $AB$ is upper triangular.
+4. Case $i = j$: the only index with $i \le k \le i$ is $k = i$, and all other terms are $0$ by step 2, so $(AB)_{ii} = a_{ii} b_{ii}$.
+5. Strict case: now $a_{ik} \neq 0$ needs $i < k$, and $b_{kj} \neq 0$ needs $k < j$; for $i \ge j$ no index satisfies $i < k < j$, so $(AB)_{ij} = 0$, and $AB$ is strictly upper triangular.
 6. Steps 3, 4 and 5 are the three claims of the statement.
 
 ## Idea

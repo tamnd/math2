@@ -19,13 +19,13 @@ We prove the entry rule by induction on the exponent $k$, and then take $k = n$.
 Let $N = (n_{ij})$ be a strictly upper triangular $n \times n$ matrix over a ring $R$, so $n_{ij} = 0$ whenever $j - i < 1$.
 The claim for each $k \ge 1$ is that $(N^k)_{ij} = 0$ whenever $j - i < k$.
 
-1. Base case $k = 1$: the claim says $n_{ij} = 0$ whenever $j - i < 1$, that is, whenever $i \ge j$. This is the [[definition|0MKABWDRNC]] of strictly upper triangular.
-2. Induction step: assume the claim for some $k \ge 1$. By the [[product rule|076JGP6R3T]],
+1. Base case $k = 1$: the claim says $n_{ij} = 0$ whenever $j - i < 1$, that is, whenever $i \ge j$, and this is the [[definition|0MKABWDRNC]] of strictly upper triangular.
+2. Induction step: assume the claim for some $k \ge 1$; by the [[product rule|076JGP6R3T]],
 $$(N^{k+1})_{ij} = (N^k N)_{ij} = \sum_{l=1}^{n} (N^k)_{il}\, n_{lj}.$$
-3. A term of this sum can be nonzero only if $(N^k)_{il} \neq 0$ and $n_{lj} \neq 0$. By the induction hypothesis and by step 1, this needs $l - i \ge k$ and $j - l \ge 1$.
-4. Adding the two inequalities gives $j - i \ge k + 1$. So when $j - i < k + 1$, every term is $0$, and $(N^{k+1})_{ij} = 0$. This is the claim for $k + 1$.
+3. A term of this sum can be nonzero only if $(N^k)_{il} \neq 0$ and $n_{lj} \neq 0$, and by the induction hypothesis and by step 1 this needs $l - i \ge k$ and $j - l \ge 1$.
+4. Adding the two inequalities gives $j - i \ge k + 1$, so when $j - i < k + 1$ every term is $0$ and $(N^{k+1})_{ij} = 0$, which is the claim for $k + 1$.
 5. By [[induction|0ASJVEFA9J]], the claim holds for every $k \ge 1$.
-6. Take $k = n$. For all indices $1 \le i, j \le n$ we have $j - i \le n - 1 < n$. So every entry of $N^n$ is $0$ by step 5, and $N^n = 0$.
+6. Take $k = n$; for all indices $1 \le i, j \le n$ we have $j - i \le n - 1 < n$, so every entry of $N^n$ is $0$ by step 5, and $N^n = 0$.
 
 ## Idea
 

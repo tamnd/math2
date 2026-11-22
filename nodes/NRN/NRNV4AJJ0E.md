@@ -21,12 +21,12 @@ over $\mathbb{R}$.
 Its entries on and below the main diagonal are $0$, so $N$ is strictly [[upper triangular|0MKABWDRNC]].
 We compute its powers by the [[product rule|076JGP6R3T]], one row at a time.
 
-1. Row $i$ of $N^2 = N \cdot N$ is the combination of the rows of $N$ with the entries of row $i$ of $N$ as weights. For row 1 the weights are $0, 1, 2$:
+1. Row $i$ of $N^2 = N \cdot N$ is the combination of the rows of $N$ with the entries of row $i$ of $N$ as weights, and for row 1 the weights are $0, 1, 2$:
 $$0 \cdot (0, 1, 2) + 1 \cdot (0, 0, 3) + 2 \cdot (0, 0, 0) = (0, 0, 3).$$
-2. Row 2 of $N$ has weights $0, 0, 3$, so row 2 of $N^2$ is $3 \cdot (0, 0, 0) = (0, 0, 0)$. Row 3 of $N$ is zero, so row 3 of $N^2$ is zero.
+2. Row 2 of $N$ has weights $0, 0, 3$, so row 2 of $N^2$ is $3 \cdot (0, 0, 0) = (0, 0, 0)$, and row 3 of $N$ is zero, so row 3 of $N^2$ is zero.
 3. So
 $$N^2 = \begin{pmatrix} 0 & 0 & 3 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \end{pmatrix} \neq 0.$$
-4. For $N^3 = N^2 N$, the only nonzero weight is the $3$ in row 1, position 3, and it multiplies row 3 of $N$, which is zero. So $N^3 = 0$.
+4. For $N^3 = N^2 N$, the only nonzero weight is the $3$ in row 1, position 3, and it multiplies row 3 of $N$, which is zero, so $N^3 = 0$.
 5. Since $N^3 = 0$ and $N^2 \neq 0$, the matrix $N$ is [[nilpotent|0419GJC84P]] of index exactly $3$, the largest index that the [[nilpotency theorem|AW5RBMW7RK]] allows for order $3$.
 
 ## Remarks
