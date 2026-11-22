@@ -10,7 +10,7 @@ topics: [SGSVYFDSYK]
 
 A theorem is a sentence, and you cannot prove a sentence that you have misread.
 Take "every continuous function on $[0, 1]$ is bounded".
-It hides a conditional, two quantifiers in a fixed order, and the word "bounded", which is itself a statement with "there is".
+It is a claim about every function $f$, it hides the conditional "if $f$ is continuous, then", and the word "bounded" packs two more quantifiers in a fixed order: there is $M$ such that $|f(x)| \le M$ for every $x$.
 This topic, a part of [[reasoning and proof|SGSVYFDSYK]], teaches you to take such sentences apart and to write them so that they have one meaning.
 
 The pages work with mathematical English, not with formal logic.
