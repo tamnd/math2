@@ -17,23 +17,27 @@ sources:
 ## Example
 
 Statement: for all real numbers $a$ and $b$, $\max(a, b) + \min(a, b) = a + b$.
-Here $\max(a, b)$ is the larger and $\min(a, b)$ the smaller of the two numbers; see [[maximum and minimum|5X1YMSR204]].
+Here $\max(a, b)$ is the larger and $\min(a, b)$ the smaller of the two numbers, as in [[maximum and minimum|5X1YMSR204]].
 We use [[without loss of generality|Y7NE0E6PCV]].
 
-1. Symmetry: exchanging $a$ and $b$ does not change $\max(a, b)$, $\min(a, b)$ or $a + b$. So the statement for $(a, b)$ is the same as the statement for $(b, a)$.
-2. For any two real numbers, $a \leq b$ or $b \leq a$. In the second case, exchanging the names gives the first case. So wlog $a \leq b$.
-3. If $a \leq b$, then $\max(a, b) = b$ and $\min(a, b) = a$.
+1. Exchanging $a$ and $b$ changes none of $\max(a, b)$, $\min(a, b)$ and $a + b$.
+   So the statement for the pair $(a, b)$ says the same as the statement for $(b, a)$.
+2. For any two real numbers, $a \le b$ or $b \le a$.
+   In the second case, exchanging the names gives the first case, so we may assume $a \le b$.
+3. If $a \le b$, then $\max(a, b) = b$ and $\min(a, b) = a$.
 4. So $\max(a, b) + \min(a, b) = b + a = a + b$.
+
+Check: $a = 8$ and $b = 3$ fall in the skipped case, and $8 + 3 = 11 = 8 + 3$ as the exchange predicts.
 
 ## Remarks
 
-Without the wlog step, the proof has two cases, $a \leq b$ and $b < a$.
-The second case repeats steps 3 and 4 with $a$ and $b$ exchanged.
-Step 1 is the reason why this repetition can be skipped.
+Without the wlog step, the proof has two cases, $a \le b$ and $b < a$, and the second repeats steps 3 and 4 with the letters exchanged.
+Step 1 is the reason why that repetition can be skipped.
 
 The same method proves the companion identity $\max(a, b) - \min(a, b) = |a - b|$.
-Wlog $a \leq b$, since $|a - b| = |b - a|$; then the left side is $b - a = |a - b|$.
-Together the two identities give $\max(a, b) = \frac{a + b + |a - b|}{2}$ and $\min(a, b) = \frac{a + b - |a - b|}{2}$.
+Since $|a - b| = |b - a|$, the statement is again symmetric, so we may assume $a \le b$, and then the left side is $b - a = |a - b|$.
+Adding and subtracting the two identities gives
+$$\max(a, b) = \frac{a + b + |a - b|}{2}, \qquad \min(a, b) = \frac{a + b - |a - b|}{2}.$$
 
 ## Explanations
 
@@ -42,17 +46,14 @@ Together the two identities give $\max(a, b) = \frac{a + b + |a - b|}{2}$ and $\
 Take the numbers $3$ and $8$.
 The larger is $8$ and the smaller is $3$, and $8 + 3 = 11 = 3 + 8$.
 Adding the larger and the smaller gives back the sum of the two numbers.
-It does not matter which number is called the first one, so we may name them so that the first one is the smaller.
+It does not matter which number we call the first one, so we may name them so that the first one is the smaller.
 
 ### L2 human
 
-We use the identity to compute $\max(x, 1 - x) + \min(x, 1 - x)$ for real $x$.
-
-1. Apply the statement with $a = x$ and $b = 1 - x$.
-2. The sum is $x + (1 - x) = 1$, for every $x$.
-3. Check at $x = 3$: $\max(3, -2) + \min(3, -2) = 3 + (-2) = 1$.
-
-The typical use: an expression that is symmetric in two variables can be computed with the variables in a chosen order.
-
-A trap: the symmetry in step 1 of the example concerns the whole statement.
-For $\max(a, b) - a$, exchanging $a$ and $b$ gives $\max(a, b) - b$, which is a different number, so "wlog $a \leq b$" is not allowed for that expression.
+Let us use the identity to compute $\max(x, 1 - x) + \min(x, 1 - x)$ for real $x$.
+Apply the statement with $a = x$ and $b = 1 - x$:
+$$\max(x, 1 - x) + \min(x, 1 - x) = x + (1 - x) = 1.$$
+So the sum is $1$ for every $x$, with no need to know which of the two numbers is larger.
+Check: at $x = 3$ we get $\max(3, -2) + \min(3, -2) = 3 + (-2) = 1$.
+The typical use is that an expression symmetric in two variables can be computed with the variables in any order you like.
+Watch out: the symmetry must hold for the whole expression, and $\max(a, b) - a$ becomes $\max(a, b) - b$ under the exchange, so "wlog $a \le b$" is not allowed for it.

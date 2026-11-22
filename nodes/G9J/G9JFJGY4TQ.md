@@ -12,45 +12,51 @@ sources:
 
 ## Summary
 
-This topic collects the standard methods of [[mathematical proof|0B94TKFQJX]]: the general patterns, such as direct proof, proof by contradiction, proof by cases and induction, by which a proof gets from its hypotheses to its conclusion.
-A method is chosen mainly by the logical form of the statement to be proved, and a long proof usually combines several methods, one for each part of the goal.
-A proof node names its methods with the `methods` edge, and each target of that edge is a concept in this topic.
-So the topic also lets a reader find all the proofs in the library that use one method.
+A proof method is a pattern for getting from the hypotheses of a statement to its conclusion, and the shape of the statement usually tells you which pattern to try.
+"If $n$ is odd, then $n^2$ is odd" invites you to assume that $n$ is odd and compute, while "$\sqrt{2}$ is irrational" invites you to assume a fraction $p/q$ and look for trouble.
+The basic methods of [[mathematical proof|0B94TKFQJX]] are direct proof, the contrapositive, contradiction, cases, existence and uniqueness proofs, counterexamples and proofs of impossibility.
+Induction and the counting and invariant arguments of later topics complete the standard list.
+A long proof combines several of them, one for each part of the goal.
+Every proof node in the library names its methods with the `methods` edge, and each target of that edge is one of these method concepts, so the methods also index the proofs that use them.
 
 ## Remarks
 
-### A map of the methods
+### Read the form of the goal first
 
-1. Methods for an implication "if $P$, then $Q$": [[direct proof|0NTF6DMVAP]] assumes $P$ and derives $Q$; [[proof by contrapositive|0BB5TPGQ1N]] assumes not $Q$ and derives not $P$; [[proof by contradiction|0J0XBKG64S]] assumes $P$ and not $Q$ and derives a contradiction.
-2. Methods for a universal statement "for every $x$, $P(x)$": [[proving universal statements|CX38X989TB]] with an arbitrary element, [[proof by cases|0WCP0PVET6]], [[without loss of generality|Y7NE0E6PCV]], and, for the natural numbers, [[mathematical induction|0ASJVEFA9J]].
-3. Methods for an existence statement "there is an $x$ with $P(x)$": [[constructive proof|01XM7JEKHY]] names the object, and a [[non-constructive existence proof|JZQVJ9XT63]] shows that it must exist; uniqueness is a separate [[proof of uniqueness|GQHHNV79PA]].
-4. Methods for an equivalence: [[proving biconditionals and equivalences|TFQ1845T84]] by two directions, or by a cycle of implications for a list.
-5. Methods for a negative statement: a [[counterexample|0ED72CTBNP]] refutes a universal claim, and a [[proof of impossibility|6F55216R53]] shows that no object or method of a given kind exists.
-6. A method for finding proofs, rather than for writing them: the [[forward-backward method|V8ZB838JY5]].
+Before you choose a method, write the statement with its quantifiers and connectives, as in the topic [[the language of mathematical statements|WMY13MXY3W]].
+The outermost symbol of the goal then suggests the first line of the proof.
+"For every $x$" suggests that you let $x$ be arbitrary, and "if ... then" suggests that you assume the hypothesis.
+"There is" suggests a search for a witness, "and" suggests two separate proofs, and "if and only if" suggests two directions.
+"Not" suggests that you assume the positive statement and derive a contradiction, or that you look for a counterexample to the opposite claim.
+The hypotheses suggest steps too: a hypothesis "$A$ or $B$" suggests a proof by cases, and a hypothesis "there is an $x$ with $P(x)$" suggests that you name such an $x$.
 
-### Choosing a method by the form of the goal
+### Implications and universal statements
 
-The first step is to write the statement in logical form, with its quantifiers and connectives; see the topic [[the language of mathematical statements|WMY13MXY3W]].
-The outermost symbol of the goal then suggests the first step of the proof.
-The words "for every" suggest an arbitrary element, and "if ... then" suggests assuming the hypothesis.
-The words "there is" suggest a search for a witness, and "and" suggests two separate proofs.
-The word "not" suggests a proof by contradiction, or a counterexample to the opposite claim.
-The hypotheses suggest steps too: a hypothesis "$A$ or $B$" suggests a proof by cases, and a hypothesis "there is an $x$ with $P(x)$" suggests naming such an $x$.
-When the conclusion is a statement about all natural numbers, induction is the first method to try.
+An implication "if $P$, then $Q$" has three standard proofs.
+A [[direct proof|0NTF6DMVAP]] assumes $P$ and derives $Q$.
+A [[proof by contrapositive|0BB5TPGQ1N]] assumes not $Q$ and derives not $P$, which is equivalent.
+A [[proof by contradiction|0J0XBKG64S]] assumes $P$ and not $Q$ together and derives an absurdity.
+A universal statement "for every $x$, $P(x)$" starts with an arbitrary element, as in [[proving universal statements|CX38X989TB]].
+The work can then split by [[proof by cases|0WCP0PVET6]], shrink by a symmetry with [[without loss of generality|Y7NE0E6PCV]], or, over the natural numbers, run by [[mathematical induction|0ASJVEFA9J]].
+An equivalence is two implications, or a cycle of them for a longer list, as in [[proving biconditionals and equivalences|TFQ1845T84]].
 
-### Direct proof and proof by contradiction
+### Existence, uniqueness and negative statements
 
-Many statements have both a direct proof and a proof by contradiction, and the two are often the same argument in two forms.
-A proof by contradiction that never uses the assumed negation is a direct proof in disguise, and it is clearer when rewritten as a direct proof; see [[a direct proof in disguise as a proof by contradiction|K686ZGPR17]].
-A proof of a negative statement, such as the irrationality of $\sqrt{2}$, often assumes the positive statement and derives a contradiction.
-Such a proof is a direct proof of a negation, and it is valid in intuitionistic logic as well.
-The strict form, which proves a positive statement from the absurdity of its negation, needs the law of excluded middle.
-A direct proof gives more information in general, and a proof by contradiction is often shorter to find.
-The page on [[proof by contradiction|0J0XBKG64S]] treats the distinction in detail.
+To prove "there is an $x$ with $P(x)$", a [[constructive proof|01XM7JEKHY]] names the object and checks it, while a [[non-constructive existence proof|JZQVJ9XT63]] shows that the object must exist without naming it.
+"Exactly one" adds a [[proof of uniqueness|GQHHNV79PA]], which shows that any two such objects are equal.
+On the negative side, a [[counterexample|0ED72CTBNP]] refutes a universal claim with one instance, and a [[proof of impossibility|6F55216R53]] shows that no object or method of a given kind exists.
+The [[forward-backward method|V8ZB838JY5]] stands apart: it is a way to find a proof, not a form for writing one.
 
-### The methods in the next sub-areas
+### Contradiction is not one thing
 
-1. Induction and its variants, strong induction, well-ordering and infinite descent, are treated in the topic [[induction and well-ordering as proof methods|EEH2F76CYQ]].
-2. Counting arguments, invariants, the pigeonhole principle, double counting and extremal arguments are treated in the topic [[counting, invariant and extremal arguments|GB14W4SYPK]].
-3. Patterns for common goals, such as two inclusions for a set equality and two inequalities for an equality of numbers, are treated in the topic [[proof patterns for common goals|MEKKHHQTKB]].
-4. The writing of proofs and the errors in them are treated in the topics [[writing and reading proofs|STSM6PR7TX]] and [[fallacies and errors in proofs|T6QQ749DM5]].
+Many books call every proof that starts with "suppose not" a proof by contradiction, but two different arguments hide under the name.
+To prove a negation $\neg P$, you may assume $P$ and derive an absurdity; that is a refutation, and the irrationality of $\sqrt{2}$ is proved this way.
+To prove a positive statement $P$, you may assume $\neg P$, derive an absurdity, and conclude $P$; only this second form needs the law of excluded middle.
+A proof by contradiction that never uses its assumption is a direct proof in disguise, and it reads better when rewritten, as [[a direct proof in disguise|K686ZGPR17]] shows.
+
+### Methods in later topics
+
+Induction and its variants, strong induction, well-ordering and infinite descent, are in the topic [[induction and well-ordering as proof methods|EEH2F76CYQ]].
+Counting arguments, invariants, the pigeonhole principle, double counting and extremal arguments are in the topic [[counting, invariant and extremal arguments|GB14W4SYPK]].
+Patterns for common goals, such as two inclusions for an equality of sets, are in the topic [[proof patterns for common goals|MEKKHHQTKB]].
+The writing of proofs and the errors in them are in the topics [[writing and reading proofs|STSM6PR7TX]] and [[fallacies and errors in proofs|T6QQ749DM5]].

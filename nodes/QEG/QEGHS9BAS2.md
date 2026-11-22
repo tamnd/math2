@@ -16,30 +16,36 @@ sources:
 
 ## Example
 
-Claim: for every real number $x$, $x^2 \geq x$.
+Claim: for every real number $x$, $x^2 \ge x$.
 A student writes this argument.
 
-1. Case $x \geq 1$: multiply both sides of $x \geq 1$ by $x > 0$. This gives $x^2 \geq x$.
-2. Case $x \leq 0$: then $x^2 \geq 0 \geq x$.
-3. So $x^2 \geq x$ in all cases.
+1. Case $x \ge 1$: multiply both sides of $x \ge 1$ by the positive number $x$, which gives $x^2 \ge x$.
+2. Case $x \le 0$: then $x^2 \ge 0 \ge x$.
+3. So $x^2 \ge x$ in all cases.
 
 This is not a valid [[proof by cases|0WCP0PVET6]].
 We check the condition that fails.
 
-1. A proof by cases needs cases that cover all possibilities. Here the possibilities are all real numbers.
-2. The cases $x \geq 1$ and $x \leq 0$ cover $(-\infty, 0] \cup [1, \infty)$. The numbers with $0 < x < 1$ are in neither case.
-3. Each of the two cases is proved correctly. The error is only in step 3, the claim "in all cases".
-4. In the missing interval the claim is false. For $x = \frac{1}{2}$: $x^2 = \frac{1}{4} < \frac{1}{2} = x$. So $x = \frac{1}{2}$ is a [[counterexample|0ED72CTBNP]].
+1. A proof by cases needs cases that together cover every possibility.
+   Here the possibilities are all real numbers.
+2. The cases $x \ge 1$ and $x \le 0$ cover $(-\infty, 0] \cup [1, \infty)$.
+   The numbers with $0 < x < 1$ are in neither case.
+3. Each of the two cases is proved correctly.
+   The error is only in line 3, the words "in all cases".
+4. In the missing interval the claim is false.
+   For $x = \tfrac{1}{2}$ we get $x^2 = \tfrac{1}{4} < \tfrac{1}{2} = x$, so $x = \tfrac{1}{2}$ is a [[counterexample|0ED72CTBNP]].
 
 ## Remarks
 
-The true statement is: $x^2 \geq x$ exactly when $x \leq 0$ or $x \geq 1$.
-The proof is the factorization $x^2 - x = x(x - 1)$, which is a product of two numbers.
-The product is at least $0$ exactly when both factors have the same sign or one is $0$, that is, when $x \leq 0$ or $x \geq 1$.
+The true statement is that $x^2 \ge x$ exactly when $x \le 0$ or $x \ge 1$.
+To prove it, factor:
+$$x^2 - x = x(x - 1).$$
+A product of two real numbers is at least $0$ exactly when one factor is $0$ or both have the same sign, and that happens exactly when $x \le 0$ or $x \ge 1$.
+So the student's two cases are precisely the set where the claim holds, and the gap is precisely the set where it fails.
 
-The missing case here is an interval, and the claim fails on all of it.
+Here the missing case is a whole interval.
 A missing case can also be a single point.
-The "proof" that $\frac{x}{|x|} = 1$ or $-1$ for all real $x$, by the cases $x > 0$ and $x < 0$, misses $x = 0$, where the expression is not defined.
+The argument "$x / |x|$ is $1$ or $-1$ for every real $x$, by the cases $x > 0$ and $x < 0$" misses $x = 0$, where the expression is not defined at all.
 
 ## Explanations
 
@@ -49,19 +55,16 @@ A number times itself is often bigger than the number: $3 \times 3 = 9$ is bigge
 For negative numbers it is also true, because the square is positive.
 But for numbers between $0$ and $1$ it is false.
 Half of a half is a quarter, and a quarter is less than a half.
-The student's proof checked the big numbers and the negative numbers and forgot the numbers in between.
+The student checked the big numbers and the negative numbers and forgot the numbers in between.
 
 ### L2 human
 
-We test a case split for completeness before we use it.
-Claim to prove: for every real $x$, $|x - 1| + |x + 1| \geq 2$.
-
-1. The expressions inside the absolute values change sign at $x = 1$ and $x = -1$. So the natural cases are $x \leq -1$, $-1 < x < 1$ and $x \geq 1$.
-2. Check coverage: these three sets together are the whole real line, and each real number lies in exactly one of them.
-3. Case $x \leq -1$: the sum is $(1 - x) + (-x - 1) = -2x \geq 2$.
-4. Case $-1 < x < 1$: the sum is $(1 - x) + (x + 1) = 2$.
-5. Case $x \geq 1$: the sum is $(x - 1) + (x + 1) = 2x \geq 2$.
-
-The typical use of step 2: list the points where the formula changes, and check that every interval between them is a case.
-
-A trap: forgetting the middle interval, as in the student's argument, is the most common gap.
+Before you use a case split, test it for coverage.
+Take the claim $|x - 1| + |x + 1| \ge 2$ for every real $x$.
+The expressions inside the absolute values change sign at $x = 1$ and $x = -1$, so the natural cases are $x \le -1$, $-1 < x < 1$ and $x \ge 1$.
+These three sets together are the whole real line, and each real number lies in exactly one of them.
+Now each case is a short computation:
+$$x \le -1: \ (1 - x) + (-x - 1) = -2x \ge 2, \qquad -1 < x < 1: \ (1 - x) + (x + 1) = 2, \qquad x \ge 1: \ (x - 1) + (x + 1) = 2x \ge 2.$$
+Check: at $x = 0$ the sum is $1 + 1 = 2$, and at $x = 3$ it is $2 + 4 = 6$.
+The typical use is to list the points where the formula changes and to check that every interval between them is a case.
+Watch out: the middle interval is the one most often forgotten, exactly as in the student's argument.

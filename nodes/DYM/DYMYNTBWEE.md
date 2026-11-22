@@ -16,23 +16,30 @@ sources:
 
 ## Example
 
-Statement: if $f : A \to B$ and $g : B \to C$ are [[injective|09NWETVTNY]], then the [[composition|0THBK9V825]] $g \circ f : A \to C$ is injective.
-We find the proof by the [[forward-backward method|V8ZB838JY5]].
+We prove: if $f : A \to B$ and $g : B \to C$ are [[injective|09NWETVTNY]], then the [[composition|0THBK9V825]] $g \circ f : A \to C$ is injective.
+We find the proof by the [[forward-backward method|V8ZB838JY5]], and then write it forward.
 
-1. Backward. The goal says that $g \circ f$ is injective. By definition, this means: for all $x, y \in A$, if $g(f(x)) = g(f(y))$, then $x = y$.
-2. Backward. This is a universal statement about an implication. So let $x, y \in A$ be arbitrary, assume $g(f(x)) = g(f(y))$, and the new goal is $x = y$.
-3. Backward. How can $x = y$ be shown? The hypothesis "$f$ is injective" gives $x = y$ from $f(x) = f(y)$. New goal: $f(x) = f(y)$.
-4. Forward. The hypothesis "$g$ is injective" applied to the elements $f(x)$ and $f(y)$ of $B$ and to the assumption $g(f(x)) = g(f(y))$ gives $f(x) = f(y)$.
+1. Backward: by definition, the goal says that for all $x, y \in A$, if $g(f(x)) = g(f(y))$, then $x = y$.
+2. Backward: the goal is a universal statement about an implication.
+   So let $x, y \in A$ be arbitrary and assume $g(f(x)) = g(f(y))$; the new goal is $x = y$.
+3. Backward: how can we show $x = y$?
+   The hypothesis that $f$ is injective gives $x = y$ from $f(x) = f(y)$, so the new goal is $f(x) = f(y)$.
+4. Forward: apply the hypothesis that $g$ is injective to the elements $f(x)$ and $f(y)$ of $B$.
+   The assumption $g(f(x)) = g(f(y))$ then gives $f(x) = f(y)$.
 5. The chains meet at $f(x) = f(y)$, so $x = y$, and $g \circ f$ is injective.
+
+Written forward, the proof reads: let $x, y \in A$ with $g(f(x)) = g(f(y))$; since $g$ is injective, $f(x) = f(y)$; since $f$ is injective, $x = y$.
 
 ## Remarks
 
-Here the definition of the goal did most of the work.
-Unfolding the definition in steps 1 and 2 told the proof how to start, and step 3 told it which hypothesis to use last.
+The definition of the goal did most of the work.
+Unfolding it in steps 1 and 2 told the proof how to start, and step 3 told it which hypothesis to use last.
+Notice that the written proof uses the hypotheses in the opposite order to the search: $g$ first, then $f$.
 
 A partial converse holds: if $g \circ f$ is injective, then $f$ is injective.
 But $g$ need not be injective.
-For $A = \{1\}$, $B = \{1, 2\}$, $C = \{1\}$, $f(1) = 1$ and $g(1) = g(2) = 1$, the composition $g \circ f$ is injective since $A$ has one element, while $g$ is not.
+Take $A = \{1\}$, $B = \{1, 2\}$, $C = \{1\}$, $f(1) = 1$ and $g(1) = g(2) = 1$.
+Then $g \circ f$ is injective, because $A$ has only one element, while $g$ sends $1$ and $2$ to the same point.
 
 ## Explanations
 
@@ -46,14 +53,12 @@ The proof follows the key back to the locker, and the locker back to the student
 
 ### L2 human
 
-We use the same plan to prove: if $f : A \to B$ and $g : B \to C$ are surjective, then $g \circ f$ is surjective.
-
-1. Backward. The goal is: for every $z \in C$ there is $x \in A$ with $g(f(x)) = z$. Let $z \in C$ be arbitrary.
-2. Forward. Since $g$ is surjective, there is $y \in B$ with $g(y) = z$.
-3. Forward. Since $f$ is surjective, there is $x \in A$ with $f(x) = y$.
-4. Then $g(f(x)) = g(y) = z$, so this $x$ is the witness that the goal needs.
-
-The typical use: unfold the definition in the goal, then apply the hypotheses in the order that the unfolded goal needs.
-
-A trap: in step 3 the witness $x$ is chosen after $z$, and it depends on $z$.
-A proof that names one $x$ before $z$ is given has the quantifiers in the wrong order.
+The same plan proves that if $f : A \to B$ and $g : B \to C$ are surjective, then $g \circ f$ is surjective.
+Backward, the goal is: for every $z \in C$ there is $x \in A$ with $g(f(x)) = z$, so we let $z \in C$ be arbitrary.
+Forward, since $g$ is surjective, there is $y \in B$ with $g(y) = z$.
+Forward again, since $f$ is surjective, there is $x \in A$ with $f(x) = y$.
+Then
+$$g(f(x)) = g(y) = z,$$
+so this $x$ is the witness the goal needs.
+The typical use is to unfold the definition in the goal and apply the hypotheses in the order that the unfolded goal asks for.
+Watch out: the witness $x$ is chosen after $z$ and depends on $z$, so a proof that names one $x$ before $z$ is given has the quantifiers in the wrong order.
