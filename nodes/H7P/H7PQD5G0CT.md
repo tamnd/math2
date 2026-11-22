@@ -18,42 +18,51 @@ sources:
 
 ## Example
 
-We look at four results that carry the label "lemma" and check what role each one plays today.
+We look at four results that carry the [[label "lemma"|KK5F0F03ZW]] and ask what role each one plays today.
 
-1. [[Euclid's lemma|051VYKA1EX]]: if a prime $p$ divides $ab$, then $p$ divides $a$ or $b$. It is Proposition 30 of Book VII of Euclid's Elements. It is the main step in the proof of unique prime factorization, and it is also used on its own in each course of number theory.
-2. [[Zorn's lemma|04RXTQA5ZA]]: a nonempty partially ordered set in which each chain has an upper bound has a maximal element. Over the other axioms of set theory, it is equivalent to the axiom of choice. It proves that each vector space has a basis.
-3. [[Burnside's lemma|0Z47M1B2VS]]: the number of orbits of a finite group $G$ on a finite set $X$ is $\frac{1}{|G|}\sum_{g \in G} |X^g|$. It is a main tool for counting objects up to symmetry. Burnside attributed it to Frobenius, and Cauchy knew the formula earlier.
-4. [[Yoneda lemma|D6DF1ARPVD]]: in category theory, natural transformations from a representable functor $\operatorname{Hom}(A, -)$ to a functor $F$ correspond to the elements of $F(A)$. It is a basic tool of the whole subject.
-5. In each case the result has a full proof, so it is a theorem in the logical sense. The word "lemma" records its origin as a tool, not its weight.
+1. [[Euclid's lemma|051VYKA1EX]]: if a prime $p$ divides $ab$, then $p$ divides $a$ or $p$ divides $b$.
+   It is Proposition 30 of Book VII of Euclid's Elements.
+   It is the main step in the proof of unique prime factorization, and every number theory course also uses it on its own.
+2. [[Zorn's lemma|04RXTQA5ZA]]: a nonempty partially ordered set in which every chain has an upper bound has a maximal element.
+   Over the other axioms of set theory it is equivalent to the axiom of choice.
+   It proves that every vector space has a basis and that every ring with $1 \ne 0$ has a maximal ideal.
+3. [[Burnside's lemma|0Z47M1B2VS]]: the number of orbits of a finite group $G$ acting on a finite set $X$ is
+   $$\frac{1}{|G|} \sum_{g \in G} |X^g|,$$
+   where $X^g$ is the set of points that $g$ fixes.
+   It is the main tool for counting objects up to symmetry.
+4. The [[Yoneda lemma|D6DF1ARPVD]]: for a functor $F$ from a category to sets and an object $A$, the natural transformations from $\operatorname{Hom}(A, -)$ to $F$ correspond to the elements of $F(A)$.
+   It is a basic tool of the whole of category theory.
+
+Each of the four has a full proof, so each is a theorem in the logical sense.
+The word "lemma" records where the result started, as a tool inside a larger proof, and not how much it weighs today.
 
 ## Remarks
 
-The example shows that the label of a result does not measure its importance.
-A result keeps the name that it received first, even when later work makes it central.
-In Zorn's case, the name "lemma" fits a different fact: in many proofs it is a step that produces an object, such as a basis or a maximal ideal.
+A result keeps the name it received first, even when later work makes it central.
+For Zorn's lemma the name still fits one fact: in most proofs it is a single step that produces an object, such as a basis or a maximal ideal.
 
-The names also show that the person in the name is not always the first author.
-Burnside's lemma is the best-known case, and it is sometimes called "the lemma that is not Burnside's".
+The person in the name is not always the first author either.
+Burnside attributed his lemma to Frobenius, and Cauchy knew the formula earlier still, so the result is sometimes called "the lemma that is not Burnside's".
+So a name tells you how a result entered the literature, and you need a history of the subject to learn who found it.
 
 ## Explanations
 
 ### L1 human
 
 A lemma is usually a small helper result.
-But some lemmas became famous on their own.
-Zorn's lemma, for example, is one of the basic tools of modern mathematics, and it is as strong as one of the axioms of set theory.
+Some lemmas became famous on their own.
+Zorn's lemma is one of the basic tools of modern mathematics, and it is as strong as one of the axioms of set theory.
 Euclid's lemma is more than two thousand years old and is still used every day in number theory.
 The word "lemma" in their names is a leftover from history.
 
 ### L2 human
 
-We use Burnside's lemma to count the ways to colour the four corners of a square with two colours, up to rotation.
-
-1. The rotation group has $4$ elements: the rotations by $0$, $90$, $180$ and $270$ degrees.
-2. The rotation by $0$ degrees fixes all $2^4 = 16$ colourings.
-3. The rotations by $90$ and by $270$ degrees fix only the $2$ colourings with all corners of one colour.
-4. The rotation by $180$ degrees fixes the colourings with equal colours on opposite corners. There are $2 \cdot 2 = 4$ of them.
-5. The lemma gives $(16 + 2 + 4 + 2) / 4 = 24 / 4 = 6$ colourings up to rotation.
-
-The typical use of the lemma is to count objects up to symmetry, as in this example.
-A trap is to divide the number of all colourings by the size of the group: $16 / 4 = 4$ is wrong, because some colourings have symmetries.
+Here is Burnside's lemma at work: how many ways are there to color the four corners of a square with two colors, if two colorings that differ by a rotation count as the same?
+The rotation group has $4$ elements, the rotations by $0$, $90$, $180$ and $270$ degrees.
+The rotation by $0$ degrees fixes all $2^4 = 16$ colorings.
+The rotations by $90$ and $270$ degrees move each corner to the next, so they fix only the $2$ colorings with all corners the same color.
+The rotation by $180$ degrees swaps opposite corners, so it fixes the $2 \cdot 2 = 4$ colorings with equal colors on opposite corners.
+The lemma gives
+$$\frac{16 + 2 + 4 + 2}{4} = \frac{24}{4} = 6.$$
+Check by listing: all white, all black, one black corner, three black corners, two adjacent black corners, two opposite black corners.
+Watch out: dividing $16$ by $4$ gives the wrong answer $4$, because colorings with symmetry, such as all white, have fewer than $4$ distinct rotations.

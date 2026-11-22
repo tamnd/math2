@@ -20,47 +20,56 @@ sources:
 ## Example
 
 Let $f(n) = n^2 + n + 41$ for each natural number $n$.
-We test the guess "$f(n)$ is a [[prime number|0SN0MAEKYX]] for each natural number $n$".
+We test the guess "$f(n)$ is a [[prime number|0SN0MAEKYX]] for every natural number $n$".
 
-1. We compute the first values: $f(0) = 41$, $f(1) = 43$, $f(2) = 47$, $f(3) = 53$, $f(4) = 61$ and $f(5) = 71$. Each of these numbers is prime.
-2. We continue to $n = 39$. Each value $f(0), f(1), \ldots, f(39)$ is prime, and the last one is $f(39) = 1601$. A computer check of the forty values confirms this.
-3. On this evidence, the guess "$f(n)$ is always prime" is a reasonable conjecture. This is inductive reasoning: we pass from many cases to a general claim.
-4. We compute $f(40) = 1600 + 40 + 41 = 1681$.
-5. We factor: $1681 = 41 \cdot 41$. So $f(40)$ is not prime, and $n = 40$ is a [[counterexample|0ED72CTBNP]] to the guess.
-6. We can find this counterexample without a search: $f(40) = 40^2 + 40 + 41 = 40 \cdot 41 + 41 = 41 \cdot 41$.
-7. In the same way, $f(41) = 41^2 + 41 + 41 = 41 \cdot 43 = 1763$, so $f(41)$ is not prime either.
+1. Compute the first values:
+   $$f(0) = 41, \quad f(1) = 43, \quad f(2) = 47, \quad f(3) = 53, \quad f(4) = 61, \quad f(5) = 71.$$
+   Each of these numbers is prime.
+2. Continue to $n = 39$.
+   Each of the forty values $f(0), f(1), \dots, f(39)$ is prime, and the last is $f(39) = 1521 + 39 + 41 = 1601$.
+   A short computer run confirms the forty values.
+3. On this evidence the guess is a reasonable conjecture.
+   This is inductive reasoning in the everyday sense: we pass from many cases to a general claim.
+4. Compute the next value:
+   $$f(40) = 40^2 + 40 + 41 = 40 \cdot 41 + 41 = 41 \cdot 41 = 1681.$$
+   So $f(40)$ is not prime, and $n = 40$ is a [[counterexample|0ED72CTBNP]] to the guess.
+5. The next value fails too:
+   $$f(41) = 41^2 + 41 + 41 = 41 \cdot 43 = 1763.$$
+
+Check: $41 \cdot 41 = 1600 + 80 + 1 = 1681$, and $41 \cdot 43 = 1763$.
 
 ## Remarks
 
-The example shows the gap between evidence and [[proof|0B94TKFQJX]].
 Forty confirming cases gave strong support to the guess, and the guess is false.
-To conclude the guess from the forty cases is the error of [[proof by example|ZX6ERT3SW7]].
-Step 6 also shows how a proof-like idea finds the error: the value at $n = 41 - 1$ has the factor $41$ by algebra.
+To conclude the general claim from the cases is the error called [[proof by example|ZX6ERT3SW7]].
+Step 4 also shows how algebra finds the failure without a search: at $n = 40$ every term has the factor $41$.
 
-The same idea shows that no polynomial $g(n) = n^2 + n + c$ with an integer $c \geq 2$ gives only primes.
-The value $g(c - 1) = (c - 1)^2 + (c - 1) + c = c^2$ is not prime.
-Leonhard Euler studied the polynomial $n^2 + n + 41$, and the values that it takes are often used to warn against conclusions from cases.
+The same idea works for every polynomial $g(n) = n^2 + n + c$ with an integer $c \ge 2$.
+At $n = c - 1$ we get
+$$g(c - 1) = (c - 1)^2 + (c - 1) + c = c^2 - 2c + 1 + 2c - 1 = c^2,$$
+which is not prime.
+So no polynomial of this shape gives only primes.
+The value $c = 41$ is the largest $c$ for which every value before $n = c - 1$ is prime.
+
+Leonhard Euler studied the values of $n^2 + n + 41$, and they remain the standard warning against conclusions from cases.
 
 ## Explanations
 
 ### L1 human
 
-Put $n = 0, 1, 2, 3$ into $n^2 + n + 41$ and we get $41$, $43$, $47$ and $53$, all prime numbers.
+Put $n = 0, 1, 2, 3$ into $n^2 + n + 41$ and you get $41$, $43$, $47$ and $53$, all prime numbers.
 This goes on for forty values of $n$ in a row.
-It is tempting to say that the formula always gives a prime number.
-But for $n = 40$ the formula gives $1681$, and $1681 = 41 \times 41$.
+It is tempting to say that the formula always gives a prime.
+But for $n = 40$ the formula gives $1681$, which is $41 \times 41$.
 So the pattern breaks, and forty good cases were not enough to be sure.
 
 ### L2 human
 
-We find all $n$ from $0$ to $100$ for which $f(n) = n^2 + n + 41$ is divisible by $41$.
-
-1. We reduce modulo $41$: $f(n) \equiv n^2 + n = n(n + 1) \pmod{41}$.
-2. The number $41$ is prime, so $41$ divides $n(n + 1)$ exactly when $41$ divides $n$ or $41$ divides $n + 1$.
-3. So $41$ divides $f(n)$ exactly when $n \equiv 0$ or $n \equiv 40 \pmod{41}$.
-4. In the range $0$ to $100$ these values are $n = 0, 40, 41, 81, 82$.
-5. For $n = 0$ we have $f(0) = 41$, which is prime. For the other four values, $f(n) > 41$ and $41$ divides $f(n)$, so $f(n)$ is not prime.
-
-The typical use of such a check is to test a conjecture before we try to prove it.
-A trap is to stop the search at a convenient bound, for example at $n = 30$, and to report the pattern as a fact.
-Only a proof covers all $n$, and here no proof can exist, because the claim is false.
+Which $n$ from $0$ to $100$ make $f(n)$ divisible by $41$?
+Reduce modulo $41$, where the constant term disappears:
+$$f(n) \equiv n^2 + n = n(n + 1) \pmod{41}.$$
+The number $41$ is prime, so it divides $n(n + 1)$ exactly when it divides $n$ or $n + 1$.
+So $41$ divides $f(n)$ exactly when $n \equiv 0$ or $n \equiv 40 \pmod{41}$, which in the range gives $n = 0, 40, 41, 81, 82$.
+For $n = 0$ the value is $41$ itself, which is prime.
+For the other four values $f(n)$ is larger than $41$ and divisible by $41$, so it is not prime.
+A short argument of this kind finds the failures that a search would only stumble on, and it is the usual first test of a conjecture before anyone tries to prove it.

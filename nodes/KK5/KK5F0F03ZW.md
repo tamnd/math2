@@ -21,73 +21,104 @@ sources:
 
 ## Summary
 
-A theorem is a mathematical statement that has a [[proof|0B94TKFQJX]].
-The words theorem, proposition, lemma, corollary and claim all name proved statements, and they differ only in the role that the author gives to the statement.
-A theorem is a main result, and a proposition is a result of smaller weight.
-A lemma is a result proved mainly to help prove another result.
-A corollary is a result that follows quickly from a result just proved.
-A claim is a statement proved inside a longer proof.
-These labels are conventions of writing, not parts of logic: each of them is proved in the same way, and no fixed rule decides which label a result gets.
-The labels help a reader to find the main line of a text and to see which results serve which purpose.
+A proved statement in mathematics gets a label, and the label tells the reader what job the statement does in the text.
+All the labels mean the same thing logically, "this has a [[proof|0B94TKFQJX]]", so a lemma is exactly as true as a theorem.
+In common usage a *theorem* is a main result and a *proposition* is a result of less weight.
+A *lemma* is a result proved mainly to help prove another result, and a *corollary* is a result that follows quickly from one just proved.
+A *claim* is a statement proved inside a longer proof and used only there.
+These are conventions of writing, not rules of logic, and authors differ in how they apply them.
 
 ## Motivation
 
 A long proof is easier to read and to check when it is cut into parts.
-An author proves the parts first, gives each part a label and a number, and then cites the parts in the main proof.
-For example, the uniqueness of prime factorization in the [[fundamental theorem of arithmetic|084HH1NDCB]] rests on [[Euclid's lemma|051VYKA1EX]], and the irrationality of $\sqrt{2}$ then follows as a corollary, as [[this example|HGRAZBCXEQ]] shows.
-The labels tell the reader which part is the goal and which parts are tools.
+The author proves the parts first, gives each a label and a number, and cites them in the main proof.
+For example, the uniqueness of prime factorization in the [[fundamental theorem of arithmetic|084HH1NDCB]] rests on [[Euclid's lemma|051VYKA1EX]], and the irrationality of $\sqrt{2}$ then follows in a few lines.
+[[The factorization chain|HGRAZBCXEQ]] works through all three results.
+The labels act like road signs: they show which result is the destination and which ones are tools along the way.
+The same structure returns in [[writing and reading proofs|STSM6PR7TX]], where a long argument is planned as a sequence of lemmas.
 
 ## Notation
 
-Most texts number their results in one sequence, for example "Lemma 3.2", "Theorem 3.3", "Corollary 3.4".
+Most texts number all results in one sequence, such as "Lemma 3.2", "Theorem 3.3", "Corollary 3.4", so that a reader can find any of them quickly.
 Other texts number each kind separately.
-The statement comes after the label in italic type, and the proof follows after the word "Proof".
-A result is often named after a person ("Zorn's lemma"), after its content ("the pigeonhole principle"), or by its place ("Proposition I.47 of Euclid").
+The statement usually follows the label in italic type, and the proof follows the word "Proof".
+A result can be named after a person ("Zorn's lemma"), after its content ("the pigeonhole principle"), or by its place ("Proposition I.47 of Euclid").
 
 ## Remarks
 
-### Examples
+### A chain of three results
 
-- Theorem: the [[fundamental theorem of arithmetic|084HH1NDCB]], which says that each positive integer has exactly one prime factorization. It is a main result of elementary number theory.
-- Lemma: [[Euclid's lemma|051VYKA1EX]], which says that a prime that divides a product divides one of the factors. Its main role is to prove the uniqueness part of the fundamental theorem.
-- Corollary: the [[irrationality of $\sqrt{2}$|0DZGSDHD92]] follows in a few lines from unique factorization, as [[this example|HGRAZBCXEQ]] shows.
-- Named lemmas that are major results: [[Zorn's lemma|04RXTQA5ZA]], the [[Yoneda lemma|D6DF1ARPVD]] and [[Nakayama's lemma|15JHBYR6KH]], as [[this example|H7PQD5G0CT]] shows.
-- Principle and law: the [[pigeonhole principle|0HGVCWQGY3]], the [[maximum modulus principle|048F2P90WR]], the [[law of cosines|060ZVZBV3E]] and the [[law of quadratic reciprocity|085MJS6907]] are theorems with traditional names.
-- Postulate: [[Bertrand's postulate|0FJTGZA4GS]], that each interval $n < p < 2n$ with $n > 1$ contains a prime $p$, is a theorem. Joseph Bertrand stated it as a conjecture in 1845, and Pafnuty Chebyshev proved it in 1852.
+Here is a short chain with the usual labels.
+Lemma: if $n^2$ is even, then $n$ is even.
+The proof takes the contrapositive: if $n = 2k + 1$ is odd, then
+$$n^2 = 4k^2 + 4k + 1 = 2(2k^2 + 2k) + 1$$
+is odd.
+Theorem: no integers $a$ and $b$ with $b \ne 0$ satisfy $a^2 = 2b^2$.
+Corollary: $\sqrt{2}$ is irrational, because $\sqrt{2} = a/b$ would give $a^2 = 2b^2$.
 
-### Non-examples
+The lemma matters mainly because the theorem needs it, and it is used twice in the proof of the theorem, once for $a$ and once for $b$.
+The corollary is the result most readers remember, but it adds only one line.
+Another author could call the theorem a lemma and the corollary the theorem, and both choices would be correct.
 
-- An axiom is not a theorem in this sense. It is a starting point that a theory accepts without proof, for example the [[parallel postulate|2PC3XY0PYZ]] in Euclidean geometry.
-- A conjecture is not a theorem, even when its name says "theorem". [[Fermat's Last Theorem|0Y5X3SDBCZ]] was a conjecture until 1994, as [[this example|AJR1GG3GF3]] shows.
-- A definition is not a theorem. It gives a name to an idea and asserts nothing that needs a proof.
+### What the labels signal
 
-### Basic properties
+The labels describe the role of a result in one text, not its difficulty or its truth.
+The same statement can be a theorem in one book, a lemma in a second and an exercise in a third.
+"Proposition" often marks a result that is useful but not central, and many books use it for the routine facts of a chapter.
 
-- Each label names a proved statement, so a lemma or a corollary has exactly the same logical status as a theorem.
-- The label of a result can change over time. A lemma that turns out to be widely useful keeps its name, but it is cited as a main result.
-- The same statement can be a theorem in one book and a lemma or an exercise in another, because the label depends on the role in the text.
-- A corollary of a theorem depends on the theorem, so it cannot be used to prove that theorem. This would be circular.
-- The word "proposition" has a second meaning in logic: a [[proposition|0ZGC7ZESYN]] is a statement that is true or false, proved or not.
+Watch out for a second meaning of the word.
+In logic a [[proposition|0ZGC7ZESYN]] is any statement that is true or false, whether proved or not.
+So "Proposition 2.1" in a textbook and "the proposition $P$" in a logic course use the word in different senses.
 
-### Other labels
+### Lemmas that outgrew their label
 
-- A claim is a statement inside a proof, stated and proved there, and used only in that proof.
-- A porism has two uses. In ancient Greek mathematics it named a kind of proposition in Euclid's lost book "Porisms". In modern use it names a result of the form "if one solution exists, then infinitely many solutions exist", as in Poncelet's porism.
-- A remark or an observation is a short statement with a short proof or none, given for orientation.
-- A scholium is an old word for a comment added to a proof.
+A result keeps the name it received first, even when later work makes it central.
+[[Zorn's lemma|04RXTQA5ZA]] is equivalent to the axiom of choice over the other axioms of set theory, and it proves that every vector space has a basis.
+The [[Yoneda lemma|D6DF1ARPVD]] is a basic tool of category theory, and [[Nakayama's lemma|15JHBYR6KH]] is one of commutative algebra.
+[[Four named lemmas|H7PQD5G0CT]] are compared side by side, with a worked use of Burnside's lemma.
+In each case the word "lemma" records an origin as a tool, not a measure of weight.
+
+### Principles, laws, postulates and other labels
+
+Some theorems carry traditional names.
+The [[pigeonhole principle|0HGVCWQGY3]], the [[maximum modulus principle|048F2P90WR]], the [[law of cosines|060ZVZBV3E]] and the [[law of quadratic reciprocity|085MJS6907]] are all proved theorems.
+[[Bertrand's postulate|0FJTGZA4GS]] says that for every $n > 1$ some prime $p$ satisfies $n < p < 2n$; for $n = 10$ the primes $11, 13, 17, 19$ qualify.
+Despite the word "postulate", it is a theorem.
+
+A few rarer labels also appear.
+A remark or an observation is a short statement with a short proof or none.
+A porism, in modern use, is a result of the form "if one solution exists, then infinitely many exist", as in Poncelet's porism about polygons inscribed in one conic and circumscribed about another.
+
+### What is not a theorem
+
+An axiom is not a theorem in this sense: a theory accepts it without proof, as Euclidean geometry accepts the [[parallel postulate|2PC3XY0PYZ]].
+A definition is not a theorem either, because it names an idea and asserts nothing that needs proof.
+A conjecture is not a theorem, even when its name says so.
+[[Fermat's Last Theorem|0Y5X3SDBCZ]] had no accepted proof from about 1637 to 1994, and [[its story|AJR1GG3GF3]] shows that in that time it was a conjecture.
+
+### Watch out
+
+The first trap is to think that a lemma or a corollary is less certain than a theorem.
+All three are proved, so each can be used in a later proof with the same confidence.
+The second trap is to invent rules such as "a lemma has a short proof".
+The proof of Zorn's lemma from the axiom of choice takes real work, and usage varies between authors.
+The third trap is circular use: a corollary of a theorem cannot appear in the proof of that theorem.
+For example, you may not use "$\sqrt{2}$ is irrational" while proving the theorem that $a^2 = 2b^2$ has no solution.
 
 ### History
 
 The Greek word "theorema" comes from a verb that means "to look at".
-In [[Euclid's Elements|83WHDAV68J]], a short consequence that is added after a proposition is called a porism, and modern texts call it a corollary.
-Euclid also wrote a book with the title "Porisms", which is lost, and Pappus of Alexandria described its content.
-[[Bertrand's postulate|0FJTGZA4GS]] and [[Fermat's Last Theorem|0Y5X3SDBCZ]] keep names that do not match their present status.
+In [[Euclid's Elements|83WHDAV68J]], a short consequence added after a proposition is called a porism, and modern texts call it a corollary.
+Euclid also wrote a book called "Porisms", which is lost, and Pappus of Alexandria described its content.
+Joseph Bertrand stated his postulate as a conjecture in 1845, and Pafnuty Chebyshev proved it in 1852, so the name no longer matches the status.
 
-### Common errors
+### Try it
 
-- To think that a lemma is less true or less certain than a theorem. Both are proved.
-- To give fixed rules for the labels, for example "a lemma has a short proof". Many lemmas have long proofs, and the usage varies between authors.
-- To use a result that has the name of a theorem, but that is still a conjecture, as a step of a proof.
+First, a book proves that the angles of a triangle add up to $180$ degrees, and then states that each angle of an equilateral triangle is $60$ degrees; what label fits the second result?
+A corollary, since three equal angles with sum $180$ degrees give $3x = 180$ at once.
+
+Second, can a lemma from a famous paper be used with less confidence than its main theorem?
+No: both are proved statements, and the label reflects only their roles in the paper.
 
 ## Explanations
 
@@ -102,26 +133,22 @@ All these labels mean "proved", and only the role is different.
 
 ### L2 human
 
-We read a short chain of results and name the role of each one.
-
-1. Lemma: if $n^2$ is even, then $n$ is even. Proof: if $n = 2k + 1$ is odd, then $n^2 = 2(2k^2 + 2k) + 1$ is odd.
-2. Theorem: there are no integers $a$ and $b$ with $b \neq 0$ and $a^2 = 2b^2$. For the proof, assume such $a$ and $b$ exist, and choose them with $|b|$ as small as possible.
-3. Proof of the theorem, part 1: $a^2 = 2b^2$ is even, so $a$ is even by the lemma. We write $a = 2c$.
-4. Part 2: then $4c^2 = 2b^2$, so $b^2 = 2c^2$ is even, and $b$ is even by the lemma. We write $b = 2d$ with $d \neq 0$.
-5. Part 3: then $4d^2 = 2c^2$, so $c^2 = 2d^2$. The pair $c$, $d$ is a solution with $|d| < |b|$, which contradicts the choice of $b$.
-6. Corollary: $\sqrt{2}$ is irrational. Proof: if $\sqrt{2} = a/b$ with integers $a$ and $b \neq 0$, then $a^2 = 2b^2$, which the theorem excludes.
-
-The typical use of the labels is to show the structure of a text: the lemma is a tool, the theorem is the goal, and the corollary is a consequence.
-A trap is to think that the labels follow rules.
-Another author could call step 2 a lemma and step 6 the theorem, and both choices are correct.
+Here is the full proof of the theorem in the chain above, so that you can see where the lemma does its work.
+Suppose integers $a$ and $b \ne 0$ satisfy $a^2 = 2b^2$, and choose such a pair with $|b|$ as small as possible.
+Then $a^2$ is even, so $a$ is even by the lemma; write $a = 2c$.
+Substitute:
+$$4c^2 = 2b^2, \qquad \text{so} \qquad b^2 = 2c^2.$$
+Now $b^2$ is even, so $b$ is even by the lemma; write $b = 2d$ with $d \ne 0$.
+Substitute again: $4d^2 = 2c^2$, so $c^2 = 2d^2$.
+The pair $c, d$ is another solution with $|d| = |b|/2 < |b|$, which contradicts the choice of $b$.
+The lemma appeared twice, and that is the usual sign that a fact deserves its own label.
 
 ### L3 human
 
-The labels form an informal layer on top of the logic of proof.
-In a formal library such as Mathlib, each result is a declaration with the keyword `theorem` or `lemma`, and the two keywords are synonyms for the proof checker.
-The choice between them is left to the authors, in the same way as on paper.
+The labels form an informal layer above the logic of proof.
+In a formal library such as Mathlib, a result is declared with the keyword `theorem` or `lemma`, and the proof checker treats the two keywords the same way.
+The choice is left to the authors, as it is on paper.
 
-Some lemmas became central objects of study.
-The [[Yoneda lemma|D6DF1ARPVD]] is a basic tool of category theory, and [[Zorn's lemma|04RXTQA5ZA]] is equivalent to the axiom of choice over the other axioms of set theory.
-In the other direction, some "theorems" were conjectures for a long time, and the names of conjectures are the subject of the page on [[conjectures|WMEMMHZ3BH]].
-The structure of a written proof, with its lemmas and claims, is treated in [[writing and reading proofs|STSM6PR7TX]].
+Some lemmas became objects of study in their own right, and some "theorems" were conjectures for centuries.
+The status of named but unproved statements belongs to the study of [[conjectures|WMEMMHZ3BH]].
+How a long proof is organized into lemmas and claims is treated in [[writing and reading proofs|STSM6PR7TX]].
