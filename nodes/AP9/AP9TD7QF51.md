@@ -59,8 +59,8 @@ Condition 2 also explains how to [[extend an independent set to a basis|0M4SXE5W
 ### The converse
 
 The statement is a list of equivalences, so each condition is also a converse of the others.
-For a family with repeated vectors, condition 3 can fail in a new way: the family $(v, v)$ spans the line through $v$, removing one copy still spans, and the family is not a basis.
-So the set form is the natural one here.
+The same equivalences hold for families, where we remove or add one member of the family.
+A repeated vector then fails conditions 1 and 3 together: the family $(v, v)$ with $v \ne 0$ spans the line through $v$, and it still spans after we remove one copy.
 
 ### Generalizations
 
