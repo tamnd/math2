@@ -45,7 +45,7 @@ The idea is everywhere in computing and analysis.
 A proof that a loop or a recursive program ends names a ranking function that falls at each pass.
 The [[Euclidean algorithm|0TRNT4X7J0]] ends because the remainders fall.
 A local search ends at a local optimum because the cost falls at each improvement.
-In the same sub-area, the [[extremal principle|MD3MRG90W4]] is the static form of the same idea: instead of running the process, you start at a state where $M$ is smallest.
+The [[extremal principle|MD3MRG90W4]] is the static form of the same idea: instead of running the process, you start at a state where $M$ is smallest.
 
 ## Notation
 
