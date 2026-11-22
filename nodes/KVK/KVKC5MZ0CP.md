@@ -14,20 +14,24 @@ sources:
 
 ## Example
 
-By the definition of [[big O notation|0TGV80E6A4]], $f(n) = O(g(n))$ means: there are constants $C > 0$ and $N$ such that $|f(n)| \le C \, |g(n)|$ for all $n \ge N$.
-We prove $n^2 + 3n = O(n^2)$ and then show why the sign $=$ here is one-way.
+An algorithms book writes "the loop runs $n^2 + 3n = O(n^2)$ times".
+By the definition of [[big O notation|0TGV80E6A4]], $f(n) = O(g(n))$ means that there are constants $C > 0$ and $N$ such that $|f(n)| \le C \, |g(n)|$ for all $n \ge N$.
+We prove $n^2 + 3n = O(n^2)$ and then show why the sign $=$ here works in one direction only.
 
-1. For $n \ge 1$ we have $3n \le 3n^2$, so $n^2 + 3n \le n^2 + 3n^2 = 4n^2$.
+1. For $n \ge 1$ we have $3n \le 3n^2$, so
+   $$n^2 + 3n \le n^2 + 3n^2 = 4n^2.$$
 2. So $C = 4$ and $N = 1$ work, and $n^2 + 3n = O(n^2)$.
 3. In the same way, $n \le n^2$ for $n \ge 1$, so $C = 1$ and $N = 1$ give $n = O(n^2)$.
-4. If the two signs $=$ were equalities of functions, symmetry and transitivity would give $n = n^2 + 3n$ for every $n$.
+4. If the two signs $=$ were equalities of functions, symmetry and transitivity would give
+   $$n = O(n^2) = n^2 + 3n.$$
 5. At $n = 1$ this would say $1 = 4$, which is false.
-6. So $O(n^2)$ is a class of functions, and "$f = O(g)$" means $f \in O(g)$. The sign does not allow the sides to be exchanged or chained like an equality.
+6. So $O(n^2)$ is a class of functions, and "$f = O(g)$" means $f \in O(g)$.
+   The sign does not allow the sides to be exchanged, and two such statements cannot be chained like equalities.
 
 ## Remarks
 
-The example shows the main difference between the $=$ of big O notation and the $=$ of [[equality, definition and equivalence signs|BCGR3NPPXC]].
-Donald Knuth calls such statements "one-way equalities".
+The $=$ of big O notation is not the $=$ of [[equality, definition and equivalence signs|BCGR3NPPXC]], because it is not symmetric.
+Donald Knuth called such statements "one-way equalities".
 Chains that read from left to right stay valid: $n^2 + 3n = O(n^2) = O(n^3)$ means $n^2 + 3n \in O(n^2) \subseteq O(n^3)$.
 A chain that reads from right to left, such as $O(n^2) = n$, is not valid.
 
@@ -42,12 +46,12 @@ So two different expressions are both "$O(n^2)$", and the sign $=$ here does not
 
 ### L2 human
 
-We show that $n^2 = O(n)$ is false, so the sign is not symmetric.
-
-1. Suppose there are $C > 0$ and $N$ with $n^2 \le C n$ for all $n \ge N$.
-2. For $n \ge 1$ this gives $n \le C$.
-3. Take an integer $n > \max(C, N, 1)$. Then $n \le C$ fails, which is a contradiction.
-4. So $n^2 \ne O(n)$, although $n = O(n^2)$.
-
-The typical use of big O is to state the running time of an algorithm, as in "insertion sort uses $O(n^2)$ comparisons".
-A trap: $O(n^2)$ gives an upper bound only, so the statement $n = O(n^2)$ is true even though $n^2$ is a poor bound for $n$.
+Show that $n^2 = O(n)$ is false, so that the sign is not symmetric.
+Suppose there are $C > 0$ and $N$ with $n^2 \le C n$ for all $n \ge N$.
+Divide by $n$, which is positive for $n \ge 1$:
+$$n \le C \quad \text{for all } n \ge \max(N, 1).$$
+Take an integer $n$ larger than $C$, $N$ and $1$.
+Then $n \le C$ fails, which is a contradiction.
+So $n^2 = O(n)$ is false, although $n = O(n^2)$ is true.
+Big O is the usual way to state the running time of an algorithm, as in "insertion sort uses $O(n^2)$ comparisons".
+Watch out: $O(n^2)$ gives an upper bound only, so $n = O(n^2)$ is true even though $n^2$ is a poor bound for $n$.

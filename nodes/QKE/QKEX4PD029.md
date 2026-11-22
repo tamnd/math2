@@ -15,90 +15,118 @@ sources:
 
 ## Summary
 
-Mathematical notation is a system of written symbols, together with rules that say how the symbols combine and what each combination denotes.
-A notation fixes three things: the symbols (letters, digits, signs of operations and relations, brackets), the layout rules (precedence, subscripts, superscripts, fraction bars), and the conventions about which letters stand for which kinds of object.
-A good notation is unambiguous: each well-formed expression has exactly one meaning.
-Notation lets a reader check a computation line by line, and it makes patterns visible that a long sentence in words hides.
+Mathematical notation is the written shorthand of mathematics, and it lets a reader check an argument line by line.
+Read the sentence "for every $\varepsilon > 0$ there is $N$ such that $|a_n| < \varepsilon$ for all $n \ge N$".
+Before any definition, the letters already tell you a lot: $\varepsilon$ is a small positive real number, $N$ and $n$ are whole numbers, and $a_n$ is the term number $n$ of a sequence.
+
+Mathematical notation is a system of written symbols together with rules that say how the symbols combine and what each combination denotes.
+It fixes three things: the symbols (letters, digits, signs of operations and relations, brackets), the layout rules (precedence, subscripts, superscripts, fraction bars), and the habits about which letters stand for which kinds of object.
+A notation works when it is unambiguous, so that each well-formed expression has exactly one meaning.
 
 ## Motivation
 
-Consider the sentence "the square of the sum of two numbers is the sum of their squares plus twice their product".
-In notation, the same claim is $(a + b)^2 = a^2 + 2ab + b^2$.
-The formula is shorter, and a reader can check it by expanding $(a + b)(a + b)$ term by term.
-The formula also shows the pattern: replace $b$ by $-b$ and the same rule gives $(a - b)^2 = a^2 - 2ab + b^2$.
-Mathematics needs notation because its arguments are long chains of such manipulations, and each step must be checkable.
+Take the sentence "the square of the sum of two numbers is the sum of their squares plus twice their product".
+In notation the same claim is
+$$(a + b)^2 = a^2 + 2ab + b^2.$$
+The formula is shorter, and you can check it by expanding $(a + b)(a + b)$ term by term.
+It also shows a pattern that the sentence hides: put $-b$ in place of $b$ and you get $(a - b)^2 = a^2 - 2ab + b^2$ at once.
+
+Mathematics needs notation because its arguments are long chains of such steps, and each step must be checkable.
+The rest of the topic builds on this idea.
+[[Conflicting conventions|CSFEP56A7D]] treats the symbols that two groups of authors read in two ways, [[abuse of notation|JV68YRB5YZ]] treats the shortcuts that everyone accepts, and [[equality, definition and equivalence signs|BCGR3NPPXC]] sorts out the family of signs that look like $=$.
 
 ## Notation
 
-The following letter conventions are common in English-language mathematics.
-None of them is a rule, and an author can override each one by a sentence such as "let $x$ be an integer".
-
-| Letters | Usual meaning |
-|---|---|
-| $n$, $m$, $k$ | integers or natural numbers, often counts or indices |
-| $i$, $j$, $k$ | indices of terms or of matrix entries ($i$ is also the imaginary unit) |
-| $x$, $y$, $z$ | real variables or unknowns |
-| $a$, $b$, $c$ | constants or coefficients |
-| $\varepsilon$, $\delta$ | small positive real numbers |
-| $f$, $g$, $h$ | functions |
-| $p$, $q$ | prime numbers (in number theory) |
-| $z$, $w$ | complex numbers |
-| $A$, $B$, $X$, $Y$ | sets or matrices |
-| $G$, $H$ | groups |
-| $V$, $W$ | vector spaces |
-| $e$, $\pi$, $i$ | the fixed constants $2.718\ldots$, $3.14159\ldots$ and $\sqrt{-1}$ |
-
-A subscript indexes a family: $a_n$ is the $n$-th term of a sequence, and $a_{ij}$ is the entry in row $i$ and column $j$ of a matrix.
-A superscript usually means a power, as in $x^2$, but it also marks derivatives, as in $f^{(3)}$, and indices in tensor notation.
-A prime gives a new name or a derivative: $x'$ is a second variable, and $f'$ is the derivative of $f$.
-The ellipsis "$\ldots$" stands for terms that follow an evident pattern, as in $1, 2, \ldots, n$.
-Low dots stand between commas, and centred dots stand between operation signs, as in $1 + 2 + \cdots + n$.
-
-Notation is two-dimensional: fractions, exponents, limits of sums and integrals, and matrices use the vertical position of symbols.
-A linear string such as `a/b+c` must use brackets or precedence rules to say the same thing.
+Letters have habits, and a reader who knows them reads faster.
+The letters $n$, $m$ and $k$ are usually integers, often counts, and $i$, $j$ and $k$ are usually indices, though $i$ is also the imaginary unit.
+The letters $x$, $y$ and $z$ are real variables or unknowns, $a$, $b$ and $c$ are constants or coefficients, and $\varepsilon$ and $\delta$ are small positive numbers.
+Functions are $f$, $g$ and $h$, primes in number theory are $p$ and $q$, and complex numbers are $z$ and $w$.
+Capital letters name larger objects: $A$ and $X$ for sets or matrices, $G$ and $H$ for groups, and $V$ and $W$ for vector spaces.
+None of these is a rule, and a sentence such as "let $x$ be an integer" overrides each one.
 
 The international standard ISO 80000-2 lists recommended signs and their readings.
-Its rules include: variables in italic type, and the constants e, i and π, the differential d and function names such as sin and log in upright type.
-It writes $\ln$, $\lg$ and $\operatorname{lb}$ for the logarithms to bases $\mathrm{e}$, $10$ and $2$.
-Most mathematics books use italic $e$, $i$ and $\pi$, and they follow the standard only in part.
-The conventions of this site are on the page [[conflicting conventions|CSFEP56A7D]].
+It sets variables in italic type and sets the constants $\mathrm{e}$, $\mathrm{i}$ and $\pi$, the differential $\mathrm{d}$ and function names such as $\sin$ in upright type.
+Most mathematics books follow it only in part, and they write italic $e$ and $i$.
+The [[glossary of mathematical symbols|2PTCAGCWZE]] lists the shared symbols with their readings.
 
 ## Remarks
 
-### Examples
+### Subscripts, superscripts and primes
 
-1. [[The sum 1 + 2 + ... + n in sigma notation|MBPSRTCW23]]. The expression $\sum_{k=1}^{n} k$ replaces the ellipsis by an index $k$ that runs from $1$ to $n$.
-2. [[The entries of a matrix with two subscripts|D5H0JWNHNP]]. For a matrix $A = (a_{ij})$, the first subscript is the row and the second subscript is the column.
-3. [[Set-builder notation|0TMZ89Q5KA]]. The expression $\{ n \in \mathbb{Z} : n = 2m \text{ for some } m \in \mathbb{Z} \}$ is the set of even integers.
-4. Function notation. The line $f \colon \mathbb{R} \to \mathbb{R}$, $x \mapsto x^2$ names a [[function|0EPAT51DXQ]], its domain, its codomain and its rule, and $f(3) = 9$.
-5. Precedence. The expression $2 + 3 \cdot 4$ means $2 + (3 \cdot 4) = 14$, because multiplication binds more strongly than addition.
+A subscript picks one member of a family.
+In a sequence, $a_n$ is the term number $n$, and in a [[matrix|0VD9ZSWWJG]], $a_{ij}$ is the entry in row $i$ and column $j$.
+[[The entries of a matrix with two subscripts|D5H0JWNHNP]] works this out on the rule $a_{ij} = 10i + j$, where $a_{12} = 12$ but $a_{21} = 21$, so the order of the subscripts matters.
 
-### Non-examples
+A superscript usually means a power, as in $x^2$.
+It can also mark a derivative, as in $f^{(3)}$ for the third derivative, or an index in physics, where $x^2$ can be the second coordinate of a point.
+A prime gives either a new name or a derivative: $x'$ is often a second variable, and $f'$ is the derivative of $f$.
+The context decides, and a careful author says which reading holds when both are possible.
 
-1. [[The list 1, 2, 4, ... does not determine its next term|1TDTSKQQX9]]. An ellipsis is notation only when the pattern is unique, and here two natural rules give $8$ and $7$.
-2. The linear string `8/2*4` is read as $(8/2) \cdot 4 = 16$ by some readers and as $8/(2 \cdot 4) = 1$ by others. A string that two careful readers parse in two ways does not work as notation until brackets are added.
-3. The string $2 + {} \times 3$ is not a well-formed expression, because the sign $\times$ has no left operand.
+### The ellipsis and the sigma sign
 
-### Basic properties
+Compare two ways to write the sum of the first $n$ positive integers:
+$$1 + 2 + \cdots + n \qquad \text{and} \qquad \sum_{k=1}^{n} k.$$
+The first form shows a few terms and asks you to guess the rule.
+The second form states the rule: the index $k$ runs from $1$ to $n$, and the term for each $k$ is $k$.
+For $n = 4$ both give $1 + 2 + 3 + 4 = 10$.
+[[The sum 1 + 2 + ... + n in sigma notation|MBPSRTCW23]] shows that the sigma form also handles $n = 1$ and $n = 0$, where the dots read badly.
 
-1. Notation is not the object. The number one half is written $\tfrac{1}{2}$, $0.5$, $2^{-1}$ and $\tfrac{3}{6}$, and all four expressions denote the same number.
-2. A bound variable can be renamed. In $\sum_{k=1}^{n} k$ the index $k$ is bound by the sum, so $\sum_{k=1}^{n} k = \sum_{j=1}^{n} j$. The letter $n$ is free, and renaming it changes the meaning.
-3. Brackets override precedence. So $-3^2 = -(3^2) = -9$, but $(-3)^2 = 9$.
-4. A notation must be defined before its first use, unless it is in the shared conventions of the reader. The page [[glossary of mathematical symbols|2PTCAGCWZE]] lists the shared symbols.
-5. One symbol can have several meanings in different fields. The page [[conflicting conventions|CSFEP56A7D]] lists the main conflicts, and the page [[abuse of notation|JV68YRB5YZ]] treats the deliberate shortcuts.
+An ellipsis is safe only when the pattern is unique.
+[[The list 1, 2, 4, ... does not determine its next term|1TDTSKQQX9]]: doubling gives $8$ next, and the rule $\frac{n^2 + n + 2}{2}$ gives $7$, so the display has no single meaning until the author adds the rule.
+By habit, low dots stand between commas, as in $1, 2, \ldots, n$, and centered dots stand between operation signs, as in $1 + 2 + \cdots + n$.
+
+### Bound and free letters
+
+In $\sum_{k=1}^{n} k$ the two letters do different jobs.
+The index $k$ is bound by the sum, so you can rename it: $\sum_{k=1}^{n} k = \sum_{j=1}^{n} j$.
+The letter $n$ is free, and the value of the sum depends on it.
+The same holds for the variable of an integral, $\int_0^1 x^2 \, dx = \int_0^1 t^2 \, dt = \tfrac{1}{3}$, and for the variable of a set-builder expression.
+A letter must never be bound and free in one expression, so $\sum_{n=1}^{n} n$ is not well-formed.
+
+### Layout in two dimensions
+
+Notation uses the page in two directions.
+Fractions, exponents, the limits of sums and integrals, and matrices all depend on the height of a symbol.
+So $\frac{a}{b + c}$ is clear on the page, while the typed string `a/b+c` means $\frac{a}{b} + c$ by the precedence rules and needs brackets, `a/(b+c)`, to mean the fraction.
+
+Precedence is part of the layout.
+In $2 + 3 \cdot 4$ multiplication binds first, so the value is $2 + 12 = 14$, and every standard source agrees.
+An exponent binds before a minus sign:
+$$-3^2 = -(3^2) = -9, \qquad (-3)^2 = 9.$$
+Watch out for software: some spreadsheet programs read `-3^2` as $(-3)^2 = 9$, so type the brackets you mean.
+
+### Notation is not the object
+
+One number has many names.
+The expressions $\tfrac{1}{2}$, $0.5$, $2^{-1}$ and $\tfrac{3}{6}$ all denote the same number, and a theorem about the number does not care which name you use.
+So a notation is good when it makes the facts you need easy to see.
+The decimal $0.5$ is best for comparing sizes, and the fraction $\tfrac{3}{6}$ shows a common factor.
+Leibniz's $\frac{dy}{dx}$ suggests the chain rule $\frac{dy}{dx} = \frac{dy}{du} \frac{du}{dx}$, though a derivative is not a fraction.
+
+### Watch out
+
+The first trap is a dropped bracket.
+A student writes $-3^2 = 9$, but the exponent binds first, so $-3^2 = -9$.
+The second trap is an ambiguous typed string.
+Some readers take `8/2*4` as $(8/2) \cdot 4 = 16$, and others take it as $8 / (2 \cdot 4) = 1$, so write a fraction bar or brackets.
+The third trap is to treat an ellipsis as a proof.
+The display $1, 2, 4, \ldots$ suggests a rule, but only a formula fixes the terms after the dots.
 
 ### History
 
-François Viète wrote known and unknown quantities with letters in the late sixteenth century.
-René Descartes, in La Géométrie (1637), used $x$, $y$, $z$ for unknowns and $a$, $b$, $c$ for known quantities, a habit that survives today.
+François Viète wrote both known and unknown quantities with letters in the late sixteenth century.
+René Descartes, in La Géométrie (1637), used $x$, $y$ and $z$ for unknowns and $a$, $b$ and $c$ for known quantities, a habit that survives.
 Robert Recorde introduced the equals sign in 1557.
-Leonhard Euler introduced or spread the notations $f(x)$, $e$, $i$ and $\Sigma$, and the detailed history belongs to the history of mathematics.
+Leonhard Euler introduced or spread the notations $f(x)$, $e$, $i$ and $\Sigma$ for a sum.
+The international standard ISO 80000-2 first appeared in 2009, and a revised edition appeared in 2019.
 
-### Common errors
+### Try it
 
-1. A student reuses a bound index as a free variable, as in $\sum_{n=1}^{n} n$. The letter $n$ then has two meanings in one expression; write $\sum_{k=1}^{n} k$.
-2. A student drops brackets and writes $-3^2 = 9$. The exponent binds before the minus sign, so $-3^2 = -9$.
-3. A student treats an ellipsis as a proof. The display $1, 2, 4, \ldots$ suggests a pattern, but the terms after the ellipsis need a formula or a rule.
+First, rename the bound letter in $\sum_{i=1}^{3} i^2$ and compute the sum.
+It equals $\sum_{k=1}^{3} k^2 = 1 + 4 + 9 = 14$, and the renaming changes nothing.
+
+Second, compute $-2^4$ and $(-2)^4$.
+The exponent binds first, so $-2^4 = -16$, while $(-2)^4 = 16$.
 
 ## Explanations
 
@@ -109,27 +137,28 @@ Instead of "three times a number, plus two", we write $3x + 2$.
 Each symbol has a fixed job: $x$ stands for the number, $3x$ means three times it, and $+$ means add.
 Because the jobs are fixed, everyone reads $3x + 2$ in the same way.
 For $x = 4$ the expression gives $3 \cdot 4 + 2 = 14$.
-Some letters have habits: $n$ is usually a whole number, and $x$ is usually an unknown.
+Some letters also have habits, so $n$ is usually a whole number and $x$ is usually an unknown.
 
 ### L2 human
 
-We read the expression $\sum_{i=1}^{3} (2i - 1)$ symbol by symbol.
+Read $\sum_{i=1}^{3} (2i - 1)$ one symbol at a time.
+The sign $\Sigma$ says that we add terms.
+The text $i = 1$ below it says that the index $i$ starts at $1$, and the $3$ above it says that $i$ stops at $3$.
+The term $2i - 1$ gives $1$, $3$ and $5$ for $i = 1, 2, 3$, so
+$$\sum_{i=1}^{3} (2i - 1) = 1 + 3 + 5 = 9 = 3^2.$$
+Check: with $n = 3$ the rule $n^2$ gives $9$ as well.
 
-1. The sign $\Sigma$ says: add the terms.
-2. The text $i = 1$ below the sign says that the index $i$ starts at $1$.
-3. The $3$ above the sign says that $i$ stops at $3$, so $i$ takes the values $1$, $2$ and $3$.
-4. The term $2i - 1$ gives $1$, $3$ and $5$ for these values.
-5. So the expression equals $1 + 3 + 5 = 9 = 3^2$.
-
-The typical use of notation like this is to state a pattern for all $n$ at once: $\sum_{i=1}^{n} (2i - 1) = n^2$, which a proof by [[mathematical induction|0ASJVEFA9J]] can then establish.
-A trap: the index $i$ here is not the imaginary unit, and the context decides which meaning holds.
+The value of the notation is that it states the pattern for all $n$ at once:
+$$\sum_{i=1}^{n} (2i - 1) = n^2,$$
+and a proof by [[mathematical induction|0ASJVEFA9J]] can then establish it.
+Watch out: the index $i$ here is not the imaginary unit.
 When both meanings could occur, as in complex analysis, authors use $k$ or $j$ for the index.
 
 ### L3 human
 
-A notation is a formal language with a semantics: a grammar of well-formed expressions and a map that sends each expression to an object.
-Programming languages and proof assistants make this exact, and in Lean each expression has a type and a unique parse.
-Ordinary mathematical notation is not fully formal: it relies on context, on overloading of symbols, and on the [[abuse of notation|JV68YRB5YZ]] that a reader resolves silently.
-The study of how such context is resolved is part of the linguistics of mathematics, and the parsing problems are visible when one formalizes a textbook proof.
-Good notation also carries structure: the Leibniz notation $\frac{dy}{dx}$ suggests the chain rule, and index notation in linear algebra suggests the rule for matrix products.
-The pages of this sub-area treat the [[conflicts between conventions|CSFEP56A7D]], the [[family of equality signs|BCGR3NPPXC]], [[abbreviations|4ZNYMYRRY3]] and the informal [[jargon|4M1FGQ0HNZ]] that surround the symbols.
+A notation is a formal language with a meaning attached: a grammar of well-formed expressions and a map that sends each expression to an object.
+Programming languages and proof assistants make this exact, and in Lean each expression has a type and one parse.
+Ordinary mathematical notation is not fully formal.
+It relies on context, on symbols with several meanings, and on the [[abuse of notation|JV68YRB5YZ]] that a reader resolves silently, and these gaps become visible when someone formalizes a textbook proof.
+Good notation also carries structure: index notation for matrices encodes the product rule $c_{ij} = \sum_k a_{ik} b_{kj}$, and the Einstein summation convention drops the $\Sigma$ altogether.
+The other pages of the topic treat [[mathematical abbreviations|4ZNYMYRRY3]] and the informal [[mathematical jargon|4M1FGQ0HNZ]] that surround the symbols.

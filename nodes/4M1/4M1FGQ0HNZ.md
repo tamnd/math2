@@ -15,79 +15,100 @@ sources:
 
 ## Summary
 
-Mathematical jargon is the set of words and phrases that mathematicians use with a special meaning that is not a formal definition, such as "nice", "well-behaved", "vanish", "upstairs", "folklore" and "morally true".
-A jargon word is different from a defined term: a defined term, such as "normal subgroup", has an exact definition, while a jargon word has a meaning that the community shares and that the context makes precise.
-Some jargon words are short names for exact ideas ("$f$ vanishes at $a$" means $f(a) = 0$), and others express a judgement or a guess ("this is morally true").
-Jargon matters because it fills lectures, papers and conversations, and a reader who takes it literally, or ignores it, misreads the argument.
+A lecturer writes "the polynomial $p(x) = x^3 - x$ vanishes at $1$, so $x - 1$ divides it".
+Nothing disappears here: "vanishes at $1$" means $p(1) = 0$, and indeed $1 - 1 = 0$.
+The word is ordinary English with a special meaning that every mathematician knows and no textbook defines.
+
+*Mathematical jargon* is the set of such words and phrases: "vanish", "nice", "well-behaved", "natural", "structure", "upstairs", "folklore", "morally true" and many more.
+A jargon word differs from a defined term.
+A defined term, such as "normal subgroup", has an exact definition that decides every case.
+A jargon word has a meaning that the community shares and that the context makes precise.
+Some jargon words are short names for exact conditions, and others express a judgment of the speaker.
 
 ## Motivation
 
-A [[mathematical proof|0B94TKFQJX]] is written in a mix of formulas, defined terms and ordinary words.
-Some ordinary words acquire a fixed meaning among mathematicians that differs from their everyday meaning.
-For example, a "nice" function is not a pleasant function; it is a function with the properties that the current argument needs.
-These words help experts talk fast, because one word replaces a list of conditions that both sides know.
-A student meets them without a definition, so this page lists the common ones and says what each one means and how to make it precise.
+A [[mathematical proof|0B94TKFQJX]] mixes formulas, defined terms and ordinary words.
+Some ordinary words have gained a fixed sense among mathematicians, and that sense differs from the everyday one.
+A "nice" function is not a pleasant function; it is a function with the properties that the current argument needs.
+Experts use these words to talk fast, because one word replaces a list of conditions that both sides know.
+You meet them in lectures and papers without a definition, so you need to know which ones are exact and which ones hide a choice.
+The later pages on [[trivial, obvious and clearly|Y0HXCJRB9B]], [[canonical and natural|F8WNADZFMM]] and [[almost all, generic and in general|N1XSAXCQY3]] each study one family of jargon in depth.
 
 ## Notation
 
 Jargon has no symbols of its own.
-The site uses jargon words only when it also states the exact condition that the word stands for.
-When a page writes "$f$ vanishes on $A$", it means $f(x) = 0$ for every $x \in A$.
+The site uses a jargon word only when it also states the exact condition behind it.
+So when a page writes "$f$ vanishes on $A$", it means $f(x) = 0$ for every $x \in A$, and when it calls a function "nice", it says which property it means.
 
 ## Remarks
 
-### A list of common jargon
+### A first sentence, made exact
 
-| Word | Meaning among mathematicians |
-|---|---|
-| nice, well-behaved | has the regularity that the current argument needs, such as continuity, smoothness or finiteness; the opposite of [[pathological|WMBZPYPN2D]] |
-| natural | defined without arbitrary choices; see [[canonical and natural|F8WNADZFMM]] |
-| structure | the extra data on a set, such as operations, an order or a topology, together with their axioms |
-| vanish | to be equal to zero: $f$ vanishes at $a$ when $f(a) = 0$ |
-| vanish identically | to be zero at every point: $f(x) = 0$ for all $x$ |
-| upstairs, downstairs | the larger and the smaller object of a pair, such as a ring and a subring, a covering space and its base, or the numerator and the denominator of a fraction |
-| folklore | a result that experts know and use, but that has no standard published source or no known first author |
-| morally true | true in spirit: true in a simple model case, or true after technical conditions are added |
-| on the nose | equal exactly, not only up to an isomorphism or an approximation |
-| for free | follows with no extra work from what is already proved |
-| in general | either "in every case" or "in most cases"; see [[almost all, generic and in general|N1XSAXCQY3]] |
-| the obvious map | the map that a reader would write down first; in good writing it is also given by a formula |
+Go back to the opening sentence and check every word.
+"Vanishes at $1$" means $p(1) = 0$:
+$$p(1) = 1^3 - 1 = 0.$$
+The factor theorem then gives that $x - 1$ divides $p(x)$, and the division shows it:
+$$x^3 - x = (x - 1)(x^2 + x) = (x - 1) \, x \, (x + 1).$$
+So $p$ vanishes at $-1$, $0$ and $1$ and nowhere else, as [[the function x^2 - 4 vanishes at 2 and at -2|ZT7JBHZFHF]] works out for a second polynomial.
+The related phrase "vanishes identically" means $p(x) = 0$ for every $x$, and this $p$ does not, since $p(2) = 6$.
 
-Some jargon words have their own pages: [[trivial, obvious and clearly|Y0HXCJRB9B]], [[sharp|KWQV0G0VJ3]], [[elementary|84SZZBACP3]], and [[elegant and deep|STHWD1K9AN]].
+### Words with an exact meaning
 
-### Examples
+Some jargon becomes exact as soon as the setting is fixed.
+"Vanish" means "equal zero", and "on the nose" means "equal exactly", not only up to an isomorphism or an approximation.
+"Structure" means the extra data on a set, such as operations, an order or a topology, together with their axioms.
+"Upstairs" and "downstairs" name the larger and the smaller object of a pair: a ring and a subring, a covering space and its base, or the numerator and the denominator of a fraction.
+[[Upstairs and downstairs in the Gaussian integers|X49VTBJ08Z]] makes this exact: the prime $5$ downstairs in $\mathbb{Z}$ splits upstairs as $(2 + i)(2 - i)$, while $3$ stays prime.
 
-1. [[The function x^2 - 4 vanishes at 2 and at -2|ZT7JBHZFHF]]. The word "vanish" is a short name for $f(a) = 0$.
-2. [[Upstairs and downstairs in the Gaussian integers|X49VTBJ08Z]]. The prime $5$ of $\mathbb{Z}$ downstairs factors upstairs as $(2 + i)(2 - i)$, while $3$ stays prime upstairs.
-3. "Let $f$ be a nice function on $[0, 1]$." In a first course on integrals this often means "continuous", so that the integral of $f$ exists. The writer should say which property is meant.
-4. "For a finite-dimensional vector space $V$, the isomorphism $V \cong V^{**}$ is natural." The map $v \mapsto (\varphi \mapsto \varphi(v))$ uses no choice of basis, as the [[canonical isomorphism with the double dual|0ZJM9D7NPS]] shows.
-5. "The result is folklore." The writer knows of no first published proof and treats the result as common knowledge, so the reader should look for a proof or prove it.
+"Natural" also belongs here in its stronger sense.
+"The isomorphism $V \cong V^{**}$ is natural for a finite-dimensional space $V$" means that the map $v \mapsto (\varphi \mapsto \varphi(v))$ uses no choice of basis, as the [[canonical isomorphism with the double dual|0ZJM9D7NPS]] shows.
 
-### Non-examples
+### Words that express a judgment
 
-1. [[The word normal in "normal subgroup" is a defined term|EZVF6MJEH9]]. It has an exact definition, so it is not jargon, although the everyday word "normal" is vague.
-2. "Continuous" is not jargon. It has the exact $\varepsilon$-$\delta$ definition, and a claim that a function is continuous can be proved or refuted.
-3. The abbreviation `iff` is not jargon. It is a short written form with one fixed expansion, "if and only if"; see [[mathematical abbreviations|4ZNYMYRRY3]].
+Other jargon cannot be proved or refuted, because it reports a view of the speaker.
+"Let $f$ be a nice function on $[0, 1]$" often means "continuous" in a first course on integrals, and "smooth with compact support" in a course on distributions.
+"Well-behaved" is a near synonym, and its opposite is [[pathological|WMBZPYPN2D]].
+"Folklore" says that experts know and use a result but that it has no standard published proof or no known first author.
+"Morally true" says that a claim holds in a model case, or after technical conditions are added, and the work is to find those conditions.
+"For free" says that a result follows with no extra work from what is already proved.
 
-### Basic properties
+### Two readings of "in general"
 
-1. A jargon word depends on context. "Nice" means "continuous" in one lecture and "smooth with compact support" in another.
-2. A jargon word can always be replaced by an exact condition, and a careful writer does this at least once in each text.
-3. Some jargon words name exact relations: "vanish", "upstairs" and "on the nose" have a precise meaning once the setting is fixed.
-4. Other jargon words express judgement: "nice", "morally true" and "folklore" are claims about the state of knowledge or the taste of the writer, and they cannot be proved.
-5. A defined term can be built from a jargon word. The informal "natural" became the defined term "natural transformation" in category theory.
+The phrase "in general" has two opposite readings, and you must tell them apart.
+In "a polynomial of degree $n \geq 1$ has, in general, exactly $n$ complex roots counted with multiplicity", it means "always": the fundamental theorem of algebra gives it for every such polynomial.
+In "the product of two irrational numbers is not irrational in general", it means "not always": $\sqrt{2} \cdot \sqrt{2} = 2$ is rational, although $\sqrt{2} \cdot \sqrt{3} = \sqrt{6}$ is irrational.
+The clue is the negation.
+"Not true in general" almost always means "has a counterexample", and the text usually gives one nearby.
+A positive "in general" can mean "always" or "usually", and the second meaning is the subject of [[almost all, generic and in general|N1XSAXCQY3]].
+
+### What is not jargon
+
+[[The word normal in "normal subgroup" is a defined term|EZVF6MJEH9]] shows the difference.
+The everyday word "normal" is vague, but "normal subgroup" has a definition that decides every subgroup, so it is a technical term, not jargon.
+"Continuous" is not jargon either, because it has the exact $\varepsilon$-$\delta$ definition, and a claim of continuity can be proved or refuted.
+The short form `iff` is not jargon, because it has one fixed expansion, as [[mathematical abbreviations|4ZNYMYRRY3]] explains.
+
+### Watch out
+
+Do not treat a jargon word as a hypothesis that needs no checking.
+"Every nice function on $[0, 1]$ has a maximum" is true for continuous functions, but it fails for $f(x) = x$ on $[0, 1)$ extended by $f(1) = 0$, which is bounded and has no maximum.
+Before you use such a sentence, replace "nice" by the exact condition and check that your function satisfies it.
+
+Do not cite a "folklore" result as proved either.
+It may have no complete proof in print, so give a proof or a source.
 
 ### History
 
 Many jargon words began as informal speech in lectures and seminars and then entered print.
-The word "natural" is an example: Samuel Eilenberg and Saunders Mac Lane gave it an exact meaning in their 1945 paper that founded category theory.
-Lists of jargon, such as the Wikipedia glossary of mathematical jargon, collect the words with their usual meanings.
+"Natural" is the best known case: Samuel Eilenberg and Saunders Mac Lane gave it an exact meaning in their 1945 paper that founded category theory, and the exact notion is a [[natural transformation|KYCPCC57FT]].
 
-### Common errors
+### Try it
 
-1. A student takes "nice" or "well-behaved" as a hypothesis that needs no checking. The theorem holds only under the exact conditions that the word hides.
-2. A student reads "in general" as "always" when the writer meant "usually", or the reverse. The two readings give different theorems.
-3. A student cites a "folklore" result as proved. A folklore result may have no complete proof in print, so the student should give a proof or a source.
+First, make "the function $\sin x$ vanishes exactly at the integer multiples of $\pi$" exact and check it at one point.
+It says $\sin x = 0$ if and only if $x = k\pi$ for an integer $k$; for example $\sin 2\pi = 0$, while $\sin(\pi/2) = 1 \neq 0$.
+
+Second, decide which reading of "in general" is meant in "a continuous function is not differentiable in general".
+It means "not always", and $\lvert x \rvert$ at $0$ is the counterexample.
 
 ## Explanations
 
@@ -95,29 +116,27 @@ Lists of jargon, such as the Wikipedia glossary of mathematical jargon, collect 
 
 Mathematicians use some everyday words in a special way.
 When they say that a function "vanishes" at a point, they mean that its value there is zero.
-For example, the function that sends $x$ to $x - 3$ vanishes at $3$, because $3 - 3 = 0$.
-When they call a function "nice", they mean that it has no strange behaviour, such as jumps, that would break the argument.
-These words help experts talk quickly, but a careful text always says exactly what they mean.
+The rule "subtract $3$" vanishes at $3$, because $3 - 3 = 0$.
+When they call a function "nice", they mean that it has no strange behavior, such as jumps, that would break the argument.
+These words help experts talk quickly, but a careful text also says exactly what they mean.
 
 ### L2 human
 
-We make a jargon sentence precise: "The polynomial $p(x) = x^3 - x$ vanishes at three points, and it does not vanish identically."
-
-1. "Vanishes at $a$" means $p(a) = 0$.
-2. We factor: $p(x) = x(x - 1)(x + 1)$.
-3. A product of real numbers is $0$ exactly when one factor is $0$, so $p(a) = 0$ exactly when $a \in \{-1, 0, 1\}$.
-4. So $p$ vanishes at exactly three points, $-1$, $0$ and $1$.
-5. "Vanishes identically" means $p(x) = 0$ for every $x$. Since $p(2) = 6 \neq 0$, the polynomial does not vanish identically.
-
-The typical use of jargon is to compress a standard condition into one word in a talk or a proof sketch.
-A trap: a polynomial that is zero as a function need not be the zero polynomial over a finite field.
-Over $\mathbb{Z}/2\mathbb{Z}$, the polynomial $x^2 + x$ vanishes at $0$ and at $1$, so it vanishes identically as a function, but its coefficients are not all zero.
+Make this sentence exact: "the polynomial $p(x) = x^2 + x$ vanishes at two points of $\mathbb{R}$, but over $\mathbb{Z}/2\mathbb{Z}$ it vanishes identically."
+Over $\mathbb{R}$, factor and use that a product is zero only when a factor is zero:
+$$x^2 + x = x(x + 1) = 0 \iff x = 0 \text{ or } x = -1.$$
+So $p$ vanishes at exactly two real points.
+Over $\mathbb{Z}/2\mathbb{Z}$ there are only two inputs, and both give zero:
+$$p(0) = 0, \qquad p(1) = 1 + 1 = 0.$$
+So $p$ vanishes at every point, which is what "identically" means.
+Yet the coefficients of $p$ are $1$ and $1$, so $p$ is not the zero polynomial.
+The example shows why the exact version matters: "vanishes identically" is a claim about values, not about coefficients, and over a finite field the two differ.
 
 ### L3 human
 
-Jargon is the informal layer of the language of mathematics, and much of it marks a structure that is formalised elsewhere.
-"Natural" became the theory of natural transformations, and "upstairs" and "downstairs" describe a morphism $Y \to X$ viewed from its source and its target.
-"On the nose" separates strict equality from equality up to isomorphism, a distinction that higher category theory makes central.
-"Morally true" often points to a statement that holds in a model case, such as a finite-dimensional or a smooth case, and the work is to find the hypotheses under which it holds in general.
-Other words, such as "folklore", describe the sociology of the field and not mathematics.
-The later pages of this sub-area treat the most frequent families of jargon: triviality, canonicity, genericity, size ("sufficiently large"), strength, sharpness, elementarity, pathology and elegance.
+Jargon is the informal layer of the language of mathematics, and much of it points to a structure that is made formal elsewhere.
+"Natural" became the theory of natural transformations, and "upstairs" and "downstairs" describe a morphism $Y \to X$ seen from its source and from its target.
+"On the nose" separates strict equality from equality up to isomorphism, a distinction that higher category theory puts at the center.
+"Morally true" often points to a statement that holds in a model case, such as the finite-dimensional or the smooth case, and the research is to find the hypotheses under which it holds in general.
+Other words, such as "folklore", describe the sociology of a field and not its mathematics.
+The later families of jargon, from [[sufficiently large, eventually and frequently|FEQ7WATMHF]] to [[sharp and best possible results|KWQV0G0VJ3]] and [[elementary proof|84SZZBACP3]], each turn one informal word into a precise statement.
