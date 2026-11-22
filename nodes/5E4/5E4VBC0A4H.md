@@ -35,7 +35,7 @@ Then for all $u, v, w \in V$ and $a \in F$:
 ### A check in the plane
 
 In $\mathbb{R}^2$ with $v = (3, 4)$, part 4 reads $0 \cdot (3, 4) = (0, 0)$, and part 6 reads $(-1)(3, 4) = (-3, -4)$.
-Both are obvious from the entries here, so the point of the statement is that they also hold in spaces where we cannot compute entry by entry.
+Both follow at once from the entries here, so the point of the statement is that they also hold in spaces where we cannot compute entry by entry.
 In the [[positive reals with product as addition|DQQ6NXK1SQ]], the zero vector is the number $1$ and scaling is a power.
 There part 4 says $x^0 = 1$, and part 6 says $x^{-1} = 1/x$ is the negative of $x$.
 
