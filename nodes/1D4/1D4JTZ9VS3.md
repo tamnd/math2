@@ -20,7 +20,7 @@ The later topics on orthogonal projections, adjoints and the spectral theorems b
 
 ## Remarks
 
-### Reading order
+### Reading order: from the axioms to right angles
 
 1. [[Inner product|0NB0AWGJBW]]: you learn the three axioms, why complex vectors need a conjugate, and the inner products on matrices and polynomials.
 2. [[Inner product space|0QVNCJXRY3]]: you see that the inner product is part of the data, so one vector space can carry two different geometries.
@@ -31,6 +31,9 @@ The later topics on orthogonal projections, adjoints and the spectral theorems b
 7. [[Polarization identity|05FKHRT0B4]]: you recover the inner product from the norm, and conclude that maps which keep lengths also keep inner products.
 8. [[Orthogonal vectors|0Y2X7P2WB7]]: you test right angles by $\ip{x}{y} = 0$ and see that the answer depends on the inner product.
 9. [[Pythagorean theorem in an inner product space|0BVTDM872V]]: you add squared lengths of orthogonal vectors and see why the converse fails over $\mathbb{C}$.
+
+### Reading order: orthonormal bases and linear forms
+
 10. [[Orthonormal family|0RW9TNNT87]]: you work with unit vectors at right angles and prove that they are always independent.
 11. [[Orthonormal basis|0S9GGTR0EX]]: you recognize orthonormal bases, including the columns of matrices with $Q^* Q = I$.
 12. [[Coordinates in an orthonormal basis|09DZ8CD1AK]]: you find coordinates as inner products, $v = \sum_i \ip{v}{e_i} e_i$, the model of Fourier coefficients.

@@ -20,7 +20,7 @@ formal:
     match: partial
 history:
   first_stated: "Bessel, 1828, a special case"
-  notes: "The Wikipedia article states that the inequality is named for Bessel, who derived a special case of it in 1828."
+  notes: "Named after Friedrich Wilhelm Bessel, who derived a special case of it in 1828."
 same_as:
   wikidata: Q794042
   wikipedia: Bessel's inequality
