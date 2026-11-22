@@ -18,38 +18,51 @@ sources:
 ## Example
 
 Let $A = \begin{pmatrix} 2 & 1 & 1 \\ 1 & 2 & 1 \\ 1 & 1 & 2 \end{pmatrix}$ over $\R$.
+We show that $A$ is diagonalizable, although one of its eigenvalues is repeated.
 
-1. Write $A = I + J$, where $J$ is the matrix of all ones. Then $J(1, 1, 1) = 3(1, 1, 1)$, and $J v = 0$ for each $v$ with $x + y + z = 0$.
-2. So $A(1, 1, 1) = 4(1, 1, 1)$, and $A v = v$ for each $v$ in the plane $x + y + z = 0$.
-3. The [[characteristic polynomial|0VSSPAFM2C]] is $(t - 4)(t - 1)^2$. Its roots are $4$ (simple) and $1$ (double).
-4. The [[eigenspace|0G0RFPG8HR]] of $1$ is $\ker(A - I) = \ker J$, the plane $x + y + z = 0$, with the basis $(1, -1, 0)$ and $(1, 0, -1)$. So the geometric multiplicity of $1$ is $2$, equal to the algebraic one.
-5. The eigenspace of $4$ is spanned by $(1, 1, 1)$.
-6. Let $P = \begin{pmatrix} 1 & 1 & 1 \\ 1 & -1 & 0 \\ 1 & 0 & -1 \end{pmatrix}$ and $D = \operatorname{diag}(4, 1, 1)$. Then $\det P = 3$, and $P^{-1} = \frac{1}{3} \begin{pmatrix} 1 & 1 & 1 \\ 1 & -2 & 1 \\ 1 & 1 & -2 \end{pmatrix}$.
-7. Multiply back: $A P = \begin{pmatrix} 4 & 1 & 1 \\ 4 & -1 & 0 \\ 4 & 0 & -1 \end{pmatrix} = P D$. Since $P$ is invertible, $A = P D P^{-1}$.
-8. So $A$ is [[diagonalizable|07SQCNV233]], although its eigenvalue $1$ is repeated.
+1. Write $A = I + J$, where $J$ is the $3 \times 3$ matrix of all ones.
+   Each row of $J$ adds up the coordinates, so $J(1, 1, 1) = (3, 3, 3)$, and $J v = 0$ for every $v = (x, y, z)$ with $x + y + z = 0$.
+2. Since $A w = w + J w$ for every vector $w$, we get $A(1, 1, 1) = 4(1, 1, 1)$, and $A v = v$ for every $v$ in the plane $x + y + z = 0$.
+3. So $4$ and $1$ are eigenvalues, and the [[characteristic polynomial|0VSSPAFM2C]] is $(t - 4)(t - 1)^2$.
+   Check: its constant term is $-4$, and $(-1)^3 \det A = -4$, since $\det A = 4$.
+4. The [[eigenspace|0G0RFPG8HR]] of $1$ is $\ker(A - I) = \ker J$, the plane $x + y + z = 0$, with the basis $(1, -1, 0)$ and $(1, 0, -1)$.
+   Its dimension $2$ equals the algebraic multiplicity $2$ of the eigenvalue $1$.
+5. The eigenspace of $4$ is the line spanned by $(1, 1, 1)$.
+6. Put the three eigenvectors as the columns of $P$, and the eigenvalues in the same order in $D$:
+$$P = \begin{pmatrix} 1 & 1 & 1 \\ 1 & -1 & 0 \\ 1 & 0 & -1 \end{pmatrix}, \qquad D = \begin{pmatrix} 4 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{pmatrix}, \qquad P^{-1} = \frac{1}{3} \begin{pmatrix} 1 & 1 & 1 \\ 1 & -2 & 1 \\ 1 & 1 & -2 \end{pmatrix}.$$
+   Here $\det P = 3$, and the product of $P$ with the matrix in the parentheses of $P^{-1}$ is $3I$.
+7. Multiply back.
+   First $P D$ scales the first column of $P$ by $4$, and then
+$$P D P^{-1} = \begin{pmatrix} 4 & 1 & 1 \\ 4 & -1 & 0 \\ 4 & 0 & -1 \end{pmatrix} \cdot \frac{1}{3} \begin{pmatrix} 1 & 1 & 1 \\ 1 & -2 & 1 \\ 1 & 1 & -2 \end{pmatrix} = \frac{1}{3} \begin{pmatrix} 6 & 3 & 3 \\ 3 & 6 & 3 \\ 3 & 3 & 6 \end{pmatrix} = A.$$
+8. So $A$ is [[diagonalizable|07SQCNV233]] over $\R$, with the repeated eigenvalue $1$.
 
 ## Remarks
 
-The example shows that a repeated eigenvalue does not prevent diagonalization: what matters is the dimension of its eigenspace, by the [[test by multiplicities|CDB8KCNNG9]].
-The matrix is symmetric, so the [[spectral theorem|06J4PXRG22]] even gives an orthonormal basis of eigenvectors, for example after the Gram-Schmidt process in the plane $x + y + z = 0$.
-For $\begin{pmatrix} 1 & 1 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 4 \end{pmatrix}$, the characteristic polynomial is also $(t - 4)(t - 1)^2$, but the eigenspace of $1$ is a line, and the matrix is not diagonalizable.
+A repeated eigenvalue does not stop diagonalization.
+What matters is that the eigenspace of $1$ is as large as the multiplicity of $1$, which is the [[test by multiplicities|CDB8KCNNG9]].
+The matrix is symmetric, so the [[real spectral theorem|06J4PXRG22]] even gives an orthonormal basis of eigenvectors.
+To get it, replace the basis of the plane by an orthogonal one such as $(1, -1, 0)$ and $(1, 1, -2)$, and divide each vector by its length.
+
+Now change one entry and compare.
+The matrix $B = \begin{pmatrix} 1 & 1 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 4 \end{pmatrix}$ has the same characteristic polynomial $(t - 4)(t - 1)^2$.
+But $B - I = \begin{pmatrix} 0 & 1 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 3 \end{pmatrix}$ has rank $2$, so the eigenspace of $1$ is only the line spanned by $e_1$.
+Then $B$ has at most two independent eigenvectors, and it is not diagonalizable.
 
 ## Explanations
 
 ### L1 human
 
-This matrix stretches the diagonal direction through $(1, 1, 1)$ by $4$.
+This matrix stretches the diagonal direction through $(1, 1, 1)$ by a factor $4$.
 It does not move any arrow in the flat plane where the three coordinates add up to $0$.
-A plane gives two independent directions, and the diagonal gives a third one.
-So we have three independent special directions in space, which is enough to make the matrix diagonal.
+A plane gives two independent directions, and the diagonal line gives a third one.
+Three independent directions in space are enough to serve as axes, so the matrix can be made diagonal.
 
 ### L2 human
 
-We check the inverse in step 6.
-
-1. Row $1$ of $P$ times column $1$ of $3P^{-1}$ is $1 + 1 + 1 = 3$.
-2. Row $2$ of $P$ times column $2$ of $3P^{-1}$ is $1 + 2 + 0 = 3$.
-3. Row $2$ of $P$ times column $1$ of $3P^{-1}$ is $1 - 1 + 0 = 0$.
-4. The other entries are checked in the same way, and $P \cdot 3P^{-1} = 3I$.
-
-The trap is to count the eigenvalues with multiplicity and conclude from "three eigenvalues" that $A$ is diagonalizable; the comparison matrix in the remarks has the same eigenvalues and is not.
+Let us check the inverse of step 6, since the whole result rests on it.
+Write $Q = 3 P^{-1}$, the integer matrix in the parentheses.
+Row $1$ of $P$ is $(1, 1, 1)$, and its products with the columns of $Q$ are $1 + 1 + 1 = 3$, then $1 - 2 + 1 = 0$, then $1 + 1 - 2 = 0$.
+Row $2$ of $P$ is $(1, -1, 0)$, and its products are $1 - 1 = 0$, then $1 + 2 = 3$, then $1 - 1 = 0$.
+Row $3$ of $P$ is $(1, 0, -1)$, and its products are $1 - 1 = 0$, then $1 - 1 = 0$, then $1 + 2 = 3$.
+So $P Q = 3I$ and $P^{-1} = \tfrac{1}{3} Q$.
+Watch out: from "three eigenvalues $4, 1, 1$" alone you cannot conclude that $A$ is diagonalizable, because the matrix $B$ of the remarks has the same three eigenvalues and is not.
