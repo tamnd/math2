@@ -27,10 +27,16 @@ The two conventions define the same relation, because the inverse of an invertib
 
 ## Remarks
 
+### What the definition captures
+
 Two matrices are equivalent if and only if they represent the same linear map $F^n \to F^m$ in two pairs of bases.
 Two $m \times n$ matrices over a field are equivalent if and only if they have the same [[rank|0ZC9YTXZRY]], by the [[rank normal form theorem|T2H2QV0M06]].
 A matrix of rank $r$ is equivalent to the block matrix $\begin{pmatrix} I_r & 0 \\ 0 & 0 \end{pmatrix}$.
-[[Similarity|0E89HQATM8]] is a finer relation: similar matrices are equivalent, but equivalent square matrices need not be similar, as the [[unitriangular example|6CKAMR5WK9]] shows.
+
+### Equivalence and similarity
+
+[[Similarity|0E89HQATM8]] is a finer relation: similar matrices are equivalent, with $Q = P^{-1}$.
+Equivalent square matrices need not be similar, as the [[unitriangular example|6CKAMR5WK9]] shows.
 
 ## Explanations
 
@@ -43,8 +49,9 @@ Every matrix of rank $r$ becomes the identity of size $r$, padded with zeros.
 ### L2 human
 
 The left factor $P$ acts on rows and the right factor $Q$ acts on columns.
-For example, $\begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix} \begin{pmatrix} 0 & 0 \\ 1 & 0 \end{pmatrix} I_2 = \begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix}$.
-So $\begin{pmatrix} 0 & 0 \\ 1 & 0 \end{pmatrix}$ is equivalent to $\operatorname{diag}(1, 0)$.
+For example, exchanging the two rows of $\begin{pmatrix} 0 & 0 \\ 1 & 0 \end{pmatrix}$ gives
+$$\begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix} \begin{pmatrix} 0 & 0 \\ 1 & 0 \end{pmatrix} I_2 = \begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix}.$$
+So $\begin{pmatrix} 0 & 0 \\ 1 & 0 \end{pmatrix}$ is equivalent to $\operatorname{diag}(1, 0)$, with $P$ the exchange matrix and $Q = I_2$.
 
 ### L3 human
 

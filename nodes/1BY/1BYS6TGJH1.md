@@ -15,6 +15,8 @@ sources:
 
 ## Proof
 
+We bring $A$ to reduced row echelon form by row operations, then move the pivot columns to the front and clear the other columns by column operations; for part 2 we use that invertible factors do not change the rank.
+
 **Part 1.**
 
 1. If $r = 0$, then $A$ has zero column space, so $A = 0 = N_0$, and $P = I_m$, $Q = I_n$ work. Let $r \ge 1$ from now on.
@@ -38,11 +40,13 @@ sources:
 ## Idea
 
 Row operations bring $A$ to reduced row echelon form, where the pivot columns are standard basis vectors.
-Column exchanges put these columns first, and column replacements clear the rest of the pivot rows.
-Invertible factors do not change the rank, so the size $r$ of the identity block is the rank.
+Column exchanges put these columns first, and then every other column is a combination of them.
+Column replacements subtract those combinations, which clears the rest of the pivot rows and leaves $N_r$.
+Invertible factors do not change the rank, so the size $r$ of the identity block is the rank, and two matrices with the same normal form are linked through it.
 
 ## Variants
 
 A proof with linear maps: choose a basis $v_{r+1}, \dots, v_n$ of the kernel of $A$ and extend it by $v_1, \dots, v_r$ to a basis of $F^n$.
 The vectors $Av_1, \dots, Av_r$ form a basis of the column space, and one extends them to a basis of $F^m$.
 In these bases the matrix of $A$ is $N_r$, and the change of basis matrices give $P$ and $Q$.
+This proof shows why the theorem holds, while the proof above shows how to compute $P$ and $Q$.
