@@ -19,70 +19,97 @@ sources:
 
 ## Statement
 
+When two polynomials have no common factor, the vectors killed by their product split uniquely into a part killed by the first and a part killed by the second, and the split is given by polynomials in $T$.
 Let $F$ be a field, let $V$ be a vector space over $F$ of any dimension, and let $T \colon V \to V$ be linear.
 Let $p, q \in F[t]$ be coprime, that is, their [[greatest common divisor|02WF878BH1]] is $1$, and choose $a, b \in F[t]$ with $a p + b q = 1$.
 
 1. The [[kernel|0S23E6YE83]] of $(p q)(T)$ is a [[direct sum|0XYYT5KNTX]]:
-$$\ker (p q)(T) = \ker p(T) \oplus \ker q(T).$$
-2. On $\ker (p q)(T)$, the projection onto $\ker p(T)$ along $\ker q(T)$ is the restriction of $(b q)(T)$, and the projection onto $\ker q(T)$ along $\ker p(T)$ is the restriction of $(a p)(T)$. Both are [[polynomials in $T$|0E3MV6E6MG]].
+   $$\ker (p q)(T) = \ker p(T) \oplus \ker q(T).$$
+2. On $\ker (p q)(T)$, the projection onto $\ker p(T)$ along $\ker q(T)$ is the restriction of $(b q)(T)$, and the projection onto $\ker q(T)$ along $\ker p(T)$ is the restriction of $(a p)(T)$.
+   Both are [[polynomials in $T$|0E3MV6E6MG]].
 3. If $(p q)(T) = 0$, then $V = \ker p(T) \oplus \ker q(T)$, with $\ker p(T) = \operatorname{im} q(T)$ and $\ker q(T) = \operatorname{im} p(T)$.
-4. More generally, let $p_1, \dots, p_k \in F[t]$ be pairwise coprime. Then $\ker (p_1 \cdots p_k)(T) = \ker p_1(T) \oplus \cdots \oplus \ker p_k(T)$, and the projections onto the summands are restrictions of polynomials in $T$.
+4. More generally, let $p_1, \dots, p_k \in F[t]$ be pairwise coprime.
+   Then $\ker (p_1 \cdots p_k)(T) = \ker p_1(T) \oplus \dots \oplus \ker p_k(T)$, and the projections onto the summands are restrictions of polynomials in $T$.
 
 Each summand $\ker p_i(T)$ is a $T$-[[invariant subspace|0ACX5QT8TE]].
 
 ## Remarks
 
-### Why each hypothesis is needed
+### A first example
 
-- The polynomials must be coprime. Take $p = q = t$ and the nilpotent $N = \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}$. Then $\ker N^2 = F^2$, but $\ker N + \ker N = F e_1$.
-- No finiteness is needed. The lemma holds for any vector space, and even for modules over $F[t]$.
+Let $A = \begin{pmatrix} 1 & 1 \\ 0 & 2 \end{pmatrix}$, $p = t - 1$ and $q = t - 2$.
+These are coprime, and $p - q = 1$, so we may take $a = 1$ and $b = -1$.
+The product kills $A$:
+$$(A - I)(A - 2I) = \begin{pmatrix} 0 & 1 \\ 0 & 1 \end{pmatrix} \begin{pmatrix} -1 & 1 \\ 0 & 0 \end{pmatrix} = \begin{pmatrix} 0 & 0 \\ 0 & 0 \end{pmatrix}.$$
+So part 3 applies, and the two projections of part 2 are
+$$(b q)(A) = 2I - A = \begin{pmatrix} 1 & -1 \\ 0 & 0 \end{pmatrix}, \qquad (a p)(A) = A - I = \begin{pmatrix} 0 & 1 \\ 0 & 1 \end{pmatrix}.$$
+The first has image $F e_1 = \ker(A - I)$, and the second has image $F (1, 1) = \ker(A - 2I)$.
+Check: the two matrices add up to $I$, and $(A - I)^2 = A - I$.
+So every vector splits as $(x, y) = (x - y, 0) + (y, y)$, one eigenvector for each eigenvalue.
 
-### Consequences
+### Watch out: coprimality is needed
 
-- The [[minimal polynomial criterion|0MPAJRB23T]]: if $(t - \lambda_1) \cdots (t - \lambda_k)$ with distinct $\lambda_i$ kills $T$, then $V$ is the direct sum of the eigenspaces.
-- The [[primary decomposition theorem|49ZHBMYKVE]]: the factorization of the minimal polynomial into powers of distinct irreducible polynomials splits $V$ into invariant pieces.
-- The [[decomposition into generalized eigenspaces|0Z3GDY89T5]] over an algebraically closed field.
-- Each projection commutes with every map that commutes with $T$, since it is a polynomial in $T$. So it preserves every $T$-invariant subspace.
+Drop the hypothesis that $p$ and $q$ are coprime, and take $p = q = t$ with the nilpotent matrix $N = \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}$.
+Then $N^2 = 0$, so $\ker (p q)(N) = \ker N^2 = F^2$.
+But $\ker N + \ker N = F e_1$ is only a line, so the conclusion of part 1 fails.
+Finite dimension, on the other hand, is not needed: the proof uses only the identity $a p + b q = 1$, so the lemma holds in every vector space.
 
-### Converse
+### What it gives you
 
-The converse is false for a single $T$.
-For $p = q = t$ and $T = \id_V$, both kernels are $0$, so the sum is direct, although $p$ and $q$ are not coprime.
+Most decompositions of a single linear map start from the kernels lemma.
+If $(t - \lambda_1) \cdots (t - \lambda_k)$ with distinct $\lambda_i$ kills $T$, then part 4 makes $V$ the direct sum of the eigenspaces, which is the [[minimal polynomial criterion|0MPAJRB23T]] for diagonalizability.
+For the factorization of the minimal polynomial into powers of distinct irreducible polynomials, it gives the [[primary decomposition theorem|49ZHBMYKVE]].
+When the characteristic polynomial splits, it gives the [[decomposition into generalized eigenspaces|0Z3GDY89T5]].
+Since each projection is a polynomial in $T$, it commutes with every map that commutes with $T$, so every such map preserves each summand.
+
+### The converse
+
+The converse is false.
+Take $p = q = t$ and $T = \id_V$.
+Both $\ker p(T)$ and $\ker (p q)(T) = \ker \id_V$ are $0$, so the equation of part 1 holds as $0 = 0 \oplus 0$, although $p$ and $q$ are not coprime.
 
 ### Generalizations
 
-The lemma is the Chinese remainder theorem $F[t]/(p q) \cong F[t]/(p) \times F[t]/(q)$, applied to the $F[t]$-module $V$ with $t$ acting as $T$.
-It holds in any module $M$ over a principal ideal domain $R$: for coprime $p, q \in R$, the elements killed by $p q$ form the direct sum of those killed by $p$ and by $q$.
-In the structure theorem for modules over a principal ideal domain, this gives the decomposition of a torsion module into primary parts.
+The lemma is the [[Chinese remainder theorem|0FNN9B4W64]] $F[t]/(p q) \cong F[t]/(p) \times F[t]/(q)$, applied to the $F[t]$-module $V$ in which $t$ acts as $T$.
+It holds in every module $M$ over a principal ideal domain $R$: for coprime $p, q \in R$, the elements of $M$ killed by $p q$ form the direct sum of the elements killed by $p$ and of those killed by $q$.
+In the [[structure theorem for modules over a principal ideal domain|TXMV0YDACG]], this splits a torsion module into its primary parts.
+
+### Try it
+
+Let $A = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$ over $\Q$, with $p = t - 1$ and $q = t + 1$, so $(p q)(A) = A^2 - I = 0$.
+Find $a, b$ with $a p + b q = 1$, write down the two projections, and split $(5, 1)$.
+You should get $a = -\tfrac{1}{2}$, $b = \tfrac{1}{2}$, and
+$$(5, 1) = (3, 3) + (2, -2),$$
+where $A$ fixes $(3, 3)$ and negates $(2, -2)$.
 
 ## History
 
-The name is a translation of the French "lemme des noyaux", which is the usual name in French textbooks.
-Hoffman and Kunze prove the general form inside the primary decomposition theorem, Section 6.8.
+The name translates the French "lemme des noyaux", the usual name of the result in French textbooks.
+Hoffman and Kunze prove the general form inside the primary decomposition theorem, in Section 6.8.
 
 ## Explanations
 
 ### L1 human
 
-Suppose a machine $T$ satisfies two separate equations at once, and the equations have nothing in common.
-Then every vector splits into one part that satisfies the first equation and one part that satisfies the second.
-The split is unique, and it can be computed with polynomials in $T$.
+Suppose a machine $T$ obeys two rules at once, and the two rules have nothing in common.
+Then every input splits into one part that obeys the first rule and one part that obeys the second.
+The split is unique, and you can compute it with the machine itself.
+For the matrix with rows $(1, 1)$ and $(0, 2)$, the vector $(3, 1)$ splits as $(2, 0) + (1, 1)$: the matrix keeps the first part and doubles the second.
 
 ### L2 human
 
-Let $A = \begin{pmatrix} 1 & 1 \\ 0 & 2 \end{pmatrix}$, $p = t - 1$ and $q = t - 2$.
-
-1. $(p q)(A) = (A - I)(A - 2I) = \begin{pmatrix} 0 & 1 \\ 0 & 1 \end{pmatrix} \begin{pmatrix} -1 & 1 \\ 0 & 0 \end{pmatrix} = 0$.
-2. Bézout: $p - q = 1$, so $a = 1$ and $b = -1$.
-3. The projection onto $\ker(A - I)$ is $(b q)(A) = 2I - A = \begin{pmatrix} 1 & -1 \\ 0 & 0 \end{pmatrix}$, with image $F e_1$.
-4. The projection onto $\ker(A - 2I)$ is $(a p)(A) = A - I = \begin{pmatrix} 0 & 1 \\ 0 & 1 \end{pmatrix}$, with image spanned by $(1, 1)$.
-5. Their sum is $I$, and $(A - I)^2 = A - I$. So $F^2 = F e_1 \oplus F(1, 1)$, and $(x, y) = (x - y, 0) + (y, y)$.
-
-The typical use is to split $V$ along a factorization of a polynomial that kills $T$.
-The trap is to forget coprimality: $\ker T^2$ is not $\ker T \oplus \ker T$.
+Here is the typical use.
+Let $T$ be a linear map with $T^2 = I$, over a field in which $2 \ne 0$.
+The polynomial $t^2 - 1 = (t - 1)(t + 1)$ kills $T$, and the factors are coprime because
+$$\tfrac{1}{2}(t + 1) - \tfrac{1}{2}(t - 1) = 1.$$
+With $p = t - 1$, $q = t + 1$, $a = -\tfrac{1}{2}$ and $b = \tfrac{1}{2}$, part 2 gives the projections
+$$\tfrac{1}{2}(T + I) \text{ onto } \ker(T - I), \qquad \tfrac{1}{2}(I - T) \text{ onto } \ker(T + I).$$
+For the swap $T(x, y) = (y, x)$ these send $(x, y)$ to $\tfrac{1}{2}(x + y, x + y)$ and to $\tfrac{1}{2}(x - y, y - x)$, which add up to $(x, y)$.
+So when $2 \ne 0$, every involution makes $V$ the direct sum of its eigenspaces for $1$ and $-1$.
+The trap is to forget coprimality: in characteristic $2$ the two factors are equal, and the shear $\begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$ over $\mathbb{F}_2$ squares to $I$ but is not diagonalizable.
 
 ### L3 human
 
-For an $F[t]$-module $V$, the elements $e_1 = b q$ and $e_2 = a p$ are orthogonal idempotents modulo $p q$.
+In the ring $F[t]/(p q)$, the classes $e_1 = b q$ and $e_2 = a p$ are orthogonal idempotents with $e_1 + e_2 = 1$.
 They act on $\ker (p q)(T)$ as the projections of part 2.
-In Lie theory and in the theory of algebraic groups, the same idempotents give the projections onto generalized weight spaces, and they show that the semisimple part of the [[Jordan-Chevalley decomposition|011K11VPJN]] is a polynomial in $T$.
+The same idempotents give the projections onto generalized eigenspaces, and they show that the semisimple part of the [[Jordan-Chevalley decomposition|011K11VPJN]] is a polynomial in $T$.
