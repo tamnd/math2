@@ -23,7 +23,7 @@ Write $\varphi(v) = [v]_B$.
 1. The map $\varphi \colon V \to F^n$ is well defined. Since $B$ is a [[basis|0KCQ9Y3QKA]], each $v \in V$ equals $a_1 b_1 + \dots + a_n b_n$ for exactly one $(a_1, \dots, a_n) \in F^n$, by [[unique coordinates|E2ZRZGXSNX]].
 2. The map is additive. Let $[v]_B = (a_1, \dots, a_n)$ and $[w]_B = (c_1, \dots, c_n)$. By the vector space axioms,
 $$v + w = (a_1 + c_1) b_1 + \dots + (a_n + c_n) b_n.$$
-So $(a_1 + c_1, \dots, a_n + c_n)$ is a list of coefficients for $v + w$, and by uniqueness it is the list. Hence $[v + w]_B = [v]_B + [w]_B$.
+So $(a_1 + c_1, \dots, a_n + c_n)$ is a list of coefficients for $v + w$, and by uniqueness it is the coordinate vector, so $[v + w]_B = [v]_B + [w]_B$.
 3. The map is homogeneous. For $c \in F$, the axioms give $cv = (c a_1) b_1 + \dots + (c a_n) b_n$, so by uniqueness $[cv]_B = c [v]_B$. With step 2, $\varphi$ is a [[linear map|0NRYHJPQG2]].
 4. Define $\psi \colon F^n \to V$ on the [[coordinate space|0XM8BZD76G]] by $\psi(a_1, \dots, a_n) = a_1 b_1 + \dots + a_n b_n$.
 5. For $v \in V$ with $[v]_B = (a_1, \dots, a_n)$, the definition of [[coordinates|04CYQHN6MC]] says $v = \sum_i a_i b_i$, so $\psi(\varphi(v)) = v$. Hence $\psi \circ \varphi = \mathrm{id}_V$.

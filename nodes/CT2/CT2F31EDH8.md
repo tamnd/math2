@@ -20,74 +20,103 @@ same_as:
 
 ## Summary
 
-The complexification of a real [[vector space|000AYPA9AJ]] $V$ is the complex vector space $V_\C = V \times V$, with pairs $(u, w)$ written $u + iw$.
-Scalar multiplication is $(a + bi)(u, w) = (au - bw, aw + bu)$, and $\dim_\C V_\C = \dim_\R V$.
-Realification goes the other way: a complex space $W$, with scalars restricted to $\R$, is a real space $W_\R$ with $\dim_\R W_\R = 2 \dim_\C W$.
-A complex structure on a real space $V$ is a real linear map $J$ with $J^2 = -I$; it makes $V$ a complex space.
+Complexification lets a real vector space use complex scalars, and realification lets a complex space forget them.
+The first keeps the dimension and the second doubles it, and together they let real and complex linear algebra borrow from each other.
+For a real [[vector space|000AYPA9AJ]] $V$, the *complexification* is the set $V_\mathbb{C} = V \times V$, with the pair $(u, w)$ written $u + iw$, with entrywise addition and with
+$$(a + bi)(u + iw) = (au - bw) + i(aw + bu) \qquad (a, b \in \mathbb{R}).$$
+It is a complex vector space with $\dim_\mathbb{C} V_\mathbb{C} = \dim_\mathbb{R} V$.
+For a complex space $W$, the *realification* $W_\mathbb{R}$ is the same set with the scalars restricted to $\mathbb{R}$, and $\dim_\mathbb{R} W_\mathbb{R} = 2 \dim_\mathbb{C} W$.
+A *complex structure* on a real space $V$ is a real linear map $J \colon V \to V$ with $J^2 = -I$, and it makes $V$ a complex space by the rule $(a + bi)v = av + bJv$.
 
 ## Motivation
 
-Real matrices can have complex eigenvalues, such as the rotation $\begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}$ with eigenvalues $\pm i$.
-The eigenvectors live in $\C^2 = (\R^2)_\C$, not in $\R^2$.
-Complexification gives a fixed place for them, and many proofs for real spaces pass through it.
+A real matrix can have complex eigenvalues.
+The rotation $R = \begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}$ of the plane has eigenvalues $\pm i$, and its eigenvectors cannot live in $\mathbb{R}^2$, since no real line is fixed by a quarter turn.
+Complexification gives them a home, $(\mathbb{R}^2)_\mathbb{C} = \mathbb{C}^2$, in which $R$ still acts.
+Many proofs about real matrices, such as the real spectral theorem and the real Jordan form, go through the complex space and come back.
+
+Realification runs the other way.
+It is how one sees $\mathbb{C}^n$ as $\mathbb{R}^{2n}$, which is needed whenever complex numbers meet geometry, as in the study of holomorphic maps as maps of the plane.
+A complex structure $J$ records exactly the extra data that turns a real space back into a complex one: it says what multiplication by $i$ should be.
 
 ## Notation
 
-We write $V_\C$, or $V \otimes_\R \C$, for the complexification, and $W_\R$ for the realification.
-The [[tensor product|0BF2DE2SYK]] form $V \otimes_\R \C$ is the definition in many books and in Mathlib; it is isomorphic to $V \times V$ with the rule above.
+Books write $V_\mathbb{C}$, $V^\mathbb{C}$ or $V \otimes_\mathbb{R} \mathbb{C}$ for the complexification.
+The [[tensor product|0BF2DE2SYK]] form $V \otimes_\mathbb{R} \mathbb{C}$ is the definition in many books and in Mathlib, and it is isomorphic to $V \times V$ with the rule above, by $v \otimes (a + bi) \mapsto (av, bv)$.
+The realification is written $W_\mathbb{R}$, or $W$ itself when the field is clear, and it is also called *restriction of scalars*.
 
 ## Remarks
 
-### Examples
+### First computations
 
-1. $(\R^n)_\C = \C^n$: the pair $(u, w)$ of real vectors is the complex vector $u + iw$.
-2. $(M_n(\R))_\C = M_n(\C)$, and $(\R[x])_\C = \C[x]$.
-3. Check of the rule for $V = \R$: $V_\C = \R \times \R$, and $i \cdot (1, 0) = (0 \cdot 1 - 1 \cdot 0, 0 \cdot 0 + 1 \cdot 1) = (0, 1)$, which is $i$.
-4. Check of axiom 5 for $i \cdot i$: $i \cdot (i \cdot (u, w)) = i \cdot (-w, u) = (-u, -w) = (-1) \cdot (u, w)$.
-5. The realification of $\C$ is $\R^2$, with basis $1, i$, and multiplication by $i$ is the complex structure $J(x, y) = (-y, x)$.
-6. The realification of $\C^n$ is $\R^{2n}$, with basis $e_1, i e_1, \dots, e_n, i e_n$.
+For $V = \mathbb{R}^n$, the pair $(u, w)$ of real vectors is the complex vector $u + iw$, so $(\mathbb{R}^n)_\mathbb{C} = \mathbb{C}^n$.
+In the same way $(M_n(\mathbb{R}))_\mathbb{C} = M_n(\mathbb{C})$ and $(\mathbb{R}[x])_\mathbb{C} = \mathbb{C}[x]$.
+The rule for scalars is the rule for multiplying complex numbers.
+For instance, $i$ times $i$ should be $-1$, and indeed
+$$i \bigl(i(u + iw)\bigr) = i(-w + iu) = -u - iw = (-1)(u + iw).$$
 
-### Non-examples
+For realification, $\mathbb{C}$ as a real space is $\mathbb{R}^2$ with basis $1, i$.
+Multiplication by $i$ sends $x + iy$ to $-y + ix$, so it is the real map $J(x, y) = (-y, x)$, and $J^2(x, y) = J(-y, x) = (-x, -y)$, so $J^2 = -I$.
+More generally, $\mathbb{C}^n$ as a real space is $\mathbb{R}^{2n}$, with basis $e_1, ie_1, \dots, e_n, ie_n$.
 
-1. $\R^2$ with the reflection $J(x, y) = (y, x)$ and $(a + bi) v = a v + b J v$ fails axiom 5, compatibility.
-   Check: $i \cdot (i \cdot (1, 0)) = J(J(1, 0)) = (1, 0)$, but $(i \cdot i)(1, 0) = (-1, 0)$; the cause is $J^2 = I$, not $-I$.
-2. $\R^3$ has no complex structure: if $J^2 = -I$, then $\det(J)^2 = \det(-I) = (-1)^3 = -1$, which no real number satisfies.
-3. $\R$ with $z \cdot x = \abs{z} x$ for $z \in \C$ fails axiom 8, distributivity over scalars: $(1 + (-1)) \cdot 1 = 0$, but $1 \cdot 1 + (-1) \cdot 1 = 1 + 1 = 2$.
+### Dimensions
 
-### Basic properties
+If $b_1, \dots, b_n$ is a [[basis|0VTQTPQGAV]] of $V$ over $\mathbb{R}$, then $b_1 + i0, \dots, b_n + i0$ is a basis of $V_\mathbb{C}$ over $\mathbb{C}$.
+A vector $u + iw$ with $u = \sum x_k b_k$ and $w = \sum y_k b_k$ equals $\sum (x_k + iy_k) b_k$, and these complex coefficients are unique, so $\dim_\mathbb{C} V_\mathbb{C} = \dim_\mathbb{R} V$.
+If $w_1, \dots, w_m$ is a basis of $W$ over $\mathbb{C}$, then $w_1, iw_1, \dots, w_m, iw_m$ is a basis of $W_\mathbb{R}$, because $(x + iy)w_k = x w_k + y(iw_k)$, so $\dim_\mathbb{R} W_\mathbb{R} = 2 \dim_\mathbb{C} W$.
 
-1. If $b_1, \dots, b_n$ is a [[basis|0VTQTPQGAV]] of $V$ over $\R$, then $(b_1, 0), \dots, (b_n, 0)$ is a basis of $V_\C$ over $\C$; so $\dim_\C V_\C = \dim_\R V$.
-2. If $w_1, \dots, w_m$ is a basis of $W$ over $\C$, then $w_1, i w_1, \dots, w_m, i w_m$ is a basis of $W_\R$ over $\R$; so $\dim_\R W_\R = 2 \dim_\C W$.
-3. A finite-dimensional real space has a complex structure if and only if its [[dimension|05G2G0P224]] is even.
-4. A real linear map $T$ extends to $T_\C(u + iw) = Tu + i Tw$, and $T_\C$ has the same matrix as $T$ in the basis of property 1.
-5. $(V_\C)_\R \cong V \oplus V$, of real dimension $2 \dim_\R V$.
+A real linear map $T$ extends to $T_\mathbb{C}(u + iw) = Tu + iTw$, and in the basis above $T_\mathbb{C}$ has the same matrix as $T$.
+That is how a real matrix acts on $\mathbb{C}^n$.
+
+### What it is not
+
+A map with $J^2 = I$ gives no complex structure.
+For the swap $J(x, y) = (y, x)$ on $\mathbb{R}^2$ and the rule $(a + bi)v = av + bJv$, we get $i(i(1, 0)) = J(J(1, 0)) = (1, 0)$, while $(i \cdot i)(1, 0) = (-1, 0)$, so axiom 5 fails.
+
+Some real spaces have no complex structure at all.
+On $\mathbb{R}^3$, a map with $J^2 = -I$ would give $\det(J)^2 = \det(-I) = (-1)^3 = -1$, which no real number satisfies.
+The same argument shows that a finite-dimensional real space with a complex structure has even dimension, and every even-dimensional space has one, built from blocks like the $J$ above.
+
+### Watch out
+
+The space $V_\mathbb{C}$ is bigger than $V$ as a real space: for $V = \mathbb{R}^2$, the space $\mathbb{C}^2$ has real dimension $4$, since $(V_\mathbb{C})_\mathbb{R} \cong V \oplus V$.
+So always say over which field a dimension is taken: $\dim_\mathbb{C} \mathbb{C}^n = n$, but $\dim_\mathbb{R} \mathbb{C}^n = 2n$.
+Complexifying a realification does not give back the space either, because $(W_\mathbb{R})_\mathbb{C}$ has complex dimension $2 \dim_\mathbb{C} W$.
 
 ### History
 
-Hamilton defined complex numbers as pairs of real numbers in the 1830s.
-The complexification $V \times V$ applies the same construction to a real vector space.
+Hamilton defined the complex numbers as pairs of real numbers in the 1830s.
+The complexification $V \times V$ applies the same construction to a whole real vector space.
 
-### Common errors
+### Try it
 
-1. $V_\C$ is not $V$: for $V = \R^2$, the space $V_\C = \C^2$ has real dimension $4$.
-2. The dimension depends on the field: $\dim_\C \C^n = n$, but $\dim_\R \C^n = 2n$.
-3. A complex structure must be real linear with $J^2 = -I$; a map with $J^2 = I$, such as a reflection, gives no complex structure.
-4. Complexifying a realification does not give back the space: $(W_\R)_\C$ has complex dimension $2 \dim_\C W$.
+First, what is $(2 + i)(u + iw)$ in $V_\mathbb{C}$?
+By the rule with $a = 2$ and $b = 1$, it is $(2u - w) + i(2w + u)$.
+
+Second, does $\mathbb{R}^4$ have a complex structure?
+Yes: take $J(x_1, x_2, x_3, x_4) = (-x_2, x_1, -x_4, x_3)$, which applies the quarter turn to each pair of coordinates, so $J^2 = -I$.
 
 ## Explanations
 
 ### L1 human
 
-Complexification lets a real space use complex numbers as scalars, by pairing two real vectors as a real part and an imaginary part.
-Realification forgets the complex scalars and keeps only the real ones, so the dimension doubles.
+Complexification lets a real space use complex numbers as scalars.
+It pairs two real vectors as a real part and an imaginary part, just as $3 + 4i$ pairs the real numbers $3$ and $4$.
+Realification does the opposite: it forgets the complex scalars and keeps only the real ones.
+Then the complex line $\mathbb{C}$ becomes the real plane, so the dimension doubles from $1$ to $2$.
 
 ### L2 human
 
-Example: the rotation by $90$ degrees on $\R^2$ has no real eigenvector.
-In $(\R^2)_\C = \C^2$, the vector $(1, -i)$ satisfies $J(1, -i) = (i, 1) = i (1, -i)$, so it is an eigenvector with eigenvalue $i$.
-To compute a dimension after realification, double the complex dimension: $\dim_\R \C^3 = 6$.
+Here is a typical use: find the eigenvectors of the quarter turn $R(x, y) = (-y, x)$ on $\mathbb{R}^2$.
+Over $\mathbb{R}$ there are none, since $R$ moves every nonzero vector off its own line.
+In $(\mathbb{R}^2)_\mathbb{C} = \mathbb{C}^2$, try the vector $(1, -i)$ and apply $R_\mathbb{C}$, which uses the same matrix:
+$$R_\mathbb{C}(1, -i) = (i, 1) = i(1, -i),$$
+since $i \cdot (-i) = 1$.
+So $(1, -i)$ is an eigenvector with eigenvalue $i$, and its conjugate $(1, i)$ is an eigenvector with eigenvalue $-i$.
+The real and imaginary parts of $(1, -i)$ are $(1, 0)$ and $(0, -1)$, and in that real basis $R$ acts as a rotation block; this is how the real canonical forms are built.
 
 ### L3 human
 
-A complex structure $J$ on $\R^{2n}$ is the same as an identification $\R^{2n} \cong \C^n$, and the set of such $J$ is the homogeneous space $\mathrm{GL}_{2n}(\R) / \mathrm{GL}_n(\C)$.
-On $V_\C$, the map $u + iw \mapsto u - iw$ is a conjugate-linear involution, and its fixed points are $V$; conversely, a complex space with such a real structure is the complexification of its fixed space.
+A complex structure $J$ on $\mathbb{R}^{2n}$ is the same as an identification $\mathbb{R}^{2n} \cong \mathbb{C}^n$, and the set of all such $J$ is the homogeneous space $\mathrm{GL}_{2n}(\mathbb{R}) / \mathrm{GL}_n(\mathbb{C})$.
+On $V_\mathbb{C}$, the map $u + iw \mapsto u - iw$ is a conjugate-linear involution whose fixed points form $V$, and a complex space with such a real structure is the complexification of its fixed space.
+Complexification is extension of scalars along $\mathbb{R} \subset \mathbb{C}$, and realification is restriction of scalars; the two are adjoint functors, a pattern that returns for modules and for [[tensor products|0BF2DE2SYK]] in general.

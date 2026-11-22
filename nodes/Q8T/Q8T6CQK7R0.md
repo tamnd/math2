@@ -41,6 +41,7 @@ The only place where the field matters is step 9, where we divide by a nonzero c
 ## Variants
 
 A shorter write-up quotes the linear dependence lemma instead of proving its parts again.
-Steps 1, 2, 6, 7, 8, 9 and 10 use the fact that a set is dependent exactly when one of its vectors lies in the span of the others, and that removing such a vector does not change the span.
+Steps 1, 2 and 6 to 10 use two facts.
+A set is dependent exactly when one of its vectors lies in the span of the others, and removing such a vector does not change the span.
 Steps 3 to 5 use the fact that adding a vector outside the span of an independent set keeps it independent.
 With these two facts quoted, each of the four implications takes one or two lines.
