@@ -17,36 +17,59 @@ sources:
 
 ## Proof
 
-Part 1: let $P$ be a [[projection|0RH4E3CAV9]].
+We split each vector as $v = Pv + (v - Pv)$ for part 1, we check linearity and idempotence of $P_{U, W}$ for part 2, and we compose the two constructions for part 3.
 
-1. Let $v \in \operatorname{im} P$, the [[image|0JB228DCWB]], so $v = P x$ for some $x$. Then $P v = P^2 x = P x = v$. So $P$ fixes each vector of its image.
-2. For $v \in V$, write $v = P v + (v - P v)$. The first term lies in $\operatorname{im} P$. And $P(v - P v) = P v - P^2 v = 0$, so the second term lies in the [[kernel|02YFME3RGW]] $\ker P$. Hence $V = \operatorname{im} P + \ker P$.
-3. If $v \in \operatorname{im} P \cap \ker P$, then $v = P v$ by step 1 and $P v = 0$. So $v = 0$.
-4. By the [[criteria for a direct sum|20A0K3KBZD]], $V = \operatorname{im} P \oplus \ker P$.
-5. $(I - P)^2 = I - 2P + P^2 = I - P$, so $I - P$ is a projection.
-6. If $v \in \ker P$, then $(I - P) v = v$, so $\ker P \subseteq \operatorname{im}(I - P)$. Conversely, $P (I - P) = P - P^2 = 0$, so $\operatorname{im}(I - P) \subseteq \ker P$.
-7. $(I - P) v = 0$ means $P v = v$, which holds exactly for $v \in \operatorname{im} P$, by step 1 and since $P v \in \operatorname{im} P$. So $\ker(I - P) = \operatorname{im} P$.
+For part 1, let $P$ be a [[projection|0RH4E3CAV9]] on $V$.
 
-Part 2: let $V = U \oplus W$ be a [[direct sum|041JTZCK9Q]].
+1. Let $v \in \operatorname{im} P$, the [[image|0JB228DCWB]], so $v = P x$ for some $x \in V$.
+   Then $P v = P^2 x = P x = v$, so $P$ fixes each vector of its image.
+2. For $v \in V$, write $v = P v + (v - P v)$.
+   The first term lies in $\operatorname{im} P$.
+   The second term lies in the [[kernel|02YFME3RGW]], because $P(v - P v) = P v - P^2 v = 0$.
+   Hence $V = \operatorname{im} P + \ker P$.
+3. If $v \in \operatorname{im} P \cap \ker P$, then $v = P v$ by step 1, and $P v = 0$ since $v \in \ker P$.
+   So $v = 0$.
+4. By the [[criteria for a direct sum|20A0K3KBZD]], steps 2 and 3 give $V = \operatorname{im} P \oplus \ker P$.
+5. We compute $(I - P)^2 = I - 2P + P^2 = I - 2P + P = I - P$, so $I - P$ is a projection.
+6. If $v \in \ker P$, then $(I - P) v = v - 0 = v$, so $v \in \operatorname{im}(I - P)$ and $\ker P \subseteq \operatorname{im}(I - P)$.
+   Conversely $P (I - P) = P - P^2 = 0$, so $\operatorname{im}(I - P) \subseteq \ker P$.
+7. The equation $(I - P) v = 0$ means $P v = v$.
+   This holds for every $v \in \operatorname{im} P$ by step 1, and if $P v = v$ then $v$ is in $\operatorname{im} P$.
+   So $\ker(I - P) = \operatorname{im} P$.
 
-8. Each $v$ has a unique decomposition $v = u + w$, so $P_{U, W}(v) = u$ is well defined.
-9. If $v = u + w$ and $v' = u' + w'$, then $v + v' = (u + u') + (w + w')$ and $a v = a u + a w$ are the decompositions of $v + v'$ and $a v$, by uniqueness. So $P_{U, W}$ is linear.
-10. For $u \in U$, the decomposition is $u = u + 0$, so $P_{U, W}(u) = u$. Hence $P_{U, W}^2 (v) = P_{U, W}(u) = u = P_{U, W}(v)$.
-11. The image lies in $U$ by definition, and contains $U$ by step 10. So the image is $U$.
-12. $P_{U, W}(u + w) = 0$ exactly when $u = 0$, that is, when $v = w \in W$. So the kernel is $W$.
+For part 2, let $V = U \oplus W$ be a [[direct sum|041JTZCK9Q]].
 
-Part 3: the two maps are inverse to each other.
+8. Each $v \in V$ has exactly one decomposition $v = u + w$ with $u \in U$ and $w \in W$, so $P_{U, W}(v) = u$ is well defined.
+9. Let $v = u + w$ and $v' = u' + w'$, and let $a \in F$.
+   Then $v + v' = (u + u') + (w + w')$ and $a v = a u + a w$ are decompositions of $v + v'$ and of $a v$, so by uniqueness they are the decompositions.
+   Hence $P_{U, W}(v + v') = u + u'$ and $P_{U, W}(a v) = a u$, and $P_{U, W}$ is linear.
+10. For $u \in U$ the decomposition is $u = u + 0$, so $P_{U, W}(u) = u$.
+    Hence $P_{U, W}^2 (v) = P_{U, W}(u) = u = P_{U, W}(v)$ for every $v = u + w$.
+11. The image lies in $U$ by definition, and it contains $U$ by step 10, so the image is $U$.
+12. We have $P_{U, W}(u + w) = 0$ exactly when $u = 0$, that is, when $v = w \in W$.
+    So the kernel is $W$.
 
-13. By part 2, the composite $(U, W) \mapsto P_{U, W} \mapsto (\operatorname{im} P_{U, W}, \ker P_{U, W})$ is the identity on pairs.
-14. Let $P$ be a projection, $U = \operatorname{im} P$ and $W = \ker P$. By step 2, the decomposition of $v$ in $U \oplus W$ is $v = P v + (v - P v)$. So $P_{U, W}(v) = P v$, and $P_{U, W} = P$.
+For part 3, we show that the two maps are inverse to each other.
+
+13. Start from a pair $(U, W)$ with $V = U \oplus W$.
+    By part 2, the projection $P_{U, W}$ has image $U$ and kernel $W$, so going to the projection and back returns $(U, W)$.
+14. Start from a projection $P$, and let $U = \operatorname{im} P$ and $W = \ker P$.
+    By step 2, the decomposition of $v$ in $U \oplus W$ is $v = P v + (v - P v)$, so $P_{U, W}(v) = P v$.
+    Hence $P_{U, W} = P$, and going to the pair and back returns $P$.
 15. So the two maps are inverse to each other, and both are bijections.
 
 ## Idea
 
-The identity $v = P v + (I - P) v$ splits each vector, and $P^2 = P$ makes the two parts land in the image and the kernel.
-Conversely, a unique decomposition defines the map that keeps one part.
+Everything rests on the identity $v = P v + (I - P) v$.
+The equation $P^2 = P$ forces the first part into the image and the second part into the kernel, and a vector in both is fixed by $P$ and killed by $P$, so it is $0$.
+In the other direction, a unique decomposition defines the map that keeps one part, and uniqueness is exactly what makes that map linear.
 
 ## Variants
 
-- Part 1 can be phrased with eigenvalues: $P^2 = P$ means that $x^2 - x = x(x - 1)$ annihilates $P$, so $V$ is the sum of the eigenspaces for $1$ and $0$, by the primary decomposition.
-- The same proof works for modules over any ring, where it shows that direct summands are images of idempotents.
+Part 1 can also be done with polynomials.
+The equation $P^2 = P$ says that the polynomial $x^2 - x = x(x - 1)$ kills $P$.
+Its two roots $0$ and $1$ are distinct, so $P$ is diagonalizable and $V$ is the direct sum of the eigenspaces for $1$ and $0$, which are $\operatorname{im} P$ and $\ker P$.
+The polynomial identity $1 = x - (x - 1)$ gives the splitting $v = Pv - (P - I)v$ that the proof above uses.
+
+The same proof works word for word for modules over any ring.
+There it shows that the direct summands of a module are exactly the images of its idempotent endomorphisms.

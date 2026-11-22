@@ -20,19 +20,36 @@ sources:
 ## Example
 
 Let $U_1 = \R(1, 0)$, $U_2 = \R(0, 1)$ and $U_3 = \R(1, 1)$ in $\R^2$.
-We check that the pairwise intersections are zero but the sum is not direct.
+We check that the pairwise intersections are zero, but the sum is not direct.
 
-1. Pairwise intersections. Two different lines through $0$ meet only in $0$. So $U_1 \cap U_2$, $U_1 \cap U_3$ and $U_2 \cap U_3$ are all $\{0\}$.
-2. Two expressions. The vector $(1, 1)$ is $0 + 0 + (1, 1)$ and also $(1, 0) + (0, 1) + 0$, with the terms in $U_1$, $U_2$, $U_3$ in this order.
-3. So the expression is not unique, and the sum $U_1 + U_2 + U_3$ is not [[direct|041JTZCK9Q]].
-4. The [[criterion for several subspaces|FVKY28HHBC]] finds the failure: $U_1 + U_2 = \R^2$, so $U_3 \cap (U_1 + U_2) = U_3 \ne \{0\}$.
-5. Dimension count. $\dim U_1 + \dim U_2 + \dim U_3 = 3 > 2 = \dim \R^2$, so no three nonzero subspaces of $\R^2$ form a direct sum.
+1. Pairwise intersections.
+   Two different lines through $0$ meet only in $0$, since a common nonzero vector would span both lines.
+   So $U_1 \cap U_2$, $U_1 \cap U_3$ and $U_2 \cap U_3$ are all $\{0\}$.
+2. Two expressions.
+   With the terms in $U_1$, $U_2$, $U_3$ in this order,
+$$(1, 1) = 0 + 0 + (1, 1) = (1, 0) + (0, 1) + 0.$$
+3. So the expression of $(1, 1)$ is not unique, and the sum $U_1 + U_2 + U_3$ is not [[direct|041JTZCK9Q]].
+4. The [[criterion for several subspaces|FVKY28HHBC]] finds the failure.
+   We have $U_1 + U_2 = \R^2$, so $U_3 \cap (U_1 + U_2) = U_3 \ne \{0\}$.
 
 ## Remarks
 
+### What the example shows
+
 For two subspaces, a zero intersection is enough for a direct sum.
-For three or more subspaces, it is not: the right test compares each subspace with the sum of the others.
-The same three lines show that the lattice of subspaces is not distributive: $U_3 \cap (U_1 + U_2) = U_3$, but $(U_3 \cap U_1) + (U_3 \cap U_2) = \{0\}$.
+For three or more, it is not, and the right test compares each subspace with the sum of the others.
+A count of dimensions shows the same thing: $\dim U_1 + \dim U_2 + \dim U_3 = 3 > 2 = \dim \R^2$.
+So no three nonzero subspaces of $\R^2$ form a direct sum, whatever lines we choose.
+
+### What changes in three dimensions
+
+Move the third line out of the plane, say $U_3 = \R(1, 1, 1)$ with $U_1 = \R(1, 0, 0)$ and $U_2 = \R(0, 1, 0)$ in $\R^3$.
+Now $U_1 + U_2$ is the $xy$-plane, and $(1, 1, 1)$ is not in it, so the criterion holds and $\R^3 = U_1 \oplus U_2 \oplus U_3$.
+
+### The lattice of subspaces
+
+The same three lines show that intersection does not distribute over sum.
+We have $U_3 \cap (U_1 + U_2) = U_3$, but $(U_3 \cap U_1) + (U_3 \cap U_2) = \{0\}$.
 
 ## Explanations
 
@@ -40,8 +57,12 @@ The same three lines show that the lattice of subspaces is not distributive: $U_
 
 Three lines through the origin in a plane never split the plane, even though any two of them cross only at the origin.
 Two of the lines already fill the plane, so the third adds nothing new.
+The point $(1, 1)$ can be reached along the third line alone, or by one step along each of the first two lines.
 
 ### L2 human
 
 The trap is to extend the test for two subspaces by checking all pairs.
-The correct extension is the test $U_i \cap (U_1 + \cdots + U_{i-1}) = \{0\}$, which here fails at $i = 3$.
+That test passes here, three times, and still the sum is not direct.
+The correct extension is the test $U_i \cap (U_1 + \cdots + U_{i-1}) = \{0\}$ for $i = 2, \dots, k$.
+For $i = 2$ it passes, because $U_2 \cap U_1 = \{0\}$.
+For $i = 3$ it fails, because $U_1 + U_2$ is the whole plane and contains $U_3$.

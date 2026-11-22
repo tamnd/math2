@@ -22,59 +22,71 @@ sources:
 
 ## Statement
 
+A linear map that sends a subspace to zero passes to the quotient by that subspace, in exactly one way.
 Let $F$ be a field, let $V$ and $U$ be vector spaces over $F$, and let $W$ be a subspace of $V$.
 Let $\pi \colon V \to V / W$ be the [[quotient map|0J0SK5FF4M]] onto the [[quotient space|0SVR29SV1V]].
 Let $T \colon V \to U$ be a [[linear map|0RJF668P1T]] with $W \subseteq \ker T$, where $\ker T$ is the [[kernel|02YFME3RGW]].
-Then there is exactly one linear map $\bar T \colon V / W \to U$ with $\bar T \circ \pi = T$.
-It is given by $\bar T(v + W) = T(v)$.
-Also, $\ker \bar T = \ker T / W$ and $\operatorname{im} \bar T = \operatorname{im} T$.
+Then there is exactly one linear map $\bar T \colon V / W \to U$ with $\bar T \circ \pi = T$, and it is given by
+$$\bar T(v + W) = T(v) \qquad (v \in V).$$
+In addition, $\ker \bar T = \ker T / W$ and $\operatorname{im} \bar T = \operatorname{im} T$.
 
 ## Remarks
 
 ### Why each hypothesis is needed
 
-- $W \subseteq \ker T$ is needed for $\bar T$ to be well defined. For $W = \R(1, 1)$ in $\R^2$ and $T(x, y) = x$, the cosets $(0, 0) + W$ and $(1, 1) + W$ are equal, but $T$ gives $0$ and $1$.
-- $T$ must be linear. Otherwise $\bar T$ would not be linear, since $\bar T \circ \pi = T$ and $\pi$ is surjective.
-- Conversely, any map of the form $\bar T \circ \pi$ vanishes on $W = \ker \pi$, so the condition $W \subseteq \ker T$ is also necessary for a factorization to exist.
+The condition $W \subseteq \ker T$ is what makes the formula for $\bar T$ meaningful.
+Take $W = \R(1, 1)$ in $\R^2$ and $T(x, y) = x$.
+The cosets $(0, 0) + W$ and $(1, 1) + W$ are equal, but $T$ gives $0$ on one representative and $1$ on the other, so no map $\bar T$ with $\bar T \circ \pi = T$ exists.
+The condition is also necessary in general: if $T = S \circ \pi$ for some $S$, then $T(w) = S(w + W) = S(0 + W) = 0$ for every $w \in W$.
 
-### Consequences
+The linearity of $T$ is needed for $\bar T$ to be linear.
+Since $\pi$ is surjective and linear, $\bar T$ is linear exactly when $\bar T \circ \pi = T$ is linear.
 
-- The map $\bar T \mapsto \bar T \circ \pi$ is an isomorphism from $\mathcal{L}(V / W, U)$ onto the subspace of maps $V \to U$ that vanish on $W$.
-- For $W = \ker T$, the map $\bar T$ is injective, which gives the [[first isomorphism theorem|0MTBGVZ4XJ]].
-- For $U = F$, the dual $(V / W)^*$ is isomorphic to the [[annihilator|0ASHNYF7AG]] of $W$ in $V^*$.
-- The quotient space is determined up to a unique isomorphism by this property.
+### What it gives you
 
-### Converse
+The theorem is the standard way to define a map on a quotient: write down a linear map on $V$, check that it kills $W$, and pass to $V / W$.
+For example, differentiation on polynomials of degree at most $3$ kills the constants, so it gives a map on polynomials modulo constants, as [[differentiation modulo constants|20YC6C97W9]] works out.
 
-If a space $Q$ with a linear map $p \colon V \to Q$ vanishing on $W$ has the same property, then the induced map $V / W \to Q$ is an isomorphism.
+When $W = \ker T$, the kernel $\ker \bar T = \ker T / W$ is zero, so $\bar T$ is injective onto $\operatorname{im} T$.
+This is the [[first isomorphism theorem|0MTBGVZ4XJ]], $V / \ker T \cong \operatorname{im} T$.
+
+The assignment $S \mapsto S \circ \pi$ is a linear isomorphism from the linear maps $V / W \to U$ onto the linear maps $V \to U$ that vanish on $W$.
+For $U = F$, this identifies the dual space $(V / W)^*$ with the [[annihilator|0ASHNYF7AG]] of $W$ in $V^*$.
+
+### The converse: the property determines the quotient
+
+Suppose that a space $Q$ and a linear map $p \colon V \to Q$ that vanishes on $W$ have the same property: every linear map that vanishes on $W$ factors uniquely through $p$.
+Then the map $V / W \to Q$ induced by $p$ is an isomorphism.
+So the quotient space is determined, up to a unique isomorphism, by its universal property.
 
 ## History
 
-The factorization of homomorphisms through quotients was used by Noether in her work on ideals and modules in the 1920s.
-It was stated as a universal property in the language of categories by Mac Lane and others in the 1950s.
+The phrase "universal property" belongs to category theory, which Eilenberg and Mac Lane introduced in 1945.
+The factorization itself is older and is used throughout the algebra of groups, rings and modules.
 
 ## Explanations
 
 ### L1 human
 
-A linear map that kills every vector of $W$ cannot tell apart two vectors that differ by an element of $W$.
-So it makes sense on the cosets, and it becomes a map from the quotient space.
-This property describes the quotient space completely.
+A linear map that sends every vector of $W$ to zero cannot tell apart two vectors that differ by an element of $W$.
+So it gives the same answer on a whole coset, and it makes sense as a rule on cosets.
+That rule is a map out of the quotient space.
 
 ### L2 human
 
-Let $T \colon \R^3 \to \R$ be $T(x, y, z) = x + y$ and $W$ the $z$-axis.
-
-1. $T(0, 0, z) = 0$, so $W \subseteq \ker T$.
-2. Define $\bar T((x, y, z) + W) = x + y$.
-3. Well defined: two representatives of one coset differ by $(0, 0, t)$, which does not change $x + y$.
-4. $\ker T$ is the set $x + y = 0$, a plane containing $W$, and $\ker \bar T$ is the line $\ker T / W$ in $\R^3 / W \cong \R^2$.
-
-The trap is to define $\bar T$ by a formula that uses $z$, which would change along a coset.
+Let $T \colon \R^3 \to \R$ be $T(x, y, z) = x + y$, and let $W$ be the $z$-axis.
+First check the hypothesis: $T(0, 0, z) = 0 + 0 = 0$, so $W \subseteq \ker T$.
+Then define $\bar T\bigl((x, y, z) + W\bigr) = x + y$.
+Two representatives of one coset differ by some $(0, 0, t)$, and
+$$T(x, y, z + t) = x + y = T(x, y, z),$$
+so $\bar T$ is well defined.
+The kernel of $T$ is the plane $x + y = 0$, which contains $W$, and $\ker \bar T$ is the line $\ker T / W$ inside $\R^3 / W \cong \R^2$.
+The image of $\bar T$ is all of $\R$, the same as the image of $T$.
+Watch out: a formula such as $(x, y, z) + W \mapsto x + z$ uses the coordinate $z$, which changes along a coset, so it does not define a map on $\R^3 / W$.
 
 ### L3 human
 
 The quotient map $\pi$ is the cokernel of the inclusion $W \to V$ in the category of vector spaces.
-The property says that $V / W$ represents the functor sending $U$ to the linear maps $V \to U$ that vanish on $W$.
-The same factorization holds for groups, rings and modules, and in any abelian category.
+The theorem says that $V / W$ represents the functor that sends a space $U$ to the linear maps $V \to U$ that vanish on $W$.
+The same factorization holds for quotient groups by normal subgroups, quotient rings by ideals and quotient modules, and in any abelian category.
 Mathlib constructs $\bar T$ as `Submodule.liftQ W T h` and proves $\bar T \circ \pi = T$ as `Submodule.liftQ_mkQ`.
