@@ -84,4 +84,4 @@ Watch out: the second factor is $q^n - q$, not $q^n - 2$, because the line spann
 The formula is the orbit count for the action of $\mathrm{GL}_n(\mathbb{F}_q)$ on ordered bases, which is free and transitive.
 Dividing the order by the order of the stabilizer of a subspace or of a flag gives the $q$-analogues of binomial coefficients and factorials.
 For example, the lines of $\mathbb{F}_q^2$ number $(q^2 - 1)(q^2 - q) / \bigl((q - 1)^2 q\bigr) = q + 1$, and this tends to $2 = 2!$ as $q \to 1$.
-The sub-area on [[invertible matrices|0FCHE902D7]] returns to $\mathrm{GL}_n(\mathbb{F}_q)$ as a group.
+The sub-area on invertible matrices returns to the [[general linear group|0FCHE902D7]] $\mathrm{GL}_n(\mathbb{F}_q)$ as a group.
