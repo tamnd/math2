@@ -12,7 +12,8 @@ Some linear maps move space without stretching it: they keep every length, and s
 These are the linear isometries, and in coordinates they are the orthogonal matrices over $\R$ and the unitary matrices over $\C$.
 This part of [[linear algebra|GN8GYSDZFX]] starts from the single condition $\norm{Tv} = \norm{v}$ and shows that it is the same as keeping inner products, and the same as $Q^TQ = I$ or $U^*U = I$ for a matrix.
 The isometries of $\R^n$ and $\C^n$ form the groups $O(n)$ and $U(n)$, and the determinant cuts out the subgroups $SO(n)$ and $SU(n)$.
-In low dimension the groups have a concrete shape: $SO(2)$ is the circle of plane rotations, every element of $O(2)$ is a rotation or a reflection, every rotation of space turns about an axis, and $SU(2)$ is the group of unit quaternions.
+In low dimension the groups have a concrete shape: $SO(2)$ is the circle of plane rotations, and every element of $O(2)$ is a rotation or a reflection.
+Every rotation of space turns about an axis, and $SU(2)$ is the group of unit quaternions.
 In every dimension, reflections build all of $O(n)$, and an orthogonal matrix splits into plane rotations and entries $\pm 1$.
 The Cayley transform closes the story: it describes the rotations without the eigenvalue $-1$ by skew-symmetric matrices and rational formulas.
 
