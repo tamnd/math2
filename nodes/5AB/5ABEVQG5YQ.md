@@ -46,7 +46,8 @@ In the bases of step 1, the entries $\frac{1}{\sqrt 2}$, $-\frac{1}{2}$, $0$ and
 What changes when one plane turns?
 Replace $W$ by the plane $y + cz = 0$ with $c > 0$.
 The two planes still share a line, so one angle stays $0$, and the other is the angle between the normals $(1, 1, 0)$ and $(0, 1, c)$, with cosine $1 / \sqrt{2(1 + c^2)}$.
-For $c = 1$ this is $\frac{1}{2}$ again, and as $c$ grows the second angle tends to $\pi/2$, because $W$ tends to the plane $z = 0$, which is orthogonal to... no plane through the line of $U$ at a right angle except one, and the normals become orthogonal.
+For $c = 1$ this is $\frac{1}{2}$ again.
+As $c$ grows, the second angle tends to $\pi/2$, because $W$ tends to the plane $z = 0$, whose normal $(0, 0, 1)$ is orthogonal to $(1, 1, 0)$.
 
 ## Explanations
 
