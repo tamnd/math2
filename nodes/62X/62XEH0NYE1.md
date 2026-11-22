@@ -16,33 +16,44 @@ sources:
 
 ## Example
 
-Let
-$$J = \begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$$
-over a field $F$, a [[Jordan block|0PBFS92AJP]] of size $2$, and let $I_2$ be the [[identity matrix|06DW9BAWB1]].
+Two matrices can agree in trace, determinant and characteristic polynomial and still not be similar.
+Over a field $F$, let
+$$J = \begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix},$$
+the [[Jordan block|0PBFS92AJP]] of size $2$ with eigenvalue $1$, and let $I_2$ be the [[identity matrix|06DW9BAWB1]].
 
-1. Trace: $\operatorname{tr} J = 1 + 1 = 2 = \operatorname{tr} I_2$.
-2. Determinant: $\det J = 1 \cdot 1 - 1 \cdot 0 = 1 = \det I_2$.
-3. Characteristic polynomial: $\det(xI - J) = (x - 1)^2 - 0 = (x - 1)^2 = \det(xI - I_2)$.
-4. Let $P$ be any invertible $2 \times 2$ matrix. Then $P^{-1} I_2 P = P^{-1} P = I_2$.
+1. The traces agree: $\operatorname{tr} J = 1 + 1 = 2 = \operatorname{tr} I_2$.
+2. The determinants agree: $\det J = 1 \cdot 1 - 1 \cdot 0 = 1 = \det I_2$.
+3. The characteristic polynomials agree, since both $xI - J$ and $xI - I_2$ are upper triangular with diagonal entries $x - 1$:
+   $$\det(xI - J) = (x - 1)^2 = \det(xI - I_2).$$
+4. Now let $P$ be any invertible $2 \times 2$ matrix over $F$.
+   Then $P^{-1}I_2P = P^{-1}P = I_2$.
 5. So the only matrix [[similar|027KDW2K72]] to $I_2$ is $I_2$ itself.
-6. Since $J \ne I_2$, the matrix $J$ is not similar to $I_2$.
-7. Other invariants show the difference. $J - I_2 = \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}$ has rank $1$, while $I_2 - I_2 = 0$ has rank $0$.
-8. The minimal polynomial of $I_2$ is $x - 1$. The minimal polynomial of $J$ is $(x - 1)^2$, because $J - I_2 \ne 0$ and $(J - I_2)^2 = \begin{pmatrix} 0 & 0 \\ 0 & 0 \end{pmatrix}$.
+   Since $J \ne I_2$, the matrix $J$ is not similar to $I_2$.
 
 ## Remarks
 
-- The trace, the determinant and the characteristic polynomial do not decide similarity.
-- Here the minimal polynomial separates the two matrices. In size $4$, even the minimal polynomial is not enough, as the [[example with five equal invariants|J4Q3B9ZNHF]] shows.
-- The matrix $J$ is not diagonalizable. A diagonal matrix with characteristic polynomial $(x - 1)^2$ is $I_2$, and $J$ is not similar to $I_2$.
+Other invariants do see the difference.
+The matrix $J - I_2 = \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}$ has rank $1$, while $I_2 - I_2 = 0$ has rank $0$.
+The minimal polynomial of $I_2$ is $x - 1$.
+The minimal polynomial of $J$ is $(x - 1)^2$, because $J - I_2 \ne 0$ but $(J - I_2)^2 = 0$.
+In size $4$, even the minimal polynomial is not enough, as the [[example with five equal invariants|J4Q3B9ZNHF]] shows.
+
+The example also shows that $J$ is not diagonalizable.
+A diagonal matrix with characteristic polynomial $(x - 1)^2$ has both diagonal entries equal to $1$, so it is $I_2$, and $J$ is not similar to $I_2$.
+
+The same argument works for every scalar matrix $cI$: it is similar only to itself.
+If we replace the entry $1$ in the corner of $J$ by any $t \ne 0$, the new matrix is still not similar to $I_2$, and it is similar to $J$ by $P = \operatorname{diag}(1, t)$.
 
 ## Explanations
 
 ### L1 human
 
 The identity matrix is the same in every basis, so nothing else is similar to it.
-The matrix $J$ has the same trace and determinant as $I_2$, but it is a shear, not the identity map.
+The matrix $J$ has the same trace and determinant as $I_2$, but it is a shear that slides the plane sideways, not the motion that leaves everything in place.
+So the two matrices describe different motions.
 
 ### L2 human
 
 Similar matrices share all their invariants, but the converse fails.
-The rank of $J - I_2$ counts how far $J$ is from the scalar $1$, and it is $1$, not $0$.
+The rank of $J - I_2$ measures how far $J$ is from the scalar matrix $I_2$, and it is $1$, not $0$.
+Watch out: to show that two matrices are not similar, one differing invariant is enough; to show that they are similar, you must find $P$ or use a complete set of invariants such as a canonical form.

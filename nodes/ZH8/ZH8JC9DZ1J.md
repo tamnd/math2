@@ -15,27 +15,37 @@ sources:
 
 ## Proof
 
-We check the three axioms of an equivalence relation in turn.
+We check the three axioms of an equivalence relation in turn, and each one uses one property of invertible matrices.
 
-1. Reflexive. The [[identity matrix|06DW9BAWB1]] $I_n$ is [[invertible|0TWTS88TWN]] with $I_n^{-1} = I_n$, since $I_n I_n = I_n$.
-2. So $I_n^{-1} A I_n = I_n A I_n = A$, because $I_n$ is a neutral element for the matrix product. By the [[definition of similarity|027KDW2K72]], $A$ is similar to $A$.
-3. Symmetric. Assume $B$ is similar to $A$. By the definition, $B = P^{-1} A P$ for an invertible $P$.
-4. Multiply on the left by $P$ and on the right by $P^{-1}$. By [[associativity|073E4XC016]], $P B P^{-1} = (P P^{-1}) A (P P^{-1}) = I_n A I_n = A$.
-5. Put $R = P^{-1}$. The matrix $R$ is invertible with $R^{-1} = P$, since $P^{-1} P = P P^{-1} = I_n$. This is the definition of an inverse with the roles exchanged.
-6. By step 4, $A = R^{-1} B R$. So $A$ is similar to $B$.
-7. Transitive. Assume $B = P^{-1} A P$ and $C = Q^{-1} B Q$, with $P$ and $Q$ invertible.
-8. Substitute the first equation into the second. By associativity, $C = Q^{-1} (P^{-1} A P) Q = (Q^{-1} P^{-1}) A (P Q)$.
-9. By the [[theorem on the inverse of a product|0S4WTRE9GG]], $PQ$ is invertible and $(PQ)^{-1} = Q^{-1} P^{-1}$.
-10. So $C = (PQ)^{-1} A (PQ)$ with $PQ$ invertible, and $C$ is similar to $A$.
-11. Steps 2, 6 and 10 are the three axioms. So similarity is an equivalence relation on $M_n(F)$. $\blacksquare$
+1. Reflexive.
+   The [[identity matrix|06DW9BAWB1]] $I_n$ is [[invertible|0TWTS88TWN]] with $I_n^{-1} = I_n$, since $I_nI_n = I_n$.
+2. Because $I_n$ is neutral for the matrix product, $I_n^{-1}AI_n = I_nAI_n = A$.
+   By the [[definition of similarity|027KDW2K72]], $A$ is similar to $A$.
+3. Symmetric.
+   Assume that $B$ is similar to $A$, so $B = P^{-1}AP$ for an invertible $P$.
+4. We multiply on the left by $P$ and on the right by $P^{-1}$, and use [[associativity|073E4XC016]]:
+   $$PBP^{-1} = (PP^{-1})A(PP^{-1}) = I_nAI_n = A.$$
+5. Put $R = P^{-1}$.
+   The equations $P^{-1}P = PP^{-1} = I_n$ say that $R$ is invertible with $R^{-1} = P$.
+6. So step 4 reads $A = R^{-1}BR$, and $A$ is similar to $B$.
+7. Transitive.
+   Assume that $B = P^{-1}AP$ and $C = Q^{-1}BQ$, with $P$ and $Q$ invertible.
+8. We substitute the first equation into the second and use associativity:
+   $$C = Q^{-1}(P^{-1}AP)Q = (Q^{-1}P^{-1})A(PQ).$$
+9. By the theorem on the [[inverse of a product|0S4WTRE9GG]], $PQ$ is invertible and $(PQ)^{-1} = Q^{-1}P^{-1}$.
+10. So $C = (PQ)^{-1}A(PQ)$ with $PQ$ invertible, and $C$ is similar to $A$.
+11. Steps 2, 6 and 10 are the three axioms, so similarity is an equivalence relation on $M_n(F)$.
 
 ## Idea
 
 Each axiom of an equivalence relation matches one property of the invertible matrices.
 The identity gives reflexivity, the inverse gives symmetry, and the product gives transitivity.
-In other words, the invertible matrices form a group, and similarity is the orbit relation of its conjugation action.
+In other words, the invertible matrices form a group, and similarity is the relation "lies in the same orbit" for the action of this group by conjugation.
 
 ## Variants
 
-- One can prove the theorem with linear maps: $A$ and $B$ are similar if and only if they are the matrices of one endomorphism in two bases. "Being the matrix of the same map" is then an equivalence relation at once.
-- The same proof shows that conjugacy in any group is an equivalence relation.
+A second proof uses group actions.
+The rule $A \cdot P = P^{-1}AP$ is a right action of the group $GL_n(F)$ on $M_n(F)$, since $A \cdot I_n = A$ and $(A \cdot P) \cdot Q = A \cdot (PQ)$.
+For every group action, "$B$ lies in the orbit of $A$" is an equivalence relation, by the identity, inverse and product of the group.
+The steps above are this general argument written out for matrices.
+The same argument, with group elements in place of matrices, shows that conjugacy in any group is an equivalence relation.
