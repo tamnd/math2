@@ -15,6 +15,8 @@ sources:
 
 ## Proof
 
+We row and column reduce an invertible matrix with transvections only, bringing a $1$ into the corner and clearing its row and column, and use induction on the size to reach $D_n(\det A)$; the three parts then follow.
+
 Call a matrix a *T-product* if it is a finite product of [[transvection matrices|0NMN00FNW1]]; for $n = 1$ the only T-product is the empty product $I_1$.
 By the [[theorem on elementary matrices|F7F6AA3XQ7]], $T_{ij}(c) X$ adds $c$ times row $j$ of $X$ to row $i$.
 Also, $X T_{ij}(c)$ adds $c$ times column $i$ to column $j$.
@@ -65,9 +67,10 @@ We prove the claim by induction on $n$.
 ## Idea
 
 Row reduction with row additions only can still bring a $1$ into the corner.
-The reason is that a suitable multiple of a nonzero entry below can be added.
+Once some entry below the corner is nonzero, adding the right multiple of its row changes the corner entry to anything we like, in particular to $1$.
 Then the first row and column are cleared, and induction treats the rest.
-The determinant is kept at each step, so the last diagonal entry is $\det A$.
+Transvections have determinant $1$, so the determinant is kept at each step, and the one entry that is not forced to be $1$, the last diagonal entry, must be $\det A$.
+This is why the scaling of ordinary elimination can be postponed to a single step at the end.
 
 ## Variants
 
