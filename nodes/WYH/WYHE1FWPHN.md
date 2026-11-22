@@ -16,33 +16,38 @@ sources:
 
 ## Example
 
-Let $T \colon \mathbb{R}^2 \to \mathbb{R}^3$ be $T(x, y) = (x, y, 0)$.
-This is a non-example: $T$ has no determinant.
+Let $T \colon \mathbb{R}^2 \to \mathbb{R}^3$ be the linear map $T(x, y) = (x, y, 0)$, which places the plane inside space.
+This map has no determinant, and we check the condition that fails.
 
-1. The [[definition|03F5KP94K0]] needs an endomorphism, a map from a space to the same space.
-2. The domain and the codomain of $T$ have dimensions $2$ and $3$, so $T$ is not an endomorphism.
-3. Every [[matrix of $T$|0YYMY95FWS]] has $3$ rows and $2$ columns, and a $3 \times 2$ matrix has no determinant.
-4. Check with a related map: $T$ followed by the projection $(x, y, z) \mapsto (x, y)$ is $\operatorname{id}_{\mathbb{R}^2}$, with determinant $1$.
-5. The projection after $T$ in the other order is $(x, y, z) \mapsto (x, y, 0)$ on $\mathbb{R}^3$, with determinant $0$.
-6. So no single number for $T$ can make both composites multiplicative.
+1. The [[definition|03F5KP94K0]] applies only to an endomorphism, a linear map from a space to the same space.
+2. The domain of $T$ has dimension $2$ and the codomain has dimension $3$, so $T$ is not an endomorphism.
+3. In the standard bases the columns of the [[matrix of $T$|0YYMY95FWS]] are $T(1, 0) = (1, 0, 0)$ and $T(0, 1) = (0, 1, 0)$:
+$$\begin{pmatrix} 1 & 0 \\ 0 & 1 \\ 0 & 0 \end{pmatrix}.$$
+4. Every matrix of $T$ has $3$ rows and $2$ columns, whatever bases we choose, and a $3 \times 2$ matrix has no determinant.
 
 ## Remarks
 
+Could we still assign some number to $T$ in a useful way?
+Let $\pi(x, y, z) = (x, y)$ be the projection from $\mathbb{R}^3$ to $\mathbb{R}^2$.
+Then $\pi \circ T$ is the identity of $\mathbb{R}^2$, with determinant $1$.
+In the other order, $T \circ \pi$ is the map $(x, y, z) \mapsto (x, y, 0)$ of $\mathbb{R}^3$, which kills $(0, 0, 1)$, so its determinant is $0$.
+If $T$ and $\pi$ had numbers $d$ and $e$ that multiply under composition, we would need $ed = 1$ and $de = 0$ at once, which is impossible.
+
 Equal dimensions are not enough either.
-For the identity map of $\mathbb{R}^2$, take the basis $e_1, e_2$ for the domain and $2 e_1, e_2$ for the codomain.
-Then the matrix is $\operatorname{diag}(1/2, 1)$, with determinant $1/2$, while the standard basis on both sides gives $1$.
-So a map $V \to W$ between different spaces has no well-defined determinant unless extra structure, such as volume forms, is given.
+For the identity of $\mathbb{R}^2$, take the basis $e_1, e_2$ on the domain and $2e_1, e_2$ on the codomain.
+Since $e_1 = \tfrac{1}{2}(2 e_1)$, the matrix is $\operatorname{diag}(\tfrac{1}{2}, 1)$, with determinant $\tfrac{1}{2}$, while the standard basis on both sides gives $1$.
+So a map $V \to W$ between different spaces has no well-defined determinant unless extra structure is given, such as a chosen volume form on each space.
 
 ## Explanations
 
 ### L1 human
 
 A determinant needs a square matrix.
-A map from a plane into space has a $3 \times 2$ matrix, which is not square.
-So the question "what is its determinant" has no answer.
+A map from the plane into space has a matrix with $3$ rows and $2$ columns, which is not square.
+So the question "what is its determinant?" has no answer.
 
 ### L2 human
 
-Steps 4 and 5 show why: the two composites have determinants $1$ and $0$.
-If $T$ had a determinant $d$ and the projection a determinant $e$, then $de = 1$ and $de = 0$.
-A trap: for maps between spaces of the same dimension, we still need one basis used on both sides.
+The remark gives the deeper reason.
+The two composites of $T$ with the projection have determinants $1$ and $0$, so no number for $T$ could make the product rule hold.
+Watch out: for a map between two spaces of the same dimension we also need one basis that serves both sides, and that only makes sense when the two spaces are the same.

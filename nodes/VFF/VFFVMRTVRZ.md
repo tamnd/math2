@@ -14,31 +14,49 @@ sources:
 
 ## Example
 
-Let $\omega \colon \mathbb{R}^2 \times \mathbb{R}^2 \to \mathbb{R}$ be $\omega(u, v) = u_1 v_2 - u_2 v_1$.
+Let $\omega \colon \mathbb{R}^2 \times \mathbb{R}^2 \to \mathbb{R}$ be the map $\omega(u, v) = u_1 v_2 - u_2 v_1$.
+We check that $\omega$ is an alternating bilinear form with $\omega(e_1, e_2) = 1$.
 
-1. Linearity in $u$: for fixed $v$, $\omega(u, v) = v_2 u_1 - v_1 u_2$ is a linear combination of $u_1$ and $u_2$. So $\omega(su + tu', v) = s\,\omega(u, v) + t\,\omega(u', v)$.
-2. Linearity in $v$: for fixed $u$, $\omega(u, v) = u_1 v_2 - u_2 v_1$ is a linear combination of $v_1$ and $v_2$.
-3. So $\omega$ is [[bilinear|0SDMPMCN43]].
-4. Alternating: $\omega(u, u) = u_1 u_2 - u_2 u_1 = 0$ for each $u$.
-5. So $\omega$ is an [[alternating multilinear map|0MSWYWHYF5]].
-6. Normalization: $\omega(e_1, e_2) = 1 \cdot 1 - 0 \cdot 0 = 1$.
-7. Numerical check: for $u = (2, 1)$ and $v = (1, 3)$, $\omega(u, v) = 6 - 1 = 5$, and $\omega(v, u) = 1 - 6 = -5$.
+1. Linearity in $u$.
+   For fixed $v$, the value $\omega(u, v) = v_2 u_1 - v_1 u_2$ is a fixed combination of $u_1$ and $u_2$, so
+$$\omega(s u + t u', v) = s\, \omega(u, v) + t\, \omega(u', v)$$
+   for all real $s, t$ and all $u, u'$.
+2. Linearity in $v$.
+   For fixed $u$, the value $\omega(u, v) = u_1 v_2 - u_2 v_1$ is a fixed combination of $v_1$ and $v_2$, so $\omega$ is linear in $v$ in the same way.
+3. By steps 1 and 2, $\omega$ is [[bilinear|0SDMPMCN43]].
+4. The alternating property.
+   For every $u$,
+$$\omega(u, u) = u_1 u_2 - u_2 u_1 = 0.$$
+   So $\omega$ is an [[alternating multilinear map|0MSWYWHYF5]].
+5. Normalization: $\omega(e_1, e_2) = 1 \cdot 1 - 0 \cdot 0 = 1$.
+6. A numerical check: for $u = (2, 1)$ and $v = (1, 3)$,
+$$\omega(u, v) = 2 \cdot 3 - 1 \cdot 1 = 5, \qquad \omega(v, u) = 1 \cdot 1 - 3 \cdot 2 = -5,$$
+   so exchanging the arguments changes the sign, as it must for an alternating form.
 
 ## Remarks
 
-By the [[existence and uniqueness theorem|1C8RRWHD45]], $\omega(u, v) = \det \begin{pmatrix} u_1 & u_2 \\ v_1 & v_2 \end{pmatrix}$, since both are alternating, bilinear and $1$ on $(e_1, e_2)$.
-The number $\abs{\omega(u, v)}$ is the area of the parallelogram with sides $u$ and $v$; for $u = (2, 1)$, $v = (1, 3)$ the area is $5$.
-Each alternating bilinear form on $\mathbb{R}^2$ is $c\,\omega$ for $c = \omega'(e_1, e_2)$; for example $\omega'(u, v) = 3u_1 v_2 - 3u_2 v_1$ is $3\omega$.
+Since $\omega$ is alternating, bilinear and $1$ on $(e_1, e_2)$, the [[existence and uniqueness theorem|1C8RRWHD45]] gives
+$$\omega(u, v) = \det \begin{pmatrix} u_1 & u_2 \\ v_1 & v_2 \end{pmatrix}.$$
+The number $\lvert \omega(u, v) \rvert$ is the area of the parallelogram with sides $u$ and $v$.
+For $u = (2, 1)$ and $v = (1, 3)$ that area is $5$.
+
+The same theorem shows that $\omega$ is the only such form up to a factor.
+Every alternating bilinear form $\omega'$ on $\mathbb{R}^2$ equals $c\, \omega$ with $c = \omega'(e_1, e_2)$.
+For example, $\omega'(u, v) = 3 u_1 v_2 - 3 u_2 v_1$ is $3 \omega$.
+On $\mathbb{R}^3$ this fails: the forms $u_1 v_2 - u_2 v_1$ and $u_1 v_3 - u_3 v_1$ are both alternating and bilinear, and neither is a multiple of the other.
 
 ## Explanations
 
 ### L1 human
 
 The signed area of two arrows in the plane is a single number.
-It doubles when one arrow doubles, and it is zero when the two arrows point the same way.
+It doubles when one arrow doubles, and it is zero when the two arrows point along the same line.
 For the arrows $(2, 1)$ and $(1, 3)$ it is $2 \cdot 3 - 1 \cdot 1 = 5$.
+In the other order it is $-5$, because the sign tells which way you turn from the first arrow to the second.
 
 ### L2 human
 
-The sign of $\omega(u, v)$ tells the turning direction from $u$ to $v$: positive for a counterclockwise turn of less than a half turn.
-A trap: $\omega$ is not linear as a map on $\mathbb{R}^4$; for instance $\omega(2u, 2v) = 4\,\omega(u, v)$.
+The sign of $\omega(u, v)$ gives the direction of the turn from $u$ to $v$.
+It is positive when the shorter turn from $u$ to $v$ is counterclockwise, as for $e_1$ and $e_2$, and negative when it is clockwise.
+Watch out: $\omega$ is not a linear map on $\mathbb{R}^4$, even though its formula has no squares.
+For example $\omega(2u, 2v) = 4\, \omega(u, v)$, and with $u = (2, 1)$ and $v = (1, 3)$ that is $20$, not $10$.

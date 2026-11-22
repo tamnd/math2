@@ -16,40 +16,63 @@ sources:
 
 ## Statement
 
+A determinant is $0$ as soon as its rows carry less information than they should: two equal rows, a zero row, or a row built from the others.
 Let $K$ be a commutative ring, let $n \ge 1$, and let $A$ be an $n \times n$ matrix over $K$ with rows $r_1, \dots, r_n$.
 Let $\det$ be the [[determinant|0C3CFHDN6R]].
 
-1. If two different rows of $A$ are equal, then $\det A = 0$.
-2. If a row of $A$ is zero, then $\det A = 0$.
+1. If $r_i = r_j$ for two indices $i \ne j$, then $\det A = 0$.
+2. If some row $r_i$ is zero, then $\det A = 0$.
 3. If some row $r_i$ is a [[linear combination|0V8F3E48E6]] of the other rows, then $\det A = 0$.
-4. If $\sum_k c_k r_k = 0$ with $c_k \in K$, then $c_i \det A = 0$ for every $i$.
+4. If $c_1 r_1 + \dots + c_n r_n = 0$ with $c_k \in K$, then $c_i \det A = 0$ for every $i$.
 5. If $K$ is a [[field|0QA8CHH8MG]] and the rows of $A$ are [[linearly dependent|0CRMGPAH83]], then $\det A = 0$.
 
 ## Remarks
 
+### Seeing a zero at once
+
+Take
+$$A = \begin{pmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9 \end{pmatrix}.$$
+No two rows are equal and no row is zero, but the third row is built from the other two:
+$$2 (4, 5, 6) - (1, 2, 3) = (7, 8, 9).$$
+So part 3 gives $\det A = 0$ without any further work.
+Check by the rule of Sarrus:
+$$45 + 84 + 96 - 105 - 48 - 72 = 225 - 225 = 0.$$
+
 ### Why each hypothesis is needed
 
-In part 1 the two rows must be in different places; a matrix has each row equal to itself.
-In part 4 one only gets $c_i \det A = 0$, not $\det A = 0$.
-For example, over $\mathbb{Z}/4\mathbb{Z}$ the $1 \times 1$ matrix $(2)$ has the dependent row $2 \cdot 2 = 0$, but $\det (2) = 2 \neq 0$.
-Part 5 needs a field, or at least an integral domain, so that $c_i \det A = 0$ with $c_i \neq 0$ forces $\det A = 0$.
+Part 1 asks for two rows in different places, $i \ne j$.
+The condition $r_i = r_i$ says nothing, and $\det I_2 = 1$ although each row equals itself.
 
-### Consequences
+Part 4 gives only $c_i \det A = 0$, and over a general ring this does not force $\det A = 0$.
+Over $\mathbb{Z}/4\mathbb{Z}$, the $1 \times 1$ matrix $(2)$ has the relation $2 \cdot 2 = 0$ with the nonzero coefficient $2$.
+Its determinant is $2 \ne 0$, and part 4 only says $2 \cdot 2 = 0$, which is true.
+That is why part 5 asks for a field: there a nonzero $c_i$ has an inverse, and $c_i \det A = 0$ gives $\det A = 0$.
+The same argument works over any integral domain.
 
-- The same five rules hold for columns, by the [[determinant of the transpose|0ZZQ2E1MTE]].
-- Adding a multiple of one row to another row does not change $\det$; see the [[effect of row operations|09YB3WQG38]].
-- A matrix with $\det A \neq 0$ over a field has independent rows; this is one half of the [[invertibility criterion|FBSAPTP1PR]].
+### What it gives you
 
-### Converse
+Parts 1 to 3 are the fastest test for a zero determinant, and they hold for columns too by the [[determinant of the transpose|0ZZQ2E1MTE]].
+Part 1 with multilinearity shows that adding a multiple of one row to another row keeps the determinant, which is one of the [[effects of row operations|09YB3WQG38]].
+Part 5 is one half of the [[invertibility criterion|FBSAPTP1PR]]: over a field, $\det A \ne 0$ forces independent rows.
 
-Over a field the converse of part 5 is also true: $\det A = 0$ implies that the rows are dependent.
-The proof needs row reduction or the adjugate; see the [[invertibility criterion|FBSAPTP1PR]].
-For a $2 \times 2$ example, $\det \begin{pmatrix} 1 & 2 \\ 2 & 4 \end{pmatrix} = 0$, and row $2$ is twice row $1$.
+### The converse
 
-### Generalizations
+Over a field the converse of part 5 is true: if $\det A = 0$, then the rows are dependent.
+This needs more than multilinearity, namely row reduction or the adjugate, and the [[invertibility criterion|FBSAPTP1PR]] proves it.
+For example, $\det \begin{pmatrix} 1 & 2 \\ 2 & 4 \end{pmatrix} = 4 - 4 = 0$, and the second row is twice the first.
+Over the ring $\mathbb{Z}/6\mathbb{Z}$ the converse of part 3 fails: $\det \begin{pmatrix} 2 & 0 \\ 0 & 3 \end{pmatrix} = 6 = 0$, but neither row is a multiple of the other.
+The rows still satisfy the relation $3 (2, 0) + 2 (0, 3) = (6, 6) = 0$, so over a ring a relation is the right notion, not a combination.
 
-Every [[alternating multilinear map|0MSWYWHYF5]] has the same five properties, by the same proof.
-Over an integral domain $R$, part 5 holds in the form: dependent rows over the field of fractions of $R$ give $\det A = 0$.
+### Watch out
+
+"No two rows are equal" does not mean "the determinant is nonzero".
+The matrix in the first example has three different rows and determinant $0$.
+The correct test over a field is linear dependence, not equality.
+
+### Try it
+
+Is $\det \begin{pmatrix} 1 & 0 & 2 \\ 3 & 1 & 1 \\ 5 & 1 & 5 \end{pmatrix}$ zero?
+Yes, because the third row is $2 (1, 0, 2) + (3, 1, 1) = (5, 1, 5)$, so part 3 applies.
 
 ## Explanations
 
@@ -57,22 +80,26 @@ Over an integral domain $R$, part 5 holds in the form: dependent rows over the f
 
 If two rows of a square table are the same, its determinant is $0$.
 The same is true if a row has only zeros.
-More generally, the determinant is $0$ if one row can be built from the other rows by scaling and adding.
-In the picture of volume, the rows then lie in a flat plane, so the box they span has no volume.
+More generally, the determinant is $0$ when one row can be built from the others by scaling and adding.
+In the picture of volume, the rows then lie in one flat plane, so the box they span has no volume.
+For example, the rows $(1, 2)$ and $(2, 4)$ lie on one line, and $1 \cdot 4 - 2 \cdot 2 = 0$.
 
 ### L2 human
 
-Let $A = \begin{pmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9 \end{pmatrix}$.
-
-1. Row $3$ is $2 r_2 - r_1$, since $2(4, 5, 6) - (1, 2, 3) = (7, 8, 9)$.
-2. By part 3, $\det A = 0$.
-3. Check by the rule of Sarrus: $45 + 84 + 96 - 105 - 48 - 72 = 225 - 225 = 0$.
-
-The typical use is to see at once that a determinant is zero.
-A trap: "no two rows are equal" does not mean $\det A \neq 0$, as this example shows.
+Here is a typical use: for which $t$ is $\det \begin{pmatrix} 1 & 1 & 1 \\ 1 & 2 & 3 \\ 1 & t & 5 \end{pmatrix}$ zero?
+Look for a combination $a (1, 1, 1) + b (1, 2, 3)$ that equals $(1, t, 5)$.
+The first and last entries give $a + b = 1$ and $a + 3b = 5$, so $b = 2$ and $a = -1$.
+The middle entry is then $t = a + 2b = 3$.
+So for $t = 3$ the third row is a combination of the others, and part 3 gives determinant $0$.
+Check by the rule of Sarrus at $t = 3$:
+$$10 + 3 + 3 - 2 - 9 - 5 = 0.$$
+The problem shows the typical use: a dependence among rows gives a zero determinant without expansion.
+Watch out: to show that the determinant is nonzero for the other values of $t$, you need the converse of part 5, which the [[invertibility criterion|FBSAPTP1PR]] supplies.
 
 ### L3 human
 
-Parts 1 to 4 hold for any alternating multilinear map $D$ on a module.
-Part 4 says that $\det A$ is killed by every coefficient of a relation among the rows; so over a ring, $\det A$ is a zero divisor or zero when the rows are dependent.
-This is the key step of McCoy's theorem: a system $Ax = 0$ over a commutative ring has a nonzero solution if and only if the annihilator of the ideal of maximal minors is nonzero.
+Parts 1 to 4 hold for every [[alternating multilinear map|0MSWYWHYF5]], with the same proof.
+Part 4 says that every coefficient of a relation among the rows kills $\det A$.
+So over a commutative ring, dependent rows make $\det A$ zero or a zero divisor.
+For square matrices the converse also holds, by McCoy's theorem: $Ax = 0$ has a nonzero solution exactly when $\det A$ is zero or a zero divisor.
+The [[determinants over commutative rings|03Q7RE2HXR]] continue this line.

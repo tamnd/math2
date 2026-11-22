@@ -14,33 +14,45 @@ sources:
 
 ## Example
 
-Let $M = \begin{pmatrix} 0 & I_2 \\ I_2 & 0 \end{pmatrix} = \begin{pmatrix} 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1 \\ 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \end{pmatrix}$ over $\mathbb{Q}$.
-So the [[blocks|01AXG9KZQF]] are $A = D = 0$ and $B = C = I_2$, all of size $2 \times 2$.
+Let $M$ be the $4 \times 4$ matrix over $\mathbb{Q}$ whose [[blocks|01AXG9KZQF]] are $A = D = 0$ and $B = C = I_2$:
+$$M = \begin{pmatrix} 0 & I_2 \\ I_2 & 0 \end{pmatrix} = \begin{pmatrix} 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1 \\ 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \end{pmatrix}.$$
+We show that $\det M \ne \det A \det D - \det B \det C$.
 
-1. The false formula gives $\det A \det D - \det B \det C = 0 \cdot 0 - 1 \cdot 1 = -1$.
-2. Each row and each column of $M$ has exactly one entry $1$, so only one term of the [[Leibniz formula|016PE4VZ8Q]] is nonzero.
-3. That term is the permutation $1 \mapsto 3$, $2 \mapsto 4$, $3 \mapsto 1$, $4 \mapsto 2$, which is $(1\,3)(2\,4)$.
-4. It is a product of two transpositions, so its sign is $+1$, and $\det M = 1$.
-5. Check by [[row swaps|09YB3WQG38]]: swap rows 1 and 3, then rows 2 and 4, to get $I_4$.
-6. Two swaps multiply the determinant by $(-1)^2 = 1$, so $\det M = \det I_4 = 1$.
-7. So $\det M = 1 \ne -1$, and the formula is false.
+1. The block version of $ad - bc$ gives
+$$\det A \det D - \det B \det C = 0 \cdot 0 - 1 \cdot 1 = -1.$$
+2. Each row and each column of $M$ has exactly one entry $1$.
+   So only one term of the [[Leibniz formula|016PE4VZ8Q]] is nonzero, the term of the permutation that sends each row to the column of its $1$.
+3. That permutation sends $1 \mapsto 3$, $2 \mapsto 4$, $3 \mapsto 1$ and $4 \mapsto 2$, so it is $(1\,3)(2\,4)$.
+   It is a product of two transpositions, so its sign is $+1$.
+   The product of its entries is $1$, so $\det M = 1$.
+4. Check by [[row swaps|09YB3WQG38]]: swapping rows 1 and 3 and then rows 2 and 4 turns $M$ into $I_4$.
+   Each swap multiplies the determinant by $-1$, so $\det M = (-1)^2 \det I_4 = 1$.
+5. So $\det M = 1$, while the formula gives $-1$, and the formula is false.
 
 ## Remarks
 
-The blocks here commute, so the [[commuting-blocks formula|T4TRMJHX3S]] applies: $\det(AD - BC) = \det(-I_2) = 1$, which is correct.
-For $1 \times 1$ blocks the false formula reduces to $ad - bc$, which is correct; the error appears only for blocks of size at least $2$.
-The correct general tool is the [[Schur complement formula|0KA7A4ENVJ]].
+The example shows that blocks cannot be treated like numbers in the $2 \times 2$ formula.
+For $1 \times 1$ blocks the formula is the true rule $ad - bc$, so the failure starts at blocks of size $2$.
+With blocks of size $n$, the same matrix $\begin{pmatrix} 0 & I_n \\ I_n & 0 \end{pmatrix}$ has determinant $(-1)^n$, because it takes $n$ row swaps to reach $I_{2n}$.
+So the formula, which always gives $-1$, is right for odd $n$ and wrong for even $n$.
+
+Two correct tools replace the false formula.
+Here $C = I_2$ and $D = 0$ commute, so the [[formula for commuting blocks|T4TRMJHX3S]] applies, and it gives the right value:
+$$\det(AD - BC) = \det(0 - I_2) = \det(-I_2) = (-1)^2 = 1.$$
+In general, when a corner block is invertible, the [[Schur complement formula|0KA7A4ENVJ]] is the right tool.
+Here $B$ is invertible, so moving it to a diagonal corner by row swaps would also work.
 
 ## Explanations
 
 ### L1 human
 
-For a $2 \times 2$ matrix of numbers, the determinant is $ad - bc$.
-It is tempting to use the same rule when the four entries are square blocks.
-This example shows that the rule then gives the wrong sign.
+For a $2 \times 2$ table of numbers, the determinant is $ad - bc$.
+It is tempting to use the same rule when the four entries are themselves square blocks.
+This example shows that the rule can then give the wrong sign: it predicts $-1$, but the true determinant is $1$.
 
 ### L2 human
 
-The typical use of block formulas is a matrix with a zero block, where the [[block triangular rule|0J9TVTNB4K]] applies.
-With no zero block, first check whether a corner block is invertible, and then use the Schur complement.
-The trap is to treat blocks like numbers: matrices do not commute, and $\det$ is not additive.
+The typical use of a block formula is a matrix with a zero corner block, where the [[block triangular rule|0J9TVTNB4K]] gives $\det A \det D$.
+With no zero block, first ask whether a diagonal block is invertible, and then use the Schur complement.
+The trap is to treat blocks like numbers.
+Matrices do not commute, and the determinant of a matrix of blocks is not built from the determinants of the blocks in the same way as for entries.

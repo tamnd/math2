@@ -15,45 +15,65 @@ sources:
 
 ## Proof
 
-**Part 1.** Fix $i < j$ and fix all arguments except those in positions $i$ and $j$.
+We get the sign rule by expanding $f$ at a repeated sum, extend it to all permutations by induction on the number of transpositions, and handle dependent families and the converse by linearity in one slot.
 
-1. Write $g(x, y)$ for the value of $f$ with $x$ in position $i$ and $y$ in position $j$. Then $g$ is bilinear, because $f$ is [[multilinear|0SDMPMCN43]].
+*Part 1: one exchange.* Fix $i < j$, and fix all arguments except those in positions $i$ and $j$.
+
+1. Write $g(x, y)$ for the value of $f$ with $x$ in position $i$ and $y$ in position $j$.
+   Then $g$ is bilinear, because $f$ is [[multilinear|0SDMPMCN43]].
 2. Since $f$ is [[alternating|0MSWYWHYF5]], $g(z, z) = 0$ for each $z \in M$.
-3. Take $z = x + y$. By bilinearity, $0 = g(x + y, x + y) = g(x, x) + g(x, y) + g(y, x) + g(y, y)$.
-4. By step 2, $g(x, x) = g(y, y) = 0$. So $g(x, y) + g(y, x) = 0$, that is, $g(y, x) = -g(x, y)$.
+3. Take $z = x + y$ and expand by bilinearity:
+$$0 = g(x + y, x + y) = g(x, x) + g(x, y) + g(y, x) + g(y, y).$$
+4. By step 2, $g(x, x) = g(y, y) = 0$.
+   So $g(x, y) + g(y, x) = 0$, that is, $g(y, x) = -g(x, y)$.
 
-**Part 2.**
+*Part 2: any permutation.*
 
-5. By the theorem that the [[transpositions generate|0AQNX7G443]] $S_n$, write $\sigma = \tau_1 \cdots \tau_m$ with transpositions $\tau_k$. By the [[definition of the sign|0SK90238BH]], $\sgn(\sigma) = (-1)^m$.
-6. We use induction on $m$. For $m = 0$, $\sigma$ is the identity and the claim holds.
-7. Let $m \ge 1$, write $\rho = \tau_1 \cdots \tau_{m-1}$ and $\tau = \tau_m$, and put $w_k = v_{\rho(k)}$.
-8. Then $v_{\sigma(k)} = v_{\rho(\tau(k))} = w_{\tau(k)}$. So the family $(v_{\sigma(k)})_k$ is the family $(w_k)_k$ with the two entries exchanged by $\tau$.
+5. By the theorem that the [[transpositions generate|0AQNX7G443]] $S_n$, write $\sigma = \tau_1 \cdots \tau_m$ with transpositions $\tau_k$.
+   By the [[definition of the sign|0SK90238BH]], $\operatorname{sgn}(\sigma) = (-1)^m$.
+6. We use induction on $m$.
+   For $m = 0$, $\sigma$ is the identity and the claim holds.
+7. Let $m \ge 1$, write $\rho = \tau_1 \cdots \tau_{m-1}$ and $\tau = \tau_m$, and put $w_k = v_{\rho(k)}$ for each $k$.
+8. Then $v_{\sigma(k)} = v_{\rho(\tau(k))} = w_{\tau(k)}$.
+   So the family $(v_{\sigma(k)})_k$ is the family $(w_k)_k$ with the two entries that $\tau$ exchanges swapped.
 9. By part 1, $f(v_{\sigma(1)}, \dots, v_{\sigma(n)}) = -f(w_1, \dots, w_n)$.
-10. By the induction hypothesis, $f(w_1, \dots, w_n) = (-1)^{m-1} f(v_1, \dots, v_n)$.
-11. So $f(v_{\sigma(1)}, \dots, v_{\sigma(n)}) = (-1)^m f(v_1, \dots, v_n) = \sgn(\sigma) f(v_1, \dots, v_n)$.
+10. By the induction hypothesis applied to $\rho$, $f(w_1, \dots, w_n) = (-1)^{m-1} f(v_1, \dots, v_n)$.
+11. So
+$$f(v_{\sigma(1)}, \dots, v_{\sigma(n)}) = (-1)^m f(v_1, \dots, v_n) = \operatorname{sgn}(\sigma)\, f(v_1, \dots, v_n).$$
 
-**Part 3.**
+*Part 3: dependent families.*
 
 12. Let $v_i = \sum_{k \neq i} c_k v_k$ with $c_k \in K$.
-13. By linearity in position $i$, $f(v_1, \dots, v_n) = \sum_{k \neq i} c_k\, f(v_1, \dots, v_k, \dots, v_n)$, where $v_k$ stands in position $i$.
-14. In the $k$-th term the vector $v_k$ appears in position $i$ and in position $k$, with $k \neq i$. So each term is $0$ because $f$ is alternating, and $f(v_1, \dots, v_n) = 0$.
-15. Let $K$ be a field and let the family be [[linearly dependent|0EVHJFTG9Z]]. Then $\sum_k c_k v_k = 0$ with some $c_i \neq 0$.
-16. Divide by $c_i$: $v_i = \sum_{k \neq i} (-c_k / c_i) v_k$. By steps 12 to 14, $f(v_1, \dots, v_n) = 0$.
+13. By linearity in position $i$,
+$$f(v_1, \dots, v_n) = \sum_{k \neq i} c_k\, f(v_1, \dots, v_{i-1}, v_k, v_{i+1}, \dots, v_n).$$
+14. In the term of index $k$, the vector $v_k$ stands in position $i$ and also in position $k$, with $k \neq i$.
+   So each term is $0$ because $f$ is alternating, and $f(v_1, \dots, v_n) = 0$.
+15. Now let $K$ be a field, and let the family be [[linearly dependent|0EVHJFTG9Z]].
+   Then $\sum_k c_k v_k = 0$ with some $c_i \neq 0$.
+16. Divide by $c_i$ to get $v_i = \sum_{k \neq i} (-c_k / c_i) v_k$.
+   By steps 12 to 14, $f(v_1, \dots, v_n) = 0$.
 
-**Part 4.**
+*Part 4: the converse.*
 
-17. Let $v_i = v_j = z$ with $i < j$, and write $y = f(v_1, \dots, v_n)$.
-18. Exchanging positions $i$ and $j$ does not change the family, so the value is still $y$.
-19. By the sign rule, the value after the exchange is $-y$. So $y = -y$, that is, $2y = 0$.
-20. Since $2$ is a non-zero-divisor on $N$, $y = 0$. So $f$ is alternating.
+17. Let $v_i = v_j$ with $i < j$, and write $y = f(v_1, \dots, v_n)$.
+18. Exchanging positions $i$ and $j$ does not change the family, so the value after the exchange is still $y$.
+19. By the sign rule, the value after the exchange is $-y$.
+   So $y = -y$, that is, $2y = 0$.
+20. Since $2$ is a non-zero-divisor on $N$, $y = 0$.
+   So $f$ is alternating.
 
 ## Idea
 
-Expand $f(x + y, x + y) = 0$ by bilinearity; the mixed terms must cancel, which is the sign rule.
-A permutation is a product of transpositions, so the sign rule for one exchange gives the rule for any permutation.
-For the converse, an exchange of two equal arguments gives $y = -y$, and the hypothesis on $2$ gives $y = 0$.
+Put the same sum $x + y$ into two slots and expand.
+The pure terms vanish because the map is alternating, so the two mixed terms must cancel, and that cancellation is the sign rule.
+A permutation is a product of transpositions, so one sign change per transposition gives the sign of the permutation.
+For a dependent family, expand the dependent vector, and every piece has a repeated vector.
+For the converse, exchanging two equal arguments changes nothing and also changes the sign, so the value $y$ satisfies $y = -y$, and the hypothesis on $2$ gives $y = 0$.
 
 ## Variants
 
-Part 2 can also use the inversions of $\sigma$: sort the family by adjacent exchanges, and count one sign change for each inversion.
-Part 3 over a field can also be proved from part 2 and the fact that the alternating forms of top degree are multiples of the determinant.
+Part 2 can also be proved with inversions.
+Sort the family $(v_{\sigma(1)}, \dots, v_{\sigma(n)})$ back to $(v_1, \dots, v_n)$ by exchanges of neighbors, as in bubble sort, and count one sign change for each exchange.
+The number of exchanges has the parity of the number of inversions of $\sigma$, and that parity defines the sign.
+Part 1 also follows from the special case of neighbors.
+Prove the sign rule for two neighboring slots as above, and then write any transposition $(i\,j)$ as a product of $2(j - i) - 1$ transpositions of neighbors, an odd number.
