@@ -89,11 +89,6 @@ It is $\begin{pmatrix} 2 & 0 \\ 0 & 0 \end{pmatrix}$, since the matrix is alread
 Second, find the root of $\begin{pmatrix} 2 & 1 \\ 1 & 2 \end{pmatrix}$, whose eigenvalues are $3$ and $1$.
 The polynomial $p(t) = \big( (\sqrt3 - 1) t + 3 - \sqrt 3 \big)/2$ has $p(3) = \sqrt 3$ and $p(1) = 1$, so the root is $p(A) = \tfrac12 \begin{pmatrix} \sqrt3 + 1 & \sqrt3 - 1 \\ \sqrt3 - 1 & \sqrt3 + 1 \end{pmatrix}$.
 
-## History
-
-The theorem is classical, and the sources used here do not name a first author, so we give none.
-Axler's Linear Algebra Done Right and Horn and Johnson's Matrix Analysis both prove it from the spectral theorem, by the construction of part 3.
-
 ## Explanations
 
 ### L1 human
