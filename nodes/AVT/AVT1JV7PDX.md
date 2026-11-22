@@ -17,20 +17,29 @@ sources:
 
 ## Proof
 
-1. By [[linear systems as vector equations|E7SAHXQEVC]], $x_1 v_1 + \cdots + x_n v_n = Ax$. So $\operatorname{span}(v_1, \dots, v_n) = \set{Ax : x \in F^n}$, and $b$ lies in the span exactly when $Ax = b$ is consistent.
-2. By [[the existence of echelon forms|FCM29NQ6DN]], a sequence of elementary row operations takes $A$ to a matrix $R$ in row echelon form.
-3. By [[the matrix form of row operations|K41GT10YM6]], $R = EA$ for a product $E$ of elementary matrices, and $E$ is invertible.
-4. The same operations take $[A \mid b]$ to $[R \mid Eb]$, because they act on each column separately.
-5. ("If") Assume that every row of $R$ has a pivot, and let $b \in F^m$. Then $[R \mid Eb]$ is in row echelon form, and its pivots are the pivots of $R$, so its last column is not a pivot column.
-6. By [[the consistency criterion|BKA191KD1S]], $Ax = b$ is consistent. So $b$ lies in the span, and the vectors span $F^m$.
-7. ("Only if") Assume that some row of $R$ has no pivot. Then this row is zero, and in row echelon form the zero rows are at the bottom; so row $m$ of $R$ is zero.
-8. Let $e_m = (0, \dots, 0, 1)$ and $b = E^{-1} e_m$. Then the operations of step 4 take $[A \mid b]$ to $[R \mid e_m]$.
-9. The matrix $[R \mid e_m]$ is in row echelon form, and its last row is $(0, \dots, 0 \mid 1)$. By the consistency criterion, $Ax = b$ has no solution.
-10. So $b$ is not in the span, and the vectors do not span $F^m$. This proves part 1.
-11. (Part 2) Each pivot of $R$ lies in a different column, so $R$ has at most $n$ pivots.
-12. If the vectors span $F^m$, then by part 1 each of the $m$ rows has a pivot, so $m \le n$.
+We turn spanning into the consistency of the systems $Ax = b$, and then read consistency from the echelon form.
+Let $R$ be a row echelon form of $A$, reached by a sequence of elementary row operations, which exists by [[the echelon form theorem|FCM29NQ6DN]].
+
+1. By [[linear systems as vector equations|E7SAHXQEVC]], $x_1 v_1 + \dots + x_n v_n = Ax$ for every $x \in F^n$. So a vector $b$ lies in $\operatorname{span}(v_1, \dots, v_n)$ exactly when the system $Ax = b$ has a solution.
+2. Fix $b \in F^m$ and apply the same row operations to the augmented matrix $[A \mid b]$. Row operations act on whole rows, so the left part becomes $R$, and the result is $[R \mid c]$ for some $c \in F^m$.
+3. By [[the reversibility of row operations|K41GT10YM6]], the systems $Ax = b$ and $Rx = c$ have the same solutions.
+4. For the "if" direction, assume that every row of $R$ has a pivot. Then $[R \mid c]$ is in echelon form with the same pivots as $R$, so its last column holds no pivot.
+5. By [[the consistency criterion|BKA191KD1S]], $Rx = c$ has a solution, so $Ax = b$ has one by step 3. Since $b$ was arbitrary, the vectors span $F^m$ by step 1.
+6. For the "only if" direction, assume that some row of $R$ has no pivot. A row without a pivot is a zero row, and in echelon form the zero rows come last, so row $m$ of $R$ is zero.
+7. Let $e_m = (0, \dots, 0, 1)$ and start from the matrix $[R \mid e_m]$. Undo the row operations in reverse order; each has an inverse row operation by [[reversibility|K41GT10YM6]], so this gives a matrix $[A \mid b]$ for some $b \in F^m$.
+8. The last row of $[R \mid e_m]$ reads $0 = 1$, so $Rx = e_m$ has no solution. By step 3, $Ax = b$ has no solution either.
+9. So $b$ is not in the span by step 1, and the vectors do not span $F^m$. This proves part 1.
+10. For part 2, each pivot of $R$ is the leading entry of its row and lies in its own column, so $R$ has at most $n$ pivots. If the vectors span $F^m$, then part 1 gives a pivot in each of the $m$ rows, so $m \le n$.
 
 ## Idea
 
-Row operations do not change which right sides are reachable, up to the invertible matrix $E$.
-In echelon form, a pivot in every row makes every system consistent, and a zero last row lets us choose a right side that gives $0 = 1$.
+Spanning means that every system $Ax = b$ is solvable, and row operations do not change which systems are solvable, only how they look.
+In echelon form the answer is visible.
+A pivot in every row leaves no room for an equation $0 = 1$.
+A zero row lets us put a $1$ next to it, and running the row operations backward turns that bad right side into a vector $b$ that the columns of $A$ cannot reach.
+
+## Variants
+
+With matrices, the row operations are a product $E$ of elementary matrices with $EA = R$, and $E$ is invertible.
+The bad right side of step 7 is then $b = E^{-1} e_m$, and $Ax = b$ is equivalent to $Rx = EAx = e_m$.
+A proof by rank also works: the columns span $F^m$ exactly when the column space has dimension $m$, and the rank of $A$ equals the number of pivots of $R$.

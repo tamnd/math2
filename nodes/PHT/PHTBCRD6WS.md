@@ -18,44 +18,70 @@ sources:
 
 ## Statement
 
+Over a finite field, the dimension of a space fixes how many vectors and how many ordered bases it has.
 Let $q$ be a prime power, let $\mathbb{F}_q$ be the field with $q$ elements, and let $V$ be a vector space over $\mathbb{F}_q$ of finite [[dimension|05G2G0P224]] $n$.
+Then:
 
-1. $V$ has exactly $q^n$ elements.
-2. $V$ has exactly $(q^n - 1)(q^n - q) \cdots (q^n - q^{n - 1}) = \prod_{i = 0}^{n - 1} (q^n - q^i)$ ordered [[bases|0VTQTPQGAV]].
+1. $V$ has exactly $q^n$ elements;
+2. $V$ has exactly $\prod_{i = 0}^{n - 1} (q^n - q^i) = (q^n - 1)(q^n - q) \cdots (q^n - q^{n - 1})$ ordered [[bases|0VTQTPQGAV]].
 
 ## Remarks
 
+### A first count
+
+For $\mathbb{F}_2^2$, with $q = 2$ and $n = 2$, part 1 gives $4$ vectors and part 2 gives
+$$(4 - 1)(4 - 2) = 3 \cdot 2 = 6$$
+ordered bases, which the [[example of finite spaces|J9VE1X14PV]] lists one by one.
+For $\mathbb{F}_2^3$ the counts are $8$ vectors and $7 \cdot 6 \cdot 4 = 168$ ordered bases.
+Each factor $q^n - q^i$ counts the choices for the next basis vector: all $q^n$ vectors, minus the $q^i$ vectors in the span of the $i$ vectors already chosen.
+
 ### Why each hypothesis is needed
 
-The field must be finite: over $\R$, a line already has infinitely many vectors.
-The dimension must be finite: $\mathbb{F}_2[x]$ is infinite, although $\mathbb{F}_2$ is finite.
-For $n = 0$, the formulas give $q^0 = 1$ vector and the empty product $1$, for the one ordered basis, the empty family.
+The field must be finite, since over $\mathbb{R}$ a single line already has infinitely many vectors.
+The dimension must be finite, since $\mathbb{F}_2[x]$ is an infinite space over the finite field $\mathbb{F}_2$.
+The case $n = 0$ is allowed and fits the formulas: the zero space has $q^0 = 1$ vector, and the empty product $1$ counts its one ordered basis, the empty family.
 
-### Consequences
+### What it gives you
 
-1. The size of a finite vector space over $\mathbb{F}_q$ is a power of $q$; so no vector space over $\mathbb{F}_2$ has $6$ elements.
-2. A finite field $K$ with prime subfield $\mathbb{F}_p$ is a vector space over $\mathbb{F}_p$, so $\abs{K} = p^n$ for some $n$.
-3. The number of ordered bases of $\mathbb{F}_q^n$ equals the [[order of the general linear group|0JQ1KNQW2K]] $\mathrm{GL}_n(\mathbb{F}_q)$, because the columns of an invertible matrix form an ordered basis.
-4. The $n$ vectors of a basis are distinct, so each basis as a set gives $n!$ ordered bases.
-   So there are $\frac{1}{n!} \prod_{i = 0}^{n - 1} (q^n - q^i)$ bases as sets.
+The size of a finite vector space over $\mathbb{F}_q$ is a power of $q$, so, for example, no vector space over $\mathbb{F}_2$ has $6$ elements.
+Applied to a finite field $K$ as a space over its prime subfield $\mathbb{F}_p$, part 1 shows that $|K| = p^n$ for some $n$.
 
-### Converse
+The columns of an invertible $n \times n$ matrix form an ordered basis of $\mathbb{F}_q^n$, and every ordered basis arises from exactly one such matrix.
+So part 2 is also the [[order of the general linear group|0JQ1KNQW2K]] $\mathrm{GL}_n(\mathbb{F}_q)$.
+For $n = 2$ and $q = 3$ that order is $(9 - 1)(9 - 3) = 48$.
+Since the $n$ vectors of a basis are distinct, each basis taken as a set gives $n!$ ordered bases, and so the number of bases as sets is the product divided by $n!$.
 
-If $V$ is finite with $q^n$ elements, then $\dim V = n$, because the map $n \mapsto q^n$ is injective for $q \ge 2$.
+### The converse
+
+If a space over $\mathbb{F}_q$ has $q^n$ elements, then its dimension is $n$.
+The space is finite, so it is finite-dimensional, say of dimension $m$, and part 1 gives $q^m = q^n$, so $m = n$ because $q \ge 2$.
 
 ### Generalizations
 
-The number of subspaces of dimension $k$ is the [[Gaussian binomial coefficient|YS09Z1YNEK]], which belongs to enumerative combinatorics.
+The same choice argument counts the subspaces of dimension $k$ in $\mathbb{F}_q^n$: divide the number of independent ordered $k$-tuples by the number of ordered bases of one $k$-dimensional space.
+The result is the [[Gaussian binomial coefficient|YS09Z1YNEK]], which belongs to enumerative combinatorics.
 
 ## Explanations
 
 ### L1 human
 
-A vector in $\mathbb{F}_q^n$ is a list of $n$ entries, each with $q$ choices, so there are $q^n$ vectors.
-To build a basis, choose the vectors one at a time, each outside the span of the earlier ones.
+A vector in $\mathbb{F}_q^n$ is a list of $n$ entries, and each entry has $q$ possible values, so there are $q^n$ vectors.
+To build a basis, choose the vectors one at a time, each one outside the span of the earlier ones.
+For the plane over the field with two elements, that is $3$ choices and then $2$ choices, so $6$ ordered bases.
 
 ### L2 human
 
-Example: $\mathbb{F}_3^2$ has $3^2 = 9$ vectors.
-The first basis vector has $9 - 1 = 8$ choices, and the second has $9 - 3 = 6$ choices, because the span of the first vector has $3$ elements.
-So $\mathbb{F}_3^2$ has $8 \cdot 6 = 48$ ordered bases.
+We count the ordered bases of $\mathbb{F}_5^2$.
+There are $5^2 = 25$ vectors, so the first vector has $25 - 1 = 24$ choices.
+The first vector spans a line with $5$ points, so the second vector has $25 - 5 = 20$ choices.
+So there are $24 \cdot 20 = 480$ ordered bases, and $|\mathrm{GL}_2(\mathbb{F}_5)| = 480$.
+Each basis as a set gives $2! = 2$ ordered bases, so there are $240$ unordered bases.
+The typical use is in group theory and coding theory, where such counts give the orders of matrix groups and the numbers of codes.
+Watch out: the second factor is $q^n - q$, not $q^n - 2$, because the line spanned by the first vector has $q$ points, not $2$.
+
+### L3 human
+
+The formula is the orbit count for the action of $\mathrm{GL}_n(\mathbb{F}_q)$ on ordered bases, which is free and transitive.
+Dividing the order by the order of the stabilizer of a subspace or of a flag gives the $q$-analogues of binomial coefficients and factorials.
+For example, the lines of $\mathbb{F}_q^2$ number $(q^2 - 1)(q^2 - q) / \bigl((q - 1)^2 q\bigr) = q + 1$, and this tends to $2 = 2!$ as $q \to 1$.
+The sub-area on invertible matrices returns to the [[general linear group|0FCHE902D7]] $\mathrm{GL}_n(\mathbb{F}_q)$ as a group.

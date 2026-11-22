@@ -20,48 +20,62 @@ sources:
 
 ## Statement
 
+To show that a subset is a subspace, and hence a vector space, it is enough to check one closure condition on a nonempty set.
 Let $F$ be a field, let $V$ be a [[vector space|05EGHEQZAW]] over $F$, and let $W \subseteq V$ be a subset.
-Then these three conditions are equivalent:
+Then the following three conditions are equivalent:
 
 1. $W$ is a [[linear subspace|0EPTJA5QV4]] of $V$.
-2. $W$ is nonempty, and $u + av \in W$ for all $u, v \in W$ and $a \in F$.
-3. $W$ is closed under addition and scalar multiplication, and $W$ with the restricted operations is a vector space over $F$.
+2. $W$ is nonempty, and $u + av \in W$ for all $u, v \in W$ and all $a \in F$.
+3. $W$ is closed under the addition and the scalar multiplication of $V$, and $W$ with the restricted operations is a vector space over $F$.
 
 ## Remarks
 
+### A worked use
+
+Let $P_2(\mathbb{R})$ be the real polynomials of degree at most $2$, and let $W = \{p \in P_2(\mathbb{R}) : p(1) = 0\}$.
+The zero polynomial has value $0$ at $1$, so $W$ is nonempty.
+For $p, q \in W$ and a real number $a$, evaluation at $1$ respects sums and multiples:
+$$(p + aq)(1) = p(1) + a\,q(1) = 0 + a \cdot 0 = 0.$$
+So condition 2 holds, and $W$ is a subspace, and therefore a vector space, with no axiom checked by hand.
+For instance, $x - 1$ and $x^2 - 1$ lie in $W$, and so does $(x - 1) + 3(x^2 - 1) = 3x^2 + x - 4$, whose value at $1$ is $3 + 1 - 4 = 0$.
+
 ### Why each hypothesis is needed
 
-In condition 2, "nonempty" is needed: the empty set satisfies the closure condition by default, but it is not a subspace because it does not contain $0$.
-The scalar $a$ must range over all of $F$; with $a \ge 0$ only, the first quadrant of $\R^2$ would pass, but it is not a subspace.
+The word "nonempty" in condition 2 cannot be dropped.
+The empty set satisfies the closure condition, because there are no vectors $u$ and $v$ to test, but it has no zero vector, so it is not a subspace.
 
-### Consequences
+The scalar $a$ must range over all of $F$.
+If we allow only $a \ge 0$ in $\mathbb{R}^2$, the first quadrant passes, since $u + av$ has nonnegative entries when $u$, $v$ and $a$ do.
+But the first quadrant is not a subspace, because $(-1)(1, 1) = (-1, -1)$ is not in it.
 
-The test reduces the eight axioms to one closure check.
-It shows quickly that the null space of a matrix, the polynomials of degree at most $n$, and the continuous functions are subspaces, hence vector spaces.
+In condition 3, the operations must be those of $V$.
+The [[positive real numbers with product as addition|DQQ6NXK1SQ]] form a vector space, but with other operations than those of $\mathbb{R}$, so they are not a subspace of $\mathbb{R}$.
 
-### Converse
+### What it gives you
 
-The statement is an equivalence, so each condition implies the others.
+The test turns the eight axioms into one line of algebra.
+It shows at once that the [[null space|0PHDYNR24D]] of a matrix, the polynomials of degree at most $n$ and the continuous functions are vector spaces.
+The test also works with a condition that fails: for $p(1) = 1$ in place of $p(1) = 0$, we get $(p + aq)(1) = 1 + a$, which is $2$ for $a = 1$, so that set is not a subspace.
 
 ### Generalizations
 
-The same test, with a ring $R$ in place of $F$, characterizes submodules of an $R$-module.
-For subgroups of a group, the analogous test is "nonempty and $gh^{-1} \in H$".
+The same test, with a ring $R$ in place of $F$, characterizes the submodules of a [[module|0NZ8JA25WK]] over $R$.
+The test for subgroups of a group has the same shape: a nonempty subset $H$ is a subgroup when $g h^{-1} \in H$ for all $g, h \in H$.
 
 ## Explanations
 
 ### L1 human
 
-To show that a subset is a subspace, we do not need all eight axioms.
-It is enough to show that the subset is not empty and that $u + av$ stays inside.
-The axioms then come for free from the big space.
+To show that a set of vectors is a subspace, you do not need to check all eight rules of a vector space.
+Check that the set is not empty, and that $u + av$ stays in the set whenever $u$ and $v$ are in it.
+For the line $y = 2x$, the points $(1, 2)$ and $(3, 6)$ give $(1, 2) + 2 \cdot (3, 6) = (7, 14)$, which is again on the line.
+The rules of a vector space then come for free from the big space.
 
 ### L2 human
 
-Example: $W = \set{p \in P_2(\R) : p(1) = 0}$.
-
-1. $0 \in W$, so $W$ is nonempty.
-2. If $p, q \in W$ and $a \in \R$, then $(p + aq)(1) = p(1) + a q(1) = 0$.
-3. So $p + aq \in W$, and $W$ is a subspace.
-
-With the condition $p(1) = 1$ instead, the test fails: $(p + aq)(1) = 1 + a$, which is not $1$ for $a = 1$.
+Why does one condition do the work of three?
+The choice $a = 1$ gives closure under addition.
+The choice $u = v = w$ and $a = -1$ gives $w + (-1)w = 0$, so the zero vector is in $W$.
+Then $u = 0$ gives $0 + av = av$, which is closure under scaling.
+The [[proof|N8XQ4315RR]] writes this out and then checks the axioms of a vector space for $W$.
+Watch out: a proof by the test must use arbitrary $u$, $v$ and $a$; a check at a few sample vectors only finds failures.

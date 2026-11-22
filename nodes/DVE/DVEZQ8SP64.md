@@ -16,41 +16,48 @@ sources:
 
 ## Example
 
-Let $F$ be a field, let $V = F[x]$, and let $W = x F[x] = \set{p \in F[x] : p(0) = 0}$.
+Let $F$ be a field and let $V = F[x]$ be the [[space of all polynomials|0JGZCDT5DN]] over $F$.
+Let $W = x F[x]$ be the set of polynomials with no constant term:
+$$W = \{p \in F[x] : p(0) = 0\} = \{a_1 x + a_2 x^2 + \dots + a_n x^n : n \ge 1, \ a_i \in F\}.$$
+We check that $W$ is a proper [[subspace|0EPTJA5QV4]] of $V$ and that $W$ has the same dimension as $V$.
 
-Check that $W$ is a [[subspace|0EPTJA5QV4]], by the subspace test:
-
-1. $0 \in W$, because the zero polynomial has value $0$ at $0$.
-2. If $p(0) = 0$ and $q(0) = 0$, then $(p + q)(0) = 0 + 0 = 0$.
-3. If $p(0) = 0$ and $c \in F$, then $(cp)(0) = c \cdot 0 = 0$.
-
-Check the dimensions:
-
-1. The monomials $1, x, x^2, \dots$ form a basis of $V$, so $\dim V = \aleph_0$; see the [[space of polynomials|0JGZCDT5DN]].
-2. The monomials $x, x^2, x^3, \dots$ lie in $W$ and are independent, as a subfamily of a basis.
-3. They span $W$: if $p = a_0 + a_1 x + \cdots + a_n x^n$ and $p(0) = 0$, then $a_0 = 0$, so $p = a_1 x + \cdots + a_n x^n$.
-4. So $x, x^2, \dots$ is a basis of $W$, and $\dim W = \aleph_0 = \dim V$.
-
-Check that $W \ne V$: the constant $1$ has $1(0) = 1 \ne 0$, so $1 \notin W$.
-
-So "equal dimension forces equality" fails here, because $V$ is not finite-dimensional.
-The map $p \mapsto x p$ is an injective linear map $V \to V$ with image $W$, so $W \cong V$.
+1. The zero polynomial has value $0$ at $0$, so $0 \in W$.
+2. If $p(0) = 0$ and $q(0) = 0$, then $(p + q)(0) = p(0) + q(0) = 0 + 0 = 0$, so $p + q \in W$.
+3. If $p(0) = 0$ and $c \in F$, then $(cp)(0) = c\,p(0) = c \cdot 0 = 0$, so $cp \in W$.
+4. The constant polynomial $1$ has value $1 \ne 0$ at $0$, so $1 \notin W$ and $W \ne V$.
+5. The monomials $1, x, x^2, \dots$ form a basis of $V$, so the [[dimension|05G2G0P224]] of $V$ is $\aleph_0$, the size of the natural numbers.
+6. The monomials $x, x^2, x^3, \dots$ lie in $W$. They are independent, because they are part of the basis of step 5.
+7. They span $W$: if $p = a_0 + a_1 x + \dots + a_n x^n$ has $p(0) = 0$, then $a_0 = p(0) = 0$, so $p = a_1 x + \dots + a_n x^n$.
+8. So $x, x^2, x^3, \dots$ is a basis of $W$. It is indexed by the positive integers, a countably infinite set, so $\dim W = \aleph_0 = \dim V$.
 
 ## Remarks
 
-The same happens in the sequence space $F^{\N}$: the subspace of sequences with $a_0 = 0$ is proper, and the right shift is an isomorphism onto it.
-This is the linear analogue of Hilbert's hotel: an infinite set has proper subsets of the same size.
+The example shows that in infinite dimension a subspace can have the full dimension of the space and still be smaller.
+In finite dimension this cannot happen: a [[subspace of full dimension is the whole space|0WGAXEK99E]].
+The difference is the same as for sets, where the infinite set $\{0, 1, 2, \dots\}$ has the proper subset $\{1, 2, 3, \dots\}$ of the same size.
+
+The two spaces are even isomorphic.
+Multiplication by $x$ sends $p$ to $xp$, it is linear, and it is injective, since $xp = 0$ forces $p = 0$.
+Its image is exactly $W$, because every $a_1 x + \dots + a_n x^n$ equals $x(a_1 + a_2 x + \dots + a_n x^{n - 1})$.
+So $p \mapsto xp$ is an isomorphism $V \to W$, and it sends the basis $1, x, x^2, \dots$ of $V$ to the basis $x, x^2, x^3, \dots$ of $W$.
+
+The same thing happens in the [[space of sequences|0GZB2SN0PH]] $F^{\mathbb{N}}$.
+The sequences with first term $0$ form a proper subspace, and the right shift $(a_0, a_1, \dots) \mapsto (0, a_0, a_1, \dots)$ is an isomorphism onto it.
+If we change $W$ to the polynomials with $p(0) = p'(0) = 0$, the same argument works with the basis $x^2, x^3, \dots$, so even a subspace of "codimension $2$" has full dimension.
 
 ## Explanations
 
 ### L1 human
 
-In finite dimension, a subspace with full dimension is the whole space.
-For infinite dimension, this fails.
-The polynomials without a constant term are a smaller space, but they have just as many basis vectors.
+In a finite-dimensional space, a subspace that has as many basis vectors as the whole space is the whole space.
+With infinitely many basis vectors, this fails.
+The polynomials with no constant term, such as $x + 3x^2$, form a smaller space, since the polynomial $1$ is missing.
+But they still have infinitely many basis vectors $x, x^2, x^3, \dots$, one for each basis vector $1, x, x^2, \dots$ of all polynomials.
 
 ### L2 human
 
-The shift $x^k \mapsto x^{k + 1}$ sends the basis of $F[x]$ onto the basis of $x F[x]$.
-Count the basis vectors: both lists are indexed by the natural numbers.
-So the dimensions agree, while the vector $1$ is missing from $x F[x]$.
+Match the two bases by the rule $x^k \mapsto x^{k + 1}$:
+$$1 \mapsto x, \qquad x \mapsto x^2, \qquad x^2 \mapsto x^3, \qquad \dots$$
+Every basis vector of $W$ appears exactly once on the right, so the two bases have the same size, and the dimensions agree.
+Yet the vector $1$ of $V$ is not in $W$.
+The lesson is that the rule "equal dimension forces equality" needs finite dimension, and a proof of it must use finiteness somewhere, as the proof for [[dimension of a subspace|0QW084460E]] does.

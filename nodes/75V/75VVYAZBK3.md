@@ -17,28 +17,30 @@ sources:
 
 ## Proof
 
-We extend a basis of $U \cap W$ to bases of $U$ and of $W$.
-We show that together they give a basis of $U + W$.
+We extend one basis of $U \cap W$ in two directions, to a basis of $U$ and to a basis of $W$, and we show that the pieces together form a basis of $U + W$.
 
-1. By [[intersection of subspaces|0V33SPH7RR]], $U \cap W$ is a [[linear subspace|0EPTJA5QV4]] of $U$. By [[the dimension of a subspace|0QW084460E]], it is finite-dimensional. Let $k = \dim(U \cap W)$ and let $z_1, \dots, z_k$ be a [[basis|0VTQTPQGAV]] of it.
-2. The family $z_1, \dots, z_k$ is [[linearly independent|0EVHJFTG9Z]] in $U$. By [[the extension to a basis|0M4SXE5WW3]], it extends to a basis of $U$.
-3. By the [[dimension theorem|0WK0Y8RH1M]], this basis has $\dim U$ vectors. Write it as $z_1, \dots, z_k, u_1, \dots, u_r$ with $r = \dim U - k$.
-4. In the same way, $W$ has a basis $z_1, \dots, z_k, w_1, \dots, w_s$ with $s = \dim W - k$.
-5. Let $\mathcal{B}$ be the family $z_1, \dots, z_k, u_1, \dots, u_r, w_1, \dots, w_s$. Each vector of $\mathcal{B}$ lies in $U$ or in $W$, so it lies in the [[sum|0RMKABS2S5]] $U + W$, as $u = u + 0$ or $w = 0 + w$.
-6. The set $U + W$ is a linear subspace of $V$. It contains $0 = 0 + 0$. Also $(u + w) + (u' + w') = (u + u') + (w + w')$ and $a(u + w) = au + aw$, with $u, u' \in U$ and $w, w' \in W$.
-7. Let $u + w \in U + W$ with $u \in U$ and $w \in W$. By step 3, $u$ is a combination of the $z_i$ and the $u_j$. By step 4, $w$ is a combination of the $z_i$ and the $w_l$.
-8. So $u + w$ is a linear combination of $\mathcal{B}$. Hence $\mathcal{B}$ [[spans|0BJKVF90Z6]] $U + W$.
-9. For independence, let $\sum_{i} a_i z_i + \sum_{j} b_j u_j + \sum_{l} c_l w_l = 0$ with coefficients in $F$. Let $y = \sum_{l} c_l w_l$.
-10. Then $y \in W$. Also $y = -\sum_{i} a_i z_i - \sum_{j} b_j u_j \in U$. So $y \in U \cap W$.
-11. By step 1, $y = \sum_{i} d_i z_i$ for some $d_i \in F$. So $\sum_{i} d_i z_i - \sum_{l} c_l w_l = 0$.
-12. The family $z_1, \dots, z_k, w_1, \dots, w_s$ is linearly independent by step 4. So all $c_l = 0$, and $y = 0$.
-13. Then $\sum_{i} a_i z_i + \sum_{j} b_j u_j = 0$. The family of step 3 is linearly independent, so all $a_i = 0$ and all $b_j = 0$.
-14. By steps 8 to 13, $\mathcal{B}$ is a basis of $U + W$. So $U + W$ is finite-dimensional.
-15. A linearly independent family has no repeated vectors, since $1 \cdot x - 1 \cdot x = 0$ is a nontrivial relation. So $\mathcal{B}$ has $k + r + s$ distinct vectors, and $\dim(U + W) = k + r + s$ by the definition of [[dimension|05G2G0P224]].
-16. By steps 1, 3, 4 and 15, $\dim(U + W) + \dim(U \cap W) = (k + r + s) + k = (k + r) + (k + s) = \dim U + \dim W$.
+1. By the theorem on the [[intersection of subspaces|0V33SPH7RR]], $U \cap W$ is a [[linear subspace|0EPTJA5QV4]] of $U$. By the theorem on the [[dimension of a subspace|0QW084460E]], it is finite-dimensional. Let $k = \dim(U \cap W)$, and let $z_1, \dots, z_k$ be a [[basis|0VTQTPQGAV]] of $U \cap W$.
+2. The list $z_1, \dots, z_k$ is [[linearly independent|0EVHJFTG9Z]] in $U$, so by the [[extension theorem|0M4SXE5WW3]] it extends to a basis of $U$. By the [[dimension theorem|0WK0Y8RH1M]] this basis has $\dim U$ vectors, so we can write it as $z_1, \dots, z_k, u_1, \dots, u_r$ with $r = \dim U - k$.
+3. In the same way, $W$ has a basis $z_1, \dots, z_k, w_1, \dots, w_s$ with $s = \dim W - k$.
+4. Let $\mathcal{B}$ be the list $z_1, \dots, z_k, u_1, \dots, u_r, w_1, \dots, w_s$. Each of its vectors lies in $U$ or in $W$, and so in the [[sum|0RMKABS2S5]] $U + W$, since $u = u + 0$ and $w = 0 + w$.
+5. To see that $\mathcal{B}$ [[spans|0BJKVF90Z6]] $U + W$, take $u + w$ with $u \in U$ and $w \in W$. By step 2, $u$ is a combination of the $z_i$ and the $u_j$, and by step 3, $w$ is a combination of the $z_i$ and the $w_l$, so $u + w$ is a combination of $\mathcal{B}$.
+6. For independence, suppose that $\sum_i a_i z_i + \sum_j b_j u_j + \sum_l c_l w_l = 0$, and put $y = \sum_l c_l w_l$.
+7. Then $y \in W$, and also $y = -\sum_i a_i z_i - \sum_j b_j u_j \in U$. So $y \in U \cap W$, and by step 1, $y = \sum_i d_i z_i$ for some scalars $d_i$.
+8. This gives $\sum_i d_i z_i - \sum_l c_l w_l = 0$. The list of step 3 is independent, so every $c_l = 0$ (and every $d_i = 0$), and therefore $y = 0$.
+9. Now $\sum_i a_i z_i + \sum_j b_j u_j = 0$. The list of step 2 is independent, so every $a_i = 0$ and every $b_j = 0$.
+10. By steps 5 to 9, $\mathcal{B}$ is a basis of $U + W$, so $U + W$ is finite-dimensional with $\dim(U + W) = k + r + s$. An independent list has no repeated vector, since $x - x = 0$ would be a nontrivial relation, so $\mathcal{B}$ really has $k + r + s$ distinct vectors.
+11. By steps 1 to 3 and 10,
+$$\dim(U + W) + \dim(U \cap W) = (k + r + s) + k = (k + r) + (k + s) = \dim U + \dim W.$$
 
 ## Idea
 
-Vectors in both subspaces get counted twice in $\dim U + \dim W$.
-Starting from a basis of $U \cap W$ and extending it inside $U$ and inside $W$ makes this double count explicit.
-The combined family is a basis of $U + W$, because any relation among it forces a vector of $W$ into $U \cap W$, where it must vanish.
+The vectors of $U \cap W$ are counted twice in $\dim U + \dim W$.
+Starting from a basis of $U \cap W$ and extending it inside $U$ and inside $W$ makes this double count visible: the $z_i$ appear in both bases, the $u_j$ and $w_l$ in only one.
+The combined list spans $U + W$ for an easy reason, and it is independent because a relation would push a combination of the $w_l$ into $U \cap W$, where only the $z_i$ live.
+So the sum has a basis of $k + r + s$ vectors, and the count is done.
+
+## Variants
+
+The [[rank-nullity theorem|0W4FSW1TVB]] gives a shorter proof.
+The map $U \times W \to U + W$, $(u, w) \mapsto u - w$, is linear and onto, and its kernel $\{(z, z) : z \in U \cap W\}$ has dimension $\dim(U \cap W)$, so $\dim U + \dim W = \dim(U + W) + \dim(U \cap W)$.
+A proof by quotient spaces counts both sides of $(U + W)/W \cong U/(U \cap W)$.
