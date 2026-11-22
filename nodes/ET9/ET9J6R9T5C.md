@@ -26,70 +26,91 @@ inventory: [12PB8WVBA2]
 
 ## Summary
 
-An *end of proof mark* is a word or a symbol at the end of a [[proof|0B94TKFQJX]] that tells the reader that the proof is complete.
-The classical mark is `Q.E.D.`, an [[abbreviation|4ZNYMYRRY3]] of the Latin phrase *quod erat demonstrandum*, "which was to be demonstrated".
+An end of proof mark is a small sign that says "the proof stops here", so that the reader knows where the argument ends and the commentary begins.
+You meet it at the right margin after the last line of a proof, as in "so $a + b = 2(m + n)$ is even. ∎"
+
+An *end of proof mark* is a word or a symbol placed at the end of a [[proof|0B94TKFQJX]] to show that the proof is complete.
+The classical mark is `Q.E.D.`, an [[abbreviation|4ZNYMYRRY3]] of the Latin *quod erat demonstrandum*, "which was to be demonstrated".
 The modern mark is the *tombstone* $\blacksquare$, also called the *Halmos symbol*, or its hollow form $\square$.
 The related mark `Q.E.F.`, for *quod erat faciendum*, "which was to be done", ends a construction instead of a proof.
-Authors also use end marks for claims inside a proof, and some use them for examples and remarks.
-The mark adds no logical content: it records the claim of the author that the argument is finished.
+The mark adds no logical content: it records the author's claim that the argument is finished.
 
 ## Motivation
 
-A proof can be long, and the text after it often continues with remarks or a new result.
-Without a mark, the reader can be unsure where the proof stops and the commentary starts.
-A fixed mark at the end of each proof makes the structure of a page visible at a glance.
-A reader can skip a proof and find the next statement by looking for the mark.
-Inside a long proof, a separate mark at the end of a claim shows where the proof of the claim stops and the main proof continues.
+A proof can run over several pages, and the text after it often continues with a remark or the next result.
+Without a mark the reader can be unsure where the proof stops.
+A fixed mark makes the structure visible at a glance, so a reader can skip a proof and find the next statement by looking for the mark.
+
+Long proofs need more than one mark.
+A proof often contains a claim with its own short proof, and a separate mark at the end of that claim shows where the inner proof stops and the main proof resumes.
+Some authors also close examples and remarks with a mark, for the same reason.
 
 ## Notation
 
-The common end of proof marks are the following.
+The marks in use are the abbreviation `Q.E.D.` (or QED), the filled square $\blacksquare$, the hollow square $\square$, two or four forward slashes, and closing phrases such as "This completes the proof" or "as required".
+In TeX the squares are `\blacksquare` and `\square`, and the Unicode character U+220E, named "end of proof", is ∎.
+In the AMS theorem package for LaTeX the default mark is a hollow square, and `\qedhere` moves it onto a displayed formula that ends a proof.
+The start of a proof is marked by the word *Proof* in bold or italic type, and in older English texts the Latin word *aliter*, "otherwise", introduces a second proof of the same result.
 
-1. The abbreviation `Q.E.D.` or QED, in capital or small letters.
-2. The filled tombstone $\blacksquare$, written `\blacksquare` in TeX. The Unicode character U+220E, "end of proof", is ∎.
-3. The hollow square $\square$, written `\square` or `\Box` in TeX. In the AMS theorem environment for LaTeX, it is the default end of proof symbol.
-4. Two or four forward slashes, written // or ////.
-5. A sentence such as "This completes the proof." or "as required".
-
-The abbreviation `Q.E.F.` ends a construction.
-In older English texts, the Latin word *aliter*, "otherwise", introduces a second proof of the same result.
-The start of a proof is usually marked by the word *Proof* in bold or italic type.
+The same square can mean two things, depending on where it stands.
+After a proof, $\square$ means "the proof is complete".
+Directly after a statement with no proof, many books use it to mean that the proof is omitted or follows at once from what came before:
+$$\text{Lemma 3. Every group of prime order is cyclic.} \quad \square$$
+To tell which reading applies, look at what precedes the mark: a proof, or only a statement.
+Filled and hollow squares carry the same meaning, and the choice between them is house style.
 
 ## Remarks
 
-### Examples
+### One proof, two marks
 
-1. [[A proof with a nested claim and two end marks|4P44ZFS5BT]]. The proof that there are infinitely many primes of the form $4k + 3$ contains a claim with its own end mark.
-2. [[Euclid's first construction ends with Q.E.F.|8YNCHJY6H0]]. The construction of an equilateral triangle on a given segment ends with "which was to be done", not "which was to be shown".
-3. The *Ethics* of Spinoza, published in 1677, uses `Q.E.D.` at the end of its demonstrations, for example after Proposition 3 of Part 1. Its subject is philosophy, not mathematics.
-4. A book typeset with the AMS theorem environment shows a hollow square $\square$ at the end of each proof by default.
-5. On a chalkboard, a lecturer often draws a filled or hollow square to show the end of a proof.
+[[A proof with a nested claim and two end marks|4P44ZFS5BT]] proves that there are infinitely many primes $p \equiv 3 \pmod 4$.
+Inside it, a claim says that a product of numbers $\equiv 1 \pmod 4$ is again $\equiv 1 \pmod 4$, and its proof ends with $\square$.
+The main proof then continues with $N = 4 p_1 \cdots p_k - 1$, and it ends with $\blacksquare$.
+Check on the list $3, 7, 11$:
+$$N = 4 \cdot 231 - 1 = 923 = 13 \cdot 71, \qquad 71 \equiv 3 \pmod 4,$$
+so $71$ is a new prime of the right form.
+The two marks tell you which proof each line belongs to, and marks nest the way brackets do.
 
-### Non-examples
+### Shown or done
 
-1. [[The therefore sign marks a step, not the end of a proof|BVMX2JE2A1]]. The sign $\therefore$ introduces a conclusion inside an argument, and more steps can follow it.
-2. In physics, QED usually abbreviates [[quantum electrodynamics|V329C7A1QP]], a theory of light and charged particles. It is not a proof mark.
-3. The italic type of a theorem statement marks where the statement ends, but it is not an end of proof mark.
+Euclid ended a proof that a statement is true with a Greek phrase that the Latin `Q.E.D.` translates, and he ended a construction with a different phrase, rendered `Q.E.F.`.
+[[Euclid's first construction ends with Q.E.F.|8YNCHJY6H0]]: Proposition 1 of Book I constructs an equilateral triangle on a given segment, so it ends with "which was to be done".
+Proposition 4 of Book I proves that two triangles with two equal sides and the same included angle are congruent, so it ends with "which was to be shown".
+The rule is to read the task in the statement: "prove that" leads to `Q.E.D.`, and "construct" or "find" leads to `Q.E.F.`.
+Modern texts rarely keep the distinction, and most end every proof with the same square.
 
-### Basic properties
+### What is not an end mark
 
-1. The mark is a claim, not a proof. A proof with a gap is still incomplete when it ends with $\blacksquare$.
-2. Marks can nest. A claim inside a proof can end with its own mark, and the main proof then ends with a second mark.
-3. The choice between `Q.E.D.` and `Q.E.F.` follows the kind of result. `Q.E.D.` ends a proof that a statement is true, and `Q.E.F.` ends a construction of an object.
-4. The mark goes at the end of the last line of the proof, often at the right margin. If the proof ends with a displayed formula, LaTeX users write `\qedhere` to put the mark on that line.
+[[The therefore sign marks a step, not the end of a proof|BVMX2JE2A1]].
+The sign $\therefore$ means "so", and an argument can use it several times before the end, so it does not close anything.
+In physics, QED usually abbreviates [[quantum electrodynamics|V329C7A1QP]], the theory of light and charged particles, and it is not a proof mark.
+The italic type of a theorem statement shows where the statement ends, but it says nothing about a proof.
+
+### Watch out
+
+The first error is to treat the mark as part of the argument.
+A proof with a gap is still incomplete when it ends with $\blacksquare$, and the square does not replace the missing steps.
+
+The second error is to end a proof with $\therefore$.
+A student who writes "$\therefore$ $n^2$ is odd" as the last line leaves the reader unsure whether the proof is finished, since $\therefore$ only introduces a conclusion.
+
+The third error is to stop reading at the first square in a nested proof.
+In the example above the first $\square$ ends only the claim, and the main argument comes after it.
 
 ### History
 
-Greek mathematicians, among them Euclid and Archimedes, ended proofs with the phrase ὅπερ ἔδει δεῖξαι (*hoper edei deixai*), which the Latin *quod erat demonstrandum* translates.
-The Latin phrase appears in a 1501 translation of Euclid by Giorgio Valla, and Johannes Praetorius used the abbreviation once in 1598.
-Paul Halmos claimed that he introduced the filled square as an end of proof mark, and he took it from the end marks of magazine articles.
-Its first use as an end of proof symbol appears to be in his book *Measure Theory* of 1950.
+Greek mathematicians, among them Euclid and Archimedes, ended proofs with the phrase *hoper edei deixai*, "which was to be shown", and the Latin *quod erat demonstrandum* translates it.
+The filled square as an end of proof mark is credited to Paul Halmos, who said that he took it from the end marks of magazine articles.
+Spinoza's *Ethics*, published in 1677, ends its demonstrations with Q.E.D., although its subject is philosophy.
 
-### Common errors
+### Try it
 
-1. A student writes $\blacksquare$ to end an argument that is not complete. The mark does not replace the missing steps.
-2. A student uses $\therefore$ as an end of proof mark. The therefore sign means "so", and it introduces a conclusion.
-3. A student thinks that $\square$ and $\blacksquare$ mean different things. Both mark the end of a proof, and the choice is a matter of style.
+First, a text states that the sum of two odd integers is even, puts a square right after the statement, and moves on to the next theorem.
+What does the square mean?
+It means that the proof of Theorem 2 is omitted or left to the reader, since no proof stands before the mark.
+
+Second, which mark fits the end of "Find the point on the line $y = 2x$ that is closest to $(5, 0)$"?
+The task is to find an object, so in Euclid's style the mark is `Q.E.F.`; the answer is $(1, 2)$, and a modern text would simply end with a square.
 
 ## Explanations
 
@@ -103,21 +124,22 @@ If the text continues after the square, it is a new part, such as a remark or th
 
 ### L2 human
 
-Read this short proof and look at the marks.
+Read this short proof and look at the mark.
+*Claim.* The sum of two even numbers is even.
+*Proof.* Let $a = 2m$ and $b = 2n$ with integers $m$ and $n$, and add:
+$$a + b = 2m + 2n = 2(m + n),$$
+and $m + n$ is an integer, so $a + b$ is even.
+$\square$
+*Remark.* The same proof shows that a sum of any finite number of even numbers is even.
 
-1. *Claim.* The sum of two even numbers is even.
-2. *Proof.* Let $a = 2m$ and $b = 2n$ with integers $m, n$. Then $a + b = 2(m + n)$, and $m + n$ is an integer. $\square$
-3. *Remark.* The same proof shows that a sum of any finite number of even numbers is even.
-
-The square after step 2 tells the reader that the proof is complete, so step 3 is a comment, not part of the proof.
-The typical use is one mark at the end of each proof, and one more mark for each claim inside a long proof.
-A trap: the mark is not a reason; a proof is complete because of its steps, not because of the square.
+The square tells you that the proof is complete, so the remark is a comment and not a step.
+In practice a text has one mark at the end of each proof and one more for each claim inside a long proof.
+The proof is complete because of its steps, and the square only reports that the author believes so.
 
 ### L3 human
 
-In a proof assistant, the end of a proof is a command that the system checks.
-In Coq, the command `Qed.` closes a proof, and the system accepts it only if no goal remains open.
-In Isabelle, the Isar language closes a structured proof with the keyword `qed`.
-So in formal proofs the end mark is no longer only a claim of the author: the checker verifies it.
-In printed mathematics, the mark keeps its informal role, and the reader must check that every step is present.
-The nesting of marks in long proofs corresponds to the nesting of subgoals in a formal proof.
+In a proof assistant the end of a proof is a command that the system checks.
+In Coq the command `Qed.` closes a proof, and the system accepts it only when no goal remains open.
+In Isabelle the Isar language closes a structured proof with the keyword `qed`.
+So in formal proofs the end mark is no longer only a claim of the author, because the checker verifies it.
+The nesting of marks in long printed proofs corresponds to the nesting of subgoals in a formal proof, where each inner goal must be closed before the outer one.

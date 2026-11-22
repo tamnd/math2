@@ -18,39 +18,49 @@ sources:
 
 ## Example
 
-The [[prime number theorem|0EHBY5Y84N]] states that $\pi(x) \log x / x \to 1$ as $x \to \infty$.
+The [[prime number theorem|0EHBY5Y84N]] states that
+$$\frac{\pi(x) \log x}{x} \to 1 \quad \text{as } x \to \infty,$$
+where $\pi(x)$ is the number of primes up to $x$.
 Hadamard and de la Vallée Poussin proved it independently in 1896.
-We list the main steps of this kind of proof and check that it is not [[elementary|84SZZBACP3]].
+We list the main steps of this kind of proof and find the steps that are not [[elementary|84SZZBACP3]].
 
-1. For real $s > 1$, the [[Riemann zeta function|1XWBY4N0VT]] is $\zeta(s) = \sum_{n \ge 1} n^{-s}$. This step is elementary.
-2. The proof takes $s$ complex, with $\operatorname{Re} s > 1$, and extends $\zeta$ by [[analytic continuation|0M3YQJ81NB]] to $\operatorname{Re} s \ge 1$, $s \ne 1$. This step uses [[complex analysis|28T3Z4VEHH]].
-3. The proof shows that $\zeta(1 + i t) \ne 0$ for every real $t \ne 0$. A standard modern argument uses the identity $3 + 4 \cos \theta + \cos 2\theta = 2(1 + \cos \theta)^2 \ge 0$, applied to $\log |\zeta|$ at complex points.
-4. The proof passes from the zeros of $\zeta$ to the primes with a contour integral or a theorem on analytic functions.
+1. For real $s > 1$ the [[Riemann zeta function|1XWBY4N0VT]] is the series $\zeta(s) = \sum_{n \ge 1} n^{-s}$.
+   This step uses only real series, so it is elementary.
+2. The proof takes $s$ complex with $\operatorname{Re} s > 1$, and extends $\zeta$ by [[analytic continuation|0M3YQJ81NB]] to the line $\operatorname{Re} s = 1$, except at $s = 1$.
+   This step uses [[complex analysis|28T3Z4VEHH]].
+3. The proof shows that $\zeta(1 + i t) \ne 0$ for every real $t \ne 0$.
+   A standard modern argument applies the identity
+   $$3 + 4 \cos \theta + \cos 2\theta = 2(1 + \cos \theta)^2 \ge 0$$
+   to $\log |\zeta|$ at complex points.
+4. The proof passes from the zeros of $\zeta$ back to the primes, with a contour integral or a theorem about analytic functions.
 
 Steps 2, 3 and 4 need functions of a complex variable, so the proof is not elementary in the sense of number theory.
 
+Check of the identity in step 3: $2(1 + \cos \theta)^2 = 2 + 4 \cos \theta + 2 \cos^2 \theta$, and $2 \cos^2 \theta = 1 + \cos 2\theta$.
+
 ## Remarks
 
-The identity in step 3 is elementary, but the step is not: it applies the identity to values of $\zeta$ at complex points.
-A proof is elementary only if every step is elementary.
-In 1948, new methods of Selberg led him and Erdős to elementary proofs of the same theorem.
+The identity in step 3 is elementary by itself, but the step is not, since it applies the identity to values of $\zeta$ at complex points.
+A proof is elementary only if every step is, so one step outside the list is enough.
+
+The analytic proof is not a worse proof.
+It is shorter than the elementary proofs, and the analytic method later grew into the main tool of analytic number theory.
+In 1949 Selberg and Erdős published elementary proofs of the same theorem, which avoid steps 2 to 4 completely.
 
 ## Explanations
 
 ### L1 human
 
-The first proofs that the primes thin out at a known rate used complex numbers.
-They studied a function of a complex variable, not only the primes.
+The prime number theorem says how quickly the primes thin out.
+The first proofs, in 1896, used numbers of the form $a + bi$ with $i^2 = -1$.
+They studied a function of such numbers, not only the primes.
 So these proofs are not elementary.
-Mathematicians found elementary proofs about 50 years later.
+Proofs without these numbers came more than fifty years later.
 
 ### L2 human
 
-To see that a proof is not elementary, find one step whose tools are outside the allowed list.
-
-1. The allowed tools are integers, real numbers and real inequalities.
-2. Step 2 uses analytic continuation of a function of a complex variable.
-3. Analytic continuation is not in the list, so the proof is not elementary.
-
-A trap: a non-elementary proof is not a worse proof.
-Here the analytic proof is shorter than the elementary proofs.
+To show that a proof is not elementary, find one step whose tools are outside the allowed list.
+The allowed list in number theory is the integers, the real numbers and real inequalities.
+Step 2 extends $\zeta(s)$ to complex $s$, and analytic continuation is not on the list.
+So the proof is not elementary, even though step 1 is.
+This is how the word is used: a single advanced step decides, and the rest of the proof does not change the verdict.
