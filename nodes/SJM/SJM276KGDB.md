@@ -14,28 +14,43 @@ sources:
 
 ## Example
 
+Each real number has a twin among the $2 \times 2$ matrices, and the twins add and multiply like the numbers.
 Let $\sigma : \mathbb{R} \to M_2(\mathbb{R})$ be the map $\sigma(c) = cI_2$, which sends each number to a [[scalar matrix|0FRM62SG7D]].
+We check that $\sigma$ is an injective ring homomorphism.
 
-1. $\sigma(c) + \sigma(d) = \begin{pmatrix} c + d & 0 \\ 0 & c + d \end{pmatrix} = \sigma(c + d)$, by [[addition|0BVXADM10P]].
-2. $\sigma(c)\sigma(d) = \begin{pmatrix} cd + 0 & 0 + 0 \\ 0 + 0 & 0 + cd \end{pmatrix} = \sigma(cd)$, by the [[product rule|076JGP6R3T]].
-3. $\sigma(1) = I_2$, and $\sigma(c) = 0$ only for $c = 0$.
-4. So $\sigma$ is an injective ring homomorphism, and its image $\{cI_2\}$ is a subring isomorphic to $\mathbb{R}$.
-5. For $c \neq 0$, $\sigma(c)^{-1} = \sigma(1/c) = \tfrac{1}{c} I_2$, so the image is a field.
+1. Sums go to sums. By entrywise [[addition|0BVXADM10P]],
+$$\sigma(c) + \sigma(d) = \begin{pmatrix} c + d & 0 \\ 0 & c + d \end{pmatrix} = \sigma(c + d).$$
+2. Products go to products. By the [[product rule|076JGP6R3T]],
+$$\sigma(c)\sigma(d) = \begin{pmatrix} cd + 0 & 0 + 0 \\ 0 + 0 & 0 + cd \end{pmatrix} = \sigma(cd).$$
+3. The identity goes to the identity, since $\sigma(1) = I_2$.
+4. The kernel is zero: $\sigma(c) = 0$ forces the diagonal entry $c$ to be $0$.
+5. By steps 1 to 4, $\sigma$ is an injective ring homomorphism, and its image $\{ cI_2 : c \in \mathbb{R} \}$ is a subring of $M_2(\mathbb{R})$ isomorphic to $\mathbb{R}$.
+6. For $c \ne 0$, step 2 gives $\sigma(c)\sigma(1/c) = \sigma(1) = I_2$, so $\sigma(c)^{-1} = \tfrac{1}{c} I_2$. So the image is a field inside a ring that is not a field.
 
 ## Remarks
 
-The polynomial $p(x) = x^2 - 3x + 2$ applied to a matrix $A$ means $A^2 - 3A + 2I$.
-The constant term $2$ becomes the scalar matrix $2I = \sigma(2)$.
-This is the reason the notation $A - \lambda$ for $A - \lambda I$ is safe.
+### Numbers inside polynomials of a matrix
+
+The map $\sigma$ explains how a polynomial is applied to a matrix.
+For $p(x) = x^2 - 3x + 2$, the value $p(A)$ is $A^2 - 3A + 2I$, where the constant $2$ becomes $\sigma(2) = 2I$.
+Since $\sigma$ respects sums and products and each $\sigma(c)$ commutes with $A$, evaluation at $A$ respects sums and products of polynomials, so every identity between real polynomials, such as $x^2 - 3x + 2 = (x - 1)(x - 2)$, gives the matching identity $A^2 - 3A + 2I = (A - I)(A - 2I)$ for every matrix $A$.
+
+### The image is the center
+
+The image of $\sigma$ is exactly the set of matrices that commute with all of $M_2(\mathbb{R})$, by the [[center theorem|DVZ1V4A884]].
+The [[complex numbers also sit inside|GHV77C35RT]] $M_2(\mathbb{R})$, as the matrices $\begin{pmatrix} a & -b \\ b & a \end{pmatrix}$, and the image of $\sigma$ is the part with $b = 0$.
+That larger copy is commutative, but it is not central.
 
 ## Explanations
 
 ### L1 human
 
-Every real number $c$ has a twin matrix $cI$.
-Adding and multiplying the twins gives the twin of the sum and of the product.
+Every real number $c$ has a twin matrix $cI$, with $c$ on the diagonal and $0$ elsewhere.
+Adding two twins gives the twin of the sum, and multiplying two twins gives the twin of the product.
+So the real numbers live inside the $2 \times 2$ matrices.
 
 ### L2 human
 
-The image of $\sigma$ is the centre of $M_2(\mathbb{R})$, by the [[centre theorem|DVZ1V4A884]].
-So the real numbers are, inside the matrix ring, exactly the matrices that commute with all others.
+The typical use is to read a number as a matrix when it meets a matrix, as in $A - \lambda I$ or $A^2 - 3A + 2I$.
+Because $\sigma$ is a ring homomorphism, no calculation changes when we make this switch.
+Watch out: the twin of $2$ is $2I$, not the matrix with every entry equal to $2$.
