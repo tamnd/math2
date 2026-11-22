@@ -183,5 +183,6 @@ The same pattern gives the [[universal property of the quotient group|0GJ83E78A5
 In type theory a quotient type comes with an eliminator, which in Lean is `Quotient.lift`, so the well-definedness proof is a part of the term itself.
 
 Many theorems are well-definedness results in disguise.
-The dimension of a vector space does not depend on the basis, the degree of a map of circles does not depend on the map chosen in its homotopy class, and a cohomology class does not depend on the chosen cocycle.
+The dimension of a vector space does not depend on the basis.
+The degree of a map of circles does not depend on the map chosen in its homotopy class, and a cohomology class does not depend on the chosen cocycle.
 In each case, a number or class computed from a choice turns out to be a function on the set of classes.

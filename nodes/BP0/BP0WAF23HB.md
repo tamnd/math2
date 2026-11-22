@@ -9,7 +9,8 @@ topics: [SGSVYFDSYK]
 ## Summary
 
 Every proof in mathematics rests on definitions, and this part of [[reasoning and proof|SGSVYFDSYK]] asks how a definition works and what it must satisfy before we may use it.
-It starts from definitions you already know, such as the prime numbers and the even integers, and reads them closely: what the new word is, what condition gives its meaning, and why the "if" of a definition means "if and only if".
+It starts from definitions you already know, such as the prime numbers and the even integers, and reads them closely.
+What is the new word, what condition gives its meaning, and why does the "if" of a definition mean "if and only if"?
 It then shows that many definitions hide a claim.
 A definition through representatives, such as addition of residues or of fractions, must be shown well defined.
 A definition with "the", such as the greatest common divisor, needs existence and uniqueness first, and a phrase such as "unique up to isomorphism" must name its equivalence relation.

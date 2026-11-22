@@ -43,7 +43,7 @@ Each later page of the sub-area asks what else a definition needs before we may 
 
 ## Notation
 
-The usual form is "Let $x$ be a ... . We say that $x$ is *P* if $C(x)$", with the new term in italics or in bold type.
+The usual form is "Let $x$ be an integer; we say that $x$ is *P* if $C(x)$", with the new term in italics or in bold type.
 You will also see "$x$ is called *P* if ...", "A *P* is an object $x$ such that ...", and numbered blocks such as "Definition 3.2".
 A new symbol for an object is often written with $:=$, as in $n! := 1 \cdot 2 \cdots n$, and the colon stands on the side of the new symbol.
 Some books write $\overset{\text{def}}{=}$ or $\overset{\text{def}}{\iff}$, and some write $\equiv$, which has other meanings too.
