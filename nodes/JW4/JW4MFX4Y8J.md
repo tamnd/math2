@@ -15,23 +15,27 @@ sources:
 
 ## Proof
 
-We write both traces as the same double sum.
+We write both traces as the same double sum, once summed over $j$ first and once over $i$ first.
 
 1. Write $A = (a_{ij})$ and $B = (b_{ji})$, with $1 \le i \le m$ and $1 \le j \le n$.
-2. The [[product|076JGP6R3T]] $AB$ is $m \times m$ and $BA$ is $n \times n$. So both have a [[trace|07PTPSZPME]].
-3. By the definition of the product, $(AB)_{ii} = \sum_{j=1}^{n} a_{ij} b_{ji}$. So $\operatorname{tr}(AB) = \sum_{i=1}^{m} \sum_{j=1}^{n} a_{ij} b_{ji}$.
-4. In the same way, $(BA)_{jj} = \sum_{i=1}^{m} b_{ji} a_{ij}$. So $\operatorname{tr}(BA) = \sum_{j=1}^{n} \sum_{i=1}^{m} b_{ji} a_{ij}$.
+2. The [[product|076JGP6R3T]] $AB$ is $m \times m$ and $BA$ is $n \times n$, so both are square and have a [[trace|07PTPSZPME]].
+3. By the definition of the product, $(AB)_{ii} = \sum_{j=1}^{n} a_{ij} b_{ji}$, so
+$$\operatorname{tr}(AB) = \sum_{i=1}^{m} \sum_{j=1}^{n} a_{ij} b_{ji}.$$
+4. In the same way, $(BA)_{jj} = \sum_{i=1}^{m} b_{ji} a_{ij}$, so
+$$\operatorname{tr}(BA) = \sum_{j=1}^{n} \sum_{i=1}^{m} b_{ji} a_{ij}.$$
 5. The ring $R$ is commutative, so $b_{ji} a_{ij} = a_{ij} b_{ji}$ for all $i$ and $j$.
 6. Addition in $R$ is associative and commutative, so a finite double sum does not depend on the order of summation.
-7. By steps 5 and 6, the double sums in steps 3 and 4 are equal. So $\operatorname{tr}(AB) = \operatorname{tr}(BA)$.
+7. By steps 5 and 6 the double sums in steps 3 and 4 are equal, so $\operatorname{tr}(AB) = \operatorname{tr}(BA)$.
 
 ## Idea
 
 Both traces are the sum of $a_{ij} b_{ji}$ over all pairs $(i, j)$.
 One trace sums first over $j$ and the other first over $i$.
-Commutativity lets us match the factors.
+Commutativity of $R$ is used only to write each term with the factor from $A$ first.
 
 ## Variants
 
-- By matrix units: both sides are bilinear in $A$ and $B$, so it is enough to take $A = E_{ij}$ and $B = E_{kl}$.
-- Then $E_{ij} E_{kl} = \delta_{jk} E_{il}$ has trace $\delta_{jk} \delta_{il}$, and $E_{kl} E_{ij} = \delta_{li} E_{kj}$ has trace $\delta_{li} \delta_{kj}$, the same number; see [[matrix units|A4HTT7JFD1]].
+A proof by [[matrix units|A4HTT7JFD1]] avoids the double sum.
+Both sides are bilinear in $A$ and $B$, so it is enough to check the claim for $A = E_{ij}$ and $B = E_{kl}$.
+Then $E_{ij} E_{kl} = \delta_{jk} E_{il}$ has trace $\delta_{jk} \delta_{il}$, and $E_{kl} E_{ij} = \delta_{li} E_{kj}$ has trace $\delta_{li} \delta_{kj}$, which is the same number.
+Here commutativity enters through the scalars, since $\operatorname{tr}((a E_{ij})(b E_{kl})) = ab \operatorname{tr}(E_{ij} E_{kl})$ and $\operatorname{tr}((b E_{kl})(a E_{ij})) = ba \operatorname{tr}(E_{kl} E_{ij})$, and these agree because $ab = ba$.
