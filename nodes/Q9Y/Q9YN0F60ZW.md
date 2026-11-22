@@ -80,7 +80,7 @@ Weighted inner products on $\C^m$ and $\C^n$ give weighted pseudoinverses, and t
 
 ## History
 
-E. H. Moore described the inverse in 1920, and Arne Bjerhammar described it again in 1951.
+Moore described the inverse in 1920, and Arne Bjerhammar described it again in 1951.
 Roger Penrose characterized it by the four conditions in 1955, which is why they carry his name.
 
 ## Explanations

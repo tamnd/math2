@@ -133,7 +133,7 @@ Matrix theory names these classes by the conditions that they satisfy.
 
 ### History
 
-E. H. Moore described the inverse in 1920, and Arne Bjerhammar in 1951.
+Moore described the inverse in 1920, and Arne Bjerhammar in 1951.
 Roger Penrose gave the four conditions in 1955 and proved that they determine one matrix.
 Earlier, in 1903, Fredholm had used a pseudoinverse of integral operators.
 

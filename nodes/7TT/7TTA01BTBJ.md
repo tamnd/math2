@@ -71,7 +71,8 @@ $$\sum_{i \le r} \sigma_i^2 c_i - \sum_{i \le k} \sigma_i^2 = \sum_{i \le k} \si
 In the singular bases, $A$ is a diagonal matrix with decreasing entries, and $A_k$ keeps the first $k$ of them.
 For the operator norm, a matrix $B$ of rank $k$ kills a subspace of dimension $n - k$, and that subspace must meet the span of $v_1, \dots, v_{k+1}$, where $A$ stretches every vector by at least $\sigma_{k+1}$.
 On such a vector, $A - B$ acts like $A$, so the error is at least $\sigma_{k+1}$.
-For the Frobenius norm, the best matrix with a given column space is the projection $P A$, and then the question becomes a sharing problem: give each $\sigma_i^2$ a weight between $0$ and $1$, with total weight at most $k$, and make the weighted sum as large as possible.
+For the Frobenius norm, the best matrix with a given column space is the projection $P A$.
+Then the question becomes a sharing problem: give each $\sigma_i^2$ a weight between $0$ and $1$, with total at most $k$, and make the weighted sum as large as possible.
 The best choice puts weight $1$ on the $k$ largest values, which is what $A_k$ does.
 
 ## Variants

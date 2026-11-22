@@ -26,9 +26,9 @@ $$A_1 = \sigma_1 u_1 v_1^{\mathsf{T}} = \frac32 \begin{pmatrix} 1 & 1 \\ 3 & 3 \
 $$A - A_1 = \begin{pmatrix} 1.5 & -1.5 \\ -0.5 & 0.5 \end{pmatrix}.$$
 It equals the dropped term $\sigma_2 u_2 v_2^{\mathsf{T}} = \frac{\sqrt5}{\sqrt{20}} \begin{pmatrix} 3 & -3 \\ -1 & 1 \end{pmatrix} = \frac12 \begin{pmatrix} 3 & -3 \\ -1 & 1 \end{pmatrix}$, as the SVD says.
 4. The [[Frobenius norm|K33BQX70N0]] of the error is the root of the sum of the squared entries: $\norm{A - A_1}_F^2 = 2.25 + 2.25 + 0.25 + 0.25 = 5$, so $\norm{A - A_1}_F = \sqrt5 = \sigma_2$.
-5. For the [[operator norm|0ZTEH055YF]], write $A - A_1 = \tfrac12 (-3, 1)^{\mathsf{T}} (-1, 1)$. For a unit vector $x$, we get $(A - A_1) x = \tfrac12 (x_2 - x_1) (-3, 1)$, so
-$$\norm{(A - A_1) x} = \tfrac12 \sqrt{10} \, \abs{x_2 - x_1} \le \tfrac12 \sqrt{10} \sqrt{2} = \sqrt5,$$
-since $\abs{x_2 - x_1} \le \sqrt2$ by the Cauchy-Schwarz inequality, with equality at $x = v_2$. So $\norm{A - A_1}_2 = \sqrt5 = \sigma_2$.
+5. For the [[operator norm|0ZTEH055YF]], write $A - A_1 = \tfrac12 (-3, 1)^{\mathsf{T}} (-1, 1)$. For a unit vector $x$, we get $(A - A_1) x = \tfrac12 (x_2 - x_1) (-3, 1)$, and the Cauchy-Schwarz inequality gives $\abs{x_2 - x_1} \le \sqrt2$, so
+$$\norm{(A - A_1) x} = \tfrac12 \sqrt{10} \, \abs{x_2 - x_1} \le \tfrac12 \sqrt{10} \sqrt{2} = \sqrt5.$$
+Equality holds at $x = v_2$, so $\norm{A - A_1}_2 = \sqrt5 = \sigma_2$.
 6. Keeping the first column gives the rank-one matrix $B = \begin{pmatrix} 3 & 0 \\ 4 & 0 \end{pmatrix}$, and $A - B = \begin{pmatrix} 0 & 0 \\ 0 & 5 \end{pmatrix}$ has error $5$ in both norms.
 7. Keeping the second row gives $B = \begin{pmatrix} 0 & 0 \\ 4 & 5 \end{pmatrix}$, and $A - B = \begin{pmatrix} 3 & 0 \\ 0 & 0 \end{pmatrix}$ has error $3$ in both norms.
 8. Both errors are larger than $\sqrt5 \approx 2.24$, as the theorem predicts.

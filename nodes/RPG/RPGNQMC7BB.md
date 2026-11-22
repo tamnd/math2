@@ -17,23 +17,31 @@ sources:
 
 ## Proof
 
-1. Let $A$ be a Hermitian $n \times n$ matrix. By the [[spectral theorem for Hermitian matrices|0DGZBQWZWN]], $A = U D U^*$ with $U$ [[unitary|0D6RMJ10M9]] and $D = \operatorname{diag}(\lambda_1, \dots, \lambda_n)$ real. The $\lambda_i$ are the eigenvalues of $A$, repeated by multiplicity.
-2. Let $x \in \C^n$ and put $y = U^* x$. Then $x^* A x = x^* U D U^* x = (U^* x)^* D (U^* x) = y^* D y$, by the rule $(XY)^* = Y^* X^*$ for the [[conjugate transpose|0EX045E2BP]].
-3. Since $D$ is diagonal, $y^* D y = \sum_{i=1}^n \lambda_i \abs{y_i}^2$.
-4. The map $x \mapsto U^* x$ is a bijection of $\C^n$ with inverse $y \mapsto Uy$, because $U U^* = U^* U = I$. It sends $0$ to $0$, so it maps the nonzero vectors onto the nonzero vectors.
-5. Suppose $A$ is [[positive definite|0QQCG3JWJ4]]. Let $e_i$ be the $i$-th standard basis vector and $x = U e_i$. Then $x \ne 0$ and $y = e_i$ by step 4. Steps 2 and 3 give $0 < x^* A x = \lambda_i$. So every eigenvalue is positive.
-6. Suppose every $\lambda_i > 0$, and let $x \ne 0$. By step 4, $y \ne 0$, so some $\abs{y_j}^2 > 0$. Every term of the sum in step 3 is at least $0$, and the term $j$ is positive. So $x^* A x > 0$, and $A$ is positive definite. This proves part 1.
-7. Suppose $A$ is [[positive semidefinite|0880F9EQCP]]. The vector $x = U e_i$ of step 5 gives $\lambda_i = x^* A x \ge 0$. So every eigenvalue is nonnegative.
-8. Suppose every $\lambda_i \ge 0$, and let $x \in \C^n$. Every term of the sum in step 3 is at least $0$, so $x^* A x \ge 0$. So $A$ is positive semidefinite. This proves part 2.
-9. For a real symmetric $A$, step 1 holds with a real orthogonal $Q$ in place of $U$, by the same theorem. Steps 2 to 8 then work with real vectors and the transpose in place of $^*$.
+We change to an orthonormal basis of eigenvectors, where the form becomes a weighted sum of squares with the eigenvalues as weights.
+
+1. Let $A$ be a Hermitian $n \times n$ matrix. By the [[spectral theorem for Hermitian matrices|0DGZBQWZWN]], $A = U D U^*$ with $U$ [[unitary|0D6RMJ10M9]] and $D = \operatorname{diag}(\lambda_1, \dots, \lambda_n)$ real, where the $\lambda_i$ are the [[eigenvalues|0ZND7NQ970]] of $A$, repeated by multiplicity.
+2. Let $x \in \C^n$ and put $y = U^* x$. The rule $(XY)^* = Y^* X^*$ for the [[conjugate transpose|0EX045E2BP]] gives
+$$x^* A x = x^* U D U^* x = (U^* x)^* D (U^* x) = y^* D y.$$
+3. Since $D$ is diagonal, multiplying out gives
+$$y^* D y = \sum_{i=1}^n \lambda_i \abs{y_i}^2.$$
+4. The map $x \mapsto U^* x$ is a bijection of $\C^n$ with inverse $y \mapsto U y$, because $U U^* = U^* U = I$. It sends $0$ to $0$, so it maps the nonzero vectors onto the nonzero vectors.
+5. Suppose that $A$ is [[positive definite|0QQCG3JWJ4]], and fix $i$. Take $x = U e_i$, where $e_i$ is the $i$-th standard basis vector. Then $x \ne 0$ and $y = e_i$ by step 4, so steps 2 and 3 give $0 < x^* A x = \lambda_i$.
+6. Conversely, suppose that every $\lambda_i > 0$, and let $x \ne 0$. By step 4, $y \ne 0$, so $\abs{y_j}^2 > 0$ for some $j$. Each term of the sum in step 3 is at least $0$, and the term $j$ is positive, so $x^* A x > 0$. Steps 5 and 6 prove part 1.
+7. Suppose that $A$ is [[positive semidefinite|0880F9EQCP]]. The vector $x = U e_i$ of step 5 gives $\lambda_i = x^* A x \ge 0$ for each $i$.
+8. Conversely, suppose that every $\lambda_i \ge 0$, and let $x \in \C^n$. Each term of the sum in step 3 is at least $0$, so $x^* A x \ge 0$. Steps 7 and 8 prove part 2.
+9. For a real symmetric $A$, the spectral theorem gives $A = Q D Q^{\mathsf{T}}$ with $Q$ real orthogonal. Steps 2 to 8 then work with real vectors and the transpose in place of $^*$.
 
 ## Idea
 
-In an orthonormal basis of eigenvectors, the form $x^* A x$ becomes $\sum \lambda_i \abs{y_i}^2$.
-A weighted sum of squares is positive for every nonzero $y$ exactly when all weights are positive.
-Testing the form on the eigenvectors themselves gives the other direction.
+In an orthonormal basis of eigenvectors, the form $x^* A x$ becomes $\sum_i \lambda_i \abs{y_i}^2$.
+A weighted sum of squares is positive at every nonzero $y$ exactly when all the weights are positive.
+For the other direction, test the form at the eigenvectors themselves: at a unit eigenvector the form equals its eigenvalue.
 
 ## Variants
 
-- The direction "positive definite implies positive eigenvalues" needs no spectral theorem. If $Ax = \lambda x$ with $x \ne 0$, then $0 < x^* A x = \lambda \, x^* x$, and $x^* x > 0$, so $\lambda > 0$.
-- The other direction can also be proved with the [[Rayleigh quotient|06WHP8SE98]]. For $x \ne 0$, the quotient $x^* A x / x^* x$ is at least the smallest eigenvalue, which is positive.
+The direction from positive definite to positive eigenvalues needs no spectral theorem.
+If $Ax = \lambda x$ with $x \ne 0$, then $0 < x^* A x = \lambda \, x^* x$, and $x^* x > 0$, so $\lambda > 0$.
+
+The other direction can also be proved with the [[Rayleigh quotient|06WHP8SE98]].
+For $x \ne 0$, the quotient $x^* A x / x^* x$ is at least the smallest eigenvalue $\lambda_{\min}$, so $x^* A x \ge \lambda_{\min} \norm{x}^2 > 0$ when $\lambda_{\min} > 0$.
+The same bound says that $A - \lambda_{\min} I$ is positive semidefinite, so $\lambda_{\min}$ measures how far $A$ is from losing definiteness.
