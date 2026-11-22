@@ -20,62 +20,102 @@ same_as:
 
 ## Summary
 
-A proof by contrapositive proves an [[implication|0ZNX6DQ3EJ]] "if $P$, then $Q$" by giving a [[direct proof|0NTF6DMVAP]] of the implication "if not $Q$, then not $P$".
-The second implication is the [[contrapositive|04T1CT7212]] of the first, and the two are logically equivalent: each is false exactly when $P$ is true and $Q$ is false.
-So a proof of one is a proof of the other.
-The method helps when the negation of the conclusion is a concrete fact that is easy to use, and the hypothesis is not.
+Sometimes an implication is hard to prove forward but easy to prove backward from the failure of its conclusion.
+A proof by contrapositive takes that route: to show "if $P$, then $Q$", it shows "if not $Q$, then not $P$", which says exactly the same thing.
+
+Here is the standard case: for every integer $n$, if $n^2$ is even, then $n$ is even.
+The hypothesis $n^2 = 2m$ gives no formula for $n$, so we prove the contrapositive, "if $n$ is odd, then $n^2$ is odd".
+Let $n$ be odd, so $n = 2k + 1$ for an integer $k$.
+Then
+$$n^2 = 4k^2 + 4k + 1 = 2(2k^2 + 2k) + 1,$$
+so $n^2$ is odd.
+Every integer is either even or odd, so this proves that an even square has an even root.
+
+In general, a *proof by contrapositive* of an [[implication|0ZNX6DQ3EJ]] $P \Rightarrow Q$ is a [[direct proof|0NTF6DMVAP]] of $\neg Q \Rightarrow \neg P$.
+That implication is the [[contrapositive|04T1CT7212]] of the first, and the two are logically equivalent: each is false exactly when $P$ is true and $Q$ is false.
 
 ## Motivation
 
-Some hypotheses give little to work with.
-Consider "if $n^2$ is even, then $n$ is even".
-The hypothesis gives $n^2 = 2k$, and there is no direct way to get a formula for $n$ from it.
-The negated conclusion "$n$ is odd" gives $n = 2k + 1$, and squaring this formula is easy.
-In general, the method trades a hypothesis that is hard to use for a negated conclusion that is easy to use.
-This often happens when $Q$ is itself a negative statement, such as "$x$ is irrational" or "$f$ is not constant", because then "not $Q$" is a positive statement with a formula.
+Some hypotheses give little to work with, while the negation of the conclusion gives a formula.
+"$n^2$ is even" is such a hypothesis, and "$n$ is odd" is such a negated conclusion.
+The method trades the first for the second.
+The trade pays off most often when $Q$ is a negative statement, such as "$x$ is irrational", "$x \ne 0$" or "$f$ is not constant", because then $\neg Q$ is a positive statement with an equation in it.
+
+The method is used far beyond parity.
+In analysis, "if $a_n$ does not tend to $0$, then $\sum a_n$ diverges" is the contrapositive of "if $\sum a_n$ converges, then $a_n \to 0$", and it is the form in which the divergence test is applied.
+The lemma that an even square has an even root returns in the proof that [[$\sqrt{2}$ is irrational|0DZGSDHD92]].
 
 ## Notation
 
-For the implication $P \Rightarrow Q$, the contrapositive is $\neg Q \Rightarrow \neg P$.
-It must not be confused with the [[converse|09A3N7ZN5G]] $Q \Rightarrow P$ or with the inverse $\neg P \Rightarrow \neg Q$, which are not equivalent to $P \Rightarrow Q$.
-For a universal implication "for all $x$, if $P(x)$ then $Q(x)$", the contrapositive is "for all $x$, if not $Q(x)$ then not $P(x)$"; the quantifier stays in front.
-A proof usually opens with "We prove the contrapositive." and then "Assume not $Q$."
-In Lean, the Mathlib tactic `contrapose` changes a goal $P \to Q$ with hypothesis $P$ into the goal $\neg Q \to \neg P$, and the lemma `not_imp_not` states the equivalence.
+For $P \Rightarrow Q$ the contrapositive is $\neg Q \Rightarrow \neg P$.
+It is not the [[converse|09A3N7ZN5G]] $Q \Rightarrow P$, and it is not the inverse $\neg P \Rightarrow \neg Q$; neither of those is equivalent to $P \Rightarrow Q$.
+For "for all $x$, if $P(x)$ then $Q(x)$", the contrapositive is "for all $x$, if not $Q(x)$ then not $P(x)$", with the quantifier left in front.
+A written proof opens with "We prove the contrapositive." and then "Assume not $Q$."
+In Lean, the Mathlib tactic `contrapose` turns a goal `P → Q` into `¬Q → ¬P`, `contrapose!` also pushes the negations inward, and the lemma `not_imp_not` states the equivalence.
 
 ## Remarks
 
-### Examples
+### Why the two forms are equivalent
 
-1. [[If n^2 is even, then n is even|MKNWSR8WRN]]: the contrapositive "if $n$ is odd, then $n^2$ is odd" has a two-line direct proof.
-2. [[If a + b >= 100, then a >= 50 or b >= 50|3ENDPQZA6V]]: the contrapositive "if $a < 50$ and $b < 50$, then $a + b < 100$" follows by adding the two inequalities.
-3. For real $x$, if $x^3 + x \neq 0$, then $x \neq 0$. The contrapositive "if $x = 0$, then $x^3 + x = 0$" is a substitution.
-4. For integers $a$ and $b$, if $ab$ is even, then $a$ is even or $b$ is even. The contrapositive says that a product of two odd integers is odd.
-5. For a function $f$, if $f$ is not continuous at $a$, then $f$ is not [[differentiable|0K57YG3BB8]] at $a$. This is the contrapositive of "differentiable implies continuous", and it is the way this fact is usually applied.
+Look at the four rows of the truth table.
+$P \Rightarrow Q$ is false only in the row with $P$ true and $Q$ false.
+$\neg Q \Rightarrow \neg P$ is false only when $\neg Q$ is true and $\neg P$ is false, which is the same row.
+So the two implications are true in the same three rows, and a proof of one proves the other; the [[proof by a truth table|SWH5EJP8PS]] writes this out.
 
-### Non-examples
+One direction is even simpler.
+If $P \Rightarrow Q$ holds and $Q$ fails, then $P$ cannot hold, or $Q$ would follow.
+That reasoning is valid in intuitionistic logic.
+The other direction, from $\neg Q \Rightarrow \neg P$ back to $P \Rightarrow Q$, needs the [[double negation law|0NFAGWH84K]], so it is valid in classical logic only.
 
-1. [[Proving the inverse instead of the contrapositive|D0531MQ745]]: from "if $P$, then $Q$" a student proves "if not $P$, then not $Q$", which is equivalent to the converse.
-2. A [[proof by contradiction|0J0XBKG64S]] of "if $P$, then $Q$" assumes $P$ and not $Q$ together and derives any contradiction. It is a different method, although a proof by contrapositive can be rewritten as one.
-3. Proving the converse "if $Q$, then $P$". For "if $n$ is a multiple of $4$, then $n$ is even", the converse is false ($n = 2$), so a proof of the converse cannot be a proof of the original claim.
+### The converse and the inverse
 
-### Basic properties
+Take "if $n$ is a multiple of $4$, then $n$ is even", which is true.
+Its contrapositive "if $n$ is odd, then $n$ is not a multiple of $4$" is also true.
+Its converse "if $n$ is even, then $n$ is a multiple of $4$" is false, since $n = 2$ fails.
+Its inverse "if $n$ is not a multiple of $4$, then $n$ is even" is false too, since $n = 3$ fails.
+The inverse is the contrapositive of the converse, so the inverse and the converse are always equivalent to each other and in general not to the original.
+[[Proving the inverse instead of the contrapositive|D0531MQ745]] shows this error in a real proof.
 
-1. $P \Rightarrow Q$ and $\neg Q \Rightarrow \neg P$ are logically equivalent. The truth tables agree in all four rows; see the [[proof by a truth table|SWH5EJP8PS]].
-2. The contrapositive of the contrapositive is the original implication, after removing double negations.
-3. The direction from $P \Rightarrow Q$ to $\neg Q \Rightarrow \neg P$ is valid in intuitionistic logic. The other direction uses the [[double negation law|0NFAGWH84K]], so it is valid in classical logic only.
-4. A proof by contrapositive needs the negation of $Q$ in a usable form. The rules for [[negating mathematical statements|K930V33BSC]] turn "not ($A$ or $B$)" into "not $A$ and not $B$", and "not for all" into "there exists ... not".
+### More examples
+
+When the conclusion is an "or", its negation is an "and", which gives two facts to use at once.
+The claim [[if a + b >= 100, then a >= 50 or b >= 50|3ENDPQZA6V]] becomes "if $a < 50$ and $b < 50$, then $a + b < 100$", and adding the two inequalities finishes it.
+In the same way, "if $ab$ is even, then $a$ or $b$ is even" becomes "a product of two odd integers is odd".
+
+A known theorem is often applied in contrapositive form.
+"Differentiable at $a$ implies continuous at $a$" is used as "not continuous at $a$, so not [[differentiable|0K57YG3BB8]] at $a$", which is how we see at once that a function with a jump has no derivative there.
+
+### Watch out
+
+The first trap is a wrong negation of the conclusion.
+The negation of "$a \ge 50$ or $b \ge 50$" is "$a < 50$ and $b < 50$", by [[De Morgan's laws|09PKJKA6J0]], not "$a < 50$ or $b < 50$".
+With only one inequality known, the sum cannot be bounded, and the proof stops.
+The rules for [[negating mathematical statements|K930V33BSC]] give the correct form each time.
+
+The second trap is to prove the inverse $\neg P \Rightarrow \neg Q$ and call it the contrapositive.
+Write out $\neg Q \Rightarrow \neg P$ before you start, and compare it with the claim.
+
+The third is to add a needless contradiction.
+If the argument assumes $\neg Q$ and ends with $\neg P$, it is finished; writing "this contradicts $P$" turns a clean contrapositive into a [[proof by contradiction|0J0XBKG64S]] with an extra step.
+
+### Writing it up
+
+Say which method you use in the first line, and state the contrapositive in full.
+"We prove the contrapositive: if $n$ is odd, then $n^2$ is odd." tells the reader exactly what the rest of the proof must reach.
+Then write a direct proof of that statement, and end with its conclusion, $\neg P$.
 
 ### History
 
-The equivalence of an implication with its contrapositive is one of the laws of classical logic, and it is valid in the propositional logic that Frege and Russell made formal.
-Arend Heyting's formal system of intuitionistic logic of 1930 keeps only one direction of this law.
-In mathematics education, many transition-to-proof books treat the contrapositive as a separate method in the chapter after direct proof, for example Velleman's How to Prove It in Section 3.2.
+The equivalence of an implication with its contrapositive is a law of classical propositional logic, the logic that Frege and Russell made formal.
+Arend Heyting's formal system of intuitionistic logic of 1930 keeps only the direction from $P \Rightarrow Q$ to $\neg Q \Rightarrow \neg P$.
 
-### Common errors
+### Try it
 
-1. Negating the conclusion wrongly. The negation of "$a \geq 50$ or $b \geq 50$" is "$a < 50$ and $b < 50$", not "$a < 50$ or $b < 50$".
-2. Proving the inverse $\neg P \Rightarrow \neg Q$ instead of the contrapositive. This is the error of non-example 1.
-3. Calling the proof a contradiction. If the argument assumes not $Q$ and ends with not $P$, it is a proof by contrapositive. Writing "contradiction" at the end adds an unnecessary step.
+First, prove that for real $x$, if $x^3 + x \ne 0$, then $x \ne 0$.
+The contrapositive is "if $x = 0$, then $x^3 + x = 0$", and substituting $x = 0$ gives $0 + 0 = 0$.
+
+Second, write the contrapositive of "if $f$ is increasing, then $f$ is injective" for a real function $f$.
+It is "if $f$ is not injective, then $f$ is not increasing", where "increasing" means $x < y \Rightarrow f(x) < f(y)$; two points $x \ne y$ with $f(x) = f(y)$ break that rule.
 
 ## Explanations
 
@@ -83,30 +123,25 @@ In mathematics education, many transition-to-proof books treat the contrapositiv
 
 "If it rains, then the street is wet" says the same thing as "if the street is dry, then it did not rain".
 Both sentences rule out the same situation: rain on a dry street.
-So to prove the first sentence, one can prove the second one instead.
+So to prove the first sentence, you can prove the second one instead.
 In mathematics this helps when the second sentence is easier.
-For example, "if $n \times n$ is even, then $n$ is even" is hard to start.
+"If $n \times n$ is even, then $n$ is even" is hard to start.
 "If $n$ is odd, then $n \times n$ is odd" is easy: $3 \times 3 = 9$, $5 \times 5 = 25$, and the algebra shows it for every odd $n$.
 
 ### L2 human
 
-We prove: for every integer $n$, if $n^2 - 6n + 5$ is even, then $n$ is odd.
-
-1. We prove the contrapositive: if $n$ is even, then $n^2 - 6n + 5$ is odd.
-2. Assume $n$ is even. Then $n = 2k$ for an integer $k$.
-3. Compute: $n^2 - 6n + 5 = 4k^2 - 12k + 5 = 2(2k^2 - 6k + 2) + 1$.
-4. The number $2k^2 - 6k + 2$ is an integer, so $n^2 - 6n + 5$ is odd.
-5. This proves the contrapositive, and so the original statement.
-
-The typical use: when the conclusion is "$n$ is odd", "$x$ is irrational" or "$x \neq 0$", its negation gives a formula, and the contrapositive starts from that formula.
-
-A trap: in step 1 the negation of "$n$ is odd" must be "$n$ is even".
-This uses the fact that each integer is even or odd and not both, which is a theorem about the integers, not a rule of logic.
+Let us prove that for every integer $n$, if $n^2 - 6n + 5$ is even, then $n$ is odd.
+The conclusion "$n$ is odd" is hard to reach from the hypothesis, so we prove the contrapositive: if $n$ is even, then $n^2 - 6n + 5$ is odd.
+Assume $n$ is even, so $n = 2k$ for an integer $k$, and compute:
+$$n^2 - 6n + 5 = 4k^2 - 12k + 5 = 2(2k^2 - 6k + 2) + 1.$$
+The number $2k^2 - 6k + 2$ is an integer, so $n^2 - 6n + 5$ is odd, which proves the contrapositive and so the claim.
+Check: $n = 4$ gives $16 - 24 + 5 = -3$, which is odd, and $n = 3$ gives $9 - 18 + 5 = -4$, which is even.
+The problem shows the typical use: when the conclusion is "odd", "irrational" or "$\ne 0$", its negation gives a formula to start from.
+Watch out: "not odd means even" is a theorem about integers, not a rule of logic, and for real numbers there is no such split.
 
 ### L3 human
 
-In classical propositional logic, $P \to Q$ and $\neg Q \to \neg P$ have the same truth table, and a proof by contrapositive is a direct proof of the second formula followed by this equivalence.
-In intuitionistic logic, $\neg Q$ is defined as $Q \to \bot$, and composition gives $(P \to Q) \to (\neg Q \to \neg P)$ for free; the reverse implication fails in general, which is one reason why constructive mathematics prefers direct proofs of positive statements.
-In category theory, the step from $P \to Q$ to $\neg Q \to \neg P$ is the contravariant functor $\operatorname{Hom}(-, \bot)$ applied to the arrow $P \to Q$.
-The method appears in analysis as the contrapositive form of many limit statements: "if $a_n$ does not tend to $0$, then $\sum a_n$ diverges" is the usual form of the divergence test.
-The related method of [[proof by contradiction|0J0XBKG64S]] is more general, and the topic [[fallacies and errors in proofs|T6QQ749DM5]] treats the confusion of an implication with its converse and inverse.
+In intuitionistic logic $\neg Q$ is defined as $Q \to \bot$, and composing a proof of $P \to Q$ with a proof of $Q \to \bot$ gives $(P \to Q) \to (\neg Q \to \neg P)$ with no extra axiom.
+The reverse implication is not provable there, which is one reason why constructive mathematics prefers direct proofs of positive statements.
+In a cartesian closed category the same step says that $X \mapsto (X \Rightarrow \bot)$ reverses arrows.
+The more general method of [[proof by contradiction|0J0XBKG64S]] assumes $P$ and $\neg Q$ together and may reach any contradiction, and the topic [[fallacies and errors in proofs|T6QQ749DM5]] treats the confusion of an implication with its converse and inverse.

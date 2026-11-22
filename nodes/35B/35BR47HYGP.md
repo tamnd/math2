@@ -17,48 +17,51 @@ sources:
 ## Example
 
 Statement: there is no smallest positive [[rational number|0NCJ5WXN6Z]].
-In other words, for every positive rational $r$ there is a positive rational $s$ with $s < r$.
 We give a [[proof by contradiction|0J0XBKG64S]].
 
-1. Suppose, for a contradiction, that there is a smallest positive rational number. Call it $r$.
-2. Since $r$ is rational, $r = a / b$ with integers $a$ and $b \neq 0$.
-3. Put $s = r / 2 = a / (2b)$. Then $s$ is rational, because $a$ and $2b$ are integers and $2b \neq 0$.
-4. Since $r > 0$, also $s = r / 2 > 0$. So $s$ is a positive rational number.
+1. Suppose, for a contradiction, that there is a smallest positive rational number, and call it $r$.
+2. Since $r$ is rational, $r = a / b$ with integers $a$ and $b \ne 0$.
+3. Put $s = r / 2 = a / (2b)$.
+   Then $s$ is rational, because $a$ and $2b$ are integers and $2b \ne 0$.
+4. Since $r > 0$, also $s = r / 2 > 0$, so $s$ is a positive rational number.
 5. Since $r > 0$, we have $r - s = r / 2 > 0$, so $s < r$.
-6. Steps 4 and 5 give a positive rational number smaller than $r$. This contradicts the choice of $r$ as the smallest.
+6. Steps 4 and 5 give a positive rational number smaller than $r$, which contradicts the choice of $r$ as the smallest.
 7. So the assumption in step 1 is false, and there is no smallest positive rational number.
+
+Check with a number: if someone proposes $r = \frac{1}{1000}$, the proof answers with $s = \frac{1}{2000}$.
 
 ## Remarks
 
-The proof shows more than it claims: it gives, for each positive rational $r$, the explicit smaller one $r / 2$.
-So the statement also has a [[direct proof|0NTF6DMVAP]] of its universal form "for every positive rational $r$ there is a smaller positive rational", with no contradiction at all.
-Many short proofs by contradiction have this feature, and the topic [[proof methods|G9JFJGY4TQ]] discusses the choice between the two forms.
+The statement is a negation, "it is not the case that a smallest positive rational exists".
+So the proof assumes the positive statement and refutes it, which is the form of proof by contradiction that needs no law of excluded middle.
+
+The proof gives more than it claims.
+For each positive rational $r$ it names the smaller one, $r / 2$.
+So the universal statement "for every positive rational $r$ there is a positive rational $s < r$" has a [[direct proof|0NTF6DMVAP]] with no contradiction at all, and that direct proof implies the original statement.
+Many short proofs by contradiction hide a direct proof of this kind.
 
 A change of the set changes the answer.
-The set of positive integers has a smallest element, $1$, by the [[well-ordering principle|01BX15HSRR]], and the step $r \mapsto r/2$ fails there because $1/2$ is not an integer.
-The set of positive real numbers has no smallest element, by the same proof.
-The set of rationals $r \geq 0$ has the smallest element $0$; the proof fails because step 5 needs $r > 0$.
+The positive integers have a smallest element, $1$, by the [[well-ordering principle|01BX15HSRR]], and the step fails there because $\frac{1}{2}$ is not an integer.
+The positive real numbers have no smallest element, by the same proof.
+The rationals $r \ge 0$ have the smallest element $0$, and the proof fails because step 5 needs $r > 0$.
 
 ## Explanations
 
 ### L1 human
 
-Think of the smallest piece of a cake that is more than nothing.
-Whatever piece is proposed, cut it in half: the half is still more than nothing, and it is smaller.
+Think of the smallest piece of cake that is still more than nothing.
+Whatever piece is proposed, cut it in half.
+The half is still more than nothing, and it is smaller.
 So no piece can be the smallest.
-The same holds for fractions: whatever positive fraction is proposed, half of it is a smaller positive fraction.
-For example, if someone proposes $1/1000$, then $1/2000$ is smaller.
+The same holds for fractions: half of a positive fraction is a smaller positive fraction, so $\frac{1}{2000}$ beats $\frac{1}{1000}$.
 
 ### L2 human
 
-We use the result to show that the open interval $(0, 1)$ of rationals has no minimum.
-
-1. Let $S$ be the set of rational numbers $q$ with $0 < q < 1$.
-2. Suppose $S$ had a smallest element $m$.
-3. Then $m / 2$ is rational, $m / 2 > 0$, and $m / 2 < m < 1$, so $m / 2 \in S$.
-4. But $m / 2 < m$, which contradicts the choice of $m$. So $S$ has no smallest element.
-
-The typical use: showing that a set has no least element, and so that a minimum must be replaced by an infimum, here $0$, which is not in $S$.
-
-A trap: step 3 must check that $m / 2$ belongs to $S$.
-For the set of rationals $q$ with $\frac{1}{2} \leq q < 1$, the element $\frac{1}{2}$ is the minimum, and halving it leaves the set.
+The same idea shows that the set $S$ of rational numbers $q$ with $0 < q < 1$ has no smallest element.
+Suppose $S$ had a smallest element $m$.
+Then $m / 2$ is rational, and
+$$0 < \frac{m}{2} < m < 1,$$
+so $m / 2$ lies in $S$ and is smaller than $m$, which contradicts the choice of $m$.
+The typical use is the one shown: a set with no least element needs an infimum in place of a minimum, here $0$, which is not in $S$.
+Watch out: the proof must check that $m / 2$ belongs to the set.
+For the set of rationals $q$ with $\frac{1}{2} \le q < 1$, the number $\frac{1}{2}$ is the minimum, and halving it leaves the set.
