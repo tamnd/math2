@@ -16,25 +16,26 @@ sources:
 
 ## Example
 
-Claim: the equation $x^2 - 61y^2 = 1$ has no solution in positive integers.
+The claim is that the equation $x^2 - 61y^2 = 1$ has no solution in positive integers.
 Someone writes a program that checks, for each $y$ from $1$ to $10^6$, whether $61y^2 + 1$ is a perfect square.
 It finds none, and the claim is offered as proved.
 
-This is not a [[proof of impossibility|6F55216R53]], and the claim is false.
-We check the condition that fails.
-
-1. A proof of impossibility must show that every candidate fails. Here the candidates are all pairs of positive integers.
-2. The search covers only $y \leq 10^6$. The pairs with $y > 10^6$ are not checked.
-3. The equation is a [[Pell's equation|0Z0NE3J6JX]], and its smallest positive solution is $x = 1766319049$, $y = 226153980$.
-4. Check: $1766319049^2 - 61 \cdot 226153980^2 = 1$. So the claim fails, at a value of $y$ more than $200$ times the bound of the search.
+This is not a [[proof of impossibility|6F55216R53]], and in fact the claim is false.
+A proof of impossibility must show that every candidate fails, and here the candidates are all pairs of positive integers.
+The search covers only $y \leq 10^6$, so the pairs with $y > 10^6$ are never examined.
+The equation is a [[Pell equation|0Z0NE3J6JX]], and its smallest solution in positive integers is
+$$x = 1766319049, \qquad y = 226153980.$$
+Check: $1766319049^2 - 61 \cdot 226153980^2 = 1$, which a computer confirms in exact integer arithmetic.
+So the claim fails at a value of $y$ more than $200$ times the bound of the search.
 
 ## Remarks
 
-The result of the search is correct: no solution has $y \leq 10^6$.
-The error is only in the step from "none found" to "none exists".
+The output of the search is correct: no solution has $y \leq 10^6$.
+The error is only the step from "none found" to "none exists".
 
-For Pell's equations $x^2 - dy^2 = 1$, with $d$ a positive integer that is not a square, a theorem guarantees a solution in positive integers for every such $d$.
-The size of the smallest solution varies a lot with $d$: for $d = 60$ it is $x = 31$, $y = 4$, and for $d = 61$ it has ten digits.
+For a Pell equation $x^2 - dy^2 = 1$, with $d$ a positive integer that is not a square, a theorem guarantees a solution in positive integers for every such $d$.
+The size of the smallest solution varies wildly with $d$.
+For $d = 60$ it is $x = 31$, $y = 4$, since $961 - 960 = 1$, while for $d = 61$ the value of $x$ has ten digits.
 Bhāskara II solved the case $d = 61$ in the twelfth century, and Pierre de Fermat proposed it as a challenge in 1657.
 
 ## Explanations
@@ -48,13 +49,11 @@ A search can find a solution, but a search that finds nothing proves nothing abo
 
 ### L2 human
 
-We compare the search with a real impossibility proof for a nearby equation, $x^2 - 61y^2 = 2$.
-
-1. Reduce modulo $61$: any solution gives $x^2 \equiv 2 \pmod{61}$.
-2. The remainders of the squares $0^2, 1^2, \ldots, 60^2$ on division by $61$ can be listed, and one checks whether $2$ appears.
-3. Since $61 \equiv 5 \pmod 8$, the number $2$ is not a square modulo $61$; this follows from the second supplement to quadratic reciprocity.
-4. So $x^2 - 61y^2 = 2$ has no integer solution. Here the finite check in step 2 covers all integers $x$, because every integer has one of the $61$ remainders.
-
-The typical use: a finite check is a proof only when the finitely many cases cover all candidates, as remainders do.
-
-A trap: the search in the example and the check in step 2 are both finite, but only the second one covers every candidate.
+Compare the search with a true impossibility proof for the nearby equation $x^2 - 61y^2 = 2$.
+Any integer solution gives $x^2 \equiv 2 \pmod{61}$, so $2$ would have to be a square modulo $61$.
+Since $61 \equiv 5 \pmod 8$, the second supplement to quadratic reciprocity says that $2$ is not a square modulo $61$.
+You can also confirm this by listing the remainders of $0^2, 1^2, \ldots, 60^2$ on division by $61$ and seeing that $2$ is missing.
+So $x^2 - 61y^2 = 2$ has no integer solution.
+That finite list is a proof, because every integer $x$ has one of the $61$ remainders, so the list covers every candidate.
+The lesson is that a finite check proves impossibility only when its finitely many cases cover all candidates.
+Watch out: the failed search and the list of remainders are both finite, but only the second one covers everything.
