@@ -84,6 +84,7 @@ Watch out: the rank is at least $r$ as soon as one minor of order $r$ is nonzero
 
 ### L3 human
 
-The criterion says that the set of matrices of rank at most $r$ is cut out by polynomial equations, so it is a closed algebraic set, and rank is lower semicontinuous in the Zariski topology and in the usual topology over $\mathbb{R}$ and $\mathbb{C}$.
+The criterion says that the set of matrices of rank at most $r$ is cut out by polynomial equations, so it is a closed algebraic set.
+So rank is lower semicontinuous, both in the Zariski topology and in the usual topology over $\mathbb{R}$ and $\mathbb{C}$.
 These determinantal varieties are a central example in algebraic geometry and commutative algebra.
 The [[proof|DPK9X2057G]] uses only the invertibility criterion and the equality of row rank and column rank.

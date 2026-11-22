@@ -17,7 +17,8 @@ same_as:
 
 ## Statement
 
-If we fix a square block in the top left corner of a matrix and border it by one more row and one more column in every possible way, the determinants of the bordered blocks form a new matrix whose determinant is a power of the corner determinant times the determinant of the whole matrix.
+Fix a square block in the top left corner of a matrix, and border it by one more row and one more column in every possible way.
+The determinants of the bordered blocks form a smaller matrix, and its determinant is a power of the corner determinant times the determinant of the whole matrix.
 Let $K$ be a [[commutative ring|0310REJJY8]], let $1 \le k < n$, and let $A = (a_{ij})$ be an $n \times n$ matrix over $K$.
 Let $A_0$ be the $k \times k$ submatrix of $A$ formed by its first $k$ rows and its first $k$ columns.
 For $k < i, j \le n$, let $b_{ij}$ be the [[minor|0BT9BYWVRY]] of $A$ with rows $1, \dots, k, i$ and columns $1, \dots, k, j$.
