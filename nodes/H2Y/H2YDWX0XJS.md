@@ -55,4 +55,6 @@ Linearity comes for free from the way the operations on cosets are defined, and 
 The [[universal property of the quotient|0ZERJX6PH6]] gives a shorter route.
 Since $T$ vanishes on $\ker T$, it factors as $T = \bar T \circ \pi$ through the quotient map $\pi \colon V \to V / \ker T$, and this settles well-definedness and linearity at once.
 It then remains to check steps 9 to 12.
-In finite dimension one can also argue by dimensions: once injectivity is known, the [[dimension of a quotient space|0SXDQ6TN00]] and the rank-nullity theorem, in its proof by extending a basis of the kernel, show that $V / \ker T$ and $\im T$ have the same dimension, so the injective map $\bar T$ is onto.
+In finite dimension one can also argue by dimensions once injectivity is known.
+The [[dimension of a quotient space|0SXDQ6TN00]] and the rank-nullity theorem, in its proof by extending a basis of the kernel, show that $V / \ker T$ and $\im T$ have the same dimension.
+An injective linear map between spaces of the same finite dimension is onto, so $\bar T$ is an isomorphism.
