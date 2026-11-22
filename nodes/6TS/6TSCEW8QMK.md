@@ -41,5 +41,5 @@ This decides whether a form is positive definite, finds its extreme values on th
 
 ### Prerequisites
 
-- [[Bilinear and sesquilinear forms|DYAK7YMK7B]]: bilinear forms, their matrices, congruence and orthogonality, which every page here uses.
+- [[Bilinear and sesquilinear forms|DYAK7YMK7B]]: bilinear forms, their matrices, congruence and orthogonality, which the whole topic uses.
 - [[Adjoints, normal operators and the spectral theorems|3YM9EK6VMB]]: the spectral theorem for real symmetric matrices, which the principal axis theorem rests on.

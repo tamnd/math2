@@ -34,7 +34,7 @@ The polar form recovers this two-vector object from $Q$.
 The squared length is the model case.
 For $Q(v) = \|v\|^2$ on $\mathbb{R}^n$ we get $b_Q(u, v) = \|u + v\|^2 - \|u\|^2 - \|v\|^2 = 2\, u \cdot v$, so the dot product is half the polar form of the squared length.
 This is the [[polarization identity|05FKHRT0B4]] of inner product spaces.
-Later pages use the polar form at every step: [[diagonalization|0Z3FEWZ8HA]] builds orthogonal bases for $B$, and the [[discriminant|MZFRXECCMC]] is the determinant of its matrix.
+The rest of the theory uses the polar form at every step: [[diagonalization|0Z3FEWZ8HA]] builds orthogonal bases for $B$, and the [[discriminant|MZFRXECCMC]] is the determinant of its matrix.
 
 ## Notation
 

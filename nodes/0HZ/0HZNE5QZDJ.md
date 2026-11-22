@@ -38,7 +38,7 @@ In Mathlib, `QuadraticForm R M` is defined for a module $M$ over a commutative r
 Condition 1 makes $Q$ behave like a square under scaling, and it gives $Q(0) = 0$ and $Q(-v) = Q(v)$.
 Condition 1 alone is too weak, because there are many functions with this scaling that are not polynomials.
 For example, [[the function x⁴/(x² + y²)|AN5RQ78DD8]] on $\mathbb{R}^2$ satisfies condition 1 but fails condition 2.
-Condition 2 is what forces $Q$ to be a homogeneous polynomial of degree $2$ in the coordinates of every basis, as the [[concept page|0RBQS1JJCR]] shows.
+Condition 2 is what forces $Q$ to be a homogeneous polynomial of degree $2$ in the coordinates of every basis, as [[the concept of a quadratic form|0RBQS1JJCR]] shows.
 
 Here is a small example.
 For $Q(x, y) = x^2 + 3xy + 2y^2$ on $\mathbb{R}^2$, condition 1 holds because every term picks up the factor $a^2$:

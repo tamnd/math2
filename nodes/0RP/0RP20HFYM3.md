@@ -37,7 +37,7 @@ Each such form defines its own notion of length, so it is useful to decide from 
 
 The question also comes from calculus.
 At a critical point of a smooth function of several variables, a positive definite second derivative form means a strict local minimum, as in [[the five types of forms|01RBSSGMY5]].
-The tests of the sub-area on [[positive definite matrices|0KX66CZMBB]] answer the question for matrices, and this concept is the same idea seen from the side of the form.
+The tests for [[positive definite matrices|0KX66CZMBB]] answer the question for matrices, and this concept is the same idea seen from the side of the form.
 
 ## Notation
 

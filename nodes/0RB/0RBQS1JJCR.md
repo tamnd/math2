@@ -38,7 +38,7 @@ Near a critical point, Taylor's formula makes a smooth function of several varia
 
 In each case the same two questions come up.
 Can a change of coordinates remove the cross terms $x_i x_j$, and which coefficients are left after such a change?
-The pages that follow answer these questions: [[diagonalization|0Z3FEWZ8HA]] removes the cross terms, and the answer to the second question depends on the field.
+[[Diagonalization|0Z3FEWZ8HA]] answers the first question, since it removes all cross terms, and the answer to the second question depends on the field.
 Over $\mathbb{C}$ only the rank is left, over $\mathbb{R}$ the [[signature|07EZA80NEH]] is left too, and over a finite field the [[discriminant|MZFRXECCMC]] is left.
 For real forms the [[principal axis theorem|0PR5P9Z4KM]] does even better, with a rotation of the axes.
 
@@ -105,7 +105,7 @@ For $x^2 + 3xy + 2y^2$ the matrix $\begin{pmatrix} 1 & 3 \\ 3 & 2 \end{pmatrix}$
 The correct entries are $\tfrac{3}{2}$.
 
 A second error is to carry the formula $B(u, v) = \tfrac{1}{2}\bigl(Q(u + v) - Q(u) - Q(v)\bigr)$ into characteristic $2$.
-There $\tfrac{1}{2}$ does not exist, and the [[polar form|0HYFWKKY3C]] page shows that a quadratic form then carries more information than any symmetric bilinear form.
+There $\tfrac{1}{2}$ does not exist, and [[the polar form|0HYFWKKY3C]] shows that a quadratic form then carries more information than any symmetric bilinear form.
 
 ### History
 
@@ -137,7 +137,7 @@ Here is a typical use: write $Q(x, y, z) = 2x^2 - 6xy + 4yz + z^2$ with a symmet
 The coefficients of the squares go on the diagonal, and each cross coefficient is split into two equal halves:
 $$A = \begin{pmatrix} 2 & -3 & 0 \\ -3 & 0 & 2 \\ 0 & 2 & 1 \end{pmatrix}.$$
 Check: $x^{\mathsf{T}} A x = 2x^2 + 2(-3)xy + 2(2)yz + z^2$, which is $Q$.
-After a change of variables $x = Py$ the matrix becomes $P^{\mathsf{T}} A P$, and the next pages choose $P$ so that this matrix is diagonal.
+After a change of variables $x = Py$ the matrix becomes $P^{\mathsf{T}} A P$, and [[the diagonalization theorem|0Z3FEWZ8HA]] chooses $P$ so that this matrix is diagonal.
 Watch out: the matrix with $-6$ at $(1, 2)$ and $0$ at $(2, 1)$ also gives $Q$, but it is not symmetric, so the theorems on symmetric matrices do not apply to it.
 
 ### L3 human
@@ -145,5 +145,5 @@ Watch out: the matrix with $-6$ at $(1, 2)$ and $0$ at $(2, 1)$ also gives $Q$, 
 The definition by the polar form works over every commutative ring, also in characteristic $2$, and Mathlib states it that way as `QuadraticMap`, with `QuadraticForm R M` the case of values in $R$.
 A pair $(V, Q)$ is a *quadratic space*.
 The orthogonal sum makes the isometry classes of nondegenerate quadratic spaces into a monoid, and the [[Witt group|KFVY0RPGF2]] is built from it.
-The later pages classify forms over $\mathbb{C}$, over $\mathbb{R}$ and over finite fields, and use the real case for conics and quadric surfaces.
+Forms are classified over $\mathbb{C}$ by [[the rank|0CEX9BRXRZ]], over $\mathbb{R}$ by [[the signature|07EZA80NEH]] and over finite fields by [[the discriminant|2HBR7137AD]], and the real case gives the types of conics and quadric surfaces.
 Over $\mathbb{Q}$ the classification needs local invariants and the [[Hasse-Minkowski theorem|R8HCWA981S]], which belong to number theory.

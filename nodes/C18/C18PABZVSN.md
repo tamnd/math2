@@ -51,4 +51,4 @@ The discriminant turns this idea into a proof that no change of variables with f
 The typical use is one determinant computation that proves non-equivalence over $\mathbb{Q}$.
 For example, $x^2 + 5y^2$ and $x^2 + 10y^2$ have determinants $5$ and $10$, and $10/5 = 2$ is not a rational square, so they are not equivalent.
 Watch out: the test works in one direction only.
-The forms $x^2 + 3y^2$ and $2x^2 + 6y^2$ have determinants $3$ and $12$, whose quotient $4$ is a square, but they are still not equivalent: the second takes the value $2$ at $(1, 0)$ and the first never does, as the [[discriminant|MZFRXECCMC]] page proves.
+The forms $x^2 + 3y^2$ and $2x^2 + 6y^2$ have determinants $3$ and $12$, whose quotient $4$ is a square, but they are still not equivalent: the second takes the value $2$ at $(1, 0)$ and the first never does, as shown with [[the discriminant|MZFRXECCMC]].

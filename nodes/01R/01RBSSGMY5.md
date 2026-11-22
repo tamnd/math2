@@ -146,4 +146,4 @@ Watch out: the determinant shortcut works only for $2 \times 2$ matrices, since 
 At a nondegenerate critical point of a smooth function, the number $q$ of negative eigenvalues of the Hessian is the [[Morse index|MAX2ZYG6H9]], and the [[Morse lemma|ERSD8D4HWX]] says that in suitable coordinates the function is exactly $c - y_1^2 - \dots - y_q^2 + y_{q+1}^2 + \dots + y_n^2$.
 So the type of the Hessian form is the local shape of the function, not only an approximation of it.
 The positive semidefinite matrices form a closed convex cone, and optimization over this cone is [[semidefinite programming|2RTN2X4R2N]].
-Over a field with no order, such as $\mathbb{C}$ or a finite field, the five types disappear, and the invariants of the sub-area, such as the [[discriminant|MZFRXECCMC]], take their place.
+Over a field with no order, such as $\mathbb{C}$ or a finite field, the five types disappear, and algebraic invariants, such as the [[discriminant|MZFRXECCMC]], take their place.

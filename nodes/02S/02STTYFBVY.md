@@ -32,7 +32,7 @@ For $Q(x) = x^2$ on $\mathbb{R}$ this is $(x + y)^2 - x^2 - y^2 = 2xy$.
 Many authors divide by $2$ when the characteristic is not $2$, so that the result $B$ satisfies $B(v, v) = Q(v)$; that half is [[the associated symmetric bilinear form|0TX2YH2FQS]].
 Outside characteristic $2$, [[quadratic forms and symmetric bilinear forms correspond|VN9AG8JKYT]] by this construction.
 In characteristic $2$, $b_Q(v, v) = 0$ for every $v$, and [[the correspondence fails|ZEGSCCVGZF]].
-The [[concept page|0HYFWKKY3C]] works out these cases.
+[[The concept of the polar form|0HYFWKKY3C]] works out these cases.
 
 ## Explanations
 

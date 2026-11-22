@@ -32,7 +32,7 @@ For example, $x^2 + y^2$ is positive definite on $\mathbb{R}^2$, since it is a s
 The form $x^2$ fails the condition at the nonzero vector $(0, 1)$, where it is $0$.
 An equivalent condition is that the [[signature|07EZA80NEH]] of $Q$ is $(n, 0, 0)$ with $n = \dim V$.
 Another is that the polar form of $Q$ is an inner product on $V$.
-The [[concept page|0RP20HFYM3]] gives the tests and the examples.
+The tests and the examples are with [[the concept of a positive definite form|0RP20HFYM3]].
 
 ## Explanations
 
