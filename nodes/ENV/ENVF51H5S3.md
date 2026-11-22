@@ -19,13 +19,14 @@ sources:
 
 ## Statement
 
+An invariant subspace makes the matrix block upper triangular, and the characteristic polynomial then splits into the parts that belong to the subspace and to the quotient.
 Let $F$ be a field, let $V$ be a vector space over $F$ of finite dimension $n$, and let $T \colon V \to V$ be linear.
 Let $U$ be a $T$-[[invariant subspace|0ACX5QT8TE]] of dimension $k$.
-Let $(u_1, \dots, u_k)$ be a basis of $U$, and let $(u_1, \dots, u_k, v_{k+1}, \dots, v_n)$ be a basis $\mathcal{B}$ of $V$.
+Let $u_1, \dots, u_k$ be a basis of $U$, and let $\mathcal{B} = (u_1, \dots, u_k, v_{k+1}, \dots, v_n)$ be a basis of $V$.
 
 1. The [[matrix|0YQSGNYE3K]] of $T$ in $\mathcal{B}$ has the block form
 $$[T]_{\mathcal{B}} = \begin{pmatrix} A & B \\ 0 & C \end{pmatrix},$$
-where $A$ is the $k \times k$ matrix of the [[restriction|0KN7EPH7Z0]] $T|_U$ in $(u_1, \dots, u_k)$, and $C$ is the $(n - k) \times (n - k)$ matrix of the quotient operator $\bar T$ in $(v_{k+1} + U, \dots, v_n + U)$.
+   where $A$ is the $k \times k$ matrix of the [[restriction|0KN7EPH7Z0]] $T|_U$ in the basis $u_1, \dots, u_k$, and $C$ is the $(n - k) \times (n - k)$ matrix of the quotient operator $\bar T$ in the basis $v_{k+1} + U, \dots, v_n + U$.
 2. The [[characteristic polynomials|0J5EMJRRFM]] satisfy
 $$p_T = p_{T|_U} \cdot p_{\bar T}.$$
 
@@ -35,31 +36,38 @@ Here the characteristic polynomial of an endomorphism of the zero space is $1$.
 
 ### Why each hypothesis is needed
 
-- Without invariance, $T|_U$ and $\bar T$ are not defined, and the lower left block need not be $0$. For $T(x, y) = (x, x + y)$ and $U = \R e_1$, the matrix is $\begin{pmatrix} 1 & 0 \\ 1 & 1 \end{pmatrix}$, see the [[non-invariant subspace|B448MTVVJW]].
-- The basis must start with a basis of $U$. In the basis $(v_2, u_1)$, the zero block moves to the upper right.
-- $V$ must be finite-dimensional, since characteristic polynomials are defined only in finite dimension.
+Invariance is what puts the zero block in place.
+For $T(x, y) = (x, x + y)$ and $U = \R e_1$, the matrix in the basis $e_1, e_2$ is $\begin{pmatrix} 1 & 0 \\ 1 & 1 \end{pmatrix}$, and the [[subspace is not invariant|B448MTVVJW]], so $T|_U$ and $\bar T$ do not even exist.
 
-### Consequences
+The basis must start with a basis of $U$.
+For the invariant line $U = \R e_1$ of $\begin{pmatrix} 2 & 1 \\ 0 & 3 \end{pmatrix}$, the reversed basis $e_2, e_1$ gives $\begin{pmatrix} 3 & 0 \\ 1 & 2 \end{pmatrix}$, with the zero in the upper right corner.
 
-- The characteristic polynomial of $T|_U$ divides $p_T$, and so does that of $\bar T$.
-- The [[eigenvalues|0BQAA2BK3Q]] of $T$ are the eigenvalues of $T|_U$ together with those of $\bar T$, with multiplicities.
-- $\det T = \det(T|_U) \det(\bar T)$ and $\tr T = \tr(T|_U) + \tr(\bar T)$, by comparing coefficients of $p_T$.
-- For a chain $0 = U_0 \subset U_1 \subset \cdots \subset U_r = V$ of invariant subspaces, induction gives a block upper triangular matrix with the diagonal blocks of the quotient operators on $U_i / U_{i-1}$. This is the basis of [[triangularization|0363JMQ42Y]].
+Finite dimension is needed for part 2, because the characteristic polynomial is defined only there.
 
-### Converse
+### What it gives you
+
+The characteristic polynomials of $T|_U$ and of $\bar T$ both divide $p_T$.
+So the [[eigenvalues|0BQAA2BK3Q]] of $T$, with their algebraic multiplicities, are those of $T|_U$ together with those of $\bar T$.
+Comparing coefficients of the two sides of part 2 gives $\det T = \det(T|_U) \det \bar T$ and $\operatorname{tr} T = \operatorname{tr}(T|_U) + \operatorname{tr} \bar T$.
+
+The rule also computes characteristic polynomials cheaply.
+For the matrix $\begin{pmatrix} 1 & 2 & 5 \\ 2 & 1 & 7 \\ 0 & 0 & 4 \end{pmatrix}$ and the plane $z = 0$, the blocks give $(t^2 - 2t - 3)(t - 4) = (t - 3)(t + 1)(t - 4)$, as the [[worked example|D59VWM8NX7]] shows.
+
+For a chain $0 = U_0 \subset U_1 \subset \cdots \subset U_r = V$ of invariant subspaces, applying part 1 again and again gives a block upper triangular matrix whose diagonal blocks are the quotient operators on the $U_i / U_{i-1}$.
+When every step has dimension $1$, the matrix is upper triangular, which is the idea of [[triangularization|0363JMQ42Y]].
+
+### The converse
 
 The converse of part 1 holds.
-If the matrix of $T$ in a basis $(u_1, \dots, u_k, v_{k+1}, \dots, v_n)$ has a zero lower left block, then $T(u_i)$ is a combination of $u_1, \dots, u_k$ for each $i$, so $U = \operatorname{span}(u_1, \dots, u_k)$ is invariant.
-The converse of part 2 fails: a factorization $p_T = f g$ does not give an invariant subspace with $p_{T|_U} = f$ unless $f$ and $g$ are suitable, for example coprime, by the [[kernels lemma|ACBNK1VFVG]].
+If the matrix of $T$ in a basis $u_1, \dots, u_k, v_{k+1}, \dots, v_n$ has a zero lower left block, then each $T(u_i)$ is a combination of $u_1, \dots, u_k$, so $\operatorname{span}(u_1, \dots, u_k)$ is invariant.
+
+For part 2 one may ask whether every monic factor $f$ of $p_T$ is $p_{T|_U}$ for some invariant $U$.
+Over $\C$ the answer is yes: triangularize $T$ with the roots of $f$ placed first on the diagonal, and take for $U$ the span of the first $\deg f$ basis vectors.
 
 ### Generalizations
 
-If $V = U \oplus W$ with both summands invariant, then $B = 0$, the matrix is block diagonal, and $W$ is a model of $V / U$.
-The same block form holds for free modules of finite rank over a commutative ring, when $U$ and $V / U$ are free.
-
-## History
-
-The block form appears in the reduction theory of matrices of the nineteenth century, and it is standard in textbooks such as Hoffman and Kunze, Section 6.4.
+If $V = U \oplus W$ with both summands invariant, then $B = 0$, the matrix is block diagonal, and $T|_W$ is a model of $\bar T$.
+The same block form holds for free modules of finite rank over a commutative ring, when $U$ is a direct summand that is free.
 
 ## Explanations
 
@@ -69,22 +77,21 @@ Choose coordinates in which the first few directions span the invariant subspace
 Then the matrix of the map has a block of zeros in the lower left corner.
 The upper left block describes the map inside the subspace.
 The lower right block describes the map on what is left.
-The eigenvalues of the whole map are the eigenvalues of these two blocks.
+The stretch factors of the whole map are the stretch factors of these two blocks.
 
 ### L2 human
 
-Let $T(x, y, z) = (x + 2y + 5z, 2x + y + 7z, 4z)$ on $\R^3$, and let $U$ be the plane $z = 0$.
-
-1. Take the basis $u_1 = e_1$, $u_2 = e_2$ of $U$, and extend it by $v_3 = e_3$.
-2. The matrix of $T$ is $\begin{pmatrix} 1 & 2 & 5 \\ 2 & 1 & 7 \\ 0 & 0 & 4 \end{pmatrix}$, with the zero block $(0 \ 0)$ in the lower left.
-3. The restriction has $A = \begin{pmatrix} 1 & 2 \\ 2 & 1 \end{pmatrix}$ and $p_A = t^2 - 2t - 3 = (t - 3)(t + 1)$.
-4. The quotient operator has $C = (4)$ and $p_C = t - 4$.
-5. So $p_T = (t - 3)(t + 1)(t - 4)$, without a $3 \times 3$ determinant.
-
-The trap is to take an eigenvector of $C$ as an eigenvector of $T$; the details are in the [[worked example|D59VWM8NX7]].
+Here is a typical use: find the characteristic polynomial of $T(x, y, z) = (2x + y + z, \; 3y + 4z, \; 5z)$ on $\R^3$.
+The line $U = \R e_1$ is invariant, since $T(e_1) = (2, 0, 0)$.
+In the basis $e_1, e_2, e_3$ the matrix is
+$$\begin{pmatrix} 2 & 1 & 1 \\ 0 & 3 & 4 \\ 0 & 0 & 5 \end{pmatrix},$$
+so $A = (2)$ and $C = \begin{pmatrix} 3 & 4 \\ 0 & 5 \end{pmatrix}$.
+Part 2 gives $p_T(t) = (t - 2) \cdot (t - 3)(t - 5)$.
+The plane $\operatorname{span}(e_1, e_2)$ is also invariant, and the same rule with $k = 2$ splits off the factor $t - 5$ from the quotient.
+Watch out: an eigenvector of $C$ is only an eigenvector of $\bar T$, and it need not give an eigenvector of $T$ in the same coset.
 
 ### L3 human
 
 The statement says that the characteristic polynomial is multiplicative on short exact sequences $0 \to U \to V \to V / U \to 0$ of $F[x]$-modules.
-For a composition series, the characteristic polynomial is the product over the simple factors, and each simple factor $F[x] / (q)$ with $q$ irreducible contributes $q$.
-This gives a proof that $p_T$ and the [[minimal polynomial|03NDVCSHSB]] have the same irreducible factors.
+Along a composition series, $p_T$ is the product over the simple factors, and a simple factor $F[x] / (q)$ with $q$ irreducible contributes $q$.
+Each such factor is a subquotient of $V$, so $q$ divides the [[minimal polynomial|03NDVCSHSB]], and this gives one proof that $p_T$ and $m_T$ have the same irreducible factors.
