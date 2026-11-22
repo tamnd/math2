@@ -22,7 +22,7 @@ sources:
 Double induction proves a claim $P(m, n)$ about every pair of [[natural numbers|0MWKJ44V5A]].
 The idea is to put the pairs in an order in which each pair comes after the pairs that its proof needs, and then to run [[mathematical induction|0ASJVEFA9J]] along that order.
 
-Here is a real theorem proved this way.
+Here is a short theorem proved this way.
 A path on the grid from $(0, 0)$ to $(m, n)$ that uses only the unit steps right and up has exactly $m + n$ steps, and the number of such paths is $\binom{m + n}{m}$.
 The last step of a path to $(m, n)$ comes from $(m - 1, n)$ or from $(m, n - 1)$, so for $m, n \ge 1$ the number $L(m, n)$ of paths satisfies
 $$L(m, n) = L(m - 1, n) + L(m, n - 1).$$
