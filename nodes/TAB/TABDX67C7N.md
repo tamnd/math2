@@ -15,6 +15,8 @@ sources:
 
 ## Proof
 
+We check the block factorization by multiplying it out, invert its three factors, and read off parts 2 and 3 from the inverse of a product; part 4 is the same argument with the roles of $A$ and $D$ exchanged.
+
 All products below are products of [[block matrices|01AXG9KZQF]] with compatible sizes, computed by block multiplication.
 Write $E = \begin{pmatrix} I_p & 0 \\ CA^{-1} & I_q \end{pmatrix}$, $\Lambda = \begin{pmatrix} A & 0 \\ 0 & S \end{pmatrix}$ and $G = \begin{pmatrix} I_p & A^{-1}B \\ 0 & I_q \end{pmatrix}$.
 
@@ -43,15 +45,15 @@ Write $E = \begin{pmatrix} I_p & 0 \\ CA^{-1} & I_q \end{pmatrix}$, $\Lambda = \
 **Part 4.**
 
 11. Exchange the roles of the blocks: $M = \begin{pmatrix} I_p & BD^{-1} \\ 0 & I_q \end{pmatrix} \begin{pmatrix} T & 0 \\ 0 & D \end{pmatrix} \begin{pmatrix} I_p & 0 \\ D^{-1}C & I_q \end{pmatrix}$. Block multiplication checks this as in steps 1 and 2. The product of the last two factors is $\begin{pmatrix} T & 0 \\ C & D \end{pmatrix}$, and then the upper left block is $T + BD^{-1}C = A$.
-12. The outer factors are unit block triangular, so they are invertible as in steps 3 and 4. As in steps 5 to 7, $M$ is invertible if and only if $\operatorname{diag}(T, D)$ is invertible. With $D$ invertible, this holds if and only if $T$ is invertible. Here the upper left blocks give $TW = WT = I_p$.
+12. The outer factors are unit block triangular, so they are invertible as in steps 3 and 4. As in steps 5 and 6, $M$ is invertible if and only if $\operatorname{diag}(T, D)$ is invertible. If $T$ is invertible, then $\operatorname{diag}(T^{-1}, D^{-1})$ is the inverse. Conversely, as in step 7, the upper left blocks of $\operatorname{diag}(T, D)\, Y = Y \operatorname{diag}(T, D) = I$ give $TW = WT = I_p$, where $W$ is the upper left block of $Y$.
 13. Invert the three factors and multiply them in reverse order, as in steps 8 to 10. This gives the formula of part 4.
 
 ## Idea
 
 Block elimination clears $C$ with a unit lower block triangular matrix and clears $B$ with a unit upper block triangular matrix.
-What is left is $\operatorname{diag}(A, S)$.
-Unit block triangular matrices are inverted by changing the sign of the off diagonal block.
-So the inverse of $M$ is a product of three easy inverses.
+What is left is $\operatorname{diag}(A, S)$, and the Schur complement appears because clearing $C$ subtracts $CA^{-1}B$ from $D$.
+Unit block triangular matrices are inverted by changing the sign of the off diagonal block, just as $T_{ij}(c)^{-1} = T_{ij}(-c)$.
+So the inverse of $M$ is a product of three easy inverses, and $M$ is invertible exactly when the middle factor is.
 
 ## Variants
 
