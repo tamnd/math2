@@ -12,7 +12,9 @@ Induction is how mathematics proves infinitely many statements with one finite a
 It starts with ordinary induction: prove a base case, prove that each case gives the next, and every natural number is covered.
 Strong induction lets the step use all earlier cases, and the well-ordering principle says that every nonempty set of natural numbers has a least element.
 These three turn out to be one fact about the natural numbers, and a theorem makes that exact over a stated base theory.
-From them grow the methods that you meet in every later course: the minimal counterexample, infinite descent, the strengthened hypothesis, double induction, forward-backward induction, structural induction over lists and trees, and induction on the size of a graph or a set.
+From them grow the methods that you meet in every later course.
+The minimal counterexample and infinite descent argue from a smallest case, and a strengthened hypothesis rescues a step that is stuck.
+Double, forward-backward and structural induction change the order in which the cases are reached, and induction on size picks the right number to induct on.
 The story ends with the false proof that all horses have the same color and with the errors that break induction proofs in practice.
 The induction axiom of the Peano axioms and transfinite induction are treated in other parts of the library.
 
