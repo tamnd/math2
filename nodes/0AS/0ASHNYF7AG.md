@@ -98,8 +98,10 @@ For a hyperplane $U = \ker f$ with $f \ne 0$, the annihilator is the line $F f$,
 
 ### Watch out
 
-The direction of inclusion is easy to get wrong.
-The line $L$ above lies in the plane $x + y + z = 0$ only if $L^0$ contains the form $x + y + z$, and it does not, since that form gives $6$ at $(1, 2, 3)$.
+The direction of inclusion is easy to get wrong: a bigger subspace has a smaller annihilator, not a bigger one.
+So $L \subseteq U$ holds exactly when $U^0 \subseteq L^0$.
+For the line $L$ and the plane $U$ above, this asks whether $L^0$ contains the form $x + y + z$.
+It does not, since that form gives $6$ at $(1, 2, 3)$, so $L$ does not lie in the plane.
 
 In infinite dimension, $U \mapsto U^0$ does not reach every subspace of $V^*$.
 On the space $F^{(\mathbb{N})}$ of [[finitely supported sequences|GZ627X1S7Y]], let $X$ be the span of the coordinate forms.
