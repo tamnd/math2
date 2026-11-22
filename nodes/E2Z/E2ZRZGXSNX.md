@@ -20,41 +20,70 @@ sources:
 
 ## Statement
 
-Let $F$ be a field, let $V$ be a vector space over $F$, and let $(b_i)_{i \in I}$ be a family in $V$.
-Then $(b_i)_{i \in I}$ is a [[basis|0VTQTPQGAV]] of $V$ if and only if each $v \in V$ can be written as $v = \sum_{i \in I} a_i b_i$ for exactly one finitely supported family of scalars $(a_i)_{i \in I}$.
+A family is a basis exactly when every vector can be built from it in one and only one way.
+Let $F$ be a field, let $V$ be a vector space over $F$, and let $(b_i)_{i \in I}$ be a family of vectors of $V$.
+Then $(b_i)_{i \in I}$ is a [[basis|0VTQTPQGAV]] of $V$ if and only if, for each $v \in V$, there is exactly one family of scalars $(a_i)_{i \in I}$, with $a_i \ne 0$ for only finitely many $i$, such that
+$$v = \sum_{i \in I} a_i b_i.$$
 
 ## Remarks
 
-### Why each hypothesis is needed
+### A first computation
 
-Without independence, coordinates are not unique: with the spanning family $(1, 0), (0, 1), (1, 1)$ of $\R^2$, the vector $(1, 1)$ has the coordinates $(1, 1, 0)$ and $(0, 0, 1)$.
-Without spanning, some vectors have no coordinates: $(0, 0, 1)$ is not a combination of $(1, 0, 0), (0, 1, 0)$.
+Take the basis $(1, 1), (1, -1)$ of $\mathbb{R}^2$ and the vector $(3, 1)$.
+We look for $c$ and $d$ with $c(1, 1) + d(1, -1) = (3, 1)$, that is,
+$$c + d = 3, \qquad c - d = 1.$$
+Adding the equations gives $2c = 4$, so $c = 2$, and then $d = 1$.
+The steps leave no choice, so this is the only solution.
+Check: $2(1, 1) + 1(1, -1) = (3, 1)$.
 
-### Consequences
+### Why each condition is needed
 
-For an ordered basis $B = (b_1, \dots, b_n)$, the map $v \mapsto [v]_B$ to the [[coordinate vector|04CYQHN6MC]] is well defined, and it is a [[linear isomorphism onto $F^n$|059THXBRBB]].
-Two linear maps that agree on a basis are equal, and each choice of images of the basis vectors gives exactly one linear map.
+The two halves of "exactly one" come from the two conditions of a basis.
+Spanning gives at least one expression.
+Without it, some vectors have no expression at all: $(0, 0, 1)$ is not a combination of $(1, 0, 0)$ and $(0, 1, 0)$.
 
-### Converse
+Independence gives at most one expression.
+Without it, coordinates are ambiguous: in the spanning family $(1, 0), (0, 1), (1, 1)$ of $\mathbb{R}^2$, the vector $(1, 1)$ is both $1 (1, 0) + 1 (0, 1) + 0 (1, 1)$ and $0 (1, 0) + 0 (0, 1) + 1 (1, 1)$.
+In fact any two expressions differ by a relation among the vectors, and independence says that the only relation is the trivial one.
 
-The statement is an equivalence.
-Existence of coordinates for all $v$ is spanning, and uniqueness of the coordinates of $0$ alone is independence.
+### What it gives you
+
+For an ordered basis $B = (b_1, \dots, b_n)$, the map that sends $v$ to its list of coefficients is well defined.
+This list is the [[coordinate vector|04CYQHN6MC]] $[v]_B$, and the map $v \mapsto [v]_B$ is a [[linear isomorphism onto F^n|059THXBRBB]].
+The same uniqueness is the reason that a linear map is [[fixed by its values on a basis|0R8X9XA83A]], and that any choice of those values gives exactly one linear map.
+
+### The converse
+
+The statement is already an equivalence.
+In the backward direction we use less than the full hypothesis.
+Existence of an expression for every $v$ gives spanning, and uniqueness for the single vector $v = 0$ gives independence.
 
 ### Generalizations
 
-For a module over a ring, the same proof shows that a basis gives unique coordinates; such modules are the free modules.
-The analogue for a Schauder basis uses convergent series and needs a topology.
+Over a ring $R$ in place of $F$, the same equivalence holds with the same proof, and the modules that have such a family are the [[free modules|0DZ9DKAKZR]].
+For a [[Schauder basis|528G11SDWR]] of a Banach space, the expression $v = \sum_i a_i b_i$ is a convergent series, and uniqueness becomes part of the definition rather than a consequence of independence.
 
 ## Explanations
 
 ### L1 human
 
-With a basis, every vector has one and only one recipe from the basis vectors.
-Spanning gives at least one recipe, and independence forbids a second one.
+With a basis, every vector has one and only one recipe made from the basis vectors.
+Spanning means that a recipe always exists.
+Independence means that two different recipes never give the same vector.
+For example, with the steps $(1, 1)$ and $(1, -1)$, the point $(3, 1)$ is two of the first step and one of the second, and nothing else works.
 
 ### L2 human
 
-Example: in the basis $(1, 1), (1, -1)$ of $\R^2$, find the coordinates of $(3, 1)$.
-Solve $c(1, 1) + d(1, -1) = (3, 1)$: $c + d = 3$ and $c - d = 1$, so $c = 2$ and $d = 1$.
-Check: $2(1, 1) + (1, -1) = (3, 1)$.
-The solution is unique because the matrix with columns $(1, 1), (1, -1)$ has a pivot in each column.
+Here is a typical use in the [[space of polynomials|0JGZCDT5DN]] $P_2(\mathbb{R})$, with the basis $1, x - 1, (x - 1)^2$.
+Write $p(x) = x^2 + 3x$ in this basis.
+Put $t = x - 1$, so $x = t + 1$ and
+$$p = (t + 1)^2 + 3(t + 1) = t^2 + 5t + 4.$$
+So $p = 4 \cdot 1 + 5 (x - 1) + 1 (x - 1)^2$.
+Uniqueness tells us that any other method, such as comparing coefficients, must give the same three numbers $4, 5, 1$.
+Watch out: the coefficients of $p$ in the monomial basis are $0, 3, 1$, so the coordinates depend on the basis.
+
+### L3 human
+
+The statement says that the linear map $F^{(I)} \to V$, $(a_i) \mapsto \sum_i a_i b_i$, is a bijection exactly when $(b_i)$ is a basis.
+Spanning is surjectivity of this map, and independence is injectivity, since the kernel consists of the relations among the $b_i$.
+In this form the result is a special case of the fact that a linear map is [[injective exactly when its kernel is zero|0BJBYCGMWE]], which the sub-area on linear maps proves.

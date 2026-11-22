@@ -25,23 +25,43 @@ sources:
 
 ## Definition
 
+A basis of a vector space is a family of vectors from which every vector can be built, with no vector to spare.
 Let $F$ be a field and let $V$ be a vector space over $F$.
 A *basis* of $V$ is a family $(b_i)_{i \in I}$ of vectors of $V$ that is [[linearly independent|0EVHJFTG9Z]] and [[spans|0BJKVF90Z6]] $V$.
+A basis indexed by $\{1, \dots, n\}$, written as a list $(b_1, \dots, b_n)$, is an *ordered basis*.
+
+## Notation
+
+In Mathlib, `Module.Basis ι F V` is a basis of `V` indexed by the type `ι`.
+It is stored as a linear isomorphism `V ≃ₗ[F] (ι →₀ F)` to the finitely supported functions on `ι`, which is the unique-coordinates form of the definition.
 
 ## Remarks
 
-A family $(b_i)_{i \in I}$ is a basis if and only if each $v \in V$ has exactly one expression $v = \sum_{i \in I} a_i b_i$.
-Here $(a_i)_{i \in I}$ is a finitely supported family of scalars; see [[unique coordinates|E2ZRZGXSNX]].
-The scalars $a_i$ are the [[coordinates|04CYQHN6MC]] of $v$ in the basis.
-The [[standard basis|C5QA672NPH]] $e_1, \dots, e_n$ is a basis of $F^n$; the vectors $(1, 1)$ and $(1, -1)$ form another basis of $\R^2$.
-The empty family is a basis of the zero space.
-[[Every vector space has a basis|00MS9VMQ9Z]], and all bases of a space have the same cardinality.
-Mathlib's `Module.Basis ι R M` stores a basis as a linear isomorphism `M ≃ₗ[R] (ι →₀ R)`, which is the unique-coordinates form of the definition.
+Each of the two conditions does one job.
+Spanning says that every vector of $V$ is a finite combination $\sum_i a_i b_i$, so nothing is out of reach.
+Independence says that the only combination equal to $0$ is the one with all $a_i = 0$, so no vector is redundant.
+Together they say that each $v \in V$ is a combination of the $b_i$ in [[exactly one way|E2ZRZGXSNX]], and the coefficients are the [[coordinates|04CYQHN6MC]] of $v$.
+
+For example, $(1, 1), (1, -1)$ is a basis of $\mathbb{R}^2$, since $(a, b) = \tfrac{a + b}{2}(1, 1) + \tfrac{a - b}{2}(1, -1)$ and $c(1, 1) + d(1, -1) = 0$ forces $c = d = 0$.
+The family $(1, 0), (0, 1), (1, 1)$ spans $\mathbb{R}^2$ but fails independence, because $(1, 0) + (0, 1) - (1, 1) = 0$.
+The family $(1, 0, 0), (0, 1, 0)$ is independent in $\mathbb{R}^3$ but fails spanning, because it misses $(0, 0, 1)$.
+
+The definition uses a family, not a set, so a repeated vector makes it dependent: $(v, v)$ is never a basis.
+The empty family is a basis of the zero space $\{0\}$, because it is independent and its span is $\{0\}$.
+[[Every vector space has a basis|00MS9VMQ9Z]], and the concept page on the [[basis|0KCQ9Y3QKA]] gives more examples and the main properties.
 
 ## Explanations
 
 ### L1 human
 
-A basis is a set of directions that is just right: enough to reach every vector, and none of them redundant.
+A basis is a set of directions that is just right: enough to reach every vector, and none of them a mix of the others.
+In the plane, "east" and "north" form a basis, and so do "east" and "north-east".
 Once we fix a basis, each vector gets a unique list of coordinates.
-A vector space has many bases, but all of them have the same number of vectors.
+
+### L2 human
+
+To test the definition, check the two conditions separately.
+For $(2, 1)$ and $(1, 1)$ in $\mathbb{R}^2$, the equation $c(2, 1) + d(1, 1) = (x, y)$ means $2c + d = x$ and $c + d = y$.
+Subtracting the two equations forces $c = x - y$, and then $d = 2y - x$, so the pair spans.
+Check: $(x - y)(2, 1) + (2y - x)(1, 1) = (2x - 2y + 2y - x, x - y + 2y - x) = (x, y)$.
+With $x = y = 0$ the only solution is $c = d = 0$, so the pair is also independent and is a basis.

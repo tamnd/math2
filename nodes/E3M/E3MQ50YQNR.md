@@ -18,30 +18,42 @@ sources:
 ## Example
 
 Let $S = \{(x, 1) : x \in \R\}$, the line $y = 1$ in $\R^2$.
-We try to form "$\R^2 / S$" with the rule $u \sim v$ when $u - v \in S$, and we check where it fails.
+We try to form "$\R^2 / S$" with the rule $u \sim v$ when $u - v \in S$, and we check where the attempt fails.
 
-1. $S$ is not a [[subspace|0EPTJA5QV4]], since $(0, 0) \notin S$.
-2. Reflexivity fails: $(0, 0) - (0, 0) = (0, 0) \notin S$, so $(0, 0) \not\sim (0, 0)$.
-3. Symmetry fails: $(0, 1) - (0, 0) = (0, 1) \in S$, so $(0, 1) \sim (0, 0)$, but $(0, 0) - (0, 1) = (0, -1) \notin S$.
-4. Transitivity fails: $(0, 2) \sim (0, 1)$ and $(0, 1) \sim (0, 0)$, but $(0, 2) - (0, 0) = (0, 2) \notin S$.
-5. So $\sim$ is not an equivalence relation, and there are no classes to form a [[quotient space|0SVR29SV1V]].
+1. The set $S$ is not a [[subspace|0EPTJA5QV4]], since $(0, 0) \notin S$.
+2. Reflexivity fails.
+   We have $(0, 0) - (0, 0) = (0, 0) \notin S$, so $(0, 0) \not\sim (0, 0)$.
+3. Symmetry fails.
+   We have $(0, 1) - (0, 0) = (0, 1) \in S$, so $(0, 1) \sim (0, 0)$.
+   But $(0, 0) - (0, 1) = (0, -1) \notin S$, so $(0, 0) \not\sim (0, 1)$.
+4. Transitivity fails.
+   We have $(0, 2) \sim (0, 1)$ and $(0, 1) \sim (0, 0)$, since both differences are $(0, 1) \in S$.
+   But $(0, 2) - (0, 0) = (0, 2) \notin S$.
+5. So $\sim$ is not an equivalence relation, and there are no classes from which to build a [[quotient space|0SVR29SV1V]].
 
 ## Remarks
 
-The translates $v + S$ do cover the plane by the horizontal lines $y = c$.
-But these are exactly the cosets of the subspace $L = \R(1, 0)$ parallel to $S$, so the meaningful quotient is $\R^2 / L$.
-The rule "$v + S = w + S$ if and only if $v - w \in S$" fails: $(0, 0) + S = (5, 0) + S$, while $(5, 0) - (0, 0) \notin S$.
-A second failure, for a set that contains $0$: with $T$ the union of the two axes, $(1, 0) \sim 0$ and $0 \sim (0, 1)$, but $(1, 0) - (0, 1) = (1, -1) \notin T$.
+The translates $v + S$ still cover the plane: they are the horizontal lines $y = c$.
+But these lines are exactly the cosets of the subspace $L = \R(1, 0)$, which is the line through $0$ parallel to $S$.
+So the meaningful quotient is $\R^2 / L$, which is isomorphic to $\R$.
+The rule "$v + S = w + S$ if and only if $v - w \in S$" fails for $S$.
+For example, $(0, 0) + S$ and $(5, 0) + S$ are both the line $y = 1$, while $(5, 0) - (0, 0) = (5, 0) \notin S$.
+
+Containing $0$ is not enough either.
+Let $T$ be the union of the two coordinate axes, which contains $0$ and is closed under scalars.
+Then $(1, 0) \sim (0, 0)$ and $(0, 0) \sim (0, -1)$, but $(1, 0) - (0, -1) = (1, 1) \notin T$, so transitivity fails because $T$ is not closed under addition.
 
 ## Explanations
 
 ### L1 human
 
-To divide by a set, the set must contain $0$ and be closed under the operations.
+To divide a space by a set, the set must contain the origin and be closed under adding and scaling.
 A line that misses the origin fails the first test.
+The fix is to divide by the parallel line through the origin instead.
 
 ### L2 human
 
 Each axiom of an equivalence relation matches one property of a subspace.
-Reflexivity needs $0 \in S$, symmetry needs $-S \subseteq S$, and transitivity needs $S + S \subseteq S$.
-The line $y = 1$ fails all three.
+Reflexivity needs $0 \in S$, symmetry needs $-s \in S$ for each $s \in S$, and transitivity needs $s + t \in S$ for all $s, t \in S$.
+The line $y = 1$ fails all three: $0 \notin S$, $-(0, 1) = (0, -1) \notin S$, and $(0, 1) + (0, 1) = (0, 2) \notin S$.
+So before forming any quotient, check first that you divide by a subspace.
