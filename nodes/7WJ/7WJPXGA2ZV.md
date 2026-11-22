@@ -19,7 +19,7 @@ sources:
 Define a sequence $(h_n)_{n \ge 0}$ of natural numbers by a [[recursive definition|AM4GQQMZ3C]]:
 $$h_0 = 0, \qquad h_{n+1} = 2 h_n + 1 \quad \text{for } n \ge 0.$$
 The base gives one value, and the rule uses only the value just before, so one start value is enough.
-By the recursion theorem, which the page on [[definition by recursion|0DSHAVH45F]] explains, exactly one sequence satisfies these two equations.
+By the recursion theorem, which underlies [[definition by recursion|0DSHAVH45F]], exactly one sequence satisfies these two equations.
 
 We compute the first terms from the rule and compare them with the powers of $2$.
 
