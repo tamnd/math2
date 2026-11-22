@@ -21,7 +21,7 @@ We compute a transpose and check the three linear rules of the transpose with nu
 
 1. By the [[definition|0W809K6AW0]], $(A^{\mathsf{T}})_{ij} = a_{ji}$, so
 $$A^{\mathsf{T}} = \begin{pmatrix} 1 & 4 \\ 2 & 5 \\ 3 & 6 \end{pmatrix},$$
-a $3 \times 2$ matrix. Row 2 of $A$, which is $(4, 5, 6)$, is column 2 of $A^{\mathsf{T}}$.
+a $3 \times 2$ matrix whose column 2 is row 2 of $A$, namely $(4, 5, 6)$.
 2. Transposing again turns the columns of $A^{\mathsf{T}}$ back into rows, so $(A^{\mathsf{T}})^{\mathsf{T}} = A$.
 3. The [[sum|0BVXADM10P]] is $A + B = \begin{pmatrix} 1 & 3 & 3 \\ 6 & 5 & 5 \end{pmatrix}$, so
 $$(A + B)^{\mathsf{T}} = \begin{pmatrix} 1 & 6 \\ 3 & 5 \\ 3 & 5 \end{pmatrix}.$$
