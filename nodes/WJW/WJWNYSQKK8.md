@@ -22,86 +22,120 @@ same_as:
 
 ## Summary
 
+Two square matrices are congruent when they describe the same bilinear form in two different bases.
+Congruence is to forms what [[similarity|0E89HQATM8]] is to linear maps: it is the relation that tells you when two matrices are "the same thing written differently".
 Let $F$ be a field.
-Two $n \times n$ matrices $A$ and $A'$ over $F$ are congruent when $A' = P^T A P$ for some [[invertible|0EB9N0S33C]] $n \times n$ matrix $P$ over $F$.
-The [[formal definition|NZJDNC6EP6]] states the same.
-Congruent matrices are the [[matrices|0QK6K857HS]] of one [[bilinear form|0SQZMXB6GP]] in two bases.
-Congruence matters because it is the right equivalence for forms, just as [[similarity|0E89HQATM8]] is the right equivalence for linear maps $V \to V$.
+Two $n \times n$ matrices $A$ and $A'$ over $F$ are *congruent* when
+$$A' = P^{\mathsf{T}} A P$$
+for some [[invertible|0EB9N0S33C]] $n \times n$ matrix $P$ over $F$, where $P^{\mathsf{T}}$ is the [[transpose|09DXWYRD43]] of $P$.
+The [[formal definition|NZJDNC6EP6]] states the same condition.
+By the [[change of basis rule|0SPYAGE7T0]], congruent matrices are exactly the [[matrices|0QK6K857HS]] of one [[bilinear form|0SQZMXB6GP]] in two bases.
 
 ## Motivation
 
-A form has a matrix in each basis, and these matrices differ.
-We want to know when two matrices describe the same form, so that we can choose the simplest one.
-The [[change of basis rule|0SPYAGE7T0]] answers this: the matrices of one form are exactly the matrices $P^T A P$.
-So the classification of forms is the classification of matrices up to congruence.
+A bilinear form has one matrix in each basis, and these matrices can look very different.
+The form $x_1 y_2 + x_2 y_1$ on $\mathbb{Q}^2$ has the matrix $\begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$ in the standard basis and the diagonal matrix $\operatorname{diag}(2, -2)$ in the basis $(1, 1), (1, -1)$.
+We want the simplest matrix of a given form, and we want to know when two matrices can never describe the same form.
+Both questions are about congruence.
+
+So the classification of bilinear forms is the classification of matrices up to congruence.
+The answer depends on the field, and that is where much of the theory lives.
+Over $\mathbb{R}$ it gives [[Sylvester's law of inertia|0WFED3K3DQ]], which the sub-area on quadratic forms proves, and for alternating matrices over any field it gives the [[classification of alternating forms|V8KKHKXXB3]].
 
 ## Notation
 
-- We write $A \cong A'$ or $A \sim_c A'$ when $A$ and $A'$ are congruent. Many books use no symbol.
-- Over $\C$ the name $*$-congruence or conjunctivity is used for $A' = P^* A P$ with the [[conjugate transpose|0DXKE10PHF]] $P^*$. It is the relation for [[sesquilinear forms|054YEQ0Y8M]] in the convention $h(x, y) = y^* A x$.
+Some books write $A \cong A'$ or $A \sim_c A'$, and many use no symbol at all.
+Over $\mathbb{C}$ the relation $A' = P^* A P$, with the [[conjugate transpose|0DXKE10PHF]] $P^*$, is called $*$-congruence or conjunctivity.
+It is the relation for [[sesquilinear forms|054YEQ0Y8M]] written in the physics convention $h(x, y) = x^* A y$.
+In the convention of these pages, $h(x, y) = x^{\mathsf{T}} M \overline{y}$, the matrix changes by $M \mapsto P^{\mathsf{T}} M \overline{P}$ instead.
 
 ## Remarks
 
-### Examples
+### Three worked congruences
 
-- $I_2$ and $\operatorname{diag}(4, 9)$ are congruent over $\Q$, with $P = \operatorname{diag}(2, 3)$, because $P^T I_2 P = P^2$.
-- $\begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$ and $\operatorname{diag}(2, -2)$ are congruent over $\Q$, with $P = \begin{pmatrix} 1 & 1 \\ 1 & -1 \end{pmatrix}$.
-- [[$\begin{pmatrix} 1 & 2 \\ 2 & 1 \end{pmatrix}$ and $\operatorname{diag}(1, -3)$ are congruent|57GZX8S4ES]], but their eigenvalues differ.
-- The matrices of a [[change of basis on $\Q^2$|2X09GT6SMD]] are congruent: $\begin{pmatrix} 1 & 2 \\ 0 & 3 \end{pmatrix}$ and $\begin{pmatrix} 6 & -4 \\ 0 & 2 \end{pmatrix}$.
-- Every alternating matrix is congruent to a block diagonal matrix of blocks $\begin{pmatrix} 0 & 1 \\ -1 & 0 \end{pmatrix}$ and zeros, by the [[classification of alternating forms|V8KKHKXXB3]].
+First, $I_2$ and $\operatorname{diag}(4, 9)$ are congruent over $\mathbb{Q}$.
+Take $P = \operatorname{diag}(2, 3)$:
+$$P^{\mathsf{T}} I_2 P = P^2 = \begin{pmatrix} 4 & 0 \\ 0 & 9 \end{pmatrix}.$$
+Stretching the axes by $2$ and $3$ multiplies the diagonal entries by the squares $4$ and $9$.
 
-### Non-examples
+Second, $A = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$ is congruent to $\operatorname{diag}(2, -2)$ over $\mathbb{Q}$, with $P = \begin{pmatrix} 1 & 1 \\ 1 & -1 \end{pmatrix}$:
+$$AP = \begin{pmatrix} 1 & -1 \\ 1 & 1 \end{pmatrix}, \qquad P^{\mathsf{T}} A P = \begin{pmatrix} 2 & 0 \\ 0 & -2 \end{pmatrix}.$$
 
-- $I_2$ and $-I_2$ are not congruent over $\R$: $x^T P^T P x = \norm{Px}^2 \ge 0$, but $x^T(-I_2)x < 0$ for $x \neq 0$.
-- [[$I_2$ and $\operatorname{diag}(1, 2)$ are not congruent over $\Q$|R4ZDJG99Q0]]: the ratio $2$ of their determinants is not a square in $\Q$.
-- A symmetric matrix and a nonsymmetric matrix are never congruent, because congruence keeps symmetry.
-- $\operatorname{diag}(1, 0)$ and $I_2$ are not congruent over any field, because congruence keeps the rank.
+Third, [[the matrices $\begin{pmatrix} 1 & 2 \\ 2 & 1 \end{pmatrix}$ and $\operatorname{diag}(1, -3)$ are congruent|57GZX8S4ES]] by one step of row and column reduction.
+For a form that is not symmetric, [[a change of basis on $\mathbb{Q}^2$|2X09GT6SMD]] turns $\begin{pmatrix} 1 & 2 \\ 0 & 3 \end{pmatrix}$ into $\begin{pmatrix} 6 & -4 \\ 0 & 2 \end{pmatrix}$.
 
-### Basic properties
+### What congruence keeps
 
-- [[Congruence is an equivalence relation, and it keeps rank and symmetry|D3E2Y85S6H]].
-- It also keeps skew-symmetry and the property $x^T A x = 0$ for all $x$.
-- It multiplies the determinant by the nonzero square $(\det P)^2$.
-- Over $\R$, the congruence class of a symmetric matrix is fixed by its rank and its [[signature|07EZA80NEH]], by [[Sylvester's law of inertia|0WFED3K3DQ]].
-- Over $\C$, the congruence class of a symmetric matrix is fixed by its rank alone, by the [[classification of complex quadratic forms|0CEX9BRXRZ]].
+[[Congruence is an equivalence relation, and it keeps the rank and the symmetry|D3E2Y85S6H]] of a matrix.
+The reasons are short.
+Multiplying by invertible matrices keeps the rank, and $(P^{\mathsf{T}} A P)^{\mathsf{T}} = P^{\mathsf{T}} A^{\mathsf{T}} P$, so $A^{\mathsf{T}} = \pm A$ gives $A'^{\mathsf{T}} = \pm A'$.
+The property $x^{\mathsf{T}} A x = 0$ for all $x$ survives too, because $x^{\mathsf{T}} A' x = (Px)^{\mathsf{T}} A (Px)$.
+The determinant is multiplied by the nonzero square $(\det P)^2$, so its square class in $F^\times / (F^\times)^2$ stays the same.
+
+For symmetric matrices the full list of invariants depends on the field.
+Over $\mathbb{C}$, the rank alone fixes the class, by the [[classification of complex quadratic forms|0CEX9BRXRZ]].
+Over $\mathbb{R}$, the rank and the [[signature|07EZA80NEH]] fix it, by Sylvester's law of inertia.
+
+### What it is not
+
+Over $\mathbb{R}$, $I_2$ and $-I_2$ are not congruent.
+For every $P$ and $x$ we have $x^{\mathsf{T}} P^{\mathsf{T}} I_2 P x = \lVert Px \rVert^2 \ge 0$, but $x^{\mathsf{T}} (-I_2) x = -\lVert x \rVert^2 < 0$ for $x \neq 0$.
+Over $\mathbb{C}$ the same two matrices are congruent, with $P = iI_2$, since $(iI_2)^{\mathsf{T}} I_2 (iI_2) = i^2 I_2 = -I_2$.
+
+Over $\mathbb{Q}$, [[$I_2$ and $\operatorname{diag}(1, 2)$ are not congruent|R4ZDJG99Q0]], since the ratio $2$ of their determinants is not a rational square.
+The matrices $\operatorname{diag}(1, 0)$ and $I_2$ are not congruent over any field, since their ranks differ.
+A symmetric matrix is never congruent to a matrix that is not symmetric, since congruence keeps symmetry.
+
+### Watch out
+
+Congruence is not similarity.
+Congruent matrices can have different eigenvalues, traces and determinants.
+In the second worked congruence, $A$ has eigenvalues $1$ and $-1$, but the congruent diagonal matrix has entries $2$ and $-2$.
+The two relations agree only for special $P$: when $P$ is orthogonal, $P^{\mathsf{T}} = P^{-1}$, and then $P^{\mathsf{T}} A P = P^{-1} A P$.
+
+A second trap is in characteristic $2$.
+Over $\mathbb{F}_2$, the symmetric matrix $A = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$ is not congruent to any diagonal matrix.
+It gives $x^{\mathsf{T}} A x = 2x_1 x_2 = 0$ for all $x$, and congruence keeps this property.
+A diagonal matrix $\operatorname{diag}(a, b)$ with the same property has $a = e_1^{\mathsf{T}} D e_1 = 0$ and $b = 0$, so its rank is $0$, not $2$.
 
 ### History
 
-Sylvester published the law of inertia, which classifies real symmetric matrices up to congruence, in 1852, according to the Wikipedia article on the law.
+Sylvester published his law of inertia in 1852.
+It says that when a real quadratic form is written as a sum of positive and negative squares, the numbers of each sign do not depend on the substitution used.
+In the language of matrices, together with diagonalization, it says that two real symmetric matrices are congruent exactly when they have the same rank and the same number of positive eigenvalues.
 
-### Common errors
+### Try it
 
-- Congruence is not similarity. Congruent matrices can have different eigenvalues, different traces and different determinants.
-- When $P$ is orthogonal, $P^T = P^{-1}$, so congruence by $P$ and similarity by $P$ agree. This special case does not hold for a general $P$.
-- Over $\Q$, the determinant changes by a square, so $\det A$ and $\det A'$ need not be equal. Only their square classes agree.
+First, show that $\operatorname{diag}(1, 1)$ and $\operatorname{diag}(1, 25)$ are congruent over $\mathbb{Q}$.
+Take $P = \operatorname{diag}(1, 5)$, so $P^{\mathsf{T}} I_2 P = \operatorname{diag}(1, 25)$.
+
+Second, are $\operatorname{diag}(1, -1)$ and $\operatorname{diag}(-1, -1)$ congruent over $\mathbb{R}$?
+No: the determinants $-1$ and $1$ have different signs, while congruence over $\mathbb{R}$ multiplies the determinant by a positive number.
 
 ## Explanations
 
 ### L1 human
 
-A form gives a square of numbers once we choose a basis.
-If we choose another basis, we get another square of numbers for the same form.
-We call two such squares congruent.
-For example, the identity square and the square with $4$ and $9$ on the diagonal are congruent: stretch the first axis by $2$ and the second by $3$.
+A bilinear form turns into a square table of numbers once we choose a basis.
+If we choose another basis, the same form gives another table.
+We call two such tables congruent.
+For example, the identity table and the table with $4$ and $9$ on its diagonal are congruent.
+To see why, stretch the first axis by $2$ and the second by $3$: each diagonal entry gets multiplied by a stretch factor twice.
 
 ### L2 human
 
-We show that $A = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$ is congruent to $\operatorname{diag}(2, -2)$ over $\Q$.
-
-1. Take $P = \begin{pmatrix} 1 & 1 \\ 1 & -1 \end{pmatrix}$, with $\det P = -2$, so $P$ is invertible.
-2. $AP = \begin{pmatrix} 1 & -1 \\ 1 & 1 \end{pmatrix}$.
-3. $P^T(AP) = \begin{pmatrix} 2 & 0 \\ 0 & -2 \end{pmatrix}$.
-4. So the form $x_1 y_2 + x_2 y_1$ becomes $2x'_1 y'_1 - 2x'_2 y'_2$ in the new basis $(1, 1), (1, -1)$.
-
-The typical use is to bring the matrix of a form into a simple normal form.
-A trap: the eigenvalues of $A$ are $1$ and $-1$, but the diagonal entries of the congruent matrix are $2$ and $-2$.
-Congruence does not keep eigenvalues.
+Here is a typical problem: is $A = \begin{pmatrix} 2 & 1 \\ 1 & 1 \end{pmatrix}$ congruent to $I_2$ over $\mathbb{Q}$?
+Look for a basis in which the form $x^{\mathsf{T}} A y$ has the identity matrix.
+Completing the square on $2x_1^2 + 2x_1 x_2 + x_2^2 = x_1^2 + (x_1 + x_2)^2$ suggests the new coordinates $x_1$ and $x_1 + x_2$, so the new basis is $b'_1 = (1, -1)$ and $b'_2 = (0, 1)$.
+With $P = \begin{pmatrix} 1 & 0 \\ -1 & 1 \end{pmatrix}$ we compute
+$$AP = \begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}, \qquad P^{\mathsf{T}} A P = \begin{pmatrix} 1 & -1 \\ 0 & 1 \end{pmatrix} \begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix} = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}.$$
+So the answer is yes.
+Check: $\det A = 1$ and $\det I_2 = 1$, and $\det P = 1$.
+The typical use of congruence is exactly this: bring a form to a simple normal form by a change of basis.
 
 ### L3 human
 
-Congruence is the orbit relation of the action $(P, A) \mapsto P^T A P$ of $GL_n(F)$ on $M_n(F)$.
-The stabilizer of a symmetric $A$ is the [[orthogonal group|0TKYAEJ8N7]] of the form, and the stabilizer of an alternating $A$ is a [[symplectic group|X12FS2JAP0]].
-For symmetric matrices the invariants of the orbits depend on the field.
-Over $\C$ the rank is enough, and over $\R$ we need the rank and the signature.
-Over a finite field of odd characteristic we need the rank and a discriminant.
-Over $\Q$ the classification needs the local invariants of the [[Hasse-Minkowski theorem|R8HCWA981S]].
+Congruence is the orbit relation of the action $P \cdot A = (P^{-1})^{\mathsf{T}} A P^{-1}$ of $GL_n(F)$ on $M_n(F)$.
+The stabilizer of a symmetric $A$ is the [[orthogonal group|0TKYAEJ8N7]] of its form, and the stabilizer of a nondegenerate alternating $A$ is a [[symplectic group|X12FS2JAP0]].
+For symmetric matrices over a finite field of odd characteristic, the rank and the square class of the determinant of the nondegenerate part fix the class.
+Over $\mathbb{Q}$ the classification needs the local invariants of the [[Hasse-Minkowski theorem|R8HCWA981S]].

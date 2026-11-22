@@ -15,42 +15,47 @@ sources:
 
 ## Proof
 
-Part 1 (the maps into the dual space).
+We prove part 1 by writing down the inverse map, and parts 2 to 4 by expanding vectors in the basis and using linearity in each slot.
 
-1. Fix $u \in V$. The map $L_B(u) = B(u, \cdot)$ is linear, by linearity of $B$ in the second slot. So $L_B(u) \in V^*$, by the definition of the [[dual space|0M856Q1AMZ]].
-2. For $u, u' \in V$, $a \in F$ and every $v$, linearity in the first slot gives $B(au + u', v) = aB(u, v) + B(u', v)$. So $L_B(au + u') = aL_B(u) + L_B(u')$, and $L_B$ is linear.
+Part 1, the maps into the dual space.
+
+1. Fix $u \in V$. The map $L_B(u) = B(u, \cdot)$ is linear, by linearity of $B$ in the second slot. So $L_B(u)$ lies in $V^*$, by the definition of the [[dual space|0M856Q1AMZ]].
+2. For $u, u' \in V$, $a \in F$ and every $v \in V$, linearity in the first slot gives $B(au + u', v) = a B(u, v) + B(u', v)$. So $L_B(au + u') = a L_B(u) + L_B(u')$, and $L_B$ is linear.
 3. The same two steps with the slots exchanged show that $R_B$ is a linear map $V \to V^*$.
-4. The map $B \mapsto L_B$ is linear, because $(aB + B')(u, v) = aB(u, v) + B'(u, v)$ for all $u, v$.
-5. Let $T \colon V \to V^*$ be linear, and define $B_T(u, v) = T(u)(v)$. It is linear in $v$ because $T(u) \in V^*$, and linear in $u$ because $T$ is linear.
-6. By the definitions, $L_{B_T}(u)(v) = T(u)(v)$ and $B_{L_B}(u, v) = L_B(u)(v) = B(u, v)$. So $T \mapsto B_T$ is the inverse of $B \mapsto L_B$, and part 1 holds.
+4. The map $B \mapsto L_B$ is linear, because $(aB + B')(u, v) = a B(u, v) + B'(u, v)$ for all $u, v$.
+5. Let $T \colon V \to V^*$ be linear, and define $B_T(u, v) = T(u)(v)$. It is linear in $v$ because $T(u)$ lies in $V^*$, and it is linear in $u$ because $T$ is linear.
+6. By the definitions, $L_{B_T}(u)(v) = T(u)(v)$ and $B_{L_B}(u, v) = L_B(u)(v) = B(u, v)$. So $T \mapsto B_T$ is a two-sided inverse of $B \mapsto L_B$, and part 1 holds.
 
-Part 2 (the formula $x^T A y$).
+Part 2, the formula $x^{\mathsf{T}} A y$.
 
 7. Write $u = \sum_i x_i e_i$ and $v = \sum_j y_j e_j$. Linearity in the first slot gives $B(u, v) = \sum_i x_i B(e_i, v)$.
 8. Linearity in the second slot gives $B(e_i, v) = \sum_j y_j B(e_i, e_j) = \sum_j A_{ij} y_j$, by the definition of the [[matrix of $B$|0P24YW565F]].
-9. So $B(u, v) = \sum_i \sum_j x_i A_{ij} y_j$, which is the matrix product $x^T A y$.
+9. Steps 7 and 8 combine to the double sum below, which is the matrix product $x^{\mathsf{T}} A y$:
+$$B(u, v) = \sum_{i = 1}^{n} \sum_{j = 1}^{n} x_i A_{ij} y_j.$$
 
-Part 3 (forms and matrices).
+Part 3, forms and matrices.
 
-10. The map $B \mapsto A$ is linear, because $(aB + B')(e_i, e_j) = aB(e_i, e_j) + B'(e_i, e_j)$.
-11. It is injective: if $A = 0$, then step 9 gives $B(u, v) = 0$ for all $u, v$.
-12. It is surjective: for $A \in M_n(F)$ the map $(u, v) \mapsto x^T A y$ is bilinear, because coordinates depend linearly on vectors and the matrix product is linear in each factor. Its value on $(e_i, e_j)$ is $A_{ij}$.
+10. The map $B \mapsto A$ is linear, because $(aB + B')(e_i, e_j) = a B(e_i, e_j) + B'(e_i, e_j)$.
+11. It is injective. If $A = 0$, then step 9 gives $B(u, v) = 0$ for all $u, v$, so $B = 0$.
+12. It is surjective. For $A \in M_n(F)$, the map $(u, v) \mapsto x^{\mathsf{T}} A y$ is bilinear, because coordinates depend linearly on vectors and the matrix product is linear in each factor. Its value on $(e_i, e_j)$ is $e_i^{\mathsf{T}} A e_j = A_{ij}$.
 
-Part 4 (the matrices of $L_B$ and $R_B$).
+Part 4, the matrices of $L_B$ and $R_B$.
 
-13. Each $\varphi \in V^*$ equals $\sum_i \varphi(e_i) e_i^*$, by the definition of the [[dual basis|0W6M3PSD08]]: both sides agree on each $e_k$.
-14. By step 13, $L_B(e_j) = \sum_i B(e_j, e_i) e_i^* = \sum_i A_{ji} e_i^*$.
-15. Column $j$ of the [[matrix of $L_B$|0YYMY95FWS]] holds the coordinates of $L_B(e_j)$. So its entry $(i, j)$ is $A_{ji}$, and the matrix is $A^T$.
-16. By step 13, $R_B(e_j) = \sum_i B(e_i, e_j) e_i^* = \sum_i A_{ij} e_i^*$. So the entry $(i, j)$ of the matrix of $R_B$ is $A_{ij}$, and the matrix is $A$.
+13. Each $\varphi \in V^*$ equals $\sum_i \varphi(e_i) e_i^*$, by the definition of the [[dual basis|0W6M3PSD08]], since both sides take the value $\varphi(e_k)$ at each $e_k$.
+14. Step 13 applied to $\varphi = L_B(e_j)$ gives $L_B(e_j) = \sum_i B(e_j, e_i) e_i^* = \sum_i A_{ji} e_i^*$.
+15. Column $j$ of the [[matrix of $L_B$|0YYMY95FWS]] holds the coordinates of $L_B(e_j)$. So its entry $(i, j)$ is $A_{ji}$, and the matrix is $A^{\mathsf{T}}$.
+16. Step 13 applied to $\varphi = R_B(e_j)$ gives $R_B(e_j) = \sum_i B(e_i, e_j) e_i^* = \sum_i A_{ij} e_i^*$. So the entry $(i, j)$ of the matrix of $R_B$ is $A_{ij}$, and the matrix is $A$.
 
-This proves all four parts.
+This proves all four parts of the statement.
 
 ## Idea
 
-A bilinear form is fixed by its values on basis pairs, because it is linear in each slot.
-Fixing one slot of the form gives a linear form, and this is the map into the dual space.
-The matrix of that map has the values $B(e_j, e_i)$ in column $j$, which is why a transpose appears.
+A bilinear form is fixed by its values on basis pairs, because it is linear in each slot, and that is all parts 2 and 3 say.
+Fixing one slot of the form leaves a linear form in the other slot, and this is the map into the dual space.
+The only surprise is the transpose in part 4.
+Column $j$ of the matrix of $L_B$ lists the values $B(e_j, e_i)$, which run along row $j$ of $A$, so rows of $A$ become columns.
 
 ## Variants
 
-Part 1 is the tensor-hom adjunction $\Hom(V \otimes V, F) \cong \Hom(V, V^*)$, and parts 2 and 3 follow from it with the basis $e_i^* \otimes e_j^*$ of $(V \otimes V)^*$.
+Part 1 is the tensor-hom adjunction $\operatorname{Hom}(V \otimes V, F) \cong \operatorname{Hom}(V, V^*)$, and parts 2 and 3 follow from it by writing a form in the basis $e_i^* \otimes e_j^*$ of $(V \otimes V)^*$.
+A second route to part 4 uses part 2 directly: $L_B(u)$ is the row vector $x^{\mathsf{T}} A$, and as a column of coordinates in the dual basis this is $A^{\mathsf{T}} x$.

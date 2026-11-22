@@ -17,6 +17,7 @@ sources:
 
 ## Proof
 
+We give each radical vector of $U$ an isotropic partner outside $U$, and its image a partner outside $W$, until both subspaces are nondegenerate and the reflection lemma applies.
 Let $\operatorname{char} F \neq 2$, and let $B$ be nondegenerate and [[symmetric|0AXZNE5XNH]] on $V$.
 For a subspace $X$, $X^\perp = \{v : B(x, v) = 0 \text{ for all } x \in X\}$, and $\operatorname{rad}(X) = X \cap X^\perp$ is the radical of $B$ on $X$.
 
@@ -55,5 +56,10 @@ Adding $s$ and $s'$ removes one dimension of the radical, and the nondegenerate 
 
 ## Variants
 
-One can also prove part 1 by induction on $\dim U$ alone, with reflections in each step.
-This is the usual proof in many books, and it needs extra care when $U$ is degenerate.
+You can unroll the induction and list all partners at once.
+For a basis $r_1, \dots, r_d$ of $\operatorname{rad}(U)$, it produces isotropic, pairwise orthogonal $s_1, \dots, s_d$, orthogonal to a complement of $\operatorname{rad}(U)$ in $U$, with $B(r_i, s_j) = 1$ if $i = j$ and $0$ otherwise.
+Then $U \oplus \operatorname{span}(s_1, \dots, s_d)$ is nondegenerate, and $\sigma$ extends to it by $s_i \mapsto s_i'$.
+Another route is an induction on $\dim U$ in the style of part 3 of the [[reflection lemma|43VKGAA2H7]].
+If $U$ contains an anisotropic vector, one or two reflections fix it and the problem moves to its orthogonal complement.
+If $U$ is totally isotropic, that move is not available, and one first enlarges $U$ to a sum of hyperbolic planes as above.
+The induction on $d$ treats both cases with one argument.
