@@ -26,12 +26,12 @@ Let $q$ be a prime power, let $\mathbb{F}_q$ be the [[finite field|0ZXZ82FTX2]] 
 Let $G = GL_n(\mathbb{F}_q)$ be the [[general linear group|0FCHE902D7]], and let $c_n(q)$ be the number of its [[conjugacy classes|0DEBXAJ5SA]].
 Let $\Phi$ be the set of monic irreducible polynomials in $\mathbb{F}_q[x]$ other than $x$.
 
-1. Two matrices in $G$ are conjugate in $G$ if and only if they have the same [[invariant factors|F7GJPMVBXA]]. So the conjugacy classes of $G$ correspond bijectively to the [[rational canonical forms|042JWAR3Q0]] $C(d_1) \oplus \cdots \oplus C(d_r)$ with $d_1 \mid \cdots \mid d_r$ monic and nonconstant, $\sum_i \deg d_i = n$, and $d_r(0) \ne 0$.
+1. Two matrices in $G$ are conjugate in $G$ if and only if they have the same [[invariant factors|F7GJPMVBXA]]. So the conjugacy classes of $G$ correspond bijectively to the [[rational canonical forms|042JWAR3Q0]] $C(d_1) \oplus \cdots \oplus C(d_r)$ of size $n$ with $d_r(0) \ne 0$.
 2. Equivalently, the classes correspond bijectively to the maps $f \mapsto \lambda(f)$ that assign to each $f \in \Phi$ an [[integer partition|0JV30XN73Z]] $\lambda(f)$, possibly empty, with $\sum_{f \in \Phi} \deg f \cdot |\lambda(f)| = n$.
 3. As formal power series in $u$, with $c_0(q) = 1$,
 $$\sum_{n \ge 0} c_n(q)\, u^n = \prod_{k \ge 1} \frac{1 - u^k}{1 - q u^k}.$$
 In particular $c_1 = q - 1$, $c_2 = q^2 - 1$, $c_3 = q^3 - q$ and $c_4 = q^4 - q$.
-4. For $n = 2$, the $q^2 - 1$ classes are of four types, with the centralizer orders and class sizes below.
+4. For $n = 2$, the $q^2 - 1$ classes are of the four types in the table.
 
 | type | representative | number of classes | centralizer order | class size |
 |---|---|---|---|---|
@@ -40,7 +40,7 @@ In particular $c_1 = q - 1$, $c_2 = q^2 - 1$, $c_3 = q^3 - q$ and $c_4 = q^4 - q
 | two eigenvalues in $\mathbb{F}_q$ | $\operatorname{diag}(a, b)$, $a \ne b$, $ab \ne 0$ | $(q - 1)(q - 2)/2$ | $(q - 1)^2$ | $q(q + 1)$ |
 | no eigenvalue in $\mathbb{F}_q$ | $C(f)$, $f$ irreducible of degree $2$ | $(q^2 - q)/2$ | $q^2 - 1$ | $q(q - 1)$ |
 
-The class sizes add up to $|G| = (q^2 - 1)(q^2 - q)$, as the [[class equation|08BPSC6YTE]] requires.
+The class sizes add up to $|G|$, as the [[class equation|08BPSC6YTE]] requires.
 
 ## Remarks
 

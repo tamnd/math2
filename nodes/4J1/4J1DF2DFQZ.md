@@ -16,7 +16,7 @@ sources:
 
 We view $F^n$ as a module over $F[x]$, split it into cyclic pieces, and count the module maps between each pair of pieces.
 
-Let $V = F^n$ with the [[F[x]-module structure|KGVTFBZX59]] $f \cdot v = f(A) v$.
+Let $V = F^n$ with the [[module structure over the polynomial ring|KGVTFBZX59]] $f \cdot v = f(A) v$.
 For a monic nonconstant $a \in F[x]$, write $\bar f$ for the class of $f$ in $F[x]/(a)$.
 
 *Part 1.*

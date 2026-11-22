@@ -42,7 +42,7 @@ The same subspaces appear in numerical linear algebra as [[Krylov subspaces|QB45
 ## Notation
 
 Hoffman and Kunze write $Z(v; T)$ and $p_v$, and other books write $\langle v \rangle_T$, $F[T] v$ or $\mathcal{C}_v$.
-In the language of modules, $Z(v; T)$ is the cyclic submodule $F[x] \cdot v$ of the [[$F[x]$-module of $T$|KGVTFBZX59]].
+In the language of modules, $Z(v; T)$ is the cyclic submodule $F[x] \cdot v$ of the [[module over the polynomial ring|KGVTFBZX59]] defined by $T$.
 A cyclic map is also called *nonderogatory*, and some books call a cyclic matrix *regular*.
 The word "cyclic" refers to the single generator, as in a cyclic group, and a cyclic map need not satisfy $T^k = I$ for any $k$.
 

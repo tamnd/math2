@@ -31,6 +31,9 @@ The last pages look at the Weyr form, the matrices that commute with a given one
 7. [[Similarity via the characteristic matrix|92VZF0QRM8]]: a way to compute the invariant factors by the Smith normal form of $xI - A$, with no roots needed.
 8. [[Similarity does not depend on the field|5PVFX89NM7]]: why two rational matrices that are similar over the complex numbers are already similar over the rationals.
 9. [[A matrix is similar to its transpose|C708QKZPE6]]: a first application of the invariant factors, with an explicit symmetric matrix that does the job.
+
+### Reading order, continued: the Jordan form and beyond
+
 10. [[Jordan block|07PH4RX0X5]]: the building block of the Jordan form, its powers and its polynomials, and the convention with ones above the diagonal.
 11. [[Normal form of nilpotent endomorphisms|Z2RTKWZZAZ]]: how a nilpotent map breaks into chains, and how the ranks of its powers fix the chain lengths.
 12. [[Jordan normal form|085HQ5G5TE]]: the existence and uniqueness of the form when the characteristic polynomial splits, and what goes wrong when it does not.

@@ -21,7 +21,7 @@ We turn $V$ into a module over $F[x]$, apply the structure theorem for modules o
 
 *Existence.*
 
-1. Let $V_T$ be the [[$F[x]$-module of $T$|KGVTFBZX59]], in which $f \cdot v = f(T) v$.
+1. Let $V_T$ be the [[module over the polynomial ring|KGVTFBZX59]] defined by $T$, in which $f \cdot v = f(T) v$.
    By the [[dictionary between modules and operators|R5X8SNHBGG]], $V_T$ is finitely generated and torsion.
 2. The ring $F[x]$ is a [[Euclidean domain|0CHS7RBD39]], so it is a [[principal ideal domain|0QKVE1GD9A]].
 3. The invariant factor form of the [[structure theorem over a principal ideal domain|TXMV0YDACG]] gives $s \ge 0$, nonzero non-units $d_1 \mid \cdots \mid d_r$ of $F[x]$, and a module isomorphism

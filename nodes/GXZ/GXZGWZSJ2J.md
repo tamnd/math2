@@ -80,7 +80,7 @@ The value $5$ is right: a direct computation of the commuting matrices finds fiv
 
 ### Generalizations
 
-In the language of an [[endomorphism as an F[x]-module|KGVTFBZX59]], $\mathcal{C}(A)$ is the ring of module endomorphisms of $F^n$ with $x$ acting as $A$.
+In the language of an [[endomorphism as a module over the polynomial ring|KGVTFBZX59]], $\mathcal{C}(A)$ is the ring of module endomorphisms of $F^n$ with $x$ acting as $A$.
 The count works for any finitely generated torsion module over a principal ideal domain $R$, because $\operatorname{Hom}_R(R/(a), R/(b))$ is isomorphic to $R/(\gcd(a, b))$.
 
 When $\chi_A$ splits over $F$, let $\lambda^{(\mu)}$ be the partition of the Jordan block sizes at the eigenvalue $\mu$.

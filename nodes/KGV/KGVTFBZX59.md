@@ -62,7 +62,7 @@ In each case the module is a direct sum of quotients $F[x]/(f)$, and this is the
 
 ### What is not such a module
 
-The [[module $F[x]$ itself|TTDW9TYCZ7]] is not $V_T$ for any finite-dimensional $V$.
+The [[polynomial ring as a module over itself|TTDW9TYCZ7]] is not $V_T$ for any finite-dimensional $V$.
 It has infinite dimension over $F$, and no nonzero polynomial kills it, while $V_T$ is killed by the minimal polynomial of $T$.
 A module over $F[x, y]$ of finite dimension over $F$ is not the module of one endomorphism either: it is a space with two commuting endomorphisms, the actions of $x$ and of $y$.
 

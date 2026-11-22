@@ -20,7 +20,7 @@ sources:
 
 Invariant subspaces are submodules, and two matrices are similar exactly when their polynomial modules are isomorphic.
 Let $F$ be a field, let $V$ and $W$ be finite-dimensional vector spaces over $F$, and let $T \colon V \to V$ and $S \colon W \to W$ be linear.
-Let $V_T$ and $W_S$ be the [[$F[x]$-modules of $T$ and $S$|KGVTFBZX59]].
+Let $V_T$ and $W_S$ be the [[modules over the polynomial ring|KGVTFBZX59]] defined by $T$ and $S$.
 
 1. $V_T$ is an $F[x]$-module, it is [[finitely generated|05QY1VEBYD]], and it is torsion: the [[minimal polynomial|03NDVCSHSB]] $m_T$ kills every element.
 2. A subset $U \subseteq V$ is a [[submodule|05WDSN597C]] of $V_T$ if and only if $U$ is a [[$T$-invariant subspace|0ACX5QT8TE]].
