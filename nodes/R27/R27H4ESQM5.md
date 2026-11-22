@@ -14,6 +14,8 @@ sources:
 
 ## Proof
 
+We put $A$, $U$, $V$ and $-C^{-1}$ into one block matrix whose two Schur complements are $-K$ and $A + UCV$, and compare the two block formulas for its inverse.
+
 **Part 1.**
 
 1. Form the $(n + k) \times (n + k)$ [[block matrix|01AXG9KZQF]] $N = \begin{pmatrix} A & U \\ V & -C^{-1} \end{pmatrix}$.
@@ -33,10 +35,13 @@ sources:
 
 ## Idea
 
-Put $A$, $U$, $V$ and $-C^{-1}$ into one block matrix.
-Its two Schur complements are $-K$ and $A + UCV$.
-The two block inverse formulas compute the same upper left block of the inverse, and comparing them gives the identity.
+A block matrix has two Schur complements, one for each diagonal block, and the block inverse formula expresses its inverse through either one.
+Choose the blocks so that one complement is $A + UCV$ and the other is, up to sign, the small matrix $K$.
+The sign $-C^{-1}$ in the corner is what makes the second complement $A + UCV$ rather than $A - UCV$.
+Both formulas compute the same upper left block of the inverse, and setting them equal gives the identity.
+The invertibility criterion comes for free, because each complement is invertible exactly when the big matrix is.
 
 ## Variants
 
 The [[proof by multiplication|F8405FREC2]] is shorter, but it only checks a formula that one must already know.
+The same block matrix with $k = 1$ also gives the [[matrix determinant lemma|0BC3Q6K92H]], by computing $\det N$ through both complements.
