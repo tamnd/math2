@@ -38,7 +38,7 @@ Powers, exponentials and limits of a diagonal matrix are easy, because each entr
 
 This is why eigenvalues appear wherever a linear rule is applied again and again.
 They give the growth rate of a linear recurrence such as the Fibonacci numbers, the frequencies of a vibrating system of springs, and the long-run state of a Markov chain.
-In this sub-area the eigenvalues lead to the characteristic and minimal polynomials, and the sub-area on [[diagonalization|Z6S6PWMJPH]] uses them to simplify matrices.
+Eigenvalues lead to the characteristic and minimal polynomials, and the sub-area on [[diagonalization|Z6S6PWMJPH]] uses them to simplify matrices.
 
 ## Notation
 
