@@ -2,7 +2,7 @@
 tag: 0W4FSW1TVB
 kind: statement
 role: theorem
-name: Rank–nullity theorem
+name: Rank-nullity theorem
 aliases: [dimension-theorem-for-linear-maps]
 msc: ["15A03", "15A04"]
 topics: [9080WQTZ3M]
@@ -30,44 +30,54 @@ same_as:
 
 ## Statement
 
-Let $F$ be a field, let $V$ be a [[finite-dimensional|018W3V3TCT]] vector space over $F$, and let $W$ be a vector space over $F$.
-Let $T \colon V \to W$ be a [[linear map|0RJF668P1T]].
+Each dimension of the source of a linear map either survives in the image or is lost in the kernel, so the two dimensions add up to the dimension of the source.
+
+Let $F$ be a field, let $V$ be a [[finite-dimensional|018W3V3TCT]] vector space over $F$, let $W$ be a vector space over $F$, and let $T \colon V \to W$ be a [[linear map|0RJF668P1T]].
 Then $\im T$ and $\ker T$ are finite-dimensional, and
 $$\dim \im T + \dim \ker T = \dim V.$$
 That is, $\rank T + \operatorname{nullity} T = \dim V$, with the [[rank|0JGB7A6GTS]] and the [[nullity|00K4FK4NBH]] of $T$.
 
 ## Remarks
 
-### Why each hypothesis is needed
+### Why the hypotheses are needed
 
-- $V$ must be finite-dimensional for the equation of numbers. $W$ may have any dimension, since only the image matters.
-- The two sides involve $\dim V$, not $\dim W$. For the inclusion $\R \to \R^2$, rank plus nullity is $1 + 0 = 1 = \dim \R$, but $\dim \R^2 = 2$.
-- Linearity is needed. The map $x \mapsto x^3 - x$ on $\R$ has the zero set $\{-1, 0, 1\}$ and image $\R$. For non-linear maps, the zero set and the image are not subspaces and have no such relation.
+The source $V$ must be finite-dimensional for an equation of numbers, while $W$ may have any dimension, since only the image matters.
+The right side is $\dim V$, not $\dim W$.
+For the inclusion $\R \to \R^2$, rank plus nullity is $1 + 0 = 1 = \dim \R$, while $\dim \R^2 = 2$.
+Linearity is needed as well.
+The map $x \mapsto x^3 - x$ on $\R$ has zero set $\{-1, 0, 1\}$ and image $\R$, and neither the zero set nor the image of a non-linear map need be a subspace.
 
-### Consequences
+### What it gives you
 
-- If $\dim V > \dim W$, then $T$ is not injective. So a homogeneous system with more unknowns than equations has a nonzero solution.
-- If $\dim V < \dim W$, then $T$ is not surjective.
-- If $\dim V = \dim W$ is finite, then $T$ is injective if and only if it is surjective, by the [[theorem on endomorphisms|0912EEEVCT]].
-- For an $m \times n$ matrix $A$, $\rank A + \dim \operatorname{Nul} A = n$, the [[rank-nullity theorem for matrices|TR48YQGCCA]].
-- For a linear form $f \ne 0$ on $V$, the kernel is a hyperplane: $\dim \ker f = \dim V - 1$.
+If $\dim V > \dim W$, then $T$ is not injective, so a homogeneous system with more unknowns than equations has a nonzero solution.
+If $\dim V < \dim W$, then $T$ is not surjective.
+If $\dim V = \dim W$ is finite, then $T$ is injective exactly when it is surjective, by the [[theorem on endomorphisms|0912EEEVCT]].
+For an $m \times n$ matrix $A$, the [[rank-nullity theorem for matrices|TR48YQGCCA]] reads $\rank A + \dim \operatorname{Nul} A = n$.
+For a nonzero linear form $f$ on $V$, the image is $F$, so the kernel is a hyperplane with $\dim \ker f = \dim V - 1$.
 
-### Converse
+### The converse
 
-For given $n = \dim V$ and $r \le \min(n, \dim W)$, there is a linear map of rank $r$ and nullity $n - r$.
+Every split allowed by the theorem occurs.
+For $n = \dim V$ and each $r \le \min(n, \dim W)$, there is a linear map of rank $r$ and nullity $n - r$.
 Send $r$ basis vectors of $V$ to independent vectors of $W$ and the others to $0$, by the [[theorem on bases|0R8X9XA83A]].
+
+### Infinite dimension
+
+For any linear map $T \colon V \to W$, there is a subspace $U$ with $V = \ker T \oplus U$ and $U \cong \im T$.
+So $\dim V = \dim \ker T + \dim \im T$ holds as an equation of cardinals.
+In this form the equation cannot be solved for one term.
+The [[right shift|N1G1WQW59J]] on sequences has nullity $0$, and its image has the same infinite dimension as the whole space, but the shift is not surjective.
 
 ### Generalizations
 
-- Infinite-dimensional form. For any vector spaces $V$ and $W$ and a linear map $T \colon V \to W$, there is a subspace $U$ with $V = \ker T \oplus U$ and $U \cong \im T$. So $\dim V = \dim \ker T + \dim \im T$ as cardinal numbers.
-- In the infinite case the equation cannot be solved for one term. The [[right shift|N1G1WQW59J]] on sequences has nullity $0$ and image of the same infinite dimension as $V$, but it is not surjective.
-- The [[first isomorphism theorem|0MTBGVZ4XJ]] $V / \ker T \cong \im T$ is the form of the theorem without dimensions.
-- For an exact sequence $0 \to V_1 \to \dots \to V_k \to 0$ of finite-dimensional spaces, the alternating sum of the dimensions is $0$. Rank-nullity is the case of $0 \to \ker T \to V \to \im T \to 0$.
-- Mathlib states the theorem for modules over a division ring, which is more general than a field.
+The [[first isomorphism theorem|0MTBGVZ4XJ]] $V / \ker T \cong \im T$ is the form of the theorem without dimensions.
+For an exact sequence $0 \to V_1 \to \dots \to V_k \to 0$ of finite-dimensional spaces, the alternating sum of the dimensions is $0$.
+Rank-nullity is the case of the sequence $0 \to \ker T \to V \to \im T \to 0$.
+Mathlib states the theorem for modules over a division ring, which covers every field.
 
 ## History
 
-The matrix form is part of the 19th-century theory of linear systems: the number of free unknowns is $n$ minus the rank.
+The matrix form belongs to the 19th-century theory of linear systems, where the number of free unknowns is $n$ minus the rank.
 Sylvester's law of nullity of 1884 is a related statement about the nullity of a product of matrices.
 
 ## Explanations
@@ -81,16 +91,16 @@ A map from $\R^5$ to $\R^3$ has rank at most $3$, so its kernel has dimension at
 ### L2 human
 
 The theorem is a counting tool.
-For the map $T \colon \R^4 \to \R^2$ with matrix $\begin{pmatrix} 1 & 0 & 1 & 0 \\ 0 & 1 & 0 & 1 \end{pmatrix}$:
+Take the map $T \colon \R^4 \to \R^2$ with matrix $\begin{pmatrix} 1 & 0 & 1 & 0 \\ 0 & 1 & 0 & 1 \end{pmatrix}$.
 
 1. The first two columns are $e_1$ and $e_2$, so the image is $\R^2$ and the rank is $2$.
 2. Rank-nullity gives nullity $4 - 2 = 2$, without solving any system.
 3. Check: $(1, 0, -1, 0)$ and $(0, 1, 0, -1)$ are independent vectors in the kernel.
 
-The trap is to use $\dim W$ in place of $\dim V$.
+Watch out: the formula uses $\dim V$, the dimension of the source, not $\dim W$.
 
 ### L3 human
 
-Rank-nullity is the statement that every short exact sequence of vector spaces splits.
+Rank-nullity follows from the fact that every short exact sequence of vector spaces splits.
 For modules over a ring, sequences need not split, but additive invariants such as length still satisfy the same equation for modules of finite length.
-Over a field, the theorem is equivalent to the [[dimension formula for quotients|0SXDQ6TN00]], via the first isomorphism theorem.
+Over a field, the theorem is equivalent to the [[dimension formula for quotients|0SXDQ6TN00]], through the first isomorphism theorem.

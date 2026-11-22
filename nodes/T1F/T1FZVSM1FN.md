@@ -18,22 +18,24 @@ sources:
 
 ## Example
 
+Two maps that can be undone can add up to a map that cannot, so the invertible maps are not a subspace.
 Let $F$ be a field, let $V \ne \{0\}$ be a vector space over $F$, and let $GL(V)$ be the set of [[linear isomorphisms|0XSJ25Z9M4]] $V \to V$.
 We show that $GL(V)$ is not a [[subspace|0EPTJA5QV4]] of $\End(V) = \Hom(V, V)$.
 
 1. The identity $\id_V$ is invertible, with inverse $\id_V$.
 2. The map $-\id_V$, $v \mapsto -v$, is invertible, with inverse $-\id_V$.
 3. Their sum in the [[space of linear maps|0VPCJWGMP9]] is $\id_V + (-\id_V) = 0$, the zero map.
-4. Take $v \ne 0$ in $V$. Then $0(v) = 0 = 0(0)$, so the zero map is not injective and not invertible.
+4. Take $v \ne 0$ in $V$; then $0(v) = 0 = 0(0)$, so the zero map is not injective and not invertible.
 5. So $GL(V)$ is not closed under addition, and it does not contain the zero vector.
-6. Numerical check in $\R^2$: $\begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix} + \begin{pmatrix} -1 & 0 \\ 0 & -1 \end{pmatrix} = \begin{pmatrix} 0 & 0 \\ 0 & 0 \end{pmatrix}$, with determinant $0$.
+
+Check in $\R^2$: $\begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix} + \begin{pmatrix} -1 & 0 \\ 0 & -1 \end{pmatrix} = \begin{pmatrix} 0 & 0 \\ 0 & 0 \end{pmatrix}$, which has determinant $0$.
 
 ## Remarks
 
-- $GL(V)$ is a group under composition, not a vector space under addition.
-- The sum of two invertible maps can be invertible: $\id + \id = 2\id$ is invertible when $2 \ne 0$ in $F$.
-- For $V = \{0\}$, the only map is $0 = \id_V$, which is invertible. So the hypothesis $V \ne \{0\}$ is needed.
-- In characteristic $2$, $-\id_V = \id_V$, and step 3 reads $\id_V + \id_V = 0$.
+The set $GL(V)$ is a group under composition, not a vector space under addition.
+The sum of two invertible maps can be invertible, as $\id + \id = 2\,\id$ shows when $2 \ne 0$ in $F$.
+For $V = \{0\}$ the only map is $0 = \id_V$, which is invertible, so the hypothesis $V \ne \{0\}$ is needed.
+In characteristic $2$ we have $-\id_V = \id_V$, and step 3 reads $\id_V + \id_V = 0$.
 
 ## Explanations
 
@@ -47,4 +49,4 @@ So the invertible maps are not closed under addition.
 
 To test whether a set of linear maps is a subspace of $\Hom(V, W)$, first check whether it contains the zero map.
 The invertible maps fail this test at once, since the zero map is not invertible for $V \ne \{0\}$.
-The trap is to think that a "nice" set of maps is a subspace; invertibility is not preserved by sums.
+Watch out: a set of maps with a good property need not be a subspace, and invertibility is not kept by sums.

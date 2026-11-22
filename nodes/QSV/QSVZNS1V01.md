@@ -16,21 +16,25 @@ sources:
 
 ## Example
 
-Let $F$ be a field and let $\tau \colon M_{m \times n}(F) \to M_{n \times m}(F)$ be the [[transpose|09DXWYRD43]], $\tau(A) = A^{\mathsf T}$.
-The $(i, j)$ entry of $A^{\mathsf T}$ is the $(j, i)$ entry of $A$.
+Turning rows into columns respects sums and scalar multiples and can be undone, so it is an isomorphism defined without any basis.
+Let $F$ be a field and let $\tau \colon M_{m \times n}(F) \to M_{n \times m}(F)$ be the [[transpose|09DXWYRD43]], $\tau(A) = A^{\mathsf T}$, whose $(i, j)$ entry is the $(j, i)$ entry of $A$.
 
-1. Linearity. The $(i, j)$ entry of $(A + B)^{\mathsf T}$ is $a_{ji} + b_{ji}$, and of $(cA)^{\mathsf T}$ it is $c\,a_{ji}$.
+1. The map is linear: the $(i, j)$ entry of $(A + B)^{\mathsf T}$ is $a_{ji} + b_{ji}$, and that of $(cA)^{\mathsf T}$ is $c\,a_{ji}$.
 2. Transposing twice gives back the matrix: $(A^{\mathsf T})^{\mathsf T} = A$.
 3. So the transpose $M_{n \times m}(F) \to M_{m \times n}(F)$ is a two-sided inverse of $\tau$, and $\tau$ is bijective.
 4. So $\tau$ is a [[linear isomorphism|0XSJ25Z9M4]], and $M_{m \times n}(F) \cong M_{n \times m}(F)$.
-5. Numerical check with $m = 2$, $n = 3$: $\begin{pmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \end{pmatrix}^{\mathsf T} = \begin{pmatrix} 1 & 4 \\ 2 & 5 \\ 3 & 6 \end{pmatrix}$.
+
+Check with $m = 2$ and $n = 3$:
+$$\begin{pmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \end{pmatrix}^{\mathsf T} = \begin{pmatrix} 1 & 4 \\ 2 & 5 \\ 3 & 6 \end{pmatrix}.$$
 
 ## Remarks
 
-- Both spaces have dimension $mn$, as the classification by dimension requires.
-- Unlike the coordinate map of a polynomial space, the transpose needs no choice of basis.
-- For $m = n$, the transpose is an automorphism of $M_n(F)$ as a vector space. It is not an automorphism of the ring $M_n(F)$ for $n \ge 2$, since $(AB)^{\mathsf T} = B^{\mathsf T} A^{\mathsf T}$.
-- The inverse of $\tau$ is linear, as the [[lemma on inverses|E08G7CVKPK]] predicts; here it is again a transpose.
+Both spaces have dimension $mn$, as the classification by dimension requires.
+Unlike the coordinate map of a polynomial space, the transpose needs no choice of basis.
+Its inverse is linear, as the [[lemma on inverses|E08G7CVKPK]] predicts, and here the inverse is again a transpose.
+
+For $m = n$, the transpose is an automorphism of $M_n(F)$ as a vector space.
+It is not an automorphism of the ring $M_n(F)$ for $n \ge 2$, since $(AB)^{\mathsf T} = B^{\mathsf T} A^{\mathsf T}$ reverses the order of products.
 
 ## Explanations
 
@@ -42,5 +46,5 @@ So the space of $2 \times 3$ matrices and the space of $3 \times 2$ matrices are
 
 ### L2 human
 
-The transpose is a natural isomorphism: it is defined without bases.
-The trap is to think that it respects products; it reverses their order.
+The transpose is a natural isomorphism, in the sense that it is defined without bases.
+Watch out: it does not respect products, since it reverses their order.

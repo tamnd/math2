@@ -17,26 +17,28 @@ sources:
 
 ## Counterexample
 
-Let $F$ be a field and let $V$ be the [[space of all sequences|XYTN19EPF2]] $x = (x_0, x_1, x_2, \dots)$ with $x_i \in F$.
-Addition and scalar multiplication act term by term.
-Define the right shift $R$ and the left shift $L$, two [[shift operators|MBK6AE6734]] on $V$:
+In infinite dimension a linear map from a space to itself can be one to one without being onto, and onto without being one to one.
+Let $F$ be a field and let $V$ be the [[space of all sequences|XYTN19EPF2]] $x = (x_0, x_1, x_2, \dots)$ with $x_i \in F$, with addition and scalar multiplication term by term.
+Define the right shift $R$ and the left shift $L$, two [[shift operators|MBK6AE6734]] on $V$, by
 $$R(x_0, x_1, x_2, \dots) = (0, x_0, x_1, \dots), \qquad L(x_0, x_1, x_2, \dots) = (x_1, x_2, x_3, \dots).$$
 
-1. Both maps are [[linear|0RJF668P1T]]. For $n \ge 1$, the term $n$ of $R(ax + y)$ is $a x_{n-1} + y_{n-1}$, and term $0$ is $0$. These are the terms of $aR(x) + R(y)$. The check for $L$ is the same.
-2. $R$ is [[injective|0PVG1CRAJN]]. If $R(x) = 0$, then $x_i = 0$ for each $i \ge 0$, so $x = 0$.
-3. $R$ is not [[surjective|0XKH881BZ7]]. Each sequence in the image of $R$ starts with $0$, so $(1, 0, 0, \dots)$ is not in the image.
-4. $L$ is surjective. For each $y$, the sequence $x = (0, y_0, y_1, \dots)$ satisfies $L(x) = y$.
-5. $L$ is not injective. $L(1, 0, 0, \dots) = (0, 0, 0, \dots)$, so $\ker L \ne \{0\}$.
-6. $L \circ R = \id_V$, since $L(R(x)) = L(0, x_0, x_1, \dots) = x$.
-7. $R \circ L \ne \id_V$, since $R(L(1, 0, 0, \dots)) = (0, 0, 0, \dots)$.
+1. Both maps are [[linear|0RJF668P1T]]: for $n \ge 1$, term $n$ of $R(ax + y)$ is $a x_{n-1} + y_{n-1}$ and term $0$ is $0$, which are the terms of $aR(x) + R(y)$, and the check for $L$ is the same.
+2. The map $R$ is [[injective|0PVG1CRAJN]], since $R(x) = 0$ forces $x_i = 0$ for each $i \ge 0$.
+3. The map $R$ is not [[surjective|0XKH881BZ7]], since each sequence in its image starts with $0$, so $(1, 0, 0, \dots)$ is not in the image.
+4. The map $L$ is surjective, since for each $y$ the sequence $x = (0, y_0, y_1, \dots)$ satisfies $L(x) = y$.
+5. The map $L$ is not injective, since $L(1, 0, 0, \dots) = (0, 0, 0, \dots)$, so $\ker L \ne \{0\}$.
+6. We have $L \circ R = \id_V$, since $L(R(x)) = L(0, x_0, x_1, \dots) = x$.
+7. But $R \circ L \ne \id_V$, since $R(L(1, 0, 0, \dots)) = (0, 0, 0, \dots)$.
 8. So neither $R$ nor $L$ is a [[linear isomorphism|0XSJ25Z9M4]] of $V$.
 
 ## Remarks
 
-- In a finite-dimensional space, an injective or surjective endomorphism is bijective, by the [[theorem on endomorphisms|0912EEEVCT]]. The shift maps show that finite dimension is needed.
-- Step 6 gives a left inverse that is not a right inverse. In finite dimension, $ST = \id$ forces $TS = \id$.
-- The same maps work on $F[x]$, viewed as the sequences with finitely many nonzero terms. There $R$ is multiplication by $x$.
-- On the Hilbert space $\ell^2$ of square-summable sequences, $R$ is an isometry. Its Fredholm index is $-1$, and the index of $L$ is $1$.
+In a finite-dimensional space, an injective or surjective endomorphism is bijective, by the [[theorem on endomorphisms|0912EEEVCT]], so the shift maps show that finite dimension is needed.
+Step 6 gives a left inverse that is not a right inverse, while in finite dimension $ST = \id$ forces $TS = \id$.
+
+The same maps work on $F[x]$, viewed as the sequences with finitely many nonzero terms, and there $R$ is multiplication by $x$.
+On the Hilbert space $\ell^2$ of square-summable sequences, $R$ is an isometry.
+Its Fredholm index is $0 - 1 = -1$, and the index of $L$ is $1 - 0 = 1$.
 
 ## Explanations
 
@@ -52,4 +54,4 @@ This cannot happen in a finite-dimensional space.
 The left shift drops the first term, so it reaches every sequence but forgets $x_0$.
 Shifting right and then left gives back the sequence.
 Shifting left and then right replaces $x_0$ by $0$.
-The trap is to use "injective implies bijective" for endomorphisms without checking that the dimension is finite.
+Watch out: "injective implies bijective" for endomorphisms needs finite dimension.

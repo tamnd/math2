@@ -16,21 +16,26 @@ sources:
 
 ## Example
 
-Let $R \colon \R^2 \to \R^2$ be the [[rotation|0HFREYRSZP]] by $90°$ counterclockwise:
-$$R(x, y) = (-y,\ x), \qquad A = \begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}.$$
+A quarter turn sends the plane to itself, so it can be repeated, and four quarter turns bring every vector back.
+Let $R \colon \R^2 \to \R^2$ be the [[rotation|0HFREYRSZP]] by $90°$ counterclockwise,
+$$R(x, y) = (-y, \; x), \qquad A = \begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}.$$
 
-1. $R$ is [[linear|0RJF668P1T]], since $R(v) = Av$ for each $v \in \R^2$.
-2. The domain and the codomain of $R$ are both $\R^2$. So $R$ is an [[endomorphism|0PTF1PTJK0]] of $\R^2$.
-3. $R^2(x, y) = R(-y, x) = (-x,\ -y)$. So $R^2 = -\id$.
-4. $R^4 = (R^2)^2 = (-\id)^2 = \id$.
+1. The map $R$ is [[linear|0RJF668P1T]], since $R(v) = Av$ for each $v \in \R^2$.
+2. The source and the target of $R$ are both $\R^2$, so $R$ is an [[endomorphism|0PTF1PTJK0]] of $\R^2$.
+3. We have $R^2(x, y) = R(-y, x) = (-x, \; -y)$, so $R^2 = -\id$.
+4. Then $R^4 = (R^2)^2 = (-\id)^2 = \id$.
 5. So $R \circ R^3 = R^3 \circ R = \id$, and $R$ is an automorphism with inverse $R^3$, the rotation by $-90°$.
-6. Numerical check: $R(1, 0) = (0, 1)$, $R(0, 1) = (-1, 0)$, $R(-1, 0) = (0, -1)$, $R(0, -1) = (1, 0)$.
+
+Check: $R(1, 0) = (0, 1)$, $R(0, 1) = (-1, 0)$, $R(-1, 0) = (0, -1)$ and $R(0, -1) = (1, 0)$, so four steps return $(1, 0)$ to itself.
 
 ## Remarks
 
-- $R$ has no real eigenvalue. If $R(v) = \lambda v$ with $v \ne 0$, then $-v = R^2(v) = \lambda^2 v$, so $\lambda^2 = -1$.
-- Over $\C$, the same matrix has the eigenvalues $i$ and $-i$.
-- The rotation by an angle $\theta$ has matrix $\begin{pmatrix} \cos \theta & -\sin \theta \\ \sin \theta & \cos \theta \end{pmatrix}$. It satisfies $R_\theta^k = \id$ for some $k \ge 1$ exactly when $\theta / 2\pi$ is rational.
+The map $R$ has no real eigenvalue.
+If $R(v) = \lambda v$ with $v \ne 0$, then $-v = R^2(v) = \lambda^2 v$, so $\lambda^2 = -1$, which has no real solution.
+Over $\C$, the same matrix has the eigenvalues $i$ and $-i$.
+
+If we change the angle to $\theta$, the rotation has matrix $\begin{pmatrix} \cos \theta & -\sin \theta \\ \sin \theta & \cos \theta \end{pmatrix}$.
+It satisfies $R_\theta^k = \id$ for some $k \ge 1$ exactly when $\theta / 2\pi$ is rational.
 
 ## Explanations
 
@@ -43,5 +48,5 @@ Four quarter turns bring each vector back, so the turn can be undone.
 ### L2 human
 
 Because $R$ maps $\R^2$ to itself, its powers make sense: $R^2$ is the half turn $-\id$, and $R^4 = \id$.
-The equation $R^4 = \id$ shows directly that $R$ is invertible.
-The trap is to look for a real eigenvector; no line through the origin is fixed by a quarter turn.
+The equation $R^4 = \id$ shows directly that $R$ is invertible, with inverse $R^3$.
+Watch out: there is no real eigenvector, since no line through the origin is sent to itself by a quarter turn.

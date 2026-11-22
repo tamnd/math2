@@ -17,33 +17,37 @@ sources:
 
 ## Proof
 
-Part 1: we check the three conditions in the [[definition of a subspace|0EPTJA5QV4]].
+We check the subspace conditions for part 1, prove two inclusions for part 2, and apply part 2 to the standard basis for part 3.
 
-1. By the [[lemma on zero|STYEWH8R4E]], $0 = T(0)$. So $0 \in \im T$.
-2. Let $w_1, w_2 \in \im T$. Then $w_1 = T(v_1)$ and $w_2 = T(v_2)$ for some $v_1, v_2 \in V$.
-3. Additivity gives $w_1 + w_2 = T(v_1 + v_2)$. So $w_1 + w_2 \in \im T$.
-4. Let $a \in F$. Homogeneity gives $a w_1 = T(a v_1)$. So $a w_1 \in \im T$.
+Part 1 uses the three conditions in the [[definition of a subspace|0EPTJA5QV4]].
+
+1. By the [[lemma on zero|STYEWH8R4E]], $0 = T(0)$, so $0 \in \im T$.
+2. Let $w_1, w_2 \in \im T$, so that $w_1 = T(v_1)$ and $w_2 = T(v_2)$ for some $v_1, v_2 \in V$.
+3. Additivity gives $w_1 + w_2 = T(v_1) + T(v_2) = T(v_1 + v_2)$, so $w_1 + w_2 \in \im T$.
+4. Let $a \in F$; homogeneity gives $a w_1 = a\,T(v_1) = T(a v_1)$, so $a w_1 \in \im T$.
 5. Steps 1, 3 and 4 show that $\im T$ is a subspace of $W$.
 
-Part 2: we show both inclusions.
+Part 2 shows that $\operatorname{span} T(S)$ and $\im T$ contain each other.
 
-6. Each $T(s)$ with $s \in S$ is in $\im T$. By part 1, $\im T$ is a subspace, so it contains the [[span|0HR573CHNM]] of $T(S)$.
-7. Let $w \in \im T$, so $w = T(v)$ for some $v \in V$.
-8. $S$ spans $V$, so $v = a_1 s_1 + \dots + a_k s_k$ for some $s_i \in S$ and $a_i \in F$.
-9. Part 3 of the [[lemma on linear combinations|STYEWH8R4E]] gives $w = a_1 T(s_1) + \dots + a_k T(s_k)$. So $w \in \operatorname{span} T(S)$.
+6. Each $T(s)$ with $s \in S$ lies in $\im T$, and $\im T$ is a subspace by part 1, so it contains the [[span|0HR573CHNM]] of $T(S)$.
+7. Conversely, let $w \in \im T$, so that $w = T(v)$ for some $v \in V$.
+8. Since $S$ [[spans|0BJKVF90Z6]] $V$, we can write $v = a_1 s_1 + \dots + a_k s_k$ with $s_i \in S$ and $a_i \in F$.
+9. The [[lemma on linear combinations|STYEWH8R4E]] gives $w = a_1 T(s_1) + \dots + a_k T(s_k)$, so $w \in \operatorname{span} T(S)$.
 10. Steps 6 and 9 give $\im T = \operatorname{span} T(S)$.
 
-Part 3.
+Part 3 is the case of a matrix map.
 
-11. Let $T(x) = Ax$. The standard basis $e_1, \dots, e_n$ spans $F^n$, and $A e_j$ is the $j$-th column of $A$, by the [[matrix–vector product|0CCQV3884B]].
-12. By part 2, $\im T$ is the span of the columns of $A$, which is the [[column space|0F0RPPJ2TT]].
+11. Let $T(x) = Ax$; the standard basis $e_1, \dots, e_n$ spans $F^n$, and $A e_j$ is the $j$-th column of $A$, by the [[matrix-vector product|0CCQV3884B]].
+12. By part 2, $\im T$ is the span of the columns of $A$, which is the [[column space|0F0RPPJ2TT]] of $A$.
 
 ## Idea
 
-Sums and multiples of outputs are outputs of sums and multiples, so the outputs form a subspace.
-Every input is a combination of the spanning set, so every output is the same combination of the images.
+A sum or multiple of outputs is the output of the corresponding sum or multiple of inputs, so the outputs form a subspace.
+Every input is a combination of the spanning set, and linearity turns it into the same combination of the images.
+For a matrix, the images of the standard basis vectors are the columns.
 
 ## Variants
 
-- Part 1 in one step: $a T(v_1) + T(v_2) = T(a v_1 + v_2)$, so the image is closed under the single operation $(w_1, w_2) \mapsto a w_1 + w_2$.
-- Part 3 also follows from the formula $Ax = x_1 c_1 + \dots + x_n c_n$, where $c_j$ are the columns of $A$.
+Part 1 can be done in one step: $a\,T(v_1) + T(v_2) = T(a v_1 + v_2)$, so the image is closed under $(w_1, w_2) \mapsto a w_1 + w_2$, and it contains $0$.
+Part 3 also follows from the formula $Ax = x_1 c_1 + \dots + x_n c_n$, where $c_1, \dots, c_n$ are the columns of $A$.
+The same proof shows that $T(U)$ is a subspace for every subspace $U$ of $V$, by replacing $V$ with $U$.

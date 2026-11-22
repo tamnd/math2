@@ -16,20 +16,25 @@ sources:
 
 ## Example
 
+A quadratic polynomial is fixed by its three coefficients, so computing with quadratics is the same as computing with triples.
 Let $F$ be a field and let $P_2$ be the [[space of polynomials of degree at most 2|0JGZCDT5DN]] over $F$.
 Let $T \colon P_2 \to F^3$ be $T(a + bx + cx^2) = (a, b, c)$, the list of coefficients.
 
-1. Linearity. The coefficients of $p + q$ are the sums of the coefficients of $p$ and $q$. The coefficients of $kp$ are $k$ times those of $p$.
-2. Injectivity. $T(p) = (0, 0, 0)$ means $a = b = c = 0$, so $p = 0$. The kernel is $\{0\}$.
-3. Surjectivity. Each $(a, b, c) \in F^3$ is $T(a + bx + cx^2)$.
-4. So $T$ is a [[linear isomorphism|0XSJ25Z9M4]], and $P_2 \cong F^3$. Its inverse is $(a, b, c) \mapsto a + bx + cx^2$.
-5. Numerical check: $(1 + 2x) + (3 - x + x^2) = 4 + x + x^2$, and $(1, 2, 0) + (3, -1, 1) = (4, 1, 1)$.
+1. The map is [[linear|0RJF668P1T]]: the coefficients of $p + q$ are the sums of the coefficients of $p$ and $q$, and the coefficients of $kp$ are $k$ times those of $p$.
+2. It is injective: $T(p) = (0, 0, 0)$ means $a = b = c = 0$, so $p = 0$ and the kernel is $\{0\}$.
+3. It is surjective: each $(a, b, c) \in F^3$ is $T(a + bx + cx^2)$.
+4. So $T$ is a [[linear isomorphism|0XSJ25Z9M4]], and $P_2 \cong F^3$, with inverse $(a, b, c) \mapsto a + bx + cx^2$.
+
+Check with numbers: $(1 + 2x) + (3 - x + x^2) = 4 + x + x^2$, and $(1, 2, 0) + (3, -1, 1) = (4, 1, 1)$.
 
 ## Remarks
 
-- $T$ is the coordinate map for the basis $1, x, x^2$. Another basis, such as $1, 1 + x, (1 + x)^2$, gives a different isomorphism $P_2 \to F^3$.
-- For the basis $1, 1 + x, (1 + x)^2$, the polynomial $x$ has coordinates $(-1, 1, 0)$, not $(0, 1, 0)$. So the isomorphism depends on the basis.
-- Through $T$, the derivative on $P_2$ becomes a $3 \times 3$ matrix acting on $F^3$.
+The map $T$ is the coordinate map for the basis $1, x, x^2$, and another basis gives a different isomorphism $P_2 \to F^3$.
+For the basis $1, \; 1 + x, \; (1 + x)^2$, the polynomial $x = -1 + (1 + x)$ has coordinates $(-1, 1, 0)$, not $(0, 1, 0)$.
+So the isomorphism depends on the basis.
+
+Through $T$, the derivative on $P_2$ becomes a $3 \times 3$ matrix acting on $F^3$.
+It sends $(a, b, c)$ to $(b, 2c, 0)$, the coefficients of $b + 2cx$.
 
 ## Explanations
 
@@ -42,5 +47,7 @@ So computing with quadratic polynomials is the same as computing with triples of
 ### L2 human
 
 This isomorphism lets matrix methods work on polynomials.
-For example, to test if $1 + x$, $x + x^2$ and $1 + x^2$ are independent, test the triples $(1, 1, 0)$, $(0, 1, 1)$, $(1, 0, 1)$ instead.
-The trap is to forget that the isomorphism comes from a chosen basis; a different basis gives different triples.
+To test whether $1 + x$, $x + x^2$ and $1 + x^2$ are independent over $\R$, test the triples $(1, 1, 0)$, $(0, 1, 1)$ and $(1, 0, 1)$ instead.
+The matrix with these rows has determinant $1 \cdot (1 - 0) - 1 \cdot (0 - 1) + 0 = 2 \ne 0$, so the polynomials are independent over $\R$.
+Over a field with $1 + 1 = 0$ the determinant is $0$, and indeed the three polynomials add up to $2 + 2x + 2x^2 = 0$ there.
+Watch out: the triples come from a chosen basis, and a different basis gives different triples.

@@ -19,36 +19,40 @@ sources:
 
 ## Statement
 
+If a linear map can be undone, then the map that undoes it is linear too.
+
 Let $F$ be a field, let $V$ and $W$ be vector spaces over $F$, and let $T \colon V \to W$ be a [[linear isomorphism|0XSJ25Z9M4]].
-Then the [[inverse function|0W766JAPSN]] $T^{-1} \colon W \to V$ is linear.
-So $T^{-1}$ is again a linear isomorphism.
+Then the [[inverse function|0W766JAPSN]] $T^{-1} \colon W \to V$ is linear, so $T^{-1}$ is again a linear isomorphism.
 
 ## Remarks
 
-### Why each hypothesis is needed
+### Why the hypotheses are needed
 
-- Bijectivity is needed for $T^{-1}$ to exist as a function on all of $W$.
-- Linearity of $T$ is needed. The bijection $x \mapsto x^3$ of $\R$ has the inverse $x \mapsto \sqrt[3]{x}$, which is not linear.
+Bijectivity is needed for $T^{-1}$ to exist as a function on all of $W$.
+Linearity of $T$ is needed as well.
+The bijection $x \mapsto x^3$ of $\R$ has the inverse $x \mapsto \sqrt[3]{x}$, which is not linear, since $\sqrt[3]{8} = 2$ while $8 \sqrt[3]{1} = 8$.
 
-### Consequences
+### What it gives you
 
-- The relation $V \cong W$ is symmetric, so $\cong$ is an equivalence relation.
-- The automorphisms of $V$ form a group $GL(V)$ under composition.
-- For an invertible matrix $A$, the map $x \mapsto A^{-1}x$ is the inverse of $x \mapsto Ax$.
+The relation $V \cong W$ is symmetric, so $\cong$ is an equivalence relation.
+The automorphisms of $V$ form a group $GL(V)$ under composition, since inverses stay inside.
+For an invertible matrix $A$, the map $x \mapsto A^{-1}x$ is the inverse of $x \mapsto Ax$.
+To show that an inverse is linear, it is enough to know that it exists, without finding a formula.
 
-### Converse
+### The converse
 
 If $T$ is a bijection and $T^{-1}$ is linear, then $T$ is linear, by the lemma applied to $T^{-1}$.
 
 ### Generalizations
 
-- The same holds for bijective homomorphisms of groups, rings and modules.
-- It fails for continuous maps: a continuous bijection can have a discontinuous inverse. For Banach spaces, the bounded inverse theorem restores it for continuous linear bijections.
+The same holds for bijective homomorphisms of groups, rings and modules, with the same proof.
+It fails for continuous maps, since a continuous bijection can have a discontinuous inverse.
+For Banach spaces, the bounded inverse theorem says that a continuous linear bijection does have a continuous inverse.
 
 ## History
 
 The lemma is part of the abstract theory of linear maps begun by Peano in 1888.
-For matrices, it is the statement that the inverse of an invertible linear substitution is again linear, known to Cayley in 1858.
+For matrices, the inverse of an invertible matrix already appears in Cayley's memoir of 1858.
 
 ## Explanations
 
@@ -59,9 +63,9 @@ So the inverse of a rotation is a rotation, and the inverse of a shear is a shea
 
 ### L2 human
 
-Let $T(x, y) = (x + y,\ y)$ on $\R^2$, a shear.
+Let $T(x, y) = (x + y, \; y)$ on $\R^2$, a shear.
 
-1. Solving $T(x, y) = (u, v)$ gives $y = v$ and $x = u - v$. So $T^{-1}(u, v) = (u - v,\ v)$.
+1. Solving $T(x, y) = (u, v)$ gives $y = v$ and $x = u - v$, so $T^{-1}(u, v) = (u - v, \; v)$.
 2. This formula is linear, as the lemma predicts.
 3. Check: $T(T^{-1}(3, 1)) = T(2, 1) = (3, 1)$.
 
