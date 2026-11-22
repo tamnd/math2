@@ -16,27 +16,31 @@ sources:
 
 False claim: for every natural number $n$, the number $n^2 + n$ is odd.
 Here is a "proof" with a correct induction step and no base case.
-It is an instance of the first [[error in induction proofs|V52HDTMPV5]]: the missing base case.
+It is an instance of the first [[error in induction proofs|V52HDTMPV5]], the missing base case.
 
 1. Let $P(n)$ be the statement "$n^2 + n$ is odd".
-2. Step: let $n \in \mathbb{N}$ and assume $P(n)$, so $n^2 + n = 2m + 1$ for some integer $m$.
-3. We expand: $(n + 1)^2 + (n + 1) = n^2 + 2n + 1 + n + 1 = (n^2 + n) + 2(n + 1)$.
-4. By step 2, this is $2m + 1 + 2(n + 1) = 2(m + n + 1) + 1$, which is odd. So $P(n + 1)$ holds.
-5. "By induction", $P(n)$ holds for every $n$.
+2. Step.
+   Let $n$ be a natural number, and assume $P(n)$, so that $n^2 + n = 2m + 1$ for some integer $m$.
+3. Expand the next value and use the hypothesis:
+   $$(n + 1)^2 + (n + 1) = (n^2 + n) + 2(n + 1) = 2m + 1 + 2(n + 1) = 2(m + n + 1) + 1.$$
+   This is odd, so $P(n + 1)$ holds.
+4. "By induction", $P(n)$ holds for every $n$.
 
-We check each part.
-
-1. The step (steps 2 to 4) is correct: each line follows from the previous one by algebra or by the assumption $P(n)$.
-2. The base case is missing. We test it: $0^2 + 0 = 0$, which is even. So $P(0)$ is false.
-3. The claim is false for every $n$. We have $n^2 + n = n(n + 1)$, and one of the two consecutive integers $n$ and $n + 1$ is even, so the product is even.
-4. So the step proves "if $P(n)$, then $P(n + 1)$" about statements that are all false. An implication with a false premise is true, and it gives no information.
+Now we check each part.
+The step in steps 2 and 3 is correct, since each equality is algebra or the assumption $P(n)$.
+The base case is missing, and when we test it, $0^2 + 0 = 0$ is even, so $P(0)$ is false.
+In fact the claim is false for every $n$: we have $n^2 + n = n(n + 1)$, one of the consecutive integers $n$ and $n + 1$ is even, and so the product is even.
+So the step proves "if $P(n)$, then $P(n + 1)$" about statements that are all false, and an implication with a false premise is true but gives no information.
 
 ## Remarks
 
-1. The example shows that the step of [[mathematical induction|0ASJVEFA9J]] alone proves nothing. The step and the base case are both needed.
-2. The same step proves "if $n^2 + n$ is even, then $(n + 1)^2 + (n + 1)$ is even", and this time the base case $0^2 + 0 = 0$ holds. So induction proves the true claim "$n^2 + n$ is even for every $n$".
-3. If the claim changes to "$n^2 + n + 1$ is odd", then the base case holds ($0 + 0 + 1 = 1$) and the same step works. So that claim is true.
-4. The step shows that $n^2 + n$ and $(n + 1)^2 + (n + 1)$ have the same parity. Together with one value, this fixes the parity of all values; without a value, it fixes nothing.
+The step of [[mathematical induction|0ASJVEFA9J]] alone proves nothing, and the example makes that concrete.
+What the step does show is that $n^2 + n$ and $(n + 1)^2 + (n + 1)$ have the same parity.
+Together with one known value this fixes the parity of all values, and without a value it fixes nothing.
+
+Change the claim and the same step becomes a proof.
+For "$n^2 + n$ is even", the step works word for word with "even" in place of "odd", and the base case $0^2 + 0 = 0$ holds, so induction proves it.
+For "$n^2 + n + 1$ is odd", the base case is $0 + 0 + 1 = 1$, the same step works, and that claim is true as well.
 
 ## Explanations
 
@@ -49,13 +53,9 @@ In fact $0 \cdot 0 + 0 = 0$ is even, and $1 \cdot 1 + 1 = 2$ is even, so the cla
 
 ### L2 human
 
-We test the claim and the step on small values.
+We test the claim on small values: $0^2 + 0 = 0$, $1^2 + 1 = 2$, $2^2 + 2 = 6$ and $3^2 + 3 = 12$.
+All four values are even.
+The step says that if one value is odd, then the next value is odd, and it never applies, because no value is odd.
 
-1. $n = 0$: $0^2 + 0 = 0$, even.
-2. $n = 1$: $1 + 1 = 2$, even.
-3. $n = 2$: $4 + 2 = 6$, even.
-4. $n = 3$: $9 + 3 = 12$, even.
-5. The step says: if one value is odd, the next is odd. It never applies, because no value is odd.
-
-The typical lesson: before writing the step, prove the base case, because it is often where a false claim fails.
-A trap is to think that a correct step makes the claim "almost proved": here the claim is false for every $n$.
+The lesson is to prove the base case before you write the step, because the base case is often where a false claim fails.
+Watch out for the feeling that a correct step makes a claim "almost proved": here the step is correct and the claim is false for every $n$.

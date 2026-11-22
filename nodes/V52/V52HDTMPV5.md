@@ -19,9 +19,10 @@ sources:
 ## Summary
 
 An induction proof can look complete and still prove nothing, because one of its parts holds only on paper.
-Here is a short example.
-"Claim: $1 + 2 + \cdots + n = \tfrac{n(n+1)}{2} + 1$ for every $n \ge 1$. Step: if it holds for $n$, add $n + 1$ to both sides to get $\tfrac{(n+1)(n+2)}{2} + 1$."
-The step is correct algebra, but the base case is false, since $1 \ne 2$, and so is the claim.
+Take the claim $1 + 2 + \cdots + n = \tfrac{n(n+1)}{2} + 1$ for every $n \ge 1$.
+If it holds for $n$, add $n + 1$ to both sides:
+$$\frac{n(n+1)}{2} + 1 + (n + 1) = \frac{(n+1)(n+2)}{2} + 1.$$
+That step is correct algebra, but the base case is false, since $1 \ne 2$, and so is the claim.
 
 An *error in an induction proof* is a gap of this kind: a part of the proof that the principle of [[mathematical induction|0ASJVEFA9J]] needs and the argument does not establish.
 A valid proof of "$P(n)$ for every $n \ge n_0$" proves $P(n_0)$, and proves the step for every $n \ge n_0$ using only the cases that the method allows.
@@ -94,15 +95,17 @@ So check the parts in this order.
 
 The errors are errors of the proof, not of the claim: a proof of the true claim $2^n \ge n^2$ for $n \ge 4$ without a base case is still wrong.
 
-### History and Try it
+### History
 
 The horses argument, the best known false induction, is credited to George Pólya.
+
+### Try it
 
 First, what is wrong with "$n! > 2^n$ for $n \ge 1$: $(n + 1)! = (n + 1)\, n! > (n + 1) 2^n \ge 2^{n+1}$"?
 The step is valid for $n \ge 1$, but the base case fails, since $1! = 1 < 2$; the claim holds from $n = 4$ on, where $24 > 16$, and fails at $n = 3$, where $6 < 8$.
 
-Second, a student proves $P(n)$ for $n \ge 2$ with a step from $n - 1$ to $n$ that divides by $n - 2$; which value needs its own check?
-The step is used at $n = 3$ first, where $n - 2 = 1$, so it is fine there, but if the step starts at $n = 2$ it divides by $0$, and $P(2)$ needs its own proof.
+Second, a strong induction for $P(n)$, $n \ge 0$, has a step that derives $P(n)$ from $P(n - 1)$ and $P(n - 3)$; which base cases does it need?
+The step makes sense only when $n - 3 \ge 0$, that is, for $n \ge 3$, so $P(0)$, $P(1)$ and $P(2)$ must all be proved as base cases.
 
 ## Explanations
 
