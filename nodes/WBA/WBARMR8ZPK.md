@@ -83,5 +83,5 @@ The bound on the number of eigenvalues then comes from the bound on the number o
 
 Part 2 has a proof without determinants.
 Eigenvectors for distinct eigenvalues are [[linearly independent|0HNMFG8F8K]], and an independent list in $V$ has at most $n$ vectors, so there are at most $n$ distinct eigenvalues.
-Many textbooks skip step 5 for matrices and simply put $t = \lambda$ into $\det(tI - A)$.
+Many textbooks skip step 5 for matrices and just substitute $t = \lambda$ into $\det(tI - A)$.
 That move is correct, but its justification is that evaluation at $\lambda$ is a ring homomorphism $F[t] \to F$, which commutes with the Leibniz formula.

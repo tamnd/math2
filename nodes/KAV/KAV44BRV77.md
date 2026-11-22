@@ -69,7 +69,8 @@ So part 1 cannot be improved to "an invariant line" without the odd dimension of
 ### Generalizations
 
 Over a general field $F$, the same proof gives an invariant subspace of dimension at most $d$, where $d$ is the degree of an irreducible factor of a polynomial that kills a nonzero vector.
-Over a real closed field the statement holds as it stands, because such a field shares the two facts that the proof uses: polynomials split into factors of degree $1$ and $2$, and a polynomial of odd degree has a root.
+Over a real closed field the statement holds as it stands.
+Such a field shares the two facts that the proof uses: polynomials split into factors of degree $1$ and $2$, and a polynomial of odd degree has a root.
 
 ## History
 

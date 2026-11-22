@@ -69,4 +69,5 @@ The one point to check is that the block rule for determinants holds over the po
 
 Part 1 can be proved without matrices, by defining $p_T$ as the determinant of $t - T$ on $F[t] \otimes_F V$, a definition that uses no basis.
 Part 2 also follows from the Leibniz formula.
-A permutation that sends some index of the second block to a column of the first block picks an entry of the zero block, so only permutations that keep each block survive, and these split into a permutation of each block.
+A permutation that sends some index of the second block to a column of the first block picks an entry of the zero block, so its term is $0$.
+The permutations that survive keep each block, and each of them splits into a permutation of the first block and a permutation of the second.
