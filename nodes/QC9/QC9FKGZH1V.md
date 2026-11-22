@@ -12,7 +12,7 @@ sources:
   - url: https://en.wikipedia.org/wiki/Mathematical_induction
     locator: Forward-backward induction
   - url: https://en.wikipedia.org/wiki/AM%E2%80%93GM_inequality
-    locator: Proof by Cauchy using forward-backward induction
+    locator: Proof by Cauchy using forward–backward induction
 ---
 
 ## Summary
