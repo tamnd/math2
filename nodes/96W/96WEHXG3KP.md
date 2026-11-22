@@ -18,16 +18,18 @@ sources:
 Let $Q(x, y) = x^2 + xy + y^2$ over $\mathbb{Q}$.
 We compute its [[discriminant|MZFRXECCMC]] in the convention of quadratic forms over fields, and we compare it with the number-theory discriminant $b^2 - 4ac$.
 
-1. The matrix. By [[the correspondence theorem|VN9AG8JKYT]], the cross term $xy$ is split evenly between the two off-diagonal entries, so
-$$A = \begin{pmatrix} 1 & \tfrac12 \\ \tfrac12 & 1 \end{pmatrix}.$$
-Check: $x^{\mathsf{T}} A x = x^2 + \tfrac12 xy + \tfrac12 yx + y^2 = x^2 + xy + y^2$.
-2. The determinant. We get $\det A = 1 \cdot 1 - \tfrac12 \cdot \tfrac12 = \tfrac34$.
-3. The square class. Since $\tfrac34 = 3 \cdot \left( \tfrac12 \right)^2$, the discriminant of $Q$ is the class of $3$ in $\mathbb{Q}^\times / \mathbb{Q}^{\times 2}$.
-4. The number-theory discriminant. The [[binary form|SBDSYA037Q]] $a x^2 + b xy + c y^2$ has discriminant $b^2 - 4ac$, and here $a = b = c = 1$, so $b^2 - 4ac = 1 - 4 = -3$.
-5. The relation. The general identity $\det A = ac - b^2/4 = -\tfrac14 (b^2 - 4ac)$ gives $-4 \det A = b^2 - 4ac$. Here $-4 \cdot \tfrac34 = -3$, as it should be.
-6. A diagonal form. Completing the square gives
-$$Q = \left( x + \frac{y}{2} \right)^2 + 3 \left( \frac{y}{2} \right)^2,$$
-so with $X = x + y/2$ and $Y = y/2$ the form is $X^2 + 3Y^2$. Its determinant is $3$, the same class as in step 3.
+1. The matrix: by [[the correspondence theorem|VN9AG8JKYT]], the cross term $xy$ is split evenly between the two off-diagonal entries, so
+   $$A = \begin{pmatrix} 1 & \tfrac12 \\ \tfrac12 & 1 \end{pmatrix}.$$
+   Check: $\begin{pmatrix} x & y \end{pmatrix} A \begin{pmatrix} x \\ y \end{pmatrix} = x^2 + \tfrac12 xy + \tfrac12 yx + y^2 = x^2 + xy + y^2$.
+2. The determinant: $\det A = 1 \cdot 1 - \tfrac12 \cdot \tfrac12 = \tfrac34$.
+3. The square class: since $\tfrac34 = 3 \cdot \left( \tfrac12 \right)^2$, the discriminant of $Q$ is the class of $3$ in $\mathbb{Q}^\times / \mathbb{Q}^{\times 2}$.
+4. The number-theory discriminant: the [[binary form|SBDSYA037Q]] $a x^2 + b xy + c y^2$ has discriminant $b^2 - 4ac$, and here $a = b = c = 1$, so $b^2 - 4ac = 1 - 4 = -3$.
+5. The relation: the general identity $\det A = ac - b^2/4 = -\tfrac14 (b^2 - 4ac)$ gives $-4 \det A = b^2 - 4ac$.
+   Here $-4 \cdot \tfrac34 = -3$, as it should be.
+6. A diagonal form: completing the square gives
+   $$Q = \left( x + \frac{y}{2} \right)^2 + 3 \left( \frac{y}{2} \right)^2,$$
+   so with $X = x + y/2$ and $Y = y/2$ the form is $X^2 + 3Y^2$.
+   Its determinant is $3$, the same class as in step 3.
 
 ## Remarks
 

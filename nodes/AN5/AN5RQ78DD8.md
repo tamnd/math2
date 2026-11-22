@@ -20,13 +20,15 @@ Define $Q \colon \mathbb{R}^2 \to \mathbb{R}$ by $Q(0, 0) = 0$ and
 $$Q(x, y) = \frac{x^4}{x^2 + y^2} \qquad \text{for } (x, y) \ne (0, 0).$$
 We show that $Q$ satisfies the first condition of a [[quadratic form|0HZNE5QZDJ]] but not the second.
 
-1. Scaling for $a \ne 0$ and $(x, y) \ne (0, 0)$. The numerator picks up $a^4$ and the denominator picks up $a^2$:
-$$Q(ax, ay) = \frac{a^4 x^4}{a^2 (x^2 + y^2)} = a^2 Q(x, y).$$
-2. Scaling when $a = 0$ or $(x, y) = (0, 0)$. Both sides are $0$. So $Q(av) = a^2 Q(v)$ for all $a$ and $v$.
-3. The polar map. Let $b(u, v) = Q(u + v) - Q(u) - Q(v)$, and take $u = (1, 0)$, so that $Q(u) = 1$.
+1. Scaling for $a \ne 0$ and $(x, y) \ne (0, 0)$: the numerator picks up $a^4$ and the denominator picks up $a^2$, so
+   $$Q(ax, ay) = \frac{a^4 x^4}{a^2 (x^2 + y^2)} = a^2 Q(x, y).$$
+2. Scaling when $a = 0$ or $(x, y) = (0, 0)$: both sides are $0$.
+   So $Q(av) = a^2 Q(v)$ for all $a$ and $v$.
+3. The polar map: let $b(u, v) = Q(u + v) - Q(u) - Q(v)$, and take $u = (1, 0)$, so that $Q(u) = 1$.
 4. For $v = (0, 1)$ we get $Q(v) = 0$ and $Q(1, 1) = \tfrac{1}{2}$, so $b(u, v) = \tfrac{1}{2} - 1 - 0 = -\tfrac{1}{2}$.
 5. For $2v = (0, 2)$ we get $Q(2v) = 0$ and $Q(1, 2) = \tfrac{1}{5}$, so $b(u, 2v) = \tfrac{1}{5} - 1 - 0 = -\tfrac{4}{5}$.
-6. A bilinear $b$ would give $b(u, 2v) = 2 b(u, v) = -1$. Since $-\tfrac{4}{5} \ne -1$, the map $b$ is not bilinear.
+6. A bilinear $b$ would give $b(u, 2v) = 2 b(u, v) = -1$.
+   Since $-\tfrac{4}{5} \ne -1$, the map $b$ is not bilinear.
 
 So the second condition fails, and $Q$ is not a quadratic form.
 

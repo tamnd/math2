@@ -19,13 +19,18 @@ Define $Q \colon V \to \mathbb{R}$ by the [[determinant|00KDZRW4C0]]:
 $$Q\begin{pmatrix} a & b \\ c & d \end{pmatrix} = ad - bc.$$
 We check that $Q$ is a [[quadratic form|0HZNE5QZDJ]], find its matrix, and put it in diagonal form.
 
-1. Scaling. Every entry of $tM$ carries a factor $t$, so $Q(tM) = (ta)(td) - (tb)(tc) = t^2 (ad - bc) = t^2 Q(M)$ for every $t \in \mathbb{R}$.
-2. Polar form. Let $M'$ have entries $a', b', c', d'$. Expand $(a + a')(d + d') - (b + b')(c + c')$ and remove $Q(M)$ and $Q(M')$:
-$$Q(M + M') - Q(M) - Q(M') = ad' + a'd - bc' - b'c.$$
-3. Bilinearity. Each term of step 2 is one entry of $M$ times one entry of $M'$, so the polar form is linear in $M$ and in $M'$. So $Q$ is a quadratic form.
-4. Matrix. In the coordinates $(a, b, c, d)$ the form is $ad - bc$, with two cross terms and no squares. Its symmetric matrix has $\tfrac{1}{2}$ at the positions $(1, 4)$ and $(4, 1)$, $-\tfrac{1}{2}$ at the positions $(2, 3)$ and $(3, 2)$, and $0$ elsewhere.
-5. Diagonal form. Put $a = s + t$, $d = s - t$, $b = u + w$ and $c = u - w$. This change of variables is invertible, since $s = (a + d)/2$, $t = (a - d)/2$, $u = (b + c)/2$ and $w = (b - c)/2$. Then
-$$ad - bc = (s + t)(s - t) - (u + w)(u - w) = s^2 - t^2 - u^2 + w^2.$$
+1. Scaling: every entry of $tM$ carries a factor $t$, so $Q(tM) = (ta)(td) - (tb)(tc) = t^2 (ad - bc) = t^2 Q(M)$ for every $t \in \mathbb{R}$.
+2. Polar form: let $M'$ have entries $a', b', c', d'$.
+   Expand $(a + a')(d + d') - (b + b')(c + c')$ and remove $Q(M)$ and $Q(M')$:
+   $$Q(M + M') - Q(M) - Q(M') = ad' + a'd - bc' - b'c.$$
+3. Bilinearity: each term of step 2 is one entry of $M$ times one entry of $M'$, so the polar form is linear in $M$ and in $M'$.
+   So $Q$ is a quadratic form.
+4. Matrix: in the coordinates $(a, b, c, d)$ the form is $ad - bc$, with two cross terms and no squares.
+   Its symmetric matrix has $\tfrac{1}{2}$ at the positions $(1, 4)$ and $(4, 1)$, $-\tfrac{1}{2}$ at the positions $(2, 3)$ and $(3, 2)$, and $0$ elsewhere.
+5. Diagonal form: put $a = s + t$, $d = s - t$, $b = u + w$ and $c = u - w$.
+   This change of variables is invertible, since $s = (a + d)/2$, $t = (a - d)/2$, $u = (b + c)/2$ and $w = (b - c)/2$.
+   Then
+   $$ad - bc = (s + t)(s - t) - (u + w)(u - w) = s^2 - t^2 - u^2 + w^2.$$
 
 ## Remarks
 

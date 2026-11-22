@@ -17,15 +17,17 @@ sources:
 Let $Q(x, y) = x^2 + xy$ on $\mathbb{R}^2$.
 We check that $Q$ is a [[quadratic form|0HZNE5QZDJ]], compute its polar form, and find its symmetric matrix.
 
-1. Scaling. Each term picks up $a^2$, so $Q(ax, ay) = a^2 x^2 + a^2 xy = a^2 Q(x, y)$ for all $a \in \mathbb{R}$.
-2. Polar form. For $u = (x, y)$ and $v = (x', y')$, expand and cancel:
-$$Q(u + v) - Q(u) - Q(v) = (x + x')^2 + (x + x')(y + y') - x^2 - xy - x'^2 - x'y' = 2xx' + xy' + x'y.$$
-3. Bilinearity. The result $b_Q(u, v) = 2xx' + xy' + x'y$ is linear in $u$ for fixed $v$ and linear in $v$ for fixed $u$. So $Q$ is a quadratic form.
-4. The symmetric bilinear form. Since $2$ is invertible in $\mathbb{R}$, the associated form is $B = \tfrac{1}{2} b_Q$, that is, $B(u, v) = xx' + \tfrac{1}{2} xy' + \tfrac{1}{2} x'y$.
-5. The matrix. Its entries are $B(e_1, e_1) = 1$, $B(e_1, e_2) = B(e_2, e_1) = \tfrac{1}{2}$ and $B(e_2, e_2) = 0$:
-$$A = \begin{pmatrix} 1 & \tfrac{1}{2} \\ \tfrac{1}{2} & 0 \end{pmatrix}.$$
-6. Check. Multiply out: $\begin{pmatrix} x & y \end{pmatrix} A \begin{pmatrix} x \\ y \end{pmatrix} = x^2 + \tfrac{1}{2} xy + \tfrac{1}{2} yx + 0 \cdot y^2 = x^2 + xy$.
-7. Uniqueness. The matrix $\begin{pmatrix} 1 & 1 \\ 0 & 0 \end{pmatrix}$ also gives $x^2 + xy$, but it is not [[symmetric|0N28QN4CYA]]. Among symmetric matrices, $A$ is the only one.
+1. Scaling: each term picks up $a^2$, so $Q(ax, ay) = a^2 x^2 + a^2 xy = a^2 Q(x, y)$ for all $a \in \mathbb{R}$.
+2. Polar form: for $u = (x, y)$ and $v = (x', y')$, expand and cancel:
+   $$Q(u + v) - Q(u) - Q(v) = (x + x')^2 + (x + x')(y + y') - x^2 - xy - x'^2 - x'y' = 2xx' + xy' + x'y.$$
+3. Bilinearity: the result $b_Q(u, v) = 2xx' + xy' + x'y$ is linear in $u$ for fixed $v$ and linear in $v$ for fixed $u$.
+   So $Q$ is a quadratic form.
+4. The symmetric bilinear form: since $2$ is invertible in $\mathbb{R}$, the associated form is $B = \tfrac{1}{2} b_Q$, that is, $B(u, v) = xx' + \tfrac{1}{2} xy' + \tfrac{1}{2} x'y$.
+5. The matrix: its entries are $B(e_1, e_1) = 1$, $B(e_1, e_2) = B(e_2, e_1) = \tfrac{1}{2}$ and $B(e_2, e_2) = 0$, so
+   $$A = \begin{pmatrix} 1 & \tfrac{1}{2} \\ \tfrac{1}{2} & 0 \end{pmatrix}.$$
+6. Check: $\begin{pmatrix} x & y \end{pmatrix} A \begin{pmatrix} x \\ y \end{pmatrix} = x^2 + \tfrac{1}{2} xy + \tfrac{1}{2} yx + 0 \cdot y^2 = x^2 + xy$.
+7. Uniqueness: the matrix $\begin{pmatrix} 1 & 1 \\ 0 & 0 \end{pmatrix}$ also gives $x^2 + xy$, but it is not [[symmetric|0N28QN4CYA]].
+   Among symmetric matrices, $A$ is the only one.
 
 ## Remarks
 

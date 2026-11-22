@@ -19,16 +19,22 @@ Over the field $\mathbb{F}_3 = \{ 0, 1, 2 \}$, where $2 = -1$, the nondegenerate
 Since $3$ is odd, [[the correspondence theorem|VN9AG8JKYT]] lets us describe a binary form by its symmetric matrix $\begin{pmatrix} a & b \\ b & c \end{pmatrix}$, which stands for $a x^2 + 2b xy + c y^2$.
 We check the claim in steps.
 
-1. The squares. We have $1^2 = 1$ and $2^2 = 4 = 1$, so $1$ is the only nonzero square and $2$ is a nonsquare.
-2. The count of matrices. Each of $a$, $b$, $c$ has $3$ choices, so there are $3^3 = 27$ symmetric matrices.
-3. The degenerate ones. The determinant $ac - b^2$ is $0$ in $5$ cases with $b = 0$, namely when $a = 0$ or $c = 0$. It is also $0$ in $2$ cases for each $b \ne 0$, namely $a = c = 1$ and $a = c = 2$. That makes $5 + 2 + 2 = 9$, so $27 - 9 = 18$ matrices are nondegenerate.
-4. The first representative. The form $x^2 + y^2$ has matrix $I$ and determinant $1$, a square.
-5. The second representative. The form $2xy$ has matrix $\begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$ and determinant $-1 = 2$, a nonsquare.
-6. The classification. By part 5 of [[the finite field theorem|2HBR7137AD]], every nondegenerate binary form over $\mathbb{F}_3$ is equivalent to exactly one of the two, and the square class of its determinant decides which.
-7. The second form is isotropic, since $2xy = 0$ at $(1, 0)$. The substitution $x = s + t$, $y = s - t$ gives $2xy = 2s^2 - 2t^2 = t^2 - s^2$, because $2 = -1$. So $2xy$ is equivalent to $x^2 - y^2$.
-8. The first form is not isotropic. At the eight nonzero vectors it takes the value $1$ at $(1, 0)$, $(2, 0)$, $(0, 1)$, $(0, 2)$, and the value $2$ at $(1, 1)$, $(1, 2)$, $(2, 1)$, $(2, 2)$.
-9. A second proof of step 6. An equivalence carries zeros to zeros, so step 7 and step 8 show again that the two forms are not equivalent.
-10. A use of part 4 of the theorem. The form $2x^2 + 2y^2$ has determinant $4 = 1$, so it is equivalent to $x^2 + y^2$. Explicitly, $v_1 = (1, 1)$ and $v_2 = (1, 2)$ give $Q(v_1) = 4 = 1$, $Q(v_2) = 2 + 8 = 10 = 1$ and $B(v_1, v_2) = 2 \cdot 1 \cdot 1 + 2 \cdot 1 \cdot 2 = 6 = 0$.
+1. The squares: $1^2 = 1$ and $2^2 = 4 = 1$, so $1$ is the only nonzero square and $2$ is a nonsquare.
+2. The count of matrices: each of $a$, $b$, $c$ has $3$ choices, so there are $3^3 = 27$ symmetric matrices.
+3. The degenerate ones: the determinant $ac - b^2$ is $0$ in $5$ cases with $b = 0$, namely when $a = 0$ or $c = 0$.
+   It is also $0$ in $2$ cases for each $b \ne 0$, namely $a = c = 1$ and $a = c = 2$.
+   That makes $5 + 2 + 2 = 9$, so $27 - 9 = 18$ matrices are nondegenerate.
+4. The first representative: the form $x^2 + y^2$ has matrix $I$ and determinant $1$, a square.
+5. The second representative: the form $2xy$ has matrix $\begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$ and determinant $-1 = 2$, a nonsquare.
+6. The classification: by part 5 of [[the finite field theorem|2HBR7137AD]], every nondegenerate binary form over $\mathbb{F}_3$ is equivalent to exactly one of the two, and the square class of its determinant decides which.
+7. The second form is isotropic, since $2xy = 0$ at $(1, 0)$.
+   The substitution $x = s + t$, $y = s - t$ gives $2xy = 2s^2 - 2t^2 = t^2 - s^2$, because $2 = -1$.
+   So $2xy$ is equivalent to $x^2 - y^2$.
+8. The first form is not isotropic.
+   At the eight nonzero vectors it takes the value $1$ at $(1, 0)$, $(2, 0)$, $(0, 1)$, $(0, 2)$, and the value $2$ at $(1, 1)$, $(1, 2)$, $(2, 1)$, $(2, 2)$.
+9. A second proof of step 6: an equivalence carries zeros to zeros, so step 7 and step 8 show again that the two forms are not equivalent.
+10. A use of part 4 of the theorem: the form $2x^2 + 2y^2$ has determinant $4 = 1$, so it is equivalent to $x^2 + y^2$.
+    Explicitly, $v_1 = (1, 1)$ and $v_2 = (1, 2)$ give $Q(v_1) = 4 = 1$, $Q(v_2) = 2 + 8 = 10 = 1$ and $B(v_1, v_2) = 2 \cdot 1 \cdot 1 + 2 \cdot 1 \cdot 2 = 6 = 0$.
 
 ## Remarks
 

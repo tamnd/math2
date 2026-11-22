@@ -24,18 +24,23 @@ The first form is $Q(x, y) = xy$ on $\mathbb{F}_2^2$.
 It shows that a quadratic form need not come from a symmetric bilinear form.
 
 1. $Q$ is a [[quadratic form|0HZNE5QZDJ]]: it scales as $Q(ax, ay) = a^2 xy$, and its [[polar form|0HYFWKKY3C]] $b_Q(u, v) = xy' + x'y$ for $u = (x, y)$ and $v = (x', y')$ is bilinear.
-2. Let $B$ be any [[symmetric bilinear form|0744CN4MDA]] on $\mathbb{F}_2^2$. Expanding with bilinearity and symmetry gives
-$$B(u + v, u + v) = B(u, u) + 2B(u, v) + B(v, v) = B(u, u) + B(v, v),$$
-because $2 = 0$ in $\mathbb{F}_2$. So the map $v \mapsto B(v, v)$ is additive.
+2. Let $B$ be any [[symmetric bilinear form|0744CN4MDA]] on $\mathbb{F}_2^2$.
+   Expanding with bilinearity and symmetry gives
+   $$B(u + v, u + v) = B(u, u) + 2B(u, v) + B(v, v) = B(u, u) + B(v, v),$$
+   because $2 = 0$ in $\mathbb{F}_2$.
+   So the map $v \mapsto B(v, v)$ is additive.
 3. The form $Q$ is not additive, because $Q(1, 1) = 1$ while $Q(1, 0) + Q(0, 1) = 0 + 0 = 0$.
-4. By steps 2 and 3, $Q(v) \ne B(v, v)$ for some $v$, whatever symmetric bilinear form $B$ we choose. So the map $B \mapsto (v \mapsto B(v, v))$ is not onto.
+4. By steps 2 and 3, $Q(v) \ne B(v, v)$ for some $v$, whatever symmetric bilinear form $B$ we choose.
+   So the map $B \mapsto (v \mapsto B(v, v))$ is not onto.
 
 The second form is $Q(x) = x^2$ on $\mathbb{F}_2$.
 It shows that a quadratic form is not determined by its polar form.
 
 5. The polar form is $b_Q(u, v) = (u + v)^2 - u^2 - v^2 = 2uv = 0$.
-6. The zero form also has polar form $0$, but $Q(1) = 1 \ne 0$. So two different quadratic forms have the same polar form.
-7. The symmetric bilinear form $B(u, v) = uv$ does satisfy $B(v, v) = Q(v)$. But $B$ cannot be recovered as $\tfrac{1}{2} b_Q$, because $\tfrac{1}{2}$ does not exist in $\mathbb{F}_2$ and $b_Q = 0$.
+6. The zero form also has polar form $0$, but $Q(1) = 1 \ne 0$.
+   So two different quadratic forms have the same polar form.
+7. The symmetric bilinear form $B(u, v) = uv$ does satisfy $B(v, v) = Q(v)$.
+   But $B$ cannot be recovered as $\tfrac{1}{2} b_Q$, because $\tfrac{1}{2}$ does not exist in $\mathbb{F}_2$ and $b_Q = 0$.
 
 ## Remarks
 

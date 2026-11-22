@@ -17,10 +17,10 @@ sources:
 
 The forms $Q_1 = x^2 + y^2$ and $Q_2 = x^2 + 2y^2$ on $\mathbb{Q}^2$ have different [[discriminants|MZFRXECCMC]], so no rational change of variables turns one into the other.
 
-1. The matrices. They are $\operatorname{diag}(1, 1)$ and $\operatorname{diag}(1, 2)$, with determinants $1$ and $2$.
-2. The quotient. The quotient $2 / 1 = 2$ is not the square of a rational number, because $\sqrt 2$ is irrational.
-3. The square classes. So the discriminants $1$ and $2$ are different elements of $\mathbb{Q}^\times / \mathbb{Q}^{\times 2}$.
-4. The conclusion. By [[the invariance theorem|WYQGZK8GFT]], equivalent forms have the same discriminant, so $Q_1$ and $Q_2$ are not equivalent over $\mathbb{Q}$.
+1. The matrices are $\operatorname{diag}(1, 1)$ and $\operatorname{diag}(1, 2)$, with determinants $1$ and $2$.
+2. The quotient $2 / 1 = 2$ is not the square of a rational number, because $\sqrt 2$ is irrational.
+3. So the discriminants $1$ and $2$ are different elements of $\mathbb{Q}^\times / \mathbb{Q}^{\times 2}$.
+4. By [[the invariance theorem|WYQGZK8GFT]], equivalent forms have the same discriminant, so $Q_1$ and $Q_2$ are not equivalent over $\mathbb{Q}$.
 
 ## Remarks
 

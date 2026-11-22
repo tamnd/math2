@@ -21,7 +21,9 @@ A change of basis multiplies the determinant of the matrix of a quadratic form b
 Let $F$ be a field of characteristic not $2$, and let $A$ be a symmetric $n \times n$ matrix over $F$.
 
 1. For every invertible $n \times n$ matrix $P$ over $F$, we have $\det(P^{\mathsf{T}} A P) = \det(P)^2 \det A$, as in [[the congruence statement|D3E2Y85S6H]].
-2. Let $Q$ be a [[quadratic form|0HZNE5QZDJ]] on a vector space $V$ of finite dimension $n$ over $F$. The matrices of $Q$ in two bases of $V$ have determinants that are either both $0$ or both nonzero and in the same [[square class|9160DW40TE]]. So the [[discriminant|MZFRXECCMC]] of $Q$ does not depend on the basis.
+2. Let $Q$ be a [[quadratic form|0HZNE5QZDJ]] on a vector space $V$ of finite dimension $n$ over $F$.
+   The matrices of $Q$ in two bases of $V$ have determinants that are either both $0$ or both nonzero and in the same [[square class|9160DW40TE]].
+   So the [[discriminant|MZFRXECCMC]] of $Q$ does not depend on the basis.
 3. If two quadratic forms on $V$ are equivalent, then they have the same discriminant.
 
 ## Remarks

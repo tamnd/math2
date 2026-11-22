@@ -15,27 +15,34 @@ sources:
 
 ## Proof
 
-1. The matrix $A$ is real and [[symmetric|0N28QN4CYA]]. By the [[spectral theorem|0DGZBQWZWN]], $A = P D P^T$ with $P$ [[orthogonal|0QRBVFJ50X]] and $D$ real diagonal.
-2. Let $\lambda_1, \dots, \lambda_n$ be the diagonal entries of $D$. By definition $P^T P = I$, and the [[one-sided inverse theorem|0753Y2X5K6]] gives $P P^T = I$.
-3. By step 2, $P^T A P = P^T P D P^T P = D$.
-4. Let $y \in \R^n$ and $x = Py$. By the [[transpose of a product|09GK5PS824]], $Q(x) = y^T P^T A P y = y^T D y$.
-5. By step 3, $y^T D y = \lambda_1 y_1^2 + \cdots + \lambda_n y_n^2$. This is the formula of the statement.
-6. Let $p_1, \dots, p_n$ be the columns of $P$. The $(i, j)$ entry of $P^T P = I$ is $p_i^T p_j$. So the columns form an [[orthonormal family|09VYHEF2VT]] for the dot product, and each $p_i \ne 0$.
-7. From $A = P D P^T$ and $P^T P = I$ we get $AP = PD$. Comparing column $i$ gives $A p_i = \lambda_i p_i$.
-8. By steps 6 and 7, each $p_i$ is an [[eigenvector|0B5H4208Z9]] of $A$, and each $\lambda_i$ is an [[eigenvalue|0ZND7NQ970]] of $A$.
-9. Since $D = P^{-1} A P$, the [[characteristic polynomials agree|0TYMASG33Y]]. So $\det(tI - A) = (t - \lambda_1) \cdots (t - \lambda_n)$.
-10. By [[the roots of the characteristic polynomial|053QVHF6N7]], the eigenvalues of $A$ are exactly $\lambda_1, \dots, \lambda_n$, each with its multiplicity.
-11. So $Q(Py) = \sum_i \lambda_i y_i^2$, where the $\lambda_i$ are the eigenvalues of $A$ and the columns of $P$ are orthonormal eigenvectors of $A$.
-12. By [[the transpose rule|0ZZQ2E1MTE]] and [[multiplicativity|04CPJ6AF00]], $\det(P)^2 = \det(P^T) \det(P) = \det(P^T P) = 1$. So $\det P = \pm 1$.
-13. If $\det P = -1$, replace $p_1$ by $-p_1$. It is still a unit eigenvector for $\lambda_1$, orthogonal to the others, and now $\det P = 1$.
-14. The formula of step 11 does not change, since $y_1^2 = (-y_1)^2$. So $P$ can be chosen with $\det P = 1$.
+We take the orthogonal matrix that the spectral theorem gives, substitute $x = Py$ into $Q$, and then identify the diagonal entries and the columns.
+
+1. The matrix $A$ is real and [[symmetric|0N28QN4CYA]]. So the [[spectral theorem|0DGZBQWZWN]] gives an [[orthogonal|0QRBVFJ50X]] matrix $P$ and a real diagonal matrix $D = \operatorname{diag}(\lambda_1, \dots, \lambda_n)$ with $A = P D P^{\mathsf{T}}$.
+2. Since $P$ is orthogonal, $P^{\mathsf{T}} P = I$, and the [[one-sided inverse theorem|0753Y2X5K6]] also gives $P P^{\mathsf{T}} = I$.
+3. By steps 1 and 2, $P^{\mathsf{T}} A P = (P^{\mathsf{T}} P) D (P^{\mathsf{T}} P) = D$.
+4. Let $y \in \mathbb{R}^n$ and $x = Py$. By the rule for the [[transpose of a product|09GK5PS824]], $x^{\mathsf{T}} = y^{\mathsf{T}} P^{\mathsf{T}}$, so $Q(x) = y^{\mathsf{T}} (P^{\mathsf{T}} A P) y = y^{\mathsf{T}} D y$.
+5. Since $D$ is diagonal, $y^{\mathsf{T}} D y = \lambda_1 y_1^2 + \dots + \lambda_n y_n^2$. This is the formula of the statement.
+6. Let $p_1, \dots, p_n$ be the columns of $P$. The $(i, j)$ entry of $P^{\mathsf{T}} P = I$ is $p_i^{\mathsf{T}} p_j$, so the columns form an [[orthonormal family|09VYHEF2VT]], and in particular each $p_i$ is nonzero.
+7. Multiplying $A = P D P^{\mathsf{T}}$ on the right by $P$ and using step 2 gives $AP = PD$. Column $i$ of $AP$ is $A p_i$, and column $i$ of $PD$ is $\lambda_i p_i$, so $A p_i = \lambda_i p_i$.
+8. By steps 6 and 7, each $p_i$ is an [[eigenvector|0B5H4208Z9]] of $A$, and each $\lambda_i$ is an [[eigenvalue|0ZND7NQ970]] of $A$ with eigenvector $p_i$.
+9. By step 2, $P^{-1} = P^{\mathsf{T}}$, so $D = P^{-1} A P$ and the [[characteristic polynomials of A and D agree|0TYMASG33Y]]. Hence $\det(tI - A) = (t - \lambda_1) \cdots (t - \lambda_n)$.
+10. By [[the roots of the characteristic polynomial|053QVHF6N7]], the eigenvalues of $A$, repeated by multiplicity, are exactly $\lambda_1, \dots, \lambda_n$.
+11. By [[the transpose rule|0ZZQ2E1MTE]] and [[multiplicativity|04CPJ6AF00]] of the determinant, $(\det P)^2 = \det(P^{\mathsf{T}}) \det(P) = \det(P^{\mathsf{T}} P) = 1$, so $\det P = \pm 1$.
+12. If $\det P = -1$, replace $p_1$ by $-p_1$. The new column is still a unit eigenvector for $\lambda_1$ and orthogonal to the others, and the determinant changes sign, so now $\det P = 1$.
+13. The replacement changes $y_1$ into $-y_1$, and $\lambda_1 y_1^2$ does not change. So the formula of step 5 holds for a $P$ with $\det P = 1$, and the theorem is proved.
 
 ## Idea
 
-The spectral theorem rotates coordinates so that $A$ becomes diagonal.
-In the new coordinates $y = P^T x$, the cross terms of $Q$ vanish, and only the eigenvalues remain as coefficients of the squares.
+The spectral theorem already says that a symmetric matrix is diagonal in a suitable orthonormal basis.
+The principal axis theorem is the same fact written for the form.
+In the coordinates $y = P^{\mathsf{T}} x$ the matrix of $Q$ is $P^{\mathsf{T}} A P = D$, so the cross terms vanish and the eigenvalues remain as the coefficients of the squares.
+The last steps only tidy up: they show that the coefficients are the eigenvalues, and that a reflection can be traded for a rotation by flipping one axis.
 
 ## Variants
 
-- One can prove the spectral theorem and this theorem together. The maximum of $Q$ on the unit sphere is attained at an eigenvector, as in [[the extreme value theorem for the Rayleigh quotient|T7MFPSY009]]. Then one restricts $Q$ to the orthogonal complement and uses induction.
-- [[The diagonalization theorem|0Z3FEWZ8HA]] gives a diagonal form faster, by completing squares, but not with an orthogonal $P$.
+One can prove the spectral theorem and this theorem together by a variational argument.
+The form $Q$ is continuous on the compact unit sphere, so it has a maximum there, and the [[Rayleigh quotient statement|T7MFPSY009]] shows that a point of maximum is an eigenvector.
+The orthogonal complement of that eigenvector is mapped into itself by $A$, so induction on the dimension gives the rest, as in [[the variational proof of the real spectral theorem|GHGBEV51GZ]].
+
+[[The diagonalization theorem|0Z3FEWZ8HA]] reaches a diagonal form faster, by completing squares, and it works over every field of characteristic not $2$.
+Its change of variables is not orthogonal, however, so its coefficients are not the eigenvalues, and only their signs agree with the ones here.

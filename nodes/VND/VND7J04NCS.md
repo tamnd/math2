@@ -19,10 +19,11 @@ sources:
 The number $\det A$ is not an invariant of a quadratic form, because two equivalent forms can have Gram matrices with different determinants.
 Let $Q_1 = x^2$ and $Q_2 = 4x^2$ on the one-dimensional space $\mathbb{Q}$.
 
-1. The two forms are equivalent. The invertible substitution $x \mapsto 2x$ gives $Q_1(2x) = (2x)^2 = 4x^2 = Q_2(x)$.
+1. The two forms are equivalent: the invertible substitution $x \mapsto 2x$ gives $Q_1(2x) = (2x)^2 = 4x^2 = Q_2(x)$.
 2. The Gram matrices are the $1 \times 1$ matrices $(1)$ and $(4)$, with determinants $1$ and $4$.
 3. So the number $\det A$ changes under an equivalence, and it is not an invariant of the form.
-4. The quotient $4 / 1 = 2^2$ is a square, so the two determinants lie in the same square class, as [[the invariance theorem|WYQGZK8GFT]] predicts. The [[discriminant|MZFRXECCMC]] is this class, not the number.
+4. The quotient $4 / 1 = 2^2$ is a square, so the two determinants lie in the same square class, as [[the invariance theorem|WYQGZK8GFT]] predicts.
+   The [[discriminant|MZFRXECCMC]] is this class, not the number.
 
 ## Remarks
 
