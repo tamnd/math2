@@ -23,62 +23,65 @@ sources:
 
 ## Statement
 
-Let $F$ be a field, let $V$ be a [[finite-dimensional|018W3V3TCT]] vector space over $F$, and let $T \colon V \to V$ be an [[endomorphism|0PTF1PTJK0]] of $V$.
-Then these conditions are equivalent:
+For a linear map from a finite-dimensional space to itself, being one to one, being onto and being invertible are the same thing.
 
-1. $T$ is [[injective|0PVG1CRAJN]].
-2. $T$ is [[surjective|0XKH881BZ7]].
-3. $T$ is [[bijective|0SNQEF7Z53]], so $T$ is an automorphism of $V$.
+Let $F$ be a field, let $V$ be a [[finite-dimensional|018W3V3TCT]] vector space over $F$, and let $T \colon V \to V$ be an [[endomorphism|0PTF1PTJK0]] of $V$.
+Then the following conditions are equivalent.
+
+1. The map $T$ is [[injective|0PVG1CRAJN]].
+2. The map $T$ is [[surjective|0XKH881BZ7]].
+3. The map $T$ is [[bijective|0SNQEF7Z53]], so $T$ is an automorphism of $V$.
 
 ## Remarks
 
-### Why each hypothesis is needed
+### Why the hypotheses are needed
 
-- Finite dimension is necessary. On the space of sequences, the [[right shift|N1G1WQW59J]] is injective and not surjective, and the left shift is surjective and not injective.
-- On $F[x]$, multiplication by $x$ is injective and not surjective.
-- The domain and the codomain must have the same dimension. The inclusion $\R \to \R^2$, $x \mapsto (x, 0)$, is injective and not surjective.
-- Linearity is necessary. The map $\R \to \R$, $x \mapsto e^x$, is injective and not surjective. Here $\R$ has dimension $1$.
+Finite dimension is necessary.
+On the space of sequences, the [[right shift|N1G1WQW59J]] is injective and not surjective, and the left shift is surjective and not injective.
+On $F[x]$, multiplication by $x$ is injective and not surjective, since no multiple of $x$ equals $1$.
+The source and the target must have the same dimension, as the injective map $\R \to \R^2$, $x \mapsto (x, 0)$, shows.
+Linearity is necessary too: the map $x \mapsto e^x$ on the one-dimensional space $\R$ is injective but misses every $y \le 0$.
 
-### Consequences
+### What it gives you
 
-- To prove that an endomorphism of a finite-dimensional space is invertible, it is enough to check $\ker T = \{0\}$.
-- For a square matrix $A$, the system $Ax = 0$ has only the solution $x = 0$ if and only if $Ax = b$ has a solution for each $b$.
-- One-sided inverses are two-sided. If $S \circ T = \id_V$, then $T$ is injective, so $T$ is bijective and $S = T^{-1}$.
-- The same equivalence holds for a linear map $T \colon V \to W$ when $\dim V = \dim W < \infty$.
+To prove that an endomorphism of a finite-dimensional space is invertible, it is enough to check $\ker T = \{0\}$.
+For a square matrix $A$, the system $Ax = 0$ has only the solution $x = 0$ exactly when $Ax = b$ has a solution for each $b$.
+One-sided inverses are two-sided: if $S \circ T = \id_V$, then $T$ is injective, so $T$ is bijective and $S = T^{-1}$.
+The same equivalence holds for a linear map $T \colon V \to W$ when $\dim V = \dim W < \infty$.
 
-### Converse
+### The converse
 
-The statement is an equivalence of three conditions, so each direction holds.
-For a map between spaces of different dimensions, at most one of injective and surjective can hold.
+The statement is an equivalence of three conditions, so every direction holds.
+For a map between finite-dimensional spaces of different dimensions, the rank-nullity theorem shows that at most one of injective and surjective can hold.
 
 ### Generalizations
 
-- For finite sets, a map from a set to itself is injective if and only if it is surjective. This is a form of the [[pigeonhole principle|0HGVCWQGY3]].
-- The theorem is the linear-algebra form of the [[Fredholm alternative|4HH8C9V8JQ]] in its simplest case: either $T$ is surjective, or $\ker T \ne \{0\}$.
+A map from a finite set to itself is injective if and only if it is surjective, which is a form of the [[pigeonhole principle|0HGVCWQGY3]].
+The theorem is the simplest case of the [[Fredholm alternative|4HH8C9V8JQ]]: either $T$ is surjective, or $\ker T \ne \{0\}$.
 
 ## History
 
 The equivalence is the finite-dimensional case of the Fredholm alternative, named after Fredholm.
-Fredholm proved an analogue for integral equations $\lambda \varphi - K\varphi = f$, where infinite dimension needs extra hypotheses on $K$.
+He proved an analogue for integral equations of the form $\lambda \varphi - K\varphi = f$, where infinite dimension needs extra hypotheses on the operator $K$.
 
 ## Explanations
 
 ### L1 human
 
 For a linear map from a finite-dimensional space to itself, one to one and onto are the same.
-If the map loses no vector to $0$, then it reaches every vector, because the dimensions match.
+If the map sends no nonzero vector to $0$, then it reaches every vector, because the dimensions match.
 A map from a finite set to itself behaves in the same way.
 
 ### L2 human
 
-To show that $T(x, y) = (x + y,\ x - y)$ on $\R^2$ is invertible, solve $T(x, y) = (0, 0)$.
+To show that $T(x, y) = (x + y, \; x - y)$ on $\R^2$ is invertible, solve $T(x, y) = (0, 0)$.
 This gives $x = y = 0$, so $\ker T = \{0\}$ and $T$ is injective.
 By the theorem, $T$ is also surjective, with no further work.
-The trap is to apply this shortcut in infinite dimension, where the shift maps fail it.
+Watch out: the shortcut fails in infinite dimension, as the shift maps show.
 
 ### L3 human
 
 The theorem says that the ring $\End(V)$ of a finite-dimensional space is [[Dedekind-finite|GV1HKEAWVN]]: $ST = I$ implies $TS = I$.
-For infinite dimension, $\End(V)$ contains $L$ and $R$ with $LR = I$ and $RL \ne I$.
+In infinite dimension, $\End(V)$ contains the shifts $L$ and $R$ with $LR = I$ and $RL \ne I$.
 In the Fredholm theory of operators on Banach spaces, the [[index|2V9Q4KHY1T]] $\dim \ker T - \dim \operatorname{coker} T$ measures the failure.
 In finite dimension, the index of every endomorphism is $0$.
