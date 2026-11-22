@@ -85,6 +85,6 @@ Watch out: over $\mathbb{C}$ you must use $A^*$, or the matrix of the normal equ
 
 ### L3 human
 
-The key identity is $x^{\mathsf{T}} A^{\mathsf{T}} A x = \lVert Ax \rVert^2$, which makes $A^{\mathsf{T}} A$ positive semidefinite with the same null space as $A$.
+The identity behind the theorem is $x^{\mathsf{T}} A^{\mathsf{T}} A x = \lVert Ax \rVert^2$, which makes $A^{\mathsf{T}} A$ positive semidefinite with the same null space as $A$.
 The statement fails over fields with isotropic vectors, that is, nonzero $y$ with $y^{\mathsf{T}} y = 0$, and such vectors exist over $\mathbb{C}$ and, in a suitable dimension, over every finite field.
 The singular value decomposition gives the finer statement that the nonzero eigenvalues of $A^{\mathsf{T}} A$ are the squares of the nonzero singular values of $A$, counted with multiplicity.
