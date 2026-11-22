@@ -23,70 +23,88 @@ same_as:
 
 ## Statement
 
+Sylvester's criterion tests definiteness with determinants: the top left corners decide positive definiteness, and all the principal submatrices decide positive semidefiniteness.
+
 Let $A$ be an $n \times n$ complex [[Hermitian matrix|0P17NGQQMQ]].
 For $1 \le k \le n$, let $\Delta_k$ be the determinant of the upper left $k \times k$ submatrix of $A$.
-For a nonempty set $S \subseteq \set{1, \dots, n}$, let $A_S = (a_{ij})_{i, j \in S}$ be the principal submatrix on the rows and columns in $S$.
+For a nonempty set $S \subseteq \{1, \dots, n\}$, let $A_S = (a_{ij})_{i, j \in S}$ be the principal submatrix on the rows and columns in $S$.
 
 1. $A$ is [[positive definite|0KX66CZMBB]] if and only if $\Delta_k > 0$ for all $k = 1, \dots, n$.
-2. $A$ is [[positive semidefinite|01MMVW8CKC]] if and only if $\det A_S \ge 0$ for every nonempty $S \subseteq \set{1, \dots, n}$.
+2. $A$ is [[positive semidefinite|01MMVW8CKC]] if and only if $\det A_S \ge 0$ for every nonempty $S \subseteq \{1, \dots, n\}$.
+
+The same holds for a real symmetric matrix, with the real definitions.
+The [[proof|5BZ123RQNH]] goes by induction for part 1 and by a perturbation $A + \varepsilon I$ for part 2.
 
 ## Remarks
 
-The numbers $\Delta_k$ are the *leading principal [[minors|0BT9BYWVRY]]* of $A$.
-The numbers $\det A_S$ are the *principal minors*; there are $2^n - 1$ of them.
-For a real $\begin{pmatrix} a & b \\ b & c \end{pmatrix}$, part 1 is the test $a > 0$ and $ac - b^2 > 0$.
+### The minors involved
+
+The numbers $\Delta_k$ are the *leading principal [[minors|0BT9BYWVRY]]* of $A$, and there are $n$ of them.
+The numbers $\det A_S$ are the *principal minors*, and there are $2^n - 1$ of them, one for each nonempty $S$.
+For a real $2 \times 2$ matrix $\begin{pmatrix} a & b \\ b & c \end{pmatrix}$, part 1 asks for $a > 0$ and $ac - b^2 > 0$.
+Part 2 asks for $a \ge 0$, $c \ge 0$ and $ac - b^2 \ge 0$, three conditions instead of two.
+For example, [[the tridiagonal 3 by 3 matrix|RSQW92W4PD]] has leading minors $2, 3, 4$, so it is positive definite.
 
 ### Why each hypothesis is needed
 
-- $A$ must be Hermitian. [[The matrix $\begin{pmatrix} 1 & -3 \\ 0 & 1 \end{pmatrix}$|VB4AQ8TKVP]] has $\Delta_1 = \Delta_2 = 1$, but $x^T M x = -1$ at $x = (1, 1)$.
-- In part 2, the leading minors are not enough. [[The matrix $\begin{pmatrix} 0 & 0 \\ 0 & -1 \end{pmatrix}$|9ZQ1GV2F0G]] has $\Delta_1 = \Delta_2 = 0 \ge 0$, but it is not positive semidefinite. Its principal minor $a_{22} = -1$ is negative.
-- In part 1, the strict inequalities are needed. The [[all-ones matrix|YAAQD2E1BZ]] has $\Delta_1 = 1$ and $\Delta_2 = 0$, and it is not positive definite.
+The matrix must be Hermitian.
+[[The matrix with rows (1, -3) and (0, 1)|VB4AQ8TKVP]] has $\Delta_1 = \Delta_2 = 1$, but its form is $-1$ at $x = (1, 1)$.
+For a real matrix that is not symmetric, run the test on the symmetric part $\tfrac12 (M + M^{\mathsf{T}})$ instead.
 
-### Consequences
+Part 1 needs strict inequalities.
+[[The all-ones matrix|YAAQD2E1BZ]] has $\Delta_1 = 1$ and $\Delta_2 = 0$, and it is not positive definite.
 
-- A positive definite matrix has positive diagonal entries and a positive determinant.
-- [[The tridiagonal $3 \times 3$ example|RSQW92W4PD]] is positive definite, since its leading minors are $2, 3, 4$.
-- $A$ is negative definite if and only if $-A$ is positive definite, that is, if and only if $(-1)^k \Delta_k > 0$ for all $k$.
-- In the proof, $\Delta_k / \Delta_{k-1}$ is the $k$-th pivot of Gaussian elimination without row exchanges. So a positive definite matrix has positive pivots, which links the test to the [[Cholesky decomposition|0WKG8CYY6A]].
+Part 2 needs all principal minors, and the leading ones are not enough.
+[[The matrix diag(0, -1)|9ZQ1GV2F0G]] has $\Delta_1 = 0$ and $\Delta_2 = 0$, both $\ge 0$, but its form is $-1$ at $(0, 1)$.
+The principal minor $a_{22} = -1$ for $S = \{2\}$ shows the failure.
 
-### Converse
+### What it gives you
+
+A positive definite matrix has positive diagonal entries and a positive determinant.
+A Hermitian $A$ is negative definite exactly when $-A$ is positive definite, and the leading minors of $-A$ are $(-1)^k \Delta_k$.
+So $A$ is negative definite exactly when the signs of $\Delta_1, \Delta_2, \Delta_3, \dots$ alternate, starting with $\Delta_1 < 0$.
+
+The ratios $\Delta_k / \Delta_{k-1}$, with $\Delta_0 = 1$, are the pivots of Gaussian elimination without row exchanges.
+So part 1 says that a Hermitian matrix is positive definite exactly when elimination meets only positive pivots, and this links the test to the [[Cholesky decomposition|0WKG8CYY6A]].
+
+### The converse
 
 Both parts are equivalences.
-The criterion uses any nested chain of principal submatrices, not only the upper left ones, because a simultaneous permutation of rows and columns keeps positive definiteness.
+The criterion works with any nested chain of principal submatrices, not only the upper left ones, because a simultaneous permutation of rows and columns is a change of basis $P^{\mathsf{T}} A P$ and keeps definiteness.
+For example, the bottom right corners $a_{nn}$, then the last two rows and columns, and so on, give a second valid test for part 1.
 
 ### Generalizations
 
-- For a real symmetric matrix, the same tests hold with real vectors, since the real and the complex definitions agree.
-- For quadratic forms, the test classifies [[positive definite quadratic forms|0RP20HFYM3]], which are treated with quadratic forms.
+For quadratic forms over $\R$, the test classifies [[positive definite quadratic forms|0RP20HFYM3]], since the form $x^{\mathsf{T}} A x$ with $A$ symmetric is positive definite exactly when $A$ is.
+When all $\Delta_k \ne 0$, the signs of the pivots $\Delta_k / \Delta_{k-1}$ give the full signature of the form, by [[Sylvester's law of inertia|0WFED3K3DQ]].
 
 ## History
 
-The criterion is named after James Joseph Sylvester, according to the Wikipedia article on Sylvester's criterion.
+The criterion is named after James Joseph Sylvester.
 
 ## Explanations
 
 ### L1 human
 
 Sylvester's criterion tests positive definiteness with $n$ determinants.
-We check the top left $1 \times 1$, $2 \times 2$, and so on, up to the full matrix.
+We check the top left $1 \times 1$ corner, then the $2 \times 2$ corner, and so on, up to the full matrix.
 All of them must be positive.
-For semidefiniteness the test is weaker in each determinant but needs more determinants.
-Every square submatrix on the diagonal must have a determinant at least $0$.
+For semidefiniteness we must look at more corners: every square block that sits on the diagonal must have a determinant at least $0$.
 
 ### L2 human
 
-Recipe for positive definiteness:
-
-1. Check that $A$ is Hermitian (real symmetric in the real case).
-2. Compute $\Delta_1 = a_{11}$, then $\Delta_2$, and so on.
-3. Stop at the first $\Delta_k \le 0$: then $A$ is not positive definite.
-
-[[The tridiagonal example|RSQW92W4PD]] runs this recipe on a $3 \times 3$ matrix.
-A trap: the recipe for positive definiteness uses strict inequalities, and replacing them by "$\ge 0$" does not give a test for semidefiniteness.
+Here is a typical use: for which real $t$ is
+$$A = \begin{pmatrix} 2 & 1 & 0 \\ 1 & t & 1 \\ 0 & 1 & 2 \end{pmatrix}$$
+positive definite?
+The leading minors are $\Delta_1 = 2$, $\Delta_2 = 2t - 1$ and
+$$\Delta_3 = 2(2t - 1) - 1 \cdot (2 - 0) + 0 = 4t - 4.$$
+So we need $t > \tfrac12$ and $t > 1$, that is, $t > 1$.
+Check: at $t = 1$ the vector $x = (1, -2, 1)$ gives $Ax = (0, 0, 0)$, so the matrix is singular there, as $\Delta_3 = 0$ says.
+Watch out: replacing "$> 0$" by "$\ge 0$" in the recipe does not give a test for semidefiniteness, since that needs every principal minor.
 
 ### L3 human
 
-Part 1 follows from the factorization $A = L D L^*$ with $L$ unit lower triangular and $D$ diagonal, which exists when all $\Delta_k \ne 0$.
-The diagonal of $D$ is $\Delta_1, \Delta_2 / \Delta_1, \dots, \Delta_n / \Delta_{n-1}$, and Sylvester's law of inertia counts the signs.
-Part 2 needs all principal minors because the semidefinite cone is not open: a zero leading minor carries no information about the rest of the matrix.
-The coefficients of the characteristic polynomial of $A$ are, up to sign, the sums of the principal minors of each size, and this is the tool of the proof of part 2.
+Part 1 is a statement about the factorization $A = L D L^*$ with $L$ unit lower triangular and $D$ diagonal, which exists exactly when all $\Delta_k \ne 0$.
+The diagonal of $D$ is $\Delta_1, \Delta_2 / \Delta_1, \dots, \Delta_n / \Delta_{n-1}$, and the law of inertia counts its signs.
+Part 2 needs all principal minors because the semidefinite cone is closed but not open: a zero leading minor carries no information about the rest of the matrix.
+The coefficient of $t^{n-k}$ in $\det(tI - A)$ is $(-1)^k$ times the sum of the principal minors of size $k$, and this links part 2 with the eigenvalue test.
