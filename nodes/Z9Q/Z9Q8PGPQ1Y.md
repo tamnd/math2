@@ -14,14 +14,14 @@ sources:
 
 ## Example
 
-Let $X = \set{1, 2, 3}$, and let $f \colon X \to \mathcal{P}(X)$ be the [[function|0EPAT51DXQ]] into the [[power set|00E0YZCERH]] with
-$$f(1) = \set{1, 2}, \quad f(2) = \emptyset, \quad f(3) = \set{1, 3}.$$
-We build the [[diagonal|V2H30SA654]] set $D = \set{x \in X : x \notin f(x)}$ and check that $D$ is not a value of $f$.
+Let $X = \{1, 2, 3\}$, and let $f \colon X \to \mathcal{P}(X)$ be the [[function|0EPAT51DXQ]] into the [[power set|00E0YZCERH]] with
+$$f(1) = \{1, 2\}, \quad f(2) = \emptyset, \quad f(3) = \{1, 3\}.$$
+We build the [[diagonal|V2H30SA654]] set $D = \{x \in X : x \notin f(x)\}$ and check that $D$ is not a value of $f$.
 
-1. Test $x = 1$: $1 \in f(1) = \set{1, 2}$, so $1 \notin D$.
+1. Test $x = 1$: $1 \in f(1) = \{1, 2\}$, so $1 \notin D$.
 2. Test $x = 2$: $2 \notin f(2) = \emptyset$, so $2 \in D$.
-3. Test $x = 3$: $3 \in f(3) = \set{1, 3}$, so $3 \notin D$.
-4. So $D = \set{2}$.
+3. Test $x = 3$: $3 \in f(3) = \{1, 3\}$, so $3 \notin D$.
+4. So $D = \{2\}$.
 5. $D \ne f(1)$, because $1 \in f(1)$ and $1 \notin D$.
 6. $D \ne f(2)$, because $2 \notin f(2)$ and $2 \in D$.
 7. $D \ne f(3)$, because $3 \in f(3)$ and $3 \notin D$.
@@ -29,13 +29,13 @@ We build the [[diagonal|V2H30SA654]] set $D = \set{x \in X : x \notin f(x)}$ and
 
 ## Remarks
 
-The example shows that the diagonal set $D$ disagrees with $f(x)$ at the element $x$ itself.
-Each of steps 5 to 7 uses only one element: the element $x$ is the witness that $D \ne f(x)$.
+The diagonal set $D$ disagrees with $f(x)$ at the element $x$ itself, and steps 5 to 7 each use just that one element as the witness.
 For a finite set the result also follows by counting: $\mathcal{P}(X)$ has $2^3 = 8$ elements, and the image of $f$ has at most $3$.
 The diagonal proof needs no count, so it works for every set, finite or infinite, and gives [[Cantor's theorem|0WTEMGYV2C]].
 
 The set $D$ changes with $f$.
-If we change $f(2)$ to $\set{2}$, then $2 \in f(2)$, so $D = \emptyset$, and again $D$ is not among $\set{1, 2}$, $\set{2}$, $\set{1, 3}$.
+If we change $f(2)$ to $\{2\}$, then $2 \in f(2)$, so $D = \emptyset$, and again $D$ is none of $\{1, 2\}$, $\{2\}$ and $\{1, 3\}$.
+If instead $f(3) = \{1, 2\}$, then $3 \notin f(3)$, so $D = \{2, 3\}$, which is also missing from the image.
 
 ## Explanations
 
@@ -43,18 +43,17 @@ If we change $f(2)$ to $\set{2}$, then $2 \in f(2)$, so $D = \emptyset$, and aga
 
 Three people each make a list of the people in the group whom they like, and a person may list themselves.
 Person $1$ lists $1$ and $2$, person $2$ lists nobody, and person $3$ lists $1$ and $3$.
-We form a new list: the people who did not list themselves.
+Now form a new list: the people who did not list themselves.
 Only person $2$ did not list themselves, so the new list is just person $2$.
 This new list differs from each person's list, because it disagrees with person $x$ about person $x$.
 
 ### L2 human
 
-We check the construction on a map from $X = \set{a, b}$ to $\mathcal{P}(X)$ with $f(a) = \set{b}$ and $f(b) = \set{a, b}$.
-
-1. $a \notin f(a) = \set{b}$, so $a \in D$.
-2. $b \in f(b) = \set{a, b}$, so $b \notin D$.
-3. So $D = \set{a}$.
-4. $D \ne f(a)$ at the element $a$, and $D \ne f(b)$ at the element $b$.
+We check the construction on a map from $X = \{a, b\}$ to $\mathcal{P}(X)$ with $f(a) = \{b\}$ and $f(b) = \{a, b\}$.
+Since $a \notin f(a) = \{b\}$, we get $a \in D$.
+Since $b \in f(b) = \{a, b\}$, we get $b \notin D$.
+So $D = \{a\}$, which differs from $f(a)$ at the element $a$ and from $f(b)$ at the element $b$.
 
 The typical use is the proof that no set maps onto its power set.
-A trap is to test $D$ against $f(x)$ at an element other than $x$: the difference is guaranteed only at $x$.
+Watch out: compare $D$ with $f(x)$ at the element $x$, since a difference is guaranteed only there.
+For instance, $D = \{a\}$ and $f(b) = \{a, b\}$ agree at the element $a$.

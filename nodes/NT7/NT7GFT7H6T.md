@@ -17,24 +17,32 @@ sources:
 ## Example
 
 Let $G$ be a finite simple graph whose [[minimum degree|0ZFZ8ZG3EN]] is $d \ge 2$.
-We show that $G$ has a [[cycle|0Z05VCBQ7Y]] of length at least $d + 1$.
+We show by the [[extremal principle|MD3MRG90W4]] that $G$ has a [[cycle|0Z05VCBQ7Y]] of length at least $d + 1$.
 
-1. A [[path|03NAMV1DHJ]] in $G$ uses each vertex at most once, so its length is less than the number of vertices. So $G$ has a longest path $P = v_0 v_1 \cdots v_k$.
-2. Every neighbor of $v_0$ lies on $P$. If a neighbor $w$ were not on $P$, then $w v_0 v_1 \cdots v_k$ would be a longer path, against the choice of $P$.
-3. The vertex $v_0$ has at least $d$ neighbors, and by step 2 they are among $v_1, \ldots, v_k$. So $k \ge d$.
-4. Let $v_j$ be the neighbor of $v_0$ with the largest index $j$. The $d$ or more neighbors have different indices in $\{1, \ldots, j\}$, so $j \ge d$.
-5. The vertices $v_0, v_1, \ldots, v_j$ are distinct, and $v_j$ is adjacent to $v_0$. So $v_0 v_1 \cdots v_j v_0$ is a cycle.
+1. A [[path|03NAMV1DHJ]] in $G$ uses each vertex at most once, and $G$ is finite, so $G$ has only finitely many paths.
+   So $G$ has a longest path $P = v_0 v_1 \cdots v_k$.
+2. Every neighbor of $v_0$ lies on $P$.
+   If a neighbor $w$ were off $P$, then $w v_0 v_1 \cdots v_k$ would be a longer path, against the choice of $P$.
+3. The vertex $v_0$ has at least $d$ neighbors, and by step 2 they are among $v_1, \ldots, v_k$.
+4. Let $v_j$ be the neighbor of $v_0$ with the largest index $j$.
+   The $d$ or more neighbors have distinct indices in $\{1, \ldots, j\}$, so $j \ge d$.
+5. The vertices $v_0, v_1, \ldots, v_j$ are distinct, consecutive ones are adjacent along $P$, and $v_j$ is adjacent to $v_0$.
+   So $v_0 v_1 \cdots v_j v_0$ is a cycle.
 6. This cycle has $j + 1 \ge d + 1$ vertices, so its length is at least $d + 1$.
 
 ## Remarks
 
-The example shows the [[extremal principle|MD3MRG90W4]] with a longest path: the end of a longest path has all its neighbors on the path.
-Step 1 is the existence part, and it uses that $G$ is finite.
+The end of a longest path has all its neighbors on the path, and this one fact does the work.
+Step 1 is the existence part of the extremal principle, and it uses that $G$ is finite.
 
 The bound $d + 1$ is the best possible in general.
-The complete graph on $d + 1$ vertices has minimum degree $d$, and it has no cycle longer than $d + 1$, because a cycle has at most as many vertices as the graph.
-For other graphs the cycle can be much longer: the cube graph, the [[hypercube graph|VG7DWJBYB9]] of dimension $3$, has minimum degree $3$ and a cycle through all $8$ vertices.
+The complete graph $K_{d+1}$ has minimum degree $d$, and no cycle in it is longer than $d + 1$, because a cycle has at most as many vertices as the graph.
+Other graphs can have much longer cycles.
+The [[hypercube graph|VG7DWJBYB9]] of dimension $3$ has minimum degree $3$, so the example promises a cycle of length at least $4$, and in fact it has a cycle through all $8$ vertices.
+
+Both hypotheses matter.
 When $d = 1$ the claim fails: a single edge has minimum degree $1$ and no cycle.
+When $G$ is infinite, step 1 fails: the path on all the integers, with $n$ joined to $n + 1$, has minimum degree $2$ and no cycle at all, because no longest path exists.
 
 ## Explanations
 
@@ -42,20 +50,17 @@ When $d = 1$ the claim fails: a single edge has minimum degree $1$ and no cycle.
 
 Walk through the graph along a path that is as long as possible, never visiting a vertex twice.
 Look at the first vertex of this path.
-All its neighbors must already be on the path, or else we could step to a new neighbor first and get a longer path.
+All its neighbors must already be on the path, or you could step to a new neighbor first and get a longer path.
 This vertex has at least $d$ neighbors, so the farthest one lies at least $d$ steps along the path.
 Jumping back from that neighbor to the start closes a cycle with at least $d + 1$ vertices.
 
 ### L2 human
 
-We follow the steps in the complete graph $K_4$, where $d = 3$.
-
-1. The vertices are $a, b, c, e$, and every two are adjacent. A longest path is $P = a\,b\,c\,e$, with $k = 3$.
-2. The neighbors of $a$ are $b$, $c$ and $e$, and all lie on $P$.
-3. The farthest neighbor is $e = v_3$, so $j = 3$.
-4. The cycle $a\,b\,c\,e\,a$ has $4 = d + 1$ vertices.
-
-The typical use is to start from a longest path and study its ends.
-The trap is step 1 in an infinite graph.
-The path on all the integers has minimum degree $2$ and no cycle at all.
-The argument fails there because no longest path exists.
+We follow the steps in the cube graph, with $d = 3$.
+Label the vertices by the strings $000, 001, \ldots, 111$, and join two strings that differ in exactly one place.
+One longest path visits all $8$ vertices:
+$$P = 000,\ 001,\ 011,\ 010,\ 110,\ 111,\ 101,\ 100.$$
+The neighbors of $v_0 = 000$ are $001 = v_1$, $010 = v_3$ and $100 = v_7$, all on $P$, as step 2 says.
+The farthest one is $v_7$, so $j = 7 \ge 3$, and the cycle $v_0 v_1 \cdots v_7 v_0$ has length $8$.
+Check: $100$ and $000$ differ in the first place only, so the closing edge exists.
+The typical use is to start from a longest path and study its ends; the argument promised length $4$ and here delivered $8$.

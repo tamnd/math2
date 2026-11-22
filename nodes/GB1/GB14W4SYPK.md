@@ -8,36 +8,39 @@ topics: [SGSVYFDSYK]
 
 ## Summary
 
-This topic is a part of [[reasoning and proof|SGSVYFDSYK]].
-It covers the pigeonhole principle, double counting, bijective proofs, invariants and monovariants, parity and colouring, the extremal principle, averaging and counting arguments, diagonalization and probabilistic proofs as general methods of proof.
-These methods come from combinatorics, but they are used in all areas of mathematics.
-Each page explains one method, shows it on worked examples, and gives a non-example where the method does not apply.
-The enumerative and extremal results that the methods prove have their own pages in the combinatorics areas.
+Some of the shortest proofs in mathematics never compute anything hard: they count, they watch a quantity that cannot change, or they look at the largest object in sight.
+These methods grew up in combinatorics and in problem solving, and they are now used in every part of [[reasoning and proof|SGSVYFDSYK]].
+The story starts with the pigeonhole principle, where five points in a unit square already force two points close together, and with double counting, where the handshake lemma falls out of counting pairs in two ways.
+Bijections and combinatorial proofs turn identities into statements about sets.
+Invariants, monovariants, parity and coloring then prove that a puzzle cannot be solved or that a process must stop, as in the mutilated chessboard and the 15 puzzle.
+The extremal principle and the averaging argument find good objects by looking at a best one or at the mean, and counting arguments find good objects by showing that there are fewer bad ones.
+The topic ends with probabilistic proofs and with diagonalization, the idea behind [[Cantor's diagonal argument|0XCH8QVDCQ]], which leads on to Gödel, Turing and the theory of computation.
+The results that these methods prove in enumerative and extremal combinatorics have their own pages in the combinatorics areas.
 
 ## Remarks
 
 ### Reading order
 
-1. [[Pigeonhole principle|0HGVCWQGY3]]: more objects than boxes put two objects into one box.
-2. [[Generalized pigeonhole principle|0BY7GN3449]]: some box receives at least the rounded-up mean number of objects.
-3. [[Infinite pigeonhole principle|0FS3RHF6KE]]: infinitely many objects in finitely many boxes put infinitely many into one box.
-4. [[Applications of the pigeonhole principle|5EAFG80VX6]]: rational approximation, divisible block sums, monotone subsequences and a party.
-5. [[Double counting|0F8YBHF2W3]]: count one set of pairs by rows and by columns.
-6. [[Bijection principle|0GV2573FP4]]: two finite sets have the same size exactly when a bijection exists.
-7. [[Combinatorial and bijective proof|SS07J9ZAQ7]]: prove an identity by counting, not by algebra.
-8. [[Invariants|8NQ190278Y]]: a quantity that no move changes rules out some targets.
-9. [[Monovariants|TP3GC5J08D]]: a quantity that moves one way proves that a process stops.
-10. [[Parity arguments|H9JT1XNDKQ]]: even and odd counts show that a configuration is impossible.
-11. [[Colouring proofs|90Q4PK1CST]]: a colouring of cells defines an invariant for tilings.
-12. [[Extremal principle|MD3MRG90W4]]: a largest or smallest object has extra properties.
-13. [[Averaging argument|HXP9VMXV8S]]: some element is at least the average.
-14. [[Counting arguments for existence|1KVSS0KRZA]]: more objects than bad cases give a good object.
+1. [[Pigeonhole principle|0HGVCWQGY3]]: how to force a coincidence, and why choosing the boxes is the real skill.
+2. [[Generalized pigeonhole principle|0BY7GN3449]]: the sharp count $\lceil n/k \rceil$ for $n$ objects in $k$ boxes.
+3. [[Infinite pigeonhole principle|0FS3RHF6KE]]: an infinite box among finitely many, the first step toward Bolzano-Weierstrass and Ramsey theory.
+4. [[Applications of the pigeonhole principle|5EAFG80VX6]]: four worked choices of boxes, from rational approximation to monotone subsequences.
+5. [[Double counting|0F8YBHF2W3]]: count one set of pairs by rows and by columns, and get the handshake lemma for free.
+6. [[Bijection principle|0GV2573FP4]]: why a one-to-one matching proves that two finite sets have the same size.
+7. [[Combinatorial and bijective proof|SS07J9ZAQ7]]: how to prove an identity by naming the set that both sides count.
+8. [[Invariants|8NQ190278Y]]: a quantity that no move changes, and how it shows that the 15 puzzle with two tiles swapped is unsolvable.
+9. [[Monovariants|TP3GC5J08D]]: a quantity that moves one way, and how it proves that a process stops.
+10. [[Parity arguments|H9JT1XNDKQ]]: even and odd counts that rule out a configuration.
+11. [[Coloring proofs|90Q4PK1CST]]: colorings of a board that make tiling problems into counts, as in the mutilated chessboard.
+12. [[Extremal principle|MD3MRG90W4]]: why a largest or smallest object has extra properties, and why the extremum must exist.
+13. [[Averaging argument|HXP9VMXV8S]]: some element is at least the average, as in a cut with half the edges of a graph.
+14. [[Counting arguments for existence|1KVSS0KRZA]]: more objects than bad cases give a good object, as in transcendental numbers by countability.
 15. [[Probabilistic proofs of non-probabilistic theorems|6YY8W7HG5M]]: probability as a tool in analysis and number theory.
-16. [[Diagonalization as a technique|V2H30SA654]]: build an object that differs from each object of a list.
+16. [[Diagonalization as a technique|V2H30SA654]]: how to build an object that differs from every object on a list.
 
 ### Prerequisites
 
-- [[Basic proof methods|958EF46EYJ]]: direct proof, proof by contradiction, proof by contrapositive and proof by cases. Most pages of this topic use proof by contradiction.
-- [[Induction and well-ordering as proof methods|EEH2F76CYQ]]: induction and the well-ordering principle, used in rows 9 and 12.
-- [[Counting principles, permutations and combinations|SQX86RBN8M]]: the rule of sum, the rule of product and binomial coefficients, used in rows 5 to 7 and 14.
-- [[Graph theory|BCQTYD70W4]] is optional background: some examples use graphs, vertices, edges and degrees, and each page defines what it uses.
+- [[Basic proof methods|958EF46EYJ]]: direct proof, proof by contradiction, proof by contrapositive and proof by cases, since most pages here use proof by contradiction.
+- [[Induction and well-ordering as proof methods|EEH2F76CYQ]]: induction and the well-ordering principle, used for monovariants and for the extremal principle.
+- [[Counting principles, permutations and combinations|SQX86RBN8M]]: the rule of sum, the rule of product and binomial coefficients, used for double counting, combinatorial proofs and counting arguments.
+- [[Graph theory|BCQTYD70W4]] is optional background, since some examples use vertices, edges and degrees, and each page defines what it uses.
