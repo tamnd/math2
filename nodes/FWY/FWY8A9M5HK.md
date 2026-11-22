@@ -28,7 +28,7 @@ The same holds for an $n \times n$ matrix $A$ over $F$, with $E_\lambda = \ker(A
 
 ## Remarks
 
-### Three cases in one table
+### Three small cases
 
 The theorem allows every value between the bounds, and small matrices show the cases.
 For the [[3 by 3 matrix with 4 on the diagonal and 1 elsewhere|7XFGVVTZ2X]], the eigenvalue $3$ has $m = 2$, and $A - 3I$ has rank $1$, so $\dim E_3 = 2$: the upper bound is reached.

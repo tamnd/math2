@@ -19,85 +19,114 @@ sources:
 
 ## Summary
 
+The eigenspace of a linear map for a scalar $\lambda$ collects all the vectors that the map multiplies by $\lambda$, together with the zero vector.
+It is a subspace, so it can be described by a basis, and it is the place where the map acts as plain multiplication by $\lambda$.
 Let $T \colon V \to V$ be an [[endomorphism|0J7H0YBFDJ]] of a vector space $V$ over a field $F$, and let $\lambda \in F$.
-The eigenspace of $T$ for $\lambda$ is the subspace $E_\lambda = \ker(T - \lambda \id_V) = \{v \in V : T(v) = \lambda v\}$.
-Its nonzero vectors are the [[eigenvectors|0N6960W0BV]] of $T$ for $\lambda$.
-So $E_\lambda \ne 0$ exactly when $\lambda$ is an [[eigenvalue|0BQAA2BK3Q]] of $T$.
-It is an [[invariant subspace|0ACX5QT8TE]] on which $T$ acts as multiplication by $\lambda$.
+The *eigenspace* of $T$ for $\lambda$ is
+$$E_\lambda = \ker(T - \lambda \id_V) = \{ v \in V : T(v) = \lambda v \}.$$
+Its nonzero vectors are the [[eigenvectors|0N6960W0BV]] of $T$ for $\lambda$, so $E_\lambda \ne 0$ exactly when $\lambda$ is an [[eigenvalue|0BQAA2BK3Q]] of $T$.
+The [[formal definition|0AYEPBQMAW]] states this, and it allows every $\lambda$, also when $E_\lambda = 0$.
 
 ## Motivation
 
-The eigenvectors for one eigenvalue are not a subspace, because they exclude $0$.
-Adding $0$ gives a subspace, the [[kernel|0S23E6YE83]] of $T - \lambda \id_V$.
-Its dimension counts the independent directions that $T$ stretches by $\lambda$.
-This dimension, the [[geometric multiplicity|099TWVJ909]], decides whether $T$ can be diagonalised.
+The eigenvectors for one eigenvalue do not form a subspace, because the zero vector is missing.
+Adding it repairs this, and the result is the [[kernel|0S23E6YE83]] of the linear map $T - \lambda \id_V$.
+So we can use all the tools for subspaces: bases, dimension and row reduction.
+
+The dimension of $E_\lambda$ counts the independent directions that $T$ stretches by $\lambda$.
+This number is the [[geometric multiplicity|099TWVJ909]] of $\lambda$.
+The sub-area on [[diagonalization|Z6S6PWMJPH]] shows that a map has a basis of eigenvectors exactly when these dimensions add up to $\dim V$.
 
 ## Notation
 
-The formal definition is the [[definition of an eigenspace|0AYEPBQMAW]].
-Common symbols are $E_\lambda$, $E_\lambda(T)$, $V_\lambda$ and $E(\lambda, T)$, the last one in Axler.
-Mathlib writes `Module.End.eigenspace T λ`.
+Books write $E_\lambda$, $E_\lambda(T)$, $V_\lambda$ or $E(\lambda, T)$; Axler uses the last one.
+For a matrix $A$, the eigenspace $E_\lambda(A)$ is the null space of $A - \lambda I$.
+In Mathlib it is `Module.End.eigenspace T λ`.
+Do not confuse $E_\lambda$ with the generalized eigenspace $\ker (T - \lambda \id_V)^n$, which can be larger.
 
 ## Remarks
 
-### Examples
+### A first computation
 
-- [[The 3 by 3 matrix with 4 on the diagonal and 1 elsewhere|7XFGVVTZ2X]] has the plane $x + y + z = 0$ as eigenspace for $3$ and the line through $(1, 1, 1)$ as eigenspace for $6$.
-- [[The derivative on smooth functions|1SKH5XJ5RB]] has the line spanned by $e^{\lambda x}$ as eigenspace for $\lambda$.
-- [[Projections, reflections and shears of the plane|HJ117SV1AN]]: a reflection has a line of fixed vectors and a line of flipped vectors.
-- The eigenspace of $\id_V$ for $1$ is all of $V$, and the eigenspace of the zero map for $0$ is all of $V$.
+Take $A = \begin{pmatrix} 4 & 1 & 1 \\ 1 & 4 & 1 \\ 1 & 1 & 4 \end{pmatrix}$ and $\lambda = 3$.
+Every row of $A - 3I$ is $(1, 1, 1)$, so the system $(A - 3I)v = 0$ is the single equation
+$$v_1 + v_2 + v_3 = 0.$$
+Choose $v_2$ and $v_3$ freely; the basis $(1, -1, 0)$ and $(1, 0, -1)$ shows that $E_3$ is a plane, of dimension $2$.
+Check: $A(1, -1, 0) = (3, -3, 0)$ and $A(1, 0, -1) = (3, 0, -3)$.
+[[The 3 by 3 matrix with 4 on the diagonal and 1 elsewhere|7XFGVVTZ2X]] studies this matrix in full.
 
-### Non-examples
+### A basis by row reduction
 
-- [[The union of two eigenspaces is not a subspace|7WYEAWSYNZ]].
-- For a scalar $\lambda$ that is not an eigenvalue, $E_\lambda = 0$. Some authors do not call this zero space an eigenspace.
+For the same matrix and $\lambda = 6$, row reduce $A - 6I$:
+$$\begin{pmatrix} -2 & 1 & 1 \\ 1 & -2 & 1 \\ 1 & 1 & -2 \end{pmatrix} \longrightarrow \begin{pmatrix} 1 & -2 & 1 \\ 0 & -3 & 3 \\ 0 & 3 & -3 \end{pmatrix} \longrightarrow \begin{pmatrix} 1 & 0 & -1 \\ 0 & 1 & -1 \\ 0 & 0 & 0 \end{pmatrix}.$$
+The first step swaps rows $1$ and $2$ and clears the first column, and the second step clears the second column and scales.
+The reduced system says $v_1 = v_3$ and $v_2 = v_3$, so $E_6$ is the line spanned by $(1, 1, 1)$.
+Check: $A(1, 1, 1) = (6, 6, 6)$.
+In general, by [[rank-nullity|0W4FSW1TVB]], $\dim E_\lambda = n - \operatorname{rank}(A - \lambda I)$; here $3 - 2 = 1$.
 
-### Basic properties
+### An invariant subspace
 
-- $E_\lambda$ is a subspace, because it is the kernel of the linear map $T - \lambda \id_V$.
-- $T(E_\lambda) \subseteq E_\lambda$, and $T$ restricted to $E_\lambda$ is $\lambda \id_{E_\lambda}$.
-- For distinct scalars $\lambda_1, \dots, \lambda_k$, the sum $E_{\lambda_1} + \dots + E_{\lambda_k}$ is direct, by the theorem that [[eigenvectors for distinct eigenvalues are linearly independent|0HNMFG8F8K]].
-- So, for $\dim V = n$, the dimensions of the eigenspaces add up to at most $n$.
-- $T$ is [[diagonalisable|07SQCNV233]] exactly when $V$ is the direct sum of its eigenspaces.
-- In finite dimension, $\dim E_\lambda = \dim V - \operatorname{rank}(T - \lambda \id_V)$, by [[rank-nullity|0W4FSW1TVB]].
-- If $S$ commutes with $T$, then $S(E_\lambda) \subseteq E_\lambda$.
+The map sends its eigenspace into itself: if $v \in E_\lambda$, then $T(v) = \lambda v$ lies in $E_\lambda$ again.
+So $E_\lambda$ is an [[invariant subspace|0ACX5QT8TE]], and $T$ restricted to it is $\lambda \id_{E_\lambda}$.
+For each eigenvalue it is a nonzero invariant subspace, and it is the largest subspace on which $T$ acts as the scalar $\lambda$.
+Maps that commute with $T$ also keep it: if $ST = TS$ and $v \in E_\lambda$, then $T(Sv) = S(Tv) = \lambda Sv$, so $Sv \in E_\lambda$.
+
+### Other examples
+
+The derivative on smooth functions has the line spanned by $e^{\lambda x}$ as its eigenspace for $\lambda$, as [[the eigenvalues of the derivative|1SKH5XJ5RB]] show.
+A reflection of the plane has a line of fixed vectors and a line of reversed vectors as its two eigenspaces, as in [[projections, reflections and shears of the plane|HJ117SV1AN]].
+At the extremes, the eigenspace of $\id_V$ for $1$ is all of $V$, and so is the eigenspace of the zero map for $0$.
+
+### The rules you can use
+
+For distinct scalars $\lambda_1, \dots, \lambda_k$, the sum $E_{\lambda_1} + \dots + E_{\lambda_k}$ is direct, by the theorem that [[eigenvectors with distinct eigenvalues are linearly independent|0HNMFG8F8K]].
+So in a space of dimension $n$ the dimensions of all the eigenspaces add up to at most $n$.
+The map is [[diagonalizable|07SQCNV233]] exactly when these dimensions add up to $n$, that is, when $V$ is the direct sum of the eigenspaces.
+For the matrix above, $2 + 1 = 3$, so it is diagonalizable.
+
+### Watch out
+
+The union of two eigenspaces is not a subspace.
+For $\operatorname{diag}(1, 2)$, the vectors $(1, 0) \in E_1$ and $(0, 1) \in E_2$ add up to $(1, 1)$, which lies in neither, as [[the union of two eigenspaces is not a subspace|7WYEAWSYNZ]] shows.
+The right object is the sum $E_1 + E_2$.
+A second trap is to take the generalized eigenspace for the eigenspace.
+For the shear $H = \begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$ we have $(H - I)^2 = 0$, so the generalized eigenspace is the whole plane, while $E_1 = \ker(H - I)$ is only the horizontal axis.
 
 ### History
 
-Lagrange saw that the principal axes of a rotating rigid body are the eigenvectors of the inertia matrix.
-Cauchy used this work to classify quadric surfaces, and he generalized it to arbitrary dimensions.
+Lagrange saw that the principal axes of a rotating rigid body are the eigenvectors of its inertia matrix.
+Cauchy used this work to classify the quadric surfaces, and he extended it to any number of dimensions.
 
-### Common errors
+### Try it
 
-- Forgetting the zero vector. The eigenspace contains $0$; the set of eigenvectors does not.
-- Taking the union of eigenspaces instead of their sum.
-- Confusing the eigenspace with the generalised eigenspace $\ker(T - \lambda \id_V)^n$. They differ when $\lambda$ is defective, as for the shear.
+First, find the eigenspace of $\operatorname{diag}(2, 2, 5)$ for $2$.
+The equation $(A - 2I)v = (0, 0, 3v_3) = 0$ gives $v_3 = 0$, so $E_2$ is the plane spanned by $e_1$ and $e_2$.
+
+Second, find $E_0$ for $\begin{pmatrix} 1 & 2 \\ 2 & 4 \end{pmatrix}$.
+Both rows give $v_1 + 2v_2 = 0$, so $E_0$ is the line spanned by $(2, -1)$.
 
 ## Explanations
 
 ### L1 human
 
-For one stretch factor $\lambda$, collect all vectors that the map stretches by exactly $\lambda$.
-Add the zero vector.
-The result is a line, a plane or a bigger flat space through the origin.
-This space is the eigenspace for $\lambda$.
-On it, the map is just "multiply by $\lambda$".
+Fix one stretch factor, say $3$, and collect all the arrows that the map stretches by exactly $3$.
+Add the zero arrow to the collection.
+The result is always a flat space through the origin: a line, a plane, or something bigger.
+This flat space is the eigenspace for $3$, and on it the map just multiplies by $3$.
 
 ### L2 human
 
-We compute the eigenspace of $A = \begin{pmatrix} 4 & 1 & 1 \\ 1 & 4 & 1 \\ 1 & 1 & 4 \end{pmatrix}$ for $\lambda = 3$.
-
-1. $A - 3I$ has three equal rows $(1, 1, 1)$.
-2. So $(A - 3I)v = 0$ means $v_1 + v_2 + v_3 = 0$.
-3. A basis of the solutions is $(1, -1, 0)^{\mathsf{T}}$ and $(1, 0, -1)^{\mathsf{T}}$, so $\dim E_3 = 2$.
-4. Check: $A (1, -1, 0)^{\mathsf{T}} = (3, -3, 0)^{\mathsf{T}}$ and $A (1, 0, -1)^{\mathsf{T}} = (3, 0, -3)^{\mathsf{T}}$.
-
-The typical use is to find a basis of each eigenspace and to join these bases into an eigenbasis.
-A trap: a basis of $E_\lambda$ comes from the null space of $A - \lambda I$, not from the column space.
+Here is a typical use: build a basis of eigenvectors for $A = \begin{pmatrix} 4 & 1 & 1 \\ 1 & 4 & 1 \\ 1 & 1 & 4 \end{pmatrix}$.
+The eigenspaces found above give the three vectors $(1, -1, 0)$, $(1, 0, -1)$ and $(1, 1, 1)$.
+Put them into the columns of $S$, and expand along the first row:
+$$\det S = \det \begin{pmatrix} 1 & 1 & 1 \\ -1 & 0 & 1 \\ 0 & -1 & 1 \end{pmatrix} = 1 \cdot 1 - 1 \cdot (-1) + 1 \cdot 1 = 3 \ne 0.$$
+So the three vectors form a basis, and $S^{-1} A S = \operatorname{diag}(3, 3, 6)$.
+The method always works this way: a basis of each eigenspace, joined together, gives an independent set.
+Watch out: the basis of $E_\lambda$ comes from the null space of $A - \lambda I$, not from its column space.
 
 ### L3 human
 
 The eigenspace $E_\lambda$ is the largest subspace on which $T$ acts as the scalar $\lambda$.
-For a commuting family of endomorphisms, each eigenspace of one member is invariant under the others, which leads to simultaneous diagonalisation.
-In the module language, $E_\lambda$ is the submodule of $V$ killed by $x - \lambda$ in $F[x]$.
-For self-adjoint operators on inner product spaces, distinct eigenspaces are orthogonal.
+For a family of commuting endomorphisms, each eigenspace of one member is invariant under all the others, and this leads to simultaneous diagonalization.
+In the language of modules over $F[x]$, with $x$ acting as $T$, the eigenspace $E_\lambda$ is the set of elements killed by $x - \lambda$.
+For self-adjoint operators on inner product spaces, eigenspaces for distinct eigenvalues are orthogonal, which is the start of the [[spectral theorems|3YM9EK6VMB]].
