@@ -17,6 +17,7 @@ sources:
 
 ## Statement
 
+When the basis of a space changes by a matrix $P$, the dual basis changes by the inverse transpose of $P$.
 Let $V$ be a vector space of dimension $n$ over a field $F$.
 Let $B = (b_1, \dots, b_n)$ and $C = (c_1, \dots, c_n)$ be bases of $V$, with [[dual bases|0W6M3PSD08]] $(b_i^*)$ and $(c_i^*)$.
 Let $P = (p_{ij})$ be the [[change of basis matrix|0KWXYZPJKN]] with $c_j = \sum_{i=1}^n p_{ij} b_i$ for each $j$.
@@ -27,43 +28,58 @@ Equivalently, the coordinates of a form change by $P^{\mathsf{T}}$: if $f = \sum
 
 ## Remarks
 
+### A first check in the plane
+
+Take $B$ the standard basis of $\R^2$ and $C$ the basis $c_1 = (1, 1)$, $c_2 = (1, 2)$.
+The columns of $P$ are $c_1$ and $c_2$, and
+$$P = \begin{pmatrix} 1 & 1 \\ 1 & 2 \end{pmatrix}, \qquad P^{-1} = \begin{pmatrix} 2 & -1 \\ -1 & 1 \end{pmatrix} = (P^{-1})^{\mathsf{T}}.$$
+Column $1$ of $Q$ gives $c_1^* = 2e_1^* - e_2^*$, the form $2x - y$, and column $2$ gives $c_2^* = -e_1^* + e_2^*$, the form $-x + y$.
+Check: $c_1^*(c_1) = 2 - 1 = 1$, $c_1^*(c_2) = 2 - 2 = 0$, $c_2^*(c_1) = -1 + 1 = 0$ and $c_2^*(c_2) = -1 + 2 = 1$.
+The [[worked example|YMRSMANN2E]] finds the same forms as the rows of $P^{-1}$, which is the same thing, since the rows of $P^{-1}$ are the columns of $(P^{-1})^{\mathsf{T}}$.
+
 ### Why each hypothesis is needed
 
-- Finite dimension is needed: in infinite dimension the coordinate forms are not a basis of $V^*$, so there is no change of basis matrix between "dual bases".
-- Both families must be bases. If $C$ is not a basis, then $P$ is not invertible and $C$ has no dual basis.
+Finite dimension is needed, because in infinite dimension the coordinate forms of a basis are not a basis of $V^*$, so there is no change of basis matrix between dual bases.
+Both families must be bases.
+If $C$ is not a basis, then $P$ is not invertible, and $C$ has no dual basis to compare with.
 
-### Consequences
+### What it gives you
 
-- Vectors and forms change in opposite ways. The coordinates of a vector change by $P^{-1}$, and the coordinates of a form change by $P^{\mathsf{T}}$. The value $f(v)$, the product of the two coordinate columns, stays the same: $\gamma^{\mathsf{T}} (P^{-1} \alpha) = \beta^{\mathsf{T}} P P^{-1} \alpha = \beta^{\mathsf{T}} \alpha$.
-- The map $V \to V^*$ with $b_i \mapsto b_i^*$ depends on the basis. The map from $C$ sends $v$ with $B$-coordinates $\alpha$ to the form with $B^*$-coordinates $(P^{-1})^{\mathsf{T}} P^{-1} \alpha$. This equals $\alpha$ for all $\alpha$ only when $P^{\mathsf{T}} P = I$.
-- In $F^n$ with $B$ the standard basis, the rows of $P^{-1}$ are the forms $c_k^*$.
+Vectors and forms change in opposite ways, so that the value of a form at a vector stays the same.
+If $v$ has $B$-coordinates $\alpha$, then its $C$-coordinates are $P^{-1} \alpha$.
+The form $f$ has $C^*$-coordinates $\gamma = P^{\mathsf{T}} \beta$, and the value is
+$$f(v) = \gamma^{\mathsf{T}} (P^{-1} \alpha) = \beta^{\mathsf{T}} P P^{-1} \alpha = \beta^{\mathsf{T}} \alpha.$$
 
-### Converse
+The lemma also measures how much the isomorphism $b_i \mapsto b_i^*$ depends on the basis.
+The isomorphism that $C$ gives sends $v$ to the form with $B^*$-coordinates $Q P^{-1} \alpha = (P^{-1})^{\mathsf{T}} P^{-1} \alpha$.
+This equals $\alpha$ for every $\alpha$ only when $P^{\mathsf{T}} P = I$, so two bases give the same isomorphism exactly when the change of basis matrix is orthogonal.
 
-If $Q^{\mathsf{T}} P = I$ for an $n \times n$ matrix $Q$, then the forms $\sum_i q_{ik} b_i^*$ satisfy the defining equations of the dual basis of $C$, so they are the dual basis of $C$.
+### The converse
+
+If $Q$ is an $n \times n$ matrix with $Q^{\mathsf{T}} P = I$, then the forms $\sum_i q_{ik} b_i^*$ take the values $\delta_{kj}$ at the vectors $c_j$, by step 4 of the [[proof|85TB46MDWE]].
+So they are the dual basis of $C$, and $Q = (P^{-1})^{\mathsf{T}}$ is the only matrix with this property.
 
 ### Generalizations
 
-The matrix of the [[dual map|0AZ5ARP287]] in dual bases is the transpose, by the theorem on the [[matrix of the dual map|0ZPB3180AY]].
+The lemma is a case of the theorem on the [[matrix of the dual map|0ZPB3180AY]], which says that in dual bases the [[dual map|0AZ5ARP287]] has the transpose matrix.
 The rule $\gamma = P^{\mathsf{T}} \beta$ is that theorem for the identity map of $V$, with the basis $C$ on the source and $B$ on the target.
 
 ## Explanations
 
 ### L1 human
 
-When the basis of a space changes by a matrix $P$, the dual basis changes by the matrix $(P^{-1})^{\mathsf{T}}$.
-For example, if every basis vector is doubled, then every coordinate form is halved.
-Vectors and coordinate forms change in "opposite" ways, so that the value of a form at a vector stays the same.
+When the basis of a space changes, the rules that read off coordinates change too, but in the opposite way.
+For example, if every basis vector is doubled, then every coordinate is halved, so every coordinate form is halved.
+This opposite change is what keeps the value of a form at a vector the same.
 
 ### L2 human
 
-We check the lemma for the basis $c_1 = (1, 1)$, $c_2 = (1, 2)$ of $\R^2$, with $B$ the standard basis.
-
-1. The columns of $P$ are $c_1$ and $c_2$: $P = \begin{pmatrix} 1 & 1 \\ 1 & 2 \end{pmatrix}$, with $\det P = 1$.
-2. Then $P^{-1} = \begin{pmatrix} 2 & -1 \\ -1 & 1 \end{pmatrix}$, and $Q = (P^{-1})^{\mathsf{T}}$ is the same matrix.
-3. Column $1$ of $Q$ gives $c_1^* = 2 e_1^* - e_2^*$, that is, $c_1^*(x, y) = 2x - y$.
-4. Column $2$ of $Q$ gives $c_2^* = -e_1^* + e_2^*$, that is, $c_2^*(x, y) = -x + y$.
-5. Check: $c_1^*(c_1) = 2 - 1 = 1$, $c_1^*(c_2) = 2 - 2 = 0$, $c_2^*(c_1) = 0$, $c_2^*(c_2) = -1 + 2 = 1$.
-
-The typical use is to transform covariant quantities, such as gradients, under a change of coordinates.
-A trap: using $P$ instead of $(P^{-1})^{\mathsf{T}}$ for the forms gives wrong values $f(v)$.
+Here is a typical use: the coordinates of a form in a new basis.
+Let $f(x, y) = 3x + y$ on $\R^2$, so $\beta = (3, 1)$ in the standard dual basis, and take $c_1 = (1, 1)$, $c_2 = (1, 2)$ as above.
+The rule $\gamma = P^{\mathsf{T}} \beta$ gives
+$$\gamma = \begin{pmatrix} 1 & 1 \\ 1 & 2 \end{pmatrix} \begin{pmatrix} 3 \\ 1 \end{pmatrix} = \begin{pmatrix} 4 \\ 5 \end{pmatrix},$$
+so $f = 4c_1^* + 5c_2^*$.
+Check: $4(2x - y) + 5(-x + y) = 3x + y$.
+The new coordinates are just the values $f(c_1) = 4$ and $f(c_2) = 5$, and this is why the rule uses $P^{\mathsf{T}}$, whose rows are the vectors $c_j$.
+This is how covariant quantities, such as gradients, transform under a change of coordinates.
+Watch out: using $P^{-1}$ in place of $P^{\mathsf{T}}$ for the form coordinates gives wrong values of $f(v)$.
