@@ -17,6 +17,7 @@ sources:
 
 ## Statement
 
+Elimination without row exchanges works exactly when the determinants of the upper left corners of the matrix are nonzero, and each pivot is a quotient of two of these determinants.
 Let $F$ be a [[field|0QA8CHH8MG]] and let $A$ be an $n \times n$ matrix over $F$.
 For $k = 1, \dots, n$, let $A_k$ be the upper left $k \times k$ submatrix of $A$, and let $\Delta_k = \det A_k$ be its [[determinant|00KDZRW4C0]]; set $\Delta_0 = 1$.
 
@@ -26,28 +27,36 @@ For $k = 1, \dots, n$, let $A_k$ be the upper left $k \times k$ submatrix of $A$
 
 ## Remarks
 
-### Why each hypothesis is needed
+### The theorem at work
 
-- Invertibility is needed for the "only if" in part 3. The singular matrix $\begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}$ equals $I_2$ times itself, so it has an LU decomposition, but $\Delta_1 = 0$.
-- In part 1 the last minor $\Delta_n$ does not matter: $\begin{pmatrix} 1 & 1 \\ 1 & 1 \end{pmatrix} = \begin{pmatrix} 1 & 0 \\ 1 & 1 \end{pmatrix}\begin{pmatrix} 1 & 1 \\ 0 & 0 \end{pmatrix}$ has $\Delta_2 = 0$.
-- The minors $\Delta_k$ with $k < n$ matter: the [[exchange matrix|HZR79K1TZ6]] $\begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$ is invertible with $\Delta_1 = 0$, and it has no LU decomposition.
+Take $A = \begin{pmatrix} 2 & 1 & 1 \\ 4 & 3 & 3 \\ 8 & 7 & 9 \end{pmatrix}$ and compute the corner determinants:
+$$\Delta_1 = 2, \qquad \Delta_2 = 2 \cdot 3 - 1 \cdot 4 = 2, \qquad \Delta_3 = 2(27 - 21) - 1(36 - 24) + 1(28 - 24) = 4.$$
+All three are nonzero, so $A = LU$ exists, and the pivots will be
+$$\frac{\Delta_1}{\Delta_0} = 2, \qquad \frac{\Delta_2}{\Delta_1} = 1, \qquad \frac{\Delta_3}{\Delta_2} = 2.$$
+The [[worked LU example|B61PAXBBHQ]] finds $U$ with diagonal $2, 1, 2$, as predicted, before doing any elimination.
 
-### Consequences
+### Why the hypotheses are needed
 
-- Elimination without row exchanges succeeds on $A$ exactly when the pivots $\Delta_k/\Delta_{k-1}$ are nonzero.
-- Each [[positive definite|0KX66CZMBB]] matrix has all $\Delta_k > 0$, so it has an LU decomposition with positive pivots.
-- A strictly diagonally dominant matrix also has all $\Delta_k \ne 0$, so elimination needs no row exchanges.
-- The entry $u_{nn}$ equals $a_{nn} - c^{\mathsf{T}} A_{n-1}^{-1} b$ in the notation of the proof, which is the [[Schur complement|6HWFBXYPZP]] of $A_{n-1}$.
+The minors $\Delta_k$ with $k < n$ matter.
+The [[exchange matrix|HZR79K1TZ6]] $\begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$ is invertible with $\Delta_1 = 0$, and it has no LU decomposition.
+The last minor $\Delta_n$ does not matter for part 1:
+$$\begin{pmatrix} 1 & 1 \\ 1 & 1 \end{pmatrix} = \begin{pmatrix} 1 & 0 \\ 1 & 1 \end{pmatrix} \begin{pmatrix} 1 & 1 \\ 0 & 0 \end{pmatrix}$$
+has $\Delta_2 = 0$.
+Invertibility is needed for the "only if" in part 3: the singular matrix $\begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}$ equals $I_2$ times itself, so it has an LU decomposition, but $\Delta_1 = 0$.
+The same matrix shows that the converse of part 1 fails.
 
-### Converse
+### What it gives you
 
-The converse of part 1 fails: $\begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}$ has an LU decomposition and $\Delta_1 = 0$.
-Part 3 is the correct biconditional for invertible matrices.
+For an invertible matrix, elimination without row exchanges succeeds exactly when $\Delta_1, \dots, \Delta_{n-1}$ are nonzero, and this can be tested before you start.
+Each [[positive definite|0KX66CZMBB]] matrix has all $\Delta_k > 0$, so it has an LU decomposition with positive pivots.
+A strictly diagonally dominant matrix has strictly diagonally dominant leading blocks, hence all $\Delta_k \ne 0$, so elimination on it needs no row exchanges either.
+Write $A$ in blocks as $\begin{pmatrix} A' & b \\ c^{\mathsf{T}} & d \end{pmatrix}$ with $A' = A_{n-1}$; then the last pivot is $u_{nn} = d - c^{\mathsf{T}} A'^{-1} b$, the [[Schur complement|6HWFBXYPZP]] of $A'$.
 
 ### Generalizations
 
-- With a [[permutation matrix|08SP3DF8NB]] $P$, each square matrix over a field has $PA = LU$. This is shown in the [[worked $PA = LU$ example|EYPH6X8N5G]] and in the concept of [[LU decomposition|0RKG5YW66Y]].
-- The same block proof works for matrices over a commutative ring if each $\Delta_k$ with $k < n$ is a unit.
+With a [[permutation matrix|08SP3DF8NB]] $P$, each square matrix over a field has $PA = LU$, as in the [[worked $PA = LU$ example|EYPH6X8N5G]].
+The same block proof works over a commutative ring if each $\Delta_k$ with $k < n$ is a unit.
+Part 2 holds over every commutative ring, because $A_k = L_k U_k$ for the leading blocks.
 
 ## Explanations
 
@@ -59,16 +68,11 @@ Each pivot is the quotient of two such determinants.
 
 ### L2 human
 
-Take $A = \begin{pmatrix} 2 & 1 & 1 \\ 4 & 3 & 3 \\ 8 & 7 & 9 \end{pmatrix}$.
-
-1. $\Delta_1 = 2$.
-2. $\Delta_2 = 2 \cdot 3 - 1 \cdot 4 = 2$.
-3. $\Delta_3 = \det A = 2(27 - 21) - 1(36 - 24) + 1(28 - 24) = 12 - 12 + 4 = 4$.
-4. So the pivots are $\Delta_1/\Delta_0 = 2$, $\Delta_2/\Delta_1 = 1$ and $\Delta_3/\Delta_2 = 2$.
-5. The [[worked LU example|B61PAXBBHQ]] finds $U$ with diagonal $2, 1, 2$, as predicted.
+Use the test when you want to know whether a given matrix needs row exchanges, without running elimination.
+For a $2 \times 2$ matrix, it says that $A = LU$ with $A$ invertible exactly when $a_{11} \ne 0$, and then the pivots are $a_{11}$ and $\det A / a_{11}$.
+A trap: the test is about the corner determinants, not the diagonal entries; $\begin{pmatrix} 1 & 1 \\ 1 & 0 \end{pmatrix}$ has $a_{22} = 0$ but $\Delta_1 = 1$ and $\Delta_2 = -1$, so it has an LU decomposition.
 
 ### L3 human
 
-Part 2 holds over each commutative ring, because $A_k = L_k U_k$ for the leading blocks.
-The quotients $\Delta_k/\Delta_{k-1}$ show that the pivots are rational functions of the entries.
-This matters for elimination over $\mathbb{Z}$ with exact division, as in the Bareiss algorithm.
+The quotients $\Delta_k/\Delta_{k-1}$ show that the pivots are rational functions of the entries of $A$.
+This matters for exact elimination over $\mathbb{Z}$, where fraction-free methods such as the Bareiss algorithm keep every intermediate entry an integer minor of $A$.
