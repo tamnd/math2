@@ -37,7 +37,8 @@ This sum is direct, because eigenvectors with distinct eigenvalues are linearly 
 
 Change $A$ to $2I$, so that both diagonal entries agree.
 Then $E_2$ is the whole plane, and the union of the eigenspaces is a subspace.
-So the union fails to be a subspace exactly because two different eigenvalues each have their own line.
+In general a union of two subspaces is a subspace only when one contains the other.
+Two eigenspaces for distinct eigenvalues meet only in $0$, so their union is never a subspace when both are nonzero.
 
 ## Explanations
 
