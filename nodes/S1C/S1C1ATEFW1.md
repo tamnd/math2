@@ -15,35 +15,44 @@ sources:
 
 ## Proof
 
-We first prove that the row rank is at most the column rank for every matrix, and then apply this to the transpose.
+We prove that the row rank is at most the column rank for every matrix, and then we apply this inequality to the transpose.
+Let $A = (a_{ik})$ be an $m \times n$ matrix over a field $F$, with rows in $F^n$ and columns $\alpha_1, \dots, \alpha_n$ in $F^m$.
 
-1. Let $A = (a_{ik})$ be an $m \times n$ matrix over $F$. We view its rows as vectors of $F^n$ and its columns as vectors of $F^m$.
-2. Let $\operatorname{Row}(A) \subseteq F^n$ be the [[row space|069MCGX635]] and $\operatorname{Col}(A) \subseteq F^m$ the [[column space|03AJKXH1AV]]. The spaces $F^n$ and $F^m$ have dimensions $n$ and $m$ by [[the dimension of the coordinate space|0QK7FPE6VE]].
-3. So both spaces are finite-dimensional by the [[dimension of a subspace|0QW084460E]], and they have a [[dimension|03GSZ8RTZJ]]. Let $r = \dim \operatorname{Col}(A)$ and $d = \dim \operatorname{Row}(A)$.
-4. Claim: $d \le r$. If $r = 0$, then every column of $A$ is $0$. So $A = 0$, $\operatorname{Row}(A) = \{0\}$, and $d = 0 = r$.
-5. Let $r \ge 1$, and let $(\gamma_1, \dots, \gamma_r)$ be a [[basis|0KCQ9Y3QKA]] of $\operatorname{Col}(A)$. Let $C = (c_{il})$ be the $m \times r$ matrix with columns $\gamma_1, \dots, \gamma_r$.
-6. Each column $\alpha_k$ of $A$ lies in $\operatorname{Col}(A)$. So $\alpha_k = \sum_{l=1}^r \rho_{lk} \gamma_l$ for some scalars $\rho_{lk} \in F$. Let $R = (\rho_{lk})$, an $r \times n$ matrix.
-7. Comparing entry $i$ in step 6 gives $a_{ik} = \sum_{l=1}^r c_{il} \rho_{lk}$ for all $i$ and $k$. By the definition of the [[matrix product|032Q9FB8MT]], this says $A = CR$.
-8. Fix a row index $i$. By step 7, for each $k$, entry $k$ of row $i$ of $A$ is $\sum_{l=1}^r c_{il} \rho_{lk}$. So row $i$ of $A$ equals $\sum_{l=1}^r c_{il} \cdot (\text{row } l \text{ of } R)$.
-9. Let $X \subseteq F^n$ be the [[span|0DTY8B9HMS]] of the $r$ rows of $R$. By step 8, every row of $A$ lies in $X$, so $\operatorname{Row}(A) \subseteq X$.
-10. A basis of $\operatorname{Row}(A)$ is a linearly independent family of $d$ vectors of $X$. The $r$ rows of $R$ span $X$. By the [[Steinitz exchange lemma|08ZDRN6H41]], $d \le r$.
-11. This proves the claim $\dim \operatorname{Row}(A) \le \dim \operatorname{Col}(A)$ for every matrix $A$.
-12. Now let $A^T$ be the [[transpose|09DXWYRD43]], with entries $(A^T)_{ki} = a_{ik}$. Row $k$ of $A^T$ has entries $a_{1k}, \dots, a_{mk}$, which is column $k$ of $A$.
-13. So the rows of $A^T$ are the columns of $A$, and the columns of $A^T$ are the rows of $A$. Hence $\operatorname{Row}(A^T) = \operatorname{Col}(A)$ and $\operatorname{Col}(A^T) = \operatorname{Row}(A)$.
-14. Applying step 11 to $A^T$ gives $\dim \operatorname{Col}(A) = \dim \operatorname{Row}(A^T) \le \dim \operatorname{Col}(A^T) = \dim \operatorname{Row}(A)$.
-15. Together with step 11, $\dim \operatorname{Row}(A) = \dim \operatorname{Col}(A)$.
-16. By the definition of the [[rank|0ZC9YTXZRY]], $\rank A^T = \dim \operatorname{Col}(A^T) = \dim \operatorname{Row}(A) = \dim \operatorname{Col}(A) = \rank A$.
+1. The [[row space|069MCGX635]] $\operatorname{Row}(A)$ is a subspace of $F^n$, and the [[column space|03AJKXH1AV]] $\operatorname{Col}(A)$ is a subspace of $F^m$.
+These ambient spaces have dimensions $n$ and $m$, by the [[dimension of the coordinate space|0QK7FPE6VE]].
+2. So both subspaces are finite-dimensional, by the [[dimension of a subspace|0QW084460E]], and we put $r = \dim \operatorname{Col}(A)$ and $d = \dim \operatorname{Row}(A)$.
+3. We claim that $d \le r$.
+If $r = 0$, every column of $A$ is zero, so $A = 0$, $\operatorname{Row}(A) = \{0\}$, and $d = 0 = r$.
+4. Let $r \ge 1$, and let $\gamma_1, \dots, \gamma_r$ be a [[basis|0KCQ9Y3QKA]] of $\operatorname{Col}(A)$.
+Let $C = (c_{il})$ be the $m \times r$ matrix with columns $\gamma_1, \dots, \gamma_r$.
+5. Each column $\alpha_k$ lies in $\operatorname{Col}(A)$, so there are scalars $\rho_{lk} \in F$ with $\alpha_k = \sum_{l=1}^r \rho_{lk} \gamma_l$.
+Let $R = (\rho_{lk})$, an $r \times n$ matrix.
+6. Entry $i$ of the equation in step 5 reads
+$$a_{ik} = \sum_{l=1}^r c_{il} \rho_{lk} \quad \text{for all } i \text{ and } k.$$
+By the definition of the [[matrix product|032Q9FB8MT]], this says $A = CR$.
+7. Now read the same equation with $i$ fixed and $k$ running.
+It says that row $i$ of $A$ equals $\sum_{l=1}^r c_{il} \cdot (\text{row } l \text{ of } R)$.
+8. So every row of $A$ lies in the [[span|0DTY8B9HMS]] $X \subseteq F^n$ of the $r$ rows of $R$, and $\operatorname{Row}(A) \subseteq X$.
+9. A basis of $\operatorname{Row}(A)$ is an independent family of $d$ vectors in $X$, and $X$ is spanned by $r$ vectors.
+The [[Steinitz exchange lemma|08ZDRN6H41]] gives $d \le r$, which proves the claim for every matrix.
+10. The [[transpose|09DXWYRD43]] $A^{\mathsf{T}}$ has entries $(A^{\mathsf{T}})_{ki} = a_{ik}$, so its rows are the columns of $A$ and its columns are the rows of $A$.
+Hence $\operatorname{Row}(A^{\mathsf{T}})$ and $\operatorname{Col}(A)$ have the same dimension, and so do $\operatorname{Col}(A^{\mathsf{T}})$ and $\operatorname{Row}(A)$.
+11. The claim applied to $A^{\mathsf{T}}$ gives
+$$r = \dim \operatorname{Row}(A^{\mathsf{T}}) \le \dim \operatorname{Col}(A^{\mathsf{T}}) = d.$$
+12. Steps 9 and 11 give $d = r$, and by the definition of the [[rank|0ZC9YTXZRY]] this is $\rank A^{\mathsf{T}} = \rank A$.
 
 ## Idea
 
 Choose a basis of the column space and write every column of $A$ in it.
-This factors $A = CR$, where $R$ has only $r$ rows.
-The same factorization shows that every row of $A$ is a combination of those $r$ rows.
-So the row space is no bigger than the column space, and the transpose gives the reverse inequality.
+This writes $A$ as a product $CR$ in which $R$ has only $r$ rows.
+The same product, read row by row instead of column by column, says that every row of $A$ is a combination of those $r$ rows.
+So the row space has dimension at most $r$, and the transpose gives the reverse inequality.
+
+For example, the matrix with rows $(1, 2, 3)$ and $(2, 4, 6)$ has column space spanned by $\gamma_1 = (1, 2)$.
+Then $C = \begin{pmatrix} 1 \\ 2 \end{pmatrix}$ and $R = \begin{pmatrix} 1 & 2 & 3 \end{pmatrix}$, and both rows of $A$ are multiples of the single row of $R$.
 
 ## Variants
 
-- [[By row reduction|WK6YWCWJD0]]: both dimensions equal the number of pivots.
-- [[By orthogonality over the real numbers|4JYHHBC6J7]]: $A$ is injective on its row space.
-- The factorization of step 7 is the [[rank factorization|5JGAG62VN8]] of $A$.
-
+The [[proof by row reduction|WK6YWCWJD0]] reaches the same equality by counting pivots, and it needs the theory of the reduced form.
+The [[proof by orthogonality|4JYHHBC6J7]] works only over ordered fields such as $\mathbb{R}$.
+The factorization of step 6 is the [[rank factorization|5JGAG62VN8]] of $A$, and when $C$ is taken to be the pivot columns of $A$, the matrix $R$ is the reduced row echelon form with its zero rows removed.

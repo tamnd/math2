@@ -21,79 +21,125 @@ same_as:
 
 ## Summary
 
-The matrix of a [[linear map|0NRYHJPQG2]] $T \colon V \to W$ in ordered [[bases|0KCQ9Y3QKA]] $B$ of $V$ and $C$ of $W$ is a [[matrix|0VD9ZSWWJG]] with one column for each vector of $B$.
-Column $j$ is the [[coordinate vector|04CYQHN6MC]] in $C$ of the image of the $j$-th vector of $B$.
-With this matrix, $[T(v)]_C = [T]_{C,B}[v]_B$ for each $v \in V$.
+Once you choose a basis of each space, a linear map turns into a table of numbers, and every question about the map becomes a question about that table.
+The table is built from the images of the basis vectors, one column for each of them.
+Let $T \colon V \to W$ be a [[linear map|0NRYHJPQG2]] between finite-dimensional spaces over a field $F$, and let $B = (b_1, \dots, b_n)$ and $C = (c_1, \dots, c_m)$ be ordered [[bases|0KCQ9Y3QKA]] of $V$ and $W$.
+The matrix of $T$ in these bases is the $m \times n$ [[matrix|0VD9ZSWWJG]] $[T]_{C,B}$ whose column $j$ is the [[coordinate vector|04CYQHN6MC]] $[T(b_j)]_C$.
+In entries, $[T]_{C,B} = (a_{ij})$ with
+$$T(b_j) = a_{1j} c_1 + a_{2j} c_2 + \dots + a_{mj} c_m \qquad (1 \le j \le n).$$
+The [[formal definition|0YYMY95FWS]] states this, and the matrix then computes the map: $[T(v)]_C = [T]_{C,B}\,[v]_B$ for each $v \in V$.
 
 ## Motivation
 
-A linear map is determined by the images of the vectors of a basis.
-Each image is determined by its coordinates in a basis of the target.
-So a finite table of numbers holds all the information about $T$.
-With this table, questions about $T$ become questions about matrices, which a computer can answer by row reduction.
+A linear map is fixed by its values on a basis, and each value is fixed by its coordinates in a basis of the target.
+So $mn$ numbers hold all the information about $T$, however abstract the spaces are.
+Differentiation of polynomials, a rotation of the plane and a map that evaluates a polynomial at two points all become small arrays of numbers.
+Then row reduction, which a computer does well, can answer questions about kernels, images and inverses.
+
+The dictionary also works in the other direction.
+The [[linear map of a matrix|06HMCTAQH3]] reads a matrix as a map, and the [[matrix of a composition|05Q1B7MH0M]] shows that composing maps is multiplying matrices.
+Later the same map is written in several bases at once, and the [[change of basis formula|0MQXVZEBMT]] says how its matrix changes.
 
 ## Notation
 
-The matrix is written $[T]_{C,B}$, $[T]_B^C$, $M(T)$ or $\mathcal{M}(T, B, C)$.
-If $V = W$ and $B = C$, it is written $[T]_B$.
-The order of the subscripts differs between books; here the basis of the target comes first, so that $[S]_{C,B}[T]_{B,A} = [S \circ T]_{C,A}$.
-Mathlib writes `LinearMap.toMatrix v₁ v₂ f`, where `v₁` is the basis of the domain and indexes the columns.
+We write $[T]_{C,B}$ with the basis of the target first, so that the inner letters match in $[S]_{D,C}[T]_{C,B} = [S \circ T]_{D,B}$.
+Other books write $[T]_B^C$, $M(T)$ or $\mathcal{M}(T, B, C)$, and some put the domain basis first.
+When $V = W$ and $B = C$, we write $[T]_B$.
+Mathlib writes `LinearMap.toMatrix v₁ v₂ f`, where `v₁` is the basis of the domain and indexes the columns, so Mathlib also puts the images of the domain basis in the columns.
+Watch out for books that write vectors as rows: there the images go in the rows, and the matrix is the transpose of ours.
 
 ## Remarks
 
-### Examples
+### A first computation
 
-- [[The derivative $P_2 \to P_1$|KWN1RM45D5]]: in the bases $(1, x, x^2)$ and $(1, x)$ the matrix is $\begin{pmatrix} 0 & 1 & 0 \\ 0 & 0 & 2 \end{pmatrix}$.
-- [[A symmetric map of the plane|7HRGTM3RKJ]]: the map $(x, y) \mapsto (2x + y, x + 2y)$ has a diagonal matrix in the basis $((1, 1), (1, -1))$.
-- The rotation of $\R^2$ by the angle $\theta$ has the matrix $\begin{pmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{pmatrix}$ in the standard basis.
-- The identity map of $V$ has the identity matrix $I_n$ in the bases $B$ and $B$. In two different bases, its matrix is a [[change-of-basis matrix|0MKRHZB3WS]].
-- For an $m \times n$ matrix $A$, the map $x \mapsto Ax$ has the matrix $A$ in the standard bases.
+Take the derivative $D \colon P_2 \to P_1$ on polynomials of degree at most $2$, with the bases $B = (1, x, x^2)$ and $C = (1, x)$.
+Differentiate each vector of $B$ and read off its coordinates in $C$:
+$$D(1) = 0, \qquad D(x) = 1, \qquad D(x^2) = 2x.$$
+These give the columns $(0, 0)$, $(1, 0)$ and $(0, 2)$, so
+$$[D]_{C,B} = \begin{pmatrix} 0 & 1 & 0 \\ 0 & 0 & 2 \end{pmatrix}.$$
+For $p = 3 + 5x - 4x^2$ the product $[D]_{C,B}(3, 5, -4)^{\mathsf{T}}$ is $(5, -8)^{\mathsf{T}}$, and indeed $p' = 5 - 8x$.
+The [[derivative example|KWN1RM45D5]] works this out step by step.
+The matrix has $2$ rows because $\dim P_1 = 2$, and $3$ columns because $\dim P_2 = 3$.
 
-### Non-examples
+### One map, many matrices
 
-- [[Images written as rows|RSET6QRFJR]]: the array with the images of the basis vectors as rows is the transpose of the matrix, and it gives wrong products.
-- A map that is not linear has no matrix. The map $x \mapsto x + 1$ on $\R$ is not $x \mapsto ax$ for any $a$.
+The matrix depends on the map and on both bases.
+The map $T(x, y) = (2x + y, x + 2y)$ of $\mathbb{R}^2$ has the matrix $\begin{pmatrix} 2 & 1 \\ 1 & 2 \end{pmatrix}$ in the standard basis.
+In the basis $b_1 = (1, 1)$, $b_2 = (1, -1)$ we find
+$$T(b_1) = (3, 3) = 3 b_1, \qquad T(b_2) = (1, -1) = b_2,$$
+so the matrix becomes $\begin{pmatrix} 3 & 0 \\ 0 & 1 \end{pmatrix}$.
+The diagonal matrix shows at once what $T$ does: it stretches the line through $(1, 1)$ by $3$ and fixes the line through $(1, -1)$.
+The [[symmetric map example|7HRGTM3RKJ]] checks the formula $[T(v)]_B = [T]_B [v]_B$ on a vector.
 
-### Basic properties
+### A rotation
 
-- $[T(v)]_C = [T]_{C,B}[v]_B$ for each $v$, and $[T]_{C,B}$ is the only matrix with this property, by the [[coordinate formula|8B63KHW6D5]].
-- The map $T \mapsto [T]_{C,B}$ is a linear isomorphism $\Hom(V, W) \to M_{m \times n}(F)$, by the [[theorem on linear maps and matrices|Q3EDKTZ6TA]]. Its inverse sends a matrix to its [[linear map|06HMCTAQH3]].
-- $[S \circ T]_{C,A} = [S]_{C,B}[T]_{B,A}$, by the theorem on the [[matrix of a composition|05Q1B7MH0M]].
-- The rank of $T$ is the [[rank|0ZC9YTXZRY]] of $[T]_{C,B}$, for every choice of bases.
-- If the bases change, the matrix changes by the [[change-of-basis formula|0MQXVZEBMT]].
+The rotation $R_\theta$ of $\mathbb{R}^2$ by the angle $\theta$ sends $e_1$ to $(\cos\theta, \sin\theta)$ and $e_2$ to $(-\sin\theta, \cos\theta)$.
+These two images are the columns of its matrix in the standard basis:
+$$[R_\theta] = \begin{pmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{pmatrix}.$$
+For $\theta = \pi/2$ this is $\begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}$, which sends $(1, 0)$ to $(0, 1)$ and $(0, 1)$ to $(-1, 0)$.
+In the same way, the identity map has the identity matrix $I_n$ when both bases are equal, and in two different bases its matrix is a [[change of basis matrix|0MKRHZB3WS]].
+
+### What it is not
+
+The array with the images of the basis vectors as rows is the transpose of the matrix, and it computes the wrong map.
+For $T(x, y) = (x + 2y, 3y)$ the images are $(1, 0)$ and $(2, 3)$, and the array with these rows sends $(0, 1)$ to $(0, 3)$ instead of $(2, 3)$, as the [[non-example with rows|RSET6QRFJR]] shows.
+A map that is not linear has no matrix at all.
+The map $x \mapsto x + 1$ on $\mathbb{R}$ is not $x \mapsto ax$ for any $a$, since it sends $0$ to $1$.
+
+### The rules you can use
+
+The coordinate formula $[T(v)]_C = [T]_{C,B}[v]_B$ holds for each $v$, and $[T]_{C,B}$ is the only matrix with this property, by the [[coordinate theorem|8B63KHW6D5]].
+The map $T \mapsto [T]_{C,B}$ is a linear isomorphism $\Hom(V, W) \to M_{m \times n}(F)$, by the [[theorem on linear maps and matrices|Q3EDKTZ6TA]].
+Composition becomes the product, $[S \circ T]_{D,B} = [S]_{D,C}[T]_{C,B}$, by the [[composition theorem|05Q1B7MH0M]].
+The [[rank of T|0ZZXSBTR4J]] equals the [[rank|0ZC9YTXZRY]] of $[T]_{C,B}$ for every choice of bases, because the coordinate map of $C$ carries the image of $T$ onto the column space of the matrix.
+
+### Watch out
+
+The coordinates of $T(b_j)$ must be taken in the basis $C$, not in the standard basis.
+For the map $T(x, y) = (2x + y, x + 2y)$ and $b_1 = (1, 1)$, the image $(3, 3)$ has standard coordinates $(3, 3)$ but $B$-coordinates $(3, 0)$, and only $(3, 0)$ belongs in $[T]_B$.
+The order of each basis also matters.
+With $C = (x, 1)$ in place of $(1, x)$, the two rows of $[D]_{C,B}$ above change places.
 
 ### History
 
-Matrices first served to record the coefficients of systems of linear equations.
-Cayley defined the product of matrices in 1858 so that it matches the composition of linear substitutions.
+Matrices were first used to record the coefficients of systems of linear equations.
+Cayley's memoir on matrices of 1858 defined the product of two matrices so that it matches the composition of the linear substitutions that they represent.
 
-### Common errors
+### Try it
 
-- Writing the images of the basis vectors as rows instead of columns.
-- Taking the coordinates of $T(b_j)$ in the standard basis when the basis $C$ of the target is not standard.
-- Forgetting that the matrix depends on the order of the basis vectors. A different order permutes the rows or the columns.
-- Mixing the conventions $[T]_{C,B}$ and $[T]_{B,C}$ of different books.
+First, find the matrix of $T(x, y) = (x - y, 3x)$ in the standard basis of $\mathbb{R}^2$.
+The images are $T(e_1) = (1, 3)$ and $T(e_2) = (-1, 0)$, so the matrix is $\begin{pmatrix} 1 & -1 \\ 3 & 0 \end{pmatrix}$.
+
+Second, find the matrix of the derivative $P_2 \to P_2$ in the basis $(1, x, x^2)$.
+The columns are $(0, 0, 0)$, $(1, 0, 0)$ and $(0, 2, 0)$, so the matrix is $\begin{pmatrix} 0 & 1 & 0 \\ 0 & 0 & 2 \\ 0 & 0 & 0 \end{pmatrix}$.
 
 ## Explanations
 
 ### L1 human
 
-To write a linear map as a matrix, apply the map to each basis vector.
-Write the coordinates of each image as a column.
-These columns, side by side, are the matrix.
-Then multiplying the matrix by the coordinates of a vector gives the coordinates of its image.
+To write a linear map as a table, first apply the map to each basis vector.
+Write the coordinates of each answer as a column.
+Put these columns side by side, and you have the matrix.
+For the map that sends $(x, y)$ to $(x - y, 3x)$, the two answers are $(1, 3)$ and $(-1, 0)$, so these are the two columns.
+From then on, multiplying the matrix by the coordinates of any vector gives the coordinates of its image.
 
 ### L2 human
 
-The matrix depends on three choices: the map, the basis of the domain and the basis of the target.
-One map has many matrices, one for each pair of bases.
-A good choice of bases can make the matrix simple, for example diagonal.
-The key formula $[T(v)]_C = [T]_{C,B}[v]_B$ turns the evaluation of $T$ into a matrix-vector product.
-The common trap is to put the images in rows; this gives the transpose.
+Here is a typical use: the map $T \colon P_1 \to \mathbb{R}^2$ with $T(p) = (p(0), p(1))$, which evaluates a linear polynomial at two points.
+Use the basis $(1, x)$ of $P_1$ and the standard basis of $\mathbb{R}^2$.
+The basis vectors go to
+$$T(1) = (1, 1), \qquad T(x) = (0, 1),$$
+so the matrix is $A = \begin{pmatrix} 1 & 0 \\ 1 & 1 \end{pmatrix}$.
+For $p = 2 + 3x$ the coordinates are $(2, 3)$, and
+$$A \begin{pmatrix} 2 \\ 3 \end{pmatrix} = \begin{pmatrix} 2 \\ 2 + 3 \end{pmatrix} = \begin{pmatrix} 2 \\ 5 \end{pmatrix}.$$
+Check: $p(0) = 2$ and $p(1) = 5$.
+The matrix $A$ has determinant $1$, so it is invertible, and hence $T$ is an isomorphism: a line is fixed by its values at $0$ and $1$.
+The problem shows the typical use, a question about an abstract map answered by a computation with a small matrix.
 
 ### L3 human
 
-The coordinate maps $\phi_B \colon V \to F^n$ and $\phi_C \colon W \to F^m$ are isomorphisms, and $[T]_{C,B}$ is the matrix of $\phi_C \circ T \circ \phi_B^{-1} \colon F^n \to F^m$.
-So the choice of bases gives an equivalence between the category of finite-dimensional vector spaces with chosen bases and the category of matrices.
-In Mathlib, `LinearMap.toMatrix v₁ v₂` is a linear equivalence from linear maps to matrices, and entry $(i, j)$ is coordinate $i$ of the image of `v₁ j` in the basis `v₂`.
-So Mathlib also puts the images of the domain basis in the columns.
+The coordinate maps $\phi_B \colon V \to F^n$ and $\phi_C \colon W \to F^m$ are isomorphisms, and $[T]_{C,B}$ is the standard matrix of $\phi_C \circ T \circ \phi_B^{-1} \colon F^n \to F^m$.
+So choosing bases makes the category of finite-dimensional vector spaces over $F$ equivalent to the category whose objects are the integers $n \ge 0$ and whose arrows $n \to m$ are the $m \times n$ matrices.
+In Mathlib, `LinearMap.toMatrix v₁ v₂` is a linear equivalence from linear maps to matrices, whose entry $(i, j)$ is coordinate $i$ of the image of `v₁ j` in the basis `v₂`, and `Matrix.toLin v₁ v₂` is its inverse.
+The same construction works for free modules of finite rank over a commutative ring.
+The [[change of basis formula|0MQXVZEBMT]] and [[similar matrices|0E89HQATM8]] study how much of the matrix depends on the bases and how much belongs to the map itself.

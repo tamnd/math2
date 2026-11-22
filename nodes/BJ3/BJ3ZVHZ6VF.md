@@ -15,37 +15,41 @@ sources:
 
 ## Example
 
-Part A, over $\R$.
-Let
+Over the reals the trace of a projection equals its rank, and over $\mathbb{F}_2$ it equals the rank only modulo $2$.
+First we work over $\mathbb{R}$ with
 $$A = \begin{pmatrix} 1 & 1 \\ 0 & 0 \end{pmatrix}.$$
 
-1. $A^2 = \begin{pmatrix} 1 \cdot 1 + 1 \cdot 0 & 1 \cdot 1 + 1 \cdot 0 \\ 0 & 0 \end{pmatrix} = \begin{pmatrix} 1 & 1 \\ 0 & 0 \end{pmatrix} = A$. So $x \mapsto Ax$ is a [[projection|0RH4E3CAV9]].
-2. Its image is spanned by $(1, 0)$ and its kernel by $(1, -1)$. These lines are not orthogonal, so the projection is oblique.
+1. We compute
+   $$A^2 = \begin{pmatrix} 1 \cdot 1 + 1 \cdot 0 & 1 \cdot 1 + 1 \cdot 0 \\ 0 & 0 \end{pmatrix} = \begin{pmatrix} 1 & 1 \\ 0 & 0 \end{pmatrix} = A,$$
+   so $x \mapsto Ax$ is a [[projection|0RH4E3CAV9]].
+2. Its image is spanned by $(1, 0)$ and its kernel by $(1, -1)$.
+   These lines are not orthogonal, so the projection is oblique.
 3. The [[rank|0EWQEYRVA8]] of $A$ is $1$, since $A$ has one nonzero row.
-4. The [[trace|07PTPSZPME]] of $A$ is $1 + 0 = 1$. So $\tr A = \rank A = 1$.
-5. In the basis $(1, 0), (1, -1)$, the map sends $(1, 0)$ to $(1, 0)$ and $(1, -1)$ to $(1 - 1, 0) = (0, 0)$. So its matrix is $\operatorname{diag}(1, 0)$, with trace $1$ again.
+4. The [[trace|07PTPSZPME]] of $A$ is $1 + 0 = 1$, so $\tr A = \rank A = 1$.
+5. In the basis $((1, 0), (1, -1))$ the map sends $(1, 0)$ to $(1, 0)$ and $(1, -1)$ to $(1 - 1, 0) = (0, 0)$.
+   So its matrix is $\operatorname{diag}(1, 0)$, with trace $1$ again.
 
-Part B, over $\mathbb{F}_2$.
-Let $I_2$ be the identity matrix over the field $\mathbb{F}_2 = \{0, 1\}$.
+Next we work over the field $\mathbb{F}_2 = \{0, 1\}$ with the identity matrix $I_2$.
 
 6. $I_2^2 = I_2$, so $I_2$ is a projection, and its rank is $2$.
 7. Its [[trace|0RPDTWY2JS]] is $1 + 1 = 0$ in $\mathbb{F}_2$.
-8. So $\tr I_2 = 0 \ne 2 = \rank I_2$ as integers. The formula $\tr P = (\rank P) \cdot 1_F$ still holds, since $2 \cdot 1 = 0$ in $\mathbb{F}_2$.
+8. So $\tr I_2 = 0$, while $\rank I_2 = 2$.
+   The formula $\tr P = (\rank P) \cdot 1_F$ still holds, since $2 \cdot 1 = 0$ in $\mathbb{F}_2$.
 
 ## Remarks
 
-- Part A shows that the projection need not be orthogonal. Only $A^2 = A$ matters.
-- Part B shows why the theorem needs characteristic $0$ for the equality of integers.
+The first part shows that a projection need not be orthogonal for the formula to hold; only $A^2 = A$ matters.
+The second part shows why the [[theorem on the trace of a projection|BJTJ41YW55]] needs characteristic $0$ for an equality of integers.
 
 ## Explanations
 
 ### L1 human
 
 The matrix $A$ is a projection with one nonzero diagonal entry, so its trace is $1$, the same as its rank.
-Over the field with two elements, $1 + 1 = 0$, so the trace can no longer count the rank.
+Over the field with two elements $1 + 1 = 0$, so the trace can no longer count the rank.
 
 ### L2 human
 
 The trace of a projection counts the vectors of a basis of its image, as a sum of ones in the field.
 In characteristic $0$ this sum is the integer rank.
-In characteristic $2$, the sum only records the rank modulo $2$.
+In characteristic $2$ the sum only records the rank modulo $2$.

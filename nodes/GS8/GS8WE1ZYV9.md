@@ -16,58 +16,76 @@ sources:
 
 ## Statement
 
-Let $F$ be a field.
-Let $A$ be an $m \times n$ matrix, $B$ an $n \times p$ matrix and $C$ a $p \times q$ matrix over $F$.
+A product of matrices cannot lose more rank than the null space of the left factor allows.
+Let $F$ be a field, and let $A$ be an $m \times n$ matrix, $B$ an $n \times p$ matrix and $C$ a $p \times q$ matrix over $F$.
+Let $\rank$ be the [[rank of a matrix|0ZC9YTXZRY]].
 
 1. (Frobenius inequality) $\rank(AB) + \rank(BC) \le \rank B + \rank(ABC)$.
 2. (Sylvester's rank inequality) $\rank A + \rank B - n \le \rank(AB)$.
 
-Here $\rank$ is the [[rank of a matrix|0ZC9YTXZRY]].
-
 ## Remarks
 
-### Why each hypothesis is needed
+### A first check
 
-- In part 2, $n$ is the inner size, the number of columns of $A$. With the outer sizes the bound fails.
-  For $A = \begin{pmatrix} 1 & 0 \end{pmatrix}$ ($1 \times 2$) and $B = \begin{pmatrix} 0 \\ 1 \end{pmatrix}$ ($2 \times 1$), $AB = 0$, and $\rank A + \rank B - 1 = 1 > 0$.
-  With the inner size $n = 2$, the bound is $1 + 1 - 2 = 0 \le 0$.
+Take
+$$A = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \end{pmatrix}, \qquad B = \begin{pmatrix} 0 & 0 \\ 1 & 0 \\ 0 & 1 \end{pmatrix}, \qquad AB = \begin{pmatrix} 0 & 0 \\ 1 & 0 \end{pmatrix}.$$
+Here $n = 3$, $\rank A = 2$ and $\rank B = 2$, so Sylvester's inequality says $\rank(AB) \ge 2 + 2 - 3 = 1$.
+The product has rank exactly $1$, so the bound is reached.
+The null space of $A$ is the third axis, and the image of $B$ is the plane of the second and third axes, so $A$ kills one direction of that image.
 
-### Consequences
+### Why the inner size is needed
 
-- If $AB = 0$, then $\rank A + \rank B \le n$.
-- If $A^2 = 0$ for an $n \times n$ matrix $A$, then $\rank A \le n/2$.
-- $\dim \operatorname{Null}(AB) \le \dim \operatorname{Null}(A) + \dim \operatorname{Null}(B)$, for $n \times n$ matrices. This is part 2 written with nullities.
+In part 2, $n$ is the inner size: the number of columns of $A$ and of rows of $B$.
+The bound fails with an outer size in its place.
+For the $1 \times 2$ matrix $A = \begin{pmatrix} 1 & 0 \end{pmatrix}$ and the $2 \times 1$ matrix $B = \begin{pmatrix} 0 \\ 1 \end{pmatrix}$, the product is $AB = (0)$.
+With the outer size $1$ we would get $1 + 1 - 1 = 1 > 0$, which is false.
+With the inner size $n = 2$, the bound is $1 + 1 - 2 = 0 \le 0$, which is true.
 
-### Converse
+### What it gives you
 
-Part 2 is sharp.
-For $A = \begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix}$ and $B = \begin{pmatrix} 0 & 0 \\ 0 & 1 \end{pmatrix}$, $\rank A + \rank B - 2 = 0 = \rank(AB)$.
-It can also be strict.
-For $A = B = \begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix}$, $\rank A + \rank B - 2 = 0$, but $AB = A$ has rank $1$.
+If $AB = 0$, then $\rank A + \rank B \le n$.
+In particular, an $n \times n$ matrix $N$ with $N^2 = 0$ has $2 \rank N \le n$, so $\rank N \le n/2$; for $n = 2$, the matrix $\begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}$ reaches this bound.
+For $n \times n$ matrices, part 2 written with nullities reads
+$$\dim \operatorname{Null}(AB) \le \dim \operatorname{Null}(A) + \dim \operatorname{Null}(B),$$
+by [[rank-nullity for matrices|TR48YQGCCA]], so the null spaces of a product grow at most additively.
+Together with the [[rank of a product|02FDWY55AS]], Sylvester's inequality pins $\rank(AB)$ between $\rank A + \rank B - n$ and $\min(\rank A, \rank B)$.
+
+### Sharp and strict cases
+
+Part 2 can be an equality.
+For $A = \begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix}$ and $B = \begin{pmatrix} 0 & 0 \\ 0 & 1 \end{pmatrix}$, we get $1 + 1 - 2 = 0 = \rank(AB)$.
+It can also be strict: for $A = B = \begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix}$, the bound is $0$, but $AB = A$ has rank $1$.
 
 ### Generalizations
 
-For linear maps $U \xrightarrow{C} V \xrightarrow{B} W \xrightarrow{A} X$ between finite-dimensional spaces, the same inequalities hold with $\rank$ the dimension of the image.
-Part 2 is the case $B = I_n$ of part 1, with the letters renamed.
+For linear maps $U \xrightarrow{C} V \xrightarrow{B} W \xrightarrow{A} X$ between finite-dimensional spaces, both inequalities hold with $\rank$ the dimension of the image and $n = \dim W$.
+Part 2 is the case of part 1 in which the middle factor is the identity $I_n$, as the [[proof|Z65SFWJKJ1]] shows.
 
 ## History
 
-The lower bound of part 2 is named after Sylvester, and part 1 is named after Frobenius.
+The lower bound of part 2 carries the name of Sylvester, and part 1 carries the name of Frobenius.
 
 ## Explanations
 
 ### L1 human
 
 Sylvester's inequality says that a product cannot lose too much rank.
-Each factor can kill at most its own null space, and the null spaces have dimension at most $n - \rank$.
+The left factor $A$ can only destroy the directions that it sends to zero.
+There are $n - \rank A$ of those, so the product loses at most that many directions from the rank of $B$.
 
 ### L2 human
 
-The map $x \mapsto Ax$ loses $\dim(\operatorname{Col}(B) \cap \operatorname{Null}(A))$ dimensions on the column space of $B$.
-That number is at most $\dim \operatorname{Null}(A) = n - \rank A$.
-So $\rank(AB) \ge \rank B - (n - \rank A)$.
+Here is the argument in a worked form.
+The map $x \mapsto Ax$, restricted to the column space of $B$, has image $\operatorname{Col}(AB)$ and kernel $\operatorname{Col}(B) \cap \operatorname{Null}(A)$.
+Rank-nullity for this restricted map gives
+$$\rank B - \rank(AB) = \dim\bigl(\operatorname{Col}(B) \cap \operatorname{Null}(A)\bigr) \le \dim \operatorname{Null}(A) = n - \rank A.$$
+Rearranging gives $\rank(AB) \ge \rank A + \rank B - n$.
+In the first check, the intersection is the third axis, of dimension $1$, and indeed $\rank B - \rank(AB) = 2 - 1 = 1$.
+Watch out: the loss is the dimension of an intersection, and not the full nullity of $A$, unless $\operatorname{Null}(A)$ lies inside $\operatorname{Col}(B)$.
 
 ### L3 human
 
 The Frobenius inequality compares the loss of rank under $A$ on the two nested subspaces $\operatorname{Col}(BC) \subseteq \operatorname{Col}(B)$.
-The loss on the smaller subspace is at most the loss on the larger one.
+The loss on the smaller subspace is the dimension of a smaller intersection with $\operatorname{Null}(A)$, so it is at most the loss on the larger one.
+In the language of subspaces: for subspaces $W_2 \subseteq W_1$ of $F^n$, the drop $\dim W - \dim A(W)$ is at least as large for $W = W_1$ as for $W = W_2$.
+Both inequalities are statements about finite-dimensional spaces and hold for linear maps without any choice of bases.

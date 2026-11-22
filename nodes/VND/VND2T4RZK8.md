@@ -16,21 +16,26 @@ sources:
 
 ## Example
 
-Let $V = \R^2$, let $B = (e_1, e_2)$ be the standard basis, and let $C = (2e_1, e_2)$.
-Let $\id \colon V \to V$ be the identity map.
+A matrix of a map with one basis for the input and another for the output can have the wrong diagonal sum.
+Let $V = \mathbb{R}^2$, let $B = (e_1, e_2)$ be the standard basis, and let $C = (2e_1, e_2)$.
+Let $\mathrm{id} \colon V \to V$ be the identity map.
 
-1. In the basis $B$, $[\id]_B = I_2$. So the [[trace|0RPDTWY2JS]] of $\id$ is $1 + 1 = 2$.
-2. Now use $B$ for the domain and $C$ for the codomain. $\id(e_1) = e_1 = \tfrac{1}{2}(2e_1) + 0 \cdot e_2$, so the first column is $(1/2, 0)$.
-3. $\id(e_2) = e_2 = 0 \cdot (2e_1) + 1 \cdot e_2$, so the second column is $(0, 1)$.
-4. So the [[matrix|0YQSGNYE3K]] $[\id]_{C,B} = \operatorname{diag}(1/2, 1)$.
+1. In the basis $B$, $[\mathrm{id}]_B = I_2$, so the [[trace|0RPDTWY2JS]] of $\mathrm{id}$ is $1 + 1 = 2$.
+2. Now use $B$ for the domain and $C$ for the codomain.
+   Since $\mathrm{id}(e_1) = e_1 = \tfrac{1}{2}(2e_1) + 0 \cdot e_2$, the first column is $(1/2, 0)$.
+3. Since $\mathrm{id}(e_2) = e_2 = 0 \cdot (2e_1) + 1 \cdot e_2$, the second column is $(0, 1)$.
+4. So the [[matrix|0YQSGNYE3K]] is $[\mathrm{id}]_{C,B} = \operatorname{diag}(1/2, 1)$.
 5. Its diagonal sum is $\tfrac{1}{2} + 1 = \tfrac{3}{2} \ne 2$.
-6. So the diagonal sum of a matrix of $T$ with two different bases is not the trace of $T$.
-7. With the same basis $C$ on both sides, $[\id]_C = I_2$ again, with [[trace|07PTPSZPME]] $2$.
+6. So the diagonal sum of a matrix of a map with two different bases is not the trace of the map.
+7. With the same basis $C$ on both sides, $[\mathrm{id}]_C = I_2$ again, with [[trace|07PTPSZPME]] $2$.
 
 ## Remarks
 
-- The matrix $[\id]_{C,B}$ is the inverse of the change of basis matrix from $C$ to $B$. It is not the matrix of an endomorphism in one basis.
-- With two bases, every invertible matrix is a matrix of $\id$. So the diagonal sum can take any value.
+The matrix $[\mathrm{id}]_{C,B}$ has as columns the coordinates of $e_1$ and $e_2$ in $C$.
+So it is the change of basis matrix from $C$ to $B$, the inverse of the change of basis matrix $\operatorname{diag}(2, 1)$ from $B$ to $C$.
+It is not the matrix of an endomorphism in one basis.
+With two bases of $\mathbb{R}^2$, every invertible $2 \times 2$ matrix is a matrix of $\mathrm{id}$, so the diagonal sum can take any real value.
+For example, $\operatorname{diag}(t, 1)$ with $t \ne 0$ has diagonal sum $t + 1$, and $\begin{pmatrix} 1 & 1 \\ -1 & 0 \end{pmatrix}$ is invertible with diagonal sum $1$.
 
 ## Explanations
 

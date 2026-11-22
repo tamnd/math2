@@ -16,27 +16,37 @@ sources:
 
 ## Example
 
-Let $M = \begin{pmatrix} 1 & 2 \\ 2 & 4 \end{pmatrix}$ over $\R$, and try to read its columns as a new basis $b'_1 = (1, 2)$, $b'_2 = (2, 4)$ of $\R^2$.
+A square matrix with dependent columns cannot translate between two coordinate systems.
+Let $M = \begin{pmatrix} 1 & 2 \\ 2 & 4 \end{pmatrix}$ over $\mathbb{R}$, and try to read its columns as a new basis $b'_1 = (1, 2)$, $b'_2 = (2, 4)$ of $\mathbb{R}^2$.
 
-1. $b'_2 = 2 b'_1$, so the two vectors are linearly dependent. They are not a [[basis|0VTQTPQGAV]] of $\R^2$.
-2. The [[determinant|0C3CFHDN6R]] is $\det M = 4 - 4 = 0$, so $M$ is not invertible.
-3. The vector $v = (1, 0)$ has no coordinates in the family $(b'_1, b'_2)$. Indeed $s(1, 2) + t(2, 4) = (s + 2t, 2s + 4t)$ has second entry twice the first, and $(1, 0)$ does not.
-4. The vector $(2, 4)$ has two sets of coefficients, $(2, 0)$ and $(0, 1)$. So coordinates are not unique either.
-5. So $M$ is not the [[change of basis matrix|0KWXYZPJKN]] between two bases.
+1. The second column is twice the first, $b'_2 = 2 b'_1$, so the two vectors are linearly dependent.
+   They are not a [[basis|0VTQTPQGAV]] of $\mathbb{R}^2$.
+2. The [[determinant|0C3CFHDN6R]] confirms this: $\det M = 1 \cdot 4 - 2 \cdot 2 = 0$, so $M$ is not invertible.
+3. Some vectors get no coordinates at all.
+   A combination $s(1, 2) + t(2, 4) = (s + 2t, 2s + 4t)$ always has second entry twice the first, and $(1, 0)$ does not, so $(1, 0)$ is not a combination of $b'_1$ and $b'_2$.
+4. Other vectors get more than one set of coordinates.
+   The vector $(2, 4)$ equals $2 b'_1 + 0 b'_2$ and also $0 b'_1 + 1 b'_2$.
+5. So $M$ is not the [[change of basis matrix|0KWXYZPJKN]] between any two bases of $\mathbb{R}^2$.
 
 ## Remarks
 
-- A matrix is a change of basis matrix if and only if it is square and invertible.
-- The direction of a change of basis matrix depends on the book, but every convention gives an invertible matrix.
+The example isolates the one condition that a square matrix must meet.
+A square matrix $P$ is a change of basis matrix exactly when it is invertible, because its columns are then a basis, and they can serve as the new basis.
+If we change the entry $4$ to $5$, the determinant becomes $5 - 4 = 1$, the columns $(1, 2)$ and $(2, 5)$ form a basis, and the new matrix is a change of basis matrix.
+
+The direction of a change of basis matrix depends on the book, but this does not matter here.
+Every convention uses either $P$ or $P^{-1}$, and both are invertible.
 
 ## Explanations
 
 ### L1 human
 
 A change of basis matrix must have independent columns, because its columns are the new basis vectors.
-Here the second column is twice the first.
+Here the second column is twice the first, so both new vectors point along the same line.
+Two arrows on one line cannot reach every point of the plane.
 
 ### L2 human
 
-The determinant test shows at once that $M$ is singular.
-A singular matrix loses information, so it cannot translate between two coordinate systems.
+The fastest test is the determinant: $\det M = 0$, so $M$ is singular.
+A singular matrix sends some nonzero vector to $0$, here $M(2, -1) = (2 - 2, 4 - 4) = (0, 0)$.
+So the two different coordinate lists $(2, -1)$ and $(0, 0)$ would describe the same vector, and coordinates would not be unique.
