@@ -17,24 +17,30 @@ sources:
 
 ## Proof
 
-1. Let $A$ be an $m \times n$ matrix over $F$. By the [[existence of the reduced form|FCM29NQ6DN]], $A$ is row equivalent to a [[reduced row echelon form|0NNR68BFRY]] $R$.
-2. Let $p$ be the number of [[pivots|0BCMGDHZGR]] of $R$.
-3. By the [[theorem on the column space|11CSKXQNG3]], part 3, $\dim \operatorname{Col}(A) = p$.
-4. By the [[theorem on row equivalence|E4GKK727ZM]], part 3, $\operatorname{Row}(A) = \operatorname{Row}(R)$.
-5. By the definition of the reduced form, each nonzero row of $R$ has exactly one leading entry, and each pivot lies in one nonzero row. So $R$ has exactly $p$ nonzero rows.
-6. By the [[theorem on echelon rows|1JGMW9DM4Z]], the nonzero rows of $R$ form a basis of $\operatorname{Row}(R)$. So $\dim \operatorname{Row}(A) = p$, by steps 4 and 5.
-7. By steps 3 and 6, $\dim \operatorname{Row}(A) = \dim \operatorname{Col}(A)$.
-8. The columns of the [[transpose|0W809K6AW0]] $A^\top$ are the rows of $A$, so $\operatorname{Col}(A^\top) = \operatorname{Row}(A)$.
-9. By the [[definition of rank|0EWQEYRVA8]] and steps 7 and 8, $\rank A^\top = \dim \operatorname{Row}(A) = \dim \operatorname{Col}(A) = \rank A$.
+We show that the row rank and the column rank both equal the number of pivots of the reduced row echelon form.
+Let $A$ be an $m \times n$ matrix over a field $F$.
+
+1. By the [[existence of the reduced form|FCM29NQ6DN]], $A$ is row equivalent to a matrix $R$ in [[reduced row echelon form|0NNR68BFRY]].
+Let $p$ be the number of [[pivots|0BCMGDHZGR]] of $R$.
+2. By the [[theorem on the column space|11CSKXQNG3]], the pivot columns of $A$ form a basis of $\operatorname{Col}(A)$, so $\dim \operatorname{Col}(A) = p$.
+3. Row operations do not change the row space, by the [[theorem on row equivalence|E4GKK727ZM]], so $\operatorname{Row}(A) = \operatorname{Row}(R)$.
+4. In the reduced form, each nonzero row has exactly one leading entry, and that entry is a pivot.
+Each pivot lies in exactly one row, so $R$ has exactly $p$ nonzero rows.
+5. The nonzero rows of $R$ form a basis of $\operatorname{Row}(R)$, by the [[theorem on echelon rows|1JGMW9DM4Z]].
+With steps 3 and 4, this gives $\dim \operatorname{Row}(A) = p$.
+6. Steps 2 and 5 give $\dim \operatorname{Row}(A) = p = \dim \operatorname{Col}(A)$.
+7. The columns of the [[transpose|0W809K6AW0]] $A^{\mathsf{T}}$ are the rows of $A$, written as columns, so $\dim \operatorname{Col}(A^{\mathsf{T}}) = \dim \operatorname{Row}(A)$.
+8. By the [[definition of rank|0EWQEYRVA8]] and steps 6 and 7, $\rank A^{\mathsf{T}} = \dim \operatorname{Row}(A) = \dim \operatorname{Col}(A) = \rank A$.
 
 ## Idea
 
-Row operations change the column space but keep its dimension, and they keep the row space.
-In the reduced form, the pivots count both the independent columns and the nonzero rows.
-So both dimensions equal the number of pivots.
+Row operations keep the row space, and they change the column space but keep every linear relation among the columns.
+So both dimensions can be read from the reduced form.
+There, the pivots count the independent columns, and they also count the nonzero rows.
+For example, the reduced form of the matrix with rows $(1, 2, 3)$ and $(2, 4, 6)$ has rows $(1, 2, 3)$ and $(0, 0, 0)$, with one pivot, one nonzero row and one independent column.
 
 ## Variants
 
-- [[By a rank factorization|S1C1ATEFW1]]: this proof uses no row reduction and works for any basis of the column space.
-- [[By orthogonality over the real numbers|4JYHHBC6J7]]: this proof works only over $\R$, or over an ordered field.
-- By duality: see the [[matrix of the dual map|0ZPB3180AY]] and the [[dimension of the annihilator|06Q1EFVH0Q]].
+The [[proof by a factorization A = CR|S1C1ATEFW1]] uses no row reduction, and it works with any basis of the column space.
+The [[proof by orthogonality|4JYHHBC6J7]] works only over $\mathbb{R}$ or another ordered field, but it shows more: $A$ is injective on its row space.
+The [[proof by duality|7DQXA4AY1D]] uses the [[matrix of the dual map|0ZPB3180AY]] and the [[dimension of the annihilator|06Q1EFVH0Q]], and it proves the statement for linear maps without coordinates.
