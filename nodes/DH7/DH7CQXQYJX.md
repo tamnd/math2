@@ -18,11 +18,11 @@ sources:
 
 ## Statement
 
-Along an eigenvector, the system $x' = A x$ only grows or decays exponentially, and when the eigenvectors form a basis, every solution is a combination of these exponential solutions.
+Along an eigenvector, $x' = A x$ only grows or decays exponentially, and with an eigenbasis every solution combines these exponential solutions.
 
 Let $A$ be a real $n \times n$ matrix.
 A solution of the [[homogeneous linear system with constant coefficients|0VJF99CZ0Z]] $x' = A x$ is a differentiable function $x : \mathbb R \to \mathbb C^n$ with $x'(t) = A x(t)$ for all $t$.
-The derivative of a complex-valued function is the derivative of its real part plus $i$ times the derivative of its imaginary part.
+A complex-valued function is differentiated in its real part and its imaginary part separately.
 
 1. **Eigen-solutions.** If $\lambda \in \mathbb C$ is an [[eigenvalue|0ZND7NQ970]] of $A$ with an [[eigenvector|0B5H4208Z9]] $v \in \mathbb C^n$, then $x(t) = e^{\lambda t} v$ is a solution.
 2. **General solution.** Suppose that $v_1, \dots, v_n$ is a basis of $\mathbb C^n$ with $A v_j = \lambda_j v_j$, and let $P$ be the matrix with the columns $v_1, \dots, v_n$.
@@ -34,10 +34,9 @@ $$x(t) = c_1 e^{\lambda_1 t} v_1 + \dots + c_n e^{\lambda_n t} v_n, \qquad (c_1,
    Then
 $$\operatorname{Re}(e^{\lambda t} v) = e^{\alpha t} (a \cos \beta t - b \sin \beta t), \qquad \operatorname{Im}(e^{\lambda t} v) = e^{\alpha t} (a \sin \beta t + b \cos \beta t)$$
    are real solutions.
-   Suppose also that $A$ has a basis of eigenvectors of $\mathbb C^n$.
-   Then $A$ has such a basis made of real eigenvectors for the real eigenvalues and of pairs $v$, $\bar v$ for the pairs $\lambda$, $\bar \lambda$ of non-real eigenvalues.
-   Replace the two solutions $e^{\lambda t} v$ and $e^{\bar\lambda t} \bar v$ of each pair by the two real solutions above.
-   The resulting $n$ real solutions are independent, and every real solution is a real combination of them.
+   If $A$ also has a basis of eigenvectors, it has one made of real vectors for the real eigenvalues and of pairs $v$, $\bar v$ for the non-real ones.
+   For each pair, replace $e^{\lambda t} v$ and $e^{\bar\lambda t} \bar v$ by the two real solutions above.
+   This gives $n$ independent real solutions, and every real solution is a real combination of them.
 
 ## Remarks
 
