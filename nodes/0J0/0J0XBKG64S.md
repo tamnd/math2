@@ -83,6 +83,7 @@ So there is an $n$ with $f(n) \le f(n + 1)$.
 
 The proof shows that such an $n$ exists, but it never names one.
 That is typical of the strict form when it proves an existence statement, and it makes the proof a [[non-constructive existence proof|JZQVJ9XT63]].
+Here a witness could also be found by a different argument, a search through $n = 0, 1, \dots, f(0)$, but the proof by contradiction does not supply that search.
 
 ### Infinitely many primes
 

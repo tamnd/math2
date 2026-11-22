@@ -35,7 +35,8 @@ There are three usual forms.
 The first is a [[proof by contradiction|0J0XBKG64S]] that assumes no such object exists.
 The second is a [[proof by cases|0WCP0PVET6]] with a different witness in each case and no way to decide the case.
 The third is an appeal to a general theorem such as the [[intermediate value theorem|00KAFBR32E]], the [[pigeonhole principle|0HGVCWQGY3]] or the [[axiom of choice|0HTGB13FE2]].
-Such proofs are valid in classical mathematics, which accepts the [[law of excluded middle|0RYYK8PG4S]], and they are rejected in constructive mathematics, which accepts only a [[constructive proof|01XM7JEKHY]] of existence.
+Proofs that rest on the [[law of excluded middle|0RYYK8PG4S]] or on choice are valid in classical mathematics and rejected in constructive mathematics, which accepts only a [[constructive proof|01XM7JEKHY]] of existence.
+A pigeonhole argument over a finite set is an exception, because a finite search can always find its witness.
 
 ## Motivation
 
