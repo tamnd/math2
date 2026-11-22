@@ -42,7 +42,8 @@ $$T_{12}(1)\,T_{21}(-1) = \begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix} \begin{pm
 A row exchange is not a transvection, but it can be imitated up to a sign by three of them:
 $$T_{12}(1)\,T_{21}(-1)\,T_{12}(1) = \begin{pmatrix} 0 & 1 \\ -1 & 1 \end{pmatrix} \begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix} = \begin{pmatrix} 0 & 1 \\ -1 & 0 \end{pmatrix}.$$
 Scalings are not needed at all, because the diagonal factor $D$ absorbs them.
-The price is that $D$ is not unique: for nonzero $a$ and $b$, both $\operatorname{diag}(a, b)$ and $\operatorname{diag}(ab, 1)$ arise from the same matrix $\operatorname{diag}(a, b)$, since the two differ by a factor $\operatorname{diag}(b^{-1}, b)$ of determinant $1$, which is itself a product of transvections.
+The price is that $D$ is not unique: for nonzero $a$ and $b$, both $\operatorname{diag}(a, b)$ and $\operatorname{diag}(ab, 1)$ arise from the same matrix $\operatorname{diag}(a, b)$.
+The reason is that $\operatorname{diag}(ab, 1) = \operatorname{diag}(a, b) \operatorname{diag}(b, b^{-1})$, and the factor $\operatorname{diag}(b, b^{-1})$ has determinant $1$, so it is a product of transvections.
 
 ### Why the hypotheses are needed
 

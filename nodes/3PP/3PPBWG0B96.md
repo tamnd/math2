@@ -33,7 +33,7 @@ Take $A = \begin{pmatrix} 2 & 1 & 1 \\ 4 & 3 & 3 \\ 8 & 7 & 9 \end{pmatrix}$ and
 $$\Delta_1 = 2, \qquad \Delta_2 = 2 \cdot 3 - 1 \cdot 4 = 2, \qquad \Delta_3 = 2(27 - 21) - 1(36 - 24) + 1(28 - 24) = 4.$$
 All three are nonzero, so $A = LU$ exists, and the pivots will be
 $$\frac{\Delta_1}{\Delta_0} = 2, \qquad \frac{\Delta_2}{\Delta_1} = 1, \qquad \frac{\Delta_3}{\Delta_2} = 2.$$
-The [[worked LU example|B61PAXBBHQ]] finds $U$ with diagonal $2, 1, 2$, as predicted, before doing any elimination.
+The theorem predicts these pivots before any elimination is done, and the [[worked LU example|B61PAXBBHQ]] then finds $U$ with diagonal $2, 1, 2$.
 
 ### Why the hypotheses are needed
 
