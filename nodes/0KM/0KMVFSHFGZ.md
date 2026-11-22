@@ -20,100 +20,143 @@ sources:
 
 ## Statement
 
-Let $P(n)$ be a property of [[natural numbers|0MWKJ44V5A]] $n$, and let $<$ be the [[order on the natural numbers|0Y9H52BT03]].
-Suppose that the following holds for each natural number $n$: if $P(k)$ holds for every natural number $k < n$, then $P(n)$ holds.
+Strong induction lets a proof of the case $n$ use every earlier case, and not only the case $n - 1$.
+
+Let $P(n)$ be a property of [[natural numbers|0MWKJ44V5A]] $n$, and let $<$ be the usual [[order on the natural numbers|0Y9H52BT03]].
+Suppose that for each natural number $n$ the following holds: if $P(k)$ holds for every natural number $k < n$, then $P(n)$ holds.
 Then $P(n)$ holds for every natural number $n$.
 
-The hypothesis is the strong induction step, and the assumption "$P(k)$ for every $k < n$" is the strong induction hypothesis.
+The hypothesis is the *strong induction step*, and the assumption "$P(k)$ for every $k < n$" is the *strong induction hypothesis*.
 
 ## Remarks
 
-### How the statement is used
+### A first proof by strong induction
 
-A proof by strong induction has the following form.
+Here is the theorem that shows why the method exists: every integer $n \ge 2$ has a prime factor.
+Let $n \ge 2$, and assume that every integer $k$ with $2 \le k < n$ has a prime factor.
+If $n$ is prime, then $n$ itself is a prime factor of $n$.
+If $n$ is not prime, then $n = ab$ with $1 < a < n$.
+The hypothesis applies to $a$, so some prime $p$ divides $a$, and then $p$ also divides $n = ab$.
+In both cases $n$ has a prime factor, so strong induction from the base $2$ proves the theorem.
 
-1. Let $n$ be an arbitrary natural number.
-2. Assume that $P(k)$ holds for every $k < n$.
-3. Prove $P(n)$. The proof may use $P(k)$ for any $k < n$, and not only for $k = n - 1$.
+Look at the case $n = 2$.
+No integer $k$ satisfies $2 \le k < 2$, so the hypothesis gives nothing, and the proof must handle $2$ with no help.
+It does, because $2$ is prime and the first case applies.
+Check with a number: for $n = 91 = 7 \cdot 13$ the proof uses the case $a = 7$, which is far below $90$.
+Ordinary [[induction|0ASJVEFA9J]] would give us only the case $90$, and a prime factor of $90$ says nothing about $91$.
+The same idea, applied to both factors, shows that [[every integer above 1 is a product of primes|818MZC1FYJ]].
+The [[minimal counterexample|JGRCNPKNGG]] method gives [[the same prime factor theorem|VSHHBWWXVX]] in another form.
 
-For $n = 0$ there is no $k < 0$, so step 2 assumes nothing and step 3 must prove $P(0)$ directly.
-In practice the small values of $n$ for which the general argument does not work are proved separately, as base cases.
+### Why the method is valid
+
+Strong induction is ordinary induction applied to a stronger property.
+Let $Q(n)$ say "$P(k)$ holds for every $k < n$".
+Then $Q(0)$ holds because there is no $k < 0$.
+If $Q(n)$ holds, the strong step gives $P(n)$, and together these give $Q(n + 1)$, because the numbers below $n + 1$ are the numbers below $n$ and $n$ itself.
+So ordinary induction proves $Q(n)$ for every $n$, and the strong step turns each $Q(n)$ into $P(n)$.
+The [[proof from ordinary induction|C54QYDXFP3]] writes this out from the Peano axioms.
+
+### No separate base case, but zero still counts
+
+The statement has no base case, and that is not a mistake.
+For $n = 0$ the strong hypothesis is empty, so the step itself must prove $P(0)$ with no assumptions.
+In practice the general argument often fails for the smallest values of $n$, and those values are then proved on their own.
+They are written as base cases, but logically they are parts of the step.
 
 ### Other forms
 
-1. Base $n_0$: if, for each $n \ge n_0$, the truth of $P(k)$ for all $k$ with $n_0 \le k < n$ implies $P(n)$, then $P(n)$ holds for all $n \ge n_0$. Apply the statement to $Q(m) = P(n_0 + m)$.
-2. Several base cases: suppose $P(n_0), P(n_0 + 1), \ldots, P(n_0 + j - 1)$ hold, and for each $n \ge n_0 + j$ the cases $P(n - j), \ldots, P(n - 1)$ imply $P(n)$. Then $P(n)$ holds for all $n \ge n_0$. This follows from form 1, because each $n$ is either one of the $j$ base cases or at least $n_0 + j$.
-3. Set form: if $A \subseteq \mathbb{N}$ and, for each $n$, $\{k : k < n\} \subseteq A$ implies $n \in A$, then $A = \mathbb{N}$.
+The method starts at any base $n_0$: if for each $n \ge n_0$ the cases $P(k)$ with $n_0 \le k < n$ give $P(n)$, then $P(n)$ holds for all $n \ge n_0$.
+To see this, apply the statement to $R(m) = P(n_0 + m)$.
 
-### Examples
+A step that reaches back $j$ places needs $j$ base cases.
+Suppose $P(n_0), \ldots, P(n_0 + j - 1)$ hold, and for each $n \ge n_0 + j$ the cases $P(n - j), \ldots, P(n - 1)$ give $P(n)$.
+Then $P(n)$ holds for all $n \ge n_0$, since each $n$ is a base case or at least $n_0 + j$.
+[[Postage with stamps of 4 and 5 cents|HQQGKAXCSW]] reaches back four places and has four base cases, and the [[bound $F_n < 2^n$|3ZDPCTKC9M]] reaches back two places and has two.
 
-1. [[Postage with stamps of $4$ and $5$ cents|HQQGKAXCSW]]: every amount $n \ge 12$ is $4a + 5b$, with four base cases $12, 13, 14, 15$ and a step from $n - 4$ to $n$.
-2. [[Each integer $n \ge 2$ is a product of primes|818MZC1FYJ]]: a composite $n = ab$ uses the cases $a$ and $b$, which are not $n - 1$.
-3. The bound $F_n < 2^n$ for the Fibonacci numbers uses the two cases $n - 1$ and $n - 2$, so it needs the [[two base cases $F_0$ and $F_1$|3ZDPCTKC9M]].
-4. The uniqueness part of the [[fundamental theorem of arithmetic|CTSV0ZESYF]] is proved by strong induction on $n$.
+In the language of sets the statement reads: if $A \subseteq \mathbb{N}$ and, for each $n$, $\{k : k < n\} \subseteq A$ implies $n \in A$, then $A = \mathbb{N}$.
+
+### When to choose it
+
+Choose strong induction when the reduction of the case $n$ lands on a smaller case whose position you cannot predict.
+A factor of $n$, the number $n - 2^m$, or the pieces of a split all have this property.
+When the reduction always lands on $n - 1$, ordinary induction is enough and reads more simply.
 
 ### Why each hypothesis is needed
 
-1. The step must hold for every $n$, including $n = 0$. The property "$n \ge 1$" satisfies the step for every $n \ge 1$, because it is true there, but it fails at $n = 0$.
-2. The step must hold for every $n$, and not only from some point on. The property "$n \ne 5$" satisfies the step for all $n \ne 5$, and it fails at $n = 5$.
-3. The induction hypothesis may use only $k < n$. A "step" that uses $P(n + 1)$ to prove $P(n)$ proves nothing: the [[upward recursion|CCNEXYJDC0]] shows the same failure for definitions.
+The step must hold at $n = 0$.
+The property "$n \ge 1$" satisfies the step at every $n \ge 1$, because it is true there, and it fails at $0$.
 
-### Consequences
+The step must hold at every $n$, not only from some point on.
+The property "$n \ne 5$" satisfies the step at every $n \ne 5$, and it fails at $5$.
 
-1. Ordinary [[mathematical induction|0ASJVEFA9J]] is a special case: its step uses only $P(n - 1)$, which is one of the cases $k < n$.
-2. The [[well-ordering principle|01BX15HSRR]] follows from strong induction, by the [[proof with the property $n \notin A$|QPX5Z5YFH8]].
-3. The [[minimal counterexample|JGRCNPKNGG]] method and [[infinite descent|0EFYCFHYFG]] are strong induction in contrapositive form.
+The hypothesis may use only cases $k < n$.
+An argument that proves $P(n)$ from $P(n + 1)$ proves nothing, because the chain of cases never reaches a starting point.
+[[Upward recursion|CCNEXYJDC0]] shows the same failure for definitions.
 
-### Converse
+### Strong is not stronger
 
-The converse direction also holds: strong induction implies ordinary induction, and the [[proof from ordinary induction|C54QYDXFP3]] shows that ordinary induction implies strong induction.
-So the two principles are equivalent, together with the well-ordering principle; the [[equivalence of induction and well-ordering|J2P9FWBP3Q]] states the base theory.
-Strong induction is "strong" in what a proof may assume, not in what it can prove.
+Ordinary induction is a special case, because its step uses only $P(n - 1)$, one of the cases $k < n$.
+Conversely, the argument above derives strong induction from ordinary induction.
+So the two principles prove exactly the same theorems, and together with the [[well-ordering principle|01BX15HSRR]] they are equivalent; the [[equivalence of induction and well-ordering|J2P9FWBP3Q]] names the base theory.
+The word "strong" describes what a proof may assume, not what it can prove.
+The well-ordering principle itself follows from strong induction by the [[proof with the property $n \notin A$|QPX5Z5YFH8]], and [[infinite descent|0EFYCFHYFG]] is strong induction in contrapositive form.
 
-### Names
+### Watch out
 
-The names "strong induction", "complete induction", "course-of-values induction" and "the second principle of induction" all name this statement.
-Ordinary induction is then called "weak" or "the first principle".
+A step that uses two earlier cases needs two base cases.
+Suppose a proof of $F_n < 2^n$ uses $F_n = F_{n - 1} + F_{n - 2}$ and checks only $F_0 = 0 < 1$.
+For $n = 1$ the step would need $F_{-1}$, which does not exist, so $P(1)$ is left unproved.
+The correct move is to check $F_1 = 1 < 2$ as a second base case and to run the step from $n = 2$.
+A step that splits $n$ as $a + b$ with $a, b < n$ fails at $n = 1$ in the same way, and the [[false proof that $2n = 0$|32AP5ZDMJJ]] uses exactly that gap.
 
-### In Lean
+### Names and Lean
 
-Mathlib states strong induction on $\mathbb{N}$ as `Nat.strong_induction_on`.
-In Lean 4 the tactic `induction n using Nat.strong_induction_on` starts a proof of this form.
+"Strong induction", "complete induction", "course-of-values induction" and "the second principle of induction" all name this statement.
+Ordinary induction is then called "weak induction" or "the first principle".
+Mathlib states strong induction on $\mathbb{N}$ as `Nat.strong_induction_on`, and the tactic `induction n using Nat.strong_induction_on with n ih` starts a proof of this form.
+
+### Try it
+
+First, prove by strong induction that every $n \ge 1$ can be written as $2^a \cdot m$ with $m$ odd.
+If $n$ is odd, take $a = 0$ and $m = n$; if $n$ is even, apply the hypothesis to $n / 2 < n$ and raise $a$ by one.
+
+Second, which base cases does a step from $n - 3$ to $n$ need when the claim starts at $n_0 = 8$?
+It needs $8$, $9$ and $10$, because those are the values whose case $n - 3$ lies below $8$.
 
 ## History
 
-Strong induction grew out of ordinary [[induction|0ASJVEFA9J]], and its history is a part of the history of that method.
+Strong induction developed together with ordinary [[induction|0ASJVEFA9J]], and textbooks present it as a variant of that method rather than as a separate discovery.
 
 ## Explanations
 
 ### L1 human
 
-In ordinary induction, the proof for a number may use only the case just before it.
-In strong induction, it may use all the cases before it.
-This helps when a number breaks into smaller pieces that are not just "one less".
-For example, $12 = 3 \times 4$, and a fact about $3$ and a fact about $4$ can give the fact about $12$.
-The cases below $12$ are all known when we reach $12$, so we may use any of them.
+In ordinary induction, the proof for a number may use only the number just before it.
+In strong induction, it may use all the numbers before it.
+This helps when a number breaks into smaller pieces that are not "one less".
+For example, $12 = 3 \times 4$, and facts about $3$ and $4$ can give the fact about $12$.
+By the time we reach $12$, every number below $12$ is already settled, so we may use any of them.
 
 ### L2 human
 
 We prove that every natural number $n \ge 1$ is a sum of distinct powers of $2$.
+Let $n \ge 1$, and assume the claim for every $k$ with $1 \le k < n$.
+Let $2^m$ be the largest power of $2$ with $2^m \le n$, so that $n < 2^{m + 1}$.
+If $n = 2^m$, the sum has one term, and we are done.
+Otherwise put $k = n - 2^m$, which satisfies $1 \le k < n$, so $k$ is a sum of distinct powers of $2$.
+Also $k < 2^{m + 1} - 2^m = 2^m$, so every power in the sum for $k$ is less than $2^m$.
+Then $n = 2^m + k$ is a sum of distinct powers of $2$.
+For example, with $n = 13$:
+$$13 = 8 + 5, \qquad 5 = 4 + 1, \qquad 13 = 8 + 4 + 1.$$
+Check: $8 + 4 + 1 = 13$, and the three powers are distinct.
 
-1. Let $P(n)$ be the statement "$n$ is a sum of distinct powers of $2$". Let $n \ge 1$, and assume $P(k)$ for every $k$ with $1 \le k < n$.
-2. Let $2^m$ be the largest power of $2$ with $2^m \le n$. Then $n < 2^{m+1}$.
-3. If $n = 2^m$, then $n$ is a sum of one power of $2$, and $P(n)$ holds.
-4. Otherwise $k = n - 2^m$ satisfies $1 \le k < n$, so $P(k)$ holds by the hypothesis of step 1.
-5. Also $k < 2^{m+1} - 2^m = 2^m$, so every power of $2$ in the sum for $k$ is less than $2^m$.
-6. So $n = 2^m + k$ is a sum of distinct powers of $2$, and $P(n)$ holds.
-7. By strong induction (form 1 with $n_0 = 1$), $P(n)$ holds for all $n \ge 1$.
-
-The typical use is a statement about $n$ that reduces to a smaller case of unknown size, such as $n - 2^m$ or a factor of $n$.
-A trap: a proof that uses $P(n - 1)$ and $P(n - 2)$ must check two base cases.
-One base case leaves $P(1)$ unproved when the step starts at $n = 2$.
+The case used is $n - 2^m$, whose distance from $n$ changes with $n$, and that is the typical reason to choose strong induction.
+Watch out: without the bound $k < 2^m$, the power $2^m$ could appear twice, and the sum would not be a sum of distinct powers.
 
 ### L3 human
 
 Strong induction on $\mathbb{N}$ is the special case of well-founded induction for the relation $<$.
-For any well-founded relation $R$ on a set $X$, if each $x$ has property $P$ whenever all its $R$-predecessors have it, then every element of $X$ has $P$.
+For any well-founded relation $R$ on a set $X$, if each $x$ has property $P$ whenever all its $R$-predecessors have it, then every element of $X$ has $P$; Mathlib states this as `WellFounded.induction`.
 This includes induction over $\mathbb{N} \times \mathbb{N}$ in [[lexicographic order|0B68KNPGCG]], [[structural induction|12MQ2NJ29A]] over trees, and transfinite induction over the ordinals.
-In computability theory, the same pattern defines functions by course-of-values recursion.
-In type theory, strong induction is derived from the recursor of the natural numbers, as in the [[proof from ordinary induction|C54QYDXFP3]].
+In computability theory the same pattern defines functions by course-of-values recursion, where $f(n)$ may depend on all the values $f(0), \ldots, f(n - 1)$.
+In type theory strong induction is derived from the recursor `Nat.rec` of the natural numbers, by the same stronger property $Q(n)$ as above.
