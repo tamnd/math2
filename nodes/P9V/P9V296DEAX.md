@@ -59,4 +59,4 @@ In infinite dimension it also needs Zorn's lemma, inside the theorem that a basi
 
 In finite dimension, Zorn's lemma is not needed.
 Start from $W = \{0\}$, and while $U + W \ne V$, choose $v \notin U + W$ and replace $W$ by $W + F v$, as in steps 7 to 10.
-Each step keeps $U \cap W = \{0\}$ and raises $\dim W$ by $1$, so the process stops after at most $\dim V - \dim U$ steps, and then $U + W = V$.
+Each step keeps $U \cap W = \{0\}$ and raises $\dim (U + W)$ by $1$, so the process stops after exactly $\dim V - \dim U$ steps, and then $U + W = V$.
