@@ -165,5 +165,6 @@ Watch out: the assumption must be the exact negation, here "some integer $n$ has
 
 In natural deduction, the strict form is the classical rule: from a derivation of $\bot$ under the assumption $\neg P$, conclude $P$.
 Adding this rule to intuitionistic logic gives exactly classical logic, so the rule marks the border between the two.
-The double negation translation of Gödel and Gentzen turns each classical proof into an intuitionistic proof of a translated statement, and for many statements about the natural numbers this recovers a constructive proof.
+The double negation translation of Gödel and Gentzen turns each classical proof into an intuitionistic proof of a translated statement.
+A refinement of the translation shows that when Peano arithmetic proves "for every $n$ there is $m$ with $R(n, m)$", with $R$ decidable, Heyting arithmetic proves it too, so the classical proof hides a constructive one.
 The method takes the form of diagonal arguments in set theory and computability, as in [[Cantor's diagonal argument|0XCH8QVDCQ]], and of descent and minimal counterexamples in number theory, which the topic [[induction and well-ordering as proof methods|EEH2F76CYQ]] treats.
