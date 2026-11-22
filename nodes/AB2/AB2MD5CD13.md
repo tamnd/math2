@@ -82,8 +82,8 @@ For example, the matrices of trace $0$ are closed under addition, but they are n
 
 ### The algebra structure and the units
 
-Over a commutative ring $R$, the map $c \mapsto cI_n$ sends $R$ into the center, so $M_n(R)$ is an [[associative algebra|1SENAHZW5A]] over $R$.
-Over a field $F$ it has dimension $n^2$, with the $n^2$ matrix units as a basis.
+Over a commutative ring $R$, the map $c \mapsto cI_n$ sends $R$ into the center, so $M_n(R)$ is an associative algebra over $R$.
+Over a field $F$ it is an [[algebra over the field|1SENAHZW5A]] of dimension $n^2$, with the $n^2$ matrix units as a basis.
 The units of the ring are the [[invertible matrices|0EB9N0S33C]], and they form the group $GL_n(R)$.
 
 ### Watch out
@@ -103,7 +103,7 @@ Wedderburn proved in 1908 that every finite-dimensional simple algebra over a fi
 First, find a matrix $A \ne 0$ in $M_2(\mathbb{R})$ with $A^2 = 0$, other than $E_{12}$.
 One answer is $A = \begin{pmatrix} 1 & 1 \\ -1 & -1 \end{pmatrix}$, since its square has entries $1 - 1 = 0$ in every position.
 
-Second, show that $\begin{pmatrix} 1 & 0 \\ 0 & 2 \end{pmatrix}$ is not in the center of $M_2(\mathbb{R})$.
+Second, show that $D = \begin{pmatrix} 1 & 0 \\ 0 & 2 \end{pmatrix}$ is not in the center of $M_2(\mathbb{R})$.
 Multiplying by $E_{12}$ gives $D E_{12} = E_{12}$ but $E_{12} D = 2E_{12}$, so the two products differ.
 
 ## Explanations

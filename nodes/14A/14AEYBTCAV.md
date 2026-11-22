@@ -15,24 +15,36 @@ sources:
 
 ## Proof
 
-Let $N_j = n_1 + \cdots + n_j$ with $N_0 = 0$, and let $J_j = \{N_{j-1} + 1, \dots, N_j\}$ be the indices of the $j$-th column block of $A$.
-Define $I_i$ for the $m_i$ and $K_k$ for the $r_k$ in the same way.
+We write one entry of $AB$ with the entry rule, split the sum over the inner index into the column blocks of $A$, and recognize each piece as an entry of a block product.
 
-1. The sets $J_1, \dots, J_q$ are disjoint and their union is $\{1, \dots, n\}$, because $n = n_1 + \cdots + n_q$.
-2. Fix $i$ and $k$, and fix a row index $a \in I_i$ and a column index $c \in K_k$ of $AB$. By the [[product rule|076JGP6R3T]], $(AB)_{ac} = \sum_{l=1}^{n} A_{al} B_{lc}$.
-3. By step 1 we can split this sum into groups: $(AB)_{ac} = \sum_{j=1}^{q} \sum_{l \in J_j} A_{al} B_{lc}$.
-4. By the [[definition of a block matrix|01AXG9KZQF]], for $l \in J_j$ the entry $A_{al}$ is an entry of the block $A_{ij}$. It sits in row $a - M_{i-1}$ and column $l - N_{j-1}$ of the block, where $M_{i-1} = m_1 + \cdots + m_{i-1}$.
-5. Since $B$ has row partition $(n_j)$, for $l \in J_j$ the entry $B_{lc}$ is an entry of the block $B_{jk}$, in row $l - N_{j-1}$ and column $c - R_{k-1}$, where $R_{k-1} = r_1 + \cdots + r_{k-1}$.
-6. So the inner sum $\sum_{l \in J_j} A_{al} B_{lc}$ is the product rule for one entry of the $m_i \times r_k$ matrix $A_{ij} B_{jk}$. It is the entry at $(a - M_{i-1}, c - R_{k-1})$.
-7. By steps 3 and 6, $(AB)_{ac}$ is the entry at $(a - M_{i-1}, c - R_{k-1})$ of $\sum_{j} A_{ij} B_{jk}$.
-8. This holds for all $a \in I_i$ and $c \in K_k$. So the $(i, k)$ block of $AB$ is $\sum_j A_{ij} B_{jk}$.
+Let $N_j = n_1 + \dots + n_j$ with $N_0 = 0$, and let $J_j = \{N_{j-1} + 1, \dots, N_j\}$ be the set of column indices of the $j$-th column block of $A$.
+In the same way let $M_i = m_1 + \dots + m_i$, $R_k = r_1 + \dots + r_k$, $I_i = \{M_{i-1} + 1, \dots, M_i\}$ and $K_k = \{R_{k-1} + 1, \dots, R_k\}$.
+
+1. The sets $J_1, \dots, J_q$ are disjoint, and their union is $\{1, \dots, n\}$, because $N_q = n_1 + \dots + n_q = n$.
+2. Fix $i$ and $k$, a row index $a \in I_i$ and a column index $c \in K_k$. By the [[entry rule of the product|076JGP6R3T]],
+$$(AB)_{ac} = \sum_{l=1}^{n} A_{al} B_{lc}.$$
+3. By step 1 we may split the sum into groups, one for each $j$:
+$$(AB)_{ac} = \sum_{j=1}^{q} \sum_{l \in J_j} A_{al} B_{lc}.$$
+4. By the [[definition of a block matrix|01AXG9KZQF]], for $l \in J_j$ the entry $A_{al}$ lies in the block $A_{ij}$, in its row $a - M_{i-1}$ and its column $l - N_{j-1}$.
+5. The row partition of $B$ is $(n_1, \dots, n_q)$ by hypothesis, so for $l \in J_j$ the entry $B_{lc}$ lies in the block $B_{jk}$, in its row $l - N_{j-1}$ and its column $c - R_{k-1}$.
+6. As $l$ runs through $J_j$, the index $t = l - N_{j-1}$ runs through $1, \dots, n_j$. So by steps 4 and 5 the inner sum is
+$$\sum_{t=1}^{n_j} (A_{ij})_{a - M_{i-1},\, t}\, (B_{jk})_{t,\, c - R_{k-1}},$$
+which is the entry at position $(a - M_{i-1}, c - R_{k-1})$ of the $m_i \times r_k$ product $A_{ij} B_{jk}$, by the entry rule.
+7. Put steps 3 and 6 together: $(AB)_{ac}$ is the entry at position $(a - M_{i-1}, c - R_{k-1})$ of $\sum_{j=1}^{q} A_{ij} B_{jk}$.
+8. As $a$ runs through $I_i$ and $c$ runs through $K_k$, these positions run through the whole $m_i \times r_k$ block. So the block of $AB$ in rows $I_i$ and columns $K_k$ is $\sum_j A_{ij} B_{jk}$.
+
+This holds for every $i$ and $k$, so $AB$ has the stated blocks.
 
 ## Idea
 
 Each entry of $AB$ is a sum over the inner index.
-Cutting the inner index into the column blocks of $A$ splits the sum into pieces.
-Each piece is an entry of a block product $A_{ij} B_{jk}$, because the row blocks of $B$ use the same cuts.
+Cut that index into the column blocks of $A$, and the sum falls into pieces, one for each $j$.
+Because the rows of $B$ are cut in the same places, each piece only involves the blocks $A_{ij}$ and $B_{jk}$, and it is exactly one entry of their product.
+The rest of the proof is bookkeeping of the offsets $M_{i-1}$, $N_{j-1}$ and $R_{k-1}$.
 
 ## Variants
 
-- By linear maps: $A$ and $B$ are maps between direct sums, and the block $A_{ij}$ is the map from the $j$-th summand to the $i$-th. Composition then gives $(AB)_{ik} = \sum_j A_{ij} B_{jk}$.
+A proof by linear maps avoids the indices.
+Write $F^n = F^{n_1} \oplus \dots \oplus F^{n_q}$ and similarly for $F^m$ and $F^r$, and read $A_{ij}$ as the component of $x \mapsto Ax$ from the $j$-th summand to the $i$-th.
+Then the composite $x \mapsto A(Bx)$ has the component $\sum_j A_{ij} B_{jk}$ from the $k$-th summand to the $i$-th, since a vector in the $k$-th summand is sent by $B$ to the sum of its components, and $A$ acts on each one.
+Matrix multiplication matches composition, so this is the block rule.

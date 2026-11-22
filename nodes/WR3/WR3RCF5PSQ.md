@@ -51,8 +51,6 @@ Block upper triangular matrices with one fixed partition are closed under produc
 ### Generalizations
 
 The rule holds for matrices of maps between direct sums of modules, and in any additive category, where it is the composition of maps between direct sums.
-It also holds with infinitely many blocks, as long as each block sum is finite.
-
 ## Explanations
 
 ### L1 human
@@ -69,7 +67,7 @@ Here is a typical use: square $M = \begin{pmatrix} I & B \\ 0 & I \end{pmatrix}$
 The rule gives
 $$M^2 = \begin{pmatrix} I \cdot I + B \cdot 0 & I B + B I \\ 0 \cdot I + I \cdot 0 & 0 \cdot B + I \cdot I \end{pmatrix} = \begin{pmatrix} I & 2B \\ 0 & I \end{pmatrix},$$
 and in the same way $M^k$ has $kB$ in the top right block.
-Watch out: in $IB + BI$ both terms equal $B$, but in a general product $XB + BY$ you cannot combine the terms unless $X$ and $Y$ commute with $B$ in a suitable way.
+Watch out: the top right block is the sum $IB + BI$ of two block products, and dropping one of them gives the wrong answer $B$.
 
 ### L3 human
 
