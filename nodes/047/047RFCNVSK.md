@@ -66,8 +66,7 @@ Then $\ip{x}{y} = 0 \cdot 1 + 1 \cdot \overline{i} = -i$, and the coordinates ar
 $$\ip{x}{e_1} = -\tfrac{i}{\sqrt2}, \quad \ip{x}{e_2} = \tfrac{i}{\sqrt2}, \quad \ip{y}{e_1} = \tfrac{1 + i \overline{i}}{\sqrt2} = \sqrt2, \quad \ip{y}{e_2} = \tfrac{1 + i \cdot i}{\sqrt2} = 0.$$
 Part 1 gives $\left(-\tfrac{i}{\sqrt2}\right)\sqrt2 + 0 = -i$, as it should.
 
-Watch out.
-If you put the conjugate on the coordinates of $x$ instead, you get $\tfrac{i}{\sqrt2} \cdot \sqrt2 = i$, the conjugate of the right answer.
+Watch out: if you put the conjugate on the coordinates of $x$ instead, you get $\tfrac{i}{\sqrt2} \cdot \sqrt2 = i$, the conjugate of the right answer.
 Books that make the inner product linear in the second slot, as physics books and Mathlib do, write $\sum_i \overline{\ip{e_i}{x}}\, \ip{e_i}{y}$, and that is the same number in their notation.
 
 ### What it gives you
@@ -98,7 +97,7 @@ The coordinates are $\tfrac{31}{5}$ and $\tfrac{17}{5}$, and $\tfrac{961 + 289}{
 
 ## History
 
-The identity is named after the French mathematician Marc-Antoine Parseval, who stated a version of it for series.
+The identity is named after the French mathematician Marc-Antoine Parseval.
 
 ## Explanations
 
@@ -125,5 +124,5 @@ This is how Fourier analysis works in practice: once the coefficients are known,
 
 Part 3 says that each orthonormal basis gives an isometric isomorphism $V \cong \mathbb{K}^n$, so two finite-dimensional inner product spaces over the same field are isometric exactly when they have the same dimension.
 For a separable infinite-dimensional Hilbert space, a countable Hilbert basis gives in the same way an isometric isomorphism with the sequence space $\ell^2$.
-On the side of analysis, Parseval's identity for Fourier series and Plancherel's theorem for the Fourier transform are the same statement for other orthonormal systems.
+On the side of analysis, Parseval's identity for Fourier series is the case of the orthonormal system $e^{imt}/\sqrt{2\pi}$, and Plancherel's theorem plays the same role for the Fourier transform on the line.
 The sub-area on isometries uses part 3 to describe the maps that preserve inner products.
