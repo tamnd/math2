@@ -17,28 +17,50 @@ sources:
 
 ## Example
 
-Let $p \colon M_2(\mathbb{R}) \to \mathbb{R}$ be the [[permanent|R582CKDHF4]] $p \begin{pmatrix} a & b \\ c & d \end{pmatrix} = ad + bc$.
+Let $p \colon M_2(\mathbb{R}) \to \mathbb{R}$ be the $2 \times 2$ [[permanent|R582CKDHF4]],
+$$p \begin{pmatrix} a & b \\ c & d \end{pmatrix} = ad + bc.$$
+It has the same two products as the determinant $ad - bc$, but with a plus sign.
+We check the three properties of the [[definition of the determinant|0C3CFHDN6R]] one by one.
 
-1. Linear in row $1$: for fixed $(c, d)$, $p = d \cdot a + c \cdot b$ is linear in $(a, b)$.
-2. Linear in row $2$: for fixed $(a, b)$, $p = a \cdot d + b \cdot c$ is linear in $(c, d)$.
-3. Normalized: $p(I_2) = 1 \cdot 1 + 0 \cdot 0 = 1$.
-4. Not alternating: $p \begin{pmatrix} 1 & 1 \\ 1 & 1 \end{pmatrix} = 1 + 1 = 2 \neq 0$.
-5. So $p$ fails property 2 of the [[definition of the determinant|0C3CFHDN6R]], and $p \neq \det$. For this matrix $\det = 1 - 1 = 0$.
+1. Linear in row $1$.
+   For fixed $(c, d)$, the value $p = d \cdot a + c \cdot b$ is a linear function of $(a, b)$.
+2. Linear in row $2$.
+   For fixed $(a, b)$, the value $p = a \cdot d + b \cdot c$ is a linear function of $(c, d)$.
+3. Value $1$ on the identity.
+   We have $p(I_2) = 1 \cdot 1 + 0 \cdot 0 = 1$.
+4. Zero on equal rows.
+   This fails, because
+$$p \begin{pmatrix} 1 & 1 \\ 1 & 1 \end{pmatrix} = 1 \cdot 1 + 1 \cdot 1 = 2 \ne 0.$$
+
+So $p$ satisfies properties 1 and 3 but not property 2, and $p$ is not the [[determinant|00KDZRW4C0]].
+For the same matrix the determinant is $1 - 1 = 0$, as property 2 demands.
 
 ## Remarks
 
-The example shows that the alternating property is needed in the definition; multilinearity and normalization are not enough.
-The permanent also does not change sign under a swap of rows: $p \begin{pmatrix} c & d \\ a & b \end{pmatrix} = cb + da = p \begin{pmatrix} a & b \\ c & d \end{pmatrix}$.
-Over a field of characteristic $2$, $ad + bc = ad - bc$, so the permanent and the determinant agree there.
+The example shows that the alternating property cannot be dropped from the definition.
+Linearity in each row and the value on $I_2$ alone allow more than one function, and the permanent is a second one.
+
+The permanent also ignores the order of the rows.
+Swap the two rows:
+$$p \begin{pmatrix} c & d \\ a & b \end{pmatrix} = cb + da = p \begin{pmatrix} a & b \\ c & d \end{pmatrix}.$$
+A determinant changes sign under the same swap, and that sign change is exactly what the alternating property forces.
+
+Change the ring and the picture changes.
+Over a field of characteristic $2$, we have $+1 = -1$, so $ad + bc = ad - bc$ and the permanent equals the determinant.
+There, $2 = 0$, and the matrix of ones gives $p = 0$ as well.
 
 ## Explanations
 
 ### L1 human
 
-The permanent looks like the determinant, but it adds the two diagonal products instead of subtracting.
-For a table with two equal rows it is not zero, so it fails one of the three rules.
+The permanent looks almost like the determinant, but it adds the two diagonal products instead of subtracting them.
+For a table with two equal rows, such as rows $(1, 1)$ and $(1, 1)$, it gives $2$ and not $0$.
+So it breaks one of the three rules that define the determinant.
 
 ### L2 human
 
-The permanent counts perfect matchings in bipartite graphs, but it has no fast algorithm like row reduction.
-A trap: the formulas differ only in signs, and forgetting the signs in a Laplace expansion computes the permanent.
+The $n \times n$ permanent is the Leibniz sum with every sign replaced by $+$.
+For a matrix of zeros and ones, it counts the ways to choose one $1$ in each row with no two in the same column.
+For example, the permanent of the $3 \times 3$ matrix of ones is $3! = 6$, while its determinant is $0$.
+Row reduction does not help, because adding a multiple of one row to another changes the permanent, and no fast general method for the permanent is known.
+Watch out: if you forget the signs in a Laplace expansion, you compute the permanent and not the determinant.
