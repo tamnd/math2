@@ -19,27 +19,31 @@ Let $X$ be the class of [[finite-dimensional vector spaces|0ZHWKQMVX5]] over $F$
 We show that the [[dimension|03GSZ8RTZJ]] $\dim V$ classifies $X$ up to $\sim$.
 
 1. The dimension is well defined, because any two [[bases|0KCQ9Y3QKA]] of $V$ have the same number of elements, by the [[dimension theorem|0WK0Y8RH1M]].
-2. The dimension is an invariant. A linear isomorphism sends a basis to a basis, so isomorphic spaces have bases of the same size.
-3. The dimension is complete. If $\dim V = \dim W = n$, choose bases $v_1, \ldots, v_n$ and $w_1, \ldots, w_n$. The linear map with $v_i \mapsto w_i$ is an isomorphism.
-4. Steps 2 and 3 together are the theorem that [[finite-dimensional spaces are isomorphic if and only if they have equal dimension|0VJBSK15SN]].
-5. Each value $n \geq 0$ occurs. The space $F^n$ of columns with $n$ entries has the standard basis $e_1, \ldots, e_n$, so $\dim F^n = n$. For $n = 0$ the space is $\{0\}$, with the empty basis.
+2. The dimension is an invariant, because a linear isomorphism sends a basis to a basis, so isomorphic spaces have bases of the same size.
+3. The dimension is complete.
+   If $\dim V = \dim W = n$, choose bases $v_1, \ldots, v_n$ of $V$ and $w_1, \ldots, w_n$ of $W$.
+   The linear map with $v_i \mapsto w_i$ for each $i$ is an isomorphism, since it sends a basis to a basis.
+4. Steps 2 and 3 together are the theorem that [[finite-dimensional spaces are isomorphic exactly when their dimensions are equal|0VJBSK15SN]].
+5. Every value $n \ge 0$ occurs.
+   The space $F^n$ of columns with $n$ entries has the standard basis $e_1, \ldots, e_n$, so $\dim F^n = n$, and for $n = 0$ the space is $\{0\}$ with the empty basis.
 6. So the list $F^0, F^1, F^2, \ldots$ contains exactly one space from each isomorphism class.
 
-We test the classification on two spaces over $\mathbb{R}$.
-
-7. The space $P_2$ of real polynomials of degree at most $2$ has the basis $1, x, x^2$, so $\dim P_2 = 3$.
-8. The space of real $3 \times 1$ columns is $\mathbb{R}^3$, with $\dim \mathbb{R}^3 = 3$.
-9. So $P_2 \cong \mathbb{R}^3$. One isomorphism sends $a + bx + cx^2$ to the column with entries $a$, $b$, $c$.
+We test the classification on the space $P_2$ of real polynomials of degree at most $2$.
+It has the basis $1, x, x^2$, so $\dim P_2 = 3 = \dim \mathbb{R}^3$, and the classification says $P_2 \cong \mathbb{R}^3$.
+One isomorphism sends the coefficients to a column:
+$$a + bx + cx^2 \longmapsto \begin{pmatrix} a \\ b \\ c \end{pmatrix}.$$
+Check: the sum of $1 + 2x$ and $3x - x^2$ is $1 + 5x - x^2$, and the columns $(1, 2, 0)$ and $(0, 3, -1)$ add to $(1, 5, -1)$.
 
 ## Remarks
 
 This is the simplest classification theorem of linear algebra: one natural number describes each space completely.
-The example shows why classification is useful.
-Each statement about a finite-dimensional space that is kept by isomorphisms can be checked on $F^n$, where we can compute with columns.
+It also shows why classification is useful.
+Every statement about a finite-dimensional space that isomorphisms preserve can be checked on $F^n$, where we compute with columns.
 
-If we drop the condition "finite-dimensional", the dimension is a cardinal number, and it is still a complete invariant.
-If we replace the field $F$ by the ring $\mathbb{Z}$, the analogous objects are finitely generated abelian groups, and one number no longer suffices: the classification needs the rank and the torsion part.
-If we classify pairs $(V, T)$ of a space and a linear map $T \colon V \to V$ up to change of basis, the dimension is far from complete, and the classification is the Jordan normal form over $\mathbb{C}$.
+What changes when the setting changes?
+If we drop the condition "finite-dimensional", the dimension becomes a cardinal number, and it is still a complete invariant.
+If we replace the field $F$ by the ring $\mathbb{Z}$, the analogous objects are the finitely generated abelian groups, and one number is no longer enough: by the [[structure theorem|0RY0B72XAS]], the classification needs the rank and the torsion part.
+If we classify pairs $(V, T)$ of a space and a linear map $T \colon V \to V$ up to change of basis, the dimension is far from complete, and over $\mathbb{C}$ the classification is the [[Jordan normal form|085HQ5G5TE]].
 
 ## Explanations
 
@@ -53,12 +57,11 @@ For example, the polynomials $a + bx + cx^2$ behave like lists $(a, b, c)$ of th
 
 ### L2 human
 
-We decide whether the space $M$ of real $2 \times 2$ matrices is isomorphic to $\mathbb{R}^4$ or to $\mathbb{R}^3$.
-
-1. The four matrices $E_{11}, E_{12}, E_{21}, E_{22}$, each with one entry $1$ and the other entries $0$, form a basis of $M$.
-2. So $\dim M = 4$.
-3. By the classification, $M \cong \mathbb{R}^4$, and $M \not\cong \mathbb{R}^3$ because $4 \neq 3$.
-
-The typical use is to transfer a problem from an unfamiliar space to $F^n$.
-A trap is to compare spaces over different fields.
-The complex numbers have dimension $1$ over $\mathbb{C}$ and dimension $2$ over $\mathbb{R}$, so the field must be fixed before the dimension classifies anything.
+Here is a typical use: is the space $M$ of real $2 \times 2$ matrices isomorphic to $\mathbb{R}^4$ or to $\mathbb{R}^3$?
+The four matrices with one entry $1$ and the other entries $0$ form a basis of $M$, because
+$$\begin{pmatrix} p & q \\ r & s \end{pmatrix} = p E_{11} + q E_{12} + r E_{21} + s E_{22}$$
+in exactly one way.
+So $\dim M = 4$, and the classification gives $M \cong \mathbb{R}^4$ and $M \not\cong \mathbb{R}^3$, since $4 \ne 3$.
+The classification lets us move a problem from an unfamiliar space to $F^n$.
+Watch out: the field must be fixed before the dimension classifies anything.
+The complex numbers have dimension $1$ over $\mathbb{C}$ and dimension $2$ over $\mathbb{R}$.
