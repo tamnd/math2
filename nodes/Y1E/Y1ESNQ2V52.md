@@ -42,6 +42,9 @@ All of this returns in the next topics: [[invertible matrices and factorizations
 9. [[Noncommutativity of matrix multiplication|0P506SPZP2]]: a pair with $AB \neq BA$, and which school algebra rules this breaks.
 10. [[Matrix ring|AB2MD5CD13]]: the ring $M_n(R)$, its center of scalar matrices, and its lack of two-sided ideals over a field.
 11. [[Scalar matrix|067NKSBEWT]]: the matrices $\lambda I$, and why they are the only ones that commute with everything.
+
+### Reading order, continued: special shapes and the transpose
+
 12. [[Diagonal matrix|044JNC7ZAA]]: how products and powers work entry by entry, and how a diagonal factor scales rows or columns.
 13. [[Upper and lower triangular matrices|0N4XY7Z3NN]]: why products stay triangular, and why strictly triangular matrices are nilpotent.
 14. [[Transpose|09DXWYRD43]]: how rows become columns, the rules of the transpose, and the notations in books.
@@ -51,6 +54,9 @@ All of this returns in the next topics: [[invertible matrices and factorizations
 18. [[Conjugate transpose|0DXKE10PHF]]: the complex version of the transpose, and why lengths of complex vectors need it.
 19. [[Hermitian and skew-Hermitian matrices|0P17NGQQMQ]]: the complex analogues of symmetric matrices, and the decomposition $A = H + iK$.
 20. [[Block matrix|0ASDFEQS6P]]: how to cut a matrix into blocks and multiply block by block.
+
+### Reading order, continued: blocks, the trace and powers
+
 21. [[Block diagonal matrix|001T5FJDC1]]: how a matrix made of separate square blocks computes powers and inverses one block at a time.
 22. [[Trace of a matrix|0XC1RDBY7A]]: the sum of the diagonal entries, its linearity, and the inner product $\operatorname{tr}(A^{\mathsf{T}} B)$.
 23. [[Cyclic property of the trace|0Y4NF1DRKD]]: why $\operatorname{tr}(AB) = \operatorname{tr}(BA)$, and why $AB - BA = I$ has no solution over the real numbers.
