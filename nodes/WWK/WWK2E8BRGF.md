@@ -45,7 +45,7 @@ In mechanics, the positions of a rigid body with one fixed point are elements of
 Books write $O(n)$, $O_n(\R)$ or $O(n, \R)$, and for a real inner product space $V$ of finite dimension they write $O(V)$ for the group of its bijective linear isometries.
 Mathlib writes `Matrix.orthogonalGroup (Fin n) ℝ`, the matrices `A` with `star A * A = 1` and `A * star A = 1`, where `star` is the transpose for real matrices.
 Watch the words: some authors say "orthogonal transformation" only for rotations, the elements of the [[special orthogonal group|6WBVP2PB1Y]] $SO(n)$.
-In this area an orthogonal transformation is any element of $O(n)$.
+Here an orthogonal transformation is any element of $O(n)$.
 
 ## Remarks
 

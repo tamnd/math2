@@ -51,7 +51,7 @@ Mathlib writes `Matrix.orthogonalGroup n ℝ`.
 It defines this set for any ring with an involution, as the matrices with `star A * A = 1`, so over $\C$ the same name gives the unitary matrices.
 Some books say "orthonormal matrix", which describes the columns better.
 Some authors use "orthogonal transformation" for rotations only, that is, for $\det Q = 1$.
-In this area an orthogonal transformation is any linear isometry of a real inner product space, with $\det Q = \pm 1$.
+Here an orthogonal transformation is any linear isometry of a real inner product space, with $\det Q = \pm 1$.
 A complex matrix with $Q^TQ = I$ is a *complex orthogonal matrix*, and it is not the same as a [[unitary matrix|0AR68JTMDT]].
 
 ## Remarks

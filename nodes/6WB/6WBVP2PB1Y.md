@@ -42,7 +42,7 @@ Later pages describe it completely: [[Euler's rotation theorem|2ZVG43GSKA]] give
 
 Books write $SO(n)$, $SO_n(\R)$, $SO(n, \R)$ or $O^+(n)$.
 Mathlib writes `Matrix.specialOrthogonalGroup (Fin n) ℝ`.
-Some authors call only the elements of $SO(n)$ "orthogonal transformations"; in this area that name means any element of $O(n)$, and "rotation" means an element of $SO(n)$.
+Some authors call only the elements of $SO(n)$ "orthogonal transformations"; here that name means any element of $O(n)$, and "rotation" means an element of $SO(n)$.
 The [[rotation matrix|HNY4CPEEJA]] of the plane is
 $$R(\theta) = \begin{pmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{pmatrix}.$$
 
