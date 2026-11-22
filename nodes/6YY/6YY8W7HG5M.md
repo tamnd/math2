@@ -95,7 +95,8 @@ In combinatorics, a random coloring proves the [[lower bound for Ramsey numbers|
 ### What is not a probabilistic proof
 
 A proof of a theorem about random objects, such as the law of large numbers itself, is a proof in probability theory, and its statement already involves chance.
-A heuristic that treats the primes as random gives predictions, for example on the gaps between primes, but it is not a proof, because the primes are a fixed set and the model is not derived from the definition of a prime.
+A heuristic that treats the primes as random gives predictions, for example on the gaps between primes, but it is not a proof.
+The primes are a fixed set, and the random model is not derived from the definition of a prime.
 A Monte Carlo estimate of an integral is not a proof of its value either: a random sample gives a value that is probably close, and a proof needs a bound that holds with certainty.
 
 ### The rules of the game
