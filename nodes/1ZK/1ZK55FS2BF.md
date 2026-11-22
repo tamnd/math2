@@ -21,6 +21,7 @@ sources:
 
 ## Statement
 
+Row reduction decides whether a square matrix is invertible, writes it as a product of elementary matrices, and produces its inverse.
 Let $F$ be a field and let $A$ be an $n \times n$ matrix over $F$.
 The following conditions are equivalent.
 
@@ -29,42 +30,49 @@ The following conditions are equivalent.
 3. The [[reduced row echelon form|0WF5AQYTW6]] of $A$ is the identity matrix $I_n$.
 4. $A$ is a product of [[elementary matrices|0M79HRJCRR]].
 
-When these conditions hold, row reduction finds the inverse.
-If row operations reduce $A$ to $I_n$, then the same operations, in the same order, turn $I_n$ into $A^{-1}$.
+When these conditions hold, the row operations that reduce $A$ to $I_n$, applied in the same order to $I_n$, produce $A^{-1}$.
 So [[Gauss-Jordan elimination|098D6FQN3N]] on the [[augmented matrix|0T6MWGZSXA]] $[A \mid I_n]$ ends with $[I_n \mid A^{-1}]$.
 
 ## Remarks
 
+### The theorem at work
+
+Take $A = \begin{pmatrix} 2 & 1 \\ 1 & 1 \end{pmatrix}$ and reduce $[A \mid I_2]$.
+Exchange the rows, then subtract twice the new row 1 from row 2:
+$$\left(\begin{array}{cc|cc} 1 & 1 & 0 & 1 \\ 2 & 1 & 1 & 0 \end{array}\right) \to \left(\begin{array}{cc|cc} 1 & 1 & 0 & 1 \\ 0 & -1 & 1 & -2 \end{array}\right).$$
+Multiply row 2 by $-1$, then subtract row 2 from row 1:
+$$\left(\begin{array}{cc|cc} 1 & 1 & 0 & 1 \\ 0 & 1 & -1 & 2 \end{array}\right) \to \left(\begin{array}{cc|cc} 1 & 0 & 1 & -1 \\ 0 & 1 & -1 & 2 \end{array}\right).$$
+The left block became $I_2$, so condition 3 holds and $A^{-1} = \begin{pmatrix} 1 & -1 \\ -1 & 2 \end{pmatrix}$.
+Check: $AA^{-1} = \begin{pmatrix} 2 - 1 & -2 + 2 \\ 1 - 1 & -1 + 2 \end{pmatrix} = I_2$.
+
+The four steps also give condition 4.
+Undoing them in reverse order writes $A = P_{12}\, T_{21}(2)\, D_2(-1)\, T_{12}(1)$.
+
 ### Why each hypothesis is needed
 
 The matrix must be square.
-The $2 \times 3$ matrix $\begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \end{pmatrix}$ is in reduced row echelon form with a pivot in each row, but it is not invertible.
-Also, $Ax = 0$ has the solution $x = (0, 0, 1)^{\mathsf{T}}$.
-The scalars must form a field, or at least the pivots must be units.
-Over $\mathbb{Z}$, the $1 \times 1$ matrix $(2)$ satisfies condition 2, but it is not invertible over $\mathbb{Z}$.
+The $2 \times 3$ matrix $\begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \end{pmatrix}$ is in reduced row echelon form with a pivot in each row, yet $Ax = 0$ has the nonzero solution $(0, 0, 1)$, and the matrix is not invertible.
+The scalars must form a field, so that every nonzero pivot can be scaled to $1$.
+Over $\mathbb{Z}$, the $1 \times 1$ matrix $(2)$ satisfies condition 2, since $2x = 0$ forces $x = 0$, but it is not invertible over $\mathbb{Z}$.
 
-### Consequences
+### What it gives you
 
-- A square matrix over a field is invertible exactly when elimination finds $n$ pivots.
-- The elementary matrices generate the [[general linear group|0FCHE902D7]] $\mathrm{GL}_n(F)$.
-- Two invertible $n \times n$ matrices are [[row equivalent|006BHFWMAP]], since both reduce to $I_n$.
-- The method of [[computing the inverse by row reduction|0Z83DHFMYM]] rests on the last part of the statement.
-- The theorem that a [[one-sided inverse is two-sided|0753Y2X5K6]] follows from condition 2.
+A square matrix over a field is invertible exactly when elimination finds $n$ pivots.
+The elementary matrices generate the [[general linear group|0FCHE902D7]] $\mathrm{GL}_n(F)$, by condition 4.
+Any two invertible $n \times n$ matrices are [[row equivalent|006BHFWMAP]], because both reduce to $I_n$.
+The method of [[computing the inverse by row reduction|0Z83DHFMYM]] is the last part of the statement, and the theorem that a [[one-sided inverse is two-sided|0753Y2X5K6]] follows from condition 2.
 
-### Converse
+### The converse and generalizations
 
-Each condition implies each other condition, so the statement is its own converse.
+Each condition implies each other one, so the statement contains its converses.
 The [[invertible matrix theorem|ACDFDABVQK]] adds many more equivalent conditions.
-
-### Generalizations
-
-Over a commutative ring, condition 2 is weaker than invertibility, and the right test is that $\det A$ is a unit, by the [[determinant criterion|03Q7RE2HXR]].
-Over a principal ideal domain such as $\mathbb{Z}$, the [[Smith normal form|MV28Z5N9XX]] replaces the reduced row echelon form; it belongs to the theory of modules.
+Over a commutative ring, condition 2 is weaker than invertibility, as the example $(2)$ over $\mathbb{Z}$ shows, and the right test is that $\det A$ is a unit, by the [[determinant criterion|03Q7RE2HXR]].
+Over a principal ideal domain such as $\mathbb{Z}$, the [[Smith normal form|MV28Z5N9XX]] takes the place of the reduced row echelon form.
 
 ## History
 
-Gauss used elimination for systems of linear equations in his work on least squares.
-Jordan's variant, which clears the entries above each pivot as well, gives the reduced row echelon form; the name Gauss-Jordan elimination refers to it.
+Gauss used elimination to solve the normal equations of his method of least squares.
+The variant that also clears the entries above each pivot, and so reaches the reduced row echelon form, carries the name of the geodesist Wilhelm Jordan, which gives the name Gauss-Jordan elimination.
 
 ## Explanations
 
@@ -72,23 +80,16 @@ Jordan's variant, which clears the entries above each pivot as well, gives the r
 
 A square matrix has an inverse exactly when row reduction turns it into the identity matrix.
 Row reduction then also gives the inverse: we do the same steps to the identity matrix at the same time.
+If reduction gets stuck with a row of zeros, there is no inverse.
 
 ### L2 human
 
-Worked example: let $A = \begin{pmatrix} 2 & 1 \\ 1 & 1 \end{pmatrix}$.
-
-1. Start with $[A \mid I_2] = \left(\begin{array}{cc|cc} 2 & 1 & 1 & 0 \\ 1 & 1 & 0 & 1 \end{array}\right)$.
-2. $R_1 \leftrightarrow R_2$ gives $\left(\begin{array}{cc|cc} 1 & 1 & 0 & 1 \\ 2 & 1 & 1 & 0 \end{array}\right)$.
-3. $R_2 \to R_2 - 2R_1$ gives $\left(\begin{array}{cc|cc} 1 & 1 & 0 & 1 \\ 0 & -1 & 1 & -2 \end{array}\right)$.
-4. $R_2 \to -R_2$ gives $\left(\begin{array}{cc|cc} 1 & 1 & 0 & 1 \\ 0 & 1 & -1 & 2 \end{array}\right)$.
-5. $R_1 \to R_1 - R_2$ gives $\left(\begin{array}{cc|cc} 1 & 0 & 1 & -1 \\ 0 & 1 & -1 & 2 \end{array}\right)$.
-6. So the reduced form of $A$ is $I_2$, and $A^{-1} = \begin{pmatrix} 1 & -1 \\ -1 & 2 \end{pmatrix}$.
-7. Check: $AA^{-1} = \begin{pmatrix} 2 - 1 & -2 + 2 \\ 1 - 1 & -1 + 2 \end{pmatrix} = I_2$.
-
-The four steps also give $A$ as a product of elementary matrices: $A = P_{12}\, T_{21}(2)\, D_2(-1)\, T_{12}(1)$.
-A trap: an echelon form with $n$ pivots is enough to decide invertibility, but the inverse appears only after the full reduction.
+The typical use is a single computation that answers two questions.
+Reduce $[A \mid I_n]$: if a zero row appears in the left block, $A$ is singular, and if the left block becomes $I_n$, the right block is $A^{-1}$.
+Watch out: an echelon form with $n$ pivots already decides invertibility, but the inverse appears only after the full reduction, as the [[example of an echelon form|CJA2QVWQCE]] shows.
 
 ### L3 human
 
-The theorem says that $\mathrm{GL}_n(F)$ is generated by elementary matrices, and that the orbit of $I_n$ under row operations is exactly $\mathrm{GL}_n(F)$.
-In the language of the rank, condition 3 says that $A$ has rank $n$; the [[rank normal form|T2H2QV0M06]] extends the theorem to all matrices.
+The theorem says that $\mathrm{GL}_n(F)$ is generated by elementary matrices, and that the matrices row equivalent to $I_n$ are exactly the elements of $\mathrm{GL}_n(F)$.
+In the language of rank, condition 3 says that $A$ has rank $n$.
+The [[rank normal form|T2H2QV0M06]] extends the theorem to all matrices, square or not, by allowing column operations too.

@@ -58,8 +58,9 @@ We prove $1 \Rightarrow 2 \Rightarrow 3 \Rightarrow 4 \Rightarrow 1$, and then t
 ## Idea
 
 Elimination is left multiplication by invertible matrices, so it does not change the solutions of $Ax = 0$.
-A missing pivot gives a free variable and so a nonzero solution.
-With no missing pivot, the reduced form is $I_n$, and the record of the row operations is the inverse.
+A missing pivot gives a free variable, and setting that variable to $1$ gives a nonzero solution.
+So condition 2 forces a pivot in every column, and a square reduced form with $n$ pivots is $I_n$.
+The record of the row operations is then a product of elementary matrices that turns $A$ into $I_n$, and that product is $A^{-1}$.
 
 ## Variants
 
