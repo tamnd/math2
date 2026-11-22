@@ -16,10 +16,13 @@ sources:
 
 We give one diagonal form on $\mathbb{R}^2$ of each [[type|01RBSSGMY5]], together with the values that prove its type.
 
-1. $Q_1 = x^2 + y^2$ is [[positive definite|0RP20HFYM3]]. It is a sum of two squares, so it is at least $0$, and it is $0$ only at $(0, 0)$.
-2. $Q_2 = x^2$ is positive semidefinite. It is at least $0$ everywhere, but $Q_2(0, 1) = 0$ at a nonzero vector, so it is not definite.
+1. $Q_1 = x^2 + y^2$ is [[positive definite|0RP20HFYM3]].
+   It is a sum of two squares, so it is at least $0$, and it is $0$ only at $(0, 0)$.
+2. $Q_2 = x^2$ is positive semidefinite.
+   It is at least $0$ everywhere, but $Q_2(0, 1) = 0$ at a nonzero vector, so it is not definite.
 3. $Q_3 = -x^2 - y^2$ is negative definite, since $Q_3 = -Q_1$.
-4. $Q_4 = -y^2$ is negative semidefinite. It is at most $0$ everywhere, and $Q_4(1, 0) = 0$.
+4. $Q_4 = -y^2$ is negative semidefinite.
+   It is at most $0$ everywhere, and $Q_4(1, 0) = 0$.
 5. $Q_5 = x^2 - y^2$ is indefinite, since $Q_5(1, 0) = 1 > 0$ and $Q_5(0, 1) = -1 < 0$.
 6. The zero form $Q_6 = 0$ is both positive semidefinite and negative semidefinite, and it is not definite.
 

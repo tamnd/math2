@@ -18,11 +18,16 @@ sources:
 Let $f(x, y) = x^3 - 3x + y^2$ on $\mathbb{R}^2$.
 We find its critical points and classify them by the type of a quadratic form.
 
-1. The gradient is $\nabla f = (3x^2 - 3, \, 2y)$. It is zero exactly when $x = \pm 1$ and $y = 0$, so the [[critical points|0YTCMFB4HC]] are $(1, 0)$ and $(-1, 0)$.
-2. The second partial derivatives are $f_{xx} = 6x$, $f_{xy} = 0$ and $f_{yy} = 2$. So the [[Hessian matrix|0693Y2METT]] is $H(x, y) = \begin{pmatrix} 6x & 0 \\ 0 & 2 \end{pmatrix}$.
-3. At $(1, 0)$ the Hessian is $\operatorname{diag}(6, 2)$, and its form $6u^2 + 2v^2$ is positive definite. By [[the second derivative test|0GYDV9FE98]], $(1, 0)$ is a strict local minimum, with $f(1, 0) = 1 - 3 = -2$.
-4. At $(-1, 0)$ the Hessian is $\operatorname{diag}(-6, 2)$, and its form $-6u^2 + 2v^2$ is indefinite. So $(-1, 0)$ is a saddle point, with $f(-1, 0) = -1 + 3 = 2$.
-5. Check of step 4 by hand: along the $x$-direction, $f(-1 + t, 0) = 2 - 3t^2 + t^3$, which is less than $2$ for small $t \ne 0$. Along the $y$-direction, $f(-1, s) = 2 + s^2$, which is more than $2$ for $s \ne 0$.
+1. The gradient is $\nabla f = (3x^2 - 3, \, 2y)$.
+   It is zero exactly when $x = \pm 1$ and $y = 0$, so the [[critical points|0YTCMFB4HC]] are $(1, 0)$ and $(-1, 0)$.
+2. The second partial derivatives are $f_{xx} = 6x$, $f_{xy} = 0$ and $f_{yy} = 2$.
+   So the [[Hessian matrix|0693Y2METT]] is $H(x, y) = \begin{pmatrix} 6x & 0 \\ 0 & 2 \end{pmatrix}$.
+3. At $(1, 0)$ the Hessian is $\operatorname{diag}(6, 2)$, and its form $6u^2 + 2v^2$ is positive definite.
+   By [[the second derivative test|0GYDV9FE98]], $(1, 0)$ is a strict local minimum, with $f(1, 0) = 1 - 3 = -2$.
+4. At $(-1, 0)$ the Hessian is $\operatorname{diag}(-6, 2)$, and its form $-6u^2 + 2v^2$ is indefinite.
+   So $(-1, 0)$ is a saddle point, with $f(-1, 0) = -1 + 3 = 2$.
+5. Check of step 4 by hand: along the $x$-direction, $f(-1 + t, 0) = 2 - 3t^2 + t^3$, which is less than $2$ for small $t \ne 0$.
+   Along the $y$-direction, $f(-1, s) = 2 + s^2$, which is more than $2$ for $s \ne 0$.
 
 ## Remarks
 

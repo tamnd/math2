@@ -124,7 +124,7 @@ The matrix $\begin{pmatrix} -2 & 1 \\ 1 & -1 \end{pmatrix}$ has determinant $2 -
 
 ### L1 human
 
-Think of the graph of the form as a landscape over the plane.
+Think of the graph of the form as a surface of hills and valleys over the plane.
 A positive definite form is a bowl: it is $0$ at the origin and goes up in every direction.
 A negative definite form is an upside-down bowl.
 A semidefinite form is a trough, flat along a line, as $x^2$ is flat along the $y$-axis.

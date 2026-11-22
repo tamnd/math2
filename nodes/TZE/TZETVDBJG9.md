@@ -20,9 +20,14 @@ $$A = \begin{pmatrix} 1 & 1/2 \\ 1/2 & 1 \end{pmatrix}.$$
 Check: $x^{\mathsf{T}} A x = x^2 + \tfrac{1}{2} xy + \tfrac{1}{2} yx + y^2 = Q(x, y)$.
 We show in three ways that $Q$ is [[positive definite|00QN1N6MNT]].
 
-1. By [[completing the square|XNCV97HTZ8]], $Q = \left( x + \tfrac{1}{2} y \right)^2 + \tfrac{3}{4} y^2$. Both terms are at least $0$. If $Q(x, y) = 0$, then $y = 0$ and so $x = 0$. So $Q(v) > 0$ for every $v \ne 0$.
-2. By eigenvalues, $A (1, 1)^{\mathsf{T}} = (\tfrac{3}{2}, \tfrac{3}{2})^{\mathsf{T}}$ and $A (1, -1)^{\mathsf{T}} = (\tfrac{1}{2}, -\tfrac{1}{2})^{\mathsf{T}}$. So the eigenvalues are $\tfrac{3}{2}$ and $\tfrac{1}{2}$, both positive, and [[the eigenvalue test|0HYC2RHD3M]] applies.
-3. By minors, the leading minors are $1 > 0$ and $\det A = 1 - \tfrac{1}{4} = \tfrac{3}{4} > 0$. So [[Sylvester's criterion|0WKEF78PMV]] applies.
+1. By [[completing the square|XNCV97HTZ8]], $Q = \left( x + \tfrac{1}{2} y \right)^2 + \tfrac{3}{4} y^2$.
+   Both terms are at least $0$.
+   If $Q(x, y) = 0$, then $y = 0$ and so $x = 0$.
+   So $Q(v) > 0$ for every $v \ne 0$.
+2. By eigenvalues, $A (1, 1)^{\mathsf{T}} = (\tfrac{3}{2}, \tfrac{3}{2})^{\mathsf{T}}$ and $A (1, -1)^{\mathsf{T}} = (\tfrac{1}{2}, -\tfrac{1}{2})^{\mathsf{T}}$.
+   So the eigenvalues are $\tfrac{3}{2}$ and $\tfrac{1}{2}$, both positive, and [[the eigenvalue test|0HYC2RHD3M]] applies.
+3. By minors, the leading minors are $1 > 0$ and $\det A = 1 - \tfrac{1}{4} = \tfrac{3}{4} > 0$.
+   So [[Sylvester's criterion|0WKEF78PMV]] applies.
 
 Check: the eigenvalues have sum $2 = \operatorname{tr} A$ and product $\tfrac{3}{4} = \det A$.
 

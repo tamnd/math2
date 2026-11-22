@@ -22,7 +22,8 @@ We show that none of [[the five types|01RBSSGMY5]] applies to it.
 1. At $z = 1$ the value is $Q(1) = 1$, which is positive.
 2. At $z = i$ the value is $Q(i) = i^2 = -1$, which is negative.
 3. At $z = e^{i\pi/4}$ the value is $Q(e^{i\pi/4}) = e^{i\pi/2} = i$, which is not a real number.
-4. Each type is a sign condition on all the values of $Q$, and the value $i$ has no sign. So $Q$ is neither definite, nor semidefinite, nor indefinite in the real sense.
+4. Each type is a sign condition on all the values of $Q$, and the value $i$ has no sign.
+   So $Q$ is neither definite, nor semidefinite, nor indefinite in the real sense.
 
 ## Remarks
 

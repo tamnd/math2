@@ -20,10 +20,15 @@ Let $Q(x, y) = 2x^2 + 6xy + 4y^2$ on $\mathbb{R}^2$.
 Its symmetric matrix is $A = \begin{pmatrix} 2 & 3 \\ 3 & 4 \end{pmatrix}$, with half of the coefficient $6$ in each off-diagonal place.
 Every coefficient of $Q$ and every entry of $A$ is positive, and yet $Q$ is not [[positive definite|00QN1N6MNT]].
 
-1. Evaluate at $(3, -2)$: $Q(3, -2) = 2 \cdot 9 + 6 \cdot 3 \cdot (-2) + 4 \cdot 4 = 18 - 36 + 16 = -2$. A negative value at a nonzero vector breaks the definition.
+1. Evaluate at $(3, -2)$: $Q(3, -2) = 2 \cdot 9 + 6 \cdot 3 \cdot (-2) + 4 \cdot 4 = 18 - 36 + 16 = -2$.
+   A negative value at a nonzero vector breaks the definition.
 2. The minors test agrees: the first minor is $2 > 0$, but $\det A = 8 - 9 = -1 < 0$, so [[Sylvester's criterion|0WKEF78PMV]] fails.
-3. The form factors as $Q = 2(x + y)(x + 2y)$. Check: $2(x^2 + 3xy + 2y^2) = 2x^2 + 6xy + 4y^2$. So $Q$ is $0$ on the lines $y = -x$ and $y = -\tfrac{1}{2} x$, and negative between them, where the two factors have opposite signs.
-4. The eigenvalues solve $t^2 - 6t - 1 = 0$, since $\operatorname{tr} A = 6$ and $\det A = -1$. They are $3 \pm \sqrt{10}$, about $6.16$ and $-0.16$. One is negative, so $Q$ is indefinite.
+3. The form factors as $Q = 2(x + y)(x + 2y)$.
+   Check: $2(x^2 + 3xy + 2y^2) = 2x^2 + 6xy + 4y^2$.
+   So $Q$ is $0$ on the lines $y = -x$ and $y = -\tfrac{1}{2} x$, and negative between them, where the two factors have opposite signs.
+4. The eigenvalues solve $t^2 - 6t - 1 = 0$, since $\operatorname{tr} A = 6$ and $\det A = -1$.
+   They are $3 \pm \sqrt{10}$, about $6.16$ and $-0.16$.
+   One is negative, so $Q$ is indefinite.
 
 ## Remarks
 
