@@ -18,7 +18,7 @@ The sub-area on canonical forms then classifies the nilpotent parts, which leads
 
 ## Remarks
 
-### Reading order
+### Reading order: diagonalization
 
 1. [[Invariant subspace|0ACX5QT8TE]]: what it means for a map to keep a subspace in place, and why this makes its matrix block triangular.
 2. [[Restriction and quotient operators|0KN7EPH7Z0]]: how a map breaks into a map on the invariant subspace and a map on the quotient, with characteristic polynomials that multiply.
@@ -31,6 +31,9 @@ The sub-area on canonical forms then classifies the nilpotent parts, which leads
 9. [[Eigendecomposition|D0AP2R7272]]: the factorization $A = Q \Lambda Q^{-1}$ read as a sum of eigenvalues times projections.
 10. [[Powers of a diagonalizable matrix|0TNR9BQ871]]: $A^k = P D^k P^{-1}$, with the Fibonacci numbers and the long-term behavior of a linear recurrence.
 11. [[Simultaneous diagonalization|0FK17N4DKA]]: when several maps share one eigenbasis, namely exactly when they are diagonalizable and commute.
+
+### Reading order: beyond diagonalization
+
 12. [[Triangularization|0363JMQ42Y]]: the triangular form that exists exactly when the characteristic polynomial splits, built from a flag of invariant subspaces.
 13. [[Simultaneous triangularization|42PG67Q5YN]]: one triangular basis for a whole family of commuting complex matrices.
 14. [[Kernels lemma|ACBNK1VFVG]]: the splitting $\ker (p q)(T) = \ker p(T) \oplus \ker q(T)$ for coprime $p$ and $q$, with projections that are polynomials in $T$.
