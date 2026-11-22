@@ -100,6 +100,8 @@ For $A = B = I_2$ the formula gives $\det(2 I_2) = 4$, while $(\det A)^2 + (\det
 ### L3 human
 
 The general principle behind the formula is a theorem about commutative subrings.
-If all blocks of a block matrix lie in one commutative ring $R$ of $n \times n$ matrices, then the block matrix is a matrix over $R$, and taking its determinant over $R$ first and then over $K$ gives its determinant over $K$.
+Suppose that all blocks of a block matrix lie in one commutative ring $R$ of $n \times n$ matrices.
+Then the block matrix is a matrix over $R$, and its determinant over $R$ is an element of $R$, that is, an $n \times n$ matrix.
+The determinant of that matrix over $K$ equals the determinant of the block matrix over $K$.
 The proposition is a sharper form for $2 \times 2$ block matrices, which needs only the two lower blocks to commute.
 The [[proof|EFP0JATYWD]] shows a standard device of the sub-area: prove an identity when a determinant is cancellable, then reach the general case through a polynomial variable.

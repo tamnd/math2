@@ -113,5 +113,7 @@ The Schur complement is what Gaussian elimination leaves behind.
 If the first $p$ steps of elimination need no row swaps, the trailing $q \times q$ block is exactly $D - C A^{-1} B$, so the pivots of $M$ are the pivots of $A$ followed by those of the Schur complement.
 The same block factorization gives the inverse of $M$ when $S = D - C A^{-1} B$ is invertible:
 $$M^{-1} = \begin{pmatrix} A^{-1} + A^{-1} B S^{-1} C A^{-1} & -A^{-1} B S^{-1} \\ -S^{-1} C A^{-1} & S^{-1} \end{pmatrix}.$$
-For a real symmetric $M$ with $C = B^{\mathsf{T}}$ and $A$ [[positive definite|0KX66CZMBB]], the matrix $M$ is positive definite if and only if its Schur complement is, and the inertia of $M$ is the sum of the inertias of $A$ and of the Schur complement.
+Let $M$ be real symmetric, so that $C = B^{\mathsf{T}}$, and let $A$ be [[positive definite|0KX66CZMBB]].
+Then $M$ is positive definite if and only if its Schur complement is.
+More generally, when $A$ is only invertible, the inertia of $M$ is the sum of the inertias of $A$ and of the Schur complement.
 In statistics, the covariance of one part of a [[multivariate normal|0XN3K7RSZY]] vector given the other part is a Schur complement of the covariance matrix.
