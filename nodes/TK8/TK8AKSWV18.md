@@ -17,46 +17,54 @@ sources:
 ## Example
 
 The [[extreme value theorem|0WS1A8E2P9]] says: if $f$ is a [[continuous|0X3WGX95FE]] real function on a closed and bounded interval $[a, b]$, then $f$ takes a largest value and a smallest value on $[a, b]$.
-Its hypotheses are (H1) $f$ is continuous, (H2) the domain is closed, and (H3) the domain is bounded.
-We first apply the theorem, and then we drop one hypothesis at a time.
+Its [[hypotheses|W48XN2MEM9]] are (H1) $f$ is continuous, (H2) the domain is closed, and (H3) the domain is bounded.
+We apply the theorem, and then we drop one hypothesis at a time.
 
-1. All hypotheses hold: let $f(x) = x(1 - x)$ on $[0, 1]$. It is a polynomial, so it is continuous. We have $f(x) = \frac{1}{4} - \left(x - \frac{1}{2}\right)^2$, so the largest value is $f(\frac{1}{2}) = \frac{1}{4}$. The smallest value is $f(0) = f(1) = 0$.
-2. Drop (H1): let $g(x) = x$ for $0 \leq x < 1$ and $g(1) = 0$. The domain $[0, 1]$ is closed and bounded, and $g$ is not continuous at $1$.
-3. The values of $g$ are the numbers in $[0, 1)$, so each value is less than $1$. For each value $g(x) = x$ with $x < 1$, the larger value $g\left(\frac{1 + x}{2}\right) = \frac{1 + x}{2}$ exists. So $g$ has no largest value.
-4. Drop (H2): let $h(x) = x$ on the open interval $(0, 1)$. It is continuous, and the domain is bounded but not closed.
-5. For each $x$ in $(0, 1)$, the number $\frac{1 + x}{2}$ is in $(0, 1)$ and $h\left(\frac{1 + x}{2}\right) > h(x)$. So $h$ has no largest value. In the same way, $\frac{x}{2}$ shows that $h$ has no smallest value.
-6. Drop (H3): let $k(x) = x$ on $[0, \infty)$. It is continuous, and the domain is closed but not bounded.
-7. For each $x \geq 0$, we have $k(x + 1) > k(x)$. So $k$ has no largest value.
-8. In steps 2 to 7, each function meets two of the three hypotheses and fails the conclusion. So each hypothesis is needed.
+1. All three hold.
+   Take $f(x) = x(1 - x)$ on $[0, 1]$, a polynomial and so continuous.
+   Complete the square:
+   $$f(x) = \tfrac14 - \left(x - \tfrac12\right)^2,$$
+   so the largest value is $f(\tfrac12) = \tfrac14$, and the smallest is $f(0) = f(1) = 0$.
+2. Drop (H1).
+   Take $g(x) = x$ for $0 \le x < 1$ and $g(1) = 0$ on the closed, bounded interval $[0, 1]$; it is not continuous at $1$.
+   The values of $g$ fill $[0, 1)$, and every value $x < 1$ is beaten by $g\left(\tfrac{1 + x}{2}\right) = \tfrac{1 + x}{2}$.
+   So $g$ has no largest value.
+3. Drop (H2).
+   Take $h(x) = x$ on the open interval $(0, 1)$, which is continuous on a bounded domain that is not closed.
+   For each $x$ in $(0, 1)$ the point $\tfrac{1 + x}{2}$ lies in $(0, 1)$ and gives a larger value, so $h$ has no largest value.
+   In the same way the point $\tfrac{x}{2}$ shows that $h$ has no smallest value.
+4. Drop (H3).
+   Take $k(x) = x$ on $[0, \infty)$, which is continuous on a closed domain that is not bounded.
+   For each $x \ge 0$ we have $k(x + 1) > k(x)$, so $k$ has no largest value.
+5. In steps 2 to 4 each function meets two of the three hypotheses and fails the conclusion.
+   So each hypothesis is needed.
 
 ## Remarks
 
-The example tests each [[hypothesis|W48XN2MEM9]] in the standard way: keep the others, drop one, and find a function for which the conclusion fails.
-A failure can be stronger than in the example.
-The function $\frac{1}{x}$ on $(0, 1]$ is continuous, but it is not even bounded above, so it has no largest value for a more drastic reason.
+The test has a fixed shape: keep the other hypotheses, drop one, and find a function for which the conclusion fails.
+A failure can be worse than in the steps above.
+The function $1/x$ on $(0, 1]$ is continuous but not even bounded above, so it has no largest value for a more drastic reason.
 
-The theorem says nothing about the functions of steps 2 to 7.
-Some functions that fail a hypothesis still have a largest and a smallest value, for example $\sin x$ on $[0, \infty)$.
+The theorem says nothing about functions that fail a hypothesis.
+Some of them still have both extreme values, for example $\sin x$ on $[0, \infty)$, with largest value $1$ and smallest value $-1$.
 A failed hypothesis removes the guarantee, not the possibility.
 
 ## Explanations
 
 ### L1 human
 
-The extreme value theorem says that a smooth unbroken curve over a closed stretch of the number line has a highest point and a lowest point.
-Take away any one of the conditions and the promise can fail.
+The extreme value theorem says that an unbroken curve over a closed stretch of the number line has a highest point and a lowest point.
+Take away any one condition and the promise can fail.
 A curve with a jump can approach a height of $1$ without ever reaching it.
-On a stretch with the end point removed, the line $y = x$ climbs toward the missing end and never gets there.
+On a stretch with its end point removed, the line $y = x$ climbs toward the missing end and never gets there.
 On a stretch that goes on forever, the line $y = x$ keeps climbing.
 
 ### L2 human
 
-We check whether the theorem applies to $f(x) = \frac{1}{x}$ on $[1, 2]$, and we find the extreme values.
-
-1. The domain $[1, 2]$ is a closed and bounded interval.
-2. The function is continuous on $[1, 2]$, because $x \neq 0$ there.
-3. So the theorem applies, and $f$ has a largest and a smallest value on $[1, 2]$.
-4. The function decreases on $[1, 2]$, so the largest value is $f(1) = 1$ and the smallest value is $f(2) = \frac{1}{2}$.
-
-The typical use of the theorem is to guarantee that an optimum exists before we look for it.
-A trap is to apply it on $(0, 2]$, where $\frac{1}{x}$ is continuous but the domain is not closed, and the function has no largest value.
+Does the theorem apply to $f(x) = 1/x$ on $[1, 2]$, and what are the extreme values?
+The domain $[1, 2]$ is closed and bounded, and $f$ is continuous there because $x \ne 0$, so the theorem applies.
+The function decreases on $[1, 2]$, so
+$$\max f = f(1) = 1, \qquad \min f = f(2) = \tfrac12.$$
+On $(0, 2]$ the same function is still continuous, but the domain is not closed, and $1/x$ grows without bound as $x \to 0$.
+So the theorem no longer applies, and indeed there is no largest value.
+The typical use of the theorem is to know that an optimum exists before you search for it, for example before you set a derivative equal to zero.
