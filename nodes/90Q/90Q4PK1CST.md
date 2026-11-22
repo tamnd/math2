@@ -50,7 +50,7 @@ The same counting rules out paths: a walk on the grid that changes color at each
 The cell in row $i$ and column $j$ is written $(i, j)$, with rows and columns numbered from $1$.
 The chessboard coloring is $c(i, j) = (i + j) \bmod 2$; we call the value $0$ black and the value $1$ white.
 The diagonal coloring with $k$ colors is $c(i, j) = (i + j) \bmod k$, which uses [[congruence modulo n|0WAY5WX8NY]].
-Books also write "checkerboard coloring" for the chessboard coloring, and British books write "colouring".
+Books also write "checkerboard coloring" for the chessboard coloring.
 
 ## Remarks
 

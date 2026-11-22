@@ -43,7 +43,8 @@ It returns later as linearity of expectation in probability and as Fubini's theo
 ## Notation
 
 The relation $R$ is often given by its incidence matrix $M$, the $|A| \times |B|$ [[matrix|0VD9ZSWWJG]] with $M_{a,b} = 1$ when $(a, b) \in R$ and $M_{a,b} = 0$ otherwise.
-The row sums of $M$ are the numbers $d(a)$, the column sums are the numbers $e(b)$, and double counting says that the total of all entries is both the sum of the row sums and the sum of the column sums.
+The row sums of $M$ are the numbers $d(a)$, and the column sums are the numbers $e(b)$.
+Double counting says that the total of all entries is both the sum of the row sums and the sum of the column sums.
 The [[incidence matrix|9DNFN8M83X]] of a graph is the standard case.
 You can also read $R$ as a [[bipartite graph|0ZVQKTRKVQ]] with parts $A$ and $B$, and then $d(a)$ and $e(b)$ are degrees.
 Other names are "counting in two ways" and "counting pairs".
