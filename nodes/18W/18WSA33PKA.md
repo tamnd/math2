@@ -23,45 +23,58 @@ sources:
 Let
 $$A = \begin{pmatrix} 1 & 1 & 1 \\ -1 & 3 & 1 \\ 0 & 0 & 1 \end{pmatrix}$$
 over $\R$.
+We find both generalized eigenspaces and check that they fill $\R^3$.
 
-1. Expand $\det(t I - A)$ along the third row: $p_A = (t - 1)\big((t - 1)(t - 3) + 1\big) = (t - 1)(t - 2)^2$.
+1. Expand $\det(t I - A)$ along the third row, which has the single entry $t - 1$:
+$$p_A(t) = (t - 1) \big( (t - 1)(t - 3) + 1 \big) = (t - 1)(t^2 - 4t + 4) = (t - 1)(t - 2)^2.$$
 2. So the eigenvalues are $1$, with algebraic multiplicity $1$, and $2$, with algebraic multiplicity $2$.
-3. Let $M = A - 2I = \begin{pmatrix} -1 & 1 & 1 \\ -1 & 1 & 1 \\ 0 & 0 & -1 \end{pmatrix}$. Then $M(x, y, z) = 0$ gives $z = 0$ and $x = y$.
-4. So the [[eigenspace|0AYEPBQMAW]] of $2$ is the line spanned by $(1, 1, 0)$.
-5. $M^2 = \begin{pmatrix} 0 & 0 & -1 \\ 0 & 0 & -1 \\ 0 & 0 & 1 \end{pmatrix}$, so $\ker M^2$ is the plane $z = 0$.
-6. $M^3 = \begin{pmatrix} 0 & 0 & 1 \\ 0 & 0 & 1 \\ 0 & 0 & -1 \end{pmatrix} = -M^2$, so $\ker M^3 = \ker M^2$.
-7. So the [[generalized eigenspace|07PNDWA7CE]] is $V_2 = \ker M^3 = \{z = 0\}$, of dimension $2$, as the theorem predicts.
-8. $A - I = \begin{pmatrix} 0 & 1 & 1 \\ -1 & 2 & 1 \\ 0 & 0 & 0 \end{pmatrix}$ has kernel spanned by $(1, 1, -1)$. So $V_1$ is this line.
-9. $(1, 1, -1)$ is not in the plane $z = 0$. So $\R^3 = V_1 \oplus V_2$.
-10. $M(0, 1, 0) = (1, 1, 0) \ne 0$ and $M^2 (0, 1, 0) = 0$. So $(0, 1, 0)$ is a [[generalized eigenvector|0SAAHC36J9]] for $2$ of rank $2$.
+3. Subtract $2I$:
+$$M = A - 2I = \begin{pmatrix} -1 & 1 & 1 \\ -1 & 1 & 1 \\ 0 & 0 & -1 \end{pmatrix}.$$
+   The equation $M(x, y, z) = 0$ reads $-x + y + z = 0$ twice and $-z = 0$, so $z = 0$ and $x = y$.
+4. So the [[eigenspace|0AYEPBQMAW]] of $2$ is only the line spanned by $(1, 1, 0)$.
+5. Square $M$, row by column:
+$$M^2 = \begin{pmatrix} 0 & 0 & -1 \\ 0 & 0 & -1 \\ 0 & 0 & 1 \end{pmatrix}.$$
+   So $\ker M^2$ is the plane $z = 0$.
+6. Multiply once more: $M^3 = M^2 M$ has the rows $(0, 0, 1)$, $(0, 0, 1)$ and $(0, 0, -1)$, so $M^3 = -M^2$ and $\ker M^3 = \ker M^2$.
+7. So the [[generalized eigenspace|07PNDWA7CE]] $V_2 = \ker M^3$ is the plane $z = 0$, of dimension $2$, as the multiplicity predicts.
+8. For the eigenvalue $1$, the matrix $A - I$ has the rows $(0, 1, 1)$, $(-1, 2, 1)$ and $(0, 0, 0)$.
+   Its kernel is given by $z = -y$ and $x = y$, so it is spanned by $(1, 1, -1)$, and $V_1$ is this line.
+9. The vector $(1, 1, -1)$ is not in the plane $z = 0$, and $1 + 2 = 3$, so $\R^3 = V_1 \oplus V_2$.
+10. The vector $(0, 1, 0)$ has $M(0, 1, 0) = (1, 1, 0) \ne 0$ and $M^2(0, 1, 0) = 0$.
+    So it is a [[generalized eigenvector|0SAAHC36J9]] for $2$ of rank $2$.
 
 ## Remarks
 
-The chain of kernels for $2$ stops at $k = 2$, which equals the algebraic multiplicity, while $n = 3$.
-In the basis $(1, 1, -1), (1, 1, 0), (0, 1, 0)$, the matrix of $A$ is $\begin{pmatrix} 1 & 0 & 0 \\ 0 & 2 & 1 \\ 0 & 0 & 2 \end{pmatrix}$, since $A(0, 1, 0) = (1, 3, 0) = (1, 1, 0) + 2 (0, 1, 0)$.
+The chain of kernels for $2$ stops at $k = 2$, which equals the algebraic multiplicity, although $n = 3$.
+The vectors $(1, 1, -1)$, $(1, 1, 0)$ and $(0, 1, 0)$ form a basis, and the matrix of $A$ in this basis is
+$$\begin{pmatrix} 1 & 0 & 0 \\ 0 & 2 & 1 \\ 0 & 0 & 2 \end{pmatrix}.$$
+Check the last column: $A(0, 1, 0)$ is the second column of $A$, namely $(1, 3, 0) = (1, 1, 0) + 2 \cdot (0, 1, 0)$.
 This is the Jordan normal form of $A$.
-The same matrix gives a [[Jordan-Chevalley decomposition|4P9QZRCJND]] example.
+
+Every vector of $V_2$ has rank at most $2$, and the vectors of rank exactly $2$ are those of the plane that lie off the line $\R (1, 1, 0)$.
+The same matrix gives a worked [[Jordan-Chevalley decomposition|4P9QZRCJND]].
 
 ## Explanations
 
 ### L1 human
 
 The matrix has two eigenvalues, $1$ once and $2$ twice.
-For $2$, there is only one line of eigenvectors, so we also look at vectors that need two steps to vanish.
+For $2$ there is only one line of eigenvectors, so we also look at the vectors that need two steps to vanish.
 They fill a plane.
 That plane and the line for $1$ together make up all of space.
 
 ### L2 human
 
-Check that $(1, 1, -1)$ is an eigenvector for $1$.
+Check that $(1, 1, -1)$ is an eigenvector for $1$ and lies outside $V_2$.
 
-1. $A (1, 1, -1) = (1 + 1 - 1, -1 + 3 - 1, -1) = (1, 1, -1)$.
+1. Multiply: $A(1, 1, -1) = (1 + 1 - 1, \; -1 + 3 - 1, \; -1) = (1, 1, -1)$.
 2. So $(A - I)(1, 1, -1) = 0$.
-3. Its third coordinate is $-1 \ne 0$, so it is not in $V_2$.
+3. Its third coordinate is $-1 \ne 0$, so it is not in the plane $V_2$.
 
 The typical use is to compute $\ker (A - \lambda I)^k$ for $k = 1, 2, \dots$ until the dimension reaches the algebraic multiplicity.
-The trap is to stop at $k = 1$, which gives only a line for $2$ and does not fill $\R^3$.
+Watch out: a stop at $k = 1$ gives only a line for $2$, and the pieces do not fill $\R^3$.
 
 ### L3 human
 
 The two generalized eigenspaces are the primary components of $\R^3$ as an $\R[t]$-module, for the factors $t - 1$ and $(t - 2)^2$ of the minimal polynomial.
+The projection onto $V_1$ along $V_2$ is the polynomial $M^2 = (A - 2I)^2$ in $A$, as the [[decomposition into generalized eigenspaces|0Z3GDY89T5]] predicts.
