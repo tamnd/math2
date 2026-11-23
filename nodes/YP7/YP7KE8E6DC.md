@@ -127,7 +127,6 @@ That climbing strategy is not what the theorem promises, and here the good strat
 ## History
 
 Krajíček, Pudlák and Takeuti proved the witnessing theorem and the collapse in a paper of 1991, *Bounded arithmetic and the polynomial hierarchy*.
-Their paper introduced the student-teacher reading of the Herbrand disjunction.
 Buss, in a paper of 1995, and Zambella, in a paper of 1996, sharpened the collapse and related it to the finite axiomatizability of $S_2$.
 
 ## Explanations
