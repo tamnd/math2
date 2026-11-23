@@ -29,6 +29,8 @@ We use the frame $\mathfrak{F} = (W, R)$ with these worlds and arrows:
 - a root $w$, worlds $v_n$, $v_n^0$ and $v_n^1$ for each $n \in \mathbb{N}$, and a world $z_f$ for each function $f \colon \mathbb{N} \to \{0, 1\}$;
 - the arrows $w R v_n$, $w R z_f$, $v_n R v_n^0$, $v_n R v_n^1$, $v_n^i R v_n^i$, and $z_f R v_n^{f(n)}$ for every $n$.
 
+### The frame validates M
+
 1. Each $v_n^i$ sees only itself, so at $v_n^i$ both $\square \lozenge p$ and $\lozenge \square p$ are equivalent to $p$, and $\mathrm{M}$ holds.
 2. At $v_n$ or $z_f$, every successor is some $v_m^i$.
    If $\square \lozenge p$ holds there, every successor satisfies $p$, and so also $\square p$, so $\lozenge \square p$ holds.
@@ -36,6 +38,9 @@ We use the frame $\mathfrak{F} = (W, R)$ with these worlds and arrows:
    Then each $v_n$ has a successor with $p$, so there is a function $f$ with $v_n^{f(n)} \models p$ for every $n$.
 4. Every successor of $z_f$ then satisfies $p$ and sees only itself, so $z_f \models \square p$ and $w \models \lozenge \square p$.
    With steps 1 to 3, this gives $\mathfrak{F} \models \mathrm{M}$.
+
+### A countable substructure refutes M
+
 5. The language has one binary symbol, so it is countable.
    By the downward [[Löwenheim-Skolem theorem|484M0TZ1S7]], $\mathfrak{F}$ has a countable [[elementary substructure|8WZF9SBP39]] $\mathfrak{F}'$ that contains $w$ and every $v_n$ and $v_n^i$.
 6. $\mathfrak{F}'$ contains only countably many worlds $z_f$.

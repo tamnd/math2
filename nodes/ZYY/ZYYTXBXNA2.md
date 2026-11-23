@@ -17,6 +17,8 @@ sources:
 The converse of the [[Barcan formula|9PYDNBA5X4]] is the schema $\square \forall x \varphi \to \forall x \square \varphi$.
 We derive it in $\mathsf{QK}$, and then we check on two models that its truth depends on whether domains increase.
 
+### The derivation in QK
+
 The derivation uses instantiation, the [[necessitation rule|G989VP2NGP]], the axiom K and generalization.
 
 1. $\vdash \forall x \varphi \to \varphi$, by instantiation of $x$ by itself.
@@ -24,6 +26,8 @@ The derivation uses instantiation, the [[necessitation rule|G989VP2NGP]], the ax
 3. $\vdash \square \forall x \varphi \to \square \varphi$, by K and modus ponens.
 4. $\vdash \forall x \, (\square \forall x \varphi \to \square \varphi)$, by generalization.
 5. $\vdash \square \forall x \varphi \to \forall x \square \varphi$, by the axiom $\forall x (A \to B) \to (A \to \forall x B)$, since $x$ is not free in $\square \forall x \varphi$.
+
+### Two models
 
 The first model has increasing domains.
 Let $W = \{w, v\}$, $R = \{(w, v)\}$, $D(w) = \{1\}$, $D(v) = \{1, 2\}$, $I(P, w) = \emptyset$ and $I(P, v) = \{1, 2\}$.

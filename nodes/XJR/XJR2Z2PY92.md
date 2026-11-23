@@ -20,7 +20,7 @@ sources:
 We show that $\mathrm{vB}$ and $\mathrm{E}$ agree on Kripke frames, then build a general frame that validates $\mathrm{vB}$ and refutes $\mathrm{E}$, and then combine the two facts.
 We write $\mathrm{vB}$ for $\square \lozenge \top \to \square(\square(\square p \to p) \to p)$ and $\mathrm{E}$ for $\square \lozenge \top \to \square \bot$.
 
-Part A: the Kripke frames of $\mathrm{vB}$ (item 1).
+### Part A: the Kripke frames of vB
 
 1. Let $(W, R)$ be a frame, let $y \in W$, and let $V(p) = W \setminus \{y\}$.
    Then $y \not\models p$.
@@ -34,7 +34,7 @@ Part A: the Kripke frames of $\mathrm{vB}$ (item 1).
 5. The antecedent $\square \lozenge \top$ has no variables, so its truth at $x$ does not depend on the valuation.
    So $(W, R) \models \mathrm{vB}$ if and only if every world with $\square \lozenge \top$ has no successor, that is, if and only if $(W, R) \models \mathrm{E}$.
 
-Part B: a general frame for $\mathsf{KvB}$ that refutes $\mathrm{E}$ (item 2).
+### Part B: a general frame that refutes E
 
 6. Let $W = \mathbb{N} \cup \{\infty, \omega\}$, with two new points $\infty$ and $\omega$.
    Let $m R n$ for $m > n$ in $\mathbb{N}$, let $\infty R n$ for every $n \in \mathbb{N}$, and let $\infty R \infty$ and $\omega R \infty$, with no other arrows.
@@ -50,6 +50,9 @@ Part B: a general frame for $\mathsf{KvB}$ that refutes $\mathrm{E}$ (item 2).
 13. $\mathfrak{g}$ refutes $\mathrm{E}$ at $\omega$.
     The only successor of $\omega$ is $\infty$, and $\infty R \infty$, so $\omega \models \square \lozenge \top$.
     But $\omega$ has a successor, so $\omega \not\models \square \bot$.
+
+### Part B, continued: the frame validates KvB
+
 14. Now we show $\mathfrak{g} \models \mathrm{vB}$ at every world except $\omega$.
     The world $0$ has no successor, so the consequent holds there.
     Every $n \geq 1$, and also $\infty$, sees $0$, which has no successor, so the antecedent $\square \lozenge \top$ fails there.
@@ -66,7 +69,7 @@ Part B: a general frame for $\mathsf{KvB}$ that refutes $\mathrm{E}$ (item 2).
 20. The axioms of $\mathsf{K}$ are valid on every general frame.
     So every theorem of $\mathsf{KvB}$ is valid on $\mathfrak{g}$, and $\mathrm{E} \notin \mathsf{KvB}$ by step 13.
 
-Part C: incompleteness (item 3).
+### Part C: incompleteness
 
 21. Suppose, for a contradiction, that $\mathsf{KvB}$ is the logic of a class $\mathsf{C}$ of Kripke frames.
     Every frame in $\mathsf{C}$ validates $\mathrm{vB}$, so it validates $\mathrm{E}$ by Part A.

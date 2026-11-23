@@ -22,9 +22,9 @@ sources:
 ## Statement
 
 Some normal modal logics cannot be captured by any class of Kripke frames, and the van Benthem formula gives a short example.
-On Kripke frames, the formula
+The van Benthem formula is the following.
 $$\mathrm{vB} = \square \lozenge \top \to \square(\square(\square p \to p) \to p)$$
-says exactly what the variable-free formula $\square \lozenge \top \to \square \bot$ says, yet the logic of $\mathrm{vB}$ cannot prove that formula.
+On Kripke frames it says exactly what the variable-free formula $\square \lozenge \top \to \square \bot$ says, yet the logic of $\mathrm{vB}$ cannot prove that formula.
 
 A normal modal logic $L$ is *Kripke complete* if there is a class $\mathsf{C}$ of [[Kripke frames|NGHWZ9Y7ZV]] such that $L$ is the set of formulas valid on every frame of $\mathsf{C}$.
 Equivalently, every formula valid on all Kripke frames of $L$ is a theorem of $L$.
@@ -81,7 +81,7 @@ What it lacks is enough Kripke frames to refute each of its non-theorems, and ge
 
 ## History
 
-Steven K. Thomason gave the first Kripke incomplete logics: a tense logic in 1972 and a logic with one box in 1974.
+Steven Thomason gave the first Kripke incomplete logics: a tense logic in 1972 and a logic with one box in 1974.
 Kit Fine published an incomplete extension of $\mathsf{S4}$ in 1974.
 Johan van Benthem later gave the short example $\mathsf{KvB}$ used here.
 Willem Blok then proved his dichotomy theorem on the degree of incompleteness.

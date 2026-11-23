@@ -16,9 +16,8 @@ sources:
 
 ## Example
 
-The formula of [[quantified modal logic|D2H3S12V7X]]
+The following formula of [[quantified modal logic|D2H3S12V7X]] says that objects which are identical are necessarily identical.
 $$x = y \to \square (x = y)$$
-says that objects which are identical are necessarily identical.
 We show that it is valid on every Kripke frame with domains, and that it is derivable in $\mathsf{QK}$ with identity.
 
 For the semantic check, let $\mathfrak{M} = (W, R, D, I)$ be any Kripke model with domains, let $w \in W$, and let $\sigma$ be any assignment.

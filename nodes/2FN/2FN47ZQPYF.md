@@ -51,12 +51,12 @@ Then $\mathrm{ST}_y(\square^k p)$ is equivalent to $\forall u \, (R^k(y, u) \to 
    Then $\exists \bar{y}_1 A_1 \wedge \exists \bar{y}_2 A_2$ is equivalent to $\exists \bar{y}_1 \bar{y}_2 \, (A_1 \wedge A_2)$.
 9. For $\lozenge \varphi_1$, we have $\mathrm{ST}_x(\lozenge \varphi_1) = \exists y \, (R(x, y) \wedge \mathrm{ST}_y(\varphi_1))$.
    Insert the normal form of $\mathrm{ST}_y(\varphi_1)$ and move its quantifiers $\exists \bar{y}_1$ to the front, which is allowed since $\bar{y}_1$ contains neither $x$ nor $y$.
-10. Let $\mathrm{POS} = \mathrm{ST}_x(\psi) \vee \neg \mathrm{NEG}$.
-    Prenex rewriting of $\exists \bar{y} \, (\cdots) \to \mathrm{ST}_x(\psi)$ shows that $\mathfrak{F}, w \Vdash \chi$ if and only if $\mathfrak{F} \models \forall \bar{P} \, \forall \bar{y} \, (\mathrm{REL} \wedge \mathrm{BOX} \to \mathrm{POS})[w]$.
-11. By step 4, $\mathrm{POS}$ is a disjunction of upward monotone formulas, so it is upward monotone in each $P$.
 
 ### Part B, continued: the minimal valuation
 
+10. Let $\mathrm{POS} = \mathrm{ST}_x(\psi) \vee \neg \mathrm{NEG}$.
+    Prenex rewriting of $\exists \bar{y} \, (\cdots) \to \mathrm{ST}_x(\psi)$ shows that $\mathfrak{F}, w \Vdash \chi$ if and only if $\mathfrak{F} \models \forall \bar{P} \, \forall \bar{y} \, (\mathrm{REL} \wedge \mathrm{BOX} \to \mathrm{POS})[w]$.
+11. By step 4, $\mathrm{POS}$ is a disjunction of upward monotone formulas, so it is upward monotone in each $P$.
 12. For each variable $p$, let $\sigma_p(u)$ be the disjunction of the formulas $R^{k_i}(y_i, u)$ over the conjuncts $\mathrm{ST}_{y_i}(\square^{k_i} p)$ of $\mathrm{BOX}$ with $p_i = p$.
     If there is no such conjunct, let $\sigma_p(u)$ be $u \neq u$.
 13. Define $c_\chi(x) = \forall \bar{y} \, (\mathrm{REL} \to \mathrm{POS}[\sigma_p / P])$, where each atom $P(t)$ is replaced by $\sigma_p(t)$.

@@ -56,9 +56,9 @@ Descriptive frames forbid exactly this kind of vanishing, and this frame has it.
 ### L2 human
 
 We follow the shrinking regions for a few steps.
-The first three are
-$$C_0 = \{1, 2, \dots\}, \qquad C_1 = \{2, 3, \dots\}, \qquad C_2 = \{3, 4, \dots\},$$
-and they have the common point $3$.
+The first three regions are these.
+$$C_0 = \{1, 2, \dots\}, \qquad C_1 = \{2, 3, \dots\}, \qquad C_2 = \{3, 4, \dots\}$$
+They have the common point $3$.
 In general $C_0, \dots, C_n$ have the common point $n + 1$, but no number $k$ lies in $C_k$.
 So the whole family has no common point.
 The typical use of such frames is to build general frames that validate a logic while their Kripke frames do not.

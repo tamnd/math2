@@ -51,9 +51,9 @@ Some write $(W, R, P)$ and call the admissible sets *propositions*.
 
 Take two worlds $a$ and $b$ that see each other and themselves, so $R = W \times W$.
 Admit only the two sets $\emptyset$ and $W$.
-These are closed under union and complement, and the operator gives
-$$m_R(\emptyset) = \emptyset, \qquad m_R(W) = W,$$
-so $(W, R, \{\emptyset, W\})$ is a general frame.
+These are closed under union and complement, and the operator $m_R$ maps them to themselves.
+$$m_R(\emptyset) = \emptyset, \qquad m_R(W) = W$$
+So $(W, R, \{\emptyset, W\})$ is a general frame.
 Under an admissible valuation, $p$ is true everywhere or nowhere.
 So $p \to \square p$ is valid on the general frame: when $p$ is true at all worlds, so is $\square p$.
 On the plain Kripke frame the same formula fails, with $p$ true at $a$ only, because $a$ sees $b$.

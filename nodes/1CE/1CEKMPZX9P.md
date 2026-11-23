@@ -50,9 +50,9 @@ So a finite picture of points and arrows, with every region allowed, is already 
 ### L2 human
 
 Take $W = \{0, 1, 2\}$ with $0 R 1$ and $1 R 2$ only, and all subsets admissible.
-For tightness at the pair $(0, 2)$, take $a = \{2\}$, and compute
-$$m_R(\{2\}) = \{1\},$$
-which does not contain $0$.
+For tightness at the pair $(0, 2)$, take $a = \{2\}$, and compute $m_R(a)$.
+$$m_R(\{2\}) = \{1\}$$
+This set does not contain $0$.
 For the pair $(2, 0)$, take $a = \{0\}$; no world sees $0$, so $m_R(\{0\}) = \emptyset$.
 For compactness, a family of subsets of a three-element set has at most $8$ members, so the finite intersection property already gives a common point.
 The typical use is in completeness proofs by finite models, where the finite countermodel is automatically a descriptive frame of the logic.
