@@ -98,5 +98,4 @@ A continuous function made of affine pieces is a maximum of minima of those piec
 ## Variants
 
 The proof above is constructive: from the list of pieces it computes a formula, although a long one.
-Another route, due to Mundici, triangulates the cube into unimodular simplices and writes $f$ through the hat functions of the triangulation.
-That route gives better control over the size of the formula.
+Another constructive route, due to Mundici, triangulates the cube into unimodular simplices and writes $f$ through the hat functions of the triangulation.

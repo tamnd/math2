@@ -15,48 +15,56 @@ sources:
 
 ## Proof
 
+We fix $x$ and show that the map $z \mapsto z * x$ has a residuum exactly when it preserves suprema, which is left-continuity.
+
 Fix $x \in [0, 1]$, and write $f(z) = z * x$.
-$f$ is monotone by the axioms of [[a t-norm|BHGCVPAJW0]].
+The map $f$ is monotone by the axioms of [[a t-norm|BHGCVPAJW0]].
+A monotone function of two variables is left-continuous exactly when it is left-continuous in each variable, and by commutativity it is enough to treat the first.
 
-**Step A: left-continuity means preservation of suprema.**
-Claim: $f$ is left-continuous iff $f(\sup Z) = \sup f[Z]$ for every non-empty $Z \subseteq [0, 1]$.
+Step A shows that $f$ is left-continuous if and only if $f(\sup Z) = \sup f[Z]$ for every nonempty $Z \subseteq [0, 1]$.
 
-1. Assume $f$ preserves suprema, and let $z_n \uparrow z$. Then $\sup_n z_n = z$.
-2. So $f(z_n)$ increases with supremum $f(z)$, hence $f(z_n) \to f(z)$.
-3. Conversely, assume $f$ is left-continuous, and let $s = \sup Z$.
-4. $f(w) \le f(s)$ for $w \in Z$, by monotonicity, so $\sup f[Z] \le f(s)$.
-5. If $s \in Z$, then $f(s) \le \sup f[Z]$.
-6. If $s \notin Z$, choose $z_n \in Z$ with $z_n \uparrow s$.
-7. By left-continuity $f(z_n) \to f(s)$, so $f(s) \le \sup f[Z]$.
+1. Assume $f$ preserves suprema, and let $z_n$ increase to $z$.
+   Then $\sup_n z_n = z$, so the increasing sequence $f(z_n)$ has supremum $f(z)$, and hence $f(z_n) \to f(z)$.
+2. Conversely, assume $f$ is left-continuous, and let $s = \sup Z$.
+   By monotonicity $f(w) \le f(s)$ for every $w \in Z$, so $\sup f[Z] \le f(s)$.
+3. If $s \in Z$, then $f(s) \le \sup f[Z]$ directly.
+4. If $s \notin Z$, choose $z_n \in Z$ increasing to $s$.
+   By left-continuity $f(z_n) \to f(s)$, so again $f(s) \le \sup f[Z]$.
 
-**Step B: left-continuity implies a residuum.**
+Step B shows that left-continuity gives a residuum.
 
-8. Let $Z = \set{z : z * x \le y}$. $Z$ contains $0$, since $0 * x = 0$.
-9. Let $r = \sup Z$. By Step A, $r * x = \sup \set{z * x : z \in Z} \le y$.
-10. So $r \in Z$, and $r = \max Z$.
-11. If $z \le r$, then $z * x \le r * x \le y$, by monotonicity.
-12. If $z * x \le y$, then $z \in Z$, so $z \le r$.
-13. So $x \Rightarrow_* y := r$ satisfies residuation.
+5. Let $Z = \{ z : z * x \le y \}$.
+   The set $Z$ is nonempty, since $0 * x = 0 \le y$.
+6. Let $r = \sup Z$.
+   By Step A, $r * x = \sup \{ z * x : z \in Z \}$, and every term is at most $y$, so $r * x \le y$.
+7. So $r \in Z$, and $r = \max Z$.
+8. If $z \le r$, then $z * x \le r * x \le y$ by monotonicity.
+   If $z * x \le y$, then $z \in Z$, so $z \le r$.
+9. So setting $x \Rightarrow_* y = r$ satisfies residuation.
 
-**Step C: a residuum implies left-continuity.**
+Step C shows that a residuum gives left-continuity.
 
-14. Let $\Rightarrow$ be a residuum, $Z$ non-empty, $s = \sup Z$ and $t = \sup \set{z * x : z \in Z}$.
-15. $t \le s * x$, by monotonicity.
-16. For $z \in Z$: $z * x \le t$, so $z \le x \Rightarrow t$, by residuation.
-17. So $s \le x \Rightarrow t$, and by residuation $s * x \le t$.
-18. Hence $s * x = t$, and by Step A, $z \mapsto z * x$ is left-continuous.
+10. Let $\Rightarrow$ be a residuum, let $Z$ be nonempty, and put $s = \sup Z$ and $t = \sup \{ z * x : z \in Z \}$.
+    By monotonicity $t \le s * x$.
+11. For each $z \in Z$ we have $z * x \le t$, so $z \le x \Rightarrow t$ by residuation.
+12. So $s \le x \Rightarrow t$, and residuation gives $s * x \le t$.
+13. Hence $s * x = t$, and by Step A the map $z \mapsto z * x$ is left-continuous.
 
-**Step D: uniqueness and the formula.**
+Step D shows uniqueness and the formula.
 
-19. If $\Rightarrow$ and $\Rightarrow'$ are residua, then $z \le x \Rightarrow y$ iff $z * x \le y$ iff $z \le x \Rightarrow' y$.
-20. Take $z = x \Rightarrow y$ and $z = x \Rightarrow' y$; then the two values are equal.
-21. So the residuum is the $r = \max Z$ of Step B. $\blacksquare$
+14. Let $\Rightarrow$ and $\Rightarrow'$ be residua.
+    Then $z \le x \Rightarrow y$ holds iff $z * x \le y$ holds iff $z \le x \Rightarrow' y$ holds.
+15. Taking $z = x \Rightarrow y$ gives $x \Rightarrow y \le x \Rightarrow' y$, and taking $z = x \Rightarrow' y$ gives the reverse.
+16. So the residuum is unique, and it equals the $r = \max Z$ of Step B. $\blacksquare$
 
 ## Idea
 
-For fixed $x$, the map $z \mapsto z * x$ needs a right adjoint.
-A monotone map on $[0, 1]$ has one iff it preserves suprema, and that is left-continuity.
+For fixed $x$, the map $z \mapsto z * x$ needs a right adjoint, which is what a residuum is.
+A monotone map on $[0, 1]$ has a right adjoint exactly when it preserves suprema, and for a monotone map that is left-continuity.
+The drastic t-norm shows the failure: for $x = 0.5$ and $y = 0$ the set $Z$ is $[0, 1)$, whose supremum $1$ is not in $Z$.
 
 ## Variants
 
 The same argument works in any complete lattice, with "preserves all joins" in place of left-continuity.
+Steps B and C never use that $[0, 1]$ is a chain, only that suprema exist and that $*$ is monotone.
+Step A is the only place where the order of the real line enters, through sequences.

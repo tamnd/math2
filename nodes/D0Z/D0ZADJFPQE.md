@@ -21,42 +21,52 @@ sources:
 
 ## Statement
 
-Let $*$ be a left-continuous [[t-norm|BHGCVPAJW0]] with residuum $\Rightarrow$, which exists by [[the left-continuity statement|D1R4D2HEPP]].
-For all $x, y, c \in [0, 1]$:
+For any two truth degrees, one of the two implications between them is fully true, and the prelinearity axiom records this.
 
-1. $\max(x \Rightarrow y, \ y \Rightarrow x) = 1$;
+Let $*$ be a left-continuous [[t-norm|BHGCVPAJW0]] with residuum $\Rightarrow$, which exists by [[the left-continuity statement|D1R4D2HEPP]].
+For all $x, y, c \in [0, 1]$ the following hold.
+
+1. $\max(x \Rightarrow y, \ y \Rightarrow x) = 1$.
 2. $((x \Rightarrow y) \Rightarrow c) \Rightarrow (((y \Rightarrow x) \Rightarrow c) \Rightarrow c) = 1$.
 
-So the prelinearity axiom BL6 of [[BL|3AQ5GHTXA4]] has the value $1$ under every evaluation in the standard algebra of $*$.
+So the prelinearity axiom BL6 of [[BL|3AQ5GHTXA4]] has value $1$ under every evaluation in the standard algebra of $*$.
 
 ## Remarks
 
+### A worked case
+
+Take the Łukasiewicz t-norm with $x = 0.3$, $y = 0.6$ and $c = 0.5$.
+Then $x \Rightarrow y = 1$ and $y \Rightarrow x = 0.7$.
+The inner values are $1 \Rightarrow 0.5 = 0.5$ and $0.7 \Rightarrow 0.5 = 0.8$, and then $0.8 \Rightarrow 0.5 = 0.7$.
+So item 2 reads $0.5 \Rightarrow 0.7 = 1$.
+
 ### Why each hypothesis is needed
 
-1. Left-continuity is needed for the residuum to exist; without a residuum the formula has no value.
-2. The linear order of $[0, 1]$ is needed: in a Heyting algebra that is not a chain, prelinearity can fail, as [[the fork|6S7TSV01WB]] shows.
-3. The t-norm axioms are used only through commutativity, the inequality $a * b \le a$ and the unit law $1 * a = a$.
+Left-continuity is needed for the residuum to exist, and without a residuum the formula has no value.
+The linear order of $[0, 1]$ is needed as well.
+In a Heyting algebra that is not a chain, prelinearity can fail, as [[the fork|6S7TSV01WB]] shows.
+Of the t-norm axioms, the proof uses only commutativity, the bound $a * b \le a$, the unit law $1 * a = a$ and residuation.
 
 ### Consequences
 
-1. The axiom BL6, also called MTL6, is sound for the standard semantics of [[MTL|PT5PHKJDYM]] and of BL.
-2. The same proof works in every linearly ordered commutative integral residuated lattice, so prelinearity is valid in every MTL-chain.
-3. Since validity is preserved by subdirect products, the identity $(x \Rightarrow y) \lor (y \Rightarrow x) = 1$ holds in every subdirect product of such chains.
+The axiom BL6, also called MTL6, is sound for the standard semantics of [[MTL|PT5PHKJDYM]] and of BL.
+The same proof works in every linearly ordered commutative integral residuated lattice, so prelinearity is valid in every MTL-chain.
+Identities are preserved by subdirect products, so $(x \Rightarrow y) \lor (y \Rightarrow x) = 1$ holds in every subdirect product of such chains.
 
-### Converse
+### What prelinearity separates
 
-The statement is not an equivalence, so it has no converse in the strict sense.
-A related fact: intuitionistic logic does not prove the form $(p \to q) \lor (q \to p)$, and adding it gives [[Gödel-Dummett logic|474SGS2N0X]].
+Intuitionistic logic does not prove $(p \to q) \lor (q \to p)$, and adding it gives [[Gödel-Dummett logic|474SGS2N0X]].
 So prelinearity is a law of chains, not a law of all residuated lattices.
 
 ### Generalizations
 
-For algebras that are not chains, SEP and Wikipedia take the identity $(x \Rightarrow y) \lor (y \Rightarrow x) = 1$ as part of the definition of an MTL-algebra.
-This identity is the algebraic form of the axiom.
+For algebras that are not chains, the identity $(x \Rightarrow y) \lor (y \Rightarrow x) = 1$ is taken as part of the definition of an MTL-algebra.
+It is the algebraic form of the axiom, and item 1 is its case for the chain $[0, 1]$.
 
 ## History
 
-Wikipedia reports that the prelinearity axiom is in Hájek's 1998 axioms for BL, and that Esteva and Godo kept it in MTL in 2001.
+Prelinearity is one of the axioms in Hájek's 1998 axiomatization of BL.
+Esteva and Godo kept it when they introduced MTL in 2001.
 
 ## Explanations
 
@@ -70,10 +80,10 @@ The prelinearity axiom states this fact inside the logic.
 
 The proof splits into the two cases $x \le y$ and $y \le x$.
 In each case one implication is $1$, and $1 \Rightarrow c = c$.
-A trap: item 1 uses $\max$ because $[0, 1]$ is a chain; in a general lattice the join is not one of its two arguments.
+Watch out: item 1 uses $\max$ because $[0, 1]$ is a chain, and in a general lattice the join need not be one of its two arguments.
 
 ### L3 human
 
 Prelinearity is the logical form of the subdirect decomposition into chains.
-In Kripke semantics for intuitionistic logic, the form $(p \to q) \lor (q \to p)$ corresponds to a frame condition: the worlds above any world form a total order.
+In Kripke semantics for intuitionistic logic, the formula $(p \to q) \lor (q \to p)$ corresponds to a frame condition: the worlds above any world form a chain.
 The fork violates this condition.

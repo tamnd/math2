@@ -17,19 +17,21 @@ sources:
 
 ## Example
 
-The [[strong Kleene disjunction|74R8A41V6M]] is $x \lor_s y = \max(x, y)$ on $\set{0, \tfrac12, 1}$.
-The [[weak Kleene disjunction|PJA9JVQ5XN]] $\lor_w$ gives $\tfrac12$ whenever an input is $\tfrac12$.
+Take the entry $1 \lor \tfrac12$ in two three-valued disjunctions on $\{0, \tfrac12, 1\}$.
+The [[strong Kleene disjunction|74R8A41V6M]] is $x \lor_s y = \max(x, y)$.
+The [[weak Kleene disjunction|PJA9JVQ5XN]] $\lor_w$ agrees with $\max$ on $\{0, 1\}$ and gives $\tfrac12$ whenever an input is $\tfrac12$.
 
-1. $1 \lor_s \tfrac12 = \max(1, \tfrac12) = 1$.
-2. $1 \lor_w \tfrac12 = \tfrac12$, since one input is $\tfrac12$.
-3. $1 \ne \tfrac12$, so the two tables differ at $(1, \tfrac12)$.
-4. Then $p \models p \lor q$ is valid with $\lor_s$ and designated set $\set{1}$, but fails with $\lor_w$ at $p = 1$, $q = \tfrac12$.
+1. The strong table gives $1 \lor_s \tfrac12 = \max(1, \tfrac12) = 1$.
+2. The weak table gives $1 \lor_w \tfrac12 = \tfrac12$, since one input is $\tfrac12$.
+3. Since $1 \ne \tfrac12$, the two tables differ at $(1, \tfrac12)$.
+4. So $p \models p \lor q$ is valid with $\lor_s$ and the designated set $\{1\}$, while it fails with $\lor_w$ at $p = 1$, $q = \tfrac12$.
 
 ## Remarks
 
-1. The tables also differ at $(\tfrac12, 1)$ for $\lor$, and at $(0, \tfrac12)$ and $(\tfrac12, 0)$ for $\land$.
-2. They agree at the other entries and on $\neg$.
-3. So the property "the value $\tfrac12$ is infectious" separates the weak tables from the strong ones.
+The tables also differ at $(\tfrac12, 1)$ for $\lor$, and at $(0, \tfrac12)$ and $(\tfrac12, 0)$ for $\land$, where the strong table gives $0$.
+They agree at every other entry and on $\neg$.
+So the property "the value $\tfrac12$ is infectious" separates the weak tables from the strong ones.
+The strong scheme lets a classical input decide the result whenever it decides it classically, and the weak scheme never does.
 
 ## Explanations
 
@@ -41,9 +43,7 @@ The two logics differ exactly in such cases.
 
 ### L2 human
 
-1. Find an entry where one input decides the classical result.
-2. Put $\tfrac12$ in the other input.
-3. The strong table keeps the classical result; the weak table gives $\tfrac12$.
-
+To separate the two schemes, find an entry where one input decides the classical result, and put $\tfrac12$ in the other input.
+The strong table keeps the classical result, and the weak table gives $\tfrac12$.
 The typical use is to tell which of the two schemes a given evaluation follows.
-A trap: both tables give $0 \lor \tfrac12 = \tfrac12$, so that entry does not separate them.
+Watch out: both tables give $0 \lor \tfrac12 = \tfrac12$, so that entry does not separate them.

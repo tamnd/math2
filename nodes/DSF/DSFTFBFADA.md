@@ -19,7 +19,7 @@ Give $P(n)$ the value $1$ if its algorithm stops with "yes", $0$ if it stops wit
 Compute "$P(n)$ or $Q(n)$" by running both algorithms in parallel, one step each in turn.
 Answer "yes" as soon as one says "yes", and "no" when both have said "no".
 
-1. If $P(n) = 1$ and $Q(n) = \tfrac12$, the parallel run stops with "yes", so the disjunction has value $1 = \max(1, \tfrac12)$.
+1. If $P(n) = 1$ and $Q(n) = \tfrac12$, the parallel run stops with "yes", so the disjunction has the value $1 = \max(1, \tfrac12)$.
 2. If $P(n) = 0$ and $Q(n) = \tfrac12$, the run never says "yes" and never sees two "no" answers, so the value is $\tfrac12 = \max(0, \tfrac12)$.
 3. If $P(n) = Q(n) = 0$, the run stops with "no", so the value is $0 = \max(0, 0)$.
 4. The other cases follow in the same way, and the result is always $\max(P(n), Q(n))$.
@@ -30,9 +30,10 @@ So the parallel evaluation is exactly the strong Kleene table.
 
 ## Remarks
 
-1. Sequential evaluation, which first finishes $P(n)$ and then runs $Q(n)$, gives a different table: $\tfrac12 \lor 1 = \tfrac12$, since the run never reaches $Q$. That table is not commutative.
-2. The value $\tfrac12$ is not a third answer; it records the absence of an answer.
-3. This was Kleene's motivation for the tables, according to the SEP entry on many-valued logic.
+Sequential evaluation, which first finishes $P(n)$ and then runs $Q(n)$, gives a different table.
+There $\tfrac12 \lor 1 = \tfrac12$, since the run never reaches $Q$, while $1 \lor \tfrac12 = 1$, so that table is not commutative.
+The value $\tfrac12$ is not a third answer; it records the absence of an answer.
+This reading of the middle value as "undefined" was Kleene's own, in his work on partial recursive functions.
 
 ## Explanations
 
@@ -46,4 +47,4 @@ If one says "yes", you can say "yes" to "one or the other", even if the other pr
 
 Each step of the check compares what the parallel run can see with the strong Kleene value.
 The typical use is to explain why $\tfrac12 \lor 1 = 1$ but $\tfrac12 \lor 0 = \tfrac12$.
-A trap: a program cannot detect that another program runs forever, so it cannot answer "undefined" as an output.
+Watch out: a program cannot detect that another program runs forever, so "undefined" is never an output of the run.

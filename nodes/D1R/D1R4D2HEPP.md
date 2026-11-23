@@ -24,7 +24,7 @@ A t-norm has a matching implication exactly when it has no jumps from below.
 Let $*$ be a [[t-norm|BHGCVPAJW0]].
 
 1. The t-norm $*$ has a residuum $\Rightarrow_*$ if and only if $*$ is left-continuous.
-2. In that case the residuum is unique, the maximum below exists for all $x, y \in [0, 1]$, and it equals $x \Rightarrow_* y$.
+2. In that case the residuum is unique, and for all $x, y \in [0, 1]$ it is the maximum shown below.
    $$x \Rightarrow_* y = \max \{ z \in [0, 1] : z * x \le y \}.$$
 
 ## Remarks
@@ -32,13 +32,12 @@ Let $*$ be a [[t-norm|BHGCVPAJW0]].
 ### Why each hypothesis is needed
 
 Left-continuity cannot be dropped.
-The drastic t-norm is right-continuous, but it jumps from $0$ to $0.5$ as $z$ rises to $1$ in $z * 0.5$.
+The drastic t-norm jumps from $0$ to $0.5$ as $z$ rises to $1$ in $z * 0.5$.
 So the set $\{ z : z * 0.5 \le 0 \}$ is $[0, 1)$, which has no maximum, and [[the drastic non-example|VK2A62AQ0F]] concludes that there is no residuum.
 
 Monotonicity is used to turn left-continuity into a statement about suprema.
-For a monotone map on $[0, 1]$, being left-continuous is the same as sending the supremum of every nonempty set to the supremum of the image.
-The completeness of $[0, 1]$ is used too, since the supremum of $\{ z : z * x \le y \}$ must exist.
-On the rationals in $[0, 1]$, with $x * y = \max(0, x + y - 1)$ and with $y$ and $x$ rational, the residuum still exists, but on a chain with gaps a supremum can be missing.
+For a monotone map on $[0, 1]$, being left-continuous is the same as sending the supremum of every nonempty set to the supremum of its image.
+The completeness of $[0, 1]$ is used too, since the set $\{ z : z * x \le y \}$ must have a supremum before we can ask whether it is a maximum.
 
 ### What it gives you
 
