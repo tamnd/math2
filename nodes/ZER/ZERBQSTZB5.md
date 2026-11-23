@@ -18,49 +18,38 @@ sources:
 
 ## Definition
 
-With $1$ for true and $0$ for false, the clause $x$ becomes the polynomial $1 - x$ and the clause $\neg x$ becomes the polynomial $x$, each $0$ exactly when its clause is true.
-Their sum is the constant $1$, which is not $0$, so the two clauses cannot both be true.
-An algebraic proof system refutes a CNF in this way, by combining the polynomials of its clauses until it reaches $1$.
+With $1$ for true, the clause $x$ becomes $1 - x$ and the clause $\neg x$ becomes $x$, each $0$ exactly when its clause is true.
+Their sum is the constant $1$, so the two clauses cannot both hold, and an algebraic proof system refutes a CNF by reaching $1$ in this way.
 
-Fix a field $\mathbb{F}$ and variables $x_1, \dots, x_n$, and work in the polynomial ring $\mathbb{F}[x_1, \dots, x_n]$.
-Below, $f_1, \dots, f_m$ are polynomials, such as the translation of a CNF, and a refutation shows that they have no common $0$-$1$ zero.
-
-### Translation of clauses
-
-A [[clause|T3SXVH3ZZC]] $C$ with positive literals $C^+$ and negative literals $C^-$ translates to the polynomial
-$$P_C = \prod_{x \in C^+} (1 - x) \cdot \prod_{\neg x \in C^-} x.$$
-At a $0$-$1$ point, $P_C$ is $0$ exactly when some factor is $0$, that is, when the point satisfies $C$.
-A [[CNF formula|0B3D4C8YF2]] $F$ translates to the set of the $P_C$ for its clauses.
+Fix a field $\mathbb{F}$ and work in $\mathbb{F}[x_1, \dots, x_n]$.
+A refutation of polynomials $f_1, \dots, f_m$, such as the translation of a CNF in the Notation below, shows that they have no common $0$-$1$ zero.
 The *Boolean axioms* are the polynomials $x_j^2 - x_j$ for $j = 1, \dots, n$, whose common zeros in $\mathbb{F}^n$ are the $0$-$1$ points.
 
 ### Nullstellensatz
 
 A *Nullstellensatz refutation* of $f_1, \dots, f_m$ is a list of polynomials $g_1, \dots, g_m, h_1, \dots, h_n$ such that
 $$\sum_{i=1}^m g_i f_i + \sum_{j=1}^n h_j \, (x_j^2 - x_j) = 1$$
-holds as an identity in $\mathbb{F}[x_1, \dots, x_n]$.
+holds as a polynomial identity.
 Its *degree* is the largest degree of the products $g_i f_i$ and $h_j (x_j^2 - x_j)$.
 Its *size* is the total number of monomials of these products.
 
 ### Polynomial calculus
 
-A *polynomial calculus derivation* from $f_1, \dots, f_m$ is a sequence of polynomials, the *lines*, in which each line is obtained in one of the following ways.
+A *polynomial calculus derivation* from $f_1, \dots, f_m$ is a sequence of polynomials, the *lines*, each obtained in one of three ways.
 
 1. **Axiom.** It is one of $f_1, \dots, f_m$ or a Boolean axiom.
 2. **Linear combination.** It is $a f + b g$ for earlier lines $f, g$ and $a, b \in \mathbb{F}$.
 3. **Multiplication.** It is $x_j f$ for an earlier line $f$ and a variable $x_j$.
 
 A *polynomial calculus refutation* is a derivation whose last line is the constant polynomial $1$.
-Its *degree* is the largest degree of a line, its *size* is the number of monomials of all lines, and its *length* is the number of lines.
-
-### Sum of squares
-
-Let $\mathbb{F} = \mathbb{R}$.
-A *sum-of-squares refutation* of $f_1, \dots, f_m$ is a list $g_1, \dots, g_m, h_1, \dots, h_n$ together with polynomials $s_1, \dots, s_t$ such that
-$$\sum_{i=1}^m g_i f_i + \sum_{j=1}^n h_j \, (x_j^2 - x_j) + \sum_{l=1}^t s_l^2 = -1$$
-holds as a polynomial identity.
-Its degree is the largest degree of the terms $g_i f_i$, $h_j (x_j^2 - x_j)$ and $s_l^2$.
+Its *degree* is the largest degree of a line, its *size* is the total number of monomials, and its *length* is the number of lines.
 
 ## Notation
+
+A [[clause|T3SXVH3ZZC]] $C$ with positive literals $C^+$ and negative literals $C^-$ translates to the polynomial
+$$P_C = \prod_{x \in C^+} (1 - x) \cdot \prod_{\neg x \in C^-} x.$$
+At a $0$-$1$ point, $P_C$ vanishes exactly when some factor does, that is, when the point satisfies $C$.
+A [[CNF formula|0B3D4C8YF2]] $F$ translates to the set of the $P_C$ for its clauses.
 
 We write NS for the Nullstellensatz system, PC for polynomial calculus and SOS for sum of squares.
 Many authors use the opposite convention, with $0$ for true, and then the translation of $x$ is $x$ instead of $1 - x$.
@@ -68,6 +57,14 @@ PCR is the variant of PC with a second variable $\bar x_j$ for each $x_j$ and th
 The Positivstellensatz system is the general form of SOS, in which the certificate may use products of the inequalities of the problem, as in the [[Positivstellensatz|FN734RQYM6]].
 
 ## Remarks
+
+### Sum of squares, the third system
+
+The third algebraic system works over $\mathbb{F} = \mathbb{R}$.
+A *sum-of-squares refutation* of $f_1, \dots, f_m$ is a list $g_1, \dots, g_m, h_1, \dots, h_n$ together with polynomials $s_1, \dots, s_t$ such that
+$$\sum_{i=1}^m g_i f_i + \sum_{j=1}^n h_j \, (x_j^2 - x_j) + \sum_{l=1}^t s_l^2 = -1$$
+holds as a polynomial identity.
+Its degree is the largest degree of the terms $g_i f_i$, $h_j (x_j^2 - x_j)$ and $s_l^2$.
 
 ### Soundness
 
