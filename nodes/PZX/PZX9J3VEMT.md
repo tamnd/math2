@@ -15,42 +15,33 @@ sources:
 
 ## Definition
 
+Gentzen's sequent calculus LK derives sequents $\Gamma \Rightarrow \Delta$ from axioms $A \Rightarrow A$ by structural rules, a cut rule, and a left and a right rule for each logical symbol.
+
 Fix a first-order language of [[predicate logic|086QKPF0A6]].
-A *sequent* is an expression $\Gamma \Rightarrow \Delta$, where $\Gamma$ (the antecedent) and $\Delta$ (the succedent) are finite sequences of formulas, possibly empty.
+A *sequent* is an expression $\Gamma \Rightarrow \Delta$, where the antecedent $\Gamma$ and the succedent $\Delta$ are finite sequences of formulas, possibly empty.
 In the rules below, $A$ and $B$ are formulas, $\Gamma, \Delta, \Pi, \Lambda$ are finite sequences, and a comma joins sequences.
-The calculus LK of Gentzen has the following axioms and rules.
 
-**Axioms.** Every sequent $A \Rightarrow A$.
+The *axioms* are all sequents $A \Rightarrow A$.
 
-**Structural rules.**
+The *structural rules* are weakening (W), contraction (C) and exchange (X) on each side, and cut:
+$$\dfrac{\Gamma \Rightarrow \Delta}{A, \Gamma \Rightarrow \Delta}\,\mathrm{WL} \qquad \dfrac{\Gamma \Rightarrow \Delta}{\Gamma \Rightarrow \Delta, A}\,\mathrm{WR} \qquad \dfrac{A, A, \Gamma \Rightarrow \Delta}{A, \Gamma \Rightarrow \Delta}\,\mathrm{CL} \qquad \dfrac{\Gamma \Rightarrow \Delta, A, A}{\Gamma \Rightarrow \Delta, A}\,\mathrm{CR}$$
+$$\dfrac{\Gamma, A, B, \Pi \Rightarrow \Delta}{\Gamma, B, A, \Pi \Rightarrow \Delta}\,\mathrm{XL} \qquad \dfrac{\Gamma \Rightarrow \Delta, A, B, \Lambda}{\Gamma \Rightarrow \Delta, B, A, \Lambda}\,\mathrm{XR} \qquad \dfrac{\Gamma \Rightarrow \Delta, A \qquad A, \Pi \Rightarrow \Lambda}{\Gamma, \Pi \Rightarrow \Delta, \Lambda}\,\mathrm{Cut}$$
+In the cut rule, $A$ is the *cut formula*.
 
-- Weakening: from $\Gamma \Rightarrow \Delta$ infer $A, \Gamma \Rightarrow \Delta$ (WL) and $\Gamma \Rightarrow \Delta, A$ (WR).
-- Contraction: from $A, A, \Gamma \Rightarrow \Delta$ infer $A, \Gamma \Rightarrow \Delta$ (CL); from $\Gamma \Rightarrow \Delta, A, A$ infer $\Gamma \Rightarrow \Delta, A$ (CR).
-- Exchange: from $\Gamma, A, B, \Pi \Rightarrow \Delta$ infer $\Gamma, B, A, \Pi \Rightarrow \Delta$ (XL), and the same on the right (XR).
-- Cut: from $\Gamma \Rightarrow \Delta, A$ and $A, \Pi \Rightarrow \Lambda$ infer $\Gamma, \Pi \Rightarrow \Delta, \Lambda$. The formula $A$ is the cut formula.
+The *propositional rules* for [[conjunction|0M28ASWG8T]], [[disjunction|0H5GKDTB01]], [[implication|0ZNX6DQ3EJ]] and [[negation|0XR7A7RSXB]] are the following, where each rule for $\wedge$L and $\vee$R has a second form with $A$ and $B$ swapped in the compound formula:
+$$\dfrac{A, \Gamma \Rightarrow \Delta}{A \wedge B, \Gamma \Rightarrow \Delta}\,{\wedge}\mathrm{L} \qquad \dfrac{\Gamma \Rightarrow \Delta, A \qquad \Gamma \Rightarrow \Delta, B}{\Gamma \Rightarrow \Delta, A \wedge B}\,{\wedge}\mathrm{R}$$
+$$\dfrac{A, \Gamma \Rightarrow \Delta \qquad B, \Gamma \Rightarrow \Delta}{A \vee B, \Gamma \Rightarrow \Delta}\,{\vee}\mathrm{L} \qquad \dfrac{\Gamma \Rightarrow \Delta, A}{\Gamma \Rightarrow \Delta, A \vee B}\,{\vee}\mathrm{R}$$
+$$\dfrac{\Gamma \Rightarrow \Delta, A \qquad B, \Pi \Rightarrow \Lambda}{A \to B, \Gamma, \Pi \Rightarrow \Delta, \Lambda}\,{\to}\mathrm{L} \qquad \dfrac{A, \Gamma \Rightarrow \Delta, B}{\Gamma \Rightarrow \Delta, A \to B}\,{\to}\mathrm{R}$$
+$$\dfrac{\Gamma \Rightarrow \Delta, A}{\neg A, \Gamma \Rightarrow \Delta}\,{\neg}\mathrm{L} \qquad \dfrac{A, \Gamma \Rightarrow \Delta}{\Gamma \Rightarrow \Delta, \neg A}\,{\neg}\mathrm{R}$$
 
-**Logical rules** for [[conjunction|0M28ASWG8T]], [[disjunction|0H5GKDTB01]], [[implication|0ZNX6DQ3EJ]] and [[negation|0XR7A7RSXB]]:
+The *quantifier rules* use the [[substitution|NCDZ969V7X]] $A[t/x]$, where the term $t$ or the variable $y$ is substitutable for $x$ in $A$:
+$$\dfrac{A[t/x], \Gamma \Rightarrow \Delta}{\forall x\, A, \Gamma \Rightarrow \Delta}\,{\forall}\mathrm{L} \qquad \dfrac{\Gamma \Rightarrow \Delta, A[y/x]}{\Gamma \Rightarrow \Delta, \forall x\, A}\,{\forall}\mathrm{R} \qquad \dfrac{A[y/x], \Gamma \Rightarrow \Delta}{\exists x\, A, \Gamma \Rightarrow \Delta}\,{\exists}\mathrm{L} \qquad \dfrac{\Gamma \Rightarrow \Delta, A[t/x]}{\Gamma \Rightarrow \Delta, \exists x\, A}\,{\exists}\mathrm{R}$$
+In ${\forall}$L and ${\exists}$R the term $t$ is arbitrary.
+In ${\forall}$R and ${\exists}$L the variable $y$ is the *eigenvariable* of the step, and it must satisfy the *eigenvariable condition*: $y$ is not free in $\Gamma$, in $\Delta$, or in the quantified formula $\forall x\, A$ or $\exists x\, A$.
 
-- ${\wedge}$R: from $\Gamma \Rightarrow \Delta, A$ and $\Gamma \Rightarrow \Delta, B$ infer $\Gamma \Rightarrow \Delta, A \wedge B$.
-- ${\wedge}$L: from $A, \Gamma \Rightarrow \Delta$ infer $A \wedge B, \Gamma \Rightarrow \Delta$ and $B \wedge A, \Gamma \Rightarrow \Delta$.
-- ${\vee}$L: from $A, \Gamma \Rightarrow \Delta$ and $B, \Gamma \Rightarrow \Delta$ infer $A \vee B, \Gamma \Rightarrow \Delta$.
-- ${\vee}$R: from $\Gamma \Rightarrow \Delta, A$ infer $\Gamma \Rightarrow \Delta, A \vee B$ and $\Gamma \Rightarrow \Delta, B \vee A$.
-- ${\to}$R: from $A, \Gamma \Rightarrow \Delta, B$ infer $\Gamma \Rightarrow \Delta, A \to B$.
-- ${\to}$L: from $\Gamma \Rightarrow \Delta, A$ and $B, \Pi \Rightarrow \Lambda$ infer $A \to B, \Gamma, \Pi \Rightarrow \Delta, \Lambda$.
-- ${\neg}$R: from $A, \Gamma \Rightarrow \Delta$ infer $\Gamma \Rightarrow \Delta, \neg A$.
-- ${\neg}$L: from $\Gamma \Rightarrow \Delta, A$ infer $\neg A, \Gamma \Rightarrow \Delta$.
-
-**Quantifier rules**, where $A[t/x]$ is a [[substitution|NCDZ969V7X]] and the term $t$ or variable $y$ is substitutable for $x$ in $A$:
-
-- ${\forall}$L: from $A[t/x], \Gamma \Rightarrow \Delta$ infer $\forall x\, A, \Gamma \Rightarrow \Delta$, for any term $t$.
-- ${\forall}$R: from $\Gamma \Rightarrow \Delta, A[y/x]$ infer $\Gamma \Rightarrow \Delta, \forall x\, A$, where $y$ is not free in $\Gamma$, $\Delta$ or $\forall x\, A$.
-- ${\exists}$L: from $A[y/x], \Gamma \Rightarrow \Delta$ infer $\exists x\, A, \Gamma \Rightarrow \Delta$, where $y$ is not free in $\Gamma$, $\Delta$ or $\exists x\, A$.
-- ${\exists}$R: from $\Gamma \Rightarrow \Delta, A[t/x]$ infer $\Gamma \Rightarrow \Delta, \exists x\, A$, for any term $t$.
-
-The variable $y$ of ${\forall}$R and ${\exists}$L is the *eigenvariable* of the step, and the condition on it is the *eigenvariable condition*.
 A *derivation* is a finite tree of sequents in which each leaf is an axiom and each other node follows from the nodes directly above it by a rule.
 The calculus LJ is LK with the restriction that every sequent in a derivation has at most one formula in its succedent.
-A *sequent* $\Gamma \Rightarrow \Delta$ is *true* in a structure $\mathcal{M}$ under an assignment $s$ when some formula of $\Gamma$ is false or some formula of $\Delta$ is true there.
+A sequent $\Gamma \Rightarrow \Delta$ is *true* in a structure $\mathcal{M}$ under an assignment $s$ when some formula of $\Gamma$ is false or some formula of $\Delta$ is true there.
 
 ## Notation
 
@@ -63,22 +54,33 @@ One-sided calculi write $\Rightarrow \Delta$ only, and move a formula $A$ from t
 
 ### Reading a sequent
 
-The sequent $A_1, \dots, A_m \Rightarrow B_1, \dots, B_n$ is true in $\mathcal{M}$ under $s$ exactly when $(A_1 \wedge \cdots \wedge A_m) \to (B_1 \vee \cdots \vee B_n)$ is.
+The sequent $A_1, \dots, A_m \Rightarrow B_1, \dots, B_n$ is true in $\mathcal{M}$ under $s$ exactly when $(A_1 \wedge \dots \wedge A_m) \to (B_1 \vee \dots \vee B_n)$ is.
 An empty antecedent reads as true, and an empty succedent reads as false.
 So $\Rightarrow A$ says that $A$ holds, and $\Gamma \Rightarrow$ says that the formulas of $\Gamma$ cannot all hold.
+With this reading each rule is sound: if its premises are true in $\mathcal{M}$ under every assignment, so is its conclusion.
 
-### A derivation and a non-derivation
+### Why the eigenvariable condition
 
-The [[law of excluded middle|0RYYK8PG4S]] has an LK derivation.
+The condition makes ${\forall}$R mean "we proved $A$ for an object about which nothing else is assumed".
+Without it, the axiom $P(a) \Rightarrow P(a)$ would give $P(a) \Rightarrow \forall x\, P(x)$, which is false in $\{0, 1\}$ with $P$ true of $0$ only and $a$ read as $0$.
+[[A sequent derivation that breaks the eigenvariable condition|REMQ2W88WG]] works this case out.
+The rule ${\exists}$L is the mirror image: from $P(a) \Rightarrow P(a)$ it would give $\exists x\, P(x) \Rightarrow P(a)$, false in the same structure with $a$ read as $1$.
 
-1. $A \Rightarrow A$ is an axiom.
-2. ${\neg}$R gives $\Rightarrow A, \neg A$.
-3. ${\vee}$R gives $\Rightarrow A, A \vee \neg A$.
-4. XR gives $\Rightarrow A \vee \neg A, A$, and ${\vee}$R gives $\Rightarrow A \vee \neg A, A \vee \neg A$.
-5. CR gives $\Rightarrow A \vee \neg A$.
+The terms of ${\forall}$L and ${\exists}$R need no condition, since $\forall x\, A$ gives $A[t/x]$ for every term $t$, and $A[t/x]$ gives $\exists x\, A$.
+Substitutability is still needed: $\forall x\, \exists y\, (x \neq y)$ must not give $\exists y\, (y \neq y)$ with the term $y$.
 
-This is not an LJ derivation, because step 2 has two formulas in the succedent.
+### Classical and intuitionistic
+
+The [[law of excluded middle|0RYYK8PG4S]] has a short LK derivation.
+
+1. $A \Rightarrow A$ is an axiom, and ${\neg}$R gives $\Rightarrow A, \neg A$.
+2. ${\vee}$R in its second form gives $\Rightarrow A, A \vee \neg A$.
+3. XR gives $\Rightarrow A \vee \neg A, A$, and ${\vee}$R gives $\Rightarrow A \vee \neg A, A \vee \neg A$.
+4. CR gives $\Rightarrow A \vee \neg A$.
+
+This is not an LJ derivation, because step 1 has two formulas in the succedent.
 In fact $\Rightarrow A \vee \neg A$ has no LJ derivation when $A$ is a propositional variable.
+The concept of the [[sequent calculus|W72CA3R9MP]] collects further derivations and the main theorems about them.
 
 ## Explanations
 
@@ -91,17 +93,19 @@ For example, from "$A$ gives $A$" the rule for "and" on the left gives "$A$ and 
 
 ### L2 human
 
-We derive $A \wedge B \Rightarrow B \wedge A$.
+We derive $\forall x\, P(x) \Rightarrow \forall x\, (P(x) \vee Q(x))$.
 
-1. $B \Rightarrow B$ is an axiom, and ${\wedge}$L gives $A \wedge B \Rightarrow B$.
-2. $A \Rightarrow A$ is an axiom, and ${\wedge}$L gives $A \wedge B \Rightarrow A$.
-3. ${\wedge}$R with the sequents of steps 1 and 2 gives $A \wedge B \Rightarrow B \wedge A$.
+1. $P(y) \Rightarrow P(y)$ is an axiom.
+2. ${\vee}$R gives $P(y) \Rightarrow P(y) \vee Q(y)$.
+3. ${\forall}$L with the term $y$ gives $\forall x\, P(x) \Rightarrow P(y) \vee Q(y)$.
+4. ${\forall}$R with eigenvariable $y$ gives $\forall x\, P(x) \Rightarrow \forall x\, (P(x) \vee Q(x))$.
 
-The typical use is backward proof search: start from the goal sequent and apply rules upward, where each rule removes one connective.
-A trap is the eigenvariable condition of ${\forall}$R and ${\exists}$L: the eigenvariable must not occur free anywhere else in the conclusion sequent.
+Check step 4: $y$ is not free in $\forall x\, P(x)$ or in $\forall x\, (P(x) \vee Q(x))$, so the condition holds.
+The typical use is backward proof search: start from the goal sequent and apply rules upward, where each rule removes one symbol.
+Watch out: if steps 3 and 4 swap, the condition fails, because $y$ is then free in $P(y)$ on the left.
 
 ### L3 human
 
 The rules of LK are symmetric under the exchange of left and right, with $\wedge$ and $\vee$, $\forall$ and $\exists$ swapped; this is a form of duality.
-The cut rule is the only rule whose premises contain a formula that is not a subformula of the conclusion, and Gentzen's [[cut-elimination theorem|AYRZ98Y0NW]] shows that it can be removed.
+The cut rule is the only rule whose premises contain a formula that need not be a subformula of the conclusion, and Gentzen's [[cut-elimination theorem|AYRZ98Y0NW]] shows that it can be removed.
 The restriction of LJ to one formula on the right gives [[intuitionistic logic|Q11N8X99FK]], and dropping structural rules gives the substructural logics, such as linear logic.

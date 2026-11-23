@@ -24,24 +24,38 @@ Its negation is equivalent to $\forall y\,\exists x\, R(x,y) \land \forall x\,\e
 $$C_1 = \{R(g(y), y)\}, \qquad C_2 = \{\neg R(x, h(x))\}.$$
 A faulty prover "resolves" them to $\square$, and we show that this step is not a step of [[first-order resolution|DEB3CF4Z2D]].
 
-1. The set $\{C_1, C_2\}$ is [[satisfiable|QN7M1JCGT9]]. Take the [[structure|983GZBQYT4]] $\mathcal{M}$ with domain $\mathbb{N}$, $R^{\mathcal{M}}(m, n)$ if and only if $m = n + 1$, $g(n) = n + 1$ and $h(n) = n$.
-2. Check $C_1$. For every $n$, $R(g(n), n)$ means $n + 1 = n + 1$, which is true.
-3. Check $C_2$. For every $m$, $R(m, h(m))$ means $m = m + 1$, which is false, so $\neg R(m, h(m))$ is true.
-4. The faulty unification. The [[unification|RJJ9D0WF53]] of $R(g(y), y)$ and $R(x, h(x))$ starts with $g(y) = x$ and $y = h(x)$. The first equation gives $x \mapsto g(y)$, and the second becomes $y = h(g(y))$.
-5. The occurs check fails here, since $y$ occurs in $h(g(y))$. The faulty prover skips the check, binds $y \mapsto h(g(y))$, and uses $\sigma = \{x \mapsto g(y), y \mapsto h(g(y))\}$.
-6. $\sigma$ is not a unifier. We get $R(g(y), y)\sigma = R(g(h(g(y))), h(g(y)))$ and $R(x, h(x))\sigma = R(g(y), h(g(y)))$, and the first arguments differ.
-7. No unifier exists. If $\tau$ unifies the atoms, then $x\tau = g(y\tau)$ and $y\tau = h(x\tau) = h(g(y\tau))$. The right side has two more symbols than $y\tau$, so this is impossible.
-8. Conclusion. The faulty step derives $\square$ from a satisfiable set, so it is unsound. The correct calculus finds no resolvent and no factor of $C_1$ and $C_2$, so it derives nothing.
+1. The set $\{C_1, C_2\}$ is [[satisfiable|QN7M1JCGT9]].
+   Take the [[structure|983GZBQYT4]] $\mathcal{M}$ with domain $\mathbb{N}$, $R^{\mathcal{M}}(m, n)$ if and only if $m = n + 1$, $g(n) = n + 1$ and $h(n) = n$.
+2. Check $C_1$.
+   For every $n$, $R(g(n), n)$ means $n + 1 = n + 1$, which is true.
+3. Check $C_2$.
+   For every $m$, $R(m, h(m))$ means $m = m + 1$, which is false, so $\neg R(m, h(m))$ is true.
+4. The faulty unification.
+   The [[unification|RJJ9D0WF53]] of $R(g(y), y)$ and $R(x, h(x))$ starts with $g(y) = x$ and $y = h(x)$.
+   The first equation gives $x \mapsto g(y)$, and the second becomes $y = h(g(y))$.
+5. The occurs check fails here, since $y$ occurs in $h(g(y))$.
+   The faulty prover skips the check, binds $y \mapsto h(g(y))$, and uses $\sigma = \{x \mapsto g(y), y \mapsto h(g(y))\}$.
+6. $\sigma$ is not a unifier.
+   We get $R(g(y), y)\sigma = R(g(h(g(y))), h(g(y)))$ and $R(x, h(x))\sigma = R(g(y), h(g(y)))$, and the first arguments differ.
+7. No unifier exists.
+   If $\tau$ unifies the atoms, then $x\tau = g(y\tau)$ and $y\tau = h(x\tau) = h(g(y\tau))$.
+   The right side has two more symbols than $y\tau$, so this is impossible.
+8. The faulty step derives $\square$ from a satisfiable set, so it is unsound.
+   The correct calculus finds no resolvent and no factor of $C_1$ and $C_2$, so it derives nothing.
 
 ## Remarks
 
-The example shows that the occurs check is what keeps resolution sound.
-Without it, a "unifier" can stand for an infinite term such as $h(g(h(g(\cdots))))$, which is not a term of first-order logic.
-The same clauses also show that the invalid formula above has no resolution proof, as soundness and completeness require.
+### The occurs check keeps resolution sound
 
-The same error appears with a wrong Skolemization.
+Without the occurs check, a "unifier" can stand for an infinite term such as $h(g(h(g(\cdots))))$, which is not a term of first-order logic.
+The same clauses show that the invalid sentence above has no resolution proof, as soundness requires.
+
+### The same error from a wrong Skolemization
+
 If $\forall x\,\exists y\, R(x,y)$ is turned into $\{R(x, c)\}$ instead of $\{R(x, f(x))\}$, the clause unifies with $R(z, z)$ through $\{x \mapsto c, z \mapsto c\}$.
 The correct clause does not unify with $R(z,z)$, again by the occurs check on $z = f(z)$.
+
+### Logic programming
 
 Logic programming systems often omit the occurs check for speed.
 They then accept some "proofs" that are not valid in first-order logic, for the reason shown here.
@@ -65,6 +79,6 @@ To test a unification step by hand, apply the proposed substitution to both atom
 3. Applied to $R(x, h(x))$, it gives $R(g(y), h(g(y)))$.
 4. The first arguments $g(h(g(y)))$ and $g(y)$ differ, so $\sigma$ is not a unifier.
 
-The typical use of this check: every mgu in a hand-written refutation should be tested in this way.
-A trap is to apply the bindings one after the other, as if $y$ were first replaced and then $x$.
-A substitution acts on all variables at once.
+Every mgu in a hand-written refutation should be tested in this way.
+Watch out: a substitution acts on all variables at once.
+Applying $x \mapsto g(y)$ first and then $y \mapsto h(g(y))$ makes the first arguments agree, but that is a composition of two substitutions, not $\sigma$, and the second arguments then differ.
