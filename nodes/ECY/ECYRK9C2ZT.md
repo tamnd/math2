@@ -53,7 +53,8 @@ In practice you pick the axiom set that suits the task, $\mathrm{5}$ for canonic
 
 The statement is a list of equalities, so each inclusion comes with its converse.
 Without $\mathrm{T}$ the equalities fail.
-On the frame $a R b$, $b R b$ with $V(p) = \{ a \}$, the formula $p$ is true at $a$, but $b$ sees only $b$, so $\lozenge p$ is false at $b$ and $\square\lozenge p$ is false at $a$.
+Take the frame $a R b$, $b R b$ with $V(p) = \{ a \}$, so that $p$ is true at $a$.
+Since $b$ sees only $b$, $\lozenge p$ is false at $b$, and $\square\lozenge p$ is false at $a$.
 So $\mathrm{B}$ fails while $\mathsf{K45}$ holds, and $\mathsf{K45} \ne \mathsf{KB4}$.
 
 ### Generalizations

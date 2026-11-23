@@ -34,6 +34,8 @@ A neighborhood frame has one of the following properties when it holds for each 
 3. *contains the unit* when $W \in N(w)$;
 4. *augmented* when $N(w)$ is supplemented and contains its *core* $\bigcap N(w)$.
 
+### Classical modal logics
+
 A *classical modal logic* is a set of formulas that contains the tautologies and is closed under modus ponens, uniform substitution and this rule:
 $$\mathrm{RE}\colon \quad \text{from } \varphi \leftrightarrow \psi \text{ infer } \square\varphi \leftrightarrow \square\psi.$$
 $\mathsf{E}$ is the smallest classical modal logic, and the letters $\mathsf{M}$, $\mathsf{C}$ and $\mathsf{N}$ add these axioms:

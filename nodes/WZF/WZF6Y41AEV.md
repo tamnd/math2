@@ -19,6 +19,8 @@ Read $\square p$ at a point as "a small open window around the point lies inside
 Then $\square p$ is true on $(0, 1)$ and false at $0$ and at $1$.
 This reading turns the box into the [[interior|0RZH6W98HK]] operator, and the theorems of $\mathsf{S4}$ into laws of interior.
 
+### The theorems of S4 are valid
+
 A topological model on $\mathbb{R}$ gives each variable a set $V(p) \subseteq \mathbb{R}$.
 The connectives act as set operations, and the modalities act as follows:
 $$[\![ \square\varphi ]\!] = \operatorname{int} [\![ \varphi ]\!], \qquad [\![ \lozenge\varphi ]\!] = \operatorname{cl} [\![ \varphi ]\!].$$
@@ -32,6 +34,8 @@ A formula is valid when its truth set is $\mathbb{R}$ under every valuation.
 5. $\operatorname{int}\mathbb{R} = \mathbb{R}$, so [[necessitation|G989VP2NGP]] preserves validity.
 6. Modus ponens and uniform substitution also preserve validity.
    So every theorem of the [[modal logic S4|N60RVXSA5W]] is valid in this semantics.
+
+### Two countermodels
 
 Two valuations refute formulas that are not theorems.
 

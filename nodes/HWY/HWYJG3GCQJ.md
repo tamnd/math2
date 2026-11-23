@@ -21,24 +21,21 @@ This preorder refutes the axioms $.2$ and $.3$, so neither is a theorem of the [
 The model is this:
 $$W = \{ r, a, b \}, \quad R = \{ (r, r), (a, a), (b, b), (r, a), (r, b) \}, \quad V(p) = \{ a \}.$$
 
-First we check that the frame is an $\mathsf{S4}$-frame.
+First we check that the frame is an $\mathsf{S4}$-frame, and then we refute both axioms.
 
 1. $R$ is reflexive, because the pairs $(r, r)$, $(a, a)$ and $(b, b)$ are in $R$.
 2. $R$ is transitive.
-   The only pairs $x R y$ with $x \neq y$ are $(r, a)$ and $(r, b)$, and $a$ and $b$ see only themselves, so a chain $x R y R z$ has $x = y$ or $y = z$, and then $x R z$.
+   The only pairs $x R y$ with $x \neq y$ are $(r, a)$ and $(r, b)$, and $a$ and $b$ see only themselves.
+   So a chain $x R y R z$ has $x = y$ or $y = z$, and then $x R z$.
 3. So $R$ is a [[preorder|0VABYWJWH9]], and the frame validates $\mathsf{S4}$ by the [[common modal axiom schemata|FDFQFWPM4X]] and [[soundness|E87G6ZTMTN]].
-
-Next we refute $.2$, which is $\lozenge\square p \to \square\lozenge p$.
-
-4. The successor sets are $R[r] = W$, $R[a] = \{ a \}$ and $R[b] = \{ b \}$.
+4. Next we refute $.2$, which is $\lozenge\square p \to \square\lozenge p$.
+   The successor sets are $R[r] = W$, $R[a] = \{ a \}$ and $R[b] = \{ b \}$.
 5. $\square p$ is true at $a$, because $a$ sees only $a$ and $p$ is true there.
    So $\lozenge\square p$ is true at $r$.
 6. $\lozenge p$ is false at $b$, because $b$ sees only $b$ and $p$ is false there.
    So $\square\lozenge p$ is false at $r$, and $.2$ fails at $r$.
-
-Last we refute $.3$, which is $\square(\square p \to q) \vee \square(\square q \to p)$, with the extra value $V(q) = \{ b \}$.
-
-7. At $a$, $\square p$ is true and $q$ is false, so $\square p \to q$ is false at $a$, and $\square(\square p \to q)$ is false at $r$.
+7. Last we refute $.3$, which is $\square(\square p \to q) \vee \square(\square q \to p)$, with the extra value $V(q) = \{ b \}$.
+   At $a$, $\square p$ is true and $q$ is false, so $\square p \to q$ is false at $a$, and $\square(\square p \to q)$ is false at $r$.
 8. At $b$, $\square q$ is true and $p$ is false, so $\square q \to p$ is false at $b$, and $\square(\square q \to p)$ is false at $r$.
 9. Both disjuncts fail at $r$, so $.3$ fails at $r$.
 

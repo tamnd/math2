@@ -18,6 +18,8 @@ On a universal frame, $\square p$ is true everywhere or nowhere, so any box or d
 We prove the syntactic form of this fact: in the [[modal logic S5|VC3A2VWXND]], $\mathsf{S5} = \mathsf{KT5}$, a string of boxes and diamonds in front of $p$ is equivalent to its last operator.
 We use RE of [[normal modal logic K|JS8W7PA6JK]] and the equivalence $\lozenge\neg p \leftrightarrow \neg\square p$, which RE gives from $\neg\neg p \leftrightarrow p$.
 
+### Each string reduces to its last operator
+
 1. The instance of $\mathrm{5}$ for $\neg p$ is $\lozenge\neg p \to \square\lozenge\neg p$.
 2. By RE, $\lozenge\neg p \leftrightarrow \neg\square p$ and $\square\lozenge\neg p \leftrightarrow \square\neg\square p$, so step 1 becomes $\neg\square p \to \square\neg\square p$.
 3. Contraposition gives $\neg\square\neg\square p \to \square p$, which is $\lozenge\square p \to \square p$.
@@ -31,6 +33,8 @@ We use RE of [[normal modal logic K|JS8W7PA6JK]] and the equivalence $\lozenge\n
 10. For $k > 1$, the induction hypothesis gives $M_2 \cdots M_k p \leftrightarrow M_k p$, and RE puts $M_1$ in front of both sides.
     Then step 8 gives $M_1 M_k p \leftrightarrow M_k p$.
 
+### Six distinct modalities
+
 With negations, duality moves each $\neg$ to the front, so each modality is equivalent to one of $p$, $\neg p$, $\square p$, $\lozenge p$, $\neg\square p$, $\neg\lozenge p$.
 
 11. On the universal frame $W = \{ 1, 2 \}$, the valuation $V(p) = \{ 1 \}$ gives the six formulas the truth sets $\{ 1 \}$, $\{ 2 \}$, $\varnothing$, $W$, $W$, $\varnothing$.
@@ -43,7 +47,8 @@ With negations, duality moves each $\neg$ to the front, so each modality is equi
 So $\mathsf{S5}$ has exactly six modalities, against fourteen in $\mathsf{S4}$.
 Step 12 is needed because on a universal frame $\square p$ and $\neg\lozenge p$ are both empty unless $p$ holds everywhere or nowhere.
 One valuation is enough on a frame with two classes.
-With classes $\{ 1 \}$ and $\{ 2, 3 \}$ and $V(p) = \{ 1, 2 \}$, the six truth sets are $\{ 1, 2 \}$, $\{ 3 \}$, $\{ 1 \}$, $W$, $\{ 2, 3 \}$ and $\varnothing$, all different.
+Take the classes $\{ 1 \}$ and $\{ 2, 3 \}$, with $V(p) = \{ 1, 2 \}$.
+The six truth sets are $\{ 1, 2 \}$, $\{ 3 \}$, $\{ 1 \}$, $W$, $\{ 2, 3 \}$ and $\varnothing$, all different.
 In $\mathsf{B}$ and in $\mathsf{S4}$ the formula $\lozenge\square p \to \square p$ of step 3 is not a theorem, and the reduction stops earlier.
 
 ## Explanations

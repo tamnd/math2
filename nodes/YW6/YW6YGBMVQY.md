@@ -59,7 +59,7 @@ The formula "$x$ has two different successors" is not equivalent to any $\mathrm
 A world with one successor and a world with two successors, with all variables false at all successors, are bisimilar.
 On frames, Löb's axiom $\square(\square p \to p) \to \square p$ says "transitive and conversely well-founded", which no first-order sentence expresses.
 
-### The rules you can use
+### What the translation gives
 
 $\mathrm{ST}_x(\varphi)$ has at most the free variable $x$, and it uses only the variables $x$ and $y$.
 Truth at a world, truth in a model and validity on a frame become, in turn, the formula $\mathrm{ST}_x(\varphi)$, the sentence $\forall x\, \mathrm{ST}_x(\varphi)$, and the $\Pi^1_1$ sentence $\forall P_1 \dots \forall P_n\, \forall x\, \mathrm{ST}_x(\varphi)$.

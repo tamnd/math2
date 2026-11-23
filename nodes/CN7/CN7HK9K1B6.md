@@ -23,7 +23,7 @@ inventory: [K2P1X1AQVB]
 
 ## Summary
 
-Take three worlds, and call a statement "likely" at a world when it holds at two or more of the three worlds.
+Take three worlds $1$, $2$ and $3$, and call a statement "likely" at a world when it holds at two or more of the three worlds.
 If $p$ holds at $1$ and $2$, and $q$ at $2$ and $3$, then $p$ and $q$ are both likely, but $p \wedge q$ holds only at $2$ and is not.
 No accessibility relation behaves this way, since a Kripke box always passes through conjunctions.
 Neighborhood semantics handles this case.

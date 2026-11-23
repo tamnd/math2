@@ -19,6 +19,8 @@ We prove the following law of the [[modal logic S5|VC3A2VWXND]] by a semantic ar
 $$\mathsf{S5} \vdash \square(p \vee \square q) \leftrightarrow (\square p \vee \square q).$$
 By [[completeness of K, T, D, K4, S4, B and S5|FXTCKYR3AQ]], it is enough to check the formula at every world of every model whose relation is an [[equivalence relation|0G8VEZ3WTK]].
 
+### The law holds in S5
+
 1. Truth at $w$ depends only on the worlds that $w$ can reach.
    In an equivalence relation these form the class of $w$, and on that class $R$ is universal.
 2. So it is enough to check models with $R = W \times W$.
@@ -28,6 +30,8 @@ By [[completeness of K, T, D, K4, S4, B and S5|FXTCKYR3AQ]], it is enough to che
 4. Case 2: $\square q$ is false at all worlds.
    Then $p \vee \square q$ has the same truth set as $p$, so $\square(p \vee \square q)$ agrees with $\square p$, and so does $\square p \vee \square q$.
 5. In both cases the two sides agree at every world, so the equivalence is valid on universal frames and is a theorem of $\mathsf{S5}$.
+
+### One direction fails in S4
 
 Now we refute one direction on a [[preorder|0VABYWJWH9]]: take $W = \{ r, a \}$ and $R = \{ (r, r), (a, a), (r, a) \}$, with $V(p) = \{ r \}$ and $V(q) = \{ a \}$.
 
