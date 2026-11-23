@@ -22,19 +22,24 @@ So it is a sentence in [[prenex normal form|CS82V969DE]] whose prefix has only u
 
 ## Notation
 
-1. The Skolem form of a prenex sentence $\varphi$ is written $\varphi^S$, over the signature $\sigma^S$ of $\sigma$ and the new symbols.
-2. Some books call the result of Skolemization the Skolem normal form of $\varphi$, and others call any universal prenex sentence a Skolem normal form.
+The Skolem form of a prenex sentence $\varphi$ is written $\varphi^S$, over the signature $\sigma^S$ made of $\sigma$ and the new symbols.
+Some books call the result of Skolemization the Skolem normal form of $\varphi$, and others call any universal prenex sentence a Skolem normal form.
 
 ## Remarks
 
+The sentence $\forall x \, \forall y \, (x + y = y + x)$ is in Skolem normal form, and so is every quantifier-free sentence, with $n = 0$.
+The sentence $\forall x \, \exists y \, R(x, y)$ is not, since its prefix contains $\exists$.
+
+Skolemization produces sentences of this form.
 Let $\varphi = \forall x_1 \cdots \forall x_k \, \exists y \, \chi$ be in prenex normal form, with distinct prefix variables.
-Its Skolemization step replaces $\varphi$ by $\forall x_1 \cdots \forall x_k \, \chi[f(x_1, \dots, x_k)/y]$.
-Here $f$ is a new function symbol of arity $k$; for $k = 0$ it is a new constant symbol.
-Repeating the step gives a sentence in Skolem normal form over a larger signature.
+One Skolemization step replaces $\varphi$ by
+$$\forall x_1 \cdots \forall x_k \, \chi[f(x_1, \dots, x_k)/y],$$
+where $f$ is a new function symbol of arity $k$, and a new constant symbol when $k = 0$.
+Repeating the step until no $\exists$ is left gives a sentence in Skolem normal form over a larger signature.
 It is satisfiable if and only if $\varphi$ is satisfiable, by the [[Skolem normal form theorem|Q5H7C57VNH]].
-For example, $\forall x \, \exists y \, R(x, y)$ becomes $\forall x \, R(x, f(x))$, which is in Skolem normal form.
-The sentence $\forall x \, \exists y \, R(x, y)$ itself is not in Skolem normal form, since its prefix contains $\exists$.
-The sentence $\forall x \, R(x, f(x))$ implies $\forall x \, \exists y \, R(x, y)$, but not conversely, so the two are not equivalent.
+
+For example, $\forall x \, \exists y \, R(x, y)$ becomes $\forall x \, R(x, f(x))$.
+The new sentence implies the old one, but not conversely, so the two are not equivalent.
 
 ## Explanations
 
@@ -42,9 +47,12 @@ The sentence $\forall x \, R(x, f(x))$ implies $\forall x \, \exists y \, R(x, y
 
 A sentence is in Skolem normal form when it starts with "for all" quantifiers only, and the rest has no quantifiers.
 For example, "for all $x$ and $y$, $x + y = y + x$" is in Skolem normal form.
+"For every $x$ there is a $y$ with $x < y$" is not, because of the "there is".
 
 ### L2 human
 
 To Skolemize, read the prefix from the left.
 Each $\exists y$ is deleted, and $y$ is replaced in the matrix by a new symbol applied to the universal variables read so far.
-For $\exists u \, \forall x \, \exists y \, R(u, x, y)$, this gives $\forall x \, R(c, x, g(x))$ with a new constant $c$ and a new unary symbol $g$.
+For $\exists u \, \forall x \, \exists y \, R(u, x, y)$, this gives $\forall x \, R(c, x, g(x))$, with a new constant $c$ and a new unary symbol $g$.
+Check: the constant $c$ has no arguments because no $\forall$ stands before $\exists u$.
+Watch out that a sentence with only universal quantifiers but not in prenex form, such as $P(c) \land \forall x \, Q(x)$, is not in Skolem normal form until its quantifier is moved to the front.

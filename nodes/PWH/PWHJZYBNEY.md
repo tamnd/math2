@@ -23,32 +23,43 @@ sources:
 
 ## Definition
 
-A *signature* $\sigma$ consists of:
+A signature fixes the non-logical symbols of a first-order language and the number of arguments of each.
 
-1. a set $F$ of function symbols;
-2. a set $R$ of relation symbols, disjoint from $F$;
-3. an [[arity|MSXX2P86CY]] [[function|0EPAT51DXQ]] $\operatorname{ar} \colon F \cup R \to \N$ that gives the number of arguments of each symbol.
+A *signature* $\sigma$ consists of
 
-A function symbol of arity $0$ is a *constant symbol*.
-The symbols of $\sigma$ are the non-logical symbols of a first-order language.
-The variables, connectives, quantifiers, brackets and the equality symbol are logical symbols, and they are not part of $\sigma$.
-The symbols of $\sigma$ are assumed to be distinct from the logical symbols.
+1. a set $F$ of function symbols,
+2. a set $R$ of relation symbols, disjoint from $F$, and
+3. an [[arity|MSXX2P86CY]] [[function|0EPAT51DXQ]] $\operatorname{ar} \colon F \cup R \to \mathbb{N}$, which gives the number of arguments of each symbol.
+
+A function symbol $c$ with $\operatorname{ar}(c) = 0$ is a *constant symbol*.
+The symbols of $\sigma$ are the non-logical symbols of the language, and we assume that they differ from the logical symbols.
+The variables, connectives, quantifiers, parentheses and the equality symbol are logical symbols, and they are not part of $\sigma$.
 
 ## Notation
 
-1. A signature is written $\sigma$, $\tau$, $L$ or $\mathcal{L}$, and it is often listed as a set of symbols with their arities, such as $\set{+, \cdot, 0}$ with arities $2, 2, 0$.
-2. A signature is *relational* when $F$ is empty, and *algebraic* or *functional* when $R$ is empty.
-3. In Mathlib, `FirstOrder.Language` has two fields, `Functions : ℕ → Type u` and `Relations : ℕ → Type v`. The arity is the index $n$, so each symbol has exactly one arity by construction.
+A signature is written $\sigma$, $\tau$, $L$ or $\mathcal{L}$, and is often listed as a set of symbols with their arities, such as $\{ +, \cdot, 0 \}$ with arities $2, 2, 0$.
+It is *relational* when $F$ is empty, and *algebraic* or *functional* when $R$ is empty.
+In Mathlib, `FirstOrder.Language` has two fields, `Functions : ℕ → Type u` and `Relations : ℕ → Type v`.
+There the arity is the index $n$, so each symbol has exactly one arity by construction.
 
 ## Remarks
 
-The signature of rings is $\set{+, \cdot, -, 0, 1}$ with arities $2, 2, 1, 0, 0$; it has no relation symbols.
-The signature of ordered sets has one relation symbol $<$ of arity $2$ and no function symbols.
-The list "a binary operation $\cdot$ that is associative" is not a signature: associativity is an axiom, and a signature contains only symbols and their arities.
-Some books list the constant symbols as a third set instead of treating them as functions of arity $0$.
-Some books also allow relation symbols of arity $0$, which act as propositional letters.
+Each part of the definition does one job.
+The arity tells us how many terms a symbol needs, and that is what makes the reading of a term unique.
+The two sets are disjoint because a function symbol makes a new term, while a relation symbol makes a statement, and one mark cannot do both.
+Constants are function symbols of arity $0$, so the rules for terms need no separate case for them.
+
+Here is a small instance.
+The signature of ordered fields has $F = \{ +, \cdot, -, 0, 1 \}$ with arities $2, 2, 1, 0, 0$, and $R = \{ < \}$ with $\operatorname{ar}(<) = 2$.
+Its constant symbols are $0$ and $1$, and $=$ is not listed because it is logical.
+A case that fails is "$-$ with arity $1$ and also arity $2$": the arity is a function, so each symbol gets one value, as [[one symbol for unary and binary minus|YG6J9BDB67]] explains.
+
+Books differ in small ways.
+Some list the constant symbols as a third set instead of as function symbols of arity $0$.
+Some allow relation symbols of arity $0$, which act as propositional letters.
 Enderton counts the equality symbol as an optional logical symbol, so his languages may have it or not.
 In Mathlib equality is built into the formulas, and it is not a relation symbol of the language.
+The concept page [[signature|WDVVEYD6AT]] gives more examples and the first facts.
 
 ## Explanations
 
@@ -61,12 +72,10 @@ The symbol $<$ is different: it does not make a new object, it makes a statement
 
 ### L2 human
 
-We read the definition for the signature of ordered fields.
-
-1. The function symbols are $F = \set{+, \cdot, -, 0, 1}$, with $\operatorname{ar}$ equal to $2, 2, 1, 0, 0$.
-2. The relation symbols are $R = \set{<}$, with $\operatorname{ar}(<) = 2$.
-3. The constant symbols are $0$ and $1$, the function symbols of arity $0$.
-4. The symbol $=$ is not listed, because it is logical.
-
+We read the definition for the signature of lattices, $\{ \sqcap, \sqcup \}$, for meet and join.
+We avoid the letters $\wedge$ and $\vee$ here, since in logic they are connectives.
+Both symbols are function symbols with arity $2$, so $F = \{ \sqcap, \sqcup \}$ and $R$ is empty, and the signature is algebraic.
+There are no constant symbols, so every term contains a variable, such as $x \sqcap (y \sqcup x)$.
+If we add a relation symbol $\le$ of arity $2$, then $R = \{ \le \}$ and we can write the atomic formula $x \sqcap y \le x$.
 The typical use of the definition is to fix the language before writing a theory.
-A trap: the same letter in two signatures may have different arities, so a symbol is always read with its signature.
+Watch out: the same letter may have different arities in two signatures, so always read a symbol together with its signature.

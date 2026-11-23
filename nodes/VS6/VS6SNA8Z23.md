@@ -15,7 +15,7 @@ sources:
 ## Example
 
 Let $+$ be a binary function symbol and let $t = x + y$, with distinct variables $x$ and $y$.
-We compare the simultaneous swap $\theta = \set{x \mapsto y, \ y \mapsto x}$ with two successive single substitutions, using the clauses of the [[definition|XN8TQE6SRK]].
+We compare the simultaneous swap $\theta = \{ x \mapsto y, \ y \mapsto x \}$ with two successive single substitutions, using the clauses of the [[definition|XN8TQE6SRK]].
 
 1. Simultaneous: $t\theta = x\theta + y\theta = y + x$, by clauses 3 and 1.
 2. Successive, $x$ first: $t[y/x] = y + y$, and then $(y + y)[x/y] = x + x$.
@@ -25,18 +25,21 @@ We compare the simultaneous swap $\theta = \set{x \mapsto y, \ y \mapsto x}$ wit
 
 ## Remarks
 
-The example shows that a simultaneous substitution is not a sequence of single substitutions in general.
+A simultaneous substitution is not, in general, a sequence of single substitutions.
 The first single substitution creates new occurrences of $y$, and the second one then replaces them too.
-The two methods agree when the terms put in contain none of the variables that are replaced later.
-For example, $\set{x \mapsto 0, \ y \mapsto 1}$ gives $0 + 1$ in either way.
-The same happens in formulas: the swap turns $x < y$ into $y < x$, while successive substitutions give $x < x$ or $y < y$.
+
+The two methods agree when no term put in contains a variable that is replaced later.
+Check: $\{ x \mapsto 0, \ y \mapsto 1 \}$ gives $0 + 1$ in either way.
+
+The same happens in formulas.
+The swap turns $x < y$ into $y < x$, while the successive substitutions give $x < x$ or $y < y$.
 
 ## Explanations
 
 ### L1 human
 
-Two people, Ann and Bob, trade seats at the same moment: Ann sits where Bob sat, and Bob sits where Ann sat.
-If Ann moves first, she sits on Bob, and then Bob has no free seat to go to.
+Two people trade seats at the same moment: each sits where the other sat.
+If one moves first, that person sits on the other, and the other then has no free seat.
 Simultaneous substitution is the trade at the same moment.
 Successive substitution moves one at a time and gets in the way.
 A spare chair, the fresh variable $z$, lets the trade work one step at a time.
@@ -49,5 +52,5 @@ We check the swap in $(\mathbb{N}, <)$, with $x \mapsto 1$ and $y \mapsto 2$.
 2. The swapped formula $y < x$ is false, since $2 < 1$ fails.
 3. The successive results $x < x$ and $y < y$ are false for every value, since $<$ is irreflexive.
 
-The typical use of simultaneous substitution is the renaming of all free variables of a formula at once, for example in the closure of a formula or in unification.
-The trap is a program that applies the pairs of $\theta$ one by one: it computes the successive result, not $t\theta$.
+The typical use of simultaneous substitution is to rename all free variables of a formula at once, for example in unification.
+Watch out for a program that applies the pairs of $\theta$ one by one: it computes a successive result, not $t\theta$.

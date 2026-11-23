@@ -20,21 +20,25 @@ Let $P$ and $Q$ be unary relation symbols, and let
 $$\varphi = (P(x) \land \forall x \, Q(x)).$$
 We compute the free and bound variables of $\varphi$ by the [[recursive definition|Y3FZTH5158]].
 
-1. $\operatorname{FV}(P(x)) = \set{x}$ and $\operatorname{BV}(P(x)) = \emptyset$, because $P(x)$ is atomic.
-2. $\operatorname{FV}(Q(x)) = \set{x}$, so $\operatorname{FV}(\forall x \, Q(x)) = \set{x} \setminus \set{x} = \emptyset$.
-3. $\operatorname{BV}(\forall x \, Q(x)) = \emptyset \cup \set{x} = \set{x}$.
-4. The conjunction takes unions: $\operatorname{FV}(\varphi) = \set{x} \cup \emptyset = \set{x}$ and $\operatorname{BV}(\varphi) = \emptyset \cup \set{x} = \set{x}$.
+1. $P(x)$ is atomic, so $\operatorname{FV}(P(x)) = \{ x \}$ and $\operatorname{BV}(P(x)) = \emptyset$.
+2. $\operatorname{FV}(Q(x)) = \{ x \}$, so $\operatorname{FV}(\forall x \, Q(x)) = \{ x \} \setminus \{ x \} = \emptyset$.
+3. $\operatorname{BV}(\forall x \, Q(x)) = \emptyset \cup \{ x \} = \{ x \}$.
+4. The conjunction takes unions, so $\operatorname{FV}(\varphi) = \{ x \} \cup \emptyset = \{ x \}$ and $\operatorname{BV}(\varphi) = \emptyset \cup \{ x \} = \{ x \}$.
 5. So $x \in \operatorname{FV}(\varphi) \cap \operatorname{BV}(\varphi)$.
-6. Occurrence by occurrence: the $x$ in $P(x)$ lies in the scope of no quantifier, so it is free. The $x$ in $Q(x)$ lies in the scope of $\forall x$, so it is bound.
+6. Occurrence by occurrence, the $x$ in $P(x)$ lies in the scope of no quantifier, so it is free, and the $x$ in $Q(x)$ lies in the scope of $\forall x$, so it is bound.
 
 ## Remarks
 
 The example shows that $\operatorname{FV}$ and $\operatorname{BV}$ need not be disjoint.
-The two occurrences of $x$ name different things.
-The first one stands for a value given from outside, and the second one runs over the whole domain.
-Renaming the bound variable gives the alpha-equivalent formula $P(x) \land \forall z \, Q(z)$, with $\operatorname{FV} = \set{x}$ and $\operatorname{BV} = \set{z}$.
+The two occurrences of $x$ stand for different things: the first is a value given from outside, and the second runs over the whole domain.
+
+Renaming the bound variable gives the alpha-equivalent formula $P(x) \land \forall z \, Q(z)$, with $\operatorname{FV} = \{ x \}$ and $\operatorname{BV} = \{ z \}$.
 This formula is logically equivalent to $\varphi$ and has no clash.
-If we change the conjunction into $\forall x \, (P(x) \land Q(x))$, both occurrences become bound, and the result is a sentence with another meaning.
+
+Watch out when you move quantifiers.
+Pulling $\forall x$ to the front of $\varphi$ without renaming gives $\forall x \, (P(x) \land Q(x))$, which captures the free $x$.
+That is a sentence with a different meaning.
+After renaming, $\forall z \, (P(x) \land Q(z))$ is correct, and this is the first step toward a [[prenex normal form|CS82V969DE]].
 
 ## Explanations
 
@@ -42,17 +46,13 @@ If we change the conjunction into $\forall x \, (P(x) \land Q(x))$, both occurre
 
 Read $\varphi$ in the natural numbers, with $P$ meaning "is even" and $Q$ meaning "is at least $0$".
 Then $\varphi$ says "$x$ is even, and every number is at least $0$".
-The first $x$ is the number we are asked about.
-The second $x$ is a placeholder for "every number".
-For $x = 4$ the claim is true, and for $x = 5$ it is false, since $5$ is not even.
+The first $x$ is the number we ask about, and the second $x$ is a placeholder for "every number".
+For $x = 4$ the claim is true, and for $x = 5$ it is false.
 
 ### L2 human
 
-We check that renaming the bound $x$ changes nothing, in the structure $\mathbb{N}$ with $P$ = "even" and $Q$ = "at least $0$".
-
-1. The formula $\forall x \, Q(x)$ is a sentence, and it is true in this structure, since every natural number is at least $0$.
-2. The formula $\forall z \, Q(z)$ is also a sentence, and it is true for the same reason.
-3. So $\varphi$ and $P(x) \land \forall z \, Q(z)$ both say "$x$ is even", and they are true for the same values of $x$.
-
-The typical use of this renaming is a preparation step before a substitution or before a [[prenex normal form|CS82V969DE]].
-The trap: pulling $\forall x$ to the front of $\varphi$ without renaming gives $\forall x \, (P(x) \land Q(x))$, which captures the free $x$.
+We check, with the same reading in $\mathbb{N}$, that renaming the bound $x$ changes nothing.
+The formula $\forall x \, Q(x)$ is a sentence, and it is true, since every natural number is at least $0$.
+The formula $\forall z \, Q(z)$ is a sentence, true for the same reason.
+So $\varphi$ and $P(x) \land \forall z \, Q(z)$ both reduce to "$x$ is even", and they hold for the same values of $x$.
+Now compare the wrong move $\forall x \, (P(x) \land Q(x))$: it says that every number is even, which is false, so it is not equivalent to $\varphi$ at $x = 4$.

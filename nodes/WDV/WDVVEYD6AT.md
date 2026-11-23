@@ -21,94 +21,120 @@ same_as:
 
 ## Summary
 
-A signature lists the non-logical symbols of a first-order language: function symbols, relation symbols and constant symbols, each with its [[arity|MSXX2P86CY]].
-It fixes what one can talk about, before any axioms are chosen.
-Terms, formulas and [[structures|983GZBQYT4]] are always taken over a given signature.
-Other names are vocabulary, similarity type and language, and in Mathlib it is called a first-order language.
+A signature is the list of special symbols that a first-order language may use, each with the number of inputs it takes.
+For ordered fields the list is
+$$\{ +, \cdot, -, 0, 1, < \},$$
+where $+$ and $\cdot$ take two inputs, $-$ takes one, $0$ and $1$ take none, and $<$ is a relation of two inputs.
+With these symbols you can write $x \cdot (y + 1)$ and $0 < x$, but not $\sqrt{x}$ or $x \le y$, since those symbols are not on the list.
+
+Exactly, a [[signature|PWHJZYBNEY]] $\sigma$ consists of a set of function symbols and a disjoint set of relation symbols, together with an [[arity|MSXX2P86CY]] in $\{ 0, 1, 2, \dots \}$ for each symbol.
+A function symbol of arity $0$ is a constant symbol.
+The signature holds only the non-logical symbols: the variables, connectives, quantifiers, parentheses and the equality symbol are logical, and every language has them.
+Terms, formulas and [[structures|983GZBQYT4]] are always taken over a fixed signature.
 
 ## Motivation
 
-The same set $\mathbb{Z}$ can be studied as a group, as a ring or as an ordered set.
-Each view uses different symbols, and so different statements are possible.
-In the signature $\set{<}$ the sentence $\forall x \, \exists y \, (x < y)$ makes sense, but the sentence $\forall x \, (x \cdot 1 = x)$ does not.
-The signature makes this choice explicit.
-It also lets one state results for all languages at once, such as the [[compactness theorem|1NR3HAWG9D]].
+The same set $\mathbb{Z}$ can be studied as an ordered set, as a group or as a ring.
+Each view uses different symbols, so different statements make sense.
+In the signature $\{ < \}$ the sentence $\forall x \, \exists y \, (x < y)$ makes sense, but $\forall x \, (x \cdot 1 = x)$ does not, because $\cdot$ and $1$ are missing.
+The signature makes this choice explicit before any axioms are written.
+
+Fixing the symbols first also lets us state results for all languages at once.
+The [[compactness theorem|1NR3HAWG9D]] and the [[Löwenheim-Skolem theorem|484M0TZ1S7]] hold for every signature, with the size of the signature as a parameter.
+Many proofs work by changing the signature, for example by adding new constants, so the notion returns throughout logic.
 
 ## Notation
 
-1. A signature is written $\sigma$, $\tau$, $L$ or $\mathcal{L}$. This site writes $\sigma$, and "$\sigma$-term" and "$\sigma$-formula" for the terms and formulas over $\sigma$.
-2. The arity of a symbol $s$ is $\operatorname{ar}(s)$. Arities are often listed in order, for example "$\set{+, \cdot, 0}$ with arities $2, 2, 0$".
-3. Some books write a signature as a tuple of arities, such as $(2, 2, 1, 0, 0)$ for rings.
-4. In Mathlib a signature is `FirstOrder.Language`, a pair of families `Functions n` and `Relations n` of symbols indexed by the arity $n$.
+Books write $\sigma$, $\tau$, $L$ or $\mathcal{L}$, and we write $\sigma$, with "$\sigma$-term" and "$\sigma$-formula" for the terms and formulas over $\sigma$.
+Other names are vocabulary, similarity type and language.
+The arity of a symbol $s$ is $\operatorname{ar}(s)$, and arities are often listed in order, as in "$\{ +, \cdot, 0 \}$ with arities $2, 2, 0$".
+In Mathlib a signature is `FirstOrder.Language`, with families `Functions n` and `Relations n` of symbols indexed by the arity $n$.
 
 ## Remarks
 
-### Examples
+### Reading a signature
 
-1. The signature of rings is $\set{+, \cdot, -, 0, 1}$ with arities $2, 2, 1, 0, 0$.
-2. The signature of ordered sets is $\set{<}$, with one binary relation symbol.
-3. The signature of set theory is $\set{\in}$, with one binary relation symbol.
-4. The signature of graphs is $\set{E}$, with one binary relation symbol for adjacency.
-5. [[Groups in two signatures|CBKC2DMXEQ]]: $\set{\cdot, e, {}^{-1}}$ and $\set{\cdot}$ give the same groups, but different substructures.
-6. [[A constant for each real number|Z5YZ05NYDR]] gives an uncountable signature, used to describe $\mathbb{R}$ inside its own language.
-7. The empty signature has no symbols. Its formulas are built from equations $x = y$ alone, and they talk only about the number of elements.
-8. More examples are on the page of [[standard first-order languages|CG8FE46WJC]].
+Take the ring signature $\{ +, \cdot, -, 0, 1 \}$ with arities $2, 2, 1, 0, 0$.
+It has five function symbols, two of them constants, and no relation symbols.
+So every atomic formula over it is an equation, such as $x \cdot (y + z) = x \cdot y + x \cdot z$.
+The order signature $\{ < \}$ is the opposite case: one binary relation symbol and no function symbols, so the only terms are the variables.
+The signatures of set theory, $\{ \in \}$, and of graphs, $\{ E \}$, also have a single binary relation symbol.
+The empty signature has no symbols at all, and its formulas are built from equations $x = y$ alone, so they can talk only about how many elements there are.
+More languages are collected in [[standard first-order languages|CG8FE46WJC]].
 
-### Non-examples
+### One structure, two signatures
 
-1. [[One symbol for unary and binary minus|YG6J9BDB67]] is not a signature: each symbol has exactly one arity, and the double use destroys unique readability.
-2. "A binary operation $\cdot$ that is associative" is not a signature. Associativity is an axiom, and a signature holds only symbols and arities.
-3. The equality symbol $=$ is not part of a signature in most books. It is a logical symbol, with a fixed meaning in every structure.
-4. The set $\set{+, \cdot}$ without arities is not a signature. The same letter $+$ could be binary in one language and ternary in another.
+Groups can be described in $\{ \cdot, e, {}^{-1} \}$ or in $\{ \cdot \}$ alone, as in [[groups in two signatures|CBKC2DMXEQ]].
+Both give the same groups, but not the same substructures.
+In $\{ \cdot \}$ the set $\mathbb{N}$ is a substructure of $(\mathbb{Z}, +)$, since it is closed under $+$, yet it is not a subgroup.
+In the larger signature a substructure must also contain the value of $e$ and be closed under ${}^{-1}$, so it is a subgroup.
 
-### Basic properties
+A signature can also be very large.
+[[A constant for each real number|Z5YZ05NYDR]] gives an uncountable signature, which lets $\mathbb{R}$ name all of its own elements.
 
-1. When $\sigma$ is countable, there are countably many $\sigma$-terms and $\sigma$-formulas. In general there are $\max(\abs{\sigma}, \aleph_0)$ of each.
-2. When $\sigma \subseteq \sigma'$, every $\sigma$-formula is a $\sigma'$-formula. A $\sigma'$-structure gives a $\sigma$-structure by forgetting the extra symbols, its reduct, and $\sigma$-formulas have the same truth in both.
-3. Every signature can be replaced by a relational one: a function symbol $f$ of arity $n$ becomes a relation symbol $R_f$ of arity $n + 1$ for the graph of $f$.
-4. The substructures and the homomorphisms of structures depend on the signature, not only on the underlying sets.
+### What a signature is not
+
+[[One symbol for unary and binary minus|YG6J9BDB67]] is not a signature, because each symbol has exactly one arity.
+"A binary operation $\cdot$ that is associative" is not a signature either: associativity is an axiom, and a set of axioms over $\sigma$ is a [[first-order theory|92SWXST1ZM]].
+The bare set $\{ +, \cdot \}$ is not a signature until the arities are given, since the letter $+$ could be binary in one language and ternary in another.
+And $=$ is not in the signature in most books, because it is a logical symbol with a fixed meaning.
+
+### The first facts
+
+When $\sigma$ is countable, there are countably many $\sigma$-terms and $\sigma$-formulas; in general there are $\max(|\sigma|, \aleph_0)$ of each.
+When $\sigma \subseteq \sigma'$, every $\sigma$-formula is a $\sigma'$-formula.
+A $\sigma'$-structure becomes a $\sigma$-structure, its reduct, when we forget the extra symbols, and $\sigma$-formulas are true in the same places in both.
+Every signature can be made relational: a function symbol $f$ of arity $n$ becomes a relation symbol $R_f$ of arity $n + 1$ for the graph of $f$.
+
+### Watch out
+
+A symbol and its meaning are two different things.
+The symbol $+$ is a mark in $\sigma$, and addition on $\mathbb{Z}$ is one meaning for it among many.
+In the structure $(\{ 0, 1 \}, +)$ with $+$ read as addition modulo $2$, the term $1 + 1$ has the value $0$.
+So a question such as "is $1 + 1 = 2$ true?" has no answer until a structure is chosen.
 
 ### History
 
-Birkhoff's paper of 1935 on abstract algebras studied algebras through their operations and arities, which universal algebra calls the type of an algebra.
-Model theory, built by Tarski and others in the 1950s, extended the idea to relation symbols, and some books call a signature a similarity type.
-The word "signature" became standard later, and finite model theory often says "vocabulary".
+Birkhoff's paper of 1935 on abstract algebras described an algebra by its operations and their arities, which universal algebra calls the type of the algebra.
+Model theory later added relation symbols to this data, and the name "similarity type" comes from that tradition.
 
-### Common errors
+### Try it
 
-1. A student treats a symbol and its interpretation as the same thing. The symbol $+$ is a mark in $\sigma$, and addition on $\mathbb{Z}$ is one possible meaning for it.
-2. A student puts axioms into the signature. A signature has no axioms, and a set of axioms over $\sigma$ is a [[first-order theory|92SWXST1ZM]].
-3. A student assumes that a group in the signature $\set{\cdot}$ has the same substructures as in $\set{\cdot, e, {}^{-1}}$. It does not, as the example of [[groups in two signatures|CBKC2DMXEQ]] shows.
+Which of these are terms over the ring signature: $x + 1$, $-(x \cdot y)$, $x < 1$?
+The first two are terms; $x < 1$ uses a relation symbol that the ring signature lacks.
+
+How many relation symbols does the signature of ordered fields have?
+Exactly one, the symbol $<$; the other five symbols are function symbols, and two of them are constants.
 
 ## Explanations
 
 ### L1 human
 
-Before writing axioms for groups, one has to say which symbols are allowed.
-For groups, one may take a binary symbol $\cdot$, a unary symbol ${}^{-1}$ and a constant $e$.
-This list of symbols with their numbers of arguments is the signature.
-The axioms, such as associativity, come later and are not part of the signature.
-For example, $x \cdot e$ uses only allowed symbols, but $x + e$ does not, because $+$ is not in the list.
+Before writing rules for a game, you list the pieces you may use.
+A signature is that list for a mathematical language.
+For groups, one may take a symbol $\cdot$ that joins two things, a symbol ${}^{-1}$ that acts on one thing, and a constant $e$.
+The rules of groups, such as associativity, come later and are not part of the list.
+For example, $x \cdot e$ uses only listed symbols, but $x + e$ does not, because $+$ is not on the list.
 
 ### L2 human
 
-We replace the function symbol $\cdot$ of groups by a relation symbol, as in property 3.
-
-1. Let $M$ be a ternary relation symbol, and read $M(x, y, z)$ as "$x \cdot y = z$".
-2. One axiom says that $M$ is the graph of a function: $\forall x \, \forall y \, \exists z \, (M(x, y, z) \land \forall w \, (M(x, y, w) \to w = z))$.
-3. The term $x \cdot (y \cdot z)$ has no direct translation, because the new signature has no function symbols.
-4. The equation $x \cdot (y \cdot z) = w$ becomes $\exists u \, (M(y, z, u) \land M(x, u, w))$, with a new variable $u$ for the inner value.
-5. Each formula over $\set{\cdot}$ translates in this way, and the translation has the same truth in each group.
-
-The typical use of relational signatures is in finite model theory and in proofs where terms get in the way.
-A trap: without the axiom of step 2, a structure for $\set{M}$ need not come from any binary operation.
+We replace the function symbol $\cdot$ of groups by a relation symbol, as in the last of the first facts.
+Let $M$ be a ternary relation symbol, and read $M(x, y, z)$ as "$x \cdot y = z$".
+One axiom says that $M$ is the graph of a function:
+$$\forall x \, \forall y \, \exists z \, \big(M(x, y, z) \land \forall w \, (M(x, y, w) \to w = z)\big).$$
+The new signature has no function symbols, so the term $x \cdot (y \cdot z)$ has no direct translation.
+Instead, the equation $x \cdot (y \cdot z) = w$ becomes
+$$\exists u \, \big(M(y, z, u) \land M(x, u, w)\big),$$
+with a new variable $u$ for the inner value $y \cdot z$.
+Check in $(\mathbb{Z}, +)$ with $x = 1$, $y = 2$, $z = 3$: then $u = 5$ and $w = 6$, and indeed $1 + (2 + 3) = 6$.
+Every formula over $\{ \cdot \}$ translates in this way, with the same truth in every group.
+Relational signatures are common in finite model theory and in proofs where terms get in the way.
+Watch out: without the graph axiom, a structure for $\{ M \}$ need not come from any binary operation.
 
 ### L3 human
 
-A signature is the data of a first-order language, and the logic itself is the same for all signatures.
-This uniformity lets model theory state the compactness and the [[Löwenheim-Skolem theorem|484M0TZ1S7]] once, with the size of the signature as a parameter.
-Many proofs change the signature: Henkin's proof of completeness adds new constants, Skolemization adds function symbols, and a Morleyization adds one relation symbol per formula.
-The elementary diagram of a structure $\mathcal{M}$ uses the signature $\sigma$ with one new constant for each element of $M$.
-In Mathlib this expansion is `FirstOrder.Language.withConstants`, written `L[[A]]`.
-[[Many-sorted logic|7TDHDN8P96]] uses signatures that also list the sorts, and each symbol has a sort for each argument and for its value.
-In categorical logic a signature generates a free category of terms, and a theory over it gives a Lawvere theory or a hyperdoctrine.
+A signature is the data of a first-order language, and the logic itself is the same for every signature.
+Many proofs change the signature on purpose: Henkin's proof of completeness adds new constants, Skolemization adds function symbols, and Morleyization adds one relation symbol for each formula.
+The elementary diagram of a structure $\mathcal{M}$ uses $\sigma$ with one new constant for each element of $M$; in Mathlib this expansion is `FirstOrder.Language.withConstants`, written `L[[A]]`.
+[[Many-sorted logic|7TDHDN8P96]] uses signatures that also list sorts, so that each symbol has a sort for each argument and for its value.
+In categorical logic a purely functional signature with equational axioms gives a Lawvere theory, and its models are product-preserving functors into sets.
