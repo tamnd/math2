@@ -15,35 +15,43 @@ sources:
 
 ## Example
 
-Let $V = \set{0, \dots, m - 1}$ with $m \ge 2$, and consider $\max$ on $V$.
+Let $V = \{0, \dots, m - 1\}$ with $m \ge 2$, and consider the operation $\max$ on $V$.
+We show that it is not a [[Sheffer function|6KFS240R42]].
 
-1. Claim: every term $t(x_1, \dots, x_n)$ in $\max$ satisfies $t(a, \dots, a) = a$ for all $a \in V$. We use structural induction on $t$.
-2. A variable $x_i$ gives $a$ at $(a, \dots, a)$.
-3. If $t = \max(t_1, t_2)$ and both $t_i$ give $a$, then $t$ gives $\max(a, a) = a$.
-4. The [[Sheffer function|6KFS240R42]] property needs the operation $g(x) = S x = x + 1 \bmod m$ as a term.
-5. But $g(0) = 1 \ne 0$, so $g$ is not idempotent, and by step 1 it is not a term in $\max$.
+1. We claim that every term $t(x_1, \dots, x_n)$ in $\max$ satisfies $t(a, \dots, a) = a$ for all $a \in V$.
+   We prove it by induction on the build of $t$.
+2. A variable $x_i$ takes the value $a$ at $(a, \dots, a)$, so the claim holds for variables.
+3. Let $t = \max(t_1, t_2)$, where $t_1$ and $t_2$ both take the value $a$ at $(a, \dots, a)$.
+   Then $t$ takes the value $\max(a, a) = a$ there, so the claim holds for $t$.
+4. A Sheffer function would generate the shift $g(x) = x + 1 \bmod m$.
+5. But $g(0) = 1 \ne 0$, so $g$ fails the property of step 1, and it is not a term in $\max$.
 
 So $\max$ is not a Sheffer function on $V$.
 
 ## Remarks
 
-1. The same argument shows that $\min$ is not a Sheffer function, and that $\set{\max, \min}$ is not complete.
-2. Adding the shift "$+1 \bmod m$" after $\max$ gives Webb's function, which is a Sheffer function.
-3. Every idempotent operation fails for the same reason; a Sheffer function must move some constant tuple.
+The argument uses one property, "equal inputs give back the same value", and checks that composition keeps it.
+The same argument shows that $\min$ is not a Sheffer function, and that even the pair $\{\max, \min\}$ is not complete.
+Every idempotent operation fails in the same way, so a Sheffer function must move at least one constant tuple $(a, \dots, a)$.
+
+A small change repairs the failure.
+Adding the shift after $\max$ gives Webb's function $\max(x, y) + 1 \bmod m$, which moves every constant tuple, and it is a Sheffer function by [[Webb's theorem|EPSBDVPKJP]].
+So the step up, and the wrap-around from $m - 1$ to $0$, carry all the extra power.
 
 ## Explanations
 
 ### L1 human
 
 If all inputs are equal, the maximum returns that same value.
-Any formula built from maximum does the same.
+Any formula built from the maximum does the same.
 So it can never turn $0$ into $1$, and it cannot build every table.
 
 ### L2 human
 
-1. Find a property that the operation has, here "equal inputs give the same output".
-2. Show that composition keeps the property.
-3. Exhibit an operation without the property.
-
-The typical use is this preservation argument for incompleteness.
-A trap: the property must survive composition; "takes all values" does not, so it cannot replace idempotence here.
+The proof is a preservation argument, and it has three moves.
+First find a property that the operation has, here "equal inputs give the same output".
+Then show that composition keeps the property, as in steps 2 and 3.
+Finally exhibit an operation without the property, here the shift.
+This is the standard way to prove that a set of operations is incomplete.
+Watch out: the property must survive composition.
+"Takes all values" does not: exclusive or on $\{0, 1\}$ takes both values, but its composite $x \oplus x$ is the constant $0$.

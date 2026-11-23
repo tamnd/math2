@@ -19,19 +19,26 @@ sources:
 
 Let $\vdash$ be classical consequence on the formulas in $\neg, \land, \lor, \to$.
 By the [[completeness theorem|81ZNY1XKYJ]], $\mathrm{Cn}(\emptyset)$ is the set of classical [[tautologies|05006AJ7DZ]].
-Consider the Lindenbaum matrices $M_0 = \langle \mathrm{Fm}, \mathrm{Cn}(\emptyset) \rangle$ and $M_1 = \langle \mathrm{Fm}, \mathrm{Cn}(\set{p}) \rangle$.
+Consider the two Lindenbaum matrices $M_0 = \langle \mathrm{Fm}, \mathrm{Cn}(\emptyset) \rangle$ and $M_1 = \langle \mathrm{Fm}, \mathrm{Cn}(\{p\}) \rangle$.
 
-1. $M_0$ is a logical matrix: $\mathrm{Fm}$ is an algebra with the connectives as operations, and $\mathrm{Cn}(\emptyset) \subseteq \mathrm{Fm}$.
-2. A valuation in $M_0$ is a substitution $\sigma$. The formula $q \to q$ is a tautology of $M_0$, since $\sigma(q \to q) = \sigma(q) \to \sigma(q)$ is a classical tautology.
-3. The formula $p$ is not a tautology of $M_0$: the identity valuation gives $p$, and $p \notin \mathrm{Cn}(\emptyset)$, since the valuation $p \mapsto 0$ refutes it.
-4. In $M_1$ the identity valuation designates $p$, since $p \in \mathrm{Cn}(\set{p})$.
-5. It does not designate $q$: the classical valuation $p \mapsto 1$, $q \mapsto 0$ shows $p \nvdash q$. So $p \not\models_{M_1} q$, which agrees with $p \nvdash q$.
+1. $M_0$ is a logical matrix, because $\mathrm{Fm}$ is an algebra with the connectives as operations and $\mathrm{Cn}(\emptyset) \subseteq \mathrm{Fm}$.
+2. A valuation in $M_0$ is a homomorphism $\mathrm{Fm} \to \mathrm{Fm}$, that is, a substitution $\sigma$.
+   The formula $q \to q$ is a tautology of $M_0$, since $\sigma(q \to q) = \sigma(q) \to \sigma(q)$ is a classical tautology for every $\sigma$.
+3. The formula $p$ is not a tautology of $M_0$.
+   The identity substitution sends $p$ to $p$, and $p \notin \mathrm{Cn}(\emptyset)$, since the classical valuation $p \mapsto 0$ refutes it.
+4. In $M_1$ the identity substitution designates $p$, because $p \in \mathrm{Cn}(\{p\})$.
+5. The same substitution does not designate $q$, since the classical valuation $p \mapsto 1$, $q \mapsto 0$ shows $p \nvdash q$.
+   So $p \not\models_{M_1} q$, which agrees with $p \nvdash q$.
 
 ## Remarks
 
-The example shows the two parts of [[the theorem on Lindenbaum matrices|VWJVAS3VE3]]: $M_0$ captures the theorems, and the family of all $\langle \mathrm{Fm}, T \rangle$ captures the consequence relation.
+The example shows the two parts of [[the theorem on Lindenbaum matrices|VWJVAS3VE3]].
+The single matrix $M_0$ captures the theorems, and the family of all $\langle \mathrm{Fm}, T \rangle$ with $T$ closed captures the consequence relation.
 The matrix $M_0$ is infinite, and its values are formulas, not numbers.
-Its quotient by classical equivalence is the Lindenbaum-Tarski algebra, a Boolean algebra; replacing classical logic by $\mathrm{Ł}_3$ gives in the same way an MV-algebra that satisfies the equations of the three-element MV-chain; this algebra is infinite, so it is not three-valued.
+
+If you identify classically equivalent formulas in $M_0$, you get the [[Lindenbaum-Tarski algebra|QC9M3Q8B8Q]], a Boolean algebra, with the single designated element $1$.
+Change classical logic to $\mathrm{Ł}_3$ and the same quotient is an MV-algebra that satisfies all equations of the three-element MV-chain.
+That algebra is infinite when there are infinitely many variables, so the Lindenbaum matrix is not the three-valued matrix of $\mathrm{Ł}_3$, although it gives the same logic.
 
 ## Explanations
 
@@ -40,13 +47,12 @@ Its quotient by classical equivalence is the Lindenbaum-Tarski algebra, a Boolea
 Here the "truth values" are the formulas themselves.
 The "true" values are the formulas that can be proved.
 A formula is a law of this matrix when every way of filling in its letters gives a provable formula.
-For classical logic, these are exactly the classical laws.
+For classical logic these are exactly the classical laws.
 
 ### L2 human
 
-1. To test $p \lor \neg p$ in $M_0$, substitute any formula $\alpha$ for $p$.
-2. The result $\alpha \lor \neg \alpha$ is a classical tautology, so it lies in $\mathrm{Cn}(\emptyset)$.
-3. Hence $p \lor \neg p$ is a tautology of $M_0$.
-
-The typical use is in the proof that every structural logic has a matrix semantics.
-A trap: the valuations of $M_0$ are substitutions, not maps into $\set{0, 1}$.
+To test $p \lor \neg p$ in $M_0$, substitute any formula $\alpha$ for $p$.
+The result $\alpha \lor \neg \alpha$ is a classical tautology, so it lies in $\mathrm{Cn}(\emptyset)$.
+Since $\alpha$ was arbitrary, $p \lor \neg p$ is a tautology of $M_0$.
+The typical use of such matrices is in the proof that every structural logic has a matrix semantics.
+Watch out: the valuations of $M_0$ are substitutions, not maps into $\{0, 1\}$.
