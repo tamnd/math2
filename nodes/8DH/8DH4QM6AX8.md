@@ -17,91 +17,128 @@ sources:
 
 ## Summary
 
-*Fuzzy logic* has two uses.
-In the narrow sense, *mathematical fuzzy logic*, it is a family of [[many-valued logics|DWYCKAKXZD]] with truth values in $[0, 1]$, read as degrees of truth.
-These logics have truth-functional connectives, a consequence relation, proof systems and completeness theorems.
-In the broad sense, used in engineering, "fuzzy logic" names methods for computing with degrees, such as fuzzy control and fuzzy classification.
-These methods do not define a consequence relation.
+Suppose "Ann is tall" is true to degree $0.7$ and "Ann is rich" is true to degree $0.4$.
+How true is "Ann is tall and rich"?
+Fuzzy logic answers such questions with exact rules, and then asks which conclusions follow from premises that are only partly true.
+
+The name has two uses, and they must be kept apart.
+In the narrow sense, *mathematical fuzzy logic* is a family of [[many-valued logics|DWYCKAKXZD]] with truth values in $[0, 1]$, read as degrees of truth.
+Each such logic has truth-functional connectives, a consequence relation that preserves the value $1$, a proof system and completeness theorems.
+In the broad sense, used in engineering, "fuzzy logic" names methods that compute with degrees, such as fuzzy control and fuzzy classification.
+These methods compute outputs, and they define no consequence relation.
 
 ## Motivation
 
-Many predicates are vague: "tall", "young", "huge".
+Many predicates are vague: "tall", "young", "huge", "warm".
 For a vague predicate there is no sharp line between the cases where it applies and the cases where it does not.
-Fuzzy logic gives such statements intermediate degrees of truth, and computes the degree of a compound statement from the degrees of its parts.
-SEP describes the sorites paradox as the main test case: see [[the sorites example|EP8J937EQC]].
+If one centimeter never turns a tall person into a person who is not tall, then by many small steps a short person is tall.
+This is the sorites paradox, and it is the main test case for any logic of vagueness.
+
+Fuzzy logic gives vague statements intermediate degrees and computes the degree of a compound statement from the degrees of its parts.
+The sorites argument then loses a little truth at each step, as [[the sorites example|EP8J937EQC]] shows in numbers.
+The same machinery returns throughout the later pages on t-norm logics: [[triangular norms|VR6D8JXX1W]] interpret "and", their residua interpret "if then", and [[Hájek's basic logic BL|3AQ5GHTXA4]] collects the laws that all continuous t-norms share.
 
 ## Notation
 
 The truth values are $[0, 1]$, with $0$ for "totally false" and $1$ for "totally true".
 The weak connectives are $x \land y = \min(x, y)$ and $x \lor y = \max(x, y)$.
-In mathematical fuzzy logic, the strong conjunction is a [[t-norm|BHGCVPAJW0]] $*$, written $\&$ in SEP and $\otimes$ or $\odot$ elsewhere.
-Implication is the residuum $\Rightarrow_*$ of the t-norm, and $\neg x = x \Rightarrow_* 0$.
-The consequence relation preserves the value $1$.
+The strong conjunction is a [[t-norm|BHGCVPAJW0]] $*$, and books write it as $\&$, $\otimes$ or $\odot$; we write $\otimes$ in general and $\odot$ for the Łukasiewicz t-norm.
+Implication is the residuum $\Rightarrow_*$ of the t-norm, and negation is $\neg x = x \Rightarrow_* 0$.
+Watch the two conjunctions: $\land$ is always the minimum, while $\otimes$ changes with the logic.
 
 ## Remarks
 
-### Examples
+### Three answers for one conjunction
 
-1. [[Łukasiewicz logic|NFCEM44XYH]]: the t-norm $\max(0, x + y - 1)$ and the implication $\min(1, 1 - x + y)$.
-2. Gödel logic: the t-norm $\min$; its implication is $1$ if $x \le y$, else $y$.
-3. [[Product logic|YTHRDT9PDR]]: the t-norm $x \cdot y$; its implication is $1$ if $x \le y$, else $y / x$.
-4. [[Hájek's basic logic BL|3AQ5GHTXA4]], the logic of all continuous t-norms.
-5. [[MTL|PT5PHKJDYM]], the logic of all left-continuous t-norms, which SEP calls the weakest logic of this kind.
-6. Logics with truth constants, such as [[Pavelka logic|YG62F8YC0P]].
+Return to Ann, with degrees $x = 0.7$ and $y = 0.4$.
+The three basic t-norms give three answers.
 
-### Non-examples
+$$\min(0.7, 0.4) = 0.4, \qquad 0.7 \cdot 0.4 = 0.28, \qquad \max(0, 0.7 + 0.4 - 1) = 0.1.$$
 
-1. A fuzzy controller, such as the Mamdani method: it maps numbers to numbers through rules, and it has no consequence relation; see [[the fuzzy control non-example|N9XZ3WAC2C]].
-2. [[Probability logic|Z2WRGJDRQT]]: the probability of $\varphi \land \psi$ is not a function of the probabilities of $\varphi$ and $\psi$, so it is not truth-functional.
-3. [[Fuzzy set theory|GV9NVFFFXF]] alone: a fuzzy set is a membership function, and it is a set-theoretic object, not a logic.
+The first is Gödel logic, the second is [[product logic|YTHRDT9PDR]], and the third is [[Łukasiewicz logic|NFCEM44XYH]].
+Each logic picks one rule and keeps it, so each has its own laws.
+In Łukasiewicz logic the implication is $\min(1, 1 - x + y)$, so "if tall then rich" gets the value $0.7$.
 
-### Basic properties
+Check: $1 - 0.7 + 0.4 = 0.7$, which is below $1$.
 
-1. On the values $0$ and $1$ the connectives behave classically, as SEP states.
-2. Excluded middle $\varphi \lor \neg \varphi$ is not a tautology under any t-norm interpretation, according to SEP.
-3. Strong conjunction implies weak conjunction, but not conversely: $\varphi \mathbin{\&} \psi \to \varphi \land \psi$ is valid in MTL, and its converse is not.
-4. Each left-continuous t-norm has a unique residuum, and SEP gives the residua of the three basic t-norms.
-5. In Łukasiewicz and Gödel logic, deciding validity is coNP-complete, as in classical logic.
+### Laws that change with the logic
+
+Consider double negation, $\neg \neg p \to p$, at $p = \tfrac12$.
+In Łukasiewicz logic $\neg x = 1 - x$, so $\neg \neg \tfrac12 = \tfrac12$ and the implication has value $1$.
+In Gödel logic $\neg x = 0$ for every $x > 0$, so $\neg \neg \tfrac12 = 1$, and the implication is $1 \to \tfrac12 = \tfrac12$.
+So double negation is a Łukasiewicz law and not a Gödel law, as [[the double negation example|XXVXP0S5Q0]] works out.
+
+Some laws fail in every such logic.
+Excluded middle $p \lor \neg p$ gets a value below $1$ at every $p$ strictly between $0$ and $1$.
+The reason is that $p \Rightarrow_* 0 = 1$ only when $p = 0$, so both disjuncts are below $1$.
+On the values $0$ and $1$, all these connectives agree with the classical truth tables.
+
+### A family, not one logic
+
+Every residuated t-norm gives a logic, and the main ones sit in a chain of extensions.
+[[MTL|PT5PHKJDYM]] is the logic of all left-continuous t-norms.
+BL adds divisibility and is the logic of all continuous t-norms.
+Łukasiewicz, Gödel and product logic each add one more axiom to BL.
+Strong conjunction implies weak conjunction in all of them, since $x * y \le \min(x, y)$ for every t-norm, but the converse fails.
+Logics with truth constants, such as [[Pavelka logic|YG62F8YC0P]], add a constant for each rational degree.
+For the decision problem, Mundici proved in 1987 that the Łukasiewicz tautologies are coNP-complete, the same complexity as classical logic.
+
+### What it is not
+
+A fuzzy controller is not a logic in the narrow sense.
+It reads numbers, fires rules with degrees and returns a number, and nowhere does it ask which formulas follow from which premises; [[the fan controller|N9XZ3WAC2C]] computes one in full.
+[[Probability logic|Z2WRGJDRQT]] is not fuzzy logic either.
+Two events of probability $\tfrac12$ can have a conjunction of probability $0$, $\tfrac14$ or $\tfrac12$, so probability is not truth-functional.
+A [[fuzzy set|GV9NVFFFXF]] alone is a membership function, a set-theoretic object, and it carries no consequence relation.
+
+### Watch out
+
+The trap named most often is to read "fuzzy logic" in an engineering text as a logic with theorems.
+When a question asks about completeness, tautologies or proofs, it is about the narrow sense.
+A second trap is to take $\min$, $\max$ and $1 - x$ as the whole logic.
+With designated value $1$, these three connectives give no tautologies at all.
+Every formula built from them gets the value $\tfrac12$ when all its variables get $\tfrac12$, since $\min$, $\max$ and $1 - x$ all send $\tfrac12$ to $\tfrac12$.
 
 ### History
 
-SEP and Wikipedia state that the term comes from Zadeh's fuzzy sets of 1965.
-Wikipedia notes that infinite-valued logic had been studied since the 1920s by Łukasiewicz and Tarski.
-SEP attributes the semantics with $\min$, $\max$ and $1 - x$ to Goguen (1975).
-The narrow sense became a discipline of mathematical logic after Hájek's monograph of 1998, according to SEP.
+Zadeh introduced fuzzy sets in 1965, and the name "fuzzy logic" comes from them.
+Infinite-valued logic is older: Łukasiewicz and Tarski published a study of the Łukasiewicz logics in 1930.
+Hájek's monograph *Metamathematics of Fuzzy Logic* of 1998 made the narrow sense a branch of mathematical logic.
+It introduced BL and treated the three basic t-norm logics in propositional and first-order form.
 
-### Common errors
+### Try it
 
-1. Reading engineering fuzzy logic as a logic.
-   A fuzzy controller computes an output; it does not say which conclusions follow from which premises.
-2. Taking $\min$, $\max$ and $1 - x$ as the whole logic.
-   With designated value $1$ these connectives give no tautologies, since every formula has value $\tfrac12$ when all variables have value $\tfrac12$.
-3. Confusing degrees of truth with probabilities.
-   A degree is truth-functional, and a probability is not.
-4. Assuming a single fuzzy logic.
-   Each choice of t-norm gives a different logic, with different tautologies.
+First, compute "tall and rich" for Ann in the three basic logics when both degrees are $0.5$.
+The minimum gives $0.5$, the product gives $0.25$, and the Łukasiewicz t-norm gives $\max(0, 0.5 + 0.5 - 1) = 0$.
+
+Second, is $p \to p$ a tautology of every t-norm logic?
+Yes: $x \Rightarrow_* x = 1$, because $x \Rightarrow_* y = 1$ exactly when $x \le y$.
 
 ## Explanations
 
 ### L1 human
 
 In ordinary logic a statement is true or false.
-In fuzzy logic a statement can be true to a degree, like $0.7$.
+In fuzzy logic a statement can be true to a degree, such as $0.7$.
 "Ann is tall" can be more true for a tall person than for a person of middle height.
-Engineers also use the words "fuzzy logic" for controllers in machines, such as washing machines; that is a different thing.
+A fuzzy logic gives rules to combine degrees, for example "and" as the smaller of two degrees.
+Engineers also use the words "fuzzy logic" for controllers in machines, such as washing machines, and that is a different thing.
 
 ### L2 human
 
-To work in a fuzzy logic, first fix the t-norm.
-Then compute the value of each formula from the values of its variables.
-A formula is a tautology if its value is $1$ for all values of the variables.
+We test the formula $p \to (q \to p)$ in Łukasiewicz logic.
+With $x = v(p)$ and $y = v(q)$, the inner implication is $\min(1, 1 - y + x)$, which is at least $x$.
+An implication $a \to b$ has value $1$ when $a \le b$, so the whole formula has value $1$.
+Now test the contraction law $p \to p \odot p$ at $x = 0.5$.
 
-Example: in Łukasiewicz logic, at $p = 0.7$ and $q = 0.4$, $p \mathbin{\&} q = 0.1$ and $p \to q = 0.7$.
-A trap: the tautologies change with the t-norm; $\neg \neg p \to p$ is a Łukasiewicz tautology but not a Gödel tautology.
+$$0.5 \odot 0.5 = \max(0, 0.5 + 0.5 - 1) = 0, \qquad 0.5 \to 0 = \min(1, 1 - 0.5 + 0) = 0.5.$$
+
+So $p \to p \odot p$ is not a Łukasiewicz law, while in Gödel logic, where $\odot$ is replaced by $\min$, it has value $1$.
+This is the typical use of the semantics: to test a law, fix the t-norm and look for values that push the formula below $1$.
 
 ### L3 human
 
-Mathematical fuzzy logic studies these logics as objects of mathematical logic.
-SEP reports that Běhounek and Cintula proposed to define fuzzy logics as logics complete with respect to linearly ordered algebras.
-Under this view, MTL is the base, and BL, Łukasiewicz, Gödel and product logic are its axiomatic extensions.
-The first-order versions behave differently: Gödel logic keeps strong completeness, while the first-order Łukasiewicz tautologies are not recursively axiomatizable; see [[the complexity statement|VAHH1505Z0]].
+Mathematical fuzzy logic studies these logics as objects of algebraic logic.
+Their models are linearly ordered [[residuated lattices|E337A6WVH3]] and their subdirect products, and each of the main logics is complete for its algebras on $[0, 1]$.
+Běhounek and Cintula proposed to call a logic fuzzy when it is complete with respect to linearly ordered algebras, and under this view MTL is the base of the family.
+The first-order versions behave differently from each other: [[first-order Gödel logic|H8C323CV3T]] over $[0, 1]$ is recursively axiomatizable, while the first-order Łukasiewicz tautologies are not, as [[the complexity statement|VAHH1505Z0]] shows.

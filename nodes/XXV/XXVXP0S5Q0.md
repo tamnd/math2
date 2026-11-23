@@ -19,22 +19,26 @@ sources:
 
 In Gödel logic on $[0, 1]$, $x \to y = 1$ if $x \le y$ and $x \to y = y$ otherwise, and $\neg x = x \to 0$.
 In product logic, $x \to y = 1$ if $x \le y$ and $x \to y = y / x$ otherwise, and again $\neg x = x \to 0$.
-Let $v(p) = \tfrac12$.
+We evaluate $\neg \neg p \to p$ at $v(p) = \tfrac12$.
 
-1. In both logics $\neg x = 1$ if $x = 0$ and $\neg x = 0$ if $x > 0$.
-2. $v(\neg p) = 0$, since $\tfrac12 > 0$.
-3. $v(\neg \neg p) = \neg 0 = 1$.
-4. Gödel: $v(\neg \neg p \to p) = 1 \to \tfrac12 = \tfrac12$, since $1 > \tfrac12$.
-5. Product: $v(\neg \neg p \to p) = \tfrac12 / 1 = \tfrac12$.
-6. In [[Łukasiewicz logic|JQ713VVD0G]], $\neg \neg x = x$, so $\neg \neg p \to p$ has value $1$ everywhere.
+1. In both logics $\neg x = 1$ if $x = 0$, and $\neg x = 0$ if $x > 0$.
+2. So $v(\neg p) = 0$, since $\tfrac12 > 0$.
+3. Then $v(\neg \neg p) = \neg 0 = 1$.
+4. In Gödel logic $v(\neg \neg p \to p) = 1 \to \tfrac12 = \tfrac12$, since $1 > \tfrac12$.
+5. In product logic $v(\neg \neg p \to p) = \tfrac12 / 1 = \tfrac12$.
+6. In [[Łukasiewicz logic|JQ713VVD0G]], $\neg \neg x = 1 - (1 - x) = x$, so $\neg \neg p \to p$ has value $1$ everywhere.
 
 So $\neg \neg p \to p$ separates both Gödel and product logic from Łukasiewicz logic.
 
 ## Remarks
 
-1. The negation of Gödel and product logic is the Gödel negation of the [[Gödel chain|BHR2YXEQZT]]: it takes only the values $0$ and $1$.
-2. $\neg p \lor \neg \neg p$ is a tautology of both logics, since one disjunct is always $1$; in Łukasiewicz logic it has value $\tfrac12$ at $p = \tfrac12$.
-3. SEP gives the residua $\min$, product and Łukasiewicz, and notes that the minimum and the product t-norms give the same Gödel negation.
+The negation of Gödel and product logic is the Gödel negation of the [[Gödel chain|BHR2YXEQZT]], and it takes only the values $0$ and $1$.
+The minimum and the product t-norms give the same residual negation, though their implications differ.
+
+The formula $\neg p \lor \neg \neg p$ goes the other way.
+It is a tautology of both logics, since one of its disjuncts is always $1$.
+In Łukasiewicz logic it has value $\max(\tfrac12, \tfrac12) = \tfrac12$ at $p = \tfrac12$.
+So the two formulas together show that neither Łukasiewicz logic nor Gödel logic contains the other.
 
 ## Explanations
 
@@ -46,9 +50,6 @@ Then "not not $p$ implies $p$" fails when $p$ is only half true.
 
 ### L2 human
 
-1. Compute $\neg$ as $x \to 0$ for the residuum of the logic.
-2. Note that it jumps from $1$ to $0$ at $x = 0$.
-3. Evaluate the formula at an intermediate value.
-
-The typical use is to separate the three basic t-norm logics by one formula.
-A trap: the negation $1 - x$ is not the residual negation of the Gödel or product t-norm, so do not mix it in.
+Compute $\neg$ as $x \to 0$ for the residuum of the logic, and note that it jumps from $1$ to $0$ at $x = 0$.
+Then evaluate the formula at an intermediate value, which is the usual way to separate the three basic t-norm logics by one formula.
+Watch out: the negation $1 - x$ is not the residual negation of the Gödel or product t-norm, so do not mix it in.

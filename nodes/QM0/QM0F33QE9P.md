@@ -12,7 +12,7 @@ uses: [JQ713VVD0G, AJNZJD8442]
 proofs: [XDK66G0FSD]
 history:
   first_stated: "Chang 1958"
-  notes: "Wikipedia dates the theorem to Chang's papers of 1958 and 1959."
+  notes: "Chang introduced MV-algebras in 1958 and published the algebraic completeness proof in 1959."
 sources:
   - url: https://en.wikipedia.org/wiki/MV-algebra
     locator: Relation to Łukasiewicz logic
@@ -23,81 +23,89 @@ sources:
 
 ## Statement
 
-An MV-algebra is a structure $\langle A, \oplus, \neg, 0 \rangle$ that satisfies these identities:
+Chang's theorem says that an equation which holds for all numbers in $[0, 1]$ holds in every MV-algebra, so the interval alone decides the equational theory.
 
-1. $(x \oplus y) \oplus z = x \oplus (y \oplus z)$, $x \oplus 0 = x$ and $x \oplus y = y \oplus x$;
-2. $\neg \neg x = x$ and $x \oplus \neg 0 = \neg 0$;
+An *MV-algebra* is a structure $\langle A, \oplus, \neg, 0 \rangle$ that satisfies these identities.
+
+1. $(x \oplus y) \oplus z = x \oplus (y \oplus z)$, $x \oplus 0 = x$ and $x \oplus y = y \oplus x$.
+2. $\neg \neg x = x$ and $x \oplus \neg 0 = \neg 0$.
 3. $\neg(\neg x \oplus y) \oplus y = \neg(\neg y \oplus x) \oplus x$.
 
-The standard MV-algebra is $[0, 1]$ with $x \oplus y = \min(1, x + y)$, $\neg x = 1 - x$ and $0$.
+The *standard MV-algebra* is $[0, 1]$ with $x \oplus y = \min(1, x + y)$, $\neg x = 1 - x$ and the constant $0$.
 
 **Theorem.**
+The following hold.
 
-1. An equation $s = t$ in the language $\oplus, \neg, 0$ holds in the standard MV-algebra iff it holds in every MV-algebra.
+1. An equation $s = t$ in the language $\oplus, \neg, 0$ holds in the standard MV-algebra if and only if it holds in every MV-algebra.
 2. Equivalently, the standard MV-algebra generates the [[variety|AJNZJD8442]] of all MV-algebras.
-3. A formula of [[infinite-valued Łukasiewicz logic|JQ713VVD0G]] is a $[0, 1]$-tautology iff it has value $1$ under every valuation in every MV-algebra.
+3. A formula of [[infinite-valued Łukasiewicz logic|JQ713VVD0G]] is a $[0, 1]$-tautology if and only if it takes the value $1$ under every valuation in every MV-algebra.
 
 ## Remarks
 
-### Why each hypothesis is needed
+### What it gives you
 
-1. Generation is meant in the sense of varieties, not of subalgebras of powers.
-   [[Chang's MV-algebra|8T4M7RN9AC]] has an element $\varepsilon \neq 0$ with $n \varepsilon \le \neg \varepsilon$ for all $n$.
-   In a power of $[0, 1]$ such an element has all coordinates $0$, so Chang's algebra is not a subalgebra of a power of $[0, 1]$.
-2. The algebra $[0, 1]$ cannot be replaced by a finite chain $\set{0, \tfrac{1}{n-1}, \dots, 1}$.
-   That chain satisfies $x \oplus \dots \oplus x = x \oplus \dots \oplus x$ with $n$ and $n - 1$ summands, and $[0, 1]$ does not.
-3. The rational chain $[0, 1] \cap \mathbb{Q}$ can replace $[0, 1]$.
-   The proof gives counterexamples with rational values.
+The theorem turns questions about all MV-algebras into computations with real numbers.
+For example, the prelinearity identity $(x \to y) \lor (y \to x) = 1$, with $x \to y = \neg x \oplus y$, holds in $[0, 1]$.
+There one of $x \le y$ or $y \le x$ is true, so one of the two implications is $1$.
+By the theorem, the identity holds in every MV-algebra, even in algebras that are not chains.
 
-### Consequences
+The main use is completeness for [[Łukasiewicz logic|NFCEM44XYH]].
+The Lindenbaum-Tarski algebra of the Łukasiewicz axioms is an MV-algebra, and a formula that is not provable is not $1$ in it.
+By item 3 the formula then fails in $[0, 1]$, so every $[0, 1]$-tautology is provable.
+The proof also shows that a formula which fails in $[0, 1]$ fails at a rational point, so the non-tautologies can be listed by a search over rational points.
 
-1. Validity in the standard MV-algebra is the same as validity in all MV-algebras, and the same as validity in all linearly ordered MV-algebras.
-2. With the fact that the Lindenbaum-Tarski algebra of the Łukasiewicz axioms is an MV-algebra, item 3 gives the completeness of the axioms of [[Łukasiewicz logic|NFCEM44XYH]] for $[0, 1]$-tautologies.
-3. Wikipedia lists provability, validity in all MV-algebras, validity in all linear MV-algebras and validity in $[0, 1]$ as equivalent conditions, after Hájek 1998.
-4. A formula that is not a tautology fails at a rational point. So the set of tautologies is co-recursively enumerable, which also follows from its decidability.
+### Why the details matter
 
-### Converse
+Generation is meant in the sense of varieties, not as "a subalgebra of a power".
+[[Chang's MV-algebra|8T4M7RN9AC]] has an element $\varepsilon \neq 0$ with $n\varepsilon \le \neg\varepsilon$ for all $n$.
+In a power of $[0, 1]$, each coordinate $e$ of such an element satisfies $ne \le 1 - e$ for all $n$, so $e = 0$.
+So Chang's algebra lies in the variety, but it is not a subalgebra of a power of $[0, 1]$.
 
-The converse direction of item 1 is immediate: $[0, 1]$ is an MV-algebra, so an equation that holds in every MV-algebra holds in $[0, 1]$.
+A finite chain cannot replace $[0, 1]$.
+The chain $\{0, \tfrac{1}{n-1}, \dots, 1\}$ satisfies $(n - 1)x = nx$, because $(n - 1)x$ is already $1$ for every $x \neq 0$.
+In $[0, 1]$ the identity fails at $x = \tfrac1n$, where $(n - 1)x = \tfrac{n-1}{n}$ and $nx = 1$.
+The rational chain $[0, 1] \cap \mathbb{Q}$, on the other hand, can replace $[0, 1]$, because the proof produces rational counterexamples.
+
+### The converse
+
+The direction from all MV-algebras to $[0, 1]$ needs no work, because $[0, 1]$ is an MV-algebra.
 The content of the theorem is the other direction.
 
 ### Generalizations
 
-1. Wikipedia reports Mundici's categorical equivalence between MV-algebras and abelian lattice-ordered groups with strong unit.
-2. For the finite-valued logics, Wikipedia reports that the right algebras are the $\mathrm{MV}_n$-algebras of Grigolia (1977).
-3. SEP gives the analogous completeness of MTL with respect to MTL-chains as the first step to standard completeness, after Jenei and Montagna (2002).
+Mundici showed that MV-algebras are equivalent, as a category, to abelian lattice-ordered groups with a strong unit.
+For the finite-valued logics $\mathrm{Ł}_n$ the corresponding algebras form proper subvarieties, generated by the finite chains.
+The same strategy, chains first and then the real interval, gives standard completeness for [[BL|3AQ5GHTXA4]] and, with more work, for [[MTL|PT5PHKJDYM]].
 
 ## History
 
-Wikipedia states that Chang devised MV-algebras to study many-valued logics and dates his completeness theorem to his papers of 1958 and 1959.
-The first published proof of completeness of the Łukasiewicz axioms, by Rose and Rosser in 1958, was syntactic, according to SEP.
-Chang's proof was algebraic.
-The book of Cignoli, D'Ottaviano and Mundici is a standard modern account.
+Chang introduced MV-algebras in 1958 to study Łukasiewicz logic, and he published the algebraic proof of completeness in 1959.
+Rose and Rosser had published a syntactic proof of the completeness of the Łukasiewicz axioms in 1958.
+The book of Cignoli, D'Ottaviano and Mundici is a standard modern account of the theory.
 
 ## Explanations
 
 ### L1 human
 
-Boolean algebras obey the same equations as the two values $0$ and $1$.
+Boolean algebras obey exactly the equations that hold for the two values $0$ and $1$.
 Chang's theorem says the same thing for MV-algebras and the interval $[0, 1]$.
-If an equation is true for all numbers in $[0, 1]$, then it is true in every MV-algebra.
+If an equation is true for all numbers from $0$ to $1$, then it is true in every MV-algebra.
+So $x \oplus y = y \oplus x$ holds everywhere because $\min(1, x + y) = \min(1, y + x)$.
 
 ### L2 human
 
-We use the theorem to check an MV-algebra identity by a computation with real numbers.
-For example, $x \oplus y = y \oplus x$ is true in $[0, 1]$, so it is true in every MV-algebra.
-A less direct example is the identity $(x \to y) \lor (y \to x) = 1$, which holds in every MV-algebra because $[0, 1]$ is a chain.
-
-A trap: the theorem does not say that every MV-algebra is a subalgebra of a power of $[0, 1]$.
-Chang's MV-algebra is a counterexample, because it has nonzero infinitesimals.
+We use the theorem to decide whether $x \oplus x \oplus x = x \oplus x$ holds in all MV-algebras.
+In $[0, 1]$ the two sides are $\min(1, 3x)$ and $\min(1, 2x)$.
+At $x = 0.4$ they are $1$ and $0.8$, so the equation fails in $[0, 1]$, and it is not an MV-algebra identity.
+Now try $\neg(\neg x \oplus x) = 0$.
+In $[0, 1]$, $\neg x \oplus x = \min(1, 1) = 1$, so the left side is $0$ for every $x$, and the equation holds in every MV-algebra.
+This is the typical use: a calculation with real numbers settles an equation for the whole variety.
+Watch out: the theorem does not say that every MV-algebra embeds in a power of $[0, 1]$; Chang's algebra, with its infinitesimals, does not.
 
 ### L3 human
 
-The proof has three steps.
-First, an equation that fails in an MV-algebra fails in a linearly ordered MV-algebra, by subdirect representation.
-Second, a linearly ordered MV-algebra is an interval $[0, u]$ of a totally ordered abelian group, by Chang's representation.
-Third, the failure involves finitely many linear inequalities with integer coefficients, and these have a rational solution.
-Scale the solution so that $u = 1$, and the equation fails in $[0, 1]$.
-
-The third step is the analytic core.
-Its form explains why McNaughton functions are piecewise linear with integer coefficients.
+The [[proof|XDK66G0FSD]] has three steps.
+An equation that fails in an MV-algebra fails in a linearly ordered one, by subdirect representation.
+A linearly ordered MV-algebra is an interval $[0, u]$ of a totally ordered abelian group.
+The failure is then a finite system of linear inequalities with integer coefficients, which has a rational solution, and scaling gives $u = 1$.
+The last step explains the integer coefficients in [[McNaughton's theorem|E11A9H8Z7Q]], and the group representation leads to Mundici's equivalence.

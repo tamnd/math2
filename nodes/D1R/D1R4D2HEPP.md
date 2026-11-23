@@ -19,52 +19,71 @@ sources:
 
 ## Statement
 
+A t-norm has a matching implication exactly when it has no jumps from below.
+
 Let $*$ be a [[t-norm|BHGCVPAJW0]].
 
-1. $*$ has a residuum $\Rightarrow_*$ iff $*$ is left-continuous.
-2. In that case the residuum is unique, and $x \Rightarrow_* y = \max \set{z \in [0, 1] : z * x \le y}$; the maximum exists.
+1. The t-norm $*$ has a residuum $\Rightarrow_*$ if and only if $*$ is left-continuous.
+2. In that case the residuum is unique, and for all $x, y \in [0, 1]$ it is the maximum shown below.
+   $$x \Rightarrow_* y = \max \{ z \in [0, 1] : z * x \le y \}.$$
 
 ## Remarks
 
 ### Why each hypothesis is needed
 
-1. Left-continuity is needed: the drastic t-norm is right-continuous, and it has no residuum; see [[the drastic non-example|VK2A62AQ0F]].
-2. Monotonicity is used to reduce left-continuity to the preservation of suprema of sets.
-3. Completeness of $[0, 1]$ is used: the supremum of $\set{z : z * x \le y}$ must exist.
+Left-continuity cannot be dropped.
+The drastic t-norm jumps from $0$ to $0.5$ as $z$ rises to $1$ in $z * 0.5$.
+So the set $\{ z : z * 0.5 \le 0 \}$ is $[0, 1)$, which has no maximum, and [[the drastic non-example|VK2A62AQ0F]] concludes that there is no residuum.
 
-### Consequences
+Monotonicity is used to turn left-continuity into a statement about suprema.
+For a monotone map on $[0, 1]$, being left-continuous is the same as sending the supremum of every nonempty set to the supremum of its image.
+The completeness of $[0, 1]$ is used too, since the set $\{ z : z * x \le y \}$ must have a supremum before we can ask whether it is a maximum.
 
-1. Every continuous t-norm has a residuum, in particular the three basic ones.
-2. The nilpotent minimum is left-continuous but not continuous, and it has a residuum.
-3. With a left-continuous t-norm, $[0, 1]$ is a residuated lattice; this is the standard semantics of [[MTL|PT5PHKJDYM]].
+### What it gives you
 
-### Converse
+Every continuous t-norm has a residuum, in particular the three basic ones, whose residua are computed in [[the residua statement|7R2JBNNMT5]].
+The nilpotent minimum is left-continuous but not continuous, and it still has a residuum, as [[the nilpotent minimum example|ZJX7P6TVG9]] computes.
+With a left-continuous t-norm, $[0, 1]$ becomes a residuated lattice, and these are exactly the standard algebras of [[MTL|PT5PHKJDYM]].
+So the theorem explains why MTL is the logic of left-continuous t-norms: they are exactly the t-norms that have an implication.
 
-Item 1 is an equivalence, and both directions are proved.
+### The converse
+
+Item 1 is an equivalence, and the proof gives both directions.
+A residuum forces left-continuity, and left-continuity gives a residuum.
 
 ### Generalizations
 
-In any complete lattice, a monotone binary operation has a residuum in its first argument iff it preserves all joins in that argument.
+In any complete lattice, a monotone operation has a residuum in its first argument exactly when it preserves all joins in that argument.
+This is the order-theoretic form of the adjoint functor theorem, and the statement is its case for the chain $[0, 1]$.
 
 ## History
 
-SEP states the equivalence and the formula with $\max$; Wikipedia states existence and uniqueness for left-continuous t-norms and gives the formula with $\sup$.
+The equivalence is standard in the theory of t-norms, and it appears in Hájek's monograph of 1998 and in the monograph of Klement, Mesiar and Pap of 2000.
+It is the reason why left-continuity became the standard hypothesis in residuated fuzzy logic.
 
 ## Explanations
 
 ### L1 human
 
-An implication should satisfy: "$z$ and $x$ give at most $y$" exactly when "$z$ is at most ($x$ implies $y$)".
-This works only when the "and" has no jump from below.
+An implication should satisfy one rule.
+"$z$ and $x$ give at most $y$" should hold exactly when "$z$ is at most ($x$ implies $y$)".
+This rule picks out a best value for "$x$ implies $y$".
+The best value exists only when the "and" has no sudden jump as its inputs rise.
 
 ### L2 human
 
 To compute $x \Rightarrow y$, take the largest $z$ with $z * x \le y$.
-For a t-norm with a jump, this largest $z$ may fail to exist.
-For the drastic t-norm at $x = 0.5$, $y = 0$, every $z < 1$ works and $z = 1$ fails.
+For the minimum at $x = 0.7$, $y = 0.4$, the set of good $z$ is computed below.
+
+$$\{ z : \min(z, 0.7) \le 0.4 \} = [0, 0.4].$$
+
+Its largest element is $0.4$, so $0.7 \Rightarrow_G 0.4 = 0.4$.
+For the drastic t-norm at $x = 0.5$, $y = 0$, every $z < 1$ is good and $z = 1$ is not, so there is no largest element.
+Watch out: the set $\{ z : z * x \le y \}$ is always an interval starting at $0$, and the only question is whether it contains its right end.
 
 ### L3 human
 
-For fixed $x$, the map $z \mapsto z * x$ is monotone on the complete chain $[0, 1]$.
-A monotone map between complete lattices has a right adjoint iff it preserves all joins.
-On a chain, preserving joins of non-empty sets is the same as left-continuity, and the join of the empty set is $0 = 0 * x$.
+For fixed $x$, the map $f(z) = z * x$ is monotone on the complete chain $[0, 1]$.
+A monotone map between complete lattices has a right adjoint exactly when it preserves all joins.
+On a chain, preserving joins of nonempty sets is the same as left-continuity, and the join of the empty set is $0 = f(0)$.
+The same pattern returns for [[residuated lattices|E337A6WVH3]] in algebraic logic, where residuation is an axiom and the existence question disappears.

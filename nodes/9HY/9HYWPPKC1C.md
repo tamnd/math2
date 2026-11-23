@@ -20,16 +20,18 @@ sources:
 
 ## Example
 
-Let $v$ be the valuation on propositional formulas with values in $[0, 1]$ given by
-$$v(\neg \varphi) = 1 - v(\varphi), \quad v(\varphi \land \psi) = \min(v(\varphi), v(\psi)), \quad v(\varphi \lor \psi) = \max(v(\varphi), v(\psi)),$$
-and by $v(p) = \tfrac12$ for one variable $p$.
+Let $v$ be the valuation on propositional formulas with values in $[0, 1]$ given by the three rules below, and by $v(p) = \tfrac12$ for one variable $p$.
+
+$$v(\neg \varphi) = 1 - v(\varphi), \quad v(\varphi \land \psi) = \min(v(\varphi), v(\psi)), \quad v(\varphi \lor \psi) = \max(v(\varphi), v(\psi)).$$
+
 We show that $v$ is not a [[probability function|Z2WRGJDRQT]].
 
 1. $v(\neg p) = 1 - \tfrac12 = \tfrac12$.
 2. $v(p \lor \neg p) = \max(\tfrac12, \tfrac12) = \tfrac12$.
-3. $p \lor \neg p$ is a [[tautology|05006AJ7DZ]], and a probability function gives every tautology the value $1$.
+3. The formula $p \lor \neg p$ is a [[tautology|05006AJ7DZ]], and a probability function gives every tautology the value $1$.
 4. Since $\tfrac12 \ne 1$, the property for tautologies fails.
-5. Additivity fails too. The formulas $p$ and $\neg p$ exclude each other, so additivity requires $v(p \lor \neg p) = v(p) + v(\neg p) = 1$.
+5. Additivity fails too.
+   The formulas $p$ and $\neg p$ exclude each other, so additivity requires $v(p \lor \neg p) = v(p) + v(\neg p) = 1$.
 
 So $v$ is not a probability function.
 
@@ -37,7 +39,7 @@ So $v$ is not a probability function.
 
 The example separates degrees of truth from probabilities.
 The valuation $v$ is truth-functional, while a probability function is not.
-If $v(p) \in \set{0, 1}$ for every variable $p$, then $v$ is a classical valuation, and it is a probability function.
+If $v(p) \in \{ 0, 1 \}$ for every variable $p$, then $v$ is a classical valuation, and it is a probability function.
 So the failure comes from the middle values.
 
 Change the value of $p$ to $t \in [0, 1]$.
@@ -55,10 +57,7 @@ So degrees of truth and chances follow different rules.
 
 ### L2 human
 
-1. Take $v(p) = 0.3$.
-2. Then $v(\neg p) = 0.7$ and $v(p \lor \neg p) = 0.7$.
-3. A probability function with $P(p) = 0.3$ has $P(\neg p) = 0.7$ and $P(p \lor \neg p) = 1$.
-
-The typical use is to show that a fuzzy valuation does not model uncertainty about a true or false statement.
-A trap: the Łukasiewicz strong disjunction $\min(1, x + y)$ gives $p \oplus \neg p$ the value $1$.
+Take $v(p) = 0.3$, so $v(\neg p) = 0.7$ and $v(p \lor \neg p) = 0.7$.
+A probability function with $P(p) = 0.3$ has $P(\neg p) = 0.7$ and $P(p \lor \neg p) = 1$.
+Watch out: the Łukasiewicz strong disjunction $\min(1, x + y)$ gives $p \oplus \neg p$ the value $1$.
 But a probability function is not truth-functional, so no choice of truth functions turns $v$ into a probability function.

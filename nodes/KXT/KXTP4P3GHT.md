@@ -26,56 +26,82 @@ inventory: [12BTK3EH85]
 
 ## Summary
 
-*First-degree entailment* $\mathsf{FDE}$, also called Belnap-Dunn logic $\mathrm{BD}$, is the four-valued [[many-valued logic|DWYCKAKXZD]] in $\neg$, $\land$, $\lor$ whose values are the subsets of $\set{T, F}$.
-A sentence can be told true, told false, told both, or told neither; see [[the definition|AWEG5PR3GF]].
-Consequence preserves "told at least true".
-$\mathsf{FDE}$ contains both [[strong Kleene logic|SZHA10A9X7]] and Priest's $\mathsf{LP}$ as three-valued extensions, and it is neither explosive nor has it any tautologies.
+Here are the four Belnap values, each the set of reports a sentence has received, placed in two orders at once.
+
+| value | told true | told false | truth order | information order |
+|---|---|---|---|---|
+| $\mathbf{T} = \{T\}$ | yes | no | top | middle |
+| $\mathbf{F} = \{F\}$ | no | yes | bottom | middle |
+| $\mathbf{B} = \{T, F\}$ | yes | yes | middle | top |
+| $\mathbf{N} = \emptyset$ | no | no | middle | bottom |
+
+Drawn as a diamond, the truth order runs from $\mathbf{F}$ on the left to $\mathbf{T}$ on the right, and the information order runs from $\mathbf{N}$ at the bottom to $\mathbf{B}$ at the top.
+Each order is a lattice, so the four values form a bilattice.
+Conjunction is the meet in the truth order, so $\mathbf{N} \land \mathbf{B} = \mathbf{F}$: $\mathbf{B}$ brings a report of falsity, and $\mathbf{N}$ brings no report of truth.
+
+*First-degree entailment* $\mathsf{FDE}$, also called Belnap-Dunn logic $\mathrm{BD}$, is the [[many-valued logic|DWYCKAKXZD]] of these values in $\neg$, $\land$ and $\lor$, with the values that contain $T$ designated; see [[the definition|AWEG5PR3GF]].
+It contains [[strong Kleene logic|SZHA10A9X7]] and Priest's $\mathsf{LP}$ as three-valued extensions, it is not explosive, and it has no tautologies.
 
 ## Motivation
 
 Belnap imagined a computer that collects facts from several users, with no guarantee that they agree.
 One user may tell it that $p$ is true, and another that $p$ is false.
-In classical logic, $p$ and $\neg p$ entail every $q$, so one conflict would spoil all other data.
-$\mathsf{FDE}$ records each sentence's evidence as a set of the values it was told, and conflicts about $p$ say nothing about an unrelated $q$.
+In classical logic $p$ and $\neg p$ entail every $q$, so one conflict would spoil all the other data.
+$\mathsf{FDE}$ records for each sentence the set of values it was told.
+A conflict about $p$ then says nothing about an unrelated $q$, and a sentence nobody mentioned simply has no report.
 
 ## Notation
 
-The four values are written $\mathbf{T} = \set{T}$, $\mathbf{F} = \set{F}$, $\mathbf{B} = \set{T, F}$ (both) and $\mathbf{N} = \emptyset$ (neither).
-SEP writes $\mathsf{t}, \mathsf{f}, \mathsf{b}, \mathsf{n}$ and calls the algebra $\mathbf{DM}_4$, the four-element De Morgan algebra.
-The SEP entry on truth values calls the structure with both orders the bilattice $\mathrm{FOUR}_2$.
+The four values are written $\mathbf{T}$, $\mathbf{F}$, $\mathbf{B}$ (both) and $\mathbf{N}$ (neither), and also $\mathsf{t}$, $\mathsf{f}$, $\mathsf{b}$, $\mathsf{n}$.
+The algebra $\langle \mathbf{4}, \neg, \land, \lor \rangle$ is the four-element De Morgan algebra $\mathbf{DM}_4$.
+The structure with both orders is often called the bilattice $\mathrm{FOUR}_2$.
 
 ## Remarks
 
-### Examples
+### Rules that hold
 
-1. [[Explosion and excluded middle fail in FDE|5DFTBDQAR4]].
-2. [[The two orders of FOUR and the Routley star|ZV62Y5X00V]] give two equivalent pictures of the same logic.
-3. De Morgan laws and double negation hold: $\neg \neg p \models p$, $p \models \neg \neg p$, $\neg(p \land q) \models \neg p \lor \neg q$.
-4. $p \land q \models p$ and $p \models p \lor q$ hold, as in classical logic.
+De Morgan's laws and double negation hold: $\neg \neg p \models p$, $p \models \neg \neg p$ and $\neg(p \land q) \models \neg p \lor \neg q$.
+Conjunction elimination $p \land q \models p$ and addition $p \models p \lor q$ hold, as in classical logic.
+Three definitions of consequence give the same relation: preserve "contains $T$", preserve "does not contain $F$", or compare the values in the truth order.
 
-### Non-examples
+### Rules that fail
 
-1. [[Strong Kleene logic is not FDE|QZ9FRRH7Y1]]: explosion holds in $\mathsf{K}_3$.
-2. Classical logic is not $\mathsf{FDE}$, since $\models p \lor \neg p$ classically.
+[[Explosion and excluded middle fail|5DFTBDQAR4]], with the value $\mathbf{B}$ for the first and $\mathbf{N}$ for the second.
+$\mathsf{FDE}$ has no tautologies, because the valuation with every variable $\mathbf{N}$ gives every formula the value $\mathbf{N}$.
+Classical logic is not $\mathsf{FDE}$, since $p \lor \neg p$ is a classical law.
 
-### Basic properties
+### Two three-valued extensions
 
-1. $\mathsf{FDE}$ has no tautologies: the valuation with every variable $\mathbf{N}$ gives every formula the value $\mathbf{N}$.
-2. Every $\mathsf{FDE}$-valid inference is valid in $\mathsf{K}_3$ and in $\mathsf{LP}$, since their matrices are submatrices of the four-valued one.
-3. By SEP, three definitions give the same relation: preserve "contains $T$", preserve "does not contain $F$", or compare in the truth order.
-4. Dunn introduced $\mathsf{FDE}$ as a fragment of the logic of entailment of Anderson and Belnap, as SEP reports.
+Every $\mathsf{FDE}$-valid inference is valid in $\mathsf{K}_3$ and in $\mathsf{LP}$, since their matrices are submatrices of the four-valued one.
+Dropping $\mathbf{B}$ gives $\mathsf{K}_3$, and [[explosion separates it from FDE|QZ9FRRH7Y1]].
+Dropping $\mathbf{N}$ gives $\mathsf{LP}$, and excluded middle separates it from $\mathsf{FDE}$.
+
+### Worlds instead of values
+
+[[The Routley star semantics|ZV62Y5X00V]] evaluates $\neg A$ at a partner world $a^*$ and gives the same consequence relation.
+So one can build counter-models either from the four values or from pairs of worlds.
+
+### Watch out
+
+Do not take $\mathbf{B}$ as the top of the truth order.
+In the truth order $\mathbf{T}$ is the top, $\mathbf{F}$ is the bottom, and $\mathbf{B}$ and $\mathbf{N}$ are incomparable.
+Do not designate only $\mathbf{T}$, because that gives a different logic, the exactly true logic.
+Do not expect $\mathbf{N} \land \mathbf{B} = \mathbf{N}$; it is $\mathbf{F}$.
 
 ### History
 
-Dunn introduced the four-valued semantics of first-degree entailment, the system of Anderson and Belnap, in 1976.
-Belnap promoted it in 1977 as a logic for computers that handle incomplete and inconsistent information.
-Routley and Routley gave the star semantics for negation in 1972.
+Anderson and Belnap studied first-degree entailment as the fragment of their logic of entailment without nested arrows.
+Routley and Routley gave the star semantics for its negation in 1972.
+Dunn gave the four-valued semantics in 1976.
+Belnap presented it in 1977 as a logic for computers that handle incomplete and inconsistent information.
 
-### Common errors
+### Try it
 
-1. Taking $\mathbf{B}$ as the top of the truth order. In the truth order, $\mathbf{T}$ is top, $\mathbf{F}$ is bottom, and $\mathbf{B}$, $\mathbf{N}$ are incomparable.
-2. Designating only $\mathbf{T}$. That gives a different logic, the exactly true logic, not $\mathsf{FDE}$.
-3. Expecting $\mathbf{N} \land \mathbf{B} = \mathbf{N}$. It is $\mathbf{F}$, because $\mathbf{B}$ contributes falsity and $\mathbf{N}$ contributes no truth.
+First, compute $\mathbf{B} \lor \mathbf{N}$.
+It is told true, because $\mathbf{B}$ is, and it is not told false, because $\mathbf{N}$ is not, so the value is $\mathbf{T}$.
+
+Second, is $p \land \neg p \models q \lor \neg q$ valid in $\mathsf{FDE}$?
+No: take $p = \mathbf{B}$ and $q = \mathbf{N}$, so the premise is $\mathbf{B}$ and the conclusion is $\mathbf{N}$.
 
 ## Explanations
 
@@ -89,12 +115,13 @@ A conflict about one fact does not make every other fact true.
 ### L2 human
 
 To compute a value, track truth and falsity separately.
-$A \land B$ is told true iff both parts are told true; it is told false iff one part is told false.
+$A \land B$ is told true iff both parts are told true, and it is told false iff one part is told false.
 $\neg A$ is told true iff $A$ is told false, and the other way around.
 The typical use is to find counter-models with $\mathbf{B}$ for explosion and with $\mathbf{N}$ for excluded middle.
+Watch out: $\land$ is the meet of the truth order, not of the information order.
 
 ### L3 human
 
-$\mathsf{FDE}$ is the logic of order of the De Morgan algebra $\mathbf{DM}_4$, and also its matrix logic with designated filter $\set{\mathbf{T}, \mathbf{B}}$.
-Inclusion of subsets of $\set{T, F}$ is the information order, and the truth order is a second lattice on the same set; together they form the bilattice $\mathrm{FOUR}_2$.
+$\mathsf{FDE}$ is the logic of order of the De Morgan algebra $\mathbf{DM}_4$, and also its matrix logic with the designated filter $\{\mathbf{T}, \mathbf{B}\}$.
+Inclusion of subsets of $\{T, F\}$ is the information order, and the truth order is a second lattice on the same set; together they form the bilattice $\mathrm{FOUR}_2$.
 The Routley star semantics, with an involution on worlds, extends to the [[Routley-Meyer semantics|H4Z8J0KMAY]] of relevance logics.

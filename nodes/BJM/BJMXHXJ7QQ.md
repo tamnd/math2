@@ -16,23 +16,31 @@ sources:
 
 ## Example
 
-Let $\mathbf{K}$ be the algebra on $\set{0, \tfrac12, 1}$ with $\neg x = 1 - x$, $x \land y = \min(x, y)$ and $x \lor y = \max(x, y)$.
-Consider the two [[logical matrices|AJEJS6TFWP]] $\mathsf{K}_3 = \langle \mathbf{K}, \set{1} \rangle$ and $\mathsf{LP} = \langle \mathbf{K}, \set{\tfrac12, 1} \rangle$.
+Let $\mathbf{K}$ be the algebra on $\{0, \tfrac12, 1\}$ with $\neg x = 1 - x$, $x \land y = \min(x, y)$ and $x \lor y = \max(x, y)$.
+Consider the two [[logical matrices|AJEJS6TFWP]] $\mathsf{K}_3 = \langle \mathbf{K}, \{1\} \rangle$ and $\mathsf{LP} = \langle \mathbf{K}, \{\tfrac12, 1\} \rangle$.
 
-1. Both are logical matrices: $\mathbf{K}$ is an algebra for $\neg, \land, \lor$, and each designated set is a subset of $\set{0, \tfrac12, 1}$.
-2. Explosion $p \land \neg p \models q$ holds in $\mathsf{K}_3$. The value $\min(x, 1 - x)$ is at most $\tfrac12$, so the premise is never designated.
-3. Explosion fails in $\mathsf{LP}$. Take $p = \tfrac12$ and $q = 0$: the premise has value $\tfrac12$, which is designated, and $q$ is not.
-4. $p \models q \lor \neg q$ holds in $\mathsf{LP}$. The value $\max(y, 1 - y)$ is at least $\tfrac12$, so the conclusion is always designated.
-5. $p \models q \lor \neg q$ fails in $\mathsf{K}_3$. Take $p = 1$ and $q = \tfrac12$: the conclusion has value $\tfrac12$, which is not designated.
+1. Both are logical matrices, because $\mathbf{K}$ is an algebra for $\neg, \land, \lor$ and each designated set is a subset of $\{0, \tfrac12, 1\}$.
+2. Explosion $p \land \neg p \models q$ holds in $\mathsf{K}_3$.
+   The premise has the value $\min(x, 1 - x)$, which is $0$ at $x = 0$ or $x = 1$ and $\tfrac12$ at $x = \tfrac12$, so it is never $1$.
+3. Explosion fails in $\mathsf{LP}$.
+   At $p = \tfrac12$ and $q = 0$ the premise has the designated value $\tfrac12$, and the conclusion $0$ is not designated.
+4. The inference $p \models q \lor \neg q$ holds in $\mathsf{LP}$.
+   The conclusion has the value $\max(y, 1 - y)$, which is $1$ or $\tfrac12$, so it is always designated.
+5. The inference $p \models q \lor \neg q$ fails in $\mathsf{K}_3$.
+   At $p = 1$ and $q = \tfrac12$ the premise is designated, and the conclusion has the value $\tfrac12$, which is not.
 
 So one algebra with two designated sets gives two different logics.
 
 ## Remarks
 
-Steps 2 to 5 show a duality: $\mathsf{K}_3$ keeps explosion and loses excluded middle, and $\mathsf{LP}$ does the reverse.
-$\mathsf{LP}$ is Priest's logic of paradox, a [[paraconsistent logic|C7YWCR87QJ]].
-[[Strong Kleene logic|SZHA10A9X7]] has no tautologies, while $\mathsf{LP}$ has tautologies, for example $p \lor \neg p$ by step 4.
-Both are extensions of [[first-degree entailment|KXTP4P3GHT]], whose four values combine the two readings of the middle value.
+Steps 2 to 5 show a duality.
+$\mathsf{K}_3$ keeps explosion and loses excluded middle, and $\mathsf{LP}$ does the reverse.
+$\mathsf{LP}$ is Priest's [[logic of paradox|BXJZG67PX3]], a [[paraconsistent logic|C7YWCR87QJ]].
+[[Strong Kleene logic|SZHA10A9X7]] has no tautologies, while $\mathsf{LP}$ has the tautology $p \lor \neg p$ by step 4.
+In fact a formula is a tautology of $\mathsf{LP}$ exactly when it is a classical tautology.
+
+Both logics extend [[first-degree entailment|KXTP4P3GHT]], whose four values separate the two readings of the middle value: "neither true nor false" for $\mathsf{K}_3$ and "both true and false" for $\mathsf{LP}$.
+If you designate only $\tfrac12$, the matrix is no longer useful, since then $p \land q \models p$ fails at $p = 1$, $q = \tfrac12$.
 
 ## Explanations
 
@@ -45,9 +53,8 @@ For example, "$p$ and not $p$, so anything" is valid in the first logic and inva
 
 ### L2 human
 
-1. Fix the algebra and list the valuations of the variables of the inference.
-2. Mark the rows in which all premises are designated.
-3. Check the conclusion in these rows only.
-
-The typical use is to separate two logics by one inference.
-A trap: a valuation that refutes an inference in one matrix can satisfy it in the other, so the designated set must be fixed before the check.
+To separate two logics on one algebra, fix the algebra and list the valuations of the variables of an inference.
+Mark the rows in which all premises are designated, and check the conclusion in these rows only.
+For explosion in $\mathsf{LP}$, the marked rows are those with $p = \tfrac12$, and the row with $q = 0$ fails.
+For explosion in $\mathsf{K}_3$, no row is marked, so the inference holds with nothing to check.
+Watch out: a valuation that refutes an inference in one matrix can satisfy it in the other, so fix the designated set before the check.

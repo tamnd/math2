@@ -16,16 +16,17 @@ sources:
 
 ## Definition
 
-The *weak Kleene algebra* $\mathbf{WK}_3$ has universe $\set{0, \tfrac12, 1}$ and the operations
-$$\neg x = 1 - x, \qquad x \land y = \begin{cases} \tfrac12 & \text{if } x = \tfrac12 \text{ or } y = \tfrac12, \\ \min(x, y) & \text{otherwise}, \end{cases} \qquad x \lor y = \begin{cases} \tfrac12 & \text{if } x = \tfrac12 \text{ or } y = \tfrac12, \\ \max(x, y) & \text{otherwise}. \end{cases}$$
+The weak Kleene logics use the classical tables on $\{0, 1\}$ and give the value $\tfrac12$ to every compound with a part of value $\tfrac12$; they differ only in the designated set.
+
+The *weak Kleene algebra* $\mathbf{WK}_3$ has the universe $\{0, \tfrac12, 1\}$, the negation $\neg x = 1 - x$ and the two operations below.
+$$x \land y = \begin{cases} \tfrac12 & \text{if } x = \tfrac12 \text{ or } y = \tfrac12, \\ \min(x, y) & \text{otherwise} \end{cases}$$
+$$x \lor y = \begin{cases} \tfrac12 & \text{if } x = \tfrac12 \text{ or } y = \tfrac12, \\ \max(x, y) & \text{otherwise} \end{cases}$$
 Implication is the abbreviation $\varphi \to \psi = \neg \varphi \lor \psi$.
+*Bochvar's logic* $\mathrm{B}_3$ is the logic of the [[logical matrix|AJEJS6TFWP]] $\langle \mathbf{WK}_3, \{1\} \rangle$.
+*Paraconsistent weak Kleene logic* $\mathsf{PWK}$ is the logic of the matrix $\langle \mathbf{WK}_3, \{\tfrac12, 1\} \rangle$.
+So $\Gamma \models_{\mathrm{B}_3} \varphi$ iff every valuation with the value $1$ on $\Gamma$ gives $\varphi$ the value $1$, and $\mathsf{PWK}$ uses "value $\ne 0$" in place of "value $1$".
 
-1. *Bochvar's logic* $\mathrm{B}_3$ is the logic of the [[logical matrix|AJEJS6TFWP]] $\langle \mathbf{WK}_3, \set{1} \rangle$.
-2. *Paraconsistent weak Kleene logic* $\mathsf{PWK}$ is the logic of the matrix $\langle \mathbf{WK}_3, \set{\tfrac12, 1} \rangle$.
-
-So $\Gamma \models_{\mathrm{B}_3} \varphi$ iff every valuation with value $1$ on $\Gamma$ gives $\varphi$ the value $1$, and $\mathsf{PWK}$ uses "value $\ne 0$" in place of "value $1$".
-
-The binary tables, with the row for $x$ and the column for $y$:
+The binary tables, with the row for $x$:
 
 | $x$ | $x \land 0$ | $x \land \tfrac12$ | $x \land 1$ | $x \lor 0$ | $x \lor \tfrac12$ | $x \lor 1$ |
 |---|---|---|---|---|---|---|
@@ -35,15 +36,21 @@ The binary tables, with the row for $x$ and the column for $y$:
 
 ## Notation
 
-SEP writes $*$ for the middle value and $\mathbf{WK}_3$ for the algebra.
-Other names for $\mathrm{B}_3$ are "Bochvar's internal logic" and "Kleene's weak three-valued logic"; Halldén called $\mathsf{PWK}$ "the logic of nonsense".
+Some texts write $*$ for the middle value and $\mathbf{WK}_3$ for the algebra.
+Other names for $\mathrm{B}_3$ are "Bochvar's internal logic" and "Kleene's weak three-valued logic", and Halldén called $\mathsf{PWK}$ "the logic of nonsense".
 
 ## Remarks
 
-1. Example: $p \land q \models_{\mathrm{B}_3} p$. If $p \land q = 1$, then neither value is $\tfrac12$ and $\min(p, q) = 1$, so $p = 1$.
-2. Non-example: $p \models_{\mathrm{B}_3} p \lor q$ fails at $p = 1$, $q = \tfrac12$, where $p \lor q = \tfrac12$.
-3. The [[designated value|K6CVH3D7R8]] set is the only difference between $\mathrm{B}_3$ and $\mathsf{PWK}$, as with [[strong Kleene logic|SZHA10A9X7]] and $\mathsf{LP}$.
-4. In $\mathsf{PWK}$, $p \models p \lor q$ holds: if $p = 1$, then $p \lor q \in \set{\tfrac12, 1}$; if $p = \tfrac12$, then $p \lor q = \tfrac12$.
+Each part of the definition has a reason.
+The classical tables on $\{0, 1\}$ make every valid inference of either logic classically valid.
+The infectious $\tfrac12$ models a meaningless part, which no classical value of another part can repair.
+The [[designated value|K6CVH3D7R8]] set is the only difference between $\mathrm{B}_3$ and $\mathsf{PWK}$, just as it is between [[strong Kleene logic|SZHA10A9X7]] and $\mathsf{LP}$.
+
+Conjunction elimination $p \land q \models_{\mathrm{B}_3} p$ holds.
+If $p \land q = 1$, then neither value is $\tfrac12$ and $\min(p, q) = 1$, so $p = 1$.
+Addition $p \models_{\mathrm{B}_3} p \lor q$ fails at $p = 1$, $q = \tfrac12$, where $p \lor q = \tfrac12$.
+In $\mathsf{PWK}$ addition holds.
+If $p = 1$, then $p \lor q \in \{\tfrac12, 1\}$, and if $p = \tfrac12$, then $p \lor q = \tfrac12$, so the conclusion is designated in both cases.
 
 ## Explanations
 
@@ -51,11 +58,11 @@ Other names for $\mathrm{B}_3$ are "Bochvar's internal logic" and "Kleene's weak
 
 The weak Kleene tables are the classical tables plus one rule.
 If any input is $\tfrac12$, the output is $\tfrac12$.
-Bochvar counts only $1$ as true; Halldén counts $1$ and $\tfrac12$ as acceptable.
+Bochvar counts only $1$ as true, and Halldén counts $1$ and $\tfrac12$ as acceptable.
 
 ### L2 human
 
 To check an inference in $\mathrm{B}_3$, test the valuations that give every premise the value $1$.
-Then every variable of the premises is classical, but the conclusion may contain new variables with value $\tfrac12$.
-The typical failure comes from a new variable in the conclusion, as in remark 2.
-A trap: $\mathrm{B}_3$ and $\mathsf{PWK}$ fail different inferences; addition fails only in $\mathrm{B}_3$ and explosion fails only in $\mathsf{PWK}$.
+Then every variable of the premises is classical, but the conclusion may contain new variables with the value $\tfrac12$.
+The typical failure comes from such a new variable, as with addition.
+Watch out: $\mathrm{B}_3$ and $\mathsf{PWK}$ fail different inferences, since addition fails only in $\mathrm{B}_3$ and explosion fails only in $\mathsf{PWK}$.
