@@ -14,43 +14,43 @@ sources:
 
 ## Example
 
-Consider the argument:
+Here is a two-line "proof" that one of the [[natural numbers|0MWKJ44V5A]] is larger than all of them; spot the flaw.
 
-- Premise: for every natural number $x$ there is a natural number $y$ with $y > x$.
-- Conclusion: so there is a natural number $y$ with $y > x$ for every natural number $x$.
+> Every natural number $x$ has a larger natural number $y$, for instance $y = x + 1$.
+> So there is a natural number $y$ that is larger than every natural number $x$.
 
-In symbols, the argument passes from $\forall x \, \exists y \, (y > x)$ to $\exists y \, \forall x \, (y > x)$, where $x$ and $y$ range over the [[natural numbers|0MWKJ44V5A]].
-We check it.
+In symbols, the argument goes from $\forall x \, \exists y \, (y > x)$ to $\exists y \, \forall x \, (y > x)$.
+We check each half.
 
-1. The premise is true. For a given $x$, take $y = x + 1$. Then $y$ is a natural number and $y > x$.
-2. The conclusion is false. Suppose that some natural number $y_0$ satisfies $y_0 > x$ for every $x$.
-3. Take $x = y_0$. Then $y_0 > y_0$, which is false.
-4. So no such $y_0$ exists, and the conclusion is false.
-5. The premise is true and the conclusion is false, so the inference is invalid. It is an instance of the [[quantifier shift fallacy|CRW82NARQV]].
-6. The step that fails is the exchange of $\forall x$ and $\exists y$. The $y$ of step 1 depends on $x$, and no single $y$ serves all $x$.
+1. The premise is true: for a given $x$, the number $y = x + 1$ is natural and $y > x$.
+2. The conclusion is false. If some $y_0$ satisfied $y_0 > x$ for every $x$, then $x = y_0$ would give $y_0 > y_0$.
+3. True premise and false conclusion mean the inference is invalid.
+4. The step that fails swaps $\forall x$ and $\exists y$, which is the [[quantifier shift fallacy|CRW82NARQV]]. The $y$ of step 1 depends on $x$, and no single $y$ serves every $x$.
+
+The correct conclusion keeps the order: every natural number has a larger one, and no natural number is larger than all.
 
 ## Remarks
 
-The example shows that the [[order of quantifiers|0FYQMKFE77]] changes the meaning even when the predicate stays the same.
-If the natural numbers are replaced by a finite set of numbers, such as $\{1, 2, 3\}$, the premise becomes false, because $3$ has no larger element in the set.
-If $y > x$ is replaced by $y \ge x$ and the domain by a finite set, both statements become true, with $y$ the largest element.
+The [[order of quantifiers|0FYQMKFE77]] changes the meaning even though the predicate $y > x$ stays the same.
+Changing the domain shows how fragile the premise is.
+On the finite set $\{1, 2, 3\}$ the premise itself is false, since $3$ has no larger element in the set.
+With $y \ge x$ in place of $y > x$ on a finite set, both orders are true, and $y$ is the largest element.
 
 ## Explanations
 
 ### L1 human
 
-For every number, we can find a bigger one: just add $1$.
-But there is no number that is bigger than every number, since that number would have to be bigger than itself.
+For every number we can find a bigger one: add $1$.
+No number is bigger than every number, since it would have to be bigger than itself.
 The first sentence lets the bigger number change with the given number.
-The second sentence asks for one number that works for all, and that is a much stronger claim.
+The second asks for one number that works for all, which is a much stronger claim.
 
 ### L2 human
 
-We decide which of the two orders holds for the predicate $x + y = 0$ on the integers.
-
-1. $\forall x \, \exists y \, (x + y = 0)$: for each integer $x$, take $y = -x$. Then $x + y = 0$. So this statement is true.
-2. $\exists y \, \forall x \, (x + y = 0)$: suppose some $y_0$ works for every $x$. Then $0 + y_0 = 0$ and $1 + y_0 = 0$, so $y_0 = 0$ and $y_0 = -1$, which is impossible. So this statement is false.
-3. So the inference from statement 1 to statement 2 is a quantifier shift.
+We decide which order holds for the predicate $x + y = 0$ on the integers.
+The statement $\forall x \, \exists y \, (x + y = 0)$ is true: for each $x$, take $y = -x$.
+The statement $\exists y \, \forall x \, (x + y = 0)$ is false: a single $y_0$ would need $0 + y_0 = 0$ and $1 + y_0 = 0$, so $y_0 = 0$ and $y_0 = -1$ at once.
+So passing from the first to the second is a quantifier shift.
 
 The typical use of this test is to try two values of $x$ and see whether one $y$ can serve both.
-A trap is to read "there is a $y$ such that for every $x$" as "for every $x$ there is a $y$" because the words appear in the same sentence.
+Watch out for reading "there is a $y$ such that for every $x$" as "for every $x$ there is a $y$" because both phrases appear in one sentence.
