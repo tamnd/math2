@@ -15,109 +15,140 @@ sources:
 
 ## Summary
 
-Pólya's four steps are a plan for solving a mathematical problem in four phases: understand the problem, devise a plan, carry out the plan, and look back.
-In the first phase the solver names the unknown, the data and the condition, or, for a statement to prove, the hypothesis and the conclusion.
-In the second phase the solver looks for a connection between the data and the unknown, often through a related problem that is already solved.
-In the third phase the solver carries out the plan and checks each step.
-In the fourth phase the solver checks the result, looks for another way to reach it, and asks where else the result or the method can be used.
-For each phase George Pólya gave a list of questions, and the list is the best known collection of [[heuristics|6KCEWEP4WA]] for school and university mathematics.
+Pólya's four steps split the work on a problem into four phases: understand the problem, devise a plan, carry out the plan, and look back.
+They do not solve anything by themselves, but they tell you what to ask next when you do not know how to start.
+
+Here is a problem where the first phase saves the answer.
+A car drives $60$ km at $40$ km/h and then drives back at $60$ km/h; what is its average speed?
+The quick answer is the mean of the two speeds, $50$ km/h.
+Phase 1 asks what the unknown is, and the unknown is the average speed, which means total distance over total time.
+The trip out takes $60/40 = 1.5$ hours and the trip back takes $1$ hour, so
+$$\text{average speed} = \frac{60 + 60}{1.5 + 1} = \frac{120}{2.5} = 48 \text{ km/h}.$$
+Phase 4 checks the result with an extreme case.
+If the return trip took no time at all, the average would be $120/1.5 = 80$ km/h, a finite number, while the mean of the speeds would be infinite.
+So the mean of the speeds is the wrong quantity, and $48$ km/h is right.
+
+In general, phase 1 names the unknown, the data and the condition, or, for a statement to prove, the hypothesis and the conclusion.
+Phase 2 looks for a connection between the data and the unknown, often through a related problem that is already solved.
+Phase 3 carries out the plan and checks each step, and phase 4 checks the result, looks for a second way to reach it, and asks where else the method works.
+For each phase George Pólya gave a list of questions, and these lists are the best known collection of [[heuristics|6KCEWEP4WA]] for school and university mathematics.
 
 ## Motivation
 
-Many students start to calculate before they know what the problem asks.
-Others stop as soon as they have a number, without a check.
-Both habits waste work: the first gives answers to the wrong question, and the second leaves errors in place.
-Pólya observed that a good teacher asks the same few questions again and again: what is the unknown, do you know a related problem, can you check the result.
+Many students start to calculate before they know what the problem asks, and many stop as soon as they have a number.
+The first habit answers the wrong question, as the quick answer $50$ km/h does, and the second leaves errors in place.
+Pólya noticed that a good teacher asks the same few questions again and again: what is the unknown, do you know a related problem, can you check the result.
 He wrote these questions down in a fixed order, so that a student can ask them without the teacher.
-The four phases make the order explicit, and the questions give a start when the solver has no idea.
+
+The phases matter most for a problem whose method you do not know in advance.
+For a routine exercise, phases 1 and 2 take a moment, and phase 4 still pays.
+For a research problem, phase 2 can take years, and its questions are only a start.
+The single heuristics on the later pages, such as [[specialization|FTBJX4G51S]] and [[working backwards|3QTB9S1THS]], are the tools of phase 2.
+
+## Notation
+
+Pólya's English names are "understanding the problem", "devising a plan", "carrying out the plan" and "looking back".
+Books also call them the four phases, the four stages or the problem-solving cycle.
+The question lists come from the first part of *How to Solve It*, and the longer second part is a "short dictionary of heuristic" with an entry for each single heuristic.
 
 ## Remarks
 
-### The steps
+### The questions of each phase
 
-1. Understand the problem. Name the unknown, the data and the condition. Draw a figure and introduce notation. Ask whether the condition is enough to determine the unknown, too little, or contradictory.
-2. Devise a plan. Look for a problem with the same unknown that is already solved. Try a special case, a more general problem, an auxiliary problem, or a part of the condition. Check that the plan uses all the data.
-3. Carry out the plan. Do each step of the plan, and check that each step is correct. A step that cannot be justified sends the solver back to phase 2.
-4. Look back. Check the result by a special case, by the units, or by a second method. Check the argument. Ask whether the result or the method solves another problem.
+In phase 1 you ask: what is the unknown, what are the data, and what is the condition?
+You draw a figure, introduce notation, and ask whether the condition is enough to determine the unknown, too little, or contradictory.
+In phase 2 you ask whether you know a problem with the same unknown, and whether you can solve a special case, a more general problem, or a part of the condition.
+You also check that the plan uses all the data.
+In phase 3 you check each step, and a step that you cannot justify sends you back to phase 2.
+In phase 4 you check the result by a special case, by the units, or by a second method, and you ask whether the result or the method solves another problem.
 
-For a problem to prove, phase 1 names the hypothesis and the conclusion instead of the data and the unknown, and the other phases are the same.
+### Pólya's first example
 
-### When it applies
+Pólya's own first example asks for the diagonal of a rectangular box with edges $a$, $b$ and $c$.
+Phase 2 asks for a solved problem with the same kind of unknown, and the diagonal of a rectangle comes to mind.
+That suggests the diagonal of the base, $\sqrt{a^2 + b^2}$, as an extra segment, and then a second right triangle gives
+$$d = \sqrt{a^2 + b^2 + c^2}.$$
+Phase 4 checks that the formula is symmetric in $a$, $b$ and $c$, and that $c = 0$ gives the diagonal of the rectangle.
+[[The diagonal of a rectangular box by the four steps|FGMDA7TF3Q]] writes out every phase.
 
-The four steps apply to every problem that is a real problem for the solver, that is, a problem whose method the solver does not know in advance.
-For a routine exercise, phases 1 and 2 take a moment, and phase 4 is the part that still pays.
-For a research problem, phase 2 can take years, and the questions of phase 2 are only a start.
+### A counting problem
 
-### Examples
+How many squares of all sizes lie along the grid lines of a chessboard?
+Phase 1 shows that squares of every side from $1$ to $8$ count, not only the $64$ cells.
+Phase 2 counts by size, and a square of side $k$ has $(9 - k)^2$ positions, so the total is
+$$8^2 + 7^2 + \dots + 1^2 = 204.$$
+Phase 4 checks a $2 \times 2$ board, which has $5$ squares, and generalizes to the $n \times n$ board.
+[[Counting the squares on a chessboard by the four steps|H817ES7NHH]] gives the details.
 
-1. [[The diagonal of a rectangular box by the four steps|FGMDA7TF3Q]]: Pólya's own first example; the related problem is the diagonal of a rectangle.
-2. [[Counting the squares on a chessboard by the four steps|H817ES7NHH]]: phase 1 finds that squares of every size count, and phase 4 gives the formula for an $n \times n$ board.
-3. A speed problem: a car travels $60$ km at $40$ km/h and returns at $60$ km/h. Phase 1 names the unknown as the average speed, total distance over total time; the answer is $\frac{120}{1.5 + 1} = 48$ km/h, not the mean $50$ of the two speeds.
-4. A proof problem: to prove that the [[sum of the first n odd numbers|9PESCNHE7Q]] is $n^2$, phase 1 names the hypothesis and conclusion, phase 2 chooses induction, and phase 4 finds a picture proof with squares.
+### Where the plan gives out
 
-### Non-examples
+The four steps organize a search, and a search can fail.
+The [[Collatz problem|J50X63VCAK]] asks whether repeating $n \mapsto n/2$ for even $n$ and $n \mapsto 3n + 1$ for odd $n$ always reaches $1$.
+Every question of phase 2 can be asked, special cases, variants and generalizations, and each answer is informative, but none gives a plan for a proof.
+The problem is still open.
 
-1. [[The four steps give no plan for the Collatz problem|J50X63VCAK]]: every question of phase 2 can be asked, and none of them has led to a proof.
-2. A solution that skips phase 1. In example 3, the answer $50$ km/h comes from averaging the two speeds without asking what the unknown is.
-3. A list of formulas to try in turn. That is a search through known methods, and it has no phase 1 and no phase 4.
+A solution can also go wrong by skipping a phase.
+The answer $50$ km/h skipped phase 1, and a list of formulas tried one after another skips phases 1 and 4 altogether.
 
-### Basic properties
+### Watch out
 
-1. The four phases are not a strict order. A failed phase 3 sends the solver back to phase 2 or to phase 1.
-2. The phases are a [[heuristic|6KCEWEP4WA]] plan, not an algorithm. They organize the search, but they do not produce the idea.
-3. Phase 2 contains most of the single heuristics of this topic: [[analogy|7KDT0R1HF2]], [[specialization|FTBJX4G51S]], [[generalization|8NJ0VN9Z97]], [[working backwards|3QTB9S1THS]], [[auxiliary problems|DYSJB93V11]] and the [[variation of the problem|KT5SASGTQ5]].
-4. Phase 4 is the source of new problems, as the page [[problem posing|Y896GWYF8A]] explains.
+The common error is to read the four steps as a recipe.
+They say what to ask, not what the plan is, and they never guarantee that a plan will come.
+The phases are also not a strict order: a failed phase 3 sends you back to phase 2 or even to phase 1.
 
-### Related methods
+A second error is to skip phase 4 because the answer looks right.
+A check with an extreme case, as in the car problem, takes a minute and catches many errors.
 
-The [[forward-backward method|V8ZB838JY5]] is a plan for phase 2 and phase 3 of a problem to prove.
-Schoenfeld's framework adds control: the decision when to stop one plan and to start another.
-Mason, Burton and Stacey describe three phases: entry, attack and review.
-Entry matches phase 1, attack matches phases 2 and 3, and review matches phase 4.
+### Related frameworks
+
+The [[forward-backward method|V8ZB838JY5]] is a plan for phases 2 and 3 of a problem to prove.
+Mason, Burton and Stacey, in *Thinking Mathematically* (1982), describe three phases called entry, attack and review, which match phase 1, phases 2 and 3, and phase 4.
+Schoenfeld, in *Mathematical Problem Solving* (1985), added control: the decision when to drop one plan and try another.
+Phase 4 is also the source of new questions, as [[problem posing|Y896GWYF8A]] explains.
 
 ### History
 
-George Pólya published *How to Solve It* in 1945, with Princeton University Press, from his experience of teaching at ETH Zurich and at Stanford.
-The book has a short part on the four phases, a dialogue of a teacher and a class, and a "short dictionary of heuristic" with entries on single heuristics.
-A second edition appeared in 1957.
+George Pólya published *How to Solve It* in 1945, and a second edition appeared in 1957.
+The book has a short part on the four phases, a dialogue between a teacher and a class, and the dictionary of heuristic.
 Pólya developed the ideas further in *Mathematics and Plausible Reasoning* (1954) and *Mathematical Discovery* (1962 and 1965).
 
-### Common errors
+### Try it
 
-1. To read the four steps as a recipe. They do not tell what the plan is; they tell what to ask.
-2. To skip phase 4 because the answer "looks right". A check by a special case takes a minute and finds many errors.
-3. To spend all the time in phase 3 with a bad plan. When a plan fails twice, the solver should return to phase 2.
+Two positive integers have sum $20$ and product $96$; find them.
+Phase 2 recalls that the roots of $t^2 - 20t + 96 = 0$ have this sum and product, so the numbers are $12$ and $8$, and phase 4 checks $12 + 8 = 20$ and $12 \cdot 8 = 96$.
+
+A cyclist rides up a hill at $10$ km/h and down the same road at $30$ km/h; what is the average speed?
+For a road of length $L$ the time is $L/10 + L/30 = 4L/30$, so the average is $2L$ divided by that, which is $15$ km/h, not $20$.
 
 ## Explanations
 
 ### L1 human
 
 Pólya's four steps are four questions for any problem.
-First: what does the problem ask, and what do we know?
-Second: how can we get from what we know to what we want?
-Third: do it, carefully.
-Fourth: is the answer right, and what did we learn?
-For example, to find how many handshakes there are when $5$ people each shake hands once with each other person, we first see that we want the number of pairs.
-Each person shakes $4$ hands, which gives $5 \cdot 4 = 20$, but each handshake is counted twice, so the answer is $10$.
-To check, we list the pairs for $3$ people: there are $3$, and the rule gives $\frac{3 \cdot 2}{2} = 3$.
+First, what does the problem ask, and what do we know?
+Second, how can we get from what we know to what we want?
+Third, do it carefully.
+Fourth, is the answer right, and what did we learn?
+For example, when $5$ people each shake hands once with each other person, we want the number of pairs.
+Each person shakes $4$ hands, which gives $5 \cdot 4 = 20$, but that counts each handshake twice, so the answer is $10$.
+To check, list the pairs for $3$ people: there are $3$, and the same rule gives $3 \cdot 2 / 2 = 3$.
 
 ### L2 human
 
-We solve a problem with the four steps: find two positive integers whose sum is $20$ and whose product is $96$.
-
-1. Understand. The unknowns are two integers $x$ and $y$. The data are $20$ and $96$. The condition is $x + y = 20$ and $xy = 96$.
-2. Plan. A related problem: the roots of $t^2 - st + p = 0$ have sum $s$ and product $p$. So $x$ and $y$ are the roots of $t^2 - 20t + 96 = 0$.
-3. Carry out. The discriminant is $400 - 384 = 16$, so $t = \frac{20 \pm 4}{2}$, which gives $t = 12$ or $t = 8$.
-4. Look back. Check: $12 + 8 = 20$ and $12 \cdot 8 = 96$. Ask what else the method gives: any sum $s$ and product $p$ with $s^2 - 4p$ a perfect square give integer answers.
-
-The typical use: phase 1 names the condition, which suggests the related problem in phase 2.
-
-A trap: in phase 4 the check confirms that $12$ and $8$ work, but it does not show that they are the only answer; for that, phase 3 must use equivalent steps, as it does here.
+We find two positive integers with sum $20$ and product $96$ by the four phases.
+In phase 1, the unknowns are integers $x$ and $y$, and the condition is $x + y = 20$ and $xy = 96$.
+In phase 2 we recall a related problem: the roots of $t^2 - st + p = 0$ have sum $s$ and product $p$.
+So $x$ and $y$ are the roots of $t^2 - 20t + 96 = 0$.
+In phase 3 the discriminant is $400 - 384 = 16$, so
+$$t = \frac{20 \pm 4}{2}, \qquad t = 12 \text{ or } t = 8.$$
+In phase 4 we check $12 + 8 = 20$ and $12 \cdot 8 = 96$, and we see that the method works for any sum $s$ and product $p$, with integer answers when $s^2 - 4p$ is a perfect square.
+Watch out: the check shows that $12$ and $8$ work, not that they are the only answer.
+Uniqueness comes from phase 3, because every step there was an equivalence.
 
 ### L3 human
 
-The four phases describe a cycle that also appears outside mathematics, for example in engineering design and in the scientific method, where a plan is tested and revised.
-Research on problem solving, in particular the work of Alan Schoenfeld, showed that students who learn the names of the heuristics do not use them well without practice in choosing among them.
-This led to models that add a control level above the heuristics, and to teaching that makes the solver's decisions visible.
-In this topic, the single heuristics of phase 2 have their own pages, and [[proofs and refutations|79P9CTRN0V]] extends phase 4 to the revision of the theorem itself.
-The area [[problem solving and competitions|2HNEG88WT8]] treats the training of problem solving as a subject.
+The four phases describe a cycle of planning, trying and revising that also appears in engineering design and in the scientific method.
+Research on problem solving, especially Schoenfeld's, found that students who learn the names of the heuristics do not use them well without practice in choosing among them.
+This led to models that put a level of control above the heuristics, and to teaching that makes the solver's decisions visible.
+[[Proofs and refutations|79P9CTRN0V]] extends phase 4 from the check of an answer to the revision of the theorem itself.
+[[Problem solving and competitions|2HNEG88WT8]] treats the training of problem solving as a subject of its own.
