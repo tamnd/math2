@@ -16,22 +16,33 @@ sources:
 
 ## Example
 
-Let $L$ have one constant symbol $a$ and one unary relation symbol $P$.
-Let $\Gamma = \set{\exists x \, P(x), \neg P(a)}$, where $\exists x \, P(x)$ abbreviates $\neg \forall x \, \neg P(x)$.
-We add a witness for $\exists x \, P(x)$, as in the [[Henkin construction|RY8KRKR097]].
+A theory says that something has the property $P$ and that the object named $a$ does not.
+We add a witness for the existential sentence, as in the [[Henkin construction|RY8KRKR097]], and see that the witness has to be a fresh name.
 
-1. $\Gamma$ is [[consistent|VM8TQ70CVJ]]. The [[structure|983GZBQYT4]] with universe $\set{0, 1}$, $a = 0$ and $P = \set{1}$ satisfies it, and the [[soundness theorem|AVD7T7J063]] gives consistency.
-2. The witness axiom with the old constant $a$ is $\exists x \, P(x) \to P(a)$. With $\exists x \, P(x) \in \Gamma$ and MP, the set derives $P(a)$. It also contains $\neg P(a)$, so it is inconsistent.
-3. Take instead a new constant $c$, and the witness axiom $\exists x \, P(x) \to P(c)$. The set $\Gamma \cup \set{\exists x \, P(x) \to P(c)}$ is satisfied by the structure of step 1 with $c = 1$. So it is consistent.
-4. Let $\Delta$ be a maximal consistent extension in $L \cup \set{c}$, from [[Lindenbaum's lemma|SC0BSJ3GT6]]. It contains $P(c)$ and $\neg P(a)$.
-5. If $c = a$ were in $\Delta$, then property 2 of Lindenbaum's lemma and axiom group 6, $c = a \to (P(c) \to P(a))$, would give $P(a) \in \Delta$. That contradicts $\neg P(a) \in \Delta$.
+Let $L$ have one constant symbol $a$ and one unary relation symbol $P$.
+Let $\Gamma = \{ \exists x \, P(x), \neg P(a) \}$, where $\exists x \, P(x)$ abbreviates $\neg \forall x \, \neg P(x)$.
+
+1. The set $\Gamma$ is [[consistent|VM8TQ70CVJ]].
+   The [[structure|983GZBQYT4]] with universe $\{ 0, 1 \}$, $a = 0$ and $P = \{ 1 \}$ satisfies it, and the [[soundness theorem|AVD7T7J063]] turns a model into consistency.
+2. Try the old constant $a$ as the witness.
+   The witness axiom is $\exists x \, P(x) \to P(a)$, and modus ponens with $\exists x \, P(x) \in \Gamma$ derives $P(a)$.
+   The set also contains $\neg P(a)$, so it is inconsistent.
+3. Take instead a new constant $c$ and the witness axiom $\exists x \, P(x) \to P(c)$.
+   The structure of step 1 with $c = 1$ satisfies $\Gamma$ together with this axiom, so the set is consistent.
+4. Let $\Delta$ be a maximal consistent extension in $L \cup \{ c \}$, from [[Lindenbaum's lemma|SC0BSJ3GT6]].
+   It derives $P(c)$ by modus ponens, so it contains $P(c)$, and it contains $\neg P(a)$.
+5. Suppose $c = a$ were in $\Delta$.
+   The equality axiom $c = a \to (P(c) \to P(a))$ and two uses of modus ponens would put $P(a)$ into $\Delta$, next to $\neg P(a)$, which is impossible.
 6. So $\neg (c = a) \in \Delta$, and the term model has two different elements $[a]$ and $[c]$, with $[c] \in P$ and $[a] \notin P$.
 
 ## Remarks
 
-The example shows why the witness constant must not occur in the earlier sentences.
-The witness axiom is consistent with $\Gamma$ exactly because nothing is known about $c$.
-Step 5 shows that the new constant is not a mere copy of an old term: the Henkin set can force it to differ from every old term.
+The witness axiom is consistent with $\Gamma$ exactly because $\Gamma$ says nothing about $c$.
+Any model of $\Gamma$ can interpret $c$ as one of its elements in $P$, and step 3 does exactly that.
+The old constant $a$ has no such freedom, since $\Gamma$ already says $\neg P(a)$.
+
+Step 5 shows that the new constant is not a copy of an old term: the Henkin set can force it to differ from every old term.
+If we change $\Gamma$ to $\{ \exists x \, P(x) \}$ alone, the witness $a$ would happen to be consistent, but the construction cannot know this in general, so it always takes a fresh constant.
 
 ## Explanations
 
@@ -44,13 +55,13 @@ Then $c$ and $a$ must be different things.
 
 ### L2 human
 
-1. The witness axiom $\exists x \, P(x) \to P(c)$ adds a name for an element that the theory says exists.
-2. Freshness of $c$ is the only hypothesis that makes the axiom safe.
-3. The typical use is the step "add witness axioms" in the proof of the model existence theorem.
-4. The trap is to reuse a constant of $\Gamma$ to keep the language small, as in step 2.
+The witness axiom $\exists x \, P(x) \to P(c)$ adds a name for an element that the theory says exists.
+The freshness of $c$ is the only hypothesis that makes the axiom safe, and step 2 shows what happens without it.
+This is the step "add witness axioms" in the proof of the [[model existence theorem|G0DTR159RN]].
+Watch out: it is tempting to reuse a constant of $\Gamma$ to keep the language small, and that is exactly the move that fails here.
 
 ### L3 human
 
-The axiom $\exists x \, P(x) \to P(c)$ with fresh $c$ is a conservative extension, since $c$ can be interpreted by any witness in any model of $\Gamma$.
-In the sequent calculus this is the eigenvariable condition of the left rule for $\exists$.
+The axiom $\exists x \, P(x) \to P(c)$ with fresh $c$ gives a conservative extension, since $c$ can be interpreted by any witness in any model of $\Gamma$.
+In the sequent calculus the same freshness appears as the eigenvariable condition of the left rule for $\exists$.
 In Hilbert's epsilon calculus, the term $\varepsilon x \, P(x)$ plays the role of $c$.
