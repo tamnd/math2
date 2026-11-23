@@ -41,7 +41,7 @@ Many arguments in mathematics have the shape of Barbara.
 All squares are rectangles, and all rectangles are parallelograms, so all squares are parallelograms.
 The argument is correct because of the words "all" and "are" and the places of the three terms, and not because of anything about squares.
 Aristotle saw this and replaced the terms by letters.
-That step turned the study of correct reasoning into the study of forms, and every later formal system continues it, from the [[formal systems|439M8B4DY2]] of this sub-area to the proof systems of first-order logic.
+That step turned the study of correct reasoning into the study of forms, and every later formal system continues it, from abstract [[formal systems|439M8B4DY2]] to the proof systems of first-order logic.
 
 The second motive is to catch the invalid forms.
 "All squares are parallelograms, and all rectangles are parallelograms, so all rectangles are squares" looks much like Barbara, but its conclusion is false.
@@ -92,7 +92,8 @@ The phrase "is a side of" is a relation between two objects, and syllogistic can
 There are $4^3 \cdot 4 = 256$ forms: four letters for each of the three propositions and four figures.
 In the traditional reading $24$ are valid, and in the modern reading $15$; the list is in [[syllogistic moods|1TD6HRM5NG]].
 A [[Venn diagram|0KCT6DPXJK]] with three circles tests any form mechanically.
-The traditional rules test it by counting: the middle term is distributed at least once, a term distributed in the conclusion is distributed in its premise, not both premises are negative, and the conclusion is negative exactly when one premise is.
+The traditional rules test it by counting.
+The middle term is distributed at least once, a term distributed in the conclusion is distributed in its premise, not both premises are negative, and the conclusion is negative exactly when one premise is.
 Distribution is explained in [[syllogistic terms|KSJ9W29KXQ]].
 
 Aristotle tested forms in a third way, by reduction.

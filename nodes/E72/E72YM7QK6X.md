@@ -36,7 +36,8 @@ Syllogistic covers one kind of valid argument: arguments about classes with "all
 Arguments whose force comes from "if", "and", "or" and "not" belong to propositional logic, which the Stoics studied apart from Aristotle's syllogistic.
 
 Traditional logic sometimes rewrote a sentence about one object as a universal one: "all things identical with $12$ are multiples of $4$".
-If we also replace the conditional by the general premise "all multiples of $4$ are even", we get "all multiples of $4$ are even, all things identical with $12$ are multiples of $4$, so all things identical with $12$ are even".
+Replace the conditional by the general premise "all multiples of $4$ are even" as well.
+The result is "all multiples of $4$ are even, all things identical with $12$ are multiples of $4$, so all things identical with $12$ are even".
 That is [[Barbara|AC6XQ4KRNT]], and it has a mood, but it is a different argument from the one with a conditional premise about one number.
 The [[hypothetical syllogism|7MT8CPCEM4]], "from $p \to q$ and $q \to r$, infer $p \to r$", is also called a syllogism, and it has no mood for the same reason.
 
