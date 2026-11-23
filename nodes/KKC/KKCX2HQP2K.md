@@ -16,114 +16,144 @@ sources:
 
 ## Definition
 
-Fix propositional variables $x_1, \dots, x_n$, and read the value $1$ as true and $0$ as false.
-A *line* is a linear inequality $\sum_{i=1}^n a_i x_i \geq \gamma$ with integer coefficients $a_1, \dots, a_n$ and an integer $\gamma$.
-A $0$-$1$ assignment *satisfies* a line when the inequality holds at that assignment.
+Cutting planes is the proof system that refutes a CNF by adding integer linear inequalities and rounding the results.
 
-A [[clause|T3SXVH3ZZC]] $C$ translates to the line
+The rounding step is the heart of the system, so we show it first.
+In the [[pigeonhole formulas|RJ571F7FF0]], let $x, y, z$ say that pigeons $1$, $2$ and $3$ sit in hole $1$.
+The clauses $\neg x \vee \neg y$, $\neg y \vee \neg z$ and $\neg x \vee \neg z$ become the inequalities $x + y \leq 1$, $y + z \leq 1$ and $x + z \leq 1$.
+Add the three inequalities:
+$$2x + 2y + 2z \leq 3.$$
+At a $0$-$1$ point the left side is even, so we may divide by $2$ and round the right side down:
+$$x + y + z \leq \lfloor 3/2 \rfloor = 1.$$
+So at most one pigeon sits in hole $1$, and one line now says what three clauses said.
+
+We now give the exact definition.
+Fix variables $x_1, \dots, x_n$ with values in $\{0, 1\}$.
+A *line* is an inequality $\sum_{i} a_i x_i \geq \gamma$ with integers $a_1, \dots, a_n$ and $\gamma$.
+A [[clause|T3SXVH3ZZC]] $C$ becomes the line
 $$\sum_{x \in C} x + \sum_{\neg x \in C} (1 - x) \geq 1,$$
-with the constants then moved to the right side.
-A $0$-$1$ assignment satisfies this line exactly when it makes some literal of $C$ true.
-For example, $x \vee \neg y \vee z$ translates to $x - y + z \geq 0$.
-A [[CNF formula|0B3D4C8YF2]] $F$ translates to the set of the lines of its clauses.
+with the constants moved to the right side, and a [[CNF formula|0B3D4C8YF2]] $F$ becomes the set of the lines of its clauses.
+The *cutting-planes system* has these axioms and rules.
 
-The *cutting-planes proof system* has the following axioms and rules.
+1. The clause axioms are the lines of the clauses of $F$.
+2. The Boolean axioms are $x_i \geq 0$ and $-x_i \geq -1$ for each $i$.
+3. Linear combination derives $\sum_i (\alpha a_i + \beta b_i) x_i \geq \alpha \gamma + \beta \delta$ from $\sum_i a_i x_i \geq \gamma$ and $\sum_i b_i x_i \geq \delta$, for integers $\alpha, \beta \geq 0$.
+4. Division derives $\sum_i (a_i / c) x_i \geq \lceil \gamma / c \rceil$ from $\sum_i a_i x_i \geq \gamma$, for an integer $c \geq 1$ that divides every $a_i$.
 
-1. **Clause axioms.** The lines of the clauses of $F$.
-2. **Boolean axioms.** The lines $x_i \geq 0$ and $-x_i \geq -1$ for $i = 1, \dots, n$.
-3. **Linear combination.** From $\sum_i a_i x_i \geq \gamma$ and $\sum_i b_i x_i \geq \delta$, derive $\sum_i (\alpha a_i + \beta b_i) x_i \geq \alpha \gamma + \beta \delta$, for integers $\alpha, \beta \geq 0$.
-4. **Division with rounding.** From $\sum_i a_i x_i \geq \gamma$, derive $\sum_i (a_i / c) x_i \geq \ceil{\gamma / c}$, for an integer $c \geq 1$ that divides every $a_i$.
-
-A *cutting-planes derivation* from $F$ is a finite sequence of lines in which each line is an axiom or follows from earlier lines by a rule.
-A *cutting-planes refutation* of $F$ is a derivation whose last line is $0 \geq 1$.
-
-The measures of a derivation $\pi$ are these.
-
-- The *length* of $\pi$ is the number of its lines.
-- The *size* of $\pi$ is the total number of bits of the coefficients and constants of its lines, written in binary.
-- The *rank* of a line is $0$ for an axiom, the larger rank of the premises for a linear combination, and one more than the rank of the premise for a division. The rank of $\pi$ is the largest rank of its lines.
+A *derivation* from $F$ is a sequence of lines, each an axiom or the result of a rule applied to earlier lines.
+A *refutation* of $F$ is a derivation whose last line is $0 \geq 1$.
+The *length* of a derivation is its number of lines.
+Its *size* is the total number of bits of all coefficients and constants, written in binary.
 
 ## Notation
 
-We write CP for the cutting-planes proof system.
-A line is often written as $a^{\mathsf T} x \geq \gamma$, with $a \in \mathbb{Z}^n$.
-We also write $\sum a_i x_i \leq \gamma$ for the line $\sum (-a_i) x_i \geq -\gamma$, and an equation for the pair of its two inequalities.
-Division with rounding is also called the *Chvátal-Gomory rule*, and its conclusion is a *Chvátal-Gomory cut*.
-In the $\leq$ form, division rounds the right side down: from $\sum a_i x_i \leq \gamma$ it derives $\sum (a_i / c) x_i \leq \floor{\gamma / c}$.
+We write CP for cutting planes.
+A line is often written $a^{\mathsf T} x \geq \gamma$ with $a \in \mathbb{Z}^n$.
+We write $\sum a_i x_i \leq \gamma$ for the line $\sum (-a_i) x_i \geq -\gamma$.
+In the $\leq$ form the division rule rounds the right side down, and in the $\geq$ form it rounds up.
+The division rule is also called the *Chvátal-Gomory rule*, and its result is a *Chvátal-Gomory cut*.
+The *rank* of a derivation counts the divisions on the longest chain of premises.
 
 ## Remarks
 
-### Soundness and completeness
+### Why each rule is sound
 
-Each rule keeps every $0$-$1$ solution of its premises.
-For linear combination, this holds because $\alpha, \beta \geq 0$, so the sum of two true inequalities with these weights is true.
-For division, the left side $\sum (a_i / c) x_i$ is an integer at every integer point, since each $a_i / c$ is an integer.
-It is at least $\gamma / c$, so it is at least $\ceil{\gamma / c}$.
-The line $0 \geq 1$ has no solution, so a CNF with a refutation is unsatisfiable.
+Each rule keeps every $0$-$1$ point that satisfies its premises, so a CNF with a refutation has no satisfying assignment.
+Linear combination needs $\alpha, \beta \geq 0$.
+With $\alpha = -1$ the true line $x \geq 0$ would give $-x \geq 0$, which fails at $x = 1$.
+Division needs that $c$ divides every $a_i$.
+Then the left side $\sum (a_i / c) x_i$ is an integer at every integer point, and an integer that is at least $\gamma / c$ is at least $\lceil \gamma / c \rceil$.
+[[Rounding without divisibility|3619VP5J7J]] shows a rule that drops this condition and derives a false line.
+
+### Two worked refutations
+
+The CNF with the four clauses $x \vee y$, $x \vee \neg y$, $\neg x \vee y$, $\neg x \vee \neg y$ has a [[refutation with 9 lines|Q0XHSP88VD]].
+The lines of the first two clauses are $x + y \geq 1$ and $x - y \geq 0$, and their sum is $2x \geq 1$.
+Division by $2$ gives $x \geq \lceil 1/2 \rceil = 1$.
+In the same way the last two clauses give $-x \geq 0$, and the sum of the two results is $0 \geq 1$.
+The point $x = y = 1/2$ satisfies all four clause lines, so no refutation can avoid division.
+
+The opening computation is worked out in [[a Chvátal-Gomory cut for three pairwise exclusions|6RA1FTFWYR]].
+It removes the point $(1/2, 1/2, 1/2)$, which satisfies all three pairwise lines but has $x + y + z = 3/2$.
+
+### Resolution inside cutting planes
 
 CP p-simulates [[resolution|6JSH907W5R]].
-Let a resolution step derive $E$ from $C \vee x$ and $D \vee \neg x$, where $E = C \cup D$.
-Write $L_E = \sum_{y \in E} y + \sum_{\neg y \in E} (1 - y)$, so the line of $E$ is $L_E \geq 1$.
-Add the Boolean axioms $y \geq 0$ or $1 - y \geq 0$ for the literals of $E$ that are not in $C$, and obtain $L_E + x \geq 1$ from the line of $C \vee x$.
-In the same way, obtain $L_E + (1 - x) \geq 1$ from the line of $D \vee \neg x$.
-The sum of the two lines is $2 L_E \geq 1$.
-If $E$ has $k$ negative literals, this line is $2 \sum_{y \in E} y - 2 \sum_{\neg y \in E} y \geq 1 - 2k$.
-Division by $2$ gives the right side $\ceil{(1 - 2k)/2} = 1 - k$, and this is the line $L_E \geq 1$ of $E$.
-So a resolution refutation with $S$ clauses on $n$ variables gives a CP refutation with $O(nS)$ lines.
-In particular, every unsatisfiable CNF has a CP refutation, so CP is complete.
+Let a resolution step derive $E = C \cup D$ from $C \vee x$ and $D \vee \neg x$.
+Write $L_E = \sum_{y \in E} y + \sum_{\neg y \in E} (1 - y)$, so that the line of $E$ is $L_E \geq 1$.
+Adding Boolean axioms for the missing literals turns the two premises into these lines:
+$$L_E + x \geq 1, \qquad L_E + (1 - x) \geq 1.$$
+Their sum is $2 L_E + 1 \geq 2$, that is, $2 L_E \geq 1$.
+If $E$ has $k$ negative literals, the left side of $2 L_E \geq 1$ carries the constant $2k$, and moving it gives the right side $1 - 2k$.
+Division by $2$ gives the right side $\lceil 1/2 - k \rceil = 1 - k$, which is exactly the line $L_E \geq 1$.
+So a resolution refutation with $S$ clauses on $n$ variables becomes a CP refutation with $O(nS)$ lines, and CP is complete.
 
-### The two main facts
+### What cutting planes can and cannot prove
 
-- [[The pigeonhole formulas have polynomial-size CP refutations|40KJ0VKNG7]] (Cook, Coullard and Turán). By [[Haken's theorem|4PCEYEW3JG]], they need exponential size in resolution, so CP is exponentially stronger than resolution.
-- [[Pudlák's lower bound|5RYPXFF0G2]]: the clique-colouring formulas need CP refutations of exponential length. The proof goes through [[feasible interpolation|59GJCM8C66]] and monotone real circuits.
+The [[pigeonhole formulas have CP refutations of polynomial size|40KJ0VKNG7]], by a counting argument built from the opening step.
+By [[Haken's theorem|4PCEYEW3JG]], resolution refutations of the same formulas need exponential size.
+So CP is exponentially stronger than resolution.
+
+[[Pudlák's theorem|5RYPXFF0G2]] gives the other side: the clique-coloring formulas need CP refutations of exponential length.
+The measure here is the number of lines, so the bound holds even when the coefficients are huge.
+The proof goes through [[feasible interpolation|59GJCM8C66]] and monotone real circuits.
 
 ### Relation to integer programming
 
-CP is the proof-theoretic form of the cutting-plane method of [[integer programming|7NERHHWBWR]].
-Every line derived by linear combination alone is valid for the polytope of the linear relaxation, in which each $x_i$ ranges over the interval $[0, 1]$.
-Division cuts off parts of that polytope that contain no integer point.
+CP is the proof form of the cutting-plane method of [[integer programming|7NERHHWBWR]].
+A line derived by linear combination alone holds on the whole linear relaxation, where each $x_i$ ranges over $[0, 1]$.
+Division cuts away parts of that polytope that contain no integer point.
 The [[Gomory fractional cut|AZJMC8A93H]] of the simplex method is a cut of this kind.
 
-### Examples on separate pages
+### Watch out
 
-- [[A CP refutation of the four clauses on two variables|Q0XHSP88VD]], which needs division.
-- [[A Chvátal-Gomory cut for three pairwise exclusions|6RA1FTFWYR]], which removes the point $(1/2, 1/2, 1/2)$.
-- [[Rounding without divisibility is unsound|3619VP5J7J]], a rule that is not a CP rule.
+In the $\geq$ form the right side rounds up.
+So division of $-2x - 2y \geq -3$ by $2$ gives $-x - y \geq \lceil -3/2 \rceil = -1$, and not $-2$.
+Rounding the wrong way gives a weaker line, which is sound but loses the cut.
+A second slip is to read a lower bound for CP as a lower bound for stronger systems.
+[[Frege systems|J2BAR09TPF]] p-simulate CP, and no superpolynomial lower bound is known for Frege.
+A third slip is to mix the measures: a bound on length is stronger than a bound on size, since a line may have many bits.
 
-### Coefficients
+### History
 
-The size of a CP refutation counts the bits of the coefficients, and the coefficients can be large.
-Bonet, Pitassi and Raz (1997) proved lower bounds for CP refutations whose coefficients are bounded by a polynomial in $n$.
-Impagliazzo, Pitassi and Urquhart (1994) studied tree-like CP, in which each line is used at most once as a premise.
+Chvátal related the rounding cuts to proofs in combinatorics in 1973.
+Cook, Coullard and Turán studied CP as a propositional proof system in 1987, and they gave polynomial-size refutations of the pigeonhole formulas.
+Pudlák proved the exponential lower bound on length in 1997.
+In the same year Bonet, Pitassi and Raz proved lower bounds for CP refutations whose coefficients are bounded by a polynomial.
+
+### Try it
+
+First, derive a line from $x + y \geq 1$ and $x - y \geq 0$ that has only the variable $x$.
+The sum is $2x \geq 1$, and division by $2$ gives $x \geq 1$.
+
+Second, is the step from $3x + 3y \geq 2$ to $x + y \geq 1$ a CP step?
+Yes: $3$ divides both coefficients, and $\lceil 2/3 \rceil = 1$.
 
 ## Explanations
 
 ### L1 human
 
-Write "true" as $1$ and "false" as $0$.
+Write true as $1$ and false as $0$.
 Then the clause "$x$ or $y$" says $x + y \geq 1$.
 Cutting planes reasons with such inequalities: it adds them, multiplies them by positive whole numbers, and divides them.
-The division step uses that a sum of whole numbers is a whole number.
-For example, $2x \geq 1$ with $x \in \set{0, 1}$ forces $x \geq 1$, because $x$ cannot be $1/2$.
+The division step uses the fact that a sum of whole numbers is a whole number.
+For example, $2x \geq 1$ forces $x \geq 1$, because $x$ cannot be $1/2$.
 A refutation ends with $0 \geq 1$, which shows that the clauses cannot all be true.
 
 ### L2 human
 
-We refute the clauses $x$ and $\neg x \vee y$ and $\neg y$.
-
-1. The lines are $x \geq 1$, $-x + y \geq 0$ and $-y \geq 0$.
-2. Linear combination of the first two lines with $\alpha = \beta = 1$ gives $y \geq 1$.
-3. Linear combination of $y \geq 1$ and $-y \geq 0$ gives $0 \geq 1$.
-
-This refutation uses no division, and its length is $5$.
-A typical use of CP is to count: the pigeonhole formulas say that $n + 1$ ones fit into a sum that is at most $n$.
-A trap is to measure CP proofs by their length only: the size also counts the bits of the coefficients, and the two measures can differ.
-A second trap is to divide when $c$ does not divide every coefficient, which is unsound.
+We refute the three clauses $x$, $\neg x \vee y$ and $\neg y$.
+Their lines are $x \geq 1$, $-x + y \geq 0$ and $-y \geq 0$.
+Add the first two lines:
+$$x + (-x + y) \geq 1 + 0, \quad \text{that is,} \quad y \geq 1.$$
+Add $-y \geq 0$ to this line, and the result is $0 \geq 1$.
+The refutation has $5$ lines and needs no division.
+Division is needed only when the clauses have a fractional solution, as in the four clauses on two variables.
+The typical use of CP is counting: the pigeonhole formulas say that $n + 1$ ones fit into a sum that is at most $n$, and CP can add up both sides.
 
 ### L3 human
 
-CP refutations describe a sequence of polytopes $P = P_0 \supseteq P_1 \supseteq \cdots$, where $P$ is the linear relaxation of the formula and each division removes non-integral parts.
-The rank of a refutation counts the rounds of division, and it is related to the Chvátal rank of $P$: the number of rounds of all possible cuts that reach the integer hull.
-The lower bounds for CP use the interpolation method: a short refutation gives a small monotone real circuit, as in [[feasible interpolation|59GJCM8C66]].
-Stronger semialgebraic systems, such as the [[sum-of-squares system|ZERBQSTZB5]], reason with polynomial inequalities instead of linear ones.
-A lower bound for CP says nothing about [[Frege systems|J2BAR09TPF]], which p-simulate CP.
+A CP refutation describes a chain of polytopes $P = P_0 \supseteq P_1 \supseteq \cdots$, where $P$ is the linear relaxation of the formula and each round of division removes non-integral parts.
+The rank of a refutation is related to the Chvátal rank of $P$, the number of rounds of all cuts that reach the integer hull.
+The lower bounds for CP use interpolation: a short refutation gives a small monotone real circuit, as in [[feasible interpolation|59GJCM8C66]].
+Semialgebraic systems such as [[sum of squares|ZERBQSTZB5]] reason with polynomial inequalities instead of linear ones.
