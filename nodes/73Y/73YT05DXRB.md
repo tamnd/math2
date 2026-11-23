@@ -18,26 +18,30 @@ sources:
 
 ## Example
 
-Let $\mathcal{Z} = (\Z, <)$ be the [[structure|983GZBQYT4]] of the [[integers|0C4JS9RF5M]] with the usual strict order.
+Let $\mathcal{Z} = (\mathbb{Z}, <)$ be the [[structure|983GZBQYT4]] of the [[integers|0C4JS9RF5M]] with the usual strict order.
 Let $\sigma$ be the sentence $\exists x \, \forall y \, (x < y \vee x = y)$, which says "there is a least element".
 We show that $\mathcal{Z} \not\models \sigma[s]$ for every assignment $s$, by the clauses of [[satisfaction|1WTCZB4DVB]].
 
-1. Let $s$ be any assignment. By the clause for $\exists x$, we have $\mathcal{Z} \models \sigma[s]$ only if some $a \in \Z$ gives $\mathcal{Z} \models \forall y \, (x < y \vee x = y)[s[x \mapsto a]]$.
-2. Let $a \in \Z$ be any candidate. By the clause for $\forall y$, the candidate works only if every $b \in \Z$ satisfies the disjunction under the assignment that sends $x$ to $a$ and $y$ to $b$.
-3. Take $b = a - 1$, which is an integer. Then $a < a - 1$ is false, so the first disjunct fails.
-4. Also $a = a - 1$ is false, so the second disjunct fails. By the clause for $\vee$, the disjunction fails for $b = a - 1$.
+1. Let $s$ be any assignment.
+   By the clause for $\exists x$, $\mathcal{Z} \models \sigma[s]$ holds only if some $a \in \mathbb{Z}$ gives $\mathcal{Z} \models \forall y \, (x < y \vee x = y)[s[x \mapsto a]]$.
+2. Let $a \in \mathbb{Z}$ be any candidate.
+   By the clause for $\forall y$, it works only if every $b \in \mathbb{Z}$ satisfies the disjunction under the assignment that sends $x$ to $a$ and $y$ to $b$.
+3. Take $b = a - 1$, which is an integer.
+   Then $a < a - 1$ is false, so the first disjunct fails.
+4. Also $a = a - 1$ is false, so the second disjunct fails, and by the clause for $\vee$ the disjunction fails at $b = a - 1$.
 5. So no candidate $a$ works, and by step 1, $\mathcal{Z} \not\models \sigma[s]$.
 
-The sentence fails under every assignment, so $(\mathcal{Z}, \sigma, s)$ is not an instance of satisfaction for any $s$.
+The sentence fails under every assignment, so no assignment satisfies $\sigma$ in $\mathcal{Z}$.
 
 ## Remarks
 
-The example shows how a failed existential clause is proved: we must refute every candidate, not just one.
-The example changes as follows when the structure changes.
+To show that an existential clause fails, we must refute every candidate, not just a few.
+Here one rule, $b = a - 1$, refutes all candidates at once.
 
-- In $(\N, <)$ the sentence $\sigma$ is satisfied, with the witness $x \mapsto 0$, because $0 \leq b$ for every natural number $b$.
-- In $(\Z, >)$, where $<$ is read as "greater than", $\sigma$ says "there is a greatest integer", and it fails for the same reason with $b = a + 1$.
-- The negation $\neg \sigma$ is satisfied in $\mathcal{Z}$ by every assignment, by the clause for $\neg$.
+The answer changes with the structure.
+In $(\mathbb{N}, <)$ the sentence $\sigma$ is satisfied with the witness $x \mapsto 0$, because $0 < b$ or $0 = b$ for every natural number $b$.
+If we interpret $<$ on $\mathbb{Z}$ as "greater than", then $\sigma$ says "there is a greatest integer", and it fails for the same reason with $b = a + 1$.
+In $\mathcal{Z}$ itself, the negation $\neg \sigma$ is satisfied by every assignment, by the clause for $\neg$.
 
 ## Explanations
 
@@ -50,11 +54,11 @@ For the numbers $0, 1, 2, \ldots$ the same sentence is true, because $0$ is the 
 
 ### L2 human
 
-We contrast this with the case of $\N$.
+We contrast this with $(\mathbb{N}, <)$.
+Take the witness $a = 0$ for $\exists x$.
+For each $b \in \mathbb{N}$, either $b = 0$, and then the disjunct $x = y$ holds, or $b \geq 1$, and then the disjunct $x < y$ holds, since $0 < b$.
+So the disjunction holds for every $b$, and $\sigma$ is true in $(\mathbb{N}, <)$.
 
-1. In $(\N, <)$, take the witness $a = 0$ for $\exists x$.
-2. For each $b \in \N$, either $b = 0$, and then $x = y$ holds, or $b \geq 1$, and then $0 < b$ holds.
-3. So the disjunction holds for every $b$, and $\sigma$ is satisfied in $(\N, <)$.
-
-The typical use is to separate two structures by a sentence: $\sigma$ is true in $(\N, <)$ and false in $(\Z, <)$, so these two structures are not isomorphic.
-A trap is to check only a few candidates, such as $a = 0$ and $a = -100$; the argument must work for an arbitrary integer $a$.
+The typical use is to separate two structures by a sentence.
+Since $\sigma$ is true in $(\mathbb{N}, <)$ and false in $(\mathbb{Z}, <)$, these two orders are not isomorphic.
+Watch out: checking a few candidates such as $a = 0$ and $a = -100$ proves nothing, and the argument must work for an arbitrary integer $a$.

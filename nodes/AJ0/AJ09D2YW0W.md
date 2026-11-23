@@ -15,36 +15,51 @@ sources:
 
 ## Proof
 
-A [[Herbrand model|JAKSE2A1D4]] is a model, so one direction holds.
-We prove the other direction by a [[direct proof|0NTF6DMVAP]].
+We copy the true atoms of a given model onto the closed terms, through their values, and show that every universal sentence survives the copy.
 
-1. Let $\mathcal{M}$ be a model of $\Sigma$. Let $v \colon H(L) \to M$ be the evaluation map $v(t) = t^{\mathcal{M}}$.
-2. Define the Herbrand structure $\mathcal{H}$ by $R^{\mathcal{H}} = \set{(t_1, \ldots, t_n) \in H(L)^n : (v(t_1), \ldots, v(t_n)) \in R^{\mathcal{M}}}$ for each relation symbol $R$.
-3. Claim A: for every term $u$ and every assignment $s$ in $\mathcal{H}$, $v(u^{\mathcal{H}}[s]) = u^{\mathcal{M}}[v \circ s]$. We prove it by [[structural induction|12MQ2NJ29A]] on $u$.
-4. If $u$ is a variable $x$, both sides equal $v(s(x))$.
-5. If $u$ is a constant $c$, then $u^{\mathcal{H}}[s] = c$ and $v(c) = c^{\mathcal{M}}$.
-6. If $u = f(u_1, \ldots, u_n)$, then $u^{\mathcal{H}}[s]$ is the term $f(t_1, \ldots, t_n)$ with $t_i = u_i^{\mathcal{H}}[s]$.
-7. By the definition of term values, $v(f(t_1, \ldots, t_n)) = f^{\mathcal{M}}(v(t_1), \ldots, v(t_n))$. By the induction hypothesis, $v(t_i) = u_i^{\mathcal{M}}[v \circ s]$.
-8. So $v(u^{\mathcal{H}}[s]) = f^{\mathcal{M}}(u_1^{\mathcal{M}}[v \circ s], \ldots, u_n^{\mathcal{M}}[v \circ s]) = u^{\mathcal{M}}[v \circ s]$.
-9. Claim B: for every quantifier-free formula $\varphi$ without equality and every assignment $s$ in $\mathcal{H}$, $\mathcal{H} \models \varphi[s]$ if and only if $\mathcal{M} \models \varphi[v \circ s]$. We prove it by induction on $\varphi$.
-10. Let $\varphi = R(u_1, \ldots, u_n)$ and $t_i = u_i^{\mathcal{H}}[s]$. By step 2, $(t_1, \ldots, t_n) \in R^{\mathcal{H}}$ if and only if $(v(t_1), \ldots, v(t_n)) \in R^{\mathcal{M}}$.
-11. By Claim A, $v(t_i) = u_i^{\mathcal{M}}[v \circ s]$. So $\mathcal{H} \models \varphi[s]$ if and only if $\mathcal{M} \models \varphi[v \circ s]$.
-12. For $\neg$, $\wedge$, $\vee$, $\to$ and $\leftrightarrow$, the clauses of [[satisfaction|1WTCZB4DVB]] transfer the equivalence from the parts to the whole.
-13. Now let $\forall x_1 \cdots \forall x_n \, \varphi$ be a sentence of $\Sigma$, and let $s$ be any assignment in $\mathcal{H}$.
-14. The map $v \circ s$ is an assignment in $\mathcal{M}$. Since $\mathcal{M}$ is a model of $\Sigma$, the clause for $\forall$ gives $\mathcal{M} \models \varphi[v \circ s]$.
-15. By Claim B, $\mathcal{H} \models \varphi[s]$.
-16. Every assignment in $\mathcal{H}$ satisfies $\varphi$, and every variant of an assignment is again an assignment. So $\mathcal{H} \models \forall x_1 \cdots \forall x_n \, \varphi$, by $n$ uses of the clause for $\forall$.
-17. This holds for every sentence of $\Sigma$, so $\mathcal{H}$ is a Herbrand model of $\Sigma$.
+A [[Herbrand model|JAKSE2A1D4]] is a model, so the direction from right to left holds.
+For the other direction, we give a [[direct proof|0NTF6DMVAP]].
+
+1. Let $\mathcal{M}$ be a model of $\Sigma$, and let $v \colon H(L) \to M$ be the evaluation map, $v(t) = t^{\mathcal{M}}$.
+2. Define the Herbrand structure $\mathcal{H}$ by giving each $n$-ary relation symbol $R$ the interpretation
+   $$R^{\mathcal{H}} = \{ (t_1, \ldots, t_n) \in H(L)^n : (v(t_1), \ldots, v(t_n)) \in R^{\mathcal{M}} \}.$$
+3. Claim A: for every term $u$ and every assignment $s$ in $\mathcal{H}$, we have $v(u^{\mathcal{H}}[s]) = u^{\mathcal{M}}[v \circ s]$.
+   We prove it by [[structural induction|12MQ2NJ29A]] on $u$.
+4. If $u$ is a variable $x$, both sides equal $v(s(x))$, by the clause for variables.
+5. If $u$ is a constant $c$, then $u^{\mathcal{H}}[s] = c$, and $v(c) = c^{\mathcal{M}} = u^{\mathcal{M}}[v \circ s]$.
+6. If $u = f(u_1, \ldots, u_n)$, put $t_i = u_i^{\mathcal{H}}[s]$.
+   Then $u^{\mathcal{H}}[s]$ is the term $f(t_1, \ldots, t_n)$, because $f$ denotes the term-building map in $\mathcal{H}$.
+7. By the definition of the value of a term, $v(f(t_1, \ldots, t_n)) = f^{\mathcal{M}}(v(t_1), \ldots, v(t_n))$.
+   By the induction hypothesis, $v(t_i) = u_i^{\mathcal{M}}[v \circ s]$, so
+   $$v(u^{\mathcal{H}}[s]) = f^{\mathcal{M}}(u_1^{\mathcal{M}}[v \circ s], \ldots, u_n^{\mathcal{M}}[v \circ s]) = u^{\mathcal{M}}[v \circ s].$$
+8. Claim B: for every quantifier-free formula $\varphi$ without equality and every assignment $s$ in $\mathcal{H}$, we have $\mathcal{H} \models \varphi[s]$ if and only if $\mathcal{M} \models \varphi[v \circ s]$.
+   We prove it by induction on $\varphi$.
+9. Let $\varphi = R(u_1, \ldots, u_n)$, and put $t_i = u_i^{\mathcal{H}}[s]$.
+   By step 2, $(t_1, \ldots, t_n) \in R^{\mathcal{H}}$ if and only if $(v(t_1), \ldots, v(t_n)) \in R^{\mathcal{M}}$.
+10. By Claim A, $v(t_i) = u_i^{\mathcal{M}}[v \circ s]$.
+    So $\mathcal{H} \models \varphi[s]$ if and only if $\mathcal{M} \models \varphi[v \circ s]$.
+11. For $\neg$, $\wedge$, $\vee$, $\to$ and $\leftrightarrow$, the clauses of [[satisfaction|1WTCZB4DVB]] compute the truth value of the whole from the truth values of the parts in the same way in both structures.
+    So the equivalence passes from the parts to the whole.
+12. Now let $\forall x_1 \cdots \forall x_n \, \varphi$ be a sentence of $\Sigma$, and let $s$ be any assignment in $\mathcal{H}$.
+13. The map $v \circ s$ is an assignment in $\mathcal{M}$.
+    Since $\mathcal{M}$ is a model of $\Sigma$, $n$ uses of the clause for $\forall$ give $\mathcal{M} \models \varphi[v \circ s]$.
+14. By Claim B, $\mathcal{H} \models \varphi[s]$.
+15. Step 14 holds for every assignment $s$ in $\mathcal{H}$, and every $x_i$-variant of an assignment is again an assignment.
+    So $\mathcal{H} \models \forall x_1 \cdots \forall x_n \, \varphi$, by $n$ uses of the clause for $\forall$.
+16. This holds for every sentence of $\Sigma$, so $\mathcal{H}$ is a Herbrand model of $\Sigma$.
 
 ## Idea
 
-We copy the true atoms of the given model onto the closed terms, through their values.
-Quantifier-free formulas then have the same truth value in both structures, under corresponding assignments.
-A universal sentence asks for every assignment in $\mathcal{H}$, and each of them corresponds to an assignment in $\mathcal{M}$, where the sentence holds.
-The map $v$ need not be surjective, and this is why the argument fails for $\exists$: a witness in $\mathcal{M}$ need not be the value of a closed term.
+The proof copies the given model onto the names.
+A ground atom is declared true in $\mathcal{H}$ exactly when the elements that its terms name in $\mathcal{M}$ make it true there.
+Then quantifier-free formulas get the same truth value in both structures, under matching assignments.
+A universal sentence makes a demand about every assignment in $\mathcal{H}$, and each such assignment matches an assignment in $\mathcal{M}$, where the demand is met.
+The map $v$ need not be onto, and this is exactly why the argument fails for $\exists$: a witness in $\mathcal{M}$ need not be the value of any closed term.
 
 ## Variants
 
-One can first pass to the substructure of $\mathcal{M}$ generated by the constants, which is the image of $v$, and use the fact that universal sentences are preserved under substructures.
-Then $\mathcal{H}$ is the structure pulled back along $v$ from that substructure.
-With equality, the same construction works if one replaces $H(L)$ by its quotient under $t \sim u \iff v(t) = v(u)$; then $v$ induces an isomorphism onto the generated substructure.
+One can first pass to the [[substructure|676H7EGTKJ]] of $\mathcal{M}$ generated by the constants, which is the image of $v$.
+Universal sentences are preserved under substructures, so that substructure is a model of $\Sigma$, and $\mathcal{H}$ is the structure pulled back along $v$ from it.
+
+With equality, the same construction works if we replace $H(L)$ by its quotient under the relation $t \sim u$ when $v(t) = v(u)$.
+Then $v$ induces an isomorphism from the quotient onto the generated substructure, and every universal sentence of $\Sigma$, with or without equality, holds in it.

@@ -14,39 +14,40 @@ sources:
 
 ## Example
 
-Let $\mathcal{R} = (\R, +, \cdot, 0, 1)$ be the field of [[real numbers|08J2M1JYAG]], in the signature with no symbol for the order.
-Let
+Let $\mathcal{R} = (\mathbb{R}, +, \cdot, 0, 1)$ be the field of [[real numbers|08J2M1JYAG]], in a signature with no symbol for the order, and let
 $$\varphi(x, y) = \exists z \, (\neg (z = 0) \wedge x + z \cdot z = y).$$
-We show that $\varphi$ defines the strict order: for all $a, b \in \R$, $\mathcal{R} \models \varphi[a, b]$ if and only if $a < b$.
+We show that $\varphi$ defines the strict order: for all $a, b \in \mathbb{R}$, $\mathcal{R} \models \varphi[a, b]$ holds if and only if $a < b$.
 
-1. Suppose $a < b$. Then $b - a > 0$, so $c = \sqrt{b - a}$ is a real number with $c \neq 0$.
-2. Then $a + c \cdot c = a + (b - a) = b$, so $z \mapsto c$ witnesses $\varphi[a, b]$.
-3. Conversely, suppose $c \neq 0$ and $a + c \cdot c = b$.
-4. Then $b - a = c^2 > 0$, because the square of a nonzero real is positive. So $a < b$.
+1. Suppose $a < b$.
+   Then $b - a > 0$, so $c = \sqrt{b - a}$ is a real number with $c \ne 0$.
+2. Then $a + c \cdot c = a + (b - a) = b$, so the value $c$ for $z$ witnesses $\varphi[a, b]$.
+3. Conversely, suppose that $c \ne 0$ and $a + c \cdot c = b$.
+4. Then $b - a = c^2 > 0$, because the square of a nonzero real is positive.
+   So $a < b$.
 
-So the order $<$ is a [[definable relation|1DQ1M6ZWS4]] in $\mathcal{R}$ without parameters.
+So the order $<$ is a [[definable relation|1DQ1M6ZWS4]] of $\mathcal{R}$ without parameters.
 
 ## Remarks
 
-The proof uses that every positive real has a square root; in the field $\Q$, the same formula defines a smaller relation.
-For example, $\mathcal{Q} \not\models \varphi[0, 2]$ in $(\Q, +, \cdot, 0, 1)$, because $2$ is not the square of a rational, although $0 < 2$.
-So adding $<$ to the signature of $\mathcal{R}$ gives no new definable relations: each use of $x < y$ can be replaced by $\varphi(x, y)$.
-Every automorphism of the field $\R$ preserves the order for this reason, and from this one shows that the identity is the only automorphism of the field $\R$.
+Step 1 uses that every positive real has a square root, and over the rationals this fails.
+In $(\mathbb{Q}, +, \cdot, 0, 1)$ the same formula defines a smaller relation: $\varphi[0, 2]$ fails, because $2$ is not the square of a rational, although $0 < 2$.
+Over $\mathbb{R}$, adding $<$ to the signature gives no new definable relations, since each use of $x < y$ can be replaced by $\varphi(x, y)$.
+For the same reason every automorphism of the field $\mathbb{R}$ preserves the order, and from this one shows that the identity is the only automorphism of the field $\mathbb{R}$.
 
 ## Explanations
 
 ### L1 human
 
 In the real numbers, $a$ is less than $b$ exactly when you get from $a$ to $b$ by adding a positive number.
-Positive numbers are the nonzero squares.
-So "less than" can be written using only plus and times.
+The positive numbers are exactly the squares of nonzero numbers.
+So "less than" can be written with plus and times alone.
 
 ### L2 human
 
 We check the formula on two pairs.
-
-1. For $(a, b) = (1, 5)$, take $z \mapsto 2$: $2 \neq 0$ and $1 + 2 \cdot 2 = 5$. So $\varphi[1, 5]$ holds, and $1 < 5$.
-2. For $(a, b) = (3, 3)$, a witness would need $z \cdot z = 0$, so $z = 0$, which the formula excludes. So $\varphi[3, 3]$ fails.
-
+For $(1, 5)$, take $z \mapsto 2$: then $2 \ne 0$ and
+$$1 + 2 \cdot 2 = 5,$$
+so $\varphi[1, 5]$ holds, and indeed $1 < 5$.
+For $(3, 3)$, a witness would need $3 + z \cdot z = 3$, so $z \cdot z = 0$ and $z = 0$, which the formula excludes, so $\varphi[3, 3]$ fails.
 The typical use is to remove the order symbol from a formula about real numbers.
-A trap is to omit $\neg (z = 0)$; then the formula defines $\leq$ instead of $<$.
+Watch out: if you omit $\neg (z = 0)$, the formula defines $\le$ instead of $<$.
