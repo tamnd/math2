@@ -156,8 +156,7 @@ It is not $\Pi^1_1$-conservative over PRA, since PRA has no second-order sentenc
 Herbrand proved his theorem for pure first-order logic in his thesis of 1930.
 Kreisel asked in the 1950s what a proof by restricted means tells us beyond the truth of its conclusion.
 Parsons in 1970, and Mints and Takeuti independently, proved that $\mathrm{I}\Sigma_1$ is $\Pi^0_2$-conservative over PRA.
-Sieg's Herbrand analysis appeared in 1985, and the name is his.
-Sieg gave the proof of Parsons's theorem by Herbrand analysis and used the same method for Friedman's conservation theorem for $\mathsf{WKL}_0$.
+In 1985 Sieg gave the proof of Parsons's theorem by Herbrand analysis and used the same method for Friedman's conservation theorem for $\mathsf{WKL}_0$.
 The same witnessing method, with polynomial time functions in place of primitive recursive ones, is the basis of Buss's work on bounded arithmetic in the 1980s.
 
 ### Try it
