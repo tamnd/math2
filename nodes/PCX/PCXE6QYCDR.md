@@ -14,33 +14,47 @@ sources:
 
 ## Example
 
+To prove that $2^x$ always exists, we prove by induction that the list $1, 2, 4, \dots, 2^x$ can always be written down.
+For $x = 3$ the list is $\langle 1, 2, 4, 8 \rangle$: it has length $4$, it starts at $1$, each entry is twice the one before, and its last entry is $8 = 2^3$.
+
 We show that $x \mapsto 2^x$ is [[provably total|Z742YPHPNS]] in $\mathrm{I}\Sigma_1$.
-Use a standard coding of finite sequences by numbers, with $\mathrm{lh}(s)$ for the length and $(s)_i$ for the entry $i$.
+We use a standard coding of finite sequences by numbers, with $\mathrm{lh}(s)$ for the length and $(s)_i$ for the entry $i$.
 
 1. Let $\varphi(x, y)$ say: there is $s$ with $\mathrm{lh}(s) = x + 1$, $(s)_0 = 1$, $(s)_{i+1} = 2 \cdot (s)_i$ for all $i < x$, and $(s)_x = y$.
 2. The part after "there is $s$" has only bounded quantifiers, so $\varphi$ is a [[$\Sigma_1$|CV2E6JZHVP]] formula.
-3. In $\N$, the only such $s$ is $\langle 1, 2, 4, \dots, 2^x \rangle$. So $\varphi$ defines the graph of $x \mapsto 2^x$.
-4. Let $\psi(x)$ be $\exists y\, \varphi(x, y)$. It is again $\Sigma_1$, so the [[induction schema|1QD0KDDGYJ]] of $\mathrm{I}\Sigma_1$ applies to it.
+3. In $\mathbb{N}$, the only such $s$ is $\langle 1, 2, 4, \dots, 2^x \rangle$, by induction on $i$.
+   So $\varphi$ defines the graph of $x \mapsto 2^x$.
+4. Let $\psi(x)$ be $\exists y\, \varphi(x, y)$.
+   It is again $\Sigma_1$, so the [[induction schema|1QD0KDDGYJ]] of $\mathrm{I}\Sigma_1$ applies to it.
 5. Base: $\psi(0)$ holds with $s = \langle 1 \rangle$ and $y = 1$.
-6. Step: from $\varphi(x, y)$ with witness $s$, let $s'$ be $s$ with the entry $2y$ added. Then $\varphi(x + 1, 2y)$ holds with witness $s'$.
+6. Step: from $\varphi(x, y)$ with witness $s$, let $s'$ be $s$ with the entry $2y$ added at the end.
+   Then $\varphi(x + 1, 2y)$ holds with witness $s'$.
 7. $\mathrm{I}\Sigma_1$ proves that $s'$ exists, because appending an entry to a coded sequence is a provably total operation of the coding.
-8. By $\Sigma_1$ induction, $\mathrm{I}\Sigma_1 \vdash \forall x\, \psi(x)$. So $x \mapsto 2^x$ is provably total in $\mathrm{I}\Sigma_1$.
+8. By $\Sigma_1$ induction, $\mathrm{I}\Sigma_1 \vdash \forall x\, \psi(x)$, so $x \mapsto 2^x$ is provably total in $\mathrm{I}\Sigma_1$.
 
 ## Remarks
 
-The same scheme, induction on a $\Sigma_1$ formula that asserts a computation, proves every primitive recursive function total in $\mathrm{I}\Sigma_1$.
+The same scheme proves every primitive recursive function total in $\mathrm{I}\Sigma_1$: write a $\Sigma_1$ formula that asserts a computation, and prove by $\Sigma_1$ induction that the computation can always be extended.
 The converse, that $\mathrm{I}\Sigma_1$ proves only primitive recursive functions total, is the harder half of the theorem of Parsons and Mints.
-Bounded induction $\mathrm{I}\Delta_0$ does not prove that $2^x$ is total, because its provably total functions are bounded by polynomials; this is a theorem of Parikh.
+
+Weaken the theory and the example breaks.
+Bounded induction $\mathrm{I}\Delta_0$ does not prove that $2^x$ is total, because its provably total functions are bounded by polynomials, by a theorem of Parikh.
+The induction in step 8 is on $\exists s\, (\dots)$, which is not bounded, and $\mathrm{I}\Delta_0$ cannot use it.
+Strengthen the function instead, and the [[Ackermann function|SXAKCZYGVE]] needs an induction on a $\Pi_2$ formula, which $\mathrm{I}\Sigma_1$ lacks.
 
 ## Explanations
 
 ### L1 human
 
 To show that $2^x$ always exists, we write down the list $1, 2, 4, \dots$ and prove by induction that the list can always be continued.
+For example, from $\langle 1, 2, 4 \rangle$ we get $\langle 1, 2, 4, 8 \rangle$ by doubling the last entry.
 The induction is on a statement of the form "there exists a list", and $\mathrm{I}\Sigma_1$ allows exactly this kind of induction.
 
 ### L2 human
 
-The proof is an induction on $x$ for the statement "some computation of $2^x$ exists".
-The typical use is as the model for primitive recursion: one recursion step is one induction step on a $\Sigma_1$ statement.
-The trap: the induction formula must be $\Sigma_1$, so the computation must be coded as one number $s$.
+We run the induction for $x = 0, 1, 2$ to see each step at work.
+At $x = 0$ the witness is $s = \langle 1 \rangle$, with $(s)_0 = 1 = 2^0$.
+The step doubles the last entry and appends it, so the witness for $x = 1$ is $\langle 1, 2 \rangle$ and the witness for $x = 2$ is $\langle 1, 2, 4 \rangle$.
+Each witness checks the bounded part of $\varphi$: the length is $x + 1$, and each entry is twice the one before.
+The example shows the typical use: one step of a primitive recursion is one step of an induction on a $\Sigma_1$ statement.
+The trap is to forget that the computation must be coded as a single number $s$, since only then is the induction formula $\Sigma_1$.

@@ -16,58 +16,98 @@ sources:
 
 ## Summary
 
-A [[computable function|KZSB5E471K]] $f$ is *provably total* in a theory $T$ if $T$ proves that the program for $f$ halts on every input.
-The provably total functions of a theory measure its strength in the language of growth rates.
-For [[Peano arithmetic|MPSCREYC3M]] they are the functions below the level $\varepsilon_0$ of the [[fast-growing hierarchy|R6ZC4BJGXV]], and for $\mathrm{I}\Sigma_1$ they are the [[primitive recursive functions|5NVA2JRHPV]].
+A theory proves a function total when it proves that a program for the function halts on every input.
+The functions that a theory can prove total measure its strength in the language of growth rates, and they are the main tool for natural independence results.
+
+Precisely, let $T$ be a theory that contains basic arithmetic.
+A function $f : \mathbb{N} \to \mathbb{N}$ is *provably total* in $T$ if there is a $\Sigma_1$ formula $\varphi(x, y)$ that defines the graph of $f$ in $\mathbb{N}$ and
+$$T \vdash \forall x\, \exists y\, \varphi(x, y).$$
+For [[Peano arithmetic|MPSCREYC3M]] these are the functions below the level $\varepsilon_0$ of the [[fast-growing hierarchy|R6ZC4BJGXV]], and for $\mathrm{I}\Sigma_1$ they are the [[primitive recursive functions|5NVA2JRHPV]].
 
 ## Motivation
 
-A $\Pi_2$ sentence $\forall x\, \exists y\, \varphi(x, y)$ with $\varphi$ decidable says that the function "least $y$ with $\varphi(x, y)$" is total.
-So a $\Pi_2$ sentence is unprovable in $T$ when its witness function grows faster than every provably total function of $T$.
-This is how the Goodstein, hydra and Paris-Harrington statements escape $\mathsf{PA}$.
+Many true statements of number theory have the form $\forall x\, \exists y\, \varphi(x, y)$ with $\varphi$ decidable.
+Such a statement says that the function "least $y$ with $\varphi(x, y)$" is defined everywhere.
+So a theory proves the statement exactly when it proves this witness function total.
+
+This turns unprovability into a question about speed.
+If the witness function grows faster than every provably total function of $T$, then $T$ cannot prove the statement.
+This is how [[Goodstein's theorem|XQMNJF241J]], the [[Kirby-Paris hydra|C028FF4TWM]] and the [[Paris-Harrington theorem|509ZWA0R26]] escape $\mathsf{PA}$.
+The [[fast-growing hierarchy|R6ZC4BJGXV]] and the [[Hardy hierarchy|X8RKXQASR9]] give the scale on which the speeds are compared.
 
 ## Notation
 
-Let $T$ be a theory in the language of arithmetic, or a second-order theory that contains it.
-
-- A formula is $\Sigma_1$ if it has the form $\exists z\, \theta$ with $\theta$ having only bounded quantifiers, as in the [[arithmetical hierarchy|CV2E6JZHVP]].
-- A function $f : \N \to \N$ is *provably total in $T$* if some $\Sigma_1$ formula $\varphi(x, y)$ defines the graph of $f$ in $\N$, and $T \vdash \forall x\, \exists y\, \varphi(x, y)$.
-- $\mathrm{I}\Sigma_n$ is the theory of the basic axioms for $0$, successor, $+$, $\cdot$ and $<$, with the [[induction schema|1QD0KDDGYJ]] for $\Sigma_n$ formulas only.
-- $g$ *eventually dominates* $f$ if $f(x) < g(x)$ for all large enough $x$.
+A formula is $\Sigma_1$ if it has the form $\exists z\, \theta$ where $\theta$ has only bounded quantifiers, as in the [[arithmetical hierarchy|CV2E6JZHVP]].
+$\mathrm{I}\Sigma_n$ is the theory of the basic axioms for $0$, successor, $+$, $\cdot$ and $<$, with the [[induction schema|1QD0KDDGYJ]] for $\Sigma_n$ formulas only.
+We say that $g$ *eventually dominates* $f$ if $f(x) < g(x)$ for all large enough $x$.
+Many books say *provably recursive* in place of provably total, and some require the formula $\varphi$ to describe a Turing machine computation.
+For theories that contain $\mathrm{I}\Sigma_1$ the two versions give the same class of functions.
 
 ## Remarks
 
-### Examples
+### A first example
 
-- The [[exponential function|PCXE6QYCDR]] $x \mapsto 2^x$ is provably total in $\mathrm{I}\Sigma_1$.
-- The [[Ackermann function|SXAKCZYGVE]] is provably total in $\mathsf{PA}$, but not in $\mathrm{I}\Sigma_1$.
-- Every function $f_\alpha$ of the fast-growing hierarchy with $\alpha < \varepsilon_0$ is provably total in $\mathsf{PA}$, as the Wikipedia article states.
+Take the function $x \mapsto 2^x$.
+A $\Sigma_1$ definition of its graph says: there is a coded list $s = \langle 1, 2, 4, \dots, y \rangle$ of length $x + 1$ in which each entry is twice the one before.
+To prove totality, we show by induction on $x$ that such a list exists.
+For $x = 0$ the list $\langle 1 \rangle$ works, and a list for $x$ extends to a list for $x + 1$ by adding twice its last entry.
+The induction is on a $\Sigma_1$ formula, so $\mathrm{I}\Sigma_1$ can carry it out, and [[exponentiation is provably total in IΣ1|PCXE6QYCDR]].
 
-### Non-examples
+The [[Ackermann function|SXAKCZYGVE]] needs more.
+Its totality proof is a double induction, and the outer induction is on a $\Pi_2$ formula.
+$\mathsf{PA}$ allows this, but $\mathrm{I}\Sigma_1$ does not, and in fact the Ackermann function is provably total in $\mathsf{PA}$ but not in $\mathrm{I}\Sigma_1$.
 
-- The [[function $f_{\varepsilon_0}$|Z2JK9QHKWF]] is total and computable, but not provably total in $\mathsf{PA}$.
-- The Goodstein length function $L$ of [[Goodstein's theorem|XQMNJF241J]] is total and computable, but not provably total in $\mathsf{PA}$.
-- A function that is not computable, such as the busy beaver function, is provably total in no theory, because its graph has no $\Sigma_1$ definition.
+### Examples and non-examples
 
-### Basic properties
+Every $f_\alpha$ of the fast-growing hierarchy with $\alpha < \varepsilon_0$ is provably total in $\mathsf{PA}$, by induction up to $\alpha$, which $\mathsf{PA}$ proves for each such $\alpha$.
+The function [[$f_{\varepsilon_0}$ is not|Z2JK9QHKWF]], although it is total and computable.
+The length function $L$ of Goodstein sequences is another total computable function that $\mathsf{PA}$ does not prove total.
+A function that is not computable, such as the busy beaver function, is provably total in no theory at all.
+The reason is that a total function with a $\Sigma_1$ graph is computable: search for the least witness, so the busy beaver function has no $\Sigma_1$ definition of its graph.
 
-- If $T$ is $\Sigma_1$-sound, every provably total function of $T$ is total and computable: search for the least witness $z$ of $\varphi(x, y)$.
-- The provably total functions of a $\Sigma_1$-sound theory with a computable set of axioms do not include all total computable functions. The function $x \mapsto f_x(x) + 1$, over the list $f_0, f_1, \dots$ of the provably total functions, is total, computable and not in the list.
-- **Theorem** (Kreisel). The provably total functions of $\mathsf{PA}$ are the functions defined by recursion along well-orders of type below $\varepsilon_0$.
-- **Theorem** (Wainer). Each provably total function of $\mathsf{PA}$ is eventually dominated by some $f_\alpha$ with $\alpha < \varepsilon_0$.
-- **Theorem** (Parsons; Mints). The provably total functions of $\mathrm{I}\Sigma_1$ are the primitive recursive functions.
-- So a function that eventually dominates every $f_\alpha$ with $\alpha < \varepsilon_0$ is not provably total in $\mathsf{PA}$.
+### The characterization theorems
+
+Three theorems describe the provably total functions of the standard theories.
+
+1. Kreisel: the provably total functions of $\mathsf{PA}$ are the functions defined by recursion along well-orders of type below $\varepsilon_0$.
+2. Wainer and Schwichtenberg: a function is provably total in $\mathsf{PA}$ exactly when it is computable with a running time bounded by some $f_\alpha$ with $\alpha < \varepsilon_0$.
+   In particular each provably total function of $\mathsf{PA}$ is eventually dominated by some such $f_\alpha$.
+3. Parsons, and independently Mints: the provably total functions of $\mathrm{I}\Sigma_1$ are the primitive recursive functions.
+
+From theorem 2, a function that eventually dominates every $f_\alpha$ with $\alpha < \varepsilon_0$ is not provably total in $\mathsf{PA}$.
+That is the step behind every unprovability proof by growth rate.
+
+### No theory gets them all
+
+If $T$ is sound for $\Sigma_1$ sentences, every provably total function of $T$ is total and computable.
+But if $T$ has a computable set of axioms, its provably total functions are not all the total computable functions.
+List them as $h_0, h_1, h_2, \dots$ by running through the proofs of $T$.
+Then $x \mapsto h_x(x) + 1$ is total and computable, but it differs from each $h_i$ at the input $i$.
+
+### Watch out
+
+Provable totality is a property of a function together with a definition.
+Two $\Sigma_1$ formulas can define the same graph in $\mathbb{N}$, while $T$ proves totality for one and not for the other.
+For example, let $\varphi$ define $x \mapsto 0$ and let $\varphi'$ say "$y = 0$ and the Goodstein sequence of $x$ reaches $0$".
+Both define the zero function in $\mathbb{N}$, but $\mathsf{PA}$ proves $\forall x\, \exists y\, \varphi'(x, y)$ only if it proves Goodstein's theorem, which it does not.
+By the definition, a function counts as provably total when at least one defining formula works.
+
+A second slip: "not provably total" does not mean "not total".
+The non-examples above are total, and stronger theories prove it.
 
 ### History
 
-Georg Kreisel characterized the provably recursive functions of $\mathsf{PA}$ through recursion along ordinals below $\varepsilon_0$, using the methods of Gentzen's [[consistency proof|QPV0HNP22S]].
-Stanley Wainer described them through the fast-growing hierarchy.
+Georg Kreisel characterized the provably recursive functions of $\mathsf{PA}$ through recursion along ordinals below $\varepsilon_0$, with the methods of [[Gentzen's consistency proof|QPV0HNP22S]] of 1936.
+Stanley Wainer and Helmut Schwichtenberg described them through the fast-growing hierarchy.
 Charles Parsons, and independently Grigori Mints, showed that $\mathrm{I}\Sigma_1$ proves total exactly the primitive recursive functions.
 
-### Common errors
+### Try it
 
-- Provable totality depends on the formula. The same function can be provably total through one definition and not through another, unless the definitions are provably equivalent.
-- "Not provably total" does not mean "not total". The functions in the non-examples are total, and stronger theories prove it.
+First, is $x \mapsto x^2$ provably total in $\mathrm{I}\Sigma_1$?
+Yes, since it is primitive recursive, and $\mathrm{I}\Sigma_1$ proves every primitive recursive function total.
+
+Second, why is $f_\omega$ not provably total in $\mathrm{I}\Sigma_1$?
+Because $f_\omega$ is not primitive recursive, as it eventually dominates each $f_n$, and $\mathrm{I}\Sigma_1$ proves only primitive recursive functions total.
 
 ## Explanations
 
@@ -76,22 +116,23 @@ Charles Parsons, and independently Grigori Mints, showed that $\mathrm{I}\Sigma_
 A computer program computes a function when it stops on every input.
 A system of axioms may or may not be able to prove that a given program always stops.
 The functions whose programs a theory can prove to stop are its provably total functions.
+For example, a program that doubles $1$ again and again $x$ times computes $2^x$, and weak axioms already prove that it stops.
 Stronger theories can prove that faster-growing functions are total.
 
 ### L2 human
 
-How the notion gives unprovability, in steps.
-
-1. Take a true statement "for every $x$ there is $y$ with $\varphi(x, y)$", where $\varphi$ is decidable.
-2. Let $g(x)$ be the least such $y$. If the theory proves the statement, then $g$ is provably total.
-3. Show that $g$ eventually dominates every provably total function of the theory.
-4. Then $g$ is not provably total, so the theory does not prove the statement.
-
-The typical use is with $\mathsf{PA}$ and step 3 checked against the functions $f_\alpha$ with $\alpha < \varepsilon_0$.
-The trap: step 3 needs domination by $g$ itself, not by a function that is merely related to $g$.
+Here is how the notion gives unprovability, worked for Goodstein's theorem.
+The statement is "for every $m$ there is $k$ with $G_k = 0$", and the test $G_k = 0$ is decidable.
+Let $L(m)$ be the least such $k$, so $L(3) = 6$ and $L(2) = 4$.
+If $\mathsf{PA}$ proved the statement, $L$ would be provably total in $\mathsf{PA}$.
+Then theorem 2 would give some $\alpha < \varepsilon_0$ with $L(m) < f_\alpha(m)$ for all large $m$.
+But $L(m) = H_{o_2(m)}(3) - 2$, and this escapes every such bound for infinitely many $m$.
+So $\mathsf{PA}$ does not prove the statement.
+The example shows the typical use: find the witness function, then compare it with the fast-growing hierarchy.
 
 ### L3 human
 
-The provably total functions of a theory are a coarse invariant: theories with the same $\Pi_2$ consequences have the same provably total functions.
-For theories with an [[ordinal analysis|C5E5TG8PGP]], they are usually the functions eventually dominated by $f_\alpha$ with $\alpha$ below the [[proof-theoretic ordinal|C72RBH0CDR]], for a suitable choice of fundamental sequences.
-Indicators give the same functions from the model-theoretic side, and the [[Hardy hierarchy|X8RKXQASR9]] gives the length functions of Goodstein sequences and hydra battles.
+The provably total functions are a coarse invariant: theories with the same $\Pi_2$ consequences have the same provably total functions.
+For theories with an [[ordinal analysis|C5E5TG8PGP]], they are usually the functions dominated by $f_\alpha$ with $\alpha$ below the [[proof-theoretic ordinal|C72RBH0CDR]], for a suitable choice of fundamental sequences.
+The [[indicators|JWTZ8NVVGK]] of Paris and Kirby give the same information from the side of models.
+The [[Hardy hierarchy|X8RKXQASR9]] gives the length functions of Goodstein sequences and hydra battles on the same scale.

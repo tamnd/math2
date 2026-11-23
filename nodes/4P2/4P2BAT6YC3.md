@@ -24,76 +24,131 @@ inventory: [AC9YJ8WWJ9]
 
 ## Statement
 
+The strengthened finite Ramsey theorem is the finite Ramsey theorem with one extra demand: the one-colored set must have at least as many elements as its least element.
+That small demand makes the theorem true but unprovable in Peano arithmetic.
+
 For a set $S$ and $n \ge 1$, let $[S]^n$ be the set of the $n$-element subsets of $S$.
-A *$k$-colouring* of $[S]^n$ is a map $c : [S]^n \to \set{1, \dots, k}$.
+A *$k$-coloring* of $[S]^n$ is a map $c : [S]^n \to \{ 1, \dots, k \}$.
 A set $Y \subseteq S$ is *homogeneous* for $c$ if $c$ is constant on $[Y]^n$.
-A finite nonempty set $Y$ of positive integers is *large* if $\abs{Y} \ge \min Y$.
+A finite nonempty set $Y$ of positive integers is *large*, or *relatively large*, if $\lvert Y \rvert \ge \min Y$.
 
 **Theorem** (strengthened finite Ramsey theorem, $\mathrm{PH}$).
 For all positive integers $n$, $k$ and $m$ there is a positive integer $N$ with the following property.
-For every $k$-colouring $c$ of $[\set{1, \dots, N}]^n$ there is a large homogeneous set $Y \subseteq \set{1, \dots, N}$ with $\abs{Y} \ge m$.
+For every $k$-coloring $c$ of $[\{ 1, \dots, N \}]^n$ there is a large homogeneous set $Y \subseteq \{ 1, \dots, N \}$ with $\lvert Y \rvert \ge m$.
 
-The [[proof|Q0RKBRZXBD]] derives it from the infinite Ramsey theorem by compactness.
-The theorem is true and provable in $\mathsf{ZFC}$, and in [[second-order arithmetic|DC60FYCSPM]].
+The [[proof|Q0RKBRZXBD]] derives the theorem from the infinite [[Ramsey theorem|00TQV3F5S4]] by compactness.
+The theorem is provable in $\mathsf{ZFC}$ and in [[second-order arithmetic|DC60FYCSPM]].
 By the [[Paris-Harrington theorem|509ZWA0R26]], it is not provable in [[Peano arithmetic|MPSCREYC3M]] $\mathsf{PA}$.
 
 ## Remarks
 
+### What "large" means
+
+The set $\{ 3, 5, 8 \}$ is large: it has $3$ elements, and its least element is $3$.
+The set $\{ 5, 8, 9 \}$ is not large: it also has $3$ elements, but its least element is $5$.
+So largeness ties the size of a set to where the set starts.
+A set that starts at $1$ is always large, and a set that starts at $100$ needs at least $100$ elements.
+
+### A first case by hand
+
+Take exponent $n = 1$, so that we color single points, with $k = 2$ colors and $m = 3$.
+A set of points is homogeneous when all its points have the same color.
+We show that $N = 5$ works and $N = 4$ does not.
+
+Color each point of $\{ 1, 2, 3, 4, 5 \}$ red or blue.
+By the pigeonhole principle, one color class $Y$ has $\lvert Y \rvert = j \ge 3$ points.
+The least point of a $j$-element subset of $\{ 1, \dots, 5 \}$ is at most $5 - j + 1$, so:
+$$\min Y \le 6 - j \le j, \quad \text{because } j \ge 3.$$
+So $Y$ is a large homogeneous set with at least $3$ elements.
+
+For $N = 4$, color $\{ 1, 2 \}$ red and $\{ 3, 4 \}$ blue.
+Every homogeneous set lies inside one class, so it has at most $2$ elements, and $m = 3$ fails.
+So the least $N$ for these parameters is $5$.
+
 ### Why each hypothesis is needed
 
-- The word "large" is what makes the theorem strong. Without it, the statement is the [[finite Ramsey theorem|YSZ82MRXT8]], which $\mathsf{PA}$ proves.
-- The colours are on a set of *positive* integers. If $0$ were allowed, then $Y = \set{0}$ would always be large, and the condition would say nothing for $m = 1$.
-- The number of colours $k$ is finite. With infinitely many colours, the colouring that gives every $n$-set its own colour has no homogeneous set of size $n + 1$.
-- The theory matters: $\mathsf{PA}$ does not prove $\mathrm{PH}$, but $\mathsf{PA}$ plus the $1$-consistency of $\mathsf{PA}$ proves it, and so does $\mathsf{ZFC}$.
+The word "large" is the whole difference.
+Without it, the statement is the [[finite Ramsey theorem|YSZ82MRXT8]], and $\mathsf{PA}$ proves that with explicit bounds.
 
-### Consequences
+The points are positive integers.
+If $0$ were allowed, the set $\{ 0 \}$ would be large, and largeness would mean nothing near the bottom.
 
-- For $n = 1$, $k = 2$ and $m = 3$, the least $N$ is $5$. If $\set{1, \dots, 5}$ has two colours, one colour class $Y$ has at least $3$ points, and its least point is at most $3 \le \abs{Y}$.
-- For $N = 4$ the colouring with classes $\set{1, 2}$ and $\set{3, 4}$ has no homogeneous set with $3$ points, so $N = 4$ is too small.
-- The least $N$, as a function of $n$, $k$ and $m$, grows faster than every function that $\mathsf{PA}$ proves total. This is the content of the [[Paris-Harrington theorem|509ZWA0R26]].
+The number $k$ of colors is fixed before $N$ is chosen.
+If the colors could grow with $N$, we could give each $n$-set its own color.
+Then a homogeneous set has at most $n$ elements, so $m = n + 1$ fails for every $N$.
 
-### Converse
+The theory must be named.
+$\mathsf{PA}$ does not prove $\mathrm{PH}$, while $\mathsf{PA}$ plus the $1$-consistency of $\mathsf{PA}$ proves it, and so does $\mathsf{ZFC}$.
 
-The converse, from $\mathrm{PH}$ back to the infinite Ramsey theorem, is false in a precise sense.
-$\mathrm{PH}$ is a true sentence of first-order arithmetic, so it holds in the world of computable sets.
-There the infinite Ramsey theorem for pairs fails, because Specker gave a computable colouring of pairs with no computable infinite homogeneous set.
+### What it gives you
 
-### Generalizations
+Let $\sigma(n, k, m)$ be the least $N$ in the theorem.
+The case above gives $\sigma(1, 2, 3) = 5$.
+For exponent $1$ the theorem is only the pigeonhole principle, and the values are small.
+As the exponent grows, $\sigma$ grows so fast that the function $x \mapsto \sigma(x, x, x)$ eventually dominates every function that $\mathsf{PA}$ [[proves total|Z742YPHPNS]].
+This is the growth form of the [[Paris-Harrington theorem|509ZWA0R26]].
 
-- The [[Kanamori-McAloon theorem|NM5WYBK6BG]] replaces "large" by min-homogeneity for regressive colourings, and it is also unprovable in $\mathsf{PA}$.
-- "Large" can be replaced by other notions of largeness of finite sets, for example $\abs{Y} \ge f(\min Y)$ for a fixed function $f$.
+### The converse and generalizations
+
+The infinite Ramsey theorem gives $\mathrm{PH}$, but $\mathrm{PH}$ does not give the infinite Ramsey theorem back.
+$\mathrm{PH}$ is a true sentence of first-order arithmetic, so it holds in the model of second-order arithmetic whose sets are the computable sets.
+In that model the infinite Ramsey theorem for pairs fails, because Specker gave a computable $2$-coloring of pairs with no computable infinite homogeneous set.
+
+The [[Kanamori-McAloon theorem|NM5WYBK6BG]] is a principle of the same kind: it uses regressive colorings and min-homogeneous sets in place of largeness.
+Largeness itself can be strengthened to $\lvert Y \rvert \ge g(\min Y)$ for a fixed increasing function $g$, and the compactness proof still works.
+
+### Watch out
+
+A common slip is to check largeness against the number $N$ or against $m$ instead of against $\min Y$.
+For example, with $m = 3$ the set $\{ 4, 5, 6 \}$ has $3 \ge m$ elements, but it is not large, because $3 < 4$.
+Both conditions must hold at once: $\lvert Y \rvert \ge m$ and $\lvert Y \rvert \ge \min Y$.
+
+A second slip is to read "unprovable" as "false".
+The theorem is true, and $\mathsf{ZFC}$ proves it; only $\mathsf{PA}$ fails to prove it.
+
+### Try it
+
+First, which of $\{ 2, 7 \}$ and $\{ 4, 5, 6 \}$ is large?
+The set $\{ 2, 7 \}$ is large, since $2 \ge 2$, and $\{ 4, 5, 6 \}$ is not, since $3 < 4$.
+
+Second, find $\sigma(1, 2, 2)$, the least $N$ for exponent $1$, two colors and $m = 2$.
+For $N = 2$ the coloring $\{ 1 \}$, $\{ 2 \}$ has no homogeneous set with $2$ points.
+For $N = 3$ some class has $2$ points, and its least point is at most $2$, so the answer is $3$.
 
 ## History
 
 Jeff Paris and Leo Harrington stated this principle in 1977, in "A mathematical incompleteness in Peano arithmetic" in the Handbook of Mathematical Logic.
-They showed in the same paper that it is true but not provable in $\mathsf{PA}$.
+In the same paper they showed that it is true but not provable in $\mathsf{PA}$.
 
 ## Explanations
 
 ### L1 human
 
-Colour the numbers from $1$ to $N$, or the pairs of them, with a few colours.
-Ramsey's theorem says that a big enough $N$ always gives a large group with only one colour.
+Color the numbers from $1$ to $N$, or the pairs of them, with a few colors.
+Ramsey's theorem says that a big enough $N$ always gives a big group with only one color.
 The strengthened form asks a little more: the group must have at least as many members as its smallest member.
-For example a group of three numbers that starts at $2$ or $3$ is allowed, but a group of three numbers that starts at $4$ is not.
-The theorem is true, but the $N$ that it needs grows so fast that ordinary arithmetic cannot prove that it exists.
+A group of three numbers that starts at $2$ or $3$ is allowed, but a group of three numbers that starts at $4$ is not.
+The theorem is true, but the $N$ that it needs grows so fast that ordinary arithmetic cannot prove that it always exists.
 
 ### L2 human
 
-A worked check for $n = 1$, $k = 2$ and $m = 3$, where a colouring of $1$-element sets is a colouring of points.
+We find the least $N$ for exponent $1$, three colors and $m = 2$.
+A homogeneous set is a set of points of one color, and we need one with at least $2$ points and least point at most its size.
+For $N = 3$, the coloring that gives $1$, $2$ and $3$ three different colors has only one-point classes, so $N = 3$ fails.
+For $N = 4$, four points and three colors force a class $Y$ with $\lvert Y \rvert = j \ge 2$ points.
+Its least point satisfies the bound:
+$$\min Y \le 4 - j + 1 = 5 - j \le 3.$$
+That is not enough when $j = 2$: the coloring with classes $\{ 1 \}$, $\{ 2 \}$ and $\{ 3, 4 \}$ has only the class $\{ 3, 4 \}$ with two points, and $2 < 3$.
+So $N = 4$ fails too.
+For $N = 5$, either some class has $3$ points, with least point at most $3$, or two classes have $2$ points each, and the smaller of their least points is at most $2$.
+In both cases a large class with at least $2$ points exists, so the least $N$ is $5$.
 
-1. Let $N = 5$, and colour each point of $\set{1, 2, 3, 4, 5}$ red or blue.
-2. One colour class $Y$ has at least $3$ points, by the pigeonhole principle.
-3. Every subset of a colour class is homogeneous, because $n = 1$.
-4. The class $Y$ has at least $3$ points among $5$, so its least point is at most $5 - \abs{Y} + 1 \le \abs{Y}$. So $Y$ is large.
-5. For $N = 4$, the classes $\set{1, 2}$ and $\set{3, 4}$ have only $2$ points each, so no homogeneous set has $3$ points.
-
-The typical use of the theorem is as a test case: a short statement about finite sets that needs infinite methods.
-The trap: "unprovable" here means unprovable in $\mathsf{PA}$, not false and not unprovable in $\mathsf{ZFC}$.
+The problem shows how largeness pushes $N$ up: the plain pigeonhole bound would stop at $N = 4$.
+The typical use of the theorem is as a test case, a short statement about finite sets whose proof needs infinite methods.
 
 ### L3 human
 
-The theorem is a $\Pi_2$ sentence, and its truth comes from the infinite [[Ramsey theorem|00TQV3F5S4]] by compactness, as in the [[proof|Q0RKBRZXBD]].
-The condition $\abs{Y} \ge \min Y$ ties the size of a homogeneous set to its position, and this lets homogeneous sets in non-standard models define initial segments that are models of $\mathsf{PA}$.
-This is the start of the method of [[indicators|JWTZ8NVVGK]].
-Over a weak base theory $\mathrm{PH}$ is equivalent to the $1$-consistency of $\mathsf{PA}$, and its least witness grows like the function $f_{\varepsilon_0}$ of the [[fast-growing hierarchy|R6ZC4BJGXV]].
+The theorem is a $\Pi_2$ sentence, and its truth comes from the infinite Ramsey theorem by compactness, as in the [[proof|Q0RKBRZXBD]].
+The condition $\lvert Y \rvert \ge \min Y$ ties the size of a homogeneous set to its position.
+In a [[non-standard model|1QWN5CV4CG]] of $\mathsf{PA}$, this lets homogeneous sets cut out initial segments that are themselves models of $\mathsf{PA}$, which is the method of [[indicators|JWTZ8NVVGK]].
+Over $\mathsf{PA}$, $\mathrm{PH}$ is equivalent to the $1$-consistency of $\mathsf{PA}$, and its witness function is measured against the [[fast-growing hierarchy|R6ZC4BJGXV]] at the level $\varepsilon_0$.
