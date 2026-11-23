@@ -17,16 +17,20 @@ sources:
 ## Example
 
 Take atoms $p$ ("the patient recovers") and $q$ ("the treatment is cheap").
-Write a world as $ab$, with $a$ the value of $p$ and $b$ the value of $q$, and rank the worlds by the [[total order|0316AYH1SC]]
-$$11 > 10 > 01 > 00.$$
-We compute value judgements in [[axiological logic|4BRXSBXXWG]] with the all-all lifting.
+Write a world as $ab$, with $a$ the value of $p$ and $b$ the value of $q$, and rank the worlds by the [[total order|0316AYH1SC]] $11 > 10 > 01 > 00$.
+We compute value judgments in [[axiological logic|4BRXSBXXWG]] with the all-all lifting.
 
-1. $\mathrm{G}p$: the $p$-worlds $11, 10$ are both better than the $\neg p$-worlds $01, 00$. So $p$ is good.
-2. $\mathrm{G}q$ fails: the $q$-world $01$ is worse than the $\neg q$-world $10$.
-3. $\mathrm{B}q$ fails: the $\neg q$-world $00$ is worse than the $q$-world $11$. So $q$ is indifferent on the all-all lifting.
-4. $\mathrm{G}(p \wedge q)$: the only $(p \wedge q)$-world is $11$, the best world. So $p \wedge q$ is good.
-5. $p \succ q$: compare $|p \wedge \neg q| = \set{10}$ with $|\neg p \wedge q| = \set{01}$; $10 > 01$, so recovery is better than cheapness.
-6. Ceteris paribus, $q$ is good: holding $p$ fixed, $11 > 10$ and $01 > 00$. So in each case the cheap world beats the expensive one.
+1. The $p$-worlds $11$ and $10$ are both better than the $\neg p$-worlds $01$ and $00$.
+   So $\mathrm{G}p$ holds, and $p$ is good.
+2. $\mathrm{G}q$ fails, because the $q$-world $01$ is worse than the $\neg q$-world $10$.
+3. $\mathrm{B}q$ fails, because the $\neg q$-world $00$ is worse than the $q$-world $11$.
+   So $q$ is indifferent on the all-all lifting.
+4. The only $(p \wedge q)$-world is $11$, the best world.
+   So $\mathrm{G}(p \wedge q)$ holds.
+5. For $p \succ q$, compare $|p \wedge \neg q| = \{10\}$ with $|\neg p \wedge q| = \{01\}$.
+   Since $10 > 01$, recovery is better than cheapness.
+6. Ceteris paribus, $q$ is good: holding $p$ fixed, $11 > 10$ and $01 > 00$.
+   So in each case the cheap world beats the expensive one.
 
 ## Remarks
 
@@ -50,4 +54,4 @@ So "cheapness is good" is true in one sense and false in another.
 3. For the ceteris paribus reading, compare only worlds that agree on the other atoms.
 
 The typical use is to test a claimed value principle on a small ranking.
-A trap: "$q$ is good" is ambiguous until the lifting is fixed.
+Watch out: "$q$ is good" is ambiguous until the lifting is fixed.
