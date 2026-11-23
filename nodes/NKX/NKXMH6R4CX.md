@@ -17,7 +17,8 @@ sources:
 
 ## Proof
 
-We prove part 1 with the tree of Erdős and Rado, part 2 with a computable coloring that defeats every set computable from the halting set, and parts 3 and 4 with one construction of $\omega$-models that rests on two cited theorems.
+We prove part 1 with the tree of Erdős and Rado, and part 2 with a computable coloring that defeats every set computable from the halting set.
+Parts 3 and 4 use one construction of $\omega$-models, which rests on two cited theorems.
 
 ### Part 1: the Erdős-Rado tree
 

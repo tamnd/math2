@@ -24,6 +24,8 @@ We show that $\mathrm{RT}^3_2$ implies [[ACA0|NAASTN80QN]] over [[RCA0|XQENB067R
 We cite one lemma about $\mathsf{ACA}_0$: over $\mathsf{RCA}_0$, arithmetical comprehension follows from the statement that every [[one-to-one function|09NWETVTNY]] $f \colon \mathbb{N} \to \mathbb{N}$ has a range, a set $R$ with $n \in R \iff \exists i \, f(i) = n$.
 We argue in $\mathsf{RCA}_0 + \mathrm{RT}^3_2$ and fix a one-to-one function $f$.
 
+### The coloring and its color
+
 1. For $x < y < z$, put $c(\{x, y, z\}) = 1$ if some $i$ with $y \le i < z$ has $f(i) < x$, and $c(\{x, y, z\}) = 0$ otherwise.
    The quantifier on $i$ is bounded by $z$, so $c$ exists by $\Delta^0_1$ comprehension.
 2. By $\mathrm{RT}^3_2$ there is an infinite set $H$ on whose triples $c$ is constant.
@@ -34,6 +36,9 @@ We argue in $\mathsf{RCA}_0 + \mathrm{RT}^3_2$ and fix a one-to-one function $f$
    Since $f$ is one-to-one, the $x + 1$ values $f(i_j)$ are distinct numbers in $\{0, \dots, x - 1\}$.
 5. This contradicts the finite [[pigeonhole principle|0HGVCWQGY3]], which $\mathsf{RCA}_0$ proves.
    So the constant color is $0$.
+
+### Reading off the range
+
 6. Let $x < y$ be in $H$ and let $n < x$.
    We claim that $n$ is in the range of $f$ if and only if $f(i) = n$ for some $i < y$.
 7. The direction from right to left holds by definition.
