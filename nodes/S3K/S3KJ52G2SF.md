@@ -16,13 +16,17 @@ sources:
 
 ## Example
 
-The [[Sheffer stroke|1NNYWRN6B8]] $p \uparrow q$ is false when $p$ and $q$ are both true, and true otherwise.
+A factory makes only NAND gates, and an engineer must build NOT, AND and OR from them.
+The [[Sheffer stroke|1NNYWRN6B8]] $p \uparrow q$ is F when $p$ and $q$ are both T, and T otherwise.
 We check three [[logical equivalences|06GYGS41JK]]:
 $$\neg p \equiv p \uparrow p, \qquad p \land q \equiv (p \uparrow q) \uparrow (p \uparrow q), \qquad p \lor q \equiv (p \uparrow p) \uparrow (q \uparrow q).$$
 
-1. [[Negation|029JBBF693]]. At $p = \mathsf{T}$, $p \uparrow p = \mathsf{T} \uparrow \mathsf{T} = \mathsf{F}$. At $p = \mathsf{F}$, $p \uparrow p = \mathsf{F} \uparrow \mathsf{F} = \mathsf{T}$. These are the values of $\neg p$.
-2. [[Conjunction|025YZN3VJW]]. By step 1 applied to the formula $p \uparrow q$, the formula $(p \uparrow q) \uparrow (p \uparrow q)$ has the value of $\neg(p \uparrow q)$. Since $p \uparrow q$ has the value of $\neg(p \land q)$, this is $\neg\neg(p \land q)$, which has the value of $p \land q$.
-3. [[Disjunction|0F72FK8EKB]]. By step 1, $(p \uparrow p) \uparrow (q \uparrow q)$ has the value of $\neg p \uparrow \neg q$, which is $\neg(\neg p \land \neg q)$. By [[De Morgan's laws|09PKJKA6J0]], this has the value of $p \lor q$.
+1. [[Negation|029JBBF693]]: at $p$ = T, $p \uparrow p = \mathrm{T} \uparrow \mathrm{T} = \mathrm{F}$, and at $p$ = F, $p \uparrow p = \mathrm{F} \uparrow \mathrm{F} = \mathrm{T}$.
+   These are the values of $\neg p$.
+2. [[Conjunction|025YZN3VJW]]: by step 1 applied to the formula $p \uparrow q$, the formula $(p \uparrow q) \uparrow (p \uparrow q)$ has the value of $\neg(p \uparrow q)$.
+   Since $p \uparrow q$ has the value of $\neg(p \land q)$, this is $\neg\neg(p \land q)$, which has the value of $p \land q$.
+3. [[Disjunction|0F72FK8EKB]]: by step 1, $(p \uparrow p) \uparrow (q \uparrow q)$ has the value of $\neg p \uparrow \neg q$, which is $\neg(\neg p \land \neg q)$.
+   By [[De Morgan's laws|09PKJKA6J0]], this has the value of $p \lor q$.
 
 The table confirms steps 2 and 3 in all four rows.
 
@@ -35,13 +39,17 @@ The table confirms steps 2 and 3 in all four rows.
 
 ## Remarks
 
-The example shows that the stroke alone expresses $\neg$, $\land$ and $\lor$.
-Since $\set{\neg, \land}$ is [[functionally complete|TDZVCWYJ9F]], the stroke alone is functionally complete.
+### Completeness of the stroke
+
+The stroke alone expresses $\neg$, $\land$ and $\lor$.
+Since $\{\neg, \land\}$ is [[functionally complete|TDZVCWYJ9F]], the stroke alone is functionally complete.
 The same method gives $p \to q \equiv p \uparrow (q \uparrow q)$, because $q \uparrow q$ is $\neg q$ and $p \uparrow \neg q$ is $\neg(p \land \neg q)$.
 
+### The cost of one connective
+
 The formulas grow fast.
-The formula for $p \land q$ uses the stroke three times, and a formula with $k$ conjunctions in $\neg$, $\land$ can need many more strokes after translation.
-In circuits, each stroke is one NAND gate, so the length of the formula is the cost of the circuit.
+The formula for $p \land q$ uses the stroke three times, and the formula for $p \lor q$ also uses it three times.
+In circuits each stroke is one NAND gate, so the number of strokes is the number of gates.
 
 ## Explanations
 
@@ -54,12 +62,15 @@ Two "nots" cancel, and what is left is "$p$ and $q$".
 
 ### L2 human
 
-We write $\neg(p \lor q)$ with the stroke alone, and we check one row.
+Write $\neg(p \lor q)$ with the stroke alone, and check one row.
 
-1. By the example, $p \lor q \equiv (p \uparrow p) \uparrow (q \uparrow q)$. Call this formula $D$.
+1. By the example, $p \lor q \equiv (p \uparrow p) \uparrow (q \uparrow q)$.
+   Call this formula $D$.
 2. By step 1 of the example, $\neg D \equiv D \uparrow D$.
 3. So $\neg(p \lor q) \equiv \big((p \uparrow p) \uparrow (q \uparrow q)\big) \uparrow \big((p \uparrow p) \uparrow (q \uparrow q)\big)$.
-4. Check at $p = \mathsf{F}$, $q = \mathsf{F}$: $p \uparrow p = \mathsf{T}$, $q \uparrow q = \mathsf{T}$, so $D = \mathsf{T} \uparrow \mathsf{T} = \mathsf{F}$, and $D \uparrow D = \mathsf{F} \uparrow \mathsf{F} = \mathsf{T}$. This is the value of $\neg(\mathsf{F} \lor \mathsf{F})$.
+4. Check the row FF: $p \uparrow p = \mathrm{T}$ and $q \uparrow q = \mathrm{T}$, so $D = \mathrm{T} \uparrow \mathrm{T} = \mathrm{F}$, and $D \uparrow D = \mathrm{F} \uparrow \mathrm{F} = \mathrm{T}$.
+   This is the value of $\neg(\mathrm{F} \lor \mathrm{F})$.
 
-The typical use of these translations is to rewrite a circuit with one type of gate.
-A trap: the formula $p \uparrow q$ is not $\neg p \uparrow \neg q$; at $p = q = \mathsf{T}$ the first is $\mathsf{F}$ and the second is $\mathsf{F} \uparrow \mathsf{F} = \mathsf{T}$.
+Such translations rewrite a circuit with one type of gate.
+Watch out: $p \uparrow q$ is not $\neg p \uparrow \neg q$.
+At $p$ = $q$ = T the first is F, and the second is $\mathrm{F} \uparrow \mathrm{F} = \mathrm{T}$.
