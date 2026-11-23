@@ -34,7 +34,7 @@ A *boxed atom* is a formula $\square^k p$ with $k \geq 0$, where $\square^0 p = 
 A *positive* formula is built from variables, $\top$ and $\bot$ with $\wedge$, $\vee$, $\square$ and $\lozenge$, and a *negative* formula is $\neg \pi$ with $\pi$ positive.
 A *Sahlqvist antecedent* is built from $\top$, $\bot$, boxed atoms and negative formulas with $\wedge$, $\vee$ and $\lozenge$.
 A *Sahlqvist implication* is $\varphi \to \psi$ with $\varphi$ a Sahlqvist antecedent and $\psi$ positive.
-A *Sahlqvist formula* is built from Sahlqvist implications with $\square$ and $\wedge$, and with $\vee$ applied only to formulas that share no variable.
+A *Sahlqvist formula* is built from Sahlqvist implications with $\square$ and $\wedge$, and with $\vee$ only between formulas that share no variable.
 
 ### The theorem
 
@@ -43,7 +43,7 @@ A *Sahlqvist formula* is built from Sahlqvist implications with $\square$ and $\
 1. (Correspondence) There is a [[first-order|086QKPF0A6]] formula $c_\chi(x)$ in $R$ and $=$, computable from $\chi$, such that for every frame $\mathfrak{F} = (W, R)$ and $w \in W$, $\chi$ is true at $w$ under every valuation if and only if $\mathfrak{F} \models c_\chi[w]$.
    So $\chi$ [[corresponds|3RYBWYPJVD]] to $\forall x \, c_\chi(x)$.
 2. (Canonicity) For every normal logic $\Lambda$ containing $\chi$, the canonical frame of $\Lambda$ validates $\chi$.
-3. (Completeness) If $\Sigma$ is a set of Sahlqvist formulas, then the normal logic $\mathsf{K} \oplus \Sigma$ is strongly complete for the class of frames that satisfy $\{\forall x \, c_\chi(x) : \chi \in \Sigma\}$.
+3. (Completeness) If $\Sigma$ is a set of Sahlqvist formulas, then the normal logic $\mathsf{K} \oplus \Sigma$ is strongly complete for the frames satisfying $\{\forall x \, c_\chi(x) : \chi \in \Sigma\}$.
 
 ## Remarks
 
