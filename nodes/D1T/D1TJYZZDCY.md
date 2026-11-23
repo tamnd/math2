@@ -63,7 +63,8 @@ The direction from right to left needs the tautology $p \to (q \to (p \wedge q))
 
 The classical logics of [[neighborhood semantics|CN7HK9K1B6]] that omit $\mathrm{K}$, such as the smallest one, $\mathsf{E}$, are modal logics but not normal; see [[the neighborhood example|G2X3PKG55F]].
 Lewis's systems $\mathsf{S2}$ and $\mathsf{S3}$ are not normal, because they are not closed under necessitation.
-The set of tautologies in the modal language is closed under the three rules of a modal logic, but it is not normal: it does not contain $\mathrm{K}$, because $\square(p \to q)$, $\square p$ and $\square q$ act as three unrelated letters.
+The set of tautologies in the modal language is closed under the three rules of a modal logic, but it is not normal.
+It omits $\mathrm{K}$, because $\square(p \to q)$, $\square p$ and $\square q$ act as three unrelated letters.
 
 ### The rules you can use
 

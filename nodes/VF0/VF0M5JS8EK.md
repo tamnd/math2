@@ -25,50 +25,64 @@ Let $\sigma$ be the conjunction of three sentences in one binary relation symbol
 - Transitivity: $\forall x \forall y \forall z\, (Rxy \wedge Ryz \to Rxz)$.
 - Seriality: $\forall x \exists y\, Rxy$.
 
-1. The structure $(\N, <)$ satisfies $\sigma$: no $n < n$, the order $<$ is [[transitive|0GJZW9JFZQ]], and $n < n + 1$.
-2. So $\sigma$ is satisfiable.
-3. Let $(A, R)$ be a finite structure with $A$ nonempty that satisfies irreflexivity and transitivity.
-4. Pick $a_0 \in A$. As long as $a_i$ has an $R$-successor, pick one and call it $a_{i+1}$.
-5. By transitivity, $a_i R a_j$ for all $i < j$ in the sequence.
-6. If $a_i = a_j$ with $i < j$, then $a_i R a_i$, which irreflexivity forbids. So the $a_i$ are pairwise distinct.
-7. $A$ is finite, so the sequence stops at some $a_k$, and $a_k$ has no $R$-successor.
-8. So seriality fails at $a_k$, and $(A, R)$ does not satisfy $\sigma$.
-9. Hence $\sigma$ is satisfiable but has no finite model.
+The structure $(\mathbb{N}, <)$ satisfies $\sigma$: no $n$ has $n < n$, the order $<$ is [[transitive|0GJZW9JFZQ]], and $n < n + 1$.
+So $\sigma$ is satisfiable.
+
+Now let $(A, R)$ be a finite structure with $A$ nonempty that satisfies irreflexivity and transitivity.
+Pick $a_0 \in A$, and as long as $a_i$ has an $R$-successor, pick one and call it $a_{i+1}$.
+By transitivity, $a_i R a_j$ holds for all $i < j$ in the sequence.
+If $a_i = a_j$ with $i < j$, then $a_i R a_i$, which irreflexivity forbids, so the $a_i$ are pairwise distinct.
+$A$ is finite, so the sequence stops at some $a_k$, and $a_k$ has no $R$-successor.
+So seriality fails at $a_k$, and $(A, R)$ does not satisfy $\sigma$.
+Hence $\sigma$ is satisfiable but has no finite model.
+
+Check with three points: on $\{ 0, 1, 2 \}$ with the strict order $<$, the points $0$ and $1$ have successors, but $2$ has none.
 
 ## Remarks
 
+### The modal side
+
 The property that fails is the one in the definition: every satisfiable formula has a finite model.
 Modal formulas cannot express irreflexivity in this way.
-The modal formula $\lozenge\top \wedge \square\lozenge\top$ is true at $0$ in $(\N, <)$, which is serial and transitive.
+The modal formula $\lozenge\top \wedge \square\lozenge\top$ is true at $0$ in $(\mathbb{N}, <)$, which is serial and transitive.
 It is also true in the one-point reflexive model, which is finite, serial and transitive.
-So the modal description of $(\N, <)$ by seriality and transitivity has a finite model, while the first-order description $\sigma$ has none.
+So the modal description of $(\mathbb{N}, <)$ by seriality and transitivity has a finite model, while the first-order description $\sigma$ has none.
+
+### The two-variable fragment
+
 The [[standard translation|YW6YGBMVQY]] lands in the two-variable fragment of first-order logic.
 That fragment does have the finite model property, by a theorem of Mortimer of 1975.
-Normal modal logics can also lack the property: Makinson (Journal of Symbolic Logic 34, 1969) gave a normal logic between $\mathsf{T}$ and $\mathsf{S4}$ without it.
+The sentence $\sigma$ uses three variables in its transitivity clause, which is why it escapes this theorem.
+
+### Modal logics without the property
+
+Normal modal logics can also lack the property.
+Makinson gave a normal logic between $\mathsf{T}$ and $\mathsf{S4}$ without it in 1969.
+
+### Watch out
+
+The example is about the one sentence $\sigma$.
+It does not say that the modal logic of serial transitive frames lacks the finite model property, and in fact that logic, $\mathsf{KD4}$, has it.
 
 ## Explanations
 
 ### L1 human
 
 Imagine a line of people where each person must point to someone strictly ahead.
-Pointing is passed on: if you point past someone, you also point past the ones they point to.
+Pointing passes on: if you point at someone, you also point at everyone they point at.
 Nobody may point at themselves.
 With finitely many people, the last one has nobody to point at.
 So such a line must be endless.
 
 ### L2 human
 
-1. Assume a finite set with an irreflexive transitive relation.
-2. Follow successors from any point.
-3. Transitivity and irreflexivity forbid a repeat, so the path ends.
-4. The end point has no successor, so the relation is not serial.
-
+Follow successors from any point of a finite set with an irreflexive transitive relation.
+Transitivity and irreflexivity forbid a repeat, so the path must end, and its end point has no successor.
+So the relation is not serial.
 The typical use is to see that first-order logic can force infinite models, while basic modal logic over Kripke frames cannot.
-A trap: the example is about the one sentence $\sigma$.
-It does not say that the modal logic of serial transitive frames lacks the finite model property.
 
 ### L3 human
 
 Trakhtenbrot's theorem of 1950 says that the set of first-order sentences with a finite model is not decidable.
-Hence no Harrop-style argument can work for full first-order logic.
+So no Harrop-style argument can work for full first-order logic.
 In modal logic the finite model property, together with finite axiomatization, gives decidability by [[Harrop's theorem|VSYQ1AZ9G7]].

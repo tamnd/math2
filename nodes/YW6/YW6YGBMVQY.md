@@ -15,11 +15,18 @@ sources:
 
 ## Summary
 
-The standard translation maps each [[modal formula|G8VGTW9P4F]] $\varphi$ to a formula $\mathrm{ST}_x(\varphi)$ of [[first-order logic|086QKPF0A6]] with one free variable $x$.
-The language has a binary relation symbol $R$ and a unary predicate $P$ for each variable $p$.
-A [[Kripke model|NGHWZ9Y7ZV]] is a first-order structure for this language.
+The standard translation rewrites a [[modal formula|G8VGTW9P4F]] as a formula of [[first-order logic|086QKPF0A6]] that says the same thing about a world $x$.
+
+Here is one formula translated.
+The modal formula $\square\lozenge p$ says at a world $x$: every world that $x$ sees can see a world where $p$ holds.
+Its translation says this with quantifiers:
+$$\mathrm{ST}_x(\square\lozenge p) = \forall y\, \big( R(x, y) \to \exists x\, ( R(y, x) \wedge P(x) ) \big).$$
+The arrows of the frame become a binary relation symbol $R$, and the variable $p$ becomes a unary predicate $P$.
+The inner $\exists x$ reuses the letter $x$, and two variables are enough for every modal formula.
+
+In general, a [[Kripke model|NGHWZ9Y7ZV]] is a first-order structure for the language with $R$ and one predicate for each variable.
 By [[the correctness theorem|1HQ1W36J4V]], $\varphi$ is true at $w$ exactly when $\mathrm{ST}_x(\varphi)$ holds of $w$.
-Validity on a frame becomes a [[second-order|G6X7SZSNC5]] sentence, and this is the start of correspondence theory.
+Validity on a frame becomes a [[second-order|G6X7SZSNC5]] sentence, and this is the start of [[correspondence theory|3RYBWYPJVD]].
 
 ## Motivation
 
@@ -31,51 +38,55 @@ It also lets us ask which first-order properties modal formulas can express, and
 ## Notation
 
 Fix two individual variables $x$ and $y$.
-The translations $\mathrm{ST}_x$ and $\mathrm{ST}_y$ are defined together by [[structural induction|12MQ2NJ29A]].
-
-1. $\mathrm{ST}_x(p) = P(x)$ and $\mathrm{ST}_x(\bot) = \bot$.
-2. $\mathrm{ST}_x(\varphi \to \psi) = \mathrm{ST}_x(\varphi) \to \mathrm{ST}_x(\psi)$.
-3. $\mathrm{ST}_x(\square\varphi) = \forall y\,(R(x, y) \to \mathrm{ST}_y(\varphi))$.
-4. $\mathrm{ST}_y$ is defined in the same way with $x$ and $y$ exchanged.
-
-Then $\mathrm{ST}_x(\lozenge\varphi)$ is equivalent to $\exists y\,(R(x, y) \wedge \mathrm{ST}_y(\varphi))$.
-Some books use a new variable at each box.
-The two-variable version is due to Gabbay and gives the sharper result on the number of variables.
+The translations $\mathrm{ST}_x$ and $\mathrm{ST}_y$ are defined together by [[structural induction|12MQ2NJ29A]], with these clauses for $\mathrm{ST}_x$:
+$$\mathrm{ST}_x(p) = P(x), \quad \mathrm{ST}_x(\bot) = \bot, \quad \mathrm{ST}_x(\varphi \to \psi) = \mathrm{ST}_x(\varphi) \to \mathrm{ST}_x(\psi), \quad \mathrm{ST}_x(\square\varphi) = \forall y\, ( R(x, y) \to \mathrm{ST}_y(\varphi) ).$$
+$\mathrm{ST}_y$ is defined in the same way with $x$ and $y$ exchanged.
+Then $\mathrm{ST}_x(\lozenge\varphi)$ is equivalent to $\exists y\, ( R(x, y) \wedge \mathrm{ST}_y(\varphi) )$.
+Some books use a new variable at each box, which gives an equivalent formula with more variables.
 
 ## Remarks
 
-### Examples
+### Three translations
 
-1. $\mathrm{ST}_x(\square\lozenge p)$ is $\forall y\,(R(x, y) \to \exists x\,(R(y, x) \wedge P(x)))$, which reuses the variable $x$, see [[the translation of a box and a diamond|ZWH6KH29YT]].
-2. The frame validity of $\square p \to p$ is $\forall P\, \forall x\,(\forall y\,(R(x, y) \to P(y)) \to P(x))$, which is equivalent to $\forall x\, R(x, x)$, see [[the second-order translation of T|KM2BKWZKW8]].
-3. $\mathrm{ST}_x(\square\bot)$ is $\forall y\,(R(x, y) \to \bot)$, which says that $x$ has no successor.
+The frame validity of $\square p \to p$ is $\forall P\, \forall x\, ( \forall y\, ( R(x, y) \to P(y) ) \to P(x) )$, which is equivalent to $\forall x\, R(x, x)$, as in [[the second-order translation of T|KM2BKWZKW8]].
+$\mathrm{ST}_x(\square\bot)$ is $\forall y\, ( R(x, y) \to \bot )$, which says that $x$ has no successor.
+The translation of $\square\lozenge p$ from the summary is worked out on a model in [[the translation of a box and a diamond|ZWH6KH29YT]].
 
-### Non-examples
+### What it cannot say
 
-1. The first-order formula $R(x, x)$ is not equivalent to any $\mathrm{ST}_x(\varphi)$, since it is not invariant under [[bisimulation|X27BR4YP2Y]], see [[the reflexive point|SB9HMACX5D]].
-2. The formula "$x$ has two different successors" is not equivalent to any $\mathrm{ST}_x(\varphi)$. A world with one successor and a world with two successors, all variables false at all three successors, are bisimilar.
-3. The second-order translation of Löb's axiom $\square(\square p \to p) \to \square p$ is equivalent on frames to "transitive and conversely well-founded", which no first-order sentence expresses.
+The first-order formula $R(x, x)$ is not equivalent to any $\mathrm{ST}_x(\varphi)$, since it is not invariant under [[bisimulation|X27BR4YP2Y]], as [[the reflexive point|SB9HMACX5D]] shows.
+The formula "$x$ has two different successors" is not equivalent to any $\mathrm{ST}_x(\varphi)$ either.
+A world with one successor and a world with two successors, with all variables false at all successors, are bisimilar.
+On frames, Löb's axiom $\square(\square p \to p) \to \square p$ says "transitive and conversely well-founded", which no first-order sentence expresses.
 
-### Basic properties
+### The rules you can use
 
-1. $\mathrm{ST}_x(\varphi)$ has at most the free variable $x$, and it uses only the variables $x$ and $y$, see [[the correctness theorem|1HQ1W36J4V]].
-2. Local truth, global truth and frame validity become, in turn, a formula $\mathrm{ST}_x(\varphi)$, a sentence $\forall x\,\mathrm{ST}_x(\varphi)$, and a $\Pi^1_1$ sentence $\forall P_1 \dots \forall P_n\, \forall x\, \mathrm{ST}_x(\varphi)$.
-3. The modal consequence relation over all models is compact, since first-order logic is compact.
-4. Modal satisfiability is decidable, since the two-variable fragment of first-order logic is decidable; Mortimer proved in 1975 that this fragment has the finite model property.
-5. Up to equivalence, the translations are exactly the first-order formulas in $x$ that are invariant under bisimulation. This is van Benthem's theorem, treated in [[modal model theory|SPQVNPZDTB]].
+$\mathrm{ST}_x(\varphi)$ has at most the free variable $x$, and it uses only the variables $x$ and $y$.
+Truth at a world, truth in a model and validity on a frame become, in turn, the formula $\mathrm{ST}_x(\varphi)$, the sentence $\forall x\, \mathrm{ST}_x(\varphi)$, and the $\Pi^1_1$ sentence $\forall P_1 \dots \forall P_n\, \forall x\, \mathrm{ST}_x(\varphi)$.
+The modal consequence relation over all models is compact, since first-order logic is compact.
+Modal satisfiability is decidable, since the two-variable fragment of first-order logic is decidable, and Mortimer proved in 1975 that this fragment has the finite model property.
+Up to equivalence, the translations are exactly the first-order formulas in $x$ that are [[invariant under bisimulation|TKFFTAX30E]], which is [[van Benthem's theorem|Y89MGMWE4H]].
+
+### Watch out
+
+In $\mathrm{ST}_y(\square\varphi)$ the quantifier is on $x$, and the new $x$ shadows the old one, so the inner $x$ does not name the outer world.
+
+Frame validity is not first-order in general.
+The quantifiers over $P$ are second-order, and some formulas, such as Löb's axiom, have no first-order equivalent on frames.
+
+Distinguish truth in a model from validity on a frame: the first fixes the predicates, and the second quantifies over them.
 
 ### History
 
-Van Benthem's dissertation of 1976, Modal correspondence theory, made the translation the basis of correspondence theory.
-Gabbay observed around 1981 that two variables suffice.
-The idea of reading the truth clauses as first-order conditions is already present in Kripke's semantics.
-It is also present in the work of Kanger and Hintikka in the 1950s.
+Kanger and Hintikka in the 1950s and Kripke in 1959 and 1963 read the truth clauses as conditions on worlds and a relation.
+Van Benthem's dissertation of 1976, Modal Correspondence Theory, made the translation the basis of correspondence theory and proved the bisimulation characterization.
 
-### Common errors
+### Try it
 
-1. Reusing a variable in the wrong place: in $\mathrm{ST}_y(\square\varphi)$, the quantifier is on $x$, and the new $x$ shadows the old one.
-2. Treating frame validity as first-order: the quantifiers over $P$ are second-order, and some formulas, such as Löb's axiom, have no first-order equivalent on frames.
-3. Forgetting the predicate for a variable that does not occur in the formula. This is harmless, since the translation only uses the predicates of its variables.
+Translate $\square(p \to \square q)$.
+The outer box gives $\forall y\, ( R(x, y) \to \mathrm{ST}_y(p \to \square q) )$.
+Then $\mathrm{ST}_y(p \to \square q) = P(y) \to \forall x\, ( R(y, x) \to Q(x) )$.
+So the result is $\forall y\, ( R(x, y) \to ( P(y) \to \forall x\, ( R(y, x) \to Q(x) ) ) )$, and its only free variable is the first $x$.
 
 ## Explanations
 
@@ -87,19 +98,14 @@ After the translation, ordinary logic with "for all" and "there is" can study mo
 
 ### L2 human
 
-We translate $\square(p \to \square q)$ step by step.
-
-1. $\mathrm{ST}_x(\square(p \to \square q)) = \forall y\,(R(x, y) \to \mathrm{ST}_y(p \to \square q))$.
-2. $\mathrm{ST}_y(p \to \square q) = P(y) \to \mathrm{ST}_y(\square q)$.
-3. $\mathrm{ST}_y(\square q) = \forall x\,(R(y, x) \to Q(x))$.
-4. So the result is $\forall y\,(R(x, y) \to (P(y) \to \forall x\,(R(y, x) \to Q(x))))$.
-
-The free variable is the first $x$; the inner $x$ is bound by its own quantifier.
-A trap: the inner $\forall x$ does not talk about the world of the outer $x$.
+The translation is a recipe with one rule per connective, and the only real rule is the one for the box.
+Each box becomes a guarded quantifier "for all $y$ with $R(x, y)$", and each diamond becomes "there is $y$ with $R(x, y)$".
+Because each quantifier needs only the world it starts from, the variables can alternate, $x$ then $y$ then $x$, however deep the formula is.
+The typical use is to move a question about modal formulas into first-order logic, where compactness and other tools apply.
+Watch out: a formula true in one model is a first-order fact, but a formula valid on a frame is a second-order fact.
 
 ### L3 human
 
 The standard translation embeds the basic modal language into the two-variable fragment and into the guarded fragment, two decidable fragments of first-order logic.
 Correspondence theory studies when the $\Pi^1_1$ translation of frame validity is equivalent to a first-order sentence.
-Sahlqvist's theorem gives a large syntactic class where it is.
-The minimal valuation of [[the second-order translation of T|KM2BKWZKW8]] is the simplest case of its method.
+[[Sahlqvist's theorem|S4SSDMETJM]] gives a large syntactic class where it is, and the minimal valuation of [[the second-order translation of T|KM2BKWZKW8]] is the simplest case of its method.
