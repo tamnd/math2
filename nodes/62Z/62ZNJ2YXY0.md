@@ -16,21 +16,33 @@ sources:
 
 ## Example
 
+The input $1024$ has $11$ binary digits, but $2^{1024}$ has $1025$.
 Let $E(x) = 2^x$.
 The usual proof of $\forall x \, \exists y \, (y = 2^x)$ uses ordinary induction on $x$ with the step $2^{x + 1} = 2^x + 2^x$.
 We show that no [[feasibly constructive proof|H1B2VD0KVP]] of this statement exists, in the sense that no $\mathsf{PV}$ symbol computes $E$.
+We write $\lvert x \rvert$ for the number of binary digits of $x$.
 
-1. Bound on $\mathsf{PV}$ symbols. For each symbol $f$ of [[PV|FMM44KFZQT]] there is a polynomial $p_f$ with $\abs{f(\bar x)} \le p_f(\abs{\bar x})$. This follows by induction on the definition of $f$, and the bounding condition of limited recursion on notation gives the step.
-2. Length of $E(x)$. In binary, $2^x$ is $1$ followed by $x$ zeros, so $\abs{E(x)} = x + 1$.
-3. Comparison. Take $x = 2^k$, so $\abs{x} = k + 1$. For a fixed polynomial $p$, $2^k + 1 > p(k + 1)$ for all large $k$.
-4. For example, with $p(n) = n^3$ and $k = 12$: $\abs{E(4096)} = 4097$, while $p(13) = 2197$.
-5. By steps 1 to 3, no $\mathsf{PV}$ symbol equals $E$ on all inputs. So the existence of $2^x$ is not witnessed by any feasibly constructive proof.
+1. For each symbol $f$ of [[PV|FMM44KFZQT]] there is a polynomial $p_f$ with $\lvert f(\bar x) \rvert \le p_f(\lvert \bar x \rvert)$.
+   This follows by induction on the definition of $f$, and the bounding condition of limited recursion on notation gives the step.
+2. In binary, $2^x$ is $1$ followed by $x$ zeros, so $\lvert E(x) \rvert = x + 1$.
+3. Take $x = 2^k$, so $\lvert x \rvert = k + 1$.
+   For a fixed polynomial $p$, we have $2^k + 1 > p(k + 1)$ for all large $k$, since an exponential outgrows every polynomial.
+4. For example, with $p(n) = n^3$ and $k = 12$ we get $x = 4096$ and the comparison below.
+   $$\lvert E(4096) \rvert = 4097 > 2197 = 13^3 = p(13).$$
+5. By steps 1 to 3, no $\mathsf{PV}$ symbol equals $E$ on all inputs.
+   So the existence of $2^x$ is not witnessed by any feasibly constructive proof.
 
 ## Remarks
 
-The non-example shows that feasibility is about the length of the output as well as the running time: a function with exponentially long values cannot be polynomial-time.
-The ordinary proof by induction on $x$ is constructive, and in [[elementary function arithmetic|2JD80TE553]] it is a correct proof, but it describes a computation with $x$ doubling steps.
-If $E$ is replaced by $x \mapsto 2^{\abs{x}}$, the value has length $\abs{x} + 1$, and the function is polynomial-time; it has a feasibly constructive definition by recursion on notation.
+The non-example shows that feasibility concerns the length of the output as well as the running time.
+A function with exponentially long values cannot be polynomial-time, because a machine needs one step to write each digit.
+
+The ordinary proof by induction on $x$ is constructive, and in [[elementary function arithmetic|2JD80TE553]] it is a correct proof.
+But it describes a computation with $x$ doubling steps, and $x$ is exponential in $\lvert x \rvert$.
+
+What changes when the exponent is the length?
+The function $x \mapsto 2^{\lvert x \rvert}$ has a value with $\lvert x \rvert + 1$ digits, so it is polynomial-time.
+It has a feasibly constructive definition by recursion on notation.
 
 ## Explanations
 
@@ -43,12 +55,11 @@ A fast program cannot even write down such an answer, so no fast proof can give 
 
 ### L2 human
 
-We compare input length and output length for $E(x) = 2^x$.
-
-1. $x = 8$: $\abs{8} = 4$ and $\abs{2^8} = 9$.
-2. $x = 64$: $\abs{64} = 7$ and $\abs{2^{64}} = 65$.
-3. $x = 1024$: $\abs{1024} = 11$ and $\abs{2^{1024}} = 1025$.
-4. The output length is $2^{\abs{x} - 1} + 1$ for $x$ a power of $2$, which is exponential in $\abs{x}$.
-
-The typical use is as a test of the growth condition before one looks for a feasible proof.
-A trap is to confuse $2^x$ with $2^{\abs{x}}$, which is about $x$ and is feasible.
+Let us compare the input length and the output length of $E(x) = 2^x$ for three powers of $2$.
+For $x = 8$ the lengths are $\lvert 8 \rvert = 4$ and $\lvert 2^8 \rvert = 9$.
+For $x = 64$ they are $\lvert 64 \rvert = 7$ and $\lvert 2^{64} \rvert = 65$.
+For $x = 1024$ they are $\lvert 1024 \rvert = 11$ and $\lvert 2^{1024} \rvert = 1025$.
+In general, for $x = 2^j$ we have $\lvert x \rvert = j + 1$, so the output length is the following:
+$$\lvert 2^x \rvert = 2^j + 1 = 2^{\lvert x \rvert - 1} + 1.$$
+That is exponential in $\lvert x \rvert$, and the comparison is a quick test of the growth condition before you look for a feasible proof.
+Watch out: do not confuse $2^x$ with $2^{\lvert x \rvert}$, which lies between $x$ and $2x$ for $x \ge 1$ and is feasible.
