@@ -79,7 +79,7 @@ Signed tableaux write $T\varphi$ and $F\varphi$ in place of $\varphi$ and $\neg\
 ### The rules in full
 
 Fix a first-order language $L$ without the equality symbol, and let $L^{+}$ add a countable set of parameters.
-The tableaux for a set $\Gamma$ of sentences of $L$ are the finite labelled trees that these rules make.
+The tableaux for a set $\Gamma$ of sentences of $L$ are the finite labeled trees that these rules make.
 
 1. Start: a single branch whose nodes carry members of $\Gamma$ is a tableau.
 2. Premise rule: add any $\sigma \in \Gamma$ at the end of a branch.
