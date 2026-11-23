@@ -18,13 +18,16 @@ sources:
 
 ## Example
 
-We build a complete consistent theory in $L_A$ that contains $\mathsf{PA}$ and is not [[true arithmetic|DX0KPMH4QZ]].
+A theory can be complete, consistent and contain $\mathsf{PA}$, and still contain a false sentence.
+We build such a theory in $L_A$ and check that it is not [[true arithmetic|DX0KPMH4QZ]].
 
-1. $\mathsf{PA} + \neg \mathrm{Con}(\mathsf{PA})$ is consistent. Otherwise $\mathsf{PA} \vdash \mathrm{Con}(\mathsf{PA})$, which the [[second incompleteness theorem|4PZM5GJTR5]] forbids, since $\mathsf{PA}$ is consistent.
+1. $\mathsf{PA} + \neg \mathrm{Con}(\mathsf{PA})$ is consistent.
+   Otherwise $\mathsf{PA} \vdash \mathrm{Con}(\mathsf{PA})$, which the [[second incompleteness theorem|4PZM5GJTR5]] forbids, since $\mathsf{PA}$ is consistent.
 2. By the [[completeness theorem|WQ1ZE255SF]], $\mathsf{PA} + \neg \mathrm{Con}(\mathsf{PA})$ has a model $M$.
-3. Let $T = \mathrm{Th}(M)$, the set of sentences true in $M$. It is a [[complete theory|655K8Y7VS8]], consistent, and it contains every axiom of $\mathsf{PA}$.
+3. Let $T = \mathrm{Th}(M)$, the set of sentences true in $M$.
+   It is a consistent [[complete theory|655K8Y7VS8]], and it contains every axiom of $\mathsf{PA}$.
 4. $\neg \mathrm{Con}(\mathsf{PA}) \in T$, since $M \models \neg \mathrm{Con}(\mathsf{PA})$.
-5. $\mathrm{Con}(\mathsf{PA}) \in \mathrm{TA}$, by [[this example|EQR2AMD0GQ]], so $\neg \mathrm{Con}(\mathsf{PA}) \notin \mathrm{TA}$.
+5. $\mathrm{Con}(\mathsf{PA}) \in \mathrm{TA}$, by [[the consistency example|EQR2AMD0GQ]], so $\neg \mathrm{Con}(\mathsf{PA}) \notin \mathrm{TA}$.
 6. By steps 4 and 5, $T \ne \mathrm{TA}$.
 
 So completeness, consistency and the axioms of $\mathsf{PA}$ do not single out $\mathrm{TA}$.
@@ -33,8 +36,10 @@ So completeness, consistency and the axioms of $\mathsf{PA}$ do not single out $
 
 The model $M$ is a [[nonstandard model|1QWN5CV4CG]]: it contains an element $p$ that $M$ believes codes a proof of $0 = S0$.
 That element is nonstandard, since no standard number codes such a proof.
-Not every nonstandard model of $\mathsf{PA}$ is of this kind: nonstandard models of $\mathrm{TA}$ exist by compactness, and their theory is $\mathrm{TA}$.
-$\mathrm{TA}$ is the only complete extension of $\mathsf{PA}$ that is true in $\mathfrak{N}$, and it is the theory of exactly the models elementarily equivalent to $\mathfrak{N}$.
+
+Not every nonstandard model of $\mathsf{PA}$ is of this kind.
+Nonstandard models of $\mathrm{TA}$ exist by compactness, and their theory is $\mathrm{TA}$.
+$\mathrm{TA}$ is the only complete extension of $\mathsf{PA}$ that is true in $\mathfrak{N}$.
 There are $2^{\aleph_0}$ complete consistent extensions of $\mathsf{PA}$ in $L_A$, and $\mathrm{TA}$ is one of them.
 
 ## Explanations
@@ -52,8 +57,11 @@ We see what $M \models \neg \mathrm{Con}(\mathsf{PA})$ means.
 
 1. $\neg \mathrm{Con}(\mathsf{PA})$ is $\exists p \, \mathrm{Prf}_{\mathsf{PA}}(p, \ulcorner 0 = S0 \urcorner)$, a $\Sigma_1$ sentence.
 2. In $M$ some element $p$ satisfies $\mathrm{Prf}_{\mathsf{PA}}(p, \ulcorner 0 = S0 \urcorner)$.
-3. If $p$ were a standard number $n$, then $\mathfrak{N}$ would satisfy the same $\Delta_0$ statement, because $\Delta_0$ formulas with standard parameters have the same truth value in $\mathfrak{N}$ and in $M$.
-4. Then $n$ would code a real proof of $0 = S0$, which contradicts the consistency of $\mathsf{PA}$. So $p$ is nonstandard.
+3. Suppose $p$ were a standard number $n$.
+   $\mathfrak{N}$ is an initial segment of $M$, so a $\Delta_0$ formula with standard parameters has the same truth value in $\mathfrak{N}$ and in $M$, and $\mathfrak{N}$ would satisfy the same statement.
+4. Then $n$ would code a real proof of $0 = S0$, which contradicts the consistency of $\mathsf{PA}$.
+   So $p$ is nonstandard.
 
 The typical use is to show that "complete and consistent extension of $\mathsf{PA}$" does not mean "true".
-A trap is to think that $M$ proves a contradiction; $M$ is a structure, and the "proof" coded by $p$ has nonstandard length.
+Watch out: $M$ does not prove a contradiction.
+$M$ is a structure, and the "proof" coded by $p$ has nonstandard length.
