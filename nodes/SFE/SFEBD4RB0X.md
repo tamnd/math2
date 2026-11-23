@@ -16,32 +16,43 @@ sources:
 ## Example
 
 Let $\mathrm{Prov}_{\mathsf{Q}}(x)$ be the standard [[provability predicate|NB2BCZR40F]] of [[Robinson arithmetic|3K1AKGXF8A]].
-We show that it is a [[partial truth predicate|Y2MF1EZAM7]] for $\Sigma_1$ sentences in the [[standard model|WP27CABPA4]]: $\N \models \mathrm{Prov}_{\mathsf{Q}}(\ulcorner \sigma \urcorner) \leftrightarrow \sigma$ for every $\Sigma_1$ sentence $\sigma$.
+We show that it is a [[partial truth predicate|Y2MF1EZAM7]] for $\Sigma_1$ sentences in the [[standard model|WP27CABPA4]]:
+$$\mathbb{N} \models \mathrm{Prov}_{\mathsf{Q}}(\ulcorner \sigma \urcorner) \leftrightarrow \sigma \quad \text{for every } \Sigma_1 \text{ sentence } \sigma.$$
+A sample sentence is $\sigma := \exists y \, (y \cdot y = \underline{9})$, which is true with witness $y = 3$.
 
-1. $\mathrm{Prov}_{\mathsf{Q}}$ defines provability in $\N$: $\N \models \mathrm{Prov}_{\mathsf{Q}}(\ulcorner \sigma \urcorner)$ exactly when $\mathsf{Q} \vdash \sigma$.
-2. If $\sigma$ is true, then $\mathsf{Q} \vdash \sigma$, by $\Sigma_1$-completeness of $\mathsf{Q}$.
-3. If $\mathsf{Q} \vdash \sigma$, then $\sigma$ is true, by [[soundness|4A84VHDTHV]], since $\N$ is a model of $\mathsf{Q}$.
-4. So $\sigma$ is true exactly when $\mathsf{Q} \vdash \sigma$, and by step 1 exactly when $\N \models \mathrm{Prov}_{\mathsf{Q}}(\ulcorner \sigma \urcorner)$.
-5. $\mathrm{Prov}_{\mathsf{Q}}$ is a $\Sigma_1$ formula, so this predicate has the same level as the sentences it covers.
+1. $\mathrm{Prov}_{\mathsf{Q}}$ defines provability in $\mathbb{N}$: $\mathbb{N} \models \mathrm{Prov}_{\mathsf{Q}}(\ulcorner \sigma \urcorner)$ exactly when $\mathsf{Q} \vdash \sigma$.
+2. If $\sigma$ is true, then $\mathsf{Q} \vdash \sigma$, by the [[Σ1-completeness of Robinson arithmetic|69234Z1V00]].
+   For the sample, $\mathsf{Q}$ computes $\underline{3} \cdot \underline{3} = \underline{9}$ from its recursion axioms and then introduces $\exists y$.
+3. If $\mathsf{Q} \vdash \sigma$, then $\sigma$ is true, by [[soundness|4A84VHDTHV]], since $\mathbb{N}$ is a model of $\mathsf{Q}$.
+4. Steps 2 and 3 give: $\sigma$ is true exactly when $\mathsf{Q} \vdash \sigma$.
+   With step 1, $\sigma$ is true exactly when $\mathbb{N} \models \mathrm{Prov}_{\mathsf{Q}}(\ulcorner \sigma \urcorner)$.
+5. $\mathrm{Prov}_{\mathsf{Q}}(x)$ has the form $\exists y \, \mathrm{Prf}_{\mathsf{Q}}(y, x)$ with $\mathrm{Prf}_{\mathsf{Q}}$ a $\Sigma_1$ formula, so it is $\Sigma_1$.
+   So this truth predicate has the same level as the sentences it covers.
 
 ## Remarks
 
-The formula $\mathrm{Prov}_{\mathsf{Q}}(x) \wedge \mathrm{Sent}_{\Sigma_1}(x)$, where $\mathrm{Sent}_{\Sigma_1}$ defines the codes of $\Sigma_1$ sentences, is false at every code outside the class.
-The same works for any $\Sigma_1$-sound c.e. theory that contains $\mathsf{Q}$ in place of $\mathsf{Q}$.
-The equivalence holds in $\N$; it is not claimed that $\mathsf{Q}$ proves the biconditionals.
+The example gives a $\Sigma_1$ truth predicate without building one by recursion on formulas.
+At codes of sentences that are not $\Sigma_1$, the formula $\mathrm{Prov}_{\mathsf{Q}}$ still says something, namely provability.
+To get a formula that is false outside the class, take $\mathrm{Prov}_{\mathsf{Q}}(x) \wedge \mathrm{Sent}_{\Sigma_1}(x)$, where $\mathrm{Sent}_{\Sigma_1}$ defines the codes of $\Sigma_1$ sentences.
+
+The same argument works with any $\Sigma_1$-sound theory $T \supseteq \mathsf{Q}$ with computable axioms in place of $\mathsf{Q}$.
+If $T$ proves a false $\Sigma_1$ sentence, such as $\neg \mathrm{Con}(\mathsf{PA})$ in $\mathsf{PA} + \neg \mathrm{Con}(\mathsf{PA})$, step 3 fails and so does the example.
+The equivalence is a fact about $\mathbb{N}$, and the example does not claim that $\mathsf{Q}$ proves the biconditionals.
+It fails one level up, as [[provability in Q is not a Π1 truth predicate|G7E1ZT2HST]] shows.
 
 ## Explanations
 
 ### L1 human
 
-A statement of the form "some number has a checkable property" is true exactly when Robinson arithmetic proves it.
-So "provable in Robinson arithmetic" and "true" agree on these statements.
+Consider statements of the form "some number has a property that can be checked by a finite computation".
+Such a statement is true exactly when Robinson arithmetic proves it: the proof just exhibits the number and does the check.
+So, for these statements, "provable in Robinson arithmetic" and "true" mean the same thing.
 
 ### L2 human
 
-1. True $\Sigma_1$ sentences are provable in $\mathsf{Q}$.
-2. Provable sentences are true, since $\N$ is a model of $\mathsf{Q}$.
-3. So provability defines $\Sigma_1$ truth.
-
-The typical use is to get a $\Sigma_1$ truth definition without building one by recursion.
-A trap: this fails one level up, for $\Pi_1$ sentences, because $\mathsf{Q}$ does not prove every true $\Pi_1$ sentence.
+We run both directions on $\sigma := \exists y \, (y \cdot y = \underline{9})$.
+It is true with $y = 3$, and $\mathsf{Q}$ proves $\underline{3} \cdot \underline{3} = \underline{9}$, hence $\sigma$.
+In the other direction, $\mathsf{Q}$ proves nothing false, because $\mathbb{N}$ is a model of it.
+For example, $\mathsf{Q}$ does not prove $\exists y \, (y \cdot y = \underline{8})$, which is false.
+The typical use is to get a $\Sigma_1$ truth definition for free from $\Sigma_1$-completeness.
+Watch out: this stops at $\Sigma_1$, because $\mathsf{Q}$ does not prove every true $\Pi_1$ sentence.

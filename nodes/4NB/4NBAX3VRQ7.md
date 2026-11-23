@@ -16,77 +16,119 @@ sources:
 
 ## Summary
 
-The consistency statement of a theory $T$ is the arithmetic sentence $\mathrm{Con}(T) := \neg \mathrm{Prov}_T(\ulcorner 0 = S0 \urcorner)$.
-It says that $T$ does not prove $0 = S0$, so it is true in $\N$ exactly when $T$ is [[consistent|VM8TQ70CVJ]].
-It is a $\Pi_1$ sentence, and it depends on the formula chosen to define the axioms of $T$.
+The consistency statement of a theory is the sentence of arithmetic that says "no number codes a proof of $0 = 1$ in this theory".
+It turns the claim "$T$ is consistent" into a claim about numbers, which $T$ itself can then try to prove.
+For a theory $T$ with provability predicate $\mathrm{Prov}_T$ it is the sentence
+$$\mathrm{Con}(T) := \neg \mathrm{Prov}_T(\ulcorner 0 = S0 \urcorner).$$
+It is true in $\mathbb{N}$ exactly when $T$ is [[consistent|VM8TQ70CVJ]].
+When the axioms of $T$ are given by a $\Sigma_1$ formula, $\mathrm{Con}(T)$ is a $\Pi_1$ sentence, and it depends on that formula and not only on the set of axioms.
 
 ## Motivation
 
-Hilbert asked for proofs that the axioms of mathematics are consistent.
-With [[Gödel numbering|MFJXPAF0R0]], the claim "$T$ is consistent" becomes a sentence of arithmetic, and a theory can try to prove it about itself.
-[[Gödel's second incompleteness theorem|4PZM5GJTR5]] shows that a consistent theory that contains $\mathsf{PA}$ never proves its own consistency statement.
+Hilbert wanted proofs that the axiom systems of mathematics do not lead to a contradiction.
+At first this is a claim about proofs, not about numbers.
+With [[Gödel numbering|MFJXPAF0R0]], proofs become numbers and the relation "$y$ codes a proof of $x$" becomes a formula, so the claim becomes a sentence of arithmetic.
+Then one can ask which theories prove it.
+
+[[Gödel's second incompleteness theorem|4PZM5GJTR5]] answers the question for the theory itself: a consistent $T$ that contains $\mathsf{PA}$ does not prove $\mathrm{Con}(T)$.
+Stronger theories can prove it, so consistency statements measure strength: $S$ is stronger than $T$ when $S \vdash \mathrm{Con}(T)$.
+They return in the [[reflection principles|NB485KFXKV]] and in the [[Turing and Feferman progressions|F7Z4BV2KHD]], which add consistency statements again and again.
 
 ## Notation
 
-Let $T$ be a [[theory|92SWXST1ZM]] whose axioms are defined in $\N$ by a formula $\alpha(x)$, usually $\Sigma_1$.
-Let $\mathrm{Prov}_\alpha$ be the [[provability predicate|NB2BCZR40F]] built from $\alpha$.
-Then $\mathrm{Con}_\alpha := \neg \mathrm{Prov}_\alpha(\ulcorner 0 = S0 \urcorner)$.
-When $\alpha$ is the standard formula, one writes $\mathrm{Con}(T)$ or $\mathrm{Con}_T$.
-Some books use $\neg \mathrm{Prov}_T(\ulcorner \bot \urcorner)$ for a fixed refutable sentence $\bot$.
+Let the axioms of $T$ be defined in $\mathbb{N}$ by a formula $\alpha(x)$, usually $\Sigma_1$.
+The [[provability predicate|NB2BCZR40F]] $\mathrm{Prov}_\alpha(x) = \exists y \, \mathrm{Prf}_\alpha(y, x)$ is built from $\alpha$, and $\mathrm{Con}_\alpha := \neg \mathrm{Prov}_\alpha(\ulcorner 0 = S0 \urcorner)$.
+For the standard formula one writes $\mathrm{Con}(T)$ or $\mathrm{Con}_T$.
+Some books use $\neg \mathrm{Prov}_T(\ulcorner \bot \urcorner)$ for a fixed refutable sentence $\bot$, and these choices are provably equivalent in $\mathsf{PA}$.
+The notation $\mathrm{Con}(T)$ hides $\alpha$, and that is the trap: two formulas for the same axioms can give consistency statements with different provability.
 
 ## Remarks
 
-### Examples
+### A first consistency statement
 
-1. [[Con(PA) is a true Π1 sentence|23M4TSTPN8]] that $\mathsf{PA}$ does not prove.
-2. [[ZFC proves Con(PA)|1KSQAD4BWM]], so a stronger theory can prove the consistency statement of a weaker one.
-3. For the theory $\mathsf{PA} + \mathrm{Con}(\mathsf{PA})$, its own consistency statement $\mathrm{Con}(\mathsf{PA} + \mathrm{Con}(\mathsf{PA}))$ is not provable in it, if $\mathsf{PA} + \mathrm{Con}(\mathsf{PA})$ is consistent.
+Take $T = \mathsf{PA}$ and its standard axiom formula.
+The formula $\mathrm{Prf}_{\mathsf{PA}}(y, x)$ is $\Sigma_1$, of the form $\exists z \, \delta(y, x, z)$ with $\delta$ bounded.
+So we can rewrite the consistency statement as
+$$\mathrm{Con}(\mathsf{PA}) \equiv \forall y \, \forall z \, \neg \delta(y, \ulcorner 0 = S0 \urcorner, z),$$
+which is $\Pi_1$.
+For each pair of numbers $m$ and $n$, the instance $\neg \delta(\underline{m}, \ulcorner 0 = S0 \urcorner, \underline{n})$ is a true bounded sentence, so $\mathsf{PA}$ proves it.
+Only the universal sentence escapes $\mathsf{PA}$, as [[the example on Con(PA)|23M4TSTPN8]] works out.
 
-### Non-examples
+### Stronger theories can prove it
 
-1. [[The Rosser provability predicate|Z0H1KA8ZHT]] gives the Rosser consistency statement $\neg \mathrm{Prov}^{R}_T(\ulcorner 0 = S0 \urcorner)$. It is true exactly when $T$ is consistent, yet $T$ proves it. It is not built from the standard predicate.
-2. Feferman's formula $\alpha^*(x)$ adds to the axiom formula $\alpha$ of $\mathsf{PA}$ the clause "the axioms with codes $\le x$ are consistent". In $\N$ it defines the same axioms, since $\mathsf{PA}$ is consistent, and $\mathsf{PA} \vdash \mathrm{Con}_{\alpha^*}$. The formula $\alpha^*$ is $\Pi_1$, not $\Sigma_1$.
+[[ZFC proves Con(PA)|1KSQAD4BWM]]: it builds the set $\omega$, checks that all axioms of $\mathsf{PA}$ hold there, and applies soundness.
+So the second theorem does not say that consistency statements are unprovable in general.
+It says that a theory does not prove its own.
+For example, $\mathsf{PA} + \mathrm{Con}(\mathsf{PA})$ proves $\mathrm{Con}(\mathsf{PA})$ in one line, but if it is consistent, it does not prove $\mathrm{Con}(\mathsf{PA} + \mathrm{Con}(\mathsf{PA}))$.
 
-### Basic properties
+### Two formulas for the same axioms
 
-1. If $\alpha$ is $\Sigma_1$, then $\mathrm{Prov}_\alpha$ is $\Sigma_1$, so $\mathrm{Con}_\alpha$ is $\Pi_1$.
-2. If $\alpha$ defines the axioms of $T$ in $\N$, then $\N \models \mathrm{Con}_\alpha$ exactly when $T$ is consistent.
-3. Over $\mathsf{PA}$, $\mathrm{Con}(T)$ is provably equivalent to "no sentence $\varphi$ has $\mathrm{Prov}_T(\ulcorner \varphi \urcorner) \wedge \mathrm{Prov}_T(\ulcorner \neg \varphi \urcorner)$" and to "some sentence is not provable in $T$". The proof formalizes the usual proof of these equivalences.
-4. If $T$ is consistent, $T \nvdash \mathrm{Con}(T)$ for the standard $\Sigma_1$ formula, by the second incompleteness theorem.
-5. If $T$ is $\Sigma_1$-sound, then $T \nvdash \neg \mathrm{Con}(T)$, since $\neg \mathrm{Con}(T)$ is a false $\Sigma_1$ sentence.
-6. For $T \supseteq \mathsf{PA}$, $T$ proves that $\mathrm{Con}(T)$ is equivalent to the reflection scheme for $\Pi_1$ sentences; see [[reflection principles|NB485KFXKV]].
-7. The finite consistency statement $\mathrm{Con}_n(T)$ says that no proof of $0 = S0$ has code $\le n$. If $T$ is consistent, $\mathsf{Q}$ proves each $\mathrm{Con}_n(T)$: it refutes $\mathrm{Prf}_T(\underline{k}, \ulcorner 0 = S0 \urcorner)$ for each $k \le n$, by representability. Pudlák studied the lengths of their shortest proofs.
+The [[Rosser provability predicate|Z0H1KA8ZHT]] gives the Rosser consistency statement $\neg \mathrm{Prov}^{R}_T(\ulcorner 0 = S0 \urcorner)$.
+When $T$ is consistent it is true, yet $T$ proves it, so it is not a consistency statement in the sense of the second theorem.
+
+Feferman's formula goes further and changes only the axiom formula.
+Let $\alpha^*(x)$ say "$\alpha(x)$, and the axioms with codes at most $x$ form a consistent set".
+Since $\mathsf{PA}$ is consistent, $\alpha^*$ defines exactly the axioms of $\mathsf{PA}$ in $\mathbb{N}$.
+Still $\mathsf{PA} \vdash \mathrm{Con}_{\alpha^*}$, and $\alpha^*$ is $\Pi_1$, not $\Sigma_1$.
+So the consistency statement belongs to a presentation of the theory, not to its set of axioms.
+
+### The rules you can use
+
+If $\alpha$ is $\Sigma_1$, then $\mathrm{Prov}_\alpha$ is $\Sigma_1$, so $\mathrm{Con}_\alpha$ is $\Pi_1$.
+If $\alpha$ defines the axioms of $T$ in $\mathbb{N}$, then $\mathrm{Con}_\alpha$ is true exactly when $T$ is consistent, because $\mathrm{Prf}_\alpha$ defines the real proof relation.
+$\mathsf{PA}$ proves that $\mathrm{Con}(T)$ is equivalent to "no sentence is provable together with its negation" and to "some sentence is not provable", by formalizing the usual proofs of these equivalences.
+If $T$ is $\Sigma_1$-sound, then $T \nvdash \neg \mathrm{Con}(T)$, because $\neg \mathrm{Con}(T)$ is a false $\Sigma_1$ sentence.
+Over $\mathsf{PA}$, $\mathrm{Con}(T)$ is equivalent to reflection for $\Pi_1$ sentences, as [[this example|JHGJ6APMRF]] shows.
+
+### Finite consistency statements
+
+The sentence $\mathrm{Con}_n(T)$ says that no proof of $0 = S0$ has code at most $n$.
+If $T$ is consistent, $\mathsf{Q}$ proves each $\mathrm{Con}_n(T)$ by checking the finitely many candidates.
+For each $k \le n$ it refutes $\mathrm{Prf}_T(\underline{k}, \ulcorner 0 = S0 \urcorner)$, because $\mathrm{Prf}_T$ represents a decidable relation, and $\mathsf{Q}$ proves that every $y \le \underline{n}$ is one of $\underline{0}, \ldots, \underline{n}$.
+Pudlák studied how the length of the shortest proof of $\mathrm{Con}_n(T)$ in $T$ grows with $n$.
+The theory $\mathsf{PA} + \neg \mathrm{Con}(\mathsf{PA})$ proves every $\mathrm{Con}_n(\mathsf{PA})$ together with $\neg \mathrm{Con}(\mathsf{PA})$, and it is [[consistent but ω-inconsistent|FK06QR6A44]].
 
 ### History
 
 Gödel stated the second incompleteness theorem for the arithmetized consistency statement in his 1931 paper.
-Feferman showed in 1960, in "Arithmetization of metamathematics in a general setting", that the theorem depends on the formula that defines the axioms, and gave the formula $\alpha^*$.
+Feferman showed in 1960, in "Arithmetization of metamathematics in a general setting", that the theorem depends on the formula that defines the axioms, and he gave the formula $\alpha^*$.
 
-### Common errors
+### Watch out
 
-1. Reading $\mathrm{Con}(T)$ as a property of the set of axioms alone: it depends on the formula $\alpha$, as Feferman's example shows.
-2. Thinking that $T \nvdash \mathrm{Con}(T)$ casts doubt on $T$: $\mathrm{Con}(\mathsf{PA})$ is true and provable in $\mathsf{ZFC}$.
-3. Thinking that $T + \mathrm{Con}(T)$ proves its own consistency: it is a new theory, with a new consistency statement.
+Do not read $\mathrm{Con}(T)$ as a property of the set of axioms alone.
+Feferman's $\alpha^*$ and the standard $\alpha$ define the same set, and only the second gives an unprovable consistency statement.
+Do not read "$T \nvdash \mathrm{Con}(T)$" as doubt about $T$ either: $\mathrm{Con}(\mathsf{PA})$ is true and provable in $\mathsf{ZFC}$.
+
+### Try it
+
+Is $\mathrm{Con}_{100}(\mathsf{PA})$ provable in $\mathsf{PA}$?
+Yes: $\mathsf{PA}$ is consistent, so $\mathsf{Q}$ already proves it by the 101 checks for $k = 0, \ldots, 100$ described above, and $\mathsf{PA}$ contains $\mathsf{Q}$.
+
+Does $\mathsf{PA} + \mathrm{Con}(\mathsf{PA})$ prove its own consistency statement?
+Not if it is consistent, because it is a theory with a $\Sigma_1$ axiom formula that contains $\mathsf{PA}$, and the second theorem applies.
 
 ## Explanations
 
 ### L1 human
 
-Code every proof from some axioms by a number.
-"The axioms never prove $0 = 1$" then becomes a statement about numbers: no number is the code of a proof of $0 = 1$.
-This statement is the consistency statement of the axioms, and Gödel showed that the axioms themselves cannot prove it.
+Write every proof from some axioms as a number, the way a computer stores a file.
+Then "the axioms never prove $0 = 1$" becomes a statement about numbers: no number is the code of a proof of $0 = 1$.
+This statement is the consistency statement of the axioms.
+You can check it for the numbers $0$, $1$, $2$ and so on, one at a time, but Gödel showed that the axioms themselves cannot prove it for all numbers at once.
 
 ### L2 human
 
-1. Fix a formula $\alpha(x)$ for "$x$ is an axiom".
-2. Build $\mathrm{Prf}_\alpha(y, x)$, "$y$ codes a proof of $x$ from axioms satisfying $\alpha$".
-3. Set $\mathrm{Con}_\alpha := \neg \exists y \, \mathrm{Prf}_\alpha(y, \ulcorner 0 = S0 \urcorner)$.
-
-The typical use is as a measure of strength: $S$ is stronger than $T$ when $S \vdash \mathrm{Con}(T)$.
-A trap: a consistency statement for a non-standard choice of $\alpha$ may be provable, so the choice of $\alpha$ matters.
+We build $\mathrm{Con}(T)$ in three steps.
+First fix a formula $\alpha(x)$ for "$x$ is the code of an axiom".
+Then build $\mathrm{Prf}_\alpha(y, x)$, "$y$ codes a finite list of formulas, each an axiom, a logical axiom or the result of a rule, whose last entry has code $x$".
+Last, put
+$$\mathrm{Con}_\alpha := \neg \exists y \, \mathrm{Prf}_\alpha(y, \ulcorner 0 = S0 \urcorner).$$
+The typical use is as a measure of strength, because $S$ is stronger than $T$ when $S \vdash \mathrm{Con}(T)$.
+Watch out: with an unusual $\alpha$, such as Feferman's $\alpha^*$, the consistency statement can be provable, so the choice of $\alpha$ is a part of the statement.
 
 ### L3 human
 
-Consistency statements order theories by consistency strength: $T < S$ when $S \vdash \mathrm{Con}(T)$.
-Natural theories are usually linearly ordered in this way, although no general reason for this is known.
-Over $\mathsf{PA}$, $\mathrm{Con}(T)$ is the weakest of the [[reflection principles|NB485KFXKV]], and it is the $\Pi_1$ content of the soundness of $T$.
+Consistency statements order theories by consistency strength.
+Natural theories, from fragments of arithmetic to set theory with large cardinals, are observed to fall into a linear order in this way, although no general reason for this is known.
+Over $\mathsf{PA}$, $\mathrm{Con}(T)$ is the weakest of the [[reflection principles|NB485KFXKV]]: it is the $\Pi_1$ part of the claim that $T$ is sound.
+Ordinal analysis, which began with [[Gentzen's consistency proof|QPV0HNP22S]], proves consistency statements by induction along ordinal notations.

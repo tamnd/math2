@@ -15,21 +15,31 @@ sources:
 
 ## Example
 
-Let $\mathsf{PA}$ be [[first-order Peano arithmetic|MPSCREYC3M]].
-We show that $\mathsf{PA}$ is [[ω-consistent|4S29X1GTV4]]: there is no formula $\varphi(x)$ with $\mathsf{PA} \vdash \exists x \, \varphi(x)$ and $\mathsf{PA} \vdash \neg \varphi(\underline{n})$ for all $n$.
+$\mathsf{PA}$ proves $\exists x \, (x \cdot x = \underline{4})$, and it refutes $\underline{n} \cdot \underline{n} = \underline{4}$ for every $n \ne 2$, but it cannot refute $\underline{2} \cdot \underline{2} = \underline{4}$, because that sentence is true.
+The real witness $2$ blocks the last refutation, and this is the whole idea of the example.
 
-1. The [[structure of the natural numbers|WP27CABPA4]] $\N$ satisfies the six basic axioms of $\mathsf{PA}$, by the definitions of $+$ and $\cdot$.
-2. $\N$ satisfies every induction axiom: if a set of numbers contains $0$ and is closed under $n \mapsto n + 1$, it contains every number.
-3. So $\N \models \mathsf{PA}$, and by [[soundness|4A84VHDTHV]] every theorem of $\mathsf{PA}$ is true in $\N$.
-4. Suppose $\mathsf{PA} \vdash \exists x \, \varphi(x)$. By step 3, $\N \models \exists x \, \varphi(x)$, so there is $m \in \N$ with $\N \models \varphi(\underline{m})$.
-5. If also $\mathsf{PA} \vdash \neg \varphi(\underline{m})$, step 3 gives $\N \models \neg \varphi(\underline{m})$, which contradicts step 4.
-6. So for this $m$, $\mathsf{PA} \nvdash \neg \varphi(\underline{m})$, and no formula witnesses $\omega$-inconsistency.
+Let $\mathsf{PA}$ be [[first-order Peano arithmetic|MPSCREYC3M]].
+We show that $\mathsf{PA}$ is [[ω-consistent|4S29X1GTV4]]: no formula $\varphi(x)$ has $\mathsf{PA} \vdash \exists x \, \varphi(x)$ together with $\mathsf{PA} \vdash \neg \varphi(\underline{n})$ for all $n$.
+
+1. The [[structure of the natural numbers|WP27CABPA4]] $\mathbb{N}$ satisfies the basic axioms of $\mathsf{PA}$, by the definitions of $+$ and $\cdot$.
+2. $\mathbb{N}$ satisfies every induction axiom, because a set of numbers that contains $0$ and is closed under $n \mapsto n + 1$ contains every number.
+3. So $\mathbb{N} \models \mathsf{PA}$, and by [[soundness|4A84VHDTHV]] every theorem of $\mathsf{PA}$ is true in $\mathbb{N}$.
+4. Suppose $\mathsf{PA} \vdash \exists x \, \varphi(x)$.
+   By step 3, $\mathbb{N} \models \exists x \, \varphi(x)$, so there is $m \in \mathbb{N}$ with $\mathbb{N} \models \varphi(\underline{m})$.
+5. If also $\mathsf{PA} \vdash \neg \varphi(\underline{m})$, then step 3 gives $\mathbb{N} \models \neg \varphi(\underline{m})$, which contradicts step 4.
+6. So $\mathsf{PA} \nvdash \neg \varphi(\underline{m})$ for this $m$, and no formula witnesses $\omega$-inconsistency.
 
 ## Remarks
 
-The argument uses only that $\N$ is a model, so it works for every theory that is true in $\N$.
-It is a semantic argument: $\mathsf{PA}$ cannot prove its own $\omega$-consistency, since that would imply $\mathrm{Con}(\mathsf{PA})$.
-If an axiom false in $\N$ is added, the argument fails, and the result can be $\omega$-inconsistent, as for $\mathsf{PA} + \neg \mathrm{Con}(\mathsf{PA})$.
+The argument used only that $\mathbb{N}$ is a model, so it works for every theory that is true in $\mathbb{N}$.
+That is why it applies at once to $\mathsf{Q}$, to [[PA + Con(PA)|RD3VPJH67B]] and to true arithmetic.
+
+The argument is semantic, and it happens outside $\mathsf{PA}$.
+$\mathsf{PA}$ cannot prove a formal statement of its own $\omega$-consistency, because such a statement implies $\mathrm{Con}(\mathsf{PA})$, which $\mathsf{PA}$ does not prove.
+
+Add an axiom that is false in $\mathbb{N}$, and step 3 breaks.
+The result can then be $\omega$-inconsistent, as for [[PA + ¬Con(PA)|FK06QR6A44]].
+This example is what lets us apply Gödel's original form of the first incompleteness theorem to $\mathsf{PA}$.
 
 ## Explanations
 
@@ -37,14 +47,14 @@ If an axiom false in $\N$ is added, the argument fails, and the result can be $\
 
 Every axiom of Peano arithmetic is true of the ordinary numbers $0, 1, 2, \ldots$.
 So everything it proves is true of them.
-If it proved "some number has property $P$", then some real number, say $5$, would have $P$.
+If it proved "some number has property $P$", then some actual number, say $5$, would have $P$.
 Then it cannot also prove "$5$ does not have $P$", because that would be false.
 
 ### L2 human
 
-1. Take $\varphi(x) := x \cdot x = \underline{4}$. $\mathsf{PA}$ proves $\exists x \, \varphi(x)$, with witness $2$.
-2. $\mathsf{PA}$ proves $\neg \varphi(\underline{n})$ for $n \ne 2$, but it does not prove $\neg \varphi(\underline{2})$, since $2 \cdot 2 = 4$ is true.
-3. In general the witness in $\N$ blocks the refutation.
-
-The typical use is to apply Gödel's original form of the first incompleteness theorem to $\mathsf{PA}$.
-A trap: the proof is outside $\mathsf{PA}$; it uses the truth of the axioms in $\N$.
+We trace the argument on $\varphi(x) := x \cdot x = \underline{4}$.
+$\mathsf{PA}$ proves $\exists x \, \varphi(x)$, because $\mathsf{Q}$ already proves $\underline{2} \cdot \underline{2} = \underline{4}$ by computing
+$$\underline{2} \cdot \underline{2} = \underline{2} \cdot \underline{1} + \underline{2} = (\underline{2} \cdot \underline{0} + \underline{2}) + \underline{2} = \underline{2} + \underline{2} = \underline{4}.$$
+For each $n \ne 2$, the sentence $\underline{n} \cdot \underline{n} = \underline{4}$ is false, and $\mathsf{Q}$ refutes it by a similar computation.
+At $n = 2$ the sentence is true, so $\mathsf{PA}$ cannot refute it, and $\varphi$ is not a witness of $\omega$-inconsistency.
+In every case the same thing happens: the witness that exists in $\mathbb{N}$ blocks one of the refutations.

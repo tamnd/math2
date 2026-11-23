@@ -19,30 +19,45 @@ sources:
 
 ## Example
 
+The sentence $\neg (0 = S0)$ has a proof a few lines long.
+Any proof of $0 = S0$, if one existed, would have to come before that short proof to count under Rosser's predicate, and the theory can check the few earlier candidates by hand.
+So a consistent theory proves that $0 = S0$ is not Rosser-provable.
+
 Let $T$ be a [[consistent|VM8TQ70CVJ]] theory that contains [[Robinson arithmetic|TT8MXRTVBM]] $\mathsf{Q}$ and has a decidable set of axioms.
 Let $\mathrm{neg}$ be the primitive recursive function with $\mathrm{neg}(\# \varphi) = \# \neg \varphi$.
 The Rosser provability predicate is
 $$\mathrm{Prov}^{R}_T(x) := \exists y \, \big(\mathrm{Prf}_T(y, x) \wedge \forall z \le y \, \neg \mathrm{Prf}_T(z, \mathrm{neg}(x))\big).$$
-It reads: "there is a proof of $x$, and no shorter or equal proof of the negation of $x$".
-We show that it differs from the standard [[provability predicate|NB2BCZR40F]] $\mathrm{Prov}_T$: $T$ proves the Rosser consistency statement $\neg \mathrm{Prov}^{R}_T(\ulcorner 0 = S0 \urcorner)$.
+It reads "there is a proof of $x$, and no proof of the negation of $x$ with a smaller or equal code".
+We show that it behaves differently from the standard [[provability predicate|NB2BCZR40F]] $\mathrm{Prov}_T$, because $T$ proves the Rosser consistency statement $\neg \mathrm{Prov}^{R}_T(\ulcorner 0 = S0 \urcorner)$.
 
-1. The formula $\neg (0 = S0)$ is provable in $\mathsf{Q}$: axiom 1 gives $S0 \ne 0$, and the symmetry of equality gives $\neg (0 = S0)$. Let $p$ be the code of such a proof in $T$.
-2. The relation "$p$ codes a proof of $\neg (0 = S0)$" is true, so $T \vdash \mathrm{Prf}_T(\underline{p}, \ulcorner \neg (0 = S0) \urcorner)$, by representability.
+### The short proof and the finite check
+
+1. $\mathsf{Q}$ proves $\neg (0 = S0)$, from axiom 1, $S0 \ne 0$, and the symmetry of equality.
+   Let $p$ be the code of such a proof in $T$.
+2. Since $p$ codes a proof of $\neg (0 = S0)$, representability gives $T \vdash \mathrm{Prf}_T(\underline{p}, \ulcorner \neg (0 = S0) \urcorner)$.
 3. $T$ is consistent and proves $\neg (0 = S0)$, so no number codes a proof of $0 = S0$.
 4. So for each $k \le p$, $T \vdash \neg \mathrm{Prf}_T(\underline{k}, \ulcorner 0 = S0 \urcorner)$, by representability.
-5. We argue inside $T$. Assume $\mathrm{Prf}_T(y, \ulcorner 0 = S0 \urcorner)$ and $\forall z \le y \, \neg \mathrm{Prf}_T(z, \ulcorner \neg (0 = S0) \urcorner)$.
-6. $\mathsf{Q}$ proves $y \le \underline{p} \vee \underline{p} \le y$; this fact is Q-b in [[the proof of Rosser's theorem|CZZAA0WXS3]].
-7. If $\underline{p} \le y$, the second assumption with $z = \underline{p}$ gives $\neg \mathrm{Prf}_T(\underline{p}, \ulcorner \neg (0 = S0) \urcorner)$. This contradicts step 2.
-8. If $y \le \underline{p}$, then $y = \underline{k}$ for some $k \le p$, since $\mathsf{Q}$ proves $y \le \underline{p} \to y = 0 \vee \cdots \vee y = \underline{p}$. This contradicts step 4.
+
+### The argument inside $T$
+
+5. We argue inside $T$ and assume $\mathrm{Prf}_T(y, \ulcorner 0 = S0 \urcorner)$ and $\forall z \le y \, \neg \mathrm{Prf}_T(z, \ulcorner \neg (0 = S0) \urcorner)$.
+6. $\mathsf{Q}$ proves $y \le \underline{p} \vee \underline{p} \le y$, which is fact Q-b in [[the proof of Rosser's theorem|CZZAA0WXS3]].
+7. If $\underline{p} \le y$, the second assumption with $z = \underline{p}$ gives $\neg \mathrm{Prf}_T(\underline{p}, \ulcorner \neg (0 = S0) \urcorner)$, against step 2.
+8. If $y \le \underline{p}$, then $y = \underline{k}$ for some $k \le p$, by fact Q-a, against step 4.
 9. Both cases give a contradiction, so $T \vdash \neg \mathrm{Prov}^{R}_T(\ulcorner 0 = S0 \urcorner)$.
 
 ## Remarks
 
-In $\N$, the two predicates define the same set when $T$ is consistent.
-If $T \vdash \varphi$, then $T \nvdash \neg \varphi$, so the least proof of $\varphi$ is a witness for $\mathrm{Prov}^{R}_T$; the other direction holds by the form of the formula.
-So the two predicates have the same extension, and still $T$ proves the Rosser consistency statement but not the standard one, by the [[second incompleteness theorem|4PZM5GJTR5]].
-This shows that the second theorem is about a formula, not about a set of numbers: $\mathrm{Prov}^R_T$ satisfies the first [[derivability condition|F6H4STF9RG]], so it must fail the second or the third.
-The sentence of [[Rosser's theorem|DH9RQ61GVD]] uses the same extra clause, which removes the need for $\omega$-consistency.
+In $\mathbb{N}$ the two predicates define the same set when $T$ is consistent.
+If $T \vdash \varphi$, then $T \nvdash \neg \varphi$, so the least proof of $\varphi$ is a witness for $\mathrm{Prov}^{R}_T$, and the other direction holds by the form of the formula.
+Yet $T$ proves the Rosser consistency statement and, by the [[second incompleteness theorem|4PZM5GJTR5]], not the standard one.
+
+So the second theorem is about a formula, and not about the set of numbers the formula defines.
+$\mathrm{Prov}^R_T$ satisfies the first [[derivability condition|F6H4STF9RG]], so for $T \supseteq \mathsf{PA}$ it must fail the second or the third.
+The sentence of [[Rosser's theorem|DH9RQ61GVD]] uses the same extra clause, and that clause removes the need for $\omega$-consistency.
+
+Watch out: a proof in $T$ of the Rosser consistency statement says nothing about whether $T$ is consistent.
+We assumed consistency in step 3, and the theorem in $T$ follows from a finite search below $p$.
 
 ## Explanations
 
@@ -55,10 +70,8 @@ The theory can check this by looking only at the finitely many numbers below the
 
 ### L2 human
 
-1. Fix the short proof $p$ of $0 \ne S0$.
-2. Below $p$, check each number $k$: none is a proof of $0 = S0$.
-3. Above $p$, every candidate proof $y$ of $0 = S0$ has the proof $p$ of the negation below it.
-4. So the Rosser formula fails for $0 = S0$, and the theory proves this.
-
-The typical use is in Rosser's theorem and in the study of how the second theorem depends on the formula.
-A trap: proving "the Rosser consistency statement" does not show that $T$ is consistent in any useful sense; it holds for every consistent $T$ by a finite search below $p$.
+Fix the short proof $p$ of $0 \ne S0$.
+Below $p$, the theory checks each number $k$ and finds that none is a proof of $0 = S0$.
+Above $p$, every candidate proof $y$ of $0 = S0$ has the proof $p$ of the negation below it, so it does not count.
+So the Rosser formula fails for $0 = S0$, and the theory proves this.
+The same two cases, below a fixed numeral and above it, drive the proof of Rosser's theorem.

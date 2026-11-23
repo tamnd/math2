@@ -20,84 +20,111 @@ inventory: [808MBHW2M1]
 
 ## Summary
 
-Let $T$ be a [[first-order theory|92SWXST1ZM]] in the language $\set{0, S, +, \cdot}$ with a decidable set of axioms.
-Let $\mathrm{Prf}_T(y, x)$ be a $\Sigma_1$ formula that represents in [[Robinson arithmetic|3K1AKGXF8A]] the relation "$y$ codes a proof in $T$ of the formula with code $x$", as given by [[arithmetization of syntax|6M12VR1GT6]].
-The provability predicate of $T$ is the formula $\mathrm{Prov}_T(x) := \exists y \, \mathrm{Prf}_T(y, x)$.
-For a sentence $\varphi$, $\mathrm{Prov}_T(\ulcorner \varphi \urcorner)$ says "$\varphi$ is provable in $T$", and it is true in $\N$ exactly when $T \vdash \varphi$.
-The provability predicate lets $T$ speak about its own theorems, and every incompleteness theorem is about it.
+The sentence $0 + 0 = 0$ has a three-line proof in Robinson arithmetic, and that proof has a code number $p$.
+The formula $\exists y \, \mathrm{Prf}_{\mathsf{Q}}(y, \ulcorner 0 + 0 = 0 \urcorner)$ says "some number codes a proof of $0 + 0 = 0$", and $p$ makes it true.
+A provability predicate is this formula with the sentence left open: a formula of arithmetic that says "the sentence with code $x$ is provable".
+
+Exactly, let $T$ be a [[first-order theory|92SWXST1ZM]] in the language of arithmetic with a decidable set of axioms.
+Let $\mathrm{Prf}_T(y, x)$ be a $\Sigma_1$ formula that represents in [[Robinson arithmetic|3K1AKGXF8A]] the relation "$y$ codes a proof in $T$ of the formula with code $x$", as [[arithmetization of syntax|6M12VR1GT6]] provides.
+The provability predicate of $T$ is
+$$\mathrm{Prov}_T(x) := \exists y \, \mathrm{Prf}_T(y, x).$$
+For each sentence $\varphi$, the sentence $\mathrm{Prov}_T(\ulcorner \varphi \urcorner)$ is true in $\mathbb{N}$ exactly when $T \vdash \varphi$.
 
 ## Motivation
 
-To show that a theory cannot prove some sentence, Gödel needed a sentence that speaks about provability.
-The proof relation is decidable, so a formula can express it, but the set of theorems is only computably enumerable.
-The unbounded quantifier $\exists y$ in front of the proof relation is exactly what passes from proofs to provability.
-This makes $\mathrm{Prov}_T$ a $\Sigma_1$ formula, and the step from $\Sigma_1$ to $\Pi_1$ is where incompleteness lives.
+Gödel's plan was to imitate the liar sentence, "this sentence is false", with "true" replaced by "provable".
+Truth cannot be expressed in arithmetic, but provability can, and the provability predicate is the formula that expresses it.
+The proof relation $\mathrm{Prf}_T$ is decidable, so a formula can express it with only bounded searches.
+The set of theorems is not decidable, and the unbounded quantifier $\exists y$ is exactly the step from "this is a proof" to "a proof exists".
+That makes $\mathrm{Prov}_T$ a $\Sigma_1$ formula, and the [[Gödel sentence|X9WYNYE29C]], which denies its own provability, is $\Pi_1$.
 
 ## Notation
 
-1. Gödel wrote $\mathrm{Bew}(x)$, from the German "beweisbar" (provable); see also [[Bew|BF017NCXF4]].
-2. Other notations are $\mathrm{Pr}_T(x)$, $\mathrm{Prov}_T(x)$ and $\square_T \varphi$ for $\mathrm{Prov}_T(\ulcorner \varphi \urcorner)$.
-3. The modal shorthand $\square \varphi$ is set up in the node on the [[derivability conditions|F6H4STF9RG]].
-4. We write $\ulcorner \varphi \urcorner$ for the numeral of the [[Gödel number|MFJXPAF0R0]] of $\varphi$.
+Gödel wrote $\mathrm{Bew}(x)$, from the German "beweisbar", which means provable (see [[Bew|BF017NCXF4]]).
+Other books write $\mathrm{Pr}_T(x)$ or $\mathrm{Prov}_T(x)$.
+Provability logic writes $\square_T \varphi$, or just $\square \varphi$, for $\mathrm{Prov}_T(\ulcorner \varphi \urcorner)$, and the [[derivability conditions|F6H4STF9RG]] set up this shorthand.
+The corner quotes $\ulcorner \varphi \urcorner$ stand for the numeral of the [[Gödel number|MFJXPAF0R0]] of $\varphi$.
 
 ## Remarks
 
-### Examples
+### A first case
 
-1. [[Robinson arithmetic proves that 0 + 0 = 0 is provable|SVMC76P884]]: an explicit proof gives an explicit witness for $\exists y$.
-2. [[Non-standard proofs in a model of PA + ¬Con(PA)|JP0RVCPF38]]: a model can satisfy $\mathrm{Prov}_{\mathsf{PA}}(\ulcorner 0 = S0 \urcorner)$ with no real proof.
-3. For $\mathsf{PA}$, the predicate $\mathrm{Prov}_{\mathsf{PA}}$ built from the [[decidable proof relation|QGR9FT4EHP]] is the standard one used in the [[second incompleteness theorem|4PZM5GJTR5]].
-4. For a finite theory such as $\mathsf{Q}$, the formula $\mathrm{Ax}_{\mathsf{Q}}(x)$ can be a disjunction of seven equations $x = \underline{a_i}$.
+[[Robinson arithmetic proves that 0 + 0 = 0 is provable|SVMC76P884]] works out the opening example.
+The proof of $0 + 0 = 0$ has a code $p$, the relation "$p$ codes a proof" is true and decidable, and representability gives $\mathsf{Q} \vdash \mathrm{Prf}_{\mathsf{Q}}(\underline{p}, \ulcorner 0 + 0 = 0 \urcorner)$.
+One step of logic then gives $\mathsf{Q} \vdash \mathrm{Prov}_{\mathsf{Q}}(\ulcorner 0 + 0 = 0 \urcorner)$.
+The same argument works for every theorem of every theory $T$ with a decidable axiom set: if $T \vdash \varphi$, then $\mathsf{Q} \vdash \mathrm{Prov}_T(\ulcorner \varphi \urcorner)$.
+This is the first derivability condition.
+For $\mathsf{PA}$, the predicate built from the [[decidable proof relation|QGR9FT4EHP]] is the standard one, used in the [[second incompleteness theorem|4PZM5GJTR5]].
 
-### Non-examples
+### Proofs that are not proofs
 
-1. [[The Rosser provability predicate|Z0H1KA8ZHT]] defines the same set of theorems in $\N$ when $T$ is consistent, but it has an extra clause. It cannot satisfy all three derivability conditions, since $T$ proves its consistency statement.
-2. For consistent $T \supseteq \mathsf{PA}$, the formula $\mathrm{Prov}_T(x) \wedge \mathrm{Con}(T)$ defines the set of theorems in $\N$. But $T$ proves none of its instances, by the [[second incompleteness theorem|4PZM5GJTR5]], so the first derivability condition fails.
-3. The formula $\mathrm{Tr}(x)$, "the sentence with code $x$ is true", is not a provability predicate; by [[Tarski's undefinability theorem|YRV6SYK2BY]] no formula of arithmetic defines truth.
+The reverse direction fails.
+From $T \vdash \mathrm{Prov}_T(\ulcorner \varphi \urcorner)$ we cannot conclude $T \vdash \varphi$ in general.
+The theory $\mathsf{PA} + \neg \mathrm{Con}(\mathsf{PA})$ is consistent, and it proves $\mathrm{Prov}_{\mathsf{PA}}(\ulcorner 0 = S0 \urcorner)$, while it does not prove $0 = S0$.
+In a model of it, the witness $y$ is a non-standard number that codes no real proof, as [[non-standard proofs in a model of PA + ¬Con(PA)|JP0RVCPF38]] shows.
+The reverse direction does hold when $T$ is $\Sigma_1$-sound, that is, when every $\Sigma_1$ sentence that $T$ proves is true in $\mathbb{N}$.
+See [[ω-consistency|4S29X1GTV4]] for the related condition that Gödel used.
 
-### Basic properties
+### Formulas that define the same set
 
-1. $\mathrm{Prov}_T$ is a $\Sigma_1$ formula, since $\mathrm{Prf}_T$ can be taken $\Delta_0$ or $\Sigma_1$.
-2. If $T \vdash \varphi$, then $\mathsf{Q} \vdash \mathrm{Prov}_T(\ulcorner \varphi \urcorner)$. Indeed $\mathsf{Q}$ proves $\mathrm{Prf}_T(\underline{p}, \ulcorner \varphi \urcorner)$ for the code $p$ of a proof. This is the first [[derivability condition|F6H4STF9RG]].
-3. The converse of property 2 holds when $T$ is $\Sigma_1$-sound, and it fails for some consistent theories. An example is $\mathsf{PA} + \neg \mathrm{Con}(\mathsf{PA})$; see [[ω-consistency|4S29X1GTV4]].
-4. The predicate depends on the chosen axiom set, not only on the set of theorems. Two axiom sets with the same theorems can give predicates that $T$ cannot prove equivalent.
-5. In a [[non-standard model|1QWN5CV4CG]] of $T$, a witness $y$ of $\mathrm{Prf}_T(y, x)$ can be a non-standard number, which codes no real proof.
-6. For $T \supseteq \mathsf{PA}$, the standard predicate satisfies the [[derivability conditions|F6H4STF9RG]], which give the [[second incompleteness theorem|4PZM5GJTR5]] and [[Löb's theorem|3HD30YG3DG]].
+The predicate depends on the formula that presents the axioms, not only on the set of theorems.
+The [[Rosser provability predicate|Z0H1KA8ZHT]] defines the same set in $\mathbb{N}$ when $T$ is consistent, but it adds the clause "and no shorter proof of the negation exists".
+$T$ proves the consistency statement built from it, so it cannot satisfy all three derivability conditions, since those conditions give the second incompleteness theorem.
+In the same way, for consistent $T \supseteq \mathsf{PA}$, the formula $\mathrm{Prov}_T(x) \wedge \mathrm{Con}(T)$ defines the set of theorems in $\mathbb{N}$.
+Yet $T$ proves none of its instances, since each instance implies $\mathrm{Con}(T)$, so the first derivability condition fails.
+Feferman's work makes this sensitivity exact, and the [[consistency statement|4NBAX3VRQ7]] page returns to it.
+
+### Not a truth predicate
+
+Provability is not truth.
+A formula $\mathrm{Tr}(x)$ with $\mathrm{Tr}(\ulcorner \varphi \urcorner) \leftrightarrow \varphi$ for every sentence $\varphi$ would be a truth predicate.
+By [[Tarski's undefinability theorem|YRV6SYK2BY]], no formula of arithmetic is one.
+The provability predicate escapes this limit because it does not satisfy those equivalences.
+
+### Watch out
+
+Do not read $T \vdash \mathrm{Prov}_T(\ulcorner \varphi \urcorner)$ as $T \vdash \varphi$.
+The example $\mathsf{PA} + \neg \mathrm{Con}(\mathsf{PA})$ above separates them, with $\varphi$ the sentence $0 = S0$.
+Do not treat $\mathrm{Prov}_T$ as decidable either.
+Only $\mathrm{Prf}_T$ is decidable, and the quantifier $\exists y$ has no bound, because proofs can be much longer than the sentences they prove.
 
 ### History
 
-Gödel's 1931 paper defined the provability formula $\mathrm{Bew}(x)$ as the last step of its list of arithmetized notions.
-Hilbert and Bernays isolated the properties of the predicate that the second incompleteness theorem uses, in the second volume of their Grundlagen der Mathematik (1939).
-Feferman studied in 1960 how the second theorem depends on the choice of the formula that defines the axioms.
+Gödel's 1931 paper defined the formula $\mathrm{Bew}(x)$ as the last step of its list of arithmetized notions.
+Hilbert and Bernays isolated the properties of the predicate that the second incompleteness theorem uses, in the second volume of their Grundlagen der Mathematik (1939), and Löb gave the simpler form of these conditions in 1955.
+Feferman showed in 1960 how the second theorem depends on the formula that defines the axioms.
 
-### Common errors
+### Try it
 
-1. A student reads $T \vdash \mathrm{Prov}_T(\ulcorner \varphi \urcorner)$ as $T \vdash \varphi$. The two are different when $T$ is not $\Sigma_1$-sound.
-2. A student thinks that the predicate is determined by the set of theorems. It depends on the formula that presents the axioms.
-3. A student forgets the quantifier $\exists y$, and treats $\mathrm{Prov}_T$ as decidable. Only $\mathrm{Prf}_T$ is decidable.
+Is $\mathrm{Prov}_T(\ulcorner 0 = S0 \urcorner)$ true in $\mathbb{N}$ when $T = \mathsf{PA}$?
+No: it is true in $\mathbb{N}$ only if $\mathsf{PA}$ proves $0 = S0$, and $\mathsf{PA}$ has the model $\mathbb{N}$, in which $0 = S0$ is false.
+
+Which class is $\neg \mathrm{Prov}_T(x)$ in?
+It is $\neg \exists y \, \mathrm{Prf}_T(y, x)$, which is equivalent to $\forall y \, \neg \mathrm{Prf}_T(y, x)$, a $\Pi_1$ formula.
 
 ## Explanations
 
 ### L1 human
 
 A provability predicate is a formula of arithmetic that says "this statement has a proof".
-It speaks about code numbers: "there is a number that codes a proof of the statement with code $n$".
-For example, the statement $0 + 0 = 0$ has a short proof, so the formula holds for its code.
-The formula cannot be checked by a finite search, since the proof may be very long.
+It speaks through code numbers: "there is a number that codes a proof of the statement with code $n$".
+The statement $0 + 0 = 0$ has a short proof, so the formula holds for its code.
+To confirm the formula for a statement that has a proof, you only need to find the proof.
+To confirm that a statement has no proof, no finite search is enough, since the proof might be very long.
 
 ### L2 human
 
-1. Take $T = \mathsf{Q}$ and the sentence $\varphi := 0 + 0 = 0$.
-2. A three-line proof of $\varphi$ exists, with code $p$.
-3. The relation "$p$ codes a proof of $\varphi$" is true, so by representability $\mathsf{Q} \vdash \mathrm{Prf}_{\mathsf{Q}}(\underline{p}, \ulcorner \varphi \urcorner)$.
-4. By the rule for $\exists$, $\mathsf{Q} \vdash \mathrm{Prov}_{\mathsf{Q}}(\ulcorner \varphi \urcorner)$.
-
-The typical use is in a fixed point $G \leftrightarrow \neg \mathrm{Prov}_T(\ulcorner G \urcorner)$ of the [[diagonal lemma|3PRW76471J]].
-A trap: $\neg \mathrm{Prov}_T(\ulcorner \varphi \urcorner)$ is a $\Pi_1$ statement, and $T$ need not prove it even when it is true.
+We use the predicate to build the [[Gödel sentence|X9WYNYE29C]] of $\mathsf{PA}$.
+The [[diagonal lemma|3PRW76471J]] applied to the formula $\neg \mathrm{Prov}_{\mathsf{PA}}(x)$ gives a sentence $G$ with
+$$\mathsf{PA} \vdash G \leftrightarrow \neg \mathrm{Prov}_{\mathsf{PA}}(\ulcorner G \urcorner).$$
+Suppose $\mathsf{PA} \vdash G$.
+The first derivability condition gives $\mathsf{PA} \vdash \mathrm{Prov}_{\mathsf{PA}}(\ulcorner G \urcorner)$, and the equivalence gives $\mathsf{PA} \vdash \neg G$, so $\mathsf{PA}$ would be inconsistent.
+So $\mathsf{PA}$ does not prove $G$, and this is the typical use: a formula about provability, put into a fixed point, yields an unprovable sentence.
 
 ### L3 human
 
-The provability predicate is a $\Sigma_1$-definition of a computably enumerable set that is not decidable, and its behaviour inside $T$ is studied by [[provability logic|WJK0YA4GP2]].
-For the standard predicate of $\mathsf{PA}$, the modal logic GL describes exactly the schemes that $\mathsf{PA}$ proves about it, by Solovay's theorem.
-Non-standard predicates, such as Rosser's or Feferman's, are extensionally the same in $\N$ but satisfy other modal laws.
-The idea extends to interpretability predicates and to provability in stronger systems, such as $\omega$-provability, which lead to other modal logics.
+The provability predicate is a $\Sigma_1$ definition of a computably enumerable set that is not decidable.
+Its behavior inside $T$ is the subject of [[provability logic|WJK0YA4GP2]].
+For the standard predicate of $\mathsf{PA}$, Solovay's theorem says that the modal logic GL describes exactly the schemes that $\mathsf{PA}$ proves about it.
+Rosser's and Feferman's predicates define the same set in $\mathbb{N}$ but obey other modal laws.
+The idea extends to interpretability predicates and to stronger notions such as $\omega$-provability, which lead to the polymodal logic GLP.

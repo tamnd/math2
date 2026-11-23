@@ -17,33 +17,43 @@ sources:
 
 ## Example
 
-The formula $\mathrm{Prov}_{\mathsf{Q}}(x)$ [[is a Σ1 truth predicate|SFEBD4RB0X]] in $\N$.
-We show that it is not a [[partial truth predicate|Y2MF1EZAM7]] for $\Pi_1$ sentences.
+The formula $\mathrm{Prov}_{\mathsf{Q}}(x)$ [[is a Σ1 truth predicate|SFEBD4RB0X]] in $\mathbb{N}$.
+We show that it is not a [[partial truth predicate|Y2MF1EZAM7]] for $\Pi_1$ sentences: one true $\Pi_1$ sentence is enough to break the biconditional.
 
-1. Let $\pi := \forall x \, (0 + x = x)$. It is a $\Pi_1$ sentence, since $0 + x = x$ has no quantifiers.
-2. $\pi$ is true in $\N$.
-3. [[Robinson arithmetic does not prove π|F14YSZ3XKZ]]: a model of $\mathsf{Q}$ with two extra elements fails it.
-4. So $\N \models \neg \mathrm{Prov}_{\mathsf{Q}}(\ulcorner \pi \urcorner)$ while $\N \models \pi$.
-5. So the biconditional $\mathrm{Prov}_{\mathsf{Q}}(\ulcorner \pi \urcorner) \leftrightarrow \pi$ fails in $\N$, and the formula is not a truth predicate for $\Pi_1$.
+1. Let $\pi := \forall x \, (0 + x = x)$.
+   The formula $0 + x = x$ has no quantifiers, so $\pi$ is a $\Pi_1$ sentence.
+2. $\pi$ is true in $\mathbb{N}$, because $0 + n = n$ for every natural number $n$.
+3. [[Robinson arithmetic does not prove π|F14YSZ3XKZ]].
+   Add two new elements $a$ and $b$ to $\mathbb{N}$ and define $+$ and $\cdot$ on them so that every axiom of [[Robinson arithmetic|3K1AKGXF8A]] holds but $0 + a \ne a$.
+   The axioms of $\mathsf{Q}$ fix $x + 0$ and $x + Sy$, but say nothing about $0 + x$ for a non-standard $x$, and this leaves room for such a model.
+   By soundness, $\mathsf{Q} \nvdash \pi$.
+4. By step 3 and the meaning of the [[provability predicate|NB2BCZR40F]], $\mathbb{N} \models \neg \mathrm{Prov}_{\mathsf{Q}}(\ulcorner \pi \urcorner)$.
+   By step 2, $\mathbb{N} \models \pi$.
+5. So the biconditional $\mathrm{Prov}_{\mathsf{Q}}(\ulcorner \pi \urcorner) \leftrightarrow \pi$ is false in $\mathbb{N}$, and the formula is not a truth predicate for $\Pi_1$ sentences.
 
 ## Remarks
 
-The direction "provable implies true" holds for all sentences, by soundness; only "true implies provable" fails.
-The same happens for every consistent c.e. theory $T \supseteq \mathsf{Q}$: some true $\Pi_1$ sentence is unprovable in $T$, by the first incompleteness theorem.
-A $\Pi_1$ truth predicate does exist, as the negation of a $\Sigma_1$ one, but it is $\Pi_1$, not $\Sigma_1$.
+Only one direction fails.
+"Provable implies true" holds for every sentence, by soundness, so the failure is "true implies provable".
+Each instance $0 + \underline{n} = \underline{n}$ is a true $\Delta_0$ sentence, and $\mathsf{Q}$ proves it; only the universal sentence escapes.
+
+Replace $\mathsf{Q}$ by $\mathsf{PA}$ and this sentence is proved, by induction on $x$.
+But the gap does not close: for every consistent theory $T \supseteq \mathsf{Q}$ with computable axioms, some true $\Pi_1$ sentence is unprovable in $T$, by the first incompleteness theorem.
+A $\Pi_1$ truth predicate does exist, as the negation of a $\Sigma_1$ one applied to the negated sentence, but it is a $\Pi_1$ formula, not a $\Sigma_1$ one.
 
 ## Explanations
 
 ### L1 human
 
-For statements of the form "every number has a checkable property", proof in Robinson arithmetic and truth come apart.
-The law "$0 + x = x$ for all $x$" is true, but Robinson arithmetic cannot prove it.
+For statements of the form "every number has a property that can be checked", proof and truth come apart.
+The law "$0 + x = x$ for every $x$" is true for whole numbers.
+Robinson arithmetic can check it for $x = 0$, $x = 1$, $x = 2$ and so on, one number at a time, but it cannot prove it for all $x$ at once.
 
 ### L2 human
 
-1. Take the true $\Pi_1$ sentence $\forall x \, (0 + x = x)$.
-2. A model of $\mathsf{Q}$ in which it fails shows that $\mathsf{Q}$ does not prove it.
-3. So provability in $\mathsf{Q}$ misses a true $\Pi_1$ sentence.
-
+We test the biconditional on $\pi := \forall x \, (0 + x = x)$.
+The right side is true in $\mathbb{N}$.
+The left side says "$\mathsf{Q}$ proves $\pi$", and a model of $\mathsf{Q}$ with two extra elements, in which $0 + a \ne a$, shows that this is false.
+So the two sides disagree, and $\mathrm{Prov}_{\mathsf{Q}}$ is wrong about $\pi$.
 The typical use is to show where $\Sigma_1$-completeness stops.
-A trap: replacing $\mathsf{Q}$ by $\mathsf{PA}$ fixes this sentence, but not all true $\Pi_1$ sentences.
+Watch out: switching to $\mathsf{PA}$ fixes this one sentence, but by the first incompleteness theorem it cannot fix all true $\Pi_1$ sentences.

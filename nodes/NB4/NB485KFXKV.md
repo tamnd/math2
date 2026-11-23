@@ -15,93 +15,133 @@ sources:
 
 ## Summary
 
-Let $T$ be a consistent theory in the language of arithmetic that contains $\mathsf{PA}$ and has a decidable set of axioms, with [[provability predicate|NB2BCZR40F]] $\mathrm{Prov}_T$.
-The local reflection principle $\mathrm{Rfn}(T)$ is the schema of all sentences $\mathrm{Prov}_T(\ulcorner \varphi \urcorner) \to \varphi$, one for each sentence $\varphi$.
-The uniform reflection principle $\mathrm{RFN}(T)$ is the schema of all sentences $\forall x \, (\mathrm{Prov}_T(\ulcorner \varphi(\dot{x}) \urcorner) \to \varphi(x))$, one for each formula $\varphi(x)$ with one free variable.
-For a class $\Gamma$ of formulas, such as $\Pi_1$ or $\Sigma_1$, the schemas $\mathrm{Rfn}_\Gamma(T)$ and $\mathrm{RFN}_\Gamma(T)$ take only the instances with $\varphi$ in $\Gamma$.
-A reflection principle is a formal statement, inside arithmetic, that what $T$ proves is true, so it expresses the [[soundness|4A84VHDTHV]] of $T$ as far as arithmetic can express it.
-Reflection principles measure the strength of theories: adding them gives the natural strong extensions of $T$, and the [[consistency statement|4NBAX3VRQ7]] is their weakest form.
+Consider the sentence "if $\mathsf{PA}$ proves $0 = 1$, then $0 = 1$".
+Since $0 = 1$ is false, the sentence says exactly that $\mathsf{PA}$ does not prove $0 = 1$, which is the consistency of $\mathsf{PA}$.
+A reflection principle makes the same claim for every sentence at once: whatever the theory proves is true.
+
+Exactly: let $T$ be a consistent theory of arithmetic with a decidable set of axioms that contains $\mathsf{PA}$, and let $\mathrm{Prov}_T$ be its [[provability predicate|NB2BCZR40F]].
+The local reflection principle $\mathrm{Rfn}(T)$ is the schema that has, for each sentence $\varphi$, the instance
+$$\mathrm{Prov}_T(\ulcorner \varphi \urcorner) \to \varphi.$$
+The uniform reflection principle $\mathrm{RFN}(T)$ is the schema that has, for each formula $\varphi(x)$ with one free variable, the instance
+$$\forall x \, \bigl(\mathrm{Prov}_T(\ulcorner \varphi(\dot{x}) \urcorner) \to \varphi(x)\bigr).$$
+For a class $\Gamma$ of formulas, such as $\Pi_1$ or $\Sigma_1$, the schemas $\mathrm{Rfn}_\Gamma(T)$ and $\mathrm{RFN}_\Gamma(T)$ keep only the instances with $\varphi$ in $\Gamma$.
 
 ## Motivation
 
-By [[Gödel's second incompleteness theorem|4PZM5GJTR5]], the theory $T$ does not prove $\mathrm{Con}(T)$, so a mathematician who accepts $T$ has a reason to accept a stronger theory.
-The reason is that the axioms of $T$ are true, and then every theorem of $T$ is true.
-The consistency statement records only one consequence of this belief: the false sentence $0 = S0$ is not a theorem.
+By [[Gödel's second incompleteness theorem|4PZM5GJTR5]], $T$ does not prove $\mathrm{Con}(T)$.
+Yet anyone who accepts the axioms of $T$ as true also accepts that every theorem of $T$ is true, and so accepts more than $T$ proves.
+The [[consistency statement|4NBAX3VRQ7]] records one consequence of this belief: the false sentence $0 = 1$ is not a theorem.
 The reflection principles record the whole belief, one sentence or one formula at a time.
-Kreisel and Lévy used them to compare theories: for example, $\mathsf{PA}$ is equivalent to $\mathsf{PRA}$ plus uniform reflection for $\mathsf{PRA}$.
+They express the [[soundness|4A84VHDTHV]] of $T$ as far as arithmetic can express it, since truth itself is not definable.
+
+This makes them a measuring tool.
+Adding reflection to a weak theory gives the natural stronger theories, and Kreisel and Lévy showed, for example, that $\mathsf{PA}$ has the same theorems as primitive recursive arithmetic plus uniform reflection for it.
+Iterating reflection leads to the [[Turing and Feferman progressions|F7Z4BV2KHD]] and to ordinal analysis.
 
 ## Notation
 
-1. For a formula $\varphi(x)$, the expression $\ulcorner \varphi(\dot{x}) \urcorner$ is a term (or a formula of $x$) whose value at $x = n$ is the code of the sentence $\varphi(\underline{n})$. It is built from the substitution function and the numeral function of the [[arithmetization of syntax|6M12VR1GT6]].
-2. $\mathrm{Rfn}(T)$ is local reflection and $\mathrm{RFN}(T)$ is uniform reflection. Some authors write $\mathrm{Rfn}_T$, $\mathrm{RFN}_T$, or "$\mathrm{RFN}$" for the local schema, so the convention must be checked in each text.
-3. $\mathrm{Rfn}_{\Pi_n}(T)$ and $\mathrm{RFN}_{\Sigma_n}(T)$ restrict the schemas to formulas of the levels $\Pi_n$ and $\Sigma_n$ of the [[arithmetical hierarchy|7CVJCQKY41]].
-4. A uniform principle for formulas with several free variables $x_1, \ldots, x_k$ uses the same pattern with $\forall x_1 \cdots \forall x_k$. Over $\mathsf{PA}$ it follows from the one-variable form by coding a tuple as one number.
+For a formula $\varphi(x)$, the expression $\ulcorner \varphi(\dot{x}) \urcorner$ is a term with the variable $x$ whose value at $x = n$ is the code of the sentence $\varphi(\underline{n})$.
+It is built from the substitution and numeral functions of the [[arithmetization of syntax|6M12VR1GT6]].
+$\mathrm{Rfn}$ is local and $\mathrm{RFN}$ is uniform in most recent texts, but some authors use other letters, so check the convention of each book.
+$\mathrm{Rfn}_{\Pi_n}(T)$ and $\mathrm{RFN}_{\Sigma_n}(T)$ refer to the levels of the [[arithmetical hierarchy|7CVJCQKY41]].
+A uniform principle for several free variables quantifies over all of them, and over $\mathsf{PA}$ it follows from the one-variable form by coding a tuple as one number.
 
 ## Remarks
 
-### Examples
+### Consistency is the smallest case
 
-1. The sentence $\mathrm{Con}(T)$ is equivalent over $\mathsf{Q}$ to the instance of $\mathrm{Rfn}(T)$ for the sentence $0 = S0$, because $\mathsf{Q}$ proves $\neg\, 0 = S0$. In fact $\mathrm{Con}(T)$ and $\mathrm{Rfn}_{\Pi_1}(T)$ are equivalent over $T$; see [[consistency as Π1 reflection|JHGJ6APMRF]].
-2. Uniform reflection for primitive recursive arithmetic proves every instance of the induction schema; see [[uniform reflection over PRA gives induction|DGQRT1BVJ3]]. This is the easy half of the Kreisel-Lévy theorem below.
-3. For the [[Gödel sentence|X9WYNYE29C]] $G$ of $T$, the instance $\mathrm{Prov}_T(\ulcorner G \urcorner) \to G$ of $\mathrm{Rfn}(T)$ proves $G$ over $T$. The reason is that $T$ proves $\neg G \to \mathrm{Prov}_T(\ulcorner G \urcorner)$, by the fixed point property of $G$.
-4. If all axioms of $T$ are true in $\N$, then every instance of $\mathrm{RFN}(T)$ is true in $\N$. The reason is that each theorem of $T$ is then true, so each instance $\varphi(\underline{n})$ with a $T$-proof is true.
+Take the instance of $\mathrm{Rfn}(T)$ for the sentence $0 = S0$:
+$$\mathrm{Prov}_T(\ulcorner 0 = S0 \urcorner) \to 0 = S0.$$
+The axiom $Sx \ne 0$ of $\mathsf{Q}$ gives $\neg (0 = S0)$, and $A \to B$ together with $\neg B$ is equivalent to $\neg A$.
+So the instance is equivalent over $\mathsf{Q}$ to $\neg \mathrm{Prov}_T(\ulcorner 0 = S0 \urcorner)$, which is $\mathrm{Con}(T)$.
 
-### Non-examples
+More is true: over $T$, the single sentence $\mathrm{Con}(T)$ already proves every instance of $\mathrm{Rfn}_{\Pi_1}(T)$, and even of $\mathrm{RFN}_{\Pi_1}(T)$.
+The proof is worked out in [[consistency as Π1 reflection|JHGJ6APMRF]].
+So at the level $\Pi_1$ reflection collapses to consistency.
 
-1. The schema $\varphi \to \mathrm{Prov}_T(\ulcorner \varphi \urcorner)$ goes in the opposite direction and is not a reflection principle. It states completeness, not soundness, and some of its instances are false in $\N$; see [[the completeness schema is not a reflection principle|R1M4RR5WR1]].
-2. The [[derivability condition|F6H4STF9RG]] $\mathrm{Prov}_T(\ulcorner \varphi \urcorner) \to \mathrm{Prov}_T(\ulcorner \mathrm{Prov}_T(\ulcorner \varphi \urcorner) \urcorner)$ is not a reflection principle. Its conclusion is again a provability statement, and $T$ proves every instance of it, while $T$ does not prove $\mathrm{Rfn}(T)$.
-3. A single sentence such as $\mathrm{Con}(T)$ is not a uniform principle. It has no free variable, and it does not prove the instances of $\mathrm{Rfn}_{\Sigma_1}(T)$, by property 5 below.
+### What reflection proves
 
-### Basic properties
+The Gödel sentence $G$ of $T$ satisfies $T \vdash \neg G \to \mathrm{Prov}_T(\ulcorner G \urcorner)$, by its fixed point property.
+With the instance $\mathrm{Prov}_T(\ulcorner G \urcorner) \to G$ of $\mathrm{Rfn}(T)$ this gives $\neg G \to G$, and so $G$.
+So one instance of reflection proves the sentence that $T$ cannot prove.
 
-1. If the variable $x$ does not occur in a sentence $\varphi$, then the instance of $\mathrm{RFN}(T)$ for $\varphi$ is logically equivalent to the instance of $\mathrm{Rfn}(T)$ for $\varphi$. So $T + \mathrm{RFN}(T)$ proves $\mathrm{Rfn}(T)$.
-2. By [[Löb's theorem|3HD30YG3DG]], $T$ proves the instance $\mathrm{Prov}_T(\ulcorner \varphi \urcorner) \to \varphi$ exactly when $T$ proves $\varphi$. So $T$ proves only the instances of local reflection that it does not need.
-3. In particular $T$ does not prove the instance for $0 = S0$, which is equivalent to $\mathrm{Con}(T)$. So $T + \mathrm{Rfn}(T)$ is a proper extension of $T$.
-4. $\mathrm{Con}(T)$ and $\mathrm{Rfn}_{\Pi_1}(T)$ are equivalent over $T$ (example 1). The same proof, with a free variable, shows that $\mathrm{Con}(T)$ and $\mathrm{RFN}_{\Pi_1}(T)$ are equivalent over $T$.
-5. Local $\Sigma_1$ reflection is stronger than consistency. Let $\sigma$ be the $\Sigma_1$ sentence $\mathrm{Prov}_T(\ulcorner 0 = S0 \urcorner)$, which is equivalent to $\neg \mathrm{Con}(T)$. In $T + \mathrm{Con}(T)$ the instance $\mathrm{Prov}_T(\ulcorner \sigma \urcorner) \to \sigma$ is equivalent to $\neg \mathrm{Prov}_T(\ulcorner \sigma \urcorner)$. By the formalized deduction theorem, $T$ proves that $\mathrm{Prov}_T(\ulcorner \sigma \urcorner)$ is equivalent to $\mathrm{Prov}_{T + \mathrm{Con}(T)}(\ulcorner 0 = S0 \urcorner)$. So the instance is equivalent in $T + \mathrm{Con}(T)$ to $\mathrm{Con}(T + \mathrm{Con}(T))$. If $T + \mathrm{Con}(T)$ is consistent, the second incompleteness theorem for it shows that it does not prove this instance.
-6. All instances of $\mathrm{Rfn}_{\Sigma_1}(T)$ are true in $\N$ exactly when every $\Sigma_1$ sentence that $T$ proves is true, that is, when $T$ is $\Sigma_1$-sound. This is the property that [[1-consistency|4S29X1GTV4]] expresses.
-7. Kreisel-Lévy theorem: $\mathsf{PRA} + \mathrm{RFN}(\mathsf{PRA})$ and $\mathsf{PA}$ have the same theorems, when $\mathsf{PA}$ is formulated in the language of $\mathsf{PRA}$. The inclusion of $\mathsf{PA}$ is example 2. The other inclusion says that $\mathsf{PA}$ proves each instance of $\mathrm{RFN}(\mathsf{PRA})$; its proof uses [[partial truth predicates|Y2MF1EZAM7]] and cut elimination, and we do not give it here.
-8. Iterating $T \mapsto T + \mathrm{Con}(T)$ or $T \mapsto T + \mathrm{RFN}(T)$ along ordinal notations gives the [[Turing and Feferman progressions|F7Z4BV2KHD]].
+Uniform reflection is stronger still.
+[[Uniform reflection over PRA|DGQRT1BVJ3]] proves the whole induction schema, which is the easy half of the Kreisel-Lévy theorem: $\mathsf{PRA} + \mathrm{RFN}(\mathsf{PRA})$ and $\mathsf{PA}$ have the same theorems.
+The other half, that $\mathsf{PA}$ proves each instance of $\mathrm{RFN}(\mathsf{PRA})$, uses [[partial truth predicates|Y2MF1EZAM7]] and cut elimination, and we do not prove it here.
+
+If all axioms of $T$ are true in $\mathbb{N}$, then every instance of $\mathrm{RFN}(T)$ is true in $\mathbb{N}$.
+The reason is that every theorem of $T$ is then true, including each $\varphi(\underline{n})$ that $T$ proves.
+
+### What reflection is not
+
+The schema $\varphi \to \mathrm{Prov}_T(\ulcorner \varphi \urcorner)$ points the other way.
+It claims completeness, not soundness, and for a sound $T$ its instance for the Gödel sentence is false; see [[the completeness schema|R1M4RR5WR1]].
+
+The [[derivability condition|F6H4STF9RG]] $\mathrm{Prov}_T(\ulcorner \varphi \urcorner) \to \mathrm{Prov}_T(\ulcorner \mathrm{Prov}_T(\ulcorner \varphi \urcorner) \urcorner)$ is not a reflection principle either.
+Its conclusion is again a statement about provability, and $T$ proves every instance of it, while $T$ does not prove $\mathrm{Rfn}(T)$.
+
+### The rules you can use
+
+When $x$ does not occur in $\varphi$, the uniform instance for $\varphi$ is logically equivalent to the local one, so $\mathrm{RFN}(T)$ implies $\mathrm{Rfn}(T)$.
+
+[[Löb's theorem|3HD30YG3DG]] says that $T$ proves $\mathrm{Prov}_T(\ulcorner \varphi \urcorner) \to \varphi$ only when $T$ proves $\varphi$.
+So $T$ proves just the instances of local reflection that it does not need.
+In particular $T$ does not prove the instance for $0 = S0$, and $T + \mathrm{Rfn}(T)$ is a proper extension of $T$.
+
+All instances of $\mathrm{Rfn}_{\Sigma_1}(T)$ are true in $\mathbb{N}$ exactly when every $\Sigma_1$ sentence that $T$ proves is true.
+This is the property of [[1-consistency|4S29X1GTV4]].
+
+### Watch out
+
+Do not think that $\mathrm{Rfn}_{\Sigma_1}(T)$ is equivalent to $\mathrm{Con}(T)$.
+Take $\sigma := \mathrm{Prov}_T(\ulcorner 0 = S0 \urcorner)$, a $\Sigma_1$ sentence.
+Inside $T + \mathrm{Con}(T)$ the conclusion $\sigma$ is false, so the instance $\mathrm{Prov}_T(\ulcorner \sigma \urcorner) \to \sigma$ is equivalent there to $\neg \mathrm{Prov}_T(\ulcorner \sigma \urcorner)$.
+Since $\sigma$ is equivalent to $\neg \mathrm{Con}(T)$, the formalized deduction theorem turns this into $\mathrm{Con}(T + \mathrm{Con}(T))$.
+If $T + \mathrm{Con}(T)$ is consistent, the second incompleteness theorem says that it does not prove this sentence.
+So local $\Sigma_1$ reflection is strictly stronger than consistency.
+
+Do not think that a reflection principle is one sentence.
+It is a schema, and only its $\Pi_1$ part collapses to the single sentence $\mathrm{Con}(T)$.
 
 ### History
 
-Kreisel and Lévy made reflection principles a standard tool in a paper of 1968, "Reflection principles and their use for establishing the complexity of axiomatic systems".
+Turing (1939) and Feferman (1962) added consistency and reflection statements along ordinal notations, in the work on progressions of theories.
+Kreisel and Lévy made reflection principles a standard tool in their paper of 1968, "Reflection principles and their use for establishing the complexity of axiomatic systems".
 That paper proved that $\mathsf{PA}$ is equivalent to $\mathsf{PRA}$ plus uniform reflection for $\mathsf{PRA}$.
-Earlier, Turing (1939) and Feferman (1962) had added consistency and reflection statements along ordinal notations, in the work on progressions of theories.
 
-### Common errors
+### Try it
 
-1. A student thinks that $\mathrm{Rfn}_{\Sigma_1}(T)$ is equivalent to $\mathrm{Con}(T)$. The class that matches consistency is $\Pi_1$, and local $\Sigma_1$ reflection is strictly stronger when $T + \mathrm{Con}(T)$ is consistent (property 5).
-2. A student thinks that a reflection principle is a single sentence. It is a schema with one sentence for each formula, and only its $\Pi_1$ part collapses to the single sentence $\mathrm{Con}(T)$.
-3. A student thinks that $T$ cannot prove any instance of $\mathrm{Rfn}(T)$. It proves the instances for the sentences that it proves, and only those (property 2).
+Write the instance of $\mathrm{Rfn}(\mathsf{PA})$ for the sentence $\forall x \, (0 + x = x)$, and say whether $\mathsf{PA}$ proves it.
+It is $\mathrm{Prov}_{\mathsf{PA}}(\ulcorner \forall x \, (0 + x = x) \urcorner) \to \forall x \, (0 + x = x)$, and $\mathsf{PA}$ proves it, because $\mathsf{PA}$ proves the conclusion by induction.
+
+Does $\mathsf{PA}$ prove the instance for $0 = S0$?
+No: that instance is equivalent to $\mathrm{Con}(\mathsf{PA})$, and the second incompleteness theorem applies.
 
 ## Explanations
 
 ### L1 human
 
-A theory is a list of axioms together with all the facts that follow from them by proofs.
 A reflection principle is a new axiom that says "every statement this theory proves is true".
-For a single statement, for example "$2 + 2 = 4$", it says "if the theory proves $2 + 2 = 4$, then $2 + 2 = 4$".
-When the statement is the false "$0 = 1$", it says "the theory does not prove $0 = 1$", which is the consistency of the theory.
-Gödel showed that a good theory cannot prove its own consistency, so these new axioms always say something new.
+For the statement "$2 + 2 = 4$" it says "if the theory proves $2 + 2 = 4$, then $2 + 2 = 4$", which is harmless.
+For the false statement "$0 = 1$" it says "the theory does not prove $0 = 1$", which is the consistency of the theory.
+Gödel showed that a good theory cannot prove its own consistency, so these new axioms always add something.
 
 ### L2 human
 
-We check that $\mathrm{Con}(T)$ is equivalent to one instance of local reflection.
-
-1. The instance of $\mathrm{Rfn}(T)$ for the sentence $0 = S0$ is $\mathrm{Prov}_T(\ulcorner 0 = S0 \urcorner) \to 0 = S0$.
-2. The axiom $\forall x \, \neg (Sx = 0)$ of $\mathsf{Q}$ gives $\neg (S0 = 0)$, and so $\neg (0 = S0)$ by the symmetry of equality.
-3. In propositional logic, $A \to B$ together with $\neg B$ is equivalent to $\neg A$.
-4. With $A = \mathrm{Prov}_T(\ulcorner 0 = S0 \urcorner)$ and $B = (0 = S0)$, steps 1 to 3 show that the instance is equivalent over $\mathsf{Q}$ to $\neg \mathrm{Prov}_T(\ulcorner 0 = S0 \urcorner)$.
-5. This is the definition of $\mathrm{Con}(T)$.
-
-The typical use of reflection is to strengthen a theory in a controlled way, and then to show that a known theory, such as $\mathsf{PA}$, is equivalent to a weak theory plus reflection.
-A trap: $T + \mathrm{Rfn}(T)$ is a new theory, and it does not prove its own reflection principle $\mathrm{Rfn}(T + \mathrm{Rfn}(T))$, by the second incompleteness theorem again.
+We check that one instance of local reflection proves the Gödel sentence $G$ of $T$.
+By the diagonal lemma, $T \vdash G \leftrightarrow \neg \mathrm{Prov}_T(\ulcorner G \urcorner)$, so
+$$T \vdash \neg G \to \mathrm{Prov}_T(\ulcorner G \urcorner).$$
+Add the instance $\mathrm{Prov}_T(\ulcorner G \urcorner) \to G$ and chain the two implications:
+$$T + \mathrm{Rfn}(T) \vdash \neg G \to G.$$
+Since $(\neg G \to G) \to G$ is a tautology, $T + \mathrm{Rfn}(T) \vdash G$.
+This is the typical use of reflection: it settles sentences that $T$ leaves open, in a controlled way.
+Watch out: $T + \mathrm{Rfn}(T)$ is a new theory, and it does not prove its own reflection principle, by the second incompleteness theorem again.
 
 ### L3 human
 
-Reflection principles form a hierarchy: $\mathrm{Rfn}_{\Pi_1}(T) \equiv \mathrm{RFN}_{\Pi_1}(T) \equiv \mathrm{Con}(T)$ at the bottom, then the local and uniform principles for $\Sigma_n$ and $\Pi_n$, and the full schemas at the top.
-Kreisel and Lévy showed that uniform reflection over $\mathsf{PRA}$ gives $\mathsf{PA}$, and later work studies the restricted principles with the algebraic methods of [[provability logic|WJK0YA4GP2]].
+Reflection principles form a hierarchy.
+At the bottom, $\mathrm{Rfn}_{\Pi_1}(T)$, $\mathrm{RFN}_{\Pi_1}(T)$ and $\mathrm{Con}(T)$ are equivalent over $T$; above them come the local and uniform principles for $\Sigma_n$ and $\Pi_n$, and the full schemas at the top.
+Later work studies the restricted principles with the algebraic methods of [[provability logic|WJK0YA4GP2]].
 Iterating consistency or reflection along ordinal notations is one route to [[ordinal analysis|XTTKZTYDSD]]: a theory is measured by how far the iteration over a weak base must go to prove the same $\Pi_1$ sentences.
-Feferman showed that iterated uniform reflection along suitable notations proves every true arithmetic sentence; see [[Turing and Feferman progressions|F7Z4BV2KHD]].
-In set theory the word "reflection" has a different meaning, the Lévy-Montague reflection of truth to sets, and the two ideas should not be confused.
+Feferman showed that iterated uniform reflection proves every true arithmetic sentence along suitable notations; see [[Turing and Feferman progressions|F7Z4BV2KHD]].
+In set theory the word "reflection" means something else, the Lévy-Montague reflection of truth to sets, and the two ideas should not be confused.
