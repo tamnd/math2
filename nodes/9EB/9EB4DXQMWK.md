@@ -17,7 +17,8 @@ sources:
 ## Example
 
 Let $\mathrm{RT}^1_2$ be the [[infinite pigeonhole principle|0FS3RHF6KE]] for two colors, as a sentence of $L_2$.
-It says: for every function $c \colon \mathbb{N} \to \{0, 1\}$ there are $i < 2$ and a set $H$ with $\forall n \, \exists m > n \, (m \in H)$ and $c(m) = i$ for all $m \in H$.
+It says: for every function $c \colon \mathbb{N} \to \{0, 1\}$ there are $i < 2$ and an infinite set $H$ with $c(m) = i$ for all $m \in H$.
+Here "$H$ is infinite" is the formula $\forall n \, \exists m > n \, (m \in H)$.
 We check that [[RCA0|DNXCKXZZ08]] proves $\mathrm{RT}^1_2$.
 
 1. Fix $c$.
