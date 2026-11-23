@@ -23,11 +23,14 @@ Part (a) says that $\psi(\gamma) = \varepsilon_\gamma$ for every $\gamma \le \ze
 Part (b) says that $\psi(\alpha) = \zeta_0$ for every $\alpha$ with $\zeta_0 \le \alpha \le \Omega$, so in particular $\psi(\Omega) = \zeta_0$.
 
 Two facts of [[ordinal arithmetic|KAEDCQ8RM6]] are used throughout.
+Fact (F1) says that an epsilon number $\varepsilon$ is closed under $+$, $\cdot$ and powers.
+For the power with $1 \le \beta < \varepsilon$ and $\gamma < \varepsilon$, we have $\beta^\gamma \le (\omega^\beta)^\gamma = \omega^{\beta \cdot \gamma} < \omega^\varepsilon = \varepsilon$.
+Fact (F2) says that if one of $\beta, \gamma$ is at least $\Omega$, then $\beta + \gamma \ge \Omega$.
+The same holds for $\beta \cdot \gamma$ when both are nonzero and for $\beta^\gamma$ when $\beta \ge 2$ and $\gamma \ge 1$, and in the remaining cases the result is $0$ or $1$.
 
-- (F1) An epsilon number $\varepsilon$ is closed under $+$, $\cdot$ and powers. For the power with $1 \le \beta < \varepsilon$ and $\gamma < \varepsilon$, we have $\beta^\gamma \le (\omega^\beta)^\gamma = \omega^{\beta \cdot \gamma} < \omega^\varepsilon = \varepsilon$.
-- (F2) If one of $\beta, \gamma$ is at least $\Omega$, then $\beta + \gamma \ge \Omega$, and the same holds for $\beta \cdot \gamma$ when both are nonzero and for $\beta^\gamma$ when $\beta \ge 2$ and $\gamma \ge 1$. In the remaining cases the result is $0$ or $1$.
+### Proof of part (a)
 
-Proof of (a), by induction on $\gamma \le \zeta_0$: assume $\psi(\delta) = \varepsilon_\delta$ for all $\delta < \gamma$.
+We use induction on $\gamma \le \zeta_0$, and we assume $\psi(\delta) = \varepsilon_\delta$ for all $\delta < \gamma$.
 
 1. For the upper bound, every member of $C(\gamma)$ is below $\varepsilon_\gamma$ or at least $\Omega$.
    The names $0, 1, \omega$ are below $\varepsilon_0 \le \varepsilon_\gamma$, and sums, products and powers keep the property by (F1) and (F2).
@@ -41,7 +44,9 @@ Proof of (a), by induction on $\gamma \le \zeta_0$: assume $\psi(\delta) = \vare
    The induction hypothesis puts $\delta$ in $C(\gamma)$, and since $\delta < \gamma$, the value $\psi(\delta) = \beta$ is in $C(\gamma)$.
 7. Steps 3 to 6 show that $\varepsilon_\gamma$ is the least ordinal not in $C(\gamma)$.
 
-Proof of (b), for $\zeta_0 \le \alpha \le \Omega$.
+### Proof of part (b)
+
+Let $\zeta_0 \le \alpha \le \Omega$.
 
 8. Every $\beta < \zeta_0$ is in $C(\zeta_0)$ by step 7 with $\gamma = \zeta_0$, and $C(\zeta_0) \subseteq C(\alpha)$.
 9. Every member of $C(\alpha)$ is below $\zeta_0$ or at least $\Omega$, as in steps 1 and 2.

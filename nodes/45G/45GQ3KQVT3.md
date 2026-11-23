@@ -21,14 +21,16 @@ We define theories that add to arithmetic a predicate for the least fixed point 
 Let $\mathcal{L}$ be the language of [[Peano arithmetic|0QFT7Z76N5]], and let $X$ be a new unary predicate symbol.
 A formula $A(X, x)$ is $X$-positive if, after we write $B \to C$ as $\neg B \vee C$ and push negations to the atoms, no occurrence of $X$ stands under a negation.
 
-**The theory $\mathrm{ID}_1$.**
+### The theory ID₁
+
 For each $X$-positive formula $A(X, x)$ of $\mathcal{L} \cup \{ X \}$ with no other free variables, add a unary predicate symbol $I_A$.
 The axioms of $\mathrm{ID}_1$ are the axioms of Peano arithmetic, with the induction scheme for all formulas of the extended language, and for each $A$ the two schemes
 $$(\mathrm{ID}^1_A) \quad \forall x \, \big( A(I_A, x) \to I_A(x) \big),$$
 $$(\mathrm{ID}^2_A) \quad \forall x \, \big( A(F, x) \to F(x) \big) \to \forall x \, \big( I_A(x) \to F(x) \big) \quad \text{for every formula } F(x).$$
 Here $A(F, x)$ replaces each atom $X(t)$ by $F(t)$.
 
-**The theory $\mathrm{ID}_\nu$.**
+### The theory ID_ν
+
 Let $\prec$ be a [[primitive recursive|5NVA2JRHPV]] well-ordering of a set of natural numbers, of order type $\nu$, and let $Y$ be a binary predicate symbol.
 For each $X$-positive formula $A(X, Y, \mu, x)$, in which $Y$ may also occur negatively, add a binary predicate symbol $P_A$.
 Write $P^\mu_A(x)$ for $P_A(\mu, x)$, and $P^{\prec \mu}_A$ for the binary predicate $(\lambda, y) \mapsto \lambda \prec \mu \wedge P_A(\lambda, y)$.

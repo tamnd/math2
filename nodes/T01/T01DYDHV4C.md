@@ -20,7 +20,9 @@ Part (a) says that $\psi_0(\Omega + \eta) = \omega^{\varepsilon_0 + \eta}$ for e
 At $\eta = \varepsilon_1$ the value is $\omega^{\varepsilon_1} = \varepsilon_1$, because $\varepsilon_0 + \varepsilon_1 = \varepsilon_1$.
 Part (b) says that $\psi_0(\alpha) = \varepsilon_1$ for every $\alpha$ with $\Omega + \varepsilon_1 \le \alpha \le \Omega \cdot 2$.
 
-Proof of (a), by induction on $\eta$.
+### Proof of part (a)
+
+We use induction on $\eta$.
 The case $\eta = 0$ is $\psi_0(\Omega) = \varepsilon_0$.
 Let $\eta \ge 1$, let $\rho = \omega^{\varepsilon_0 + \eta}$, and assume (a) for all $\zeta < \eta$.
 
@@ -40,7 +42,9 @@ Let $\eta \ge 1$, let $\rho = \omega^{\varepsilon_0 + \eta}$, and assume (a) for
 8. By the induction hypothesis $\zeta$ is in the set, and so is $\Omega = \psi_1(0)$, hence so is $\Omega + \zeta$, which is below $\Omega + \eta$.
 9. So $\psi_0(\Omega + \zeta) = \omega^{\varepsilon_0 + \zeta} = \omega^{\beta_i}$ is in the set, and $\psi_0(\Omega + \eta) = \rho$.
 
-Proof of (b), for $\Omega + \varepsilon_1 \le \alpha \le \Omega \cdot 2$.
+### Proof of part (b)
+
+Let $\Omega + \varepsilon_1 \le \alpha \le \Omega \cdot 2$.
 
 10. Every $\beta < \varepsilon_1$ is in $C_0(\Omega + \varepsilon_1) \subseteq C_0(\alpha)$, by (a).
 11. Every member of $C_0(\alpha)$ is below $\varepsilon_1$, or equal to $\Omega + \zeta$ with $\zeta < \varepsilon_1$, or at least $\Omega \cdot 2$.

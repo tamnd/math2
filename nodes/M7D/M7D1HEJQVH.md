@@ -82,7 +82,8 @@ The result names ordinals far beyond Buchholz's system.
 ### L2 human
 
 Why does $M$ contain a weakly inaccessible cardinal?
-The limit cardinals below $M$ form a closed unbounded set, since a limit of limit cardinals is a limit cardinal and above each $\kappa < M$ there is the limit cardinal $\aleph_{\kappa + \omega}$, which is below $M$ because $M$ is a regular limit cardinal.
+The limit cardinals below $M$ form a closed unbounded set, since a limit of limit cardinals is a limit cardinal.
+Above each $\kappa < M$ there is the limit cardinal $\aleph_{\kappa + \omega}$, which is below $M$ because $M$ is a regular limit cardinal.
 A stationary set meets every closed unbounded set, so some regular cardinal below $M$ is a limit cardinal, and that is a weakly inaccessible.
 The same argument, applied to the closure points of any normal function on $M$, gives the reflection that the $\chi$ functions use.
 

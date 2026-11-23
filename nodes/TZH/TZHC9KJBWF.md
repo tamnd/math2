@@ -24,14 +24,16 @@ Part (c) is $\psi_0(\alpha) = \varepsilon_0$ for each $\alpha$ with $\varepsilon
 Part (d) is $\psi_0(\Omega + 1) = \omega^{\varepsilon_0 + 1} = \varepsilon_0 \cdot \omega$.
 We use one fact (F): if $\rho$ is [[additively indecomposable|7TFCZSVX5R]] and $\beta, \gamma < \rho$, then $\beta + \gamma < \rho$, and a sum with a summand at least $\Omega$ is at least $\Omega$.
 
-Proof of (a).
+### Proof of parts (a) and (b)
+
+Part (a) comes first.
 
 1. $C_\nu(0)$ allows no value of $\psi$, since no $\xi$ is below $0$.
    So $C_\nu(0)$ is the closure of the set of ordinals below $\Omega_\nu$ under addition.
 2. For $\nu = 0$ this set is $\{ 0 \}$, since $0 + 0 = 0$, so $\psi_0(0) = 1$.
 3. For $\nu \ge 1$, $\Omega_\nu$ is an infinite cardinal, so a sum of two smaller ordinals is smaller, and $\psi_\nu(0) = \Omega_\nu$.
 
-Proof of (b), by induction on $\alpha \le \varepsilon_0$: assume $\psi_0(\xi) = \omega^\xi$ for all $\xi < \alpha$.
+Part (b) is proved by induction on $\alpha \le \varepsilon_0$, and we assume $\psi_0(\xi) = \omega^\xi$ for all $\xi < \alpha$.
 
 4. Every member of $C_0(\alpha)$ is below $\omega^\alpha$ or at least $\Omega$, by induction on the construction from $\{ 0 \}$.
    Sums keep this by (F), since $\omega^\alpha$ is additively indecomposable.
@@ -43,14 +45,16 @@ Proof of (b), by induction on $\alpha \le \varepsilon_0$: assume $\psi_0(\xi) = 
 8. So each $\beta_i$ is in $C_0(\alpha)$, and since $\beta_i < \alpha$, so is $\psi_0(\beta_i) = \omega^{\beta_i}$, and so is the sum $\beta$.
    Hence $\psi_0(\alpha) = \omega^\alpha$.
 
-Proof of (c), for $\varepsilon_0 \le \alpha \le \Omega$.
+### Proof of parts (c) and (d)
+
+For part (c), let $\varepsilon_0 \le \alpha \le \Omega$.
 
 9. Every $\beta < \varepsilon_0$ is in $C_0(\varepsilon_0) \subseteq C_0(\alpha)$, by (b).
 10. Every member of $C_0(\alpha)$ is below $\varepsilon_0$ or at least $\Omega$.
     For a value $\psi_0(\xi)$, the argument has $\xi < \alpha \le \Omega$, so $\xi < \varepsilon_0$ by the induction hypothesis, and $\psi_0(\xi) = \omega^\xi < \varepsilon_0$.
 11. So $\varepsilon_0 \notin C_0(\alpha)$, and $\psi_0(\alpha) = \varepsilon_0$.
 
-Proof of (d).
+Part (d) follows.
 
 12. $\Omega = \psi_1(0)$ is in $C_0(\Omega + 1)$, and $\Omega < \Omega + 1$, so $\psi_0(\Omega) = \varepsilon_0$ is in $C_0(\Omega + 1)$.
 13. Every ordinal below $\varepsilon_0 \cdot \omega$ is $\varepsilon_0 \cdot m + \gamma$ with $m$ natural and $\gamma < \varepsilon_0$, a sum of members by step 9, so it is in $C_0(\Omega + 1)$.
