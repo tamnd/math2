@@ -16,45 +16,46 @@ sources:
 
 ## Example
 
-Let $X$ be a non-empty [[connected space|0V032VWTHD]], let $Y$ be a set, and let $f \colon X \to Y$ be a [[locally constant function|N4GYVPPVX2]].
-This means that each point $x \in X$ has an open [[neighbourhood|0ZCY0Z80B6]] $V_x$ on which $f$ takes only the value $f(x)$.
+Let $X$ be a non-empty [[connected space|0V032VWTHD]], let $Y$ be a set, and let $f \colon X \to Y$ be [[locally constant|N4GYVPPVX2]].
+So each $x \in X$ has an open [[neighborhood|0ZCY0Z80B6]] $V_x$ on which $f$ takes only the value $f(x)$.
 We prove by the [[open-closed argument|1JJCDJB7FM]] that $f$ is constant.
 
-1. Fix a point $x_0 \in X$, and let $S = \{ x \in X : f(x) = f(x_0) \}$.
-2. Non-empty: $x_0 \in S$, because $f(x_0) = f(x_0)$.
-3. Open: let $x \in S$. Each $y \in V_x$ has $f(y) = f(x) = f(x_0)$, so $V_x \subseteq S$. Thus each point of $S$ has an open neighbourhood inside $S$, and $S$ is open.
-4. Closed: let $x \in X \setminus S$, so $f(x) \neq f(x_0)$. Each $y \in V_x$ has $f(y) = f(x) \neq f(x_0)$, so $V_x \subseteq X \setminus S$. Thus $X \setminus S$ is open, and $S$ is closed.
-5. By steps 3 and 4, $S$ is clopen. A connected space has no clopen subsets except $\varnothing$ and $X$.
-6. By step 2, $S \neq \varnothing$, so $S = X$. Hence $f(x) = f(x_0)$ for every $x \in X$, and $f$ is constant.
+1. Fix $x_0 \in X$, and let $S = \{ x \in X : f(x) = f(x_0) \}$.
+2. Non-empty: $x_0 \in S$.
+3. Open: for $x \in S$, every $y \in V_x$ has $f(y) = f(x) = f(x_0)$, so $V_x \subseteq S$.
+4. Closed: for $x \notin S$, every $y \in V_x$ has $f(y) = f(x) \neq f(x_0)$, so $V_x \subseteq X \setminus S$, and the complement of $S$ is open.
+5. So $S$ is clopen, and a connected space has no clopen subsets except $\varnothing$ and $X$.
+6. Since $S \neq \varnothing$, $S = X$, and $f$ is constant.
 
 ## Remarks
 
-1. The proof uses no topology on $Y$. Only the local constancy of $f$ and the connectedness of $X$ enter.
-2. The open step and the closed step use the same neighbourhoods $V_x$. This is typical when the property is "equal to a fixed value": the complement of $S$ is described by the same local fact.
-3. A continuous function $g \colon X \to \mathbb{Z}$ is locally constant: near $x$, continuity gives $\lvert g(y) - g(x) \rvert < \tfrac12$, so $g(y) = g(x)$. So such a $g$ on a connected space is constant.
-4. A differentiable function $h$ on an open interval with $h' = 0$ is constant. The [[mean value theorem|0BARQY52N5]] gives this directly. For a function on a connected open subset of $\mathbb{R}^n$ with zero gradient, the mean value theorem on small balls gives local constancy, and the example gives constancy.
-5. If $X$ is not connected, the conclusion fails. See [[the non-example on two intervals|87JHX7WQMR]].
+The proof uses no topology on $Y$, only the local constancy of $f$ and the connectedness of $X$.
+The open step and the closed step use the same neighborhoods $V_x$, which is typical when the property is "equal to a fixed value".
+
+Two common corollaries follow.
+A continuous $g \colon X \to \mathbb{Z}$ is locally constant, since near $x$ continuity gives $\lvert g(y) - g(x) \rvert < \tfrac12$, so it is constant on a connected $X$.
+On a connected open subset of $\mathbb{R}^n$, a differentiable function with zero gradient is locally constant by the [[mean value theorem|0BARQY52N5]] on small balls, and so constant.
+On a disconnected space the conclusion fails, as [[the example on two intervals|87JHX7WQMR]] shows.
 
 ## Explanations
 
 ### L1 human
 
-Suppose a map is painted so that around each point the colour does not change.
-If the map is one piece, with no gaps, then the whole map has one colour.
-Start from one point and look at all the points of the same colour.
-Near each of them the colour is the same, and near each point of another colour the colour is also unchanged.
-So the two colour regions cannot touch, and since the map is one piece, there is only one region.
+Suppose a map is painted so that the color does not change around any point.
+If the map is one piece, with no gaps, then the whole map has one color.
+Start from one point and look at all the points of the same color.
+Near each of them the color stays the same, and near each point of another color it also stays the same.
+So the regions of different colors cannot touch, and since the map is one piece, there is only one region.
 
 ### L2 human
 
-We apply the example to the number of real roots of a family of quadratics.
+We apply the example to the number of roots of a family of quadratics.
 
-1. For $t \in (-1, 1)$, let $p_t(x) = x^2 - 2tx - 1$. Its discriminant is $4t^2 + 4 > 0$, so $p_t$ has two real roots.
-2. The roots are $r_\pm(t) = t \pm \sqrt{t^2 + 1}$, by the quadratic formula.
-3. Let $N(t)$ be the number of roots of $p_t$ in the interval $(-2, 2)$. We ask whether $N$ is constant.
-4. A root leaves $(-2, 2)$ only by passing through $\pm 2$. We have $p_t(2) = 3 - 4t$ and $p_t(-2) = 3 + 4t$, and both are positive for $\lvert t \rvert < \tfrac34$.
-5. On $(-\tfrac34, \tfrac34)$ the roots are continuous in $t$ and never equal $\pm 2$, so $N$ is locally constant there. The interval is connected, so $N$ is constant on it.
-6. At $t = 0$ the roots are $\pm 1$, so $N(t) = 2$ for all $\lvert t \rvert < \tfrac34$.
+1. For $t \in (-1, 1)$, let $p_t(x) = x^2 - 2tx - 1$, with discriminant $4t^2 + 4 > 0$ and roots $r_\pm(t) = t \pm \sqrt{t^2 + 1}$.
+2. Let $N(t)$ be the number of roots of $p_t$ in $(-2, 2)$.
+3. A root can leave $(-2, 2)$ only through $\pm 2$, and $p_t(2) = 3 - 4t$ and $p_t(-2) = 3 + 4t$ are positive for $\lvert t \rvert < \tfrac34$.
+4. On $(-\tfrac34, \tfrac34)$ the roots move continuously and never equal $\pm 2$, so $N$ is locally constant, and the interval is connected, so $N$ is constant.
+5. At $t = 0$ the roots are $\pm 1$, so $N(t) = 2$ for all $\lvert t \rvert < \tfrac34$.
 
-The typical use is to show that an integer invariant, such as a number of roots, a degree or an index, does not change along a connected family.
-A trap is to forget to check that the invariant cannot jump, as in step 4: at $t = \tfrac34$ the root $r_+ = 2$ reaches the boundary, and for $t$ slightly larger than $\tfrac34$ we get $N(t) = 1$.
+The method shows that an integer invariant, such as a number of roots, a degree or an index, does not change along a connected family.
+Watch out: step 3 is essential, since at $t = \tfrac34$ the root $r_+$ reaches $2$, and for $t$ slightly above $\tfrac34$, $N(t) = 1$.
