@@ -33,7 +33,8 @@ Here is excluded middle in strong Kleene logic, with $0$ for false, $1$ for true
 Negation is $1 - x$ and disjunction is $\max$, so the middle row gives $\max(\tfrac12, \tfrac12) = \tfrac12$.
 When $p$ has no value, "$p$ or not $p$" has no value either, and the law fails.
 
-Exactly, as in [[the definition|74R8A41V6M]], *strong Kleene logic* $\mathsf{K}_3$ is the [[many-valued logic|DWYCKAKXZD]] of the matrix with values $\{0, \tfrac12, 1\}$, designated set $\{1\}$, $\neg x = 1 - x$, $x \land y = \min(x, y)$ and $x \lor y = \max(x, y)$.
+Exactly, as in [[the definition|74R8A41V6M]], *strong Kleene logic* $\mathsf{K}_3$ is the [[many-valued logic|DWYCKAKXZD]] of a matrix with values $\{0, \tfrac12, 1\}$ and designated set $\{1\}$.
+Its operations are $\neg x = 1 - x$, $x \land y = \min(x, y)$ and $x \lor y = \max(x, y)$.
 Implication is the abbreviation $\neg \varphi \lor \psi$.
 A compound gets a classical value whenever the classical values of its parts already decide it.
 $\mathsf{K}_3$ has [[no tautologies|ND17WYDNA5]], yet it has a rich consequence relation, and it is the standard logic of truth-value gaps.
