@@ -74,7 +74,7 @@ In G3ip this equivalence fails for R${\vee}$ and for L${\to}$, by part 3.
 ### Generalizations
 
 The first-order calculus G3c has the same property for all its rules, where the premise of L${\forall}$ and R${\exists}$ keeps the principal formula.
-Height-preserving inversion also holds for all rules of the G3-style [[labelled calculi|F46GV42XCE]] for modal logics.
+Height-preserving inversion also holds for all rules of the G3-style [[labeled calculi|F46GV42XCE]] for modal logics.
 In [[focused calculi|AMMKNENT3R]], the invertible rules form the asynchronous phase, which is applied eagerly.
 
 ### Watch out
