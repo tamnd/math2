@@ -19,100 +19,123 @@ sources:
 
 ## Summary
 
-An identity is an equation $E_1 = E_2$ between two expressions that holds for every value of its variables in a stated domain.
-To prove an identity, we fix arbitrary values of the variables in the domain and build a chain of equalities $E_1 = F_1 = F_2 = \dots = E_2$.
-Each link of the chain must have a reason: a definition, an algebraic law, or an identity that was proved before.
-There are three standard shapes.
-The proof transforms the left side into the right side, or both sides into one common expression, or the difference $E_1 - E_2$ into $0$.
-A fourth shape, a chain of equivalent equations that ends in a true equation, is legal only when each step can be reversed.
-The method matters because identities are the tools of every computation in algebra, trigonometry and analysis.
+To prove an identity, start from one side and change it, one justified step at a time, until it becomes the other side.
+Every link in the chain is an equality, so the chain carries the value from the start to the end, and it never assumes what you want to prove.
+
+Here is the pattern on a real goal: for every positive integer $n$,
+$$\frac1n - \frac{1}{n + 1} = \frac{1}{n(n + 1)}.$$
+Start from the left side and put it over the common denominator $n(n + 1)$, which is not $0$:
+$$\frac1n - \frac{1}{n + 1} = \frac{n + 1}{n(n + 1)} - \frac{n}{n(n + 1)} = \frac{(n + 1) - n}{n(n + 1)} = \frac{1}{n(n + 1)}.$$
+Check: for $n = 2$, $\tfrac12 - \tfrac13 = \tfrac16$.
+
+In general, an identity is an equation $E_1 = E_2$ between two expressions that holds for every value of its variables in a stated domain.
+A proof fixes arbitrary values in the domain and builds a chain $E_1 = F_1 = \dots = F_k = E_2$, each link justified by a definition, an algebraic law or an identity proved before.
 
 ## Motivation
 
-A school student first meets identities as rules, such as $(a + b)^2 = a^2 + 2ab + b^2$.
-Later the student must prove new identities, and the habits of solving equations then cause errors.
-To solve an equation, we change both sides until the unknown is alone.
-To prove an identity, we may not assume the identity, because that is the claim.
-The method of chains of equalities avoids this trap: it starts from one known expression and changes it, with a reason at each step, until it becomes the other expression.
+You first meet identities as rules, such as $(a + b)^2 = a^2 + 2ab + b^2$.
+Later you have to prove new ones, and the habits of solving equations get in the way.
+To solve an equation, you change both sides until the unknown stands alone, and you are allowed to assume that the equation holds.
+To prove an identity, you may not assume it, because it is the claim.
+A chain of equalities that starts at one known expression avoids the problem, since it never uses the claim as a step.
+
+Identities are the tools of every computation, from factoring in school algebra to trigonometry, telescoping sums and the manipulation of series.
+The chain of equalities is the simplest [[direct proof|0NTF6DMVAP]].
+Equalities that no chain reaches, such as the value of a supremum, need [[equality by two inequalities|S3QADD13E9]] instead.
 
 ## Notation
 
-1. An identity is often written with the ordinary sign $=$ and an implicit "for all", as in $\sin^2 x + \cos^2 x = 1$. The page [[implicit universal quantifier in an algebraic identity|N3FERWCTTJ]] makes the hidden quantifier explicit.
-2. Some books write $E_1 \equiv E_2$ to mark an identity. The sign $\equiv$ also means congruence and definition in other books, as the page on [[equality, definition and equivalence signs|BCGR3NPPXC]] explains.
-3. "LHS" and "RHS" abbreviate the left-hand side and the right-hand side, as in the example [[the abbreviations LHS, RHS and NTS|Z2HAC8J58R]].
-4. The domain is part of the identity. For example, $\frac{x^2 - 1}{x - 1} = x + 1$ is an identity on $\mathbb{R} \setminus \{1\}$, and it is false as an identity on $\mathbb{R}$, because the left side is not defined at $1$.
+An identity is usually written with the plain sign $=$ and a hidden "for all", as in $\sin^2 x + \cos^2 x = 1$; the [[implicit universal quantifier in an algebraic identity|N3FERWCTTJ]] makes that [[quantifier|EGTZPA6QH3]] visible.
+Some books write $E_1 \equiv E_2$ to mark an identity, and the same sign means congruence or definition elsewhere, as [[equality, definition and equivalence signs|BCGR3NPPXC]] explains.
+"LHS" and "RHS" abbreviate the left-hand side and the right-hand side, as in [[the abbreviations LHS, RHS and NTS|Z2HAC8J58R]].
+The domain is part of the identity: $\frac{x^2 - 1}{x - 1} = x + 1$ holds on $\mathbb{R} \setminus \{1\}$ and not on $\mathbb{R}$, where the left side is undefined at $1$.
 
 ## Remarks
 
-### Examples
+### Three shapes of chain
 
-1. [[The factorization of a^3 + b^3 + c^3 - 3abc|RVVKF9AC7N]]: we expand the right side and cancel terms until only the left side remains.
-2. [[Two forms of the tangent of a half angle|6YT3DTAXKJ]]: we multiply by a well-chosen form of $1$ and use the [[Pythagorean trigonometric identity|03H7WZ4T3K]], with care for the domain.
-3. The [[Brahmagupta-Fibonacci identity|0K2DMACEZ4]] $(a^2 + b^2)(c^2 + d^2) = (ac - bd)^2 + (ad + bc)^2$: we expand both sides and reach the same expression $a^2c^2 + a^2d^2 + b^2c^2 + b^2d^2$.
-4. $\frac{1}{n} - \frac{1}{n + 1} = \frac{1}{n(n + 1)}$ for each positive integer $n$: we put the left side over the common denominator $n(n + 1)$.
-5. $1 + 2 + \dots + n = \frac{n(n + 1)}{2}$: an identity with a variable number of terms. A chain of equalities does not apply directly, and [[mathematical induction|0ASJVEFA9J]] or the pairing trick proves it, as in [[two proofs of the formula|D6G69GNKPC]].
+The first shape turns one side into the other.
+Start from the side with more structure, because expanding is a step that a reader can check, while factoring needs an idea.
+For the [[factorization of a^3 + b^3 + c^3 - 3abc|RVVKF9AC7N]], you expand the product on the right and watch twelve terms cancel.
 
-### Non-examples
+The second shape turns both sides into one common form.
+For the [[Brahmagupta-Fibonacci identity|0K2DMACEZ4]],
+$$(a^2 + b^2)(c^2 + d^2) = (ac - bd)^2 + (ad + bc)^2,$$
+both sides expand to $a^2c^2 + a^2d^2 + b^2c^2 + b^2d^2$, since the cross terms $-2abcd$ and $+2abcd$ cancel on the right.
+This is legal because equality is symmetric and transitive.
 
-1. [[Squaring both sides does not prove an identity|FGS7ZJJYRK]]: a student starts from $\sqrt{x^2} = x$, squares, gets $x^2 = x^2$, and concludes. The squaring step cannot be reversed, and the claimed identity is false at $x = -1$.
-2. A check of an identity at several values, for example at $x = 0, 1, 2$, is not a proof for all real $x$. The equation $x^3 = 3x^2 - 2x$ holds at $x = 0$, $1$ and $2$, but it fails at $x = 3$, where the left side is $27$ and the right side is $27 - 6 = 21$.
-3. A chain that divides by an expression that can be $0$ proves the identity only where the expression is not $0$. The domain of the result must say so.
+The third shape shows that $E_1 - E_2$ simplifies to $0$.
+It is the same as the first shape applied to the identity $E_1 - E_2 = 0$.
 
-### Basic properties
+### Reversible steps and the domain
 
-1. The relation "is identically equal to" is reflexive, symmetric and transitive. So a chain of equalities is legal, and we may work from either side.
-2. If $E_1 = F$ and $E_2 = F$ are identities, then $E_1 = E_2$ is an identity. This justifies the shape "both sides to a common form".
-3. $E_1 = E_2$ is an identity if and only if $E_1 - E_2 = 0$ is an identity. This justifies the shape "the difference is zero".
-4. For polynomials in one variable over $\mathbb{R}$, the method of values works in a restricted form. If two polynomials of degree at most $d$ agree at $d + 1$ distinct points, then they are equal. Otherwise their difference has more roots than its degree allows, which contradicts the theorem that [[a polynomial has at most as many roots as its degree|0KJVQV3E0F]].
-5. A chain of equivalences $E_1 = E_2 \iff \dots \iff T$, where $T$ is a true equation, proves the identity only if each step is an equivalence. Adding the same term to both sides, and multiplying by a non-zero number, are reversible. Squaring, and multiplying by an expression that can be $0$, are not reversible.
+Some proofs run as a chain of equations, from the claim down to a true equation such as $1 = 1$.
+Such a chain proves the claim only when every step is an equivalence, so that you can read it upward.
+Adding a term to both sides and multiplying by a non-zero number are reversible.
+Squaring and multiplying by an expression that can be $0$ are not.
+[[Squaring both sides does not prove an identity|FGS7ZJJYRK]]: from $\sqrt{x^2} = x$ you reach $x^2 = x^2$, yet the claim fails at $x = -1$.
+
+Division needs the same care.
+The [[half-angle identity|6YT3DTAXKJ]] $\frac{1 - \cos x}{\sin x} = \frac{\sin x}{1 + \cos x}$ multiplies by $\frac{1 + \cos x}{1 + \cos x}$ and cancels $\sin x$, so the proof first checks that both are non-zero off the multiples of $\pi$.
+
+### Checking values is not proving
+
+Testing an identity at a few values is a good check, but not a proof.
+The equation $x^3 = 3x^2 - 2x$ holds at $x = 0$, $1$ and $2$, and fails at $x = 3$, where the sides are $27$ and $27 - 6 = 21$.
+For polynomials there is an exact version of the method of values.
+If two polynomials of degree at most $d$ agree at $d + 1$ distinct points, they are equal, because their difference has more roots than [[its degree allows|0KJVQV3E0F]].
+In the example, $x^3$ and $3x^2 - 2x$ have degree at most $3$, so they would need to agree at $4$ points, and three points were not enough.
+
+Identities with a variable number of terms, such as $1 + 2 + \dots + n = \frac{n(n + 1)}{2}$, need [[induction|0ASJVEFA9J]] or the pairing trick, as in [[two proofs of that formula|D6G69GNKPC]].
+
+### Watch out
+
+The classic slip starts from the claim, does the same thing to both sides, reaches $0 = 0$, and stops.
+A false claim can lead to a true equation: from $-1 = 1$, squaring gives $1 = 1$.
+So either write the chain forward, from one side to the other, or state that each step is reversible and check it.
+A second slip divides by $\sin x$ or by $x - 1$ and forgets to record where the identity fails or is undefined.
 
 ### History
 
-The word "identity" for an equation that holds for all values of its variables is standard in algebra books.
-Algebraic identities are much older than the symbols that we use for them.
-The Brahmagupta-Fibonacci identity appears in the Arithmetica of Diophantus, written in words, as its page records.
+Algebraic identities are much older than our symbols for them.
+The Brahmagupta-Fibonacci identity appears, stated in words, in the *Arithmetica* of Diophantus.
 
-### Common errors
+### Try it
 
-1. A student starts from the identity to be proved and reaches $0 = 0$ or $1 = 1$. If any step is not reversible, the argument proves nothing about the identity.
-2. A student cancels a factor that can be $0$, or divides by $\sin x$, and does not record the values where the identity fails or is undefined.
-3. A student "works on both sides" at once, with steps such as "square both sides", and so turns the proof into a chain of equations whose direction is not clear. Each step of a proof must be an equality of two expressions, or a stated equivalence of two equations.
+Prove $(a + b)^2 - (a - b)^2 = 4ab$.
+Expand the left side: $(a^2 + 2ab + b^2) - (a^2 - 2ab + b^2) = 4ab$.
+
+Is $\frac{x^2 - 4}{x - 2} = x + 2$ an identity on $\mathbb{R}$?
+No, because the left side is undefined at $x = 2$; it is an identity on $\mathbb{R} \setminus \{2\}$, by factoring $x^2 - 4 = (x - 2)(x + 2)$ and cancelling the non-zero factor $x - 2$.
 
 ## Explanations
 
 ### L1 human
 
-An identity is an equation that is true for every number that we put in.
-For example, $(a + b)^2 = a^2 + 2ab + b^2$ is true for all numbers $a$ and $b$.
+An identity is an equation that is true for every number you put in.
+For example, $(a + b)^2 = a^2 + 2ab + b^2$ holds for all numbers $a$ and $b$.
 With $a = 3$ and $b = 4$, the left side is $49$ and the right side is $9 + 24 + 16 = 49$.
-But a check with a few numbers does not prove that it is always true.
-To prove it, we start with one side and change it, one allowed step at a time, until we get the other side.
-Each step must keep the value the same for all numbers.
+A check with a few numbers does not prove that it always works.
+To prove it, start with one side and change it, one allowed step at a time, until you reach the other side.
 
 ### L2 human
 
-We prove that $\frac{1}{1 - x} - \frac{1}{1 + x} = \frac{2x}{1 - x^2}$ for every real $x$ with $x \neq 1$ and $x \neq -1$.
+We prove $\frac{1}{1 - x} - \frac{1}{1 + x} = \frac{2x}{1 - x^2}$ for every real $x \ne \pm 1$.
 
-1. Let $x$ be an arbitrary real number with $x \neq \pm 1$. Then $1 - x \neq 0$ and $1 + x \neq 0$, so both fractions on the left are defined.
-2. We write both fractions over the common denominator $(1 - x)(1 + x)$, which is not $0$ by step 1.
-3. The left side becomes $\frac{(1 + x) - (1 - x)}{(1 - x)(1 + x)}$.
-4. The numerator is $1 + x - 1 + x = 2x$.
-5. The denominator is $(1 - x)(1 + x) = 1 - x^2$, by the product of a sum and a difference.
-6. So the left side equals $\frac{2x}{1 - x^2}$, the right side.
-7. Since $x$ was arbitrary with $x \neq \pm 1$, the identity holds on $\mathbb{R} \setminus \{1, -1\}$.
+1. Let $x$ be real with $x \ne \pm 1$, so $1 - x \ne 0$ and $1 + x \ne 0$.
+2. Write both fractions over the common denominator $(1 - x)(1 + x)$, which is not $0$:
+   $$\frac{1}{1 - x} - \frac{1}{1 + x} = \frac{(1 + x) - (1 - x)}{(1 - x)(1 + x)}.$$
+3. The numerator is $2x$, and the denominator is $1 - x^2$, so the left side equals $\frac{2x}{1 - x^2}$.
+4. Since $x$ was arbitrary, the identity holds on $\mathbb{R} \setminus \{1, -1\}$.
 
-A check: at $x = 3$ the left side is $\frac{1}{-2} - \frac{1}{4} = -\frac34$, and the right side is $\frac{6}{-8} = -\frac34$.
-The typical use of such an identity is to simplify an expression before an integral or a limit.
-A trap is to multiply both sides of the claimed identity by $1 - x^2$ and to "check" the resulting equation.
-This step can be reversed only where $1 - x^2 \neq 0$, so the domain must be stated before the step.
+Check: at $x = 3$, the left side is $-\tfrac12 - \tfrac14 = -\tfrac34$, and the right side is $\tfrac{6}{-8} = -\tfrac34$.
+Identities like this simplify an expression before an integral or a limit.
+Watch out: multiplying the claimed identity by $1 - x^2$ and checking the result is reversible only where $1 - x^2 \ne 0$, so state the domain first.
 
 ### L3 human
 
-An identity in the variables $x_1, \dots, x_n$ is a statement about a ring of functions or of formal expressions.
-For polynomials with coefficients in an infinite field, an identity of functions is the same as an equality of formal polynomials, and so it can be proved by comparing coefficients.
-Over a finite field this fails: $x^p = x$ holds for every element of $\mathbb{F}_p$, but $x^p$ and $x$ are different polynomials.
-The same distinction appears in algebra as the difference between a polynomial and a polynomial function, and in universal algebra as the laws of a variety.
-Identities with a variable number of terms, such as sums over $k$ from $1$ to $n$, need [[mathematical induction|0ASJVEFA9J]], a telescoping argument, or a counting proof such as [[double counting|0F8YBHF2W3]].
-Algorithms such as those of Zeilberger and Gosper prove many hypergeometric summation identities automatically, and computer algebra systems check polynomial identities by normal forms.
-The proof of an identity is the simplest case of the [[direct proof|0NTF6DMVAP]].
-Other patterns of this topic, such as [[equality by two inequalities|S3QADD13E9]], prove equalities that no chain of equalities reaches.
+An identity in $x_1, \dots, x_n$ is a statement in a ring of functions or of formal expressions.
+Over an infinite field, a polynomial identity of functions is the same as an equality of formal polynomials, so comparing coefficients proves it.
+Over a finite field this fails: $x^p = x$ for every element of $\mathbb{F}_p$, yet $x^p$ and $x$ are different polynomials.
+In universal algebra, identities are the laws that define a variety, such as the group laws.
+Sums with a variable number of terms need induction, telescoping or [[double counting|0F8YBHF2W3]], and the algorithms of Gosper and Zeilberger prove many hypergeometric summation identities by machine.
