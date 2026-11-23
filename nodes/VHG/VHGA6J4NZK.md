@@ -21,22 +21,22 @@ General theories of learning are in [[mathematics education|9622VKAWMZ]], and th
 
 ### Reading order
 
-1. [[Teaching foundations of mathematics|H5BM68GXS9]]: see where logic, sets and proof can sit in a curriculum, and meet the main comprehensive works.
-2. [[Philosophy and mathematics in education|174ES70CS8]]: learn how a teacher's view of mathematics shapes what a class thinks a proof is for.
-3. [[Teaching logic|K1Y2MAQQ9E]]: understand why most people fail the Wason selection task and what that means for reading conditionals in proofs.
-4. [[Mathematical language in education|S19WMS43TW]]: see how symbols, definitions and everyday words trip learners, including learners in a second language.
-5. [[Reasoning and proof in the classroom|E77B813MT4]]: follow how a class builds norms for what counts as a proof, and what the teacher does.
-6. [[Teaching sets and relations|12ZNG0NRY7]]: learn what the New Math tried, why it was dropped, and what a Venn diagram can and cannot prove.
-7. [[Proof schemes|YVNRVXJR68]]: learn to tell external, empirical and deductive standards of conviction apart in students' work.
-8. [[Transition-to-proof courses|HQDCSJG379]]: see what the university bridge course teaches, with which textbooks, and what research says about it.
-9. [[Toulmin model of argumentation|RVZCSFDB2Y]]: learn to lay out an argument as claim, data, warrant, backing, qualifier and rebuttal, and find the unspoken rule.
-10. [[Student difficulties with proof|5K2969GSWE]]: get a map of the documented ways students fail to prove, from getting started to quantifier errors.
-11. [[Proof comprehension and validation|52Y2MW27J0]]: find out how students and mathematicians read and judge proofs, and how comprehension can be tested.
-12. [[Moore method and inquiry-based learning|WKM6535VHG]]: see how courses work in which students prove the theorems themselves.
-13. [[Proof in school curricula|7ZSHDS63QY]]: compare how the NCTM standards, the Common Core and other curricula place proof at school.
-14. [[Generic and pre-formal proofs|SG9XA69J64]]: learn how one well-chosen example, an action or a picture can carry a general argument.
-15. [[Concept image and concept definition|C5S2X0WDJ8]]: understand why students who can recite a definition still reason from a picture, and how to expose the conflict.
-16. [[Proof assistants in teaching|KGPHY3F0GC]]: see what Lean, Coq and Isabelle add to a proof course, starting from the Natural Number Game.
+1. [[Teaching foundations of mathematics|H5BM68GXS9]]: where logic, sets and proof can sit in a curriculum.
+2. [[Philosophy and mathematics in education|174ES70CS8]]: how a teacher's view of mathematics shapes what proof is for in class.
+3. [[Teaching logic|K1Y2MAQQ9E]]: why most people fail the Wason selection task, and what it means for conditionals.
+4. [[Mathematical language in education|S19WMS43TW]]: how symbols, definitions and everyday words trip learners.
+5. [[Reasoning and proof in the classroom|E77B813MT4]]: how a class builds norms for what counts as a proof.
+6. [[Teaching sets and relations|12ZNG0NRY7]]: what the New Math tried, and what a Venn diagram can prove.
+7. [[Proof schemes|YVNRVXJR68]]: how to tell external, empirical and deductive standards of conviction apart.
+8. [[Transition-to-proof courses|HQDCSJG379]]: what the university bridge course teaches, and what research says about it.
+9. [[Toulmin model of argumentation|RVZCSFDB2Y]]: how to lay out an argument and find its unspoken rule.
+10. [[Student difficulties with proof|5K2969GSWE]]: a map of the documented ways students fail to prove.
+11. [[Proof comprehension and validation|52Y2MW27J0]]: how students and mathematicians read and judge proofs.
+12. [[Moore method and inquiry-based learning|WKM6535VHG]]: courses in which students prove the theorems themselves.
+13. [[Proof in school curricula|7ZSHDS63QY]]: how NCTM, the Common Core and other curricula place proof.
+14. [[Generic and pre-formal proofs|SG9XA69J64]]: how one example, an action or a picture can carry a general argument.
+15. [[Concept image and concept definition|C5S2X0WDJ8]]: why students who can recite a definition still reason from a picture.
+16. [[Proof assistants in teaching|KGPHY3F0GC]]: what Lean and similar systems add to a proof course, from the Natural Number Game on.
 
 ### Prerequisites
 
