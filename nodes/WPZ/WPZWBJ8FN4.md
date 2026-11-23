@@ -16,26 +16,30 @@ sources:
 
 ## Example
 
-Take the signature $\set{\cdot}$ with one binary function symbol.
+Take the signature $\{ \cdot \}$ with one binary function symbol.
 A [[group|G5S1M9]] can be axiomatized in it by associativity and the sentence
 $$\varphi = \exists e \, \forall x \, \exists y \, (e \cdot x = x \land x \cdot e = x \land x \cdot y = e \land y \cdot x = e).$$
 We compute the [[Skolem normal form|GCPQGMJYEV]] of $\varphi$ and interpret the new symbols.
 
-1. $\varphi$ is prenex with prefix $\exists e \, \forall x \, \exists y$, distinct variables and a quantifier-free matrix.
-2. The leftmost $\exists e$ has no universal quantifier before it. So $e$ becomes a new constant symbol $c$.
-3. The next $\exists y$ follows $\forall x$. So $y$ becomes $i(x)$ for a new unary symbol $i$.
-4. The result is $\varphi^S = \forall x \, (c \cdot x = x \land x \cdot c = x \land x \cdot i(x) = c \land i(x) \cdot x = c)$.
+1. The sentence $\varphi$ is prenex with prefix $\exists e \, \forall x \, \exists y$, distinct variables and a quantifier-free matrix.
+2. The leftmost $\exists e$ has no universal quantifier before it.
+   So $e$ becomes a new constant symbol $c$, by the [[Skolemization step|EZ8NCHN7SJ]].
+3. The next $\exists y$ follows $\forall x$.
+   So $y$ becomes $i(x)$ for a new unary symbol $i$.
+4. The result is
+   $$\varphi^S = \forall x \, \big( c \cdot x = x \land x \cdot c = x \land x \cdot i(x) = c \land i(x) \cdot x = c \big).$$
 5. In a group $G$, the sentence $\varphi$ is true, with $e$ the identity and $y = x^{-1}$.
-6. The expansion with $c$ the identity and $i(x) = x^{-1}$ satisfies $\varphi^S$. Reason: these are the identity and inverse laws.
+6. The expansion with $c$ the identity and $i(x) = x^{-1}$ satisfies $\varphi^S$, because these are the identity and inverse laws.
 7. The identity and the inverses of a group are unique, so here the expansion is unique and no choice is needed.
 
-So the Skolem symbols for the group axioms are the identity and the inverse map.
+So the Skolem symbols for the group axioms are the identity and the inverse map, as the [[Skolem normal form theorem|Q5H7C57VNH]] predicts in this case.
 
 ## Remarks
 
-This explains why groups are often given in the signature $\set{\cdot, e, {}^{-1}}$: its axioms are universal.
-In that signature, every subgroup is a substructure, because universal sentences are preserved in substructures.
-In the signature $\set{\cdot}$ the axiom $\varphi$ is not universal, and a substructure, such as $\mathbb{N}$ in $(\mathbb{Z}, +)$, need not be a group.
+This explains why groups are often given in the signature $\{ \cdot, e, {}^{-1} \}$: there all the axioms are universal.
+In that signature every substructure of a group is a subgroup, because universal sentences are preserved in substructures.
+In the signature $\{ \cdot \}$ the axiom $\varphi$ is not universal, and a substructure need not be a group.
+For example, $\mathbb{N}$ is closed under addition, so it is a substructure of $(\mathbb{Z}, +)$, but it has no inverses.
 
 ## Explanations
 
@@ -47,12 +51,10 @@ The new axiom says only "for every $x$", and it describes the identity and the i
 
 ### L2 human
 
-We compare Skolem functions with a non-unique witness.
-
-1. In a group, the witness $y$ for $x$ is unique, so the Skolem function $i$ is forced.
-2. For the sentence $\forall x \, \exists y \, (y \cdot y = x)$ in the group $\mathbb{Z}/5\mathbb{Z}$ under addition, written as $y + y = x$, each $x$ has exactly one witness, since $2$ is invertible modulo $5$.
-3. In $\mathbb{R}_{>0}$ under multiplication the witness of $y \cdot y = x$ is $\sqrt{x}$, and it is again unique.
-4. In $\mathbb{C}^\times$ under multiplication each $x$ has two square roots, so there are many Skolem functions.
-
-The typical use is to turn an axiom system into a universal one, by adding the Skolem symbols to the signature.
-A trap: if the witness is not unique, different Skolem functions give different expansions of the same structure.
+We compare Skolem functions with unique and with non-unique witnesses.
+In a group the witness $y$ for $x$ is unique, so the Skolem function $i$ is forced.
+For $\forall x \, \exists y \, (y + y = x)$ in $\mathbb{Z}/5\mathbb{Z}$, each $x$ has exactly one witness, since $2$ is invertible modulo $5$; for $x = 1$ it is $y = 3$.
+In the positive reals under multiplication, the witness of $y \cdot y = x$ is $\sqrt{x}$, and it is again unique.
+In the nonzero complex numbers under multiplication, each $x$ has two square roots, so there are many Skolem functions.
+The typical use is to turn an axiom system into a universal one by adding the Skolem symbols to the signature.
+Watch out: when the witness is not unique, different Skolem functions give different expansions of the same structure.

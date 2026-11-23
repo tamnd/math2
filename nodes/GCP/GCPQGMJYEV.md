@@ -23,7 +23,7 @@ The sentence $\forall x \, \exists y \, (x < y)$ says that every $x$ has somethi
 If we give a name $f(x)$ to one such element for each $x$, the sentence becomes $\forall x \, (x < f(x))$, with no "there is" left.
 Replacing each existential quantifier by a new function symbol in this way is Skolemization, and the result is in Skolem normal form.
 
-Exactly, a [[sentence|DKFGQTRYZE]] is in Skolem normal form when it has the form $\forall x_1 \cdots \forall x_n \, \psi$ with $n \ge 0$ and $\psi$ quantifier-free, as in the [[formal definition|EZ8NCHN7SJ]].
+Formally, a [[sentence|DKFGQTRYZE]] is in Skolem normal form when it has the form $\forall x_1 \cdots \forall x_n \, \psi$ with $n \ge 0$ and $\psi$ quantifier-free, as in the [[formal definition|EZ8NCHN7SJ]].
 To Skolemize a sentence in [[prenex normal form|CS82V969DE]] with distinct prefix variables, replace each $\exists y$ by a new function symbol applied to the universally quantified variables to the left of $\exists y$, and delete $\exists y$.
 The result is not equivalent to the original, but it is [[equisatisfiable|B37TYWXS74]] with it: one has a model exactly when the other has one, by the [[Skolem normal form theorem|Q5H7C57VNH]].
 

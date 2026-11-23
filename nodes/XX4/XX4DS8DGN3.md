@@ -16,23 +16,29 @@ sources:
 
 ## Example
 
-Let $\sigma = \set{0, S, +}$ and $\varphi = \exists y \, (y + y = x)$, so that $\operatorname{FV}(\varphi) = \set{x}$.
+Let $\sigma = \{ 0, S, + \}$ and $\varphi = \exists y \, (y + y = x)$, so that $\operatorname{FV}(\varphi) = \{ x \}$.
 We substitute two terms for $x$ with the [[definition|XN8TQE6SRK]].
 
-1. The term $S(0)$ is substitutable for $x$ in $\varphi$: by the quantifier clause, $y \notin \operatorname{Var}(S(0)) = \emptyset$, and $S(0)$ is substitutable in the atomic formula $y + y = x$.
+1. The term $S(0)$ is substitutable for $x$ in $\varphi$.
+   By the quantifier clause, $y \notin \operatorname{Var}(S(0)) = \emptyset$, and $S(0)$ is substitutable in the atomic formula $y + y = x$.
 2. So $\varphi[S(0)/x] = \exists y \, (y + y = S(0))$.
-3. The term $S(y)$ is not substitutable for $x$ in $\varphi$: $x$ is free in $\varphi$, and $y \in \operatorname{Var}(S(y))$.
-4. Renaming the bound variable $y$ to $z$, which does not occur in $\varphi$, gives the alpha-equivalent formula $\varphi' = \exists z \, (z + z = x)$, as in the [[definition of renaming|Y3FZTH5158]].
+3. The term $S(y)$ is not substitutable for $x$ in $\varphi$, because $x$ is free in $\varphi$ and $y \in \operatorname{Var}(S(y))$.
+4. Renaming the bound variable $y$ to $z$, which does not occur in $\varphi$ or in $S(y)$, gives the alpha-equivalent formula $\varphi' = \exists z \, (z + z = x)$, as in the [[definition of renaming|Y3FZTH5158]].
 5. The term $S(y)$ is substitutable for $x$ in $\varphi'$, because $z \notin \operatorname{Var}(S(y))$.
-6. So $\varphi'[S(y)/x] = \exists z \, (z + z = S(y))$, with $\operatorname{FV} = \set{y}$.
+6. So $\varphi'[S(y)/x] = \exists z \, (z + z = S(y))$, with free variables $\{ y \}$.
 
 ## Remarks
 
 In $\mathbb{N}$, $\varphi$ says that $x$ is even.
 The sentence of step 2 says that $1$ is even, which is false, as it must be.
-The formula of step 6 says that $y + 1$ is even: it is true for $y = 1$ and false for $y = 2$.
-The blind replacement $\exists y \, (y + y = S(y))$ is a sentence, true in $\mathbb{N}$ because of $y = 1$, and it has lost the free variable $y$.
-If we put $S(z)$ instead of $S(y)$, then $\varphi$ itself is fine, but $\varphi'$ would need another fresh name.
+The formula of step 6 says that $y + 1$ is even.
+Check: it is true for $y = 1$ and false for $y = 2$.
+
+Watch out for the blind replacement $\exists y \, (y + y = S(y))$.
+It is a sentence, true in $\mathbb{N}$ with the witness $y = 1$, and it has lost the free variable $y$.
+
+The fresh name depends on the term.
+With $S(z)$ in place of $S(y)$, the formula $\varphi$ needs no renaming, but $\varphi'$ would need another fresh name.
 
 ## Explanations
 
@@ -53,4 +59,4 @@ We check the meaning of step 6 with values.
 3. So the result says "$y + 1$ is even", which is $\varphi$ applied to the value of $S(y)$.
 
 The typical use is the instantiation rule in a formal proof, where the instance term may contain any variable.
-The trap: a renaming to a variable that occurs in the term, here $y$ itself, brings the capture back.
+Watch out: a renaming to a variable that occurs in the term, here $y$ itself, brings the capture back.
