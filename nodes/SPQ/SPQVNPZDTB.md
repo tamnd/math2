@@ -31,6 +31,9 @@ Each extension keeps the idea of local evaluation at a point and changes what a 
 8. [[Kripke incompleteness|W67YJQTT50]]: you see a consistent normal logic that no class of Kripke frames characterizes.
 9. [[McKinsey formula|4N4ZNWZRE2]]: you see a short formula whose frame class is not first-order definable.
 10. [[Lattice of normal modal logics|EZ011FT3GT]]: you learn the structure of $\mathrm{NExt}(\mathsf{K})$, Makinson's theorem and splittings.
+
+### Reading order, continued
+
 11. [[Quantified modal logic|D2H3S12V7X]]: you learn Kripke models with domains, de re and de dicto readings, and where completeness fails.
 12. [[Barcan formula|9PYDNBA5X4]]: you learn how exchanging $\forall x$ and $\square$ corresponds to conditions on domains.
 13. [[Modal mu-calculus|MZ0M2KR9S0]]: you learn least and greatest fixed points, and the evaluation game.
