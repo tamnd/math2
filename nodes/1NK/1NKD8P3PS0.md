@@ -28,7 +28,8 @@ A prenex formula is *universal* when every $Q_i$ is $\forall$, and *existential*
 ## Notation
 
 Some books also require the variables $x_1, \dots, x_n$ to be distinct and to occur in the matrix.
-Every prenex formula is equivalent to one of that kind: drop a quantifier whose variable is not free in what follows it, and for a repeated variable keep only the innermost quantifier, since it alone binds the occurrences in the matrix.
+Every prenex formula is equivalent to one of that kind.
+Drop each quantifier whose variable is not free in what follows it; for a repeated variable this keeps only the innermost quantifier, which alone binds the occurrences in the matrix.
 
 ## Remarks
 
