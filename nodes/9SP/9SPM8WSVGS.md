@@ -16,11 +16,13 @@ sources:
 
 ## Example
 
-We show that the formula $(p \land (p \to q)) \to q$ is a [[tautology|05006AJ7DZ]] by a [[truth table|05RSK4Q657]].
+"It is Sunday, and if it is Sunday then the shop is closed; so the shop is closed."
+With $p$ for "it is Sunday" and $q$ for "the shop is closed", the form is $(p \land (p \to q)) \to q$.
+We show that this formula is a [[tautology|05006AJ7DZ]] by a [[truth table|05RSK4Q657]].
 
-1. There are $2$ variables, so there are $4$ rows: $\mathsf{T}\mathsf{T}$, $\mathsf{T}\mathsf{F}$, $\mathsf{F}\mathsf{T}$, $\mathsf{F}\mathsf{F}$.
-2. The column of $p \to q$ follows the table of [[material implication|0ZNX6DQ3EJ]]: $\mathsf{T}, \mathsf{F}, \mathsf{T}, \mathsf{T}$.
-3. The column of $p \land (p \to q)$ follows the table of [[conjunction|0M28ASWG8T]]: $\mathsf{T}, \mathsf{F}, \mathsf{F}, \mathsf{F}$.
+1. There are $2$ variables, so there are $4$ rows: TT, TF, FT, FF.
+2. The column of $p \to q$ follows the table of [[material implication|0ZNX6DQ3EJ]]: T, F, T, T.
+3. The column of $p \land (p \to q)$ follows the table of [[conjunction|0M28ASWG8T]]: T, F, F, F.
 4. The last column combines step 3 and the column of $q$ by the table of implication.
 
 | $p$ | $q$ | $p \to q$ | $p \land (p \to q)$ | $(p \land (p \to q)) \to q$ |
@@ -30,14 +32,21 @@ We show that the formula $(p \land (p \to q)) \to q$ is a [[tautology|05006AJ7DZ
 | F | T | T | F | T |
 | F | F | T | F | T |
 
-5. The last column is $\mathsf{T}$ in all $4$ rows, so the formula is a tautology.
+5. The last column is T in all $4$ rows, so the formula is a tautology.
 
 ## Remarks
 
+### The law behind modus ponens
+
 The formula is the law behind [[modus ponens|0Y0MQYST0M]]: from $p$ and $p \to q$, infer $q$.
 In the metalanguage, $\models (p \land (p \to q)) \to q$, and equivalently $p,\ p \to q \models q$.
-The only row where the antecedent $p \land (p \to q)$ is true is $\mathsf{T}\mathsf{T}$, and there $q$ is true.
+
+### A one-line check
+
+The only row where the antecedent $p \land (p \to q)$ is true is TT, and there $q$ is true.
 So the assume-false method gives the same result in one line.
+
+### Longer instances
 
 By substitution, every formula of the form $(\varphi \land (\varphi \to \psi)) \to \psi$ is a tautology.
 For example, $((r \lor s) \land ((r \lor s) \to \neg r)) \to \neg r$ is a tautology without a new table.
@@ -55,10 +64,11 @@ The whole formula is true in each case, so it is a tautology.
 
 We compare the formula with a similar one that is not a tautology: $(q \land (p \to q)) \to p$.
 
-1. In the row $p = \mathsf{F}$, $q = \mathsf{T}$, the implication $p \to q$ is $\mathsf{T}$.
-2. So the antecedent $q \land (p \to q)$ is $\mathsf{T}$, and the consequent $p$ is $\mathsf{F}$.
-3. The formula is $\mathsf{F}$ in this row, so it is not a tautology.
+1. In the row where $p$ is F and $q$ is T, the implication $p \to q$ is T.
+2. So the antecedent $q \land (p \to q)$ is T, and the consequent $p$ is F.
+3. The formula is F in this row, so it is not a tautology.
 
 This second formula is the form of the fallacy of [[affirming the consequent|J7KFCFQRBT]].
-The typical use of the tautology is to justify each step of a proof that applies a known implication.
-A trap: the order matters; $p$ and $p \to q$ give $q$, but $q$ and $p \to q$ do not give $p$.
+The tautology justifies each step of a proof that applies a known implication to a known fact.
+Watch out: the order matters.
+From $p$ and $p \to q$ we get $q$, but from $q$ and $p \to q$ we do not get $p$.
