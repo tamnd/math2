@@ -16,50 +16,50 @@ sources:
 
 ## Example
 
-We work in Enderton's [[Hilbert-style predicate calculus|N95HV0VWSM]].
-Its logical axioms are all generalizations of six groups of formulas, and its only rule is [[modus ponens|0Y0MQYST0M]] (MP).
-We use group 1 ([[tautology|05006AJ7DZ]] instances), group 2 ($\forall x\,\varphi \to \varphi[t/x]$ with $t$ substitutable for $x$), and the two [[equality rules|Y90Z13AXY8]]:
-
-- Axiom 5: $x = x$.
-- Axiom 6: $x = y \to (\alpha \to \alpha')$, with $\alpha$ atomic and $\alpha'$ obtained from $\alpha$ by replacing $x$ at zero or more places by $y$.
-
-The variables $x$ and $y$ in Axiom 6 are arbitrary, so the schema also has instances with other variables, such as $y = z \to (\alpha \to \alpha')$.
+We derive $x = y \to y = x$ in Enderton's [[Hilbert-style predicate calculus|N95HV0VWSM]] $\mathsf{H}$, and then transitivity and the congruence law for a function symbol.
+The logical axioms of $\mathsf{H}$ are all generalizations of six groups of formulas, and its only rule is [[modus ponens|0Y0MQYST0M]] (MP).
+We use group 1, the [[tautology|05006AJ7DZ]] instances, and group 2, the formulas $\forall x\, \varphi \to \varphi[t/x]$ with $t$ substitutable for $x$.
+We also use the two groups of [[equality axioms|Y90Z13AXY8]].
+Group 5 is $x = x$.
+Group 6 is $x = y \to (\alpha \to \alpha')$, with $\alpha$ atomic and $\alpha'$ obtained from $\alpha$ by replacing $x$ at zero or more places by $y$.
+The variables $x$ and $y$ in group 6 are arbitrary, so the schema also has instances with other variables, such as $y = z \to (\alpha \to \alpha')$.
+All three derivations use the tautology
+$$\text{(Swap)} \quad (A \to (B \to C)) \to (B \to (A \to C)).$$
 
 **Symmetry:** $\vdash_{\mathsf{H}} x = y \to y = x$.
-
-1. $x = y \to (x = x \to y = x)$. Axiom 6 with $\alpha$ the formula $x = x$; replacing the first occurrence of $x$ by $y$ gives $\alpha' = (y = x)$.
-2. $(x = y \to (x = x \to y = x)) \to (x = x \to (x = y \to y = x))$. Axiom 1: an instance of the tautology $(A \to (B \to C)) \to (B \to (A \to C))$.
-3. $x = x \to (x = y \to y = x)$. MP from 1 and 2.
-4. $x = x$. Axiom 5.
-5. $x = y \to y = x$. MP from 4 and 3.
+$$\begin{array}{rll} 1. & x = y \to (x = x \to y = x) & \text{group 6} \\ 2. & (x = y \to (x = x \to y = x)) \to (x = x \to (x = y \to y = x)) & \text{group 1, Swap} \\ 3. & x = x \to (x = y \to y = x) & \text{MP, 1 and 2} \\ 4. & x = x & \text{group 5} \\ 5. & x = y \to y = x & \text{MP, 4 and 3} \end{array}$$
+Check: in line 1, $\alpha$ is $x = x$, and replacing only the first $x$ by $y$ gives $\alpha' = (y = x)$.
 
 **Transitivity:** $\vdash_{\mathsf{H}} x = y \to (y = z \to x = z)$.
-
-1. $y = z \to (x = y \to x = z)$. Axiom 6 with the variables $y, z$ in the roles of $x, y$, and $\alpha$ the formula $x = y$; replacing the occurrence of $y$ by $z$ gives $\alpha' = (x = z)$.
-2. $(y = z \to (x = y \to x = z)) \to (x = y \to (y = z \to x = z))$. Axiom 1: the same tautology as in step 2 of the symmetry proof.
-3. $x = y \to (y = z \to x = z)$. MP from 1 and 2.
+$$\begin{array}{rll} 1. & y = z \to (x = y \to x = z) & \text{group 6} \\ 2. & (y = z \to (x = y \to x = z)) \to (x = y \to (y = z \to x = z)) & \text{group 1, Swap} \\ 3. & x = y \to (y = z \to x = z) & \text{MP, 1 and 2} \end{array}$$
+Check: line 1 is group 6 with $y$ and $z$ in the roles of $x$ and $y$, with $\alpha$ the formula $x = y$ and $\alpha' = (x = z)$.
 
 **Congruence for a unary function symbol $f$:** $\vdash_{\mathsf{H}} x = y \to f(x) = f(y)$.
-
-1. $\forall x\,(x = x)$. A generalization of Axiom 5, so a logical axiom.
-2. $\forall x\,(x = x) \to f(x) = f(x)$. Axiom 2 with $t = f(x)$; the term is substitutable, since $x = x$ has no quantifier.
-3. $f(x) = f(x)$. MP from 1 and 2.
-4. $x = y \to (f(x) = f(x) \to f(x) = f(y))$. Axiom 6 with $\alpha$ the formula $f(x) = f(x)$; replacing the occurrence of $x$ on the right side by $y$ gives $f(x) = f(y)$.
-5. $(x = y \to (f(x) = f(x) \to f(x) = f(y))) \to (f(x) = f(x) \to (x = y \to f(x) = f(y)))$. Axiom 1, the same tautology again.
-6. $f(x) = f(x) \to (x = y \to f(x) = f(y))$. MP from 4 and 5.
-7. $x = y \to f(x) = f(y)$. MP from 3 and 6.
+$$\begin{array}{rll} 1. & \forall x\,(x = x) & \text{generalization of group 5} \\ 2. & \forall x\,(x = x) \to f(x) = f(x) & \text{group 2, } t = f(x) \\ 3. & f(x) = f(x) & \text{MP, 1 and 2} \\ 4. & x = y \to (f(x) = f(x) \to f(x) = f(y)) & \text{group 6} \\ 5. & (x = y \to (f(x) = f(x) \to f(x) = f(y))) \to (f(x) = f(x) \to (x = y \to f(x) = f(y))) & \text{group 1, Swap} \\ 6. & f(x) = f(x) \to (x = y \to f(x) = f(y)) & \text{MP, 4 and 5} \\ 7. & x = y \to f(x) = f(y) & \text{MP, 3 and 6} \end{array}$$
+Check: in line 2 the term $f(x)$ is substitutable, since $x = x$ has no quantifier.
+In line 4, $\alpha$ is $f(x) = f(x)$, and only the $x$ on the right side is replaced by $y$.
 
 ## Remarks
 
-The [[generalization theorem|VKSK35Y52Z]] turns each result into a closed theorem, for example $\vdash_{\mathsf{H}} \forall x\,\forall y\,(x = y \to y = x)$, because the derivations use no hypotheses.
-Transitivity needs only one instance of Axiom 6; it does not use symmetry.
-The congruence proof needs Axiom 2, because Axiom 5 gives $x = x$ only for variables and not for the term $f(x)$.
+### Closed forms
 
-In Mendelson's variant the axioms are $\forall x\,(x = x)$ and $x = y \to (\varphi(x,x) \to \varphi(x,y))$ for all formulas, and there is a rule of generalization.
-The derivations are the same, except that $x = x$ is obtained from $\forall x\,(x = x)$ by the instantiation axiom.
+The derivations use no hypotheses, so the [[generalization theorem|VKSK35Y52Z]] turns each result into a closed theorem.
+For example, $\vdash_{\mathsf{H}} \forall x\, \forall y\,(x = y \to y = x)$.
 
-For a binary function symbol $g$, two such derivations, one for each argument, and transitivity give $x_1 = y_1 \to (x_2 = y_2 \to g(x_1, x_2) = g(y_1, y_2))$.
-The first one gives $g(x_1, x_2) = g(y_1, x_2)$, and the second one gives $g(y_1, x_2) = g(y_1, y_2)$.
+### What each derivation needs
+
+Transitivity needs only one instance of group 6, and it does not use symmetry.
+The congruence proof needs group 2, because group 5 gives $x = x$ only for variables and not for the term $f(x)$.
+
+### Mendelson's variant
+
+In Mendelson's variant the axioms are $\forall x\,(x = x)$ and $x = y \to (\varphi(x, x) \to \varphi(x, y))$ for all formulas, and there is a rule of generalization.
+The derivations are the same, except that $x = x$ comes from $\forall x\,(x = x)$ by the instantiation axiom.
+
+### Functions of two arguments
+
+For a binary function symbol $g$, two derivations of the same kind, one for each argument, give $x_1 = y_1 \to g(x_1, x_2) = g(y_1, x_2)$ and $x_2 = y_2 \to g(y_1, x_2) = g(y_1, y_2)$.
+Transitivity joins them into $x_1 = y_1 \to (x_2 = y_2 \to g(x_1, x_2) = g(y_1, y_2))$.
 
 ## Explanations
 
@@ -73,13 +73,11 @@ Transitivity works in the same way: from "$a = b$" and "$b = c$", replace $b$ by
 
 ### L2 human
 
-The pattern of each derivation is the same.
-
-1. Choose an atomic formula $\alpha$ that is already provable, and a place in it to replace a variable.
-2. Write the instance of Axiom 6 for that choice.
-3. Use the tautology $(A \to (B \to C)) \to (B \to (A \to C))$ to swap the two antecedents.
-4. Discharge the provable antecedent $\alpha$ by modus ponens.
-
+Each derivation follows one pattern.
+First choose an atomic formula $\alpha$ that is already provable, and a place in it where a variable is replaced.
+Then write the instance of group 6 for that choice.
+Next use the tautology Swap to exchange the two antecedents.
+Last, discharge the provable antecedent $\alpha$ by modus ponens.
 The typical use is in any theory with equality, where these derived facts are used without comment.
-A trap is to replace all occurrences at once.
-In step 1 of the symmetry proof, replacing both occurrences of $x$ in $x = x$ gives only $y = y$, which proves nothing.
+Watch out: do not replace all occurrences at once.
+In line 1 of the symmetry proof, replacing both occurrences of $x$ in $x = x$ gives only $y = y$, which proves nothing.

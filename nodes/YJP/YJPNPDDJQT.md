@@ -19,36 +19,49 @@ sources:
 ## Example
 
 We work in the [[Hilbert-style predicate calculus|2B00FE6K5W]] $\mathsf{H}$, for the language with equality and no other symbols.
-Let $\Gamma = \{\forall x\, \neg \forall y\, (x = y)\}$.
-The hypothesis says that for each $x$ some $y$ differs from $x$, that is, the domain has at least two elements.
-Consider the list:
+Let $\Gamma = \{ \forall x\, \neg \forall y\,(x = y) \}$.
+The hypothesis says that for each $x$ some $y$ differs from $x$, so it says that the domain has at least two elements.
+Consider the following list of three formulas.
 
-- (i) $\forall x\, \neg \forall y\, (x = y)$, a member of $\Gamma$;
-- (ii) $\forall x\, \neg \forall y\, (x = y) \to \neg \forall y\, (y = y)$, claimed as an axiom of group 2 with $t = y$;
-- (iii) $\neg \forall y\, (y = y)$, by modus ponens from (i) and (ii).
+$$\begin{array}{rll} \text{(i)} & \forall x\, \neg \forall y\,(x = y) & \text{member of } \Gamma \\ \text{(ii)} & \forall x\, \neg \forall y\,(x = y) \to \neg \forall y\,(y = y) & \text{claimed: group 2 with } t = y \\ \text{(iii)} & \neg \forall y\,(y = y) & \text{modus ponens, (i) and (ii)} \end{array}$$
 
-We check that this list is not a deduction.
+We check that the list is not a deduction.
 
-1. Group 2 contains $\forall x\, \varphi \to \varphi[t/x]$ only when $t$ is substitutable for $x$ in $\varphi$. Here $\varphi = \neg \forall y\, (x = y)$ and $t = y$.
+1. Group 2 contains $\forall x\, \varphi \to \varphi[t/x]$ only when $t$ is substitutable for $x$ in $\varphi$.
+   Here $\varphi = \neg \forall y\,(x = y)$ and $t = y$.
 2. The only free occurrence of $x$ in $\varphi$ lies inside the scope of $\forall y$.
-3. Replacing it by $y$ gives $\neg \forall y\, (y = y)$, where the new $y$ is bound by $\forall y$. So $y$ is not substitutable for $x$ in $\varphi$, as on the page [[substitution|NCDZ969V7X]].
-4. So line (ii) is not an axiom of group 2. It is not a tautology either: its two prime formulas differ, and making the first true and the second false makes line (ii) false.
-5. Line (ii) is not in groups 3 to 6: its consequent is a negation, and its antecedent is neither an equation nor of the form $\forall x\, (\varphi \to \psi)$.
-6. Line (ii) is not in $\Gamma$ and does not follow by modus ponens from line (i). So the list is not a deduction.
+3. Replacing it by $y$ gives $\neg \forall y\,(y = y)$, where the new $y$ is bound by $\forall y$.
+   So $y$ is not substitutable for $x$ in $\varphi$, in the sense of [[substitution|NCDZ969V7X]], and line (ii) is not in group 2.
+4. Line (ii) is not a tautology either.
+   Its prime formulas are $\forall x\, \neg \forall y\,(x = y)$ and $\forall y\,(y = y)$, and making both true makes line (ii) false.
+5. Line (ii) is not in groups 3 to 6.
+   Its consequent is a negation, and its antecedent is neither an equation nor of the form $\forall x\,(\varphi \to \psi)$.
+6. Line (ii) is not a generalization of any axiom, since its main symbol is $\to$, not $\forall$.
+7. Line (ii) is not in $\Gamma$, and it cannot come from modus ponens, since only one line precedes it.
+   So the list is not a deduction.
 
-The list is also not sound.
+The list is also unsound, which shows why the rule forbids it.
 
-7. Let $\mathcal{M}$ be the [[structure|983GZBQYT4]] with domain $\{0, 1\}$, where $=$ means equality.
-8. For $x = 0$ the formula $\forall y\, (0 = y)$ is false, because $0 \neq 1$. For $x = 1$ it is false, because $1 \neq 0$. So $\mathcal{M} \models \forall x\, \neg \forall y\, (x = y)$, and $\mathcal{M}$ satisfies $\Gamma$.
-9. The formula $\forall y\, (y = y)$ is true in $\mathcal{M}$, so line (iii) is false in $\mathcal{M}$.
-10. So line (ii) is false in $\mathcal{M}$: its antecedent is true and its consequent is false.
+8. Let $\mathcal{M}$ be the [[structure|983GZBQYT4]] with domain $\{ 0, 1 \}$, where $=$ means identity.
+9. For $x = 0$ the formula $\forall y\,(0 = y)$ is false, because $0 \neq 1$.
+   For $x = 1$ it is false, because $1 \neq 0$.
+   So $\mathcal{M} \models \forall x\, \neg \forall y\,(x = y)$, and $\mathcal{M}$ satisfies $\Gamma$.
+10. The formula $\forall y\,(y = y)$ is true in $\mathcal{M}$, so line (iii) is false in $\mathcal{M}$.
+11. So line (ii) is false in $\mathcal{M}$: its antecedent is true and its consequent is false.
 
 ## Remarks
 
-The correct way to instantiate is to rename the bound variable first.
-The formula $\forall x\, \neg \forall z\, (x = z)$ means the same as the hypothesis, and $y$ is substitutable for $x$ in $\neg \forall z\, (x = z)$.
-The instance $\neg \forall z\, (y = z)$ says that some element differs from $y$, which is true in $\mathcal{M}$.
-If the hypothesis is replaced by $\forall x\, \neg (x = c)$ with a constant $c$, the same mistake gives $\neg (c = c)$, but there no capture happens: $c$ is substitutable, the instance is a real axiom, and $\Gamma$ is then inconsistent, as it should be.
+### The correct move
+
+The right way to instantiate is to rename the bound variable first.
+The formula $\forall x\, \neg \forall z\,(x = z)$ means the same as the hypothesis, and $y$ is substitutable for $x$ in $\neg \forall z\,(x = z)$.
+The instance $\neg \forall z\,(y = z)$ says that some element differs from $y$, which is true in $\mathcal{M}$ for both values of $y$.
+
+### What changes with a constant
+
+Replace the hypothesis by $\forall x\, \neg (x = c)$ with a constant symbol $c$.
+The same move now gives $\neg (c = c)$, and this time no capture happens.
+The constant $c$ is substitutable, the instance is a real axiom, and $\Gamma$ is inconsistent, as it should be, since $c$ names an element that equals itself.
 
 ## Explanations
 
@@ -62,11 +75,9 @@ The rule of the calculus forbids this plug-in, so the absurd line cannot be dedu
 ### L2 human
 
 To check a claimed instance of $\forall x\, \varphi \to \varphi[t/x]$, do three things.
-
-1. Find the free occurrences of $x$ in $\varphi$.
-2. For each one, list the quantifiers in whose scope it lies.
-3. Check that no variable of $t$ is bound by one of these quantifiers.
-
-Here step 2 finds $\forall y$, and step 3 fails because $t = y$.
-The typical fix is to rename the bound variable, which gives an equivalent formula.
-A trap is to think that the check is needed only for long terms: the one-letter term $y$ already fails.
+First, find the free occurrences of $x$ in $\varphi$.
+Second, list the quantifiers in whose scope each of them lies.
+Third, check that no variable of $t$ is bound by one of these quantifiers.
+Here the second step finds $\forall y$, and the third step fails because $t = y$.
+The usual fix is to rename the bound variable, which gives an equivalent formula.
+Watch out: the check is needed even for one-letter terms, since the term $y$ already fails it.

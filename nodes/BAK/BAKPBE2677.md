@@ -18,31 +18,46 @@ sources:
 
 We work in the [[Hilbert-style predicate calculus|2B00FE6K5W]] $\mathsf{H}$ of Enderton, for a language with a unary relation symbol $P$.
 In this calculus $\exists x\, P(x)$ abbreviates $\neg \forall x\, \neg P(x)$.
-We claim that $\vdash_{\mathsf{H}} \forall x\, P(x) \to \exists x\, P(x)$, and we check the following deduction line by line.
+We show that $\vdash_{\mathsf{H}} \forall x\, P(x) \to \exists x\, P(x)$ by checking the following deduction line by line.
+To keep the lines short, write $A$ for $\forall x\, P(x)$, $B$ for $P(x)$ and $C$ for $\forall x\, \neg P(x)$.
 
-1. $\forall x\, P(x) \to P(x)$. This is an axiom of group 2 with $\varphi = P(x)$ and $t = x$. The variable $x$ is substitutable for itself, and $P(x)[x/x] = P(x)$.
-2. $\forall x\, \neg P(x) \to \neg P(x)$. This is an axiom of group 2 with $\varphi = \neg P(x)$ and $t = x$.
-3. $(\forall x\, P(x) \to P(x)) \to ((\forall x\, \neg P(x) \to \neg P(x)) \to (\forall x\, P(x) \to \neg \forall x\, \neg P(x)))$. This is an axiom of group 1, a [[tautology|05006AJ7DZ]], as step 6 checks.
-4. $(\forall x\, \neg P(x) \to \neg P(x)) \to (\forall x\, P(x) \to \neg \forall x\, \neg P(x))$. This follows by [[modus ponens|0Y0MQYST0M]] from lines 1 and 3.
-5. $\forall x\, P(x) \to \neg \forall x\, \neg P(x)$. This follows by modus ponens from lines 2 and 4.
+1. $A \to B$, that is, $\forall x\, P(x) \to P(x)$.
+   This is an axiom of group 2 with $\varphi = P(x)$ and $t = x$, since $x$ is substitutable for itself and $P(x)[x/x] = P(x)$.
+2. $C \to \neg B$, that is, $\forall x\, \neg P(x) \to \neg P(x)$.
+   This is an axiom of group 2 with $\varphi = \neg P(x)$ and $t = x$.
+3. $(A \to B) \to ((C \to \neg B) \to (A \to \neg C))$.
+   This is an axiom of group 1, a [[tautology|05006AJ7DZ]], as the check below shows.
+4. $(C \to \neg B) \to (A \to \neg C)$, by [[modus ponens|0Y0MQYST0M]] from lines 1 and 3.
+5. $A \to \neg C$, by modus ponens from lines 2 and 4.
+
+Line 5 is $\forall x\, P(x) \to \neg \forall x\, \neg P(x)$, which is $\forall x\, P(x) \to \exists x\, P(x)$.
 
 It remains to check that line 3 is a tautology.
-
-6. The prime formulas of line 3 are $A = \forall x\, P(x)$, $B = P(x)$ and $C = \forall x\, \neg P(x)$. Line 3 has the form $(A \to B) \to ((C \to \neg B) \to (A \to \neg C))$.
-7. Suppose that a truth assignment makes this form false. Then $A \to B$ is true, $C \to \neg B$ is true, and $A \to \neg C$ is false.
-8. Since $A \to \neg C$ is false, $A$ is true and $\neg C$ is false, so $C$ is true.
-9. Since $A$ and $A \to B$ are true, $B$ is true. Since $C$ and $C \to \neg B$ are true, $\neg B$ is true. This is impossible.
-10. So no truth assignment makes the form false, and line 3 is a tautology.
-
-Line 5 is the formula $\forall x\, P(x) \to \exists x\, P(x)$, so the five lines are a deduction of it.
+Its prime formulas are $A$, $B$ and $C$, and we look for a truth assignment that makes it false.
+Such an assignment makes $A \to B$ and $C \to \neg B$ true and $A \to \neg C$ false.
+Since $A \to \neg C$ is false, $A$ is true and $C$ is true.
+Then $A \to B$ gives $B$ true, and $C \to \neg B$ gives $B$ false.
+This is impossible, so no assignment makes line 3 false.
+Check: the truth table of line 3 has 8 rows, and the argument shows that the only candidate rows, those with $A$ and $C$ true, are not counterexamples.
 
 ## Remarks
 
-The example shows how $\mathsf{H}$ splits the work: the quantifier axioms remove the quantifiers, and a tautology does the propositional reasoning.
-The formula is valid because the domain of a structure is not empty: if $P$ holds of every element, it holds of some element.
-In a semantics that allows the empty domain, the formula is false in the empty structure, and the calculus must then restrict group 2.
-The same five lines work with any formula $\varphi$ in place of $P(x)$, since $x$ is always substitutable for itself.
-The converse $\exists x\, P(x) \to \forall x\, P(x)$ has no deduction: it is false in a structure with two elements where $P$ holds of one, and the calculus is [[sound|4A84VHDTHV]].
+### What the example shows
+
+The calculus splits the work in two.
+The quantifier axioms of group 2 remove the quantifiers, and a single tautology does all the propositional reasoning.
+The same five lines work with any formula $\varphi$ in place of $P(x)$, because $x$ is always substitutable for itself.
+
+### Where the empty domain enters
+
+The formula is valid because the domain of a structure is never empty: if $P$ holds of every element, it holds of some element.
+The calculus builds this assumption into group 2, which allows the instance at the variable $x$ even when the language has no constant.
+In a logic that allows an empty domain, the formula is false in the empty structure, and the instantiation axiom has to be restricted.
+
+### The converse
+
+The converse $\exists x\, P(x) \to \forall x\, P(x)$ has no deduction.
+It is false in a structure with two elements where $P$ holds of one of them, and the calculus is [[sound|4A84VHDTHV]].
 
 ## Explanations
 
@@ -50,14 +65,14 @@ The converse $\exists x\, P(x) \to \forall x\, P(x)$ has no deduction: it is fal
 
 The formula says: "if every object has the property $P$, then some object has the property $P$".
 This is true as long as there is at least one object, and logic assumes that there is one.
-The deduction first removes "every" twice, once for $P$ and once for "not $P$".
+The deduction first removes "every" twice, once for "$P$" and once for "not $P$".
 Then a rule of pure propositional logic joins the two pieces.
 For example, if every student in a class passed, then some student passed, because the class has at least one student.
 
 ### L2 human
 
-To find such a deduction, work backwards from the goal $A \to \neg C$.
-The two instantiation axioms give $A \to B$ and $C \to \neg B$, with the same $B$.
-Ask which propositional law turns these two into $A \to \neg C$: it is the tautology of line 3.
-Then two steps of modus ponens finish the deduction.
-A trap is to try to derive $\exists x\, P(x)$ from $\forall x\, P(x)$ with a rule for $\exists$: the calculus has none, and $\exists$ exists only as an abbreviation.
+How would you find this deduction?
+Work backward from the goal $A \to \neg C$.
+The two instantiation axioms give $A \to B$ and $C \to \neg B$ with the same $B$, so ask which propositional law turns these two into $A \to \neg C$.
+That law is line 3, and two steps of modus ponens finish.
+Watch out: do not look for a rule for $\exists$, since the calculus has none and $\exists$ is only an abbreviation.
