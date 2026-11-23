@@ -16,24 +16,33 @@ sources:
 
 ## Example
 
-Let $L = \set{f}$ be the signature with one binary function symbol $f$.
-Let the domain be the set $\R$ of [[real numbers|08J2M1JYAG]], and try to interpret $f$ as division, $f^{\mathcal{M}}(a, b) = a / b$.
+Let $L = \{f\}$ be the signature with one binary function symbol $f$.
+Let the domain be the set $\mathbb{R}$ of [[real numbers|08J2M1JYAG]], and try to interpret $f$ as division, $f^{\mathcal{M}}(a, b) = a / b$.
 We show that this does not give an $L$-[[structure|983GZBQYT4]].
 
-1. A structure needs a [[function|0EPAT51DXQ]] $f^{\mathcal{M}} \colon \R^2 \to \R$, so $f^{\mathcal{M}}(a, b)$ must be defined for every pair $(a, b) \in \R^2$.
-2. Take the pair $(1, 0)$. There is no real number $q$ with $q \cdot 0 = 1$, because $q \cdot 0 = 0$ for every real number $q$.
-3. So $1 / 0$ is not defined, and division is not a function from $\R^2$ to $\R$.
+1. A structure needs a [[function|0EPAT51DXQ]] $f^{\mathcal{M}} \colon \mathbb{R}^2 \to \mathbb{R}$, so $f^{\mathcal{M}}(a, b)$ must have a value for every pair $(a, b) \in \mathbb{R}^2$.
+2. Take the pair $(1, 0)$.
+   A value $q = 1 / 0$ would satisfy $q \cdot 0 = 1$, but $q \cdot 0 = 0$ for every real number $q$.
+3. So $1 / 0$ has no value, and division is not a function from $\mathbb{R}^2$ to $\mathbb{R}$.
 
-The totality condition fails at the pair $(1, 0)$, so $(\R, /)$ is not an $L$-structure.
+The totality condition fails at the pair $(1, 0)$, so $(\mathbb{R}, /)$ is not an $L$-structure.
 
 ## Remarks
 
-The example shows that a function symbol must be interpreted by a total operation on the whole domain.
-There are three standard repairs.
+A function symbol must be interpreted by an operation that is defined on the whole of $M^n$.
+There are three standard repairs, and each one changes a different part of the setup.
 
-- Make the domain smaller. On $\R \setminus \set{0}$, the quotient $a / b$ of two nonzero numbers is defined and nonzero, so $(\R \setminus \set{0}, /)$ is an $L$-structure.
-- Use a relation symbol. Let $D$ be a ternary relation symbol and $D^{\mathcal{M}} = \set{(a, b, q) \in \R^3 : q \cdot b = a \text{ and } b \neq 0}$. Every subset of $\R^3$ is allowed, so $(\R, D^{\mathcal{M}})$ is a structure for $\set{D}$.
-- Give $1 / 0$ an arbitrary value. Mathlib sets $a / 0 = 0$ for every $a$, which makes division total on $\R$. Then the law $b \cdot (a / b) = a$ needs the hypothesis $b \neq 0$, because $0 \cdot (1 / 0) = 0 \neq 1$.
+The first repair makes the domain smaller.
+On $\mathbb{R} \setminus \{0\}$, the quotient of two nonzero numbers is defined and nonzero, so $(\mathbb{R} \setminus \{0\}, /)$ is an $L$-structure.
+
+The second repair uses a relation symbol instead of a function symbol.
+Let $D$ be a ternary relation symbol, and let
+$$D^{\mathcal{M}} = \{ (a, b, q) \in \mathbb{R}^3 : b \neq 0 \text{ and } q \cdot b = a \}.$$
+Every subset of $\mathbb{R}^3$ is allowed, so $(\mathbb{R}, D^{\mathcal{M}})$ is a structure for $\{D\}$.
+
+The third repair gives $a / 0$ some fixed value.
+Mathlib sets $a / 0 = 0$ for every $a$, which makes division total on $\mathbb{R}$.
+The price is that the law $b \cdot (a / b) = a$ now needs the hypothesis $b \neq 0$, since $0 \cdot (1 / 0) = 0 \neq 1$.
 
 ## Explanations
 
@@ -42,15 +51,15 @@ There are three standard repairs.
 In a structure, each operation symbol must give an answer for every input.
 Division of real numbers fails this test, because we cannot divide $1$ by $0$.
 So "the real numbers with division" is not a structure in the strict sense.
-If we throw out $0$ from the set, every division has an answer, and we get a structure.
+If we remove $0$ from the set, every division has an answer, and we get a structure.
 
 ### L2 human
 
-We check the repair on the domain $N = \R \setminus \set{0}$.
+We check the first repair on the domain $N = \mathbb{R} \setminus \{0\}$.
+Let $a, b \in N$.
+Then $b \neq 0$, so $a / b$ is a real number.
+If $a / b = 0$, then $a = (a / b) \cdot b = 0$, which contradicts $a \neq 0$, so $a / b \in N$.
+Thus $/ \colon N^2 \to N$ is a function.
 
-1. Let $a, b \in N$. Then $b \neq 0$, so $a / b$ is a real number.
-2. If $a / b = 0$, then $a = (a / b) \cdot b = 0$, which contradicts $a \neq 0$. So $a / b \neq 0$.
-3. Thus $a / b \in N$ for all $a, b \in N$, and $/ \colon N^2 \to N$ is a function.
-
-The typical use of this example is to explain why fields are usually given in the signature $\set{+, \cdot, -, 0, 1}$ without a symbol for division.
-A trap is to repair only the second argument: division is total on $\R \times (\R \setminus \set{0})$, but that set is not of the form $M^2$, so it does not give a structure.
+The typical use of the example is to explain why fields are usually given in the signature $\{+, \cdot, -, 0, 1\}$ with no symbol for division.
+Watch out: division is total on $\mathbb{R} \times (\mathbb{R} \setminus \{0\})$, but that set is not of the form $M^2$, so it does not give a structure.
