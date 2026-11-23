@@ -22,83 +22,92 @@ sources:
 
 ## Summary
 
-The Moore method is a way to teach a proof-based course in which the students prove the theorems themselves.
-The teacher gives a list of [[definitions|8ZCZ3HW91Z]] and statements of theorems, the students prove them outside class, and in class they present their proofs at the board.
-The other students check each proof, and the teacher does not give proofs.
-The method is named after the topologist Robert Lee Moore (1882 to 1974), who used it at the University of Pennsylvania from 1911 and later at the University of Texas.
-Modern inquiry-based learning (IBL) in mathematics keeps the main idea, that students build the content by their own proofs, and it often allows group work and reading.
-The method matters because it is the main alternative to the lecture in proof-based courses.
+On the first day of the course the teacher gives no lecture.
+She hands out one sheet with three definitions and the statement "Theorem 1: if $a \mid b$ and $b \mid c$, then $a \mid c$", and says that at the next meeting someone will prove it at the board.
+Two days later a student presents a proof, the class questions each line, and the theorem goes into everyone's notes only when the class accepts the proof.
+
+That is the Moore method: a way to teach a proof-based course in which the students prove the theorems themselves.
+The teacher writes a list of [[definitions|8ZCZ3HW91Z]] and statements, the students prove them outside class, and in class they present proofs that the other students check.
+The teacher does not give proofs.
+The method is named after the topologist Robert Lee Moore (1882 to 1974), who taught this way at the University of Texas.
+Modern inquiry-based learning (IBL) in mathematics keeps the main idea, that students build the content through their own proofs, and often adds group work and reading.
 
 ## Motivation
 
 In a lecture course, students see finished [[proofs|0B94TKFQJX]] and rarely make their own.
 They can follow a proof in class and still be unable to prove a similar result alone.
-Moore held that "that student is taught the best who is told the least".
-If students must find each proof themselves, they must learn how to start, how to use definitions, and how to test a claim.
-The class itself then checks the proofs, so the students also learn to judge proofs.
+Moore's view is often quoted as "that student is taught the best who is told the least".
+If students must find each proof themselves, then they must learn how to start, how to use a definition and how to test a claim.
+And because the class checks the proofs, the students also learn to judge proofs, a skill that lectures rarely train.
+
+## Notation
+
+"Moore method" usually means the original form: individual work, no reading, and presentation at the board.
+"Modified Moore method" names the many variants that relax these rules.
+"Inquiry-based learning" (IBL) is the wider name now in use, and it covers courses with group work, worksheets and reading, as long as students produce the main results.
 
 ## Remarks
 
-### When it applies
+### How a course runs
 
-1. The method applies to courses whose content can be built from a short list of definitions and axioms: topology, number theory, abstract algebra, real analysis, and [[transition-to-proof courses|HQDCSJG379]].
-2. It needs small classes, so that each student can present often. Moore's original classes were graduate classes of selected students.
-3. It applies when depth is more important than coverage. A Moore course covers less material than a lecture course of the same length.
+The teacher's main work happens before the course: writing a sequence of definitions, theorems and questions in which each theorem is within reach given the earlier ones.
+The list includes tasks to find examples and [[counterexamples|0ED72CTBNP]], for instance to show that a hypothesis of a theorem cannot be dropped.
+Between meetings the students work on the list.
+In class, the teacher asks a student to present a proof, and Moore often called on the weaker students first.
 
-### The steps
+The other students check the proof and ask questions.
+If a gap appears and the presenter cannot repair it, the theorem stays open for the next meeting.
+Accepted proofs become results that later proofs may use, so over the term the class builds the theory of the course itself.
+The teacher guides by the choice and order of the tasks and by questions, not by proofs.
 
-1. The teacher writes a sequence of definitions, theorems and questions. The order is chosen so that each theorem is within reach, given the earlier ones.
-2. The list includes tasks to find examples and [[counterexamples|0ED72CTBNP]], for example to show that a hypothesis of a theorem cannot be dropped.
-3. Students work on the list between meetings. In the original method they work alone and do not read books on the subject.
-4. In class, the teacher asks a student to present a proof at the board. Moore often asked the weaker students first.
-5. The other students check the proof and ask questions. If a gap appears, the presenter tries to repair it; if the presenter cannot, the theorem stays open for the next meeting.
-6. The teacher guides by the choice and order of the tasks and by questions, not by proofs.
-7. Accepted proofs become results that later proofs may use, so the class builds the theory of the course.
+### Where it fits
 
-### Examples
+The method suits courses whose content grows from a short list of definitions and axioms: topology, number theory, abstract algebra, real analysis and [[transition-to-proof courses|HQDCSJG379]].
+It needs classes small enough that each student presents often, and Moore's own classes were small graduate classes.
+It also costs coverage: a Moore course covers less material than a lecture course of the same length, and its advocates accept this cost for the depth that students gain.
 
-1. [[Moore's course in point-set topology|W05DW690QG]]: the original form of the method, as described by his student Floyd Burton Jones.
-2. [[An inquiry-based unit on divisibility|EAWQDSME6M]]: a modern unit in a transition course, with a short list of theorems that students prove in groups.
-3. Dana Ernst's open text "An Introduction to Proof via Inquiry-Based Learning" is a full list of tasks for a transition course in this style.
+### Three courses
 
-### Non-examples
+[[Moore's course in point-set topology|W05DW690QG]] is the original form, as his student F. Burton Jones described it.
+[[An inquiry-based unit on divisibility|EAWQDSME6M]] is a modern week in a transition course, with a short list of theorems that students prove in groups.
+Dana Ernst's open textbook "An Introduction to Proof via Inquiry-Based Learning" is a full list of tasks for a transition course in this style.
 
-1. [[A lecture course with proof homework|KWHDSAXJAF]] is not the Moore method. Students prove some exercises, but the teacher proves the theorems of the course.
-2. A problem-solving seminar in which students solve separate contest problems is inquiry-based, but it is not the Moore method. The problems do not build a theory in sequence.
-3. A course in which students discover patterns by experiment and never prove them is a form of discovery learning, not the Moore method. In the Moore method, a result is accepted only with a proof.
+### What it is not
 
-### Basic properties
-
-1. The class covers less material than a lecture course. Advocates of the method accept this cost for the depth that students gain.
-2. The quality of the course depends on the list. A list with a step that is too large stops the class, and a list with steps that are too small gives no challenge.
-3. The class acts as a small research community: it states, proves, checks and uses results.
-
-### When it fails
-
-1. The method fails when the list is too hard for the class. Then few students present, and the course stops.
-2. It fails in a large class, in which most students never present.
-3. It can fail for students who need more support. Critics, such as Reuben Hersh and Vera John-Steiner (1977), compared the original method to "sink or swim" teaching.
-
-### Related methods
-
-1. [[Reasoning and proof in the classroom|E77B813MT4]] studies classroom argumentation in general. The Moore method is one way to organize it.
-2. The [[transition-to-proof course|HQDCSJG379]] teaches the same skills by explicit instruction. Some transition courses use IBL.
-3. The topic [[problem solving and inquiry in teaching|T9NYH735DA]] treats inquiry-based teaching outside proof courses.
+[[A lecture course with proof homework|KWHDSAXJAF]] is not the Moore method, because the teacher proves the theorems of the course and the students only prove exercises.
+A problem-solving seminar on separate contest problems is inquiry-based, but its problems do not build one theory in sequence.
+A course in which students find patterns by experiment and never prove them is discovery learning, while in the Moore method a result enters the theory only with a proof.
 
 ### History
 
-Moore first used his method in a course on the foundations of geometry at the University of Pennsylvania, from 1911.
-He moved to the University of Texas in 1920 and taught there until 1969.
-He supervised about $50$ doctoral dissertations, among them those of Mary Ellen Rudin, Gordon Whyburn and Raymond Wilder.
-His record as a teacher is tarnished by his racism toward black students.
-Later teachers adapted the method, and William Mahavier (1999) described a "modified Moore method".
-Sandra Laursen, Marja-Liisa Hassi, Marina Kogan and Timothy Weston (2014) studied IBL in more than $100$ course sections at four universities, and reported benefits for women and men.
+Moore taught at the University of Pennsylvania from 1911 and moved to the University of Texas in 1920, where he taught until 1969.
+He supervised about 50 doctoral students, among them Raymond Wilder, Gordon Whyburn and Mary Ellen Rudin.
+His record as a teacher is marred by racism: he refused to teach Black students.
+Later teachers adapted the method, and William Mahavier (1999) described how he ran such courses.
+The Journal of Inquiry-Based Learning in Mathematics publishes course notes in this style.
 
-### Common errors
+### What the research shows
 
-1. A teacher gives proofs when the class is stuck. This turns the course back into a lecture. A better response is a hint in the form of a new, smaller task.
-2. A teacher accepts a proof that the class has not checked. The check by the class is part of the method.
-3. A teacher writes a list with no examples or counterexample tasks. Then students prove statements without a feeling for the objects.
+Sandra Laursen, Marja-Liisa Hassi, Marina Kogan and Timothy Weston (2014) compared IBL and non-IBL sections of college mathematics courses, more than 100 sections at four universities.
+Students in IBL sections reported higher learning gains, and in IBL sections women reported gains similar to men's, while in non-IBL sections women reported lower gains.
+The study used students' own reports and was not a randomized experiment, so it shows an association, not a proven effect of the method.
+
+### Watch out
+
+The most common mistake is to give the proof when the class is stuck.
+This turns the course back into a lecture, and a better response is a hint in the form of a new, smaller task.
+A second mistake is to accept a proof that the class has not checked, since the check by the class is half of the method.
+A third is a list with no example or counterexample tasks, so that students prove statements about objects they have never seen.
+And the method can fail outright: with a list that is too hard, in a class too large for students to present, or for students who need more support than the method gives.
+
+### Try it
+
+Write the next task after "Theorem 1: if $a \mid b$ and $b \mid c$, then $a \mid c$" that asks students to test a claim instead of proving it.
+One answer: "Prove or disprove: if $a \mid bc$, then $a \mid b$ or $a \mid c$"; it is false, since $6 \mid 2 \cdot 3$ but $6 \nmid 2$ and $6 \nmid 3$.
+
+A student presents a proof with a gap, and nobody in the class can repair it.
+What does the teacher do in the Moore method?
+The theorem stays open until a later meeting, and the teacher may add a smaller task to the list as a hint.
 
 ## Explanations
 
@@ -107,28 +116,28 @@ Sandra Laursen, Marja-Liisa Hassi, Marina Kogan and Timothy Weston (2014) studie
 In most mathematics classes, the teacher shows how to prove a theorem.
 In a Moore method class, the teacher only says what the theorem is.
 The students go home and try to prove it themselves.
-In the next class, a student shows a proof at the board, and the other students check it.
-For example, the teacher may ask: "prove that if $a$ divides $b$ and $b$ divides $c$, then $a$ divides $c$".
-Students learn slowly this way, but they learn to make proofs, not only to follow them.
+At the next class, a student shows a proof at the board, and the other students check it.
+For example, the teacher may ask the class to prove that if $a$ divides $b$ and $b$ divides $c$, then $a$ divides $c$.
+Students learn more slowly this way, but they learn to make proofs, not only to follow them.
 
 ### L2 human
 
 We plan the first week of an IBL course on sets.
+The sheet gives the definitions of subset, equality of sets, union, intersection and complement in a universe $U$.
+Task 1 asks for a proof that $A \subseteq A \cup B$ for all sets $A$ and $B$.
+Task 2 asks for a proof that if $A \subseteq B$ and $B \subseteq C$, then $A \subseteq C$.
+Task 3 asks whether $A \cup B = A \cup C$ forces $B = C$, and the counterexample $A = \{1\}$, $B = \{1\}$, $C = \emptyset$ shows that it does not:
+$$A \cup B = \{1\} = A \cup C, \qquad B \ne C.$$
+Task 4 asks for a proof that $A \cap (B \cup C) = (A \cap B) \cup (A \cap C)$, by [[double inclusion|MKHVRNW68H]].
 
-1. Definitions: subset, equality of sets, union, intersection, complement in a universe $U$.
-2. Task 1: prove that $A \subseteq A \cup B$ for all sets $A$ and $B$.
-3. Task 2: prove that if $A \subseteq B$ and $B \subseteq C$, then $A \subseteq C$.
-4. Task 3: is $A \cup B = A \cup C$ enough to conclude $B = C$? Prove it or give a counterexample. (Counterexample: $A = \{1\}$, $B = \{1\}$, $C = \emptyset$.)
-5. Task 4: prove that $A \cap (B \cup C) = (A \cap B) \cup (A \cap C)$, by [[double inclusion|MKHVRNW68H]].
-6. Class meeting: students present tasks 1 to 3. The class checks each step against the definitions.
-7. Task 4 stays open if no student has a complete proof, and the teacher adds the hint "first prove $\subseteq$".
-
-The typical use is in a course of $10$ to $30$ students who meet several times a week.
-A trap is task 3: the question form "prove or give a counterexample" is essential, because it trains students to test a claim before they try to prove it.
+At the meeting, students present tasks 1 to 3, and the class checks each step against the definitions.
+If nobody has a complete proof of task 4, it stays open, and the teacher adds the hint "first prove $\subseteq$".
+Such a plan suits a class of 10 to 30 students who meet several times a week.
+The form "prove or give a counterexample" in task 3 matters, because it trains students to test a claim before they try to prove it.
 
 ### L3 human
 
-The Moore method expresses a view of mathematics as an activity, not a body of results, and it connects with the [[philosophy of mathematics in education|174ES70CS8]].
+The Moore method treats mathematics as an activity rather than a body of results, which connects it with the [[philosophy of mathematics in education|174ES70CS8]].
 In the language of [[proof schemes|YVNRVXJR68]], it aims at the axiomatic scheme, because students build results from a list of definitions and axioms in the style of the [[axiomatic method|GD2JBXJV5Z]].
-Research on IBL in mathematics, such as that of Laursen and coauthors, studies its effects on learning, attitudes and the persistence of students in mathematics.
-The modern community publishes the Journal of Inquiry-Based Learning in Mathematics, a source of course notes in this style.
+[[Reasoning and proof in the classroom|E77B813MT4]] studies classroom argumentation in general, and the Moore method is one way to organize it.
+The topic [[problem solving and inquiry in teaching|T9NYH735DA]] treats inquiry-based teaching outside proof courses.

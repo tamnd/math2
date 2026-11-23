@@ -18,41 +18,52 @@ sources:
 
 A transition-to-proof course spends one week on [[divisibility|0PG2H7WKGG]] in the style of the [[Moore method|WKM6535VHG]].
 The teacher gives one definition and five tasks, and the students work in groups of three between meetings.
+The definition reads: for integers $a$ and $b$, we say that $a$ divides $b$, written $a \mid b$, if there is an integer $k$ with $b = ak$.
+The five tasks, with the proofs a group might present, are these.
 
-Definition: for integers $a$ and $b$, we say that $a$ divides $b$, written $a \mid b$, if there is an integer $k$ with $b = ak$.
+1. Prove that $a \mid a$ for every integer $a$.
+   The proof is $a = a \cdot 1$.
+2. Prove that if $a \mid b$ and $b \mid c$, then $a \mid c$.
+   From $b = ak$ and $c = bm$ we get $c = a(km)$.
+3. Prove that if $a \mid b$ and $a \mid c$, then $a \mid (b + c)$.
+   From $b = ak$ and $c = am$ we get $b + c = a(k + m)$.
+4. Prove or disprove the converse of task 3.
+   A [[counterexample|0ED72CTBNP]] is $a = 2$, $b = c = 1$: we have $2 \mid (1 + 1)$, but $2 \nmid 1$.
+5. Prove that if $a \mid b$, then $a \mid bc$ for every integer $c$.
+   From $b = ak$ we get $bc = a(kc)$.
 
-1. Task 1: prove that $a \mid a$ for each integer $a$. Proof: $a = a \cdot 1$.
-2. Task 2: prove that if $a \mid b$ and $b \mid c$, then $a \mid c$. Proof: $b = ak$ and $c = bm$ give $c = a(km)$.
-3. Task 3: prove that if $a \mid b$ and $a \mid c$, then $a \mid (b + c)$. Proof: $b = ak$ and $c = am$ give $b + c = a(k + m)$.
-4. Task 4: prove or disprove the converse of task 3. A [[counterexample|0ED72CTBNP]]: $2 \mid (1 + 1)$, but $2 \nmid 1$.
-5. Task 5: prove that if $a \mid b$, then $a \mid bc$ for each integer $c$. Proof: $b = ak$ gives $bc = a(kc)$.
+In class, one student from each group presents a task at the board, and the class checks each step against the definition.
+The teacher gives no proofs, and the accepted results become tools for the next week's tasks on the greatest common divisor.
 
-In class, a student from each group presents one task at the board, and the class checks each step against the definition.
-The teacher gives no proofs, and the accepted results are used in the next week's tasks on the greatest common divisor.
-The unit has a list of tasks, proofs by students, presentation, checking by the class and guidance by the order of tasks, so it is an instance of the method.
+Now we check the features of the method.
+The list exists, and its order lets each task use only the definition and earlier tasks.
+The students produce the proofs.
+The students present, and the class checks.
+The teacher guides only by the choice and order of tasks.
+So the unit is an instance of the method.
 
 ## Remarks
 
 The unit differs from Moore's original course in two ways: the students work in groups, and they may read.
-These are typical features of modern inquiry-based learning.
-Task 4 is the most important one for the class, because it trains students to test a claim before they try to prove it.
+Both are typical of modern inquiry-based learning, and neither changes who produces the theory.
+Task 4 does the most for the class, because it trains students to test a claim before they try to prove it.
+If the teacher phrased it as "prove the converse", the class would hunt for a proof that does not exist, so the form "prove or disprove" is part of a good list.
 
 ## Explanations
 
 ### L1 human
 
-The teacher gives the class the meaning of "$a$ divides $b$" and a short list of statements.
+The teacher tells the class what "$a$ divides $b$" means and gives a short list of statements.
 The students prove the statements themselves, in small groups.
-One statement is false, and the students must find an example that shows it.
+One statement is false, and the students must find numbers that show it.
 In class, the students show their proofs, and the others check them.
 
 ### L2 human
 
-1. Check the list: one definition and five tasks, in an order where each task needs only the earlier ones.
-2. Check the work: students prove the tasks, in groups.
-3. Check the class: students present, and the class checks.
-4. Check the teacher: the teacher chooses the order of tasks and gives no proofs.
-
-A trap is to give task 4 as "prove the converse".
-Then the students look for a proof that does not exist, and the class loses time.
-The form "prove or disprove" is part of a good list.
+To decide whether a unit follows the Moore method, check four things in order.
+First, is there a list in which each task needs only the earlier ones?
+Here the tasks use only the definition and, for task 5, nothing beyond it.
+Second, do students produce the proofs, and third, do they present while the class checks?
+Both hold here.
+Fourth, does the teacher stay out of the proofs?
+Here the teacher guides only by the list, so all four checks pass.
