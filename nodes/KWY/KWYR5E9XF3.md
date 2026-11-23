@@ -32,7 +32,6 @@ Each step names the rule, the context $S\{\ \}$ and the rewritten subformula.
 7. Associativity of $\vee$ and commutativity of $\wedge$ give $(a \wedge b) \vee \bar{a} \vee \bar{b}$.
 
 Step 6 is a deep step: the rule acts on the left disjunct and leaves $\bar{b}$ alone.
-Both contexts used for switch are positive, because negation occurs only on atoms.
 
 Finally we check that the switch steps are sound.
 

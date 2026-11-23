@@ -30,10 +30,13 @@ A *contraction-free sequent calculus* is a sequent calculus in which contraction
 - L${\to}$: from $\Gamma \Rightarrow \Delta, A$ and $B, \Gamma \Rightarrow \Delta$ infer $A \to B, \Gamma \Rightarrow \Delta$.
 - R${\to}$: from $A, \Gamma \Rightarrow \Delta, B$ infer $\Gamma \Rightarrow \Delta, A \to B$.
 
+### The intuitionistic calculi G3ip and LJT
+
 **The intuitionistic calculus G3ip.** Every succedent is one formula $C$.
 Its axioms are $p, \Gamma \Rightarrow p$ and $\bot, \Gamma \Rightarrow C$.
 Its rules L${\wedge}$, R${\wedge}$, L${\vee}$ and R${\to}$ are those of G3cp with $\Delta$ removed.
-Its other two rules are R${\vee}$, from $\Gamma \Rightarrow A_i$ infer $\Gamma \Rightarrow A_0 \vee A_1$ for $i = 0$ or $i = 1$, and L${\to}$, from $A \to B, \Gamma \Rightarrow A$ and $B, \Gamma \Rightarrow C$ infer $A \to B, \Gamma \Rightarrow C$.
+Its rule R${\vee}$ infers $\Gamma \Rightarrow A_0 \vee A_1$ from $\Gamma \Rightarrow A_i$, for $i = 0$ or $i = 1$.
+Its rule L${\to}$ infers $A \to B, \Gamma \Rightarrow C$ from $A \to B, \Gamma \Rightarrow A$ and $B, \Gamma \Rightarrow C$.
 
 **Dyckhoff's calculus LJT.** It is G3ip with L${\to}$ replaced by four rules, where $E$ is one formula.
 

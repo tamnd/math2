@@ -92,7 +92,9 @@ It is a substructural logic with a different set of theorems, not a contraction-
 
 G3ip search can loop, because L${\to}$ keeps its principal formula.
 Dyckhoff's LJT replaces L${\to}$ by four rules that split $A \to B$ by the shape of $A$.
-With the weight $w(p) = w(\bot) = 1$, $w(A \wedge B) = w(A) + w(B) + 2$ and $w(A \vee B) = w(A \to B) = w(A) + w(B) + 1$, every premise is smaller than its conclusion in the multiset ordering of weights.
+Give each formula a weight by the rules below:
+$$w(p) = w(\bot) = 1, \qquad w(A \wedge B) = w(A) + w(B) + 2, \qquad w(A \vee B) = w(A \to B) = w(A) + w(B) + 1.$$
+Then in every LJT rule each premise is smaller than its conclusion, in the multiset ordering of weights.
 So every branch of a backward search is finite, with no loop check.
 
 The price is a weaker subformula property.

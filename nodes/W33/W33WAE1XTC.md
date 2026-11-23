@@ -21,92 +21,112 @@ history:
 
 ## Statement
 
-Work in the implicational fragment of [[natural deduction|PAQ4ZX2TX1]].
-Formulas are built from propositional variables by $\to$.
-A derivation is a finite tree of formula occurrences, built by two rules.
+The theorem says that every natural deduction derivation can be freed of detours, an introduction directly followed by an elimination, and that the result uses only pieces of its conclusion and assumptions.
 
-- ${\to}$I: from a derivation of $B$, infer $A \to B$, and discharge any number of occurrences of the assumption $A$ with a label $u$.
-- ${\to}$E: from a derivation of $A \to B$, the *major premise*, and a derivation of $A$, the *minor premise*, infer $B$.
+We work in the implicational fragment of [[natural deduction|PAQ4ZX2TX1]], whose formulas are built from propositional variables by $\to$.
+A derivation is a finite tree of formula occurrences built by two rules.
+The rule ${\to}$I infers $A \to B$ from a derivation of $B$ and discharges any number of occurrences of the assumption $A$ that carry a label $u$.
+The rule ${\to}$E infers $B$ from a derivation of $A \to B$, the *major premise*, and a derivation of $A$, the *minor premise*.
+The leaves are assumptions, open or discharged, and a derivation of $A$ from $\Gamma$ has conclusion $A$ and all open assumptions in the finite set $\Gamma$.
 
-The leaves are assumptions, open or discharged.
-A derivation of $A$ from $\Gamma$ is a derivation with conclusion $A$ whose open assumptions lie in the finite set $\Gamma$.
 A *detour* is an occurrence of a formula $A \to B$ that is the conclusion of ${\to}$I and the major premise of ${\to}$E.
-Its *degree* is the number of occurrences of $\to$ in $A \to B$.
-A derivation is *normal* if it has no detour.
-
-A *reduction step* replaces a part of a derivation of the following form.
-A derivation $D_1$ of $B$, with assumptions $A$ labelled $u$, ends with ${\to}$I to $A \to B$, discharging $u$.
-This is the major premise of a ${\to}$E whose minor premise has a derivation $D_2$ of $A$.
-The step replaces this part by $D_1$ with each assumption $A$ labelled $u$ replaced by a copy of $D_2$.
+Its *degree* is the number of occurrences of $\to$ in $A \to B$, and a derivation is *normal* if it has no detour.
+A *reduction step* takes a detour, where ${\to}$I turns a derivation $D_1$ of $B$ into $A \to B$ and ${\to}$E applies it to a derivation $D_2$ of $A$.
+It replaces this part by $D_1$ with each assumption $A$ labeled $u$ replaced by a copy of $D_2$.
 
 1. **Weak normalization.** Every derivation of $A$ from $\Gamma$ turns into a normal derivation of $A$ from $\Gamma$ by finitely many reduction steps.
 2. **Subformula property.** In a normal derivation of $A$ from $\Gamma$, every formula is a subformula of $A$ or of a formula in $\Gamma$.
-3. **Strong normalization.** There is no infinite sequence of reduction steps starting from a derivation.
+3. **Strong normalization.** There is no infinite sequence of reduction steps that starts from a derivation.
 
 ## Remarks
 
+### A detour and its removal
+
+Here is a derivation of $q$ from $p \to (p \to q)$, $r \to p$ and $r$ with one detour, on $p \to q$.
+$$\dfrac{\dfrac{\dfrac{\dfrac{p \to (p \to q) \qquad [p]^u}{p \to q}\,{\to}\mathrm{E} \qquad [p]^u}{q}\,{\to}\mathrm{E}}{p \to q}\,{\to}\mathrm{I}^u \qquad \dfrac{r \to p \qquad r}{p}\,{\to}\mathrm{E}}{q}\,{\to}\mathrm{E}$$
+The left branch proves the general fact "from $p$ we get $q$", and the last step uses it once, for the $p$ that the right branch derives.
+The reduction does the argument directly for that $p$: we put a copy of the right branch in place of each assumption $[p]^u$.
+$$\dfrac{\dfrac{p \to (p \to q) \qquad \dfrac{r \to p \qquad r}{p}\,{\to}\mathrm{E}}{p \to q}\,{\to}\mathrm{E} \qquad \dfrac{r \to p \qquad r}{p}\,{\to}\mathrm{E}}{q}\,{\to}\mathrm{E}$$
+Check: every major premise is now an assumption or the conclusion of ${\to}$E, so the derivation is normal, and its open assumptions are the same three formulas.
+Notice the price: the derivation of $p$ now appears twice, because $u$ labeled two assumptions.
+
 ### Why each hypothesis is needed
 
-The fragment matters for the simple form of part 2.
-With $\wedge$, $\vee$, $\exists$ and $\bot$, normal derivations need extra permutative reductions, and with classical rules the property needs a restricted form.
-The definition of a detour needs both rules on the same occurrence.
-An ${\to}$E whose major premise is an assumption is no detour, and it cannot be removed: the derivation of $q$ from $p \to q$ and $p$ is normal.
+The restriction to $\to$ keeps part 2 in its simple form.
+With $\vee$ and $\exists$ a normal derivation needs extra *permutative* reductions, and with classical rules the property holds only in a restricted form.
+
+A detour needs both rules on the same formula occurrence.
+An ${\to}$E whose major premise is an assumption is no detour and cannot be removed: the derivation of $q$ from $p \to q$ and $p$ by one ${\to}$E is already normal.
+
 Part 2 needs normality.
-The derivation that discharges $p$ to get $p \to p$ and applies it to an assumption $p$ is a derivation of $p$ from $p$ with the formula $p \to p$, which is not a subformula of $p$.
+Discharge $p$ to get $p \to p$, then apply it to an open assumption $p$: this derivation of $p$ from $p$ contains $p \to p$, which is not a subformula of $p$.
 
-### Consequences
+### What it gives you
 
-- **Consistency of the fragment.** No normal derivation of a propositional variable $p$ from no assumptions exists, by part 2 and the shape of the last rule. So $p$ is not derivable.
-- **Conservativity.** By the generalization to full intuitionistic natural deduction, a derivation of $A$ from $\Gamma$, all implicational, normalizes to one that uses only the rules for $\to$.
-- **Proof search.** Part 2 restricts the search for a normal derivation to subformulas of the goal and the assumptions, which is the base of decision procedures for the fragment.
-- **Typed programs terminate.** Under the [[Curry-Howard correspondence|A77FER1Q5H]], a reduction step is a [[beta reduction|Y9B9CVY6SJ]], and part 3 is the [[strong normalization of the simply typed lambda calculus|V2Z855MFPC]].
+The fragment is consistent: no normal derivation of a variable $p$ from no assumptions exists.
+Such a derivation cannot end with ${\to}$I, since $p$ is not an implication, and by part 2 and its proof it cannot end with ${\to}$E without an open assumption.
 
-### Converse
+Part 2 bounds proof search to subformulas of the goal and the assumptions, and this is the base of decision procedures for the fragment.
+Under the [[Curry-Howard correspondence|A77FER1Q5H]] a derivation is a typed program and a reduction step is a [[beta reduction|Y9B9CVY6SJ]].
+Then part 3 is the [[strong normalization of the simply typed lambda calculus|V2Z855MFPC]]: every typed program terminates, whatever order of evaluation we choose.
 
-Part 1 has a converse in a weak sense: a reduction step keeps the conclusion and does not add open assumptions, so reduction never turns a non-derivable claim into a derivable one.
-The converse of part 2 fails: a derivation with the subformula property need not be normal.
-From the assumption $p$ labelled $u$, ${\to}$I gives $p \to p$, and ${\to}$E with the assumption $p$ labelled $v$ gives $p$.
+### The converse
+
+Reduction never changes what is derivable: a step keeps the conclusion and adds no open assumptions.
+The converse of part 2 fails, since a derivation with the subformula property need not be normal.
+From the assumption $p$ labeled $u$, ${\to}$I gives $p \to p$, and ${\to}$E with a new assumption $p$ labeled $v$ gives $p$.
 Then ${\to}$I discharges $v$ and gives $p \to p$ from no assumptions.
-This derivation has a detour on $p \to p$, and every formula in it is $p$ or $p \to p$, both subformulas of the conclusion.
+This derivation has a detour on $p \to p$, yet every formula in it is $p$ or $p \to p$.
+
+### Relation to cut elimination
+
+Natural deduction and the sequent calculus translate into each other.
+A detour corresponds to a cut, and a normal derivation goes to a cut-free one, so normalization is the natural deduction form of the [[cut-elimination theorem|AYRZ98Y0NW]].
+The match is not one-to-one, because a sequent derivation records an order of rule applications that natural deduction leaves open.
 
 ### Generalizations
 
 Prawitz proved weak normalization for full intuitionistic natural deduction, with permutative reductions for $\vee$ and $\exists$, and for a classical system without $\vee$ and $\exists$.
 Strong normalization holds for full intuitionistic natural deduction as well.
-For the sequent calculus, the corresponding result is the [[cut-elimination theorem|AYRZ98Y0NW]].
-For second-order natural deduction, strong normalization is Girard's theorem, proved with reducibility candidates.
+For second-order natural deduction, the form of System F, strong normalization is Girard's theorem, proved with reducibility candidates.
+
+### Watch out
+
+A reduction step can make a derivation larger and can create new detours, so "fewer detours each step" is false.
+In the example above the derivation grew.
+If a discharged assumption $[A]^u$ had been the major premise of an ${\to}$E, and the copied branch had ended with ${\to}$I, the copy would have created a new detour on $A$.
+The proof handles this by always reducing a detour of the largest degree whose minor premise contains no other such detour.
 
 ## History
 
 Gentzen introduced natural deduction in his paper of 1934 and 1935, but he published the normal form result only for the sequent calculus.
-Jan von Plato found an unpublished proof of normalization for intuitionistic natural deduction in Gentzen's manuscripts.
+Jan von Plato later found an unpublished proof of normalization for intuitionistic natural deduction in Gentzen's manuscripts.
 Dag Prawitz proved normalization for natural deduction in his book *Natural Deduction* of 1965.
-Prawitz later proved strong normalization.
+Prawitz later proved strong normalization, and Tait's computability method of 1967 had already given strong normalization for the simply typed lambda calculus.
 
 ## Explanations
 
 ### L1 human
 
-In a proof, a detour is a step where we prove a general rule "if $A$ then $B$" and use it at once for one $A$.
+In a proof, a detour is a step where we prove a general rule "if $A$ then $B$" and use it at once for one particular $A$.
 We can always remove such a step by doing the argument directly for that $A$.
 The theorem says that removing detours one at a time always ends.
 The final proof uses only pieces of what it proves and of what it assumes.
 
 ### L2 human
 
-We normalize a small derivation of $q$ from the assumptions $q$.
-
-1. From the assumption $q$ labelled $u$, ${\to}$I gives $q \to q$ and discharges $u$.
-2. With a second assumption $q$, ${\to}$E gives $q$. The formula $q \to q$ is a detour of degree $1$.
-3. The reduction step replaces the assumption $q$ labelled $u$ by the derivation of the minor premise, which is the assumption $q$.
-4. The result is the one-node derivation $q$, which is normal.
+We normalize a tiny derivation of $q$ from the assumption $q$.
+From the assumption $q$ labeled $u$, ${\to}$I gives $q \to q$ and discharges $u$.
+With a second assumption $q$, ${\to}$E gives $q$, and $q \to q$ is a detour of degree $1$.
+The reduction step puts the derivation of the minor premise, here the bare assumption $q$, in place of the assumption labeled $u$.
+The result is the one-node derivation $q$, which is normal.
 
 The typical use is to normalize first and then argue about the last rule of a normal derivation.
-A trap: a reduction step can copy the minor premise many times, so the number of detours can grow.
+Watch out: a reduction step can copy the minor premise many times, so the size of a derivation can grow while its detours are removed.
 
 ### L3 human
 
-Weak normalization is a statement about one strategy, and strong normalization about all of them.
+Weak normalization is a statement about one strategy, and strong normalization is a statement about all of them.
 Under Curry-Howard, part 3 says that every simply typed lambda term has only finite reduction sequences, and the usual proof uses Tait's computability predicates.
-Normal derivations have a structure of branches: from an assumption, a sequence of eliminations, then a sequence of introductions.
-This structure gives the subformula property, and it underlies [[proof-theoretic semantics|K97KZB5R7N]], where normal derivations justify the meaning of the rules.
+A normal derivation has a clear shape on each branch: from an assumption, a run of eliminations, then a run of introductions.
+That shape gives the subformula property, and it underlies [[proof-theoretic semantics|K97KZB5R7N]], where normal derivations justify the meaning of the rules.

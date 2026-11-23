@@ -61,7 +61,8 @@ Let a cartesian closed category have an initial object $0$, and let the canonica
 
 1. For every object $A$, the product $A \times 0$ is initial, since $A \times (-)$ is a left adjoint and so preserves initial objects.
 2. Suppose there is a morphism $f : A \to 0$.
-   Then $\langle \mathrm{id}_A, f \rangle : A \to A \times 0$ and the projection $A \times 0 \to A$ are inverse: one composite is $\mathrm{id}_A$ by the product property, and the other is an endomorphism of the initial object $A \times 0$, hence the identity.
+   Then $\langle \mathrm{id}_A, f \rangle : A \to A \times 0$ and the projection $A \times 0 \to A$ are inverse to each other.
+   One composite is $\mathrm{id}_A$ by the product property, and the other is an endomorphism of the initial object $A \times 0$, hence the identity.
 3. So such an $A$ is initial, and there is at most one morphism $A \to 0$.
 4. Morphisms $A \to B$ correspond to morphisms $A \to (B \Rightarrow 0) \Rightarrow 0$, and so to morphisms $A \times (B \Rightarrow 0) \to 0$, of which there is at most one by step 3.
 
@@ -104,7 +105,8 @@ Compare two derivations of $p \wedge q \to q \wedge p$, as lambda terms.
 The first is $\lambda x.\, \langle \pi_2 x, \pi_1 x \rangle$.
 The second swaps the pair three times in a row:
 $$\lambda x.\, \bigl(\lambda y.\, \langle \pi_2 y, \pi_1 y \rangle\bigr)\Bigl(\bigl(\lambda z.\, \langle \pi_2 z, \pi_1 z \rangle\bigr)\bigl(\langle \pi_2 x, \pi_1 x \rangle\bigr)\Bigr).$$
-Beta reduction of the inner application gives $\langle \pi_1 x, \pi_2 x \rangle$, and the outer one then gives $\langle \pi_2 x, \pi_1 x \rangle$, after the projection reductions $\pi_1 \langle s, t \rangle = s$ and $\pi_2 \langle s, t \rangle = t$.
+We reduce with beta and with the projection rules $\pi_1 \langle s, t \rangle = s$ and $\pi_2 \langle s, t \rangle = t$.
+The inner application reduces to $\langle \pi_1 x, \pi_2 x \rangle$, and the outer one then reduces to $\langle \pi_2 x, \pi_1 x \rangle$.
 So the two derivations have the same normal form and are one proof under the normalization criterion.
 This is the typical use: decide identity by computing normal forms, which works because intuitionistic normalization is confluent.
 

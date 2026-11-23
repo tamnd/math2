@@ -63,10 +63,13 @@ In $\vdash \Gamma \Downarrow F$, the formula $F$ is under focus.
 
 Each rule goes from the premises to the conclusion.
 
-- Inversion: $[\bot]$ from $\vdash \Gamma \Uparrow L$ infer $\vdash \Gamma \Uparrow \bot, L$; $[\mathbin{\wp}]$ from $\vdash \Gamma \Uparrow A, B, L$ infer $\vdash \Gamma \Uparrow A \mathbin{\wp} B, L$; $[\top]$ the axiom $\vdash \Gamma \Uparrow \top, L$; $[\mathbin{\&}]$ from $\vdash \Gamma \Uparrow A, L$ and $\vdash \Gamma \Uparrow B, L$ infer $\vdash \Gamma \Uparrow A \mathbin{\&} B, L$.
+- Inversion of $\bot$ and $\mathbin{\wp}$: $[\bot]$ from $\vdash \Gamma \Uparrow L$ infer $\vdash \Gamma \Uparrow \bot, L$; $[\mathbin{\wp}]$ from $\vdash \Gamma \Uparrow A, B, L$ infer $\vdash \Gamma \Uparrow A \mathbin{\wp} B, L$.
+  Inversion of $\top$ and $\mathbin{\&}$: $[\top]$ is the axiom $\vdash \Gamma \Uparrow \top, L$; $[\mathbin{\&}]$ from $\vdash \Gamma \Uparrow A, L$ and $\vdash \Gamma \Uparrow B, L$ infer $\vdash \Gamma \Uparrow A \mathbin{\&} B, L$.
 - Store: from $\vdash \Gamma, C \Uparrow L$ infer $\vdash \Gamma \Uparrow C, L$, when $C$ is positive or a negated atom.
-- Focus: $[\mathbf{1}]$ the axiom $\vdash \cdot \Downarrow \mathbf{1}$; $[\otimes]$ from $\vdash \Gamma \Downarrow A$ and $\vdash \Delta \Downarrow B$ infer $\vdash \Gamma, \Delta \Downarrow A \otimes B$; $[\oplus_i]$ from $\vdash \Gamma \Downarrow A_i$ infer $\vdash \Gamma \Downarrow A_1 \oplus A_2$; $[\mathrm{init}]$ the axiom $\vdash a^{\perp} \Downarrow a$.
-- Release: from $\vdash \Gamma \Uparrow N$ infer $\vdash \Gamma \Downarrow N$, when $N$ is negative. Decide: from $\vdash \Gamma \Downarrow P$ infer $\vdash \Gamma, P \Uparrow \cdot$, when $P$ is positive.
+- Focus: $[\mathbf{1}]$ is the axiom $\vdash \cdot \Downarrow \mathbf{1}$; $[\otimes]$ from $\vdash \Gamma \Downarrow A$ and $\vdash \Delta \Downarrow B$ infer $\vdash \Gamma, \Delta \Downarrow A \otimes B$.
+  Also $[\oplus_i]$ from $\vdash \Gamma \Downarrow A_i$ infer $\vdash \Gamma \Downarrow A_1 \oplus A_2$, and $[\mathrm{init}]$ is the axiom $\vdash a^{\perp} \Downarrow a$.
+- Release: from $\vdash \Gamma \Uparrow N$ infer $\vdash \Gamma \Downarrow N$, when $N$ is negative.
+  Decide: from $\vdash \Gamma \Downarrow P$ infer $\vdash \Gamma, P \Uparrow \cdot$, when $P$ is positive.
 
 There is no rule for $\mathbf{0}$, as in MALL, and there is no cut.
 
