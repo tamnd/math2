@@ -18,28 +18,37 @@ sources:
 
 ## Example
 
-Let $\mathcal{I}$ be the family of all intervals of $\mathbb{R}$, that is, of all sets $A \subseteq \mathbb{R}$ such that $a, b \in A$ and $a < c < b$ imply $c \in A$.
-Consider the rule "$Qx \, \varphi(x)$ is true over the domain $\mathbb{R}$ when the set defined by $\varphi$ is an interval".
+A quantifier may look only at the sets that it is given, and not at extra structure of the domain.
+"Is an interval" fails this test, because it uses the order of the real line.
+Let $\mathcal{I}$ be the family of all intervals of $\mathbb{R}$.
+These are the sets $A \subseteq \mathbb{R}$ such that $a, b \in A$ and $a < c < b$ imply $c \in A$.
+Consider the rule "$Qx \, \varphi(x)$ is true over the domain $\mathbb{R}$ when the set that $\varphi$ defines is an interval".
 This rule looks like a quantifier of type $\langle 1 \rangle$.
-We show that there is no [[generalized quantifier|MFV98WTF4G]] $Q$ of type $\langle 1 \rangle$ with $Q_{\mathbb{R}} = \mathcal{I}$.
+We show that no [[generalized quantifier|MFV98WTF4G]] $Q$ of type $\langle 1 \rangle$ has $Q_{\mathbb{R}} = \mathcal{I}$.
 
 1. A generalized quantifier of type $\langle 1 \rangle$ is a class $Q$ of structures $(M, A)$ with $A \subseteq M$, closed under isomorphism.
-2. For $M' = M = \mathbb{R}$, an isomorphism from $(\mathbb{R}, A)$ to $(\mathbb{R}, A')$ is a [[bijection|0SNQEF7Z53]] $\pi \colon \mathbb{R} \to \mathbb{R}$ with $\pi[A] = A'$. So closure under isomorphism requires: $A \in Q_{\mathbb{R}}$ implies $\pi[A] \in Q_{\mathbb{R}}$ for every bijection $\pi$ of $\mathbb{R}$.
-3. Let $A = [0, 1]$, an interval, and let $\pi$ be the bijection that swaps $\tfrac{1}{2}$ and $2$ and fixes every other real number.
-4. Then $\pi[A] = \big( [0, 1] \setminus \{ \tfrac{1}{2} \} \big) \cup \{ 2 \}$.
+2. For $M = \mathbb{R}$, an isomorphism from $(\mathbb{R}, A)$ to $(\mathbb{R}, A')$ is a [[bijection|0SNQEF7Z53]] $\pi \colon \mathbb{R} \to \mathbb{R}$ with $\pi[A] = A'$.
+   So closure under isomorphism asks for this: if $A \in Q_{\mathbb{R}}$, then $\pi[A] \in Q_{\mathbb{R}}$ for every bijection $\pi$ of $\mathbb{R}$.
+3. Let $A = [0, 1]$, which is an interval.
+   Let $\pi$ be the bijection that swaps $\tfrac{1}{2}$ and $2$ and fixes every other real number.
+4. Then $\pi$ removes $\tfrac{1}{2}$ from $A$ and puts $2$ in its place:
+   $$\pi[A] = \big( [0, 1] \setminus \{ \tfrac{1}{2} \} \big) \cup \{ 2 \}.$$
 5. The set $\pi[A]$ contains $0$ and $1$ but not $\tfrac{1}{2}$, so it is not an interval.
-6. So $\mathcal{I}$ is not closed under bijections of $\mathbb{R}$, and by step 2 no generalized quantifier $Q$ has $Q_{\mathbb{R}} = \mathcal{I}$.
+   Check: $0 < \tfrac{1}{2} < 1$, and $\pi^{-1}(\tfrac{1}{2}) = 2 \notin [0, 1]$, so $\tfrac{1}{2} \notin \pi[A]$.
+6. So $\mathcal{I}$ is not closed under bijections of $\mathbb{R}$.
+   By step 2, no generalized quantifier $Q$ has $Q_{\mathbb{R}} = \mathcal{I}$.
 
 ## Remarks
 
-The example shows that a generalized quantifier may look only at the structure that its arguments provide, and not at extra structure of the domain.
-Being an interval uses the order of $\mathbb{R}$, which is not one of the arguments.
+Being an interval uses the order of $\mathbb{R}$, and the order is not one of the arguments of $Q$.
 If we make the order an argument, the problem disappears.
 Let $\mathrm{Conv}$ be the class of all structures $(M, R, A)$ such that $R$ is a linear order of $M$ and $A$ is convex for $R$.
 Then $\mathrm{Conv}$ is a generalized quantifier of type $\langle 2, 1 \rangle$.
-An isomorphism of such structures preserves the order and maps $A$ onto $A'$, so it maps convex sets to convex sets.
-On a pure set, a type $\langle 1 \rangle$ quantifier can depend only on $|A|$ and $|M \setminus A|$, as [[this example|HPA3BKNZE1]] shows.
+An isomorphism of two such structures preserves the order and maps $A$ onto $A'$, so it maps convex sets to convex sets.
+
+On a pure set, a type $\langle 1 \rangle$ quantifier can depend only on the two cardinals $|A|$ and $|M \setminus A|$, as [[this example|HPA3BKNZE1]] shows.
 The sets $[0, 1]$ and $\pi[A]$ both have the cardinality of the continuum, and so do their complements.
+So any type $\langle 1 \rangle$ quantifier gives the same answer for the two sets, while "is an interval" does not.
 
 ## Explanations
 
@@ -55,9 +64,11 @@ So the answer changed although no count changed, and "is an interval" is not a q
 
 We test a second set and a second bijection, to see that the failure is typical.
 
-1. Let $A = (0, 3)$ and let $\pi$ swap $1$ and $5$ and fix all other reals.
+1. Let $A = (0, 3)$, and let $\pi$ swap $1$ and $5$ and fix all other real numbers.
 2. Then $\pi[A] = \big( (0, 3) \setminus \{1\} \big) \cup \{5\}$.
 3. This set contains $\tfrac{1}{2}$ and $2$ but not $1$, so it is not an interval.
+   Check: $\tfrac{1}{2} < 1 < 2$.
 
-The typical use of the test is to decide whether a proposed operator on sets is a logical quantifier.
-A trap is to test only order-preserving bijections: they map intervals to intervals, but closure under isomorphism in type $\langle 1 \rangle$ asks for all bijections.
+The typical use of this test is to decide whether a proposed operator on sets is a logical quantifier.
+Watch out: do not test only bijections that preserve the order.
+They map intervals to intervals, but closure under isomorphism in type $\langle 1 \rangle$ asks for all bijections.

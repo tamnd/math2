@@ -16,37 +16,50 @@ sources:
 
 ## Example
 
-In [[dependence logic|DNAPTJ98WD]], consider the sentence
-
+A set is infinite exactly when it has a one-to-one map into itself that misses some element.
+[[Dependence logic|DNAPTJ98WD]] can ask for such a map with one sentence, so it can say "the domain is infinite".
+Consider this sentence:
 $$\theta = \exists z \, \forall x_1 \, \forall x_2 \, \exists y_1 \, \exists y_2 \, \big( =\!(x_1, y_1) \land =\!(x_2, y_2) \land (x_1 = x_2 \leftrightarrow y_1 = y_2) \land \neg y_1 = z \big).$$
-
 The part $x_1 = x_2 \leftrightarrow y_1 = y_2$ is first-order, so it holds in a team exactly when it holds in each assignment of the team.
 We show that $\theta$ is true in a structure $\mathcal{M}$ if and only if the domain $M$ is [[infinite|0PWE3BCHVJ]].
 
-1. Suppose $\theta$ is true, that is, the team $\{\emptyset\}$ satisfies it. The clause for $\exists z$ chooses one value $c \in M$ for the only assignment, so $z = c$ in every later assignment.
+1. Suppose that $\theta$ is true, so the team $\{\emptyset\}$ satisfies it.
+   The clause for $\exists z$ chooses one value $c \in M$ for the only assignment, so $z = c$ in every later assignment.
 2. The two universal quantifiers give the team of all assignments $(z, x_1, x_2) = (c, a_1, a_2)$ with $a_1, a_2 \in M$.
-3. The two existential quantifiers add values $y_1, y_2$ to each assignment, which gives a final team $Y$ that satisfies the four conjuncts.
-4. By the atom $=\!(x_1, y_1)$, all rows of $Y$ with $x_1 = a$ have the same $y_1$. Call this value $f(a)$; it exists for every $a \in M$ by step 2.
+3. The two existential quantifiers add values of $y_1$ and $y_2$ to each assignment.
+   This gives a final team $Y$ that satisfies the four conjuncts.
+4. By the atom $=\!(x_1, y_1)$, all rows of $Y$ with $x_1 = a$ have the same value of $y_1$.
+   Call this value $f(a)$, which exists for every $a \in M$ by step 2.
 5. In the same way, $=\!(x_2, y_2)$ gives a function $g \colon M \to M$ with $y_2 = g(x_2)$ in every row.
-6. Take the row with $x_1 = x_2 = a$. The conjunct $x_1 = x_2 \leftrightarrow y_1 = y_2$ gives $f(a) = g(a)$. So $g = f$.
-7. Take a row with $x_1 = a$, $x_2 = a'$ and $a \neq a'$. The same conjunct gives $f(a) \neq g(a') = f(a')$. So $f$ is injective.
-8. The conjunct $\neg y_1 = z$ gives $f(a) \neq c$ for every $a$. So $f$ is an injective map of $M$ into itself that is not surjective.
-9. A finite set has no such map, because an injective map of a finite set into itself is a bijection by counting. So $M$ is infinite.
-10. Conversely, let $M$ be infinite. Then $M$ has a countably infinite subset $\{ d_0, d_1, d_2, \ldots \}$ with distinct $d_i$.
-11. Put $f(d_i) = d_{i+1}$ and $f(a) = a$ for the other $a$. Then $f$ is injective and $d_0$ is not a value of $f$.
-12. Choose $z = d_0$, then $y_1 = f(x_1)$ and $y_2 = f(x_2)$. These choices are functions of the current assignment, as the clause for $\exists$ requires.
-13. In the final team $y_1$ is a function of $x_1$ and $y_2$ is a function of $x_2$, so both atoms hold. Injectivity of $f$ gives the biconditional in each row, and $f(a) \neq d_0$ gives $\neg y_1 = z$.
+6. Take the row with $x_1 = x_2 = a$.
+   The conjunct $x_1 = x_2 \leftrightarrow y_1 = y_2$ gives $f(a) = g(a)$, so $g = f$.
+7. Take a row with $x_1 = a$, $x_2 = a'$ and $a \neq a'$.
+   The same conjunct gives $f(a) \neq g(a') = f(a')$, so $f$ is one-to-one.
+8. The conjunct $\neg y_1 = z$ gives $f(a) \neq c$ for every $a$.
+   So $f$ is a one-to-one map of $M$ into itself that is not onto.
+9. A finite set has no such map, because a one-to-one map of a finite set into itself is onto, by counting.
+   So $M$ is infinite.
+10. Conversely, let $M$ be infinite.
+    Then $M$ has a countably infinite subset $\{ d_0, d_1, d_2, \ldots \}$ with distinct elements $d_i$.
+11. Put $f(d_i) = d_{i+1}$, and $f(a) = a$ for every other $a$.
+    Then $f$ is one-to-one, and $d_0$ is not a value of $f$.
+12. Choose $z = d_0$, then $y_1 = f(x_1)$ and $y_2 = f(x_2)$.
+    These choices are functions of the current assignment, as the clause for $\exists$ requires.
+13. In the final team, $y_1$ is a function of $x_1$ and $y_2$ is a function of $x_2$, so both atoms hold.
+    Since $f$ is one-to-one, the biconditional holds in each row, and $f(a) \neq d_0$ gives $\neg y_1 = z$.
 
 ## Remarks
 
-The sentence is the team-semantic form of the existential second-order sentence $\exists f \, \exists z \, \big( \forall x \, f(x) \neq z \land \forall x \, \forall x' \, (f(x) = f(x') \to x = x') \big)$, read with full semantics.
+The sentence $\theta$ is the team form of an existential second-order sentence, read with the full semantics:
+$$\exists f \, \exists z \, \big( \forall x \, f(x) \neq z \land \forall x \, \forall x' \, (f(x) = f(x') \to x = x') \big).$$
 No first-order sentence says "the domain is infinite".
-By the [[compactness theorem|1NR3HAWG9D]], a first-order sentence true in all infinite structures is also true in some finite structure.
+By the [[compactness theorem|1NR3HAWG9D]], a first-order sentence that is true in all infinite structures is also true in some finite structure.
 So dependence logic is strictly more expressive than first-order logic.
-The negation "the domain is finite" has no dependence logic sentence, because dependence logic sentences are compact as well.
+The negation, "the domain is finite", has no dependence logic sentence, because dependence logic sentences are also compact.
+
 The atom $=\!(x_2, y_2)$ is needed.
 Without it, $y_2$ may depend on $x_1$ too.
-Then we can take $y_1 = b$ for a fixed $b \neq c$, and $y_2 = y_1$ if $x_1 = x_2$ and $y_2 \neq y_1$ otherwise.
+Then we can take $y_1 = b$ for a fixed $b \neq c$, and choose $y_2 = y_1$ if $x_1 = x_2$ and $y_2 \neq y_1$ otherwise.
 These choices make the shorter sentence true in every structure with at least two elements.
 
 ## Explanations
@@ -55,18 +68,21 @@ These choices make the shorter sentence true in every structure with at least tw
 
 A set is infinite when we can move each element to a new place, with no two in one place, and leave a place empty.
 The hotel with rooms $1, 2, 3, \ldots$ does this: the guest in room $n$ moves to room $n + 1$, and room $1$ becomes free.
-A finite hotel cannot do it, because four guests in four rooms with one room left empty would need two guests in one room.
+A finite hotel cannot do it.
+With four guests in four rooms and one room left empty, two guests would share a room.
 The sentence of dependence logic asks for such a move.
-The dependence atoms make sure that each guest's new room depends only on that guest.
+The dependence atoms make sure that the new room of each guest depends only on that guest.
 
 ### L2 human
 
 We check that $\theta$ is false in $M = \{0, 1\}$.
 
 1. Step 1 of the example fixes $z = c$ for some $c \in \{0, 1\}$.
-2. Steps 4 to 8 then give an injective $f \colon \{0, 1\} \to \{0, 1\}$ with $c$ not in its image.
-3. An injective map from a $2$-element set to a $2$-element set has an image with $2$ elements, so it is onto.
-4. So $c$ is in the image, a contradiction, and $\theta$ is false.
+2. Steps 4 to 8 then give a one-to-one map $f \colon \{0, 1\} \to \{0, 1\}$ with $c$ not in its image.
+3. A one-to-one map from a $2$-element set to a $2$-element set has an image with $2$ elements, so it is onto.
+   Check: $f(0) \neq f(1)$, so $\{ f(0), f(1) \} = \{0, 1\}$.
+4. So $c$ is in the image, which is a contradiction, and $\theta$ is false.
 
-The typical use of the example is to separate dependence logic from first-order logic.
-A trap is to read $\theta$ assignment by assignment as a first-order sentence: without the dependence atoms, $\forall x_1 \, \forall x_2 \, \exists y_1 \, \exists y_2$ lets $y_1$ depend on $x_2$.
+The typical use of this example is to separate dependence logic from first-order logic.
+Watch out: do not read $\theta$ assignment by assignment as a first-order sentence.
+Without the dependence atoms, $\forall x_1 \, \forall x_2 \, \exists y_1 \, \exists y_2$ lets $y_1$ depend on $x_2$.
