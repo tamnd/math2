@@ -36,7 +36,7 @@ For informal provability, Gödel read $\square\varphi$ as "$\varphi$ has been pr
 $\mathsf{S4}$ is also where modal logic meets topology and constructive logic.
 If you read $\square$ as the [[interior|0RZH6W98HK]] of a set in a [[topological space|0CQHFPGJ45]], the theorems of $\mathsf{S4}$ are exactly the laws of interior.
 Gödel's translation embeds [[intuitionistic logic|Q11N8X99FK]] into $\mathsf{S4}$, so questions about constructive proofs become questions about preorders.
-Sub-area 21 returns to both links in the [[McKinsey-Tarski theorem|2VF0546VXK]] and the [[Gödel-McKinsey-Tarski translation|BXVNEN55MR]].
+Both links are made exact in the [[McKinsey-Tarski theorem|2VF0546VXK]] and the [[Gödel-McKinsey-Tarski translation|BXVNEN55MR]].
 
 ## Notation
 
