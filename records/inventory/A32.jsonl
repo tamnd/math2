@@ -1,4 +1,4 @@
 {"id":"A32VMPKA7C","mentions":["wikipedia://en/11686201"],"kind":"definition","name":"D'Agostino's K-squared test","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"A32XCP8HMG","mentions":["wikipedia://en/8317687#SN6W"],"kind":"statement","name":"Statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"A32YCK4A34","mentions":["m2://rec/wikidata/Q131369360#1"],"kind":"unknown","name":"R graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"A32YCK4A34","mentions":["m2://rec/wikidata/Q131369360#1"],"kind":"concept","name":"R graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"A32YG6N4KA","mentions":["m2://rec/austin_ula/src/exercises/exercises4-3.xml#exercise-9#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

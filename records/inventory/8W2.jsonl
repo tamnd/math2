@@ -1,4 +1,4 @@
-{"id":"8W2007B3N5","mentions":["m2://rec/wikidata/Q1389471#1"],"kind":"unknown","name":"causal perturbation theory","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"8W2007B3N5","mentions":["m2://rec/wikidata/Q1389471#1"],"kind":"topic","name":"causal perturbation theory","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"8W22EA4PWH","mentions":["wikipedia://en/13341540"],"kind":"definition","name":"Asymmetric norm","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"8W2BPMKR3Z","mentions":["wikipedia://en/33614900"],"kind":"definition","name":"Mixed Poisson process","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"8W2GYEETE3","mentions":["wikipedia://en/12498127#M4RI"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

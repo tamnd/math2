@@ -3,4 +3,4 @@
 {"id":"GG5E650VZC","mentions":["wikipedia://en/16990545#B7VX"],"kind":"statement","name":"Existence theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"GG5FP5EXSR","mentions":["wikipedia://en/1400598"],"kind":"topic","name":"John Landen","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"GG5GAS02Y9","mentions":["wikipedia://en/72244919#7W8I"],"kind":"definition","name":"Notation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"GG5K52SPX2","mentions":["m2://rec/wikidata/Q127744120#1"],"kind":"unknown","name":"square-free graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"GG5K52SPX2","mentions":["m2://rec/wikidata/Q127744120#1"],"kind":"concept","name":"square-free graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

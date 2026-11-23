@@ -1,2 +1,2 @@
 {"id":"8P11G210AY","mentions":["wikipedia://en/38245519#FZ8F"],"kind":"unknown","name":"Remark","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"8P1VHKF4PR","mentions":["m2://rec/wikidata/Q1779061#1"],"kind":"unknown","name":"Super-Poulet number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"8P1VHKF4PR","mentions":["m2://rec/wikidata/Q1779061#1"],"kind":"concept","name":"Super-Poulet number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

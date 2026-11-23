@@ -3,4 +3,4 @@
 {"id":"WDD5MZRD3F","mentions":["wikipedia://en/408108#PAFX"],"kind":"definition","name":"Probable prime","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"WDD8YS5MY7","mentions":["wikipedia://en/1793003#0C9C"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"WDDDN8R443","mentions":["wikipedia://en/34976899"],"kind":"definition","name":"Group contraction","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"WDDNK5MAYF","mentions":["m2://rec/wikidata/Q7295756#1"],"kind":"unknown","name":"rational conformal field theory","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"WDDNK5MAYF","mentions":["m2://rec/wikidata/Q7295756#1"],"kind":"topic","name":"rational conformal field theory","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

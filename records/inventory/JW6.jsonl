@@ -1,6 +1,6 @@
 {"id":"JW618MDRC4","mentions":["m2://rec/wikidata/Q186300#1","wikipedia://en/65929"],"kind":"definition","name":"angular acceleration","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"JW62GMMKNN","mentions":["wikipedia://en/11908435"],"kind":"definition","name":"Pseudo-monotone operator","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"JW634ZV9QT","mentions":["m2://rec/wikidata/Q4734008#1","wikipedia://en/11630694"],"kind":"definition","name":"almost symplectic manifold","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"JW634ZV9QT","mentions":["m2://rec/wikidata/Q4734008#1","wikipedia://en/11630694"],"kind":"concept","name":"almost symplectic manifold","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"JW6DJ722HH","mentions":["m2://rec/open_logic/content/proof-theory/sequent-calculus/interpretation-rules.tex#prob-1#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"JW6EX6AP3M","mentions":["wikipedia://en/26276012"],"kind":"definition","name":"Public Use Microdata Area","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"JW6J9F5P1Y","mentions":["wikipedia://en/140829#ZZF4"],"kind":"unknown","name":"Hooker, Reginald Hawthorn","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

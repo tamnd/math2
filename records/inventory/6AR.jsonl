@@ -1,7 +1,7 @@
 {"id":"6AR6ZA3WZ9","mentions":["wikipedia://en/14393400"],"kind":"topic","name":"George Piranian","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"6AR895XRVG","mentions":["wikipedia://en/26248766#EUB1","wikipedia://en/26248766#VPHH","wikipedia://en/47738065#S6TT"],"kind":"topic","name":"Guido Castelnuovo","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"6ARB8JMRCK","mentions":["wikipedia://en/393810"],"kind":"definition","name":"Richardson number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"6ARF3P2117","mentions":["m2://rec/wikidata/Q17019528#1"],"kind":"unknown","name":"group field theory","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"6ARF3P2117","mentions":["m2://rec/wikidata/Q17019528#1"],"kind":"topic","name":"group field theory","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"6ARHC46MTQ","mentions":["wikipedia://en/48877#KUOF"],"kind":"unknown","name":"National Navajo Code Talkers Day","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"6ARN0JX1GN","mentions":["wikipedia://en/22727353"],"kind":"problem","name":"Linear search problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"6ARTQM73SR","mentions":["m2://rec/open_logic/content/first-order-logic/tableaux/provability-consistency.tex#prob-1#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

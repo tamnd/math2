@@ -1,3 +1,3 @@
-{"id":"HBY02F0NRW","mentions":["m2://rec/wikidata/Q1142143#1","wikipedia://en/221600"],"kind":"definition","name":"cotangent bundle","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"HBY02F0NRW","mentions":["m2://rec/wikidata/Q1142143#1","wikipedia://en/221600"],"kind":"concept","name":"cotangent bundle","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"HBYE6M8RJT","mentions":["wikipedia://en/17936142"],"kind":"definition","name":"Approximately finite-dimensional C*-algebra","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"HBYJM49004","mentions":["m2://rec/lebl_diffyqs/ch-fourier-and-pde.tex#exercise-13#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

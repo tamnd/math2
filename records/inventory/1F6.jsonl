@@ -1,4 +1,4 @@
 {"id":"1F64TGWG1F","mentions":["wikipedia://en/43932548#DYHB"],"kind":"definition","name":"Implementations","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"1F65SB2TX7","mentions":["m2://rec/wikidata/Q25392700#1"],"kind":"unknown","name":"icosahedral group","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"1F65SB2TX7","mentions":["m2://rec/wikidata/Q25392700#1"],"kind":"concept","name":"icosahedral group","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"1F6SS3ZSZX","mentions":["wikipedia://en/191457#EQCX"],"kind":"definition","name":"Generalized Gaussian distribution","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"1F6V7MH18J","mentions":["wikipedia://en/73852031"],"kind":"topic","name":"Kristen Hendricks","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

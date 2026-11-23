@@ -1,4 +1,4 @@
-{"id":"6YQ9WWM1D5","mentions":["m2://rec/wikidata/Q141176280#1"],"kind":"unknown","name":"monotonic sequence","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"6YQ9WWM1D5","mentions":["m2://rec/wikidata/Q141176280#1"],"kind":"concept","name":"monotonic sequence","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"6YQAXWD3K2","mentions":["m2://rec/napkin/tex/homology/singular.tex#ex:homology_group_sphere#1"],"kind":"example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"6YQB6YG437","mentions":["wikipedia://en/852721#YA1A"],"kind":"unknown","name":"⃧","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"6YQDKN9N6B","mentions":["wikipedia://en/2193888#Q8DD"],"kind":"unknown","name":"Linear force-free field","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

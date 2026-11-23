@@ -2,4 +2,4 @@
 {"id":"YF7AMH0WG5","mentions":["wikipedia://en/68266753"],"kind":"topic","name":"Jin-Yi Cai","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"YF7BP80VJ6","mentions":["m2://rec/levin_dmoi/index/3.4/fibonacci-sequence#1"],"kind":"concept","name":"Fibonacci sequence","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"YF7CSH7J3G","mentions":["m2://rec/lebl_diffyqs/ch-laplace.tex#exercise-75#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"YF7FFYB3KV","mentions":["m2://rec/wikidata/Q5251123#1","wikipedia://en/5302952"],"kind":"definition","name":"defective matrix","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"YF7FFYB3KV","mentions":["m2://rec/wikidata/Q5251123#1","wikipedia://en/5302952"],"kind":"concept","name":"defective matrix","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

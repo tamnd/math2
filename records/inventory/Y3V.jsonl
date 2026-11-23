@@ -1,4 +1,4 @@
-{"id":"Y3V1M89VM1","mentions":["m2://rec/wikidata/Q1788036#1","wikipedia://en/1247265"],"kind":"definition","name":"volume integral","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"Y3V1M89VM1","mentions":["m2://rec/wikidata/Q1788036#1","wikipedia://en/1247265"],"kind":"concept","name":"volume integral","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"Y3V2AX82AG","mentions":["wikipedia://en/248635#XLOQ"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"Y3V2VB5XZZ","mentions":["wikipedia://en/1156527"],"kind":"definition","name":"Detection theory","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"Y3VG8R0KV7","mentions":["wikipedia://en/11772928#LKHR"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

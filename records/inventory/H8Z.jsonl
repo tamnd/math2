@@ -1,4 +1,4 @@
-{"id":"H8Z58H88B2","mentions":["m2://rec/wikidata/Q5073247#1","wikipedia://en/1089172"],"kind":"definition","name":"Chaplygin's equation","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"H8Z58H88B2","mentions":["m2://rec/wikidata/Q5073247#1","wikipedia://en/1089172"],"kind":"concept","name":"Chaplygin's equation","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"H8Z5EKWR9Z","mentions":["wikipedia://en/247392#DJ7L"],"kind":"statement","name":"Theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}],"proofs":["wikipedia://en/247392#5XQH"]}
 {"id":"H8ZFG9QFMP","mentions":["wikipedia://en/9202993#S5Q1"],"kind":"unknown","name":"Type inhabitation problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"H8ZFYV04SR","mentions":["wikipedia://en/5138147#ARSF"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

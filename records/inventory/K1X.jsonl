@@ -1,4 +1,4 @@
-{"id":"K1X1EZYYAJ","mentions":["m2://rec/wikidata/Q11291670#1"],"kind":"unknown","name":"strict partition function","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"K1X1EZYYAJ","mentions":["m2://rec/wikidata/Q11291670#1"],"kind":"concept","name":"strict partition function","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"K1XEQ51JNW","mentions":["m2://rec/wikidata/Q3006725#1","wikipedia://en/4157399"],"kind":"object","name":"cubitruncated cuboctahedron","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"K1XQJYM6JF","mentions":["wikipedia://en/7807#YZ8Z"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"K1XW3Q3B1H","mentions":["wikipedia://en/161339#AZK3"],"kind":"topic","name":"Pierre de Fermat","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

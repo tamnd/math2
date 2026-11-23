@@ -1,4 +1,4 @@
 {"id":"XFB0H83H7G","mentions":["wikipedia://en/1403586#AML6"],"kind":"unknown","name":"Kyle Gass","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"XFB5VNV0JK","mentions":["m2://rec/wikidata/Q48816073#1","wikipedia://en/56425908"],"kind":"definition","name":"quaternionic manifold","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"XFB5VNV0JK","mentions":["m2://rec/wikidata/Q48816073#1","wikipedia://en/56425908"],"kind":"concept","name":"quaternionic manifold","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"XFB7YVFQEG","mentions":["wikipedia://en/37532867#J9WU"],"kind":"unknown","name":"National Health Service","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"XFBHKFQCV7","mentions":["wikipedia://en/391832#LRKN"],"kind":"statement","name":"Variants","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

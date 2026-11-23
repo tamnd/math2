@@ -1,4 +1,4 @@
 {"id":"HJW1RTCESD","mentions":["wikipedia://en/3759614"],"kind":"statement","name":"Kronecker's lemma","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"HJWCSHA8PS","mentions":["wikipedia://en/2832996"],"kind":"topic","name":"Barry Smith","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"HJWGCPBKM2","mentions":["m2://rec/wikidata/Q2961488#1","wikipedia://en/5732075"],"kind":"definition","name":"Arnold's cat map","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"HJWGCPBKM2","mentions":["m2://rec/wikidata/Q2961488#1","wikipedia://en/5732075"],"kind":"concept","name":"Arnold's cat map","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"HJWV59ZF2J","mentions":["wikipedia://en/1694884#J7WR"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

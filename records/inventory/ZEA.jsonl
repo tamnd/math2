@@ -1,6 +1,6 @@
 {"id":"ZEA0E8FGTR","mentions":["wikipedia://en/47738065#0Z8Y"],"kind":"topic","name":"Victor Bangert","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"ZEA21BPVYB","mentions":["wikipedia://en/2174514#K7MP"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"ZEA6KCZQ64","mentions":["m2://rec/wikidata/Q122897604#1"],"kind":"unknown","name":"antisquare number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"ZEA6KCZQ64","mentions":["m2://rec/wikidata/Q122897604#1"],"kind":"concept","name":"antisquare number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"ZEAAJQM080","mentions":["wikipedia://en/3932847#1CLX"],"kind":"definition","name":"Simfit","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"ZEABBGQQQS","mentions":["m2://rec/wikidata/Q1135677#1","wikipedia://en/671821"],"kind":"definition","name":"Randall–Sundrum model","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"ZEABTZ3ZA7","mentions":["wikipedia://en/63233978#LT98"],"kind":"definition","name":"Algorithm","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

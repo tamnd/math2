@@ -1,2 +1,2 @@
-{"id":"4PG1BT9BS0","mentions":["m2://rec/wikidata/Q15054459#1"],"kind":"unknown","name":"irrotational field","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"4PG1BT9BS0","mentions":["m2://rec/wikidata/Q15054459#1"],"kind":"concept","name":"irrotational field","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"4PGA3K28BW","mentions":["m2://rec/napkin/tex/calculus/taylor.tex#proof-5#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

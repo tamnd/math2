@@ -1,6 +1,6 @@
 {"id":"6GA60BEC87","mentions":["wikipedia://en/18568#TZKX"],"kind":"definition","name":"Nonlinear optimization","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"6GA8A1SANB","mentions":["wikipedia://en/3820870#1FFX"],"kind":"unknown","name":"Nicolai Jasnogrodsky","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"6GA962JKTC","mentions":["m2://rec/wikidata/Q135752634#1"],"kind":"unknown","name":"doubly even number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"6GA962JKTC","mentions":["m2://rec/wikidata/Q135752634#1"],"kind":"concept","name":"doubly even number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"6GAHVH3H4R","mentions":["wikipedia://en/8016170"],"kind":"definition","name":"Hedgehog space","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"6GAMDKHWP3","mentions":["wikipedia://en/191457#X6RU"],"kind":"definition","name":"Geary's C","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"6GAWQAZMG7","mentions":["wikipedia://en/8007#BP55"],"kind":"unknown","name":"Diameter sign","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

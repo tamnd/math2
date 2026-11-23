@@ -1,3 +1,3 @@
 {"id":"4XN1MARZZD","mentions":["wikipedia://en/2300687#NTAK"],"kind":"statement","name":"Basic properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"4XNAWG9XWN","mentions":["wikipedia://en/427282#L59R"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"4XNWRZ0QCN","mentions":["m2://rec/wikidata/Q2607374#1","wikipedia://en/16070185"],"kind":"definition","name":"Struve function","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"4XNWRZ0QCN","mentions":["m2://rec/wikidata/Q2607374#1","wikipedia://en/16070185"],"kind":"concept","name":"Struve function","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

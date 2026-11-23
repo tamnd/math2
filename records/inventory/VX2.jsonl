@@ -1,4 +1,5 @@
 {"id":"VX23PC9T7J","mentions":["m2://rec/wikidata/Q624025#1"],"kind":"object","name":"Sophie Germain prime","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"VX25DW3CX0","mentions":["wikipedia://en/767253#JQRS"],"kind":"statement","name":"Theorem (Optimality of Karhunen–Loève basis)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"VX2E852Q9R","mentions":["m2://rec/wikidata/Q105659227#1"],"kind":"unknown","name":"fractional derivative","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"VX2E852Q9R","mentions":["m2://rec/wikidata/Q105659227#1"],"kind":"concept","name":"fractional derivative","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"VX2RFCTCH2","mentions":["m2://rec/wikidata/Q3527082#1"],"kind":"statement","name":"Girard's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-23","by":"m2/dev"}]}
 {"id":"VX2WJHDCXN","mentions":["wikipedia://en/1403586#5U8P"],"kind":"unknown","name":"Monte Scheinblum","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

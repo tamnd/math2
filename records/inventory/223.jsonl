@@ -2,5 +2,5 @@
 {"id":"2232TVS47X","mentions":["wikipedia://en/140829#CUX2"],"kind":"topic","name":"Kish, Leslie","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"2233ZB4PM0","mentions":["wikipedia://en/29870579"],"kind":"definition","name":"Libgcrypt","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"223AJN9SQP","mentions":["wikipedia://en/51140705#HXUZ"],"kind":"topic","name":"James Robins","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"223PGPCJZY","mentions":["m2://rec/wikidata/Q98931512#1","wikipedia://en/69720399"],"kind":"definition","name":"bimonoidal category","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"223PGPCJZY","mentions":["m2://rec/wikidata/Q98931512#1","wikipedia://en/69720399"],"kind":"concept","name":"bimonoidal category","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"223RNRAZ30","mentions":["wikipedia://en/2338241#FOUK"],"kind":"statement","name":"Interpolation formula","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

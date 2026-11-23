@@ -1,4 +1,4 @@
 {"id":"CG59ECTAKQ","mentions":["wikipedia://en/39563465#BLQ6"],"kind":"unknown","name":"JModelica.org","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"CG5E3CPH80","mentions":["wikipedia://en/11353703#JOVV"],"kind":"topic","name":"Gino Loria","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"CG5V8MMCW1","mentions":["m2://rec/wikidata/Q3115483#1"],"kind":"unknown","name":"Fritsch graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"CG5V8MMCW1","mentions":["m2://rec/wikidata/Q3115483#1"],"kind":"concept","name":"Fritsch graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"CG5VKBM0GQ","mentions":["wikipedia://en/66452088"],"kind":"definition","name":"Chemical graph generator","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

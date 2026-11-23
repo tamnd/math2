@@ -1,5 +1,5 @@
 {"id":"JNCH4GK7DX","mentions":["m2://rec/wikidata/Q2383174#1"],"kind":"unknown","name":"T puzzle","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"JNCJM27K9Y","mentions":["m2://rec/wikidata/Q116966067#1"],"kind":"unknown","name":"orientable manifold","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"JNCJM27K9Y","mentions":["m2://rec/wikidata/Q116966067#1"],"kind":"concept","name":"orientable manifold","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"JNCRS4EC4F","mentions":["wikipedia://en/3522915"],"kind":"topic","name":"Donald Marquardt","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"JNCS4GQFAB","mentions":["wikipedia://en/346262#4D3Q"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"JNCYB6HF6P","mentions":["wikipedia://en/140829#GJ9W"],"kind":"unknown","name":"Spengler, Joseph J.","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

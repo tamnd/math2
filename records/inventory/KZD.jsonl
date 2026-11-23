@@ -1,4 +1,4 @@
 {"id":"KZD7RWK4Z2","mentions":["wikipedia://en/55629280"],"kind":"topic","name":"Merlise A. Clyde","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"KZDS3DGR8B","mentions":["m2://rec/hott_book/setmath.tex#proof-35#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"KZDSF89CTE","mentions":["m2://rec/wikidata/Q1147928#1","wikipedia://en/1045553"],"kind":"definition","name":"multinomial distribution","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}],"proofs":["wikipedia://en/1045553#VL6A"]}
+{"id":"KZDSF89CTE","mentions":["m2://rec/wikidata/Q1147928#1","wikipedia://en/1045553"],"kind":"concept","name":"multinomial distribution","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}],"proofs":["wikipedia://en/1045553#VL6A"]}
 {"id":"KZDVGVPV8H","mentions":["wikipedia://en/444250#3AVY"],"kind":"definition","name":"Multivariate interpolation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

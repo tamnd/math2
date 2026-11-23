@@ -1,2 +1,2 @@
-{"id":"50WCQD4XK9","mentions":["m2://rec/wikidata/Q7540228#1","wikipedia://en/4158126"],"kind":"definition","name":"slice knot","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"50WCQD4XK9","mentions":["m2://rec/wikidata/Q7540228#1","wikipedia://en/4158126"],"kind":"concept","name":"slice knot","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"50WQXNY881","mentions":["m2://rec/open_logic/content/intuitionistic-logic/semantics/semantic-notions.tex#prop-1#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

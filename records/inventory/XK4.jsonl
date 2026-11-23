@@ -1,4 +1,4 @@
 {"id":"XK4DXWCKC3","mentions":["wikipedia://en/47628477"],"kind":"definition","name":"Identifiability analysis","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"XK4HMW6FJM","mentions":["m2://rec/wikidata/Q123472578#1"],"kind":"unknown","name":"Trott curve","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"XK4HMW6FJM","mentions":["m2://rec/wikidata/Q123472578#1"],"kind":"concept","name":"Trott curve","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"XK4NBM5GFK","mentions":["wikipedia://en/28767#16VF"],"kind":"unknown","name":"Point of application","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"XK4QV9RAEW","mentions":["m2://rec/wikidata/Q2610096#1"],"kind":"unknown","name":"Hurwitz matrix","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"XK4QV9RAEW","mentions":["m2://rec/wikidata/Q2610096#1"],"kind":"concept","name":"Hurwitz matrix","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

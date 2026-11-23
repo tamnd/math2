@@ -1,4 +1,4 @@
-{"id":"4BQBA7P8H0","mentions":["m2://rec/wikidata/Q1003162#1","wikipedia://en/292831"],"kind":"definition","name":"simple Lie group","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"4BQBA7P8H0","mentions":["m2://rec/wikidata/Q1003162#1","wikipedia://en/292831"],"kind":"concept","name":"simple Lie group","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"4BQD7G76TA","mentions":["m2://rec/wikidata/Q5157328#1"],"kind":"statement","name":"1087","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"4BQGH432AB","mentions":["wikipedia://en/624291#VSLV"],"kind":"statement","name":"Jaynes's solution using the \"maximum ignorance\" principle","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"4BQNFGDAZR","mentions":["m2://rec/hott_book/equivalences.tex#proof-24#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

@@ -1,4 +1,4 @@
-{"id":"ZFN2Z2R5DM","mentions":["m2://rec/wikidata/Q3115611#1"],"kind":"unknown","name":"triakis icosahedral graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"ZFN2Z2R5DM","mentions":["m2://rec/wikidata/Q3115611#1"],"kind":"concept","name":"triakis icosahedral graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"ZFN4Z5R4J5","mentions":["m2://rec/lebl_scv/index/1.1/cauchy-integral-formula-in-several-variables#1"],"kind":"concept","name":"Cauchy integral formula in several variables","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"ZFN5N0CTE9","mentions":["m2://rec/wikidata/Q3207456#1"],"kind":"definition","name":"milliwatt","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"ZFN8JXED2G","mentions":["wikipedia://en/1707754#ARS2"],"kind":"unknown","name":"Lemmings","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

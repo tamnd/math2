@@ -1,4 +1,4 @@
-{"id":"KEB16FS5W8","mentions":["m2://rec/wikidata/Q1324364#1","wikipedia://en/363325"],"kind":"definition","name":"homogeneous space","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"KEB16FS5W8","mentions":["m2://rec/wikidata/Q1324364#1","wikipedia://en/363325"],"kind":"concept","name":"homogeneous space","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"KEB1G5XA9Q","mentions":["wikipedia://en/51140705#9T1C"],"kind":"topic","name":"Horatio Pollock","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"KEBEJCDMBJ","mentions":["m2://rec/open_logic/content/proof-theory/natural-deduction/quantifiers.tex#defn-1#1"],"kind":"definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"KEBM604PB1","mentions":["wikipedia://en/47728189"],"kind":"topic","name":"Gerrit Lekkerkerker","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

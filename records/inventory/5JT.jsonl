@@ -3,4 +3,4 @@
 {"id":"5JT7JFRBWZ","mentions":["wikipedia://en/25804104#OTOJ"],"kind":"unknown","name":"Angle addition and subtraction equation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"5JTFKDFQDX","mentions":["wikipedia://en/2879918#PUJV"],"kind":"definition","name":"Shifted Gompertz distribution","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"5JTK36SK26","mentions":["wikipedia://en/241820#F133","wikipedia://en/517370#Z7RY"],"kind":"definition","name":"Weaire–Phelan structure","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"5JTMCKTGJ6","mentions":["m2://rec/wikidata/Q78338964#1"],"kind":"unknown","name":"smooth manifold","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"5JTMCKTGJ6","mentions":["m2://rec/wikidata/Q78338964#1"],"kind":"concept","name":"smooth manifold","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

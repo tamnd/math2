@@ -2,5 +2,5 @@
 {"id":"2NN881TJFY","mentions":["wikipedia://en/4659082#G5N4"],"kind":"topic","name":"Einstein's field equation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"2NNABX4JDB","mentions":["wikipedia://en/51140705#WRZE"],"kind":"unknown","name":"Bruce Weir","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"2NNDDYZKKY","mentions":["wikipedia://en/80143#XK2Z"],"kind":"topic","name":"List of Greek mathematicians","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"2NNHGHVPTQ","mentions":["m2://rec/wikidata/Q3115568#1"],"kind":"unknown","name":"disdyakis dodecahedral graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"2NNHGHVPTQ","mentions":["m2://rec/wikidata/Q3115568#1"],"kind":"concept","name":"disdyakis dodecahedral graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"2NNSQTDZD7","mentions":["wikipedia://en/66029152"],"kind":"topic","name":"List of k-uniform tilings","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

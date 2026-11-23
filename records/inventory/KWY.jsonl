@@ -1,5 +1,5 @@
 {"id":"KWY2EC5VAX","mentions":["wikipedia://en/80742065#OWW0"],"kind":"statement","name":"Hausdorff maximal principle","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"KWYG42266G","mentions":["wikipedia://en/215889#S8K6"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"KWYMEA6HBK","mentions":["wikipedia://en/2390225#ILG4"],"kind":"definition","name":"surface","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"KWYMECV6MY","mentions":["m2://rec/wikidata/Q2608535#1","wikipedia://en/1534382"],"kind":"definition","name":"univalent function","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"KWYMECV6MY","mentions":["m2://rec/wikidata/Q2608535#1","wikipedia://en/1534382"],"kind":"concept","name":"univalent function","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"KWYRV0YSMJ","mentions":["wikipedia://en/2388068#M2Q9"],"kind":"unknown","name":"Stanley Deser","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

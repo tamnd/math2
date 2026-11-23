@@ -1,5 +1,5 @@
 {"id":"NJ20P9SJJZ","mentions":["wikipedia://en/191457#43LS"],"kind":"definition","name":"Latent growth modeling","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"NJ25B8RDPH","mentions":["m2://rec/wikidata/Q121143389#1"],"kind":"unknown","name":"series-reduced tree","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"NJ25B8RDPH","mentions":["m2://rec/wikidata/Q121143389#1"],"kind":"concept","name":"series-reduced tree","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"NJ2BN2F5NS","mentions":["m2://rec/napkin/tex/H113/ring-flavors.tex#ques-3#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"NJ2BRYQWJN","mentions":["wikipedia://en/46462753"],"kind":"definition","name":"Steiner conic","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"NJ2V9VKVDV","mentions":["wikipedia://en/2470414#RW3E"],"kind":"statement","name":"Theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

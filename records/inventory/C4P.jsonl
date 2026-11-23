@@ -1,4 +1,4 @@
 {"id":"C4P2VJRZRB","mentions":["m2://rec/open_logic/content/incompleteness/arithmetization-syntax/coding-terms.tex#proof-2#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"C4PEQA5XG8","mentions":["m2://rec/wikidata/Q1757469#1","wikipedia://en/587650"],"kind":"definition","name":"pursuit curve","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"C4PEQA5XG8","mentions":["m2://rec/wikidata/Q1757469#1","wikipedia://en/587650"],"kind":"concept","name":"pursuit curve","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"C4PVH8HH6H","mentions":["m2://rec/hott_book/logic.tex#defn:contractible#1"],"kind":"definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"C4PY5VGQPF","mentions":["wikipedia://en/1211056#LFTX"],"kind":"unknown","name":"Abstract vertex figure","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,2 +1,2 @@
-{"id":"HAA6RAPGW8","mentions":["m2://rec/wikidata/Q6366845#1"],"kind":"unknown","name":"Kaplan–Yorke map","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"HAA6RAPGW8","mentions":["m2://rec/wikidata/Q6366845#1"],"kind":"concept","name":"Kaplan–Yorke map","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"HAAXG3EZTE","mentions":["m2://rec/open_logic/content/lambda-calculus/lambda-definability/pairs.tex#prob-1#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

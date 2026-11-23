@@ -1,4 +1,4 @@
-{"id":"4WC5B6F9X1","mentions":["m2://rec/wikidata/Q55091060#1"],"kind":"unknown","name":"parallel vector","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"4WC5B6F9X1","mentions":["m2://rec/wikidata/Q55091060#1"],"kind":"concept","name":"parallel vector","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"4WC5D3VJC1","mentions":["m2://rec/wikidata/Q378347#1","wikipedia://en/4031859"],"kind":"definition","name":"Q–Q plot","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"4WCG0Y8A5J","mentions":["wikipedia://en/9718351"],"kind":"definition","name":"Quantum state space","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"4WCZ0EVRNX","mentions":["wikipedia://en/352950#FSEV"],"kind":"definition","name":"T0 space","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

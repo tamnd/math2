@@ -1,4 +1,4 @@
-{"id":"TB71ZK0M9S","mentions":["m2://rec/wikidata/Q7941490#1","wikipedia://en/1840727"],"kind":"definition","name":"von Mises distribution","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"TB71ZK0M9S","mentions":["m2://rec/wikidata/Q7941490#1","wikipedia://en/1840727"],"kind":"concept","name":"von Mises distribution","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"TB78JB80TN","mentions":["wikipedia://en/3854225"],"kind":"definition","name":"Waveguide","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"TB79NK5WBF","mentions":["wikipedia://en/4675178"],"kind":"definition","name":"Joint Policy Board for Mathematics","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"TB7PARD5WR","mentions":["m2://rec/applied_combinatorics/source/s_graphs_exercises.ptx#exercise-18#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

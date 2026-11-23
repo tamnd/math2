@@ -1,4 +1,4 @@
 {"id":"K3R1J488H0","mentions":["wikipedia://en/398886#V0O5"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"K3RGRJC2C0","mentions":["m2://rec/wikidata/Q7272896#1","wikipedia://en/4004632"],"kind":"definition","name":"quotient category","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"K3RGRJC2C0","mentions":["m2://rec/wikidata/Q7272896#1","wikipedia://en/4004632"],"kind":"concept","name":"quotient category","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"K3RNVBZMGT","mentions":["wikipedia://en/25431009#OY2R"],"kind":"statement","name":"Statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"K3RWZB32Q8","mentions":["wikipedia://en/35870958"],"kind":"object","name":"Order-2 apeirogonal tiling","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,4 +1,4 @@
 {"id":"BQVH11KT15","mentions":["m2://rec/levin_dmoi/index/1.2.3/quantifiers-exists#1"],"kind":"concept","name":"quantifiers, exists","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"BQVRHBK823","mentions":["wikipedia://en/32869192#GTNF"],"kind":"definition","name":"Langlands dual","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"BQVVSD3ZT7","mentions":["m2://rec/wikidata/Q130598728#1"],"kind":"unknown","name":"uniquely pancyclic graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"BQVVSD3ZT7","mentions":["m2://rec/wikidata/Q130598728#1"],"kind":"concept","name":"uniquely pancyclic graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"BQVZHAD2WV","mentions":["wikipedia://en/47738065#SNYL"],"kind":"topic","name":"Andreas Thom","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

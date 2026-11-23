@@ -1,5 +1,5 @@
 {"id":"5K66SXX4CA","mentions":["m2://rec/austin_ula/index/3.3.2/chrominance#1"],"kind":"concept","name":"chrominance","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"5K6H68YAEF","mentions":["wikipedia://en/191457#J4TA"],"kind":"definition","name":"Concomitant (statistics)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"5K6QPS89QJ","mentions":["wikipedia://en/36187349#S7XV"],"kind":"statement","name":"Generalizations","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"5K6WV7T1XC","mentions":["m2://rec/wikidata/Q4853761#1","wikipedia://en/3468491"],"kind":"definition","name":"Banach bundle","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"5K6WV7T1XC","mentions":["m2://rec/wikidata/Q4853761#1","wikipedia://en/3468491"],"kind":"concept","name":"Banach bundle","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"5K6Y2C4DXS","mentions":["wikipedia://en/34265825#I8BD"],"kind":"statement","name":"Theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

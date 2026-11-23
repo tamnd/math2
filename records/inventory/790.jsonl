@@ -1,4 +1,4 @@
 {"id":"790C6SVK46","mentions":["m2://rec/wikidata/Q7239170#1","wikipedia://en/30722934"],"kind":"definition","name":"pre-Lie algebra","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"790K0QQ4N1","mentions":["m2://rec/lebl_diffyqs/ch-higher-order-ode.tex#hol:eqfromsolex#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"790P3GH585","mentions":["m2://rec/wikidata/Q5121446#1","wikipedia://en/2794417"],"kind":"definition","name":"circle bundle","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"790P3GH585","mentions":["m2://rec/wikidata/Q5121446#1","wikipedia://en/2794417"],"kind":"concept","name":"circle bundle","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"790T1PHAK3","mentions":["wikipedia://en/22609470#IRS7"],"kind":"statement","name":"Law of large numbers","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

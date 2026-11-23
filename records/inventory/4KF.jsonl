@@ -1,4 +1,4 @@
 {"id":"4KF2P4YYHP","mentions":["wikipedia://en/56098#NRVT"],"kind":"statement","name":"Law","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"4KFAT81E64","mentions":["m2://rec/lebl_diffyqs/ch-fourier-and-pde.tex#exercise-93#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"4KFAWCJ3XN","mentions":["m2://rec/wikidata/Q7208511#1","wikipedia://en/4257207"],"kind":"definition","name":"Poisson–Lie group","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"4KFAWCJ3XN","mentions":["m2://rec/wikidata/Q7208511#1","wikipedia://en/4257207"],"kind":"concept","name":"Poisson–Lie group","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"4KFHS44N10","mentions":["wikipedia://en/38893675"],"kind":"definition","name":"Rhombihexaoctagonal tiling","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

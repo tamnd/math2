@@ -2,4 +2,4 @@
 {"id":"TWT9PS1QFM","mentions":["wikipedia://en/236683"],"kind":"definition","name":"Amortized analysis","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"TWTA6QX5TR","mentions":["wikipedia://en/47738065#IT0D"],"kind":"unknown","name":"Tom Romberg","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"TWTCWQ87J2","mentions":["wikipedia://en/11353703#A0ML"],"kind":"topic","name":"Chaim Samuel Hönig","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"TWTQMPHE0K","mentions":["m2://rec/wikidata/Q17102717#1","wikipedia://en/39576395"],"kind":"definition","name":"ribbon category","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"TWTQMPHE0K","mentions":["m2://rec/wikidata/Q17102717#1","wikipedia://en/39576395"],"kind":"concept","name":"ribbon category","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

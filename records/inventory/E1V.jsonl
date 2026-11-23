@@ -1,4 +1,4 @@
-{"id":"E1V64GZYDQ","mentions":["m2://rec/wikidata/Q1357788#1","wikipedia://en/3720362"],"kind":"definition","name":"angular measure","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"E1V64GZYDQ","mentions":["m2://rec/wikidata/Q1357788#1","wikipedia://en/3720362"],"kind":"concept","name":"angular measure","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"E1V67784B7","mentions":["m2://rec/lebl_diffyqs/ch-fourier-and-pde.tex#exercise-82#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"E1V8367VWP","mentions":["m2://rec/napkin/tex/linalg/transpose.tex#theorem-2#1"],"kind":"statement","name":"$V$ versus $V^\\vee$ for complex inner forms","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"E1V9PFA89S","mentions":["wikipedia://en/2047298#Y7WH"],"kind":"unknown","name":"Oseen tensor","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

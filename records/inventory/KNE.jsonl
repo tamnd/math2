@@ -1,2 +1,2 @@
 {"id":"KNE2Y9KFEE","mentions":["m2://rec/napkin/tex/diffgeo/manifolds.tex#ques-2#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"KNEV0F92G9","mentions":["m2://rec/wikidata/Q5532436#1","wikipedia://en/245530"],"kind":"definition","name":"generalized Fourier series","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"KNEV0F92G9","mentions":["m2://rec/wikidata/Q5532436#1","wikipedia://en/245530"],"kind":"concept","name":"generalized Fourier series","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

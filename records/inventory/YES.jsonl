@@ -1,3 +1,3 @@
 {"id":"YES1R7QTMQ","mentions":["wikipedia://en/51140705#POK4"],"kind":"unknown","name":"Mir Masoom Ali","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"YESTZEE20X","mentions":["wikipedia://en/7300309"],"kind":"definition","name":"Plackett–Burman design","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"YESV8Z16TV","mentions":["m2://rec/wikidata/Q91267747#1"],"kind":"unknown","name":"codiscrete space","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"YESV8Z16TV","mentions":["m2://rec/wikidata/Q91267747#1"],"kind":"concept","name":"codiscrete space","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

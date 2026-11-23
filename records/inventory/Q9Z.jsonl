@@ -1,4 +1,4 @@
 {"id":"Q9Z8T0FA8M","mentions":["m2://rec/ernst_ibl/MAAPressVersion/IntroCardinality.tex#prob:cardinalityPractice#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"Q9ZFFR6HMY","mentions":["wikipedia://en/32027004"],"kind":"definition","name":"Touch","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"Q9ZFTVHAW4","mentions":["wikipedia://en/2879918#A6SD"],"kind":"definition","name":"Parabolic fractal distribution","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"Q9ZHTVS374","mentions":["m2://rec/wikidata/Q6378674#1","wikipedia://en/9565831"],"kind":"definition","name":"Kauffman polynomial","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"Q9ZHTVS374","mentions":["m2://rec/wikidata/Q6378674#1","wikipedia://en/9565831"],"kind":"concept","name":"Kauffman polynomial","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

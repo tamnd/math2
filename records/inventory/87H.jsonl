@@ -1,3 +1,3 @@
 {"id":"87H6CVD1JD","mentions":["wikipedia://en/53788372#BSXJ"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"87HCJ2JHW4","mentions":["m2://rec/wikidata/Q126425069#1"],"kind":"definition","name":"order of an entire function","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"87HVRSB83X","mentions":["m2://rec/wikidata/Q975166#1"],"kind":"unknown","name":"tetrahedral number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"87HVRSB83X","mentions":["m2://rec/wikidata/Q975166#1"],"kind":"concept","name":"tetrahedral number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

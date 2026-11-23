@@ -1,2 +1,2 @@
-{"id":"T1253MZZRR","mentions":["m2://rec/wikidata/Q2489408#1","wikipedia://en/19377159"],"kind":"object","name":"wild knot","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"T1253MZZRR","mentions":["m2://rec/wikidata/Q2489408#1","wikipedia://en/19377159"],"kind":"concept","name":"wild knot","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"T129XF9SG7","mentions":["wikipedia://en/24686102"],"kind":"definition","name":"Scenario optimization","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

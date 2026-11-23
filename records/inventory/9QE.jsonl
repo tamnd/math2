@@ -1,2 +1,2 @@
 {"id":"9QE89F4DZY","mentions":["wikipedia://en/28858#3JOB"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"9QEFHVRC65","mentions":["m2://rec/wikidata/Q7512218#1","wikipedia://en/1567410"],"kind":"definition","name":"sigma-ideal","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"9QEFHVRC65","mentions":["m2://rec/wikidata/Q7512218#1","wikipedia://en/1567410"],"kind":"concept","name":"sigma-ideal","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

@@ -1,5 +1,5 @@
 {"id":"7N83ZEZ3EZ","mentions":["m2://rec/napkin/tex/homology/long-exact.tex#problem-2#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"7N8ATP8S63","mentions":["wikipedia://en/485405#GOP0"],"kind":"unknown","name":"Alchemy","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"7N8FVZY0AQ","mentions":["wikipedia://en/5289693"],"kind":"definition","name":"Lagrangian and Eulerian specification of the flow field","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"7N8RKCRQB4","mentions":["m2://rec/wikidata/Q6042601#1","wikipedia://en/4500787"],"kind":"definition","name":"integer matrix","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"7N8RKCRQB4","mentions":["m2://rec/wikidata/Q6042601#1","wikipedia://en/4500787"],"kind":"concept","name":"integer matrix","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"7N8Y0WHF1Z","mentions":["wikipedia://en/67446631"],"kind":"definition","name":"Dot planimeter","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,4 +1,4 @@
-{"id":"EB40YFQ6YK","mentions":["m2://rec/wikidata/Q1051074#1"],"kind":"unknown","name":"type 0 string theory","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"EB40YFQ6YK","mentions":["m2://rec/wikidata/Q1051074#1"],"kind":"topic","name":"type 0 string theory","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"EB47NRD8KY","mentions":["wikipedia://en/205069#C6MI"],"kind":"topic","name":"Carlo Emilio Bonferroni","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"EB4C3XJJXG","mentions":["wikipedia://en/61475737#XS3B"],"kind":"definition","name":"Geodesic equation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"EB4KYXEEJN","mentions":["m2://rec/austin_ula/src/exercises/exercises3-4.xml#exercise-8#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

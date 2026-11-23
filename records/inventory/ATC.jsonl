@@ -1,2 +1,2 @@
 {"id":"ATC1PXDKBC","mentions":["wikipedia://en/6328738"],"kind":"topic","name":"Ibn Mu'adh al-Jayyani","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"ATCGEERC6Q","mentions":["m2://rec/wikidata/Q16949216#1","wikipedia://en/42500406"],"kind":"definition","name":"Clifford module bundle","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"ATCGEERC6Q","mentions":["m2://rec/wikidata/Q16949216#1","wikipedia://en/42500406"],"kind":"concept","name":"Clifford module bundle","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

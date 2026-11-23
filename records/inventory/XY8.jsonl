@@ -1,2 +1,2 @@
 {"id":"XY8MK2Z9JD","mentions":["wikipedia://en/29320146#YCEB"],"kind":"unknown","name":"Cosmic event horizon","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"XY8YDVFHT0","mentions":["m2://rec/wikidata/Q8152995#1"],"kind":"unknown","name":"Klein graph on 24 vertices","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"XY8YDVFHT0","mentions":["m2://rec/wikidata/Q8152995#1"],"kind":"concept","name":"Klein graph on 24 vertices","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

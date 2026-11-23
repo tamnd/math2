@@ -1,4 +1,4 @@
-{"id":"5VE0W9400N","mentions":["m2://rec/wikidata/Q7576702#1","wikipedia://en/22821969"],"kind":"definition","name":"spherical code","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"5VE0W9400N","mentions":["m2://rec/wikidata/Q7576702#1","wikipedia://en/22821969"],"kind":"concept","name":"spherical code","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"5VE7NJVCQ9","mentions":["wikipedia://en/634754#1HNB"],"kind":"problem","name":"Boundary condition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"5VEE6WJZJ0","mentions":["wikipedia://en/140829#7J6Z"],"kind":"topic","name":"Bernoulli, Jacob","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"5VEG25HQ7Y","mentions":["wikipedia://en/45083486"],"kind":"topic","name":"William Crawley-Boevey","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

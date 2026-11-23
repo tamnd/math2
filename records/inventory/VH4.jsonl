@@ -1,4 +1,4 @@
 {"id":"VH45GZF84X","mentions":["wikipedia://en/45486934#9N6M"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"VH47GNDN04","mentions":["wikipedia://en/7249317"],"kind":"definition","name":"Roemer model of political competition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"VH4FH7B3QF","mentions":["wikipedia://en/39479277#QRJU"],"kind":"statement","name":"Stokes–Cartan theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"VH4RHFT0FK","mentions":["m2://rec/wikidata/Q3115459#1"],"kind":"unknown","name":"cricket graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"VH4RHFT0FK","mentions":["m2://rec/wikidata/Q3115459#1"],"kind":"concept","name":"cricket graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

@@ -1,8 +1,8 @@
-# The import manifest of wikidata. m2 ingest writes this file. Run m2 ingest wikidata -snapshot blake3:1cd3736f1d17b31845a83622a8dbb299c1fd61e251be94083e9c45841c9a3c7b to make the same records again.
+# The import manifest of wikidata. m2 ingest writes this file. Run m2 ingest wikidata -snapshot blake3:256a111e32357c5f47a574f82c60dfaa4f230253920ac46be413fbdd6034afb6 to make the same records again.
 source: wikidata
 adapter: wikidata/2
-snapshot: blake3:1cd3736f1d17b31845a83622a8dbb299c1fd61e251be94083e9c45841c9a3c7b
-records: 12302
-hash: blake3:ee58a80a44600e36539644057add0e5a57c1f301bdb847c34e33f8fabd8e74f3
+snapshot: blake3:256a111e32357c5f47a574f82c60dfaa4f230253920ac46be413fbdd6034afb6
+records: 12339
+hash: blake3:3b75704a3d742ea86b50c436b4a61236a2801e1ff3c79ab6c2cf6dd62da53ed7
 classes:
-  open: 12302
+  open: 12339

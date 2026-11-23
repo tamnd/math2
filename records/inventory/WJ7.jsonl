@@ -2,4 +2,4 @@
 {"id":"WJ7EP42K49","mentions":["m2://rec/wikidata/Q2816778#1"],"kind":"unknown","name":"Grinberg graph 42","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"WJ7MHHB330","mentions":["wikipedia://en/47565351#5D9E"],"kind":"unknown","name":"Dieciocho de Mayo","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"WJ7PMPMW29","mentions":["wikipedia://en/2390225#2Y7G"],"kind":"definition","name":"parallel morphism","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"WJ7RMAW54P","mentions":["m2://rec/wikidata/Q5428747#1","wikipedia://en/7149012"],"kind":"definition","name":"factorization system","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"WJ7RMAW54P","mentions":["m2://rec/wikidata/Q5428747#1","wikipedia://en/7149012"],"kind":"concept","name":"factorization system","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

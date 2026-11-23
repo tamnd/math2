@@ -1,4 +1,4 @@
-{"id":"KW700HCZPT","mentions":["m2://rec/wikidata/Q35889#1","wikipedia://en/576108"],"kind":"definition","name":"parametric equation","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"KW700HCZPT","mentions":["m2://rec/wikidata/Q35889#1","wikipedia://en/576108"],"kind":"concept","name":"parametric equation","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"KW70GHGRZ5","mentions":["wikipedia://en/17483851"],"kind":"topic","name":"Paolo Dagomari di Prato","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"KW74XHPTGQ","mentions":["wikipedia://en/210429"],"kind":"topic","name":"Brook Taylor","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"KW7A8MM6YN","mentions":["wikipedia://en/6885778#0VIH"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

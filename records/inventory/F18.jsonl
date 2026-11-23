@@ -2,4 +2,4 @@
 {"id":"F18BBGSRWW","mentions":["wikipedia://en/64453197"],"kind":"topic","name":"Jürg Peter Buser","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"F18GA04CGR","mentions":["wikipedia://en/10796294"],"kind":"topic","name":"Charles Pisot","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"F18P5HJ0NG","mentions":["wikipedia://en/523699#1SVQ"],"kind":"statement","name":"Symmetry","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"F18Z3N9FMD","mentions":["m2://rec/wikidata/Q1064500#1","wikipedia://en/28356"],"kind":"definition","name":"symplectic manifold","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"F18Z3N9FMD","mentions":["m2://rec/wikidata/Q1064500#1","wikipedia://en/28356"],"kind":"concept","name":"symplectic manifold","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

@@ -1,4 +1,4 @@
-{"id":"QD04S3DGKS","mentions":["m2://rec/wikidata/Q663029#1"],"kind":"unknown","name":"decagonal number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"QD04S3DGKS","mentions":["m2://rec/wikidata/Q663029#1"],"kind":"concept","name":"decagonal number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"QD0GEAVKG3","mentions":["wikipedia://en/53092548"],"kind":"topic","name":"Robert Everist Greene","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"QD0Q731KSM","mentions":["wikipedia://en/25334192#Q77E"],"kind":"definition","name":"Frobenius reciprocity","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"QD0RDVTR7W","mentions":["wikipedia://en/7960957#EYCQ"],"kind":"example","name":"Application","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

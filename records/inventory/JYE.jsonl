@@ -1,2 +1,2 @@
 {"id":"JYEDJ1H423","mentions":["m2://rec/lebl_diffyqs/ch-first-order-ode.tex#exercise-85#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"JYEJEV819N","mentions":["m2://rec/wikidata/Q1464936#1","wikipedia://en/882902"],"kind":"definition","name":"Poisson manifold","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"JYEJEV819N","mentions":["m2://rec/wikidata/Q1464936#1","wikipedia://en/882902"],"kind":"concept","name":"Poisson manifold","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

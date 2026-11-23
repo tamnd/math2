@@ -1,7 +1,7 @@
 {"id":"2BCAGAS7TN","mentions":["wikipedia://en/6122#FRXT"],"kind":"unknown","name":"E-d definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"2BCC0V4QZM","mentions":["wikipedia://en/42191418"],"kind":"definition","name":"Imaging cycler microscopy","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"2BCDMX1YKZ","mentions":["wikipedia://en/21418268"],"kind":"topic","name":"Caspar Wessel","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"2BCE5FFSKM","mentions":["m2://rec/wikidata/Q3115535#1"],"kind":"unknown","name":"Suzuki graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"2BCE5FFSKM","mentions":["m2://rec/wikidata/Q3115535#1"],"kind":"concept","name":"Suzuki graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"2BCKJS5CHF","mentions":["wikipedia://en/1763356#6YZA"],"kind":"statement","name":"Eigenvalues of the Laplace–Beltrami operator (Lichnerowicz–Obata theorem)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"2BCM7AZFE3","mentions":["wikipedia://en/47738065#8RDH"],"kind":"topic","name":"Yu. V. Matijasevic","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"2BCY2GNA82","mentions":["wikipedia://en/4153112#YR1Z"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

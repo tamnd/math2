@@ -1,5 +1,5 @@
 {"id":"WX15ZB1VV5","mentions":["wikipedia://en/1403586#2UFN"],"kind":"unknown","name":"Josh Samuels","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"WX177TFZD2","mentions":["m2://rec/wikidata/Q18192466#1"],"kind":"unknown","name":"semisimple ring","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"WX177TFZD2","mentions":["m2://rec/wikidata/Q18192466#1"],"kind":"concept","name":"semisimple ring","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"WX1D879Y5A","mentions":["m2://rec/levin_dmoi/ptx/sec_logic-proofs.ptx#example-1#1"],"kind":"example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"WX1MDCD24A","mentions":["wikipedia://en/6959754#FPXJ"],"kind":"definition","name":"Definitions","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"WX1MJNEPH5","mentions":["wikipedia://en/887545"],"kind":"definition","name":"Coupling","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

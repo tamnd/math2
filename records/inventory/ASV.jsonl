@@ -1,2 +1,2 @@
 {"id":"ASVAFJS11C","mentions":["wikipedia://en/191457#GKK3"],"kind":"definition","name":"Park test","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"ASVYJAGP6C","mentions":["m2://rec/wikidata/Q65924808#1"],"kind":"unknown","name":"Colbert number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"ASVYJAGP6C","mentions":["m2://rec/wikidata/Q65924808#1"],"kind":"concept","name":"Colbert number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

@@ -1,2 +1,2 @@
-{"id":"RYV5QJDP5T","mentions":["m2://rec/wikidata/Q138568949#1"],"kind":"unknown","name":"asymptotic sequence","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"RYV5QJDP5T","mentions":["m2://rec/wikidata/Q138568949#1"],"kind":"concept","name":"asymptotic sequence","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"RYVQYHCJ8V","mentions":["wikipedia://en/2142850#WI6K"],"kind":"definition","name":"Simpson's paradox","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

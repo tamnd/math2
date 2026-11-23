@@ -3,4 +3,4 @@
 {"id":"H7ED6ATKBS","mentions":["wikipedia://en/43270#SSS6"],"kind":"unknown","name":"Trace of a linear operator","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"H7EEVPR351","mentions":["wikipedia://en/241820#4VDI"],"kind":"definition","name":"Pentagrammic-order 600-cell honeycomb","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"H7ETVMC3KK","mentions":["wikipedia://en/16838918"],"kind":"definition","name":"Collapsing manifold","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"H7EXQ402K1","mentions":["m2://rec/wikidata/Q5265687#1"],"kind":"unknown","name":"determinant identity","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"H7EXQ402K1","mentions":["m2://rec/wikidata/Q5265687#1"],"kind":"statement","name":"determinant identity","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

@@ -1,4 +1,4 @@
 {"id":"HWK0FDGZ9X","mentions":["wikipedia://en/81302083#DKMK"],"kind":"statement","name":"The principle of inertia and the various impetuses observed on different inclined planes","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"HWK74E4ZNB","mentions":["m2://rec/wikidata/Q20383004#1"],"kind":"unknown","name":"pentagonal triangular number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"HWK74E4ZNB","mentions":["m2://rec/wikidata/Q20383004#1"],"kind":"concept","name":"pentagonal triangular number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"HWKCG0QY1Y","mentions":["wikipedia://en/64965378#RODQ"],"kind":"statement","name":"The Gauss–Bonnet theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"HWKXXTRGDD","mentions":["m2://rec/napkin/tex/set-theory/forcing.tex#example-9#1"],"kind":"example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

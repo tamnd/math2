@@ -2,5 +2,5 @@
 {"id":"GJAGQG4BWY","mentions":["wikipedia://en/191457#HIKQ"],"kind":"topic","name":"Demographics","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"GJAM8VF91H","mentions":["wikipedia://en/580145#9N94"],"kind":"unknown","name":"Large-scale structure of the cosmos","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"GJARGK780Q","mentions":["wikipedia://en/33162494"],"kind":"topic","name":"Susanne Bobzien","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"GJAT45FJSF","mentions":["m2://rec/wikidata/Q111652279#1"],"kind":"unknown","name":"contact manifold","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"GJAT45FJSF","mentions":["m2://rec/wikidata/Q111652279#1"],"kind":"concept","name":"contact manifold","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"GJAW8JN5XG","mentions":["wikipedia://en/6753623"],"kind":"definition","name":"Exchangeable random variables","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

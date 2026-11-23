@@ -1,4 +1,4 @@
 {"id":"9N8EHSDPSW","mentions":["m2://rec/wikidata/Q18454706#1"],"kind":"object","name":"heptadecagonal number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"9N8SMRT5JG","mentions":["m2://rec/wikidata/Q2026614#1","wikipedia://en/496315"],"kind":"definition","name":"operator topology","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"9N8SMRT5JG","mentions":["m2://rec/wikidata/Q2026614#1","wikipedia://en/496315"],"kind":"concept","name":"operator topology","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"9N8TZQD1E2","mentions":["wikipedia://en/32170448"],"kind":"topic","name":"Andreas Musalus","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"9N8XDVR62W","mentions":["m2://rec/hott_book/logic.tex#proof-20#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

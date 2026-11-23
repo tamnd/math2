@@ -1,5 +1,5 @@
 {"id":"MZA4GQ8RPK","mentions":["wikipedia://en/76206748"],"kind":"topic","name":"Sylvanus A. Tyler","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"MZAGCMKRXE","mentions":["m2://rec/napkin/tex/linalg/vector-space.tex#example-6#1"],"kind":"example","name":"Euclidean plane","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"MZAMKB9B4S","mentions":["m2://rec/wikidata/Q17006917#1","wikipedia://en/336568"],"kind":"definition","name":"Classical orthogonal polynomials","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"MZAMKB9B4S","mentions":["m2://rec/wikidata/Q17006917#1","wikipedia://en/336568"],"kind":"concept","name":"Classical orthogonal polynomials","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"MZAPNDS003","mentions":["wikipedia://en/22180498#S4MD"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"MZAV2R3Q48","mentions":["wikipedia://en/799760"],"kind":"definition","name":"Mahalanobis distance","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

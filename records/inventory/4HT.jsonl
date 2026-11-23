@@ -1,4 +1,4 @@
-{"id":"4HT67RZVDJ","mentions":["m2://rec/wikidata/Q1047481#1","wikipedia://en/5092636"],"kind":"definition","name":"ramp function","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}],"proofs":["wikipedia://en/5092636#MF44"]}
+{"id":"4HT67RZVDJ","mentions":["m2://rec/wikidata/Q1047481#1","wikipedia://en/5092636"],"kind":"concept","name":"ramp function","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}],"proofs":["wikipedia://en/5092636#MF44"]}
 {"id":"4HT6P6955R","mentions":["wikipedia://en/12191272#YZUV"],"kind":"statement","name":"Quantitative formula","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"4HTEA44T18","mentions":["wikipedia://en/11042797#26XX"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"4HTKXNSFK6","mentions":["m2://rec/hott_book/index/A.12.3/type-theory-extensional#1"],"kind":"concept","name":"type theory, extensional","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

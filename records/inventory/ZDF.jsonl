@@ -1,5 +1,5 @@
 {"id":"ZDF10ZR13Y","mentions":["wikipedia://en/39478776#NYDM"],"kind":"definition","name":"Serre twist sheaf","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"ZDF7J61TDE","mentions":["m2://rec/wikidata/Q91031942#1"],"kind":"unknown","name":"univariate polynomial","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"ZDF7J61TDE","mentions":["m2://rec/wikidata/Q91031942#1"],"kind":"concept","name":"univariate polynomial","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"ZDF8ES88RG","mentions":["wikipedia://en/11353703#FCP1"],"kind":"topic","name":"Yakov Sinai","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"ZDFCZPJ3N2","mentions":["wikipedia://en/7999138#U94P"],"kind":"statement","name":"Generalizations","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"ZDFXPXASY5","mentions":["wikipedia://en/28678689"],"kind":"definition","name":"Stericated 6-simplexes","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,4 +1,4 @@
-{"id":"JKB4ZMQA3W","mentions":["m2://rec/wikidata/Q896057#1","wikipedia://en/61361"],"kind":"definition","name":"Boy's surface","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"JKB4ZMQA3W","mentions":["m2://rec/wikidata/Q896057#1","wikipedia://en/61361"],"kind":"concept","name":"Boy's surface","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"JKBMADHPX9","mentions":["m2://rec/active_calculus/source/sec-3-1-rel-rates.xml#example-1#1"],"kind":"example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"JKBP4QQ1WM","mentions":["wikipedia://en/12191272#EAI0"],"kind":"statement","name":"Proposition 44","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"JKBX5WVDH8","mentions":["wikipedia://en/22950755#OLCH"],"kind":"topic","name":"Johan Frederik Steffensen","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

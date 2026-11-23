@@ -2,5 +2,5 @@
 {"id":"7XBEH7CTHJ","mentions":["wikipedia://en/18568#6BLR"],"kind":"unknown","name":"Recursive descent parser","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"7XBERYS8YA","mentions":["wikipedia://en/51140705#Y4VS"],"kind":"topic","name":"Pamela Morse","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"7XBFK2QQ2X","mentions":["wikipedia://en/12830119#O4RN"],"kind":"definition","name":"Solution of triangles","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"7XBKSYBY07","mentions":["m2://rec/wikidata/Q1528291#1","wikipedia://en/1107642"],"kind":"definition","name":"Jones polynomial","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"7XBKSYBY07","mentions":["m2://rec/wikidata/Q1528291#1","wikipedia://en/1107642"],"kind":"concept","name":"Jones polynomial","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"7XBQR5ETPF","mentions":["wikipedia://en/871681#4WU7"],"kind":"statement","name":"Extensions","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

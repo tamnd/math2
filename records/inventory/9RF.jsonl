@@ -1,6 +1,6 @@
 {"id":"9RF4H3XNQF","mentions":["m2://rec/wikidata/Q3039890#1"],"kind":"unknown","name":"parallel line","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"9RF6WSWV36","mentions":["wikipedia://en/5260710"],"kind":"definition","name":"Beta plane","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"9RFB2SEKD7","mentions":["m2://rec/wikidata/Q127651141#1"],"kind":"unknown","name":"max leaf number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"9RFB2SEKD7","mentions":["m2://rec/wikidata/Q127651141#1"],"kind":"concept","name":"max leaf number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"9RFP3X86AN","mentions":["m2://rec/napkin/tex/topology/metric-top.tex#problem-3#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"9RFS5PE7MK","mentions":["wikipedia://en/25494843"],"kind":"definition","name":"PPA","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"9RFSY7B24V","mentions":["wikipedia://en/191457#FEK9"],"kind":"definition","name":"Dickey–Fuller test","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

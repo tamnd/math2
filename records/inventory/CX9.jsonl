@@ -1,7 +1,7 @@
 {"id":"CX91M0SDYJ","mentions":["wikipedia://en/886330#BERG"],"kind":"unknown","name":"Obvious strategyproofness","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"CX92EVH7CY","mentions":["wikipedia://en/2016033#XBMR"],"kind":"definition","name":"Tangle diagram","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"CX9481AQGR","mentions":["m2://rec/lebl_scv/scv.tex#exercise-301#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"CX95SH64NN","mentions":["m2://rec/wikidata/Q4129097#1","wikipedia://en/1817885"],"kind":"definition","name":"convex polytope","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"CX95SH64NN","mentions":["m2://rec/wikidata/Q4129097#1","wikipedia://en/1817885"],"kind":"concept","name":"convex polytope","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"CX9A035M54","mentions":["wikipedia://en/2986564#ACUX"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"CX9CR180ZC","mentions":["wikipedia://en/47565351#OACK"],"kind":"unknown","name":"One Mile, New South Wales","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"CX9G98H5F9","mentions":["wikipedia://en/161339#LXZW"],"kind":"topic","name":"Kenji Fukaya","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

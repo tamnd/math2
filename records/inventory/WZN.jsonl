@@ -1,2 +1,2 @@
 {"id":"WZNHVW7BX5","mentions":["wikipedia://en/22609470#2UON"],"kind":"definition","name":"Standard deviation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"WZNKEFCDPD","mentions":["m2://rec/wikidata/Q4919350#1","wikipedia://en/9521209"],"kind":"definition","name":"shortest path tree","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"WZNKEFCDPD","mentions":["m2://rec/wikidata/Q4919350#1","wikipedia://en/9521209"],"kind":"concept","name":"shortest path tree","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

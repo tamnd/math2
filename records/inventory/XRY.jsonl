@@ -1,5 +1,5 @@
 {"id":"XRY3A3VKFE","mentions":["wikipedia://en/510791#UA0Y"],"kind":"definition","name":"Selection bias","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"XRY4C9EZ56","mentions":["m2://rec/wikidata/Q526668#1","wikipedia://en/87210"],"kind":"definition","name":"sigmoid function","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"XRY4C9EZ56","mentions":["m2://rec/wikidata/Q526668#1","wikipedia://en/87210"],"kind":"concept","name":"sigmoid function","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"XRYDXADEHK","mentions":["wikipedia://en/461477#SQIO"],"kind":"unknown","name":"Numerical methods for incompressible flow","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"XRYXF3S0Y2","mentions":["m2://rec/open_logic/content/proof-theory/cut-elimination/interpolation.tex#proof-3#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"XRYXYXSVBN","mentions":["wikipedia://en/580668#G4TK"],"kind":"statement","name":"Variants","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,5 +1,5 @@
 {"id":"TZ6AFD3MKA","mentions":["wikipedia://en/11353703#PWGW"],"kind":"unknown","name":"Irving Segal","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"TZ6HJT4WPZ","mentions":["m2://rec/wikidata/Q1723418#1","wikipedia://en/2502518"],"kind":"definition","name":"Kan extension","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"TZ6HJT4WPZ","mentions":["m2://rec/wikidata/Q1723418#1","wikipedia://en/2502518"],"kind":"concept","name":"Kan extension","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"TZ6QAQM70E","mentions":["wikipedia://en/9731945"],"kind":"definition","name":"Probability matching","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"TZ6WF2E4F6","mentions":["wikipedia://en/1101069#5NH1"],"kind":"definition","name":"RL","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"TZ6ZDV1VEK","mentions":["wikipedia://en/34853912"],"kind":"definition","name":"Tangential trapezoid","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,2 +1,2 @@
-{"id":"FQP31RJQ6S","mentions":["m2://rec/wikidata/Q2397465#1","wikipedia://en/2913502"],"kind":"definition","name":"tautological bundle","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"FQP31RJQ6S","mentions":["m2://rec/wikidata/Q2397465#1","wikipedia://en/2913502"],"kind":"concept","name":"tautological bundle","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"FQPYKXCPQZ","mentions":["m2://rec/austin_ula/src/section6-2.xml#example-3#1"],"kind":"example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

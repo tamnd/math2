@@ -1,5 +1,5 @@
 {"id":"KDZ123DFMK","mentions":["m2://rec/wikidata/Q124217156#1"],"kind":"topic","name":"Weyl sums","msc":["11L15"],"layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"KDZBNDN7YV","mentions":["wikipedia://en/191457#KOXQ"],"kind":"definition","name":"Regret (decision theory)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"KDZEPY63Z6","mentions":["wikipedia://en/66323235#EHNP"],"kind":"unknown","name":"Entropy of network ensembles","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"KDZMS3DHHN","mentions":["m2://rec/wikidata/Q124455560#1"],"kind":"unknown","name":"Charlier series","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"KDZMS3DHHN","mentions":["m2://rec/wikidata/Q124455560#1"],"kind":"concept","name":"Charlier series","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"KDZPSD02FQ","mentions":["m2://rec/wikidata/Q29167#1","wikipedia://en/1765852"],"kind":"definition","name":"matrix calculus","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

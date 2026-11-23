@@ -1,4 +1,4 @@
-{"id":"PNW372RZMS","mentions":["m2://rec/wikidata/Q130486997#1"],"kind":"unknown","name":"upper irredundance number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"PNW372RZMS","mentions":["m2://rec/wikidata/Q130486997#1"],"kind":"concept","name":"upper irredundance number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"PNW82BDJD8","mentions":["wikipedia://en/27397220"],"kind":"topic","name":"Sakabe Kōhan","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"PNWMT58RN4","mentions":["wikipedia://en/191457#FCIU","wikipedia://en/408108#KPE9"],"kind":"definition","name":"Moment-generating function","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"PNWVMX8CG7","mentions":["wikipedia://en/34494899"],"kind":"definition","name":"Piecewise-deterministic Markov process","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,4 +1,4 @@
-{"id":"S7913XV35C","mentions":["m2://rec/wikidata/Q876346#1","wikipedia://en/70671"],"kind":"definition","name":"stress–energy tensor","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"S7913XV35C","mentions":["m2://rec/wikidata/Q876346#1","wikipedia://en/70671"],"kind":"concept","name":"stress–energy tensor","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"S79BT8G6PR","mentions":["wikipedia://en/9718355"],"kind":"statement","name":"Eilenberg's inequality","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"S79F2XMYFZ","mentions":["wikipedia://en/191457#OU78"],"kind":"definition","name":"Mann–Whitney U","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"S79NYP9QBD","mentions":["wikipedia://en/7177687"],"kind":"definition","name":"Gross–Pitaevskii equation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

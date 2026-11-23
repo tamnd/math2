@@ -4,4 +4,4 @@
 {"id":"9TFDCBGCMG","mentions":["wikipedia://en/25334192#IQRA"],"kind":"definition","name":"annihilator","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"9TFN16K1R0","mentions":["m2://rec/open_logic/content/intuitionistic-logic/tableaux/proofs.tex#prob-1#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"9TFN7ZBAN9","mentions":["wikipedia://en/1866743#YBG2"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"9TFNH5ATYE","mentions":["m2://rec/wikidata/Q3889649#1","wikipedia://en/18748850"],"kind":"definition","name":"complex-analytic variety","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"9TFNH5ATYE","mentions":["m2://rec/wikidata/Q3889649#1","wikipedia://en/18748850"],"kind":"concept","name":"complex-analytic variety","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

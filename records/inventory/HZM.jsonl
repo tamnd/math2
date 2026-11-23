@@ -2,7 +2,7 @@
 {"id":"HZM1YRAXJ9","mentions":["wikipedia://en/1346871#D57U"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"HZM3C3ATDF","mentions":["m2://rec/mathlib_1000/Q4878586#1","m2://rec/thousand_plus/Q4878586#1","m2://rec/wikidata/Q4878586#1","wikipedia://en/2082726"],"kind":"statement","name":"Beck's monadicity theorem","msc":["18-XX"],"layer":"textbook","spread":4,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"HZM6STQ71A","mentions":["wikipedia://en/11353703#GA04"],"kind":"topic","name":"George Dantzig","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"HZM8EJA4SM","mentions":["m2://rec/wikidata/Q7661853#1","wikipedia://en/1818385"],"kind":"definition","name":"symplectic vector field","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"HZM8EJA4SM","mentions":["m2://rec/wikidata/Q7661853#1","wikipedia://en/1818385"],"kind":"concept","name":"symplectic vector field","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"HZMAP29YXH","mentions":["wikipedia://en/161339#DHF0"],"kind":"topic","name":"Vladimir Arnold","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"HZMQ9KPG5J","mentions":["wikipedia://en/28451358"],"kind":"topic","name":"Michael Herman","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"HZMWE45RCZ","mentions":["m2://rec/lebl_ra/ch-der.tex#exercise:posderincr#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

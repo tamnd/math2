@@ -1,5 +1,5 @@
 {"id":"4C25HT4J44","mentions":["wikipedia://en/30208842"],"kind":"definition","name":"Precomputation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"4C2ACT9WY1","mentions":["m2://rec/wikidata/Q528053#1"],"kind":"unknown","name":"digital identity","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"4C2ACT9WY1","mentions":["m2://rec/wikidata/Q528053#1"],"kind":"statement","name":"digital identity","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"4C2B5DRXB2","mentions":["wikipedia://en/1252550"],"kind":"definition","name":"Leroy P. Steele Prize","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"4C2CN7TJD9","mentions":["wikipedia://en/184011#SKYH"],"kind":"unknown","name":"Bulk strain","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"4C2FY0K3EP","mentions":["wikipedia://en/533237#YC9M"],"kind":"statement","name":"Access deficit hypothesis","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

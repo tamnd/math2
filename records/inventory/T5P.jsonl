@@ -1,2 +1,2 @@
-{"id":"T5P3T7AVK4","mentions":["m2://rec/wikidata/Q10906333#1","wikipedia://en/1028841"],"kind":"definition","name":"simplex category","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"T5P3T7AVK4","mentions":["m2://rec/wikidata/Q10906333#1","wikipedia://en/1028841"],"kind":"concept","name":"simplex category","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"T5PB1EKHNV","mentions":["wikipedia://en/31667930"],"kind":"definition","name":"Expander code","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}],"proofs":["wikipedia://en/31667930#KSNO"]}

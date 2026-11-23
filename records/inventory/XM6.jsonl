@@ -1,4 +1,4 @@
-{"id":"XM60VJ7129","mentions":["m2://rec/wikidata/Q529985#1","wikipedia://en/171879"],"kind":"definition","name":"brachistochrone curve","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"XM60VJ7129","mentions":["m2://rec/wikidata/Q529985#1","wikipedia://en/171879"],"kind":"concept","name":"brachistochrone curve","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"XM639DAG2V","mentions":["wikipedia://en/18985062#N6AC"],"kind":"unknown","name":"Information (physics)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"XM6EGVNXS0","mentions":["m2://rec/wikidata/Q3895298#1"],"kind":"concept","name":"ridge","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"XM6HCRC5QR","mentions":["wikipedia://en/77486580#7D02"],"kind":"unknown","name":"IMC Orientacion","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

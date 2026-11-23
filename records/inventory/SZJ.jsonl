@@ -4,4 +4,4 @@
 {"id":"SZJCP3APPP","mentions":["m2://rec/hott_book/hlevels.tex#defn-3#1"],"kind":"definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"SZJD3BXCQN","mentions":["wikipedia://en/80191684"],"kind":"topic","name":"Cynthia Huffman","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"SZJH8CBWH7","mentions":["m2://rec/wikidata/Q537974#1","wikipedia://en/977176"],"kind":"topic","name":"Isaac Jacob Schoenberg","layer":"textbook","spread":2,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"SZJH8J842Y","mentions":["m2://rec/wikidata/Q1166643#1","wikipedia://en/50655355"],"kind":"definition","name":"algebra extension","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"SZJH8J842Y","mentions":["m2://rec/wikidata/Q1166643#1","wikipedia://en/50655355"],"kind":"concept","name":"algebra extension","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

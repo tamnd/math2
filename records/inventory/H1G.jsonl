@@ -1,6 +1,6 @@
 {"id":"H1GBXRCAA7","mentions":["m2://rec/lebl_ra/ch-contfunc.tex#exercise-30#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"H1GHCQXVNT","mentions":["m2://rec/wikidata/Q3983973#1","wikipedia://en/522786"],"kind":"definition","name":"homotopy lifting property","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"H1GHCQXVNT","mentions":["m2://rec/wikidata/Q3983973#1","wikipedia://en/522786"],"kind":"concept","name":"homotopy lifting property","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"H1GKSDB8CJ","mentions":["m2://rec/open_logic/content/incompleteness/representability-in-q/sigma1-completeness.tex#defn:bd-quant#1"],"kind":"definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"H1GQVKVPZE","mentions":["wikipedia://en/3393371"],"kind":"definition","name":"Hindu–Arabic numeral system","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"H1GRMSMMJZ","mentions":["m2://rec/wikidata/Q3115505#1"],"kind":"unknown","name":"Kittell graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"H1GRMSMMJZ","mentions":["m2://rec/wikidata/Q3115505#1"],"kind":"concept","name":"Kittell graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"H1GY7V6222","mentions":["wikipedia://en/758911#4GRV"],"kind":"statement","name":"Nash–Moser theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

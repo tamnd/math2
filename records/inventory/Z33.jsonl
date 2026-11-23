@@ -1,5 +1,5 @@
 {"id":"Z330ZMX1WG","mentions":["wikipedia://en/891574"],"kind":"definition","name":"Zygalski sheets","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"Z3356V92PB","mentions":["m2://rec/wikidata/Q3258320#1","wikipedia://en/2196799"],"kind":"definition","name":"Gauss–Kuzmin distribution","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"Z3356V92PB","mentions":["m2://rec/wikidata/Q3258320#1","wikipedia://en/2196799"],"kind":"concept","name":"Gauss–Kuzmin distribution","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"Z33D747C3S","mentions":["wikipedia://en/12010034"],"kind":"definition","name":"Np-chart","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"Z33T06R88F","mentions":["wikipedia://en/936932#CRVQ"],"kind":"statement","name":"Soul conjecture","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"Z33TZNV29Z","mentions":["m2://rec/wikidata/Q898521#1","wikipedia://en/211602"],"kind":"definition","name":"hidden-variable theory","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

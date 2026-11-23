@@ -1,6 +1,6 @@
 {"id":"GRE09BRRJ0","mentions":["wikipedia://en/1103376#HDT8"],"kind":"definition","name":"Construction","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"GRE4B4GC9E","mentions":["m2://rec/wikidata/Q3115601#1"],"kind":"unknown","name":"small rhombicosidodecahedral graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"GRE9TDZEYP","mentions":["m2://rec/wikidata/Q117195469#1"],"kind":"unknown","name":"link invariant","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"GRE4B4GC9E","mentions":["m2://rec/wikidata/Q3115601#1"],"kind":"concept","name":"small rhombicosidodecahedral graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"GRE9TDZEYP","mentions":["m2://rec/wikidata/Q117195469#1"],"kind":"concept","name":"link invariant","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"GRE9WBB54V","mentions":["wikipedia://en/12830119#8TC9","wikipedia://en/241820#503K","wikipedia://en/241820#YWRD","wikipedia://en/517370#9HQU"],"kind":"definition","name":"Triangular bipyramid","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"GREHRB80EJ","mentions":["wikipedia://en/9582652#14M5"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"GREWZ9158G","mentions":["wikipedia://en/57242824#Q95P"],"kind":"topic","name":"Wolfgang Leinberer","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

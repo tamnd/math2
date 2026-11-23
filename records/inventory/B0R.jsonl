@@ -1,5 +1,5 @@
 {"id":"B0R8Q6ANYP","mentions":["wikipedia://en/6821879#RD4R"],"kind":"unknown","name":"SSE 4.2","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"B0R9V2RYH5","mentions":["m2://rec/wikidata/Q28456166#1","wikipedia://en/52208686"],"kind":"definition","name":"asymptotic dimension","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"B0R9V2RYH5","mentions":["m2://rec/wikidata/Q28456166#1","wikipedia://en/52208686"],"kind":"concept","name":"asymptotic dimension","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"B0RFSWS701","mentions":["m2://rec/lebl_ra/ch-riemann.tex#impropriemann:ptest#1"],"kind":"statement","name":"$p$-test for integrals","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"B0RJFB4V6F","mentions":["wikipedia://en/31449529"],"kind":"topic","name":"Alexis Bonnet","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"B0RPHED5P6","mentions":["wikipedia://en/52313647"],"kind":"definition","name":"Rhombic hectotriadiohedron","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

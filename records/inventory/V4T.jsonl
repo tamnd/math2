@@ -1,2 +1,2 @@
 {"id":"V4T7M65TDW","mentions":["wikipedia://en/1326660#9RTP"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"V4TWZ95AMF","mentions":["m2://rec/wikidata/Q4067113#1","wikipedia://en/8892726"],"kind":"definition","name":"negative pedal curve","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"V4TWZ95AMF","mentions":["m2://rec/wikidata/Q4067113#1","wikipedia://en/8892726"],"kind":"concept","name":"negative pedal curve","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

@@ -1,4 +1,4 @@
-{"id":"YXQ4BNPQTF","mentions":["m2://rec/wikidata/Q3075198#1"],"kind":"unknown","name":"McCarthy 91 function","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"YXQ4BNPQTF","mentions":["m2://rec/wikidata/Q3075198#1"],"kind":"concept","name":"McCarthy 91 function","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"YXQAVJY8W6","mentions":["m2://rec/napkin/tex/topology/top-more.tex#def:closure#1"],"kind":"definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"YXQFHEFFYD","mentions":["wikipedia://en/32742753#9V8Y"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"YXQHBK9S82","mentions":["wikipedia://en/5508726"],"kind":"definition","name":"Expansive homeomorphism","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

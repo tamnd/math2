@@ -1,2 +1,3 @@
 {"id":"72294H5FGG","mentions":["m2://rec/lebl_diffyqs/ch-higher-order-ode.tex#example-1#1"],"kind":"example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"722JTEZ4HH","mentions":["wikipedia://en/191457#LJI7","wikipedia://en/601070#ICLV"],"kind":"statement","name":"Samuelson's inequality","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"722VSFP0BC","mentions":["m2://rec/wikidata/Q142066328#1"],"kind":"unknown","name":"asymptotic notation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-23","by":"m2/dev"}]}

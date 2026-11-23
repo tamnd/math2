@@ -1,4 +1,4 @@
-{"id":"182043SBSP","mentions":["m2://rec/wikidata/Q621673#1"],"kind":"unknown","name":"search tree","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"182043SBSP","mentions":["m2://rec/wikidata/Q621673#1"],"kind":"concept","name":"search tree","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"1824YF1TWD","mentions":["wikipedia://en/63699886#KJDR"],"kind":"definition","name":"Definitions","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"18285QG503","mentions":["m2://rec/napkin/tex/topology/cover-project.tex#example-6#1"],"kind":"example","name":"Fundamental group of $S^1$","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"182FV8W8RJ","mentions":["wikipedia://en/40183538#RDG6"],"kind":"definition","name":"Structurable algebra","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

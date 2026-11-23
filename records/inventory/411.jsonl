@@ -6,4 +6,4 @@
 {"id":"411G0VT4TW","mentions":["wikipedia://en/48511100"],"kind":"definition","name":"Tape diagram","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"411MQ3VEZB","mentions":["wikipedia://en/36510069"],"kind":"definition","name":"Dunnett's test","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"411R1PKS6S","mentions":["wikipedia://en/60167"],"kind":"definition","name":"Average","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"411XGMMJRQ","mentions":["m2://rec/wikidata/Q228191#1","wikipedia://en/48256"],"kind":"definition","name":"random sequence","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"411XGMMJRQ","mentions":["m2://rec/wikidata/Q228191#1","wikipedia://en/48256"],"kind":"concept","name":"random sequence","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

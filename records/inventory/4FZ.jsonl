@@ -1,4 +1,4 @@
-{"id":"4FZ0ZEG2S7","mentions":["m2://rec/wikidata/Q78351921#1"],"kind":"unknown","name":"real vector bundle","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"4FZ0ZEG2S7","mentions":["m2://rec/wikidata/Q78351921#1"],"kind":"concept","name":"real vector bundle","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"4FZ87MP9RS","mentions":["wikipedia://en/880406#T0MB"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"4FZC8YB46A","mentions":["wikipedia://en/25132005#QWZP"],"kind":"unknown","name":"HSTS Preload List","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"4FZJ3350XA","mentions":["wikipedia://en/63857858#A1Z8"],"kind":"statement","name":"Spectral theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -3,4 +3,4 @@
 {"id":"GK3ER17Z6D","mentions":["wikipedia://en/41108807"],"kind":"topic","name":"Jonathan Rosenberg","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"GK3HQ7F8S6","mentions":["wikipedia://en/354285#NDP5"],"kind":"definition","name":"Converse implication","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"GK3V6A1G03","mentions":["m2://rec/wikidata/Q16939273#1","wikipedia://en/39350444"],"kind":"object","name":"First stellation of rhombic dodecahedron","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"GK3WRN1DMC","mentions":["m2://rec/wikidata/Q19603577#1"],"kind":"unknown","name":"tanhc function","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"GK3WRN1DMC","mentions":["m2://rec/wikidata/Q19603577#1"],"kind":"concept","name":"tanhc function","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

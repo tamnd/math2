@@ -1,4 +1,4 @@
 {"id":"HBR3DKHWZK","mentions":["m2://rec/hott_book/hits.tex#ex:funext-from-interval#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"HBREX5GDTG","mentions":["m2://rec/hott_book/index/A.2/function-codomain-of#1"],"kind":"concept","name":"function, codomain of","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"HBRWNTMQ7J","mentions":["m2://rec/wikidata/Q62542#1","wikipedia://en/191101"],"kind":"definition","name":"phase space","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"HBRWNTMQ7J","mentions":["m2://rec/wikidata/Q62542#1","wikipedia://en/191101"],"kind":"concept","name":"phase space","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"HBRXZWND49","mentions":["wikipedia://en/9809292#1JXG"],"kind":"statement","name":"Slice-ribbon conjecture","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

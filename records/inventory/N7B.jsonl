@@ -1,5 +1,5 @@
 {"id":"N7B45D71WN","mentions":["wikipedia://en/191457#RT7O"],"kind":"definition","name":"Statistics education","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"N7BGTWWTVD","mentions":["m2://rec/napkin/tex/riemann-surface/forms.tex#example-3#1"],"kind":"example","name":"A non-holomorphic form: $d \\ol z$","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"N7BNDN3RJH","mentions":["m2://rec/wikidata/Q3058206#1","wikipedia://en/1155734"],"kind":"definition","name":"graded vector space","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"N7BNDN3RJH","mentions":["m2://rec/wikidata/Q3058206#1","wikipedia://en/1155734"],"kind":"concept","name":"graded vector space","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"N7BPZVAHCB","mentions":["wikipedia://en/26411#SOSV"],"kind":"unknown","name":"Ring isomorphism","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"N7BZ8ZF7Z6","mentions":["m2://rec/austin_ula/src/exercises/exercises6-5.xml#exercise-6#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

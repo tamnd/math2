@@ -1,4 +1,4 @@
 {"id":"BHDFMN83F1","mentions":["wikipedia://en/244629"],"kind":"statement","name":"Scientific law","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"BHDKP3W8QC","mentions":["wikipedia://en/28429155"],"kind":"topic","name":"Alexander Shapiro","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"BHDS9SD2JT","mentions":["m2://rec/wikidata/Q85786018#1","wikipedia://en/41276205"],"kind":"definition","name":"module spectrum","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"BHDSW06TH4","mentions":["m2://rec/wikidata/Q137187267#1"],"kind":"unknown","name":"arrangement graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"BHDSW06TH4","mentions":["m2://rec/wikidata/Q137187267#1"],"kind":"concept","name":"arrangement graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

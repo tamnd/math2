@@ -1,6 +1,6 @@
 {"id":"1KF2E8921H","mentions":["wikipedia://en/632487#KUPT"],"kind":"definition","name":"Big O notation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"1KFA1F3PR5","mentions":["m2://rec/open_logic/content/first-order-logic/axiomatic-deduction/provability-propositional.tex#proof-3#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"1KFHCHM0H7","mentions":["wikipedia://en/31441193#X3NM"],"kind":"example","name":"Application","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"1KFM83FTSV","mentions":["m2://rec/wikidata/Q124681045#1"],"kind":"unknown","name":"coordinate ring","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"1KFM83FTSV","mentions":["m2://rec/wikidata/Q124681045#1"],"kind":"concept","name":"coordinate ring","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"1KFV6RRQ7R","mentions":["wikipedia://en/18449916"],"kind":"definition","name":"SC","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"1KFXN3K6JG","mentions":["wikipedia://en/9929142"],"kind":"definition","name":"1 + 1 + 1 + 1 + ⋯","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

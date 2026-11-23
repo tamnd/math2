@@ -4,4 +4,4 @@
 {"id":"RVHT65H1PN","mentions":["wikipedia://en/41390065"],"kind":"definition","name":"Loewy decomposition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"RVHTEQSVMD","mentions":["wikipedia://en/47565351#WLUQ"],"kind":"unknown","name":"Dois Lajeados","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"RVHV6XFRGP","mentions":["wikipedia://en/21317755#LF2E"],"kind":"statement","name":"UCSMP (University of Chicago School Mathematics Project) axioms","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"RVHVZ074J0","mentions":["m2://rec/wikidata/Q339199#1","wikipedia://en/876732"],"kind":"definition","name":"Poincaré map","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"RVHVZ074J0","mentions":["m2://rec/wikidata/Q339199#1","wikipedia://en/876732"],"kind":"concept","name":"Poincaré map","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

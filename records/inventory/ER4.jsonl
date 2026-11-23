@@ -1,5 +1,5 @@
 {"id":"ER40CSZ58Z","mentions":["m2://rec/wikidata/Q133673#1","wikipedia://en/19593829"],"kind":"definition","name":"spin","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"ER40MHWQKK","mentions":["m2://rec/wikidata/Q1188650#1","wikipedia://en/3918047"],"kind":"definition","name":"Gosper curve","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"ER40MHWQKK","mentions":["m2://rec/wikidata/Q1188650#1","wikipedia://en/3918047"],"kind":"concept","name":"Gosper curve","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"ER4G2N5S6C","mentions":["m2://rec/wikidata/Q354733#1","wikipedia://en/147854"],"kind":"definition","name":"straightedge","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"ER4GQN2GB6","mentions":["wikipedia://en/61766304"],"kind":"topic","name":"Claudia Klüppelberg","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"ER4J6F4BQN","mentions":["wikipedia://en/47738065#5V2F","wikipedia://en/47738065#K9FJ"],"kind":"topic","name":"Dorothy Wrinch","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

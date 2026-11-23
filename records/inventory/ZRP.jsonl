@@ -1,4 +1,4 @@
-{"id":"ZRP5PH5TVY","mentions":["m2://rec/wikidata/Q15819036#1"],"kind":"unknown","name":"semisimple Lie group","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"ZRP5PH5TVY","mentions":["m2://rec/wikidata/Q15819036#1"],"kind":"concept","name":"semisimple Lie group","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"ZRPFGC8M6G","mentions":["wikipedia://en/26858920"],"kind":"definition","name":"Inclusive composite interval mapping","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"ZRPGSWXQ27","mentions":["wikipedia://en/228783#5TQ9"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"ZRPJKS087M","mentions":["m2://rec/wikidata/Q1095704#1"],"kind":"definition","name":"history of special relativity","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

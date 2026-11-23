@@ -1,4 +1,4 @@
-{"id":"2YP2XFTXZM","mentions":["m2://rec/wikidata/Q19637149#1"],"kind":"unknown","name":"hyperbolic cosine integral","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"2YP2XFTXZM","mentions":["m2://rec/wikidata/Q19637149#1"],"kind":"concept","name":"hyperbolic cosine integral","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"2YP30816SB","mentions":["wikipedia://en/57242824#YDIK"],"kind":"topic","name":"Carl Gottlieb Ehler","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"2YP8JZ7VA8","mentions":["wikipedia://en/708399#ISCW"],"kind":"topic","name":"Bernhard Riemann","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"2YPBAK505B","mentions":["wikipedia://en/9795255"],"kind":"definition","name":"Forward measure","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,4 +1,4 @@
 {"id":"YFB7XMHDS5","mentions":["wikipedia://en/65309248#6EFN","wikipedia://en/65309248#96HR","wikipedia://en/65309248#Y3CQ"],"kind":"definition","name":"Polar topology","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"YFB8B2HN9M","mentions":["m2://rec/levin_dmoi/ptx/exercises/intro-functions.ptx#exercise-19#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"YFB8V94C3W","mentions":["m2://rec/wikidata/Q1371213#1","wikipedia://en/607690"],"kind":"definition","name":"affine connection","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"YFB8V94C3W","mentions":["m2://rec/wikidata/Q1371213#1","wikipedia://en/607690"],"kind":"concept","name":"affine connection","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"YFBWWP7AD1","mentions":["m2://rec/open_logic/content/sets-functions-relations/functions/functions-relations.tex#prop:graph-function#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

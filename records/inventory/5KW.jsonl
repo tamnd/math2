@@ -1,6 +1,6 @@
-{"id":"5KW7DPC3WZ","mentions":["m2://rec/wikidata/Q847535#1","wikipedia://en/9133418"],"kind":"definition","name":"uniformly convex space","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"5KW7DPC3WZ","mentions":["m2://rec/wikidata/Q847535#1","wikipedia://en/9133418"],"kind":"concept","name":"uniformly convex space","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"5KWCE2PZ5A","mentions":["wikipedia://en/23778831"],"kind":"topic","name":"Henryk Skolimowski","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"5KWN6G0956","mentions":["m2://rec/wikidata/Q2671311#1","wikipedia://en/1843605"],"kind":"definition","name":"Rice distribution","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"5KWNA1YNVQ","mentions":["m2://rec/wikidata/Q120755990#1"],"kind":"unknown","name":"winding number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"5KWN6G0956","mentions":["m2://rec/wikidata/Q2671311#1","wikipedia://en/1843605"],"kind":"concept","name":"Rice distribution","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"5KWNA1YNVQ","mentions":["m2://rec/wikidata/Q120755990#1"],"kind":"concept","name":"winding number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"5KWPCBWTQF","mentions":["m2://rec/levin_dmoi/index/5.4.2/monochromatic#1"],"kind":"concept","name":"monochromatic","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"5KWTZC3D0J","mentions":["wikipedia://en/191457#U4BP"],"kind":"problem","name":"Reference class problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

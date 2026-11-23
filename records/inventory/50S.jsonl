@@ -1,6 +1,6 @@
 {"id":"50S1HKSA47","mentions":["m2://rec/mathlib_1000/Q17082552#1","m2://rec/thousand_plus/Q17082552#1","wikipedia://en/29928965"],"kind":"statement","name":"Mutual fund separation theorem","msc":["91-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"50S1ZQMWYA","mentions":["wikipedia://en/9559#1PT7"],"kind":"unknown","name":"Electrical network simulation software","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"50S3ZJTE60","mentions":["m2://rec/wikidata/Q8216024#1","wikipedia://en/1448291"],"kind":"definition","name":"visibility graph","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"50S3ZJTE60","mentions":["m2://rec/wikidata/Q8216024#1","wikipedia://en/1448291"],"kind":"concept","name":"visibility graph","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"50S5M8XD9K","mentions":["wikipedia://en/47738065#JPPA"],"kind":"topic","name":"Zico Kolter","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"50SBZ1K8M0","mentions":["wikipedia://en/24006693"],"kind":"definition","name":"Inverse bundle","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"50SJ0V4JPF","mentions":["m2://rec/napkin/tex/homology/cohomology.tex#definition-2#1"],"kind":"definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

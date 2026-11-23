@@ -1,4 +1,4 @@
 {"id":"55641KMJ9Z","mentions":["m2://rec/napkin/tex/set-theory/cardinal.tex#definition-5#1"],"kind":"definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"5568XWMXE4","mentions":["wikipedia://en/8434205"],"kind":"definition","name":"Table of mathematical symbols by introduction date","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"556D9HAGVT","mentions":["m2://rec/wikidata/Q573980#1"],"kind":"unknown","name":"topological map","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"556D9HAGVT","mentions":["m2://rec/wikidata/Q573980#1"],"kind":"concept","name":"topological map","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"556VCGVZGB","mentions":["wikipedia://en/47565351#B0VD"],"kind":"unknown","name":"Fokino, Primorsky Krai","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,4 +1,4 @@
 {"id":"7D83G7VZ68","mentions":["wikipedia://en/92465#RQLQ"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"7D84KZ32Z4","mentions":["wikipedia://en/194131#EREW"],"kind":"statement","name":"Angle formulas","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"7D8J4SXWN0","mentions":["wikipedia://en/48781047#JRAX"],"kind":"definition","name":"chain homotopy equivalence","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"7D8QSZF9J0","mentions":["m2://rec/wikidata/Q996437#1","wikipedia://en/1039260"],"kind":"definition","name":"HOMFLY polynomial","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"7D8QSZF9J0","mentions":["m2://rec/wikidata/Q996437#1","wikipedia://en/1039260"],"kind":"concept","name":"HOMFLY polynomial","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

@@ -1,6 +1,6 @@
 {"id":"7ZQ90NZW27","mentions":["wikipedia://en/4251950"],"kind":"definition","name":"Disjunctive sequence","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"7ZQH03BEM3","mentions":["wikipedia://en/11127382#2NCS"],"kind":"unknown","name":"Pulley Problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"7ZQK3EJVMM","mentions":["m2://rec/wikidata/Q3822077#1","wikipedia://en/2737674"],"kind":"definition","name":"bullet-nose curve","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"7ZQK3EJVMM","mentions":["m2://rec/wikidata/Q3822077#1","wikipedia://en/2737674"],"kind":"concept","name":"bullet-nose curve","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"7ZQK5SX9K3","mentions":["m2://rec/napkin/tex/measure/pontryagin.tex#proof-1#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"7ZQRVTBN0G","mentions":["wikipedia://en/18632743"],"kind":"definition","name":"Polynomial conjoint measurement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"7ZQX5CQ2Y3","mentions":["wikipedia://en/11180#Q5TI"],"kind":"statement","name":"Spectral theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

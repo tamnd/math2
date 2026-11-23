@@ -1,3 +1,3 @@
 {"id":"NHP7QY3S20","mentions":["wikipedia://en/22309853"],"kind":"definition","name":"Error correction model","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"NHP80CXFYW","mentions":["m2://rec/wikidata/Q254481#1"],"kind":"unknown","name":"similarity transformation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"NHP80CXFYW","mentions":["m2://rec/wikidata/Q254481#1"],"kind":"concept","name":"similarity transformation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"NHPQV0KFS0","mentions":["wikipedia://en/4289501#DZW5"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

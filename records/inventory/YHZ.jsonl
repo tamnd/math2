@@ -2,4 +2,4 @@
 {"id":"YHZJYX2SVK","mentions":["wikipedia://en/12830119#Q135"],"kind":"definition","name":"Acute and obtuse triangles","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"YHZPF1956V","mentions":["wikipedia://en/52093665#VX6C"],"kind":"statement","name":"Extensions","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"YHZY3TNRGH","mentions":["wikipedia://en/71507666"],"kind":"definition","name":"Path space","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"YHZZD76X6Y","mentions":["m2://rec/wikidata/Q1801562#1","wikipedia://en/668449"],"kind":"definition","name":"material derivative","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"YHZZD76X6Y","mentions":["m2://rec/wikidata/Q1801562#1","wikipedia://en/668449"],"kind":"concept","name":"material derivative","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

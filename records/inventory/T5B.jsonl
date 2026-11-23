@@ -1,3 +1,3 @@
-{"id":"T5B1BHFKR6","mentions":["m2://rec/wikidata/Q5262626#1","wikipedia://en/985897"],"kind":"definition","name":"derived category","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"T5B1BHFKR6","mentions":["m2://rec/wikidata/Q5262626#1","wikipedia://en/985897"],"kind":"concept","name":"derived category","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"T5BGT6MTMS","mentions":["m2://rec/wikidata/Q120377815#1"],"kind":"concept","name":"Riemann theta function","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"T5BYF0X5DT","mentions":["wikipedia://en/191457#5AJE"],"kind":"definition","name":"Counting process","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

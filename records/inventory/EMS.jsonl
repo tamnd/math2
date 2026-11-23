@@ -1,4 +1,4 @@
-{"id":"EMS2SYP5ZS","mentions":["m2://rec/wikidata/Q120153213#1"],"kind":"unknown","name":"real analytic function","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"EMS2SYP5ZS","mentions":["m2://rec/wikidata/Q120153213#1"],"kind":"concept","name":"real analytic function","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"EMS3VMHZRW","mentions":["wikipedia://en/18568#6IBT"],"kind":"unknown","name":"Introselect","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"EMS4WTTRA5","mentions":["wikipedia://en/51140705#4ROY"],"kind":"unknown","name":"R. G. D. Allen","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"EMS5GF5GM5","mentions":["wikipedia://en/1302341"],"kind":"definition","name":"Luneburg lens","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

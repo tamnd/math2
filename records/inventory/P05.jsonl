@@ -1,7 +1,7 @@
 {"id":"P0575RVFJN","mentions":["wikipedia://en/82407252#ZGFS"],"kind":"unknown","name":"The Art of Computer Programming","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"P05CQH95VF","mentions":["wikipedia://en/9653#WBI9"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"P05DXPXM1T","mentions":["wikipedia://en/23551012#N48C"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"P05E744ZPN","mentions":["m2://rec/wikidata/Q17092649#1"],"kind":"unknown","name":"Inverse filter","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"P05E744ZPN","mentions":["m2://rec/wikidata/Q17092649#1"],"kind":"concept","name":"Inverse filter","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"P05F1G6D0F","mentions":["wikipedia://en/52827111"],"kind":"topic","name":"John Meadows Jackson","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"P05SNJR5A9","mentions":["wikipedia://en/293609#03DJ"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"P05T9DS8CX","mentions":["wikipedia://en/13505846"],"kind":"definition","name":"European Congress of Mathematics","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

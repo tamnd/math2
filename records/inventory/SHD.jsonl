@@ -1,6 +1,6 @@
 {"id":"SHD4959837","mentions":["wikipedia://en/8907443#15NL"],"kind":"statement","name":"Lemma","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}],"proofs":["wikipedia://en/8907443#YPHN"]}
 {"id":"SHD8DRDA20","mentions":["wikipedia://en/12322554"],"kind":"definition","name":"Spatial-numerical association of response codes","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"SHDAR4A8F9","mentions":["m2://rec/wikidata/Q1086961#1","wikipedia://en/4365"],"kind":"definition","name":"bilinear map","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"SHDAR4A8F9","mentions":["m2://rec/wikidata/Q1086961#1","wikipedia://en/4365"],"kind":"concept","name":"bilinear map","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"SHDE9Q3RM4","mentions":["wikipedia://en/77810379"],"kind":"definition","name":"WRPN Calculator","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"SHDFPFSZKY","mentions":["wikipedia://en/542447"],"kind":"definition","name":"Information content","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"SHDJ9SD3NX","mentions":["wikipedia://en/58389748#49FA"],"kind":"definition","name":"The Turing Guide","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

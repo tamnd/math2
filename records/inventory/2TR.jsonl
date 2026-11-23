@@ -1,5 +1,5 @@
 {"id":"2TRARW7AG1","mentions":["wikipedia://en/7519#YWVL"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"2TRHBGPB8J","mentions":["wikipedia://en/13322903"],"kind":"definition","name":"Relative neighborhood graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"2TRKX9YK18","mentions":["m2://rec/wikidata/Q1192209#1","wikipedia://en/329898"],"kind":"definition","name":"stationary process","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"2TRKX9YK18","mentions":["m2://rec/wikidata/Q1192209#1","wikipedia://en/329898"],"kind":"concept","name":"stationary process","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"2TRMECF5EP","mentions":["m2://rec/hott_book/reals.tex#RD-cauchy-complete#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"2TRTHXPQJE","mentions":["wikipedia://en/611984"],"kind":"definition","name":"LOKI97","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

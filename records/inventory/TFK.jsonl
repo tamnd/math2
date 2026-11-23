@@ -1,5 +1,5 @@
 {"id":"TFK7JHYNVF","mentions":["wikipedia://en/241820#X1LN"],"kind":"definition","name":"Lemniscate of Booth","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"TFK7ZRSZG4","mentions":["m2://rec/wikidata/Q36775500#1","wikipedia://en/54904665"],"kind":"definition","name":"natural bundle","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"TFK7ZRSZG4","mentions":["m2://rec/wikidata/Q36775500#1","wikipedia://en/54904665"],"kind":"concept","name":"natural bundle","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"TFKA37M085","mentions":["wikipedia://en/360243#8FHD"],"kind":"unknown","name":"Holomorph convex","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"TFKFKSZTBQ","mentions":["m2://rec/lebl_ra/ch-vol1-intro.tex#thm-1#1"],"kind":"statement","name":"DeMorgan","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"TFKN1HHY60","mentions":["wikipedia://en/8187487#XWMW"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
