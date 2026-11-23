@@ -91,10 +91,14 @@ The truth tables that solve such puzzles go back to the work of Wittgenstein and
 
 ### Try it
 
-$A$ says "$B$ is a knight", and $B$ says "$A$ and I are of different types". What are they?
-Both are knaves: if $B$ were a knight, $A$ would be a knave, but $A$'s statement would then be true; with $B$ a knave, $A$ and $B$ are of the same type, so $A$ is a knave too, and both statements are false.
+Puzzle 1: $A$ says "$B$ is a knight", and $B$ says "$A$ and I are of different types".
+What are they?
+Both are knaves.
+If $B$ were a knight, $A$ would be a knave by the statement of $B$, and the true sentence "$B$ is a knight" would come from a knave, which is impossible.
+With $B$ a knave, $A$ and $B$ are of the same type, so $A$ is a knave too, and both statements are false.
 
-$A$ says "at least one of us is a knave". What are $A$ and $B$?
+Puzzle 2: $A$ says "at least one of us is a knave".
+What are $A$ and $B$?
 $A$ is a knight and $B$ is a knave: a knave $A$ would make the statement true, so $A$ is a knight, and then $B$ must be the knave.
 
 ## Explanations
