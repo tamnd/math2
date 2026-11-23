@@ -17,53 +17,64 @@ sources:
 
 ## Proof
 
-Fix the models $\mathfrak{M} = (W, R, V)$, $\mathfrak{M}' = (W', R', V')$ and the [[bisimulation|7T740SFHHV]] $Z$.
-We prove by structural induction on $\varphi$ the claim $P(\varphi)$: for all $w Z w'$, $\mathfrak{M}, w \models \varphi$ if and only if $\mathfrak{M}', w' \models \varphi$.
+We prove the main claim by induction on formulas, and then show that each of the three constructions is a bisimulation.
+Fix the models $\mathfrak{M} = (W, R, V)$ and $\mathfrak{M}' = (W', R', V')$ and the [[bisimulation|7T740SFHHV]] $Z$.
+Let $P(\varphi)$ be the claim: for all $w Z w'$, $\mathfrak{M}, w \models \varphi$ if and only if $\mathfrak{M}', w' \models \varphi$.
 The truth clauses are those of [[Kripke semantics|NGHWZ9Y7ZV]].
 
 Part A: the main claim.
 
-1. Case $\varphi = p$, a variable. Let $w Z w'$. By the truth clause, $\mathfrak{M}, w \models p$ means $w \in V(p)$. By the atom clause, this holds if and only if $w' \in V'(p)$, that is, $\mathfrak{M}', w' \models p$.
-2. Case $\varphi = \bot$. The formula $\bot$ is false at every world of both models, so both sides of $P(\bot)$ are false.
-3. Case $\varphi = \neg \psi$. Assume $P(\psi)$, and let $w Z w'$. Then $w \models \neg \psi$ iff $w \not\models \psi$ iff $w' \not\models \psi$ iff $w' \models \neg \psi$, where the middle step is $P(\psi)$.
-4. Case $\varphi = \psi \wedge \chi$. Assume $P(\psi)$ and $P(\chi)$, and let $w Z w'$. Then $w \models \psi \wedge \chi$ iff $w \models \psi$ and $w \models \chi$, iff $w' \models \psi$ and $w' \models \chi$, iff $w' \models \psi \wedge \chi$.
-5. Case $\varphi = \lozenge \psi$, from left to right. Assume $P(\psi)$, $w Z w'$ and $\mathfrak{M}, w \models \lozenge \psi$. By the truth clause there is $v$ with $w R v$ and $\mathfrak{M}, v \models \psi$.
-6. By the zig clause there is $v'$ with $w' R' v'$ and $v Z v'$. By $P(\psi)$ applied to $v Z v'$, $\mathfrak{M}', v' \models \psi$. So $\mathfrak{M}', w' \models \lozenge \psi$.
-7. Case $\varphi = \lozenge \psi$, from right to left. Assume $\mathfrak{M}', w' \models \lozenge \psi$, so $w' R' v'$ and $\mathfrak{M}', v' \models \psi$ for some $v'$.
-8. By the zag clause there is $v$ with $w R v$ and $v Z v'$. By $P(\psi)$, $\mathfrak{M}, v \models \psi$, so $\mathfrak{M}, w \models \lozenge \psi$.
-9. Steps 1 to 8 cover every formation rule of the basic modal language. By structural induction, $P(\varphi)$ holds for every formula $\varphi$.
+1. Let $\varphi = p$ be a variable and $w Z w'$.
+   Then $\mathfrak{M}, w \models p$ means $w \in V(p)$, and by the atom clause this holds exactly when $w' \in V'(p)$.
+2. Let $\varphi = \bot$.
+   It is false at every world of both models, so both sides of $P(\bot)$ are false.
+3. Let $\varphi = \neg \psi$, assume $P(\psi)$, and let $w Z w'$.
+   Then $w \models \neg \psi$ holds exactly when $w \not\models \psi$, which by $P(\psi)$ holds exactly when $w' \not\models \psi$, that is, $w' \models \neg \psi$.
+4. Let $\varphi = \psi \wedge \chi$, assume $P(\psi)$ and $P(\chi)$, and let $w Z w'$.
+   Both conjuncts transfer separately, so $w \models \psi \wedge \chi$ holds exactly when $w' \models \psi \wedge \chi$.
+5. Let $\varphi = \lozenge \psi$, assume $P(\psi)$, and let $w Z w'$ with $\mathfrak{M}, w \models \lozenge \psi$.
+   By the truth clause there is $v$ with $w R v$ and $\mathfrak{M}, v \models \psi$.
+6. By zig there is $v'$ with $w' R' v'$ and $v Z v'$.
+   By $P(\psi)$ at the pair $(v, v')$, $\mathfrak{M}', v' \models \psi$, so $\mathfrak{M}', w' \models \lozenge \psi$.
+7. For the other direction, let $\mathfrak{M}', w' \models \lozenge \psi$, so $w' R' v'$ and $\mathfrak{M}', v' \models \psi$ for some $v'$.
+   By zag there is $v$ with $w R v$ and $v Z v'$, and $P(\psi)$ gives $\mathfrak{M}, v \models \psi$, so $\mathfrak{M}, w \models \lozenge \psi$.
+8. Steps 1 to 7 cover every formation rule, so $P(\varphi)$ holds for every formula by structural induction.
 
 Part B: generated submodels.
 
-10. Let $\mathfrak{N} = (U, R \cap U^2, V(\cdot) \cap U)$ be a generated submodel of $\mathfrak{M}$, and let $I = \set{(u, u) : u \in U}$. The set $I$ is nonempty, since $U \neq \emptyset$.
-11. Atom clause: $u \in V(p) \cap U$ iff $u \in V(p)$, because $u \in U$.
-12. Zig clause: if $u (R \cap U^2) v$, then $u R v$ and $v I v$.
-13. Zag clause: if $u R v$ in $\mathfrak{M}$, then $v \in U$ because $U$ is closed under $R$. So $u (R \cap U^2) v$ and $v I v$.
-14. So $I$ is a bisimulation, and Part A gives item 1.
+9. Let $\mathfrak{N} = (U, R \cap U^2, V(\cdot) \cap U)$ be a generated submodel and $I = \{(u, u) : u \in U\}$.
+   The set $I$ is nonempty because $U \neq \emptyset$.
+10. The atom clause holds because $u \in V(p) \cap U$ exactly when $u \in V(p)$, for $u \in U$.
+11. Zig holds because a move $u (R \cap U^2) v$ is also a move $u R v$, and $v I v$.
+12. Zag holds because a move $u R v$ in $\mathfrak{M}$ has $v \in U$, since $U$ is closed under $R$, so it is a move of $\mathfrak{N}$ with $v I v$.
+13. So $I$ is a bisimulation, and Part A gives item 1.
 
 Part C: bounded morphisms.
 
-15. Let $f$ be a bounded morphism and $G = \set{(w, f(w)) : w \in W}$. The set $G$ is nonempty, since $W \neq \emptyset$.
-16. Atom clause: $w$ and $f(w)$ satisfy the same variables, by the definition of a bounded morphism.
-17. Zig clause: if $w R v$, then $f(w) R' f(v)$ by the forth condition, and $v G f(v)$.
-18. Zag clause: if $f(w) R' v'$, then the back condition gives $v$ with $w R v$ and $f(v) = v'$, so $v G v'$.
-19. So $G$ is a bisimulation, and Part A gives item 2.
+14. Let $f$ be a bounded morphism and $G = \{(w, f(w)) : w \in W\}$, which is nonempty because $W \neq \emptyset$.
+15. The atom clause is part of the definition of a bounded morphism.
+16. Zig holds because $w R v$ gives $f(w) R' f(v)$ by the forth condition, and $v G f(v)$.
+17. Zag holds because $f(w) R' v'$ gives, by the back condition, some $v$ with $w R v$ and $f(v) = v'$, so $v G v'$.
+18. So $G$ is a bisimulation, and Part A gives item 2.
 
 Part D: disjoint unions.
 
-20. Each $\mathfrak{M}_i$ is a generated submodel of $\biguplus_j \mathfrak{M}_j$. A pair $(u, v)$ of the union relation with $u \in W_i$ lies in $R_i$, because the sets $W_j$ are pairwise disjoint. So $v \in W_i$.
-21. Part B gives item 3.
+19. Let $(u, v)$ be an arrow of the union with $u \in W_i$.
+   The arrow lies in some $R_j$, and $u \in W_j$ forces $j = i$ because the sets $W_j$ are pairwise disjoint, so $v \in W_i$.
+20. So $\mathfrak{M}_i$ is a generated submodel of $\biguplus_j \mathfrak{M}_j$, and Part B gives item 3.
 
 This proves the theorem.
 
 ## Idea
 
-Each clause of a bisimulation matches one clause of the truth definition.
+Each clause of a bisimulation is shaped to match one clause of the truth definition.
 The atom clause handles variables, the Boolean cases need nothing, and zig and zag carry a witness for $\lozenge$ across in each direction.
-The three constructions are bisimulations, so they inherit the invariance.
+Once the main claim is in place, the three constructions need only one check each: that they are bisimulations.
 
 ## Variants
 
-The same induction works with one relation for each modality, and so for labelled transition systems.
-A second proof uses the bisimulation game: a formula of modal depth $n$ is decided by the first $n$ rounds, and Duplicator survives every round.
-For the frame versions, apply the theorem to every valuation on the smaller or larger frame, with the valuation transported along the construction.
+A game proof runs the same way.
+A formula of modal depth $n$ is decided by the first $n$ rounds of the bisimulation game, and Duplicator survives every round when the worlds are bisimilar.
+The same induction works with one relation for each modality, and so for labeled transition systems.
+For the frame versions, start from any valuation on the new frame and move it to the old one.
+Along a surjective bounded morphism you pull the valuation back, and on a generated subframe you extend it to the whole frame in any way.

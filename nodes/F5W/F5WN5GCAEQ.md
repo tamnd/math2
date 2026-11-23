@@ -16,39 +16,50 @@ sources:
 
 ## Example
 
-Let $W = \N$ with the relation $<$, and let $A$ be the family of finite subsets and cofinite subsets of $\N$.
-We show that $\mathfrak{g} = (\N, <, A)$ is a general frame that is differentiated and tight, but not compact.
-So $\mathfrak{g}$ is refined but not a [[descriptive frame|6W9MEGN982]].
+Let $W = \mathbb{N}$ with the relation $<$, and let $A$ be the family of all finite subsets and all cofinite subsets of $\mathbb{N}$.
+We show that $\mathfrak{g} = (\mathbb{N}, <, A)$ is a general frame that is differentiated and tight, but not compact.
+So $\mathfrak{g}$ is refined, and it is not a [[descriptive frame|6W9MEGN982]].
 
-1. Closure under unions and complements: the union of two finite sets is finite, a union with a cofinite set is cofinite, and the complement of a finite set is cofinite and conversely.
-2. Closure under $m_<$: if $X$ is finite with largest element $m$, then $m_<(X) = \set{0, \ldots, m - 1}$, and $m_<(\emptyset) = \emptyset$. If $X$ is cofinite, then $m_<(X) = \N$.
-3. Differentiated: for $u \neq v$, the finite set $\set{u}$ is admissible, contains $u$ and does not contain $v$.
-4. Tight: let $u < v$ fail, so $v \leq u$. Take $a = \set{v}$. Then $m_<(a) = \set{0, \ldots, v - 1}$, which does not contain $u$.
-5. Not compact: the sets $C_n = \N \setminus \set{0, \ldots, n}$ are cofinite, so admissible. Any finitely many of them contain the largest index plus one, so the family has the finite intersection property.
-6. But $\bigcap_n C_n = \emptyset$, since every $k$ lies outside $C_k$. So $\mathfrak{g}$ is not compact.
+1. Unions and complements: a union of two finite sets is finite, a union with a cofinite set is cofinite, and complement swaps finite and cofinite sets.
+2. The operator on finite sets: if $X$ is finite with largest element $m$, then $m_<(X) = \{0, \dots, m - 1\}$, which is finite.
+   Also $m_<(\emptyset) = \emptyset$.
+3. The operator on cofinite sets: a cofinite $X$ has elements above every $w$, so $m_<(X) = \mathbb{N}$, which is cofinite.
+4. Differentiated: for $u \neq v$, the finite set $\{u\}$ is admissible, contains $u$ and misses $v$.
+5. Tight: let $u < v$ fail, so $v \le u$.
+   Take $a = \{v\}$.
+   Then $m_<(a) = \{0, \dots, v - 1\}$, which does not contain $u$.
+6. The finite intersection property: the sets $C_n = \mathbb{N} \setminus \{0, \dots, n\}$ are cofinite, so admissible.
+   Finitely many of them, with largest index $k$, all contain $k + 1$.
+7. Not compact: every $k$ lies outside $C_k$, so $\bigcap_n C_n = \emptyset$.
 
 ## Remarks
 
-The example shows that compactness is a separate condition from refinement.
-The complex algebra $\mathfrak{g}^*$ is the finite-cofinite algebra of $\N$ with $m_<$.
-Its dual descriptive frame adds one more ultrafilter, the ultrafilter of the cofinite sets, which plays the role of a point at infinity.
-In that new point, the relation is fixed by the definition of the dual: the new point sees itself, and every natural number sees it, because $m_<$ of a cofinite set is $\N$.
-A frame of this kind, with a point at infinity, is the basis of van Benthem's example of [[Kripke incompleteness|W67YJQTT50]].
+The example shows that compactness is a condition of its own, not a consequence of refinement.
+The complex algebra $\mathfrak{g}^*$ is the finite-cofinite algebra of $\mathbb{N}$ with the operator $m_<$.
+Its ultrafilters are the principal ones, one for each $n$, and one more, the ultrafilter $\infty$ of all cofinite sets.
+So the dual descriptive frame adds a point at infinity.
+
+We can compute the relation at the new point from the definition of the dual.
+For every cofinite $b$, the set $m_<(b) = \mathbb{N}$ is cofinite, so $\infty$ sees itself, and every $n$ sees $\infty$.
+The point $\infty$ does not see any $n$, because $m_<(\{n\}) = \{0, \dots, n-1\}$ is finite and so not in $\infty$.
+A frame with a point at infinity of this kind is the shape behind van Benthem's example of [[Kripke incompleteness|W67YJQTT50]].
 
 ## Explanations
 
 ### L1 human
 
-Take the numbers $0, 1, 2, \ldots$ and allow only regions that are finite or miss only finitely many numbers.
-The regions "all numbers above $n$" are allowed and every few of them overlap.
+Take the numbers $0, 1, 2, \dots$ and allow only regions that are finite or that miss finitely many numbers.
+The regions "all numbers above $n$" are allowed, and any few of them overlap.
 But no number lies in all of them, so the regions shrink to nothing.
-Descriptive frames forbid exactly this kind of disappearing, and this frame has it.
+Descriptive frames forbid exactly this kind of vanishing, and this frame has it.
 
 ### L2 human
 
-1. The regions $C_0 = \set{1, 2, \ldots}$, $C_1 = \set{2, 3, \ldots}$ and $C_2 = \set{3, 4, \ldots}$ have the common point $3$.
-2. In general $C_0, \ldots, C_n$ have the common point $n + 1$.
-3. No number $k$ is in $C_k$. So the whole family has no common point.
-
+We follow the shrinking regions for a few steps.
+The first three are
+$$C_0 = \{1, 2, \dots\}, \qquad C_1 = \{2, 3, \dots\}, \qquad C_2 = \{3, 4, \dots\},$$
+and they have the common point $3$.
+In general $C_0, \dots, C_n$ have the common point $n + 1$, but no number $k$ lies in $C_k$.
+So the whole family has no common point.
 The typical use of such frames is to build general frames that validate a logic while their Kripke frames do not.
-A trap: tightness and differentiation are often checked with single points; this works here because singletons are admissible.
+Watch out: here tightness and differentiation can be checked with singletons only because every singleton is admissible.
