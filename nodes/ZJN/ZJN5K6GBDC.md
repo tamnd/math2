@@ -15,6 +15,7 @@ sources:
 ## Example
 
 We prove $\exists x\, P(x) \wedge \exists x\, Q(x)$ from the premise $\exists x\, (P(x) \wedge Q(x))$ in [[Fitch-style natural deduction|2B6XC7XJA8]].
+In words: if some object has both $P$ and $Q$, then some object has $P$ and some object has $Q$.
 ```text
  1 │ ∃x (P(x) ∧ Q(x))
    ├────────────────
@@ -30,20 +31,30 @@ We prove $\exists x\, P(x) \wedge \exists x\, Q(x)$ from the premise $\exists x\
 We check each line.
 
 1. Line 1 is the premise.
-2. Line 2 opens a box with the new constant $c$ and the assumption $(P(x) \wedge Q(x))[c/x] = P(c) \wedge Q(c)$. The constant $c$ does not occur in line 1.
-3. Lines 3 and 5 are ${\wedge}$ Elim from line 2.
-4. Line 4 is ${\exists}$ Intro from line 3, with $\varphi = P(x)$ and $\varphi[c/x] = P(c)$. Line 6 is ${\exists}$ Intro from line 5 in the same way.
-5. Line 7 is ${\wedge}$ Intro from lines 4 and 6.
-6. Line 8 is ${\exists}$ Elim from line 1 and the box of lines 2 to 7. The box starts with $\boxed{c}$ and the instance of the premise, and it ends with line 7.
-7. The constant $c$ does not occur in line 8, nor in line 1, so the condition of ${\exists}$ Elim holds.
-8. Line 8 is in the main scope, so the list is a proof of $\exists x\, P(x) \wedge \exists x\, Q(x)$ from the premise.
+2. Line 2 opens a box with the new constant $c$ and the assumption $(P(x) \wedge Q(x))[c/x] = P(c) \wedge Q(c)$.
+   The constant $c$ does not occur in line 1, so it is new.
+3. Lines 3 and 5 follow by ${\wedge}$ Elim from line 2.
+4. Line 4 follows by ${\exists}$ Intro from line 3, since $P(x)[c/x] = P(c)$, and line 6 follows from line 5 in the same way.
+5. Line 7 follows by ${\wedge}$ Intro from lines 4 and 6.
+6. Line 8 follows by ${\exists}$ Elim from line 1 and the box of lines 2 to 7.
+   The box starts with $\boxed{c}$ and the instance of the premise, and it ends with line 7.
+7. The constant $c$ occurs neither in line 8 nor in line 1, so the condition of ${\exists}$ Elim holds.
+8. Line 8 stands in the main scope, so the list is a proof of $\exists x\, P(x) \wedge \exists x\, Q(x)$ from the premise.
 
 ## Remarks
 
-The proof follows the informal argument "let $c$ be an object with $P(c)$ and $Q(c)$; then some object has $P$ and some object has $Q$".
+### What the example shows
+
+The proof is the Fitch form of the informal argument "let $c$ be an object with $P(c)$ and $Q(c)$; then some object has $P$ and some object has $Q$".
 The box is needed because the premise does not name the object.
-The converse does not follow: in the structure with domain $\{0, 1\}$, $P$ true of $0$ only and $Q$ true of $1$ only, the conclusion holds and the premise fails.
-The [[non-example with a reused boxed constant|2RRB1KHNHR]] shows how a wrong proof of the converse goes.
+Line 7 is the last line of the box, and it no longer mentions $c$, so it may leave the box as line 8.
+
+### The converse does not follow
+
+The converse, from $\exists x\, P(x) \wedge \exists x\, Q(x)$ to $\exists x\, (P(x) \wedge Q(x))$, is not valid.
+Take the domain $\{0, 1\}$ with $P$ true of $0$ only and $Q$ true of $1$ only.
+Then each conjunct of the premise holds, but no element has both properties.
+[[A Fitch proof with a reused boxed constant|2RRB1KHNHR]] shows how a wrong proof of the converse goes.
 
 ## Explanations
 
@@ -62,5 +73,6 @@ To use an existential premise $\exists x\, \varphi$ in a Fitch proof, follow thr
 2. Inside the box, derive the goal $\chi$, which must not contain $c$.
 3. Close the box and write $\chi$ in the outer scope, citing the premise and the box.
 
-The typical use is to start the box early, as soon as an existential premise appears.
-A trap is to end the box with a line such as $P(c)$ and to try to carry it out of the box.
+Here the goal was the whole conclusion, so the box covers almost all the proof.
+The typical use is to open the box early, as soon as an existential premise appears.
+Watch out: a box that ends with a line such as $P(c)$ cannot be closed by ${\exists}$ Elim, because $P(c)$ contains $c$.

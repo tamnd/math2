@@ -20,71 +20,125 @@ sources:
 
 ## Summary
 
-The Hilbert-style predicate calculus is a deductive system for [[first-order logic|086QKPF0A6]] with logical axioms and one rule, [[modus ponens|0Y0MQYST0M]].
-A deduction of $\varphi$ from a set $\Gamma$ is a finite list of formulas that ends with $\varphi$.
-Each formula of the list is a logical axiom, a member of $\Gamma$, or follows from two earlier formulas by modus ponens.
-In the form of Enderton, the logical axioms are all generalizations $\forall x_1 \cdots \forall x_n\, \theta$ of the formulas $\theta$ of six groups.
-Group 1 is the [[tautologies|05006AJ7DZ]], and group 2 is quantifier instantiation $\forall x\, \varphi \to \varphi[t/x]$ with $t$ substitutable for $x$.
-Group 3 is distribution $\forall x\, (\varphi \to \psi) \to (\forall x\, \varphi \to \forall x\, \psi)$, and group 4 is vacuous quantification $\varphi \to \forall x\, \varphi$ with $x$ not free in $\varphi$.
-Groups 5 and 6 are the equality axioms $x = x$ and $x = y \to (\alpha \to \alpha')$ for atomic $\alpha$.
-The [[definition|2B00FE6K5W]] gives each group with its conditions.
-The calculus matters because it has one rule and a short list of axiom schemas, so the main metatheorems of logic are proved about it by a short induction on deductions.
+The Hilbert-style predicate calculus is the first-order form of a [[Hilbert system|1MGMQX43B8]]: a proof is a numbered list of formulas, and almost all of the logic sits in the axioms.
+Here is a complete deduction of $Q(c)$ from the hypotheses $\forall x\,(P(x) \to Q(x))$ and $P(c)$, the formal version of "all men are mortal, Socrates is a man, so Socrates is mortal":
+$$\begin{array}{rll} 1. & \forall x\,(P(x) \to Q(x)) & \text{hypothesis} \\ 2. & \forall x\,(P(x) \to Q(x)) \to (P(c) \to Q(c)) & \text{instantiation axiom, } t = c \\ 3. & P(c) \to Q(c) & \text{modus ponens, lines 1 and 2} \\ 4. & P(c) & \text{hypothesis} \\ 5. & Q(c) & \text{modus ponens, lines 4 and 3} \end{array}$$
+Check: line 2 has the form $\forall x\, \varphi \to \varphi[t/x]$ with $\varphi = P(x) \to Q(x)$ and $t = c$, and a constant has no variable that a quantifier could capture.
+
+In general, the calculus has a set of logical axioms and one rule, [[modus ponens|0Y0MQYST0M]]: from $\varphi$ and $\varphi \to \psi$, infer $\psi$.
+A deduction of $\varphi$ from a set $\Gamma$ of formulas is a finite list of formulas that ends with $\varphi$.
+Each formula in the list is a logical axiom, a member of $\Gamma$, or follows from two earlier formulas by modus ponens.
+In Enderton's form, which we call $\mathsf{H}$, the logical axioms are all generalizations $\forall x_1 \cdots \forall x_n\, \theta$, with $n \ge 0$, of the formulas $\theta$ in six groups:
+$$\begin{array}{ll} 1. & \text{every tautology} \\ 2. & \forall x\, \varphi \to \varphi[t/x], \text{ where } t \text{ is substitutable for } x \text{ in } \varphi \\ 3. & \forall x\,(\varphi \to \psi) \to (\forall x\, \varphi \to \forall x\, \psi) \\ 4. & \varphi \to \forall x\, \varphi, \text{ where } x \text{ is not free in } \varphi \\ 5. & x = x \\ 6. & x = y \to (\alpha \to \alpha'), \text{ where } \alpha \text{ is atomic} \end{array}$$
+In group 6, $\alpha'$ comes from $\alpha$ by replacing $x$ by $y$ at some of its places.
+The [[definition|2B00FE6K5W]] states each group with its conditions.
 
 ## Motivation
 
-A propositional [[Hilbert system|1MGMQX43B8]] derives the laws of the connectives.
-First-order logic also needs laws for the quantifiers, and two of them are basic.
-The first law says that what holds for all objects holds for each object that a term names: from $\forall x\, \varphi$ we may pass to $\varphi[t/x]$.
-The second law says how to reach a universal statement: if $\varphi$ is proved about an arbitrary $x$, about which the hypotheses say nothing, then $\forall x\, \varphi$ is proved.
-The calculus puts the first law into an axiom schema.
-It puts the second law either into a rule of generalization (Mendelson) or into axioms that are closed under generalization (Enderton).
-The equality axioms then say that $=$ is reflexive and that equal objects satisfy the same atomic formulas.
-The aim is a system whose proofs a machine can check, and whose theorems are exactly the valid formulas.
+A propositional Hilbert system derives the laws of the connectives, but first-order logic also needs laws for the quantifiers.
+Two of them carry almost all the weight.
+The first says that what holds for every object holds for the object that a term names, so from $\forall x\, \varphi$ we may pass to $\varphi[t/x]$.
+The second says how to reach a universal statement: if we prove $\varphi$ about an $x$ that the hypotheses say nothing about, then we have proved $\forall x\, \varphi$.
+The calculus puts the first law into the axioms of group 2.
+It puts the second law either into a rule of generalization, as Mendelson does, or into axioms that are closed under generalization, as Enderton does.
+
+Why keep only one rule?
+The calculus is made for proving facts about all proofs, such as "every deducible formula is valid".
+Such facts are proved by induction on the length of a deduction, and one rule means few cases.
+The [[generalization theorem|VKSK35Y52Z]], the [[deduction theorem for predicate logic|8M9ZFDR4DH]] and the [[soundness|4A84VHDTHV]] proof all work this way.
+Later, [[Gödel's completeness theorem|WQ1ZE255SF]] shows that the calculus deduces every valid formula.
 
 ## Notation
 
 We write $\Gamma \vdash_{\mathsf{H}} \varphi$, or $\Gamma \vdash \varphi$ when the system is clear, for "there is a deduction of $\varphi$ from $\Gamma$".
-$\mathsf{H}_G$ names the variant with the rule of generalization, as in the [[definition|2B00FE6K5W]].
-The substitution $\varphi[t/x]$ is written $\varphi^x_t$ in Enderton and $\varphi(t)$ in Mendelson.
-Books also differ in the primitive symbols: Enderton uses $\neg$, $\to$ and $\forall$, and other books add $\wedge$, $\vee$, $\exists$ or $\bot$ with axioms for each.
+The name $\mathsf{H}_G$ is for Mendelson's variant with a rule of generalization.
+The [[substitution|NCDZ969V7X]] $\varphi[t/x]$ appears as $\varphi^x_t$ in Enderton and as $\varphi(t)$ in Mendelson.
+Books also differ in their primitive symbols.
+Enderton uses $\neg$, $\to$ and $\forall$, and reads $\exists x\, \varphi$ as $\neg \forall x\, \neg \varphi$; other books add $\wedge$, $\vee$, $\exists$ or $\bot$, each with its own axioms.
 
 ## Remarks
 
-### Examples
+### What each group says
 
-- The five-line deduction of $\forall x\, Q(x)$ from $\forall x\, (P(x) \to Q(x))$ and $\forall x\, P(x)$ in the [[definition|2B00FE6K5W]]. It uses one distribution axiom and modus ponens twice.
-- [[A deduction of "for all implies there exists"|BAKPBE2677]]: $\vdash_{\mathsf{H}} \forall x\, P(x) \to \exists x\, P(x)$ in five lines. It uses two instantiation axioms and one tautology.
-- [[A derivation with the rule of generalization|C8ANFQQ843]]: the same consequence as the first example, derived in $\mathsf{H}_G$ with instantiation and generalization in eight lines.
-- The formula $\forall x\, \varphi \to \varphi$ is an axiom of group 2, with the term $t = x$. The variable $x$ is always substitutable for itself.
-- The formula $x = y \to y = x$ has a deduction from groups 5 and 6 and one tautology. The page [[rules for equality|Y90Z13AXY8]] gives it and the deduction of transitivity.
+Group 1 does all the propositional work at once.
+A formula counts as a tautology when it is true under every assignment of truth values to its prime formulas, which are its atomic formulas and its formulas of the form $\forall x\, \psi$.
+So $\forall x\, P(x) \to \forall x\, P(x)$ is a tautology, and $\forall x\, P(x) \to P(c)$ is not one, because its two prime formulas are different.
 
-### Non-examples
+Group 2 is instantiation, and its condition matters: no variable of $t$ may become bound when $t$ replaces $x$.
+Group 3 lets $\forall x$ pass over an implication, and group 4 says that a quantifier on a variable that does not occur free changes nothing.
+Groups 5 and 6 make $=$ reflexive and let equals replace equals inside atomic formulas.
+From them the [[rules for equality|Y90Z13AXY8]] derive symmetry and transitivity.
 
-- [[A deduction with a captured variable|YJPNPDDJQT]]: the "instance" $\forall x\, \neg \forall y\, (x = y) \to \neg \forall y\, (y = y)$ of group 2 is not an axiom. The condition that fails: $y$ is not substitutable for $x$ in $\neg \forall y\, (x = y)$.
-- The two-line list "$P(x)$, $\forall x\, P(x)$" is not a deduction of $\forall x\, P(x)$ from $\{P(x)\}$ in $\mathsf{H}$. The condition that fails: the second line is not an axiom, not a hypothesis, and not a result of modus ponens. The formula $P(x) \to \forall x\, P(x)$ is not in group 4, because $x$ is free in $P(x)$.
-- A list that ends with a formula other than $\varphi$ is not a deduction of $\varphi$, even if $\varphi$ appears in it. This is only a matter of the definition: any initial part of a deduction that ends with $\varphi$ is a deduction of $\varphi$.
+### Worked deductions
 
-### Basic properties
+The deduction in the Summary uses instantiation once.
+A second deduction, [[for all implies there exists|BAKPBE2677]], proves $\forall x\, P(x) \to \exists x\, P(x)$ in five lines.
+It instantiates $\forall x\, P(x)$ and $\forall x\, \neg P(x)$ at the variable $x$, and one tautology joins the two pieces.
+The variable $x$ is always substitutable for itself, so both instances are legal.
 
-- Generalization: if $\Gamma \vdash_{\mathsf{H}} \varphi$ and $x$ is not free in any member of $\Gamma$, then $\Gamma \vdash_{\mathsf{H}} \forall x\, \varphi$. This is the [[generalization theorem|VKSK35Y52Z]].
-- Deduction theorem: $\Gamma \cup \{\psi\} \vdash_{\mathsf{H}} \varphi$ if and only if $\Gamma \vdash_{\mathsf{H}} \psi \to \varphi$. In $\mathsf{H}_G$ this needs a restriction, as the page [[deduction theorem for predicate logic|8M9ZFDR4DH]] shows.
-- Existential introduction: $\vdash_{\mathsf{H}} \varphi[t/x] \to \exists x\, \varphi$ when $t$ is substitutable for $x$ in $\varphi$. The axiom $\forall x\, \neg \varphi \to \neg \varphi[t/x]$ of group 2 and the tautology $(A \to \neg B) \to (B \to \neg A)$ give it with one step of modus ponens.
-- Soundness: if $\Gamma \vdash_{\mathsf{H}} \varphi$, then every structure and assignment that satisfy $\Gamma$ satisfy $\varphi$. See [[soundness|4A84VHDTHV]]; the proof is an induction on deductions.
-- Completeness: the converse holds, by [[Gödel's completeness theorem|WQ1ZE255SF]].
-- The set of theorems is not decidable when the language has a binary relation symbol, by [[Church's theorem|VA6BNNY2YC]]. It is computably enumerable, because deductions can be listed and checked one by one.
-- The calculus derives the same formulas as [[natural deduction|6KT3BJZ7D1]], the [[sequent calculus|W72CA3R9MP]] and [[semantic tableaux|WGWBBVE8GX]]; see [[equivalence of proof systems|A9AAHN4BMH]].
+A third deduction gets $\forall x\, Q(x)$ from $\forall x\,(P(x) \to Q(x))$ and $\forall x\, P(x)$ with group 3:
+$$\forall x\,(P(x) \to Q(x)) \to (\forall x\, P(x) \to \forall x\, Q(x))$$
+is an axiom, and two steps of modus ponens finish.
+In Mendelson's $\mathsf{H}_G$ the same consequence comes from a [[derivation with the rule of generalization|C8ANFQQ843]]: drop the quantifiers, reason about $x$, and put $\forall x$ back.
+For equality, the [[derivations of symmetry and transitivity|ZPMY0MMTVP]] use groups 5 and 6 and one tautology.
+
+### What is not a deduction
+
+The list "$\forall x\, \neg \forall y\,(x = y)$, then $\neg \forall y\,(y = y)$" looks like one step of instantiation, but it is not.
+The term $y$ is not substitutable for $x$ in $\neg \forall y\,(x = y)$, so the implication between the two lines is not an axiom; [[the captured variable example|YJPNPDDJQT]] checks every case.
+
+The two-line list "$P(x)$, then $\forall x\, P(x)$" is not a deduction from $\{ P(x) \}$ in $\mathsf{H}$.
+The second line is not an axiom, not a hypothesis and not a result of modus ponens.
+The formula $P(x) \to \forall x\, P(x)$ is not in group 4 either, because $x$ is free in $P(x)$.
+In $\mathsf{H}_G$ the same list is a derivation, which is the main difference between the two systems.
+
+### The rules you can use
+
+Several facts about $\mathsf{H}$ make it usable in practice, and each has its own page.
+The [[generalization theorem|VKSK35Y52Z]] says that $\Gamma \vdash \varphi$ gives $\Gamma \vdash \forall x\, \varphi$ when $x$ is not free in $\Gamma$.
+The [[deduction theorem|8M9ZFDR4DH]] says that $\Gamma \cup \{ \psi \} \vdash \varphi$ exactly when $\Gamma \vdash \psi \to \varphi$, with no restriction in $\mathsf{H}$.
+
+Existential introduction is also deducible.
+For $t$ substitutable for $x$ in $\varphi$, group 2 gives $\forall x\, \neg \varphi \to \neg \varphi[t/x]$, and the tautology $(A \to \neg B) \to (B \to \neg A)$ turns it into
+$$\varphi[t/x] \to \neg \forall x\, \neg \varphi,$$
+which is $\varphi[t/x] \to \exists x\, \varphi$.
+
+The calculus is [[sound|4A84VHDTHV]], by induction on deductions, and complete, by [[Gödel's completeness theorem|WQ1ZE255SF]].
+Its theorems form a computably enumerable set, since we can list all finite lists and check each one.
+By [[Church's theorem|VA6BNNY2YC]] the set is not decidable once the language has a binary relation symbol.
+The [[equivalence of proof systems|A9AAHN4BMH]] shows that natural deduction, the sequent calculus and tableaux deduce the same sentences.
+
+### Watch out
+
+The first trap is instantiation with a term that is not substitutable.
+In a structure with two elements, $\forall x\, \neg \forall y\,(x = y)$ is true, since each element differs from the other one.
+But $\neg \forall y\,(y = y)$ is false, so the "instance" between them would make the calculus unsound.
+The fix is to rename the bound variable first: $\forall x\, \neg \forall z\,(x = z) \to \neg \forall z\,(y = z)$ is a real axiom.
+
+The second trap is group 4 with $x$ free in $\varphi$.
+Take a structure with two elements, $P$ true of the first only, and $x$ assigned to the first.
+Then $P(x)$ is true and $\forall x\, P(x)$ is false, so $P(x) \to \forall x\, P(x)$ is not valid and cannot be an axiom.
+
+The third trap is to mix $\mathsf{H}$ and $\mathsf{H}_G$.
+The two systems prove their metatheorems with different conditions, so a lemma from one book may not hold in the system of the other.
 
 ### History
 
 Frege gave the first formal system with quantifiers in his *Begriffsschrift* of 1879.
-Hilbert and Ackermann stated a first-order calculus of this kind in their book *Grundzüge der theoretischen Logik* of 1928, and they asked whether it derives every valid formula.
-Gödel answered the question with his completeness theorem in his dissertation of 1929.
+Hilbert and Ackermann stated a first-order calculus of this kind in their book *Grundzüge der theoretischen Logik* of 1928, and they asked whether it deduces every valid formula.
+Gödel answered yes in his dissertation of 1929, with the completeness theorem.
 
-### Common errors
+### Try it
 
-- To instantiate $\forall x\, \varphi$ with a term that is not substitutable. The result can be false in a structure where the premise is true, as the non-example with $\forall x\, \neg \forall y\, (x = y)$ shows.
-- To use $\varphi \to \forall x\, \varphi$ when $x$ is free in $\varphi$. The formula $P(x) \to \forall x\, P(x)$ is false in a structure with $P$ true of one element and false of another, when $x$ names the first one.
-- To mix the two systems. In $\mathsf{H}_G$ the hypothesis $P(x)$ gives $\forall x\, P(x)$, and in $\mathsf{H}$ it does not; each book proves its metatheorems for its own system.
+First, is $\forall x\, R(x, y) \to R(y, y)$ an axiom of group 2, and is $\forall x\, \forall y\, R(x, y) \to \forall y\, R(y, y)$ one?
+The first is, since $R(x, y)$ has no quantifier and so $y$ is substitutable for $x$.
+The second is not, since the free $x$ in $\forall y\, R(x, y)$ lies inside $\forall y$, and the new $y$ would be captured.
+
+Second, deduce $P(c)$ from $\forall x\, P(x)$.
+Write the hypothesis, then the group 2 axiom $\forall x\, P(x) \to P(c)$, then $P(c)$ by modus ponens.
+
+Third, is $P(x) \to \forall y\, P(x)$ an axiom?
+Yes, it is in group 4, because $y$ is not free in $P(x)$.
 
 ## Explanations
 
@@ -99,21 +153,22 @@ Modus ponens then gives "this square has four sides".
 
 ### L2 human
 
-We check a deduction of $\forall x\, P(x) \to \exists x\, P(x)$, where $\exists x\, P(x)$ abbreviates $\neg \forall x\, \neg P(x)$.
-
-1. $\forall x\, P(x) \to P(x)$: group 2 with $t = x$.
-2. $\forall x\, \neg P(x) \to \neg P(x)$: group 2 with $t = x$.
-3. $(\forall x\, P(x) \to P(x)) \to ((\forall x\, \neg P(x) \to \neg P(x)) \to (\forall x\, P(x) \to \neg \forall x\, \neg P(x)))$: a tautology, checked on the [[example page|BAKPBE2677]].
-4. $(\forall x\, \neg P(x) \to \neg P(x)) \to (\forall x\, P(x) \to \neg \forall x\, \neg P(x))$: modus ponens from lines 1 and 3.
-5. $\forall x\, P(x) \to \neg \forall x\, \neg P(x)$: modus ponens from lines 2 and 4.
-
-The typical use of the calculus is not to find proofs, which is slow, but to prove facts about all proofs.
-A trap is to read line 3 as a fact about quantifiers: it is a tautology because of its propositional form alone, with $\forall x\, P(x)$, $P(x)$ and $\forall x\, \neg P(x)$ as three unrelated letters.
+We deduce $\forall x\, P(x) \to \exists x\, P(x)$, where $\exists x\, P(x)$ stands for $\neg \forall x\, \neg P(x)$.
+Write $A$ for $\forall x\, P(x)$, $B$ for $P(x)$ and $C$ for $\forall x\, \neg P(x)$, so the goal is $A \to \neg C$.
+Group 2 with $t = x$ gives two axioms:
+$$A \to B \qquad \text{and} \qquad C \to \neg B.$$
+The formula $(A \to B) \to ((C \to \neg B) \to (A \to \neg C))$ is a tautology: if $A$, $A \to B$ and $C \to \neg B$ are true, then $B$ is true, so $C$ must be false.
+Two steps of modus ponens then give $A \to \neg C$, and the [[full deduction|BAKPBE2677]] writes out the five lines.
+This is the typical use: the quantifier axioms remove the quantifiers, and group 1 does the propositional reasoning.
+Watch out: the tautology is a tautology because of its propositional form alone, with $A$, $B$ and $C$ as three unrelated letters.
+The formula is valid only because the domain of a structure is not empty, and the calculus builds that assumption into group 2.
 
 ### L3 human
 
-The calculus is the first-order case of a Hilbert-style axiomatization of a consequence relation: a set of axioms and a set of rules whose closure is the set of theorems.
-The same pattern gives the modal logics K and S4, the intuitionistic predicate calculus (replace the tautologies by intuitionistic axiom schemas) and the theories of arithmetic, which add non-logical axioms to $\Gamma$.
+The calculus is the first-order case of a general pattern: a set of axioms and a set of rules whose closure is the set of theorems.
+The same pattern gives the modal logics K and S4, the intuitionistic predicate calculus (replace the tautologies by intuitionistic axiom schemas) and theories of arithmetic, which add non-logical axioms to $\Gamma$.
 Its short list of rules makes it the usual system for Gödel's incompleteness theorems and for the arithmetization of syntax.
-Its proofs are hard to find by hand, and [[natural deduction|6KT3BJZ7D1]] and the [[sequent calculus|W72CA3R9MP]] were designed to fix this; the [[equivalence of proof systems|A9AAHN4BMH]] shows that nothing is lost.
+
+Its proofs are hard to find by hand.
+[[Natural deduction|6KT3BJZ7D1]] and the [[sequent calculus|W72CA3R9MP]] were designed to fix this, and the [[equivalence of proof systems|A9AAHN4BMH]] shows that nothing is lost.
 In proof complexity, propositional Hilbert systems are called Frege systems, and any two of them simulate each other with a polynomial increase in proof length.
