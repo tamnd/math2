@@ -18,46 +18,67 @@ sources:
 
 ## Statement
 
+The generalization theorem says that a deduction about an $x$ that the hypotheses do not mention is a deduction about every $x$, and the same holds for a constant that the hypotheses do not mention.
+
 Let $\vdash$ be deducibility in the [[Hilbert-style predicate calculus|2B00FE6K5W]] $\mathsf{H}$, whose axioms are closed under generalization and whose only rule is modus ponens.
 Let $\Gamma$ be a set of formulas and $\varphi$ a formula.
 
 1. (Generalization theorem.) If $\Gamma \vdash \varphi$ and the variable $x$ does not occur free in any member of $\Gamma$, then $\Gamma \vdash \forall x\, \varphi$.
-2. (Generalization on constants.) Suppose that $\Gamma \vdash \varphi$ and that the constant symbol $c$ does not occur in any member of $\Gamma$. Then there is a variable $y$ that does not occur in $\varphi$ such that $\Gamma \vdash \forall y\, \varphi_{c \mapsto y}$.
+2. (Generalization on constants.) Suppose that $\Gamma \vdash \varphi$ and that the constant symbol $c$ does not occur in any member of $\Gamma$.
+   Then there is a variable $y$ that does not occur in $\varphi$ such that $\Gamma \vdash \forall y\, \varphi_{c \mapsto y}$.
 
 Here $\varphi_{c \mapsto y}$ is the formula obtained from $\varphi$ by replacing every occurrence of $c$ by $y$.
 The [[proof|HFQG8BVXKS]] is an induction on deductions.
 
 ## Remarks
 
+### A first use
+
+Let $\Gamma = \{ \forall x\,(P(x) \to Q(x)),\ \forall x\, P(x) \}$.
+Group 2 axioms and modus ponens give $\Gamma \vdash P(x) \to Q(x)$ and $\Gamma \vdash P(x)$, so $\Gamma \vdash Q(x)$.
+Both members of $\Gamma$ are sentences, so $x$ is not free in $\Gamma$, and part 1 gives
+$$\Gamma \vdash \forall x\, Q(x).$$
+This is the formal version of "$x$ was arbitrary, so the claim holds for all $x$", as in [[proving universal statements|CX38X989TB]].
+
 ### Why each hypothesis is needed
 
-- Part 1 fails when $x$ is free in a member of $\Gamma$. We have $\{P(x)\} \vdash P(x)$, but $\{P(x)\} \nvdash \forall x\, P(x)$. Take the structure with domain $\{0, 1\}$, $P$ true of $0$ only, and $x$ assigned to $0$: it satisfies $P(x)$ and not $\forall x\, P(x)$, so [[soundness|4A84VHDTHV]] excludes a deduction.
-- Part 2 fails when $c$ occurs in $\Gamma$. We have $\{P(c)\} \vdash P(c)$, but $\{P(c)\} \nvdash \forall y\, P(y)$. The structure with domain $\{0, 1\}$, $P$ true of $0$ only, and $c$ naming $0$ shows this by soundness.
-- Part 2 also fails when $y$ is allowed to occur in $\varphi$. The formula $\varphi = \forall y\, (y = c) \to \forall y\, \forall z\, (y = z)$ is valid, so $\vdash \varphi$ by [[completeness|WQ1ZE255SF]]. Replacing $c$ by $y$ gives $\forall y\, (y = y) \to \forall y\, \forall z\, (y = z)$, which is false in every structure with two elements.
+Part 1 fails when $x$ is free in a member of $\Gamma$.
+We have $\{ P(x) \} \vdash P(x)$, but not $\{ P(x) \} \vdash \forall x\, P(x)$.
+Take the structure with domain $\{ 0, 1 \}$, $P$ true of $0$ only, and $x$ assigned to $0$: it satisfies $P(x)$ and not $\forall x\, P(x)$, so [[soundness|4A84VHDTHV]] rules out a deduction.
 
-### Consequences
+Part 2 fails when $c$ occurs in $\Gamma$.
+We have $\{ P(c) \} \vdash P(c)$, but not $\{ P(c) \} \vdash \forall y\, P(y)$, by the same structure with $c$ naming $0$.
 
-- With a lemma on renaming bound variables, part 2 gives the form used in the proof of [[completeness|WQ1ZE255SF]]: if $\Gamma \vdash \varphi[c/x]$ and $c$ occurs neither in $\Gamma$ nor in $\varphi$, then $\Gamma \vdash \forall x\, \varphi$.
-- In particular, if $\vdash \varphi$ then $\vdash \forall x\, \varphi$ for every variable $x$. So the set of theorems of $\mathsf{H}$ is closed under generalization, although $\mathsf{H}$ has no rule of generalization.
-- Part 1 lets a proof in $\mathsf{H}$ copy the informal step "$x$ was arbitrary, so $\varphi$ holds for all $x$", as on the page [[proving universal statements|CX38X989TB]].
-- Part 1 is the step for the rule $\forall$-introduction when a natural deduction proof is translated into $\mathsf{H}$; see the [[equivalence of proof systems|A9AAHN4BMH]].
+Part 2 also fails when $y$ is allowed to occur in $\varphi$.
+The formula $\forall y\,(y = c) \to \forall y\, \forall z\,(y = z)$ is valid, since a domain in which everything equals $c$ has one element, so it is deducible by [[completeness|WQ1ZE255SF]].
+Replacing $c$ by $y$ gives $\forall y\,(y = y) \to \forall y\, \forall z\,(y = z)$, which is false in every structure with two elements.
 
-### Converse
+### What it gives you
 
-The converse of part 1 is true, with no condition on $x$.
-If $\Gamma \vdash \forall x\, \varphi$, then the axiom $\forall x\, \varphi \to \varphi$ of group 2 (with $t = x$) and modus ponens give $\Gamma \vdash \varphi$.
+If $\vdash \varphi$, then $\vdash \forall x\, \varphi$ for every variable $x$.
+So the theorems of $\mathsf{H}$ are closed under generalization, although $\mathsf{H}$ has no rule of generalization.
+
+With a lemma on renaming bound variables, part 2 gives the form that the proof of [[completeness|WQ1ZE255SF]] uses.
+If $\Gamma \vdash \varphi[c/x]$ and $c$ occurs neither in $\Gamma$ nor in $\varphi$, then $\Gamma \vdash \forall x\, \varphi$.
+Part 1 is also the step for $\forall$-introduction when a natural deduction proof is turned into a deduction in $\mathsf{H}$; see the [[equivalence of proof systems|A9AAHN4BMH]].
+
+### The converse
+
+The converse of part 1 holds with no condition on $x$.
+If $\Gamma \vdash \forall x\, \varphi$, then the group 2 axiom $\forall x\, \varphi \to \varphi$, with $t = x$, and modus ponens give $\Gamma \vdash \varphi$.
 
 ### Generalizations
 
-- In Mendelson's variant $\mathsf{H}_G$, part 1 holds with no condition on $x$, because generalization is a rule there. The price is a restriction in the [[deduction theorem for predicate logic|8M9ZFDR4DH]].
-- The same proof works for every Hilbert-style calculus whose logical axioms are closed under generalization and contain the schemas of groups 3 and 4, for example the intuitionistic predicate calculus in this form.
-- Part 1 holds for every first-order theory $T$: if $T \vdash \varphi$ and $x$ is not free in the axioms of $T$, then $T \vdash \forall x\, \varphi$. The axioms of a theory are usually sentences, so the condition holds for all $x$.
+In Mendelson's variant $\mathsf{H}_G$, part 1 holds with no condition on $x$, because generalization is a rule there.
+The price is a restriction in the [[deduction theorem for predicate logic|8M9ZFDR4DH]].
+The same proof works for every Hilbert-style calculus whose axioms are closed under generalization and contain groups 3 and 4, for example the intuitionistic predicate calculus in this form.
+For a first-order theory $T$ whose axioms are sentences, the condition on $x$ always holds, so $T \vdash \varphi$ gives $T \vdash \forall x\, \varphi$.
 
 ## History
 
-Axiom systems with modus ponens as the only rule and with axioms closed under generalization go back to Quine's *Mathematical Logic* of 1940.
-For such systems the generalization theorem takes the place of the rule of generalization.
-Enderton's textbook states both parts of the theorem in this form.
+Quine's *Mathematical Logic* of 1940 used axioms closed under generalization with modus ponens as the only rule.
+In such systems the generalization theorem takes the place of the rule of generalization.
+Enderton's textbook states both parts of the theorem in the form above.
 
 ## Explanations
 
@@ -71,20 +92,17 @@ The second part says the same for a name $c$ that the assumptions never mention.
 
 ### L2 human
 
-We use part 1 to deduce $\forall x\, Q(x)$ from $\Gamma = \{\forall x\, (P(x) \to Q(x)),\ \forall x\, P(x)\}$.
-
-1. The axiom $\forall x\, (P(x) \to Q(x)) \to (P(x) \to Q(x))$ of group 2 and modus ponens give $\Gamma \vdash P(x) \to Q(x)$.
-2. The axiom $\forall x\, P(x) \to P(x)$ of group 2 and modus ponens give $\Gamma \vdash P(x)$.
-3. Modus ponens gives $\Gamma \vdash Q(x)$.
-4. Both members of $\Gamma$ are sentences, so $x$ is not free in $\Gamma$.
-5. Part 1 gives $\Gamma \vdash \forall x\, Q(x)$.
-
-The typical use is in this pattern: remove the quantifiers, reason about an arbitrary $x$, and put the quantifier back.
-A trap is to check only the formula $\varphi$ and to forget $\Gamma$: the condition is on the free variables of the hypotheses, not of $\varphi$.
+We show $\vdash \forall y\,(\forall x\, R(x) \to R(y))$ in two steps.
+The formula $\forall x\, R(x) \to R(y)$ is a group 2 axiom with $t = y$, since $R(x)$ has no quantifier.
+Its deduction uses no hypotheses, so $y$ is not free in any hypothesis, and part 1 gives the generalization.
+In $\mathsf{H}$ this formula is also a logical axiom on its own, as a generalization of a group 2 formula, so both routes agree.
+The typical use is the pattern of the first remark: remove the quantifiers, reason about an arbitrary $x$, and put the quantifier back.
+Watch out: the condition is on the free variables of the hypotheses, not of $\varphi$, so check $\Gamma$ before you generalize.
 
 ### L3 human
 
-The theorem says that the rule of generalization is admissible in $\mathsf{H}$: adding it does not change the set of formulas deducible from a set $\Gamma$ in which $x$ is not free.
-It is not derivable as one fixed rule, because its condition refers to $\Gamma$, and this is the difference between $\mathsf{H}$ and $\mathsf{H}_G$.
-In natural deduction the same condition becomes the eigenvariable condition of $\forall$-introduction, and in the sequent calculus it becomes the eigenvariable condition of the right rule for $\forall$; see [[natural deduction|6KT3BJZ7D1]] and the [[sequent calculus|W72CA3R9MP]].
-Part 2 is the syntactic reason why fresh constants act as arbitrary objects, which the Henkin proof of [[Gödel's completeness theorem|WQ1ZE255SF]] and the tableau rule for $\neg \forall$ both use.
+The theorem says that the rule of generalization is admissible in $\mathsf{H}$: adding it does not change what is deducible from a $\Gamma$ in which $x$ is not free.
+It is not a derivable rule in the strict sense, because its condition refers to $\Gamma$, and this is the difference between $\mathsf{H}$ and $\mathsf{H}_G$.
+In [[natural deduction|6KT3BJZ7D1]] the same condition becomes the eigenvariable condition of $\forall$-introduction, and in the [[sequent calculus|W72CA3R9MP]] it is the eigenvariable condition of the right rule for $\forall$.
+Part 2 is the syntactic reason why fresh constants act as arbitrary objects.
+The Henkin proof of [[Gödel's completeness theorem|WQ1ZE255SF]] and the tableau rule for $\neg \forall$ both rely on this.
