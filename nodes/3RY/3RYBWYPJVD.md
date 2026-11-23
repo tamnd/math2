@@ -105,7 +105,7 @@ Validity is preserved by bounded morphic images, so any formula valid on all irr
 
 Correspondences for single axioms were known from the completeness theory of the 1960s.
 Henrik Sahlqvist gave a general class of formulas with first-order correspondents in 1975.
-In the same year, Robert Goldblatt and S. K. Thomason characterized the modally definable first-order classes of frames.
+In the same year, Robert Goldblatt and Steven Thomason characterized the modally definable first-order classes of frames.
 Johan van Benthem developed correspondence theory as a subject in his 1976 dissertation "Modal correspondence theory".
 
 ### Watch out

@@ -30,7 +30,8 @@ The Hennessy-Milner theorem says that this always happens when each world has fi
 Let $\mathfrak{M} = (W, R, V)$ and $\mathfrak{M}' = (W', R', V')$ be Kripke models, as in [[Kripke semantics|NGHWZ9Y7ZV]].
 Write $w \equiv w'$ when $\mathfrak{M}, w$ and $\mathfrak{M}', w'$ satisfy the same basic modal formulas.
 A model is *image-finite* if every world has only finitely many successors.
-A model is *modally saturated* (m-saturated) if, for every world $w$ and every set $\Sigma$ of modal formulas, the following holds: if every finite subset of $\Sigma$ is true at some successor of $w$, then all of $\Sigma$ is true at some successor of $w$.
+A model is *modally saturated* (m-saturated) if the following holds for every world $w$ and every set $\Sigma$ of modal formulas.
+If every finite subset of $\Sigma$ is true at some successor of $w$, then all of $\Sigma$ is true at some successor of $w$.
 
 1. If $\mathfrak{M}$ and $\mathfrak{M}'$ are image-finite, then for all $w \in W$ and $w' \in W'$, $w \equiv w'$ if and only if $w \mathrel{\underline{\leftrightarrow}} w'$.
 2. If $\mathfrak{M}$ and $\mathfrak{M}'$ are m-saturated, then for all $w \in W$ and $w' \in W'$, $w \equiv w'$ if and only if $w \mathrel{\underline{\leftrightarrow}} w'$.

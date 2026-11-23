@@ -85,7 +85,7 @@ Versions exist for hybrid logic, with closure conditions adapted to nominals, an
 
 ## History
 
-Robert Goldblatt and S. K. Thomason proved the theorem in 1975, in "Axiomatic classes in propositional modal logic".
+Robert Goldblatt and Steven Thomason proved the theorem in 1975, in "Axiomatic classes in propositional modal logic".
 Their proof is algebraic, through Birkhoff's variety theorem and the duality between modal algebras and general frames.
 
 ## Explanations

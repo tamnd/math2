@@ -38,6 +38,9 @@ Three results are cited without proof.
    The cases $\neg$ and $\wedge$ hold because an ultrafilter contains exactly one of $X$ and $W \setminus X$, and contains $X \cap Y$ exactly when it contains $X$ and $Y$.
 4. In the case $\lozenge \psi$ from left to right, let $u R^{ue} v$ and $V(\psi) \in v$.
    Then $m_R(V(\psi)) = V(\lozenge \psi) \in u$ by the definition of $R^{ue}$.
+
+### Part A, continued: the diamond case
+
 5. In the case $\lozenge \psi$ from right to left, let $V(\lozenge \psi) \in u$, and let $l_R(Y) = W \setminus m_R(W \setminus Y)$.
    We claim that the family $\{V(\psi)\} \cup \{Y : l_R(Y) \in u\}$ has the finite intersection property.
 6. Since $l_R$ preserves finite intersections, it suffices to check $V(\psi) \cap Y \neq \emptyset$ when $l_R(Y) \in u$.
