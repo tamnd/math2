@@ -18,44 +18,64 @@ sources:
 
 ## Proof
 
-We use the notation of the statement.
+We translate $L_1$-sentences into $L_2$-sentences, and we show that a decision procedure on the $L_2$ side would give one on the $L_1$ side.
+We use the notation of the [[statement|FMB2C20G8W]].
 
-Part A: the translation.
+### Part A: the translation
 
-1. Every $L_1$-formula is equivalent to an unnested one, whose atoms are $x = y$, $R(\vec{x})$ and $f(\vec{x}) = y$ with variables only. The unnesting is computable.
-2. For unnested $\varphi$, define $\varphi^I$: $(x = y)^I$ is $x = y$, $R(\vec{x})^I$ is $\rho_R(\vec{x})$, and $(f(\vec{x}) = y)^I$ is $\gamma_f(\vec{x}, y)$.
+1. Every $L_1$-formula is equivalent to an unnested one, whose atoms are $x = y$, $R(\vec{x})$ and $f(\vec{x}) = y$ with variables only.
+   The unnesting is computable.
+2. For unnested $\varphi$, define $\varphi^I$ on atoms: $(x = y)^I$ is $x = y$, $R(\vec{x})^I$ is $\rho_R(\vec{x})$, and $(f(\vec{x}) = y)^I$ is $\gamma_f(\vec{x}, y)$.
 3. Let $(\neg \varphi)^I = \neg \varphi^I$, $(\varphi \wedge \psi)^I = \varphi^I \wedge \psi^I$, and $(\exists x \, \varphi)^I = \exists x \, (\delta(x) \wedge \varphi^I)$.
-4. For a sentence $\sigma$, let $\sigma^I$ be the translation of its unnested form. The map $\sigma \mapsto \sigma^I$ is computable.
-5. Let $\mathcal{M} \models \varepsilon_I$. For every unnested $\varphi(\vec{x})$ and $\vec{a}$ in $\delta(\mathcal{M})$, $\mathcal{M} \models \varphi^I(\vec{a})$ exactly when $\mathcal{M}^I \models \varphi(\vec{a})$.
-6. Step 5 holds by [[structural induction|12MQ2NJ29A]]. Atoms hold by the definition of $\mathcal{M}^I$, and the quantifier case holds because $\exists x$ is relativized to $\delta$.
+4. For a sentence $\sigma$, let $\sigma^I$ be the translation of its unnested form.
+   The map $\sigma \mapsto \sigma^I$ is computable.
+5. Let $\mathcal{M} \models \varepsilon_I$.
+   For every unnested $\varphi(\vec{x})$ and $\vec{a}$ in $\delta(\mathcal{M})$, $\mathcal{M} \models \varphi^I(\vec{a})$ exactly when $\mathcal{M}^I \models \varphi(\vec{a})$.
+6. Step 5 holds by [[structural induction|12MQ2NJ29A]].
+   Atoms hold by the definition of $\mathcal{M}^I$, and the quantifier case holds because $\exists x$ is relativized to $\delta$.
 
-Part B: proof of part 1.
+### Part B: proof of part 1
 
-7. Let $T_2'$ be a consistent $L_2$-theory with $T_2 \subseteq T_2'$. Suppose, for a contradiction, that $T_2'$ is decidable.
-8. Let $T_1' = \set{\sigma : \sigma \text{ an } L_1\text{-sentence and } \sigma^I \in T_2'}$.
+7. Let $T_2'$ be a consistent $L_2$-theory with $T_2 \subseteq T_2'$.
+   Suppose, for a contradiction, that $T_2'$ is decidable.
+8. Let $T_1'$ be the set of $L_1$-sentences $\sigma$ with $\sigma^I \in T_2'$.
 9. $T_1'$ is decidable, because $\sigma \mapsto \sigma^I$ is computable by step 4 and $T_2'$ is decidable.
-10. $T_1 \subseteq T_1'$: for $\sigma \in T_1$, $T_2 \models \sigma^I$ by the hypothesis, and $T_2 \subseteq T_2'$.
-11. Every model $\mathcal{N}$ of $T_2'$ satisfies $\varepsilon_I$, because $T_2 \models \varepsilon_I$. By step 5, $\mathcal{N}^I \models T_1'$.
-12. $T_1'$ is closed under consequence. Let $T_1' \models \sigma$, and let $\mathcal{N} \models T_2'$.
-13. By step 11, $\mathcal{N}^I \models T_1'$, so $\mathcal{N}^I \models \sigma$. By step 5, $\mathcal{N} \models \sigma^I$.
-14. So $T_2' \models \sigma^I$, and $\sigma^I \in T_2'$ since $T_2'$ is a theory. Hence $\sigma \in T_1'$.
-15. $T_1'$ is consistent: $T_2'$ has a model $\mathcal{N}$, and $\mathcal{N}^I$ is a model of $T_1'$ by step 11.
-16. So $T_1'$ is a consistent decidable $L_1$-theory that contains $T_1$. This contradicts the essential undecidability of $T_1$.
+10. $T_1 \subseteq T_1'$, because for $\sigma \in T_1$ we have $T_2 \models \sigma^I$ by hypothesis, and $T_2 \subseteq T_2'$.
+11. Every model $\mathcal{N}$ of $T_2'$ satisfies $\varepsilon_I$, because $T_2 \models \varepsilon_I$.
+    By step 5, $\mathcal{N}^I \models T_1'$.
+12. $T_1'$ is closed under consequence.
+    Let $T_1' \models \sigma$, and let $\mathcal{N} \models T_2'$.
+13. By step 11, $\mathcal{N}^I \models T_1'$, so $\mathcal{N}^I \models \sigma$.
+    By step 5, $\mathcal{N} \models \sigma^I$.
+14. So $T_2' \models \sigma^I$, and $\sigma^I \in T_2'$ since $T_2'$ is a theory.
+    Hence $\sigma \in T_1'$.
+15. $T_1'$ is consistent, because $T_2'$ has a model $\mathcal{N}$, and $\mathcal{N}^I$ is a model of $T_1'$ by step 11.
+16. So $T_1'$ is a consistent decidable $L_1$-theory that contains $T_1$.
+    This contradicts the essential undecidability of $T_1$.
 17. Hence every consistent extension of $T_2$ is undecidable, and $T_2$ is essentially undecidable.
 
-Part C: proof of part 2.
+### Part C: one sentence that carries the interpretation
 
-18. Let $\alpha$ be the conjunction of a finite set of axioms of $T_1$. Let $\beta$ be the $L_2$-sentence $\varepsilon_I \wedge \alpha^I$.
-19. $\mathcal{M} \models \beta$: $\mathcal{M} \models \varepsilon_I$ by hypothesis, and $\mathcal{M}^I \models \alpha$, so $\mathcal{M} \models \alpha^I$ by step 5.
-20. Let $T$ be an $L_2$-theory with $\mathcal{M} \models T$. Let $T_2 = \operatorname{Cn}(T \cup \set{\beta})$.
+18. Let $\alpha$ be the conjunction of a finite set of axioms of $T_1$, and let $\beta$ be the $L_2$-sentence $\varepsilon_I \wedge \alpha^I$.
+19. $\mathcal{M} \models \beta$, because $\mathcal{M} \models \varepsilon_I$ by hypothesis, and $\mathcal{M}^I \models \alpha$, so $\mathcal{M} \models \alpha^I$ by step 5.
+20. Let $T$ be an $L_2$-theory with $\mathcal{M} \models T$, and let $T_2 = \operatorname{Cn}(T \cup \{\beta\})$.
 21. $T_2$ is consistent, because $\mathcal{M}$ is a model of $T$ and of $\beta$.
-22. $T_1$ is interpretable in $T_2$. First, $T_2 \models \varepsilon_I$, since $\beta$ contains it.
-23. Let $\sigma \in T_1$ and $\mathcal{N} \models T_2$. By step 5, $\mathcal{N}^I \models \alpha$, so $\mathcal{N}^I \models \sigma$, since $\alpha$ axiomatizes $T_1$.
-24. By step 5 again, $\mathcal{N} \models \sigma^I$. So $T_2 \models \sigma^I$.
+22. $T_1$ is interpretable in $T_2$.
+    First, $T_2 \models \varepsilon_I$, since $\beta$ contains it.
+23. Let $\sigma \in T_1$ and $\mathcal{N} \models T_2$.
+    By step 5, $\mathcal{N}^I \models \alpha$, so $\mathcal{N}^I \models \sigma$, since $\alpha$ axiomatizes $T_1$.
+24. By step 5 again, $\mathcal{N} \models \sigma^I$.
+    So $T_2 \models \sigma^I$.
+
+### Part C: proof of part 2
+
 25. By part 1, $T_2$ is essentially undecidable, so $T_2$ is undecidable.
-26. Suppose, for a contradiction, that $T$ is decidable. A sentence $\tau$ is in $T_2$ exactly when $(\beta \to \tau) \in T$, by the deduction property of $\models$.
-27. So $T_2$ would be [[decidable|HWC687ES0Q]], against step 25. Hence $T$ is undecidable.
-28. The theory $\operatorname{Th}(\mathcal{M})$ and each of its subtheories are true in $\mathcal{M}$. So $\operatorname{Th}(\mathcal{M})$ is hereditarily undecidable.
+26. Suppose, for a contradiction, that $T$ is decidable.
+    A sentence $\tau$ is in $T_2$ exactly when $(\beta \to \tau) \in T$, by the deduction property of $\models$.
+27. So $T_2$ would be [[decidable|HWC687ES0Q]], against step 25.
+    Hence $T$ is undecidable.
+28. The theory $\operatorname{Th}(\mathcal{M})$ and each of its subtheories are true in $\mathcal{M}$.
+    So $\operatorname{Th}(\mathcal{M})$ is hereditarily undecidable.
 
 ## Idea
 
@@ -65,5 +85,8 @@ Adding one sentence to a decidable theory keeps it decidable, so every theory tr
 
 ## Variants
 
-- A syntactic version replaces models by proofs: if $T_1 \vdash \sigma$, then $T_2 \vdash \sigma^I$, by translating a formal proof line by line. This version also shows that the translation preserves provability in weak systems.
-- With parameters $\vec{p}$, one takes $\beta = \exists \vec{p} \, (\varepsilon_I(\vec{p}) \wedge \alpha^I(\vec{p}))$ and $T_1' = \set{\sigma : T_2' \models \forall \vec{p} \, (\varepsilon_I(\vec{p}) \wedge \alpha^I(\vec{p}) \to \sigma^I(\vec{p}))}$.
+A syntactic version replaces models by proofs: if $T_1 \vdash \sigma$, then $T_2 \vdash \sigma^I$, by translating a formal proof line by line.
+This version also shows that the translation preserves provability in weak systems.
+
+With parameters $\vec{p}$, one takes $\beta = \exists \vec{p} \, (\varepsilon_I(\vec{p}) \wedge \alpha^I(\vec{p}))$.
+In part 1 one then takes for $T_1'$ the set of $\sigma$ with $T_2' \models \forall \vec{p} \, (\varepsilon_I(\vec{p}) \wedge \alpha^I(\vec{p}) \to \sigma^I(\vec{p}))$.

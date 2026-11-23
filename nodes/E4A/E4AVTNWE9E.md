@@ -9,7 +9,7 @@ topics: [DYJ0KGTPMR]
 ## Summary
 
 Is the sentence $\forall x \, \exists y \, (x = y + y \vee x = y + y + 1)$ true in the natural numbers with addition?
-Here the answer is yes, since every number is even or odd, and Presburger showed in 1929 that a computer can answer every such question about addition.
+Here the answer is yes, since every number is even or odd, and Presburger showed in 1929 that one algorithm answers every such question about addition.
 Decidability asks, for a logic or a theory of [[mathematical logic|DYJ0KGTPMR]], whether one algorithm answers all questions of this kind.
 
 For first-order logic itself the answer is no.
