@@ -28,7 +28,8 @@ Compare two arguments built from three "all" sentences.
 "All rectangles are parallelograms, all squares are rectangles, so all squares are parallelograms" is valid; the middle term "rectangles" is the subject of the first premise and the predicate of the second.
 "All squares are parallelograms, all rectangles are parallelograms, so all rectangles are squares" is invalid; the middle term "parallelograms" is the predicate of both premises.
 
-In exact terms, write a categorical syllogism in standard order: the major premise, which contains the major term $P$ (the predicate of the conclusion), then the minor premise, which contains the minor term $S$ (the subject of the conclusion), then the conclusion $(S, P)$.
+In exact terms, the major term $P$ is the predicate of the conclusion and the minor term $S$ is its subject.
+Standard order lists the major premise (the one containing $P$), then the minor premise (the one containing $S$), then the conclusion $(S, P)$.
 Write each proposition as the pair (subject, predicate).
 The figure is the first, second, third or fourth according as the premises are $(M, P), (S, M)$, or $(P, M), (S, M)$, or $(M, P), (M, S)$, or $(P, M), (M, S)$, where $M$ is the middle term.
 The figure together with the [[mood|1TD6HRM5NG]] fixes the form of the syllogism.
@@ -59,8 +60,10 @@ Some authors list the minor premise first, which swaps the descriptions of the f
 ### One example in each figure
 
 In the first figure, [[Barbara|AC6XQ4KRNT]] reads "all $M$ are $P$, all $S$ are $M$, so all $S$ are $P$".
-In the second figure, Camestres reads "all $P$ are $M$, no $S$ is $M$, so no $S$ is $P$"; with $P$ the squares, $M$ the rectangles and $S$ the triangles, it proves that no triangle is a square, and [[its reduction to Celarent|TKW0RRHV88]] shows how it is proved.
-In the third figure, Disamis reads "some $M$ are $P$, all $M$ are $S$, so some $S$ are $P$"; with $M$ the primes, $P$ the odd numbers and $S$ the integers greater than $1$, it proves that some integers greater than $1$ are odd.
+In the second figure, Camestres reads "all $P$ are $M$, no $S$ is $M$, so no $S$ is $P$".
+With $P$ the squares, $M$ the rectangles and $S$ the triangles, it proves that no triangle is a square, and [[its reduction to Celarent|TKW0RRHV88]] shows how it is proved.
+In the third figure, Disamis reads "some $M$ are $P$, all $M$ are $S$, so some $S$ are $P$".
+With $M$ the primes, $P$ the odd numbers and $S$ the integers greater than $1$, it proves that some integers greater than $1$ are odd.
 Also in the third figure, [[Darapti|ARGGZ9N2SV]] reads "all $M$ are $P$, all $M$ are $S$, so some $S$ are $P$", and it is valid only when $M$ is not empty.
 In the fourth figure, [[Dimatis|CBM4330BRB]] reads "some $P$ are $M$, all $M$ are $S$, so some $S$ are $P$".
 

@@ -88,7 +88,8 @@ In the medieval names, the moods that begin with B, such as Baroco and Bocardo, 
 Barbara proves $S \subseteq P$ and says nothing about $P \subseteq S$.
 "All squares are parallelograms" is true, and "all parallelograms are squares" is false.
 Reversing a premise is the most common error: "all $P$ are $M$" in place of "all $M$ are $P$" gives the undistributed middle.
-And Barbara with a false premise is still valid, but it proves nothing: "all primes are odd, all primes greater than $10$ are primes, so all primes greater than $10$ are odd" has a true conclusion and a false major premise.
+Barbara with a false premise is still valid, but it proves nothing.
+"All primes are odd, all primes greater than $10$ are primes, so all primes greater than $10$ are odd" has a false major premise and a true conclusion.
 
 ### History
 
