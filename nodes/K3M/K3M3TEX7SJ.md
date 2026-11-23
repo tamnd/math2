@@ -23,7 +23,7 @@ In 1929 Hellmuth Kneser found a gap in it, and the lemma stayed unproved until C
 For almost twenty years the field had treated as known a result that nobody had proved.
 Cases like this one lie behind a debate about speculation and proof in the 1990s.
 
-In 1993 Arthur Jaffe and Frank Quinn proposed, in the Bulletin of the American Mathematical Society, that mathematics should recognize "theoretical mathematics": work that reaches results by intuition and heuristic argument, clearly labeled as not proved.
+In 1993 Arthur Jaffe and Frank Quinn proposed, in the Bulletin of the American Mathematical Society, that mathematics should recognize "theoretical mathematics": work that reaches results by intuition and heuristic argument, and that is openly labeled as not proved.
 In 1994 William Thurston replied in the same journal, in "On proof and progress in mathematics", that the aim of mathematics is human understanding, and that proofs serve that aim.
 Fifteen other mathematicians responded in the same issue.
 The exchange is still a standard reference on how [[rigor|E1PE9R8DBB]] relates to discovery and to credit.
