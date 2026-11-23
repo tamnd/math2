@@ -18,8 +18,9 @@ sources:
 
 The weak Kleene logics use the classical tables on $\{0, 1\}$ and give the value $\tfrac12$ to every compound with a part of value $\tfrac12$; they differ only in the designated set.
 
-The *weak Kleene algebra* $\mathbf{WK}_3$ has the universe $\{0, \tfrac12, 1\}$ and the operations below.
-$$\neg x = 1 - x, \qquad x \land y = \begin{cases} \tfrac12 & \text{if } x = \tfrac12 \text{ or } y = \tfrac12, \\ \min(x, y) & \text{otherwise}, \end{cases} \qquad x \lor y = \begin{cases} \tfrac12 & \text{if } x = \tfrac12 \text{ or } y = \tfrac12, \\ \max(x, y) & \text{otherwise} \end{cases}$$
+The *weak Kleene algebra* $\mathbf{WK}_3$ has the universe $\{0, \tfrac12, 1\}$, the negation $\neg x = 1 - x$ and the two operations below.
+$$x \land y = \begin{cases} \tfrac12 & \text{if } x = \tfrac12 \text{ or } y = \tfrac12, \\ \min(x, y) & \text{otherwise} \end{cases}$$
+$$x \lor y = \begin{cases} \tfrac12 & \text{if } x = \tfrac12 \text{ or } y = \tfrac12, \\ \max(x, y) & \text{otherwise} \end{cases}$$
 Implication is the abbreviation $\varphi \to \psi = \neg \varphi \lor \psi$.
 *Bochvar's logic* $\mathrm{B}_3$ is the logic of the [[logical matrix|AJEJS6TFWP]] $\langle \mathbf{WK}_3, \{1\} \rangle$.
 *Paraconsistent weak Kleene logic* $\mathsf{PWK}$ is the logic of the matrix $\langle \mathbf{WK}_3, \{\tfrac12, 1\} \rangle$.
