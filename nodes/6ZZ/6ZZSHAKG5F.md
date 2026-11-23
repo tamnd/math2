@@ -92,7 +92,8 @@ Segerberg's An Essay in Classical Modal Logic of 1971 developed the relational f
 
 First, filter the model $W = \mathbb{N}$, $R = {\le}$, $V(p) = \{ 0 \}$ through $\Sigma = \{ p, \square p \}$, and check that the smallest filtration is reflexive.
 Here $p$ is true only at $0$, and $\square p$ is true nowhere, since every $n$ sees $n + 1 \geq 1$.
-So the classes are $A = \{ 0 \}$ and $B = \{ n : n \geq 1 \}$, and $R^s = \{ (A, A), (A, B), (B, B) \}$, the images of the pairs $(0, 0)$, $(0, 1)$ and $(1, 1)$.
+So the classes are $A = \{ 0 \}$ and $B = \{ n : n \geq 1 \}$, and $R^s = \{ (A, A), (A, B), (B, B) \}$.
+These are the images of the pairs $(0, 0)$, $(0, 1)$ and $(1, 1)$.
 It is reflexive, and $\square p$ is false at $A$ and at $B$, as in $\mathfrak{M}$.
 
 Second, what is the largest possible number of worlds in a filtration through the subformulas of $\square(p \to q)$?

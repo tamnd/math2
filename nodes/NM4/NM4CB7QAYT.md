@@ -35,7 +35,8 @@ The proof is in [[the proof of the truth lemma|ST0ZHXSKFG]].
 ### Why each hypothesis is needed
 
 Normality is used in the existence lemma.
-The step from $\lozenge\varphi \in \Gamma$ to a consistent set $\{ \varphi \} \cup \{ \psi : \square\psi \in \Gamma \}$ needs the rule that turns $\vdash \psi_1 \wedge \dots \wedge \psi_n \to \chi$ into $\vdash \square\psi_1 \wedge \dots \wedge \square\psi_n \to \square\chi$.
+The step from $\lozenge\varphi \in \Gamma$ to a consistent set $\{ \varphi \} \cup \{ \psi : \square\psi \in \Gamma \}$ needs the rule RK.
+That rule turns $\vdash \psi_1 \wedge \dots \wedge \psi_n \to \chi$ into $\vdash \square\psi_1 \wedge \dots \wedge \square\psi_n \to \square\chi$.
 For a logic without axiom $\mathrm{K}$ this rule fails, the relational truth lemma fails with it, and [[neighborhood semantics|CN7HK9K1B6]] is used instead.
 
 Maximality is used in the truth lemma.
