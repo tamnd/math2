@@ -21,7 +21,7 @@ We derive $B \bot$ from $B (p \wedge \neg B p)$ in $\mathsf{KD4}$, then repeat t
 These are the three parts of [[the theorem|TCAYVAVAK4]].
 The system $\mathsf{KD4}$ has the propositional tautologies, modus ponens, the [[necessitation rule|9TPXQT9625]], and the axioms $\mathsf{K}$, $\mathsf{D}$ and $\mathsf{4}$.
 
-Part 1, a derivation in $\mathsf{KD4}$.
+### Part 1, a derivation in KD4
 
 1. The formula $(p \wedge \neg B p) \to p$ is a tautology, so necessitation and $\mathsf{K}$ give $B (p \wedge \neg B p) \to B p$.
 2. In the same way the tautology $(p \wedge \neg B p) \to \neg B p$ gives $B (p \wedge \neg B p) \to B \neg B p$.
@@ -31,7 +31,7 @@ Part 1, a derivation in $\mathsf{KD4}$.
 6. Axiom $\mathsf{D}$ is $\neg B \bot$, so $\neg B (p \wedge \neg B p)$ follows by propositional logic.
 7. $\mathsf{KD45}$ contains $\mathsf{KD4}$, so it proves the same formula.
 
-Part 2, the semantic form.
+### Part 2, the semantic form
 
 8. Let $M$ be a Kripke model with a serial and transitive relation $R$, and suppose for a contradiction that $B (p \wedge \neg B p)$ holds at $w$.
 9. By seriality there is $v$ with $w R v$, and then $p \wedge \neg B p$ holds at $v$.
@@ -41,7 +41,7 @@ Part 2, the semantic form.
 13. [[KD45 frames|1CFMP9DEE6]] are serial and transitive, so the formula is unsatisfiable on them.
     Part 2 also follows from part 1 by [[soundness|E87G6ZTMTN]], since serial transitive frames validate $\mathsf{D}$ and $\mathsf{4}$.
 
-Part 3, a model of the Moore sentence.
+### Part 3, a model of the Moore sentence
 
 14. Let $W = \{w, v\}$ and $R = \{(w, v), (v, v)\}$, with $p$ true at $w$ only.
 15. $R$ is serial, since both worlds see $v$, and transitive, since the composable pairs give only $(w, v)$ and $(v, v)$.
