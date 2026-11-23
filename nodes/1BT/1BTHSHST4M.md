@@ -30,7 +30,7 @@ They end with new proofs of known theorems, the debate of 1993 and 1994 on specu
 6. [[Long proofs and surveyability|RM0S65BHWH]]: meet proofs too long for one reader and the question of whether a proof must be surveyable.
 7. [[Acceptance of proofs|MJ3EHQJJHX]]: see how refereeing, consensus and time turn a claimed proof into an accepted theorem, and how disputes are reported.
 8. [[Many proofs of one theorem|KNQDDN6PT2]]: find out why mathematicians prove known theorems again and what each new proof adds.
-9. [[The debate on theoretical mathematics|K3M3TEX7SJ]]: follow the positions of Jaffe and Quinn in 1993 and of Thurston in 1994 on speculation, rigor and understanding.
+9. [[The debate of Jaffe and Quinn with Thurston|K3M3TEX7SJ]]: follow the positions of Jaffe and Quinn in 1993 and of Thurston in 1994 on speculation, rigor and understanding.
 10. [[Proofs from the Book|A4RJYP79A7]]: learn what makes a proof feel inevitable, through examples from the collection of Aigner and Ziegler.
 
 ### Prerequisites
