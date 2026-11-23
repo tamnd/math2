@@ -98,13 +98,14 @@ Two traps are common.
 First, $1 - x$ is not the negation of every t-norm logic.
 The residual negation $x \Rightarrow_* 0$ of the minimum and of the product is $1$ at $x = 0$ and $0$ everywhere else.
 For example, $0.3 \Rightarrow_{\Pi} 0 = 0 / 0.3 = 0$, not $0.7$.
-Second, the word "stronger" is used in two opposite ways.
-As functions, larger t-norms are called stronger, but in logic a larger t-norm gives a weaker conjunction, since it proves fewer formulas of the form $A \otimes B \to C$.
+Second, a continuous t-norm can have a residuum that is not continuous.
+The Gödel residuum at $y = 0.4$ is $1$ for $x = 0.4$ and $0.4$ for every $x > 0.4$, so it jumps on the diagonal.
+Of the three basic residua, only the Łukasiewicz one is continuous.
 
 ### History
 
 Menger introduced triangular norms in 1942, in his work on statistical metric spaces, where they replace the triangle inequality; this is the origin of the name.
-Mostert and Shields proved the representation of continuous t-norms by ordinal sums in 1957, in their work on semigroups on compact intervals.
+Mostert and Shields proved the representation of continuous t-norms by ordinal sums in 1957, in their work on topological semigroups.
 Ling gave the representation of continuous Archimedean t-norms in 1965.
 The monograph *Triangular Norms* by Klement, Mesiar and Pap appeared in 2000.
 

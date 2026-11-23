@@ -28,6 +28,8 @@ First, $\Gamma \vdash \varphi$ implies $\Gamma \models_{\mathcal{K}} \varphi$.
 4. The set $T$ is closed, so $\sigma(\varphi) \in T$.
    Since $T$ and $\sigma$ were arbitrary, $\Gamma \models_{\mathcal{K}} \varphi$.
 
+### Completeness and the other items
+
 Second, $\Gamma \models_{\mathcal{K}} \varphi$ implies $\Gamma \vdash \varphi$.
 
 5. Put $T = \mathrm{Cn}(\Gamma) = \{\psi : \Gamma \vdash \psi\}$.

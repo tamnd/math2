@@ -25,7 +25,8 @@ Give the sentence "there will be a sea battle tomorrow" the value $\tfrac12$, re
 If "or" takes the larger of two values, then "there will be a sea battle or there will not" also gets only $\tfrac12$, so excluded middle is no longer a law.
 A *many-valued logic* is a logic built in this way: you keep truth tables, but the tables run over more than two truth values.
 
-Exactly, as in [[the definition|66NMTCQNQV]], the semantics is a set $V$ of truth values with at least three elements, a truth function on $V$ for each connective, and a nonempty proper subset $D \subseteq V$ of *designated values* that play the role of "true".
+Exactly, as in [[the definition|66NMTCQNQV]], the semantics is a set $V$ of at least three truth values with a truth function on $V$ for each connective.
+A nonempty proper subset $D \subseteq V$ of *designated values* plays the role of "true".
 A formula $\varphi$ follows from a set $\Gamma$ when every valuation that gives designated values to all members of $\Gamma$ gives a designated value to $\varphi$.
 The triple of values, operations and designated set is a [[logical matrix|P7E926JK13]].
 The logic is *finitely valued* when $V$ is finite, as in [[Łukasiewicz's three-valued logic|1CE2TGM6MQ]], and *infinite-valued* when $V$ is infinite, as in [[Łukasiewicz logic on the unit interval|NFCEM44XYH]].

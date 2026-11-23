@@ -17,18 +17,27 @@ sources:
 In [[infinite-valued Łukasiewicz logic|JQ713VVD0G]], consider the contraction formula $p \to (p \odot p)$, where $x \odot y = \max(0, x + y - 1)$.
 Let $v(p) = \tfrac12$.
 
-1. $v(p \odot p) = \max(0, \tfrac12 + \tfrac12 - 1) = 0$.
-2. $v(p \to (p \odot p)) = \min(1, 1 - \tfrac12 + 0) = \tfrac12$.
-3. $\tfrac12 \ne 1$, so $p \to (p \odot p)$ is not a tautology.
-4. In general $v(p \to (p \odot p)) = \min(1, 1 - x + \max(0, 2x - 1))$, which is $1$ iff $x \in \set{0, 1}$.
+1. Compute the strong conjunction: $v(p \odot p) = \max(0, \tfrac12 + \tfrac12 - 1) = 0$.
+2. Compute the implication: $v(p \to (p \odot p)) = \min(1, 1 - \tfrac12 + 0) = \tfrac12$.
+3. The value $\tfrac12$ is not the designated value $1$, so $p \to (p \odot p)$ is not a tautology.
+4. In general the value is $\min(1, 1 - x + \max(0, 2x - 1))$.
+   For $x \le \tfrac12$ it is $1 - x$, and for $x \ge \tfrac12$ it is $x$, so it equals $1$ only at $x = 0$ and $x = 1$.
 
-So strong conjunction is not idempotent, and the premise $p$ cannot be used twice for free.
+So strong conjunction is not idempotent, and a premise $p$ cannot be used twice for free.
 
 ## Remarks
 
-1. The equivalent form $(p \to (p \to q)) \to (p \to q)$ also fails: at $p = \tfrac12$, $q = 0$ it has value $\tfrac12$.
-2. The weak conjunction $\min$ is idempotent, so $p \to (p \land p)$ is a tautology.
-3. Wikipedia notes that $p \odot p$ and $\neg p \odot \neg p$ both have value $0$ at $p = \tfrac12$, while $p \oplus p$ and $\neg p \oplus \neg p$ have value $1$.
+The rule form of contraction fails too.
+The formula $(p \to (p \to q)) \to (p \to q)$ has the value $\tfrac12$ at $p = \tfrac12$ and $q = 0$.
+Here $p \to q = \tfrac12$, then $p \to (p \to q) = \tfrac12 \to \tfrac12 = 1$, and finally $1 \to \tfrac12 = \tfrac12$.
+
+The weak conjunction behaves differently.
+It is $\min$, which is idempotent, so $p \to (p \land p)$ is a tautology.
+The failure belongs to $\odot$ alone.
+
+At $p = \tfrac12$ both $p \odot p$ and $\neg p \odot \neg p$ have the value $0$, while $p \oplus p$ and $\neg p \oplus \neg p$ have the value $1$.
+So the middle value is the point where strong and weak connectives differ most.
+On the classical values $0$ and $1$ the formula is always $1$, which is why two-valued tables never show the failure.
 
 ## Explanations
 
@@ -40,9 +49,8 @@ So you cannot use the same half-true premise twice and keep the same strength.
 
 ### L2 human
 
-1. Compute the strong conjunction first.
-2. Then compute the implication with $\min(1, 1 - x + y)$.
-3. Look for a point where the value is below $1$.
-
-The typical use is to show that Łukasiewicz logic is a logic without contraction, where premises are resources.
-A trap: with $p = 1$ or $p = 0$ the formula is $1$, so classical values never show the failure.
+To refute a law, compute the inner connective first, then the implication with $\min(1, 1 - x + y)$, and look for a point where the value is below $1$.
+Here the inner value at $\tfrac12$ is $0$, and the implication then gives $\tfrac12$.
+This is the typical use of the example: it shows that Łukasiewicz logic is a logic without contraction, where premises behave like resources.
+The [[substructural logics|98QF5J4W16]] study this feature in general.
+Watch out: at $p = 0$ and $p = 1$ the formula has the value $1$, so a search over classical values alone finds nothing.

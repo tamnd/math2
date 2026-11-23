@@ -18,23 +18,28 @@ sources:
 
 ## Example
 
-Let $\mathrm{Ł}_4$ be the matrix with values $\set{0, \tfrac13, \tfrac23, 1}$, designated set $\set{1}$, $\neg x = 1 - x$ and $x \to y = \min(1, 1 - x + y)$.
+Let $\mathrm{Ł}_4$ be the matrix with values $\{0, \tfrac13, \tfrac23, 1\}$, designated set $\{1\}$, $\neg x = 1 - x$ and $x \to y = \min(1, 1 - x + y)$.
 We evaluate Wajsberg's axiom $\mathrm{W4} = ((p \to \neg p) \to p) \to p$ at $p = \tfrac23$.
 
-1. The operations are well defined on $\mathrm{Ł}_4$: $1 - x$ and $\min(1, 1 - x + y)$ are multiples of $\tfrac13$ in $[0, 1]$.
-2. $\neg p = 1 - \tfrac23 = \tfrac13$.
-3. $p \to \neg p = \min(1, 1 - \tfrac23 + \tfrac13) = \tfrac23$.
-4. $(p \to \neg p) \to p = \tfrac23 \to \tfrac23 = 1$.
-5. $\mathrm{W4} = 1 \to \tfrac23 = \tfrac23$, which is not designated.
+1. The operations are well defined on $\mathrm{Ł}_4$, because $1 - x$ and $\min(1, 1 - x + y)$ are again multiples of $\tfrac13$ in $[0, 1]$.
+2. Negate: $\neg p = 1 - \tfrac23 = \tfrac13$.
+3. The first implication is $p \to \neg p = \min(1, 1 - \tfrac23 + \tfrac13) = \tfrac23$.
+4. The second is $(p \to \neg p) \to p = \tfrac23 \to \tfrac23 = 1$.
+5. The last is $1 \to \tfrac23 = \tfrac23$, which is not designated.
 
 So $\mathrm{W4}$ is not a tautology of $\mathrm{Ł}_4$, while it is a tautology of [[Łukasiewicz's three-valued logic|F9NDCFY3GS]].
+Hence $\mathrm{Ł}_4$ is not a model of $\mathrm{Ł}_3$.
 
 ## Remarks
 
-The other three Wajsberg axioms are tautologies of every Łukasiewicz matrix, including $[0, 1]$; see [[the axioms of Łukasiewicz logic|JQ713VVD0G]].
+The other three Wajsberg axioms are tautologies of every Łukasiewicz matrix, including $[0, 1]$, as [[the axioms of Łukasiewicz logic|JQ713VVD0G]] show.
 So $\mathrm{W4}$ is the axiom that cuts $\mathrm{Ł}_3$ out of the larger Łukasiewicz logics.
 The same valuation $p = \tfrac23$ refutes $\mathrm{W4}$ in $[0, 1]$, so $\mathrm{W4}$ is not a theorem of infinite-valued Łukasiewicz logic either.
-At $p = \tfrac13$ in $\mathrm{Ł}_4$, the value is $1$: $\tfrac13 \to \tfrac23 = 1$, then $1 \to \tfrac13 = \tfrac13$, and $\tfrac13 \to \tfrac13 = 1$.
+
+The other values of $\mathrm{Ł}_4$ do not refute it.
+At $p = \tfrac13$ we get $\tfrac13 \to \tfrac23 = 1$, then $1 \to \tfrac13 = \tfrac13$, then $\tfrac13 \to \tfrac13 = 1$.
+At $p = 0$ and $p = 1$ the classical table gives $1$.
+In general a tautology of $\mathrm{Ł}_n$ need not survive in a larger $\mathrm{Ł}_m$: the values of $\mathrm{Ł}_3$ lie among those of $\mathrm{Ł}_5$, but not among those of $\mathrm{Ł}_4$, since $\tfrac12$ is not a multiple of $\tfrac13$.
 
 ## Explanations
 
@@ -47,9 +52,8 @@ So the axiom tells the three-valued logic apart from the others.
 
 ### L2 human
 
-1. List the values of $\mathrm{Ł}_4$: $0, \tfrac13, \tfrac23, 1$.
-2. Compute $\mathrm{W4}$ at each value: $1$ at $0$, $1$ at $\tfrac13$, $\tfrac23$ at $\tfrac23$, $1$ at $1$.
-3. One value below $1$ is enough to refute a tautology.
-
+List the values of $\mathrm{Ł}_4$, which are $0, \tfrac13, \tfrac23, 1$, and compute $\mathrm{W4}$ at each.
+The results are $1$, $1$, $\tfrac23$ and $1$.
+One value below $1$ is enough to refute a tautology, so the axiom fails.
 The typical use is to separate two finite-valued logics by one formula.
-A trap: a tautology of a smaller Łukasiewicz matrix need not survive in a larger one, as $\mathrm{W4}$ shows for $\mathrm{Ł}_3$ and $\mathrm{Ł}_4$.
+Watch out: a law of a smaller Łukasiewicz matrix can fail in a larger one, because $\mathrm{Ł}_4$ does not contain $\mathrm{Ł}_3$ as a submatrix.

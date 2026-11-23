@@ -23,78 +23,122 @@ sources:
 
 ## Summary
 
-*Infinite-valued Łukasiewicz logic* $\mathrm{Ł}_\infty$ is the logic of the matrix on $[0, 1]$ with $\neg x = 1 - x$, $x \to y = \min(1, 1 - x + y)$ and designated value $1$; see [[the definition|JQ713VVD0G]].
-It has a Hilbert-style axiomatization with four axiom schemas and modus ponens, which is complete for the $[0, 1]$-tautologies.
+Suppose "the soup is hot" has truth value $0.7$ and "the soup is safe to eat" has value $0.4$.
+Łukasiewicz's implication gives "if hot then safe" the value
+$$\min(1, 1 - 0.7 + 0.4) = 0.7.$$
+The implication is fully true when the antecedent is no truer than the consequent, and it loses exactly the drop $0.3$ otherwise.
+Łukasiewicz infinite-valued logic is the logic of this rule on all of $[0, 1]$.
+
+Exactly, $\mathrm{Ł}_\infty$ is the logic of the matrix on $[0, 1]$ with $\neg x = 1 - x$, $x \to y = \min(1, 1 - x + y)$ and the designated value $1$; see [[the definition|JQ713VVD0G]].
+Four axiom schemas with modus ponens prove exactly its tautologies.
 Its formulas define exactly the continuous piecewise linear functions with integer coefficients, by [[McNaughton's theorem|E11A9H8Z7Q]], and its algebras are the [[MV-algebras|8T4M7RN9AC]].
-It is the oldest [[fuzzy logic|8DH4QM6AX8]] and the only t-norm based logic whose connectives are all continuous.
 
 ## Motivation
 
-Łukasiewicz first used three values and then allowed any number of them.
-In 1922 he gave the tables on all of $[0, 1]$ with the same formulas as for three values.
-A continuum of values is natural for vague predicates, where "tall" can hold to any degree.
-The logic also has a clean algebraic theory: it is to MV-algebras what classical logic is to Boolean algebras.
+Łukasiewicz first used three values for future contingents, in [[Ł3|1CE2TGM6MQ]], and then allowed any number of values with the same formulas.
+A continuum of values suits vague predicates, where "hot" or "tall" can hold to any degree.
+So $\mathrm{Ł}_\infty$ is the oldest [[fuzzy logic|8DH4QM6AX8]], and it is the logic of the Łukasiewicz t-norm.
+
+The logic also has a clean algebraic theory.
+It stands to MV-algebras as classical logic stands to Boolean algebras, and [[Chang's completeness theorem|QM0F33QE9P]] makes this exact.
+Later, [[Pavelka logic|YG62F8YC0P]] adds truth constants to it, and the [[arithmetical complexity of first-order Łukasiewicz logic|VAHH1505Z0]] shows what goes wrong with quantifiers.
 
 ## Notation
 
 We write $x \oplus y = \min(1, x + y)$ and $x \odot y = \max(0, x + y - 1)$ for strong disjunction and strong conjunction.
-Other texts write $\otimes$ or $\&$ for $\odot$; on the notation see [[the topic page|WZP584JQ06]].
+Other texts write $\otimes$ or $\&$ for $\odot$; the [[topic|WZP584JQ06]] fixes $\odot$ throughout.
 Weak conjunction and disjunction are $\min$ and $\max$, written $\land$ and $\lor$.
-$\varphi^n$ is $\varphi \odot \dots \odot \varphi$ with $n$ factors, and $n \varphi$ is $\varphi \oplus \dots \oplus \varphi$.
+We write $\varphi^n$ for $\varphi \odot \dots \odot \varphi$ with $n$ factors, and $n\varphi$ for $\varphi \oplus \dots \oplus \varphi$.
 
 ## Remarks
 
-### Examples
+### Three computations
 
-1. [[Contraction fails|D0S5PRXVZM]]: $p \to (p \odot p)$ has value $\tfrac12$ at $p = \tfrac12$.
-2. [[Disjunction is definable from implication|DG496EV8FE]]: $(p \to q) \to q$ has value $\max(p, q)$.
-3. The Łukasiewicz $n$-valued logics $\mathrm{Ł}_n$ use the same tables on $\set{0, \tfrac{1}{n-1}, \dots, 1}$; [[Łukasiewicz's three-valued logic|1CE2TGM6MQ]] is $\mathrm{Ł}_3$.
-4. Double negation $\neg \neg p \leftrightarrow p$ is a tautology, since $1 - (1 - x) = x$.
+Strong conjunction is not idempotent.
+At $p = \tfrac12$ the [[contraction formula|D0S5PRXVZM]] $p \to (p \odot p)$ gets a value below $1$:
+$$\tfrac12 \odot \tfrac12 = \max(0, 0) = 0, \qquad \tfrac12 \to 0 = \min(1, \tfrac12) = \tfrac12.$$
 
-### Non-examples
+Disjunction is definable from implication.
+The formula $(p \to q) \to q$ has [[the value max(x, y)|DG496EV8FE]] in both cases of the order.
+At $x = 0.8$ and $y = 0.3$ we get $0.8 \to 0.3 = 0.5$, and then $0.5 \to 0.3 = 0.8$.
 
-1. [[Double negation fails in Gödel and product logic|XXVXP0S5Q0]], so those logics are not $\mathrm{Ł}_\infty$.
-2. Classical logic is not $\mathrm{Ł}_\infty$: $p \lor \neg p$ has value $\tfrac12$ at $p = \tfrac12$.
+Double negation holds, since $1 - (1 - x) = x$ for every $x$.
+So $\neg\neg p \leftrightarrow p$ is a tautology, unlike in Gödel logic.
 
-### Basic properties
+### The finite and the infinite
 
-1. Completeness. A formula is a theorem of the axioms with modus ponens iff it is a $[0, 1]$-tautology.
-2. For a finite set $\Gamma$, $\Gamma \models \varphi$ iff $\Gamma \vdash \varphi$, by SEP.
-3. This fails for infinite $\Gamma$. Let $\Gamma = \set{\neg p \to p^n : n \ge 1}$. If $p = x < 1$, then $p^n = 0$ for large $n$, and $\neg p \to p^n = x < 1$; so $\Gamma \models p$.
-4. But each finite part $\set{\neg p \to p^n : n \le N}$ has value $1$ at $p = \tfrac{N}{N+1}$, since then $p^n = \tfrac{N+1-n}{N+1} \ge \tfrac{1}{N+1} = 1 - p$. So $\Gamma \not\vdash p$.
-5. The tautologies of $\mathrm{Ł}_\infty$ are contained in those of every $\mathrm{Ł}_n$, by SEP.
-6. Deciding tautologies is coNP-complete, as in classical logic (Mundici 1987).
+The $n$-valued logics $\mathrm{Ł}_n$ use the same tables on $\{0, \tfrac{1}{n-1}, \dots, 1\}$, and [[Ł3|1CE2TGM6MQ]] is $\mathrm{Ł}_3$.
+Every tautology of $\mathrm{Ł}_\infty$ is a tautology of each $\mathrm{Ł}_n$, because the $n$ values form a subalgebra of $[0, 1]$.
+The converse also holds for the intersection: a formula valid in every $\mathrm{Ł}_n$ takes the value $1$ at every rational point.
+The operations are continuous, so it takes the value $1$ everywhere.
+So $\mathrm{Ł}_\infty$ is the intersection of the finite-valued logics, not their union.
+
+### Completeness, weak and strong
+
+A formula is a theorem of the Łukasiewicz axioms with modus ponens exactly when it is a $[0, 1]$-tautology.
+The same holds for consequence from a finite set of premises.
+It fails for infinite sets, and here is the standard witness.
+Let $\Gamma = \{\neg p \to p^n : n \ge 1\}$.
+If $v(p) = x < 1$, then $p^n = 0$ for large $n$, and $\neg p \to 0$ has the value $x < 1$.
+So every model of $\Gamma$ has $v(p) = 1$, and $\Gamma \models p$.
+
+But a proof uses only finitely many premises, and each finite part fails to give $p$.
+For the premises with $n \le N$, take $p = \tfrac{N}{N+1}$, so that $p^n = \tfrac{N + 1 - n}{N + 1} \ge \tfrac{1}{N+1} = 1 - p$.
+Then each premise has the value $1$ while $p$ does not, so $\Gamma \not\vdash p$.
+
+### What it is not
+
+Classical logic is not $\mathrm{Ł}_\infty$: the law $p \lor \neg p$ has the value $\max(\tfrac12, \tfrac12) = \tfrac12$ at $p = \tfrac12$.
+Gödel and product logic are not $\mathrm{Ł}_\infty$ either, because [[double negation fails in them|XXVXP0S5Q0]].
+At $x = 0.5$ the Gödel negation gives $\neg 0.5 = 0$ and $\neg 0 = 1$, so $\neg\neg 0.5 = 1 \ne 0.5$.
+
+### Watch out
+
+Do not use $\land$ where $\odot$ is meant.
+Modus ponens in degrees reads $x \odot (x \to y) \le y$.
+The version with $\min$ fails: at $x = 0.6$ and $y = 0.2$ we get $x \to y = 0.6$, and $\min(0.6, 0.6) = 0.6 > 0.2$.
+Check: $0.6 \odot 0.6 = 0.2$, which is at most $y$.
+A second trap is to read $p \odot p$ as a product: at $p = \tfrac12$ it is $0$, not $\tfrac14$.
 
 ### History
 
-Łukasiewicz gave the $[0, 1]$-valued tables in 1922, and Łukasiewicz and Tarski presented the infinite-valued logic in 1930.
-SEP reports that Wajsberg proved Łukasiewicz's conjecture that the axioms are complete, but the first published proof was by Rose and Rosser in 1958.
-Chang gave an algebraic proof in 1958 and 1959 with MV-algebras; see [[Chang's completeness theorem|QM0F33QE9P]].
-McNaughton characterized the definable functions in 1951, and Mundici proved coNP-completeness in 1987.
+Łukasiewicz and Tarski presented the infinite-valued logic in their joint paper of 1930, and Łukasiewicz conjectured that his axioms are complete.
+Wajsberg claimed a proof, but did not publish it.
+Rose and Rosser published the first proof of completeness in 1958.
+Chang introduced MV-algebras in 1958 and gave an algebraic proof of completeness in 1959.
+McNaughton described the definable functions in 1951, and Mundici showed in 1987 that the tautology problem is coNP-complete.
 
-### Common errors
+### Try it
 
-1. Using $\land$ where $\odot$ is meant. Modus ponens in degrees uses $\odot$: $x \odot (x \to y) \le y$, while $\min(x, x \to y) \le y$ fails at $x = 0.6$, $y = 0.2$.
-2. Assuming strong completeness. Property 3 shows a consequence that no proof from the premises can reach.
-3. Thinking that $\mathrm{Ł}_\infty$ is the union of the finite-valued logics. It is their intersection: a formula valid in every $\mathrm{Ł}_n$ is $1$ on a dense set of rational points, hence everywhere by continuity.
+First, compute $0.9 \to 0.5$ and $0.5 \to 0.9$.
+The first is $\min(1, 0.6) = 0.6$ and the second is $\min(1, 1.4) = 1$.
+
+Second, at which values is $p \oplus p = 1$?
+We need $\min(1, 2x) = 1$, so exactly at $x \ge \tfrac12$.
 
 ## Explanations
 
 ### L1 human
 
-Truth values are all numbers from $0$ to $1$.
+The truth values are all numbers from $0$ to $1$.
 "Not $x$" is $1 - x$.
-"If $x$ then $y$" is fully true when $x \le y$, and otherwise loses exactly the amount by which $x$ exceeds $y$.
+"If $x$ then $y$" is fully true when $x \le y$, and otherwise it loses exactly the amount by which $x$ exceeds $y$.
+With $x = 0.7$ and $y = 0.4$ it loses $0.3$ and has the value $0.7$.
 A formula is a law when it gets the value $1$ for every choice of values.
 
 ### L2 human
 
-The typical computation is a piecewise linear one: split $[0, 1]^n$ into regions where each $\min$ and $\max$ picks a fixed argument.
-For example, $p \to (q \to p)$ has value $\min(1, 1 - x + \min(1, 1 - y + x)) = 1$, since $1 - y + x \ge x$.
-A trap: the value of $p \odot p$ at $p = \tfrac12$ is $0$, not $\tfrac14$; strong conjunction is not multiplication.
+We check that $p \to (q \to p)$ is a tautology.
+Let $v(p) = x$ and $v(q) = y$, and compute the inner implication first:
+$$v(q \to p) = \min(1, 1 - y + x) \ge x.$$
+The inner value is at least $x$, so the outer implication has antecedent at most its consequent:
+$$v(p \to (q \to p)) = \min(1, 1 - x + v(q \to p)) = 1.$$
+Check at $x = 0.9$, $y = 1$: $q \to p = 0.9$ and $0.9 \to 0.9 = 1$.
+This is the typical method: compute a piecewise linear function and show that it is $1$ everywhere.
 
 ### L3 human
 
-$\mathrm{Ł}_\infty$ is algebraizable with equivalent algebraic semantics the variety of MV-algebras, generated by $[0, 1]$.
-Mundici's functor $\Gamma$ identifies MV-algebras with abelian lattice-ordered groups with a strong unit.
+$\mathrm{Ł}_\infty$ is algebraizable, and its equivalent algebraic semantics is the variety of MV-algebras, which $[0, 1]$ generates.
+Mundici's functor $\Gamma$ turns abelian lattice-ordered groups with a strong unit into MV-algebras, and it is an equivalence of categories.
 The free MV-algebra on $n$ generators is the algebra of McNaughton functions on $[0, 1]^n$.
+Among the three basic t-norm logics, $\mathrm{Ł}_\infty$ is the only one whose implication is continuous, and this is why it admits [[Pavelka-style completeness|YG62F8YC0P]].
