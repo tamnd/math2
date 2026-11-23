@@ -15,6 +15,8 @@ sources:
 
 ## Definition
 
+A double-negation translation sends each first-order formula to a formula that is classically equivalent to it and that intuitionistic logic proves whenever classical logic proves the original.
+
 Fix a first-order language, and read $\neg A$ as $A \to \bot$.
 The *Gödel-Gentzen negative translation* is the map $A \mapsto A^N$ on formulas defined by these clauses.
 
@@ -25,8 +27,7 @@ The *Gödel-Gentzen negative translation* is the map $A \mapsto A^N$ on formulas
 5. $(\forall x\, A)^N = \forall x\, A^N$.
 6. $(\exists x\, A)^N = \neg \forall x\, \neg A^N$.
 
-For a set of formulas $\Gamma$, let $\Gamma^N = \set{A^N : A \in \Gamma}$.
-Its main property is the [[Gödel-Gentzen translation theorem|WC4TDGEWZR]]: $\Gamma \vdash A$ in classical logic if and only if $\Gamma^N \vdash A^N$ in [[intuitionistic logic|Q11N8X99FK]].
+For a set of formulas $\Gamma$, let $\Gamma^N = \{ A^N : A \in \Gamma \}$.
 
 The *Kolmogorov translation* $A \mapsto A^K$ puts a double negation in front of every subformula.
 
@@ -34,16 +35,25 @@ The *Kolmogorov translation* $A \mapsto A^K$ puts a double negation in front of 
 2. $(A \circ B)^K = \neg \neg (A^K \circ B^K)$ for each connective $\circ$ among $\wedge$, $\vee$, $\to$.
 3. $(\forall x\, A)^K = \neg \neg \forall x\, A^K$ and $(\exists x\, A)^K = \neg \neg \exists x\, A^K$.
 
-The *Kuroda translation* is $A^{Ku} = \neg \neg A^*$, where $A^*$ is obtained from $A$ by replacing each subformula $\forall x\, B$ by $\forall x\, \neg \neg B$, from the inside out.
+The *Kuroda translation* is $A^{Ku} = \neg \neg A^*$, where $A^*$ comes from $A$ by replacing each subformula $\forall x\, B$ by $\forall x\, \neg \neg B$, from the inside out.
 
-A *double-negation translation* is a map obtained by inserting double [[negations|0XR7A7RSXB]] that has the main property above.
+A *double-negation translation* is a map $A \mapsto A^*$, obtained by inserting double [[negations|0XR7A7RSXB]], such that $A^*$ is classically equivalent to $A$ and, for every $\Gamma$ and $A$, $\Gamma \vdash A$ in classical logic if and only if $\Gamma^* \vdash A^*$ in [[intuitionistic logic|Q11N8X99FK]].
 The three maps $A^N$, $A^K$ and $A^{Ku}$ are double-negation translations, and they are intuitionistically equivalent to each other.
 
 ## Remarks
 
-Example: for the [[law of excluded middle|0RYYK8PG4S]] with $P$ atomic, $(P \vee \neg P)^N = \neg (\neg \neg \neg P \wedge \neg \neg \neg \neg P)$.
-Since $\neg \neg \neg P$ is equivalent to $\neg P$ in intuitionistic logic, this is equivalent to $\neg (\neg P \wedge \neg \neg P)$, which is intuitionistically provable.
-Non-example: the identity map $A \mapsto A$ is not a double-negation translation, because $P \vee \neg P$ is classically provable but not intuitionistically provable.
-For arithmetic, [[Peano arithmetic|0QFT7Z76N5]] proves $A$ if and only if [[Heyting arithmetic|RXHJPVMPJH]] proves $A^N$.
-In particular, if HA is consistent, then PA is consistent, because $\bot^N = \bot$.
-In arithmetic, atomic formulas are equations, which are decidable in HA, so one may take $P^N = P$.
+Each clause of the Gödel-Gentzen map has a job.
+The clauses for $\wedge$, $\to$ and $\forall$ change nothing, because these connectives already mean the same thing in both logics.
+The clauses for $\vee$ and $\exists$ replace a disjunction and an existential by their classical definitions in terms of $\wedge$ and $\forall$, so that the translated formula never claims to know which side holds or which witness works.
+The $\neg \neg$ on atoms makes every translated formula stable, that is, $\neg \neg A^N \to A^N$ is intuitionistically provable.
+
+For an example, take the [[law of excluded middle|0RYYK8PG4S]] $P \vee \neg P$ with $P$ atomic.
+The clauses give $(P \vee \neg P)^N = \neg (\neg \neg \neg P \wedge \neg \neg \neg \neg P)$.
+Since $\neg \neg \neg P$ is intuitionistically equivalent to $\neg P$, this is equivalent to $\neg (\neg P \wedge \neg \neg P)$, which NJ proves by one modus ponens.
+
+A map that fails the definition is the identity $A \mapsto A$.
+It keeps $P \vee \neg P$, which classical logic proves and intuitionistic logic does not, so the condition "$\vdash_c A$ implies $\vdash_i A^*$" fails.
+
+For arithmetic, [[Peano arithmetic|0QFT7Z76N5]] proves $A$ if and only if [[Heyting arithmetic|RXHJPVMPJH]] proves $A^N$, and $\bot^N = \bot$ makes PA consistent if HA is.
+The atoms of arithmetic are equations, and HA decides them, so in arithmetic one may take $P^N = P$.
+Worked examples and the main uses are in the concept [[double-negation translation|HGJVM49PA4]].

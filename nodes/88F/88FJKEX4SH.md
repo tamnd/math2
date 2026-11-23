@@ -18,7 +18,11 @@ sources:
 
 ## Example
 
-Let $A$ be the [[Ackermann function|N470JF7ZJX]]:
+### Computation tables
+
+The Ackermann function is total, and $\mathrm{I}\Sigma_2$ proves it, but no primitive recursive function can produce its values.
+So a proof of its totality cannot pass through Herbrand analysis.
+Let $A$ be the [[Ackermann function|N470JF7ZJX]], given by three equations:
 $$A(0, n) = n + 1, \qquad A(m + 1, 0) = A(m, 1), \qquad A(m + 1, n + 1) = A(m, A(m + 1, n)).$$
 We work in the language of primitive recursive arithmetic and fix a primitive recursive coding of finite sets of triples by numbers.
 
@@ -31,31 +35,64 @@ A *computation table* is a finite set $C$ of triples $(i, j, v)$ such that each 
 Let $\mathrm{Ack}(m, n, y)$ say "$y$ codes a computation table that contains a triple $(m, n, v)$ for some $v$".
 Every quantifier in it is bounded by $y$, since the elements of the coded set are smaller than $y$.
 So $\mathrm{Ack}$ is a $\Delta_0$ formula, and $\forall m \, \forall n \, \exists y \, \mathrm{Ack}(m, n, y)$ is a $\Pi^0_2$ sentence.
-In a computation table each triple $(i, j, v)$ has $v = A(i, j)$, by induction on $(i, j)$ in the lexicographic order, because the three conditions are the three equations of $A$.
+In a computation table each triple $(i, j, v)$ has $v = A(i, j)$.
+This holds by induction on $(i, j)$ in the lexicographic order, because the three conditions are the three equations of $A$.
 
-We show that the conclusion of [[Herbrand analysis|MESZ87G9ET]] fails for the following proof.
+### The proof in IΣ2
 
-1. The arithmetic $\mathrm{I}\Sigma_2$ proves $\forall m \, B(m)$, where $B(m)$ is the formula $\forall n \, \exists y \, \mathrm{Ack}(m, n, y)$. The proof is an [[induction|0ASJVEFA9J]] on $m$.
-2. Base: for each $n$, the set $\{(0, n, n + 1)\}$ is a computation table for $(0, n)$. So $B(0)$ holds.
-3. Step: assume $B(m)$. We prove $\exists y \, \mathrm{Ack}(m + 1, n, y)$ by induction on $n$. This formula is $\Sigma_1$, and $B(m)$ is a hypothesis.
-4. Inner base: $B(m)$ gives a table $C'$ that contains $(m, 1, v)$. Then $C' \cup \{(m + 1, 0, v)\}$ is a table that contains $(m + 1, 0, v)$.
-5. Inner step: let $C_1$ be a table that contains $(m + 1, n, u)$. By $B(m)$ at the argument $u$, there is a table $C_2$ that contains $(m, u, v)$. Then $C_1 \cup C_2 \cup \{(m + 1, n + 1, v)\}$ is a table, since a triple that is correct in a set stays correct in a larger set.
-6. Steps 4 and 5 give $B(m + 1)$. The outer induction is on $B$, a $\Pi_2$ formula, and $\mathrm{I}\Sigma_2$ has induction for $\Sigma_2$ and hence for $\Pi_2$ formulas.
+1. The arithmetic $\mathrm{I}\Sigma_2$ proves $\forall m \, B(m)$, where $B(m)$ is the formula $\forall n \, \exists y \, \mathrm{Ack}(m, n, y)$.
+   The proof is an [[induction|0ASJVEFA9J]] on $m$.
+2. Base: for each $n$, the set $\{(0, n, n + 1)\}$ is a computation table for $(0, n)$.
+   So $B(0)$ holds.
+3. Step: assume $B(m)$.
+   We prove $\exists y \, \mathrm{Ack}(m + 1, n, y)$ by induction on $n$, a $\Sigma_1$ formula, with $B(m)$ as a hypothesis.
+4. Inner base: $B(m)$ gives a table $C'$ that contains $(m, 1, v)$.
+   Then $C' \cup \{(m + 1, 0, v)\}$ is a table that contains $(m + 1, 0, v)$.
+5. Inner step: let $C_1$ be a table that contains $(m + 1, n, u)$.
+   By $B(m)$ at the argument $u$, there is a table $C_2$ that contains $(m, u, v)$.
+   Then $C_1 \cup C_2 \cup \{(m + 1, n + 1, v)\}$ is a table, since a triple that is correct in a set stays correct in a larger set.
+6. Steps 4 and 5 give $B(m + 1)$.
+   The outer induction is on $B$, a $\Pi_2$ formula, and $\mathrm{I}\Sigma_2$ has induction for $\Sigma_2$ and hence for $\Pi_2$ formulas.
+
+### Why no primitive recursive witness exists
+
+We show that the conclusion of [[Herbrand analysis|MESZ87G9ET]] fails for this proof.
+
 7. Suppose that Herbrand analysis gave a [[primitive recursive function|5NVA2JRHPV]] $f$ with $\mathrm{Ack}(m, n, f(m, n))$ for all $m$ and $n$.
-8. The value $A(m, n)$ is the least $v < y$ with $(m, n, v)$ in the set coded by $y = f(m, n)$. A search bounded by a primitive recursive function is primitive recursive, so $A$ would be primitive recursive.
-9. This contradicts the theorem that the [[Ackermann function is not primitive recursive|97QF3KHSBY]]. So no primitive recursive witness exists.
+8. The value $A(m, n)$ is the least $v < y$ with $(m, n, v)$ in the set coded by $y = f(m, n)$.
+   A search bounded by a primitive recursive function is primitive recursive, so $A$ would be primitive recursive.
+9. This contradicts the theorem that the [[Ackermann function is not primitive recursive|97QF3KHSBY]].
+   So no primitive recursive witness exists.
 
 The condition of the method that fails is that every induction formula is $\Sigma_1$.
-The outer induction formula $B(m)$ is $\Pi_2$, so after cut elimination the derivation still contains $\Pi_2$ formulas, and the witnessing lemma has no case for the induction rule on them.
+The outer induction formula $B(m)$ is $\Pi_2$, so after cut elimination the derivation still contains $\Pi_2$ formulas.
+The witnessing lemma has no case for the induction rule on them.
 
 ## Remarks
 
+### The restriction to Σ1-induction is needed
+
 The example shows that the restriction to $\Sigma_1$-induction in the method cannot be dropped.
-Since the witness of every $\Pi^0_2$ theorem of $\mathrm{I}\Sigma_1$ is primitive recursive, by [[Parsons's theorem|2VYJXZZDGB]], step 9 also shows that $\mathrm{I}\Sigma_1$ does not prove $\forall m \, \forall n \, \exists y \, \mathrm{Ack}(m, n, y)$.
+By [[Parsons's theorem|2VYJXZZDGB]], the witness of every $\Pi^0_2$ theorem of $\mathrm{I}\Sigma_1$ is primitive recursive.
+So step 9 also shows that $\mathrm{I}\Sigma_1$ does not prove $\forall m \, \forall n \, \exists y \, \mathrm{Ack}(m, n, y)$.
+
+### Each level separately
 
 For each fixed number $m$, the theory $\mathrm{I}\Sigma_1$ proves $\forall n \, \exists y \, \mathrm{Ack}(m, n, y)$ with the numeral for $m$.
-The proof proves $B(0), B(1), \ldots, B(m)$ in turn, with one induction on a $\Sigma_1$ formula for each level, and Herbrand analysis gives a primitive recursive witness, which computes $A(m, \cdot)$.
+The proof proves $B(0), B(1), \ldots, B(m)$ in turn, with one induction on a $\Sigma_1$ formula for each level.
+Herbrand analysis then gives a primitive recursive witness, which computes $A(m, \cdot)$.
 What $\mathrm{I}\Sigma_1$ cannot do is to make $m$ a variable, because that needs an induction on the $\Pi_2$ formula $B(m)$.
+
+### Watch out
+
+Do not blame the inner induction on $n$.
+That induction is on a $\Sigma_1$ formula, and the problem is the outer induction on $m$.
+
+### Try it
+
+Write down a computation table that contains a triple $(2, 0, v)$, and read off $A(2, 0)$.
+
+Check: $\{(0, 1, 2), (1, 0, 2), (0, 2, 3), (1, 1, 3), (2, 0, 3)\}$ is a table, since $(2, 0, 3)$ is correct because $(1, 1, 3)$ is in it, so $A(2, 0) = 3$.
 
 ## Explanations
 
@@ -72,10 +109,13 @@ Here the program would compute the Ackermann function with fixed loops, which is
 We follow the proof for $m = 1$ and $n = 1$, to see the shape of the tables.
 
 1. We need $A(1, 1) = A(0, A(1, 0))$, and $A(1, 0) = A(0, 1) = 2$.
-2. The table $C_1 = \{(0, 1, 2), (1, 0, 2)\}$ contains $(1, 0, 2)$. Both triples are correct: $2 = 1 + 1$, and $(0, 1, 2) \in C_1$.
+2. The table $C_1 = \{(0, 1, 2), (1, 0, 2)\}$ contains $(1, 0, 2)$.
+   Both triples are correct: $2 = 1 + 1$, and $(0, 1, 2) \in C_1$.
 3. $B(0)$ at the argument $u = 2$ gives the table $C_2 = \{(0, 2, 3)\}$.
-4. The table $C_1 \cup C_2 \cup \{(1, 1, 3)\}$ contains $(1, 1, 3)$, and the triple $(1, 1, 3)$ is correct with $u = 2$: $(1, 0, 2)$ and $(0, 2, 3)$ are in the table.
-5. So $A(1, 1) = 3$, which agrees with $A(1, n) = n + 2$.
+4. The table $C_1 \cup C_2 \cup \{(1, 1, 3)\}$ contains $(1, 1, 3)$.
+   The triple $(1, 1, 3)$ is correct with $u = 2$, since $(1, 0, 2)$ and $(0, 2, 3)$ are in the table.
 
-The typical use of the example is as a test for the limits of the method: if the extracted function would grow faster than every primitive recursive function, the proof must use more than $\Sigma_1$-induction.
-A trap is to think that the inner induction on $n$ is the problem; it is $\Sigma_1$, and the problem is the outer induction on $m$.
+Check: $A(1, 1) = 3$, which agrees with $A(1, n) = n + 2$.
+
+The typical use of the example is as a test for the limits of the method.
+If the extracted function would grow faster than every primitive recursive function, the proof must use more than $\Sigma_1$-induction.

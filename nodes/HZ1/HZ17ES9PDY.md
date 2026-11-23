@@ -21,89 +21,156 @@ same_as:
 
 ## Summary
 
-The Dialectica interpretation is Gödel's translation of [[Heyting arithmetic|CK8ZQRN183]] into [[Gödel's system T|A4WR995XZP]], the quantifier-free theory of [[primitive recursive|5NVA2JRHPV]] functionals of finite type.
-To each formula $A$ it assigns a formula $A^D = \exists x\, \forall y\, A_D(x, y)$, where $x$ and $y$ are tuples of variables of finite type and $A_D$ is quantifier-free; the [[definition|ZREF8MTYNW]] gives the clauses.
-The soundness theorem says: if HA proves $A$, then a tuple $t$ of terms of T satisfies $\mathsf{T} \vdash A_D(t, y)$.
-The idea matters because it reads off computable witnesses and bounds from proofs, and, after a [[double-negation translation|HGJVM49PA4]], it reduces the consistency of PA to that of T.
+The Dialectica interpretation turns each statement of arithmetic into a game of one move for each player, and it turns each intuitionistic proof into a program that wins the game.
+Take the statement that every number has a half, rounded down:
+$$\forall n\, \exists m\, (2m \le n < 2m + 2).$$
+Its interpretation asks for a function $f$ with $2 f(n) \le n < 2 f(n) + 2$ for every $n$, and the program $f(n) = \lfloor n / 2 \rfloor$ wins.
+Check: $f(7) = 3$, and $6 \le 7 < 8$.
+
+In general the interpretation assigns to each formula $A$ of [[Heyting arithmetic|CK8ZQRN183]] a formula of one fixed shape:
+$$A^D = \exists x\, \forall y\, A_D(x, y).$$
+Here $x$ and $y$ are tuples of variables of finite type, $A_D$ is quantifier-free, and the [[definition|ZREF8MTYNW]] gives the clauses.
+For a formula $\forall x\, \exists y\, A(x, y)$ with $A$ quantifier-free, the result is $\exists f\, \forall x\, A(x, f x)$, as in the example.
+Gödel's [[soundness theorem|6QFRG42QQR]] says that if HA proves $A$, then terms $t$ of [[Gödel's system T|A4WR995XZP]] satisfy $\mathsf{T} \vdash A_D(t, y)$.
+So a proof hands over its witnesses as programs built from [[primitive recursion|5NVA2JRHPV]] in higher types.
 
 ## Motivation
 
-Hilbert's program asked for consistency proofs by finitary means.
-Gentzen's proof for PA used induction up to $\varepsilon_0$, a principle about ordinals.
-Gödel looked for a different extension of finitary reasoning: computation with functions of higher type, but no quantifiers over them.
-A proof of $\forall n\, \exists m\, \varphi(n, m)$ should give a function $f$ with $\varphi(n, f(n))$.
-For nested quantifiers, such as $\forall n\, \exists m\, \forall k\, \psi$, a witness is no longer computable in general; the interpretation then asks for a functional that defeats each counterexample function.
-The translation $A \mapsto A^D$ makes this precise for every formula, by moving all quantifiers to the front with Skolem functions of higher type.
+Hilbert asked for proofs of consistency by finitary means.
+Gentzen proved the consistency of PA with induction up to the ordinal $\varepsilon_0$.
+Gödel looked for a different extension of finitary reasoning: computation with functions of higher type, but with no quantifiers over them.
+The Dialectica interpretation is the result, and it reduces the consistency of HA to the consistency of the quantifier-free theory T.
+After a [[double-negation translation|HGJVM49PA4]] it does the same for PA.
+
+The method also does real work on proofs.
+From a proof of $\forall n\, \exists m\, \varphi(n, m)$ it extracts a program that computes $m$ from $n$, and from a proof with more quantifiers it extracts a functional that answers every challenge.
+The same idea returns in the [[no-counterexample interpretation|4BCD1EM542]], in Spector's extension to analysis by [[bar recursion|8CCG6F2FAT]], and in Kohlenbach's [[proof mining|XR1JXQG1CD]].
 
 ## Notation
 
-We write $A^D = \exists x\, \forall y\, A_D(x, y)$; the tuple $x$ is the witness and the tuple $y$ the counterexample, or challenge.
-We write $0$ for the type of natural numbers and $\sigma \to \tau$ for the function types of system T.
-$\mathsf{HA}^\omega$ is Heyting arithmetic in all finite types, and $\mathsf{PA}^\omega$ its classical version.
-AC is the axiom of choice in all finite types, MP is Markov's principle for quantifier-free formulas, and $\mathrm{IP}_\forall$ is independence of premise for universal premises.
+We write $\mathbb{N}$ for the type of natural numbers and $\sigma \to \tau$ for the type of functions from $\sigma$ to $\tau$.
+Many books write $0$ for $\mathbb{N}$, $1$ for $\mathbb{N} \to \mathbb{N}$ and $2$ for $(\mathbb{N} \to \mathbb{N}) \to \mathbb{N}$, so read "type $0$" as "numbers", not as the number zero.
+In $A^D = \exists x\, \forall y\, A_D(x, y)$ the tuple $x$ is the witness and the tuple $y$ is the challenge, or counterexample.
+$\mathsf{HA}^\omega$ is Heyting arithmetic in all finite types, $\mathsf{WE}\text{-}\mathsf{HA}^\omega$ is its weakly extensional form, and $\mathsf{PA}^\omega$ is the classical version.
 
 ## Remarks
 
-### Examples
+### A first interpretation
 
-- For $A = \forall n\, \exists m\, (n < m)$, the interpretation is $A^D = \exists f\, \forall n\, (n < f n)$, and the term $\lambda n.\, S\, n$ is a witness.
-- [[Markov's principle is interpreted by the identity|9YVRTGXKZF]]: the formula $\neg \neg \exists y\, \varphi(y) \to \exists y\, \varphi(y)$ with $\varphi$ quantifier-free has a witness in T.
-- [[The contraction axiom for a universal formula|XWHF8SMTEF]]: the witness for $A \to A \wedge A$ uses a definition by cases on the quantifier-free matrix.
-- An implication $\forall y\, \varphi(y) \to \forall z\, \psi(z)$ with quantifier-free $\varphi$ and $\psi$ asks for a functional $Y$ with $\varphi(Y z) \to \psi(z)$: from each $z$ that might fail, find a $y$ that fails too.
-- Via the negative translation, a theorem $\forall n\, \exists m\, \varphi(n, m)$ of PA, with $\varphi$ quantifier-free, gives a closed term $t$ of type $1$ with $\mathsf{T} \vdash \varphi(n, t\, n)$.
+In the opening example the formula $2m \le n < 2m + 2$ is quantifier-free, so it is its own interpretation, with no witness and no challenge.
+The clause for $\exists m$ adds $m$ to the witness, and the clause for $\forall n$ turns that witness into a function of $n$.
+This is the Skolem form of the statement, with the extra demand that the Skolem function be a term of T.
 
-### Non-examples
+A universal quantifier after the existential one stays a challenge.
+For $\forall x\, \exists y\, \forall z\, B(x, y, z)$ with $B$ quantifier-free, the interpretation is this:
+$$\exists f\, \forall x, z\, B(x, f x, z).$$
+So the witness $f x$ must work for every $z$ at once.
+For $\forall n\, \exists m\, \forall k\, (m \le n + k)$ the function $f n = n$ wins, since $n \le n + k$ for every $k$.
 
-- [[Excluded middle for the halting problem|9NTJJMPZ29]]: $\forall n\, (\exists k\, P(n, k) \vee \neg \exists k\, P(n, k))$ has no witness in T. The condition that fails: the witness would decide the halting problem.
-- Full extensionality in all finite types. The condition that fails: Howard showed that its interpretation has no witness in T, so the interpretation uses a weakly extensional theory.
-- A direct interpretation of PA without the negative translation. The condition that fails: excluded middle is not interpreted, as the halting example shows.
+### Implications send challenges backward
 
-### Basic properties
+The interesting clause is the one for $\to$.
+Take the lemma "every number has a larger number" and the conclusion "some number is larger than $5$":
+$$\forall n\, \exists m\, (n < m) \to \exists k\, (5 < k).$$
+The premise has witness $f$ and challenge $n$, and the conclusion has witness $k$ and no challenge.
+So the interpretation asks for two functionals: $U$, which turns a witness $f$ of the premise into a witness of the conclusion, and $Y$, which says at which point $n$ the premise is needed.
+The matrix to prove is $Y f < f(Y f) \to 5 < U f$.
+The terms $Y f = 5$ and $U f = f(5)$ win: if $5 < f(5)$, then $5 < U f$.
 
-- [[Soundness|6QFRG42QQR]]: HA proves $A$ only if T proves $A_D(t, y)$ for some terms $t$. The same holds for $\mathsf{HA}^\omega + \mathrm{AC} + \mathrm{MP} + \mathrm{IP}_\forall$.
-- Characterization: $\mathsf{HA}^\omega + \mathrm{AC} + \mathrm{MP} + \mathrm{IP}_\forall$ proves $A \leftrightarrow A^D$ for every formula $A$.
-- For quantifier-free $A$, $A^D$ is $A$ itself, with empty tuples.
-- Every type-1 function given by the interpretation is definable in T, so it is $\alpha$-recursive for some $\alpha < \varepsilon_0$.
-- The interpretation of an implication $A \to B$ needs a decision of the matrix of $A$, so it needs that quantifier-free formulas are decidable.
+Witnesses flow forward from the premise to the conclusion, and challenges flow backward from the conclusion to the premise.
+In general, with $A^D = \exists x\, \forall y\, A_D(x, y)$ and $B^D = \exists u\, \forall v\, B_D(u, v)$, the clause reads
+$$(A \to B)^D = \exists U, Y\, \forall x, v\, \bigl( A_D(x, Y x v) \to B_D(U x, v) \bigr).$$
+Negation $\neg A$ is $A \to 0 = 1$, so its interpretation is $\exists Y\, \forall x\, \neg A_D(x, Y x)$.
+
+### What the interpretation verifies
+
+The [[soundness theorem|6QFRG42QQR]] gives witnesses for every theorem of HA, and also for a larger theory.
+It adds three principles to $\mathsf{WE}\text{-}\mathsf{HA}^\omega$, each for all finite types.
+The axiom of choice $\mathrm{AC}$ is the schema $\forall x\, \exists y\, A(x, y) \to \exists Y\, \forall x\, A(x, Y x)$, for every formula $A$.
+Markov's principle $\mathrm{MP}$ is $\neg \neg \exists x\, A_0(x) \to \exists x\, A_0(x)$, for quantifier-free $A_0$ and a tuple $x$.
+Independence of premise for universal premises, $\mathrm{IP}_\forall$, is the schema below, for quantifier-free $A_0$ and any $B$, with $y$ not free in $A_0$:
+$$\bigl( \forall x\, A_0(x) \to \exists y\, B(y) \bigr) \to \exists y\, \bigl( \forall x\, A_0(x) \to B(y) \bigr).$$
+The characterization theorem says that $\mathsf{WE}\text{-}\mathsf{HA}^\omega + \mathrm{AC} + \mathrm{MP} + \mathrm{IP}_\forall$ proves $A \leftrightarrow A^D$ for every formula $A$.
+
+Two small cases show how the witnesses look.
+[[Markov's principle is witnessed by the identity|9YVRTGXKZF]], because the interpretation of $\neg \neg \exists m\, \varphi(m)$ already contains the number $m$.
+[[Contraction for a universal formula|XWHF8SMTEF]] needs a definition by cases on the quantifier-free matrix, and this is where decidability of atomic formulas enters.
+
+### What it cannot interpret
+
+[[Excluded middle for the halting problem|9NTJJMPZ29]] has no witness in T.
+The formula $\forall n\, (\exists k\, P(n, k) \vee \neg \exists k\, P(n, k))$, with $P$ the halting relation, would need a function that picks the true side for each $n$, and that function would decide the halting problem.
+So the interpretation cannot be applied to a classical proof as it stands.
+
+Full extensionality in all finite types fails too.
+Howard showed that its interpretation has no witness in T, and this is why the theory in the characterization theorem is only weakly extensional.
+
+### From PA to system T
+
+For a classical proof we first apply the Gödel-Gentzen [[negative translation|HGJVM49PA4]], and then the Dialectica interpretation.
+If PA proves $\forall n\, \exists m\, \varphi(n, m)$ with $\varphi$ quantifier-free, then HA proves $\forall n\, \neg \neg \exists m\, \varphi(n, m)$.
+The interpretation of $\neg \neg \exists m\, \varphi$ is $\exists m\, \neg \neg \varphi$, so soundness gives a closed term $t$ of type $\mathbb{N} \to \mathbb{N}$ with $\mathsf{T} \vdash \varphi(n, t\, n)$.
+
+Two consequences follow at once.
+First, $\bot^D$ is $\bot$, so a proof of $0 = 1$ in PA would give one in T, and PA is consistent if T is.
+Second, every provably total function of PA is defined by a term of T, and so it is $\alpha$-recursive for some $\alpha < \varepsilon_0$.
+
+### Watch out
+
+The most common slip is to interpret a classical proof directly.
+With excluded middle in the proof, the witness would decide the halting problem, as above, so the negative translation must come first.
+
+A second slip is to let the witness of a conclusion depend on everything.
+In $(A \to B)^D$ the term $U x$ sees only the witness $x$ of the premise, while the backward term $Y x v$ also sees the challenge $v$.
+If you let $U$ depend on $v$, false statements get witnesses.
+For $0 = 0 \to \exists u\, \forall v\, (v \le u)$ the term $U v = v$ would win, although no number is above every $v$.
+
+A third slip is to forget decidability.
+The proof uses $A \to A \wedge A$, and its witness must test $A_D$ at a point, so quantifier-free formulas must be decidable in T.
 
 ### History
 
-Gödel published the interpretation in 1958, in the journal Dialectica, which gave it its name.
-Spector extended it to classical analysis by [[bar recursion|8CCG6F2FAT]] in 1962.
-Kreisel used it, together with the [[no-counterexample interpretation|4BCD1EM542]], to extract bounds from proofs, and Kohlenbach developed this into [[proof mining|XR1JXQG1CD]].
+Gödel published the interpretation in 1958, in the journal *Dialectica*, which gave it its name.
+Spector extended it to classical analysis with [[bar recursion|8CCG6F2FAT]] in a paper of 1962.
+Kreisel used functional interpretations to extract bounds from proofs, and Kohlenbach developed this into [[proof mining|XR1JXQG1CD]] in the 1990s and 2000s.
 
-### Common errors
+### Try it
 
-- To apply the interpretation to a classical proof directly. Classical proofs must first go through a negative translation.
-- To think that the witness $x$ depends only on the parameters. In an implication, the witness $f$ in $A_D(x, f x v)$ also depends on the challenge $v$ of the conclusion.
-- To think that the interpretation needs no decidability. The contraction axiom $A \to A \wedge A$ needs a definition by cases on $A_D$.
+First, give the interpretation of $\exists m\, \forall n\, (m \le n)$ and a witness.
+The formula is already of the form $\exists x\, \forall y$, so it is its own interpretation, and the number $m = 0$ wins against every challenge $n$.
+
+Second, interpret $\forall n\, \exists m\, (n < m) \to \exists k\, (10 < k)$ and find $U$ and $Y$.
+The matrix is $Y f < f(Y f) \to 10 < U f$, and $Y f = 10$ with $U f = f(10)$ wins.
 
 ## Explanations
 
 ### L1 human
 
-The interpretation reads each statement as a game between two players.
-One player chooses $x$, the other answers with $y$, and the first wins if the simple condition $A_D(x, y)$ holds.
-A proof of the statement gives a winning strategy, written as a program built from [[primitive recursion|5NVA2JRHPV]] in higher types.
-For example, a proof of $\forall n\, \exists m\, (m > n)$ yields the program $n \mapsto n + 1$.
-In this way, numbers and bounds can be read off from proofs.
+Read each statement as a game between a prover and a doubter.
+The prover makes one move $x$, the doubter answers with one move $y$, and a simple check $A_D(x, y)$ says who wins.
+For "every number has a larger one", the prover moves first with a rule $f$, the doubter names a number $n$, and the check is $n < f(n)$.
+The rule $f(n) = n + 1$ wins every time.
+A proof of the statement gives such a rule as a program, and every program of this kind stops.
 
 ### L2 human
 
-We interpret the formula $B = \forall n\, \exists m\, (n < m) \to \exists k\, (5 < k)$.
+Here is a proof that uses a lemma twice.
+The lemma is $\forall n\, \exists m\, (n < m)$, and we prove $\forall n\, \exists m\, (n + 1 < m)$: apply the lemma to $n$ to get $m_1 > n$, then apply it to $m_1$ to get $m_2 > m_1 \ge n + 1$.
+The interpretation of "lemma implies theorem" asks for $U$ and $Y$ with
+$$Y f n < f(Y f n) \to n + 1 < U f n.$$
+The forward part is the composite $U f n = f(f(n))$.
+The backward part must name one point at which the lemma is tested, but the proof used the lemma at two points, $n$ and $f(n)$.
+So we choose by cases: $Y f n = f(n)$ if $n < f(n)$, and $Y f n = n$ otherwise.
 
-1. The premise has $\exists f\, \forall n\, (n < f n)$: the witness is $f$, and the challenge is $n$.
-2. The conclusion has $\exists k\, (5 < k)$: the witness is $k$, and there is no challenge.
-3. By the clause for $\to$, $B^D$ asks for a functional $U$ (from $f$ to $k$) and a functional $Y$ (from $f$ to $n$) with $f(Y f) > Y f \to U f > 5$.
-4. The terms $U f = f(5)$ and $Y f = 5$ work: if $f(5) > 5$, then $U f > 5$.
-
-The typical use is to read off a witness, here $f(5)$, from a proof that uses a lemma, here the premise.
-A trap is to forget the backward part $Y$: the conclusion needs the premise only at the point $5$, and $Y$ names this point.
+Check the first case: the premise $f(n) < f(f(n))$ and $n + 1 \le f(n)$ give $n + 1 < f(f(n))$.
+In the second case the premise $n < f(n)$ is false, so the implication holds.
+For $f(n) = n + 1$ we land in the first case with $U f n = n + 2$.
+The lesson is the typical one: each use of a lemma becomes a forward composition, and each repeated use becomes a test that picks the challenge.
 
 ### L3 human
 
-The interpretation is a functional interpretation: formulas become types of witnesses and challenges, and proofs become terms.
-In categorical terms, de Paiva's Dialectica categories model it, and they are models of linear logic; this explains the role of contraction.
-Variants include Shoenfield's interpretation of classical arithmetic, Diller and Nahm's variant, the monotone interpretation of Kohlenbach and the bounded functional interpretation of Ferreira and Oliva.
-With bar recursion it interprets classical analysis, and its monotone form underlies [[proof mining|XR1JXQG1CD]] in analysis.
-Composed with the negative translation, it shows that PA and HA prove the same $\Pi^0_2$ sentences, a result that [[Friedman's A-translation|6CCK0TT69P]] also gives.
+The Dialectica interpretation is the model of a functional interpretation: formulas become pairs of types, of witnesses and of challenges, and proofs become terms.
+De Paiva's Dialectica categories make this structure categorical, and they are models of linear logic, which explains the special role of contraction.
+Variants include Shoenfield's form for classical arithmetic, the Diller-Nahm variant, which collects finitely many challenges instead of choosing one, Kohlenbach's monotone interpretation and the bounded functional interpretation of Ferreira and Oliva.
+With [[bar recursion|8CCG6F2FAT]] it reaches classical analysis by [[Spector's theorem|DSQJ1RA71N]].
+Composed with the negative translation, it shows that PA proves no more $\Pi^0_2$ sentences than HA, a result that [[Friedman's A-translation|6CCK0TT69P]] gives in another way.
