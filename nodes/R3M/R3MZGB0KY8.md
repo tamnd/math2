@@ -15,70 +15,78 @@ sources:
 
 ## Proof
 
-The proof has two lemmas that we cite.
-Lemma A (monotone interpolation for CP) is cited, with a sketch of its proof.
-Lemma B (the lower bound for monotone real circuits) is part 1 of the theorem, and we cite it without proof.
-We use the notation of the statement, and we write $A = \mathrm{Clique}^n_k(p, q)$ and $B = \mathrm{Colour}^n_{k-1}(p, r)$.
+We turn a short cutting-planes refutation into a small monotone real circuit, and then a circuit lower bound, which we cite, bounds the number of lines.
+We write $A = \mathrm{Clique}^n_k(p, q)$ and $B = \mathrm{Color}^n_{k-1}(p, r)$, as in the statement.
+Part 1 of the theorem, the circuit bound, is cited without proof.
+The interpolation lemma is proved below.
 
-**Step 1: the signs of $p$.**
+### The signs of the shared variables
 
-1. In the $\geq$ form, the lines of $A$ are $\sum_u q_u \geq k$, $p_{uv} - q_u - q_v \geq -1$ and the Boolean axioms. So $p$ has non-negative coefficients in $A$.
-2. The lines of $B$ are $\sum_c r_{u,c} \geq 1$, $-p_{uv} - r_{u,c} - r_{v,c} \geq -2$ and the Boolean axioms. So $p$ has non-positive coefficients in $B$.
-3. The Boolean axioms $p_{uv} \geq 0$ and $-p_{uv} \geq -1$ have no $q$ and no $r$. We count them as lines of $A$.
+1. In the $\geq$ form, the lines of $A$ are $\sum_u q_u \geq k$, the lines $p_{uv} - q_u - q_v \geq -1$, and Boolean axioms.
+   So $p$ has non-negative coefficients in $A$.
+2. The lines of $B$ are $\sum_c r_{u,c} \geq 1$, the lines $-p_{uv} - r_{u,c} - r_{v,c} \geq -2$, and Boolean axioms.
+   So $p$ has non-positive coefficients in $B$, and each line of $B$ contains at most one variable of $p$.
+3. We count the Boolean axioms $p_{uv} \geq 0$ and $-p_{uv} \geq -1$ as lines of $A$, since they contain no $r$.
 
-**Step 2: Lemma A, monotone interpolation for CP (cited, with a sketch).**
-Let $A(p, q)$ and $B(p, r)$ be systems of lines with disjoint variable lists $q$ and $r$.
-Assume that $p$ has non-positive coefficients in every line of $B$.
-Let $\pi$ be a CP refutation of $A \cup B$ with $L$ lines, and assume that every line of $B$ contains at most one variable of $p$.
-Then there is a monotone real circuit with at most $L + 1$ gates, besides constant inputs, that computes a Boolean function $I(p)$ with the following property.
-For every $0$-$1$ assignment $a$ of $p$, $I(a) = 0$ implies that $A(a, q)$ has no $0$-$1$ solution and $I(a) = 1$ implies that $B(a, r)$ has no $0$-$1$ solution.
+### The interpolation lemma: two numbers per line
 
-Sketch of the proof of Lemma A.
-Fix $a$.
+Fix a $0$-$1$ assignment $a$ of $p$, and let $\pi$ be a refutation of $A \cup B$ with $L$ lines.
 Write each line of $\pi$ as $b^{\mathsf T} q + c^{\mathsf T} r + d^{\mathsf T} p \geq \gamma$.
-We attach two integers $D_1(a)$ and $D_2(a)$ to each line, by induction along $\pi$, with three properties.
+By induction along $\pi$ we attach integers $D_1(a)$ and $D_2(a)$ to each line, with three properties.
 
 - (i) Every $0$-$1$ solution $q$ of $A(a, q)$ satisfies $b^{\mathsf T} q \geq D_1(a)$.
 - (ii) Every $0$-$1$ solution $r$ of $B(a, r)$ satisfies $c^{\mathsf T} r \geq D_2(a)$.
 - (iii) $D_1(a) + D_2(a) \geq \gamma - d^{\mathsf T} a$.
 
-4. A line of $A$ has $c = 0$. Put $D_1 = \gamma - d^{\mathsf T} a$ and $D_2 = 0$. Property (i) is the line itself at $p = a$, and (ii) and (iii) hold with equality.
-5. A line of $B$ has $b = 0$. Put $D_1 = 0$ and $D_2 = \gamma - d^{\mathsf T} a$. Since $d \leq 0$, $D_2$ is a non-decreasing function of $a$.
-6. For a linear combination with weights $\alpha, \beta \geq 0$, put $D_i = \alpha D_i' + \beta D_i''$ for $i = 1, 2$, where $D_i'$ and $D_i''$ belong to the premises. The three properties are sums of the properties of the premises with non-negative weights.
-7. For a division by $m$, every coefficient of $b$, $c$ and $d$ is divisible by $m$. Put $D_i = \ceil{D_i' / m}$. Property (ii) holds because $(c/m)^{\mathsf T} r$ is an integer that is at least $D_2'/m$. Property (i) holds in the same way.
-8. For (iii) after a division: $\ceil{D_1'/m} + \ceil{D_2'/m}$ is an integer that is at least $(\gamma - d^{\mathsf T} a)/m$. So it is at least $\ceil{(\gamma - d^{\mathsf T} a)/m} = \ceil{\gamma/m} - (d/m)^{\mathsf T} a$, because $(d/m)^{\mathsf T} a$ is an integer.
-9. The last line $0 \geq 1$ has $b = c = d = 0$ and $\gamma = 1$, so $D_1(a) + D_2(a) \geq 1$.
-10. Put $I(a) = 1$ if $D_2(a) \geq 1$, and $I(a) = 0$ otherwise. If $I(a) = 1$, then by (ii) every solution of $B(a, r)$ satisfies $0 \geq D_2(a) \geq 1$, so there is no solution. If $I(a) = 0$, then $D_2(a) \leq 0$, so $D_1(a) \geq 1$, and by (i) $A(a, q)$ has no solution.
-11. The values $D_2$ are computed by gates: a gate $x \mapsto \abs{d_e} x + \gamma$ for a line of $B$ whose only $p$-variable is $p_e$, with coefficient $d_e \leq 0$, the constant $\gamma$ for a line of $B$ without $p$, the constant $0$ for a line of $A$, a gate $(x, y) \mapsto \alpha x + \beta y$ for a combination, a gate $x \mapsto \ceil{x/m}$ for a division, and one output gate $x \mapsto [x \geq 1]$.
-12. Every gate is non-decreasing, since $\alpha, \beta \geq 0$ and $m \geq 1$, and the inputs enter through step 5 with non-negative weights. So the circuit is a monotone real circuit with at most $L + 1$ gates.
+4. A line of $A$ has $c = 0$, and we put $D_1 = \gamma - d^{\mathsf T} a$ and $D_2 = 0$.
+   Property (i) is the line itself at $p = a$, and (ii) and (iii) hold with equality.
+5. A line of $B$ has $b = 0$, and we put $D_1 = 0$ and $D_2 = \gamma - d^{\mathsf T} a$.
+   Since $d \leq 0$, the number $D_2$ is a non-decreasing function of $a$.
+6. For a linear combination with weights $\alpha, \beta \geq 0$, we put $D_i = \alpha D_i' + \beta D_i''$, where $D_i'$ and $D_i''$ belong to the premises.
+   The three properties follow by adding those of the premises with non-negative weights.
+7. For a division by $m$, every entry of $b$, $c$ and $d$ is divisible by $m$, and we put $D_i = \lceil D_i' / m \rceil$.
+   Property (ii) holds because $(c/m)^{\mathsf T} r$ is an integer that is at least $D_2'/m$, and (i) holds in the same way.
+8. For (iii) after a division, $\lceil D_1'/m \rceil + \lceil D_2'/m \rceil$ is an integer that is at least $(\gamma - d^{\mathsf T} a)/m$.
+   So it is at least $\lceil \gamma/m \rceil - (d/m)^{\mathsf T} a$, because $(d/m)^{\mathsf T} a$ is an integer.
 
-**Step 3: the interpolant separates.**
+### The interpolant
 
-13. The lines of $B$ contain at most one variable of $p$, and item 2 shows that $p$ has non-positive coefficients in $B$. So Lemma A applies to a CP refutation of $A \cup B$ with $L$ lines.
-14. Let $G_a$ have a $k$-clique. Then $A(a, q)$ has a solution, so $I(a) \neq 0$, and $I(a) = 1$.
-15. Let $G_a$ be $(k-1)$-colourable. Then $B(a, r)$ has a solution, so $I(a) \neq 1$, and $I(a) = 0$.
-16. A monotone real circuit computes a non-decreasing function, since a composition of non-decreasing functions is non-decreasing. So $I$ is a monotone Boolean function with the properties of $f$ in part 1.
+9. The last line $0 \geq 1$ has $b = c = d = 0$ and $\gamma = 1$, so (iii) gives $D_1(a) + D_2(a) \geq 1$.
+10. Put $I(a) = 1$ when $D_2(a) \geq 1$, and $I(a) = 0$ otherwise.
+11. If $I(a) = 1$, then by (ii) at the last line every solution of $B(a, r)$ satisfies $0 \geq D_2(a) \geq 1$, so $B(a, r)$ has no solution.
+12. If $I(a) = 0$, then $D_2(a) \leq 0$, so $D_1(a) \geq 1$, and by (i) the system $A(a, q)$ has no solution.
 
-**Step 4: Lemma B, the lower bound for monotone real circuits (cited without proof).**
+### The circuit
 
-17. Lemma B is part 1 of the theorem: every monotone real circuit that computes such an $f$ has size $2^{\Omega((n/\log n)^{1/3})}$. Pudlák proved it by an extension of the approximation method of [[Razborov's monotone circuit lower bound|2XH5VDJ426]] to real gates. Haken and Cook proved lower bounds for monotone real circuits independently.
+13. We compute $D_2$ with one gate per line.
+   A line of $B$ whose only $p$-variable is $p_e$, with coefficient $d_e \leq 0$, gets the gate $x \mapsto \gamma + \lvert d_e \rvert x$ on the input $a_e$.
+   A line of $B$ without $p$ gets the constant $\gamma$, and a line of $A$ gets the constant $0$.
+14. A combination gets the gate $(x, y) \mapsto \alpha x + \beta y$, and a division gets $x \mapsto \lceil x/m \rceil$.
+   One output gate computes $x \mapsto 1$ if $x \geq 1$ and $x \mapsto 0$ otherwise.
+15. Each gate is non-decreasing, because $\alpha, \beta, \lvert d_e \rvert \geq 0$ and $m \geq 1$.
+   So we get a monotone real circuit with at most $L + 1$ gates that computes $I$.
 
-**Step 5: conclusion.**
+### Conclusion
 
-18. By steps 13 to 16, a CP refutation with $L$ lines gives a monotone real circuit with at most $L + 1$ gates that computes such an $f$.
-19. By step 17, $L + 1 \geq 2^{\Omega((n/\log n)^{1/3})}$, so $L = 2^{\Omega((n/\log n)^{1/3})}$.
+16. If $G_a$ has a $k$-clique, then $A(a, q)$ has a solution, so $I(a) \neq 0$ by step 12, and $I(a) = 1$.
+17. If $G_a$ is $(k-1)$-colorable, then $B(a, r)$ has a solution, so $I(a) \neq 1$ by step 11, and $I(a) = 0$.
+18. A composition of non-decreasing functions is non-decreasing, so $I$ is a monotone Boolean function with the two properties of $f$ in part 1.
+19. Part 1, which Pudlák proved by extending the approximation method of [[Razborov's monotone circuit bound|2XH5VDJ426]] to real gates, gives $L + 1 \geq 2^{\Omega((n/\log n)^{1/3})}$.
 
-This proves part 2, given part 1.
+So every cutting-planes refutation of the clique-coloring formulas has length $2^{\Omega((n/\log n)^{1/3})}$, which is part 2.
 
 ## Idea
 
-Every line of the refutation is split into a clique part and a colouring part, and the right side of the colouring part is followed through the refutation.
-At the end, one of the two parts is a contradiction, and the value of the colouring part says which one.
-This value is computed by one monotone real gate for each line, because the colouring lines have non-positive coefficients for $p$.
-A circuit lower bound for monotone real circuits then bounds the number of lines.
+Every line of the refutation is split into a clique part and a coloring part, and we follow a lower bound for each part through the refutation.
+At the end the two bounds add up to at least $1$, so one of the two parts has become a contradiction, and the coloring bound tells us which.
+That bound is computed by one monotone real gate per line, because the coloring lines have non-positive coefficients on $p$.
+A lower bound for monotone real circuits then bounds the number of lines.
 
 ## Variants
 
-The same interpolation argument gives lower bounds for [[resolution|6JSH907W5R]], where the circuit is a monotone Boolean circuit, as in [[the interpolation theorem for resolution|YHGCN7BBEP]] and [[its application to clique-colouring|F8GJ402PH2]].
+The same argument gives lower bounds for [[resolution|6JSH907W5R]], where the circuit is a monotone Boolean circuit.
+See [[the interpolation theorem for resolution|YHGCN7BBEP]] and [[its application to clique-coloring|F8GJ402PH2]].
 For resolution, [[Razborov's bound|2XH5VDJ426]] for Boolean monotone circuits is enough, and real gates are not needed.
-For lines with many variables of $p$, step 11 needs one more gate for each additional occurrence of $p$ in an axiom of $B$.
+
+When an axiom of $B$ contains several variables of $p$, step 13 needs one more addition gate for each extra variable, and the gate count grows by the number of those occurrences.
+Haken and Cook proved lower bounds for monotone real circuits independently, and their bound can replace part 1.

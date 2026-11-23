@@ -18,7 +18,6 @@ sources:
 
 Cutting planes is the proof system that refutes a CNF by adding integer linear inequalities and rounding the results.
 
-The rounding step is the heart of the system, so we show it first.
 In the [[pigeonhole formulas|RJ571F7FF0]], let $x, y, z$ say that pigeons $1$, $2$ and $3$ sit in hole $1$.
 The clauses $\neg x \vee \neg y$, $\neg y \vee \neg z$ and $\neg x \vee \neg z$ become the inequalities $x + y \leq 1$, $y + z \leq 1$ and $x + z \leq 1$.
 Add the three inequalities:
@@ -27,7 +26,6 @@ At a $0$-$1$ point the left side is even, so we may divide by $2$ and round the 
 $$x + y + z \leq \lfloor 3/2 \rfloor = 1.$$
 So at most one pigeon sits in hole $1$, and one line now says what three clauses said.
 
-We now give the exact definition.
 Fix variables $x_1, \dots, x_n$ with values in $\{0, 1\}$.
 A *line* is an inequality $\sum_{i} a_i x_i \geq \gamma$ with integers $a_1, \dots, a_n$ and $\gamma$.
 A [[clause|T3SXVH3ZZC]] $C$ becomes the line
