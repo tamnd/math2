@@ -15,25 +15,28 @@ sources:
 ## Example
 
 In [[hybrid logic|NVPQ9W9DED]], let $\chi$ be the pure formula $i \to \neg \lozenge i$.
-We show that for every frame $\mathfrak{F} = (W, R)$, $\chi$ is valid on $\mathfrak{F}$ if and only if $R$ is irreflexive, that is, $w R w$ for no $w$.
-Here "valid on $\mathfrak{F}$" means true at every world of every hybrid model $(W, R, V)$.
+We show that $\chi$ is valid on a frame $\mathfrak{F} = (W, R)$ exactly when $R$ is irreflexive, that is, when $w R w$ holds for no $w$.
+Here "valid on $\mathfrak{F}$" means true at every world of every hybrid model $(W, R, V)$ on that frame.
 
-1. Assume $R$ is irreflexive. Fix a hybrid valuation $V$ and a world $w$ with $\mathfrak{M}, w \models i$.
-2. Then $V(i) = \{w\}$, by the truth clause for nominals.
-3. If $\mathfrak{M}, w \models \lozenge i$, then $w R u$ for some $u$ with $\mathfrak{M}, u \models i$. By step 2, $u = w$, so $w R w$.
-4. This contradicts irreflexivity. So $\mathfrak{M}, w \models \neg \lozenge i$, and $\chi$ holds at $w$.
-5. At a world where $i$ is false, $\chi$ holds because its antecedent is false. So $\chi$ is valid on $\mathfrak{F}$.
-6. Conversely, assume $w R w$ for some $w$. Choose a hybrid valuation with $V(i) = \{w\}$.
-7. Then $\mathfrak{M}, w \models i$, and $w R w$ gives $\mathfrak{M}, w \models \lozenge i$.
-8. So $\chi$ fails at $w$, and $\chi$ is not valid on $\mathfrak{F}$.
+1. Assume that $R$ is irreflexive, fix a hybrid valuation $V$, and fix a world $w$.
+2. If $i$ is false at $w$, then $\chi$ holds at $w$ because its antecedent is false.
+3. If $i$ is true at $w$, then $V(i) = \{w\}$, by the truth clause for nominals.
+4. Suppose $\lozenge i$ were true at $w$.
+   Then $w R u$ for some $u$ where $i$ holds, and step 3 gives $u = w$, so $w R w$, against irreflexivity.
+   So $\neg \lozenge i$ holds at $w$, and so does $\chi$.
+5. By steps 2 to 4, $\chi$ is valid on $\mathfrak{F}$.
+6. Conversely, assume that $w R w$ for some $w$, and choose a hybrid valuation with $V(i) = \{w\}$.
+   Then $i$ holds at $w$, and $w R w$ gives $\lozenge i$ at $w$, so $\chi$ fails at $w$.
 
 ## Remarks
 
 The example shows the main use of nominals in correspondence: a world can be pointed at, so a condition on one world becomes a formula.
-No formula of basic modal logic defines [[reflexivity|0X8NMST0J2]] in the negative form "no world sees itself".
-The reason is that frame validity of modal formulas is preserved under bounded morphic images, and the irreflexive frame $(\mathbb{N}, S)$ with $S = \{(n, n + 1)\}$ maps onto a reflexive point, see [[the successor chain maps onto a reflexive point|T3YJ84YDV4]].
-If we drop the condition that $V(i)$ has one element, step 2 fails, and so does the equivalence.
-Because $\chi$ is pure, the completeness theorem for pure axioms gives a complete axiom system for the irreflexive frames: $\mathcal{H}(@)$ plus $\chi$.
+Irreflexivity is the failure of [[reflexivity|0X8NMST0J2]] at every world, and no formula of basic modal logic defines it.
+Modal validity is preserved under bounded morphic images, and the irreflexive frame $(\mathbb{N}, S)$ with $S = \{(n, n + 1)\}$ maps onto a reflexive point, as [[the successor chain maps onto a reflexive point|T3YJ84YDV4]] shows.
+
+Everything rests on the uniqueness of the world named $i$.
+If $V(i)$ may have two elements, step 3 fails, and so does the equivalence.
+Because $\chi$ is pure, the completeness theorem for pure axioms applies, and $\mathcal{H}(@)$ plus $\chi$ is a complete axiom system for the irreflexive frames.
 
 ## Explanations
 
@@ -46,12 +49,11 @@ So the formula holds everywhere exactly when no world can see itself.
 
 ### L2 human
 
-We check $\chi$ on the frame $W = \{0, 1\}$, $R = \{(0, 1), (1, 0)\}$, which is irreflexive.
-
-1. Take $V(i) = \{0\}$. At $0$, the only successor is $1$, and $i$ is false at $1$. So $\lozenge i$ is false at $0$, and $\chi$ holds.
-2. At $1$, $i$ is false, so $\chi$ holds.
-3. Take $V(i) = \{1\}$. The same check with $0$ and $1$ swapped shows that $\chi$ holds at both worlds.
-4. These are all hybrid valuations of $i$, so $\chi$ is valid on this frame.
-
-The typical use of this argument is to read off a frame condition from a pure formula by naming the world the condition talks about.
-A trap: $\chi$ can be true in one model on a reflexive frame, since $i$ may name a world that does not see itself.
+We check $\chi$ on the irreflexive frame $W = \{0, 1\}$ with $R = \{(0, 1), (1, 0)\}$.
+A hybrid valuation must name either $0$ or $1$ by $i$, so there are two cases.
+With $V(i) = \{0\}$, the only successor of $0$ is $1$, where $i$ is false, so $\lozenge i$ fails at $0$ and $\chi$ holds there.
+At $1$ the nominal is false, so $\chi$ holds there too.
+With $V(i) = \{1\}$ the same check, with $0$ and $1$ swapped, gives $\chi$ at both worlds.
+So $\chi$ is valid on the frame.
+The typical use of this argument is to read off a frame condition from a pure formula by naming the world that the condition talks about.
+Watch out: on a reflexive frame $\chi$ can still be true in one model, when $i$ names a world that does not see itself.

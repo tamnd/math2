@@ -16,24 +16,30 @@ sources:
 
 ## Example
 
+An agent knows $p$ and knows that $p$ implies $q$, but has not yet drawn the conclusion $q$.
+In an ordinary Kripke model this is impossible, and one extra world fixes it.
+That world is a situation where $p$ and $p \to q$ hold and $q$ fails, which the agent has not yet ruled out.
+
 Read $\square \varphi$ as "the agent knows $\varphi$".
-Let $W = \set{w, i}$ with $w$ possible and $i$ an [[impossible world|8PAJMAN8DM]], and let $R = \set{(w, w), (w, i)}$.
-At $w$, variables get values as usual: $p$ and $q$ are true.
+Let $W = \{w, i\}$ with $w$ possible and $i$ an [[impossible world|8PAJMAN8DM]], and let $R = \{(w, w), (w, i)\}$.
+At $w$, variables get values as usual, and $p$ and $q$ are true.
 At $i$, as in a Rantala model, every formula gets a value directly.
-At $i$, let $p$ and $p \to q$ be true, let $q$ be false, and let $q \vee \neg q$ be false.
+At $i$, let $p$ and $p \to q$ be true, and let $q$ and $q \vee \neg q$ be false.
 
 1. At $w$, the formulas $p$, $p \to q$, $q$ and $q \vee \neg q$ are true, by the classical clauses.
-2. $p$ is true at both successors $w$ and $i$ of $w$, so $w \models \square p$.
-3. $p \to q$ is true at $w$ and at $i$, so $w \models \square(p \to q)$.
-4. $q$ is false at $i$, so $w \not\models \square q$.
-5. So at $w$ the agent knows $p$ and $p \to q$ but not $q$: knowledge is not closed under known implication.
-6. $q \vee \neg q$ is false at $i$, so $w \not\models \square(q \vee \neg q)$: the agent does not know this tautology.
+2. The formula $p$ is true at both successors $w$ and $i$ of $w$, so $w \models \square p$.
+3. The formula $p \to q$ is true at $w$ and at $i$, so $w \models \square(p \to q)$.
+4. The formula $q$ is false at $i$, so $w \not\models \square q$.
+5. So at $w$ the agent knows $p$ and $p \to q$ but not $q$, and knowledge is not closed under known implication.
+6. The formula $q \vee \neg q$ is false at $i$, so $w \not\models \square(q \vee \neg q)$, and the agent does not know this tautology.
 
 ## Remarks
 
 Steps 4 and 6 show the two forms of logical omniscience that fail: closure of knowledge under consequence, and knowledge of all tautologies.
 In an ordinary [[Kripke model|NGHWZ9Y7ZV]], both forms hold, since every accessible world is classical.
-The price is that the semantics validates almost no epistemic principle; constraints on the impossible worlds restore the principles that are wanted.
+The price is that the semantics validates almost no epistemic principle.
+Constraints on the impossible worlds restore the principles that are wanted.
+For example, requiring every impossible world to make each tautology true restores knowledge of tautologies, and step 6 then fails.
 
 ## Explanations
 
@@ -45,9 +51,9 @@ So the agent knows the premises without knowing the conclusion.
 
 ### L2 human
 
-1. List the formulas true at $i$: $p$ and $p \to q$; list the formulas false at $i$: $q$ and $q \vee \neg q$.
-2. The agent at $w$ knows a formula iff it is true at $w$ and at $i$.
-3. $p$ and $p \to q$ pass this test; $q$ and $q \vee \neg q$ do not.
-
+List the formulas true at $i$: $p$ and $p \to q$.
+List the formulas false at $i$: $q$ and $q \vee \neg q$.
+The agent at $w$ knows a formula exactly when it is true at $w$ and at $i$.
+So $p$ and $p \to q$ pass this test, and $q$ and $q \vee \neg q$ do not.
 The typical use is to model agents with limited reasoning power.
-A trap: at $i$ the value of $p \to q$ is not computed from the values of $p$ and $q$; it is given directly.
+Watch out: at $i$ the value of $p \to q$ is not computed from the values of $p$ and $q$, but given directly.

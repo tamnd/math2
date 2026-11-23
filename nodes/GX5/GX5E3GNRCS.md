@@ -23,55 +23,69 @@ sources:
 
 ## Statement
 
-A class $\mathsf{K}$ of Kripke frames is *modally definable* if there is a set $\Sigma$ of modal formulas such that a frame $\mathfrak{F}$ is in $\mathsf{K}$ exactly when $\mathfrak{F} \models \varphi$ for all $\varphi \in \Sigma$.
+The two-cycle $a R b R a$ is irreflexive, and the map sending $a$ and $b$ to one reflexive point is a bounded morphism.
+Every formula valid on the two-cycle is therefore valid on the loop, so no set of modal formulas defines the irreflexive frames.
+The Goldblatt-Thomason theorem says that such closure tests are the whole story for first-order classes: four closure conditions decide modal definability.
 
+A class $\mathsf{K}$ of Kripke frames is *modally definable* if there is a set $\Sigma$ of modal formulas such that a frame $\mathfrak{F}$ is in $\mathsf{K}$ exactly when $\mathfrak{F} \models \varphi$ for all $\varphi \in \Sigma$.
 The *ultrafilter extension* of a frame $\mathfrak{F} = (W, R)$ is $\mathfrak{ue}\,\mathfrak{F} = (\mathrm{Uf}(W), R^{ue})$.
-Its worlds are the [[ultrafilters|CQM84EW10G]] of the Boolean algebra $\mathcal{P}(W)$, and $u R^{ue} v$ holds when $m_R(X) \in u$ for every $X \in v$, where $m_R(X) = \set{w : w R x \text{ for some } x \in X}$.
+Its worlds are the [[ultrafilters|CQM84EW10G]] of the Boolean algebra $\mathcal{P}(W)$.
+Let $m_R(X) = \{w : w R x \text{ for some } x \in X\}$; then $u R^{ue} v$ holds when $m_R(X) \in u$ for every $X \in v$.
 A class $\mathsf{K}$ *reflects ultrafilter extensions* if $\mathfrak{ue}\,\mathfrak{F} \in \mathsf{K}$ implies $\mathfrak{F} \in \mathsf{K}$.
 Generated subframes, bounded morphic images and disjoint unions of frames are defined as for models in [[the definition of bisimulation|7T740SFHHV]], without the valuations.
 
 **Theorem.** Let $\mathsf{K}$ be a class of frames that is closed under [[ultraproducts|AX9Q86GB8M]], for example an [[elementary class|MEC3ZMC4F1]] of frames.
-Then $\mathsf{K}$ is modally definable if and only if the following four conditions hold:
+Then $\mathsf{K}$ is modally definable if and only if the following four conditions hold.
 
-1. $\mathsf{K}$ is closed under bounded morphic images;
-2. $\mathsf{K}$ is closed under generated subframes;
-3. $\mathsf{K}$ is closed under disjoint unions;
+1. $\mathsf{K}$ is closed under bounded morphic images.
+2. $\mathsf{K}$ is closed under generated subframes.
+3. $\mathsf{K}$ is closed under disjoint unions.
 4. $\mathsf{K}$ reflects ultrafilter extensions.
 
-The proof is in [[the proof of the Goldblatt-Thomason theorem|N93T1RAT4W]].
+The [[proof|N93T1RAT4W]] goes through modal algebras and Birkhoff's variety theorem.
 
 ## Remarks
 
-### Why each hypothesis is needed
+### Why the ultraproduct hypothesis is needed
 
-1. Closure under ultraproducts cannot be dropped.
-   The class of image-finite frames, where each world has finitely many successors, satisfies conditions 1 to 4.
-   It is not modally definable.
-   Let $\mathfrak{F}$ be a root with infinitely many successors and no other arrows.
-   For a formula $\varphi$ with $n$ variables, a valuation splits the successors into at most $2^n$ classes by the variables of $\varphi$ they satisfy.
-   Collapsing each class to one point is a bounded morphism onto a finite fan, so a formula refuted on $\mathfrak{F}$ is refuted on an image-finite frame.
-2. Condition 4 cannot be dropped. The elementary class $\forall x \, \exists y \, (R(x, y) \wedge R(y, y))$ satisfies conditions 1 to 3. The frame $(\N, <)$ is not in it, but its ultrafilter extension is, since every non-principal ultrafilter is reflexive and seen from every point. So the class is not modally definable.
-3. Conditions 1 to 3 cannot be dropped, since every modally definable class satisfies them, by [[bisimulation invariance|TKFFTAX30E]]. For example, the elementary class of irreflexive frames fails condition 1, and so it is not modally definable.
+The class of image-finite frames, where each world has finitely many successors, satisfies conditions 1 to 4.
+It is not modally definable.
+Let $\mathfrak{F}$ be a root with infinitely many successors and no other arrows.
+For a formula $\varphi$ with $n$ variables, a valuation splits the successors into at most $2^n$ classes by the variables of $\varphi$ they satisfy.
+Collapsing each class to one point is a bounded morphism onto a finite fan.
+So a formula refuted on $\mathfrak{F}$ is refuted on an image-finite frame, and the logic of the image-finite frames is valid on $\mathfrak{F}$.
 
-### Consequences
+### Why each closure condition is needed
 
-1. A first-order property of frames is modally definable if and only if the class it defines satisfies conditions 1 to 4. This gives a test for modal definability.
-2. The proof shows that every modally definable class $\mathsf{K}$ closed under ultraproducts is the class of frames of the logic of $\mathsf{K}$.
-3. The proof uses only closure under ultrapowers, so the theorem holds for every class closed under ultrapowers.
+Condition 4 cannot be dropped.
+The elementary class defined by $\forall x \, \exists y \, (R(x, y) \wedge R(y, y))$ satisfies conditions 1 to 3.
+The frame $(\mathbb{N}, <)$ is not in it, but its ultrafilter extension is, as the L2 explanation shows.
 
-### Converse
+Condition 1 cannot be dropped: the irreflexive frames satisfy conditions 2 to 4, and the opening shows that they are not definable.
+Condition 2 cannot be dropped: the frames with at least one arrow satisfy conditions 1, 3 and 4, but a world without successors generates a subframe without arrows.
+Condition 3 cannot be dropped: the frames with exactly one world satisfy conditions 1, 2 and 4, but the disjoint union of two of them has two worlds.
+
+### What it gives you
+
+A first-order property of frames is modally definable if and only if the class it defines satisfies conditions 1 to 4.
+This gives a test for modal definability, usually applied in the negative direction.
+The proof shows that a modally definable class $\mathsf{K}$ closed under ultraproducts is the class of frames of the logic of $\mathsf{K}$.
+The proof uses only closure under ultrapowers, so the theorem holds for every class closed under ultrapowers.
+
+### The converse
 
 The theorem is an equivalence.
-Its direction from left to right holds for every class of frames, without the ultraproduct hypothesis: modally definable classes always satisfy conditions 1 to 4.
+Its direction from left to right holds for every class of frames, without the ultraproduct hypothesis.
+Modally definable classes always satisfy conditions 1 to 4, by [[bisimulation invariance|TKFFTAX30E]] and the fact that $\mathfrak{ue}\,\mathfrak{F} \models \varphi$ implies $\mathfrak{F} \models \varphi$.
 
 ### Generalizations
 
-1. The same theorem holds for polymodal languages and for modal languages with operators of any arity.
-2. Versions exist for hybrid logic, with closure conditions adapted to nominals, and for coalgebraic modal logics.
+The same theorem holds for polymodal languages and for modal languages with operators of any arity.
+Versions exist for hybrid logic, with closure conditions adapted to nominals, and for coalgebraic modal logics.
 
 ## History
 
-Goldblatt and Thomason proved the theorem in 1975, in "Axiomatic classes in propositional modal logic".
+Robert Goldblatt and Steven Thomason proved the theorem in 1975, in "Axiomatic classes in propositional modal logic".
 Their proof is algebraic, through Birkhoff's variety theorem and the duality between modal algebras and general frames.
 
 ## Explanations
@@ -81,23 +95,24 @@ Their proof is algebraic, through Birkhoff's variety theorem and the duality bet
 Some properties of pictures of points and arrows can be written as modal axioms, and some cannot.
 The theorem gives a test for the properties that first-order logic can express.
 The property must survive four ways of building new pictures from old ones.
-For example, "no point has an arrow to itself" fails the test, because one can squash an endless chain onto a single point with a loop.
+For example, "no point has an arrow to itself" fails the test, because one can squash a two-cycle onto a single point with a loop.
 
 ### L2 human
 
-We use the theorem to show that "every world has a reflexive successor" is not modally definable.
-
-1. On $(\N, <)$, no world is reflexive, so the property fails.
-2. Let $u$ be a non-principal ultrafilter on $\N$. Every $X \in u$ is infinite, so $m_<(X) = \N \in u$. Hence $u R^{ue} u$.
-3. For each $n$ and each $X \in u$, some element of $X$ is larger than $n$, so $n \in m_<(X)$. Hence the principal ultrafilter of $n$ sees $u$.
-4. A non-principal ultrafilter $v$ sees $u$ by step 2 applied to $m_<(X) = \N \in v$.
-5. So every world of the ultrafilter extension has a reflexive successor, and condition 4 fails.
-
+We show that "every world has a reflexive successor" is not modally definable.
+On $(\mathbb{N}, <)$ no world is reflexive, so the property fails.
+Let $u$ be a non-principal ultrafilter on $\mathbb{N}$.
+Every $X \in u$ is infinite, so $m_<(X) = \mathbb{N} \in u$, and hence $u R^{ue} u$.
+For each $n$ and each $X \in u$, some element of $X$ is larger than $n$, so $n \in m_<(X)$, and the principal ultrafilter of $n$ sees $u$.
+A non-principal ultrafilter $v$ sees $u$ too, because $m_<(X) = \mathbb{N} \in v$ for each $X \in u$.
+So every world of the ultrafilter extension has a reflexive successor, and condition 4 fails.
 The typical use is negative: find a frame outside the class whose ultrafilter extension, or a disjoint union, is inside it.
-A trap: closure under ultraproducts is a hypothesis, not a conclusion; the theorem does not say that modally definable classes are elementary.
+Watch out: closure under ultraproducts is a hypothesis, and the theorem does not say that modally definable classes are elementary.
 
 ### L3 human
 
 Algebraically, a class of frames is modally definable exactly when its complex algebras generate a variety whose frame part is the class.
-The theorem is the frame-theoretic shadow of Birkhoff's theorem: equations define classes closed under homomorphic images, subalgebras and products, and these operations dualize to generated subframes, bounded morphic images and disjoint unions.
-Ultrafilter extensions enter because the duality between algebras and frames passes through ultrafilters, and they play the role that ultrapowers play in the Keisler-Shelah characterization of elementary classes.
+The theorem is the frame-theoretic shadow of Birkhoff's theorem: equations define classes closed under homomorphic images, subalgebras and products.
+These operations dualize to generated subframes, bounded morphic images and disjoint unions.
+Ultrafilter extensions enter because the duality between algebras and frames passes through ultrafilters.
+They play the role that ultrapowers play in the Keisler-Shelah characterization of elementary classes.

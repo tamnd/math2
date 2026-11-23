@@ -15,21 +15,17 @@ sources:
 ## Example
 
 We give a Kripke model with domains for [[quantified modal logic|D2H3S12V7X]] in which $\square \exists x P x$ is true at a world and $\exists x \square P x$ is false there.
+Let $\mathfrak{M} = (W, R, D, I)$ with $W = \{w, v\}$ and $R = W \times W$, so that $(W, R)$ is a frame of [[S5|VC3A2VWXND]].
+Take the constant domain $D(w) = D(v) = \{a, b\}$, and let $I(P, w) = \{a\}$ and $I(P, v) = \{b\}$.
 
-Let $\mathfrak{M} = (W, R, D, I)$ with:
+First we check $\square \exists x P x$ at $w$.
 
-- $W = \{w, v\}$ and $R = W \times W$, so $R$ is an equivalence relation and $(W, R)$ is a frame of [[S5|VC3A2VWXND]];
-- $D(w) = D(v) = \{a, b\}$, a constant domain;
-- $I(P, w) = \{a\}$ and $I(P, v) = \{b\}$.
-
-We check $\square \exists x P x$ at $w$.
-
-1. The worlds with $w R u$ are $u = w$ and $u = v$.
-2. At $w$: $a \in D(w)$ and $a \in I(P, w)$, so $\mathfrak{M}, w \models \exists x P x$.
-3. At $v$: $b \in D(v)$ and $b \in I(P, v)$, so $\mathfrak{M}, v \models \exists x P x$.
+1. The worlds that $w$ sees are $w$ and $v$.
+2. At $w$, the object $a$ lies in $D(w)$ and in $I(P, w)$, so $\mathfrak{M}, w \models \exists x P x$.
+3. At $v$, the object $b$ lies in $D(v)$ and in $I(P, v)$, so $\mathfrak{M}, v \models \exists x P x$.
 4. By steps 1 to 3, $\mathfrak{M}, w \models \square \exists x P x$.
 
-We check that $\exists x \square P x$ fails at $w$.
+Then we check that $\exists x \square P x$ fails at $w$.
 
 5. The candidates for $x$ are the elements of $D(w) = \{a, b\}$.
 6. For $x \mapsto a$: $w R v$ and $a \notin I(P, v)$, so $\square P x$ fails at $w$.
@@ -39,7 +35,10 @@ We check that $\exists x \square P x$ fails at $w$.
 ## Remarks
 
 The example shows that the de dicto formula $\square \exists x P x$ does not imply the de re formula $\exists x \square P x$, even in $\mathsf{S5}$ with a constant domain.
-The converse implication $\exists x \square P x \to \square \exists x P x$ is valid on every frame with increasing domains: a witness $d$ for $\square P x$ at $w$ exists at each successor and serves as a witness there.
+The witness may change from world to world, and that is all the de dicto formula asks.
+
+The converse implication $\exists x \square P x \to \square \exists x P x$ is valid on every frame with increasing domains.
+A witness $d$ for $\square P x$ at $w$ still exists at each successor, by the domain condition, and it serves as a witness there.
 If we change $I(P, v)$ to $\{a, b\}$, then $a$ becomes a witness for $\exists x \square P x$ at $w$, and both formulas hold.
 
 ## Explanations
@@ -53,13 +52,9 @@ But no single player wins in both worlds, so "somebody necessarily wins" is fals
 
 ### L2 human
 
-We check the converse implication at $w$ in a changed model.
-
-1. Change $I(P, v)$ to $\{a, b\}$ and keep the rest.
-2. For $x \mapsto a$: $a \in I(P, w)$ and $a \in I(P, v)$, so $w \models \square P x$ under $x \mapsto a$.
-3. So $w \models \exists x \square P x$, with the witness $a$.
-4. At each world $u$ with $w R u$, the object $a$ lies in $D(u)$ and in $I(P, u)$, so $u \models \exists x P x$.
-5. Hence $w \models \square \exists x P x$.
-
+We check the converse implication in the changed model, with $I(P, v) = \{a, b\}$ and the rest as before.
+Under $x \mapsto a$, the object $a$ lies in $I(P, w)$ and in $I(P, v)$, so $\square P x$ holds at $w$.
+So $w \models \exists x \square P x$, with the witness $a$.
+At each world $u$ that $w$ sees, $a$ lies in $D(u)$ and in $I(P, u)$, so $u \models \exists x P x$, and $w \models \square \exists x P x$.
 The typical use of the original model is to refute the inference from de dicto to de re.
-A trap: in step 4 we need $a \in D(u)$, which holds here because the domain is constant.
+Watch out: the step "$a$ lies in $D(u)$" needs the domain condition, and here it holds because the domain is constant.
