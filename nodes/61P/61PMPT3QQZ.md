@@ -18,29 +18,33 @@ sources:
 
 ## Example
 
-The claimed statement is: for every real number $x$, if $x^2 > 4$, then $x > 2$.
-The proof in the text reads as follows.
+The claimed statement is that for every real number $x$, if $x^2 > 4$, then $x > 2$.
+The proof in the text, which is flawed, reads as follows.
 
 > Suppose that $x^2 > 4$.
 > Taking square roots of both sides, we get $x > 2$.
 
-A reader paraphrases the proof: "We start from $x^2 > 4$ and take roots, so $x$ is more than $2$."
-The reader finds each line plausible and accepts the proof.
+A reader paraphrases it as "we start from $x^2 > 4$ and take roots, so $x$ is more than $2$", finds each line plausible, and accepts the proof.
 We check this reading against the method of [[reading proofs|40GCSM2G56]].
 
-1. The method asks for the reason of each line. The paraphrase gives no reason for "taking square roots of both sides": it only repeats the line.
-2. The reason, written out, is this. The square root function is increasing on $[0, \infty)$, so $x^2 > 4$ gives $\sqrt{x^2} > \sqrt{4} = 2$.
-3. The left side is $\sqrt{x^2} = \lvert x \rvert$, the [[absolute value|0FFXKTKKQC]] of $x$, and not $x$. So the correct conclusion of the step is $\lvert x \rvert > 2$.
-4. The method asks for a test on an example. Take $x = -3$. Then $x^2 = 9 > 4$, so the hypothesis holds.
-5. For $x = -3$ the conclusion $x > 2$ is false, because $-3 < 2$. So the claimed statement is false, and the proof has an error.
-6. The paraphrase did neither item 1 nor item 4. So it is not an instance of active reading, and it accepted a false proof.
+The method asks for the reason of each line, and the paraphrase gives none for "taking square roots": it only repeats the step.
+Written out, the reason is that the square root is increasing on $[0, \infty)$, so $x^2 > 4$ gives $\sqrt{x^2} > \sqrt{4} = 2$.
+But $\sqrt{x^2} = \lvert x \rvert$, the [[absolute value|0FFXKTKKQC]] of $x$, and not $x$.
+So the step correctly gives only $\lvert x \rvert > 2$.
+
+The method also asks for a test on an example.
+Take $x = -3$: then $x^2 = 9 > 4$, so the hypothesis holds, but $x > 2$ is false.
+The claimed statement is false, and the flaw is the step $\sqrt{x^2} = x$.
+The paraphrase did neither check, so it is not active reading, and it accepted a false proof.
 
 ## Remarks
 
-1. The correct statement is: for every real $x$, if $x^2 > 4$, then $x > 2$ or $x < -2$. The proof of item 2 and item 3 gives $\lvert x \rvert > 2$, which is exactly this.
-2. The error is the identity $\sqrt{x^2} = x$, which holds only for $x \ge 0$. With the extra hypothesis $x \ge 0$, the original proof becomes correct.
-3. The same false step appears in the other direction, when a proof squares both sides of an inequality or an equation. The page [[squaring both sides does not prove an identity|FGS7ZJJYRK]] shows this.
-4. The pages of the topic [[fallacies and errors in proofs|T6QQ749DM5]] collect other errors of this kind.
+The correct statement is that if $x^2 > 4$, then $x > 2$ or $x < -2$.
+The written-out reason above gives $\lvert x \rvert > 2$, which says exactly this.
+
+The identity $\sqrt{x^2} = x$ holds only for $x \ge 0$, so with the extra hypothesis $x \ge 0$ the original proof becomes correct.
+The same false step runs the other way when a proof squares both sides of an inequality or an equation, as [[squaring both sides does not prove an identity|FGS7ZJJYRK]] shows.
+[[Fallacies and errors in proofs|T6QQ749DM5]] collects other errors of this kind.
 
 ## Explanations
 
@@ -54,12 +58,10 @@ Only a reader who tests the claim, or who asks why the step holds, finds the err
 
 ### L2 human
 
-We contrast the two readings of the single step "taking square roots of both sides".
+We contrast two readings of the single step "taking square roots of both sides".
+The paraphrase, "we take roots of both sides", repeats the step and checks nothing.
+The explanation, "the square root is increasing on $[0, \infty)$, and both $x^2$ and $4$ lie there, so $\sqrt{x^2} > 2$", names a result and checks its hypotheses.
+The explanation then needs $\sqrt{x^2}$ in terms of $x$, and the definition of the square root gives $\lvert x \rvert$, which is where the error shows.
 
-1. The paraphrase: "we take roots of both sides". This repeats the step and checks nothing.
-2. The explanation: "the square root is increasing on $[0, \infty)$, and both $x^2$ and $4$ lie in $[0, \infty)$, so $\sqrt{x^2} > 2$". This names a result and checks its hypotheses.
-3. The explanation then needs $\sqrt{x^2}$ in terms of $x$. The definition of the square root gives $\sqrt{x^2} = \lvert x \rvert$, and here the error appears.
-
-The typical use of this contrast is in training: a student learns to replace each paraphrase by a sentence that names a reason.
-A trap is to test the claim only with positive numbers, such as $x = 3$ or $x = 5$.
-These tests pass, and only a negative test value shows the error.
+In training, a student learns to replace each paraphrase with a sentence that names a reason.
+Watch out: tests with positive numbers such as $x = 3$ or $x = 5$ all pass, and only a negative test value shows the error.

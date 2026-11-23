@@ -22,108 +22,109 @@ sources:
 
 ## Summary
 
-Checking a proof means deciding whether a written argument proves its stated result.
-The checker verifies that each step has a valid reason and that each case is covered.
-The checker also verifies that each cited result is applied within its hypotheses, and that the last line is the stated conclusion.
-A main test is to run the argument on a case where the conclusion fails.
-If each step still goes through there, the argument has an error, and the first step that should break locates the gap.
-The result of a check is a verdict (correct, correct with minor gaps, incomplete, or wrong) with the reasons.
-Checking matters because a [[proof|0B94TKFQJX]] is accepted only after other people have checked it.
-Also, a student who can check proofs can find the errors in their own work.
+Checking a proof means deciding whether a written argument proves its stated result, and the sharpest tool for it is to run the argument on a case where the conclusion is false.
+Here is a short argument that looks fine but is flawed.
+
+> Claim: if $f, g \colon \mathbb{R} \to \mathbb{R}$ are injective, then $f + g$ is injective.
+> Suppose $f(x) + g(x) = f(y) + g(y)$.
+> Since $f$ is injective, $f(x) = f(y)$, and since $g$ is injective, $g(x) = g(y)$.
+> So $x = y$.
+
+Run it on $f(x) = x$ and $g(x) = -x$, which are both injective, while $f + g$ is the zero function and is not injective.
+With $x = 0$ and $y = 1$, the first line holds, since both sides are $0$.
+The second line claims $f(0) = f(1)$, which is false.
+So the argument breaks at the second line, and on reflection that line has no reason: injectivity turns $f(x) = f(y)$ into $x = y$, and says nothing about a sum.
+The verdict is "wrong", with the line and the reason, and in this case the claim itself is false.
+
+In general, a checker confirms that every step has a valid reason, that the cases cover everything, that every cited result is used within its hypotheses, and that the last line is the stated conclusion.
+The result is a verdict, such as correct, correct with minor gaps, incomplete, or wrong, together with its reasons.
 
 ## Motivation
 
-A proof can be wrong and still look convincing.
-In 1879 Alfred Kempe published a proof of the [[four colour theorem|0M406JC8J1]], and it was accepted until Percy Heawood found an error in 1890.
-Errors of this kind are not errors of computation.
+A proof can be wrong and still convince careful readers.
+In 1879 Alfred Kempe published a proof of the [[four color theorem|0M406JC8J1]], and it stood until Percy Heawood found an error in 1890.
+Errors of this kind are not slips of arithmetic.
 Each line looks plausible, and the gap lies in a case or a dependence that the writer did not see.
-A reader who only reads the proof for understanding, as on the page [[reading proofs|40GCSM2G56]], may miss such a gap.
-Checking adds an adversarial attitude: the checker tries to break each step, and accepts the proof only when every attack fails.
+A reader who reads for understanding, as in [[reading proofs|40GCSM2G56]], can miss such a gap.
+Checking adds an adversarial attitude: the checker tries to break each step, and accepts the [[proof|0B94TKFQJX]] only when every attack fails.
 
 ## Remarks
 
-### When it applies
+### The method
 
-1. Students check their own proofs before handing them in.
-2. A student checks the proof of another student in peer assessment, or a teaching assistant grades a solution.
-3. A referee checks the proofs of a paper for a journal, by the process of [[peer review|A6ZGR8NM3S]].
-4. A reader checks a proof in a book or a paper before using its result in new work.
+Check the statement first: is it precise, with every variable quantified, and does the proof prove this statement rather than a special case, the [[converse|09A3N7ZN5G]] or a weaker form?
+Then check the frame.
+For a [[proof by contradiction|0J0XBKG64S]], is the assumed negation correct; for [[induction|0ASJVEFA9J]], are both the base case and the step there; for a [[proof by cases|0WCP0PVET6]], do the cases cover everything?
 
-### The steps
+Check each step: write its reason, or note that it is missing, and redo each computation.
+Check that each new object is defined before use and depends only on what is fixed at that point, since a $\delta$ that depends on $x$ is a typical fault, as in [[a delta that depends on x|R86WEZ07QE]].
+Check that each cited result has its hypotheses satisfied where it is used.
 
-1. Check the statement. Is it precise, with each variable quantified? Does the proof prove this statement, and not a special case, the [[converse|09A3N7ZN5G]] or a weaker form?
-2. Check the frame of the proof. For a [[proof by contradiction|0J0XBKG64S]], is the assumed negation correct? For [[induction|0ASJVEFA9J]], are the base case and the step both present? For a [[proof by cases|0WCP0PVET6]], do the cases cover all possibilities?
-3. Check each step. Write its reason, or note that the reason is missing. Redo each computation.
-4. Check each new object. Is it defined before its use, and does it depend only on the data that are fixed at that point? A number $\delta$ that depends on $x$ is a typical fault, as the page [[a delta that depends on x|R86WEZ07QE]] shows.
-5. Check each cited result. Do its hypotheses hold at the point of use?
-6. Check where each hypothesis is used. A hypothesis that the proof never uses is a warning: either the theorem holds without it, or a step is wrong.
-7. Run the argument on a case where the conclusion fails. Drop one hypothesis, or change the setting, so that the conclusion becomes false, and follow the proof line by line. Some step must fail on this case, and it must use the dropped hypothesis.
-8. Write the verdict with the list of problems, each tied to a line of the proof.
+Then mark where each hypothesis is used, and run the argument on a case where one hypothesis is dropped and the conclusion fails.
+Some step must break there, and it must be a step that uses the dropped hypothesis.
+Finish with the verdict and a list of problems, each tied to a line.
 
 ### Gaps and errors
 
-1. A gap is a true step with no reason given. A minor gap can be filled in a few lines by the intended reader; a serious gap needs a new idea.
-2. An error is a false step. A [[counterexample|0ED72CTBNP]] to the step itself shows it.
-3. A proof of a false statement contains at least one error. A counterexample to the statement shows that an error exists, and the test of step 7 finds where it is.
-4. A correct proof of another statement is also a failure. For example, a proof of "$a \mid b$ implies $a \mid bc$" does not prove "$a \mid bc$ implies $a \mid b$".
-5. The topic [[fallacies and errors in proofs|T6QQ749DM5]] lists the common errors by type.
+A gap is a true step whose reason is missing.
+A minor gap can be filled in a few lines by the intended reader, and a serious gap needs a new idea.
+An error is a false step, and a [[counterexample|0ED72CTBNP]] to the step itself shows it.
 
-### Refereeing at the student level
+A proof of a false statement contains at least one error.
+A counterexample to the statement shows that an error exists, and running the argument on that counterexample finds where.
+A correct proof of a different statement is also a failure: a proof that $a \mid b$ implies $a \mid bc$ does not prove that $a \mid bc$ implies $a \mid b$.
+[[Fallacies and errors in proofs|T6QQ749DM5]] lists the common errors by type.
 
-A short report on a proof has four parts.
+### Three checks in detail
 
-1. A summary of the claim and of the method of the proof, in one or two sentences. It shows that the checker understood the argument.
-2. The verdict: correct, correct with minor gaps, incomplete, or wrong.
-3. The list of problems, each with the line number, the kind (gap, error, unclear notation) and, when possible, a repair.
-4. Comments on the presentation, such as undefined symbols or missing words between formulas, as the page [[mathematical writing style|D5YPYTQ88G]] describes.
+[[Testing a boundedness argument on 1/x|YRZQ86RKYY]] checks a proof that a continuous function on $[0, 1]$ is bounded.
+No line uses that the interval is closed, so the same argument would show that $1/x$ is bounded on $(0, 1]$, which is false, and the test finds the gap.
 
-A good report criticizes the proof, not the writer, and it gives a reason for each criticism.
+[[A student referee report on irrational numbers|DJ1RWAEHYD]] finds one minor gap and ends with the verdict "correct with a minor gap".
+[[Testing the conclusion is not checking the proof|41W6CXZZZ6]] shows the opposite habit: a reader confirms a true statement on examples and accepts a circular argument for it.
 
-### Examples
+### Writing a report
 
-1. [[Testing a boundedness argument on 1/x|YRZQ86RKYY]]. A proof that a continuous function on $[0, 1]$ is bounded never uses that the interval is closed. So it would also prove that $1/x$ is bounded on $(0, 1]$, which is false.
-2. [[A student referee report on a proof about irrational numbers|DJ1RWAEHYD]]: the checker finds one minor gap and writes the verdict "correct with a minor gap".
-3. A proof that every [[prime number|01826KMG2H]] $p > 2$ is odd says: "if $p$ were even, then $2 \mid p$, so $p = 2$ since $p$ is prime". The checker confirms that the step uses the hypothesis "prime" and the definition of a prime, and accepts it.
-4. The false induction proof that [[all horses are the same colour|AJ2FDJJGTH]] fails at the step from $1$ to $2$. The checker finds this by running the step with $n = 1$, as on the page [[errors in induction proofs|V52HDTMPV5]].
+A short report has four parts.
+It summarizes the claim and the method in a sentence or two, which shows that the checker understood the argument.
+It gives the verdict.
+It lists the problems, each with its line, its kind, such as gap, error or unclear notation, and a repair when one is known.
+It adds comments on presentation, such as undefined symbols or missing words between formulas, as [[mathematical writing style|D5YPYTQ88G]] describes.
+A good report criticizes the proof, not the writer, and gives a reason for each criticism.
 
-### Non-examples
+### Facts about checking
 
-1. [[Testing the conclusion is not checking the proof|41W6CXZZZ6]]. A reader confirms "if $n^2$ is even then $n$ is even" for $n = 2, 4, 6$. The reader then accepts a proof that assumes its own conclusion.
-2. Accepting a proof because its author is an expert is not checking. The reasons of the steps are the only grounds for a verdict.
-3. A check of the final answer, for example that $x = 3$ solves an equation, checks the answer. It does not check the claim that it is the only solution.
+The verdict "wrong" needs one failing step, but the verdict "correct" needs every step checked, so it costs far more work.
+An argument that would apply word for word to a case where the conclusion fails cannot be correct.
+A proof can be wrong while its statement is true, and then a repair may exist.
+A [[structured proof|H2W8D7BMSW]], with numbered claims and sub-proofs, is easier to check, because each claim has its own short justification.
+Lamport made this point in 1995 when he proposed the format.
 
-### Basic properties
+### Watch out
 
-1. A correct verdict "wrong" needs one failing step, but a correct verdict "correct" needs a check of every step. So the second verdict costs much more work.
-2. If an argument proves a false statement, it has an error. Contrapositively, an argument that would apply word for word to a case where the conclusion fails cannot be correct.
-3. A proof can be wrong while its statement is true. Then the checker reports the error, and a repair may exist.
-4. A proof with a [[structured layout|H2W8D7BMSW]], with numbered claims and sub-proofs, is easier to check, because each claim has its own short justification.
+Checking the statement on examples does not check the proof.
+Examples can refute a statement, but they cannot confirm an argument.
 
-### When it fails
+Checking each computation but not the logic is not enough either, because a correct computation inside a wrong case split still gives a wrong proof.
 
-1. A check fails when the checker accepts a step by habit, because the step looks like a standard step. Many hidden errors are of this kind.
-2. A check of a very long proof by one person can miss an error. Long proofs are checked by several people, by parts, or by a proof assistant.
-3. A check cannot detect an error in a step that the checker does not understand. Then the honest verdict is "I could not check step $k$", not "correct".
-
-### Related methods
-
-1. [[Reading proofs|40GCSM2G56]] uses the same steps with the aim of understanding.
-2. [[Structured and hierarchical proofs|H2W8D7BMSW]] make the claims of a proof explicit, so that each claim can be checked alone.
-3. A [[proof assistant|YM6PRDE88V]] checks a formal proof mechanically, step by step.
-4. Pólya's stage of "looking back" in "How to Solve It" includes checking the result and the argument.
+A checker who accepts a step because it looks like a standard step has not checked it, and many hidden errors survive this way.
+If a step is beyond the checker, the honest verdict is "I could not check step $k$", not "correct".
+Long proofs are checked in parts, by several people, or with a [[proof assistant|YM6PRDE88V]].
 
 ### History
 
-In 1879 Alfred Kempe published a proof of the four colour theorem, and in 1890 Percy Heawood showed that it contained an error.
-Journals in mathematics check papers by peer review, in which one or more referees read the paper and report to the editor.
-In 1995 Leslie Lamport wrote in the American Mathematical Monthly on hierarchically structured proofs.
-He argued that such proofs make errors easier to find than proofs in prose.
+Alfred Kempe published his proof of the four color theorem in 1879, and Percy Heawood showed in 1890 that it contained an error.
+Journals check papers by peer review, in which referees read a paper and report to the editor.
+Pólya's stage of "looking back" in "How to Solve It" (1945) includes checking the result and the argument.
 
-### Common errors
+### Try it
 
-1. A student checks the statement on examples and believes that this checks the proof. Examples can refute a statement, but they cannot confirm an argument.
-2. A student checks each computation but not the logic. A correct computation inside a wrong case split still gives a wrong proof.
-3. A student marks a proof wrong without a reason, or accepts it without a reason. Each verdict needs the line and the reason.
+Check this proof: "If $x^2 = 9$, then $x = 3$, because squaring $3$ gives $9$."
+It proves the converse, and the test $x = -3$ shows that the claim itself is false.
+
+A proof that every bounded sequence of real numbers converges never uses anything beyond boundedness.
+Which test case exposes the gap?
+The sequence $(-1)^n$ is bounded and does not converge.
 
 ## Explanations
 
@@ -133,38 +134,33 @@ Checking a proof is like checking a long calculation, but each step is a sentenc
 For each sentence, the checker asks: why is this true?
 A good trick is to try the argument on a case where the answer is known to be wrong.
 For example, an argument that "proves" that every number is even must break somewhere when we try it on $3$.
-If the argument does not break on $3$, it cannot be a correct argument.
-At the end, the checker writes down a short verdict, with the reasons.
+If it does not break on $3$, it cannot be a correct argument.
 
 ### L2 human
 
-We check a short proof of the claim "if $a \mid b$ and $a \mid c$, then $a \mid (b + c)$", for integers $a, b, c$.
-The proof reads as follows.
+We check a short proof that if $a \mid b$ and $a \mid c$, then $a \mid (b + c)$, for integers $a$, $b$ and $c$.
 
 > Write $b = ak$ and $c = al$.
 > Then $b + c = a(k + l)$.
 > So $a \mid (b + c)$.
 
+The statement is precise, and the frame is a [[direct proof|0NTF6DMVAP]] that assumes both hypotheses.
+The first line uses both hypotheses with the definition of divisibility, and the different letters $k$ and $l$ let the multipliers differ.
+The second line is the distributive law, and $a = 3$, $b = 6$, $c = 9$ give $15 = 3 \cdot 5$.
+The third line needs $k + l$ to be an integer, which the proof leaves out, so there is a minor gap.
 
-1. The statement is precise, and the proof proves it, not a special case.
-2. The frame is a [[direct proof|0NTF6DMVAP]]: the proof assumes the two hypotheses and derives the conclusion.
-3. Line 1 uses both hypotheses with the definition of divisibility. The letters $k$ and $l$ are different, so the multipliers may differ.
-4. Line 2 uses the distributive law, $ak + al = a(k + l)$. A test with $a = 3$, $b = 6$, $c = 9$ gives $15 = 3 \cdot 5$.
-5. Line 3 needs that $k + l$ is an integer, which the proof leaves out. This is a minor gap.
-6. Step 7 of the method: drop the hypothesis $a \mid c$, and take $a = 3$, $b = 6$, $c = 1$. Line 1 fails, because $1 = 3l$ has no integer solution $l$. So the proof uses that hypothesis where it must.
-7. The verdict: correct, with one minor gap in line 3.
-
-The typical use is the check of one's own homework: the student runs these steps before handing in the work.
-A trap is to skip item 6: without a case where the conclusion fails, a checker does not know that each hypothesis does real work.
+Now drop the hypothesis $a \mid c$ and take $a = 3$, $b = 6$ and $c = 1$.
+The first line fails, since $1 = 3l$ has no integer solution, so the proof uses that hypothesis where it must.
+The verdict is: correct, with one minor gap in the third line.
+Watch out: without a case where the conclusion fails, a checker does not know that each hypothesis does real work.
 
 ### L3 human
 
 Checking is the human counterpart of proof verification in logic.
-A formal proof can be checked by an algorithm, because each step must match a rule of inference.
-A proof assistant runs such an algorithm.
-An informal proof cannot be checked mechanically, so its acceptance rests on the social process of reading, refereeing and use.
-The topic [[rigour and the acceptance of proofs|1BTHSHST4M]] discusses this process.
-The test of step 7 has a precise form in logic.
-A sound argument that uses only the hypotheses $H_1, \dots, H_k$ proves the conclusion in every model of $H_1, \dots, H_k$.
+A formal proof can be checked by an algorithm, because each step must match a rule of inference, and a proof assistant runs such an algorithm.
+An informal proof cannot be checked mechanically, so its acceptance rests on the social process of reading, refereeing and use, discussed under [[rigor and the acceptance of proofs|1BTHSHST4M]].
+
+The test of a failing case has a precise form.
+A sound argument that uses only the hypotheses $H_1, \dots, H_k$ proves its conclusion in every model of $H_1, \dots, H_k$.
 So a model of those hypotheses in which the conclusion fails shows that the argument must use something more.
-This is the method of independence proofs, applied to a single argument instead of to a whole theory.
+This is the idea of independence proofs, applied to a single argument instead of to a whole theory.

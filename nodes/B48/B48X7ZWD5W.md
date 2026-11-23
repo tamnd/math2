@@ -17,7 +17,6 @@ sources:
 ## Example
 
 We give a complete written proof of a short result, and then we check it against the rules of [[writing proofs|8JQHJK94RZ]].
-The text of the proof is the following.
 
 > **Proposition.** Let $m$ and $n$ be integers.
 > If $m$ and $n$ are odd, then $mn$ is odd.
@@ -31,31 +30,45 @@ The text of the proof is the following.
 > So $mn = 2k + 1$ for an integer $k$, and hence $mn$ is odd.
 > $\square$
 
-We check the text, one rule at a time.
+We check the text one rule at a time.
 
-1. The statement comes first, and it is complete. It names the objects ($m$ and $n$, integers), the hypothesis (both are odd) and the conclusion ($mn$ is odd).
-2. The first sentence of the proof says what we assume. The word "Suppose" marks the hypothesis of the [[direct proof|0NTF6DMVAP]].
-3. The second sentence gives the reason for the forms $2a + 1$ and $2b + 1$: the definition of an odd integer. The letters $a$ and $b$ are introduced with their type, "integers".
-4. The display is a sentence with a verb ("$=$") and a final full stop. Each equality is a step of algebra: the first expands the product, the second takes out the factor $2$ from $4ab + 2a + 2b$.
-5. The new letter $k$ gets a name and a reason for its type. This is the condition that the definition of "odd" requires.
+1. The statement comes first, and it is complete.
+   It names the objects (the integers $m$ and $n$), the hypothesis (both are odd) and the conclusion ($mn$ is odd).
+2. The first sentence of the proof says what we assume.
+   The word "Suppose" marks the hypothesis of a [[direct proof|0NTF6DMVAP]].
+3. The second sentence gives the reason for the forms $2a + 1$ and $2b + 1$, which is the definition of an odd integer.
+   It introduces the letters $a$ and $b$ with their type.
+4. The display is part of a sentence, and it ends with a full stop.
+   Its first equality expands the product, and its second takes the factor $2$ out of $4ab + 2a + 2b$.
+5. The new letter $k$ gets a name and a reason for its type, which the definition of "odd" requires.
 6. The last sentence states the conclusion in the words of the statement, and the mark $\square$ ends the proof.
 
-We check the algebra with a numerical case.
-For $m = 3$ and $n = 5$ we have $a = 1$ and $b = 2$, so $k = 2 \cdot 1 \cdot 2 + 1 + 2 = 7$ and $2k + 1 = 15 = 3 \cdot 5$.
+Check: for $m = 3$ and $n = 5$ we have $a = 1$ and $b = 2$, so
+$$k = 2 \cdot 1 \cdot 2 + 1 + 2 = 7 \quad \text{and} \quad 2k + 1 = 15 = 3 \cdot 5.$$
+A numerical check of this kind costs one line, and it catches most slips in the algebra.
 
 ## Remarks
 
-1. The proof has six sentences, and each sentence does one job. A reader can check each sentence without the others, except for the letters that earlier sentences define.
-2. The same text with the words removed, "$m = 2a+1$, $n = 2b+1$, $mn = 2(2ab+a+b)+1$", is a correct calculation but a weaker proof. The reader must guess what is assumed, why $a$ and $b$ exist, and what the last line shows.
-3. If we change the hypothesis to "$m$ is odd and $n$ is even", the same plan works with $n = 2b$. The step becomes $mn = (2a + 1) \cdot 2b = 2(2ab + b)$, so $mn$ is even.
-4. The proof uses the definition in both directions. It uses "odd means $2a + 1$" to unpack the hypothesis, and "$2k + 1$ means odd" to reach the conclusion.
+The proof has six sentences, and each does one job: assume, unpack, compute, name, justify the type, conclude.
+A reader can check each sentence alone, given the letters that the earlier sentences define.
+
+Compare the bare version "$m = 2a+1$, $n = 2b+1$, $mn = 2(2ab+a+b)+1$".
+The calculation is correct, but the reader must guess what is assumed, why $a$ and $b$ exist, and what the last line shows.
+The words of the full proof answer exactly these three questions.
+
+The proof uses the definition of "odd" in both directions.
+It reads "odd" as "of the form $2a + 1$" to unpack the hypothesis, and it reads "of the form $2k + 1$" as "odd" to reach the conclusion.
+Most short proofs about parity have this shape.
+
+If we change the hypothesis to "$m$ is odd and $n$ is even", the same plan works with $n = 2b$.
+The calculation becomes $mn = (2a + 1) \cdot 2b = 2(2ab + b)$, so $mn$ is even.
 
 ## Explanations
 
 ### L1 human
 
 An odd number is one more than an even number, such as $7 = 6 + 1$.
-The page shows how to write down why "odd times odd is odd" in a way that anyone can check.
+We want to explain why "odd times odd is odd" in a way that anyone can check.
 First we say exactly what we claim.
 Then we write each odd number as "two times something, plus one".
 We multiply, and we see that the answer is again "two times something, plus one".
@@ -64,12 +77,12 @@ For $3 \times 5 = 15$, the "something" is $7$, because $15 = 2 \times 7 + 1$.
 ### L2 human
 
 We use the same plan to prove that the sum of an odd integer and an even integer is odd.
+Let $m$ be odd and let $n$ be even.
+By the definitions, there are integers $a$ and $b$ with $m = 2a + 1$ and $n = 2b$.
+Then we add:
+$$m + n = 2a + 1 + 2b = 2(a + b) + 1.$$
+The number $a + b$ is an integer, as a sum of integers, so $m + n$ is odd by the definition of an odd integer.
 
-1. Statement: let $m$ be odd and let $n$ be even; then $m + n$ is odd.
-2. By definition, there are integers $a$ and $b$ with $m = 2a + 1$ and $n = 2b$.
-3. Then $m + n = 2a + 1 + 2b = 2(a + b) + 1$.
-4. The number $a + b$ is an integer, as a sum of integers.
-5. So $m + n$ is odd, by the definition of an odd integer.
-
-The typical use of this pattern is every proof about parity and divisibility in a first course.
-A trap is to write $m = 2a + 1$ and $n = 2a$ with the same letter $a$: that assumes $n = m - 1$, which the hypothesis does not say.
+Check: $7 + 4 = 11 = 2 \cdot 5 + 1$, with $a = 3$ and $b = 2$.
+This pattern writes nearly every proof about parity in a first course.
+Watch out for one trap: writing $m = 2a + 1$ and $n = 2a$ with the same letter $a$ assumes $n = m - 1$, which the hypothesis does not say.
