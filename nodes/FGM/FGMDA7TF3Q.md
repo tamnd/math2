@@ -20,18 +20,16 @@ We want the length $d$ of a diagonal, the segment from one corner to the opposit
 This is the first example in Pólya's *How to Solve It*, and we follow [[Pólya's four steps|DYD57G2Y5Z]].
 
 In phase 1 we understand the problem.
-
-1. The unknown is the length $d$ of the segment from a corner $A$ to the opposite corner $G$.
-2. The data are the lengths $a$, $b$ and $c$ of the three edges at $A$.
-3. The condition is that the box has right angles at every corner, and that $G$ shares no face with $A$.
-4. We draw the base $ABCD$ with $AB = a$ and $BC = b$, and the top $EFGH$ above it with $CG = c$.
+The unknown is the length $d$ of the segment from a corner $A$ to the opposite corner $G$.
+The data are the lengths $a$, $b$ and $c$ of the three edges at $A$.
+The condition is that the box has right angles at every corner, and that $G$ shares no face with $A$.
+We draw the base $ABCD$ with $AB = a$ and $BC = b$, and the top $EFGH$ above it with $CG = c$.
 
 In phase 2 we devise a plan.
-
-1. We ask for a solved problem with the same kind of unknown, and the diagonal of a rectangle comes to mind.
-   By the [[Pythagorean theorem|0VP3A1290K]], a rectangle with sides $a$ and $b$ has diagonal $\sqrt{a^2 + b^2}$.
-2. To use that result, we need a right triangle that has the unknown $AG$ as a side.
-3. The triangle $ACG$ is a candidate, since $AC$ is a diagonal of the base and $CG$ is a vertical edge.
+We ask for a solved problem with the same kind of unknown, and the diagonal of a rectangle comes to mind.
+By the [[Pythagorean theorem|0VP3A1290K]], a rectangle with sides $a$ and $b$ has diagonal $\sqrt{a^2 + b^2}$.
+To use that result, we need a right triangle that has the unknown $AG$ as a side.
+The triangle $ACG$ is a candidate, since $AC$ is a diagonal of the base and $CG$ is a vertical edge.
 
 In phase 3 we carry out the plan.
 
@@ -43,12 +41,11 @@ In phase 3 we carry out the plan.
 4. So $d = \sqrt{a^2 + b^2 + c^2}$.
 
 In phase 4 we look back.
-
-1. The formula is symmetric in $a$, $b$ and $c$, as it must be, because the three edges at $A$ play the same role.
-2. For $c = 0$ the box is flat, and the formula gives $\sqrt{a^2 + b^2}$, the diagonal of the rectangle.
-3. If $a$, $b$ and $c$ are in meters, then $\sqrt{a^2 + b^2 + c^2}$ is in meters too.
-4. For $a = 3$, $b = 4$ and $c = 12$, the base diagonal is $5$ and $d = \sqrt{25 + 144} = 13$.
-5. The same method gives the distance between two points $(x_1, y_1, z_1)$ and $(x_2, y_2, z_2)$ in space.
+The formula is symmetric in $a$, $b$ and $c$, as it must be, because the three edges at $A$ play the same role.
+For $c = 0$ the box is flat, and the formula gives $\sqrt{a^2 + b^2}$, the diagonal of the rectangle.
+If $a$, $b$ and $c$ are in meters, then $\sqrt{a^2 + b^2 + c^2}$ is in meters too.
+For $a = 3$, $b = 4$ and $c = 12$, the base diagonal is $5$ and $d = \sqrt{25 + 144} = 13$.
+The same method gives the distance between two points $(x_1, y_1, z_1)$ and $(x_2, y_2, z_2)$ in space.
 
 ## Remarks
 
