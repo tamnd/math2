@@ -14,8 +14,10 @@ sources:
 
 ## Example
 
-We show that the logic $\mathsf{IL}$ of [[interpretability logic|BGKZTSQN3W]] proves
+"$T$ proves $A$" says the same as "$T + \neg A$ interprets the inconsistent theory $T + \bot$", since both say that $T + \neg A$ is inconsistent.
+The logic $\mathsf{IL}$ of [[interpretability logic|BGKZTSQN3W]] proves the modal form of this equivalence.
 $$\square p \leftrightarrow (\neg p \rhd \bot).$$
+We derive it from the axioms.
 Recall that $\lozenge \varphi$ abbreviates $\neg \square \neg \varphi$, and that $\mathsf{IL}$ contains the axiom K, $\square(\varphi \to \psi) \to (\square \varphi \to \square \psi)$, and the rule of [[necessitation|G989VP2NGP]].
 
 The direction from left to right uses J1.
@@ -41,20 +43,23 @@ So in $\mathsf{IL}$ the operator $\square$ is definable from $\rhd$.
 
 ## Remarks
 
-The arithmetical reading is the following.
-For a sentence $A$ and a theory $T$ such as $\mathsf{PA}$, "$T$ proves $A$" is equivalent to "$T + \neg A$ interprets $T + \bot$".
-Both sides say that $T + \neg A$ is inconsistent.
+### One operator is enough
 
 Because of the equivalence, one can take $\rhd$ as the only modal operator and define $\square \varphi$ as $\neg \varphi \rhd \bot$.
-The proof used only J1, J4 and the rules of $\mathsf{GL}$, so the equivalence holds in every extension of $\mathsf{IL}$, such as $\mathsf{ILM}$ and $\mathsf{ILP}$.
-With $p$ replaced by $\neg p$, the equivalence becomes $\square \neg p \leftrightarrow (\neg \neg p \rhd \bot)$, and so $\mathsf{IL} \vdash \lozenge p \leftrightarrow \neg(p \rhd \bot)$ after one more step with $\neg \neg p \rhd \bot \leftrightarrow p \rhd \bot$.
-That last step follows from J1 and J2, because $\square(p \to \neg \neg p)$ and $\square(\neg \neg p \to p)$ give $p \rhd \neg \neg p$ and $\neg \neg p \rhd p$.
+The derivation used only J1, J4 and the rules of $\mathsf{GL}$, so the equivalence holds in every extension of $\mathsf{IL}$, such as $\mathsf{ILM}$ and $\mathsf{ILP}$.
+
+### The diamond
+
+Replacing $p$ by $\neg p$ gives $\square \neg p \leftrightarrow (\neg \neg p \rhd \bot)$.
+One more step turns this into $\mathsf{IL} \vdash \lozenge p \leftrightarrow \neg(p \rhd \bot)$, using $\neg \neg p \rhd \bot \leftrightarrow p \rhd \bot$.
+That step follows from J1 and J2, because $\square(p \to \neg \neg p)$ and $\square(\neg \neg p \to p)$ give $p \rhd \neg \neg p$ and $\neg \neg p \rhd p$.
+In arithmetic it says that $T + A$ is consistent exactly when $T + A$ does not interpret $T + \bot$.
 
 ## Explanations
 
 ### L1 human
 
-The formula says: "the theory proves $p$" means the same as "the theory with not-$p$ added can imitate a contradiction".
+The formula says that "the theory proves $p$" means the same as "the theory with not-$p$ added can imitate a contradiction".
 If adding not-$p$ makes the theory contradict itself, then $p$ must be provable.
 And a contradictory theory can imitate everything, including a contradiction.
 So provability can be expressed through interpretability.
@@ -62,5 +67,7 @@ So provability can be expressed through interpretability.
 ### L2 human
 
 The derivation above is the worked example.
-The typical use is to read every $\square$ in a formula of $\mathsf{IL}$ as a special case of $\rhd$; for example, J4 at $q = \bot$ gives the left-to-right part of the formula for $\lozenge$.
-A trap: the equivalence needs $\neg p$ on the left of $\rhd$, not $p$; the formula $\square p \leftrightarrow (p \rhd \bot)$ is not a theorem of $\mathsf{IL}$, since $p \rhd \bot$ is equivalent to $\square \neg p$.
+The typical use is to read every $\square$ in a formula of $\mathsf{IL}$ as a special case of $\rhd$.
+For example, J4 at $q = \bot$ gives the left-to-right half of the formula for $\lozenge$.
+The trap is to put $p$ instead of $\neg p$ on the left of $\rhd$.
+The formula $\square p \leftrightarrow (p \rhd \bot)$ is not a theorem of $\mathsf{IL}$, since $p \rhd \bot$ is equivalent to $\square \neg p$.

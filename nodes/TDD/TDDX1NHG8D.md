@@ -37,6 +37,10 @@ Write $\boxdot X := X \wedge \square X$, and let $r$ be a variable that does not
 Here $\mathsf{GL}$ is the logic of the [[definition of provability logic|61THBNS8WE]].
 The [[proof of the de Jongh-Sambin theorem|6T82THKX5M]] proves parts 2, 3 and 4 in full and cites the reduction of part 1 to part 3.
 
+## Remarks
+
+### A first computation
+
 The first case to know is $A(p) = \neg \square p$, the equation of the Gödel sentence.
 Part 3 with $B(x) = \neg x$ and $C(p) = p$ gives $B(\top) = \bot$ and $H = \neg \square \neg \bot$, which is equivalent to $\neg \square \bot$.
 So the equation is solved by the consistency statement:
@@ -44,8 +48,6 @@ So the equation is solved by the consistency statement:
 $$\mathsf{GL} \vdash \neg \square \bot \leftrightarrow \neg \square \neg \square \bot.$$
 
 Check: after negation this is $\square \bot \leftrightarrow \square(\square \bot \to \bot)$, and Löb's axiom gives the hard direction.
-
-## Remarks
 
 ### Why each hypothesis is needed
 
