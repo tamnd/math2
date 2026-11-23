@@ -16,7 +16,7 @@ sources:
 
 ## Example
 
-A student gives the following argument in class.
+A student gives this argument in class.
 
 > Take two odd numbers, $2a + 1$ and $2b + 1$.
 > Their sum is $2a + 2b + 2$, which is $2(a + b + 1)$.
@@ -25,17 +25,23 @@ A student gives the following argument in class.
 We lay out the main step in the [[Toulmin model|RVZCSFDB2Y]] and check each part.
 
 1. Claim $C$: for all integers $a$ and $b$, the sum $(2a + 1) + (2b + 1)$ is even.
-2. Data $D$: $(2a + 1) + (2b + 1) = 2(a + b + 1)$, and $a + b + 1$ is an integer. The equation follows from the commutative, associative and distributive laws.
-3. Warrant $W$: an integer of the form $2k$ with $k$ an integer is even. This is the definition of an even integer, and the student does not say it.
-4. Backing $B$: the definition of "even" in the course, and the laws of arithmetic in $\mathbb{Z}$.
-5. Qualifier $Q$: "certainly". The warrant is a definition, so it has no exceptions.
-6. Rebuttal $R$: none. Each odd integer has the form $2a + 1$, so no odd integers escape the argument.
+2. Data $D$: the identity
+   $$(2a + 1) + (2b + 1) = 2(a + b + 1),$$
+   which follows from the commutative, associative and distributive laws, together with the fact that $a + b + 1$ is an integer.
+3. Warrant $W$: an integer of the form $2k$, with $k$ an integer, is even.
+   This is the definition of an even integer, and the student does not say it.
+4. Backing $B$: the definition of "even" used in the course, and the laws of arithmetic in $\mathbb{Z}$.
+5. Qualifier $Q$: "certainly", because the warrant is a definition and has no exceptions.
+6. Rebuttal $R$: none, because every odd integer has the form $2a + 1$, so no pair of odd integers escapes the argument.
 
 ## Remarks
 
-This example shows the model applied to a valid [[direct proof|0NTF6DMVAP]]: each part is present, the warrant is deductive, and the qualifier is "certainly".
-The analysis also shows a hidden step, the warrant of step 3, which a teacher can ask the student to state.
-If the student had argued "$3 + 5 = 8$ and $7 + 9 = 16$, so the sum is always even", the data would be two cases, the warrant would be inductive, and an honest qualifier would be "probably".
+The example shows the model applied to a valid [[direct proof|0NTF6DMVAP]]: every part is present, the warrant is deductive, and the qualifier is "certainly".
+The layout also brings a hidden step to light, the warrant of step 3, which a teacher can ask the student to state aloud.
+
+Change the data and the layout changes with them.
+If the student had argued "$3 + 5 = 8$ and $7 + 9 = 16$, so the sum is always even", the data would be two cases.
+The warrant would then be inductive, and an honest qualifier would be "probably".
 
 ## Explanations
 
@@ -47,10 +53,8 @@ Because the rule always holds, the claim is certain.
 
 ### L2 human
 
-1. Find the claim: the last sentence of the argument.
-2. Find the data: the computation before the claim.
-3. Ask which general rule links the data to the claim: the definition of "even".
-4. Ask how strong the link is: a definition gives certainty.
-
-A trap is to put the definition of "even" into the data.
-The data are particular facts about $a$ and $b$, and the definition is a general rule, so it is the warrant.
+To lay out any argument, start with the claim, which is usually the last sentence.
+Then find the data, here the computation just before the claim.
+Next ask which general rule links the data to the claim; here it is the definition of "even".
+Finally ask how strong the link is, and since a definition has no exceptions, the qualifier is "certainly".
+Watch out: the definition of "even" belongs in the warrant, not the data, because the data are particular facts about $a$ and $b$ and the definition is a general rule.
