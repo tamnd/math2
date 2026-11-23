@@ -21,24 +21,24 @@ Logics of knowledge, time and obligation are in [[applied modal logics|CQM9SRN8P
 
 ### Reading order
 
-1. [[Modal logic|C3RZY20ETK]]: what the box and the diamond say, and how formulas are built from them.
-2. [[Kripke semantics|NGHWZ9Y7ZV]]: how to evaluate a formula at a world, and the gap between truth in a model and validity on a frame.
-3. [[Accessibility relation|XBCYFDPS2F]]: the relation that decides what is possible, and the properties it can have.
-4. [[Normal modal logic|D1TJYZZDCY]]: the weakest set of laws that a relational semantics forces, and the first derivations in $\mathsf{K}$.
-5. [[Necessitation rule|G989VP2NGP]]: why the box of a theorem is a theorem, and why $\varphi \to \square\varphi$ is not.
-6. [[Common modal axiom schemata|FDFQFWPM4X]]: how to check by hand which frames validate $\mathrm{T}$, $\mathrm{D}$, $\mathrm{B}$, $\mathrm{4}$ and $\mathrm{5}$.
-7. [[Modal logics T, D and K4|XVYMEZKH7R]]: the logics of reflexive, serial and transitive frames, and how they differ.
-8. [[Modal logic S4|N60RVXSA5W]]: preorders, the reading of the box as an interior, and the link to intuitionistic logic.
-9. [[Modal logic S5|VC3A2VWXND]]: why equivalence relations and universal frames give the same logic, and why iterated modalities collapse.
-10. [[Brouwerian modal logic|2QPT4KCM0Q]]: the logic $\mathsf{KTB}$ of reflexive symmetric frames, and where its name comes from.
-11. [[Strict implication|5JW54NP52K]]: how the subject began with Lewis, and his systems $\mathsf{S1}$ to $\mathsf{S5}$.
-12. [[Canonical model|TVE4F04KME]]: the model of maximal consistent sets, [[the truth lemma|NM4CB7QAYT]], and [[completeness of K to S5|FXTCKYR3AQ]].
-13. [[Filtration|6ZZSHAKG5F]]: how to shrink a model to finitely many worlds without changing the truth of chosen formulas, by [[the filtration theorem|T99DK51S0W]].
-14. [[Finite model property|3NT8RCA6HE]]: [[the finite model property of K to S5|XNPJK6B921]], and how [[Harrop's theorem|VSYQ1AZ9G7]] turns it into decidability.
-15. [[Standard translation|YW6YGBMVQY]]: how to read a modal formula as a first-order formula, with [[its correctness|1HQ1W36J4V]].
-16. [[Complexity of modal satisfiability|1P2B0C7CQ4]]: why $\mathsf{K}$, $\mathsf{T}$ and $\mathsf{S4}$ are PSPACE-complete while $\mathsf{S5}$ is NP-complete.
-17. [[Neighborhood semantics|CN7HK9K1B6]]: a semantics with sets of sets, which also covers the logics $\mathsf{E}$, $\mathsf{M}$, $\mathsf{C}$ and $\mathsf{N}$ below $\mathsf{K}$.
-18. [[Multimodal logic|ERG3KAQWYF]]: several boxes at once, fusions, and axioms that link the boxes.
+1. [[Modal logic|C3RZY20ETK]]: what the box and the diamond say, and how formulas are built.
+2. [[Kripke semantics|NGHWZ9Y7ZV]]: truth at a world, and truth in a model versus validity on a frame.
+3. [[Accessibility relation|XBCYFDPS2F]]: the relation that decides what is possible.
+4. [[Normal modal logic|D1TJYZZDCY]]: the laws every frame forces, and first derivations in $\mathsf{K}$.
+5. [[Necessitation rule|G989VP2NGP]]: why a theorem is necessary, and why $\varphi \to \square\varphi$ is not a law.
+6. [[Common modal axiom schemata|FDFQFWPM4X]]: which frames validate $\mathrm{T}$, $\mathrm{D}$, $\mathrm{B}$, $\mathrm{4}$ and $\mathrm{5}$.
+7. [[Modal logics T, D and K4|XVYMEZKH7R]]: reflexive, serial and transitive frames.
+8. [[Modal logic S4|N60RVXSA5W]]: preorders, the box as an interior, and intuitionistic logic.
+9. [[Modal logic S5|VC3A2VWXND]]: equivalence relations, universal frames, and collapsing modalities.
+10. [[Brouwerian modal logic|2QPT4KCM0Q]]: reflexive symmetric frames.
+11. [[Strict implication|5JW54NP52K]]: how Lewis began the subject with $\mathsf{S1}$ to $\mathsf{S5}$.
+12. [[Canonical model|TVE4F04KME]]: maximal consistent sets, [[the truth lemma|NM4CB7QAYT]] and [[completeness|FXTCKYR3AQ]].
+13. [[Filtration|6ZZSHAKG5F]]: shrinking a model to finitely many worlds, by [[the filtration theorem|T99DK51S0W]].
+14. [[Finite model property|3NT8RCA6HE]]: [[the FMP of K to S5|XNPJK6B921]], and decidability by [[Harrop's theorem|VSYQ1AZ9G7]].
+15. [[Standard translation|YW6YGBMVQY]]: modal formulas as first-order formulas, and [[its correctness|1HQ1W36J4V]].
+16. [[Complexity of modal satisfiability|1P2B0C7CQ4]]: PSPACE for $\mathsf{K}$, $\mathsf{T}$ and $\mathsf{S4}$, and NP for $\mathsf{S5}$.
+17. [[Neighborhood semantics|CN7HK9K1B6]]: sets of sets as semantics, for logics below $\mathsf{K}$.
+18. [[Multimodal logic|ERG3KAQWYF]]: several boxes, fusions, and axioms that link them.
 
 ### Prerequisites
 
