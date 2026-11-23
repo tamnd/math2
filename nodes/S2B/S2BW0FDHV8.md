@@ -49,7 +49,7 @@ Logical errors have their own pages: [[circular reasoning|JPHE53PABT]], [[affirm
 
 Books use several words for the same idea: fallacy, false proof, invalid proof and bogus proof.
 Some authors keep the word "fallacy" for an error that the author hides on purpose, as in a puzzle.
-"Howler" is the word of E. A. Maxwell for a wrong argument with a right result.
+"Howler" is the word of Edwin Maxwell for a wrong argument with a right result.
 A paradox is a different thing: an argument that seems valid, from premises that seem true, to a conclusion that seems false.
 Some paradoxes contain a fallacy, and others show that a premise was false after all.
 
@@ -100,7 +100,7 @@ To find the error, name the exact rule that each step uses, write its conditions
 
 The ancient book *Pseudaria*, a collection of false proofs in geometry, is attributed to Euclid, and it is lost.
 The false proof that every triangle is isosceles was known to Lewis Carroll, and it was published in 1899.
-E. A. Maxwell collected many fallacies in his book *Fallacies in Mathematics* (1959), where he used the word "howler" for a wrong method with a right answer.
+Maxwell collected many fallacies in his book *Fallacies in Mathematics* (1959), where he used the word "howler" for a wrong method with a right answer.
 
 ### Try it
 
