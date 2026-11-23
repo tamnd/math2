@@ -16,9 +16,10 @@ sources:
 
 ## Definition
 
+The biconditional joins two propositions into the proposition that they have the same truth value.
 Let $p$ and $q$ be [[propositions|0ZGC7ZESYN]].
-The biconditional of $p$ and $q$ is the proposition $p \leftrightarrow q$ whose truth value is given by the table below.
-It is true when $p$ and $q$ are both true or both false, and false otherwise.
+The biconditional of $p$ and $q$ is the proposition $p \leftrightarrow q$, read "$p$ if and only if $q$".
+It is true when $p$ and $q$ are both true or both false, and false otherwise:
 
 | $p$ | $q$ | $p \leftrightarrow q$ |
 |---|---|---|
@@ -33,14 +34,13 @@ The formula $p \leftrightarrow q$ is also written $p \equiv q$ and $p \Leftright
 It is read "$p$ if and only if $q$", "$p$ iff $q$", "$p$ exactly when $q$" and "$p$ is necessary and sufficient for $q$".
 Many books use $\Leftrightarrow$ and $\equiv$ only in the metalanguage, between statements, and keep $\leftrightarrow$ for the connective inside formulas.
 In Lean and Mathlib the biconditional is `Iff`, written `a ↔ b`.
-In tables, the truth values T and F are also written $1$ and $0$.
 
 ## Remarks
 
 The value of $p \leftrightarrow q$ depends only on the values of $p$ and $q$, so the biconditional is a binary [[logical connective|QS0XVAN9BG]].
 In each of the four rows, $p \leftrightarrow q$ has the same value as $(p \to q) \land (q \to p)$, where $\to$ is [[material implication|0ZNX6DQ3EJ]] and $\land$ is [[conjunction|0M28ASWG8T]].
-For example, in the row $p = \mathsf{T}$, $q = \mathsf{F}$, the implication $p \to q$ is false, so the conjunction is false, as is $p \leftrightarrow q$.
-The concept page [[biconditional|0S6GMNJ62Y]] gives the examples, the non-examples, the properties and the method of proof in two directions.
+For example, in the row TF the implication $p \to q$ is F, so the conjunction is F, as is $p \leftrightarrow q$.
+The concept page [[biconditional|0S6GMNJ62Y]] gives the examples, the non-examples, the laws and the method of proof in two directions.
 
 ## Explanations
 
@@ -54,13 +54,12 @@ It is false when one part is true and the other is false, for example a lit lamp
 
 ### L2 human
 
-We find the value of "$7$ is prime if and only if $7$ is even".
+Find the value of "$7$ is prime if and only if $7$ is even".
 
-1. The left side "$7$ is prime" is true, because the only positive divisors of $7$ are $1$ and $7$.
-2. The right side "$7$ is even" is false, because $7 = 2 \cdot 3 + 1$.
-3. The row $p = \mathsf{T}$, $q = \mathsf{F}$ of the table gives $\mathsf{F}$.
-4. So the biconditional is false.
+1. The left side is T, because the only positive divisors of $7$ are $1$ and $7$.
+2. The right side is F, because $7 = 2 \cdot 3 + 1$.
+3. The row TF of the table gives F, so the biconditional is false.
 
-The typical use of the table is to check one biconditional inside a longer formula.
-A trap: a true biconditional does not say that its two sides are true.
+The table is used in this way to check one biconditional inside a longer formula.
+Watch out: a true biconditional does not say that its two sides are true.
 "$4$ is odd if and only if $9$ is even" is true, because both sides are false.

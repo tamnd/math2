@@ -22,16 +22,17 @@ sources:
 
 ## Counterexample
 
-A formal fallacy is an argument form that looks like a [[rule of inference|QPD3X471Q1]] but is not valid.
-An argument form is valid when every interpretation that makes all premises true also makes the conclusion true; this is the relation of [[logical consequence|1HK0VYWTV7]].
-So one interpretation that makes the premises true and the conclusion false, a [[countermodel|FWHBT4HABW]], shows that a form is not a rule of inference.
-We give a countermodel for each of three standard formal fallacies:
+"If it rains, the ground is wet; the ground is wet; so it rained."
+The argument sounds right, but a garden sprinkler on a dry day makes both premises true and the conclusion false.
+A formal fallacy is an argument form like this one: it looks like a [[rule of inference|QPD3X471Q1]], but it is not valid.
+A form is valid when every interpretation that makes all premises true also makes the conclusion true, which is the relation of [[logical consequence|1HK0VYWTV7]].
+So one interpretation with true premises and a false conclusion, a [[countermodel|FWHBT4HABW]], refutes the form.
 
-- affirming the consequent: from $p \to q$ and $q$, conclude $p$;
-- denying the antecedent: from $p \to q$ and $\neg p$, conclude $\neg q$;
-- the quantifier shift: from $\forall x \, \exists y \, P(x, y)$, conclude $\exists y \, \forall x \, P(x, y)$.
-
-For the two propositional forms we use the [[truth table|05RSK4Q657]] of the [[material implication|0NMG7W7Q11]], with the rows in the standard order.
+We refute three standard fallacies.
+Affirming the consequent concludes $p$ from $p \to q$ and $q$.
+Denying the antecedent concludes $\neg q$ from $p \to q$ and $\neg p$.
+The quantifier shift concludes $\exists y \, \forall x \, P(x, y)$ from $\forall x \, \exists y \, P(x, y)$.
+For the first two we use the [[truth table|05RSK4Q657]] of [[material implication|0NMG7W7Q11]]:
 
 | row | $p$ | $q$ | $p \to q$ | $\neg p$ | $\neg q$ |
 |---|---|---|---|---|---|
@@ -40,55 +41,71 @@ For the two propositional forms we use the [[truth table|05RSK4Q657]] of the [[m
 | 3 | F | T | T | T | F |
 | 4 | F | F | T | T | T |
 
-1. Affirming the consequent, premises. In row 3, the table gives $p \to q = \mathrm{T}$ and $q = \mathrm{T}$. So both premises are true.
-2. Affirming the consequent, conclusion. In row 3, $p = \mathrm{F}$. So the conclusion is false, row 3 is a countermodel, and the form is not valid.
-3. Denying the antecedent, premises. In row 3, the table gives $p \to q = \mathrm{T}$ and $\neg p = \mathrm{T}$. So both premises are true.
-4. Denying the antecedent, conclusion. In row 3, $\neg q = \mathrm{F}$. So row 3 is a countermodel to this form too.
-5. Quantifier shift, the structure. Take the domain $D = \{0, 1\}$ and let $P(x, y)$ mean $x = y$.
-6. Quantifier shift, premise. For $x = 0$ the element $y = 0$ satisfies $P(0, 0)$, and for $x = 1$ the element $y = 1$ satisfies $P(1, 1)$. So $\forall x \, \exists y \, P(x, y)$ is true.
-7. Quantifier shift, conclusion. The element $y = 0$ fails for $x = 1$, because $1 \neq 0$, and the element $y = 1$ fails for $x = 0$. No $y \in D$ works for every $x$, so $\exists y \, \forall x \, P(x, y)$ is false.
-8. So the structure of steps 5 to 7 is a countermodel, and the quantifier shift is not valid.
-9. By steps 2, 4 and 8, none of the three forms is a rule of inference.
+1. Affirming the consequent.
+   In row 3, $p \to q = \mathrm{T}$ and $q = \mathrm{T}$, so both premises are true.
+   In the same row $p = \mathrm{F}$, so the conclusion is false, and row 3 is a countermodel.
+2. Denying the antecedent.
+   In row 3, $p \to q = \mathrm{T}$ and $\neg p = \mathrm{T}$, so both premises are true.
+   In the same row $\neg q = \mathrm{F}$, so row 3 is a countermodel to this form too.
+3. The quantifier shift.
+   Take the domain $D = \{0, 1\}$ and let $P(x, y)$ mean $x = y$.
+   For $x = 0$ the element $y = 0$ works, and for $x = 1$ the element $y = 1$ works, so $\forall x \, \exists y \, P(x, y)$ is true.
+4. No single $y$ works for both values of $x$.
+   The element $y = 0$ fails for $x = 1$, because $1 \neq 0$, and $y = 1$ fails for $x = 0$.
+   So $\exists y \, \forall x \, P(x, y)$ is false, and this structure is a countermodel.
+
+By steps 1 to 4, none of the three forms is a rule of inference.
+In the rain example, row 3 is the dry day with the sprinkler: "it rains" is false and "the ground is wet" is true.
 
 ## Remarks
 
-### What the countermodels show
+### Validity is about form
 
-Validity is a property of the form of an argument, not of the truth of its parts.
-An argument of an invalid form can have true premises and a true conclusion: in row 1, both premises of affirming the consequent and the conclusion $p$ are true.
-The form is still invalid, because row 3 exists.
-Mathematical instances of the three forms, with the same reading of row 3, are on the pages [[affirming the consequent is not a valid deduction|2XXTDXK1ZC]], [[denying the antecedent is not a valid deduction|6FH1TVDXGS]] and [[quantifier shift fallacy|CRW82NARQV]].
-The common errors that these forms cause in proofs are on the page [[affirming the consequent and denying the antecedent|J7KFCFQRBT]].
+An argument of an invalid form can still have true premises and a true conclusion.
+In row 1, both premises of affirming the consequent and its conclusion $p$ are true.
+The form is invalid anyway, because row 3 exists, and a proof that relies on the form proves nothing.
+Mathematical instances of the three forms are on the pages [[affirming the consequent is not a valid deduction|2XXTDXK1ZC]], [[denying the antecedent is not a valid deduction|6FH1TVDXGS]] and [[quantifier shift fallacy|CRW82NARQV]].
+The errors that these forms cause in written proofs are on the page [[affirming the consequent and denying the antecedent|J7KFCFQRBT]].
 
-### The valid forms nearby
+### The valid forms next door
 
-Each fallacy looks like a valid rule with the roles of the parts exchanged.
+Each fallacy is a valid rule with the roles of the parts exchanged.
+[[Modus ponens|0Y0MQYST0M]] concludes $q$ from $p \to q$ and $p$: only row 1 makes both premises true, and $q$ is true there.
+[[Modus tollens|32AQPJQQAM]] concludes $\neg p$ from $p \to q$ and $\neg q$: only row 4 makes both premises true, and $\neg p$ is true there.
+The reverse quantifier shift, from $\exists y \, \forall x \, P(x, y)$ to $\forall x \, \exists y \, P(x, y)$, is valid, as the page on the [[order of quantifiers|0FYQMKFE77]] explains.
 
-1. [[Modus ponens|0Y0MQYST0M]]: from $p \to q$ and $p$, conclude $q$. Only row 1 makes both premises true, and $q$ is true there.
-2. [[Modus tollens|32AQPJQQAM]]: from $p \to q$ and $\neg q$, conclude $\neg p$. Only row 4 makes both premises true, and $\neg p$ is true there.
-3. The reverse shift: from $\exists y \, \forall x \, P(x, y)$, conclude $\forall x \, \exists y \, P(x, y)$. This is valid, as the page on the [[order of quantifiers|0FYQMKFE77]] shows.
+### More fallacies of the same kind
 
-### Other formal fallacies
+[[Affirming a disjunct|3X34TM3SRT]] concludes $\neg q$ from $p \lor q$ and $p$, and the row $p = q = \mathrm{T}$ refutes it.
+Generalizing from one instance concludes $\forall x \, P(x)$ from $P(a)$.
+On $D = \{0, 1\}$ with $a = 0$ and $P$ true only at $0$, the premise is true and the conclusion is false.
+Merging two witnesses concludes $\exists x \, (P(x) \land Q(x))$ from $\exists x \, P(x)$ and $\exists x \, Q(x)$.
+On $D = \{0, 1\}$ with $P$ true only at $0$ and $Q$ true only at $1$, the premises are true and the conclusion is false.
+The same $P$ and $Q$ refute the step from $\forall x \, (P(x) \lor Q(x))$ to $\forall x \, P(x) \lor \forall x \, Q(x)$.
 
-1. [[Affirming a disjunct|3X34TM3SRT]]: from $p \lor q$ and $p$, conclude $\neg q$. The row $p = q = \mathrm{T}$ is a countermodel.
-2. Generalizing from one instance: from $P(a)$, conclude $\forall x \, P(x)$. On $D = \{0, 1\}$ with $a = 0$ and $P$ true only at $0$, the premise is true and the conclusion is false.
-3. Merging two witnesses: from $\exists x \, P(x)$ and $\exists x \, Q(x)$, conclude $\exists x \, (P(x) \land Q(x))$. On $D = \{0, 1\}$ with $P$ true only at $0$ and $Q$ true only at $1$, the premises are true and the conclusion is false.
-4. Splitting a universal disjunction: from $\forall x \, (P(x) \lor Q(x))$, conclude $\forall x \, P(x) \lor \forall x \, Q(x)$. The same $P$ and $Q$ on $D = \{0, 1\}$ are a countermodel.
+### What repairs the forms
 
-### How the countermodels change
-
-If we add the premise $q \to p$, affirming the consequent becomes valid: row 3 makes $q \to p$ false, and the argument is then modus ponens with $q \to p$.
-The same premise makes denying the antecedent valid, because $\neg p$ and $q \to p$ give $\neg q$ by modus tollens.
-The quantifier shift needs a domain with at least two elements.
-On a domain $\{a\}$ with one element, both $\forall x \, \exists y \, P(x, y)$ and $\exists y \, \forall x \, P(x, y)$ say $P(a, a)$, so no countermodel has one element.
+Add the premise $q \to p$, and affirming the consequent becomes modus ponens with $q \to p$; row 3 makes this new premise false.
+The same premise repairs denying the antecedent, because $\neg p$ and $q \to p$ give $\neg q$ by modus tollens.
+So both fallacies become valid when the implication holds in both directions, which is why a [[biconditional|0S6GMNJ62Y]] can be used either way.
+The quantifier shift needs a domain with at least two elements to fail.
+On a domain $\{a\}$ with one element, both quantified sentences say $P(a, a)$.
 
 ### Formal and informal fallacies
 
 A formal fallacy is an error of form, and a countermodel detects it without any reference to the meaning of $p$, $q$ or $P$.
 An informal fallacy is an error of content, language or relevance, and its form can be valid.
-[[Circular reasoning|JPHE53PABT]] has the valid form "from $p$, conclude $p$"; its error is that the premise is the claim to be proved.
-Equivocation uses one word in two meanings, so the form of the argument is not the form that it seems to have.
-Most errors in the [[mathematical fallacies|S2BW0FDHV8]], such as a hidden division by zero, are false steps of content, not invalid forms.
+[[Circular reasoning|JPHE53PABT]] has the valid form "from $p$, conclude $p$", and its error is that the premise is the claim to be proved.
+Equivocation uses one word in two meanings, so the argument does not have the form that it seems to have.
+Most [[mathematical fallacies|S2BW0FDHV8]], such as a hidden division by zero, are false steps of content, not invalid forms.
+
+### Try it
+
+Is "from $p \to q$ and $\neg q$, conclude $\neg p$" a fallacy?
+No, it is modus tollens, and only row 4 makes both premises true, where $\neg p$ holds.
+
+Refute "from $\exists x \, P(x)$, conclude $\forall x \, P(x)$" on the domain $\{1, 2\}$ with $P(x)$ meaning "$x$ is even".
+The premise holds with $x = 2$, and the conclusion fails at $x = 1$.
 
 ## Explanations
 
@@ -96,29 +113,27 @@ Most errors in the [[mathematical fallacies|S2BW0FDHV8]], such as a hidden divis
 
 "If it rains, the street is wet; the street is wet; so it rained" sounds right, but it is wrong.
 A water truck can make the street wet on a dry day.
-That dry day with a wet street is the counterexample: everything that the argument assumes is true, and its conclusion is false.
-An argument pattern that has such a counterexample is a formal fallacy.
-Another one: "if it rains, the street is wet; it does not rain; so the street is dry" fails on the same day.
+That dry day with a wet street is the counterexample: everything the argument assumes is true, and its conclusion is false.
+An argument pattern with such a counterexample is a formal fallacy.
+"If it rains, the street is wet; it does not rain; so the street is dry" fails on the same day.
 
 ### L2 human
 
-We decide whether the form "from $p \to q$ and $q \to r$ and $r$, conclude $p$" is valid.
-
-1. A countermodel needs $p = \mathrm{F}$ (conclusion false) and $r = \mathrm{T}$ (third premise true).
-2. With $r = \mathrm{T}$, the premise $q \to r$ is true for both values of $q$.
-3. With $p = \mathrm{F}$, the premise $p \to q$ is true for both values of $q$.
-4. So $p = \mathrm{F}$, $q = \mathrm{F}$, $r = \mathrm{T}$ makes all premises true and the conclusion false.
-5. The form is not valid. It affirms the consequent of the chain $p \to r$.
-
-The typical use of this search is to start from a false conclusion and to fill in values that make each premise true.
-If the search fails in every branch, the form is valid; if one branch succeeds, that branch is the countermodel.
-A trap is to test only the cases that come to mind, such as row 1, and to accept the form because the conclusion is true there.
+Is the form "from $p \to q$, $q \to r$ and $r$, conclude $p$" valid?
+Search for a countermodel, starting from what it must contain.
+The conclusion must be false, so $p = \mathrm{F}$, and the third premise must be true, so $r = \mathrm{T}$.
+With $r = \mathrm{T}$ the premise $q \to r$ is true for both values of $q$, and with $p = \mathrm{F}$ the premise $p \to q$ is true for both values of $q$.
+So $p = \mathrm{F}$, $q = \mathrm{F}$, $r = \mathrm{T}$ makes every premise true and the conclusion false.
+The form is invalid, since it affirms the consequent of the chain $p \to r$.
+This search is the standard method: begin from a false conclusion and fill in values that make each premise true.
+If every branch of the search fails, the form is valid, and if one branch succeeds, that branch is the countermodel.
+Watch out: testing only the cases that come to mind, such as row 1, can make an invalid form look valid.
 
 ### L3 human
 
-Validity of a propositional form is decidable: a form with $n$ variables has $2^n$ rows, and a countermodel is a row.
-For first-order forms, [[Gödel's completeness theorem|WQ1ZE255SF]] says that a form that cannot be derived in a complete proof system has a countermodel, so "formal fallacy" means the same thing on the semantic side and on the proof side.
-There is no algorithm that decides first-order validity, so the search for a countermodel does not always end.
+Validity of a propositional form is decidable, because a form with $n$ variables has $2^n$ rows and a countermodel is one of them.
+For first-order forms, [[Gödel's completeness theorem|WQ1ZE255SF]] says that a form which a complete proof system cannot derive has a countermodel, so "formal fallacy" means the same on the semantic side and on the proof side.
+No algorithm decides first-order validity, so a search for a countermodel need not end.
 Some invalid first-order forms have only infinite countermodels.
-For example, "every $x$ has some $y$ with $R(x, y)$" and "$R$ is transitive" do not give "some $x$ has $R(x, x)$", and every countermodel is infinite, such as $\mathbb{N}$ with $<$.
-In a finite countermodel, a chain $x_0, x_1, x_2, \dots$ with $R(x_i, x_{i+1})$ would repeat an element, and transitivity would give $R(x_i, x_i)$.
+For example, "every $x$ has some $y$ with $R(x, y)$" and "$R$ is transitive" do not give "some $x$ has $R(x, x)$", and $\mathbb{N}$ with $<$ is a countermodel.
+Every countermodel is infinite: in a finite one, a chain $x_0, x_1, x_2, \dots$ with $R(x_i, x_{i+1})$ repeats an element, and transitivity then gives $R(x_i, x_i)$.

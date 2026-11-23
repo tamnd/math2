@@ -22,27 +22,28 @@ same_as:
 
 ## Summary
 
-A logical connective of arity $n$ is a symbol $c$ that builds a formula $c(\varphi_1, \dots, \varphi_n)$ from $n$ formulas.
-It comes with a truth function $f_c \colon \set{\mathsf{T}, \mathsf{F}}^n \to \set{\mathsf{T}, \mathsf{F}}$.
-This function gives the truth value of the new formula from the truth values of the $n$ parts.
-The [[definition|CA49F5KQGB]] states this precisely.
-The usual connectives are [[negation|029JBBF693]] $\neg$ (arity $1$), [[conjunction|025YZN3VJW]] $\land$, [[disjunction|0F72FK8EKB]] $\lor$, [[material implication|0NMG7W7Q11]] $\to$ and the [[biconditional|0S6GMNJ62Y]] $\leftrightarrow$ (arity $2$).
+A logical connective builds a larger statement from smaller ones, with a rule that computes the truth value of the whole from the truth values of the parts.
+"$12$ is even and $12 > 10$" is true because both parts are true, and the rule for "and" needs nothing else.
+Formally, a connective of arity $n$ is a symbol $c$ together with a truth function $f_c \colon \{\mathrm{T}, \mathrm{F}\}^n \to \{\mathrm{T}, \mathrm{F}\}$, as the [[formal definition|CA49F5KQGB]] states.
+The usual connectives are [[negation|029JBBF693]] $\neg$ of arity $1$, and [[conjunction|025YZN3VJW]] $\land$, [[disjunction|0F72FK8EKB]] $\lor$, [[material implication|0NMG7W7Q11]] $\to$ and the [[biconditional|0S6GMNJ62Y]] $\leftrightarrow$ of arity $2$.
 There are exactly $2^{2^n}$ truth functions of arity $n$, so there are $16$ binary connectives.
-Connectives turn the truth of a compound [[proposition|0ZGC7ZESYN]] into a computation from the truth of its parts, and this is what a [[truth table|05RSK4Q657]] does.
 
 ## Motivation
 
-Mathematical statements are built from simpler statements with words such as "not", "and", "or", "if ... then" and "if and only if".
-The page [[connectives in mathematical language|12QQ51VK01]] fixes the meaning of these words in mathematical English.
-Logic goes one step further: it treats each connective as a function on truth values.
-Then three questions become precise: how many connectives exist, which connectives can be expressed by which others, and how to write long formulas without ambiguity.
-The answers are a count ($2^{2^n}$), the theory of [[functional completeness|TDZVCWYJ9F]], and the conventions of brackets and precedence below.
+Mathematical statements are built from simpler [[propositions|0ZGC7ZESYN]] with words such as "not", "and", "or", "if ... then" and "if and only if".
+[[Connectives in mathematical language|12QQ51VK01]] fixes the meaning of these words in mathematical English.
+Logic goes one step further and treats each connective as a function on truth values.
+Then three questions become precise.
+How many connectives exist?
+Which connectives can be expressed by which others?
+How do we write long formulas without ambiguity?
+The answers are the count $2^{2^n}$, the theory of [[functional completeness|TDZVCWYJ9F]], and the conventions of brackets and precedence.
 
 ## Notation
 
 The symbols differ across textbooks.
 
-| Connective | This topic | Other symbols | Polish notation |
+| Connective | Our symbol | Other symbols | Polish notation |
 |---|---|---|---|
 | negation | $\neg p$ | $\sim p$, $p'$, $\overline{p}$ | $Np$ |
 | conjunction | $p \land q$ | $p \,\&\, q$, $p \cdot q$, $pq$ | $Kpq$ |
@@ -54,37 +55,38 @@ The symbols differ across textbooks.
 | Peirce arrow | $p \downarrow q$ | NOR | |
 
 In Lean and Mathlib, the connectives on propositions are `Not`, `And`, `Or`, the arrow `→`, `Iff` and `Xor'`, and the constants are `True` and `False`.
-
-A warning on the double arrows: many books write $\Rightarrow$ and $\Leftrightarrow$ in the metalanguage, between statements about formulas.
-The single arrows $\to$ and $\leftrightarrow$ are connectives, symbols inside one formula.
-The symbol $\equiv$ is used in this topic only for [[logical equivalence|0JMR2HM2N2]] of two formulas, never as a connective.
-
-**Brackets and precedence.** A binary connective is written between its two arguments, and brackets show the structure.
-To save brackets, most books drop the outer pair and use this order of binding, from the strongest to the weakest: $\neg$, then $\land$, then $\lor$, then $\to$, then $\leftrightarrow$.
-So $\neg p \land q \to r$ means $((\neg p) \land q) \to r$.
-Many books, and Lean, read a chain of arrows to the right: $p \to q \to r$ means $p \to (q \to r)$.
-Some books give $\land$ and $\lor$ the same strength and always ask for brackets between them.
-Polish notation writes the connective first and needs no brackets: $CKpqr$ is $(p \land q) \to r$.
+Many books write $\Rightarrow$ and $\Leftrightarrow$ in the metalanguage, between statements about formulas, and keep $\to$ and $\leftrightarrow$ for symbols inside one formula.
+We use $\equiv$ only for [[logical equivalence|0JMR2HM2N2]] of two formulas, never as a connective.
 
 ## Remarks
 
-### Examples
+### Computing with a connective
 
-1. [[The four unary connectives|HQKGRZ1PRP]]: there are $2^{2^1} = 4$ truth functions of one variable, and negation is the only one that is not constant and not the identity.
-2. [[The ternary majority connective|1NVMXVDJT7]]: a connective of arity $3$ that is true when at least two inputs are true, and its expression by $\land$ and $\lor$.
-3. The [[exclusive or|PTMR3P9J6C]] $p \oplus q$ is a binary connective with values $\mathsf{F}, \mathsf{T}, \mathsf{T}, \mathsf{F}$ in the rows $\mathsf{T}\mathsf{T}, \mathsf{T}\mathsf{F}, \mathsf{F}\mathsf{T}, \mathsf{F}\mathsf{F}$.
-4. The [[Sheffer stroke|1NNYWRN6B8]] $p \uparrow q$ is the binary connective "not both". Every other connective can be expressed by it alone.
-5. The constants $\top$ (true) and $\bot$ (false) are the two connectives of arity $0$.
+Take $p$ = "$n$ is even" and $q$ = "$n > 10$", and the connective $\land$.
+The rule for $\land$ is a table with one row for each pair of values of the parts.
 
-### Non-examples
+| $n$ | $p$ | $q$ | $p \land q$ |
+|---|---|---|---|
+| $12$ | T | T | T |
+| $8$ | T | F | F |
+| $11$ | F | T | F |
+| $3$ | F | F | F |
 
-1. [[The operator "it is a tautology that" is not a truth-functional connective|S2X5A9X01H]]: two formulas with the same truth value under an assignment can give different results.
-2. The word "because" is not a connective in this sense: the page [[connectives in mathematical language|12QQ51VK01]] gives two sentences with true parts, one acceptable and one not.
-3. The counterfactual "if ... were, then ... would" is not a truth-functional connective, as [[a counterfactual conditional is not a material implication|YPJF856FAN]] shows.
+The value of $p \land q$ at each $n$ comes from the values of $p$ and $q$ alone.
+A longer formula is computed from the inside out, one connective at a time, which is the [[principle of compositionality|PT0G50689S]].
+A [[truth table|05RSK4Q657]] carries out this computation for every row at once.
+
+### Counting connectives
+
+There are $2^n$ assignments of truth values to $n$ variables, and a truth function chooses T or F for each of them.
+So there are $2^{2^n}$ truth functions of arity $n$, which gives $2$, $4$, $16$ and $256$ for $n = 0, 1, 2, 3$.
+The two of arity $0$ are the constants $\top$ and $\bot$.
+[[The four of arity $1$|HQKGRZ1PRP]] are the two constants, the identity and negation.
+[[The majority connective|1NVMXVDJT7]], true when at least two of three inputs are true, is one of the $256$ of arity $3$.
 
 ### The 16 binary connectives
 
-The table lists all truth functions of two variables, with the values in the rows $p\,q = \mathsf{T}\mathsf{T}, \mathsf{T}\mathsf{F}, \mathsf{F}\mathsf{T}, \mathsf{F}\mathsf{F}$, and a formula for each.
+The values are listed in the rows $pq$ = TT, TF, FT, FF.
 
 | # | Values | Name | Formula |
 |---|---|---|---|
@@ -96,40 +98,64 @@ The table lists all truth functions of two variables, with the values in the row
 | 6 | T F T F | second projection | $q$ |
 | 7 | T F F T | biconditional | $p \leftrightarrow q$ |
 | 8 | T F F F | conjunction | $p \land q$ |
-| 9 | F T T T | Sheffer stroke (NAND) | $p \uparrow q$, that is $\neg(p \land q)$ |
-| 10 | F T T F | exclusive or | $p \oplus q$, that is $\neg(p \leftrightarrow q)$ |
+| 9 | F T T T | Sheffer stroke (NAND) | $\neg(p \land q)$ |
+| 10 | F T T F | exclusive or | $\neg(p \leftrightarrow q)$ |
 | 11 | F T F T | negation of the second | $\neg q$ |
 | 12 | F T F F | [[material nonimplication|4EZWY60NYT]] | $p \land \neg q$ |
 | 13 | F F T T | negation of the first | $\neg p$ |
 | 14 | F F T F | converse nonimplication | $\neg p \land q$ |
-| 15 | F F F T | Peirce arrow (NOR) | $p \downarrow q$, that is $\neg(p \lor q)$ |
+| 15 | F F F T | Peirce arrow (NOR) | $\neg(p \lor q)$ |
 | 16 | F F F F | contradiction (falsum) | $\bot$ |
 
 Row $k$ and row $17 - k$ are negations of each other, because their value columns are complementary.
 Six of the sixteen do not depend on both variables: $\top$, $\bot$, $p$, $q$, $\neg p$ and $\neg q$.
-The other ten depend on both.
-Only the Sheffer stroke and the Peirce arrow are [[functionally complete|TDZVCWYJ9F]] alone.
 
-### Basic properties
+### Expressing one connective by others
 
-1. There are $2^n$ assignments of truth values to $n$ variables, and a truth function chooses $\mathsf{T}$ or $\mathsf{F}$ for each, so there are $2^{2^n}$ truth functions of arity $n$: $2$, $4$, $16$ and $256$ for $n = 0, 1, 2, 3$.
-2. The value of a formula under an assignment is computed from the inside out, one connective at a time. This is the [[principle of compositionality|PT0G50689S]] for propositional logic.
-3. Every truth function is expressed by a formula in $\neg$, $\land$ and $\lor$, for example by its [[disjunctive normal form|0GVDFAY4KW]]. So $\set{\neg, \land, \lor}$ is functionally complete.
-4. By [[De Morgan's laws|09PKJKA6J0]], $p \lor q$ has the same truth value as $\neg(\neg p \land \neg q)$, so $\set{\neg, \land}$ is already functionally complete. In the same way $\set{\neg, \lor}$ and $\set{\neg, \to}$ are functionally complete.
-5. The set $\set{\land, \lor, \to, \leftrightarrow}$ is not functionally complete. Each of these connectives gives $\mathsf{T}$ when all inputs are $\mathsf{T}$, so every formula built from them is true under the all-$\mathsf{T}$ assignment, and $\neg p$ is not expressible.
+Every truth function is expressed by a formula in $\neg$, $\land$ and $\lor$, for example by its [[disjunctive normal form|0GVDFAY4KW]].
+So $\{\neg, \land, \lor\}$ is functionally complete.
+By [[De Morgan's laws|09PKJKA6J0]], $p \lor q \equiv \neg(\neg p \land \neg q)$, so $\{\neg, \land\}$ is already complete, and in the same way $\{\neg, \lor\}$ and $\{\neg, \to\}$ are complete.
+The [[Sheffer stroke|1NNYWRN6B8]] alone is complete, and so is the Peirce arrow alone, and these are the only two binary connectives with this property.
+The set $\{\land, \lor, \to, \leftrightarrow\}$ is not complete.
+Each of these gives T when all inputs are T, so every formula built from them is T under the all-T assignment, and $\neg p$ is not expressible.
+
+### Brackets and precedence
+
+Brackets show the structure of a formula, and most books drop the outer pair.
+To save more brackets, most books bind $\neg$ first, then $\land$, then $\lor$, then $\to$, then $\leftrightarrow$.
+So $\neg p \land q \to r$ means $((\neg p) \land q) \to r$.
+Many books, and Lean, read a chain of arrows to the right: $p \to q \to r$ means $p \to (q \to r)$.
+Some books give $\land$ and $\lor$ the same strength and always ask for brackets between them.
+Polish notation writes the connective first and needs no brackets: $CKpqr$ is $(p \land q) \to r$.
+
+### What is not a connective
+
+[[The operator "it is a tautology that"|S2X5A9X01H]] has no truth function, because $p \lor \neg p$ and $p$ are both T at $p$ = T, yet only the first is a tautology.
+The word "because" is not a connective in this sense either, as [[connectives in mathematical language|12QQ51VK01]] shows with two sentences whose parts are all true.
+The counterfactual "if ... were, then ... would" is not truth-functional, as [[a counterfactual conditional is not a material implication|YPJF856FAN]] shows.
+
+### Watch out
+
+With the usual precedence, $p \lor q \land r$ is $p \lor (q \land r)$, not $(p \lor q) \land r$.
+The two readings differ at $p$ T, $q$ F, $r$ F: the first is T and the second is F.
+Also, $\to$ is not associative.
+At $p$ F, $q$ T, $r$ F, the formula $(p \to q) \to r$ is F, but $p \to (q \to r)$ is T.
+When in doubt, write the brackets.
 
 ### History
 
 George Boole treated "and", "or" and "not" as operations of an algebra in 1847 and 1854.
 Gottlob Frege took negation and the conditional as his basic connectives in the Begriffsschrift of 1879.
-Charles Sanders Peirce found, about 1880, that a single connective can express all others, and Henry Sheffer published this result in 1913.
+Charles Sanders Peirce found, about 1880, that a single connective can express all others, but he did not publish it, and Henry Sheffer published the result in 1913.
 Truth tables for all connectives appeared in the work of Ludwig Wittgenstein and of Emil Post in 1921.
 
-### Common errors
+### Try it
 
-1. A student reads $p \lor q \land r$ as $(p \lor q) \land r$. With the usual precedence it is $p \lor (q \land r)$, and the two differ at $p = \mathsf{T}$, $q = \mathsf{F}$, $r = \mathsf{F}$.
-2. A student treats $\to$ as associative. At $p = \mathsf{F}$, $q = \mathsf{T}$, $r = \mathsf{F}$, the formula $(p \to q) \to r$ is false, but $p \to (q \to r)$ is true.
-3. A student writes $\Rightarrow$ inside a formula and $\to$ between statements in the same text. Each book fixes one use of each symbol, and a reader must check it.
+How many binary connectives give T in the row TT?
+The other three rows are free, so there are $2^3 = 8$.
+
+Which of the 16 binary connectives are commutative, that is, have the same value in the rows TF and FT?
+The values in TT, FF and the common value of TF and FT are free, so there are $2^3 = 8$: $\top$, $\lor$, $\leftrightarrow$, $\land$, NAND, xor, NOR and $\bot$.
 
 ## Explanations
 
@@ -143,17 +169,17 @@ With two parts there are four cases, and a rule picks true or false in each case
 
 ### L2 human
 
-We find the truth function of $\neg p \lor q \land r$ at $p = \mathsf{T}$, $q = \mathsf{T}$, $r = \mathsf{F}$.
+Evaluate $\neg p \lor q \land r$ at $p$ T, $q$ T, $r$ F.
 
-1. Insert brackets by precedence: $\neg$ binds first, then $\land$, then $\lor$. So the formula is $(\neg p) \lor (q \land r)$.
-2. $\neg p$ is $\mathsf{F}$, because $p$ is $\mathsf{T}$.
-3. $q \land r$ is $\mathsf{F}$, because $r$ is $\mathsf{F}$.
-4. $(\neg p) \lor (q \land r)$ is $\mathsf{F}$, because both disjuncts are $\mathsf{F}$.
+1. Insert brackets by precedence: $\neg$ binds first, then $\land$, then $\lor$.
+   So the formula is $(\neg p) \lor (q \land r)$.
+2. $\neg p$ is F, because $p$ is T.
+3. $q \land r$ is F, because $r$ is F.
+4. $(\neg p) \lor (q \land r)$ is F, because both disjuncts are F.
 
-The typical use of these conventions is to read formulas in a textbook quickly and in one way only.
-A trap: the other reading $\neg(p \lor q) \land r$ also gives $\mathsf{F}$ here, so one row cannot tell the two readings apart.
-At $p = q = r = \mathsf{F}$, the formula $(\neg p) \lor (q \land r)$ is $\mathsf{T}$, and $\neg(p \lor q) \land r$ is $\mathsf{F}$.
-When in doubt, write the brackets.
+The other reading $\neg(p \lor q) \land r$ also gives F here, so one row cannot tell the two readings apart.
+At $p$, $q$, $r$ all F, the formula $(\neg p) \lor (q \land r)$ is T, and $\neg(p \lor q) \land r$ is F.
+Watch out: when a formula is ambiguous to you, check the precedence convention of the book before you compute.
 
 ### L3 human
 
@@ -161,9 +187,7 @@ The truth functions of all arities, closed under composition, form the clone of 
 A set of connectives is functionally complete when it generates this clone, and [[Post's functional completeness theorem|WGBR7JHBV4]] lists the five maximal subclones.
 A complete set must have a member outside each of them.
 The same truth functions are the [[Boolean functions|0X05GS525E]] of computer science and the [[logic gates|AMH914MF2A]] of circuit design.
-
-Outside classical logic, a connective need not be a truth function of two values.
 In [[many-valued logic|DWYCKAKXZD]] the truth functions act on three or more values.
 In [[intuitionistic logic|Q11N8X99FK]] the connectives are interpreted in a [[Heyting algebra|NG943XNQWH]], and $\to$ and $\lor$ are no longer expressible by $\neg$ and $\land$.
-In [[modal logic|C3RZY20ETK]], the operator $\Box$ is a connective of the syntax but has no truth function, and its semantics needs possible worlds.
+In [[modal logic|C3RZY20ETK]], the operator $\Box$ belongs to the syntax but has no truth function, and its semantics needs possible worlds.
 The formal syntax of formulas built with connectives is the subject of the [[propositional calculus|09K9MWD2QQ]].

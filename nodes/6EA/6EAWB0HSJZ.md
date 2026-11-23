@@ -22,21 +22,22 @@ For an integer $n$, let $p$ be "$n$ is positive", that is, $n > 0$, and let $r$ 
 The proposition $r$ is the opposite of $p$, but it is not the [[negation|029JBBF693]] of $p$.
 We check the condition that fails.
 
-1. By definition, $\neg p$ must be true whenever $p$ is false, for every value of $n$.
-2. Take $n = 0$. Then $0 > 0$ is false, so $p$ is F.
-3. For $n = 0$, the inequality $0 < 0$ is also false, so $r$ is F.
-4. So $p$ and $r$ are both false for $n = 0$, and the row "$p$ F, $\neg p$ T" of the truth table of negation fails for $r$.
-5. The correct negation is $\neg p$: "$n \leq 0$", which is true for $n = 0$.
+1. The negation of $p$ must be true whenever $p$ is false, for every value of $n$.
+2. Take $n = 0$.
+   Then $0 > 0$ is false, so $p$ is F.
+3. For $n = 0$ the inequality $0 < 0$ is also false, so $r$ is F.
+4. So $p$ and $r$ are both F at $n = 0$, and $r$ breaks the row "$p$ F, $\neg p$ T" of the truth table of negation.
+5. The correct negation is "$n \le 0$", which is T at $n = 0$.
 
 ## Remarks
 
-The example shows the difference between a negation and an opposite.
+A negation and an opposite are different things.
 Two opposite statements cannot both be true, but they can both be false.
-A statement and its negation can neither be both true nor be both false.
+A statement and its negation can be neither both true nor both false.
 
 The gap between the opposites is the set of values where both fail, here the single value $n = 0$.
-If we restrict $n$ to the nonzero integers, then the gap disappears, and "$n < 0$" becomes equivalent to the negation of "$n > 0$" on that domain.
-The same gap appears between "every student passed" and "no student passed": both are false when some students passed and some failed.
+If we restrict $n$ to the nonzero integers, the gap disappears, and "$n < 0$" is equivalent to the negation of "$n > 0$" on that domain.
+The same gap separates "every student passed" from "no student passed": both are false when some students passed and some failed.
 
 ## Explanations
 
@@ -49,14 +50,10 @@ The real denial of "the number is positive" is "the number is zero or negative".
 
 ### L2 human
 
-We test whether "$f$ is decreasing" is the negation of "$f$ is increasing", for functions $f \colon \mathbb{R} \to \mathbb{R}$.
-Here "increasing" means $f(a) \leq f(b)$ whenever $a < b$, and "decreasing" means $f(a) \geq f(b)$ whenever $a < b$.
-
-1. Take $f(x) = x^2$.
-2. $f$ is not increasing, because $f(-1) = 1 > 0 = f(0)$.
-3. $f$ is not decreasing, because $f(0) = 0 < 1 = f(1)$.
-4. So both statements are false for $f$, and "decreasing" is not the negation of "increasing".
-
-The typical use of this check is to test a proposed negation on a boundary case before using it in a proof.
-
-A trap: the true negation of "$f$ is increasing" is "there are $a < b$ with $f(a) > f(b)$", which is much weaker than "$f$ is decreasing".
+Is "$f$ is decreasing" the negation of "$f$ is increasing", for functions $f \colon \mathbb{R} \to \mathbb{R}$?
+Here "increasing" means $f(a) \le f(b)$ whenever $a < b$, and "decreasing" means $f(a) \ge f(b)$ whenever $a < b$.
+Take $f(x) = x^2$.
+It is not increasing, because $f(-1) = 1 > 0 = f(0)$, and it is not decreasing, because $f(0) = 0 < 1 = f(1)$.
+Both statements are false for $f$, so "decreasing" is not the negation of "increasing".
+Test a proposed negation on such a boundary case before you use it in a proof.
+Watch out: the true negation of "$f$ is increasing" is "there are $a < b$ with $f(a) > f(b)$", which is much weaker than "$f$ is decreasing".

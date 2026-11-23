@@ -25,38 +25,39 @@ with the formula
 $$S_2: \quad \exists x \, (x \in \mathbb{N} \to x < 0).$$
 We show that $S_2$ does not express the restricted statement $S_1$.
 
-1. $S_1$ is false. For $x \in \mathbb{N} = \{0, 1, 2, \dots\}$ we have $x \ge 0$, so $x < 0$ is false. For $x \notin \mathbb{N}$ the first conjunct is false. So every instance of the [[conjunction|025YZN3VJW]] is false.
-2. $S_2$ is true. Take $x = -\frac{1}{2}$. Then $x \in \mathbb{N}$ is false, so the [[implication|0NMG7W7Q11]] $x \in \mathbb{N} \to x < 0$ is true, and $x = -\frac{1}{2}$ is a witness.
-3. The instance $x = \frac{1}{2}$ also makes $S_2$ true, although $\frac{1}{2} < 0$ is false: the implication is [[vacuously true|0V4QXPGJQK]].
-4. So $S_1$ and $S_2$ have different truth values, and $S_2$ is not a form of the statement "some natural number is negative".
-5. $S_2$ says something else: some real number is not natural or is negative. Any element of the domain outside $\mathbb{N}$ is a witness.
+1. $S_1$ is false.
+   For $x \in \mathbb{N} = \{0, 1, 2, \dots\}$ we have $x \ge 0$, so the second conjunct is false, and for $x \notin \mathbb{N}$ the first conjunct is false.
+   So every instance of the [[conjunction|025YZN3VJW]] is false.
+2. $S_2$ is true.
+   For $x = -\frac{1}{2}$, the antecedent $x \in \mathbb{N}$ is false, so the [[implication|0NMG7W7Q11]] $x \in \mathbb{N} \to x < 0$ is true, and $x = -\frac{1}{2}$ is a witness.
+3. The instance $x = \frac{1}{2}$ also makes $S_2$ true, although $\frac{1}{2} < 0$ is false, because the implication is [[vacuously true|0V4QXPGJQK]].
+4. So $S_1$ and $S_2$ have different truth values, and $S_2$ is not a form of "some natural number is negative".
+   What $S_2$ says is that some real number is not natural or is negative.
 
 ## Remarks
 
-The example shows why the restricted existential quantifier uses $\land$ and not $\to$.
-With $\land$, a witness must lie in $\mathbb{N}$ and satisfy the property.
+The restricted existential quantifier uses $\land$ and not $\to$ for exactly this reason.
+With $\land$, a witness must lie in $\mathbb{N}$ and have the property.
 With $\to$, every element outside $\mathbb{N}$ is a witness, so the formula is true for almost any property once the domain is larger than $\mathbb{N}$.
 
 If the domain of discourse is $\mathbb{N}$ itself, then $x \in \mathbb{N}$ is true for each $x$, and $S_1$ and $S_2$ are both false and equivalent.
-The mirror error for the universal quantifier, $\land$ in place of $\to$, is on the page [[the formula "for all x, x is natural and x is at least 0" is not a restricted universal statement|YQH9WAA6X8]].
+The mirror error for the universal quantifier, $\land$ in place of $\to$, is in [[the formula "for all x, x is natural and x is at least 0" is not a restricted universal statement|YQH9WAA6X8]].
 
 ## Explanations
 
 ### L1 human
 
-"Some natural number is negative" is false: $0, 1, 2, \dots$ are all at least $0$.
+"Some natural number is negative" is false, because $0, 1, 2, \dots$ are all at least $0$.
 The formula with "if ... then" says "there is a number such that, if it is natural, then it is negative".
-The number $-\frac{1}{2}$ is not natural, so the "if" part fails and the sentence about it counts as true.
+The number $-\frac{1}{2}$ is not natural, so the "if" part fails, and the sentence about it counts as true.
 So the formula with "if ... then" is true, and it cannot mean the same as the false statement.
 
 ### L2 human
 
-We translate "some prime number is even" with the domain $\mathbb{N}$.
-
-1. The restricting condition is "$x$ is prime", and the property is "$x$ is even".
-2. The restricted form is $\exists x \, (x \text{ is prime} \land x \text{ is even})$. It is true, with the witness $2$.
-3. The form with $\to$ is $\exists x \, (x \text{ is prime} \to x \text{ is even})$. It is also true, but for a wrong reason: $x = 4$ is not prime, so the implication holds for $x = 4$.
-4. To see the difference, replace "even" by "greater than $100$ and less than $101$". The form with $\land$ is false, and the form with $\to$ is still true with $x = 4$.
-
-The typical use of this check is the translation of a sentence with "some" into logical form, as on the page [[translating statements into logical form|WGZX7GV3PP]].
-A trap is that a formula with $\to$ under $\exists$ is almost always true and so says almost nothing.
+Translate "some prime number is even" with the domain $\mathbb{N}$.
+The restricting condition is "$x$ is prime", and the property is "$x$ is even".
+The restricted form $\exists x \, (x \text{ is prime} \land x \text{ is even})$ is true, with the witness $2$.
+The form $\exists x \, (x \text{ is prime} \to x \text{ is even})$ is also true, but for a wrong reason: $x = 4$ is not prime, so the implication holds at $4$.
+Replace "even" by "strictly between $100$ and $101$", and the form with $\land$ becomes false, while the form with $\to$ stays true at $x = 4$.
+This check belongs to every translation of a sentence with "some", as in [[translating statements into logical form|WGZX7GV3PP]].
+Watch out: a formula with $\to$ directly under $\exists$ is almost always true, and so it says almost nothing.

@@ -21,14 +21,16 @@ The relation $f$ is a [[function|0EPAT51DXQ]] from $X$ to $Y$ when
 $$\forall x \in X \; \exists! y \in Y \; (x, y) \in f.$$
 We check this condition for $X = Y = \{1, 2, 3\}$ and $f = \{(1, 2), (2, 2), (3, 1)\}$, with the definition of the [[uniqueness quantifier|0N3ADS4CHH]].
 
-1. For $x = 1$, the only pair of $f$ with first entry $1$ is $(1, 2)$. So $y = 2$ exists, and every $y'$ with $(1, y') \in f$ equals $2$.
-2. For $x = 2$, the only pair with first entry $2$ is $(2, 2)$. So the unique $y$ is $2$.
-3. For $x = 3$, the only pair with first entry $3$ is $(3, 1)$. So the unique $y$ is $1$.
-4. Steps 1 to 3 cover every $x \in X$, so the condition holds and $f$ is a function. Its values are $f(1) = 2$, $f(2) = 2$ and $f(3) = 1$.
+1. For $x = 1$, the only pair of $f$ with first entry $1$ is $(1, 2)$.
+   So $y = 2$ exists, and every $y'$ with $(1, y') \in f$ equals $2$.
+2. For $x = 2$, the only pair with first entry $2$ is $(2, 2)$, so the unique $y$ is $2$.
+3. For $x = 3$, the only pair with first entry $3$ is $(3, 1)$, so the unique $y$ is $1$.
+4. Steps 1 to 3 cover every $x \in X$, so the condition holds and $f$ is a function.
+   Its values are $f(1) = 2$, $f(2) = 2$ and $f(3) = 1$.
 
 ## Remarks
 
-The definition of a function contains two conditions in one formula.
+The definition of a function packs two conditions into one formula.
 The existence part says that each $x$ has a value, and the uniqueness part says that the value is well defined.
 The relation $g = \{(1, 2), (1, 3), (2, 2), (3, 1)\}$ is not a function, because $x = 1$ has the two partners $2$ and $3$, so uniqueness fails.
 The relation $h = \{(1, 2), (2, 2)\}$ is not a function on $X$, because $x = 3$ has no partner, so existence fails.
@@ -48,11 +50,9 @@ Two people can share a birthday, and that is allowed.
 
 ### L2 human
 
-To check that a rule is a function, we check the two parts of $\exists!$ for each input.
-
-1. Take $f(x) = \sqrt{x}$ on $X = \{x \in \mathbb{R} : x \geq 0\}$, with the relation "$y \geq 0$ and $y^2 = x$".
-2. Existence: for $x \geq 0$, the number $y = \sqrt{x}$ satisfies $y \geq 0$ and $y^2 = x$.
-3. Uniqueness: if $y, y' \geq 0$ and $y^2 = y'^2 = x$, then $(y - y')(y + y') = 0$. If $y + y' = 0$, then $y = y' = 0$, because both are non-negative. Otherwise $y - y' = 0$. In both cases $y = y'$.
-4. So the relation is a function.
-
-A trap is the relation "$y^2 = x$" without the condition $y \geq 0$: for $x = 4$ both $y = 2$ and $y = -2$ satisfy it, so it is not a function.
+Check that the relation "$y \geq 0$ and $y^2 = x$" on $X = \{x \in \mathbb{R} : x \geq 0\}$ is a function.
+Existence: for $x \geq 0$, the number $y = \sqrt{x}$ satisfies $y \geq 0$ and $y^2 = x$.
+Uniqueness: if $y, y' \geq 0$ and $y^2 = y'^2 = x$, then $(y - y')(y + y') = 0$.
+If $y + y' = 0$, then $y = y' = 0$, because both are nonnegative, and otherwise $y - y' = 0$.
+In both cases $y = y'$, so the relation is a function, the square root.
+Watch out: without the condition $y \geq 0$, the relation "$y^2 = x$" gives both $y = 2$ and $y = -2$ for $x = 4$, so it is not a function.

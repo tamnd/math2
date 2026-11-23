@@ -16,25 +16,45 @@ sources:
 
 ## Example
 
+"If it rains, then it rains" looks too plain to need a proof, but in a system with one rule it takes five lines.
 Consider a [[Hilbert system|1MGMQX43B8]] for propositional logic whose only rule is [[modus ponens|0Y0MQYST0M]] and whose axioms include all instances of the two schemas
 $$\text{(A1)}\quad \varphi \to (\psi \to \varphi), \qquad \text{(A2)}\quad (\varphi \to (\psi \to \chi)) \to ((\varphi \to \psi) \to (\varphi \to \chi)).$$
-We derive the formula $p \to p$, for a propositional variable $p$, with two uses of modus ponens.
+We derive $p \to p$, for a propositional variable $p$, with two uses of modus ponens.
 
-1. $(p \to ((p \to p) \to p)) \to ((p \to (p \to p)) \to (p \to p))$. Reason: (A2) with $\varphi = p$, $\psi = p \to p$, $\chi = p$.
-2. $p \to ((p \to p) \to p)$. Reason: (A1) with $\varphi = p$, $\psi = p \to p$.
-3. $(p \to (p \to p)) \to (p \to p)$. Reason: modus ponens on lines 2 and 1; line 2 is the antecedent of line 1.
-4. $p \to (p \to p)$. Reason: (A1) with $\varphi = p$, $\psi = p$.
-5. $p \to p$. Reason: modus ponens on lines 4 and 3; line 4 is the antecedent of line 3.
+1. $(p \to ((p \to p) \to p)) \to ((p \to (p \to p)) \to (p \to p))$, by (A2) with $\varphi = p$, $\psi = p \to p$ and $\chi = p$.
+2. $p \to ((p \to p) \to p)$, by (A1) with $\varphi = p$ and $\psi = p \to p$.
+3. $(p \to (p \to p)) \to (p \to p)$, by modus ponens on lines 2 and 1.
+   Line 2 is the antecedent of line 1.
+4. $p \to (p \to p)$, by (A1) with $\varphi = p$ and $\psi = p$.
+5. $p \to p$, by modus ponens on lines 4 and 3.
+   Line 4 is the antecedent of line 3.
 
 Each line is an axiom or follows from two earlier lines by modus ponens, so the list is a derivation of $p \to p$.
 
 ## Remarks
 
-The example shows that modus ponens does all the inference in a Hilbert system; the axioms supply the implications to which it is applied.
-Each use of modus ponens needs the antecedent to match exactly: line 2 must be the same formula as the antecedent of line 1, symbol for symbol.
+### What the example shows
+
+Modus ponens does all the inference in a Hilbert system, and the axioms supply the implications to which it is applied.
 The same five lines with any formula $\varphi$ in place of $p$ derive $\varphi \to \varphi$, so $\varphi \to \varphi$ is a theorem schema.
-With the [[deduction theorem|9X08XK5RV2]], the derivation is immediate: from the hypothesis $p$ we derive $p$ in one line, so $\vdash p \to p$.
+With the [[deduction theorem|9X08XK5RV2]] the derivation is immediate, since from the hypothesis $p$ we derive $p$ in one line.
 The proof of the deduction theorem uses exactly this five-line derivation as a lemma.
+Both axiom schemas hold intuitionistically, so the derivation is valid in intuitionistic logic too.
+
+### Check line 3
+
+Line 1 has the form $X \to Y$ with $X = p \to ((p \to p) \to p)$ and $Y = (p \to (p \to p)) \to (p \to p)$.
+Line 2 is exactly $X$, so modus ponens gives $Y$, which is line 3.
+
+### Watch out
+
+Each use of modus ponens needs the antecedent to match symbol for symbol.
+At line 3 the formula $p \to (p \to p)$ would not do, because the antecedent of line 1 is $p \to ((p \to p) \to p)$.
+
+### Try it
+
+Which instance of (A1) gives $q \to (p \to q)$?
+Take $\varphi = q$ and $\psi = p$.
 
 ## Explanations
 
@@ -46,11 +66,6 @@ Even the sentence "if $p$, then $p$" needs a short game: two starting sentences,
 
 ### L2 human
 
-We check line 3 in detail, because matching formulas is the only skill that a Hilbert proof needs.
-
-1. Line 1 has the form $X \to Y$ with $X = p \to ((p \to p) \to p)$ and $Y = (p \to (p \to p)) \to (p \to p)$.
-2. Line 2 is exactly $X$.
-3. Modus ponens on $X$ and $X \to Y$ gives $Y$, which is line 3.
-
-The typical use of such derivations is to build up derived rules, such as [[hypothetical syllogism|7MT8CPCEM4]], which then shorten later proofs.
-A trap is to apply modus ponens to a formula that only looks like the antecedent, for example to use $p \to (p \to p)$ at line 3, where $p \to ((p \to p) \to p)$ is needed.
+Matching formulas is the only skill that a Hilbert proof needs, so check each step by naming the parts.
+In line 1, call the antecedent $X$ and the consequent $Y$, then confirm that line 2 is $X$ letter for letter.
+Such derivations build up derived rules, such as [[hypothetical syllogism|7MT8CPCEM4]], which then shorten later proofs.

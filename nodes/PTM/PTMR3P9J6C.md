@@ -20,80 +20,76 @@ same_as:
 
 ## Summary
 
-The exclusive or of two [[propositions|0ZGC7ZESYN]] $p$ and $q$ is the proposition $p \oplus q$, read "$p$ xor $q$" or "either $p$ or $q$, but not both", which is true when exactly one of $p$ and $q$ is true.
-Equivalently, $p \oplus q$ is true when $p$ and $q$ have different truth values, so $p \oplus q$ is the [[negation|029JBBF693]] of the [[biconditional|0S6GMNJ62Y]] $p \leftrightarrow q$.
-With the truth values $1$ and $0$, the value of $p \oplus q$ is $p + q$ modulo $2$.
-The precise definition is on the page [[exclusive or (definition)|K1V1KVEAHN]].
-Exclusive or is the everyday "one or the other, not both", and it is the addition of the arithmetic of bits, so it counts parity and appears in codes, cryptography and circuits.
+Exclusive or is the "one or the other, but not both" of daily speech, and it is also the addition of bits.
+A staircase lamp with a switch at the bottom and a switch at the top is on when exactly one switch is flipped, and off again when both are.
+For [[propositions|0ZGC7ZESYN]] $p$ and $q$, the exclusive or $p \oplus q$ is true when exactly one of $p$ and $q$ is true, that is, when they have different truth values.
+So $p \oplus q \equiv \neg(p \leftrightarrow q)$, the [[negation|029JBBF693]] of the [[biconditional|0S6GMNJ62Y]].
+With $1$ for T and $0$ for F, the value of $p \oplus q$ is $p + q$ modulo $2$, and the [[formal definition|K1V1KVEAHN]] gives the table.
 
 ## Motivation
 
-The mathematical "or" is inclusive, but some alternatives exclude each other by design: a game of chess without a draw has exactly one winner.
-Such statements need a connective that is false when both parts are true.
-A second source is arithmetic with bits: the last bit of a sum $a + b$ of two bits is $1$ exactly when one of $a$, $b$ is $1$.
-A third source is parity: a list of switches leaves a lamp on when an odd number of them is flipped.
-All three are the same connective, $\oplus$.
+The mathematical "or" is inclusive, but some alternatives exclude each other, and a connective that is false when both parts hold describes them exactly.
+A second source is arithmetic with bits: the last bit of $a + b$ for two bits is $1$ exactly when one of $a$, $b$ is $1$.
+A third source is parity: a lamp wired to several switches is on when an odd number of them has been flipped.
+These are one connective, $\oplus$, and it returns in error-detecting codes, in ciphers, in circuits that add numbers, and in the algebra of [[Boolean rings|0RCV1ZFP8G]].
 
 ## Notation
 
-This sub-area writes $p \oplus q$.
-Other notations are $p \mathbin{\underline{\vee}} q$, $p \not\leftrightarrow q$, $p \not\equiv q$, "XOR" and "EOR"; in many programming languages it is `p ^ q`.
-In a Boolean ring the exclusive or is written $p + q$, and some books on Boolean algebra use $+$ for the inclusive "or" instead, so the convention of each book must be checked.
+We write $p \oplus q$.
+Other notations are $p \mathbin{\underline{\vee}} q$, $p \not\leftrightarrow q$, $p \not\equiv q$, XOR and EOR, and many programming languages write `p ^ q`.
+In a Boolean ring the exclusive or is written $p + q$, while some books on Boolean algebra use $+$ for the inclusive "or", so check the convention of each book.
 In Lean's Mathlib, the exclusive or of two propositions is `Xor' a b`, defined as $(a \land \neg b) \lor (b \land \neg a)$.
 
 ## Remarks
 
-### Examples
+### The truth table
 
-1. [[The parity of three inputs: $p \oplus q \oplus r$|DB2NK7HWFQ]]: the value is T exactly when an odd number of inputs is T.
-2. [[Exclusive or on bit strings and the one-time pad|PZZV5DGWKZ]]: the same key encrypts and decrypts, because $(m \oplus k) \oplus k = m$.
-3. For an integer $n$, "$n$ is even $\oplus$ $n$ is odd" is true for every $n$, because exactly one part holds.
-4. For a real $x$, "$x < 0 \oplus x > 0$" is true for every $x \neq 0$, and false for $x = 0$, where both parts are false.
-5. "$6$ is even $\oplus$ $6$ is divisible by $3$" is false, because both parts are true.
+Take $n = 9$, $p$ = "$n$ is odd" and $q$ = "$n$ is prime".
+Here $p$ is T and $q$ is F, so exactly one part holds and $p \oplus q$ is T.
+For $n = 7$ both parts are T, and $p \oplus q$ is F.
+The four rows are:
 
-### Non-examples
+| $p$ | $q$ | $p \oplus q$ | $p \leftrightarrow q$ |
+|---|---|---|---|
+| T | T | F | T |
+| T | F | T | F |
+| F | T | T | F |
+| F | F | F | T |
 
-1. [["Exactly one of $p$, $q$, $r$" is not $p \oplus q \oplus r$|ZV2QXSKFRG]]: the two differ when all three inputs are true.
-2. The inclusive [[disjunction|0F72FK8EKB]] $p \lor q$ is not $p \oplus q$: it is true when both parts are true. See [[the "or" of "the meal comes with soup or salad" is exclusive|XBS0DS337X]] for the everyday case.
-3. The biconditional $p \leftrightarrow q$ is not $p \oplus q$: it has the opposite truth value in every row.
+The table of $\oplus$ agrees with the inclusive [[disjunction|0F72FK8EKB]] except in the row TT.
+The last column shows that $\oplus$ and $\leftrightarrow$ disagree in every row, which proves $p \oplus q \equiv \neg(p \leftrightarrow q)$.
+Moving the negation inside gives two more forms, $\neg p \leftrightarrow q$ and $p \leftrightarrow \neg q$.
+"At least one but not both" gives $(p \lor q) \land \neg(p \land q)$, and listing the two true rows gives $(p \land \neg q) \lor (\neg p \land q)$.
 
-### Exclusive or as addition modulo 2
+### Addition modulo 2
 
-With $1$ for T and $0$ for F, the table of $\oplus$ is the table of addition in the [[integers modulo 2|03VFZ2WETT]]: $1 + 1 = 0$, $1 + 0 = 0 + 1 = 1$, $0 + 0 = 0$.
-So the laws of $\oplus$ are laws of addition in the field with two elements, [[GF(2)|C2TYYZEY7F]].
-
-1. $p \oplus F \equiv p$: false is the zero.
-2. $p \oplus p \equiv F$: each proposition is its own inverse.
-3. $p \oplus T \equiv \neg p$: adding $1$ is negation.
-4. $(p \oplus q) \oplus q \equiv p$: adding $q$ twice cancels it.
-5. $p \land (q \oplus r) \equiv (p \land q) \oplus (p \land r)$: conjunction, which is multiplication modulo $2$, distributes over $\oplus$.
-6. $p \lor q \equiv p \oplus q \oplus (p \land q)$: this is $p + q - pq$ modulo $2$.
-
-With $\oplus$ as addition and $\land$ as multiplication, the truth values form a [[Boolean ring|0RCV1ZFP8G]].
+With $1$ for T and $0$ for F, the table is the addition table of the [[integers modulo 2|03VFZ2WETT]]: $0 + 0 = 0$, $0 + 1 = 1 + 0 = 1$, and $1 + 1 = 0$.
+So every law of $\oplus$ is a law of addition in the field [[GF(2)|C2TYYZEY7F]].
+F is the zero, $p \oplus \mathrm{F} \equiv p$, and every proposition is its own inverse, $p \oplus p \equiv \mathrm{F}$.
+Adding T is negation, $p \oplus \mathrm{T} \equiv \neg p$.
+Conjunction is multiplication modulo $2$, and it distributes: $p \land (q \oplus r) \equiv (p \land q) \oplus (p \land r)$.
+The inclusive "or" becomes $p \lor q \equiv p \oplus q \oplus (p \land q)$, which is $p + q - pq$ read modulo $2$.
 
 ### Associativity and parity
 
-Exclusive or is commutative, $p \oplus q \equiv q \oplus p$, and associative, $(p \oplus q) \oplus r \equiv p \oplus (q \oplus r)$.
-Associativity follows from the associativity of addition modulo $2$; a truth table with $8$ rows checks it as well.
-So $p_1 \oplus p_2 \oplus \cdots \oplus p_n$ needs no brackets.
-Its value is T exactly when an odd number of the $p_i$ are T, because the sum $p_1 + \cdots + p_n$ modulo $2$ is $1$ exactly when the number of $1$s is odd.
-This is the parity function, and a [[parity bit|D0E6Y0P30Q]] is its value on a block of data.
+Exclusive or is commutative and associative, $(p \oplus q) \oplus r \equiv p \oplus (q \oplus r)$, because addition modulo $2$ is.
+[[The truth table of $p \oplus q \oplus r$|DB2NK7HWFQ]] checks all $8$ rows and finds T exactly in the rows with $1$ or $3$ true inputs.
+In general $p_1 \oplus \cdots \oplus p_n$ is T exactly when an odd number of the $p_i$ is T, since the sum of $n$ bits modulo $2$ is the parity of the number of $1$s.
+That is the [[parity bit|D0E6Y0P30Q]] of a block of data.
+[[On bit strings|PZZV5DGWKZ]] the same laws make $(m \oplus k) \oplus k = m$, so one key both encrypts and decrypts a one-time pad.
 
-### Relation to the biconditional
+### What it is not
 
-The [[biconditional|0S6GMNJ62Y]] $p \leftrightarrow q$ is true when $p$ and $q$ have the same truth value, and $p \oplus q$ is true when they have different values.
-So
-$$p \oplus q \equiv \neg(p \leftrightarrow q) \equiv \neg p \leftrightarrow q \equiv p \leftrightarrow \neg q.$$
-Other forms are $p \oplus q \equiv (p \lor q) \land \neg(p \land q) \equiv (p \land \neg q) \lor (\neg p \land q)$.
-In the arithmetic modulo $2$, the biconditional is $p \leftrightarrow q = 1 + p + q$.
+[["Exactly one of $p$, $q$, $r$"|ZV2QXSKFRG]] is not $p \oplus q \oplus r$: when all three are T, the first is F and the second is T, because $3$ is odd.
+The menu claim [["soup or salad"|XBS0DS337X]] is an exclusive or, so it is not the inclusive $p \lor q$.
+And disjunction does not distribute over $\oplus$: with $p$, $q$, $r$ all T, $p \lor (q \oplus r)$ is T, but $(p \lor q) \oplus (p \lor r)$ is $\mathrm{T} \oplus \mathrm{T}$, which is F.
 
-### Basic properties
+### Watch out
 
-1. $p \oplus q$ is T in the rows TF and FT, and F in the rows TT and FF.
-2. $\oplus$ is commutative and associative, with identity F, and $p \oplus p \equiv F$.
-3. $\neg(p \oplus q) \equiv p \leftrightarrow q$.
-4. For sets, $x \in A \mathbin{\triangle} B$ means $(x \in A) \oplus (x \in B)$, so exclusive or corresponds to the [[symmetric difference|0ME21QN125]].
-5. Disjunction does not distribute over $\oplus$: for $p$ T and $q$, $r$ both T, $p \lor (q \oplus r)$ is T, but $(p \lor q) \oplus (p \lor r)$ is F.
+Do not write $p + q$ for $p \lor q$ and then compute $1 + 1 = 0$.
+Modulo $2$, $+$ is $\oplus$, and $p \lor q$ has the value $1$ when $p = q = 1$.
+Also, $\neg(p \leftrightarrow q)$ is not $\neg p \leftrightarrow \neg q$: in the row TF the second compares F with T, so it is F, while $\neg(p \leftrightarrow q)$ is T.
+In fact $\neg p \leftrightarrow \neg q$ is equivalent to $p \leftrightarrow q$ itself.
 
 ### History
 
@@ -101,42 +97,44 @@ In The Laws of Thought of 1854, George Boole added two classes only when they ha
 Later logic chose the inclusive "or" as the basic connective.
 Marshall Stone showed in 1936 that Boolean algebras and Boolean rings are the same structures, with the exclusive or as the addition of the ring.
 
-### Common errors
+### Try it
 
-1. A student reads $p_1 \oplus p_2 \oplus p_3$ as "exactly one of $p_1, p_2, p_3$". It means "an odd number of them", which includes all three.
-2. A student writes $p + q$ for $p \lor q$ and then computes $1 + 1 = 0$. In this sub-area $+$ modulo $2$ is $\oplus$, and $p \lor q$ has the value $1$ for $p = q = 1$.
-3. A student reads every "or" of a mathematical text as exclusive. Mathematics uses the exclusive reading only when the text says "but not both" or "exactly one".
+Compute $1 \oplus 1 \oplus 0 \oplus 1 \oplus 1 \oplus 0$.
+There are four $1$s, an even number, so the result is $0$.
+
+For which real $x$ is "$x < 0$ xor $x > 0$" true?
+For every $x \ne 0$ exactly one part holds, and at $x = 0$ both parts are F, so it is true exactly for $x \ne 0$.
 
 ## Explanations
 
 ### L1 human
 
 "Exclusive or" means "one or the other, but not both".
-Think of a lamp on a staircase with a switch at the bottom and a switch at the top.
-Flipping one switch changes the lamp, and flipping both switches puts it back as it was.
-The lamp is on exactly when one switch is flipped, not when both are flipped.
-In numbers: $1$ plus $0$ is $1$, but $1$ plus $1$ wraps around to $0$ when we keep only even or odd.
+Think of a staircase lamp with a switch at the bottom and a switch at the top.
+Flipping one switch changes the lamp, and flipping both puts it back as it was.
+So the lamp is on exactly when one switch is flipped.
+In numbers, $1 + 0$ is $1$, but $1 + 1$ wraps around to $0$ when we keep only "even" or "odd".
 
 ### L2 human
 
-We prove $p \oplus q \equiv \neg(p \leftrightarrow q)$ by a truth table, in the standard order of rows.
+Show that $p \oplus q \equiv (p \lor q) \land \neg(p \land q)$ by a truth table.
 
-1. Row TT: $p \oplus q$ is F; $p \leftrightarrow q$ is T, so $\neg(p \leftrightarrow q)$ is F.
-2. Row TF: $p \oplus q$ is T; $p \leftrightarrow q$ is F, so $\neg(p \leftrightarrow q)$ is T.
-3. Row FT: $p \oplus q$ is T; $p \leftrightarrow q$ is F, so $\neg(p \leftrightarrow q)$ is T.
-4. Row FF: $p \oplus q$ is F; $p \leftrightarrow q$ is T, so $\neg(p \leftrightarrow q)$ is F.
-5. The two columns agree in every row, so the formulas are logically equivalent.
+| $p$ | $q$ | $p \lor q$ | $\neg(p \land q)$ | $(p \lor q) \land \neg(p \land q)$ | $p \oplus q$ |
+|---|---|---|---|---|---|
+| T | T | T | F | F | F |
+| T | F | T | T | T | T |
+| F | T | T | T | T | T |
+| F | F | F | T | F | F |
 
-The typical use of this equivalence is to turn a statement about "different truth values" into a negated biconditional, or back.
-
-A trap: $\neg(p \leftrightarrow q)$ is not $\neg p \leftrightarrow \neg q$.
-The second formula is equivalent to $p \leftrightarrow q$ itself: in row TF, $\neg p \leftrightarrow \neg q$ compares F with T and is F.
+The last two columns agree in every row, so the formulas are equivalent.
+This form is how a circuit builds XOR from OR, AND and NOT gates.
+Watch out: the second factor matters, since $p \lor q$ alone is T in the row TT.
 
 ### L3 human
 
-The set $\{0, 1\}^n$ of bit strings of length $n$ with the operation $\oplus$ applied bit by bit is the vector space $\mathrm{GF}(2)^n$.
-Linear codes are subspaces of it, and the [[Hamming distance|EP5HNGSXFA]] between two strings is the number of $1$s in their exclusive or.
-In the game of [[Nim|HYQPVQF509]], a position is lost for the player to move exactly when the bitwise exclusive or of the heap sizes is $0$.
-The power set of a set with the symmetric difference is a group in which every element is its own inverse, and with intersection as multiplication it is a Boolean ring.
-In complexity theory, the parity function on $n$ bits is the standard example of a simple function that circuits of bounded depth and polynomial size cannot compute; see [[parity is not in AC0|W6T7X0QCFH]].
-The polynomial form of a Boolean function over $\mathrm{GF}(2)$, with $\oplus$ and $\land$ only, is unique, so every [[Boolean function|0X05GS525E]] has a unique expression as an exclusive or of conjunctions of variables, where the empty conjunction counts as T.
+The bit strings $\{0, 1\}^n$ with bitwise $\oplus$ form the vector space $\mathrm{GF}(2)^n$.
+Linear codes are subspaces of it, and the [[Hamming distance|EP5HNGSXFA]] of two strings is the number of $1$s in their exclusive or.
+In [[Nim|HYQPVQF509]], a position is lost for the player to move exactly when the bitwise exclusive or of the heap sizes is $0$.
+The power set of a set, with [[symmetric difference|0ME21QN125]] as addition and intersection as multiplication, is a Boolean ring.
+Over $\mathrm{GF}(2)$ every [[Boolean function|0X05GS525E]] has a unique expression as an exclusive or of conjunctions of variables.
+In complexity theory, [[parity is not in AC0|W6T7X0QCFH]]: circuits of bounded depth and polynomial size cannot compute it.
