@@ -90,7 +90,7 @@ Choose a pair with the least distance from $P$ to $L$, and let $F$ be the foot o
 If $L$ held three points of $S$, two of them, $A$ and $B$, would lie on one side of $F$, with $A$ between $F$ and $B$ or $A = F$.
 Put $L$ on the $x$-axis with $P = (0, h)$, $A = (a, 0)$ and $B = (b, 0)$, where $0 \le a < b$.
 The distance from $A$ to the line $PB$ is
-$$\frac{h(b - a)}{\sqrt{h^2 + b^2}} < \frac{h b}{\sqrt{h^2 + b^2}} < h,$$
+$$\frac{h(b - a)}{\sqrt{h^2 + b^2}} \le \frac{h b}{\sqrt{h^2 + b^2}} < h,$$
 so the pair $(A, PB)$ beats $(P, L)$, a contradiction.
 Check: with $h = 1$, $a = 0$ and $b = 1$, the distance is $1/\sqrt{2} \approx 0.71 < 1$.
 
