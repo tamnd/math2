@@ -16,43 +16,48 @@ sources:
 
 ## Example
 
-A student wants to prove $x^2 \ge x$ for all real $x \neq 0$ and argues as follows.
-Step A: "Scaling changes nothing, so we may assume $\lvert x \rvert = 1$."
-Step B: "For $x = 1$ the claim is $1 \ge 1$, and for $x = -1$ it is $1 \ge -1$."
-We show that the claim is false, and we find the step where the [[reduction to a special case|DX2H7AD66G]] breaks.
+A student wants to prove $x^2 \ge x$ for every real $x \neq 0$ and argues in two steps.
+First: "scaling changes nothing, so we may assume $\lvert x \rvert = 1$".
+Second: "for $x = 1$ the claim is $1 \ge 1$, and for $x = -1$ it is $1 \ge -1$".
+The claim is false, and we find where the [[reduction to a special case|DX2H7AD66G]] breaks.
 
-1. At $x = \tfrac12$ we have $x^2 = \tfrac14$ and $x = \tfrac12$. Since $\tfrac14 < \tfrac12$, the claim fails.
-2. The special case is correct: for $\lvert x \rvert = 1$, the claim holds.
-3. The reduction needs a scaling $x \mapsto sx$ with $s > 0$ that preserves the statement. Under this scaling, the left side becomes $s^2 x^2$ and the right side becomes $s x$.
-4. So the scaled claim is $s^2 x^2 \ge s x$, that is, $s x^2 \ge x$ after division by $s > 0$. This is a different inequality from $x^2 \ge x$ when $s \neq 1$.
-5. For $x = \tfrac12$, the scaling with $s = 2$ moves $x$ to $1$. The true claim $1^2 \ge 1$ at the new point corresponds to $2 \cdot \tfrac14 \ge \tfrac12$ at the old point, not to $\tfrac14 \ge \tfrac12$.
-6. So step A is false: the two sides are not [[homogeneous|2C3PAQ7H50]] of the same degree. The left side has degree $2$ and the right side has degree $1$.
+1. At $x = \tfrac12$, $x^2 = \tfrac14 < \tfrac12$, so the claim fails.
+2. The special case is correct: for $\lvert x \rvert = 1$ the claim holds.
+3. The reduction needs a scaling $x \mapsto sx$, $s > 0$, that preserves the statement.
+   Under it the left side becomes $s^2 x^2$ and the right side $s x$.
+4. So the scaled claim is $s x^2 \ge x$ after division by $s$, a different inequality when $s \neq 1$.
+5. The scaling with $s = 2$ moves $\tfrac12$ to $1$, and the true $1^2 \ge 1$ there corresponds to $2 \cdot \tfrac14 \ge \tfrac12$ at the old point, not to $\tfrac14 \ge \tfrac12$.
+6. So the first step is false: the two sides are not [[homogeneous|2C3PAQ7H50]] of the same degree, since the left has degree $2$ and the right degree $1$.
 
 ## Remarks
 
-1. The correct statement is $x^2 \ge x$ exactly when $x \le 0$ or $x \ge 1$, since $x^2 - x = x (x - 1)$. The claim fails exactly on the interval $0 < x < 1$.
-2. The reduction does apply to $x^2 \ge 0$, whose two sides are homogeneous of degree $2$, with the convention that $0$ has every degree.
-3. The general test is: replace each variable $x$ by $sx$ and check that both sides acquire the same factor $s^d$. Here they acquire $s^2$ and $s$.
-4. An inhomogeneous statement can sometimes be made homogeneous by a new variable. For example, $x^2 \ge x$ becomes $x^2 \ge x y$ with $y = 1$, and the homogeneous claim $x^2 \ge x y$ is false for $x = 1$, $y = 2$, which corresponds to $x = \tfrac12$ after scaling by $s = \tfrac12$.
+The correct statement comes from $x^2 - x = x(x - 1)$: $x^2 \ge x$ exactly when $x \le 0$ or $x \ge 1$, and it fails exactly on $0 < x < 1$.
+The general test replaces each variable $x$ by $sx$ and checks that both sides gain the same factor $s^d$; here they gain $s^2$ and $s$.
+The reduction does apply to $x^2 \ge 0$, where $0$ counts as homogeneous of every degree.
+
+A new variable can make an inhomogeneous statement homogeneous.
+Here $x^2 \ge x$ becomes $x^2 \ge xy$ at $y = 1$.
+The homogeneous claim fails at $x = 1$, $y = 2$, and scaling by $\tfrac12$ moves that point to $x = \tfrac12$, $y = 1$, the original counterexample.
 
 ## Explanations
 
 ### L1 human
 
 The square of a number is not always at least the number.
-For example, half squared is a quarter, and a quarter is less than a half.
-For $1$ and $-1$ the claim is true, but these two numbers do not represent all numbers here.
-Making a number twice as large makes its square four times as large, so the two sides change by different factors.
-So a check at size $1$ says nothing about other sizes.
+Half squared is a quarter, and a quarter is less than a half.
+For $1$ and $-1$ the claim is true, but these two numbers do not stand for all numbers here.
+Doubling a number makes its square four times as large, so the two sides change by different factors.
+A check at size $1$ therefore says nothing about other sizes.
 
 ### L2 human
 
-We compare with $x^2 + 1 \ge 2x$, a statement that becomes homogeneous after a new variable is added.
+We compare with $x^2 + 1 \ge 2x$, which becomes homogeneous after a new variable is added.
 
-1. This statement is not homogeneous either: the degrees are $2$, $0$ and $1$. So the reduction to $\lvert x \rvert = 1$ is not valid for it.
+1. This statement is not homogeneous either, with degrees $2$, $0$ and $1$, so the reduction to $\lvert x \rvert = 1$ is not valid for it.
 2. The statement is still true, since $x^2 + 1 - 2x = (x - 1)^2 \ge 0$.
-3. Its homogeneous form $x^2 + y^2 \ge 2xy$ can be reduced to $y = 1$ for $y \neq 0$, since $s^2 > 0$ for each $s \neq 0$. The reduced claim is $t^2 + 1 \ge 2t$, which is the original statement.
-4. So for this statement the special case $y = 1$ is the whole problem, and the case $\lvert x \rvert = 1$ is not.
+3. Its homogeneous form $x^2 + y^2 \ge 2xy$ can be reduced to $y = 1$ for $y \neq 0$, since every term gains the factor $s^2 > 0$.
+   The reduced claim $t^2 + 1 \ge 2t$ is the original statement.
+4. So for this statement the special case $y = 1$ is the whole problem, while $\lvert x \rvert = 1$ is not.
 
-The typical use of this example is a test before a scaling step: compare the degrees of all terms.
-A trap is to check the special case with care and to skip the check that the transformation preserves the statement.
+Before any scaling step, compare the degrees of all the terms.
+Watch out: checking the special case with care does not replace the check that the transformation preserves the statement.

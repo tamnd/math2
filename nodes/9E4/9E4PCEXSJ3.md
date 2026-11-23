@@ -16,40 +16,42 @@ sources:
 
 Let $f(x) = \frac1x$ on the domain $D = \mathbb{R} \setminus \{0\}$.
 We prove $\lim_{x \to 3} \frac1x = \frac13$ by an [[epsilon-delta proof|RXG5JTZ2PZ]].
-Here the second factor must be bounded from below, not from above.
+The new feature is that the troublesome factor needs a bound from below, not from above.
 
-Scratch work:
+The scratch work starts from the goal.
+Over a common denominator, $\left\lvert \frac1x - \frac13 \right\rvert = \frac{\lvert x - 3 \rvert}{3 \lvert x \rvert}$.
+The factor $\frac{1}{3\lvert x \rvert}$ is large when $x$ is near $0$, so we keep $x$ away from $0$.
+If $\lvert x - 3 \rvert < 1$, then $2 < x < 4$, so $3\lvert x \rvert > 6$.
+Then the difference is less than $\frac{\lvert x - 3 \rvert}{6}$, which is at most $\varepsilon$ when $\lvert x - 3 \rvert \le 6\varepsilon$.
 
-1. We compute $\left\lvert \frac1x - \frac13 \right\rvert = \left\lvert \frac{3 - x}{3x} \right\rvert = \frac{\lvert x - 3 \rvert}{3 \lvert x \rvert}$.
-2. The factor $\frac{1}{3\lvert x \rvert}$ is large when $x$ is near $0$, so we keep $x$ away from $0$.
-3. If $\lvert x - 3 \rvert < 1$, then $2 < x < 4$, so $\lvert x \rvert > 2$ and $3\lvert x \rvert > 6$.
-4. Then $\frac{\lvert x - 3 \rvert}{3 \lvert x \rvert} < \frac{\lvert x - 3 \rvert}{6}$, and this is at most $\varepsilon$ when $\lvert x - 3 \rvert \le 6\varepsilon$.
+The proof runs forward.
 
-The proof:
-
-1. Let $\varepsilon > 0$. Define $\delta = \min(1, 6\varepsilon)$. Then $\delta > 0$.
+1. Let $\varepsilon > 0$ and define $\delta = \min(1, 6\varepsilon)$, which is positive.
 2. Let $x \in D$ with $0 < \lvert x - 3 \rvert < \delta$.
-3. Since $\delta \le 1$, we have $2 < x < 4$. So $x > 2 > 0$ and $3 \lvert x \rvert = 3x > 6$.
-4. By the computation of scratch step 1, $\left\lvert \frac1x - \frac13 \right\rvert = \frac{\lvert x - 3 \rvert}{3x}$.
-5. Since $3x > 6$, this is less than $\frac{\lvert x - 3 \rvert}{6}$. Since $\delta \le 6\varepsilon$, we have $\lvert x - 3 \rvert < 6\varepsilon$.
-6. So $\left\lvert \frac1x - \frac13 \right\rvert < \frac{6\varepsilon}{6} = \varepsilon$.
-7. Since $\varepsilon > 0$ was arbitrary, $\lim_{x \to 3} \frac1x = \frac13$.
+3. Since $\delta \le 1$, we have $2 < x < 4$, so $x > 0$ and $3 \lvert x \rvert = 3x > 6$.
+4. So $\left\lvert \frac1x - \frac13 \right\rvert = \frac{\lvert x - 3 \rvert}{3x} < \frac{\lvert x - 3 \rvert}{6}$.
+5. Since $\delta \le 6\varepsilon$, we have $\lvert x - 3 \rvert < 6\varepsilon$, so the difference is less than $\frac{6\varepsilon}{6} = \varepsilon$.
+6. Since $\varepsilon > 0$ was arbitrary, $\lim_{x \to 3} \frac1x = \frac13$.
 
-A check with numbers: for $\varepsilon = 0.1$ the proof gives $\delta = \min(1, 0.6) = 0.6$.
-For $x = 2.5$ we get $\left\lvert \frac{1}{2.5} - \frac13 \right\rvert = \left\lvert 0.4 - 0.\overline{3} \right\rvert = \frac{1}{15} \approx 0.067 < 0.1$.
+Check: for $\varepsilon = 0.1$ the proof gives $\delta = \min(1, 0.6) = 0.6$, and $x = 2.5$ gives $\left\lvert 0.4 - \frac13 \right\rvert = \frac{1}{15} \approx 0.067 < 0.1$.
 
 ## Remarks
 
-1. Step 3 of the proof is where the restriction $\delta \le 1$ is used. Without it, $x$ could be close to $0$, and no bound of the form $\frac{1}{3\lvert x \rvert} < M$ would hold.
-2. The restriction must keep $x$ away from the bad point $0$. A restriction $\delta \le 3$ fails, because then $x$ can be any number in $(0, 6)$, and $\frac{1}{3x}$ is unbounded on that interval.
-3. The same proof works at each point $a > 0$ with the restriction $\delta \le a/2$. Then $x > a/2$, and $\delta = \min(a/2, a^2 \varepsilon/2)$ works.
-4. The value of $\delta$ in remark 3 tends to $0$ as $a \to 0$. This reflects that $\frac1x$ is not uniformly continuous on $(0, \infty)$.
+Step 3 is where the restriction $\delta \le 1$ does its work.
+Without it, $x$ could come close to $0$, and no bound $\frac{1}{3\lvert x \rvert} < M$ would hold.
+The restriction must keep $x$ away from the bad point: $\delta \le 3$ fails, because then $x$ can be any number in $(0, 6)$ other than $3$, and $\frac{1}{3x}$ is unbounded there.
+
+The same proof works at each point $a > 0$.
+Restrict to $\delta \le a/2$, so that $x > a/2$ and
+$$\left\lvert \frac1x - \frac1a \right\rvert = \frac{\lvert x - a \rvert}{a x} < \frac{2 \lvert x - a \rvert}{a^2}.$$
+So $\delta = \min(a/2, a^2 \varepsilon/2)$ works.
+This $\delta$ tends to $0$ as $a \to 0$, which reflects that $\frac1x$ is not uniformly continuous on $(0, \infty)$.
 
 ## Explanations
 
 ### L1 human
 
-The fraction $\frac1x$ is close to $\frac13$ when $x$ is close to $3$, but we must keep $x$ away from $0$, where $\frac1x$ becomes huge.
+The fraction $\frac1x$ is close to $\frac13$ when $x$ is close to $3$, but $x$ must stay away from $0$, where $\frac1x$ becomes huge.
 If $x$ is between $2$ and $4$, the difference $\frac1x - \frac13$ is at most one sixth of the distance from $x$ to $3$.
 So to get within $0.1$ of $\frac13$, it is enough that $x$ is within $0.6$ of $3$.
 For $x = 2.5$, the value $\frac{1}{2.5} = 0.4$ differs from $\frac13$ by about $0.067$.
@@ -60,8 +62,8 @@ We use the same idea for $\lim_{x \to 1} \frac{x}{x + 1} = \frac12$, on the doma
 
 1. Scratch work: $\left\lvert \frac{x}{x + 1} - \frac12 \right\rvert = \frac{\lvert 2x - (x + 1) \rvert}{2 \lvert x + 1 \rvert} = \frac{\lvert x - 1 \rvert}{2 \lvert x + 1 \rvert}$.
 2. If $\lvert x - 1 \rvert < 1$, then $0 < x < 2$, so $x + 1 > 1$ and $2 \lvert x + 1 \rvert > 2$.
-3. Proof: let $\varepsilon > 0$ and $\delta = \min(1, 2\varepsilon)$. Let $0 < \lvert x - 1 \rvert < \delta$.
+3. Proof: let $\varepsilon > 0$ and $\delta = \min(1, 2\varepsilon)$, and let $0 < \lvert x - 1 \rvert < \delta$.
 4. By step 2, $\left\lvert \frac{x}{x + 1} - \frac12 \right\rvert < \frac{\lvert x - 1 \rvert}{2} < \frac{2\varepsilon}{2} = \varepsilon$.
 
-The typical use of a lower bound for a denominator is the limit of a quotient, and the proof of the limit law for quotients.
-A trap is to bound the denominator on an interval that contains its zero: the bound must come from an interval on which the denominator stays away from $0$.
+A lower bound for a denominator is the core of every limit of a quotient, including the proof of the limit law for quotients.
+Watch out: the interval must keep the denominator away from $0$, so it cannot contain the zero of the denominator.
