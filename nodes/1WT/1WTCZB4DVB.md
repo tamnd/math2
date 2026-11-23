@@ -18,26 +18,26 @@ sources:
 
 ## Definition
 
-Satisfaction is the relation between a structure, a formula and an assignment of values to the variables that says when the formula holds.
+Satisfaction says when a formula holds in a structure under an assignment to its variables.
 
 Let $L$ be a signature, and let $\mathcal{M}$ be an $L$-[[structure|983GZBQYT4]] with domain $M$.
-A variable assignment in $\mathcal{M}$ is a [[function|0EPAT51DXQ]] $s$ from the set of all variables to $M$.
+An assignment in $\mathcal{M}$ is a [[function|0EPAT51DXQ]] $s$ from the variables to $M$.
 For a variable $x$ and an element $a \in M$, the $x$-variant $s[x \mapsto a]$ sends $x$ to $a$ and each variable $y \neq x$ to $s(y)$.
 
-The value $t^{\mathcal{M}}[s] \in M$ of a [[term|6D3WA7N2W4]] $t$ is defined by recursion on $t$: $x^{\mathcal{M}}[s] = s(x)$ for a variable $x$, $c^{\mathcal{M}}[s] = c^{\mathcal{M}}$ for a constant symbol $c$, and
+The value $t^{\mathcal{M}}[s] \in M$ of a [[term|6D3WA7N2W4]] $t$ is given by recursion: $x^{\mathcal{M}}[s] = s(x)$ for a variable $x$, $c^{\mathcal{M}}[s] = c^{\mathcal{M}}$ for a constant $c$, and
 $$f(t_1, \ldots, t_n)^{\mathcal{M}}[s] = f^{\mathcal{M}}(t_1^{\mathcal{M}}[s], \ldots, t_n^{\mathcal{M}}[s]).$$
 
 The relation $\mathcal{M} \models \varphi[s]$ is defined by recursion on the [[formula|HYJ10AF6RT]] $\varphi$.
 
-1. $\mathcal{M} \models (t_1 = t_2)[s]$ if and only if $t_1^{\mathcal{M}}[s] = t_2^{\mathcal{M}}[s]$.
-2. For an $n$-ary relation symbol $R$, $\mathcal{M} \models R(t_1, \ldots, t_n)[s]$ if and only if $(t_1^{\mathcal{M}}[s], \ldots, t_n^{\mathcal{M}}[s]) \in R^{\mathcal{M}}$.
-3. $\mathcal{M} \models \neg \varphi[s]$ if and only if $\mathcal{M} \not\models \varphi[s]$.
-4. $\mathcal{M} \models (\varphi \wedge \psi)[s]$ if and only if $\mathcal{M} \models \varphi[s]$ and $\mathcal{M} \models \psi[s]$.
-5. $\mathcal{M} \models (\varphi \vee \psi)[s]$ if and only if $\mathcal{M} \models \varphi[s]$ or $\mathcal{M} \models \psi[s]$.
-6. $\mathcal{M} \models (\varphi \to \psi)[s]$ if and only if $\mathcal{M} \not\models \varphi[s]$ or $\mathcal{M} \models \psi[s]$.
-7. $\mathcal{M} \models (\varphi \leftrightarrow \psi)[s]$ if and only if $s$ satisfies both $\varphi$ and $\psi$ in $\mathcal{M}$, or neither of them.
-8. $\mathcal{M} \models \forall x \, \varphi[s]$ if and only if $\mathcal{M} \models \varphi[s[x \mapsto a]]$ for every $a \in M$.
-9. $\mathcal{M} \models \exists x \, \varphi[s]$ if and only if $\mathcal{M} \models \varphi[s[x \mapsto a]]$ for some $a \in M$.
+1. $\mathcal{M} \models (t_1 = t_2)[s]$ exactly when $t_1^{\mathcal{M}}[s] = t_2^{\mathcal{M}}[s]$.
+2. For an $n$-ary relation symbol $R$, $\mathcal{M} \models R(t_1, \ldots, t_n)[s]$ exactly when $(t_1^{\mathcal{M}}[s], \ldots, t_n^{\mathcal{M}}[s]) \in R^{\mathcal{M}}$.
+3. $\mathcal{M} \models \neg \varphi[s]$ exactly when $\mathcal{M} \not\models \varphi[s]$.
+4. $\mathcal{M} \models (\varphi \wedge \psi)[s]$ exactly when $\mathcal{M} \models \varphi[s]$ and $\mathcal{M} \models \psi[s]$.
+5. $\mathcal{M} \models (\varphi \vee \psi)[s]$ exactly when $\mathcal{M} \models \varphi[s]$ or $\mathcal{M} \models \psi[s]$.
+6. $\mathcal{M} \models (\varphi \to \psi)[s]$ exactly when $\mathcal{M} \not\models \varphi[s]$ or $\mathcal{M} \models \psi[s]$.
+7. $\mathcal{M} \models (\varphi \leftrightarrow \psi)[s]$ exactly when $s$ satisfies both or neither of $\varphi$ and $\psi$.
+8. $\mathcal{M} \models \forall x \, \varphi[s]$ exactly when $\mathcal{M} \models \varphi[s[x \mapsto a]]$ for every $a \in M$.
+9. $\mathcal{M} \models \exists x \, \varphi[s]$ exactly when $\mathcal{M} \models \varphi[s[x \mapsto a]]$ for some $a \in M$.
 
 ## Notation
 
