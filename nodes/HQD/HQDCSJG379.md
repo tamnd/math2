@@ -38,7 +38,7 @@ It is the standard answer of mathematics departments, especially in the United S
 School mathematics and first-year calculus ask students mostly to compute.
 Later courses, such as real analysis and abstract algebra, ask students to prove theorems from definitions.
 Many students who did well in the first kind of course struggle in the second.
-Robert C. Moore (1994) followed students through a transition course and found that their difficulties lay with definitions, notation and getting started, not with the content.
+Robert Moore (1994) followed students through a transition course and found that their difficulties lay with definitions, notation and getting started, not with the content.
 A transition course isolates those skills and teaches them on simple content, so that later courses can spend their time on their own content.
 
 ## Notation

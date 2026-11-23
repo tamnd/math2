@@ -84,7 +84,7 @@ Many of them chose empirical arguments as the ones closest to their own approach
 
 Harel and Sowder published the framework in 1998.
 In their chapter in the *Second Handbook of Research on Mathematics Teaching and Learning* (2007), they renamed the analytic class as the deductive class.
-Nicolas Balacheff (1988) had earlier described a related ladder of student arguments: naive empiricism, the crucial experiment, the generic example and the thought experiment.
+Nicolas Balacheff (1988) had earlier described a related ladder of student arguments: naive empiricism, the test of one case chosen to be hard, the generic example and the thought experiment.
 
 ### Watch out
 
