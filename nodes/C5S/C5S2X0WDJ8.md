@@ -53,7 +53,7 @@ Tall and Vinner used five terms, and later research keeps them.
 ### Four images and where they fail
 
 [[The function as a formula|E2MPB6KK9V]] is the image of the opening story, built from school examples, and it rejects or doubts functions defined by cases.
-[[The tangent line as a line that touches once|2PVD1J6J0G]] is built from circles, and it fails for the curve $y = x^3$, which crosses its tangent at $0$.
+[[The tangent line as a line that touches once|2PVD1J6J0G]] is built from circles, and it fails for the curve $y = x^3$, whose tangent at $x = 1$ meets the curve again at $x = -2$.
 
 For the [[limit of a sequence|05M5SWSZZD]], many students picture a value that the terms approach but never reach.
 The image fails for the constant sequence $a_n = 1$, whose limit is $1$ and whose terms all equal $1$.

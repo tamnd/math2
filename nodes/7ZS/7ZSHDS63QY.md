@@ -83,7 +83,7 @@ He described how the format arose as a way to make proof teachable to all studen
 [[Two-column proof|P8PCGFASP8]] treats the format itself.
 
 Lulu Healy and Celia Hoyles (2000) surveyed high-attaining students of age 14 to 15 in England and Wales on proof in algebra.
-The students were better at choosing correct arguments than at constructing their own, which shows a gap between the intended and the attained curriculum.
+The students were better at choosing correct arguments than at constructing their own, which suggests a gap between the intended and the attained curriculum.
 Andreas Stylianides (2007) proposed a definition of proof for school classrooms that takes account of what the class knows, as [[reasoning and proof in the classroom|E77B813MT4]] describes.
 
 ### History
