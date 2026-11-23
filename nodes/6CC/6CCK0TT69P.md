@@ -17,61 +17,94 @@ sources:
 
 ## Summary
 
+Friedman's A-translation takes an intuitionistic proof that "a counterexample is impossible" and turns it into a proof that names an actual witness.
+It does this by replacing falsity $\bot$, everywhere in the proof, by the very statement we want to prove.
+
 Let $A$ be a formula of a first-order language with $\bot$.
-For a formula $B$ whose bound variables are not free in $A$, the *A-translation* $B^A$ is the formula obtained from $B$ by replacing each atomic subformula $P$, including $\bot$, by $P \vee A$.
-Its main property: if [[Heyting arithmetic|RXHJPVMPJH]] proves $B$, then HA proves $B^A$, for every formula $A$.
-Applied after the [[double-negation translation|HGJVM49PA4]], it turns a classical proof of $\exists y\, \varphi$ into an intuitionistic one, so it extracts witnesses from classical proofs.
+For a formula $B$ whose bound variables are not free in $A$, the *A-translation* $B^A$ is obtained from $B$ by replacing each atomic subformula $P$, including $\bot$, by $P \vee A$.
+Its main property is that if [[Heyting arithmetic|RXHJPVMPJH]] proves $B$, then HA proves $B^A$, for every formula $A$.
+After the [[double-negation translation|HGJVM49PA4]], this turns a classical proof of a $\Pi^0_2$ sentence into an intuitionistic one.
 
 ## Motivation
 
-The negative translation turns a proof of $\exists y\, \varphi(x, y)$ in [[Peano arithmetic|0QFT7Z76N5]] into a proof of $\neg \neg \exists y\, \varphi(x, y)$ in HA.
-The double negation cannot be removed by a general rule of [[intuitionistic logic|Q11N8X99FK]].
-But the derivation of $\neg \neg \exists y\, \varphi$ is uniform in the formula $\bot$: it never uses a property of $\bot$ except ex falso.
-Replacing $\bot$ by the goal $\exists y\, \varphi$ itself turns $(\exists y\, \varphi \to \bot) \to \bot$ into $(\exists y\, \varphi \to \exists y\, \varphi) \to \exists y\, \varphi$.
-The premise of this formula is provable, so its conclusion is.
-The A-translation makes this replacement work in every derivation, with atoms included to keep ex falso sound.
+Take the $\Pi^0_2$ sentence $\forall x\, \exists y\, (x < y)$ and suppose we only know that [[Peano arithmetic|0QFT7Z76N5]] proves it.
+The negative translation gives HA a proof of
+$$\neg \forall y\, \neg (x < y), \quad \text{that is,} \quad \forall y\, (x < y \to \bot) \to \bot.$$
+This names no $y$, and [[intuitionistic logic|Q11N8X99FK]] has no general rule that removes the double negation.
+
+Friedman's idea is to choose $A = \exists y\, (x < y)$, the goal itself, and replace $\bot$ by it.
+With the atoms also weakened to $P \vee A$, HA proves the translated formula
+$$\forall y\, (x < y \vee A \to \bot \vee A) \to \bot \vee A.$$
+The premise is provable, since either disjunct of $x < y \vee A$ gives $A$, so HA proves $\bot \vee A$, and that gives $A$.
+The double negation is gone.
+
+The method is the shortest route to the [[Pi-0-2 conservativity of PA over HA|PY679V9MVR]], and it is a basic tool of program extraction from classical proofs.
 
 ## Notation
 
-We write $B^A$; the letter $A$ in the name refers to the formula $A$ that is added to the atoms.
-The translation is also called the Friedman translation, or the Friedman-Dragalin translation.
-We write $\vdash_i$ for derivability in intuitionistic [[natural deduction|PAQ4ZX2TX1]] NJ.
+We write $B^A$, where the letter $A$ refers to the formula added to the atoms.
+Books also say *Friedman translation*, *Friedman-Dragalin translation* or *$A$-translation*, and some write $B_A$.
+We write $\vdash_i$ for intuitionistic [[natural deduction|PAQ4ZX2TX1]] NJ.
+Watch the bound variables: $B^A$ is defined only after renaming the bound variables of $B$ away from the free variables of $A$.
 
 ## Remarks
 
-### Examples
+### How the clauses read
 
-- For an equation $s = t$, $(s = t)^A = (s = t \vee A)$, and $\bot^A = \bot \vee A$, which is equivalent to $A$.
-- For a negation, $(\neg B)^A = B^A \to \bot \vee A$, so the translation reads $\neg B$ as "$B$ implies $A$".
-- [[Markov's rule for HA|Z22K35X95F]]: if HA proves $\neg \neg \exists y\, \varphi(x, y)$ with $\varphi$ quantifier-free, then HA proves $\exists y\, \varphi(x, y)$. The proof takes $A = \exists y\, \varphi(x, y)$.
-- [[A witness from an infinite descent argument|KE1C94RNF3]]: the classical proof that no sequence of natural numbers decreases forever gives, after A-translation, an index $y \le f(0)$ with $f(y) \le f(y + 1)$.
-- [[The conservativity of PA over HA for Pi-0-2 sentences|PY679V9MVR]] is the main application.
+For an equation, $(s = t)^A$ is $s = t \vee A$, and $\bot^A$ is $\bot \vee A$, which is equivalent to $A$.
+The connectives and quantifiers are kept, so a negation $\neg B = B \to \bot$ becomes $B^A \to \bot \vee A$, that is, "$B$ implies $A$".
+So the translated proof reads every refutation of $B$ as a reduction of $A$ to $B$.
+For a quantifier-free $\varphi$, HA proves $\varphi^A \leftrightarrow \varphi \vee A$, because $\varphi$ is decidable.
 
-### Non-examples
+### Two worked uses
 
-- [[Replacing only falsity by A|K9KMSBSAKK]]: the map that replaces $\bot$ by $A$ and keeps the other atoms. The condition that fails: ex falso $\bot \to P$ becomes $A \to P$, which HA does not prove for $A = (0 = 0)$ and $P = (0 = 1)$.
-- Replacing each atom $P$ by $P \wedge A$. The condition that fails: HA proves $0 = 0$, but not $0 = 0 \wedge A$ for $A = (0 = 1)$.
-- The A-translation of PA proofs without the negative translation first. The condition that fails: for $A = \bot$, $(P \vee \neg P)^A$ is equivalent to $P \vee \neg P$, which HA does not prove for $P = \exists y\, T(x, x, y)$.
+[[Markov's rule|Z22K35X95F]] is the simplest use.
+If HA proves $\neg \neg \exists y\, \varphi(x, y)$ with $\varphi$ quantifier-free, take $A = \exists y\, \varphi(x, y)$.
+The argument of the Motivation then gives an HA proof of $\exists y\, \varphi(x, y)$.
 
-### Basic properties
+A more instructive use is [[infinite descent|KE1C94RNF3]].
+Classically, no function $f : \mathbb{N} \to \mathbb{N}$ decreases forever, so some $y$ has $f(y) \le f(y + 1)$.
+The A-translation of the proof by contradiction is a search through $0, 1, \dots, f(0)$, and it gives the bound $y \le f(0)$ for free.
 
-- If $\mathsf{HA} \vdash B$, then $\mathsf{HA} \vdash B^A$. This is Lemma F2 and Lemma F3 of the [[proof of conservativity|ANXVZG97MG]].
-- Ex falso for the translation: $\vdash_i A \to B^A$ for every formula $B$.
-- For quantifier-free $\varphi$ in HA, $\mathsf{HA} \vdash \varphi^A \leftrightarrow \varphi \vee A$, because $\varphi$ is decidable.
-- The translation commutes with the connectives and quantifiers, and with [[substitution|NCDZ969V7X]] of terms for variables not free in $A$.
-- The same property holds for HA in all finite types, with the same proof.
+### The rules you can use
+
+The main property, $\mathsf{HA} \vdash B$ implies $\mathsf{HA} \vdash B^A$, is proved in two parts in the [[proof of conservativity|ANXVZG97MG]].
+The logical rules are preserved because the translation commutes with the connectives, quantifiers and [[substitution|NCDZ969V7X]].
+Ex falso is preserved because $A \vdash_i B^A$ for every $B$: each atom of $B^A$ has the disjunct $A$.
+The axioms of HA are preserved because an induction axiom translates into an induction axiom.
+The same property holds for HA in all finite types and for intuitionistic second-order arithmetic.
+
+### What it is not
+
+[[Replacing only falsity by A|K9KMSBSAKK]] is not enough in intuitionistic logic.
+HA proves $\bot \to 0 = 1$, but with $A = (0 = 0)$ the map gives $0 = 0 \to 0 = 1$, which HA does not prove.
+Replacing each atom $P$ by $P \wedge A$ fails too.
+HA proves $0 = 0$, but not $0 = 0 \wedge A$ for $A = (0 = 1)$.
+
+### Watch out
+
+The A-translation acts on intuitionistic proofs, so the negative translation must come first.
+A classical theorem need not have a provable A-translation.
+With $A = \bot$, the translation of $P \vee \neg P$ is equivalent to $P \vee \neg P$ itself, and HA does not prove this for $P = \exists y\, T(x, x, y)$.
+
+The method also stops at $\Pi^0_2$.
+The goal $A$ must be an existential formula whose matrix is decidable, so that the premise of the translated formula is provable.
+For $\Pi^0_3$ sentences the conclusion is false, as the [[Pi-0-3 non-example|HVHEKG9FA5]] shows.
 
 ### History
 
 Harvey Friedman published the translation in 1978, and used it to show that PA and HA have the same provably recursive functions.
 Albert Dragalin found the same method independently.
-A refined version for minimal logic, in which only $\bot$ is replaced, was developed by Ulrich Berger, Wilfried Buchholz and Helmut Schwichtenberg for program extraction.
+A refined form for minimal logic, in which only $\bot$ is replaced, was later developed by Ulrich Berger, Wilfried Buchholz and Helmut Schwichtenberg for program extraction.
 
-### Common errors
+### Try it
 
-- To forget the atoms. Replacing only $\bot$ is sound in minimal logic, but not in intuitionistic logic with ex falso.
-- To let a bound variable of $B$ capture a free variable of $A$. The bound variables of $B$ must be renamed first.
-- To apply the method to $\Pi^0_3$ formulas. The [[non-example for Pi-0-3 sentences|HVHEKG9FA5]] shows that PA is not $\Pi^0_3$-conservative over HA.
+First, compute $(\neg (x = 0))^A$.
+It is $(x = 0 \vee A) \to (\bot \vee A)$, which HA proves equivalent to $x = 0 \to A$.
+
+Second, why must the bound variables of $B$ avoid the free variables of $A$?
+Take $A$ to be $y = 0$ and $B$ to be $\bot \to \forall y\, \bot$, which HA proves.
+Without renaming, $B^A$ is $(\bot \vee y = 0) \to \forall y\, (\bot \vee y = 0)$, which is equivalent to $y = 0 \to \forall y\, (y = 0)$ and is false for $y = 0$.
 
 ## Explanations
 
@@ -79,26 +112,23 @@ A refined version for minimal logic, in which only $\bot$ is replaced, was devel
 
 A classical proof of "there is a number $y$ with property $P$" may only show that "no such number" leads to a contradiction.
 Friedman's trick is to replace every "contradiction" in the proof by the goal itself, "there is such a number".
-The rewritten proof is still correct, and its conclusion now gives the goal.
+The rewritten proof is still correct, and its last line now states the goal.
 For example, a classical proof that a list of natural numbers cannot decrease forever becomes a search that finds the place where it stops decreasing.
 
 ### L2 human
 
-We use the translation to remove a double negation.
-
-1. Suppose HA proves $\neg \neg \exists y\, (y \cdot y = 4)$, that is, $(\exists y\, (y \cdot y = 4) \to \bot) \to \bot$.
-2. Let $A = \exists y\, (y \cdot y = 4)$. The A-translation of the formula is $(\exists y\, (y \cdot y = 4 \vee A) \to \bot \vee A) \to \bot \vee A$.
-3. HA proves it, by the main property.
-4. The premise holds: from $y \cdot y = 4 \vee A$ we get $A$ in both cases, and then $\bot \vee A$.
-5. So HA proves $\bot \vee A$, and ex falso in the first case gives $A$.
-
-The typical use is the extraction of witnesses and bounds from classical proofs of $\Pi^0_2$ sentences.
-A trap is to apply the translation directly to a classical proof; the negative translation must come first.
+We remove a double negation by hand.
+Suppose HA proves $\neg \neg \exists y\, (y \cdot y = 4)$, that is, $(\exists y\, (y \cdot y = 4) \to \bot) \to \bot$.
+Let $A = \exists y\, (y \cdot y = 4)$.
+The main property gives HA a proof of the translation:
+$$(\exists y\, (y \cdot y = 4 \vee A) \to \bot \vee A) \to \bot \vee A.$$
+The premise holds, since from $y \cdot y = 4 \vee A$ we get $A$ in both cases, and then $\bot \vee A$.
+So HA proves $\bot \vee A$, and ex falso in the first case gives $A$.
+This is the typical use: the negative translation produces a double negation, and the A-translation removes it for a decidable existential.
 
 ### L3 human
 
-The A-translation is a continuation-passing transformation with answer type $A$: the negative translation uses the answer type $\bot$, and Friedman's step changes the answer type.
-In algebraic terms, $p \mapsto p \vee a$ is a nucleus on a Heyting algebra, the closed nucleus of $a$, and the A-translation applies it to the atomic formulas.
-The method works for HA in all finite types and for intuitionistic second-order arithmetic.
-Together with the [[Dialectica interpretation|HZ17ES9PDY]] it shows that PA and HA have the same provably recursive functions, the functions definable in [[system T|A4WR995XZP]] at type 1.
-Its refined form for minimal logic is used in program extraction from classical proofs.
+The A-translation is a continuation-passing transform with answer type $A$: the negative translation uses the answer type $\bot$, and Friedman's step changes it.
+In algebraic terms, $p \mapsto p \vee a$ is a nucleus on a Heyting algebra, the closed nucleus of $a$, and the translation applies it to the atoms.
+Together with the [[Dialectica interpretation|HZ17ES9PDY]] it shows that PA and HA have the same provably recursive functions, the functions of type $\mathbb{N} \to \mathbb{N}$ definable in [[system T|A4WR995XZP]].
+The general pattern, a stronger theory that proves no new sentences of a given form, is the subject of [[conservation theorems|TNZ995J8AP]].

@@ -26,128 +26,159 @@ sources:
 
 ## Summary
 
-Let $S$ and $T$ be [[first-order theories|92SWXST1ZM]] in countable languages.
-An *interpretation* $I$ of $T$ in $S$ gives a [[formula|HYJ10AF6RT]] $\delta(x)$ of $S$, the domain, and for each symbol of $T$ a formula of $S$, with function symbols given by the formulas of their graphs.
-It translates each formula $A$ of $T$ into a formula $A^I$ of $S$: it replaces each symbol by its formula, keeps the connectives, and relativizes each quantifier to $\delta$.
+Set theory has no symbol for $0$ or for the successor, yet it can do arithmetic: read $0$ as the empty set, the successor of $x$ as $x \cup \{x\}$, and "number" as "element of $\omega$".
+Under this reading every axiom of Peano arithmetic becomes a theorem of ZF, and that is what it means for [[ZF to interpret PA|918F85S4NQ]].
+
+In general, let $S$ and $T$ be [[first-order theories|92SWXST1ZM]].
+An *interpretation* $I$ of $T$ in $S$ gives a domain [[formula|HYJ10AF6RT]] $\delta(x)$ of $S$ and a formula of $S$ for each symbol of $T$, with function symbols given by the formulas of their graphs.
+It translates each formula $A$ of $T$ into a formula $A^I$ of $S$: replace each symbol by its formula, keep the connectives, and relativize each quantifier to $\delta$.
 The conditions are that $S$ proves $\exists x \, \delta(x)$, that $S$ proves that each graph formula defines a total function on $\delta$, and that $S$ proves $\sigma^I$ for each axiom $\sigma$ of $T$.
-The theory $S$ *interprets* $T$, written $S \rhd T$, when such an interpretation exists; the full definition is on the page [[interpretability between theories (definition)|2BB5BMQKCJ]].
-Interpretability matters because it compares the strength of theories in different languages, and because it gives relative consistency proofs: an interpretation sends a contradiction of $T$ to a contradiction of $S$.
+Then $S$ *interprets* $T$, written $S \rhd T$; the [[formal definition|2BB5BMQKCJ]] gives the details.
+An interpretation sends a contradiction of $T$ to a contradiction of $S$, so $S \rhd T$ gives the consistency of $T$ from the consistency of $S$.
 
 ## Motivation
 
-Mathematicians often build one kind of object inside another kind.
+Mathematicians build one kind of object inside another all the time.
 The natural numbers are built as sets, the integers as pairs of natural numbers, and the hyperbolic plane inside the Euclidean plane.
-In each case the construction uses only definitions, and each axiom of the new objects becomes a theorem about the old ones.
-Interpretability is the precise form of this practice for first-order theories.
-It answers the question "how much of $T$ can be done in $S$?" without a choice of models and without the assumption that $S$ and $T$ share a language.
-It also gives the standard form of a [[relative consistency proof|X3G0RG2GPZ]]: if $S$ interprets $T$ by a computable translation, then $\mathrm{Con}(S) \to \mathrm{Con}(T)$ has a finitary proof.
+Each construction uses only definitions, and each axiom of the new objects becomes a theorem about the old ones.
+Interpretability is the exact form of this practice for first-order theories.
+
+It compares theories that need not share a language, and it does so without choosing models.
+It also gives the standard shape of a [[relative consistency proof|X3G0RG2GPZ]]: if $S$ interprets $T$, then a finitary argument turns a proof of $\bot$ in $T$ into a proof of $\bot$ in $S$.
+
+Interpretability returns in two places later on.
+For extensions of PA it is equivalent to a conservation property for $\Pi_1$ sentences, and so it sits next to the [[conservation theorems|TNZ995J8AP]].
+Its laws over PA are the subject of the interpretability logics in [[provability and interpretability logics|3E7M66WW6Q]].
 
 ## Notation
 
-We write $S \rhd T$, or $T \lhd S$, for "$S$ interprets $T$"; some books write $T \le S$ or $T \trianglelefteq S$.
-For a single interpretation $I$, we write $A^I$ or $A^\tau$ for the translation of $A$.
+We write $S \rhd T$, or $T \lhd S$, for "$S$ interprets $T$", and some books write $T \le S$ or $T \trianglelefteq S$.
+For one interpretation $I$, we write $A^I$ or $A^\tau$ for the translation of $A$.
 $\mathrm{Con}(T)$ is the arithmetic sentence "$T$ is consistent", built from a [[Gödel numbering|MFJXPAF0R0]] and a fixed recursive axiomatization of $T$.
-For a recursively axiomatized theory $T$, $T \upharpoonright n$ is the finite theory of the first $n$ axioms of $T$ in a fixed enumeration.
-$\Sigma_1$ and $\Pi_1$ are the classes of the [[arithmetical hierarchy|7CVJCQKY41]], and PA is [[Peano arithmetic|0QFT7Z76N5]].
-In interpretability logic, $p \rhd q$ is read "$\mathsf{PA} + q$ is interpretable in $\mathsf{PA} + p$".
+For such $T$, $T \upharpoonright n$ is the finite theory of the first $n$ axioms in a fixed enumeration.
+$\Sigma_1$ and $\Pi_1$ are classes of the [[arithmetical hierarchy|7CVJCQKY41]], and PA is [[Peano arithmetic|0QFT7Z76N5]].
+Watch the direction of the symbol: in $S \rhd T$ the theory $S$ at the wide end does the work.
 
 ## Remarks
 
-### Global and local interpretability
+### A first interpretation
 
-The relation $S \rhd T$ above is *global* interpretability: one translation works for all axioms of $T$.
-$T$ is *locally* interpretable in $S$ when each finite subtheory of $T$ is interpretable in $S$, possibly by a different translation for each subtheory.
-Global interpretability implies local interpretability, because the same translation works for each finite subtheory.
-Orey's compactness theorem gives the converse for strong theories.
-Let $S$ be a recursively axiomatized extension of PA in the language of PA, and let $T$ be recursively axiomatized.
-Then $T$ is interpretable in $S$ if and only if $T$ is locally interpretable in $S$.
+We check two axioms of PA under the reading of the Summary, arguing in ZF.
+The axiom $\forall x \, \lnot (S(x) = 0)$ translates to
+$$\forall x \, \bigl(x \in \omega \to x \cup \{x\} \ne \emptyset\bigr).$$
+This holds because $x \in x \cup \{x\}$, so $x \cup \{x\}$ has an element.
 
-### Interpretability and $\Pi_1$-conservativity
+An instance of induction for a formula $A$ translates to "if $A^I(\emptyset)$ and $A^I(x) \to A^I(x \cup \{x\})$ for all $x \in \omega$, then $A^I(n)$ for all $n \in \omega$".
+Separation gives the set $X = \{n \in \omega : A^I(n)\}$, the hypotheses say that $X$ contains $\emptyset$ and is closed under successor, and $\omega$ is the least such set, so $X = \omega$.
+Check: we used one instance of Separation for each formula $A$, which is exactly what a schema needs.
+The [[full verification|918F85S4NQ]] treats the other axioms and defines $+$ and $\cdot$ by recursion on $\omega$.
 
-For extensions of PA, interpretability has an arithmetic description, which we call the Orey-Hájek characterization.
-Let $S$ and $T$ be consistent [[recursively axiomatized|3ANXZC3BEG]] extensions of PA in the language of PA.
-Then the following three conditions are equivalent.
-
-1. $S \rhd T$.
-2. Every $\Pi_1$ sentence that $T$ proves is also provable in $S$.
-3. $S \vdash \mathrm{Con}(T \upharpoonright n)$ for every $n$.
-
-In particular, for a sentence $A$, $S \rhd S + A$ holds if and only if $S + A$ is $\Pi_1$-conservative over $S$, in the sense of [[conservative extension|N238J43XNE]].
-We use this characterization in the examples below and do not prove it here.
-
-### Weak interpretability and tolerance
-
-$T$ is *weakly interpretable* in $S$ when $T$ is interpretable in some [[consistent|VM8TQ70CVJ]] extension of $S$ in the language of $S$.
-Interpretability implies weak interpretability when $S$ is consistent, since $S$ is an extension of itself.
-For consistent recursively axiomatized extensions $S$ and $T$ of PA in the language of PA, the Orey-Hájek characterization gives: $T$ is weakly interpretable in $S$ if and only if $S$ together with all $\Pi_1$ theorems of $T$ is consistent.
-For the direction from left to right, a consistent extension $S'$ of $S$ that interprets $T$ proves every $\Pi_1$ theorem of $T$, by the implication from 1 to 2, which holds for every extension $S'$ of PA.
-For the converse, let $S'$ be $S$ together with the $\Pi_1$ theorems of $T$.
-It is consistent, it is recursively axiomatizable by [[Craig's theorem|6AN62NQ8AN]], and it interprets $T$ by the implication from 2 to 1.
-
-Japaridze generalized weak interpretability to *tolerance*.
-A finite sequence $T_1, \ldots, T_n$ of theories is *tolerant* when there are consistent extensions $S_1, \ldots, S_n$ of $T_1, \ldots, T_n$ such that $S_i \rhd S_{i+1}$ for each $i < n$.
-For two theories, $T_1, T_2$ is tolerant exactly when $T_2$ is weakly interpretable in $T_1$.
-Japaridze proved that, for PA and stronger recursively axiomatized theories, tolerance is equivalent to $\Pi_1$-consistency.
-
-### Cointerpretability
-
-Japaridze also introduced a relation dual to interpretability.
-$T$ is *cointerpretable* in $S$ when there is a translation $\tau$ of the language of $S$ into the language of $T$ such that $S \vdash A$ for every formula $A$ with $T \vdash A^\tau$.
-So an interpretation carries theorems forward, from $S$ to $T$ along $\tau$, and a cointerpretation carries them back.
-Japaridze proved that, for PA and stronger recursively axiomatized theories, cointerpretability is equivalent to $\Sigma_1$-conservativity, in the same way as interpretability is equivalent to $\Pi_1$-conservativity.
-
-### Orey sentences
-
-A sentence $\sigma$ is an *Orey sentence* for $T$ when $T \rhd T + \sigma$ and $T \rhd T + \lnot\sigma$.
-If $T$ is consistent, an Orey sentence is independent of $T$: both $T + \sigma$ and $T + \lnot\sigma$ are interpretable in $T$, so both are consistent.
-For a consistent recursively axiomatized extension $T$ of PA in the language of PA, no $\Pi_1$ sentence $\sigma$ is an Orey sentence.
-Indeed, $T \rhd T + \sigma$ makes $T + \sigma$ $\Pi_1$-conservative over $T$, so $T \vdash \sigma$, and then $T + \lnot\sigma$ is inconsistent and not interpretable in $T$.
-The same argument with $\lnot\sigma$ shows that no $\Sigma_1$ sentence is an Orey sentence for $T$.
-
-### Interpretability and consistency
+### Consistency, not truth
 
 If $S \rhd T$ and $S$ is consistent, then $T$ is consistent.
-The reason is that a derivation of $\bot$ in $T$ gives a derivation of $\bot^I = \bot$ in $S$, since an interpretation sends theorems to theorems.
-This is the form of most relative consistency proofs, for example the [[consistency of hyperbolic geometry relative to Euclidean geometry|PVW9DJASNJ]].
-Interpretations preserve consistency, but they do not preserve truth.
-Feferman proved that PA interprets $\mathsf{PA} + \lnot\mathrm{Con}(\mathsf{PA})$, a consistent theory that proves a false sentence.
+The reason is that the translation of a derivation of $\bot$ in $T$ is a derivation of $\bot^I = \bot$ in $S$, since an interpretation sends theorems to theorems.
+Most relative consistency proofs have this shape, for example the [[consistency of hyperbolic geometry relative to Euclidean geometry|PVW9DJASNJ]].
 
-### Examples
+An interpretation does not preserve truth.
+Feferman showed that [[PA interprets PA plus the inconsistency of PA|H34RWH89JJ]], a consistent theory whose new axiom $\lnot \mathrm{Con}(\mathsf{PA})$ is false.
+In the standard model the interpretation defines a non-standard model, in which a non-standard number plays the part of a proof of $0 = 1$.
 
-- [[ZF interprets PA|918F85S4NQ]]: the domain is the set $\omega$ of finite von Neumann ordinals, $0$ is $\emptyset$ and the successor of $x$ is $x \cup \{x\}$.
-- [[PA interprets PA plus the inconsistency of PA|H34RWH89JJ]]: the theory $\mathsf{PA} + \lnot\mathrm{Con}(\mathsf{PA})$ is $\Pi_1$-conservative over PA.
-- Euclidean plane geometry interprets hyperbolic plane geometry: the domain is the open unit disk, and the lines are the chords of the disk, as in the [[Beltrami-Klein model|PVW9DJASNJ]].
-- PA interprets ZF with the axiom of infinity replaced by its negation, the theory of hereditarily finite sets, by Ackermann's coding: $x \in y$ is read "the binary digit of $y$ at place $x$ is $1$". For example, $5 = 2^0 + 2^2$ codes the set $\{0, 2\}$.
-- ZF interprets ZFC together with the generalized continuum hypothesis: the domain is Gödel's constructible universe, as in the [[consistency proof of the axiom of choice|J3F0KBH6JT]].
-- Each theory $S$ interprets each theory $T$ in the same language whose axioms $S$ proves: take $\delta(x) := (x = x)$ and translate each symbol by itself.
+### Interpretability is not conservation
 
-### Non-examples
+The two notions answer different questions.
+$T$ is *conservative* over $S$ for a class of sentences when $T$ extends $S$ and proves no new sentences of that class, as in [[conservative extension|N238J43XNE]].
+An interpretation needs no common language and asks only that the axioms of $T$ be translated into theorems of $S$.
 
-- [[PA does not interpret PA plus the consistency of PA|NN7696NJR6]]: the sentence $\mathrm{Con}(\mathsf{PA})$ is $\Pi_1$, and PA does not prove it, so condition 2 of the Orey-Hájek characterization fails.
-- PA does not interpret ZF. ZF proves that $\omega$ with its operations is a model of PA, so the interpretation of PA in ZF also makes $\mathrm{Con}(\mathsf{PA})$ a theorem of ZF. So ZF interprets $\mathsf{PA} + \mathrm{Con}(\mathsf{PA})$, and $\mathsf{PA} \rhd \mathsf{ZF}$ would give $\mathsf{PA} \rhd \mathsf{PA} + \mathrm{Con}(\mathsf{PA})$ by transitivity.
-- A consistent theory does not interpret an inconsistent theory. For example, PA does not interpret $\mathsf{PA} + (0 = 1)$: the condition "$S \vdash \sigma^I$ for each axiom $\sigma$" fails for $\sigma = (0 = 1)$, as it would make PA inconsistent.
-- The theory $S$ of a set with exactly two elements does not interpret the theory $T$ of an infinite set. An interpretation would turn the two-element model of $S$ into a model of $T$ with at most two elements (at most $2^k$ for a domain of $k$-tuples), but every model of $T$ is infinite.
+For extensions of PA the two meet at one level, by the Orey-Hájek characterization.
+Let $S$ and $T$ be consistent [[recursively axiomatized|3ANXZC3BEG]] extensions of PA in the language of PA.
+Then three conditions are equivalent.
 
-### Basic properties
+1. $S \rhd T$.
+2. Every $\Pi_1$ sentence that $T$ proves is provable in $S$.
+3. $S \vdash \mathrm{Con}(T \upharpoonright n)$ for every $n$.
 
-- Interpretability is reflexive: the identity translation interprets $T$ in $T$.
-- Interpretability is transitive. If $I$ interprets $S$ in $R$ and $J$ interprets $T$ in $S$, then the composite has domain $\delta_I(x) \land \delta_J(x)^I$ and translates each symbol $P$ of $T$ by $(\varphi^J_P)^I$.
-- If $S \rhd T$ and $T \vdash \sigma$, then $S \vdash \sigma^I$; this lemma is proved on the [[definition page|2BB5BMQKCJ]].
-- If $S \rhd T$ and $S$ is consistent, then $T$ is consistent.
-- If $S$ is a recursively axiomatized extension of PA, $T$ is recursively axiomatized and $S \vdash \mathrm{Con}(T)$, then $S \rhd T$. This is a form of the arithmetized completeness theorem, which goes back to Hilbert and Bernays. The converse fails: PA interprets $\mathsf{PA} + \lnot\mathrm{Con}(\mathsf{PA})$, but PA does not prove its consistency, since that consistency implies $\mathrm{Con}(\mathsf{PA})$.
+So an interpretation of $T$ in $S$ gives $\Pi_1$-conservation and nothing more.
+For example, $\mathsf{PA} + \lnot \mathrm{Con}(\mathsf{PA})$ is interpretable in PA, and yet it proves the $\Sigma_1$ sentence $\lnot \mathrm{Con}(\mathsf{PA})$, which PA does not prove.
+In the other direction, $\mathsf{ACA}_0$ is conservative over PA for arithmetic sentences.
+That is a statement about all arithmetic theorems, which no interpretation alone can give, and the [[conservation theorems|TNZ995J8AP]] prove it by other means.
+
+### Global, local and weak interpretability
+
+The relation $S \rhd T$ is *global* interpretability: one translation works for all axioms of $T$.
+$T$ is *locally* interpretable in $S$ when each finite subtheory of $T$ is interpretable in $S$, possibly by a different translation for each one.
+Global implies local, since one translation serves every finite subtheory.
+Orey's compactness theorem gives the converse when $S$ is a recursively axiomatized extension of PA in the language of PA and $T$ is recursively axiomatized.
+
+$T$ is *weakly interpretable* in $S$ when $T$ is interpretable in some [[consistent|VM8TQ70CVJ]] extension of $S$ in the language of $S$.
+For consistent recursively axiomatized extensions of PA in the language of PA, this holds exactly when $S$ together with all $\Pi_1$ theorems of $T$ is consistent.
+From left to right, a consistent $S' \supseteq S$ with $S' \rhd T$ proves every $\Pi_1$ theorem of $T$, by the step from 1 to 2.
+From right to left, $S$ plus the $\Pi_1$ theorems of $T$ is consistent, recursively axiomatizable by [[Craig's theorem|6AN62NQ8AN]], and interprets $T$ by the step from 2 to 1.
+
+### Tolerance, cointerpretability and Orey sentences
+
+Japaridze extended weak interpretability to *tolerance* of finite sequences.
+A sequence $T_1, \dots, T_n$ is tolerant when some consistent extensions $S_1, \dots, S_n$ of $T_1, \dots, T_n$ have $S_i \rhd S_{i+1}$ for each $i < n$.
+For $n = 2$ this says that $T_2$ is weakly interpretable in $T_1$.
+He also introduced a dual relation: $T$ is *cointerpretable* in $S$ when a translation $\tau$ of the language of $S$ into that of $T$ has $S \vdash A$ whenever $T \vdash A^\tau$.
+For theories that contain PA it corresponds to $\Sigma_1$-conservativity, as interpretability corresponds to $\Pi_1$-conservativity.
+
+A sentence $\sigma$ is an *Orey sentence* for $T$ when $T \rhd T + \sigma$ and $T \rhd T + \lnot \sigma$.
+For consistent $T$ such a $\sigma$ is independent of $T$, since both extensions are then consistent.
+For a consistent recursively axiomatized extension $T$ of PA in the language of PA, no $\Pi_1$ sentence $\sigma$ is an Orey sentence.
+Indeed $T \rhd T + \sigma$ gives $T \vdash \sigma$ by $\Pi_1$-conservation, so $T + \lnot \sigma$ is inconsistent and not interpretable in $T$.
+The same argument with $\lnot \sigma$ excludes $\Sigma_1$ sentences.
+
+### More examples and non-examples
+
+Each construction below defines a domain and the symbols, and proves the translated axioms.
+Euclidean plane geometry interprets hyperbolic plane geometry, with the open unit disk as domain and its chords as lines, as in the [[Beltrami-Klein model|PVW9DJASNJ]].
+PA interprets ZF with the axiom of infinity replaced by its negation, by Ackermann's coding: $x \in y$ means that the binary digit of $y$ at place $x$ is $1$.
+For example $5 = 2^0 + 2^2$ codes the set $\{0, 2\}$.
+ZF interprets ZFC plus the generalized continuum hypothesis, with Gödel's constructible universe as domain, as in the [[consistency proof of the axiom of choice|J3F0KBH6JT]].
+
+On the other side, [[PA does not interpret PA plus the consistency of PA|NN7696NJR6]], because condition 2 above fails for the $\Pi_1$ sentence $\mathrm{Con}(\mathsf{PA})$.
+PA does not interpret ZF either.
+ZF proves that $\omega$ is a model of PA, so it proves the translation of $\mathrm{Con}(\mathsf{PA})$ and interprets $\mathsf{PA} + \mathrm{Con}(\mathsf{PA})$.
+So $\mathsf{PA} \rhd \mathsf{ZF}$ would give $\mathsf{PA} \rhd \mathsf{PA} + \mathrm{Con}(\mathsf{PA})$ by transitivity.
+Finally, the theory of a set with exactly two elements does not interpret the theory of an infinite set: a domain of $k$-tuples in a two-element model has at most $2^k$ elements.
+
+### The rules you can use
+
+Interpretability is reflexive, by the identity translation, and transitive.
+If $I$ interprets $S$ in $R$ and $J$ interprets $T$ in $S$, the composite has domain $\delta_I(x) \land \delta_J(x)^I$ and translates each symbol $P$ of $T$ by $(\varphi^J_P)^I$.
+If $S \rhd T$ by $I$ and $T \vdash \sigma$, then $S \vdash \sigma^I$; the [[formal definition|2BB5BMQKCJ]] proves this lemma.
+
+If $S$ is a recursively axiomatized extension of PA, $T$ is recursively axiomatized and $S \vdash \mathrm{Con}(T)$, then $S \rhd T$.
+This is the arithmetized completeness theorem, which goes back to Hilbert and Bernays.
+The converse fails: PA interprets $\mathsf{PA} + \lnot \mathrm{Con}(\mathsf{PA})$ but does not prove its consistency, since that consistency implies $\mathrm{Con}(\mathsf{PA})$.
+
+### Watch out
+
+The first slip is to read $S \rhd T$ the wrong way round.
+$S$ does the work, so $S$ is at least as strong as $T$ in consistency strength.
+
+The second slip is to treat an interpretation as a proof of truth or of conservation.
+PA interprets $\mathsf{PA} + \lnot \mathrm{Con}(\mathsf{PA})$, which is false in $\mathbb{N}$ and proves a $\Sigma_1$ sentence that PA does not prove.
+
+The third slip is to check the translated axioms in one model of $S$ only.
+Each translated axiom must be a theorem of $S$, so it must hold in every model of $S$.
+A reading of PA in ZF that works in one model of ZF but fails in another is not an interpretation.
 
 ### History
 
-Tarski introduced interpretability and weak interpretability in 1953, in the book *Undecidable Theories* with Mostowski and Robinson, as a tool to prove that theories are undecidable.
-Feferman showed in 1960, in "Arithmetization of metamathematics in a general setting", that PA interprets $\mathsf{PA} + \lnot\mathrm{Con}(\mathsf{PA})$.
-Orey proved the compactness theorem for interpretability, and the characterization by $\Pi_1$-conservativity carries the names of Orey and Hájek.
-Japaridze introduced tolerance in 1992 and cointerpretability in 1993, and the modal study of interpretability continues in [[provability and interpretability logics|3E7M66WW6Q]].
+Tarski introduced interpretability and weak interpretability in the 1953 book *Undecidable Theories*, written with Mostowski and Robinson, as a tool for proving undecidability.
+Feferman showed in 1960, in "Arithmetization of metamathematics in a general setting", that PA interprets $\mathsf{PA} + \lnot \mathrm{Con}(\mathsf{PA})$.
+Orey proved the compactness theorem, and the characterization by $\Pi_1$-conservativity carries the names of Orey and Hájek.
+Japaridze introduced tolerance and cointerpretability in the early 1990s.
 
-### Common errors
+### Try it
 
-- Reading $S \rhd T$ the wrong way round. The interpreting theory $S$ is the one that does the work, so $S$ is at least as strong as $T$ in consistency strength.
-- Believing that an interpretation preserves truth. PA interprets $\mathsf{PA} + \lnot\mathrm{Con}(\mathsf{PA})$, which is false in the standard natural numbers.
-- Checking the axioms in one model of $S$ only. The translations of the axioms must be theorems of $S$, so they must hold in every model of $S$.
+First, does $\mathsf{ZF} \rhd \mathsf{PA}$ imply that ZF is conservative over PA?
+No: the two theories have different languages, so the question needs a translation, and ZF proves the translation of $\mathrm{Con}(\mathsf{PA})$, which PA does not prove.
+
+Second, let $\pi$ be a $\Pi_1$ sentence that PA does not prove.
+Is $\mathsf{PA} + \pi$ interpretable in PA?
+No: $\mathsf{PA} + \pi$ proves the $\Pi_1$ sentence $\pi$, so condition 2 of the Orey-Hájek characterization fails.
 
 ## Explanations
 
@@ -157,31 +188,31 @@ Suppose that one language has a word that another language lacks.
 A translator can still express it with a phrase of the second language.
 An interpretation does the same for mathematical theories: it translates each basic word of one theory into a phrase of another theory.
 The translation must turn each basic rule of the first theory into a fact that the second theory can prove.
-For example, set theory can speak about the numbers $0$, $1$ and $2$ as the sets $\{\}$, $\{0\}$ and $\{0, 1\}$, and it can prove the rules of arithmetic about them.
+For example, set theory can speak about the numbers $0$, $1$ and $2$ as the sets $\{\}$, $\{0\}$ and $\{0, 1\}$.
 Then a contradiction in arithmetic would give a contradiction in set theory.
 
 ### L2 human
 
-We interpret the theory $T$ of an equivalence relation $E$ with exactly two classes, both infinite, in PA.
+We interpret in PA the theory $T$ of an equivalence relation $E$ with exactly two classes, both infinite.
+Take the domain $\delta(x) := (x = x)$, and translate $E(x, y)$ as "$x + y$ is even":
+$$\varphi_E(x, y) := \exists z \, (x + y = z + z).$$
+Reflexivity holds with $z := x$, and symmetry holds because PA proves $x + y = y + x$.
+For transitivity, let $x + y = 2a$ and $y + z = 2b$.
+Then $x + z + 2y = 2a + 2b$, so $y \le a + b$ and $x + z = 2((a + b) - y)$.
 
-1. The language of $T$ has one binary relation symbol $E$. The axioms say that $E$ is reflexive, symmetric and transitive, that there are exactly two classes, and that each class has at least $k$ elements, for each $k \ge 1$.
-2. We take the domain formula $\delta(x) := (x = x)$, and we translate $E(x, y)$ as $\varphi_E(x, y) := \exists z \, (x + y = z + z)$, that is "$x + y$ is even".
-3. Reflexivity: $x + x = z + z$ with $z := x$.
-4. Symmetry: $x + y = y + x$, by the commutativity of addition, which PA proves by induction.
-5. Transitivity: from $x + y = 2a$ and $y + z = 2b$ we get $x + z + 2y = 2a + 2b$. So $y \le a + b$, and with $c := (a + b) - y$ we get $x + z = 2c$.
-6. Exactly two classes: $0$ and $1$ are not equivalent, because $z + z$ is $0$ for $z = 0$ and at least $2$ for $z \ge 1$. Each $x$ is equivalent to $0$ or to $1$, because each number is even or odd, which PA proves by [[induction|0ASJVEFA9J]].
-7. Each class has at least $k$ elements: the numbers $x, x + 2, \ldots, x + 2(k - 1)$ are pairwise different and all equivalent to $x$.
-
-The typical use is a relative consistency proof: since PA is consistent, $T$ is consistent.
-A trap is to check that the axioms hold in the standard model $\N$ only; each translated axiom must be a theorem of PA, as in steps 3 to 7.
+The numbers $0$ and $1$ are not equivalent, because $z + z$ is $0$ or at least $2$.
+Every $x$ is equivalent to $0$ or to $1$, because PA proves by [[induction|0ASJVEFA9J]] that each number is even or odd.
+Each class has at least $k$ elements, namely $x, x + 2, \dots, x + 2(k - 1)$.
+So PA proves every translated axiom, and since PA is consistent, $T$ is consistent.
+The trap is to check only that the axioms hold in $\mathbb{N}$: what counts is that each translated axiom is a theorem of PA.
 
 ### L3 human
 
 Interpretability is a preorder on theories, and its equivalence classes are the degrees of interpretability.
-Theories that interpret each other are *mutually interpretable*, and a stronger notion, bi-interpretability, asks that the two composite interpretations be definably isomorphic to the identity.
-In model theory the same idea appears for single structures: a structure is interpretable in another one when it is a definable quotient of a definable set of tuples, as in the topic [[interpretations and imaginaries|SZRM3N6BXW]].
-Categorically, an interpretation of $T$ in $S$ is a morphism of theories, and it induces a functor from the models of $S$ to the models of $T$, $\mathcal M \mapsto \mathcal M^I$.
+Theories that interpret each other are *mutually interpretable*, and *bi-interpretability* asks in addition that the two composite interpretations be definably isomorphic to the identity.
+For single structures the same idea is a definable quotient of a definable set of tuples, as in [[interpretations and imaginaries|SZRM3N6BXW]].
+An interpretation of $T$ in $S$ induces a map from the models of $S$ to the models of $T$, $\mathcal{M} \mapsto \mathcal{M}^I$.
 
-For extensions of PA the Orey-Hájek characterization turns interpretability into $\Pi_1$-conservativity, so the degrees of interpretability are measured by $\Pi_1$ sentences such as consistency statements.
-The modal logic ILM describes exactly the schematic laws of the relation $p \rhd q$ over PA, in the same way as the provability logic GL describes provability, see [[provability and interpretability logics|3E7M66WW6Q]].
-Conservation results and interpretations are two sides of the same comparison of theories, and [[Herbrand analysis|MESZ87G9ET]] gives conservation results by a different, proof-theoretic route.
+For extensions of PA the Orey-Hájek characterization measures degrees of interpretability by $\Pi_1$ sentences such as consistency statements.
+The modal logic ILM describes exactly the schematic laws of $p \rhd q$ over PA, read as "$\mathsf{PA} + q$ is interpretable in $\mathsf{PA} + p$", as GL does for provability; see [[provability and interpretability logics|3E7M66WW6Q]].
+Conservation theorems compare theories by their theorems, interpretations by their translations, and [[Herbrand analysis|MESZ87G9ET]] reaches conservation by a third, proof-theoretic route.

@@ -41,7 +41,8 @@ Metastability is the finite reformulation that can always be extracted, and it i
 
 ## Notation
 
-For a sequence $(a_n)$ in a metric space, a *rate of metastability* is a function $\Phi(\varepsilon, g)$ with this property: for every $\varepsilon > 0$ and every $g : \mathbb{N} \to \mathbb{N}$, some $n \le \Phi(\varepsilon, g)$ has $d(a_i, a_j) \le \varepsilon$ for all $i, j \in [n, n + g(n)]$.
+Let $(a_n)$ be a sequence in a metric space.
+A *rate of metastability* for it is a function $\Phi(\varepsilon, g)$ of $\varepsilon > 0$ and $g : \mathbb{N} \to \mathbb{N}$ with this property: some $n \le \Phi(\varepsilon, g)$ has $d(a_i, a_j) \le \varepsilon$ for all $i, j \in [n, n + g(n)]$.
 We write $\tilde g(n) = n + g(n)$ and $\tilde g^{(k)}$ for the $k$-th iterate of $\tilde g$.
 
 The monotone interpretation uses Howard's majorizability relation $x^* \mathrel{\mathrm{maj}} x$ between functionals of the same finite type.

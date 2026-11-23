@@ -54,6 +54,9 @@ We prove the lemma by induction on the derivation, one case for each kind of rul
 8. This choice is correct.
    If $A \wedge B$ is false, then $A$ is false and the first premise gives $\bigvee_i \theta_i(f_i)$, or $B$ is false and the second gives $\bigvee_i \theta_i(f'_i)$.
    The left rules for $\vee$ and $\to$ are treated in the same way.
+
+### The witnessing lemma, structural and quantifier rules
+
 9. Weakening on the right adds a formula with the witness $0$.
    Contraction on the left uses one input witness twice.
 10. Contraction on the right of $\exists v \, \theta$, with witnesses $f$ and $f'$, uses $g = f$ if $\theta(f)$ is true and $g = f'$ otherwise.
