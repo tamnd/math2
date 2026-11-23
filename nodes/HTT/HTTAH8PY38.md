@@ -18,35 +18,41 @@ sources:
 
 ## Example
 
-We write two statements of number theory as [[sentences|DKFGQTRYZE]] of the [[language of arithmetic|D8SD54M5PN]] $L_A$.
-We use the formulas $\mathrm{Even}(x)$ and $\mathrm{Prime}(x)$ of [[this example|BD4PEHWBRX]], which are abbreviations of $L_A$-formulas with one free variable $x$.
+Two famous statements of number theory, one proved and one open, become [[sentences|DKFGQTRYZE]] of the [[language of arithmetic|D8SD54M5PN]] $L_A$.
+We use the formulas $\mathrm{Even}(x)$ and $\mathrm{Prime}(x)$ of [[divisibility, evenness and primality|BD4PEHWBRX]], which abbreviate $L_A$-formulas with one free variable $x$.
 
 The sentence $\mathrm{Inf}$ says that there are infinitely many primes:
 $$\mathrm{Inf} := \forall x\; \exists y\; (x < y \land \mathrm{Prime}(y)).$$
 The sentence $\mathrm{GC}$ is Goldbach's conjecture, that every even number greater than $2$ is a sum of two primes:
 $$\mathrm{GC} := \forall x\; \Bigl( \bigl(\overline{2} < x \land \mathrm{Even}(x)\bigr) \to \exists p \le x\; \exists q \le x\; \bigl(\mathrm{Prime}(p) \land \mathrm{Prime}(q) \land p + q = x\bigr) \Bigr).$$
 
-We check that these are sentences that say what we want.
+We check that these are sentences and that they say what we want.
 
-1. In $\mathrm{Inf}$, the variable $x$ is bound by $\forall x$, and $y$ is bound by $\exists y$. The variables inside $\mathrm{Prime}(y)$ are bound there. So $\mathrm{Inf}$ has no free variable.
-2. A set of numbers is infinite exactly when it has an element above each number $x$. So $\mathfrak{N} \models \mathrm{Inf}$ says that the primes form an infinite set.
-3. In $\mathrm{GC}$, the variables $x$, $p$ and $q$ are bound by the quantifiers in front of them. So $\mathrm{GC}$ is a sentence.
-4. The bounds $p \le x$ and $q \le x$ lose no solution: if $p + q = x$, then $p \le x$ and $q \le x$.
+1. In $\mathrm{Inf}$, the variable $x$ is bound by $\forall x$ and $y$ by $\exists y$, and the variables inside $\mathrm{Prime}(y)$ are bound there.
+   So $\mathrm{Inf}$ has no free variable.
+2. A set of numbers is infinite exactly when it has an element above each number $x$.
+   So $\mathfrak{N} \models \mathrm{Inf}$ says that the primes form an infinite set.
+3. In $\mathrm{GC}$, the variables $x$, $p$ and $q$ are bound by the quantifiers in front of them, so $\mathrm{GC}$ is a sentence.
+4. The bounds $p \le x$ and $q \le x$ lose no solution, because $p + q = x$ forces $p \le x$ and $q \le x$.
 5. So $\mathfrak{N} \models \mathrm{GC}$ exactly when every even $n > 2$ is a sum of two primes.
-6. At $x = 4$ the inner part holds with $p = q = 2$. At $x = 10$ it holds with $p = 3$ and $q = 7$.
+6. At $x = 4$ the inner part holds with $p = q = 2$, and at $x = 10$ it holds with $p = 3$ and $q = 7$.
 
 Euclid's theorem gives $\mathfrak{N} \models \mathrm{Inf}$.
 Whether $\mathfrak{N} \models \mathrm{GC}$ is an open problem.
 
 ## Remarks
 
-The example shows how the shape of a sentence reflects the kind of evidence that settles it.
-Inside $\mathrm{GC}$, everything after $\forall x$ uses only bounded quantifiers, so $\mathrm{GC}$ is a $\Pi_1$ sentence in the sense of [[this page|GE43CSZTS9]].
+The shape of each sentence tells you what kind of evidence could settle it.
+Inside $\mathrm{GC}$, everything after $\forall x$ uses only bounded quantifiers, so $\mathrm{GC}$ is a $\Pi_1$ sentence in the sense of [[the formula classes|GE43CSZTS9]].
 If $\mathrm{GC}$ is false, then a finite search finds the counterexample, and $\neg \mathrm{GC}$ is a true $\Sigma_1$ sentence.
-Then [[Robinson arithmetic|3K1AKGXF8A]] proves $\neg \mathrm{GC}$, by the [[Σ1-completeness theorem|69234Z1V00]].
+Then [[Robinson arithmetic|3K1AKGXF8A]] proves $\neg \mathrm{GC}$, by [[Σ1-completeness|69234Z1V00]].
+
 The sentence $\mathrm{Inf}$ has the prefix $\forall x\, \exists y$ before a bounded formula, so it is a $\Pi_2$ sentence.
+No single computation refutes it.
 The twin prime conjecture $\forall x\, \exists y\, (x < y \land \mathrm{Prime}(y) \land \mathrm{Prime}(y + \overline{2}))$ has the same shape.
-If we replace the bound $p \le x$ by $p < x$, the sentence keeps its meaning, because a prime $q$ is at least $2$, so $p = x - q < x$.
+
+A small change of bound keeps the meaning of $\mathrm{GC}$.
+If you replace $p \le x$ by $p < x$, nothing is lost, because the prime $q$ is at least $2$, so $p = x - q < x$.
 
 ## Explanations
 
@@ -60,11 +66,13 @@ For $x = 10$ we can take $p = 3$ and $q = 7$.
 ### L2 human
 
 We check the inner part of $\mathrm{GC}$ at $x = 28$.
+The hypothesis holds, since $2 < 28$ and $28 = 14 + 14$, so $\mathrm{Even}(\overline{28})$ is true.
+Try $p = 5$, which leaves $q = 23$.
+The number $23$ is prime, since none of $2$, $3$ and $4$ divides it and $5 \cdot 5 > 23$.
+Both $5 \le 28$ and $23 \le 28$ hold, and
+$$5 + 23 = 28.$$
+So the inner part is true at $x = 28$.
 
-1. The hypothesis holds: $2 < 28$, and $28 = 14 + 14$, so $\mathrm{Even}(\overline{28})$ is true.
-2. We try $p = 5$: then $q = 23$, and $23$ is prime, since it has no factor among $2$, $3$ and $4$, and $5 \cdot 5 > 23$.
-3. Both $5 \le 28$ and $23 \le 28$ hold, and $5 + 23 = 28$.
-4. So the inner part is true at $x = 28$.
-
-The typical use of such translations is to see the logical form of a statement: $\Pi_1$ statements such as $\mathrm{GC}$ are refuted by one computation if they are false.
-A trap is to think that a check of many cases proves $\mathrm{GC}$; a $\Pi_1$ sentence needs a proof for all $x$ at once.
+Writing a statement in $L_A$ shows its logical form, and $\Pi_1$ statements such as $\mathrm{GC}$ are refuted by one computation when they are false.
+Watch out: a check of many cases does not prove $\mathrm{GC}$.
+A $\Pi_1$ sentence needs a proof for all $x$ at once.

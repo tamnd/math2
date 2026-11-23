@@ -15,28 +15,34 @@ sources:
 
 ## Example
 
-We work in [[primitive recursive arithmetic|WCXH72T8D8]], with the function symbol $+$ of the [[definition|330YAP9Y4Q]].
-Its defining equations give the two theorems
+Addition is defined by recursion on the right argument, so $x + 0 = x$ is an axiom but $0 + x = x$ must be proved.
+We work in [[primitive recursive arithmetic|WCXH72T8D8]], where the defining equations of $+$ in the [[definition|330YAP9Y4Q]] give the two theorems
 $$x + 0 = x \qquad \text{and} \qquad x + Sy = S(x + y).$$
-We derive the formula $0 + x = x$, in which $x$ is a free variable.
+We derive $0 + x = x$ with $x$ free.
 Let $\varphi(x)$ be the quantifier-free formula $0 + x = x$.
 
-1. The base case $\varphi(0)$ is $0 + 0 = 0$. It is the equation $x + 0 = x$ with the term $0$ substituted for $x$, by the substitution rule.
-2. The equation $x + Sy = S(x + y)$ with $0$ for $x$ and $x$ for $y$ gives $0 + Sx = S(0 + x)$, by the substitution rule twice.
+1. The base case $\varphi(0)$ is $0 + 0 = 0$.
+   It is the equation $x + 0 = x$ with the term $0$ for $x$, by the substitution rule.
+2. The equation $x + Sy = S(x + y)$ with $0$ for $x$ and then $x$ for $y$ gives $0 + Sx = S(0 + x)$, by the substitution rule twice.
 3. The equality axiom for $S$ gives $0 + x = x \to S(0 + x) = Sx$.
-4. From steps 2 and 3, propositional logic and the transitivity of equality give $0 + x = x \to 0 + Sx = Sx$.
+4. Steps 2 and 3, with the transitivity of equality and propositional logic, give $0 + x = x \to 0 + Sx = Sx$.
 5. Step 4 is the formula $\varphi(x) \to \varphi(Sx)$.
-6. The induction rule, applied to steps 1 and 5, gives $\varphi(x)$, that is, $0 + x = x$.
+   The induction rule, applied to steps 1 and 5, gives $\varphi(x)$, that is, $0 + x = x$.
 
 So $0 + x = x$ is a theorem of $\mathsf{PRA}$, and by soundness it holds in $\mathfrak{N}$ for every value of $x$.
 
 ## Remarks
 
-The derivation has one use of the induction rule, on an atomic formula, and no quantifiers at all.
-In [[Robinson arithmetic|3K1AKGXF8A]] $\mathsf{Q}$ the same formula is not a theorem, because $\mathsf{Q}$ has no induction; $\mathsf{Q}$ proves only the instances $0 + \overline{n} = \overline{n}$ for each numeral.
-With the same method we get $Sy + x = S(y + x)$ by induction on $x$, and then $x + y = y + x$ by induction on $y$.
-Each of these is an equation, so the whole development of commutative semiring laws lives inside $\mathsf{PRA}$.
-If we change the defining equations to recursion on the left argument, the roles of $x + 0 = x$ and $0 + x = x$ swap, and the induction is needed for the other law.
+The derivation uses the induction rule once, on an atomic formula, and no quantifiers at all.
+In [[Robinson arithmetic|3K1AKGXF8A]] the same formula is not a theorem, because $\mathsf{Q}$ has no induction.
+$\mathsf{Q}$ proves each instance $0 + \overline{n} = \overline{n}$, but a nonstandard model of $\mathsf{Q}$ falsifies $\forall x \, (0 + x = x)$.
+
+The same method continues.
+Induction on $x$ gives $Sy + x = S(y + x)$, and then induction on $y$ gives $x + y = y + x$, with $0 + x = x$ as the base case.
+Each of these is an equation, so the laws of a commutative semiring all live inside $\mathsf{PRA}$.
+
+If we define $+$ by recursion on the left argument instead, the roles swap.
+Then $0 + x = x$ is an axiom, and $x + 0 = x$ needs the induction.
 
 ## Explanations
 
@@ -51,12 +57,13 @@ The induction rule then gives the law for every $x$.
 
 ### L2 human
 
-We check the step formula on the instance $x = \overline{2}$.
+We follow the step of the induction on the instance $x = \overline{2}$.
+Suppose $0 + SS0 = SS0$.
+Step 2 with $SS0$ for $x$ gives
+$$0 + SSS0 = S(0 + SS0),$$
+and by the hypothesis and the equality axiom for $S$, the right side equals $SSS0$.
+So $0 + SSS0 = SSS0$, which is $\varphi(\overline{3})$.
 
-1. Suppose $0 + SS0 = SS0$.
-2. Step 2 of the example with $x = SS0$ gives $0 + SSS0 = S(0 + SS0)$.
-3. By step 1 and the equality axiom for $S$, $S(0 + SS0) = SSS0$.
-4. So $0 + SSS0 = SSS0$, which is $\varphi(\overline{3})$.
-
-The typical use of such derivations is to build up the elementary algebra of $+$ and $\cdot$ before coding syntax inside $\mathsf{PRA}$.
-A trap is to try the induction on $y$ in the formula $x + y = y + x$ before $0 + x = x$ is known: the base case of that induction is exactly $x + 0 = 0 + x$.
+The typical use of such derivations is to build the algebra of $+$ and $\cdot$ before syntax is coded inside $\mathsf{PRA}$.
+Watch out for the order of the lemmas.
+If you try to prove $x + y = y + x$ by induction on $y$ first, the base case is $x + 0 = 0 + x$, which is exactly the law of this example.
