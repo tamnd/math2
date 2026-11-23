@@ -14,8 +14,8 @@ sources:
 
 ## Example
 
-Exclusive or $p \oplus q$ is true when exactly one of $p$ and $q$ is true.
-We read off a [[conjunctive normal form|07C4A8Y18K]] from its [[truth table|05RSK4Q657]].
+Exclusive or, $p \oplus q$, is true when exactly one of $p$ and $q$ is true.
+We read a [[conjunctive normal form|07C4A8Y18K]] of it off its [[truth table|05RSK4Q657]]:
 
 | $p$ | $q$ | $p \oplus q$ |
 |---|---|---|
@@ -24,40 +24,44 @@ We read off a [[conjunctive normal form|07C4A8Y18K]] from its [[truth table|05RS
 | 1 | 0 | 1 |
 | 1 | 1 | 0 |
 
-1. The formula is false at the rows $(0,0)$ and $(1,1)$.
-2. For each false row we write the clause that is false at that row only. For a variable with value $0$ we take the variable, and for a variable with value $1$ we take its negation.
-3. The row $(0,0)$ gives the clause $p \lor q$. It is false only when $p = 0$ and $q = 0$.
-4. The row $(1,1)$ gives the clause $\neg p \lor \neg q$. It is false only when $p = 1$ and $q = 1$.
-5. The conjunction of these clauses is $(p \lor q) \land (\neg p \lor \neg q)$. It is false exactly at the rows where one of the clauses is false, that is, at $(0,0)$ and $(1,1)$.
-6. So $(p \lor q) \land (\neg p \lor \neg q)$ has the same truth table as $p \oplus q$. It is a CNF with two clauses.
+1. The formula is false at the two rows $(0, 0)$ and $(1, 1)$, and the CNF needs one clause for each of them.
+2. Each clause must be false at its own row and true at every other row.
+   So each literal must be false at that row: take the variable when its value is $0$, and its negation when its value is $1$.
+3. The row $(0, 0)$ gives the clause $p \lor q$, which is false only when $p = 0$ and $q = 0$.
+4. The row $(1, 1)$ gives the clause $\neg p \lor \neg q$, which is false only when $p = 1$ and $q = 1$.
+5. The conjunction is false exactly where one of its clauses is false, so
+$$p \oplus q \;\equiv\; (p \lor q) \land (\neg p \lor \neg q).$$
+
+Check at the row $(0, 1)$: the first clause is true because $q = 1$, and the second is true because $\neg p = 1$, so the CNF is true, as $p \oplus q$ is.
 
 ## Remarks
 
-This is the full CNF of $p \oplus q$: each clause contains each variable once.
-The same method applied to $p \leftrightarrow q$, the negation of $p \oplus q$, gives $(p \lor \neg q) \land (\neg p \lor q)$.
-For the exclusive or of $n$ variables, $p_1 \oplus \cdots \oplus p_n$, the method gives $2^{n-1}$ clauses, one for each row with an even number of ones.
-Every CNF of this function has at least $2^{n-1}$ clauses.
-The reason: let a clause $C$ of the CNF miss a variable $p_i$ and have no complementary pair.
-Then $C$ is false at some row and also at the row that differs from it only in $p_i$.
-The function is true at one of these two rows, but the CNF is false at both, which is impossible.
-So each clause without a complementary pair contains all $n$ variables and is false at one row only, and each of the $2^{n-1}$ false rows needs its own clause.
+The result is the full CNF of $p \oplus q$, because each clause contains each variable once.
+The same method applied to $p \leftrightarrow q$, the negation of $p \oplus q$, uses the false rows $(0, 1)$ and $(1, 0)$ and gives $(p \lor \neg q) \land (\neg p \lor q)$.
+
+For the exclusive or of $n$ variables, $p_1 \oplus \cdots \oplus p_n$, the function is false at the rows with an even number of ones.
+There are $2^{n-1}$ such rows, so the method gives $2^{n-1}$ clauses.
+No CNF of this function is shorter.
+Drop from the CNF every clause with a complementary pair, since such a clause is always true.
+Suppose a remaining clause $C$ does not mention some variable $p_i$.
+Then $C$ is false at some row, and also at the row that differs from it only in $p_i$.
+The function is true at one of these two rows, because flipping one variable changes the parity, but the CNF is false at both.
+This is impossible, so each remaining clause mentions all $n$ variables, is false at one row only, and each false row needs its own clause.
 
 ## Explanations
 
 ### L1 human
 
 "Exactly one of $p$ and $q$ is true" says two things.
-At least one of them is true: $p \lor q$.
-At least one of them is false: $\neg p \lor \neg q$.
+At least one of them is true, which is $p \lor q$.
+At least one of them is false, which is $\neg p \lor \neg q$.
 Both things together give the formula $(p \lor q) \land (\neg p \lor \neg q)$.
 
 ### L2 human
 
 The truth-table method works for each formula that is false at some row.
-
-1. List the rows where the formula is false.
-2. For each such row, write one clause: put $p$ when $p = 0$ in the row, and $\neg p$ when $p = 1$.
-3. Join the clauses with $\land$.
-
-A trap is to swap the rule in step 2: the clause must be false at its row, so each literal must be false at that row.
-The dual method takes the true rows, gives the [[disjunctive normal form|0GVDFAY4KW]] $(\neg p \land q) \lor (p \land \neg q)$, and uses the opposite rule.
+List the rows where the formula is false.
+For each such row write one clause, with $p$ when $p = 0$ in the row and $\neg p$ when $p = 1$.
+Then join the clauses with $\land$.
+Watch out for the rule in the middle step: students often swap it, but the clause must be false at its row, so each literal must be false there.
+The dual method takes the true rows and the opposite rule, and it gives the [[disjunctive normal form|0GVDFAY4KW]] $(\neg p \land q) \lor (p \land \neg q)$.

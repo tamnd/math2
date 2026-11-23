@@ -29,115 +29,133 @@ same_as:
 
 ## Summary
 
-The classical propositional calculus is the formal system with three parts.
-Its language is the set of [[propositional formulas|TT7WT5HPN9]], built from propositional variables $p_0, p_1, \ldots$ with the connectives $\neg$, $\land$, $\lor$, $\to$ and $\leftrightarrow$.
-Its semantics gives each formula a truth value $0$ or $1$ under each [[truth valuation|H31CS3HK5P]], computed from the values of the variables by the [[truth tables|05RSK4Q657]] of the connectives.
-Its deductive part is a proof system, for example the [[Hilbert system|1MGMQX43B8]] $L$, that derives formulas from axioms by rules.
-The semantic relation $\Gamma \models \varphi$ ([[logical consequence|1HK0VYWTV7]]) and the deductive relation $\Gamma \vdash \varphi$ (derivability) coincide, by the [[soundness theorem|XD629S54CS]] and the [[completeness theorem|81ZNY1XKYJ]].
-The propositional calculus is the simplest logic with a full metatheory, and it is the model on which first-order logic and the non-classical logics are built.
+Here is the truth table of implication:
+$$\begin{array}{cc|c} p & q & p \to q \\ \hline 1 & 1 & 1 \\ 1 & 0 & 0 \\ 0 & 1 & 1 \\ 0 & 0 & 1 \end{array}$$
+The last two rows are the ones that surprise students: when $p$ is false, $p \to q$ is true, whatever $q$ is.
+
+The propositional calculus is the logic of "not", "and", "or" and "if ... then", made into an exact formal system, and tables like this one are its semantic side.
+It has a language of formulas, a way to compute the truth value of each formula, and a way to prove formulas from axioms.
+Its main theorem says that the provable formulas are exactly the formulas that are always true.
+
+In full, the classical propositional calculus has three parts.
+Its language is the set of [[propositional formulas|TT7WT5HPN9]], built from variables $p_0, p_1, \ldots$ with the connectives $\neg$, $\land$, $\lor$, $\to$ and $\leftrightarrow$.
+Its semantics gives each formula a value $0$ or $1$ under each [[truth valuation|H31CS3HK5P]], computed by the [[truth tables|05RSK4Q657]] of the connectives.
+Its deductive part is a proof system, such as the [[Hilbert system|1MGMQX43B8]] $L$, which derives formulas from axioms by rules.
+The semantic relation $\Gamma \models \varphi$ of [[logical consequence|1HK0VYWTV7]] and the relation $\Gamma \vdash \varphi$ of derivability are equal, by the [[soundness theorem|XD629S54CS]] and the [[completeness theorem|81ZNY1XKYJ]].
 
 ## Motivation
 
-Some arguments are correct because of their form alone, whatever their sentences say.
+Some arguments are correct because of their form alone.
 "If it rains, the street is wet; it rains; so the street is wet" has the same form as "if $n$ is even, then $n^2$ is even; $n$ is even; so $n^2$ is even".
-Both are correct for one reason: from a statement $p$ and the statement "if $p$ then $q$", the statement $q$ follows.
-To study such forms precisely, we replace each simple statement by a letter and keep only the words "not", "and", "or", "if ... then" and "if and only if".
-The result is a formal language with exact rules.
-Two questions then arise: which formulas are true in every case, and which formulas can be proved from axioms.
-The propositional calculus answers both questions, and it shows that the two answers agree.
+Both are correct for one reason: from $p$ and "if $p$ then $q$", the statement $q$ follows.
+To study such forms exactly, we replace each simple statement by a letter and keep only the connecting words.
+
+Two questions then arise.
+Which formulas are true in every case, and which formulas can we prove from axioms by fixed rules?
+The propositional calculus answers both, and the answers agree.
+It is the smallest logic where this whole story can be told with full proofs, so it is the model for [[first-order logic|086QKPF0A6]] and for the non-classical logics.
+It is also the language of digital circuits and of the SAT solvers that check hardware and software.
 
 ## Notation
 
-The variables are also called propositional letters, atoms or sentence letters; [[this page|AC4HD34AXX]] treats them.
 Books write negation as $\neg p$, $\sim p$ or $\bar{p}$, conjunction as $p \land q$, $p \mathbin{\&} q$ or $p \cdot q$, implication as $p \to q$ or $p \supset q$, and the biconditional as $p \leftrightarrow q$ or $p \equiv q$.
-In the Polish notation of Łukasiewicz the connectives are the prefix letters $N$, $K$, $A$, $C$ and $E$, for negation, conjunction, disjunction, implication and equivalence.
-The symbol $\models$ (double turnstile) marks the semantic relation, and the symbol $\vdash$ ([[turnstile|2QQMJMS8M5]]) marks derivability.
-The arrow $\Rightarrow$ belongs to the [[metalanguage|D9G8M42GKC]] in many books, and the arrow $\to$ belongs to the formulas.
-Other names for the subject are propositional logic, sentential logic, sentential calculus, statement calculus and zeroth-order logic.
+In the Polish notation of Łukasiewicz the connectives are the prefix letters $N$, $K$, $A$, $C$ and $E$.
+The double turnstile $\models$ marks the semantic relation, and the [[turnstile|2QQMJMS8M5]] $\vdash$ marks derivability.
+The variables are also called propositional letters or atoms, and [[propositional variables|AC4HD34AXX]] treats them.
+Watch out for the arrow $\Rightarrow$: many books use it in the [[metalanguage|D9G8M42GKC]], to talk about formulas, while $\to$ is a symbol inside formulas.
+Other names for the subject are propositional logic, sentential logic and zeroth-order logic.
 
 ## Remarks
 
-### The language
+### Reading the table of implication
 
-A [[propositional formula|TT7WT5HPN9]] is built from variables by the formation rules: if $\varphi$ and $\psi$ are formulas, then so are $(\neg \varphi)$, $(\varphi \land \psi)$, $(\varphi \lor \psi)$, $(\varphi \to \psi)$ and $(\varphi \leftrightarrow \psi)$.
-The [[unique readability theorem|6KBJX91N7G]] says that each formula is built in exactly one way.
-Because of it, we can prove facts about all formulas by [[structural induction|12MQ2NJ29A]] and define functions on all formulas by recursion.
-Some books use fewer primitive connectives, for example only $\neg$ and $\to$, and treat the others as abbreviations.
+Why is $p \to q$ true when $p$ is false?
+Think of $p \to q$ as a promise: "if you pass the exam, you get a prize".
+The promise is broken only when you pass and get no prize, which is the row $p = 1$, $q = 0$.
+If you fail the exam, the promise says nothing, so it is not broken, and logic counts an unbroken promise as true.
 
-### The semantic side
+A mathematical case shows that this choice is the useful one.
+We want "for every integer $n$, if $n > 2$ then $n^2 > 4$" to be true.
+For $n = 1$ the instance is "if $1 > 2$ then $1 > 4$", with both parts false, and for $n = -3$ it is "if $-3 > 2$ then $9 > 4$", with a false first part and a true second part.
+The general statement is true only if both instances count as true, and the table makes them true.
 
-A truth assignment gives each variable a value $0$ or $1$.
-It extends in exactly one way to a [[truth valuation|H31CS3HK5P]] $\bar{v}$ on all formulas, by the truth tables of the connectives.
-A formula is a [[tautology|05006AJ7DZ]] when every valuation gives it the value $1$, and it is [[satisfiable|QN7M1JCGT9]] when some valuation gives it the value $1$.
-A formula $\varphi$ is a [[logical consequence|1HK0VYWTV7]] of a set $\Gamma$, written $\Gamma \models \varphi$, when every valuation that makes all members of $\Gamma$ true makes $\varphi$ true.
-Normal forms ([[conjunctive|0B3D4C8YF2]] and [[disjunctive|0GVDFAY4KW]]) and [[functional completeness|TDZVCWYJ9F]] describe which truth functions formulas can express: all of them.
+### The language and its meaning
+
+A [[propositional formula|TT7WT5HPN9]] is built from variables by the rules: if $\varphi$ and $\psi$ are formulas, so are $(\neg \varphi)$, $(\varphi \land \psi)$, $(\varphi \lor \psi)$, $(\varphi \to \psi)$ and $(\varphi \leftrightarrow \psi)$.
+The [[unique readability theorem|6KBJX91N7G]] says that each formula is built in exactly one way, so we can define functions on formulas by recursion and prove facts by [[structural induction|12MQ2NJ29A]].
+
+A truth assignment gives each variable a value $0$ or $1$, and it extends in exactly one way to a [[truth valuation|H31CS3HK5P]] on all formulas.
+A formula is a [[tautology|05006AJ7DZ]] when every valuation gives it $1$, and [[satisfiable|QN7M1JCGT9]] when some valuation gives it $1$.
+For example, $p \lor \neg p$ is a tautology, $p \land \neg p$ is not satisfiable, and $p \to q$ is satisfiable but not a tautology, by its second row.
+The [[normal forms|0GVDFAY4KW]] and [[functional completeness|TDZVCWYJ9F]] show that formulas can express every truth function.
 
 ### The deductive side
 
-A proof system fixes axioms and rules, and a derivation is a finite list of formulas built by these rules.
-This sub-area uses the [[Hilbert system|1MGMQX43B8]] $L$ of Mendelson, with three axiom schemas and [[modus ponens|0Y0MQYST0M]].
-We write $\Gamma \vdash \varphi$ when $\varphi$ has a derivation from the hypotheses $\Gamma$.
+A proof system fixes axioms and rules, and a derivation is a finite list of formulas, each an axiom, a hypothesis or the result of a rule.
+We use the [[Hilbert system|1MGMQX43B8]] $L$ of Mendelson, with three axiom schemas and [[modus ponens|0Y0MQYST0M]] as the only rule.
+In $L$ the formula $p \to p$ has a derivation of five lines: two instances of the first axiom, one of the second, and two steps of modus ponens.
 Other proof systems for the same logic are [[natural deduction|6KT3BJZ7D1]], the [[sequent calculus|W72CA3R9MP]], tableaux and [[resolution|ZDW6N1PGJ7]].
-All of them derive the same formulas, because each is sound and complete for the same semantics.
+All of them prove the same formulas, because each is sound and complete for the same semantics.
 
-### The metatheorems
+### The four metatheorems
 
-- [[Soundness|XD629S54CS]]: if $\Gamma \vdash \varphi$, then $\Gamma \models \varphi$.
-- [[Completeness|81ZNY1XKYJ]]: if $\Gamma \models \varphi$, then $\Gamma \vdash \varphi$.
-- [[Compactness|4X9126SEMM]]: a set of formulas is satisfiable if each of its finite subsets is satisfiable.
-- The [[deduction theorem|9X08XK5RV2]]: $\Gamma \cup \set{\varphi} \vdash \psi$ if and only if $\Gamma \vdash \varphi \to \psi$.
+The theory of the calculus rests on four results about the whole system.
 
-### Decidability
+1. [[Soundness|XD629S54CS]]: if $\Gamma \vdash \varphi$, then $\Gamma \models \varphi$.
+2. [[Completeness|81ZNY1XKYJ]]: if $\Gamma \models \varphi$, then $\Gamma \vdash \varphi$.
+3. [[Compactness|4X9126SEMM]]: a set of formulas is satisfiable when each of its finite subsets is satisfiable.
+4. The [[deduction theorem|9X08XK5RV2]]: $\Gamma \cup \{ \varphi \} \vdash \psi$ if and only if $\Gamma \vdash \varphi \to \psi$.
 
-The value of a formula depends only on the values of the variables that occur in it.
-A formula with $n$ variables therefore has a truth table with $2^n$ rows, and the table decides whether the formula is a tautology.
-So the set of tautologies is decidable, and by completeness the set of theorems of $L$ is decidable too.
-The truth-table method takes time about $2^n$.
+Soundness says that the rules never lead from truth to falsehood.
+Completeness says that the rules are strong enough to reach every consequence.
+Together they let you switch freely between a truth table and a proof.
+
+### Deciding by truth tables
+
+The value of a formula depends only on the variables that occur in it.
+So a formula with $n$ variables has a truth table of $2^n$ rows, and checking all rows decides whether it is a tautology.
+By completeness, the same table decides whether the formula is a theorem of $L$.
+The table grows fast, though: $30$ variables already give more than a billion rows.
 No method is known that decides tautologies in time polynomial in the length of the formula.
-Deciding satisfiability is NP-complete by the [[Cook-Levin theorem|CTK8AH98Z1]], and deciding whether a formula is a tautology is coNP-complete; see the [[Boolean satisfiability problem|3QKF32ZAKN]].
+Satisfiability is NP-complete by the [[Cook-Levin theorem|CTK8AH98Z1]], and the tautology problem is coNP-complete; see the [[Boolean satisfiability problem|3QKF32ZAKN]].
 
-### Place among logics
+### What it cannot express
 
-The propositional calculus is the part of [[first-order logic|086QKPF0A6]] without terms, predicates of positive arity and quantifiers.
-It cannot express "all" or "some", so it cannot analyse an argument whose correctness depends on these words.
-[[Intuitionistic logic|Q11N8X99FK]] has the same language and proves fewer formulas; it does not prove $p \lor \neg p$.
+The syllogism "all humans are mortal; Socrates is a human; so Socrates is mortal" is valid, but not because of its propositional form.
+Its three sentences become three unrelated variables $p, q, r$, and $p, q \models r$ fails at $p = q = 1$, $r = 0$; see [[the Socrates non-example|EMK23RRKPR]].
+The words "all" and "some" need [[first-order logic|086QKPF0A6]], of which the propositional calculus is the part without terms and quantifiers.
+The sentence "necessarily $p$" is not a propositional formula either, because its truth value is not a function of the value of $p$.
+A question such as "is $7$ prime?" is not a [[proposition|0ZGC7ZESYN]] at all, so no variable stands for it.
+
+### Other logics with the same language
+
+[[Intuitionistic logic|Q11N8X99FK]] has the same formulas and proves fewer of them; it does not prove $p \lor \neg p$.
 [[Many-valued logics|66NMTCQNQV]] keep the language and change the set of truth values.
-Modal logics add new connectives, such as "necessarily", whose meaning is not a truth function.
-Classical propositional logic is [[Post complete|WK2P0E82B4]]: adding any formula that is not a tautology as a new axiom schema makes the system inconsistent.
+Modal logics add connectives such as "necessarily", which are not truth functions.
+Classical propositional logic is [[Post complete|WK2P0E82B4]]: if we add as a new axiom schema any formula that is not a tautology, the system becomes inconsistent.
 
-### Examples
+### Watch out
 
-- The formula $p \lor \neg p$ is a tautology: its truth table has the value $1$ in both rows.
-- The argument from $p \to q$, $q \to r$ and $\neg r$ to $\neg p$ is valid; [[this example|TQT5N8ZMGK]] checks all eight rows of its truth table.
-- A circuit of switches computes a formula, with switches in series for $\land$ and in parallel for $\lor$; [[this example|SP9K3H4DDC]] reads a staircase light as $(p \land q) \lor (\neg p \land \neg q)$.
-- In the system $L$ the formula $p \to p$ has a derivation of five lines. It uses two instances of (A1), one instance of (A2) and modus ponens twice.
-
-### Non-examples
-
-- The syllogism "all humans are mortal; Socrates is a human; so Socrates is mortal" is valid, but not by its propositional form. Its three sentences are three unrelated variables, and the form $p, q \models r$ fails; see [[this non-example|EMK23RRKPR]].
-- The sentence "necessarily $p$" is not a propositional formula in $p$. Its truth value is not a function of the truth value of $p$, so no truth table defines it.
-- The question "is $7$ prime?" is not a [[proposition|0ZGC7ZESYN]], so no variable stands for it.
-
-### Basic properties
-
-- Each formula has a unique parse ([[unique readability|6KBJX91N7G]]).
-- Each truth assignment has a unique extension to all formulas ([[truth valuation|H31CS3HK5P]]).
-- Each Boolean function of $n \geq 1$ arguments is defined by some formula in disjunctive normal form ([[disjunctive normal form|0GVDFAY4KW]]).
-- $\Gamma \vdash \varphi$ if and only if $\Gamma \models \varphi$ (soundness and completeness).
-- The set of tautologies is decidable by truth tables.
+The most common slip is to confuse $\vdash$ with $\models$.
+$\Gamma \vdash \varphi$ says that a derivation exists, and $\Gamma \models \varphi$ says that every valuation that makes $\Gamma$ true makes $\varphi$ true; completeness is the theorem that they agree, not a definition.
+A second slip is to read $p \to q$ as "$p$ causes $q$".
+"If $2 + 2 = 5$, then the moon is cheese" is true by the last row of the table, with no causal link at all.
+A third slip is to call a formula true or false by itself: $p \to q$ has a value only under a valuation.
 
 ### History
 
-The Stoic logician Chrysippus, in the 3rd century BC, is often credited with a deductive system for reasoning with connectives.
-George Boole treated logic as algebra in 1847 and 1854, and Gottlob Frege gave the first axiomatic system with modus ponens in his Begriffsschrift of 1879.
-Paul Bernays gave the first known proof of the completeness of the propositional part of Principia Mathematica in his habilitation thesis of 1918.
-Emil Post proved the same result independently in 1921, with truth tables as his method.
+The Stoic logician Chrysippus, in the third century BC, is often credited with a deductive system for reasoning with connectives.
+George Boole treated logic as algebra in 1847 and 1854, and Gottlob Frege gave an axiomatic system with modus ponens in his Begriffsschrift of 1879.
+Paul Bernays proved the completeness of the propositional part of Principia Mathematica in his habilitation thesis of 1918.
+Emil Post proved the same result independently in 1921, by truth tables.
 
-### Common errors
+### Try it
 
-- To confuse $\vdash$ with $\models$. The first is about derivations in a proof system, and the second is about truth under all valuations; completeness is the theorem that they agree.
-- To read $p \to q$ as a claim that $p$ causes $q$. The material implication is false only when $p$ is true and $q$ is false.
-- To think that a formula is true or false by itself. A formula with variables has a value only under a valuation; only tautologies and unsatisfiable formulas have one value under all valuations.
+Is $(p \to q) \lor (q \to p)$ a tautology?
+Yes: if $q = 1$ the first disjunct is $1$, and if $q = 0$ the second disjunct is $1$, because its antecedent is false.
+
+Find a valuation that makes $(p \to q) \to p$ false.
+The formula is false only when $p = 0$ and $p \to q = 1$, and $p = 0$ already makes $p \to q$ true, so $p = 0$ with any $q$ works.
 
 ## Explanations
 
@@ -148,30 +166,27 @@ Each simple statement becomes a letter, such as $p$ for "it rains" and $q$ for "
 Each letter can be true or false, and a table tells whether a combined statement is true in each case.
 With two letters there are four cases, and with three letters there are eight.
 A statement that is true in every case, such as "it rains or it does not rain", is a law of logic.
-There is also a way to prove such laws from a few starting laws, step by step.
-The main result of the subject says that the provable statements are exactly the laws of logic.
+There is also a way to prove such laws from a few starting laws, step by step, and the main result says that the provable statements are exactly the laws of logic.
 
 ### L2 human
 
 We decide whether $\varphi = (p \to q) \to (\neg q \to \neg p)$ is a tautology.
+It has two variables, so its table has four rows:
+$$\begin{array}{cc|cccc|c} p & q & p \to q & \neg q & \neg p & \neg q \to \neg p & \varphi \\ \hline 1 & 1 & 1 & 0 & 0 & 1 & 1 \\ 1 & 0 & 0 & 1 & 0 & 0 & 1 \\ 0 & 1 & 1 & 0 & 1 & 1 & 1 \\ 0 & 0 & 1 & 1 & 1 & 1 & 1 \end{array}$$
+Check: in the second row the antecedent $p \to q$ is $0$, so $\varphi$ is $1$ by the table of implication.
+Every row gives $1$, so $\varphi$ is a tautology, and by the completeness theorem it also has a derivation in $L$ from no hypotheses.
 
-1. The formula has two variables, $p$ and $q$, so its truth table has $2^2 = 4$ rows.
-2. Row $p = 1$, $q = 1$: $p \to q = 1$, $\neg q = 0$, so $\neg q \to \neg p = 1$, and $\varphi = 1$.
-3. Row $p = 1$, $q = 0$: $p \to q = 0$, so $\varphi = 1$, because an implication with a false antecedent is true.
-4. Row $p = 0$, $q = 1$: $\neg q = 0$, so $\neg q \to \neg p = 1$, and $\varphi = 1$.
-5. Row $p = 0$, $q = 0$: $p \to q = 1$, $\neg q = 1$, $\neg p = 1$, so $\neg q \to \neg p = 1$, and $\varphi = 1$.
-6. All four rows give $1$, so $\varphi$ is a tautology.
-
-By the completeness theorem, $\varphi$ is then also derivable in the system $L$, with no hypotheses.
 The typical use of the calculus is this pair of views: we check a law by a table, and we know that a formal proof exists.
-A trap is to think that the table is itself a derivation in $L$.
-The table and the derivation are different objects, and a derivation that comes from a table is much longer than the table.
+The trap is to think that the table is itself a derivation in $L$.
+The table and the derivation are different objects, and a derivation built from a table by the completeness proof is much longer than the table.
 
 ### L3 human
 
 The propositional calculus is the base case of most of mathematical logic.
-Its semantics is the two-element [[Boolean algebra|0XADJKM699]], and the [[Lindenbaum-Tarski algebra|QC9M3Q8B8Q]] of its formulas modulo provable equivalence is the free Boolean algebra on the variables.
-Completeness then says that a formula is provable exactly when it holds in every homomorphism to the two-element algebra, and compactness for uncountably many variables is equivalent to the [[Boolean prime ideal theorem|STPBXBKSZP]] over the axioms of set theory without choice.
-First-order logic adds quantifiers, and its completeness and compactness theorems ([[Gödel's completeness theorem|WQ1ZE255SF]], [[the compactness theorem|1NR3HAWG9D]]) extend the propositional ones.
-Herbrand's theorem reduces the validity of a first-order sentence to the search for a propositional tautology among finitely many of its instances.
-On the computational side, the question whether tautologies have short proofs in some proof system is equivalent to the question whether NP equals coNP, and it is the subject of [[propositional proof complexity|CBAF7J051K]].
+Its semantics is the two-element [[Boolean algebra|0XADJKM699]], and the [[Lindenbaum-Tarski algebra|QC9M3Q8B8Q]] of formulas modulo provable equivalence is the free Boolean algebra on the variables.
+Completeness then says that a formula is provable exactly when every homomorphism to the two-element algebra sends it to $1$.
+Compactness for uncountably many variables is equivalent, over set theory without choice, to the [[Boolean prime ideal theorem|STPBXBKSZP]].
+
+First-order logic adds quantifiers, and [[Gödel's completeness theorem|WQ1ZE255SF]] and [[the compactness theorem|1NR3HAWG9D]] extend the propositional results.
+Herbrand's theorem reduces the validity of a first-order sentence to a propositional tautology among finitely many of its instances.
+On the computational side, some proof system gives every tautology a proof of polynomial length exactly when NP equals coNP, and this question drives [[propositional proof complexity|CBAF7J051K]].

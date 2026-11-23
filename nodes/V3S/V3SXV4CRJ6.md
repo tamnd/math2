@@ -17,22 +17,32 @@ sources:
 ## Example
 
 Let $p$ and $q$ be distinct propositional variables.
-We show that $p \land q$ is not a clause, and that it is not even equivalent to a clause.
+We show that $p \land q$ is not a [[clause|T3SXVH3ZZC]], and that no clause is even equivalent to it.
 
-1. A clause is a disjunction of literals. The formula $p \land q$ has the main connective $\land$, so it is not of this form.
-2. Suppose that some clause $C$ is equivalent to $p \land q$.
-3. If $C$ contains a complementary pair, it is a tautology. But $p \land q$ is false under $v(p) = v(q) = 0$, so this case is impossible.
-4. So $C$ has no complementary pair. The formula $p \land q$ is false under any assignment $v$ with $v(p) = 0$, $v(q) = 1$, so $C$ is false under $v$, and every literal of $C$ is false under $v$. Hence $C$ contains neither $p$ nor $\neg q$.
-5. In the same way, an assignment $w$ with $w(p) = 1$, $w(q) = 0$ falsifies $C$, so $C$ contains neither $\neg p$ nor $q$.
-6. Let $u$ make every literal of $C$ false, which is possible since $C$ has no complementary pair, and let $u(p) = u(q) = 1$, which is possible since by steps 4 and 5 no literal of $C$ is in $p$ or $q$.
-7. Then $\bar u(C) = 0$ and $\bar u(p \land q) = 1$, against step 2.
-8. So no clause is equivalent to $p \land q$.
+1. A clause is a [[disjunction|0F72FK8EKB]] of literals.
+   The main connective of $p \land q$ is $\land$, so the formula does not have this shape.
+2. Now suppose that some clause $C$ is equivalent to $p \land q$.
+3. If $C$ contains a complementary pair, it is a tautology.
+   But $p \land q$ is false when $p = q = 0$, so $C$ has no complementary pair.
+4. The formula $p \land q$ is false under each assignment $v$ with $v(p) = 0$ and $v(q) = 1$.
+   So $C$ is false under $v$, every literal of $C$ is false under $v$, and $C$ contains neither $p$ nor $\neg q$.
+5. In the same way, an assignment $w$ with $w(p) = 1$ and $w(q) = 0$ falsifies $C$, so $C$ contains neither $\neg p$ nor $q$.
+6. So no literal of $C$ mentions $p$ or $q$.
+   Let $u$ make every literal of $C$ false, which is possible because $C$ has no complementary pair, and let $u(p) = u(q) = 1$.
+7. Then $C$ is false under $u$ while $p \land q$ is true under $u$, which contradicts step 2.
+
+So no clause is equivalent to $p \land q$.
 
 ## Remarks
 
-The formula $p \land q$ is equivalent to the set of two clauses $\set{p}$, $\set{q}$, that is, to a conjunction of two unit clauses.
-It is a conjunction of literals, which is the building block of a disjunctive normal form; some books call it a conjunctive clause, while the plain word "clause" means a disjunction.
-The argument shows a general fact: a clause without complementary pairs is false in exactly one row of the truth table of its variables, while $p \land q$ is false in three rows of four.
+The formula $p \land q$ is equivalent to the set of two unit clauses $\{ p \}$ and $\{ q \}$.
+It is a [[conjunction|025YZN3VJW]] of literals, which is the building block of a disjunctive normal form.
+Some books call it a conjunctive clause, but the plain word "clause" always means a disjunction.
+
+The proof hides a counting fact.
+A clause on $k$ variables without a complementary pair is false in exactly one row of its $2^k$ rows, and a clause on fewer variables is false in more rows.
+On the variables $p$ and $q$ a clause is false in one or two of the four rows, while $p \land q$ is false in three.
+If we replace $p \land q$ by $p \lor q$, the formula is false in one row only, and it is the clause $\{ p, q \}$.
 
 ## Explanations
 
@@ -40,16 +50,15 @@ The argument shows a general fact: a clause without complementary pairs is false
 
 "Pia comes and Quin comes" asks for two things at once.
 A clause asks for at least one thing from a list.
-These are different kinds of demands, and one clause cannot do the job of an "and".
+These are different kinds of demand, and one clause cannot do the job of an "and".
 We need two clauses, "Pia comes" and "Quin comes", to say the same thing.
 
 ### L2 human
 
 We count rows to see the difference.
-
-1. The formula $p \land q$ is false in three of the four rows of the truth table on $p$ and $q$.
-2. A clause in $p$ and $q$ without a complementary pair, such as $\set{p, q}$ or $\set{\neg p}$, is false in exactly one row when it uses both variables, and in two rows when it uses one.
-3. So no such clause has the same truth table as $p \land q$.
-
-The typical use: when we turn a formula into clauses, a conjunction splits into several clauses.
-A trap: the set notation $\set{p, q}$ for a clause means $p \lor q$, not $p \land q$; the clause set $\set{\set{p}, \set{q}}$ means $p \land q$.
+The formula $p \land q$ is false in three of the four rows on $p$ and $q$.
+A clause such as $\{ p, q \}$, which uses both variables, is false in one row, and a clause such as $\{ \neg p \}$, which uses one, is false in two rows.
+The empty clause is false in all four rows, and a tautological clause in none.
+So no clause has the same truth table as $p \land q$.
+In practice this means that a conjunction splits into several clauses when you put a formula into clause form.
+Watch out: the clause $\{ p, q \}$ means $p \lor q$, and the clause set $\{ \{ p \}, \{ q \} \}$ means $p \land q$.

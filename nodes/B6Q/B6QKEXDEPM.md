@@ -16,25 +16,37 @@ sources:
 
 ## Example
 
-Let $\varphi = ((p \land q) \to (\neg r))$, a string of $12$ symbols over the alphabet with variables $p$, $q$, $r$.
-We show that $\varphi$ is a [[propositional formula|TT7WT5HPN9]], and we find its subformulas, its parse tree and its counts of symbols.
+One formula can be seen in three ways: as a string, as a list of building steps, and as a tree.
+We take
+$$\varphi = ((p \land q) \to (\neg r)),$$
+a string of $12$ symbols, and look at it in all three ways.
 
-1. The list $p$, $q$, $r$, $(p \land q)$, $(\neg r)$, $((p \land q) \to (\neg r))$ is a formation sequence: the first three members are variables, and each later member comes from earlier members by one rule of the [[definition|TFDYXS3K1N]].
-2. The last member of the formation sequence is $\varphi$, so $\varphi$ is a formula.
-3. The main connective of $\varphi$ is $\to$, with left part $(p \land q)$ and right part $(\neg r)$.
-4. By the recursive definition of subformulas, $\mathrm{Sub}(\varphi) = \set{\varphi, (p \land q), (\neg r), p, q, r}$, a set with $6$ elements.
-5. The parse tree has the root $\to$; the left child is $\land$ with the leaves $p$ and $q$; the right child is $\neg$ with the leaf $r$.
-6. The tree has $6$ nodes, one for each subformula, and its depth is $2$.
-7. The string has $3$ connectives ($\land$, $\neg$, $\to$) and $6$ brackets, so the number of brackets is twice the number of connectives.
-8. The initial segment $((p \land q)$ has $2$ left brackets and $1$ right bracket, so it is not a formula, because each formula has equal numbers of left and right brackets.
+1. The list
+   $$p, \quad q, \quad r, \quad (p \land q), \quad (\neg r), \quad ((p \land q) \to (\neg r))$$
+   is a formation sequence.
+   The first three entries are variables, and each later entry comes from earlier ones by one rule of the [[definition|TFDYXS3K1N]].
+   Its last entry is $\varphi$, so $\varphi$ is a [[propositional formula|TT7WT5HPN9]].
+2. The main connective of $\varphi$ is $\to$, with left part $(p \land q)$ and right part $(\neg r)$.
+3. By the recursive definition of subformulas,
+   $$\mathrm{Sub}(\varphi) = \{ \varphi, (p \land q), (\neg r), p, q, r \},$$
+   a set with $6$ elements.
+4. The parse tree has the root $\to$.
+   Its left child is $\land$, with the leaves $p$ and $q$, and its right child is $\neg$, with the leaf $r$.
+   The tree has $6$ nodes, one for each subformula, and depth $2$.
+5. The string has $3$ connectives and $6$ brackets, so it has twice as many brackets as connectives, as every formula must.
 
 ## Remarks
 
-The example shows the three views of one formula: the string, the formation sequence and the tree.
 The formation sequence is not unique: the order $r$, $(\neg r)$, $p$, $q$, $(p \land q)$, $\varphi$ also works.
-The tree is unique, by the [[unique readability theorem|6KBJX91N7G]].
-With the precedence rules we write $\varphi$ as $p \land q \to \neg r$, because $\land$ binds more strongly than $\to$.
-If we replace $(\neg r)$ by $(\neg p)$, the formula $((p \land q) \to (\neg p))$ has only $5$ subformulas, because the variable $p$ occurs twice but counts once.
+The tree, on the other hand, is unique, by the [[unique readability theorem|6KBJX91N7G]].
+So the tree is the true identity of the formula, and the sequence is only one way to build it.
+
+The initial segment $((p \land q)$ has $2$ left brackets and $1$ right bracket, so it is not a formula.
+This is a small case of a general fact: no proper initial segment of a formula is a formula.
+With the precedence rules we can write $\varphi$ as $p \land q \to \neg r$, because $\land$ binds more strongly than $\to$.
+
+Change one variable and the count changes.
+The formula $((p \land q) \to (\neg p))$ has only $5$ subformulas, because $p$ occurs twice but counts once in the set.
 
 ## Explanations
 
@@ -47,13 +59,12 @@ Drawn as a tree, the "if ... then" sits at the top, with "and" and "not" below i
 
 ### L2 human
 
-We read the main connective of the string $\varphi = ((p \land q) \to (\neg r))$ from left to right with a bracket count.
+A machine finds the main connective by counting brackets.
+Remove the outer brackets of $\varphi$ to get $(p \land q) \to (\neg r)$, then read from the left and keep the number of open brackets:
+$$\underset{1}{(}\ \underset{1}{p}\ \underset{1}{\land}\ \underset{1}{q}\ \underset{0}{)}\ \underset{0}{\to}\ \cdots$$
+The count first returns to $0$ after the fifth symbol, so the left part is $(p \land q)$, the next symbol $\to$ is the main connective, and the rest $(\neg r)$ is the right part.
+This is how the parser of a programming language builds a tree.
 
-1. Remove the outer brackets: $(p \land q) \to (\neg r)$.
-2. Read from the left and keep the number of open brackets: after $($ it is $1$, after $p$, $\land$, $q$ it is still $1$, and after $)$ it is $0$.
-3. The count first returns to $0$ after the symbol in position $5$, so the left part is $(p \land q)$.
-4. The next symbol, $\to$, is the main connective.
-5. The rest, $(\neg r)$, is the right part.
-
-The typical use is to compute a parse tree by machine, as a parser of a programming language does.
-A trap is to split at the first connective that we see, here $\land$; it lies inside a bracket, so it is not the main connective.
+Watch out.
+Do not split at the first connective you see, here $\land$.
+It lies inside a bracket, so it is not the main connective.

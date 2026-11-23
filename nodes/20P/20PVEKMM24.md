@@ -16,28 +16,38 @@ sources:
 
 ## Example
 
-The Davis-Putnam procedure tests a finite set of [[clauses|T3SXVH3ZZC]] for [[satisfiability|QN7M1JCGT9]].
+We test the set of four [[clauses|T3SXVH3ZZC]]
+$$S = \{ \{ p, q \}, \{ \neg p, r \}, \{ \neg q, r \}, \{ \neg r \} \}$$
+for [[satisfiability|QN7M1JCGT9]] by removing its variables one at a time.
+This is the Davis-Putnam procedure, in its simplest form.
 Each round picks a variable $p$ and keeps the clauses that contain neither $p$ nor $\neg p$.
 It adds all [[resolvents|ZDW6N1PGJ7]] on $p$ and drops the clauses that contain $p$ or $\neg p$.
-We run it on
-$$S = \set{\set{p, q}, \set{\neg p, r}, \set{\neg q, r}, \set{\neg r}}.$$
 
-1. Eliminate $r$. The clauses with $r$ are $\set{\neg p, r}$ and $\set{\neg q, r}$, and the only clause with $\neg r$ is $\set{\neg r}$.
-2. The resolvents on $r$ are $\set{\neg p}$ and $\set{\neg q}$. The clause $\set{p, q}$ has no $r$, so it stays.
-3. The new set is $S_1 = \set{\set{p, q}, \set{\neg p}, \set{\neg q}}$, with the two variables $p$ and $q$.
-4. Eliminate $p$. The only clause with $p$ is $\set{p, q}$, and the only clause with $\neg p$ is $\set{\neg p}$. The resolvent on $p$ is $\set{q}$.
-5. The clause $\set{\neg q}$ has no $p$, so it stays. The new set is $S_2 = \set{\set{q}, \set{\neg q}}$.
-6. Eliminate $q$. The resolvent of $\set{q}$ and $\set{\neg q}$ on $q$ is $\square$.
-7. The set $S_3 = \set{\square}$ contains the empty clause, so it is unsatisfiable. Each elimination keeps satisfiability, so $S$ is unsatisfiable.
-8. Check by hand: $\set{\neg r}$ forces $r = 0$, then $\set{\neg p, r}$ and $\set{\neg q, r}$ force $p = q = 0$, and then $\set{p, q}$ is false.
+1. Remove $r$.
+   The clauses with $r$ are $\{ \neg p, r \}$ and $\{ \neg q, r \}$, and the only clause with $\neg r$ is $\{ \neg r \}$.
+2. The resolvents on $r$ are $\{ \neg p \}$ and $\{ \neg q \}$.
+   The clause $\{ p, q \}$ has no $r$, so it stays.
+3. The new set is $S_1 = \{ \{ p, q \}, \{ \neg p \}, \{ \neg q \} \}$, with the two variables $p$ and $q$.
+4. Remove $p$.
+   The only clause with $p$ is $\{ p, q \}$, and the only clause with $\neg p$ is $\{ \neg p \}$, so the resolvent on $p$ is $\{ q \}$.
+5. The clause $\{ \neg q \}$ has no $p$, so it stays.
+   The new set is $S_2 = \{ \{ q \}, \{ \neg q \} \}$.
+6. Remove $q$.
+   The resolvent of $\{ q \}$ and $\{ \neg q \}$ on $q$ is $\square$.
+7. The set $S_3 = \{ \square \}$ contains the empty clause, so it is unsatisfiable.
+   Each round keeps satisfiability, so $S$ is unsatisfiable.
+
+Check by hand: $\{ \neg r \}$ forces $r = 0$, then $\{ \neg p, r \}$ and $\{ \neg q, r \}$ force $p = q = 0$, and then $\{ p, q \}$ is false.
 
 ## Remarks
 
-Each elimination step is the inductive step of the [[completeness proof for resolution|EQH5KN1VPZ]]: the new set is satisfiable exactly when the old one is.
+Each round is the inductive step of the [[completeness proof for resolution|EQH5KN1VPZ]]: the new set is satisfiable exactly when the old one is.
 If the procedure ends with the empty set of clauses instead, the input is satisfiable.
-For example, without $\set{\neg r}$ the first step has no clause with $\neg r$, so it adds no resolvent and leaves only $\set{\set{p, q}}$.
+For example, without $\{ \neg r \}$ the first round has no clause with $\neg r$, so it adds no resolvent and leaves only $\{ \{ p, q \} \}$.
 The procedure then ends with the empty set, and indeed $p = q = r = 1$ satisfies the smaller input.
-The number of resolvents can grow fast: $a$ clauses with $p$ and $b$ clauses with $\neg p$ give up to $a b$ resolvents.
+
+The number of resolvents can grow fast.
+If $a$ clauses contain $p$ and $b$ clauses contain $\neg p$, one round can add up to $ab$ resolvents.
 
 ## Explanations
 
@@ -55,5 +65,5 @@ The procedure is a decision procedure: it always stops, because each round remov
 Its correctness rests on one fact about each round.
 The new set is satisfiable exactly when the old set is.
 The order of the variables does not change the answer, but it changes the size of the sets in between.
-A trap is to keep the clauses with $p$ after the round.
+Watch out: the clauses with $p$ are not kept after the round.
 They are dropped, since the resolvents carry all that they say about the other variables.

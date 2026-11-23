@@ -16,8 +16,8 @@ sources:
 
 ## Example
 
-The majority function $\operatorname{maj}(p, q, r)$ of three variables is true when at least two of $p, q, r$ are true.
-We find its full [[disjunctive normal form|06S4WGSEQA]] from its [[truth table|05RSK4Q657]].
+The majority function $\operatorname{maj}(p, q, r)$ is true when at least two of $p$, $q$ and $r$ are true.
+We find its full [[disjunctive normal form|06S4WGSEQA]] from its [[truth table|05RSK4Q657]]:
 
 | $p$ | $q$ | $r$ | $\operatorname{maj}$ |
 |---|---|---|---|
@@ -30,22 +30,28 @@ We find its full [[disjunctive normal form|06S4WGSEQA]] from its [[truth table|0
 | 1 | 1 | 0 | 1 |
 | 1 | 1 | 1 | 1 |
 
-1. The function is true at the four rows $(0,1,1)$, $(1,0,1)$, $(1,1,0)$ and $(1,1,1)$, the rows with at least two ones.
-2. Each true row gives a minterm: take $p$ if $p = 1$ in the row and $\neg p$ if $p = 0$, and the same for $q$ and $r$.
-3. The four minterms are $\neg p \land q \land r$, $p \land \neg q \land r$, $p \land q \land \neg r$ and $p \land q \land r$.
-4. Each minterm is true at its own row only, so their disjunction is true exactly at the four true rows.
-5. So the full DNF is
-$$\operatorname{maj}(p,q,r) \equiv (p \land q \land r) \lor (p \land q \land \neg r) \lor (p \land \neg q \land r) \lor (\neg p \land q \land r).$$
-6. By uniqueness of the full DNF, every full DNF of the majority function over $p, q, r$ has these four terms, in some order.
+1. The function is true at the four rows with at least two ones: $(0, 1, 1)$, $(1, 0, 1)$, $(1, 1, 0)$ and $(1, 1, 1)$.
+2. Each true row gives a minterm, with $p$ when $p = 1$ in the row and $\neg p$ when $p = 0$, and the same for $q$ and $r$.
+   The minterms are $\neg p \land q \land r$, $p \land \neg q \land r$, $p \land q \land \neg r$ and $p \land q \land r$.
+3. Each minterm is true at its own row only, so their disjunction is true exactly at the four true rows:
+$$\operatorname{maj}(p, q, r) \equiv (p \land q \land r) \lor (p \land q \land \neg r) \lor (p \land \neg q \land r) \lor (\neg p \land q \land r).$$
+4. The full DNF over $p, q, r$ is unique up to order, so every full DNF of the majority function has exactly these four terms.
+
+Check at the row $(1, 0, 0)$: each term contains $q$ or $r$ as a positive literal, or contains $\neg p$, and each of these is false, so the DNF is false, as the table says.
 
 ## Remarks
 
-A shorter DNF is $(p \land q) \lor (p \land r) \lor (q \land r)$.
-It is true exactly when some pair of the variables is true, that is, when at least two are true.
-It is obtained from the full DNF by the law $(\alpha \land \beta) \lor (\alpha \land \neg\beta) \equiv \alpha$: the first two terms combine to $p \land q$, and $p \land q \land r$ also combines with each of the last two terms.
-Since $\alpha \equiv \alpha \lor \alpha$, the term $p \land q \land r$ may be used in all three combinations.
-The majority function preserves $0$ and $1$, and it is monotone and self-dual, so it lies in four of the five classes of [[Post's functional completeness theorem|WGBR7JHBV4]].
+The full DNF is not the shortest one.
+The law $(\alpha \land \beta) \lor (\alpha \land \neg \beta) \equiv \alpha$ merges $p \land q \land r$ with $p \land q \land \neg r$ into $p \land q$.
+Because $\alpha \equiv \alpha \lor \alpha$, we may reuse $p \land q \land r$ and merge it with each of the last two terms as well.
+The result is
+$$\operatorname{maj}(p, q, r) \equiv (p \land q) \lor (p \land r) \lor (q \land r),$$
+which says that some pair of the variables is true.
+
+The majority function is also a good test case for [[Post's functional completeness theorem|WGBR7JHBV4]].
+It maps $(0, 0, 0)$ to $0$ and $(1, 1, 1)$ to $1$, it is monotone, and it is self-dual, since negating all three inputs negates the output.
 It is not affine, because its algebraic normal form $pq \oplus pr \oplus qr$ has terms of degree $2$.
+So it lies in four of Post's five classes.
 
 ## Explanations
 
@@ -58,7 +64,7 @@ The formula is the "or" of these four parts.
 
 ### L2 human
 
-The majority function is the basic gate of fault-tolerant circuits: three copies of a circuit vote, and one faulty copy is outvoted.
+The majority function is the voting gate of fault-tolerant circuits: three copies of a circuit vote, and one faulty copy is outvoted.
 The full DNF has $4$ terms with $3$ literals each, and the short DNF has $3$ terms with $2$ literals each.
-A trap is to forget the row $(1,1,1)$: "at least two" includes "all three".
-Without the term $p \land q \land r$, the full DNF would describe "exactly two".
+Watch out for the row $(1, 1, 1)$: "at least two" includes "all three".
+Without the term $p \land q \land r$, the full DNF would describe the function "exactly two".
