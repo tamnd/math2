@@ -129,7 +129,7 @@ A *parameter* of a rule instance is a constituent that is not principal, and par
 
 - C1, preservation of formulas: every formula in a premise is a subformula of a formula in the conclusion, except in cut.
 - C2, shape-alikeness: congruent parameters are occurrences of the same structure.
-- C3, non-proliferation: each congruence class of parameters contains at most one constituent of the conclusion. So contraction is allowed, since one $X$ of the conclusion matches two copies in the premise, but no rule may copy one premise constituent into two places of the conclusion.
+- C3, non-proliferation: each congruence class of parameters contains at most one constituent of the conclusion. Contraction passes, but a rule may not copy a premise constituent into two places of the conclusion.
 - C4, position-alikeness: congruent parameters are all antecedent parts or all succedent parts.
 - C5, display of principal constituents: a principal formula of a conclusion is the whole antecedent or the whole succedent.
 - C6 and C7, closure under substitution: replacing a congruence class of formula parameters in succedent (C6) or antecedent (C7) position by any structure gives an instance of the same rule.

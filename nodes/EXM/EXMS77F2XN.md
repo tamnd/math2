@@ -25,7 +25,7 @@ A premise of a rule is *invertible* when the conclusion of an instance is deriva
 
 1. **G3cp.** Every rule of G3cp is height-preserving invertible.
 2. **G3ip, the invertible rules.** In G3ip, the rules L${\wedge}$, R${\wedge}$, L${\vee}$ and R${\to}$ are height-preserving invertible.
-   Moreover, if $\vdash_n A \to B, \Gamma \Rightarrow C$, then $\vdash_n B, \Gamma \Rightarrow C$.
+   Also, if $\vdash_n A \to B, \Gamma \Rightarrow C$, then $\vdash_n B, \Gamma \Rightarrow C$.
 3. **G3ip, the other rules.** The rule R${\vee}$ is not invertible, and the left premise of L${\to}$ is not invertible.
 
 ## Remarks

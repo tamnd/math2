@@ -22,7 +22,7 @@ The goal is the sequent $\Rightarrow x : \Box p \to p$.
 ### The derivation
 
 1. The sequent $x : p, x : \Box p, x R x \Rightarrow x : p$ is initial, because $x : p$ occurs on both sides.
-2. Apply ${\Box}$L with principal formula $x : \Box p$ and relational atom $x R x$, so the world $y$ of the rule is $x$. The premise is step 1, and the conclusion is $x : \Box p, x R x \Rightarrow x : p$.
+2. Apply ${\Box}$L to step 1 with principal formula $x : \Box p$ and atom $x R x$, so the world $y$ of the rule is $x$. The conclusion is $x : \Box p, x R x \Rightarrow x : p$.
 3. Apply Ref with $\Gamma = x : \Box p$ and $\Delta = x : p$. The premise is step 2, and the conclusion is $x : \Box p \Rightarrow x : p$.
 4. Apply ${\to}$R with $A = \Box p$ and $B = p$. The conclusion is $\Rightarrow x : \Box p \to p$.
 

@@ -32,8 +32,8 @@ Each step is an initial sequent or one rule of G3K4, and no step uses cut.
 
 ### The eigenvariable conditions
 
-7. In step 4 the rule infers $\Gamma \Rightarrow \Delta, y : \Box p$ from $y R z, \Gamma \Rightarrow \Delta, z : p$, with $\Gamma = x : \Box p, x R y$ and $\Delta$ empty. The label $z$ does not occur in $x : \Box p, x R y \Rightarrow y : \Box p$.
-8. In step 5 the rule infers $\Gamma \Rightarrow \Delta, x : \Box\Box p$ from $x R y, \Gamma \Rightarrow \Delta, y : \Box p$, with $\Gamma = x : \Box p$ and $\Delta$ empty. The label $y$ does not occur in $x : \Box p \Rightarrow x : \Box\Box p$.
+7. Step 4 is ${\Box}$R with $\Gamma = x : \Box p, x R y$ and $\Delta$ empty, so the premise is $y R z, \Gamma \Rightarrow z : p$. Its eigenvariable $z$ does not occur in the conclusion $\Gamma \Rightarrow y : \Box p$.
+8. Step 5 is ${\Box}$R with $\Gamma = x : \Box p$ and $\Delta$ empty, so the premise is $x R y, \Gamma \Rightarrow y : \Box p$. Its eigenvariable $y$ does not occur in the conclusion $\Gamma \Rightarrow x : \Box\Box p$.
 
 ### Without transitivity
 
