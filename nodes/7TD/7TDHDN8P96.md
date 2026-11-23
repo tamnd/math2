@@ -16,87 +16,109 @@ sources:
 
 ## Summary
 
-Many-sorted first-order logic has several domains of objects, one for each sort, instead of one domain.
-Each variable has a sort, and each function and relation symbol of the [[signature|WDVVEYD6AT]] says which sorts its arguments and its value have.
-Only well-sorted [[terms|6D3WA7N2W4]] and formulas are allowed, and a quantifier $\forall x{:}s$ ranges over the domain of the sort $s$.
-Many-sorted logic has the same metatheory as one-sorted [[first-order logic|086QKPF0A6]], to which it reduces by unary predicates for the sorts.
+A vector space has two kinds of objects, scalars and vectors, and the law $a \ast (u + v) = a \ast u + a \ast v$ only makes sense when $a$ is a scalar and $u$, $v$ are vectors.
+Many-sorted logic builds this into the grammar: each variable has a sort, and a quantifier ranges over the objects of one sort only.
+It has the same theorems as ordinary [[first-order logic|086QKPF0A6]], but its formulas look like the mathematics they describe.
+
+Exactly, a many-sorted [[signature|WDVVEYD6AT]] has a set $S$ of sorts.
+Each function symbol has a type $f \colon s_1 \times \dots \times s_n \to s$, and each relation symbol a type $R \subseteq s_1 \times \dots \times s_n$, with all $s_i$ and $s$ in $S$.
+Each sort has its own variables, and $f(t_1, \dots, t_n)$ is a [[term|6D3WA7N2W4]] of sort $s$ only when each $t_i$ is a term of sort $s_i$.
+A [[structure|983GZBQYT4]] gives a nonempty domain $M_s$ for each sort $s$ and maps $f^{\mathcal{M}} \colon M_{s_1} \times \dots \times M_{s_n} \to M_s$.
+A quantifier $\forall x{:}s$ ranges over $M_s$.
 
 ## Motivation
 
-Many structures in mathematics have two or more kinds of objects.
-A vector space has scalars and vectors, a graph can be given by vertices and edges, and a geometry has points and lines.
-In one-sorted logic, all these objects live in one domain, and each axiom must say which kind of object it speaks about.
-Sorts make this bookkeeping part of the syntax, so that ill-sorted expressions such as "scalar plus vector" are not even terms.
+Many structures have several kinds of objects.
+A vector space has scalars and vectors, a graph can be given by vertices and edges, and a plane geometry has points and lines.
+In one-sorted logic all of these live in one domain, and each axiom must say which kind of object it speaks about.
+Sorts make this bookkeeping part of the syntax, so that an expression such as "scalar plus vector" is not even a term.
+
+Sorts also matter outside mathematics.
+Typed programming languages and proof assistants check sorts as types, and algebraic specification of software uses many-sorted equational logic.
+Later sub-areas use sorts for second-order logic with general models and for the imaginaries of model theory.
 
 ## Notation
 
-1. A many-sorted signature has a set $S$ of sorts. A function symbol has a type $f \colon s_1 \times \dots \times s_n \to s$, and a relation symbol has a type $R \subseteq s_1 \times \dots \times s_n$.
-2. Each sort $s$ has its own countable set of variables, written $x{:}s$ or $x^s$.
-3. A structure $\mathcal{M}$ has a nonempty domain $M_s$ for each sort $s$, and $f^{\mathcal{M}} \colon M_{s_1} \times \dots \times M_{s_n} \to M_s$.
-4. Equality is usually one symbol $=_s$ for each sort $s$, between terms of the same sort.
-5. In universal algebra, the term part of this syntax is the theory of [[many-sorted algebras|WAQJJ5GX68]].
+Books write a variable of sort $s$ as $x{:}s$, $x^s$ or $x_s$, and a function type as $f \colon s_1 \times \dots \times s_n \to s$ or $f \colon s_1 \cdots s_n \to s$.
+Equality is usually one symbol $=_s$ for each sort, used only between terms of the same sort, and the subscript is often dropped.
+The term part of this syntax is the theory of [[many-sorted algebras|WAQJJ5GX68]] in universal algebra.
 
 ## Remarks
 
-### Examples
+### A two-sorted theory
 
-1. [[Vector spaces as two-sorted structures|Z8Z0HGXK6D]], with a sort for scalars and a sort for vectors, describe all vector spaces over all fields in one theory.
-2. [[The relativization of a two-sorted sentence|HHZMPDMADJ]] translates many-sorted sentences into one-sorted ones with a unary predicate for each sort.
-3. Incidence geometry uses sorts for points and lines and one relation symbol $I$ of type $\mathrm{point} \times \mathrm{line}$.
-4. Henkin semantics for second-order logic is a many-sorted first-order logic, with one sort for elements and one sort for each arity of relations.
+The standard example is [[vector spaces as two-sorted structures|Z8Z0HGXK6D]].
+The sorts are $F$ for scalars and $V$ for vectors, and scalar multiplication has the type $\ast \colon F \times V \to V$.
+One theory then has all vector spaces over all fields as its models.
+It can also quantify over scalars, so "$\dim \ge 2$" becomes the single sentence
+$$\exists u{:}V \, \exists v{:}V \, \forall a{:}F \, \forall b{:}F \, \big( a \ast u + b \ast v = 0_V \to (a = 0_F \land b = 0_F) \big).$$
+Incidence geometry is another example, with sorts for points and lines and one relation symbol $I$ of type $\mathrm{point} \times \mathrm{line}$.
 
-### Non-examples
+### What the sorts rule out
 
-1. [[The expression "scalar plus vector"|E65AYA3Q14]] is not a term of the two-sorted language of vector spaces, because $+$ on vectors needs two arguments of the vector sort.
-2. Full second-order logic is not a many-sorted first-order logic, because its relation sort must range over all subsets of the domain, not over any nonempty set.
-3. A two-sorted structure with an empty domain for one sort is not allowed in the usual semantics, which asks every $M_s$ to be nonempty.
+Sorts reject ill-formed expressions before any question of truth comes up.
+In the language of vector spaces, [[adding a scalar to a vector is not a well-sorted term|E65AYA3Q14]], because $+_V$ needs two arguments of sort $V$ and $+_F$ needs two of sort $F$.
+In the same way $v \ast a$ is not a term, since $\ast$ wants its scalar first.
+A structure with an empty domain for one sort is also ruled out in the usual semantics, which asks each $M_s$ to be nonempty.
 
-### Basic properties
+### Back to one sort
 
-1. Relativization: add a unary predicate $P_s$ for each sort, and replace $\forall x{:}s \, \varphi$ by $\forall x \, (P_s(x) \to \varphi^*)$ and $\exists x{:}s \, \varphi$ by $\exists x \, (P_s(x) \land \varphi^*)$.
-2. With axioms saying that each $P_s$ is nonempty and that each $f$ maps the right sorts to the right sort, $\Sigma \models \varphi$ in many-sorted logic exactly when $\Sigma^* \cup \mathrm{Ax} \models \varphi^*$ in one-sorted logic.
-3. So the completeness theorem, the compactness theorem and the Löwenheim-Skolem theorem hold for many-sorted logic.
-4. Unique readability and the definitions of free variables and substitution carry over, with sorts checked at each clause.
-5. Substitution $\varphi[t/x]$ is defined only when $t$ has the sort of $x$.
+Sorts add convenience but no power.
+Add a unary relation symbol $P_s$ for each sort $s$, and translate each formula $\varphi$ to $\varphi^*$ by
+$$(\forall x{:}s \, \psi)^* = \forall x \, (P_s(x) \to \psi^*), \qquad (\exists x{:}s \, \psi)^* = \exists x \, (P_s(x) \land \psi^*).$$
+Add axioms $\mathrm{Ax}$ that say each $P_s$ is nonempty and each function symbol maps arguments of the right sorts to a value of the right sort.
+Then for sentences, $\Sigma \models \varphi$ holds in many-sorted logic exactly when $\Sigma^* \cup \mathrm{Ax} \models \varphi^*$ holds in one-sorted logic.
+[[The relativization of a two-sorted sentence|HHZMPDMADJ]] carries this out in full.
+So completeness, compactness and the Löwenheim-Skolem theorem hold for many-sorted logic too.
+Unique readability, free variables and substitution carry over, with one extra rule: $\varphi[t/x]$ is defined only when $t$ has the sort of $x$.
+
+### Watch out
+
+The first trap is to think that sorts make the logic stronger than first-order logic; the translation above shows they do not.
+The second trap is to forget the nonempty axioms $\exists x \, P_s(x)$.
+Without them, a one-sorted structure may have no element of sort $s$, and then $\forall x \, (P_s(x) \to x \neq x)$, the translation of $\forall x{:}s \, (x \neq x)$, is true there although no many-sorted structure makes it true.
+The third trap is the order of arguments: with $\ast \colon F \times V \to V$, the expression $v \ast a$ is not a term, although books write both $av$ and $va$.
 
 ### History
 
 Logicians used sorted variables informally for a long time, for example for points and lines in geometry.
-Hao Wang's paper of 1952 on the logic of many-sorted theories studied the many-sorted calculus as a formal system.
-Henkin's completeness theorem of 1950 for the theory of types treated higher-order logic with general models as many-sorted first-order logic.
+Henkin's completeness theorem of 1950 for the theory of types treated higher-order logic with general models as a many-sorted first-order logic.
+Hao Wang studied the many-sorted calculus as a formal system in a paper of 1952 on the logic of many-sorted theories.
 
-### Common errors
+### Try it
 
-1. A student thinks that sorts add expressive power beyond first-order logic. By relativization, they do not.
-2. A student forgets that each sort needs a nonempty domain. The relativization then needs the axioms $\exists x \, P_s(x)$.
-3. A student applies a function symbol to an argument of the wrong sort, for example writes $v \cdot a$ when the scalar multiplication has type $F \times V \to V$.
+In the two-sorted language of vector spaces, is $(a \cdot_F b) \ast (u +_V v)$ a term, and of which sort?
+Yes: $a \cdot_F b$ has sort $F$ and $u +_V v$ has sort $V$, so $\ast$ gives a term of sort $V$.
+
+Relativize $\exists v{:}V \, \forall a{:}F \, (a \ast v = v)$.
+The answer is $\exists v \, \big( P_V(v) \land \forall a \, (P_F(a) \to a \ast v = v) \big)$, which is true in every vector space with $v = 0_V$.
 
 ## Explanations
 
 ### L1 human
 
-Some structures have two kinds of things, like numbers and vectors.
-Many-sorted logic gives each kind its own variables.
-For example, $a$ and $b$ stand for numbers, and $u$ and $v$ stand for vectors.
-Then "$a \cdot v$" makes sense, but "$a + v$" does not, because one cannot add a number to a vector.
+Some structures have two kinds of things, like numbers and arrows in the plane.
+Many-sorted logic gives each kind its own letters: $a$ and $b$ for numbers, $u$ and $v$ for arrows.
+Then "$2$ times the arrow $(1, 3)$" makes sense and gives $(2, 6)$.
+But "$2$ plus the arrow $(1, 3)$" is not allowed, because the rules of the language forbid it before anyone asks what it means.
 
 ### L2 human
 
-We write the axiom $a \cdot (u + v) = a \cdot u + a \cdot v$ of vector spaces in two-sorted and in one-sorted form.
-
-1. Two-sorted: $\forall a{:}F \, \forall u{:}V \, \forall v{:}V \, (a \cdot (u + v) = a \cdot u + a \cdot v)$.
-2. One-sorted, with predicates $F$ and $V$: $\forall a \, \forall u \, \forall v \, ((F(a) \land V(u) \land V(v)) \to a \cdot (u + v) = a \cdot u + a \cdot v)$.
-3. The one-sorted form also needs axioms such as $\forall a \, \forall v \, ((F(a) \land V(v)) \to V(a \cdot v))$.
-4. In the one-sorted form, $a \cdot v$ also has some value when $a$ is a vector, and the axioms say nothing about it.
-
-The typical use of sorts is to write the axioms of structures with several kinds of objects without these side conditions.
-A trap: the one-sorted translation must interpret each function symbol on all arguments, including ill-sorted ones.
+We write the law $a \ast (u + v) = a \ast u + a \ast v$ in two-sorted and in one-sorted form.
+The two-sorted form is
+$$\forall a{:}F \, \forall u{:}V \, \forall v{:}V \, \big( a \ast (u +_V v) = a \ast u +_V a \ast v \big).$$
+The one-sorted form, with unary predicates $F$ and $V$ for the sorts, is
+$$\forall a \, \forall u \, \forall v \, \big( (F(a) \land V(u) \land V(v)) \to a \ast (u + v) = a \ast u + a \ast v \big).$$
+The one-sorted theory also needs closure axioms such as $\forall a \, \forall v \, \big( (F(a) \land V(v)) \to V(a \ast v) \big)$.
+And in a one-sorted structure, $a \ast v$ has some value even when $a$ is a vector, about which the axioms say nothing.
+This is the typical gain of sorts: the axioms are written without side conditions and without meaningless terms.
+Watch out that the one-sorted translation must still give each function symbol a value on ill-sorted arguments.
 
 ### L3 human
 
-Many-sorted logic is the base of model theory with imaginaries, where $T^{\mathrm{eq}}$ adds a sort for each definable equivalence relation.
+Many-sorted logic underlies model theory with imaginaries, where $T^{\mathrm{eq}}$ adds a sort for each definable equivalence relation.
 Valued fields are often studied in a three-sorted language, with sorts for the field, the value group and the residue field.
-Algebraic specification in computer science uses many-sorted equational logic, and order-sorted logic adds a partial order on the sorts.
+Algebraic specification uses many-sorted equational logic, and order-sorted logic adds a partial order on the sorts.
 Type theory goes further: types can depend on terms, and function types are sorts of their own.
 Henkin semantics shows that higher-order logic with general models is a many-sorted first-order logic, so it is complete and compact.
-Full second-order logic differs only in its semantics, which fixes the relation sorts to be full power sets.
+Full second-order logic differs only in its semantics, which forces the relation sorts to be full power sets.

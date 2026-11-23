@@ -17,8 +17,7 @@ sources:
 ## Statement
 
 Let $\varphi$ be a $\sigma$-sentence in [[prenex normal form|CS82V969DE]] whose prefix variables are pairwise distinct.
-Let $\varphi^S$ be its [[Skolem normal form|GCPQGMJYEV]] over the signature $\sigma^S \supseteq \sigma$.
-It is obtained by repeated Skolemization of the leftmost $\exists$, each time with a new function symbol.
+Let $\varphi^S$ be its [[Skolem normal form|GCPQGMJYEV]] over the signature $\sigma^S \supseteq \sigma$, obtained by repeated Skolemization of the leftmost $\exists$, each time with a new function symbol.
 Assume the [[axiom of choice|0HTGB13FE2]].
 
 1. Every $\sigma^S$-[[structure|983GZBQYT4]] that satisfies $\varphi^S$ also satisfies $\varphi$.
@@ -31,27 +30,40 @@ By the [[prenex normal form theorem|ME9J33BFNC]], every sentence is equivalent t
 
 ### Why each hypothesis is needed
 
-1. The function symbols must be new. Skolemizing $\forall x \, \exists y \, \neg (y = f(x))$ with the old symbol $f$ gives $\forall x \, \neg (f(x) = f(x))$, which is unsatisfiable. The original sentence holds in every structure with at least two elements.
-2. The prefix variables must be distinct. Otherwise $\forall x \, \exists y \, \forall x \, \neg (x = y)$ would become $\forall x \, \forall x \, \neg (x = f(x))$, with a captured $x$. The first sentence is unsatisfiable, and the second has a model with two elements.
-3. The axiom of choice is used in part 2 to choose a witness for each tuple. For a countable $\mathcal{M}$, a fixed enumeration of $M$ gives the least witness instead, without choice.
+The function symbols must be new.
+Skolemizing $\forall x \, \exists y \, \neg (y = f(x))$ with the old symbol $f$ gives $\forall x \, \neg (f(x) = f(x))$, which is unsatisfiable.
+The original sentence holds in every structure with at least two elements.
+
+The prefix variables must be distinct.
+Otherwise $\forall x \, \exists y \, \forall x \, \neg (x = y)$ would become $\forall x \, \forall x \, \neg (x = f(x))$, where the inner $\forall x$ captures the argument of $f$.
+The first sentence is unsatisfiable, since the witness $y$ would differ from itself, and the second has a model with two elements and $f$ swapping them.
+
+The axiom of choice is used in part 2 to choose a witness for each tuple.
+For a countable $\mathcal{M}$, a fixed enumeration of its domain gives the first witness instead, without choice.
 
 ### Consequences
 
-1. A sentence is unsatisfiable exactly when its Skolem form is unsatisfiable. Refutation methods, such as resolution, work with Skolem forms.
-2. [[Herbrand's theorem|VZ21F10WRS]] reduces the unsatisfiability of $\varphi^S$ to that of a finite set of ground instances of its matrix.
-3. Skolem functions give a proof of the downward [[Löwenheim-Skolem theorem|484M0TZ1S7]]: in a model of $\varphi^S$, the closure of a countable nonempty set under all function symbols of $\sigma^S$ is a countable model of $\varphi$.
+A sentence is unsatisfiable exactly when its Skolem form is unsatisfiable, so refutation methods such as resolution can work with Skolem forms.
+[[Herbrand's theorem|VZ21F10WRS]] then reduces the unsatisfiability of $\varphi^S$ to that of a finite set of ground instances of its matrix.
+Skolem functions also give a proof of the downward [[Löwenheim-Skolem theorem|484M0TZ1S7]] for a countable signature.
+In a model of $\varphi^S$, the closure of a countable nonempty set under all function symbols of $\sigma^S$ is a countable model of $\varphi^S$, and so of $\varphi$.
 
 ### Converse
 
 The converse of part 1 fails: $\varphi$ need not imply $\varphi^S$.
-For example, $\forall x \, \exists y \, R(x, y)$ holds in a structure where $f$ is not a witness function, and there $\forall x \, R(x, f(x))$ fails.
-See [[a sentence and its Skolem form are not equivalent|BCTD7FZTSK]].
+For example, $\forall x \, \exists y \, R(x, y)$ holds in a structure where $f$ is not a witness function, and there $\forall x \, R(x, f(x))$ fails, as in [[a sentence and its Skolem form are not equivalent|BCTD7FZTSK]].
 
 ### Generalizations
 
-1. For a set $\Sigma$ of sentences, Skolemize each one with its own new symbols. Then $\Sigma$ is satisfiable exactly when the set of Skolem forms is.
-2. A Skolem theory adds a Skolem function for every formula $\exists y \, \chi(\bar{x}, y)$, together with the axiom $\forall \bar{x} \, (\exists y \, \chi \to \chi(\bar{x}, f_\chi(\bar{x})))$. The result is a conservative extension.
-3. The dual Herbrand form replaces the universal quantifiers by new function symbols. A sentence is valid exactly when its Herbrand form is valid.
+For a set $\Sigma$ of sentences, Skolemize each one with its own new symbols.
+Then $\Sigma$ is satisfiable exactly when the set of Skolem forms is.
+
+A Skolem theory adds a Skolem function $f_\chi$ for every formula $\exists y \, \chi(\bar{x}, y)$, together with the axiom
+$$\forall \bar{x} \, \big( \exists y \, \chi(\bar{x}, y) \to \chi(\bar{x}, f_\chi(\bar{x})) \big).$$
+The result is a conservative extension of the original theory.
+
+The dual Herbrand form replaces the universal quantifiers by new function symbols.
+A sentence is valid exactly when its Herbrand form is valid.
 
 ## History
 
@@ -71,21 +83,23 @@ If the second sentence is true, then each person has a mother, namely $m(x)$.
 
 ### L2 human
 
-We Skolemize $\varphi = \exists u \, \forall x \, \exists y \, R(u, x, y)$.
+We Skolemize $\varphi = \exists u \, \forall x \, \exists y \, R(u, x, y)$ and test the theorem in one structure.
 
-1. The leftmost $\exists u$ has no universal quantifier before it. So $u$ becomes a new constant $c$: $\forall x \, \exists y \, R(c, x, y)$.
-2. The next $\exists y$ follows $\forall x$. So $y$ becomes $g(x)$ for a new unary symbol $g$: $\varphi^S = \forall x \, R(c, x, g(x))$.
-3. In $(\mathbb{N}, <)$ with $R(u, x, y)$ read as $u \le x < y$, $\varphi$ is true with $u = 0$.
-4. The expansion with $c = 0$ and $g(x) = x + 1$ satisfies $\varphi^S$.
+1. The leftmost $\exists u$ has no universal quantifier before it.
+   So $u$ becomes a new constant $c$, and we get $\forall x \, \exists y \, R(c, x, y)$.
+2. The next $\exists y$ follows $\forall x$.
+   So $y$ becomes $g(x)$ for a new unary symbol $g$, and $\varphi^S = \forall x \, R(c, x, g(x))$.
+3. In $(\mathbb{N}, <)$ with $R(u, x, y)$ read as $u \le x < y$, the sentence $\varphi$ is true with $u = 0$.
+4. The expansion with $c = 0$ and $g(x) = x + 1$ satisfies $\varphi^S$, as part 2 promises.
 
-The typical use is in automated reasoning: $\varphi^S$ is in clause form after the matrix goes to conjunctive normal form.
-A trap: the Skolem function depends only on the universal variables to its left, not on all of them.
+The typical use is in automated reasoning, where $\varphi^S$ becomes a set of clauses once its matrix is put in conjunctive normal form.
+Watch out: the Skolem function depends only on the universal variables to its left, not on all of them.
 
 ### L3 human
 
 Skolemization trades quantifier alternation for function symbols.
-Over the expanded signature, a sentence becomes universal, and satisfiability becomes a question about the term model built from the Skolem functions.
+Over the expanded signature a sentence becomes universal, and satisfiability becomes a question about the term model built from the Skolem functions.
 This is the bridge to Herbrand's theorem and to resolution, where unification of Skolem terms replaces the choice of witnesses.
-In model theory, a theory with built-in Skolem functions has definable witnesses, and Skolem hulls give elementary substructures.
+In model theory, a theory with built-in Skolem functions has definable witnesses, and Skolem hulls are elementary substructures.
 The axiom of choice is needed for part 2 in general.
-For satisfiability alone a countable model suffices, and there the witnesses can be chosen without choice.
+For part 3 over a countable signature it is not, because a satisfiable sentence then has a countable model, where witnesses can be chosen by an enumeration.

@@ -17,38 +17,42 @@ sources:
 ## Example
 
 Let $P$ be a unary and $R$ a binary relation symbol, and let
-$$\varphi = \forall x \, (P(x) \to \exists y \, R(x, y)).$$
-We check that $\varphi$ is not in [[prenex normal form|CS82V969DE]], and we find a prenex form.
+$$\varphi = \forall x \, \big( P(x) \to \exists y \, R(x, y) \big).$$
+We check that $\varphi$ is not in [[prenex normal form|CS82V969DE]], and then we find a prenex form.
 
 1. By the [[definition|1NKD8P3PS0]], a prenex formula is a string of quantifiers followed by a quantifier-free matrix.
-2. The only possible prefix of $\varphi$ is $\forall x$, because the next symbol is a bracket, not a quantifier.
-3. The rest, $P(x) \to \exists y \, R(x, y)$, contains the quantifier $\exists y$. So it is not quantifier-free, and $\varphi$ is not prenex.
-4. The variable $y$ is not free in $P(x)$. So $P(x) \to \exists y \, R(x, y) \equiv \exists y \, (P(x) \to R(x, y))$.
+2. The prefix of $\varphi$ can only be $\forall x$, because the next symbol is a bracket, not a quantifier.
+3. What follows, $P(x) \to \exists y \, R(x, y)$, contains the quantifier $\exists y$.
+   So it is not quantifier-free, and $\varphi$ is not prenex.
+4. The variable $y$ is not free in $P(x)$, so the consequent rule gives
+   $$P(x) \to \exists y \, R(x, y) \;\equiv\; \exists y \, \big( P(x) \to R(x, y) \big).$$
 5. Hence $\varphi \equiv \forall x \, \exists y \, (P(x) \to R(x, y))$, which is prenex, as the [[prenex normal form theorem|ME9J33BFNC]] predicts.
 
 So a leading quantifier does not make a formula prenex.
 
 ## Remarks
 
-Other non-examples follow the same pattern.
-The formula $\neg \forall x \, P(x)$ has a quantifier under a negation.
-The formula $\exists x \, P(x) \land \exists y \, Q(y)$ starts with a quantifier, but $\exists y$ stands inside the conjunction.
+What matters is whether some quantifier sits under a connective.
+The formula $\exists x \, P(x) \land \exists y \, Q(y)$ also starts with a quantifier, but $\exists y$ stands inside the conjunction.
 Its prenex form is $\exists x \, \exists y \, (P(x) \land Q(y))$.
+The formula $\neg \forall x \, P(x)$ fails for the opposite reason: its quantifier comes after a negation, so its prefix is empty.
+
+Step 4 is safe here because $y$ does not occur in $P(x)$.
+If the antecedent were $P(y)$, with $y$ free, you would first rename the bound $y$ to a fresh $z$ and get $\exists z \, (P(y) \to R(x, z))$.
 
 ## Explanations
 
 ### L1 human
 
-"Every $x$ with $P$ has some $y$ related to it" starts with "every", but a "some" sits inside the condition.
-So not all quantifiers are at the front.
-Moving "some $y$" to the front gives "for every $x$ there is a $y$ such that if $P(x)$, then $R(x, y)$".
+"Every $x$ with property $P$ is related to some $y$" starts with "every", but a "some" sits inside the condition.
+So not all the quantifiers are at the front.
+Moving "some $y$" forward gives "for every $x$ there is a $y$ such that, if $P(x)$, then $R(x, y)$".
 
 ### L2 human
 
-We check step 4 in a structure with a nonempty domain, for a fixed $x$.
-
-1. If $P(x)$ is false, both sides are true. The right side needs some $y$, and the domain is nonempty.
-2. If $P(x)$ is true, both sides say that some $y$ satisfies $R(x, y)$.
-
+We check step 4 in a structure with a nonempty domain, for a fixed value of $x$.
+If $P(x)$ is false, both sides are true: the left side because its antecedent is false, the right side because any $y$ works, and there is at least one.
+If $P(x)$ is true, both sides say that some $y$ satisfies $R(x, y)$.
+So the two sides agree in every case.
 The typical use of this non-example is in exercises that ask for the prefix type of a formula.
-A trap: the prefix type of $\varphi$ is $\forall \exists$, not $\forall$, so $\varphi$ is $\Pi_2$ and not $\Pi_1$.
+Watch out: the prefix type of $\varphi$ is $\forall \exists$, not $\forall$, so $\varphi$ is a $\Pi_2$ formula and not a $\Pi_1$ formula.
