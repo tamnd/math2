@@ -16,8 +16,8 @@ sources:
 
 ## Example
 
-The statement is: if $r$ is a rational number and $x$ is an [[irrational number|0DZXAXEJQ9]], then $r + x$ is irrational.
-Here a real number is irrational when it is not rational, that is, not of the form $a/b$ with integers $a$ and $b \ne 0$.
+The statement is that if $r$ is a rational number and $x$ is an [[irrational number|0DZXAXEJQ9]], then $r + x$ is irrational.
+A real number is irrational when it is not of the form $a/b$ with integers $a$ and $b \ne 0$.
 A student hands in the following proof.
 
 > (1) Suppose that $r$ is rational, $x$ is irrational, and $r + x$ is rational.
@@ -26,35 +26,40 @@ A student hands in the following proof.
 > (4) So $x$ is rational, which contradicts the hypothesis that $x$ is irrational.
 > (5) Hence $r + x$ is irrational.
 
-We check the proof by the method of [[checking a proof|4M98ZZNK0E]], and we write a report.
+We check it by the method of [[checking a proof|4M98ZZNK0E]].
+The frame is a [[proof by contradiction|0J0XBKG64S]], and line (1) assumes the correct negation, since a real number that is not irrational is rational.
+Lines (2) and (3) are correct: one names $r + x$, and the other subtracts $r$ from both sides.
+Line (4) claims that $q - r$ is rational without a reason.
+The claim is true, so this is a gap, not an error.
+It is filled by writing $q = a/b$ and $r = c/d$ with integers $a, b, c, d$ and $b, d \ne 0$, so that $q - r = (ad - bc)/(bd)$, a quotient of integers with a nonzero denominator.
 
-1. The frame. The proof is a [[proof by contradiction|0J0XBKG64S]]. Line (1) assumes the negation of the conclusion. The number $r + x$ is real, and a real number that is not irrational is rational, so the negation is correct.
-2. Line (2) names the rational number $r + x$. It is correct.
-3. Line (3) subtracts $r$ from both sides of $r + x = q$. It is correct.
-4. Line (4) claims that $q - r$ is rational, and gives no reason. The claim is true, so this is a gap, not an error.
-5. The repair of line (4). Write $q = a/b$ and $r = c/d$ with integers $a, b, c, d$ and $b, d \ne 0$. Then $q - r = (ad - bc)/(bd)$, where $ad - bc$ is an integer and $bd$ is a nonzero integer.
-6. The use of the hypotheses. "$x$ is irrational" is used in line (4) for the contradiction. "$r$ is rational" is used in line (4), inside the claim that $q - r$ is rational.
-7. A case where the conclusion fails. Drop "$r$ is rational", and take $r = -\sqrt{2}$ and $x = \sqrt{2}$. Then $r + x = 0$ is rational, so the conclusion fails.
-8. The proof on this case. Lines (1) to (3) still hold, with $q = 0$. Line (4) fails, because $q - r = \sqrt{2}$ is not rational. So the dropped hypothesis is used exactly where the gap was found.
+Both hypotheses are used in line (4): "$x$ is irrational" for the contradiction, and "$r$ is rational" inside the claim about $q - r$.
+To confirm this, drop "$r$ is rational" and take $r = -\sqrt{2}$ and $x = \sqrt{2}$, so that $r + x = 0$ is rational and the conclusion fails.
+Lines (1) to (3) still hold with $q = 0$, and line (4) fails, since $q - r = \sqrt{2}$.
+So the dropped hypothesis enters exactly where the gap was found.
 
-The report:
+The report reads as follows.
 
-1. Summary: the proof assumes that $r + x$ is rational and derives that $x$ is rational, a contradiction.
-2. Verdict: correct with a minor gap.
-3. Line (4): the claim "the difference of two rational numbers is rational" needs a reason. The two-line computation of item 5 fills it.
-4. Presentation: the proof should say that $r$ and $x$ are real numbers, and the end of the proof by contradiction is clear and correct.
+> Summary: the proof assumes that $r + x$ is rational and derives that $x$ is rational, a contradiction.
+> Verdict: correct with a minor gap.
+> Line (4): the claim that a difference of rational numbers is rational needs a reason, and a two-line computation with fractions supplies it.
+> Presentation: the proof should say that $r$ and $x$ are real numbers.
 
 ## Remarks
 
-1. The gap in line (4) is minor for a reader who knows the arithmetic of fractions. In a first course on proofs, where the closure of the [[rational numbers|0NCJ5WXN6Z]] under subtraction is new, the grader may ask for the computation.
-2. The test of items 7 and 8 shows that the gap is the only place where the hypothesis on $r$ enters. This tells the checker that the gap is a real part of the proof, not a decoration.
-3. When the operation changes from addition to multiplication, the statement needs a new hypothesis. For $r = 0$ the product $r x = 0$ is rational, so the correct statement assumes $r \ne 0$, and line (4) uses $x = q / r$.
+The gap in line (4) is minor for a reader who knows the arithmetic of fractions.
+In a first course on proofs, where the closure of the [[rational numbers|0NCJ5WXN6Z]] under subtraction is new, a grader may ask for the computation.
+
+The test with $r = -\sqrt{2}$ shows that the gap is the only place where the hypothesis on $r$ enters, so the gap is a real part of the proof and not a decoration.
+
+For products the statement needs a new hypothesis.
+With $r = 0$ the product $rx = 0$ is rational, so the correct statement assumes $r \ne 0$, and line (4) then uses $x = q/r$.
 
 ## Explanations
 
 ### L1 human
 
-The claim is: a fraction plus a number that is not a fraction is never a fraction.
+The claim is that a fraction plus a number that is not a fraction is never a fraction.
 The student's proof says: if the sum were a fraction, then the non-fraction would be a fraction minus a fraction.
 A careful checker asks why a fraction minus a fraction is a fraction.
 The answer is a short computation, for example $\frac{3}{4} - \frac{1}{6} = \frac{18 - 4}{24} = \frac{14}{24}$.
@@ -62,13 +67,11 @@ So the proof is correct, but one reason is missing, and the report says so.
 
 ### L2 human
 
-A student report has a fixed form, and each part has a purpose.
+Each part of the report has a purpose.
+The summary shows that the checker understood the method of the proof.
+The verdict is one of four: correct, correct with minor gaps, incomplete, or wrong.
+Each problem is tied to a line and has a kind, such as gap, error or unclear notation, and a repair when one is known.
+Comments on presentation stay separate from problems of logic.
 
-1. The summary shows that the checker understood the method of the proof.
-2. The verdict is one of four words: correct, correct with minor gaps, incomplete, wrong.
-3. Each problem is tied to a line and has a kind (gap, error, unclear notation) and a repair when one is known.
-4. The comments on the presentation are separate from the problems of logic.
-
-The typical use is peer assessment in a course: each student checks the proof of another student and writes such a report.
-A trap is to call the gap of line (4) an error.
-An error is a false step, and the step of line (4) is true.
+In peer assessment, each student checks another student's proof and writes such a report.
+Watch out: the gap in line (4) is not an error, because an error is a false step and the step of line (4) is true.
