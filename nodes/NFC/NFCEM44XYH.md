@@ -24,7 +24,7 @@ sources:
 ## Summary
 
 Suppose "the soup is hot" has truth value $0.7$ and "the soup is safe to eat" has value $0.4$.
-Łukasiewicz's implication gives "if hot then safe" the value
+Łukasiewicz's implication gives "if hot then safe" this value:
 $$\min(1, 1 - 0.7 + 0.4) = 0.7.$$
 The implication is fully true when the antecedent is no truer than the consequent, and it loses exactly the drop $0.3$ otherwise.
 Łukasiewicz infinite-valued logic is the logic of this rule on all of $[0, 1]$.

@@ -20,7 +20,7 @@ Take three truth values $0, 1, 2$ and a negation that turns them in a circle: $\
 With "or" read as the larger value, these two connectives can express every truth table on three values, and the same holds for any number of values.
 This is the idea of Post's logics.
 
-For $m \ge 2$, *Post's logic* $\mathrm{P}_m$ has the values $0, 1, \dots, m - 1$ in their natural order, with
+For $m \ge 2$, *Post's logic* $\mathrm{P}_m$ has the values $0, 1, \dots, m - 1$ in their natural order, and these connectives:
 $$\neg x = x - 1 \bmod m, \qquad x \lor y = \max(x, y), \qquad x \land y = \min(x, y).$$
 The [[exact definition|PHGRJ2D97H]] also fixes the designated values, the $\lambda$ greatest ones for some $1 \le \lambda \le m - 1$.
 The main property is [[functional completeness|8P3Y6T0RZS]]: every function on the $m$ values is a formula in $\neg$ and $\lor$.

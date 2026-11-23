@@ -19,22 +19,25 @@ sources:
 
 ## Example
 
-Toss two fair coins, and let the four outcomes $HH, HT, TH, TT$ each have probability $\tfrac14$.
+Toss two fair coins, and let the four outcomes $HH$, $HT$, $TH$, $TT$ each have probability $\tfrac14$.
 Let $p$ say "the first coin shows heads".
 We compare three readings of a second sentence $q$.
 
-1. If $q$ says "the second coin shows heads", then $P(p) = P(q) = \tfrac12$ and $P(p \land q) = P(\set{HH}) = \tfrac14$.
+1. If $q$ says "the second coin shows heads", then $P(p) = P(q) = \tfrac12$ and $P(p \land q) = P(\{ HH \}) = \tfrac14$.
 2. If $q$ is $p$ itself, then $P(p) = P(q) = \tfrac12$ and $P(p \land q) = P(p) = \tfrac12$.
 3. If $q$ says "the first coin shows tails", then $P(p) = P(q) = \tfrac12$ and $P(p \land q) = 0$, since the events are disjoint.
-4. The inputs $(\tfrac12, \tfrac12)$ are the same in steps 1 to 3, and the outputs $\tfrac14, \tfrac12, 0$ differ.
+4. The inputs $(\tfrac12, \tfrac12)$ are the same in steps 1 to 3, and the outputs $\tfrac14$, $\tfrac12$ and $0$ differ.
 5. So no function $f \colon [0, 1]^2 \to [0, 1]$ satisfies $P(\varphi \land \psi) = f(P(\varphi), P(\psi))$ for all probability functions.
 
 Hence a probability function on formulas is not a valuation in any [[logical matrix|AJEJS6TFWP]] on $[0, 1]$.
 
 ## Remarks
 
-The [[probability axioms|0DAX8PMAJ4]] only bound the conjunction: $\max(0, P(\varphi) + P(\psi) - 1) \le P(\varphi \land \psi) \le \min(P(\varphi), P(\psi))$.
-The three cases above meet the lower bound, the upper bound and the product.
+The [[probability axioms|0DAX8PMAJ4]] only bound the conjunction.
+
+$$\max(0, P(\varphi) + P(\psi) - 1) \le P(\varphi \land \psi) \le \min(P(\varphi), P(\psi)).$$
+
+The three cases above give the product, the upper bound and the lower bound.
 These bounds are the Łukasiewicz and Gödel t-norms, and the product is the product t-norm, which is one reason why probability and fuzzy logic are often confused.
 The example is a non-example for [[logical matrices|P7E926JK13]] and an example for [[probability logic|Z2WRGJDRQT]], which studies probabilities of sentences without assuming truth-functionality.
 
@@ -44,14 +47,12 @@ The example is a non-example for [[logical matrices|P7E926JK13]] and an example 
 
 Suppose two events each have a chance of one half.
 The chance that both happen can be one quarter, one half or zero, depending on how the events are related.
-So we can not compute it from the two chances alone.
+So we cannot compute it from the two chances alone.
 Truth tables always compute the value of "and" from the values of the parts, so chances are not truth values of a truth table.
 
 ### L2 human
 
-1. Fix the values $P(\varphi) = 0.7$ and $P(\psi) = 0.4$.
-2. The lower bound is $\max(0, 0.7 + 0.4 - 1) = 0.1$, and the upper bound is $\min(0.7, 0.4) = 0.4$.
-3. Every value in $[0.1, 0.4]$ occurs for some events with these probabilities.
-
-The typical use is to separate degrees of truth from probabilities.
-A trap: the product $0.28$ is the right value only for independent events.
+Fix the values $P(\varphi) = 0.7$ and $P(\psi) = 0.4$.
+The lower bound is $\max(0, 0.7 + 0.4 - 1) = 0.1$, and the upper bound is $\min(0.7, 0.4) = 0.4$.
+Every value in $[0.1, 0.4]$ occurs for some events with these probabilities.
+Watch out: the product $0.28$ is the right value only for independent events.
