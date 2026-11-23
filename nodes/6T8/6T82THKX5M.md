@@ -105,10 +105,7 @@ We test the recipe on $A(p) = \square p \to q$.
 
 27. Here $B(x) = x \to q$ and $C(p) = p$, so $B(\top) = \top \to q$ and $H = \square(\top \to q) \to q$.
     By replacement, $H$ is equivalent to $\square q \to q$.
-28. We check the equivalence below directly.
-
-$$\vdash (\square q \to q) \leftrightarrow (\square(\square q \to q) \to q)$$
-
+28. We check $\vdash (\square q \to q) \leftrightarrow (\square(\square q \to q) \to q)$ directly.
 29. From left to right, Löb's axiom gives $\square(\square q \to q) \to \square q$, and then $\square q \to q$ gives $q$.
 30. From right to left, the tautology $q \to (\square q \to q)$ and (RM) give $\square q \to \square(\square q \to q)$.
     So $\square q$ gives $\square(\square q \to q)$, and then $q$.
