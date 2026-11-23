@@ -8,24 +8,34 @@ topics: [DYJ0KGTPMR]
 
 ## Summary
 
-This topic is a part of [[mathematical logic|DYJ0KGTPMR]].
-It covers translations and functional interpretations between theories, conservation theorems and interpretability, and their use to extract information from proofs.
+Classical arithmetic proves that every program halts or does not halt, and intuitionistic arithmetic does not.
+Yet for many simple statements the two theories agree, and a classical proof of "for every $x$ there is a $y$" still contains a way to compute $y$.
+The topic, a part of [[mathematical logic|DYJ0KGTPMR]], explains why, and how to get the computation out.
+
+The first tool is a translation.
+The double-negation translation of Gödel and Gentzen, from 1933, sends classical proofs to intuitionistic ones, and Friedman's A-translation then recovers witnesses for $\Pi^0_2$ sentences.
+The second tool is a functional interpretation.
+Gödel's Dialectica interpretation of 1958 reads each theorem of arithmetic as a statement about higher-type functionals in system T, and Spector's bar recursion extends it to analysis.
+Proof mining applies these interpretations to proofs in analysis and extracts explicit bounds.
+
+The results that come out are conservation theorems: a strong theory proves no new sentences of some simple kind.
+Interpretability is a different relation between theories, and the topic keeps the two apart.
 
 ## Remarks
 
 ### Reading order
 
-1. [[Double-negation translation|HGJVM49PA4]]: the Kolmogorov, Gödel-Gentzen and Kuroda translations, and why PA is consistent if HA is.
-2. [[Friedman's A-translation|6CCK0TT69P]]: replace $\bot$ by a formula, and get the $\Pi^0_2$ conservativity of PA over HA.
-3. [[Gödel's system T|A4WR995XZP]]: primitive recursive functionals of finite type, the recursor and strong normalization.
-4. [[Dialectica interpretation|HZ17ES9PDY]]: Gödel's interpretation of HA in system T, its soundness proof and its extension to PA.
-5. [[No-counterexample interpretation|4BCD1EM542]]: Kreisel's interpretation of PA by functionals that refute counterexample functions.
-6. [[Bar recursion|8CCG6F2FAT]]: Spector's extension of system T that interprets classical analysis.
-7. [[Proof mining|XR1JXQG1CD]]: bounds and rates of metastability extracted from classical proofs in analysis.
-8. [[Conservation theorems|TNZ995J8AP]]: when a stronger theory proves no new theorems of a given form, and three ways to prove it.
-9. [[Parsons's theorem|2VYJXZZDGB]]: $\mathrm{I}\Sigma_1$ is $\Pi^0_2$-conservative over primitive recursive arithmetic.
-10. [[Interpretability between theories|8H03GRMDYG]]: relative interpretations, their link to consistency and to $\Pi_1$-conservativity.
-11. [[Herbrand analysis|MESZ87G9ET]]: primitive recursive witnesses read off from proofs of $\Sigma_1$ formulas in $\mathrm{I}\Sigma_1$.
+1. [[Double-negation translation|HGJVM49PA4]]: you learn how classical proofs become intuitionistic ones, and why PA is consistent if HA is.
+2. [[Friedman's A-translation|6CCK0TT69P]]: you learn to extract witnesses, and you see why PA and HA prove the same $\Pi^0_2$ sentences.
+3. [[Gödel's system T|A4WR995XZP]]: you meet the primitive recursive functionals of finite type, which serve as the witnesses below.
+4. [[Dialectica interpretation|HZ17ES9PDY]]: you learn Gödel's reading of arithmetic in system T, and how it extracts programs from proofs.
+5. [[No-counterexample interpretation|4BCD1EM542]]: you see Kreisel's reading of classical theorems as games against counterexamples.
+6. [[Bar recursion|8CCG6F2FAT]]: you see how Spector's extension of system T handles classical analysis.
+7. [[Proof mining|XR1JXQG1CD]]: you see the interpretations at work on real proofs in analysis, with explicit bounds as the output.
+8. [[Conservation theorems|TNZ995J8AP]]: you get the general picture, with WKL0, ACA0 and PA as examples, and three methods of proof.
+9. [[Parsons's theorem|2VYJXZZDGB]]: you learn why the provably total functions of $\mathrm{I}\Sigma_1$ are the primitive recursive ones.
+10. [[Interpretability between theories|8H03GRMDYG]]: you learn relative interpretations, and why they give equiconsistency but not conservation.
+11. [[Herbrand analysis|MESZ87G9ET]]: you learn to read primitive recursive witnesses directly off proofs of $\Sigma_1$ formulas in $\mathrm{I}\Sigma_1$.
 
 ### Prerequisites
 
