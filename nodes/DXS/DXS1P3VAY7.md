@@ -40,8 +40,8 @@ So both formulas are quantifier-free, but neither is atomic.
 The answer changes with the signature.
 In the signature $\{ \le \}$, the formula $x \le y$ is atomic, and $x < y$ abbreviates $(x \le y \land \neg (x = y))$.
 In every partial order the two signatures define the same sets, but they have different atomic formulas.
-This matters wherever a notion is stated in terms of atomic formulas, such as substructures and quantifier elimination.
-For example, a subset of an order that is closed under nothing is a substructure in either signature, but a theory may eliminate quantifiers down to atomic formulas in one signature and need negations in the other.
+This matters wherever a notion is stated in terms of atomic formulas, such as the atomic diagram of a structure or a proof by induction on formulas.
+In the induction, $x \le y$ is a base case over $\{ \le \}$, but over $\{ < \}$ it is handled by the step for $\lor$.
 
 Watch out: the inequation $x \neq y$ is never atomic, in any signature with equality as a logical symbol.
 The symbol $\neq$ is not part of the language, so $x \neq y$ is always shorthand for $\neg (x = y)$.

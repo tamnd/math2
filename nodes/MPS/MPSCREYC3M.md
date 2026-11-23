@@ -55,7 +55,7 @@ This weaker induction allows nonstandard models.
 Add a new constant symbol $c$ and the sentences $\neg (c = S^n(0))$ for all $n$, where $S^n(0)$ is $S$ applied $n$ times to $0$.
 Each finite part of the new theory holds in $\mathbb{N}$ with $c$ read as a large enough number.
 By the compactness theorem the whole theory has a model, and in it the value of $c$ is not the value of any numeral $S^n(0)$.
-So this model of $\mathrm{PA}$ is not isomorphic to $\mathbb{N}$, where every element is the value of a numeral.
+With $c$ forgotten, this model is a model of $\mathrm{PA}$ that is not isomorphic to $\mathbb{N}$, because an isomorphism sends values of numerals to values of numerals, and every element of $\mathbb{N}$ is the value of a numeral.
 
 The set $\mathrm{PA}$ is decidable: an algorithm checks whether a string is an axiom.
 Since $\mathbb{N}$ is a model, $\mathrm{PA}$ is consistent, and by Gödel's first incompleteness theorem it is not complete.
