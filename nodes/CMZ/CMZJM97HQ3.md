@@ -23,7 +23,7 @@ That is, $\mathsf{Q} \vdash \mathrm{Tr}_0(\ulcorner \varphi \urcorner) \leftrigh
 1. The truth of a $\Delta_0$ sentence in $\mathbb{N}$ can be computed.
    Evaluate the closed terms, and check each bounded quantifier by a finite search, as in the instance above.
 2. So the set $D := \{ \# \varphi : \varphi \text{ is a true } \Delta_0 \text{ sentence} \}$ is [[decidable|PPGD5KW8JC]].
-3. By the representability theorem, some formula $\mathrm{Tr}_0(x)$ represents $D$ in $\mathsf{Q}$.
+3. By the representability theorem, the tool of [[arithmetization of syntax|6M12VR1GT6]], some formula $\mathrm{Tr}_0(x)$ represents $D$ in $\mathsf{Q}$.
    So $\mathsf{Q} \vdash \mathrm{Tr}_0(\underline{n})$ when $n \in D$, and $\mathsf{Q} \vdash \neg \mathrm{Tr}_0(\underline{n})$ when $n \notin D$.
 4. $\mathsf{Q}$ proves every true $\Delta_0$ sentence, by [[Σ1-completeness|69234Z1V00]].
 5. Let $\varphi$ be a true $\Delta_0$ sentence.
@@ -42,7 +42,7 @@ So it works for any decidable set of sentences that $\mathsf{Q}$ decides one by 
 The result is a list of theorems, one for each sentence.
 It does not give the general statement "for all $\Delta_0$ formulas and all assignments, $\mathrm{Sat}$ obeys the Tarski conditions" as one theorem of $\mathsf{Q}$.
 That uniform version needs a satisfaction formula for formulas with free variables and some induction, as in $\mathsf{I}\Sigma_1$.
-It is the base case for the $\Sigma_n$ truth predicates built on the concept page.
+It is the base case for the $\Sigma_n$ truth predicates in [[partial truth predicates|Y2MF1EZAM7]].
 
 ## Explanations
 
