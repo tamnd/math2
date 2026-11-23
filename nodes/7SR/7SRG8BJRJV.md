@@ -16,53 +16,66 @@ sources:
 
 ## Example
 
-Define theories in the language $\set{0, S, +, \cdot}$ by $T_0 = \mathsf{PA}$ and $T_{k+1} = T_k + \mathrm{Con}(T_k)$ for $k \in \N$.
-Here $\mathrm{Con}(T_k)$ is the [[consistency statement|4NBAX3VRQ7]] built from the natural formula that defines the axioms of $T_k$: the axioms of $\mathsf{PA}$ together with $\mathrm{Con}(T_0), \ldots, \mathrm{Con}(T_{k-1})$.
+Define theories in the language $\{ 0, S, +, \cdot \}$ by
+$$T_0 = \mathsf{PA}, \qquad T_{k+1} = T_k + \mathrm{Con}(T_k) \quad (k \in \mathbb{N}).$$
 Let $T_\omega = \bigcup_k T_k$.
-In the notation of [[Kleene's O|WHAP0K600D]], $T_k$ is the stage at the notation $1$, $2$, $4$, $16$, $65536, \ldots$ of $k$, where each notation is $2$ to the power of the one before.
-The theory $T_\omega$ is the stage at a notation $3 \cdot 5^e$ where $\varphi_e$ lists these notations.
-These are the first stages of Turing's consistency progression, an instance of the [[Turing and Feferman progressions|F7Z4BV2KHD]].
+Here $\mathrm{Con}(T_k)$ is the [[consistency statement|4NBAX3VRQ7]] built from the natural axiom formula of $T_k$: the axioms of $\mathsf{PA}$ together with $\mathrm{Con}(T_0), \ldots, \mathrm{Con}(T_{k-1})$.
+In [[Kleene's O|WHAP0K600D]], $T_k$ sits at the notation $1, 2, 4, 16, 65536, \ldots$ of $k$, each $2$ to the power of the one before.
+$T_\omega$ sits at a notation $3 \cdot 5^e$, where $\varphi_e$ lists these notations.
+These are the first stages of Turing's consistency progression, one of the [[Turing and Feferman progressions|F7Z4BV2KHD]].
 We check that the stages are sound and strictly increasing, and that $T_\omega$ again does not prove its own consistency.
 
-1. Each $T_k$ has a decidable set of axioms. The axioms of $\mathsf{PA}$ form a decidable set, and $T_k$ adds $k$ further sentences, each computed from the previous ones.
-2. Each $T_k$ is sound, that is, all its axioms are true in $\N$. We use [[induction|0ASJVEFA9J]] on $k$. For $k = 0$, the axioms of $\mathsf{PA}$ are true in $\N$.
-3. Induction step: assume that $T_k$ is sound. By the [[soundness theorem|4A84VHDTHV]], every theorem of $T_k$ is true in $\N$, so $T_k$ does not prove the false sentence $0 = S0$.
-4. The sentence $\mathrm{Con}(T_k)$ is true in $\N$ exactly when $T_k$ does not prove $0 = S0$, by the meaning of the provability predicate. So $\mathrm{Con}(T_k)$ is true, and all axioms of $T_{k+1}$ are true.
-5. Each $T_k$ is consistent, because a sound theory proves no false sentence (step 3).
-6. $T_k$ does not prove $\mathrm{Con}(T_k)$. The theory $T_k$ is consistent (step 5), contains $\mathsf{PA}$, and has decidable axioms (step 1), so [[Gödel's second incompleteness theorem|4PZM5GJTR5]] applies.
-7. So $T_{k+1}$ proves a sentence that $T_k$ does not prove, and $T_0 \subsetneq T_1 \subsetneq T_2 \subsetneq \cdots$ as sets of theorems.
-8. The map $k \mapsto \mathrm{Con}(T_k)$ is computable, so the axioms of $T_\omega$ form a computably enumerable set, defined by a $\Sigma_1$ formula. All of them are true (step 4), so $T_\omega$ is sound and consistent.
-9. By the second incompleteness theorem for $T_\omega$, with the $\Sigma_1$ formula of step 8 as its axiom formula, $T_\omega$ does not prove $\mathrm{Con}(T_\omega)$. So the progression continues with the sound theory $T_{\omega + 1} = T_\omega + \mathrm{Con}(T_\omega)$.
+### Soundness and growth
+
+1. Each $T_k$ has a decidable set of axioms.
+   The axioms of $\mathsf{PA}$ form a decidable set, and $T_k$ adds $k$ further sentences, each computed from the previous ones.
+2. Each $T_k$ is sound, that is, all its axioms are true in $\mathbb{N}$.
+   We use [[induction|0ASJVEFA9J]] on $k$, and for $k = 0$ the axioms of $\mathsf{PA}$ are true in $\mathbb{N}$.
+3. Induction step: assume that $T_k$ is sound.
+   By the [[soundness theorem|4A84VHDTHV]], every theorem of $T_k$ is true, so $T_k$ does not prove the false sentence $0 = S0$.
+4. $\mathrm{Con}(T_k)$ is true in $\mathbb{N}$ exactly when $T_k$ does not prove $0 = S0$, by the meaning of the provability predicate.
+   So $\mathrm{Con}(T_k)$ is true, and all axioms of $T_{k+1}$ are true.
+5. Each $T_k$ is consistent, because a sound theory proves no false sentence.
+6. $T_k$ does not prove $\mathrm{Con}(T_k)$.
+   The theory $T_k$ is consistent (step 5), contains $\mathsf{PA}$, and has decidable axioms (step 1), so [[Gödel's second incompleteness theorem|4PZM5GJTR5]] applies.
+### The limit stage
+
+7. So $T_{k+1}$ proves a sentence that $T_k$ does not prove, and the theorems strictly grow: $T_0 \subsetneq T_1 \subsetneq T_2 \subsetneq \cdots$.
+8. The map $k \mapsto \mathrm{Con}(T_k)$ is computable, so the axioms of $T_\omega$ form a decidable set.
+   All of them are true (step 4), so $T_\omega$ is sound and consistent.
+9. By the second incompleteness theorem for $T_\omega$, with the axiom formula of step 8, $T_\omega$ does not prove $\mathrm{Con}(T_\omega)$.
+   So the progression continues with the sound theory $T_{\omega + 1} = T_\omega + \mathrm{Con}(T_\omega)$.
 
 ## Remarks
 
 The example shows the two basic facts of a consistency progression: soundness is preserved, and each successor step is a proper extension.
 All the added axioms $\mathrm{Con}(T_k)$ are true $\Pi_1$ sentences.
 By [[consistency as Π1 reflection|JHGJ6APMRF]], $T_{k+1}$ proves every instance of local reflection for $T_k$ restricted to $\Pi_1$ sentences.
-If we start from an unsound base, such as $\mathsf{PA} + \neg \mathrm{Con}(\mathsf{PA})$, then step 2 fails.
-That base proves $\neg \mathrm{Con}(\mathsf{PA})$, and so also $\neg \mathrm{Con}(T_0)$ for itself as $T_0$, because a proof of $0 = S0$ in $\mathsf{PA}$ is also a proof in $T_0$.
-So $T_1$ is inconsistent.
-If we change the formula that defines the axioms of $T_\omega$, the theory $T_\omega$ keeps the same theorems, but $\mathrm{Con}(T_\omega)$ can change; this is the dependence on notations at stage $\omega + 1$.
+
+The soundness of the base matters.
+Start instead from $T_0' = \mathsf{PA} + \neg \mathrm{Con}(\mathsf{PA})$.
+This theory proves $\neg \mathrm{Con}(T_0')$, because a $\mathsf{PA}$-proof of $0 = S0$ is also a $T_0'$-proof.
+So $T_1' = T_0' + \mathrm{Con}(T_0')$ is inconsistent, and the progression collapses at its first step.
+
+The axiom formula matters too.
+Another formula for the same axioms of $T_\omega$ gives the same theorems, but its consistency statement $\mathrm{Con}(T_\omega)$ can be a different sentence with different strength.
+This is the dependence on notations at stage $\omega + 1$.
 
 ## Explanations
 
 ### L1 human
 
 Start with the usual axioms of arithmetic.
-Add the axiom "the usual axioms never lead to a contradiction"; this is true, and Gödel showed it is new.
+Add the axiom "the usual axioms never lead to a contradiction"; it is true, and Gödel showed that it is new.
 The bigger list again cannot prove its own consistency, so add that too.
-Repeat forever: we get a chain of lists, each one stronger than the last.
-Put all lists of the chain together; the result still cannot prove its own consistency, so the process goes on beyond the finite steps.
+Repeat forever, and you get a chain of lists, each stronger than the last.
+Put the whole chain together: the result still cannot prove its own consistency, so the process goes on past the finite steps.
 
 ### L2 human
 
-We follow the first two steps with the notations of Kleene's $\mathcal{O}$.
-
-1. Stage $0$ has notation $1$ and theory $T_0 = \mathsf{PA}$.
-2. Stage $1$ has notation $2^1 = 2$ and theory $T_1 = \mathsf{PA} + \mathrm{Con}(\mathsf{PA})$, which is sound by step 4 and strictly stronger than $\mathsf{PA}$ by step 6.
-3. Stage $2$ has notation $2^2 = 4$ and theory $T_2 = T_1 + \mathrm{Con}(T_1)$.
-4. Stage $3$ has notation $2^4 = 16$, and stage $4$ has notation $2^{16} = 65536$.
-5. $T_2$ proves $\mathrm{Con}(\mathsf{PA})$ and $\mathrm{Con}(T_1)$, but not $\mathrm{Con}(T_2)$.
-
+Follow the notations of the first stages.
+Stage $0$ has notation $1$, stage $1$ has notation $2^1 = 2$, stage $2$ has notation $2^2 = 4$, stage $3$ has notation $2^4 = 16$, and stage $4$ has notation $2^{16} = 65536$.
+Check: $2^{16} = 256 \cdot 256 = 65536$.
+The theory $T_2 = T_1 + \mathrm{Con}(T_1)$ proves $\mathrm{Con}(\mathsf{PA})$ and $\mathrm{Con}(T_1)$, but not $\mathrm{Con}(T_2)$.
 The typical use of these stages is as a scale: one asks which stage proves the same $\Pi_1$ sentences as a given theory.
-A trap is to think that $\mathrm{Con}(T_1)$ follows from $\mathrm{Con}(\mathsf{PA})$; in fact $T_1$ does not prove it, by step 6 for $k = 1$.
+Watch out: $\mathrm{Con}(T_1)$ does not follow from $\mathrm{Con}(\mathsf{PA})$, since $T_1$ does not prove it, by step 6 for $k = 1$.

@@ -19,73 +19,116 @@ sources:
 
 ## Summary
 
-The incompleteness theorems are precise statements about formal theories.
-The [[first incompleteness theorem|X9WYNYE29C]], in Rosser's form, says: a consistent theory $T$ with a decidable set of axioms that contains [[Robinson arithmetic|3K1AKGXF8A]] $\mathsf{Q}$ has a sentence $\varphi$ in its language with $T \nvdash \varphi$ and $T \nvdash \neg \varphi$.
-The [[second incompleteness theorem|4PZM5GJTR5]] says: such a theory, if it also contains enough induction (for example $\mathsf{PA}$), does not prove its own [[consistency statement|4NBAX3VRQ7]] $\mathrm{Con}(T)$.
-Their significance lies in what these statements say and in what they do not say.
-They limit what a single effectively given theory can prove; they do not say that some truths are unknowable, that every system of thought is incomplete, or that mathematics is inconsistent.
-They have led to independence results in ordinary mathematics, such as the Paris-Harrington theorem and Goodstein's theorem.
+The [[first incompleteness theorem|X9WYNYE29C]], in Rosser's form, says exactly this.
+If $T$ is a consistent theory with a decidable set of axioms that contains [[Robinson arithmetic|3K1AKGXF8A]] $\mathsf{Q}$, then some sentence $\varphi$ of its language has $T \nvdash \varphi$ and $T \nvdash \neg \varphi$.
+A typical misquote is "Gödel proved that there are mathematical truths that can never be proved".
+
+The theorem does not say that.
+It does not say that mathematics is incomplete, and it does not say that some truths are unknowable.
+It says that each single theory of this kind misses some sentence, and a stronger theory can prove the missed sentence.
+The [[second incompleteness theorem|4PZM5GJTR5]] says that such a theory, if it also has enough induction (for example $T \supseteq \mathsf{PA}$), does not prove its own [[consistency statement|4NBAX3VRQ7]] $\mathrm{Con}(T)$.
+Both theorems limit what one effectively given theory can prove, and both have exact hypotheses that their popular versions leave out.
 
 ## Motivation
 
 The theorems are among the most quoted results of mathematics outside mathematics, and many of these quotations are wrong.
-A correct reading needs the exact hypotheses: consistency, a decidable (or computably enumerable) set of axioms, and enough arithmetic.
+A correct reading needs the exact hypotheses: consistency, a decidable or computably enumerable set of axioms, and enough arithmetic.
 It also needs the exact conclusion: unprovability in one fixed theory, not unprovability in every theory, and not falsehood.
 Inside mathematics, the theorems answered a central question of [[Hilbert's program|P1RW6JWX73]] and started the study of independence in arithmetic.
 
 ## Notation
 
-1. $T \vdash \varphi$ means that $\varphi$ is provable in the formal theory $T$; "true" means true in the standard model $\N$.
-2. $G_T$ is a Gödel sentence of $T$, a sentence with $T \vdash G_T \leftrightarrow \neg \mathrm{Prov}_T(\ulcorner G_T \urcorner)$.
-3. $\mathrm{Th}(\N)$ is the set of all sentences of arithmetic true in $\N$.
+We write $T \vdash \varphi$ when $\varphi$ is provable in the formal theory $T$, and "true" means true in the standard model $\mathbb{N}$.
+A Gödel sentence of $T$ is a sentence $G_T$ with $T \vdash G_T \leftrightarrow \neg \mathrm{Prov}_T(\ulcorner G_T \urcorner)$; it is equivalent to a $\Pi_1$ sentence.
+$\mathrm{Th}(\mathbb{N})$ is the set of all sentences of arithmetic that are true in $\mathbb{N}$.
 
 ## Remarks
 
-### Examples
+### Consistency proofs and Hilbert's program
 
-Correct uses of the theorems.
+$\mathsf{PA} \nvdash \mathrm{Con}(\mathsf{PA})$, and $\mathsf{ZFC} \nvdash \mathrm{Con}(\mathsf{ZFC})$ if $\mathsf{ZFC}$ is consistent.
+So a consistency proof for $\mathsf{PA}$ must use some principle that $\mathsf{PA}$ does not prove.
+Hilbert's program in its original form asked for a finitary consistency proof for all of mathematics.
+If finitary reasoning can be formalized in $\mathsf{PA}$, the second theorem shows that this cannot succeed.
 
-1. Unprovable consistency. $\mathsf{PA} \nvdash \mathrm{Con}(\mathsf{PA})$, and $\mathsf{ZFC} \nvdash \mathrm{Con}(\mathsf{ZFC})$ if $\mathsf{ZFC}$ is consistent. So no consistency proof of $\mathsf{PA}$ can be formalized in $\mathsf{PA}$ itself, and a consistency proof must use some principle that $\mathsf{PA}$ does not prove.
-2. Hilbert's program. The second theorem shows that the consistency of $\mathsf{PA}$ cannot be proved by means formalizable in $\mathsf{PA}$, and so not by means that are weaker. Hilbert's program in its original form, a finitary consistency proof for all of mathematics, cannot succeed if finitary reasoning is formalizable in $\mathsf{PA}$.
-3. Gentzen's proof. [[Gentzen's consistency proof|QPV0HNP22S]] proves $\mathrm{Con}(\mathsf{PA})$ in a weak theory together with transfinite induction up to the ordinal $\varepsilon_0$. This does not contradict the second theorem, because that induction is not provable in $\mathsf{PA}$.
-4. Undecidable problems. A sound theory with a computably enumerable set of theorems cannot decide all instances of the halting problem; with the solution of [[Hilbert's tenth problem|X8TVJSVTD4]], for every consistent theory with a decidable set of axioms that contains enough arithmetic there is a polynomial equation with no solution in integers whose unsolvability the theory does not prove.
-5. Independence in ordinary mathematics. The [[Paris-Harrington theorem|509ZWA0R26]] (1977) gives a true strengthening of the finite Ramsey theorem that $\mathsf{PA}$ does not prove. [[Goodstein's theorem|XQMNJF241J]] is true and not provable in $\mathsf{PA}$, by Kirby and Paris (1982). Friedman showed that [[Kruskal's tree theorem|XVHKCX4F5Y]] is not provable in the system $\mathsf{ATR}_0$ of second-order arithmetic. These sentences have mathematical content, unlike the Gödel sentence.
-6. Kolmogorov complexity. Chaitin showed that for each consistent theory $T$ with a decidable set of axioms that contains enough arithmetic, there is a number $c$ such that $T$ proves no sentence of the form "the [[Kolmogorov complexity|8PY3K6NCKF]] of $s$ is greater than $c$", although such sentences are true for all but finitely many strings $s$.
+[[Gentzen's consistency proof|QPV0HNP22S]] proves $\mathrm{Con}(\mathsf{PA})$ in a weak theory together with transfinite induction up to the ordinal $\varepsilon_0$.
+This does not contradict the second theorem, because that induction is not provable in $\mathsf{PA}$.
 
-### Non-examples
+### Independence in ordinary mathematics
 
-Misuses of the theorems, and statements they do not imply.
+The Gödel sentence has no mathematical content beyond its self-reference, but later work found natural independent statements.
+The [[Paris-Harrington theorem|509ZWA0R26]] (1977) gives a true strengthening of the finite Ramsey theorem that $\mathsf{PA}$ does not prove.
+[[Goodstein's theorem|XQMNJF241J]] is true and not provable in $\mathsf{PA}$, by Kirby and Paris (1982).
+Friedman showed that [[Kruskal's tree theorem|XVHKCX4F5Y]] is not provable in the system $\mathsf{ATR}_0$ of second-order arithmetic.
+Their unprovability is shown by models of arithmetic and by ordinal analysis, not by self-reference.
 
-1. "Some truths of arithmetic can never be proved." The theorems say only that each fixed theory $T$ misses some truths. For $T \supseteq \mathsf{PA}$, the Gödel sentence $G_T$ is provable in $T + \mathrm{Con}(T)$, because $T \vdash \mathrm{Con}(T) \to G_T$. No true sentence $\varphi$ is unprovable in every consistent effectively axiomatized theory, since $\varphi$ is provable in $\mathsf{PA} + \varphi$, which is consistent because its axioms are true.
-2. "Every axiomatic theory is incomplete." The theorems need enough arithmetic. [[Presburger arithmetic|4W0E9G7PPV]], the theory of [[real closed fields|DDY3Q3PJ6W]] and [[Tarski's axioms|14DWEDXWCC]] for elementary geometry are complete and decidable theories with effective axioms.
-3. "Arithmetic is incomplete." The theory $\mathrm{Th}(\N)$ is complete and consistent; it is not computably enumerable, so the theorems do not apply to it, see [[true arithmetic has no decidable axiom set|69TTX21TRJ]].
-4. "Mathematics might be inconsistent, and Gödel showed we cannot know." The second theorem says that $T$ cannot prove its own consistency; it does not say that $T$ might be inconsistent, and it does not prevent proofs of consistency in other theories. Also, a proof of $\mathrm{Con}(T)$ inside $T$ would give no extra confidence, because an inconsistent $T$ proves everything.
-5. "The continuum hypothesis is a Gödel sentence of ZFC." The [[continuum hypothesis|0MN2MER9WN]] is independent of [[ZFC|0HE5WDQ9FJ]] by the work of Gödel and Cohen, who built models of $\mathsf{ZFC}$ in which it holds and fails. This is a different phenomenon: the incompleteness theorems give no information about the continuum hypothesis, and its independence is not proved by self-reference.
-6. Uses in other fields. Claims that the theorems apply to legal systems, theologies, physical theories or any system of thought apply them where their hypotheses (a formal theory, effective axioms, enough arithmetic) have no clear meaning. Torkel Franzén's book "Gödel's Theorem: An Incomplete Guide to Its Use and Abuse" (2005) discusses many such claims.
-7. Minds and machines. Lucas and Penrose argued from the theorems that human mathematical understanding is not mechanical. These arguments are disputed, and they depend on assumptions about minds that the theorems do not supply; we only point to them here.
+The theorems also produce concrete unprovable statements.
+By the solution of [[Hilbert's tenth problem|X8TVJSVTD4]], each consistent theory with a decidable set of axioms that contains $\mathsf{Q}$ misses some true statement "this polynomial equation has no solution in natural numbers".
+Chaitin showed that each such theory has a number $c$ such that it proves no sentence "the [[Kolmogorov complexity|8PY3K6NCKF]] of $s$ is greater than $c$", although such sentences are true for all but finitely many strings $s$.
 
-### Basic properties
+### Misreadings about truth
 
-1. The theorems are about provability in a fixed formal theory, not about truth. If $T$ is consistent, $G_T$ is unprovable in $T$; if $T$ is also sound, $G_T$ is true.
-2. The hypotheses cannot be dropped. Without effective axioms, $\mathrm{Th}(\N)$ is complete. Without enough arithmetic, there are complete decidable theories. Without consistency, $T$ proves everything.
-3. Each of the theorems applies again to every consistent effective extension of $T$. Adding $G_T$ or $\mathrm{Con}(T)$ as an axiom gives a new theory with a new Gödel sentence.
-4. The first theorem has a version that uses computability instead of self-reference: if every true sentence of the form "program $e$ does not halt" were provable in a sound c.e. theory, the halting problem would be decidable.
-5. The second theorem depends on the way consistency is expressed. With the standard provability predicate it holds; with other predicates, such as Rosser's, a theory can prove a sentence that also expresses its consistency in a weaker sense.
-6. The first theorem is the arithmetic form of [[Tarski's undefinability theorem|YRV6SYK2BY]]: provability in $T$ is definable in arithmetic and truth is not, so the two differ.
+The claim "some truths of arithmetic can never be proved" is false as a reading of the theorems.
+Each fixed theory $T$ misses some truths, but each truth is provable in some consistent theory.
+For $T \supseteq \mathsf{PA}$, the Gödel sentence $G_T$ is provable in $T + \mathrm{Con}(T)$, because $T \vdash \mathrm{Con}(T) \to G_T$.
+In general a true sentence $\varphi$ is provable in $\mathsf{PA} + \varphi$, which is consistent because its axioms are true.
+
+The claim "arithmetic is incomplete" confuses a theory with the truth.
+The theory $\mathrm{Th}(\mathbb{N})$ is complete and consistent; it has no decidable set of axioms, so the theorems do not apply to it, as shown in [[true arithmetic has no decidable axiom set|69TTX21TRJ]].
+
+The claim "mathematics might be inconsistent, and Gödel showed we cannot know" is also wrong.
+The second theorem says that $T$ cannot prove $\mathrm{Con}(T)$, not that $T$ might be inconsistent, and other theories can prove $\mathrm{Con}(T)$.
+A proof of $\mathrm{Con}(T)$ inside $T$ would give no extra confidence anyway, because an inconsistent $T$ proves everything.
+
+### Misreadings about other systems
+
+The theorems need enough arithmetic.
+[[Presburger arithmetic|4W0E9G7PPV]], the theory of [[real closed fields|DDY3Q3PJ6W]] and [[Tarski's axioms|14DWEDXWCC]] for elementary geometry are complete and decidable theories with effective axioms.
+
+The [[continuum hypothesis|0MN2MER9WN]] is independent of [[ZFC|0HE5WDQ9FJ]] by the work of Gödel and Cohen, who built models of $\mathsf{ZFC}$ in which it holds and in which it fails.
+This is a different phenomenon: it is not a Gödel sentence, and its independence is not proved by self-reference.
+
+Claims that the theorems apply to legal systems, theologies, physical theories or any system of thought use them where a formal theory, effective axioms and enough arithmetic have no clear meaning.
+Torkel Franzén's book "Gödel's Theorem: An Incomplete Guide to Its Use and Abuse" (2005) discusses many such claims.
+Lucas and Penrose argued from the theorems that human mathematical understanding is not mechanical.
+These arguments are disputed, and they depend on assumptions about minds that the theorems do not supply.
+
+### The rules you can use
+
+The theorems are about provability in a fixed formal theory: if $T$ is consistent, $G_T$ is unprovable in $T$, and if $T$ is also sound, $G_T$ is true.
+The hypotheses cannot be dropped.
+Without effective axioms, $\mathrm{Th}(\mathbb{N})$ is complete; without enough arithmetic, there are complete decidable theories; without consistency, $T$ proves everything.
+The theorems apply again to every consistent effective extension of $T$, such as $T + G_T$ or $T + \mathrm{Con}(T)$.
+The first theorem is the arithmetic shadow of [[Tarski's undefinability theorem|YRV6SYK2BY]]: provability in $T$ is definable in arithmetic and truth is not, so the two differ.
+The second theorem depends on how consistency is expressed.
+With the standard provability predicate it holds, but Feferman (1960) showed that other formulas for the same axioms give consistency statements that the theory does prove.
 
 ### History
 
-Gödel published the incompleteness theorems in 1931.
-Rosser (1936) removed the hypothesis of $\omega$-consistency from the first theorem, and Gentzen published his consistency proof for $\mathsf{PA}$ in 1936.
-Lucas published the argument of "Minds, Machines and Gödel" in 1961, and Penrose took it up in "The Emperor's New Mind".
-The Paris-Harrington theorem (1977) was the first widely accepted example of a natural combinatorial statement independent of $\mathsf{PA}$; Kirby and Paris proved the independence of Goodstein's theorem in 1982.
+Gödel published both theorems in 1931, in "Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I".
+His first theorem assumed $\omega$-consistency, and Rosser (1936) reduced this hypothesis to consistency.
+Hilbert and Bernays (1939) isolated the derivability conditions behind the second theorem, and Löb (1955) refined them.
+Gentzen published his consistency proof for $\mathsf{PA}$ in 1936.
+Lucas published "Minds, Machines and Gödel" in 1961, and Penrose took up the argument in "The Emperor's New Mind" (1989).
+The Paris-Harrington theorem (1977) was the first widely accepted natural combinatorial statement independent of $\mathsf{PA}$.
 
-### Common errors
+### Watch out
 
-1. Forgetting the hypothesis "effectively axiomatized". Every consistent theory has a complete consistent extension, by Lindenbaum's lemma; the theorems say only that such an extension cannot have a decidable set of axioms.
-2. Reading "unprovable in $T$" as "false" or as "unprovable". The Gödel sentence of a sound theory is true, and it is provable in stronger theories.
-3. Thinking that the Gödel sentence is the only kind of independent sentence. The examples above are independent for combinatorial reasons, and their unprovability is proved by methods such as models of arithmetic and ordinal analysis.
-4. Thinking that the second theorem shows that $\mathsf{PA}$ might be inconsistent. The axioms of $\mathsf{PA}$ are true in $\N$, so $\mathsf{PA}$ is consistent; the theorem says only that this argument cannot be formalized in $\mathsf{PA}$.
+Do not forget the hypothesis of effective axioms.
+Every consistent theory has a complete consistent extension, by Lindenbaum's lemma, and the theorems say only that such an extension has no decidable set of axioms.
+Do not read "unprovable in $T$" as "false" or as "unprovable".
+Do not mix up incompleteness of a theory with Gödel's completeness theorem, which says that first-order logic proves every sentence true in all models.
+
+### Try it
+
+Is "there is a true sentence that $\mathsf{PA}$ does not prove" a correct use?
+Yes: $G_{\mathsf{PA}}$ is one, and Goodstein's theorem is another.
+
+Is "the theory of real closed fields is incomplete, by Gödel" a correct use?
+No: the natural numbers are not definable in it, so it does not contain $\mathsf{Q}$ in the required sense, and it is complete.
+
+Is "$\mathsf{PA}$ cannot be proved consistent" a correct use?
+No: Gentzen proved it with transfinite induction up to $\varepsilon_0$; only a proof inside $\mathsf{PA}$ is excluded.
 
 ## Explanations
 
@@ -94,27 +137,25 @@ The Paris-Harrington theorem (1977) was the first widely accepted example of a n
 Gödel proved two theorems about lists of axioms for arithmetic that a computer can check.
 The first says that such a list, if it has no contradiction, leaves some statement neither proved nor disproved.
 The second says that such a list cannot prove its own freedom from contradiction.
-These theorems are often quoted to say that "nothing can be known" or "every system is incomplete", and those quotations are wrong.
-Each statement missed by one list can be proved by a bigger list, and many useful theories, such as the theory of real numbers with addition and multiplication, are complete.
+These theorems are often quoted to say that "some truths can never be known" or "every system is incomplete", and those quotations are wrong.
+Each statement missed by one list can be proved by a bigger list, and some useful theories, such as the theory of real numbers with addition and multiplication, are complete.
 Some natural statements about numbers, for example Goodstein's theorem about a sequence that grows and then falls to zero, are not provable from the usual axioms of arithmetic.
 
 ### L2 human
 
-We test four claims against the exact statement of the first theorem for $T = \mathsf{PA}$.
-
-1. "There is a true sentence that $\mathsf{PA}$ does not prove." Correct: $G_{\mathsf{PA}}$ is one, and Goodstein's theorem is another.
-2. "There is a true sentence that no theory proves." Wrong: $G_{\mathsf{PA}}$ is provable in $\mathsf{PA} + \mathrm{Con}(\mathsf{PA})$.
-3. "The theory of real closed fields is incomplete." Wrong: it does not contain $\mathsf{Q}$ in the required sense (the natural numbers are not definable in it), and it is complete.
-4. "$\mathsf{PA}$ cannot be proved consistent." Wrong as stated: Gentzen proved it, using transfinite induction up to $\varepsilon_0$; only a proof inside $\mathsf{PA}$ is excluded.
-
-The typical use is to check each claim that cites Gödel against the three hypotheses and the exact conclusion.
-A trap is to mix up incompleteness of a theory with incompleteness in the sense of Gödel's completeness theorem, which says that first-order logic proves every sentence true in all models.
+Test the claim "there is a true sentence that no theory proves" against the exact first theorem for $T = \mathsf{PA}$.
+The theorem gives a sentence $G_{\mathsf{PA}}$ that $\mathsf{PA}$ does not prove.
+Since $\mathsf{PA}$ is sound, $G_{\mathsf{PA}}$ is true.
+But $\mathsf{PA} \vdash \mathrm{Con}(\mathsf{PA}) \to G_{\mathsf{PA}}$, so $\mathsf{PA} + \mathrm{Con}(\mathsf{PA})$ proves it.
+So the claim does not follow from the theorem.
+The typical use of the theorems in a discussion is to check each claim that cites Gödel against the three hypotheses and the exact conclusion.
+Watch out: the first theorem needs a decidable set of axioms, and the set of all true sentences is complete exactly because it has none.
 
 ### L3 human
 
-For mathematical logic the theorems opened several programs: proof theory measures theories by their consistency strength and their provable ordinals, and reverse mathematics locates theorems on a scale of subsystems of second-order arithmetic.
-The independence results of Paris-Harrington, Kirby-Paris and Friedman show that the limits found by Gödel also affect statements of finite combinatorics.
-The [[second incompleteness theorem|4PZM5GJTR5]] makes consistency strength a measure of theories: $U$ is stronger than $T$ when $U$ proves $\mathrm{Con}(T)$.
+For mathematical logic the theorems opened several programs.
+Proof theory measures theories by their consistency strength and their provable ordinals, and reverse mathematics locates theorems on a scale of subsystems of second-order arithmetic.
+The second theorem makes consistency strength a measure of theories: $U$ is stronger than $T$ when $U$ proves $\mathrm{Con}(T)$.
 In practice natural theories, including the extensions of set theory by large cardinal axioms, are ordered by this measure.
-In philosophy, the theorems bear on formalism, on the question whether mathematical truth exceeds provability in any fixed system, and on the minds-and-machines debate.
+In philosophy, the theorems bear on formalism, on the question whether mathematical truth exceeds provability in any fixed system, and on the minds and machines debate.
 These discussions use the theorems as premises together with further assumptions that the theorems do not supply.
