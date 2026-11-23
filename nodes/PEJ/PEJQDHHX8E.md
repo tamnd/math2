@@ -73,8 +73,7 @@ Zambella, and Buss in related work, sharpened this: $S_2$ is finitely axiomatiza
 ### Relativized separations
 
 With a new relation symbol $\alpha$ for an oracle, the hierarchy is known to be strict.
-Krajíček, Pudlák and Takeuti proved that $S_2(\alpha)$ is not finitely axiomatizable.
-Their proof combines their theorem with an oracle relative to which the polynomial hierarchy is infinite.
+The relativized Krajicek-Pudlak-Takeuti theorem, combined with an oracle relative to which the polynomial hierarchy is infinite, shows that $S_2(\alpha)$ is not finitely axiomatizable.
 
 At the bottom level the separation even uses simple sentences.
 Relative to a suitable oracle some $\mathrm{PLS}$ problem has no polynomial-time algorithm.

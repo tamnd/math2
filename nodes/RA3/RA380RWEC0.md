@@ -12,7 +12,8 @@ This topic is a part of [[mathematical logic|DYJ0KGTPMR]], and it asks what arit
 The starting point is $\mathsf{I}\Delta_0$, Peano arithmetic with induction only for bounded formulas such as $\exists y \le x \, (y \cdot y = x)$.
 Its definable sets are the linear-time hierarchy, and Parikh's theorem of 1971 shows that it cannot prove that $2^x$ exists.
 Cook's equational theory $\mathsf{PV}$ of 1975 and Buss's theories $S^i_2$ and $T^i_2$ of 1985 then match proofs with polynomial-time computation.
-The smash function $x \# y = 2^{\lvert x \rvert \cdot \lvert y \rvert}$ gives polynomial growth in the lengths, and Buss's witnessing theorem turns a proof of $\forall x \, \exists y \, A$ in $S^1_2$ into a polynomial-time algorithm.
+The smash function $x \# y = 2^{\lvert x \rvert \cdot \lvert y \rvert}$ gives polynomial growth in the lengths.
+Buss's witnessing theorem turns a proof of $\forall x \, \exists y \, A$ in $S^1_2$ into a polynomial-time algorithm.
 From there the story turns to open problems.
 The Krajicek-Pudlak-Takeuti theorem ties the collapse of the theories to the collapse of the polynomial hierarchy, and the Paris-Wilkie translation turns proofs into short propositional proofs.
 Through it, lower bounds in proof complexity show which theories cannot prove the pigeonhole principle.
