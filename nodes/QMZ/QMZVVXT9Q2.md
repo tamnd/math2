@@ -18,21 +18,27 @@ sources:
 
 ## Example
 
-Let $\sigma = \set{<}$, and let $\psi = \exists y \, (x < y)$.
+Let $\sigma = \{ < \}$, and let $\psi = \exists y \, (x < y)$.
 We show that $\psi$ is not a [[sentence|DKFGQTRYZE]], and that its truth in a structure depends on the value of $x$.
 
-1. $\operatorname{FV}(x < y) = \set{x, y}$, and $\exists y$ removes $y$, so $\operatorname{FV}(\psi) = \set{x}$ by the [[definition|Y3FZTH5158]].
+1. $\operatorname{FV}(x < y) = \{ x, y \}$, and $\exists y$ removes $y$, so $\operatorname{FV}(\psi) = \{ x \}$ by the [[definition|Y3FZTH5158]].
 2. Since $\operatorname{FV}(\psi) \neq \emptyset$, the formula $\psi$ is not a sentence.
-3. Let $\mathcal{M} = (\set{0, 1, 2}, <)$. Under an assignment with $x \mapsto 0$, the formula $\psi$ is [[satisfied|2RBQPV02AS]], with the witness $y = 1$.
-4. Under an assignment with $x \mapsto 2$, the formula $\psi$ is not satisfied, because no element of $\set{0, 1, 2}$ is greater than $2$.
-5. So $\psi$ has no truth value in $\mathcal{M}$ by itself: neither $\psi$ nor $\neg \psi$ holds under every assignment.
+3. Let $\mathcal{M} = (\{ 0, 1, 2 \}, <)$.
+   Under an assignment with $x \mapsto 0$, the formula $\psi$ is [[satisfied|2RBQPV02AS]], with the witness $y = 1$.
+4. Under an assignment with $x \mapsto 2$, the formula $\psi$ is not satisfied, because no element of $\{ 0, 1, 2 \}$ is greater than $2$.
+5. So neither $\psi$ nor $\neg \psi$ holds in $\mathcal{M}$ under every assignment.
 
 ## Remarks
 
 The example shows the difference between a formula and a sentence.
-The formula $\psi$ defines the set $\set{0, 1}$ in $\mathcal{M}$, the elements that are not the largest.
-The two closures are sentences: $\forall x \, \exists y \, (x < y)$ is false in $\mathcal{M}$, and $\exists x \, \exists y \, (x < y)$ is true.
-In $(\mathbb{N}, <)$ the formula $\psi$ holds for every value of $x$, but it is still not a sentence: being a sentence is a property of the syntax, not of one structure.
+In $\mathcal{M}$ the formula $\psi$ defines a set: the witness $y = 1$ works for $x = 0$, the witness $y = 2$ works for $x = 1$, and no witness works for $x = 2$.
+So $\psi$ defines $\{ 0, 1 \}$, the elements that are not the largest.
+
+The two closures are sentences.
+The universal closure $\forall x \, \exists y \, (x < y)$ is false in $\mathcal{M}$, and the existential closure $\exists x \, \exists y \, (x < y)$ is true.
+
+Watch out: in $(\mathbb{N}, <)$ the formula $\psi$ holds for every value of $x$, but it is still not a sentence.
+Being a sentence is a property of the syntax, not of one structure, and in $\mathcal{M}$ the same formula fails at $x = 2$.
 
 ## Explanations
 
@@ -45,12 +51,7 @@ So the claim has no fixed truth value until we say what $x$ is.
 
 ### L2 human
 
-We compute the set defined by $\psi$ in $\mathcal{M} = (\set{0, 1, 2}, <)$.
-
-1. For $x = 0$, the witness $y = 1$ works.
-2. For $x = 1$, the witness $y = 2$ works.
-3. For $x = 2$, no witness exists.
-4. So $\psi$ defines the set $\set{0, 1}$.
-
-The typical use of a formula with one free variable is to define a subset of a structure in this way.
-The trap: a formula that holds for all values in one structure, as $\psi$ in $\mathbb{N}$, can still fail in another, so it is not a sentence in disguise.
+A formula with one free variable is a way to name a subset of a structure.
+In $\mathcal{M} = (\{ 0, 1, 2 \}, <)$, the formula $\psi$ names $\{ 0, 1 \}$, as the remarks compute.
+In $(\mathbb{Z}, <)$ the same formula names all of $\mathbb{Z}$, and in $(\{ 5 \}, <)$ it names the empty set.
+A sentence would name a whole truth value instead, the same for every choice of variables.

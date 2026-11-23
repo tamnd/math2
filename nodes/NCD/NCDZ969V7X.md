@@ -22,97 +22,122 @@ same_as:
 
 ## Summary
 
-Let $x$ be a variable and let $t$ be a [[term|6D3WA7N2W4]].
-In a term $u$, the substitution $u[t/x]$ replaces every occurrence of $x$ by $t$.
-In a [[formula|HYJ10AF6RT]] $\varphi$, the substitution $\varphi[t/x]$ replaces every [[free occurrence|9CNGDRAMGC]] of $x$ by $t$ and leaves bound occurrences alone.
-The substitution is *admissible* when $t$ is *substitutable* for $x$ in $\varphi$: no variable of $t$ falls into the scope of a quantifier on that variable.
-A *simultaneous* substitution $\theta$ replaces several variables at once, each $x$ by $\theta(x)$.
-The [[formal definition|XN8TQE6SRK]] gives all these operations by recursion.
-Substitution is the syntactic form of "plug in a value": it drives the quantifier rules of proof systems, the laws of equational logic, unification and term rewriting.
+Substitution is "plug in a term for a variable", done on strings.
+It looks harmless, but it has one trap.
+The formula $\forall y \, (x < y)$ says that $x$ is below every element.
+If we write $y$ in place of $x$, we get $\forall y \, (y < y)$, which says that every element is below itself; the $y$ we put in has been *captured* by $\forall y$.
+If we first rename the bound variable, $\forall z \, (x < z)$, and then put $y$ for $x$, we get $\forall z \, (y < z)$, which says correctly that $y$ is below every element.
+
+Let $x$ be a variable and $t$ a [[term|6D3WA7N2W4]].
+In a term $u$, the term $u[t/x]$ replaces every occurrence of $x$ by $t$.
+In a [[formula|HYJ10AF6RT]] $\varphi$, the formula $\varphi[t/x]$ replaces every [[free occurrence|9CNGDRAMGC]] of $x$ by $t$ and leaves the bound occurrences alone.
+The term $t$ is *free for* $x$ in $\varphi$, or *substitutable* for $x$ in $\varphi$, when no free occurrence of $x$ in $\varphi$ lies within the scope of a quantifier $\forall y$ or $\exists y$ with $y$ a variable of $t$.
+The substitution $\varphi[t/x]$ is *admissible* when $t$ is free for $x$ in $\varphi$, and the [[formal definition|XN8TQE6SRK]] gives all of this by recursion.
 
 ## Motivation
 
 From "every natural number $x$ satisfies $x + 0 = x$" we want to infer "$S(0) + 0 = S(0)$".
-The inference replaces $x$ by the term $S(0)$, and the rule behind it is: from $\forall x \, \varphi$ infer $\varphi[t/x]$.
-The rule is sound only with two restrictions.
-First, bound occurrences must stay: in $P(x) \land \forall x \, Q(x)$ only the first $x$ is a value given from outside.
-Second, no variable of $t$ may be captured.
-The formula $\forall x \, \exists y \, (x < y)$ is true in $(\mathbb{N}, <)$, but putting $y$ for $x$ in $\exists y \, (x < y)$ gives the false sentence $\exists y \, (y < y)$.
-The definition of substitutability states exactly when the rule is safe.
+The step replaces $x$ by the term $S(0)$, and the rule behind it is: from $\forall x \, \varphi$ infer $\varphi[t/x]$.
+This rule appears in every proof system for first-order logic, and it is sound only with two restrictions.
+Bound occurrences must stay, since in $P(x) \land \forall x \, Q(x)$ only the first $x$ is an input.
+And no variable of $t$ may be captured: $\forall x \, \exists y \, (x < y)$ is true in $(\mathbb{N}, <)$, but blind replacement of $x$ by $y$ in $\exists y \, (x < y)$ gives the false sentence $\exists y \, (y < y)$.
+
+Substitution also drives the equational logic of algebra, unification in logic programming, term rewriting and beta reduction in the [[lambda calculus|BD756KR8FM]].
 
 ## Notation
 
-1. $t[s/x]$ and $\varphi[t/x]$: the result of replacing $x$ by $s$ or $t$. Enderton writes $\varphi^x_t$. Other notations are $\varphi(t/x)$, $\varphi[x := t]$ and $\varphi\set{x \mapsto t}$.
-2. $\varphi[t_1/x_1, \ldots, t_n/x_n]$, for distinct variables $x_i$: simultaneous substitution.
-3. $\theta = \set{x_1 \mapsto t_1, \ldots, x_n \mapsto t_n}$ and $t\theta$: a substitution as a map, the usual notation of universal algebra, unification and logic programming.
-4. When a formula is written $\varphi(x)$, the notation $\varphi(t)$ means $\varphi[t/x]$, with the tacit assumption that $t$ is substitutable for $x$.
+We write $\varphi[t/x]$, read "$\varphi$ with $t$ for $x$".
+Enderton writes $\varphi^x_t$, and other books write $\varphi(t/x)$, $\varphi[x := t]$ or $\varphi\{ x \mapsto t \}$.
+For distinct variables $x_1, \ldots, x_n$, the simultaneous substitution $\varphi[t_1/x_1, \ldots, t_n/x_n]$ replaces all of them at once.
+In algebra and unification a substitution is a map $\theta$ from variables to terms, written $\{ x_1 \mapsto t_1, \ldots \}$, and its result on $t$ is written $t\theta$.
+When a formula is written $\varphi(x)$, the notation $\varphi(t)$ means $\varphi[t/x]$, with the tacit assumption that $t$ is free for $x$.
 
 ## Remarks
 
-### Examples
+### A first computation
 
-1. With $\theta = \set{x \mapsto z \cdot z, \ y \mapsto 1}$ we get $(x + y)\theta = z \cdot z + 1$. Both variables are replaced at once.
-2. The swap $\set{x \mapsto y, \ y \mapsto x}$ sends $x + y$ to $y + x$, but two [[successive substitutions|VS6SNA8Z23]] give $x + x$ or $y + y$.
-3. $(P(x) \land \forall x \, Q(x))[c/x] = P(c) \land \forall x \, Q(x)$. Only the free occurrence changes.
-4. In $\exists y \, (y + y = x)$, the term $S(0)$ is substitutable for $x$, and the term $S(y)$ is not. A [[renaming|XX4DS8DGN3]] of the bound $y$ makes the second substitution admissible.
-5. The rule "from $\forall x \, \varphi$ infer $\varphi[t/x]$" turns the axiom $\forall x \, (x + 0 = x)$ into $S(0) + 0 = S(0)$.
+Let $\varphi = \exists y \, (y + y = x)$, which says in $\mathbb{N}$ that $x$ is even.
+The term $S(0)$ has no variables, so it is free for $x$, and
+$$\varphi[S(0)/x] = \exists y \, (y + y = S(0)),$$
+which says that $1$ is even, and is false, as it should be.
+The term $S(y)$ is not free for $x$, because the free $x$ lies in the scope of $\exists y$ and $y$ occurs in $S(y)$.
+A [[renaming of the bound variable|XX4DS8DGN3]] gives $\exists z \, (z + z = x)$, and then
+$$\exists z \, (z + z = x)[S(y)/x] = \exists z \, (z + z = S(y)),$$
+which says that $y + 1$ is even.
+Check: for $y = 1$ the witness $z = 1$ gives $1 + 1 = 2$, and for $y = 2$ no $z$ gives $z + z = 3$.
 
-### Non-examples
+### Bound occurrences stay
 
-1. Putting $y$ for $x$ in $\forall y \, (x < y)$ gives $\forall y \, (y < y)$. The term $y$ is [[captured|WW01WZR9MF]], so the substitution is not admissible.
-2. Replacing only the first $x$ in $x + x$ by $y$ is not a substitution. Every substitution sends $x + x$ to $\theta(x) + \theta(x)$.
-3. Replacing the bound $x$ in $\forall x \, P(x)$ by a constant $c$ does not give $\forall c \, P(c)$, which is [[not a formula|4SV9Q67884]]. Substitution leaves $\forall x \, P(x)$ unchanged.
+Substitution acts only on free occurrences:
+$$(P(x) \land \forall x \, Q(x))[c/x] = P(c) \land \forall x \, Q(x).$$
+Replacing the bound $x$ too would give $\forall c \, Q(c)$, which is [[not even a formula|4SV9Q67884]].
+If $x$ is not free in $\varphi$ at all, then $\varphi[t/x] = \varphi$.
 
-### Basic properties
+### Several variables at once
 
-1. If $x \notin \operatorname{FV}(\varphi)$, then $\varphi[t/x] = \varphi$. The same holds for terms: if $x \notin \operatorname{Var}(u)$, then $u[t/x] = u$.
-2. If $t$ is substitutable for $x$ in $\varphi$ and $x \in \operatorname{FV}(\varphi)$, then $\operatorname{FV}(\varphi[t/x]) = (\operatorname{FV}(\varphi) \setminus \set{x}) \cup \operatorname{Var}(t)$.
-3. Substitution in terms is compositional: $(t\theta)\eta = t(\theta\eta)$, where $(\theta\eta)(x) = \theta(x)\eta$. The substitutions are the endomorphisms of the [[term algebra|3YYKGWJJND]].
-4. Successive substitutions commute in a controlled way: if $x \neq y$ and $x \notin \operatorname{Var}(r)$, then $t[s/x][r/y] = t[r/y][s[r/y]/x]$. This is the [[syntactic substitution lemma|FXEFA6PKZ1]].
-5. A term without variables is substitutable for every variable in every formula. For any $t$, $x$ and $\varphi$, renaming the bound variables of $\varphi$ gives an alpha-equivalent formula in which $t$ is substitutable for $x$.
-6. If $t$ is substitutable for $x$ in $\varphi$, then the formula $\varphi[t/x]$ says about the value of $t$ what $\varphi$ says about the value of $x$. This is the semantic substitution lemma of [[structures and satisfaction|NJDME6F845]], and it makes $\forall x \, \varphi \to \varphi[t/x]$ valid.
+The simultaneous swap $\{ x \mapsto y, y \mapsto x \}$ sends $x + y$ to $y + x$.
+Two [[successive substitutions|VS6SNA8Z23]] give something else: $(x + y)[y/x] = y + y$, and then $(y + y)[x/y] = x + x$.
+A substitution must also treat all occurrences of a variable alike, so it sends $x + x$ to $\theta(x) + \theta(x)$, never to $y + x$.
+
+### The rules you can use
+
+If $t$ is free for $x$ in $\varphi$ and $x \in \operatorname{FV}(\varphi)$, then $\operatorname{FV}(\varphi[t/x]) = (\operatorname{FV}(\varphi) \setminus \{ x \}) \cup \operatorname{Var}(t)$.
+A term with no variables is free for every variable in every formula.
+For any $t$, $x$ and $\varphi$, renaming the bound variables of $\varphi$ to fresh names gives an alpha-equivalent formula in which $t$ is free for $x$.
+In terms, two single substitutions can be reordered: if $x \neq y$ and $x \notin \operatorname{Var}(r)$, then $u[s/x][r/y] = u[r/y][s[r/y]/x]$, the [[syntactic substitution lemma|FXEFA6PKZ1]].
+If $t$ is free for $x$ in $\varphi$, then $\varphi[t/x]$ says about the value of $t$ what $\varphi$ says about the value of $x$; this semantic substitution lemma of [[structures and satisfaction|NJDME6F845]] makes $\forall x \, \varphi \to \varphi[t/x]$ valid.
+
+### Watch out
+
+The captured result is still a well-formed formula.
+No grammar check catches the error in $\forall y \, (y < y)$; only the test "is $t$ free for $x$?" does.
+So run that test before every instantiation, and rename bound variables when it fails.
+
+Do not carry out a simultaneous substitution one variable at a time, since the swap above gives $x + x$ instead of $y + x$.
+
+When you rename, pick a name that occurs nowhere in the scope and not in $t$.
+Renaming the bound $y$ of $\exists y \, (y + y = x)$ back to $y$ itself, or to a variable of $t$, brings the capture back.
 
 ### History
 
-Church's lambda calculus of the 1930s had a rule for renaming bound variables, later called alpha conversion, and its substitution needed such renaming.
-In 1965 John Alan Robinson introduced resolution and the unification algorithm, which computes most general substitutions.
-In 1972 de Bruijn introduced nameless bound variables, the [[de Bruijn indices|1TC37YHZPE]], so that substitution in his proof checker Automath could not capture variables.
+Church's lambda calculus of the 1930s needed a rule for renaming bound variables, later called alpha conversion, so that substitution would avoid capture.
+In 1965 John Alan Robinson introduced resolution together with a unification algorithm, which finds most general substitutions.
+In 1972 de Bruijn introduced nameless bound variables, now called [[de Bruijn indices|1TC37YHZPE]], so that substitution in his Automath proof checker could not capture variables.
 
-### Common errors
+### Try it
 
-1. Students replace bound occurrences too. $(\forall x \, P(x))[c/x]$ is $\forall x \, P(x)$, not $\forall c \, P(c)$.
-2. Students substitute without checking that the term is substitutable, as in the capture of $y$ in $\forall y \, (x < y)$.
-3. Students carry out a simultaneous substitution as a sequence of single substitutions. The swap of $x$ and $y$ shows that the results differ.
+Compute $(\forall y \, R(x, y) \land Q(x))[f(z)/x]$.
+The term $f(z)$ contains no $y$, so it is free for $x$, and the result is $\forall y \, R(f(z), y) \land Q(f(z))$.
+
+Is $g(y)$ free for $x$ in $\forall y \, P(y) \lor P(x)$?
+Yes: the only free $x$ is in $P(x)$, which lies outside the scope of $\forall y$, so the result $\forall y \, P(y) \lor P(g(y))$ captures nothing.
 
 ## Explanations
 
 ### L1 human
 
 Substitution is "plugging in".
-If "$x$ is even" is the claim, then putting $6$ for $x$ gives "$6$ is even", which is true.
+If the claim is "$x$ is even", putting $6$ for $x$ gives "$6$ is even", which is true.
 We plug in only where $x$ is an open slot, not where $x$ belongs to a "for all $x$".
 We also must not plug in a letter that a "for all" then grabs by mistake.
 Putting $y$ in for $x$ in "every $y$ is bigger than $x$" gives "every $y$ is bigger than $y$", which is a different claim.
 
 ### L2 human
 
-We compute $\varphi[S(y)/x]$ for $\varphi = \exists y \, (y + y = x)$, which says that $x$ is even.
-
-1. The term $S(y)$ contains $y$, and $x$ is free in the scope of $\exists y$. By the substitutability clause for quantifiers, $S(y)$ is not substitutable for $x$.
-2. The blind replacement gives $\exists y \, (y + y = S(y))$. In $\mathbb{N}$ it is a true sentence, because $y = 1$ gives $1 + 1 = 2$.
-3. We rename the bound variable: $\varphi$ is alpha-equivalent to $\exists z \, (z + z = x)$, and $S(y)$ is substitutable for $x$ in this formula.
-4. The result is $\exists z \, (z + z = S(y))$. It says that $y + 1$ is even, and it is true for $y = 1$ and false for $y = 2$.
-
-The typical use is a step of a formal proof: instantiate $\forall x \, \varphi$ with a term, after renaming the bound variables of $\varphi$ when necessary.
-The trap is step 2: the blind replacement is a well-formed formula, so no syntax check catches the error, and only the substitutability condition does.
+Here is a typical step of a formal proof.
+From the axiom $\forall x \, \exists y \, \neg (x = y)$, which holds in every structure with at least two elements, we want an instance for the term $y$.
+The blind replacement in $\exists y \, \neg (x = y)$ gives $\exists y \, \neg (y = y)$, which is false in every structure.
+The test fails: $y$ is not free for $x$, because the free $x$ lies in the scope of $\exists y$.
+So we rename first, to $\exists z \, \neg (x = z)$, and then substitute:
+$$\exists z \, \neg (x = z)[y/x] = \exists z \, \neg (y = z).$$
+This says that some element differs from $y$, which is true whenever the structure has two elements.
+The lesson: instantiate only after the test, and rename when the test fails.
 
 ### L3 human
 
 The terms over a signature form a monad on sets: a set $X$ of variables goes to the set $T(X)$ of terms over $X$.
-A substitution $X \to T(Y)$ is an arrow of the Kleisli category of this monad, and composition of substitutions is Kleisli composition.
-In a Lawvere theory the same composition is the composition of the category, and the [[syntactic substitution lemma|FXEFA6PKZ1]] follows from associativity and a computation of two composite substitutions.
-For formulas the binders break this simple picture, because substitution must respect alpha-equivalence.
-Several solutions exist: renaming as part of substitution, [[de Bruijn indices|1TC37YHZPE]], numbered bound variables in a separate type as in Mathlib, and nominal sets.
-The [[lambda calculus|BD756KR8FM]] has the same issue, and its beta reduction is a substitution.
-In [[unification|RJJ9D0WF53]], substitutions are the solutions of equations between terms, and the most general unifier is the most general substitution that solves them.
-In categorical logic, substitution is pullback along a map of contexts, and the quantifiers are adjoints to substitution.
+A substitution $X \to T(Y)$ is an arrow of the Kleisli category of this monad, and composing substitutions is Kleisli composition.
+For formulas the binders spoil this simple picture, because substitution must respect alpha-equivalence.
+The usual solutions are renaming built into substitution, [[de Bruijn indices|1TC37YHZPE]], numbered bound variables in a separate type as in Mathlib, and nominal sets.
+In [[unification|RJJ9D0WF53]], substitutions are the solutions of equations between terms, and the most general unifier is the most general such solution.
+In categorical logic, substitution is pullback along a map of contexts, and the quantifiers are adjoints to it.

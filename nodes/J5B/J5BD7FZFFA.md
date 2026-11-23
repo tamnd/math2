@@ -18,25 +18,28 @@ sources:
 
 ## Example
 
-Let $\sigma = \set{0, S, +}$ with arities $0, 1, 2$.
+A function symbol must get exactly as many arguments as its arity, or the string is not a term.
+Let $\sigma = \{ 0, S, + \}$ with arities $0, 1, 2$.
 We check that the strings $+(x)$ and $S(x, y)$ are not [[terms|6D3WA7N2W4]] of $\sigma$.
 
-1. The set of terms is the smallest set closed under the three clauses of the [[definition|BQQ0FPFZ67]]. So a string is a term only if some clause produces it from terms.
-2. The string $+(x)$ starts with $+$. It is not a variable and not a constant symbol, so only the function clause could produce it.
+1. The terms are the smallest set closed under the three clauses of the [[definition|BQQ0FPFZ67]], so a string is a term only if some clause produces it from terms.
+2. The string $+(x)$ starts with $+$, so it is not a variable and not a constant symbol, and only the function clause could produce it.
 3. The function clause for $+$ produces only strings $+(t_1, t_2)$ with two terms, since $\operatorname{ar}(+) = 2$.
-4. A string $+(t_1, t_2)$ contains a comma outside of $t_1$ and $t_2$, at bracket depth $1$. The string $+(x)$ has no comma, so it is not of this form.
-5. So no clause produces $+(x)$, and it is not a term.
-6. In the same way, the function clause for $S$ produces only strings $S(t_1)$, with $\operatorname{ar}(S) = 1$.
-7. In $S(x, y)$ the part between the outer brackets is $x, y$. This string is not a term: it starts with a variable, and a term that starts with a variable is that variable alone.
+4. A string $+(t_1, t_2)$ has a comma at bracket depth $1$, between $t_1$ and $t_2$.
+   The string $+(x)$ has no comma, so it is not of this form, and it is not a term.
+5. In the same way, the function clause for $S$ produces only strings $S(t_1)$, since $\operatorname{ar}(S) = 1$.
+6. In $S(x, y)$ the part between the outer brackets is the string $x, y$.
+   This string is not a term: it starts with a variable, and a term that starts with a variable is that variable alone.
 
 So both strings fail the [[arity|MSXX2P86CY]] condition and are not terms.
 
 ## Remarks
 
-The arity condition makes the value of a term well defined: in a structure, $+$ is interpreted as a function of two arguments, and $+(x)$ would have no value.
+The arity condition is what gives every term a value.
+In a structure $+$ is read as a function of two arguments, so $+(x)$ would have no value.
 Some programming languages allow partial application, where $+(x)$ denotes the function $y \mapsto x + y$.
-First-order logic has no such terms, because the values of terms are elements, not functions.
-In Mathlib a term `func f ts` has `f : L.Functions n` and `ts : Fin n → L.Term α`, so the type checker rejects a wrong number of arguments.
+First-order logic has no such terms, because the value of a term is an element, never a function.
+In Mathlib a term `func f ts` has `f : L.Functions n` and `ts : Fin n → L.Term α`, so the type checker rejects a wrong number of arguments before any proof begins.
 
 ## Explanations
 
@@ -49,11 +52,9 @@ A term must give each symbol exactly the number of inputs that the signature say
 
 ### L2 human
 
-We check three nearby strings.
-
-1. $+(x, S(0))$ is a term: $+$ gets the two terms $x$ and $S(0)$.
-2. $+(x, S)$ is not a term: $S$ alone is not a term, because $S$ has arity $1$ and is not a constant symbol.
-3. $S(+(x, x))$ is a term: $S$ gets the one term $+(x, x)$.
-
-The typical use of the arity check is in a parser, which rejects a string as soon as a symbol has the wrong number of arguments.
-A trap: the constant symbol $0$ has arity $0$, so it is a term by itself, and $S(0)$ is a term, but $S()$ is not.
+We test three nearby strings.
+The string $+(x, S(0))$ is a term, since $+$ gets the two terms $x$ and $S(0)$.
+The string $+(x, S)$ is not a term, since $S$ alone is not a term: it has arity $1$ and is not a constant symbol.
+The string $S(+(x, x))$ is a term, since $S$ gets the one term $+(x, x)$.
+A parser uses exactly this check and rejects a string as soon as a symbol has the wrong number of arguments.
+Watch out: the constant symbol $0$ has arity $0$, so $0$ alone is a term and $S(0)$ is a term, but $S()$ is not.
