@@ -33,7 +33,7 @@ The central design question is the place of logic and sets in a curriculum: a se
 
 School mathematics is mostly calculation, and university mathematics is mostly definition, theorem and proof.
 Many students meet that change in the first or second year of university, and many of them find it hard.
-Robert Moore observed students in a university course that introduced proof, and in 1994 he reported their main difficulties in Educational Studies in Mathematics.
+The education researcher Robert Moore observed students in a university course that introduced proof, and in 1994 he reported their main difficulties in Educational Studies in Mathematics.
 They did not know the definitions or could not use them, they did not know how to begin a proof, and they could not handle the notation.
 None of these difficulties concerns special content, so all of them are difficulties with the foundations.
 
