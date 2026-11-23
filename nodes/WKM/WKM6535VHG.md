@@ -68,7 +68,7 @@ It also costs coverage: a Moore course covers less material than a lecture cours
 
 ### Three courses
 
-[[Moore's course in point-set topology|W05DW690QG]] is the original form, as his student F. Burton Jones described it.
+[[Moore's course in point-set topology|W05DW690QG]] is the original form, as his student Floyd Burton Jones described it.
 [[An inquiry-based unit on divisibility|EAWQDSME6M]] is a modern week in a transition course, with a short list of theorems that students prove in groups.
 Dana Ernst's open textbook "An Introduction to Proof via Inquiry-Based Learning" is a full list of tasks for a transition course in this style.
 

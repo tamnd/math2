@@ -21,7 +21,8 @@ sources:
 ## Summary
 
 A first-year student recites without error that a [[function|0EPAT51DXQ]] from $\mathbb{R}$ to $\mathbb{R}$ assigns to each real number exactly one real number.
-Five minutes later she is shown $f(x) = x^2$ for $x \ge 0$ and $f(x) = -x$ for $x < 0$, and she says, "That's two functions, not one. A function has a formula."
+Five minutes later she is shown $f(x) = x^2$ for $x \ge 0$ and $f(x) = -x$ for $x < 0$.
+She says that this is two functions, not one, because a function has a formula.
 Her answer does not come from the definition she just recited.
 It comes from a picture built over years of school examples, in each of which a function had one formula.
 

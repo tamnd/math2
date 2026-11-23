@@ -105,7 +105,7 @@ Is "Find the angle $x$ in this triangle with angles $50^\circ$, $60^\circ$ and $
 No, it applies the angle sum theorem to compute $x = 70^\circ$, and gives no reason why the sum is $180^\circ$.
 
 Rewrite it as a reasoning task in the spirit of the third Common Core practice.
-One version: "Sam says every triangle has an angle of at least $60^\circ$. Is Sam right? Explain."
+One version asks whether Sam is right when he says that every triangle has an angle of at least $60^\circ$, and asks for an explanation.
 Sam is right, since three angles each less than $60^\circ$ would add to less than $180^\circ$.
 
 ## Explanations
