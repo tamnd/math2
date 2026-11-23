@@ -73,7 +73,9 @@ Check: on the graph with vertices $1, 2, 3$ and the one edge $\{ 1, 2 \}$, the s
 
 Colorings fit the same pattern.
 The EMSO sentence $\exists R \, \exists G \, \exists B \, \varphi$ with a first-order $\varphi$ defines the [[3-colorable graphs|0XHZW0VCPR]], as [[the three-colorability example|EHH5XEB6BG]] proves.
-With edge sets the logic says more: a graph with at least three vertices is Hamiltonian exactly when some set of edges has exactly two of its edges at each vertex and forms a connected subgraph, and this is an $\mathrm{MSO}_2$ sentence.
+With edge sets the logic says more.
+A graph with at least three vertices is Hamiltonian exactly when some set of edges has exactly two of its edges at each vertex and forms a connected subgraph.
+That condition is an $\mathrm{MSO}_2$ sentence.
 
 ### What MSO cannot say
 
