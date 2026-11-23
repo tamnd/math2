@@ -27,7 +27,7 @@ same_as:
 ## Statement
 
 Suppose Peano arithmetic is consistent, and let $G$ be a sentence that says "$G$ is not provable in $\mathsf{PA}$".
-If $\mathsf{PA}$ proved $G$, it would also prove "$G$ is provable", which is $\neg G$, and it would be inconsistent.
+If $\mathsf{PA}$ proved $G$, it would also prove "$G$ is provable", which is equivalent to $\neg G$, and it would be inconsistent.
 So $G$ has no proof in $\mathsf{PA}$, and that is exactly what $G$ says, so $G$ is true.
 The first incompleteness theorem turns this argument into mathematics.
 
@@ -50,9 +50,9 @@ In one line: no consistent theory that contains $\mathsf{Q}$ and has a computabl
 ### Why $G_T$ is true
 
 The truth of $G_T$ is not part of what $T$ proves.
-It is an argument made outside $T$, and it uses the consistency of $T$ as a premise.
+It comes from an argument made outside $T$, which uses the consistency of $T$ as a premise.
 The sentence $\neg \mathrm{Prov}_T(\ulcorner G_T \urcorner)$ says that no number codes a proof of $G_T$.
-Part 1 shows that no number does, so this sentence is true in $\mathbb{N}$, and $G_T$ is true because $\mathsf{Q}$ proves the two equivalent and $\mathbb{N}$ is a model of $\mathsf{Q}$.
+Part 1 shows that no number does, so this sentence is true in $\mathbb{N}$, and $G_T$ is true because $\mathsf{Q}$ proves the two sentences equivalent and $\mathbb{N}$ is a model of $\mathsf{Q}$.
 
 $G_T$ is a $\Pi_1$ sentence: "for every $y$, $y$ does not code a proof of $G_T$", where checking one $y$ is a computation.
 So the unprovable sentence has the simplest form a sentence can take beyond a bare calculation.
