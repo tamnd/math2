@@ -59,4 +59,4 @@ Interpolation proves the [[Beth definability theorem|RJBDSA2ETP]]: a symbol that
 Three facts here have similar names and different content.
 Completeness of first-order logic is a property of the logic: every valid consequence is derivable.
 A complete theory is a theory that decides every sentence of its language.
-Gödel's incompleteness theorems say that some theories, such as Peano arithmetic, are not complete theories, although the logic they use is complete.
+Gödel's incompleteness theorems say that Peano arithmetic, if it is consistent, is not a complete theory, although the logic they use is complete.
