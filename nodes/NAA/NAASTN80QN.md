@@ -99,7 +99,7 @@ Harvey Friedman's program of reverse mathematics, announced at the International
 First, does $\mathsf{ACA}_0$ prove that the set of indices $e$ such that the $e$-th program halts on every input exists?
 Yes: "for every $x$ there is a stage $s$ at which program $e$ halts on $x$" is an arithmetical formula.
 
-Second, for the function above, what is $L - c_3$ if $f$ takes no further values below $6$?
+Second, for the function above, how large can $L - c_3$ be if $f$ takes no further values below $6$?
 Then all later terms are at most $2^{-7}$ and distinct, so $L - c_3 \le 2^{-7} + 2^{-8} + \cdots = \tfrac{1}{64}$.
 
 ## Explanations
