@@ -14,48 +14,54 @@ sources:
 
 ## Example
 
-Problem: find a [[greatest common divisor|Q75YRG25JK]] of the polynomials $f = x^3 - 1$ and $g = x^2 - 1$ with rational coefficients.
-We solve it by [[analogy|7KDT0R1HF2]] with the integers.
+We find a [[greatest common divisor|Q75YRG25JK]] of $f = x^3 - 1$ and $g = x^2 - 1$ over $\mathbb{Q}$ by [[analogy|7KDT0R1HF2]] with the integers, and we run the integer version beside it.
 
-1. The analogous problem. For integers, the [[Euclidean algorithm|0TRNT4X7J0]] finds $\gcd(a, b)$ by division with remainder: replace $(a, b)$ by $(b, r)$, where $a = qb + r$ and $0 \le r < b$.
-2. The correspondence. Integers match polynomials, and the size $|r|$ matches the degree of $r$. The [[division algorithm for polynomials|0MES3KS0ZC]] gives $f = qg + r$ with $r = 0$ or $\deg r < \deg g$.
-3. The key fact that transfers. In both settings, the common divisors of $(a, b)$ are the common divisors of $(b, r)$, because $r = a - qb$ and $a = qb + r$.
-4. Divide $f$ by $g$: $x^3 - 1 = x \cdot (x^2 - 1) + (x - 1)$.
-5. Divide $g$ by the remainder: $x^2 - 1 = (x + 1)(x - 1) + 0$.
+1. We recall the integer method.
+   The [[Euclidean algorithm|0TRNT4X7J0]] replaces the pair $(a, b)$ by $(b, r)$, where $a = qb + r$ and $0 \le r < b$, until the remainder is $0$.
+2. We set up the correspondence.
+   Integers match polynomials, and the size of a remainder matches its degree.
+   The [[division algorithm for polynomials|0MES3KS0ZC]] gives $f = qg + r$ with $r = 0$ or $\deg r < \deg g$, which is the analogue of $0 \le r < b$.
+3. We check the step that the method rests on.
+   The common divisors of $(a, b)$ are the common divisors of $(b, r)$, because $r = a - qb$ and $a = qb + r$.
+   This uses only addition and multiplication, so it holds for polynomials as well.
+4. We divide $f$ by $g$:
+   $$x^3 - 1 = x \cdot (x^2 - 1) + (x - 1).$$
+5. We divide $g$ by the remainder:
+   $$x^2 - 1 = (x + 1)(x - 1) + 0.$$
 6. The last nonzero remainder is $x - 1$, so $\gcd(x^3 - 1, x^2 - 1) = x - 1$, up to a nonzero constant factor.
-7. Check: $x^3 - 1 = (x - 1)(x^2 + x + 1)$ and $x^2 - 1 = (x - 1)(x + 1)$, and the cofactors $x^2 + x + 1$ and $x + 1$ have no common root, since $(-1)^2 + (-1) + 1 = 1 \ne 0$.
+7. We check by factoring.
+   We have $x^3 - 1 = (x - 1)(x^2 + x + 1)$ and $x^2 - 1 = (x - 1)(x + 1)$.
+   The cofactors have no common root, since the only root of $x + 1$ is $-1$ and $(-1)^2 + (-1) + 1 = 1 \ne 0$.
 
 ## Remarks
 
-The analogy can be seen in numbers.
-At $x = 10$ the polynomials become $999$ and $99$, and the integer algorithm runs in the same way: $999 = 10 \cdot 99 + 9$, then $99 = 11 \cdot 9 + 0$, so $\gcd(999, 99) = 9 = 10 - 1$.
-The quotients $10$ and $11$ are the values of $x$ and $x + 1$ at $x = 10$.
+The analogy shows up in plain numbers.
+At $x = 10$ the two polynomials become $999$ and $99$, and the integer algorithm runs the same way:
+$$999 = 10 \cdot 99 + 9, \qquad 99 = 11 \cdot 9 + 0.$$
+So $\gcd(999, 99) = 9$, which is $x - 1$ at $x = 10$, and the quotients $10$ and $11$ are the values of $x$ and $x + 1$.
 
-Step 3 is the step that must be checked in the new setting.
-It uses only the ring operations, so it transfers.
-The termination of the algorithm also transfers, since the degree of the remainder decreases strictly.
-One change is needed: the gcd of polynomials is unique only up to a nonzero constant factor, as the gcd of integers is unique only up to sign.
-The common structure behind the analogy is a [[Euclidean domain|023VY493K0]].
+Two parts of the integer argument needed a new check.
+The algorithm stops because the degree of the remainder falls at each step, as the size of the remainder falls for integers.
+The answer is unique only up to a nonzero constant, just as the integer answer is unique only up to sign, because the nonzero constants are the units of $\mathbb{Q}[x]$.
+The structure that both settings share is a [[Euclidean domain|023VY493K0]].
 
 ## Explanations
 
 ### L1 human
 
-To find the largest number that divides both $999$ and $99$, we divide and keep the remainder: $999$ divided by $99$ leaves $9$, and $99$ divided by $9$ leaves $0$, so the answer is $9$.
-Polynomials can be divided with a remainder in the same way as numbers.
-So the same method finds the largest common factor of two polynomials.
+To find the largest number that divides both $999$ and $99$, divide and keep the remainder.
+$999$ divided by $99$ leaves $9$, and $99$ divided by $9$ leaves $0$, so the answer is $9$.
+Polynomials can also be divided with a remainder, so the same method finds their largest common factor.
 For $x^3 - 1$ and $x^2 - 1$ it gives $x - 1$.
-The numbers $999 = 10^3 - 1$ and $99 = 10^2 - 1$ are these polynomials at $x = 10$, and the answer $9$ is $x - 1$ at $x = 10$.
+The numbers $999 = 10^3 - 1$ and $99 = 10^2 - 1$ are these polynomials at $x = 10$, and $9$ is $x - 1$ at $x = 10$.
 
 ### L2 human
 
-We use the same analogy on $f = x^6 - 1$ and $g = x^4 - 1$.
+We run the same analogy on $x^6 - 1$ and $x^4 - 1$.
+Divide, then divide again:
+$$x^6 - 1 = x^2 (x^4 - 1) + (x^2 - 1), \qquad x^4 - 1 = (x^2 + 1)(x^2 - 1) + 0.$$
+So the greatest common divisor is $x^2 - 1$.
+The integer shadow at $x = 2$ is $\gcd(63, 15) = 3 = 2^2 - 1$.
 
-1. Divide: $x^6 - 1 = x^2 (x^4 - 1) + (x^2 - 1)$.
-2. Divide: $x^4 - 1 = (x^2 + 1)(x^2 - 1) + 0$.
-3. So $\gcd(x^6 - 1, x^4 - 1) = x^2 - 1$.
-4. The integer analogue at $x = 2$: $\gcd(63, 15) = 3 = 2^2 - 1$.
-
-The typical use: a method known for integers is copied step by step, and only the steps that use special properties of integers are checked again.
-
-A trap: the gcd of $2x - 2$ and $x^2 - 1$ over $\mathbb{Q}$ is $x - 1$, not $2x - 2$ and not $2$; constants are units for polynomials over a field, as $-1$ is a unit for the integers.
+This is the typical use of the analogy: copy the integer method step by step, and check again only the steps that use special properties of integers.
+Watch out for constants: over $\mathbb{Q}$, the greatest common divisor of $2x - 2$ and $x^2 - 1$ is $x - 1$ up to a constant, so $2x - 2$ is an equally good answer, but $2$ is wrong, since $2$ is a unit and divides everything.

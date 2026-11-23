@@ -14,46 +14,48 @@ sources:
 
 ## Example
 
-Consider the argument with two premises and a conclusion:
+Is this argument valid?
+Try to decide before you read the answer.
 
-- Premise 1: if an integer $n$ is divisible by $4$, then $n$ is even.
-- Premise 2: the integer $6$ is not divisible by $4$.
-- Conclusion: so $6$ is not even.
+> Every integer divisible by $4$ is even.
+> The integer $6$ is not divisible by $4$.
+> So $6$ is not even.
 
-We check whether the argument is valid.
+It is not valid, and the conclusion is even false.
+We find the error in four steps.
 
-1. Premise 1 is true. If $n = 4k$ for an integer $k$, then $n = 2(2k)$, so $n$ is even.
-2. Premise 2 is true, because $6 = 4 \cdot 1 + 2$ leaves the remainder $2$ on division by $4$.
-3. The conclusion is false, because $6 = 2 \cdot 3$ is even.
-4. A valid inference never leads from true premises to a false conclusion. So the argument is not valid.
-5. The form of the argument is "if $P$ then $Q$; not $P$; so not $Q$". This form [[denies the antecedent|J7KFCFQRBT]].
-6. The form needs the [[inverse|VB7B8766D2]] "if $n$ is not divisible by $4$, then $n$ is not even". The number $6$ is a counterexample to the inverse.
+1. Both premises are true. If $n = 4k$, then $n = 2(2k)$ is even, and $6 = 4 \cdot 1 + 2$ leaves remainder $2$ on division by $4$.
+2. The conclusion is false, since $6 = 2 \cdot 3$.
+3. A valid inference never leads from true premises to a false conclusion, so the argument is invalid.
+4. Its form is "if $P$ then $Q$; not $P$; so not $Q$", which [[denies the antecedent|J7KFCFQRBT]]. It would need the [[inverse|VB7B8766D2]] "if $n$ is not divisible by $4$, then $n$ is not even", and $6$ is a counterexample to the inverse.
+
+The correct argument with the same first premise denies the consequent instead.
+From "$7$ is not even" it concludes "$7$ is not divisible by $4$", and that is [[modus tollens|QWTTHZ9C6T]], a valid form.
 
 ## Remarks
 
-The example shows that a conditional says nothing about the cases where its hypothesis is false.
-Premise 1 is a statement about multiples of $4$, and $6$ is not one of them.
-With $n = 7$ in place of $6$, the same form gives the true conclusion "$7$ is not even", but only by chance: the argument is still invalid.
-The valid form with the same premise 1 is [[modus tollens|QWTTHZ9C6T]]: from "$n$ is not even", conclude "$n$ is not divisible by $4$".
+A [[conditional|FA6YZGR2SS]] says nothing about the cases where its hypothesis is false.
+The first premise talks about multiples of $4$, and $6$ is not one of them, so the premise is silent about $6$.
+With $7$ in place of $6$, the same invalid form reaches the true conclusion "$7$ is not even", but only by luck.
+A correct conclusion does not make an argument valid; validity is about the form, and $6$ shows that the form can fail.
 
 ## Explanations
 
 ### L1 human
 
 "If it is a dog, then it has four legs" is true.
-"This is not a dog" can be true too, for a cat.
+"This is not a dog" is true for a cat.
 But "so it does not have four legs" is false for the cat.
-The "if" sentence tells us about dogs only, and it tells us nothing about animals that are not dogs.
+The "if" sentence tells us about dogs and nothing about animals that are not dogs.
 
 ### L2 human
 
 We test the inverse of a true theorem.
-
-1. The theorem: if a real function $f$ is differentiable at $c$, then $f$ is continuous at $c$.
-2. Its inverse: if $f$ is not differentiable at $c$, then $f$ is not continuous at $c$.
-3. Take $f(x) = |x|$ and $c = 0$. The difference quotient $\frac{|h|}{h}$ is $1$ for $h > 0$ and $-1$ for $h < 0$, so it has no limit, and $f$ is not differentiable at $0$.
-4. But $|h| \to 0$ as $h \to 0$, so $f$ is continuous at $0$.
-5. So the inverse is false, and the inference "not differentiable, so not continuous" denies the antecedent.
+The theorem says that if a real function $f$ is differentiable at $c$, then $f$ is continuous at $c$.
+Its inverse says that if $f$ is not differentiable at $c$, then $f$ is not continuous at $c$.
+Take $f(x) = |x|$ and $c = 0$.
+The difference quotient $\frac{|h|}{h}$ is $1$ for $h > 0$ and $-1$ for $h < 0$, so it has no limit, and $f$ is not differentiable at $0$.
+But $|h| \to 0$ as $h \to 0$, so $f$ is continuous at $0$, and the inverse is false.
 
 The typical use of this check is to read a theorem as a statement about the objects that satisfy its hypothesis, and only about them.
-A trap is to use a theorem to rule out a property in the case where its hypothesis fails.
+Watch out for using a theorem to rule out a property in exactly the case where its hypothesis fails.

@@ -20,103 +20,110 @@ sources:
 
 ## Summary
 
-The language of proofs is the small set of words and phrases that a written [[proof|0B94TKFQJX]] uses to show the logical role of each sentence.
-Some words introduce an object: "let", "fix", "take", "choose".
-Some words open an assumption: "suppose", "assume".
-Some words draw a conclusion: "hence", "thus", "so", "therefore", "it follows that".
-Some words announce or close a goal: "we claim", "we show", "it suffices to show", "it remains to show", "this proves the claim".
-Other phrases, the signposts, show the plan of the proof: "there are two cases", "first", "conversely".
-Each such word gives the status of a sentence.
-The sentence can be a new assumption, a name for an object, a claim still to be proved, or a consequence of earlier sentences.
-The idea matters because a formula alone does not show its logical status.
-A reader can check a proof only when the status of each line is known.
+A formula on its own does not say whether it is assumed, chosen, still to be shown, or already proved.
+The language of proofs is the small set of words, such as "let", "suppose", "hence" and "we claim", that gives each sentence of a [[proof|0B94TKFQJX]] its logical role.
+
+Take the formula $x > 0$ in the middle of a proof.
+It can be read in four ways, and four short phrases separate them:
+
+> "Let $x > 0$": a new object enters, and $x > 0$ is all we know about it.
+> "Suppose that $x > 0$": an assumption opens, and it must be closed later.
+> "We must show that $x > 0$": a goal, not yet proved.
+> "Hence $x > 0$": a conclusion from the lines before.
+
+Each reading asks the reader for a different check.
+In general, the words of a proof sort its sentences into new objects, assumptions, goals and conclusions, and a second group of phrases, the signposts, shows the plan: "there are two cases", "first", "conversely", "it remains to show".
 
 ## Motivation
 
-Consider the formula $x > 0$ in the middle of a proof.
-It can be a hypothesis that the writer assumes, or a goal that the writer still has to prove.
-It can also be a conclusion that the writer has just proved.
-It can also be the condition that a newly chosen $x$ satisfies.
-These four readings lead to four different checks for the reader.
-The words "suppose $x > 0$", "we must show $x > 0$", "hence $x > 0$" and "let $x > 0$" remove the doubt.
+A reader can check a line only after knowing its role.
+A conclusion needs a reason, an assumption needs none but must be closed, and a new object needs a reason only when its existence is claimed.
+Variables show the same problem.
+In "$n = 2k$", the letter $k$ may be a number fixed earlier or a new integer that a definition provides.
+The sentence "since $n$ is even, there is an integer $k$ with $n = 2k$" says which reading is meant, and it gives the reason for the existence of $k$.
 
-The same problem appears with variables.
-In "$n = 2k$", the letter $k$ can be a fixed number from earlier, or a new integer whose existence follows from a definition.
-The phrase "since $n$ is even, there is an integer $k$ with $n = 2k$" says which reading is meant.
-It also gives the reason for the existence of $k$.
-Mathematical English developed a fixed vocabulary for these roles, and the [[language of mathematics|661V0DH7V3]] uses it in the same way in every field.
+Mathematical English has a fixed vocabulary for these roles, and the [[language of mathematics|661V0DH7V3]] uses it the same way in every field.
+The same words return in every later method: [[writing proofs|8JQHJK94RZ]] uses them in every sentence, and [[structured proofs|H2W8D7BMSW]] turn the scope of each "let" and "suppose" into numbered levels.
 
 ## Notation
 
-1. Some texts use symbols for the conclusion words: $\therefore$ for "therefore", $\because$ for "because", and $\Rightarrow$ for "hence". Style guides advise words in a final proof, because $\Rightarrow$ also means the [[conditional|FA6YZGR2SS]] "implies".
-2. The short forms "iff", "wlog", "s.t." and "TFAE" belong to the page [[mathematical abbreviations|4ZNYMYRRY3]].
-3. The end of a proof is marked by a symbol such as $\square$ or by "Q.E.D.". The page [[Q.E.D. and end of proof marks|ET9J6R9T5C]] explains these marks.
+Some texts use symbols for the conclusion words: $\therefore$ for "therefore", $\because$ for "because", and $\Rightarrow$ for "hence".
+Many style guides advise words in a final proof, because $\Rightarrow$ also means the [[conditional|FA6YZGR2SS]] "implies", and a reader cannot tell a deduction from an implication.
+Short forms such as "iff", "WLOG" and "s.t." are on the page [[mathematical abbreviations|4ZNYMYRRY3]], and the end marks $\square$ and Q.E.D. are on the page [[end of proof marks|ET9J6R9T5C]].
 
 ## Remarks
 
-### The vocabulary by role
+### The words by role
 
-1. Introducing an arbitrary object: "let $x$ be a real number", "let $\varepsilon > 0$". The object is arbitrary, so a conclusion about it holds for all such objects. This is how a proof of a "for all" statement starts.
-2. Fixing an object: "fix $\varepsilon > 0$". The word "fix" says that the object stays the same in the following part, while other objects vary.
-3. Defining a symbol: "let $N = 4p - 1$", "put $m = a + b$", "write $d$ for $\gcd(a, b)$". The symbol is a name for a known object, and nothing has to be proved.
-4. Choosing an object that is known to exist: "since $n$ is even, choose an integer $k$ with $n = 2k$". The choice needs a reason: a hypothesis, a definition or an earlier result that states existence.
-5. Making an assumption: "suppose that $n$ is odd", "assume, for a contradiction, that $\sqrt{2}$ is rational". An assumption is temporary. It must be closed later by a conclusion "if ... then ..." or by a contradiction.
-6. Drawing a conclusion: "hence", "thus", "so" and "therefore" mark a consequence of the sentences just before. "It follows from (2) and Lemma 3 that" names the sources of the step.
-7. Giving the reason first: "since $a \mid b$ and $b \mid c$, we get $a \mid c$". The reader sees the reason and then the result.
-8. Announcing a goal: "we claim that", "we show that", "we must show that". The sentence is not yet proved, and its proof follows.
-9. Reducing a goal: "it suffices to show that $P$". The writer states that $P$ implies the goal, so the reader must check this implication.
-10. Closing a goal: "this proves the claim", "this completes the proof", "as required". The reader compares the last line with the goal that was announced.
+| Role | Typical words | What the reader checks |
+|---|---|---|
+| arbitrary object | "let $x$ be a real number", "fix $\varepsilon > 0$" | nothing yet; later, that no special property of $x$ was used |
+| name for a known object | "put $m = a + b$", "write $d$ for $\gcd(a, b)$" | nothing, since a name proves nothing |
+| object known to exist | "choose $k$ with $n = 2k$", "there is an integer $k$ with" | the reason that such an object exists |
+| assumption | "suppose that", "assume, for a contradiction, that" | that it is closed later |
+| conclusion | "hence", "so", "thus", "it follows from (2) that" | that it follows from the lines named |
+| reason first | "since $a \mid b$ and $b \mid c$, we get" | the reason, then the step |
+| goal | "we claim that", "we show that", "it suffices to show that" | after "it suffices", that the new goal implies the old one |
+| closing | "this proves the claim", "as required" | that the last line matches the announced goal |
+
+"Fix" differs from "let" only in emphasis: it says that the object stays the same while other objects vary, as $\varepsilon$ does in an [[epsilon-delta proof|RXG5JTZ2PZ]].
+
+### Two proofs read word by word
+
+[[The language of a proof that the square of an odd integer is odd|7CFTMSRX3R]] tags every line of a short direct proof.
+"Let" brings in $n$, "suppose" opens "$n$ is odd", "there is" produces $k$ with its reason, "put" names $m$, and "hence" closes the assumption.
+
+[[A proof with "fix" and "we claim"|ZF4QJ8ATXX]] has a claim with its own proof inside the main proof.
+The words "we claim" and "this proves the claim" mark the borders of the inner level, and "there are three cases" tells the reader to count to three.
 
 ### Signposts
 
-Signposts are sentences that describe the structure of the proof, not its mathematics.
-Examples are "the proof has two steps", "we consider two cases", "first we show uniqueness", "conversely" and "we now prove the second statement".
+Signposts describe the structure of the proof, not its mathematics: "the proof has two steps", "we consider two cases", "first we show uniqueness", "conversely".
 A signpost costs one line and tells the reader where each part begins and ends.
-Signposts matter most in long proofs, in [[proofs by cases|0WCP0PVET6]], and in proofs of "if and only if" statements, which have two directions.
+They matter most in long proofs, in [[proofs by cases|0WCP0PVET6]], and in proofs of "if and only if", which have two directions.
 
 ### Tense, person and voice
 
-1. Mathematical facts are stated in the present tense: "the sum is even", not "the sum was even". The facts do not change with time.
-2. The future tense is used for the plan: "we will show that $f$ is injective".
-3. The past tense is used for references to earlier parts: "we proved in Lemma 2 that".
-4. Most mathematical texts use "we". The mathematical "we" means the writer and the reader, who follow the argument together.
-5. Style guides differ on the first person. Some single authors write "I", some prefer "we" in every text, and some advise impersonal forms such as "it follows that". These are matters of advice and of the custom of a journal, not rules of logic.
-6. Many guides advise the active voice ("we prove") over the passive voice ("it is proved"), because the active voice says who does what.
+Mathematical facts are stated in the present tense ("the sum is even"), because they do not change with time.
+The future is for the plan ("we will show that $f$ is injective"), and the past is for earlier parts ("we proved in Lemma 2 that").
 
-### Examples
+Most mathematical texts use "we", read as the writer and the reader following the argument together.
+Here the authors of advice differ, so treat the choice as a matter of taste and of the custom of a journal, not of logic.
+Some single authors write "I", some keep "we" in every text, and some prefer impersonal forms such as "it follows that".
+Many guides prefer the active voice ("we prove") to the passive ("it is proved"), because the active voice says who does what.
 
-1. [[The language of a proof that the square of an odd integer is odd|7CFTMSRX3R]]. Each sentence of a short proof is tagged as an assumption, a choice, a calculation or a conclusion.
-2. [[A proof with "fix" and "we claim" that 3 divides n^3 - n|ZF4QJ8ATXX]]: the words show a claim inside a proof and a case split.
-3. "Let $\varepsilon > 0$" at the start of an [[epsilon-delta proof|RXG5JTZ2PZ]] introduces an arbitrary tolerance. The last line "since $\varepsilon$ was arbitrary" uses that it was arbitrary.
-4. "Suppose, for a contradiction, that there are only finitely many primes" opens an assumption in [[Euclid's theorem|0292EPPPT0]]. The words "for a contradiction" tell the reader that the proof will end with an impossible statement.
-5. "It suffices to show that $A \subseteq B$ and $B \subseteq A$" reduces the equality $A = B$ to two inclusions, as in [[set equality by double inclusion|MKHVRNW68H]].
+### When the words are wrong
 
-### Non-examples
+[[A column of formulas without proof words|T1R6KAM4CX]] is correct line by line, but the reader cannot tell which line is assumed and which is derived.
+A column of the same shape "proves" the false claim that $a \mid bc$ implies $a \mid b$, so the shape alone cannot be trusted.
 
-1. [[A column of formulas without proof words|T1R6KAM4CX]]. The formulas are correct, but the reader cannot tell which line is an assumption and which is a conclusion.
-2. "Let $x$ be the largest prime." The word "let" introduces an object, but no largest prime exists, so the sentence names nothing. A "let" with a description needs a proof that the object exists, as the page [[existence and uniqueness statements|ACSC75R7R5]] explains.
-3. "$n^2$ is even, hence $n$ is even." The word "hence" claims that the conclusion follows from the sentence before. But the step needs a separate argument, for example by the [[contrapositive|0BB5TPGQ1N]].
+"Let $x$ be the largest prime" uses "let" for an object that does not exist, so the sentence names nothing.
+A "let" with a description needs a proof that the object exists, as in [[existence and uniqueness statements|ACSC75R7R5]].
+"$n^2$ is even, hence $n$ is even" uses "hence" for a step that needs its own argument, for example by the [[contrapositive|0BB5TPGQ1N]].
 
-### Basic properties
+### Watch out
 
-1. Each "let" and each "choose" introduces a symbol. Its scope lasts to the end of the proof, or to the end of the case or claim in which it appears.
-2. Each "suppose" opens an assumption that must be closed. A conclusion reached under the assumption $P$ is a proof of "if $P$, then $Q$", or of "not $P$" when $Q$ is a contradiction.
-3. A "let" for an arbitrary object proves a statement for all objects when the proof uses only the stated properties of the object. This is why "let $x$ be arbitrary" must come before any special choice of $x$.
-4. The words match the rules of [[natural deduction|6KT3BJZ7D1]]. "Let $x$ be arbitrary" introduces "for all", and "suppose $P$ ... hence $Q$" introduces "implies". "Choose $x$ with $P(x)$" eliminates "there exists", and "take $x = 3$" introduces it.
-5. The words of a proof do not change its mathematics. They make the logical structure visible, so a reader can check each step without guessing.
+The most common slip is "let" where "there is" belongs.
+Proving that $a \mid b$ and $b \mid c$ give $a \mid c$, a student writes "let $b = ak$".
+That sentence defines $b$, but $b$ was already given, so the step changes the meaning of $b$ instead of using the hypothesis.
+The correct sentence is "since $a \mid b$, there is an integer $k$ with $b = ak$".
+
+A second slip is a "suppose" that is never closed.
+The last line then holds only under that assumption, and the theorem is not proved.
 
 ### History
 
-Greek geometric texts, such as [[Euclid's Elements|83WHDAV68J]], used fixed phrases for the parts of a proposition.
-The Latin "quod erat demonstrandum", shortened to Q.E.D., translates the Greek closing phrase of such proofs.
-Paul Halmos discussed the words of proofs in his essay "How to Write Mathematics" of 1970.
-Later guides, such as "Mathematical Writing" by Donald Knuth, Tracy Larrabee and Paul Roberts (1989), give similar advice.
+Greek geometric texts such as [[Euclid's Elements|83WHDAV68J]] used fixed phrases for the parts of a proposition.
+The Latin "quod erat demonstrandum", shortened to Q.E.D., translates the Greek closing phrase "which was to be shown".
+Halmos's essay of 1970 and the notes of Knuth, Larrabee and Roberts (1989) both give advice on the words of mathematical prose.
 
-### Common errors
+### Try it
 
-1. A student writes "let" for an object that must be proved to exist, such as "let $x$ be a solution" before any solution is known.
-2. A student writes "hence" before a statement that does not follow from the previous sentence. The reader then looks for a reason that is not there.
-3. A student opens an assumption with "suppose" and never closes it. The last line then holds only under that assumption, and the proof does not prove the theorem.
+Which word fits: "\_\_\_ $n$ be an integer, and \_\_\_ that $n^2$ is odd; we show that $n$ is odd"?
+"Let" introduces the arbitrary $n$, and "suppose" opens the assumption.
+
+What is wrong with "Choose $\varepsilon = 1$" as the first line of a proof that a limit holds?
+The goal "for every $\varepsilon > 0$" needs an arbitrary $\varepsilon$, so the line should read "Let $\varepsilon > 0$".
 
 ## Explanations
 
@@ -127,33 +134,33 @@ Some small words tell the reader what each step does.
 "Let" says that a new object enters, for example "let $n$ be any whole number".
 "Suppose" says that something is assumed for the moment, for example "suppose $n$ is odd".
 "So" or "hence" says that a new fact follows from the facts before it.
-Without these words, a list of facts such as "$n = 7$, $n^2 = 49$, $49$ is odd" does not show what was given and what was found.
+Without these words, a list such as "$n = 7$, $n^2 = 49$, $49$ is odd" does not show what was given and what was found.
 
 ### L2 human
 
-We write a proof of the statement "if $a \mid b$ and $b \mid c$, then $a \mid c$" for integers $a$, $b$, $c$.
-We name the role of each word.
+We write a proof that if $a \mid b$ and $b \mid c$, then $a \mid c$, and we name the role of each word.
 Here $a \mid b$ means that $b = ak$ for some integer $k$, by the definition of [[divisibility|0PG2H7WKGG]].
 
-1. "Let $a$, $b$ and $c$ be integers." The word "let" introduces arbitrary integers, so the result will hold for all integers.
-2. "Suppose that $a \mid b$ and $b \mid c$." The word "suppose" opens the hypothesis of the conditional.
-3. "By the definition of divisibility, there are integers $k$ and $l$ with $b = ak$ and $c = bl$." The phrase "there are" gives two new integers. The definition is the reason that they exist.
-4. "Then $c = bl = (ak)l = a(kl)$." The word "then" marks a calculation from step 3.
-5. "Since $kl$ is an integer, $a \mid c$." The phrase "since" gives the reason first, and the conclusion closes the assumption of step 2.
+> Let $a$, $b$ and $c$ be integers.
+> Suppose that $a \mid b$ and $b \mid c$.
+> By the definition of divisibility, there are integers $k$ and $l$ with $b = ak$ and $c = bl$.
+> Then $c = bl = (ak)l = a(kl)$.
+> Since $kl$ is an integer, $a \mid c$.
+> $\square$
 
-The typical use of the vocabulary is to make each line of a proof one of three things.
-These are a new object, an assumption, or a conclusion with its reason.
-A trap is to use "let" in step 3, as in "let $b = ak$".
-That sentence would define $b$, but $b$ is already given in step 1.
-So the step would change the meaning of $b$ instead of using the hypothesis.
+"Let" makes $a$, $b$ and $c$ arbitrary, so the result holds for all integers.
+"Suppose" opens the hypothesis, and "there are" produces $k$ and $l$ with the definition as the reason.
+"Then" marks a calculation, and "since" gives the reason first and closes the assumption.
+
+Check: $a = 2$, $b = 6$ and $c = 18$ give $k = 3$, $l = 3$ and $c = 2 \cdot 9$.
+Each line is now a new object, an assumption, or a conclusion with its reason, and the reader never has to guess which.
 
 ### L3 human
 
 The proof words are the surface form of a deduction system for first-order logic.
-"Let" and "fix" open the context of a universally quantified variable, and "suppose" adds a hypothesis to the context.
-"Choose" eliminates an existential quantifier, and "hence" applies a rule to formulas already in the context.
-In the [[Fitch-style|6KT3BJZ7D1]] presentation of natural deduction, an assumption opens an indented sub-proof, and the end of the sub-proof closes the assumption.
-The same structure appears in the tactics of a proof assistant.
-In Lean, `intro` corresponds to "let" or "suppose", `obtain` to "choose", `use` to "take", and `have` to "we claim".
-Hierarchical proof formats make the scope of each "let" and "suppose" explicit with levels, as the page [[structured and hierarchical proofs|H2W8D7BMSW]] shows.
-The general advice on sentences, notation and displayed formulas is on the page [[mathematical writing style|D5YPYTQ88G]].
+"Let" and "fix" open the scope of a universally quantified variable, "suppose" adds a hypothesis to the context, "choose" eliminates an existential quantifier, and "hence" applies a rule.
+In the Fitch-style presentation of [[natural deduction|6KT3BJZ7D1]], an assumption opens an indented sub-proof, and the end of the sub-proof closes it.
+
+The tactics of a proof assistant carry the same structure.
+In Lean, `intro` plays the part of "let" or "suppose", `obtain` of "choose", `use` of "take", and `have` of "we claim".
+[[Structured proofs|H2W8D7BMSW]] make the scope of each "let" and "suppose" visible with levels, and [[mathematical writing style|D5YPYTQ88G]] treats the sentences around the formulas.

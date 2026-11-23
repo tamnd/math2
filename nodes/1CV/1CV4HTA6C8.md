@@ -24,103 +24,117 @@ sources:
 
 ## Summary
 
-A famous incorrect proof is a published or announced [[proof|0B94TKFQJX]] of a significant result that experts accepted, or took seriously, and that later turned out to contain an invalid step or a gap.
-The claimed result can be true, as for the four colour theorem and Fermat's Last Theorem, or false.
-The error is almost never a [[mathematical fallacy|S2BW0FDHV8]] made on purpose: it is a step that the author and the first readers took as evident.
-The cases matter because they show how proofs are checked in practice, and because the search for the missing step often created new mathematics.
+In 1847 Gabriel Lamé told the Paris Academy that he had proved [[Fermat's Last Theorem|0Y5X3SDBCZ]].
+Here is the core of his argument for an odd prime $p$; look for the step that needs a reason.
+
+> Let $\zeta$ be a primitive $p$-th root of unity, and suppose $x^p + y^p = z^p$ in positive integers.
+> Factor the left side: $(x + y)(x + \zeta y)\cdots(x + \zeta^{p-1} y) = z^p$.
+> The factors have no common factor, so each one is a $p$-th power in $\mathbb{Z}[\zeta]$, and a descent then gives a contradiction.
+
+The step "so each one is a $p$-th power" is true in $\mathbb{Z}$, because integers factor uniquely into primes.
+Joseph Liouville questioned it at once, since Lamé used it in $\mathbb{Z}[\zeta]$, where factorization into irreducible elements is unique for $p \le 19$ and fails for $p = 23$.
+Kummer repaired the idea with ideal numbers, whose factorization is always unique, and proved the theorem for every regular prime.
+The full theorem waited until Wiles.
+
+A famous incorrect proof is a published or announced [[proof|0B94TKFQJX]] of a significant result that experts took seriously and that later turned out to have a gap or a false step.
+It is almost never a [[mathematical fallacy|S2BW0FDHV8]] planted on purpose; the failing step is one that the author and the first readers found evident.
 
 ## Motivation
 
-A proof is accepted when competent readers check it and find no error.
-This check is done by people, and people can miss a gap, so an accepted proof is not certain to be correct.
-The history of such errors shows which steps are hard to check: a case that looks like an earlier case, a property of a familiar number system used in a new one, or a statement that is "geometrically evident".
-It also shows how errors were found: by a reader who tried to extend the argument, by a referee, or by a counterexample to a lemma.
-The topic on [[rigour and the acceptance of proofs|1BTHSHST4M]] treats the general question of when a proof counts as accepted.
+A proof counts as accepted when competent readers check it and find no error, and readers can miss a gap.
+The famous cases show which steps are hard to check: a case that looks like a case already done, a property of a familiar number system carried into a new one, or a statement that seems geometrically evident.
+They also show how errors come to light, through a reader who tries to extend the argument, a referee, or a counterexample to a lemma.
+Very often the search for the missing step created new mathematics.
+The broader question of when a proof counts as accepted is treated in [[rigor and the acceptance of proofs|1BTHSHST4M]].
 
 ## Notation
 
-The literature separates two cases.
-
-1. An incomplete proof has a gap: a step is not justified, but the result can still be true and the gap can sometimes be closed.
-2. An incorrect proof has a false step: the step does not follow, and sometimes the claimed result is false.
-
-The Wikipedia "List of incomplete proofs", as of 2026-11, sorts its entries into results later proved rigorously, incorrect results, theories proven inconsistent, and cases of unclear status.
-The list changes as historians and mathematicians revise their judgments.
+Historians separate two cases.
+An incomplete proof has a gap: some step is not justified, the result may still be true, and the gap can sometimes be closed.
+An incorrect proof has a false step that does not follow, and sometimes the claimed result itself is false.
+Informally, mathematicians say a proof "has a hole" for the first case and "is wrong" for the second, and the two words should not be mixed.
 
 ## Remarks
 
-### Examples
+### Kempe, Tait and four colors
 
-1. Kempe and the [[four colour theorem|0M406JC8J1]]. Kempe published a proof in 1879, and it was accepted for 11 years. In 1890 Heawood showed that it fails in the case of a vertex with five neighbours.
-2. Tait and the four colour theorem. Tait published a different proof in 1880, which also stood for 11 years, until Petersen showed in 1891 that it was wrong.
-3. Lamé and [[Fermat's Last Theorem|0Y5X3SDBCZ]]. In 1847 Lamé announced a proof that assumed unique factorisation in rings of cyclotomic integers. Liouville at once questioned this assumption, and Kummer had shown that it fails for some exponents.
-4. Legendre and the [[parallel postulate|2PC3XY0PYZ]]. Legendre gave several proofs over about forty years. One proof assumed that through each point inside an angle there is a line that meets both sides of the angle, a statement equivalent to the postulate.
-5. Dulac and limit cycles. In 1923 Dulac published a proof that a polynomial vector field in the plane has only finitely many [[limit cycles|0AAQ73WRFB]]. In the early 1980s Ilyashenko found a gap in it.
-6. Wiles and Fermat's Last Theorem. Wiles announced a proof in June 1993. In August 1993 Nick Katz found a gap in one step during the review of the manuscript.
+Alfred Kempe published a proof of the [[four color theorem|0M406JC8J1]] in 1879, and it was accepted for 11 years.
+In 1890 Percy Heawood showed that it fails for a vertex with five neighbors.
+There Kempe made two Kempe chain swaps in turn, and Heawood drew a map in which the first swap breaks the chain that the second one needs.
+Peter Guthrie Tait published a different proof in 1880, and Julius Petersen showed in 1891 that it was wrong.
+Heawood used Kempe's method to prove the [[five color theorem|06C0JBE52D]], and that [[proof is correct|VSVWRHH2GN]], since the failing part of Kempe's argument is not needed for five colors.
+Kenneth Appel and Wolfgang Haken proved the four color theorem in 1976, with the help of a computer.
 
-### Non-examples
+### Legendre and the parallel postulate
 
-1. A deliberate false proof, such as a "proof" that $1 = 2$, is not in this class. Its author knows the error, and nobody accepts the result.
-2. Heawood's proof of the [[five colour theorem|06C0JBE52D]] uses the method of Kempe, but [[it is correct|VSVWRHH2GN]]. The part of Kempe's argument that fails is not needed for five colours.
-3. An open [[conjecture|WMEMMHZ3BH]] that nobody claims to have proved is not an incorrect proof. The condition "an announced proof" fails.
+Adrien-Marie Legendre gave several proofs of the [[parallel postulate|2PC3XY0PYZ]] over about forty years, in editions of his *Éléments de géométrie*, first published in 1794.
+One proof assumed that through each point inside an angle there is a line meeting both sides of the angle.
+That statement cannot be proved without the postulate, because it fails in [[hyperbolic geometry|GN4N94GQ0Z]], so the proof is [[circular|JPHE53PABT]].
+Legendre did not find the error, and his correct result from the same work is the [[Saccheri-Legendre theorem|1Y2XK0QJDX]].
 
-### Basic properties
+### Dulac, Wiles and Cauchy
 
-1. An incorrect proof does not make its result false. Kempe, Lamé, Dulac and the first version of Wiles all claimed results that were later proved.
-2. The failing step is usually a step that the author treated as evident: a case that seemed similar to a done case, or a property of the integers used in a larger ring.
-3. The search for the missing step often produced new tools: Kempe chains, Kummer's ideal numbers and the [[ideal class group|WQ46BD3ARY]], and the analysis of hyperbolic geometry.
-4. Errors were found in several ways: by an expert reader (Heawood, Liouville), by a referee (Katz), or by a later author who studied the proof in detail (Ilyashenko).
+In 1923 Henri Dulac published a proof that a polynomial vector field in the plane has only finitely many [[limit cycles|0AAQ73WRFB]].
+Around 1980, Jean Écalle and Yulij Ilyashenko independently found a gap in it.
+Ilyashenko in 1991 and Écalle in 1992 gave independent proofs of [[Dulac's theorem|NEYHC1XZ14]], which belongs to the history of [[Hilbert's sixteenth problem|C1XNMMKZ1J]].
 
-### History
+Andrew Wiles announced a proof of Fermat's Last Theorem in June 1993.
+By September 1993, questions from Nick Katz during the refereeing had exposed a gap in one step.
+Wiles closed it on 19 September 1994 with an argument that uses joint work with Richard Taylor, and the two papers appeared in May 1995.
 
-Kempe's error was in the case of degree 5.
-He made two Kempe chain interchanges in turn, and Heawood gave a map in which the first interchange changes the chain that the second one needs.
-Heawood then used Kempe's method to prove the five colour theorem, and Appel and Haken proved the four colour theorem in 1976.
-Kummer's work on factorisation in cyclotomic rings led to the proof of Fermat's Last Theorem for [[regular primes|B4VK33PCXZ]]; unique factorisation in $\mathbb{Z}[\zeta_p]$ holds for primes $p \le 19$ and fails first for $p = 23$.
-Legendre published his attempts in editions of his *Éléments de géométrie*, first published in 1794, and he did not find his error; his correct result is the [[Saccheri-Legendre theorem|1Y2XK0QJDX]].
-Ilyashenko and Écalle gave independent proofs of [[Dulac's theorem|NEYHC1XZ14]] in 1991 and 1992, and Dulac's claim is part of the history of [[Hilbert's sixteenth problem|C1XNMMKZ1J]].
-Wiles closed his gap in September 1994, with an argument that uses joint work with Richard Taylor, and the two papers appeared in 1995.
-Cauchy stated in 1821 that a convergent series of continuous functions has a continuous sum.
-In 1826 Abel gave a series that seems to contradict this statement.
-Historians disagree on what Cauchy meant by convergence, and the Wikipedia list places this case under "status unclear".
+In his *Cours d'analyse* of 1821, Augustin-Louis Cauchy stated that a convergent series of continuous functions has a continuous sum, and in 1826 Niels Henrik Abel gave a series that seems to contradict it.
+Historians still disagree about what Cauchy meant by convergence, so the status of this case is unclear.
 
-### Common errors
+### What the cases share
 
-1. A student concludes that a theorem is false because its first proof was wrong. The examples above show true results with wrong first proofs.
-2. A student assumes that a published proof has been checked in every step. Refereeing reduces errors, but it does not remove them.
-3. A student uses the word "wrong" for a proof with a gap that was later closed. The two cases of the Notation section are different.
+An incorrect proof does not make its result false: Kempe, Lamé, Dulac and the first version of Wiles all claimed results that were later proved.
+The failing step is usually one taken as evident, such as a case like one already done, or a property of $\mathbb{Z}$ used in a larger ring.
+The repairs produced new tools, among them Kempe chains, Kummer's ideal numbers and the [[ideal class group|WQ46BD3ARY]], and the study of hyperbolic geometry.
+Errors surfaced through an expert reader (Heawood, Liouville), a referee (Katz), or a later author who studied the proof closely (Écalle and Ilyashenko).
+
+### Watch out
+
+A false proof built on purpose, such as a "proof" that $1 = 2$, is not in this class, since its author knows the error and nobody accepts the result.
+An open [[conjecture|WMEMMHZ3BH]] that nobody claims to have proved is not an incorrect proof either.
+Also, a wrong first proof says nothing against the theorem, and a published proof is not checked in every step just because it was refereed.
+
+### Try it
+
+Kempe's argument also handles a vertex with at most four neighbors.
+Does Heawood's map show that this part is wrong too?
+No: the counterexample needs five neighbors, and the cases with at most four neighbors are correct.
+
+In which ring does Lamé's key step first fail?
+In $\mathbb{Z}[\zeta_{23}]$, the first case where factorization into irreducible elements is not unique.
 
 ## Explanations
 
 ### L1 human
 
 Sometimes a great mathematician publishes a proof, other experts read it and agree, and years later someone finds a mistake.
-In 1879 Kempe "proved" that four colours are enough to colour any map so that neighbouring countries have different colours.
+In 1879 Kempe "proved" that four colors are enough to color any map so that neighboring countries have different colors.
 In 1890 Heawood found a map where one step of Kempe's argument does not work.
 The statement was still true, but a correct proof came only in 1976, with the help of a computer.
-Such stories show that every step of a proof needs a reason, even a step that seems evident to everyone.
+So every step of a proof needs a reason, even a step that seems evident to everyone.
 
 ### L2 human
 
-We check the assumption that broke Lamé's argument in a simpler ring.
-Let $R = \{a + b\sqrt{-5} : a, b \in \mathbb{Z}\}$, and let $N(a + b\sqrt{-5}) = a^2 + 5b^2$ be the [[field norm|KRNFEZWPY0]], which is multiplicative.
+We test the assumption that broke Lamé's argument in a simpler ring, $R = \{a + b\sqrt{-5} : a, b \in \mathbb{Z}\}$.
+The [[field norm|KRNFEZWPY0]] $N(a + b\sqrt{-5}) = a^2 + 5b^2$ is multiplicative.
+In $R$, $6 = 2 \cdot 3 = (1 + \sqrt{-5})(1 - \sqrt{-5})$, and the norms of the four factors are $4$, $9$, $6$ and $6$.
+No element has norm $2$ or $3$, since $a^2 + 5b^2 \in \{2, 3\}$ forces $b = 0$ and then $a^2 \in \{2, 3\}$.
+So a proper factor of any of the four elements is impossible, and all four are [[irreducible|0YMT0D2442]].
+The units are the elements of norm $1$, namely $\pm 1$, so $2$ is not a unit times $1 \pm \sqrt{-5}$.
+So $6$ has two essentially different factorizations, and $R$ is not a [[unique factorization domain|0W4X9G6263]].
 
-1. In $R$, $6 = 2 \cdot 3$ and $6 = (1 + \sqrt{-5})(1 - \sqrt{-5})$.
-2. The norms are $N(2) = 4$, $N(3) = 9$ and $N(1 \pm \sqrt{-5}) = 6$.
-3. No element has norm $2$ or $3$, because $a^2 + 5b^2 \in \{2, 3\}$ forces $b = 0$, and then $a^2 \in \{2, 3\}$ has no integer solution.
-4. A proper factorisation of an element of norm $4$, $9$ or $6$ would need a factor of norm $2$ or $3$. So $2$, $3$ and $1 \pm \sqrt{-5}$ are [[irreducible|0YMT0D2442]].
-5. The only units of $R$ are $\pm 1$, because they are the elements of norm $1$. So $2$ is not a unit multiple of $1 \pm \sqrt{-5}$, since the norms differ.
-6. So $6$ has two essentially different factorisations into irreducible elements, and $R$ is not a [[unique factorisation domain|0W4X9G6263]].
-
-The page on [[irreducible and prime elements in this ring|5BM35ES8WK]] gives the same example from the point of view of prime elements.
-The typical use of this check is to test whether a ring is a unique factorisation domain before an argument uses unique factorisation in it.
-A trap is to carry a property of $\mathbb{Z}$, such as unique factorisation, into a larger ring without a proof, as Lamé did for $\mathbb{Z}[\zeta_p]$.
+The same example, seen through prime elements, appears in [[irreducible and prime elements in this ring|5BM35ES8WK]].
+The typical use of this check is to test a ring for unique factorization before an argument relies on it.
+Watch out for carrying a property of $\mathbb{Z}$ into a larger ring without proof, which is exactly Lamé's step.
 
 ### L3 human
 
-The famous errors share a structure: a lemma that holds in a familiar case is used in a wider case where it fails, or a case analysis misses one configuration.
-In Lamé's proof the familiar case is $\mathbb{Z}$, and the measure of failure in $\mathbb{Z}[\zeta_p]$ is the [[ideal class group|WQ46BD3ARY]] of the [[cyclotomic field|NN77VYSGXR]]; Kummer's condition "$p$ does not divide the class number" defines regular primes.
-In Kempe's proof the missed configuration is the interaction of two Kempe chains, and the later proof of Appel and Haken replaced the single reducible configuration by a large unavoidable set of reducible ones.
-Legendre's assumption is one of many statements that are equivalent to the parallel postulate over the other axioms; the consistency of [[hyperbolic geometry|GN4N94GQ0Z]] shows that none of them follows from those axioms.
-Today some long or delicate proofs are checked by computer in proof assistants, and formal verification removes the class of errors that comes from steps taken as evident.
-The topic on [[rigour and the acceptance of proofs|1BTHSHST4M]] discusses the social process of checking, and the sub-area on mathematical software treats proof assistants.
+The famous errors share a structure: a lemma true in a familiar case is used in a wider case where it fails, or a case analysis misses a configuration.
+For Lamé the familiar case is $\mathbb{Z}$, and the failure in $\mathbb{Z}[\zeta_p]$ is measured by the class group of the [[cyclotomic field|NN77VYSGXR]]; Kummer's condition that $p$ does not divide the class number defines [[regular primes|B4VK33PCXZ]].
+For Kempe the missed configuration is the interaction of two Kempe chains, and Appel and Haken replaced his single configuration by a large unavoidable set of reducible ones.
+Legendre's assumption is one of many statements equivalent to the parallel postulate over the other axioms, and the consistency of hyperbolic geometry shows that none of them follows from those axioms.
+Some long or delicate proofs are now checked in proof assistants, which removes the class of errors that come from steps taken as evident.

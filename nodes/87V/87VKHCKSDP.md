@@ -14,33 +14,39 @@ sources:
 
 ## Example
 
-Problem: a cylindrical hole is drilled straight through the centre of a solid ball, and the remaining ring has height $6$ cm, measured along the axis of the hole.
-Find the volume of the ring.
+A cylindrical hole is drilled straight through the center of a solid ball, and the ring that remains has height $6$ cm along the axis of the hole.
+What is the volume of the ring?
 The radius of the ball is not given.
-We use [[specialization|FTBJX4G51S]] to an extreme case, and then we check the answer by a computation.
+We guess the answer by [[specialization|FTBJX4G51S]] to an extreme case, and then we check it.
 
-1. Read the problem as a claim. Since the radius is not given, the problem claims that the volume does not depend on the radius.
-2. Choose the extreme case. The smallest possible ball has radius $3$ cm, and then the hole has radius $0$. The ring is the whole ball.
-3. Solve the extreme case: the volume is $\frac{4}{3}\pi \cdot 3^3 = 36\pi$ cm³.
-4. Conjecture: the volume is $36\pi$ cm³ for every radius.
+1. We read the problem as a claim.
+   Since the radius is not given, the problem claims that the volume does not depend on the radius.
+2. We choose the extreme case.
+   The smallest possible ball has radius $3$ cm, and then the hole has radius $0$, so the ring is the whole ball.
+3. We solve the extreme case:
+   $$V = \frac{4}{3}\pi \cdot 3^3 = 36\pi \text{ cm}^3.$$
+4. We conjecture that the volume is $36\pi$ cm³ for every radius.
 
-Step 1 is an assumption about the problem, so we check the answer.
+Step 1 trusts the wording of the problem, so we check the answer for a ball of any radius $R \ge 3$.
 
-1. Let the ball have radius $R \ge 3$, centred at the origin, with the hole along the $z$-axis. The ring lies between the planes $z = -3$ and $z = 3$.
+1. We center the ball at the origin with the hole along the $z$-axis, so the ring lies between the planes $z = -3$ and $z = 3$.
 2. At $z = \pm 3$ the hole meets the sphere, so the radius $r$ of the hole satisfies $r^2 + 3^2 = R^2$, that is, $r^2 = R^2 - 9$.
-3. At height $z$ with $|z| \le 3$, the cross-section of the ring is an annulus with outer radius $\sqrt{R^2 - z^2}$ and inner radius $r$. Its area is $\pi(R^2 - z^2 - r^2) = \pi(9 - z^2)$.
-4. The area does not contain $R$. The volume is $\int_{-3}^{3} \pi (9 - z^2) \, dz = \pi\left(54 - 18\right) = 36\pi$ cm³.
+3. At height $z$ with $|z| \le 3$, the cross-section is an annulus with outer radius $\sqrt{R^2 - z^2}$ and inner radius $r$, so its area is
+   $$\pi\left(R^2 - z^2 - r^2\right) = \pi\left(9 - z^2\right).$$
+4. The area does not contain $R$, and the volume is
+   $$\int_{-3}^{3} \pi\left(9 - z^2\right) dz = \pi\left(54 - 18\right) = 36\pi \text{ cm}^3.$$
 
 The extreme case gave the right answer.
 
 ## Remarks
 
-The extreme case works only because the answer does not depend on the radius, and step 1 took that from the wording of the problem.
-Without that information, a single extreme case would be only a guess.
-The computation in steps 1 to 4 confirms the independence: it holds because each cross-section has area $\pi(9 - z^2)$, the area of the cross-section of a ball of radius $3$.
+The extreme case worked only because the answer does not depend on the radius, and we took that from the wording of the problem.
+Without that knowledge a single extreme case is only a guess.
+The computation shows why the independence holds: each cross-section of the ring has area $\pi(9 - z^2)$, the same as the cross-section of a ball of radius $3$ at the same height.
 
-For a ring of height $h$, the same computation gives the volume $\int_{-h/2}^{h/2} \pi\left(\frac{h^2}{4} - z^2\right) dz = \frac{\pi h^3}{6}$.
-For $h = 6$ this is $36\pi$, as found.
+For a ring of height $h$ the same computation gives
+$$\int_{-h/2}^{h/2} \pi\left(\frac{h^2}{4} - z^2\right) dz = \frac{\pi h^3}{6},$$
+and $h = 6$ gives $36\pi$ again.
 
 ## Explanations
 
@@ -48,18 +54,17 @@ For $h = 6$ this is $36\pi$, as found.
 
 The problem does not say how big the ball is, so the answer cannot depend on the size of the ball.
 Then we may pick the easiest ball: the smallest one, with a hole so thin that nothing is removed.
-That ball has radius $3$ cm, and its volume is $36\pi$ cubic centimetres, about $113$.
+That ball has radius $3$ cm, and its volume is $36\pi$ cubic centimeters, about $113$.
 A careful calculation for a ball of any size gives the same number.
 
 ### L2 human
 
-We use the extreme-case heuristic on another problem, and then we check it.
+We use the extreme-case idea on a second problem.
+A square is inscribed in a circle and a second square is drawn around the same circle; what is the ratio of their areas?
+Scaling the figure multiplies both areas by the same factor, so the ratio cannot depend on the size, and we take radius $1$.
+The inscribed square has diagonal $2$, so its side is $\sqrt{2}$ and its area is $2$.
+The outer square has side $2$ and area $4$, so the ratio is $1 : 2$.
 
-1. Problem: a square is inscribed in a circle, and a second square is circumscribed about the same circle. Find the ratio of their areas.
-2. The ratio cannot depend on the size of the circle, since scaling multiplies both areas by the same factor. So take radius $1$.
-3. The inscribed square has diagonal $2$, so side $\sqrt{2}$ and area $2$. The circumscribed square has side $2$ and area $4$.
-4. The ratio is $1 : 2$.
-
-The typical use: when the answer is known to be independent of a parameter, choose the value of the parameter that makes the problem easiest.
-
-A trap: in step 2 the independence has a reason, scaling; when the independence is only assumed, as in the napkin ring, a check is needed.
+This is the typical use: when the answer is known not to depend on a parameter, give the parameter its easiest value.
+Watch out for where that knowledge comes from.
+Here scaling proves it, but in the napkin ring we only read it from the problem, so the check was needed.

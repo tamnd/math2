@@ -16,50 +16,51 @@ sources:
 
 ## Example
 
-The setting is the conjecture $V - E + F = 2$ for polyhedra, after the hollow cube ($V - E + F = 4$) and the picture frame ($V - E + F = 0$) have appeared, as in [[the counterexamples to Euler's formula|C1X8DP1SNE]].
-A defender of the conjecture answers each counterexample by monster-barring, and pushes the answer to its end.
+We start from the conjecture $V - E + F = 2$ for polyhedra, after the hollow cube, with $V - E + F = 4$, and the picture frame, with $V - E + F = 0$, have appeared, as in [[the counterexamples to Euler's formula|C1X8DP1SNE]].
+A defender of the conjecture answers each counterexample by monster-barring, and pushes this answer to its end.
 
-1. The hollow cube is barred: "a polyhedron has one connected surface".
-2. The picture frame is barred: "a polyhedron has no tunnel".
-3. Kepler's star polyhedron, with $V - E + F = -6$, is barred: "the faces of a polyhedron do not cross each other".
-4. A new strange solid appears, and a new clause is added; the list of clauses grows with each counterexample.
+1. The defender bars the hollow cube with the clause "a polyhedron has one connected surface".
+2. The defender bars the picture frame with the clause "a polyhedron has no tunnel".
+3. The defender bars Kepler's star polyhedron, with $V - E + F = -6$, with the clause "the faces of a polyhedron do not cross each other".
+4. Each new strange solid brings a new clause, so the list of clauses keeps growing.
 5. The defender ends the process with one clause: "a polyhedron is a solid whose surface has $V - E + F = 2$".
-6. With this definition, the theorem "each polyhedron has $V - E + F = 2$" is true for every object, because it repeats the definition.
+6. With this definition, the theorem "every polyhedron has $V - E + F = 2$" is true for every object, because it repeats the definition.
 
-This is not the [[method of proofs and refutations|79P9CTRN0V]], and we check the condition that fails.
+Now we check the condition of the [[method of proofs and refutations|79P9CTRN0V]] that fails.
 
-1. The method asks for proof analysis: each counterexample must be tested against the lemmas of the proof.
-2. Here no lemma is examined. The definition in step 5 is chosen to make the conclusion true, not to make a step of the proof valid.
-3. The resulting theorem has no content: it does not tell, for a given solid, how to know whether $V - E + F = 2$ without counting.
-4. The lemma-incorporation answer instead gives a testable hypothesis: "the surface becomes a flat network after one face is removed". This hypothesis can be checked without computing $V - E + F$, and it leads to the Euler characteristic.
+1. The method asks that each counterexample be tested against the lemmas of the proof.
+2. Here no lemma is examined, because the definition in step 5 is chosen to make the conclusion true, not to make a step of the proof valid.
+3. The resulting theorem has no content: it gives no way to know, for a given solid, whether $V - E + F = 2$ without counting.
+4. Lemma-incorporation gives a testable hypothesis instead, "the surface becomes a flat network after one face is removed", which we can check without computing $V - E + F$, and which leads to the Euler characteristic.
+
+So this defense is not an instance of the method.
 
 ## Remarks
 
 Monster-barring is not always wrong.
-Steps 1 to 3 each give a reasonable definition, and the class they describe is close to the right one.
-The method fails when the definition is chosen only to save the theorem, with no link to the proof.
-The test is whether the new definition can be checked independently of the conclusion, and whether it explains why the proof works.
-The same pattern appears in other fields: a claim protected by redefinition after each failure stops making predictions.
+Steps 1 to 3 each give a reasonable definition, and the class of solids they describe is close to the right one.
+The defense fails when the definition is chosen only to save the theorem, with no link to the proof.
+The test is whether the new definition can be checked without the conclusion, and whether it explains why the proof works.
+The same pattern appears outside mathematics: a claim protected by a new definition after each failure stops making predictions.
 
 ## Explanations
 
 ### L1 human
 
-Someone says "every bird can fly".
-Shown a penguin, the person says "a penguin is not a real bird".
-Shown an ostrich, the person says the same.
-In the end, the person defines a bird as "an animal with feathers that can fly", and the claim can no longer be wrong.
+Someone says that every bird can fly.
+Shown a penguin, the person says that a penguin is not a real bird, and shown an ostrich, the person says the same.
+In the end, the person defines a bird as an animal with feathers that can fly, and the claim can no longer be wrong.
 But it no longer tells us anything either.
 The same can happen with the rule "corners minus edges plus faces is $2$".
 
 ### L2 human
 
-We compare two answers to the picture frame, with $V = 16$, $E = 32$, $F = 16$ and $V - E + F = 0$.
-
-1. Monster-barring by definition: "a polyhedron has $V - E + F = 2$". The theorem becomes "if $V - E + F = 2$, then $V - E + F = 2$".
-2. Lemma-incorporation: "if the surface, with one face removed, can be stretched flat, then $V - E + F = 2$". To use it on a solid, we test the flattening, and the test is independent of counting.
-3. The second answer also predicts that the frame fails, since its surface with one face removed cannot be stretched flat.
-
-The typical use: ask of each new hypothesis whether it can be checked without the conclusion.
-
-A trap: a hypothesis can look geometric and still be circular, if the only way to check it is to compute $V - E + F$.
+Compare two answers to the picture frame, which has $V = 16$, $E = 32$ and $F = 16$.
+The answer by definition, "a polyhedron has $V - E + F = 2$", turns the theorem into
+$$V - E + F = 2 \implies V - E + F = 2,$$
+which is true and empty.
+The answer by lemma-incorporation says that if the surface, with one face removed, can be stretched flat, then $V - E + F = 2$.
+To use it on a solid we test the flattening, and that test does not need the count.
+It also predicts that the frame fails, since a ring-shaped surface with one face removed cannot be stretched flat.
+So ask of each new hypothesis whether you can check it without the conclusion.
+Watch out: a hypothesis can sound geometric and still be circular, if the only way to check it is to compute $V - E + F$.
