@@ -16,30 +16,35 @@ sources:
 
 ## Example
 
-Let $f = \mathbf{1}_{[0, 1]}$, the [[indicator function|0RCQZ36MME]] of $[0, 1]$, as an element of [[$L^\infty(\mathbb{R})$|SASP14MA1Z]].
-The norm $\lVert u \rVert_\infty$ is the [[essential supremum|WPC2XRMB9Y]] of $\lvert u \rvert$.
+Let $f = \mathbf{1}_{[0, 1]}$, the [[indicator function|0RCQZ36MME]] of $[0, 1]$, as an element of [[$L^\infty(\mathbb{R})$|SASP14MA1Z]], whose norm is the [[essential supremum|WPC2XRMB9Y]].
 We show that $\lVert \tau_h f - f \rVert_\infty = 1$ for $0 < \lvert h \rvert < 1$, so translation is not continuous at $f$.
-Then we show where the [[density argument|J2J35J3055]] of [[the case $p < \infty$|EPP5T6MSD5]] breaks.
+Then we find where the [[density argument|J2J35J3055]] of [[the case p < infinity|EPP5T6MSD5]] breaks.
 
-1. Let $0 < h < 1$. Then $\tau_h f(x) = f(x - h) = \mathbf{1}_{[h, 1 + h]}(x)$.
-2. For $x \in [0, h)$ we have $f(x) = 1$ and $\tau_h f(x) = 0$, so $\lvert \tau_h f(x) - f(x) \rvert = 1$.
-3. The set $[0, h)$ has measure $h > 0$, so the essential supremum of $\lvert \tau_h f - f \rvert$ is at least $1$.
-4. The difference of two indicator functions takes only the values $-1$, $0$ and $1$, so the essential supremum is at most $1$. Hence $\lVert \tau_h f - f \rVert_\infty = 1$.
-5. For $-1 < h < 0$, the same computation on the interval $(1 + h, 1]$ gives the same value $1$.
-6. So $\lVert \tau_h f - f \rVert_\infty = 1$ for each $0 < \lvert h \rvert < 1$, and it does not tend to $0$.
-7. The first step of the density argument still works. For $g \in C_c(\mathbb{R})$, uniform continuity gives $\lVert \tau_h g - g \rVert_\infty = \sup_x \lvert g(x - h) - g(x) \rvert \to 0$.
-8. The second step needs $g \in C_c(\mathbb{R})$ with $\lVert f - g \rVert_\infty < \varepsilon / 3$. We show that no continuous $g$ has $\lVert f - g \rVert_\infty < 1/2$.
-9. Suppose $g$ is continuous and $c = \lVert f - g \rVert_\infty < 1/2$. Then $\lvert g(x) \rvert \le c$ for almost every $x \in (-1, 0)$, where $f = 0$.
-10. A continuous function that is at most $c$ almost everywhere on $(-1, 0)$ is at most $c$ at each point of $[-1, 0]$, so $g(0) \le c$.
-11. In the same way $g(x) \ge 1 - c$ for almost every $x \in (0, 1)$, where $f = 1$, so $g(0) \ge 1 - c$.
-12. Then $1 - c \le c$, so $c \ge 1/2$, which contradicts $c < 1/2$. So $C_c(\mathbb{R})$ is not dense in $L^\infty(\mathbb{R})$, and the density argument fails at its second step.
+1. Let $0 < h < 1$, so $\tau_h f(x) = f(x - h) = \mathbf{1}_{[h, 1 + h]}(x)$.
+2. For $x \in [0, h)$, $f(x) = 1$ and $\tau_h f(x) = 0$, and this set has measure $h > 0$, so the essential supremum of $\lvert \tau_h f - f \rvert$ is at least $1$.
+3. A difference of two indicators takes only the values $-1$, $0$ and $1$, so $\lVert \tau_h f - f \rVert_\infty = 1$.
+4. For $-1 < h < 0$, the same computation on $(1 + h, 1]$ gives $1$ again, so the norm does not tend to $0$.
+
+The first ingredient of the density argument still holds.
+For $g \in C_c(\mathbb{R})$, uniform continuity gives $\lVert \tau_h g - g \rVert_\infty = \sup_x \lvert g(x - h) - g(x) \rvert \to 0$.
+The second ingredient fails: no continuous $g$ has $\lVert f - g \rVert_\infty < \frac12$.
+
+5. Suppose $g$ is continuous and $c = \lVert f - g \rVert_\infty < \frac12$.
+6. Then $\lvert g(x) \rvert \le c$ for almost every $x \in (-1, 0)$, where $f = 0$, and by continuity $g(0) \le c$.
+7. Also $g(x) \ge 1 - c$ for almost every $x \in (0, 1)$, where $f = 1$, so $g(0) \ge 1 - c$.
+8. Then $1 - c \le c$, so $c \ge \frac12$, a contradiction.
+
+So $C_c(\mathbb{R})$ is not dense in $L^\infty(\mathbb{R})$, and the density argument fails at its second ingredient.
 
 ## Remarks
 
-1. The example shows that the hypothesis "the class is dense" cannot be dropped. Both the special case (step 7) and the uniform bound $\lVert \tau_h u \rVert_\infty = \lVert u \rVert_\infty$ still hold, and the conclusion is false.
-2. The closure of $C_c(\mathbb{R})$ in $L^\infty(\mathbb{R})$ is $C_0(\mathbb{R})$, the continuous functions that tend to $0$ at infinity. On this closed subspace, translation is continuous.
-3. If $f$ is replaced by a uniformly continuous bounded function, then $\lVert \tau_h f - f \rVert_\infty \to 0$. The jump of $\mathbf{1}_{[0, 1]}$ at $0$ and at $1$ is what breaks continuity.
-4. For $p < \infty$ the same $f$ gives $\lVert \tau_h f - f \rVert_p = (2 \lvert h \rvert)^{1/p}$ for $\lvert h \rvert < 1$, which tends to $0$. The difference is nonzero on a set of measure $2 \lvert h \rvert$.
+The example shows that "the class is dense" cannot be dropped.
+The special case holds, the bound $\lVert \tau_h u \rVert_\infty = \lVert u \rVert_\infty$ holds, and the conclusion is still false.
+The closure of $C_c(\mathbb{R})$ in $L^\infty(\mathbb{R})$ is $C_0(\mathbb{R})$, the continuous functions that tend to $0$ at infinity, and on this closed subspace translation is continuous.
+For a bounded uniformly continuous $f$, $\lVert \tau_h f - f \rVert_\infty \to 0$ as well; the jumps of $\mathbf{1}_{[0, 1]}$ at $0$ and $1$ are what break continuity.
+
+For $p < \infty$ the same $f$ behaves well.
+The difference $\tau_h f - f$ is nonzero on a set of measure $2 \lvert h \rvert$ when $\lvert h \rvert < 1$, so $\lVert \tau_h f - f \rVert_p = (2 \lvert h \rvert)^{1/p} \to 0$.
 
 ## Explanations
 
@@ -47,18 +52,18 @@ Then we show where the [[density argument|J2J35J3055]] of [[the case $p < \infty
 
 Take a step: a function that is $1$ on an interval and $0$ outside it.
 Slide it a little to the right.
-In the $L^\infty$ way of measuring, we look at the largest gap between the old and the new graph.
-Near the jump, one graph is at height $1$ and the other at height $0$, so the largest gap is $1$, however small the slide is.
-In the $L^1$ way of measuring, we look at the area between the graphs, and this area is small for a small slide.
+The $L^\infty$ norm looks at the largest gap between the old and the new graph.
+Near the jump, one graph is at height $1$ and the other at height $0$, so the largest gap is $1$, however small the slide.
+The $L^1$ norm looks at the area between the graphs, and that area is small for a small slide.
 
 ### L2 human
 
-We check Remark 4 for $p = 1$ and $h = 0.1$.
+We compare the two norms for $h = 0.1$.
 
 1. $\tau_{0.1} f = \mathbf{1}_{[0.1, 1.1]}$, and $f = \mathbf{1}_{[0, 1]}$.
-2. The two functions differ on $[0, 0.1)$ and on $(1, 1.1]$, and the difference has absolute value $1$ there.
+2. The two functions differ on $[0, 0.1)$ and on $(1, 1.1]$, by $1$ in absolute value.
 3. So $\lVert \tau_{0.1} f - f \rVert_1 = 0.1 + 0.1 = 0.2 = 2 \cdot 0.1$.
-4. And $\lVert \tau_{0.1} f - f \rVert_\infty = 1$, by steps 2 to 4 of the example.
+4. And $\lVert \tau_{0.1} f - f \rVert_\infty = 1$, by steps 2 and 3 of the example.
 
-The typical use of this example is a test: before a density argument, check that the dense class is dense in the norm of the claim.
-A trap is to think that "continuous functions are dense in every function space": they are dense in $L^p$ for $p < \infty$, but not in $L^\infty$.
+Before a density argument, check that the class is dense in the norm of the claim.
+Watch out: continuous functions are dense in $L^p$ for $p < \infty$, but not in $L^\infty$.
