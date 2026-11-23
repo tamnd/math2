@@ -16,45 +16,51 @@ sources:
 
 ## Example
 
-We compare the [[temporal frames|8XB117FKKV]] $(\mathbb{Q}, <)$ and $(\mathbb{Z}, <)$ with the density formula
-$$\delta = Fp \to FFp.$$
-A frame $(T, <)$ is dense when for all $t < u$ there is $z$ with $t < z < u$.
-We show that $\delta$ is valid on a frame exactly when the frame is dense.
+We compare the [[temporal frames|8XB117FKKV]] $(\mathbb{Q}, <)$ and $(\mathbb{Z}, <)$ on the density formula below.
+$$\delta = Fp \to FFp$$
+A frame $(T, <)$ is dense when for all $t < u$ there is a $z$ with $t < z < u$.
+We show that $\delta$ is valid on a frame exactly when the frame is dense, and then apply this to the two time lines.
 
 1. Let $(T, <)$ be dense, let $V$ be any valuation, and let $Fp$ be true at $t$.
-2. By the clause for $F$, there is $u$ with $t < u$ and $p$ true at $u$.
-3. By density there is $z$ with $t < z < u$. Then $Fp$ is true at $z$, because $z < u$.
-4. So $FFp$ is true at $t$, because $t < z$. Hence $\delta$ is true at every point under every valuation.
-5. Let $(T, <)$ be not dense. Then there are $t < u$ with no point strictly between them.
-6. Put $V(p) = \set{u}$. Then $Fp$ is true at $t$, because $t < u$.
-7. $FFp$ at $t$ needs $z$ with $t < z$ and $Fp$ at $z$. $Fp$ at $z$ needs $z < u$, since $u$ is the only $p$-point.
-8. No such $z$ exists, so $FFp$ is false at $t$, and $\delta$ fails at $t$.
-9. The rationals are a [[dense linear order|2W4S2H4VYA]]: for $t < u$ the point $z = (t + u)/2$ lies strictly between. So $\delta$ is valid on $(\mathbb{Q}, <)$.
-10. The integers are not dense: nothing lies strictly between $0$ and $1$. Steps 5 to 8 with $t = 0$, $u = 1$ refute $\delta$ on $(\mathbb{Z}, <)$.
+   By the clause for $F$, there is a $u$ with $t < u$ and $p$ true at $u$.
+2. By density there is a $z$ with $t < z < u$.
+   Then $Fp$ is true at $z$, because $z < u$, and so $FFp$ is true at $t$, because $t < z$.
+   Hence $\delta$ is true at every point under every valuation.
+3. Now let $(T, <)$ be not dense, so there are $t < u$ with no point strictly between them.
+   Put $V(p) = \{u\}$, so that $Fp$ is true at $t$.
+4. $FFp$ at $t$ needs a $z$ with $t < z$ and $Fp$ at $z$, and $Fp$ at $z$ needs $z < u$, since $u$ is the only $p$-point.
+   No such $z$ exists, so $FFp$ is false at $t$ and $\delta$ fails at $t$.
+5. The rationals are a [[dense linear order|2W4S2H4VYA]], because for $t < u$ the midpoint $z = (t + u)/2$ lies strictly between them.
+   So $\delta$ is valid on $(\mathbb{Q}, <)$.
+6. The integers are not dense, because nothing lies strictly between $0$ and $1$.
+   Steps 3 and 4 with $t = 0$ and $u = 1$ refute $\delta$ on $(\mathbb{Z}, <)$.
 
 ## Remarks
 
 The example shows how a property of time becomes a modal axiom: density corresponds to $Fp \to FFp$.
-The same proof works for $(\mathbb{R}, <)$, which is dense.
-On $(\mathbb{Z}, <)$ the opposite property holds: every point has an immediate successor.
-That property makes "next" definable with until, as in [[since and until on the integers|FJEN3XBRP1]].
-The validity of $\delta$ needs all valuations: on $\mathbb{Z}$ with $p$ true everywhere, $\delta$ is true at every point.
+The same proof works for the real line $(\mathbb{R}, <)$, which is dense.
+On $(\mathbb{Z}, <)$ the opposite holds, since every point has an immediate successor, and that is what makes "next" definable with until in [[since and until on the integers|FJEN3XBRP1]].
+
+Validity needs every valuation.
+On $\mathbb{Z}$ with $p$ true everywhere, $\delta$ is true at every point, because $FFp$ only needs two later points.
+So one model where $\delta$ holds tells you nothing about the frame, and the refutation in step 4 needs the valuation that puts $p$ at a single point.
 
 ## Explanations
 
 ### L1 human
 
-Think of time as made of instants, like the fractions or like the whole numbers.
+Think of time as made of instants, either like the fractions or like the whole numbers.
 "It will be the case that it will rain" follows from "it will rain" when time has no gaps.
 With fractions, between now and the rainy instant there is always a middle instant, and from there the rain is still ahead.
 With whole numbers, if it rains tomorrow, there is no instant between today and tomorrow.
 
 ### L2 human
 
-1. Take $T = \mathbb{Q}$, $t = 0$, and $p$ true only at $u = \tfrac{1}{2}$.
-2. $Fp$ holds at $0$.
-3. The point $z = \tfrac{1}{4}$ satisfies $0 < z < \tfrac{1}{2}$, so $Fp$ holds at $\tfrac{1}{4}$ and $FFp$ holds at $0$.
-4. Now take $T = \mathbb{Z}$, $t = 0$, and $p$ true only at $1$. No $z$ works, so $FFp$ fails at $0$.
-
+Take $T = \mathbb{Q}$, $t = 0$, and $p$ true only at $u = \tfrac{1}{2}$.
+Then $Fp$ holds at $0$.
+The point $z = \tfrac{1}{4}$ lies between them:
+$$0 < \tfrac{1}{4} < \tfrac{1}{2}.$$
+So $Fp$ holds at $\tfrac{1}{4}$, and $FFp$ holds at $0$.
+Now take $T = \mathbb{Z}$, $t = 0$, and $p$ true only at $1$; no $z$ works, so $FFp$ fails at $0$.
 The typical use is the axiomatization of the tense logic of $\mathbb{Q}$, which contains $\delta$.
-A trap: $\delta$ is the converse of the transitivity axiom $FFp \to Fp$, and the two are often swapped.
+Watch out: $\delta$ is the converse of the transitivity axiom $FFp \to Fp$, and the two are easy to swap.

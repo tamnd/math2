@@ -18,68 +18,75 @@ sources:
 
 ## Statement
 
-Let $\varphi$ be a formula of [[linear temporal logic|RMJ56ZPA63]] over a finite set $AP$ of atomic propositions, of size $\lvert\varphi\rvert$.
-There is a nondeterministic [[Büchi automaton|92DM43HQZT]] $\mathcal{A}_\varphi$ over the alphabet $2^{AP}$ with the following properties.
+Every LTL formula can be checked by a finite automaton that reads infinite words, and the automaton is at most exponentially larger than the formula.
+
+Let $\varphi$ be a formula of [[linear temporal logic|RMJ56ZPA63]] over a finite set $AP$ of atomic propositions, and let $\lvert\varphi\rvert$ be its size.
+There is a nondeterministic [[Büchi automaton|92DM43HQZT]] $\mathcal{A}_\varphi$ over the alphabet $2^{AP}$ with these three properties.
 
 1. $\mathcal{A}_\varphi$ accepts an infinite word $w$ if and only if $w \models \varphi$, in the sense of [[the definition|8S64VZ6A1S]].
 2. $\mathcal{A}_\varphi$ has at most $(\lvert\varphi\rvert + 1) \cdot 4^{\lvert\varphi\rvert}$ states, so $2^{O(\lvert\varphi\rvert)}$ states.
 3. $\mathcal{A}_\varphi$ can be computed from $\varphi$ in time $2^{O(\lvert\varphi\rvert)}$, and each state is a string of $O(\lvert\varphi\rvert)$ bits.
 
-So the set of words that satisfy an LTL formula is an $\omega$-regular language.
+In particular, the set of words that satisfy an LTL formula is an $\omega$-regular language.
 
 ## Remarks
 
 ### Why each hypothesis is needed
 
-1. Nondeterminism is needed. The formula $FGp$ defines a language that no deterministic Büchi automaton accepts.
-2. The exponential bound cannot be made polynomial by a polynomial-time construction. Büchi emptiness is decidable in polynomial time, so such a construction would put LTL satisfiability in P. By [[the complexity theorem|RD9B213GJ5]], that would give $\mathrm{P} = \mathrm{PSPACE}$.
-3. $AP$ is finite, so the alphabet $2^{AP}$ is finite. Only the propositions in $\varphi$ matter, so this is no restriction.
+Nondeterminism cannot be dropped.
+The formula $FGp$ defines a language that no deterministic Büchi automaton accepts, so a deterministic version of the theorem is false.
 
-### Consequences
+The exponential bound cannot be improved to a polynomial by a polynomial-time construction unless $\mathrm{P} = \mathrm{PSPACE}$.
+Emptiness of a Büchi automaton is decidable in polynomial time, so such a construction would put LTL satisfiability in P, while [[the complexity theorem|RD9B213GJ5]] says that it is PSPACE-complete.
 
-1. Satisfiability of $\varphi$ reduces to nonemptiness of $\mathcal{A}_\varphi$, which is a reachability question in a graph.
-2. A [[Kripke structure|RFQ8DJZNQT]] state $s$ violates $\varphi$ exactly when the product of the structure with $\mathcal{A}_{\neg\varphi}$ has an accepting run from $s$. This is the automata-theoretic approach to [[model checking|VNY0VXVZ53]].
-3. Counterexamples to an LTL formula can always be taken to be lasso-shaped words $u v^\omega$.
+The set $AP$ is finite, so the alphabet $2^{AP}$ is finite.
+This is no real restriction, because only the propositions that occur in $\varphi$ matter.
 
-### Converse
+### What it gives you
 
-The converse fails: some $\omega$-regular languages are not defined by any LTL formula.
-An example is "$p$ holds at every even position", by Wolper's result of 1983.
-The languages defined by LTL formulas are exactly the first-order definable, or star-free, $\omega$-regular languages.
+Satisfiability of $\varphi$ becomes nonemptiness of $\mathcal{A}_\varphi$, which is a question of reachability and cycles in a graph.
+Model checking works the same way.
+A state $s$ of a [[Kripke structure|RFQ8DJZNQT]] violates $\varphi$ exactly when the product of the structure with $\mathcal{A}_{\neg\varphi}$ has an accepting run from $s$, and this is the automata-theoretic approach to [[model checking|VNY0VXVZ53]].
+An accepting run of a finite automaton can always be chosen as a path to a cycle, so counterexamples to an LTL formula can be taken to be lasso-shaped words $u v^\omega$.
+
+### The converse
+
+The converse fails: some $\omega$-regular languages are defined by no LTL formula.
+Wolper showed in 1983 that "$p$ holds at every even position" is an example, although a two-state Büchi automaton accepts it.
+The languages that LTL defines are exactly the first-order definable, or star-free, $\omega$-regular languages.
 
 ### Generalizations
 
-1. The same construction works for LTL with past operators, with the same bound on the number of states.
-2. For the [[linear-time and branching-time extensions|Y4XZ94GRXV]], tree automata replace Büchi automata.
-3. The on-the-fly tableau construction of Gerth, Peled, Vardi and Wolper (1995) builds only the reachable part of the automaton, and is used in practice.
+LTL with past operators also translates into Büchi automata with $2^{O(\lvert\varphi\rvert)}$ states.
+For the branching logics such as [[CTL*|Y4XZ94GRXV]], automata on infinite trees replace Büchi automata on words.
+In practice, tools use the on-the-fly tableau construction of Gerth, Peled, Vardi and Wolper (1995), which builds only the reachable part of the automaton.
 
 ## History
 
-Wolper, Vardi and Sistla gave the translation in 1983, and Vardi and Wolper made it the basis of verification in 1986.
-Their construction uses the sets of subformulas that the proof below uses.
+Wolper, Vardi and Sistla gave the translation in 1983.
+Vardi and Wolper made it the basis of an automata-theoretic method of verification in 1986.
+Their construction uses the sets of subformulas that [[the proof|K22FBJCTFC]] uses.
 
 ## Explanations
 
 ### L1 human
 
-An LTL formula describes the runs we allow.
+An LTL formula describes the runs that we allow.
 The theorem says that a small machine can read a run letter by letter and check the formula.
-The machine guesses, at each step, which subformulas are true now, and checks the guesses later.
+The machine guesses, at each step, which parts of the formula are true now, and it checks its guesses later.
 For "eventually $p$", the machine guesses "not yet" until it sees $p$, and it must see $p$ in the end.
 
 ### L2 human
 
-We build the automaton for $\varphi = p \, U \, q$ by hand.
-
-1. The relevant formulas are $p$, $q$ and $p \, U \, q$, with their negations.
-2. A state guesses which of the three are true now.
-3. A state that contains $p \, U \, q$ but not $q$ must contain $p$, and its successor must contain $p \, U \, q$ again.
-4. The accepting states are those that contain $q$ or do not contain $p \, U \, q$. This rules out a run that keeps postponing $q$ forever.
-
-A trap: without the acceptance condition, the automaton would also accept $\set{p}^\omega$, where $q$ never comes.
+Let us build the automaton for $\varphi = p \, U \, q$ by hand.
+The relevant formulas are $p$, $q$ and $p \, U \, q$, with their negations, and a state guesses which of the three are true now.
+The expansion law $p \, U \, q \equiv q \vee (p \wedge X(p \, U \, q))$ gives the rule for moves.
+A state that contains $p \, U \, q$ but not $q$ must contain $p$, and its successor must contain $p \, U \, q$ again.
+The accepting states are those that contain $q$ or do not contain $p \, U \, q$, and this rules out a run that postpones $q$ forever.
+Watch out: without the acceptance condition the automaton would also accept $\{p\}^\omega$, where $q$ never comes.
 
 ### L3 human
 
-The states of $\mathcal{A}_\varphi$ are the atoms of the Fischer and Ladner closure, as for the satisfiability of [[propositional dynamic logic|VJ78A0Q22R]].
-The local conditions on transitions encode the fixpoint unfoldings of $X$ and $U$.
-The acceptance sets select the least fixpoint for each until, since the expansion law alone allows the greatest one.
+The states of $\mathcal{A}_\varphi$ are the atoms of a closure set, as in the satisfiability proof for [[propositional dynamic logic|VJ78A0Q22R]].
+The local conditions on transitions encode the one-step unfoldings of $X$ and $U$.
+The expansion law alone has two solutions for each until, the least and the greatest fixpoint, and the acceptance sets select the least one.

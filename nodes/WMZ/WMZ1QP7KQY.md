@@ -27,79 +27,91 @@ inventory: [7SJ5S1EFCR]
 
 ## Statement
 
-Let $L$ be a language that contains the connectives of propositional logic and a binary conditional $>$, and let $\mathrm{Cn}$ be a consequence operation on $L$ that contains classical propositional logic.
-A belief set is a set $K \subseteq L$ with $K = \mathrm{Cn}(K)$; $K_\bot = L$ is the inconsistent one, and $K + \varphi := \mathrm{Cn}(K \cup \set{\varphi})$.
-A belief revision system is a pair $(\mathcal{K}, *)$, where $\mathcal{K}$ is a class of belief sets with $K + \varphi \in \mathcal{K}$ for all $K \in \mathcal{K}$ and $\varphi \in L$, and $* : \mathcal{K} \times L \to \mathcal{K}$.
-Consider these conditions, for all $K \in \mathcal{K}$ and $\varphi, \psi \in L$:
+The Ramsey test for conditionals and the preservation of old beliefs cannot hold together in any belief revision system rich enough to talk about three exclusive possibilities.
 
-1. (closure) $K * \varphi$ is a belief set;
-2. (success) $\varphi \in K * \varphi$;
-3. (preservation) if $\neg\varphi \notin K$, then $K \subseteq K * \varphi$;
-4. (weak consistency) if $K$ is consistent and $\varphi$ is consistent, then $K * \varphi$ is consistent;
-5. (Ramsey test) $\psi \in K * \varphi$ if and only if $(\varphi > \psi) \in K$.
+Let $L$ be a language with the propositional connectives and a binary conditional $>$, and let $\mathrm{Cn}$ be a consequence operation on $L$ that includes classical propositional logic.
+A belief set is a set $K \subseteq L$ with $K = \mathrm{Cn}(K)$, the set $K_\bot = L$ is the inconsistent one, and $K + \varphi := \mathrm{Cn}(K \cup \{\varphi\})$.
+A belief revision system is a pair $(\mathcal{K}, *)$, where $\mathcal{K}$ is a class of belief sets closed under expansion and $* : \mathcal{K} \times L \to \mathcal{K}$.
+Consider these conditions, for all $K \in \mathcal{K}$ and $\varphi, \psi \in L$.
 
-The system is non-trivial when some $K \in \mathcal{K}$ and some formulas $A, B, C$ satisfy: $\neg A, \neg B, \neg C \notin K$, and $\vdash \neg(A \wedge B)$, $\vdash \neg(A \wedge C)$, $\vdash \neg(B \wedge C)$.
+1. Closure: $K * \varphi$ is a belief set.
+2. Success: $\varphi \in K * \varphi$.
+3. Preservation: if $\neg\varphi \notin K$, then $K \subseteq K * \varphi$.
+4. Weak consistency: if $K$ and $\varphi$ are consistent, then $K * \varphi$ is consistent.
+5. Ramsey test: $\psi \in K * \varphi$ if and only if $(\varphi > \psi) \in K$.
 
-No non-trivial belief revision system satisfies conditions 1 to 5.
-
-The proof is in [[the proof of the triviality theorem|DQ2XRGXWP9]].
+The system is nontrivial when some $K \in \mathcal{K}$ and some formulas $A, B, C$ have $\neg A, \neg B, \neg C \notin K$, while $\vdash \neg(A \wedge B)$, $\vdash \neg(A \wedge C)$ and $\vdash \neg(B \wedge C)$.
+Then no nontrivial belief revision system satisfies conditions 1 to 5.
 
 ## Remarks
 
+### Three runners
+
+Think of $A$, $B$ and $C$ as "Ann wins", "Bob wins" and "Cat wins" in a race with one winner, and let $K$ leave all three open.
+Learn "Ann or Bob wins", and then revise by "Bob or Cat wins".
+Preservation keeps "Ann or Bob", so you conclude "Bob wins".
+In the same way, from "Ann or Cat wins" the same revision gives "Cat wins".
+Someone who believes "Ann wins" believes both earlier pieces of news, and the Ramsey test makes revision monotone in the belief set.
+So that person, revising by "Bob or Cat wins", must conclude that Bob wins and that Cat wins, which is inconsistent.
+[[The proof|DQ2XRGXWP9]] turns this story into twelve steps.
+
 ### Why each hypothesis is needed
 
-1. Non-triviality: the system with $\mathcal{K} = \set{K_\bot}$ and $K_\bot * \varphi = K_\bot$ satisfies conditions 1 to 5. Condition 4 is vacuous, and both sides of the Ramsey test always hold.
-2. The Ramsey test: without it, any AGM revision on the class of all belief sets satisfies conditions 1 to 4, and the class is non-trivial as soon as the language has two atoms $p, q$, with $A = p \wedge q$, $B = p \wedge \neg q$, $C = \neg p$ and $K = \mathrm{Cn}(\emptyset)$.
-3. Preservation: the proof uses it twice. Grahne showed that the Ramsey test is consistent with the Katsuno-Mendelzon postulates for update, which replace preservation by a monotone condition.
-4. Weak consistency: let $\mathcal{K}$ be the belief sets that contain every formula $\varphi > \psi$, and let $K * \varphi = K_\bot$. Conditions 1, 2, 3 and 5 hold, and only condition 4 fails.
-5. Closure of $\mathcal{K}$ under expansion: the proof needs the belief sets $K + A$, $K + (A \vee B)$ and $K + (A \vee C)$ in $\mathcal{K}$.
+Nontriviality is needed: the system with $\mathcal{K} = \{K_\bot\}$ and $K_\bot * \varphi = K_\bot$ satisfies conditions 1 to 5, since condition 4 never applies and both sides of the Ramsey test always hold.
 
-### Consequences
+The Ramsey test is needed.
+Without it, any AGM revision on the class of all belief sets satisfies conditions 1 to 4.
+The class is nontrivial once the language has two atoms, with $A = p \wedge q$, $B = p \wedge \neg q$, $C = \neg p$ and $K = \mathrm{Cn}(\emptyset)$.
 
-1. The AGM postulates imply conditions 1 to 4: vacuity gives preservation, and the AGM consistency postulate gives weak consistency. So [[AGM belief revision|Y05YQN7HGQ]] cannot be combined with the Ramsey test when conditionals are in the belief sets.
-2. The Ramsey test makes revision monotone in the belief set: $K \subseteq H$ gives $K * \varphi \subseteq H * \varphi$. The proof shows that this monotonicity, preservation, success and weak consistency cannot all hold in a non-trivial system.
-3. Any epistemic semantics of [[conditional logic|ZGYG7WN7EC]] by the Ramsey test must give up one of the conditions.
+Weak consistency is needed.
+Let $\mathcal{K}$ be the belief sets that contain every formula $\varphi > \psi$, and let $K * \varphi = K_\bot$ always.
+Then conditions 1, 2, 3 and 5 hold, and only condition 4 fails.
 
-### Converse
+Preservation is used in the key step of the proof, and closure of $\mathcal{K}$ under expansion is used to form the belief sets $K + A$, $K + (A \vee B)$ and $K + (A \vee C)$.
 
-The theorem is an impossibility result, so its converse would be the claim that any four of the conditions are jointly satisfiable with non-triviality.
-The examples above show this for dropping non-triviality, the Ramsey test and weak consistency.
+### What it gives you
+
+The AGM postulates imply conditions 1 to 4, since vacuity gives preservation and the AGM consistency postulate gives weak consistency.
+So [[AGM belief revision|Y05YQN7HGQ]] cannot be joined with the Ramsey test when conditionals are themselves beliefs.
+The key fact is that the Ramsey test makes revision monotone: $K \subseteq H$ gives $K * \varphi \subseteq H * \varphi$.
+Monotonicity, preservation, success and weak consistency cannot all hold in a nontrivial system.
+So any reading of [[conditional logic|ZGYG7WN7EC]] by the Ramsey test must give up one of the conditions.
 
 ### Generalizations
 
-1. Gärdenfors also studied weakened versions of the test and proved further triviality theorems, including results for the negative Ramsey test, where $\psi \notin K * \varphi$ gives $\neg(\varphi > \psi) \in K$.
-2. Lewis's triviality results for probabilities of conditionals are the probabilistic analogue: the probability of a conditional cannot be the conditional probability in every probability function of a non-trivial class.
+Gärdenfors also proved triviality results for weakened forms of the test.
+One of them uses the negative Ramsey test, where $\psi \notin K * \varphi$ gives $\neg(\varphi > \psi) \in K$.
+Lewis's triviality results for probabilities of conditionals are the probabilistic analogue.
+They show that the probability of a conditional cannot equal the conditional probability in every probability function of a nontrivial class.
 
 ## History
 
 Gärdenfors proved the theorem in 1986, in "Belief revisions and the Ramsey test for conditionals", and discussed it in Knowledge in Flux (1988).
 The probabilistic analogue is due to Lewis (1976).
-Responses include Levi's view that conditionals are not objects of belief, restrictions of the Ramsey test to formulas without $>$, weakenings of preservation, and revision of epistemic states richer than belief sets.
+The responses include Levi's view that conditionals are not objects of belief, restrictions of the Ramsey test to formulas without $>$, weakenings of preservation, and revision of epistemic states that are richer than belief sets.
 
 ## Explanations
 
 ### L1 human
 
-Ramsey suggested a test for "if": to judge "if $A$, then $B$", add $A$ to your beliefs and see whether $B$ follows.
-Belief revision theory says how to add $A$ when it contradicts you.
-Gärdenfors showed that the two ideas clash if "if" sentences are themselves beliefs.
-For example, with three outcomes of a race that exclude each other, the rules force someone to believe two of them at once.
+Ramsey suggested a test for "if": to judge "if A, then B", add A to your beliefs and see whether B follows.
+Belief revision theory says how to add A when it contradicts what you believe.
+Gärdenfors showed that the two ideas clash when "if" sentences are themselves beliefs.
+With three runners and one winner, the rules force someone to believe that two different runners win.
 So one of the rules must be weakened.
 
 ### L2 human
 
-We trace the key step of the proof with three runners $A$, $B$, $C$, exactly one of whom wins.
-
-1. Start from a belief set where each runner can still win.
-2. Learn "$A$ or $B$ wins" and then revise by "$B$ or $C$ wins". Preservation keeps "$A$ or $B$", so we conclude "$B$ wins".
-3. Learn "$A$ or $C$ wins" and revise by "$B$ or $C$ wins". In the same way we conclude "$C$ wins".
-4. Someone who learns "$A$ wins" knows both earlier pieces of news. The Ramsey test makes this person conclude both "$B$ wins" and "$C$ wins".
-
-The typical use of the theorem is as a constraint on any theory that links conditionals with belief change.
-A trap: the theorem does not refute AGM theory or the Ramsey test alone; it refutes their combination with conditionals in the belief sets.
+We check the step that uses the Ramsey test.
+Let $K_1 = K + (A \vee B)$ and $H = K + A$, so $K_1 \subseteq H$, because $A$ implies $A \vee B$.
+Suppose that $B \in K_1 * (B \vee C)$.
+The Ramsey test turns this into the belief $(B \vee C) > B$ in $K_1$, and so in $H$.
+The Ramsey test, read the other way, gives $B \in H * (B \vee C)$.
+This is the typical use of the theorem: any theory that links conditionals with belief change must say which of these steps it blocks.
+Watch out: the theorem refutes neither AGM theory nor the Ramsey test alone, only their combination with conditionals inside belief sets.
 
 ### L3 human
 
-The theorem is a monotonicity clash: the Ramsey test makes $K \mapsto K * \varphi$ monotone, while preservation and consistency force non-monotone behaviour.
-The same tension appears between update and revision: update is monotone in this sense, and the Ramsey test fits it.
+The theorem is a clash of monotonicity: the Ramsey test makes $K \mapsto K * \varphi$ monotone, while preservation and consistency force nonmonotone behavior.
+Update, unlike revision, is monotone in this sense, and Grahne showed that the Ramsey test is consistent with the Katsuno-Mendelzon postulates for update.
 Ranking functions and plausibility models separate the epistemic state from the belief set, so the Ramsey test can hold at the level of states without triviality.

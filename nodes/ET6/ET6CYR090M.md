@@ -14,10 +14,12 @@ sources:
 
 ## Example
 
-Fix the interval $X = [2, 6]$ of the integers, and write $Y = [c, d]$ with $c < d$.
-The table lists one $Y$ for each of Allen's thirteen relations "$X$ r $Y$" of [[interval temporal logic|991B5RR6X4]].
+### The table
 
-| relation of $X$ to $Y$ | condition on $[a, b] = [2, 6]$ and $[c, d]$ | $Y$ |
+Fix the interval $X = [a, b] = [2, 6]$ of the integers, and write $Y = [c, d]$ with $c < d$.
+The table lists one $Y$ for each of the thirteen relations "$X$ r $Y$" of [[interval temporal logic|991B5RR6X4]].
+
+| relation of $X$ to $Y$ | condition | $Y$ |
 |---|---|---|
 | before | $b < c$ | $[8, 9]$ |
 | meets | $b = c$ | $[6, 9]$ |
@@ -33,23 +35,34 @@ The table lists one $Y$ for each of Allen's thirteen relations "$X$ r $Y$" of [[
 | contains | $a < c$, $d < b$ | $[3, 5]$ |
 | finished by | $a < c$, $b = d$ | $[4, 6]$ |
 
-We show that for any intervals $[a, b]$ and $[c, d]$ of a [[linear order|0FRXBVVR03]], exactly one relation holds.
+Check: for "overlaps", $2 < 4 < 6 < 9$, and for "overlapped by", $0 < 2 < 4 < 6$.
+
+### Exactly one relation holds
+
+For any intervals $[a, b]$ and $[c, d]$ of a [[linear order|0FRXBVVR03]], exactly one relation holds.
 The proof is by cases.
 
-1. Compare $b$ with $c$. If $b < c$, the relation is "before". If $b = c$, it is "meets".
-2. Otherwise $c < b$. Compare $d$ with $a$. If $d < a$, the relation is "after". If $d = a$, it is "met by".
-3. Otherwise $c < b$ and $a < d$. Compare $a$ with $c$ (three cases) and $b$ with $d$ (three cases).
-4. The nine combinations give: ($a < c$, $b < d$) overlaps; ($a < c$, $b = d$) finished by; ($a < c$, $d < b$) contains.
-5. Next: ($a = c$, $b < d$) starts; ($a = c$, $b = d$) equals; ($a = c$, $d < b$) started by.
-6. Last: ($c < a$, $b < d$) during; ($c < a$, $b = d$) finishes; ($c < a$, $d < b$) overlapped by.
-7. In step 4, "overlaps" needs $a < c < b < d$. Here $c < b$ comes from step 2. The other cases are checked the same way.
-8. The cases of steps 1 to 6 are disjoint and cover all possibilities, since a linear order compares any two points. So $4 + 9 = 13$ relations, and exactly one holds.
+1. Compare $b$ with $c$.
+   If $b < c$, the relation is "before", and if $b = c$, it is "meets".
+2. Otherwise $c < b$, and we compare $d$ with $a$.
+   If $d < a$, the relation is "after", and if $d = a$, it is "met by".
+3. Otherwise $c < b$ and $a < d$.
+   Compare $a$ with $c$ (three cases) and $b$ with $d$ (three cases).
+4. With $a < c$, the cases $b < d$, $b = d$ and $d < b$ give overlaps, finished by and contains.
+5. With $a = c$, they give starts, equals and started by.
+6. With $c < a$, they give during, finishes and overlapped by.
+7. In step 4, "overlaps" needs $a < c < b < d$, and $c < b$ comes from step 2.
+   The other cases are checked the same way.
+8. The cases are disjoint and cover all possibilities, since a linear order compares any two points.
+   So there are $4 + 9 = 13$ relations, and exactly one holds.
 
 ## Remarks
 
 The example uses only that the order is linear, so the same analysis works over $\mathbb{Q}$ or $\mathbb{R}$.
 Each relation is fixed by the relative order of the four endpoints, which is why there are exactly thirteen.
-The six relations with "$X$ before, meets, overlaps, starts, during, finishes $Y$" and their inverses are paired by swapping $X$ and $Y$; "equals" is its own inverse.
+The six relations before, meets, overlaps, starts, during and finishes are paired with their inverses by swapping $X$ and $Y$.
+The relation "equals" is its own inverse.
+If $X$ is moved to $[2, 9]$, the table changes: for instance $Y = [4, 9]$ is now "finished by" instead of "overlaps".
 
 ## Explanations
 
@@ -61,8 +74,6 @@ With the reverse versions, that makes thirteen.
 
 ### L2 human
 
-1. Draw $X$ as a bar from $2$ to $6$ on a number line.
-2. For each relation, draw $Y$ as a second bar with the endpoints of the table.
-3. Read off which endpoints coincide and which come first.
-
-A trap: "overlaps" is not symmetric; $X$ overlaps $Y$ means that $X$ starts first and ends first.
+Draw $X$ as a bar from $2$ to $6$ on a number line.
+For each relation, draw $Y$ as a second bar with the endpoints of the table, and read off which endpoints coincide and which come first.
+Watch out: "overlaps" is not symmetric, since $X$ overlaps $Y$ means that $X$ starts first and ends first.

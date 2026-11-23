@@ -20,38 +20,51 @@ sources:
 
 ## Statement
 
+A consistent and introspective believer can never believe "$p$, and I do not believe $p$", although that sentence can be true.
+
 Let $B$ be the box of [[doxastic logic|RTP4HTZYK3]], and let $p$ be an atom.
 
-1. $\mathsf{KD4} \vdash \neg B(p \wedge \neg Bp)$, and hence $\mathsf{KD45} \vdash \neg B(p \wedge \neg Bp)$.
-2. Equivalently, $B(p \wedge \neg Bp)$ is false at every world of every serial transitive Kripke model. In particular it is unsatisfiable on $\mathsf{KD45}$ frames.
-3. The Moore sentence $p \wedge \neg Bp$ itself is satisfiable on a $\mathsf{KD45}$ frame.
+1. $\mathsf{KD4} \vdash \neg B (p \wedge \neg B p)$, and hence $\mathsf{KD45} \vdash \neg B (p \wedge \neg B p)$.
+2. Semantically, $B (p \wedge \neg B p)$ is false at every world of every Kripke model whose relation is serial and transitive.
+   In particular it is unsatisfiable on $\mathsf{KD45}$ frames.
+3. The Moore sentence $p \wedge \neg B p$ itself is satisfiable on a $\mathsf{KD45}$ frame.
 
 ## Remarks
 
 ### Why each hypothesis is needed
 
-1. Axiom $\mathsf{D}$, seriality. Without it, a world with no successors satisfies $B\chi$ for every $\chi$. So $B(p \wedge \neg Bp)$ is satisfiable in $\mathsf{K45}$.
-2. Axiom $\mathsf{4}$, transitivity. Take $W = \set{w, v, u}$ and $R = \set{(w, v), (v, u), (u, u)}$, with $p$ true at $v$ only. The frame is serial.
-   At $v$, $p$ holds and $Bp$ fails since $u$ lacks $p$.
-   So $B(p \wedge \neg Bp)$ holds at $w$, and $\mathsf{KD}$ does not prove part 1.
-3. Axiom $\mathsf{5}$ is not needed for parts 1 and 2. It is part of $\mathsf{KD45}$, the logic in which the result is usually stated.
+Axiom $\mathsf{D}$, seriality, cannot be dropped.
+At a world with no successors, $B \chi$ is true for every $\chi$, so $B (p \wedge \neg B p)$ is satisfiable in $\mathsf{K45}$, as [[the dead-end world|75JR35MPWD]] shows.
 
-### Consequences
+Axiom $\mathsf{4}$, transitivity, cannot be dropped either.
+Take $W = \{w, v, u\}$ and $R = \{(w, v), (v, u), (u, u)\}$, with $p$ true at $v$ only, which is a serial frame.
+At $v$ the atom $p$ holds and $B p$ fails, because $u$ lacks $p$, so the Moore sentence holds at $v$.
+Since $w$ sees only $v$, $B (p \wedge \neg B p)$ holds at $w$, and $\mathsf{KD}$ does not prove part 1.
 
-1. In $\mathsf{KD45}$ the agent can never come to believe a true Moore sentence about herself. This is the logical core of Moore's paradox.
-2. A Moore sentence can be true but not believed, so belief is not closed under "being true about oneself".
-3. In [[public announcement logic|9465T2PWZT]], announcing $p \wedge \neg K_a p$ to $a$ makes it false. Such sentences are unsuccessful updates.
+Axiom $\mathsf{5}$ plays no role in parts 1 and 2.
+It is included because $\mathsf{KD45}$ is the logic in which the result is usually stated.
+
+### What it gives you
+
+In $\mathsf{KD45}$ an agent can never come to believe a true Moore sentence about herself, which is the logical core of Moore's paradox.
+So a sentence can be true of an agent and still be closed to her belief.
+[[Moore's paradox in a KD45 model|3KA7N0BEB7]] shows both halves in a two-world model.
+In [[public announcement logic|9465T2PWZT]] the analogue is that announcing $p \wedge \neg K_a p$ to $a$ makes it false, as in [[the Moore announcement example|Z13C7EBPXB]].
 
 ### Generalizations
 
-1. The second Moore form $p \wedge B\neg p$ also cannot be believed in $\mathsf{KD45}$. From $B(p \wedge B\neg p)$ one gets $Bp$ and $BB\neg p$, hence $B\neg p$, by [[the collapse of iterated belief|G7HAS0P39P]], and then $B\bot$.
-2. For knowledge, axiom $\mathsf{T}$ alone suffices: $\mathsf{T} \vdash \neg K(p \wedge \neg Kp)$. From $K(p \wedge \neg Kp)$ one gets $Kp$ and $K\neg Kp$, and $\mathsf{T}$ turns the second into $\neg Kp$.
-   This is the key step in the proof of Fitch's paradox of knowability.
+The second Moore form $p \wedge B \neg p$ cannot be believed in $\mathsf{KD45}$ either.
+From $B (p \wedge B \neg p)$ we get $B p$ and $B B \neg p$, then $B \neg p$ by [[the collapse of iterated belief|G7HAS0P39P]], and then $B \bot$.
+This form needs axiom $\mathsf{5}$, since the collapse $B B \varphi \to B \varphi$ uses the Euclidean property.
+
+For knowledge, axiom $\mathsf{T}$ alone suffices: $\mathsf{KT} \vdash \neg K (p \wedge \neg K p)$.
+From $K (p \wedge \neg K p)$ we get $K p$ and $K \neg K p$, and $\mathsf{T}$ turns the second into $\neg K p$.
+This is the step on which [[Fitch's paradox of knowability|HVCW7QYXSW]] turns.
 
 ## History
 
-Moore noted the absurdity of asserting "it is raining but I do not believe it", and the name Moore's paradox is attributed to Wittgenstein.
-Hintikka's Knowledge and Belief (1962) gave the doxastic logic analysis: such sentences are consistent but cannot be consistently believed.
+George Edward Moore noted the absurdity of asserting "it is raining but I do not believe it", and Wittgenstein gave the observation the name Moore's paradox.
+Hintikka's Knowledge and Belief (1962) gave the analysis in doxastic logic: such sentences are consistent, but they cannot be consistently believed.
 
 ## Explanations
 
@@ -59,23 +72,22 @@ Hintikka's Knowledge and Belief (1962) gave the doxastic logic analysis: such se
 
 The sentence "it is raining and I do not believe it is raining" can be true.
 But you cannot believe it.
-If you believed it, you would believe it is raining, and you would also believe that you do not believe it.
-A rational believer who knows her own mind cannot hold both.
+If you believed it, you would believe that it is raining, and you would also believe that you do not believe it.
+A believer who is consistent and knows her own mind cannot hold both.
 
 ### L2 human
 
-We see where each axiom enters.
-
-1. $\mathsf{K}$ splits $B(p \wedge \neg Bp)$ into $Bp$ and $B\neg Bp$.
-2. $\mathsf{4}$ turns $Bp$ into $BBp$.
-3. $\mathsf{K}$ joins $BBp$ and $B\neg Bp$ into $B(Bp \wedge \neg Bp)$, that is, $B\bot$.
-4. $\mathsf{D}$ rules out $B\bot$.
-
-The typical use is to show that a formula is consistent yet unbelievable.
-A trap: the theorem concerns the agent's own beliefs; "it is raining and Bob does not believe it" can be believed by Ann.
+Here is where each axiom enters the derivation of part 1.
+Axiom $\mathsf{K}$ splits $B (p \wedge \neg B p)$ into $B p$ and $B \neg B p$.
+Axiom $\mathsf{4}$ turns $B p$ into $B B p$.
+Axiom $\mathsf{K}$ joins $B B p$ and $B \neg B p$ into the following.
+$$B (B p \wedge \neg B p), \text{ that is, } B \bot.$$
+Axiom $\mathsf{D}$ then rules out $B \bot$.
+The typical use is to show that a formula is consistent yet cannot be believed.
+Watch out: the theorem concerns the agent's own beliefs, and Ann can believe "it is raining and Bob does not believe it".
 
 ### L3 human
 
-In a $\mathsf{KD45}$ model, belief is truth throughout the agent's cluster of doxastic alternatives, and $\neg Bp$ is constant on that cluster.
-So inside the cluster, $p \wedge \neg Bp$ would need $p$ everywhere and $p$ false somewhere.
-This is the semantic shadow of the syntactic proof, and it is what [[the proof|F9PNV3HSVA]] makes precise.
+In a $\mathsf{KD45}$ model, belief is truth throughout the agent's cluster of doxastic alternatives, and $\neg B p$ is constant on that cluster.
+So inside the cluster, $p \wedge \neg B p$ would need $p$ everywhere and $p$ false somewhere.
+That is the semantic shadow of the derivation, and [[the proof|F9PNV3HSVA]] makes it precise.
