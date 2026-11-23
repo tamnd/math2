@@ -28,7 +28,8 @@ Conversely, every polynomial-time function has such a proof.
 We use Buss's theories $S^i_2$ of [[bounded arithmetic|A2CFPP8JMN]], whose class $\Sigma^b_i$ ignores sharply bounded quantifiers.
 For $i \ge 1$, $\square^p_i = \mathrm{FP}^{\Sigma^p_{i-1}}$ is the class of functions computable in [[polynomial time|GVT2NKN37K]] with an oracle for a set in $\Sigma^p_{i-1}$, a level of the [[polynomial hierarchy|TDQ7AXGM6P]].
 So $\square^p_1 = \mathrm{FP}$.
-A function $f$ is $\Sigma^b_i$-definable in a theory $R$ if some $\Sigma^b_i$ formula $A(\bar x, y)$ is true of $\bar n$ and $f(\bar n)$ for all $\bar n$, and $R$ proves that $A$ has exactly one $y$ for each $\bar x$.
+A function $f$ is $\Sigma^b_i$-definable in a theory $R$ if some $\Sigma^b_i$ formula $A(\bar x, y)$ holds of $\bar n$ and $f(\bar n)$ for all $\bar n$.
+In addition, $R$ must prove that $A$ has exactly one $y$ for each $\bar x$.
 
 **Theorem.** Let $i \ge 1$.
 

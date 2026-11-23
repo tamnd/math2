@@ -24,9 +24,14 @@ history:
 
 Three pigeons cannot sit in two holes with one pigeon in each hole.
 Let $\varphi(u, v)$ be a formula that says "pigeon $u$ sits in hole $v$".
-The [[pigeonhole principle|0HGVCWQGY3]] for three pigeons and two holes says that the following two conditions cannot both hold:
+The [[pigeonhole principle|0HGVCWQGY3]] for three pigeons and two holes says that two conditions cannot both hold.
+The first says that every pigeon sits in some hole:
 
-$$\forall u < 3 \; \exists v < 2 \; \varphi(u, v) \qquad \text{and} \qquad \forall u < 3 \; \forall u' < 3 \; \forall v < 2 \; \big(u \ne u' \land \varphi(u, v) \to \neg \varphi(u', v)\big).$$
+$$\forall u < 3 \; \exists v < 2 \; \varphi(u, v).$$
+
+The second says that no two pigeons share a hole:
+
+$$\forall u < 3 \; \forall u' < 3 \; \forall v < 2 \; \big(u \ne u' \land \varphi(u, v) \to \neg \varphi(u', v)\big).$$
 
 Every quantifier is bounded, so when $\varphi$ is a [[$\Delta_0$ formula|GE43CSZTS9]], the whole statement is $\Delta_0$ too.
 Replace $3$ by $z + 1$ and $2$ by $z$, and you get one bounded statement for each $z$.
