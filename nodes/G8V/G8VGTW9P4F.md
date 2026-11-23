@@ -16,12 +16,13 @@ sources:
 
 ## Definition
 
-We define the modal formulas, their subformulas and depth, and the sets of formulas that count as a modal logic.
+We define the modal formulas, their depth, and the sets of formulas that count as a modal logic.
 
 Fix a countable set $\Phi = \{ p_0, p_1, p_2, \dots \}$ of propositional variables.
 The modal formulas are given by the following grammar:
 $$\varphi ::= p \mid \bot \mid (\varphi \to \varphi) \mid \square\varphi, \qquad p \in \Phi.$$
-We use the abbreviations $\neg\varphi := \varphi \to \bot$, $\top := \neg\bot$, $\varphi \vee \psi := \neg\varphi \to \psi$, $\varphi \wedge \psi := \neg(\varphi \to \neg\psi)$, $\varphi \leftrightarrow \psi := (\varphi \to \psi) \wedge (\psi \to \varphi)$ and $\lozenge\varphi := \neg\square\neg\varphi$.
+We use the abbreviations $\neg\varphi := \varphi \to \bot$, $\top := \neg\bot$, $\varphi \vee \psi := \neg\varphi \to \psi$ and $\varphi \wedge \psi := \neg(\varphi \to \neg\psi)$.
+We also put $\varphi \leftrightarrow \psi := (\varphi \to \psi) \wedge (\psi \to \varphi)$ and $\lozenge\varphi := \neg\square\neg\varphi$.
 
 1. The set $\operatorname{Sub}(\varphi)$ of subformulas is defined by $\operatorname{Sub}(p) = \{ p \}$, $\operatorname{Sub}(\bot) = \{ \bot \}$, $\operatorname{Sub}(\varphi \to \psi) = \{ \varphi \to \psi \} \cup \operatorname{Sub}(\varphi) \cup \operatorname{Sub}(\psi)$ and $\operatorname{Sub}(\square\varphi) = \{ \square\varphi \} \cup \operatorname{Sub}(\varphi)$.
 2. The modal depth is defined by $\operatorname{md}(p) = \operatorname{md}(\bot) = 0$, $\operatorname{md}(\varphi \to \psi) = \max(\operatorname{md}(\varphi), \operatorname{md}(\psi))$ and $\operatorname{md}(\square\varphi) = \operatorname{md}(\varphi) + 1$.
