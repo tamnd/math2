@@ -61,9 +61,10 @@ The same steps in a different order give a focused proof.
 
 To test whether a proof is focused, read it from the end sequent upward.
 
-1. While a negative formula other than a negated atom is present, the next rule must be a negative rule or a store step.
+1. While a negative formula other than a negated atom is present, the next rule must be a negative rule or a Store step.
 2. After a decision, the rules must stay on the focused formula and its positive subformulas.
 3. Here the first rule from the bottom is ${\otimes}$ while $b^{\perp} \mathbin{\wp} \bot$ is present, so test 1 fails.
 
-The typical use of this example is to see what the permutation lemmas in the completeness proof have to do.
-A trap is to think that an unfocused proof is wrong: it is a valid MALL proof, only not in the normal form.
+The permutation lemmas in the proof of Andreoli's theorem do exactly what steps 11 to 15 do by hand: they move negative rules below positive ones.
+Watch out: an unfocused proof is not a wrong proof.
+It is a valid MALL proof, only not in the focused normal form.

@@ -22,10 +22,11 @@ same_as:
 
 ## Summary
 
-Proof theory is the branch of mathematical logic that treats [[proofs|0B94TKFQJX]] as mathematical objects.
+How can we be sure that a formal system never derives a contradiction?
+One answer is to transform every derivation into a normal form and then check that no normal derivation ends with a contradiction.
+Proof theory is the branch of mathematical logic built on this idea: it treats [[proofs|0B94TKFQJX]] as mathematical objects.
 Its objects are formal derivations in systems of [[first-order logic|086QKPF0A6]], of arithmetic and of stronger theories, and it studies them by combinatorial and mostly finitary means.
 It has four main parts: structural proof theory, ordinal analysis, proof interpretations and proof complexity.
-It began with Hilbert's program, which asked for finitary proofs of the consistency of mathematics.
 Its results say what a theory can prove, how long its proofs must be, and what computational content its proofs have.
 
 ## Motivation
@@ -45,29 +46,57 @@ The proof-theoretic ordinal of a theory $T$ is written $|T|$, and for example $|
 
 ## Remarks
 
-### Examples
+### A first result: LK is consistent
 
-- The [[cut-elimination theorem|AYRZ98Y0NW]]: every derivation in Gentzen's calculi LK and LJ can be transformed into one without cuts, in which only [[subformulas|Z2NXKDK06G]] of the conclusion occur.
-- The [[normalization theorem|W33WAE1XTC]]: every natural deduction derivation reduces to a normal one without detours.
-- [[Ordinal analysis|C5E5TG8PGP]]: Gentzen's work shows that the proof-theoretic ordinal of Peano arithmetic is $\varepsilon_0$.
-- Proof interpretations: the [[Dialectica interpretation|HZ17ES9PDY]] and [[realizability|4H35VQ16DC]] extract programs and bounds from proofs.
-- [[Proof complexity|1Q046J0AW2]]: the pigeonhole principle has no resolution refutations of polynomial size, a result of Haken from 1985.
-- Independence: [[Goodstein's theorem|XQMNJF241J]] is true but not provable in Peano arithmetic.
+We show that the sequent calculus LK does not derive the empty sequent $\Rightarrow$, without using any semantics.
 
-### Non-examples
+1. Suppose that LK derives $\Rightarrow$.
+2. By the [[cut-elimination theorem|AYRZ98Y0NW]], there is a cut-free derivation of $\Rightarrow$.
+3. In a cut-free derivation, every formula is a subformula of a formula in the end sequent, by the [[subformula property|Z2NXKDK06G]].
+4. The empty sequent has no formulas, so the derivation contains no formulas at all.
+5. But every derivation starts with axioms $A \Rightarrow A$, which contain a formula, a contradiction.
 
-- [[Model theory|HFTBG5PMXC]] studies structures and the truth of formulas in them. It uses proofs, but proofs are not its objects.
-- The check of a proof in a journal by experts is not proof theory. Proof theory studies formal derivations, and informal proofs only through their formal versions.
-- A result about one theorem, such as a new proof of the prime number theorem, is not proof theory, unless it says something about the class of proofs of a system.
+This is the typical shape of a proof-theoretic argument: normalize an arbitrary proof, then read a property off the normal proof.
 
-### Basic properties
+### The four parts of the field
 
-- Structural proof theory: proofs in [[sequent calculi|W72CA3R9MP]] and natural deduction are analysed by permutation and reduction of rules. Cut elimination gives the [[subformula property|Z2NXKDK06G]], the [[midsequent theorem|1FPWTGE14W]] and [[Herbrand's theorem|VZ21F10WRS]].
-- Refined calculi, such as [[contraction-free calculi|BZ59F5GBRR]], [[hypersequents|73J7F0FN4A]], [[display calculi|2Q62W689SC]], [[labelled calculi|F46GV42XCE]], [[deep inference|4ZW0SHW2RG]] and [[focusing|AMMKNENT3R]], extend these methods to other logics and to proof search.
-- Ordinal analysis: a theory is measured by the least ordinal up to which it cannot prove transfinite induction, and for many theories consistency follows from induction up to that ordinal.
-- Proof interpretations: a proof of $\forall x\, \exists y\, A(x, y)$, with $A$ quantifier-free, in a suitable theory yields a function that computes $y$ from $x$. The functions obtained for Peano arithmetic are those definable by recursion along ordinals below $\varepsilon_0$.
-- Proof complexity: the [[complexity of cut elimination|B5F5HB4YK7]] is non-elementary, and lower bounds on the length of proofs in propositional systems are related to the question whether NP equals coNP.
-- Proof-theoretic semantics: the meaning of a connective can be given by its rules, under the condition of [[harmony|XJSQVK0G71]], see [[proof-theoretic semantics|K97KZB5R7N]].
+Structural proof theory studies the shape of proofs, with results such as the cut-elimination theorem and the [[normalization theorem|W33WAE1XTC]], by which every natural deduction derivation reduces to one without detours.
+[[Ordinal analysis|C5E5TG8PGP]] measures theories, and Gentzen's work shows that the proof-theoretic ordinal of Peano arithmetic is $\varepsilon_0$.
+Proof interpretations, such as the [[Dialectica interpretation|HZ17ES9PDY]] and [[realizability|4H35VQ16DC]], extract programs and bounds from proofs.
+[[Proof complexity|1Q046J0AW2]] studies the length of proofs, and Haken showed in 1985 that the pigeonhole principle has no resolution refutations of polynomial size.
+All four give independence results, such as the fact that [[Goodstein's theorem|XQMNJF241J]] is true but not provable in Peano arithmetic.
+
+### Structural proof theory in more detail
+
+Proofs in [[sequent calculi|W72CA3R9MP]] and natural deduction are analyzed by permutation and reduction of rules.
+Cut elimination gives the subformula property, the [[midsequent theorem|1FPWTGE14W]] and [[Herbrand's theorem|VZ21F10WRS]].
+Refined calculi extend these methods to other logics and to proof search.
+
+- [[Contraction-free calculi|BZ59F5GBRR]] drop the contraction rule, and Dyckhoff's calculus LJT makes backward proof search for intuitionistic propositional logic terminate.
+- [[Hypersequents|73J7F0FN4A]], [[display calculi|2Q62W689SC]] and [[labeled calculi|F46GV42XCE]] give cut-free calculi for modal, intermediate and substructural logics.
+- [[Deep inference|4ZW0SHW2RG]] applies rules inside formulas, and [[focusing|AMMKNENT3R]] organizes proof search into phases.
+
+The [[complexity of cut elimination|B5F5HB4YK7]] is non-elementary, and [[proof-theoretic semantics|K97KZB5R7N]] gives the meaning of a connective by its rules, under the condition of [[harmony|XJSQVK0G71]].
+
+### Results on strength and content
+
+A theory is measured by the least ordinal up to which it cannot prove transfinite induction, and for many theories consistency follows from induction up to that ordinal.
+A proof of $\forall x\, \exists y\, A(x, y)$, with $A$ quantifier-free, in a suitable theory yields a function that computes $y$ from $x$.
+The functions obtained for Peano arithmetic are those definable by recursion along ordinals below $\varepsilon_0$.
+Lower bounds on the length of proofs in propositional systems are related to the question whether NP equals coNP.
+
+### What proof theory is not
+
+[[Model theory|HFTBG5PMXC]] studies structures and the truth of formulas in them, and it uses proofs, but proofs are not its objects.
+The check of a proof in a journal by experts is not proof theory, which studies formal derivations, and informal proofs only through their formal versions.
+A new proof of one theorem, such as the prime number theorem, is not proof theory either, unless it says something about the class of proofs of a system.
+
+### Watch out
+
+Gödel's theorems did not end proof theory.
+They ended one form of Hilbert's program, and they started the study of the strength of theories.
+Provability is not truth: a sentence can be true in the natural numbers and not provable in Peano arithmetic.
+Cut-free proofs are analytic, but they are not short, since by results of Statman and Orevkov from 1979 they can be non-elementarily longer than proofs with cuts.
 
 ### History
 
@@ -77,11 +106,13 @@ Gentzen introduced natural deduction and the sequent calculus with the cut-elimi
 Jaśkowski gave a system of natural deduction independently of Gentzen, and Prawitz proved the normalization theorem in 1965.
 Later work extended ordinal analysis to stronger theories, connected proofs with programs through the [[Curry-Howard correspondence|A77FER1Q5H]], and studied the length of proofs.
 
-### Common errors
+### Try it
 
-- Thinking that Gödel's theorems ended proof theory. They ended one form of Hilbert's program, and they started the study of the strength of theories.
-- Confusing provability with truth. A sentence can be true in the natural numbers and not provable in Peano arithmetic.
-- Thinking that cut-free proofs are short. They are analytic, but they can be much longer than proofs with cuts.
+Exercise 1: show that LK does not derive $\Rightarrow p$ for a propositional variable $p$, without using soundness.
+Answer: a cut-free derivation contains only the formula $p$, so it uses only axioms $p \Rightarrow p$ and structural rules, and none of these ever empties the antecedent, which $\Rightarrow p$ would need.
+
+Exercise 2: why does the consistency argument above not apply directly to Peano arithmetic?
+Answer: the axioms and the induction rule of arithmetic bring cuts that cannot be removed in this simple way, so normal proofs lose the subformula property, and Gentzen needed induction on ordinals below $\varepsilon_0$.
 
 ## Explanations
 
@@ -96,16 +127,11 @@ One way is to put every proof in a simple normal form, and to check that no proo
 
 ### L2 human
 
-We prove that the sequent calculus LK is consistent, in the sense that it does not derive the empty sequent $\Rightarrow$.
-
-1. Suppose that LK derives $\Rightarrow$.
-2. By the [[cut-elimination theorem|AYRZ98Y0NW]], there is a cut-free derivation of $\Rightarrow$.
-3. In a cut-free derivation, every formula is a subformula of a formula in the end sequent, by the subformula property.
-4. The empty sequent has no formulas, so the derivation contains no formulas at all.
-5. But every derivation starts with axioms $A \Rightarrow A$, which contain a formula. This is a contradiction.
-
-The typical use of proof theory has this form: transform an arbitrary proof into a normal one, and then read off a property of the normal proof.
-A trap is to apply the argument to Peano arithmetic directly: with the induction axioms, cuts cannot be removed in this simple way, and Gentzen needed ordinals below $\varepsilon_0$.
+Proof theory also extracts information from proofs.
+Suppose that LK derives $\Rightarrow \exists x\, B(x)$ with $B$ quantifier-free.
+By the midsequent theorem, some cut-free derivation passes through a sequent $\Rightarrow B(t_1), \dots, B(t_n)$, and its terms are the candidates for a witness.
+The typical use is this: from a proof of existence, read off a finite list of terms one of which works.
+A trap is to expect a single witness, since in classical logic the list can have several terms and the proof need not say which one works.
 
 ### L3 human
 

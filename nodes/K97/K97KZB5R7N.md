@@ -17,17 +17,19 @@ sources:
 
 ## Summary
 
-Proof-theoretic semantics explains the meaning of [[logical connectives|QS0XVAN9BG]] and the validity of arguments by rules of inference and proofs, instead of truth in models.
-In its main form, the meaning of a connective is fixed by its introduction rules in [[natural deduction|PAQ4ZX2TX1]], and its elimination rules are justified when they are in [[harmony|XJSQVK0G71]] with them.
+What does "and" mean?
+A truth table gives one answer, and the rule ${\wedge}$I gives another: a proof of $A \wedge B$ is a proof of $A$ together with a proof of $B$.
+Proof-theoretic semantics takes the second kind of answer seriously, and explains the meaning of [[logical connectives|QS0XVAN9BG]] and the validity of arguments by rules and proofs instead of truth in models.
+In its main form the introduction rules of a connective in [[natural deduction|PAQ4ZX2TX1]] fix its meaning, and its elimination rules are justified when they are in [[harmony|XJSQVK0G71]] with them.
 An argument is *valid* when it can be turned into a canonical proof by reduction steps, a notion of [[proof-theoretic validity|J2883WWC3M]] developed by Prawitz and Dummett.
 
 ## Motivation
 
 Model-theoretic semantics defines [[logical consequence|1HK0VYWTV7]] by truth in all structures, and it takes the meaning of the connectives as given.
 A different view says that we learn the meaning of "and" or "if" by learning how to use them in arguments.
-On this view, the rules come first, and truth is derived from proof.
+On this view the rules come first, and truth is explained through proof.
 Not every pair of rules gives a meaning: Prior's connective [[tonk|QSVQ1KPNBX]] shows that badly chosen rules let us infer anything from anything.
-Proof-theoretic semantics asks which rules are acceptable as definitions, and its answer uses normalization and [[cut elimination|AYRZ98Y0NW]].
+So the theory must say which rules are acceptable as definitions, and its answer uses normalization and [[cut elimination|AYRZ98Y0NW]].
 
 ## Notation
 
@@ -38,39 +40,57 @@ An *atomic base* is a set of rules for atomic formulas, and base-extension seman
 
 ## Remarks
 
-### Examples
+### A valid argument, checked by hand
 
-- The rules for conjunction are harmonious, and they give $\wedge$ its usual meaning, see [[this example|53ERPXVZ3S]].
-- The rules for implication are harmonious, and the reduction that shows it is the detour reduction of natural deduction, see [[this example|QWWR80Y2XT]].
-- The argument from $A \wedge B$ to $B \wedge A$ is valid: given a canonical proof of $A \wedge B$, its two immediate subproofs give a canonical proof of $B \wedge A$.
-- For disjunction, the rule $\vee$E is justified by the inversion principle: a canonical proof of $A \vee B$ comes from a proof of $A$ or of $B$, and each case gives the conclusion.
+Take the argument from $A \wedge B$ to $B \wedge A$, given by the following derivation.
+$$\dfrac{\dfrac{A \wedge B}{B}\,{\wedge}\mathrm{E}_2 \qquad \dfrac{A \wedge B}{A}\,{\wedge}\mathrm{E}_1}{B \wedge A}\,{\wedge}\mathrm{I}$$
+To show that it is valid, put in place of the assumption $A \wedge B$ any canonical proof, which ends with ${\wedge}$I from a proof $D_1$ of $A$ and a proof $D_2$ of $B$.
+Now each elimination stands right below an introduction, and the two reductions replace them by $D_2$ and by $D_1$.
+The result is ${\wedge}$I applied to $D_2$ and $D_1$, a canonical proof of $B \wedge A$.
+We never asked whether $A \wedge B$ is true: the check used only the shape of its proofs.
 
-### Non-examples
+### Introduction rules as definitions
 
-- The rules of tonk do not give a meaning: they are not harmonious and they make every formula derivable from every formula, see [[this non-example|JVV2QRX0H2]].
-- The truth-table definition of $\wedge$ by a function on $\{0, 1\}$ is a model-theoretic semantics. It uses truth values, not rules of proof.
-- A rule set whose eliminations are weaker than the introductions allow, such as $\wedge$ with only $\wedge$E$_1$, is not in harmony, so it does not define $\wedge$ in this sense.
+Gentzen read the introduction rules as definitions and the elimination rules as their consequences.
+Prawitz made this precise with the *inversion principle*: an elimination may give only what any canonical proof of its major premise already contains.
+For disjunction, a canonical proof of $A \vee B$ comes from a proof of $A$ or from a proof of $B$.
+So ${\vee}$E, which derives $C$ from $A \vee B$ when $C$ follows from $A$ and from $B$, is justified: in either case we have what we need.
+The rules for conjunction and for implication pass the same test, see [[the conjunction example|53ERPXVZ3S]] and [[the implication example|QWWR80Y2XT]].
 
-### Basic properties
+### Rules that define nothing
 
-- If every connective has harmonious rules, then detours can be removed, so normal derivations exist and have the [[subformula property|Z2NXKDK06G]].
-- If the extended system still normalizes, adding a connective with harmonious rules gives a [[conservative extension|N238J43XNE]]: no new formulas of the old language become derivable.
-- Harmony is checked locally: for each connective, one shows a reduction of an introduction followed by an elimination.
-- The standard intuitionistic rules are harmonious. The classical rule of double negation elimination is not an elimination rule of this kind, which leads to a debate about classical logic within the theory.
+The rules of tonk do not give a meaning, since its elimination takes out what its introduction never put in, see [[the tonk example|JVV2QRX0H2]].
+A rule set can also fail the other way.
+Conjunction with only ${\wedge}$E$_1$ never lets us use the second conjunct, so its eliminations are weaker than the introduction allows, and it does not define $\wedge$ in this sense.
+
+### What harmony buys
+
+Harmony is checked locally, one connective at a time, by a reduction of an introduction followed by an elimination.
+Such reductions remove detours, and when the whole system normalizes, normal derivations have the [[subformula property|Z2NXKDK06G]].
+In that case adding a connective with harmonious rules gives a [[conservative extension|N238J43XNE]]: no new formulas of the old language become derivable.
+The standard intuitionistic rules are harmonious, while the classical rule of double negation elimination is not an elimination rule of this kind, and this starts a debate about classical logic within the theory.
+
+### Watch out
+
+Local harmony gives a reduction for each detour, but it does not by itself prove that reduction ends, and that needs a separate normalization proof.
+Proof-theoretic validity is not derivability in a fixed system: it is defined by reductions to canonical proofs, relative to atomic bases.
+Finally, the main forms of the theory validate intuitionistic logic, not classical logic, and excluded middle is not valid in them.
 
 ### History
 
-Gentzen wrote that the introduction rules are, as it were, the definitions of the connectives, and that the elimination rules are consequences of them.
-Dag Prawitz developed this idea with his inversion principle and his normalization theorem in *Natural Deduction* of 1965.
+Gentzen wrote in 1934 and 1935 that the introduction rules are, as it were, the definitions of the connectives.
+Dag Prawitz developed this idea with his inversion principle and his normalization theorem in *Natural Deduction* of 1965, taking the name of the principle from Paul Lorenzen.
 Arthur Prior introduced tonk in *The Runabout Inference-Ticket*, in Analysis in 1960, and Nuel Belnap answered in *Tonk, Plonk and Plink*, in Analysis in 1962.
-Michael Dummett coined the term harmony, and he developed the theory in *The Logical Basis of Metaphysics* of 1991.
+Michael Dummett introduced the term harmony in *Frege: Philosophy of Language* of 1973, and he developed the theory in *The Logical Basis of Metaphysics* of 1991.
 Peter Schroeder-Heister introduced the name proof-theoretic semantics in print in 1991.
 
-### Common errors
+### Try it
 
-- Thinking that any set of rules defines a connective. Tonk shows that the rules must satisfy a condition such as harmony.
-- Treating proof-theoretic validity as derivability in a fixed system. Validity is defined by reductions to canonical proofs, relative to atomic bases.
-- Expecting proof-theoretic semantics to agree with classical semantics. Its main forms validate intuitionistic logic, not classical logic.
+Exercise 1: show that the argument from $A$ to $A \wedge A$, by one ${\wedge}$I from two copies of the assumption, is valid.
+Answer: put a closed valid proof $D$ of $A$ in place of both assumptions, and the result is ${\wedge}$I applied to $D$ and $D$, a canonical proof of $A \wedge A$.
+
+Exercise 2: explain with the inversion principle why tonk-E, from $A \operatorname{tonk} B$ to $B$, is not justified by tonk-I, from $A$ to $A \operatorname{tonk} B$.
+Answer: a canonical proof of $A \operatorname{tonk} B$ contains only a proof of $A$, so an elimination may give back only $A$, and tonk-E gives $B$, which no canonical proof provides.
 
 ## Explanations
 

@@ -64,9 +64,9 @@ Then two steps on single letters turn "$a$ or $a$" into $a$ and "$b$ or $b$" int
 ### L2 human
 
 The derivation has two phases.
-
-1. Medial: pair the matching parts of the two copies, giving $(a \vee a) \wedge (b \vee b)$.
-2. Atomic contraction: contract each pair of atoms, inside the conjunction.
-
-The typical use of medial is to make contraction local, so that each contraction step acts on a single atom.
-A trap is to read medial as distributivity: medial never copies a subformula, while distributivity copies one.
+First, medial pairs the matching parts of the two copies, giving $(a \vee a) \wedge (b \vee b)$.
+Then atomic contraction merges each pair of atoms, inside the conjunction.
+For a longer formula, such as $(a \wedge b \wedge c) \vee (a \wedge b \wedge c)$, medial is used once for each $\wedge$, here twice, and then three atomic contractions finish.
+So medial is what makes contraction local: every contraction step acts on a single atom.
+Watch out: medial is not distributivity.
+Medial never copies a subformula, while distributivity, from $A \wedge (B \vee C)$ to $(A \wedge B) \vee (A \wedge C)$, copies $A$.
