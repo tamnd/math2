@@ -19,23 +19,34 @@ sources:
 
 ## Example
 
-Let $L$ have a constant symbol $a$, a unary function symbol $f$ and a unary relation symbol $P$.
-We give a maximal consistent set $\Delta$ that is not a Henkin set, and we show that its term model is not a model of $\Delta$.
+Take the natural numbers and add one extra point $\infty$ at the end, and let $\infty$ be the only element with the property $P$.
+Every number has a name, but $\infty$ has none, and that is enough to break a term model built without witnesses.
 
-1. Let $\mathcal{A}$ be the [[structure|983GZBQYT4]] with universe $\N \cup \set{\infty}$, $a^{\mathcal{A}} = 0$, $f^{\mathcal{A}}(n) = n + 1$, $f^{\mathcal{A}}(\infty) = \infty$ and $P^{\mathcal{A}} = \set{\infty}$.
-2. Let $\Delta$ be the set of sentences of $L$ true in $\mathcal{A}$. It is consistent by the [[soundness theorem|AVD7T7J063]], and it contains $\sigma$ or $\neg \sigma$ for each sentence $\sigma$. So $\Delta$ is maximal consistent, a [[complete theory|655K8Y7VS8]].
+Let $L$ have a constant symbol $a$, a unary function symbol $f$ and a unary relation symbol $P$.
+
+1. Let $\mathcal{A}$ be the [[structure|983GZBQYT4]] with universe $\mathbb{N} \cup \{ \infty \}$, $a^{\mathcal{A}} = 0$, $f^{\mathcal{A}}(n) = n + 1$, $f^{\mathcal{A}}(\infty) = \infty$ and $P^{\mathcal{A}} = \{ \infty \}$.
+2. Let $\Delta$ be the set of sentences of $L$ true in $\mathcal{A}$.
+   It is consistent by the [[soundness theorem|AVD7T7J063]], and it contains $\sigma$ or $\neg \sigma$ for each sentence $\sigma$, so it is maximal consistent, a [[complete theory|655K8Y7VS8]].
 3. The closed [[terms|6D3WA7N2W4]] of $L$ are $f^n(a)$ for $n \ge 0$, and $f^n(a)$ has the value $n$ in $\mathcal{A}$.
-4. $\infty \in P^{\mathcal{A}}$, so $\exists x \, P(x) \in \Delta$. For each $n$, $n \notin P^{\mathcal{A}}$, so $\neg P(f^n(a)) \in \Delta$.
-5. So $\Delta$ has no witness for $\exists x \, P(x)$ among the closed terms, and the witness property of the [[Henkin construction|RY8KRKR097]] fails.
-6. For $m \ne n$, the values $m$ and $n$ differ, so $\neg (f^m(a) = f^n(a)) \in \Delta$. The term model of $\Delta$ has one element $[f^n(a)]$ for each $n$, and these are all different.
-7. The term model is a copy of $(\N, 0, n \mapsto n + 1)$ with $P$ empty, by step 4. It fails $\exists x \, P(x)$, which lies in $\Delta$.
-8. So the truth lemma fails for $\Delta$: maximal consistency alone does not make the term model a model of $\Delta$.
+4. Since $\infty \in P^{\mathcal{A}}$, the sentence $\exists x \, P(x)$ lies in $\Delta$.
+   Since no number $n$ lies in $P^{\mathcal{A}}$, the sentence $\neg P(f^n(a))$ lies in $\Delta$ for every $n$.
+5. So no closed term witnesses $\exists x \, P(x)$ in $\Delta$, and the witness property of the [[Henkin construction|RY8KRKR097]] fails.
+6. For $m \ne n$ the values $m$ and $n$ differ, so $\neg (f^m(a) = f^n(a)) \in \Delta$.
+   The term model of $\Delta$ has one element $[f^n(a)]$ for each $n$, and these are all different.
+7. By step 4, $P$ is empty in the term model, which is a copy of $(\mathbb{N}, 0, n \mapsto n + 1)$.
+   So the term model fails $\exists x \, P(x)$, although that sentence lies in $\Delta$.
+8. Hence the truth lemma fails for $\Delta$: maximal consistency alone does not make the term model a model of $\Delta$.
 
 ## Remarks
 
-The element $\infty$ of $\mathcal{A}$ has no name, and the term model keeps only the named elements.
-The repair is the Henkin step: add a new constant $c$ with the witness axiom $\exists x \, P(x) \to P(c)$, and extend again by [[Lindenbaum's lemma|SC0BSJ3GT6]].
-The new term model then contains $[c]$, with $P([c])$ true, and $[c] \ne [f^n(a)]$ for every $n$.
+The element $\infty$ of $\mathcal{A}$ has no name, and a term model keeps only the named elements.
+The repair is the Henkin step.
+Add a new constant $c$ with the witness axiom $\exists x \, P(x) \to P(c)$, and extend again by [[Lindenbaum's lemma|SC0BSJ3GT6]].
+The new term model contains $[c]$ with $P([c])$ true, and $[c] \ne [f^n(a)]$ for every $n$, because $\neg P(f^n(a))$ is still in the set.
+
+What if $P^{\mathcal{A}}$ were $\{ 0 \}$ instead?
+Then $P(a)$ would be true, the closed term $a$ would witness $\exists x \, P(x)$, and the term model would satisfy this sentence.
+The failure comes from a property that only unnamed elements have.
 
 ## Explanations
 
@@ -48,13 +59,13 @@ A new name for the missing thing fixes the problem.
 
 ### L2 human
 
-1. A term model uses only the elements that closed terms name.
-2. Here the theory needs an element that no closed term names.
-3. The typical use of this example is to show why the Henkin construction adds witness constants before the term model is built.
-4. The trap is to think that a complete theory always describes its own term model.
+A term model uses only the elements that closed terms name.
+Here the theory needs an element that no closed term names, and the term model leaves it out.
+This is why the Henkin construction adds witness constants before it builds the term model.
+Watch out: a complete theory need not describe its own term model, and this example is the standard warning.
 
 ### L3 human
 
 The structure $\mathcal{A}$ is a model of $\Delta$ that is not generated by its named elements.
-In model-theoretic terms, the set of closed terms is not the universe of an elementary substructure.
-The Tarski-Vaught test fails for it, and the witness constants are exactly the elements that the test asks for.
+The named elements form a substructure, but not an elementary one.
+The Tarski-Vaught test fails for it at $\exists x \, P(x)$, and witness constants are exactly the elements that the test asks for.

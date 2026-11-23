@@ -18,68 +18,115 @@ sources:
 
 ## Summary
 
-The Henkin construction builds a model of a [[consistent|VM8TQ70CVJ]] set of sentences out of the closed [[terms|6D3WA7N2W4]] of a larger language.
-A set $\Delta$ of sentences has the witness property when, for each sentence $\neg \forall x \, \varphi$ in $\Delta$, some constant $c$ gives $\neg \varphi^x_c \in \Delta$.
-Equivalently, in the abbreviation $\exists x = \neg \forall x \neg$, each sentence $\exists x \, \psi$ in $\Delta$ has a witness $\psi^x_c$ in $\Delta$.
+The Henkin construction builds a model of a [[consistent|VM8TQ70CVJ]] set of sentences out of pure syntax: the elements of the model are the names in the language.
+Before it can do that, it adds a name for every element whose existence the sentences claim, and it settles every open question.
+
+A set $\Delta$ of [[sentences|DKFGQTRYZE]] has the witness property when, for each sentence $\neg \forall x \, \varphi$ in $\Delta$, there is a constant $c$ with $\neg \varphi^x_c \in \Delta$.
+In the abbreviation $\exists x = \neg \forall x \neg$, this says that each sentence $\exists x \, \psi$ in $\Delta$ has a witness $\psi^x_c$ in $\Delta$.
 A Henkin set is a maximal consistent set with the witness property.
-The construction has three steps: add new constants with witness axioms, extend by [[Lindenbaum's lemma|SC0BSJ3GT6]], and take the term model modulo provable equality.
+The construction has three steps.
+
+1. Add new constants together with witness axioms $\exists x \, \psi \to \psi^x_c$.
+2. Extend to a maximal consistent set by [[Lindenbaum's lemma|SC0BSJ3GT6]].
+3. Take the closed [[terms|6D3WA7N2W4]] modulo provable equality as the universe of a [[structure|983GZBQYT4]].
+
 It is the standard proof of the [[model existence theorem|G0DTR159RN]], and so of [[Gödel's completeness theorem|WQ1ZE255SF]].
 
 ## Motivation
 
 To prove completeness, we must find a model for every consistent set $\Gamma$, and the only material at hand is syntax.
 The closed terms are the natural candidates for the elements of the model.
-Two problems appear.
-First, $\Gamma$ may say $\exists x \, P(x)$ with no closed term $t$ for which $P(t)$ follows; then no term names the required element.
-Second, $\Gamma$ may decide neither $P(t)$ nor $\neg P(t)$, and then the term model has no definite answer.
+Two problems appear at once.
+First, $\Gamma$ may say $\exists x \, P(x)$ while no closed term $t$ has $P(t)$ derivable, so no term names the element we need.
+Second, $\Gamma$ may decide neither $P(t)$ nor $\neg P(t)$, and then we do not know whether to put the element named $t$ into $P$.
 New constants solve the first problem, and a maximal consistent extension solves the second.
-Leon Henkin saw that these two steps are enough, and the result is a short and uniform proof.
+Leon Henkin saw that these two steps are enough, and the result is a short proof that works the same way for every language.
+
+The same idea returns throughout logic.
+Canonical models in modal logic, the omitting types theorem and the completeness of Henkin semantics for higher-order logic all reuse it.
 
 ## Notation
 
-The language $L$ has the logical symbols $\neg$, $\to$, $\forall$ and $=$, and $\vdash$ is derivability in the Hilbert system $H$ of the [[soundness theorem|AVD7T7J063]].
-$C = \set{c_0, c_1, \dots}$ is a set of new constant symbols, and $L(C)$ is $L$ with these constants added.
-A witness axiom (Henkin axiom) is a sentence $\neg \forall x \, \varphi \to \neg \varphi^x_c$, often written $\exists x \, \psi \to \psi^x_c$ with $\psi = \neg \varphi$.
-For a maximal consistent $\Delta$ in $L(C)$, the term model $\mathcal{M}_\Delta$ has as universe the closed terms of $L(C)$ modulo $t \sim u \iff (t = u) \in \Delta$.
-Some books write $\Delta$ as $T^*$ or $\Gamma^*$, and call a set with the witness property "Henkin complete" or "saturated with witnesses".
+We use the logical symbols $\neg$, $\to$, $\forall$ and $=$, and $\vdash$ is derivability in the Hilbert system $H$ of the [[soundness theorem|AVD7T7J063]].
+We write $C = \{ c_0, c_1, \dots \}$ for a set of new constant symbols, and $L(C)$ for $L$ with these constants added.
+A witness axiom, or Henkin axiom, is a sentence $\neg \forall x \, \varphi \to \neg \varphi^x_c$, usually written $\exists x \, \psi \to \psi^x_c$ with $\psi = \neg \varphi$.
+For a maximal consistent $\Delta$ in $L(C)$, the term model $\mathcal{M}_\Delta$ has as universe the closed terms of $L(C)$ modulo the relation $t \sim u$ that holds when $(t = u) \in \Delta$.
+Some books write $T^*$ or $\Gamma^*$ for $\Delta$, and call a set with the witness property "Henkin complete" or "saturated with witnesses".
 
 ## Remarks
 
-### Examples
+### A run on a two-sentence theory
 
-- [[A witness for an existential sentence|9NC0F9MZCT]]: for $\Gamma = \set{\exists x \, P(x), \neg P(a)}$, the witness axiom adds $P(c)$, and the Henkin set then contains $\neg (c = a)$.
-- [[The equality quotient|GCX3RQVXXY]]: for $\Gamma = \set{\forall x \, \forall y \, (x = y)}$, infinitely many closed terms all collapse to one element of the term model.
-- True arithmetic $\mathrm{Th}(\N, 0, S, +, \cdot)$ is already a Henkin set in its own language. Each element $n$ is the value of the numeral $S^n 0$, so each true $\exists x \, \psi$ has a numeral witness. Its term model is isomorphic to $\N$.
-- A set $\Gamma = \set{\exists x \, P(x), \exists x \, \neg P(x)}$ in the language $\set{P}$: the witness axioms give $P(c_i)$ and $\neg P(c_j)$, so every Henkin extension contains $\neg (c_i = c_j)$, and the term model has at least two elements. The L2 explanation below works this example.
-- Canonical models in modal logic use the same idea: maximal consistent sets are the worlds, and the witness lemma gives the successor worlds.
+Let $L$ have one unary relation symbol $P$, and let $\Gamma = \{ \exists x \, P(x), \ \exists x \, \neg P(x) \}$.
+The language has no constants, so at the start there are no closed terms at all.
+We add new constants $c_0, c_1$ and the two witness axioms:
+$$\exists x \, P(x) \to P(c_0), \qquad \exists x \, \neg P(x) \to \neg P(c_1).$$
+With modus ponens, every extension of $\Gamma$ with these axioms derives $P(c_0)$ and $\neg P(c_1)$.
+We also add witness axioms for the other existential sentences of $L(C)$, and then Lindenbaum's lemma gives a maximal consistent $\Delta$.
+It cannot contain $c_0 = c_1$, since the equality axiom $c_0 = c_1 \to (P(c_0) \to P(c_1))$ would then give $P(c_1)$.
+So $\neg (c_0 = c_1) \in \Delta$, and the term model has two different elements:
+$$[c_0] \in P^{\mathcal{M}}, \qquad [c_1] \notin P^{\mathcal{M}}.$$
+Check: both sentences of $\Gamma$ hold in this model, with witnesses $[c_0]$ and $[c_1]$.
 
-### Non-examples
+### The model depends on choices
 
-- [[A maximal consistent set without witnesses|B3CSQE56G8]]: in the language $\set{a, f, P}$, $\Delta$ can contain $\exists x \, P(x)$ and $\neg P(t)$ for every closed term $t$. Its term model fails $\exists x \, P(x)$.
-- The theory of dense linear orders without endpoints, in the language $\set{<}$, has no constant symbols. So there are no closed terms, and a term model would have an empty universe.
-- A consistent set that is not maximal: $\set{\exists x \, P(x), P(a)}$ in the language $\set{a, P, Q}$ has the witness $a$, but it decides neither $Q(a)$ nor $\neg Q(a)$, so the term model has no definite interpretation of $Q$.
+What about the other constants $c_2, c_3, \dots$?
+They name elements too, and $\Delta$ decides whether each one equals $c_0$, equals $c_1$, or is new.
+If $\Delta$ happens to contain "there are at most two elements", every $c_i$ collapses onto $[c_0]$ or $[c_1]$, and the model has two elements.
+If it contains "there are at least three elements", the model is larger.
+Both choices are consistent with $\Gamma$, so the term model is not unique, and its size depends on the choices made by Lindenbaum's lemma.
 
-### Basic properties
+### More examples
 
-1. Witness axioms are safe: if $\Gamma$ is consistent in $L$, then $\Gamma$ plus all witness axioms, with fresh constants chosen in turn, is consistent in $L(C)$. This is Step (d) of the [[proof of model existence|FMZMD0GGYK]].
-2. Conservativity: for a sentence $\sigma$ of $L$, $\Gamma$ plus the witness axioms derives $\sigma$ if and only if $\Gamma \vdash \sigma$. Apply property 1 to $\Gamma \cup \set{\neg \sigma}$ and use fact (P5) of the [[enumeration proof|DCR0S91GYY]].
-3. The witness property passes to supersets in the same language: a superset of a set with all witness axioms still contains them, and property 3 of Lindenbaum's lemma then gives the witnesses.
-4. Truth lemma: for a Henkin set $\Delta$, $\mathcal{M}_\Delta \models \sigma$ if and only if $\sigma \in \Delta$, for every sentence $\sigma$ of $L(C)$. This is Step (g) of the proof of model existence.
-5. Every element of $\mathcal{M}_\Delta$ is the value of a closed term, so $\mathcal{M}_\Delta$ has at most $\max(|L|, \aleph_0)$ elements. For countable $L$, it is [[countable|01TQB88H4C]].
-6. Conversely, if every element of a structure $\mathcal{A}$ is the value of a closed term, then the theory of $\mathcal{A}$ in that language is a Henkin set, and its term model is isomorphic to $\mathcal{A}$.
+The example of [[a witness that must be a new constant|9NC0F9MZCT]] starts from $\exists x \, P(x)$ and $\neg P(a)$, and shows that reusing $a$ as the witness would make the set inconsistent.
+The [[equality quotient|GCX3RQVXXY]] shows the opposite effect: under $\forall x \, \forall y \, (x = y)$, infinitely many closed terms collapse to one element.
+True arithmetic $\mathrm{Th}(\mathbb{N}, 0, S, +, \cdot)$ is already a Henkin set in its own language.
+Each number $n$ is the value of the numeral $S^n 0$, so each true $\exists x \, \psi$ has a numeral witness, and the term model is isomorphic to $\mathbb{N}$.
+
+### What fails without each step
+
+Without witnesses, a maximal consistent set can still go wrong.
+The [[set without witnesses|B3CSQE56G8]] in the language $\{ a, f, P \}$ contains $\exists x \, P(x)$ and $\neg P(f^n(a))$ for every $n$, so its term model fails $\exists x \, P(x)$.
+Without new constants, a language with no constants, such as the language $\{ < \}$ of dense linear orders, has no closed terms, and a term model would have an empty universe.
+Without maximality, the set $\{ \exists x \, P(x), P(a) \}$ in the language $\{ a, P, Q \}$ has the witness $a$, but it decides neither $Q(a)$ nor $\neg Q(a)$, so the term model has no definite interpretation of $Q$.
+
+### The rules you can use
+
+Witness axioms are safe: if $\Gamma$ is consistent in $L$, then $\Gamma$ plus all witness axioms, with each constant fresh when its axiom is added, is consistent in $L(C)$.
+This is step (d) of the [[proof of model existence|FMZMD0GGYK]].
+They are also conservative: for a sentence $\sigma$ of $L$, the extended set derives $\sigma$ if and only if $\Gamma \vdash \sigma$, by the safety fact applied to $\Gamma \cup \{ \neg \sigma \}$.
+
+The truth lemma says that for a Henkin set $\Delta$, $\mathcal{M}_\Delta \models \sigma$ if and only if $\sigma \in \Delta$, for every sentence $\sigma$ of $L(C)$.
+Every element of $\mathcal{M}_\Delta$ is the value of a closed term, so $\mathcal{M}_\Delta$ has at most $|L| + \aleph_0$ elements, and it is [[countable|01TQB88H4C]] when $L$ is.
+Conversely, if every element of a structure $\mathcal{A}$ is the value of a closed term, then the theory of $\mathcal{A}$ is a Henkin set, and its term model is isomorphic to $\mathcal{A}$.
+
+### Watch out
+
+Three slips are common.
+The first is to add witnesses only for formulas of $L$.
+The new constants create new formulas $\exists x \, \psi$ of $L(C)$, and these need witnesses too, so the construction must list all formulas of $L(C)$, or repeat in $\omega$ stages.
+
+The second is to reuse an old constant as a witness.
+With $\Gamma = \{ \exists x \, P(x), \neg P(a) \}$, the axiom $\exists x \, P(x) \to P(a)$ makes the set inconsistent.
+
+The third is to prove the truth lemma by induction on subformulas.
+The case $\forall x \, \varphi$ needs the instances $\varphi^x_t$, which are not subformulas.
+The induction is on the number of logical symbols, which a substitution of closed terms does not change.
 
 ### History
 
-Kurt Gödel proved the completeness theorem in his thesis of 1929 by a different method.
+Kurt Gödel proved the completeness theorem in his dissertation of 1929, published in 1930, by a different method.
 Leon Henkin published the method of witness constants and term models in 1949.
 Gisbert Hasenjaeger gave a simplified form of Henkin's proof in 1953.
 Henkin also used the method for the theory of types, where it gives completeness with respect to general models.
 
-### Common errors
+### Try it
 
-- Adding witnesses only for the formulas of $L$. The new constants make new formulas $\exists x \, \psi$ of $L(C)$, and these also need witnesses. The construction must list all formulas of $L(C)$, or repeat in $\omega$ stages.
-- Using an old constant as a witness. The axiom $\exists x \, \psi \to \psi^x_c$ is safe only when $c$ is new for $\psi$ and for the earlier axioms. With $\Gamma = \set{\exists x \, P(x), \neg P(a)}$, the witness $a$ gives an inconsistent set.
-- Using induction on subformulas for the truth lemma. The case $\forall x \, \varphi$ needs the instances $\varphi^x_t$, which are not subformulas. The induction is on the number of logical symbols, which substitution of closed terms does not change.
+First, run the construction on $\Gamma = \{ \exists x \, \exists y \, R(x, y) \}$, with $R$ binary.
+One witness axiom gives a constant $c_0$ with $\exists y \, R(c_0, y)$, and a second gives $c_1$ with $R(c_0, c_1)$, so the term model puts the pair $([c_0], [c_1])$ into $R$.
+
+Second, why does the term model of a Henkin set in a countable language have at most countably many elements?
+Its elements are classes of closed terms, and there are countably many closed terms, since each is a finite string over a countable alphabet.
 
 ## Explanations
 
@@ -93,16 +140,13 @@ A list of facts treated this way describes a small world in which all the facts 
 
 ### L2 human
 
-We build a Henkin set for $\Gamma = \set{\exists x \, P(x), \exists x \, \neg P(x)}$, where $L$ has one unary relation symbol $P$.
-
-1. In the abbreviation $\exists x = \neg \forall x \neg$, the two sentences are $\neg \forall x \, \neg P(x)$ and $\neg \forall x \, \neg \neg P(x)$.
-2. Their witness axioms, with new constants $c_0, c_1$, give $\neg \neg P(c_0)$ and $\neg \neg \neg P(c_1)$. With Rule T, any extension that contains $\Gamma$ and these axioms derives $P(c_0)$ and $\neg P(c_1)$.
-3. Lindenbaum's lemma gives a maximal consistent $\Delta$. It cannot contain $c_0 = c_1$, since axiom group 6 with $P(c_0)$ would give $P(c_1)$. So $\neg (c_0 = c_1) \in \Delta$.
-4. The term model has the classes $[c_0] \ne [c_1]$, with $[c_0] \in P^{\mathcal{M}}$ and $[c_1] \notin P^{\mathcal{M}}$. Both sentences of $\Gamma$ hold in it.
-5. The other constants $c_2, c_3, \dots$ go to classes that $\Delta$ decides. For example, if $\Delta$ contains $\forall x \, \forall y \, \forall z \, (x = y \lor x = z \lor y = z)$, then the model has exactly two elements.
-
-The typical use is to prove that a consistent set has a model, and to bound the size of the model by the size of the language.
-The trap is step 5: the size and shape of the term model depend on the choices made by Lindenbaum's lemma, so the model is not unique.
+Here is the construction used to bound the size of a model.
+Let $\Gamma$ be a consistent set of sentences in a countable language, for example the axioms of a group together with "there is an element of order $3$".
+Add countably many constants and their witness axioms; the language stays countable.
+Extend to a Henkin set $\Delta$, and form the term model.
+Its elements are classes of closed terms, so the model is countable, and by the truth lemma it is a group with an element of order $3$.
+This is the typical use: a consistent set has a model, and the model is no larger than the language plus $\aleph_0$.
+Watch out: the model need not be the one you had in mind, since $\Delta$ may also decide, say, that the group is infinite.
 
 ### L3 human
 
