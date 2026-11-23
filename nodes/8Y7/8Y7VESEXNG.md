@@ -20,6 +20,8 @@ sources:
 We show that $E_G^k$ is truth along paths of length $k$, and then read off the four parts from the structure of paths.
 We use the notation of [[the theorem|8K0CMPQXXB]], and we write $R_G(w) = \{v : w R_G v\}$.
 
+### Two lemmas on paths
+
 Lemma A: $M, w \models E_G \chi$ if and only if $\chi$ holds at every $v \in R_G(w)$.
 
 1. $E_G \chi$ is $\bigwedge_{a \in G} K_a \chi$, so it holds at $w$ exactly when $\chi$ holds at every $R_a$-successor of $w$ for every $a \in G$.
@@ -31,6 +33,8 @@ Lemma B: for $k \ge 1$, $M, w \models E_G^k \varphi$ if and only if $\varphi$ ho
 4. Assume Lemma B for $k$.
    By Lemma A with $\chi = E_G^k \varphi$, the formula $E_G^{k+1} \varphi$ holds at $w$ exactly when $E_G^k \varphi$ holds at every $v \in R_G(w)$.
 5. By the induction hypothesis, that says $\varphi$ holds at every world $k$ steps from some $v \in R_G(w)$, and these are exactly the worlds $k + 1$ steps from $w$.
+
+### Reachability and the fixed point axiom
 
 Part 1, reachability.
 
@@ -49,6 +53,8 @@ Part 2, the fixed point axiom.
 12. If the path has one step, then $u = v$ and $\varphi$ holds at $u$.
     Otherwise $v R_G^+ u$, and $\varphi$ holds at $u$ by part 1 applied at $v$.
 13. So $\varphi$ holds at every $u$ with $w R_G^+ u$, and $C_G \varphi$ holds at $w$ by part 1.
+
+### The greatest fixed point and the induction rule
 
 Part 4, the greatest post-fixed point.
 

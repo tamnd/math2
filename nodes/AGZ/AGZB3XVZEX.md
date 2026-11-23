@@ -16,23 +16,30 @@ sources:
 
 ## Example
 
-Let $M$ be the [[Kripke structure|RFQ8DJZNQT]] with states $s_0, s_1, s_2$ and edges $s_0 \to s_1$, $s_1 \to s_0$, $s_1 \to s_2$, $s_2 \to s_2$.
-Let $L(s_0) = L(s_1) = \set{p}$ and $L(s_2) = \set{q}$.
-We compute the sets of states that satisfy $EG\,p$ and $AF\,q$ in [[CTL|1DA0Y6KDF8]].
+Let $M$ be the [[Kripke structure|RFQ8DJZNQT]] with states $s_0$, $s_1$, $s_2$ and edges $s_0 \to s_1$, $s_1 \to s_0$, $s_1 \to s_2$ and $s_2 \to s_2$.
+Let $L(s_0) = L(s_1) = \{p\}$ and $L(s_2) = \{q\}$.
+We compute the sets of states that satisfy $EG\,p$, $AF\,q$ and $EF\,q$ in [[CTL|1DA0Y6KDF8]].
 
-1. $[\![ EG\,p ]\!]$ is the greatest set $Z \subseteq [\![ p ]\!]$ in which every state has a successor in $Z$.
-2. Start with $Z_0 = [\![ p ]\!] = \set{s_0, s_1}$.
-3. $s_0$ has the successor $s_1 \in Z_0$, and $s_1$ has the successor $s_0 \in Z_0$. So no state is removed, and $[\![ EG\,p ]\!] = \set{s_0, s_1}$.
-4. The witness path for $s_0$ is $s_0 s_1 s_0 s_1 \cdots$.
-5. By definition $AF\,q = \neg EG\,\neg q$. Here $[\![ \neg q ]\!] = \set{s_0, s_1}$, and the same computation gives $[\![ EG\,\neg q ]\!] = \set{s_0, s_1}$.
-6. So $[\![ AF\,q ]\!] = \set{s_2}$.
-7. On the other hand, $[\![ EF\,q ]\!] = \set{s_0, s_1, s_2}$, since $s_2$ is reachable from every state.
+1. The set $[\![ EG\,p ]\!]$ is the greatest set $Z \subseteq [\![ p ]\!]$ in which every state has a successor in $Z$.
+   We start with $Z_0 = [\![ p ]\!] = \{s_0, s_1\}$ and remove states that have no successor left in the set.
+2. The state $s_0$ has the successor $s_1 \in Z_0$, and $s_1$ has the successor $s_0 \in Z_0$.
+   So no state is removed, and $[\![ EG\,p ]\!] = \{s_0, s_1\}$, with the witness path $s_0 s_1 s_0 s_1 \cdots$ for $s_0$.
+3. By definition $AF\,q = \neg EG\,\neg q$.
+   Here $[\![ \neg q ]\!] = \{s_0, s_1\}$, and the computation of step 2 gives $[\![ EG\,\neg q ]\!] = \{s_0, s_1\}$.
+   So $[\![ AF\,q ]\!] = \{s_2\}$.
+4. For $EF\,q$ we start with $\{s_2\}$ and add states with a successor in the set.
+   First $s_1$ joins, because $s_1 \to s_2$, and then $s_0$ joins, because $s_0 \to s_1$.
+   So $[\![ EF\,q ]\!] = \{s_0, s_1, s_2\}$.
 
 ## Remarks
 
-The state $s_0$ satisfies $EF\,q$ but not $AF\,q$: reaching $q$ is possible but not forced, because the loop $s_0 s_1$ can repeat forever.
-This loop is the reason why $[\![ EG ]\!]$ is a greatest fixed point: a path can stay in the set forever.
-Under the fairness assumption "if $s_1 \to s_2$ is enabled infinitely often, it is taken", the state $s_0$ would satisfy $AF\,q$ on fair paths.
+The state $s_0$ satisfies $EF\,q$ but not $AF\,q$.
+Reaching $q$ is possible, but it is not forced, because the loop $s_0 s_1$ can repeat forever.
+This loop is also why $[\![ EG\,\varphi ]\!]$ is a greatest [[fixed point|DBD64TH52D]]: a path may stay in the set forever, so we start from everything allowed and only remove.
+
+Change one edge and the answers move.
+If we delete $s_1 \to s_0$ and add $s_0 \to s_0$, then $s_1$ has only the successor $s_2$, so $s_1$ leaves $[\![ EG\,p ]\!]$ and enters $[\![ AF\,q ]\!]$, while $s_0$ stays in $[\![ EG\,p ]\!]$ through its loop.
+Under the fairness assumption "if $s_1 \to s_2$ is enabled infinitely often, it is taken", the original $s_0$ satisfies $AF\,q$ on fair paths.
 
 ## Explanations
 
@@ -46,8 +53,5 @@ A machine moves between two working states, and from the second it may stop for 
 
 To compute $[\![ EG\,\varphi ]\!]$, start with the $\varphi$-states and keep removing those with no successor left in the set.
 To compute $[\![ EF\,\varphi ]\!]$, start with the $\varphi$-states and keep adding those with a successor in the set.
-
-1. Here the removal step stops at once, because $s_0$ and $s_1$ point to each other.
-2. The adding step for $EF\,q$ adds $s_1$ first, then $s_0$.
-
-A trap: $AF\,q$ is not "$q$ is reachable from all states"; that is $AG\,EF\,q$.
+Here the removal for $EG\,p$ stops at once, because $s_0$ and $s_1$ point to each other, and the adding for $EF\,q$ takes two rounds.
+Watch out: $AF\,q$ is not "$q$ is reachable from all states"; that is $AG\,EF\,q$, which holds at every state here.

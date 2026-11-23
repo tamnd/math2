@@ -28,7 +28,8 @@ World $k \ge 1$ has a plan, and in it messages $1$ to $k - 1$ arrive and message
 So $p$ is true exactly at the worlds $k \ge 1$.
 Agent $a$ knows whether there is a plan and counts the even messages she received, which is $\lfloor (k - 1)/2 \rfloor$ at world $k \ge 1$.
 Agent $b$ counts the odd messages he received, which is $0$ at world $0$ and $\lfloor k/2 \rfloor$ at world $k \ge 1$.
-So the relations are [[equivalence relations|0G8VEZ3WTK]] whose classes are $\{0\}, \{1, 2\}, \{3, 4\}, \dots$ for $a$ and $\{0, 1\}, \{2, 3\}, \{4, 5\}, \dots$ for $b$.
+So the relations are [[equivalence relations|0G8VEZ3WTK]].
+The classes of $a$ are $\{0\}, \{1, 2\}, \{3, 4\}, \dots$, and the classes of $b$ are $\{0, 1\}, \{2, 3\}, \{4, 5\}, \dots$.
 
 Let $G = \{a, b\}$ and $E_G^0 p = p$.
 We show by [[induction|0ASJVEFA9J]] on $j \ge 0$ that $E_G^j p$ is true at world $k$ exactly when $k \ge j + 1$.

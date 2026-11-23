@@ -17,6 +17,8 @@ sources:
 We derive five laws in the Hilbert system of [[standard deontic logic|7B74J6J5JV]].
 The system has all tautologies, the axioms $\mathrm{K}$: $O(p \to q) \to (Op \to Oq)$ and $\mathrm{D}$: $Op \to \neg O\neg p$, [[modus ponens|0Y0MQYST0M]], uniform substitution and the [[necessitation rule|G989VP2NGP]].
 
+### Laws 1 and 2
+
 Law 1 says that no code of norms requires a thing and its negation: $\vdash \neg(Op \wedge O\neg p)$.
 
 1. The formula $Op \to \neg O\neg p$ is the axiom $\mathrm{D}$, since $Pp$ abbreviates $\neg O\neg p$.
@@ -30,6 +32,8 @@ Law 2 splits an obligation of a conjunction: $\vdash O(p \wedge q) \to (Op \wedg
 5. In the same way we get $O(p \wedge q) \to Oq$.
    Propositional logic joins steps 4 and 5 into law 2.
 
+### Laws 3 and 4
+
 Law 3 joins two obligations: $\vdash (Op \wedge Oq) \to O(p \wedge q)$.
 
 6. The formula $p \to (q \to (p \wedge q))$ is a tautology, so necessitation gives $O(p \to (q \to (p \wedge q)))$.
@@ -42,6 +46,8 @@ Law 4 says that the impossible is never obligatory: $\vdash \neg O\bot$.
 10. The formula $\neg\bot$ is a tautology, so necessitation gives $O\neg\bot$.
 11. Substitute $\bot$ for $p$ in $\mathrm{D}$ to get $O\bot \to \neg O\neg\bot$.
 12. Steps 10 and 11 give $\neg O\bot$ by propositional logic.
+
+### Law 5
 
 Law 5 combines an obligation with a permission: $\vdash (Op \wedge Pq) \to P(p \wedge q)$.
 
