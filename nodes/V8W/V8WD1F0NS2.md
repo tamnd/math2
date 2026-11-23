@@ -14,24 +14,37 @@ sources:
 
 ## Example
 
-Let $\abs{x}$ be the binary length of $x$, and let $\omega_1(x) = x^{\abs{x}}$.
-Fix a $\Delta_0$ formula $\Omega(x, y)$ that defines the relation $y = x^{\abs{x}}$ in $\N$.
-The axiom $\Omega_1$ is $\forall x \, \exists y \, \Omega(x, y)$, and the theory is $\mathsf{I}\Delta_0 + \Omega_1$.
-We check that it is a theory of [[bounded arithmetic|A2CFPP8JMN]], and that $\omega_1$ has the growth rate of the smash function $x \# y = 2^{\abs{x} \cdot \abs{y}}$.
+The axiom $\Omega_1$ says that a number raised to the power of its own length exists.
+For $x = 7$, which is $111$ in binary, the length is $3$ and the axiom promises the number $7^3 = 343$.
 
-1. Induction. The only induction axioms are those of $\mathsf{I}\Delta_0$, which are for [[$\Delta_0$ formulas|GE43CSZTS9]], so for bounded formulas.
-2. Upper bound for $\omega_1$. Every $x$ satisfies $x < 2^{\abs{x}}$. So $\omega_1(x) = x^{\abs{x}} \le 2^{\abs{x} \cdot \abs{x}} = x \# x$.
-3. Lower bound for $\omega_1$. For $x \ge 1$, $2x \ge 2^{\abs{x}}$ and $\abs{2x} = \abs{x} + 1$. So $\omega_1(2x) \ge (2^{\abs{x}})^{\abs{x}} = x \# x$.
-4. Numbers. For $x = 7$: $\abs{7} = 3$, $\omega_1(7) = 343$ and $7 \# 7 = 2^9 = 512$. For $x = 14$: $\abs{14} = 4$ and $\omega_1(14) = 38416 \ge 512$.
-5. Growth of provably total functions. Parikh's argument in the [[proof of Parikh's theorem|54SYW2Z3QN]] works with a function symbol for $\omega_1$ added. So each provably total function is bounded by a term in $+$, $\cdot$ and $\omega_1$.
-6. Such a term is at most $2^{p(\abs{x})}$ for a polynomial $p$, by step 2, since $\abs{\omega_1(x)} \le \abs{x}^2 + 1$. For $p(n) = n^2$ and $x = 7$, this bound is $2^9 = 512$.
+In exact terms, let $\lvert x \rvert$ be the binary length of $x$ and let $\omega_1(x) = x^{\lvert x \rvert}$.
+Fix a [[$\Delta_0$ formula|GE43CSZTS9]] $\Omega(x, y)$ that defines the relation $y = x^{\lvert x \rvert}$ in $\mathbb{N}$.
+The axiom $\Omega_1$ is the sentence $\forall x \, \exists y \, \Omega(x, y)$, and the theory is $\mathsf{I}\Delta_0 + \Omega_1$.
+We check that it is a theory of [[bounded arithmetic|A2CFPP8JMN]], and that $\omega_1$ grows exactly as fast as the smash function $x \# y = 2^{\lvert x \rvert \cdot \lvert y \rvert}$.
 
-So $\mathsf{I}\Delta_0 + \Omega_1$ has bounded induction and provably total functions of growth at most $2^{p(\abs{x})}$.
+1. The only induction axioms are those of $\mathsf{I}\Delta_0$, which are for $\Delta_0$ formulas, so the induction is bounded.
+2. For an upper bound, use $x < 2^{\lvert x \rvert}$, which holds for every $x$.
+   Raise both sides to the power $\lvert x \rvert$:
+   $$\omega_1(x) = x^{\lvert x \rvert} \le 2^{\lvert x \rvert \cdot \lvert x \rvert} = x \# x.$$
+3. For a lower bound, take $x \ge 1$.
+   Then $2x \ge 2^{\lvert x \rvert}$ and $\lvert 2x \rvert = \lvert x \rvert + 1$, so we get the following:
+   $$\omega_1(2x) = (2x)^{\lvert x \rvert + 1} \ge (2^{\lvert x \rvert})^{\lvert x \rvert} = x \# x.$$
+4. Check with numbers.
+   For $x = 7$ we have $\omega_1(7) = 343 \le 512 = 2^9 = 7 \# 7$, and for $2x = 14$ we have $\omega_1(14) = 14^4 = 38416 \ge 512$.
+5. By step 2, $\lvert \omega_1(x) \rvert \le \lvert x \rvert^2 + 1$.
+   So a term built from $+$, $\cdot$ and $\omega_1$ has a length bounded by a polynomial in $\lvert x \rvert$, and its value is at most $2^{p(\lvert x \rvert)}$ for some polynomial $p$.
+6. The argument of the [[proof of Parikh's theorem|54SYW2Z3QN]] still works when a function symbol for $\omega_1$ is added.
+   So each provably total function of the theory is bounded by such a term, and so by $2^{p(\lvert x \rvert)}$.
+
+So $\mathsf{I}\Delta_0 + \Omega_1$ has bounded induction, and its provably total functions grow at most like $2^{p(\lvert x \rvert)}$.
 
 ## Remarks
 
-The example shows why $\mathsf{I}\Delta_0 + \Omega_1$ and Buss's theory $T_2$ prove the same theorems up to the change of language: both have exactly the growth rate of $\#$.
-Without $\Omega_1$, the theory $\mathsf{I}\Delta_0$ has only polynomial growth, and $x \# x$ is not provably total in it, by [[Parikh's theorem|YPQPC1WJMV]].
+The two bounds of steps 2 and 3 show that $\omega_1$ and $x \mapsto x \# x$ can each be bounded by the other with a small change of input.
+That is the reason why $\mathsf{I}\Delta_0 + \Omega_1$ and Buss's theory $T_2$ can interpret each other's functions, and in fact they prove the same theorems once the languages are translated.
+
+Change the axiom and the picture changes at once.
+Without $\Omega_1$, the theory $\mathsf{I}\Delta_0$ has only polynomial growth, and by [[Parikh's theorem|YPQPC1WJMV]] it does not prove that $x \mapsto x \# x$ is total.
 If $\Omega_1$ is replaced by the totality of $x \mapsto 2^x$, the theory becomes [[elementary function arithmetic|2JD80TE553]], which is no longer a theory of bounded arithmetic.
 
 ## Explanations
@@ -39,19 +52,18 @@ If $\Omega_1$ is replaced by the totality of $x \mapsto 2^x$, the theory becomes
 ### L1 human
 
 The binary length of $7$ is $3$, since $7$ is written $111$ in binary.
-The axiom $\Omega_1$ says that the number $7^3 = 343$ exists, and in general a number raised to its own length.
-This number has about the square of the length of the original number in digits.
-For $7$, the length is $3$, and $343$ has $9$ binary digits.
-So the axiom allows numbers with polynomially many more digits, but not exponentially many.
+The axiom $\Omega_1$ says that the number $7^3 = 343$ exists, and in general that each number raised to its own length exists.
+The new number has about the square of the old length in digits: $343$ is $101010111$ in binary, which has $9 = 3^2$ digits.
+So the axiom allows numbers whose length is the square of the old length, but never numbers whose length is exponential in it.
 
 ### L2 human
 
 We compare $\omega_1(x)$ and $x \# x$ for $x = 5$ and $x = 10$.
+Since $\lvert 5 \rvert = 3$, we get $\omega_1(5) = 125$ and $5 \# 5 = 2^9 = 512$.
+Since $\lvert 10 \rvert = 4$, we get $\omega_1(10) = 10^4 = 10000$ and $10 \# 10 = 2^{16} = 65536$.
+In both cases $\omega_1(x) \le x \# x$, as step 2 predicts.
+Step 3 with $x = 5$ predicts $\omega_1(10) \ge 5 \# 5$, and indeed $10000 \ge 512$.
 
-1. $\abs{5} = 3$, so $\omega_1(5) = 125$ and $5 \# 5 = 2^9 = 512$.
-2. $\abs{10} = 4$, so $\omega_1(10) = 10^4 = 10000$, and $10 \# 10 = 2^{16} = 65536$.
-3. In both cases $\omega_1(x) \le x \# x$, as step 2 of the example predicts.
-4. Step 3 predicts $\omega_1(10) \ge 5 \# 5$, and indeed $10000 \ge 512$.
-
-The typical use of $\Omega_1$ is to code sequences and syntax: a sequence of $\abs{x}$ numbers below $x$ is a number of size about $x^{\abs{x}}$.
-A trap is to think that $\Omega_1$ makes exponentiation total: $2^x$ is far larger than $2^{\abs{x}^2}$ for large $x$.
+The typical use of $\Omega_1$ is to code sequences and syntax.
+A sequence of $\lvert x \rvert$ numbers, each below $x$, is coded by a number of size about $x^{\lvert x \rvert}$, and $\Omega_1$ makes that number exist.
+Watch out: $\Omega_1$ does not make exponentiation total, because $2^x$ is far larger than $2^{\lvert x \rvert^2}$ for large $x$.
