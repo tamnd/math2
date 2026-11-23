@@ -25,15 +25,16 @@ inventory: [XJNAXC8N0J]
 ## Statement
 
 Let $\mathfrak{F} = (W, R)$ be a [[Kripke frame|6BQ71KQ6QT]], and write $\mathfrak{F} \models \varphi$ when $\varphi$ is valid on $\mathfrak{F}$.
-Consider the following axioms.
-$$\begin{aligned} \mathrm{K}&: \square(p \to q) \to (\square p \to \square q), & \mathrm{T}&: \square p \to p, & \mathrm{D}&: \square p \to \lozenge p, \\ \mathrm{B}&: p \to \square\lozenge p, & \mathrm{4}&: \square p \to \square\square p, & \mathrm{5}&: \lozenge p \to \square\lozenge p. \end{aligned}$$
-Then $\mathfrak{F} \models \mathrm{K}$ for every frame, and the other axioms match properties of the [[accessibility relation|YHGXV3SQDP]] as follows.
+The axiom $\mathrm{K}$, the formula $\square(p \to q) \to (\square p \to \square q)$, is valid on every frame.
+For each row of the following table, the axiom is valid on $\mathfrak{F}$ if and only if the [[accessibility relation|YHGXV3SQDP]] $R$ has the property in the row.
 
-1. $\mathfrak{F} \models \mathrm{T}$ if and only if $R$ is reflexive.
-2. $\mathfrak{F} \models \mathrm{D}$ if and only if $R$ is serial.
-3. $\mathfrak{F} \models \mathrm{B}$ if and only if $R$ is symmetric.
-4. $\mathfrak{F} \models \mathrm{4}$ if and only if $R$ is transitive.
-5. $\mathfrak{F} \models \mathrm{5}$ if and only if $R$ is Euclidean.
+| Axiom | Formula | Property of $R$ |
+|---|---|---|
+| $\mathrm{T}$ | $\square p \to p$ | reflexive |
+| $\mathrm{D}$ | $\square p \to \lozenge p$ | serial |
+| $\mathrm{B}$ | $p \to \square\lozenge p$ | symmetric |
+| $\mathrm{4}$ | $\square p \to \square\square p$ | transitive |
+| $\mathrm{5}$ | $\lozenge p \to \square\lozenge p$ | Euclidean |
 
 So for $\Sigma \subseteq \{ \mathrm{T}, \mathrm{D}, \mathrm{B}, \mathrm{4}, \mathrm{5} \}$, every theorem of the [[normal modal logic|JS8W7PA6JK]] $\mathsf{K}\Sigma$ is valid on every frame with the matching properties.
 The proof is in [[the proof of the correspondences|X8PAF0TD5W]].
