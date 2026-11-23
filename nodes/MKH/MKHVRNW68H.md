@@ -19,100 +19,140 @@ sources:
 
 ## Summary
 
-Double inclusion is the standard method to prove that two [[sets|0BSJ7RQ9BW]] $A$ and $B$ are equal.
-We prove the two [[subset|0BJR9QR08E]] statements $A \subseteq B$ and $B \subseteq A$ separately, and then we conclude $A = B$.
-Each inclusion is a universal statement: $A \subseteq B$ means that each element of $A$ is an element of $B$.
-So each inclusion is proved by an element-chasing argument: we take an arbitrary element of one set and show that it is in the other set.
-The conclusion is legal because of the [[axiom of extensionality|0TB16T2C97]]: two sets with the same elements are equal.
-The method matters because most identities of set theory, and many results on images, kernels, solution sets and subgroups, have the form $A = B$.
+To prove that two [[sets|0BSJ7RQ9BW]] are equal, show that each is contained in the other.
+This splits one large claim about all elements into two smaller claims, and each of them has the familiar shape "take an element, follow it, see where it lands".
+
+Here is the pattern on a real goal, the distributive law
+$$A \cap (B \cup C) = (A \cap B) \cup (A \cap C).$$
+For the inclusion $\subseteq$, take $x$ in the left side.
+Then $x \in A$, and $x \in B$ or $x \in C$; in the first case $x \in A \cap B$, and in the second $x \in A \cap C$, so $x$ is in the right side.
+For the inclusion $\supseteq$, take $x$ in the right side; in either case $x \in A$, and $x$ lies in $B$ or in $C$, so $x$ is in the left side.
+The [[worked example|PR03MQRDPD]] writes out every step.
+
+In general, the method rests on the rule
+$$A \subseteq B \ \text{ and } \ B \subseteq A \implies A = B,$$
+where $A \subseteq B$ means that every element of $A$ is an element of $B$.
+The rule holds by the [[axiom of extensionality|0TB16T2C97]]: two sets with the same elements are equal.
 
 ## Motivation
 
-Sets have no formula that we can simplify, as we simplify $(x + 1)^2$.
-A set is fixed only by its elements, so a claim $A = B$ is a claim about all elements at once.
-Such a claim is too large to check in one step.
-It splits into two claims of the same simple form, "each element of $A$ is in $B$" and "each element of $B$ is in $A$".
-Each of these two claims is a [[direct proof|0NTF6DMVAP]] of a universal conditional, a pattern that a student already knows.
-A Venn diagram suggests an identity, but it does not prove it, because it shows only one position of the sets.
-Double inclusion turns the picture into a proof that covers all cases.
+A set has no formula that you can expand or simplify, the way you expand $(x + 1)^2$.
+It is fixed only by its elements, so the claim $A = B$ speaks about every element at once.
+Double inclusion cuts that claim into two [[subset|0BJR9QR08E]] claims.
+Each one is a universal conditional, "for every $x$, if $x \in A$ then $x \in B$", and you prove it by a [[direct proof|0NTF6DMVAP]] that starts with an arbitrary element.
+
+The goal $A = B$ turns up everywhere in a first course.
+The solution set of an equation equals a list of numbers, the kernel of a map equals a subspace, an image equals an interval, two subgroups are the same.
+A Venn diagram can suggest such an identity, but it shows only one position of the sets.
+Double inclusion turns the picture into an argument that covers every position, including empty and equal sets.
+The same idea for numbers is [[equality by two inequalities|S3QADD13E9]], and the next method in the list, [[proving injectivity and surjectivity|DD2P85Y8E9]], uses element chasing in the same way.
 
 ## Notation
 
-1. $A \subseteq B$ means that $x \in A$ implies $x \in B$, for every $x$.
-2. Many books write $A \subset B$ for the same relation, and other books use $A \subset B$ only for a proper subset ($A \subseteq B$ and $A \neq B$). This is a [[conflicting convention|CSFEP56A7D]], and a reader must check the convention of each book.
-3. The two halves of a proof are often marked "($\subseteq$)" and "($\supseteq$)", with $B \supseteq A$ as another notation for $A \subseteq B$.
-4. In Mathlib, the rule "$A \subseteq B$ and $B \subseteq A$ give $A = B$" is `Set.Subset.antisymm`, and the rule "the same elements give the same set" is `Set.ext`. The Lean tactic `ext x` starts a proof of $A = B$ by element chasing.
+We write $A \subseteq B$ for "$A$ is a subset of $B$" and $B \supseteq A$ for the same relation read from the other side.
+Some books write $A \subset B$ for the same thing, and others keep $A \subset B$ for a proper subset, with $A \ne B$; this is a [[conflicting convention|CSFEP56A7D]], so check the convention of each book.
+The two halves of a written proof are often headed "($\subseteq$)" and "($\supseteq$)".
+In Lean's Mathlib, `Set.Subset.antisymm` turns two inclusions into an equality, `Set.ext` says that sets with the same elements are equal, and the tactic `ext x` starts an element-chasing proof.
 
 ## Remarks
 
-### Examples
+### Why two halves, and why each is a direct proof
 
-1. [[The distributive law for sets by double inclusion|PR03MQRDPD]]: $A \cap (B \cup C) = (A \cap B) \cup (A \cap C)$, with a case split in each half.
-2. [[The multiples of 6 by double inclusion|2ZCM9HEME2]]: $6\mathbb{Z} = 2\mathbb{Z} \cap 3\mathbb{Z}$, where one half is easy and the other half uses the identity $n = 3n - 2n$.
-3. [[De Morgan's laws for sets|0VK0W4D5Y5]]: $X \setminus (A \cup B) = (X \setminus A) \cap (X \setminus B)$, where each half unfolds the definitions of complement, union and intersection.
-4. The solution set of $x^2 - 5x + 6 = 0$ in $\mathbb{R}$ is $\{2, 3\}$. The inclusion $\supseteq$ is the check that $2$ and $3$ are roots, and the inclusion $\subseteq$ uses $x^2 - 5x + 6 = (x - 2)(x - 3)$.
-5. For $f(x) = x^2$ on $\mathbb{R}$, the [[preimage|0FGCFY1AZX]] $f^{-1}([0, 4])$ equals $[-2, 2]$. The half $\subseteq$ uses that $x^2 \le 4$ gives $\lvert x \rvert \le 2$, and the half $\supseteq$ uses that $\lvert x \rvert \le 2$ gives $x^2 = \lvert x \rvert^2 \le 4$.
+The inclusion $A \subseteq B$ is the statement
+$$\forall x \, (x \in A \implies x \in B),$$
+so its proof starts "Let $x \in A$" and ends "so $x \in B$", with the [[quantifier|EGTZPA6QH3]] handled by taking $x$ arbitrary.
+Equality needs the same for the other direction, which is a different statement with a different start.
+Together the two halves prove the biconditional "$x \in A \iff x \in B$ for every $x$", and that is exactly what extensionality asks for.
 
-### Non-examples
+When every step of a chain $x \in A \iff \dots \iff x \in B$ is a true equivalence, one chain does both halves at once.
+Then you must check each step in both directions, which is the same amount of work in a shorter form.
 
-1. [[Double inclusion fails for the image of an intersection|7T5N9T8W2X]]: for a function $f$, the inclusion $f(A \cap B) \subseteq f(A) \cap f(B)$ holds, but the reverse inclusion fails, so the attempted proof of equality must fail.
-2. A proof that shows $A \subseteq B$ twice, with the names of the variables changed, proves only one inclusion. The equality does not follow: $\{1\} \subseteq \{1, 2\}$, but the two sets differ.
-3. A check of the claim on one Venn diagram, or on three small sets, is not a proof by double inclusion. It tests examples, and examples do not prove a universal statement.
+### Two more worked goals
 
-### Basic properties
+The multiples of $6$ are exactly the integers that are multiples of both $2$ and $3$:
+$$6\mathbb{Z} = 2\mathbb{Z} \cap 3\mathbb{Z}.$$
+The half $\subseteq$ is regrouping, since $6k = 2(3k) = 3(2k)$.
+The half $\supseteq$ needs an idea: if $n = 2a = 3b$, then
+$$n = 3n - 2n = 3(2a) - 2(3b) = 6(a - b).$$
+Check: $n = 18$ has $a = 9$ and $b = 6$, and $6(9 - 6) = 18$.
+The [[example on multiples of 6|2ZCM9HEME2]] gives the details and shows why the trick needs $\gcd(2, 3) = 1$.
 
-1. The inclusion relation is reflexive and transitive, and the method uses its antisymmetry: $A \subseteq B$ and $B \subseteq A$ give $A = B$. This is the special case for sets of [[equality by two inequalities|S3QADD13E9]].
-2. The method is equivalent to the proof of the biconditional "$x \in A \iff x \in B$ for every $x$". The two inclusions are the two directions of this biconditional.
-3. When each step of a chain $x \in A \iff \dots \iff x \in B$ is an equivalence, one chain proves both inclusions at once. Each step must then be checked in both directions.
-4. To prove $A \neq B$, one element suffices: an element of $A$ that is not in $B$, or an element of $B$ that is not in $A$.
+For an equation, double inclusion says that a list of numbers is the full solution set.
+The solution set of $x^2 - 5x + 6 = 0$ in $\mathbb{R}$ is $\{2, 3\}$.
+The half $\supseteq$ is substitution, $4 - 10 + 6 = 0$ and $9 - 15 + 6 = 0$.
+The half $\subseteq$ uses the factorization $x^2 - 5x + 6 = (x - 2)(x - 3)$: a product of real numbers is $0$ only when a factor is $0$.
+
+### A goal where only one half holds
+
+For a function $f$ and subsets $A$ and $B$ of its domain, the inclusion
+$$f(A \cap B) \subseteq f(A) \cap f(B)$$
+always holds, but the reverse can fail.
+With $f(x) = x^2$, $A = \{-1\}$ and $B = \{1\}$, the left side is $f(\varnothing) = \varnothing$, and the right side is $\{1\}$.
+So the attempt at double inclusion breaks at the half $\supseteq$, and the [[failed proof|7T5N9T8W2X]] shows the exact step.
+When a half resists, test it on a small case: often the true theorem is the one inclusion.
+
+To prove $A \ne B$, one element is enough: an element of one set that is not in the other.
+Here $1$ is that element.
+
+### Watch out
+
+The most common slip is to prove one inclusion twice.
+The second half starts again with "Let $x \in A$", renames the variable, and proves $A \subseteq B$ a second time.
+One inclusion never gives equality, since $\{1\} \subseteq \{1, 2\}$ and the two sets differ.
+Start the second half with an element of $B$.
+
+A second slip is to start with a particular element, such as "Let $x = 3$".
+The element must be arbitrary, or the argument says nothing about the other elements.
+A third slip is a step that holds in only one direction inside a chain of "if and only if" signs; such a chain proves only one inclusion.
 
 ### History
 
 The method rests on the axiom of extensionality.
-Ernst Zermelo put this axiom first in his axiom system for set theory of 1908.
-Textbooks on the transition to proof present double inclusion as one of the first methods, for example Velleman in the chapter on proofs.
+Ernst Zermelo listed it as the first axiom of his 1908 axiom system for set theory.
 
-### Common errors
+### Try it
 
-1. A student proves one inclusion twice. The second half starts with "let $x \in A$" again, and so it proves $A \subseteq B$ a second time.
-2. A student starts the half $A \subseteq B$ with a specific element, such as $x = 3$. The element must be arbitrary, or the argument proves nothing about the other elements.
-3. A student uses a step that holds in only one direction inside a chain of "if and only if" signs, for example "$x \in f(A) \cap f(B)$ if and only if $x \in f(A \cap B)$". Such a chain then proves only one inclusion.
+Prove $A \cup (A \cap B) = A$.
+For $\subseteq$, an element of $A \cup (A \cap B)$ is in $A$ or in $A \cap B$, and in both cases it is in $A$.
+For $\supseteq$, an element of $A$ is in the union by the definition of union.
+
+Is $A \setminus (B \setminus C) = (A \setminus B) \setminus C$ for all sets?
+No: with $A = \{1\}$, $B = \{1\}$ and $C = \{1\}$, the left side is $\{1\} \setminus \varnothing = \{1\}$, and the right side is $\varnothing \setminus \{1\} = \varnothing$.
 
 ## Explanations
 
 ### L1 human
 
-Two sets are equal when they contain exactly the same things.
-To show this, we do two checks.
-First we show that everything in the first set is also in the second set.
-Then we show that everything in the second set is also in the first set.
-For example, the even numbers that are also multiples of $3$ are exactly the multiples of $6$.
-The number $6$ is even and a multiple of $3$, and so is $12$, but a check of some numbers is not enough: the two checks must work for every number.
+Two boxes of marbles hold the same marbles when nothing in the first box is missing from the second, and nothing in the second box is missing from the first.
+You need both checks.
+If you only check the first box, the second box could hold extra marbles.
+For example, the even numbers that are multiples of $3$ are exactly the multiples of $6$.
+Testing $6$, $12$ and $18$ is not enough, because the two checks must work for every number.
 
 ### L2 human
 
-We prove that $A \setminus (B \cap C) = (A \setminus B) \cup (A \setminus C)$ for all sets $A$, $B$ and $C$.
+We prove $A \setminus (B \cap C) = (A \setminus B) \cup (A \setminus C)$ for all sets $A$, $B$ and $C$.
 
-1. ($\subseteq$) Let $x$ be an arbitrary element of $A \setminus (B \cap C)$. Then $x \in A$ and $x \notin B \cap C$, by the definition of set difference.
-2. Since $x \notin B \cap C$, the element $x$ is not in both sets. So $x \notin B$ or $x \notin C$.
-3. If $x \notin B$, then $x \in A \setminus B$. If $x \notin C$, then $x \in A \setminus C$. In both cases $x \in (A \setminus B) \cup (A \setminus C)$.
-4. ($\supseteq$) Let $x$ be an arbitrary element of $(A \setminus B) \cup (A \setminus C)$. Then $x \in A \setminus B$ or $x \in A \setminus C$.
-5. In the first case $x \in A$ and $x \notin B$. Then $x \notin B \cap C$, because each element of $B \cap C$ is in $B$.
-6. In the second case $x \in A$ and $x \notin C$, and $x \notin B \cap C$ for the same reason.
-7. In both cases $x \in A$ and $x \notin B \cap C$, so $x \in A \setminus (B \cap C)$.
-8. Both inclusions hold, so the two sets are equal.
+1. ($\subseteq$) Let $x \in A \setminus (B \cap C)$.
+   Then $x \in A$ and $x \notin B \cap C$, by the definition of set difference.
+2. Since $x$ is not in both $B$ and $C$, we have $x \notin B$ or $x \notin C$.
+3. If $x \notin B$, then $x \in A \setminus B$, and if $x \notin C$, then $x \in A \setminus C$.
+   In both cases $x$ lies in the union on the right.
+4. ($\supseteq$) Let $x \in (A \setminus B) \cup (A \setminus C)$.
+   Then $x \in A$, and $x \notin B$ or $x \notin C$.
+5. In both cases $x$ is not in $B \cap C$, because every element of $B \cap C$ lies in $B$ and in $C$.
+   So $x \in A \setminus (B \cap C)$.
+6. Both inclusions hold, so the two sets are equal.
 
-The typical use is an identity between sets built from unions, intersections, differences, images and preimages.
-Each half becomes a short proof by cases after the definitions are unfolded.
-A trap is the step "$x \notin B \cap C$, so $x \notin B$ and $x \notin C$".
-This step is false: $x$ can be in $B$ and not in $C$.
-The correct negation of "$x \in B$ and $x \in C$" is "$x \notin B$ or $x \notin C$", by the rule for [[negating statements|K930V33BSC]].
+The typical goal is an identity built from unions, intersections, differences, images and preimages.
+After you unfold the definitions, each half becomes a short proof by cases.
+Watch out for step 2: "not in $B \cap C$" does not mean "not in $B$ and not in $C$".
+An element of $B$ outside $C$ shows the difference, and the correct [[negation|K930V33BSC]] uses "or".
 
 ### L3 human
 
-Double inclusion is the antisymmetry of the partial order $\subseteq$ on the power set of a set.
-The same pattern proves equality in every partial order: $a \le b$ and $b \le a$ give $a = b$.
-For subgroups, ideals, subspaces and closed sets, it is the usual way to identify two substructures, for example a kernel and an image in an exact sequence.
-In a topos, and in type theory, the analogue is the extensionality principle: two subobjects that factor through each other are equal, and two predicates that imply each other define the same subset.
-Proof assistants make the pattern explicit: in Lean the tactic `ext` reduces the equality of sets to a biconditional for each element, and `Set.Subset.antisymm` combines two inclusions.
-The method also points to its limit: when only one inclusion holds, as for the image of an intersection, the inclusion is often the correct theorem.
+Double inclusion is the antisymmetry of the partial order $\subseteq$ on a power set.
+Every partial order allows the same move, $a \le b$ and $b \le a$ give $a = b$, so the method is a special case of [[equality by two inequalities|S3QADD13E9]].
+In algebra it is the standard way to identify two substructures, such as a kernel and an image in an exact sequence, or two ideals of a ring.
+In type theory and in topos theory the analogue is extensionality for predicates: two predicates that imply each other define the same subobject.
+Proof assistants make the two halves explicit, and the theorem that survives when one half fails, such as $f(A \cap B) \subseteq f(A) \cap f(B)$, is often the correct general statement.
