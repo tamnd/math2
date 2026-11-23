@@ -22,6 +22,11 @@ sources:
 
 ## Summary
 
+NAND, written $p \uparrow q$, is false only when both inputs are true.
+Feed one variable into both inputs and you get $p \uparrow p \equiv \neg p$.
+Negate a NAND in the same way and you get $(p \uparrow q) \uparrow (p \uparrow q) \equiv p \land q$.
+Negation and conjunction express every truth table, so NAND alone does too.
+
 A set of connectives is functionally complete when it can express every truth table.
 Then nothing is lost if a language, a proof system or a chip uses only those connectives.
 
