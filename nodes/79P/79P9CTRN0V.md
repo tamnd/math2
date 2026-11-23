@@ -31,7 +31,7 @@ $$V - E + F = 16 - 32 + 16 = 0.$$
 One response is to say that the frame is not a real polyhedron, and another is to keep the formula only for convex solids.
 Lakatos's response is to ask which step of the proof the frame breaks.
 The answer is the first step: a ring-shaped surface with one face removed cannot be stretched flat.
-So that step becomes a hypothesis, and the improved theorem says that $V - E + F = 2$ when the surface, with one face removed, can be stretched flat, that is, when the surface is a topological sphere.
+So that step becomes a hypothesis, and the improved theorem says that $V - E + F = 2$ when the surface, with one face removed, can be stretched flat, that is, when the surface is a topological sphere and every face is a disc.
 
 In the method, a [[conjecture|WMEMMHZ3BH]] gets a [[proof|0B94TKFQJX]], read as a thought experiment that splits the conjecture into lemmas.
 [[Counterexamples|0ED72CTBNP]] then refute the conjecture or a lemma, and the guilty lemma is added to the conjecture as a hypothesis.
