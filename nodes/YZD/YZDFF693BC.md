@@ -16,22 +16,36 @@ sources:
 
 ## Example
 
+A new variable is only a name, and a name says nothing until a clause ties it to what it names.
 Let $\varphi = p \land \neg p$.
 A false shortcut replaces the subformula $\neg p$ by a new variable $x$ and keeps no other clause.
-It gives $\varphi' = p \land x$, with the clauses $\set{p}$ and $\set{x}$.
+It gives $\varphi' = p \land x$, with the clauses $\{ p \}$ and $\{ x \}$.
 This is not the [[Tseitin transformation|S367PDDP61]].
 
-1. The formula $\varphi$ is not [[satisfiable|QN7M1JCGT9]]. If $p = 1$, then $\neg p$ is false, and if $p = 0$, then $p$ is false.
-2. The set $\set{\set{p}, \set{x}}$ is satisfied by $p = x = 1$.
+1. The formula $\varphi$ is not [[satisfiable|QN7M1JCGT9]].
+   If $p = 1$, then $\neg p$ is false, and if $p = 0$, then $p$ is false.
+2. The clauses $\{ p \}$ and $\{ x \}$ are satisfied by $p = x = 1$.
 3. So $\varphi$ and $\varphi'$ are not [[equisatisfiable|B37TYWXS74]], and the shortcut is wrong.
-4. The missing part is the definition $x \leftrightarrow \neg p$, with the clauses $\set{\neg x, \neg p}$ and $\set{x, p}$.
-5. With these clauses the set $\set{\set{p}, \set{x}, \set{\neg x, \neg p}, \set{x, p}}$ is unsatisfiable. The units force $p = x = 1$, and then $\set{\neg x, \neg p}$ is false.
+4. The missing part is the definition $x \leftrightarrow \neg p$, with the clauses $\{ \neg x, \neg p \}$ and $\{ x, p \}$.
+5. With these clauses the set $\{ p \}$, $\{ x \}$, $\{ \neg x, \neg p \}$, $\{ x, p \}$ is unsatisfiable.
+   The units force $p = x = 1$, and then $\{ \neg x, \neg p \}$ is false.
+
+Check: under $p = x = 1$, the clause $\{ \neg x, \neg p \}$ has the value $0 \lor 0 = 0$.
 
 ## Remarks
 
-A new variable is only a name, and a name says nothing until a clause ties it to what it names.
-Without the defining clauses the new variable is free, and the solver can choose its value to suit the other clauses.
-The direction that matters here is $x \to \neg p$: since $x$ occurs positively in $\varphi'$, the clause $\set{\neg x, \neg p}$ alone already makes the set unsatisfiable.
+Without the defining clauses the new variable is free, and a solver can choose its value to suit the other clauses.
+The direction that matters here is $x \to \neg p$.
+Since $x$ occurs positively in $\varphi'$, the clause $\{ \neg x, \neg p \}$ alone already makes the set unsatisfiable.
+
+Watch out.
+When you rename subformulas to shorten a formula, write the definitions at once.
+A renamed formula without them is often satisfiable even when the original is not.
+
+Try it.
+Rename $q \land \neg q$ in $p \lor (q \land \neg q)$ by $y$ with no definition.
+The result $p \lor y$ is satisfiable, and so is the original, by $p = 1$, so the answer is right by luck.
+But $p \lor y$ also has the model $p = 0$, $y = 1$, which does not come from any model of the original.
 
 ## Explanations
 
@@ -46,5 +60,4 @@ The meaning of the name was lost, and so was the contradiction.
 
 Check every renaming by asking which clauses tie the new variable to its subformula.
 In the Tseitin transformation each new variable gets two or three such clauses.
-The trap is to rename subformulas to shorten a formula and then forget the definitions.
-The result is often satisfiable even when the original formula is not.
+If a new variable has none, its value is free, and the renamed set can have models that the original lacks.
