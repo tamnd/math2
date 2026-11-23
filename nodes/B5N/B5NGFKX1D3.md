@@ -20,24 +20,22 @@ Consider the [[existential statement|0JW2FHW7G3]] $\exists x \in \mathbb{R} \; (
 We show that it is false, and that the same formula over the [[complex numbers|09FTAET5Z4]] is true.
 
 1. By the [[negation of an existential statement|05SZQKH75K]], `not_exists` in Mathlib, the negation of the statement is equivalent to $\forall x \in \mathbb{R} \; \neg(x^2 + 1 = 0)$.
-2. We [[prove this universal statement|CX38X989TB]]. Let $x$ be an arbitrary real number.
+2. We [[prove this universal statement|CX38X989TB]].
+   Let $x$ be an arbitrary real number.
 3. The square of a real number is at least $0$, so $x^2 \ge 0$.
 4. So $x^2 + 1 \ge 1 > 0$, and $x^2 + 1 \neq 0$.
 5. Since $x$ was arbitrary, no real number is a witness, and $\exists x \in \mathbb{R} \; (x^2 + 1 = 0)$ is false.
-
-Now change the domain to $\mathbb{C}$.
-
-6. Take the [[imaginary unit|0ESCX36MMC]] $i$, with $i^2 = -1$.
-7. Then $i^2 + 1 = -1 + 1 = 0$, so $i$ is a witness.
-8. So $\exists x \in \mathbb{C} \; (x^2 + 1 = 0)$ is true. The number $-i$ is a second witness.
+6. Now change the domain to $\mathbb{C}$, and take the [[imaginary unit|0ESCX36MMC]] $i$, with $i^2 = -1$.
+7. Then $i^2 + 1 = -1 + 1 = 0$, so $i$ is a witness, and $\exists x \in \mathbb{C} \; (x^2 + 1 = 0)$ is true.
+   The number $-i$ is a second witness.
 
 ## Remarks
 
 The example shows the two halves of the existential quantifier: one witness proves the statement, and a refutation must cover every element of the domain.
-Steps 2 to 5 are a proof about all real numbers; trying $x = 0, 1, -1$ and finding no witness would not refute the statement.
+Steps 2 to 5 are a proof about all real numbers, while trying $x = 0, 1, -1$ and finding no witness would refute nothing.
 
-The truth value depends on the domain, as the predicate $x^2 + 1 = 0$ is the same in both parts.
-The pair of statements is a short form of the reason for the construction of $\mathbb{C}$: the polynomial $x^2 + 1$ has no root in $\mathbb{R}$ and has the roots $i$ and $-i$ in $\mathbb{C}$.
+The predicate $x^2 + 1 = 0$ is the same in both parts, so the truth value depends on the domain alone.
+The pair of statements is a short form of one reason for the construction of $\mathbb{C}$: the polynomial $x^2 + 1$ has no root in $\mathbb{R}$ and has the roots $i$ and $-i$ in $\mathbb{C}$.
 
 ## Explanations
 
@@ -50,12 +48,10 @@ With complex numbers the claim becomes true, because the number $i$ has square $
 
 ### L2 human
 
-We decide whether $\exists x \in \mathbb{Q} \; (x^2 = 2)$ is true.
-
-1. In $\mathbb{R}$, the number $\sqrt{2}$ satisfies $x^2 = 2$, so $\exists x \in \mathbb{R} \; (x^2 = 2)$ is true.
-2. But $\sqrt{2}$ is not rational, by the [[irrationality of the square root of a prime|0YHFMXJJAZ]].
-3. Any rational $x$ with $x^2 = 2$ would be $\sqrt{2}$ or $-\sqrt{2}$, and neither is rational.
-4. So no rational number is a witness, and $\exists x \in \mathbb{Q} \; (x^2 = 2)$ is false.
-
-The typical use of this pattern is to show that an equation has no solution in a given set.
-A trap is to give $\sqrt{2}$ as a witness without checking the condition $x \in \mathbb{Q}$ of the restricted form.
+Decide whether $\exists x \in \mathbb{Q} \; (x^2 = 2)$ is true.
+In $\mathbb{R}$, the number $\sqrt{2}$ satisfies $x^2 = 2$, so $\exists x \in \mathbb{R} \; (x^2 = 2)$ is true.
+Any real $x$ with $x^2 = 2$ is $\sqrt{2}$ or $-\sqrt{2}$.
+Neither is rational, by the [[irrationality of the square root of a prime|0YHFMXJJAZ]].
+So no rational number is a witness, and $\exists x \in \mathbb{Q} \; (x^2 = 2)$ is false.
+This pattern is the usual way to show that an equation has no solution in a given set.
+Watch out: giving $\sqrt{2}$ as a witness without checking the condition $x \in \mathbb{Q}$ of the restricted form is the typical error.

@@ -20,25 +20,31 @@ sources:
 
 A menu says "the meal comes with soup or salad", and the restaurant means that the price includes one of the two, not both.
 Let $p$ be "the meal comes with soup" and $q$ be "the meal comes with salad".
-We compare the meaning of the menu with the [[disjunction|0F72FK8EKB]] $p \lor q$, row by row.
+We compare the claim of the menu with the [[disjunction|0F72FK8EKB]] $p \lor q$, row by row.
 
-1. Row TT: the meal comes with both. The restaurant's claim is false, because it promised one of the two. The disjunction $p \lor q$ is T.
-2. Row TF: soup only. The claim is true, and $p \lor q$ is T.
-3. Row FT: salad only. The claim is true, and $p \lor q$ is T.
-4. Row FF: neither. The claim is false, and $p \lor q$ is F.
-5. The claim and $p \lor q$ differ in row TT. So the "or" of the menu is not a disjunction.
-6. The table of the claim is T exactly when one of $p$, $q$ is true: it is the [[exclusive or|PTMR3P9J6C]] $p \oplus q$.
+| $p$ | $q$ | menu claim | $p \lor q$ |
+|---|---|---|---|
+| T | T | F | T |
+| T | F | T | T |
+| F | T | T | T |
+| F | F | F | F |
+
+1. In the row TT the meal comes with both, and the claim is F, because it promised one of the two.
+   The disjunction is T in this row.
+2. In the rows TF and FT exactly one is served, and both the claim and $p \lor q$ are T.
+3. In the row FF neither is served, and both are F.
+4. The claim and $p \lor q$ differ in row TT, so the "or" of the menu is not a disjunction.
+5. The claim is T exactly when one of $p$, $q$ is T, which is the table of the [[exclusive or|PTMR3P9J6C]] $p \oplus q$.
 
 ## Remarks
 
-The example shows the trap of the everyday "or": in speech it is often exclusive, while in mathematics it is inclusive.
-The two readings differ only in the row where both parts are true, so the difference matters only when both parts can be true.
+Everyday "or" is often exclusive, while mathematical "or" is inclusive.
+The two readings differ only in the row where both parts are true, so the difference matters only when both parts can hold.
 
-The context decides the everyday reading.
-"Students with a passport or an identity card may enter" is inclusive: a student with both may enter.
-A mathematical text that wants the exclusive reading must say so, with "but not both" or "exactly one of".
-
-If we change the menu to "the meal comes with soup or salad, or both", then the claim becomes the inclusive disjunction $p \lor q$.
+Context decides the everyday reading.
+"Students with a passport or an identity card may enter" is inclusive, since a student with both may enter.
+A mathematical text that wants the exclusive reading says so, with "but not both" or "exactly one of".
+Change the menu to "soup or salad, or both" and its claim becomes $p \lor q$.
 
 ## Explanations
 
@@ -46,18 +52,14 @@ If we change the menu to "the meal comes with soup or salad, or both", then the 
 
 On a menu, "soup or salad" usually means one of them, not both.
 If the waiter brings both and charges nothing extra, the menu did not describe the meal correctly.
-In mathematics, "or" is used differently: "$4$ is even or $4$ is a square" is true, although both parts hold.
+In mathematics "or" is used differently: "$4$ is even or $4$ is a square" is true, although both parts hold.
 So the "or" of the menu and the "or" of mathematics are two different connectives.
 
 ### L2 human
 
-We decide the reading of "or" in two sentences.
-
-1. "A real number $x$ with $x^2 = 1$ is $1$ or $-1$." The parts "$x = 1$" and "$x = -1$" cannot both be true, so both readings give the same truth value, and the mathematical convention takes it as inclusive.
-2. "The integer $n$ is prime or composite, for $n \geq 2$." Again the parts cannot both be true, so the readings agree.
-3. "The function $f$ is bounded or continuous." Both parts can be true, for example for $f(x) = \sin x$, so the readings differ. In mathematics it is inclusive, and the sentence is true for $\sin$.
-
-The typical use of this check is to see whether the choice of reading matters: it matters only when both parts can hold.
-
-A trap: some puzzle books and some school texts use the exclusive "or" in examples from daily life.
-Before solving such a problem, we must check which convention the text uses.
+Decide whether the reading of "or" matters in three sentences.
+In "a real $x$ with $x^2 = 1$ is $1$ or $-1$", the parts "$x = 1$" and "$x = -1$" cannot both hold, so both readings give the same truth value.
+In "an integer $n \ge 2$ is prime or composite", again the parts cannot both hold, and the readings agree.
+In "the function $f$ is bounded or continuous", both parts can hold, for example for $f(x) = \sin x$, so the readings differ; the mathematical reading is inclusive, and the sentence is true for $\sin$.
+The reading matters only when both parts can hold.
+Watch out: some puzzle books and school texts use the exclusive "or" in examples from daily life, so check the convention of the text before you solve its problems.
