@@ -18,7 +18,8 @@ sources:
 
 ## Definition
 
-"If an animal is a dog, then it is a mammal" has the converse "if an animal is a mammal, then it is a dog" and the inverse "if an animal is not a dog, then it is not a mammal".
+Take the sentence "if an animal is a dog, then it is a mammal".
+Its converse is "if an animal is a mammal, then it is a dog", and its inverse is "if an animal is not a dog, then it is not a mammal".
 
 Let $\varphi$ and $\psi$ be formulas of propositional logic, and consider the [[implication|0ZNX6DQ3EJ]] $\varphi \to \psi$.
 The converse of $\varphi \to \psi$ is the implication $\psi \to \varphi$.
