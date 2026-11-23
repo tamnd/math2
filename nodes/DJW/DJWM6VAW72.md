@@ -14,48 +14,53 @@ sources:
 
 ## Example
 
-We use the [[necessitation rule|G989VP2NGP]] in the logic $\mathsf{K}$ of [[normal modal logic K|JS8W7PA6JK]].
-The rule says: from $\vdash \varphi$ infer $\vdash \square\varphi$.
+We use the [[necessitation rule|G989VP2NGP]], "from $\vdash \varphi$ infer $\vdash \square\varphi$", in the logic $\mathsf{K}$ of [[normal modal logic K|JS8W7PA6JK]].
+First we box some tautologies.
 
 1. $\vdash \top$, since $\top = \bot \to \bot$ is a [[tautology|05006AJ7DZ]].
-2. $\vdash \square\top$, by necessitation from 1.
-3. $\vdash \square\square\top$, by necessitation from 2.
-4. $\vdash p \to p$, a tautology, so $\vdash \square(p \to p)$ by necessitation.
-5. Now we derive the rule RK for two premises: from $\vdash \varphi_1 \wedge \varphi_2 \to \psi$ infer $\vdash \square\varphi_1 \wedge \square\varphi_2 \to \square\psi$.
-6. From the premise, $\vdash \varphi_1 \to (\varphi_2 \to \psi)$, by the tautology $(\alpha \wedge \beta \to \gamma) \to (\alpha \to (\beta \to \gamma))$ and [[modus ponens|0Y0MQYST0M]].
-7. $\vdash \square(\varphi_1 \to (\varphi_2 \to \psi))$, by necessitation.
-8. $\vdash \square\varphi_1 \to \square(\varphi_2 \to \psi)$, by an instance of axiom $\mathrm{K}$ and modus ponens.
-9. $\vdash \square(\varphi_2 \to \psi) \to (\square\varphi_2 \to \square\psi)$, an instance of $\mathrm{K}$.
-10. $\vdash \square\varphi_1 \to (\square\varphi_2 \to \square\psi)$, from 8 and 9 by the chain rule of propositional logic.
-11. $\vdash \square\varphi_1 \wedge \square\varphi_2 \to \square\psi$, from 10 by the converse tautology of step 6.
-12. Semantic check of step 2: at a world $w$ of a [[Kripke model|NGHWZ9Y7ZV]], $\top$ is true at every successor of $w$. So $\square\top$ is true at $w$, also when $w$ has no successors.
+2. $\vdash \square\top$, by necessitation from line 1.
+3. $\vdash \square\square\top$, by necessitation from line 2.
+4. $\vdash \square(p \to p)$, by necessitation from the tautology $p \to p$.
+
+Then we derive the rule RK for two premises: from $\vdash (\varphi_1 \wedge \varphi_2) \to \psi$ infer $\vdash (\square\varphi_1 \wedge \square\varphi_2) \to \square\psi$.
+
+5. From the premise, $\vdash \varphi_1 \to (\varphi_2 \to \psi)$, by a tautology and [[modus ponens|0Y0MQYST0M]].
+6. $\vdash \square(\varphi_1 \to (\varphi_2 \to \psi))$, by necessitation.
+7. $\vdash \square\varphi_1 \to \square(\varphi_2 \to \psi)$, by an instance of $\mathrm{K}$ and modus ponens.
+8. $\vdash \square(\varphi_2 \to \psi) \to (\square\varphi_2 \to \square\psi)$, an instance of $\mathrm{K}$.
+9. $\vdash \square\varphi_1 \to (\square\varphi_2 \to \square\psi)$, by chaining lines 7 and 8.
+10. $\vdash (\square\varphi_1 \wedge \square\varphi_2) \to \square\psi$, by propositional logic from line 9.
+
+Check: at a world $w$ of a [[Kripke model|NGHWZ9Y7ZV]], $\top$ is true at every successor of $w$, so $\square\top$ is true at $w$, also when $w$ has no successors.
 
 ## Remarks
 
-The example shows that necessitation produces theorems $\square\varphi$ only from theorems $\varphi$, and that axiom $\mathrm{K}$ then distributes the box.
-Each boxed tautology, and each iterated boxing $\square^n\varphi$ of a theorem, is a theorem of $\mathsf{K}$.
-RK for $n$ premises works the same way, with $n$ uses of $\mathrm{K}$.
-For $n = 1$, RK is the rule RM, and for $n = 0$, RK is necessitation itself.
-The theorem $\square\top$ differs from $\lozenge\top$: the formula $\lozenge\top$ is false at a world without successors, so $\mathsf{K} \nvdash \lozenge\top$.
-If we drop necessitation and keep axiom $\mathrm{K}$, the formula $\square\top$ is no longer derivable.
-To see this, read $\square$ as the constant false truth function, which makes all axioms true and $\square\top$ false.
+Necessitation makes theorems $\square\varphi$ only from theorems $\varphi$, and the axiom $\mathrm{K}$ then moves the box across implications.
+So every boxed tautology, and every $\square^n\varphi$ with $\varphi$ a theorem, is a theorem of $\mathsf{K}$.
+RK for $n$ premises works in the same way, with $n$ uses of $\mathrm{K}$, and for $n = 1$ it is the rule RM.
+
+The theorem $\square\top$ differs from $\lozenge\top$.
+The formula $\lozenge\top$ is false at a world without successors, so $\mathsf{K} \nvdash \lozenge\top$.
+
+If we drop necessitation and keep the axiom $\mathrm{K}$, then $\square\top$ is no longer derivable.
+To see this, read $\square$ as the constant truth function "false".
+Then every axiom is true, modus ponens keeps truth, and $\square\top$ is false.
 
 ## Explanations
 
 ### L1 human
 
-Necessitation says: whatever logic proves is necessary.
+Necessitation says that whatever logic proves is necessary.
 The statement "if it rains, then it rains" is always true, so "necessarily, if it rains then it rains" is a law.
-We can apply the rule again, and get "necessarily necessarily" of the same statement.
-In the picture of worlds, a law is true in every world, so it is true in all worlds that a world can see.
-This also holds for a world that sees nothing.
+We can apply the rule again, and get "necessarily necessarily" in front of the same statement.
+In the picture of worlds, a law is true in every world, so it is true in all worlds that a given world can see.
+This holds even for a world that sees nothing.
 
 ### L2 human
 
-1. Take $\varphi_1 = p$, $\varphi_2 = p \to q$ and $\psi = q$.
-2. The premise $p \wedge (p \to q) \to q$ is a tautology.
-3. RK gives $\vdash \square p \wedge \square(p \to q) \to \square q$, a form of axiom $\mathrm{K}$.
-4. With $\varphi_1 = p$, $\varphi_2 = \neg p$ and $\psi = \bot$, RK gives $\vdash \square p \wedge \square\neg p \to \square\bot$.
-
-The typical use of RK is in derivations of theorems of the form $\square\alpha \wedge \square\beta \to \square\gamma$.
-A trap: necessitation applies to theorems only, so $p \to \square p$ is not a theorem; see [[the formula p → □p is not a theorem of K|R2WWD2R5NV]].
+Two instances of RK show what it can do.
+With $\varphi_1 = p$, $\varphi_2 = p \to q$ and $\psi = q$, the premise $(p \wedge (p \to q)) \to q$ is a tautology.
+So RK gives $\vdash (\square p \wedge \square(p \to q)) \to \square q$, which is a form of the axiom $\mathrm{K}$.
+With $\varphi_1 = p$, $\varphi_2 = \neg p$ and $\psi = \bot$, RK gives $\vdash (\square p \wedge \square\neg p) \to \square\bot$.
+The typical use of RK is in derivations of theorems of the form $(\square\alpha \wedge \square\beta) \to \square\gamma$.
+Watch out: necessitation applies to theorems only, so $p \to \square p$ is not a theorem; see [[the formula p → □p is not a theorem of K|R2WWD2R5NV]].

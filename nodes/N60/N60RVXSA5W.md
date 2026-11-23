@@ -17,87 +17,115 @@ sources:
 
 ## Summary
 
-The modal logic $\mathsf{S4} = \mathsf{KT4}$ is the smallest [[normal modal logic|JS8W7PA6JK]] that contains $\square p \to p$ and $\square p \to \square\square p$, as in [[the definition|SADS3RT2V4]].
-It is sound and complete for the frames whose relation is a [[preorder|0VABYWJWH9]], and for the finite preorders.
-Read topologically, $\square$ is the [[interior|0RZH6W98HK]] operator of a [[topological space|0CQHFPGJ45]], and intuitionistic logic embeds into $\mathsf{S4}$ by the translation of Gödel.
-These links make $\mathsf{S4}$ the meeting point of modal logic, topology and constructive logic.
+Read the days $0, 1, 2, \dots$ with the relation "the same day or later", and let $p$ be true from day $3$ on.
+Then $\square p$, "now and at every later day", is true at day $3$ and after, and false before.
+At day $3$ the formula $\square\square p$ is true too, because every later day also has $\square p$.
+$\mathsf{S4}$ is the modal logic of this kind of relation: what holds from now on holds now, and it still holds from every later point on.
+
+Exactly, $\mathsf{S4} = \mathsf{KT4}$ is the smallest [[normal modal logic|JS8W7PA6JK]] that contains the two axioms below, as in [[the definition|SADS3RT2V4]]:
+$$\mathrm{T}\colon \square p \to p, \qquad \mathrm{4}\colon \square p \to \square\square p.$$
+It is sound and complete for the frames whose relation is a [[preorder|0VABYWJWH9]], that is reflexive and transitive, and also for the finite preorders.
 
 ## Motivation
 
-For knowledge, the axiom $\mathrm{T}$ says that knowledge is true, and $\mathrm{4}$ says that an agent who knows also knows that she knows.
+Several readings of the box lead to preorders.
+For knowledge, $\mathrm{T}$ says that what is known is true, and $\mathrm{4}$ says that an agent who knows something knows that she knows it.
 For time with "now or later", the relation $\le$ is reflexive and transitive.
-So $\mathsf{S4}$ is the logic of "now and always in the future" on such frames.
-For constructive reasoning, Gödel read $\square\varphi$ as "$\varphi$ is provable", and $\mathrm{T}$ and $\mathrm{4}$ are laws of this informal provability.
-All three readings give preorders, and $\mathsf{S4}$ is the logic of all preorders.
+For informal provability, Gödel read $\square\varphi$ as "$\varphi$ has been proved", and both axioms hold under that reading.
+
+$\mathsf{S4}$ is also where modal logic meets topology and constructive logic.
+If you read $\square$ as the [[interior|0RZH6W98HK]] of a set in a [[topological space|0CQHFPGJ45]], the theorems of $\mathsf{S4}$ are exactly the laws of interior.
+Gödel's translation embeds [[intuitionistic logic|Q11N8X99FK]] into $\mathsf{S4}$, so questions about constructive proofs become questions about preorders.
+Both links are made exact in the [[McKinsey-Tarski theorem|2VF0546VXK]] and the [[Gödel-McKinsey-Tarski translation|BXVNEN55MR]].
 
 ## Notation
 
-1. $\mathsf{S4}$ is also written $\mathsf{KT4}$.
-2. Its extensions $\mathsf{S4.2}$ and $\mathsf{S4.3}$ add $\lozenge\square p \to \square\lozenge p$ and $\square(\square p \to q) \vee \square(\square q \to p)$.
-3. In the topological reading, $[\![\square\varphi]\!] = \operatorname{int}[\![\varphi]\!]$ and $[\![\lozenge\varphi]\!] = \operatorname{cl}[\![\varphi]\!]$.
+The name is the fourth system of Lewis and Langford, and $\mathsf{KT4}$ lists the axioms over $\mathsf{K}$.
+Its best known extensions are $\mathsf{S4.2}$, which adds $\lozenge\square p \to \square\lozenge p$, and $\mathsf{S4.3}$, which adds $\square(\square p \to q) \vee \square(\square q \to p)$.
+In the topological reading one writes $[\![\square\varphi]\!] = \operatorname{int}[\![\varphi]\!]$ and $[\![\lozenge\varphi]\!] = \operatorname{cl}[\![\varphi]\!]$.
 
 ## Remarks
 
-### Examples
+### Seven modalities
 
-1. $\mathsf{S4} \vdash \square\lozenge\square\lozenge p \leftrightarrow \square\lozenge p$, and $\mathsf{S4}$ has exactly seven modalities without negation, see [[the reduction in S4|G2ABW0XS0H]].
-2. The real line with $\square$ as interior is a model of $\mathsf{S4}$, see [[the interior example|WZF6Y41AEV]].
-3. The relation $\le$ on $\N$ is a preorder, so it is an $\mathsf{S4}$-frame; there $\square p$ means "$p$ now and at all later times".
-4. Every equivalence relation is a preorder, so $\mathsf{S4} \subseteq \mathsf{S5}$.
+A modality is a string of boxes and diamonds in front of $p$.
+In $\mathsf{S4}$, $\square\square p \leftrightarrow \square p$ holds by $\mathrm{4}$ and the instance $\square\square p \to \square p$ of $\mathrm{T}$, and dually $\lozenge\lozenge p \leftrightarrow \lozenge p$.
+So each block of equal symbols shrinks to one symbol, and [[the reduction of □◇□◇ to □◇|G2ABW0XS0H]] shortens every alternating string of length four.
+Every modality is then equivalent to one of seven:
+$$p, \quad \square p, \quad \lozenge p, \quad \square\lozenge p, \quad \lozenge\square p, \quad \square\lozenge\square p, \quad \lozenge\square\lozenge p.$$
+No two of them are equivalent, as small preorders show.
+In $\mathsf{K4}$ the list is infinite, and in $\mathsf{S5}$ it shrinks to $p$, $\square p$ and $\lozenge p$.
 
-### Non-examples
+### Box as interior
 
-1. $\mathsf{S4} \nvdash \lozenge\square p \to \square\lozenge p$: a preorder with two maximal worlds refutes it, see [[the branching preorder|HWYJG3GCQJ]].
-2. $\mathsf{S4} \nvdash \lozenge p \to \square\lozenge p$, so $\mathsf{S4} \neq \mathsf{S5}$, see [[the non-theorem 5 in S4|A2JGSWCMT5]].
-3. $\mathsf{S4} \nvdash p \to \square\lozenge p$: the same two-world preorder refutes axiom $\mathrm{B}$, see [[the non-symmetric frame|X88XTHRFG9]].
+On the real line with $V(p) = [0, 1]$, the box gives the interior and the diamond gives the closure:
+$$[\![\square p]\!] = (0, 1), \qquad [\![\lozenge p]\!] = [0, 1].$$
+Axiom $\mathrm{T}$ holds because $(0, 1) \subseteq [0, 1]$, and $\mathrm{4}$ holds because the interior of an open set is the set itself.
+The [[interior example on the real line|WZF6Y41AEV]] checks every axiom this way and refutes two formulas that are not theorems.
+The algebras of this reading are the [[interior algebras|BDEX7HET71]].
 
-### Basic properties
+### What S4 does not prove
 
-1. $\mathsf{S4}$ is the logic of all preorders and of all finite preorders, see [[the completeness theorem|FXTCKYR3AQ]] and [[the finite model property theorem|XNPJK6B921]].
-2. $\mathsf{S4}$ is decidable, and its satisfiability problem is PSPACE-complete, see [[the complexity theorem|1P2B0C7CQ4]].
-3. $\mathsf{S4} \vdash \square\square p \leftrightarrow \square p$ and $\mathsf{S4} \vdash \lozenge\lozenge p \leftrightarrow \lozenge p$, so every modality is equivalent to one of $p$, $\square p$, $\lozenge p$, $\square\lozenge p$, $\lozenge\square p$, $\square\lozenge\square p$, $\lozenge\square\lozenge p$.
-4. $\mathsf{S4.2}$ is the logic of directed preorders and $\mathsf{S4.3}$ the logic of connected preorders, by the same canonical model method.
-5. Gödel's translation $t$ boxes atoms and implications, with $t(p) = \square p$ and $t(\varphi \to \psi) = \square(t\varphi \to t\psi)$. An intuitionistic formula $\varphi$ is a theorem of [[intuitionistic logic|Q11N8X99FK]] if and only if $\mathsf{S4} \vdash t\varphi$.
+$\mathsf{S4}$ does not prove $\lozenge\square p \to \square\lozenge p$, because a preorder with a root and two end points refutes it; see [[the branching preorder|HWYJG3GCQJ]].
+It does not prove axiom $\mathrm{5}$, $\lozenge p \to \square\lozenge p$, so $\mathsf{S4} \ne \mathsf{S5}$; see [[axiom 5 is not a theorem of S4|A2JGSWCMT5]].
+It does not prove axiom $\mathrm{B}$, $p \to \square\lozenge p$, because a preorder need not be symmetric; see [[the failure of B on a non-symmetric frame|X88XTHRFG9]].
+Every equivalence relation is a preorder, so $\mathsf{S4} \subseteq \mathsf{S5}$, and the three formulas show that the inclusion is strict.
+
+### The rules you can use
+
+$\mathsf{S4}$ is the logic of all preorders and of all finite preorders, by [[the completeness theorem|FXTCKYR3AQ]] and [[the finite model property theorem|XNPJK6B921]].
+So it is decidable, and its satisfiability problem is PSPACE-complete, by Ladner's [[complexity theorem|1P2B0C7CQ4]].
+$\mathsf{S4.2}$ is the logic of directed preorders, where two successors of a world have a common successor.
+$\mathsf{S4.3}$ is the logic of connected preorders, where two successors of a world are comparable.
+Gödel's translation $t$ boxes atoms and implications, with $t(p) = \square p$ and $t(\varphi \to \psi) = \square(t\varphi \to t\psi)$.
+A formula $\varphi$ is an intuitionistic theorem if and only if $\mathsf{S4}$ proves $t\varphi$.
+
+### Watch out
+
+The two mixed modalities $\square\lozenge p$ and $\lozenge\square p$ are not equivalent in $\mathsf{S4}$, and neither implies the other.
+On the real line, $V(p) = \mathbb{Q}$ makes $\square\lozenge p$ true everywhere and $\lozenge\square p$ false everywhere.
+On the branching preorder above, $\lozenge\square p$ is true at the root and $\square\lozenge p$ is false.
+A second slip is to think that every $\mathsf{S4}$-frame is a partial order.
+A preorder may have clusters of distinct worlds that see each other, such as two worlds $a$ and $b$ with $a R b$ and $b R a$.
 
 ### History
 
-Lewis and Langford introduced $\mathsf{S4}$ in Symbolic Logic (1932).
-Gödel gave in 1933 the axiomatization by $\mathrm{K}$, $\mathrm{T}$, $\mathrm{4}$ and necessitation, noted its equivalence with Lewis's $\mathsf{S4}$, and proposed the translation of intuitionistic logic.
-McKinsey proved the decidability of $\mathsf{S2}$ and $\mathsf{S4}$ in 1941, and McKinsey and Tarski proved the faithfulness of Gödel's translation in 1948.
+Lewis and Langford introduced $\mathsf{S4}$ in Symbolic Logic in 1932.
+In 1933 Gödel gave the axioms $\mathrm{K}$, $\mathrm{T}$ and $\mathrm{4}$ with necessitation, noted that they give Lewis's $\mathsf{S4}$, and proposed the translation of intuitionistic logic.
+McKinsey proved the decidability of $\mathsf{S2}$ and $\mathsf{S4}$ in 1941.
+McKinsey and Tarski gave the topological reading in 1944 and proved the faithfulness of Gödel's translation in 1948.
 
-### Common errors
+### Try it
 
-1. Thinking that $\square\lozenge p$ and $\lozenge\square p$ are equivalent in $\mathsf{S4}$; neither implies the other.
-2. Confusing $\square\lozenge p$ with $\lozenge p$; in $\mathsf{S4}$ only $\square\lozenge p \to \lozenge p$ holds.
-3. Assuming that every $\mathsf{S4}$-frame is a partial order; preorders may have clusters of worlds that see each other.
+First, on the days $0, 1, 2, \dots$ with $\le$, let $p$ be true at the even days only, and decide where $\square\lozenge p$ is true.
+At every day some later day is even, so $\lozenge p$ is true everywhere and $\square\lozenge p$ is true everywhere.
+
+Second, in the same model, where is $\lozenge\square p$ true?
+Nowhere, because $\square p$ would need $p$ at all later days, and every day has a later odd day.
 
 ## Explanations
 
 ### L1 human
 
 In $\mathsf{S4}$, "necessary" behaves like "true now and at every later time".
-If something will always hold, then it holds now, which is axiom $\mathrm{T}$.
-If something will always hold, then at every later time it will still always hold, which is axiom $\mathrm{4}$.
+If something will always hold from now on, then it holds now, which is axiom $\mathrm{T}$.
+If something will always hold from now on, then at every later time it still always holds from then on, which is axiom $\mathrm{4}$.
 For example, if from Monday on the shop is always open, then from Tuesday on it is always open too.
 
 ### L2 human
 
-We read $\mathsf{S4}$ on the real line with $\square$ as interior.
-
-1. Let $[\![ p ]\!] = [0, 1]$.
-2. Then $[\![\square p]\!] = (0, 1)$, the interior of $[0, 1]$.
-3. And $[\![\lozenge p]\!] = [0, 1]$, the closure of $[0, 1]$.
-4. The axiom $\mathrm{T}$ holds since $(0, 1) \subseteq [0, 1]$, and $\mathrm{4}$ holds since the interior of $(0, 1)$ is $(0, 1)$.
-5. The axiom $\mathrm{5}$, $\lozenge p \to \square\lozenge p$, fails at 0: $0 \in [0, 1]$ but $0 \notin (0, 1)$.
-
-The typical use of $\mathsf{S4}$ is as the modal companion of intuitionistic logic: intuitionistic questions become questions about preorders and interiors.
-A trap: the reading of $\square$ as interior gives $\mathsf{S4}$ for every space, but a single space can validate more.
-An example is a discrete space, which validates $\square p \leftrightarrow p$.
+We test axiom $\mathrm{5}$ on the real line with $\square$ as interior and $V(p) = [0, 1]$.
+First compute $\lozenge p$ as the closure of $[0, 1]$, which is $[0, 1]$ itself.
+Then compute $\square\lozenge p$ as the interior of that set:
+$$[\![\square\lozenge p]\!] = \operatorname{int}[0, 1] = (0, 1).$$
+At the point $0$, $\lozenge p$ is true and $\square\lozenge p$ is false, so $\lozenge p \to \square\lozenge p$ fails at $0$.
+Check: every small window around $0$ contains negative numbers, which lie outside $[0, 1]$, so $0$ is not an interior point.
+This is the typical use of the topological reading: intervals and dense sets give quick countermodels for $\mathsf{S4}$.
+Watch out: a single space can validate more than $\mathsf{S4}$, since a discrete space makes $\square p \leftrightarrow p$ valid.
 
 ### L3 human
 
-The algebras of $\mathsf{S4}$ are the [[interior algebras|BDEX7HET71]], Boolean algebras with an interior operator.
-Their open elements form a Heyting algebra; this is the algebraic form of Gödel's translation.
-McKinsey and Tarski showed that $\mathsf{S4}$ is the logic of every dense-in-itself metric space, such as the real line.
-This and the faithfulness of the translation belong to [[modal model theory|SPQVNPZDTB]].
-The logics between $\mathsf{S4}$ and $\mathsf{S5}$, such as $\mathsf{S4.2}$ and $\mathsf{S4.3}$, and the logic $\mathsf{Grz}$ of [[provability logics|3E7M66WW6Q]], are the modal companions of intermediate logics.
+The open elements of an interior algebra form a Heyting algebra, and this is the algebraic form of Gödel's translation.
+McKinsey and Tarski showed that $\mathsf{S4}$ is the logic of the real line, and of many other spaces, in the topological reading; see [[topological semantics of modal logic|HWJXMBNHQ0]].
+The upsets of a preorder form a topology in which $\square$ is the interior, so Kripke frames of $\mathsf{S4}$ are a special case of spaces.
+The logics between $\mathsf{S4}$ and $\mathsf{S5}$, such as $\mathsf{S4.2}$ and $\mathsf{S4.3}$, are modal companions of intermediate logics, and the normal extensions of the logic $\mathsf{Grz}$ match the intermediate logics by the [[Blok-Esakia theorem|BB9TA5Q9PN]].

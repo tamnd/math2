@@ -15,67 +15,89 @@ sources:
 
 ## Summary
 
-A filtration shrinks a [[Kripke model|NGHWZ9Y7ZV]] $\mathfrak{M}$ to a model with at most $2^{|\Sigma|}$ worlds.
-Here $\Sigma$ is a finite set of formulas closed under subformulas.
-We identify worlds that agree on every formula of $\Sigma$.
-Then we choose a relation on the classes between a smallest and a largest admissible relation.
-The [[filtration theorem|T99DK51S0W]] says that each formula of $\Sigma$ keeps its truth value.
-Filtration is the main method to prove the [[finite model property|3NT8RCA6HE]] and hence the decidability of modal logics.
+A filtration cuts an infinite [[Kripke model|NGHWZ9Y7ZV]] down to a finite one that agrees with it on a chosen finite set of formulas.
+
+Here is the first case to keep in mind.
+Take the successor model on $\mathbb{N}$: the worlds are $0, 1, 2, \dots$, each $n$ sees only $n + 1$, and $p$ is true at the even numbers.
+Let $\Sigma = \{ p, \square p \}$, a set of $n = 2$ formulas closed under subformulas.
+At an even world $p$ is true and $\square p$ is false, because the next world is odd.
+At an odd world $p$ is false and $\square p$ is true.
+So every world has one of only two truth patterns on $\Sigma$, and we merge the worlds into two classes, $E$ for the evens and $O$ for the odds.
+We let $E$ see $O$ and $O$ see $E$, because $0$ sees $1$ and $1$ sees $2$.
+In this two-world model, $p$ and $\square p$ have the same truth values as in the infinite one.
+In general there are at most $2^n$ truth patterns on $n$ formulas, so the quotient never has more than $2^n$ worlds.
+
+The [[filtration theorem|T99DK51S0W]] says that this works for every model and every finite $\Sigma$ closed under subformulas, provided the relation on the classes is chosen between a smallest and a largest admissible relation.
+Filtration is the main method for proving the [[finite model property|3NT8RCA6HE]] and hence the decidability of modal logics.
 
 ## Motivation
 
-The canonical model of a logic refutes every non-theorem, but it is uncountable.
-A decision procedure needs a bound: if $\varphi$ fails somewhere, it should fail in a model whose size depends on $\varphi$ only.
-A formula $\varphi$ can only see the formulas in $\operatorname{Sub}(\varphi)$, and there are finitely many truth patterns on that set.
+The [[canonical model|TVE4F04KME]] of a logic refutes every non-theorem, but it has uncountably many worlds.
+A decision procedure needs a bound: if $\varphi$ fails somewhere, it should fail in a model whose size depends only on $\varphi$.
+A formula $\varphi$ can only see its own subformulas, and there are finitely many truth patterns on that set.
 So worlds with the same pattern can be merged, provided the relation between the merged worlds is chosen with care.
 
 ## Notation
 
-Let $\mathfrak{M} = (W, R, V)$ be a model and $\Sigma$ a set of [[modal formulas|G8VGTW9P4F]] closed under subformulas.
+Let $\mathfrak{M} = (W, R, V)$ be a model and let $\Sigma$ be a set of [[modal formulas|G8VGTW9P4F]] closed under subformulas.
+We write $w \sim_\Sigma v$ when $w$ and $v$ make the same formulas of $\Sigma$ true.
+This is an [[equivalence relation|0G8VEZ3WTK]], and $[w]$ is the class of $w$.
+The set of classes is $W_\Sigma = \{ [w] : w \in W \}$, and the valuation is $V^f(p) = \{ [w] : w \in V(p) \}$ for $p \in \Sigma$ and $V^f(p) = \emptyset$ for other variables.
 
-1. $w \sim_\Sigma v$ when $\mathfrak{M}, w \models \varphi \iff \mathfrak{M}, v \models \varphi$ for every $\varphi \in \Sigma$; this is an [[equivalence relation|0G8VEZ3WTK]], and $[w]$ is the class of $w$.
-2. $W_\Sigma = \set{[w] : w \in W}$, and $V^f(p) = \set{[w] : w \in V(p)}$ for $p \in \Sigma$; other variables get $V^f(p) = \emptyset$.
-3. A relation $R^f$ on $W_\Sigma$ is a filtration of $R$ through $\Sigma$ when it satisfies two conditions. Condition (min) says that $w R v$ implies $[w] R^f [v]$. Condition (max) says that $[w] R^f [v]$ implies that $\mathfrak{M}, w \models \square\varphi$ gives $\mathfrak{M}, v \models \varphi$ for each $\square\varphi \in \Sigma$.
-4. Then $\mathfrak{M}^f = (W_\Sigma, R^f, V^f)$ is a filtration of $\mathfrak{M}$ through $\Sigma$.
-5. The smallest filtration $R^s$: $[w] R^s [v]$ iff $w' R v'$ for some $w' \sim_\Sigma w$ and $v' \sim_\Sigma v$.
-6. The largest filtration $R^l$: $[w] R^l [v]$ iff $\mathfrak{M}, w \models \square\varphi$ implies $\mathfrak{M}, v \models \varphi$ for each $\square\varphi \in \Sigma$.
-7. The transitive filtration $R^t$: $[w] R^t [v]$ iff $\mathfrak{M}, w \models \square\varphi$ implies $\mathfrak{M}, v \models \square\varphi \wedge \varphi$ for each $\square\varphi \in \Sigma$.
+A relation $R^f$ on $W_\Sigma$ is a filtration of $R$ through $\Sigma$ when it satisfies two conditions.
+Condition (min) says that $w R v$ implies $[w] R^f [v]$.
+Condition (max) says that if $[w] R^f [v]$ and $\square\varphi \in \Sigma$ is true at $w$, then $\varphi$ is true at $v$.
+The model $\mathfrak{M}^f = (W_\Sigma, R^f, V^f)$ is then a filtration of $\mathfrak{M}$ through $\Sigma$.
 
-The conditions are named (min) and (max) in Blackburn, de Rijke and Venema; Chellas and Segerberg use other letters.
+Three filtrations have names.
+The smallest filtration $R^s$ puts $[w] R^s [v]$ when $w' R v'$ for some $w' \sim_\Sigma w$ and $v' \sim_\Sigma v$.
+The largest filtration $R^l$ puts $[w] R^l [v]$ when every $\square\varphi \in \Sigma$ true at $w$ has $\varphi$ true at $v$.
+The transitive filtration $R^t$, due to Lemmon, puts $[w] R^t [v]$ when every $\square\varphi \in \Sigma$ true at $w$ has both $\square\varphi$ and $\varphi$ true at $v$.
+The names (min) and (max) follow Blackburn, de Rijke and Venema, and Chellas and Segerberg use other letters.
 
 ## Remarks
 
-### Examples
+### Worked cases
 
-1. The successor model on $\N$ with $p$ true at the even numbers filters through $\set{p, \square p}$ to two worlds, see [[the successor model|42QZ2YBM2R]].
-2. The failure of axiom $\mathrm{4}$ at $0$ in a successor model becomes a failure in a 3-world model, see [[the countermodel for axiom 4|VK1RP97KKY]].
-3. If all worlds of $\mathfrak{M}$ agree on $\Sigma$, then $W_\Sigma$ has one world, $R^s$ is a loop when $R \neq \emptyset$, and $R^s$ is empty when $R = \emptyset$.
+The successor model of the summary is worked out in full in [[the successor model example|42QZ2YBM2R]], which also shows that the smallest and largest filtrations differ there.
+The failure of axiom $\mathrm{4}$ at $0$ in a successor model becomes a failure in a 3-world model in [[the countermodel for axiom 4|VK1RP97KKY]].
+If all worlds of $\mathfrak{M}$ agree on $\Sigma$, then $W_\Sigma$ has one world, and $R^s$ is a loop when $R$ is nonempty and empty when $R$ is empty.
 
-### Non-examples
+### What is not a filtration
 
-1. Merging worlds that agree on the variables only, and not on all of $\Sigma$, does not give a filtration, see [[the collapsing example|CYP4SYP20S]].
-2. For a transitive $R$, the smallest filtration need not be transitive, so it is not a filtration that stays inside $\mathsf{K4}$-frames, see [[the transitive example|V0J3A9Q4SY]].
+Merging worlds that agree on the variables only, and not on all of $\Sigma$, does not give a filtration, as [[the collapsing example|CYP4SYP20S]] shows.
+For a transitive $R$, the smallest filtration need not be transitive, so it can leave the class of $\mathsf{K4}$ frames, as [[the transitive example|V0J3A9Q4SY]] shows.
 
-### Basic properties
+### The rules you can use
 
-1. $|W_\Sigma| \le 2^{|\Sigma|}$, since a class is determined by the set of formulas of $\Sigma$ true at its members.
-2. $R^s$ and $R^l$ are filtrations, $R^s \subseteq R^f \subseteq R^l$ for every filtration $R^f$, and every relation between $R^s$ and $R^l$ is a filtration, see [[the filtration theorem|T99DK51S0W]].
-3. If $R$ is reflexive, every filtration is reflexive, by (min). If $R$ is serial, every filtration is serial.
-4. If $R$ is symmetric, then $R^s$ is symmetric.
-5. If $R$ is transitive, then $R^t$ is a filtration and it is transitive.
-6. If $R$ is an equivalence relation, then the relation "$w$ and $v$ agree on all $\square\varphi \in \Sigma$" is a filtration and an equivalence relation.
+A class is determined by the set of formulas of $\Sigma$ that are true at its members, so $W_\Sigma$ has at most $2^{\lvert \Sigma \rvert}$ elements.
+$R^s$ and $R^l$ are filtrations, every filtration lies between them, and every relation between them is a filtration.
+If $R$ is reflexive or serial, then so is every filtration, by (min).
+If $R$ is symmetric, then $R^s$ is symmetric.
+If $R$ is transitive, then $R^t$ is a filtration and it is transitive.
+If $R$ is an equivalence relation, then the relation "$w$ and $v$ agree on all $\square\varphi \in \Sigma$" is a filtration and an equivalence relation.
+
+### Watch out
+
+The set $\Sigma$ must be closed under subformulas, or the induction in the filtration theorem breaks.
+A filtration need not keep every frame property: the smallest filtration of a transitive frame can fail to be transitive.
+And formulas outside $\Sigma$ can change their truth value in $\mathfrak{M}^f$, so the theorem promises nothing about them.
 
 ### History
 
 McKinsey's proof of 1941 that $\mathsf{S2}$ and $\mathsf{S4}$ are decidable used finite algebras, the algebraic form of filtration.
-Lemmon in 1966 and Segerberg in 1968 developed the relational form.
-Segerberg's An essay in classical modal logic of 1971 made it a standard tool.
+Segerberg's An Essay in Classical Modal Logic of 1971 developed the relational form for many logics and made it a standard tool.
 
-### Common errors
+### Try it
 
-1. Using a set $\Sigma$ that is not closed under subformulas; then the induction of the filtration theorem breaks.
-2. Expecting a filtration to preserve every frame property; the smallest filtration of a transitive frame can fail to be transitive.
-3. Forgetting that formulas outside $\Sigma$ can change their truth value in $\mathfrak{M}^f$.
+First, filter the model $W = \mathbb{N}$, $R = {\le}$, $V(p) = \{ 0 \}$ through $\Sigma = \{ p, \square p \}$, and check that the smallest filtration is reflexive.
+Here $p$ is true only at $0$, and $\square p$ is true nowhere, since every $n$ sees $n + 1 \geq 1$.
+So the classes are $A = \{ 0 \}$ and $B = \{ n : n \geq 1 \}$, and $R^s = \{ (A, A), (A, B), (B, B) \}$.
+These are the images of the pairs $(0, 0)$, $(0, 1)$ and $(1, 1)$.
+It is reflexive, and $\square p$ is false at $A$ and at $B$, as in $\mathfrak{M}$.
+
+Second, what is the largest possible number of worlds in a filtration through the subformulas of $\square(p \to q)$?
+The subformulas are $p$, $q$, $p \to q$ and $\square(p \to q)$, so the bound is $2^4 = 16$.
 
 ## Explanations
 
@@ -88,21 +110,15 @@ The glued map is small, and it still gives the same answers to the question.
 
 ### L2 human
 
-We filter a model of $\mathsf{T}$ and keep it reflexive.
-
-1. Take $W = \N$, $R = \le$, $V(p) = \set{0}$, and $\Sigma = \set{p, \square p}$.
-2. $p$ is true only at $0$, and $\square p$ is true nowhere, since every $n$ sees $n + 1 \ge 1$.
-3. So the classes are $A = \set{0}$ and $B = \set{n : n \ge 1}$.
-4. $R^s$ has $(A, A)$, $(A, B)$ and $(B, B)$, the images of the pairs $(0, 0)$, $(0, 1)$ and $(1, 1)$.
-5. $R^s$ is reflexive, and $\square p$ is false at $A$ and $B$, as in $\mathfrak{M}$.
-
-The typical use is to keep the frame property of the logic while making the model finite.
-A trap: the choice of the relation matters; the right choice depends on the property to keep.
+The typical use is to keep the frame property of a logic while making the model finite.
+For $\mathsf{T} = \mathsf{KT}$ and $\mathsf{D} = \mathsf{KD}$ any filtration works, since reflexivity and seriality pass through (min).
+For $\mathsf{K4}$ and $\mathsf{S4} = \mathsf{KT4}$ we use the transitive filtration $R^t$.
+For $\mathsf{S5} = \mathsf{KT5}$ we use the relation that compares the boxed formulas of $\Sigma$.
+Watch out: the choice of the relation matters, and the right choice depends on the property to keep.
 
 ### L3 human
 
-Algebraically, a filtration through $\Sigma$ is a finite subalgebra of the complex algebra generated by the sets $[\![\varphi]\!]$, $\varphi \in \Sigma$.
-This subalgebra has an operator that agrees with $\lozenge$ where $\Sigma$ needs it.
-Selective filtrations, which choose a subset of worlds instead of a quotient, give the finite model property of logics such as $\mathsf{S4.3}$ and $\mathsf{GL}$.
+Algebraically, a filtration through $\Sigma$ gives a finite subalgebra of the complex algebra, generated by the sets $[\![\varphi]\!]$ for $\varphi \in \Sigma$, with an operator that agrees with $\lozenge$ where $\Sigma$ needs it.
+Selective filtrations choose a subset of worlds instead of a quotient, and they give the finite model property of logics such as $\mathsf{S4.3}$ and $\mathsf{GL}$.
 With [[Harrop's theorem|VSYQ1AZ9G7]], a filtration argument for a finitely axiomatized logic gives a decision procedure.
-The size bound $2^{|\Sigma|}$ gives an upper bound on its complexity.
+The size bound $2^{\lvert \Sigma \rvert}$ also bounds the cost of that procedure, though the best bounds come from other methods, as in [[the complexity theorem|1P2B0C7CQ4]].

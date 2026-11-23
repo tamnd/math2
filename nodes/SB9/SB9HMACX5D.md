@@ -21,26 +21,42 @@ sources:
 The [[first-order|086QKPF0A6]] formula $Rxx$ has one free variable, like every [[standard translation|YW6YGBMVQY]] $\mathrm{ST}_x(\varphi)$.
 We show that no modal formula $\varphi$ has $\mathrm{ST}_x(\varphi)$ equivalent to $Rxx$ on all models.
 
-1. Let $\mathfrak{M}_1$ have one world $w$, the relation $\set{(w, w)}$, and every variable false.
-2. Let $\mathfrak{M}_2$ have $W = \N$, the relation $\set{(n, n + 1) : n \in \N}$, and every variable false.
-3. Claim: for every modal formula $\varphi$ and every $n \in \N$, $\mathfrak{M}_1, w \models \varphi$ if and only if $\mathfrak{M}_2, n \models \varphi$.
-4. We use [[structural induction|12MQ2NJ29A]] on $\varphi$, for all $n$ at once.
-5. For a variable $p$, both sides are false. For $\bot$, both sides are false.
-6. For $\alpha \to \beta$, both sides are computed from the values of $\alpha$ and $\beta$, which agree by the induction hypothesis.
-7. For $\square\alpha$: the only successor of $w$ is $w$, so $\mathfrak{M}_1, w \models \square\alpha$ if and only if $\mathfrak{M}_1, w \models \alpha$.
-8. The only successor of $n$ is $n + 1$, so $\mathfrak{M}_2, n \models \square\alpha$ if and only if $\mathfrak{M}_2, n + 1 \models \alpha$.
-9. By the induction hypothesis at $n + 1$, the right sides of steps 7 and 8 agree. This proves the claim.
-10. Now suppose $\mathrm{ST}_x(\varphi)$ is equivalent to $Rxx$.
-11. By [[the correctness of the standard translation|1HQ1W36J4V]], $Rww$ holds in $\mathfrak{M}_1$, so $\mathfrak{M}_1, w \models \varphi$.
-12. By the claim with $n = 0$, $\mathfrak{M}_2, 0 \models \varphi$, so $R00$ holds in $\mathfrak{M}_2$.
-13. But $(0, 0)$ is not in the relation of $\mathfrak{M}_2$. This contradiction shows that no such $\varphi$ exists.
+### Two models that look alike
+
+Let $\mathfrak{M}_1$ have one world $w$, the relation $\{ (w, w) \}$, and every variable false.
+Let $\mathfrak{M}_2$ have $W = \mathbb{N}$, the relation $\{ (n, n + 1) : n \in \mathbb{N} \}$, and every variable false.
+We claim that for every modal formula $\varphi$ and every $n \in \mathbb{N}$, $\mathfrak{M}_1, w \models \varphi$ holds if and only if $\mathfrak{M}_2, n \models \varphi$.
+
+We use [[structural induction|12MQ2NJ29A]] on $\varphi$, for all $n$ at once.
+For a variable and for $\bot$, both sides are false.
+For $\alpha \to \beta$, both sides are computed from the values of $\alpha$ and $\beta$, which agree by the induction hypothesis.
+For $\square\alpha$, the only successor of $w$ is $w$, so $\square\alpha$ holds at $w$ exactly when $\alpha$ holds at $w$.
+The only successor of $n$ is $n + 1$, so $\square\alpha$ holds at $n$ exactly when $\alpha$ holds at $n + 1$.
+By the induction hypothesis at $n + 1$, these two conditions agree, which proves the claim.
+
+### The contradiction
+
+Now suppose $\mathrm{ST}_x(\varphi)$ is equivalent to $Rxx$.
+$Rww$ holds in $\mathfrak{M}_1$, so $\mathfrak{M}_1, w \models \varphi$ by [[the correctness of the standard translation|1HQ1W36J4V]].
+By the claim with $n = 0$, $\mathfrak{M}_2, 0 \models \varphi$, so $R00$ would hold in $\mathfrak{M}_2$.
+But $(0, 0)$ is not in the relation of $\mathfrak{M}_2$, so no such $\varphi$ exists.
 
 ## Remarks
 
-The relation $Z = \set{(w, n) : n \in \N}$ is a [[bisimulation|X27BR4YP2Y]] between the two models, and the claim is its invariance lemma.
-The condition that fails is the defining one: $Rxx$ is not in the image of $\mathrm{ST}_x$ up to equivalence.
-Van Benthem's theorem says that the image is exactly the set of first-order formulas invariant under bisimulation, see [[modal model theory|SPQVNPZDTB]].
-Frame validity is different: reflexivity of the whole frame is defined by the axiom $\square p \to p$, see [[the second-order translation of T|KM2BKWZKW8]].
+### The bisimulation behind it
+
+The relation $Z = \{ (w, n) : n \in \mathbb{N} \}$ is a [[bisimulation|X27BR4YP2Y]] between the two models, and the claim is its [[invariance lemma|TKFFTAX30E]].
+[[Van Benthem's theorem|Y89MGMWE4H]] says that the translations of modal formulas are, up to equivalence, exactly the first-order formulas invariant under bisimulation, and $Rxx$ is not invariant.
+
+### Frame validity is different
+
+Reflexivity of a whole frame is defined by the axiom $\square p \to p$, as in [[the second-order translation of T|KM2BKWZKW8]].
+That is a statement about all worlds and all valuations, not about one point in one model, so it does not contradict this example.
+
+### Watch out
+
+The example shows that one first-order formula is not modal, and it does not show that reflexivity is invisible to modal logic.
+Validity on a frame and truth at a point in a model are different questions, and modal formulas answer the first one for reflexivity.
 
 ## Explanations
 
@@ -54,16 +70,13 @@ But "this point sees itself" is true for the loop and false for the chain.
 
 ### L2 human
 
-1. Match the loop point $w$ with every point $n$ of the chain.
-2. Each move from $w$ is matched by the move from $n$ to $n + 1$, and conversely.
-3. So $w$ and $n$ satisfy the same modal formulas.
-4. As $Rww$ holds and $R00$ fails, $Rxx$ is not modal.
-
+Match the loop point $w$ with every point $n$ of the chain.
+Each move from $w$ is matched by the move from $n$ to $n + 1$, and each move from $n$ is matched by the move from $w$ to $w$.
+So $w$ and $n$ satisfy the same modal formulas.
+As $Rww$ holds and $R00$ fails, $Rxx$ is not modal.
 The typical use is to prove that a property is not modally expressible by exhibiting two bisimilar points that differ on it.
-A trap: the formula $\square p \to p$ defines reflexivity of a frame.
-That is a statement about all worlds and all valuations, not about one point in one model.
 
 ### L3 human
 
 The argument uses the easy half of van Benthem's theorem: the translations of modal formulas are invariant under bisimulation.
-Hybrid logic adds a nominal $i$ true at one world only, and then $i \to \lozenge i$ expresses $Rxx$.
+[[Hybrid logic|NVPQ9W9DED]] adds a nominal $i$ true at one world only, and then $i \to \lozenge i$ expresses $Rxx$ at the world named $i$.

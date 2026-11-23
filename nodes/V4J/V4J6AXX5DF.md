@@ -17,36 +17,57 @@ sources:
 
 ## Proof
 
-We prove part 1 of [[soundness of normal modal logics|E87G6ZTMTN]], that $\operatorname{Log}(\mathsf{C})$ satisfies the five properties of a [[normal modal logic|JS8W7PA6JK]].
-Then we derive part 2.
-It suffices to show each property for the set $\operatorname{Log}(\mathfrak{F})$ of formulas valid on one frame $\mathfrak{F} = (W, R)$, since an intersection of normal logics is normal.
+We prove part 1 of [[soundness of normal modal logics|E87G6ZTMTN]], that $\operatorname{Log}(\mathsf{C})$ has the five properties of a [[normal modal logic|JS8W7PA6JK]], and then derive part 2.
+An intersection of normal logics is normal, and $\operatorname{Log}(\mathsf{C})$ is the intersection of the sets $\operatorname{Log}(\mathfrak{F})$ for $\mathfrak{F} \in \mathsf{C}$.
+So it suffices to fix one frame $\mathfrak{F} = (W, R)$ and show that $\operatorname{Log}(\mathfrak{F})$ is normal.
 
-1. Tautologies. Let $\varphi = \tau^\sigma$ with $\tau$ a [[tautology|05006AJ7DZ]]. At a world $w$ of a model on $\mathfrak{F}$, the clauses for $\bot$ and $\to$ are the classical truth tables.
-2. So $\varphi$ has at $w$ the truth value that $\tau$ gets when each variable $q$ of $\tau$ takes the value of $\sigma(q)$ at $w$. This value is "true", since $\tau$ is a tautology.
-3. Axiom $\mathrm{K}$. Let $\mathfrak{M}$ be a model on $\mathfrak{F}$, and let $w \models \square(p \to q)$ and $w \models \square p$.
-4. Let $w R v$. Then $v \models p \to q$ and $v \models p$, by the clause for $\square$.
-5. So $v \models q$ by the clause for $\to$. As $v$ was any successor of $w$, we get $w \models \square q$.
-6. Modus ponens. Let $\varphi$ and $\varphi \to \psi$ be valid on $\mathfrak{F}$. At each world of each model on $\mathfrak{F}$ both are true, so $\psi$ is true there.
-7. Necessitation. Let $\varphi$ be valid on $\mathfrak{F}$, let $\mathfrak{M}$ be a model on $\mathfrak{F}$, and let $w \in W$.
-8. Every successor $v$ of $w$ satisfies $\varphi$, since $\varphi$ is true at every world of $\mathfrak{M}$. So $w \models \square\varphi$.
-9. Substitution, the lemma. Let $\sigma$ be a substitution and $\mathfrak{M} = (W, R, V)$. Define $V^\sigma(p) = [\![\sigma(p)]\!]^{\mathfrak{M}}$ and $\mathfrak{M}^\sigma = (W, R, V^\sigma)$.
-10. We claim $\mathfrak{M}, w \models \chi^\sigma$ if and only if $\mathfrak{M}^\sigma, w \models \chi$, for every formula $\chi$ and world $w$. We use [[structural induction|12MQ2NJ29A]] on $\chi$.
-11. For $\chi = p$: $\mathfrak{M}, w \models \sigma(p)$ if and only if $w \in V^\sigma(p)$, by the definition of $V^\sigma$. For $\chi = \bot$ both sides are false.
-12. For $\chi = \alpha \to \beta$: $\chi^\sigma = \alpha^\sigma \to \beta^\sigma$, and the claim follows from the induction hypothesis for $\alpha$ and $\beta$ at $w$.
-13. For $\chi = \square\alpha$: $\chi^\sigma = \square(\alpha^\sigma)$. Both sides say that every successor $v$ of $w$ satisfies $\alpha^\sigma$ in $\mathfrak{M}$, or $\alpha$ in $\mathfrak{M}^\sigma$. These agree by the induction hypothesis at $v$.
-14. Substitution, the conclusion. Let $\varphi$ be valid on $\mathfrak{F}$. For a model $\mathfrak{M}$ on $\mathfrak{F}$, the model $\mathfrak{M}^\sigma$ is also on $\mathfrak{F}$, so $\varphi$ is true at every world of $\mathfrak{M}^\sigma$.
-15. By the lemma, $\varphi^\sigma$ is true at every world of $\mathfrak{M}$. So $\varphi^\sigma$ is valid on $\mathfrak{F}$.
-16. Steps 1 to 15 show that $\operatorname{Log}(\mathfrak{F})$ is normal, and $\operatorname{Log}(\mathsf{C}) = \bigcap_{\mathfrak{F} \in \mathsf{C}} \operatorname{Log}(\mathfrak{F})$ is normal. This is part 1.
-17. For part 2, let each formula of $\Gamma$ be valid on every frame of $\mathsf{C}$. Then $\Gamma \subseteq \operatorname{Log}(\mathsf{C})$.
-18. By part 1, $\operatorname{Log}(\mathsf{C})$ is a normal logic that contains $\Gamma$. Since $\mathsf{K}\Gamma$ is the smallest such logic, $\mathsf{K}\Gamma \subseteq \operatorname{Log}(\mathsf{C})$.
+### The axioms
+
+Let $\varphi = \tau^\sigma$, where $\tau$ is a [[tautology|05006AJ7DZ]].
+At a world $w$ of a model on $\mathfrak{F}$, the clauses for $\bot$ and $\to$ are the classical truth tables.
+So $\varphi$ has at $w$ the value that $\tau$ gets when each variable $q$ of $\tau$ takes the value of $\sigma(q)$ at $w$, and this value is "true".
+
+For the axiom $\mathrm{K}$, let $\mathfrak{M}$ be a model on $\mathfrak{F}$ with $w \models \square(p \to q)$ and $w \models \square p$.
+Each successor $v$ of $w$ satisfies $p \to q$ and $p$, so $v \models q$.
+Hence $w \models \square q$, and $\mathrm{K}$ is true at $w$.
+
+### The rules
+
+For modus ponens, let $\varphi$ and $\varphi \to \psi$ be valid on $\mathfrak{F}$.
+At each world of each model on $\mathfrak{F}$ both are true, so $\psi$ is true there.
+
+For necessitation, let $\varphi$ be valid on $\mathfrak{F}$, let $\mathfrak{M}$ be a model on $\mathfrak{F}$, and let $w \in W$.
+The formula $\varphi$ is true at every world of $\mathfrak{M}$, in particular at every successor of $w$, so $w \models \square\varphi$.
+
+### Uniform substitution
+
+Let $\sigma$ be a substitution and let $\mathfrak{M} = (W, R, V)$.
+Define $\mathfrak{M}^\sigma = (W, R, V^\sigma)$ with $V^\sigma(p) = [\![\sigma(p)]\!]^{\mathfrak{M}}$.
+We claim that $\mathfrak{M}, w \models \chi^\sigma$ if and only if $\mathfrak{M}^\sigma, w \models \chi$, for every formula $\chi$ and world $w$.
+The proof is a [[structural induction|12MQ2NJ29A]] on $\chi$.
+For a variable $p$ the claim is the definition of $V^\sigma$, and for $\bot$ both sides are false.
+For $\alpha \to \beta$ the claim follows from the hypothesis for $\alpha$ and $\beta$ at $w$.
+For $\square\alpha$, both sides say that every successor $v$ of $w$ satisfies $\alpha^\sigma$ in $\mathfrak{M}$, or $\alpha$ in $\mathfrak{M}^\sigma$, and these agree by the hypothesis at $v$.
+
+Now let $\varphi$ be valid on $\mathfrak{F}$, and let $\mathfrak{M}$ be a model on $\mathfrak{F}$.
+The model $\mathfrak{M}^\sigma$ lies on the same frame, so $\varphi$ is true at every world of $\mathfrak{M}^\sigma$.
+By the claim, $\varphi^\sigma$ is true at every world of $\mathfrak{M}$, so $\varphi^\sigma$ is valid on $\mathfrak{F}$.
+This finishes part 1.
+
+### Part 2
+
+Let each formula of $\Gamma$ be valid on every frame of $\mathsf{C}$, so that $\Gamma \subseteq \operatorname{Log}(\mathsf{C})$.
+By part 1, $\operatorname{Log}(\mathsf{C})$ is a normal logic that contains $\Gamma$.
+Since $\mathsf{K}\Gamma$ is the smallest such logic, $\mathsf{K}\Gamma \subseteq \operatorname{Log}(\mathsf{C})$.
 
 ## Idea
 
 Each axiom is true at every world, and each rule turns formulas valid on the frame into formulas valid on the frame.
-Necessitation needs validity at all worlds, not truth at one world, and substitution needs validity under all valuations.
-This is why the right notion is validity on a frame.
+Necessitation needs truth at all worlds, not at one world, and substitution needs truth under all valuations.
+That is why validity on a frame is the right notion.
 
 ## Variants
 
-1. For a Hilbert system, the same steps give an induction on the length of a derivation. Each line of a derivation in $\mathsf{K}\Gamma$ is valid on every frame of $\mathsf{C}$.
-2. An algebraic version: the complex algebra of a frame is a modal algebra. Every normal logic is sound for the modal algebras that validate its axioms.
+For a Hilbert system the same steps give an induction on the length of a derivation: each line of a derivation in $\mathsf{K}\Gamma$ is valid on every frame of $\mathsf{C}$.
+There is also an algebraic version.
+The complex algebra of a frame is a modal algebra, and every normal logic is sound for the modal algebras that validate its axioms.
