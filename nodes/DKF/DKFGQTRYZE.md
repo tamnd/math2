@@ -6,7 +6,7 @@ aliases: [closed-formula]
 msc: ["03B10", "03C07"]
 topics: [PSRDJXRW53]
 audience: ug2
-uses: [HYJ10AF6RT, 9CNGDRAMGC, 983GZBQYT4, K7XDVK5854, 2RBQPV02AS]
+uses: [HYJ10AF6RT, 9CNGDRAMGC, 983GZBQYT4, 2RBQPV02AS]
 sources:
   - url: https://en.wikipedia.org/wiki/Sentence_(mathematical_logic)
     locator: lead section
