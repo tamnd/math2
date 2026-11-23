@@ -18,64 +18,80 @@ sources:
 ## Proof
 
 We prove the claims of [[common modal axiom schemata|FDFQFWPM4X]] for a frame $\mathfrak{F} = (W, R)$.
-For each item, the direction "property implies validity" is a direct check at an arbitrary world $w$ of an arbitrary model $\mathfrak{M}$ on $\mathfrak{F}$.
-The other direction is by contraposition: if the property fails, we give a valuation that refutes the axiom.
+For each axiom, the direction from the property to validity is a check at an arbitrary world $w$ of an arbitrary model on $\mathfrak{F}$.
+The other direction is by contraposition: if the property fails, we give a valuation that makes the axiom false.
 
-Axiom $\mathrm{K}$.
+### Axiom K
 
-1. Let $w \models \square(p \to q)$ and $w \models \square p$, and let $w R v$.
-2. Then $v \models p \to q$ and $v \models p$, so $v \models q$. Hence $w \models \square q$.
+Let $w \models \square(p \to q)$ and $w \models \square p$, and let $w R v$.
+Then $v \models p \to q$ and $v \models p$, so $v \models q$.
+Hence $w \models \square q$, and $\mathrm{K}$ is valid on every frame.
 
-Axiom $\mathrm{T}$ and reflexivity.
+### Axiom T and reflexivity
 
-3. Let $R$ be reflexive and $w \models \square p$. Since $w R w$, the clause for $\square$ gives $w \models p$.
-4. Let $R$ be not reflexive, so some $w$ has $(w, w) \notin R$. Put $V(p) = R[w]$.
-5. Then $w \models \square p$, since every successor of $w$ is in $V(p)$. And $w \not\models p$, since $w \notin R[w]$.
+Let $R$ be reflexive and $w \models \square p$.
+Since $w R w$, the clause for $\square$ gives $w \models p$.
 
-Axiom $\mathrm{D}$ and seriality.
+Conversely, let $w$ be a world with $(w, w) \notin R$, and put $V(p) = R[w]$.
+Every successor of $w$ lies in $V(p)$, so $w \models \square p$.
+But $w \notin R[w]$, so $w \not\models p$, and $\mathrm{T}$ fails at $w$.
 
-6. Let $R$ be serial and $w \models \square p$. Choose $v$ with $w R v$; then $v \models p$, so $w \models \lozenge p$.
-7. Let $R$ be not serial, so some $w$ has $R[w] = \emptyset$. Take any valuation.
-8. Then $w \models \square p$, since $w$ has no successor, and $w \not\models \lozenge p$, for the same reason.
+### Axiom D and seriality
 
-Axiom $\mathrm{B}$ and symmetry.
+Let $R$ be serial and $w \models \square p$.
+Choose $v$ with $w R v$; then $v \models p$, so $w \models \lozenge p$.
 
-9. Let $R$ be symmetric and $w \models p$. Let $w R v$; symmetry gives $v R w$, so $v \models \lozenge p$.
-10. As $v$ was any successor of $w$, we get $w \models \square\lozenge p$.
-11. Let $R$ be not symmetric: some $w, v$ have $w R v$ and $(v, w) \notin R$. Put $V(p) = \set{w}$.
-12. Then $w \models p$. The only world in $V(p)$ is $w$, and $w \notin R[v]$, so $v \not\models \lozenge p$.
-13. Since $w R v$, we get $w \not\models \square\lozenge p$, and $\mathrm{B}$ fails at $w$.
+Conversely, let $w$ be a world with $R[w] = \varnothing$, and take any valuation.
+Then $w \models \square p$ because $w$ has no successor, and $w \not\models \lozenge p$ for the same reason.
 
-Axiom $\mathrm{4}$ and transitivity.
+### Axiom B and symmetry
 
-14. Let $R$ be transitive and $w \models \square p$. Let $w R v$ and $v R u$.
-15. Transitivity gives $w R u$, so $u \models p$. Hence $v \models \square p$ for every successor $v$ of $w$, and $w \models \square\square p$.
-16. Let $R$ be not transitive: some $w, v, u$ have $w R v$, $v R u$ and $(w, u) \notin R$. Put $V(p) = R[w]$.
-17. Then $w \models \square p$. Since $u \notin R[w]$, we have $u \not\models p$, so $v \not\models \square p$.
-18. Since $w R v$, we get $w \not\models \square\square p$, and $\mathrm{4}$ fails at $w$.
+Let $R$ be symmetric and $w \models p$, and let $w R v$.
+Symmetry gives $v R w$, so $v \models \lozenge p$.
+As $v$ was any successor of $w$, we get $w \models \square\lozenge p$.
 
-Axiom $\mathrm{5}$ and the Euclidean property.
+Conversely, let $w R v$ with $(v, w) \notin R$, and put $V(p) = \{ w \}$.
+Then $w \models p$.
+The only world with $p$ is $w$, and $w \notin R[v]$, so $v \not\models \lozenge p$.
+Since $w R v$, we get $w \not\models \square\lozenge p$, and $\mathrm{B}$ fails at $w$.
 
-19. Let $R$ be Euclidean and $w \models \lozenge p$. Choose $u$ with $w R u$ and $u \models p$.
-20. Let $w R v$. The Euclidean property with $w R v$ and $w R u$ gives $v R u$, so $v \models \lozenge p$.
-21. Hence $w \models \square\lozenge p$.
-22. Let $R$ be not Euclidean: some $w, v, u$ have $w R v$, $w R u$ and $(v, u) \notin R$. Put $V(p) = \set{u}$.
-23. Then $w \models \lozenge p$, since $w R u$. Since $u \notin R[v]$, we get $v \not\models \lozenge p$.
-24. Since $w R v$, we get $w \not\models \square\lozenge p$, and $\mathrm{5}$ fails at $w$.
+### Axiom 4 and transitivity
 
-Conclusion.
+Let $R$ be transitive and $w \models \square p$, and let $w R v$ and $v R u$.
+Transitivity gives $w R u$, so $u \models p$.
+Hence $v \models \square p$ for every successor $v$ of $w$, and $w \models \square\square p$.
 
-25. Steps 1 to 24 prove the validity of $\mathrm{K}$ on every frame and the five equivalences.
-26. Let $\Sigma$ be a set of these axioms, and take a frame with the matching properties. Then all of $\Sigma$ is valid on the frame, so every theorem of $\mathsf{K}\Sigma$ is valid by [[soundness of normal modal logics|E87G6ZTMTN]].
+Conversely, let $w R v$ and $v R u$ with $(w, u) \notin R$, and put $V(p) = R[w]$.
+Then $w \models \square p$.
+Since $u \notin R[w]$, we have $u \not\models p$, so $v \not\models \square p$.
+Since $w R v$, we get $w \not\models \square\square p$, and $\mathrm{4}$ fails at $w$.
+
+### Axiom 5 and the Euclidean property
+
+Let $R$ be Euclidean and $w \models \lozenge p$, and choose $u$ with $w R u$ and $u \models p$.
+For any $v$ with $w R v$, the Euclidean property gives $v R u$, so $v \models \lozenge p$.
+Hence $w \models \square\lozenge p$.
+
+Conversely, let $w R v$ and $w R u$ with $(v, u) \notin R$, and put $V(p) = \{ u \}$.
+Then $w \models \lozenge p$, since $w R u$.
+Since $u \notin R[v]$, we get $v \not\models \lozenge p$, so $w \not\models \square\lozenge p$, and $\mathrm{5}$ fails at $w$.
+
+### Conclusion
+
+This proves that $\mathrm{K}$ is valid on every frame and proves the five equivalences.
+Let $\Sigma$ be a set of these axioms, and take a frame with the matching properties.
+All of $\Sigma$ is valid on the frame, so every theorem of $\mathsf{K}\Sigma$ is valid on it, by [[soundness of normal modal logics|E87G6ZTMTN]].
 
 ## Idea
 
-Each "if" direction reads the axiom at one world and uses the frame property once.
-Each "only if" direction chooses the smallest valuation that makes the antecedent true at the bad world.
-This valuation is $V(p) = R[w]$ for $\mathrm{T}$ and $\mathrm{4}$, $V(p) = \set{w}$ for $\mathrm{B}$ and $V(p) = \set{u}$ for $\mathrm{5}$.
+Each direction from property to validity reads the axiom at one world and uses the frame property once.
+Each converse picks the smallest valuation that makes the antecedent true at the bad world.
+This is $V(p) = R[w]$ for $\mathrm{T}$ and $\mathrm{4}$, $V(p) = \{ w \}$ for $\mathrm{B}$, and $V(p) = \{ u \}$ for $\mathrm{5}$.
 Then the missing pair of the relation is exactly what the consequent needs.
 
 ## Variants
 
-1. The same proofs can be phrased with the [[standard translation|YW6YGBMVQY]]. Frame validity is a second-order sentence, and the minimal valuation is a choice of the second-order variable, see [[the second-order translation of T|KM2BKWZKW8]].
-2. For combined systems one can argue at once. A frame validates $\mathsf{S5}$ iff $R$ is reflexive and Euclidean, which is the same as an equivalence relation.
+The same proofs can be phrased with the [[standard translation|YW6YGBMVQY]].
+Frame validity is a second-order sentence, and the minimal valuation is a choice for the second-order variable; see [[the second-order translation of T|KM2BKWZKW8]].
+For combined systems one can argue at once.
+A frame validates $\mathsf{S5}$ iff $R$ is reflexive and Euclidean, which is the same as being an equivalence relation.

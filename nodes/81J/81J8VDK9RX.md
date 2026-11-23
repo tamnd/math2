@@ -16,29 +16,32 @@ sources:
 
 Three cards $A$, $B$, $C$ are dealt: player 1 gets one card, player 2 gets one card, and the third card lies face down.
 A world is a deal $(x, y)$ with $x \neq y$, where $x$ is the card of player 1 and $y$ is the card of player 2.
-So $W$ has the 6 worlds $(A,B), (A,C), (B,A), (B,C), (C,A), (C,B)$.
-Player 1 sees only their own card, so the [[accessibility relation|XBCYFDPS2F]] of player 1 is
+So $W$ has the $6$ worlds $(A,B)$, $(A,C)$, $(B,A)$, $(B,C)$, $(C,A)$ and $(C,B)$.
+Player 1 sees only their own card, so the [[accessibility relation|XBCYFDPS2F]] of player 1 is the following:
 $$(x, y) \mathrel{R} (x', y') \iff x = x'.$$
-For each card $c$, the variable $h_{2c}$ means "player 2 holds $c$", so $V(h_{2c}) = \set{(x, y) : y = c}$.
+For each card $c$, the variable $h_{2c}$ means "player 2 holds $c$", so $V(h_{2c}) = \{ (x, y) : y = c \}$.
 
-1. $R$ is reflexive: $x = x$ for every deal $(x, y)$.
-2. $R$ is symmetric: $x = x'$ implies $x' = x$.
-3. $R$ is transitive: $x = x'$ and $x' = x''$ imply $x = x''$.
-4. $R$ is Euclidean: if $w R v$ and $w R u$, then $v$ and $u$ have the same first card as $w$, so $v R u$.
-5. At $w = (A, B)$, the successor set is $R[w] = \set{(A, B), (A, C)}$: player 1 holds $A$, and player 2 holds $B$ or $C$.
-6. $\square\neg h_{2A}$ is true at $w$, since player 2 holds $B$ at $(A,B)$ and $C$ at $(A,C)$. Player 1 knows that player 2 does not hold $A$.
+1. $R$ is reflexive, since $x = x$ for every deal $(x, y)$.
+2. $R$ is symmetric, since $x = x'$ implies $x' = x$.
+3. $R$ is transitive, since $x = x'$ and $x' = x''$ imply $x = x''$.
+4. $R$ is Euclidean, since $w R v$ and $w R u$ give $v$ and $u$ the same first card as $w$, so $v R u$.
+5. At $w = (A, B)$ the successor set is $R[w] = \{ (A, B), (A, C) \}$: player 1 holds $A$, and player 2 holds $B$ or $C$.
+6. $\square\neg h_{2A}$ is true at $w$, since player 2 holds $B$ at $(A,B)$ and $C$ at $(A,C)$.
+   So player 1 knows that player 2 does not hold $A$.
 7. $\square h_{2B}$ is false at $w$, since $(A, C) \in R[w]$ and $h_{2B}$ is false there.
-8. $\lozenge h_{2C}$ is true at $w$, witnessed by $(A, C)$. Player 1 considers it possible that player 2 holds $C$.
+8. $\lozenge h_{2C}$ is true at $w$, with the witness $(A, C)$.
+   So player 1 considers it possible that player 2 holds $C$.
 
 ## Remarks
 
 The example shows the standard source of [[equivalence relations|0G8VEZ3WTK]] in epistemic logic: two worlds are related when the agent cannot tell them apart.
 By [[common modal axiom schemata|FDFQFWPM4X]], the frame validates $\mathrm{T}$, $\mathrm{B}$, $\mathrm{4}$ and $\mathrm{5}$.
 So all theorems of the [[modal logic S5|VC3A2VWXND]] hold in this [[Kripke model|NGHWZ9Y7ZV]].
-The classes of $R$ are the 3 sets of deals with a fixed card for player 1, each with 2 deals.
-If the third card were turned face up, then each class would shrink to one deal, and player 1 would know the whole deal.
-With four cards and two face-down cards, each class would have 3 deals instead of 2.
-Any relation of the form "$f(w) = f(v)$" for a function $f$ on $W$ is an equivalence relation, by the same four steps.
+
+The classes of $R$ are the $3$ sets of deals with a fixed card for player 1, and each class has $2$ deals.
+If the third card were turned face up, each class would shrink to one deal, and player 1 would know the whole deal.
+With four cards and two of them face down, each class would have $3$ deals instead of $2$.
+Any relation of the form "$f(w) = f(v)$", for a function $f$ on $W$, is an equivalence relation by the same four steps.
 
 ## Explanations
 
@@ -52,11 +55,9 @@ Two situations look the same to Ann exactly when her own card is the same.
 
 ### L2 human
 
-1. Take $w = (C, A)$.
-2. Then $R[w] = \set{(C, A), (C, B)}$.
-3. $\square\neg h_{2C}$ is true at $w$, since player 2 holds $A$ or $B$ in both deals.
-4. $\square(h_{2A} \vee h_{2B})$ is true at $w$ for the same reason, and $\square h_{2A}$ is false because of $(C, B)$.
-
-The typical use is to model the knowledge of an agent with a partition of the worlds into classes of indistinguishable worlds.
-A trap: "player 1 knows $\varphi$" depends on the whole class of $w$, not on the real deal alone.
-So two true facts can differ in being known.
+Take the deal $w = (C, A)$, so that $R[w] = \{ (C, A), (C, B) \}$.
+In both deals player 2 holds $A$ or $B$, so $\square\neg h_{2C}$ and $\square(h_{2A} \vee h_{2B})$ are true at $w$.
+But $\square h_{2A}$ is false at $w$, because of the deal $(C, B)$.
+So player 1 knows a disjunction without knowing either part, which is the epistemic form of the fact that $\square$ does not distribute over $\vee$.
+The typical use is to model the knowledge of an agent by a partition of the worlds into classes of worlds that the agent cannot tell apart.
+Watch out: "player 1 knows $\varphi$" depends on the whole class of $w$, not on the real deal alone, so two true facts can differ in being known.

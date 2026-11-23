@@ -17,26 +17,63 @@ sources:
 
 ## Proof
 
-This is a cited proof of [[the complexity theorem|1P2B0C7CQ4]].
-The full proofs of parts 1 to 4 are in Ladner's paper of 1977.
-The proof of part 5, and textbook proofs of parts 1 to 4, are in chapter 6 of Blackburn, de Rijke and Venema.
-We give the main steps, and we mark where each hypothesis is used.
-Let $\varphi$ have size $n$, and let $\Sigma$ be the set of subformulas of $\varphi$ and their negations.
-Let $d$ be the modal depth of $\varphi$.
+We outline the proof of [[the complexity theorem|1P2B0C7CQ4]]: a depth-first search over Hintikka sets gives the PSPACE bounds, a reduction from quantified Boolean formulas gives hardness, and a small-model argument gives the $\mathsf{S5}$ case.
 
-1. Hintikka sets. A Hintikka set is a set $H \subseteq \Sigma$ that contains exactly one of $\psi$ and $\neg\psi$ for each subformula $\psi$, and that respects the propositional connectives. Whether a set is a Hintikka set is decidable in polynomial time.
-2. Tree models for $\mathsf{K}$. If $\varphi$ is $\mathsf{K}$-satisfiable, then it is true at the root of a tree model of depth at most $d$. In this tree, each node has at most $n$ children. To see this, unravel a model into a tree, which is a [[bisimulation|X27BR4YP2Y]] and keeps truth. Then keep one witness for each false box $\square\chi \in \Sigma$ at each node, and cut the tree at depth $d$.
-3. The algorithm for $\mathsf{K}$. A procedure $S(H, k)$ accepts a Hintikka set $H$ when the following holds. For each $\neg\square\chi \in H$, some Hintikka set $H'$ contains $\neg\chi$ and every $\psi$ with $\square\psi \in H$, and $S(H', k - 1)$ accepts. Here only subformulas of depth below $k$ are kept. The input is accepted when $S(H, d)$ accepts for some $H \ni \varphi$.
-4. Correctness for $\mathsf{K}$. By induction on $k$, $S(H, k)$ accepts if and only if the formulas of depth at most $k$ in $H$ hold together at some world. One direction reads a tree model off the accepting calls; the other uses step 2.
-5. Space for $\mathsf{K}$. The procedure tries the candidates $H'$ one at a time and reuses the space. The recursion has depth at most $d + 1 \le n$, and each level stores one set of size $O(n)$ and a counter. So it runs in space $O(n^2)$, and $\mathsf{K}$ is in [[PSPACE|JWC9CE07Q2]].
-6. $\mathsf{T}$ and $\mathsf{D}$. For $\mathsf{T}$, add the condition that $\square\psi \in H$ implies $\psi \in H$. For $\mathsf{D}$, give each node of depth below $d$ at least one successor, which contains every $\psi$ with $\square\psi \in H$. Then close the leaves with a loop; at a leaf only formulas of depth $0$ are evaluated, so the loop changes no truth value.
-7. $\mathsf{K4}$ and $\mathsf{S4}$. Here each $\square\psi \in H$ is passed down: $H'$ must contain $\square\psi$ and $\psi$. The depth is not bounded by $d$, but along a branch the set of boxes in $H$ only grows. So after a repeat, a branch can loop back, and Ladner shows that a branch of length $O(n^2)$ is enough. This gives space $O(n^3)$ and part 1.
-8. The lower bound: the reduction. For a quantified Boolean formula $\theta = Q_1 p_1 \dots Q_m p_m\, \theta_0$, Ladner builds in polynomial time a modal formula $\varphi_\theta$. It forces a tree of depth $m$, where level $i$ fixes the value of $p_i$. A universal quantifier forces two children, and boxes keep the values fixed below. This is a [[polynomial-time reduction|V0K79AD81V]] from [[true quantified Boolean formulas|WV2N01B4YV]].
-9. Use of $\Lambda \subseteq \mathsf{S4}$. If $\theta$ is true, the tree of its winning choices, closed under reflexivity and transitivity, is an $\mathsf{S4}$-model of $\varphi_\theta$. Every $\mathsf{S4}$-model is a $\Lambda$-model when $\Lambda \subseteq \mathsf{S4}$, so $\varphi_\theta$ is $\Lambda$-satisfiable.
-10. Use of $\mathsf{K} \subseteq \Lambda$. If $\varphi_\theta$ is $\Lambda$-satisfiable, then $\neg\varphi_\theta \notin \Lambda$, so $\neg\varphi_\theta \notin \mathsf{K}$, and $\varphi_\theta$ is $\mathsf{K}$-satisfiable. Ladner shows that a $\mathsf{K}$-model of $\varphi_\theta$ gives a winning strategy, so $\theta$ is true. With steps 8 and 9, this gives part 2, and part 3 follows from parts 1 and 2.
-11. $\mathsf{S5}$, upper bound. If $\varphi$ is $\mathsf{S5}$-satisfiable, it is true in a model where $R$ is universal, the generated submodel of one class. Keep the actual world and one witness for each $\lozenge\psi \in \Sigma$ that is true there. Boxes and diamonds have the same value at every world of the cluster, so truth is kept, and at most $n$ worlds remain.
-12. $\mathsf{S5}$, the NP algorithm and hardness. Guess at most $n$ worlds and their valuations, and check $\varphi$ in polynomial time. For hardness, a propositional formula is $\mathsf{S5}$-satisfiable if and only if it is satisfiable, so [[SAT|3QKF32ZAKN]] reduces to $\mathsf{S5}$-satisfiability. This gives part 4.
-13. Part 5. The upper bound is elimination of Hintikka sets, in time $2^{O(n)}$. Start from all of them and remove each set with a diamond that no remaining set can satisfy. The lower bound encodes an alternating Turing machine with polynomial space, as in chapter 6 of Blackburn, de Rijke and Venema.
+The full proofs of parts 1 to 4 are in Ladner's paper of 1977.
+Textbook proofs of all five parts are in chapter 6 of Blackburn, de Rijke and Venema.
+Let $\varphi$ have size $n$ and modal depth $d$, and let $\Sigma$ be the set of subformulas of $\varphi$ and their negations.
+
+### The upper bound for K
+
+1. A Hintikka set is a set $H \subseteq \Sigma$ that contains exactly one of $\psi$ and $\neg\psi$ for each subformula $\psi$ and respects the propositional connectives.
+   Whether a set is a Hintikka set is decidable in polynomial time.
+2. If $\varphi$ is $\mathsf{K}$-satisfiable, then it is true at the root of a tree model of depth at most $d$ in which each node has at most $n$ children.
+   To see this, unravel a model into a tree, which is a [[bisimulation|X27BR4YP2Y]] and so keeps truth.
+   Then keep one witness for each false box $\square\chi \in \Sigma$ at each node, and cut the tree at depth $d$.
+3. A procedure $S(H, k)$ accepts a Hintikka set $H$ when, for each $\neg\square\chi \in H$, some Hintikka set $H'$ contains $\neg\chi$ and every $\psi$ with $\square\psi \in H$, and $S(H', k - 1)$ accepts.
+   Only subformulas of depth below $k$ are kept in $H'$.
+   The input is accepted when $S(H, d)$ accepts for some $H$ that contains $\varphi$.
+4. By induction on $k$, $S(H, k)$ accepts if and only if the formulas of depth at most $k$ in $H$ hold together at some world.
+   One direction reads a tree model off the accepting calls, and the other uses step 2.
+5. The procedure tries the candidates $H'$ one at a time and reuses the space.
+   The recursion has depth at most $d + 1 \le n$, and each level stores one set of size $O(n)$ and a counter.
+   So the procedure runs in space $O(n^2)$, and $\mathsf{K}$ is in [[PSPACE|JWC9CE07Q2]].
+
+### The upper bound for the other logics
+
+6. For $\mathsf{T}$, add the condition that $\square\psi \in H$ implies $\psi \in H$, and take the reflexive closure of the tree.
+   For $\mathsf{D}$, give each node of depth below $d$ at least one successor, which contains every $\psi$ with $\square\psi \in H$.
+   Then close each leaf with a loop, which changes no truth value because only formulas of depth $0$ are evaluated at a leaf.
+7. For $\mathsf{K4}$ and $\mathsf{S4}$, each $\square\psi \in H$ is passed down, so $H'$ must contain $\square\psi$ and $\psi$.
+   The depth is no longer bounded by $d$, but along a branch the set of boxes in $H$ only grows.
+   So after a repeat a branch can loop back, and Ladner shows that a branch of length $O(n^2)$ is enough.
+   This gives space $O(n^3)$ and completes part 1.
+
+### The lower bound
+
+8. For a quantified Boolean formula $\theta = Q_1 p_1 \dots Q_m p_m\, \theta_0$, Ladner builds in polynomial time a modal formula $\varphi_\theta$.
+   It forces a tree of depth $m$ in which level $i$ fixes the value of $p_i$.
+   A universal quantifier forces two children, and boxes keep the chosen values fixed below.
+   This is a [[polynomial-time reduction|V0K79AD81V]] from [[true quantified Boolean formulas|WV2N01B4YV]].
+9. If $\theta$ is true, the tree of its winning choices, closed under reflexivity and transitivity, is an $\mathsf{S4}$-model of $\varphi_\theta$.
+   Every $\mathsf{S4}$-model is a $\Lambda$-model when $\Lambda \subseteq \mathsf{S4}$, so $\varphi_\theta$ is $\Lambda$-satisfiable.
+   This is where $\Lambda \subseteq \mathsf{S4}$ is used.
+10. If $\varphi_\theta$ is $\Lambda$-satisfiable, then $\neg\varphi_\theta \notin \Lambda$, so $\neg\varphi_\theta \notin \mathsf{K}$, and $\varphi_\theta$ is $\mathsf{K}$-satisfiable.
+    This is where $\mathsf{K} \subseteq \Lambda$ is used.
+    Ladner shows that a $\mathsf{K}$-model of $\varphi_\theta$ gives a winning strategy, so $\theta$ is true.
+    Steps 8 to 10 give part 2, and part 3 follows from parts 1 and 2.
+
+### S5 and the universal modality
+
+11. If $\varphi$ is $\mathsf{S5}$-satisfiable, it is true in a model where $R$ is universal, namely the submodel generated by one world.
+    Keep the actual world and one witness for each $\lozenge\psi \in \Sigma$ that is true there.
+    Boxes and diamonds have the same value at every world of a universal model, so truth is kept, and at most $n$ worlds remain.
+12. The NP algorithm guesses at most $n$ worlds and their valuations and checks $\varphi$ in polynomial time.
+    For hardness, a propositional formula is $\mathsf{S5}$-satisfiable if and only if it is satisfiable, so [[SAT|3QKF32ZAKN]] reduces to $\mathsf{S5}$-satisfiability.
+    This gives part 4.
+13. For part 5, the upper bound is elimination of Hintikka sets in time $2^{O(n)}$.
+    Start from all Hintikka sets, and repeatedly remove each set with a diamond that no remaining set can satisfy.
+    The lower bound encodes an alternating Turing machine with polynomial space, as in chapter 6 of Blackburn, de Rijke and Venema.
 
 ## Idea
 
@@ -46,5 +83,7 @@ In $\mathsf{S5}$ all worlds see each other, the tree collapses to one cluster, a
 
 ## Variants
 
-1. The algorithm of steps 3 to 7 is the depth-first form of a [[tableau|WGWBBVE8GX]] calculus for the logic.
-2. For formulas of a fixed modal depth $d$, the tree of step 2 has at most $n^{d+1}$ nodes. So one can guess the whole tree, and $\mathsf{K}$-satisfiability is then in NP.
+The algorithm of steps 3 to 7 is the depth-first form of a [[tableau|WGWBBVE8GX]] calculus for the logic.
+
+For formulas of a fixed modal depth $d$, the tree of step 2 has at most $n^{d+1}$ nodes.
+So one can guess the whole tree, and $\mathsf{K}$-satisfiability is then in NP.

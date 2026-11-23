@@ -16,30 +16,38 @@ sources:
 
 ## Example
 
-Take the frame with a root $r$ and two end points $a$ and $b$:
-$$W = \set{r, a, b}, \quad R = \set{(r, r), (a, a), (b, b), (r, a), (r, b)}, \quad V(p) = \set{a}.$$
-We show that $\lozenge\square p \to \square\lozenge p$ fails at $r$, so the formula is not a theorem of the [[modal logic S4|N60RVXSA5W]].
+A road splits at $r$ into two dead ends $a$ and $b$, and each place also sees itself.
+This preorder refutes the axioms $.2$ and $.3$, so neither is a theorem of the [[modal logic S4|N60RVXSA5W]].
+The model is this:
+$$W = \{ r, a, b \}, \quad R = \{ (r, r), (a, a), (b, b), (r, a), (r, b) \}, \quad V(p) = \{ a \}.$$
 
-1. $R$ is reflexive: the pairs $(r, r)$, $(a, a)$, $(b, b)$ are in $R$.
-2. $R$ is transitive. The only pairs $x R y$ with $x \neq y$ are $(r, a)$ and $(r, b)$, and $a$, $b$ see only themselves. So a chain $x R y R z$ has $x = y$ or $y = z$, and then $x R z$.
-3. So $R$ is a [[preorder|0VABYWJWH9]], and the frame validates $\mathsf{S4}$, by [[common modal axiom schemata|FDFQFWPM4X]] and [[soundness|E87G6ZTMTN]].
-4. The successor sets are $R[r] = W$, $R[a] = \set{a}$ and $R[b] = \set{b}$.
-5. $\square p$ is true at $a$, since $a$ sees only $a$, and $p$ is true at $a$. So $\lozenge\square p$ is true at $r$.
-6. $\lozenge p$ is false at $b$, since $b$ sees only $b$, and $p$ is false at $b$. So $\square\lozenge p$ is false at $r$.
-7. So $\lozenge\square p \to \square\lozenge p$ fails at $r$.
-8. Now add $V(q) = \set{b}$ and test $\square(\square p \to q) \vee \square(\square q \to p)$ at $r$.
-9. At $a$, $\square p$ is true and $q$ is false, so $\square p \to q$ is false at $a$, and $\square(\square p \to q)$ is false at $r$.
-10. At $b$, $\square q$ is true and $p$ is false, so $\square q \to p$ is false at $b$, and $\square(\square q \to p)$ is false at $r$.
-11. So both disjuncts fail at $r$, and the formula fails at $r$.
+First we check that the frame is an $\mathsf{S4}$-frame, and then we refute both axioms.
+
+1. $R$ is reflexive, because the pairs $(r, r)$, $(a, a)$ and $(b, b)$ are in $R$.
+2. $R$ is transitive.
+   The only pairs $x R y$ with $x \neq y$ are $(r, a)$ and $(r, b)$, and $a$ and $b$ see only themselves.
+   So a chain $x R y R z$ has $x = y$ or $y = z$, and then $x R z$.
+3. So $R$ is a [[preorder|0VABYWJWH9]], and the frame validates $\mathsf{S4}$ by the [[common modal axiom schemata|FDFQFWPM4X]] and [[soundness|E87G6ZTMTN]].
+4. Next we refute $.2$, which is $\lozenge\square p \to \square\lozenge p$.
+   The successor sets are $R[r] = W$, $R[a] = \{ a \}$ and $R[b] = \{ b \}$.
+5. $\square p$ is true at $a$, because $a$ sees only $a$ and $p$ is true there.
+   So $\lozenge\square p$ is true at $r$.
+6. $\lozenge p$ is false at $b$, because $b$ sees only $b$ and $p$ is false there.
+   So $\square\lozenge p$ is false at $r$, and $.2$ fails at $r$.
+7. Last we refute $.3$, which is $\square(\square p \to q) \vee \square(\square q \to p)$, with the extra value $V(q) = \{ b \}$.
+   At $a$, $\square p$ is true and $q$ is false, so $\square p \to q$ is false at $a$, and $\square(\square p \to q)$ is false at $r$.
+8. At $b$, $\square q$ is true and $p$ is false, so $\square q \to p$ is false at $b$, and $\square(\square q \to p)$ is false at $r$.
+9. Both disjuncts fail at $r$, so $.3$ fails at $r$.
 
 ## Remarks
 
-The formula $\lozenge\square p \to \square\lozenge p$ is the axiom $.2$, and $\mathsf{S4.2} = \mathsf{S4} + .2$.
-Its frames are the preorders in which two successors of a world have a common successor; here $a$ and $b$ have none.
-The formula $\square(\square p \to q) \vee \square(\square q \to p)$ is the axiom $.3$, and $\mathsf{S4.3} = \mathsf{S4} + .3$.
-Its frames are the preorders in which two successors of a world are comparable; here neither $a R b$ nor $b R a$ holds.
-If we add the pair $(a, b)$, the frame becomes the chain $r, a, b$, which validates both axioms.
-Then $\square p$ is false at $a$, since $a$ now sees $b$, and the old countermodel for $.2$ no longer works.
+The two formulas are the extra axioms of $\mathsf{S4.2}$ and $\mathsf{S4.3}$.
+On preorders, $.2$ asks that two successors of a world have a common successor, and here $a$ and $b$ have none.
+On preorders, $.3$ asks that two successors of a world be comparable, and here neither $a R b$ nor $b R a$ holds.
+
+What changes if you add the pair $(a, b)$?
+The frame becomes the chain $r, a, b$, which is connected and validates both axioms.
+In the old valuation, $\square p$ becomes false at $a$, since $a$ now sees $b$, so the countermodel for $.2$ no longer works.
 
 ## Explanations
 
@@ -47,16 +55,15 @@ Then $\square p$ is false at $a$, since $a$ now sees $b$, and the old countermod
 
 Picture a road that splits at $r$ into two dead ends $a$ and $b$.
 At $a$ it is sunny forever, and at $b$ it is never sunny.
-Standing at $r$, one can reach a place where it stays sunny.
-But one can also reach a place from which sun is never seen again.
+Standing at $r$, you can reach a place where it stays sunny.
+But you can also reach a place from which sun is never seen again.
 So "possibly always sunny" does not give "always possibly sunny".
 
 ### L2 human
 
-1. Read $\square$ as "in every future state, and now" for a branching process.
-2. $\lozenge\square p$ at $r$: some branch reaches a state from which $p$ holds forever.
-3. $\square\lozenge p$ at $r$: from every reachable state, a $p$-state can still be reached.
-4. The branch through $b$ breaks the second statement.
-
-The typical use of this frame is to separate $\mathsf{S4}$ from $\mathsf{S4.2}$ and $\mathsf{S4.3}$ with three worlds.
-A trap: $\mathsf{S4}$ is valid on every preorder, with or without branching, so no theorem of $\mathsf{S4}$ forces two successors to meet again.
+Read $\square$ as "now and in every future state" for a process that can branch.
+Then $\lozenge\square p$ at $r$ says that some branch reaches a state from which $p$ holds forever.
+And $\square\lozenge p$ at $r$ says that from every reachable state a $p$-state can still be reached.
+The branch through $b$ breaks the second claim, while the branch through $a$ makes the first one true.
+This three-world frame is the standard way to separate $\mathsf{S4}$ from $\mathsf{S4.2}$ and $\mathsf{S4.3}$.
+Watch out: $\mathsf{S4}$ is valid on every preorder, with or without branching, so no theorem of $\mathsf{S4}$ forces two branches to meet again.

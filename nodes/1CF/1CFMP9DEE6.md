@@ -14,45 +14,61 @@ sources:
 
 ## Example
 
-Let $\mathsf{KD45} = \mathsf{K} + \mathrm{D} + \mathrm{4} + \mathrm{5}$.
-We show with the [[canonical model|TVE4F04KME]] that $\mathsf{KD45}$ is the logic of the serial, transitive and Euclidean frames.
-Let $(W^c, R^c)$ be the canonical frame of $\mathsf{KD45}$: the worlds are the maximal $\mathsf{KD45}$-consistent sets, and $\Gamma R^c \Delta$ when $\square\varphi \in \Gamma$ implies $\varphi \in \Delta$.
+Let $\mathsf{KD45} = \mathsf{K} + \mathrm{D} + \mathrm{4} + \mathrm{5}$, the usual logic of belief.
+We show with the [[canonical model|TVE4F04KME]] that $\mathsf{KD45}$ is exactly the logic of the frames that are serial, transitive and Euclidean.
 
-1. $\mathsf{KD45}$ contains $\mathrm{D}$, so its canonical frame is serial, by [[completeness of K, T, D, K4, S4, B and S5|FXTCKYR3AQ]].
-2. $\mathsf{KD45}$ contains $\mathrm{4}$, so its canonical frame is transitive, by the same page.
-3. $\mathsf{KD45}$ contains $\mathrm{5}$, so its canonical frame is Euclidean, by the same page.
-4. Let $\mathsf{KD45} \nvdash \varphi$. Then $\set{\neg\varphi}$ is consistent, and [[Lindenbaum's lemma|SC0BSJ3GT6]] extends it to a maximal consistent set $\Gamma$.
-5. By the [[truth lemma|NM4CB7QAYT]], $\varphi$ is false at $\Gamma$ in the canonical model.
-6. So $\varphi$ fails on a serial, transitive, Euclidean frame, by steps 1 to 3. This is completeness.
-7. By [[soundness|E87G6ZTMTN]], every theorem of $\mathsf{KD45}$ is valid on these frames, since they validate $\mathrm{D}$, $\mathrm{4}$ and $\mathrm{5}$.
-8. So $\mathsf{KD45}$ is exactly the set of formulas valid on all serial, transitive, Euclidean frames.
-9. The frame of [[a Euclidean relation that is neither reflexive nor symmetric|NS4AC3W4FM]] is serial, transitive and Euclidean, and it refutes $\mathrm{T}$ at $a$. So $\mathsf{KD45} \nvdash \mathrm{T}$.
+Let $(W^c, R^c)$ be the canonical frame of $\mathsf{KD45}$.
+Its worlds are the maximal $\mathsf{KD45}$-consistent sets, and $\Gamma R^c \Delta$ holds when every $\varphi$ with $\square\varphi \in \Gamma$ lies in $\Delta$.
+The [[completeness theorem for K to S5|FXTCKYR3AQ]] proves three facts about any normal logic, one axiom at a time.
+A logic that contains $\mathrm{D}$ has a serial canonical frame, a logic that contains $\mathrm{4}$ has a transitive one, and a logic that contains $\mathrm{5}$ has a Euclidean one.
+$\mathsf{KD45}$ contains all three axioms, so $R^c$ is serial, transitive and Euclidean at once.
+
+Now let $\mathsf{KD45} \nvdash \varphi$.
+Then $\{ \neg\varphi \}$ is consistent, and [[Lindenbaum's lemma|SC0BSJ3GT6]] extends it to a maximal consistent set $\Gamma$.
+By the [[truth lemma|NM4CB7QAYT]], $\varphi$ is false at $\Gamma$ in the canonical model.
+So $\varphi$ fails on a serial, transitive, Euclidean frame, and this is completeness.
+
+In the other direction, these frames validate $\mathrm{D}$, $\mathrm{4}$ and $\mathrm{5}$, so by [[soundness|E87G6ZTMTN]] they validate every theorem of $\mathsf{KD45}$.
+So $\mathsf{KD45}$ is exactly the set of formulas valid on all serial, transitive, Euclidean frames.
+
+Check: $\mathsf{KD45}$ does not prove axiom $\mathrm{T}$.
+The frame of [[a Euclidean relation that is neither reflexive nor symmetric|NS4AC3W4FM]] has $W = \{ a, b \}$ and $R = \{ (a, b), (b, b) \}$.
+It is serial, transitive and Euclidean, and with $V(p) = \{ b \}$ the formula $\square p$ is true at $a$ while $p$ is false there.
 
 ## Remarks
 
-The example shows how the canonical model method combines.
-Each frame property is proved once, for every normal logic that contains the matching axiom, not for one logic at a time.
-For $\mathrm{D}$ the proof uses $\lozenge\top \in \Gamma$, for $\mathrm{4}$ it uses $\square\varphi \to \square\square\varphi \in \Gamma$, and for $\mathrm{5}$ it uses $\lozenge\varphi \to \square\lozenge\varphi \in \Gamma$.
-None of these proofs uses the other axioms, so the three properties hold together in the canonical frame of $\mathsf{KD45}$.
-The same argument gives completeness of $\mathsf{K45}$ for transitive Euclidean frames and of $\mathsf{KD4}$ for serial transitive frames.
-If we add $\mathrm{T}$, the logic becomes $\mathsf{S5}$, and the canonical frame becomes reflexive and Euclidean, hence an equivalence relation.
+### Why the properties combine
+
+Each frame property is proved once, for every normal logic that contains the matching axiom.
+The proof for $\mathrm{D}$ uses only $\lozenge\top \in \Gamma$, the proof for $\mathrm{4}$ uses only $\square\varphi \to \square\square\varphi \in \Gamma$, and the proof for $\mathrm{5}$ uses only $\lozenge\varphi \to \square\lozenge\varphi \in \Gamma$.
+None of these proofs uses the other axioms, so the three properties hold together in the canonical frame of any logic that contains all three.
+
+### Nearby logics
+
+The same argument shows that $\mathsf{K45}$ is complete for transitive Euclidean frames and that $\mathsf{KD4}$ is complete for serial transitive frames.
+If we add $\mathrm{T}$, the logic becomes $\mathsf{S5}$, also written $\mathsf{KT5}$.
+Its canonical frame is reflexive and Euclidean, and a reflexive Euclidean relation is an equivalence relation.
+
+### Watch out
+
+The method works here because $\mathrm{D}$, $\mathrm{4}$ and $\mathrm{5}$ are each canonical.
+Not every axiom is: the provability logic $\mathsf{GL}$ has a canonical frame that does not validate it, as [[the GL example|E61769H6KG]] shows.
 
 ## Explanations
 
 ### L1 human
 
-The logic KD45 is a logic of belief: beliefs are consistent, and the agent knows what it believes and what it does not believe.
-To show that this list of rules is complete, one builds one big model out of all consistent descriptions of a world.
-Each rule forces one property of the arrows in this model.
-Since each property comes from its own rule, all three properties hold at once.
+The logic KD45 describes belief.
+Its rules say that beliefs never contradict each other, and that the agent knows what it believes and what it does not believe.
+To show that these rules are complete, we build one large model out of all consistent descriptions of a world.
+Each rule forces one property of the arrows in this model, and each property comes from its own rule, so all three hold at once.
 So every formula that the rules do not prove fails somewhere in a model of the right shape.
 
 ### L2 human
 
-1. We test the formula $\square p \to p$, which $\mathsf{KD45}$ does not prove.
-2. Step 4 gives a maximal consistent $\Gamma$ that contains $\square p$ and $\neg p$.
-3. Step 1 gives some $\Delta$ with $\Gamma R^c \Delta$, and $p \in \Delta$ since $\square p \in \Gamma$.
-4. $\Gamma$ itself is not a successor of $\Gamma$, since $\square p \in \Gamma$ and $p \notin \Gamma$, so the canonical frame is not reflexive.
-
+We test the formula $\square p \to p$, which $\mathsf{KD45}$ does not prove.
+Lindenbaum's lemma gives a maximal consistent $\Gamma$ that contains $\square p$ and $\neg p$.
+Seriality gives some $\Delta$ with $\Gamma R^c \Delta$, and $p \in \Delta$ since $\square p \in \Gamma$.
+But $\Gamma$ is not a successor of itself, since $\square p \in \Gamma$ and $p \notin \Gamma$.
+So the canonical frame of $\mathsf{KD45}$ is not reflexive, as it should not be.
 The typical use of canonicity is to prove completeness for a new combination of axioms with no new work.
-A trap: not every axiom is canonical, so this method fails for some logics, for example the logic $\mathsf{GL}$ of provability.

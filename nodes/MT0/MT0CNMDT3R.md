@@ -16,22 +16,34 @@ sources:
 
 ## Definition
 
-The logic $\mathsf{S5} = \mathsf{KT5}$ is the smallest [[normal modal logic|JS8W7PA6JK]] that contains the axioms
-$$\mathrm{T}: \square p \to p \qquad \text{and} \qquad \mathrm{5}: \lozenge p \to \square\lozenge p.$$
+The logic $\mathsf{S5}$ adds to $\mathsf{K}$ the laws "what is necessary is true" and "what is possible is necessarily possible".
+Exactly, $\mathsf{S5} = \mathsf{KT5}$ is the smallest [[normal modal logic|JS8W7PA6JK]] that contains these axioms:
+$$\mathrm{T}\colon \square p \to p, \qquad \mathrm{5}\colon \lozenge p \to \square\lozenge p.$$
 An $\mathsf{S5}$-frame is a frame $(W, R)$ whose relation is an [[equivalence relation|0G8VEZ3WTK]].
-A frame is universal when $R = W \times W$.
+A frame is *universal* when $R = W \times W$.
 
 ## Notation
 
-The name comes from the fifth system of Lewis and Langford (1932).
-Equivalent axiomatizations are $\mathsf{KTB4}$, $\mathsf{KT45}$ and $\mathsf{KTB5}$, see [[the axioms of S5|ECYRK9C2ZT]].
-On a universal frame, $\square\varphi$ means "$\varphi$ holds at every world", so the accessibility relation is often omitted and a model is a pair $(W, V)$.
+The name is the fifth of the systems $\mathsf{S1}$ to $\mathsf{S5}$ of Lewis and Langford (1932).
+Other axiom sets for the same logic are $\mathsf{KTB4}$, $\mathsf{KT45}$ and $\mathsf{KTB5}$, by [[the axioms of S5|ECYRK9C2ZT]].
+On a universal frame, $\square\varphi$ means "$\varphi$ holds at every world", so the relation is often left out and a model is a pair $(W, V)$.
 
 ## Remarks
 
-1. By [[common modal axiom schemata|FDFQFWPM4X]], a frame validates $\mathsf{S5}$ if and only if its relation is reflexive and Euclidean. That is, the relation is an equivalence relation, as in [[the accessibility relation|YHGXV3SQDP]].
-2. $\mathsf{S5}$ is complete for equivalence relations and also for universal frames, see [[the completeness theorem|FXTCKYR3AQ]].
-3. The full discussion, with modalities and complexity, is in [[modal logic S5|VC3A2VWXND]].
+Each axiom is there for one property of the [[accessibility relation|YHGXV3SQDP]].
+By the [[common modal axiom schemata|FDFQFWPM4X]], $\mathrm{T}$ is valid on a frame exactly when the frame is reflexive, and $\mathrm{5}$ exactly when it is Euclidean.
+A reflexive Euclidean relation is an equivalence relation.
+For symmetry, $x R y$ and $x R x$ give $y R x$ by the Euclidean law.
+For transitivity, $x R y$ and $y R z$ give $y R x$ by symmetry, and then $y R x$ and $y R z$ give $x R z$ by the Euclidean law.
+
+The two classes of frames are worth keeping apart.
+On the equivalence relation with classes $\{ 1, 2 \}$ and $\{ 3 \}$, put $p$ at $1$ and $2$.
+Then $\square p$ is true at $1$ and $2$ and false at $3$, so a boxed formula can change value across classes.
+On a universal frame the value of a boxed formula is the same at every world.
+Both classes give the logic $\mathsf{S5}$, by [[the completeness theorem|FXTCKYR3AQ]], because truth at a world depends only on its own class.
+
+Without $\mathrm{T}$ the frames change: the frame with arrows $a R b$ and $b R b$ is Euclidean but not reflexive, and $\mathrm{T}$ fails at $a$ when $V(p) = \{ b \}$.
+The concept page [[modal logic S5|VC3A2VWXND]] covers modalities and complexity.
 
 ## Explanations
 
@@ -43,15 +55,13 @@ For example, if it is possible that it rains, then it is necessary that it is po
 
 ### L2 human
 
-We check axiom $\mathrm{5}$ on the universal frame $W = \set{1, 2}$ with $V(p) = \set{2}$.
-
-1. $\lozenge p$ is true at 1 and at 2, since both see world 2, where $p$ holds.
-2. $\square\lozenge p$ is true at 1 and at 2, since $\lozenge p$ holds at every world.
-3. So $\lozenge p \to \square\lozenge p$ holds at both worlds.
-
-The typical use of universal frames is to evaluate $\mathsf{S5}$ formulas: boxes and diamonds become "all worlds" and "some world".
-A trap: $\mathsf{S5}$ is not the logic of one world; the trivial logic $\square p \leftrightarrow p$ is that.
+We check axiom $\mathrm{5}$ on the universal frame $W = \{ 1, 2 \}$ with $V(p) = \{ 2 \}$.
+Both worlds see world $2$, where $p$ holds, so $\lozenge p$ is true at $1$ and at $2$.
+Then $\lozenge p$ holds at every world, so $\square\lozenge p$ is true at $1$ and at $2$.
+So $\lozenge p \to \square\lozenge p$ holds at both worlds.
+This is how you evaluate $\mathsf{S5}$ formulas on a universal frame: boxes become "all worlds" and diamonds become "some world".
+Watch out: $\mathsf{S5}$ is not the logic of one world, since one world with a loop validates $\square p \leftrightarrow p$, which $\mathsf{S5}$ does not prove.
 
 ### L3 human
 
-Read on universal frames, $\square$ is the universal quantifier of one-variable first-order logic, and $\mathsf{S5}$ is that logic in modal notation.
+Read on universal frames, $\square$ is the universal quantifier of one-variable first-order logic, and $\mathsf{S5}$ is that logic written in modal notation.

@@ -19,28 +19,45 @@ sources:
 Let $\Lambda$ be a [[normal modal logic|JS8W7PA6JK]].
 A [[frame|6BQ71KQ6QT]] $\mathfrak{F}$ is a $\Lambda$-frame when every theorem of $\Lambda$ is valid on $\mathfrak{F}$.
 
-1. $\Lambda$ has the finite model property when, for every formula $\varphi$ with $\Lambda \nvdash \varphi$, there is a finite $\Lambda$-frame $\mathfrak{F}$ with $\mathfrak{F} \not\models \varphi$.
+1. $\Lambda$ has the finite model property when, for every formula $\varphi$ with $\Lambda \nvdash \varphi$, there is a finite $\Lambda$-frame $\mathfrak{F}$ on which $\varphi$ is not valid.
 2. Equivalently, $\Lambda = \operatorname{Log}(\mathsf{C})$ for some class $\mathsf{C}$ of finite frames, where $\operatorname{Log}(\mathsf{C})$ is the set of formulas valid on every frame of $\mathsf{C}$.
-3. Let $f : \N \to \N$. $\Lambda$ has the $f$-bounded finite model property when the frame in item 1 can be chosen with at most $f(|\varphi|)$ worlds.
+3. Let $f : \mathbb{N} \to \mathbb{N}$. $\Lambda$ has the $f$-bounded finite model property when the frame in item 1 can be chosen with at most $f(\lvert \varphi \rvert)$ worlds.
 4. $\Lambda$ is tabular when $\Lambda = \operatorname{Log}(\mathfrak{F})$ for one finite frame $\mathfrak{F}$.
 
 ## Notation
 
-Items 1 and 2 are equivalent.
-Given item 1, take $\mathsf{C}$ to be the class of all finite $\Lambda$-frames.
-Given item 2, every frame of $\mathsf{C}$ is a finite $\Lambda$-frame.
-A weaker-looking version asks only for a finite [[Kripke model|NGHWZ9Y7ZV]] $\mathfrak{M}$ that validates every theorem of $\Lambda$ and refutes $\varphi$.
-For normal logics this model version is equivalent to the frame version, a theorem of Segerberg of 1971.
-The frame of such a model can fail to be a $\Lambda$-frame.
-The proof replaces it by a finite $\Lambda$-frame.
-Some authors write f.m.p. or FMP, and some speak of completeness for finite frames.
+Some authors write FMP or f.m.p., and some speak of completeness for finite frames.
+For $f(n) = 2^n$ the $f$-bounded property is sometimes called the exponential FMP.
 
 ## Remarks
 
-1. A tabular logic has the finite model property, with $\mathsf{C} = \set{\mathfrak{F}}$.
-2. If $\Lambda$ has the $f$-bounded finite model property and $f$ is computable, then $\Lambda$ is decidable: test all frames up to size $f(|\varphi|)$. But each test must decide whether a finite frame is a $\Lambda$-frame.
-3. For the logics $\mathsf{K}$, $\mathsf{T}$, $\mathsf{D}$, $\mathsf{K4}$, $\mathsf{S4}$, $\mathsf{B}$ and $\mathsf{S5}$, one can take $f(n) = 2^n$, see [[the finite model property theorem|XNPJK6B921]].
-4. The full discussion, with examples and non-examples, is in [[finite model property|3NT8RCA6HE]].
+### Reading the definition
+
+Items 1 and 2 say the same thing.
+Given item 1, take $\mathsf{C}$ to be the class of all finite $\Lambda$-frames.
+Given item 2, every frame of $\mathsf{C}$ is a finite $\Lambda$-frame, and every non-theorem fails on one of them.
+
+### The model version
+
+A weaker-looking version asks only for a finite [[Kripke model|NGHWZ9Y7ZV]] that makes every theorem of $\Lambda$ true and makes $\varphi$ false somewhere.
+The frame of such a model can fail to be a $\Lambda$-frame, since truth in one model is weaker than validity on the frame.
+For normal logics the model version is still equivalent to the frame version, a theorem of Segerberg of 1971, whose proof replaces the model by a finite $\Lambda$-frame.
+
+### Examples
+
+A tabular logic has the finite model property, with $\mathsf{C} = \{ \mathfrak{F} \}$.
+For $\mathsf{K}$, $\mathsf{T} = \mathsf{KT}$, $\mathsf{D} = \mathsf{KD}$, $\mathsf{K4}$, $\mathsf{S4} = \mathsf{KT4}$, $\mathsf{B} = \mathsf{KTB}$ and $\mathsf{S5} = \mathsf{KT5}$ one can take $f(n) = 2^n$, by [[the finite model property theorem|XNPJK6B921]].
+The full discussion, with examples and non-examples, is in [[finite model property|3NT8RCA6HE]].
+
+### The rule you can use
+
+If $\Lambda$ has the $f$-bounded finite model property, $f$ is computable, and one can decide whether a finite frame is a $\Lambda$-frame, then $\Lambda$ is decidable.
+Test all frames with at most $f(\lvert \varphi \rvert)$ worlds, and all valuations on them.
+
+### Watch out
+
+The definition asks for a finite frame of the logic, not only a finite model of its theorems.
+And the $f$-bounded version gives a decision method only when $\Lambda$-frames can be recognized, which is where a finite axiomatization enters, as in [[Harrop's theorem|VSYQ1AZ9G7]].
 
 ## Explanations
 
@@ -51,21 +68,17 @@ If a statement cannot be proved, some finite network of worlds, which obeys all 
 
 ### L2 human
 
-We check item 2 for the logic $\mathsf{K} + \square\bot$.
-
-1. Let $\mathfrak{F}_1$ be the frame with one world and no arrows.
-2. On $\mathfrak{F}_1$, $\square\psi$ is true for every $\psi$, so $\square\bot$ is valid.
-3. A formula is valid on $\mathfrak{F}_1$ iff it becomes a tautology when each $\square\psi$ is replaced by $\top$.
-4. The logic $\mathsf{K} + \square\bot$ proves $\square\psi \leftrightarrow \top$ for every $\psi$, from $\square\bot$ and rule RM applied to $\bot \to \psi$.
-5. By replacement it proves $\varphi \leftrightarrow \varphi^*$, where $\varphi^*$ is the formula of step 3, and it proves every tautology. So it proves every formula valid on $\mathfrak{F}_1$.
-6. Conversely, $\square\bot$ is valid on $\mathfrak{F}_1$, so by soundness every theorem is valid on $\mathfrak{F}_1$.
-7. So $\mathsf{K} + \square\bot = \operatorname{Log}(\mathfrak{F}_1)$, and the logic is tabular.
-
+We check item 4 for the logic $\mathsf{K} + \square\bot$.
+Let $\mathfrak{F}_1$ be the frame with one world and no arrows.
+On $\mathfrak{F}_1$, $\square\psi$ is true for every $\psi$, so $\square\bot$ is valid there.
+A formula is valid on $\mathfrak{F}_1$ exactly when it becomes a tautology after each outermost $\square\psi$ is replaced by $\top$.
+The logic proves $\square\psi \leftrightarrow \top$ for every $\psi$, from $\square\bot$ and the monotonicity rule applied to $\bot \to \psi$.
+By replacement of equivalents it proves each formula valid on $\mathfrak{F}_1$, and by soundness every theorem is valid on $\mathfrak{F}_1$.
+So $\mathsf{K} + \square\bot = \operatorname{Log}(\mathfrak{F}_1)$, and the logic is tabular.
 The typical use of the definition is through item 1: find a finite countermodel on the right frame.
-A trap: a finite model of the right kind of formulas is not enough; its frame must validate all theorems of $\Lambda$.
 
 ### L3 human
 
-The finite model property is the statement that the variety of modal algebras of $\Lambda$ is generated by its finite members.
+The finite model property says that the variety of modal algebras of $\Lambda$ is generated by its finite members.
 For a finitely axiomatized logic it gives decidability by [[Harrop's theorem|VSYQ1AZ9G7]].
-But the bound on the size of the models can be large, and complexity needs other methods.
+But the bound on the size of the models can be large, and finer complexity bounds need other methods.
