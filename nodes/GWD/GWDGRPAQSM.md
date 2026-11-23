@@ -20,74 +20,98 @@ history:
 
 ## Statement
 
+The size-width relation says that a short resolution refutation can always be made narrow, so a formula that forces wide clauses forces long refutations.
+For example, if every refutation of a $3$-CNF must contain a clause with $100$ literals, then every tree-like refutation has at least $2^{97}$ clauses.
+
 Let $F$ be an unsatisfiable CNF with $n$ variables.
 Write $w(F)$ for the largest width of a clause of $F$, and $w(F \vdash \square)$ for the least width of a [[resolution refutation|6JSH907W5R]] of $F$.
 Write $S_T(F \vdash \square)$ and $S(F \vdash \square)$ for the least number of clauses of a tree-like and of a general resolution refutation of $F$.
 
 **Theorem (Ben-Sasson and Wigderson).**
 
-1. *Tree-like resolution.* $S_T(F \vdash \square) \ge 2^{\,w(F \vdash \square) - w(F)}$.
-2. *General resolution.* If $w(F \vdash \square) \ge w(F) + 1$, then
-$$S(F \vdash \square) \ge \exp\left( \frac{\bigl(w(F \vdash \square) - w(F) - 1\bigr)^2}{8 n} \right).$$
+1. *Tree-like resolution.*
+   $$S_T(F \vdash \square) \ge 2^{\,w(F \vdash \square) - w(F)}.$$
+2. *General resolution.* Let $S = S(F \vdash \square)$.
+   Then
+   $$w(F \vdash \square) \le w(F) + 1 + 2\sqrt{2 n \ln S},$$
+   so the width is at most $w(F) + O(\sqrt{n \log S})$.
+   Equivalently, if $w(F \vdash \square) \ge w(F) + 1$, then
+   $$S(F \vdash \square) \ge \exp\left( \frac{\bigl(w(F \vdash \square) - w(F) - 1\bigr)^2}{8 n} \right).$$
 
-So a small refutation can be turned into a narrow one: small size implies small width.
-The measures are size in clauses and width.
+The proof systems are tree-like and general resolution, and the measures are size in clauses and width.
 
 ## Remarks
 
-### Why each hypothesis is needed
+### Why each term is there
 
-- The term $w(F)$ is needed. Every refutation contains the axioms it uses, so the width of a refutation can be as large as $w(F)$ even when the refutation is short. The theorem bounds only the width above $w(F)$.
-- The factor $n$ in part 2 is needed. Bonet and Galesi showed in 2001 that there are CNFs with polynomial-size refutations whose refutation width is of order $\sqrt n$. So the square and the factor $n$ cannot be improved in general.
-- Part 1 has no factor $n$. The bound $2^{w - w(F)}$ fails for general resolution: the same examples of Bonet and Galesi have width of order $\sqrt n$ and polynomial size.
+The term $w(F)$ cannot be dropped.
+A refutation contains the axioms that it uses, so its width can be as large as $w(F)$ even when it is short, and the theorem bounds only the width above $w(F)$.
+The factor $n$ in part 2 cannot be dropped either.
+Bonet and Galesi showed in 2001 that there are CNFs of bounded width with polynomial-size refutations whose refutation width is of order $\sqrt n$.
+So the square root and the factor $n$ are the right shape in general.
+The same examples show that the tree-like bound $2^{w - w(F)}$ fails for general resolution, since $2^{\sqrt n}$ is not polynomial.
 
-### Consequences
+### What it gives you
 
-- *Lower bounds by width.* To prove $S(F \vdash \square) = 2^{\Omega(n)}$ for CNFs of bounded width, it is enough to prove $w(F \vdash \square) = \Omega(n)$.
-- *Tseitin formulas.* On a bounded-degree expander, every refutation has width $\Omega(n)$; see [[Tseitin formulas|JXTCC6KXNG]] and [[Urquhart's theorem|HF1GHVRDSD]].
-- *Random $3$-CNFs.* For a random $3$-CNF with $\Delta n$ clauses, $\Delta$ a large constant, the refutation width is $\Omega(n)$ with probability tending to $1$. So resolution needs size $2^{\Omega(n)}$. Chvátal and Szemerédi had proved the size bound in 1988 by a different method.
-- *Pigeonhole formulas.* For the pigeonhole formulas on a bipartite expander graph of bounded degree, the width bound gives an exponential size bound, and it implies [[Haken's theorem|4PCEYEW3JG]].
-- *Proof search.* A refutation of least width can be found in time $n^{O(w)}$ by deriving all clauses of width at most $w$. So by part 2, a refutation of size $S$ yields an algorithm that finds a refutation in time $n^{O(\sqrt{n \log S})}$. This is the width-based search of Ben-Sasson and Wigderson; see [[automatizability|WBECDG163W]].
+To prove $S(F \vdash \square) = 2^{\Omega(n)}$ for a CNF of bounded width, it is enough to prove $w(F \vdash \square) = \Omega(n)$.
+Width is a local quantity, so such a bound is often a short combinatorial argument.
+On a bounded-degree expander every refutation of the [[Tseitin formulas|JXTCC6KXNG]] has linear width, which gives [[Urquhart's theorem|HF1GHVRDSD]].
+For a random $3$-CNF with $\Delta n$ clauses, $\Delta$ a large constant, the refutation width is $\Omega(n)$ with probability tending to $1$, so resolution needs size $2^{\Omega(n)}$; Chvátal and Szemerédi had proved this size bound in 1988 by another method.
+For the pigeonhole formulas on a bipartite expander of bounded degree, the width bound gives an exponential size bound, and it implies [[Haken's theorem|4PCEYEW3JG]].
 
-### Converse
+### Proof search by width
+
+All clauses of width at most $w$ can be derived in time $n^{O(w)}$, so a refutation of least width can be found in that time.
+For a CNF of bounded width with a refutation of size $S$, part 2 turns this into a search in time $n^{O(\sqrt{n \log S})}$.
+This is the width-based search of Ben-Sasson and Wigderson; it is a weak form of [[automatizability|WBECDG163W]].
+
+### The converse
 
 A converse holds in a weaker form.
 There are at most $(2n + 1)^w$ clauses of width at most $w$, so a refutation of width $w$ gives a refutation of size at most $(2n+1)^w$.
+Check for $w = 1$: the empty clause and the $2n$ literals give $2n + 1$ clauses.
 So constant width gives polynomial size, but width of order $\log n$ gives only a quasi-polynomial bound on size.
+
+### Watch out
+
+The general bound gives nothing until the width passes about $\sqrt{n}$.
+For example, with $n = 10^4$ variables, $w(F) = 3$ and refutation width $50$, the exponent is $46^2/(8 \cdot 10^4) \approx 0.26$, so the bound is $S \ge 1.3$.
+The tree-like bound for the same numbers is $2^{47}$.
+So a width bound of order $\sqrt n$ or less proves a lot for tree-like resolution and almost nothing for general resolution.
 
 ### Generalizations
 
-- Analogous size-degree relations hold for the [[polynomial calculus|ZERBQSTZB5]], where degree plays the role of width.
-- The general bound holds with $n$ replaced by the largest number of variables that occur in a refutation, by the same proof.
+Impagliazzo, Pudlák and Sgall proved a size-degree relation of the same shape for the [[polynomial calculus|ZERBQSTZB5]], with degree in the role of width.
+The general bound also holds with $n$ replaced by the number of variables that occur in the refutation, by the same proof.
 
 ## History
 
 Eli Ben-Sasson and Avi Wigderson proved the theorem in "Short proofs are narrow: resolution made simple", presented in 1999 and published in 2001.
-It unified the earlier lower bounds of Haken, Urquhart, and Chvátal and Szemerédi, which had used separate counting arguments.
+It unified the earlier exponential lower bounds for resolution of Haken, Urquhart, and Chvátal and Szemerédi, which had used separate counting arguments.
 
 ## Explanations
 
 ### L1 human
 
-The width of a resolution proof is the length of its longest clause.
+The width of a resolution proof is the number of letters in its longest clause.
 The theorem says that a short proof never needs very long clauses.
 So if every proof of a formula needs long clauses, then every proof is long.
-For example, if a formula with $10^4$ variables has clauses of width $3$ and needs refutation width $1000$, then every tree-like refutation has more than $2^{997}$ clauses.
+For example, if a formula has clauses of $3$ letters and every proof needs a clause of $1000$ letters, then every tree-like proof has more than $2^{997}$ clauses.
 
 ### L2 human
 
 We apply part 2 to a CNF of width $3$ with $n$ variables and refutation width $n/10$.
-
-1. $w(F \vdash \square) - w(F) - 1 = n/10 - 4$.
-2. For $n \ge 80$, $n/10 - 4 \ge n/20$, so the square is at least $n^2/400$.
-3. So $S(F \vdash \square) \ge \exp\bigl(n^2/(400 \cdot 8 n)\bigr) = \exp(n/3200)$.
-
-The typical use of the theorem is to prove a lower bound on width by a combinatorial argument, and then read off the size bound.
-A trap: the general bound needs width larger than about $\sqrt{n}$ to give anything, while the tree-like bound works for any width above $w(F)$.
+First compute the gap above $w(F) + 1$:
+$$w(F \vdash \square) - w(F) - 1 = \frac{n}{10} - 4.$$
+For $n \ge 80$ we have $n/10 - 4 \ge n/20$, so the square is at least $n^2/400$.
+So the size bound is
+$$S(F \vdash \square) \ge \exp\left(\frac{n^2}{400 \cdot 8 n}\right) = \exp\left(\frac{n}{3200}\right).$$
+Check at $n = 32000$: the bound is $e^{10} \approx 22026$, and it grows by a factor $e$ for every $3200$ more variables.
+The typical use of the theorem is exactly this: prove a linear lower bound on width by a combinatorial argument, and read off an exponential size bound.
 
 ### L3 human
 
-The theorem turns size lower bounds for resolution into a game on partial assignments, since width is controlled by local consistency.
-Its proof is a restriction argument with the [[restriction lemma|7RX0Z6S1KZ]] at its center.
-Size-degree relations of the same shape hold for the polynomial calculus.
+The theorem turns size lower bounds for resolution into a question about local consistency, since width is controlled by what a refutation can know about small sets of variables.
+Its proof is a restriction argument, with the [[restriction lemma|7RX0Z6S1KZ]] at its center.
 Atserias and Dalmau characterized resolution width by a game in which a prover may remember only a bounded number of variables.
+The same idea, a measure of local complexity that small proofs keep small, gives the size-degree relation for the polynomial calculus.
