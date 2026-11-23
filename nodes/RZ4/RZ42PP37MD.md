@@ -22,7 +22,9 @@ sources:
 
 ## Statement
 
-Let $L_A = \set{0, S, +, \cdot}$ be the signature of arithmetic, and let $\mathsf{Q}$ be [[Robinson arithmetic|3K1AKGXF8A]], the theory in $L_A$ axiomatized by its seven axioms.
+The theorem says that no consistent theory of arithmetic that contains seven simple axioms can be decided by an algorithm.
+
+Let $L_A = \{0, S, +, \cdot\}$ be the signature of arithmetic, and let $\mathsf{Q}$ be [[Robinson arithmetic|3K1AKGXF8A]], the theory in $L_A$ axiomatized by its seven axioms.
 Let $T$ be a [[consistent|VM8TQ70CVJ]] theory in $L_A$ with $\mathsf{Q} \subseteq T$.
 Then $T$ is not a [[decidable theory|HWC687ES0Q]].
 In other words, $\mathsf{Q}$ is [[essentially undecidable|9JDDFN8PT7]].
@@ -31,26 +33,48 @@ In other words, $\mathsf{Q}$ is [[essentially undecidable|9JDDFN8PT7]].
 
 ### Why each hypothesis is needed
 
-- Consistency is needed. The inconsistent theory, the set of all $L_A$-sentences, contains $\mathsf{Q}$ and is decidable.
-- The axioms of $\mathsf{Q}$ are needed. The theory of the one-element structure, with $S$, $+$ and $\cdot$ all constant, is consistent and decidable, and it does not contain axiom 1, $S x \ne 0$.
-- The signature matters only through the axioms: a theory in a larger signature that contains $\mathsf{Q}$ is undecidable as well, since its $L_A$-part is a consistent extension of $\mathsf{Q}$.
+Consistency is needed.
+The inconsistent theory, the set of all $L_A$-sentences, contains $\mathsf{Q}$ and is decidable.
 
-### Consequences
+The axioms of $\mathsf{Q}$ are needed.
+Take the one-element structure, in which $0$ is the only element and $S$, $+$ and $\cdot$ all have the value $0$.
+Its theory is consistent and decidable by evaluation, and it does not contain axiom 1, $\forall x \, (S x \ne 0)$, since $S 0 = 0$ there.
 
-1. True arithmetic $\operatorname{Th}(\N, 0, S, +, \cdot)$ is undecidable, and so is [[Peano arithmetic|EYKECP4YKP]].
-2. $\mathsf{Q}$ has no consistent complete axiomatizable extension. This is the Gödel-Rosser incompleteness theorem for $\mathsf{Q}$, by the theorem on [[complete axiomatizable theories|HZ7A7B2ERA]].
-3. Since $\mathsf{Q}$ is finitely axiomatized, the set of valid $L_A$-sentences is undecidable. This is [[Church's theorem|VA6BNNY2YC]] for the signature of arithmetic.
-4. By the [[transfer theorem|FMB2C20G8W]], every theory that interprets $\mathsf{Q}$ is essentially undecidable.
+The signature matters only through the axioms.
+A consistent theory in a larger signature that contains $\mathsf{Q}$ is undecidable as well, since its $L_A$-part is a consistent extension of $\mathsf{Q}$.
 
-### Converse
+### What it gives you
+
+True arithmetic $\operatorname{Th}(\mathbb{N}, 0, S, +, \cdot)$ is undecidable, and so is [[Peano arithmetic|EYKECP4YKP]], with all its consistent extensions.
+$\mathsf{Q}$ has no consistent complete axiomatizable extension, by the theorem on [[complete axiomatizable theories|HZ7A7B2ERA]], and this is the Gödel-Rosser incompleteness theorem for $\mathsf{Q}$.
+
+Since $\mathsf{Q}$ is finitely axiomatized with axiom conjunction $A$, a sentence $\sigma$ is a theorem of $\mathsf{Q}$ exactly when $A \to \sigma$ is valid.
+So the set of valid $L_A$-sentences is undecidable, and this is [[Church's theorem|VA6BNNY2YC]] for the signature of arithmetic.
+By the [[transfer theorem|FMB2C20G8W]], every consistent theory that interprets $\mathsf{Q}$ is essentially undecidable.
+
+### The converse
 
 The converse fails: an undecidable theory need not contain $\mathsf{Q}$.
-The empty theory in a signature with one binary relation symbol is undecidable, by Church's theorem, and it contains no arithmetic.
+The theory with no axioms in a signature with one binary relation symbol is undecidable, by Church's theorem, and it contains no arithmetic.
 
 ### Generalizations
 
-- The same proof works for every consistent theory in which all computable relations are representable, for example Robinson's theory $\mathsf{R}$.
-- The theorems of $\mathsf{Q}$ and the sentences refutable in $\mathsf{Q}$ form two computably inseparable sets.
+The same proof works for every consistent theory in which all computable relations are representable, for example Robinson's theory $\mathsf{R}$.
+A stronger form holds: the theorems of $\mathsf{Q}$ and the sentences refutable in $\mathsf{Q}$ form two computably inseparable sets.
+
+### Watch out
+
+Do not conclude that every theory true in $\mathbb{N}$ in a smaller signature is undecidable.
+$\operatorname{Th}(\mathbb{N}, 0, S, +)$ is decidable by Presburger's theorem, because $\mathsf{Q}$ needs multiplication to represent the computable relations.
+
+### Try it
+
+Is the theory of $(\mathbb{N}, 0, S, +, \cdot, <)$ decidable?
+No: it is consistent, and its $L_A$-part contains $\mathsf{Q}$, so the remark on larger signatures applies.
+
+Is $\mathsf{Q}$ plus the axiom $\exists x \, (S x = x)$ decidable?
+It is false in $\mathbb{N}$, but it is consistent: add to $\mathbb{N}$ one element $a$ with $S a = a$ and with every sum and product that involves $a$ equal to $a$, except $0 \cdot a = a \cdot 0 = 0$.
+So it is undecidable, like every consistent extension of $\mathsf{Q}$.
 
 ## History
 
@@ -69,19 +93,21 @@ The proof feeds the computer a statement that talks about the computer's own ans
 
 ### L2 human
 
-We follow the diagonal argument on a toy scale.
+We follow the diagonal argument step by step.
 
 1. Number all formulas with one free variable as $\varphi_0, \varphi_1, \varphi_2, \ldots$.
-2. Suppose a decision procedure for $T$ exists. Then the set $D$ of $n$ with $\varphi_n(\bar{n}) \notin T$ is computable.
+2. Suppose a decision procedure for $T$ exists.
+   Then the set $D$ of $n$ with $\varphi_n(\bar{n}) \notin T$ is computable.
 3. By representability, some formula $\varphi_d$ is proved by $\mathsf{Q}$ at exactly the numerals of members of $D$, and refuted at the others.
-4. If $d \in D$, then $T$ proves $\varphi_d(\bar{d})$, so $d \notin D$. If $d \notin D$, then $T$ proves both $\varphi_d(\bar{d})$ and its negation.
+4. If $d \in D$, then $T$ proves $\varphi_d(\bar{d})$, so $d \notin D$.
+   If $d \notin D$, then $T$ proves both $\varphi_d(\bar{d})$ and its negation.
 5. Both cases are impossible, so no decision procedure exists.
 
 The typical use is as the starting point of undecidability proofs by interpretation.
-A trap is to forget the role of consistency: it is used only in the second case of step 4.
+Watch out: consistency is used only in the second case of step 4.
 
 ### L3 human
 
 The theorem shows that undecidability already lives in a very weak, finitely axiomatized theory that has no induction at all.
-The heavy part is the representability of computable relations in $\mathsf{Q}$, which belongs to the theory of incompleteness; the diagonal step itself is short.
+The heavy part is the representability of computable relations in $\mathsf{Q}$, which belongs to the theory of incompleteness, and the diagonal step itself is short.
 Through interpretations, $\mathsf{Q}$ is the common source of the undecidability of arithmetic, of the theory of rings and of the theory of fields.
