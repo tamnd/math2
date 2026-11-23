@@ -38,7 +38,7 @@ So we need a new operator, and we must find and justify its laws, such as $\squa
 
 Modal logic answers such questions with exact tools: axiom systems, the possible-world models of [[Kripke semantics|NGHWZ9Y7ZV]], and completeness theorems.
 The same tools serve computer science, where $\square\varphi$ reads "after every step of the program, $\varphi$" or "in every state reachable from here, $\varphi$".
-The rest of the sub-area builds the theory step by step: models, the logic $\mathsf{K}$ and its extensions up to $\mathsf{S5}$, and then completeness, filtration and decidability.
+The basic theory comes in steps: models, the logic $\mathsf{K}$ and its extensions up to $\mathsf{S5}$, and then completeness, filtration and decidability.
 
 ## Notation
 
@@ -76,7 +76,7 @@ Each of the four unary truth functions either misses the theorem $\square\top$ o
 
 The intersection of any family of modal logics is a modal logic, because each closure condition survives intersection.
 So every set of formulas lies in a smallest modal logic.
-The logics of the sub-area are [[normal|D1TJYZZDCY]]: they also contain the axiom $\mathrm{K}$, $\square(p \to q) \to (\square p \to \square q)$, and they are closed under the [[necessitation rule|G989VP2NGP]].
+The logics studied most are [[normal|D1TJYZZDCY]]: they also contain the axiom $\mathrm{K}$, $\square(p \to q) \to (\square p \to \square q)$, and they are closed under the [[necessitation rule|G989VP2NGP]].
 In every normal logic $\square\varphi \leftrightarrow \neg\lozenge\neg\varphi$ is a theorem, since $\neg\neg\psi \leftrightarrow \psi$ is a tautology and the box respects provable equivalence.
 Logics that are not normal, such as those of [[neighborhood semantics|CN7HK9K1B6]], still satisfy the definition of a modal logic.
 
@@ -133,5 +133,5 @@ From the algebraic view, a normal modal logic is the equational theory of a vari
 Kripke frames give the complex algebras of this variety, and the [[canonical model|TVE4F04KME]] is the logical form of the representation theorem of Jónsson and Tarski.
 From the model-theoretic view, modal formulas are first-order formulas in one free variable, by the [[standard translation|YW6YGBMVQY]].
 Up to equivalence they are exactly the first-order formulas invariant under [[bisimulation|X27BR4YP2Y]], by the [[van Benthem characterization theorem|Y89MGMWE4H]].
-These questions belong to the sub-area on [[modal model theory|SPQVNPZDTB]].
+These questions belong to [[modal model theory|SPQVNPZDTB]].
 The applied readings (time, knowledge, obligation) return in [[applied modal logics|CQM9SRN8PM]], and the provability reading in [[provability logics|3E7M66WW6Q]].
