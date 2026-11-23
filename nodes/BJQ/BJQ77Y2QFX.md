@@ -18,98 +18,119 @@ sources:
 
 ## Summary
 
-*Weak weak König's lemma*, $\mathsf{WWKL}$, is the following sentence of [[second-order arithmetic|DC60FYCSPM]]: every tree $T \subseteq 2^{<\N}$ of positive measure has an infinite path, where $T$ has positive measure if some rational $q > 0$ satisfies $\abs{\set{\sigma \in T : \abs{\sigma} = n}} / 2^n \ge q$ for all $n$.
-The system $\mathsf{WWKL}_0$ is [[RCA0|XQENB067R3]] together with $\mathsf{WWKL}$; the [[definition|KPHM3025GW]] gives it in full.
-$\mathsf{WWKL}_0$ is strictly between $\mathsf{RCA}_0$ and $\mathsf{WKL}_0$, and it is the system that measures the strength of basic theorems of measure theory, such as the countable additivity of [[Lebesgue measure|2Z2QVWZ262]].
+There is a computable binary tree that keeps at least half of all strings at every length and still has no computable path.
+*Weak weak König's lemma*, $\mathrm{WWKL}$, is the axiom that every such fat tree has a path, and it is the axiom that measure theory needs where analysis would need compactness.
+Exactly, $\mathrm{WWKL}$ is the sentence of [[second-order arithmetic|DC60FYCSPM]] that says: every tree $T \subseteq 2^{<\mathbb{N}}$ of positive measure has an infinite path.
+Here $T_n$ is the set of strings in $T$ of length $n$, and $T$ has *positive measure* if some rational $q > 0$ satisfies
+$$\frac{\lvert T_n \rvert}{2^n} \ge q \quad \text{for all } n.$$
+The system $\mathsf{WWKL}_0$ is [[RCA0|XQENB067R3]] together with $\mathrm{WWKL}$, and the [[definition|KPHM3025GW]] gives it in full.
+It lies strictly between $\mathsf{RCA}_0$ and $\mathsf{WKL}_0$, and it measures the basic theorems about [[Lebesgue measure|2Z2QVWZ262]].
 
 ## Motivation
 
 [[Weak König's lemma|7W9EG02T79]] says that every infinite binary tree has a path, and it is equivalent over $\mathsf{RCA}_0$ to the Heine-Borel covering property of $[0, 1]$.
-Compactness is the right tool for many theorems of analysis, but measure theory uses a different property.
-A typical step in measure theory says: a set of positive measure is not empty.
-For a closed subset of [[Cantor space|W9VYJRBF9N]] this step is exactly $\mathsf{WWKL}$, because the closed set is the set of paths of a tree, and its measure is the limit of $\abs{T_n} / 2^n$.
-Yu and Simpson asked which axioms the elementary theory of Lebesgue measure needs, and they isolated $\mathsf{WWKL}$ in 1990.
-Computability theory adds a second reason: the trees of positive measure are the trees whose paths include random sets, so $\mathsf{WWKL}$ is the axiom "random sets exist".
+Measure theory leans on a different step: a set of positive measure is not empty.
+For a closed subset of [[Cantor space|W9VYJRBF9N]], this step is exactly $\mathrm{WWKL}$, since the closed set is the set of paths of a tree and its measure is the limit of $\lvert T_n \rvert / 2^n$.
+Yu and Simpson isolated the axiom in 1990, when they asked which axioms the elementary theory of Lebesgue measure needs.
+Computability gives a second reading.
+The paths of a fat computable tree can all be random, and every random set has a tail in every such class, so $\mathrm{WWKL}$ says, in effect, that random sets exist.
+The principle returns in the [[reverse mathematics zoo|E3X5B175ZR]], where it sits between $\mathsf{WKL}_0$ and $\mathrm{DNR}$.
 
 ## Notation
 
-We write $T_n = \set{\sigma \in T : \abs{\sigma} = n}$ and $[T]$ for the set of paths of $T$.
-The measure on Cantor space is the uniform measure $\mu$ with $\mu([\sigma]) = 2^{-\abs{\sigma}}$, where $[\sigma]$ is the set of sequences that begin with $\sigma$.
-Some authors write "fat tree" for a tree of positive measure, and some write $\mathsf{WWKL}$ for the system $\mathsf{WWKL}_0$.
-An $\omega$-model is written $(\N, \mathcal{S})$ with $\mathcal{S} \subseteq \mathcal{P}(\N)$.
+We write $T_n = \{\sigma \in T : \lvert \sigma \rvert = n\}$ and $[T]$ for the set of paths of $T$.
+The measure on Cantor space is the uniform measure $\mu$, with $\mu([\sigma]) = 2^{-\lvert \sigma \rvert}$, where $[\sigma]$ is the set of sequences that begin with $\sigma$.
+Some authors call a tree of positive measure a *fat* tree, and some write $\mathrm{WWKL}$ for the system $\mathsf{WWKL}_0$.
 
 ## Remarks
 
-### Examples
+### A tree you can count
 
-- The tree of strings that avoid a block of $1$s in fixed disjoint places has measure about $0.578$, and the all-zero sequence is a path. The [[example of a tree of positive measure|JF081V3699]] computes the levels.
-- A universal Martin-Löf test gives a computable tree of measure at least $\tfrac{1}{2}$ with no computable path. The [[example|7KNY1EMB1G]] checks each step, and it shows that $\mathsf{RCA}_0$ does not prove $\mathsf{WWKL}$.
-- Over $\mathsf{RCA}_0$, $\mathsf{WWKL}$ is equivalent to the statement: if a sequence of open intervals $(a_k, b_k)$ covers $[0, 1]$, then $\sum_k (b_k - a_k) \ge 1$. This form of countable additivity is due to Yu and Simpson.
-- Over $\mathsf{RCA}_0$, $\mathsf{WWKL}$ is equivalent to a form of the [[Vitali covering lemma|FCA0J1X07K]] for countable coverings (Brown, Giusto and Simpson, 2002).
-- Over $\mathsf{RCA}_0$, $\mathsf{WWKL}$ is equivalent to the statement "for every set $X$ there is a set that is Martin-Löf random relative to $X$".
+Split $\mathbb{N}$ into blocks of $2, 3, 4, \dots$ positions, and keep a string unless it is all ones on some complete block.
+At length $9$ the complete blocks have $2$, $3$ and $4$ positions, so
+$$\frac{\lvert T_9 \rvert}{2^9} = \frac{3}{4} \cdot \frac{7}{8} \cdot \frac{15}{16} = \frac{315}{512} \approx 0.615.$$
+The forbidden fractions add up to less than $\tfrac{1}{4} + \tfrac{1}{8} + \cdots = \tfrac{1}{2}$, so the ratio never drops below $\tfrac{1}{2}$.
+The all-zero sequence is a path, and the [[worked example|JF081V3699]] computes every level.
 
-### Non-examples
+### A tree with no computable path
 
-- The separation tree of two disjoint computably enumerable sets whose union is infinite is infinite, but its measure is $0$. The [[non-example|X9911PGV0N]] computes its levels. $\mathsf{WWKL}$ gives no path through it, and this is the difference between $\mathsf{WWKL}$ and $\mathsf{WKL}$.
-- The tree $\set{0^n : n \in \N}$ of the strings of zeros has $\abs{T_n} = 1$, so $\abs{T_n} / 2^n = 2^{-n}$ tends to $0$. No rational $q > 0$ bounds the ratio from below, so the hypothesis of $\mathsf{WWKL}$ fails, although the tree has a path.
+The first level $U_1$ of a universal Martin-Löf test is an open set of measure at most $\tfrac{1}{2}$ that contains every non-random sequence.
+The strings not yet covered by $U_1$ at stage $\lvert \sigma \rvert$ form a computable tree with $\lvert T_n \rvert / 2^n \ge \tfrac{1}{2}$.
+Every path of it lies outside $U_1$, so it is random, and no computable sequence is random.
+The [[example|7KNY1EMB1G]] checks each step, and it shows that $\mathsf{RCA}_0$ does not prove $\mathrm{WWKL}$.
 
-### Basic properties
+### Thin trees
 
-1. $\mathsf{WKL}_0$ proves $\mathsf{WWKL}$. A tree of positive measure has $\abs{T_n} \ge q 2^n > 0$ for every $n$, so it is infinite, and weak König's lemma gives a path.
-2. $\mathsf{WWKL}_0$ does not prove $\mathsf{WKL}$ (Yu and Simpson, 1990). By property 4, an $\omega$-model of $\mathsf{WWKL}_0$ needs only random sets, and there are such models with no set of PA degree, in which weak König's lemma fails.
-3. $\mathsf{RCA}_0$ does not prove $\mathsf{WWKL}$. The computable sets form an $\omega$-model of $\mathsf{RCA}_0$, and the [[computable tree of example 2|7KNY1EMB1G]] has no computable path.
-4. An $\omega$-model $(\N, \mathcal{S})$ satisfies $\mathsf{WWKL}_0$ if and only if $\mathcal{S}$ is a Turing ideal that contains, for each $X \in \mathcal{S}$, a set that is [[Martin-Löf random|X5KD3X3VJ3]] relative to $X$.
-5. $\mathsf{WWKL}_0$ is conservative over $\mathsf{RCA}_0$ for $\Pi^1_1$ sentences. This follows from Harrington's theorem that $\mathsf{WKL}_0$ is $\Pi^1_1$-conservative over $\mathsf{RCA}_0$, because $\mathsf{WWKL}_0$ lies between the two systems.
-6. $\mathsf{WWKL}$ implies $\mathsf{DNR}$, and the converse fails (Ambos-Spies, Kjos-Hanssen, Lempp and Slaman, 2004). Ramsey's theorem for pairs does not imply $\mathsf{WWKL}$ (Liu, 2015). These relations place $\mathsf{WWKL}$ in the [[reverse mathematics zoo|E3X5B175ZR]].
+The tree $\{0^n : n \in \mathbb{N}\}$ has $\lvert T_n \rvert / 2^n = 2^{-n}$, so no rational $q > 0$ bounds the ratio from below, although the tree has a path.
+The separation tree of two disjoint computably enumerable sets with infinite union is a more telling case.
+Each enumerated element fixes one bit, so the ratio tends to $0$, and the [[non-example|X9911PGV0N]] computes it.
+Weak König's lemma applies to this tree and $\mathrm{WWKL}$ does not, and this is the gap between the two principles.
 
-Proof of property 4, in outline.
-Let $(\N, \mathcal{S})$ be an $\omega$-model of $\mathsf{RCA}_0$, so that $\mathcal{S}$ is a Turing ideal.
-For "only if": the construction of example 2, relativized to $X \in \mathcal{S}$, gives an $X$-computable tree of measure at least $\tfrac{1}{2}$ whose paths are all random relative to $X$; the tree is in $\mathcal{S}$, so a path is in $\mathcal{S}$.
-For "if": let $T \in \mathcal{S}$ have positive measure, and let $Y \in \mathcal{S}$ be random relative to $T$.
-The set $[T]$ is a $\Pi^0_1$ class relative to $T$ with positive measure.
-By Kučera's lemma, which we cite, some final segment $Z$ of $Y$ lies in $[T]$.
-Since $Z$ is computable from $Y$, it is in $\mathcal{S}$, and $Z$ is the required path.
+### Where WWKL sits
+
+$\mathsf{WKL}_0$ proves $\mathrm{WWKL}$, since a tree of positive measure has $\lvert T_n \rvert \ge q 2^n > 0$ for every $n$, so it is infinite.
+Yu and Simpson showed that the converse fails.
+Since $\mathsf{WWKL}_0$ lies between $\mathsf{RCA}_0$ and $\mathsf{WKL}_0$, Harrington's theorem that $\mathsf{WKL}_0$ is [[Π¹₁-conservative over RCA0|8G2GVRXWG5]] gives the same conservation for $\mathsf{WWKL}_0$.
+$\mathrm{WWKL}$ implies $\mathrm{DNR}$, and the converse fails, by Ambos-Spies, Kjos-Hanssen, Lempp and Slaman in 2004.
+Ramsey's theorem for pairs does not imply $\mathrm{WWKL}$, by Liu in 2015.
+Over $\mathsf{RCA}_0$, Yu and Simpson showed that $\mathrm{WWKL}$ is equivalent to a form of countable additivity: if open intervals $(a_k, b_k)$ cover $[0, 1]$, then $\sum_k (b_k - a_k) \ge 1$.
+Brown, Giusto and Simpson showed in 2002 that it is also equivalent to a form of the [[Vitali covering lemma|FCA0J1X07K]].
+
+### Models and randomness
+
+An $\omega$-model $(\mathbb{N}, \mathcal{S})$ satisfies $\mathsf{WWKL}_0$ exactly when $\mathcal{S}$ is a Turing ideal that contains, for each $X \in \mathcal{S}$, a set that is [[Martin-Löf random|X5KD3X3VJ3]] relative to $X$.
+For one direction, the tree of the example built relative to $X$ lies in $\mathcal{S}$, and its paths are random relative to $X$.
+For the other, let $T \in \mathcal{S}$ have positive measure, and let $Y \in \mathcal{S}$ be random relative to $T$.
+By Kučera's lemma, which we cite, some tail $Z$ of $Y$, the sequence $Z(n) = Y(n + k)$ for a fixed $k$, is a path of $T$.
+$Z$ is computable from $Y$, so it is in $\mathcal{S}$.
+Over $\mathsf{RCA}_0$ the same idea makes $\mathrm{WWKL}$ equivalent to "for every set $X$ there is a set that is Martin-Löf random relative to $X$".
+
+### Watch out
+
+Do not weaken the hypothesis to "each level $T_n$ is non-empty"; that is the hypothesis of weak König's lemma, which is strictly stronger.
+Do not define positive measure by $\lim_n \lvert T_n \rvert / 2^n > 0$ inside $\mathsf{RCA}_0$.
+The ratios form a non-increasing computable sequence of rationals, and its limit can be a noncomputable real, so $\mathsf{RCA}_0$ need not prove that the limit exists.
+The rational bound $q$ says "the limit is positive" without naming the limit.
 
 ### History
 
-Yu and Simpson introduced $\mathsf{WWKL}$ in "Measure theory and weak König's lemma" (Archive for Mathematical Logic, 1990).
-They proved that it is strictly weaker than $\mathsf{WKL}$ and that it is equivalent to a formal version of countable additivity of Lebesgue measure on open sets.
-Brown, Giusto and Simpson added the Vitali covering theorem in 2002, and the link with Martin-Löf randomness became a standard tool of the area.
+Xiaokang Yu and Stephen Simpson introduced $\mathrm{WWKL}$ in "Measure theory and weak König's lemma" (Archive for Mathematical Logic, 1990).
+They proved that it is strictly weaker than $\mathrm{WKL}$ and equivalent to countable additivity of Lebesgue measure on open sets.
+Brown, Giusto and Simpson added the Vitali covering theorem in 2002.
 
-### Common errors
+### Try it
 
-- Asking only that each level $T_n$ is non-empty. That is the hypothesis of $\mathsf{WKL}$, which is strictly stronger.
-- Defining positive measure by "$\lim_n \abs{T_n} / 2^n > 0$" inside $\mathsf{RCA}_0$. The limit need not exist there as a real number, so the definition uses a rational lower bound $q$.
-- Reading property 4 with "computes a random set" in place of "contains a random set relative to each $X$". The relativization is needed, because a model must handle trees computable from every set that it contains.
+Does the tree of strings that do not begin with $11$ have positive measure?
+Answer: yes, $\lvert T_n \rvert = 2^n - 2^{n-2} = \tfrac{3}{4} 2^n$ for $n \ge 2$, so $q = \tfrac{3}{4}$ works.
+
+Does the tree of strings with no $1$ at an even position have positive measure?
+Answer: no, a string of length $n$ has $\lceil n / 2 \rceil$ even positions, so the ratio is $2^{-\lceil n/2 \rceil}$, which tends to $0$.
 
 ## Explanations
 
 ### L1 human
 
 Picture all infinite sequences of coin flips.
-A binary tree cuts out some of them by forbidding certain starts.
-If the tree keeps at least a fixed fraction of all starts at every length, then the sequences that survive form a set of positive probability.
+A binary tree cuts some of them out by forbidding certain starts.
+If the tree keeps at least a fixed fraction of all starts at every length, the surviving sequences have positive probability.
 Weak weak König's lemma says that such a set is never empty.
-For instance, forbid the starts "$1, 1$" and "$\ast, \ast, 1, 1, 1$": at least half of all starts survive at every length, and the sequence of all zeros survives.
+For example, forbid every start that begins "heads, heads": three quarters of all starts survive, and "all tails" is a surviving sequence.
 Logicians use this axiom to measure how much strength the basic facts about length and area need.
 
 ### L2 human
 
-We check property 1 on a concrete tree: the tree $T$ of strings that do not begin with $11$.
-
-1. For $n \ge 2$, $\abs{T_n} = 2^n - 2^{n-2} = \tfrac{3}{4} 2^n$. For $n \le 1$, $\abs{T_n} = 2^n$.
-2. So $\abs{T_n} / 2^n \ge \tfrac{3}{4}$ for all $n$, and $T$ has positive measure with $q = \tfrac{3}{4}$.
-3. In particular $\abs{T_n} \ge 1$ for all $n$, so $T$ is infinite.
-4. Weak König's lemma gives a path. Here a path is the sequence $0, 0, 0, \dots$, which is computable.
-
-The typical use of $\mathsf{WWKL}$ in a reversal: from a theorem of measure theory one builds, for a given tree of positive measure, a sequence of intervals whose measure contradicts the theorem unless the tree has a path.
-The trap: $\mathsf{WWKL}$ needs a fixed rational $q$; a tree whose level fractions are positive but tend to $0$ is not covered.
+Here is the shape of a typical reversal to $\mathrm{WWKL}$, from countable additivity.
+Let $T$ have positive measure with bound $q$, and suppose that $T$ has no path.
+Each string $\sigma \notin T$ gives an open interval of reals of length $2^{-\lvert \sigma \rvert}$, and these intervals, slightly enlarged, cover $[0, 1]$, because every sequence leaves $T$ somewhere.
+At each length $n$ the intervals of the minimal strings outside $T$ have total length at most $1 - q$, so the sum of all lengths is at most $1 - q$ plus the enlargement.
+With a total enlargement below $q$, this contradicts countable additivity, so $T$ has a path.
+The typical use is this conversion between trees and covers.
+The trap is the binary expansion: dyadic rationals have two expansions, so the intervals must be enlarged a little, and the error budget must stay below $q$.
 
 ### L3 human
 
-$\mathsf{WWKL}$ is the first principle of reverse mathematics that is defined by measure, not by compactness or comprehension.
-In computability terms, $\mathsf{WKL}$ asks for sets of PA degree, and $\mathsf{WWKL}$ asks only for random sets.
-Every set of PA degree computes a random set.
-But almost every random set, in the sense of measure, computes no set of PA degree, and this explains the strict inequality.
-Later work studied further measure principles, such as forms of the monotone convergence theorem for Lebesgue measure, and placed several of them at the level of $\mathsf{WWKL}_0$.
-The study of randomness itself is a part of computability theory, in [[algorithmic randomness|2B354NY7F7]]; the finer comparison of $\mathsf{WWKL}$ with $\mathsf{DNR}$ and with Ramsey-type principles is part of the [[reverse mathematics zoo|E3X5B175ZR]].
+$\mathrm{WWKL}$ is defined by measure rather than by compactness or comprehension, and it brought measure theory into reverse mathematics as a source of axioms.
+In terms of degrees, $\mathrm{WKL}$ asks for sets of PA degree, and $\mathrm{WWKL}$ asks only for random sets.
+Every set of PA degree computes a random set, but almost every random set computes no set of PA degree, and this explains the strict inequality.
+Randomness itself belongs to [[algorithmic randomness|2B354NY7F7]], and the comparison of $\mathrm{WWKL}$ with $\mathrm{DNR}$ and with Ramsey-type principles belongs to the zoo.
+In constructive mathematics, forms of the fan theorem play the part of $\mathrm{WKL}$, a topic of [[constructive reverse mathematics|3XFMHSCVYZ]].

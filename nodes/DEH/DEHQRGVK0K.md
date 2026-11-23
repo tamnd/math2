@@ -17,27 +17,33 @@ sources:
 
 ## Proof
 
-The proof goes through three conservation results, from $\mathsf{WKL}_0$ to $\mathsf{RCA}_0$, from $\mathsf{RCA}_0$ to $\mathrm{I}\Sigma_1$, and from $\mathrm{I}\Sigma_1$ to $\mathsf{PRA}$.
-The first result is proved on its own page, and the other two are cited.
+We pass through three conservation results, from $\mathsf{WKL}_0$ to $\mathsf{RCA}_0$, from $\mathsf{RCA}_0$ to $\mathrm{I}\Sigma_1$, and from $\mathrm{I}\Sigma_1$ to $\mathsf{PRA}$.
+The first is a theorem with its own proof, and we cite the other two.
 
-1. Let $\varphi \equiv \forall n\, \exists m\, \theta(n, m)$ with $\theta$ a $\Delta^0_0$ formula, and suppose that $\mathsf{WKL}_0 \vdash \varphi$.
-2. $\varphi$ has no set quantifiers, so it is a $\Pi^1_1$ sentence with an empty set quantifier.
-3. By [[Harrington's theorem|8G2GVRXWG5]], $\mathsf{WKL}_0$ is $\Pi^1_1$-conservative over $\mathsf{RCA}_0$. So $\mathsf{RCA}_0 \vdash \varphi$.
-4. Lemma A, cited without proof: every sentence of first-order arithmetic provable in [[RCA0|DNXCKXZZ08]] is provable in $\mathrm{I}\Sigma_1$, the [[fragment of Peano arithmetic|T70PYM1F36]] with induction for $\Sigma^0_1$ formulas.
-5. The proof of Lemma A expands a model $M$ of $\mathrm{I}\Sigma_1$ by the family of subsets of $M$ that are $\Delta^0_1$-definable over $M$ with parameters. This expansion is a model of $\mathsf{RCA}_0$ with the same first-order part, and the [[completeness theorem|WQ1ZE255SF]] then gives the lemma.
+1. Let $\varphi$ be $\forall n\, \exists m\, \theta(n, m)$ with $\theta$ a $\Delta^0_0$ formula, and suppose that $\mathsf{WKL}_0 \vdash \varphi$.
+2. $\varphi$ has no set quantifiers, so it is in particular a $\Pi^1_1$ sentence.
+3. By [[Harrington's theorem|8G2GVRXWG5]], $\mathsf{WKL}_0$ is $\Pi^1_1$-conservative over $\mathsf{RCA}_0$.
+   So $\mathsf{RCA}_0 \vdash \varphi$.
+4. Lemma A, cited: every sentence of first-order arithmetic provable in [[RCA0|DNXCKXZZ08]] is provable in $\mathrm{I}\Sigma_1$, the [[fragment of Peano arithmetic|T70PYM1F36]] with induction for $\Sigma^0_1$ formulas.
+5. The proof of Lemma A expands a model $M$ of $\mathrm{I}\Sigma_1$ by the family of subsets of $M$ that are $\Delta^0_1$-definable over $M$ with parameters.
+   This expansion is a model of $\mathsf{RCA}_0$ with the same first-order part, and the [[completeness theorem|WQ1ZE255SF]] then gives the lemma.
 6. By step 3 and Lemma A, $\mathrm{I}\Sigma_1 \vdash \varphi$.
-7. Lemma B, Parsons's theorem, cited without proof: if $\mathrm{I}\Sigma_1$ proves $\forall n\, \exists m\, \theta(n, m)$ with $\theta$ a $\Delta^0_0$ formula, then there is a primitive recursive function $f$ such that $\mathsf{PRA}$ proves $\theta(n, f(n))$. Parsons, Mints and Takeuti found proofs of this lemma independently.
+7. Lemma B, Parsons's theorem, cited: if $\mathrm{I}\Sigma_1$ proves $\forall n\, \exists m\, \theta(n, m)$ with $\theta$ a $\Delta^0_0$ formula, then there is a primitive recursive function $f$ such that $\mathsf{PRA}$ proves $\theta(n, f(n))$.
+   Parsons, Mints and Takeuti found proofs of this lemma independently.
 8. By step 6 and Lemma B, $\mathsf{PRA} \vdash \theta(n, f(n))$ for a primitive recursive $f$.
-9. For a $\Pi^0_1$ sentence $\forall n\, \theta(n)$, apply steps 1 to 8 with a dummy variable $m$. $\mathsf{PRA}$ proves $\theta(n)$, and so it proves the $\Pi^0_1$ sentence in its free-variable form.
+9. For a $\Pi^0_1$ sentence $\forall n\, \theta(n)$, apply steps 1 to 8 with a dummy variable $m$.
+   $\mathsf{PRA}$ proves $\theta(n)$, and so it proves the $\Pi^0_1$ sentence in its free-variable form.
 
 ## Idea
 
 Each step removes some infinitary strength while it keeps the $\Pi^0_2$ theorems.
-Weak König's lemma is removed by Harrington's argument, which adds paths to a countable model of $\mathsf{RCA}_0$ without a change of its numbers.
-The sets are removed because $\mathrm{I}\Sigma_1$ can define the $\Delta^0_1$ sets.
-Finally, $\Sigma^0_1$ induction is removed because the provably total functions of $\mathrm{I}\Sigma_1$ are the primitive recursive functions.
+Weak König's lemma goes first, by Harrington's argument, which adds paths to a countable model of $\mathsf{RCA}_0$ without changing its numbers.
+The sets go next, because $\mathrm{I}\Sigma_1$ can define the $\Delta^0_1$ sets.
+Finally, $\Sigma^0_1$ induction goes, because the provably total functions of $\mathrm{I}\Sigma_1$ are the primitive recursive functions.
 
 ## Variants
 
+Harrington's argument in step 3 uses forcing over countable models, so this proof is not finitistic as it stands.
 There are proof-theoretic proofs of the whole theorem, by cut elimination and Herbrand's theorem, which avoid models.
-These proofs can be formalized in $\mathsf{PRA}$, and this is needed for the use of the theorem in Hilbert's program.
+Sieg gave such a proof, and it can be formalized in $\mathsf{PRA}$.
+A finitistic proof is what the theorem needs for its use in Hilbert's program, since the reduction must itself be finitistic.
