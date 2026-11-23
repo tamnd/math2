@@ -23,97 +23,120 @@ inventory: [TKWZ5JBB4V]
 
 ## Summary
 
-Temporal logic is [[modal logic|C3RZY20ETK]] read over time.
-A temporal frame is a set $T$ of time points with a strict order $<$, read "earlier than".
-Prior's tense language has the operators $F$ ("at some later time"), $P$ ("at some earlier time"), $G = \neg F \neg$ ("at all later times") and $H = \neg P \neg$ ("at all earlier times").
+Temporal logic is [[modal logic|C3RZY20ETK]] read over time: "it will rain" and "it has rained" become operators on a sentence, and the time stays implicit, as in ordinary speech.
+Suppose it rains on day 3 and on no other day of the integer time line.
+On day 1 "it will rain" is true, on day 5 it is false, and on day 5 "it has rained" is true.
+
+A temporal frame is a set $T$ of time points with a binary relation $<$, read "earlier than"; for time as we know it, $<$ is a strict order.
+Prior's tense language has four operators.
 The formula $F\varphi$ is true at $t$ when $\varphi$ is true at some $u$ with $t < u$, and $P\varphi$ is true at $t$ when $\varphi$ is true at some $u$ with $u < t$.
-The minimal tense logic $\mathsf{K}_t$ is the logic of all such frames, and stronger logics describe linear, dense, discrete or branching time.
-The binary operators "until" $U$ and "since" $S$ extend the language, and over complete linear orders they express every first-order property of time.
-Temporal logic matters because it gives precise laws of tense, and because its linear and branching forms are the specification languages of program verification.
+Their duals are "always in the future" and "always in the past":
+$$G\varphi = \neg F \neg \varphi, \qquad H\varphi = \neg P \neg \varphi.$$
+The minimal tense logic $\mathsf{K}_t$ is the logic of all such frames.
+Stronger logics describe linear, dense, discrete or branching time, and the binary operators "until" $U$ and "since" $S$ make the language as expressive as first-order logic over complete linear orders.
 
 ## Motivation
 
-The sentences "it will rain" and "it has rained" are true or false depending on the time at which we say them.
-Classical predicate logic handles them with explicit variables for times, as in $\exists u\,(t < u \wedge \mathrm{Rain}(u))$.
-Tense logic keeps the time implicit, as natural language does, and treats "will" and "was" as operators.
-These operators are two [[Kripke-style|NGHWZ9Y7ZV]] modalities, one for each direction of the order.
-So the methods of modal logic (frames, correspondence, completeness, filtration) apply to time.
-Properties of time, such as "time has no end" or "between two times there is a third", then become modal axioms.
-In computer science the time points are the states of a run of a program, and temporal formulas state its correct behaviour.
+Classical predicate logic can talk about time, but only with explicit time variables, as in $\exists u\,(t < u \wedge \mathrm{Rain}(u))$.
+Tense logic hides the variable and treats "will" and "was" as two [[Kripke-style|NGHWZ9Y7ZV]] modalities, one for each direction of the order.
+So the whole toolkit of modal logic applies to time: frames, correspondence, completeness and filtration.
+A property of time, such as "time has no end" or "between two times there is a third", becomes a modal axiom that you can add or drop.
+
+The same idea moved into computer science.
+There the time points are the states of a run of a program, and a temporal formula states how the program must behave, for example "every request is eventually granted".
+The later pages on [[linear temporal logic|RMJ56ZPA63]], [[computation tree logic|F6JA5C5BJX]] and [[CTL*|Y4XZ94GRXV]] grow out of this, and [[Kamp's theorem|CQ0QCQK5JT]] explains why until and since are the right operators.
 
 ## Notation
 
-1. Prior's notation: $F$, $P$, $G$, $H$. Some books write $\lozenge$ and $\square$ for $F$ and $G$, and $\blacklozenge$ and $\blacksquare$ for $P$ and $H$.
-2. A temporal frame is a pair $(T, <)$, and a model is a triple $(T, <, V)$ with $V$ a valuation.
-3. Strict until: $\varphi \, U \, \psi$ is true at $t$ when some $u > t$ has $\psi$, and every $v$ with $t < v < u$ has $\varphi$. Since $S$ is the mirror image towards the past.
-4. Computer science writes $X$ or $\bigcirc$ for "next" and uses a reflexive until, see [[linear temporal logic|RMJ56ZPA63]].
-5. The minimal tense logic is written $\mathsf{K}_t$.
+Prior wrote $F$, $P$, $G$ and $H$, and many books still do.
+Others write $\lozenge$ and $\square$ for $F$ and $G$, and $\blacklozenge$ and $\blacksquare$ for $P$ and $H$.
+A frame is a pair $(T, <)$, and a model $(T, <, V)$ adds a valuation $V$.
+In strict until, $\varphi \, U \, \psi$ is true at $t$ when some $u > t$ has $\psi$ and every $v$ with $t < v < u$ has $\varphi$; since, $S$, is the mirror image towards the past.
+Computer science writes $X$ or $\bigcirc$ for "next" and uses a reflexive until that also looks at the present point, so check which convention a book uses before you compare answers.
 
 ## Remarks
 
-### Examples
+### The minimal tense logic
 
-1. On the rational time line $(\mathbb{Q}, <)$ the density formula $Fp \to FFp$ is valid, because between two rationals there is a third, see [[the density example|14Z5TDHRV2]].
-2. On the integers $(\mathbb{Z}, <)$ the density formula fails at $0$ when $p$ is true only at $1$, by the same example.
-3. On the integers, "next" is definable as $\bot \, U \, p$, since every point has an immediate successor, see [[since and until on the integers|FJEN3XBRP1]].
-4. The basic tense logic $\mathsf{K}_t$ as a bimodal logic, with the two interaction axioms, is worked in [[future and past in the basic tense logic|KXRMT4R9E8]].
-5. Branching time: a tree of moments with a linear past and a branching future is a frame of $\mathsf{K}_t$ that refutes future linearity. It is the frame of [[computation tree logic|F6JA5C5BJX]].
+The logic $\mathsf{K}_t$ is the smallest bimodal [[normal modal logic|D1TJYZZDCY]] in $G$ and $H$ that contains these two axioms:
+$$p \to GPp, \qquad p \to HFp.$$
+The first says that whatever is true now will always have been true, and the second is its mirror image.
+Together they force the past relation to be the converse of the future relation, and $\mathsf{K}_t$ is sound and complete for all frames $(T, <)$ with $H$ read along the converse of $<$.
+The basic tense logic as a [[bimodal logic|ERG3KAQWYF]] is worked in [[future and past in the basic tense logic|KXRMT4R9E8]].
 
-### Non-examples
+### Properties of time as axioms
 
-1. A bimodal frame in which the past relation is not the converse of the future relation is not a temporal frame. There the axiom $p \to GPp$ fails, see [[the non-example|ZYJ2VC7S74]].
-2. A model of [[the logic S5|VC3A2VWXND]] with the universal relation is not a frame of linear strict time, since every point sees itself. The irreflexivity of $<$ cannot be expressed by a tense formula, but it changes the logic of $U$ and $S$.
+Each familiar property of the order matches a formula, in the sense of [[modal correspondence|FDFQFWPM4X]].
+The axiom $Gp \to GGp$ is valid on a frame exactly when $<$ is transitive, and $Gp \to Fp$ exactly when every point has a later point.
+Density, "between two times there is a third", corresponds to $Fp \to FFp$, and [[the density example|14Z5TDHRV2]] proves this and compares $\mathbb{Q}$ with $\mathbb{Z}$.
+On a transitive frame, the axiom below holds exactly when no point has two incomparable later points, so it rules out branching of the future:
+$$(Fp \wedge Fq) \to F(p \wedge q) \vee F(p \wedge Fq) \vee F(Fp \wedge q).$$
+A tree of moments with a linear past and a branching future satisfies $\mathsf{K}_t$ and refutes this axiom, and it is the frame of [[computation tree logic|F6JA5C5BJX]].
 
-### Basic properties
+### Until and since
 
-1. $\mathsf{K}_t$ is the smallest bimodal [[normal modal logic|D1TJYZZDCY]] in $G$ and $H$ with the axioms $p \to GPp$ and $p \to HFp$. It is sound and complete for all frames $(T, <)$ with $H$ read along the converse of $<$.
-2. Correspondences on a frame $(T, <)$, each checked as for [[the common modal axioms|FDFQFWPM4X]]:
-   - $Gp \to GGp$ holds on the frame if and only if $<$ is transitive;
-   - $Gp \to Fp$ holds on the frame if and only if every point has a later point;
-   - $Fp \to FFp$ holds on the frame if and only if $<$ is dense;
-   - $(Fp \wedge Fq) \to F(p \wedge q) \vee F(p \wedge Fq) \vee F(Fp \wedge q)$ holds on a transitive frame if and only if no point has two incomparable later points.
-3. Over the integers, $X\varphi$ ("next") equals $\bot \, U \, \varphi$, and $F\varphi$ equals $\top \, U \, \varphi$.
-4. Over dense orders such as $\mathbb{Q}$ and $\mathbb{R}$, the operator $U$ cannot be defined from $F$ and $P$. Kamp proved this in his thesis.
-5. Over Dedekind complete linear orders, $U$ and $S$ express every first-order formula with one free variable, by [[Kamp's theorem|CQ0QCQK5JT]].
+The binary operators say more than $F$ and $P$ can.
+On the integers, with $p$ true at $1$, $2$, $3$ and $q$ true at $-2$ and $4$, the formula $p \, U \, q$ is true at $0$, because $q$ holds at $4$ and $p$ holds at each of $1$, $2$, $3$ in between.
+It is false at $-1$, because the point $0$ lies between $-1$ and $4$ and has no $p$.
+On the integers "next" is definable as $\bot \, U \, p$, since the only $u > t$ with nothing strictly between is $t + 1$, and $F\varphi$ is $\top \, U \, \varphi$.
+[[Since and until on the integers|FJEN3XBRP1]] works these values in full.
+Over the real line, until cannot be defined from $F$ and $P$, and over Dedekind-complete linear orders $U$ and $S$ express every first-order property with one free variable, by [[Kamp's theorem|CQ0QCQK5JT]].
+
+### What is not a temporal frame
+
+A bimodal frame whose past relation is not the converse of its future relation is not a frame of time, and $p \to GPp$ fails on it, as [[the two-point non-example|ZYJ2VC7S74]] shows.
+A model of [[the logic S5|VC3A2VWXND]] with the universal relation is not a frame of strict linear time either, since every point is related to itself.
+Tense formulas cannot express irreflexivity, but it still matters: it changes the logic of $U$ and $S$.
+
+### Watch out
+
+Do not read $G\varphi$ as "$\varphi$ now and always".
+With the strict order, $G\varphi$ says nothing about the present, so $Gp \to p$ fails at $0$ on $\mathbb{Z}$ when $p$ is true exactly at the points $t > 0$.
+The reflexive reading belongs to [[LTL|RMJ56ZPA63]].
+
+Do not confuse truth in one model with validity on a frame.
+On $\mathbb{Z}$ with $p$ true everywhere, $Fp \to FFp$ is true at every point, yet $\mathbb{Z}$ is not dense.
+Validity on a frame needs every valuation, and the valuation that makes $p$ true only at $1$ refutes the axiom at $0$.
 
 ### History
 
-Arthur Prior introduced tense logic in Time and Modality (1957), with the operators $F$, $P$, $G$ and $H$.
-Hans Kamp added the binary operators "since" and "until" in his doctoral thesis of 1968, and proved their expressive completeness.
+Arthur Prior introduced tense logic in the 1950s and 1960s, and his book Time and Modality (1957) has the operators $F$, $P$, $G$ and $H$.
+Hans Kamp studied the binary operators since and until in his doctoral thesis of 1968 and proved their expressive completeness.
 Amir Pnueli proposed temporal logic for the verification of programs in 1977.
 
-### Common errors
+### Try it
 
-1. Reading $G\varphi$ as "$\varphi$ now and always". With the strict order, $G\varphi$ says nothing about the present; the reflexive reading is the convention of [[LTL|RMJ56ZPA63]].
-2. Forgetting that $H$ uses the converse relation. Then $p \to GPp$ looks like an extra axiom, while it is valid on every temporal frame.
-3. Confusing truth in a model with validity on a frame. A model on $\mathbb{Z}$ with $p$ true everywhere makes $Fp \to FFp$ true at every point, although $\mathbb{Z}$ is not dense.
+First, on $(\mathbb{Z}, <)$ with $p$ true exactly at $5$, where is $Pp$ true?
+It is true exactly at the points $t > 5$, since $P$ looks strictly into the past.
+
+Second, is $Gp \to GGp$ a theorem of $\mathsf{K}_t$?
+No, because it needs transitivity: on the frame $\{0, 1, 2\}$ with $0 < 1$, $1 < 2$ but not $0 < 2$, put $p$ at $1$ only: $Gp$ holds at $0$, but $GGp$ fails because $p$ is false at $2$.
 
 ## Explanations
 
 ### L1 human
 
 Temporal logic is a logic of "will" and "was".
-It writes "it will rain" as $F\,\mathit{rain}$, read "at some future time, rain".
-The formula $G\,\mathit{rain}$ means "it will always rain from now on".
+It writes "it will rain" as $F\,\mathit{rain}$ and "it will always rain from now on" as $G\,\mathit{rain}$.
 Picture time as the number line, and suppose it rains on day 3 only.
 On day 1 the sentence "it will rain" is true, and on day 5 it is false.
-On day 5 the sentence "it has rained" is true.
+On day 5 the sentence "it has rained" is true, and on day 1 it is false.
 
 ### L2 human
 
-We check $Fp \to FFp$ on two time lines, with $p$ true at exactly one point $u = 1$.
-
-1. On $(\mathbb{Z}, <)$ take $t = 0$. $Fp$ holds at $0$, since $0 < 1$ and $p$ holds at $1$.
-2. $FFp$ at $0$ needs a $z$ with $0 < z$ and $Fp$ at $z$, so $z < 1$. No integer lies strictly between $0$ and $1$. So the formula fails at $0$.
-3. On $(\mathbb{Q}, <)$ take any $t < 1$. The point $z = (t + 1)/2$ satisfies $t < z < 1$, so $Fp$ holds at $z$ and $FFp$ holds at $t$.
-4. At points $t \ge 1$, $Fp$ is false, so the implication holds.
-
-The typical use of such checks is to match a property of time with an axiom, and then to axiomatize the logic of $\mathbb{Q}$ or $\mathbb{Z}$.
-A trap: the density axiom holds on $\mathbb{Q}$ for every valuation, while on $\mathbb{Z}$ it fails only for some valuations, so validity on a frame needs all valuations.
+Let us check $Fp \to FFp$ on two time lines, with $p$ true at exactly one point $u = 1$.
+On $(\mathbb{Z}, <)$ take $t = 0$.
+Then $Fp$ holds at $0$, since $0 < 1$, and $FFp$ needs a point $z$ with $0 < z < 1$, which does not exist, so the formula fails at $0$.
+On $(\mathbb{Q}, <)$ take any $t < 1$, and put $z = (t + 1)/2$:
+$$t < z < 1.$$
+So $Fp$ holds at $z$ and $FFp$ holds at $t$.
+At points $t \ge 1$ the antecedent $Fp$ is false, so the implication holds there too.
+This is the typical use of such checks: you match a property of time with an axiom, and then you axiomatize the logic of $\mathbb{Q}$ or $\mathbb{Z}$.
+Watch out: $Fp \to FFp$ is density, and its converse $FFp \to Fp$ is transitivity; the two are often swapped.
 
 ### L3 human
 
-A tense frame is a [[multimodal|ERG3KAQWYF]] frame with two relations that are converse to each other, so tense logic is the simplest modal logic with converse.
-The [[standard translation|YW6YGBMVQY]] sends tense formulas into first-order logic over $<$, and Kamp's theorem says that, with $U$ and $S$, the translation is onto the one-variable formulas over complete orders.
-Branching time leads to [[computation tree logic|F6JA5C5BJX]] and [[CTL*|Y4XZ94GRXV]], linear discrete time to [[LTL|RMJ56ZPA63]], and time made of intervals to [[interval temporal logics|991B5RR6X4]].
+A tense frame is a [[multimodal|ERG3KAQWYF]] frame with two relations that are converse to each other, so tense logic is the simplest modal logic with a converse modality.
+The [[standard translation|YW6YGBMVQY]] sends tense formulas into first-order logic over $<$, and Kamp's theorem says that with $U$ and $S$ the translation reaches every one-variable formula over complete orders.
+Branching time leads to [[computation tree logic|F6JA5C5BJX]] and [[CTL*|Y4XZ94GRXV]], discrete linear time to [[LTL|RMJ56ZPA63]], and time made of intervals to [[interval temporal logics|991B5RR6X4]].
 Combinations with agents give [[STIT logic|WYY2JXWMYY]] and the temporal-epistemic logics of distributed systems.
