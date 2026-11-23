@@ -30,10 +30,9 @@ It extends to all formulas of $L_\square$ by the following rules.
 
 1. $(P(y_1, \dots, y_n))^* = P^*(y_1, \dots, y_n)$, with bound variables renamed when needed.
 2. $(\neg \varphi)^* = \neg \varphi^*$, $(\varphi \to \psi)^* = \varphi^* \to \psi^*$ and $(\forall y \, \varphi)^* = \forall y \, \varphi^*$.
-3. If $\varphi$ has the free variables $x_1, \dots, x_n$, then $(\square \varphi)^* = \mathrm{Prov}_{\mathsf{PA}}(\ulcorner \varphi^*(\dot{x}_1, \dots, \dot{x}_n) \urcorner)$.
+3. If $\varphi$ has the free variables $x_1, \dots, x_n$, then $(\square \varphi)^* = \mathrm{Prov}_{\mathsf{PA}}(\ulcorner \varphi^*(\dot{x}_1, \dots, \dot{x}_n) \urcorner)$, with the [[provability predicate|NB2BCZR40F]] of [[Peano arithmetic|HACXBCM7SS]].
 
-Here $\mathrm{Prov}_{\mathsf{PA}}$ is the [[provability predicate|NB2BCZR40F]] of [[Peano arithmetic|HACXBCM7SS]].
-The term $\ulcorner \varphi^*(\dot{x}_1, \dots, \dot{x}_n) \urcorner$ gives, at $k_1, \dots, k_n$, the [[Gödel number|MFJXPAF0R0]] of $\varphi^*$ with numerals for $k_1, \dots, k_n$ in place of $x_1, \dots, x_n$.
+At $k_1, \dots, k_n$, the dotted term gives the [[Gödel number|MFJXPAF0R0]] of $\varphi^*$ with the numerals of the $k_i$ in place of the $x_i$.
 The *quantified provability logic of* $\mathsf{PA}$ is the following set.
 $$\mathsf{QPL}(\mathsf{PA}) = \{\varphi : \varphi \text{ is a sentence of } L_\square \text{ and } \mathsf{PA} \vdash \varphi^* \text{ for every realization } * \}.$$
 
@@ -43,7 +42,7 @@ $$\mathsf{QPL}(\mathsf{PA}) = \{\varphi : \varphi \text{ is a sentence of } L_\s
 That is, it is $\Pi^0_2$ in the [[arithmetical hierarchy|7CVJCQKY41]], and every $\Pi^0_2$ subset of $\mathbb{N}$ is [[many-one reducible|JTAH37JTHD]] to it.
 
 **Corollary.** $\mathsf{QPL}(\mathsf{PA})$ is not [[computably enumerable|TN9G24VABN]].
-So no recursively axiomatized system, such as quantified $\mathsf{GL}$ ($\mathsf{QGL}$), has exactly $\mathsf{QPL}(\mathsf{PA})$ as its set of theorems.
+So no recursively axiomatized system, such as quantified $\mathsf{GL}$, has exactly these theorems.
 
 ## Remarks
 
@@ -88,7 +87,7 @@ The lower bound uses properties of $\mathsf{PA}$ and of the standard model, and 
 
 ## History
 
-Montagna showed in 1984 that $\mathsf{QGL}$ is not arithmetically complete for $\mathsf{PA}$.
+Montagna showed in 1984 that quantified $\mathsf{GL}$ is not arithmetically complete for $\mathsf{PA}$.
 Artemov proved in 1985 that the logic of truth under all realizations is not arithmetical.
 Vardanyan proved in 1986 that $\mathsf{QPL}(\mathsf{PA})$ is $\Pi^0_2$-complete, with a proof that uses ideas of Artemov.
 
