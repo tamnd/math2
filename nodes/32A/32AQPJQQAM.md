@@ -92,9 +92,9 @@ The Stoic logician Chrysippus listed modus tollens as the second of his indemons
 
 ### Try it
 
-Show that $x^2 - 2$ has no rational root.
-By the [[rational root theorem|0819CQ1V8H]], a rational root must be one of $\pm 1$ and $\pm 2$, and none of them is a root, since $1 - 2 = -1$ and $4 - 2 = 2$.
-Modus tollens gives that there is no rational root.
+Show that $6$ does not divide $1000$.
+Use the premise "if $6$ divides $n$, then $3$ divides $n$" and check the consequent for $n = 1000$.
+The digit sum of $1000$ is $1$, so $3$ does not divide $1000$, and modus tollens gives that $6$ does not divide $1000$.
 
 ## Explanations
 

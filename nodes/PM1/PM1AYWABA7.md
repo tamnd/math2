@@ -28,7 +28,7 @@ Knights and knaves puzzles close the topic and use every tool at once.
 
 Two threads run through the pages.
 One is [[intuitionistic logic|38EQ20GR7M]], which drops excluded middle: the pages show which laws survive, such as $p \to \neg\neg p$, and which fail, such as $\neg\neg p \to p$.
-The other is Lean 4 and Mathlib, where each connective is a type, such as `And`, `Or`, `Not` and `Exists`, and each law has a name, such as `not_or` or `Classical.em`.
+The other is Lean 4 and Mathlib, where each connective and quantifier is a type former, such as `And`, `Or`, `Not` and `Exists`, and each law has a name, such as `not_or` or `Classical.em`.
 
 ## Remarks
 
