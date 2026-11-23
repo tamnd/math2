@@ -20,16 +20,20 @@ sources:
 
 ## Proof
 
-We compare [[truth tables|05RSK4Q657]].
+We find the one row where each side of a law differs from the other three rows, and we check that both sides pick the same row.
 Two formulas are [[logically equivalent|06GYGS41JK]] when they agree for each of the four assignments of truth values to $p$ and $q$.
 
-1. Let $p$ and $q$ be [[propositions|0ZGC7ZESYN]]. By the [[principle of bivalence|5DYNDW9526]], each of them is true or false, so there are four rows: TT, TF, FT and FF.
-2. We compute $\neg (p \lor q)$. By the definition of [[disjunction|0H5GKDTB01]], $p \lor q$ is false only in the row FF. By the definition of [[negation|0XR7A7RSXB]], $\neg (p \lor q)$ is true only in the row FF.
-3. We compute $\neg p \land \neg q$. By the definition of [[conjunction|0M28ASWG8T]], it is true only when $\neg p$ and $\neg q$ are both true. By the definition of negation, this happens only in the row FF.
-4. By steps 2 and 3, both formulas are true in the row FF and false in the other three rows. So $\neg (p \lor q) \equiv \neg p \land \neg q$.
-5. We compute $\neg (p \land q)$. By the definition of conjunction, $p \land q$ is true only in the row TT. So $\neg (p \land q)$ is false only in the row TT.
-6. We compute $\neg p \lor \neg q$. By the definition of disjunction, it is false only when $\neg p$ and $\neg q$ are both false. This happens only in the row TT.
-7. By steps 5 and 6, both formulas are false in the row TT and true in the other three rows. So $\neg (p \land q) \equiv \neg p \lor \neg q$.
+1. Let $p$ and $q$ be [[propositions|0ZGC7ZESYN]].
+   By the [[principle of bivalence|5DYNDW9526]], each of them is true or false, so there are four rows: TT, TF, FT and FF.
+2. By the definition of [[disjunction|0H5GKDTB01]], $p \lor q$ is false only in the row FF.
+   By the definition of [[negation|0XR7A7RSXB]], $\neg (p \lor q)$ is true only in the row FF.
+3. By the definition of [[conjunction|0M28ASWG8T]], $\neg p \land \neg q$ is true only when $\neg p$ and $\neg q$ are both true.
+   By the definition of negation, this happens only in the row FF.
+4. By steps 2 and 3, both formulas are true in the row FF and false in the other three rows, so $\neg (p \lor q) \equiv \neg p \land \neg q$.
+5. By the definition of conjunction, $p \land q$ is true only in the row TT, so $\neg (p \land q)$ is false only in the row TT.
+6. By the definition of disjunction, $\neg p \lor \neg q$ is false only when $\neg p$ and $\neg q$ are both false.
+   This happens only in the row TT.
+7. By steps 5 and 6, both formulas are false in the row TT and true in the other three rows, so $\neg (p \land q) \equiv \neg p \lor \neg q$.
 8. The full table shows both laws.
 
 | $p$ | $q$ | $\neg (p \lor q)$ | $\neg p \land \neg q$ | $\neg (p \land q)$ | $\neg p \lor \neg q$ |
@@ -39,7 +43,7 @@ Two formulas are [[logically equivalent|06GYGS41JK]] when they agree for each of
 | F | T | F | F | T | T |
 | F | F | T | T | T | T |
 
-9. In each row the column of $\neg (p \lor q)$ equals the column of $\neg p \land \neg q$, and the column of $\neg (p \land q)$ equals the column of $\neg p \lor \neg q$. $\blacksquare$
+9. In each row the third column equals the fourth, and the fifth equals the sixth. $\blacksquare$
 
 ## Idea
 
@@ -55,5 +59,6 @@ The truth-table proof cannot see this difference, because it is classical at ste
 A [[Kripke model|NGHWZ9Y7ZV]] with a root and two incomparable later worlds, $p$ true at one and $q$ at the other, refutes that direction at the root.
 
 A second classical proof derives law (2) from law (1).
-Apply law (1) to $\neg p$ and $\neg q$ to get $\neg(\neg p \lor \neg q) \equiv \neg\neg p \land \neg\neg q \equiv p \land q$, by the [[double negation law|0NFAGWH84K]].
+Apply law (1) to $\neg p$ and $\neg q$, and use the [[double negation law|0NFAGWH84K]]:
+$$\neg(\neg p \lor \neg q) \equiv \neg\neg p \land \neg\neg q \equiv p \land q.$$
 Negating both sides and using the double negation law again gives $\neg p \lor \neg q \equiv \neg(p \land q)$.

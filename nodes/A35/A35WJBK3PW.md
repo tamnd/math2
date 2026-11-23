@@ -18,11 +18,14 @@ sources:
 
 ## Proof
 
-We compare the [[truth table|05RSK4Q657]] columns of $\neg\neg p$ and $p$.
+We compare the [[truth table|05RSK4Q657]] columns of $\neg\neg p$ and $p$ in both rows.
 
 1. By the [[principle of bivalence|5DYNDW9526]], the variable $p$ is T or F, so the table has two rows.
-2. Row $p = \mathrm{T}$. By the definition of [[negation|029JBBF693]], $\neg p$ is F. By the same definition applied to $\neg p$, the formula $\neg\neg p$ is T.
-3. Row $p = \mathrm{F}$. By the definition of negation, $\neg p$ is T. Applied once more, the definition gives that $\neg\neg p$ is F.
+2. Row $p = \mathrm{T}$.
+   By the definition of [[negation|029JBBF693]], $\neg p$ is F.
+   By the same definition applied to $\neg p$, the formula $\neg\neg p$ is T.
+3. Row $p = \mathrm{F}$.
+   By the definition of negation, $\neg p$ is T, and applied once more, the definition gives that $\neg\neg p$ is F.
 4. The table is this.
 
 | $p$ | $\neg p$ | $\neg\neg p$ |

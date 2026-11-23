@@ -120,7 +120,7 @@ Part 4: the duality principle.
 22. Since $\varphi$ and $\psi$ agree under $v'$, the formulas $\varphi^*$ and $\psi^*$ agree under $v$.
     So $\varphi^* \equiv \psi^*$, and $\neg \varphi^* \equiv \neg \psi^*$ by the definition of [[negation|029JBBF693]].
 23. By steps 15 to 20 and step 22, $\varphi^d \equiv \neg\varphi^* \equiv \neg\psi^* \equiv \psi^d$.
-    This proves the duality principle. $\blacksquare$
+    This proves the duality principle.
 
 ## Idea
 
