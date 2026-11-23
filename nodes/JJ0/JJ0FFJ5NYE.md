@@ -45,6 +45,9 @@ Both work, but they are different methods, so Gentzen's proof is not an example 
 ### L2 human
 
 To decide whether a proof uses the substitution method, ask three questions.
-Are there $\varepsilon$-terms and critical formulas, does a process change values of terms, and does it stop with all critical formulas true?
-For Gentzen's proof the answer to all three is no.
-A trap is to confuse the methods because both use the ordinal $\varepsilon_0$, which comes from the strength of Peano arithmetic, not from the method.
+Are there $\varepsilon$-terms and critical formulas?
+Does a process change the values of terms?
+Does it stop with all critical formulas true?
+For Gentzen's proof the answer to all three is no, while for Ackermann's proof of 1940 it is yes.
+Watch out: both proofs use the ordinal $\varepsilon_0$, and this does not make them the same method.
+The ordinal measures the strength of Peano arithmetic, so it turns up in both analyses, whatever objects each proof transforms.

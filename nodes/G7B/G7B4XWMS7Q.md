@@ -52,9 +52,9 @@ Take any two derivations $\pi_1$ and $\pi_2$ of $\Gamma \Rightarrow \Delta$.
 Weaken the first to $\Gamma \Rightarrow \Delta, A$ and the second to $A, \Gamma \Rightarrow \Delta$, and cut on $A$.
 The cut can be eliminated in two ways, by deleting either premise, and the results are $\pi_1$ and $\pi_2$ followed by weakenings.
 So if a cut-elimination step keeps the proof the same, all derivations of one sequent are one proof, up to weakenings.
-This is why cut elimination in LK is not confluent, and why normal forms there are not unique.
+The same example shows that cut elimination in LK is not confluent: one derivation has two different cut-free forms.
 
-### Collapse in categories, continued
+### Collapse in categories
 
 The same collapse appears in categorical semantics, by an argument of Joyal.
 Let a cartesian closed category have an initial object $0$, and let the canonical map from each $B$ to $(B \Rightarrow 0) \Rightarrow 0$ be an isomorphism.
@@ -102,7 +102,7 @@ From "$p$ and $p$" we can conclude $p$ by taking the first part or by taking the
 
 Compare two derivations of $p \wedge q \to q \wedge p$, as lambda terms.
 The first is $\lambda x.\, \langle \pi_2 x, \pi_1 x \rangle$.
-The second first swaps and then swaps back and swaps again:
+The second swaps the pair three times in a row:
 $$\lambda x.\, \bigl(\lambda y.\, \langle \pi_2 y, \pi_1 y \rangle\bigr)\Bigl(\bigl(\lambda z.\, \langle \pi_2 z, \pi_1 z \rangle\bigr)\bigl(\langle \pi_2 x, \pi_1 x \rangle\bigr)\Bigr).$$
 Beta reduction of the inner application gives $\langle \pi_1 x, \pi_2 x \rangle$, and the outer one then gives $\langle \pi_2 x, \pi_1 x \rangle$, after the projection reductions $\pi_1 \langle s, t \rangle = s$ and $\pi_2 \langle s, t \rangle = t$.
 So the two derivations have the same normal form and are one proof under the normalization criterion.
