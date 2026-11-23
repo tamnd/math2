@@ -16,12 +16,14 @@ sources:
 
 ## Example
 
-Define the ternary connective $\operatorname{maj}(p, q, r)$: it is true when at least two of $p$, $q$, $r$ are true, and false otherwise.
-We check that it is a [[logical connective|QS0XVAN9BG]] of arity $3$, and that it has the same truth table as
+A committee of three votes, and a motion passes when at least two members vote yes.
+Let $p$, $q$, $r$ say that the first, second and third member votes yes, and define $\operatorname{maj}(p, q, r)$ to be true when at least two of $p$, $q$, $r$ are true.
+We check that $\operatorname{maj}$ is a [[logical connective|QS0XVAN9BG]] of arity $3$, with the same truth table as
 $$(p \land q) \lor (p \land r) \lor (q \land r).$$
 
-1. The value of $\operatorname{maj}$ depends only on the number of true inputs, so it is a truth function of the three values. By the [[definition|CA49F5KQGB]], $\operatorname{maj}$ is a connective of arity $3$.
-2. The table lists the $2^3 = 8$ rows in the standard order, the number $k$ of true inputs, and both values.
+1. The value of $\operatorname{maj}$ depends only on the number of true inputs, so it is a truth function of the three values.
+   By the [[definition|CA49F5KQGB]], $\operatorname{maj}$ is a connective of arity $3$.
+2. The table lists the $2^3 = 8$ rows, the number $k$ of true inputs, and both values.
 
 | $p$ | $q$ | $r$ | $k$ | $\operatorname{maj}(p, q, r)$ | $(p \land q) \lor (p \land r) \lor (q \land r)$ |
 |---|---|---|---|---|---|
@@ -40,12 +42,16 @@ $$(p \land q) \lor (p \land r) \lor (q \land r).$$
 
 ## Remarks
 
-The example shows a connective of arity $3$ that is not one of the usual binary connectives, but is expressed by them.
-The formula in the example is a [[disjunctive normal form|0GVDFAY4KW]] without negations.
+### A formula without negation
+
+The formula is a [[disjunctive normal form|0GVDFAY4KW]] without negations.
 This is possible because $\operatorname{maj}$ is monotone: making an input true never makes the value false.
+A connective such as negation, which turns T into F, needs $\neg$ in every formula for it.
+
+### Larger votes and circuits
 
 The majority of $2m + 1$ inputs is true when at least $m + 1$ inputs are true.
-For an even number of inputs, a tie is possible, and the definition must say what happens in a tie.
+For an even number of inputs a tie is possible, and the definition must say what happens in a tie.
 In circuit design, $\operatorname{maj}(a, b, c)$ is the carry bit of the sum $a + b + c$ of three bits.
 
 ## Explanations
@@ -59,12 +65,13 @@ It looks only at the answers, so it is a connective with three inputs.
 
 ### L2 human
 
-We use the majority connective to compute the carry of a binary addition.
+Use the majority connective to compute the carry of a binary addition.
 
-1. Add the bits $a = 1$, $b = 1$ and the incoming carry $c = 0$.
+1. Add the bits $a = 1$ and $b = 1$ and the incoming carry $c = 0$.
 2. The sum is $1 + 1 + 0 = 2$, which is $10$ in binary.
 3. So the new carry is $1$, and the sum bit is $0$.
-4. With $1$ as $\mathsf{T}$ and $0$ as $\mathsf{F}$, the majority gives $\operatorname{maj}(\mathsf{T}, \mathsf{T}, \mathsf{F}) = \mathsf{T}$, which is the carry $1$.
+4. With $1$ as T and $0$ as F, the majority gives $\operatorname{maj}(\mathrm{T}, \mathrm{T}, \mathrm{F}) = \mathrm{T}$, which is the carry $1$.
 
-The typical use of such ternary connectives is in circuits and in coding, where one output depends on several inputs.
-A trap: $\operatorname{maj}(p, q, r)$ is not $p \land q \land r$; the row $\mathsf{T}\mathsf{T}\mathsf{F}$ gives $\mathsf{T}$ for the majority and $\mathsf{F}$ for the conjunction.
+Ternary connectives such as this one appear in circuits and in coding, where one output depends on several inputs.
+Watch out: $\operatorname{maj}(p, q, r)$ is not $p \land q \land r$.
+The row TTF gives T for the majority and F for the conjunction.
