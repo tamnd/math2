@@ -16,37 +16,40 @@ sources:
 
 ## Example
 
-*Statement.* For every integer $n$, the number $3$ divides $n^3 - n$.
+The statement is that for every integer $n$, the number $3$ divides $n^3 - n$.
+For $n = 5$ this says that $3$ divides $120$, which is true, since $120 = 3 \cdot 40$.
+The proof below has a small claim with its own proof inside the main proof, and the [[proof words|GKMRQCA8CW]] mark where the inner part begins and ends.
 
-*Proof.*
+> (1) Fix an integer $n$.
+> (2) We claim that one of the three integers $n - 1$, $n$ and $n + 1$ is divisible by $3$.
+> (3) To prove the claim, write $n = 3q + r$ with integers $q$ and $r$ and $r \in \{0, 1, 2\}$, by division with remainder.
+> (4) There are three cases.
+> (5) If $r = 0$, then $n = 3q$, so $3 \mid n$.
+> (6) If $r = 1$, then $n - 1 = 3q$, so $3 \mid n - 1$.
+> (7) If $r = 2$, then $n + 1 = 3q + 3 = 3(q + 1)$, so $3 \mid n + 1$.
+> (8) The three cases cover every value of $r$, and this proves the claim.
+> (9) Next, $n^3 - n = n(n^2 - 1) = (n - 1)\,n\,(n + 1)$.
+> (10) By the claim, $3$ divides one of the three factors, so $3$ divides their product.
+> (11) Since $n$ was arbitrary, $3 \mid n^3 - n$ for every integer $n$.
+> $\square$
 
-1. Fix an integer $n$.
-2. We claim that one of the three integers $n - 1$, $n$, $n + 1$ is divisible by $3$.
-3. Proof of the claim: by division with remainder, $n = 3q + r$ for integers $q$ and $r$ with $r \in \{0, 1, 2\}$. There are three cases.
-4. Case $r = 0$: then $n = 3q$, so $3 \mid n$.
-5. Case $r = 1$: then $n - 1 = 3q$, so $3 \mid n - 1$.
-6. Case $r = 2$: then $n + 1 = 3q + 3 = 3(q + 1)$, so $3 \mid n + 1$.
-7. The three cases cover all values of $r$, and this proves the claim.
-8. Next, $n^3 - n = n(n^2 - 1) = (n - 1)\,n\,(n + 1)$.
-9. By the claim, $3$ divides one of the three factors, so $3$ divides their product.
-10. Since $n$ was an arbitrary integer, $3 \mid n^3 - n$ for every integer $n$. $\square$
-
-We check the role of each proof word.
-
-1. "Fix" introduces one arbitrary integer $n$, which stays the same in lines 2 to 9. Line 10 uses that $n$ was arbitrary to conclude the "for every" of the statement.
-2. "We claim" announces a statement that is not yet proved. The reader knows that lines 3 to 7 prove it, and that the main proof continues after line 7.
-3. "There are three cases" is a signpost. It tells the reader how many cases to expect, so the reader can check that none is missing.
-4. Each "Case" line starts with its condition and ends with a conclusion of the form $3 \mid (\ldots)$. The three conclusions differ, but each gives the claim.
-5. "This proves the claim" closes the claim. Without it, a reader could think that line 8 belongs to case $r = 2$.
-6. "Next" in line 8 is a signpost that returns to the main line of the proof.
-7. "By the claim" in line 9 names the source of the step. So the reader looks back to line 2 and not to an earlier result.
+"Fix" in line (1) brings in one arbitrary integer that stays the same until line (10), and line (11) uses that it was arbitrary to reach the "for every" of the statement.
+"We claim" in line (2) announces a statement that is not yet proved, so the reader knows that an inner proof follows.
+"There are three cases" in line (4) is a signpost, and it lets the reader check that no case is missing.
+"This proves the claim" in line (8) closes the inner proof.
+Without it, a reader could think that line (9) still belongs to the case $r = 2$.
+"Next" in line (9) returns to the main line, and "by the claim" in line (10) names the source of the step.
 
 ## Remarks
 
-1. The example shows two levels in one proof: a claim with its own proof, inside the main proof. The words "we claim" and "this proves the claim" mark the borders of the inner level.
-2. The step "3 divides one factor, so 3 divides the product" uses that $3 \mid a$ implies $3 \mid ab$ for each integer $b$. This follows from the definition of [[divisibility|0PG2H7WKGG]].
-3. The same proof with $2$ in place of $3$ shows that $2 \mid n^2 - n = (n - 1)n$, with two cases for the remainder.
-4. The claim is a case of a more general fact: among $m$ consecutive integers, one is divisible by $m$. The same [[proof by cases|0WCP0PVET6]] on the remainder modulo $m$ proves it.
+The proof has two levels, and the words "we claim" and "this proves the claim" are the brackets around the inner one.
+A [[structured proof|H2W8D7BMSW]] would show the same two levels with numbers and indentation instead of words.
+
+Line (10) uses the fact that $3 \mid a$ implies $3 \mid ab$ for every integer $b$, which follows from the definition of [[divisibility|0PG2H7WKGG]]: if $a = 3s$, then $ab = 3(sb)$.
+
+The claim is a special case of a general fact: among $m$ consecutive integers, one is divisible by $m$.
+The same [[proof by cases|0WCP0PVET6]] on the remainder modulo $m$ proves it.
+With $m = 2$ the argument shows that $2 \mid n^2 - n = (n - 1)n$.
 
 ## Explanations
 
@@ -54,20 +57,18 @@ We check the role of each proof word.
 
 The statement says that $n^3 - n$ is always a multiple of $3$.
 For $n = 5$ we get $125 - 5 = 120 = 3 \cdot 40$.
-The proof first makes a smaller claim: among three numbers in a row, such as $4$, $5$, $6$, one is a multiple of $3$.
-The words "we claim" tell the reader that this smaller claim comes first, and "this proves the claim" tells the reader that it is done.
+The proof first proves a smaller fact: among three whole numbers in a row, such as $4$, $5$ and $6$, one is a multiple of $3$.
+The words "we claim" tell the reader that this smaller fact comes first, and "this proves the claim" tells the reader that it is done.
 Then the main proof uses it, because $n^3 - n$ is the product of three numbers in a row.
 
 ### L2 human
 
-We follow the proof for $n = 5$ and for $n = -4$.
+We follow the proof for a negative number, $n = -4$, to see that each line still works.
+Division with remainder gives $-4 = 3 \cdot (-2) + 2$, so $q = -2$ and $r = 2$.
+The case $r = 2$ gives $n + 1 = -3 = 3 \cdot (-1)$, so $3$ divides the factor $n + 1$.
+Then $n^3 - n = -64 + 4 = -60$, and the factorization gives $(-5)(-4)(-3) = -60$ as well.
+Since $3 \mid -3$, we get $3 \mid -60$, and indeed $-60 = 3 \cdot (-20)$.
 
-1. For $n = 5$: $5 = 3 \cdot 1 + 2$, so $q = 1$ and $r = 2$. Case $r = 2$ gives $n + 1 = 6 = 3 \cdot 2$.
-2. Then $n^3 - n = 4 \cdot 5 \cdot 6 = 120$, and $3 \mid 6$ gives $3 \mid 120$.
-3. For $n = -4$: $-4 = 3 \cdot (-2) + 2$, so $q = -2$ and $r = 2$. Case $r = 2$ gives $n + 1 = -3 = 3 \cdot (-1)$.
-4. Then $n^3 - n = -64 + 4 = -60 = (-5)(-4)(-3)$, and $3 \mid -3$ gives $3 \mid -60$.
-
-The typical use of "we claim" is to state a lemma inside a proof.
-It suits a lemma that is too small or too special for its own number.
-A trap is to forget to close the claim.
-If the proof does not say where the proof of the claim ends, the reader cannot tell which lines depend on the case conditions.
+"We claim" suits a lemma that is too small or too special to get its own number.
+Watch out: a claim that is never closed leaves the reader unsure which lines depend on the case conditions.
+Close every claim with a sentence such as "this proves the claim", and only then return to the main proof.
