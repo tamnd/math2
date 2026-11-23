@@ -15,7 +15,7 @@ sources:
   - url: https://en.wikipedia.org/wiki/Ordinal_collapsing_function
     locator: First impredicative values
   - url: https://en.wikipedia.org/wiki/Ordinal_collapsing_function
-    locator: Beyond the Feferman–Schütte ordinal
+    locator: Beyond the Feferman-Schütte ordinal
   - url: https://en.wikipedia.org/wiki/Ordinal_analysis
     locator: Table of ordinal analyses
 ---
