@@ -100,7 +100,7 @@ They share the same coincidences, so they add little.
 
 Martin Gardner quoted the law from a paper of Guy in his *Scientific American* column of December 1980.
 Guy published "The strong law of small numbers" in the *American Mathematical Monthly* in 1988, with many patterns that hold and many that fail.
-The paper received the Lester R. Ford Award of the Mathematical Association of America.
+The paper received the Lester Ford Award of the Mathematical Association of America.
 Guy published "The second strong law of small numbers" in *Mathematics Magazine* in 1990.
 [[Moser's circle problem|M225KZAV4F]] is one of his examples.
 
