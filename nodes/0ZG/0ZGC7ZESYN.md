@@ -19,71 +19,81 @@ same_as:
 
 ## Summary
 
+Logic studies sentences that make a claim, so that the claim is either right or wrong.
+"$7$ is a prime number" is such a sentence, and it is true; "$7$ is even" is another, and it is false.
 A proposition is a declarative sentence that is either true or false, and not both.
-Its truth value is "true" (T) when it is true and "false" (F) when it is false.
-We need not know the truth value: the sentence must have one, whether or not anybody can find it.
-An atomic proposition contains no connective, such as "$7$ is prime".
-A compound proposition is made from smaller propositions with [[connectives|QS0XVAN9BG]] such as "not", "and", "or" and "if ... then", such as "$7$ is prime and $7$ is odd".
-In logic, letters $p$, $q$, $r$ called propositional variables stand for arbitrary propositions, so that one formula describes many sentences of the same form.
-Propositions are the units of logic: the laws of logic say which compound propositions are true from the truth values of their parts alone.
+Its truth value is T (true) or F (false), and the sentence must have one even when nobody knows which.
+An atomic proposition has no smaller proposition inside it, and a compound proposition joins smaller ones with [[connectives|QS0XVAN9BG]] such as "not", "and", "or" and "if ... then".
+Letters $p$, $q$, $r$, called propositional variables, stand for arbitrary propositions, so that one formula describes many sentences of the same form.
 
 ## Motivation
 
-The argument "if $n$ is divisible by $4$, then $n$ is even; $n$ is divisible by $4$; so $n$ is even" is correct.
-The argument "if it rains, the street is wet; it rains; so the street is wet" is correct for the same reason.
-The two arguments have the same form, and the subject matter plays no role.
-To study this form, logic replaces each sentence by a letter, and it keeps only one property of the sentence: its truth value.
-For this replacement the sentences must have a truth value.
-So logic starts with the sentences that are true or false, and it sets aside questions, commands and sentences with free variables.
-The mathematical reading of these sentences is on the page [[mathematical statement|S9MHMRAX88]].
+Compare two arguments.
+"If $n$ is divisible by $4$, then $n$ is even; $n$ is divisible by $4$; so $n$ is even."
+"If it rains, the street is wet; it rains; so the street is wet."
+Both are correct, and for the same reason: they have the same form, and the subject plays no role.
+
+To study that form, logic replaces each sentence by a letter and keeps one property of the sentence, its truth value.
+This only works for sentences that have a truth value, so logic starts with propositions and sets aside questions, commands and sentences with free variables.
+Every later idea of the subject rests on this step: [[truth tables|05RSK4Q657]] list the truth values of compound propositions, and [[tautologies|05006AJ7DZ]] and [[logical equivalence|0JMR2HM2N2]] compare them.
+The mathematical side of the same idea is the [[mathematical statement|S9MHMRAX88]] of the reasoning-and-proof area.
 
 ## Notation
 
 Propositional variables are small letters $p$, $q$, $r$, sometimes with indices $p_1, p_2, \ldots$.
-Formulas built from them are written with Greek letters $\varphi$, $\psi$, $\chi$.
-Books on mathematical reasoning often use capital letters $P$, $Q$, $R$ for propositions.
-The truth values are written T and F in this sub-area; $1$ and $0$, and $\top$ and $\bot$, are also common.
-The word "statement" is a synonym of "proposition" in mathematics.
-In mathematical writing, "Proposition" is also the label of a result that is less important than a theorem; this second meaning has nothing to do with logic.
-In philosophy, a proposition is the meaning that a sentence expresses, so "it is raining" and "il pleut" express one proposition; mathematics does not need this distinction.
+Books on proof often use capital letters $P$, $Q$, $R$, and books on formal logic write whole formulas with Greek letters $\varphi$, $\psi$.
+The truth values appear as T and F, as $1$ and $0$, or as $\top$ and $\bot$.
+In Lean, a proposition is a term of type `Prop`.
+Watch the word "Proposition" in a textbook: as a label, it marks a result less important than a theorem, and that meaning has nothing to do with logic.
 
 ## Remarks
 
-### Examples
+### Sentences that are propositions
 
-1. "$2 + 3 = 5$" is an atomic proposition, and it is true.
-2. "$7$ is even" is an atomic proposition, and it is false. A false sentence is still a proposition.
-3. "$6$ is even and $6$ is divisible by $4$" is a compound proposition. Its parts are true and false, so the [[conjunction|025YZN3VJW]] is false.
-4. [[Goldbach's conjecture as an example of a statement|2H9FT1ZV4J]]: nobody knows its truth value, but it has one.
-5. [[Quantifying an open sentence gives a statement|D8CYAZ8S9T]]: "there is a real $x$ with $x^2 - 5x + 6 = 0$" is a true proposition, because $x = 2$ works.
+"$2 + 3 = 5$" is an atomic proposition, and it is true.
+"$7$ is even" is an atomic proposition too, and it is false; a false sentence is still a proposition.
+"$6$ is even and $6$ is divisible by $4$" is compound, and its two parts are T and F, so the [[conjunction|025YZN3VJW]] is F.
+[[Goldbach's conjecture|2H9FT1ZV4J]], "every even number greater than $2$ is a sum of two primes", is a proposition although nobody knows its truth value.
+"There is a real $x$ with $x^2 - 5x + 6 = 0$" is a true proposition, since $x = 2$ gives $4 - 10 + 6 = 0$; [[quantifying an open sentence gives a statement|D8CYAZ8S9T]] explains why the quantifier makes it one.
 
-### Non-examples
+### Sentences that are not
 
-1. [[The open sentence $x > 3$ is not a statement|1812QVCW76]]: the variable $x$ is free, and the truth value changes with $x$. It is a [[predicate|0QHEWQD30B]].
-2. "Is $91$ prime?" is a question, so it claims nothing. The sentence "$91$ is prime" is a proposition, and it is false, because $91 = 7 \cdot 13$.
-3. "Let $n = 5$" is an instruction. It fixes a value, and it has no truth value.
-4. "This sentence is false" is the [[liar sentence|KBYY281V8T]]. If it were true, it would be false, and if it were false, it would be true, so it has no truth value.
+"Is $91$ prime?" asks and claims nothing, while "$91$ is prime" is a false proposition, because $91 = 7 \cdot 13$.
+"Let $n = 5$" is an instruction that fixes a value, so it has no truth value.
+[[The open sentence $x > 3$|1812QVCW76]] is true for $x = 4$ and false for $x = 2$, so by itself it is a [[predicate|0QHEWQD30B]], not a proposition.
+The [[liar sentence|KBYY281V8T]] "This sentence is false" fails in a deeper way: if it were true it would be false, and if it were false it would be true.
 
-### Basic properties
+### Atomic parts and compound forms
 
-1. Each proposition has exactly one of the two truth values. This is the [[principle of bivalence|5DYNDW9526]].
-2. The truth value of a compound proposition built with the connectives [[negation|029JBBF693]], [[conjunction|025YZN3VJW]], [[disjunction|0F72FK8EKB]], [[material implication|0NMG7W7Q11]] and the [[biconditional|0S6GMNJ62Y]] depends only on the truth values of its atomic parts.
-3. So a compound proposition with $n$ different atomic parts has at most $2^n$ cases to check, one for each row of its [[truth table|05RSK4Q657]].
-4. Two compound propositions with the same truth value in every row are [[logically equivalent|0JMR2HM2N2]], and a compound proposition that is true in every row is a [[tautology|05006AJ7DZ]].
-5. An open sentence $P(x)$ becomes a proposition when we substitute a value for $x$ or bind $x$ by a quantifier, as in "for every $x$, $P(x)$".
+Take the sentence "$15$ is divisible by $3$ or $15$ is divisible by $4$".
+Let $p$ be "$15$ is divisible by $3$" and $q$ be "$15$ is divisible by $4$".
+The sentence has the form $p \lor q$, a [[disjunction|0F72FK8EKB]].
+Here $p$ is T and $q$ is F, and a disjunction with one true part is true, so the sentence is T.
+
+The truth value of a compound built from [[negation|029JBBF693]], conjunction, disjunction, [[material implication|0NMG7W7Q11]] and the [[biconditional|0S6GMNJ62Y]] depends only on the truth values of its atomic parts.
+So a compound with $n$ different atomic parts has $2^n$ cases to check, one for each row of its truth table.
+An open sentence $P(x)$ becomes a proposition when we put a value in for $x$, or when a quantifier binds $x$, as in "for every $x$, $P(x)$".
+
+### Watch out
+
+Three wrong ideas are common.
+First, a sentence with an unknown truth value is still a proposition: Goldbach's conjecture is one.
+Second, a false sentence is still a proposition: "$2 + 2 = 5$" has the truth value F.
+Third, an open sentence is not one: "$n^2 > 10$" is true for $n = 4$ and false for $n = 3$, so it has no single truth value until $n$ is fixed.
 
 ### History
 
 In his work On Interpretation, Aristotle separated the declarative sentences, which are true or false, from other sentences such as prayers.
 The Stoic logicians, among them Chrysippus, built a logic of whole propositions joined by "if", "and" and "or".
-George Boole wrote propositions as letters and computed with them in his books of 1847 and 1854.
-Gottlob Frege, in his Begriffsschrift of 1879, gave the first formal language in which propositions and their connectives are written with symbols.
+George Boole computed with letters in his books of 1847 and 1854, and Gottlob Frege's Begriffsschrift of 1879 gave the first formal language for propositions and their connectives.
 
-### Common errors
+### Try it
 
-1. A student thinks that a sentence with an unknown truth value is not a proposition. Goldbach's conjecture is a proposition, although nobody knows whether it is true.
-2. A student treats an open sentence such as "$n^2 > 10$" as a proposition. Its truth value depends on $n$: it is true for $n = 4$ and false for $n = 3$.
-3. A student thinks that a false sentence is not a proposition. "$2 + 2 = 5$" is a proposition with truth value F.
+Is "$x^2 \ge 0$ for every real number $x$" a proposition?
+Yes: the quantifier binds $x$, and the sentence is true, since a square of a real number is never negative.
+
+Write "$12$ is even and $12$ is not divisible by $8$" in symbols and find its truth value.
+With $p$ for "$12$ is even" and $q$ for "$12$ is divisible by $8$", it is $p \land \neg q$; $p$ is T and $q$ is F, so $\neg q$ is T and the whole sentence is T.
 
 ## Explanations
 
@@ -92,29 +102,26 @@ Gottlob Frege, in his Begriffsschrift of 1879, gave the first formal language in
 A proposition is a sentence that makes a claim, so that the claim is either right or wrong.
 "$10$ is bigger than $3$" is a proposition, and it is true.
 "$10$ is smaller than $3$" is also a proposition, and it is false.
-"Add $3$ to $10$" is not a proposition, because it is an order, not a claim.
-"Is $10$ bigger than $3$?" is not a proposition either, because it asks and does not claim.
+"Add $3$ to $10$" is an order, and "Is $10$ bigger than $3$?" is a question, so neither of them is a proposition.
 Two propositions joined by "and" or "or" make a larger proposition.
 
 ### L2 human
 
-We decide which of four sentences are propositions, and we split each proposition into atomic parts.
+Decide which of these sentences are propositions, and give the form of each one: "if $15$ is divisible by $4$, then $15$ is even", "$x + 1 = 4$", and "find all primes below $20$".
+The first is a declarative sentence with no free variable.
+With $q$ for "$15$ is divisible by $4$" and $r$ for "$15$ is even", its form is $q \to r$.
+Its hypothesis $q$ is F, and an implication with a false hypothesis is true, so the sentence is T.
+The second has the free variable $x$, so it is a predicate $P(x)$; the instance $P(3)$ is a true proposition.
+The third is a command, so it is not a proposition.
 
-1. "$15$ is divisible by $3$ or $15$ is divisible by $4$." It is a declarative sentence without free variables. It is a compound proposition with the atomic parts $p$: "$15$ is divisible by $3$" and $q$: "$15$ is divisible by $4$". Its form is $p \lor q$, and it is true, because $p$ is true.
-2. "$x + 1 = 4$." The variable $x$ is free. It is not a proposition; it is a predicate $P(x)$, and $P(3)$ is a true proposition.
-3. "Find all primes below $20$." It is a command, so it is not a proposition.
-4. "If $15$ is divisible by $4$, then $15$ is even." It is a compound proposition of the form $q \to r$, with $r$: "$15$ is even". Its hypothesis $q$ is false, so the [[material implication|0NMG7W7Q11]] is true.
-
-The typical use of this analysis is the first step of every truth-table computation: find the atomic propositions, give them letters, and write the form.
-
-A trap: the same letter must stand for the same proposition in the whole formula.
-In item 4, the letter $q$ is the same sentence as in item 1, and its truth value F is the same in both places.
+This analysis is the first step of every truth-table computation: find the atomic propositions, name them with letters, and write the form.
+Watch out: one letter must stand for one sentence in the whole formula, so if $q$ means "$15$ is divisible by $4$" in one place, it means that everywhere.
 
 ### L3 human
 
-In the [[propositional calculus|09K9MWD2QQ]], the propositional variables are symbols without meaning, and formulas are strings built from them by the connectives.
-Meaning enters through a valuation, a function from the variables to $\{T, F\}$, which extends to all formulas by the truth tables.
-So "a proposition" in the formal sense is a formula, and two formulas with the same truth value under every valuation are identified in the Lindenbaum algebra, which is a [[Boolean algebra|0XADJKM699]].
-In first-order logic, the analogue of a proposition is a sentence, a formula without free variables, and the formulas with free variables are the predicates of the page [[predicate|0QHEWQD30B]].
-Non-classical logics change the second half of the definition: [[many-valued logics|DWYCKAKXZD]] allow more than two truth values, and in [[intuitionistic logic|Q11N8X99FK]] a proposition is identified with what counts as a proof of it.
-In type theory, this last view becomes the idea that a proposition is a type whose elements are its proofs.
+In the [[propositional calculus|09K9MWD2QQ]], propositional variables are symbols without meaning, and formulas are strings built from them by the connectives.
+Meaning enters through a valuation, a function from the variables to $\{T, F\}$ that extends to all formulas by the truth tables.
+Formulas with the same value under every valuation are identified in the Lindenbaum algebra, which is a [[Boolean algebra|0XADJKM699]].
+In first-order logic the analogue of a proposition is a sentence, a formula without free variables.
+[[Many-valued logics|DWYCKAKXZD]] allow more than two truth values, which drops the [[principle of bivalence|5DYNDW9526]].
+In [[intuitionistic logic|Q11N8X99FK]] a proposition is identified with what counts as a proof of it, and in type theory, as in Lean, a proposition is a type whose elements are its proofs.

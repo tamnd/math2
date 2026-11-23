@@ -18,44 +18,51 @@ sources:
 
 ## Example
 
-Let $E(p, q, r)$ be the connective "exactly one of $p$, $q$, $r$ is true".
-Many readers take the [[exclusive or|PTMR3P9J6C]] of three inputs, $p \oplus q \oplus r$, for this connective.
-We check that they differ.
+A puzzle says "exactly one of the three suspects tells the truth".
+Let $p$, $q$, $r$ be the three statements, and let $E(p, q, r)$ be "exactly one of $p$, $q$, $r$ is true".
+Many readers translate $E$ as the [[exclusive or|PTMR3P9J6C]] of three inputs, $p \oplus q \oplus r$.
+We check that the two differ.
 
 1. Take the row in which $p$, $q$, $r$ are all T.
-2. $E$: three inputs are T, not exactly one, so $E(p, q, r)$ is F.
-3. $p \oplus q \oplus r$: first $p \oplus q$ is F, because both are T; then F $\oplus$ T is T. So $p \oplus q \oplus r$ is T.
+2. Three inputs are T, not exactly one, so $E(p, q, r)$ is F.
+3. For $p \oplus q \oplus r$, first $p \oplus q$ is F, because both parts are T.
+   Then $\mathrm{F} \oplus \mathrm{T}$ is T, so $p \oplus q \oplus r$ is T.
 4. The two connectives differ in this row, so $E(p, q, r)$ is not $p \oplus q \oplus r$.
-5. In the other seven rows they agree, because a number of true inputs from $0$ to $2$ is odd exactly when it is $1$.
+5. In the other seven rows they agree, because a count of true inputs from $0$ to $2$ is odd exactly when it is $1$.
 
 ## Remarks
 
-The example shows that the exclusive or of many inputs counts parity, not uniqueness.
+### Parity is not uniqueness
+
+The exclusive or of many inputs counts parity, not uniqueness.
 For two inputs the two ideas coincide, because "odd" and "exactly one" mean the same thing for a count of $0$, $1$ or $2$.
 From three inputs on, they separate.
+With four inputs, the two connectives differ in the rows with $3$ true inputs, since $3$ is odd.
+With four true inputs, both are F.
 
-A correct formula for $E$ uses [[disjunction|0F72FK8EKB]], [[conjunction|025YZN3VJW]] and [[negation|029JBBF693]]: at least one, and no two together,
+### A correct formula
+
+A correct formula for $E$ says "at least one, and no two together", using [[disjunction|0F72FK8EKB]], [[conjunction|025YZN3VJW]] and [[negation|029JBBF693]]:
 $$E(p, q, r) \equiv (p \lor q \lor r) \land \neg(p \land q) \land \neg(p \land r) \land \neg(q \land r).$$
 In the row TTT, the part $\neg(p \land q)$ is F, so the formula is F, as it should be.
-
-With four inputs, the two connectives differ in the rows with $3$ true inputs, since $3$ is odd; with four true inputs, both are F.
+Another correct form lists the three rows where $E$ is T: $(p \land \neg q \land \neg r) \lor (\neg p \land q \land \neg r) \lor (\neg p \land \neg q \land r)$.
 
 ## Explanations
 
 ### L1 human
 
 "Exactly one of the three doors is open" is false when all three doors are open.
-But the exclusive or of three switches turns a lamp on when all three switches are flipped, because three is odd.
-So "exclusive or" of three things is not the same as "exactly one of three".
+But a lamp wired to three switches is on when all three switches are flipped, because three is odd.
+So the exclusive or of three things is not the same as "exactly one of three".
 
 ### L2 human
 
-We check the formula for $E$ in the row $p$ T, $q$ F, $r$ F.
+Check the correct formula for $E$ in the row $p$ T, $q$ F, $r$ F.
 
 1. $p \lor q \lor r$ is T, because $p$ is T.
-2. $p \land q$, $p \land r$ and $q \land r$ are F, because each contains a false input. So their negations are T.
-3. The conjunction of four true parts is T, so the formula gives T, and exactly one input is T.
+2. Each of $p \land q$, $p \land r$ and $q \land r$ contains a false input, so each is F.
+   Their negations are T.
+3. The conjunction of four true parts is T, so the formula gives T, and indeed exactly one input is T.
 
-The typical use of the correct formula is in puzzles and in counting conditions such as "exactly one of the three statements is true".
-
-A trap: a puzzle that says "exactly one of the three speakers tells the truth" must not be translated as an exclusive or of the three statements.
+The correct formula is the one to use in puzzles and counting conditions of the form "exactly one of three".
+Watch out: never translate "exactly one of the three speakers tells the truth" as an exclusive or of the three statements.

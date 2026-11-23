@@ -16,29 +16,41 @@ sources:
 
 ## Example
 
-For a positive integer $n$, let $p$ be "$n$ is [[prime|01826KMG2H]]" and let $q$ be "$n$ is odd".
-We compute the truth value of the [[material implication|0NMG7W7Q11]] $p \to q$ for $n = 7$, $2$, $9$ and $4$.
-Each value of $n$ falls in a different row of the [[truth table|0ZNX6DQ3EJ]].
+A student claims "if $n$ is prime, then $n$ is odd", and we test the claim at four numbers.
+For a positive integer $n$, let $p$ be "$n$ is [[prime|01826KMG2H]]" and $q$ be "$n$ is odd".
+Each of $n = 7$, $2$, $9$, $4$ falls in a different row of the [[truth table|0ZNX6DQ3EJ]] of the [[material implication|0NMG7W7Q11]] $p \to q$.
 
-1. $n = 7$. The only positive divisors of $7$ are $1$ and $7$, so $p$ is true. Also $7 = 2 \cdot 3 + 1$, so $q$ is true. The row $\mathsf{T}\mathsf{T}$ gives $p \to q$ true.
-2. $n = 2$. The only positive divisors of $2$ are $1$ and $2$, so $p$ is true. Also $2 = 2 \cdot 1$, so $q$ is false. The row $\mathsf{T}\mathsf{F}$ gives $p \to q$ false.
-3. $n = 9$. We have $9 = 3 \cdot 3$, so $p$ is false. Also $9 = 2 \cdot 4 + 1$, so $q$ is true. The row $\mathsf{F}\mathsf{T}$ gives $p \to q$ true.
-4. $n = 4$. We have $4 = 2 \cdot 2$, so $p$ is false. Also $4 = 2 \cdot 2$ is even, so $q$ is false. The row $\mathsf{F}\mathsf{F}$ gives $p \to q$ true.
+| $n$ | $p$ | $q$ | $p \to q$ |
+|---|---|---|---|
+| $7$ | T | T | T |
+| $2$ | T | F | F |
+| $9$ | F | T | T |
+| $4$ | F | F | T |
 
-So $p \to q$ is true for $n = 7$, $9$ and $4$, and false for $n = 2$.
+1. The only positive divisors of $7$ are $1$ and $7$, so $p$ is T.
+   Also $7 = 2 \cdot 3 + 1$, so $q$ is T, and the row TT gives T.
+2. The only positive divisors of $2$ are $1$ and $2$, so $p$ is T.
+   Also $2 = 2 \cdot 1$ is even, so $q$ is F, and the row TF gives F.
+3. We have $9 = 3 \cdot 3$, so $p$ is F.
+   Also $9 = 2 \cdot 4 + 1$, so $q$ is T, and the row FT gives T.
+4. We have $4 = 2 \cdot 2$, so $p$ is F and $q$ is F, and the row FF gives T.
+
+So $p \to q$ is true at $n = 7$, $9$ and $4$, and false at $n = 2$.
 
 ## Remarks
 
-The example shows the four rows of the truth table with real numbers.
-The universal statement "for every positive integer $n$, if $n$ is prime, then $n$ is odd" is false, and $n = 2$ is the [[counterexample|0ED72CTBNP]].
-The numbers $9$ and $4$ do not refute the statement, because their antecedent is false.
+### One counterexample is enough
 
-If we change the claim to "if $n$ is prime and $n > 2$, then $n$ is odd", then $n = 2$ moves to a row with a false antecedent.
+The universal claim "for every positive integer $n$, if $n$ is prime, then $n$ is odd" is false, and $n = 2$ is the [[counterexample|0ED72CTBNP]].
+The numbers $9$ and $4$ do not refute the claim, because their antecedent is false.
+The same claim can be written "$n$ is prime only if $n$ is odd" or "being prime is sufficient for being odd", and each version fails at $n = 2$ for the same reason.
+
+### Repairing the claim
+
+Change the claim to "if $n$ is prime and $n > 2$, then $n$ is odd".
+Now $n = 2$ falls in a row with a false antecedent.
 Every prime $n > 2$ is odd, because an even $n > 2$ has the divisor $2$ with $1 < 2 < n$.
 So the changed claim is true for every positive integer $n$.
-
-The same implication can be written "$n$ is prime only if $n$ is odd" or "being prime is sufficient for being odd".
-Each of these sentences is false for $n = 2$ for the same reason.
 
 ## Explanations
 
@@ -52,14 +64,14 @@ One broken promise is enough to make the general sentence false.
 
 ### L2 human
 
-We decide whether "for every positive integer $n$, if $n^2$ is even, then $n$ is even" is refuted by one of $n = 1, 2, 3, 4$.
+Decide whether "for every positive integer $n$, if $n^2$ is even, then $n$ is even" is refuted by one of $n = 1, 2, 3, 4$.
 
-1. $n = 1$: $n^2 = 1$ is odd, so the antecedent is false, and the implication is true.
-2. $n = 2$: $n^2 = 4$ is even and $n$ is even, so the implication is true.
-3. $n = 3$: $n^2 = 9$ is odd, so the implication is true.
-4. $n = 4$: $n^2 = 16$ is even and $n$ is even, so the implication is true.
+1. At $n = 1$, $n^2 = 1$ is odd, so the antecedent is F and the implication is T.
+2. At $n = 2$, $n^2 = 4$ is even and $n$ is even, so the implication is T.
+3. At $n = 3$, $n^2 = 9$ is odd, so the implication is T.
+4. At $n = 4$, $n^2 = 16$ is even and $n$ is even, so the implication is T.
 
 None of these numbers refutes the statement, and the statement is in fact true for every $n$.
-The typical use of the truth table here is to see which instances could refute a universal implication: only those with a true antecedent.
-A trap: the true instances in steps 1 to 4 do not prove the universal statement.
+Only instances with a true antecedent can refute a universal implication.
+Watch out: the true instances in steps 1 to 4 do not prove the universal statement.
 A proof must treat every $n$, as in [[an integer is even if and only if its square is even|T7C1TEZBRD]].

@@ -18,28 +18,26 @@ sources:
 
 ## Example
 
-We prove $(p \land q) \to (q \land p)$ with the rules of [[conjunction|025YZN3VJW]] in [[natural deduction|6KT3BJZ7D1]].
+If you know "it is cold and it is windy", you also know "it is windy and it is cold".
+We prove the general form $(p \land q) \to (q \land p)$ with the rules of [[conjunction|025YZN3VJW]] in [[natural deduction|6KT3BJZ7D1]].
 Each line gives a formula and the rule that justifies it.
 
-1. $p \land q$. Assumption, to be discharged in line 5.
-2. $q$. Conjunction elimination (right), from line 1.
-3. $p$. Conjunction elimination (left), from line 1.
-4. $q \land p$. [[Conjunction introduction|FJN3XDRXAR]], from lines 2 and 3.
-5. $(p \land q) \to (q \land p)$. Implication introduction, from the derivation of line 4 from the assumption in line 1.
+1. $p \land q$, an assumption, to be discharged in line 5.
+2. $q$, by conjunction elimination (right) from line 1.
+3. $p$, by conjunction elimination (left) from line 1.
+4. $q \land p$, by [[conjunction introduction|FJN3XDRXAR]] from lines 2 and 3.
+5. $(p \land q) \to (q \land p)$, by implication introduction, since line 4 was derived from the assumption in line 1.
 
 ## Remarks
 
-The example shows the three rules of conjunction at work, and it proves one direction of commutativity.
-The other direction, $(q \land p) \to (p \land q)$, has the same proof with $p$ and $q$ exchanged.
-Together they give $p \land q \equiv q \land p$.
+The derivation uses all three rules of conjunction and proves one direction of commutativity.
+The other direction, $(q \land p) \to (p \land q)$, has the same proof with $p$ and $q$ exchanged, and together they give $p \land q \equiv q \land p$.
 
-The same fact follows from the truth table: $p \land q$ and $q \land p$ are both T in the row TT and both F in the other three rows.
-The derivation has an advantage over the table: it uses only the rules of conjunction and implication, so it is also valid in [[intuitionistic logic|Q11N8X99FK]].
+The truth table gives the same fact: $p \land q$ and $q \land p$ are both T in the row TT and both F in the other three rows.
+The derivation has one advantage over the table: it uses only the rules of conjunction and implication, so it is valid in [[intuitionistic logic|Q11N8X99FK]] too.
 
-In Lean's Mathlib, the derivation is the term `fun h => And.intro (And.right h) (And.left h)`: the function takes a proof `h` of `p ∧ q` and builds a proof of `q ∧ p`.
-
-For a mathematical instance, take $p$: "$n$ is even" and $q$: "$n$ is divisible by $3$".
-From "$n$ is even and divisible by $3$" the derivation gives "$n$ is divisible by $3$ and even", with no arithmetic.
+In Lean's Mathlib the derivation is the term `fun h => And.intro (And.right h) (And.left h)`.
+It is a function that takes a proof `h` of `p ∧ q` and builds a proof of `q ∧ p`.
 
 ## Explanations
 
@@ -52,18 +50,17 @@ The proof above writes these three moves as three rules.
 
 ### L2 human
 
-We prove associativity in one direction: $((p \land q) \land r) \to (p \land (q \land r))$.
+Prove associativity in one direction, $((p \land q) \land r) \to (p \land (q \land r))$.
 
-1. $(p \land q) \land r$. Assumption.
-2. $p \land q$. Conjunction elimination (left), from line 1.
-3. $r$. Conjunction elimination (right), from line 1.
-4. $p$. Conjunction elimination (left), from line 2.
-5. $q$. Conjunction elimination (right), from line 2.
-6. $q \land r$. Conjunction introduction, from lines 5 and 3.
-7. $p \land (q \land r)$. Conjunction introduction, from lines 4 and 6.
-8. $((p \land q) \land r) \to (p \land (q \land r))$. Implication introduction, discharging line 1.
+1. $(p \land q) \land r$, an assumption.
+2. $p \land q$, by elimination (left) from line 1.
+3. $r$, by elimination (right) from line 1.
+4. $p$, by elimination (left) from line 2.
+5. $q$, by elimination (right) from line 2.
+6. $q \land r$, by introduction from lines 5 and 3.
+7. $p \land (q \land r)$, by introduction from lines 4 and 6.
+8. The implication, by implication introduction, discharging line 1.
 
-The typical use of such derivations is to show that a law holds from the rules alone, without truth values.
-
-A trap: the elimination rules apply to the main connective of a line only.
-From line 1 we cannot get $q$ in one step, because the main connective of line 1 joins $p \land q$ and $r$; we first need line 2.
+Derivations like this show that a law follows from the rules alone, without truth values.
+Watch out: an elimination rule applies only to the main connective of a line.
+Line 1 does not give $q$ in one step, because its main connective joins $p \land q$ and $r$, so line 2 must come first.

@@ -16,27 +16,38 @@ sources:
 
 ## Example
 
-For a real number $x$, let $p$ be "$x^2 = 1$" and let $q$ be "$x = 1$".
-We compute the truth value of the [[biconditional|0S6GMNJ62Y]] $p \leftrightarrow q$ for $x = 1$, $x = -1$ and $x = 2$.
-For each value, we also compute $(p \to q) \land (q \to p)$ and see that it gives the same value.
+A student claims "a real number squares to $1$ if and only if it is $1$", and we test the claim at three numbers.
+For a real number $x$, let $p$ be "$x^2 = 1$" and $q$ be "$x = 1$".
+At each value we compute the [[biconditional|0S6GMNJ62Y]] $p \leftrightarrow q$ and also $(p \to q) \land (q \to p)$.
 
-1. $x = 1$. Then $x^2 = 1$, so $p$ is true, and $q$ is true. The row $\mathsf{T}\mathsf{T}$ of the [[truth table|0V6GAWTBYW]] gives $p \leftrightarrow q$ true. Both $p \to q$ and $q \to p$ are true, so the conjunction is true.
-2. $x = -1$. Then $x^2 = (-1)(-1) = 1$, so $p$ is true, and $q$ is false. The row $\mathsf{T}\mathsf{F}$ gives $p \leftrightarrow q$ false. Here $p \to q$ is false, so the conjunction is false.
-3. $x = 2$. Then $x^2 = 4 \neq 1$, so $p$ is false, and $q$ is false. The row $\mathsf{F}\mathsf{F}$ gives $p \leftrightarrow q$ true. Both implications have a false antecedent, so both are true, and the conjunction is true.
-4. The row $\mathsf{F}\mathsf{T}$ occurs for no real $x$. If $q$ is true, then $x = 1$, so $x^2 = 1$ and $p$ is true.
+| $x$ | $p$ | $q$ | $p \to q$ | $q \to p$ | $p \leftrightarrow q$ |
+|---|---|---|---|---|---|
+| $1$ | T | T | T | T | T |
+| $-1$ | T | F | F | T | F |
+| $2$ | F | F | T | T | T |
 
-So $p \leftrightarrow q$ is true for $x = 1$ and $x = 2$, and false for $x = -1$.
+1. At $x = 1$, $x^2 = 1$, so both sides are T, and the row TT of the [[truth table|0V6GAWTBYW]] gives T.
+2. At $x = -1$, $x^2 = (-1)(-1) = 1$, so $p$ is T and $q$ is F.
+   The row TF gives F, and indeed $p \to q$ is F there.
+3. At $x = 2$, $x^2 = 4 \neq 1$, so both sides are F, and the row FF gives T.
+4. The row FT occurs for no real $x$.
+   If $q$ is T, then $x = 1$, so $x^2 = 1$ and $p$ is T.
+
+So the claim is true at $x = 1$ and $x = 2$, and false at $x = -1$.
 
 ## Remarks
 
-The example shows how one value can break a universal biconditional.
-The statement "for every real $x$, $x^2 = 1$ if and only if $x = 1$" is false, and $x = -1$ is the counterexample.
+### Which direction fails
+
+The universal claim "for every real $x$, $x^2 = 1$ if and only if $x = 1$" is false, and $x = -1$ is the counterexample.
 Step 4 shows that the direction $(\Leftarrow)$, "if $x = 1$, then $x^2 = 1$", holds for every $x$.
 So only the direction $(\Rightarrow)$ fails.
 
-If we change $q$ to "$x = 1$ or $x = -1$", then the biconditional becomes true for every real $x$.
+### Two repairs
+
+Change $q$ to "$x = 1$ or $x = -1$", and the biconditional becomes true for every real $x$.
 Indeed $x^2 = 1$ gives $(x - 1)(x + 1) = 0$, so $x = 1$ or $x = -1$, and both values give $x^2 = 1$.
-If we restrict $x$ to the positive real numbers, then the original biconditional becomes true, because $x = -1$ is no longer allowed.
+Alternatively, restrict $x$ to the positive real numbers, and the original biconditional becomes true, because $x = -1$ is no longer allowed.
 
 ## Explanations
 
@@ -50,7 +61,7 @@ So the two parts do not always agree, and the sentence is false.
 
 ### L2 human
 
-We test the claim "for every real $x$, $x^3 = 8$ if and only if $x = 2$".
+Test the claim "for every real $x$, $x^3 = 8$ if and only if $x = 2$".
 
 1. $(\Leftarrow)$ If $x = 2$, then $x^3 = 8$.
 2. $(\Rightarrow)$ If $x^3 = 8$, then $x^3 - 8 = (x - 2)(x^2 + 2x + 4) = 0$.
@@ -58,5 +69,5 @@ We test the claim "for every real $x$, $x^3 = 8$ if and only if $x = 2$".
 4. So $x - 2 = 0$, and $x = 2$.
 5. Both directions hold, so the biconditional is true for every real $x$.
 
-The typical use of the two directions is to find which one can fail, and to look for a counterexample only there.
-A trap: the analogy with $x^2 = 1$ suggests a second solution $x = -2$, but $(-2)^3 = -8 \neq 8$.
+Splitting into two directions shows which one can fail, so we look for a counterexample only there.
+Watch out: the analogy with $x^2 = 1$ suggests a second solution $x = -2$, but $(-2)^3 = -8 \neq 8$.

@@ -17,21 +17,25 @@ sources:
 ## Example
 
 Consider the integers $\mathbb{Z}$ with addition, a [[group|G5S1M9]].
-The axioms of the [[identity element|07WYQPB8E3]] and of [[inverses|0ZNZH0EXFX]] have the same predicate shape, but their quantifiers come in a different order.
+The axioms of the [[identity element|07WYQPB8E3]] and of [[inverses|0ZNZH0EXFX]] have the same shape, but their quantifiers come in a different order:
 $$\text{identity:} \quad \exists e \; \forall x \; (e + x = x), \qquad \text{inverses:} \quad \forall x \; \exists y \; (x + y = 0).$$
-We check both, and we check the statements with the order exchanged.
+We check both, and then we check the statements with the order exchanged.
 
-1. Identity, order $\exists e \, \forall x$. Take $e = 0$. For every integer $x$, $0 + x = x$. So the statement is true, with one $e$ for all $x$.
-2. Inverses, order $\forall x \, \exists y$. Let $x$ be an integer, and take $y = -x$. Then $x + y = 0$. So the statement is true, and the witness $y = -x$ depends on $x$.
-3. Inverses with the order exchanged, $\exists y \, \forall x \; (x + y = 0)$. Suppose that some $y$ works. With $x = 0$ we get $y = 0$, and with $x = 1$ we get $y = -1$. This is a contradiction, so the statement is false.
-4. Identity with the order exchanged, $\forall x \, \exists e \; (e + x = x)$. It is true, with $e = 0$ for every $x$. It follows from step 1, as the implication from $\exists \forall$ to $\forall \exists$ always holds.
+1. Identity, order $\exists e \, \forall x$: take $e = 0$, and note $0 + x = x$ for every integer $x$.
+   So the statement is true, with one $e$ for all $x$.
+2. Inverses, order $\forall x \, \exists y$: let $x$ be an integer, and take $y = -x$, so that $x + y = 0$.
+   So the statement is true, and the witness $y = -x$ depends on $x$.
+3. Inverses with the order exchanged, $\exists y \, \forall x \; (x + y = 0)$: suppose that some $y$ works.
+   Then $x = 0$ gives $y = 0$ and $x = 1$ gives $y = -1$, a contradiction, so the statement is false.
+4. Identity with the order exchanged, $\forall x \, \exists e \; (e + x = x)$, is true with $e = 0$ for every $x$.
+   It follows from step 1, because $\exists \forall$ always implies $\forall \exists$.
 
 ## Remarks
 
-The example shows that the identity axiom is an $\exists \forall$ statement and the inverse axiom is a $\forall \exists$ statement.
+The identity axiom is an $\exists \forall$ statement and the inverse axiom is a $\forall \exists$ statement.
 Step 3 holds in every group with at least two elements: if $x y = e$ for all $x$, then each $x$ equals $y^{-1}$, so all elements are equal.
-The weaker order of the identity axiom, $\forall x \, \exists e \; (e \cdot x = x)$, is not enough to give an identity.
-In the integers with the operation $\max$, each $x$ has $\max(x, x) = x$, so $\forall x \, \exists e \, (\max(e, x) = x)$ is true.
+The weaker order of the identity axiom, $\forall x \, \exists e \; (e \cdot x = x)$, does not give an identity.
+On the integers with the operation $\max$, $\max(x, x) = x$, so $\forall x \, \exists e \, (\max(e, x) = x)$ is true.
 But $\exists e \, \forall x \, (\max(e, x) = x)$ asks for an integer $e$ with $e \leq x$ for all $x$, and there is none.
 On the natural numbers with $\max$, the element $0$ works, and both orders are true.
 
@@ -48,11 +52,9 @@ No single partner works for all numbers, because $5 + (-5) = 0$ but $2 + (-5) = 
 ### L2 human
 
 To find the order of quantifiers in an axiom, write it fully in symbols and look at the place of each witness.
-
-1. "There is an element $e$ such that $e x = x e = x$ for all $x$" has $\exists e$ first, so $e$ is one element for the whole group.
-2. "For each $x$ there is $y$ with $x y = y x = e$" has $\forall x$ first, so $y$ may change with $x$, and we write $y = x^{-1}$.
-3. The notation $x^{-1}$ shows the dependence on $x$, while the symbol $e$ has no argument.
-
-A trap is to treat the two axioms as unrelated formulas.
+"There is an element $e$ such that $e x = x e = x$ for all $x$" has $\exists e$ first, so $e$ is one element for the whole group.
+"For each $x$ there is $y$ with $x y = y x = e$" has $\forall x$ first, so $y$ may change with $x$, and we write $y = x^{-1}$.
+The notation $x^{-1}$ records the dependence on $x$, while the symbol $e$ has no argument.
 The inverse axiom mentions $e$, so in symbols both axioms sit inside the scope of one quantifier $\exists e$:
 $$\exists e \; \bigl( \forall x \; (e x = x \land x e = x) \;\land\; \forall x \; \exists y \; (x y = e \land y x = e) \bigr).$$
+Watch out: treating the two axioms as separate formulas loses the link between the $e$ of the inverses and the $e$ of the identity.

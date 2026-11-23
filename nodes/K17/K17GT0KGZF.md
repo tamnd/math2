@@ -22,10 +22,8 @@ If $A$ says $S$, then $a \leftrightarrow S$ is true, by the definition of the [[
 We solve one puzzle in two ways, and then we find a question that identifies a road.
 
 Puzzle 1: $A$ says "we are both knaves", and we must find the types of $A$ and $B$.
-
 The statement is $\neg a \land \neg b$, so the puzzle is the formula $a \leftrightarrow (\neg a \land \neg b)$.
-
-Method 1: [[truth table|05RSK4Q657]].
+Method 1 is a [[truth table|05RSK4Q657]].
 
 | $a$ | $b$ | $\neg a \land \neg b$ | $a \leftrightarrow (\neg a \land \neg b)$ |
 |---|---|---|---|
@@ -34,45 +32,43 @@ Method 1: [[truth table|05RSK4Q657]].
 | F | T | F | T |
 | F | F | T | F |
 
-1. Fill the column $\neg a \land \neg b$ by the truth table of [[conjunction|025YZN3VJW]]: it is true only when $a$ and $b$ are both false.
-2. Fill the last column: it is true when the two values $a$ and $\neg a \land \neg b$ agree.
-3. Only the third row has T in the last column. So $a$ is false and $b$ is true: $A$ is a knave and $B$ is a knight.
+1. By the truth table of [[conjunction|025YZN3VJW]], the column $\neg a \land \neg b$ is true only when $a$ and $b$ are both false.
+2. The last column is true when $a$ and $\neg a \land \neg b$ have the same value.
+3. Only the third row has T in the last column, so $A$ is a knave and $B$ is a knight.
 
-Method 2: [[proof by cases|0WCP0PVET6]].
+Method 2 is a [[proof by cases|0WCP0PVET6]].
 
-4. Case $A$ is a knight. Then the statement is true, so $A$ is a knave. This contradicts the case, so the case is impossible.
-5. Case $A$ is a knave. Then the statement is false, so $A$ and $B$ are not both knaves. Since $A$ is a knave, $B$ is a knight.
-6. Check the solution of step 5: the statement "we are both knaves" is false because $B$ is a knight, and a knave makes false statements. So the solution is consistent.
-7. Steps 4 to 6 give the same unique solution as step 3.
+4. If $A$ is a knight, the statement is true, so $A$ is a knave, which contradicts the case.
+5. If $A$ is a knave, the statement is false, so $A$ and $B$ are not both knaves, and since $A$ is a knave, $B$ is a knight.
+6. Check: "we are both knaves" is false because $B$ is a knight, and a knave makes false statements, so the solution is consistent and matches step 3.
 
 Puzzle 2: a road splits into a left road and a right road, and exactly one of them leads to the village.
-An inhabitant of unknown type stands at the fork.
-We must find one yes-or-no question whose answer tells which road leads to the village.
-
+An inhabitant of unknown type stands at the fork, and we may ask one yes-or-no question.
 Let $k$ be "the inhabitant is a knight" and $L$ be "the left road leads to the village".
-An inhabitant answers yes to a question $q$ exactly when $k \leftrightarrow q$ is true: a knight says yes to true questions, and a knave says yes to false questions.
+An inhabitant answers yes to a question $q$ exactly when $k \leftrightarrow q$ is true, since a knight says yes to true questions and a knave says yes to false ones.
 
-8. The direct question "does the left road lead to the village?" fails. The answer is yes exactly when $k \leftrightarrow L$, so it depends on the unknown $k$.
-9. The biconditional question: "is it true that you are a knight if and only if the left road leads to the village?" Here $q$ is $k \leftrightarrow L$, so the answer is yes exactly when $k \leftrightarrow (k \leftrightarrow L)$ is true.
-10. The embedded question: "if I asked you whether the left road leads to the village, would you say yes?" The inner answer is yes exactly when $k \leftrightarrow L$. So $q$ is $k \leftrightarrow L$ again, and the answer is yes exactly when $k \leftrightarrow (k \leftrightarrow L)$ is true.
-11. Check all four cases.
+7. The direct question "does the left road lead to the village?" fails, because the answer is yes exactly when $k \leftrightarrow L$, which depends on the unknown $k$.
+8. The question "are you a knight if and only if the left road leads to the village?" has $q = (k \leftrightarrow L)$, so the answer is yes exactly when $k \leftrightarrow (k \leftrightarrow L)$.
+9. The question "if I asked you whether the left road leads to the village, would you say yes?" has the inner answer yes exactly when $k \leftrightarrow L$.
+   So again $q = (k \leftrightarrow L)$, and the answer is yes exactly when $k \leftrightarrow (k \leftrightarrow L)$.
+10. The table checks all four cases.
 
-| $k$ | $L$ | $k \leftrightarrow L$ | answer to the direct question | answer to the questions of steps 9 and 10 |
+| $k$ | $L$ | $k \leftrightarrow L$ | direct question | questions 8 and 9 |
 |---|---|---|---|---|
 | T | T | T | yes | yes |
 | T | F | F | no | no |
 | F | T | F | no | yes |
 | F | F | T | yes | no |
 
-12. In every row, the answer to the questions of steps 9 and 10 is yes exactly when $L$ is true. So the traveller takes the left road after a yes and the right road after a no.
+11. In every row, the answer to questions 8 and 9 is yes exactly when $L$ is true, so the traveler takes the left road after a yes and the right road after a no.
 
 ## Remarks
 
 The rule $a \leftrightarrow S$ turns each puzzle into a formula of propositional logic, and the solutions are the rows where the formula is true.
-In puzzle 1, the truth table and the case analysis are the same computation: the case analysis tests the rows in two groups, by the value of $a$.
+In puzzle 1, the truth table and the case analysis are the same computation, since the case analysis tests the rows in two groups by the value of $a$.
 If $A$ says instead "at least one of us is a knave", the formula is $a \leftrightarrow (\neg a \lor \neg b)$, and the only solution is that $A$ is a knight and $B$ is a knave.
-In puzzle 2, the identity $k \leftrightarrow (k \leftrightarrow L) \equiv L$ is the reason both questions work: the speaker's type appears twice and cancels.
-Logic grid puzzles, in which a table of possibilities is filled by elimination, are another family of such puzzles; the topic [[logic and deduction puzzles|4QETN23YNF]] collects them.
+In puzzle 2, the identity $k \leftrightarrow (k \leftrightarrow L) \equiv L$ explains why both questions work: the speaker's type appears twice and cancels.
+Logic grid puzzles, in which a table of possibilities is filled by elimination, form another family, collected under [[logic and deduction puzzles|4QETN23YNF]].
 
 ## Explanations
 
@@ -88,12 +84,10 @@ A liar lies about a lie, and the two lies cancel, so the answer is also correct.
 
 ### L2 human
 
-The general procedure for a puzzle on the island has four steps.
-
-1. Give each inhabitant a letter for "is a knight".
-2. Translate each statement $S$ of inhabitant $X$ as $x \leftrightarrow S$.
-3. Find the rows of the truth table in which all the biconditionals are true, or test the cases for one inhabitant at a time.
-4. Check each solution against the original sentences.
-
-The typical use is a check of a translation: a mistake in step 2 usually gives no solution or two solutions.
-A trap in puzzle 2 is the direct question of step 8, which looks enough, but the table of step 11 shows that a knave answers it wrongly in both rows where $k$ is false.
+A puzzle on the island is solved in four steps.
+First, give each inhabitant a letter for "is a knight".
+Second, translate each statement $S$ of an inhabitant $X$ as $x \leftrightarrow S$.
+Third, find the rows of the truth table in which all the biconditionals are true, or test the cases for one inhabitant at a time.
+Fourth, check each solution against the original sentences.
+A mistake in the second step usually gives no solution or two solutions, so the count of solutions is a check on the translation.
+Watch out: the direct question of step 7 looks enough, but the table shows that a knave answers it wrongly in both rows where $k$ is false.

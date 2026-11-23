@@ -18,27 +18,41 @@ sources:
 
 We compute the truth values of four [[material implications|0NMG7W7Q11]] whose antecedent and consequent have no link of meaning.
 
-1. "If $2 + 2 = 4$, then $7$ is prime." The antecedent is true, and the consequent is true, because the only positive divisors of $7$ are $1$ and $7$. The row $\mathsf{T}\mathsf{T}$ of the [[truth table|0ZNX6DQ3EJ]] gives true.
-2. "If $10$ is prime, then $3 < 4$." The antecedent is false, because $10 = 2 \cdot 5$, and the consequent is true. The row $\mathsf{F}\mathsf{T}$ gives true.
-3. "If $2 + 2 = 5$, then $9$ is prime." The antecedent is false, and the consequent is false, because $9 = 3 \cdot 3$. The row $\mathsf{F}\mathsf{F}$ gives true.
-4. "If $2 + 2 = 4$, then $9$ is prime." The antecedent is true, and the consequent is false. The row $\mathsf{T}\mathsf{F}$ gives false.
+| implication | antecedent | consequent | value |
+|---|---|---|---|
+| if $2 + 2 = 4$, then $7$ is prime | T | T | T |
+| if $2 + 2 = 4$, then $9$ is prime | T | F | F |
+| if $10$ is prime, then $3 < 4$ | F | T | T |
+| if $2 + 2 = 5$, then $9$ is prime | F | F | T |
 
-So the first three implications are true, and the fourth is false.
+1. The number $7$ is prime, because its only positive divisors are $1$ and $7$.
+   So the first line falls in the row TT of the [[truth table|0ZNX6DQ3EJ]], and the value is T.
+2. The number $9$ is not prime, because $9 = 3 \cdot 3$.
+   So the second line falls in the row TF, and the value is F.
+3. The number $10$ is not prime, because $10 = 2 \cdot 5$.
+   So the third line falls in the row FT, and the value is T.
+4. The fourth line has two false parts, so it falls in the row FF, and the value is T.
+
+Three of the implications are true and one is false.
 The subject matter of the parts plays no role: only their truth values count.
 
 ## Remarks
 
-The example shows the truth-functional character of material implication.
-Implications 1 to 3 sound strange in English, because no reasoning leads from the antecedent to the consequent.
-They are instances of the [[paradoxes of material implication|3T7ZJFC9QF]]: a true consequent makes the implication true (implications 1 and 2), and a false antecedent makes it true (implications 2 and 3).
+### Why they sound strange
 
-In mathematics, such implications rarely appear alone.
+The true lines sound strange in English, because no reasoning leads from the antecedent to the consequent.
+They are instances of the [[paradoxes of material implication|3T7ZJFC9QF]].
+A true consequent makes the implication true, as in the first and third lines.
+A false antecedent makes it true, as in the third and fourth lines.
+Replace the consequent of the first line by any true statement, and it stays true.
+Replace the antecedent of the fourth line by any false statement, and it stays true.
+
+### Implications in theorems
+
+In mathematics such implications rarely appear alone.
 A theorem usually has a variable and a hidden "for every", as in "for every integer $n$, if $4$ divides $n$, then $n$ is even".
-The link between antecedent and consequent then comes from the quantifier: the implication must hold for every $n$, and that needs a reason.
-The page [[conditional statements|FA6YZGR2SS]] treats this reading of mathematical English.
-
-If we replace the consequent of implication 1 by any true statement, the implication stays true.
-If we replace the antecedent of implication 3 by any false statement, the implication stays true.
+The link between antecedent and consequent then comes from the quantifier: the implication must hold at every $n$, and that needs a reason.
+[[Conditional statements|FA6YZGR2SS]] treats this reading of mathematical English.
 
 ## Explanations
 
@@ -51,14 +65,13 @@ Logic checks only whether the promise is broken, not whether the two parts are a
 
 ### L2 human
 
-We decide the truth value of "if $\sqrt{2}$ is rational, then every triangle has four sides".
+Decide the truth value of "if $\sqrt{2}$ is rational, then every triangle has four sides".
 
 1. The antecedent "$\sqrt{2}$ is rational" is false, by the classical proof that $\sqrt{2}$ is irrational.
 2. The consequent "every triangle has four sides" is false.
-3. The row $\mathsf{F}\mathsf{F}$ of the truth table gives true.
-4. So the implication is true.
+3. The row FF of the truth table gives T, so the implication is true.
 
-The typical use of this fact is in proofs by contradiction: once a false statement is derived, every implication from it is true, so any conclusion follows.
+Proofs by contradiction use this fact: once a false statement is derived, every implication from it is true, so any conclusion follows.
 This is the principle of [[explosion|TTKZGJEEK7]].
-A trap: a true implication with a false antecedent gives no information about the consequent.
-From step 4 we learn nothing about triangles.
+Watch out: a true implication with a false antecedent gives no information about the consequent.
+From step 3 we learn nothing about triangles.
