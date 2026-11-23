@@ -18,25 +18,33 @@ sources:
 
 ## Example
 
-Let $K = \set{e \in \N : \text{the program with code } e \text{ halts on input } e}$ be the halting set.
-We show that $K$ is not a $\Delta_0$-definable set, so it is not in the [[linear-time hierarchy|FYGWNXETVJ]].
+A bounded formula can always be checked by a search that stops: to decide $\exists y < 50 \, (y \cdot y = 49)$, you try at most $50$ values.
+The question "does program $e$ halt on input $e$?" has no such bound, because nobody knows in advance how many steps to wait.
+That difference is the whole reason why the halting set is not $\Delta_0$-definable.
 
-1. Claim: for every [[$\Delta_0$ formula|GE43CSZTS9]] $\theta(\bar x)$, an algorithm decides $\N \models \theta(\bar n)$ from $\bar n$. We prove it by [[structural induction|12MQ2NJ29A]] on $\theta$.
-2. Atomic $\theta$: compute the values of the terms and compare them.
-3. $\neg \theta_1$ and $\theta_1 \land \theta_2$: run the algorithms for $\theta_1$ and $\theta_2$.
-4. $\exists y < t(\bar x) \, \theta_1(y, \bar x)$: compute $m = t(\bar n)$, then run the algorithm for $\theta_1(k, \bar n)$ for $k = 0, \dots, m - 1$. The search is finite.
-5. $\forall y < t(\bar x) \, \theta_1$: the same search, with "all" in place of "some".
+In exact terms, let $K = \{ e \in \mathbb{N} : \text{the program with code } e \text{ halts on input } e \}$ be the halting set.
+We show that $K$ is not $\Delta_0$-definable, so it is not in the [[linear-time hierarchy|FYGWNXETVJ]].
+
+1. We claim that for every [[$\Delta_0$ formula|GE43CSZTS9]] $\theta(\bar x)$, an algorithm decides $\mathbb{N} \models \theta(\bar n)$ from $\bar n$.
+   We prove it by [[structural induction|12MQ2NJ29A]] on $\theta$.
+2. For an atomic $\theta$, the algorithm computes the values of the terms and compares them.
+3. For $\neg \theta_1$ and $\theta_1 \land \theta_2$, it runs the algorithms for $\theta_1$ and $\theta_2$, which exist by the induction hypothesis, and combines the answers.
+4. For $\exists y < t(\bar x) \, \theta_1(y, \bar x)$, it computes $m = t(\bar n)$ and runs the algorithm for $\theta_1(k, \bar n)$ for $k = 0, \dots, m - 1$.
+   The search has $m$ rounds, so it stops.
+5. For $\forall y < t(\bar x) \, \theta_1$, it runs the same search and asks that all answers be "yes".
 6. So every $\Delta_0$-definable set is [[computable|PPGD5KW8JC]].
-7. $K$ is not computable, by the [[undecidability of the halting problem|Z7TN2B35B0]].
+7. The set $K$ is not computable, by the [[undecidability of the halting problem|Z7TN2B35B0]].
 8. By steps 6 and 7, no $\Delta_0$ formula defines $K$.
 
 ## Remarks
 
 The halting set is $\Sigma_1$-definable: $e \in K$ if and only if some number codes a halting computation of program $e$ on input $e$.
 So one unbounded existential quantifier is enough to leave the $\Delta_0$ sets.
-A computable set can also fail to be $\Delta_0$-definable: Myhill's theorem puts all $\Delta_0$ sets in linear space, and some computable sets need more space.
-If the search for a halting computation is cut off at a computable bound, the resulting set is computable.
-So the unbounded search is what makes $K$ undecidable.
+If the search for a halting computation is cut off at a computable bound $b(e)$, the resulting set is computable, so the missing bound is what makes $K$ undecidable.
+
+Watch out: the converse of step 6 is false.
+A computable set can fail to be $\Delta_0$-definable, because every $\Delta_0$ set is decidable in linear space, and the space hierarchy theorem gives computable sets that need more space.
+So computability is necessary for $\Delta_0$-definability, but not sufficient.
 
 ## Explanations
 
@@ -49,12 +57,11 @@ So the halting property is not bounded.
 
 ### L2 human
 
-We compare a bounded and an unbounded version.
+We compare a bounded question with an unbounded one.
+For $\theta(n) = \exists y < n + 1 \, (y \cdot y = n)$, the algorithm of step 4 tests $y = 0, 1, \dots, n$, so for $n = 10$ it makes $11$ tests and answers "no".
+Now let $H(e, s)$ say that program $e$ on input $e$ halts within $s$ steps, which an algorithm decides by simulating $s$ steps.
+The halting set is the projection below, and the search over $s$ has no bound given in advance:
+$$K = \{ e : \exists s \, H(e, s) \}.$$
+If a computable function $b$ gave a bound $s \le b(e)$ for every $e \in K$, the search would be finite and $K$ would be computable, which step 7 rules out.
 
-1. For $\theta(n) := \exists y < n + 1 \, (y \cdot y = n)$, the algorithm of step 4 tests $y = 0, 1, \dots, n$. For $n = 10$ it makes $11$ tests and answers "no".
-2. Let $H(e, s)$ say that program $e$ on input $e$ halts within $s$ steps. An algorithm decides $H(e, s)$ by simulating $s$ steps.
-3. Then $K = \set{e : \exists s \, H(e, s)}$, and the search over $s$ has no bound given in advance.
-4. If some computable function $b$ gave a bound $s \le b(e)$, the search would be finite and $K$ would be computable. Step 7 of the example rules this out.
-
-The typical use is to separate the $\Delta_0$ sets from the $\Sigma_1$ sets.
-A trap is to think that every decidable set is $\Delta_0$: decidability is necessary, not sufficient.
+The typical use of this non-example is to separate the $\Delta_0$ sets from the $\Sigma_1$ sets, the first step of the [[arithmetical hierarchy|7CVJCQKY41]].
