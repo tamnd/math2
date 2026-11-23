@@ -16,39 +16,44 @@ sources:
 
 ## Example
 
-Let $L = \set{f, P}$ with a unary function symbol $f$ and a unary relation symbol $P$, and no constant symbols.
-We show that $L$ has no closed terms.
+Let $L = \{ f, P \}$, with a unary function symbol $f$, a unary relation symbol $P$, and no constant symbols.
+Try to write down a term without variables: $f(\ )$ needs an argument, and the only arguments on offer are variables or other terms of the form $f(\ldots)$.
+We show that this search always fails, so $L$ has no closed [[terms|6D3WA7N2W4]].
 
-1. By the definition of terms, every term is a variable, a constant symbol, or $f(t)$ for a term $t$.
+1. By the definition of terms, every term of $L$ is a variable or $f(t)$ for a term $t$, since $L$ has no constant symbols.
 2. We show by induction on terms that every term of $L$ contains a variable.
-3. A variable contains itself. There are no constant symbols.
+3. A variable contains itself.
 4. If $t$ contains a variable, then $f(t)$ contains the same variable.
 5. So no term of $L$ is closed, and the set of closed terms is empty.
 
-A structure must have a nonempty domain, so the empty set of closed terms cannot be the domain of a structure.
+A [[structure|983GZBQYT4]] must have a nonempty domain, so the empty set of closed terms cannot be the domain of a Herbrand structure.
 The condition that fails is the existence of a constant symbol.
-The [[definition of the Herbrand universe|JKP0XNXRPB]] repairs this by adding a new constant $c_0$.
-Then $H(L \cup \set{c_0}) = \set{c_0, f(c_0), f(f(c_0)), \ldots}$.
+The [[definition of the Herbrand universe|JKP0XNXRPB]] repairs this by adding a new constant $c_0$, and then
+$$H(L \cup \{ c_0 \}) = \{ c_0, \ f(c_0), \ f(f(c_0)), \ \ldots \}.$$
 
 ## Remarks
 
 The example explains the convention on constants in the definition of the Herbrand universe.
-The added constant is harmless for satisfiability: a set $\Sigma$ of $L$-sentences has a model if and only if it has a model as a set of $L \cup \set{c_0}$-sentences, because $c_0$ can be interpreted by any element.
-The set of all terms of $L$, with variables, is also not the Herbrand universe: the term $f(x)$ has a variable.
+The added constant does no harm to satisfiability.
+If a set $\Sigma$ of $L$-sentences has a model $\mathcal{M}$, we can read $c_0$ as any element of $M$, and $\Sigma$ stays true, because no sentence of $\Sigma$ mentions $c_0$.
+The converse is immediate: forget the meaning of $c_0$.
+
+The set of all terms of $L$, with variables, is not a Herbrand universe either.
+The term $f(x)$ contains the variable $x$, so it names nothing until $x$ gets a value.
 
 ## Explanations
 
 ### L1 human
 
-If a language has no names at all, only a way $f$ to turn one thing into another, then it cannot name anything without a variable.
-So we give it one name to start with, and then $f$ produces the rest.
+Suppose a language has no names at all, only a way $f$ to turn one thing into another.
+Then it cannot name anything without first having a thing to start from.
+So we give it one name $c_0$ to start with, and then $f$ produces $f(c_0)$, $f(f(c_0))$ and the rest.
 
 ### L2 human
 
 We check that adding $c_0$ does not change the satisfiability of $\forall x \, (P(x) \to P(f(x)))$.
-
-1. The structure $(\N, f(n) = n + 1, P = \N)$ is a model in the signature $L$.
-2. Interpret $c_0$ as $0$. The sentence does not mention $c_0$, so it stays true, by the coincidence lemma.
-
+In the signature $L$, the structure with domain $\mathbb{N}$, $f(n) = n + 1$ and $P$ true of every number is a model, since every implication has a true conclusion.
+Now read $c_0$ as $0$.
+The sentence does not mention $c_0$, so it stays true, by the [[coincidence lemma|FM580NZ9W6]].
 The typical use is in clause-form theorem proving, where a constant is added when the input clauses have none.
-A trap is to add the constant only to the universe and not to the signature; then $c_0$ is not a term of the language.
+Watch out: add $c_0$ to the signature, not only to the universe, because otherwise $c_0$ is not a term of the language.

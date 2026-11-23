@@ -14,15 +14,18 @@ sources:
 
 ## Definition
 
+A Herbrand structure is a structure whose elements are the closed terms of the language, with each constant and function symbol read as itself.
+
 Let $L$ be a signature with at least one constant symbol, and let $H(L)$ and $B(L)$ be its [[Herbrand universe and Herbrand base|JKP0XNXRPB]].
 A Herbrand structure for $L$ is an $L$-[[structure|Y6C40MHZZC]] $\mathcal{H}$ such that:
 
 1. the domain of $\mathcal{H}$ is $H(L)$;
-2. $c^{\mathcal{H}} = c$ for every constant symbol $c$;
-3. $f^{\mathcal{H}}(t_1, \ldots, t_n) = f(t_1, \ldots, t_n)$ for every $n$-ary function symbol $f$ and all $t_1, \ldots, t_n \in H(L)$.
+2. $c^{\mathcal{H}} = c$ for every constant symbol $c$ of $L$;
+3. $f^{\mathcal{H}}(t_1, \ldots, t_n) = f(t_1, \ldots, t_n)$ for every $n$-ary function symbol $f$ of $L$ and all $t_1, \ldots, t_n \in H(L)$.
 
-The relation symbols $R$ may have any interpretation $R^{\mathcal{H}} \subseteq H(L)^n$.
-For $I \subseteq B(L)$, the Herbrand structure $\mathcal{H}_I$ has $R^{\mathcal{H}_I} = \set{(t_1, \ldots, t_n) : R(t_1, \ldots, t_n) \in I}$.
+Each relation symbol $R$ of arity $n$ may have any interpretation $R^{\mathcal{H}} \subseteq H(L)^n$.
+For a set $I \subseteq B(L)$, the Herbrand structure $\mathcal{H}_I$ has
+$$R^{\mathcal{H}_I} = \{ (t_1, \ldots, t_n) : R(t_1, \ldots, t_n) \in I \}.$$
 A Herbrand model of a set $\Sigma$ of $L$-sentences is a Herbrand structure that is a [[model|CWQV9PTCB3]] of $\Sigma$.
 
 ## Notation
@@ -32,24 +35,30 @@ The map $I \mapsto \mathcal{H}_I$ is a bijection from the subsets of $B(L)$ to t
 
 ## Remarks
 
-Clauses 2 and 3 fix the interpretation of all constant and function symbols, so two Herbrand structures for $L$ differ only in their relations.
-The equality symbol is interpreted as identity, as in every structure, so distinct closed terms are never equal in a Herbrand structure.
-The concept page [[Herbrand structure|HKW429DSDK]] gives examples and the main theorem.
+Condition 1 makes the names the objects, and it needs a constant symbol so that $H(L)$ is nonempty.
+Conditions 2 and 3 fix the meaning of every constant and function symbol, so two Herbrand structures for $L$ differ only in their relations.
+That is why a Herbrand structure is the same thing as a set of ground atoms.
+
+Take $L = \{ a, b, P \}$ with two constants and one unary relation symbol.
+Then $H(L) = \{ a, b \}$ and $B(L) = \{ P(a), P(b) \}$, so there are $4$ Herbrand structures.
+The structure $\mathcal{H}_I$ with $I = \{ P(a) \}$ is a Herbrand model of $\{ P(a), \neg P(b) \}$, and it is the only one.
+
+A structure with domain $\{ a, b \}$ in which both constants denote $a$ fails condition 2, because $b$ must denote the term $b$.
+The equality symbol means identity, as in every structure, so distinct closed terms are never equal in a Herbrand structure.
+The concept page [[Herbrand structure|HKW429DSDK]] gives more examples and the main theorem.
 
 ## Explanations
 
 ### L1 human
 
-Take all the names that the language can form as the objects, let each name stand for itself, and then choose which basic facts about the names are true.
+Take all the names that the language can form as the objects, and let each name stand for itself.
+Then choose which basic facts about the names are true.
+Each choice gives one Herbrand structure.
 
 ### L2 human
 
-We check the definition on $L = \set{a, b, P}$ with two constants and one unary relation symbol.
-
-1. $H(L) = \set{a, b}$, because there are no function symbols, and $B(L) = \set{P(a), P(b)}$.
-2. Clauses 2 and 3 force $a^{\mathcal{H}} = a$ and $b^{\mathcal{H}} = b$, and there is nothing else to fix.
-3. $P^{\mathcal{H}}$ can be any of the $4$ subsets of $\set{a, b}$, so there are $4$ Herbrand structures, one for each $I \subseteq B(L)$.
-4. The structure $\mathcal{H}_I$ with $I = \set{P(a)}$ is a Herbrand model of $\set{P(a), \neg P(b)}$, and it is the only one.
-
-The typical use is to look for models of a set of clauses among the subsets of $B(L)$.
-A trap is to let $a$ and $b$ denote the same element; then the structure has one element and is not a Herbrand structure.
+The typical use is to look for a model of a set of clauses among the subsets of $B(L)$.
+For $L = \{ a, b, P \}$ and the clauses $P(a) \lor P(b)$ and $\neg P(a)$, test the four subsets:
+$$\emptyset, \quad \{ P(a) \}, \quad \{ P(b) \}, \quad \{ P(a), P(b) \}.$$
+The first fails $P(a) \lor P(b)$, the second and the fourth fail $\neg P(a)$, and $\{ P(b) \}$ satisfies both.
+Watch out: do not let $a$ and $b$ name the same element to save work, because then the structure is not a Herbrand structure.
