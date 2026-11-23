@@ -131,4 +131,4 @@ The theory is used to plan tasks like this one, where an example evokes the conf
 The pair belongs to the cognitive research on advanced mathematical thinking, in which Tall was a central figure.
 It connects with [[mathematical language in education|S19WMS43TW]], since a concept definition is a piece of mathematical language with special meanings.
 It explains part of the research on [[student difficulties with proof|5K2969GSWE]]: a proof must use the definition, and a student who reasons from the image writes arguments that the definition does not support.
-The page on [[choosing good definitions|S1R1VD31BS]] shows the other side, where mathematicians choose definitions that agree as far as possible with the shared images of a concept.
+[[Choosing good definitions|S1R1VD31BS]] shows the other side, where mathematicians choose definitions that agree as far as possible with the shared images of a concept.

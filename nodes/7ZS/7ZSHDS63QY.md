@@ -39,7 +39,7 @@ The place of proof in the curriculum decides whether students meet proof before 
 
 ## Motivation
 
-Students who first meet proof at university face a large step, as the page on [[transition-to-proof courses|HQDCSJG379]] describes.
+Students who first meet proof at university face a large step, as [[transition-to-proof courses|HQDCSJG379]] describes.
 A curriculum can make that step smaller by asking for reasons at every age.
 But a written standard does not by itself change what happens in classrooms.
 So two questions matter: what do curricula ask for, and how far does classroom practice follow them?
@@ -80,17 +80,17 @@ Proof enters only when the next question asks for a reason or a counterexample.
 
 Patricio Herbst (2002) traced the two-column proof in American school geometry through the early twentieth century.
 He described how the format arose as a way to make proof teachable to all students.
-The page on [[two-column proofs|P8PCGFASP8]] treats the format itself.
+[[Two-column proof|P8PCGFASP8]] treats the format itself.
 
 Lulu Healy and Celia Hoyles (2000) surveyed high-attaining students of age 14 to 15 in England and Wales on proof in algebra.
 The students were better at choosing correct arguments than at constructing their own, which shows a gap between the intended and the attained curriculum.
-Andreas Stylianides (2007) proposed a definition of proof for school classrooms that takes account of what the class knows, as described on the page [[reasoning and proof in the classroom|E77B813MT4]].
+Andreas Stylianides (2007) proposed a definition of proof for school classrooms that takes account of what the class knows, as [[reasoning and proof in the classroom|E77B813MT4]] describes.
 
 ### History
 
 In the nineteenth and early twentieth centuries, school proof meant the study of Euclid's [[Elements|83WHDAV68J]] or of textbooks based on it.
 In the United States, the two-column format of geometry proofs appeared in textbooks of the early twentieth century, as Herbst showed.
-The New Math of the 1960s brought sets and logic into school, as the page on [[teaching sets and relations|12ZNG0NRY7]] describes.
+The New Math of the 1960s brought sets and logic into school, as [[teaching sets and relations|12ZNG0NRY7]] describes.
 The NCTM standards of 2000 made reasoning and proof a process for all grades, and the Common Core of 2010 kept the idea as a practice standard.
 
 ### Watch out
@@ -134,6 +134,6 @@ Watch out for calling the first two stages "not real proofs": each is a valid ar
 
 ### L3 human
 
-The study of proof in curricula connects the topic [[school mathematics curricula and standards|9AHB6RQVDE]] with the research in this topic.
+The study of proof in curricula connects the topic [[school mathematics curricula and standards|9AHB6RQVDE]] with the research on how students learn to prove.
 The curriculum states the aims, and the research on [[proof schemes|YVNRVXJR68]] and on [[student difficulties with proof|5K2969GSWE]] shows how far students reach them.
 The [[functions of proof|ENY0GKRJS8]], such as verification, explanation and communication, give a language for what a curriculum wants proof to do at each stage.

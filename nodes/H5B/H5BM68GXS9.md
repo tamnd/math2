@@ -41,11 +41,11 @@ Three questions follow for anyone who plans a course.
 Which parts of logic and set language must a student know before proving, and which parts are learned by proving?
 At which age and in which course should each part come?
 Should the teacher make these parts objects of study, or use them only as tools?
-The rest of this topic treats these questions one strand at a time.
+The other parts of [[teaching reasoning and proof|VHGA6J4NZK]] treat these questions one strand at a time.
 
 ## Notation
 
-Class 97E of MSC 2020 has seven codes, and this topic gives most of them a page of their own.
+Class 97E of MSC 2020 has seven codes, and most of them have an essay of their own.
 The code 97E10 covers comprehensive works, 97E20 [[philosophy and mathematics in education|174ES70CS8]], and 97E30 [[teaching logic|K1Y2MAQQ9E]].
 The code 97E40 covers [[mathematical language in education|S19WMS43TW]], 97E50 [[reasoning and proof in the classroom|E77B813MT4]], and 97E60 [[teaching sets and relations|12ZNG0NRY7]].
 The code 97E99 collects everything else in the class, such as [[proof assistants in teaching|KGPHY3F0GC]].
@@ -99,7 +99,7 @@ A curriculum designer may assume that formal set notation makes mathematics clea
 The New Math showed that notation without the experience that it organizes does not give understanding.
 
 A reader may take a teaching opinion, such as "logic must come before proof", as a research result.
-Many such claims are positions, and the pages of this topic mark them as positions.
+Many such claims are positions, and they should be reported as positions.
 
 ### Try it
 

@@ -84,7 +84,7 @@ Coq was renamed Rocq with the release of Rocq 9.0 in March 2025.
 
 A student who completes a formal proof may not understand it, since tactics can be found by trial and error.
 A course that spends most of its time on the syntax of the system teaches the program, not proof.
-And the formal proof is a poor model for written proofs: a proof for a human reader leaves out routine steps that the assistant needs, as the page on [[level of detail in proofs|VYGBV5D8Y4]] explains.
+And the formal proof is a poor model for written proofs: a proof for a human reader leaves out routine steps that the assistant needs, as [[level of detail in proofs|VYGBV5D8Y4]] explains.
 
 ### Try it
 
@@ -120,11 +120,11 @@ If the student gives $r = k + m$ instead, `ring` fails, because $(k + m) + (k + 
 
 A weekly sheet of Lean files like this one is a typical use in a transition course.
 Watch out for the definition of `Even`: it has the form $n = r + r$, not the textbook form $n = 2r$, and the student must know which one Lean expects.
-The page [[proof strategies by logical form|872K5XB580]] gives the same moves for a written proof.
+[[Proof strategies by logical form|872K5XB580]] gives the same moves for a written proof.
 
 ### L3 human
 
-Proof assistants touch several questions of this topic.
+Proof assistants touch several questions of research on teaching proof.
 They make the warrant of each step explicit, which links them with the [[Toulmin model|RVZCSFDB2Y]] and with [[proof comprehension and validation|52Y2MW27J0]].
 They change the rules of a [[transition-to-proof course|HQDCSJG379]], because the machine, not the teacher, judges validity.
 They also raise a question for the [[philosophy of mathematics in education|174ES70CS8]]: whether a formally checked proof explains, or only verifies.

@@ -14,7 +14,7 @@ It starts with the place of logic, sets and language in a curriculum, and with t
 It then turns to the evidence: the Wason selection task and how people read conditionals, the proof schemes of Harel and Sowder, Tall and Vinner's concept images, and the studies of how students read, judge and write proofs.
 Along the way it meets the tools that teachers use, from Toulmin's layout of arguments and the generic example to transition courses, the Moore method and inquiry-based learning, and the standards of NCTM and the Common Core.
 It ends with proof assistants such as Lean, which check every step a student writes.
-The pages report research findings with their scope and strength, and they mark teaching opinions as opinions.
+Research findings are reported with their scope and strength, and teaching opinions are marked as opinions.
 General theories of learning are in [[mathematics education|9622VKAWMZ]], and the proof methods themselves are in the other parts of the area.
 
 ## Remarks
