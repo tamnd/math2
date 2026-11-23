@@ -29,7 +29,7 @@ We check that this $k$ exists and that $X$ is correct.
 4. Hence some $k \le g(0)$ has $g(n_k) \le g(f(n_k))$, and the least such $k$ exists.
 5. By the choice of $k$, $X = n_k$ satisfies $g(X) \le g(f(X))$.
 
-So $X$ satisfies the n.c.i., and it uses at most $g(0) + 1$ evaluations of $f$ and of $g$.
+So $X$ satisfies the n.c.i., and it uses at most $g(0) + 1$ evaluations of $f$ and at most $g(0) + 2$ of $g$, the values $g(n_0), \ldots, g(n_{k+1})$.
 
 ## Remarks
 
