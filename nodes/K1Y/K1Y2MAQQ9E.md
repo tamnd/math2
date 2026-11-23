@@ -30,88 +30,116 @@ sources:
 
 ## Summary
 
-The teaching of logic is the study of how students learn to use the logical words of mathematics, "not", "and", "or", "if ... then" and "for all", and how a course can help them.
+Four cards lie on a table and show E, K, 4 and 7.
+Each card has a letter on one side and a number on the other, and the rule says: if a card has a vowel on one side, then it has an even number on the other side.
+Which cards must you turn over to check the rule?
+Most people turn E and 4, but the correct answer is E and 7.
+The E card could hide an odd number, and the 7 card could hide a vowel, and either would break the rule, while nothing on the back of the 4 can break it.
+
+This puzzle is the [[Wason selection task|7GYZJ2MGY9]], and it shows that reading a [[conditional statement|FA6YZGR2SS]] correctly does not come for free with intelligence or schooling.
+The teaching of logic studies how students learn the logical words of mathematics, "not", "and", "or", "if ... then" and "for all", and how a course can help them.
 It covers logic as a school topic, logic as the first unit of a transition course, and logic learned only through the practice of proof.
-A central object of research is the [[conditional statement|FA6YZGR2SS]], because everyday language and mathematics use "if" in different ways.
-The field matters because most errors in early proofs are errors of logic: a proof of the converse, a wrong negation, or a wrong order of [[quantifiers|EGTZPA6QH3]].
 
 ## Motivation
 
 In everyday speech, "if you finish your homework, you can watch television" is usually heard as "if and only if".
-In mathematics, "if $n$ is divisible by $4$, then $n$ is even" says nothing about the odd numbers, and it does not claim the converse.
-A student who reads the mathematical "if" as the everyday "if" will prove the wrong statement or will reject a correct proof.
-The [[Wason selection task|7GYZJ2MGY9]] shows that most adults do not test a conditional rule correctly when the rule is abstract.
-So logic does not come for free with intelligence or with general education, and the question is how to teach it.
+In mathematics, "if $n$ is divisible by $4$, then $n$ is even" says nothing about odd numbers, and it does not claim the converse.
+A student who reads the mathematical "if" as the everyday "if" will prove the wrong statement or reject a correct proof.
+Most errors in early proofs are of this kind: a proof of the converse, a wrong negation, or a wrong order of [[quantifiers|EGTZPA6QH3]].
+So logic is not a side topic in learning to prove, and the question is how and when to teach it.
+
+## Notation
+
+Research papers write the conditional as $p \to q$ or $p \Rightarrow q$, and call $p$ the antecedent and $q$ the consequent.
+Studies of reasoning test four inferences: modus ponens (from $p$ infer $q$), modus tollens (from not $q$ infer not $p$), and the two invalid ones, affirming the consequent and denying the antecedent.
+The "material conditional" is the truth-table reading, in which a conditional with a false antecedent is true.
 
 ## Remarks
 
-### Examples
+### Why people choose E and 4
 
-1. A logic unit at the start of a [[transition-to-proof course|HQDCSJG379]] teaches truth tables, the conditional, the contrapositive, the negation of quantified statements and De Morgan's laws.
-2. A teacher asks students to [[negate|K930V33BSC]] the definition of a continuous function. Students must change each "for all" to "there exists" and each "there exists" to "for all", in the right order.
-3. A teacher gives the Wason task in an abstract form and in a social form, for example "if a person drinks beer, then the person is over $18$". Students compare their answers and find the logical form that both versions share.
-4. A teacher asks students to unpack an informal statement such as "a function is increasing when larger inputs give larger outputs" into a statement with explicit quantifiers.
+Peter Wason introduced the selection task in 1966 and reported it in detail in 1968 in the Quarterly Journal of Experimental Psychology.
+In the abstract form, most participants chose the card that shows the antecedent, often with the card that shows the consequent, and few chose the card that shows the negation of the consequent.
+In the 1970s Jonathan Evans and colleagues described one source of the pattern, which they called matching bias: people tend to choose the cards whose symbols are named in the rule.
+The 4 is named and the 7 is not, so the 4 attracts attention even though it cannot falsify the rule.
 
-### Non-examples
+The choice of the 7 is modus tollens: if the back were a vowel, the rule would demand an even number on the front.
+That is the same move as a [[proof by contrapositive|0BB5TPGQ1N]], which is why the task matters to teachers of proof.
 
-1. The study of formal systems, soundness and completeness is [[mathematical logic|DYJ0KGTPMR]]. It is the subject of logic, not of its teaching.
-2. The psychology of reasoning in general, without a link to mathematics or teaching, belongs to cognitive psychology. The Wason task is a result of that field, and this page uses it only as evidence about learners.
+### Content changes the answer
 
-### Research findings
+Richard Griggs and James Cox (1982) gave a version about the drinking age, with cards that showed a drink or an age.
+Most participants solved this version, although its logical form matches the abstract task.
+So people do have the reasoning in familiar settings, and the difficulty lies in applying it to abstract rules.
+Mathematics asks for exactly that application, because its conditionals concern objects that have no everyday meaning for the student.
 
-1. Peter Wason introduced the selection task in 1966 and reported it in 1968. Most people chose the card that shows the hypothesis, and few chose the card that shows the negation of the conclusion.
-2. Richard Griggs and James Cox (1982) gave a version of the task about drinking age, which people know from their lives. Most people solved this version, although its logical form is the same.
-3. Annie Selden and John Selden (1995) found that undergraduate students had difficulty unpacking informal mathematical statements into their logical form. They argued that this skill is needed to check proofs.
-4. Viviane Durand-Guerrier (2003) argued that the conditionals of mathematics are usually universally quantified statements about open sentences, such as "for all $n$, if $n$ is divisible by $4$, then $n$ is even". She argued that teaching should treat conditionals in this form, not only through truth tables of propositions.
-5. Matthew Inglis and Adrian Simpson (2008) found that mathematics undergraduates gave more normatively correct answers on abstract conditional inference than comparable students of other subjects.
-6. Nina Attridge and Matthew Inglis (2013) followed students of advanced school mathematics and students of English literature for one year. The conditional reasoning of the mathematics students changed more, without explicit teaching of logic.
-7. In the same study, the change was toward the "defective conditional" reading, not toward the material conditional of logic. In the defective reading, a conditional with a false hypothesis is seen as irrelevant, not as true.
+### Logic as students meet it in proofs
+
+Annie Selden and John Selden (1995) asked undergraduate students to unpack informal mathematical statements into their logical form, and many could not.
+They argued that this skill is needed to check whether a proof proves the statement at hand.
+Viviane Durand-Guerrier (2003) pointed out that the conditionals of mathematics are usually universally quantified statements about open sentences, such as "for all $n$, if $4 \mid n$, then $2 \mid n$".
+She argued that teaching should treat conditionals in that form, not only through truth tables of single propositions.
+Susanna Epp (2003) argued in the same direction and collected many examples of student errors with conditionals and quantifiers.
+
+### Does studying mathematics train logic?
+
+Matthew Inglis and Adrian Simpson (2008) found that mathematics undergraduates gave more normatively correct answers on an abstract conditional inference task than students of other subjects.
+A comparison at one moment cannot show whether mathematics caused the difference or whether students with this skill choose mathematics.
+Nina Attridge and Matthew Inglis (2013) therefore followed students of advanced school mathematics and students of English literature through one year.
+The conditional reasoning of the mathematics students changed more, without explicit teaching of logic.
+The change was toward the "defective conditional" reading, in which a conditional with a false antecedent counts as irrelevant, not toward the material conditional of logic textbooks.
 
 ### History
 
-Logic entered school curricula in France and in several other countries with the reforms of the 1960s, together with sets.
-After the end of these reforms, most school curricula kept little explicit logic.
-University transition courses kept a short logic unit before the work on proofs.
-Research on the learning of logic in mathematics grew after the 1990s, with the work of Selden and Selden, Epp, Durand-Guerrier and Inglis.
-In the ICMI Study 19 (2012), Durand-Guerrier, Paolo Boero, Nadia Douek, Epp and Denis Tanguay wrote a chapter on the role of logic in teaching proof.
+Logic entered school curricula in France and several other countries with the reforms of the 1960s, together with sets.
+After those reforms ended, most school curricula kept little explicit logic, while university transition courses kept a short logic unit.
+Research on how logic is learned in mathematics grew from the 1990s, with the work of Selden and Selden, Epp, Durand-Guerrier and Inglis.
+In ICMI Study 19 (2012), Durand-Guerrier, Paolo Boero, Nadia Douek, Epp and Denis Tanguay wrote a chapter on the role of logic in teaching proof.
 
-### Common errors
+### Watch out
 
-1. A student proves the converse of the statement. The student reads "if $P$, then $Q$" as "if $Q$, then $P$", or as "$P$ if and only if $Q$".
-2. A student negates "for all $x$, $P(x)$" as "for all $x$, not $P(x)$". The correct negation is "there exists $x$ with not $P(x)$".
-3. A teacher assumes that the truth table of the conditional answers the questions of students. The truth table treats propositions, and the conditionals of mathematics contain variables and hidden quantifiers.
+The commonest error is proving the converse: the student reads "if $P$, then $Q$" as "if $Q$, then $P$" or as "$P$ if and only if $Q$".
+For "if $4 \mid n$, then $2 \mid n$" the converse fails at $n = 6$.
+The second error is negating "for all $x$, $P(x)$" as "for all $x$, not $P(x)$", when the negation is "there exists $x$ with not $P(x)$".
+A teacher can also go wrong, by assuming that the truth table of the conditional answers students' questions.
+The truth table treats single propositions, and the conditionals of mathematics contain variables and hidden quantifiers.
+
+### Try it
+
+First, the rule is "if a card shows a square on one side, then it is red on the other", and the cards show a square, a circle, red and blue.
+Turn the square and the blue card, since only these can hide a counterexample.
+
+Second, [[negate|K930V33BSC]] "every continuous function on $[0, 1]$ is bounded".
+The negation is "some continuous function on $[0, 1]$ is unbounded", which is false by the extreme value theorem.
 
 ## Explanations
 
 ### L1 human
 
 Logic in mathematics is about the small words: "not", "and", "or", "if ... then", "for all" and "there is".
-These words have exact meanings in mathematics, and the meanings are sometimes different from everyday speech.
+These words have exact meanings in mathematics, and the meanings sometimes differ from everyday speech.
 For example, "if a number ends in $0$, then it is even" is true.
 It does not say that each even number ends in $0$, and indeed $4$ is even and does not end in $0$.
-Many students mix up a statement and its reverse.
-Teachers of logic look for tasks that make this difference visible.
+Many students mix up a statement and its reverse, and teachers of logic look for tasks that make the difference visible.
 
 ### L2 human
 
-We work through one task from a logic unit.
-The task: negate the statement "every integer greater than $1$ has a prime divisor", and decide which of the two statements is true.
-
-1. We write the statement with explicit quantifiers: for all integers $n$, if $n > 1$, then there exists a prime $p$ with $p \mid n$.
-2. The negation of "for all $n$, $A(n)$" is "there exists $n$ with not $A(n)$".
-3. The negation of "if $n > 1$, then $B(n)$" is "$n > 1$ and not $B(n)$". The negation of a conditional is not a conditional.
-4. The negation of "there exists a prime $p$ with $p \mid n$" is "for all primes $p$, $p \nmid n$".
-5. So the negation reads: there exists an integer $n > 1$ such that no prime divides $n$.
-6. The original statement is true, because the smallest divisor $d > 1$ of $n$ is a prime, as the page on the [[well-ordering principle|01BX15HSRR]] shows. So the negation is false.
-
-The typical use of such a task is to train the steps of [[negating mathematical statements|K930V33BSC]] before students need them in proofs by contradiction.
-A trap is step 3: many students write the negation of a conditional as "if $n > 1$, then not $B(n)$".
-That statement is stronger than the negation, and it is not the negation.
+Here is one task from a logic unit: negate "every integer greater than $1$ has a prime divisor", and decide which version is true.
+First write the statement with explicit quantifiers:
+$$\forall n \in \mathbb{Z}, \ n > 1 \to \exists p \text{ prime with } p \mid n.$$
+The negation of "for all $n$, $A(n)$" is "there exists $n$ with not $A(n)$".
+The negation of "$n > 1 \to B(n)$" is "$n > 1$ and not $B(n)$", so the negation of a conditional is not a conditional.
+The negation of "some prime divides $n$" is "no prime divides $n$".
+Together:
+$$\exists n \in \mathbb{Z}, \ n > 1 \wedge \forall p \text{ prime}, \ p \nmid n.$$
+The original statement is true, because the smallest divisor $d > 1$ of $n$ exists by the [[well-ordering principle|01BX15HSRR]] and must be prime, so the negation is false.
+Tasks like this train [[negating mathematical statements|K930V33BSC]] before students need it in proofs by contradiction.
+Watch out for the middle step: many students write "if $n > 1$, then no prime divides $n$", which is a different and stronger statement.
 
 ### L3 human
 
-The research on logic in mathematics education uses results of the psychology of reasoning, such as the dual-process theories and the content effects of the Wason task.
-It asks whether the study of mathematics trains general reasoning, a question that goes back to the old theory of formal discipline.
-The studies of Inglis and coauthors suggest a more complex answer: mathematics students differ from others in conditional reasoning, but the change is toward a reading of the conditional that differs from the material conditional of logic textbooks.
-The model-theoretic view of Durand-Guerrier links the teaching of logic to the [[language of mathematics|661V0DH7V3]], where open sentences and implicit quantifiers are the rule.
-The page on [[student difficulties with proof|5K2969GSWE]] collects the errors that follow from these difficulties.
+Research on logic in mathematics education draws on the psychology of reasoning, such as the content effects in the Wason task and the dual-process theories.
+It also asks whether studying mathematics trains general reasoning, a question as old as the theory of formal discipline.
+The studies of Inglis and coauthors suggest a more complex answer than either yes or no: mathematics students change, but toward a reading of the conditional that differs from the material conditional.
+Durand-Guerrier's model-theoretic view links the teaching of logic to the [[language of mathematics|661V0DH7V3]], where open sentences and implicit quantifiers are the rule.
+[[Student difficulties with proof|5K2969GSWE]] collects the errors that follow from these difficulties.
