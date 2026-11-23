@@ -25,102 +25,145 @@ inventory: [38RD4477HG]
 
 ## Summary
 
-A proof without words is a picture, or a short sequence of pictures, that shows why a mathematical statement is true with little or no text.
-The picture usually shows one case of a general statement, and it counts as an argument only when the reader can see that the same construction works in every case.
-The reader must supply the words: what each part of the picture stands for, and why each visible fact holds.
-Proofs without words matter because they show the idea of a [[proof|0B94TKFQJX]] at a glance, and because they raise the question whether a picture can be a proof.
+Look at this square of numbers, in which each cell carries the number of the L-shaped layer that it belongs to:
+$$\begin{array}{cccc} 1 & 2 & 3 & 4 \\ 2 & 2 & 3 & 4 \\ 3 & 3 & 3 & 4 \\ 4 & 4 & 4 & 4 \end{array}$$
+Count the cells of each label: there is one $1$, three $2$s, five $3$s and seven $4$s, and together they fill a $4 \times 4$ square.
+So $1 + 3 + 5 + 7 = 16 = 4^2$, and you can see that the next layer around a $4 \times 4$ square would add $9$ cells and make a $5 \times 5$ square.
+
+A proof without words is a picture of this kind: a figure, or a short sequence of figures, that shows why a statement is true with little or no text.
+The statement behind the square above is exact:
+$$1 + 3 + 5 + \dots + (2n - 1) = n^2 \quad \text{for every integer } n \ge 1.$$
+The picture shows only the case $n = 4$.
+It does not show the general $n$, and it does not show that layer $k$ always has $2k - 1$ cells; a reader who wants a [[proof|0B94TKFQJX]] must supply that rule, by a counting argument or by [[induction|0ASJVEFA9J]].
+That gap between what the eye sees and what the statement claims is the whole subject of the idea.
 
 ## Motivation
 
-The identity $1 + 3 + 5 + \cdots + (2n - 1) = n^2$ has a short proof by [[mathematical induction|0ASJVEFA9J]], as [[this example|QSWRESJAZ4]] shows.
-The induction proof checks the identity, but it does not say why squares appear.
-A square of $n \times n$ dots, cut into $n$ L-shaped layers of $1, 3, 5, \ldots$ dots, shows the reason at once.
-Many identities about sums, areas and inequalities have such a picture.
-The picture is easy to remember and easy to teach, so mathematicians collect and publish such pictures.
-This leads to two questions: how to read a picture as an argument, and when a picture is enough.
+The identity for odd numbers has a short [[proof by induction|QSWRESJAZ4]].
+That proof checks the identity, but it does not tell you why squares appear.
+The layered square does: each odd number is the border that turns one square into the next.
+Many identities about sums, areas and inequalities have such a picture, and mathematicians collect them because they are easy to remember and to teach.
+
+A picture also raises a real question about [[rigor|E1PE9R8DBB]].
+If a reader can check a figure in a few seconds, is that a proof, or only a strong hint?
+The answer depends on whether the reader can state the rule that makes the figure work for every case, and on whether every fact that the eye reads off is true.
+The same question returns, in another form, for proofs that no human can see in full, such as [[computer-assisted proofs|MC18C7BMFT]].
+
+## Notation
+
+There is no special notation.
+The names "visual proof", "proof by picture" and "wordless proof" mean the same thing.
+The phrase "proof without words" is also the title of a regular feature in *Mathematics Magazine* and in *The College Mathematics Journal*, and of a series of collections by Roger Nelsen.
+Most such pictures do carry a line of text: the identity that they show.
 
 ## Remarks
 
-### Examples
+### Reading the square as a proof
 
-- [[The sum of the first n odd numbers as a picture|EE2Y5SNFME]]: an $n \times n$ square splits into L-shaped layers of $1, 3, \ldots, 2n - 1$ cells. The picture is a proof because the layer rule is the same for each $n$.
-- [[The rearrangement picture for the Pythagorean theorem|T6WDA860PA]]: four copies of a right triangle fill a square of side $a + b$ in two ways. The uncovered area is $c^2$ in one way and $a^2 + b^2$ in the other.
-- [[Nicomachus's theorem as a picture|1WR6FN0NTE]]: a square of side $1 + 2 + \cdots + n$ splits into layers of area $1^3, 2^3, \ldots, n^3$. Each layer can be checked with one line of algebra.
-- Two copies of a staircase of $1 + 2 + \cdots + n$ cells fit together into an $n \times (n + 1)$ rectangle. So twice the [[triangular number|WHN4CBYZXD]] $T_n$ is $n(n + 1)$.
-- The picture of the [[tiling of a deficient board by L-trominoes|EXRJ0JF2Q3]] shows the induction step: one tromino at the centre and four smaller boards. The picture is a proof by induction drawn in one figure.
+To turn the layered square into a proof for every $n$, give each cell of an $n \times n$ square the position $(i, j)$, and put it in layer $\max(i, j)$.
+Each cell is in exactly one layer, so the layers fill the square with no overlap.
+Layer $k$ holds the $k$ cells of row $k$ up to the diagonal and the $k - 1$ cells of column $k$ above it, so it has $2k - 1$ cells.
+Counting the $n^2$ cells by layers gives the identity.
+The full check, with the case $n = 3$ worked cell by cell, is in [[the sum of the first n odd numbers as a picture|EE2Y5SNFME]].
 
-### Non-examples
+So the picture becomes a proof once you can say the rule "layer $k$ has $2k - 1$ cells" and give its reason.
+Most pictures of sums work this way: they count one set of cells in two ways, which is [[double counting|0F8YBHF2W3]], or they match two sets, which is a [[bijective proof|SS07J9ZAQ7]].
 
-- [[The staircase picture does not prove that the square root of 2 is 2|5WP0CV0866]]: each staircase in the picture is drawn correctly, but the passage to the limit is not visible, and it is false. The condition that fails is that each step that the picture suggests must be valid.
-- A drawing of one triangle with angles measured by a protractor is not a proof that the angles of every triangle add up to $180°$. The drawing shows one case, and a measurement is only approximate.
-- A picture of $1 + 3 + 5 + 7 = 16$ alone, with no visible rule for the next layer, checks the case $n = 4$ only. The condition that fails is that the construction must work for each $n$.
+### Three more pictures
 
-### Basic properties
+Two copies of a staircase of $1 + 2 + \dots + n$ cells, one turned by $180$ degrees, fit together into an $n \times (n + 1)$ rectangle.
+So twice the [[triangular number|WHN4CBYZXD]] $T_n$ is $n(n + 1)$, and $T_n = \frac{n(n+1)}{2}$.
+For $n = 4$ this gives $1 + 2 + 3 + 4 = 10 = \frac{4 \cdot 5}{2}$.
 
-- A picture shows one case. It proves a general statement only when the construction depends on the parameter in a way that the reader can state, for example "layer $k$ has $2k - 1$ cells".
-- Each visible fact in a picture is a mathematical claim. For example, "these two regions have the same area" is a claim that needs a reason, such as congruence.
-- When we write out these claims, the picture becomes a written proof. The written proof often counts the same quantity in two ways, as in [[double counting|0F8YBHF2W3]].
-- A picture can hide a limit. Areas and lengths of figures that approach a limit figure need not approach the area or length of the limit figure, as the [[staircase|5WP0CV0866]] shows.
-- A picture uses facts of geometry, such as the area of a rectangle and the invariance of area under a rigid motion. These facts hold in Euclidean geometry and can fail in [[non-Euclidean geometry|SPCYMFN5V2]].
+[[The rearrangement picture|T6WDA860PA]] puts four copies of a right triangle with legs $a$ and $b$ inside a square of side $a + b$ in two ways.
+The uncovered area is $c^2$ in the first way and $a^2 + b^2$ in the second, which gives the [[Pythagorean theorem|0VP3A1290K]].
 
-### When a picture is a proof
+[[Nicomachus's theorem as a picture|1WR6FN0NTE]] cuts a square of side $1 + 2 + \dots + n$ into L-shaped layers of area $1^3, 2^3, \dots, n^3$.
+For $n = 4$ the square has side $10$ and area $100 = 1 + 8 + 27 + 64$.
 
-Mathematicians and philosophers give three answers.
-The first answer is that a picture is not a proof, because it leaves out the logical details.
-On this view the picture is a guide that suggests a proof and helps a reader to remember it.
-The second answer is that some pictures are proofs.
-The philosopher James Robert Brown defended this view in the article "Proofs and pictures" (1997), and the philosopher Janet Folina replied against it.
-The third answer is that the question depends on the reader, in the same way as [[mathematical rigour|E1PE9R8DBB]] does.
-A reader who can state the general rule of the picture and justify each visible fact has a proof, and a reader who only sees a pattern has a conjecture.
-All three answers agree that a picture can be wrong, and that each visible fact needs a reason.
-The pages on [[formal and informal proofs|8VZ77R4R8S]] and on the [[acceptance of proofs|MJ3EHQJJHX]] continue this question.
+### When a picture misleads
+
+[[The staircase picture|5WP0CV0866]] draws zigzag paths of length $2$ that come closer and closer to the diagonal of a unit square.
+Every drawn staircase is correct, but the eye adds a limit and concludes that the diagonal has length $2$, which would make $\sqrt{2} = 2$.
+The failing step is the limit: length does not pass to the limit of curves that only approach each other.
+
+A protractor drawing of one triangle with angles that add up to $180$ degrees fails in a different way.
+It shows one case, and a measurement is only approximate, so it checks neither the general statement nor the exact value.
+A picture of $1 + 3 + 5 + 7 = 16$ with no rule for the next layer fails a third way: it is a correct check of the case $n = 4$ and nothing more.
+
+### Is a picture a proof?
+
+There are three common positions.
+On the first, a picture is never a proof, because it leaves out the logical steps; it suggests a proof and helps you remember one.
+On the second, some pictures are proofs in their own right.
+The philosopher James Robert Brown defended this view in "Proofs and pictures" (1997), and Janet Folina replied against it.
+On the third, the answer depends on the reader, in the same way as rigor does.
+A reader who can state the general rule of the picture and give a reason for each visible fact has a proof, and a reader who only sees a pattern has a [[conjecture|WMEMMHZ3BH]].
+
+All three positions agree on one point: each fact that the eye reads from a figure is a mathematical claim, and it needs a reason.
+"These two regions have the same area" needs congruence, and "this corner is a right angle" needs a computation.
+The pages on [[formal and informal proofs|8VZ77R4R8S]] and on the [[acceptance of proofs|MJ3EHQJJHX]] continue the question.
 
 ### History
 
-Arguments with figures are as old as Greek geometry, and each proposition of [[Euclid's Elements|83WHDAV68J]] comes with a figure.
-Nicomachus of Gerasa, who lived about 60 to 120 CE, described the pattern behind [[Nicomachus's theorem|23WBA59VWP]] in his *Introduction to Arithmetic*.
-The journals *Mathematics Magazine* and *The College Mathematics Journal* publish a regular feature with the title "Proof without words".
-Roger Nelsen collected many of these pictures in a series of books with the title *Proofs without Words*.
+Arguments with figures are as old as Greek geometry, and every proposition of [[Euclid's Elements|83WHDAV68J]] comes with one.
+Nicomachus of Gerasa, who lived about 60 to 120 CE, described in his *Introduction to Arithmetic* the grouping of odd numbers behind [[Nicomachus's theorem|23WBA59VWP]].
+Roger Nelsen gathered many modern pictures in the collections *Proofs without Words* I to III.
+The question of what a diagram may prove got a precise form in 2009, when Jeremy Avigad, Edward Dean and John Mumma gave a formal system, called E, for the use of diagrams in the *Elements*.
 
-### Common errors
+### Watch out
 
-- To take a picture of one case as a proof of all cases. The reader must check that the construction is the same for each value of the parameter.
-- To trust the eye about lengths and angles. A figure drawn slightly wrong can hide a gap or an overlap, as the topic [[fallacies and errors in proofs|T6QQ749DM5]] shows.
-- To pass to a limit in a picture without checking that the quantity behaves well under the limit. Length is not preserved under such limits, as the [[staircase|5WP0CV0866]] shows.
+The first trap is to take a picture of one case for a proof of all cases.
+The figure for $n = 4$ shows $1 + 3 + 5 + 7 = 16$, and the general claim needs the rule for layer $k$.
+The second trap is to trust the eye about lengths and angles.
+A figure drawn slightly wrong can hide a gap or an overlap, as the dissection puzzles in [[fallacies and errors in proofs|T6QQ749DM5]] show.
+The third trap is to pass to a limit inside a picture, as the staircase does.
+Before you accept a limit, check that the quantity you measure behaves well under it.
+
+### Try it
+
+First, draw the staircase picture for $n = 5$ and read off $T_5$.
+Two staircases of $15$ cells fill a $5 \times 6$ rectangle of $30$ cells, so $T_5 = 15$.
+
+Second, in the layered $n \times n$ square, why does layer $k$ have $2k - 1$ cells and not $2k$?
+Row $k$ and column $k$ share the corner cell $(k, k)$, so adding $k$ and $k$ counts that cell twice.
+
+Third, which statement does the layered square for $n = 6$ check?
+It checks $1 + 3 + 5 + 7 + 9 + 11 = 36$, one case of the identity and not the identity itself.
 
 ## Explanations
 
 ### L1 human
 
-A proof without words is a drawing that shows why a fact is true.
-Take $1 + 3 + 5 = 9$.
-Draw a $3 \times 3$ square of dots.
-The dot in the corner is $1$, the next L-shaped band has $3$ dots, and the outer band has $5$ dots.
-So the three odd numbers fill a square, and their sum is $3 \times 3 = 9$.
-The same drawing works for a $4 \times 4$ square, a $5 \times 5$ square, and every larger square.
-That is why the drawing shows that the first $n$ odd numbers always add up to $n \times n$.
+Put one coin on a table.
+Put $3$ coins around it to make a $2 \times 2$ square, then $5$ more along two sides to make a $3 \times 3$ square.
+Each time you add the next odd number of coins, you get the next square.
+So $1 + 3 + 5 + 7$ is the number of coins in a $4 \times 4$ square, which is $16$.
+The picture tells you why the rule works: each odd number is the border that grows one square into the next.
+It does not by itself tell you that the border always has the next odd number of coins, and that is the one thing you must check in words.
 
 ### L2 human
 
-We read the staircase picture for the [[triangular numbers|WHN4CBYZXD]] as a proof.
-The claim is $T_n = 1 + 2 + \cdots + n = \frac{n(n + 1)}{2}$ for each integer $n \ge 1$.
+We read the staircase picture for the [[triangular numbers|WHN4CBYZXD]] as a proof of $T_n = \frac{n(n + 1)}{2}$ for every $n \ge 1$.
+Draw a staircase in which row $i$ has $i$ cells, for $i = 1, \dots, n$, all starting at the left edge, so the staircase has $T_n$ cells.
+Turn a second copy by $180$ degrees and place it on the right; its row $i$ has $n + 1 - i$ cells.
+Row $i$ of the combined figure therefore has
+$$i + (n + 1 - i) = n + 1$$
+cells, so the two copies fill an $n \times (n + 1)$ rectangle with no gap and no overlap.
+Counting the rectangle two ways gives
+$$2 T_n = n(n + 1).$$
+Check: for $n = 4$, $1 + 2 + 3 + 4 = 10$ and $\frac{4 \cdot 5}{2} = 10$.
 
-1. Draw a staircase of unit cells: row $i$ has $i$ cells, for $i = 1, \ldots, n$, all starting at the left edge. The staircase has $T_n$ cells.
-2. Make a second copy, turn it by $180°$, and place it on the right of the first copy. Row $i$ of the second copy has $n + 1 - i$ cells.
-3. Row $i$ of the combined figure has $i + (n + 1 - i) = n + 1$ cells, so the two copies fill an $n \times (n + 1)$ rectangle with no gap and no overlap.
-4. The rectangle has $n(n + 1)$ cells, and it has $2 T_n$ cells by step 2.
-5. So $2 T_n = n(n + 1)$, and $T_n = \frac{n(n + 1)}{2}$.
-6. Check for $n = 4$: $1 + 2 + 3 + 4 = 10$ and $\frac{4 \cdot 5}{2} = 10$.
-
-The typical use of a picture is to find the idea of a proof and to explain it.
-Step 3 is the step that the eye does, and the formula $i + (n + 1 - i) = n + 1$ is its written form.
-A trap is to skip step 3: the picture looks like a rectangle, but the proof needs the reason why the rows fit for each $n$.
+The step that the eye does is "the rows fit", and the formula $i + (n + 1 - i) = n + 1$ is that step written for every $n$.
+This is the typical use of a picture: it gives the idea, and one line of algebra turns the idea into a proof.
+The trap is to skip that line because the figure looks like a rectangle.
 
 ### L3 human
 
 Proofs without words belong to the study of diagrammatic reasoning.
-Euclid's proofs read facts such as "this point lies between those two points" from the figure, and [[Hilbert's axioms|KM1FB8XZ2R]] added axioms of order to replace these readings by stated principles.
-Jeremy Avigad, Edward Dean and John Mumma later gave a formal system, called E, that models the use of diagrams in the *Elements* (2009).
-So a diagram can be part of a precise proof when the inferences that it allows are listed.
-Many pictures for sums are [[combinatorial proofs|SS07J9ZAQ7]] in disguise: they count one set of cells in two ways.
-The question of the status of pictures is a special case of the questions of [[rigour|E1PE9R8DBB]] and of [[acceptance|MJ3EHQJJHX]], and it returns for proofs that no human can see in full, such as [[computer-assisted proofs|MC18C7BMFT]].
+Euclid read facts such as "this point lies between those two" from his figures, and [[Hilbert's axioms|KM1FB8XZ2R]] added axioms of order so that these readings became stated principles.
+The system E of Avigad, Dean and Mumma goes the other way: it lists exactly which inferences a diagram allows, so that a diagram can be part of a precise proof.
+
+Many pictures of sums are [[combinatorial proofs|SS07J9ZAQ7]] in disguise, and many pictures of areas rest on facts of Euclidean geometry that fail in [[non-Euclidean geometry|SPCYMFN5V2]].
+The [[tiling of a deficient board by L-trominoes|EXRJ0JF2Q3]] shows a third kind: a single figure that draws the step of an induction.
+The question of what a picture proves is a special case of the questions of [[rigor|E1PE9R8DBB]] and of [[acceptance|MJ3EHQJJHX]], and it returns for proofs that nobody can see in full, such as [[long proofs|RM0S65BHWH]].
