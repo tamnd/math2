@@ -23,14 +23,16 @@ A textbook prints the following [[definition|8ZCZ3HW91Z]].
 We ask whether this text is a [[concept image|C5S2X0WDJ8]].
 
 1. A concept image is the whole mental structure that a person links with a concept: pictures, examples, properties and processes.
-2. The text is a form of words on a page. It is not in any person's mind.
-3. The text specifies the concept, so it is a concept definition, in the formal sense.
-4. So the text is not a concept image.
+2. The text is a form of words on a page, and it is in no person's mind.
+3. The text specifies the concept, so it is a concept definition in the formal sense.
+
+So the text is not a concept image.
 
 ## Remarks
 
-A student who reads the text forms a concept image, which may contain pictures such as "a relation that splits $A$ into blocks", examples such as congruence modulo $3$, and the student's own wording of the definition.
-The student's own wording is a personal concept definition, and it is part of the student's concept image.
+A student who reads the text forms a concept image.
+It may hold a picture such as "a relation that splits $A$ into blocks", examples such as congruence modulo $3$, and the student's own wording of the definition.
+That wording is a personal concept definition, and it can differ from the printed one.
 The distinction matters for research: a study of concept images looks at what students say and do, not at what the textbook prints.
 
 ## Explanations
@@ -43,9 +45,6 @@ So the book's definition is not a concept image, although reading it helps a stu
 
 ### L2 human
 
-1. Recall that a concept image belongs to a person.
-2. Ask whether the object belongs to a person or is a text.
-3. A text is at most a concept definition.
-
-A trap is to infer a student's concept image from the textbook used in class.
-Two students who read the same definition can form very different images.
+To classify an object, recall that a concept image belongs to a person, and ask whether the object belongs to a person or is a text.
+A text is at most a concept definition.
+Watch out for inferring a student's image from the textbook used in class: two students who read the same definition can form very different images.

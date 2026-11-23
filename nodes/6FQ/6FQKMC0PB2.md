@@ -16,24 +16,28 @@ sources:
 
 ## Example
 
-Consider the text below, printed in a textbook without any information about who wrote it or who reads it.
+A textbook prints the text below, with no information about who wrote it or who reads it.
 
 > Let $a$ and $b$ be integers.
 > Then $(2a + 1) + (2b + 1) = 2(a + b + 1)$, which is even.
 
-We check the condition of the definition of a [[proof scheme|YVNRVXJR68]] and find that it fails.
+We check the text against the definition of a [[proof scheme|YVNRVXJR68]] and find that the definition does not apply.
 
-1. The definition: a proof scheme of a person is what ascertains a claim for that person and what the person uses to persuade others.
-2. The text is an argument, and it is a correct proof. It is not a standard of conviction, because no person is named whose conviction it describes.
-3. Two readers of the text: reader R1 checks each step and is convinced; reader R2 is convinced only after testing $a = 1$ and $b = 2$, which give $3 + 5 = 8$.
-4. The same text is part of a deductive episode for R1 and of an empirical episode for R2. So the text alone does not fix a scheme.
+1. A proof scheme of a person is what makes a claim certain for that person and what the person uses to persuade others.
+2. The text is an argument, and a correct proof.
+   No person is named whose conviction it describes, so it is not yet a standard of conviction.
+3. Consider two readers.
+   Reader R1 checks each step and is convinced.
+   Reader R2 is convinced only after testing $a = 1$ and $b = 2$, which give $3 + 5 = 8$.
+4. The same text serves a deductive episode for R1 and an empirical episode for R2, so the text alone does not fix a scheme.
 5. The condition "belongs to a person" fails, and the text is not a proof scheme.
 
 ## Remarks
 
-The example separates three notions that are easy to mix up: a proof (a text with a logical property), a proof method (a form of text), and a proof scheme (a property of a person).
-The same text appears in the [[transformational example|GA27MSTQQD]], where a named student writes it to convince a classmate; there the scheme can be inferred.
-If the textbook adds that the text is to be learned by heart for an examination, readers may still hold different schemes, so the text still fixes no scheme.
+The example separates three notions that are easy to mix up.
+A proof is a text with a logical property, a proof method is a form of text, and a proof scheme is a property of a person.
+The same lines appear in [[the transformational example|GA27MSTQQD]], where a named student writes them to convince a classmate, and there a scheme can be inferred.
+If the textbook adds that the text must be learned by heart for an examination, its readers may still hold different schemes, so the text still fixes none.
 
 ## Explanations
 
@@ -46,9 +50,8 @@ A proof scheme describes the reader, not the page.
 
 ### L2 human
 
-1. Identify the object: a text with no writer and no reader.
-2. Recall the definition: a scheme belongs to a person.
-3. Show that two readers can have different schemes with the same text.
-4. Conclude that the text is not a scheme.
-
-A trap in research is to classify students only from their written answers, without asking what convinced them.
+The test has three steps.
+First identify the object, here a text with no writer and no reader.
+Then recall that a scheme belongs to a person.
+Finally show that two readers can hold different schemes with the same text, as R1 and R2 do.
+Watch out: in research this mistake appears as classifying students only from their written answers, without asking what convinced them.
