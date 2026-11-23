@@ -18,6 +18,8 @@ sources:
 
 ## Statement
 
+When one formula implies another, a third formula that uses only their shared variables sits between them.
+
 Let $\varphi$ and $\psi$ be [[propositional formulas|TT7WT5HPN9]], in a language with the constants $\top$ and $\bot$.
 Write $\operatorname{var}(\chi)$ for the set of variables that occur in a formula $\chi$.
 Assume that $\varphi \models \psi$, in the sense of [[logical consequence|1HK0VYWTV7]].
@@ -29,7 +31,7 @@ Then there is a formula $\theta$ with the following three properties.
 
 Such a formula $\theta$ is an interpolant of $\varphi$ and $\psi$.
 Let $\vec q$ list the variables of $\varphi$ that do not occur in $\psi$.
-One interpolant is $\bigvee_{c} \varphi[c/\vec q\,]$, where $c$ runs over all ways to replace each $q_i$ by $\top$ or $\bot$.
+One interpolant is $\bigvee_{c} \varphi[c/\vec q\,]$, where $c$ runs over all ways to replace each $q_i$ by $\top$ or $\bot$; the [[proof|NV2BJQJGB4]] checks this.
 
 ## Remarks
 
@@ -45,13 +47,22 @@ With them, $\theta = \bot$ works.
 In a language without constants, the theorem needs an extra case.
 When no variable is shared, the conclusion is that $\varphi$ is unsatisfiable or $\psi$ is a tautology.
 
-### Consequences
+### What it gives you
 
-- If $\varphi \models \psi$ and the two formulas share no variable, then $\varphi$ is unsatisfiable or $\psi$ is a [[tautology|05006AJ7DZ]]. Indeed the interpolant has no variables, so it is equivalent to $\top$ or to $\bot$.
-- The interpolant $\bigvee_c \varphi[c/\vec q\,]$ is the strongest one: it implies every other interpolant. Dually, $\bigwedge_c \psi[c/\vec r\,]$, over the variables $\vec r$ of $\psi$ not in $\varphi$, is the weakest one.
-- Beth definability for propositional logic follows. Let $\varphi(p, \vec s)$ and $\varphi(p', \vec s)$ together imply $p \leftrightarrow p'$, with $p'$ a new variable. Then an interpolant of $\varphi(p, \vec s) \land p$ and $\varphi(p', \vec s) \to p'$ is a formula $\theta(\vec s)$ with $\varphi \models p \leftrightarrow \theta$.
+If $\varphi \models \psi$ and the two formulas share no variable, then $\varphi$ is unsatisfiable or $\psi$ is a [[tautology|05006AJ7DZ]].
+The interpolant has no variables, so it is equivalent to $\top$ or to $\bot$.
+If it is $\bot$, then $\varphi \models \bot$, and if it is $\top$, then $\top \models \psi$.
 
-### Converse
+The interpolant $\bigvee_c \varphi[c/\vec q\,]$ is the strongest one: it implies every other interpolant.
+Dually, let $\vec r$ list the variables of $\psi$ that do not occur in $\varphi$; then $\bigwedge_c \psi[c/\vec r\,]$ is the weakest interpolant.
+
+Beth definability for propositional logic follows.
+Suppose that $\varphi(p, \vec s)$ and $\varphi(p', \vec s)$ together imply $p \leftrightarrow p'$, with $p'$ a new variable.
+Then $\varphi(p, \vec s) \land p \models \varphi(p', \vec s) \to p'$, and an interpolant is a formula $\theta(\vec s)$ in the variables $\vec s$ alone.
+The two halves give $\varphi(p, \vec s) \models p \to \theta$ and, after renaming $p'$ to $p$, $\varphi(p, \vec s) \models \theta \to p$.
+So $p$ is defined by $\theta$ wherever $\varphi$ holds.
+
+### The converse
 
 The converse holds: if a formula $\theta$ has properties 1 and 2, then $\varphi \models \psi$, because logical consequence is transitive.
 So $\varphi \models \psi$ if and only if an interpolant exists.
@@ -59,8 +70,8 @@ So $\varphi \models \psi$ if and only if an interpolant exists.
 ### Generalizations
 
 The [[Craig interpolation theorem|E2CBFNAVZY]] for first-order logic replaces variables by relation, function and constant symbols; see also the [[interpolation theorem|6P3KG89G4J]].
-Lyndon's form adds polarity: each variable that occurs positively in $\theta$ occurs positively in $\varphi$ and in $\psi$, and the same for negative occurrences.
-Interpolation also holds for intuitionistic propositional logic and for the modal logic K, with constructive proofs of the same kind.
+Lyndon's form adds polarity: each variable that occurs positively in $\theta$ occurs positively in $\varphi$ and in $\psi$, and the same holds for negative occurrences.
+Interpolation also holds for intuitionistic propositional logic and for the modal logic K, with proofs through cut-free sequent calculi.
 
 ## History
 
@@ -80,23 +91,23 @@ The shared letter is q, and the middle rule "q" carries the implication: "p and 
 ### L2 human
 
 We find an interpolant for $\varphi = p \land (p \to q)$ and $\psi = q \lor r$.
-
-1. First, $\varphi \models \psi$: if $\varphi$ is true, then $p$ and $p \to q$ are true, so $q$ is true, and so $q \lor r$ is true.
-2. The shared variables are $\operatorname{var}(\varphi) \cap \operatorname{var}(\psi) = \set{q}$. The variable $p$ occurs only in $\varphi$.
-3. Replace $p$ by $\top$: $\varphi[\top/p] = \top \land (\top \to q)$, which is equivalent to $q$.
-4. Replace $p$ by $\bot$: $\varphi[\bot/p] = \bot \land (\bot \to q)$, which is equivalent to $\bot$.
-5. The interpolant is $\varphi[\top/p] \lor \varphi[\bot/p]$, which is equivalent to $q$.
-6. Check: $\varphi \models q$ by step 1, and $q \models q \lor r$. The only variable of $q$ is shared.
+First, $\varphi \models \psi$: if $\varphi$ is true, then $p$ and $p \to q$ are true, so $q$ is true, and so $q \lor r$ is true.
+The shared variables are $\operatorname{var}(\varphi) \cap \operatorname{var}(\psi) = \{ q \}$, and the variable $p$ occurs only in $\varphi$.
+We replace $p$ by each constant:
+$$\varphi[\top/p] = \top \land (\top \to q) \equiv q, \qquad \varphi[\bot/p] = \bot \land (\bot \to q) \equiv \bot.$$
+The interpolant is $\varphi[\top/p] \lor \varphi[\bot/p]$, which is equivalent to $q \lor \bot$, that is, to $q$.
+Check: $\varphi \models q$ by the first computation, and $q \models q \lor r$, and the only variable of $q$ is shared.
 
 The typical use is to explain an implication in the common language of two systems, as in model checking.
-A trap is to forget property 3: $\varphi$ itself satisfies properties 1 and 2, but it mentions $p$.
+Watch out: do not forget property 3.
+The formula $\varphi$ itself has properties 1 and 2, but it mentions $p$, so it is not an interpolant.
 
 ### L3 human
 
 Interpolation says that the consequence relation splits along the shared vocabulary.
 The strongest consequence of $\varphi$ without the variables $\vec q$ is the formula $\exists \vec q\, \varphi$.
 In propositional logic this quantifier is the finite disjunction of the statement.
-Algebraically, interpolation is an amalgamation property of free Boolean algebras.
+Algebraically, interpolation corresponds to the amalgamation property of the class of Boolean algebras.
 The same link between interpolation and amalgamation holds for many varieties of algebras of logic.
 The interpolant built by elimination of variables can be exponentially longer than $\varphi$.
 In [[propositional proof complexity|CBAF7J051K]], feasible interpolation extracts small interpolants from short refutations, which ties lower bounds for proof systems to lower bounds for circuits.

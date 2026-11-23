@@ -16,6 +16,7 @@ sources:
 
 ## Example
 
+When every letter is true, every formula built with "if ... then" is true, so no such formula can mean "not $p$".
 Let $p$ be a propositional variable.
 We show that no formula $\varphi$ built from propositional variables with $\to$ only is [[logically equivalent|0JMR2HM2N2]] to the [[negation|029JBBF693]] $\neg p$.
 So $\neg p$ is not expressible in the [[implicational propositional calculus|ZMVBAY7ZZD]].
@@ -30,12 +31,23 @@ We prove by [[induction on formulas|EDRV3N0SA3]] that $v_1(\varphi) = 1$ for eve
 
 ## Remarks
 
-The example shows that implication alone is not functionally complete.
+### What the example shows
+
+Implication alone is not functionally complete.
 The same argument rules out every formula that is false when all variables are true, such as $\neg p \lor \neg q$ or the constant false.
-A sharper argument also rules out $p \land q$, which is true when $p$ and $q$ are true.
-Every formula with only $\to$ is true when its rightmost variable is true, but $p \land q$ is false at $p = 1, q = 0$ and at $p = 0, q = 1$.
-If a constant $\bot$ for false is added to the language, the argument fails at the base case, and indeed $\neg p$ becomes expressible as $p \to \bot$.
-The Peirce's law axiom does not change this: it adds theorems, not expressive power.
+
+### A sharper argument for conjunction
+
+The formula $p \land q$ is true when $p$ and $q$ are true, so the argument above does not rule it out.
+A sharper one does: every formula with only $\to$ is true when its rightmost variable is true.
+Let $r$ be the rightmost variable of a formula $\varphi$ with only $\to$.
+If $r$ is $p$, take $p = 1$ and $q = 0$; otherwise take $r = 1$ and $p = 0$.
+In both cases $\varphi$ is true and $p \land q$ is false, so no formula with only $\to$ is equivalent to $p \land q$.
+
+### What changes with a constant
+
+If a constant $\bot$ for false is added to the language, the argument fails at the base case, and $\neg p$ becomes expressible as $p \to \bot$.
+Peirce's law as an axiom does not change this: it adds theorems, not expressive power.
 
 ## Explanations
 
@@ -49,11 +61,10 @@ So no sentence made only with "if ... then" can mean "not $p$".
 ### L2 human
 
 We test the candidate $\varphi = (p \to q) \to p$, hoping that it means $\neg p$.
-
-1. Under $v(p) = 1$, $v(q) = 1$: $v(p \to q) = 1$, so $v(\varphi) = 1 \to 1 = 1$.
-2. Under the same assignment, $v(\neg p) = 0$.
-3. So $\varphi$ is not equivalent to $\neg p$, as the general argument predicts.
+Under $v(p) = 1$ and $v(q) = 1$ we get $v(p \to q) = 1$, so $v(\varphi) = 1 \to 1 = 1$.
+Under the same assignment, $v(\neg p) = 0$.
+So $\varphi$ is not equivalent to $\neg p$, as the general argument predicts.
 
 The typical use of the argument is to prove that a set of connectives is not functionally complete.
 For this, find a property of truth values that every connective in the set preserves.
-A trap is to test only one or two candidate formulas; the induction is needed to cover all formulas at once.
+Watch out: testing one or two candidate formulas proves nothing, and the induction is needed to cover all formulas at once.

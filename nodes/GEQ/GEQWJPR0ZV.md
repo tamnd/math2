@@ -16,12 +16,15 @@ sources:
 
 ## Example
 
+With implication only, "$p$ or $q$" can be written as $(p \to q) \to q$, and Peirce's law is what lets us prove that this "or" is symmetric.
 Let $p$ and $q$ be propositional variables.
-We derive $((p \to q) \to q) \to ((q \to p) \to p)$ in the [[implicational propositional calculus|ZMVBAY7ZZD]], with the axioms K, S, [[Peirce's law|GMSZ75D5WE]] and [[modus ponens|0Y0MQYST0M]].
-Since $(p \to q) \to q$ expresses $p \lor q$, the formula says that $p \lor q$ implies $q \lor p$.
+We derive the following formula in the [[implicational propositional calculus|ZMVBAY7ZZD]], with the axioms K, S, [[Peirce's law|GMSZ75D5WE]] and [[modus ponens|0Y0MQYST0M]]:
+$$((p \to q) \to q) \to ((q \to p) \to p).$$
 The [[deduction theorem|9X08XK5RV2]] holds in this system, since its proof uses only K, S and modus ponens.
+Let $\Gamma = \{ (p \to q) \to q, \ q \to p \}$.
 
-1. Let $\Gamma = \set{(p \to q) \to q, \; q \to p}$. From $\Gamma \cup \set{p \to q}$ we derive $p$: the hypotheses $p \to q$ and $(p \to q) \to q$ give $q$ by modus ponens, and then $q$ and $q \to p$ give $p$.
+1. From $\Gamma \cup \{ p \to q \}$ we derive $p$.
+   The hypotheses $p \to q$ and $(p \to q) \to q$ give $q$ by modus ponens, and then $q$ and $q \to p$ give $p$.
 2. The deduction theorem, applied to step 1, gives $\Gamma \vdash (p \to q) \to p$.
 3. The formula $((p \to q) \to p) \to p$ is an instance of Peirce's law, so $\Gamma \vdash ((p \to q) \to p) \to p$.
 4. Modus ponens with steps 2 and 3 gives $\Gamma \vdash p$.
@@ -29,13 +32,24 @@ The [[deduction theorem|9X08XK5RV2]] holds in this system, since its proof uses 
 
 ## Remarks
 
-Peirce's law is needed here: the formula is not derivable from K and S alone.
-In the three-element [[Heyting algebra|NG943XNQWH]] $0 < \tfrac12 < 1$, with $a \to b = 1$ when $a \le b$ and $a \to b = b$ otherwise, K and S always take the value $1$ and modus ponens preserves the value $1$.
-Take $p = \tfrac12$ and $q = 0$: then $(p \to q) \to q = 0 \to 0 = 1$, $q \to p = 1$, and the formula takes the value $1 \to (1 \to \tfrac12) = \tfrac12$.
+### Peirce's law is needed
 
-The pattern of the derivation is general: to derive $\varphi$, derive $(\varphi \to \psi) \to \varphi$ for some $\psi$, and then apply Peirce's law.
+The formula is not derivable from K and S alone.
+In the three-element [[Heyting algebra|NG943XNQWH]] $0 < \tfrac12 < 1$, with $a \to b = 1$ when $a \le b$ and $a \to b = b$ otherwise, K and S always take the value $1$, and modus ponens preserves the value $1$.
+Take $p = \tfrac12$ and $q = 0$:
+$$(p \to q) \to q = 0 \to 0 = 1, \qquad q \to p = 1, \qquad 1 \to (1 \to \tfrac12) = \tfrac12.$$
+So the formula takes the value $\tfrac12$, not $1$.
+
+### The pattern
+
+To derive $\varphi$, derive $(\varphi \to \psi) \to \varphi$ for some $\psi$, and then apply Peirce's law.
 So Peirce's law lets us assume $\varphi \to \psi$ while we prove $\varphi$, which is a form of proof by contradiction without negation.
-With $q$ and $p$ exchanged, the same steps give the converse implication, so the two forms of disjunction are equivalent in the system.
+With $p$ and $q$ exchanged, the same steps give the converse implication, so the two forms of disjunction are equivalent in the system.
+
+### Watch out
+
+From $\Gamma \vdash (p \to q) \to p$ we may not conclude $\Gamma \vdash p$ with K, S and modus ponens alone.
+The Heyting algebra above shows that this step needs Peirce's law, in step 3.
 
 ## Explanations
 
@@ -55,4 +69,3 @@ We check the formula of the example by its truth table, as the soundness theorem
 3. If $p = 0$ and $q = 0$, then $p \to q = 1$ and $(p \to q) \to q = 0$, so the formula is $1$ because its antecedent is $0$.
 
 The typical use of Peirce's law in derivations is exactly step 3 of the example: the last step that turns $(\varphi \to \psi) \to \varphi$ into $\varphi$.
-A trap is to use the deduction theorem in a direction it does not give: from $\Gamma \vdash (p \to q) \to p$ we may not conclude $\Gamma \vdash p$ without Peirce's law.
