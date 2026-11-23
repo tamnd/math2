@@ -21,58 +21,95 @@ inventory: [NXVCYWY1T9]
 
 ## Summary
 
-The induction schema of first-order arithmetic is the infinite set of axioms $\mathrm{Ind}_\varphi$, one for each [[formula|HYJ10AF6RT]] $\varphi(x, \vec{y})$ of the [[language of arithmetic|D8SD54M5PN]].
-The axiom $\mathrm{Ind}_\varphi$ says: if $\varphi$ holds at $0$, and passes from each $x$ to $S x$, then it holds at every $x$, for every value of the parameters $\vec{y}$.
-It is the first-order form of [[mathematical induction|0ASJVEFA9J]].
-The [[definition page|G55NMADJ6G]] gives the exact sentence.
-Adding the schema to [[Robinson arithmetic|3K1AKGXF8A]] gives [[Peano arithmetic|HACXBCM7SS]], and restricting it to a class of formulas gives the [[fragments of PA|T70PYM1F36]].
+The induction schema is the domino principle written in first-order logic, one axiom for each property that a formula can express.
+Take the property "$x$ is even or odd", written as the $\Sigma_1$ formula
+$$\varphi(x) := \exists y\,(y + y = x \lor S(y + y) = x).$$
+Its induction axiom says that if $\varphi(0)$ holds, and $\varphi(x)$ implies $\varphi(S x)$ for every $x$, then $\varphi(x)$ holds for every $x$.
+Both premises can be proved, so [[Peano arithmetic|HACXBCM7SS]] concludes that every number is even or odd.
+
+In general, the induction schema of first-order arithmetic is the set of axioms $\mathrm{Ind}_\varphi$, one for each [[formula|HYJ10AF6RT]] $\varphi(x, \vec{y})$ of the [[language of arithmetic|D8SD54M5PN]]:
+$$\mathrm{Ind}_\varphi := \forall \vec{y}\, \Bigl( \bigl( \varphi(0, \vec{y}) \land \forall x\,(\varphi(x, \vec{y}) \to \varphi(S x, \vec{y})) \bigr) \to \forall x\, \varphi(x, \vec{y}) \Bigr).$$
+The [[definition|G55NMADJ6G]] fixes the details of substitution.
 
 ## Motivation
 
-The principle of induction says that every set of numbers that contains $0$ and is closed under successor contains all numbers.
+[[Mathematical induction|0ASJVEFA9J]] says that every set of numbers that contains $0$ and is closed under successor contains all numbers.
 That is a statement about all sets of numbers, and a first-order theory of numbers cannot quantify over sets.
-The schema replaces "every set" by "every set defined by a formula".
+The schema replaces "every set" by "every set that a formula defines".
 This keeps the theory first-order, with a complete proof system and a decidable set of axioms.
+
 The price is that the schema says nothing about sets that no formula defines.
+Adding the full schema to [[Robinson arithmetic|3K1AKGXF8A]] gives Peano arithmetic.
+Restricting it to a class of formulas, such as $\Sigma_1$ or $\Delta_0$, gives the [[fragments of PA|T70PYM1F36]], and the strength of each fragment is measured by the formulas it may induct on.
 
 ## Notation
 
-$\mathrm{Ind}_\varphi$ is the induction axiom for $\varphi$, with induction variable $x$ and parameters $\vec{y}$.
-For a class $\Gamma$ of formulas, $\mathrm{I}\Gamma$ denotes the set of $\mathrm{Ind}_\varphi$ for $\varphi \in \Gamma$, or the theory $\mathsf{Q}$ plus this set; for example $\mathsf{I}\Sigma_1$ and $\mathsf{I}\Delta_0$.
-Some books write the schema with the abbreviations $\varphi(0)$ and $\varphi(x')$, and some call it the induction scheme.
+We write $\mathrm{Ind}_\varphi$ for the induction axiom of $\varphi$, with induction variable $x$ and parameters $\vec{y}$.
+For a class $\Gamma$ of formulas, $\mathsf{I}\Gamma$ is $\mathsf{Q}$ plus $\mathrm{Ind}_\varphi$ for every $\varphi \in \Gamma$, as in $\mathsf{I}\Sigma_1$ and $\mathsf{I}\Delta_0$.
+Some books write $\varphi(x')$ for $\varphi(S x)$, and some say "induction scheme".
 
 ## Remarks
 
-### Examples
+### The even-or-odd instance worked out
 
-- The instance for $\varphi(x, y) := x + y = y + x$, used three times in [[this example|DE8YZ5SDH3]], proves that addition is commutative in $\mathsf{PA}$.
-- The instance for the open formula $\varphi(x) := S x \ne x$ proves $\forall x\,(S x \ne x)$; [[this example|855J8368AM]] gives the proof, and shows that $\mathsf{Q}$ without the schema cannot.
-- For the $\Sigma_1$ formula $\varphi(x) := \exists y\,(x = y + y \lor x = S(y + y))$, the instance gives "every number is even or odd"; the [[Peano arithmetic|HACXBCM7SS]] page carries it out.
+We check the two premises for the formula $\varphi$ of the Summary.
+For the base, the witness $y = 0$ works, since $\mathsf{Q}4$ gives
+$$0 + 0 = 0.$$
+For the step, assume $\varphi(x)$ with a witness $y$.
+If $y + y = x$, then $S(y + y) = S x$, so the same $y$ is a witness for $\varphi(S x)$.
+If $S(y + y) = x$, then the witness for $S x$ is $S y$, by $\mathsf{Q}5$ and the lemma $S y + y = S(y + y)$:
+$$S y + S y = S(S y + y) = S(S(y + y)) = S x.$$
+So $\mathrm{Ind}_\varphi$ gives $\forall x\, \varphi(x)$.
+Check with $x = 7$: the witness is $y = 3$, since $S(3 + 3) = 7$, and the step gives $y = 4$ for $8$.
 
-### Non-examples
+The formula has the form $\exists y\, \theta$ with $\theta$ quantifier-free, so this instance belongs already to the fragment $\mathsf{I}\Sigma_1$.
 
-- The second-order induction axiom $\forall X\,\bigl((X(0) \land \forall x\,(X(x) \to X(S x))) \to \forall x\, X(x)\bigr)$ is not an instance of the schema; [[this non-example|Y2S28SPR3R]] shows the difference in strength.
-- The rule "from $\varphi(0)$ and $\varphi(x) \to \varphi(S x)$ infer $\varphi(x)$" is not the same as the schema in weak theories. For restricted classes $\Gamma$, such as $\Sigma_1$, the rule form is strictly weaker than $\mathrm{I}\Gamma$.
+### More instances
 
-### Basic properties
+The instance for $x + y = y + x$, with parameter $y$, proves that [[addition is commutative|DE8YZ5SDH3]] once two lemmas are in place.
+The instance for the open formula $S x \ne x$ proves that [[no number is its own successor|855J8368AM]], a law that $\mathsf{Q}$ cannot prove.
+In each case the work is the same: choose $\varphi$, prove the base, prove the step, and apply $\mathrm{Ind}_\varphi$.
 
-- Each instance $\mathrm{Ind}_\varphi$ is true in $\mathfrak{N}$, since the set it talks about is a subset of $\N$.
-- Over $\mathsf{Q}$, the schema for all formulas proves the least number principle and strong induction for all formulas.
-- For each $n$, the theories $\mathsf{I}\Sigma_n$ and $\mathsf{I}\Pi_n$ have the same theorems.
-- The schema has infinitely many instances, and no finite subset of it axiomatizes $\mathsf{PA}$ over $\mathsf{Q}$.
-- The schema has non-standard models: in a non-standard model of $\mathsf{PA}$ the set of standard elements contains $0$ and is closed under $S$, but it is not definable, so no instance applies to it.
+### What it is not
+
+The second-order induction axiom
+$$\forall X\,\bigl((X(0) \land \forall x\,(X(x) \to X(S x))) \to \forall x\, X(x)\bigr)$$
+is one sentence with a set variable, and it is not an instance of the schema.
+It pins down $\mathbb{N}$ up to isomorphism, while the schema does not, as [[the compactness argument|Y2S28SPR3R]] shows.
+
+The induction rule, "from $\varphi(0)$ and $\varphi(x) \to \varphi(S x)$ infer $\varphi(x)$", is not the schema either.
+A rule applies only to premises that are already theorems, while the axiom can be used under hypotheses.
+For restricted classes such as $\Sigma_1$, the rule gives a strictly weaker theory than the schema.
+
+### The first properties
+
+Each instance $\mathrm{Ind}_\varphi$ is true in the standard model, since $\varphi$ defines a subset of $\mathbb{N}$ and ordinary induction holds for every subset.
+Over $\mathsf{Q}$, the full schema proves the least number principle and strong induction for every formula.
+For each $n$, the theories $\mathsf{I}\Sigma_n$ and $\mathsf{I}\Pi_n$ prove the same sentences; [[this example|JZGV1EK4E9]] gives one direction.
+No finite part of the schema axiomatizes $\mathsf{PA}$ over $\mathsf{Q}$, by [[Ryll-Nardzewski's theorem|M5WNB181T7]].
+
+### Watch out
+
+Do not forget the parameters.
+To prove $x + y = y + x$ by induction on $x$, the formula must keep $y$ free.
+If you first fix $y$ as the numeral $\overline{3}$, you prove only $x + \overline{3} = \overline{3} + x$, and generalizing over $y$ afterwards is not allowed, since $\overline{3}$ is a term, not a variable.
+
+Do not think that a model of the schema is standard either.
+In a non-standard model the set of standard elements contains $0$ and is closed under $S$, but no formula defines it, so no instance applies to it.
 
 ### History
 
 Dedekind and Peano stated induction for arbitrary sets.
-Skolem (1923) used induction on quantifier-free formulas in his [[primitive recursive arithmetic|WCXH72T8D8]].
-Skolem (1934) also built a non-standard model of first-order arithmetic, which showed that the first-order schema cannot pin down $\N$.
+Skolem in 1923 used induction on quantifier-free formulas in his [[primitive recursive arithmetic|WCXH72T8D8]].
+Skolem in 1934 built a non-standard model of first-order arithmetic, which showed that the schema cannot pin down $\mathbb{N}$.
 
-### Common errors
+### Try it
 
-- To think that the schema has one axiom. It has one axiom for each formula.
-- To forget the parameters $\vec{y}$. Induction on $x$ for $x + y = y + x$ needs $y$ as a parameter.
-- To think that a model of the schema is standard. Non-standard models satisfy every instance.
+First, write the instance that proves $\forall x\,(0 \cdot x = 0)$.
+It is $\mathrm{Ind}_\varphi$ for $\varphi(x) := 0 \cdot x = 0$, with base $\mathsf{Q}6$ and step $0 \cdot S x = 0 \cdot x + 0 = 0$ by $\mathsf{Q}7$, $\mathsf{Q}4$ and the hypothesis.
+
+Second, in which class is the formula $S x \ne x$?
+It has no quantifiers, so it is $\Delta_0$, and its instance is already in $\mathsf{I}\Delta_0$.
 
 ## Explanations
 
@@ -80,25 +117,25 @@ Skolem (1934) also built a non-standard model of first-order arithmetic, which s
 
 Induction is the domino principle: if the first domino falls, and each falling domino knocks over the next, then all dominoes fall.
 In first-order arithmetic we cannot say "for every property".
-So we write one induction rule for each property that we can express by a formula.
+So we write one induction rule for each property that a formula can express.
 This infinite list of rules is the induction schema.
 
 ### L2 human
 
-We write the instance of the schema that proves $\forall x\,(0 + x = x)$.
-
-1. Let $\varphi(x)$ be $0 + x = x$. It has no parameters.
-2. $\varphi(0)$ is $0 + 0 = 0$, an instance of $\mathsf{Q}4$.
-3. $\varphi(x) \to \varphi(S x)$: from $0 + x = x$, $\mathsf{Q}5$ gives $0 + S x = S(0 + x) = S x$.
-4. So $\mathrm{Ind}_\varphi$, which is $(\varphi(0) \land \forall x\,(\varphi(x) \to \varphi(S x))) \to \forall x\, \varphi(x)$, yields $\forall x\,(0 + x = x)$.
-
-The typical use of the schema is exactly this: choose $\varphi$, check the base and the step, and apply $\mathrm{Ind}_\varphi$.
-A trap is to choose $\varphi$ too weak, so that the step fails; the commutativity proof needs the parameter $y$ in $\varphi$.
+We write and use the instance with a parameter that proves $S x + y = S(x + y)$.
+Keep $x$ free as a parameter and induct on $y$, with $\psi(y, x) := S x + y = S(x + y)$.
+The base $\psi(0, x)$ holds, because $\mathsf{Q}4$ gives both $S x + 0 = S x$ and $x + 0 = x$.
+For the step, assume $S x + y = S(x + y)$ and compute with $\mathsf{Q}5$ twice:
+$$S x + S y = S(S x + y) = S(S(x + y)) = S(x + S y).$$
+So $\mathrm{Ind}_\psi$ gives $\forall x\, \forall y\, \psi(y, x)$.
+The typical use of the schema is exactly this: choose $\psi$, check the base and the step, and apply the axiom.
+The trap is to induct on the wrong variable.
+The axioms $\mathsf{Q}4$ and $\mathsf{Q}5$ only rewrite a sum by its right argument, so the induction must run on $y$.
 
 ### L3 human
 
-Restricting the schema to classes $\Sigma_n$ gives the hierarchy $\mathsf{I}\Sigma_0 \subseteq \mathsf{I}\Sigma_1 \subseteq \mathsf{I}\Sigma_2 \subseteq \cdots$, whose union is $\mathsf{PA}$.
-The inclusions are strict: $\mathsf{I}\Sigma_{n+1}$ proves the consistency of $\mathsf{I}\Sigma_n$.
-Related schemas are collection $\mathsf{B}\Sigma_n$, the least number principle and the order induction principle.
-Over a weak base they form a fine hierarchy: $\mathsf{I}\Sigma_{n+1} \vdash \mathsf{B}\Sigma_{n+1}$, and $\mathsf{B}\Sigma_{n+1} \vdash \mathsf{I}\Sigma_n$.
-In second-order arithmetic the schema becomes a single axiom plus comprehension, and the strength moves into the comprehension schema.
+Restricting the schema to the classes $\Sigma_n$ gives the hierarchy $\mathsf{I}\Delta_0 \subseteq \mathsf{I}\Sigma_1 \subseteq \mathsf{I}\Sigma_2 \subseteq \cdots$, whose union is $\mathsf{PA}$.
+The inclusions are strict, because $\mathsf{I}\Sigma_{n+1}$ proves the consistency of $\mathsf{I}\Sigma_n$.
+Related schemas are collection $\mathsf{B}\Sigma_n$, the least number principle and order induction.
+Over a weak base they interleave: $\mathsf{I}\Sigma_{n+1}$ proves $\mathsf{B}\Sigma_{n+1}$, and $\mathsf{B}\Sigma_{n+1}$ proves $\mathsf{I}\Sigma_n$.
+In second-order arithmetic the schema becomes one axiom plus comprehension, and the strength moves into the comprehension schema.

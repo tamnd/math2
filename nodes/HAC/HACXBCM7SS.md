@@ -20,65 +20,98 @@ sources:
 
 ## Summary
 
-Peano arithmetic $\mathsf{PA}$ is the first-order [[theory|92SWXST1ZM]] in the [[language of arithmetic|D8SD54M5PN]] whose axioms are those of [[Robinson arithmetic|3K1AKGXF8A]] together with the [[induction schema|1QD0KDDGYJ]] for every formula.
-The [[definition page|Z8YDBW2857]] gives the axioms.
-$\mathsf{PA}$ proves the familiar laws of arithmetic and most of elementary number theory.
-It is incomplete, by Gödel's [[incompleteness theorems|X9WYNYE29C]], and it has non-standard models, by the [[compactness theorem|1NR3HAWG9D]].
-It is the first-order counterpart of the second-order [[Peano axioms|0QFT7Z76N5]], and the reference theory for the study of formal arithmetic.
+Peano arithmetic is what you get when you give [[Robinson arithmetic|3K1AKGXF8A]] the power to prove general laws by induction.
+Here is the smallest case.
+Robinson arithmetic $\mathsf{Q}$ proves $0 + \overline{n} = \overline{n}$ for each numeral $\overline{n}$, one at a time, but it cannot prove the general law $\forall x\,(0 + x = x)$.
+Peano arithmetic proves that law with one induction: the base is $0 + 0 = 0$, and the step turns $0 + x = x$ into $0 + S x = S(0 + x) = S x$.
+
+Exactly, Peano arithmetic $\mathsf{PA}$ is the first-order [[theory|92SWXST1ZM]] in the [[language of arithmetic|D8SD54M5PN]] whose axioms are the axioms of $\mathsf{Q}$ together with the [[induction schema|1QD0KDDGYJ]], one induction axiom for every formula.
+The [[definition|Z8YDBW2857]] writes the axioms out.
 
 ## Motivation
 
-[[Robinson arithmetic|3K1AKGXF8A]] verifies computations, but it cannot prove general laws such as $x + y = y + x$.
-Such laws are proved in mathematics by [[induction|0ASJVEFA9J]], and induction quantifies over all properties of numbers.
-First-order logic cannot quantify over properties, so $\mathsf{PA}$ takes one induction axiom for each property that a formula expresses.
-The result is a theory that formalizes ordinary number theory well, while its first-order nature gives it a completeness theorem, non-standard models and incompleteness.
-$\mathsf{PA}$ is the natural test case for Hilbert's question whether arithmetic can prove its own consistency.
+Mathematicians prove laws about all numbers by [[induction|0ASJVEFA9J]].
+Induction speaks about every property of numbers, and a first-order theory cannot quantify over properties.
+So $\mathsf{PA}$ takes one induction axiom for each property that a formula can express.
+The result formalizes nearly all of elementary number theory, from commutativity of addition to unique factorization and the infinitude of primes.
+
+Because $\mathsf{PA}$ is first-order, it has a complete proof system, and it also has non-standard models and true sentences that it cannot prove.
+That mix makes $\mathsf{PA}$ the standard test case of logic.
+Hilbert asked whether arithmetic can prove its own consistency, and Gödel answered the question for $\mathsf{PA}$.
+The later pages on the [[fragments of PA|T70PYM1F36]] and on [[finite axiomatizability|M5WNB181T7]] cut $\mathsf{PA}$ into layers by the complexity of induction.
 
 ## Notation
 
-The theory is written $\mathsf{PA}$; some books write $\mathrm{PA}$.
-The induction axiom for a formula $\varphi(x, \vec{y})$ is written $\mathrm{Ind}_\varphi$, and for a class $\Gamma$ of formulas the theory $\mathsf{Q}$ plus $\mathrm{Ind}_\varphi$ for $\varphi \in \Gamma$ is written $\mathsf{I}\Gamma$.
-So $\mathsf{PA}$ is $\mathsf{I}\Gamma$ with $\Gamma$ the class of all formulas.
-Some books use $x'$ for $S x$, and some take only $0$, $S$, $+$ and $\cdot$ as symbols, which gives the same theory up to the definition of $<$.
-$\mathfrak{N}$ is the standard model, and $\mathfrak{M}$ often denotes an arbitrary model of $\mathsf{PA}$.
+Books write $\mathsf{PA}$ or $\mathrm{PA}$.
+The induction axiom for a formula $\varphi(x, \vec{y})$ is $\mathrm{Ind}_\varphi$.
+For a class $\Gamma$ of formulas, $\mathsf{I}\Gamma$ is $\mathsf{Q}$ plus $\mathrm{Ind}_\varphi$ for each $\varphi \in \Gamma$, so $\mathsf{PA}$ is $\mathsf{I}\Gamma$ for the class of all formulas.
+Some books write $x'$ for $S x$, and some leave out $<$ and define it, which gives the same theory.
+We write $\mathfrak{N}$ for the standard model and $\mathfrak{M}$ for an arbitrary model of $\mathsf{PA}$.
 
 ## Remarks
 
-### Examples
+### A first proof by induction
 
-- $\mathsf{PA}$ proves that addition is commutative; [[this example|DE8YZ5SDH3]] gives the three inductions.
-- $\mathsf{PA}$ proves $\forall x\,(S x \ne x)$ and the axiom $\mathsf{Q}3$ by induction; [[this example|855J8368AM]] gives the proofs.
-- The standard model $\mathfrak{N}$ is a model of $\mathsf{PA}$; [[this example|MPSCREYC3M]] checks it, in the language without $<$.
-- A countable [[non-standard model of arithmetic|1QWN5CV4CG]] satisfies $\mathsf{PA}$ and has elements larger than every numeral.
+Let us prove $\forall x\,(0 + x = x)$ in full, with $\varphi(x)$ the formula $0 + x = x$.
+The base $\varphi(0)$ is $0 + 0 = 0$, an instance of axiom $\mathsf{Q}4$.
+For the step, assume $0 + x = x$ and compute with $\mathsf{Q}5$:
+$$0 + S x = S(0 + x) = S x.$$
+So $\forall x\,(\varphi(x) \to \varphi(S x))$ holds, and the axiom $\mathrm{Ind}_\varphi$ gives $\forall x\, \varphi(x)$.
+Check: in [[a model of Q|PR8Z1YPJDK]] with two extra elements $a$ and $b$, $0 + a = b$, so $\mathsf{Q}$ alone cannot prove this law.
 
-### Non-examples
+The same pattern, with lemmas feeding later inductions, proves that [[addition is commutative|DE8YZ5SDH3]], and one induction proves that [[no number is its own successor|855J8368AM]].
 
-- The second-order Peano axioms are not $\mathsf{PA}$: their single induction axiom quantifies over all subsets, and they have only one model up to isomorphism; [[this non-example|Y2S28SPR3R]] shows that $\mathsf{PA}$ has more.
-- [[Robinson arithmetic|3K1AKGXF8A]] is not $\mathsf{PA}$: it does not prove $0 + x = x$, while $\mathsf{PA}$ does.
+### What Peano arithmetic proves
 
-### Basic properties
+Inside $\mathsf{PA}$ you can prove that $+$ and $\cdot$ are associative and commutative, that $\cdot$ distributes over $+$, and that $<$ is a discrete linear order with least element $0$.
+You can prove the least number principle and strong induction for every formula, and division with remainder.
+With the [[β-function lemma|BM6P0C2AC2]] you can code finite sequences, so you can define exponentiation and the factorial and prove their recursion equations.
+Since $\mathsf{PA}$ contains $\mathsf{Q}$, it proves every true $\Sigma_1$ sentence, by [[Σ1-completeness|69234Z1V00]].
+The [[standard model|MPSCREYC3M]] satisfies every axiom, since each induction axiom speaks about a subset of $\mathbb{N}$, and ordinary induction holds for every subset.
 
-- $\mathsf{PA}$ is recursively axiomatized: the set of its axioms is decidable, but infinite.
-- $\mathsf{PA}$ proves that $+$ and $\cdot$ are associative and commutative, that $\cdot$ distributes over $+$, and that $<$ is a discrete linear order with least element $0$.
-- $\mathsf{PA}$ proves the least number principle for each formula, division with remainder, and a formalized [[β-function lemma|BM6P0C2AC2]]: each coded sequence can be extended by one more term.
-- $\mathsf{PA}$ proves every true $\Sigma_1$ sentence, since it contains $\mathsf{Q}$; see the [[Σ1-completeness theorem|69234Z1V00]].
-- If $\mathsf{PA}$ is consistent, then $\mathsf{PA}$ does not prove its own consistency statement $\mathrm{Con}(\mathsf{PA})$. Gentzen proved $\mathrm{Con}(\mathsf{PA})$ in a weak theory plus induction along [[ε0|KT50SMH3EC]]; see [[Gentzen's consistency proof|QPV0HNP22S]].
-- $\mathsf{PA}$ does not prove [[Goodstein's theorem|XQMNJF241J]] or the [[Paris-Harrington principle|509ZWA0R26]], both true $\Pi_2$ sentences.
-- $\mathsf{PA}$ has models of every infinite cardinality, by compactness and the Löwenheim-Skolem theorem. Every non-standard model contains a copy of $\mathfrak{N}$ as an initial segment.
-- By [[Tennenbaum's theorem|W6D5ZJAY9D]], in a countable non-standard model the operations $+$ and $\cdot$ are not computable.
+### What Peano arithmetic cannot prove
+
+If $\mathsf{PA}$ is consistent, then it does not prove its own consistency statement $\mathrm{Con}(\mathsf{PA})$, by Gödel's [[incompleteness theorems|X9WYNYE29C]].
+Gentzen proved $\mathrm{Con}(\mathsf{PA})$ in a weak theory with induction along the ordinal [[ε0|KT50SMH3EC]]; see [[Gentzen's consistency proof|QPV0HNP22S]].
+There are also statements of ordinary combinatorics that are true and unprovable in $\mathsf{PA}$.
+Two of them are [[Goodstein's theorem|XQMNJF241J]] and the [[Paris-Harrington principle|509ZWA0R26]], both $\Pi_2$ sentences.
+
+### Models
+
+$\mathsf{PA}$ has models of every infinite cardinality, by compactness and the Löwenheim-Skolem theorem.
+A model that is not isomorphic to $\mathfrak{N}$ is a [[non-standard model of arithmetic|1QWN5CV4CG]].
+Every such model starts with a copy of $\mathfrak{N}$ as an initial segment, and then has elements above every numeral.
+By [[Tennenbaum's theorem|W6D5ZJAY9D]], in a countable non-standard model the operations $+$ and $\cdot$ are not computable.
+
+### What it is not
+
+The second-order Peano axioms are not $\mathsf{PA}$.
+Their single induction axiom quantifies over all subsets, and every model of them is isomorphic to $\mathfrak{N}$.
+The first-order schema covers only the sets that a formula defines, and [[the compactness argument|Y2S28SPR3R]] gives a model of $\mathsf{PA}$ that is not standard.
+Nor is $\mathsf{PA}$ the set of all true sentences: that set is [[true arithmetic|DX0KPMH4QZ]], which is not recursively axiomatizable, while the axioms of $\mathsf{PA}$ form a decidable set.
+
+### Watch out
+
+A non-standard model does not break induction.
+Let $A$ be the set of standard elements of a non-standard model $\mathfrak{M}$.
+Then $0 \in A$ and $A$ is closed under $S$, but $A \ne M$.
+This is no contradiction, because no formula defines $A$ in $\mathfrak{M}$, so no induction axiom speaks about $A$.
+The wrong move is to apply an induction axiom to a set that you have described in words outside the language.
 
 ### History
 
-Dedekind (1888) and Peano (1889) gave axioms for the natural numbers with induction as a statement about all sets.
-Gödel's theorems of 1931 applied to $\mathsf{PA}$ and showed that it is incomplete and cannot prove its own consistency.
-Skolem (1934) built a non-standard model of first-order arithmetic.
-Gentzen (1936) proved the consistency of $\mathsf{PA}$ by transfinite induction up to $\varepsilon_0$.
+Dedekind in 1888 and Peano in 1889 gave axioms for the natural numbers, with induction as a statement about all sets.
+Gödel's theorems of 1931 apply to $\mathsf{PA}$, so it is incomplete and cannot prove its own consistency.
+Skolem built a non-standard model of first-order arithmetic in 1934.
+Gentzen proved the consistency of $\mathsf{PA}$ by transfinite induction up to $\varepsilon_0$ in 1936.
 
-### Common errors
+### Try it
 
-- To identify $\mathsf{PA}$ with the second-order Peano axioms. The first-order schema covers only the sets that a formula defines.
-- To think that $\mathsf{PA}$ proves every true sentence of arithmetic. That set is [[true arithmetic|DX0KPMH4QZ]], which is not recursively axiomatizable.
-- To think that a non-standard model contradicts induction. Induction holds for definable sets, and the set of standard elements of a non-standard model is not definable.
+First, which axiom of $\mathsf{Q}$ becomes unnecessary in $\mathsf{PA}$?
+Axiom $\mathsf{Q}3$, "every nonzero number is a successor", follows by induction on $x = 0 \lor \exists y\,(x = S y)$, as [[this example|855J8368AM]] shows.
+
+Second, write the induction axiom you need to prove $\forall x\,(x \cdot 0 = 0 \cdot x)$.
+Take $\varphi(x)$ to be $0 \cdot x = 0$; the base is $\mathsf{Q}6$, and the step is $0 \cdot S x = 0 \cdot x + 0 = 0$ by $\mathsf{Q}7$, $\mathsf{Q}4$ and the hypothesis, and $\mathsf{Q}6$ gives $x \cdot 0 = 0$.
 
 ## Explanations
 
@@ -87,26 +120,28 @@ Gentzen (1936) proved the consistency of $\mathsf{PA}$ by transfinite induction 
 Peano arithmetic is a list of rules for the whole numbers.
 It has the rules of Robinson arithmetic for "next", plus and times.
 It adds the rule of induction: if a property holds for $0$, and it passes from each number to the next, then it holds for all numbers.
-With induction, it can prove general laws, such as $x + y = y + x$ for all $x$ and $y$.
-Gödel showed that some true statements about numbers still cannot be proved from these rules.
+With induction it proves general laws, such as $x + y = y + x$ for all $x$ and $y$.
+Gödel showed that some true statements about numbers still escape these rules.
 
 ### L2 human
 
-We prove in $\mathsf{PA}$ that every number is even or odd, $\forall x\, \exists y\,(x = y + y \lor x = S(y + y))$.
+We prove in $\mathsf{PA}$ that every number is even or odd.
+Let $\varphi(x)$ be the $\Sigma_1$ formula $\exists y\,(x = y + y \lor x = S(y + y))$.
+For the base, $y = 0$ works, since $0 + 0 = 0$ by $\mathsf{Q}4$.
+For the step, assume $\varphi(x)$ with witness $y$.
+If $x = y + y$, then $S x = S(y + y)$, and the same $y$ is a witness for $\varphi(S x)$.
+If $x = S(y + y)$, the witness is $S y$, because $\mathsf{Q}5$ and [[Lemma B of the commutativity proof|DE8YZ5SDH3]] give
+$$S y + S y = S(S y + y) = S(S(y + y)) = S x.$$
+So $\varphi(x) \to \varphi(S x)$, and $\mathrm{Ind}_\varphi$ gives $\forall x\, \varphi(x)$.
 
-1. Let $\varphi(x)$ be $\exists y\,(x = y + y \lor x = S(y + y))$. We use the induction axiom $\mathrm{Ind}_\varphi$.
-2. Base: $y = 0$ gives $0 + 0 = 0$, by $\mathsf{Q}4$. So $\varphi(0)$ holds.
-3. Step: assume $\varphi(x)$ with witness $y$. If $x = y + y$, then $S x = S(y + y)$, so $\varphi(S x)$ holds with the same $y$.
-4. If $x = S(y + y)$, then $S x = S S(y + y)$. Also $S y + S y = S(S y + y)$, by $\mathsf{Q}5$, and $S y + y = S(y + y)$, by [[this example|DE8YZ5SDH3]]. So $S x = S y + S y$.
-5. So $\varphi(x) \to \varphi(S x)$, and $\mathrm{Ind}_\varphi$ gives $\forall x\, \varphi(x)$.
-
-The typical use of $\mathsf{PA}$ is as the default formal system for number theory in logic.
-A trap is step 4: it uses $S y + y = S(y + y)$, a lemma that needs its own induction.
+The example shows the typical shape of number theory in $\mathsf{PA}$: an induction whose step calls on earlier lemmas.
+The trap is the identity $S y + y = S(y + y)$, which looks like an axiom but needs an induction of its own.
 
 ### L3 human
 
-$\mathsf{PA}$ is the union of the increasing chain of theories $\mathsf{I}\Sigma_n$, the [[fragments of PA|T70PYM1F36]], which restrict induction to $\Sigma_n$ formulas.
-Each $\mathsf{I}\Sigma_n$ is finitely axiomatizable, and $\mathsf{PA}$ proves the consistency of each of them, so $\mathsf{PA}$ is [[not finitely axiomatizable|M5WNB181T7]].
+$\mathsf{PA}$ is the union of the increasing chain of theories $\mathsf{I}\Sigma_n$, the [[fragments of PA|T70PYM1F36]].
+Each $\mathsf{I}\Sigma_n$ with $n \ge 1$ is finitely axiomatizable, and $\mathsf{PA}$ proves the consistency of each one, so $\mathsf{PA}$ is [[not finitely axiomatizable|M5WNB181T7]].
 The provably total recursive functions of $\mathsf{PA}$ are those computable by recursion along ordinals below $\varepsilon_0$.
 $\mathsf{PA}$ and set theory with the axiom of infinity replaced by its negation interpret each other, so $\mathsf{PA}$ is a theory of finite mathematics in general.
-The model theory of $\mathsf{PA}$ studies end extensions, cuts and recursively saturated models, and the order type of every countable non-standard model is $\omega + \zeta \cdot \eta$, where $\zeta$ is the order type of $\Z$ and $\eta$ that of $\mathbb{Q}$.
+The order type of every countable non-standard model is $\omega + \zeta \cdot \eta$, where $\zeta$ is the order type of $\mathbb{Z}$ and $\eta$ that of $\mathbb{Q}$.
+The [[incompleteness theorems|X9WYNYE29C]] and the independence results of [[Goodstein|XQMNJF241J]] and Paris and Harrington take $\mathsf{PA}$ as their main example.
