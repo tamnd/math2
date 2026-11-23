@@ -94,9 +94,9 @@ A Book proof is often an [[elementary proof|84SZZBACP3]], but not always, and so
 Erdős used the image of the Book for many years in talks and conversation, and called a proof that he admired a proof from the Book.
 He also liked to say, in paraphrase, that a mathematician need not believe in God but should believe in the Book.
 Erdős died in 1996.
-Martin Aigner and Günter Ziegler published *Proofs from THE BOOK* with Springer in 1998, with illustrations by Karl H. Hofmann, and dedicated it to Erdős, who had helped to plan it.
+Martin Aigner and Günter Ziegler published *Proofs from THE BOOK* with Springer in 1998, with illustrations by Karl Hofmann, and dedicated it to Erdős, who had helped to plan it.
 The book has five parts: number theory, geometry, analysis, combinatorics, and graph theory.
-It received the Leroy P. Steele Prize for Mathematical Exposition of the American Mathematical Society in 2018.
+It received the Steele Prize for Mathematical Exposition of the American Mathematical Society in 2018.
 
 ### Watch out
 
