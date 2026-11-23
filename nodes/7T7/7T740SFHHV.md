@@ -36,15 +36,6 @@ A *generated submodel* of $\mathfrak{M}$ is $\mathfrak{N} = (U, R \cap U^2, V(\c
 A *bounded morphism* is a map $f \colon W \to W'$ such that $w$ and $f(w)$ satisfy the same variables, $w R v$ implies $f(w) R' f(v)$, and $f(w) R' v'$ implies $v' = f(v)$ for some $v$ with $w R v$.
 The *disjoint union* of models $\mathfrak{M}_i = (W_i, R_i, V_i)$ with pairwise disjoint $W_i$ is $(\bigcup_i W_i, \bigcup_i R_i, p \mapsto \bigcup_i V_i(p))$.
 
-### Labeled transition systems
-
-For a *labeled transition system* $(S, A, \to)$ with $\to \subseteq S \times A \times S$, a bisimulation is a relation $Z \subseteq S \times S$ such that, for every $(s, t) \in Z$ and every action $a \in A$:
-
-1. if $s \xrightarrow{a} s'$, then $t \xrightarrow{a} t'$ and $(s', t') \in Z$ for some $t'$;
-2. if $t \xrightarrow{a} t'$, then $s \xrightarrow{a} s'$ and $(s', t') \in Z$ for some $s'$.
-
-A Kripke model with one relation $R_a$ for each action $a$ is a labeled transition system with a valuation, and then the two definitions agree.
-
 ## Notation
 
 Modal logic uses $\mathrel{\underline{\leftrightarrow}}$, and process theory uses $\sim$.
@@ -74,6 +65,15 @@ For a generated submodel, the identity $\{(u, u) : u \in U\}$ is a bisimulation.
 Zig is immediate, and zag holds because every successor of $u$ in $\mathfrak{M}$ lies in $U$ again.
 For a bounded morphism, the graph $\{(w, f(w))\}$ is a bisimulation: the forth condition is zig, and the back condition is zag.
 For a disjoint union, each summand $\mathfrak{M}_i$ is a generated submodel of the union, because no arrow leaves $W_i$.
+
+### Labeled transition systems
+
+For a *labeled transition system* $(S, A, \to)$ with $\to \subseteq S \times A \times S$, a bisimulation is a relation $Z \subseteq S \times S$ such that, for every $(s, t) \in Z$ and every action $a \in A$:
+
+1. if $s \xrightarrow{a} s'$, then $t \xrightarrow{a} t'$ and $(s', t') \in Z$ for some $t'$;
+2. if $t \xrightarrow{a} t'$, then $s \xrightarrow{a} s'$ and $(s', t') \in Z$ for some $s'$.
+
+A Kripke model with one relation $R_a$ for each action $a$ is a labeled transition system with a valuation, and then the two definitions agree.
 
 ### Bisimulation games
 

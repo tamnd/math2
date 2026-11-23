@@ -24,12 +24,12 @@ sources:
 ## Statement
 
 Take $\square p \to \square \square p$ and ask which frames validate it.
-If $\square p$ is true at $x$, then $p$ is true at least on the successors of $x$, so the smallest valuation that makes the antecedent true is $P(u) := R(x, u)$.
+The smallest valuation that makes $\square p$ true at $x$ is $P(u) := R(x, u)$, the set of successors of $x$.
 The consequent $\square \square p$ translates to $\forall y \, \forall z \, (R(x, y) \wedge R(y, z) \to P(z))$.
 Substituting the smallest valuation gives $\forall y \, \forall z \, (R(x, y) \wedge R(y, z) \to R(x, z))$, which is transitivity at $x$.
-Sahlqvist's theorem says that this computation is always correct for formulas of a certain shape, and that the logics they axiomatize are complete.
+Sahlqvist's theorem says this computation is correct for all formulas of a certain shape, and the logics they axiomatize are complete.
 
-We use the basic modal language and [[Kripke semantics|NGHWZ9Y7ZV]].
+We use [[Kripke semantics|NGHWZ9Y7ZV]].
 A *boxed atom* is a formula $\square^k p$ with $k \geq 0$, where $\square^0 p = p$.
 A *positive* formula is built from variables, $\top$ and $\bot$ with $\wedge$, $\vee$, $\square$ and $\lozenge$, and a *negative* formula is $\neg \pi$ with $\pi$ positive.
 A *Sahlqvist antecedent* is built from $\top$, $\bot$, boxed atoms and negative formulas with $\wedge$, $\vee$ and $\lozenge$.
@@ -40,16 +40,16 @@ A *Sahlqvist formula* is built from Sahlqvist implications with $\square$ and $\
 
 **Theorem.** Let $\chi$ be a Sahlqvist formula.
 
-1. (Correspondence) There is a [[first-order|086QKPF0A6]] formula $c_\chi(x)$ in the language with $R$ and $=$, computable from $\chi$, with the following property: for every frame $\mathfrak{F} = (W, R)$ and every $w \in W$, $\chi$ is true at $w$ under every valuation if and only if $\mathfrak{F} \models c_\chi[w]$.
+1. (Correspondence) There is a [[first-order|086QKPF0A6]] formula $c_\chi(x)$ in $R$ and $=$, computable from $\chi$, such that for every frame $\mathfrak{F} = (W, R)$ and $w \in W$, $\chi$ is true at $w$ under every valuation if and only if $\mathfrak{F} \models c_\chi[w]$.
    So $\chi$ [[corresponds|3RYBWYPJVD]] to $\forall x \, c_\chi(x)$.
-2. (Canonicity) For every normal modal logic $\Lambda$ that contains $\chi$, the canonical frame of $\Lambda$ validates $\chi$.
+2. (Canonicity) For every normal logic $\Lambda$ containing $\chi$, the canonical frame of $\Lambda$ validates $\chi$.
 3. (Completeness) If $\Sigma$ is a set of Sahlqvist formulas, then the normal logic $\mathsf{K} \oplus \Sigma$ is strongly complete for the class of frames that satisfy $\{\forall x \, c_\chi(x) : \chi \in \Sigma\}$.
-
-The [[proof|2FN47ZQPYF]] gives item 1 in full, item 2 as a structure with the cited lemmas named, and item 3 from items 1 and 2.
 
 ## Remarks
 
 ### Worked examples
+
+The [[proof|2FN47ZQPYF]] gives item 1 of the theorem in full, item 2 as a structure with the cited lemmas named, and item 3 from items 1 and 2.
 
 The formulas $p \to \lozenge p$, $\square p \to p$, $\lozenge \lozenge p \to \lozenge p$, $p \to \square \lozenge p$, $\lozenge p \to \square \lozenge p$, $\square \square p \to \square p$ and $\lozenge \square p \to \square \lozenge p$ are Sahlqvist.
 Their correspondents are reflexivity, reflexivity, transitivity, symmetry, the Euclidean property, density and confluence.
