@@ -18,8 +18,7 @@ sources:
 
 ## Example
 
-*Statement.* For every integer $n$, the number $n^2 + n$ is even.
-
+The statement is that for every integer $n$, the number $n^2 + n$ is even.
 A student writes this [[two-column proof|P8PCGFASP8]] and calls it a structured proof.
 
 | # | Statements | Reasons |
@@ -32,53 +31,56 @@ A student writes this [[two-column proof|P8PCGFASP8]] and calls it a structured 
 | 6 | $n^2 + n = (2k + 1)(2k + 2) = 2(2k + 1)(k + 1)$ | algebra (5) |
 | 7 | $n^2 + n$ is even | rows 4 and 6 |
 
-The mathematics is correct, and the table is a reasonable proof by cases for a school reader.
-It is not a [[structured proof|H2W8D7BMSW]], and we check which features are missing.
+The mathematics is correct, and for a school reader the table is a fair [[proof by cases|0WCP0PVET6]].
+It is not a [[structured proof|H2W8D7BMSW]], and the missing feature is levels.
+Rows 3 and 5 are case assumptions, yet they stand at the same level as the given fact in row 1, so their scope is not shown.
+Read as one flat list, rows 3 and 5 together say $2k = 2k + 1$, and the letter $k$ has two meanings.
+Row 7 cites rows 4 and 6, each of which holds only in its own case, and it does not cite row 2, the reason why the two cases cover every integer.
+No row has its own sub-proof, so the table cannot say that rows 3 and 4 together settle one case.
 
-1. There are no levels. Rows 3 and 5 are case assumptions, but they stand at the same level as the given fact in row 1.
-2. The scope of each assumption is not shown. Read as a flat list, rows 3 and 5 together say $2k = 2k + 1$, which is false.
-3. The letter $k$ has two different meanings, in row 3 and in row 5. In a flat list the second use clashes with the first.
-4. Row 7 cites rows 4 and 6, but each of them holds only in its own case. The table does not say that row 2 is the reason why the two cases cover all integers.
-5. No step has its own sub-proof. Each row is a leaf, so the format cannot show that rows 3 and 4 together prove one case.
-
-The structured proof of the same statement is:
+Here is the structured proof of the same statement.
 
 - `<1>1.` CASE: $n$ is even.
-    - `<2>1.` PICK an integer $k$ with $n = 2k$. PROOF: by the case assumption.
-    - `<2>2.` Q.E.D. PROOF: $n^2 + n = 2(2k^2 + k)$ by `<2>1`.
+    - `<2>1.` PICK an integer $k$ with $n = 2k$.
+      PROOF: by the case assumption.
+    - `<2>2.` Q.E.D.
+      PROOF: $n^2 + n = 2(2k^2 + k)$ by `<2>1`.
 - `<1>2.` CASE: $n$ is odd.
-    - `<2>1.` PICK an integer $k$ with $n = 2k + 1$. PROOF: by the case assumption.
-    - `<2>2.` Q.E.D. PROOF: $n^2 + n = 2(2k + 1)(k + 1)$ by `<2>1`.
-- `<1>3.` Q.E.D. PROOF: by `<1>1` and `<1>2`, since every integer is even or odd.
+    - `<2>1.` PICK an integer $k$ with $n = 2k + 1$.
+      PROOF: by the case assumption.
+    - `<2>2.` Q.E.D.
+      PROOF: $n^2 + n = 2(2k + 1)(k + 1)$ by `<2>1`.
+- `<1>3.` Q.E.D.
+  PROOF: by `<1>1` and `<1>2`, since every integer is even or odd.
 
-Here each case is a sub-proof, and its letter $k$ and its assumption end with it.
+Each case is now a sub-proof, and its letter $k$ and its assumption end with it.
 
 ## Remarks
 
-1. The example shows the trap named in the writing notes of this topic: a two-column proof and a structured proof are different formats. Both number their steps, but only the structured proof has levels.
-2. A Fitch-style table with indentation for each case would come close to a structured proof. The indentation plays the role of the levels.
-3. The algebra in row 6 holds because $(2k + 1)^2 + (2k + 1) = (2k + 1)\bigl((2k + 1) + 1\bigr) = (2k + 1)(2k + 2)$.
-4. A shorter proof avoids cases: $n^2 + n = n(n + 1)$, and one of two consecutive integers is even. Its structured form has one level.
+Both formats number their steps, which is why students mix them up, but only the structured proof has levels.
+A table in the style of Fitch, with each case indented, would come close to a structured proof, because the indentation plays the role of the levels.
+
+The algebra in row 6 holds because $(2k + 1)^2 + (2k + 1) = (2k + 1)\bigl((2k + 1) + 1\bigr) = (2k + 1)(2k + 2)$.
+A shorter proof avoids cases altogether: $n^2 + n = n(n + 1)$, and one of two consecutive integers is even.
+Its structured form has a single level.
 
 ## Explanations
 
 ### L1 human
 
-Two ways to write a proof can both use numbered lines and still differ.
+Two ways of writing a proof can both use numbered lines and still differ.
 A two-column proof is one long list, like a shopping list.
-A structured proof is like a folder with sub-folders: each case has its own sub-folder.
-In the list above, "$n$ is even" and "$n$ is odd" sit next to each other, as if both were true.
-In the structured proof, each of them lives in its own sub-folder, so they never meet.
+A structured proof is like a folder with sub-folders, where each case has its own sub-folder.
+In the table above, "$n$ is even" and "$n$ is odd" sit next to each other, as if both were true.
+In the structured proof, each lives in its own sub-folder, so they never meet.
 
 ### L2 human
 
 We check the structured proof for $n = 6$ and $n = 7$.
+For $n = 6$, case `<1>1` applies with $k = 3$, and $n^2 + n = 42 = 2 \cdot 21$, where $21 = 2 \cdot 9 + 3$.
+For $n = 7$, case `<1>2` applies with $k = 3$, and $n^2 + n = 56 = 2 \cdot 7 \cdot 4$.
+The letter $k$ is $3$ both times, but the two values belong to different sub-proofs, so no clash arises.
 
-1. For $n = 6$, case `<1>1` applies with $k = 3$. Then $n^2 + n = 42 = 2(2 \cdot 9 + 3) = 2 \cdot 21$.
-2. For $n = 7$, case `<1>2` applies with $k = 3$. Then $n^2 + n = 56 = 2 \cdot 7 \cdot 4$.
-3. The letter $k$ is $3$ in both cases, but the two values belong to different sub-proofs, so no clash arises.
-
-The typical use of this contrast is to choose a format.
 A flat table suits a short chain of facts, and levels suit cases and assumptions.
-A trap is to number the rows of a table as $1.1$, $1.2$, $2.1$ and to call that hierarchical.
-The numbers alone are not enough: each level must be the proof of the step above it, with its own assumptions.
+Watch out: numbering the rows of a table as $1.1$, $1.2$ and $2.1$ does not make it hierarchical.
+Each level must be the proof of the step above it, with its own assumptions.
