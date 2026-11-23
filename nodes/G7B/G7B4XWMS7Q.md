@@ -20,51 +20,73 @@ history:
 
 ## Problem
 
-Find a natural equivalence relation on formal derivations such that two derivations are equivalent exactly when they present the same proof.
-Find, for each equivalence class, a canonical representative or a complete invariant.
+Proof theory has a precise notion of a derivation but no agreed notion of a proof: we do not know when two different-looking derivations are the same proof.
+Here is the smallest case.
+From the assumption $p \wedge p$, [[natural deduction|PAQ4ZX2TX1]] derives $p$ by $\wedge$E$_1$, and also by $\wedge$E$_2$.
+A third derivation takes both parts, joins them by $\wedge$I, and takes the first part again.
+Most people say that the first and third are one proof, but are the first and second one proof or two?
 
-The relation must be defined for derivations of the same conclusion in a fixed calculus, such as [[natural deduction|PAQ4ZX2TX1]] or the [[sequent calculus|W72CA3R9MP]].
-It should identify derivations that differ only by inessential choices, for example the order of two independent rule steps or a detour that a reduction removes.
-It should not identify all derivations of the same conclusion, since then a proof would be nothing more than the fact that its conclusion is derivable.
+The problem asks for a natural equivalence relation on derivations with the same conclusion, in a fixed calculus such as natural deduction or the [[sequent calculus|W72CA3R9MP]], with two properties.
+It should identify derivations that differ only by inessential choices, such as the order of two independent rule steps or a detour that a reduction removes.
+It should not identify all derivations of one conclusion, since then a proof would carry no more information than the fact that its conclusion is derivable.
+It also asks for a canonical representative or a complete invariant of each class.
 There is no generally accepted answer, and the answers proposed differ between intuitionistic and classical logic.
 
 ## Remarks
 
-The *normalization criterion* says: two derivations in intuitionistic natural deduction are the same proof when they reduce to the same normal form, with both the detour reductions and the expansions of [[harmony|XJSQVK0G71]].
-By the [[normalization theorem|W33WAE1XTC]], every derivation has a normal form, and with expansions included this gives a decidable relation in the implication and conjunction fragment.
-Under the [[Curry-Howard correspondence|A77FER1Q5H]], the relation is beta-eta equality of typed [[lambda terms|BD756KR8FM]].
-In this fragment, the equivalence classes are the morphisms of the free [[cartesian closed category|BFBNQ36QS8]] on the atomic formulas.
+### The normalization criterion
 
-For classical logic, the same approach identifies too much.
-In LK, take two derivations $\pi_1$ and $\pi_2$ of $\Gamma \Rightarrow \Delta$.
+The best-studied answer says that two derivations in intuitionistic natural deduction are the same proof when they reduce to the same normal form.
+The reductions are the detour reductions together with the expansions that [[harmony|XJSQVK0G71]] supplies.
+By the [[normalization theorem|W33WAE1XTC]] every derivation has a normal form, and for implication and conjunction the resulting relation is decidable.
+
+In the opening case, the third derivation has a detour on $p \wedge p$, and one reduction turns it into the first.
+The first and second are both normal and different, so they are two proofs.
+Under the [[Curry-Howard correspondence|A77FER1Q5H]] they are the [[lambda terms|BD756KR8FM]] $\pi_1 x$ and $\pi_2 x$, the two projections from $p \times p$ to $p$.
+In general the relation becomes beta-eta equality of typed terms, and for implication, conjunction and truth the classes are the morphisms of the free [[cartesian closed category|BFBNQ36QS8]] on the atoms.
+
+### Collapse in classical logic
+
+For LK, the same idea identifies too much.
+Take any two derivations $\pi_1$ and $\pi_2$ of $\Gamma \Rightarrow \Delta$.
 Weaken the first to $\Gamma \Rightarrow \Delta, A$ and the second to $A, \Gamma \Rightarrow \Delta$, and cut on $A$.
-The cut can be eliminated in two ways, and the results are $\pi_1$ and $\pi_2$, each followed by weakenings.
-So if cut elimination steps keep the proof, any two derivations of one sequent are the same proof, after weakenings.
+The cut can be eliminated in two ways, by deleting either premise, and the results are $\pi_1$ and $\pi_2$ followed by weakenings.
+So if a cut-elimination step keeps the proof the same, all derivations of one sequent are one proof, up to weakenings.
+This is why cut elimination in LK is not confluent, and why normal forms there are not unique.
 
-The same collapse appears in categorical semantics.
-Let a cartesian closed category have an initial object $0$, and let each object $B$ be isomorphic to $(B \Rightarrow 0) \Rightarrow 0$ by the canonical map.
+### Collapse in categories, continued
 
-1. For every object $A$, the product $A \times 0$ is initial, since $A \times (-)$ is a left adjoint and preserves initial objects.
-2. If there is a morphism $f : A \to 0$, then $\langle \mathrm{id}_A, f \rangle : A \to A \times 0$ and the projection $A \times 0 \to A$ are inverse to each other. One composite is $\mathrm{id}_A$ by the product property, and the other is an endomorphism of the initial object $A \times 0$.
+The same collapse appears in categorical semantics, by an argument of Joyal.
+Let a cartesian closed category have an initial object $0$, and let the canonical map from each $B$ to $(B \Rightarrow 0) \Rightarrow 0$ be an isomorphism.
+
+1. For every object $A$, the product $A \times 0$ is initial, since $A \times (-)$ is a left adjoint and so preserves initial objects.
+2. Suppose there is a morphism $f : A \to 0$.
+   Then $\langle \mathrm{id}_A, f \rangle : A \to A \times 0$ and the projection $A \times 0 \to A$ are inverse: one composite is $\mathrm{id}_A$ by the product property, and the other is an endomorphism of the initial object $A \times 0$, hence the identity.
 3. So such an $A$ is initial, and there is at most one morphism $A \to 0$.
-4. Morphisms $A \to B$ correspond to morphisms $A \to (B \Rightarrow 0) \Rightarrow 0$, and so to morphisms $A \times (B \Rightarrow 0) \to 0$. By step 3 there is at most one.
+4. Morphisms $A \to B$ correspond to morphisms $A \to (B \Rightarrow 0) \Rightarrow 0$, and so to morphisms $A \times (B \Rightarrow 0) \to 0$, of which there is at most one by step 3.
 
-So such a category is a preorder, and all derivations of one sequent get one meaning.
-This observation is due to Joyal.
+So the category is a preorder, and all derivations of one sequent get one meaning.
 
-Proposed answers for classical logic and linear logic use other representations of proofs.
-[[Linear logic|2P2184B6HE]] has *proof nets*, introduced by Girard in 1987, which are graphs that forget the order of independent rule steps.
+### Other representations
+
+[[Linear logic|2P2184B6HE]] offers [[proof nets|HN6WN1VE39]], introduced by Girard in 1987, graphs that forget the order of independent rule steps.
 For the multiplicative fragment without units, two cut-free sequent derivations have the same proof net exactly when one comes from the other by permutations of rules.
-The *generality criterion* identifies two derivations when they link the same occurrences of atomic formulas in the conclusion.
-Došen studied the normalization and generality criteria and compared them.
+The *generality criterion* identifies two derivations when they link the same occurrences of atomic formulas in the conclusion, and Došen compared it with the normalization criterion.
+On the opening case the two criteria agree: $\wedge$E$_1$ links the conclusion $p$ to the first $p$ of $p \wedge p$, and $\wedge$E$_2$ to the second.
+
+### Watch out
+
+The normalization criterion does not transfer to LK as it stands.
+A student who reasons "cut elimination gives a normal form, so compare normal forms" meets the collapse above, because one derivation with a cut has several cut-free forms.
+Any classical answer must give up some step of that argument, either some cut-elimination steps or some structure of a cartesian closed category.
 
 ## History
 
 Hilbert considered a 24th problem for his list of 1900, on criteria for the simplicity of proofs, but he did not include it.
-Thiele found it in Hilbert's notebooks in 2000, and he published an account in the American Mathematical Monthly in 2003.
+Rüdiger Thiele found it in Hilbert's notebooks in 2000, and published an account in the American Mathematical Monthly in 2003.
 Prawitz proposed the normalization criterion, which is now called the normalization conjecture.
 Lambek connected derivations in intuitionistic logic with morphisms of cartesian closed categories.
-Girard introduced proof nets for linear logic in 1987.
+Girard introduced proof nets for linear logic in 1987, the year he introduced linear logic.
 
 ## Explanations
 
@@ -74,27 +96,22 @@ Two people can prove the same theorem in ways that look different on paper.
 Sometimes one proof only writes the steps in another order, and we feel that it is the same proof.
 Sometimes the two proofs use different ideas, and we feel that they are different proofs.
 The problem is to turn this feeling into an exact rule for formal proofs.
-For example, from "$p$ and $p$" we can conclude $p$ by taking the first part or by taking the second part, and it is not obvious whether these are two proofs or one.
+From "$p$ and $p$" we can conclude $p$ by taking the first part or by taking the second part, and the question is whether these are one proof or two.
 
 ### L2 human
 
-We compare three derivations of $p$ from the assumption $p \wedge p$ in natural deduction.
-
-1. $D_1$ applies $\wedge$E$_1$ to the assumption.
-2. $D_2$ applies $\wedge$E$_2$ to the assumption.
-3. $D_3$ applies $\wedge$E$_1$ and $\wedge$E$_2$ to the assumption, joins the results by $\wedge$I, and then applies $\wedge$E$_1$.
-4. $D_3$ has a detour on $p \wedge p$, and its reduction gives $D_1$. So $D_3$ and $D_1$ are the same proof under the normalization criterion.
-5. $D_1$ and $D_2$ are both normal, and they are different. So they are different proofs under the normalization criterion.
-6. The lambda terms of $D_1$ and $D_2$ are $\pi_1 x$ and $\pi_2 x$, for a variable $x$ of type $p \times p$. They give the two projections from $p \times p$ to $p$.
-
-The typical use of the normalization criterion is to decide identity by computing normal forms.
-A trap is to transfer this to LK: there, cut elimination is not confluent, and different normal forms can come from one derivation.
+Compare two derivations of $p \wedge q \to q \wedge p$, as lambda terms.
+The first is $\lambda x.\, \langle \pi_2 x, \pi_1 x \rangle$.
+The second first swaps and then swaps back and swaps again:
+$$\lambda x.\, \bigl(\lambda y.\, \langle \pi_2 y, \pi_1 y \rangle\bigr)\Bigl(\bigl(\lambda z.\, \langle \pi_2 z, \pi_1 z \rangle\bigr)\bigl(\langle \pi_2 x, \pi_1 x \rangle\bigr)\Bigr).$$
+Beta reduction of the inner application gives $\langle \pi_1 x, \pi_2 x \rangle$, and the outer one then gives $\langle \pi_2 x, \pi_1 x \rangle$, after the projection reductions $\pi_1 \langle s, t \rangle = s$ and $\pi_2 \langle s, t \rangle = t$.
+So the two derivations have the same normal form and are one proof under the normalization criterion.
+This is the typical use: decide identity by computing normal forms, which works because intuitionistic normalization is confluent.
 
 ### L3 human
 
-The problem asks for the right notion of morphism between formulas, and so it is a question in categorical proof theory.
-For intuitionistic logic, cartesian closed categories give a stable answer, and the [[Curry-Howard correspondence|A77FER1Q5H]] connects it to the equality of programs.
-For classical logic, a semantics must give up some structure of a cartesian closed category, to avoid the collapse to a preorder.
-Proposals include proof nets for classical logic, categories with a weaker structure for disjunction, and the representations of [[deep inference|4ZW0SHW2RG]].
-[[Focusing|AMMKNENT3R]] restricts the derivations of a sequent to a smaller class, and so it removes many inessential permutations of rules.
+The problem asks for the right notion of morphism between formulas, so it is a question of categorical proof theory.
+For intuitionistic logic, cartesian closed categories give a stable answer, and the [[Curry-Howard correspondence|A77FER1Q5H]] connects it with the equality of programs.
+For classical logic a semantics must give up some structure, to escape Joyal's collapse; proposals include proof nets for classical logic, categories with weaker structure for disjunction, and the atomic flows of [[deep inference|4ZW0SHW2RG]].
+[[Focusing|AMMKNENT3R]] restricts the derivations of a sequent to a smaller class, and so removes many inessential permutations.
 The question of simple proofs in Hilbert's notes needs an answer to the question of identity first, since a measure of simplicity should not depend on the presentation.
