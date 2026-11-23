@@ -137,12 +137,12 @@ Replacing the quantifier by the disjunction over these test points removes it.
 
 ## Variants
 
-Presburger's original proof, like many textbook proofs, first brings the matrix into disjunctive normal form and then eliminates the quantifier from each conjunction of bounds and congruences, with the Chinese remainder theorem.
+Many textbook proofs first bring the matrix into disjunctive normal form and then eliminate the quantifier from each conjunction of bounds and congruences, with the Chinese remainder theorem.
 Cooper's method avoids the normal form, which can be exponentially longer.
 
 The automata proof writes numbers in binary, least significant digit first, and a [[finite automaton|W65B6BKZRY]] with one carry bit checks $x + y = z$ on the tuple of digit strings.
-Then $\wedge$ is a product of automata, $\neg$ is complementation of a deterministic automaton, and $\exists$ is projection, which needs a subset construction and care with leading zeros.
-A sentence is true exactly when its automaton accepts a fixed string, which is checked by an algorithm.
+Then $\wedge$ is a product of automata, $\neg$ is complementation of a deterministic automaton, and $\exists$ is projection, which needs a subset construction and care with padding zeros.
+A sentence is true exactly when its automaton accepts the empty word, and this is checked by an algorithm.
 The same proof works for [[Büchi arithmetic|NSTECGT93D]], as in [[the proof that its definable relations are automatic|WX2B2GTGJX]].
 
 Model-theoretic proofs show quantifier elimination for the theory of $\mathbb{Z}$-groups by a test that eliminates one existential quantifier in front of a conjunction of atoms.
