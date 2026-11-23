@@ -22,16 +22,19 @@ The two look alike, but the second claims that $T$ proves every truth, and we sh
 
 Let $T$ be a theory in the language $\{ 0, S, +, \cdot \}$ that contains $\mathsf{PA}$, has a decidable set of axioms, and has all its axioms true in $\mathbb{N}$.
 Let $\mathrm{Prov}_T$ be its standard [[provability predicate|NB2BCZR40F]].
-The completeness schema $\mathrm{C}(T)$ is the set of all sentences
-$$\varphi \to \mathrm{Prov}_T(\ulcorner \varphi \urcorner),$$
-one for each sentence $\varphi$.
+The completeness schema $\mathrm{C}(T)$ has, for each sentence $\varphi$, the instance
+$$\varphi \to \mathrm{Prov}_T(\ulcorner \varphi \urcorner).$$
 We show that every instance of the local [[reflection principle|NB485KFXKV]] $\mathrm{Rfn}(T)$ is true in $\mathbb{N}$, while some instance of $\mathrm{C}(T)$ is false.
+
+### Reflection is true
 
 1. Every theorem of $T$ is true in $\mathbb{N}$, by the [[soundness theorem|4A84VHDTHV]], because all axioms of $T$ are true in $\mathbb{N}$.
 2. For each sentence $\varphi$, the sentence $\mathrm{Prov}_T(\ulcorner \varphi \urcorner)$ is true in $\mathbb{N}$ exactly when $T \vdash \varphi$.
    This is what the formula $\mathrm{Prov}_T$ means under the coding.
 3. Every instance $\mathrm{Prov}_T(\ulcorner \varphi \urcorner) \to \varphi$ of $\mathrm{Rfn}(T)$ is true in $\mathbb{N}$.
    If its antecedent is true, then $T \vdash \varphi$ by step 2, and $\varphi$ is true by step 1.
+### Completeness fails at the Gödel sentence
+
 4. By the [[diagonal lemma|3PRW76471J]] there is a sentence $G$ with $T \vdash G \leftrightarrow \neg \mathrm{Prov}_T(\ulcorner G \urcorner)$, the [[Gödel sentence|X9WYNYE29C]] of $T$.
 5. $T$ does not prove $G$.
    If $T \vdash G$, then the [[derivability condition|F6H4STF9RG]] D1 gives $T \vdash \mathrm{Prov}_T(\ulcorner G \urcorner)$, and step 4 gives $T \vdash \neg \mathrm{Prov}_T(\ulcorner G \urcorner)$.

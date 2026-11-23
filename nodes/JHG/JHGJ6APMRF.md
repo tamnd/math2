@@ -31,14 +31,15 @@ We use three facts about $\mathrm{Prov}_T$ that hold for $T \supseteq \mathsf{PA
 - (D2) $T \vdash \mathrm{Prov}_T(\ulcorner \varphi \to \psi \urcorner) \to (\mathrm{Prov}_T(\ulcorner \varphi \urcorner) \to \mathrm{Prov}_T(\ulcorner \psi \urcorner))$ for all sentences $\varphi$, $\psi$.
 - (FΣ) Formalized $\Sigma_1$-completeness: $T \vdash \sigma \to \mathrm{Prov}_T(\ulcorner \sigma \urcorner)$ for every $\Sigma_1$ sentence $\sigma$.
 
-**First direction: reflection gives consistency.**
+### First direction: reflection gives consistency
 
 1. The sentence $0 = S0$ has no unbounded quantifier, so it is a $\Pi_1$ sentence (put a vacuous $\forall x$ in front for the exact form).
 2. So $\mathrm{Prov}_T(\ulcorner 0 = S0 \urcorner) \to 0 = S0$ is an instance of $\mathrm{Rfn}_{\Pi_1}(T)$.
 3. The axiom $\forall x \, \neg (Sx = 0)$ of [[Robinson arithmetic|3K1AKGXF8A]] gives $\neg (0 = S0)$, and this axiom is in $T$.
 4. From $A \to B$ and $\neg B$ we get $\neg A$, so steps 2 and 3 give $\neg \mathrm{Prov}_T(\ulcorner 0 = S0 \urcorner)$, which is $\mathrm{Con}(T)$.
 
-**Second direction: consistency gives reflection.**
+### Second direction: consistency gives reflection
+
 Fix a $\Pi_1$ sentence $\pi = \forall x \, \theta(x)$ with $\theta$ bounded.
 
 5. Let $\sigma := \exists x \, \neg \theta(x)$.

@@ -20,12 +20,10 @@ Since $0 = 1$ is false, the sentence says exactly that $\mathsf{PA}$ does not pr
 A reflection principle makes the same claim for every sentence at once: whatever the theory proves is true.
 
 Exactly: let $T$ be a consistent theory of arithmetic with a decidable set of axioms that contains $\mathsf{PA}$, and let $\mathrm{Prov}_T$ be its [[provability predicate|NB2BCZR40F]].
-The local reflection principle $\mathrm{Rfn}(T)$ is the schema of the sentences
-$$\mathrm{Prov}_T(\ulcorner \varphi \urcorner) \to \varphi,$$
-one for each sentence $\varphi$.
-The uniform reflection principle $\mathrm{RFN}(T)$ is the schema of the sentences
-$$\forall x \, \bigl(\mathrm{Prov}_T(\ulcorner \varphi(\dot{x}) \urcorner) \to \varphi(x)\bigr),$$
-one for each formula $\varphi(x)$ with one free variable.
+The local reflection principle $\mathrm{Rfn}(T)$ is the schema that has, for each sentence $\varphi$, the instance
+$$\mathrm{Prov}_T(\ulcorner \varphi \urcorner) \to \varphi.$$
+The uniform reflection principle $\mathrm{RFN}(T)$ is the schema that has, for each formula $\varphi(x)$ with one free variable, the instance
+$$\forall x \, \bigl(\mathrm{Prov}_T(\ulcorner \varphi(\dot{x}) \urcorner) \to \varphi(x)\bigr).$$
 For a class $\Gamma$ of formulas, such as $\Pi_1$ or $\Sigma_1$, the schemas $\mathrm{Rfn}_\Gamma(T)$ and $\mathrm{RFN}_\Gamma(T)$ keep only the instances with $\varphi$ in $\Gamma$.
 
 ## Motivation

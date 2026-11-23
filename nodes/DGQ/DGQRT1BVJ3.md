@@ -22,10 +22,11 @@ Let $\mathsf{PRA}$ be [[primitive recursive arithmetic|WCXH72T8D8]] as a first-o
 Its language has a function symbol for each [[primitive recursive function|5NVA2JRHPV]].
 Its axioms are the axioms for $0$ and $S$, the defining equations of these functions, and induction for formulas without quantifiers.
 In this language, let $\mathsf{PA}$ mean $\mathsf{PRA}$ plus induction for all formulas.
-The uniform [[reflection principle|NB485KFXKV]] $\mathrm{RFN}(\mathsf{PRA})$ is the schema of the sentences
-$$\forall y \, \forall z \, \bigl(\mathrm{Prov}_{\mathsf{PRA}}(\ulcorner \psi(\dot{y}, \dot{z}) \urcorner) \to \psi(y, z)\bigr),$$
-one for each formula $\psi(y, z)$, where $z$ may be a list of variables.
+The uniform [[reflection principle|NB485KFXKV]] $\mathrm{RFN}(\mathsf{PRA})$ has, for each formula $\psi(y, z)$, where $z$ may be a list of variables, the instance
+$$\forall y \, \forall z \, \bigl(\mathrm{Prov}_{\mathsf{PRA}}(\ulcorner \psi(\dot{y}, \dot{z}) \urcorner) \to \psi(y, z)\bigr).$$
 We show that $\mathsf{PRA} + \mathrm{RFN}(\mathsf{PRA})$ proves every instance of induction, so it contains $\mathsf{PA}$.
+
+### Each case has a short proof
 
 Fix a formula $\varphi(x, z)$ and put
 $$\psi(y, z) := \bigl(\varphi(0, z) \wedge \forall x \, (\varphi(x, z) \to \varphi(Sx, z))\bigr) \to \varphi(y, z).$$
@@ -37,6 +38,8 @@ $$\psi(y, z) := \bigl(\varphi(0, z) \wedge \forall x \, (\varphi(x, z) \to \varp
    Here $S\underline{k}$ is the numeral $\underline{k+1}$.
 4. Starting from step 2, $n$ uses of modus ponens with the formulas of step 3 give $\varphi(\underline{n}, \underline{m})$.
 5. The deduction theorem turns steps 2 to 4 into a proof of $A \to \varphi(\underline{n}, \underline{m})$, which is $\psi(\underline{n}, \underline{m})$.
+### Reflection collects the cases
+
 6. The construction is uniform: a primitive recursive function $p$ gives the code $p(n, m)$ of this proof.
    The proof is built by a recursion on $n$ from syntactic operations that are primitive recursive, by the [[arithmetization of syntax|6M12VR1GT6]].
 7. A proof in pure logic is also a $\mathsf{PRA}$-proof, so $p(n, m)$ codes a $\mathsf{PRA}$-proof of $\psi(\underline{n}, \underline{m})$ for all $n$ and $m$.

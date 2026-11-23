@@ -24,7 +24,8 @@ We use the seven [[axioms|TT8MXRTVBM]] of $\mathsf{Q}$:
 $$\begin{aligned} &(1)\ Sx \ne 0, \quad (2)\ Sx = Sy \to x = y, \quad (3)\ x \ne 0 \to \exists y \, (x = Sy), \\ &(4)\ x + 0 = x, \quad (5)\ x + Sy = S(x + y), \quad (6)\ x \cdot 0 = 0, \quad (7)\ x \cdot Sy = x \cdot y + x. \end{aligned}$$
 If the language also has $<$, we interpret it by its defining axiom, and nothing below changes.
 
-**The model.**
+### The model
+
 Let $M$ have domain $\mathbb{N} \cup \{ a, b \}$, with two new elements $a \ne b$.
 On $\mathbb{N}$ the operations are the usual ones, and below $n$ ranges over $\mathbb{N}$ and $x$ over all of $M$.
 Successor fixes the new elements: $Sa = a$ and $Sb = b$.
@@ -34,7 +35,7 @@ For products, $x \cdot 0 = 0$ for every $x$, and $0 \cdot a = 0 \cdot b = 0$.
 For $n \ge 1$, $a \cdot n = b$, $b \cdot n = a$ and $n \cdot a = n \cdot b = a$.
 Finally $a \cdot a = b$, $b \cdot a = a$, $a \cdot b = b$ and $b \cdot b = a$.
 
-**The check.**
+### The check
 
 1. Axioms 1 to 3: $S$ is injective on $M$, $0$ is not a value of $S$, and every $x \ne 0$ is a value, since $a = Sa$ and $b = Sb$.
 2. Axiom 4: $n + 0 = n$, $a + 0 = a$ and $b + 0 = b$.
@@ -52,7 +53,8 @@ Finally $a \cdot a = b$, $b \cdot a = a$, $a \cdot b = b$ and $b \cdot b = a$.
 
 So $M$ is a model of $\mathsf{Q}$, and in $M$ we have $0 + a = b \ne a$.
 
-**The conclusion.**
+### The conclusion
+
 Since $M \models \neg \forall x \, (0 + x = x)$, [[soundness|4A84VHDTHV]] gives $\mathsf{Q} \nvdash \forall x \, (0 + x = x)$.
 The [[standard model|WP27CABPA4]] $\mathbb{N}$ is also a model of $\mathsf{Q}$, and it satisfies the law, so soundness gives $\mathsf{Q} \nvdash \neg \forall x \, (0 + x = x)$.
 

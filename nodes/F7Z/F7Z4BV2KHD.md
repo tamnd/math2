@@ -50,9 +50,9 @@ Turing wrote "ordinal logic" and worked with the $\lambda$-calculus; Feferman re
 
 ### The first stages
 
-The finite stages of the consistency progression over $\mathsf{PA}$ are
-$$\mathsf{PA}, \quad \mathsf{PA} + \mathrm{Con}(\mathsf{PA}), \quad (\mathsf{PA} + \mathrm{Con}(\mathsf{PA})) + \mathrm{Con}(\mathsf{PA} + \mathrm{Con}(\mathsf{PA})), \quad \ldots$$
-at the notations $1, 2, 4, 16, 65536, \ldots$, each $2$ to the power of the one before.
+The finite stages of the consistency progression over $\mathsf{PA}$ sit at the notations $1, 2, 4, 16, 65536, \ldots$, each $2$ to the power of the one before.
+The first three stages are
+$$\mathsf{PA}, \quad \mathsf{PA} + \mathrm{Con}(\mathsf{PA}), \quad (\mathsf{PA} + \mathrm{Con}(\mathsf{PA})) + \mathrm{Con}(\mathsf{PA} + \mathrm{Con}(\mathsf{PA})).$$
 Each stage is sound and strictly stronger than the one before; [[the finite stages of the consistency progression|7SRG8BJRJV]] checks this.
 Over $\mathsf{PRA}$ with uniform reflection, the very first step already gives a theory with the same theorems as $\mathsf{PA}$, by the Kreisel-Lévy theorem; see [[uniform reflection over PRA|DGQRT1BVJ3]].
 
