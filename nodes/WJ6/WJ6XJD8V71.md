@@ -16,45 +16,51 @@ sources:
 
 ## Example
 
-Problem: $n$ points are placed on a circle so that no three of the chords joining them meet in one point inside the circle.
-Into how many regions $r(n)$ do all the chords divide the disc?
-This is [[Moser's circle problem|M225KZAV4F]].
-We show how [[specialization|FTBJX4G51S]] misleads here.
+Place $n$ points on a circle so that no three of the chords joining them meet at one point inside the circle.
+Into how many regions $r(n)$ do all the chords cut the disc?
+This is [[Moser's circle problem|M225KZAV4F]], and it shows how [[specialization|FTBJX4G51S]] can mislead.
 
-1. $n = 1$: no chord, $1$ region.
-2. $n = 2$: one chord, $2$ regions.
-3. $n = 3$: a triangle of chords, $4$ regions.
-4. $n = 4$: a quadrilateral and its two diagonals, $8$ regions.
-5. $n = 5$: a pentagon and its five diagonals, $16$ regions.
-6. The pattern $1, 2, 4, 8, 16$ suggests $r(n) = 2^{n-1}$.
-7. Test on $n = 6$. A careful count gives $31$, not $32$.
+1. With $1$ point there is no chord and $1$ region.
+2. With $2$ points there is one chord and $2$ regions.
+3. With $3$ points the chords form a triangle and there are $4$ regions.
+4. With $4$ points the quadrilateral and its two diagonals give $8$ regions.
+5. With $5$ points the pentagon and its five diagonals give $16$ regions.
+6. The values $1, 2, 4, 8, 16$ suggest $r(n) = 2^{n-1}$.
+7. We test the guess on $n = 6$, and a careful count gives $31$, not $32$.
 
-So the conjecture from five special cases is false.
-The heuristic did its job of producing a conjecture, and the test of step 7 did its job of refuting it.
+So the conjecture drawn from five special cases is false.
+The heuristic did its job of producing a conjecture, and the test on a new case did its job of refuting it.
+The true count needs a reason, which we now give.
 
-The correct count, with a proof:
-
-1. Add the chords one at a time. A new chord that crosses $c$ earlier chords at $c$ distinct inside points is cut into $c + 1$ pieces, and each piece splits one region. So it adds $c + 1$ regions.
-2. Summing over all $\binom{n}{2}$ chords, the number of regions is $1 + \binom{n}{2} + P$, where $P$ is the number of crossing points inside the disc.
-3. Each crossing point belongs to exactly two chords, whose four end points are four of the $n$ points. Each set of four points gives exactly one crossing, the crossing of the two diagonals of their quadrilateral.
-4. So $P = \binom{n}{4}$, and $r(n) = 1 + \binom{n}{2} + \binom{n}{4}$, with [[binomial coefficients|0GBZM0MT0F]].
-5. Values: $r(1), \ldots, r(6) = 1, 2, 4, 8, 16, 31$.
+1. We add the chords one at a time.
+   A new chord that crosses $c$ earlier chords at $c$ distinct points is cut into $c + 1$ pieces, and each piece splits one region, so it adds $c + 1$ regions.
+2. We sum over all $\binom{n}{2}$ chords.
+   Each chord contributes $1$, and each crossing point is counted once, by the later of its two chords, so $r(n) = 1 + \binom{n}{2} + P$, where $P$ is the number of crossing points.
+3. We count the crossing points.
+   Each crossing belongs to two chords whose four endpoints are four of the $n$ points, and each set of four points gives exactly one crossing, of the two diagonals of their quadrilateral.
+   So $P = \binom{n}{4}$.
+4. With [[binomial coefficients|0GBZM0MT0F]] the count is
+   $$r(n) = 1 + \binom{n}{2} + \binom{n}{4},$$
+   which gives $1, 2, 4, 8, 16, 31$ for $n = 1, \ldots, 6$.
 
 ## Remarks
 
-The formula agrees with $2^{n-1}$ for $n \le 5$ because $1 + \binom{n}{2} + \binom{n}{4}$ is the sum $\binom{n-1}{0} + \binom{n-1}{1} + \cdots + \binom{n-1}{4}$, which equals $2^{n-1}$ exactly when $n - 1 \le 4$.
-For $n = 6$ it misses the term $\binom{5}{5} = 1$, which gives $32 - 1 = 31$.
+Why does the formula agree with $2^{n-1}$ for five cases?
+By Pascal's rule, $1 + \binom{n}{2} + \binom{n}{4} = \binom{n-1}{0} + \binom{n-1}{1} + \cdots + \binom{n-1}{4}$.
+This is the whole row $n - 1$ of Pascal's triangle, with sum $2^{n-1}$, exactly when $n - 1 \le 4$.
+For $n = 6$ the term $\binom{5}{5} = 1$ is missing, which gives $32 - 1 = 31$.
 For large $n$ the count grows like $\frac{n^4}{24}$, far slower than $2^{n-1}$.
 
-If the six points are the vertices of a regular hexagon, the three long diagonals meet at the centre, and the count drops to $30$.
-So the condition "no three chords meet in one point" matters for the formula.
+The condition on the chords matters too.
+If the six points are the vertices of a regular hexagon, the three long diagonals meet at the center, and the count drops to $30$.
+Other patterns of the same kind are in [[patterns that eventually fail|A2KSJSQSF6]].
 
 ## Explanations
 
 ### L1 human
 
 Put points on a circle and join every pair with a straight line.
-With $1$, $2$, $3$, $4$, $5$ points, the circle is cut into $1$, $2$, $4$, $8$, $16$ pieces.
+With $1$, $2$, $3$, $4$ and $5$ points, the circle is cut into $1$, $2$, $4$, $8$ and $16$ pieces.
 It looks as if the number doubles each time.
 With $6$ points it is $31$, not $32$.
 So a pattern that holds five times can still be wrong, and only a proof makes it safe.
@@ -62,11 +68,11 @@ So a pattern that holds five times can still be wrong, and only a proof makes it
 ### L2 human
 
 We check the identity of the remarks for $n = 5$ and $n = 6$.
+For $n = 5$, both forms give $16$:
+$$1 + \binom{5}{2} + \binom{5}{4} = 1 + 10 + 5 = 16, \qquad 1 + 4 + 6 + 4 + 1 = 16.$$
+For $n = 6$, both forms give $31$:
+$$1 + \binom{6}{2} + \binom{6}{4} = 1 + 15 + 15 = 31, \qquad 1 + 5 + 10 + 10 + 5 = 31.$$
+The full row $5$ of Pascal's triangle sums to $32$, one more.
 
-1. For $n = 5$: $1 + \binom{5}{2} + \binom{5}{4} = 1 + 10 + 5 = 16$, and $\binom{4}{0} + \cdots + \binom{4}{4} = 1 + 4 + 6 + 4 + 1 = 16$.
-2. For $n = 6$: $1 + \binom{6}{2} + \binom{6}{4} = 1 + 15 + 15 = 31$, and $\binom{5}{0} + \cdots + \binom{5}{4} = 1 + 5 + 10 + 10 + 5 = 31$.
-3. The full sum of row $5$ of Pascal's triangle is $32$, one more.
-
-The typical use of the example: as a warning to test a pattern on a new case, and to look for a reason before believing it.
-
-A trap: drawing six points evenly on a circle produces three chords through the centre and the count $30$, which is a third value and hides the true pattern even more.
+The typical use of the example is as a warning: test a pattern on a new case, and look for a reason before you believe it.
+Watch out when you draw the case $n = 6$: points spaced evenly on the circle put three chords through the center and give $30$, a third value that hides the true pattern even more.

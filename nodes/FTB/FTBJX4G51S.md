@@ -15,103 +15,130 @@ sources:
 
 ## Summary
 
-Specialization, as a heuristic, is the passage from a given problem about a whole class of objects to the same problem for a smaller class or a single object of that class.
-The solver tries small cases ($n = 1, 2, 3$), extreme cases (a degenerate triangle, a radius $0$, a parameter tending to infinity) and special values ($x = 0$, $x = 1$, a symmetric position).
-The special cases are used in three ways: to understand the problem, to find a pattern or a method that may hold in general, and to refute a general claim by a [[counterexample|0ED72CTBNP]].
-A special case can refute a universal statement, but it cannot prove one.
-Specialization matters because special cases are the easiest source of data and of ideas, and they are the fastest test of a conjecture.
+Specialization means: when a question is about every case, try a few particular cases first.
+Small cases, extreme cases and special values are easy to compute, and they show what the answer looks like and often why it is true.
+
+Here is a question where this works at once.
+What is the sum of the first $n$ odd numbers,
+$$1 + 3 + 5 + \cdots + (2n - 1)?$$
+Staring at the general sum gives nothing to hold on to, since we do not yet know what kind of formula to look for.
+So we compute the first few cases:
+$$1 = 1, \quad 1 + 3 = 4, \quad 1 + 3 + 5 = 9, \quad 1 + 3 + 5 + 7 = 16, \quad 1 + 3 + 5 + 7 + 9 = 25.$$
+These are the squares $1^2, 2^2, 3^2, 4^2, 5^2$, so we guess that the sum is $n^2$.
+
+The small cases also suggest the reason.
+Draw $4 = 2^2$ as a $2 \times 2$ square of dots, and add $5$ dots along the right side and the top: they make a $3 \times 3$ square.
+In general an $(n - 1) \times (n - 1)$ square plus an L-shaped border of $2n - 1$ dots is an $n \times n$ square, because
+$$(n - 1)^2 + (2n - 1) = n^2 - 2n + 1 + 2n - 1 = n^2.$$
+This identity is the step of a proof by [[mathematical induction|0ASJVEFA9J]], so the sum is $n^2$ for every $n \ge 1$.
+Check: $n = 10$ gives $1 + 3 + \cdots + 19 = 100$.
+
+In general, specialization passes from a problem about a whole class of objects to the same problem for a smaller class or a single member.
+Special cases serve three purposes: to understand the problem, to find a pattern or a method, and to refute a general claim by a [[counterexample|0ED72CTBNP]].
+One failing case refutes a universal claim, but no number of agreeing cases proves one.
 
 ## Motivation
 
-A general problem has many parameters, and the solver cannot hold them all in mind at once.
-A special case removes some parameters and leaves a problem that can be computed by hand.
-The computed values show what the answer looks like, and the computation often shows why.
-In the other direction, a general claim must hold in each special case, so one failing case ends it.
-Both uses are cheap, and so a special case is often the first thing that an experienced solver tries.
+A general problem has many parameters, and nobody can keep them all in mind at once.
+A special case removes some of them and leaves a problem that you can do by hand.
+The numbers show what the answer looks like, and the work on one case often shows a method that does not depend on the case.
+
+The other direction is just as useful.
+A general claim must hold in each special case, so a single failing case ends it.
+Both uses are cheap, which is why experienced solvers try a special case before almost anything else.
+Specialization is also the usual first move before a proof by induction, and it is the daily practice of [[experimental mathematics|BPEPTN0TT9]].
+
+## Notation
+
+Pólya's term is "specialization", and he listed it in the heuristic dictionary of *How to Solve It* with "generalization" and "analogy" beside it.
+Mason, Burton and Stacey call the same move "specializing" and pair it with "generalizing".
+A case that is simple to compute but still shows the structure is often called a generic example, and a case at the edge of the allowed range is an extreme case; [[examples in mathematical practice|F3NNR77WKP]] discusses both.
+Do not confuse the heuristic with [[reduction to a special case|DX2H7AD66G]], a proof method that proves the general statement from a special case by a transformation.
 
 ## Remarks
 
-### The steps
+### Small cases, extreme cases, special values
 
-1. Choose a special case: a small value of the parameter, an extreme position, or a value that makes the problem symmetric.
-2. Solve the special case completely, with every number.
-3. Repeat for several cases, in an order that makes a pattern visible, such as $n = 1, 2, 3, 4, 5$.
-4. State a conjecture that fits the cases, and test it on a new case that was not used to form it.
-5. Look in the solutions of the special cases for an argument that does not depend on the special values. That argument is the plan for a proof.
+Small cases are the values $n = 0, 1, 2, 3, \ldots$ of a parameter, taken in order so that a pattern can show.
+In [[regions cut out by lines in the plane|Z5GX4ECAEA]] the counts $1, 2, 4, 7, 11$ give the pattern, and a close look at the fourth line gives the reason.
 
-### When it applies
+An extreme case puts a parameter at the edge of its range.
+In [[the napkin ring problem by an extreme case|87VKHCKSDP]] the radius of the ball is not given, so the answer cannot depend on it, and the smallest ball gives the volume at once.
 
-Specialization applies whenever a problem has a parameter: a natural number $n$, a real variable, a shape, or a dimension.
-It is useful at the start, to understand the problem, and at the end, to check the result.
-It is the standard first move for a statement about all $n$, before a proof by [[mathematical induction|0ASJVEFA9J]].
+Special values make an identity collapse.
+Put $x = 1$ and then $x = -1$ in $(1 + x)^n = \sum_{k=0}^{n} \binom{n}{k} x^k$:
+$$\sum_{k=0}^{n} \binom{n}{k} = 2^n, \qquad \sum_{k=0}^{n} (-1)^k \binom{n}{k} = 0 \quad (n \ge 1).$$
 
-### Examples
+### Special cases as tests
 
-1. [[Regions cut out by lines in the plane, found from small cases|Z5GX4ECAEA]]: the counts $1, 2, 4, 7, 11$ show the pattern, and the case of the fourth line shows the reason.
-2. [[The napkin ring problem by an extreme case|87VKHCKSDP]]: if the answer does not depend on the radius, the extreme case of a hole of width $0$ gives it at once.
-3. Special values in an identity. Putting $x = 1$ in $(1 + x)^n = \sum_{k=0}^{n} \binom{n}{k} x^k$ gives $\sum_{k} \binom{n}{k} = 2^n$, and $x = -1$ gives $\sum_{k} (-1)^k \binom{n}{k} = 0$ for $n \ge 1$.
-4. A special case that refutes. The claim "$(a + b)^2 = a^2 + b^2$ for all real $a, b$" fails at $a = b = 1$, where the two sides are $4$ and $2$.
-5. A check by an extreme case. A formula for the area of a trapezium with parallel sides $a$ and $b$ and height $h$ must give the area of a triangle when $b = 0$; the formula $\frac{(a + b)h}{2}$ gives $\frac{ah}{2}$, as it should.
+A special case is also the fastest check of a formula you already have.
+A formula for the area of a trapezoid with parallel sides $a$ and $b$ and height $h$ must give a triangle when $b = 0$, and $\frac{(a + b)h}{2}$ gives $\frac{ah}{2}$, as it should.
+A special case also refutes.
+The claim "$(a + b)^2 = a^2 + b^2$ for all real $a, b$" fails at $a = b = 1$, where the sides are $4$ and $2$.
 
-### Non-examples
+### When specialization misleads
 
-1. [[Points on a circle: the pattern 1, 2, 4, 8, 16 breaks|WJ6XJD8V71]]: five special cases suggest the powers of $2$, and the sixth case gives $31$.
-2. A special case used as a proof. Checking that $n^2 - n + 41$ is prime for $n = 1, 2, 3$ does not show that it is prime for all $n$; it fails at $n = 41$, where it is $41^2$.
-3. An unrepresentative special case. Checking a claim about all triangles on an equilateral triangle tests only the most symmetric case, and many false claims hold there.
+The danger is to believe a pattern because it held in the cases you tried.
+In [[points on a circle, the pattern 1, 2, 4, 8, 16 breaks|WJ6XJD8V71]], five cases suggest powers of $2$, and the sixth case gives $31$.
+The polynomial $n^2 - n + 41$ is prime for $n = 1, 2, \ldots, 40$ and fails at $n = 41$, where it equals $41^2$.
+More such cases are collected in [[patterns that eventually fail|A2KSJSQSF6]], and the [[strong law of small numbers|8AFXPXCE3N]] names the danger.
 
-### Basic properties
+A case can also be too special.
+A claim about all triangles that you check only on an equilateral triangle has passed the easiest test, since many false claims hold in the most symmetric case.
+A good special case is simple enough to compute and general enough to keep the difficulty.
 
-1. If a universal statement fails in one special case, it is false. This is disproof by [[counterexample|0ED72CTBNP]].
-2. If a statement holds in many special cases, it may still be false. Special cases give evidence, not proof.
-3. A special case is most useful when it is simple enough to compute and general enough to show the structure. The page [[examples in mathematical practice|F3NNR77WKP]] calls such cases generic examples, and the cases at the edge extreme examples.
-4. An extreme case can give the answer when the problem is known to have an answer that does not depend on the parameter, as in example 2. Without that knowledge, the extreme case is only a guess.
+### Watch out
 
-### Related methods
-
-[[Reduction to a special case|DX2H7AD66G]] is a proof method: it proves the general statement from a special case by a transformation that keeps the truth of the statement.
-Specialization as a heuristic needs no such transformation.
-[[Generalization|8NJ0VN9Z97]] goes the other way, and the two are often used in turn.
-[[Symmetry arguments|H840D9TM2X]] often choose the special case: the symmetric position is the first case to try.
+Three errors are common, and each has a fix.
+The first is to stop at the pattern and skip the proof; the fix is to look in the special cases for a reason, as the L-shaped border did for the odd numbers.
+The second is to test a conjecture only on the cases used to form it; the fix is to test a new case, such as $n = 6$ for the circle.
+The third is to read an extreme case as a proof; it gives the answer only when you already know that the answer does not depend on the parameter.
 
 ### History
 
-Pólya gave specialization an entry of its own in the heuristic dictionary of *How to Solve It* (1945), with generalization and analogy as its companions.
-In *Mathematics and Plausible Reasoning* (1954) he treated the testing of conjectures by special cases as a main form of plausible reasoning.
-Mason, Burton and Stacey's *Thinking Mathematically* (1982) put "specializing" and "generalizing" at the centre of their account of mathematical thinking.
+Pólya gave specialization its own entry in the heuristic dictionary of *How to Solve It* (1945).
+In *Mathematics and Plausible Reasoning* (1954) he treated the testing of conjectures on special cases as a main pattern of [[plausible reasoning|8DHD3H1CJ9]].
+Mason, Burton and Stacey's *Thinking Mathematically* (1982) put specializing and generalizing at the center of their account of mathematical thinking.
 
-### Common errors
+### Try it
 
-1. To stop after the pattern and skip the proof, as in non-example 1.
-2. To test only the cases that were used to form the conjecture. A test needs a new case.
-3. To choose special cases that are too special, so that they hide the difficulty, as in non-example 3.
+First, is the sum of three consecutive integers always divisible by $3$?
+Try $1 + 2 + 3 = 6$ and $5 + 6 + 7 = 18$; the second case shows the reason, since the sum is three times the middle number, $(m - 1) + m + (m + 1) = 3m$.
+
+Second, test the claim "$2^n > n^2$ for every $n \ge 1$".
+The case $n = 2$ gives $4 > 4$, which is false, and $n = 3$ gives $8 > 9$, also false, so the claim fails; it holds for $n = 1$ and for every $n \ge 5$.
 
 ## Explanations
 
 ### L1 human
 
 When a question is about every number, try it for $1$, $2$ and $3$ first.
-For example: is the sum of three numbers in a row always divisible by $3$?
-Try $1 + 2 + 3 = 6$, $2 + 3 + 4 = 9$, $5 + 6 + 7 = 18$: yes each time.
-The small cases also show why: the sum is three times the middle number, as in $5 + 6 + 7 = 3 \cdot 6$.
-And if a claim fails for one small case, it is false, and we can stop.
+Add up odd numbers: $1$, then $1 + 3 = 4$, then $1 + 3 + 5 = 9$.
+The answers $1$, $4$, $9$ are square numbers, so the guess is that the sum is always a square.
+A picture shows why: a square of dots grows into the next square when you add an L-shaped border, and the border always has an odd number of dots.
+And if a guess fails for even one small case, it is false, and you can stop.
 
 ### L2 human
 
 We find and prove the number of diagonals of a convex polygon with $n$ vertices.
+Specialize first: a triangle has $0$ diagonals, a quadrilateral $2$, a pentagon $5$ and a hexagon $9$.
+The differences $2, 3, 4$ grow by $1$, so the count looks quadratic in $n$, but many quadratics could fit four values.
 
-1. Specialize: a triangle has $0$ diagonals, a quadrilateral $2$, a pentagon $5$, a hexagon $9$.
-2. Look at the differences: $2, 3, 4$. They grow by $1$, so the count is quadratic in $n$.
-3. Look at a case for the reason. In a hexagon, each vertex has a diagonal to each vertex except itself and its $2$ neighbours, so to $6 - 3 = 3$ vertices.
-4. Generalize the reason: $n$ vertices, each with $n - 3$ diagonals, and each diagonal counted from both ends. So the count is $\frac{n(n - 3)}{2}$.
-5. Test on the cases of step 1: $\frac{3 \cdot 0}{2} = 0$, $\frac{4 \cdot 1}{2} = 2$, $\frac{5 \cdot 2}{2} = 5$, $\frac{6 \cdot 3}{2} = 9$.
+So look at one case for the reason.
+In a hexagon, each vertex has a diagonal to every vertex except itself and its $2$ neighbors, that is, to $6 - 3 = 3$ vertices.
+The same holds for $n$ vertices, and each diagonal is counted from both ends, so the count is
+$$\frac{n(n - 3)}{2}.$$
+Check on the cases: $\frac{3 \cdot 0}{2} = 0$, $\frac{4 \cdot 1}{2} = 2$, $\frac{5 \cdot 2}{2} = 5$ and $\frac{6 \cdot 3}{2} = 9$.
 
-The typical use: the numbers give the form of the answer, and one special case, looked at closely, gives the argument.
-
-A trap: step 2 alone could also fit other formulas; step 4 is the proof, and it uses no special value.
+This is the typical use: the numbers give the form of the answer, and one special case, read closely, gives an argument with no special values in it.
+Watch out: the differences alone are not a proof, and the counting argument is.
 
 ### L3 human
 
-Specialization is the heuristic side of a basic logical fact: a universal statement implies each of its instances, so the instances are necessary conditions for it.
-In research, the special cases of a conjecture are often the first theorems: a conjecture for all dimensions is proved first in low dimension, and a conjecture for all primes first for small primes.
-The choice of a good special case is a skill of its own; a case that keeps the difficulty but removes the noise is sometimes called a leading special case.
-Systematic computation of special cases is the basis of [[experimental mathematics|DME0TPC348]], where the dangers of small cases, such as the [[pattern of points on a circle|WJ6XJD8V71]], are studied as the strong law of small numbers.
+Specialization is the heuristic side of a logical fact: a universal statement implies each of its instances, so the instances are necessary conditions for it.
+In research, the special cases of a conjecture are often the first theorems, such as a conjecture for all dimensions proved first in low dimension.
+Choosing a case that keeps the difficulty and removes the noise is a skill of its own.
+
+[[Generalization|8NJ0VN9Z97]] goes the other way, and solvers often use the two in turn: specialize to find a pattern, generalize to see the structure.
+[[Symmetry arguments|H840D9TM2X]] often choose the special case, since the symmetric position is the first one to try.
+The systematic computation of special cases is the subject of [[plausible reasoning and experimental mathematics|DME0TPC348]].
