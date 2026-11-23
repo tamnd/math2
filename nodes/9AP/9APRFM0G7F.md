@@ -36,7 +36,6 @@ At step $n$ of a battle Hercules cuts a head $\sigma$ with parent $\tau$, and th
    Take a copy of the subtree at $\varepsilon$, give its root the label $u - 1$ and give the copy of $\sigma$ the label $0$, and put this copy in the place of $\sigma$.
 4. Label $\omega$: give $\sigma$ the label $n + 1$.
 
-In rule 3 the node $\varepsilon$ exists, because the child of the root on the path has the label $0 < u$.
 Let $R_x$ be the path of $x$ nodes with labels $+, 0, \omega, \dots, \omega$.
 Let $\mathrm{BH}(x)$ be the number of steps of the battle on $R_x$ that always cuts the rightmost head.
 
@@ -68,7 +67,7 @@ Each of the four heads with label $1$ will be replaced by a copy of a larger tre
 The theory in part 2 is $(\Pi^1_1\text{-}\mathsf{CA}) + \mathsf{BI}$.
 It is much stronger than [[Peano arithmetic|MPSCREYC3M]] and than $\mathsf{ATR}_0$, and still it does not prove statement 1, while $\mathsf{ZFC}$ does.
 
-The children of the root have the label $0$, and this makes the node $\varepsilon$ of rule 3 exist for every head.
+The children of the root have the label $0$, and this makes the node $\varepsilon$ of rule 3 exist for every head, because the child of the root on the path has the label $0 < u$.
 Without it, a head with label $1$ just above the root would have no node to copy.
 
 Rule 4 replaces $\omega$ by a finite label.
