@@ -16,61 +16,101 @@ sources:
 
 ## Summary
 
-The strong law of small numbers is Richard Guy's name for the remark "There aren't enough small numbers to meet the many demands made of them."
-It means that the first few terms of many different sequences agree by coincidence, because there are many sequences and few small numbers.
-So a pattern seen in small cases is weak evidence for a general rule, and it often fails later.
-Guy added a second law: "When two numbers look equal, it ain't necessarily so."
-The law is a warning, not a theorem, and it guards the step from small cases to a [[conjecture|WMEMMHZ3BH]].
+The strong law of small numbers is Richard Guy's warning that the first few cases of a pattern prove very little.
+In his words, there are not enough small numbers to meet the many demands made of them, so different rules often agree on their first values by coincidence.
+
+Here is the case to check with a pencil.
+Put $n$ points on a circle, join every pair by a chord, and count the regions inside the circle, with no three chords through one point.
+For $n = 1, 2, 3, 4, 5$ you get
+$$1, \ 2, \ 4, \ 8, \ 16,$$
+and the doubling rule predicts $32$ for $n = 6$.
+The count for $n = 6$ is $31$.
+The true formula is
+$$\binom{n}{4} + \binom{n}{2} + 1,$$
+which gives $15 + 15 + 1 = 31$ at $n = 6$ and agrees with $2^{n-1}$ only for $n \le 5$.
+
+So a pattern seen in small cases is weak evidence for a general rule.
+Guy added a second law: when two numbers look equal, they need not be equal.
+Both laws are warnings, not theorems, and they guard the step from small cases to a [[conjecture|WMEMMHZ3BH]].
 
 ## Motivation
 
-A student who sees $1, 2, 4, 8, 16$ guesses that the next term is $32$.
+A student who sees $1, 2, 4, 8, 16$ guesses that $32$ comes next.
 The guess is natural, and it is often right.
-But the numbers $1, 2, 4, 8, 16$ are also the first values of many other rules, and one of them gives $31$ next.
-The law of small numbers names this risk and explains its source.
-It complements [[plausible reasoning|8DHD3H1CJ9]]: agreement on small cases is a weak consequence, because it would be likely even if the conjecture were false.
+But $1, 2, 4, 8, 16$ also starts many other rules, and the circle gives one of them.
+The law names this risk and explains its source: there are many simple rules and few small numbers.
+
+In the language of [[plausible reasoning|8DHD3H1CJ9]], agreement on small cases is a consequence that would be likely even if the conjecture were false, so it adds little credibility.
+The law returns in [[patterns that eventually fail|A2KSJSQSF6]], in [[numerical evidence for conjectures|JFD3QWCX8Z]] at a much larger scale, and in [[forming conjectures|R2T42N5XGK]], where it tells you to test cases of a new kind.
 
 ## Notation
 
 There is no special notation.
-The formal fact behind the law is that a finite list never determines its continuation.
-For any values $a_1, \ldots, a_k$ and any $b$, there is a polynomial $p$ of degree at most $k$ with $p(i) = a_i$ for $i \leq k$ and $p(k+1) = b$, by [[polynomial interpolation|SS1YMS2NPC]].
+The exact fact behind the law is that a finite list never determines its continuation.
+For any values $a_1, \ldots, a_k$ and any number $b$, [[polynomial interpolation|SS1YMS2NPC]] gives a polynomial $p$ of degree at most $k$ with
+$$p(1) = a_1, \ \ldots, \ p(k) = a_k, \quad p(k+1) = b.$$
+[[A finite list does not determine its continuation|G9FEX51ASB]] works this out for $1, 2, 4, 8, 16$.
 
 ## Remarks
 
-### Examples
+### Small cases that mislead
 
-1. [[Patterns that eventually fail|A2KSJSQSF6]]: the circle regions $1, 2, 4, 8, 16, 31$, the polynomial $n^2 + n + 41$, the Fermat numbers and the Borwein integrals.
-2. [[The primes 31, 331, 3331 and their end|1HBCH5V3AN]]: seven numbers of the form $33\ldots31$ are prime, and the eighth is $17 \cdot 19607843$.
-3. [[Fermat's conjecture on Fermat numbers|VDZY463EKP]]: $2^{2^n} + 1$ is prime for $n = 0, 1, 2, 3, 4$, and Euler factored the next one.
-4. The second law: $e^{\pi\sqrt{163}}$ looks like an integer to $12$ decimal places, and it is not one; see [[Ramanujan's constant is not an integer|7ZM5VCCB7H]].
+The circle regions, the polynomial $n^2 + n + 41$, the Fermat numbers and the Borwein integrals are collected in [[patterns that eventually fail|A2KSJSQSF6]].
+[[The primes 31, 331, 3331 and their end|1HBCH5V3AN]] adds a case from decimal digits.
+The numbers $31, 331, \ldots, 33333331$ are seven primes in a row, and the eighth is
+$$333333331 = 17 \cdot 19607843.$$
+In [[Fermat's conjecture on Fermat numbers|VDZY463EKP]], $2^{2^n} + 1$ is prime for $n = 0$ to $4$, and Euler factored the next one in 1732:
+$$2^{32} + 1 = 4294967297 = 641 \cdot 6700417.$$
 
-### Non-examples
+### The second law
 
-1. [[Sums of the first odd numbers|9WSEMZ8BWN]]: the pattern $1 + 3 + \cdots + (2n-1) = n^2$ seen in small cases is true for all $n$. The small cases did not mislead, so the law does not apply.
-2. Two polynomials of degree at most $d$ that agree at $d + 1$ points are equal. Here small cases decide the question by a theorem, and no coincidence is possible.
+The second law is about numbers that agree to many digits.
+The number $e^{\pi \sqrt{163}}$ is $262537412640768743.99999999999925\ldots$, within $10^{-12}$ of an integer and not equal to it; see [[Ramanujan's constant is not an integer|7ZM5VCCB7H]].
+The Borwein integrals fall below $\pi/2$ only in the eleventh decimal place.
+Close agreement has a cause in both cases, but the cause is not equality.
 
-### Basic properties
+### When small cases do decide
 
-1. A finite list of values fits infinitely many rules; interpolation gives one rule for each choice of the next value.
-2. Small numbers have many properties at once. For example, $31 = 2^5 - 1 = 1 + 2 + 4 + 8 + 16 = 1 + 5 + 25$, and $31$ is prime.
-3. The law applies with more force when the sequence grows slowly, because then the first terms are small and coincidences are common.
-4. The law does not apply when a theorem says that the checked cases determine the answer.
-5. Agreement in small cases is evidence of low weight in the sense of [[plausible reasoning|8DHD3H1CJ9]], because it would be probable without the conjecture.
+[[Sums of the first odd numbers|9WSEMZ8BWN]] is a case where the law has nothing to warn about.
+The sums $1, 4, 9, 16, 25$ suggest $1 + 3 + \cdots + (2n - 1) = n^2$, and induction proves it for every $n$.
+Small cases can also decide a question by a theorem.
+Two polynomials of degree at most $d$ that agree at $d + 1$ points are equal, so checking $d + 1$ values is a proof, not evidence.
+
+### The rules you can use
+
+A finite list fits infinitely many rules, one for each choice of the next value.
+Small numbers have many properties at once; for example
+$$31 = 2^5 - 1 = 1 + 2 + 4 + 8 + 16 = 1 + 5 + 25,$$
+and $31$ is prime.
+The law has more force when a sequence grows slowly, because then the first terms are small and coincidences are common.
+It does not apply when a theorem says that the checked cases determine the answer.
+
+### Watch out
+
+A pattern that holds in many cases is not a proof, and a pattern that holds in five cases is barely evidence.
+Predict the next term only with a reason, a mechanism or a proof.
+
+The opposite error is to read the law as a proof that a pattern fails.
+Many small patterns are true, as the odd numbers show; the law only says that small cases carry little weight.
+
+A third error is to check more small cases of the same kind.
+They share the same coincidences, so they add little.
 
 ### History
 
-Martin Gardner quoted the law from an unpublished paper of Guy in his Scientific American column of December 1980.
-Guy published "The strong law of small numbers" in the American Mathematical Monthly in 1988, with many examples of patterns that hold and patterns that fail.
-The Mathematical Association of America gave the paper its Lester Ford Award in 1989.
-Guy published "The second strong law of small numbers" in Mathematics Magazine in 1990.
-Guy used [[Moser's circle problem|M225KZAV4F]] as one of his examples.
+Martin Gardner quoted the law from a paper of Guy in his *Scientific American* column of December 1980.
+Guy published "The strong law of small numbers" in the *American Mathematical Monthly* in 1988, with many patterns that hold and many that fail.
+The paper received the Lester R. Ford Award of the Mathematical Association of America.
+Guy published "The second strong law of small numbers" in *Mathematics Magazine* in 1990.
+[[Moser's circle problem|M225KZAV4F]] is one of his examples.
 
-### Common errors
+### Try it
 
-1. Predicting the next term from the first few without a reason. The prediction is a conjecture, and it needs a proof or at least a mechanism.
-2. Treating the law as a proof that a pattern fails. Many small patterns are true; the law only says that small cases carry little weight.
-3. Checking more small cases of the same kind. They share the same coincidences, so they add little.
+Find a rule that gives $1, 2, 4$ and then $7$.
+Add $1$, then $2$, then $3$: the rule $a_n = 1 + n(n-1)/2$ gives $1, 2, 4, 7, 11$.
+
+How many regions do $7$ points give?
+The formula gives $\binom{7}{4} + \binom{7}{2} + 1 = 35 + 21 + 1 = 57$, against $64$ for doubling.
 
 ## Explanations
 
@@ -78,21 +118,23 @@ Guy used [[Moser's circle problem|M225KZAV4F]] as one of his examples.
 
 There are only a few small numbers, and many rules want to use them.
 So different rules often give the same first few answers.
-For example, $1, 2, 4$ could continue as $8$ (doubling) or as $7$ (adding $1$, then $2$, then $3$).
-When a pattern works for the first few cases, it might be a real rule or just a coincidence.
+For example, $1, 2, 4$ could go on as $8$ (doubling) or as $7$ (add $1$, then $2$, then $3$).
+When a pattern works for the first few cases, it might be a real rule or a coincidence.
 Only a proof can tell.
 
 ### L2 human
 
 We find two rules that agree on $1, 2, 4, 8, 16$ and differ at the next term.
-
-1. The rule $a_n = 2^{n-1}$ gives $1, 2, 4, 8, 16, 32$.
-2. The rule $b_n = \binom{n-1}{0} + \binom{n-1}{1} + \binom{n-1}{2} + \binom{n-1}{3} + \binom{n-1}{4}$ gives $1, 2, 4, 8, 16$ for $n = 1, \ldots, 5$, because then all subsets of an $(n-1)$-element set have at most $4$ elements.
-3. For $n = 6$: $b_6 = 1 + 5 + 10 + 10 + 5 = 31$, because the term $\binom55 = 1$ is missing.
-4. The rule $b_n$ counts the regions of a disc cut by the chords between $n$ points on its circle, in general position.
+The first rule is $a_n = 2^{n-1}$, which gives $1, 2, 4, 8, 16, 32$.
+The second rule is
+$$b_n = \binom{n-1}{0} + \binom{n-1}{1} + \binom{n-1}{2} + \binom{n-1}{3} + \binom{n-1}{4}.$$
+For $n \le 5$ this sum counts all subsets of a set with $n - 1 \le 4$ elements, so $b_n = 2^{n-1}$.
+For $n = 6$ the term $\binom{5}{5} = 1$ is missing, so
+$$b_6 = 1 + 5 + 10 + 10 + 5 = 31.$$
+The rule $b_n$ equals $\binom{n}{4} + \binom{n}{2} + 1$, so it counts the circle regions.
 
 The typical use: before trusting a pattern, look for a second simple rule that fits the same data.
-A trap: the more natural rule $2^{n-1}$ is not the true one for the regions.
+Watch out: here the less obvious rule is the true one.
 
 ### L3 human
 
@@ -100,4 +142,4 @@ The law has a counting form.
 The number of rules that can be written with at most $\ell$ symbols grows exponentially in $\ell$, while the possible values of the first few terms are few.
 So many short rules must share their first terms, and a match on the first terms is a weak test of a short rule.
 In the language of [[numerical evidence|JFD3QWCX8Z]], small cases lie far below the scale at which most rules differ.
-The second law has the same source: there are many short expressions, and some pairs of them agree to many digits by accident or for a reason that is not equality, as in [[Ramanujan's constant|7ZM5VCCB7H]].
+The second law has the same source: there are many short expressions, and some pairs agree to many digits by accident or for a reason that is not equality, as with [[Ramanujan's constant|7ZM5VCCB7H]].
