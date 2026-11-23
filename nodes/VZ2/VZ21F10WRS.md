@@ -27,16 +27,15 @@ same_as:
 
 ## Statement
 
-When an existential sentence is valid, finitely many explicit candidates already witness it, and a truth table can check that one of them works.
+If an existential sentence is valid, finitely many explicit candidates witness it, and a truth table checks this.
 
 We work in first-order logic without equality, over a [[signature|WDVVEYD6AT]] $\sigma$ that has at least one constant symbol.
-As in the proof system $H$ of the [[soundness theorem|AVD7T7J063]], the connectives $\neg$, $\to$ and the quantifier $\forall$ are primitive, and $\lor$, $\land$, $\exists$ are abbreviations.
-A closed [[term|6D3WA7N2W4]] is a term with no variables.
+As in the system $H$ of the [[soundness theorem|AVD7T7J063]], the connectives $\neg$, $\to$ and the quantifier $\forall$ are primitive, and $\lor$, $\land$, $\exists$ are abbreviations.
 A quantifier-free sentence is read propositionally when each atomic sentence $R\,t_1 \cdots t_m$ is treated as a propositional variable.
-Such a sentence is a [[tautology|05006AJ7DZ]] when every truth assignment to the atomic sentences makes it true.
+It is a [[tautology|05006AJ7DZ]] when every truth assignment makes it true.
 
 Let $\psi$ be a quantifier-free formula whose free variables are among $x_1, \dots, x_n$.
-For a tuple $\bar t = (t_1, \dots, t_n)$ of closed terms, write $\psi(\bar t)$ for the [[sentence|DKFGQTRYZE]] $\psi^{x_1 \cdots x_n}_{t_1 \cdots t_n}$, in which each $x_i$ is replaced by $t_i$.
+For a tuple $\bar t = (t_1, \dots, t_n)$ of closed [[terms|6D3WA7N2W4]], that is, terms without variables, write $\psi(\bar t)$ for the [[sentence|DKFGQTRYZE]] $\psi^{x_1 \cdots x_n}_{t_1 \cdots t_n}$, in which each $x_i$ is replaced by $t_i$.
 The sentences $\psi(\bar t)$ are the ground instances of $\psi$.
 
 **Theorem (existential form).**
@@ -48,7 +47,7 @@ A disjunction of this kind is a Herbrand disjunction for $\exists \bar x \, \psi
 Let $\chi$ be a quantifier-free formula whose free variables are among $x_1, \dots, x_n$.
 The sentence $\forall x_1 \cdots \forall x_n \, \chi$ is not [[satisfiable|QN7M1JCGT9]] if and only if there are $k \ge 1$ and tuples $\bar t_1, \dots, \bar t_k$ of closed terms such that $\chi(\bar t_1) \land \cdots \land \chi(\bar t_k)$ is false under every truth assignment.
 
-Two proofs are given: a [[proof by propositional compactness and a Herbrand structure|8PA3V079T0]] and a [[proof by cut elimination|Y8PV0B46A6]].
+Two proofs are given: a [[proof by propositional compactness|8PA3V079T0]] and a [[proof by cut elimination|Y8PV0B46A6]].
 
 ## Remarks
 

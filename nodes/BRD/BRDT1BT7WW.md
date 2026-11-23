@@ -39,7 +39,6 @@ Formulas are built from atomic formulas with $\neg, \land, \lor, \to, \forall, \
 **Polarity.**
 An occurrence of a subformula in $\varphi$ is positive when it lies in the scope of an even number of negations, and negative otherwise, where the left side of each $\to$ counts as one negation.
 A relation symbol $R$ is in $\operatorname{Pos}(\varphi)$ when some atomic subformula $R\,t_1 \cdots t_m$ occurs positively in $\varphi$, and in $\operatorname{Neg}(\varphi)$ when some such atomic subformula occurs negatively.
-A relation symbol can be in both sets, in one, or in neither.
 
 **Theorem.**
 Let $\varphi$ and $\psi$ be $\sigma$-[[sentences|DKFGQTRYZE]] with $\varphi \models \psi$, in the sense of [[logical consequence|1HK0VYWTV7]].
@@ -50,9 +49,8 @@ Then there is a $\sigma$-sentence $\theta$ with the following four properties.
 3. $\operatorname{Neg}(\theta) \subseteq \operatorname{Neg}(\varphi) \cap \operatorname{Neg}(\psi)$.
 4. Every function symbol and every constant symbol of $\theta$ occurs in $\varphi$ and in $\psi$.
 
-The equality symbol may occur in $\theta$ with either sign.
 Such a $\theta$ is a Lyndon interpolant, and by properties 2 to 4 it is also an interpolant in the sense of the [[Craig interpolation theorem|E2CBFNAVZY]].
-The [[proof by Maehara's method|FAG05D5RT9]] proves the case of relational signatures without equality, reduces function symbols to the case with equality, and cites that case.
+The [[proof by Maehara's method|FAG05D5RT9]] proves the relational case without equality and cites the case with equality.
 
 ## Remarks
 
