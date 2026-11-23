@@ -22,6 +22,8 @@ Fix a [[$\Delta_0$ formula|GE43CSZTS9]] $\Omega(x, y)$ that defines the relation
 The axiom $\Omega_1$ is the sentence $\forall x \, \exists y \, \Omega(x, y)$, and the theory is $\mathsf{I}\Delta_0 + \Omega_1$.
 We check that it is a theory of [[bounded arithmetic|A2CFPP8JMN]], and that $\omega_1$ grows exactly as fast as the smash function $x \# y = 2^{\lvert x \rvert \cdot \lvert y \rvert}$.
 
+### Checking the conditions
+
 1. The only induction axioms are those of $\mathsf{I}\Delta_0$, which are for $\Delta_0$ formulas, so the induction is bounded.
 2. For an upper bound, use $x < 2^{\lvert x \rvert}$, which holds for every $x$.
    Raise both sides to the power $\lvert x \rvert$:

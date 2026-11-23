@@ -25,6 +25,8 @@ We use two facts about $S^1_2$.
 First, $S^1_2$ proves every axiom of $T^0_2$, which has induction for sharply bounded formulas, so $S^1_2$ proves the usual laws of a discretely ordered semiring.
 Second, the axioms $\mathsf{BASIC}$ give $x = 2 \lfloor x/2 \rfloor$ or $x = 2 \lfloor x/2 \rfloor + 1$ for every $x$.
 
+### The proof by polynomial induction
+
 1. The formula $A$ has one bounded existential quantifier in front of an open formula, so $A$ is in $\Sigma^b_1$.
 2. Let $B(x)$ be $A(x) \land A(\lfloor x/2 \rfloor)$.
    A conjunction of two $\Sigma^b_1$ formulas is $\Sigma^b_1$ after the prenex operations, so $B$ is in $\Sigma^b_1$.

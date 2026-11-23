@@ -16,26 +16,42 @@ sources:
 
 ## Example
 
-Jeřábek proved that over $S^1_2$ the principle $\mathrm{dWPHP}(\mathsf{PV})$ is equivalent to the existence of Boolean functions with exponential [[circuit complexity|4PGX7PHJCK]].
-We give the easy direction: [[the dual weak pigeonhole principle|HBTQ8ZVSG6]] for one polynomial-time map yields a hard string.
-Here a string $x$ of length $n$ is computed by a [[Boolean circuit|SQXNFGVADX]] $C$ on $\abs n$ inputs if $C(u)$ is the $u$-th bit of $x$ for every $u < n$.
+There are fewer short descriptions than long strings, so some long string has no short description.
+If the descriptions are small circuits, that string is hard for circuits.
+We carry out this argument with the [[dual weak pigeonhole principle|HBTQ8ZVSG6]] in place of counting, which is the easy direction of a theorem of Jeřábek.
 
-1. Let $n = \abs a$ for some $a$, so that $2^n$ exists. Let $m = \floor{n / (2 \abs n)}$.
-2. Fix a coding of circuits on $\abs n$ inputs by binary strings. A circuit of size at most $m$ has a code of at most $2m(\abs m + 1)$ bits.
-3. For $\abs n \ge 2$ we have $m \le n/4$, so $\abs m \le \abs n - 2$. Hence $2m(\abs m + 1) \le (n / \abs n)(\abs n - 1) \le n - 1$.
-4. Pad codes to length $n - 1$ in a fixed decodable way. Let $e$ map a string $c$ of length $n - 1$ to the truth table of the circuit coded by $c$, of length $n$. Invalid codes go to the all-zero string.
-5. The map $e$ is polynomial-time: it evaluates a circuit of size at most $n$ on $n$ inputs.
-6. $\mathrm{dWPHP}(e)$ gives a string $x$ of length $n$ that is not a value of $e$. The domain has $2^{n-1}$ elements and the target $2^n$; over $S^1_2$ the forms of the principle with different ratios are equivalent.
-7. If a circuit of size at most $m$ computed $x$, its code would have at most $n - 1$ bits by step 3, and $e$ would map it to $x$.
-8. So $x$ is not computed by any circuit of size at most $m = \floor{n / (2 \abs n)}$.
+A string $x$ of length $n$ is computed by a [[Boolean circuit|SQXNFGVADX]] $C$ on $\lvert n \rvert$ inputs if $C(u)$ is the $u$-th bit of $x$ for every $u < n$.
+Let $n = \lvert a \rvert$ for some $a$, so that $2^n$ exists, and assume $n \ge 32$.
+Put $k = \lvert n \rvert$, the number of inputs, and $m = \lfloor n / (4k) \rfloor$, the number of gates.
+
+1. A circuit with exactly $m$ gates is a list of $m$ gates, each with a type of $2$ bits and two pointers to earlier gates or inputs.
+   A pointer is a number below $m + k$, so it needs $w = \lvert m + k \rvert$ bits, and the whole code has $m(2 + 2w)$ bits.
+2. The code fits into $n - 1$ bits.
+   Since $m + k \le n$, we have $w \le k$, and since $k \ge 2$, we have $(1 + k)/(2k) \le 3/4$:
+   $$m(2 + 2w) \le \frac{n}{4k}(2 + 2k) = n \cdot \frac{1 + k}{2k} \le \frac{3n}{4} \le n - 1.$$
+3. Every circuit with at most $m$ gates computes the same function as one with exactly $m$ gates, whose last gate is the output.
+   We add dummy gates, for example the conjunction of the output with itself.
+4. Let $e$ map a string $c$ of length $n - 1$ to a string of length $n$.
+   It reads the first $m(2 + 2w)$ bits of $c$ as a circuit, evaluates it at $u = 0, \dots, n - 1$, and outputs the $n$ results; an invalid code gives the all-zero string.
+5. The map $e$ is polynomial-time, since it evaluates a circuit of size $m \le n$ at $n$ inputs.
+6. Apply $\mathrm{dWPHP}(e)$ with $x = 2^{n-1}$ and $y = 1$, so that $\lvert y \rvert = 1$.
+   It gives a number $v < 2^n$, a string of length $n$, that is not $e(c)$ for any $c < 2^{n-1}$.
+7. If a circuit with at most $m$ gates computed $v$, then by steps 2 and 3 its padded code $c$ would satisfy $e(c) = v$.
+   This contradicts step 6, so no circuit with at most $m = \lfloor n/(4\lvert n \rvert) \rfloor$ gates computes $v$.
 
 ## Remarks
 
-The example shows how a counting statement becomes a statement about complexity: the pigeonhole principle for the coding map gives a hard truth table.
-In $\N$ the same conclusion follows from [[Shannon's counting argument|2R30KR3Z5G]]; the point here is that the theory proves it from $\mathrm{dWPHP}(\mathsf{PV})$.
-For $n = 1024$, the circuits have $11$ inputs and $m = 46$, and the codes have at most $92 \cdot 7 = 644 \le 1023$ bits.
-The converse direction, from hard functions to $\mathrm{dWPHP}(\mathsf{PV})$, is harder; it is cited here from Jeřábek's paper of 2004.
-With hard functions available, Jeřábek formalized the Nisan-Wigderson generator, and with it derandomization arguments, in an extension of $S^1_2 + \mathrm{dWPHP}(\mathsf{PV})$.
+The example shows how a counting statement turns into a statement about complexity: the pigeonhole principle for the coding map yields a hard truth table.
+In the standard numbers the same conclusion follows from [[Shannon's counting argument|2R30KR3Z5G]].
+The point is that a weak theory proves it from $\mathrm{dWPHP}(\mathsf{PV})$, without counting the $2^n$ strings.
+
+Check the numbers for $n = 1024$.
+Then $k = 11$ and $m = \lfloor 1024/44 \rfloor = 23$, so $w = \lvert 34 \rvert = 6$, and the code has $23 \cdot 14 = 322 \le 1023$ bits.
+In general $2^{k-1} \le n < 2^k$, so $m = \lfloor n/(4k) \rfloor$ is exponential in the number $k$ of inputs.
+
+The converse direction is harder.
+Jeřábek proved in 2004 that over $S^1_2$, the principle $\mathrm{dWPHP}(\mathsf{PV})$ is equivalent to the existence of Boolean functions with exponential [[circuit complexity|4PGX7PHJCK]].
+If we change the constant $4$ in $m$ to a larger one, the codes get shorter and the argument still works, but the bound on the circuit size gets weaker.
 
 ## Explanations
 
@@ -49,13 +65,14 @@ The axiom of approximate counting is exactly what is needed to make this argumen
 
 ### L2 human
 
-We count codes for $n = 64$.
+We count codes for $n = 256$.
+Then $k = \lvert 256 \rvert = 9$, the circuits have $9$ inputs, and $m = \lfloor 256/36 \rfloor = 7$ gates.
+A pointer is below $m + k = 16$, so $w = \lvert 16 \rvert = 5$, and a code has this many bits:
 
-1. $\abs{64} = 7$, so the circuits have $7$ inputs, and $m = \floor{64/14} = 4$.
-2. A circuit with at most $4$ gates has a code of at most $2 \cdot 4 \cdot (\abs 4 + 1) = 8 \cdot 4 = 32$ bits.
-3. There are at most $2^{33}$ codes of at most $32$ bits, and there are $2^{64}$ strings of length $64$.
-4. So most strings of length $64$ are computed by no circuit with at most $4$ gates.
-5. In the theory, step 6 of the example replaces this count: $\mathrm{dWPHP}(e)$ gives such a string directly.
+$$7 \cdot (2 + 2 \cdot 5) = 84.$$
+
+There are $2^{84}$ codes and $2^{256}$ strings of length $256$, so almost all strings have no circuit with $7$ gates.
+In the theory, step 6 of the example replaces this count, and $\mathrm{dWPHP}(e)$ gives a hard string directly.
 
 The typical use is to obtain hard functions inside a theory, and then pseudorandom generators built from them.
-A trap is to forget that the theory cannot list all strings of length $n$: the count in step 3 is not available, and $\mathrm{dWPHP}$ takes its place.
+Watch out: the theory cannot list all strings of length $n$, so the count of $2^{84}$ against $2^{256}$ is not available in it, and $\mathrm{dWPHP}$ takes its place.

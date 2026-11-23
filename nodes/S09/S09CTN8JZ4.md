@@ -27,7 +27,8 @@ We check that it fails the growth condition of [[bounded arithmetic|A2CFPP8JMN]]
 2. The axiom $\forall x \, \exists y \, \mathrm{Exp}(x, y)$ is a theorem of $\mathsf{EFA}$, and $\mathrm{Exp}$ defines the function $x \mapsto 2^x$ in $\mathbb{N}$.
    So $x \mapsto 2^x$ is a provably total function of $\mathsf{EFA}$.
 3. Let $p$ be a polynomial.
-   Since $\lvert n \rvert \le \log_2 n + 1$ for $n \ge 1$, the value $p(\lvert n \rvert)$ grows like a polynomial in $\log n$, so there is an $n_0$ with $p(\lvert n \rvert) < n$ for all $n \ge n_0$.
+   Since $\lvert n \rvert \le \log_2 n + 1$ for $n \ge 1$, the value $p(\lvert n \rvert)$ grows like a polynomial in $\log n$.
+   So there is an $n_0$ with $p(\lvert n \rvert) < n$ for all $n \ge n_0$.
 4. For such $n$ we get $2^n > 2^{p(\lvert n \rvert)}$.
    For example, with $p(m) = m^2$ and $n = 64$, we have $p(\lvert 64 \rvert) = 7^2 = 49 < 64$.
 5. By steps 2 to 4, $\mathsf{EFA}$ has a provably total function that is not bounded by $2^{p(\lvert x \rvert)}$ for any polynomial $p$, so the growth condition fails.
