@@ -17,96 +17,132 @@ sources:
 
 ## Summary
 
-A mathematical fallacy is an argument that has the form of a [[mathematical proof|0B94TKFQJX]] but contains at least one invalid step, usually hidden so that the argument looks correct.
-The conclusion of a fallacy can be false, as in a "proof" that $1 = 2$, or it can be true.
-A howler is a fallacy whose conclusion is true: a wrong method gives the right answer by chance.
-A fallacy differs from a simple slip, such as an error in arithmetic, because the invalid step looks like a valid rule and many readers accept it.
-Fallacies matter because each one shows a rule with a hidden condition, and a reader who finds the failing step learns exactly where that condition is needed.
+A mathematical fallacy is an argument that looks like a proof but hides one bad step.
+Here is a short one, a false proof that $2 = 1$; try to find the bad step before you read on.
 
-## Motivation
-
-Every rule of algebra and analysis has conditions.
-We may cancel a factor only when it is not zero, take square roots of products only for non-negative numbers, and rearrange a series only when it converges absolutely.
-In daily work these conditions are easy to forget, because they hold in most cases.
-A fallacy is a short argument in which one of these conditions fails at exactly one step.
-When the conclusion is absurd, such as $1 = 2$, the reader knows that some step is wrong, and the search for that step trains the habit of checking each condition.
-
-## Notation
-
-The words in use vary between books.
-
-1. "Fallacy", "false proof", "invalid proof" and "bogus proof" are used for the same idea. Some authors keep "fallacy" for an error that is concealed on purpose.
-2. "Howler" is the term of E. A. Maxwell for a wrong argument with a correct result.
-3. A "paradox" is a different idea: an argument that appears valid, from premises that appear true, to a conclusion that appears false. Some paradoxes contain a fallacy, and some show that a premise is false.
-
-## Remarks
-
-### Examples
-
-1. The [[division by zero fallacies|V7601AG5G3]] prove $1 = 2$ by cancelling the factor $a - b$, which is $0$. The step that fails is "$xc = yc$ implies $x = y$".
-2. The [[fallacies with roots and powers|75ZEQ21AG2]] prove $-1 = 1$ from $\sqrt{a}\sqrt{b} = \sqrt{ab}$, a rule that holds only for $a, b \ge 0$.
-3. The [[fallacies with infinite series and integrals|KDXKVT5K1E]] prove $0 = 1$ by treating a divergent series as a number or by dropping the constant of an indefinite integral.
-4. The [[geometric fallacies|5CJ4KD4D96]] prove that every triangle is isosceles from a figure that puts a point on the wrong side of a line.
-5. The [[proof that all horses are the same colour|AJ2FDJJGTH]] is an induction whose step fails from $1$ to $2$.
-6. The [[cancellation $16/64 = 1/4$|AAS5V2CKBG]] is a howler: striking out the two digits $6$ gives the right value by a wrong rule.
-
-### Non-examples
-
-1. The [[proof that $0.999\ldots = 1$|AY76QGXZZ2]] has a surprising conclusion, but each step is valid. A surprising result is not a fallacy.
-2. A false [[conjecture|WMEMMHZ3BH]] stated without an argument is not a fallacy. A fallacy is a property of an argument, not of a statement.
-3. A computation with a copying error, such as $7 \cdot 8 = 54$, is a slip. It is an error, but it does not use a wrong rule that looks valid.
-
-### Basic properties
-
-1. If each step of an argument is valid and the premises are true, then the conclusion is true. So an argument from true premises to a false conclusion contains at least one invalid step.
-2. A true conclusion does not show that an argument is valid. A howler has a true conclusion and an invalid step.
-3. One fallacy gives every false statement. From $1 = 2$ we subtract $1$ and get $0 = 1$, and then we multiply by any $c$ and get $0 = c$.
-4. The way to find the error is to check each step against the exact rule that it uses, with all the conditions of the rule.
-
-### History
-
-A lost book of false proofs in geometry, the *Pseudaria*, is attributed to Euclid.
-Lewis Carroll knew the false proof that every triangle is isosceles, and it was published in 1899.
-In his book *Fallacies in Mathematics* (1959), Maxwell collected many fallacies, and he used the word "howler" for a wrong method with a right answer.
-
-### Common errors
-
-1. A student checks the conclusion and not the steps. A true conclusion can hide an invalid step, and a howler is accepted.
-2. A student looks for the error in the step that "looks strange", but the invalid step is often an early, routine-looking one, such as a division.
-3. A student accepts a figure as part of the argument. A figure can show a point on the wrong side of a line, and the argument then fails.
-
-## Explanations
-
-### L1 human
-
-A fallacy is a trick argument that seems to show something impossible, such as $1 = 2$.
-Each line looks fine, so the trick is hidden in one line.
-For example, a step may divide both sides by a number that is secretly zero.
-Dividing by zero is not allowed, and that line breaks the argument.
-Finding the bad line is a good exercise, because it shows which rules have hidden conditions.
-
-### L2 human
-
-We find the error in the following argument that $2 = 1$.
-
-1. Let $x = 1$. Then $x^2 = x$, because $1^2 = 1$.
+1. Let $x = 1$, so $x^2 = x$.
 2. Subtract $1$ from both sides: $x^2 - 1 = x - 1$.
 3. Factor the left side: $(x - 1)(x + 1) = x - 1$.
 4. Divide both sides by $x - 1$: $x + 1 = 1$.
 5. Put $x = 1$: $2 = 1$.
 
-Steps 1 to 3 are valid algebra.
-Step 4 divides by $x - 1$, and $x - 1 = 0$ because $x = 1$.
-The rule "$ac = bc$ implies $a = b$" needs $c \neq 0$, so step 4 is invalid.
-The correct conclusion of step 3 is "$x - 1 = 0$ or $x + 1 = 1$", and the first case holds.
+The bad step is step 4, because $x - 1 = 0$ and nobody may divide by $0$.
+The correct move reads step 3 as $(x - 1)\big((x + 1) - 1\big) = 0$, so $x - 1 = 0$ or $x + 1 = 1$, and the first case is true and tells us nothing new.
 
-The typical use of a fallacy in teaching is to make a student state the condition of each rule.
-A trap is to stop at the first step that "feels wrong"; the student must name the rule and the condition that fails.
+In general, a mathematical fallacy is an argument in the form of a [[mathematical proof|0B94TKFQJX]] in which at least one step is invalid, and the invalid step looks like a correct rule.
+The conclusion can be false, as in $2 = 1$, or it can be true.
+A fallacy with a true conclusion is a howler: a wrong method that gives the right answer by luck.
+
+## Motivation
+
+Every rule of algebra and analysis comes with conditions.
+You may cancel a factor only when it is not zero, split a square root of a product only when both factors are non-negative, and reorder a series only when it converges absolutely.
+In daily work these conditions hold so often that we stop seeing them.
+A fallacy is a short argument in which one condition fails at exactly one step.
+When the conclusion is absurd, you know that some step is wrong, and the hunt for that step trains the habit of checking each condition.
+
+The same habit protects real proofs.
+A research argument rarely ends in $1 = 2$, so its errors are harder to see, and the [[famous incorrect proofs|1CV4HTA6C8]] show how long a bad step can survive.
+Logical errors have their own pages: [[circular reasoning|JPHE53PABT]], [[affirming the consequent|J7KFCFQRBT]], [[proof by example|ZX6ERT3SW7]] and the [[quantifier shift fallacy|CRW82NARQV]].
+
+## Notation
+
+Books use several words for the same idea: fallacy, false proof, invalid proof and bogus proof.
+Some authors keep the word "fallacy" for an error that the author hides on purpose, as in a puzzle.
+"Howler" is the word of Edwin Maxwell for a wrong argument with a right result.
+A paradox is a different thing: an argument that seems valid, from premises that seem true, to a conclusion that seems false.
+Some paradoxes contain a fallacy, and others show that a premise was false after all.
+
+## Remarks
+
+### A gallery of hidden conditions
+
+Most classical fallacies break one rule at one place, and the rule is always one with a condition that is easy to forget.
+The [[division by zero fallacies|V7601AG5G3]] cancel a factor $a - b$ that equals $0$, so they use "$xc = yc$ gives $x = y$" without $c \neq 0$.
+The [[fallacies with roots and powers|75ZEQ21AG2]] use $\sqrt{ab} = \sqrt{a}\sqrt{b}$ with $a = b = -1$, although the rule needs $a, b \ge 0$.
+The [[fallacies with infinite series and integrals|KDXKVT5K1E]] compute with the divergent series $1 - 1 + 1 - \cdots$ as if it were a number, or cancel two indefinite integrals that differ by a constant.
+The [[geometric fallacies|5CJ4KD4D96]] read from a wrong figure that a point lies inside a triangle.
+The [[proof that all horses are the same color|AJ2FDJJGTH]] is an induction whose step fails in the passage from $1$ to $2$.
+The [[non-reversible steps in solving equations|641ZP4RA5S]] add false solutions, because squaring both sides is not an equivalence.
+
+### A howler: the right answer by a wrong rule
+
+A student simplifies $\frac{16}{64}$ by crossing out the two digits $6$ and gets $\frac{1}{4}$.
+The answer is right, since $16 \cdot 4 = 64$.
+The method is wrong, because a digit is not a factor: the same move turns $\frac{12}{24}$ into $\frac{1}{4}$, while $\frac{12}{24} = \frac{1}{2}$.
+The [[anomalous cancellation of digits|AAS5V2CKBG]] finds all the two-digit fractions where the trick happens to work.
+So a true conclusion never shows that an argument is valid.
+
+### What a fallacy is not
+
+The proof that [[$0.999\ldots = 1$|AY76QGXZZ2]] surprises many readers, but each of its steps is valid.
+A surprising result is not a fallacy.
+A false [[conjecture|WMEMMHZ3BH]] stated without an argument is not a fallacy either, because a fallacy is a property of an argument, not of a statement.
+A copying error such as $7 \cdot 8 = 54$ is a slip: it is an error, but it does not apply a wrong rule that looks right.
+
+### Why one bad step is enough
+
+If every step of an argument is valid and the premises are true, then the conclusion is true.
+So an argument from true premises to a false conclusion must contain an invalid step, even when you cannot yet see it.
+One false equation also gives every other false equation.
+From $2 = 1$ subtract $1$ to get $1 = 0$, then multiply by any number $c$:
+$$c = 0 \quad \text{for every } c.$$
+This is why a single fallacy in a long computation can make the result say anything.
+
+### Watch out
+
+The bad step is often a dull one early in the argument, not the line that looks strange.
+In the false proof of the Summary, steps 1 to 3 are correct and step 4 looks like routine cancelling.
+To find the error, name the exact rule that each step uses, write its conditions, and check them for the numbers in front of you.
+"It feels wrong" is not a diagnosis; "step 4 divides by $x - 1$, which is $0$" is.
+
+### History
+
+The ancient book *Pseudaria*, a collection of false proofs in geometry, is attributed to Euclid, and it is lost.
+The false proof that every triangle is isosceles was known to Lewis Carroll, and it was published in 1899.
+Maxwell collected many fallacies in his book *Fallacies in Mathematics* (1959), where he used the word "howler" for a wrong method with a right answer.
+
+### Try it
+
+Find the bad step: "$(-2)^2 = 2^2$, so $-2 = 2$."
+The step uses "$x^2 = y^2$ gives $x = y$", which is false; the correct rule gives $x = y$ or $x = -y$, and here $x = -y$.
+
+Find the bad step: "$\frac{1}{2} + \frac{1}{3} = \frac{1 + 1}{2 + 3} = \frac{2}{5}$."
+The rule "add the tops and add the bottoms" is false; the correct sum is $\frac{3}{6} + \frac{2}{6} = \frac{5}{6}$, and $\frac{2}{5}$ is even smaller than $\frac{1}{2}$ alone.
+
+## Explanations
+
+### L1 human
+
+A fallacy is a trick argument that seems to prove something impossible, such as $2 = 1$.
+Each line looks fine, so the trick hides in one line.
+Often that line divides both sides by a number that is secretly $0$.
+For example, $2 \times 0 = 1 \times 0$ is true, because both sides are $0$.
+If you "cancel the $0$", you get $2 = 1$, which is false.
+Finding the bad line is a good game, because it shows you which rules have small print.
+
+### L2 human
+
+Here is a howler to examine: a student writes
+$$\log(1 + 2 + 3) = \log 1 + \log 2 + \log 3.$$
+Both sides are equal, since the left side is $\log 6$ and the right side is $\log(1 \cdot 2 \cdot 3) = \log 6$.
+The rule behind the step, $\log(a + b + c) = \log a + \log b + \log c$, is false: with $a = b = c = 1$ it would give $\log 3 = 0$.
+The step worked only because $1 + 2 + 3 = 1 \cdot 2 \cdot 3$.
+
+How rare is this luck?
+Suppose that positive integers $a \le b \le c$ satisfy $a + b + c = abc$.
+Then $abc \le 3c$, so $ab \le 3$, and the only cases are $(a, b) = (1, 1), (1, 2), (1, 3)$.
+The first gives $2 + c = c$, which is impossible.
+The second gives $3 + c = 2c$, so $c = 3$.
+The third gives $4 + c = 3c$, so $c = 2$, which is smaller than $b = 3$ and breaks the order.
+So $\{1, 2, 3\}$ is the only triple where the wrong rule gives the right answer.
+The problem shows the typical use of a howler: a correct answer is a reason to check the method, not a proof that the method is right.
 
 ### L3 human
 
-From the point of view of logic, a fallacy is an argument in which some inference is not an instance of a valid rule of the system in use.
-In algebra the invalid inferences usually drop a side condition: a nonzero divisor, a non-negative radicand, a principal branch of a multivalued function, or an absolute convergence hypothesis.
-Each such condition marks the place where a structure fails to have a property: $\mathbb{R}$ has no inverse of $0$, the square root is not multiplicative on $\mathbb{C}$, and conditionally convergent series are not commutative.
-Larger errors in research work, such as a hidden use of an unproved lemma, are treated in [[famous incorrect proofs|1CV4HTA6C8]], and errors in logical form, such as [[circular reasoning|JPHE53PABT]], [[affirming the consequent|J7KFCFQRBT]] and the [[quantifier shift fallacy|CRW82NARQV]], are treated in their own pages.
-Proof assistants reject fallacies of all these kinds, because each rule of inference is applied only after its conditions are proved.
+In logic, a fallacy is an argument in which some inference is not an instance of a valid rule of the system in use.
+In algebra and analysis the invalid inferences usually drop a side condition: a nonzero divisor, a non-negative radicand, a branch of a multivalued function, or absolute convergence.
+Each condition marks a place where a structure lacks a property.
+The field $\mathbb{R}$ has no inverse of $0$, no square root on $\mathbb{C}$ is multiplicative, and conditionally convergent series are not commutative.
+Proof assistants reject all such steps, because a rule is applied only after its conditions are proved.
+The larger errors of research work, such as a lemma used outside its range, appear in [[famous incorrect proofs|1CV4HTA6C8]], and the informal names for gaps hidden by words appear in [[proof by intimidation and handwaving|D8A1K052XV]].

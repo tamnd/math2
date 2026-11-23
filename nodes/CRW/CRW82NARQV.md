@@ -19,60 +19,78 @@ sources:
 
 ## Summary
 
-The quantifier shift fallacy is the invalid inference from a statement of the form $\forall x \, \exists y \, P(x, y)$ to the statement $\exists y \, \forall x \, P(x, y)$.
-The premise says that for each $x$ some $y$ works, and the $y$ may depend on $x$; the conclusion says that one $y$ works for all $x$ at once.
-The reverse inference, from $\exists y \, \forall x$ to $\forall x \, \exists y$, is valid, as the page on the [[order of quantifiers|0FYQMKFE77]] proves.
-In analysis the fallacy appears as the confusion of a pointwise statement with a uniform one: [[continuity|0X3WGX95FE]] with [[uniform continuity|0M4JJT780X]], and pointwise convergence with uniform convergence.
-The idea matters because the error is invisible in words such as "we can choose $\delta$", and it caused famous wrong theorems.
+Here is a short proof of a surprising claim; find the step that breaks.
+
+> Claim: some positive real number is smaller than every positive real number.
+> Proof: for every positive real $x$ there is a positive real $y$ with $y < x$, namely $y = \frac{x}{2}$, so some positive real $y$ satisfies $y < x$ for every positive real $x$.
+
+The claim is false, since such a $y$ would satisfy $y < y$ when we take $x = y$.
+The first half of the proof is true, and the error is the word "so".
+The proof turns $\forall x \, \exists y \, (y < x)$ into $\exists y \, \forall x \, (y < x)$, and the $y$ it found depends on $x$.
+
+That move is the quantifier shift fallacy: the invalid inference from $\forall x \, \exists y \, P(x, y)$ to $\exists y \, \forall x \, P(x, y)$.
+The premise lets each $x$ have its own $y$, and the conclusion demands one $y$ for all $x$ at once.
+The correct version keeps the [[order of quantifiers|0FYQMKFE77]]: every positive real has a smaller positive real, and no positive real is smaller than all of them.
+In analysis the same error confuses [[continuity|0X3WGX95FE]] with [[uniform continuity|0M4JJT780X]], and pointwise convergence with uniform convergence.
 
 ## Motivation
 
-A sentence in words often hides the order of its [[quantifiers|EGTZPA6QH3]].
-"Every lock has a key" says that each lock has its own key, and it does not say that one key opens every lock.
-In analysis the same shift hides in the phrase "choose $\delta$".
-A proof that a function is continuous at each point finds a $\delta$ for each point and each $\varepsilon$.
-If a later step uses one $\delta$ for all points, it has shifted a quantifier, and it needs a new argument.
+Words hide the order of [[quantifiers|EGTZPA6QH3]].
+"Every lock has a key" lets each lock have its own key, and it does not promise one key that opens every lock.
+In analysis the shift hides in the phrase "choose $\delta$".
+A proof of continuity finds a $\delta$ for each point and each $\varepsilon$.
+If a later step uses one $\delta$ for all points at once, it has shifted a quantifier, and it owes the reader a new argument.
 
 ## Notation
 
-1. The fallacious inference is written $\forall x \, \exists y \, P(x, y) \;\not\Rightarrow\; \exists y \, \forall x \, P(x, y)$.
-2. To show that $y$ may depend on $x$, authors write $y = y(x)$ or $\delta = \delta(\varepsilon, x)$. A uniform statement is one in which $\delta = \delta(\varepsilon)$ does not depend on $x$.
-3. The informal names are "quantifier shift", "quantifier swap" and "illicit exchange of quantifiers".
+The formal name in logic is the quantifier shift fallacy, also called an illicit exchange of quantifiers, and teachers often say "swapping the quantifiers".
+In symbols, $\forall x \, \exists y \, P(x, y) \not\Rightarrow \exists y \, \forall x \, P(x, y)$.
+To show that $y$ may depend on $x$, authors write $y = y(x)$, or $\delta = \delta(\varepsilon, a)$ for a $\delta$ that depends on the point $a$.
+A statement is called uniform when $\delta = \delta(\varepsilon)$ does not depend on the point.
 
 ## Remarks
 
-### Examples
+### Examples to sort
 
-1. "Every natural number has a larger natural number, so some natural number is larger than every natural number." The premise is true with $y = x + 1$, and the conclusion is false. Details are in the [[example|F1GYSA9TW0]].
-2. The function $f(x) = \frac{1}{x}$ is continuous at each point of $(0, 1)$, and the $\delta$ of the definition [[must depend on $x$|2BZ4WGH7C3]]. So $f$ is not uniformly continuous on $(0, 1)$.
-3. The sequence $f_n(x) = x^n$ on $[0, 1]$ converges at each point, but the index $N$ depends on $x$. The limit function is discontinuous, and the [[convergence is not uniform|0YSRR1JTKZ]].
-4. "Every real polynomial of odd degree has a real root, so some real number is a root of every real polynomial of odd degree." The polynomials $x$ and $x - 1$ have no common root.
+Decide for each inference whether it is valid before you read the verdict.
 
-### Non-examples
+1. "Every natural number has a larger one, so some natural number is larger than all." It shifts, and it is [[false|F1GYSA9TW0]].
+2. "The function $\frac{1}{x}$ is continuous at each point of $(0, 1)$, so it is uniformly continuous there." It shifts, and the $\delta$ [[must depend on the point|2BZ4WGH7C3]].
+3. "Each $x^n$ on $[0, 1]$ converges at every point, so the convergence is uniform." It shifts, and the limit is not even continuous, so the [[convergence is not uniform|0YSRR1JTKZ]].
+4. "Some number bounds every element of $S$, so every element of $S$ has a bound." It is the [[valid direction|PR3VZMWQ6B]].
+5. "For all $x$ and all $y$, $P(x, y)$; so for all $y$ and all $x$, $P(x, y)$." Two quantifiers of the same kind commute, so it is valid.
 
-1. The valid inference: "some $y$ is larger than every element of $S$, so every element of $S$ has a larger element". The [[example|PR3VZMWQ6B]] gives the proof.
-2. Two quantifiers of the same kind commute: $\forall x \, \forall y \, P(x, y)$ is equivalent to $\forall y \, \forall x \, P(x, y)$.
-3. A shift that is proved by an extra argument is not a fallacy. The theorem that a continuous function on a closed bounded interval is [[uniformly continuous|0W0TZDRF9C]] proves the shift for such intervals, by compactness.
+### The valid direction and the proved shifts
 
-### Basic properties
+From $\exists y \, \forall x \, P(x, y)$ we may always conclude $\forall x \, \exists y \, P(x, y)$.
+Take the $y_0$ of the premise; for each $x$, the same $y_0$ works.
+The other direction needs an extra reason, and then it is a theorem, not a fallacy.
+On a finite set of $x$'s, when $P(x, y)$ stays true as a real $y$ grows, the largest of the finitely many $y$'s works for every $x$.
+Compactness is the general tool that reduces infinitely many choices to finitely many.
+That is how a continuous function on a closed bounded interval is proved to be [[uniformly continuous|0W0TZDRF9C]].
 
-1. The inference $\exists y \, \forall x \, P(x, y) \Rightarrow \forall x \, \exists y \, P(x, y)$ is valid. Take the $y_0$ of the premise; for each $x$, the same $y_0$ works.
-2. The inference $\forall x \, \exists y \, P(x, y) \Rightarrow \exists y \, \forall x \, P(x, y)$ is invalid. On $\mathbb{N}$ with $P(x, y)$ meaning $y > x$, the premise is true and the conclusion is false.
-3. The shift is valid when $x$ ranges over a finite set and $P(x, y)$ is upward closed in a real $y$, that is, $P(x, y)$ and $y' \ge y$ give $P(x, y')$. The largest of the finitely many $y$'s then works for every $x$.
-4. Compactness is the general tool that proves a shift: it reduces infinitely many choices to finitely many, as in the proof of uniform continuity on $[a, b]$.
+### Watch out
+
+The shift often happens in the order of choices, not in a formula.
+A proof fixes $\varepsilon$, picks $N$ or $\delta$, and only later says "let $x$ be any point".
+If the choice of $N$ used $x$, the proof has quietly put $\exists N$ before $\forall x$.
+A related slip appears when negating: the negation of $\forall x \, \exists y \, P$ is $\exists x \, \forall y \, \neg P$, so both quantifiers flip, not only $P$.
 
 ### History
 
 In his *Cours d'analyse* of 1821, Augustin-Louis Cauchy stated that a convergent series of continuous functions has a continuous sum.
-In 1826 Niels Henrik Abel noted that the series $\sin x - \frac{\sin 2x}{2} + \frac{\sin 3x}{3} - \cdots$ is a counterexample.
-Its sum is $\frac{x}{2}$ for $-\pi < x < \pi$ and $0$ at $x = \pi$, so the sum is not continuous at $\pi$.
-Historians still discuss what Cauchy's hypotheses meant, but the modern reading of his argument shifts a quantifier, and the correct theorem needs uniform convergence.
+In 1826 Niels Henrik Abel pointed to the series $\sin x - \frac{\sin 2x}{2} + \frac{\sin 3x}{3} - \cdots$ as an exception.
+Its sum is $\frac{x}{2}$ for $-\pi < x < \pi$ and $0$ at $x = \pi$, so the sum jumps at $\pi$.
+Historians still debate what Cauchy's hypotheses meant, but read with modern definitions his argument shifts a quantifier, and the correct theorem needs uniform convergence.
 
-### Common errors
+### Try it
 
-1. A student proves continuity at each point and concludes uniform continuity.
-2. A student fixes $\varepsilon$, finds $N$ for each $x$, and then writes "for $n \ge N$" for all $x$ at once.
-3. A student negates $\forall x \, \exists y \, P$ as $\forall x \, \exists y \, \neg P$, without changing the quantifiers. The correct negation is $\exists x \, \forall y \, \neg P$.
+Is the inference "every real polynomial of odd degree has a real root, so some real number is a root of every real polynomial of odd degree" valid?
+No: it shifts the quantifiers, and $x$ and $x - 1$ have no common root.
+
+A function $f$ on $[0, 1]$ satisfies "for every $x$ there is $M$ with $|f(x)| \le M$".
+Is $f$ bounded?
+Not from this alone, since the condition holds for every real function, with $M = |f(x)|$; boundedness is the shifted statement "there is $M$ with $|f(x)| \le M$ for every $x$".
 
 ## Explanations
 
@@ -80,26 +98,26 @@ Historians still discuss what Cauchy's hypotheses meant, but the modern reading 
 
 "Everyone has a mother" is true.
 "There is one woman who is the mother of everyone" is false.
-The two sentences use the same words, but in a different order.
+The two sentences use the same words in a different order.
 The first lets each person have a different mother, and the second asks for one mother for all.
-Swapping the order of "every" and "some" is a common error, and it can turn a true sentence into a false one.
+Swapping "every" and "some" can turn a true sentence into a false one.
 
 ### L2 human
 
-We test the claim: "for each $\varepsilon > 0$ and each $x \in (0, 1)$ there is $N$ with $x^n < \varepsilon$ for all $n \ge N$; so there is $N$ with $x^n < \varepsilon$ for all $x \in (0, 1)$ and all $n \ge N$".
+We test the inference: for each $\varepsilon > 0$ and each $x \in (0, 1)$ some $N$ gives $x^n < \varepsilon$ for all $n \ge N$, so some $N$ gives $x^n < \varepsilon$ for all $x \in (0, 1)$ and all $n \ge N$.
+The premise is true, because $x^n \to 0$ for each fixed $x \in (0, 1)$.
+The conclusion asks for one $N$ for every $x$.
+Take $\varepsilon = \frac{1}{2}$ and suppose that $N$ works.
+The point $x = \left(\frac{3}{4}\right)^{1/N}$ lies in $(0, 1)$, and $x^N = \frac{3}{4} > \frac{1}{2}$, a contradiction.
+So the conclusion is false: the convergence is pointwise but not uniform.
 
-1. The premise is true. For fixed $x \in (0, 1)$, $x^n \to 0$, so for each $\varepsilon$ some $N$ works.
-2. The conclusion asks for one $N$ for all $x \in (0, 1)$. Take $\varepsilon = \frac{1}{2}$ and suppose that $N$ works.
-3. Choose $x = \left(\frac{3}{4}\right)^{1/N}$, which lies in $(0, 1)$. Then $x^N = \frac{3}{4} > \frac{1}{2}$, which contradicts the choice of $N$.
-4. So no $N$ works, the conclusion is false, and the inference shifts a quantifier.
-5. The premise says that $x^n \to 0$ pointwise on $(0, 1)$, and the conclusion would say that the convergence is uniform.
-
-The typical use of this check is to write each analytic statement with its quantifiers in symbols before using it.
-A trap is a proof in which $N$ or $\delta$ is chosen once at the start, before the point $x$, while the choice really depends on $x$.
+The typical use of this check is to write an analytic statement in symbols, with its quantifiers in order, before using it.
+Watch out for an $N$ or a $\delta$ chosen at the start of a proof whose formula secretly contains the point $x$.
 
 ### L3 human
 
-In first-order logic, $\forall x \, \exists y \, P(x, y)$ is equivalent, by Skolemization, to the existence of a function $g$ with $\forall x \, P(x, g(x))$, while $\exists y \, \forall x \, P(x, y)$ asks for a constant function $g$.
-So the shift is valid exactly when a choice function can be taken constant, and many theorems of analysis are statements of this kind: uniform continuity, equicontinuity, uniform boundedness and uniform convergence.
-Compactness arguments, the [[uniform limit theorem|0X9XT05JVC]], the Baire category theorem in the uniform boundedness principle, and the Arzelà-Ascoli theorem are tools that prove a shift under extra hypotheses.
-In topology the same pattern separates "locally" from "globally", and in computability it separates a non-uniform statement (for each input there is an algorithm) from a uniform one (one algorithm for all inputs).
+By Skolemization, $\forall x \, \exists y \, P(x, y)$ says that some function $g$ satisfies $\forall x \, P(x, g(x))$, while $\exists y \, \forall x \, P(x, y)$ asks for a constant $g$.
+So the shift is valid exactly when a choice function can be taken constant.
+Uniform continuity, equicontinuity, uniform boundedness and uniform convergence are all statements of this kind.
+Compactness arguments, the [[uniform limit theorem|0X9XT05JVC]], the Baire category theorem behind the uniform boundedness principle, and the Arzelà-Ascoli theorem prove such shifts under extra hypotheses.
+In topology the same pattern separates "locally" from "globally", and in computability it separates "for each input some algorithm works" from "one algorithm works for all inputs".

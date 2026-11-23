@@ -16,47 +16,53 @@ sources:
 
 ## Example
 
-Many readers think that the following argument is a trick.
+Many readers meet the following argument and suspect a trick.
 
 1. Let $x = 0.999\ldots$, with the digit $9$ at every place after the point.
 2. Multiply by $10$: $10x = 9.999\ldots$.
-3. Subtract step 1 from step 2: $9x = 9$.
+3. Subtract the first line from the second: $9x = 9$.
 4. So $x = 1$.
 
-We check each step.
+This argument is not a [[mathematical fallacy|S2BW0FDHV8]].
+Every step is valid, and the conclusion [[$0.999\ldots = 1$|0NN5JEMTVE]] is true.
+We check the steps one at a time.
 
-1. Step 1 is valid. By definition, $0.999\ldots = \sum_{k=1}^{\infty} 9 \cdot 10^{-k}$, and this [[geometric series|01X5CVV1Q5]] converges, since its ratio is $\frac{1}{10}$. So $x$ is a real number.
-2. Step 2 is valid. A convergent series can be multiplied by a constant term by term, so $10x = \sum_{k=1}^{\infty} 9 \cdot 10^{1-k} = 9 + \sum_{k=1}^{\infty} 9 \cdot 10^{-k}$.
-3. Step 3 is valid. By step 2, $10x = 9 + x$, so $9x = 9$.
+1. Step 1 names a real number. By definition, $0.999\ldots$ is the sum of a [[geometric series|01X5CVV1Q5]] with ratio $\frac{1}{10}$, and such a series converges:
+   $$x = \sum_{k=1}^{\infty} \frac{9}{10^k}.$$
+2. Step 2 is valid, because a convergent series may be multiplied by a constant term by term:
+   $$10x = \sum_{k=1}^{\infty} \frac{9}{10^{k-1}} = 9 + \sum_{k=1}^{\infty} \frac{9}{10^k} = 9 + x.$$
+3. Step 3 subtracts $x$ from both sides of $10x = 9 + x$, which gives $9x = 9$.
 4. Step 4 divides by $9$, which is not zero.
-
-Every step is valid, so the argument is a correct proof of [[0.999... = 1|0NN5JEMTVE]], and it is not a [[mathematical fallacy|S2BW0FDHV8]].
 
 ## Remarks
 
-The example shows the condition that separates this proof from false proofs of the same shape.
-The argument "$S = 1 - 1 + 1 - \cdots$, so $S = 1 - S$" in [[fallacies with infinite series|KDXKVT5K1E]] has the same form, but there $S$ does not exist, so step 1 fails.
-The same argument applied to $x = 1 + 10 + 100 + \cdots$ gives $10x = x - 1$, so $x = -\frac{1}{9}$.
-That series diverges, so step 1 fails there too.
-So the proof is valid exactly because the series converges, and a full proof must say so.
+What makes this argument a proof, when arguments of the same shape are fallacies?
+The answer is step 1: the series converges, so $x$ is a number and the algebra is allowed.
+Run the same steps on $y = 1 + 10 + 100 + \cdots$.
+They give $10y = 10 + 100 + \cdots = y - 1$, so $y = -\frac{1}{9}$, an absurd value for a sum of positive numbers.
+There step 1 fails, because the series diverges and $y$ names nothing.
+The [[fallacies with infinite series|KDXKVT5K1E]] make the same error with $S = 1 - 1 + 1 - \cdots$.
+So a full proof must say why the series converges, and the short argument above leaves that reason silent.
 
 ## Explanations
 
 ### L1 human
 
-The number $0.999\ldots$, with nines that never stop, is exactly equal to $1$.
-Ten times it is $9.999\ldots$, and if we take away the first number, all the nines after the point cancel and $9$ is left.
+The number $0.999\ldots$, with nines that never stop, is exactly $1$.
+Ten times it is $9.999\ldots$.
+If you take away the first number, all the nines after the point cancel and $9$ is left.
 So nine times the number is $9$, and the number is $1$.
-This is not a trick: it works because the endless sum of nines has a value.
+This is not a trick, because the endless string of nines has a value; the same game with $1 + 10 + 100 + \cdots$ is a trick, because that sum has no value.
 
 ### L2 human
 
-We prove the same equality with partial sums, to see where convergence enters.
+We prove the equality with finite pieces, to see where convergence enters.
+Let $s_n = \frac{9}{10} + \frac{9}{100} + \cdots + \frac{9}{10^n}$.
+Multiply by $10$ and subtract; every term except two cancels:
+$$10 s_n - s_n = 9 - \frac{9}{10^n}, \quad \text{so} \quad s_n = 1 - \frac{1}{10^n}.$$
+As $n \to \infty$, $\frac{1}{10^n} \to 0$, so $s_n \to 1$.
+By definition $0.999\ldots$ is the limit of $s_n$, so it equals $1$.
 
-1. Let $s_n = \sum_{k=1}^{n} 9 \cdot 10^{-k}$. Then $10 s_n - s_n = 9 - 9 \cdot 10^{-n}$, by cancelling the common terms.
-2. So $s_n = 1 - 10^{-n}$.
-3. As $n \to \infty$, $10^{-n} \to 0$, so $s_n \to 1$.
-4. By definition, $0.999\ldots$ is the limit of $s_n$, so $0.999\ldots = 1$.
-
-The typical use of this method is to check an "infinite" manipulation by doing it on the finite partial sums first.
-A trap is to apply the manipulation of step 1 to a divergent series, where the limit of step 3 does not exist.
+Check: $s_3 = 0.999 = 1 - 0.001$.
+This is the safe way to test any "infinite" manipulation: do it on the finite partial sums first, then take the limit.
+Watch out: for a divergent series the last step has no limit to take, and the manipulation proves nothing.

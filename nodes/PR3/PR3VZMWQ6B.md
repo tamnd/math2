@@ -16,25 +16,26 @@ sources:
 
 ## Example
 
-Let $S$ be a set of real numbers, and assume that there is a real number $M$ with $s \le M$ for every $s \in S$.
-We conclude that for every $s \in S$ there is a real number $y$ with $s \le y$.
-In symbols, the inference passes from $\exists M \, \forall s \in S \, (s \le M)$ to $\forall s \in S \, \exists y \, (s \le y)$.
+This inference also swaps two quantifiers; decide whether it is valid before you read on.
 
-We check that the inference is valid.
+> Let $S$ be a set of real numbers, and suppose some real $M$ satisfies $s \le M$ for every $s \in S$.
+> So for every $s \in S$ there is a real $y$ with $s \le y$.
 
-1. Assume the premise, and fix $M$ with $s \le M$ for every $s \in S$.
-2. Let $s \in S$ be arbitrary.
-3. Take $y = M$. By step 1, $s \le y$.
-4. Since $s$ was arbitrary, every $s \in S$ has such a $y$. This is the conclusion.
-5. The same $y$ serves every $s$, and the conclusion asks only for some $y$ for each $s$. So the step loses information but makes no error.
+In symbols it goes from $\exists M \, \forall s \in S \, (s \le M)$ to $\forall s \in S \, \exists y \, (s \le y)$.
+It is valid, and here is the proof.
 
-So the inference is not an instance of the [[quantifier shift fallacy|CRW82NARQV]], which goes in the other direction.
+1. Fix $M$ as in the premise.
+2. Let $s \in S$ be arbitrary, and take $y = M$. By the premise, $s \le y$.
+3. Since $s$ was arbitrary, every $s \in S$ has such a $y$, which is the conclusion.
+
+The conclusion asks only for some $y$ for each $s$, and one $y$ that serves every $s$ certainly qualifies.
+So the step loses information but makes no error, and it is not the [[quantifier shift fallacy|CRW82NARQV]], which runs the other way.
 
 ## Remarks
 
-The example shows that one direction of the exchange is always valid: $\exists y \, \forall x \, P(x, y)$ implies $\forall x \, \exists y \, P(x, y)$, by the same four steps with $P$ in place of $\le$.
-The [[order of quantifiers|0FYQMKFE77]] makes the first statement stronger.
-The conclusion of the example holds for every set $S$, with $y = s$, so here the conclusion is weaker than the premise "$S$ is bounded above".
+One direction of the swap is always valid: $\exists y \, \forall x \, P(x, y)$ implies $\forall x \, \exists y \, P(x, y)$, by the same three steps with $P$ in place of $\le$.
+So the [[order of quantifiers|0FYQMKFE77]] "exists, then for all" gives the stronger statement.
+Here the loss is total: the conclusion holds for every set $S$, with $y = s$, while the premise says that $S$ is bounded above.
 
 ## Explanations
 
@@ -42,16 +43,14 @@ The conclusion of the example holds for every set $S$, with $y = s$, so here the
 
 If one key opens every door in a house, then every door can be opened by some key.
 We just use the same key each time.
-The opposite step is the dangerous one: if every door has a key, there need not be one key for all doors.
+The opposite step is the dangerous one: if every door has a key, there need not be one key for all the doors.
 
 ### L2 human
 
-We use the valid direction in analysis.
+We use the valid direction to show that a uniformly continuous function $f$ on a set $S$ is continuous at every point.
+Uniform continuity says that for each $\varepsilon > 0$ some $\delta > 0$ works for all $a, x \in S$: if $|x - a| < \delta$, then $|f(x) - f(a)| < \varepsilon$.
+Fix a point $a \in S$ and $\varepsilon > 0$, and take the $\delta$ that uniform continuity gives for this $\varepsilon$.
+That $\delta$ works at $a$, since it works at every point, so $f$ is continuous at $a$.
 
-1. A uniformly continuous function $f$ on a set $S$ satisfies: for each $\varepsilon > 0$ there is $\delta > 0$ such that for all $a, x \in S$ with $|x - a| < \delta$ we have $|f(x) - f(a)| < \varepsilon$.
-2. Fix $a \in S$ and $\varepsilon > 0$. Take the $\delta$ of step 1 for this $\varepsilon$.
-3. That $\delta$ works for the given $a$, since it works for all points.
-4. So $f$ is continuous at $a$, and since $a$ was arbitrary, $f$ is continuous on $S$.
-
-The typical use of this direction is to show that a uniform property implies the pointwise property.
-A trap is to use the converse, from continuity to uniform continuity, without a further argument such as compactness.
+The typical use of this direction is to get a pointwise property from a uniform one.
+Watch out for the converse, from continuity to uniform continuity, which needs a further argument such as compactness.
