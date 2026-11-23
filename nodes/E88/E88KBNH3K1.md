@@ -16,31 +16,32 @@ sources:
 
 ## Example
 
-*Statement.* For all real numbers $a$ and $b$, $\max(a, b) + \min(a, b) = a + b$.
-Here $\max(a, b)$ is the larger and $\min(a, b)$ is the smaller of the two numbers, as on the page [[maximum and minimum|5X1YMSR204]].
+The statement is that for all real numbers $a$ and $b$, $\max(a, b) + \min(a, b) = a + b$.
+Here $\max(a, b)$ is the larger and $\min(a, b)$ the smaller of the two numbers, as in [[maximum and minimum|5X1YMSR204]].
+The proof as written handles one case and omits the other.
 
-*Proof as written.*
-We consider two cases.
-If $a \ge b$, then $\max(a, b) = a$ and $\min(a, b) = b$, so the sum is $a + b$.
-The case $b \ge a$ is the same with $a$ and $b$ exchanged.
-$\square$
+> We consider two cases.
+> If $a \ge b$, then $\max(a, b) = a$ and $\min(a, b) = b$, so the sum is $a + b$.
+> The case $b \ge a$ is the same with $a$ and $b$ exchanged.
+> $\square$
 
-We check that the omitted case is an acceptable omission.
+We check that the omission is acceptable for the [[level of detail|VYGBV5D8Y4]] of a second-year reader.
+The statement is symmetric in $a$ and $b$, since $\max(a, b) = \max(b, a)$, $\min(a, b) = \min(b, a)$ and $a + b = b + a$.
+The case $b \ge a$ is the written case applied to the pair $(b, a)$, which gives $\max(b, a) + \min(b, a) = b + a$, and by symmetry this is the statement for $(a, b)$.
+Written in full, the omitted case reads: if $b \ge a$, then $\max(a, b) = b$ and $\min(a, b) = a$, so the sum is $b + a = a + b$.
+The two cases cover all pairs, because $a \ge b$ or $b \ge a$ for real numbers, and when $a = b$ both cases apply and agree.
 
-1. The statement is symmetric in $a$ and $b$: $\max(a, b) = \max(b, a)$, $\min(a, b) = \min(b, a)$, and $a + b = b + a$. So exchanging the names gives the same statement.
-2. The case $b \ge a$ is the case "first number $\ge$ second number" for the pair $(b, a)$. The written case, applied to this pair, gives $\max(b, a) + \min(b, a) = b + a$.
-3. By step 1, this equation is the statement for $(a, b)$.
-4. Written in full, the omitted case reads: if $b \ge a$, then $\max(a, b) = b$ and $\min(a, b) = a$, so the sum is $b + a = a + b$.
-5. The two cases cover all pairs, because for real numbers $a \ge b$ or $b \ge a$. When $a = b$ both cases apply, and they give the same result.
-
-So the omission is true, it needs no new idea, and any reader who follows the first case can write the second one.
+So the omitted step is true, it needs no new idea, and any reader who follows the first case can write the second.
 
 ## Remarks
 
-1. The example shows a typical acceptable omission in a [[proof by cases|0WCP0PVET6]]: a case that follows from a written case by renaming. The test for it is the symmetry of the statement, step 1 above.
-2. The same omission is wrong for a statement that is not symmetric. The claim $\max(a, b) - \min(a, b) = a - b$ holds in the case $a \ge b$, but for $a = 1$ and $b = 3$ the left side is $2$ and the right side is $-2$.
-3. The correct statement for the difference is $\max(a, b) - \min(a, b) = \lvert a - b \rvert$, which is symmetric, because $\lvert a - b \rvert = \lvert b - a \rvert$.
-4. The phrase "without loss of generality, $a \ge b$" makes the same omission at the start of the proof. It is justified by the same symmetry.
+A case that follows from a written case by renaming is the most common acceptable omission in a [[proof by cases|0WCP0PVET6]].
+The test for it is the symmetry of the statement.
+"Without loss of generality, $a \ge b$" makes the same omission at the start of a proof, and the same symmetry justifies it.
+
+The shortcut is wrong for a statement that is not symmetric.
+The claim $\max(a, b) - \min(a, b) = a - b$ holds when $a \ge b$, but for $a = 1$ and $b = 3$ the left side is $2$ and the right side is $-2$.
+The correct statement, $\max(a, b) - \min(a, b) = \lvert a - b \rvert$, is symmetric, because $\lvert a - b \rvert = \lvert b - a \rvert$.
 
 ## Explanations
 
@@ -54,13 +55,11 @@ This shortcut is fair, because swapping the two numbers does not change the ques
 
 ### L2 human
 
-We test the shortcut on a statement where it fails, and on one where it works.
+We test the shortcut on a statement where it fails and on one where it works.
+For $\max(a, b) - \min(a, b) = a - b$, the case $a \ge b$ holds, since the left side is $a - b$.
+Exchanging the names gives $\max(b, a) - \min(b, a) = b - a$, which is a different claim unless $a = b$, so the case $b > a$ does not follow by renaming.
+For $\max(a, b) \cdot \min(a, b) = ab$, the case $a \ge b$ also holds, and exchanging the names gives $\max(b, a) \cdot \min(b, a) = ba$, which is the same claim because $ba = ab$.
+So for the product the omitted case is acceptable, and for the difference it is not.
 
-1. The claim $\max(a, b) - \min(a, b) = a - b$: for $a \ge b$, the left side is $a - b$. So the written case holds.
-2. Exchange $a$ and $b$: the claim becomes $\max(b, a) - \min(b, a) = b - a$, which is a different claim, because $b - a \ne a - b$ unless $a = b$.
-3. So the case $b > a$ does not follow by renaming. For $a = 1$, $b = 3$ the claim fails, since $3 - 1 = 2$ and $1 - 3 = -2$.
-4. The claim $\max(a, b) \cdot \min(a, b) = ab$: for $a \ge b$, the left side is $ab$. Exchanging the names gives $\max(b, a) \cdot \min(b, a) = ba$, which is the same claim, because $ba = ab$.
-5. So for the product the omitted case is acceptable.
-
-The typical use of the shortcut is in proofs about two or more objects that play the same role.
-A trap is to write "similarly" or "by symmetry" for a statement that changes under the exchange, as in step 2.
+The shortcut suits proofs about two or more objects that play the same role.
+Watch out: before writing "similarly" or "by symmetry", exchange the names in the statement and check that it does not change.

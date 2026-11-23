@@ -16,40 +16,43 @@ sources:
 
 ## Example
 
-*Statement.* For every [[prime|01826KMG2H]] $p > 3$, we have $p^2 \equiv 1 \pmod{24}$.
+The statement is that for every [[prime|01826KMG2H]] $p > 3$, we have $p^2 \equiv 1 \pmod{24}$.
 Here $x \equiv y \pmod n$ means that $n$ divides $x - y$, as in [[congruence modulo n|0WAY5WX8NY]].
+First, a proof for a reader who knows elementary number theory:
 
-*Proof for a reader who knows elementary number theory.*
-Since $p > 3$ is prime, $p$ is coprime to $6$.
-Every odd square is $1$ modulo $8$, and every square of an integer prime to $3$ is $1$ modulo $3$, so $p^2 \equiv 1 \pmod{24}$.
-$\square$
+> Since $p > 3$ is prime, $p$ is coprime to $6$.
+> Every odd square is $1$ modulo $8$, and every square of an integer prime to $3$ is $1$ modulo $3$, so $p^2 \equiv 1 \pmod{24}$.
+> $\square$
 
-*Proof for a first-year reader.*
+Second, a proof of the same idea for a first-year reader:
 
-1. The number $p$ is not divisible by $2$, because the only even prime is $2$ and $p > 3$. For the same reason, $p$ is not divisible by $3$.
-2. Since $p$ is odd, $p = 2k + 1$ for an integer $k$. Then $p^2 - 1 = 4k^2 + 4k = 4k(k + 1)$.
-3. One of the consecutive integers $k$ and $k + 1$ is even, so $k(k + 1) = 2j$ for an integer $j$. Hence $p^2 - 1 = 8j$, and $8 \mid p^2 - 1$.
-4. Since $3 \nmid p$, division by $3$ gives $p = 3m + 1$ or $p = 3m + 2$ for an integer $m$.
-5. We have $p^2 - 1 = (p - 1)(p + 1)$. If $p = 3m + 1$, then $p - 1 = 3m$. If $p = 3m + 2$, then $p + 1 = 3(m + 1)$. In both cases $3 \mid p^2 - 1$.
-6. By step 3, $p^2 - 1 = 8j$. By step 5, $3 \mid 8j$. Since $3$ is prime and $3 \nmid 8$, [[Euclid's lemma|051VYKA1EX]] gives $3 \mid j$.
-7. So $j = 3i$ for an integer $i$, and $p^2 - 1 = 24i$. Hence $p^2 \equiv 1 \pmod{24}$. $\square$
+> (1) The only even prime is $2$ and $p > 3$, so $2 \nmid p$, and for the same reason $3 \nmid p$.
+> (2) Since $p$ is odd, $p = 2k + 1$ for an integer $k$, and $p^2 - 1 = 4k^2 + 4k = 4k(k + 1)$.
+> (3) One of the consecutive integers $k$ and $k + 1$ is even, so $k(k + 1) = 2j$ for an integer $j$, and $p^2 - 1 = 8j$.
+> (4) Since $3 \nmid p$, division by $3$ gives $p = 3m + 1$ or $p = 3m + 2$ for an integer $m$.
+> (5) In the first case $p - 1 = 3m$, and in the second $p + 1 = 3(m + 1)$, so $3$ divides $(p - 1)(p + 1) = p^2 - 1$ either way.
+> (6) So $3 \mid 8j$, and since $3$ is prime and $3 \nmid 8$, [[Euclid's lemma|051VYKA1EX]] gives $3 \mid j$.
+> (7) Writing $j = 3i$, we get $p^2 - 1 = 24i$, hence $p^2 \equiv 1 \pmod{24}$.
+> $\square$
 
-We check that both texts are complete proofs for their readers.
+Both texts are complete proofs for their readers.
+The short text leaves out steps (2) and (3), because "every odd square is $1$ modulo $8$" is a known fact to a number theorist.
+It leaves out steps (4) and (5), because a square prime to $3$ is $1$ modulo $3$, as $1^2 = 1$ and $2^2 = 4 \equiv 1 \pmod 3$ show.
+It leaves out steps (6) and (7), because combining "modulo $8$" and "modulo $3$" into "modulo $24$" uses only that $8$ and $3$ are coprime.
+Each omitted step is true and needs no new idea, so the short text has no gap for its reader.
+For a first-year reader the fact about odd squares is new, so the short text would have a gap, and the long text fills it.
 
-1. The first text omits steps 2 and 3. For a number theorist, "every odd square is $1$ modulo $8$" is a known fact. Its proof is the calculation of steps 2 and 3.
-2. The first text omits steps 4 and 5. "A square prime to $3$ is $1$ modulo $3$" is known to the same reader, from $1^2 = 1$ and $2^2 = 4 \equiv 1 \pmod 3$.
-3. The first text omits steps 6 and 7. The step from "$1$ modulo $8$ and modulo $3$" to "$1$ modulo $24$" uses that $8$ and $3$ are coprime. The expert reader supplies this at once.
-4. No omitted step needs a new idea, and each omitted step is true. So the first text has no gap for its reader.
-5. For a first-year reader, the step "every odd square is $1$ modulo $8$" is new. The first text would have a gap for this reader, and the second text fills it.
-
-A numerical check: $5^2 - 1 = 24$, $7^2 - 1 = 48 = 24 \cdot 2$, $11^2 - 1 = 120 = 24 \cdot 5$, $13^2 - 1 = 168 = 24 \cdot 7$.
+Check: $5^2 - 1 = 24$, $7^2 - 1 = 48 = 24 \cdot 2$, $11^2 - 1 = 120 = 24 \cdot 5$ and $13^2 - 1 = 168 = 24 \cdot 7$.
 
 ## Remarks
 
-1. The example shows that the [[level of detail|VYGBV5D8Y4]] depends on the reader, not on the statement. Both texts prove the same statement with the same idea.
-2. The condition $p > 3$ is needed: $2^2 - 1 = 3$ and $3^2 - 1 = 8$ are not divisible by $24$. Step 1 is the place where the condition is used, and the short text uses it in "coprime to $6$".
-3. The proof uses only that $p$ is coprime to $6$. So the statement holds for every integer $n$ with $\gcd(n, 6) = 1$; for example $25^2 - 1 = 624 = 24 \cdot 26$.
-4. A middle version for a second-year reader could keep steps 2, 3 and 5 and replace steps 6 and 7 by "since $\gcd(8, 3) = 1$".
+The [[level of detail|VYGBV5D8Y4]] depends on the reader, not on the statement: both texts prove the same statement with the same idea.
+
+The condition $p > 3$ is needed, since $2^2 - 1 = 3$ and $3^2 - 1 = 8$ are not divisible by $24$.
+Step (1) uses the condition, and the short text uses it in the words "coprime to $6$".
+In fact the proof uses only that $p$ is coprime to $6$, so the statement holds for every integer $n$ with $\gcd(n, 6) = 1$, for example $25^2 - 1 = 624 = 24 \cdot 26$.
+
+A middle version for a second-year reader could keep steps (2), (3) and (5) and replace steps (6) and (7) by "since $\gcd(8, 3) = 1$".
 
 ## Explanations
 
@@ -64,15 +67,11 @@ So the same proof is written once short and once long, and both are correct for 
 ### L2 human
 
 We follow the long proof for $p = 13$.
+Step (1) holds, since $13$ is odd and not divisible by $3$.
+Step (2) gives $k = 6$ and $168 = 4 \cdot 6 \cdot 7$, and step (3) gives $6 \cdot 7 = 2 \cdot 21$, so $j = 21$ and $168 = 8 \cdot 21$.
+Step (4) gives $13 = 3 \cdot 4 + 1$, and step (5) gives $p - 1 = 12$, so $3 \mid 168$.
+Steps (6) and (7) give $3 \mid 21$, $i = 7$ and $168 = 24 \cdot 7$.
 
-1. Step 1: $13$ is odd and not divisible by $3$.
-2. Step 2: $k = 6$, and $13^2 - 1 = 168 = 4 \cdot 6 \cdot 7$.
-3. Step 3: $6 \cdot 7 = 42 = 2 \cdot 21$, so $j = 21$ and $168 = 8 \cdot 21$.
-4. Step 4: $13 = 3 \cdot 4 + 1$, so $m = 4$.
-5. Step 5: $p - 1 = 12 = 3 \cdot 4$, so $3 \mid 168$.
-6. Step 6: $3 \mid 8 \cdot 21$, and $3 \mid 21$.
-7. Step 7: $i = 7$, and $168 = 24 \cdot 7$.
-
-The typical use of two versions is in a textbook that gives the short proof in the text and the long proof as an exercise.
-A trap is to think that the short proof skips the hard part.
-It skips only facts that the intended reader has proved before, and a reader who has not must prove them first.
+A textbook can give the short proof in the text and the long proof as an exercise.
+Watch out: the short proof does not skip the hard part.
+It skips only facts that its intended reader has proved before, and a reader who has not must prove them first.
