@@ -20,70 +20,113 @@ sources:
 
 ## Statement
 
-Let $\mathcal{M}$ and $\mathcal{N}$ be $L$-structures with domains $M$ and $N$, and let $h \colon M \to N$ be an [[isomorphism|YWTERZZME5]].
-So $h$ is a bijection with $h(c^{\mathcal{M}}) = c^{\mathcal{N}}$, $h(f^{\mathcal{M}}(a_1, \ldots, a_n)) = f^{\mathcal{N}}(h(a_1), \ldots, h(a_n))$, and $(a_1, \ldots, a_n) \in R^{\mathcal{M}}$ if and only if $(h(a_1), \ldots, h(a_n)) \in R^{\mathcal{N}}$.
+Isomorphic structures make the same sentences true, because an isomorphism only renames the elements and first-order logic cannot see names.
 
-1. For every term $t$ and every assignment $s$ in $\mathcal{M}$, $h(t^{\mathcal{M}}[s]) = t^{\mathcal{N}}[h \circ s]$.
-2. For every formula $\varphi$ and every assignment $s$ in $\mathcal{M}$, $\mathcal{M} \models \varphi[s]$ if and only if $\mathcal{N} \models \varphi[h \circ s]$.
-3. For every sentence $\sigma$, $\mathcal{M} \models \sigma$ if and only if $\mathcal{N} \models \sigma$. So $\operatorname{Th}(\mathcal{M}) = \operatorname{Th}(\mathcal{N})$.
+Let $\mathcal{M}$ and $\mathcal{N}$ be $L$-[[structures|983GZBQYT4]] with domains $M$ and $N$, and let $h \colon M \to N$ be an [[isomorphism|YWTERZZME5]].
+So $h$ is a bijection with $h(c^{\mathcal{M}}) = c^{\mathcal{N}}$ and $h(f^{\mathcal{M}}(a_1, \ldots, a_n)) = f^{\mathcal{N}}(h(a_1), \ldots, h(a_n))$, and with $(a_1, \ldots, a_n) \in R^{\mathcal{M}}$ if and only if $(h(a_1), \ldots, h(a_n)) \in R^{\mathcal{N}}$.
+
+1. For every term $t$ and every assignment $s$ in $\mathcal{M}$, we have $h(t^{\mathcal{M}}[s]) = t^{\mathcal{N}}[h \circ s]$.
+2. For every formula $\varphi$ and every assignment $s$ in $\mathcal{M}$, we have $\mathcal{M} \models \varphi[s]$ if and only if $\mathcal{N} \models \varphi[h \circ s]$.
+3. For every sentence $\sigma$, we have $\mathcal{M} \models \sigma$ if and only if $\mathcal{N} \models \sigma$.
+   So $\operatorname{Th}(\mathcal{M}) = \operatorname{Th}(\mathcal{N})$.
 
 Here $\models$ is [[satisfaction|1WTCZB4DVB]] in parts 1 and 2, and [[truth|K7XDVK5854]] in part 3.
 
 ## Remarks
 
+### A first check
+
+The map $h(n) = 2n$ is an isomorphism from $(\mathbb{Z}, +)$ onto the even integers $(2\mathbb{Z}, +)$, because it is a bijection and $2(m + n) = 2m + 2n$.
+Test the sentence $\sigma = \forall x \, \exists y \, (y + y = x)$, which says that every element can be halved.
+In $(\mathbb{Z}, +)$ it is false: for $x = 1$, no integer $y$ has $y + y = 1$.
+In $(2\mathbb{Z}, +)$ it is false as well: for $x = 2$, the only solution of $y + y = 2$ is $y = 1$, and $1$ is not in the domain.
+The lemma predicted this, and the counterexample moved along $h$, from $1$ to $h(1) = 2$.
+
+### How to use it
+
+The lemma is mostly used backward, to prove that two structures are not isomorphic.
+The same sentence $\sigma$ is true in $(\mathbb{Q}, +)$, since $x = \tfrac{x}{2} + \tfrac{x}{2}$.
+So $(\mathbb{Q}, +)$ and $(\mathbb{Z}, +)$ are not isomorphic, and no clever bijection can change that.
+In the same way, $\exists x \, \forall y \, \neg (y < x)$ says that there is a least element, so it separates $(\mathbb{N}, <)$ from $(\mathbb{Z}, <)$.
+
+The lemma also says that the class of [[models|MVCH6N9SNW]] of any set of sentences is closed under isomorphism.
+
+### Automorphisms and definable sets
+
+Apply part 2 with $\mathcal{N} = \mathcal{M}$ and an [[automorphism|DSQ17TNW1C]] $h$ of $\mathcal{M}$.
+If $\varphi(x_1, \ldots, x_n)$ has no parameters and defines $X \subseteq M^n$, then $h$ maps $X$ onto $X$.
+With parameters $b_1, \ldots, b_m$, the same holds for every automorphism that fixes each $b_j$.
+This is the standard tool to prove that a set is not [[definable|1DQ1M6ZWS4]].
+For example, $n \mapsto -n$ is an automorphism of $(\mathbb{Z}, +)$ that moves $1$ to $-1$, so no formula without parameters defines the positive integers there.
+
 ### Why each hypothesis is needed
 
-- Surjectivity is needed. The inclusion of $(\N, <)$ into $(\Z, <)$ is injective and preserves and reflects $<$. The sentence $\exists x \, \forall y \, \neg (y < x)$ is true in $(\N, <)$ and false in $(\Z, <)$.
-- Injectivity is needed. Let $\mathcal{M}$ have domain $\set{0, 1}$ and $\mathcal{N}$ domain $\set{0}$, in the empty signature, with $h$ constant. Then $\exists x \, \exists y \, \neg (x = y)$ is true in $\mathcal{M}$ and false in $\mathcal{N}$.
-- Reflection of relations is needed. The identity map from $(\set{0, 1}, \emptyset)$ to $(\set{0, 1}, \set{(0, 1)})$ is a bijective homomorphism. The sentence $\exists x \, \exists y \, R(x, y)$ is false in the first and true in the second.
+Surjectivity is needed.
+The inclusion of $(\mathbb{N}, <)$ into $(\mathbb{Z}, <)$ is injective and preserves and reflects $<$, yet the least-element sentence above is true in the first and false in the second.
 
-### Consequences
+Injectivity is needed.
+In the empty signature, let $\mathcal{M}$ have domain $\{0, 1\}$ and $\mathcal{N}$ have domain $\{0\}$, with $h$ constant.
+Then $\exists x \, \exists y \, \neg (x = y)$ is true in $\mathcal{M}$ and false in $\mathcal{N}$.
 
-1. Isomorphic structures are [[elementarily equivalent|P3B1V182N4]]. So a property expressed by a first-order sentence is an isomorphism invariant, and a sentence true in one structure and false in another shows that they are not isomorphic.
-2. The class of [[models|MVCH6N9SNW]] of a set of sentences is closed under isomorphism.
-3. Let $\sigma$ be an [[automorphism|DSQ17TNW1C]] of $\mathcal{M}$ and let $X \subseteq M^n$ be defined by a formula $\varphi(x_1, \ldots, x_n)$ without parameters. Then $\sigma$ maps $X$ onto $X$: apply part 2 with $h = \sigma$ to each tuple.
-4. With parameters $\bar{b}$, the same holds for the automorphisms that fix each $b_i$. This is the standard tool to prove that a set is not [[definable|1DQ1M6ZWS4]].
+Reflection of relations is needed.
+The identity map from $(\{0, 1\}, \emptyset)$ to $(\{0, 1\}, \{(0, 1)\})$ is a bijective homomorphism for one binary relation symbol $R$.
+The sentence $\exists x \, \exists y \, R(x, y)$ is false in the first structure and true in the second.
 
-### Converse
+### The converse
 
-The converse of part 3 is false: elementarily equivalent structures need not be isomorphic.
-For example $(\Q, <)$ and $(\R, <)$ satisfy the same sentences, a fact of model theory, but they have different cardinalities.
-By the [[Löwenheim-Skolem theorem|484M0TZ1S7]], every infinite structure in a countable signature is elementarily equivalent to a structure of a different cardinality, so the converse fails for every infinite structure.
-For finite structures in a finite signature the converse is true: a finite structure is described up to isomorphism by one sentence.
+The converse of part 3 is false: structures with the same true sentences, called [[elementarily equivalent|P3B1V182N4]], need not be isomorphic.
+The standard example is $(\mathbb{Q}, <)$ and $(\mathbb{R}, <)$.
+Model theory shows that they satisfy the same sentences, since both are dense linear orders without endpoints, but they are not isomorphic, because $\mathbb{Q}$ is countable and $\mathbb{R}$ is not.
+By the [[Löwenheim-Skolem theorem|484M0TZ1S7]], every infinite structure is elementarily equivalent to a structure of a different cardinality, so the converse fails for every infinite structure.
+For finite structures in a finite signature the converse holds, because one sentence describes a finite structure up to isomorphism.
 
 ### Generalizations
 
-1. An elementary embedding preserves and reflects all formulas, by definition; an isomorphism is a surjective elementary embedding.
-2. A homomorphism preserves every positive existential formula, that is, every formula built from atomic formulas with $\wedge$, $\vee$ and $\exists$.
-3. An embedding preserves and reflects every quantifier-free formula.
+An elementary embedding preserves and reflects all formulas, by definition, and an isomorphism is the same as a surjective elementary embedding.
+A homomorphism preserves every positive existential formula, that is, every formula built from atomic formulas with $\wedge$, $\vee$ and $\exists$.
+An embedding preserves and reflects every quantifier-free formula.
+
+### Watch out
+
+A bijection between the domains is not enough.
+The map $n \mapsto n + 1$ is a bijection from $\mathbb{Z}$ to $\mathbb{Z}$, but it is not an isomorphism of $(\mathbb{Z}, +, 0)$, since it sends $0$ to $1$ and $0 + 0 = 0$ to $1 \neq 1 + 1$.
+Before you transfer a sentence, check that the map respects every symbol of the signature, in both directions for the relation symbols.
+
+### Try it
+
+Show that $(\mathbb{Z}, +)$ and $(\mathbb{Z} \times \mathbb{Z}, +)$ are not isomorphic.
+The sentence $\exists x \, \forall y \, \exists z \, (y = z + z \vee y = x + z + z)$ says that there are at most two classes modulo doubling; it is true in $\mathbb{Z}$ with $x = 1$, and false in $\mathbb{Z} \times \mathbb{Z}$, where there are four classes modulo $2$.
+
+Is $n \mapsto -n$ an isomorphism from $(\mathbb{Z}, <)$ to itself?
+No: it reverses the order, since $1 < 2$ but $-1 > -2$.
 
 ## History
 
-The lemma is a direct consequence of Tarski's recursive definition of satisfaction from 1933.
-It appears in every textbook treatment of first-order semantics, usually just after the definition of truth.
+The recursive definition of satisfaction that the proof follows is the one Tarski gave in 1933.
+The lemma is proved in every textbook treatment of first-order semantics, usually right after the definition of truth.
 
 ## Explanations
 
 ### L1 human
 
-Two structures are isomorphic when one is a copy of the other with the elements renamed.
-Renaming does not change which statements are true.
-So isomorphic structures make the same sentences true.
+Two structures are isomorphic when one is an exact copy of the other with the elements renamed.
+Think of a chess game written in two notations: the moves are the same, only the labels differ.
+A statement in the language can only talk about how the elements relate, not about their labels.
+So renaming cannot change which statements are true.
 
 ### L2 human
 
-We check part 2 for the isomorphism $h(n) = -n$ from $(\Z, <)$ to $(\Z, >)$, read as a structure for the symbol $<$ interpreted as $>$.
+We check part 2 for the isomorphism $h(n) = -n$ from $(\mathbb{Z}, <)$ to $(\mathbb{Z}, >)$, which is the integers with the symbol $<$ read as "greater than".
 Let $\varphi = \exists y \, (x < y)$ and $s(x) = 3$.
-
-1. In $(\Z, <)$, the witness $y \mapsto 4$ gives $3 < 4$, so $\varphi$ is satisfied under $s$.
-2. Under $h \circ s$, $x \mapsto -3$. In $(\Z, >)$, the symbol $<$ means $>$, so we need $b$ with $-3 > b$.
-3. The witness $b = -4 = h(4)$ works. So $\varphi$ is satisfied under $h \circ s$, as part 2 predicts.
-
-The typical use is to show that two structures are not isomorphic, by a sentence true in one and false in the other.
-A trap is to apply the lemma to a bijection that is not an isomorphism; the bijection must respect every symbol in both directions.
+In $(\mathbb{Z}, <)$, the witness $4$ gives $3 < 4$, so $\varphi$ is satisfied under $s$.
+Under $h \circ s$, the variable $x$ has the value $-3$, and in $(\mathbb{Z}, >)$ we need some $b$ with
+$$-3 > b.$$
+The witness $b = -4 = h(4)$ works, so $\varphi$ is satisfied under $h \circ s$, as part 2 predicts.
+Notice that the witness moved along $h$, which is exactly the quantifier step of the [[proof|X3XGDVSANT]].
 
 ### L3 human
 
 Part 3 says that the map $\mathcal{M} \mapsto \operatorname{Th}(\mathcal{M})$ is constant on isomorphism classes.
-The lemma holds in every logic that deserves the name, and abstract model theory takes it as an axiom of a logic.
-Consequence 3 is the semantic half of Galois-type arguments: definable sets are unions of orbits of the automorphism group, though not every union of orbits is definable.
+Abstract model theory takes this property as part of the definition of a logic, so every logic in that sense satisfies it.
+The automorphism consequence says that definable sets are unions of orbits of the automorphism group, though not every union of orbits is definable.
+Model theory studies the finer relation of elementary equivalence and the maps that preserve all formulas, the elementary embeddings.

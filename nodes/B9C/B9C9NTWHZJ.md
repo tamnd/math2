@@ -18,59 +18,73 @@ sources:
 
 ## Statement
 
+A set of universal sentences without equality has a model exactly when it has a model made of closed terms.
+
 Let $L$ be a signature with at least one constant symbol.
-Let $\Sigma$ be a set of universal $L$-sentences, that is, sentences $\forall x_1 \cdots \forall x_n \, \varphi$ with $\varphi$ quantifier-free, in which the equality symbol does not occur.
+Let $\Sigma$ be a set of universal $L$-sentences, that is, sentences of the form $\forall x_1 \cdots \forall x_n \, \varphi$ with $\varphi$ quantifier-free, in which the equality symbol does not occur.
 Then $\Sigma$ has a [[model|CWQV9PTCB3]] if and only if $\Sigma$ has a [[Herbrand model|JAKSE2A1D4]].
 
 ## Remarks
 
 ### Why each hypothesis is needed
 
-- Universality is needed. The set $\set{\exists x \, P(x), \neg P(c)}$ in $L = \set{c, P}$ has the model $(\set{0, 1}, c = 0, P = \set{1})$, but [[no Herbrand model|3MKF3CSB9E]], because $H(L) = \set{c}$.
-- The absence of equality is needed. The set $\set{c = d}$ in $L = \set{c, d}$ has a one-element model, but in every Herbrand structure $c$ and $d$ are distinct terms, so $c = d$ is false.
-- The constant symbol is needed for $H(L)$ to be nonempty. Without it, one first adds a new constant; the theorem then gives a Herbrand model for the larger signature.
+Universality is needed.
+The set $\{ \exists x \, P(x), \neg P(c) \}$ in $L = \{ c, P \}$ has the model with domain $\{ 0, 1 \}$, $c = 0$ and $P = \{ 1 \}$, but [[no Herbrand model|3MKF3CSB9E]].
+The Herbrand universe is $\{ c \}$, and the only element must fail $P$, so nothing witnesses $\exists x \, P(x)$.
 
-### Consequences
+The absence of equality is needed.
+The set $\{ c = d \}$ in $L = \{ c, d \}$ has a one-element model, but in every Herbrand structure $c$ and $d$ are distinct terms, so $c = d$ is false.
 
-1. [[Herbrand's theorem|VZ21F10WRS]]: with the compactness theorem for propositional logic, a set of universal sentences without equality is unsatisfiable if and only if some finite set of its ground instances is propositionally unsatisfiable.
-2. With [[Skolem normal form|GCPQGMJYEV]], every set of sentences without equality is equisatisfiable with a set of universal sentences in a larger signature. So satisfiability in general reduces to the existence of Herbrand models.
-3. A universal sentence without equality is satisfiable if and only if it has a countable model, because $H(L)$ is countable for countable $L$.
+The constant symbol is needed so that the [[Herbrand universe|NFW38QJ3A7]] is nonempty.
+Without one, we first add a new constant, and the theorem then gives a Herbrand model for the larger signature.
 
-### Converse
+### What it gives you
 
-The direction "a Herbrand model is a model" holds by definition, so the theorem is an equivalence.
+The theorem turns a search for a model into a search for a set of ground atoms.
+With $\Sigma = \{ P(a), \ \forall x \, (P(x) \to Q(f(x))), \ \forall x \, \neg Q(x) \}$, the ground instances
+$$P(a), \qquad P(a) \to Q(f(a)), \qquad \neg Q(f(a))$$
+are already propositionally contradictory, so $\Sigma$ has no Herbrand model, and by the theorem no model at all.
+
+With the [[compactness theorem for propositional logic|4X9126SEMM]], the theorem gives [[Herbrand's theorem|VZ21F10WRS]]: a set of universal sentences without equality is unsatisfiable if and only if some finite set of its ground instances is propositionally unsatisfiable.
+With [[Skolem normal form|GCPQGMJYEV]], every set of sentences without equality is [[equisatisfiable|B37TYWXS74]] with a set of universal sentences in a larger signature.
+So the question of satisfiability in general reduces to the existence of Herbrand models.
+For countable $L$ the universe $H(L)$ is countable, so a satisfiable set of universal sentences without equality has a countable model.
+
+### The converse
+
+A Herbrand model is a model, so the direction from right to left holds by definition, and the theorem is an equivalence.
 
 ### Generalizations
 
 With equality, a set of universal sentences has a model if and only if it has a model whose domain is a quotient of $H(L)$ by a congruence relation.
-For Horn clauses the theorem gives a least Herbrand model, which is the standard semantics of logic programs.
+For definite Horn clauses the theorem gives a least Herbrand model, the intersection of all Herbrand models, and this is the standard semantics of logic programs.
 
 ## History
 
-The theorem is implicit in Herbrand's 1930 thesis, where satisfiability is studied through the ground instances over the domain of terms.
-It became a basic tool of automated theorem proving with the work on resolution in the 1960s.
+The idea goes back to Jacques Herbrand's 1930 thesis, which studied quantified formulas through their instances over the domain of terms.
+The theorem in the form stated here became a basic tool of automated theorem proving in the 1960s, with resolution, which John Alan Robinson introduced in 1965.
 
 ## Explanations
 
 ### L1 human
 
-If some world satisfies a list of rules of the form "for all $x$, ...", then a world made only of names satisfies them too.
-We read off the true basic facts about names from the given world.
-Rules that only say "for all" stay true when we pass to the smaller world of names.
+Suppose some world satisfies a list of rules of the form "for all $x$, ...".
+Then a world made only of names satisfies the same rules.
+We read off the true basic facts about names from the given world, through what each name means there.
+Rules that only say "for all" stay true when we pass to the smaller world of names, because they ask less of a smaller world.
 
 ### L2 human
 
-We see the theorem at work on $\Sigma = \set{\forall x \, (P(x) \to Q(f(x))), \ P(a), \ \forall x \, \neg Q(x)}$.
-
-1. Any model would satisfy $P(a)$, then $Q(f(a))$ by the first sentence, and $\neg Q(f(a))$ by the third.
-2. So $\Sigma$ has no model.
-3. The theorem says that it is enough to search the Herbrand structures; the ground instances $P(a) \to Q(f(a))$, $P(a)$ and $\neg Q(f(a))$ are already propositionally contradictory.
-
+Here is a worked use on $\Sigma = \{ \forall x \, R(x, f(x)), \ \forall x \, \neg R(x, x) \}$ in $L = \{ a, f, R \}$.
+The two-element structure with $a = 0$, $f(n) = 1 - n$ and $R = \{ (0, 1), (1, 0) \}$ is a model.
+The value of $f^n(a)$ there is $n \bmod 2$.
+The proof of the theorem sets $R(f^m(a), f^n(a))$ true exactly when $m + n$ is odd, and [[the worked example|73MVVFTCY7]] checks that this Herbrand structure is a model.
 The typical use is to justify proof search over ground instances.
-A trap is to apply the theorem to sentences with $\exists$; first Skolemize them, which changes the signature.
+Watch out: do not apply the theorem to sentences with $\exists$ before you Skolemize them, and note that Skolemizing changes the signature.
 
 ### L3 human
 
-The proof shows more: the evaluation map from a Herbrand model to the given model preserves and reflects all atomic formulas.
-Up to logical equivalence, the universal sentences are exactly the sentences preserved under substructures, by the Łoś-Tarski theorem.
+The proof shows more: the evaluation map from the Herbrand model to the given model preserves and reflects all atomic formulas.
+Its image is the [[substructure|676H7EGTKJ]] generated by the constants, and universal sentences pass down to substructures.
+Up to logical equivalence, the universal sentences are exactly the sentences preserved under substructures, by the [[Łoś-Tarski theorem|9RN0KYXNT1]].
 This explains why universality is the right hypothesis.
