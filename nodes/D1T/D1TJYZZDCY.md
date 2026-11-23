@@ -15,62 +15,85 @@ sources:
 
 ## Summary
 
-A normal modal logic is a [[modal logic|G8VGTW9P4F]] $\Lambda$ that contains the axiom $\mathrm{K}$, $\square(p \to q) \to (\square p \to \square q)$, and is closed under the [[necessitation rule|G989VP2NGP]].
-This rule says: if $\varphi \in \Lambda$, then $\square\varphi \in \Lambda$.
+A normal modal logic is a set of laws in which the box behaves like "true at every alternative": it holds of every theorem, and it passes through implication.
+For example, every normal logic proves $\square(p \wedge q) \to \square p$ in three steps.
+The formula $(p \wedge q) \to p$ is a tautology, so necessitation gives $\square((p \wedge q) \to p)$.
+The axiom $\mathrm{K}$ turns this into $\square(p \wedge q) \to \square p$ by modus ponens.
+
+Exactly, a normal modal logic is a [[modal logic|G8VGTW9P4F]] $\Lambda$ that contains the axiom $\mathrm{K}$ and is closed under the [[necessitation rule|G989VP2NGP]]:
+$$\square(p \to q) \to (\square p \to \square q) \in \Lambda, \qquad \varphi \in \Lambda \implies \square\varphi \in \Lambda.$$
 So $\Lambda$ contains all tautologies and is closed under modus ponens, uniform substitution and necessitation.
-The smallest such set is $\mathsf{K}$, defined in [[normal modal logic K|JS8W7PA6JK]].
-For a set $\Gamma$ of formulas, $\mathsf{K}\Gamma$ is the smallest normal modal logic that contains $\Gamma$.
-Kripke semantics describes only normal logics, since the set of formulas valid on a class of frames is always normal.
+The smallest such set is $\mathsf{K}$, defined in [[normal modal logic K|JS8W7PA6JK]], and $\mathsf{K}\Gamma$ is the smallest normal modal logic that contains a set $\Gamma$.
 
 ## Motivation
 
-The formulas valid on a class of [[Kripke frames|NGHWZ9Y7ZV]] always contain $\mathrm{K}$ and are closed under necessitation, see [[soundness of normal modal logics|E87G6ZTMTN]].
-So these two conditions are the minimum that a logic needs if it is to have a relational semantics.
-They also say that $\square$ is a "universal quantifier" over alternatives: it commutes with finite conjunctions and holds of every theorem.
-The study of normal logics then becomes the study of the conditions on frames.
+The formulas valid on a class of [[Kripke frames|NGHWZ9Y7ZV]] always contain $\mathrm{K}$ and are closed under necessitation, by [[soundness of normal modal logics|E87G6ZTMTN]].
+So these two conditions are the least that a logic needs if it is to have a relational semantics.
+They say that $\square$ acts as a universal quantifier over alternatives: it holds of every theorem, and it commutes with finite conjunctions.
+
+Once we fix these two conditions, the study of normal logics becomes the study of conditions on frames.
+Adding $\mathrm{T}$ asks for reflexive frames, adding $\mathrm{4}$ asks for transitive frames, and so on, as [[common modal axiom schemata|FDFQFWPM4X]] shows.
+The completeness theorems of the [[canonical model|TVE4F04KME]] and the decision methods of [[filtration|6ZZSHAKG5F]] are theorems about normal logics.
 
 ## Notation
 
-1. $\mathsf{K}\Gamma$ or $\mathsf{K} + \Gamma$ is the normal logic axiomatized by $\Gamma$; for named axioms we write $\mathsf{KT4}$, $\mathsf{KD45}$ and so on.
-2. Traditional names: $\mathsf{T} = \mathsf{KT}$, $\mathsf{D} = \mathsf{KD}$, $\mathsf{S4} = \mathsf{KT4}$, $\mathsf{B} = \mathsf{KTB}$, $\mathsf{S5} = \mathsf{KT5}$.
-3. $\operatorname{NExt}(\Lambda)$ is the set of normal logics that contain $\Lambda$; it is a complete lattice under inclusion.
-4. $\Lambda \vdash \varphi$ means $\varphi \in \Lambda$, and $\Gamma \vdash_\Lambda \varphi$ means $\Lambda \vdash (\gamma_1 \wedge \dots \wedge \gamma_n) \to \varphi$ for some $\gamma_1, \dots, \gamma_n \in \Gamma$.
+We write $\mathsf{K}\Gamma$ or $\mathsf{K} + \Gamma$ for the normal logic axiomatized by $\Gamma$, and $\mathsf{KT4}$, $\mathsf{KD45}$ and so on for named axioms.
+Books use two families of names, and both are in use: $\mathsf{T} = \mathsf{KT}$, $\mathsf{D} = \mathsf{KD}$, $\mathsf{S4} = \mathsf{KT4}$, $\mathsf{B} = \mathsf{KTB}$ and $\mathsf{S5} = \mathsf{KT5}$.
+$\operatorname{NExt}(\Lambda)$ is the set of normal logics that contain $\Lambda$, and it is a complete lattice under inclusion.
+We write $\Gamma \vdash_\Lambda \varphi$ when $\Lambda \vdash (\gamma_1 \wedge \dots \wedge \gamma_n) \to \varphi$ for some $\gamma_1, \dots, \gamma_n \in \Gamma$.
 
 ## Remarks
 
-### Examples
+### Logics you will meet
 
-1. $\mathsf{K}$ itself, the logic of all frames.
-2. The logics $\mathsf{T}$, $\mathsf{D}$ and $\mathsf{K4}$ of [[modal logics T, D and K4|XVYMEZKH7R]], and $\mathsf{S4}$ and $\mathsf{S5}$ of [[modal logic S4|N60RVXSA5W]] and [[modal logic S5|VC3A2VWXND]].
-3. In every normal logic, $\square(p \wedge q) \leftrightarrow (\square p \wedge \square q)$ is a theorem, see [[the derivation in K|S860E9DNXA]].
-4. The trivial logic $\mathsf{K} + (\square p \leftrightarrow p)$ and the verum logic $\mathsf{K} + \square\bot$ are normal and consistent, see [[the two extreme logics|5PZCVXYXDD]].
-5. The provability logic $\mathsf{GL} = \mathsf{K} + \square(\square p \to p) \to \square p$ of [[provability logic|WJK0YA4GP2]].
+$\mathsf{K}$ itself is the logic of all frames.
+The logics $\mathsf{T}$, $\mathsf{D}$ and $\mathsf{K4}$ of [[modal logics T, D and K4|XVYMEZKH7R]], and the logics [[S4|N60RVXSA5W]] and [[S5|VC3A2VWXND]], are normal.
+So is the [[provability logic|WJK0YA4GP2]] $\mathsf{GL}$, which adds [[Löb's axiom|QQ6PZFGGB3]] to $\mathsf{K}$.
+At the top sit two consistent extremes, the trivial logic $\mathsf{K} + (\square p \leftrightarrow p)$ and the verum logic $\mathsf{K} + \square\bot$; see [[the two extreme logics|5PZCVXYXDD]].
 
-### Non-examples
+### A first derivation
 
-1. The logics of [[neighborhood semantics|CN7HK9K1B6]] that omit $\mathrm{K}$, such as the smallest classical logic $\mathsf{E}$, are modal logics but not normal, see [[the neighbourhood example|G2X3PKG55F]].
-2. Lewis's systems $\mathsf{S2}$ and $\mathsf{S3}$ are not normal: they are not closed under necessitation.
-3. The set of propositional tautologies in the modal language is closed under the three rules of a modal logic, but it does not contain $\mathrm{K}$.
+In every normal logic the box distributes over conjunction:
+$$\square(p \wedge q) \leftrightarrow (\square p \wedge \square q).$$
+The direction from left to right is the derivation of the Summary, done once for $p$ and once for $q$.
+The direction from right to left needs the tautology $p \to (q \to (p \wedge q))$ and two uses of $\mathrm{K}$.
+[[Box distributes over conjunction in K|S860E9DNXA]] writes out both directions.
 
-### Basic properties
+### What is not normal
 
-1. An intersection of normal logics is normal, so $\mathsf{K}\Gamma$ exists, and $\operatorname{NExt}(\mathsf{K})$ is a complete lattice.
-2. Every normal logic proves the derived rules RM, RE and RK of [[normal modal logic K|JS8W7PA6JK]].
-3. For every class $\mathsf{C}$ of frames, $\operatorname{Log}(\mathsf{C})$ is a normal logic, see [[soundness of normal modal logics|E87G6ZTMTN]].
-4. A normal logic is consistent if and only if it omits $\bot$; the only inconsistent one is the set of all formulas.
-5. A normal logic is Kripke complete when it equals $\operatorname{Log}(\mathsf{C})$ for some class $\mathsf{C}$. The logics of the [[completeness theorem|FXTCKYR3AQ]] are Kripke complete, and some normal logics are not.
+The classical logics of [[neighborhood semantics|CN7HK9K1B6]] that omit $\mathrm{K}$, such as the smallest one, $\mathsf{E}$, are modal logics but not normal; see [[the neighborhood example|G2X3PKG55F]].
+Lewis's systems $\mathsf{S2}$ and $\mathsf{S3}$ are not normal, because they are not closed under necessitation.
+The set of tautologies in the modal language is closed under the three rules of a modal logic, but it is not normal: it does not contain $\mathrm{K}$, because $\square(p \to q)$, $\square p$ and $\square q$ act as three unrelated letters.
+
+### The rules you can use
+
+An intersection of normal logics is normal, so $\mathsf{K}\Gamma$ exists and $\operatorname{NExt}(\mathsf{K})$ is a complete lattice.
+Every normal logic has the derived rules RM, RE and RK of [[normal modal logic K|JS8W7PA6JK]], which move a theorem under the box.
+For every class $\mathsf{C}$ of frames, $\operatorname{Log}(\mathsf{C})$ is a normal logic, by soundness.
+A normal logic is consistent exactly when it omits $\bot$, and the only inconsistent one is the set of all formulas.
+A normal logic is *Kripke complete* when it equals $\operatorname{Log}(\mathsf{C})$ for some class $\mathsf{C}$.
+The logics of the [[completeness theorem|FXTCKYR3AQ]] are Kripke complete, and some normal logics are not; see [[Kripke incompleteness|W67YJQTT50]].
+
+### Watch out
+
+The rule of necessitation is not the formula $\varphi \to \square\varphi$.
+Adding $p \to \square p$ as an axiom gives a much stronger logic, and $\mathsf{K}$ does not prove it; see [[the non-theorem p → □p|R2WWD2R5NV]].
+The rule also applies only to theorems, never to assumptions of a derivation, or the deduction theorem breaks; see [[the global consequence example|R6MA6TFN5K]].
+Finally, $\square$ does not distribute over $\vee$: only $(\square p \vee \square q) \to \square(p \vee q)$ is a theorem, and [[the three-world model|6JXBZ2C9B4]] refutes the converse.
 
 ### History
 
-Kripke's paper of 1963 on the semantics of these logics has "normal modal propositional calculi" in its title.
-Segerberg developed their general theory in An essay in classical modal logic (1971).
-Lewis's systems $\mathsf{S2}$ and $\mathsf{S3}$ are not normal, and Kripke treated them with non-normal worlds in 1965.
+Kripke's paper of 1963 on these logics has "normal modal propositional calculi" in its title.
+Kripke treated the non-normal systems $\mathsf{S2}$ and $\mathsf{S3}$ with non-normal worlds in 1965.
+Segerberg developed the general theory of normal logics in An Essay in Classical Modal Logic (1971).
 
-### Common errors
+### Try it
 
-1. Adding $\varphi \to \square\varphi$ as an axiom instead of the rule of necessitation; this gives a much stronger logic, see [[the non-theorem p to box p|R2WWD2R5NV]].
-2. Applying necessitation to a hypothesis inside a derivation from assumptions; this breaks the deduction theorem, see [[the global consequence example|R6MA6TFN5K]].
-3. Assuming that $\square$ distributes over $\vee$; only $\square p \vee \square q \to \square(p \vee q)$ holds.
+First, derive $\square p \to \square(p \vee q)$ in $\mathsf{K}$.
+The formula $p \to (p \vee q)$ is a tautology, so necessitation gives $\square(p \to (p \vee q))$, and $\mathrm{K}$ with modus ponens gives the claim.
+
+Second, is the verum logic $\mathsf{K} + \square\bot$ consistent?
+Yes: on the frame with one world and no arrows, $\square\bot$ is true, so by soundness the logic does not contain $\bot$.
 
 ## Explanations
 
@@ -83,19 +106,18 @@ For example, "necessarily, it rains or it does not rain" is a law of every norma
 
 ### L2 human
 
-We derive $\square p \wedge \square q \to \square(p \wedge q)$ in any normal logic $\Lambda$.
-
-1. $p \to (q \to (p \wedge q))$ is a tautology, so it is in $\Lambda$.
-2. Necessitation gives $\square(p \to (q \to (p \wedge q)))$.
-3. Axiom $\mathrm{K}$ and modus ponens give $\square p \to \square(q \to (p \wedge q))$.
-4. Axiom $\mathrm{K}$ with $q$ and $p \wedge q$ gives $\square(q \to (p \wedge q)) \to (\square q \to \square(p \wedge q))$.
-5. Chaining 3 and 4 by a tautology gives $\square p \to (\square q \to \square(p \wedge q))$, which is the claim.
-
-The typical use is to derive laws of $\square$ without any semantics.
-A trap: necessitation applies to theorems of $\Lambda$, never to assumptions.
+We derive $\square p \wedge \square q \to \square(p \wedge q)$ in a normal logic $\Lambda$, without any semantics.
+We start from the tautology $p \to (q \to (p \wedge q))$, which is in $\Lambda$.
+Necessitation gives $\square(p \to (q \to (p \wedge q)))$, and then $\mathrm{K}$ with modus ponens gives the following line:
+$$\square p \to \square(q \to (p \wedge q)).$$
+The instance of $\mathrm{K}$ with $q$ and $p \wedge q$ for its letters is the next line:
+$$\square(q \to (p \wedge q)) \to (\square q \to \square(p \wedge q)).$$
+Chaining the two lines by the tautology $(a \to b) \to ((b \to c) \to (a \to c))$ gives $\square p \to (\square q \to \square(p \wedge q))$, which is the claim.
+The typical use of such derivations is to collect laws of $\square$ that hold in every normal logic.
+Watch out: necessitation applies to theorems of $\Lambda$, never to assumptions.
 
 ### L3 human
 
 A normal logic $\Lambda$ gives the Lindenbaum algebra of formulas modulo $\Lambda$-provable equivalence, a Boolean algebra with an operator that preserves $\top$ and $\wedge$.
 The normal logics correspond one to one to the varieties of such algebras, and $\operatorname{NExt}(\mathsf{K})$ is dually isomorphic to the lattice of subvarieties.
-The lattice structure is studied in [[modal model theory|SPQVNPZDTB]].
+The structure of this lattice is studied in [[the lattice of normal modal logics|EZ011FT3GT]], a topic of [[modal model theory|SPQVNPZDTB]].

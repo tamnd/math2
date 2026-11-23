@@ -28,55 +28,59 @@ The proof is in [[the proof of soundness|V4J6AXX5DF]].
 
 ## Remarks
 
-### Why each hypothesis is needed
+### What soundness is for
 
-1. Validity on frames cannot be replaced by validity in a model. The set of formulas valid in one model need not be closed under uniform substitution, see [[the axiom 4 example|NA6H3978PW]].
-2. The axioms in $\Gamma$ must be valid on the frames, not only true at some worlds. Otherwise necessitation fails, since $p$ can be true at $w$ while $\square p$ is false there.
+Soundness is the tool for showing that a formula is not provable.
+To show $\mathsf{K}\Gamma \nvdash \varphi$, we find a frame on which every formula of $\Gamma$ is valid, and a model on it with a world where $\varphi$ is false.
+For instance, $\mathsf{K}$ is consistent, since $\bot$ is false on the frame with one world.
+With [[common modal axiom schemata|FDFQFWPM4X]], the logics $\mathsf{T}$, $\mathsf{S4}$ and $\mathsf{S5}$ are sound for reflexive frames, for preorders and for equivalence relations.
 
-### Consequences
+### Why frames and not models
 
-1. To show $\mathsf{K}\Gamma \nvdash \varphi$, it suffices to find a frame on which $\Gamma$ is valid and a model on it with a world where $\varphi$ fails.
-2. $\mathsf{K}$ is consistent, since $\bot$ is not valid on the one-world frame.
-3. With [[common modal axiom schemata|FDFQFWPM4X]], the logics $\mathsf{T}$, $\mathsf{S4}$ and $\mathsf{S5}$ are sound for reflexive frames, preorders and equivalence relations.
+The hypothesis is validity on frames, and truth in one model is not enough.
+The formulas true in one model need not be closed under uniform substitution; see [[the axiom 4 example|NA6H3978PW]].
+Truth at some worlds is not enough either, since necessitation fails for it.
+If $p$ is true at $w$ and false at a successor of $w$, then $p$ holds at $w$ while $\square p$ does not.
 
-### Converse
+### The converse is completeness
 
-The converse, that every formula valid on all frames of $\mathsf{C}$ is a theorem of $\mathsf{K}\Gamma$, is completeness.
-It holds for the logics of [[the completeness theorem|FXTCKYR3AQ]], and it fails for some normal logics, which are Kripke incomplete.
+The converse says that every formula valid on all frames of $\mathsf{C}$ is a theorem of $\mathsf{K}\Gamma$.
+It holds for the logics of [[the completeness theorem|FXTCKYR3AQ]].
+It fails for some normal logics, which are [[Kripke incomplete|W67YJQTT50]].
 
-### Generalizations
+### Other forms of soundness
 
-1. The same proof gives soundness for local consequence. If $\Delta \vdash_{\mathsf{K}\Gamma} \varphi$, then $\varphi$ is true at every world of a $\mathsf{C}$-model where all of $\Delta$ is true.
-2. Soundness also holds for normal neighbourhood frames and for general frames, with the same induction.
+The same proof gives soundness for local consequence.
+If $\Delta \vdash_{\mathsf{K}\Gamma} \varphi$, then $\varphi$ is true at every world of a $\mathsf{C}$-model where all of $\Delta$ is true.
+Soundness also holds for normal [[neighborhood frames|CN7HK9K1B6]] and for [[general frames|GGG7BB78JB]], by the same induction.
 
 ## History
 
-Soundness for the relational semantics is part of Kripke's paper of 1963; it is the easy half of each of his completeness theorems.
+Soundness for the relational semantics is part of Kripke's paper of 1963, where it is the easy half of each completeness theorem.
 
 ## Explanations
 
 ### L1 human
 
 Soundness says that the rules of a modal logic never lead from true laws to false ones.
-If the starting laws hold in every world of some kind of model, then everything we derive also holds there.
-For example, the law "if necessarily $p$ and necessarily $q$, then necessarily ($p$ and $q$)" holds at every world of every frame.
+If the starting laws hold at every world of some kind of model, then everything we derive also holds there.
+For example, "if necessarily $p$ and necessarily $q$, then necessarily $p$ and $q$" holds at every world of every frame.
 
 ### L2 human
 
 We use soundness to show $\mathsf{K} \nvdash \square p \to p$.
 
-1. Take the frame $W = \set{w}$ with $R = \emptyset$.
-2. Take $V(p) = \emptyset$.
-3. $\square p$ is true at $w$, since $w$ has no successors.
-4. $p$ is false at $w$, so $\square p \to p$ fails at $w$.
-5. By soundness, every theorem of $\mathsf{K}$ is true at $w$, so $\square p \to p$ is not a theorem.
+1. Take the frame with $W = \{ w \}$ and $R = \varnothing$, and take $V(p) = \varnothing$.
+2. $\square p$ is true at $w$, since $w$ has no successors.
+3. $p$ is false at $w$, so $\square p \to p$ is false at $w$.
+4. By soundness, every theorem of $\mathsf{K}$ is true at $w$, so $\square p \to p$ is not a theorem.
 
 The typical use is exactly this: a countermodel shows that a formula is not provable.
-A trap: the countermodel must be on a frame that validates all axioms of the logic, not only those the proof seems to need.
+Watch out: the countermodel must lie on a frame that validates every axiom of the logic, not only the axioms a proof seems to need.
 
 ### L3 human
 
-Soundness is the statement that $\operatorname{Log}$ maps classes of frames to normal logics.
-This is the first half of a Galois connection between classes of frames and normal logics.
+Soundness says that $\operatorname{Log}$ sends classes of frames to normal logics.
+This is one half of a Galois connection between classes of frames and normal logics.
 The other half sends a logic $\Lambda$ to the class of frames that validate it.
 The logics fixed by the connection are the Kripke complete ones.
