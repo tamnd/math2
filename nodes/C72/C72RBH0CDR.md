@@ -37,7 +37,7 @@ So one ordinal marks the exact point where the theory stops.
 
 This suggests attaching an ordinal to every theory, and the proof-theoretic ordinal is that ordinal.
 It puts theories of very different kinds on one scale: arithmetic, subsystems of second-order arithmetic, set theories such as Kripke-Platek, and theories of inductive definitions.
-Computing it is the aim of an [[ordinal analysis|57PTMS2ADY]], and the later pages on $\Gamma_0$, the Bachmann-Howard ordinal and collapsing functions are all about naming the values.
+Computing it is the aim of an [[ordinal analysis|57PTMS2ADY]], and the [[Feferman-Schütte ordinal|CNN7BK5YAW]], the [[Bachmann-Howard ordinal|QH3ENXFRSV]] and [[collapsing functions|8S6CT4TMB7]] are all tools for naming the values.
 
 ## Notation
 
@@ -62,7 +62,7 @@ Both inductions are on formulas with the parameter $X$, which PA allows, so PA p
 
 ### The values for the standard theories
 
-The table lists the values that the later pages explain.
+The table lists the values for the theories that come up most often.
 
 | Theory | Proof-theoretic ordinal |
 |---|---|

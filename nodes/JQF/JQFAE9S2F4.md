@@ -37,7 +37,7 @@ But the map $\alpha \mapsto \varepsilon_\alpha$ has fixed points of its own, suc
 Veblen's idea is to repeat the step transfinitely and to index the stages by ordinals.
 
 The payoff in proof theory is a [[notation system|7MBX59Y7N9]] of type $\Gamma_0$, built from $0$, addition and $\varphi$.
-It is the notation system for the ordinals of predicative theories such as $\mathrm{ATR}_0$, and the [[collapsing functions|8S6CT4TMB7]] of later pages are measured against it.
+It is the notation system for the ordinals of predicative theories such as $\mathrm{ATR}_0$, and the [[collapsing functions|8S6CT4TMB7]] used for stronger theories are measured against it.
 
 ## Notation
 
@@ -55,7 +55,7 @@ The second clause gives $\varphi_1(0) = \varepsilon_0$, the least fixed point of
 At the next level, $\varphi_2(0) = \zeta_0$ is the least $\alpha$ with $\varepsilon_\alpha = \alpha$:
 $$\zeta_0 = \sup \{ \varepsilon_0, \varepsilon_{\varepsilon_0}, \varepsilon_{\varepsilon_{\varepsilon_0}}, \ldots \}.$$
 At the first limit level, $\varphi_\omega(0) = \sup_n \varphi_n(0)$ is the least common fixed point of all $\varphi_n$.
-The [[small values|R9YGZQ0ZG3]] page checks these with fundamental sequences.
+[[Small values of the Veblen function|R9YGZQ0ZG3]] checks these with fundamental sequences.
 
 ### Where the hierarchy stops
 

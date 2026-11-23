@@ -24,36 +24,39 @@ For a primitive recursive order $\prec$, let $\mathrm{WO}(\prec)$ be the sentenc
 Let $\varepsilon_\beta$ be the $\beta$-th [[epsilon number|PQSHBKCE7V]], counted from $\varepsilon_0$, so that $\varepsilon_{\varepsilon_0} = \sup_{\beta < \varepsilon_0} \varepsilon_\beta$.
 We prove the lower bound $\lvert \mathrm{ACA} \rvert \ge \varepsilon_{\varepsilon_0}$ from a cited lemma, and we cite the upper bound.
 
-1. Notation.
-   Fix a primitive recursive notation system for the ordinals below $\varepsilon_{\varepsilon_0}$: Cantor normal forms whose atoms are $0$ and symbols $\varepsilon_b$ for notations $b$ below $\varepsilon_0$.
-   For a notation $a$, write $\prec_a$ for the order restricted to the notations below $a$.
-2. Cited lemma.
-   $\mathrm{ACA}_0$ proves that if $\prec_a$ is a well-order, then so is $\prec_{\omega^a}$.
-   This is the theorem of Girard in [[reverse mathematics|7SQS69T17R]], read in the notation system.
-3. Successor step.
+### Notation and the cited lemma
+
+Fix a primitive recursive notation system for the ordinals below $\varepsilon_{\varepsilon_0}$: Cantor normal forms whose atoms are $0$ and symbols $\varepsilon_b$ for notations $b$ below $\varepsilon_0$.
+For a notation $a$, write $\prec_a$ for the order restricted to the notations below $a$.
+We cite a theorem of Girard in [[reverse mathematics|7SQS69T17R]], read in the notation system: $\mathrm{ACA}_0$ proves that if $\prec_a$ is a well-order, then so is $\prec_{\omega^a}$.
+
+### The climb through the epsilon numbers
+
+1. Successor step.
    Fix $b$ and assume $\mathrm{WO}(\prec_{\varepsilon_b})$.
    Adding one top element gives $\mathrm{WO}(\prec_{\varepsilon_b + 1})$.
-4. Put $t_0 = \varepsilon_b + 1$ and $t_{n+1} = \omega^{t_n}$, so that $\varepsilon_{b+1} = \sup_n t_n$.
-   Step 2 and induction on $n$ give $\mathrm{WO}(\prec_{t_n})$ for all $n$.
-5. The induction in step 4 is for the formula $\mathrm{WO}(\prec_{t_n})$, which has a set quantifier.
+2. Put $t_0 = \varepsilon_b + 1$ and $t_{n+1} = \omega^{t_n}$, so that $\varepsilon_{b+1} = \sup_n t_n$.
+   The cited lemma and induction on $n$ give $\mathrm{WO}(\prec_{t_n})$ for all $n$.
+3. The induction in step 2 is for the formula $\mathrm{WO}(\prec_{t_n})$, which has a set quantifier.
    $\mathrm{ACA}$ has this induction, and $\mathrm{ACA}_0$ does not.
-6. A descending sequence below $\varepsilon_{b+1}$ starts below some $t_n$, so step 4 gives $\mathrm{WO}(\prec_{\varepsilon_{b+1}})$.
-7. Limit step.
-   If $\lambda$ is a limit and $\mathrm{WO}(\prec_{\varepsilon_\beta})$ holds for all $\beta < \lambda$, then $\mathrm{WO}(\prec_{\varepsilon_\lambda})$ holds, by the argument of step 6.
-8. Base case.
-   Step 4 with $t_0 = 1$ gives $\mathrm{WO}(\prec_{\varepsilon_0})$.
-9. Steps 3 to 8 show, inside $\mathrm{ACA}$, that the formula $\varphi(b) := \mathrm{WO}(\prec_{\varepsilon_b})$ is progressive along the notations below $\varepsilon_0$.
-10. Gentzen's proof of [[transfinite induction in arithmetic|ZE54ABPMJ0]] uses only induction on formulas, and $\mathrm{ACA}$ has induction for all formulas.
-    So $\mathrm{ACA}$ proves transfinite induction for $\varphi$ below each notation $a \prec \varepsilon_0$.
-11. With step 9 this gives $\mathrm{ACA} \vdash \mathrm{WO}(\prec_{\varepsilon_a})$ for each $a \prec \varepsilon_0$.
-    So $\lvert \mathrm{ACA} \rvert \ge \sup_{a < \varepsilon_0} \varepsilon_a = \varepsilon_{\varepsilon_0}$.
-12. Upper bound (cited).
-    The ordinal analysis of $\mathrm{ACA}$ gives $\lvert \mathrm{ACA} \rvert \le \varepsilon_{\varepsilon_0}$, so $\lvert \mathrm{ACA} \rvert = \varepsilon_{\varepsilon_0}$.
+4. A descending sequence below $\varepsilon_{b+1}$ starts below some $t_n$, so step 2 gives $\mathrm{WO}(\prec_{\varepsilon_{b+1}})$.
+5. Limit step.
+   If $\lambda$ is a limit and $\mathrm{WO}(\prec_{\varepsilon_\beta})$ holds for all $\beta < \lambda$, then $\mathrm{WO}(\prec_{\varepsilon_\lambda})$ holds, by the argument of step 4.
+6. Base case.
+   Step 2 with $t_0 = 1$ gives $\mathrm{WO}(\prec_{\varepsilon_0})$.
+7. Steps 1 to 6 show, inside $\mathrm{ACA}$, that the formula $\varphi(b) := \mathrm{WO}(\prec_{\varepsilon_b})$ is progressive along the notations below $\varepsilon_0$.
+
+### The value
+
+Gentzen's proof of [[transfinite induction in arithmetic|ZE54ABPMJ0]] uses only induction on formulas, and $\mathrm{ACA}$ has induction for all formulas.
+So $\mathrm{ACA}$ proves transfinite induction for $\varphi$ below each notation $a \prec \varepsilon_0$.
+With step 7 this gives $\mathrm{ACA} \vdash \mathrm{WO}(\prec_{\varepsilon_a})$ for each $a \prec \varepsilon_0$, so $\lvert \mathrm{ACA} \rvert \ge \sup_{a < \varepsilon_0} \varepsilon_a = \varepsilon_{\varepsilon_0}$.
+For the upper bound we cite the ordinal analysis of $\mathrm{ACA}$, which gives $\lvert \mathrm{ACA} \rvert \le \varepsilon_{\varepsilon_0}$, so $\lvert \mathrm{ACA} \rvert = \varepsilon_{\varepsilon_0}$.
 
 ## Remarks
 
 The example shows how much the induction schema adds on top of comprehension.
-In $\mathrm{ACA}_0$ the climb stops at step 5, because the theory cannot run an induction on a formula with a set quantifier.
+In $\mathrm{ACA}_0$ the climb stops at step 3, because the theory cannot run an induction on a formula with a set quantifier.
 Each epsilon number is reached by one such induction, and Gentzen's argument then strings them together along every ordinal below $\varepsilon_0$.
 
 The same pattern holds one level up.

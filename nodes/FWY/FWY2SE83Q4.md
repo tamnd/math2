@@ -18,11 +18,16 @@ sources:
 
 Let $T = \mathrm{PA} + \neg\operatorname{Con}(\mathrm{PA})$, where $\operatorname{Con}(\mathrm{PA})$ is the [[consistency|VM8TQ70CVJ]] sentence built from the [[provability predicate|NB2BCZR40F]].
 We build an order that $T$ proves well-founded, although in fact it runs downward forever.
+
+### The order
+
 Let $\operatorname{Prf}(z, y)$ be the primitive recursive relation "$z$ codes a PA-proof of the formula with code $y$".
 Let $B(x)$ be $\exists z \le x \, \operatorname{Prf}(z, \ulcorner 0 = 1 \urcorner)$, a [[primitive recursive relation|QQQRJA90EP]] that says "a proof of $0 = 1$ has appeared by time $x$".
-Define $x \triangleleft y$ by
-$$(\neg B(x) \wedge \neg B(y) \wedge y < x) \vee (B(x) \wedge B(y) \wedge x < y) \vee (\neg B(x) \wedge B(y)).$$
+Define $x \triangleleft y$ by the following formula.
+$$(\neg B(x) \wedge \neg B(y) \wedge y < x) \vee (B(x) \wedge B(y) \wedge x < y) \vee (\neg B(x) \wedge B(y))$$
 In words: the numbers before the first proof of $0 = 1$ come first, in reverse order, and the numbers after it follow in the usual order.
+
+### Why it is a counterexample
 
 1. $T$ is consistent.
    If it were not, PA would prove $\operatorname{Con}(\mathrm{PA})$, which [[Gödel's second incompleteness theorem|4PZM5GJTR5]] rules out.

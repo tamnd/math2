@@ -15,32 +15,35 @@ sources:
 ## Example
 
 Let $A(x)$ be a formula with only $x$ free, and let $r = \operatorname{rk}(A(\bar 0))$.
-In the notation of [[the ω-rule|XAMKAB1BZM]], the closed instance of the [[induction schema|1QD0KDDGYJ]] for $A$ is
-$$I_A := \neg A(\bar 0) \vee E \vee \forall x \, A(x), \qquad E := \exists x \, (A(x) \wedge \neg A(Sx)).$$
+In the notation of [[the ω-rule|XAMKAB1BZM]], the closed instance of the [[induction schema|1QD0KDDGYJ]] for $A$ is the following formula $I_A$.
+$$I_A := \neg A(\bar 0) \vee E \vee \forall x \, A(x), \qquad E := \exists x \, (A(x) \wedge \neg A(Sx))$$
 A sequent is read as the disjunction of its members, so $I_A$ corresponds to the sequent $\neg A(\bar 0), E, \forall x \, A(x)$.
 We show that this sequent has a cut-free derivation of height $\omega + 1$, and $I_A$ one of height $\omega + 5$.
 The closed terms $S\bar n$ and $\overline{n+1}$ have the same value, so we exchange them freely.
 
-1. Tautology lemma: $\vdash^{2 \operatorname{rk}(B)}_0 \Gamma, \neg B, B$ for every closed $B$ and every $\Gamma$.
-   We prove it by induction on $B$ in steps 2 to 4.
-2. If $B$ is a literal, one of $B$ and $\neg B$ is true, so the sequent is an axiom of height $0$.
-3. If $B = C \wedge D$, then $\neg B = \neg C \vee \neg D$.
-   From $\neg C, C$ the ($\vee$) rule gives $\neg B, C$, and in the same way we get $\neg B, D$.
-   The ($\wedge$) rule gives $\neg B, B$, so the height grows by $2$ while the rank grows by $1$, and the case $C \vee D$ is symmetric.
-4. If $B = \forall x \, C(x)$, then $\neg B = \exists x \, \neg C(x)$.
-   From $\neg C(\bar n), C(\bar n)$ the ($\exists$) rule gives $\neg B, C(\bar n)$ for each $n$, and the ω-rule gives $\neg B, B$.
-   Again the height grows by $2$, and the case $\exists$ is symmetric.
-5. Let $\Delta_n$ be the sequent $\neg A(\bar 0), E, A(\bar n)$.
+### The tautology lemma
+
+The lemma says $\vdash^{2 \operatorname{rk}(B)}_0 \Gamma, \neg B, B$ for every closed $B$ and every $\Gamma$, and we prove it by induction on $B$.
+If $B$ is a literal, one of $B$ and $\neg B$ is true, so the sequent is an axiom of height $0$.
+If $B = C \wedge D$, then $\neg B = \neg C \vee \neg D$.
+From $\neg C, C$ the ($\vee$) rule gives $\neg B, C$, and in the same way we get $\neg B, D$.
+The ($\wedge$) rule gives $\neg B, B$, so the height grows by $2$ while the rank grows by $1$, and the case $C \vee D$ is symmetric.
+If $B = \forall x \, C(x)$, then $\neg B = \exists x \, \neg C(x)$.
+From $\neg C(\bar n), C(\bar n)$ the ($\exists$) rule gives $\neg B, C(\bar n)$ for each $n$, and the ω-rule gives $\neg B, B$.
+Again the height grows by $2$, and the case $\exists$ is symmetric.
+
+### The derivation of the induction instance
+
+1. Let $\Delta_n$ be the sequent $\neg A(\bar 0), E, A(\bar n)$.
    We show $\vdash^{2r + 2n}_0 \Delta_n$ by [[induction|0ASJVEFA9J]] on $n$.
-6. Case $n = 0$: $\Delta_0$ contains $\neg A(\bar 0)$ and $A(\bar 0)$, so step 1 gives height $2r$.
-7. Step from $n$ to $n + 1$: weaken $\Delta_n$ by $A(\overline{n+1})$, and take $\neg A(\overline{n+1}), A(\overline{n+1})$ from step 1, also weakened.
-8. The ($\wedge$) rule on $A(\bar n)$ and $\neg A(S\bar n)$ gives $\neg A(\bar 0), E, A(\overline{n+1}), A(\bar n) \wedge \neg A(S\bar n)$, with height at most $2r + 2n + 1$.
-9. The ($\exists$) rule with witness $\bar n$ turns $A(\bar n) \wedge \neg A(S\bar n)$ into $E$, which is already in the sequent.
+2. Case $n = 0$: $\Delta_0$ contains $\neg A(\bar 0)$ and $A(\bar 0)$, so the tautology lemma gives height $2r$.
+3. Step from $n$ to $n + 1$: weaken $\Delta_n$ by $A(\overline{n+1})$, and take $\neg A(\overline{n+1}), A(\overline{n+1})$ from the tautology lemma, also weakened.
+4. The ($\wedge$) rule on $A(\bar n)$ and $\neg A(S\bar n)$ gives $\neg A(\bar 0), E, A(\overline{n+1}), A(\bar n) \wedge \neg A(S\bar n)$, with height at most $2r + 2n + 1$.
+5. The ($\exists$) rule with witness $\bar n$ turns $A(\bar n) \wedge \neg A(S\bar n)$ into $E$, which is already in the sequent.
    This gives $\Delta_{n+1}$ with height $2r + 2n + 2$.
-10. The ω-rule applied to all $\Delta_n$ gives $\neg A(\bar 0), E, \forall x \, A(x)$, with height
-    $$\sup_n (2r + 2n) + 1 = \omega + 1.$$
-11. Four ($\vee$) steps give $I_A$.
-    Two of them join $E$ and $\forall x \, A(x)$ into $E \vee \forall x \, A(x)$, and two more join $\neg A(\bar 0)$ to it, so the height is $\omega + 5$.
+6. The ω-rule applied to all $\Delta_n$ gives $\neg A(\bar 0), E, \forall x \, A(x)$, with height $\sup_n (2r + 2n) + 1 = \omega + 1$.
+7. Four ($\vee$) steps give $I_A$.
+   Two of them join $E$ and $\forall x \, A(x)$ into $E \vee \forall x \, A(x)$, and two more join $\neg A(\bar 0)$ to it, so the height is $\omega + 5$.
 
 ## Remarks
 

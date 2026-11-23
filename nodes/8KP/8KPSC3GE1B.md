@@ -19,32 +19,37 @@ As in [[the definition|C19Z3B6V4P]], we add a predicate $X$ and allow it in thes
 We use the standard fact that $\mathrm{I\Sigma}_1$ also proves induction for $\Pi_1$ formulas.
 We show $\lvert \mathrm{I\Sigma}_1 \rvert \ge \omega^\omega$ in full, and we cite the upper bound.
 
-1. Notation.
-   Code each ordinal below $\omega^\omega$ by its [[Cantor normal form|6GD30FGYDZ]] $\omega^{k-1} c_{k-1} + \cdots + \omega c_1 + c_0$, a finite list of numbers.
-   The order $\prec$ compares two lists as in [[the comparison of Cantor normal forms|DXKWBFWCE0]], and it is primitive recursive.
-2. Claim.
-   For each $k$, $\mathrm{I\Sigma}_1$ proves that if $X$ is progressive along $\prec$, then $X(z)$ for all $z \prec \omega^k$.
-   We prove the claim by induction on $k$, outside the theory.
-3. Case $k = 0$.
-   The only $z \prec \omega^0 = 1$ is $0$, and nothing lies below $0$, so progressiveness gives $X(0)$.
-4. Step from $k$ to $k + 1$.
-   Assume that $X$ is progressive, and let $\psi(n)$ be $\forall z \, (z \prec \omega^k n \to X(z))$.
+### The claim
+
+Code each ordinal below $\omega^\omega$ by its [[Cantor normal form|6GD30FGYDZ]] $\omega^{k-1} c_{k-1} + \cdots + \omega c_1 + c_0$, a finite list of numbers.
+The order $\prec$ compares two lists as in [[the comparison of Cantor normal forms|DXKWBFWCE0]], and it is primitive recursive.
+
+Claim: for each $k$, $\mathrm{I\Sigma}_1$ proves that if $X$ is progressive along $\prec$ on the elements below $\omega^k$, then $X(z)$ for all $z \prec \omega^k$.
+We prove the claim by induction on $k$, outside the theory.
+For $k = 0$, the only $z \prec \omega^0 = 1$ is $0$, and nothing lies below $0$, so progressiveness gives $X(0)$.
+
+### The induction step
+
+We go from $k$ to $k + 1$.
+
+1. Assume that $X$ is progressive below $\omega^{k+1}$, and let $\psi(n)$ be $\forall z \, (z \prec \omega^k n \to X(z))$.
    This is a $\Pi_1$ formula in $X$.
-5. The formula $\psi(0)$ holds, since nothing lies below $0$.
-6. Assume $\psi(n)$, and let $Y(x)$ be $X(\omega^k n + x)$.
+2. The formula $\psi(0)$ holds, since nothing lies below $0$.
+3. Assume $\psi(n)$, and let $Y(x)$ be $X(\omega^k n + x)$.
    The sum of two codes is a primitive recursive function, so $Y$ is again a formula of the same form.
-7. Each $z$ with $\omega^k n \preceq z \prec \omega^k (n+1)$ is $\omega^k n + y$ for some $y \prec \omega^k$, by the Cantor normal form.
-8. If $Y(y)$ holds for all $y \prec x$, then $X(z)$ holds for all $z \prec \omega^k n + x$, by step 7 and $\psi(n)$.
+4. Each $z$ with $\omega^k n \preceq z \prec \omega^k (n+1)$ is $\omega^k n + y$ for some $y \prec \omega^k$, by the Cantor normal form.
+5. If $Y(y)$ holds for all $y \prec x$, then $X(z)$ holds for all $z \prec \omega^k n + x$, by step 4 and $\psi(n)$.
    Progressiveness of $X$ then gives $Y(x)$, so $Y$ is progressive below $\omega^k$.
-9. The proof for $k$ works with $Y$ in place of $X$, and it gives $Y(x)$ for all $x \prec \omega^k$.
+6. The claim for $k$ works with $Y$ in place of $X$, and it gives $Y(x)$ for all $x \prec \omega^k$.
    That is $\psi(n + 1)$.
-10. Induction for the $\Pi_1$ formula $\psi$ gives $\psi(n)$ for all $n$.
-    Every $z \prec \omega^{k+1}$ lies below $\omega^k (c + 1)$, where $c$ is its coefficient of $\omega^k$, so $X(z)$ for all $z \prec \omega^{k+1}$.
-11. Lower bound.
-    Step 2 holds for each $k$, so $\lvert \mathrm{I\Sigma}_1 \rvert \ge \sup_k \omega^k = \omega^\omega$.
-12. Upper bound (cited).
-    The ordinal analysis of $\mathrm{I\Sigma}_1$ shows that it proves induction along no primitive recursive well-order of type $\omega^\omega$ or more.
-    So $\lvert \mathrm{I\Sigma}_1 \rvert = \omega^\omega$.
+7. Induction for the $\Pi_1$ formula $\psi$ gives $\psi(n)$ for all $n$.
+   Every $z \prec \omega^{k+1}$ lies below $\omega^k (c + 1)$, where $c$ is its coefficient of $\omega^k$, so $X(z)$ for all $z \prec \omega^{k+1}$.
+
+### The value
+
+The claim holds for each $k$, so $\lvert \mathrm{I\Sigma}_1 \rvert \ge \sup_k \omega^k = \omega^\omega$.
+For the upper bound we cite the ordinal analysis of $\mathrm{I\Sigma}_1$: it proves induction along no primitive recursive well-order of type $\omega^\omega$ or more.
+So $\lvert \mathrm{I\Sigma}_1 \rvert = \omega^\omega$.
 
 ## Remarks
 

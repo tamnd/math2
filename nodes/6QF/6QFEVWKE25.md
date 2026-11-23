@@ -37,6 +37,8 @@ The recursion makes sense because of a lemma about [[normal functions|ERTAM0SFVB
 The fixed points of a normal function form a closed unbounded class, and so does the intersection of a set of such classes.
 By induction on $\gamma$, each class in clauses 2 and 3 is closed and unbounded, and each $\varphi_\gamma$ is normal.
 
+### Several variables
+
 **Finitary version.**
 Set $\varphi(\alpha) = \omega^\alpha$, and drop leading zeros: $\varphi(0, \alpha_{k-1}, \ldots, \alpha_0) = \varphi(\alpha_{k-1}, \ldots, \alpha_0)$.
 For $i \ge 1$ and $\alpha_i > 0$, the ordinal
