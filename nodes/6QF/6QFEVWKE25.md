@@ -21,19 +21,19 @@ sources:
 
 ## Definition
 
-The Veblen functions form a sequence of normal functions in which each function lists the common fixed points of all the earlier ones, starting from $\alpha \mapsto \omega^\alpha$.
+Each Veblen function lists the common fixed points of all the earlier ones.
 
-A function $f$ from [[ordinals|0RDJK7EQYY]] to ordinals is [[normal|PXTF18X433]] if it is strictly increasing and $f(\lambda) = \sup_{\xi < \lambda} f(\xi)$ for every limit $\lambda$.
-For a closed unbounded class $C$ of ordinals, its enumeration is the unique strictly increasing map from the ordinals onto $C$, and this map is normal.
+A function $f$ on [[ordinals|0RDJK7EQYY]] is [[normal|PXTF18X433]] if it is strictly increasing and $f(\lambda) = \sup_{\xi < \lambda} f(\xi)$ for every limit $\lambda$.
+The enumeration of a closed unbounded class $C$ is the strictly increasing map from the ordinals onto $C$, and it is normal.
 The Veblen functions $\varphi_\gamma$ are defined by [[transfinite recursion|0ZHQMQ2C1N]] on $\gamma$:
 
 1. $\varphi_0(\alpha) = \omega^\alpha$, with exponentiation from [[ordinal arithmetic|2C7MBG93AZ]];
 2. $\varphi_{\gamma + 1}$ is the enumeration of the class $\{ \alpha : \varphi_\gamma(\alpha) = \alpha \}$;
 3. for a limit $\gamma$, $\varphi_\gamma$ is the enumeration of the class $\{ \alpha : \varphi_\delta(\alpha) = \alpha \text{ for all } \delta < \gamma \}$.
 
-The Veblen function is the two-variable function $\varphi(\gamma, \alpha) := \varphi_\gamma(\alpha)$.
+The Veblen function is $\varphi(\gamma, \alpha) := \varphi_\gamma(\alpha)$.
 
-The recursion makes sense because of a lemma about [[normal functions|ERTAM0SFVB]], which we cite.
+The recursion is sound by a cited lemma on [[normal functions|ERTAM0SFVB]].
 The fixed points of a normal function form a closed unbounded class, and so does the intersection of a set of such classes.
 By induction on $\gamma$, each class in clauses 2 and 3 is closed and unbounded, and each $\varphi_\gamma$ is normal.
 
@@ -47,7 +47,7 @@ is the $\gamma$-th common fixed point of the functions $\xi \mapsto \varphi(\alp
 For two arguments this is the definition above.
 
 **Transfinite version.**
-The arguments are indexed by ordinals, only finitely many of them are nonzero, and the same fixed-point rule applies.
+Arguments are indexed by ordinals, finitely many are nonzero, and the same rule applies.
 
 ## Notation
 
