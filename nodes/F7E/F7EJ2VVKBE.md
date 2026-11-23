@@ -17,49 +17,54 @@ sources:
 
 ## Example
 
-Let $R$ be a binary relation symbol, and let
+"If Anna is an ancestor of Ben and Ben is an ancestor of Carl, then Anna is an ancestor of Carl" talks about three people, and no single fact links all three.
+Let $R$ be a binary relation symbol, and let $\tau$ be the transitivity axiom:
 $$\tau = \forall x \, \forall y \, \forall z \, \bigl( (R(x, y) \wedge R(y, z)) \to R(x, z) \bigr).$$
 We check that $\tau$ is not a sentence of the [[guarded fragment|Y7YS1C3GAE]].
 
-1. $\tau$ starts with a universal quantifier, so it can be guarded only as $\forall \vec{u} \, (\alpha \to \varphi)$ with an atom $\alpha$.
-2. In the form in which $\tau$ is written, the antecedent $R(x, y) \wedge R(y, z)$ is a conjunction, not an atom.
-3. A guard for the block $\forall x \, \forall y \, \forall z$ must contain $x$, $y$ and $z$. The atoms of $\tau$ are $R(x, y)$, $R(y, z)$ and $R(x, z)$, and each contains only two of them.
-4. A split of the block does not help. For example, $\forall x \, \forall z \, (R(x, z) \to \ldots)$ would need an inner formula with free variables $x$ and $z$ that quantifies $y$. Its guard must then contain $x$, $y$ and $z$, and no atom does.
+1. The sentence $\tau$ starts with a universal quantifier, so it could only be guarded as $\forall \vec{u} \, (\alpha \to \varphi)$ with an atom $\alpha$.
+2. As written, the antecedent $R(x, y) \wedge R(y, z)$ is a conjunction, not an atom.
+3. A guard for the block $\forall x \, \forall y \, \forall z$ must contain $x$, $y$ and $z$.
+   The atoms of $\tau$ are $R(x, y)$, $R(y, z)$ and $R(x, z)$, and each contains only two of the three.
+4. Splitting the block does not help.
+   For example, $\forall x \, \forall z \, (R(x, z) \to \ldots)$ would need an inner formula with the free variables $x$ and $z$ that quantifies $y$.
+   Its guard must then contain $x$, $y$ and $z$, and no atom does.
 5. So $\tau$ is not a guarded sentence.
-
-A stronger fact holds: no guarded sentence is equivalent to $\tau$.
-The reason is that guarded sentences are invariant under guarded bisimulation.
-Let $\mathcal{A}$ have elements $a, b, c$ with $R = \set{(a, b), (b, c), (a, c)}$; this relation is transitive.
-Build $\mathcal{B}$ by gluing copies of the three guarded pairs along single points, as in a tree, with no other edges.
-In $\mathcal{B}$, the pair $(a, b)$ meets a copy $(b, c')$ of the pair $(b, c)$ at $b$, and $c'$ is a new element.
-Then $R(a, b)$ and $R(b, c')$ hold in $\mathcal{B}$ and $R(a, c')$ fails, so $\mathcal{B}$ is not transitive.
-Each guarded pair of $\mathcal{B}$ looks locally like a guarded pair of $\mathcal{A}$, which gives a guarded bisimulation; we state this argument in outline only.
 
 ## Remarks
 
-The example marks the limit of the guarded fragment.
-Symmetry, reflexivity and seriality are [[guarded|SJ5EESEWFR]], but transitivity is not.
-The limit matters: modal logics of transitive frames, such as $\mathsf{K4}$ and $\mathsf{S4}$, are decidable, but their translations do not fall into $\mathrm{GF}$.
-Adding transitivity to the guarded fragment as a special axiom can break decidability.
+### No guarded equivalent either
+
+A stronger fact holds: no guarded sentence is logically equivalent to $\tau$.
+Guarded sentences are invariant under guarded bisimulation, so it is enough to find two guarded bisimilar structures that disagree on $\tau$; we give the argument in outline.
+Let $\mathcal{A}$ have the elements $a, b, c$ with $R = \{ (a, b), (b, c), (a, c) \}$, a transitive relation.
+Build $\mathcal{B}$ by gluing copies of the guarded pairs of $\mathcal{A}$ along single points, in the shape of a tree, with no other edges.
+In $\mathcal{B}$ the pair $(a, b)$ meets a copy $(b, c')$ of the pair $(b, c)$ at $b$, where $c'$ is a new element.
+Then $R(a, b)$ and $R(b, c')$ hold in $\mathcal{B}$ and $R(a, c')$ fails, so $\mathcal{B}$ is not transitive, while every guarded pair of $\mathcal{B}$ looks like a guarded pair of $\mathcal{A}$.
+
+### Why it matters
+
+[[Symmetry, reflexivity and seriality|SJ5EESEWFR]] are guarded, but transitivity is not, and this marks the edge of the fragment.
+The modal logics of transitive frames, such as $\mathsf{K4}$ and $\mathsf{S4}$, are decidable, but their translations with the frame axiom do not fall into $\mathrm{GF}$.
+Adding transitivity to the guarded fragment as a special axiom can even break decidability.
 Ganzinger, Meyer and Veanes proved in 1999 that the two-variable guarded fragment with transitive relations is undecidable.
-The loosely guarded fragment does not help either, since $R(x, y) \wedge R(y, z)$ contains no atom with both $x$ and $z$.
+The loosely guarded fragment does not rescue $\tau$ as written, since its candidate guard $R(x, y) \wedge R(y, z)$ has no atom that contains both $x$ and $z$.
 
 ## Explanations
 
 ### L1 human
 
 "If Anna is an ancestor of Ben and Ben is an ancestor of Carl, then Anna is an ancestor of Carl" talks about three people.
-No single fact "someone is an ancestor of someone" mentions all three of them.
+No single fact of the form "someone is an ancestor of someone" mentions all three of them.
 So there is no guard for this statement, and it lies outside the guarded fragment.
 
 ### L2 human
 
-We compare $\tau$ with symmetry.
-
-1. Symmetry $\forall x \, \forall y \, (R(x, y) \to R(y, x))$ has two variables, and the atom $R(x, y)$ contains both.
-2. Transitivity has three variables in one quantifier block.
-3. Each atom $R(u, v)$ contains at most two variables.
-4. So a binary relation can guard at most two variables, and $\tau$ has no guard.
+Compare $\tau$ with symmetry, $\forall x \, \forall y \, (R(x, y) \to R(y, x))$.
+Symmetry has two variables, and the atom $R(x, y)$ contains both of them, so it guards the block.
+Transitivity has three variables in one quantifier block, and each atom $R(u, v)$ contains at most two variables.
+So a binary relation symbol can guard at most two variables at once, and $\tau$ has no guard.
+Check: with a ternary symbol $S$, the sentence $\forall x \, \forall y \, \forall z \, (S(x, y, z) \to R(x, z))$ is guarded, because $S(x, y, z)$ contains all three.
 
 The typical use of this non-example is to explain why transitive modal logics need separate decision methods.
-A trap is to take $R(x, y) \wedge R(y, z)$ as a guard; a guard must be one atom.
+Watch out: $R(x, y) \wedge R(y, z)$ is not a guard, because a guard must be one atom.
