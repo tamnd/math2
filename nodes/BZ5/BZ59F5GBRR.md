@@ -150,4 +150,4 @@ The trap is the weight of $\wedge$: with $w(A \wedge B) = w(A) + w(B) + 1$, the 
 The G3 calculi make all structural rules admissible, so a derivation is determined by its logical rules, and induction on height becomes the main tool of structural proof theory.
 The same design extends to first-order logic: G3c keeps the principal formula in L${\forall}$ and R${\exists}$, and G3i keeps it in L${\forall}$ and L${\to}$.
 LJT gives a decision procedure for intuitionistic propositional logic, which is [[PSPACE|T9NTRY93ZT]]-complete.
-Terminating contraction-free calculi have since been built for intermediate and modal logics, and the [[hypersequent calculus|73J7F0FN4A]] and [[labelled sequent calculus|F46GV42XCE]] reuse the same admissibility arguments.
+Terminating contraction-free calculi have since been built for intermediate and modal logics, and the [[hypersequent calculus|73J7F0FN4A]] and [[labeled sequent calculus|F46GV42XCE]] reuse the same admissibility arguments.

@@ -1,7 +1,7 @@
 ---
 tag: F46GV42XCE
 kind: concept
-name: Labelled sequent calculus
+name: Labeled sequent calculus
 msc: ["03F05", "03B45"]
 topics: [R10RMQCJQX]
 audience: research
@@ -19,9 +19,9 @@ sources:
 
 ## Summary
 
-A labelled sequent calculus writes the world next to each formula, so a sequent becomes a small piece of a Kripke model.
+A labeled sequent calculus writes the world next to each formula, so a sequent becomes a small piece of a Kripke model.
 For example, the sequent $x : \Box p, x R y \Rightarrow y : p$ reads "if $\Box p$ holds at $x$ and $y$ is reachable from $x$, then $p$ holds at $y$".
-Exactly, a *labelled sequent calculus* for a [[modal logic|C3RZY20ETK]] is a [[sequent calculus|W72CA3R9MP]] whose sequents contain labelled formulas $x : A$ and relational atoms $x R y$.
+Exactly, a *labeled sequent calculus* for a [[modal logic|C3RZY20ETK]] is a [[sequent calculus|W72CA3R9MP]] whose sequents contain labeled formulas $x : A$ and relational atoms $x R y$.
 Its rules for $\Box$ and $\Diamond$ follow the clauses of [[Kripke semantics|NGHWZ9Y7ZV]], with a fresh label for each new world.
 Each frame condition becomes a rule that acts on relational atoms only.
 The [[definition|VW8XP95XCB]] gives Negri's calculus G3K and its extensions by geometric frame rules.
@@ -31,15 +31,15 @@ For every frame class defined by geometric implications, this method gives a cal
 
 Many modal logics have no cut-free ordinary sequent calculus, and each known calculus needs its own cut-elimination proof.
 Kripke semantics, by contrast, treats all normal modal logics in one way: a logic is fixed by a condition on the [[accessibility relation|XBCYFDPS2F]].
-A labelled calculus brings the semantics into the syntax.
-The truth clause for $\Box A$ at $x$ quantifies over the worlds $y$ with $x R y$, and the labelled rules for $\Box$ say exactly this.
+A labeled calculus brings the semantics into the syntax.
+The truth clause for $\Box A$ at $x$ quantifies over the worlds $y$ with $x R y$, and the labeled rules for $\Box$ say exactly this.
 A frame condition such as reflexivity then becomes a structural rule on relational atoms, so the logical rules stay the same for all logics.
 This makes one cut-elimination proof work for a large class of modal logics.
 
 ## Notation
 
 Negri writes $x : A$ and $x R y$, and names the calculi G3K, G3KT, G3S4 and so on.
-Other authors write $x \Vdash A$, $A^x$ or $(x, A)$ for labelled formulas.
+Other authors write $x \Vdash A$, $A^x$ or $(x, A)$ for labeled formulas.
 In some systems relational atoms may appear in the succedent, and some systems use natural deduction instead of sequents.
 
 ## Remarks
@@ -79,7 +79,7 @@ After ${\to}$R, Ser adds $x R y$, then ${\Box}$L adds $y : p$ on the left and ${
 Provability logic GL is the logic of transitive frames with no infinite ascending $R$-chain.
 That frame condition is not first-order, so it is not a geometric implication and gives no frame rule.
 The [[non-example|QKATP0KQH2]] proves this with the compactness theorem.
-GL still has a labelled calculus, but it changes the rule ${\Box}$R instead of adding a frame rule.
+GL still has a labeled calculus, but it changes the rule ${\Box}$R instead of adding a frame rule.
 
 An ordinary modal sequent calculus, such as the calculus for K with the rule from $\Gamma \Rightarrow A$ to $\Box\Gamma \Rightarrow \Box A$, has no labels.
 Its rules do not mention worlds, so a frame condition cannot be added to it as a rule on relational atoms.
@@ -91,7 +91,7 @@ Frame rules act only on relational atoms, which never occur in the succedent, so
 A cut therefore moves above every frame rule without a new case for each logic.
 For a set of geometric frame rules with the closure condition, weakening, contraction and label substitution are height-preserving admissible, and every rule is height-preserving invertible.
 Cut is admissible, by Negri's theorem in the [[definition|VW8XP95XCB]].
-A cut-free derivation has the subformula property for labelled formulas.
+A cut-free derivation has the subformula property for labeled formulas.
 When backward proof search fails, the open sequent often describes a Kripke countermodel, because its atoms already list worlds and accessibility.
 
 ### Watch out
@@ -107,8 +107,8 @@ Without the contracted instance of Eucl, which infers $x R y, \Gamma \Rightarrow
 
 ### History
 
-Dov Gabbay developed a general theory of labelled deductive systems.
-Sara Negri proved cut elimination for labelled calculi with geometric frame rules in her 2005 paper "Proof analysis in modal logic", which also gives the calculus for GL.
+Dov Gabbay developed a general theory of labeled deductive systems.
+Sara Negri proved cut elimination for labeled calculi with geometric frame rules in her 2005 paper "Proof analysis in modal logic", which also gives the calculus for GL.
 Her calculi extend the G3 calculi of the 2001 textbook "Structural proof theory" by Negri and Jan von Plato.
 
 ### Try it
@@ -125,7 +125,7 @@ ${\Box}$L adds $y : p \wedge q$, ${\wedge}$L splits it into $y : p, y : q$, and 
 ### L1 human
 
 A modal statement such as "necessarily $A$" says that $A$ holds in every world that can be reached from here.
-A labelled calculus gives each world a name, like $x$ or $y$, and writes "$x : A$" for "$A$ holds at $x$".
+A labeled calculus gives each world a name, like $x$ or $y$, and writes "$x : A$" for "$A$ holds at $x$".
 It also writes "$x R y$" for "$y$ can be reached from $x$".
 The proof rules then follow this meaning directly.
 To prove "necessarily $A$" at $x$, we take a new world $y$ reachable from $x$ and prove $A$ at $y$.
@@ -143,6 +143,6 @@ Watch out: the countermodel takes only the atoms that the search produced, so a 
 
 ### L3 human
 
-Labelled calculi make the semantics part of the syntax, and that gives a uniform proof theory for all logics with geometric frame conditions.
-The same idea gives labelled calculi for intuitionistic and intermediate logics, where the relation is the order of a Kripke model.
-Compared with [[hypersequent calculi|73J7F0FN4A]] and [[display calculi|2Q62W689SC]], labelled calculi cover many frame conditions directly, but their derivations use symbols that are not formulas of the logic.
+Labeled calculi make the semantics part of the syntax, and that gives a uniform proof theory for all logics with geometric frame conditions.
+The same idea gives labeled calculi for intuitionistic and intermediate logics, where the relation is the order of a Kripke model.
+Compared with [[hypersequent calculi|73J7F0FN4A]] and [[display calculi|2Q62W689SC]], labeled calculi cover many frame conditions directly, but their derivations use symbols that are not formulas of the logic.

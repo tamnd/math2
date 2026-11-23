@@ -1,7 +1,7 @@
 ---
 tag: 2N9E5E8HRX
 kind: example
-name: Labelled derivation of the axiom 4
+name: Labeled derivation of the axiom 4
 msc: ["03F05", "03B45"]
 topics: [R10RMQCJQX]
 audience: grad
@@ -14,7 +14,7 @@ sources:
 
 ## Example
 
-We derive the axiom 4, $\Box p \to \Box\Box p$, in the calculus G3K4 of the [[definition of labelled sequent calculus|VW8XP95XCB]].
+We derive the axiom 4, $\Box p \to \Box\Box p$, in the calculus G3K4 of the [[definition of labeled sequent calculus|VW8XP95XCB]].
 G3K4 is G3K with the frame rule for [[transitivity|0GJZW9JFZQ]]:
 $$\dfrac{x R z, x R y, y R z, \Gamma \Rightarrow \Delta}{x R y, y R z, \Gamma \Rightarrow \Delta} \ (\mathrm{Trans})$$
 The goal is the sequent $\Rightarrow x : \Box p \to \Box\Box p$.

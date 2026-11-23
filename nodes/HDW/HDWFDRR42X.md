@@ -1,7 +1,7 @@
 ---
 tag: HDWFDRR42X
 kind: example
-name: Labelled derivation of the axiom T
+name: Labeled derivation of the axiom T
 msc: ["03F05", "03B45"]
 topics: [R10RMQCJQX]
 audience: grad
@@ -14,7 +14,7 @@ sources:
 
 ## Example
 
-We derive the axiom T, $\Box p \to p$, in the calculus G3KT of the [[definition of labelled sequent calculus|VW8XP95XCB]].
+We derive the axiom T, $\Box p \to p$, in the calculus G3KT of the [[definition of labeled sequent calculus|VW8XP95XCB]].
 G3KT is G3K with the frame rule for [[reflexivity|0X8NMST0J2]]:
 $$\dfrac{x R x, \Gamma \Rightarrow \Delta}{\Gamma \Rightarrow \Delta} \ (\mathrm{Ref})$$
 The goal is the sequent $\Rightarrow x : \Box p \to p$.

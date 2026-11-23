@@ -140,4 +140,4 @@ Hypersequents add one structural layer above the sequent: a disjunction of seque
 Rules such as $\mathsf{com}$ act on that layer, and they keep the logical rules of LJ unchanged.
 Other structural rules on the bar give calculi for other intermediate logics.
 The same idea extends to modal logics, for example S5 with Avron's modal splitting rule, and to fuzzy and substructural logics.
-Other refinements of the sequent are [[display calculi|2Q62W689SC]], nested sequents and [[labelled sequent calculi|F46GV42XCE]].
+Other refinements of the sequent are [[display calculi|2Q62W689SC]], nested sequents and [[labeled sequent calculi|F46GV42XCE]].

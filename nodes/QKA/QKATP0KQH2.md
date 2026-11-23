@@ -20,7 +20,7 @@ sources:
 
 [[Provability logic|WJK0YA4GP2]] GL is K with the axiom $\Box(\Box A \to A) \to \Box A$.
 A frame validates this axiom exactly when $R$ is transitive and *converse well-founded*: there is no infinite chain $w_0 R w_1 R w_2 R \cdots$.
-The frame rules of the [[definition of labelled sequent calculus|VW8XP95XCB]] come from geometric implications, which are first-order sentences in the language with one binary relation $R$.
+The frame rules of the [[definition of labeled sequent calculus|VW8XP95XCB]] come from geometric implications, which are first-order sentences in the language with one binary relation $R$.
 We show that no set of first-order sentences defines the class of GL frames, so no set of geometric frame rules captures GL in this way.
 
 ### The claim and its proof
@@ -62,7 +62,7 @@ The compactness argument of steps 2 to 9 then gives a frame of the class with an
 
 ### What works instead
 
-Negri gives a labelled calculus for GL by changing the rule ${\Box}$R instead of adding a frame rule.
+Negri gives a labeled calculus for GL by changing the rule ${\Box}$R instead of adding a frame rule.
 The new rule infers $\Gamma \Rightarrow \Delta, x : \Box A$ from $x R y, y : \Box A, \Gamma \Rightarrow \Delta, y : A$, with $y$ not in the conclusion, and the calculus keeps Trans.
 We check its soundness on a transitive, converse [[well-founded|0DQPNJNPYK]] frame.
 
@@ -75,7 +75,7 @@ We check its soundness on a transitive, converse [[well-founded|0DQPNJNPYK]] fra
 
 ### L1 human
 
-Labelled calculi turn properties of the reachability relation into proof rules.
+Labeled calculi turn properties of the reachability relation into proof rules.
 This works for properties that talk about worlds one at a time, such as "every world reaches itself".
 Provability logic needs the property "there is no endless chain of steps", and that talks about infinite chains.
 The argument above shows that no list of simple properties of worlds can express it.
@@ -89,4 +89,4 @@ Add names $c_0, c_1, \dots$ and ask for $c_0 R c_1 R c_2 R \cdots$.
 Each finite part of this request has a finite model, a finite strict order.
 Compactness gives one model of everything, and it has an infinite chain, which is a contradiction.
 The typical use of this argument is to show that a property of structures is not first-order.
-Watch out: GL does have a cut-free labelled calculus, with a modified box rule, so the argument rules out only frame rules.
+Watch out: GL does have a cut-free labeled calculus, with a modified box rule, so the argument rules out only frame rules.

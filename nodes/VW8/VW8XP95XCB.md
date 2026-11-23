@@ -1,7 +1,7 @@
 ---
 tag: VW8XP95XCB
 kind: definition
-name: Labelled sequent calculus
+name: Labeled sequent calculus
 msc: ["03F05", "03B45"]
 topics: [R10RMQCJQX]
 audience: research
@@ -16,17 +16,17 @@ sources:
 
 ## Definition
 
-A labelled sequent names the worlds of a Kripke model, as in $x : \Box p, x R y \Rightarrow y : p$.
+A labeled sequent names the worlds of a Kripke model, as in $x : \Box p, x R y \Rightarrow y : p$.
 Formulas of the basic [[modal logic|C3RZY20ETK]] K are built from variables $p, q, \dots$ and $\bot$ with $\wedge$, $\vee$, $\to$, $\Box$ and $\Diamond$.
 Fix a countable set of *labels* $x, y, z, \dots$, which name worlds.
-A *labelled formula* is an expression $x : A$, with a label $x$ and a formula $A$.
+A *labeled formula* is an expression $x : A$, with a label $x$ and a formula $A$.
 A *relational atom* is an expression $x R y$, with labels $x$ and $y$.
-A *labelled sequent* is $\Gamma \Rightarrow \Delta$, where $\Gamma$ is a finite [[multiset|MYJ8Y050J0]] of labelled formulas and relational atoms, and $\Delta$ is a finite multiset of labelled formulas.
+A *labeled sequent* is $\Gamma \Rightarrow \Delta$, where $\Gamma$ is a finite [[multiset|MYJ8Y050J0]] of labeled formulas and relational atoms, and $\Delta$ is a finite multiset of labeled formulas.
 
 Let $\rho$ map labels to worlds of a Kripke model with [[accessibility relation|XBCYFDPS2F]] $R$.
 Then $x R y$ is true if $\rho(x) \mathrel{R} \rho(y)$, and $x : A$ is true if $A$ holds at $\rho(x)$.
 The sequent $\Gamma \Rightarrow \Delta$ is *valid* in a class of frames if, for every model on such a frame and every $\rho$, some member of $\Gamma$ is false or some member of $\Delta$ is true.
-A *labelled sequent calculus* is a set of rules on labelled sequents.
+A *labeled sequent calculus* is a set of rules on labeled sequents.
 
 ### Negri's calculus G3K
 
@@ -41,7 +41,7 @@ For a set $S$ of geometric frame conditions, the calculus G3K$S$ adds their *geo
 
 Negri writes G3K for the basic calculus, and G3KT, G3S4, G3S5 and so on for the extensions.
 Some authors write $x \Vdash A$ or $A^x$ instead of $x : A$, and $x \le y$ or $R x y$ instead of $x R y$.
-Other labelled systems also allow relational atoms in the succedent, or use labelled natural deduction instead of sequents.
+Other labeled systems also allow relational atoms in the succedent, or use labeled natural deduction instead of sequents.
 
 ## Remarks
 
@@ -65,7 +65,7 @@ The label $y$ in ${\Box}$R and ${\Diamond}$L is the *eigenvariable* of the rule.
 It must be fresh because ${\Box}$R claims $A$ at an arbitrary reachable world, and a world already named might carry extra assumptions.
 The rules ${\Box}$L and ${\Diamond}$R repeat their principal formula in the premise, so that it can be used again for other worlds.
 That copy is what makes contraction admissible.
-Relational atoms stay in the antecedent, so only frame rules act on them, and frame rules never touch a labelled formula.
+Relational atoms stay in the antecedent, so only frame rules act on them, and frame rules never touch a labeled formula.
 
 ### A small case and a failing case
 
@@ -117,14 +117,14 @@ Then the following hold.
 
 1. Every sequent $x : A, \Gamma \Rightarrow \Delta, x : A$ is derivable, for every formula $A$.
 2. Substitution of labels is height-preserving admissible.
-3. Weakening is height-preserving admissible, and contraction of labelled formulas and of relational atoms is height-preserving admissible.
+3. Weakening is height-preserving admissible, and contraction of labeled formulas and of relational atoms is height-preserving admissible.
 4. Every rule is height-preserving invertible.
 5. The cut rule, from $\Gamma \Rightarrow \Delta, x : A$ and $x : A, \Gamma' \Rightarrow \Delta'$ infer $\Gamma, \Gamma' \Rightarrow \Delta, \Delta'$, is admissible.
 
 ### Structural properties and cut, continued
 
 The proof of item 5 is an induction on the weight of the cut formula $A$, with a subinduction on the sum of the heights of the two premises.
-Frame rules have no principal labelled formula, so the cut formula is never principal in a frame rule, and the cut moves above it.
+Frame rules have no principal labeled formula, so the cut formula is never principal in a frame rule, and the cut moves above it.
 Take the case $x : \Box A$, with ${\Box}$R on the left and ${\Box}$L with the atom $x R z$ on the right.
 Item 2 renames the eigenvariable $y$ of the left premise to $z$.
 A cut on $x : \Box A$ of smaller height removes the copy of $x : \Box A$ in the right premise.
@@ -145,7 +145,7 @@ For example, Ref gives the axiom T and Trans gives the axiom 4, as the [[example
 ### L1 human
 
 A modal formula talks about many worlds at once: "$\Box A$" says that $A$ holds in every world that we can reach.
-A labelled calculus writes the world next to each formula, as in "$x : A$", which reads "$A$ holds at world $x$".
+A labeled calculus writes the world next to each formula, as in "$x : A$", which reads "$A$ holds at world $x$".
 It also writes facts such as "$x R y$", which reads "world $y$ can be reached from $x$".
 The rules then follow the meaning of the symbols world by world.
 Properties of reachability, such as "every world reaches itself", become extra rules about these facts.
@@ -163,9 +163,9 @@ Watch out for the eigenvariable condition: in the ${\Box}$R step the label $y$ m
 
 ### L3 human
 
-Labelled calculi internalize the Kripke semantics: the sequent becomes a small piece of a model.
+Labeled calculi internalize the Kripke semantics: the sequent becomes a small piece of a model.
 Any logic whose frames are defined by geometric implications gets a cut-free calculus in a uniform way, which covers T, 4, B, 5, D and many others.
-The price is extra syntax: a cut-free derivation has the subformula property for labelled formulas, but labels and relational atoms are not formulas of the logic.
+The price is extra syntax: a cut-free derivation has the subformula property for labeled formulas, but labels and relational atoms are not formulas of the logic.
 The same method applies to intuitionistic logic and intermediate logics, and to provability logic with a changed rule.
 It also connects proof search with countermodel construction.
 Compare with [[hypersequent calculi|73J7F0FN4A]], which encode some of the frame structure without names for worlds.
