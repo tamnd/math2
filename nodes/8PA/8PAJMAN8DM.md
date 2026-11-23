@@ -101,8 +101,9 @@ In the model of the Summary, at which worlds is $\lozenge \bot$ true?
 Answer: at $n$ only.
 At $n$, $\lozenge \bot$ is $\neg \square \neg \bot$, and every boxed formula is false there, so $\lozenge \bot$ is true.
 At $w$, $\lozenge \bot$ would need a successor where $\bot$ is true, so it is false.
-Is $\lozenge \bot$ then consistent in Kripke's logics?
-Answer: no formula true at a non-normal world counts for validity, and $\neg \lozenge \bot$ is valid, because it holds at every normal world.
+Does this make $\lozenge \bot$ consistent with Kripke's logics?
+Answer: no.
+Validity is checked only at normal worlds, and $\neg \lozenge \bot$ holds at every normal world, so $\neg \lozenge \bot$ is valid.
 
 ## Explanations
 

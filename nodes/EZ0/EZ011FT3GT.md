@@ -115,8 +115,8 @@ Just below the top there are only two logics: the logic of one point that sees i
 ### L2 human
 
 We place $\mathsf{S4}$ in the lattice.
-By definition $\mathsf{K4} = \mathsf{K} \oplus (\square p \to \square \square p)$ and $\mathsf{S4} = \mathsf{K4} \oplus (\square p \to p)$, so
-$$\mathsf{K} \subseteq \mathsf{K4} \subseteq \mathsf{S4}.$$
+By definition $\mathsf{K4} = \mathsf{K} \oplus (\square p \to \square \square p)$ and $\mathsf{S4} = \mathsf{K4} \oplus (\square p \to p)$, which gives a chain:
+$$\mathsf{K} \subseteq \mathsf{K4} \subseteq \mathsf{S4}$$
 The reflexive point validates $\square p \to p$ and $\square p \to \square \square p$, so $\mathsf{S4} \subseteq \mathrm{Log}(\circ)$.
 The irreflexive point refutes $\square p \to p$ with $p$ false, so $\mathsf{S4} \not\subseteq \mathrm{Log}(\bullet)$.
 By the splitting, $\mathsf{S4}$ must then contain $\lozenge \top$.

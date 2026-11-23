@@ -105,8 +105,8 @@ If one machine can do something the other cannot copy, some finite test catches 
 Let us extract a separating formula from a failed copy, for the worlds $w$ and $w'$ of the opening.
 Spoiler plays $w R v_2$, and the only answer is $v'$.
 The worlds $v_2$ and $v'$ differ on $q$, so $\psi = q$ is true at $v_2$ and false at every successor of $w'$.
-Then
-$$\mathfrak{M}, w \models \lozenge q \qquad \text{and} \qquad \mathfrak{M}', w' \not\models \lozenge q.$$
+Then $\lozenge q$ separates the two worlds:
+$$\mathfrak{M}, w \models \lozenge q \qquad \text{and} \qquad \mathfrak{M}', w' \not\models \lozenge q$$
 If $w'$ had several successors $v'_1, \ldots, v'_n$, we would pick a formula $\psi_i$ true at $v_2$ and false at $v'_i$, and use $\lozenge(\psi_1 \wedge \cdots \wedge \psi_n)$.
 This is the typical use: a model checker can test the formula, and it certifies that two finite systems differ.
 Watch out: the conjunction must be finite, and that is exactly where image-finiteness enters, as the counterexample in the Remarks shows.

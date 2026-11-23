@@ -25,8 +25,8 @@ Bisimilar worlds satisfy exactly the same modal formulas, so no modal formula ca
 The basic modal formulas are built from propositional variables and $\bot$ with $\neg$, $\wedge$ and $\lozenge$, and $\square \varphi$ abbreviates $\neg \lozenge \neg \varphi$.
 Let $\mathfrak{M} = (W, R, V)$ and $\mathfrak{M}' = (W', R', V')$ be Kripke models, with truth $\mathfrak{M}, w \models \varphi$ as in [[Kripke semantics|NGHWZ9Y7ZV]].
 Let $Z$ be a [[bisimulation|7T740SFHHV]] between $\mathfrak{M}$ and $\mathfrak{M}'$, and let $w Z w'$.
-Then, for every basic modal formula $\varphi$,
-$$\mathfrak{M}, w \models \varphi \iff \mathfrak{M}', w' \models \varphi.$$
+Then the two worlds satisfy the same basic modal formulas $\varphi$:
+$$\mathfrak{M}, w \models \varphi \iff \mathfrak{M}', w' \models \varphi$$
 In particular, the following hold for every formula $\varphi$.
 
 1. If $\mathfrak{N}$ is a generated submodel of $\mathfrak{M}$ and $u$ is a world of $\mathfrak{N}$, then $\mathfrak{N}, u \models \varphi$ if and only if $\mathfrak{M}, u \models \varphi$.

@@ -39,8 +39,8 @@ A general theory should say which formulas behave in this way, and why some form
 
 The difficulty lies in the shape of frame validity.
 Let $p_1, \ldots, p_n$ be the variables of $\varphi$.
-By the [[standard translation|YW6YGBMVQY]], $\mathfrak{F} \models \varphi$ is the statement
-$$\mathfrak{F} \models \forall P_1 \cdots \forall P_n \, \forall x \, \mathrm{ST}_x(\varphi).$$
+By the [[standard translation|YW6YGBMVQY]], $\mathfrak{F} \models \varphi$ is the following statement.
+$$\mathfrak{F} \models \forall P_1 \cdots \forall P_n \, \forall x \, \mathrm{ST}_x(\varphi)$$
 This is a universal monadic [[second-order|G6X7SZSNC5]] sentence.
 So every modal formula defines a $\Pi^1_1$ class of frames, and the question is when the second-order quantifiers can be removed.
 

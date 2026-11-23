@@ -29,8 +29,8 @@ We compute the relation $R_\omega$ step by step.
 5. A pair is in $R_\omega$ when a pair of step 3 is followed by $(2, 2)$, so it must end in $2$.
    The pairs of step 3 that end in $2$ are $(0, 2)$, $(1, 2)$ and $(2, 2)$.
 
-So the loop has the relation
-$$R_\omega = \{(0, 2), (1, 2), (2, 2)\}.$$
+So the loop has the following relation:
+$$R_\omega = \{(0, 2), (1, 2), (2, 2)\}$$
 Check: from $0$ the loop runs twice and stops at $2$, from $1$ it runs once, and from $2$ it does not run at all.
 
 ## Remarks

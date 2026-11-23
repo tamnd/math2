@@ -20,8 +20,8 @@ sources:
 A general frame is a Kripke frame that comes with a fixed stock of propositions, and a valuation may only use propositions from that stock.
 With fewer valuations there are fewer countermodels, so a general frame can validate formulas that its plain frame refutes.
 Precisely, a *general frame* is a triple $(W, R, A)$, where $(W, R)$ is a [[Kripke frame|NGHWZ9Y7ZV]] and $A$ is a family of subsets of $W$, the *admissible sets*.
-The family $A$ must be closed under finite unions, under complement in $W$, and under the operator
-$$m_R(X) = \{ w \in W : w R v \text{ for some } v \in X \}.$$
+The family $A$ must be closed under finite unions, under complement in $W$, and under the following operator:
+$$m_R(X) = \{ w \in W : w R v \text{ for some } v \in X \}$$
 A formula is *valid* on $(W, R, A)$ when it is true at every world under every valuation $V$ with $V(p) \in A$ for all variables $p$.
 The *descriptive* general frames are the differentiated, tight and compact ones, and they are exactly the duals of modal algebras.
 The [[definition of general and descriptive frames|6W9MEGN982]] states all of this formally.

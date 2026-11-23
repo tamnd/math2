@@ -17,8 +17,8 @@ sources:
 
 ## Counterexample
 
-The *McKinsey formula* is
-$$\mathrm{M} = \square \lozenge p \to \lozenge \square p.$$
+The *McKinsey formula* is the following formula:
+$$\mathrm{M} = \square \lozenge p \to \lozenge \square p$$
 It looks as simple as the axioms 4 or T, yet no first-order condition on frames says what it says.
 
 **Claim.** No first-order sentence $\alpha$ in the language with one binary symbol $R$ satisfies $\mathfrak{F} \models \mathrm{M} \iff \mathfrak{F} \models \alpha$ for every Kripke frame $\mathfrak{F}$.
