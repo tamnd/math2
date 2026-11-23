@@ -25,87 +25,109 @@ inventory: [D5JKKWKM27]
 
 ## Summary
 
-The modal logic $\mathsf{S5} = \mathsf{KT5}$ is the smallest [[normal modal logic|JS8W7PA6JK]] that contains $\square p \to p$ and $\lozenge p \to \square\lozenge p$, as in [[the definition|MT0CNMDT3R]]; it equals $\mathsf{KTB4}$.
-It is sound and complete for the frames whose relation is an [[equivalence relation|0G8VEZ3WTK]].
-It is also sound and complete for the universal frames, where $\square\varphi$ means "$\varphi$ at every world".
-Every formula is $\mathsf{S5}$-equivalent to one of modal depth at most 1, and $\mathsf{S5}$-satisfiability is NP-complete.
-It is the logic of the alethic reading "true in all possible worlds" and of knowledge with full introspection.
+Take three worlds $1, 2, 3$ in which every world sees every world, and let $p$ be true at $1$ and $2$.
+Then $\square p$ is false at every world, because world $3$ lacks $p$, and $\lozenge p$ is true at every world.
+The value of a boxed or diamond formula does not depend on where you stand.
+$\mathsf{S5}$ is the modal logic of this picture, where "necessary" means "true in every world" and "possible" means "true in some world".
+
+Exactly, $\mathsf{S5} = \mathsf{KT5}$ is the smallest [[normal modal logic|JS8W7PA6JK]] that contains the two axioms below, as in [[the definition|MT0CNMDT3R]]:
+$$\mathrm{T}\colon \square p \to p, \qquad \mathrm{5}\colon \lozenge p \to \square\lozenge p.$$
+It is sound and complete for the frames whose relation is an [[equivalence relation|0G8VEZ3WTK]], and also for the universal frames, where every world sees every world.
 
 ## Motivation
 
 The oldest reading of necessity is truth in all possible worlds, with no restriction on which worlds count.
-In this reading every world sees every world, so the frame is universal.
-For knowledge, the worlds that an agent cannot tell apart from the actual one form a class of an equivalence relation.
-The relation "cannot tell apart" is reflexive, symmetric and transitive.
-So $\mathsf{S5}$ is the logic of these two readings, and its frames are the equivalence relations.
+In that reading every world sees every world, so the frame is universal.
+For knowledge, the worlds that an agent cannot tell apart from the actual world form a class of an equivalence relation.
+The relation "cannot tell apart" is reflexive, symmetric and transitive, so the agent's knowledge obeys $\mathsf{S5}$.
+
+$\mathsf{S5}$ is also the simplest of the standard systems to compute with.
+Every formula is equivalent to one of modal depth at most $1$, and satisfiability is NP-complete, like that of propositional logic.
+The logics of knowledge in [[applied modal logics|CQM9SRN8PM]] start from $\mathsf{S5}$, with one equivalence relation for each agent.
 
 ## Notation
 
-1. $\mathsf{S5} = \mathsf{KT5} = \mathsf{KTB4} = \mathsf{KT45} = \mathsf{KTB5}$, see [[the axioms of S5|ECYRK9C2ZT]].
-2. In epistemic logic the box of agent $i$ is written $K_i$, and the multi-agent logic is $\mathsf{S5}_n$.
-3. On a universal frame a model is often written $(W, V)$, without $R$.
+Several axiom sets give the same logic, so $\mathsf{S5} = \mathsf{KT5} = \mathsf{KTB4} = \mathsf{KT45} = \mathsf{KTB5}$, by [[the axioms of S5|ECYRK9C2ZT]].
+In epistemic logic the box of agent $i$ is written $K_i$, and the logic with $n$ agents is $\mathsf{S5}_n$.
+On a universal frame the relation carries no information, so a model is often written as a pair $(W, V)$.
 
 ## Remarks
 
-### Examples
+### Only the last operator counts
 
-1. In a card game, the relation "same own card" between deals is an equivalence relation. So the knowledge of a player obeys $\mathsf{S5}$, see [[the card game|81J8VDK9RX]].
-2. Every string of boxes and diamonds before $p$ reduces to its last operator, so $\mathsf{S5}$ has three modalities without negation ($p$, $\square p$ and $\lozenge p$) and six with it, see [[the reduction in S5|GHPPQ19J6B]].
-3. $\mathsf{S5} \vdash \square(p \vee \square q) \leftrightarrow (\square p \vee \square q)$, while $\mathsf{S4}$ does not prove it, see [[the distribution example|BAV2SAADQT]].
-4. The universal frame on two worlds with $V(p) = \set{1}$ makes $\lozenge p \wedge \lozenge\neg p$ true at both worlds.
+In $\mathsf{S5}$ the laws $\lozenge\square p \leftrightarrow \square p$ and $\square\lozenge p \leftrightarrow \lozenge p$ hold, together with $\square\square p \leftrightarrow \square p$ and $\lozenge\lozenge p \leftrightarrow \lozenge p$.
+So a string of boxes and diamonds in front of $p$ is equivalent to its last operator, by [[the reduction of iterated modalities|GHPPQ19J6B]].
+For example, $\lozenge\square\lozenge\lozenge\square p$ reduces to $\square p$.
+There are three modalities without negation, $p$, $\square p$ and $\lozenge p$, and six with it.
+A box also passes through a disjunction when one side is boxed, as in [[the law □(p ∨ □q) ↔ □p ∨ □q|BAV2SAADQT]].
+These laws together rewrite every formula to modal depth at most $1$.
 
-### Non-examples
+### Knowledge in a card game
 
-1. $\mathsf{S4} \nvdash \lozenge p \to \square\lozenge p$, so $\mathsf{S4} \subsetneq \mathsf{S5}$, see [[the non-theorem 5 in S4|A2JGSWCMT5]].
-2. The Euclidean, transitive and serial frame $\set{(a,b),(b,b)}$ is a frame of $\mathsf{KD45}$ but not of $\mathsf{S5}$, see [[the Euclidean example|NS4AC3W4FM]].
-3. The reflexive symmetric path on three worlds is a frame of $\mathsf{B}$ but not of $\mathsf{S5}$, see [[the reflexive symmetric frame|DJTASRZ6WC]].
+Three cards are dealt to two players, one card each, and a player sees only her own card.
+The deals that a player cannot tell apart are those with the same card in her hand, and this relation is an equivalence relation.
+So her knowledge obeys $\mathsf{S5}$, as [[the card game example|81J8VDK9RX]] checks in detail.
+If she holds the ace, she knows that she holds the ace, and she knows which deals remain possible.
 
-### Basic properties
+### What is not S5
 
-1. $\mathsf{S5}$ is the logic of all equivalence relations and of all universal frames, see [[the completeness theorem|FXTCKYR3AQ]].
-2. $\mathsf{S5} \vdash \lozenge\square p \leftrightarrow \square p$ and $\mathsf{S5} \vdash \square\lozenge p \leftrightarrow \lozenge p$.
-3. Every formula is $\mathsf{S5}$-equivalent to a formula of modal depth at most 1. The proof uses these two equivalences and distribution laws such as those of [[the distribution example|BAV2SAADQT]].
-4. A formula $\varphi$ is $\mathsf{S5}$-satisfiable if and only if it is true in a universal model with at most $1 + m$ worlds. Here $m$ is the number of subformulas $\square\psi$ of $\varphi$. So $\mathsf{S5}$-satisfiability is NP-complete, see [[the complexity theorem|1P2B0C7CQ4]].
-5. $\mathsf{S5}$ has the [[finite model property|3NT8RCA6HE]] and is decidable.
+$\mathsf{S4}$ does not prove $\mathrm{5}$, because a preorder need not be symmetric; [[axiom 5 is not a theorem of S4|A2JGSWCMT5]] gives the two-world witness.
+The frame with arrows $a R b$ and $b R b$ is serial, transitive and Euclidean, so it is a frame of $\mathsf{KD45}$, but it is not reflexive; see [[the Euclidean relation example|NS4AC3W4FM]].
+The reflexive symmetric path on three worlds is a frame of $\mathsf{B}$ but not of $\mathsf{S5}$, because it is not transitive; see [[the failure of 4 on a reflexive symmetric frame|DJTASRZ6WC]].
+
+### The rules you can use
+
+$\mathsf{S5}$ is the logic of all equivalence relations and of all universal frames, by [[the completeness theorem|FXTCKYR3AQ]].
+The two classes give the same logic because truth at a world $w$ depends only on the worlds that $w$ can reach, and in an equivalence relation these form the class of $w$, on which $R$ is universal.
+A satisfiable formula is true in a universal model with at most $1 + m$ worlds, where $m$ is the number of subformulas of the form $\square\psi$.
+Each false $\square\psi$ at the starting world needs one witness world, and nothing else is needed.
+So $\mathsf{S5}$ has the [[finite model property|3NT8RCA6HE]], and its satisfiability problem is NP-complete, by [[the complexity theorem|1P2B0C7CQ4]].
+
+### Watch out
+
+$\mathsf{S5}$ is not the logic of a single world.
+On one world with a loop, $\square p \leftrightarrow p$ is valid, and that gives the trivial logic, which is larger than $\mathsf{S5}$.
+A second slip is to let the box pass through every disjunction.
+On a universal frame with two worlds and $p$ true at one of them, $\square(p \vee \neg p)$ is true and $\square p \vee \square\neg p$ is false.
+A third slip is to use $\mathsf{S5}$ for belief: beliefs can be false, so $\mathrm{T}$ fails, and $\mathsf{KD45}$ is the usual choice.
 
 ### History
 
-Lewis and Langford presented $\mathsf{S5}$ in Symbolic Logic (1932).
-Carnap's semantics of state descriptions in Meaning and Necessity (1947) fits $\mathsf{S5}$, with necessity as truth in every state description.
-Kripke proved completeness of quantified $\mathsf{S5}$ for models with a set of worlds in 1959.
+Lewis and Langford presented $\mathsf{S5}$ in Symbolic Logic in 1932.
+Carnap's semantics of state descriptions in Meaning and Necessity, 1947, fits $\mathsf{S5}$, with necessity as truth in every state description.
+Kripke proved in 1959 the completeness of quantified $\mathsf{S5}$ for models with a set of worlds.
 Ladner proved in 1977 that $\mathsf{S5}$-satisfiability is NP-complete.
 
-### Common errors
+### Try it
 
-1. Taking $\mathsf{S5}$ for the logic of a single world; one world gives the trivial logic with $\square p \leftrightarrow p$.
-2. Thinking that $\square$ distributes over $\vee$ in $\mathsf{S5}$; $\square(p \vee \neg p) \to (\square p \vee \square\neg p)$ fails on two worlds.
-3. Using $\mathsf{S5}$ for belief; belief can be false, so $\mathrm{T}$ fails, and $\mathsf{KD45}$ is the usual choice.
+First, reduce $\square\lozenge\square\square\lozenge p$ in $\mathsf{S5}$.
+The last operator is $\lozenge$, so the formula is equivalent to $\lozenge p$.
+
+Second, on the three-world universal model of the Summary, where is $\lozenge\square p$ true?
+$\square p$ is false at every world, so $\lozenge\square p$ is false at every world, which agrees with $\lozenge\square p \leftrightarrow \square p$.
 
 ## Explanations
 
 ### L1 human
 
-In $\mathsf{S5}$, "necessary" means "true in every world", with all worlds visible from all worlds.
-So "possibly $p$" means that $p$ holds somewhere, and this does not depend on where we stand.
+In $\mathsf{S5}$, "necessary" means "true in every world", and all worlds can see all worlds.
+So "possibly $p$" means that $p$ holds somewhere, and this does not depend on where you stand.
 A card player knows exactly the deals that agree with her own card, and her knowledge follows the same laws.
-For example, if a player holds the ace, she knows that she holds the ace, and she knows that she knows it.
+If a player holds the ace, she knows that she holds the ace, and she knows that she knows it.
 
 ### L2 human
 
-We decide whether $\varphi = \lozenge p \wedge \lozenge q \wedge \square\neg(p \wedge q)$ is $\mathsf{S5}$-satisfiable.
-
-1. On a universal model, $\lozenge p$ asks for a world with $p$, and $\lozenge q$ for a world with $q$.
-2. $\square\neg(p \wedge q)$ asks that no world has both.
-3. Take $W = \set{1, 2}$, $V(p) = \set{1}$, $V(q) = \set{2}$; all three conjuncts hold at world 1.
-4. So $\varphi$ is satisfiable with 2 worlds, within the bound $1 + m = 4$; here $m = 3$ counts $\square\neg p$, $\square\neg q$ and $\square\neg(p \wedge q)$.
-
-The typical use of the universal semantics is quick model checking and satisfiability checking in $\mathsf{S5}$.
-A trap: $\mathsf{S5}$ is complete for universal frames, but the canonical frame of $\mathsf{S5}$ is an equivalence relation with many classes, not a universal relation.
+We decide whether $\varphi = \lozenge p \wedge \lozenge q \wedge \square\neg(p \wedge q)$ is satisfiable in $\mathsf{S5}$.
+On a universal model, $\lozenge p$ asks for a world with $p$, $\lozenge q$ asks for a world with $q$, and $\square\neg(p \wedge q)$ asks that no world have both.
+Take $W = \{ 1, 2 \}$ with $V(p) = \{ 1 \}$ and $V(q) = \{ 2 \}$.
+All three conjuncts hold at world $1$, so $\varphi$ is satisfiable.
+Check against the bound: the boxed subformulas are $\square\neg p$, $\square\neg q$ and $\square\neg(p \wedge q)$, so $m = 3$, and two worlds are within $1 + m = 4$.
+This is the typical use of the universal semantics: boxes become "all worlds" and diamonds become "some world", and you search a small model.
+Watch out: $\mathsf{S5}$ is complete for universal frames, but its canonical frame is an equivalence relation with many classes, not a universal relation.
 
 ### L3 human
 
 On universal frames, $\mathsf{S5}$ is the one-variable fragment of first-order logic, with $\square$ as $\forall x$ and the variables as unary predicates.
 Its algebras are the monadic Boolean algebras of Halmos.
-The multi-agent logic $\mathsf{S5}_n$ has one equivalence relation for each agent.
-It is the base of epistemic logic and of the theory of common knowledge, treated in [[applied modal logics|CQM9SRN8PM]].
-Products such as $\mathsf{S5} \times \mathsf{S5}$ model two-variable first-order logic and belong to [[modal model theory|SPQVNPZDTB]].
+The logic $\mathsf{S5}_n$ has one equivalence relation for each agent, and it is the base of epistemic logic and of the theory of common knowledge.
+Products such as $\mathsf{S5} \times \mathsf{S5}$ are modal forms of first-order logic with two variables; see [[products of modal logics|JA2EBWVW8A]].
