@@ -14,30 +14,32 @@ sources:
 
 ## Example
 
-[[Barbara|AC6XQ4KRNT]] is the syllogism of mood AAA in the first figure:
+The argument is: all rectangles are parallelograms, all squares are rectangles, so all squares are parallelograms.
+Its form is [[Barbara|AC6XQ4KRNT]]: all $M$ are $P$, all $S$ are $M$, so all $S$ are $P$.
+We check that the argument is a categorical syllogism of the first figure and of mood AAA, and then we prove validity in three ways.
 
-- Major premise: all $M$ are $P$.
-- Minor premise: all $S$ are $M$.
-- Conclusion: all $S$ are $P$.
+1. Each sentence has the form "all $X$ are $Y$", so each is an A proposition, and the mood is AAA.
+2. The conclusion "all squares are parallelograms" has subject "squares" and predicate "parallelograms", so $S$ is the squares and $P$ is the parallelograms.
+3. "Rectangles" occurs in both premises and not in the conclusion, so it is the middle term $M$, and there are exactly three [[terms|KSJ9W29KXQ]].
+4. The middle term is the subject of the major premise and the predicate of the minor premise, which is the scheme of the [[first figure|S4BTTGFR6J]].
+5. Validity with sets: the premises say $M \subseteq P$ and $S \subseteq M$.
+   Let $x \in S$; then $x \in M$ by the minor premise, and $x \in P$ by the major premise, so $S \subseteq P$.
+6. Validity in predicate logic: from $\forall x\,(M(x) \to P(x))$ and $\forall x\,(S(x) \to M(x))$, for an arbitrary object $a$ we get $S(a) \to M(a)$ and $M(a) \to P(a)$, hence $S(a) \to P(a)$, and we generalize.
+7. Validity with a [[Venn diagram|0KCT6DPXJK]]: "all $M$ are $P$" shades the regions $SM\bar P$ and $\bar S M \bar P$, and "all $S$ are $M$" shades $S \bar M P$ and $S \bar M \bar P$.
+   The conclusion needs $SM\bar P$ and $S\bar M \bar P$ to be empty, and both are shaded.
 
-A mathematical instance: all rectangles are parallelograms, all squares are rectangles, so all squares are parallelograms.
-We check that Barbara is a categorical syllogism of the first figure and of mood AAA, and that it is valid.
-
-1. Each of the three sentences has the form "all $X$ are $Y$", so each is an A proposition. The mood is AAA.
-2. The conclusion "all $S$ are $P$" has subject $S$ and predicate $P$, so $S$ is the minor term and $P$ is the major term.
-3. The term $M$ occurs in both premises and not in the conclusion, so it is the middle term. There are exactly three [[terms|KSJ9W29KXQ]].
-4. In the major premise $M$ is the subject, and in the minor premise $M$ is the predicate. This is the scheme of the [[first figure|S4BTTGFR6J]].
-5. Validity in set language: the premises say $M \subseteq P$ and $S \subseteq M$. Let $x$ be an element of $S$. By the minor premise $x \in M$, and then by the major premise $x \in P$. So $S \subseteq P$, which is the conclusion.
-6. Validity in predicate logic: the premises are $\forall x\,(M(x) \to P(x))$ and $\forall x\,(S(x) \to M(x))$. For an arbitrary object $a$, if $S(a)$ then $M(a)$, and then $P(a)$. So $\forall x\,(S(x) \to P(x))$.
-7. Validity by a [[Venn diagram|0KCT6DPXJK]]: "all $M$ are $P$" shades the regions $SM\bar P$ and $\bar S M \bar P$, and "all $S$ are $M$" shades $S \bar M P$ and $S \bar M \bar P$. The conclusion needs $SM\bar P$ and $S\bar M \bar P$ to be empty, and both are shaded.
-
-Step 5 uses no assumption that $S$, $M$ or $P$ is non-empty, so Barbara is valid in the traditional and in the modern reading.
+Step 5 never assumes that $S$, $M$ or $P$ has an element, so the argument is valid in the traditional and in the modern reading.
 
 ## Remarks
 
 Barbara is the transitivity of the [[subset|0BJR9QR08E]] relation, written in words.
-If the conclusion is weakened to "some $S$ is $P$", the result is Barbari (AAI-1), which is valid only when $S$ is not empty.
-If the middle term is moved so that it is the predicate of both premises, the result is AAA-2, the [[fallacy of the undistributed middle|F8BP8S0RYG]], which is invalid.
+Change one piece and the result changes.
+Weaken the conclusion to "some squares are parallelograms" and you get Barbari (AAI-1), which is valid only when $S$ is not empty; here it is, since the unit square exists.
+Make the middle term the predicate of both premises, as in "all squares are parallelograms, all rectangles are parallelograms, so all rectangles are squares", and you get the invalid [[fallacy of the undistributed middle|F8BP8S0RYG]].
+
+The conclusion cannot be turned around.
+"All parallelograms are squares" is false: the parallelogram with vertices $(0, 0)$, $(2, 0)$, $(3, 1)$ and $(1, 1)$ has no right angle.
+The same figure shows that "all parallelograms are rectangles" is false, so swapping the terms of a premise can turn a true premise into a false one.
 
 ## Explanations
 
@@ -45,18 +47,17 @@ If the middle term is moved so that it is the predicate of both premises, the re
 
 Barbara is the simplest correct chain of "all" sentences.
 If every square is a rectangle, and every rectangle is a parallelogram, then every square is a parallelogram.
-In pictures: the circle of squares lies inside the circle of rectangles, which lies inside the circle of parallelograms.
+In pictures, the circle of squares lies inside the circle of rectangles, which lies inside the circle of parallelograms.
 So the circle of squares lies inside the circle of parallelograms.
-The name Barbara is a memory aid: its three vowels "a" say that all three sentences are of the "all" kind.
 
 ### L2 human
 
-We check that the instance cannot be turned around.
+We check the side vectors of the parallelogram used above, to be sure it has no right angle.
 
-1. The conclusion "all squares are parallelograms" is true, but its converse "all parallelograms are squares" is false.
-2. A counterexample is the parallelogram with vertices $(0,0)$, $(2,0)$, $(3,1)$ and $(1,1)$, which has no right angle.
-3. So Barbara gives $S \subseteq P$ and nothing about $P \subseteq S$.
-4. The same holds for each premise: "all parallelograms are rectangles" is false, as the same figure shows.
+1. The sides from $(0, 0)$ go to $(2, 0)$ and to $(1, 1)$, so the side vectors are $u = (2, 0)$ and $v = (1, 1)$.
+2. The opposite sides are $(3, 1) - (1, 1) = (2, 0)$ and $(3, 1) - (2, 0) = (1, 1)$, so the figure is a parallelogram.
+3. The dot product is $u \cdot v = 2 \cdot 1 + 0 \cdot 1 = 2 \neq 0$, so the angle at $(0, 0)$ is not a right angle.
+4. So the figure is a parallelogram and not a rectangle, and so not a square.
 
-The typical use of this example is as a model for any chain of inclusions between kinds of figures.
-The trap is to put the terms in the wrong places: "all parallelograms are rectangles, all squares are parallelograms" has a false major premise, so it proves nothing about squares.
+One such figure refutes both converses at once.
+The trap is to think that Barbara with a true conclusion also gives the converse; it gives inclusion in one direction only.

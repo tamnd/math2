@@ -15,30 +15,35 @@ sources:
 
 ## Summary
 
-The square of opposition is a diagram of the logical relations between the four categorical propositions with the same subject $S$ and the same predicate $P$.
-These are A "All $S$ are $P$", E "No $S$ is $P$", I "Some $S$ is $P$" and O "Some $S$ is not $P$".
-The four corners are A (top left), E (top right), I (bottom left) and O (bottom right).
-Two propositions are contradictories when exactly one of them is true in every case.
-They are contraries when they cannot both be true, and subcontraries when they cannot both be false.
-The second is a subaltern of the first when the first implies the second.
-In the traditional square, A and O, and E and I, are contradictories (the diagonals), and A and E are contraries (the top side).
-I and O are subcontraries (the bottom side), and I and O are the subalterns of A and E (the vertical sides).
+The square of opposition is a picture of how the four sentences "all", "no", "some" and "some are not" about the same two classes constrain one another's truth.
+Its main lesson is which sentence is the negation of which, and its fine print is the assumption that the subject class is not empty.
+
+Draw it for swans and white things:
+$$\begin{array}{ccc} \text{A: all swans are white} & \text{contraries} & \text{E: no swan is white} \\ \text{subaltern} \downarrow & \text{contradictories (diagonals)} & \downarrow \text{subaltern} \\ \text{I: some swan is white} & \text{subcontraries} & \text{O: some swan is not white} \end{array}$$
+Black swans exist, so A is false and O, across the diagonal, is true.
+White swans exist too, so E is false and I is true.
+The two top sentences are both false here, which is allowed: they can never both be true.
+
+In exact terms, take the four categorical propositions with subject $S$ and predicate $P$: A "all $S$ are $P$", E "no $S$ is $P$", I "some $S$ is $P$", O "some $S$ is not $P$".
+Two propositions are contradictories when exactly one of them is true in every case, contraries when they cannot both be true, and subcontraries when they cannot both be false.
+A proposition $q$ is a subaltern of $p$ when $p$ implies $q$.
+In the traditional square, A and O, and E and I, are contradictories; A and E are contraries; I and O are subcontraries; and I and O are the subalterns of A and E.
 In the modern square only the two pairs of contradictories remain, because the modern reading gives A and E no existential import.
-The square matters because it shows in one picture which inferences between single propositions hold, and how they depend on the assumption that the subject term is not empty.
 
 ## Motivation
 
-Mathematicians negate statements all the time.
-The negation of "every continuous function on $[0, 1]$ is bounded" is "some continuous function on $[0, 1]$ is not bounded", and not "no continuous function on $[0, 1]$ is bounded".
-The square makes this rule visible: the [[negation|029JBBF693]] of a corner is the corner on the other end of the diagonal.
-It also records weaker relations.
-"All primes are odd" and "no prime is odd" cannot both be true, yet both are false.
-So these two are not negations of each other; they are contraries.
-The square names each such relation and says when it holds.
+Mathematicians negate statements all the time, and the square tells you how.
+The [[negation|029JBBF693]] of "every continuous function on $[0, 1]$ is bounded" is "some continuous function on $[0, 1]$ is not bounded", the corner across the diagonal.
+It is not "no continuous function on $[0, 1]$ is bounded", which is only the contrary.
+To refute "all primes are odd" you need one even prime, and $2$ is enough; you do not need to show that no prime is odd.
+
+The square also records the weaker relations, and they show where the traditional and the modern readings of [[Aristotelian syllogistic|MZBNX2T6Q6]] part.
+That difference, existential import, decides which of the $24$ traditional [[syllogistic moods|1TD6HRM5NG]] survive in modern logic.
+The same square, with $\Box$ and $\Diamond$ in place of "all" and "some", returns in modal logic.
 
 ## Notation
 
-The four relations have standard names.
+The table lists the relations and how they change when $S$ may be [[empty|0ECVK59Y03]].
 
 | Pair | Relation | Traditional square | Modern square |
 |---|---|---|---|
@@ -49,79 +54,89 @@ The four relations have standard names.
 | A to I, E to O | [[subalternation|FKRJAQ07GS]] | the universal implies the particular | fails when $S$ is empty |
 
 The universal proposition is the superaltern and the particular one is the subaltern.
-In set language, with $S$ and $P$ as sets: A says $S \subseteq P$, E says $S \cap P = \varnothing$, I says $S \cap P \neq \varnothing$, and O says $S \not\subseteq P$.
-Some books draw the modern square with the sides removed and only the diagonals left.
+In set language, A says $S \subseteq P$, E says $S \cap P = \varnothing$, I says $S \cap P \neq \varnothing$, and O says $S \not\subseteq P$.
+Some books draw the modern square with only the diagonals.
 
 ## Remarks
 
-### Examples
+### Filling in a square
 
-- [[The square for primes and odd numbers|1Y82P4EFR1]]: with $S$ the primes and $P$ the odd numbers, A and E are both false and I and O are both true. This is allowed for contraries and for subcontraries.
-- With $S$ the primes and $P$ the numbers greater than $1$: A is true, so the square gives E false, I true and O false. Each value checks: no prime is $1$ or less.
-- [[The square with an empty subject term|JEW1GKR244]]: with $S$ the even primes greater than $2$ and $P$ the multiples of $4$, A and E are both true and I and O are both false in the modern reading. Only the diagonals survive.
-- With $S$ the squares and $P$ the rectangles: A is true and O is false, and E is false and I is true, as the diagonals require.
+Take $S$ the multiples of $6$ and $P$ the even numbers.
+A, "all multiples of $6$ are even", is true, because $6k = 2 \cdot 3k$.
+So O is false, across the diagonal.
+I, "some multiple of $6$ is even", is true, with witness $6$, as subalternation from A requires.
+So E is false, across the other diagonal.
 
-### Non-examples
+The [[square for primes and odd numbers|1Y82P4EFR1]] shows the mixed case: A and E both false, I and O both true, with witnesses $2$ and $3$.
+The [[square with an empty subject term|JEW1GKR244]] shows the opposite extreme: with $S$ the even primes greater than $2$, A and E are both true and I and O both false.
 
-- [[A statement and its converse are not opposites|AC40F9453Y]]: "All $S$ are $P$" and "All $P$ are $S$" can have all four combinations of truth values. They have different subjects, so they do not sit on one square, and no relation of the square holds between them.
-- "Some $S$ is $P$" and "some $P$ is $S$" are not two corners of a square. They are equivalent by conversion, and the square has no corner for an equivalent copy.
-- "$x > 2$" and "$x < 2$" cannot both be true, so they behave like contraries. They are not corners of a square, because they are not categorical propositions about two terms.
+### Why the relations hold
 
-### Basic properties
+The diagonals hold in both readings.
+"All $S$ are $P$" fails exactly when some element of $S$ is not in $P$, which is O; the pair E and I is the same with $P$ replaced by its complement.
 
-- Contradictories hold in both readings. "All $S$ are $P$" is false exactly when some element of $S$ is not in $P$, which is the O proposition; the case of E and I is the same with $P$ replaced by its complement.
-- If $S$ is not empty, the three other relations of the traditional square hold. For contraries: A and E both true give $S \subseteq P$ and $S \cap P = \varnothing$, so $S = \varnothing$.
-- For subcontraries with $S$ not empty: I and O both false give $S \cap P = \varnothing$ and $S \subseteq P$, so again $S = \varnothing$.
-- For subalternation with $S$ not empty: if $S \subseteq P$, an element $s$ of $S$ lies in $S \cap P$, so I is true. The same argument with the complement of $P$ gives E to O.
-- If $S$ is empty, then A and E are true and I and O are false in the modern reading. So contraries, subcontraries and subalternation all fail, and existential import is the only source of the difference between the two squares.
-- In the traditional square, the truth value of one corner fixes some others: if A is true, then E is false, I is true and O is false; if A is false, only O is fixed, and it is true.
+The other relations need $S \neq \varnothing$.
+If A and E were both true, then $S \subseteq P$ and $S \cap P = \varnothing$, so $S = \varnothing$.
+If I and O were both false, then $S \cap P = \varnothing$ and $S \subseteq P$, so again $S = \varnothing$.
+If A is true and $s \in S$, then $s \in S \cap P$, so I is true; E to O is the same with the complement of $P$.
+When $S$ is empty, the modern reading makes A and E true and I and O false, and all three relations fail.
+So existential import is the only source of the difference between the two squares.
+
+### What is not on the square
+
+A [[statement and its converse|AC40F9453Y]], "all $S$ are $P$" and "all $P$ are $S$", have different subjects and are not two corners of one square.
+All four combinations of their truth values occur, so no relation of the square holds between them.
+"$x > 2$" and "$x < 2$" cannot both be true, so they behave like contraries, but they are not categorical propositions about two terms.
+
+### Watch out
+
+The contrary is not the negation.
+The negation of "all students passed" is "some student did not pass", not "no student passed".
+Contraries can both be false: "all primes are odd" and "no prime is odd" are both false.
+Subalternation needs a non-empty subject.
+"Every even prime greater than $2$ is a multiple of $4$" is true in the modern reading, but "some even prime greater than $2$ is a multiple of $4$" is false.
 
 ### History
 
 Aristotle described contradictory and contrary pairs of propositions in *On Interpretation*.
-The square as a diagram comes from ancient commentators on Aristotle and became a standard figure in medieval logic.
-The modern reading, in which universal propositions say nothing about existence, comes with the logic of the nineteenth century, where "all $S$ are $P$" is read as $\forall x\,(S(x) \to P(x))$.
-Existential import has been discussed since then as the point where the traditional and the modern square part.
+The square as a diagram comes from ancient commentators on Aristotle, and it became a standard figure in medieval logic.
+The modern reading, in which "all $S$ are $P$" is $\forall x\,(S(x) \to P(x))$ and says nothing about existence, came with the logic of the nineteenth century.
 
-### Common errors
+### Try it
 
-- Taking the contrary for the negation. The negation of "all students passed" is "some student did not pass", not "no student passed".
-- Using subalternation with an empty subject. "Every even prime greater than $2$ is a multiple of $4$" is true in the modern reading, but "some even prime greater than $2$ is a multiple of $4$" is false.
-- Thinking that contraries cannot both be false. Contraries cannot both be true, but they can both be false, as "all primes are odd" and "no prime is odd" show.
+Give the negation of "no group of order $4$ is cyclic".
+It is the I corner, "some group of order $4$ is cyclic", which is true: $\mathbb{Z}/4\mathbb{Z}$ is one.
+
+A is true and $S$ is not empty: what can you say about the other three corners?
+O is false by the diagonal, I is true by subalternation, and E is false by the other diagonal.
 
 ## Explanations
 
 ### L1 human
 
 Take the four sentences "all cats are black", "no cat is black", "some cat is black" and "some cat is not black".
-Put them at the corners of a square: the two "all" or "no" sentences on top, and the two "some" sentences below.
+Put the two "all" or "no" sentences on top, and the two "some" sentences below.
 The sentences on a diagonal are exact opposites: one is true and the other is false, always.
-The two sentences on top cannot both be true, but they can both be false, and they are both false for real cats.
-The two sentences below cannot both be false when there are cats at all.
-And if "all cats are black" is true, then "some cat is black" is true too, again as long as cats exist.
+The two on top cannot both be true, but for real cats they are both false.
+The two below cannot both be false, as long as there are cats at all.
 
 ### L2 human
 
-We fill the square for $S$ the multiples of $6$ and $P$ the even numbers, among the positive integers.
+We use the square to refute a claim correctly.
 
-1. A: "all multiples of $6$ are even". A multiple of $6$ is $6k = 2 \cdot 3k$, so it is even. A is true.
-2. O: "some multiple of $6$ is not even". By step 1 no such number exists. O is false, as the diagonal from A requires.
-3. I: "some multiple of $6$ is even". The number $6$ is both. I is true, as subalternation from A requires.
-4. E: "no multiple of $6$ is even". The number $6$ is a counterexample. E is false, as the diagonal from I requires.
-5. The pair A and E is one true and one false, which contraries allow. The pair I and O is one true and one false, which subcontraries allow.
+1. The claim is "all primes are odd", the A corner.
+2. Its negation is the corner across the diagonal, O: "some prime is not odd".
+3. To refute the claim we need one prime that is not odd, and $2$ is one.
+4. The E corner "no prime is odd" is the contrary of the claim, and it is false as well, because of $3$.
 
-The typical use of the square is to negate a quantified statement: move along the diagonal.
-The trap is the empty subject term.
-For $S$ the multiples of $6$ that are odd, A is true in the modern reading and I is false, so step 3 fails; it needed the number $6$ as a witness.
+To negate a universal claim, move along the diagonal to a particular claim of the opposite quality.
+The trap is to aim at the contrary: refuting "all primes are odd" does not require showing that no prime is odd.
 
 ### L3 human
 
-The modern square is the square of a single quantifier and its dual.
-With $\varphi(x) = S(x) \to P(x)$, the corners are $\forall x\, \varphi$, $\forall x\, \neg\psi$, $\exists x\, \psi$ and $\exists x\, \neg\varphi$ with $\psi(x) = S(x) \land P(x)$, and the diagonals are the duality $\neg \forall x\, \varphi \leftrightarrow \exists x\, \neg \varphi$.
-The same pattern appears in [[modal logic|C3RZY20ETK]], where $\Box p$, $\Box \neg p$, $\Diamond p$ and $\Diamond \neg p$ form a square of opposition.
-On a Kripke frame, the traditional relations hold for all formulas exactly when $\Box p \to \Diamond p$ is valid on the frame, that is, when the frame is serial.
-This axiom plays the role of existential import.
+The modern square is the square of a quantifier and its dual: the diagonals are the laws $\neg \forall x\, \varphi \leftrightarrow \exists x\, \neg \varphi$ and $\neg \exists x\, \psi \leftrightarrow \forall x\, \neg \psi$.
+In [[modal logic|C3RZY20ETK]], $\Box p$, $\Box \neg p$, $\Diamond p$ and $\Diamond \neg p$ form a square of the same shape.
+On a Kripke frame all the traditional relations hold for every formula exactly when $\Box p \to \Diamond p$ is valid on the frame, that is, when every world sees some world; that axiom plays the role of existential import.
 
-The modern theory of oppositions studies larger figures, such as hexagons and cubes of opposition, built from the same four relations.
-A relation of the square is a condition on the pairs of truth values that two propositions can take: contradictories exclude $(T, T)$ and $(F, F)$, contraries exclude $(T, T)$, subcontraries exclude $(F, F)$, and subalternation excludes $(T, F)$.
-In terms of a [[Boolean algebra|0XADJKM699]] of propositions, $a$ and $b$ are contradictories when $b = \neg a$, contraries when $a \land b = 0$, subcontraries when $a \lor b = 1$, and $b$ is a subaltern of $a$ when $a \leq b$.
+Each relation is a condition on the pairs of truth values two propositions may take: contradictories exclude $(T, T)$ and $(F, F)$, contraries exclude $(T, T)$, subcontraries exclude $(F, F)$, and subalternation excludes $(T, F)$.
+In a [[Boolean algebra|0XADJKM699]] of propositions, $a$ and $b$ are contradictories when $b = \neg a$, contraries when $a \land b = 0$, subcontraries when $a \lor b = 1$, and $b$ is a subaltern of $a$ when $a \leq b$.

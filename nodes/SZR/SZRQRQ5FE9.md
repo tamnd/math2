@@ -16,28 +16,43 @@ sources:
 
 ## Example
 
-Let $T$ be the theory of [[groups|G5S1M9]] in the language $L = \set{\cdot, e}$, with the three axioms
-$$\forall x \, \forall y \, \forall z \, ((x \cdot y) \cdot z = x \cdot (y \cdot z)), \qquad \forall x \, (x \cdot e = x \land e \cdot x = x), \qquad \forall x \, \exists y \, (x \cdot y = e \land y \cdot x = e).$$
-Let $\psi(x, y)$ be $x \cdot y = e \land y \cdot x = e$, which says that $y$ is an [[inverse|0ZNZH0EXFX]] of $x$.
-We check that a new [[function symbol|BXBNDHV1HW]] $i$ with the axiom $\forall x \, \forall y \, (i(x) = y \leftrightarrow \psi(x, y))$ gives an [[extension by definitions|GCK0NN60E4]].
+Every group text writes $x^{-1}$, although the group axioms only say that some inverse exists.
+The notation is safe because each element has exactly one inverse, so "the inverse of $x$" is a definition.
 
-1. Existence: $T \vdash \forall x \, \exists y \, \psi(x, y)$, since this is the third axiom.
-2. Uniqueness: assume $\psi(x, y)$ and $\psi(x, z)$. Then $y = y \cdot e$ by the second axiom.
+Let $T$ be the theory of [[groups|G5S1M9]] in the language $L = \{ \cdot, e \}$, with the three axioms
+$$\forall x\, \forall y\, \forall z\, ((x \cdot y) \cdot z = x \cdot (y \cdot z)), \qquad \forall x\, (x \cdot e = x \land e \cdot x = x), \qquad \forall x\, \exists y\, (x \cdot y = e \land y \cdot x = e).$$
+Let $\psi(x, y)$ be $x \cdot y = e \land y \cdot x = e$, which says that $y$ is an [[inverse|0ZNZH0EXFX]] of $x$.
+We check that a new [[function symbol|BXBNDHV1HW]] $i$ with the axiom $\forall x\, \forall y\, (i(x) = y \leftrightarrow \psi(x, y))$ gives an [[extension by definitions|GCK0NN60E4]].
+
+1. Existence: $T \vdash \forall x\, \exists y\, \psi(x, y)$, since this is the third axiom.
+2. Uniqueness: assume $\psi(x, y)$ and $\psi(x, z)$.
+   Then $y = y \cdot e$ by the second axiom.
 3. Next, $y \cdot e = y \cdot (x \cdot z)$, since $x \cdot z = e$ by $\psi(x, z)$.
-4. Next, $y \cdot (x \cdot z) = (y \cdot x) \cdot z$ by the first axiom, and $(y \cdot x) \cdot z = e \cdot z$ since $y \cdot x = e$ by $\psi(x, y)$.
-5. Finally, $e \cdot z = z$ by the second axiom. So $y = z$, and $T \vdash \forall x \, \exists ! y \, \psi(x, y)$.
+4. Next, $y \cdot (x \cdot z) = (y \cdot x) \cdot z$ by the first axiom.
+   And $(y \cdot x) \cdot z = e \cdot z$, since $y \cdot x = e$ by $\psi(x, y)$.
+5. Finally, $e \cdot z = z$ by the second axiom.
+   So $y = z$, and $T \vdash \forall x\, \exists ! y\, \psi(x, y)$.
 6. So the theory $T'$ with $i$ is an extension by definitions, and it is conservative over $T$.
-7. Translation of $\forall x \, (i(i(x)) = x)$. The innermost occurrence is $i(x)$; unnesting it gives $\forall x \, \exists y \, (\psi(x, y) \land i(y) = x)$.
-8. The atomic formula $i(y) = x$ is equivalent in $T'$ to $\psi(y, x)$ by the defining axiom. So the translation is $\forall x \, \exists y \, (\psi(x, y) \land \psi(y, x))$.
-9. The formula $\psi(y, x)$ is $y \cdot x = e \land x \cdot y = e$, the same two equations as $\psi(x, y)$. So the translation is equivalent to $\forall x \, \exists y \, \psi(x, y)$, the third axiom, and $T'$ proves $\forall x \, (i(i(x)) = x)$.
+7. We translate $\forall x\, (i(i(x)) = x)$.
+   The innermost occurrence is $i(x)$, and unnesting it gives $\forall x\, \exists y\, (\psi(x, y) \land i(y) = x)$.
+8. The atomic formula $i(y) = x$ is equivalent in $T'$ to $\psi(y, x)$ by the defining axiom.
+   So the translation is $\forall x\, \exists y\, (\psi(x, y) \land \psi(y, x))$.
+9. The formula $\psi(y, x)$ is $y \cdot x = e \land x \cdot y = e$, the same two equations as $\psi(x, y)$.
+   So the translation is equivalent to $\forall x\, \exists y\, \psi(x, y)$, the third axiom, and $T'$ proves $\forall x\, (i(i(x)) = x)$.
 
 ## Remarks
 
-The extension changes no theorem in the language $\set{\cdot, e}$, but it changes the substructures.
-In the language $\set{\cdot, e}$, the natural numbers with $+$ and $0$ form a substructure of the integers with $+$ and $0$.
-In the language $\set{\cdot, e, i}$ they do not, because $i(1) = -1$ is not a natural number.
+### Substructures change
+
+The extension changes no theorem in the language $\{ \cdot, e \}$, but it changes the substructures.
+In the language $\{ \cdot, e \}$, the natural numbers with $+$ and $0$ form a substructure of the integers with $+$ and $0$.
+In the language $\{ \cdot, e, i \}$ they do not, because $i(1) = -1$ is not a natural number.
 So the substructures of a group in the extended language are exactly its subgroups, while in the old language they are the submonoids.
-For monoids the same definition fails, because the third axiom is missing: the element $0$ of the monoid of natural numbers under multiplication has no inverse.
+
+### Monoids
+
+For monoids the same definition fails, because the third axiom is missing.
+The element $0$ of the monoid of natural numbers under multiplication has no inverse.
 
 ## Explanations
 
@@ -57,4 +72,4 @@ We check the uniqueness argument in the group of nonzero rational numbers under 
 3. So $i(4) = \tfrac14$ in the unique expansion.
 
 The typical use is to write group theory with $x^{-1}$ and to know that this is harmless.
-A trap is to define $i$ by only $x \cdot y = e$ in a monoid, where right inverses need not be unique or need not exist.
+Watch out: in a monoid, do not define $i$ by $x \cdot y = e$ alone, because right inverses need not exist or be unique.
