@@ -29,11 +29,17 @@ It ends with the foundational programs, above all Hilbert's, which asked for a f
 5. [[Square of opposition|VYNBSVZ2TH]]: work out how "all swans are white" relates to its three companions, and what existential import changes.
 6. [[Syllogistic figures|S4BTTGFR6J]]: learn the four positions of the middle term that sort all syllogisms.
 7. [[Syllogistic moods|1TD6HRM5NG]]: count the 256 forms and check which 24 are valid, 9 of them only with existential import.
+
+### Reading order, continued: formal systems and consequence
+
 8. [[Formal system|439M8B4DY2]]: play with the MIU system and meet the exact definition of axioms, rules, derivations and theorems.
 9. [[Object language and metalanguage|D9G8M42GKC]]: separate statements in a formal language from statements about it, and use quotation correctly.
 10. [[Rule of inference|QPD3X471Q1]]: learn schematic rules, and the difference between derivable and admissible rules.
 11. [[Consequence relation|J78Y1M4GND]]: see the three properties, reflexivity, monotonicity and cut, that every reasonable notion of consequence shares.
 12. [[Abstract logical systems|RQXV7PM2WT]]: view a logic as a consequence relation with a semantics, and compare logics in one frame.
+
+### Reading order, continued: consistency and foundations
+
 13. [[Consistency|VM8TQ70CVJ]]: learn when a theory is free of contradictions, how this matches having a model, and why it is hard to prove.
 14. [[Post consistency and Post completeness|WK2P0E82B4]]: see that classical propositional logic cannot be strengthened without collapse.
 15. [[Soundness|4A84VHDTHV]]: prove by induction on derivations that every provable formula is valid, the first half of completeness.
