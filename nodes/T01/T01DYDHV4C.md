@@ -59,10 +59,10 @@ Let $\Omega + \varepsilon_1 \le \alpha \le \Omega \cdot 2$.
 ## Remarks
 
 In Buchholz's system the step from $\Omega$ to $\Omega \cdot 2$ in the argument moves the value from $\varepsilon_0$ to the next epsilon number $\varepsilon_1$.
-The Wikipedia article continues the list, and gives $\psi_0(\Omega^2) = \zeta_0$.
+Further along the list comes $\psi_0(\Omega^2) = \zeta_0$.
 
-Compare the Wikipedia [[collapsing function with exponentiation|8S6CT4TMB7]]: there $\psi(\Omega) = \zeta_0$ and $\psi(\Omega \cdot 2) = \zeta_1$.
-So the same term $\Omega \cdot 2$ names $\varepsilon_1$ in one system and $\zeta_1$ in the other, which is why every page must fix its system.
+Compare Madore's [[collapsing function with exponentiation|8S6CT4TMB7]]: there $\psi(\Omega) = \zeta_0$ and $\psi(\Omega \cdot 2) = \zeta_1$.
+So the same term $\Omega \cdot 2$ names $\varepsilon_1$ in one system and $\zeta_1$ in the other, which is why every computation must fix its system.
 Part (b) also shows again that $\psi_0$ is constant on long intervals, here from $\Omega + \varepsilon_1$ to $\Omega \cdot 2$.
 
 ## Explanations

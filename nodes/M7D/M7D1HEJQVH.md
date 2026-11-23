@@ -38,7 +38,7 @@ This theory is Kripke-Platek set theory with one more scheme: for each $\Delta_0
 ### Which $\psi$ this is
 
 The letter $\psi$ has a third meaning here.
-In the Wikipedia system of [[collapsing functions|8S6CT4TMB7]], $\psi$ has one argument and the names $0, 1, \omega, \Omega$.
+In Madore's system of [[collapsing functions|8S6CT4TMB7]], $\psi$ has one argument and the names $0, 1, \omega, \Omega$.
 In Buchholz's system, $\psi_\nu$ is indexed by the numbers $\nu \le \omega$.
 In Rathjen's system, $\psi_\kappa$ is indexed by regular cardinals below a Mahlo cardinal, and $\psi_\Omega$ is the countable collapse.
 The values depend on fine details of the closure sets, which differ between presentations, so we describe the structure and give no explicit values.

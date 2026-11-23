@@ -14,11 +14,12 @@ sources:
 
 ## Example
 
-We use the [[collapsing function|8S6CT4TMB7]] $\psi$ of the Wikipedia system, with names $0, 1, \omega, \Omega$, closure under $+$, $\cdot$ and powers, and the values $\psi(\xi)$ for named $\xi < \alpha$.
+We use the [[collapsing function|8S6CT4TMB7]] $\psi$ of Madore's system, with names $0, 1, \omega, \Omega$, closure under $+$, $\cdot$ and powers, and the values $\psi(\xi)$ for named $\xi < \alpha$.
 Let $\zeta_0$ be the least fixed point of $\gamma \mapsto \varepsilon_\gamma$.
-We show that
-$$\psi(\Omega + 1) = \varepsilon_{\zeta_0 + 1},$$
-the next [[epsilon number|PQSHBKCE7V]] after $\zeta_0$.
+We show that $\psi(\Omega + 1)$ is the next [[epsilon number|PQSHBKCE7V]] after $\zeta_0$.
+
+$$\psi(\Omega + 1) = \varepsilon_{\zeta_0 + 1}$$
+
 We use the [[small values|DM0R5VVBGJ]]: $\psi(\gamma) = \varepsilon_\gamma$ for $\gamma \le \zeta_0$, and $\psi(\xi) = \zeta_0$ for $\zeta_0 \le \xi \le \Omega$.
 Write $\varepsilon = \varepsilon_{\zeta_0 + 1}$.
 
@@ -45,7 +46,7 @@ The argument $\Omega + 1$ breaks the deadlock, because it allows the name $\psi(
 So the uncountable term $\Omega$ is used as a name for a countable ordinal.
 
 Change the argument to $\Omega + n$ and the same proof, by induction on $n$, gives $\psi(\Omega + n) = \varepsilon_{\zeta_0 + n}$: at each stage the new name is the previous value.
-The Wikipedia article continues the computation to $\psi(\Omega \cdot 2) = \zeta_1$, the second fixed point of $\gamma \mapsto \varepsilon_\gamma$.
+The computation continues to $\psi(\Omega \cdot 2) = \zeta_1$, the second fixed point of $\gamma \mapsto \varepsilon_\gamma$.
 
 ## Explanations
 

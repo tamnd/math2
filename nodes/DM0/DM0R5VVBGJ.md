@@ -16,7 +16,7 @@ sources:
 
 ## Example
 
-We use the [[collapsing function|8S6CT4TMB7]] $\psi$ of the Wikipedia system: $C(\alpha)$ contains $0, 1, \omega, \Omega$, is closed under $+$, $\cdot$ and powers, and contains $\psi(\xi)$ for $\xi \in C(\alpha)$ with $\xi < \alpha$.
+We use the [[collapsing function|8S6CT4TMB7]] $\psi$ of Madore's system: $C(\alpha)$ contains $0, 1, \omega, \Omega$, is closed under $+$, $\cdot$ and powers, and contains $\psi(\xi)$ for $\xi \in C(\alpha)$ with $\xi < \alpha$.
 Let $\varepsilon_\gamma$ be the $\gamma$-th [[epsilon number|PQSHBKCE7V]], and let $\zeta_0 = \varphi_2(0)$ be the least $\gamma$ with $\varepsilon_\gamma = \gamma$, in the notation of the [[Veblen function|JQFAE9S2F4]].
 We show two facts.
 Part (a) says that $\psi(\gamma) = \varepsilon_\gamma$ for every $\gamma \le \zeta_0$, so $\psi(0) = \varepsilon_0$, $\psi(1) = \varepsilon_1$ and $\psi(\zeta_0) = \zeta_0$.

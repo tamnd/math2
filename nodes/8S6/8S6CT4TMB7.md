@@ -27,11 +27,13 @@ You can name $\omega^\omega + 3$ and $\omega^{\omega^{\omega}}$, but never $\var
 An ordinal collapsing function records this kind of fact: its value is the first ordinal that a given stock of names misses.
 The trick is to add a huge name $\Omega$ to the stock, so that terms built from $\Omega$ become names for countable ordinals.
 
-We fix one system, the one of the Wikipedia article on collapsing functions, often called Madore's $\psi$.
+We fix one system, often called Madore's $\psi$.
 Let $\Omega$ be the [[first uncountable ordinal|Z92S2GVCX9]].
 For each [[ordinal|0YSCSX5YZC]] $\alpha$, let $C(\alpha)$ be the least set that contains $0$, $1$, $\omega$ and $\Omega$, is closed under $+$, $\cdot$ and $\beta^\gamma$, and contains $\psi(\xi)$ for each $\xi \in C(\alpha)$ with $\xi < \alpha$.
-Then
-$$\psi(\alpha) = \min \{ \rho : \rho \notin C(\alpha) \}.$$
+Then $\psi(\alpha)$ is the least ordinal not in $C(\alpha)$.
+
+$$\psi(\alpha) = \min \{ \rho : \rho \notin C(\alpha) \}$$
+
 The definition is a transfinite recursion on $\alpha$, because $C(\alpha)$ uses only the values $\psi(\xi)$ with $\xi < \alpha$.
 
 ## Motivation
@@ -48,7 +50,7 @@ Collapsing functions give the [[ordinal notation systems|7MBX59Y7N9]] of [[ordin
 
 ## Notation
 
-The same letter $\psi$ names different functions in different books, so every page that uses one must say which it means.
+The same letter $\psi$ names different functions in different books, so every text that uses one must say which it means.
 In the system fixed above, $\psi(\Omega) = \zeta_0$.
 In Buchholz's [[functions $\psi_\nu$|E7WEFRMQTB]], which start from $0$ and use only addition, $\psi_0(\Omega) = \varepsilon_0$.
 Rathjen's surveys use a function $\psi_\Omega$ with a similar closure definition but a different base, and [[another $\psi$|M7D1HEJQVH]] for Mahlo cardinals.
@@ -71,13 +73,15 @@ The [[small values|DM0R5VVBGJ]] continue this: $\psi(1) = \varepsilon_1$, and in
 For $\zeta_0 \le \alpha \le \Omega$ the value stays at $\zeta_0$.
 The reason is that every countable argument we can name in $C(\alpha)$ is below $\zeta_0$, so the allowed values $\psi(\xi) = \varepsilon_\xi$ are below $\zeta_0$ too.
 At $\alpha = \Omega + 1$ the argument $\Omega$ is allowed, and $\psi(\Omega) = \zeta_0$ becomes a name.
-Then the [[first impredicative value|3HWF8NBKJE]] is
-$$\psi(\Omega + 1) = \varepsilon_{\zeta_0 + 1}.$$
+Then the [[first impredicative value|3HWF8NBKJE]] is the next epsilon number after $\zeta_0$.
+
+$$\psi(\Omega + 1) = \varepsilon_{\zeta_0 + 1}$$
+
 This is the collapse: the uncountable term $\Omega$ serves as a name for the countable ordinal $\zeta_0$.
 
 ### Landmarks of the system
 
-Further along, the Wikipedia article gives these values, and each one is a landmark of proof theory:
+Further along, the system gives these values, and each one is a landmark of proof theory.
 $$\psi(\Omega^\Omega) = \Gamma_0, \qquad \psi(\Omega^{\Omega^\omega}) = \text{small Veblen ordinal}, \qquad \psi(\Omega^{\Omega^\Omega}) = \text{large Veblen ordinal}.$$
 The [[Bachmann-Howard ordinal|QH3ENXFRSV]] is $\psi(\varepsilon_{\Omega + 1})$, the limit of $\psi(\Omega)$, $\psi(\Omega^\Omega)$, $\psi(\Omega^{\Omega^\Omega})$ and so on.
 For $\alpha \ge \varepsilon_{\Omega + 1}$ the value stays there, because no term of $C(\alpha)$ reaches $\varepsilon_{\Omega + 1}$.

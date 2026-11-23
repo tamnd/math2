@@ -59,7 +59,7 @@ The closure set is often built in stages $C^0_\nu(\alpha) \subseteq C^1_\nu(\alp
 Some authors extend the index $\nu$ beyond $\omega$; we keep $\nu \le \omega$, as in Buchholz's paper.
 
 Watch out: the letter $\psi$ names different functions in different systems.
-In the Wikipedia system of [[collapsing functions|8S6CT4TMB7]], which has exponentiation as an operation, $\psi(\Omega) = \zeta_0$.
+In Madore's system of [[collapsing functions|8S6CT4TMB7]], which has exponentiation as an operation, $\psi(\Omega) = \zeta_0$.
 In Buchholz's system, $\psi_0(\Omega) = \varepsilon_0$.
 Every value below is a value of Buchholz's $\psi_\nu$.
 
@@ -71,18 +71,21 @@ The [[small values of ψ₀|TZHC9KJBWF]] follow the opening pattern.
 With $1 = \psi_0(0)$ and $\omega = \psi_0(1)$ available, $C_0(2)$ contains all sums of $1$ and $\omega$, which are the ordinals below $\omega^2$, so $\psi_0(2) = \omega^2$.
 In general $\psi_0(\alpha) = \omega^\alpha$ for $\alpha \le \varepsilon_0$.
 After that the function is stuck at $\varepsilon_0$ up to $\Omega$, because no countable argument at or above $\varepsilon_0$ can be named.
-The name $\Omega = \psi_1(0)$ breaks the deadlock, and
-$$\psi_0(\Omega) = \varepsilon_0, \qquad \psi_0(\Omega + 1) = \omega^{\varepsilon_0 + 1} = \varepsilon_0 \cdot \omega.$$
+The name $\Omega = \psi_1(0)$ breaks the deadlock, since $\psi_0(\Omega) = \varepsilon_0$ becomes a name at the next step.
+
+$$\psi_0(\Omega) = \varepsilon_0, \qquad \psi_0(\Omega + 1) = \omega^{\varepsilon_0 + 1} = \varepsilon_0 \cdot \omega$$
+
 
 ### Climbing with $\Omega$
 
 Arguments between $\Omega$ and $\Omega \cdot 2$ list the ordinals between $\varepsilon_0$ and $\varepsilon_1$, and the next landmark is [[ψ₀(Ω·2) = ε₁|T01DYDHV4C]].
 The higher functions behave the same way one level up.
 For example, $\psi_1(1) = \Omega \cdot \omega = \omega^{\Omega + 1}$, because $C_1(1)$ contains every countable ordinal and $\Omega = \psi_1(0)$, hence every $\Omega \cdot n + \beta$, and nothing in between.
-The Wikipedia article on the functions gives the landmarks
-$$\psi_0(\Omega^2) = \zeta_0, \qquad \psi_0(\Omega^\Omega) = \Gamma_0, \qquad \psi_0(\varepsilon_{\Omega + 1}) = \psi_0(\Omega_2),$$
-where $\Gamma_0$ is the [[Feferman-Schütte ordinal|CNN7BK5YAW]] and the last value is the Bachmann-Howard ordinal.
-Higher up, $\psi_0(\Omega_\omega)$ is the ordinal of $\Pi^1_1\text{-}\mathrm{CA}_0$, and $\psi_0(\varepsilon_{\Omega_\omega + 1})$ is the ordinal of $\Pi^1_1\text{-}\mathrm{CA}_0 + \mathrm{BI}$ and of $\mathrm{ID}_{<\omega}$.
+Three landmarks follow, where $\Gamma_0$ is the [[Feferman-Schütte ordinal|CNN7BK5YAW]] and the last value is the Bachmann-Howard ordinal.
+
+$$\psi_0(\Omega^2) = \zeta_0, \qquad \psi_0(\Omega^\Omega) = \Gamma_0, \qquad \psi_0(\varepsilon_{\Omega + 1}) = \psi_0(\Omega_2)$$
+
+Higher up, $\psi_0(\Omega_\omega)$ is the ordinal of $\Pi^1_1\text{-}\mathrm{CA}_0$ and of $\mathrm{ID}_{<\omega}$, and $\psi_0(\varepsilon_{\Omega_\omega + 1})$ is the ordinal of $\Pi^1_1\text{-}\mathrm{CA} + \mathrm{BI}$ and of $\mathrm{ID}_\omega$.
 
 ### The rules you can use
 
@@ -90,7 +93,7 @@ Each $\psi_\nu(0)$ is $\Omega_\nu$, because $C_\nu(0)$ is the set of ordinals be
 Each value is at least $\Omega_\nu$, and for $\nu < \omega$ it is below $\Omega_{\nu + 1}$, because $C_\nu(\alpha)$ has at most $\aleph_\nu$ members.
 Each value $\rho = \psi_\nu(\alpha)$ is [[additively indecomposable|7TFCZSVX5R]]: if $\beta, \gamma < \rho$ had $\beta + \gamma \ge \rho$, then $\rho = \beta + \delta$ with $\delta \le \gamma$, and $\rho$ would be in $C_\nu(\alpha)$.
 Each $\psi_\nu$ is weakly increasing, since $\alpha \le \alpha'$ gives $C_\nu(\alpha) \subseteq C_\nu(\alpha')$.
-By the Wikipedia article, $\psi_\nu(\alpha) = \omega^{\Omega_\nu + \alpha}$ for $\nu \ge 1$ and $\alpha < \varepsilon_{\Omega_\nu + 1}$.
+One can also show that $\psi_\nu(\alpha) = \omega^{\Omega_\nu + \alpha}$ for $\nu \ge 1$ and $\alpha < \varepsilon_{\Omega_\nu + 1}$.
 
 ### Terms and their order
 
@@ -106,7 +109,7 @@ The [[Veblen function|JQFAE9S2F4]] is not of this kind: it names $\varepsilon_0$
 
 ### Watch out
 
-Do not compare terms of two systems: $\psi_0(\Omega \cdot 2) = \varepsilon_1$ here, but $\psi(\Omega \cdot 2) = \zeta_1$ in the Wikipedia system with exponentiation.
+Do not compare terms of two systems: $\psi_0(\Omega \cdot 2) = \varepsilon_1$ here, but $\psi(\Omega \cdot 2) = \zeta_1$ in Madore's system with exponentiation.
 Do not set $\Omega_0 = 0$.
 Then $C_0(\alpha)$ would be empty for every $\alpha$, since a value of $\psi$ needs a named argument, and $\psi_0$ would be constantly $0$.
 Finally, the useful arguments of $\psi_0$ are uncountable, such as $\Omega$, $\Omega_2$ or $\varepsilon_{\Omega_\omega + 1}$.
@@ -147,4 +150,4 @@ The condition $\xi < \alpha$ is what keeps the definition from being circular.
 Buchholz's system is the simplest member of a family of collapsing functions indexed by regular cardinals.
 In proof theory the cardinal $\Omega_{\nu + 1}$ can be read as the $(\nu + 1)$-th admissible ordinal above $\omega$, and $\psi_\nu$ mirrors the collapsing lemma for derivations with Buchholz's [[Ω-rule|5C4YBXQV15]].
 Replacing the countable tower by an inaccessible, a Mahlo or a weakly compact cardinal gives the systems of Rathjen, such as [[Rathjen's psi function|M7D1HEJQVH]], for stronger theories.
-The terms of $\mathrm{OT}$ can be drawn as finite labeled trees, and the [[Buchholz hydra|9APRFM0G7F]] uses these trees for a combinatorial statement that $\Pi^1_1\text{-}\mathrm{CA}_0 + \mathrm{BI}$ does not prove.
+The terms of $\mathrm{OT}$ can be drawn as finite labeled trees, and the [[Buchholz hydra|9APRFM0G7F]] uses these trees for a combinatorial statement that $\Pi^1_1\text{-}\mathrm{CA} + \mathrm{BI}$ does not prove.

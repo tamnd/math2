@@ -68,7 +68,7 @@ So it produces powers of $\omega$ although the definition only uses addition.
 At $\varepsilon_0$ it gets stuck, because the argument of $\psi_0$ must already be named, and every argument named from countable material is below $\varepsilon_0$.
 The name $\Omega = \psi_1(0)$ gives $\varepsilon_0$ as $\psi_0(\Omega)$, and from $\Omega + 1$ on the function grows again.
 
-Compare the Wikipedia [[collapsing function with exponentiation|8S6CT4TMB7]].
+Compare Madore's [[collapsing function with exponentiation|8S6CT4TMB7]].
 There the stopping point below $\Omega$ is $\zeta_0$ instead of $\varepsilon_0$, because exponentiation is one of the operations.
 
 ## Explanations

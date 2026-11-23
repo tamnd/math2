@@ -16,7 +16,7 @@ sources:
 
 ## Example
 
-We define a function $\psi'$ like the [[collapsing function|8S6CT4TMB7]] $\psi$ of the Wikipedia system, but without the name $\Omega$.
+We define a function $\psi'$ like the [[collapsing function|8S6CT4TMB7]] $\psi$ of Madore's system, but without the name $\Omega$.
 Let $C'(\alpha)$ be the least set that contains $0, 1, \omega$, is closed under sums, products and powers, and contains $\psi'(\xi)$ for each $\xi \in C'(\alpha)$ with $\xi < \alpha$.
 Let $\psi'(\alpha)$ be the least ordinal not in $C'(\alpha)$.
 We show that $\psi'(\alpha) = \varepsilon_\alpha$ for $\alpha \le \zeta_0$, and $\psi'(\alpha) = \zeta_0$ for every $\alpha \ge \zeta_0$, however large.

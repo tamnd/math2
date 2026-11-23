@@ -36,7 +36,7 @@ Here $\mathrm{BI}$ is bar induction, transfinite induction along every well-foun
 ### Why it is the last value
 
 Why can no argument go further?
-Write $E = \varepsilon_{\Omega_\omega + 1}$, and use the fact from the Wikipedia article that $\psi_\omega(\xi) = \omega^{\Omega_\omega + \xi}$ for $\xi < E$.
+Write $E = \varepsilon_{\Omega_\omega + 1}$, and use the fact from [[Buchholz's system|E7WEFRMQTB]] that $\psi_\omega(\xi) = \omega^{\Omega_\omega + \xi}$ for $\xi < E$.
 
 1. We show that every member of every $C_0(\alpha)$ is below $E$, by induction on the construction.
    The start $\{ 0 \}$ is below $E$, and $E$ is closed under addition.

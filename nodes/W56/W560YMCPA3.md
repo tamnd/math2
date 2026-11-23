@@ -59,7 +59,7 @@ The calculus is complete for [[Henkin semantics|KWEJFK5943]] instead.
 ### Consequences
 
 The calculus $\mathrm{LK}^2$ is consistent: a cut-free derivation of the empty sequent would end in a rule with an empty conclusion, and no rule has one.
-Over primitive recursive arithmetic, the theorem is equivalent to the 1-consistency of [[second-order arithmetic|DC60FYCSPM]] (Wikipedia, lead section).
+Over primitive recursive arithmetic, the theorem is equivalent to the 1-consistency of [[second-order arithmetic|DC60FYCSPM]].
 Since 1-consistency implies [[consistency|VM8TQ70CVJ]], Gödel's second incompleteness theorem shows that second-order arithmetic, if consistent, does not prove the theorem.
 So every proof of the theorem uses principles beyond second-order arithmetic, and the semantic proofs use sets of sets of natural numbers.
 The converse of the theorem holds at once, because a derivation without cut is a derivation in $\mathrm{LK}^2$.
@@ -68,8 +68,8 @@ The converse of the theorem holds at once, because a derivation without cut is a
 
 Takeuti stated the conjecture for his generalized logic calculus GLC, a sequent calculus for [[higher-order logic|P1ABGYRQXH]], that is, for simple type theory.
 Takahashi and Prawitz proved it for all finite types, with a semantic method.
-The second-order case is also a corollary of Girard's strong normalization theorem for [[System F|SVNYKTGQ48]], the polymorphic lambda calculus (Wikipedia, lead section).
-Over primitive recursive arithmetic the theorem is equivalent to the strong normalization of System F (same source).
+The second-order case is also a corollary of Girard's strong normalization theorem for [[System F|SVNYKTGQ48]], the polymorphic lambda calculus.
+Over primitive recursive arithmetic the theorem is equivalent to the strong normalization of System F.
 
 ### Watch out
 
