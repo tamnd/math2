@@ -23,7 +23,7 @@ sources:
 ## Summary
 
 Checking a proof means deciding whether a written argument proves its stated result, and the sharpest tool for it is to run the argument on a case where the conclusion is false.
-Here is a short argument that looks fine, which is a flawed example.
+Here is a short argument that looks fine but is flawed.
 
 > Claim: if $f, g \colon \mathbb{R} \to \mathbb{R}$ are injective, then $f + g$ is injective.
 > Suppose $f(x) + g(x) = f(y) + g(y)$.

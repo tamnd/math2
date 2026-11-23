@@ -35,7 +35,7 @@ It is filled by writing $q = a/b$ and $r = c/d$ with integers $a, b, c, d$ and $
 
 Both hypotheses are used in line (4): "$x$ is irrational" for the contradiction, and "$r$ is rational" inside the claim about $q - r$.
 To confirm this, drop "$r$ is rational" and take $r = -\sqrt{2}$ and $x = \sqrt{2}$, so that $r + x = 0$ is rational and the conclusion fails.
-Lines (1) to (3) still hold with $q = 0$, and line (4) fails, since $q - r = \sqrt{2}$.
+Lines (1) to (3) still hold with $q = 0$, and line (4) fails, since $q - r = \sqrt{2}$ is irrational.
 So the dropped hypothesis enters exactly where the gap was found.
 
 The report reads as follows.
