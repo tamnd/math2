@@ -8,7 +8,7 @@ audience: ug2
 illustrates: [4X9126SEMM]
 uses: [4X9126SEMM, QN7M1JCGT9, 00C0BR7D7H, 0NCPXH194Y, 0QV2JS9RJ3, 0FRXBVVR03, Q3EAVBDA8J, V9NXB85SYT, 08WCB90WND]
 sources:
-  - url: https://en.wikipedia.org/wiki/De_Bruijn–Erdős_theorem_(graph_theory)
+  - url: https://en.wikipedia.org/wiki/De_Bruijn%E2%80%93Erd%C5%91s_theorem_(graph_theory)
     locator: Proofs
   - url: https://en.wikipedia.org/wiki/Szpilrajn_extension_theorem
     locator: Proof via compactness
