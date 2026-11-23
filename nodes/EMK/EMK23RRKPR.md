@@ -18,29 +18,40 @@ sources:
 
 ## Example
 
-Consider the argument with two premises and one conclusion.
-Premise 1: all humans are mortal.
-Premise 2: Socrates is a human.
-Conclusion: Socrates is mortal.
-The argument is correct, but the propositional calculus cannot show that it is correct.
+The most famous valid argument of all is invisible to the propositional calculus.
+Here it is.
+All humans are mortal.
+Socrates is a human.
+So Socrates is mortal.
+The argument is correct, but its propositional form is not a valid [[logical consequence|1HK0VYWTV7]].
 
 1. None of the three sentences has "not", "and", "or", "if ... then" or "if and only if" as its main word.
-2. So each sentence is an atom of propositional logic, and we write $p$, $q$ and $r$ for the three sentences.
-3. The three sentences are different, so they get three different variables.
-4. The propositional form of the argument is $\set{p, q} \models r$.
-5. The valuation with $v(p) = 1$, $v(q) = 1$ and $v(r) = 0$ makes both premises true and the conclusion false.
-6. So $\set{p, q} \not\models r$, and the form is not a valid [[logical consequence|1HK0VYWTV7]].
-7. In [[first-order logic|086QKPF0A6]] the argument has the form $\forall x\, (H(x) \to M(x)),\ H(s) \models M(s)$.
-8. In each structure where both premises are true, the first premise holds for the element named $s$, so $H(s) \to M(s)$ is true.
-9. Since $H(s)$ is also true, the table of $\to$ gives that $M(s)$ is true, so the first-order form is valid.
+   So each sentence is an atom of propositional logic.
+2. The three sentences are different, so they get three different variables $p$, $q$ and $r$.
+3. The propositional form of the argument is
+   $$\{ p, q \} \models r .$$
+4. The valuation with $v(p) = 1$, $v(q) = 1$ and $v(r) = 0$ makes both premises true and the conclusion false.
+5. So $\{ p, q \} \not\models r$, and the form is not valid.
+
+In [[first-order logic|086QKPF0A6]] the same argument has the form
+$$\forall x\, (H(x) \to M(x)),\ H(s) \models M(s),$$
+where $H$ means "is a human", $M$ means "is mortal" and $s$ names Socrates.
+In each structure where both premises are true, the first premise holds for the element named $s$, so $H(s) \to M(s)$ is true.
+Since $H(s)$ is also true, the table of $\to$ makes $M(s)$ true, so the first-order form is valid.
 
 ## Remarks
 
-The example shows a limit of the propositional calculus: it sees only how sentences are combined by connectives, not what is inside an atomic sentence.
-The word "all" and the link between "humans" in premise 1 and "a human" in premise 2 carry the argument.
-The propositional language has no symbols for them.
-If we replace premise 1 by "if Socrates is a human, then Socrates is mortal", the form becomes $\set{q \to r,\ q} \models r$.
-This form is valid in the propositional calculus, by modus ponens.
+The example shows the limit of the propositional calculus.
+It sees how sentences are joined by connectives, but not what is inside an atomic sentence.
+The word "all" and the link between "humans" in the first premise and "a human" in the second carry the argument, and the propositional language has no symbols for them.
+
+A small change brings the argument back inside propositional logic.
+If we replace the first premise by "if Socrates is a human, then Socrates is mortal", the form becomes $\{ q \to r,\ q \} \models r$.
+This form is valid, by modus ponens.
+
+Watch out.
+"Not valid in the propositional calculus" does not mean "wrong".
+The argument is correct; it only needs a stronger logic to show it.
 
 ## Explanations
 
@@ -54,13 +65,9 @@ A stronger logic with the words "all" and "some" can see it.
 
 ### L2 human
 
-We test an argument for propositional validity.
-
-1. Find the main connective of each sentence; here there is none.
-2. Give each different atomic sentence its own variable: $p$, $q$, $r$.
-3. Search for a valuation with true premises and a false conclusion: $p = q = 1$, $r = 0$.
-4. Such a valuation exists, so the argument is not valid by its propositional form.
-
 The typical use is to decide which logic an argument needs.
-A trap is to conclude that the argument is wrong.
-It is correct, and first-order logic shows it.
+Take "if the number is even, it is not prime unless it is two; the number is even and is not two; so it is not prime".
+With $e$ for "the number is even", $t$ for "it is two" and $q$ for "it is prime", the form is
+$$\{ e \to (\neg q \lor t),\ e \land \neg t \} \models \neg q .$$
+A valuation that makes both premises true has $e = 1$ and $t = 0$, so the first premise forces $\neg q \lor 0 = 1$, that is, $q = 0$.
+Check: then $\neg q = 1$, so this argument is valid by its propositional form, unlike the Socrates syllogism.
