@@ -20,12 +20,17 @@ We build a formula $\theta(x)$ that says "$\varphi$ holds of the diagonalization
 Let $\varphi(x)$ be a formula with exactly one free variable $x$.
 Let $\mathrm{sub}(n, m)$ be the code of the result of putting the numeral $\underline{m}$ for the variable $x$ in the formula with code $n$.
 
+### The diagonal function
+
 1. Define the diagonal function $d(n) := \mathrm{sub}(n, n)$.
    If $n = \# \theta$ for a formula $\theta(x)$, then $d(n) = \# \theta(\ulcorner \theta \urcorner)$.
 2. The function $\mathrm{sub}$ is [[primitive recursive|5NVA2JRHPV]], by [[arithmetization of syntax|6M12VR1GT6]].
    So $d$ is primitive recursive, and in particular computable.
 3. By the representability theorem, there is a formula $D(x, y)$ with
    $$\mathsf{Q} \vdash \forall y \, (D(\underline{n}, y) \leftrightarrow y = \underline{d(n)}) \quad \text{for every } n \in \mathbb{N}.$$
+
+### The fixed point
+
 4. Choose a variable $y$ that does not occur in $\varphi(x)$, and define $\theta(x) := \exists y \, (D(x, y) \wedge \varphi(y))$.
    This is a formula with the single free variable $x$.
 5. Let $k := \# \theta$, and define the sentence $\psi := \theta(\underline{k})$, which is $\exists y \, (D(\underline{k}, y) \wedge \varphi(y))$.

@@ -23,6 +23,8 @@ Write $(x)_i$ for the exponent of $p_i$ in $x$, and $\mathrm{lh}(x)$ for the num
 Concatenation of codes is
 $$x * y = x \cdot \prod_{i = 1}^{\mathrm{lh}(y)} p_{\mathrm{lh}(x) + i}^{(y)_i}.$$
 
+### The pieces are primitive recursive
+
 1. The relation "$z$ is prime" is primitive recursive.
    It says $z \ge 2$ and $\forall u < z \, \forall v < z \, (u \cdot v \ne z)$, and bounded quantifiers keep primitive recursiveness.
 2. The function $i \mapsto p_i$ is primitive recursive.
@@ -32,6 +34,9 @@ $$x * y = x \cdot \prod_{i = 1}^{\mathrm{lh}(y)} p_{\mathrm{lh}(x) + i}^{(y)_i}.
    For $x \ge 1$ it is the least $e < x$ such that $p_i^{e+1}$ does not divide $x$, a bounded search.
 4. The function $\mathrm{lh}(x)$ is primitive recursive.
    It is the bounded sum over $i \le x$ of $1$ when $p_i$ divides $x$ and $0$ otherwise.
+
+### The product does the joining
+
 5. For a string code $x$ of length $n$, the primes that divide $x$ are exactly $p_1, \ldots, p_n$, because each exponent $c(s_j)$ is at least $1$.
    So $\mathrm{lh}(x) = n$.
 6. Bounded products of primitive recursive functions are primitive recursive, so $x * y$ is primitive recursive.

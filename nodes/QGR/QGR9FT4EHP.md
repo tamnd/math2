@@ -20,6 +20,8 @@ The axioms are six basic axioms about $0, S, +, \cdot$ and one induction axiom f
 $$(\varphi(0) \wedge \forall v \, (\varphi(v) \to \varphi(S v))) \to \forall v \, \varphi(v).$$
 We show by [[arithmetization of syntax|6M12VR1GT6]] that the relation $\mathrm{Prf}_{\mathsf{PA}}(y, x)$, "$y$ codes a proof in $\mathsf{PA}$ of the formula with code $x$", is [[primitive recursive|5NVA2JRHPV]].
 
+### Recognizing the axioms
+
 1. The six basic axioms have six fixed codes $a_1, \ldots, a_6$, and the test $x = a_1 \vee \cdots \vee x = a_6$ is primitive recursive.
 2. There is a primitive recursive function $\mathrm{Ind}(f, i)$ that gives the code of the induction axiom for the formula with code $f$ and the variable $v_i$.
    It is built from substitution and concatenation of codes.
@@ -28,6 +30,9 @@ We show by [[arithmetization of syntax|6M12VR1GT6]] that the relation $\mathrm{P
    This is a bounded search over a primitive recursive relation, so it is primitive recursive.
 5. By steps 1 and 4, $\mathrm{Ax}_{\mathsf{PA}}(x)$ is primitive recursive.
    The logical axioms of the proof system form a primitive recursive set by the same argument.
+
+### Checking a whole proof
+
 6. Modus ponens at line $i$ of $y$ is the test $\exists j < i \, \exists k < i \, ((y)_k = 2^{9} * (y)_j * 2^{3} * (y)_i * 2^{11})$.
    Here $2^9$, $2^3$ and $2^{11}$ code the strings $($, $\to$ and $)$, and $(y)_i$ is the code of line $i$.
 7. $\mathrm{Prf}_{\mathsf{PA}}(y, x)$ says that $y$ codes a sequence, that each line is an axiom or follows from earlier lines by a rule, and that the last line has code $x$.

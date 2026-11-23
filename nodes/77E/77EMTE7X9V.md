@@ -21,6 +21,8 @@ That phrase has fewer than twenty words and describes the number, which is the B
 Replace "described" by "printed by a short program" and "the least number" by "the first number $T$ proves complex", and the paradox becomes a proof.
 The undecided sentence has the form "$C(\underline{x}) > \underline{c}$".
 
+### Complexity in arithmetic
+
 Fix a universal machine $U$ on binary strings.
 The [[Kolmogorov complexity|8PY3K6NCKF]] $C(x)$ is the least length of a program $p$ with $U(p) = x$.
 
@@ -29,6 +31,9 @@ The [[Kolmogorov complexity|8PY3K6NCKF]] $C(x)$ is the least length of a program
 2. Let $\kappa(x, c) := \neg \exists p \, \exists s \, (\mathrm{lh}(p) \le c \wedge \mathrm{Out}(p, s, x))$.
    This $\Pi_1$ formula says $C(x) > c$, and it defines this relation in $\mathbb{N}$.
 3. By the invariance theorem, for every machine $M$ there is a constant $c_M$ with $C(x) \le C_M(x) + c_M$ for all $x$, where $C_M$ is complexity measured with $M$.
+
+### $T$ proves no lower bound $C(\underline{x}) > \underline{c}$
+
 4. Let $M$ be the following machine.
    On input $w$, it reads $w$ as the binary numeral of a number $c$.
    It lists the theorems of $T$, which form a [[computably enumerable|TN9G24VABN]] set, and outputs the first $x$ such that $\kappa(\underline{x}, \underline{c})$ appears.
@@ -40,6 +45,9 @@ The [[Kolmogorov complexity|8PY3K6NCKF]] $C(x)$ is the least length of a program
 8. So the $\Sigma_1$ sentence $\neg \kappa(\underline{x_0}, \underline{c})$ is true in $\mathbb{N}$.
    Every true $\Sigma_1$ sentence is provable in $\mathsf{Q}$, so $T \vdash \neg \kappa(\underline{x_0}, \underline{c})$.
 9. Steps 6 and 8 make $T$ inconsistent, so $T$ proves no sentence $\kappa(\underline{x}, \underline{c})$.
+
+### Some lower bound is true
+
 10. There are $2^{c+1} - 1$ binary strings of length at most $c$, so at most $2^{c+1} - 1$ numbers have $C(x) \le c$.
     Among the $2^{c+1}$ numbers $0, \ldots, 2^{c+1} - 1$, some $x_1$ has $C(x_1) > c$.
 11. So $\kappa(\underline{x_1}, \underline{c})$ is a true $\Pi_1$ sentence, and $T$ does not prove it, by step 9.

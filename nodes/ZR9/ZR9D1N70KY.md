@@ -21,10 +21,15 @@ Then we could decide halting: run $e$ on $e$ and search the theorems of $T$ for 
 The halting problem is undecidable, so $T$ misses some true non-halting sentence.
 The steps below make this exact, and they give parts 1 and 2 of the theorem with a different undecided sentence.
 
+### The halting set
+
 1. Let $K := \{e \in \mathbb{N} : \text{the program with code } e \text{ halts on input } e\}$.
    The set $K$ is [[computably enumerable|TN9G24VABN]] and, by the [[undecidability of the halting problem|Z7TN2B35B0]], not decidable.
 2. A set is decidable exactly when it and its complement are computably enumerable, by [[Post's complement theorem|EZ6Z9V91C2]].
    So the complement $\overline{K}$ is not computably enumerable.
+
+### A true sentence that $T$ does not prove
+
 3. The relation "program $e$ on input $e$ halts within $s$ steps" is decidable.
    Let $C(x, z)$ be a $\Sigma_1$ formula that represents it in $\mathsf{Q}$, and let $H(x) := \exists z \, C(x, z)$.
 4. In $\mathbb{N}$, $H$ defines $K$, since $C$ defines its relation in the model $\mathbb{N}$ of $\mathsf{Q}$.
@@ -38,6 +43,9 @@ The steps below make this exact, and they give parts 1 and 2 of the theorem with
    So $S \cap K$ is empty, and $S \subseteq \overline{K}$.
 8. By steps 2 and 6, $S \ne \overline{K}$, so we can choose $e_0 \in \overline{K}$ with $e_0 \notin S$.
 9. By step 4, the $\Pi_1$ sentence $\neg H(\underline{e_0})$ is true in $\mathbb{N}$, and by the choice of $e_0$, $T \nvdash \neg H(\underline{e_0})$.
+
+### The negation is not provable either
+
 10. Now assume that $T$ is $1$-consistent, so every $\Sigma_1$ sentence provable in $T$ is true.
     If $T \vdash H(\underline{e_0})$, then $H(\underline{e_0})$ is true, and $e_0 \in K$ by step 4, which contradicts step 8.
 11. So $T$ proves neither $H(\underline{e_0})$ nor $\neg H(\underline{e_0})$, and $T$ is not negation complete.
