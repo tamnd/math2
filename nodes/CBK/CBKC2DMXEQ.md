@@ -16,47 +16,56 @@ sources:
 
 ## Example
 
-Let $\sigma_1 = \set{\cdot, e, {}^{-1}}$ with arities $2, 0, 1$, and let $\sigma_2 = \set{\cdot}$ with arity $2$.
-Both are signatures for [[groups|G5S1M9]].
-We check that they give the same groups but different substructures.
+The same groups can be described with more symbols or with fewer, and the choice changes which subsets count as substructures.
+Let $\sigma_1 = \{ \cdot, e, {}^{-1} \}$ with arities $2, 0, 1$, and let $\sigma_2 = \{ \cdot \}$ with arity $2$.
+Both are [[signatures|WDVVEYD6AT]] for [[groups|G5S1M9]].
+We check that they carry the same information about a group but give different substructures.
 
-1. Each symbol of $\sigma_1$ and of $\sigma_2$ has exactly one arity, so both are [[signatures|WDVVEYD6AT]].
-2. A group $G$ gives a $\sigma_1$-structure: $\cdot$ is the product, $e$ is the identity, and ${}^{-1}$ is the inverse map.
+1. Each symbol of $\sigma_1$ and of $\sigma_2$ has exactly one arity, so both are signatures.
+2. A group $G$ gives a $\sigma_1$-[[structure|983GZBQYT4]]: $\cdot$ is the product, $e$ is the identity, and ${}^{-1}$ is the inverse map.
 3. Forgetting $e$ and ${}^{-1}$ gives a $\sigma_2$-structure on the same set.
-4. In a group the identity is the only element $u$ with $u \cdot u = u$, and each element has exactly one inverse. So the product alone fixes $e$ and ${}^{-1}$, and no information is lost in step 3.
-5. A substructure for $\sigma_1$ is a subset that contains $e$ and is closed under $\cdot$ and ${}^{-1}$. In a group this is exactly a subgroup.
-6. A substructure for $\sigma_2$ is a subset closed under $\cdot$.
-7. Take the group $(\mathbb{Z}, +)$ and the subset $P = \set{1, 2, 3, \dots}$. A sum of two positive integers is positive, so $P$ is closed under $+$, and $P$ is a $\sigma_2$-substructure.
-8. The set $P$ does not contain $0$, the interpretation of $e$. So $P$ is not a $\sigma_1$-substructure, and $(P, +)$ is not a group.
+4. No information is lost in step 3.
+   In a group the identity is the only element $u$ with $u \cdot u = u$, and each element has exactly one inverse, so the product alone fixes $e$ and ${}^{-1}$.
+5. A substructure for $\sigma_1$ is a subset that contains the value of $e$ and is closed under $\cdot$ and ${}^{-1}$, so in a group it is exactly a subgroup.
+6. A substructure for $\sigma_2$ is any subset closed under $\cdot$.
+7. Take the group $(\mathbb{Z}, +)$ and the subset $P = \{ 1, 2, 3, \dots \}$.
+   A sum of two positive integers is positive, so $P$ is closed under $+$ and is a $\sigma_2$-substructure.
+8. The set $P$ does not contain $0$, the value of $e$, so $P$ is not a $\sigma_1$-substructure, and $(P, +)$ is not a group.
 
-So the choice of signature changes the substructures, even when the structures carry the same information.
+So the signature decides the substructures, even when two signatures describe the same groups.
 
 ## Remarks
 
-The group axioms over $\sigma_1$ can be written as universal sentences, such as $\forall x \, (x \cdot x^{-1} = e)$.
-Universal sentences stay true in substructures, so every $\sigma_1$-substructure of a group is a group.
-Over $\sigma_2$ the axioms need an existential quantifier: $\exists u \, (\forall x \, (x \cdot u = x \land u \cdot x = x) \land \forall x \, \exists y \, (x \cdot y = u \land y \cdot x = u))$, together with associativity.
-Step 7 shows that no set of universal $\sigma_2$-sentences axiomatizes the groups.
-Homomorphisms do not change: a map between groups that preserves $\cdot$ also preserves $e$ and ${}^{-1}$.
+Why does the larger signature behave better?
+Over $\sigma_1$ every group axiom is a universal sentence, such as $\forall x \, (x \cdot x^{-1} = e)$, and universal sentences stay true in substructures.
+So every $\sigma_1$-substructure of a group is again a group.
+Over $\sigma_2$ the identity and inverse axioms need an existential quantifier:
+$$\exists u \, \big(\forall x \, (x \cdot u = x \land u \cdot x = x) \land \forall x \, \exists y \, (x \cdot y = u \land y \cdot x = u)\big),$$
+together with associativity.
+Step 7 shows that no set of universal $\sigma_2$-sentences can axiomatize the groups, since such a set would hold in $(P, +)$.
+
+Homomorphisms, on the other hand, do not change.
+A map between groups that preserves $\cdot$ also preserves $e$ and ${}^{-1}$, so the two signatures give the same homomorphisms.
 
 ## Explanations
 
 ### L1 human
 
 A signature says which operations are named.
-For a group one can name only the product, or the product, the identity and the inverse.
-For the integers with addition, the positive integers are closed under addition.
+For a group you can name only the product, or the product, the identity and the inverse.
+In the integers with addition, the positive integers are closed under addition.
 If only addition is named, they form a substructure.
-If $0$ is also named, a substructure must contain $0$, so the positive integers are not a substructure.
+If $0$ is also named, a substructure must contain $0$, so the positive integers are not one.
 
 ### L2 human
 
-We find the substructure generated by $2$ in $(\mathbb{Z}, +)$ in each signature.
-
-1. For $\sigma_2$, the generated substructure is the closure of $\set{2}$ under $+$: the set $\set{2, 4, 6, \dots}$.
-2. For $\sigma_1$, it must also contain $0$ and be closed under $x \mapsto -x$.
-3. The closure of $\set{0, 2}$ under $+$ and $x \mapsto -x$ is $2\mathbb{Z} = \set{\dots, -2, 0, 2, 4, \dots}$.
-4. The two results differ, and only the second one is a subgroup.
-
-The typical use is the choice of signature that makes the axioms universal, so that substructures stay in the class.
-A trap: "generated by $2$" has no meaning until the signature is fixed.
+We find the substructure generated by $2$ in $(\mathbb{Z}, +)$, once in each signature.
+For $\sigma_2$ we close $\{ 2 \}$ under $+$ only, and get
+$$\{ 2, 4, 6, \dots \}.$$
+For $\sigma_1$ we must also include the value $0$ of $e$ and close under $x \mapsto -x$.
+Closing $\{ 0, 2 \}$ under $+$ and $x \mapsto -x$ gives
+$$2\mathbb{Z} = \{ \dots, -4, -2, 0, 2, 4, \dots \}.$$
+Check: $-2$ is the inverse of $2$, and $-2 + (-2) = -4$ lies in the set.
+The two results differ, and only the second is a subgroup.
+The typical use is to choose the signature that makes the axioms universal, so that substructures stay inside the class.
+Watch out: "the substructure generated by $2$" has no meaning until the signature is fixed.
