@@ -23,7 +23,8 @@ sources:
 
 ## Statement
 
-The second theorem says that a consistent theory that contains enough arithmetic cannot prove the sentence that expresses its own consistency.
+The second theorem says that $\mathsf{PA}$ cannot prove the sentence "no number codes a $\mathsf{PA}$-proof of $0 = 1$".
+The same holds for every consistent theory with computable axioms that contains $\mathsf{PA}$: it cannot prove the sentence that expresses its own consistency.
 
 Let $T$ be a [[first-order theory|92SWXST1ZM]] in the language $\{0, S, +, \cdot\}$ that contains [[Peano arithmetic|MPSCREYC3M]] $\mathsf{PA}$.
 Let the axioms of $T$ be defined by a $\Sigma_1$ formula $\alpha(x)$ that defines a decidable set of sentences in $\mathbb{N}$.
