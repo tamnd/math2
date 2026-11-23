@@ -32,7 +32,8 @@ The proof of the [[classification of finite simple groups|06J6P03MG7]] fills ten
 Somewhere between these cases, the ideal of one reader who checks every step stops working.
 
 A proof is surveyable when a competent mathematician can read it and check each step in a reasonable time.
-A long proof, in the sense used here, is one that is too long for a single reader to check in full, either because the written text runs to thousands of pages or because part of it is a large computation.
+A long proof, in the sense used here, is one that is too long for a single reader to check in full.
+Either the written text runs to thousands of pages, or part of the proof is a large computation.
 Thomas Tymoczko made "surveyable" a standard term of the philosophy of mathematics in 1979, in an article on the [[four color theorem|0M406JC8J1]].
 Long proofs come to be trusted in other ways: experts divide the checking, later authors write shorter versions, and in recent years proof assistants check the whole proof.
 
