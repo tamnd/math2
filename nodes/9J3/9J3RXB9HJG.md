@@ -20,20 +20,15 @@ sources:
 Take the integers with order and addition, $(\mathbb{Z}, <, +)$, and forget the addition.
 What remains is the ordered set $(\mathbb{Z}, <)$, and every sentence about $<$ alone has the same truth value in both.
 This is the heart of [[first-order logic|086QKPF0A6]] with equality as an institution, one of the [[abstract logical systems|RQXV7PM2WT]].
-Its four parts are as follows.
+A [[signature|WDVVEYD6AT]] $\Sigma$ is a set of function symbols and relation symbols, each with an arity.
+A morphism $\sigma \colon \Sigma \to \Sigma'$ sends each function symbol to a function symbol of the same arity, and each relation symbol to a relation symbol of the same arity.
+The sentences $\mathrm{Sen}(\Sigma)$ are the first-order sentences over $\Sigma$.
+The map $\mathrm{Sen}(\sigma)$ replaces each symbol $f$ or $R$ by $\sigma(f)$ or $\sigma(R)$, and leaves variables, connectives and quantifiers unchanged.
 
-- Signatures.
-  A [[signature|WDVVEYD6AT]] $\Sigma$ is a set of function symbols and relation symbols, each with an arity.
-  A morphism $\sigma \colon \Sigma \to \Sigma'$ sends each function symbol to a function symbol of the same arity, and each relation symbol to a relation symbol of the same arity.
-- Sentences.
-  $\mathrm{Sen}(\Sigma)$ is the set of first-order sentences over $\Sigma$.
-  $\mathrm{Sen}(\sigma)$ replaces each symbol $f$ or $R$ by $\sigma(f)$ or $\sigma(R)$, and leaves variables, connectives and quantifiers unchanged.
-- Models.
-  $\mathrm{Mod}(\Sigma)$ is the category of $\Sigma$-[[structures|983GZBQYT4]] with homomorphisms.
-  For $\sigma \colon \Sigma \to \Sigma'$ and a $\Sigma'$-structure $M'$, the reduct $M'|_\sigma$ has the same universe as $M'$.
-  It interprets each symbol $f$ of $\Sigma$ as $M'$ interprets $\sigma(f)$, and likewise for relation symbols.
-- Satisfaction.
-  $M \models_\Sigma \varphi$ is the usual truth of a sentence in a structure.
+The models $\mathrm{Mod}(\Sigma)$ form the category of $\Sigma$-[[structures|983GZBQYT4]] with homomorphisms.
+For $\sigma \colon \Sigma \to \Sigma'$ and a $\Sigma'$-structure $M'$, the reduct $M'|_\sigma$ has the same universe as $M'$.
+It interprets each symbol $f$ of $\Sigma$ as $M'$ interprets $\sigma(f)$, and likewise for relation symbols.
+Satisfaction $M \models_\Sigma \varphi$ is the usual truth of a sentence in a structure.
 
 We check the satisfaction condition $M' \models_{\Sigma'} \sigma(\varphi) \iff M'|_\sigma \models_\Sigma \varphi$.
 Since $M'$ and $M'|_\sigma$ have the same universe, an assignment $s$ of the variables serves for both.

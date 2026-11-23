@@ -17,18 +17,13 @@ sources:
 ## Example
 
 Classical [[propositional logic|09K9MWD2QQ]] is the simplest institution, one of the [[abstract logical systems|RQXV7PM2WT]].
-Its four parts are as follows.
+A signature is a set $\Sigma$ of propositional variables, and a signature morphism $\sigma \colon \Sigma \to \Sigma'$ is any function.
+The sentences $\mathrm{Sen}(\Sigma)$ are the formulas built from the variables in $\Sigma$ with $\neg$ and $\wedge$.
+For $\sigma \colon \Sigma \to \Sigma'$, the map $\mathrm{Sen}(\sigma)$ replaces each variable $p$ by $\sigma(p)$.
 
-- Signatures.
-  A signature is a set $\Sigma$ of propositional variables, and a signature morphism $\sigma \colon \Sigma \to \Sigma'$ is any function.
-- Sentences.
-  $\mathrm{Sen}(\Sigma)$ is the set of formulas built from the variables in $\Sigma$ with $\neg$ and $\wedge$.
-  For $\sigma \colon \Sigma \to \Sigma'$, $\mathrm{Sen}(\sigma)$ replaces each variable $p$ by $\sigma(p)$.
-- Models.
-  $\mathrm{Mod}(\Sigma)$ is the set of valuations $v \colon \Sigma \to \{ 0, 1 \}$, seen as a category with only identity morphisms.
-  For $\sigma \colon \Sigma \to \Sigma'$, the reduct of $v' \in \mathrm{Mod}(\Sigma')$ is $v'|_\sigma = v' \circ \sigma$.
-- Satisfaction.
-  $v \models_\Sigma \varphi$ when the truth tables give $\varphi$ the value $1$ under $v$.
+The models $\mathrm{Mod}(\Sigma)$ are the valuations $v \colon \Sigma \to \{ 0, 1 \}$, seen as a category with only identity morphisms.
+For $\sigma \colon \Sigma \to \Sigma'$, the reduct of $v' \in \mathrm{Mod}(\Sigma')$ is $v'|_\sigma = v' \circ \sigma$.
+Satisfaction $v \models_\Sigma \varphi$ holds when the truth tables give $\varphi$ the value $1$ under $v$.
 
 We check the conditions.
 
