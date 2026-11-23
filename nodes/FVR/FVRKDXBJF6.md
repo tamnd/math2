@@ -18,98 +18,118 @@ sources:
 ## Summary
 
 The inventor's paradox is the observation that a more ambitious problem can be easier to solve than the problem that was asked.
-George Pólya stated it in *How to Solve It* (1945): the more ambitious plan may have more chances of success.
-The paradox is that a stronger statement says more, and so should be harder to prove, yet its proof is often shorter.
-The usual explanation is that the stronger statement gives more to work with: a stronger hypothesis in an induction, a parameter to vary, or a structure that the special case hides.
-As a heuristic, the inventor's paradox tells the solver who is stuck to try a more general or a stronger problem, and it is the reason behind [[strengthening the induction hypothesis|F94KJC2RXP]].
+A stronger statement says more, so it should be harder to prove, yet it often gives the proof more to work with.
+
+Here is the standard case.
+We want to show that for every $n \ge 1$,
+$$1 + \frac{1}{4} + \frac{1}{9} + \cdots + \frac{1}{n^2} < 2.$$
+Write $S_n$ for the sum, and try [[induction|0ASJVEFA9J]] on the claim $S_n < 2$.
+The base case $S_1 = 1 < 2$ holds, but the step fails: from $S_n < 2$ we only get
+$$S_{n+1} = S_n + \frac{1}{(n + 1)^2} < 2 + \frac{1}{(n + 1)^2},$$
+which is not below $2$.
+The hypothesis "$S_n < 2$" is too weak, because it allows $S_n$ to sit just below $2$, where the next term pushes it over.
+
+So we ask for more, and we prove the sharper bound $S_n \le 2 - \frac{1}{n}$.
+The base case is $S_1 = 1 = 2 - 1$.
+For the step, assume $S_n \le 2 - \frac{1}{n}$; then we need
+$$2 - \frac{1}{n} + \frac{1}{(n + 1)^2} \le 2 - \frac{1}{n + 1}, \quad \text{that is,} \quad \frac{1}{(n + 1)^2} \le \frac{1}{n} - \frac{1}{n + 1} = \frac{1}{n(n + 1)},$$
+which holds because $n(n + 1) < (n + 1)^2$.
+So $S_n \le 2 - \frac{1}{n} < 2$ for every $n$, and the harder-looking claim was the one we could prove.
+The full example is [[the sum of 1/k² is at most 2 - 1/n|DFVCKA01PN]], and [[a direct induction on the bound 2|MZXYW75TC3]] shows the stuck attempt in detail.
+
+As a heuristic, the inventor's paradox tells a solver who is stuck to try a stronger or more general problem as well as a weaker one.
+It is a suggestion, not a law: sometimes the stronger problem is easier, and sometimes it is far harder.
 
 ## Motivation
 
-A solver who cannot prove a statement usually tries to weaken it, or to add hypotheses.
-That move is often right, but sometimes the obstacle is the opposite one: the statement is too weak to support its own proof.
-In an induction, the hypothesis is the statement for $n$, and a weak statement gives a weak hypothesis.
+A solver who cannot prove a statement usually tries to weaken it or to add hypotheses.
+That is often right, but sometimes the obstacle is the opposite one: the statement is too weak to carry its own proof.
+In an induction, the statement for $n$ is the hypothesis of the step, so a weak statement gives a weak hypothesis.
 In a problem about one number, the number may hide a pattern that a general $n$ shows.
-The inventor's paradox names this case, so that the solver remembers to try the stronger problem as well as the weaker one.
+The paradox names this case, so that the solver remembers to try the stronger problem too.
+Inside induction proofs it becomes the technique of [[strengthening the induction hypothesis|F94KJC2RXP]], and in general it explains why [[generalization|8NJ0VN9Z97]] can succeed.
+
+## Notation
+
+"Inventor's paradox" is Pólya's term, and "inventor" here means the person who finds a solution.
+In books on induction the same move is called strengthening or loading the induction hypothesis.
+In automated theorem proving it is called generalization of the goal.
 
 ## Remarks
 
-### The steps
+### Why a stronger claim can be easier
 
-1. Notice where the proof is stuck: an induction step that does not close, or a special number with no visible structure.
-2. Ask what stronger or more general statement would make that step possible.
-3. Check that the stronger statement is still plausible, by special cases.
-4. Prove the stronger statement.
-5. Deduce the given statement as a special case.
+A stronger statement is a stronger hypothesis and a stronger conclusion at once.
+The method works when the gain in the hypothesis outweighs the extra demand in the conclusion.
+In the opening problem, the hypothesis $S_n \le 2 - \frac{1}{n}$ leaves a gap of $\frac{1}{n}$ below $2$.
+The step only has to show that the next term $\frac{1}{(n + 1)^2}$ is at most $\frac{1}{n} - \frac{1}{n + 1}$, the amount by which the gap is allowed to shrink.
+The same pattern proves [[the product of (2k - 1)/(2k) is at most 1/√(3n + 1)|MC068WVGWS]], where the bound $\frac{1}{\sqrt{3n}}$ does not support an induction and $\frac{1}{\sqrt{3n + 1}}$ does.
 
-### When it applies
+### Solving for every n instead of one n
 
-The paradox applies most often to proofs by [[induction|0ASJVEFA9J]], where the step needs more than the statement provides, and to problems about one specific number or object.
-It also applies when a general theory makes a special case routine, as in the passage from one integral to a family of integrals.
+A question about one number often becomes easier when it is asked for every number.
+In [[a take-away game solved for every number of counters|RNG0PDDXSN]], the game with $21$ counters is decided by finding all losing positions, the multiples of $4$, by induction.
+In [[products of consecutive integers by the integrality of binomial coefficients|8G1BXJ7ZJM]], the claim that $24$ divides every product of four consecutive integers follows from the claim that $k!$ divides every product of $k$ consecutive integers.
+That general claim says that a [[binomial coefficient|0GBZM0MT0F]] is an integer, which Pascal's rule proves for all $k$ at once.
 
-### Examples
+### When the paradox fails
 
-1. [[A take-away game solved for every number of counters|RNG0PDDXSN]]: the question for $21$ counters is answered by solving the game for every number $n$, which gives the rule "multiples of $4$ lose".
-2. [[Products of consecutive integers by the integrality of binomial coefficients|8G1BXJ7ZJM]]: the claim that $24$ divides every product of four consecutive integers follows from the general claim that $k!$ divides every product of $k$ consecutive integers.
-3. [[The sum of 1/k² is at most 2 − 1/n|DFVCKA01PN]]: the bound $\sum_{k=1}^{n} \frac{1}{k^2} < 2$ has no direct induction step, and the stronger bound $2 - \frac{1}{n}$ has an easy one. The page [[a direct induction on the bound 2|MZXYW75TC3]] shows where the weak form gets stuck.
-4. [[The product of (2k − 1)/(2k) is at most 1/√(3n + 1)|MC068WVGWS]]: the bound $\frac{1}{\sqrt{3n}}$ does not support an induction, and the stronger bound $\frac{1}{\sqrt{3n + 1}}$ does.
-5. A sum with a fixed end. To find $1 + 3 + 5 + \cdots + 99$, it is easier to find the sum of the first $n$ odd numbers for every $n$, which is $n^2$, and then to take $n = 50$.
+The ambitious problem is not always easier.
+In [[Fermat's Last Theorem for n = 4 is easier than the general theorem|672544QRJC]], the exponent $4$ has a short proof by infinite descent, and the theorem for every exponent waited more than three centuries.
+A strengthening can also be false.
+To prove $2^n > n$ for $n \ge 1$ one might try $2^n > n^2$, but that fails at $n = 2, 3, 4$.
+So test a strengthening on special cases before you try to prove it.
 
-### Non-examples
+### Watch out
 
-1. [[Fermat's Last Theorem for n = 4 is easier than the general theorem|672544QRJC]]: the case $n = 4$ has a short proof by infinite descent, and the general theorem needed more than three hundred years.
-2. A strengthening that is false. To prove that $2^n > n$ for $n \ge 1$ one might try the stronger $2^n > n^2$, which fails at $n = 2, 3, 4$; the strengthening must first be tested on special cases.
-3. A generalization with no new tool. Replacing the number $7$ in "$7$ is prime" by $n$ gives a question with no single answer; the paradox needs a general problem that has a uniform solution.
-
-### Basic properties
-
-1. If the stronger statement is proved, the given statement follows. So the method is safe as long as the stronger statement is true.
-2. A stronger statement is a stronger induction hypothesis and a stronger conclusion at once. The method works when the gain in the hypothesis outweighs the extra demand in the conclusion.
-3. The paradox is not a law. In many problems the special case is easier, as in non-example 1.
-
-### Related methods
-
-[[Generalization|8NJ0VN9Z97]] is the general heuristic, and the inventor's paradox is the observation that explains why it can succeed.
-[[Strengthening the induction hypothesis|F94KJC2RXP]] is the form of the paradox inside proofs by induction.
-[[Abstraction and generalization|976RZZCT1H]] discusses the paradox among other effects of generality.
-[[Specialization|FTBJX4G51S]] goes the other way and is the right move when the special case is easier.
+The first error is to strengthen without testing, as with $2^n > n^2$.
+The second is to reject a stronger statement because it "must be harder"; the opening problem shows that this reasoning is wrong.
+The third is to prove a stronger statement and forget to check that it implies the given one.
+In the opening problem the check is one line, $2 - \frac{1}{n} < 2$, but you must write it.
 
 ### History
 
-Pólya gave the inventor's paradox an entry in the dictionary of heuristic of *How to Solve It* (1945), with the sentence that the more ambitious plan may have more chances of success.
-The same idea appears under other names in the theory of induction proofs, for example in automated theorem proving, where a program must sometimes generalize a goal before induction can prove it.
+Pólya gave the inventor's paradox its own entry in the heuristic dictionary of *How to Solve It* (1945), where he observed that a plan with a larger aim can stand a better chance.
+Automated theorem provers for induction include steps that generalize a goal before induction, because many goals cannot be proved by induction as stated.
 
-### Common errors
+### Try it
 
-1. To strengthen a statement without testing it, as in non-example 2.
-2. To give up a stronger statement because it "must be harder". The point of the paradox is that this is not always so.
-3. To prove a stronger statement and then forget to check that it implies the given one.
+First, show by induction that $\sum_{k=1}^{n} \frac{1}{k(k + 1)} < 1$ for every $n \ge 1$.
+A direct step gets stuck, so prove the equation $\sum_{k=1}^{n} \frac{1}{k(k + 1)} = 1 - \frac{1}{n + 1}$, whose step is $1 - \frac{1}{n + 1} + \frac{1}{(n + 1)(n + 2)} = 1 - \frac{1}{n + 2}$.
+
+Second, who wins the take-away game with $30$ counters and moves of $1$, $2$ or $3$?
+The losing positions are the multiples of $4$, and $30 = 4 \cdot 7 + 2$, so the first player wins by taking $2$.
 
 ## Explanations
 
 ### L1 human
 
-Sometimes it is easier to answer a bigger question than a small one.
-Suppose we want to know who wins a game that starts with $21$ counters.
-Working on $21$ alone is hard, but asking "who wins with $1$, $2$, $3$, $\ldots$ counters?" shows a pattern that answers every case at once.
-This surprise, that the bigger question is easier, is called the inventor's paradox.
+Sometimes a bigger question is easier to answer than a small one.
+Suppose two players take turns removing $1$, $2$ or $3$ counters from a pile of $21$, and whoever takes the last counter wins.
+Working on $21$ alone is hard.
+Asking "who wins with $1$, $2$, $3$, $4$, $5$ counters, and so on?" shows that the player to move loses exactly when the pile is a multiple of $4$.
+That answers every pile at once, including $21$, and this surprise is the inventor's paradox.
 
 ### L2 human
 
-We use the paradox to show that $\sum_{k=1}^{n} \frac{1}{k(k+1)} < 1$ for every $n \ge 1$.
+We prove $\sum_{k=1}^{n} \frac{1}{k(k + 1)} < 1$ for every $n \ge 1$.
+A direct induction is stuck: from "the sum up to $n$ is below $1$", adding $\frac{1}{(n + 1)(n + 2)}$ might push it over.
+So we prove the exact statement
+$$\sum_{k=1}^{n} \frac{1}{k(k + 1)} = 1 - \frac{1}{n + 1}.$$
+Test it first: $n = 1$ gives $\frac{1}{2}$ on both sides, and $n = 2$ gives $\frac{2}{3}$ on both sides.
+The step adds the next term:
+$$1 - \frac{1}{n + 1} + \frac{1}{(n + 1)(n + 2)} = 1 - \frac{(n + 2) - 1}{(n + 1)(n + 2)} = 1 - \frac{1}{n + 2}.$$
+Since $\frac{1}{n + 1} > 0$, the sum is below $1$.
 
-1. A direct induction is stuck: from "the sum up to $n$ is below $1$" we cannot conclude that adding $\frac{1}{(n+1)(n+2)}$ keeps it below $1$.
-2. Strengthen to an exact statement: $\sum_{k=1}^{n} \frac{1}{k(k+1)} = 1 - \frac{1}{n + 1}$.
-3. Test: $n = 1$ gives $\frac{1}{2}$ on both sides, and $n = 2$ gives $\frac{2}{3}$ on both sides.
-4. Induction step: $1 - \frac{1}{n+1} + \frac{1}{(n+1)(n+2)} = 1 - \frac{(n + 2) - 1}{(n+1)(n+2)} = 1 - \frac{1}{n + 2}$.
-5. Since $\frac{1}{n+1} > 0$, the sum is below $1$.
-
-The typical use: the inequality is the weak statement, and the equation is the strong statement that carries the induction.
-
-A trap: a strengthening must be true; step 3 tests it before the proof starts.
+This is the typical use: the inequality is the weak statement, and the equation is the strong statement that carries the induction.
+Watch out: a strengthening must be true, which is why we tested it before the proof.
 
 ### L3 human
 
-In automated theorem proving, the paradox is a practical problem: a goal often cannot be proved by induction as stated.
-Automated provers for induction therefore include generalization steps, which replace a goal by a more general one before induction.
-The choice of the stronger statement cannot be automated in general, and it is often the main idea of a proof.
-The paradox also explains why mathematicians value general theories: a general framework can make many special results into exercises.
+In automated theorem proving the paradox is a practical problem, because many goals cannot be proved by induction as stated.
+Provers for induction therefore include generalization steps that replace a goal by a more general one, and the choice of that goal cannot be automated in general.
+In human proofs, too, the choice of the stronger statement is often the main idea.
+
+The paradox also explains why mathematicians value general theories: a general framework can turn many special results into exercises.
+[[Abstraction and generalization|976RZZCT1H]] treats this effect for definitions and theories.
+[[Specialization|FTBJX4G51S]] goes the other way, and it is the right move when the special case is the easier one.
