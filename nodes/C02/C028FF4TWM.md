@@ -20,7 +20,7 @@ sources:
 
 ## Statement
 
-A path of three edges, cut by the standard rule below, grows to nine nodes and still dies after $37$ cuts.
+A path of three edges, cut by the standard rule below, grows to twenty nodes and still dies after $37$ cuts.
 The theorem says that every hydra dies in this way, and that Peano arithmetic cannot prove it.
 
 A *hydra* is a finite [[rooted tree|0C9J6W2A8A]].
@@ -68,7 +68,7 @@ So $\mathrm{Hydra}(3) = 37$.
 
 ### Why it ends, and why that is hard to prove
 
-The ordinal went down at every step, even when the tree grew from $4$ nodes to $9$.
+The ordinal went down at every step, even when the tree grew from $4$ nodes to $20$ at step $18$.
 This is the whole proof of part 1: a cut turns one term $\omega^{\beta + 1}$ at the grandparent into finitely many terms $\omega^\beta$, and any finite number of these is smaller.
 A strictly decreasing sequence of ordinals is finite, so the battle ends.
 

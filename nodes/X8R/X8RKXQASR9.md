@@ -124,7 +124,7 @@ With that rule $H_\omega(3) = H_4(3) = 7$, not $6$.
 ### History
 
 Stanley Wainer introduced the hierarchy in 1972.
-The name comes from G. H. Hardy, whose paper of 1904 on a set of reals of cardinality $\aleph_1$ contains the idea of the definition.
+The name comes from Godfrey Harold Hardy, whose paper of 1904 on a set of reals of cardinality $\aleph_1$ contains the idea of the definition.
 
 ### Try it
 

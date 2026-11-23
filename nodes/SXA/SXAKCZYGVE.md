@@ -16,23 +16,16 @@ sources:
 
 ## Example
 
-The Ackermann function is the standard case of a function whose totality needs more induction than $\mathrm{I}\Sigma_1$ has, but no more than $\mathsf{PA}$ has.
+The Ackermann function already gives $A(4, 1) = 65533$, and it is the standard case of a function whose totality needs more induction than $\mathrm{I}\Sigma_1$ has, but no more than $\mathsf{PA}$ has.
 Let $A$ be the [[Ackermann function|N470JF7ZJX]], given by three equations:
 $$A(0, n) = n + 1, \qquad A(m + 1, 0) = A(m, 1), \qquad A(m + 1, n + 1) = A(m, A(m + 1, n)).$$
-
-**First values.**
-Row $0$ adds one, so $A(1, 0) = A(0, 1) = 2$ and $A(1, 1) = A(0, A(1, 0)) = A(0, 2) = 3$.
-In general $A(1, n) = n + 2$.
-Row $2$ starts with $A(2, 0) = A(1, 1) = 3$, and each step applies $A(1, \cdot)$:
-$$A(2, 1) = A(1, 3) = 5, \qquad A(2, 2) = A(1, 5) = 7, \qquad A(2, n) = 2n + 3.$$
-Row $3$ starts with $A(3, 0) = A(2, 1) = 5$, and each step applies $n \mapsto 2n + 3$:
-$$A(3, 1) = A(2, 5) = 13, \qquad A(3, 2) = A(2, 13) = 29, \qquad A(3, 3) = A(2, 29) = 61.$$
-So $A(3, n) = 2^{n+3} - 3$; check: $2^5 - 3 = 29$.
-Row $4$ starts with $A(4, 0) = A(3, 1) = 13$ and $A(4, 1) = A(3, 13) = 2^{16} - 3 = 65533$.
+The first values are worked out under Remarks.
 
 Let $\varphi(m, n, y)$ be the $\Sigma_1$ formula "there is a finite table of values that contains $A(m, n) = y$, in which each entry follows from one of the three equations and earlier entries".
 
-**$A$ is [[provably total|Z742YPHPNS]] in $\mathsf{PA}$.**
+### $A$ is provably total in $\mathsf{PA}$
+
+We show that $A$ is [[provably total|Z742YPHPNS]] in $\mathsf{PA}$.
 
 1. Let $\psi(m)$ be $\forall n\, \exists y\, \varphi(m, n, y)$.
    We prove $\forall m\, \psi(m)$ by induction on $m$ in $\mathsf{PA}$.
@@ -47,7 +40,7 @@ Let $\varphi(m, n, y)$ be the $\Sigma_1$ formula "there is a finite table of val
 8. The formula $\psi(m)$ is $\Pi_2$, so the outer induction is an induction on a $\Pi_2$ formula.
    The full induction schema of $\mathsf{PA}$ allows it.
 
-**$A$ is not provably total in $\mathrm{I}\Sigma_1$.**
+### $A$ is not provably total in $\mathrm{I}\Sigma_1$
 
 1. The diagonal $g(n) = A(n, n)$ is not [[primitive recursive|5NVA2JRHPV]], by the [[theorem on the Ackermann function|97QF3KHSBY]].
 2. **Cited theorem** (Parsons; Mints).
@@ -57,10 +50,25 @@ Let $\varphi(m, n, y)$ be the $\Sigma_1$ formula "there is a finite table of val
 
 ## Remarks
 
+### First values
+
+Row $0$ adds one, so $A(1, 0) = A(0, 1) = 2$ and $A(1, 1) = A(0, A(1, 0)) = A(0, 2) = 3$.
+In general $A(1, n) = n + 2$.
+Row $2$ starts with $A(2, 0) = A(1, 1) = 3$, and each step applies $A(1, \cdot)$:
+$$A(2, 1) = A(1, 3) = 5, \qquad A(2, 2) = A(1, 5) = 7, \qquad A(2, n) = 2n + 3.$$
+Row $3$ starts with $A(3, 0) = A(2, 1) = 5$, and each step applies $n \mapsto 2n + 3$:
+$$A(3, 1) = A(2, 5) = 13, \qquad A(3, 2) = A(2, 13) = 29, \qquad A(3, 3) = A(2, 29) = 61.$$
+So $A(3, n) = 2^{n+3} - 3$; check: $2^5 - 3 = 29$.
+Row $4$ starts with $A(4, 0) = A(3, 1) = 13$ and $A(4, 1) = A(3, 13) = 2^{16} - 3 = 65533$.
+
+### Where the induction fails
+
 The example shows that the strength of a theory of arithmetic depends on the complexity of the formulas that induction may use.
 The inner induction in step 3 is on a $\Sigma_1$ formula, and $\mathrm{I}\Sigma_1$ could do it for each fixed $m$.
 What fails is the outer induction on the $\Pi_2$ formula $\psi(m)$.
 $\mathrm{I}\Sigma_1$ proves the same theorems as $\mathrm{I}\Pi_1$, and neither has induction for $\Pi_2$ formulas.
+
+### Stronger theories and growth
 
 Raise the theory by one level and the picture changes.
 $\mathrm{I}\Sigma_2$ proves that $A$ is total, since it proves induction for $\Pi_2$ formulas.

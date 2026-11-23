@@ -23,7 +23,8 @@ same_as:
 
 ## Statement
 
-Put labels on the nodes of a hydra, and a cut can copy a large part of the tree and lower a label; every battle still ends, but a strong subsystem of second-order arithmetic cannot prove it.
+With labels on its nodes, a hydra can copy large parts of itself at each cut.
+Every battle still ends, but a strong subsystem of second-order arithmetic cannot prove it.
 
 A *Buchholz hydra* is a finite [[rooted tree|0C9J6W2A8A]] whose root has the label $+$, and whose other nodes have labels in $\mathbb{N} \cup \{ \omega \}$.
 Every child of the root has the label $0$.

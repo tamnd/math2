@@ -19,18 +19,18 @@ sources:
 ## Description
 
 The fast-growing hierarchy is a ladder of functions $f_\alpha : \mathbb{N} \to \mathbb{N}$, one for each ordinal $\alpha \le \varepsilon_0$, in which each rung iterates the rung below it.
-It serves as a ruler for growth: the theories of arithmetic are measured by how high up the ladder they can prove functions total.
+It is a ruler for growth: a theory of arithmetic is measured by how high up the ladder it proves functions total.
 
-Start with the bottom rung, which adds one, and build each next rung by applying the previous rung $x$ times to $x$.
+The bottom rung adds one, and each next rung applies the previous rung $x$ times to $x$.
 Then
 $$f_0(3) = 4, \qquad f_1(3) = f_0(f_0(f_0(3))) = 6, \qquad f_2(3) = f_1(f_1(f_1(3))) = f_1(f_1(6)) = f_1(12) = 24.$$
-So $f_1$ doubles, and $f_2(x) = x \cdot 2^x$, since $f_2(3) = 3 \cdot 8 = 24$.
+So $f_1$ doubles and $f_2(x) = x \cdot 2^x$.
 
 **The convention.**
 Write $g^x$ for the $x$-fold iterate of a function $g$, with $g^0(x) = x$.
 We use the base case $f_0(x) = x + 1$ and the iteration count $x$, as in the Wainer hierarchy:
 $$f_0(x) = x + 1, \qquad f_{\alpha + 1}(x) = f_\alpha^x(x), \qquad f_\lambda(x) = f_{\lambda[x]}(x) \text{ for a limit } \lambda.$$
-This is a definition by transfinite recursion on $\alpha$, because $\lambda[x] < \lambda$.
+The recursion on $\alpha$ is well founded because $\lambda[x] < \lambda$.
 
 **The fundamental sequences.**
 The limit clause needs, for each limit ordinal $\lambda \le \varepsilon_0$, a [[fundamental sequence|VB6YXF761M]] $\lambda[0] < \lambda[1] < \cdots$ with supremum $\lambda$.
