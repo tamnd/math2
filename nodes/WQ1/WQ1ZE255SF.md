@@ -36,7 +36,7 @@ In every group, $a \cdot b = a \cdot c$ implies $b = c$.
 The completeness theorem says that, because this sentence is true in every group, a formal derivation of it from the group axioms exists.
 In general, what is true in every model of a set of axioms can be derived from the axioms in a finite number of steps.
 
-Let $L$ be a first-order language with equality, and let $\vdash$ be derivability in the [[Hilbert system|1MGMQX43B8]] $H$ of the [[soundness theorem|AVD7T7J063]].
+Let $L$ be a first-order language with equality, and let $\vdash$ be derivability in the [[Hilbert system|N95HV0VWSM]] $H$ of the [[soundness theorem|AVD7T7J063]].
 For a set $\Gamma$ of [[sentences|DKFGQTRYZE]] and a sentence $\varphi$, we write $\Gamma \models \varphi$ for [[logical consequence|1HK0VYWTV7]]: every [[model|MVCH6N9SNW]] of $\Gamma$ satisfies $\varphi$.
 
 **Theorem (Gödel).**
