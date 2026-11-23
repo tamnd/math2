@@ -18,11 +18,13 @@ sources:
 ## Example
 
 Let $B = \{0, 1\}$ be the two-element [[Boolean algebra|0XADJKM699]], and define $\square x = x$ for both $x \in B$.
+This reads "provable" as "true".
 We check the three properties of the [[definition of a Magari algebra|PHWAN904PT]].
 
-1. Property 1 holds: $\square 1 = 1$ by the definition of $\square$.
-2. Property 2 holds: $\square(x \wedge y) = x \wedge y = \square x \wedge \square y$.
-3. Property 3 fails at $x = 0$. First, $\square 0 \to 0 = 0 \to 0 = \neg 0 \vee 0 = 1$.
+1. Property 1 holds, since $\square 1 = 1$ by the definition of $\square$.
+2. Property 2 holds, since $\square(x \wedge y) = x \wedge y = \square x \wedge \square y$.
+3. Property 3 fails at $x = 0$.
+   First, $\square 0 \to 0 = 0 \to 0 = \neg 0 \vee 0 = 1$.
 4. So the left side of property 3 is $\square(\square 0 \to 0) = \square 1 = 1$.
 5. The right side is $\square 0 = 0$, and $1 \ne 0$.
 
@@ -30,24 +32,30 @@ So $(B, \square)$ is not a [[Magari algebra|YTA4C8QCB0]], and the only property 
 
 ## Remarks
 
-The same structure is the power set algebra of a frame with one point $w$ and the arrow $w R w$.
-There $\square X = \{w\}$ exactly when $w \in X$, so $\square X = X$ for both subsets $X$ of $\{w\}$.
+### A reflexive point
+
+The same structure is the subset algebra of a frame with one point $w$ and the arrow $w R w$.
+There $w \in \square X$ exactly when $w \in X$, so $\square X = X$ for both subsets $X$ of $\{w\}$.
 The failure of the Löb law matches the fact that Löb's axiom is not valid on a reflexive point.
 
-The identity map is the simplest interior operator, so $(B, \square)$ is an [[interior algebra|BDEX7HET71]].
-This agrees with the general fact that the one-element algebra is the only algebra that is both an interior algebra and a Magari algebra.
+### An interior algebra that is not a Magari algebra
 
-Under the assignment $p \mapsto 0$, Löb's axiom $\square(\square p \to p) \to \square p$ takes the value $1 \to 0 = 0$.
-So this algebra shows that Löb's axiom is not a theorem of the modal logic $\mathsf{S4}$, whose algebras are the interior algebras.
+The identity map is the simplest interior operator, so $(B, \square)$ is an [[interior algebra|BDEX7HET71]].
+Under $p \mapsto 0$, Löb's axiom $\square(\square p \to p) \to \square p$ takes the value $1 \to 0 = 0$.
+Interior algebras are the algebras of the modal logic $\mathsf{S4}$, so Löb's axiom is not a theorem of $\mathsf{S4}$.
+This fits the general fact that the one-element algebra is the only algebra that is both an interior algebra and a Magari algebra.
+
+### The repair
 
 If we change $\square$ to the constant map $\square x = 1$, all three properties hold; see [[the two-element Magari algebra|BB0SVFTESA]].
+In frame terms, we delete the arrow $w R w$, and the point then has no successors.
 
 ## Explanations
 
 ### L1 human
 
 Here "it is provable" is read as "it is true".
-Then "if it is provable then it is true" is always true, so it is also "provable".
+Then "if it is provable, then it is true" is always true, so it is also "provable".
 Löb's rule would then say that every statement is provable, also the false one.
 So this reading breaks Löb's rule.
 
@@ -61,5 +69,5 @@ We evaluate Löb's axiom at $p \mapsto 0$ step by step.
 4. The whole formula is $1 \to 0 = \neg 1 \vee 0 = 0$.
 
 So the formula takes the value $0$, and the algebra is not a model of $\mathsf{GL}$.
-The typical use of this check is to see that "provable" in $\mathsf{GL}$ cannot mean "true": the reflection law $\square p \to p$ and Löb's axiom together give every formula.
-A trap: properties 1 and 2 hold here, so a check of only these two properties does not show that an operator is a Magari operator.
+The typical use of this check is to see that "provable" in $\mathsf{GL}$ cannot mean "true", because the reflection law $\square p \to p$ and Löb's axiom together give every formula.
+The trap is to stop after properties 1 and 2, which hold here, and conclude that the operator is a Magari operator.

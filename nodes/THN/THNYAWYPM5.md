@@ -14,20 +14,32 @@ sources:
 
 ## Example
 
-We show that [[Grzegorczyk logic|2Q8E4GQF3B]] proves the axiom $\mathrm{T}$: $\mathsf{Grz} \vdash \square p \to p$.
+The box of [[Grzegorczyk logic|2Q8E4GQF3B]] is reflexive: what is boxed is true.
+We show that $\mathsf{Grz}$ proves the axiom $\mathrm{T}$:
+
+$$\mathsf{Grz} \vdash \square p \to p.$$
+
 We use rule (RM) of $\mathsf{K}$ from [[the proof of the properties of Löb's axiom|17C5DRFAW7]]: if $\vdash A \to B$, then $\vdash \square A \to \square B$.
 
-1. Let $X := \square(p \to \square p)$. The formula $p \to (X \to p)$ is a tautology.
+1. Let $X := \square(p \to \square p)$.
+   The formula $p \to (X \to p)$ is a tautology.
 2. Rule (RM) applied to step 1 gives $\mathsf{Grz} \vdash \square p \to \square(X \to p)$.
 3. The axiom $\mathrm{Grz}$ is $\square(X \to p) \to p$.
 4. Steps 2 and 3 give $\mathsf{Grz} \vdash \square p \to p$.
 
 ## Remarks
 
-The same proof shows that every normal logic that contains the Grz axiom contains $\mathrm{T}$, so every frame of $\mathsf{Grz}$ is reflexive.
-The derivation of axiom 4 in $\mathsf{Grz}$ is longer, and we do not give it here.
-Compare $\mathsf{GL}$: there $\square p \to p$ is not a theorem, see [[Löb's axiom in provability logic|QQ6PZFGGB3]], although the Grz axiom has the same shape as Löb's axiom.
-The arithmetical reading agrees: the translation of $\square p \to p$ is $p \wedge \square p \to p$, a tautology.
+The proof uses only the Grz axiom and rule (RM).
+So every normal logic that contains the Grz axiom contains $\mathrm{T}$, and every frame of $\mathsf{Grz}$ is reflexive.
+Axiom 4 is also a theorem of $\mathsf{Grz}$, but its derivation is longer, and we do not give it here.
+
+Compare $\mathsf{GL}$, where $\square p \to p$ is not a theorem, as [[Löb's axiom in provability logic|QQ6PZFGGB3]] shows.
+The Grz axiom and Löb's axiom have a similar shape, but they end differently.
+Löb's axiom ends in $\square p$ and the Grz axiom ends in $p$.
+That difference is what lets step 4 reach $p$ itself.
+
+The arithmetical reading agrees.
+In $\mathsf{GL}$, the translation of $\square p \to p$ is $(p \wedge \square p) \to p$, a tautology.
 
 ## Explanations
 
@@ -39,8 +51,14 @@ The proof only weakens the hypothesis of the Grz axiom.
 
 ### L2 human
 
-1. The Grz axiom has the form "if $\square(\text{something} \to p)$, then $p$".
-2. If $\square p$ holds, then $\square(\text{anything} \to p)$ holds, because $p$ implies "anything $\to p$".
-3. So $\square p$ gives the hypothesis of the axiom, and the axiom gives $p$.
+The Grz axiom has the form "if $\square(\text{something} \to p)$, then $p$".
+If $\square p$ holds, then $\square(\text{anything} \to p)$ holds, because $p$ implies "anything $\to p$".
+So $\square p$ gives the hypothesis of the axiom, and the axiom gives $p$.
+Watch out: the same argument does not work for Löb's axiom.
+There the conclusion is $\square p$, so the argument only gives $\square p \to \square p$.
 
-A trap: this argument does not work for Löb's axiom, whose conclusion is $\square p$, not $p$.
+### L3 human
+
+Weakening the hypothesis of an axiom is a common way to extract simpler laws from it.
+In $\mathsf{GL}$ the same move on Löb's axiom gives nothing new, which matches the fact that provability is not reflexive.
+The reflexivity of the Grz box is the syntactic side of the reflexivity of its frames, the finite partial orders.

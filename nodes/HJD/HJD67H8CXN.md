@@ -16,24 +16,35 @@ sources:
 
 ## Example
 
+A sentence that says "I am provable" is provable, and in [[provability logic|WJK0YA4GP2]] this takes four lines.
 A [[Henkin sentence|SBMQ5QHG9W]] of $T$ is a sentence $H$ with $T \vdash H \leftrightarrow \square H$.
-The modal form of Henkin's question is answered by the theorem
-$$\mathsf{GL} \vdash \square(p \leftrightarrow \square p) \to \square p$$
-of [[provability logic|WJK0YA4GP2]].
+The modal form of Henkin's question is answered by the following theorem of $\mathsf{GL}$:
+$$\mathsf{GL} \vdash \square(p \leftrightarrow \square p) \to \square p.$$
 
-1. The tautology $(p \leftrightarrow \square p) \to (\square p \to p)$ holds, since $\square p \to p$ is one half of the equivalence.
-2. Necessitation and the axiom $\mathrm{K}$ turn step 1 into $\square(p \leftrightarrow \square p) \to \square(\square p \to p)$.
+1. The formula $(p \leftrightarrow \square p) \to (\square p \to p)$ is a tautology, since $\square p \to p$ is one half of the equivalence.
+2. Necessitation and the axiom K turn step 1 into $\square(p \leftrightarrow \square p) \to \square(\square p \to p)$.
 3. [[Löb's axiom|QQ6PZFGGB3]] is $\square(\square p \to p) \to \square p$.
-4. Steps 2 and 3 give $\square(p \leftrightarrow \square p) \to \square p$.
-5. Adding the unboxed equivalence: from $p \leftrightarrow \square p$ and $\square p$ we get $p$. So $\mathsf{GL} \vdash (p \leftrightarrow \square p) \wedge \square(p \leftrightarrow \square p) \to p$.
-6. Arithmetical reading. Let $T \vdash H \leftrightarrow \square H$. The first [[derivability condition|F6H4STF9RG]] gives $T \vdash \square(H \leftrightarrow \square H)$. The realization of step 5 with $p^* = H$ then gives $T \vdash H$.
+4. Steps 2 and 3 give $\square(p \leftrightarrow \square p) \to \square p$, by propositional logic.
+5. Now add the unboxed equivalence.
+   From $p \leftrightarrow \square p$ and $\square p$ we get $p$.
+   So $\mathsf{GL} \vdash (p \leftrightarrow \square p) \wedge \square(p \leftrightarrow \square p) \to p$.
+6. Read step 5 in arithmetic.
+   Let $T \vdash H \leftrightarrow \square H$.
+   The first [[derivability condition|F6H4STF9RG]] gives $T \vdash \square(H \leftrightarrow \square H)$.
+   The realization of step 5 with $p^* = H$ then gives $T \vdash H$.
 
 ## Remarks
 
-Step 6 is the result of [[the diagonal Henkin sentence of PA is provable|Y8G800QGAZ]], now obtained by a modal derivation.
+Step 6 recovers the result that [[the diagonal Henkin sentence of PA is provable|Y8G800QGAZ]], now by a modal derivation instead of a direct argument with codes.
+
 The unboxed hypothesis in step 5 is needed.
-Take one world $1$ with no successors and $p$ false: $\square(p \leftrightarrow \square p)$ is true at $1$, but $p$ is false.
-If we replace $\square p$ by $\neg \square p$, the fixed point changes from $\top$ to $\neg \square \bot$; see the [[de Jongh-Sambin fixed-point theorem|TDDX1NHG8D]].
+Take one world $1$ with no successors and let $p$ be false at $1$.
+Every boxed formula is true at $1$, so $\square(p \leftrightarrow \square p)$ is true there, but $p$ is false.
+Check: the conclusion of step 4, $\square p$, is also true at $1$, so step 4 is not refuted, only the stronger claim $p$.
+
+In the language of fixed points, the example says that the fixed point of $\square p$ is $\top$.
+If we replace $\square p$ by $\neg \square p$, the fixed point changes from $\top$ to $\neg \square \bot$, as the [[de Jongh-Sambin fixed-point theorem|TDDX1NHG8D]] computes.
+So "I am provable" is provable, while "I am not provable" is equivalent to consistency and is not provable.
 
 ## Explanations
 
@@ -46,10 +57,9 @@ So the sentence that claims its own provability is right about itself.
 
 ### L2 human
 
-1. Assume $\square(p \leftrightarrow \square p)$.
-2. Then $\square(\square p \to p)$, since the box keeps implications.
-3. Löb's axiom gives $\square p$.
-4. If also $p \leftrightarrow \square p$, then $p$.
-
-The typical use is to compute the fixed point of $\square p$: it is $\top$.
-A trap: the boxed equivalence alone gives $\square p$, not $p$; the unboxed equivalence is needed for $p$.
+Assume $\square(p \leftrightarrow \square p)$.
+The box keeps implications, so we get $\square(\square p \to p)$.
+Löb's axiom then gives $\square p$.
+If also $p \leftrightarrow \square p$ holds unboxed, then $p$ follows from $\square p$.
+This is the computation of the fixed point of $\square p$, and the answer is $\top$.
+Watch out: the boxed equivalence alone gives $\square p$, not $p$, and the unboxed equivalence is needed for $p$.

@@ -14,35 +14,62 @@ sources:
 
 ## Example
 
-Let $W = \set{a, b}$ with $R = \set{(a, a), (a, b), (b, b)}$, the [[partial order|0QV2JS9RJ3]] $a \leq b$.
-We show that the axiom $\square(\square(p \to \square p) \to p) \to p$ of [[Grzegorczyk logic|2Q8E4GQF3B]] is valid on this frame.
-It suffices to show: if $w \not\models p$, then some $v$ with $w R v$ has $v \models \square(p \to \square p)$ and $v \not\models p$, since then $w \not\models \square(\square(p \to \square p) \to p)$.
+A chain of two points, each seeing itself, validates the axiom of [[Grzegorczyk logic|2Q8E4GQF3B]].
+Let $W = \{a, b\}$ with $R = \{(a, a), (a, b), (b, b)\}$, the [[partial order|0QV2JS9RJ3]] $a \leq b$.
+We show that the axiom below is valid on this frame:
 
-1. Case $w = b$ and $b \not\models p$. The only successor of $b$ is $b$, and $p \to \square p$ is true at $b$ since $p$ is false there. So $v = b$ works.
-2. Case $w = a$, $a \not\models p$ and $b \not\models p$. Since $a R b$, step 1 gives $v = b$.
-3. Case $w = a$, $a \not\models p$ and $b \models p$. At $b$, $\square p$ is true, so $p \to \square p$ is true. At $a$, $p$ is false, so $p \to \square p$ is true. So $a \models \square(p \to \square p)$, and $v = a$ works, since $a R a$.
-4. Cases 1 to 3 cover every valuation and every world where $p$ is false. Where $p$ is true, the axiom holds, since its conclusion is true.
+$$\square(\square(p \to \square p) \to p) \to p.$$
+
+At a world where $p$ is true, the axiom holds because its conclusion is true.
+So let $w \not\models p$.
+It suffices to find some $v$ with $w R v$, $v \models \square(p \to \square p)$ and $v \not\models p$.
+Then $v \not\models \square(p \to \square p) \to p$, so $w \not\models \square(\square(p \to \square p) \to p)$, and the axiom holds at $w$.
+
+1. Case $w = b$ and $b \not\models p$.
+   The only successor of $b$ is $b$, and $p \to \square p$ is true at $b$ because $p$ is false there.
+   So $v = b$ works.
+2. Case $w = a$, with $a \not\models p$ and $b \not\models p$.
+   Since $a R b$, step 1 gives $v = b$.
+3. Case $w = a$, with $a \not\models p$ and $b \models p$.
+   At $b$, $\square p$ is true, so $p \to \square p$ is true.
+   At $a$, $p$ is false, so $p \to \square p$ is true.
+   So $a \models \square(p \to \square p)$, and $v = a$ works, because $a R a$.
+4. Cases 1 to 3 cover every valuation and every world where $p$ is false.
 
 ## Remarks
 
-The argument works for every finite partial order $(W, \leq)$.
+The same argument works for every finite partial order $(W, \leq)$.
 Let $w \not\models p$, and choose $v \geq w$ with $v \not\models p$ that is maximal among such worlds.
-Let $u \geq v$ with $u \neq v$.
-Then $u \models p$ by maximality.
-Every $t \geq u$ has $t \geq v$ by [[transitivity|0GJZW9JFZQ]], and $t \neq v$ by antisymmetry, so $t \models p$; hence $u \models \square p$.
-So $p \to \square p$ holds at every $u \geq v$, also at $v$ where $p$ is false, and $v$ is the world required above.
-Finiteness is used to choose $v$; on $(\N, \leq)$ the axiom fails, as shown in the non-examples of [[Grzegorczyk logic|2Q8E4GQF3B]].
+Take any $u \geq v$ with $u \neq v$, so $u \models p$ by maximality.
+Every $t \geq u$ has $t \geq v$ by [[transitivity|0GJZW9JFZQ]], and $t \neq v$ by antisymmetry, so $t \models p$.
+Hence $u \models \square p$, so $p \to \square p$ holds at every $u \geq v$, and also at $v$, where $p$ is false.
+So $v$ is the world we need.
+
+Finiteness is used only to choose a maximal $v$.
+On $(\mathbb{N}, \leq)$ no such choice exists, and the axiom fails, as the remarks on [[Grzegorczyk logic|2Q8E4GQF3B]] show.
+Reflexivity is used in case 3, where the world we need is $a$ itself.
+On the irreflexive chain where $a R b$ is the only arrow, take $p$ false at $a$ and true at $b$.
+The only successor $b$ of $a$ satisfies $p$, so $a \models \square(\square(p \to \square p) \to p)$, and the axiom fails at $a$.
 
 ## Explanations
 
 ### L1 human
 
-Two points, one below the other, each seeing itself, form a picture for Grzegorczyk logic.
+Two points, one below the other, with each point seeing itself, form a picture for Grzegorczyk logic.
 We check the axiom by looking for the highest point where $p$ is false.
 Above that point $p$ is true and stays true, which is what the axiom needs.
 
 ### L2 human
 
-The typical use of this example is as a pattern: to check $\mathrm{Grz}$ on a finite order, go to a highest world where $p$ fails.
-A trap: in case 3 the required world is $a$ itself, which uses reflexivity.
-On the irreflexive chain $a R b$ with $p$ false at $a$ and true at $b$, the only successor $b$ of $a$ satisfies $p$, so $a \models \square(\square(p \to \square p) \to p)$ and the axiom fails at $a$.
+The example is a pattern for checking $\mathrm{Grz}$ on any finite order.
+Go to a highest world $v$ where $p$ fails.
+Every world strictly above $v$ makes $p$ true, and so do all the worlds above it, so $p \to \square p$ holds everywhere above $v$.
+At $v$ itself, $p \to \square p$ holds because $p$ is false.
+So $v$ makes the hypothesis $\square(p \to \square p) \to p$ false, and the axiom survives.
+Watch out for reflexivity: in case 3 the witness is the starting world $a$.
+
+### L3 human
+
+The search for a highest world where $p$ fails is the reflexive form of the argument for Löb's axiom on finite strict orders.
+There one looks for a last world where $p$ fails, and well-foundedness of the converse relation makes the search end.
+The frame condition for $\mathrm{Grz}$ is a partial order with no infinite strictly ascending chain, and the chain $a \leq b$ is its smallest case with two worlds.
