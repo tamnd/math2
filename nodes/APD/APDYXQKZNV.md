@@ -15,46 +15,62 @@ sources:
 
 ## Proof
 
-**Part 1, G3cp.**
+We push the change from conclusion to premise up through a given derivation by induction on its height, and we give two small sequents for the negative part.
+
+### Part 1, G3cp
+
 Fix a rule of G3cp with principal formula $F$ in its conclusion $S$, and fix one of its premises $P$.
 In every rule of G3cp, the premise $P$ is $S$ with the occurrence $F$ replaced by some formulas, the *active* formulas of $P$.
 For any sequent $S'$ that contains an occurrence of $F$ on the same side, let $P(S')$ be $S'$ with that occurrence replaced by the active formulas of $P$.
 We show by induction on $n$: if $\vdash_n S'$, then $\vdash_n P(S')$.
 
-1. Let $n = 0$, so $S'$ is an axiom. The formula $F$ has a connective, so it is neither a propositional variable nor $\bot$.
-2. So the pair $p, p$ or the formula $\bot$ that makes $S'$ an axiom lies outside $F$, and it is still in $P(S')$. So $P(S')$ is an axiom.
-3. Let $n > 0$, and let $R$ be the last rule of a derivation of $S'$ of height at most $n$. Its premises have height at most $n - 1$.
-4. If the principal formula of $R$ is the chosen occurrence of $F$, then $R$ is the rule of the lemma, and its premise of the same kind as $P$ is $P(S')$.
-5. Otherwise the chosen occurrence of $F$ is in the context of $R$. Every rule of G3cp keeps its context in all premises, so each premise $S_i$ of $R$ contains it.
+1. Let $n = 0$, so $S'$ is an axiom.
+   The formula $F$ has a connective, so it is neither a propositional variable nor $\bot$.
+2. So the pair $p, p$ or the formula $\bot$ that makes $S'$ an axiom lies outside $F$, and it is still in $P(S')$.
+   So $P(S')$ is an axiom.
+3. Let $n > 0$, and let $R$ be the last rule of a derivation of $S'$ of height at most $n$.
+   Its premises have height at most $n - 1$.
+4. If the principal formula of $R$ is the chosen occurrence of $F$, then $R$ is the rule of the lemma, since G3cp has one rule for each connective on each side.
+   Its premise of the same kind as $P$ is $P(S')$.
+5. Otherwise the chosen occurrence of $F$ is in the context of $R$.
+   Every rule of G3cp keeps its context in all premises, so each premise $S_i$ of $R$ contains it.
 6. The induction hypothesis gives $\vdash_{n-1} P(S_i)$ for each premise $S_i$.
 7. Rule $R$ has no side condition, so $R$ applied to the sequents $P(S_i)$ gives $P(S')$, with height at most $n$.
 8. Taking $S' = S$ proves part 1.
 
-**Height-preserving weakening in G3ip.**
+### Height-preserving weakening in G3ip
+
 We show: if $\vdash_n \Gamma \Rightarrow C$, then $\vdash_n A, \Gamma \Rightarrow C$, by induction on $n$.
 
 9. An axiom stays an axiom when $A$ is added to its antecedent.
 10. For $n > 0$, add $A$ to the antecedent of each premise of the last rule by the induction hypothesis, and apply the same rule.
 11. Every rule of G3ip keeps the antecedent context in each premise, so the rule applies and gives height at most $n$.
 
-**Part 2, G3ip.**
-For L${\wedge}$, R${\wedge}$, L${\vee}$, R${\to}$ and the right premise of L${\to}$, define $P(S')$ as in part 1, and use induction on $n$.
+### Part 2, G3ip
 
-12. For $n = 0$: the formula $F$ has a connective, so an axiom $S'$ stays an axiom after the change. For R${\wedge}$ and R${\to}$, the axiom is $\bot, \Gamma \Rightarrow C$, and it allows any succedent.
-13. Let $n > 0$ and let $R$ be the last rule. If $R$ has the chosen $F$ as its principal formula, the premise is $P(S')$, as in step 4.
+For L${\wedge}$, R${\wedge}$, L${\vee}$, R${\to}$ and the right premise of L${\to}$, define $P(S')$ as in part 1, and use induction on $n$.
+For R${\to}$ with $F = A \to B$, the change $P$ replaces the succedent by $B$ and adds $A$ to the antecedent.
+
+12. For $n = 0$: the formula $F$ has a connective, so an axiom $S'$ stays an axiom after the change.
+    For R${\wedge}$ and R${\to}$, the axiom is $\bot, \Gamma \Rightarrow C$, and it allows any succedent.
+13. Let $n > 0$ and let $R$ be the last rule.
+    If $R$ has the chosen $F$ as its principal formula, the premise is $P(S')$, as in step 4.
 14. For L${\to}$ with principal $F = A \to B$, the right premise is $B, \Gamma \Rightarrow C$, which is $P(S')$.
-15. If $F$ is in the antecedent and is not principal in $R$, then every premise of $R$ contains $F$ in its antecedent. Steps 6 and 7 apply.
+15. If $F$ is in the antecedent and is not principal in $R$, then every premise of $R$ contains $F$ in its antecedent.
+    Steps 6 and 7 apply.
 16. If $F$ is in the succedent and is not principal, then $R$ is a left rule, since a right rule has its principal formula in the succedent.
-17. A left rule keeps the succedent in every premise, except the left premise of L${\to}$, whose succedent is the antecedent formula $D$ of its principal formula $D \to E$.
+17. A left rule keeps the succedent in every premise, except the left premise of L${\to}$, whose succedent is the antecedent $D$ of its principal formula $D \to E$.
 18. For the premises with succedent $F$, the induction hypothesis gives $P(S_i)$ with height at most $n - 1$.
 19. For R${\wedge}$, the left premise of L${\to}$ does not change, since $P$ changes only the succedent.
-20. For R${\to}$, with $F = A \to B$, the change also adds $A$ to the antecedent. Steps 9 to 11 add $A$ to the left premise of L${\to}$ with the same height.
+20. For R${\to}$, the change also adds $A$ to the antecedent.
+    Steps 9 to 11 add $A$ to the left premise of L${\to}$ with the same height.
 21. Then $R$ gives $P(S')$ with height at most $n$.
 
-**Part 3, the counterexamples.**
+### Part 3, the counterexamples
 
 22. The sequent $p \vee q \Rightarrow p \vee q$ is derivable: L${\vee}$ from $p \Rightarrow p \vee q$ and $q \Rightarrow p \vee q$, each by R${\vee}$ from an axiom.
-23. The premises of R${\vee}$ for its conclusion are $p \vee q \Rightarrow p$ and $p \vee q \Rightarrow q$. Neither is valid: take $p$ false and $q$ true, or the opposite.
+23. The premises of R${\vee}$ for this conclusion are $p \vee q \Rightarrow p$ and $p \vee q \Rightarrow q$.
+    Neither is valid: take $p$ false and $q$ true, or the opposite.
 24. G3ip is sound for classical truth tables, so neither premise is derivable, and R${\vee}$ is not invertible.
 25. The sequent $p \to q, q \Rightarrow q$ is an axiom, since $q$ is a variable.
 26. It is a conclusion of L${\to}$ with principal formula $p \to q$, whose left premise is $p \to q, q \Rightarrow p$.
@@ -62,13 +78,13 @@ For L${\wedge}$, R${\wedge}$, L${\vee}$, R${\to}$ and the right premise of L${\t
 
 ## Idea
 
-When the formula of interest is principal, the premise is already there.
-When it is not, the derivation does not touch it, so we can change it in every premise and repeat the last rule.
+When the formula we want to take apart is principal, the premise we want is already in the derivation.
+When it is not principal, the derivation does not touch it, so we change it in every premise and repeat the last rule.
 Atomic axioms make the base case work, and keeping the context in every premise makes the inductive case work.
-In G3ip, the only obstacle is the left premise of L${\to}$, whose succedent is not the succedent of the conclusion.
+In G3ip the only obstacle is the left premise of L${\to}$, whose succedent differs from the succedent of the conclusion, and weakening repairs it.
 
 ## Variants
 
 The same proof gives height-preserving inversion for the first-order calculus G3c, with an extra substitution step for the eigenvariables of R${\forall}$ and L${\exists}$.
-A semantic proof of the weaker form, without heights, uses soundness and completeness: in G3cp, every premise is valid when the conclusion is.
-The proof of contraction admissibility uses part 1 in the case where the contracted formula is principal.
+A semantic proof of the weaker form, without heights, uses soundness and completeness: in G3cp every premise is valid when the conclusion is.
+That proof loses the height bound, and the height bound is what the proof of contraction admissibility needs when the contracted formula is principal.

@@ -16,36 +16,36 @@ sources:
 
 ## Example
 
-We give a cut-free derivation of the hypersequent $\Rightarrow (p \to q) \vee (q \to p)$ in Avron's calculus HLC from the [[definition of hypersequent calculus|3PR9PEMXJ4]].
+We derive $\Rightarrow (p \to q) \vee (q \to p)$ without cut in Avron's calculus HLC from the [[definition of hypersequent calculus|3PR9PEMXJ4]].
 The formula is an instance of the [[prelinearity axiom|P4T18C5736]], the extra axiom of Gödel-Dummett logic.
 Recall the communication rule:
 $$\dfrac{G \mid \Gamma_1, \Delta_1 \Rightarrow \Pi_1 \qquad G \mid \Gamma_2, \Delta_2 \Rightarrow \Pi_2}{G \mid \Gamma_1, \Gamma_2 \Rightarrow \Pi_1 \mid \Delta_1, \Delta_2 \Rightarrow \Pi_2} \ (\mathsf{com})$$
 
-1. $q \Rightarrow q$ is an axiom.
-2. $p \Rightarrow p$ is an axiom.
-3. Apply $\mathsf{com}$ to steps 1 and 2 with $G$ empty. Take $\Gamma_1 = \emptyset$, $\Delta_1 = q$, $\Pi_1 = q$ and $\Gamma_2 = p$, $\Delta_2 = \emptyset$, $\Pi_2 = p$.
-4. The first premise is $\Gamma_1, \Delta_1 \Rightarrow \Pi_1$, which is $q \Rightarrow q$. This is step 1.
-5. The second premise is $\Gamma_2, \Delta_2 \Rightarrow \Pi_2$, which is $p \Rightarrow p$. This is step 2.
-6. The conclusion is $\Gamma_1, \Gamma_2 \Rightarrow \Pi_1 \mid \Delta_1, \Delta_2 \Rightarrow \Pi_2$, which is $p \Rightarrow q \mid q \Rightarrow p$.
-7. Apply ${\to}$R to the first component, with side hypersequent $q \Rightarrow p$. This gives $\Rightarrow p \to q \mid q \Rightarrow p$.
-8. Apply ${\to}$R to the second component, with side hypersequent $\Rightarrow p \to q$. This gives $\Rightarrow p \to q \mid \Rightarrow q \to p$.
-9. Apply ${\vee}$R to the first component. This gives $\Rightarrow (p \to q) \vee (q \to p) \mid \Rightarrow q \to p$.
-10. Apply ${\vee}$R in its second form to the second component. This gives $\Rightarrow (p \to q) \vee (q \to p) \mid \Rightarrow (p \to q) \vee (q \to p)$.
-11. The two components of step 10 are equal, so external contraction gives $\Rightarrow (p \to q) \vee (q \to p)$.
+1. The sequents $q \Rightarrow q$ and $p \Rightarrow p$ are axioms.
+2. Apply $\mathsf{com}$ to them with $G$ empty, $\Gamma_1 = \emptyset$, $\Delta_1 = q$, $\Pi_1 = q$, $\Gamma_2 = p$, $\Delta_2 = \emptyset$ and $\Pi_2 = p$.
+   The premises are $\Gamma_1, \Delta_1 \Rightarrow \Pi_1$, which is $q \Rightarrow q$, and $\Gamma_2, \Delta_2 \Rightarrow \Pi_2$, which is $p \Rightarrow p$.
+3. The conclusion $\Gamma_1, \Gamma_2 \Rightarrow \Pi_1 \mid \Delta_1, \Delta_2 \Rightarrow \Pi_2$ is $p \Rightarrow q \mid q \Rightarrow p$.
+4. Apply ${\to}$R to the first component, with side hypersequent $q \Rightarrow p$.
+   This gives $\Rightarrow p \to q \mid q \Rightarrow p$.
+5. Apply ${\to}$R to the second component, with side hypersequent $\Rightarrow p \to q$.
+   This gives $\Rightarrow p \to q \mid \Rightarrow q \to p$.
+6. Apply ${\vee}$R to the first component, and ${\vee}$R in its second form to the second component.
+   This gives $\Rightarrow (p \to q) \vee (q \to p) \mid \Rightarrow (p \to q) \vee (q \to p)$.
+7. The two components of step 6 are equal, so external contraction gives $\Rightarrow (p \to q) \vee (q \to p)$.
 
 Each step uses an axiom or one rule of HLC, and no step uses cut.
 Every formula in the derivation is a subformula of $(p \to q) \vee (q \to p)$.
 
 ## Remarks
 
-The derivation shows where the communication rule is needed.
-Without step 3, every component of a derivable hypersequent would be derivable on its own, as the [[non-example of HLJ|805SVAZ350]] proves.
-Neither $\Rightarrow p \to q$ nor $\Rightarrow q \to p$ is derivable, because each formula fails in a one-world model.
-So the derivation must keep both alternatives open until step 11, and only the bar allows that.
+The derivation shows exactly where the communication rule is needed.
+Without step 2, every derivable hypersequent would have a component that is derivable on its own, as the [[non-example of HLJ|805SVAZ350]] proves.
+But neither $\Rightarrow p \to q$ nor $\Rightarrow q \to p$ is derivable, because each formula fails in a one-world model.
+So the derivation must keep both alternatives open until step 7, and only the bar allows that.
 
-The same steps with formulas $A$ and $B$ in place of $p$ and $q$ derive $\Rightarrow (A \to B) \vee (B \to A)$.
-Here steps 1 and 2 use the axioms $B \Rightarrow B$ and $A \Rightarrow A$ for compound formulas.
-If we want axioms on variables only, we first derive $A \Rightarrow A$ for each formula $A$ by induction on $A$.
+What changes if we replace $p$ and $q$ by formulas $A$ and $B$?
+The same steps derive $\Rightarrow (A \to B) \vee (B \to A)$, with the axioms $B \Rightarrow B$ and $A \Rightarrow A$ in step 1.
+If the axioms are restricted to variables, we first derive $A \Rightarrow A$ for each formula $A$ by induction on $A$, and the rest is unchanged.
 
 ## Explanations
 
@@ -60,10 +60,9 @@ The other steps only rewrite each alternative as a formula and then merge the tw
 ### L2 human
 
 The derivation has three phases.
-
-1. Communication: from $q \Rightarrow q$ and $p \Rightarrow p$, swap the antecedents to get $p \Rightarrow q \mid q \Rightarrow p$.
-2. Logical rules in each component: ${\to}$R twice and ${\vee}$R twice.
-3. External contraction: merge the two equal components.
-
-The typical use of this example is as a test: a calculus for LC must derive the prelinearity axiom without cut.
-A trap is to apply ${\vee}$R too early, to a sequent with one component; then one of $p \to q$ or $q \to p$ must be derived alone, and that fails.
+First, communication swaps the antecedents of $q \Rightarrow q$ and $p \Rightarrow p$ and gives $p \Rightarrow q \mid q \Rightarrow p$.
+Second, the logical rules work inside each component: ${\to}$R twice and ${\vee}$R twice.
+Third, external contraction merges the two equal components.
+The typical use of the example is as a test: any calculus for LC must derive the prelinearity axiom without cut.
+Watch out in backward search: if you undo ${\vee}$R first, on the single sequent, you must derive $p \to q$ or $q \to p$ alone, and both fail.
+Undo external contraction first, so that each disjunct gets its own component.

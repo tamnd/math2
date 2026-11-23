@@ -56,6 +56,10 @@ At the end the first number is $2$ and the second is $3$.
 
 ### L2 human
 
-The worked example is steps 1 to 11.
-The typical use is to see why the order of repairs matters for the length of the process, but not for its result here.
-A trap is to give $e_2$ one fixed value: its value depends on the value of $e_1$, through the term $\varepsilon x\, (x > n)$ that it stands for.
+Compare the two orders of repair.
+Repairing $C_b$ first costs three steps, because the repair of step 4 is lost at step 7.
+Repairing $C_a$ first costs two steps, because $e_2$ is then repaired only once, as $\varepsilon x\, (x > 2)$.
+Both orders end with the same values, $e_1 = 2$ and $e_2 = 3$.
+Check: $3 > 2$, while none of $0$, $1$ and $2$ is greater than $2$, so $3$ is the least witness.
+Watch out: $e_2$ has no fixed value of its own.
+Its value depends on the value of $e_1$, through the term $\varepsilon x\, (x > n)$ that it stands for.

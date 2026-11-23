@@ -15,8 +15,8 @@ sources:
 ## Example
 
 We derive $\Rightarrow \neg \neg (p \vee \neg p)$ in Dyckhoff's calculus LJT of the [[definition|KP5KA51FC4]].
-Recall that $\neg A$ is $A \to \bot$, so the goal is $\Rightarrow ((p \vee (p \to \bot)) \to \bot) \to \bot$.
-We build the derivation backwards.
+Since $\neg A$ is $A \to \bot$, the goal is $\Rightarrow ((p \vee (p \to \bot)) \to \bot) \to \bot$.
+We build the derivation backwards, from the goal.
 
 1. R${\to}$ reduces the goal to $(p \vee (p \to \bot)) \to \bot \Rightarrow \bot$.
 2. L${\vee}{\to}$, with $C = p$, $D = p \to \bot$ and $B = \bot$, reduces it to $p \to \bot, (p \to \bot) \to \bot \Rightarrow \bot$.
@@ -26,12 +26,24 @@ We build the derivation backwards.
 6. R${\to}$ reduces it to $p, \bot \to \bot, p \to \bot \Rightarrow \bot$.
 7. L0${\to}$ on $p$ and $p \to \bot$ reduces it to $p, \bot, \bot \to \bot \Rightarrow \bot$, an axiom.
 
+The derivation uses five rules: R${\to}$, L${\vee}{\to}$, L${\to}{\to}$, R${\to}$ and L0${\to}$.
+Check: the two leaves both have $\bot$ in the antecedent, so both are axioms $\bot, \Gamma \Rightarrow C$.
+
 ## Remarks
 
-The formula is valid in [[intuitionistic logic|Q11N8X99FK]], although $p \vee \neg p$ is not.
+The formula is valid in [[intuitionistic logic|Q11N8X99FK]], although $p \vee \neg p$ itself is not.
 In G3ip, a derivation of the same sequent keeps $(p \vee \neg p) \to \bot$ in the left premise of L${\to}$ and uses it twice.
-LJT avoids this: in step 2, the formula $(p \vee \neg p) \to \bot$ is replaced by two smaller implications, and each is used once.
-Every step reduces the weight of the sequent, so a backward search in LJT on this goal cannot loop.
+LJT avoids the second use.
+In step 2 the formula $(p \vee \neg p) \to \bot$ is replaced by two smaller implications, and each of them is principal only once.
+
+The weights confirm that the search cannot loop.
+With the LJT weights, $w(p) = w(\bot) = 1$ and $w(A \vee B) = w(A \to B) = w(A) + w(B) + 1$, so $w(\neg p) = 3$ and $w(p \vee \neg p) = 5$.
+The formula $(p \vee \neg p) \to \bot$ then has weight $5 + 1 + 1 = 7$, and step 2 replaces it by formulas of weights $3$ and $5$.
+Check: $w(p \to \bot) = 1 + 1 + 1 = 3$ and $w((p \to \bot) \to \bot) = 3 + 1 + 1 = 5$, both less than $7$.
+
+What changes for $\Rightarrow p \vee \neg p$?
+R${\vee}$ must pick a disjunct, and both $\Rightarrow p$ and $\Rightarrow p \to \bot$ fail, the second because $p \Rightarrow \bot$ has no rule to apply.
+So LJT, like intuitionistic logic, rejects excluded middle but accepts its double negation.
 
 ## Explanations
 
@@ -39,10 +51,12 @@ Every step reduces the weight of the sequent, so a backward search in LJT on thi
 
 The [[law of excluded middle|0RYYK8PG4S]] says "$p$ or not $p$", and intuitionistic logic does not accept it in general.
 It does accept that the law cannot be refuted, which is the formula derived here.
-The derivation shows this in seven steps, and each step makes the sequent simpler.
+The derivation takes five rule steps, and each step makes the sequent simpler.
 
 ### L2 human
 
-At each step, choose a rule whose principal formula is in the antecedent and matches one of the LJT shapes.
-In step 3, the principal formula $(p \to \bot) \to \bot$ has an implication as its antecedent, so L${\to}{\to}$ is the rule.
-A trap is step 7: L0${\to}$ applies to $p \to \bot$ only because the atom $p$ is in the antecedent, which R${\to}$ provided in step 6.
+At each step, choose the rule that fits the principal formula.
+In step 2 the antecedent of the implication is a disjunction, so L${\vee}{\to}$ applies.
+In step 3 the principal formula $(p \to \bot) \to \bot$ has an implication as its antecedent, so L${\to}{\to}$ applies.
+A trap is step 7.
+L0${\to}$ applies to $p \to \bot$ only because the atom $p$ is in the antecedent, and R${\to}$ put it there in step 6.

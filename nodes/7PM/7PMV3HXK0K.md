@@ -51,4 +51,6 @@ We change the guess to $2$, and now every check passes.
 To run one step, find a critical formula that is false under the current values.
 Its premise names a number that has the property, so the least such number is found by a finite search below it.
 Give the $\varepsilon$-term that value, and check all critical formulas again.
-A trap is to stop after fixing one formula: in general the other formulas must be checked again.
+Here the search below $2$ took three tests, and after it both $C_1$ and $C_2$ held.
+Watch out: fixing one formula is not the end of a step.
+With [[nested terms|GHJSNQ4VQW]] a repair can make another critical formula false, so every formula must be checked again.

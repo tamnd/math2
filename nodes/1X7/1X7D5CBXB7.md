@@ -16,10 +16,10 @@ sources:
 
 ## Definition
 
-We define Belnap's display calculus for the minimal tense logic $\mathrm{K_t}$.
+A display calculus is a sequent calculus on structures whose invertible structural rules can bring any part of a sequent out to stand alone on one side.
+We define Belnap's display calculus $\mathrm{DK_t}$ for the minimal tense logic $\mathrm{K_t}$.
 Formulas are built from propositional variables $p, q, \dots$ and the constants $\top, \bot$ with $\neg$, $\wedge$, $\vee$, $\to$, a box $\Box$ and a backward diamond $\blacklozenge$.
-In a Kripke model with [[accessibility relation|XBCYFDPS2F]] $R$, $\Box A$ holds at $w$ if $A$ holds at every $v$ with $w R v$.
-The formula $\blacklozenge A$ holds at $w$ if $A$ holds at some $v$ with $v R w$.
+In a Kripke model with [[accessibility relation|XBCYFDPS2F]] $R$, $\Box A$ holds at $w$ if $A$ holds at every $v$ with $w R v$, and $\blacklozenge A$ holds at $w$ if $A$ holds at some $v$ with $v R w$.
 
 *Structures* are given by the grammar $X ::= A \mid \mathrm{I} \mid {*}X \mid X \circ Y \mid {\bullet} X$, where $A$ is a formula.
 A *sequent* is an expression $X \vdash Y$ with structures $X$ and $Y$.
@@ -29,68 +29,66 @@ In $X \vdash Y$, the structure $X$ is an antecedent part and $Y$ is a succedent 
 If $Z_1 \circ Z_2$ or ${\bullet}Z_1$ is an antecedent part, then $Z_1$ and $Z_2$ are antecedent parts, and the same holds for succedent parts.
 If ${*}Z$ is an antecedent part, then $Z$ is a succedent part, and conversely.
 
-**Display postulates.** The sign $\iff$ means that each sequent can be derived from the other.
+### The display postulates
 
-- (D1) $X \circ Y \vdash Z$ $\iff$ $X \vdash {*}Y \circ Z$ $\iff$ $Y \vdash {*}X \circ Z$.
-- (D2) $X \vdash Y \circ Z$ $\iff$ $X \circ {*}Y \vdash Z$ $\iff$ $X \circ {*}Z \vdash Y$.
-- (D3) $X \vdash Y$ $\iff$ ${*}Y \vdash {*}X$ $\iff$ ${*}{*}X \vdash Y$ $\iff$ $X \vdash {*}{*}Y$.
-- (D4) ${\bullet}X \vdash Y$ $\iff$ $X \vdash {\bullet}Y$.
-
-The calculus $\mathrm{DK_t}$ has D1 to D4, the axioms $p \vdash p$, cut, structural rules, and a left and a right rule for each connective.
-The remarks below list all its rules and the formula reading of sequents.
-In general, a *display calculus* is a sequent calculus on structures with structural connectives whose display postulates give the display property of the theorem below.
+In the four groups D1 to D4 below, $\iff$ means that each sequent can be derived from the other in one step.
+$$\begin{aligned} &(\mathrm{D1}) && X \circ Y \vdash Z \iff X \vdash {*}Y \circ Z \iff Y \vdash {*}X \circ Z, \\ &(\mathrm{D2}) && X \vdash Y \circ Z \iff X \circ {*}Y \vdash Z \iff X \circ {*}Z \vdash Y, \\ &(\mathrm{D3}) && X \vdash Y \iff {*}Y \vdash {*}X \iff {*}{*}X \vdash Y \iff X \vdash {*}{*}Y, \\ &(\mathrm{D4}) && {\bullet}X \vdash Y \iff X \vdash {\bullet}Y. \end{aligned}$$
+The calculus $\mathrm{DK_t}$ has D1 to D4, the axioms $p \vdash p$, cut, the structural rules and a left and a right rule for each connective, all listed in the Remarks.
+In general, a *display calculus* is one whose display postulates give the display property stated in the Remarks.
 
 ## Notation
 
 Belnap's paper writes $\mathrm{I}$ for the structural unit, $*$ for structural negation and $\circ$ for the structural comma.
 Many later papers write a comma or a semicolon for $\circ$, and $\sharp$ or $*$ for structural negation.
-The structural connective for the modality is written ${\bullet}$, $\circ$ or $\ast$ by different authors, so the reader must check each paper.
+The structural connective for the modality is written ${\bullet}$, $\circ$ or $\ast$ by different authors, so check each paper.
 Some authors use $\Diamond^{-1}$ or $\mathsf{P}$ for the backward diamond $\blacklozenge$ and $\mathsf{G}$ for the forward box.
 
 ## Remarks
 
-### The rules of $\mathrm{DK_t}$
+### Why each part is there
 
-Structural rules.
-Each rule infers the lower sequent from the upper one; rules marked $\iff$ work in both directions.
+The structural negation ${*}$ is what lets a part change sides, and D3 says that it is an involution that swaps the two sides.
+The comma $\circ$ reads as a conjunction on the left and as a disjunction on the right, as the comma does in LK, and D1 and D2 say that these two readings are linked by ${*}$.
+The modal structure ${\bullet}$ needs a partner modality, because D4 is an adjunction; that is why the language has both $\Box$ and $\blacklozenge$.
+The unit $\mathrm{I}$ plays the role of the empty antecedent or the empty succedent.
+
+A small case: in $p \circ q \vdash r$, the postulate D1 gives $p \vdash {*}q \circ r$, so $p$ is displayed.
+A failing case: in Gentzen's LK, which has no ${*}$, the part $p$ of $p, q \Rightarrow r$ cannot be displayed, as the [[non-example|TWXM3REK0K]] shows.
+The [[concept of a display calculus|2Q62W689SC]] explains what the display property is for.
+
+### The structural rules
+
+Each rule infers the lower sequent from the upper one, and rules marked $\iff$ work in both directions.
 
 - (IL) $X \vdash Z$ $\iff$ $\mathrm{I} \circ X \vdash Z$, and (IR) $X \vdash Z$ $\iff$ $X \vdash Z \circ \mathrm{I}$.
 - (I$*$) $\mathrm{I} \vdash Z$ $\iff$ ${*}\mathrm{I} \vdash Z$, and $X \vdash \mathrm{I}$ $\iff$ $X \vdash {*}\mathrm{I}$.
-- (W) from $X \vdash Z$ infer $X \circ Y \vdash Z$.
-- (C) from $X \circ X \vdash Z$ infer $X \vdash Z$.
-- (E) from $X \circ Y \vdash Z$ infer $Y \circ X \vdash Z$.
+- (W) from $X \vdash Z$ infer $X \circ Y \vdash Z$; (C) from $X \circ X \vdash Z$ infer $X \vdash Z$; (E) from $X \circ Y \vdash Z$ infer $Y \circ X \vdash Z$.
 - (A) $X_1 \circ (X_2 \circ X_3) \vdash Z$ $\iff$ $(X_1 \circ X_2) \circ X_3 \vdash Z$.
 
-Identity and cut.
 The axioms are $p \vdash p$ for each variable $p$, and the cut rule infers $X \vdash Y$ from $X \vdash A$ and $A \vdash Y$.
 
-Logical rules.
+### The logical rules
 
-- ${\top}$L: from $\mathrm{I} \vdash X$ infer $\top \vdash X$. ${\top}$R: $\mathrm{I} \vdash \top$ is an axiom.
-- ${\bot}$L: $\bot \vdash \mathrm{I}$ is an axiom. ${\bot}$R: from $X \vdash \mathrm{I}$ infer $X \vdash \bot$.
-- ${\neg}$L: from ${*}A \vdash X$ infer $\neg A \vdash X$. ${\neg}$R: from $X \vdash {*}A$ infer $X \vdash \neg A$.
-- ${\wedge}$L: from $A \circ B \vdash X$ infer $A \wedge B \vdash X$. ${\wedge}$R: from $X \vdash A$ and $Y \vdash B$ infer $X \circ Y \vdash A \wedge B$.
-- ${\vee}$L: from $A \vdash X$ and $B \vdash Y$ infer $A \vee B \vdash X \circ Y$. ${\vee}$R: from $X \vdash A \circ B$ infer $X \vdash A \vee B$.
-- ${\to}$L: from $X \vdash A$ and $B \vdash Y$ infer $A \to B \vdash {*}X \circ Y$. ${\to}$R: from $X \vdash {*}A \circ B$ infer $X \vdash A \to B$.
-- ${\Box}$L: from $A \vdash X$ infer $\Box A \vdash {\bullet}X$. ${\Box}$R: from $X \vdash {\bullet}A$ infer $X \vdash \Box A$.
-- ${\blacklozenge}$L: from ${\bullet}A \vdash X$ infer $\blacklozenge A \vdash X$. ${\blacklozenge}$R: from $X \vdash A$ infer ${\bullet}X \vdash \blacklozenge A$.
+The axioms for the constants are $\mathrm{I} \vdash \top$ and $\bot \vdash \mathrm{I}$, and the other rules for the constants and negation are these:
+$$\dfrac{\mathrm{I} \vdash X}{\top \vdash X} \qquad \dfrac{X \vdash \mathrm{I}}{X \vdash \bot} \qquad \dfrac{{*}A \vdash X}{\neg A \vdash X} \qquad \dfrac{X \vdash {*}A}{X \vdash \neg A}$$
+The rules for conjunction and disjunction are these:
+$$\dfrac{A \circ B \vdash X}{A \wedge B \vdash X} \qquad \dfrac{X \vdash A \quad Y \vdash B}{X \circ Y \vdash A \wedge B} \qquad \dfrac{A \vdash X \quad B \vdash Y}{A \vee B \vdash X \circ Y} \qquad \dfrac{X \vdash A \circ B}{X \vdash A \vee B}$$
+The rules for implication are these:
+$$\dfrac{X \vdash A \quad B \vdash Y}{A \to B \vdash {*}X \circ Y} \qquad \dfrac{X \vdash {*}A \circ B}{X \vdash A \to B}$$
+The modal rules ${\Box}$L, ${\Box}$R, ${\blacklozenge}$L and ${\blacklozenge}$R are these:
+$$\dfrac{A \vdash X}{\Box A \vdash {\bullet}X} \qquad \dfrac{X \vdash {\bullet}A}{X \vdash \Box A} \qquad \dfrac{{\bullet}A \vdash X}{\blacklozenge A \vdash X} \qquad \dfrac{X \vdash A}{{\bullet}X \vdash \blacklozenge A}$$
+In each pair, the first rule is the left rule and the second is the right rule.
 
 ### Formula reading and soundness
 
 The structural connectives have two readings, one in the antecedent and one in the succedent.
-We define formulas $\tau_1(X)$ and $\tau_2(X)$ by recursion on $X$:
-
-- $\tau_1(A) = \tau_2(A) = A$ for a formula $A$;
-- $\tau_1(\mathrm{I}) = \top$ and $\tau_2(\mathrm{I}) = \bot$;
-- $\tau_1({*}X) = \neg \tau_2(X)$ and $\tau_2({*}X) = \neg \tau_1(X)$;
-- $\tau_1(X \circ Y) = \tau_1(X) \wedge \tau_1(Y)$ and $\tau_2(X \circ Y) = \tau_2(X) \vee \tau_2(Y)$;
-- $\tau_1({\bullet}X) = \blacklozenge \tau_1(X)$ and $\tau_2({\bullet}X) = \Box \tau_2(X)$.
-
+We define formulas $\tau_1(X)$ and $\tau_2(X)$ by recursion on $X$, with $\tau_1(A) = \tau_2(A) = A$ for a formula $A$:
+$$\begin{aligned} \tau_1(\mathrm{I}) &= \top, & \tau_1({*}X) &= \neg \tau_2(X), & \tau_1(X \circ Y) &= \tau_1(X) \wedge \tau_1(Y), & \tau_1({\bullet}X) &= \blacklozenge \tau_1(X), \\ \tau_2(\mathrm{I}) &= \bot, & \tau_2({*}X) &= \neg \tau_1(X), & \tau_2(X \circ Y) &= \tau_2(X) \vee \tau_2(Y), & \tau_2({\bullet}X) &= \Box \tau_2(X). \end{aligned}$$
 The sequent $X \vdash Y$ is *valid* if $\tau_1(X) \to \tau_2(Y)$ is true at every world of every Kripke model.
 
 Each display postulate and each rule preserves validity.
 For example, D1 holds because $x \wedge y \to z$ and $x \to \neg y \vee z$ are equivalent.
-D4 holds because $\blacklozenge x \to y$ is valid exactly when $x \to \Box y$ is valid: $\blacklozenge$ and $\Box$ are adjoint.
+D4 holds because $\blacklozenge x \to y$ is true at every world of a model exactly when $x \to \Box y$ is: $\blacklozenge$ and $\Box$ are adjoint.
 For ${\Box}$L, if $a \to x$ is valid, then $\Box a \to \Box x$ is valid, and $\Box x = \tau_2({\bullet}X)$.
 
 ### The display theorem
@@ -100,7 +98,7 @@ If $Z$ is a succedent part, they turn $X \vdash Y$ into a sequent $W \vdash Z$, 
 
 *Proof.* We use induction on the depth of $Z$ in the sequent.
 If the depth is $0$, then $Z$ is already $X$ or $Y$.
-Otherwise it is enough to move one structural connective from the side of $Z$ to the other side.
+Otherwise it is enough to move the outermost structural connective above $Z$ to the other side.
 
 1. An antecedent $X_1 \circ X_2 \vdash Y$ becomes $X_1 \vdash {*}X_2 \circ Y$ or $X_2 \vdash {*}X_1 \circ Y$ by D1.
 2. An antecedent ${*}X_1 \vdash Y$ becomes ${*}Y \vdash X_1$ by D3: first ${*}Y \vdash {*}{*}X_1$, then remove ${*}{*}$.
@@ -109,43 +107,48 @@ Otherwise it is enough to move one structural connective from the side of $Z$ to
 5. A succedent $X \vdash {*}Y_1$ becomes $Y_1 \vdash {*}X$ by D3: first ${*}{*}Y_1 \vdash {*}X$, then remove ${*}{*}$.
 6. A succedent $X \vdash {\bullet}Y_1$ becomes ${\bullet}X \vdash Y_1$ by D4.
 
-Each step lowers the depth of $Z$ by one, and it keeps $Z$ on its side, by the definition of the parts.
-Each step is invertible, so the original sequent can be recovered.
-This proves the theorem.
+Each step lowers the depth of $Z$ by one and keeps $Z$ on its side, by the definition of the parts.
+Each step is invertible, so the original sequent can be recovered, and this proves the theorem.
 
 ### Necessitation and the tense axioms
 
-Necessitation is derivable: from $\mathrm{I} \vdash A$, W gives $\mathrm{I} \circ {\bullet}\mathrm{I} \vdash A$.
-Then IL gives ${\bullet}\mathrm{I} \vdash A$, D4 gives $\mathrm{I} \vdash {\bullet}A$, and ${\Box}$R gives $\mathrm{I} \vdash \Box A$.
-The axiom $A \to \Box \blacklozenge A$ comes from $A \vdash A$ by ${\blacklozenge}$R, D4 and ${\Box}$R: ${\bullet}A \vdash \blacklozenge A$, $A \vdash {\bullet}\blacklozenge A$, $A \vdash \Box\blacklozenge A$.
-The axiom $\blacklozenge \Box A \to A$ comes from $A \vdash A$ by ${\Box}$L, D4 and ${\blacklozenge}$L: $\Box A \vdash {\bullet}A$, ${\bullet}\Box A \vdash A$, $\blacklozenge\Box A \vdash A$.
-Completeness for $\mathrm{K_t}$ follows the usual plan: derive each axiom of a Hilbert system, simulate modus ponens with cut, and use the derived necessitation rule.
-Here $A \vdash A$ for compound $A$ is derived from the axioms $p \vdash p$ by induction on $A$.
+Necessitation is derivable.
+From $\mathrm{I} \vdash A$, W gives $\mathrm{I} \circ {\bullet}\mathrm{I} \vdash A$, IL gives ${\bullet}\mathrm{I} \vdash A$, D4 gives $\mathrm{I} \vdash {\bullet}A$, and ${\Box}$R gives $\mathrm{I} \vdash \Box A$.
 
-### Belnap's conditions and cut elimination
+The axiom $A \to \Box \blacklozenge A$ comes from $A \vdash A$ by ${\blacklozenge}$R, D4 and ${\Box}$R, through ${\bullet}A \vdash \blacklozenge A$, then $A \vdash {\bullet}\blacklozenge A$, then $A \vdash \Box\blacklozenge A$.
+The axiom $\blacklozenge \Box A \to A$ comes from $A \vdash A$ by ${\Box}$L, D4 and ${\blacklozenge}$L, through $\Box A \vdash {\bullet}A$, then ${\bullet}\Box A \vdash A$, then $\blacklozenge\Box A \vdash A$.
+
+Completeness for $\mathrm{K_t}$ follows the usual plan: derive each axiom of a Hilbert system, simulate modus ponens with cut, and use the derived necessitation rule.
+Here $A \vdash A$ for a compound $A$ is derived from the axioms $p \vdash p$ by induction on $A$.
+
+### Belnap's conditions
 
 Belnap stated eight conditions on the rules of a display calculus.
 A *parameter* of a rule instance is a constituent that is not principal, and parameters in premise and conclusion that correspond are *congruent*.
 
 - C1, preservation of formulas: every formula in a premise is a subformula of a formula in the conclusion, except in cut.
 - C2, shape-alikeness: congruent parameters are occurrences of the same structure.
-- C3, non-proliferation: each parameter of the conclusion is congruent to at most one constituent of each premise.
+- C3, non-proliferation: each congruence class of parameters contains at most one constituent of the conclusion. Contraction passes, but a rule may not copy a premise constituent into two places of the conclusion.
 - C4, position-alikeness: congruent parameters are all antecedent parts or all succedent parts.
 - C5, display of principal constituents: a principal formula of a conclusion is the whole antecedent or the whole succedent.
 - C6 and C7, closure under substitution: replacing a congruence class of formula parameters in succedent (C6) or antecedent (C7) position by any structure gives an instance of the same rule.
 - C8, eliminability of matching principal constituents: a cut on $A$ between two rules with $A$ principal can be replaced by cuts on proper subformulas of $A$.
 
+### Belnap's theorem
+
 **Theorem (Belnap).** Every display calculus whose rules satisfy C2 to C8 has cut elimination.
 With C1, a cut-free derivation also has the [[subformula property|Z2NXKDK06G]].
 
-The proof has two stages, by induction on the complexity of the cut formula $A$.
+The proof is by induction on the complexity of the cut formula $A$, in two stages.
 In the principal stage, $A$ is principal on both sides, it is displayed by C5, and C8 removes the cut.
-In the parametric stage, we trace the congruence class of $A$ upward from the left premise to the points where $A$ is principal.
+In the parametric stage, we trace the congruence class of $A$ upward to the points where $A$ is principal.
 C2 to C4 make this class a set of occurrences of $A$ in the same position, and C6 and C7 let us replace each occurrence by the other side of the cut.
-The lemma that this substitution yields a derivation, with new cuts only at principal occurrences, is the core of Belnap's paper; we cite it.
+The lemma that this substitution yields a derivation, with new cuts only at principal occurrences, is the core of Belnap's paper, and we cite it.
 
-For $\mathrm{DK_t}$, C8 for ${\wedge}$ uses D1 twice: from $A \circ B \vdash Z$ get $A \vdash {*}B \circ Z$, cut with $X \vdash A$, and redisplay.
-C8 for $\Box$ uses D4: from $X \vdash {\bullet}A$ get ${\bullet}X \vdash A$, cut with $A \vdash Y$, and apply D4 to ${\bullet}X \vdash Y$.
+For $\mathrm{DK_t}$, C8 for ${\wedge}$ goes as follows.
+From $A \circ B \vdash Z$, D1 gives $A \vdash {*}B \circ Z$, and a cut with $X \vdash A$ gives $X \vdash {*}B \circ Z$.
+D1 twice gives $B \vdash {*}X \circ Z$, a cut with $Y \vdash B$ gives $Y \vdash {*}X \circ Z$, and D1 gives $X \circ Y \vdash Z$.
+C8 for $\Box$ uses D4: from $X \vdash {\bullet}A$ get ${\bullet}X \vdash A$, cut with $A \vdash Y$, and apply D4 to ${\bullet}X \vdash Y$ to get $X \vdash {\bullet}Y$.
 
 ## Explanations
 
@@ -159,16 +162,15 @@ Then every logical rule only has to deal with a formula that stands alone, which
 
 ### L2 human
 
-We display the part $r$ of the sequent $p \circ (q \circ {*}r) \vdash s$.
-
-1. D1 with $X = p$ gives $q \circ {*}r \vdash {*}p \circ s$.
-2. D1 with $X = q$ gives ${*}r \vdash {*}q \circ ({*}p \circ s)$.
-3. Step 2 of the display theorem gives ${*}({*}q \circ ({*}p \circ s)) \vdash r$.
-
-The formula reading of the last sequent is $\neg(\neg q \vee \neg p \vee s) \to r$, which is equivalent to $p \wedge q \wedge \neg r \to s$.
+Let us display the part $r$ of the sequent $p \circ (q \circ {*}r) \vdash s$.
+The part $r$ sits under one ${*}$ in the antecedent, so it is a succedent part, and we aim for a sequent $W \vdash r$.
+D1 with $X = p$ and then D1 with $X = q$ give the following:
+$$q \circ {*}r \vdash {*}p \circ s, \qquad {*}r \vdash {*}q \circ ({*}p \circ s).$$
+Step 2 of the display theorem then gives ${*}({*}q \circ ({*}p \circ s)) \vdash r$.
+Its formula reading is $\neg(\neg q \vee \neg p \vee s) \to r$, which is equivalent to $p \wedge q \wedge \neg s \to r$, and so to the reading $p \wedge q \wedge \neg r \to s$ of the first sequent.
 The [[example of displaying a substructure|83HPD7MWGD]] gives all the details.
 The typical use is to bring a formula into position before a logical rule acts on it, as C5 requires.
-A trap is to forget that ${*}$ changes the side: $r$ inside ${*}r$ in the antecedent is a succedent part.
+Watch out: ${*}$ changes the side, so $r$ inside ${*}r$ in the antecedent is a succedent part.
 
 ### L3 human
 

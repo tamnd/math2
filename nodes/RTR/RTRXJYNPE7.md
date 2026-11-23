@@ -14,7 +14,7 @@ sources:
 
 ## Example
 
-We use the focused system for MALL from the page on [[focusing|AMMKNENT3R]], with atoms $a, b$ positive.
+We use the focused system for MALL given with [[focusing|AMMKNENT3R]], with atoms $a, b$ positive.
 We find a focused proof of
 $$\vdash a^{\perp} \mathbin{\&} b^{\perp}, \ b \oplus a ,$$
 which is the one-sided form of $a \oplus b \vdash b \oplus a$ in [[linear logic|H408H4WHBA]], since $(a \oplus b)^{\perp} = a^{\perp} \mathbin{\&} b^{\perp}$.
@@ -59,11 +59,10 @@ The case split comes first, and the choice comes after it.
 
 ### L2 human
 
-The proof has three phases in each branch.
-
-1. Inversion: $[\mathbin{\&}]$ splits the goal into two branches, and Store empties the list.
-2. Decision: focus on $b \oplus a$.
-3. Focus: choose the disjunct that matches the stored atom, and close with $[\mathrm{init}]$.
-
-The typical use of this example is to show that inversion before choice avoids a wrong commitment.
-A trap is to choose the disjunct of $b \oplus a$ before the case split; no single choice works in both branches.
+Each branch goes through the same three moves.
+Inversion first: $[\mathbin{\&}]$ splits the goal into two branches, and Store empties the list.
+Then a decision to focus on $b \oplus a$, the only positive formula.
+Then the focus phase picks the disjunct that matches the stored atom and closes with $[\mathrm{init}]$.
+So inversion before choice protects the search from a wrong commitment.
+Watch out: choosing the disjunct of $b \oplus a$ before the case split cannot work.
+With $[\oplus_1]$ first, the branch holding $a^{\perp}$ needs $\vdash a^{\perp} \Downarrow b$, and with $[\oplus_2]$ first, the branch holding $b^{\perp}$ needs $\vdash b^{\perp} \Downarrow a$.

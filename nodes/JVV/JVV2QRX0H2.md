@@ -20,24 +20,26 @@ sources:
 
 ## Example
 
-Prior's connective [[tonk|QSVQ1KPNBX]] is given by two rules.
-
-- tonk-I: from $A$ infer $A \mathbin{\mathrm{tonk}} B$, for any formula $B$.
-- tonk-E: from $A \mathbin{\mathrm{tonk}} B$ infer $B$.
-
-The introduction rule is that of disjunction and the elimination rule is that of conjunction.
+Here is a two-step derivation of $q$ from the assumption $p$.
+$$\dfrac{\dfrac{p}{p \mathbin{\mathrm{tonk}} q}\,\mathrm{tonk}\mathrm{I}}{q}\,\mathrm{tonk}\mathrm{E}$$
+It uses Prior's connective [[tonk|QSVQ1KPNBX]], which has two rules.
+The introduction tonk-I infers $A \mathbin{\mathrm{tonk}} B$ from $A$, for any formula $B$, as for disjunction.
+The elimination tonk-E infers $B$ from $A \mathbin{\mathrm{tonk}} B$, as for conjunction.
 We show that these rules are not in [[harmony|XJSQVK0G71]].
 
-1. In propositional [[natural deduction|PAQ4ZX2TX1]] with tonk, take the assumption $p$, apply tonk-I to get $p \mathbin{\mathrm{tonk}} q$, and apply tonk-E to get $q$.
-2. This is a detour on $p \mathbin{\mathrm{tonk}} q$. A reduction, as for $\wedge$ and ${\to}$, rebuilds the conclusion from the derivations of the premises of the introduction, with no new rule steps.
-3. Here the only such derivation is the assumption $p$, and its conclusion is $p$, not $q$. So the detour has no reduction.
-4. Natural deduction without tonk is sound. Under the valuation with $p$ true and $q$ false, the assumption $p$ is true and $q$ is false, so the system without tonk does not derive $q$ from $p$.
-5. Step 1 derives $q$ from $p$ in the extended system. So by step 4 the extension is not [[conservative|N238J43XNE]].
+1. The derivation above, in propositional [[natural deduction|PAQ4ZX2TX1]] with tonk, has a detour on $p \mathbin{\mathrm{tonk}} q$.
+2. A reduction, as for $\wedge$ and ${\to}$, rebuilds the conclusion from the derivations of the premises of the introduction, with no new rule steps.
+3. Here the only such derivation is the assumption $p$, and its conclusion is $p$, not $q$.
+   So the detour has no reduction.
+4. Natural deduction without tonk is sound.
+   Under the valuation with $p$ true and $q$ false, the assumption $p$ is true and $q$ is false, so the system without tonk does not derive $q$ from $p$.
+5. The derivation above derives $q$ from $p$ in the extended system.
+   So by step 4 the extension is not [[conservative|N238J43XNE]].
 
 ## Remarks
 
 Step 4 shows more than step 3: no derivation without tonk, of any shape, can replace the detour.
-Step 1 works for any formulas $A$ and $B$ in place of $p$ and $q$, so with tonk every formula is derivable from every other one.
+The derivation works for any formulas $A$ and $B$ in place of $p$ and $q$, so with tonk every formula is derivable from every other one.
 Belnap's reply to Prior asked that the rules of a new connective give a conservative extension, and step 5 shows that tonk fails this.
 Harmony is the local version of the same requirement.
 
@@ -53,5 +55,5 @@ Together, these rules take us from any statement to any other, so they cannot be
 ### L2 human
 
 To see that rules are not in harmony, look for a detour whose result cannot be reached without it.
-Here, the detour turns $p$ into $q$, and a truth table shows that nothing else does.
+Here the detour turns $p$ into $q$, and a truth table shows that nothing else does.
 A trap is to blame each rule separately: each one is the rule of a harmless connective, and only the pair is bad.
