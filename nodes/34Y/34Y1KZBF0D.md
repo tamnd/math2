@@ -18,23 +18,29 @@ sources:
 
 ## Example
 
-Let $W = \set{w, a, b}$, $R_1 = \set{(w, a)}$ and $R_2 = \set{(w, b)}$.
+From a point $w$, one arrow of type 1 leads to $a$ and one arrow of type 2 leads to $b$, and nothing else happens.
+In a grid the two arrows would close into a square, with a corner reached from $a$ by type 2 and from $b$ by type 1.
+Here that corner is missing, and one formula detects it.
+
+Let $W = \{w, a, b\}$, $R_1 = \{(w, a)\}$ and $R_2 = \{(w, b)\}$.
 This is a bimodal [[Kripke frame|NGHWZ9Y7ZV]], with $\square_1$ along $R_1$ and $\square_2$ along $R_2$.
 We show that it refutes $\mathrm{chr} = \lozenge_1 \square_2 p \to \square_2 \lozenge_1 p$, so it is not isomorphic to a [[product frame|JA2EBWVW8A]].
 
 1. Let $V(p) = \emptyset$.
 2. The point $a$ has no $R_2$-successor, so $a \models \square_2 p$.
-3. Since $w R_1 a$, $w \models \lozenge_1 \square_2 p$.
+3. Since $w R_1 a$, we get $w \models \lozenge_1 \square_2 p$.
 4. The point $b$ has no $R_1$-successor, so $b \not\models \lozenge_1 p$.
-5. Since $w R_2 b$, $w \not\models \square_2 \lozenge_1 p$.
+5. Since $w R_2 b$, we get $w \not\models \square_2 \lozenge_1 p$.
 6. So $\mathrm{chr}$ fails at $w$.
 7. The formula $\mathrm{chr}$ is valid in every product frame, by [[commutativity and the Church-Rosser property in product frames|1GA9KST2HQ]].
-8. Validity is preserved by isomorphism, so the frame is not isomorphic to a product. It does not validate $\mathsf{K} \times \mathsf{K}$, since $\mathrm{chr} \in \mathsf{K} \times \mathsf{K}$.
+8. Validity is preserved by isomorphism, so the frame is not isomorphic to a product.
+   It does not validate $\mathsf{K} \times \mathsf{K}$ either, since $\mathrm{chr} \in \mathsf{K} \times \mathsf{K}$.
 
 ## Remarks
 
-The frame fails the square condition: from $w$, the arrows to $a$ and to $b$ have no common completion $t$ with $a R_2 t$ and $b R_1 t$.
-Adding a point $t$ with $a R_2 t$ and $b R_1 t$ repairs this defect and gives the product of two two-element chains.
+The frame fails the square condition: the arrows from $w$ to $a$ and to $b$ have no common completion $t$ with $a R_2 t$ and $b R_1 t$.
+Adding a point $t$ with $a R_2 t$ and $b R_1 t$ repairs this defect.
+The result is the product of two two-element chains, with $w = (0, 0)$, $a = (1, 0)$, $b = (0, 1)$ and $t = (1, 1)$.
 The frame still validates the fusion $\mathsf{K} \otimes \mathsf{K}$, as every bimodal frame does.
 
 ## Explanations
@@ -47,10 +53,9 @@ Here the two roads lead to dead ends, so the corner is missing, and the map is n
 
 ### L2 human
 
-1. Draw $w$ with an arrow of type 1 to $a$ and an arrow of type 2 to $b$.
-2. Make $p$ false everywhere.
-3. At $a$, "after every type 2 step, $p$" is true, because there are no such steps.
-4. At $b$, "after some type 1 step, $p$" is false, because there are no such steps.
-5. So at $w$ the premise of $\mathrm{chr}$ is true and the conclusion is false.
-
-A trap: the frame also satisfies $\mathrm{com}$, since both compositions $R_1 \circ R_2$ and $R_2 \circ R_1$ are empty; $\mathrm{com}$ alone does not detect products.
+The frame also satisfies $\mathrm{com} = \square_1 \square_2 p \leftrightarrow \square_2 \square_1 p$.
+The composition $R_1$ then $R_2$ is empty, because $a$ has no $R_2$-successor.
+The composition $R_2$ then $R_1$ is empty, because $b$ has no $R_1$-successor.
+So both sides of $\mathrm{com}$ are true at every point, under every valuation.
+The typical use of $\mathrm{chr}$ is to show that a given two-dimensional frame cannot be a product.
+Watch out: $\mathrm{com}$ alone does not detect products, and this frame passes it while failing $\mathrm{chr}$.

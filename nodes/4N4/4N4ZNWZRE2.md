@@ -64,7 +64,7 @@ We use the frame $\mathfrak{F} = (W, R)$ with these worlds and arrows:
 The proof uses one property of first-order classes only: they are closed under elementary substructures.
 Frame validity of $\mathrm{M}$ is not, because a countable substructure loses most of the "choice worlds" $z_f$.
 There are $2^{\aleph_0}$ of them in $\mathfrak{F}$, and step 7 is a diagonal argument that finds a choice the substructure missed.
-The trap is the difference between frames and models: on one fixed model, $\mathrm{M}$ is a first-order condition through the standard translation, with a unary predicate for $p$.
+Watch out for the difference between frames and models: on one fixed model, $\mathrm{M}$ is a first-order condition through the standard translation, with a unary predicate for $p$.
 Only the quantifier over all valuations, which is second-order, makes it undefinable.
 
 ### Where the formula sits

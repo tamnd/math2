@@ -79,6 +79,14 @@ An incomplete logic still has models and frames.
 By Makinson's theorem it is valid on a one-point frame, so it has at least one Kripke frame.
 What it lacks is enough Kripke frames to refute each of its non-theorems, and general frames supply the missing ones.
 
+### Try it
+
+Does the one-point reflexive frame validate $\mathrm{vB}$?
+No: with $p$ false at the point, $\square p \to p$ is true there, so $\square(\square p \to p)$ is true and $p$ is false, while $\square \lozenge \top$ holds.
+
+Does the one-point irreflexive frame validate $\mathrm{vB}$?
+Yes: the point has no successor, so the consequent $\square(\cdots)$ is true, and $\mathrm{E}$ holds there as well.
+
 ## History
 
 Steven Thomason gave the first Kripke incomplete logics: a tense logic in 1972 and a logic with one box in 1974.

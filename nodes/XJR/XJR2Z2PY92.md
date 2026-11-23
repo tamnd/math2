@@ -82,6 +82,8 @@ On a Kripke frame you can always refute $\square(\square p \to p) \to p$ at a ch
 So $\mathrm{vB}$ collapses to the variable-free formula $\mathrm{E}$ on every Kripke frame.
 A general frame can forbid that valuation, and here it does, because the set $W \setminus \{\infty\}$ is not admissible.
 In the frame of Part B, once $p$ holds on all of $\mathbb{N}$ it is forced to hold at $\infty$, and so $\mathrm{vB}$ survives at $\omega$ while $\mathrm{E}$ fails there.
+Watch out: validity on $\mathfrak{g}$ counts admissible valuations only.
+Under the valuation $V(p) = W \setminus \{\infty\}$, which is not admissible, $\mathrm{vB}$ fails at $\omega$, exactly as in Part A.
 
 ## Variants
 

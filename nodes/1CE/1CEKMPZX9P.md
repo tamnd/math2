@@ -39,6 +39,10 @@ Two changes break the example.
 If $W$ is infinite, step 4 fails, and the dual of $\mathcal{P}(W)$ is the ultrafilter extension of $(W, R)$, which has more worlds.
 If we keep $W$ finite but admit fewer sets, step 2 can fail: on two worlds with only $\emptyset$ and $W$ admissible, nothing separates the worlds.
 
+Watch out: tightness must also be checked at pairs $(u, u)$ where $u R u$ fails.
+On the three-world chain $0 R 1 R 2$, for the pair $(1, 1)$ take $a = \{1\}$.
+Only $0$ sees $1$, so $m_R(\{1\}) = \{0\}$, which misses $1$.
+
 ## Explanations
 
 ### L1 human
