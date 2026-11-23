@@ -17,89 +17,115 @@ sources:
 
 ## Summary
 
-A *normal modal logic* is a set $L$ of formulas of the basic [[modal language|C3RZY20ETK]] that contains all propositional tautologies and the axiom $\square(p \to q) \to (\square p \to \square q)$, and that is closed under modus ponens, [[necessitation|G989VP2NGP]] and [[uniform substitution|DE0GD8BM4M]].
-For a normal modal logic $L$, the set $\mathrm{NExt}(L)$ of normal modal logics that contain $L$, ordered by inclusion, is a [[complete lattice|D7A0ZGZT5S]].
-The meet of a family of logics is their intersection, and the join $L_1 \oplus L_2$ is the smallest normal modal logic that contains both.
-The *lattice of normal modal logics* is $\mathrm{NExt}(\mathsf{K})$; its least element is $\mathsf{K}$ and its greatest element is the inconsistent logic of all formulas.
-The study of this lattice asks which logics are complete, decidable or finitely axiomatizable, and how the lattice is built from simple pieces.
+The normal modal logics, ordered by inclusion, form one large lattice, and many questions about modal logic become questions about where a logic sits in it.
+At the bottom is $\mathsf{K}$, at the top is the inconsistent logic, and just below the top there are exactly two logics, those of a reflexive point and of an irreflexive point.
+
+A *normal modal logic* is a set $L$ of formulas of the basic [[modal language|C3RZY20ETK]] that contains all tautologies and the axiom $\square(p \to q) \to (\square p \to \square q)$, and that is closed under modus ponens, [[necessitation|G989VP2NGP]] and [[uniform substitution|DE0GD8BM4M]].
+For a normal logic $L$, the set $\mathrm{NExt}(L)$ of normal logics that contain $L$, ordered by inclusion, is a [[complete lattice|D7A0ZGZT5S]].
+The meet of a family is its intersection, and the join $L_1 \oplus L_2$ is the smallest normal logic that contains both.
+The *lattice of normal modal logics* is $\mathrm{NExt}(\mathsf{K})$.
 
 ## Motivation
 
-Each modal logic studied in isolation, such as $\mathsf{S4}$ or $\mathsf{GL}$, is one point of $\mathrm{NExt}(\mathsf{K})$.
-Questions about all logics at once need a global view: how many logics there are, which logics are maximal, and which properties hold in whole intervals of the lattice.
-The lattice is dually isomorphic to the lattice of varieties of modal algebras, so lattice theory and universal algebra apply.
-Results about whole intervals, such as Bull's theorem on extensions of $\mathsf{S4.3}$, replace many separate completeness proofs by one argument.
+Each logic studied on its own, such as $\mathsf{S4}$ or the provability logic $\mathsf{GL}$, is one point of $\mathrm{NExt}(\mathsf{K})$.
+Questions about all logics at once need the global view: how many logics there are, which are maximal, and which properties hold on whole intervals.
+One theorem about an interval, such as Bull's theorem on the extensions of $\mathsf{S4.3}$, replaces infinitely many separate completeness proofs.
+
+The lattice is dually isomorphic to the lattice of varieties of [[modal algebras|3H85NSFWHK]], so lattice theory and universal algebra apply.
+The same picture returns in the [[Blok-Esakia theorem|BB9TA5Q9PN]], which matches one interval of this lattice with the lattice of superintuitionistic logics.
 
 ## Notation
 
-$\mathrm{NExt}(L)$ is the lattice of normal extensions of $L$, and $L \oplus \Gamma$ is the smallest normal logic that contains $L$ and the set $\Gamma$.
-$\mathrm{Log}(\mathsf{C})$ is the set of formulas valid on every frame of a class $\mathsf{C}$; for one frame we write $\mathrm{Log}(\mathfrak{F})$.
-The reflexive one-point frame is written $\circ$ and the irreflexive one-point frame is written $\bullet$.
+$L \oplus \Gamma$ is the smallest normal logic that contains $L$ and the set $\Gamma$.
+$\mathrm{Log}(\mathsf{C})$ is the set of formulas valid on every frame of a class $\mathsf{C}$, and $\mathrm{Log}(\mathfrak{F})$ is the logic of one frame.
+We write $\circ$ for the reflexive one-point frame and $\bullet$ for the irreflexive one-point frame.
 Some texts write $\mathcal{E}L$ or $\Lambda(L)$ for $\mathrm{NExt}(L)$.
 
 ## Remarks
 
-### Examples
+### Two logics at the top
 
-1. The two coatoms of $\mathrm{NExt}(\mathsf{K})$ are $\mathrm{Log}(\circ)$ and $\mathrm{Log}(\bullet)$, by [[Makinson's theorem|8AF7AN5HE1]].
-2. The pair $\langle \mathrm{Log}(\bullet), \mathsf{KD} \rangle$ splits $\mathrm{NExt}(\mathsf{K})$, where $\mathsf{KD} = \mathsf{K} \oplus \lozenge \top$; see [[the irreflexive point splits the lattice|Q6P4T6YH9Z]].
-3. $\mathrm{NExt}(\mathsf{S5})$ is a chain. Its proper consistent extensions are the logics of the clusters with $n$ points, for $n \geq 1$, and $\mathsf{S5}$ itself is the logic of all finite clusters.
-4. Familiar logics form chains inside the lattice, such as $\mathsf{K} \subset \mathsf{K4} \subset \mathsf{S4} \subset \mathsf{S4.2} \subset \mathsf{S4.3} \subset \mathsf{S5}$.
+Compare the two one-point frames.
+On $\circ$ the box means "true here", so $\square p \leftrightarrow p$ is valid, and $\square \bot$ fails.
+On $\bullet$ there are no successors, so every boxed formula is true, $\square \bot$ is valid, and $\square p \to p$ fails with $p$ false.
+So $\square \bot \in \mathrm{Log}(\bullet) \setminus \mathrm{Log}(\circ)$ and $\square p \to p \in \mathrm{Log}(\circ) \setminus \mathrm{Log}(\bullet)$, and neither logic contains the other.
+[[Makinson's theorem|8AF7AN5HE1]] says that every consistent normal logic lies below one of them, so these two are the only coatoms of the lattice.
 
-### Non-examples
+### A first splitting
 
-1. The set of formulas globally true in one Kripke model is not an element of the lattice, since it is not closed under substitution; see [[global truth in a model is not a logic|WYJ1D6HPJ5]].
-2. The Lewis systems $\mathsf{S2}$ and $\mathsf{S3}$ are not normal, since they are not closed under necessitation; they lie outside $\mathrm{NExt}(\mathsf{K})$.
+The second picture of the lattice is a cut.
+Every normal logic either lies below $\mathrm{Log}(\bullet)$ or contains $\mathsf{KD} = \mathsf{K} \oplus \lozenge \top$, and never both; see [[the irreflexive point splits the lattice|Q6P4T6YH9Z]].
+For example, $\mathsf{S4}$ proves $\square \bot \to \bot$, an instance of T, which is $\lozenge \top$, so $\mathsf{S4}$ is on the upper side.
+$\mathsf{GL}$ is valid on $\bullet$, so it is on the lower side.
+A pair $\langle L_1, L_2 \rangle$ with this property *splits* $\mathrm{NExt}(L)$.
+Blok proved that the logic of a finite rooted frame splits $\mathrm{NExt}(\mathsf{K})$ exactly when the frame has no cycles.
+In $\mathrm{NExt}(\mathsf{K4})$ every finite rooted transitive frame gives a splitting, whose upper logic is axiomatized by the [[Jankov-Fine formula|W0CYVZ48CK]] of the frame.
 
-### Basic properties
+### Chains inside the lattice
 
-1. $\mathrm{NExt}(\mathsf{K})$ is a complete distributive lattice. Distributivity comes from the dual isomorphism with the lattice of varieties of modal algebras, which is distributive because the variety of modal algebras is congruence distributive.
-2. $\mathrm{NExt}(\mathsf{K})$ has $2^{\aleph_0}$ elements. There are at most $2^{\aleph_0}$ sets of formulas, and already $\mathrm{NExt}(\mathsf{S4})$ has $2^{\aleph_0}$ elements.
-3. Every consistent normal modal logic is contained in $\mathrm{Log}(\circ)$ or in $\mathrm{Log}(\bullet)$; see [[Makinson's theorem|8AF7AN5HE1]].
-4. A pair $\langle L_1, L_2 \rangle$ *splits* $\mathrm{NExt}(L)$ if every $L' \in \mathrm{NExt}(L)$ satisfies exactly one of $L' \subseteq L_1$ and $L_2 \subseteq L'$. Blok proved that the logic of a finite rooted frame splits $\mathrm{NExt}(\mathsf{K})$ if and only if the frame has no cycles.
-5. In $\mathrm{NExt}(\mathsf{K4})$, the logic of every finite rooted transitive frame gives a splitting, with the second logic axiomatized by the Jankov-Fine formula of the frame.
-6. Bull proved that every normal extension of $\mathsf{S4.3}$ has the finite model property, and Kit Fine proved that every such extension is finitely axiomatizable. So every logic in $\mathrm{NExt}(\mathsf{S4.3})$ is decidable.
-7. Kit Fine proved that every normal extension of $\mathsf{K4}$ of finite width is Kripke complete.
-8. Many logics in the lattice are [[Kripke incomplete|W67YJQTT50]], so the map $L \mapsto$ (class of Kripke frames of $L$) is not injective.
+Familiar logics line up as $\mathsf{K} \subset \mathsf{K4} \subset \mathsf{S4} \subset \mathsf{S4.2} \subset \mathsf{S4.3} \subset \mathsf{S5}$.
+The interval above $\mathsf{S5}$ is a chain.
+Its consistent members are $\mathsf{S5}$, which is the logic of all finite clusters, and the logics of the clusters with $n$ points, one for each $n \geq 1$.
+
+### What is not in the lattice
+
+The formulas true in one Kripke model do not form a normal logic, since they are not closed under substitution; see [[global truth in a model is not a logic|WYJ1D6HPJ5]].
+The Lewis systems $\mathsf{S2}$ and $\mathsf{S3}$ are not normal, because they are not closed under necessitation, so they lie outside $\mathrm{NExt}(\mathsf{K})$.
+
+### The rules you can use
+
+$\mathrm{NExt}(\mathsf{K})$ is distributive, because it is dually isomorphic to the lattice of subvarieties of a congruence distributive variety.
+It has $2^{\aleph_0}$ elements: there are at most that many sets of formulas, and already $\mathrm{NExt}(\mathsf{S4})$ has that many.
+Bull proved that every normal extension of $\mathsf{S4.3}$ has the finite model property, and Fine proved that each is finitely axiomatizable, so each is decidable.
+Fine also proved that every normal extension of $\mathsf{K4}$ of finite width is Kripke complete.
+Many logics in the lattice are [[Kripke incomplete|W67YJQTT50]], so different logics can have the same Kripke frames.
+
+### Watch out
+
+The join $L_1 \oplus L_2$ is not the union.
+The union of $\mathsf{KT} = \mathsf{K} \oplus (\square p \to p)$ and $\mathsf{K4}$ contains both axioms, but not the theorem $\square p \to (p \wedge \square \square p)$ of $\mathsf{S4}$.
+That formula fails on the irreflexive point, a $\mathsf{K4}$ frame, and on a reflexive two-step chain, a $\mathsf{KT}$ frame, so it lies in neither part of the union.
+A second slip is to think the lattice countable: there are only countably many finitely axiomatizable logics, but $2^{\aleph_0}$ logics in all.
 
 ### History
 
 McKinsey, Tarski and others studied single modal systems in the 1940s, and Kripke semantics made frame classes available around 1960.
-Bull proved in 1966 that all normal extensions of $\mathsf{S4.3}$ have the finite model property.
-David Makinson described the coatoms of the lattice in 1971.
-Kit Fine proved the finite axiomatizability of extensions of $\mathsf{S4.3}$ in 1971 and studied extensions of $\mathsf{K4}$ in 1974.
+Bull proved the finite model property of the extensions of $\mathsf{S4.3}$ in 1966.
+David Makinson described the two coatoms in 1971.
+Kit Fine proved the finite axiomatizability of the extensions of $\mathsf{S4.3}$ in 1971, and studied the extensions of $\mathsf{K4}$ in 1974.
 Blok developed the theory of splittings and of the degree of incompleteness, and Marcus Kracht extended the theory of splittings.
 
-### Common errors
+### Try it
 
-1. Confusing a logic with the set of its frames. Different logics can have the same Kripke frames.
-2. Treating the join $L_1 \oplus L_2$ as the union. The union of two logics is in general not closed under modus ponens.
-3. Assuming that the lattice is countable. There are countably many finitely axiomatizable logics but $2^{\aleph_0}$ logics in all.
+First, is $\mathsf{K} \oplus \square \bot$ below $\mathrm{Log}(\circ)$?
+No: $\square \bot$ fails on $\circ$, so the logic lies below $\mathrm{Log}(\bullet)$, and in fact it equals $\mathrm{Log}(\bullet)$.
+
+Second, on which side of the splitting by $\bullet$ is $\mathsf{K4}$?
+On the lower side: $\bullet$ is transitive, so $\mathsf{K4} \subseteq \mathrm{Log}(\bullet)$, and $\mathsf{K4}$ does not prove $\lozenge \top$.
 
 ## Explanations
 
 ### L1 human
 
 A modal logic is a list of accepted laws about necessity and possibility.
-One logic can be stronger than another by accepting more laws.
-All the logics, ordered by strength, form a map with a weakest logic at the bottom and the logic that accepts everything at the top.
-The study of this map shows which properties are shared by large families of logics.
+One logic is stronger than another when it accepts more laws.
+All the logics, ordered by strength, form a map with the weakest logic $\mathsf{K}$ at the bottom and the logic that accepts everything at the top.
+Just below the top there are only two logics: the logic of one point that sees itself, and the logic of one point that sees nothing.
 
 ### L2 human
 
-We place a few logics in the lattice.
-
-1. $\mathsf{K4} = \mathsf{K} \oplus (\square p \to \square \square p)$ and $\mathsf{S4} = \mathsf{K4} \oplus (\square p \to p)$, so $\mathsf{K} \subseteq \mathsf{K4} \subseteq \mathsf{S4}$.
-2. The reflexive point $\circ$ validates $\square p \to p$ and $\square p \to \square \square p$, so $\mathsf{S4} \subseteq \mathrm{Log}(\circ)$.
-3. The irreflexive point $\bullet$ refutes $\square p \to p$ with $p$ false, so $\mathsf{S4} \not\subseteq \mathrm{Log}(\bullet)$.
-4. By the splitting of the second example, every logic that is not below $\mathrm{Log}(\bullet)$ contains $\lozenge \top$. So $\mathsf{S4} \vdash \lozenge \top$, as also follows from $\square \bot \to \bot$.
-
-The typical use of the lattice is to prove a property for a whole interval, such as all extensions of $\mathsf{S4.3}$, by one argument.
-A trap: a logic below a coatom need not be complete, even though the coatom is the logic of a single frame.
+We place $\mathsf{S4}$ in the lattice.
+By definition $\mathsf{K4} = \mathsf{K} \oplus (\square p \to \square \square p)$ and $\mathsf{S4} = \mathsf{K4} \oplus (\square p \to p)$, which gives a chain:
+$$\mathsf{K} \subseteq \mathsf{K4} \subseteq \mathsf{S4}$$
+The reflexive point validates $\square p \to p$ and $\square p \to \square \square p$, so $\mathsf{S4} \subseteq \mathrm{Log}(\circ)$.
+The irreflexive point refutes $\square p \to p$ with $p$ false, so $\mathsf{S4} \not\subseteq \mathrm{Log}(\bullet)$.
+By the splitting, $\mathsf{S4}$ must then contain $\lozenge \top$.
+Check: the instance $\square \bot \to \bot$ of T is equivalent to $\lozenge \top$.
+This is the typical use of the lattice: one test on a finite frame decides a whole family of questions.
 
 ### L3 human
 
 By Jónsson-Tarski duality and [[Birkhoff's theorem|5083DHSK82]], $\mathrm{NExt}(\mathsf{K})$ is dually isomorphic to the lattice of subvarieties of the variety of modal algebras.
-Splittings correspond to splitting algebras, which are finite subdirectly irreducible algebras $\mathfrak{A}$ such that the varieties omitting $\mathfrak{A}$ have a largest element.
-Its structure is far from understood: for finitely axiomatized logics, properties such as Kripke completeness and the finite model property are undecidable, by results of Chagrov.
+Splittings correspond to splitting algebras: finite subdirectly irreducible algebras $\mathfrak{A}$ such that the varieties omitting $\mathfrak{A}$ have a largest element.
+The structure of the lattice is far from understood; for finitely axiomatized logics, Kripke completeness and the finite model property are undecidable, by results of Chagrov.
 Through the [[Blok-Esakia theorem|BB9TA5Q9PN]], the interval $\mathrm{NExt}(\mathsf{Grz})$ is isomorphic to the lattice of superintuitionistic logics.

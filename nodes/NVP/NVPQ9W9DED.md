@@ -14,68 +14,109 @@ sources:
 
 ## Summary
 
-Hybrid logic extends [[modal logic|C3RZY20ETK]] with names for worlds.
-A nominal $i$ is a second kind of atom that is true at exactly one world of each model.
-The satisfaction operator $@_i \varphi$ says that $\varphi$ holds at the world named $i$.
-The binder $\downarrow x . \varphi$ names the current world $x$ and then evaluates $\varphi$.
-With these tools the logic can say "this world", "that world" and "the same world again", which plain modal logic cannot.
-Many frame properties that no modal formula defines, such as irreflexivity, are defined by pure formulas, and the logics they axiomatize are complete.
+Let $i$ be a proposition that is true at exactly one world, so that $i$ works as a name.
+Then $i \to \neg \lozenge i$ says "if I am the world called $i$, I do not see the world called $i$", that is, "I do not see myself".
+On a frame this formula is valid exactly when no world sees itself, a property that no formula of plain [[modal logic|C3RZY20ETK]] defines.
+Hybrid logic is modal logic with such names for worlds.
+
+The names are called nominals: a nominal is an atom that every model makes true at exactly one world.
+The satisfaction operator $@_i \varphi$ says that $\varphi$ holds at the world named $i$, wherever we stand.
+The binder $\downarrow x . \varphi$ gives the name $x$ to the current world and then evaluates $\varphi$.
+Pure formulas, the formulas built from nominals without propositional variables, define many frame properties, and every set of pure axioms gives a complete logic.
 
 ## Motivation
 
-A modal formula is true or false at a world, but it cannot refer to a particular world.
-So [[Kripke semantics|NGHWZ9Y7ZV]] has an internal view of the model and no way to point.
-Arthur Prior met this problem in tense logic: a tense formula cannot say "at noon on a given day", and it cannot say that time has no loop.
-His idea was to treat instants as propositions that are true at exactly one instant.
-A nominal is such a proposition.
-With nominals and the operator $@$ the language can state facts about named worlds while staying modal, and the binder $\downarrow$ adds a way to name the world one stands at.
+A modal formula is true or false at a world, but it cannot point at a world.
+[[Kripke semantics|NGHWZ9Y7ZV]] gives an inside view of a model with no way to say "this world" or "the same world again".
+Arthur Prior met this gap in [[tense logic|8XB117FKKV]].
+A tense formula cannot say "at noon on that day", and it cannot say that time has no loop.
+His idea was to treat an instant as a proposition that is true at that instant only.
+
+Nominals keep the logic modal: they are formulas evaluated at worlds, not terms of a first-order language.
+Yet they bring back enough of first-order logic to state equality of worlds.
+The same idea appears in [[description logic|TXQ80B8ZSA]], where a nominal is a concept with one element and $@_i C$ asserts that the individual $i$ belongs to $C$.
 
 ## Notation
 
-1. Fix propositional variables $p, q, \dots$, nominals $i, j, k, \dots$, and state variables $x, y, \dots$.
-2. Formulas of $\mathcal{H}(@, \downarrow)$: $\varphi ::= p \mid i \mid x \mid \neg \varphi \mid \varphi \wedge \varphi \mid \lozenge \varphi \mid @_i \varphi \mid @_x \varphi \mid \downarrow x . \varphi$, with $\square \varphi = \neg \lozenge \neg \varphi$.
-3. $\mathcal{H}(@)$ is the fragment without state variables and $\downarrow$. Formulas built without propositional variables are called pure.
-4. A hybrid model is $\mathfrak{M} = (W, R, V)$ where $V(p) \subseteq W$ for every variable $p$ and $V(i) = \{w\}$ for one world $w$ and every nominal $i$.
-5. An assignment $g$ sends state variables to worlds, and $g[x \mapsto w]$ is $g$ changed at $x$ only.
-6. Truth: $\mathfrak{M}, g, w \models i$ iff $V(i) = \{w\}$; $\mathfrak{M}, g, w \models x$ iff $g(x) = w$; $\mathfrak{M}, g, w \models @_i \varphi$ iff $\mathfrak{M}, g, v \models \varphi$ where $V(i) = \{v\}$; $\mathfrak{M}, g, w \models \downarrow x . \varphi$ iff $\mathfrak{M}, g[x \mapsto w], w \models \varphi$. The other clauses are as in Kripke semantics.
+We use propositional variables $p, q$, nominals $i, j, k$, and state variables $x, y$.
+The formulas of $\mathcal{H}(@, \downarrow)$ are given by $\varphi ::= p \mid i \mid x \mid \neg \varphi \mid \varphi \wedge \varphi \mid \lozenge \varphi \mid @_i \varphi \mid @_x \varphi \mid \downarrow x . \varphi$, with $\square \varphi = \neg \lozenge \neg \varphi$.
+The fragment $\mathcal{H}(@)$ has no state variables and no binder.
+A hybrid model $(W, R, V)$ has $V(p) \subseteq W$ for each variable and $V(i) = \{w\}$ for one world $w$, for each nominal.
+An assignment $g$ sends state variables to worlds, and $g[x \mapsto w]$ changes $g$ at $x$ only.
+
+The new truth clauses are these.
+The nominal $i$ holds at $w$ when $V(i) = \{w\}$, and $x$ holds at $w$ when $g(x) = w$.
+The formula $@_i \varphi$ holds at $w$ when $\varphi$ holds at the world $v$ with $V(i) = \{v\}$.
+The formula $\downarrow x . \varphi$ holds at $w$ under $g$ when $\varphi$ holds at $w$ under $g[x \mapsto w]$.
 
 ## Remarks
 
-### Examples
+### A first computation
 
-1. [[The pure formula i → ¬◇i defines irreflexive frames|RK1RCGPAY6]]: a pure formula defines a frame property that no formula of basic modal logic defines.
-2. [[Evaluating @ and ↓ in a three-world cycle|VAP32WQ8DY]]: we compute $@_i \lozenge j$, $\downarrow x . \lozenge x$ and $\downarrow x . \lozenge \lozenge \lozenge x$ world by world.
-3. Other pure definitions: $i \to \square \neg \lozenge i$ defines asymmetry, and $i \to \square(\lozenge i \to i)$ defines antisymmetry.
-4. Description logic: a nominal in a description logic is a concept with one element, and $@_i C$ is the assertion that the individual $i$ belongs to $C$.
+The proof that $i \to \neg \lozenge i$ defines irreflexivity takes two lines, and [[the pure formula for irreflexivity|RK1RCGPAY6]] writes it out.
+If no world sees itself, then at the world named $i$ every successor is another world, so $\lozenge i$ is false there.
+If some $w$ has $w R w$, name it $i$, and $i \wedge \lozenge i$ holds at $w$.
+Why can plain modal logic not do the same?
+Modal validity is preserved under bounded morphic images, and [[the irreflexive successor chain maps onto a reflexive point|T3YJ84YDV4]].
+So every modal formula valid on all irreflexive frames is also valid on a frame that is not irreflexive.
 
-### Non-examples
+Other frame properties fall in the same way.
+The formula $i \to \square \neg \lozenge i$ defines asymmetry: no successor of the world $i$ sees $i$ back.
+The formula $i \to \square (\lozenge i \to i)$ defines antisymmetry: a successor that sees $i$ back must be $i$ itself.
 
-1. [[A nominal true at two worlds is not a hybrid valuation|NT4E0030NM]]: if a nominal is true at two worlds, the structure is not a hybrid model, and the pure formula for irreflexivity fails on an irreflexive frame.
-2. A propositional variable is not a nominal. The formula $p \to \neg \lozenge p$ is not valid on irreflexive frames: put $p$ true at both worlds of $u R v$.
-3. Plain modal logic with a first-order predicate for "the current world" is not hybrid logic. The point of hybrid logic is that the new symbols are formulas evaluated at worlds, so the logic keeps a modal syntax.
+### Two ways of naming
 
-### Basic properties
+A nominal names a world fixed by the valuation, while $\downarrow x$ names whatever world we stand at.
+In [[a three-world cycle|VAP32WQ8DY]], $@_i \lozenge j$ is true everywhere, because it only asks about the world named $i$.
+The formula $\downarrow x . \lozenge \lozenge \lozenge x$ is true everywhere too, but for a different reason: each world lies on a cycle of length three.
+So $\downarrow x . \lozenge x$ says "I see myself", a local property that no basic modal formula expresses at a world.
 
-1. Irreflexivity. No formula of basic modal logic defines the class of irreflexive frames, since validity is preserved under bounded morphisms and the irreflexive frame $(\mathbb{N}, S)$ maps onto a reflexive point, see [[the successor chain maps onto a reflexive point|T3YJ84YDV4]]. The pure formula $i \to \neg \lozenge i$ defines it.
-2. Axioms for $\mathcal{H}(@)$. Take the axioms and rules of $\mathsf{K}$, the axiom $\mathrm{K}$ and necessitation for each $@_i$, and the axioms
-$$@_i p \leftrightarrow \neg @_i \neg p, \quad @_i i, \quad @_j @_i p \leftrightarrow @_i p, \quad i \wedge p \to @_i p, \quad \lozenge @_i p \to @_i p.$$
-3. Rules. The Name rule: if $\vdash @_i \varphi$ and $i$ does not occur in $\varphi$, then $\vdash \varphi$. The Paste rule: if $\vdash @_i \lozenge j \wedge @_j \varphi \to \theta$ and $j$ is distinct from $i$ and occurs in neither $\varphi$ nor $\theta$, then $\vdash @_i \lozenge \varphi \to \theta$.
-4. Completeness with pure axioms. If a logic is the system of items 2 and 3 plus a set $\Sigma$ of pure axioms, then it is strongly complete for the class of frames on which every formula of $\Sigma$ is valid. So every pure axiom gives a complete logic for the frame class it defines.
-5. Complexity. Satisfiability for $\mathcal{H}(@)$ on all frames is [[PSPACE-complete|JWC9CE07Q2]], as for $\mathsf{K}$. Satisfiability for $\mathcal{H}(\downarrow)$ on all frames is undecidable.
-6. Expressive power. Every formula of $\mathcal{H}(@, \downarrow)$ translates into first-order logic, and $\mathcal{H}(@, \downarrow)$ is equivalent to the bounded fragment of first-order logic, in which every quantifier has the form $\exists y (x R y \wedge \dots)$.
-7. Invariance. Nominals are not invariant under [[bisimulation|X27BR4YP2Y]]: two bisimilar worlds can differ on $i$. The right notion for $\mathcal{H}(@)$ adds the conditions that linked worlds agree on nominals and that worlds named by the same nominal are linked.
+### Axioms and completeness
+
+The axioms of $\mathcal{H}(@)$ add to $\mathsf{K}$ the axiom $\mathrm{K}$ and necessitation for each $@_i$, together with five axioms.
+$$@_i p \leftrightarrow \neg @_i \neg p, \quad @_i i, \quad @_j @_i p \leftrightarrow @_i p, \quad i \wedge p \to @_i p, \quad \lozenge @_i p \to @_i p$$
+There are two extra rules.
+The Name rule infers $\varphi$ from $@_i \varphi$ when $i$ does not occur in $\varphi$.
+The Paste rule infers $@_i \lozenge \varphi \to \theta$ from $@_i \lozenge j \wedge @_j \varphi \to \theta$, when $j$ differs from $i$ and occurs in neither $\varphi$ nor $\theta$.
+With these rules, adding any set $\Sigma$ of pure axioms gives a logic that is strongly complete for the frames on which $\Sigma$ is valid.
+So the irreflexive frames have the complete logic $\mathcal{H}(@)$ plus $i \to \neg \lozenge i$, which plain modal logic cannot give.
+
+### Complexity and expressive power
+
+Satisfiability for $\mathcal{H}(@)$ is [[PSPACE-complete|JWC9CE07Q2]], the same as for $\mathsf{K}$, so naming worlds costs nothing here.
+The binder is expensive: satisfiability for $\mathcal{H}(\downarrow)$ on all frames is undecidable.
+Every formula of $\mathcal{H}(@, \downarrow)$ translates into first-order logic, and the full language is equivalent to the bounded fragment, where each quantifier has the form $\exists y (x R y \wedge \dots)$.
+Nominals also change the notion of sameness.
+Two [[bisimilar|X27BR4YP2Y]] worlds can differ on $i$, so a bisimulation for $\mathcal{H}(@)$ must link worlds that agree on nominals and must link the two worlds named by each nominal.
+
+### What it is not
+
+A propositional variable is not a nominal.
+On the irreflexive frame $u R v$, put $p$ true at both worlds; then $p \to \neg \lozenge p$ fails at $u$.
+A valuation that makes a nominal true at two worlds is no hybrid valuation, and [[a nominal true at two worlds|NT4E0030NM]] shows the pure axioms failing in such a structure.
+Nor is hybrid logic modal logic with a first-order predicate for the current world: the new symbols are formulas, and the syntax stays modal.
+
+### Watch out
+
+Truth in one model is not validity on a frame.
+On the frame $W = \{u, v\}$ with $R = \{(u, v), (v, v)\}$, name $u$ by $i$.
+Then $i \to \neg \lozenge i$ holds at both worlds, yet the frame has the loop $v R v$.
+The formula defines irreflexivity only when you check all hybrid valuations, and the valuation $V(i) = \{v\}$ refutes it.
+A second slip is to read $@_i \varphi$ as local: its truth does not depend on the current world, so $@_i \varphi \to \square @_i \varphi$ is valid.
 
 ### History
 
-Arthur Prior introduced the use of propositions true at one instant in his work on tense logic, in the 1960s, and the book Past, Present and Future (1967) treats it.
-Later work in the 1990s, by Patrick Blackburn and others, made hybrid logic a branch of modal logic with its own proof theory and model theory.
+Arthur Prior used propositions true at a single instant in his tense logic of the 1960s, and his book Past, Present and Future (1967) discusses them.
+Robert Bull studied tense logic with such propositions, and with quantification over them, in 1970.
+In the 1990s Patrick Blackburn and others developed hybrid logic as a branch of modal logic with its own proof theory and model theory.
 
-### Common errors
+### Try it
 
-1. Treating a nominal as an ordinary variable. A valuation must make each nominal true at exactly one world; without this the pure axioms lose their meaning.
-2. Reading $@_i \varphi$ as local. Its truth does not depend on the current world, so $@_i \varphi \to \square @_i \varphi$ is valid.
-3. Assuming that $\downarrow$ keeps the logic decidable. The binder on its own already gives an undecidable satisfiability problem on all frames.
-4. Confusing truth in a model with validity on a frame. In one model the formula $i \to \neg \lozenge i$ can be true at every world while some world $w$ has $w R w$, because $i$ names one world only. The definition of irreflexivity uses all hybrid valuations on the frame.
+First, which frame property does $i \to \square \square \neg i$ define?
+It says that the world named $i$ is never two steps from itself, so the frame has no cycle $w R v R w$; a reflexive world counts, since $w R w R w$.
+
+Second, is $@_i \lozenge p \to \lozenge p$ valid?
+No: take $W = \{u, v\}$ with $u R v$, $p$ true at $v$, and $i$ naming $u$; at $v$ the antecedent holds and $\lozenge p$ fails, since $v$ has no successor.
 
 ## Explanations
 
@@ -85,24 +126,23 @@ In ordinary modal logic a statement is true or false at a place, but no statemen
 Hybrid logic adds such names.
 A name is a statement that is true at exactly one place.
 The formula $@_{\mathrm{home}} \varphi$ then says "at home, $\varphi$ is true", from wherever we are.
-The arrow $\downarrow x$ says "call the place where I stand $x$", so that later we can ask whether we can come back to $x$.
+The arrow $\downarrow x$ says "call the place where I stand $x$", so that later we can ask whether we come back to $x$.
 
 ### L2 human
 
-We check the axiom $\lozenge @_i p \to @_i p$, called Back.
-
-1. Fix a hybrid model $\mathfrak{M} = (W, R, V)$, a world $w$, and let $V(i) = \{v\}$.
-2. Assume $\mathfrak{M}, w \models \lozenge @_i p$. Then $\mathfrak{M}, u \models @_i p$ for some $u$ with $w R u$.
-3. By the truth clause for $@$, $\mathfrak{M}, v \models p$. This does not depend on $u$.
-4. By the same clause, $\mathfrak{M}, w \models @_i p$.
-
-The same argument shows that the truth value of $@_i \varphi$ is the same at all worlds of a model.
-The typical use of the axioms is to move information from one named world to another inside a derivation.
-A trap: the converse $@_i p \to \lozenge @_i p$ fails at a world with no successor.
+We show that the Back axiom $\lozenge @_i p \to @_i p$ is valid.
+Fix a hybrid model, a world $w$, and let $v$ be the world with $V(i) = \{v\}$.
+Assume $\lozenge @_i p$ holds at $w$, so $@_i p$ holds at some successor $u$ of $w$.
+By the clause for $@$, this means that $p$ holds at $v$, and that fact does not mention $u$.
+By the same clause, $@_i p$ holds at $w$.
+The argument shows more: $@_i \varphi$ has the same truth value at every world of a model.
+The typical use of the axioms is to move information between named worlds inside a derivation.
+Watch out: the converse $@_i p \to \lozenge @_i p$ fails at a world with no successor.
 
 ### L3 human
 
 Hybrid logic sits between modal logic and first-order logic.
-The standard translation sends $i$ to $x = c_i$, $@_i \varphi$ to $\varphi$ evaluated at $c_i$, and $\downarrow y . \varphi$ to the substitution of the current variable for $y$, so the binder is a restricted form of first-order equality and quantification.
-Pure formulas behave like first-order frame conditions, and the Name and Paste rules make a Henkin-style canonical model possible in which each world is named, which is why pure axioms give strong completeness.
-The language is also the natural setting for labeled tableaux and sequent systems, since the labels of those systems are nominals.
+The [[standard translation|YW6YGBMVQY]] sends $i$ to $x = c_i$, sends $@_i \varphi$ to $\varphi$ evaluated at $c_i$, and treats $\downarrow y$ as a restricted use of equality.
+Pure formulas behave like first-order frame conditions.
+The Name and Paste rules allow a Henkin-style canonical model in which each world has a name, and that is why pure axioms give strong completeness.
+The language is also the natural home of labeled tableaux and sequent systems, since their labels are nominals.

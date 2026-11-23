@@ -17,48 +17,76 @@ sources:
 
 ## Proof
 
+We show that $\mathrm{vB}$ and $\mathrm{E}$ agree on Kripke frames, then build a general frame that validates $\mathrm{vB}$ and refutes $\mathrm{E}$, and then combine the two facts.
 We write $\mathrm{vB}$ for $\square \lozenge \top \to \square(\square(\square p \to p) \to p)$ and $\mathrm{E}$ for $\square \lozenge \top \to \square \bot$.
 
-Part A: Kripke frames of $\mathrm{vB}$ (item 1).
+### Part A: the Kripke frames of vB
 
-1. Let $(W, R)$ be a frame, $y \in W$, and $V(p) = W \setminus \set{y}$. Then $y \not\models p$.
-2. Let $y R z$. If $z \neq y$, then $z \models p$. If $z = y$, then $y \not\models \square p$, since $y R y$ and $y \not\models p$. In both cases $z \models \square p \to p$.
-3. So $y \models \square(\square p \to p)$ and $y \not\models \square(\square p \to p) \to p$ under $V$.
-4. Hence, for a world $x$, the formula $\square(\square(\square p \to p) \to p)$ holds at $x$ under all valuations if and only if $x$ has no successor. The "if" direction is vacuous truth.
-5. So $(W, R) \models \mathrm{vB}$ if and only if every world $x$ with $x \models \square \lozenge \top$ has no successor, that is, $x \models \square \bot$. This is $(W, R) \models \mathrm{E}$.
+1. Let $(W, R)$ be a frame, let $y \in W$, and let $V(p) = W \setminus \{y\}$.
+   Then $y \not\models p$.
+2. Let $y R z$.
+   If $z \neq y$, then $z \models p$.
+   If $z = y$, then $y \not\models \square p$, because $y R y$ and $y \not\models p$.
+   In both cases $z \models \square p \to p$.
+3. So $y \models \square(\square p \to p)$, and $y \not\models \square(\square p \to p) \to p$ under $V$.
+4. Hence the formula $\square(\square(\square p \to p) \to p)$ holds at a world $x$ under all valuations if and only if $x$ has no successor.
+   The "only if" direction is step 3 applied to a successor $y$ of $x$, and the "if" direction is vacuous truth.
+5. The antecedent $\square \lozenge \top$ has no variables, so its truth at $x$ does not depend on the valuation.
+   So $(W, R) \models \mathrm{vB}$ if and only if every world with $\square \lozenge \top$ has no successor, that is, if and only if $(W, R) \models \mathrm{E}$.
 
-Part B: a general frame for $\mathsf{KvB}$ that refutes $\mathrm{E}$ (item 2).
+### Part B: a general frame that refutes E
 
-6. Let $W = \N \cup \set{\infty, \omega}$, where $\infty$ and $\omega$ are two new points. Let $m R n$ for $m > n$ in $\N$, let $\infty R n$ for every $n \in \N$, and let $\infty R \infty$ and $\omega R \infty$. There are no other arrows.
-7. Let $A$ be the family of sets $X \subseteq W$ such that $X \cap (\N \cup \set{\infty})$ is either a finite subset of $\N$ or a cofinite subset of $\N \cup \set{\infty}$ that contains $\infty$. The point $\omega$ may be in $X$ or not.
-8. $A$ is closed under unions and complements. A union with a set of the second type is of the second type, and complements exchange the two types.
-9. $A$ is closed under $m_R$. If $X \cap \N$ is empty and $\infty \notin X$, then $m_R(X) = \emptyset$, since $\omega$ has no predecessor.
-10. If $X$ is of the first type and $k = \min (X \cap \N)$, then $m_R(X) = \set{m \in \N : m > k} \cup \set{\infty}$, which is of the second type.
-11. If $X$ is of the second type, then $m_R(X)$ contains $\infty$, $\omega$ and every $m > \min(X \cap \N)$, so it is of the second type.
-12. So $\mathfrak{g} = (W, R, A)$ is a [[general frame|6W9MEGN982]]. Its validity is truth at every world under every valuation with values in $A$.
-13. $\mathfrak{g}$ refutes $\mathrm{E}$ at $\omega$. The only successor of $\omega$ is $\infty$, and $\infty R \infty$, so $\omega \models \square \lozenge \top$. But $\omega$ has a successor, so $\omega \not\models \square \bot$.
-14. Now we show $\mathfrak{g} \models \mathrm{vB}$. The world $0$ has no successor, so $\square(\cdots)$ holds there. Every $n \geq 1$ and $\infty$ see $0$, which has no successor, so $\square \lozenge \top$ fails there.
-15. It remains to check $\omega$. Its only successor is $\infty$, so we need $\infty \models \square(\square p \to p) \to p$ for every admissible $V(p)$.
-16. Assume $\infty \models \square(\square p \to p)$. Then $n \models \square p \to p$ for every $n \in \N$, since $\infty$ sees every $n$.
-17. By strong induction on $n$, every $n \in \N$ satisfies $p$. If all $m < n$ satisfy $p$, then $n \models \square p$, since the successors of $n$ are the $m < n$. So $n \models p$.
-18. So $V(p) \supseteq \N$. Then $V(p) \cap (\N \cup \set{\infty})$ is infinite, so by step 7 it is of the second type and contains $\infty$. So $\infty \models p$.
-19. Validity on a general frame is closed under modus ponens, necessitation and uniform substitution. For substitution, the truth set of any formula under an admissible valuation is admissible, by steps 8 to 11.
-20. All axioms of $\mathsf{K}$ are valid on every general frame. So every theorem of $\mathsf{KvB}$ is valid on $\mathfrak{g}$, and $\mathrm{E} \notin \mathsf{KvB}$ by step 13.
+6. Let $W = \mathbb{N} \cup \{\infty, \omega\}$, with two new points $\infty$ and $\omega$.
+   Let $m R n$ for $m > n$ in $\mathbb{N}$, let $\infty R n$ for every $n \in \mathbb{N}$, and let $\infty R \infty$ and $\omega R \infty$, with no other arrows.
+7. Let $A$ be the family of sets $X \subseteq W$ such that $X \cap (\mathbb{N} \cup \{\infty\})$ is either a finite subset of $\mathbb{N}$ (type 1) or a cofinite subset of $\mathbb{N} \cup \{\infty\}$ that contains $\infty$ (type 2).
+   The point $\omega$ may be in $X$ or not.
+8. $A$ is closed under unions and complements, because a union with a set of type 2 has type 2, and complement exchanges the two types.
+9. We check closure under $m_R$, using that the predecessors of $n \in \mathbb{N}$ are the $m > n$ and $\infty$, the predecessors of $\infty$ are $\infty$ and $\omega$, and $\omega$ has none.
+   If $X \subseteq \{\omega\}$, then $m_R(X) = \emptyset$.
+10. If $X$ has type 1 and meets $\mathbb{N}$, let $k = \min (X \cap \mathbb{N})$.
+    Then $m_R(X) = \{ m \in \mathbb{N} : m > k \} \cup \{\infty\}$, which has type 2.
+11. If $X$ has type 2, then $m_R(X)$ contains $\infty$, $\omega$ and every $m > \min(X \cap \mathbb{N})$, so it has type 2.
+12. So $\mathfrak{g} = (W, R, A)$ is a [[general frame|6W9MEGN982]].
+13. $\mathfrak{g}$ refutes $\mathrm{E}$ at $\omega$.
+    The only successor of $\omega$ is $\infty$, and $\infty R \infty$, so $\omega \models \square \lozenge \top$.
+    But $\omega$ has a successor, so $\omega \not\models \square \bot$.
 
-Part C: incompleteness (item 3).
+### Part B, continued: the frame validates KvB
 
-21. Suppose that $\mathsf{KvB}$ is the logic of a class $\mathsf{C}$ of Kripke frames. Every frame in $\mathsf{C}$ validates $\mathrm{vB}$, so it validates $\mathrm{E}$ by Part A.
-22. So $\mathrm{E}$ is valid on every frame of $\mathsf{C}$, and $\mathrm{E} \in \mathsf{KvB}$. This contradicts Part B. So $\mathsf{KvB}$ is Kripke incomplete.
+14. Now we show $\mathfrak{g} \models \mathrm{vB}$ at every world except $\omega$.
+    The world $0$ has no successor, so the consequent holds there.
+    Every $n \geq 1$, and also $\infty$, sees $0$, which has no successor, so the antecedent $\square \lozenge \top$ fails there.
+15. It remains to check $\omega$.
+    Its only successor is $\infty$, so we need $\infty \models \square(\square p \to p) \to p$ for every admissible $V(p)$.
+16. Assume $\infty \models \square(\square p \to p)$.
+    Then $n \models \square p \to p$ for every $n \in \mathbb{N}$, since $\infty$ sees every $n$.
+17. By strong induction on $n$, every $n \in \mathbb{N}$ satisfies $p$.
+    If all $m < n$ satisfy $p$, then $n \models \square p$, since the successors of $n$ are the $m < n$, and step 16 gives $n \models p$.
+18. So $V(p) \supseteq \mathbb{N}$.
+    Then $V(p) \cap (\mathbb{N} \cup \{\infty\})$ is infinite, so by step 7 it has type 2 and contains $\infty$, and $\infty \models p$.
+19. Validity on a general frame is closed under modus ponens and necessitation, by the truth definition.
+    It is closed under uniform substitution, because the truth set of any formula under an admissible valuation is admissible, by steps 8 to 11.
+20. The axioms of $\mathsf{K}$ are valid on every general frame.
+    So every theorem of $\mathsf{KvB}$ is valid on $\mathfrak{g}$, and $\mathrm{E} \notin \mathsf{KvB}$ by step 13.
+
+### Part C: incompleteness
+
+21. Suppose, for a contradiction, that $\mathsf{KvB}$ is the logic of a class $\mathsf{C}$ of Kripke frames.
+    Every frame in $\mathsf{C}$ validates $\mathrm{vB}$, so it validates $\mathrm{E}$ by Part A.
+22. Then $\mathrm{E}$ is valid on every frame of $\mathsf{C}$, so $\mathrm{E} \in \mathsf{KvB}$, against Part B.
+    So $\mathsf{KvB}$ is Kripke incomplete.
 
 ## Idea
 
-On Kripke frames, the formula $\square(\square p \to p) \to p$ can always be refuted at any world by making $p$ false there and nowhere else.
+On a Kripke frame you can always refute $\square(\square p \to p) \to p$ at a chosen world, by making $p$ false there and nowhere else.
 So $\mathrm{vB}$ collapses to the variable-free formula $\mathrm{E}$ on every Kripke frame.
-A general frame can forbid this valuation, because the singleton $\set{\infty}$ is not admissible.
-In the frame of Part B, the admissible sets force $p$ to hold at $\infty$ once it holds on all of $\N$, and so $\mathrm{vB}$ survives while $\mathrm{E}$ fails.
+A general frame can forbid that valuation, and here it does, because the set $W \setminus \{\infty\}$ is not admissible.
+In the frame of Part B, once $p$ holds on all of $\mathbb{N}$ it is forced to hold at $\infty$, and so $\mathrm{vB}$ survives at $\omega$ while $\mathrm{E}$ fails there.
+Watch out: validity on $\mathfrak{g}$ counts admissible valuations only.
+Under the valuation $V(p) = W \setminus \{\infty\}$, which is not admissible, $\mathrm{vB}$ fails at $\omega$, exactly as in Part A.
 
 ## Variants
 
-The general frame of Part B is a variant of the [[finite and cofinite frame on the natural numbers|F5WN5GCAEQ]], with a point at infinity added.
-Thomason's and Fine's original examples use more involved frames, and Fine's example is an extension of $\mathsf{S4}$.
-An algebraic version of the proof shows that the modal algebra $A$ of $\mathfrak{g}$ is in the variety of $\mathsf{KvB}$, while no complex algebra of a Kripke frame can separate $\mathrm{vB}$ from $\mathrm{E}$.
+The general frame of Part B is the [[finite and cofinite frame on the natural numbers|F5WN5GCAEQ]], with the order reversed, a point at infinity $\infty$, and one extra point $\omega$ above it.
+Thomason's and Fine's original examples use more involved frames, and Fine's logic is an extension of $\mathsf{S4}$.
+An algebraic version of the proof shows that the complex algebra $\mathfrak{g}^*$ lies in the variety of $\mathsf{KvB}$, while no complex algebra of a Kripke frame separates $\mathrm{vB}$ from $\mathrm{E}$.

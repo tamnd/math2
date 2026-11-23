@@ -14,31 +14,37 @@ sources:
 
 ## Example
 
-Let $\mathfrak{M} = (W, R, D, I)$ be the Kripke model with domains given by:
+Let $\mathfrak{M} = (W, R, D, I)$ be the Kripke model with domains given by these data.
 
-- $W = \{w, v\}$ and $R = \{(w, w), (w, v), (v, v)\}$;
-- $D(w) = \{1, 2\}$ and $D(v) = \{1\}$, so $U = \{1, 2\}$;
+- $W = \{w, v\}$ and $R = \{(w, w), (w, v), (v, v)\}$.
+- $D(w) = \{1, 2\}$ and $D(v) = \{1\}$, so $U = \{1, 2\}$.
 - $I(P, w) = \{1, 2\}$ and $I(P, v) = \{1, 2\}$.
 
 We check that the domains decrease, and that the instance $\forall x \square P x \to \square \forall x P x$ of the [[Barcan formula|9PYDNBA5X4]] holds at both worlds.
 
-1. The pairs of $R$ are $(w, w)$, $(w, v)$ and $(v, v)$. For $(w, w)$ and $(v, v)$ the condition $D(v) \subseteq D(w)$ reads $D(u) \subseteq D(u)$, which holds.
-2. For $(w, v)$ the condition is $D(v) = \{1\} \subseteq \{1, 2\} = D(w)$, which holds. So the domains decrease along $R$.
+1. For the pairs $(w, w)$ and $(v, v)$ of $R$, the condition $D(v) \subseteq D(w)$ reads $D(u) \subseteq D(u)$, which holds.
+2. For the pair $(w, v)$, the condition is $D(v) = \{1\} \subseteq \{1, 2\} = D(w)$, which holds.
+   So the domains decrease along $R$.
 3. At $w$, the antecedent $\forall x \square P x$ needs $\square P x$ under $x \mapsto 1$ and under $x \mapsto 2$, since $D(w) = \{1, 2\}$.
-4. The successors of $w$ are $w$ and $v$. Both $I(P, w)$ and $I(P, v)$ contain $1$ and $2$. So $\square P x$ holds at $w$ under both values, and $\mathfrak{M}, w \models \forall x \square P x$.
+4. The successors of $w$ are $w$ and $v$, and both $I(P, w)$ and $I(P, v)$ contain $1$ and $2$.
+   So $\square P x$ holds at $w$ under both values, and $\mathfrak{M}, w \models \forall x \square P x$.
 5. At $w$, the consequent $\square \forall x P x$ needs $\forall x P x$ at $w$ and at $v$.
-6. At $w$: $D(w) = \{1, 2\} \subseteq I(P, w)$, so $\mathfrak{M}, w \models \forall x P x$.
-7. At $v$: $D(v) = \{1\} \subseteq I(P, v)$, so $\mathfrak{M}, v \models \forall x P x$.
+6. At $w$, $D(w) = \{1, 2\} \subseteq I(P, w)$, so $\mathfrak{M}, w \models \forall x P x$.
+7. At $v$, $D(v) = \{1\} \subseteq I(P, v)$, so $\mathfrak{M}, v \models \forall x P x$.
 8. By steps 6 and 7, $\mathfrak{M}, w \models \square \forall x P x$, so the instance holds at $w$.
-9. At $v$, the only successor is $v$. The antecedent needs $1 \in I(P, v)$, which holds. The consequent needs $\forall x P x$ at $v$, which holds by step 7. So the instance holds at $v$.
+9. At $v$, the only successor is $v$.
+   The antecedent needs $1 \in I(P, v)$, and the consequent needs $\forall x P x$ at $v$, which holds by step 7.
+   So the instance holds at $v$.
 
 ## Remarks
 
 In step 7 we used only the object $1$, and $1$ lies in $D(w)$ by step 2.
 This is the general reason for BF on decreasing domains: each object of an accessible world is already an object of the present world, so the antecedent already speaks about it.
-By the frame condition on the main page, every instance of BF, not only this one, is valid on the frame $(W, R, D)$.
-If we change $D(v)$ to $\{1, 3\}$, the domains no longer decrease.
-Then with $I(P, w) = I(P, v) = \{1, 2\}$, the antecedent still holds at $w$, but $3 \in D(v)$ and $3 \notin I(P, v)$, so the consequent fails at $w$.
+By the frame condition for the [[Barcan formula|9PYDNBA5X4]], every instance of BF, not only this one, is valid on the frame $(W, R, D)$.
+
+What changes if we set $D(v) = \{1, 3\}$?
+Then the domains no longer decrease.
+With $I(P, w) = I(P, v) = \{1, 2\}$, the antecedent still holds at $w$, but $3 \in D(v)$ and $3 \notin I(P, v)$, so the consequent fails at $w$.
 
 ## Explanations
 
@@ -46,7 +52,7 @@ Then with $I(P, w) = I(P, v) = \{1, 2\}$, the antecedent still holds at $w$, but
 
 Here world $w$ has two objects, $1$ and $2$, and world $v$ has only the object $1$.
 Moving from $w$ to $v$, an object disappears, but no new object appears.
-Everything that the formula says about "all objects of $v$" was already said at $w$.
+Everything the formula says about "all objects of $v$" was already said at $w$.
 So "every object is necessarily $P$" gives "necessarily every object is $P$".
 
 ### L2 human
@@ -54,9 +60,11 @@ So "every object is necessarily $P$" gives "necessarily every object is $P$".
 We check one more instance, with $\neg P x$ in place of $P x$, after we change $I$.
 
 1. Let $I(P, w) = \emptyset$ and $I(P, v) = \{2\}$.
-2. At $w$, $\forall x \square \neg P x$ needs $\square \neg P x$ for $x \mapsto 1$ and $x \mapsto 2$.
-3. For $x \mapsto 2$: $w R v$ and $2 \in I(P, v)$, so $\square \neg P x$ fails. So the antecedent is false at $w$, and the instance holds at $w$.
-4. At $v$: $\forall x \square \neg P x$ needs only $x \mapsto 1$, and $1 \notin I(P, v)$, so it holds. The consequent $\square \forall x \neg P x$ at $v$ needs $\forall x \neg P x$ at $v$ only, and this needs only $1 \notin I(P, v)$.
+2. At $w$, $\forall x \square \neg P x$ needs $\square \neg P x$ for $x \mapsto 1$ and for $x \mapsto 2$.
+3. For $x \mapsto 2$, we have $w R v$ and $2 \in I(P, v)$, so $\square \neg P x$ fails.
+   So the antecedent is false at $w$, and the instance holds at $w$.
+4. At $v$, $\forall x \square \neg P x$ needs only $x \mapsto 1$, and $1 \notin I(P, v)$, so it holds.
+   The consequent $\square \forall x \neg P x$ at $v$ needs only $1 \notin I(P, v)$, so it holds too.
 
 The typical use of the example is as a model of BF that is not a constant-domain model.
-A trap: $I(P, v)$ may contain $2$ although $2 \notin D(v)$, because predicates are interpreted on all of $U$.
+Watch out: $I(P, v)$ may contain $2$ although $2 \notin D(v)$, because predicates are interpreted on all of $U$.
