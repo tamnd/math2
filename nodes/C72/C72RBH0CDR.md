@@ -16,86 +16,133 @@ sources:
 
 ## Summary
 
-Let $T$ be a recursively axiomatized theory that interprets enough arithmetic, and add to its language a new unary predicate $X$.
-For a [[primitive recursive|QQQRJA90EP]] linear order $\prec$ on $\N$, let $\operatorname{TI}(\prec, X)$ say: if $X$ is progressive along $\prec$, then $X$ holds of every number.
-The *proof-theoretic ordinal* $\abs{T}$ is the supremum of the order types of those primitive recursive [[well-orders|01CGSJ0GNQ]] $\prec$ for which $T$ proves $\operatorname{TI}(\prec, X)$.
-The precise definition is in [[the definition node|C19Z3B6V4P]].
-The ordinal measures how much [[transfinite induction|0ZHQMQ2C1N]] a theory can prove, and it puts theories of very different kinds on one scale.
+Peano arithmetic can prove that the order on pairs of numbers, "compare the first entries, then the second", has no infinite descending sequence.
+That order has type $\omega^2$, and in the same way PA handles $\omega^\omega$, $\omega^{\omega^\omega}$ and every longer tower, but never $\varepsilon_0$ itself.
+The proof-theoretic ordinal of a theory records exactly this: how long a [[well-order|01CGSJ0GNQ]] the theory can still recognize as a well-order.
+
+We use the following definition, the $\Pi^1_1$ ordinal.
+Let $T$ be a recursively axiomatized theory that contains enough arithmetic, and add a new unary predicate $X$.
+For a [[primitive recursive|QQQRJA90EP]] linear order $\prec$ on $\mathbb{N}$, the formula $\operatorname{TI}(\prec, X)$ says that if $X$ is progressive along $\prec$, then $X$ holds of every number.
+The proof-theoretic ordinal of $T$ is
+$$\lvert T \rvert = \sup \{ \operatorname{otyp}(\prec) : \prec \text{ is a primitive recursive well-order and } T \vdash \operatorname{TI}(\prec, X) \}.$$
+The [[precise definition|C19Z3B6V4P]] spells out each part.
+So $\lvert T \rvert$ is the supremum of the order types of the primitive recursive well-orders whose well-foundedness $T$ proves.
 
 ## Motivation
 
-Gödel's second incompleteness theorem shows that a consistent theory such as PA cannot prove its own consistency.
-Gentzen found what is missing: transfinite induction up to $\varepsilon_0$, which PA proves for each smaller ordinal but not for $\varepsilon_0$ itself.
-This suggests attaching to each theory the first ordinal that it cannot reach, and this ordinal is the proof-theoretic ordinal.
-Computing it is the aim of an [[ordinal analysis|57PTMS2ADY]].
+Gödel's second incompleteness theorem says that a consistent theory such as PA cannot prove its own consistency.
+Gentzen found what is missing.
+In 1936 he proved the consistency of PA from [[transfinite induction|0ZHQMQ2C1N]] up to [[epsilon nought|KT50SMH3EC]], and in 1943 he showed that PA proves this induction below each $\alpha < \varepsilon_0$ but not up to $\varepsilon_0$.
+So one ordinal marks the exact point where the theory stops.
+
+This suggests attaching an ordinal to every theory, and the proof-theoretic ordinal is that ordinal.
+It puts theories of very different kinds on one scale: arithmetic, subsystems of second-order arithmetic, set theories such as Kripke-Platek, and theories of inductive definitions.
+Computing it is the aim of an [[ordinal analysis|57PTMS2ADY]], and the later pages on $\Gamma_0$, the Bachmann-Howard ordinal and collapsing functions are all about naming the values.
 
 ## Notation
 
-The usual notation is $\abs{T}$, and some books write $\abs{T}_{\Pi^1_1}$ to separate it from other ordinals of $T$.
-The $\Pi^0_2$ ordinal $\abs{T}_{\Pi^0_2}$ is defined by the provably total functions instead of transfinite induction.
-For PA and many stronger theories the two agree, but for weak theories they can differ.
+Most books write $\lvert T \rvert$, and some write $\lvert T \rvert_{\Pi^1_1}$ or $\lvert T \rvert_{\sup}$ to separate it from other ordinals of $T$.
+The $\Pi^0_2$ ordinal $\lvert T \rvert_{\Pi^0_2}$ is defined from the provably total functions of $T$ instead of from well-orders.
+Some books take computable instead of primitive recursive orders, or orders on a primitive recursive subset of $\mathbb{N}$; for the standard theories this gives the same value.
 
 ## Remarks
 
-### Examples
+### A first lower bound
 
-- $\abs{\mathrm{PA}} = \varepsilon_0$, by [[the ordinal analysis of PA|7ANX5PDRDM]].
-- $\abs{\mathrm{ACA}_0} = \varepsilon_0$, because $\mathrm{ACA}_0$ is conservative over PA, by [[the ordinal analysis of ACA0|GXZZW7G54P]].
-- $\abs{\mathrm{I\Sigma}_1} = \abs{\mathrm{PRA}} = \omega^\omega$, by [[the example of IΣ1|8KPSC3GE1B]].
-- $\abs{\mathrm{ACA}} = \varepsilon_{\varepsilon_0}$, by [[the example of ACA|JHYZ2A3VPJ]].
-- $\abs{\mathrm{ATR}_0} = \Gamma_0$, the [[Feferman-Schütte ordinal|CNN7BK5YAW]], and $\abs{\mathrm{ATR}} = \Gamma_{\varepsilon_0}$.
-- $\abs{\mathrm{ID}_1} = \abs{\mathrm{KP}}$ is the [[Bachmann-Howard ordinal|QH3ENXFRSV]].
+Let us check that PA proves induction along the order of type $\omega^2$ from the Summary.
+Code the pair $(a, b)$ by one number, and put $(a, b) \prec (c, d)$ if $a < c$, or $a = c$ and $b < d$.
+Assume that $X$ is progressive: $X(a, b)$ holds as soon as $X$ holds at every pair below $(a, b)$.
 
-### Non-examples
+We prove $\forall b \, X(a, b)$ by strong induction on $a$.
+Fix $a$ and assume $\forall b \, X(a', b)$ for every $a' < a$.
+Now use strong induction on $b$.
+The pairs below $(a, b)$ are the pairs $(a', b')$ with $a' < a$, which satisfy $X$ by the outer hypothesis, and the pairs $(a, b')$ with $b' < b$, which satisfy $X$ by the inner hypothesis.
+So progressiveness gives $X(a, b)$.
+Both inductions are on formulas with the parameter $X$, which PA allows, so PA proves $\operatorname{TI}(\prec, X)$ and $\omega^2 \le \lvert \mathrm{PA} \rvert$.
 
-- The least uncountable ordinal $\omega_1$ is not $\abs{T}$ for any theory $T$: every order in the supremum is a well-order on $\N$, so it has countable order type.
-- Without soundness the definition breaks: [[PA plus the negation of Con(PA)|FWY2SE83Q4]] proves transfinite induction along an order that is not well-founded.
-- The order type of one particular order that $T$ proves well-founded is only a lower bound. By [[the artificial notation system|PXMATF6B16]], PA can fail to prove that an order of type $\omega$ is well-founded.
+### The values for the standard theories
 
-### Basic properties
+The table lists the values that the later pages explain.
 
-- If $T$ is $\Pi^1_1$-sound, then $\abs{T} < \omega_1^{\mathrm{CK}}$, the least ordinal that is not the order type of a computable well-order. The argument is in [[the definition node|C19Z3B6V4P]].
-- If $T \subseteq T'$, then $\abs{T} \le \abs{T'}$.
-- The values for the standard theories form a strictly increasing table: $\omega^\omega$ (PRA), $\varepsilon_0$ (PA, $\mathrm{ACA}_0$), $\varepsilon_{\varepsilon_0}$ (ACA), $\Gamma_0$ ($\mathrm{ATR}_0$), $\Gamma_{\varepsilon_0}$ (ATR), the Bachmann-Howard ordinal ($\mathrm{ID}_1$, KP).
+| Theory | Proof-theoretic ordinal |
+|---|---|
+| [[primitive recursive arithmetic|WCXH72T8D8]], $\mathrm{I\Sigma}_1$ | $\omega^\omega$ |
+| PA, $\mathrm{ACA}_0$ | $\varepsilon_0$ |
+| ACA | $\varepsilon_{\varepsilon_0}$ |
+| [[ATR0|MKB74TX3Z8]] | $\Gamma_0$ |
+| ATR | $\Gamma_{\varepsilon_0}$ |
+| $\mathrm{ID}_1$, KP | Bachmann-Howard ordinal |
+| $\Pi^1_1\text{-}\mathrm{CA}_0$ | $\psi_0(\Omega_\omega)$, in Buchholz's notation |
+
+The worked cases are [[IΣ1|8KPSC3GE1B]], [[PA|7ANX5PDRDM]], [[ACA0|GXZZW7G54P]] and [[ACA|JHYZ2A3VPJ]].
+The ordinal $\Gamma_0$ is the [[Feferman-Schütte ordinal|CNN7BK5YAW]], and the [[Bachmann-Howard ordinal|QH3ENXFRSV]] is the first value that needs a collapsing function.
+
+### What the definition leaves out
+
+The first uncountable ordinal $\omega_1$ is never a proof-theoretic ordinal.
+Each order in the supremum is an order on $\mathbb{N}$, so it has countable type, and $T$ has only countably many proofs.
+
+An unsound theory can prove induction along an order that is not well-founded.
+[[PA plus the negation of Con(PA)|FWY2SE83Q4]] does this, and that is why the supremum runs only over true well-orders.
+
+One order is not enough to read off $\lvert T \rvert$.
+By [[the artificial notation system|PXMATF6B16]], PA fails to prove induction along a certain primitive recursive order of type only $\omega$.
+
+### First properties
+
+If $T \subseteq T'$, then every order counted for $T$ is counted for $T'$, so $\lvert T \rvert \le \lvert T' \rvert$.
+If $T$ proves only true $\Pi^1_1$ sentences, then $\lvert T \rvert < \omega_1^{\mathrm{CK}}$, the least ordinal that is not the type of a computable well-order.
+The argument, in [[the definition|C19Z3B6V4P]], puts all the orders that $T$ proves well-founded side by side in one computable well-founded relation.
+
+### Watch out: the value depends on the definition
+
+The $\Pi^1_1$ ordinal and the $\Pi^0_2$ ordinal are different notions, and the second depends on a choice of function hierarchy.
+The provably total functions of PRA are the primitive recursive functions.
+Measured by the fast-growing functions $F_\alpha$, they are those below $F_\omega$, so the answer is $\omega$.
+Measured by the Hardy functions $H_\alpha$, where $H_{\omega^\alpha} = F_\alpha$, the answer is $\omega^\omega$.
+So always say which definition you use.
+For PA both hierarchies give $\varepsilon_0$, since $\omega^\alpha < \varepsilon_0$ for every $\alpha < \varepsilon_0$.
 
 ### History
 
-Gentzen computed the first such ordinal, $\varepsilon_0$ for PA, in his work of 1936 and 1943.
-Schütte and Feferman found $\Gamma_0$ as the bound of predicative mathematics in the 1960s.
-Heinz Bachmann introduced the notation behind the Bachmann-Howard ordinal in 1950, and William Howard used it for the theory $\mathrm{ID}_1$ of inductive definitions in the early 1970s.
+Gentzen's papers of 1936 and 1943 give the first value, $\varepsilon_0$ for PA.
+Feferman in 1964 and Schütte in 1965, independently, identified $\Gamma_0$ as the limit of predicative analysis.
+Bachmann introduced the notation behind the Bachmann-Howard ordinal in 1950, and Howard used it in 1972 for the theory $\mathrm{ID}_1$ of one inductive definition.
 
-### Common errors
+### Try it
 
-- Reading $\abs{T}$ as the order type of one fixed notation system. The supremum is over all primitive recursive well-orders, and a single order of small type can already be out of reach.
-- Forgetting the soundness hypothesis. An unsound theory can prove an ill-founded order to be well-founded.
-- Confusing $\abs{T}$ with the $\Pi^0_2$ ordinal for weak theories, where the two may differ.
+Why is $\lvert T \rvert \ge \omega$ for every $T$ that contains PA?
+The usual order $<$ on $\mathbb{N}$ has type $\omega$, and $\operatorname{TI}(<, X)$ is the strong induction schema for $X$.
+
+Which is larger, $\lvert \mathrm{I\Sigma}_1 \rvert$ or $\lvert \mathrm{ACA} \rvert$?
+$\lvert \mathrm{ACA} \rvert = \varepsilon_{\varepsilon_0}$ is larger, since $\omega^\omega < \varepsilon_0 < \varepsilon_{\varepsilon_0}$.
 
 ## Explanations
 
 ### L1 human
 
-Some orderings of the natural numbers are well-orderings: every decreasing sequence in them stops.
-A theory can prove this for some such orderings and not for others.
-The longest orderings that the theory still trusts give an ordinal, its proof-theoretic ordinal.
-A stronger theory trusts longer orderings, so it gets a larger ordinal.
-For example, Peano arithmetic trusts each ordering shorter than $\varepsilon_0$, but not the ordering of length $\varepsilon_0$ itself.
+Some orderings of the natural numbers have the property that every walk downward stops after finitely many steps.
+A theory can prove this for some orderings and not for others.
+Each such ordering has a length, which is an ordinal, and the theory reaches up to a certain length and no further.
+That length is the proof-theoretic ordinal.
+For Peano arithmetic it is $\varepsilon_0$, the limit of $\omega$, $\omega^\omega$, $\omega^{\omega^\omega}$, and so on.
 
 ### L2 human
 
-We read off a lower bound for $\abs{\mathrm{PA}}$ from one proof.
+We show $\varepsilon_0 \le \lvert \mathrm{PA} \rvert$ from one theorem.
+Let $\prec$ be the order on the [[Cantor normal forms|6GD30FGYDZ]] below $\varepsilon_0$, which is primitive recursive and has type $\varepsilon_0$.
+For each tower $\omega_n$, defined by
+$$\omega_0 = 1, \qquad \omega_{n+1} = \omega^{\omega_n},$$
+[[transfinite induction in arithmetic|ZE54ABPMJ0]] gives a PA-proof of induction along $\prec$ restricted to the notations below $\omega_n$.
+The restricted order is still primitive recursive, and its type is $\omega_n$.
+So $\omega_n \le \lvert \mathrm{PA} \rvert$ for every $n$, and the supremum of the towers is $\varepsilon_0$.
 
-1. Let $\prec$ be the order on the [[Cantor normal forms|6GD30FGYDZ]] below $\omega^\omega$, which compares polynomials $\omega^k c_k + \cdots + c_0$ by their leading terms.
-2. This order is primitive recursive, and its order type is $\omega^\omega$.
-3. [[Transfinite induction in arithmetic|ZE54ABPMJ0]] shows that PA proves $\operatorname{TI}(\prec, X)$.
-4. So $\omega^\omega \le \abs{\mathrm{PA}}$.
-
-Repeating this with the towers $\omega^{\omega^\omega}$, $\omega^{\omega^{\omega^\omega}}$, and so on gives $\varepsilon_0 \le \abs{\mathrm{PA}}$.
-The typical use is to place a new theory on the scale by proving a lower bound like this and an upper bound by cut elimination.
-The trap: a lower bound needs one order of the given type that $T$ proves well-founded, not every such order.
+The upper bound is the hard half: Gentzen showed that PA does not prove induction along the full order, and cut elimination shows that no other primitive recursive well-order of type $\varepsilon_0$ or more is provable either.
+This is the typical shape of an analysis: a natural notation system for the lower bound and a proof-theoretic argument about all orders for the upper bound.
 
 ### L3 human
 
-The proof-theoretic ordinal measures the $\Pi^1_1$ part of a theory: the sentences of the form "$\prec$ is well-founded" that $T$ proves.
-Other measures look at other parts: the $\Pi^0_2$ ordinal at the provably total functions, and the $\Pi^1_2$ ordinals at stronger consequences.
-Beyond the [[Bachmann-Howard ordinal|QH3ENXFRSV]], the analyses use [[collapsing functions|8S6CT4TMB7]] and reach theories such as [[Π¹₁-comprehension|2MGJJTSRFD]].
-The analysis of full second-order arithmetic is open.
+The proof-theoretic ordinal measures the $\Pi^1_1$ part of a theory, the sentences "$\prec$ is well-founded" that it proves.
+Other measures look at other parts: the $\Pi^0_2$ ordinal at the provably total functions, and $\Pi^1_2$ ordinals at stronger consequences.
+Beyond the [[Bachmann-Howard ordinal|QH3ENXFRSV]] the values are written with [[collapsing functions|8S6CT4TMB7]], up to theories such as [[Π¹₁-comprehension|2MGJJTSRFD]].
+The ordinal analysis of full second-order arithmetic is an open problem.
