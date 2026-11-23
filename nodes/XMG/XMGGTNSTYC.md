@@ -19,96 +19,95 @@ sources:
 
 ## Summary
 
-The psychology of mathematical invention studies how mathematicians find new ideas, as opposed to how they check and present them.
-Its classical sources are the reports of mathematicians on their own work, above all Henri Poincaré's lecture of 1908 and Jacques Hadamard's book of 1945.
-These reports describe a common pattern: conscious work that seems to fail, a period away from the problem, a sudden idea, and a check by conscious work.
-Graham Wallas named the four stages preparation, incubation, illumination and verification.
-The subject matters because it explains why [[heuristics|6KCEWEP4WA]] and conscious method are only part of discovery, and because it gives practical advice on how to work.
-Its evidence is mostly anecdotal, and experiments on incubation support only part of the classical picture.
+The psychology of mathematical invention asks how mathematicians find new ideas, as opposed to how they check and present them.
+Its classical answer, built from the reports of mathematicians on their own work, is that an idea often arrives suddenly, after long conscious work and a pause.
+
+The best known report is Henri Poincaré's.
+He had worked for weeks on the functions that he called Fuchsian functions, now studied through [[Fuchsian groups|VNJWSCVP6V]], with little progress.
+He then left on a geological excursion and stopped thinking about mathematics.
+At Coutances, as he stepped onto an omnibus, the idea came to him that the transformations he had used to define these functions were the same as those of [[non-Euclidean geometry|SPCYMFN5V2]].
+He felt sure of the idea without checking it, and he verified it later at home.
+Poincaré told the story in a lecture in Paris, which became a chapter of *Science et méthode* (1908).
+
+Graham Wallas later named the four stages of such a story: preparation, incubation, illumination and verification.
+These stages describe what often happened, and they are not a method.
+The evidence is mostly anecdotal, and experiments on incubation support only part of the classical picture.
 
 ## Motivation
 
-A finished proof shows a chain of steps, but not how the first step was found.
+A finished proof shows a chain of steps, but not how anyone found the first step.
 Mathematicians report that many ideas came at unexpected moments, after long work on a problem and a break from it.
-If this is common, then discovery is not only the conscious search that heuristics describe.
-The question is what happens between the conscious attempts, and what a working mathematician can do to help it.
-Poincaré and Hadamard asked this question about mathematics, and psychologists later tested parts of their answer.
+If that is common, then discovery is more than the conscious search that [[heuristics|6KCEWEP4WA]] describe.
+So two questions arise: what happens between the conscious attempts, and what can a working mathematician do to help it?
+Poincaré and Hadamard asked these questions about mathematics, and psychologists later tested parts of their answers.
+
+## Notation
+
+The four stages carry Wallas's names, from *The Art of Thought* (1926).
+Psychologists call the sudden idea "insight" or the "aha" experience, and they call the pause "incubation".
+Poincaré and Hadamard wrote of "invention", and many later authors say "discovery" for the same process.
 
 ## Remarks
 
 ### The four stages
 
-Wallas described the stages in The Art of Thought (1926), drawing on reports by Hermann von Helmholtz and by Poincaré.
+Wallas drew on reports by Hermann von Helmholtz and by Poincaré, and he described four stages.
 
-1. Preparation: conscious work on the problem, with the relevant knowledge and several failed attempts.
-2. Incubation: a period in which the problem is put aside, and no conscious work is done on it.
-3. Illumination: the sudden appearance of an idea, often with a feeling of certainty.
-4. Verification: conscious work that checks the idea and puts it into a precise form.
+1. Preparation is conscious work on the problem, with the relevant knowledge and several failed attempts.
+2. Incubation is a period in which the problem is put aside and no conscious work is done on it.
+3. Illumination is the sudden arrival of an idea, often with a feeling of certainty.
+4. Verification is conscious work that checks the idea and puts it into precise form.
 
-The stages are a description, not a method: no rule says how long incubation takes or whether illumination will come.
+Poincaré's omnibus story fits them: the weeks on Fuchsian functions, the excursion, the step of the omnibus, and the check at home.
+A student who fails on a problem in the evening and sees the idea the next morning lives the same pattern on a small scale.
+No rule says how long incubation takes or whether illumination will come at all.
 
-### Poincaré's account
+### Poincaré's explanation
 
-Poincaré gave a lecture in Paris in 1908 on mathematical invention, and it became a chapter of his book Science and Method (1908).
-He described his work on the functions he called Fuchsian functions, which are related to [[Fuchsian groups|VNJWSCVP6V]].
-After a period of conscious work, he left for a geological excursion and stopped thinking about mathematics.
-At Coutances, as he put his foot on the step of an omnibus, the idea came to him that the transformations he had used to define these functions were identical with those of [[non-Euclidean geometry|SPCYMFN5V2]].
-He did not check the idea at once, but felt certain of it, and he verified it later at home.
-He interpreted such events as the result of unconscious work, prepared by the conscious work before it.
-He also proposed that among the many combinations formed unconsciously, a sense of mathematical beauty selects the ones that reach consciousness; this connects with the [[philosophical aesthetics of mathematics|AYDMRM3WA5]].
+Poincaré read such events as the result of unconscious work that the conscious work had prepared.
+He proposed that the mind forms many combinations of ideas without awareness, and that a sense of mathematical beauty selects the few that reach consciousness.
+This hypothesis links invention with the [[aesthetics of mathematics|AYDMRM3WA5]] and with [[intuition|4BT08RE4CR]], which judges which ideas are worth pursuing.
 
-### Poincaré as a subject of study
-
-The psychologist Édouard Toulouse published a study of Poincaré's habits of work in 1910.
-Toulouse reported that Poincaré worked in short, regular periods and that he often solved a problem in his head before writing it down.
-Gaston Darboux called Poincaré "un intuitif", a mathematician who relied on [[intuition|4BT08RE4CR]] more than on logical detail.
+Poincaré was himself studied.
+The psychologist Édouard Toulouse published a study of his habits of work in 1910.
+Gaston Darboux called Poincaré "un intuitif", a mathematician who relied on intuition more than on logical detail.
 
 ### Hadamard's inquiry
 
-Hadamard published An Essay on the Psychology of Invention in the Mathematical Field (Princeton, 1945); it was reissued in 1996 as The Mathematician's Mind.
-He took Poincaré's account as a starting point and collected reports from other scientists.
-He paid attention to the role of words and images in thought.
-The book prints a letter from Albert Einstein, who wrote that words play almost no role in his thinking, and that he works with visual and, in some cases, muscular images.
-Hadamard reported that he himself thought without words, with vague images, and he argued that the unconscious stage is essential to invention.
+Jacques Hadamard published *The Psychology of Invention in the Mathematical Field* in 1945, and it was reissued in 1996 as *The Mathematician's Mind*.
+He took Poincaré's account as his starting point and collected reports from other scientists.
+He paid close attention to the role of words and images in thought.
+The book prints a letter from Albert Einstein, who wrote that words played almost no role in his thinking, which used visual and in some cases muscular images.
+Hadamard reported that he too thought without words, with vague images, and he argued that the unconscious stage is essential to invention.
 
 ### Incubation in experiments
 
-Psychologists have tested incubation with problems solved in the laboratory, with and without a break.
-Ut Na Sio and Thomas Ormerod published a meta-analysis of these experiments in 2009.
-They found that an incubation period increases the chance of solving a problem.
-The effect depends on the kind of problem and on what is done during the break.
-These experiments use short problems, minutes rather than months, so their relevance to research mathematics is limited.
+Psychologists have tested incubation in the laboratory, with problems solved with and without a break.
+Ut Na Sio and Thomas Ormerod published a meta-analysis of such experiments in 2009, and they found that a break does raise the chance of solving a problem.
+The size of the effect depends on the kind of problem and on what the person does during the break.
+These experiments use problems that take minutes, not months, so their bearing on research mathematics is limited.
 
-### Examples
+### What the reports cannot show
 
-1. Poincaré's omnibus at Coutances: preparation (his work on Fuchsian functions), incubation (the excursion), illumination (the step of the omnibus), verification (the check at home).
-2. A student who fails on a problem in the evening and finds the idea the next morning: the same pattern on a small scale.
+The reports are written by the discoverers, often years later, and they are selected for success.
+An illumination that failed its verification is easy to forget, although Poincaré and Hadamard both reported such cases.
+The stages also overlap, and many discoveries come during conscious work, so a systematic search by computer, with no pause and no flash, is a discovery outside the pattern.
+The word "unconscious" names what happens during incubation, but it does not explain it, and rest, forgetting wrong attempts, and new associations compete as explanations.
+On one point all the accounts agree: illumination comes only to those who have worked on the problem.
 
-### Non-examples
+### Watch out
 
-1. Finding a proof by systematic search, such as a case analysis by computer: there is no incubation or illumination, and the pattern does not apply.
-2. A sudden idea without preparation: the classical accounts stress that illumination comes only after long conscious work, and an idea that comes from nothing is rarely correct.
-3. An illumination that fails verification. Poincaré and Hadamard both reported such cases; the feeling of certainty is not a proof.
-
-### What the accounts show and do not show
-
-1. The reports are self-reports, written years after the events and selected for success; failed illuminations are forgotten more easily.
-2. The four stages fit many reports, but the stages overlap, and some discoveries come during conscious work.
-3. The word "unconscious" names what happens during incubation, but it does not explain it. Rest, forgetting of wrong attempts and new associations are competing explanations.
-4. The accounts agree that preparation is necessary: illumination comes to those who have worked on the problem.
+Do not read the four stages as a recipe that guarantees a discovery.
+They describe what often happened, and they do not predict that it will happen to you.
+Do not treat an illumination as a proof either, since the feeling of certainty can be wrong and verification is where many ideas fail.
+Waiting for an idea without preparation does not work, because the accounts describe illumination only after long work.
 
 ### Practical lessons
 
-1. Work hard on a problem before leaving it; incubation needs material.
-2. When stuck, take a break, or switch to another problem, instead of repeating the same failed attempt.
-3. Write down an idea at once, and verify it with care: the feeling of certainty can be wrong.
-4. Keep several problems open, so that a break from one is work on another.
-
-### Common errors
-
-1. Reading the four stages as a recipe that guarantees a discovery. They describe what often happened; they do not predict that it will happen.
-2. Treating illumination as proof. The verification stage is where many ideas fail.
-3. Skipping preparation and waiting for an idea. The accounts describe illumination only after long work.
+Work hard on a problem before you leave it, since incubation needs material.
+When you are stuck, take a break or switch to another problem, instead of repeating the same failed attempt.
+Write an idea down at once, and then check it with care.
+Keeping several problems open means that a break from one is work on another.
 
 ## Explanations
 
@@ -117,29 +116,26 @@ These experiments use short problems, minutes rather than months, so their relev
 Many mathematicians tell the same story.
 They work hard on a problem and get nowhere.
 They stop and do something else: a walk, a trip, a night of sleep.
-Then, suddenly, the answer comes, at a moment when they are not thinking about the problem at all.
+Then the answer comes suddenly, at a moment when they are not thinking about the problem at all.
 Henri Poincaré said that an idea came to him as he stepped onto a bus.
-But he had worked on the problem for weeks before that, and he still had to check the idea afterwards.
+But he had worked on the problem for weeks before that, and he still had to check the idea afterward.
 So the lesson is: work hard, then rest, then check.
 
 ### L2 human
 
-We read a discovery story in terms of the four stages, using a classroom case.
-
-1. Preparation: a student tries for an hour to prove that $n(n + 1)(n + 2)(n + 3) + 1$ is a perfect square for each integer $n$. The student expands the product to degree $4$ and gets lost in the algebra.
-2. Incubation: the student stops and works on other subjects for a day.
-3. Illumination: the next day the student pairs the outer and the inner factors, $n(n + 3) = n^2 + 3n$ and $(n + 1)(n + 2) = n^2 + 3n + 2$, and names the middle value $m = n^2 + 3n + 1$.
-4. Verification: the product is $(m - 1)(m + 1) = m^2 - 1$, so the expression is $m^2$. For $n = 1$: $24 + 1 = 25 = 5^2$, and $m = 5$.
-5. The idea of step 3 is a heuristic, a good choice of [[notation|6CVYB413ER]], and the verification turns it into a proof.
-
-The typical use: when stuck after real effort, step away and return; the new start often uses a different idea.
-
-A trap: the story can be told after the fact in this form even if the idea came during work; the stages are a way to describe, not evidence of an unconscious process.
+Here is a classroom version of the four stages.
+A student tries for an hour to prove that $n(n + 1)(n + 2)(n + 3) + 1$ is a perfect square for every integer $n$.
+Expanding the product to degree $4$ leads into a mess of algebra, and the student stops for the day.
+The next morning the student pairs the outer factors and the inner factors:
+$$n(n + 3) = n^2 + 3n, \qquad (n + 1)(n + 2) = n^2 + 3n + 2.$$
+Both are close to $m = n^2 + 3n + 1$, so the product is $(m - 1)(m + 1) = m^2 - 1$, and the expression is $m^2$.
+Check with $n = 1$: $1 \cdot 2 \cdot 3 \cdot 4 + 1 = 25 = 5^2$, and $m = 1 + 3 + 1 = 5$.
+The idea of the morning was a good choice of [[notation|6CVYB413ER]], and the check turned it into a proof.
+Watch out: a story can be told in this form after the fact even if the idea came during work, so the stages describe events and are not evidence of an unconscious process.
 
 ### L3 human
 
-The psychology of invention connects mathematics with cognitive psychology and with the history of science.
-Within the study of mathematical practice, it complements Pólya's heuristics: heuristics describe the conscious search, and the classical accounts describe what happens outside it.
-The aesthetic selection proposed by Poincaré is a hypothesis about why some ideas reach consciousness, and it links with the role of [[intuition|4BT08RE4CR]] in judging which ideas to pursue.
-Later work on creativity treats insight problems and the restructuring of a representation, which connects with the heuristics of [[variation of the problem|KT5SASGTQ5]] and of [[auxiliary problems|DYSJB93V11]].
+The psychology of invention links mathematics with cognitive psychology and with the history of science.
+It complements Pólya's heuristics: heuristics describe the conscious search, and the classical reports describe what happens outside it.
+Later work on creativity studies insight problems as a change in the way a problem is represented, which connects with [[variation of the problem|KT5SASGTQ5]] and with [[auxiliary problems|DYSJB93V11]].
 The contrast between [[problem solvers and theory builders|Z29HM45R29]] shows how different styles of research use these processes.

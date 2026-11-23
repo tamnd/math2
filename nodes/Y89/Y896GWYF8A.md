@@ -17,80 +17,120 @@ sources:
 
 ## Summary
 
-Problem posing is the [[heuristic|6KCEWEP4WA]] of creating new problems: from a situation, from a problem being solved, or from a problem already solved.
-The usual moves are to change a condition, to change the unknown, to generalize, to specialize, or to ask the converse.
-A standard method is "what if not": list the attributes of a problem, deny one attribute at a time, and ask what problem results.
-Posing matters because research begins with a good question, because a solved problem is a source of further problems, and because posing a variant tests the understanding of the solution.
-It does not guarantee a good problem: a posed question may be trivial, may be far too hard, or may expect an answer of a form that does not exist.
+Problem posing is the [[heuristic|6KCEWEP4WA]] of making new problems, from a situation, from a problem that you are solving, or from a problem that you have solved.
+Its main tool is the question "what if not?": list the features of a problem, change one of them, and ask what the new problem is.
+
+Here is posing at work.
+A student has just found that a chessboard holds $204$ squares of all sizes, as in [[counting the squares on a chessboard|H817ES7NHH]].
+The first new question that comes to mind is "what about a board with $9$ rows and $9$ columns?"
+That question changes only a number, and the same method answers it at once, so it teaches nothing new.
+The helping move is to write down the features of the problem and to change one that carries structure.
+The features are an $8 \times 8$ board, figures that are squares, figures whose sides lie on grid lines, and a count as the answer.
+"What if the figures are not squares?" gives a real question: how many rectangles does the board hold?
+
+The student first tries to count rectangles by size, as for the squares, and finds $64$ sizes from $1 \times 1$ to $8 \times 8$, which is slow.
+A new view solves the problem.
+A rectangle is fixed by its two vertical sides and its two horizontal sides, and the board has $9$ vertical grid lines and $9$ horizontal grid lines.
+So the count is
+$$\binom{9}{2} \cdot \binom{9}{2} = 36 \cdot 36 = 1296.$$
+Looking back, $1296 = 1^3 + 2^3 + \dots + 8^3$, and that coincidence poses the next question, worked out in [[counting the rectangles on a chessboard|Z0MD0682KC]].
+
+Problem posing is advice, not an algorithm.
+It produces questions, and many of them are trivial, too hard, or built on a wrong expectation about the form of the answer.
 
 ## Motivation
 
-Exercises in a textbook come with their questions already chosen, but research and applications do not.
-A mathematician must decide what to ask: which quantity to compute, which property to prove, which case to treat first.
-After a problem is solved, the same choice comes back: the "look back" stage of [[Pólya's four steps|DYD57G2Y5Z]] asks whether the result or the method can be used for some other problem.
-Problem posing makes this choice deliberate.
-It also reverses the usual direction of teaching, where students answer questions but rarely ask them.
+A textbook exercise comes with its question already chosen, but research and applications do not.
+A mathematician must decide what to ask: which quantity to compute, which property to prove, and which case to treat first.
+After a problem is solved, the same choice comes back, since the "looking back" phase of [[Pólya's four steps|DYD57G2Y5Z]] asks whether the result or the method can serve for another problem.
+Problem posing makes that choice on purpose.
+It also turns around the usual direction of teaching, in which students answer questions but rarely ask them.
+
+## Notation
+
+Brown and Walter call their method "what if not", and they start it with a list of the "attributes" of the problem.
+They separate two phases: "accepting the given", in which you explore the problem as it is, and "challenging the given", in which you change its attributes.
+A changed problem is a "variant" of the original.
+Pólya's term "looking back" names the phase after a solution in which you test the result and ask what else it gives.
 
 ## Remarks
 
-### The steps
+### The method of "what if not"
 
-The "what if not" strategy of Brown and Walter, in a short form:
+The method has five steps.
 
 1. Choose a starting point: a theorem, a problem, a figure or a situation.
-2. List its attributes: the objects, the conditions, the numbers, the question asked.
-3. For each attribute, ask "what if not?": replace it by an alternative.
-4. For each alternative, pose a question about the new situation.
-5. Choose the questions that seem both interesting and accessible, and try to answer them.
-6. Look back: compare the new answers with the original, and pose again.
+2. List its attributes: the objects, the conditions, the numbers and the question asked.
+3. For each attribute, ask "what if not?" and name one or more alternatives.
+4. For each alternative, pose a question about the new situation, and keep the questions that seem both interesting and within reach.
+5. Try to answer them, compare the answers with the original, and pose again.
 
-### When it applies
+Writing the list of attributes is the step that matters most.
+A student who waits for a new question to appear usually finds only the change of a number, as with the $9 \times 9$ board.
+A written list shows features that the solution used without naming them, and those are the features worth changing.
 
-- After a problem is solved: pose variants to test and extend the solution.
-- When a problem is too hard: pose easier related problems, by [[specialization|FTBJX4G51S]] or by dropping a condition, as in [[variation of the problem|KT5SASGTQ5]].
-- When a situation is given without a question, as in modelling or in open-ended teaching tasks.
-- When a theory is new: pose the questions whose answers would organize it.
+### When it helps
 
-### Examples
+Posing helps after a problem is solved, because a variant tests whether you understand the solution.
+A variant that the same method solves shows the range of the method, and a variant that needs a new method shows its limits.
 
-1. [[Counting the rectangles on a chessboard|Z0MD0682KC]]: after [[counting the 204 squares on a chessboard|H817ES7NHH]], pose the question for all rectangles, and find $\binom{9}{2}^2 = 1296$.
-2. [[Similar figures on the sides of a right triangle|XNMYYT867E]]: "what if not squares?" applied to the [[Pythagorean theorem|0VP3A1290K]] gives a theorem for equilateral triangles, semicircles and every family of similar figures.
-3. "What if not the exponent $2$?" applied to [[Pythagorean triples|0M7ARED5Q7]] $x^2 + y^2 = z^2$ gives the question of [[Fermat's Last Theorem|0Y5X3SDBCZ]], $x^n + y^n = z^n$ for $n \geq 3$, a question that took more than three centuries to answer.
-4. The converse: the Pythagorean theorem says that a right angle gives $a^2 + b^2 = c^2$. Posing the converse asks whether $a^2 + b^2 = c^2$ forces a right angle, and the answer is yes.
+It helps when a problem is too hard, because an easier related problem can be posed by [[specialization|FTBJX4G51S]] or by dropping a condition, as in [[variation of the problem|KT5SASGTQ5]].
 
-### Non-examples
+It helps when a situation comes without a question, as in modeling or in open tasks in a classroom.
+It also helps when a theory is new, since the questions whose answers would organize the theory are the first ones to pose.
 
-1. [[Asking for a rational closed form of the harmonic numbers|ESH74VQRKG]]: posing by analogy with $1 + 2 + \dots + n = \frac{n(n + 1)}{2}$ gives a question whose expected answer does not exist.
-2. Changing an attribute in a way that makes the problem empty: "what if the triangle had four sides?" poses no problem about triangles, and the change must keep a question with content.
-3. Posing a variant of the [[Collatz conjecture|6PCQEXEX4N]] with a different rule, and expecting a short solution. The posing is easy, but the variant is likely to be as hard as the open original.
+Two classical cases show what posing can produce.
+"What if the figures on the sides are not squares?" applied to the [[Pythagorean theorem|0VP3A1290K]] gives a theorem for semicircles, equilateral triangles and every family of similar figures, as in [[similar figures on the sides of a right triangle|XNMYYT867E]].
+"What if the exponent is not $2$?" applied to [[Pythagorean triples|0M7ARED5Q7]] gives the question of [[Fermat's Last Theorem|0Y5X3SDBCZ]], whether $x^n + y^n = z^n$ has a solution in positive integers for some $n \ge 3$, which took more than three centuries to answer.
 
-### Basic properties
+### When it misleads
 
-1. Each solved problem has many variants: one for each attribute that can be changed, and one for each way to change it.
-2. Most variants are trivial or too hard. Choosing among them is part of the skill, and it uses the solution of the original problem as a guide.
-3. A variant solved by the same method shows the range of the method; a variant that needs a new method shows its limits.
-4. The converse and the generalization of a true statement may be false; posing them is the first step to finding out.
+A posed question often carries a silent expectation about its answer, and the expectation can be false.
+The sum $1 + 2 + \dots + n$ equals $\frac{n(n + 1)}{2}$, and the analogous question for $1 + \frac{1}{2} + \dots + \frac{1}{n}$ expects a formula of the same kind.
+No such formula exists, as [[asking for a rational closed form of the harmonic numbers|ESH74VQRKG]] proves.
 
-### Related methods
+A changed attribute can also destroy the content.
+"What if the triangle had four sides?" is not a question about triangles, and it gives no problem unless you also say what to ask about quadrilaterals.
 
-- [[Variation of the problem|KT5SASGTQ5]]: changing a problem in order to solve it; problem posing changes it in order to ask something new.
-- [[Generalization as a heuristic|8NJ0VN9Z97]] and [[specialization|FTBJX4G51S]]: two of the main moves of posing.
-- [[Analogy|7KDT0R1HF2]]: a new problem can be posed as the analogue of a solved one, as in the non-example above, with the risk that the analogy fails.
-- [[Abstraction and generalization|976RZZCT1H]]: the posing of general questions that gives rise to new theories.
+Easy posing can hide hard answering.
+"What if the rule is $3n - 1$ instead of $3n + 1$?" changes one sign in the [[Collatz conjecture|6PCQEXEX4N]], and the variant has a cycle that avoids $1$, since $5 \mapsto 14 \mapsto 7 \mapsto 20 \mapsto 10 \mapsto 5$.
+Whether every starting value falls into a known cycle is then as open as the original question.
+
+The converse and the generalization of a true statement may be false.
+"If a quadrilateral is a square, its diagonals have equal length" is true, but a rectangle that is not a square shows that its converse is false.
+
+### Related heuristics
+
+[[Variation of the problem|KT5SASGTQ5]] changes a problem in order to solve it, and problem posing changes it in order to ask something new.
+[[Generalization|8NJ0VN9Z97]] and [[specialization|FTBJX4G51S]] are two of the main moves of posing.
+[[Analogy|7KDT0R1HF2]] poses a new problem as the analogue of a solved one, with the risk that the analogy fails, as in the harmonic numbers.
+At the scale of a whole field, posing general questions gives rise to new theories, as described in [[abstraction and generalization|976RZZCT1H]].
+
+### Watch out
+
+Do not stop at variants that change one number, such as a $9 \times 9$ board instead of an $8 \times 8$ board.
+A good variant changes the structure of the problem, the kind of figure, the operation or the condition.
+
+Do not assume that the answer to a variant has the same form as the answer to the original.
+The form of the old answer is a guess about the new one, not a promise.
+
+Do not stop after the first new question either.
+The method works best when you list many questions and then choose a few.
 
 ### History
 
-Pólya's How to Solve It (1945) ends its list of questions with the "looking back" phase: "Can you use the result, or the method, for some other problem?"
-Georg Cantor stated, among the theses of his doctoral examination in 1867, that in mathematics the art of posing a question is worth more than the art of solving it.
-David Hilbert's list of $23$ problems in 1900 is the best-known case of problem posing as a contribution to research.
-Marion Walter and Stephen Brown wrote The Art of Problem Posing (1983), now in its third edition.
-The book introduced the "what if not" strategy to teachers.
+Georg Cantor defended, among the theses of his doctoral examination in Berlin in 1867, the claim that in mathematics the art of asking a question is worth more than the art of solving it.
+George Pólya's *How to Solve It* (1945) ends its four phases with "looking back", which asks what else a solution gives.
+David Hilbert's list of $23$ problems, presented in 1900, is the best known case of posing as a contribution to research.
+Stephen Brown and Marion Walter wrote *The Art of Problem Posing* (1983), which brought the "what if not" method to teachers.
 
-### Common errors
+### Try it
 
-1. Posing only trivial variants, such as changing one number. The variant should change the structure of the problem.
-2. Posing a question by analogy and assuming that the answer will have the same form, as in the harmonic number non-example.
-3. Stopping after the first new question. The method works best when many questions are listed and then a few are chosen.
+On a $3 \times 3$ board, how many squares and how many rectangles are there?
+There are $9 + 4 + 1 = 14$ squares, and there are $\binom{4}{2}^2 = 36$ rectangles.
+
+Pose the converse of "if a triangle is equilateral, then its three angles are equal", and decide whether it is true.
+The converse says that a triangle with three equal angles is equilateral, and it is true, because equal angles lie opposite equal sides.
 
 ## Explanations
 
@@ -98,7 +138,7 @@ The book introduced the "what if not" strategy to teachers.
 
 Most of the time in school, someone else gives us the question.
 Problem posing means making up our own questions.
-Take a fact we know, for example "a square with side $3$ has area $9$".
+Take a fact that we know, for example that a square with side $3$ has area $9$.
 Then change something and ask again.
 What if it is a rectangle?
 What if it is a triangle?
@@ -108,13 +148,22 @@ Some of the new questions are easy, some are hard, and some lead to new mathemat
 ### L2 human
 
 We apply "what if not" to the fact that $1 + 2 + \dots + n = \frac{n(n + 1)}{2}$.
+The attributes are that the terms are consecutive integers, that they start at $1$, that each term has exponent $1$, and that we add them.
 
-1. Attributes: the terms are consecutive integers; they start at $1$; each term has exponent $1$; we add the terms.
-2. "What if not exponent $1$?" Pose: find $1^2 + 2^2 + \dots + n^2$. The answer is $\frac{n(n + 1)(2n + 1)}{6}$, and for $n = 3$ it gives $14 = 1 + 4 + 9$.
-3. "What if not consecutive integers?" Pose: find $1 + 3 + 5 + \dots + (2n - 1)$. The answer is $n^2$, and for $n = 4$ it gives $16 = 1 + 3 + 5 + 7$.
-4. "What if not adding?" Pose: find $1 \cdot 2 \cdot \dots \cdot n$. This is $n!$, which has no closed form as a polynomial, and the useful question becomes its size, answered by Stirling's formula.
-5. "What if not integers?" Pose: find $1 + \frac{1}{2} + \dots + \frac{1}{n}$. This is the harmonic number $H_n$, and the expected form fails, as the non-example shows.
+1. "What if the exponent is not $1$?" poses the sum $1^2 + 2^2 + \dots + n^2$.
+   Its value is $\frac{n(n + 1)(2n + 1)}{6}$, and for $n = 3$ this gives $14 = 1 + 4 + 9$.
+2. "What if the terms are not consecutive integers?" poses the sum $1 + 3 + 5 + \dots + (2n - 1)$.
+   Its value is $n^2$, and for $n = 4$ this gives $16 = 1 + 3 + 5 + 7$.
+3. "What if we do not add?" poses the product $1 \cdot 2 \cdots n = n!$, which is not a polynomial in $n$, so the useful question becomes its size, which Stirling's formula answers.
+4. "What if the terms are not integers?" poses $1 + \frac{1}{2} + \dots + \frac{1}{n}$, the harmonic number $H_n$, and here the expected kind of formula does not exist.
 
-The typical use: list the attributes in writing before changing them; this produces more and better questions than waiting for one.
+Write the attributes down before you change them, since a written list gives more and better questions than waiting for one.
+Watch out: the form of the answer to the original problem is not a promise about the form of the answer to a variant.
 
-A trap: the form of the answer to the original problem is not a promise about the form of the answer to a variant.
+### L3 human
+
+In research, posing is often harder than solving.
+A good question is hard enough to need new ideas and close enough to known methods to be within reach.
+Hilbert's problems, the conjectures of Weil and the Langlands program shaped whole fields because they asked the right questions.
+Lakatos described another source of questions: a counterexample to a theorem asks which hypothesis was missing, as in [[proofs and refutations|79P9CTRN0V]].
+In teaching, posing tasks are used to test understanding, since a student who can pose a sensible variant knows which features of the solution matter.

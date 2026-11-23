@@ -16,52 +16,59 @@ sources:
 
 ## Example
 
-Starting fact: $1 + 2 + \dots + n = \frac{n(n + 1)}{2}$ and $1^2 + 2^2 + \dots + n^2 = \frac{n(n + 1)(2n + 1)}{6}$, closed forms that are polynomials in $n$.
-Posed by analogy, with the exponent changed from $1$ to $-1$: find a closed form for the [[harmonic number|0NANDX7V02]] $H_n = 1 + \frac{1}{2} + \dots + \frac{1}{n}$, as a polynomial or a quotient of polynomials in $n$.
-The expected answer does not exist, and we prove it.
+The sums $1 + 2 + \dots + n = \frac{n(n + 1)}{2}$ and $1^2 + 2^2 + \dots + n^2 = \frac{n(n + 1)(2n + 1)}{6}$ have closed forms that are polynomials in $n$.
+A student changes the exponent from $1$ to $-1$ and poses a question by analogy.
+Find a closed form for the [[harmonic number|0NANDX7V02]] $H_n = 1 + \frac{1}{2} + \dots + \frac{1}{n}$, as a polynomial or a quotient of polynomials in $n$.
 
-1. Suppose $H_n = \frac{P(n)}{Q(n)}$ for each integer $n \geq 1$, where $P$ and $Q$ are polynomials, so that $R = \frac{P}{Q}$ is a [[rational function|0XDK9CGYKJ]].
-2. The [[harmonic series diverges|0E9M24KS9J]], so $H_n \to \infty$. A rational function that tends to infinity along the integers has $\deg P > \deg Q$.
-3. Then $\frac{R(n)}{n} = \frac{P(n)}{n Q(n)}$ with $\deg P \geq \deg (nQ)$. So $\frac{R(n)}{n}$ tends to a nonzero constant or to $\pm\infty$, and it does not tend to $0$.
-4. On the other hand, [[the harmonic numbers grow like the logarithm|05S2GSPMGA]]: comparing $\frac{1}{k}$ with $\int_{k-1}^{k} \frac{dx}{x}$ gives $H_n \leq 1 + \ln n$, where $\ln$ is the [[natural logarithm|04DXAFN2ES]].
-5. So $0 < \frac{H_n}{n} \leq \frac{1 + \ln n}{n} \to 0$, which contradicts step 3.
-6. Hence no rational function $R$ has $R(n) = H_n$ for each $n \geq 1$.
+The student first fits a line through the first values $H_1 = 1$ and $H_2 = \frac{3}{2}$, which gives $p(n) = \frac{n + 1}{2}$.
+It predicts $p(3) = 2$, but $H_3 = \frac{11}{6}$, so the line fails.
+Higher degrees fail in the same way, and the failures suggest that the expected answer does not exist.
+We prove that it does not.
 
-The posing step failed, and we name the condition that failed.
+1. Suppose that $H_n = R(n)$ for each integer $n \ge 1$, where $R = \frac{P}{Q}$ is a [[rational function|0XDK9CGYKJ]] with polynomials $P$ and $Q$.
+2. The [[harmonic series diverges|0E9M24KS9J]], so $H_n \to \infty$.
+   A rational function that tends to infinity along the integers has $\deg P > \deg Q$.
+3. Then $\frac{R(n)}{n} = \frac{P(n)}{n Q(n)}$ with $\deg P \ge \deg (nQ)$.
+   So $\frac{R(n)}{n}$ tends to a nonzero constant or to $\pm\infty$, and it does not tend to $0$.
+4. On the other hand, [[the harmonic numbers grow like the logarithm|05S2GSPMGA]].
+   For $k \ge 2$ we have $\frac{1}{k} \le \int_{k-1}^{k} \frac{dx}{x}$, so $H_n \le 1 + \ln n$, where $\ln$ is the [[natural logarithm|04DXAFN2ES]].
+5. So $0 < \frac{H_n}{n} \le \frac{1 + \ln n}{n} \to 0$, which contradicts step 3.
+6. Hence no rational function $R$ has $R(n) = H_n$ for each $n \ge 1$.
 
-1. Problem posing asks for a new problem with content that can be attacked, and it lets the answer take whatever form it has.
-2. Here the variant was posed together with the form of its answer, copied from the original by [[analogy|7KDT0R1HF2]].
-3. The change from exponent $1$ to exponent $-1$ changes the growth from a power of $n$ to $\ln n$, and a rational function cannot grow like a logarithm.
-4. A better posed question drops the expected form: "how fast does $H_n$ grow?". Its answer is $H_n = \ln n + \gamma + o(1)$, with Euler's constant $\gamma \approx 0.5772$.
+The posing went wrong, and we name the condition that failed.
+[[Problem posing|Y896GWYF8A]] asks for a new problem with content that you can attack, and it lets the answer take whatever form it has.
+Here the variant came with the form of its answer, copied from the original by [[analogy|7KDT0R1HF2]].
+The change from exponent $1$ to exponent $-1$ changes the growth from a power of $n$ to $\ln n$, and a rational function cannot grow like a logarithm.
+A better question drops the expected form and asks how fast $H_n$ grows.
+Its answer is $H_n = \ln n + \gamma + o(1)$, with Euler's constant $\gamma \approx 0.5772$.
 
 ## Remarks
 
-The table shows the logarithmic growth: $H_{10} \approx 2.929$ against $\ln 10 \approx 2.303$, $H_{100} \approx 5.187$ against $\ln 100 \approx 4.605$, and $H_{1000} \approx 7.485$ against $\ln 1000 \approx 6.908$.
-The differences $0.626$, $0.582$, $0.578$ approach $\gamma$.
-The sums $1^k + 2^k + \dots + n^k$ for integers $k \geq 0$ are polynomials in $n$ of degree $k + 1$, and this is the pattern that the analogy copied.
-The negative exponents break it: for $k = -1$ the sum grows like $\ln n$, and for $k \leq -2$ it converges, with limit $\zeta(-k)$.
-The negative result is itself an answer: it shows that $H_n$ is a new function, not expressible through the earlier ones.
+The values show the logarithmic growth: $H_{10} \approx 2.929$ against $\ln 10 \approx 2.303$, $H_{100} \approx 5.187$ against $\ln 100 \approx 4.605$, and $H_{1000} \approx 7.485$ against $\ln 1000 \approx 6.908$.
+The differences $0.626$, $0.582$ and $0.578$ approach $\gamma$.
+
+The sums $1^k + 2^k + \dots + n^k$ for integers $k \ge 0$ are polynomials in $n$ of degree $k + 1$, and this is the pattern that the analogy copied.
+Negative exponents break it: for $k = -1$ the sum grows like $\ln n$, and for $k \le -2$ it converges, with limit $\zeta(-k)$.
+The negative result is itself an answer, since it shows that $H_n$ is a new function that the earlier ones cannot express.
 
 ## Explanations
 
 ### L1 human
 
-We know a short formula for $1 + 2 + 3 + \dots + n$: it is $\frac{n(n + 1)}{2}$.
+We know a short formula for $1 + 2 + 3 + \dots + n$, which is $\frac{n(n + 1)}{2}$.
 So it is natural to ask for a short formula of the same kind for $1 + \frac{1}{2} + \frac{1}{3} + \dots + \frac{1}{n}$.
 But no such formula exists.
 This sum grows very slowly, like the logarithm of $n$, and fractions made of powers of $n$ cannot grow that way.
 The question was a good one to ask, but it assumed the kind of answer it would get.
-The better question is "how fast does this sum grow?", and it has a clear answer.
+The better question is how fast the sum grows, and it has a clear answer.
 
 ### L2 human
 
-We test the analogy on small values before trying to prove anything.
-
-1. $H_1 = 1$, $H_2 = \frac{3}{2}$, $H_3 = \frac{11}{6}$, $H_4 = \frac{25}{12}$.
-2. Try a polynomial of degree $1$ through the first two values: $p(n) = \frac{1}{2} n + \frac{1}{2}$. It gives $p(3) = 2 \neq \frac{11}{6}$.
-3. The denominators grow: $H_{10} = \frac{7381}{2520}$, and $2520$ is the least common multiple of $1, 2, \dots, 10$. A polynomial with rational coefficients has values with bounded denominators.
-4. This suggests that no polynomial works, and steps 1 to 6 above prove that no rational function works either.
-
-The typical use: when posing a variant by analogy, pose the question without fixing the form of the answer, and test small cases first.
-
-A trap: step 3 alone does not rule out a rational function, whose values can have growing denominators; the growth argument is needed.
+We test the analogy on small values before we try to prove anything.
+The first values are $H_1 = 1$, $H_2 = \frac{3}{2}$, $H_3 = \frac{11}{6}$ and $H_4 = \frac{25}{12}$.
+The denominators grow, and $H_{10} = \frac{7381}{2520}$, where $2520$ is the least common multiple of $1, 2, \dots, 10$.
+A polynomial that takes rational values at the integers $1, \dots, d + 1$ has rational coefficients, so its values at integers have bounded denominators.
+The growing denominators of $H_n$ therefore rule out every polynomial.
+They do not rule out a rational function, whose values can have growing denominators, and the growth argument above is needed for that.
+When you pose a variant by analogy, pose the question without fixing the form of the answer, and test small cases first.
+Watch out: a pattern in the first few values, such as denominators that look like $2$, $6$ and $12$, can mislead, since $H_4 = \frac{25}{12}$ already breaks the guess $n(n + 1)$.

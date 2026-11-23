@@ -15,115 +15,121 @@ sources:
 
 ## Summary
 
-"Draw a figure" and "introduce suitable notation" are two [[heuristics|6KCEWEP4WA]] from Pólya's list for the first phase of solving a problem, understanding the problem.
-To draw a figure is to make a picture of the data, the unknown and the condition, so that the relations between them can be seen at once.
-To introduce notation is to give each object of the problem a short name, chosen so that the names show the roles and the [[symmetries|H840D9TM2X]] of the objects.
-A special case of good notation is the choice of a [[coordinate system|0RWKYX8339]] that puts the figure in a simple position.
-These heuristics matter because many problems are hard only while they are stated in words, and a good picture or a good name turns them into a short calculation.
-Like every heuristic, they suggest a route and do not guarantee one: a figure can also mislead, and a bad name can hide the structure of a problem.
+Many problems are hard only while they live in words.
+A figure puts the data and the unknown on paper where the eye can see their relations, and good names turn the condition into equations that you can compute with.
+
+Here is a problem that changes as soon as you draw it.
+A rectangle has its four corners on a circle of radius $5$, and one side of the rectangle has length $6$.
+How long is the other side?
+A first attempt in words names the four corners as unknown points, which gives eight coordinates and a tangle of conditions for "rectangle" and "on the circle".
+Now draw the figure and add one diagonal.
+Each corner of the rectangle is a right angle, and a right angle with its vertex on a circle stands on a diameter, so the diagonal is a diameter of length $10$.
+Name the unknown side $x$, and the diagonal cuts off a right triangle with legs $6$ and $x$:
+$$6^2 + x^2 = 10^2, \qquad x^2 = 64, \qquad x = 8.$$
+Good notation gives a second solution.
+Put the center of the circle at the origin with the sides parallel to the axes, so that the corners are $(\pm a, \pm b)$ with $a^2 + b^2 = 25$.
+The side of length $6$ gives $2a = 6$, so $a = 3$, $b = 4$, and the other side is $2b = 8$.
+
+"Draw a figure" and "introduce suitable notation" are two [[heuristics|6KCEWEP4WA]] from Pólya's first phase, understanding the problem.
+They suggest a route and do not guarantee one: a figure can mislead, and bad names can hide the structure of a problem.
 
 ## Motivation
 
-A problem in words asks the reader to keep many facts in memory at the same time.
-A figure stores these facts on paper, and the eye then finds relations, such as two equal angles or three points on a line, that the words did not mention.
-Names do the same work for an algebraic problem.
-"The smaller of the two numbers" is long and hard to use in a calculation, while $x$ can be squared, added and compared.
-The choice of names is not neutral: names that treat two symmetric objects in the same way keep the symmetry visible, and names that put a figure in a convenient position make the algebra short.
+A problem in words asks you to keep many facts in memory at once.
+A figure stores them on paper, and then you notice relations, such as two equal angles or three points on a line, that the words never mentioned.
+Names do the same work in algebra.
+"The smaller of the two numbers" is long and hard to compute with, while $x$ can be squared, added and compared.
+
+The choice of names is not neutral.
+Names that treat two interchangeable objects alike keep the [[symmetry|H840D9TM2X]] of the problem visible, and a [[coordinate system|0RWKYX8339]] that puts the figure in a simple position makes the algebra short.
+Both ideas return later: a figure is the first tool of [[mathematical intuition|4BT08RE4CR]], and a good choice of coordinates is the everyday form of [[without loss of generality|Y7NE0E6PCV]].
 
 ## Notation
 
-Pólya's entry on notation asks for signs with one meaning each, and for related signs for related objects, for example $a$, $b$, $c$ for the sides opposite the vertices $A$, $B$, $C$.
-Common conventions of this kind are $x$, $y$, $z$ for unknowns, $a$, $b$, $c$ for known numbers, $n$, $m$, $k$ for integers, and Greek letters $\alpha$, $\beta$, $\gamma$ for the angles at $A$, $B$, $C$.
-The topic [[notation, conventions and jargon|Z2WNQ1DNTX]] treats the general conventions of mathematical notation.
+Pólya's advice on notation asks for signs with one meaning each and for related signs for related objects, such as $a$, $b$, $c$ for the sides opposite the vertices $A$, $B$, $C$.
+The usual conventions follow it: $x$, $y$, $z$ for unknowns, $a$, $b$, $c$ for known numbers, $n$, $m$, $k$ for integers, and $\alpha$, $\beta$, $\gamma$ for the angles at $A$, $B$, $C$.
+The topic [[notation, conventions and jargon|Z2WNQ1DNTX]] treats these conventions in general.
 
 ## Remarks
 
-### The steps
+### Coordinates with many zeros
 
-1. Draw a figure that shows each object of the problem: the data, the unknown and the condition.
-2. Draw the figure in general position. Avoid special cases, such as right angles or equal sides, that the problem does not give.
-3. Mark the data on the figure, and mark the unknown in another way, for example with a question mark or a colour.
-4. Name each object with a short sign, and use related signs for related objects.
-5. When two objects play the same role, give them names of the same form, such as $5 + d$ and $5 - d$, or $x_1$ and $x_2$.
-6. For a problem about lengths or positions, place the figure in coordinates so that as many coordinates as possible are $0$.
-7. Write the condition of the problem as relations between the names. The problem is now an algebraic or a geometric task.
+To prove that the diagonals of a parallelogram $ABCD$ bisect each other, place $A = (0, 0)$, $B = (a, 0)$ and $D = (b, c)$, so that $C = (a + b, c)$.
+Both diagonals have the [[midpoint|B222G2H8TZ]]
+$$\left( \frac{a + b}{2}, \frac{c}{2} \right),$$
+so they meet there.
+Three letters describe every parallelogram, because translations and rotations do not change midpoints, and the statement does not change under them.
 
-### When it applies
+### Names that keep a symmetry
 
-- The problem is about lengths, angles, areas, positions or motion: a figure is almost always useful.
-- The problem is in words and has several unknown quantities: names make the condition into equations.
-- The problem has a symmetry, such as two unknowns that can be exchanged: a symmetric notation keeps the symmetry in the algebra.
-- The problem is about a general figure, such as any parallelogram: coordinates reduce the figure to a few parameters.
+Find two numbers with sum $10$ and product $21$.
+The names $x$ and $10 - x$ give $x^2 - 10x + 21 = 0$, which is correct but hides the fact that the two numbers play the same role.
+The [[symmetric names|NSCRV68VNS]] $5 + d$ and $5 - d$ use up the sum at once and turn the product into
+$$25 - d^2 = 21, \qquad d = \pm 2,$$
+so the numbers are $7$ and $3$.
 
-### Examples
+### A figure that proves nothing alone
 
-1. [[The diagonals of a parallelogram bisect each other, by coordinates|B222G2H8TZ]]: with $A = (0, 0)$, $B = (a, 0)$, $D = (b, c)$ and $C = (a + b, c)$, both diagonals have the midpoint $\left(\frac{a + b}{2}, \frac{c}{2}\right)$.
-2. [[Two numbers with sum 10 and product 21, in symmetric notation|NSCRV68VNS]]: the names $5 + d$ and $5 - d$ turn the system into $25 - d^2 = 21$.
-3. The distance between two points: a figure of the points $(x_1, y_1)$ and $(x_2, y_2)$ with the horizontal and the vertical leg shows a right triangle, and the [[Pythagorean theorem|0VP3A1290K]] gives $\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$.
-4. A word problem: "A father is $3$ times as old as his son. In $12$ years he will be twice as old." With $s$ for the age of the son, the condition is $3s + 12 = 2(s + 12)$, so $s = 12$ and the father is $36$.
-5. The sum $1 + 2 + \cdots + n$: a figure of a staircase of $n$ columns, with a copy turned upside down beside it, forms an $n \times (n + 1)$ rectangle, so the sum is $\frac{n(n + 1)}{2}$.
+A figure of a staircase of $n$ columns of heights $1, 2, \dots, n$, with a copy turned upside down beside it, makes an $n \times (n + 1)$ rectangle.
+So $1 + 2 + \dots + n = \frac{n(n + 1)}{2}$, and the picture tells you why.
+Still, a figure suggests relations and the proof must check them.
+If your drawing shows two lines meeting inside a triangle, that is a claim, and [[proofs without words|V6ESFEFKJC]] discusses when a picture can count as a proof.
 
-### Non-examples
+### When a figure misleads
 
-1. [[A figure that is too special suggests that a median is an altitude|SXA7G1N6HZ]]: an isosceles figure, drawn for a general triangle, shows a false relation.
-2. A figure as a proof. A figure suggests that two lines meet inside a triangle, but the proof must show it. A figure can only suggest the relations that the proof then checks.
-3. Names that break a symmetry. For "two numbers with sum $10$ and product $21$", the names $x$ and $10 - x$ give $x^2 - 10x + 21 = 0$. This is correct, but the symmetry between the numbers is hidden, and the work is longer than with $5 + d$ and $5 - d$.
+The classic failure is a figure that is too special.
+A student who draws an isosceles triangle "because it is easy" will see the median from the apex fall along the altitude, and may conclude that [[medians are altitudes|SXA7G1N6HZ]].
+In a triangle with three different sides the two segments differ.
+The same happens with coordinates: $A = (0, 0)$, $B = (2, 0)$, $C = (0, 2)$ make a calculation short, but they describe one right isosceles triangle, and a result proved there is proved only there.
 
-### Basic properties
+### Watch out
 
-1. A figure and names change the form of a problem, not its content: each relation on the figure must come from the data or from a proved result.
-2. A figure in general position shows only the relations that hold for every figure of the problem. A special figure can show extra relations that are false in general.
-3. Coordinates can be chosen freely when the problem does not change under translations and rotations. Then the choice is a form of [[reduction to a special case|DX2H7AD66G]], and the result holds for every position.
-4. A symmetric notation leads to equations that do not change when the names are exchanged. Such equations often have a simpler form in the sum and the product of the unknowns, as in [[Vieta's formulas|0M8EWQJ1YV]].
-
-### Related methods
-
-- [[Symmetry arguments|H840D9TM2X]]: a symmetric notation is the algebraic form of a symmetry of the problem.
-- [[Without loss of generality|Y7NE0E6PCV]]: a choice of coordinates is a choice "without loss of generality".
-- [[Auxiliary elements|8TKKRAXKFN]]: a figure often suggests an auxiliary line or point.
-- [[Pólya's four steps|DYD57G2Y5Z]]: a figure and notation belong to the first step, understanding the problem.
+Draw the figure as general as the hypotheses allow: no right angles and no equal sides unless the problem gives them.
+Use one letter for one object, and never $x$ for both a length and a point.
+Before you trust a relation you see in a figure, move one point a little and look again.
 
 ### History
 
-Pólya lists "draw a figure" and "introduce suitable notation" among the questions for the first phase of problem solving in How to Solve It (1945), and he gives an entry on notation in the dictionary part of the book.
-René Descartes's analytic geometry, published in 1637 as an appendix to the Discourse on the Method, turned geometric problems into algebra by coordinates.
+Pólya listed drawing a figure and introducing suitable notation among the questions for understanding a problem in *How to Solve It* (1945), and he gave notation its own entry in the dictionary part of the book.
+Descartes's *La Géométrie*, published in 1637 as an appendix to the *Discourse on the Method*, turned geometric problems into algebra with coordinates.
 
-### Common errors
+### Try it
 
-1. Drawing a special figure: an equilateral triangle for "a triangle", or a square for "a quadrilateral". The figure then shows relations that are false in general.
-2. Using one letter for two objects, for example $x$ for a length and for an unknown point.
-3. Reading a fact off the figure and using it in the proof without a reason.
+Two numbers have sum $14$ and product $45$; find them.
+With $7 + d$ and $7 - d$ you get $49 - d^2 = 45$, so $d = \pm 2$ and the numbers are $9$ and $5$.
+
+A right triangle has legs $3$ and $4$; how far is the right-angle vertex from the midpoint of the hypotenuse?
+Put the vertex at $(0, 0)$ and the other corners at $(3, 0)$ and $(0, 4)$, so the midpoint is $(1.5, 2)$ and the distance is $\sqrt{2.25 + 4} = 2.5$.
 
 ## Explanations
 
 ### L1 human
 
-Many problems are easier after a picture and good names.
-"A rectangle has a perimeter of $20$ cm, and one side is $4$ cm longer than the other" is hard to keep in mind.
-Draw the rectangle and call the short side $s$.
+A rectangle has a perimeter of $20$ cm, and one side is $4$ cm longer than the other.
+That sentence is hard to hold in your head, so draw the rectangle and call the short side $s$.
 The long side is then $s + 4$, and the perimeter is $s + (s + 4) + s + (s + 4) = 4s + 8$.
-So $4s + 8 = 20$, and the short side is $3$ cm, the long side $7$ cm.
+So $4s + 8 = 20$, the short side is $3$ cm and the long side is $7$ cm.
 The picture and the letter $s$ did most of the work.
-A picture can also fool us when it is too neat, so we draw shapes without extra equal sides or right angles.
+A picture can also fool you when it is too neat, so draw shapes without extra equal sides or right angles.
 
 ### L2 human
 
-We prove that in each triangle the segment that joins the midpoints of two sides is parallel to the third side and half as long.
+We prove that the segment joining the midpoints of two sides of a triangle is parallel to the third side and half as long.
+Draw a triangle $ABC$ in general position, and let $M$ and $N$ be the midpoints of $AB$ and $AC$.
+Lengths and parallel lines do not change under translations and rotations, so we may put
+$$A = (0, 0), \qquad B = (2p, 0), \qquad C = (2q, 2r), \quad r \ne 0,$$
+where the factors $2$ avoid fractions later.
+Then $M = (p, 0)$ and $N = (q, r)$, and
+$$\overrightarrow{MN} = (q - p, r), \qquad \overrightarrow{BC} = (2q - 2p, 2r) = 2\, \overrightarrow{MN}.$$
+So $MN$ is parallel to $BC$ and half as long.
 
-1. Figure: a triangle $ABC$ in general position, with $M$ the midpoint of $AB$ and $N$ the midpoint of $AC$.
-2. Coordinates: translations and rotations do not change lengths or parallel lines, so we may put $A = (0, 0)$ and $B = (2p, 0)$, with $C = (2q, 2r)$ and $r \neq 0$. The factors $2$ avoid fractions.
-3. Midpoints: $M = (p, 0)$ and $N = (q, r)$.
-4. Vectors: $\overrightarrow{MN} = (q - p, r)$ and $\overrightarrow{BC} = (2q - 2p, 2r) = 2 \, \overrightarrow{MN}$.
-5. Conclusion: $MN$ is parallel to $BC$, and $|BC| = 2 |MN|$.
-
-The typical use: a choice of coordinates with many zeros, and names with a factor that avoids fractions, make the calculation short.
-
-A trap: the coordinates $A = (0, 0)$, $B = (2, 0)$, $C = (0, 2)$ make the calculation shorter still, but they describe one right isosceles triangle only, and the result would then be proved for that triangle alone.
+Coordinates with many zeros, and names with a factor that prevents fractions, keep the calculation short.
+The letters $p$, $q$, $r$ are free, so the proof covers every triangle; with fixed numbers it would cover only one.
 
 ### L3 human
 
-Choosing notation is choosing a coordinate system in a wide sense: the problem is moved by a symmetry to a position where its description is short.
-In linear algebra the same idea is a choice of basis, and a good basis (an eigenbasis, an orthonormal basis, a Jordan basis) makes a matrix simple.
-Felix Klein viewed a geometry as the study of the invariants of a group of transformations.
-This view explains why a choice of coordinates is allowed: the statement is invariant, so it can be checked in any convenient frame.
-A figure plays a similar role for [[mathematical intuition|4BT08RE4CR]]: it is a guide that must be checked, and the topics [[proof without words|V6ESFEFKJC]] and [[rigour and the acceptance of proofs|1BTHSHST4M]] discuss when a picture can count as a proof.
+Choosing notation is choosing coordinates in a wide sense: a symmetry of the problem moves it to a position where its description is short.
+In linear algebra the same idea is a choice of basis, and a good basis, such as an eigenbasis or an orthonormal basis, makes a matrix simple.
+Klein's view of a geometry as the study of the invariants of a group of transformations explains why the choice is allowed: an invariant statement can be checked in any convenient frame.
+A symmetric notation leads to equations that do not change when the names are exchanged, and such equations simplify in the sum and the product of the unknowns, as in [[Vieta's formulas|0M8EWQJ1YV]].
+A figure plays a similar role for intuition, as a guide that must be checked, and [[rigor and the acceptance of proofs|1BTHSHST4M]] discusses when a picture is accepted.
