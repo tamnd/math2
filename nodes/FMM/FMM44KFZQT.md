@@ -17,7 +17,7 @@ sources:
 
 ## Definition
 
-$\mathsf{PV}$ is an [[equational theory|1AKKDC17M2]] with a function symbol for each polynomial-time algorithm, built so that its proofs only reason about such algorithms.
+$\mathsf{PV}$ is an [[equational theory|1AKKDC17M2]] with a function symbol for each polynomial-time algorithm.
 We follow Cook and write numbers in dyadic notation.
 Every $n \ge 1$ has exactly one form $s_1(m) = 2m + 1$ or $s_2(m) = 2m + 2$ with $m < n$, so $n$ is a string over the digits $1$ and $2$.
 The function symbols and their defining equations are introduced together, in stages called ranks.
@@ -31,9 +31,7 @@ The function symbols and their defining equations are introduced together, in st
 
 $$f(\bar x, 0) = g(\bar x), \qquad f(\bar x, s_i(y)) = h_i(\bar x, y, f(\bar x, y)) \quad (i = 1, 2).$$
 
-### The rules of proof
-
-The theorems of $\mathsf{PV}$ are the equations $t = u$ between terms that follow from the defining equations by four kinds of rules.
+The theorems of $\mathsf{PV}$ are the equations that follow from the defining equations by four kinds of rules.
 The equality rules give $t = t$, give $u = t$ from $t = u$, and give $t = v$ from $t = u$ and $u = v$.
 Substitution gives $t(r) = u(r)$ from $t(x) = u(x)$, for every term $r$.
 Congruence gives $f(\dots, t, \dots) = f(\dots, u, \dots)$ from $t = u$.

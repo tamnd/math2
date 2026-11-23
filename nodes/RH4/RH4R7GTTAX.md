@@ -23,33 +23,22 @@ history:
 ## Statement
 
 Buss's witnessing theorem says that a proof of $\forall x \, \exists y \, A(x, y)$ in $S^1_2$, with $A$ a $\Sigma^b_1$ formula, gives a polynomial-time algorithm that finds $y$ from $x$.
-Conversely, every polynomial-time function has such a proof, so the functions that $S^1_2$ can prove total in this form are exactly the polynomial-time functions.
+Conversely, every polynomial-time function has such a proof.
 
-### The definitions
-
-We use Buss's theories $S^i_2$ in the language $0, S, +, \cdot, \lfloor x/2 \rfloor, \lvert x \rvert, \#, \le$ of [[bounded arithmetic|A2CFPP8JMN]].
-The class $\Sigma^b_i$ counts alternations of bounded quantifiers and ignores sharply bounded quantifiers $(Qx \le \lvert t \rvert)$.
-For $i \ge 1$, $\square^p_i = \mathrm{FP}^{\Sigma^p_{i-1}}$ is the class of functions computable in [[polynomial time|GVT2NKN37K]] with an oracle for a $\Sigma^p_{i-1}$ set.
-So $\square^p_1 = \mathrm{FP}$, and $\Sigma^p_k$ is the $k$-th level of the [[polynomial hierarchy|TDQ7AXGM6P]].
-
-A function $f : \mathbb{N}^k \to \mathbb{N}$ is $\Sigma^b_i$-definable in a theory $R$ if some $\Sigma^b_i$ formula $A(\bar x, y)$ satisfies three conditions.
-First, $A(\bar n, f(\bar n))$ is true in $\mathbb{N}$ for all $\bar n$.
-Second, $R \vdash \forall \bar x \, \exists y \, A(\bar x, y)$.
-Third, $R \vdash \forall \bar x \, \forall y \, \forall z \, (A(\bar x, y) \land A(\bar x, z) \to y = z)$.
-
-### The theorem
+We use Buss's theories $S^i_2$ of [[bounded arithmetic|A2CFPP8JMN]], whose class $\Sigma^b_i$ ignores sharply bounded quantifiers.
+For $i \ge 1$, $\square^p_i = \mathrm{FP}^{\Sigma^p_{i-1}}$ is the class of functions computable in [[polynomial time|GVT2NKN37K]] with an oracle for a set in $\Sigma^p_{i-1}$, a level of the [[polynomial hierarchy|TDQ7AXGM6P]].
+So $\square^p_1 = \mathrm{FP}$.
+A function $f$ is $\Sigma^b_i$-definable in a theory $R$ if some $\Sigma^b_i$ formula $A(\bar x, y)$ is true of $\bar n$ and $f(\bar n)$ for all $\bar n$, and $R$ proves that $A$ has exactly one $y$ for each $\bar x$.
 
 **Theorem.** Let $i \ge 1$.
 
 1. (Witnessing.) Let $A(\bar x, y)$ be a $\Sigma^b_i$ formula with $S^i_2 \vdash \forall \bar x \, \exists y \, A(\bar x, y)$.
-   Then there is $f \in \square^p_i$ such that $f$ is $\Sigma^b_i$-definable in $S^i_2$ and $A(\bar n, f(\bar n))$ holds for all $\bar n \in \mathbb{N}^k$.
-   Also, $S^i_2$ proves $\forall \bar x \, A(\bar x, f(\bar x))$, with $f$ added to the language by its definition.
+   Then some $f \in \square^p_i$ is $\Sigma^b_i$-definable in $S^i_2$, and $S^i_2$ proves $\forall \bar x \, A(\bar x, f(\bar x))$, with $f$ added by its definition.
+   In particular $A(\bar n, f(\bar n))$ is true for all $\bar n$.
 2. (Definability.) Every function in $\square^p_i$ is $\Sigma^b_i$-definable in $S^i_2$.
 3. (Predicates.) Let $A$ be $\Sigma^b_i$ and $B$ be $\Pi^b_i$ with $S^i_2 \vdash \forall \bar x \, (A(\bar x) \leftrightarrow B(\bar x))$.
-   Then the set defined by $A$ is in $\Delta^p_i = \mathrm{P}^{\Sigma^p_{i-1}}$.
-   Conversely, each $\Delta^p_i$ set is defined in this way.
+   Then $A$ defines a set in $\Delta^p_i = \mathrm{P}^{\Sigma^p_{i-1}}$, and each $\Delta^p_i$ set is defined in this way.
 
-So the $\Sigma^b_i$-definable functions of $S^i_2$ are exactly the $\square^p_i$ functions.
 For $i = 1$, the $\Sigma^b_1$-definable functions of $S^1_2$ are exactly the polynomial-time functions, and the $\Delta^b_1$-definable predicates are exactly the sets in $\mathrm{P}$.
 
 ## Remarks
