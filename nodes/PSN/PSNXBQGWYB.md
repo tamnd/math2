@@ -23,7 +23,8 @@ Take $g_1 = 1 - x$ and $g_2 = x$, and no Boolean axioms.
 1. The sum is $g_1 f_1 + g_2 f_2 = (1 - x)^2 + x^2 = 1 - 2x + 2x^2$.
 2. At $x = 0$, the sum is $1$.
 3. At $x = 1$, the sum is $1 - 2 + 2 = 1$.
-4. The coefficient of $x^2$ is $2$, which is not $0$ in $\mathbb{F}$. So the sum is not the polynomial $1$.
+4. The coefficient of $x^2$ is $2$, which is not $0$ in $\mathbb{F}$.
+   So the sum is not the polynomial $1$.
 
 So the sum equals $1$ at every $0$-$1$ point, but $g_1 f_1 + g_2 f_2 = 1$ is not a polynomial identity.
 The list $g_1, g_2$ is not a [[Nullstellensatz refutation|ZERBQSTZB5]], because the definition asks for an identity in $\mathbb{F}[x]$.

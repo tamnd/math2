@@ -15,61 +15,82 @@ sources:
 
 ## Summary
 
-Let $f$ be a [[propositional proof system|3V24CYWDT6]], and for a tautology $\tau$ let $s_f(\tau)$ be the least size of an $f$-proof of $\tau$.
-The system $f$ is *automatizable* if there are an algorithm and a polynomial $t$ such that, for every tautology $\tau$, the algorithm outputs an $f$-proof of $\tau$ within $t(\abs{\tau} + s_f(\tau))$ steps.
-For a refutation system, such as [[resolution|6JSH907W5R]], the input is an unsatisfiable CNF $F$, and the output is a refutation of $F$ within $t(\abs{F} + s(F))$ steps.
-With other functions $t$ one speaks of automatizability in quasi-polynomial time, $t(m) = 2^{(\log m)^{O(1)}}$, or in subexponential time.
-The system $f$ is *weakly automatizable* if some proof system $g$ and some algorithm output $g$-proofs within $t(\abs{\tau} + s_f(\tau))$ steps.
+A proof system is automatizable when its short proofs can be found in time close to their length.
 
-The idea matters because it asks whether the short proofs that a system has can also be found fast.
+Take the four clauses $x \vee y$, $x \vee \neg y$, $\neg x \vee y$ and $\neg x \vee \neg y$.
+A program that resolves every pair of clauses and keeps the resolvents with at most $2$ literals finds $x$ and $\neg x$ in its first round and the empty clause in its second.
+The [[resolution|6JSH907W5R]] refutation it outputs has $7$ clauses, and the program spent time polynomial in that number.
+Automatizability asks for this behavior on every input.
+
+Let $f$ be a [[propositional proof system|3V24CYWDT6]], and for a tautology $\tau$ let $s_f(\tau)$ be the least size of an $f$-proof of $\tau$.
+The system $f$ is *automatizable* if there are an algorithm and a polynomial $t$ such that, for every tautology $\tau$, the algorithm outputs an $f$-proof of $\tau$ within $t(\lvert \tau \rvert + s_f(\tau))$ steps.
+For a refutation system such as resolution, the input is an unsatisfiable CNF $F$, and the output is a refutation of $F$ within $t(\lvert F \rvert + s(F))$ steps.
+With $t(m) = 2^{(\log m)^{O(1)}}$ one speaks of automatizability in quasi-polynomial time, and with $t(m) = 2^{m^{o(1)}}$ of automatizability in subexponential time.
+The system $f$ is *weakly automatizable* if, for some proof system $g$, an algorithm outputs $g$-proofs of every tautology $\tau$ within $t(\lvert \tau \rvert + s_f(\tau))$ steps.
 
 ## Motivation
 
-[[SAT solvers|3BW08M1EX7]] search for refutations: a run of the [[DPLL algorithm|K7R9D390SP]] on an unsatisfiable CNF gives a tree-like resolution refutation.
-No algorithm can always find short proofs fast if short proofs do not always exist, so the right comparison is with the shortest proof.
-Automatizability asks for proof search that is efficient relative to the best proof, not relative to the formula alone.
+[[SAT solvers|3BW08M1EX7]] search for refutations, and a run of the [[DPLL algorithm|K7R9D390SP]] on an unsatisfiable CNF is a tree-like resolution refutation.
+No algorithm can find short proofs where none exist, so the fair comparison is with the shortest proof.
+Automatizability asks for proof search that is efficient relative to the best proof, and not relative to the formula alone.
 
 ## Notation
 
 Wikipedia and some authors write *automatable*.
-The size $s(F)$ is the number of clauses for resolution, and the number of symbols in general.
+For resolution the size $s(F)$ is the number of clauses, and in general it is the number of symbols.
 Atserias and Müller measure the time against $r(F) + s(F)$, where $r(F)$ is the number of literal occurrences in $F$.
 
 ## Remarks
 
-### Examples
+### Systems that are automatizable
 
-- **Truth tables.** The [[truth-table system|67MYPBSHCJ]] is automatizable, for a trivial reason: see [[The truth-table system is automatizable|FV2E9MH87P]].
-- **Bounded width.** [[Bounded-width search for resolution refutations|8SER6179F1]] finds a resolution refutation of width $w$ in time $n^{O(w)}$ for $n$ variables.
-- **Tree-like resolution, in quasi-polynomial time.** Beame and Pitassi showed in 1996 that tree-like resolution is automatizable in quasi-polynomial time. With the [[size-width relation|GWDGRPAQSM]], the width search finds a resolution refutation in time $n^{O(w(F) + \log S_T(F \vdash \square))}$.
-- **Polynomial calculus, with respect to degree.** A refutation of degree $d$ in [[polynomial calculus|ZERBQSTZB5]] can be found in time $n^{O(d)}$. This is search in terms of degree, not size.
+The [[truth-table system|67MYPBSHCJ]] is automatizable because its proofs are as long as the search: see [[The truth-table system is automatizable|FV2E9MH87P]].
+[[Bounded-width search|8SER6179F1]] finds a resolution refutation of width $w$ in time $n^{O(w)}$ for $n$ variables, up to a factor polynomial in $\lvert F \rvert$.
+Beame and Pitassi showed in 1996 that tree-like resolution is automatizable in quasi-polynomial time.
+With the [[size-width relation|GWDGRPAQSM]], the width search gives a bound of the same kind, $n^{O(w(F) + \log S_T(F \vdash \square))}$, where $S_T$ is the least tree-like size.
+Its output may be dag-like, so it automates tree-like resolution only in the weak sense.
+In [[polynomial calculus|ZERBQSTZB5]] a refutation of degree $d$ can be found in time $n^{O(d)}$, which is search in terms of degree and not of size.
 
-### Non-examples
+### Systems that are not, under assumptions
 
-- **DPLL for general resolution.** [[DPLL does not automate general resolution|7R9XR9ANEC]]: its running time is at least the least tree-like size, which can be exponentially larger than the least size.
-- **Resolution, unless P = NP.** By the [[Atserias-Müller theorem|W7FP9TZMVP]], resolution is not automatizable in polynomial time unless [[P = NP|MFN5GYZH5Z]].
-- **Strong systems, under cryptographic assumptions.** Extended Frege is not weakly automatizable unless RSA is insecure against circuits of polynomial size (Krajíček and Pudlák, 1998). Results of the same kind hold for TC0-Frege and for bounded-depth Frege under assumptions on the Diffie-Hellman key exchange.
-- **Other systems, by NP-hardness.** Automating Nullstellensatz and polynomial calculus is NP-hard (de Rezende, Göös, Nordström, Pitassi, Robere and Sokolov, 2020), and so is automating cutting planes (Göös, Koroth, Mertz and Pitassi, 2020).
+DPLL does not automate general resolution, by [[DPLL does not automate general resolution|7R9XR9ANEC]]: its running time is at least the least tree-like size, which can be exponentially larger than the least size.
+By the [[Atserias-Müller theorem|W7FP9TZMVP]], no algorithm automates resolution in polynomial time unless [[P = NP|MFN5GYZH5Z]].
+Krajíček and Pudlák showed in 1998 that extended Frege is not automatizable unless RSA can be broken by circuits of polynomial size.
+Results of the same kind hold for TC0-Frege and for bounded-depth Frege under assumptions on the Diffie-Hellman key exchange.
+Automating Nullstellensatz and polynomial calculus is NP-hard by work of de Rezende, Göös, Nordström, Pitassi, Robere and Sokolov.
+Automating cutting planes is NP-hard by work of Göös, Koroth, Mertz and Pitassi.
 
 ### Basic properties
 
-- **With short proofs, automatizability decides unsatisfiability.** If $f$ is [[polynomially bounded|3V24CYWDT6]] and automatizable, then $\mathrm{P} = \mathrm{NP}$. Run the algorithm on $F$ for the time allowed by the size bound, and check the output. The search succeeds exactly when $F$ is unsatisfiable, so the [[coNP|NBSD5FG7NY]]-complete problem of unsatisfiability is in P.
-- **Transfer by simulation.** If $g$ is automatizable and $g$ p-simulates $f$, then $f$ is weakly automatizable, with $g$ as the output system.
-- **Feasible interpolation.** If $f$ is automatizable and substitution of constants in an $f$-proof gives an $f$-proof that is not larger, then $f$ has [[feasible interpolation|59GJCM8C66]]. So every result against feasible interpolation for such a system is also a result against automatizability.
-- **Width.** Search by width gives time $n^{O(w(F) + \sqrt{n \log S(F \vdash \square)})}$ for general resolution, by the [[size-width relation|GWDGRPAQSM]]. This bound is subexponential when the least size is polynomial, but it is not quasi-polynomial.
+- If $f$ is [[polynomially bounded|3V24CYWDT6]] by a polynomial $q$ and automatizable, then $\mathrm{P} = \mathrm{NP}$.
+  Run the algorithm on $F$ for $t(\lvert F \rvert + q(\lvert F \rvert))$ steps and check the output, which succeeds exactly when $F$ is unsatisfiable, so the [[coNP|NBSD5FG7NY]]-complete problem of unsatisfiability is in P.
+- If $g$ is automatizable and $g$ p-simulates $f$, then $f$ is weakly automatizable with $g$ as the output system.
+  The reason is that $s_g(\tau)$ is at most a polynomial in $s_f(\tau)$.
+- If $f$ is automatizable and setting variables to constants in an $f$-proof gives an $f$-proof that is not larger, then $f$ has [[feasible interpolation|59GJCM8C66]].
+  So every result against feasible interpolation for such a system is also a result against automatizability.
+- Width search gives time $n^{O(w(F) + \sqrt{n \log S(F \vdash \square)})}$ for general resolution, by the second part of the size-width relation.
+  The bound is subexponential when $S$ is polynomial and $w(F)$ is small, but it is not quasi-polynomial.
+
+### Watch out
+
+"Not automatizable" does not mean "has no short proofs".
+The notion is about finding proofs, and it compares the time with the shortest proof that exists.
+If the time were measured against the formula alone, no system with a superpolynomial lower bound could be automatizable, and resolution has one by [[Haken's theorem|4PCEYEW3JG]].
+The Atserias-Müller theorem does not rule out weak automatizability of resolution, and that question is open.
 
 ### History
 
 Krajíček and Pudlák gave the first negative result in 1998, for extended Frege under the RSA assumption.
-Alekhnovich and Razborov showed that resolution is not automatizable unless FPT = W[P].
-In 2019 Mertz, Pitassi and Wei showed that it is not automatizable in time $n^{(\log \log n)^{0.14}}$, unless the [[exponential time hypothesis|5ZRQC3DG7W]] fails.
-Atserias and Müller showed in 2019 that resolution is not automatizable unless P = NP.
+Alekhnovich and Razborov then showed that resolution is not automatizable unless W[P] collapses to FPT.
+Atserias and Müller proved in 2019 that resolution is not automatizable unless P = NP, with the journal version in 2020.
 
-### Common errors
+### Try it
 
-- To read "not automatizable" as "has no short proofs". The notion is about finding proofs, and it compares the time with the shortest proof.
-- To measure the time against the formula alone. Then no system with superpolynomial lower bounds, such as resolution by [[Haken's theorem|4PCEYEW3JG]], could be automatizable.
-- To think that the Atserias-Müller theorem rules out weak automatizability of resolution. That question is open.
+First, for the two clauses $x$ and $\neg x$, how many clauses does the width search output, and with which width bound?
+It outputs $3$ clauses, $x$, $\neg x$ and $\square$, already with $w = 1$.
+
+Second, why does an automating algorithm for a polynomially bounded system decide unsatisfiability?
+On a satisfiable CNF no refutation exists, so no checked output can appear, while on an unsatisfiable CNF a checked refutation appears within the time bound.
 
 ## Explanations
 
@@ -77,18 +98,20 @@ Atserias and Müller showed in 2019 that resolution is not automatizable unless 
 
 A proof system says what counts as a proof.
 Some formulas have short proofs, but a short proof may still be hard to find.
-A system is automatizable if a computer can always find a proof that is not much longer than the shortest one, in time not much longer than that.
+A system is automatizable if a computer can always find a proof not much longer than the shortest one, in time not much longer than that.
 
 ### L2 human
 
-We automate resolution on formulas of small width.
+We automate resolution on formulas whose refutations are narrow.
 
-1. List all clauses of width at most $w$ over the $n$ variables. There are at most $(2n + 1)^w$ of them.
+1. List all clauses of width at most $w$ over the $n$ variables.
+   There are at most $(2n + 1)^w$ of them.
 2. Start with the clauses of the formula, and add every resolvent of width at most $w$ of two clauses found so far.
 3. Stop when the empty clause appears, or when no new clause appears.
-4. The time is $n^{O(w)}$, and the empty clause appears exactly when a refutation of width at most $w$ exists.
+4. The time is $n^{O(w)}$ up to a factor polynomial in the formula.
+   The empty clause appears exactly when a refutation of width at most $w$ exists.
 
-The typical use is to find refutations of formulas whose least width is small, for example bounded by a constant.
+The typical use is to find refutations of formulas whose least width is bounded by a constant.
 A trap is to think that this automates resolution in general.
 Some formulas have refutations of polynomial size whose least width grows like a power of $n$, and for them the bound $n^{O(w)}$ is not polynomial.
 
@@ -99,6 +122,6 @@ Negative results come in three kinds.
 Some use cryptographic assumptions, through [[feasible interpolation|59GJCM8C66]].
 Some use assumptions from parameterized complexity.
 The newest use NP-hardness, as in the [[Atserias-Müller theorem|W7FP9TZMVP]].
-The NP-hardness results reduce [[SAT|3QKF32ZAKN]] to the problem of finding short proofs, using formulas that say "this CNF has a refutation of length $s$".
+These reduce [[SAT|3QKF32ZAKN]] to the problem of finding short proofs, using formulas that say "this CNF has a refutation with $s$ lines".
 Weak automatizability of resolution is open.
 For the wider setting see [[Theory of computation|52TNMMSXD3]].

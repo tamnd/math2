@@ -19,52 +19,67 @@ history:
 
 ## Statement
 
+A resolution refutation with $L$ clauses of two CNFs that share variables $p$ gives a circuit with at most $4L$ gates that names, for each value of $p$, a CNF that fails.
+
 Let $p$, $q$ and $r$ be disjoint lists of variables.
-Let $A(p, q)$ be a CNF whose variables are among $p, q$, and let $B(p, r)$ be a CNF whose variables are among $p, r$.
-For a $0$-$1$ assignment $a$ of $p$, write $A(a, q)$ and $B(a, r)$ for the CNFs obtained by substituting $a$ for $p$.
+Let $A(p, q)$ be a CNF whose variables are among $p, q$, and $B(p, r)$ a CNF whose variables are among $p, r$.
+For a $0$-$1$ assignment $a$ of $p$, write $A(a, q)$ and $B(a, r)$ for the results of substituting $a$ for $p$.
 Let $\pi$ be a [[resolution refutation|6JSH907W5R]] of $A \wedge B$ with $L$ clauses.
 
 **Theorem (Krajíček).**
 
-1. There is a [[Boolean circuit|SQXNFGVADX]] $I(p)$ with AND, OR and NOT gates and at most $4L$ gates such that, for every $0$-$1$ assignment $a$ of $p$:
-   - if $I(a) = 0$, then $A(a, q)$ is unsatisfiable;
-   - if $I(a) = 1$, then $B(a, r)$ is unsatisfiable.
+1. There is a [[Boolean circuit|SQXNFGVADX]] $I(p)$ with AND, OR and NOT gates and at most $4L$ gates such that, for every $0$-$1$ assignment $a$ of $p$, $I(a) = 0$ implies that $A(a, q)$ is unsatisfiable, and $I(a) = 1$ implies that $B(a, r)$ is unsatisfiable.
 2. If no variable of $p$ occurs negatively in $A$, then there is such a circuit with AND and OR gates only, and at most $4L$ gates.
 3. In both cases the circuit can be computed from $\pi$ in time polynomial in the size of $\pi$.
 
 So resolution has [[feasible interpolation|59GJCM8C66]] and monotone feasible interpolation.
-The measure is the number $L$ of clauses of $\pi$, and the bound on the circuit is in gates.
+The measure of the refutation is its number $L$ of clauses, and the measure of the circuit is its number of gates.
 
 ## Remarks
 
+### A small case
+
+For $A = \{q, \ \neg q \vee p\}$ and $B = \{\neg p \vee r, \ \neg r\}$, the refutation that derives $p$, then $\neg p$, then the empty clause has $L = 7$ clauses.
+The construction labels the clauses of $A$ with $0$, the clauses of $B$ with $1$, takes OR at the pivot $q$ and AND at the pivot $r$.
+At the pivot $p$ it outputs $(p \wedge 1) \vee (\neg p \wedge 0) = p$.
+[[An interpolant from a refutation of seven clauses|KH4T0G84TD]] checks every step, and the circuit $p$ is far below the bound $4L = 28$.
+
 ### Why each hypothesis is needed
 
-- **The private variables are disjoint.** Let $y$ occur in both $A = \set{y}$ and $B = \set{\neg y}$, with $p$ empty. A refutation has $3$ clauses. A circuit in no variables is a constant. The constant $0$ would claim that $A$ is unsatisfiable, and the constant $1$ that $B$ is, and both claims are false.
-- **The sign condition in part 2.** Let $A = \set{\neg p}$ and $B = \set{p}$, so $p$ occurs negatively in $A$. At $a = 1$, $B(1)$ is satisfied, so $I(1) = 0$. At $a = 0$, $A(0)$ is satisfied, so $I(0) = 1$. So $I = \neg p$, and no monotone circuit computes it.
-- **The proof system.** For [[extended Frege|5YSE04SHFH]] in place of resolution, Krajíček and Pudlák showed that no polynomial bound holds unless RSA can be broken by circuits of polynomial size.
+The private variables must be disjoint.
+Let $y$ occur in both $A = \{y\}$ and $B = \{\neg y\}$, with $p$ empty, so a refutation has $3$ clauses.
+A circuit with no inputs is a constant, the constant $0$ would claim that $A$ fails, the constant $1$ that $B$ fails, and both claims are false.
 
-### Consequences
+Part 2 needs the sign condition.
+Let $A = \{\neg p\}$ and $B = \{p\}$, so that $p$ occurs negatively in $A$.
+At $a = 1$ the set $B$ holds, so $I(1) = 0$, and at $a = 0$ the set $A$ holds, so $I(0) = 1$.
+So $I = \neg p$, and no monotone circuit computes it.
 
-- **Lower bounds from monotone circuits.** Every monotone circuit lower bound for a function that separates the sets of the two sides gives a lower bound on $L$. For the clique-colouring formulas this gives length $2^{\Omega((n / \log n)^{1/3})}$: see [[Monotone interpolation and the clique-colouring formulas|F8GJ402PH2]].
-- **An interpolant of linear size.** Every short resolution refutation gives a Craig interpolant of linear size in $L$, in contrast with the general bound of [[Craig's theorem|TRS2HY57EG]].
+The proof system matters.
+For [[extended Frege|5YSE04SHFH]], Krajíček and Pudlák showed in 1998 that no polynomial bound of this kind holds if RSA is secure against circuits of polynomial size.
 
-### Converse
+### What it gives you
 
-The converse is false.
+Every monotone circuit lower bound for a function that separates the two sides gives a lower bound on $L$.
+For the clique-coloring formulas this gives $2^{\Omega((n / \log n)^{1/3})}$ clauses: see [[monotone interpolation and the clique-coloring formulas|F8GJ402PH2]].
+The theorem also gives, from every resolution refutation, a Craig interpolant computed by a circuit of size linear in $L$.
+The general proof of [[Craig's theorem|TRS2HY57EG]] gives no such bound.
+
+### The converse is false
+
 A small interpolating circuit does not give a short refutation.
 Let $A$ be the [[pigeonhole formula|RJ571F7FF0]] $\mathrm{PHP}^{n+1}_n$, with $p$ and $r$ empty and $B$ the empty CNF.
-The constant $0$ is an interpolating circuit with one gate.
-But every resolution refutation of $A \wedge B$ has $2^{\Omega(n)}$ clauses, by [[Haken's theorem|4PCEYEW3JG]].
+The constant $0$ is an interpolating circuit, since $A$ is unsatisfiable.
+But every resolution refutation of $A$ has $2^{\Omega(n)}$ clauses, by [[Haken's theorem|4PCEYEW3JG]].
 
 ### Generalizations
 
-- **Cutting planes.** Pudlák proved a form for the [[cutting-planes system|KKCX2HQP2K]] with monotone real circuits, used in [[Pudlák's lower bound|5RYPXFF0G2]].
-- **Craig's theorem.** The theorem is a version of Craig interpolation with a bound on the size of the interpolant in terms of a proof.
+Pudlák proved a form for [[cutting planes|KKCX2HQP2K]] with monotone real circuits, and used it for [[his lower bound|5RYPXFF0G2]].
+The theorem is a version of Craig interpolation with the size of the interpolant bounded by the size of a refutation.
 
 ## History
 
-Krajíček proved the theorem in a paper published in 1997, which introduced feasible interpolation.
-The proof page gives a proof by induction along the refutation, with one circuit for each clause.
+Krajíček proved the theorem in a paper published in 1997 in the Journal of Symbolic Logic, which introduced feasible interpolation.
 
 ## Explanations
 
@@ -77,19 +92,17 @@ The machine has at most four parts for each line of the proof.
 
 ### L2 human
 
-The circuit has one node for each clause of the refutation.
-
-1. A clause of $A$ gets the constant $0$, and a clause of $B$ gets the constant $1$.
-2. A step on a variable of $q$ gets an OR of the two premises, and a step on a variable of $r$ gets an AND.
-3. A step on a variable $x$ of $p$ gets "if $x$ then the node of the premise with $\neg x$, else the node of the premise with $x$".
-4. The node of the empty clause is the output.
-
+The circuit has one node for each clause of the refutation, built from the premises.
+A clause of $A$ gets the constant $0$, and a clause of $B$ gets the constant $1$.
+A step on a variable of $q$ gets an OR of its two premises, and a step on a variable of $r$ gets an AND.
+A step on a variable $x$ of $p$ gets the node of the premise with $\neg x$ when $x = 1$, and the node of the premise with $x$ when $x = 0$.
+The node of the empty clause is the output.
 The typical use is a lower bound: if every interpolating circuit is large, the refutation is long.
-A trap is to apply the monotone form when variables of $p$ occur negatively in $A$.
+Watch out: the monotone form needs that no variable of $p$ occurs negatively in $A$.
 
 ### L3 human
 
-The theorem reduces lower bounds for resolution to lower bounds for circuits, and in the monotone case those lower bounds are known.
-It also shows that resolution cannot prove the disjointness of a pair of sets in polynomial size unless a polynomial-size circuit separates them.
-The same pattern holds for [[cutting planes|KKCX2HQP2K]], with real circuits in place of Boolean circuits.
+The theorem reduces lower bounds for resolution to lower bounds for circuits, and in the monotone case those circuit bounds are known.
+It also shows that resolution cannot prove in polynomial size that two NP sets are disjoint, unless a circuit of polynomial size separates them.
+The same pattern holds for cutting planes, with real circuits in place of Boolean circuits.
 For strong systems the pattern fails under cryptographic assumptions, which links interpolation with [[automatizability|WBECDG163W]].

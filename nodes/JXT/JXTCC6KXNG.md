@@ -17,37 +17,62 @@ sources:
 
 ## Example
 
-Let $G = (V, E)$ be a finite connected graph, and let $\chi \colon V \to \set{0, 1}$ be a *charge* on its vertices.
+Take the triangle on the vertices $1, 2, 3$, put a charge $1$ on vertex $1$ and $0$ on the others, and ask for $0/1$ values on the edges whose sum at each vertex is its charge modulo $2$.
+Let $a = x_{12}$, $b = x_{13}$ and $c = x_{23}$.
+The three parity constraints, each written as two clauses, give six clauses.
+
+- Vertex $1$, $a \oplus b = 1$: $\{a, b\}$ and $\{\neg a, \neg b\}$.
+- Vertex $2$, $a \oplus c = 0$: $\{\neg a, c\}$ and $\{a, \neg c\}$.
+- Vertex $3$, $b \oplus c = 0$: $\{\neg b, c\}$ and $\{b, \neg c\}$.
+
+The charges add up to $1$, an odd number, so no assignment satisfies all six clauses.
+Indeed, adding the three equations modulo $2$ gives $2a + 2b + 2c = 0$ on the left and $1$ on the right.
+
+In general, let $G = (V, E)$ be a finite connected graph, and let $\chi \colon V \to \{0, 1\}$ be a *charge* on its vertices.
 Take one variable $x_e$ for each edge $e$.
-For a vertex $v$, the *parity constraint* $\mathrm{PAR}_v$ says
-$$\bigoplus_{e \ni v} x_e = \chi(v),$$
-the sum modulo $2$ over the edges at $v$.
+For a vertex $v$, the *parity constraint* $\mathrm{PAR}_v$ says that the sum modulo $2$ of the $x_e$ over the edges $e$ at $v$ is $\chi(v)$.
 Write $\mathrm{PAR}_v$ as a [[CNF|0B3D4C8YF2]]: for each assignment to the edges at $v$ with the wrong parity, add the clause that excludes it.
 For a vertex of degree $d$, this gives $2^{d-1}$ clauses of width $d$.
 The *Tseitin formula* $T(G, \chi)$ is the union of these CNFs over all $v \in V$.
 
 **Fact.** $T(G, \chi)$ is unsatisfiable if and only if $\sum_{v \in V} \chi(v)$ is odd.
 
-1. Add all the constraints modulo $2$. Each edge has two ends, so each $x_e$ occurs twice, and the left sides add up to $0$.
-2. So a satisfying assignment gives $\sum_v \chi(v) \equiv 0 \pmod 2$. If the sum is odd, no assignment exists.
-3. If the sum is even, choose a spanning tree of $G$, set the edges outside the tree to $0$, and fix the tree edges from the leaves inward. Each leaf edge is forced by its leaf, and the last vertex is right because the total sum is even.
-
-*A small case.* Let $G$ be the triangle on the vertices $1, 2, 3$ with charge $\chi = (1, 0, 0)$, and let $a = x_{12}$, $b = x_{13}$, $c = x_{23}$.
-Then $T(G, \chi)$ has six clauses.
-
-- Vertex $1$, $a \oplus b = 1$: $\set{a, b}$ and $\set{\neg a, \neg b}$.
-- Vertex $2$, $a \oplus c = 0$: $\set{\neg a, c}$ and $\set{a, \neg c}$.
-- Vertex $3$, $b \oplus c = 0$: $\set{\neg b, c}$ and $\set{b, \neg c}$.
-
-The charges add up to $1$, so the formula is unsatisfiable.
+1. Add all the constraints modulo $2$.
+   Each edge has two ends, so each $x_e$ occurs twice, and the left sides add up to $0$.
+2. So a satisfying assignment gives $\sum_v \chi(v) \equiv 0 \pmod 2$.
+   If the sum is odd, no assignment exists.
+3. If the sum is even, choose a spanning tree of $G$, set the edges outside the tree to $0$, and fix the tree edges from the leaves inward.
+   Each leaf edge is forced by its leaf, and the last vertex is right because the total sum is even.
 
 ## Remarks
 
-- *Resolution.* On a family of bounded-degree [[expander graphs|BBR7QAD87Y]], every [[resolution refutation|6JSH907W5R]] of $T(G, \chi)$ with odd total charge has size $2^{\Omega(\abs{V})}$. This is [[Urquhart's theorem|HF1GHVRDSD]]. Tseitin had proved lower bounds for regular resolution in 1968.
-- *Frege and extended Frege.* These formulas have polynomial-size [[Frege|J2BAR09TPF]] proofs. The proof adds the parity constraints by Gaussian elimination over $\mathbb F_2$, with formulas for the parity of many variables.
-- *Polynomial calculus over $\mathbb F_2$.* Each $\mathrm{PAR}_v$ becomes a linear equation over $\mathbb F_2$, and the sum of all of them is $1 = 0$. So the [[polynomial calculus|ZERBQSTZB5]] over $\mathbb F_2$ refutes $T(G, \chi)$ in polynomial size, with degree at most the largest degree of $G$. Over fields of other characteristic, the degree must be large on expanders.
-- *Cutting planes.* Dadush and Tiwari gave quasi-polynomial-size [[cutting planes|KKCX2HQP2K]] refutations of the Tseitin formulas in 2020.
-- *Bounded degree.* For a $d$-regular graph, $T(G, \chi)$ has width $d$, so the [[size-width relation|GWDGRPAQSM]] applies with $w(F) = d$.
+### The proof systems
+
+On a family of bounded-degree [[expander graphs|BBR7QAD87Y]], every [[resolution refutation|6JSH907W5R]] of $T(G, \chi)$ with odd total charge has size $2^{\Omega(\lvert V \rvert)}$ in clauses.
+This is [[Urquhart's theorem|HF1GHVRDSD]] of 1987, and its modern proof bounds the width first.
+The formulas have polynomial-size [[Frege|J2BAR09TPF]] proofs, which add the parity constraints by Gaussian elimination over $\mathbb F_2$, with formulas for the parity of many variables.
+In the [[polynomial calculus|ZERBQSTZB5]] over $\mathbb F_2$, each $\mathrm{PAR}_v$ gives a linear equation, and the sum of all of them is $1 = 0$.
+So that system refutes $T(G, \chi)$ in polynomial size, with degree at most the largest degree of $G$.
+Over fields of characteristic other than $2$, the degree must be large on expanders.
+Dadush and Tiwari gave quasi-polynomial-size [[cutting planes|KKCX2HQP2K]] refutations of the Tseitin formulas in 2020.
+
+### Why the degree is bounded
+
+For a $d$-regular graph, $T(G, \chi)$ has $2^{d-1} \lvert V \rvert$ clauses of width $d$.
+So the input is of polynomial size only when $d$ is bounded, and then the [[size-width relation|GWDGRPAQSM]] applies with $w(F) = d$.
+
+### Watch out
+
+Up to replacing some variables $x_e$ by $\neg x_e$, the formula depends on the charge only through the parity of its total.
+Changing the charge on two vertices $u$ and $v$ gives the formula that we get by this replacement for the edges of a path from $u$ to $v$.
+So hardness is a property of the graph, and the graphs that make resolution fail are the well-connected ones.
+On a cycle the refutation follows the cycle and stays small.
+
+### History
+
+Grigori Tseitin introduced these formulas in 1968, in his work on the complexity of derivations in propositional calculus.
+He proved exponential lower bounds for regular resolution on them.
+Alasdair Urquhart extended the bound to general resolution in 1987.
 
 ## Explanations
 
@@ -56,19 +81,19 @@ The charges add up to $1$, so the formula is unsatisfiable.
 Put a number $0$ or $1$ on each vertex of a network, and ask for a choice of $0$ or $1$ on each link.
 The rule is that the links at each vertex add up to its number, counted modulo $2$.
 If the vertex numbers add up to an odd number, this is impossible, because every link is counted at both of its ends.
-Resolution cannot see this simple parity argument when the network is well connected, and it needs exponentially many steps.
+Resolution cannot see this short parity argument when the network is well connected, and it needs exponentially many steps.
 
 ### L2 human
 
 We refute the triangle case by resolution.
 
-1. From $\set{a, b}$ and $\set{\neg b, c}$, resolve on $b$: $\set{a, c}$.
-2. From $\set{a, c}$ and $\set{a, \neg c}$, resolve on $c$: $\set{a}$.
-3. From $\set{\neg a, \neg b}$ and $\set{b, \neg c}$, resolve on $b$: $\set{\neg a, \neg c}$.
-4. From $\set{\neg a, \neg c}$ and $\set{\neg a, c}$, resolve on $c$: $\set{\neg a}$.
-5. From $\set{a}$ and $\set{\neg a}$, resolve on $a$: $\square$.
+1. From $\{a, b\}$ and $\{\neg b, c\}$, resolve on $b$: $\{a, c\}$.
+2. From $\{a, c\}$ and $\{a, \neg c\}$, resolve on $c$: $\{a\}$.
+3. From $\{\neg a, \neg b\}$ and $\{b, \neg c\}$, resolve on $b$: $\{\neg a, \neg c\}$.
+4. From $\{\neg a, \neg c\}$ and $\{\neg a, c\}$, resolve on $c$: $\{\neg a\}$.
+5. From $\{a\}$ and $\{\neg a\}$, resolve on $a$: $\square$.
 
-This refutation has width $2$, since the triangle is small.
+The refutation uses all six axioms and has $11$ clauses and width $2$.
 On expanders the width must grow with the number of vertices.
 The typical use of the formulas is as a test: a proof system that can count modulo $2$ refutes them easily.
 A trap: the number of clauses is exponential in the degree, so the graphs must have bounded degree.

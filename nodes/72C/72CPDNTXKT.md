@@ -18,26 +18,37 @@ sources:
 
 ## Example
 
-Define $g$ on strings $w = \tau \# a$, where $\tau$ is a formula and $a$ is an assignment to its variables.
+Take the formula $p \land q$ and the assignment $p = 1$, $q = 1$.
+The assignment makes the formula true, and you can check that in one evaluation.
+So the pair is short, fast evidence, but it is evidence that $p \land q$ *can* be true, and $p \land q$ is not a tautology.
+
+Turn this into a map $g$ on strings $w = \tau \# a$, where $\tau$ is a formula and $a$ is an assignment to its variables.
 
 1. If $a$ makes $\tau$ true, then $g(w) = \tau$.
 2. In every other case, $g(w) = p \lor \neg p$.
 
-The function $g$ is computable in polynomial time, since one evaluation of $\tau$ under $a$ is fast.
-Every tautology is a value of $g$, since every assignment makes a tautology true.
+We check the conditions of a [[propositional proof system|3V24CYWDT6]] one by one.
 
-But $g$ is not a [[propositional proof system|3V24CYWDT6]].
-The formula $p$ is not a [[tautology|05006AJ7DZ]], and $g(p \# (p = 1)) = p$.
-So the image of $g$ contains a formula outside $\mathrm{TAUT}$, and soundness fails.
+1. *Polynomial time holds.*
+   One evaluation of $\tau$ under $a$ takes time polynomial in $\lvert w \rvert$.
+2. *Completeness holds.*
+   A [[tautology|05006AJ7DZ]] $\tau$ is true under every assignment, so $g(\tau \# a) = \tau$ for any $a$.
+3. *Soundness fails.*
+   The formula $p$ is not a tautology, and $g(p \# (p = 1)) = p$.
+   So the image of $g$ contains a formula outside $\mathrm{TAUT}$.
 
-The image of $g$ is the set of all satisfiable formulas.
-So $g$ is a proof system for the language $\mathrm{SAT}$ of the [[satisfiability problem|3QKF32ZAKN]], in the general sense of a polynomial-time map onto a language.
+The image of $g$ is exactly the set of satisfiable formulas.
+So $g$ is a proof system for the language $\mathrm{SAT}$ of the [[satisfiability problem|3QKF32ZAKN]], in the general sense of a polynomial-time map onto a language, but not for $\mathrm{TAUT}$.
 
 ## Remarks
 
-One assignment shows that a formula is satisfiable, and it says nothing about the other assignments.
-A tautology needs evidence about all $2^n$ assignments at once, and the [[truth-table proof system|67MYPBSHCJ]] writes such evidence in full.
-Short evidence of this kind for every tautology exists if and only if $\mathrm{NP} = \mathrm{coNP}$, by the [[Cook-Reckhow theorem|YS1T29B00B]].
+One assignment shows that one row of the truth table is true, and it says nothing about the other rows.
+A tautology needs evidence about all $2^n$ rows at once, and the [[truth-table proof system|67MYPBSHCJ]] writes such evidence in full.
+Short evidence of that kind for every tautology exists if and only if $\mathrm{NP} = \mathrm{coNP}$, by the [[Cook-Reckhow theorem|YS1T29B00B]].
+
+What changes if you ask for every assignment instead of one?
+Then $w$ must list all $2^n$ assignments, soundness holds, and you get the truth-table system back, with its exponential size.
+Watch out: polynomial time and completeness both hold for $g$, so a check of only those two conditions would wrongly accept it.
 
 ## Explanations
 
@@ -45,15 +56,17 @@ Short evidence of this kind for every tautology exists if and only if $\mathrm{N
 
 To show that a formula can be true, it is enough to give one way of making it true.
 To show that a formula is always true, one way is not enough.
-For example, $p \land q$ is true when $p$ and $q$ are both true, but it is false when $p$ is false, so it is not a tautology.
+For example, "$p$ and $q$" is true when $p$ and $q$ are both true, but it is false when $p$ is false.
 
 ### L2 human
 
-We test $g$ on two inputs.
+We run $g$ on two inputs.
 
-1. $w_1 = (p \lor \neg p) \# (p = 0)$. The assignment makes $p \lor \neg p$ true, so $g(w_1) = p \lor \neg p$, a tautology.
-2. $w_2 = (p \land q) \# (p = 1, q = 1)$. The assignment makes $p \land q$ true, so $g(w_2) = p \land q$.
-3. $p \land q$ is false at $p = 0$, so $g(w_2)$ is not a tautology.
+1. Let $w_1 = (p \lor \neg p) \# (p = 0)$.
+   The assignment makes $p \lor \neg p$ true, so $g(w_1) = p \lor \neg p$, a tautology.
+2. Let $w_2 = (p \land q) \# (p = 1, q = 1)$.
+   The assignment makes $p \land q$ true, so $g(w_2) = p \land q$.
+3. The formula $p \land q$ is false at $p = 0$, so $g(w_2)$ is not a tautology.
 
-The typical use of the example is to show why soundness is part of the definition.
-A trap: completeness and polynomial time hold for $g$, and only soundness fails.
+So one bad output is enough to break soundness.
+The typical use of the example is to show why the definition asks for the image to be exactly $\mathrm{TAUT}$.

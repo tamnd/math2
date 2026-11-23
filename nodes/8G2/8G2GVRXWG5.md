@@ -15,46 +15,77 @@ sources:
 
 ## Statement
 
-For every $\Pi^1_1$ sentence $\sigma$ of $L_2$: if [[WKL0|K5YPW1NTHZ]] proves $\sigma$, then [[RCA0|DNXCKXZZ08]] proves $\sigma$.
+Weak König's lemma lets us prove many new theorems of analysis, but it never lets us prove a new statement of the form "for every set $X$, an arithmetical property of $X$ holds".
 
-A $\Pi^1_1$ sentence has the form $\forall X\, \theta(X)$ with $\theta$ arithmetical, that is, without set quantifiers.
-In particular, $\mathsf{WKL}_0$ is a [[conservative extension|N238J43XNE]] of $\mathsf{RCA}_0$ for arithmetic sentences.
+A sentence of $L_2$ is $\Pi^1_1$ when it has the form $\forall X\, \theta(X)$ with $\theta$ arithmetical, that is, with no set quantifiers.
+
+**Theorem.** For every $\Pi^1_1$ sentence $\sigma$ of $L_2$, if [[WKL0|K5YPW1NTHZ]] proves $\sigma$, then [[RCA0|DNXCKXZZ08]] proves $\sigma$.
+
+In particular, $\mathsf{WKL}_0$ is a [[conservative extension|N238J43XNE]] of $\mathsf{RCA}_0$ for arithmetical sentences.
 
 ## Remarks
 
-### Why each hypothesis is needed
+### Why the class of sentences matters
 
-- The class $\Pi^1_1$ cannot be replaced by $\Pi^1_2$. Weak König's lemma itself is a $\Pi^1_2$ sentence, $\mathsf{WKL}_0$ proves it, and $\mathsf{RCA}_0$ does not.
+The class $\Pi^1_1$ cannot be replaced by $\Pi^1_2$.
+Weak König's lemma is itself a $\Pi^1_2$ sentence, "for every tree $T$ there is a path $f$", and $\mathsf{WKL}_0$ proves it.
+But $\mathsf{RCA}_0$ does not prove it, because it fails in the $\omega$-model of the computable sets, where the separation tree has no path.
+So conservation stops exactly at the level of the new axiom.
 
-### Consequences
+### What it gives you
 
-- $\mathsf{WKL}_0$ and $\mathsf{RCA}_0$ prove the same arithmetic sentences, so the first-order part of $\mathsf{WKL}_0$ is $\mathrm{I}\Sigma_1$.
-- $\mathsf{WKL}_0$ is consistent if $\mathsf{RCA}_0$ is: an inconsistency would give a proof of the $\Pi^1_1$ sentence $0 = 1$ in $\mathsf{WKL}_0$.
-- With Parsons's theorem, $\mathsf{WKL}_0$ is [[Π⁰₂-conservative over primitive recursive arithmetic|V609D9SZ05]].
+The arithmetical theorems of $\mathsf{WKL}_0$ are those of $\mathsf{RCA}_0$, and both have the first-order part $\mathrm{I}\Sigma_1$.
+For example, suppose that a proof in $\mathsf{WKL}_0$ uses the maximum of a continuous function on $[0, 1]$ to show that some equation has a solution in natural numbers.
+The theorem says that a proof in $\mathsf{RCA}_0$ also exists, even though $\mathsf{RCA}_0$ cannot prove that the maximum exists.
 
-### Converse
+$\mathsf{WKL}_0$ is consistent if $\mathsf{RCA}_0$ is.
+The sentence $0 = 1$ is arithmetical, so a proof of it in $\mathsf{WKL}_0$ would give a proof of it in $\mathsf{RCA}_0$.
+Together with Parsons's theorem that $\mathrm{I}\Sigma_1$ is $\Pi^0_2$-conservative over primitive recursive arithmetic, the theorem gives that $\mathsf{WKL}_0$ is [[Π⁰₂-conservative over primitive recursive arithmetic|V609D9SZ05]].
 
-The converse is trivial: $\mathsf{WKL}_0$ contains $\mathsf{RCA}_0$, so it proves every theorem of $\mathsf{RCA}_0$.
+### The converse
 
-### Generalizations
+The converse holds at once: $\mathsf{WKL}_0$ contains $\mathsf{RCA}_0$, so it proves every theorem of $\mathsf{RCA}_0$.
+The interesting fact is that the inclusion of theorems is an equality for $\Pi^1_1$ sentences and strict for $\Pi^1_2$ sentences.
 
-The same method shows that $\mathsf{WKL}_0 + \Sigma^0_n$ induction is $\Pi^1_1$-conservative over $\mathsf{RCA}_0 + \Sigma^0_n$ induction, for each $n \ge 1$.
-The theory $\mathsf{ACA}_0$ is not $\Pi^1_1$-conservative over $\mathsf{RCA}_0$, since it proves the consistency of $\mathrm{I}\Sigma_1$.
+### Generalizations and limits
+
+The same forcing argument shows that $\mathsf{WKL}_0$ plus $\Sigma^0_n$ induction is $\Pi^1_1$-conservative over $\mathsf{RCA}_0$ plus $\Sigma^0_n$ induction, for each $n \ge 1$.
+The next system up behaves differently.
+$\mathsf{ACA}_0$ is not $\Pi^1_1$-conservative over $\mathsf{RCA}_0$, because it proves the consistency of $\mathrm{I}\Sigma_1$, an arithmetical sentence that $\mathrm{I}\Sigma_1$ does not prove.
+
+### Watch out
+
+The theorem is about sentences with one universal set quantifier in front.
+A $\Pi^1_1$ sentence such as "every infinite binary tree $T$ has a node of length $5$" is covered.
+The sentence "every infinite binary tree has a path" begins with $\forall T\, \exists f$, so it is $\Pi^1_2$, and it is not covered.
+Count the set quantifiers before you apply the theorem.
 
 ## History
 
-The theorem is due to Leo Harrington, who proved it with a forcing argument; the result was not published by him and appears in the literature on $\mathsf{WKL}_0$.
+Leo Harrington proved the theorem by a forcing argument.
+He did not publish the proof himself.
+Stephen Simpson's book *Subsystems of Second Order Arithmetic* (1999, second edition 2009) presents it.
 
 ## Explanations
 
 ### L1 human
 
-Weak König's lemma lets one prove theorems about all sets more easily.
-But for a statement about numbers, or about all sets one at a time with no further set quantifiers, it adds nothing.
-Every such statement that $\mathsf{WKL}_0$ proves has a proof in the weaker system $\mathsf{RCA}_0$.
+Weak König's lemma lets us prove more theorems about infinite objects, such as the fact that a continuous function on $[0, 1]$ has a largest value.
+But for a statement about numbers, it adds nothing.
+Every such statement that $\mathsf{WKL}_0$ proves already has a proof in the weaker system $\mathsf{RCA}_0$.
+The extra principle is a convenience, not a source of new facts about numbers.
 
 ### L2 human
 
-The proof is by models: every countable model of $\mathsf{RCA}_0$ has more sets added to it so that it satisfies $\mathsf{WKL}_0$, with the same numbers.
-An arithmetic statement about a fixed set does not change when sets are added.
-A trap is to think that the added sets are definable in the old model: they are not, and the proof needs a model-theoretic construction.
+The [[proof|H5M7W75JCM]] uses models.
+Suppose that $\mathsf{RCA}_0$ does not prove $\forall X\, \theta(X)$.
+Then some countable model of $\mathsf{RCA}_0$ has a set $A$ with $\neg \theta(A)$.
+We add paths through trees to that model, keeping its numbers fixed, until weak König's lemma holds.
+The formula $\neg \theta(A)$ talks only about numbers and the old set $A$, so it is still true, and $\mathsf{WKL}_0$ does not prove $\forall X\, \theta(X)$ either.
+The trap is to think that the added sets are definable in the old model: they are not, and adding them while keeping $\Sigma^0_1$ induction is the hard step.
+
+### L3 human
+
+Conservation results of this kind are the backbone of [[partial realizations of Hilbert's program|Z26S516BKH]]: a theorem of $\mathsf{WKL}_0$ about numbers has a finitistic justification.
+Later proof-theoretic work turns every $\mathsf{WKL}_0$ proof of a $\Pi^1_1$ sentence directly into an $\mathsf{RCA}_0$ proof, without passing through models.
+The same question for [[Ramsey's theorem for pairs|ZT5KV6KJ3E]] is much harder, and its answer depends on the induction available in the base theory.

@@ -39,10 +39,14 @@ The measures are these.
 
 ## Remarks
 
+### Why degree 2 is needed
+
 The degree $2$ is the least possible.
 A refutation of degree $1$ cannot use the axiom $x_1 x_2$ or a Boolean axiom, since these have degree $2$.
 The other axioms $1 - x_1$ and $1 - x_2$ have the common zero $x_1 = x_2 = 1$, so by soundness they have no refutation.
 This agrees with Razborov's bound for $\mathrm{PHP}^m_n$, which for $n = 1$ gives degree at least $1/2 + 1$, so at least $2$.
+
+### The link with Nullstellensatz and resolution
 
 The same steps give the Nullstellensatz refutation $x_1 (1 - x_2) + x_1 x_2 + (1 - x_1) = 1$ of degree $2$.
 They follow the resolution refutation that resolves $\neg x_1 \vee \neg x_2$ with $x_2$ to get $\neg x_1$, and then $\neg x_1$ with $x_1$.
