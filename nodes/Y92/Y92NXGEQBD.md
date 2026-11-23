@@ -29,15 +29,11 @@ Equality of sets is defined: $X = Y$ abbreviates $\forall n \, (n \in X \leftrig
 
 *Second-order arithmetic* $\mathsf{Z}_2$ is the [[theory|92SWXST1ZM]] in $L_2$, with first-order logic for both sorts, whose axioms are the following.
 
-1. The basic axioms, the universal closures of the eight formulas below.
-2. The induction axiom, stated below.
-3. The comprehension scheme: for every formula $\varphi(n)$ of $L_2$ in which $X$ is not free, the universal closure of the formula below.
-
-The basic axioms are these, for numbers $m$ and $n$:
+The first group is the basic axioms, the universal closures of these eight formulas:
 $$\begin{gathered} n + 1 \ne 0, \qquad m + 1 = n + 1 \to m = n, \qquad m + 0 = m, \qquad m + (n + 1) = (m + n) + 1, \\ m \cdot 0 = 0, \qquad m \cdot (n + 1) = (m \cdot n) + m, \qquad \neg (m < 0), \qquad m < n + 1 \leftrightarrow (m < n \vee m = n). \end{gathered}$$
-The induction axiom is the single sentence
+The second is the induction axiom, a single sentence:
 $$\forall X \, \big( (0 \in X \wedge \forall n \, (n \in X \to n + 1 \in X)) \to \forall n \, (n \in X) \big).$$
-The comprehension instance for $\varphi$ is
+The third is the comprehension scheme: for every formula $\varphi(n)$ of $L_2$ in which $X$ is not free, the universal closure of
 $$\exists X \, \forall n \, \big( n \in X \leftrightarrow \varphi(n) \big).$$
 The formula $\varphi$ may have other free number and set variables, and these are the parameters of the instance.
 
