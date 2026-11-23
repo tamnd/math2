@@ -16,7 +16,7 @@ sources:
 
 ## Example
 
-The claim is: the sum of any three consecutive integers is divisible by $3$.
+The claim is that the sum of any three consecutive integers is divisible by $3$.
 A student makes a table.
 
 | Numbers | Sum | Sum divided by $3$ |
@@ -30,18 +30,21 @@ A student makes a table.
 The student writes: "It works every time, so it is true."
 We check whether the argument is a [[generic proof|SG9XA69J64]].
 
-1. Check the table: $6 = 3 \cdot 2$, $9 = 3 \cdot 3$, $12 = 3 \cdot 4$, $33 = 3 \cdot 11$, $153 = 3 \cdot 51$. Each entry is correct.
-2. Look for a step that holds for each case: there is none. Each row is a separate computation.
-3. Ask what the argument says about a case not in the table: nothing, except that the pattern has held so far.
+1. The table is correct: $6 = 3 \cdot 2$, $9 = 3 \cdot 3$, $12 = 3 \cdot 4$, $33 = 3 \cdot 11$ and $153 = 3 \cdot 51$.
+2. We look for a step that holds for every case, and there is none, because each row is a separate computation.
+3. We ask what the argument says about a case not in the table, and the answer is nothing, except that the pattern has held so far.
 
 So the argument is not a generic proof.
 It is a check of five cases, an empirical argument in the sense of [[proof schemes|YVNRVXJR68]].
 
 ## Remarks
 
-The table contains the reason, but the student does not see it: the last column is the middle number each time.
-A teacher can use this to turn the table into a generic proof, by asking "what do you notice about the last column?".
-Then the student can rewrite one row, such as $10 + 11 + 12 = (11 - 1) + 11 + (11 + 1) = 3 \cdot 11$.
+The table holds the reason, but the student does not see it: the last column is the middle number every time.
+A teacher can use this to turn the table into a generic proof, by asking "what do you notice about the last column?"
+Then the student can rewrite one row as
+$$10 + 11 + 12 = (11 - 1) + 11 + (11 + 1) = 3 \cdot 11,$$
+and say that the same cancellation works for any middle number.
+Adding more rows would not help, since five hundred checked cases leave the next case as open as five do.
 
 ## Explanations
 
@@ -53,9 +56,6 @@ A generic proof would show, in one case, a reason that works in every case.
 
 ### L2 human
 
-1. Ask whether any step of the argument works for all cases.
-2. Here each step is a computation of one sum.
-3. Conclude that the argument is a check of cases, not a generic proof.
-
-A trap is to count the number of cases.
-Five cases or five hundred cases make no difference: without a general reason, the argument is not a proof.
+To classify an argument, ask whether any of its steps works for all cases.
+Here every step is the computation of one sum, so the argument is a check of cases, not a generic proof.
+Watch out for judging by the number of cases: without a general reason, more rows do not make a proof.
