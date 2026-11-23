@@ -27,6 +27,8 @@ In a structure with domain $M$, the variable $X$ ranges over all subsets of $M$.
 By Dedekind's categoricity theorem, every structure that satisfies the second-order axioms is isomorphic to $\mathbb{N}$.
 We show that first-order [[Peano arithmetic|Z8YDBW2857]] has a model that is not isomorphic to $\mathbb{N}$, so the axiom and the schema differ.
 
+### A model that is not isomorphic to the standard one
+
 1. Add a new constant symbol $c$ to $L_A$, and let $T = \mathsf{PA} \cup \{ c \ne \overline{n} : n \in \mathbb{N} \}$.
 2. Let $T_0 \subseteq T$ be finite, and let $k$ be larger than every $n$ with $c \ne \overline{n}$ in $T_0$.
 3. The standard model $\mathfrak{N}$, with $c$ read as $k$, satisfies $T_0$, because it satisfies $\mathsf{PA}$ and $k \ne n$ for these $n$.
@@ -36,6 +38,9 @@ We show that first-order [[Peano arithmetic|Z8YDBW2857]] has a model that is not
    Then $h(n) = \overline{n}^{\mathfrak{M}}$ for every $n$, by induction on $n$, since $h$ preserves $0$ and $S$.
 7. So $h$ is onto only if every element of $M$ is the value of a numeral, and step 5 rules this out.
    Hence $\mathfrak{M}$ is not isomorphic to $\mathfrak{N}$.
+
+### Where the second-order axiom fails
+
 8. Let $A \subseteq M$ be the set of values of numerals.
    Then $0^{\mathfrak{M}} \in A$, and $A$ is closed under $S^{\mathfrak{M}}$, since $S^{\mathfrak{M}}(\overline{n}^{\mathfrak{M}}) = \overline{n + 1}^{\mathfrak{M}}$.
 9. But $A \ne M$, by step 5, so the second-order induction axiom fails in $\mathfrak{M}$ for $X = A$.
