@@ -1,5 +1,5 @@
 {"id":"6N11ZTCHGS","mentions":["m2://rec/levin_dmoi/ptx/sec_logic-proofs.ptx#proof-6#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"6N121HYRFN","mentions":["m2://rec/wikidata/Q3058218#1","wikipedia://en/43333"],"kind":"definition","name":"measurable space","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"6N121HYRFN","mentions":["m2://rec/wikidata/Q3058218#1","wikipedia://en/43333"],"kind":"concept","name":"measurable space","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"6N1NS4QHWR","mentions":["wikipedia://en/2082759#IJ5Y"],"kind":"statement","name":"Beck's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"6N1YVM1Q2Q","mentions":["wikipedia://en/24758520"],"kind":"definition","name":"Continuum","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"6N1ZFTPD8W","mentions":["m2://rec/open_logic/content/propositional-logic/syntax-and-semantics/formulas.tex#defn:formulas#1"],"kind":"definition","name":"Formula","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

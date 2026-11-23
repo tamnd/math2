@@ -1,5 +1,5 @@
 {"id":"X2P5XB3GCX","mentions":["m2://rec/wikidata/Q10260753#1"],"kind":"topic","name":"topological field","msc":["12Jxx"],"layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"X2P9TES2FQ","mentions":["m2://rec/wikidata/Q4493438#1"],"kind":"unknown","name":"Bourget function","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"X2P9TES2FQ","mentions":["m2://rec/wikidata/Q4493438#1"],"kind":"concept","name":"Bourget function","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"X2PEJKY3DP","mentions":["wikipedia://en/5558617#LB0P"],"kind":"statement","name":"Variants","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"X2PET93K1F","mentions":["m2://rec/open_logic/content/first-order-logic/tableaux/provability-quantifiers.tex#prop:provability-quantifiers#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"X2PQ2CS7KE","mentions":["wikipedia://en/60162"],"kind":"definition","name":"Tidal locking","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

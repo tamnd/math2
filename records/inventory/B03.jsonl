@@ -1,3 +1,3 @@
 {"id":"B03K6XAAVK","mentions":["wikipedia://en/33295435"],"kind":"definition","name":"Slater's condition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"B03RE0W6VT","mentions":["wikipedia://en/41375260#BOJW"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"B03WASTEND","mentions":["m2://rec/wikidata/Q99613675#1","wikipedia://en/79772291"],"kind":"definition","name":"double category","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"B03WASTEND","mentions":["m2://rec/wikidata/Q99613675#1","wikipedia://en/79772291"],"kind":"concept","name":"double category","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

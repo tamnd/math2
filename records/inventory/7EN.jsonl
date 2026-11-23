@@ -3,4 +3,4 @@
 {"id":"7EN93MQ52Y","mentions":["wikipedia://en/3336479#MLZQ"],"kind":"statement","name":"Binomial theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"7ENPHR258F","mentions":["wikipedia://en/62781#6G2F"],"kind":"statement","name":"Theorems","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"7ENZDS96WP","mentions":["m2://rec/open_logic/content/many-valued-logic/three-valued-logics/goedel.tex#defn:goedel#1"],"kind":"definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"7ENZQT5GKG","mentions":["m2://rec/wikidata/Q7208287#1","wikipedia://en/2147685"],"kind":"definition","name":"point process","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"7ENZQT5GKG","mentions":["m2://rec/wikidata/Q7208287#1","wikipedia://en/2147685"],"kind":"concept","name":"point process","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

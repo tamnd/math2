@@ -1,6 +1,6 @@
 {"id":"RY720XQ2BX","mentions":["wikipedia://en/7308284"],"kind":"definition","name":"Stopped process","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"RY76V2JJ1B","mentions":["wikipedia://en/191457#8M5G"],"kind":"definition","name":"Bayes error rate","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"RY7JX4W485","mentions":["m2://rec/wikidata/Q1657198#1","wikipedia://en/25911217"],"kind":"definition","name":"set function","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"RY7JX4W485","mentions":["m2://rec/wikidata/Q1657198#1","wikipedia://en/25911217"],"kind":"concept","name":"set function","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"RY7QN754SS","mentions":["wikipedia://en/25021971#W017"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"RY7X8WZ768","mentions":["wikipedia://en/11030945#3HSI"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"RY7Z576BT7","mentions":["wikipedia://en/50425977"],"kind":"definition","name":"Consecutive controlled case series","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

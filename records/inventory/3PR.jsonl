@@ -1,2 +1,2 @@
-{"id":"3PRG2E1FTB","mentions":["m2://rec/wikidata/Q19934355#1"],"kind":"unknown","name":"commutative monoid","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"3PRG2E1FTB","mentions":["m2://rec/wikidata/Q19934355#1"],"kind":"concept","name":"commutative monoid","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"3PRS1G732K","mentions":["wikipedia://en/35048260"],"kind":"definition","name":"Bott cannibalistic class","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

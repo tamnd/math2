@@ -1,2 +1,2 @@
 {"id":"5HSMJKCE9E","mentions":["wikipedia://en/37153897#CV25"],"kind":"definition","name":"Archimedean ordered field","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"5HSW7DNRV1","mentions":["m2://rec/wikidata/Q643749#1","wikipedia://en/367064"],"kind":"definition","name":"dragon curve","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"5HSW7DNRV1","mentions":["m2://rec/wikidata/Q643749#1","wikipedia://en/367064"],"kind":"concept","name":"dragon curve","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

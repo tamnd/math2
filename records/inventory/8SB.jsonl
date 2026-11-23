@@ -1,4 +1,4 @@
-{"id":"8SB630ZZV0","mentions":["m2://rec/wikidata/Q141665403#1"],"kind":"unknown","name":"edge-critical graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"8SB630ZZV0","mentions":["m2://rec/wikidata/Q141665403#1"],"kind":"concept","name":"edge-critical graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"8SB6F96HV0","mentions":["wikipedia://en/277087#V3AL"],"kind":"statement","name":"Elementary consequences of the root system axioms","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"8SB9WR8KRK","mentions":["wikipedia://en/191457#Z7IB"],"kind":"definition","name":"Confidence distribution","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"8SBSPB2APN","mentions":["wikipedia://en/482324"],"kind":"definition","name":"S-1 block cipher","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

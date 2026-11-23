@@ -1,4 +1,4 @@
 {"id":"71HMW6DRNY","mentions":["wikipedia://en/408108#7JOQ"],"kind":"definition","name":"Probabilistically checkable proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"71HPDCJ1H9","mentions":["wikipedia://en/485862#YMPD"],"kind":"unknown","name":"Full linear ring","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"71HVDC81E0","mentions":["wikipedia://en/772517#SGX8"],"kind":"unknown","name":"Tyranny of the rocket equation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"71HVDH2MXN","mentions":["m2://rec/wikidata/Q104217085#1"],"kind":"unknown","name":"standardized normal distribution","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"71HVDH2MXN","mentions":["m2://rec/wikidata/Q104217085#1"],"kind":"concept","name":"standardized normal distribution","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

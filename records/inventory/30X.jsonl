@@ -1,3 +1,3 @@
 {"id":"30X2T9RJ3P","mentions":["wikipedia://en/33580814#1FAY"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"30XJPPYSDT","mentions":["wikipedia://en/1557627"],"kind":"definition","name":"Cross-sectional study","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"30XPQS5JSJ","mentions":["m2://rec/wikidata/Q3527194#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"30XPQS5JSJ","mentions":["m2://rec/wikidata/Q3527194#1"],"kind":"statement","name":"L'Huilier’s theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

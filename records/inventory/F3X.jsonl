@@ -1,4 +1,4 @@
-{"id":"F3X71R5EM2","mentions":["m2://rec/wikidata/Q2416308#1"],"kind":"unknown","name":"Sousselier graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"F3X71R5EM2","mentions":["m2://rec/wikidata/Q2416308#1"],"kind":"concept","name":"Sousselier graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"F3X9PYMT0D","mentions":["wikipedia://en/542054"],"kind":"definition","name":"Coefficient of performance","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"F3XEA57DCA","mentions":["wikipedia://en/63209698#BFZQ"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"F3XHYKF4E5","mentions":["wikipedia://en/517370#BJFF"],"kind":"definition","name":"Dodecagram","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

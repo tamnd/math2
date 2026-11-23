@@ -1,3 +1,3 @@
-{"id":"S62CBJ8WNR","mentions":["m2://rec/wikidata/Q11408#1","wikipedia://en/36563"],"kind":"definition","name":"magnetic field","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"S62CBJ8WNR","mentions":["m2://rec/wikidata/Q11408#1","wikipedia://en/36563"],"kind":"concept","name":"magnetic field","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"S62RVDS2HF","mentions":["wikipedia://en/404009#IROH"],"kind":"unknown","name":"D'Hondt method","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"S62ZTXZ67Z","mentions":["wikipedia://en/1003410#P7N2"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

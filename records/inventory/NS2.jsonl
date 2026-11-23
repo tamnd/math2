@@ -1,5 +1,5 @@
 {"id":"NS22B13CVP","mentions":["wikipedia://en/42532877"],"kind":"definition","name":"Discrete-stable distribution","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"NS2BYVGXEV","mentions":["m2://rec/wikidata/Q119220531#1"],"kind":"unknown","name":"shortening knot","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"NS2BYVGXEV","mentions":["m2://rec/wikidata/Q119220531#1"],"kind":"concept","name":"shortening knot","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"NS2FBW40YJ","mentions":["wikipedia://en/191457#9A59"],"kind":"definition","name":"Generalized logistic distribution","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"NS2NSH99PQ","mentions":["wikipedia://en/310885"],"kind":"definition","name":"Dual","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"NS2PQRYK8V","mentions":["wikipedia://en/58097665"],"kind":"definition","name":"Nu-transform","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

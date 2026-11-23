@@ -1,5 +1,5 @@
 {"id":"S9N4FTRBMR","mentions":["wikipedia://en/38274557#6D2F","wikipedia://en/38274557#B7SX","wikipedia://en/38274557#YW4Q"],"kind":"unknown","name":"Ipsos","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"S9N4Z2WPE9","mentions":["m2://rec/wikidata/Q864333#1","wikipedia://en/297021"],"kind":"definition","name":"transcendental function","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"S9N4Z2WPE9","mentions":["m2://rec/wikidata/Q864333#1","wikipedia://en/297021"],"kind":"concept","name":"transcendental function","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"S9N6JZ00EK","mentions":["wikipedia://en/191457#8OY0"],"kind":"definition","name":"Hausman specification test","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"S9N7498P0V","mentions":["m2://rec/hott_book/hlevels.tex#thm-1#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"S9NAVJC8XB","mentions":["wikipedia://en/404404"],"kind":"topic","name":"I. J. Good","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

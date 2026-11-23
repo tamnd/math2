@@ -1,5 +1,5 @@
 {"id":"8370GT6E42","mentions":["wikipedia://en/191457#BCQ0"],"kind":"definition","name":"Percentile","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"837DYK9PEY","mentions":["wikipedia://en/8809962#J0IO"],"kind":"unknown","name":"Margarita Philosophica","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"837EG4K74P","mentions":["wikipedia://en/660973#HK5N"],"kind":"definition","name":"AdS/CFT correspondence","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"837ME04W0B","mentions":["m2://rec/lebl_scv/scv.tex#cor-7#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"837ME04W0B","mentions":["m2://rec/lebl_scv/scv.tex#cor-7#1"],"kind":"statement","layer":"textbook","spread":1,"outcome":{"value":"node","target":["24HMM111JF"],"reason":"a node names the record of the item in its sources (corpus spec K4.4)","rule":"textbook-node","by":"m2/dev"},"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"},{"op":"outcome","at":"2026-11-23","by":"m2/dev","note":"node 24HMM111JF"}]}
 {"id":"837TZ2TJB7","mentions":["wikipedia://en/1804457#4XOP"],"kind":"statement","name":"Theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

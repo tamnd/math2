@@ -1,4 +1,4 @@
-{"id":"86G6T0VTNJ","mentions":["m2://rec/wikidata/Q6901973#1","wikipedia://en/20740765"],"kind":"definition","name":"monostatic polytope","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"86G6T0VTNJ","mentions":["m2://rec/wikidata/Q6901973#1","wikipedia://en/20740765"],"kind":"concept","name":"monostatic polytope","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"86GHGAPMWK","mentions":["wikipedia://en/2388068#F3HV"],"kind":"unknown","name":"Bryce DeWitt","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"86GJ5MZZFX","mentions":["wikipedia://en/9481277"],"kind":"definition","name":"Control of chaos","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"86GTK945P5","mentions":["wikipedia://en/191457#ZUHI"],"kind":"definition","name":"Autoregressive fractionally integrated moving average","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

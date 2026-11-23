@@ -1,4 +1,4 @@
-{"id":"2J71TJ8CMF","mentions":["m2://rec/wikidata/Q5172855#1"],"kind":"unknown","name":"correlation integral","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"2J71TJ8CMF","mentions":["m2://rec/wikidata/Q5172855#1"],"kind":"concept","name":"correlation integral","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"2J741YZ6BX","mentions":["wikipedia://en/726335#OINW"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"2J7R1K4CC3","mentions":["wikipedia://en/1031713"],"kind":"definition","name":"Computer experiment","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"2J7VVNES1Y","mentions":["m2://rec/napkin/tex/alg-geom/localization.tex#example-6#1"],"kind":"example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

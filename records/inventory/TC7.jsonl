@@ -2,6 +2,6 @@
 {"id":"TC72TAEX79","mentions":["wikipedia://en/2191130#IZ34"],"kind":"example","name":"Use","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"TC79TN1W4R","mentions":["wikipedia://en/14836055"],"kind":"definition","name":"Compound of four hexagonal prisms","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"TC7ADQ3KRC","mentions":["wikipedia://en/51959005"],"kind":"definition","name":"Fast sweeping method","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"TC7EGYHY9H","mentions":["m2://rec/thousand_plus/Q1132952#1","m2://rec/wikidata/Q1132952#1","wikipedia://en/622844"],"kind":"definition","name":"homogeneous function","msc":["35-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"TC7EGYHY9H","mentions":["m2://rec/thousand_plus/Q1132952#1","m2://rec/wikidata/Q1132952#1","wikipedia://en/622844"],"kind":"concept","name":"homogeneous function","msc":["35-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"TC7H1DHR5C","mentions":["wikipedia://en/47565351#1JY8"],"kind":"unknown","name":"Four Lakes, Washington","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"TC7R1TCM9Z","mentions":["wikipedia://en/48136809"],"kind":"statement","name":"Petersen–Morley theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

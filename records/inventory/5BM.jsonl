@@ -1,3 +1,3 @@
-{"id":"5BM05NJCHF","mentions":["m2://rec/wikidata/Q16966154#1","wikipedia://en/22260858"],"kind":"definition","name":"symmetric set","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"5BM05NJCHF","mentions":["m2://rec/wikidata/Q16966154#1","wikipedia://en/22260858"],"kind":"concept","name":"symmetric set","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"5BMDS093TR","mentions":["m2://rec/wikidata/Q20826826#1"],"kind":"unknown","name":"Marginal probability","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"5BMSWWGMAB","mentions":["wikipedia://en/1062015#67FM"],"kind":"statement","name":"Gaunt's formula","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

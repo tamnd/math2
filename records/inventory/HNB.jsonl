@@ -1,4 +1,4 @@
-{"id":"HNB6X8PW00","mentions":["m2://rec/wikidata/Q1773982#1","wikipedia://en/3957200"],"kind":"definition","name":"Kleisli category","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"HNB6X8PW00","mentions":["m2://rec/wikidata/Q1773982#1","wikipedia://en/3957200"],"kind":"concept","name":"Kleisli category","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"HNBDPMTZSX","mentions":["wikipedia://en/191457#A7S8"],"kind":"definition","name":"Shapiro–Wilk test","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"HNBECY1J2P","mentions":["wikipedia://en/47738065#JANO"],"kind":"unknown","name":"Alexander Munro Davie","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"HNBF8H87PY","mentions":["wikipedia://en/2390225#8KCK"],"kind":"definition","name":"(∞, n)-category","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

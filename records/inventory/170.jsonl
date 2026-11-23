@@ -1,3 +1,3 @@
-{"id":"1703JVMENJ","mentions":["m2://rec/wikidata/Q124684067#1"],"kind":"unknown","name":"Fourier cosine transform","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"1703JVMENJ","mentions":["m2://rec/wikidata/Q124684067#1"],"kind":"concept","name":"Fourier cosine transform","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"170DJQMRDK","mentions":["m2://rec/napkin/tex/alg-NT/galois.tex#thm:Galois_splitting#1"],"kind":"statement","name":"Galois extensions are splitting","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"170W7NMS86","mentions":["wikipedia://en/216389#84RT"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

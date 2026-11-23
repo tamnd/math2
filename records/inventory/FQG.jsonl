@@ -1,4 +1,4 @@
-{"id":"FQG8QST58G","mentions":["m2://rec/wikidata/Q91314814#1"],"kind":"unknown","name":"L2 space","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"FQG8QST58G","mentions":["m2://rec/wikidata/Q91314814#1"],"kind":"concept","name":"L2 space","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"FQG902PZDS","mentions":["m2://rec/wikidata/Q959203#1","wikipedia://en/580252"],"kind":"object","name":"Reuleaux triangle","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"FQGJPT6V0A","mentions":["wikipedia://en/1241623"],"kind":"definition","name":"Boundary parallel","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"FQGVG58H6W","mentions":["wikipedia://en/75401253#04S8"],"kind":"statement","name":"Ginibre formula","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,5 +1,5 @@
 {"id":"7XH1C0AEV0","mentions":["wikipedia://en/4004632#OSOF"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"7XHBYPPXYD","mentions":["m2://rec/wikidata/Q140175744#1"],"kind":"unknown","name":"total function","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"7XHBYPPXYD","mentions":["m2://rec/wikidata/Q140175744#1"],"kind":"concept","name":"total function","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"7XHG8X1AH6","mentions":["wikipedia://en/915121#5OJZ"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"7XHN368ZX7","mentions":["m2://rec/hott_book/index/5.11/theory-algebraic#1"],"kind":"concept","name":"theory, algebraic","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"7XHR3TBGS1","mentions":["wikipedia://en/65309248"],"kind":"topic","name":"List of topologies","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

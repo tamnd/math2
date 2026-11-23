@@ -1,4 +1,4 @@
 {"id":"SKB9YFND87","mentions":["m2://rec/napkin/tex/alg-NT/pell.tex#ques-2#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"SKBAG51GHZ","mentions":["wikipedia://en/47738065#LPBI"],"kind":"topic","name":"Mihnea Popa","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"SKBM5WE5K2","mentions":["m2://rec/wikidata/Q1126603#1","wikipedia://en/9960"],"kind":"definition","name":"elliptic integral","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"SKBM5WE5K2","mentions":["m2://rec/wikidata/Q1126603#1","wikipedia://en/9960"],"kind":"concept","name":"elliptic integral","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"SKBZ3JTVB7","mentions":["wikipedia://en/1767634#2B98"],"kind":"statement","name":"Generalizations","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

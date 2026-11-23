@@ -1,5 +1,5 @@
 {"id":"H2V073HCMV","mentions":["wikipedia://en/3793084#GWTH"],"kind":"statement","name":"Naimark's dilation theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"H2V49EEQDK","mentions":["m2://rec/wikidata/Q2632009#1","wikipedia://en/1440776"],"kind":"object","name":"adiabatic invariant","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"H2V49EEQDK","mentions":["m2://rec/wikidata/Q2632009#1","wikipedia://en/1440776"],"kind":"concept","name":"adiabatic invariant","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"H2VHS25KF3","mentions":["wikipedia://en/56596473"],"kind":"topic","name":"Vlastimil Dlab","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"H2VJD7D81D","mentions":["wikipedia://en/26427866"],"kind":"definition","name":"Process variation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"H2VTWABTPA","mentions":["wikipedia://en/364996#NSVN"],"kind":"statement","name":"Macroscopic limit (Marchenko–Pastur law)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

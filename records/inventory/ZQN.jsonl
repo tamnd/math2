@@ -1,5 +1,5 @@
 {"id":"ZQN0XADQBK","mentions":["wikipedia://en/48434704"],"kind":"topic","name":"Roger Dingledine","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"ZQN9NDH4A3","mentions":["wikipedia://en/11353703#9VC1"],"kind":"topic","name":"Aizik Volpert","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"ZQNM4527TY","mentions":["wikipedia://en/54431035"],"kind":"definition","name":"Randomised decision rule","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"ZQNMHJ9H3D","mentions":["m2://rec/wikidata/Q1867999#1","wikipedia://en/1119231"],"kind":"definition","name":"logarithmic distribution","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"ZQNMHJ9H3D","mentions":["m2://rec/wikidata/Q1867999#1","wikipedia://en/1119231"],"kind":"concept","name":"logarithmic distribution","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"ZQNY7B6R8M","mentions":["wikipedia://en/1403586#B9LB"],"kind":"unknown","name":"Frank T. Cary","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

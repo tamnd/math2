@@ -2,4 +2,4 @@
 {"id":"YJX7B9Y1VV","mentions":["wikipedia://en/48781047#HSIR"],"kind":"definition","name":"universal coefficient","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"YJX8XJ9VZN","mentions":["m2://rec/hott_book/reals.tex#thm:RC-sim-characterization#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"YJX9EBSCK0","mentions":["wikipedia://en/32050867"],"kind":"definition","name":"Symplectic frame bundle","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"YJXYN2NX4V","mentions":["m2://rec/wikidata/Q19587277#1","wikipedia://en/45661451"],"kind":"definition","name":"Griewank function","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"YJXYN2NX4V","mentions":["m2://rec/wikidata/Q19587277#1","wikipedia://en/45661451"],"kind":"concept","name":"Griewank function","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

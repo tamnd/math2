@@ -1,4 +1,4 @@
 {"id":"CN16VABA26","mentions":["wikipedia://en/11764848#HT1N"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"CN19A4KXFE","mentions":["m2://rec/wikidata/Q7205923#1","wikipedia://en/23787036"],"kind":"definition","name":"Plücker's conoid","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"CN1B88K6E5","mentions":["m2://rec/wikidata/Q3893192#1","wikipedia://en/2097524"],"kind":"definition","name":"totally positive matrix","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}],"proofs":["wikipedia://en/2097524#SSFS"]}
+{"id":"CN1B88K6E5","mentions":["m2://rec/wikidata/Q3893192#1","wikipedia://en/2097524"],"kind":"concept","name":"totally positive matrix","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}],"proofs":["wikipedia://en/2097524#SSFS"]}
 {"id":"CN1Y96MJHX","mentions":["m2://rec/levin_dmoi/ptx/sec_gt-planar.ptx#investigation-2#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

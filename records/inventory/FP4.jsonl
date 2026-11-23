@@ -1,4 +1,4 @@
-{"id":"FP4FK23STR","mentions":["m2://rec/wikidata/Q47007889#1"],"kind":"unknown","name":"cocomplete category","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"FP4FK23STR","mentions":["m2://rec/wikidata/Q47007889#1"],"kind":"concept","name":"cocomplete category","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"FP4M4DBBFW","mentions":["m2://rec/lebl_diffyqs/ch-systems.tex#exercise-48#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"FP4V7WQENQ","mentions":["wikipedia://en/621447#MMNV"],"kind":"unknown","name":"Bitmap","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"FP4YG6WV51","mentions":["wikipedia://en/3357958"],"kind":"definition","name":"Elliptic-curve Diffie–Hellman","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

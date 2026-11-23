@@ -1,3 +1,3 @@
-{"id":"9MQ7KNK8HP","mentions":["m2://rec/wikidata/Q1432554#1","wikipedia://en/364820"],"kind":"definition","name":"quotient module","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"9MQ7KNK8HP","mentions":["m2://rec/wikidata/Q1432554#1","wikipedia://en/364820"],"kind":"concept","name":"quotient module","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"9MQQ2YY069","mentions":["wikipedia://en/31279414"],"kind":"definition","name":"Point Cloud Library","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"9MQQCBGT78","mentions":["wikipedia://en/6252669#XKG4"],"kind":"definition","name":"Implementation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

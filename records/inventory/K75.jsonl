@@ -2,4 +2,4 @@
 {"id":"K75EPE3A0F","mentions":["m2://rec/hott_book/index/u1.u1/type-theory#1"],"kind":"concept","name":"type theory","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"K75FSGQRM6","mentions":["wikipedia://en/27667"],"kind":"definition","name":"Space","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"K75HBZG5C4","mentions":["m2://rec/open_logic/content/sets-functions-relations/relations/equivalence-relations.tex#proof-1#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"K75TBAPQK3","mentions":["m2://rec/wikidata/Q78056159#1"],"kind":"unknown","name":"strictly increasing function","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"K75TBAPQK3","mentions":["m2://rec/wikidata/Q78056159#1"],"kind":"concept","name":"strictly increasing function","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

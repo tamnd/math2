@@ -1,5 +1,5 @@
 {"id":"GZT5RF22QH","mentions":["wikipedia://en/369981#XU0G"],"kind":"definition","name":"Tensor field","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"GZT6Z71D9Y","mentions":["wikipedia://en/140829#K9NP"],"kind":"topic","name":"Rosenthal, Jeff","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"GZT9AGWQRX","mentions":["wikipedia://en/39563465#1SY0"],"kind":"definition","name":"LAPACK","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"GZTR31TJ4X","mentions":["m2://rec/lebl_scv/scv.tex#defn-28#1"],"kind":"definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"GZTR31TJ4X","mentions":["m2://rec/lebl_scv/scv.tex#defn-28#1"],"kind":"definition","layer":"textbook","spread":1,"outcome":{"value":"node","target":["3G5HKX1Y0B"],"reason":"a node names the record of the item in its sources (corpus spec K4.4)","rule":"textbook-node","by":"m2/dev"},"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"},{"op":"outcome","at":"2026-11-23","by":"m2/dev","note":"node 3G5HKX1Y0B"}]}
 {"id":"GZTSKVW8N4","mentions":["wikipedia://en/47738065#H8BK"],"kind":"unknown","name":"Ralph Tambs-Lyche","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

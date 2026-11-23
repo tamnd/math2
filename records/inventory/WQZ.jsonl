@@ -3,5 +3,5 @@
 {"id":"WQZGF5406A","mentions":["wikipedia://en/23256783#BIL5"],"kind":"unknown","name":"Fractional bounded budget connection games","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"WQZKNWB5B6","mentions":["m2://rec/napkin/tex/measure/caratheodory.tex#proof-3#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"WQZTVQ341X","mentions":["wikipedia://en/48781047#ATI8"],"kind":"definition","name":"contractible space","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"WQZV8SDJPM","mentions":["m2://rec/wikidata/Q1643948#1"],"kind":"unknown","name":"Hölder space","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"WQZW8X237K","mentions":["m2://rec/wikidata/Q5049507#1","wikipedia://en/7066452"],"kind":"definition","name":"Casson invariant","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"WQZV8SDJPM","mentions":["m2://rec/wikidata/Q1643948#1"],"kind":"concept","name":"Hölder space","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"WQZW8X237K","mentions":["m2://rec/wikidata/Q5049507#1","wikipedia://en/7066452"],"kind":"concept","name":"Casson invariant","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

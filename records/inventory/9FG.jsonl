@@ -1,4 +1,4 @@
 {"id":"9FG6CEZGTE","mentions":["wikipedia://en/35054518"],"kind":"topic","name":"Gunnar Carlsson","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"9FGA063AGX","mentions":["wikipedia://en/361356"],"kind":"definition","name":"Negentropy","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"9FGY8K8YVR","mentions":["wikipedia://en/16201519"],"kind":"statement","name":"Backward differentiation formula","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"9FGZA7P99W","mentions":["m2://rec/wikidata/Q1790926#1"],"kind":"unknown","name":"maximum absolute column sum norm","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"9FGZA7P99W","mentions":["m2://rec/wikidata/Q1790926#1"],"kind":"concept","name":"maximum absolute column sum norm","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

@@ -1,4 +1,4 @@
 {"id":"2RT9VQ3D13","mentions":["m2://rec/lebl_ra/ch-several-vars-ders.tex#proof-4#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"2RTJ2BD175","mentions":["wikipedia://en/73722175"],"kind":"definition","name":"Multiverse analysis","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"2RTPPWJ2K2","mentions":["wikipedia://en/3131706#4538"],"kind":"statement","name":"The 1st resolvent formula","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"2RTSPT8TMW","mentions":["m2://rec/wikidata/Q135512580#1","wikipedia://en/79795194"],"kind":"definition","name":"inertia stack","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"2RTSPT8TMW","mentions":["m2://rec/wikidata/Q135512580#1","wikipedia://en/79795194"],"kind":"concept","name":"inertia stack","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

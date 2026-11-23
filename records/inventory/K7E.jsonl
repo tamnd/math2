@@ -1,4 +1,4 @@
 {"id":"K7E0PXR04K","mentions":["wikipedia://en/40183538#ORML"],"kind":"definition","name":"Group algebra of a locally compact group","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"K7EN1GBNF6","mentions":["wikipedia://en/891255#9K68"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"K7ESJA5RGB","mentions":["m2://rec/wikidata/Q3258414#1","wikipedia://en/15906455"],"kind":"definition","name":"Half-normal distribution","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"K7ESJA5RGB","mentions":["m2://rec/wikidata/Q3258414#1","wikipedia://en/15906455"],"kind":"concept","name":"Half-normal distribution","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"K7EY6FMJY5","mentions":["wikipedia://en/191457#G4GO"],"kind":"topic","name":"VC theory","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

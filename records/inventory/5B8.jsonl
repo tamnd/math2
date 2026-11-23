@@ -2,7 +2,7 @@
 {"id":"5B84X5M4K3","mentions":["m2://rec/open_logic/content/model-theory/models-of-arithmetic/models-of-pa.tex#proof-8#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"5B86ARWADC","mentions":["wikipedia://en/4165631#0JDS"],"kind":"unknown","name":"Pi","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"5B88ZW0T9C","mentions":["m2://rec/open_logic/content/sets-functions-relations/sets/pairs-and-products.tex#cardnmprod#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"5B8CARN9JA","mentions":["m2://rec/wikidata/Q757269#1","wikipedia://en/195795"],"kind":"definition","name":"metric tensor","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"5B8CARN9JA","mentions":["m2://rec/wikidata/Q757269#1","wikipedia://en/195795"],"kind":"concept","name":"metric tensor","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"5B8EWM030X","mentions":["wikipedia://en/372063#ZITY"],"kind":"statement","name":"Criticisms of the applicability of the theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"5B8GNCTF72","mentions":["wikipedia://en/191457#3BCV"],"kind":"definition","name":"Partial autocorrelation function","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"5B8GZBQZ4B","mentions":["wikipedia://en/61563#KSDA"],"kind":"unknown","name":"Spherical spiral","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

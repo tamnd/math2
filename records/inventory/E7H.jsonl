@@ -1,5 +1,5 @@
 {"id":"E7H026R52P","mentions":["m2://rec/levin_dmoi/ptx/sec_seq-recurrence.ptx#example-2#1"],"kind":"example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"E7H27BW7Y2","mentions":["wikipedia://en/47565351#3EZ3"],"kind":"unknown","name":"Seventy-First Township, Cumberland County, North Carolina","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"E7H93S7RCM","mentions":["wikipedia://en/48800634"],"kind":"topic","name":"Michael Arbuthnot Ashcroft","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"E7HHSVEK60","mentions":["m2://rec/wikidata/Q5051207#1","wikipedia://en/37035103"],"kind":"definition","name":"Catalan's minimal surface","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"E7HHSVEK60","mentions":["m2://rec/wikidata/Q5051207#1","wikipedia://en/37035103"],"kind":"concept","name":"Catalan's minimal surface","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"E7HHWVDAP4","mentions":["wikipedia://en/28934119#GH23"],"kind":"definition","name":"Methods","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

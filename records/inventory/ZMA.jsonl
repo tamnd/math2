@@ -1,4 +1,4 @@
-{"id":"ZMA2NPWH52","mentions":["m2://rec/wikidata/Q188597#1","wikipedia://en/39712387"],"kind":"definition","name":"linear function","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"ZMA2NPWH52","mentions":["m2://rec/wikidata/Q188597#1","wikipedia://en/39712387"],"kind":"concept","name":"linear function","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"ZMAEEHT66Q","mentions":["wikipedia://en/94158#UFEH"],"kind":"statement","name":"Lagrange–Bürmann formula","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"ZMAK1SGJV1","mentions":["m2://rec/lebl_ra/ch-one-dim-ints-sv.tex#proof-7#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"ZMAYGCP3D4","mentions":["wikipedia://en/191457#DI5U"],"kind":"definition","name":"Schramm–Loewner evolution","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

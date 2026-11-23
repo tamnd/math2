@@ -1,4 +1,4 @@
-{"id":"3MG57F1Y5S","mentions":["m2://rec/wikidata/Q137734761#1"],"kind":"unknown","name":"quintic graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"3MG57F1Y5S","mentions":["m2://rec/wikidata/Q137734761#1"],"kind":"concept","name":"quintic graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"3MG8PKVQYJ","mentions":["wikipedia://en/1197531#OMAJ"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"3MGKCSAMW0","mentions":["wikipedia://en/12141074"],"kind":"definition","name":"Harmonic measure","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"3MGZX27YX2","mentions":["wikipedia://en/1802050"],"kind":"definition","name":"Variogram","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

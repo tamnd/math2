@@ -1,4 +1,4 @@
 {"id":"D411Y5S7D9","mentions":["wikipedia://en/161339#SMM1"],"kind":"topic","name":"Robin Hartshorne","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"D41CAK4V6Y","mentions":["wikipedia://en/56608943"],"kind":"topic","name":"Evelyn Silvia","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"D41HTFH3BF","mentions":["m2://rec/wikidata/Q124251629#1"],"kind":"unknown","name":"Wiener measure","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"D41HTFH3BF","mentions":["m2://rec/wikidata/Q124251629#1"],"kind":"concept","name":"Wiener measure","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"D41XNHPFAQ","mentions":["wikipedia://en/74896529"],"kind":"definition","name":"ISO/IEC 19790","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

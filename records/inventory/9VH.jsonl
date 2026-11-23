@@ -1,4 +1,4 @@
 {"id":"9VHEXJ5R59","mentions":["wikipedia://en/52055656"],"kind":"topic","name":"Gábor Domokos","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"9VHMW5J6CV","mentions":["wikipedia://en/32092579"],"kind":"definition","name":"Iwahori subgroup","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"9VHPBGXF42","mentions":["m2://rec/wikidata/Q9289328#1","wikipedia://en/4794668"],"kind":"definition","name":"holomorphic vector bundle","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"9VHPBGXF42","mentions":["m2://rec/wikidata/Q9289328#1","wikipedia://en/4794668"],"kind":"concept","name":"holomorphic vector bundle","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"9VHQZHQVY2","mentions":["wikipedia://en/154725#6LJW"],"kind":"definition","name":"Formal definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

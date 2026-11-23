@@ -2,5 +2,5 @@
 {"id":"CHVG89KMNH","mentions":["wikipedia://en/404130#YO8E"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"CHVNA922AM","mentions":["wikipedia://en/9908#A3I2"],"kind":"statement","name":"Classical ideal gas law","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"CHVNZ7D8H0","mentions":["wikipedia://en/26248766#P3UH"],"kind":"topic","name":"Gianfrancesco Malfatti","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"CHVVSZDP6Q","mentions":["m2://rec/wikidata/Q7049224#1","wikipedia://en/24062516"],"kind":"definition","name":"noncommutative ring","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"CHVVSZDP6Q","mentions":["m2://rec/wikidata/Q7049224#1","wikipedia://en/24062516"],"kind":"concept","name":"noncommutative ring","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"CHVW0GFSA9","mentions":["wikipedia://en/39407#9YBI"],"kind":"statement","name":"Symmetries","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

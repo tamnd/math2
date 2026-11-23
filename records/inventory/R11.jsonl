@@ -1,5 +1,5 @@
 {"id":"R110PX0Q7X","mentions":["wikipedia://en/65472779#3OW6"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"R11AB3ZWZF","mentions":["m2://rec/wikidata/Q3115583#1"],"kind":"unknown","name":"longhorn graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"R11AB3ZWZF","mentions":["m2://rec/wikidata/Q3115583#1"],"kind":"concept","name":"longhorn graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"R11BPRMHZ3","mentions":["wikipedia://en/73966770#0N6M"],"kind":"statement","name":"Bobkov's inequality","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"R11CMCRF0B","mentions":["wikipedia://en/191457#TZCH"],"kind":"definition","name":"Exposure variable","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"R11GZSPWD1","mentions":["m2://rec/wikidata/Q343546#1"],"kind":"definition","name":"reaction","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

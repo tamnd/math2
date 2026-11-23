@@ -1,4 +1,4 @@
-{"id":"1Q61096FYS","mentions":["m2://rec/wikidata/Q135995842#1"],"kind":"unknown","name":"square grid graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"1Q61096FYS","mentions":["m2://rec/wikidata/Q135995842#1"],"kind":"concept","name":"square grid graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"1Q68B6AHSZ","mentions":["wikipedia://en/48307046"],"kind":"topic","name":"Manfred Einsiedler","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"1Q69F5KFXY","mentions":["wikipedia://en/57487317"],"kind":"topic","name":"Mikhail Potapov","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"1Q6HE0VDEE","mentions":["wikipedia://en/191457#6ONV"],"kind":"definition","name":"Regenerative process","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

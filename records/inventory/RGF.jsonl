@@ -1,6 +1,6 @@
 {"id":"RGF58YP04S","mentions":["wikipedia://en/61992522#624W"],"kind":"statement","name":"Equivalent characterizations","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"RGF8TH0PRC","mentions":["wikipedia://en/12846728"],"kind":"definition","name":"Society for Quantitative Analysis of Behavior","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"RGFA7KJ01F","mentions":["m2://rec/wikidata/Q1572094#1","wikipedia://en/2986564"],"kind":"definition","name":"product measure","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"RGFA7KJ01F","mentions":["m2://rec/wikidata/Q1572094#1","wikipedia://en/2986564"],"kind":"concept","name":"product measure","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"RGFDVA9KQZ","mentions":["wikipedia://en/579867"],"kind":"definition","name":"Dimensionality reduction","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"RGFHG0E8J6","mentions":["wikipedia://en/15315059#BV8U"],"kind":"unknown","name":"Leonard Jimmie Savage","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"RGFR036NF7","mentions":["wikipedia://en/51955#6WV4"],"kind":"unknown","name":"Tempered distributions","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

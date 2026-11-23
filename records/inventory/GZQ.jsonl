@@ -5,4 +5,5 @@
 {"id":"GZQEZRCE22","mentions":["wikipedia://en/60395537"],"kind":"topic","name":"Alexander Brown","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"GZQGNYNENM","mentions":["wikipedia://en/51069784"],"kind":"definition","name":"Dual uniform polyhedron","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"GZQHTXXVV1","mentions":["m2://rec/open_logic/content/many-valued-logic/syntax-and-semantics/semantic-notions.tex#prop:semanticalfacts#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"GZQKX86BH1","mentions":["m2://rec/wikidata/Q142189475#1"],"kind":"unknown","name":"equivelar polyhedron","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-23","by":"m2/dev"}]}
 {"id":"GZQNATE0R1","mentions":["wikipedia://en/55312103"],"kind":"definition","name":"Zonogon","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

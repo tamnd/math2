@@ -1,3 +1,3 @@
 {"id":"44573EGBY6","mentions":["wikipedia://en/660973#4T6A"],"kind":"definition","name":"T-duality","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"445GQ574N9","mentions":["m2://rec/wikidata/Q96741342#1"],"kind":"unknown","name":"non-alternating knot","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"445GQ574N9","mentions":["m2://rec/wikidata/Q96741342#1"],"kind":"concept","name":"non-alternating knot","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"445VA7P2Z6","mentions":["m2://rec/lebl_scv/scv.tex#exercise:Laurentser#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

@@ -4,4 +4,4 @@
 {"id":"NDG90B8W6V","mentions":["wikipedia://en/1177965#X2HR"],"kind":"definition","name":"Construction","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"NDGB2HZXSR","mentions":["wikipedia://en/8013#CEX3"],"kind":"unknown","name":"Audio compression (data)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"NDGKD7CSPN","mentions":["wikipedia://en/191457#XURU"],"kind":"topic","name":"Statistical geography","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"NDGZJY5CYJ","mentions":["m2://rec/wikidata/Q575710#1","wikipedia://en/378881"],"kind":"definition","name":"Gauss map","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"NDGZJY5CYJ","mentions":["m2://rec/wikidata/Q575710#1","wikipedia://en/378881"],"kind":"concept","name":"Gauss map","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

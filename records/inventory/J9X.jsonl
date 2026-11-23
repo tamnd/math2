@@ -1,5 +1,5 @@
 {"id":"J9X90BE6BB","mentions":["wikipedia://en/2442701"],"kind":"topic","name":"Anania Shirakatsi","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"J9X941ZY24","mentions":["m2://rec/wikidata/Q47306354#1"],"kind":"unknown","name":"natural exponential function","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"J9X941ZY24","mentions":["m2://rec/wikidata/Q47306354#1"],"kind":"concept","name":"natural exponential function","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"J9XA72PBAH","mentions":["wikipedia://en/7900483"],"kind":"topic","name":"Siavash Shahshahani","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"J9XD8HECTC","mentions":["wikipedia://en/40183538#NYOL"],"kind":"definition","name":"Separable algebra","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"J9XVDZG18H","mentions":["wikipedia://en/25069727"],"kind":"statement","name":"Maximum theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}],"proofs":["wikipedia://en/25069727#5U4W","wikipedia://en/25069727#TMZP"]}

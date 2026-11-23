@@ -1,4 +1,4 @@
 {"id":"E7G408JT1F","mentions":["m2://rec/hott_book/index/6.7/topology-lawvere-tierney#1"],"kind":"concept","name":"topology, Lawvere-Tierney","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"E7G4N7GH92","mentions":["m2://rec/napkin/tex/rep-theory/rep-alg.tex#theorem-1#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"E7G66NS39D","mentions":["m2://rec/levin_dmoi/ptx/exercises/intro-sets.ptx#exercise-15#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"E7GRT6QYB6","mentions":["m2://rec/wikidata/Q77977062#1"],"kind":"unknown","name":"exterior form","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"E7GRT6QYB6","mentions":["m2://rec/wikidata/Q77977062#1"],"kind":"concept","name":"exterior form","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

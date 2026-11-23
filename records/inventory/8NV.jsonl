@@ -1,4 +1,4 @@
 {"id":"8NV7MHATNA","mentions":["wikipedia://en/68374180#2I3O"],"kind":"statement","name":"Generalizations","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"8NVBSD0FZB","mentions":["wikipedia://en/762696#7115"],"kind":"statement","name":"History of the theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"8NVQQKAN3W","mentions":["m2://rec/wikidata/Q15534632#1","wikipedia://en/103094"],"kind":"definition","name":"graded ring","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"8NVQQKAN3W","mentions":["m2://rec/wikidata/Q15534632#1","wikipedia://en/103094"],"kind":"concept","name":"graded ring","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"8NVYR6Z3FF","mentions":["m2://rec/austin_ula/src/exercises/exercises3-4.xml#exercise-13#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

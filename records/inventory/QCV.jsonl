@@ -1,6 +1,6 @@
 {"id":"QCV0B40H9H","mentions":["wikipedia://en/38277667#9AEP"],"kind":"definition","name":"Notation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"QCV51XVHX7","mentions":["wikipedia://en/26248766#ZCRO","wikipedia://en/47738065#PJNF"],"kind":"topic","name":"Enea Bortolotti","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"QCV97R2CAV","mentions":["m2://rec/wikidata/Q900855#1","wikipedia://en/2970168"],"kind":"definition","name":"Einstein relation","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"QCV97R2CAV","mentions":["m2://rec/wikidata/Q900855#1","wikipedia://en/2970168"],"kind":"concept","name":"Einstein relation","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"QCVC23TSFF","mentions":["wikipedia://en/11286809#FD1F"],"kind":"statement","name":"Derivation of the formulas","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"QCVFBYP65E","mentions":["wikipedia://en/47565351#Y6WA"],"kind":"unknown","name":"Ventimiglia","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"QCVR7H14HE","mentions":["wikipedia://en/36659903"],"kind":"definition","name":"Statistical area","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

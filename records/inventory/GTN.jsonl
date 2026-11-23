@@ -1,4 +1,4 @@
 {"id":"GTN50XFVRE","mentions":["wikipedia://en/35774471"],"kind":"definition","name":"Total Social Security Accounts","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"GTN8ZNRG0X","mentions":["wikipedia://en/45078486"],"kind":"definition","name":"Kosovo Agency of Statistics","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"GTNKQEE7Z8","mentions":["m2://rec/wikidata/Q1790208#1","wikipedia://en/755300"],"kind":"definition","name":"curvilinear coordinate system","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}],"proofs":["wikipedia://en/755300#279C"]}
+{"id":"GTNKQEE7Z8","mentions":["m2://rec/wikidata/Q1790208#1","wikipedia://en/755300"],"kind":"concept","name":"curvilinear coordinate system","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}],"proofs":["wikipedia://en/755300#279C"]}
 {"id":"GTNX30FH5Y","mentions":["wikipedia://en/193837#9FW5"],"kind":"definition","name":"Gamma matrices","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

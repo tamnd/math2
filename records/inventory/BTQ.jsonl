@@ -1,4 +1,4 @@
-{"id":"BTQ8F1DZNP","mentions":["m2://rec/wikidata/Q124457730#1"],"kind":"unknown","name":"Chevalley group","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"BTQ8F1DZNP","mentions":["m2://rec/wikidata/Q124457730#1"],"kind":"concept","name":"Chevalley group","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"BTQ90WJ6VT","mentions":["wikipedia://en/25334192#K20N"],"kind":"definition","name":"closed submodule","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"BTQAWDS0RD","mentions":["m2://rec/levin_dmoi/index/2.3/permutation#1"],"kind":"concept","name":"permutation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"BTQFHEN8YH","mentions":["m2://rec/wikidata/Q1850712#1","wikipedia://en/7533645"],"kind":"definition","name":"cone","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

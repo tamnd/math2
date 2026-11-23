@@ -1,4 +1,4 @@
 {"id":"ZC03YTTB2Q","mentions":["wikipedia://en/39524578#HSX6"],"kind":"definition","name":"Formal definitions","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"ZC0H9DRGMV","mentions":["wikipedia://en/644921#321I"],"kind":"unknown","name":"Local holonomy group","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"ZC0TNXNTXK","mentions":["wikipedia://en/1018257#54X1"],"kind":"statement","name":"Thurston's geometrization conjecture","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"ZC0W7DM9XH","mentions":["m2://rec/wikidata/Q5506747#1","wikipedia://en/2229523"],"kind":"definition","name":"Frölicher space","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"ZC0W7DM9XH","mentions":["m2://rec/wikidata/Q5506747#1","wikipedia://en/2229523"],"kind":"concept","name":"Frölicher space","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

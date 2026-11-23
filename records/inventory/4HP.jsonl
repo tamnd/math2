@@ -1,2 +1,2 @@
-{"id":"4HP6Y7ZDMV","mentions":["m2://rec/mathlib_1000/Q268132#1","m2://rec/thousand_plus/Q268132#1","wikipedia://en/523430"],"kind":"statement","name":"Constructible polygon","msc":["51-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"4HP6Y7ZDMV","mentions":["m2://rec/mathlib_1000/Q268132#1","m2://rec/thousand_plus/Q268132#1","m2://rec/wikidata/Q268132#1","wikipedia://en/523430"],"kind":"statement","name":"constructible polygon","msc":["51-XX"],"layer":"textbook","spread":4,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"4HPKWY3C7G","mentions":["wikipedia://en/76999747"],"kind":"problem","name":"Kolchin's problems","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

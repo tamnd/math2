@@ -4,4 +4,4 @@
 {"id":"WXPA67795Z","mentions":["wikipedia://en/60517925"],"kind":"topic","name":"Wilhelm Schlag","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"WXPB2WWMJ0","mentions":["wikipedia://en/828320"],"kind":"statement","name":"Birkhoff's axioms","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"WXPDYPAQKB","mentions":["wikipedia://en/38539191#XF8W"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"WXPWYTGX60","mentions":["m2://rec/wikidata/Q137857324#1"],"kind":"unknown","name":"minimal cubic matchstick graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"WXPWYTGX60","mentions":["m2://rec/wikidata/Q137857324#1"],"kind":"concept","name":"minimal cubic matchstick graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

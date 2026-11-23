@@ -1,4 +1,4 @@
-{"id":"HZ6EVNDTWB","mentions":["m2://rec/wikidata/Q1014065#1","wikipedia://en/634765"],"kind":"definition","name":"Hadamard transform","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"HZ6EVNDTWB","mentions":["m2://rec/wikidata/Q1014065#1","wikipedia://en/634765"],"kind":"concept","name":"Hadamard transform","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"HZ6K9BQE6S","mentions":["wikipedia://en/14581057#JDUI"],"kind":"statement","name":"Fourier's law","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"HZ6KCXS6FK","mentions":["m2://rec/wikidata/Q578874#1","wikipedia://en/509742"],"kind":"definition","name":"complex manifold","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"HZ6KCXS6FK","mentions":["m2://rec/wikidata/Q578874#1","wikipedia://en/509742"],"kind":"concept","name":"complex manifold","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"HZ6MTE8W39","mentions":["wikipedia://en/72427614"],"kind":"topic","name":"Albert G. Howson","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

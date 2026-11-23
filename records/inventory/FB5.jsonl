@@ -1,3 +1,3 @@
-{"id":"FB5GZTV88N","mentions":["m2://rec/wikidata/Q2279929#1","wikipedia://en/13763527"],"kind":"definition","name":"Lommel function","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"FB5GZTV88N","mentions":["m2://rec/wikidata/Q2279929#1","wikipedia://en/13763527"],"kind":"concept","name":"Lommel function","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"FB5XXD4ZHY","mentions":["wikipedia://en/20781"],"kind":"definition","name":"Monoid ring","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"FB5Y2FBFGP","mentions":["wikipedia://en/64247707#1L9S"],"kind":"statement","name":"Krein-Smulian Theorem:","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

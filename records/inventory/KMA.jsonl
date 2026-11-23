@@ -4,6 +4,6 @@
 {"id":"KMA9K2S5PT","mentions":["wikipedia://en/1403889"],"kind":"statement","name":"Ultraparallel theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}],"proofs":["wikipedia://en/1403889#H8QI","wikipedia://en/1403889#RMI9"]}
 {"id":"KMA9ZSKASC","mentions":["wikipedia://en/2216987"],"kind":"definition","name":"Covariance and correlation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"KMAKZNQ5MD","mentions":["wikipedia://en/1540333#4N82"],"kind":"definition","name":"Definition 2","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"KMAQ0XARVT","mentions":["m2://rec/wikidata/Q2287715#1","wikipedia://en/431848"],"kind":"definition","name":"covariant derivative","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"KMAQ0XARVT","mentions":["m2://rec/wikidata/Q2287715#1","wikipedia://en/431848"],"kind":"concept","name":"covariant derivative","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"KMARGE9FPW","mentions":["wikipedia://en/15315059#W40U"],"kind":"topic","name":"James O. Berger","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"KMAVT9VWBF","mentions":["wikipedia://en/47738065#E6P9"],"kind":"unknown","name":"Alexander Efimov","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

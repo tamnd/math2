@@ -1,4 +1,4 @@
 {"id":"V72B2XPT6Z","mentions":["m2://rec/hott_book/index/4/consistency#1"],"kind":"concept","name":"consistency","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"V72RT9HFFR","mentions":["m2://rec/applied_combinatorics/source/s_genfunction_exercises.ptx#exercise-11#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"V72SR4KYDH","mentions":["wikipedia://en/27005472"],"kind":"definition","name":"Flat function","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}],"proofs":["wikipedia://en/27005472#JK6F","wikipedia://en/27005472#UYHQ"]}
-{"id":"V72WDW1KV0","mentions":["m2://rec/wikidata/Q5121087#1","wikipedia://en/16856240"],"kind":"definition","name":"cinquefoil knot","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"V72WDW1KV0","mentions":["m2://rec/wikidata/Q5121087#1","wikipedia://en/16856240"],"kind":"concept","name":"cinquefoil knot","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

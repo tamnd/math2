@@ -1,5 +1,5 @@
 {"id":"9RE2BZTZXM","mentions":["wikipedia://en/14087640"],"kind":"object","name":"Centroidal Voronoi tessellation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}],"proofs":["wikipedia://en/14087640#W60P"]}
 {"id":"9REJ7BVYYX","mentions":["wikipedia://en/47738065#5IVU"],"kind":"unknown","name":"Ivan Pervushin","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"9REK4FBW1W","mentions":["m2://rec/wikidata/Q1208187#1","wikipedia://en/4606683"],"kind":"definition","name":"diagonal functor","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"9REK4FBW1W","mentions":["m2://rec/wikidata/Q1208187#1","wikipedia://en/4606683"],"kind":"concept","name":"diagonal functor","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"9REWKZ9HZP","mentions":["wikipedia://en/2064935#2FTF"],"kind":"statement","name":"Extensions","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"9REXG4N0J8","mentions":["wikipedia://en/74516765"],"kind":"topic","name":"Abel Tassin d'Alonne","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

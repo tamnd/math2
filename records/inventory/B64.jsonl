@@ -1,4 +1,4 @@
-{"id":"B64CPTATJP","mentions":["m2://rec/wikidata/Q5457856#1"],"kind":"unknown","name":"flat vector bundle","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"B64CPTATJP","mentions":["m2://rec/wikidata/Q5457856#1"],"kind":"concept","name":"flat vector bundle","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"B64DHX86YW","mentions":["wikipedia://en/61475737#ZT9S"],"kind":"definition","name":"Lotka–Volterra equations","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"B64KCHYVEC","mentions":["wikipedia://en/18587912#Q71E"],"kind":"statement","name":"Theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"B64SWMMWN6","mentions":["wikipedia://en/46769#NS44"],"kind":"unknown","name":"Walrasian economics","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

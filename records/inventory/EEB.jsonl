@@ -1,5 +1,5 @@
 {"id":"EEB1KN9TS4","mentions":["wikipedia://en/353748#LHEW"],"kind":"topic","name":"Computable analysis","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"EEB2RP3NPF","mentions":["m2://rec/wikidata/Q7104840#1","wikipedia://en/10950869"],"kind":"definition","name":"orthonormal function system","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"EEB2RP3NPF","mentions":["m2://rec/wikidata/Q7104840#1","wikipedia://en/10950869"],"kind":"concept","name":"orthonormal function system","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"EEBHKTQER0","mentions":["wikipedia://en/22748103"],"kind":"definition","name":"Microwave cavity","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"EEBT1KAWTC","mentions":["m2://rec/open_logic/content/normal-modal-logic/axioms-systems/derived-rules.tex#prop-3#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"EEBT62E967","mentions":["wikipedia://en/20890522#58SD"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

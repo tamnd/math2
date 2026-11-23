@@ -1,4 +1,4 @@
 {"id":"YMQ6MC13V9","mentions":["m2://rec/mathlib_1000/Q4455037#1","m2://rec/thousand_plus/Q4455037#1","wikipedia://en/1499089"],"kind":"statement","name":"Hardy's theorem","msc":["30-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"YMQQHP54BC","mentions":["m2://rec/wikidata/Q131222#1","wikipedia://en/14773"],"kind":"definition","name":"information theory","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"YMQYSKPRFS","mentions":["wikipedia://en/2985453#KSBI"],"kind":"statement","name":"Application with Bayes’ Theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"YMQZ8NQ912","mentions":["m2://rec/wikidata/Q141145064#1"],"kind":"unknown","name":"polynomial quotient","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"YMQZ8NQ912","mentions":["m2://rec/wikidata/Q141145064#1"],"kind":"concept","name":"polynomial quotient","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

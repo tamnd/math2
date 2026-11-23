@@ -1,5 +1,5 @@
 {"id":"JGC4H915C4","mentions":["wikipedia://en/47738065#68DT","wikipedia://en/47738065#94XM","wikipedia://en/47738065#K3N8"],"kind":"topic","name":"Clifford Taubes","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"JGC8E0VFG8","mentions":["wikipedia://en/11649911#EU88"],"kind":"statement","name":"Theorems involving prevalence and shyness","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"JGC8W7WPFY","mentions":["m2://rec/wikidata/Q4751134#1","wikipedia://en/3183798"],"kind":"definition","name":"analytic manifold","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"JGC8W7WPFY","mentions":["m2://rec/wikidata/Q4751134#1","wikipedia://en/3183798"],"kind":"concept","name":"analytic manifold","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"JGCBJ679Z7","mentions":["wikipedia://en/2013202"],"kind":"definition","name":"Self-service password reset","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"JGCCK7M5VM","mentions":["wikipedia://en/191457#E6GM"],"kind":"definition","name":"Confirmation bias","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

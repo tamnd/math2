@@ -1,3 +1,3 @@
-{"id":"S2F4WY4XWM","mentions":["m2://rec/wikidata/Q93638909#1"],"kind":"unknown","name":"matching number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"S2F4WY4XWM","mentions":["m2://rec/wikidata/Q93638909#1"],"kind":"concept","name":"matching number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"S2FPZ4WVC8","mentions":["m2://rec/lebl_diffyqs/ch-higher-order-ode.tex#exercise-45#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"S2FR5G12B1","mentions":["wikipedia://en/3772909#4EG7"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

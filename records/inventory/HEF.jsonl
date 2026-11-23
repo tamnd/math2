@@ -2,4 +2,4 @@
 {"id":"HEFT9H06RX","mentions":["wikipedia://en/27608024"],"kind":"definition","name":"Wiener series","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"HEFTW1BBKN","mentions":["wikipedia://en/1577800#A39T"],"kind":"statement","name":"Relation to Osterwalder–Schrader axioms","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"HEFVG3JA9H","mentions":["m2://rec/ernst_ibl/MAAPressVersion/ContinuousFunctions.tex#problem-1#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"HEFYQCYEWM","mentions":["m2://rec/wikidata/Q3552958#1","wikipedia://en/2119219"],"kind":"definition","name":"differentiable manifold","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"HEFYQCYEWM","mentions":["m2://rec/wikidata/Q3552958#1","wikipedia://en/2119219"],"kind":"concept","name":"differentiable manifold","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

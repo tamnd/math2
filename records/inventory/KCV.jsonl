@@ -2,4 +2,4 @@
 {"id":"KCV6JD79EB","mentions":["wikipedia://en/57242824#3B8W"],"kind":"unknown","name":"Georg Aumann","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"KCVBSZ1TD3","mentions":["wikipedia://en/1311951#SQ59"],"kind":"statement","name":"Hypothesis suggested by non-representative data","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"KCVS1583KW","mentions":["m2://rec/mathlib_1000/Q3527118#1","m2://rec/thousand_plus/Q3527118#1","wikipedia://en/408111"],"kind":"statement","name":"Mahler's theorem","msc":["11-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"KCVZFKCGT9","mentions":["m2://rec/wikidata/Q3115467#1"],"kind":"unknown","name":"great rhombicuboctahedral graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"KCVZFKCGT9","mentions":["m2://rec/wikidata/Q3115467#1"],"kind":"concept","name":"great rhombicuboctahedral graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

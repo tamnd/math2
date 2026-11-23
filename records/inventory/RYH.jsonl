@@ -1,5 +1,5 @@
 {"id":"RYHEGY6KTD","mentions":["wikipedia://en/63990620#M954"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"RYHP1PNQ9C","mentions":["wikipedia://en/51140705#4DD4"],"kind":"topic","name":"Stephen Stigler","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"RYHP3VGVZW","mentions":["wikipedia://en/191457#0MY2","wikipedia://en/408108#LFFW"],"kind":"definition","name":"Posterior probability","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"RYHXT8FYXX","mentions":["m2://rec/wikidata/Q634965#1","wikipedia://en/19830"],"kind":"definition","name":"Maxwell–Boltzmann distribution","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"RYHXT8FYXX","mentions":["m2://rec/wikidata/Q634965#1","wikipedia://en/19830"],"kind":"concept","name":"Maxwell–Boltzmann distribution","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"RYHY3FM5VP","mentions":["wikipedia://en/40183538#7PK9"],"kind":"definition","name":"Zinbiel algebra","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

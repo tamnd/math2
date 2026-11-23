@@ -3,4 +3,4 @@
 {"id":"RT0GKB81RH","mentions":["wikipedia://en/44212433"],"kind":"topic","name":"Carl A. Wiley","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"RT0GWX3APJ","mentions":["wikipedia://en/1348079"],"kind":"definition","name":"Partial isometry","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"RT0WKM65DK","mentions":["m2://rec/open_logic/content/set-theory/replacement/finiteaxiomatizability.tex#finiteextensionofZ#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"RT0Y0PWGPB","mentions":["m2://rec/wikidata/Q133575363#1","wikipedia://en/79573381"],"kind":"object","name":"Kuen surface","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"RT0Y0PWGPB","mentions":["m2://rec/wikidata/Q133575363#1","wikipedia://en/79573381"],"kind":"concept","name":"Kuen surface","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

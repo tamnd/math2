@@ -1,5 +1,5 @@
 {"id":"Y2J2X5CFVW","mentions":["wikipedia://en/14953761#GBTT"],"kind":"definition","name":"Morrey–Campanato space","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"Y2J4N0XJSD","mentions":["m2://rec/wikidata/Q1257475#1"],"kind":"unknown","name":"maximal planar graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"Y2J4N0XJSD","mentions":["m2://rec/wikidata/Q1257475#1"],"kind":"concept","name":"maximal planar graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"Y2JE58JSC6","mentions":["wikipedia://en/6690773#96JT"],"kind":"statement","name":"Lemma","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}],"proofs":["wikipedia://en/6690773#NBSN"]}
 {"id":"Y2JNSQSBF1","mentions":["wikipedia://en/29232472#IRK6"],"kind":"topic","name":"Valery Goppa","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"Y2JR36XK34","mentions":["m2://rec/hott_book/index/2.8/structure-identity-principle#1"],"kind":"concept","name":"structure, identity principle","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

@@ -1,5 +1,5 @@
 {"id":"82Q4K4XAFD","mentions":["wikipedia://en/53252845#DAZJ"],"kind":"definition","name":"Simpson's rule","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"82Q7T65760","mentions":["wikipedia://en/76406928"],"kind":"topic","name":"Erica Brittain","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"82QC6WYNQA","mentions":["m2://rec/lebl_scv/index/C/submanifold#1"],"kind":"concept","name":"submanifold","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"82QJFZAT02","mentions":["m2://rec/wikidata/Q96375368#1"],"kind":"unknown","name":"complemented subspace","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"82QJFZAT02","mentions":["m2://rec/wikidata/Q96375368#1"],"kind":"concept","name":"complemented subspace","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"82QT2877F6","mentions":["m2://rec/hott_book/index/5.11/presentation-of-a-group#1"],"kind":"concept","name":"presentation, of a group","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

@@ -3,4 +3,4 @@
 {"id":"M2G7ZHCWSP","mentions":["wikipedia://en/517370#OOXN"],"kind":"definition","name":"Cell","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"M2GAWPSRN5","mentions":["m2://rec/napkin/tex/alg-geom/localization.tex#problem-1#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"M2GB1N544W","mentions":["wikipedia://en/47565351#NYCJ"],"kind":"unknown","name":"Carracastle","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"M2GYE28R3A","mentions":["m2://rec/wikidata/Q17586598#1"],"kind":"unknown","name":"hitch knot","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"M2GYE28R3A","mentions":["m2://rec/wikidata/Q17586598#1"],"kind":"concept","name":"hitch knot","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

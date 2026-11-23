@@ -1,4 +1,4 @@
-{"id":"JF26WXH4VE","mentions":["m2://rec/wikidata/Q3042316#1"],"kind":"unknown","name":"algebraic set","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"JF26WXH4VE","mentions":["m2://rec/wikidata/Q3042316#1"],"kind":"concept","name":"algebraic set","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"JF2DV14M4Z","mentions":["m2://rec/levin_dmoi/ptx/exercises/seq-induction.ptx#proof-3#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"JF2ENKX2F1","mentions":["m2://rec/napkin/tex/measure/large-laws.tex#proof-2#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"JF2PW7P8PG","mentions":["wikipedia://en/48673924#YGNJ"],"kind":"definition","name":"Formulation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

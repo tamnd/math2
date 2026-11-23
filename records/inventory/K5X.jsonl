@@ -1,4 +1,4 @@
 {"id":"K5XD8M5JTQ","mentions":["wikipedia://en/30510739"],"kind":"topic","name":"Andreu Mas-Colell","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"K5XKXQ5YFE","mentions":["wikipedia://en/39377#UW5Z"],"kind":"unknown","name":"Similar triangle","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"K5XVEBM6NX","mentions":["m2://rec/wikidata/Q2077983#1"],"kind":"unknown","name":"cylindrical projection","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"K5XVEBM6NX","mentions":["m2://rec/wikidata/Q2077983#1"],"kind":"concept","name":"cylindrical projection","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"K5XW7XK051","mentions":["wikipedia://en/47738065#9DOE"],"kind":"topic","name":"Paul Bernays","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

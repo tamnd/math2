@@ -1,4 +1,4 @@
 {"id":"V6N5HW2TCY","mentions":["wikipedia://en/191457#EN9L"],"kind":"definition","name":"Weight function","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"V6NAQ96APK","mentions":["m2://rec/wikidata/Q1826656#1"],"kind":"unknown","name":"Stammler circle","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"V6NF5VAAPS","mentions":["m2://rec/wikidata/Q7280274#1","wikipedia://en/33297737"],"kind":"definition","name":"radial set","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"V6NF5VAAPS","mentions":["m2://rec/wikidata/Q7280274#1","wikipedia://en/33297737"],"kind":"concept","name":"radial set","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"V6NYXQ1R8Y","mentions":["wikipedia://en/56802364"],"kind":"topic","name":"Nikolai Kapitonovich Nikolski","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

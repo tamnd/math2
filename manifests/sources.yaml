@@ -580,27 +580,6 @@ sources:
       - url: https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/18.06-spring-2010.zip
         hash: blake3:ab57e74d727dbbb8cc6f30102b1562b267a6d76a54ffa725885e5e4ddfbb57b8
         date: "2026-10-31"
-  - id: openlibrary
-    name: Open Library
-    kind: catalogue
-    home: https://openlibrary.org
-    licence: LicenseRef-unknown
-    class: record
-    licence_read:
-      at: https://openlibrary.org/developers/dumps
-      "on": "2026-11-04"
-      by: Claude Code, for tamnd
-    authored: human
-    channel: dump
-    attribution: Open Library, the Internet Archive, https://openlibrary.org
-    adapter: openlibrary/1
-    approved_by: tamnd
-    snapshots:
-      - url: https://openlibrary.org/data/ol_dump_works_latest.txt.gz
-        hash: blake3:2e8accdda5246337d43efe7bec8a2bfbaffafefda65b3dbf752578d01d9a2935
-        date: "2026-11-04"
-    lineage:
-      - loc-marc
   - id: open_logic
     name: The Open Logic Project
     authors:
@@ -623,6 +602,27 @@ sources:
         date: "2026-10-31"
         commit: 1e960beff9ed7835bf3e3f1335e21af3439cd107
     resource: PKGMM3P5QY
+  - id: openlibrary
+    name: Open Library
+    kind: catalogue
+    home: https://openlibrary.org
+    licence: LicenseRef-unknown
+    class: record
+    licence_read:
+      at: https://openlibrary.org/developers/dumps
+      "on": "2026-11-04"
+      by: Claude Code, for tamnd
+    authored: human
+    channel: dump
+    attribution: Open Library, the Internet Archive, https://openlibrary.org
+    adapter: openlibrary/1
+    approved_by: tamnd
+    snapshots:
+      - url: https://openlibrary.org/data/ol_dump_works_latest.txt.gz
+        hash: blake3:2e8accdda5246337d43efe7bec8a2bfbaffafefda65b3dbf752578d01d9a2935
+        date: "2026-11-04"
+    lineage:
+      - loc-marc
   - id: oyc
     name: Open Yale Courses
     kind: course-platform
@@ -739,6 +739,9 @@ sources:
       - url: https://query.wikidata.org/sparql
         hash: blake3:1cd3736f1d17b31845a83622a8dbb299c1fd61e251be94083e9c45841c9a3c7b
         date: "2026-10-26"
+      - url: https://query.wikidata.org/sparql
+        hash: blake3:256a111e32357c5f47a574f82c60dfaa4f230253920ac46be413fbdd6034afb6
+        date: "2026-11-23"
   - id: wikipedia
     name: The English Wikipedia, through the corpus repository tamnd/wikipedia-math
     kind: wiki
@@ -799,8 +802,6 @@ sources:
     attribution: zbMATH Open, FIZ Karlsruhe, https://zbmath.org, CC BY-SA 4.0
     adapter: zbmath_search/1
     approved_by: tamnd
-    lineage:
-      - zbmath
     snapshots:
       - url: m2 res import zbmath_search
         hash: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
@@ -817,3 +818,5 @@ sources:
       - url: m2 res import zbmath_search
         hash: blake3:25dd7c4358839cf7c8c9f5d07f0562e94f38728153e7db2255a7191282b967c2
         date: "2026-11-02"
+    lineage:
+      - zbmath

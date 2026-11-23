@@ -1,3 +1,3 @@
 {"id":"87376VNCAA","mentions":["wikipedia://en/29070755"],"kind":"definition","name":"Comparison of TLS implementations","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"873GGR2YA4","mentions":["m2://rec/wikidata/Q136102122#1"],"kind":"unknown","name":"biclaw graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"873GGR2YA4","mentions":["m2://rec/wikidata/Q136102122#1"],"kind":"concept","name":"biclaw graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"873W383SXZ","mentions":["wikipedia://en/19480890#CX1S"],"kind":"statement","name":"Using the Pythagorean theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

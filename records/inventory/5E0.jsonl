@@ -1,2 +1,2 @@
-{"id":"5E0JZ5NV9T","mentions":["m2://rec/wikidata/Q123375197#1"],"kind":"unknown","name":"topologically transitive map","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"5E0JZ5NV9T","mentions":["m2://rec/wikidata/Q123375197#1"],"kind":"concept","name":"topologically transitive map","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"5E0RDT78EA","mentions":["wikipedia://en/33731592#NLRH"],"kind":"statement","name":"Euclid's fifth postulate implies Playfair's axiom","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -2,5 +2,5 @@
 {"id":"XR85TN9J7W","mentions":["wikipedia://en/39482629"],"kind":"topic","name":"List of things named after Ernst Witt","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"XR8C5AH9N6","mentions":["wikipedia://en/16801509"],"kind":"definition","name":"Nonstandard finite difference scheme","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"XR8JBKA97Q","mentions":["m2://rec/wikidata/Q836708#1","wikipedia://en/313303"],"kind":"definition","name":"regular star polygon","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"XR8KQX5X6B","mentions":["m2://rec/wikidata/Q15866814#1","wikipedia://en/39240918"],"kind":"definition","name":"Nu function","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"XR8KQX5X6B","mentions":["m2://rec/wikidata/Q15866814#1","wikipedia://en/39240918"],"kind":"concept","name":"Nu function","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"XR8TB2634M","mentions":["wikipedia://en/11353703#ZKJL"],"kind":"unknown","name":"Moshe Provençal","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

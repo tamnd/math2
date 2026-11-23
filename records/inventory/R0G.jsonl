@@ -2,7 +2,7 @@
 {"id":"R0G68M5VGY","mentions":["wikipedia://en/1240842#Y8LS"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"R0G6KPZK4H","mentions":["wikipedia://en/1707754#ZEXM"],"kind":"unknown","name":"Kingdomino","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"R0GG63PQRT","mentions":["wikipedia://en/8111079#DKS0"],"kind":"unknown","name":"Gravity wave detector","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"R0GHKJ8VS6","mentions":["m2://rec/wikidata/Q5054343#1","wikipedia://en/2534823"],"kind":"definition","name":"Cauchy surface","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"R0GHKJ8VS6","mentions":["m2://rec/wikidata/Q5054343#1","wikipedia://en/2534823"],"kind":"concept","name":"Cauchy surface","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"R0GP22RP0B","mentions":["wikipedia://en/51140705#5XL8"],"kind":"topic","name":"Maurice Kendall","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"R0GQN59DK1","mentions":["wikipedia://en/673575#C23Q"],"kind":"statement","name":"Descartes' theorem on total angular defect","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"R0GV8FNZXF","mentions":["m2://rec/wikidata/Q5884209#1","wikipedia://en/5817043"],"kind":"definition","name":"holonomic function","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"R0GV8FNZXF","mentions":["m2://rec/wikidata/Q5884209#1","wikipedia://en/5817043"],"kind":"concept","name":"holonomic function","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

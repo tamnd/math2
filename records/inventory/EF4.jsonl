@@ -1,4 +1,4 @@
-{"id":"EF461X43T8","mentions":["m2://rec/wikidata/Q615502#1","wikipedia://en/4688830"],"kind":"definition","name":"Enneper surface","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"EF461X43T8","mentions":["m2://rec/wikidata/Q615502#1","wikipedia://en/4688830"],"kind":"concept","name":"Enneper surface","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"EF48RWCCN9","mentions":["m2://rec/wikidata/Q4724001#1","wikipedia://en/4283745"],"kind":"definition","name":"algebraic expression","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"EF4JE5K0WT","mentions":["wikipedia://en/1917276#WDNM"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"EF4JZ3Y0D2","mentions":["wikipedia://en/772517"],"kind":"definition","name":"Tsiolkovsky rocket equation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

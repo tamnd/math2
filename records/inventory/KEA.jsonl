@@ -1,4 +1,4 @@
 {"id":"KEA8JXBQKS","mentions":["wikipedia://en/22069816#JV9Q"],"kind":"statement","name":"Statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"KEAXG2XZY0","mentions":["wikipedia://en/71968227#T94V"],"kind":"example","name":"Uses","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"KEAXY5E4FT","mentions":["m2://rec/wikidata/Q5161408#1","wikipedia://en/1411533"],"kind":"definition","name":"connected category","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"KEAXY5E4FT","mentions":["m2://rec/wikidata/Q5161408#1","wikipedia://en/1411533"],"kind":"concept","name":"connected category","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"KEAXZC22NY","mentions":["wikipedia://en/3675277#1KDO"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

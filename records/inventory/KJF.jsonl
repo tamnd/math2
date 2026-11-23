@@ -1,2 +1,2 @@
-{"id":"KJFCECJ1SW","mentions":["m2://rec/wikidata/Q6901642#1","wikipedia://en/4278182"],"kind":"definition","name":"monoidal functor","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"KJFCECJ1SW","mentions":["m2://rec/wikidata/Q6901642#1","wikipedia://en/4278182"],"kind":"concept","name":"monoidal functor","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"KJFV6BZ294","mentions":["wikipedia://en/11153041"],"kind":"statement","name":"Saint-Venant's principle","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,2 +1,2 @@
 {"id":"9MZHW7MWVE","mentions":["wikipedia://en/2224700"],"kind":"definition","name":"High-net-worth individual","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"9MZPDEHEDJ","mentions":["m2://rec/wikidata/Q1325769#1","wikipedia://en/696955"],"kind":"definition","name":"antisymmetric tensor","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"9MZPDEHEDJ","mentions":["m2://rec/wikidata/Q1325769#1","wikipedia://en/696955"],"kind":"concept","name":"antisymmetric tensor","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

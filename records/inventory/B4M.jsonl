@@ -1,4 +1,4 @@
-{"id":"B4M1H9KE3N","mentions":["m2://rec/wikidata/Q332407#1","wikipedia://en/2996781"],"kind":"definition","name":"absolute Galois group","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"B4M1H9KE3N","mentions":["m2://rec/wikidata/Q332407#1","wikipedia://en/2996781"],"kind":"concept","name":"absolute Galois group","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"B4M5QRQSH6","mentions":["m2://rec/open_logic/content/proof-theory/sequent-calculus/admissible-derivable.tex#ex:land-deriv#1"],"kind":"example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"B4MBF9SWW3","mentions":["m2://rec/open_logic/content/proof-theory/cut-elimination/ce-topmost.tex#prob-3#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"B4MFQC77C6","mentions":["m2://rec/lebl_scv/index/B/winding-number#1"],"kind":"concept","name":"winding number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

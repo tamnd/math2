@@ -5,5 +5,5 @@
 {"id":"7ESBNATCGF","mentions":["wikipedia://en/47738065#9T3T"],"kind":"unknown","name":"Marcello Lelli","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"7ESBRP1ETT","mentions":["wikipedia://en/7088#VR8L"],"kind":"topic","name":"Shafi Goldwasser","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"7ESGRE42YV","mentions":["m2://rec/hott_book/setmath.tex#defn-1#1"],"kind":"definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"7ESTYGYFD4","mentions":["m2://rec/wikidata/Q786286#1"],"kind":"unknown","name":"Sierpiński curve","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"7ESTYGYFD4","mentions":["m2://rec/wikidata/Q786286#1"],"kind":"concept","name":"Sierpiński curve","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"7ESX7WWTHM","mentions":["wikipedia://en/7184215"],"kind":"definition","name":"5-cube","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

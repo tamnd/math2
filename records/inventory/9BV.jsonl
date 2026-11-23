@@ -1,4 +1,4 @@
-{"id":"9BV2K1KE61","mentions":["m2://rec/wikidata/Q634557#1","wikipedia://en/982386"],"kind":"definition","name":"Killing form","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"9BV2K1KE61","mentions":["m2://rec/wikidata/Q634557#1","wikipedia://en/982386"],"kind":"concept","name":"Killing form","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"9BV3G3YDD1","mentions":["wikipedia://en/18542594#22BL"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"9BVG9J9RJ9","mentions":["wikipedia://en/6978815#KVQ2"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"9BVNF6QX15","mentions":["wikipedia://en/263886#CK6Z"],"kind":"statement","name":"Variants","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

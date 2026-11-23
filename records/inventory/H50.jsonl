@@ -1,6 +1,6 @@
 {"id":"H503BAJ0CR","mentions":["wikipedia://en/78164251"],"kind":"definition","name":"Integral of a correspondence","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"H5093BZ0D5","mentions":["m2://rec/applied_combinatorics/index/4.1/injection#1"],"kind":"concept","name":"injection","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"H50AKM0PGW","mentions":["wikipedia://en/38128#GPI1"],"kind":"statement","name":"Special cases","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"H50MZPV24E","mentions":["m2://rec/wikidata/Q623950#1","wikipedia://en/11512"],"kind":"definition","name":"fast Fourier transform","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"H50MZPV24E","mentions":["m2://rec/wikidata/Q623950#1","wikipedia://en/11512"],"kind":"concept","name":"fast Fourier transform","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"H50X4N0B3D","mentions":["wikipedia://en/51183962#LVFI"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"H50YYBN9ZZ","mentions":["wikipedia://en/20346715"],"kind":"object","name":"Schönhardt polyhedron","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

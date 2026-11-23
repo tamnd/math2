@@ -1,4 +1,4 @@
-{"id":"XRSE497TQ4","mentions":["m2://rec/wikidata/Q1862434#1","wikipedia://en/166898"],"kind":"definition","name":"knot invariant","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"XRSE497TQ4","mentions":["m2://rec/wikidata/Q1862434#1","wikipedia://en/166898"],"kind":"concept","name":"knot invariant","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"XRSFKFJD7N","mentions":["wikipedia://en/1849799#375Z"],"kind":"unknown","name":"0.999... ≠ 1","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"XRSN8DVDKX","mentions":["m2://rec/mathlib_overview/Logic and computation > Set theory > Cardinals > aleph numbers#1"],"kind":"unknown","name":"aleph numbers","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"XRSQHRZWZE","mentions":["wikipedia://en/39355285"],"kind":"topic","name":"Rajeeva Laxman Karandikar","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

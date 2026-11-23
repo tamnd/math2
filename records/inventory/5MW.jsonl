@@ -1,4 +1,4 @@
-{"id":"5MW4R63ZJ4","mentions":["m2://rec/wikidata/Q857956#1","wikipedia://en/406932"],"kind":"definition","name":"polygamma function","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"5MW4R63ZJ4","mentions":["m2://rec/wikidata/Q857956#1","wikipedia://en/406932"],"kind":"concept","name":"polygamma function","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"5MWCJFGJB0","mentions":["m2://rec/wikidata/Q3240910#1"],"kind":"definition","name":"electron cloud","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"5MWSX903WG","mentions":["wikipedia://en/44840839"],"kind":"topic","name":"Judy L. Walker","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"5MWX7B3G7F","mentions":["wikipedia://en/80505160#VTBP"],"kind":"unknown","name":"Jang-Mei Wu","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

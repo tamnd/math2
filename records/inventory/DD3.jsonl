@@ -1,4 +1,4 @@
 {"id":"DD3B67WXMP","mentions":["wikipedia://en/24836552"],"kind":"definition","name":"Mean dependence","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"DD3BC8FVDN","mentions":["wikipedia://en/844461#8OEJ"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"DD3F60H1P7","mentions":["m2://rec/wikidata/Q128032193#1"],"kind":"unknown","name":"identity functor","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"DD3F60H1P7","mentions":["m2://rec/wikidata/Q128032193#1"],"kind":"concept","name":"identity functor","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"DD3Z0R55YG","mentions":["wikipedia://en/66860#OSUS"],"kind":"definition","name":"Leibniz's notation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

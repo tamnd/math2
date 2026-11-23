@@ -1,3 +1,4 @@
+{"id":"MMKDX7VQAB","mentions":["m2://rec/wikidata/Q141878256#1"],"kind":"unknown","name":"Ahmad Eghbal","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-11-23","by":"m2/dev"}]}
 {"id":"MMKNKW3E2C","mentions":["m2://rec/lebl_diffyqs/ch-higher-order-ode.tex#exercise-19#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"MMKVFKGZM7","mentions":["wikipedia://en/8095#CPY5"],"kind":"unknown","name":"ITeX","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"MMKXKCCCK1","mentions":["m2://rec/lebl_diffyqs/ap-linear-algebra.tex#exercise-10#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

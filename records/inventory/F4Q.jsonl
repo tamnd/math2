@@ -2,4 +2,4 @@
 {"id":"F4Q4XGZKTS","mentions":["m2://rec/levin_dmoi/ptx/exercises/seq-conc.ptx#exercise-8#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"F4QQRTNY04","mentions":["m2://rec/ernst_ibl/MAAPressVersion/Sets.tex#def:intervals#1"],"kind":"definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"F4QR9B7T4A","mentions":["wikipedia://en/191457#8UNK"],"kind":"definition","name":"Dunn index","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"F4QSNJBQ8W","mentions":["m2://rec/wikidata/Q5275393#1","wikipedia://en/22279266"],"kind":"definition","name":"diffiety","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"F4QSNJBQ8W","mentions":["m2://rec/wikidata/Q5275393#1","wikipedia://en/22279266"],"kind":"concept","name":"diffiety","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

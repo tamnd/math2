@@ -1,3 +1,4 @@
 {"id":"ASRC3MCR36","mentions":["wikipedia://en/38360352"],"kind":"object","name":"Truncated order-5 pentagonal tiling","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"ASRDET5ZT1","mentions":["wikipedia://en/202661#74NX"],"kind":"statement","name":"Principle","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"ASRP9CE57Z","mentions":["m2://rec/wikidata/Q9252584#1"],"kind":"topic","name":"elementary number theory","msc":["11Axx"],"layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-23","by":"m2/dev"}]}
 {"id":"ASRPE1Z337","mentions":["wikipedia://en/193837#OGU2"],"kind":"definition","name":"S matrix","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

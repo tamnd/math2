@@ -3,4 +3,4 @@
 {"id":"9JF7MG9RVX","mentions":["wikipedia://en/56275141"],"kind":"topic","name":"Ildar Ibragimov","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"9JFAB9T8A4","mentions":["m2://rec/wikidata/Q1748985#1","wikipedia://en/475035"],"kind":"definition","name":"pseudoscalar","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"9JFBRP2RHD","mentions":["wikipedia://en/13143#TZW9"],"kind":"statement","name":"Special cases","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}],"proofs":["wikipedia://en/13143#07LX"]}
-{"id":"9JFGB6SR8Q","mentions":["m2://rec/wikidata/Q5754369#1","wikipedia://en/34143255"],"kind":"definition","name":"Higgs bundle","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"9JFGB6SR8Q","mentions":["m2://rec/wikidata/Q5754369#1","wikipedia://en/34143255"],"kind":"concept","name":"Higgs bundle","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

@@ -1,4 +1,4 @@
 {"id":"ZS26HTGPDG","mentions":["wikipedia://en/47738065#WUPT"],"kind":"topic","name":"John Irwin Hutchinson","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"ZS2AN5QQPQ","mentions":["m2://rec/wikidata/Q93344#1","wikipedia://en/30367"],"kind":"definition","name":"trigonometric function","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"ZS2AN5QQPQ","mentions":["m2://rec/wikidata/Q93344#1","wikipedia://en/30367"],"kind":"concept","name":"trigonometric function","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"ZS2CEM0SXM","mentions":["wikipedia://en/7181855#6LC5"],"kind":"statement","name":"The origin of the conjecture","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"ZS2CQX59KJ","mentions":["wikipedia://en/13510193#HMEW"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

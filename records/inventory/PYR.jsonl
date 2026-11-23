@@ -1,4 +1,4 @@
-{"id":"PYR3BDYVPS","mentions":["m2://rec/wikidata/Q824282#1","wikipedia://en/10412"],"kind":"definition","name":"elementary function","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"PYR3BDYVPS","mentions":["m2://rec/wikidata/Q824282#1","wikipedia://en/10412"],"kind":"concept","name":"elementary function","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"PYRA11RHXT","mentions":["wikipedia://en/47738065#M7NU"],"kind":"topic","name":"Antonio Giorgilli","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"PYRJBB2V74","mentions":["wikipedia://en/166086#TOZ2"],"kind":"example","name":"Application","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"PYRM53K298","mentions":["m2://rec/wikidata/Q110609911#1"],"kind":"unknown","name":"relativistic astrophysics","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

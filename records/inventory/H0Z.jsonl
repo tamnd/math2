@@ -1,4 +1,4 @@
-{"id":"H0Z704JN0S","mentions":["m2://rec/wikidata/Q610232#1","wikipedia://en/596600"],"kind":"definition","name":"relatively compact subspace","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"H0Z704JN0S","mentions":["m2://rec/wikidata/Q610232#1","wikipedia://en/596600"],"kind":"concept","name":"relatively compact subspace","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"H0ZH6KENHT","mentions":["m2://rec/wikidata/Q2479234#1"],"kind":"unknown","name":"Jastrow illusion","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"H0ZMCQYWZ3","mentions":["wikipedia://en/2336226#XSUL"],"kind":"statement","name":"De Giorgi's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"H0ZTY5605C","mentions":["wikipedia://en/1442361"],"kind":"definition","name":"Four-bar linkage","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

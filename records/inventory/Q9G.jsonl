@@ -2,4 +2,4 @@
 {"id":"Q9GHSTP1D1","mentions":["wikipedia://en/56398#SX1O"],"kind":"unknown","name":"Alloy phase diagram","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"Q9GM530F2K","mentions":["wikipedia://en/26898094#504N"],"kind":"statement","name":"Implications for the expected utility hypothesis","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"Q9GN4XXQ1S","mentions":["wikipedia://en/4157474"],"kind":"object","name":"Great ditrigonal dodecicosidodecahedron","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"Q9GPCG77DT","mentions":["m2://rec/wikidata/Q93639136#1"],"kind":"unknown","name":"edge cover number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"Q9GPCG77DT","mentions":["m2://rec/wikidata/Q93639136#1"],"kind":"concept","name":"edge cover number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

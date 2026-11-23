@@ -3,4 +3,4 @@
 {"id":"2R1EMQED7X","mentions":["m2://rec/wikidata/Q1495569#1","wikipedia://en/16812921"],"kind":"topic","name":"Gaston Floquet","layer":"textbook","spread":2,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"2R1P6KPM9T","mentions":["wikipedia://en/16507553"],"kind":"definition","name":"Core damage frequency","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"2R1SV1D42F","mentions":["wikipedia://en/22054660"],"kind":"definition","name":"Treynor–Black model","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"2R1TRQ0XSG","mentions":["m2://rec/wikidata/Q1685841#1"],"kind":"unknown","name":"space curve","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"2R1TRQ0XSG","mentions":["m2://rec/wikidata/Q1685841#1"],"kind":"concept","name":"space curve","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

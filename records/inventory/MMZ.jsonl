@@ -1,4 +1,4 @@
 {"id":"MMZ64X07P5","mentions":["wikipedia://en/57411"],"kind":"definition","name":"Multiplication algorithm","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"MMZ9ZKRX8B","mentions":["m2://rec/wikidata/Q117834946#1","wikipedia://en/31526496"],"kind":"definition","name":"orthoptic curve","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}],"proofs":["wikipedia://en/31526496#A1SM"]}
+{"id":"MMZ9ZKRX8B","mentions":["m2://rec/wikidata/Q117834946#1","wikipedia://en/31526496"],"kind":"concept","name":"orthoptic curve","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}],"proofs":["wikipedia://en/31526496#A1SM"]}
 {"id":"MMZB6H9X37","mentions":["wikipedia://en/2529101"],"kind":"definition","name":"Banzhaf power index","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"MMZDZ6XKVD","mentions":["m2://rec/wikidata/Q3107191#1"],"kind":"unknown","name":"squark","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

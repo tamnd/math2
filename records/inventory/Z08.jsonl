@@ -1,2 +1,2 @@
-{"id":"Z086K6GTTE","mentions":["m2://rec/wikidata/Q7644139#1","wikipedia://en/3028216"],"kind":"definition","name":"supersingular elliptic curve","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"Z086K6GTTE","mentions":["m2://rec/wikidata/Q7644139#1","wikipedia://en/3028216"],"kind":"concept","name":"supersingular elliptic curve","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"Z08EMY014K","mentions":["wikipedia://en/71367805"],"kind":"definition","name":"Burnett equations","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

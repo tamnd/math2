@@ -1,4 +1,4 @@
-{"id":"PG382GJRF6","mentions":["m2://rec/wikidata/Q3477031#1"],"kind":"unknown","name":"second Royle graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"PG382GJRF6","mentions":["m2://rec/wikidata/Q3477031#1"],"kind":"concept","name":"second Royle graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"PG3AZV96VA","mentions":["m2://rec/wikidata/Q3101020#1","wikipedia://en/4157372"],"kind":"object","name":"great cubicuboctahedron","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"PG3GQV9YP6","mentions":["wikipedia://en/32135416#NAMC"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"PG3H59YXHW","mentions":["wikipedia://en/591280"],"kind":"statement","name":"Kirchhoff's law of thermal radiation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

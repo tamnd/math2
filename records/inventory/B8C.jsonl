@@ -1,4 +1,4 @@
 {"id":"B8C00NJVCX","mentions":["m2://rec/wikidata/Q1048949#1","wikipedia://en/1697216"],"kind":"definition","name":"cofibration","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"B8C9D2FZZ9","mentions":["wikipedia://en/70492039"],"kind":"definition","name":"University of Liverpool Mathematics School","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"B8CAW1MM7V","mentions":["m2://rec/wikidata/Q124684079#1"],"kind":"unknown","name":"Fourier sine transform","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"B8CAW1MM7V","mentions":["m2://rec/wikidata/Q124684079#1"],"kind":"concept","name":"Fourier sine transform","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"B8CJE0M2EN","mentions":["wikipedia://en/31575765"],"kind":"statement","name":"Haynsworth inertia additivity formula","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

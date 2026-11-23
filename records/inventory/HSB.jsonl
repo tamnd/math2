@@ -3,4 +3,4 @@
 {"id":"HSB8RVNZWQ","mentions":["wikipedia://en/191305"],"kind":"definition","name":"Mortality rate","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"HSBH8NGC8V","mentions":["wikipedia://en/2350459"],"kind":"topic","name":"Jeffrey H. Smith","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"HSBPB99WJ6","mentions":["wikipedia://en/18568#33RJ"],"kind":"unknown","name":"Global illumination","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"HSBQV3NNHT","mentions":["m2://rec/wikidata/Q5014001#1","wikipedia://en/3131794"],"kind":"definition","name":"CR manifold","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"HSBQV3NNHT","mentions":["m2://rec/wikidata/Q5014001#1","wikipedia://en/3131794"],"kind":"concept","name":"CR manifold","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

@@ -5,5 +5,5 @@
 {"id":"13QTCR2XSE","mentions":["wikipedia://en/203996"],"kind":"definition","name":"Bayesian network","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"13QVDTJMKX","mentions":["wikipedia://en/1042164#SMDS"],"kind":"definition","name":"correspondence","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"13QWD6CCVN","mentions":["wikipedia://en/838151#0VF4"],"kind":"statement","name":"Hilbert's discarded axiom","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"13QXPFGP0W","mentions":["m2://rec/lebl_scv/scv.tex#defn-3#1"],"kind":"definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"13QXPFGP0W","mentions":["m2://rec/lebl_scv/scv.tex#defn-3#1"],"kind":"definition","layer":"textbook","spread":1,"outcome":{"value":"node","target":["WQHHB5GDDS"],"reason":"a node names the record of the item in its sources (corpus spec K4.4)","rule":"textbook-node","by":"m2/dev"},"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"},{"op":"outcome","at":"2026-11-23","by":"m2/dev","note":"node WQHHB5GDDS"}]}
 {"id":"13QYK95JCA","mentions":["wikipedia://en/66447764"],"kind":"topic","name":"Azat Miftakhov","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

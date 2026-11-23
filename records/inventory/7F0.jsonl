@@ -1,5 +1,5 @@
 {"id":"7F00AD6PF2","mentions":["wikipedia://en/74820340#U2L3"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"7F030D7WZA","mentions":["m2://rec/wikidata/Q5051810#1","wikipedia://en/10072717"],"kind":"definition","name":"categorical distribution","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"7F030D7WZA","mentions":["m2://rec/wikidata/Q5051810#1","wikipedia://en/10072717"],"kind":"concept","name":"categorical distribution","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"7F06KNZCYS","mentions":["wikipedia://en/10399346"],"kind":"definition","name":"Lagrange multipliers on Banach spaces","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"7F0BWMY2XH","mentions":["wikipedia://en/43283728"],"kind":"definition","name":"The Tor Project","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"7F0E3JH0S7","mentions":["wikipedia://en/537026#SOEV"],"kind":"unknown","name":"Fermi's interaction","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,3 +1,3 @@
-{"id":"6MR5C3J5TG","mentions":["m2://rec/wikidata/Q15297198#1"],"kind":"unknown","name":"mechanical system","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"6MR5C3J5TG","mentions":["m2://rec/wikidata/Q15297198#1"],"kind":"concept","name":"mechanical system","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"6MR926WKHD","mentions":["wikipedia://en/10013#YX9C"],"kind":"unknown","name":"Evidence quality","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"6MRGAQDS4S","mentions":["m2://rec/napkin/tex/homology/long-exact.tex#thm:long_exact#1"],"kind":"statement","name":"Short exact $\\implies$ long exact","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

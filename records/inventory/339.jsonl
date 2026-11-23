@@ -1,4 +1,4 @@
-{"id":"3395FRYXFJ","mentions":["m2://rec/wikidata/Q2001831#1"],"kind":"unknown","name":"bicuspid curve","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"3395FRYXFJ","mentions":["m2://rec/wikidata/Q2001831#1"],"kind":"concept","name":"bicuspid curve","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"339AQM0HNW","mentions":["wikipedia://en/77208094"],"kind":"definition","name":"Kṛṣṇa Daivajña","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"339BB5NT5G","mentions":["wikipedia://en/79355409#8CH8"],"kind":"definition","name":"Construction","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"339BEGSDFG","mentions":["wikipedia://en/872175#3Z7V"],"kind":"statement","name":"General principles","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

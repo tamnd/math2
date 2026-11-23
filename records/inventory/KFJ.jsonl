@@ -1,2 +1,2 @@
 {"id":"KFJERCZY6H","mentions":["wikipedia://en/73888681"],"kind":"topic","name":"Marcel F. Neuts","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"KFJPY88J7T","mentions":["m2://rec/wikidata/Q8424307#1"],"kind":"unknown","name":"number with finite decimal representation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"KFJPY88J7T","mentions":["m2://rec/wikidata/Q8424307#1"],"kind":"concept","name":"number with finite decimal representation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

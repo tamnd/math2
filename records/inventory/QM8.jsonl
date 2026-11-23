@@ -1,5 +1,5 @@
 {"id":"QM8627WADZ","mentions":["wikipedia://en/51140705#O9U3"],"kind":"unknown","name":"Loni Tabb","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"QM8816Q525","mentions":["m2://rec/wikidata/Q46996054#1"],"kind":"unknown","name":"real vector space","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"QM8816Q525","mentions":["m2://rec/wikidata/Q46996054#1"],"kind":"concept","name":"real vector space","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"QM8D8H3VNK","mentions":["wikipedia://en/649861#5R1A"],"kind":"unknown","name":"Al-Khwarizmi Concerning the Hindu Art of Reckoning","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"QM8EA9ZP8X","mentions":["wikipedia://en/53970843#67UY"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"QM8TF5NCHP","mentions":["wikipedia://en/47738065#LPI4"],"kind":"topic","name":"Kai Cieliebak","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

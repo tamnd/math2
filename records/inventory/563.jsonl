@@ -2,4 +2,4 @@
 {"id":"56398ZKTCS","mentions":["wikipedia://en/33358296"],"kind":"definition","name":"Ince equation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"5639X8EEN9","mentions":["wikipedia://en/37551761"],"kind":"topic","name":"Nicholas Varopoulos","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"563CZ4B28K","mentions":["wikipedia://en/22385144#YR5V"],"kind":"unknown","name":"Split form","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"563VP38X3C","mentions":["m2://rec/wikidata/Q3115454#1"],"kind":"unknown","name":"self-dual graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"563VP38X3C","mentions":["m2://rec/wikidata/Q3115454#1"],"kind":"concept","name":"self-dual graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

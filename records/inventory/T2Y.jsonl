@@ -1,2 +1,2 @@
 {"id":"T2YQE1D6WZ","mentions":["wikipedia://en/63120695"],"kind":"topic","name":"Regina Nuzzo","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"T2YYM72GSQ","mentions":["m2://rec/wikidata/Q2032198#1","wikipedia://en/210091"],"kind":"definition","name":"reflexive space","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"T2YYM72GSQ","mentions":["m2://rec/wikidata/Q2032198#1","wikipedia://en/210091"],"kind":"concept","name":"reflexive space","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

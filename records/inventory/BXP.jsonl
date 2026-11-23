@@ -2,4 +2,4 @@
 {"id":"BXPGK7HPSP","mentions":["wikipedia://en/241820#3AX7","wikipedia://en/241820#DWQJ","wikipedia://en/517370#7440"],"kind":"definition","name":"Icosagon","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"BXPMVDJ9C2","mentions":["wikipedia://en/153008#45T8"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"BXPQPKXKHR","mentions":["wikipedia://en/17740009"],"kind":"definition","name":"Topological data analysis","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"BXPSY35Z6J","mentions":["m2://rec/wikidata/Q131367988#1"],"kind":"unknown","name":"centipede graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"BXPSY35Z6J","mentions":["m2://rec/wikidata/Q131367988#1"],"kind":"concept","name":"centipede graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

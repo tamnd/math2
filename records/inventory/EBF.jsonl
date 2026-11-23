@@ -1,4 +1,4 @@
 {"id":"EBF3W8Y3PA","mentions":["wikipedia://en/2070188#4U4M"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"EBFD76H2T0","mentions":["wikipedia://en/40557029"],"kind":"topic","name":"Alfred Legoyt","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"EBFEVKYZZ8","mentions":["m2://rec/wikidata/Q3997740#1","wikipedia://en/1382381"],"kind":"definition","name":"orthogonal transformation","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"EBFEVKYZZ8","mentions":["m2://rec/wikidata/Q3997740#1","wikipedia://en/1382381"],"kind":"concept","name":"orthogonal transformation","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"EBFM6PHTBJ","mentions":["m2://rec/wikidata/Q8216221#1","wikipedia://en/173981"],"kind":"definition","name":"uncorrelatedness","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

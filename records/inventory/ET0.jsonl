@@ -1,5 +1,5 @@
 {"id":"ET07EGWVJY","mentions":["wikipedia://en/11353703#PWYV"],"kind":"topic","name":"Adi Shamir","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"ET07VTHRT2","mentions":["m2://rec/wikidata/Q5137654#1","wikipedia://en/3226011"],"kind":"definition","name":"coadjoint representation","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"ET07VTHRT2","mentions":["m2://rec/wikidata/Q5137654#1","wikipedia://en/3226011"],"kind":"concept","name":"coadjoint representation","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"ET08CHASQX","mentions":["wikipedia://en/22609470#OB3X"],"kind":"definition","name":"Ext functor","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"ET0KG74PGG","mentions":["wikipedia://en/17644838#M7IB"],"kind":"statement","name":"Inversion formula","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"ET0ZXAQH06","mentions":["wikipedia://en/1098209"],"kind":"topic","name":"List of mathematical societies","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

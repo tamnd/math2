@@ -1,4 +1,4 @@
-{"id":"REN072THGZ","mentions":["m2://rec/wikidata/Q192161#1","wikipedia://en/10939"],"kind":"definition","name":"formal language","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"REN072THGZ","mentions":["m2://rec/wikidata/Q192161#1","wikipedia://en/10939"],"kind":"concept","name":"formal language","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"REN9ZG90EG","mentions":["m2://rec/napkin/tex/calculus/differentiate.tex#example-3#1"],"kind":"example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"RENRVYMG48","mentions":["wikipedia://en/18882483"],"kind":"definition","name":"Milnor number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"RENYM4DBDC","mentions":["wikipedia://en/36842500"],"kind":"definition","name":"Brauer–Wall group","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

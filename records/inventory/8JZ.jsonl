@@ -1,6 +1,6 @@
 {"id":"8JZ66G2CCN","mentions":["wikipedia://en/70361989#8IV6"],"kind":"definition","name":"linear algebra","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"8JZA91A5AN","mentions":["wikipedia://en/660973#4FY2"],"kind":"unknown","name":"P-form electrodynamics","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"8JZAYWPQYV","mentions":["wikipedia://en/34983797#Z1AI"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"8JZHHZKSK5","mentions":["m2://rec/wikidata/Q180188#1","wikipedia://en/3126406"],"kind":"definition","name":"Beta prime distribution","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"8JZHHZKSK5","mentions":["m2://rec/wikidata/Q180188#1","wikipedia://en/3126406"],"kind":"concept","name":"Beta prime distribution","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"8JZMB8AXA8","mentions":["wikipedia://en/66618018#UAX9"],"kind":"unknown","name":"EYH","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"8JZSZ37HG4","mentions":["wikipedia://en/47738065#1JC6"],"kind":"topic","name":"Pierre Humbert","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

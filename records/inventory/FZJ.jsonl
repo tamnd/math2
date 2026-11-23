@@ -1,3 +1,3 @@
-{"id":"FZJAKS8C4G","mentions":["m2://rec/wikidata/Q20878963#1","wikipedia://en/47882363"],"kind":"definition","name":"universal space","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"FZJAKS8C4G","mentions":["m2://rec/wikidata/Q20878963#1","wikipedia://en/47882363"],"kind":"concept","name":"universal space","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"FZJNF13FCX","mentions":["wikipedia://en/60012#ACCF"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"FZJQNZCH1J","mentions":["wikipedia://en/2374187#VGUT"],"kind":"definition","name":"Eulerian number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,6 +1,6 @@
 {"id":"4KC06TH6AA","mentions":["wikipedia://en/47738065#EPOX"],"kind":"topic","name":"Yitang Zhang","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"4KCA8S5PNF","mentions":["wikipedia://en/191457#0RME"],"kind":"definition","name":"Normal-scaled inverse gamma distribution","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"4KCAVB8YWT","mentions":["m2://rec/wikidata/Q1385462#1","wikipedia://en/5783949"],"kind":"definition","name":"extremally disconnected space","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"4KCAVB8YWT","mentions":["m2://rec/wikidata/Q1385462#1","wikipedia://en/5783949"],"kind":"concept","name":"extremally disconnected space","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"4KCBXY46RA","mentions":["wikipedia://en/62881966"],"kind":"definition","name":"Representation theory of semisimple Lie algebras","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"4KCF2TAN79","mentions":["m2://rec/wikidata/Q67197651#1"],"kind":"object","name":"Zumkeller number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"4KCHGWYE76","mentions":["m2://rec/lebl_ra/index/1.5.1/isolated-singularity#1"],"kind":"concept","name":"isolated singularity","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

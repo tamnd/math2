@@ -1,4 +1,4 @@
-{"id":"S69DBFA7K1","mentions":["m2://rec/wikidata/Q141500197#1"],"kind":"unknown","name":"inconsistent equation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"S69DBFA7K1","mentions":["m2://rec/wikidata/Q141500197#1"],"kind":"concept","name":"inconsistent equation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"S69E73R3Y5","mentions":["wikipedia://en/77555929"],"kind":"topic","name":"Cristiana De Filippis","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"S69M5KX9GZ","mentions":["m2://rec/open_logic/content/incompleteness/arithmetization-syntax/proofs-in-lk.tex#proof-3#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"S69SBMENX6","mentions":["wikipedia://en/241820#3KIS"],"kind":"unknown","name":"Polymer","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

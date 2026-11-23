@@ -1,5 +1,5 @@
 {"id":"3645281BJ9","mentions":["m2://rec/napkin/tex/H113/ring-intro.tex#example-10#1"],"kind":"example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"364AN1XX1W","mentions":["m2://rec/wikidata/Q113481001#1"],"kind":"unknown","name":"type I minimum value distribution","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"364AN1XX1W","mentions":["m2://rec/wikidata/Q113481001#1"],"kind":"concept","name":"type I minimum value distribution","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"364AYF885M","mentions":["wikipedia://en/353748#EJ8V"],"kind":"statement","name":"Linear speedup theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"364DVWQSG3","mentions":["wikipedia://en/27960249"],"kind":"definition","name":"Parasitic oscillation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"364E7R50DM","mentions":["wikipedia://en/30670886#L0HA"],"kind":"unknown","name":"End-around borrow","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

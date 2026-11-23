@@ -2,4 +2,4 @@
 {"id":"N31BS85HCQ","mentions":["wikipedia://en/1793258#S06Y"],"kind":"statement","name":"Corollary 2 (Titchmarsh, 5.51, improved)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}],"proofs":["wikipedia://en/1793258#NG56"]}
 {"id":"N31E6STM5A","mentions":["wikipedia://en/24697098#L9PU"],"kind":"statement","name":"Statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"N31J92RH8R","mentions":["wikipedia://en/26640478"],"kind":"topic","name":"György Elekes","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"N31V8GPAKQ","mentions":["m2://rec/wikidata/Q3366885#1","wikipedia://en/23234121"],"kind":"definition","name":"constructible set","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"N31V8GPAKQ","mentions":["m2://rec/wikidata/Q3366885#1","wikipedia://en/23234121"],"kind":"concept","name":"constructible set","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

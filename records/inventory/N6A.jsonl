@@ -1,4 +1,4 @@
 {"id":"N6ABWTNSEX","mentions":["m2://rec/hott_book/setmath.tex#ex:choice-function#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"N6AF6BZF4Z","mentions":["wikipedia://en/51140705#4XV9"],"kind":"unknown","name":"William A. Barnett","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"N6AN458M4D","mentions":["m2://rec/wikidata/Q3115533#1"],"kind":"unknown","name":"Soifer Graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"N6AN458M4D","mentions":["m2://rec/wikidata/Q3115533#1"],"kind":"concept","name":"Soifer Graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"N6AQCFXRK3","mentions":["wikipedia://en/29232472#I2WU"],"kind":"topic","name":"Sergei Novikov","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

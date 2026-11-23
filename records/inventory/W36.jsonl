@@ -1,4 +1,4 @@
 {"id":"W3624QCWKW","mentions":["wikipedia://en/55503854#LQ5R"],"kind":"unknown","name":"Bayesian problem of old evidence","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"W369H6GYNW","mentions":["wikipedia://en/52445029"],"kind":"definition","name":"Canadian Census of Agriculture","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"W36FDRF485","mentions":["wikipedia://en/38449#FYDQ"],"kind":"definition","name":"Representation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"W36ZE8YHG6","mentions":["m2://rec/wikidata/Q28490366#1"],"kind":"unknown","name":"Zoomeron equation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"W36ZE8YHG6","mentions":["m2://rec/wikidata/Q28490366#1"],"kind":"concept","name":"Zoomeron equation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

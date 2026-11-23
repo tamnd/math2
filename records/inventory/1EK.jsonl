@@ -1,4 +1,4 @@
-{"id":"1EK2JBXX0Z","mentions":["m2://rec/wikidata/Q1014612#1","wikipedia://en/3108161"],"kind":"definition","name":"parallelizable manifold","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"1EK2JBXX0Z","mentions":["m2://rec/wikidata/Q1014612#1","wikipedia://en/3108161"],"kind":"concept","name":"parallelizable manifold","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"1EK3D89MC6","mentions":["m2://rec/applied_combinatorics/source/s_inclusion-exclusion_exercises.ptx#exercise-13#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"1EKCWW6JBM","mentions":["wikipedia://en/407039#B9L0"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"1EKP2NAFDX","mentions":["wikipedia://en/24141211#G6ND"],"kind":"statement","name":"Hadwiger's principal theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
