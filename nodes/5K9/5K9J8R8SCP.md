@@ -37,6 +37,8 @@ The term $\ulcorner \varphi^*(\dot{x}_1, \dots, \dot{x}_n) \urcorner$ gives, at 
 The *quantified provability logic of* $\mathsf{PA}$ is the following set.
 $$\mathsf{QPL}(\mathsf{PA}) = \{\varphi : \varphi \text{ is a sentence of } L_\square \text{ and } \mathsf{PA} \vdash \varphi^* \text{ for every realization } * \}.$$
 
+### The theorem and its corollary
+
 **Theorem (Vardanyan, 1986).** The set $\mathsf{QPL}(\mathsf{PA})$ is $\Pi^0_2$-complete.
 That is, it is $\Pi^0_2$ in the [[arithmetical hierarchy|7CVJCQKY41]], and every $\Pi^0_2$ subset of $\mathbb{N}$ is [[many-one reducible|JTAH37JTHD]] to it.
 

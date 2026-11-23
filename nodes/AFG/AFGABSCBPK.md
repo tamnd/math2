@@ -20,6 +20,8 @@ $$\square p \leftrightarrow (\neg p \rhd \bot).$$
 We derive it from the axioms.
 Recall that $\lozenge \varphi$ abbreviates $\neg \square \neg \varphi$, and that $\mathsf{IL}$ contains the axiom K, $\square(\varphi \to \psi) \to (\square \varphi \to \square \psi)$, and the rule of [[necessitation|G989VP2NGP]].
 
+### From the box to interpretability
+
 The direction from left to right uses J1.
 
 1. The formula $p \to (\neg p \to \bot)$ is a [[tautology|05006AJ7DZ]], so it is an axiom.
@@ -27,6 +29,8 @@ The direction from left to right uses J1.
 3. Axiom K and modus ponens give $\square p \to \square(\neg p \to \bot)$.
 4. Axiom J1 with $\neg p$ for $p$ and $\bot$ for $q$ is $\square(\neg p \to \bot) \to \neg p \rhd \bot$.
 5. Steps 3 and 4 and the tautology $(a \to b) \to ((b \to c) \to (a \to c))$ give $\square p \to (\neg p \rhd \bot)$.
+
+### From interpretability to the box
 
 The direction from right to left uses J4 and $\vdash \square \top$, where $\top$ is $\neg \bot$.
 

@@ -42,7 +42,7 @@ The [[proof of the de Jongh-Sambin theorem|6T82THKX5M]] proves parts 2, 3 and 4 
 ### A first computation
 
 The first case to know is $A(p) = \neg \square p$, the equation of the Gödel sentence.
-Part 3 with $B(x) = \neg x$ and $C(p) = p$ gives $B(\top) = \bot$ and $H = \neg \square \neg \bot$, which is equivalent to $\neg \square \bot$.
+Part 3 with $B(x) = \neg x$ and $C(p) = p$ gives $B(\top) = \neg \top$, which is equivalent to $\bot$, and then $H = \neg \square \neg \top$, which is equivalent to $\neg \square \bot$.
 So the equation is solved by the consistency statement:
 
 $$\mathsf{GL} \vdash \neg \square \bot \leftrightarrow \neg \square \neg \square \bot.$$
