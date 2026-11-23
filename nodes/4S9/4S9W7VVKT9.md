@@ -19,14 +19,14 @@ sources:
 We show inside $T$ that $\mathrm{Con}(T)$ implies the Gödel sentence, and then we apply the first incompleteness theorem.
 
 Write $\square \varphi$ for $\mathrm{Prov}_T(\ulcorner \varphi \urcorner)$, and write $\bot$ for the sentence $0 = S0$, so that $\mathrm{Con}(T)$ is $\neg \square \bot$.
-The [[derivability conditions|F6H4STF9RG]] hold for $T$:
-D1 says that $T \vdash \varphi$ gives $T \vdash \square \varphi$;
-D2 says that $T \vdash \square (\varphi \to \psi) \to (\square \varphi \to \square \psi)$;
+The [[derivability conditions|F6H4STF9RG]] hold for $T$.
+D1 says that $T \vdash \varphi$ gives $T \vdash \square \varphi$.
+D2 says that $T \vdash \square (\varphi \to \psi) \to (\square \varphi \to \square \psi)$.
 D3 says that $T \vdash \square \varphi \to \square \square \varphi$.
 From D1 and D2 we get the rule (M): if $T \vdash \varphi \to \psi$, then $T \vdash \square \varphi \to \square \psi$.
 
 1. By the [[diagonal lemma|3PRW76471J]], we fix a sentence $G$ with $T \vdash G \leftrightarrow \neg \square G$.
-2. By contraposition of the direction from right to left in step 1, $T \vdash \square G \to \neg G$.
+2. Step 1 gives $T \vdash G \to \neg \square G$, and contraposition gives $T \vdash \square G \to \neg G$.
 3. We apply (M) to step 2 and get $T \vdash \square \square G \to \square \neg G$.
 4. D3 gives $T \vdash \square G \to \square \square G$.
    Together with step 3, $T \vdash \square G \to \square \neg G$.
