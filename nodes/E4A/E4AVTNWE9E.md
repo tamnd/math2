@@ -29,8 +29,8 @@ Robinson arithmetic is the key example, because every consistent theory that con
 
 ### Reading order
 
-1. [[Entscheidungsproblem|DJNYM72Z4G]]: see the question that started the subject and why it needed a precise notion of algorithm.
-2. [[Decidable theory|HWC687ES0Q]]: learn the difference between decidable, computably enumerable and axiomatizable theories, and why complete axiomatizable theories are decidable.
+1. [[Entscheidungsproblem|DJNYM72Z4G]]: see the question that started the subject.
+2. [[Decidable theory|HWC687ES0Q]]: learn why complete axiomatizable theories are decidable.
 3. [[Church's theorem|VA6BNNY2YC]]: see why validity in first-order logic is semi-decidable but not decidable.
 4. [[Trakhtenbrot's theorem|XP6FW2WDWT]]: see why validity in finite structures is not even semi-decidable.
 5. [[Monadic predicate calculus|SERN6CRVWW]]: decide sentences about unary predicates by counting elements of each type.
@@ -39,13 +39,13 @@ Robinson arithmetic is the key example, because every consistent theory that con
 8. [[Guarded fragment|Y7YS1C3GAE]]: relativize quantifiers to atoms and get a decidable logic that contains modal logic.
 9. [[Presburger arithmetic|4W0E9G7PPV]]: decide the theory of addition on the natural numbers by quantifier elimination.
 10. [[Skolem arithmetic|X86G2FXTPC]]: decide the theory of multiplication on the natural numbers through prime factorizations.
-11. [[Büchi arithmetic|NSTECGT93D]]: add the function $V_k$ to Presburger arithmetic and read numbers as words for finite automata.
+11. [[Büchi arithmetic|NSTECGT93D]]: read numbers as words for finite automata.
 12. [[Büchi-Elgot-Trakhtenbrot theorem|AK66XQ59Z3]]: see that monadic second-order logic on finite words defines exactly the regular languages.
 13. [[Büchi's theorem on S1S|YPDXVTH5JR]]: decide the monadic second-order theory of the successor function with automata on infinite words.
 14. [[Rabin's tree theorem|PXKKP038RG]]: extend the automata method to the infinite binary tree.
 15. [[Courcelle's theorem|DD4JB8XJ5A]]: check monadic second-order properties in linear time on graphs of bounded treewidth.
 16. [[Seese's theorem|RT898AFHWT]]: see why a decidable monadic second-order theory of graphs forces bounded treewidth.
-17. [[Essential undecidability|9JDDFN8PT7]]: learn why every consistent extension of Robinson arithmetic is undecidable, and how interpretations transfer undecidability.
+17. [[Essential undecidability|9JDDFN8PT7]]: learn why every consistent extension of Robinson arithmetic is undecidable.
 
 ### Prerequisites
 
