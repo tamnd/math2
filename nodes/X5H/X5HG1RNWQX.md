@@ -27,53 +27,72 @@ sources:
 
 ## Summary
 
-A proof by algorithm proves that an object exists by giving a procedure that builds it, together with two proofs about the procedure.
-The proof of *termination* shows that the procedure stops after finitely many steps on each allowed input.
-The proof of *correctness* shows that the output, when the procedure stops, has the required property.
-Termination is usually proved with a quantity that takes values in the natural numbers and decreases strictly at each step, so the [[well-ordering principle|01BX15HSRR]] forbids an infinite run.
-Correctness is usually proved with an *invariant*, a statement that holds at the start and that each step preserves, combined with the stopping condition.
-The method matters because it gives existence and a way to compute the object at once, and because the same two proofs make a computer program trustworthy.
+A proof by algorithm shows that an object exists by giving a procedure that builds it, and then proving two things: the procedure stops, and what it returns is correct.
+
+Here is the pattern on a real goal: the [[Euclidean algorithm|0TRNT4X7J0]] returns the [[greatest common divisor|0C8WYW4KYQ]] of integers $a > b > 0$.
+Put $r_0 = a$ and $r_1 = b$, and while $r_i \neq 0$ let $r_{i+1}$ be the remainder of $r_{i-1}$ on division by $r_i$.
+Termination: $r_1 > r_2 > \cdots \ge 0$ is a strictly decreasing sequence of natural numbers, so it reaches $0$ after finitely many steps.
+Invariant: $\gcd(r_{i-1}, r_i) = \gcd(r_i, r_{i+1})$, since $r_{i+1} = r_{i-1} - q_i r_i$, so the two pairs have the same common divisors.
+At the stop $r_{n+1} = 0$, so $\gcd(a, b) = \gcd(r_n, 0) = r_n$, the last non-zero remainder.
+
+In general, *termination* is proved with a natural number that decreases strictly at each step, so the [[well-ordering principle|01BX15HSRR]] forbids an infinite run.
+*Correctness* is proved with an *invariant*, a statement true at the start and kept by each step, combined with the stopping condition.
 
 ## Motivation
 
-Many existence theorems are proved by a description of how to find the object.
-The [[greatest common divisor|0C8WYW4KYQ]] of two integers is a combination $ax + by$, and the [[Euclidean algorithm|0TRNT4X7J0]] finds $x$ and $y$.
+Many existence theorems are proved by describing how to find the object.
+The greatest common divisor is a combination $ax + by$, and the Euclidean algorithm finds $x$ and $y$.
 Every matrix can be brought to [[row echelon form|0VYCDGMJJJ]], and [[Gaussian elimination|0JVJ2WCXZH]] does it.
 For $n$ men and $n$ women who rank each other, a stable matching exists, and the [[Gale-Shapley algorithm|CHWQVJ9F5K]] finds one.
+
 A description of a procedure is not yet a proof.
-It becomes a proof when we show that the procedure always stops and that its result is always correct.
-This is a [[constructive proof|01XM7JEKHY]] in an organized form: the construction is split into repeated simple steps, and each step is checked once.
+It becomes one when we show that the procedure always stops and that its result is always correct.
+This is a [[constructive proof|01XM7JEKHY]] in organized form: the construction is split into repeated simple steps, and each step is checked once.
+The reward is double: the proof gives existence and a way to compute the object, and the same two arguments make a computer program trustworthy.
 
 ## Notation
 
-1. A procedure is often written as pseudocode with a loop: "while condition, do step".
-2. The decreasing quantity of a termination proof is called a *variant*, a *ranking function*, a *potential* or a *monovariant*, depending on the field.
-3. A statement preserved by each pass through a loop is called a *loop invariant*. In [[Hoare logic|H1M6RSBJ5H]] the rule for loops uses it.
-4. Proofs about a run often index the values by the step: $r_0, r_1, r_2, \ldots$ for the successive values of a variable $r$.
+A procedure is often written as a loop: "while a condition holds, do a step".
+The decreasing quantity of a termination proof is called a *variant*, a *ranking function*, a *potential* or a *monovariant*, depending on the field.
+A statement kept by each pass through a loop is a *loop invariant*, and the loop rule of [[Hoare logic|H1M6RSBJ5H]] is built on it.
+Proofs about a run index the values by the step, as $r_0, r_1, r_2, \ldots$ for the successive values of a variable $r$.
 
 ## Remarks
 
-### Examples
+### Why both proofs are needed
 
-1. [[The extended Euclidean algorithm proves Bézout's identity|226SFHQ3ER]]: the remainders decrease, so the algorithm stops, and the invariant $r_i = a s_i + b t_i$ gives the identity at the end.
-2. [[The greedy algorithm for Egyptian fractions|KR6HBC26YV]]: each rational number between $0$ and $1$ is a sum of distinct unit fractions, because the numerators decrease and the denominators increase.
-3. The [[division algorithm|0CHQKZFK5S]] for natural numbers: subtract $b$ from $a$ while the result is at least $b$. The number of subtractions is the quotient, and what remains is the remainder.
-4. [[Gaussian elimination|0JVJ2WCXZH]]: each step creates one more leading entry with zeros below it, so after at most as many steps as there are rows the matrix is in row echelon form.
-5. The [[stable marriage problem|X201T4TP0Y]]: in the Gale-Shapley algorithm each man proposes to each woman at most once, so it stops. The invariant "a woman who has received a proposal stays engaged, and her partner only gets better for her" gives stability.
-6. [[Kruskal's algorithm|5FPWTYFJRA]] builds a [[spanning tree|0S4ZEZM7KE]] of minimum weight in a connected weighted graph, and so proves that such a tree exists and can be built greedily.
+Partial correctness says that the output is right whenever the procedure stops.
+Termination says that it does stop.
+These are separate claims, and a proof needs both.
 
-### Non-examples
+"Test $n = 1, 2, 3, \ldots$ until $n$ is an odd [[perfect number|0SB7Q8SYSF]]" would return a correct answer if it stopped, but no proof shows that it stops, so it proves nothing.
+The procedure behind the [[Collatz conjecture|6PCQEXEX4N]] (halve an even number, replace an odd $n$ by $3n + 1$) has no known termination proof either.
+In the other direction, [[greedy change-making with coins 1, 3 and 4|61Y7Z7AC6X]] always stops and pays the right amount, but it does not always use the fewest coins, so it proves nothing about optimal payments.
 
-1. [[Greedy change-making with coins 1, 3 and 4 is not optimal|61Y7Z7AC6X]]: the procedure always stops, but its output is not always correct, so it proves nothing about optimal payments.
-2. The procedure behind the [[Collatz conjecture|6PCQEXEX4N]] (halve an even number, replace an odd $n$ by $3n + 1$) has no known proof of termination. A description of it proves no existence statement.
-3. "Test $n = 1, 2, 3, \ldots$ until $n$ is an odd [[perfect number|0SB7Q8SYSF]]" is a procedure whose output would be correct, but no proof shows that it stops, so it does not prove that an odd perfect number exists.
+### Choosing the variant and the invariant
 
-### Basic properties
+The variant must be a natural number, or more generally an element of a well-founded order.
+A positive real number can decrease forever, as $1, \tfrac12, \tfrac14, \ldots$ does, and an integer can decrease forever if it may become negative.
+Sometimes the obvious quantity grows: in [[the greedy algorithm for Egyptian fractions|KR6HBC26YV]] the denominators increase, and the numerators are the variant.
 
-1. A proof by algorithm is a proof by [[mathematical induction|0ASJVEFA9J]] on the number of steps: the invariant is the induction statement, and the step of the procedure is the induction step.
-2. A strictly decreasing sequence of natural numbers is finite. This is the form of the well-ordering principle that termination proofs use.
-3. Partial correctness (the output is correct whenever the procedure stops) and termination are separate claims, and a proof needs both.
-4. An algorithmic proof often gives a bound on the size of the object or on the time to find it. For the Euclidean algorithm, the number of division steps is at most a constant times the number of digits of the smaller input.
+The invariant should say how the current state relates to the goal.
+For a procedure that builds an answer piece by piece, the usual form is "(input) $=$ (part built) $+$ (part left)", as in [[the extended Euclidean algorithm|226SFHQ3ER]], which keeps $r_i = a s_i + b t_i$.
+A proof by algorithm is a proof by [[mathematical induction|0ASJVEFA9J]] on the number of steps, with the invariant as the induction statement.
+
+### Where the pattern appears
+
+The [[division algorithm|0CHQKZFK5S]] subtracts $b$ from $a$ while the result is at least $b$, and the count of subtractions is the quotient.
+Gaussian elimination creates one more leading entry with zeros below it at each step, so it stops after at most as many steps as there are rows.
+In the [[stable marriage problem|X201T4TP0Y]], each man proposes to each woman at most once, so the Gale-Shapley algorithm stops, and the invariant "a woman with a proposal stays engaged, and her partner only improves for her" gives stability.
+[[Kruskal's algorithm|5FPWTYFJRA]] builds a [[spanning tree|0S4ZEZM7KE]] of minimum weight, and so proves that one exists.
+An algorithmic proof often bounds the cost as well: the Euclidean algorithm needs at most five times as many divisions as $b$ has decimal digits, by a theorem of Lamé.
+
+### Watch out
+
+The most common slip describes a procedure and stops, with no proof of termination or of correctness.
+A second slip uses a variant that is not bounded below.
+A third checks that the invariant survives a step but not that it holds at the start, so the induction has no base case.
+A fourth proves a weak correctness claim, such as "the coins add up to the amount", and treats it as the strong claim "the fewest coins".
 
 ### History
 
@@ -82,43 +101,45 @@ Leonardo of Pisa (Fibonacci) described the greedy method for Egyptian fractions 
 David Gale and Lloyd Shapley proved the existence of stable matchings by their algorithm in 1962.
 Robert Floyd in 1967 and Tony Hoare in 1969 made invariants and variants the standard tools for proofs about programs.
 
-### Common errors
+### Try it
 
-1. A student describes a procedure and stops, without a proof of termination or of correctness.
-2. A student proves termination with a quantity that decreases but is not bounded below, such as an integer that can become negative, or a positive real number that can decrease forever, as $1, \tfrac12, \tfrac14, \ldots$ does.
-3. A student checks the invariant after one step but not at the start, so the induction has no base case.
+Run the Euclidean algorithm on $a = 91$ and $b = 35$.
+The remainders are $21$, $14$, $7$, $0$, so $\gcd(91, 35) = 7$.
+
+A procedure starts from a positive integer $n$ and replaces it by $n - 2$ while $n \ge 2$.
+Name a variant and an invariant, and say what the output is.
+The variant is $n$ itself, the invariant is "$n$ has the same parity as the input", and the output is $0$ or $1$, the parity of the input.
 
 ## Explanations
 
 ### L1 human
 
 Sometimes the best way to show that something exists is to explain how to build it.
-But a recipe is only a proof if we know two things.
-First, the recipe must end, and it must not go on forever.
+But a recipe is a proof only if we know two things.
+First, the recipe must end, and not go on forever.
 Second, what comes out at the end must be the thing we wanted.
-For example, to find the largest number that divides both $12$ and $18$, subtract the smaller from the larger again and again: $18 - 12 = 6$, then $12 - 6 = 6$, and the two numbers are now equal, so the answer is $6$.
+To find the largest number that divides both $12$ and $18$, subtract the smaller from the larger again and again: $18 - 12 = 6$, then $12 - 6 = 6$, and the two numbers are now equal, so the answer is $6$.
 The numbers get smaller each time, so the recipe ends, and each step keeps the same common divisors, so the answer is right.
 
 ### L2 human
 
-We prove that every natural number $n \ge 1$ is a sum of distinct powers of $2$, by an algorithm.
-Procedure: while $n > 0$, let $2^k$ be the largest power of $2$ with $2^k \le n$, record $2^k$, and replace $n$ by $n - 2^k$.
+We prove that every integer $n \ge 1$ is a sum of distinct powers of $2$.
+The procedure: while $n > 0$, let $2^k$ be the largest power of $2$ with $2^k \le n$, record $2^k$, and replace $n$ by $n - 2^k$.
 
-1. Termination: each step replaces $n$ by $n - 2^k < n$, and $n - 2^k \ge 0$. A strictly decreasing sequence of natural numbers is finite, so the procedure stops, and it stops with $n = 0$.
-2. Invariant: (original $n$) $=$ (sum of the recorded powers) $+$ (current $n$). It holds at the start, with nothing recorded, and each step moves $2^k$ from the current $n$ to the sum.
+1. Termination: each step replaces $n$ by $n - 2^k$, which is smaller and still at least $0$, so the procedure stops, with $n = 0$.
+2. Invariant: (original $n$) $=$ (sum of the recorded powers) $+$ (current $n$).
+   It holds at the start, and each step moves $2^k$ from the current $n$ to the sum.
 3. At the end the current $n$ is $0$, so the original $n$ is the sum of the recorded powers.
-4. Distinctness: after recording $2^k$, the new value is $n - 2^k < 2^{k+1} - 2^k = 2^k$, because $n < 2^{k+1}$ by the choice of $k$. So the next recorded power is less than $2^k$.
-5. A run with $n = 45$: record $32$ (rest $13$), then $8$ (rest $5$), then $4$ (rest $1$), then $1$ (rest $0$). So $45 = 32 + 8 + 4 + 1$.
+4. Distinctness: $n < 2^{k+1}$ by the choice of $k$, so the new value $n - 2^k$ is less than $2^k$, and the next recorded power is smaller.
+5. A run with $n = 45$ records $32$, $8$, $4$ and $1$, leaving $13$, $5$, $1$ and $0$, so $45 = 32 + 8 + 4 + 1$.
 
-The typical use is an existence theorem in number theory, combinatorics or linear algebra that also needs a method of computation.
-A trap is to prove only that the output is correct "if the loop stops", without a decreasing natural number that forces the stop.
+Proofs by algorithm suit existence theorems that also call for a method of computation.
+Watch out: a proof that the output is correct "if the loop stops" is half a proof until a decreasing natural number forces the stop.
 
 ### L3 human
 
-In logic, the link between algorithms and proofs is exact.
-By the Curry-Howard correspondence and realizability, a constructive proof of "for each $x$ there is $y$ with $P(x, y)$" contains an algorithm that computes $y$ from $x$.
-Proof assistants can extract this program.
+In logic the link between algorithms and proofs is exact.
+By the Curry-Howard correspondence and realizability, a constructive proof of "for each $x$ there is $y$ with $P(x, y)$" contains an algorithm that computes $y$ from $x$, and proof assistants can extract it.
 Termination proofs generalize from the natural numbers to any well-founded order, such as the lexicographic order on pairs, which proves that the Ackermann function is total.
-Correctness by invariants is the basis of Hoare logic and of verified software.
-In combinatorics, many existence theorems (Hall's marriage theorem, Kőnig's theorem, the max-flow min-cut theorem) have algorithmic proofs by augmenting paths, and the algorithm often gives a dual certificate that proves optimality.
-The method has limits: some existence theorems, such as the existence of a [[non-measurable set|PKQ7ABPVSG]], need the axiom of choice and have no constructive proof.
+In combinatorics, Hall's marriage theorem, Kőnig's theorem and the max-flow min-cut theorem have algorithmic proofs by augmenting paths, and the algorithm often returns a dual certificate that proves optimality.
+The method has limits: the existence of a [[non-measurable set|PKQ7ABPVSG]] needs the axiom of choice and has no constructive proof.
