@@ -23,61 +23,80 @@ sources:
 
 ## Statement
 
+Every propositional formula can be read in exactly one way: its last building step, its main connective and its immediate parts are fixed by the string.
+
 Let $P$ be a set of variables, and let $\mathrm{Form}$ be the set of [[propositional formulas|TT7WT5HPN9]] over $P$, as in the [[definition|TFDYXS3K1N]].
 Each formula $\varphi \in \mathrm{Form}$ has exactly one of the following three forms:
 
 1. $\varphi$ is a variable $p \in P$;
 2. $\varphi = (\neg \psi)$ for a formula $\psi$;
-3. $\varphi = (\psi \circ \chi)$ for formulas $\psi$, $\chi$ and a binary connective $\circ \in \set{\land, \lor, \to, \leftrightarrow}$.
+3. $\varphi = (\psi \circ \chi)$ for formulas $\psi$, $\chi$ and a binary connective $\circ \in \{ \land, \lor, \to, \leftrightarrow \}$.
 
 In addition, in form 2 the formula $\psi$ is unique, and in form 3 the connective $\circ$ and the formulas $\psi$ and $\chi$ are unique.
 
 ## Remarks
 
-### What the theorem gives
+### A first reading
 
-The theorem says that each formula is built in exactly one way: its last formation step, its main connective and its immediate subformulas are determined by the string.
-By induction, its whole parse tree is determined by the string.
-The [[proof|68PGHXRTPQ]] counts brackets: each nonempty proper initial segment of a formula has more left brackets than right brackets, so no proper initial segment of a formula is a formula.
+Take $\varphi = ((p \to q) \land (\neg p))$.
+It starts with a left bracket followed by a left bracket, not by $\neg$, so it has form 3.
+Remove the outer brackets and count open brackets from the left:
+$$(p \to q) \land (\neg p) \qquad \text{the count returns to } 0 \text{ after } (p \to q).$$
+So $\psi = (p \to q)$, the connective is $\land$, and $\chi = (\neg p)$.
+The theorem says that no other split works: no shorter or longer initial piece of $(p \to q) \land (\neg p)$ is a formula followed by a connective and a formula.
+The [[proof by counting brackets|68PGHXRTPQ]] shows why: a nonempty proper initial segment of a formula always has more left than right brackets, so it is never a formula itself.
 
 ### Why recursion needs the theorem
 
-A definition by recursion gives one clause for each formation rule, for example $\bar v((\varphi \land \psi)) = \min(\bar v(\varphi), \bar v(\psi))$ for a [[truth valuation|H31CS3HK5P]].
-If a string could be written as $(\varphi \land \psi)$ and also as $(\varphi' \lor \psi')$, the clauses could give it two different values.
-Then the clauses would define a relation, not a function.
-The theorem excludes this case, so the clauses define exactly one function on $\mathrm{Form}$.
+A definition by recursion has one clause for each formation rule.
+For a [[truth valuation|H31CS3HK5P]] one clause is $\bar v((\varphi \land \psi)) = \min(\bar v(\varphi), \bar v(\psi))$.
+If one string could be written both as $(\varphi \land \psi)$ and as $(\varphi' \lor \psi')$, the clauses could give it two different values, and they would define a relation, not a function.
+The theorem rules this out, so the clauses define exactly one function on $\mathrm{Form}$.
 
-### Why each hypothesis is needed
+In general, let $A$ be a set, $g \colon P \to A$, $h_\neg \colon A \to A$, and $h_\circ \colon A \times A \to A$ for each binary connective $\circ$.
+Then exactly one $F \colon \mathrm{Form} \to A$ extends $g$ and satisfies
+$$F((\neg \varphi)) = h_\neg(F(\varphi)), \qquad F((\varphi \circ \psi)) = h_\circ(F(\varphi), F(\psi)).$$
+Truth values, subformulas, the set of variables, depth and the parse tree are all defined this way.
 
-The hypothesis is the form of the formation rules: each connective comes with its own pair of brackets.
+### Why the brackets are needed
+
+The hypothesis hidden in the theorem is the shape of the formation rules: each connective comes with its own pair of brackets.
 Without brackets, the string $p \land q \lor r$ can be built as $(p \land q) \lor r$ and as $p \land (q \lor r)$.
-Under the values $p = 0$, $r = 1$ the first reading has the value $(0 \land q) \lor 1 = 1$, and the second reading has the value $0 \land (q \lor 1) = 0$.
-So without brackets the string has no well-defined truth value, and the theorem fails.
-The theorem also uses that the variables, the connectives and the brackets are distinct single symbols.
-If, for example, some variable were written as the string $(\neg p)$, then this string would have forms 1 and 2 at once.
+At $p = 0$ and $r = 1$ the first reading has the value $(0 \land q) \lor 1 = 1$ and the second has the value $0 \land (q \lor 1) = 0$.
+So the string would have no well-defined truth value.
 
-### Consequences
+The theorem also needs the variables, connectives and brackets to be distinct single symbols.
+If some variable were written as the string $(\neg p)$, that string would have forms 1 and 2 at once.
 
-- Recursion principle: let $A$ be a set, $g : P \to A$, $h_\neg : A \to A$, and $h_\circ : A \times A \to A$ for each binary connective $\circ$. Then exactly one $F : \mathrm{Form} \to A$ extends $g$ and satisfies $F((\neg \varphi)) = h_\neg(F(\varphi))$ and $F((\varphi \circ \psi)) = h_\circ(F(\varphi), F(\psi))$.
-- The [[truth valuation|H31CS3HK5P]] page proves the recursion principle for $A = \set{0, 1}$, and the general proof is the same.
-- The subformulas, the set of variables, the depth and the parse tree of a formula are well defined.
-- A parsing algorithm decides whether a string is a formula: find the main connective by the bracket count, then test the parts.
+### The converse and the variants
 
-### Converse
+The converse is part of the definition: every string of forms 1 to 3, with $\psi$ and $\chi$ formulas, is a formula by the formation rules.
 
-The converse holds, and it is part of the definition: each string of the forms 1 to 3, with $\psi$ and $\chi$ formulas, is a formula, by the formation rules.
+The theorem survives several changes of notation.
+It holds when negation is written $\neg \varphi$ without brackets, since the symbol $\neg$ in first place already marks form 2.
+It holds in Polish notation, with weights in place of brackets: give each variable weight $1$, the letter $N$ weight $0$ and each binary letter weight $-1$.
+A string is then a formula exactly when its total weight is $1$ and each nonempty proper initial segment has weight at most $0$, as [[reading Polish notation|MJ6FMPYEF2]] shows.
+So the Polish formulas form a [[prefix code|GNB3T6TD0M]]: no formula is a proper prefix of another.
+The same theorem, with the same proof, holds for the terms and formulas of [[first-order logic|086QKPF0A6]].
 
-### Generalizations
+### Watch out
 
-- Polish notation. Give each variable the weight $1$, the letter $N$ the weight $0$, and each binary letter the weight $-1$. A string is a formula in Polish notation if and only if its total weight is $1$ and each nonempty proper initial segment has weight at most $0$. It follows that each formula in Polish notation has exactly one reading, and [[this example|MJ6FMPYEF2]] uses the test.
-- The same theorem holds, with the same proof, for the terms and formulas of [[first-order logic|086QKPF0A6]].
-- In the language of codes, the set of formulas in Polish notation is a [[prefix code|GNB3T6TD0M]]: no formula is a proper prefix of another formula.
-- The theorem holds when negation is written $\neg \varphi$ without brackets, since the first symbol $\neg$ already marks form 2.
+The theorem is not only about brackets in print.
+It is the reason why truth values and every other recursive function on formulas are well defined.
+A typical slip is to split a formula at the first connective that you read, as in $((p \land q) \to r)$, where the first connective $\land$ sits inside a bracket and the main connective is $\to$.
+
+### Try it
+
+Find $\psi$, $\circ$ and $\chi$ for $((\neg p) \leftrightarrow (q \lor r))$.
+The count returns to $0$ after $(\neg p)$, so $\psi = (\neg p)$, $\circ = \leftrightarrow$ and $\chi = (q \lor r)$.
+
+Why can a formula of form 2 never also have form 3?
+Its second symbol is $\neg$, while the second symbol of form 3 is the first symbol of a formula, which is a variable or a left bracket.
 
 ## History
 
-Textbooks of mathematical logic prove the theorem by counting brackets; Enderton's text proves it in its chapter on sentential logic.
 Jan Łukasiewicz introduced his prefix notation in 1924, and it needs no brackets because of the Polish version of the theorem.
+Textbooks of mathematical logic prove the bracketed version by counting brackets, as Enderton does in his chapter on sentential logic.
 
 ## Explanations
 
@@ -85,26 +104,23 @@ Jan Łukasiewicz introduced his prefix notation in 1924, and it needs no bracket
 
 The theorem says that each formula can be read in only one way.
 In school arithmetic, $2 + 3 \times 4$ needs a rule (multiply first) to have one meaning.
-In formulas, each connective comes with its own pair of brackets, so no rule is needed.
+In formulas each connective comes with its own pair of brackets, so no rule is needed.
 For example, $((p \land q) \lor r)$ is an "or" of two parts, and nothing else.
 Because the reading is unique, the truth value of a formula is fixed once the letters have values.
 
 ### L2 human
 
-We find the unique reading of $\varphi = ((p \to q) \land (\neg p))$.
-
-1. The first symbol is a left bracket and the second symbol is not $\neg$, so $\varphi$ has form 3.
-2. Remove the outer brackets: $(p \to q) \land (\neg p)$.
-3. Count brackets from the left: the count returns to $0$ after $(p \to q)$.
-4. By the theorem, $\psi = (p \to q)$ is the only initial part that is a formula.
-5. The next symbol $\land$ is the connective, and the rest $(\neg p)$ is $\chi$.
-
-The typical use is in definitions by recursion: the value, the subformulas and the tree of $\varphi$ are computed from $\psi$ and $\chi$.
-A trap is to think that the theorem is only about brackets in print; it is the reason why truth values and other recursive functions are well defined.
+We compute the depth of $\varphi = ((p \to q) \land (\neg p))$ by recursion, and the theorem guarantees one answer.
+The clauses are $d(p) = 0$, $d((\neg \psi)) = d(\psi) + 1$ and $d((\psi \circ \chi)) = \max(d(\psi), d(\chi)) + 1$.
+The theorem gives the unique split $\psi = (p \to q)$ and $\chi = (\neg p)$, so
+$$d(\varphi) = \max(d((p \to q)), d((\neg p))) + 1 = \max(1, 1) + 1 = 2 .$$
+Check: the parse tree has root $\land$, two inner nodes $\to$ and $\neg$, and leaves at distance $2$ from the root.
+Every recursive function on formulas is computed in the same way, from the parts that the theorem provides.
 
 ### L3 human
 
-In algebraic terms, the theorem says that the formula algebra is free: the operations $\varphi \mapsto (\neg \varphi)$ and $(\varphi, \psi) \mapsto (\varphi \circ \psi)$ are injective, their images are pairwise disjoint, and the images do not contain the variables.
-These three conditions, together with generation by $P$, characterize the absolutely free algebra, and the recursion principle is its universal property.
+In algebraic terms, the theorem says that the formula algebra is free.
+The operations $\varphi \mapsto (\neg \varphi)$ and $(\varphi, \psi) \mapsto (\varphi \circ \psi)$ are injective, their images are pairwise disjoint, and the images do not contain the variables.
+These conditions, with generation by $P$, characterize the absolutely free algebra, and the recursion principle is its universal property.
 In the theory of formal languages, the theorem says that the context-free grammar of formulas is unambiguous.
-The same question for real programming languages is the subject of parsing theory, and the Polish weight test is the basis of stack evaluation of prefix and postfix expressions.
+The Polish weight test is the basis of stack evaluation of prefix and postfix expressions.

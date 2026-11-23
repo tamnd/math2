@@ -18,27 +18,37 @@ sources:
 
 ## Example
 
+A matrix that makes the axioms true but breaks modus ponens can "refute" a formula that is in fact derivable.
 Take the values $0$, $1$, $u$ with the designated value $1$.
 Define $a \to b = 0$ when $b = u$ and $a \to b = 1$ otherwise, and $\neg 0 = 1$, $\neg 1 = 0$, $\neg u = u$.
 So the value of $a \to b$ depends only on $b$.
 We test whether this matrix shows that $p \to p$ is not derivable from A1 and A2 in the [[Hilbert system|1MGMQX43B8]] L, in the style of the method of [[independence of axioms|729RCBPAM3]].
 
-1. A1, $\varphi \to (\psi \to \varphi)$, always takes the value $1$: its consequent $\psi \to \varphi$ has a value in $\set{0, 1}$, never $u$.
-2. A2 always takes the value $1$, for the same reason: its consequent $(\varphi \to \psi) \to (\varphi \to \chi)$ is an implication, so its value is never $u$.
+1. A1, $\varphi \to (\psi \to \varphi)$, always takes the value $1$, since its consequent $\psi \to \varphi$ has a value in $\{ 0, 1 \}$, never $u$.
+2. A2 always takes the value $1$ for the same reason: its consequent $(\varphi \to \psi) \to (\varphi \to \chi)$ is an implication, so its value is never $u$.
 3. A3 also always takes the value $1$, since its consequent $(\neg \psi \to \varphi) \to \psi$ is an implication.
 4. The formula $p \to p$ takes the value $u \to u = 0$ at $p = u$.
-5. [[Modus ponens|0Y0MQYST0M]] does not preserve the value $1$: with $a = 1$ and $b = 0$, both $a = 1$ and $a \to b = 1 \to 0 = 1$ are designated, but $b = 0$ is not.
-6. So step 3 of the matrix method, the induction on derivations, fails, and the matrix proves nothing about derivability.
+5. [[Modus ponens|0Y0MQYST0M]] does not preserve the value $1$.
+   With $a = 1$ and $b = 0$, both $a = 1$ and $a \to b = 1 \to 0 = 1$ are designated, but $b = 0$ is not.
+6. So the induction on derivations of the matrix method fails, and the matrix proves nothing about derivability.
 
 ## Remarks
+
+### The conclusion is false
 
 The conclusion that the matrix seems to give is false.
 The formula $p \to p$ is derivable from A1 and A2 by the five-line derivation, the theorem T1 of the [[basic theorems of L|Y060MF2NZ7]].
 So every correct use of the matrix method must check the rules as well as the axioms.
 
-The failure is in the rule, not in the axioms.
+### The failure is in the rule
+
 No matrix can do what this one seems to do.
 In any matrix where A1 and A2 are valid and modus ponens preserves the designated values, the derivable formula $p \to p$ is valid.
+So whenever a matrix seems to refute a derivable formula, the fault must lie in a rule.
+Here the faulty entry is $1 \to 0 = 1$, which lets modus ponens pass from $1$ to $0$.
+
+### Too many designated values
+
 A second common failure is a matrix with too many designated values.
 The three-valued [[Kleene tables|B7KATP4SEA]] with designated values $1$ and $u$ make A1 to A3 always designated.
 But modus ponens leads from $u$ and $u \to 0 = u$ to $0$.
@@ -55,11 +65,9 @@ Indeed, the formula that the broken test rejects can be proved in five lines.
 ### L2 human
 
 We check the second failure from the remarks, with the Kleene tables.
-
-1. In these tables $\neg u = u$, and $a \to b$ is the larger of $\neg a$ and $b$ in the order $0 < u < 1$.
-2. The designated values are $1$ and $u$.
-3. With $a = u$ and $b = 0$, we get $a \to b = \max(\neg u, 0) = u$, which is designated.
-4. So $a$ and $a \to b$ are designated, but $b = 0$ is not, and modus ponens does not preserve designated values.
-
+In these tables $\neg u = u$, and $a \to b$ is the larger of $\neg a$ and $b$ in the order $0 < u < 1$.
+The designated values are $1$ and $u$.
+With $a = u$ and $b = 0$, we get $a \to b = \max(\neg u, 0) = u$, which is designated.
+So $a$ and $a \to b$ are designated, but $b = 0$ is not, and modus ponens does not preserve designated values.
 The typical use of this check is the first step of every independence proof: verify that each rule preserves the designated values.
-A trap is to check only the axioms, as in steps 1 to 3 of the example, and to forget the rules.
+Watch out: checking only the axioms, as in steps 1 to 3 of the example, is the trap.

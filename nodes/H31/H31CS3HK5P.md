@@ -24,101 +24,106 @@ sources:
 
 ## Summary
 
-Let $P$ be a set of propositional variables and $\mathrm{Form}$ the set of [[propositional formulas|TT7WT5HPN9]] over $P$.
-A truth assignment is a function $v : P \to \set{0, 1}$.
-A truth valuation is a function $V : \mathrm{Form} \to \set{0, 1}$ that follows the [[truth tables|05RSK4Q657]] of the connectives: for all formulas $\varphi$ and $\psi$,
+A truth valuation is one row of a truth table, carried up to every formula: choose true or false for each variable, and the tables of the connectives then decide the value of every formula.
+For example, with $p = 0$ and $q = 1$ we get $p \to q = 1$, $\neg p = 1$, and so $(p \to q) \land \neg p = 1$.
+
+Exactly: let $P$ be a set of variables and $\mathrm{Form}$ the set of [[propositional formulas|TT7WT5HPN9]] over $P$.
+A truth assignment is a function $v \colon P \to \{ 0, 1 \}$.
+A truth valuation is a function $V \colon \mathrm{Form} \to \{ 0, 1 \}$ that obeys the [[truth tables|05RSK4Q657]] of the connectives: for all formulas $\varphi$ and $\psi$,
 $$V((\neg \varphi)) = 1 - V(\varphi), \quad V((\varphi \land \psi)) = \min(V(\varphi), V(\psi)), \quad V((\varphi \lor \psi)) = \max(V(\varphi), V(\psi)),$$
-$$V((\varphi \to \psi)) = \max(1 - V(\varphi), V(\psi)), \quad V((\varphi \leftrightarrow \psi)) = 1 \text{ if } V(\varphi) = V(\psi) \text{, and } 0 \text{ otherwise}.$$
-Each truth assignment $v$ extends to exactly one truth valuation $\bar v$, and $\bar v(\varphi)$ is called the truth value of $\varphi$ under $v$.
-Truth valuations are the semantics of the [[propositional calculus|09K9MWD2QQ]]: tautologies, satisfiability and logical consequence are all defined by them.
+$$V((\varphi \to \psi)) = \max(1 - V(\varphi), V(\psi)), \quad V((\varphi \leftrightarrow \psi)) = 1 \text{ if } V(\varphi) = V(\psi), \text{ and } 0 \text{ otherwise}.$$
+Each truth assignment $v$ extends to exactly one truth valuation $\bar v$, and $\bar v(\varphi)$ is the truth value of $\varphi$ under $v$.
+The [[formal definition|P0S056MDS7]] states this in full.
 
 ## Motivation
 
 A formula such as $p \to q$ is neither true nor false by itself.
-It gets a truth value only when we decide which of $p$ and $q$ are true.
-The truth tables say how the value of a compound formula comes from the values of its parts.
-We want one function that applies the tables at every level of a formula, so that each formula gets one value from the values of its variables.
-The extension theorem says that such a function exists and is unique.
+It gets a value only when we decide which of $p$ and $q$ are true.
+The truth tables say how the value of a compound formula comes from the values of its parts, and we want one function that applies them at every level of every formula.
+The extension theorem below says that such a function exists and is unique.
+
+Valuations are the semantics of the [[propositional calculus|09K9MWD2QQ]].
+[[Tautologies|05006AJ7DZ]], [[satisfiability|QN7M1JCGT9]] and [[logical consequence|1HK0VYWTV7]] are all defined by them, and so is the soundness of every proof system.
 
 ## Notation
 
-We write $\bar v$ for the valuation that extends the assignment $v$.
-After this page, other pages write $v(\varphi)$ for $\bar v(\varphi)$.
-Some books write $v \models \varphi$ ("$v$ satisfies $\varphi$") for $\bar v(\varphi) = 1$.
-Some books use the truth values $\mathrm{T}$ and $\mathrm{F}$, or "true" and "false", instead of $1$ and $0$.
-Other names for a truth assignment are interpretation, model, structure and row of the truth table.
-The word "valuation" means the assignment in some books and the extension in others.
+We write $\bar v$ for the valuation that extends the assignment $v$, and later pages write simply $v(\varphi)$.
+Some books write $v \models \varphi$ ("$v$ satisfies $\varphi$") for $\bar v(\varphi) = 1$, and some use $\mathrm{T}$ and $\mathrm{F}$ instead of $1$ and $0$.
+Other names for an assignment are interpretation, model and row of the truth table.
+Watch out: the word "valuation" means the assignment in some books and the extension in others.
 
 ## Remarks
 
+### Computing a value
+
+Take $\varphi = (p \to (q \land \neg r)) \leftrightarrow (\neg p \lor q)$ and the assignment $p = q = r = 1$.
+We work from the leaves of the parse tree up to the root:
+$$\neg r = 0, \quad q \land \neg r = 0, \quad p \to (q \land \neg r) = 0, \quad \neg p = 0, \quad \neg p \lor q = 1, \quad \varphi = 0 .$$
+The last step compares $0$ and $1$, which differ, so the biconditional is $0$.
+[[Computing the truth value of a formula|F38P9ECEWT]] goes through it slowly.
+
 ### The extension theorem
 
-For each truth assignment $v : P \to \set{0, 1}$ there is exactly one truth valuation $\bar v$ with $\bar v(p) = v(p)$ for each $p \in P$.
-For a formula $\varphi$, let $|\varphi|$ be its length, and let $\mathrm{Form}_n$ be the set of formulas of length at most $n$.
-Write $H_\neg(a) = 1 - a$, and let $H_\land$, $H_\lor$, $H_\to$, $H_\leftrightarrow$ be the functions on $\set{0,1}^2$ in the clauses of the Summary.
+For each assignment $v$ there is exactly one valuation $\bar v$ with $\bar v(p) = v(p)$ for each $p \in P$.
+Write $H_\neg(a) = 1 - a$, and let $H_\land$, $H_\lor$, $H_\to$, $H_\leftrightarrow$ be the functions on $\{ 0, 1 \}^2$ in the clauses above.
+Let $\mathrm{Form}_n$ be the set of formulas of length at most $n$.
+We build $\bar v$ length by length.
 
-1. The formulas of length $1$ are the variables, since formulas $(\neg \psi)$ and $(\psi \circ \chi)$ have length at least $4$. So $\mathrm{Form}_1 = P$, and we set $f_1 = v$.
-2. Let $f_n : \mathrm{Form}_n \to \set{0,1}$ be defined. We define $f_{n+1}$ on $\mathrm{Form}_{n+1}$, and we set $f_{n+1}(\varphi) = f_n(\varphi)$ when $|\varphi| \leq n$.
-3. Let $|\varphi| = n + 1 \geq 2$. By the [[unique readability theorem|6KBJX91N7G]], $\varphi = (\neg \psi)$ for exactly one $\psi$, or $\varphi = (\psi \circ \chi)$ for exactly one triple $(\circ, \psi, \chi)$.
-4. The formulas $\psi$ and $\chi$ are shorter than $\varphi$, so they are in $\mathrm{Form}_n$. We set $f_{n+1}(\varphi) = H_\neg(f_n(\psi))$ or $f_{n+1}(\varphi) = H_\circ(f_n(\psi), f_n(\chi))$.
-5. The value in step 4 is well defined, because the triple $(\circ, \psi, \chi)$ or the formula $\psi$ is unique.
-6. By step 2, each $f_{n+1}$ extends $f_n$. By induction on $n$, $f_n$ satisfies the clauses for each formula in $\mathrm{Form}_n$ that is not a variable: for length $n + 1$ this is step 4, and for shorter formulas it holds for $f_n$ and $f_{n+1}$ agrees with $f_n$ there.
-7. Define $\bar v(\varphi) = f_n(\varphi)$ for any $n \geq |\varphi|$. By step 6 the value does not depend on $n$, and $\bar v(p) = f_1(p) = v(p)$.
-8. Let $\varphi = (\psi \circ \chi)$ and $n = |\varphi|$. Then $\bar v(\varphi) = f_n(\varphi) = H_\circ(f_n(\psi), f_n(\chi)) = H_\circ(\bar v(\psi), \bar v(\chi))$, by steps 6 and 7. The case $(\neg \psi)$ is the same. So $\bar v$ is a truth valuation.
-9. Uniqueness. Let $V$ and $W$ be truth valuations with $V(p) = W(p) = v(p)$ for each variable $p$. Let $S = \set{\varphi \in \mathrm{Form} : V(\varphi) = W(\varphi)}$.
-10. The set $S$ contains each variable. If $\varphi, \psi \in S$, then $V((\varphi \circ \psi)) = H_\circ(V(\varphi), V(\psi)) = H_\circ(W(\varphi), W(\psi)) = W((\varphi \circ \psi))$, and the same holds for $(\neg \varphi)$.
-11. So $S$ is closed under the formation rules, and $S = \mathrm{Form}$ by [[induction on formulas|EDRV3N0SA3]]. So $V = W$.
+1. Formulas $(\neg \psi)$ and $(\psi \circ \chi)$ have length at least $4$, so $\mathrm{Form}_1 = P$, and we set $f_1 = v$.
+2. Given $f_n$ on $\mathrm{Form}_n$, let $f_{n+1}$ agree with $f_n$ on formulas of length at most $n$.
+3. Let $|\varphi| = n + 1 \geq 2$.
+   By the [[unique readability theorem|6KBJX91N7G]], $\varphi = (\neg \psi)$ for exactly one $\psi$, or $\varphi = (\psi \circ \chi)$ for exactly one triple $(\circ, \psi, \chi)$.
+4. The parts are shorter than $\varphi$, so they lie in $\mathrm{Form}_n$, and we set $f_{n+1}(\varphi) = H_\neg(f_n(\psi))$ or $f_{n+1}(\varphi) = H_\circ(f_n(\psi), f_n(\chi))$.
+   This value is well defined because the parts are unique.
 
-So the truth valuations and the truth assignments correspond one to one: restrict a valuation to $P$, or extend an assignment by the theorem.
+### The extension theorem, continued
+
+5. Each $f_{n+1}$ extends $f_n$, so $\bar v(\varphi) = f_n(\varphi)$ for any $n \geq |\varphi|$ does not depend on $n$, and $\bar v(p) = v(p)$.
+6. For $\varphi = (\psi \circ \chi)$ with $n = |\varphi|$, steps 4 and 5 give
+   $$\bar v(\varphi) = H_\circ(f_n(\psi), f_n(\chi)) = H_\circ(\bar v(\psi), \bar v(\chi)),$$
+   and the case $(\neg \psi)$ is the same, so $\bar v$ is a truth valuation.
+7. For uniqueness, let $V$ and $W$ be valuations that agree with $v$ on $P$.
+   The set of formulas on which they agree contains the variables.
+   It is closed under the rules, because $V((\varphi \circ \psi)) = H_\circ(V(\varphi), V(\psi)) = H_\circ(W(\varphi), W(\psi)) = W((\varphi \circ \psi))$, and in the same way for $\neg$.
+   So it is all of $\mathrm{Form}$, by [[induction on formulas|EDRV3N0SA3]].
+
+So valuations and assignments correspond one to one: restrict a valuation to $P$, or extend an assignment by the theorem.
 
 ### Only the occurring variables matter
 
 Let $\mathrm{Var}(\varphi)$ be the set of variables that occur in $\varphi$.
 If two assignments $v$ and $w$ agree on $\mathrm{Var}(\varphi)$, then $\bar v(\varphi) = \bar w(\varphi)$.
-We prove it by induction on $\varphi$.
+The proof is by induction on $\varphi$.
+For a variable $p$, $\bar v(p) = v(p) = w(p) = \bar w(p)$.
+For $(\neg \psi)$ and $(\psi \circ \chi)$, the variables of the parts are among those of $\varphi$, so the parts have equal values under $v$ and $w$ by the induction hypothesis, and the clauses give equal values to $\varphi$.
 
-1. If $\varphi$ is a variable $p$, then $\mathrm{Var}(\varphi) = \set{p}$, so $\bar v(p) = v(p) = w(p) = \bar w(p)$.
-2. If $\varphi = (\neg \psi)$, then $\mathrm{Var}(\psi) = \mathrm{Var}(\varphi)$, so $\bar v(\psi) = \bar w(\psi)$ by the induction hypothesis, and $\bar v(\varphi) = 1 - \bar v(\psi) = 1 - \bar w(\psi) = \bar w(\varphi)$.
-3. If $\varphi = (\psi \circ \chi)$, then $\mathrm{Var}(\psi)$ and $\mathrm{Var}(\chi)$ are subsets of $\mathrm{Var}(\varphi)$. The induction hypothesis gives $\bar v(\psi) = \bar w(\psi)$ and $\bar v(\chi) = \bar w(\chi)$, so $\bar v(\varphi) = H_\circ(\bar v(\psi), \bar v(\chi)) = \bar w(\varphi)$.
-
-So a formula with $n$ variables needs only $2^n$ assignments to check, one for each row of its truth table, even when $P$ is infinite.
+This is why a truth table works.
+A formula with $n$ variables needs only $2^n$ assignments, one for each row, even when $P$ is infinite.
 
 ### Boolean functions defined by formulas
 
-Let the variables of $\varphi$ be among the distinct variables $p_1, \ldots, p_n$.
-The [[Boolean function|0X05GS525E]] of $\varphi$ is the map $F_\varphi : \set{0,1}^n \to \set{0,1}$ with $F_\varphi(a_1, \ldots, a_n) = \bar v(\varphi)$ for any assignment $v$ with $v(p_i) = a_i$ for each $i$.
-Such an assignment exists, and by the previous section the value does not depend on the choice of $v$, so $F_\varphi$ is well defined.
-Each function $f : \set{0,1}^n \to \set{0,1}$ with $n \geq 1$ is $F_\varphi$ for some $\varphi$.
+Let the variables of $\varphi$ be among $p_1, \ldots, p_n$.
+The [[Boolean function|0X05GS525E]] of $\varphi$ is $F_\varphi \colon \{ 0, 1 \}^n \to \{ 0, 1 \}$, with $F_\varphi(a_1, \ldots, a_n) = \bar v(\varphi)$ for any $v$ with $v(p_i) = a_i$; the previous section makes it well defined.
+For example, $(p \lor q) \land \neg (p \land q)$ defines exclusive or, as [[the exclusive or example|FJKE0AYXPA]] shows.
 
-1. If $f$ is constant $0$, take $\varphi = p_1 \land \neg p_1$: its value is $\min(a_1, 1 - a_1) = 0$ for each $a_1$.
-2. Otherwise, for each $a \in \set{0,1}^n$ with $f(a) = 1$, let $\gamma_a$ be the conjunction of the literals $\ell_i$, where $\ell_i = p_i$ if $a_i = 1$ and $\ell_i = \neg p_i$ if $a_i = 0$.
-3. The formula $\gamma_a$ has the value $1$ exactly at the argument $a$, since each literal $\ell_i$ has the value $1$ exactly when the $i$-th argument is $a_i$.
-4. Let $\varphi$ be the disjunction of the $\gamma_a$ over all $a$ with $f(a) = 1$. Then $F_\varphi(b) = 1$ if and only if $b$ is one of these $a$, if and only if $f(b) = 1$.
+Every $f \colon \{ 0, 1 \}^n \to \{ 0, 1 \}$ with $n \geq 1$ is $F_\varphi$ for some $\varphi$.
+If $f$ is constant $0$, take $p_1 \land \neg p_1$.
+Otherwise, for each $a$ with $f(a) = 1$, let $\gamma_a$ be the conjunction of $p_i$ for $a_i = 1$ and $\neg p_i$ for $a_i = 0$, which is true exactly at $a$, and let $\varphi$ be the disjunction of these $\gamma_a$.
+This is the [[disjunctive normal form|0GVDFAY4KW]], and the result is the [[functional completeness|TDZVCWYJ9F]] of the connectives.
+There are only $2^{2^n}$ such functions but infinitely many formulas, so each function has infinitely many formulas, and two formulas are [[logically equivalent|0JMR2HM2N2]] exactly when they define the same function.
 
-The formula of step 4 is in [[disjunctive normal form|0GVDFAY4KW]], and the result is the [[functional completeness|TDZVCWYJ9F]] of the connectives.
-There are $2^{2^n}$ functions from $\set{0,1}^n$ to $\set{0,1}$, so infinitely many formulas share each Boolean function.
-Two formulas $\varphi$ and $\psi$ with variables among $p_1, \ldots, p_n$ are [[logically equivalent|0JMR2HM2N2]] if and only if $F_\varphi = F_\psi$.
+### What is not a valuation
 
-### Examples
+The map that gives $1$ to a formula when some variable in it is true agrees with the assignment on the variables, but it breaks the clause for $\neg$; see [[a map that is not a valuation|WZ0QZBR9ST]].
+The constant map $1$ is not a valuation, since the clause for $\neg$ would force $V(\neg p) = 0$.
+A map with values in $\{ 0, \tfrac12, 1 \}$, as in [[Kleene's three-valued logic|B7KATP4SEA]], is not a truth valuation either, because a truth valuation takes only the values $0$ and $1$.
 
-- Under $v(p) = v(q) = v(r) = 1$ the formula $(p \to (q \land \neg r)) \leftrightarrow (\neg p \lor q)$ has the value $0$; [[this example|F38P9ECEWT]] computes it step by step.
-- The formula $(p \lor q) \land \neg (p \land q)$ defines the Boolean function "exclusive or"; [[this example|FJKE0AYXPA]] computes its table.
-- The assignment with all values $1$ gives the value $1$ to each formula built from variables with $\land$, $\lor$, $\to$ and $\leftrightarrow$ only, by induction, since each of the four tables gives $1$ on the input $(1, 1)$.
-- The formula $p \lor \neg p$ has the value $\max(a, 1 - a) = 1$ under each valuation with $v(p) = a$, so it is a [[tautology|05006AJ7DZ]].
+### Watch out
 
-### Non-examples
-
-- The map $f$ with $f(\varphi) = 1$ when some variable of $\varphi$ has the value $1$ under $v$ agrees with $v$ on variables but is not a valuation; [[this non-example|WZ0QZBR9ST]] shows that the clauses for $\land$ and $\neg$ fail.
-- The constant map with value $1$ on all formulas is not a valuation, since the clause for $\neg$ would give $V(\neg p) = 1 - 1 = 0$.
-- A map with values in $\set{0, \tfrac12, 1}$, as in [[Kleene's three-valued logic|B7KATP4SEA]], is not a truth valuation, since a truth valuation takes only the values $0$ and $1$.
-
-### Basic properties
-
-- Each truth assignment has exactly one extension to a truth valuation (the extension theorem above).
-- The value $\bar v(\varphi)$ depends only on the values of $v$ on $\mathrm{Var}(\varphi)$.
-- A formula $\varphi$ is a [[tautology|05006AJ7DZ]] when $\bar v(\varphi) = 1$ for each $v$, and [[satisfiable|QN7M1JCGT9]] when $\bar v(\varphi) = 1$ for some $v$.
-- $\Gamma \models \varphi$ ([[logical consequence|1HK0VYWTV7]]) when each $v$ with $\bar v(\gamma) = 1$ for all $\gamma \in \Gamma$ has $\bar v(\varphi) = 1$.
-- $\bar v(\neg \varphi) = 1$ if and only if $\bar v(\varphi) = 0$, so each valuation makes exactly one of $\varphi$ and $\neg \varphi$ true.
+Do not confuse the assignment $v$, which lives on variables, with the valuation $\bar v$, which lives on all formulas.
+Do not evaluate the outer connective first: the value of $(\varphi \circ \psi)$ needs the values of its parts, so we work from the leaves up.
+And do not use $\min$ for implication.
+The clause for $\to$ is $\max(1 - a, b)$, which differs from $\min(a, b)$ at $a = 0$: with $a = 0$ and $b = 1$, the first gives $1$ and the second gives $0$.
 
 ### History
 
@@ -126,11 +131,13 @@ Emil Post and Ludwig Wittgenstein both published truth tables for the connective
 Post used them to prove that the propositional calculus of Principia Mathematica is complete.
 Alfred Tarski gave a general recursive definition of truth for formal languages in 1933, and the definition of $\bar v$ is its propositional case.
 
-### Common errors
+### Try it
 
-- To confuse the assignment $v$, defined on variables, with the valuation $\bar v$, defined on all formulas.
-- To evaluate the outer connective first. The value of $(\varphi \circ \psi)$ needs the values of $\varphi$ and $\psi$, so we evaluate from the leaves of the parse tree up to the root.
-- To think that $\varphi \to \psi$ has no value when $\varphi$ is false. By the table, it then has the value $1$.
+Under $p = 1$, $q = 0$, what is the value of $(p \lor q) \to (p \land q)$?
+The antecedent is $\max(1, 0) = 1$ and the consequent is $\min(1, 0) = 0$, so the value is $0$.
+
+Show that the assignment with all values $1$ makes every formula built with $\land$, $\lor$, $\to$ and $\leftrightarrow$ only true.
+By induction: the variables get $1$, and each of the four tables gives $1$ on the input $(1, 1)$.
 
 ## Explanations
 
@@ -140,29 +147,20 @@ A truth valuation decides, for every formula, whether it is true or false.
 We first choose a value for each letter: $1$ for true, $0$ for false.
 Then we compute the value of each larger formula from the values of its parts, by the tables of "not", "and", "or", "if ... then" and "if and only if".
 For example, if $p$ is true and $q$ is false, then "$p$ and $q$" is false, and "$p$ or $q$" is true.
-Each choice of letter values gives exactly one result for each formula.
-One row of a truth table is one such choice.
+Each choice of letter values gives exactly one result for each formula, and one row of a truth table is one such choice.
 
 ### L2 human
 
-We compute $\bar v(\varphi)$ for $\varphi = (p \to q) \land \neg p$ with $v(p) = 0$ and $v(q) = 1$.
-
-1. The parse tree has the root $\land$, with the parts $p \to q$ and $\neg p$.
-2. $\bar v(p) = 0$ and $\bar v(q) = 1$, from $v$.
-3. $\bar v(p \to q) = \max(1 - 0, 1) = 1$.
-4. $\bar v(\neg p) = 1 - 0 = 1$.
-5. $\bar v(\varphi) = \min(1, 1) = 1$.
-
-The same computation for all four assignments to $p$ and $q$ gives the truth table of $\varphi$, with values $1, 1, 0, 0$ in the rows $(p, q) = (0,0), (0,1), (1,0), (1,1)$.
-So $\varphi$ is satisfiable but not a tautology.
-The typical use is this: a definition about all valuations, such as "tautology", is checked on the finitely many rows of a table.
-A trap is to compute $\min$ for $\to$; the table of $\to$ is $\max(1 - a, b)$, which differs from $\min(a, b)$ when $a = 0$.
+We compute the whole table of $\varphi = (p \to q) \land \neg p$, one valuation per row:
+$$\begin{array}{cc|cc|c} p & q & p \to q & \neg p & \varphi \\ \hline 0 & 0 & 1 & 1 & 1 \\ 0 & 1 & 1 & 1 & 1 \\ 1 & 0 & 0 & 0 & 0 \\ 1 & 1 & 1 & 0 & 0 \end{array}$$
+Check the second row by the clauses: $\max(1 - 0, 1) = 1$, $1 - 0 = 1$, and $\min(1, 1) = 1$.
+The formula is true in some rows and false in others, so it is satisfiable but not a tautology.
+This is the typical use: a property defined over all valuations, such as "tautology", is checked on the finitely many rows of a table.
 
 ### L3 human
 
-The set $\set{0,1}$ with $\min$, $\max$ and $a \mapsto 1 - a$ is the two-element [[Boolean algebra|0XADJKM699]].
+The set $\{ 0, 1 \}$ with $\min$, $\max$ and $a \mapsto 1 - a$ is the two-element [[Boolean algebra|0XADJKM699]].
 Since $\mathrm{Form}$ is the free algebra on $P$, a truth valuation is exactly a homomorphism from $\mathrm{Form}$ to this algebra, and the extension theorem is the universal property of the free algebra.
-Replacing the two-element algebra by other algebras gives algebraic semantics: arbitrary Boolean algebras for classical logic, Heyting algebras for [[intuitionistic logic|Q11N8X99FK]], and MV-algebras or finite matrices for [[many-valued logics|66NMTCQNQV]].
-The set of all assignments is the product space $\set{0,1}^P$, which is the [[Cantor space|W9VYJRBF9N]] when $P$ is countably infinite.
-The set of assignments that make a formula true is open and closed in the product topology, and the [[compactness theorem|4X9126SEMM]] is a form of the compactness of this space.
-In first-order logic, Tarski's definition of satisfaction plays the same role, with structures in place of assignments.
+Other target algebras give other semantics: Boolean algebras for classical logic, Heyting algebras for [[intuitionistic logic|Q11N8X99FK]], and MV-algebras or finite matrices for [[many-valued logics|66NMTCQNQV]].
+The set of all assignments is the product space $\{ 0, 1 \}^P$, which is the [[Cantor space|W9VYJRBF9N]] when $P$ is countably infinite.
+The assignments that make a formula true form a set that is open and closed, and the [[compactness theorem|4X9126SEMM]] is a form of the compactness of this space.

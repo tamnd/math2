@@ -14,24 +14,31 @@ sources:
 
 ## Example
 
-Let $D$ be the set of the four definite clauses $\set{p}$, $\set{\neg p, q}$, $\set{\neg q, \neg r, s}$, $\set{\neg t, r}$, that is, the fact $p$ and the rules $p \to q$, $q \land r \to s$, $t \to r$, over the variables $p$, $q$, $r$, $s$, $t$.
-We find all models of $D$, and we check that their intersection is the least model.
-We write a model as the set of variables it makes true.
+Let $D$ be the set of four definite clauses over the variables $p, q, r, s, t$:
+$$\{ p \}, \qquad \{ \neg p, q \}, \qquad \{ \neg q, \neg r, s \}, \qquad \{ \neg t, r \}.$$
+In implicative form these are the fact $p$ and the rules $p \to q$, $q \land r \to s$ and $t \to r$.
+We find all models of $D$, written as the sets of variables that they make true, and we check that their intersection is the least model.
 
-1. Each clause has exactly one positive literal, so $D$ is a set of definite clauses.
-2. Every model contains $p$, by the fact $\set{p}$, and then $q$, by $p \to q$.
-3. Given $p$ and $q$, the remaining clauses say $r \to s$ and $t \to r$.
-4. The triples of values of $(r, s, t)$ that satisfy $r \to s$ and $t \to r$ are $(0, 0, 0)$, $(0, 1, 0)$, $(1, 1, 0)$ and $(1, 1, 1)$. The other four triples have $r = 1, s = 0$ or $t = 1, r = 0$.
-5. So the models of $D$ are $\set{p, q}$, $\set{p, q, s}$, $\set{p, q, r, s}$ and $\set{p, q, r, s, t}$.
-6. Their intersection is $\set{p, q}$, and it is one of the models, as the intersection property of Horn clauses predicts.
-7. The marking algorithm marks $p$ by the fact, then $q$ by $p \to q$. The rule $q \land r \to s$ needs $r$, and $t \to r$ needs $t$, which no rule gives, so the marks stop at $\set{p, q}$, the same set.
+1. Each clause has exactly one positive literal, so $D$ is a set of definite [[Horn clauses|QR92EZDTKF]].
+2. Every model contains $p$, by the fact, and then $q$, by $p \to q$.
+3. With $p$ and $q$ true, the remaining clauses say $r \to s$ and $t \to r$.
+4. Of the eight triples of values of $(r, s, t)$, these four satisfy both rules: $(0, 0, 0)$, $(0, 1, 0)$, $(1, 1, 0)$ and $(1, 1, 1)$.
+   Each of the other four has $r = 1$ with $s = 0$, or $t = 1$ with $r = 0$.
+5. So the models of $D$ are
+$$\{ p, q \}, \quad \{ p, q, s \}, \quad \{ p, q, r, s \}, \quad \{ p, q, r, s, t \}.$$
+6. Their intersection is $\{ p, q \}$, and it is one of the models, as the intersection property of Horn clauses predicts.
+7. The marking algorithm agrees.
+   It marks $p$ by the fact and then $q$ by $p \to q$; the rule $q \land r \to s$ needs $r$, and $t \to r$ needs $t$, which nothing gives, so the marks stop at $\{ p, q \}$.
 
 ## Remarks
 
-The least model $\set{p, q}$ is the set of variables that follow from $D$: $D \models p$ and $D \models q$, while $D \not\models r$, $D \not\models s$, $D \not\models t$ because of the model $\set{p, q}$.
-In a logic program with these clauses, the queries $p$ and $q$ succeed and the queries $r$, $s$, $t$ fail.
-If we add the fact $\set{t}$, the marks give $\set{p, q, t, r, s}$, and this is then the only model.
-The models are not closed under union in general: here they happen to form a chain, but for the clauses $\set{\neg p, \neg q, r}$ alone, $\set{p}$ and $\set{q}$ are models while $\set{p, q}$ is not.
+The least model $\{ p, q \}$ is exactly the set of variables that follow from $D$.
+We have $D \models p$ and $D \models q$, while the model $\{ p, q \}$ itself shows that $D \not\models r$, $D \not\models s$ and $D \not\models t$.
+In a logic program with these clauses, the queries $p$ and $q$ succeed and the queries $r$, $s$ and $t$ fail.
+
+If we add the fact $\{ t \}$, marking gives $t$, then $r$, then $s$, and $\{ p, q, r, s, t \}$ becomes the only model.
+Here the models happen to form a chain, but the models of a Horn formula are not closed under union in general.
+For the single clause $\{ \neg p, \neg q, r \}$, the sets $\{ p \}$ and $\{ q \}$ are models, while their union $\{ p, q \}$ is not.
 
 ## Explanations
 
@@ -44,12 +51,10 @@ The smallest party that obeys all rules is Pam and Quin, and every party that ob
 
 ### L2 human
 
-We compute the least model by the immediate consequence step.
-
-1. Start with $M_0 = \emptyset$.
-2. $M_1$ is the set of heads of clauses whose bodies lie in $M_0$: only the fact gives $p$, so $M_1 = \set{p}$.
-3. $M_2$ adds the heads of clauses whose bodies lie in $M_1$: the rule $p \to q$ gives $q$, so $M_2 = \set{p, q}$.
-4. $M_3$ adds nothing new, since $q \land r \to s$ needs $r$ and $t \to r$ needs $t$. So $M_3 = M_2$, and the least model is $\set{p, q}$.
-
-The typical use: in Datalog and logic programming, the answer to a program is its least model, computed in this bottom-up way.
-A trap: the least model is least among models, not among all assignments; the empty set is smaller but makes the fact $p$ false.
+We compute the least model by the immediate consequence step, which adds the heads of all rules whose bodies are already true.
+Start with $M_0 = \emptyset$.
+Only the fact has an empty body, so $M_1 = \{ p \}$.
+Now the rule $p \to q$ fires, so $M_2 = \{ p, q \}$.
+No new rule fires, because $q \land r \to s$ needs $r$ and $t \to r$ needs $t$, so $M_3 = M_2$ and the least model is $\{ p, q \}$.
+This bottom-up computation is how Datalog and logic programming find the answers of a program.
+Watch out: the least model is least among models, not among all assignments; the empty set is smaller, but it makes the fact $p$ false.

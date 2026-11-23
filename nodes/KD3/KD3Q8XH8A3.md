@@ -17,56 +17,79 @@ sources:
 
 ## Proof
 
-This proof gives the weak form, the strong form for a finite set $\Gamma$, and the decidability of $\vdash$.
-We use the theorems (T3), (T4), (T7), (T8) of the [[basic theorems of the Hilbert system L|Y060MF2NZ7]]:
-$$\text{(T3)}\ \varphi \to \neg \neg \varphi, \quad \text{(T4)}\ \neg \varphi \to (\varphi \to \psi), \quad \text{(T7)}\ \varphi \to (\neg \psi \to \neg (\varphi \to \psi)), \quad \text{(T8)}\ (\varphi \to \psi) \to ((\neg \varphi \to \psi) \to \psi).$$
+We turn each row of the truth table into a derivation from the literals of that row, and then remove the literals one variable at a time.
+This gives the weak form, the strong form for a finite set $\Gamma$, and the decidability of $\vdash$.
+We use the laws T3, T4, T7 and T8 of the [[basic theorems of the Hilbert system L|Y060MF2NZ7]]:
+$$\begin{array}{ll} \text{(T3)} & \varphi \to \neg \neg \varphi, \\ \text{(T4)} & \neg \varphi \to (\varphi \to \psi), \\ \text{(T7)} & \varphi \to (\neg \psi \to \neg (\varphi \to \psi)), \\ \text{(T8)} & (\varphi \to \psi) \to ((\neg \varphi \to \psi) \to \psi). \end{array}$$
 Let $q_1, \dots, q_k$ be distinct variables, and let $v$ be a [[truth assignment|H31CS3HK5P]].
-Put $q^v = q$ if $v(q) = 1$ and $q^v = \neg q$ if $v(q) = 0$; in the same way, $\varphi^v = \varphi$ if $v(\varphi) = 1$ and $\varphi^v = \neg \varphi$ if $v(\varphi) = 0$.
-Write $\Delta_v = \set{q_1^v, \dots, q_k^v}$.
+Put $q^v = q$ if $v(q) = 1$ and $q^v = \neg q$ if $v(q) = 0$.
+In the same way, $\varphi^v = \varphi$ if $v(\varphi) = 1$ and $\varphi^v = \neg \varphi$ if $v(\varphi) = 0$.
+Write $\Delta_v = \{ q_1^v, \dots, q_k^v \}$.
 
 Kalmár's lemma: for every formula $\varphi$ whose variables are among $q_1, \dots, q_k$, we have $\Delta_v \vdash \varphi^v$.
 We prove it by [[structural induction|12MQ2NJ29A]] on $\varphi$; the subformulas of $\varphi$ also have their variables among $q_1, \dots, q_k$.
 
-1. Case $\varphi = q_i$. Then $\varphi^v = q_i^v$, which is a member of $\Delta_v$.
-2. Case $\varphi = \neg \psi$ with $v(\psi) = 1$. Then $v(\varphi) = 0$ and $\varphi^v = \neg \neg \psi$. The induction hypothesis gives $\Delta_v \vdash \psi$, and (T3) with MP gives $\Delta_v \vdash \neg \neg \psi$.
-3. Case $\varphi = \neg \psi$ with $v(\psi) = 0$. Then $v(\varphi) = 1$ and $\varphi^v = \neg \psi = \psi^v$. The induction hypothesis gives $\Delta_v \vdash \neg \psi$.
-4. Case $\varphi = \psi \to \chi$ with $v(\psi) = 0$. Then $v(\varphi) = 1$ and $\varphi^v = \psi \to \chi$. The induction hypothesis gives $\Delta_v \vdash \neg \psi$, and (T4) with MP gives $\Delta_v \vdash \psi \to \chi$.
-5. Case $\varphi = \psi \to \chi$ with $v(\chi) = 1$. Then $v(\varphi) = 1$. The induction hypothesis gives $\Delta_v \vdash \chi$, and the axiom (A1) $\chi \to (\psi \to \chi)$ with MP gives $\Delta_v \vdash \psi \to \chi$.
-6. Case $\varphi = \psi \to \chi$ with $v(\psi) = 1$ and $v(\chi) = 0$. Then $v(\varphi) = 0$ and $\varphi^v = \neg (\psi \to \chi)$. The induction hypothesis gives $\Delta_v \vdash \psi$ and $\Delta_v \vdash \neg \chi$.
-7. In the case of step 6, (T7) gives $\vdash \psi \to (\neg \chi \to \neg (\psi \to \chi))$. Two applications of MP give $\Delta_v \vdash \neg (\psi \to \chi)$.
-8. Steps 4 to 6 cover all cases for $\psi \to \chi$: if $v(\psi) \ne 0$ and $v(\chi) \ne 1$, then $v(\psi) = 1$ and $v(\chi) = 0$. In $L$ every formula is a variable, a negation or an implication, so the lemma holds.
+1. Case $\varphi = q_i$.
+   Then $\varphi^v = q_i^v$, which is a member of $\Delta_v$.
+2. Case $\varphi = \neg \psi$ with $v(\psi) = 1$.
+   Then $v(\varphi) = 0$ and $\varphi^v = \neg \neg \psi$.
+   The induction hypothesis gives $\Delta_v \vdash \psi$, and T3 with MP gives $\Delta_v \vdash \neg \neg \psi$.
+3. Case $\varphi = \neg \psi$ with $v(\psi) = 0$.
+   Then $v(\varphi) = 1$ and $\varphi^v = \neg \psi = \psi^v$, and the induction hypothesis gives $\Delta_v \vdash \neg \psi$.
+4. Case $\varphi = \psi \to \chi$ with $v(\psi) = 0$.
+   Then $v(\varphi) = 1$ and $\varphi^v = \psi \to \chi$.
+   The induction hypothesis gives $\Delta_v \vdash \neg \psi$, and T4 with MP gives $\Delta_v \vdash \psi \to \chi$.
+5. Case $\varphi = \psi \to \chi$ with $v(\chi) = 1$.
+   Then $v(\varphi) = 1$.
+   The induction hypothesis gives $\Delta_v \vdash \chi$, and the axiom A1 instance $\chi \to (\psi \to \chi)$ with MP gives $\Delta_v \vdash \psi \to \chi$.
+6. Case $\varphi = \psi \to \chi$ with $v(\psi) = 1$ and $v(\chi) = 0$.
+   Then $v(\varphi) = 0$ and $\varphi^v = \neg (\psi \to \chi)$.
+   The induction hypothesis gives $\Delta_v \vdash \psi$ and $\Delta_v \vdash \neg \chi$.
+7. In the case of step 6, T7 gives $\vdash \psi \to (\neg \chi \to \neg (\psi \to \chi))$, and two applications of MP give $\Delta_v \vdash \neg (\psi \to \chi)$.
+8. Steps 4 to 6 cover all cases for $\psi \to \chi$, since $v(\psi) \ne 0$ and $v(\chi) \ne 1$ force $v(\psi) = 1$ and $v(\chi) = 0$.
+   In $L$ every formula is a variable, a negation or an implication, so the lemma holds.
 
-The weak form.
-Let $\varphi$ be a [[tautology|05006AJ7DZ]], and let $q_1, \dots, q_k$ be its variables ($k \ge 1$, since every formula of $L$ contains a variable).
+**The weak form.** Let $\varphi$ be a [[tautology|05006AJ7DZ]], and let $q_1, \dots, q_k$ be its variables, with $k \ge 1$ since every formula of $L$ contains a variable.
 For $m = 0, 1, \dots, k$, let $C(m)$ be the claim: for every truth assignment $v$, $q_1^v, \dots, q_{k-m}^v \vdash \varphi$.
 We prove $C(m)$ by [[mathematical induction|0ASJVEFA9J]] on $m$.
 
-9. $C(0)$ holds. For each $v$ we have $v(\varphi) = 1$, so $\varphi^v = \varphi$, and Kalmár's lemma gives $q_1^v, \dots, q_k^v \vdash \varphi$.
-10. Assume $C(m)$ with $m < k$, and put $j = k - m$. Fix $v$, and let $v_1$ and $v_0$ agree with $v$ except that $v_1(q_j) = 1$ and $v_0(q_j) = 0$.
-11. For $i < j$ we have $q_i^{v_1} = q_i^{v_0} = q_i^v$. Write $\Delta' = \set{q_1^v, \dots, q_{j-1}^v}$. Then $C(m)$ for $v_1$ and for $v_0$ gives $\Delta' \cup \set{q_j} \vdash \varphi$ and $\Delta' \cup \set{\neg q_j} \vdash \varphi$.
+9. $C(0)$ holds.
+   For each $v$ we have $v(\varphi) = 1$, so $\varphi^v = \varphi$, and Kalmár's lemma gives $q_1^v, \dots, q_k^v \vdash \varphi$.
+10. Assume $C(m)$ with $m < k$, and put $j = k - m$.
+    Fix $v$, and let $v_1$ and $v_0$ agree with $v$ except that $v_1(q_j) = 1$ and $v_0(q_j) = 0$.
+11. For $i < j$ we have $q_i^{v_1} = q_i^{v_0} = q_i^v$, and we write $\Delta' = \{ q_1^v, \dots, q_{j-1}^v \}$.
+    Then $C(m)$ for $v_1$ and for $v_0$ gives $\Delta' \cup \{ q_j \} \vdash \varphi$ and $\Delta' \cup \{ \neg q_j \} \vdash \varphi$.
 12. The [[deduction theorem|9X08XK5RV2]] gives $\Delta' \vdash q_j \to \varphi$ and $\Delta' \vdash \neg q_j \to \varphi$.
-13. The instance $(q_j \to \varphi) \to ((\neg q_j \to \varphi) \to \varphi)$ of (T8) and two applications of MP give $\Delta' \vdash \varphi$. This is $C(m + 1)$.
-14. $C(k)$ says $\emptyset \vdash \varphi$, that is, $\vdash \varphi$. This proves the weak form.
+13. The instance $(q_j \to \varphi) \to ((\neg q_j \to \varphi) \to \varphi)$ of T8 and two applications of MP give $\Delta' \vdash \varphi$.
+    This is $C(m + 1)$.
+14. $C(k)$ says $\emptyset \vdash \varphi$, that is, $\vdash \varphi$, and this proves the weak form.
 
-The strong form for a finite set.
+**The strong form for a finite set.**
 
-15. Let $\Gamma = \set{\gamma_1, \dots, \gamma_n}$ with $\Gamma \models \varphi$, and put $\theta = \gamma_1 \to (\gamma_2 \to \cdots \to (\gamma_n \to \varphi))$.
-16. The formula $\theta$ is a tautology. If $v(\theta) = 0$, then the truth table of $\to$ gives $v(\gamma_1) = \dots = v(\gamma_n) = 1$ and $v(\varphi) = 0$, which contradicts $\Gamma \models \varphi$.
-17. Step 14 gives $\vdash \theta$. From the hypotheses $\gamma_1, \dots, \gamma_n$, $n$ applications of MP give $\Gamma \vdash \varphi$.
+15. Let $\Gamma = \{ \gamma_1, \dots, \gamma_n \}$ with $\Gamma \models \varphi$, and put $\theta = \gamma_1 \to (\gamma_2 \to \cdots \to (\gamma_n \to \varphi))$.
+16. The formula $\theta$ is a tautology.
+    If $v(\theta) = 0$, then the truth table of $\to$ gives $v(\gamma_1) = \dots = v(\gamma_n) = 1$ and $v(\varphi) = 0$, which contradicts $\Gamma \models \varphi$.
+17. Step 14 gives $\vdash \theta$.
+    From the hypotheses $\gamma_1, \dots, \gamma_n$, $n$ applications of MP give $\Gamma \vdash \varphi$.
 
-Decidability.
+**Decidability.**
 
-18. By step 14 and the [[soundness theorem|XD629S54CS]], $\vdash \varphi$ holds exactly when $\varphi$ is a tautology. The [[truth table|05RSK4Q657]] of $\varphi$, with $2^k$ rows, decides this in finitely many steps.
+18. By step 14 and the [[soundness theorem|XD629S54CS]], $\vdash \varphi$ holds exactly when $\varphi$ is a tautology.
+    The [[truth table|05RSK4Q657]] of $\varphi$, with $2^k$ rows, decides this in finitely many steps.
 
 ## Idea
 
 Each row of the truth table gives a derivation: from the literals of that row, Kalmár's lemma derives $\varphi$ or $\neg \varphi$.
 For a tautology every row derives $\varphi$ itself.
-Two rows that differ only in $q_j$ combine, by the deduction theorem and (T8), into a derivation without the hypothesis on $q_j$.
+Two rows that differ only in $q_j$ combine, by the deduction theorem and T8, into a derivation without the hypothesis on $q_j$.
 After $k$ such steps no hypothesis is left.
 
 ## Variants
 
-- The proof is constructive: it turns the truth table into an explicit derivation, whose length grows with the $2^k$ rows. It is the proof usually named after László Kalmár.
-- The strong form for an infinite $\Gamma$ follows from step 17 and the [[compactness theorem|4X9126SEMM]]: if $\Gamma \models \varphi$, some finite $\Gamma_0 \subseteq \Gamma$ has $\Gamma_0 \models \varphi$, so $\Gamma_0 \vdash \varphi$ and $\Gamma \vdash \varphi$.
-- The [[proof by maximal consistent sets|GNPVCQC55C]] gives the strong form directly, without truth tables.
+The proof is constructive: it turns the truth table into an explicit derivation, whose length grows with the $2^k$ rows.
+It is the proof usually named after László Kalmár.
+
+The strong form for an infinite $\Gamma$ follows from step 17 and the [[compactness theorem|4X9126SEMM]].
+If $\Gamma \models \varphi$, some finite $\Gamma_0 \subseteq \Gamma$ has $\Gamma_0 \models \varphi$, so $\Gamma_0 \vdash \varphi$ and $\Gamma \vdash \varphi$.
+
+The [[proof by maximal consistent sets|GNPVCQC55C]] gives the strong form directly, without truth tables.

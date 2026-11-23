@@ -16,35 +16,43 @@ sources:
 
 ## Example
 
-A lamp on a staircase has two switches, $A$ at the bottom and $B$ at the top.
-Each switch has two positions, up and down.
-Let $p$ mean "switch $A$ is up" and $q$ mean "switch $B$ is up".
-The wires form two paths from the source to the lamp, and the two paths are in parallel.
-The first path is closed when both switches are up.
-The second path is closed when both switches are down.
-Two contacts in series give a [[conjunction|025YZN3VJW]], and two paths in parallel give a [[disjunction|0F72FK8EKB]].
+A staircase lamp with a switch at each end is a propositional formula in disguise.
+Call the switches $A$ (at the bottom) and $B$ (at the top), and let $p$ mean "switch $A$ is up" and $q$ mean "switch $B$ is up".
+The wires form two paths from the source to the lamp, side by side.
+The first path is closed when both switches are up, and the second is closed when both are down.
+
+Contacts in series give a [[conjunction|025YZN3VJW]], because current passes only if both are closed.
+Paths in parallel give a [[disjunction|0F72FK8EKB]], because current needs only one closed path.
 So the lamp is on exactly when the formula
 $$\varphi = (p \land q) \lor (\neg p \land \neg q)$$
 has the value $1$.
-We check that $\varphi$ is [[logically equivalent|0JMR2HM2N2]] to the [[biconditional|0S6GMNJ62Y]] $p \leftrightarrow q$, and that each switch changes the state of the lamp.
+We check two facts: $\varphi$ is [[logically equivalent|0JMR2HM2N2]] to the [[biconditional|0S6GMNJ62Y]] $p \leftrightarrow q$, and each switch changes the state of the lamp.
 
-1. Row $p = 1$, $q = 1$: $p \land q = 1$, so $\varphi = 1$; and $p \leftrightarrow q = 1$.
-2. Row $p = 1$, $q = 0$: $p \land q = 0$ and $\neg p \land \neg q = 0$, so $\varphi = 0$; and $p \leftrightarrow q = 0$.
-3. Row $p = 0$, $q = 1$: $p \land q = 0$ and $\neg p \land \neg q = 0$, so $\varphi = 0$; and $p \leftrightarrow q = 0$.
-4. Row $p = 0$, $q = 0$: $\neg p \land \neg q = 1$, so $\varphi = 1$; and $p \leftrightarrow q = 1$.
-5. The two formulas agree in all four rows, so $\varphi$ and $p \leftrightarrow q$ are equivalent.
-6. A flip of switch $A$ replaces $p$ by $1 - p$ and keeps $q$; by steps 1 to 4, the value of $\varphi$ changes in each of the four cases.
-7. A flip of switch $B$ changes the value of $\varphi$ in the same way.
+Compute $\varphi$ and $p \leftrightarrow q$ in all four rows:
+$$\begin{array}{cc|cc|c|c} p & q & p \land q & \neg p \land \neg q & \varphi & p \leftrightarrow q \\ \hline 1 & 1 & 1 & 0 & 1 & 1 \\ 1 & 0 & 0 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 1 & 1 & 1 \end{array}$$
+
+1. The last two columns agree in every row, so $\varphi$ and $p \leftrightarrow q$ are equivalent.
+2. A flip of switch $A$ changes $p$ and keeps $q$.
+   In the table this moves between row 1 and row 3, or between row 2 and row 4, and in each pair the value of $\varphi$ differs.
+3. A flip of switch $B$ moves between row 1 and row 2, or between row 3 and row 4, and again the value differs.
+
+So either switch turns the lamp on when it is off and off when it is on.
 
 ## Remarks
 
-The example shows how the propositional calculus describes circuits.
-A switch is a variable, series is $\land$, parallel is $\lor$, and a contact that is closed when the switch is down is $\neg$.
+The example shows the dictionary between circuits and formulas.
+A switch is a variable, series is $\land$, parallel is $\lor$, and a contact that closes when the switch is down is $\neg$.
 Claude Shannon's master's thesis on relay and switching circuits, published in 1938, used this reading of circuits as formulas.
-The topic [[switching circuits and logic design|JWQBMJS0B1]] continues the subject.
-If the second path closes when $A$ is down and $B$ is up, the circuit computes $(p \land q) \lor (\neg p \land q)$.
-This formula is equivalent to $q$, so then switch $A$ has no effect.
-With three switches, a lamp that changes with each flip can compute $p \leftrightarrow (q \leftrightarrow r)$, which is true when an odd number of the three variables are true.
+The topic [[switching circuits and logic design|JWQBMJS0B1]] continues the story.
+
+Change the wiring and the formula changes with it.
+If the second path closes when $A$ is down and $B$ is up, the circuit computes $(p \land q) \lor (\neg p \land q)$, which is equivalent to $q$.
+Then switch $A$ has no effect at all, which the table shows at once.
+With three switches, a lamp that changes with each flip computes $p \leftrightarrow (q \leftrightarrow r)$, which is true exactly when an odd number of the three variables are true.
+
+Watch out.
+Do not join the two paths by $\land$ because both paths are present.
+The lamp needs only one closed path, so parallel paths give $\lor$.
 
 ## Explanations
 
@@ -52,21 +60,16 @@ With three switches, a lamp that changes with each flip can compute $p \leftrigh
 
 Many houses have a lamp that two switches control, one at each end of a staircase.
 Each switch can be up or down, so there are four cases.
-In this wiring the lamp is on when both switches are up or both are down.
-In the other two cases it is off.
+In this wiring the lamp is on when both switches are up or both are down, and off in the other two cases.
 So a flip of either switch turns the lamp on if it was off, and off if it was on.
 The rule "both the same" is the logical connective "if and only if".
 
 ### L2 human
 
-We find a formula for a circuit and then simplify it.
-
-1. Name the switches: $p$ for "$A$ is up", $q$ for "$B$ is up".
-2. Write one conjunction for each path: $p \land q$ for the upper path and $\neg p \land \neg q$ for the lower path.
-3. Join the paths by $\lor$, because they are in parallel.
-4. Compute the table of the result: it is $1$ exactly when $p = q$.
-5. A table with the value $1$ exactly when $p = q$ is the table of $p \leftrightarrow q$.
-
-The typical use is the reverse direction: start from a wanted table, write a formula, and build the circuit from it.
-A trap is to join the two paths by $\land$ because both paths exist.
-Current needs only one closed path, so parallel paths give $\lor$.
+The typical use goes the other way: start from a wanted table, write a formula, and build the circuit from it.
+Suppose we want a lamp that is on only when $A$ is up and $B$ is down.
+The wanted table has a single $1$, in the row $p = 1$, $q = 0$.
+The formula $p \land \neg q$ has exactly that table:
+$$p \land \neg q = 1 \iff p = 1 \text{ and } q = 0 .$$
+So one path with two contacts in series does the job: a contact that closes when $A$ is up, then a contact that closes when $B$ is down.
+Check: in the row $p = 1$, $q = 1$ the second contact is open, so the lamp is off, as the table wants.
