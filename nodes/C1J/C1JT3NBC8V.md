@@ -17,47 +17,43 @@ sources:
 ## Example
 
 A student adapts [[Cantor's diagonal argument|0XCH8QVDCQ]] to the rational numbers in $(0, 1)$.
+The conclusion is false, so some step must fail; find it before reading on.
 
-1. Assume that $q_1, q_2, q_3, \ldots$ is a list of all rational numbers in $(0, 1)$.
+1. Assume that $q_1, q_2, q_3, \ldots$ lists all rational numbers in $(0, 1)$.
 2. Write each $q_n$ as a decimal $0.d_{n1} d_{n2} d_{n3} \ldots$.
-3. Define $e_n = 5$ if $d_{nn} \neq 5$, and $e_n = 4$ if $d_{nn} = 5$. Let $x = 0.e_1 e_2 e_3 \ldots$.
+3. Let $e_n = 5$ if $d_{nn} \neq 5$, and $e_n = 4$ if $d_{nn} = 5$, and let $x = 0.e_1 e_2 e_3 \ldots$.
 4. Then $x$ differs from each $q_n$ in the $n$th digit, so $x$ is not in the list.
-5. "So the list misses a rational number, and the rationals in $(0, 1)$ are uncountable."
+5. So the list misses a rational number, and the rationals in $(0, 1)$ are uncountable.
 
-We check the argument.
+[[The rationals are countable|0DS9KWFDK2]], so a list as in step 1 exists, and the argument [[proves too much|D8A1K052XV]].
+Steps 1 to 4 are valid: the digits of $x$ are all $4$ or $5$, so $x$ has only one decimal expansion, and it differs from each $q_n$.
+Step 5 is the failure, because it assumes that $x$ is rational, and nothing proves that.
+In fact $x$ is irrational: a rational $x$ would lie in $(0, 1)$ and so equal some $q_n$, against step 4.
 
-1. The conclusion is false: [[the rationals are countable|0DS9KWFDK2]], so a list as in step 1 exists. So the argument proves too much, and some step must fail.
-2. Steps 1 to 4 are valid. The digits of $x$ are $4$ or $5$, so $x$ has only one decimal expansion, and it differs from each $q_n$.
-3. Step 5 is invalid. It assumes that $x$ is rational, and nothing proves this.
-4. In fact $x$ is irrational. If $x$ were rational, it would lie in $(0, 1)$ and so be some $q_n$, against step 4.
-5. In the proof that [[the reals are uncountable|0518MM6BE1]], the same $x$ needs only to be a real number in $(0, 1)$, and every decimal of this form is one. That is why the argument works there.
-
-So the adapted argument is an instance of [[proving too much|D8A1K052XV]]: it gives a false conclusion, and the failing step is "$x$ is rational".
+The correct conclusion is weaker and true: every list of rationals in $(0, 1)$ misses some irrational number.
+In the proof that [[the reals are uncountable|0518MM6BE1]], the same $x$ only has to be a real number in $(0, 1)$, which every such decimal is, and that is why the argument works there.
 
 ## Remarks
 
-The example shows how to test an argument: apply it to a case where the answer is known.
-The diagonal argument proves that a list cannot contain all reals, because the diagonal number is always a real number.
-For the rationals the diagonal number is always outside the set, so the argument proves only that each list of rationals misses some irrational number.
+The way to catch this error is to test an argument on a case where the answer is known.
+The diagonal construction always produces a number outside the list, and the argument succeeds exactly when that number is guaranteed to lie in the set being listed.
+For the reals the guarantee holds, and for the rationals it fails.
 
 ## Explanations
 
 ### L1 human
 
 Cantor's trick builds a new decimal number that differs from every number on a given list.
-For a list of all real numbers between $0$ and $1$, this is a contradiction, because the new number is also a real number.
+For a list of all real numbers between $0$ and $1$, that is a contradiction, because the new number is a real number too.
 For a list of all fractions, it is no contradiction, because the new number need not be a fraction.
-The trick only shows that the new number is missing, and a missing irrational number does not matter for a list of fractions.
+The trick shows only that the new number is missing, and a missing irrational number does not hurt a list of fractions.
 
 ### L2 human
 
-We prove that the diagonal number $x$ is irrational for every list of all rationals in $(0, 1)$.
+We run the construction on a list that begins $q_1 = 0.5000\ldots$, $q_2 = 0.333\ldots$ and $q_3 = 0.666\ldots$.
+The diagonal digits are $5$, $3$ and $6$, so $e_1 = 4$, $e_2 = 5$, $e_3 = 5$, and $x$ begins $0.455$.
+Check that $x \neq q_m$ for every $m$: the $m$th digits $e_m$ and $d_{mm}$ differ, and $x$ has no second decimal expansion because its digits are only $4$ and $5$.
+If the list contains all rationals in $(0, 1)$, this shows that $x$ is irrational.
 
-1. Suppose that $x$ is rational. Then $x = q_m$ for some $m$, since $x \in (0, 1)$ and the list contains all rationals in $(0, 1)$.
-2. The $m$th digit of $x$ is $e_m$, and the $m$th digit of the chosen expansion of $q_m$ is $d_{mm}$. By step 3 of the example, $e_m \neq d_{mm}$.
-3. The digits of $x$ are all $4$ or $5$, so $x$ has no other decimal expansion. So the two expansions in step 2 belong to different numbers, and $x \neq q_m$.
-4. This contradicts step 1, so $x$ is irrational.
-5. For a list that begins $q_1 = 0.5000\ldots$, $q_2 = 0.333\ldots$ and $q_3 = 0.666\ldots$, the diagonal digits are $5, 3, 6$. So $x$ begins $0.455$.
-
-The typical use of this reasoning is to read the diagonal argument as a construction of an element outside a list, and then to ask in which set that element lies.
-A trap is to think that a step valid for one set is valid for every set: here the step "$x$ belongs to the set" depends on the set.
+The typical use of this reasoning is to read the diagonal argument as the construction of an element outside a list, and then to ask in which set that element lies.
+Watch out for a step that is valid for one set and silently reused for another, here "$x$ belongs to the set".
