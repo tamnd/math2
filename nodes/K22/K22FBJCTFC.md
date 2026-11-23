@@ -17,46 +17,74 @@ sources:
 
 ## Proof
 
+We build an automaton whose states guess the true subformulas, prove that accepting runs guess correctly, and then count the states.
 We prove [[the translation theorem|BYMYN6GN8E]] for formulas in the grammar of [[the definition|8S64VZ6A1S]].
-We first build a generalized Büchi automaton, which accepts a run when the run meets each of several sets infinitely often.
+First we build a generalized Büchi automaton, which accepts a run when the run meets each of several sets infinitely often.
 At the end we cite the standard reduction to an ordinary [[Büchi automaton|92DM43HQZT]].
 
-1. Closure. Let $\mathrm{cl}(\varphi)$ be the set of subformulas of $\varphi$ and their negations, where $\neg\neg\psi$ is identified with $\psi$. Then $\lvert \mathrm{cl}(\varphi) \rvert \le 2\lvert\varphi\rvert$.
-2. States. A state is a set $B \subseteq \mathrm{cl}(\varphi)$ that contains exactly one of $\psi$ and $\neg\psi$ for each $\psi \in \mathrm{cl}(\varphi)$.
-3. Further, $\psi_1 \wedge \psi_2 \in B$ must hold exactly when $\psi_1 \in B$ and $\psi_2 \in B$. There are at most $2^{\lvert\varphi\rvert}$ such sets.
-4. Initial states. These are the states $B$ with $\varphi \in B$.
-5. Transitions. There is a transition from $B$ to $B'$ on the letter $a \subseteq AP$ when $a \cap \mathrm{cl}(\varphi) = B \cap AP$ and two conditions hold.
-6. First condition: for each $X\psi \in \mathrm{cl}(\varphi)$, $X\psi \in B$ if and only if $\psi \in B'$.
-7. Second condition: for each $\psi_1 U \psi_2 \in \mathrm{cl}(\varphi)$, $\psi_1 U \psi_2 \in B$ if and only if $\psi_2 \in B$, or $\psi_1 \in B$ and $\psi_1 U \psi_2 \in B'$.
-8. Acceptance. For each until formula $\theta = \psi_1 U \psi_2$ in $\mathrm{cl}(\varphi)$, let $F_\theta$ be the set of states $B$ with $\theta \notin B$ or $\psi_2 \in B$. A run is accepting when it meets every $F_\theta$ infinitely often.
-9. Truth lemma. Let $B_0 B_1 \cdots$ be an accepting run on $w$. We show by induction on $\psi \in \mathrm{cl}(\varphi)$ that $\psi \in B_i$ if and only if $w^i \models \psi$, for all $i$.
-10. Atoms: $p \in B_i$ if and only if $p \in w_i$, by the letter condition $w_i \cap \mathrm{cl}(\varphi) = B_i \cap AP$.
-11. Negation and conjunction follow from steps 2 and 3 and the induction hypothesis.
-12. Next: $X\psi \in B_i$ if and only if $\psi \in B_{i+1}$, by step 6. By the induction hypothesis this holds if and only if $w^{i+1} \models \psi$, that is, $w^i \models X\psi$.
-13. Until, first direction. Let $\theta = \psi_1 U \psi_2 \in B_i$. Suppose that $\psi_2 \notin B_j$ for all $j \ge i$.
-14. Then step 7 gives $\psi_1 \in B_j$ and $\theta \in B_{j+1}$ for all $j \ge i$, by induction on $j$. So no $B_j$ with $j \ge i$ is in $F_\theta$.
-15. This contradicts acceptance. So there is a least $j \ge i$ with $\psi_2 \in B_j$.
-16. For $i \le k < j$, step 7 and $\psi_2 \notin B_k$ give $\psi_1 \in B_k$. By the induction hypothesis, $w^j \models \psi_2$ and $w^k \models \psi_1$, so $w^i \models \theta$.
-17. Until, second direction. Let $w^i \models \theta$ with witness $j \ge i$, and suppose $\theta \notin B_i$.
-18. For $i \le k \le j$ we show $\theta \notin B_k$, by induction on $k$. If $\theta \notin B_k$, step 7 gives $\psi_2 \notin B_k$.
-19. For $k < j$ we have $w^k \models \psi_1$, so $\psi_1 \in B_k$ by the induction hypothesis. Then step 7 gives $\theta \notin B_{k+1}$.
-20. At $k = j$ we get $\psi_2 \notin B_j$, while $w^j \models \psi_2$. This contradicts the induction hypothesis, so $\theta \in B_i$.
-21. Soundness. An accepting run has $\varphi \in B_0$ by step 4, so step 9 gives $w \models \varphi$.
-22. Completeness. Let $w \models \varphi$, and put $B_i = \set{\psi \in \mathrm{cl}(\varphi) : w^i \models \psi}$. Steps 2 to 6 hold by the semantics.
-23. Step 7 holds by the expansion law $\psi_1 U \psi_2 \equiv \psi_2 \vee (\psi_1 \wedge X(\psi_1 U \psi_2))$, which follows from the clause for until.
-24. Suppose that some $F_\theta$ is met only finitely often. Then for some $N$, all $i \ge N$ have $w^i \models \theta$ and $w^i \not\models \psi_2$.
-25. But $w^N \models \theta$ gives a $j \ge N$ with $w^j \models \psi_2$. This contradiction shows that the run $B_0 B_1 \cdots$ is accepting.
-26. Degeneralization, cited. A generalized Büchi automaton with $n$ states and $k \ge 1$ acceptance sets has an equivalent Büchi automaton with $n \cdot k$ states. Its states are pairs (state, counter), and the counter waits for the sets in turn. If $k = 0$, all states are accepting.
-27. Count. Here $k \le \lvert\varphi\rvert$ and $n \le 2^{2\lvert\varphi\rvert} = 4^{\lvert\varphi\rvert}$. So the Büchi automaton has at most $(\lvert\varphi\rvert + 1) \cdot 4^{\lvert\varphi\rvert}$ states.
-28. Each state is a subset of $\mathrm{cl}(\varphi)$ and a counter, so it has $O(\lvert\varphi\rvert)$ bits. The conditions of steps 2 to 8 are checked in polynomial time, which gives part 3.
+### The automaton
+
+1. Let $\mathrm{cl}(\varphi)$ be the set of subformulas of $\varphi$ and their negations, where we identify $\neg\neg\psi$ with $\psi$.
+   Then $\lvert \mathrm{cl}(\varphi) \rvert \le 2\lvert\varphi\rvert$.
+2. A state is a set $B \subseteq \mathrm{cl}(\varphi)$ that contains exactly one of $\psi$ and $\neg\psi$ for each $\psi \in \mathrm{cl}(\varphi)$, and that contains $\psi_1 \wedge \psi_2$ exactly when it contains $\psi_1$ and $\psi_2$.
+   A state is fixed by its choice on the subformulas, so there are at most $2^{\lvert\varphi\rvert}$ states.
+3. The initial states are the states $B$ with $\varphi \in B$.
+4. There is a transition from $B$ to $B'$ on the letter $a \subseteq AP$ when $a \cap \mathrm{cl}(\varphi) = B \cap AP$ and two conditions hold.
+   For each $X\psi \in \mathrm{cl}(\varphi)$, we need $X\psi \in B$ if and only if $\psi \in B'$.
+   For each $\psi_1 U \psi_2 \in \mathrm{cl}(\varphi)$, we need $\psi_1 U \psi_2 \in B$ if and only if $\psi_2 \in B$, or $\psi_1 \in B$ and $\psi_1 U \psi_2 \in B'$.
+5. For each until formula $\theta = \psi_1 U \psi_2$ in $\mathrm{cl}(\varphi)$, let $F_\theta$ be the set of states $B$ with $\theta \notin B$ or $\psi_2 \in B$.
+   A run is accepting when it meets every $F_\theta$ infinitely often.
+
+### The truth lemma
+
+6. Let $B_0 B_1 \cdots$ be an accepting run on $w$.
+   We show by induction on $\psi \in \mathrm{cl}(\varphi)$ that $\psi \in B_i$ if and only if $w^i \models \psi$, for all $i$.
+7. For an atom $p$, the letter condition $w_i \cap \mathrm{cl}(\varphi) = B_i \cap AP$ gives $p \in B_i$ if and only if $p \in w_i$.
+   Negation and conjunction follow from step 2 and the induction hypothesis.
+8. For next, step 4 gives $X\psi \in B_i$ if and only if $\psi \in B_{i+1}$.
+   By the induction hypothesis this holds if and only if $w^{i+1} \models \psi$, that is, $w^i \models X\psi$.
+9. Let $\theta = \psi_1 U \psi_2 \in B_i$, and suppose that $\psi_2 \notin B_j$ for all $j \ge i$.
+   Then the until condition of step 4 gives $\psi_1 \in B_j$ and $\theta \in B_{j+1}$ for all $j \ge i$, by induction on $j$.
+   So no $B_j$ with $j \ge i$ is in $F_\theta$, which contradicts acceptance.
+10. So there is a least $j \ge i$ with $\psi_2 \in B_j$.
+    For $i \le k < j$, the until condition and $\psi_2 \notin B_k$ give $\psi_1 \in B_k$.
+    By the induction hypothesis, $w^j \models \psi_2$ and $w^k \models \psi_1$, so $w^i \models \theta$.
+
+### The truth lemma, continued
+
+11. Now let $w^i \models \theta$ with witness $j \ge i$, and suppose that $\theta \notin B_i$.
+    We show $\theta \notin B_k$ for $i \le k \le j$, by induction on $k$.
+12. If $\theta \notin B_k$, the until condition gives $\psi_2 \notin B_k$.
+    For $k < j$ we have $w^k \models \psi_1$, so $\psi_1 \in B_k$ by the induction hypothesis, and then the until condition gives $\theta \notin B_{k+1}$.
+13. At $k = j$ we get $\psi_2 \notin B_j$, while $w^j \models \psi_2$.
+    This contradicts the induction hypothesis, so $\theta \in B_i$.
+14. An accepting run has $\varphi \in B_0$ by step 3, so the truth lemma gives $w \models \varphi$.
+
+### Every model has an accepting run
+
+15. Let $w \models \varphi$, and put $B_i = \{\psi \in \mathrm{cl}(\varphi) : w^i \models \psi\}$.
+    Steps 2 and 3 and the next condition hold by the semantics.
+16. The until condition holds by the expansion law $\psi_1 U \psi_2 \equiv \psi_2 \vee (\psi_1 \wedge X(\psi_1 U \psi_2))$, which follows from the clause for until.
+17. Suppose that some $F_\theta$ is met only finitely often.
+    Then for some $N$, all $i \ge N$ have $w^i \models \theta$ and $w^i \not\models \psi_2$.
+    But $w^N \models \theta$ gives a $j \ge N$ with $w^j \models \psi_2$, a contradiction, so the run is accepting.
+
+### The count
+
+18. We cite degeneralization: a generalized Büchi automaton with $n$ states and $k \ge 1$ acceptance sets has an equivalent Büchi automaton with $n \cdot k$ states.
+    Its states are pairs of a state and a counter, and the counter waits for the acceptance sets in turn.
+    If $k = 0$, every state is accepting.
+19. Here $k \le \lvert\varphi\rvert$ and $n \le 2^{\lvert\varphi\rvert} \le 4^{\lvert\varphi\rvert}$, so the Büchi automaton has at most $(\lvert\varphi\rvert + 1) \cdot 4^{\lvert\varphi\rvert}$ states.
+20. Each state is a subset of $\mathrm{cl}(\varphi)$ and a counter, so it has $O(\lvert\varphi\rvert)$ bits.
+    The conditions of steps 2 to 5 can be checked in polynomial time, which gives the time bound of part 3.
 
 ## Idea
 
 A state guesses which subformulas are true at the current position.
-The transition conditions make the guesses consistent with the next position.
-Only the eventualities can be postponed forever, and the acceptance condition forbids that.
+The transition conditions force the guesses to agree with the next position, through the one-step unfoldings of next and until.
+These local checks cannot stop a run from postponing an until forever, and the acceptance sets forbid exactly that.
 
 ## Variants
 
-1. Baier and Katoen give this construction, with the degeneralization of step 26, in chapters 4 and 5.
-2. Alternating automata give a translation with $O(\lvert\varphi\rvert)$ states, and the exponential appears only when they are made nondeterministic.
+Baier and Katoen give this construction, with the degeneralization of step 18, in chapters 4 and 5 of Principles of Model Checking.
+Alternating automata give a translation with $O(\lvert\varphi\rvert)$ states, and the exponential appears only when they are made nondeterministic.

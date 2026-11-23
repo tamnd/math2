@@ -109,7 +109,7 @@ That step is conditional excluded middle, and it fails in $\mathsf{VC}$ whenever
 
 ### History
 
-The study of the strict conditional goes back to C. I. Lewis.
+The study of the strict conditional goes back to Clarence Irving Lewis.
 Ramsey stated his test for conditionals in a footnote of a 1929 paper.
 Stalnaker gave the selection function semantics in 1968.
 David Lewis gave the sphere semantics and the logics $\mathsf{V}$ to $\mathsf{VC}$ in Counterfactuals (1973).

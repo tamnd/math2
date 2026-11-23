@@ -16,15 +16,17 @@ sources:
 
 ## Example
 
-The [[strict conditional|5JW54NP52K]] is $\varphi \prec \psi := \square(\varphi \to \psi)$, interpreted in a Kripke model $(W, R, V)$.
+The [[strict conditional|5JW54NP52K]] is $\varphi \prec \psi := \square(\varphi \to \psi)$, read in a Kripke model $(W, R, V)$.
 We show that it obeys strengthening of the antecedent, transitivity and contraposition.
 So it cannot be the conditional of [[conditional logic|ZGYG7WN7EC]], where all three fail.
 
-1. Strengthening. Let $w \models \square(\varphi \to \psi)$ and let $w R v$ with $v \models \varphi \wedge \chi$.
-2. Then $v \models \varphi$ and $v \models \varphi \to \psi$, so $v \models \psi$. Hence $w \models \square((\varphi \wedge \chi) \to \psi)$.
-3. Transitivity. Let $w \models \square(\varphi \to \psi)$ and $w \models \square(\psi \to \chi)$, and let $w R v$ with $v \models \varphi$.
-4. Then $v \models \psi$ by the first premise, and $v \models \chi$ by the second. Hence $w \models \square(\varphi \to \chi)$.
-5. Contraposition. At each $v$ with $w R v$, the formulas $\varphi \to \psi$ and $\neg\psi \to \neg\varphi$ have the same truth value.
+1. Strengthening: let $w \models \square(\varphi \to \psi)$, and let $w R v$ with $v \models \varphi \wedge \chi$.
+2. Then $v \models \varphi$ and $v \models \varphi \to \psi$, so $v \models \psi$.
+   Hence $w \models \square((\varphi \wedge \chi) \to \psi)$.
+3. Transitivity: let $w \models \square(\varphi \to \psi)$ and $w \models \square(\psi \to \chi)$, and let $w R v$ with $v \models \varphi$.
+4. Then $v \models \psi$ by the first premise, and $v \models \chi$ by the second.
+   Hence $w \models \square(\varphi \to \chi)$.
+5. Contraposition: at each $v$ with $w R v$, the formulas $\varphi \to \psi$ and $\neg\psi \to \neg\varphi$ have the same truth value.
 6. So $\square(\varphi \to \psi)$ and $\square(\neg\psi \to \neg\varphi)$ have the same truth value at $w$.
 
 In [[the three-world sphere model|PTQNQF2K3T]], $p > q$ holds and $(p \wedge r) > q$ fails.
@@ -32,10 +34,10 @@ By step 2, no strict conditional can take these two values.
 
 ## Remarks
 
-The strict conditional checks $\varphi \to \psi$ on one fixed set of worlds, $R[w]$, for every antecedent.
-A counterfactual checks it on a set that depends on $\varphi$: the closest $\varphi$-worlds.
+The strict conditional checks $\varphi \to \psi$ on one fixed set of worlds, $R[w]$, whatever the antecedent is.
+A counterfactual checks it on a set that depends on $\varphi$, namely the closest $\varphi$-worlds.
 This is why Lewis calls counterfactuals variably strict.
-A sphere model with a single sphere $\$_w = \set{R[w]}$ gives back the strict conditional for antecedents that are possible at $w$.
+A sphere model with the single sphere $\$_w = \{R[w]\}$ gives back the strict conditional for every antecedent that holds somewhere in $R[w]$.
 Some authors keep a strict analysis and let the context change $R$ from one sentence to the next, which gives a dynamic strict conditional.
 
 ## Explanations
@@ -45,13 +47,12 @@ Some authors keep a strict analysis and let the context change $R$ from one sent
 A strict "if" says: in every situation we consider, if the match is struck, it lights.
 Then it also says: in every situation we consider, if the match is struck and wet, it lights.
 The set of situations is the same in both sentences.
-A counterfactual "if" looks at different situations for different "if" parts, so the second sentence can fail.
+A counterfactual "if" looks at different situations for different "if" parts, so the second sentence can fail while the first holds.
 
 ### L2 human
 
-1. Take one Kripke world $w$ with $R[w] = \set{u, v}$, and $p, q, r$ as in the three-world model: $p, q$ true at $u$; $p, r$ true at $v$.
-2. $\square(p \to q)$ fails at $w$, since $v$ has $p$ and not $q$.
-3. So the strict conditional cannot make "if $p$ then $q$" true here, while the sphere model can.
-
-The typical use of this comparison is to explain why counterfactuals need a semantics with an ordering of worlds.
-A trap: the strict conditional is still non-material, since a false antecedent at $w$ does not make it true.
+Take one world $w$ with $R[w] = \{u, v\}$, and the atoms of the three-world model: $p$ and $q$ true at $u$, and $p$ and $r$ true at $v$.
+The strict conditional $\square(p \to q)$ fails at $w$, because $v$ has $p$ and not $q$.
+So the strict conditional cannot make "if $p$ then $q$" true here, while the sphere model, which puts $u$ closer than $v$, can.
+The typical use of this comparison is to explain why counterfactuals need an ordering of worlds.
+Watch out: the strict conditional is still not material, since a false antecedent at $w$ does not make it true.

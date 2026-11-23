@@ -18,40 +18,49 @@ sources:
 
 ## Statement
 
-Let $M = (W, (R_a)_{a \in \mathcal{A}}, V)$ be any multi-agent Kripke model, with no condition on the relations.
+Common knowledge, defined as an infinite conjunction, is the same as truth along all paths of the agents' relations, and it is the greatest solution of a short equation.
+
+Let $M = (W, (R_a)_{a \in \mathcal{A}}, V)$ be a multi-agent Kripke model, with no condition on the relations.
 Let $G \subseteq \mathcal{A}$ be nonempty, and interpret $C_G$ as in [[the definition of common knowledge|RRRHWH9F6Y]].
-Let $R_G = \bigcup_{a \in G} R_a$, and let $R_G^+$ be its [[transitive closure|05J9NWX07X]]: $w R_G^+ v$ when $v$ is reachable from $w$ in one or more $R_G$-steps.
+Let $R_G = \bigcup_{a \in G} R_a$, and let $R_G^+$ be its [[transitive closure|05J9NWX07X]], so $w R_G^+ v$ when $v$ is reachable from $w$ in one or more $R_G$-steps.
 Write $[\![\chi]\!]$ for the set of worlds where $\chi$ is true.
 
-1. Reachability. $M, w \models C_G\varphi$ if and only if $M, v \models \varphi$ for every $v$ with $w R_G^+ v$.
-2. Fixed point axiom. $C_G\varphi \leftrightarrow E_G(\varphi \wedge C_G\varphi)$ is true at every world of $M$.
-3. Induction rule. If $\psi \to E_G(\varphi \wedge \psi)$ is true at every world of $M$, then so is $\psi \to C_G\varphi$.
-4. Greatest fixed point. Let $f(Y) = \set{w : v \in [\![\varphi]\!] \cap Y \text{ for all } v \text{ with } w R_G v}$ for $Y \subseteq W$. Then $[\![C_G\varphi]\!]$ is the largest $Y$ with $Y \subseteq f(Y)$, and it satisfies $f(Y) = Y$.
+1. Reachability: $M, w \models C_G \varphi$ if and only if $M, v \models \varphi$ for every $v$ with $w R_G^+ v$.
+2. Fixed point axiom: $C_G \varphi \leftrightarrow E_G (\varphi \wedge C_G \varphi)$ is true at every world of $M$.
+3. Induction rule: if $\psi \to E_G (\varphi \wedge \psi)$ is true at every world of $M$, then so is $\psi \to C_G \varphi$.
+4. Greatest fixed point: for $Y \subseteq W$ let $f(Y) = \{w : v \in [\![\varphi]\!] \cap Y \text{ for all } v \text{ with } w R_G v\}$.
+   Then $[\![C_G \varphi]\!]$ is the largest $Y$ with $Y \subseteq f(Y)$, and it satisfies $f(Y) = Y$.
 
 ## Remarks
 
 ### Why each hypothesis is needed
 
-1. The group is nonempty so that $E_G$ is a real conjunction. For the empty group, $E_G\varphi$ is the empty conjunction $\top$, and the operators become degenerate.
-2. The reachability clause uses one or more steps. With zero steps allowed, $C_G\varphi$ would imply $\varphi$ on every frame, while $E_G^k\varphi$ need not imply $\varphi$ when the relations are not reflexive.
-3. No condition on the relations is needed, so the theorem covers common belief, for relations of $\mathsf{KD45}$ type.
+The group must be nonempty so that $E_G$ is a real conjunction.
+For the empty group, $E_G \varphi$ is the empty conjunction $\top$, and $C_G \varphi$ becomes $\top$ as well, which carries no information.
 
-### Consequences
+The reachability clause uses one or more steps, and that choice matters.
+With zero steps allowed, $C_G \varphi$ would imply $\varphi$ on every frame.
+But if $w$ sees only $v$ and $v$ sees only $v$, with $p$ true at $v$ only, then every $E_G^k p$ holds at $w$ while $p$ fails there.
 
-1. Adding the fixed point axiom and the induction rule to $\mathsf{K}_n$, $\mathsf{T}_n$, $\mathsf{S4}_n$, $\mathsf{S5}_n$ or $\mathsf{KD45}_n$ gives a sound and complete axiomatization with common knowledge. The completeness proof, by a finite canonical model, is in Fagin, Halpern, Moses and Vardi, chapter 3.
-2. Part 2 gives $C_G\varphi \to E_G^k\varphi$ for every $k \ge 1$, by induction on $k$.
-3. If every $R_a$ with $a \in G$ is an equivalence relation, so is $R_G^+$. By part 1, $C_G$ then satisfies the $\mathsf{S5}$ axioms.
-4. Part 4 is dual to a [[least fixed point|DBD64TH52D]] description. The map $f$ is monotone, and $[\![C_G\varphi]\!]$ is its greatest fixed point, as in the [[Knaster–Tarski theorem|RHXP3HA64M]].
+No condition on the relations is needed, and that is a strength.
+The theorem covers common belief, with relations of $\mathsf{KD45}$ type, as well as common knowledge with equivalence relations.
 
-### Converse
+### What it gives you
 
-The induction rule is the converse direction of the fixed point axiom in a strong sense.
-The fixed point axiom says that $C_G\varphi$ is a fixed point of $f$, and the induction rule says that every post-fixed point lies below it.
+Adding the fixed point axiom and the induction rule to $\mathsf{K}_n$, $\mathsf{T}_n$, $\mathsf{S4}_n$, $\mathsf{S5}_n$ or $\mathsf{KD45}_n$ gives a sound and complete axiomatization with common knowledge.
+Fagin, Halpern, Moses and Vardi prove the completeness, by a finite canonical model, in chapter 3.
 
-### Generalizations
+Part 2 gives $C_G \varphi \to E_G^k \varphi$ for every $k$, by induction on $k$.
+If every $R_a$ with $a \in G$ is an equivalence relation, so is $R_G^+$, and part 1 then shows that $C_G$ obeys $\mathsf{S5}$.
+Part 1 also reduces model checking of $C_G$ to graph [[reachability|0FDKRX9M9Y]], which takes time linear in the size of the model.
 
-1. In the modal mu-calculus, $C_G\varphi = \nu X.\, E_G(\varphi \wedge X)$.
-2. In [[propositional dynamic logic|VJ78A0Q22R]], $C_G\varphi$ is $[(a_1 \cup \cdots \cup a_n)^+]\varphi$, with $G = \set{a_1, \dots, a_n}$.
+### Fixed point and induction together
+
+The fixed point axiom says that $[\![C_G \varphi]\!]$ is a fixed point of the monotone map $f$.
+The induction rule says that every post-fixed point lies below it, so it is the greatest one, as in the [[Knaster-Tarski theorem|RHXP3HA64M]].
+This is the dual of the [[least fixed point|DBD64TH52D]] description of reachability.
+In the modal mu-calculus the theorem reads $C_G \varphi = \nu X.\, E_G (\varphi \wedge X)$.
+In [[propositional dynamic logic|VJ78A0Q22R]], $C_G \varphi$ is $[(a_1 \cup \cdots \cup a_n)^+] \varphi$ for $G = \{a_1, \dots, a_n\}$.
 
 ## History
 
@@ -63,23 +72,22 @@ Barwise compared the iterate, fixed point and shared situation views of common k
 
 ### L1 human
 
-Common knowledge has a short self-referential description.
-"Everyone knows the fact, and everyone knows it is common knowledge" says the same thing as the infinite tower.
-To prove that something is common knowledge, find a situation $\psi$ that tells everyone the fact, and that everyone knows has happened.
+Common knowledge has a short description that refers to itself.
+"Everyone knows the fact, and everyone knows that it is common knowledge" says the same thing as the infinite tower of "knows that knows".
+To prove that something is common knowledge, find a situation that tells everyone the fact, and that everyone knows has happened.
 
 ### L2 human
 
-We use the induction rule for a public announcement.
-Let $\psi$ say "the announcement of $\varphi$ was made publicly, and $\varphi$ is true".
-
-1. Suppose that whenever $\psi$ holds, every agent knows $\varphi$ and knows that $\psi$ holds. That is, $\psi \to E_G(\varphi \wedge \psi)$ is valid.
-2. The induction rule then gives $\psi \to C_G\varphi$.
-
-So a public event that everyone observes, and observes everyone observing, yields common knowledge.
-A trap: the premise must be valid in the whole model, not only true at the actual world.
+Here is a typical use of the induction rule: a public announcement.
+Let $\psi$ say "$\varphi$ was announced publicly, and $\varphi$ is true".
+Suppose that in our model, wherever $\psi$ holds, every agent knows $\varphi$ and knows that $\psi$ holds.
+That is exactly the premise, valid in the whole model:
+$$\psi \to E_G (\varphi \wedge \psi).$$
+The induction rule then gives $\psi \to C_G \varphi$, so the announcement makes $\varphi$ common knowledge.
+Watch out: the premise must be true at every world of the model, not only at the actual world, or the rule does not apply.
 
 ### L3 human
 
-Parts 1 and 4 are the two classical views of common knowledge: iteration and fixed point.
-Part 1 reduces model checking of $C_G$ to graph [[reachability|0FDKRX9M9Y]], which is linear in the size of the model.
-Part 3 replaces an infinite conjunction by a finitary rule, at the price of losing compactness.
+Parts 1 and 4 are the two classical views of common knowledge, iteration and fixed point, and part 3 is the finitary rule that links them.
+The rule replaces an infinite conjunction, at the price of compactness: the set $\{E_G^k p : k \ge 1\} \cup \{\neg C_G p\}$ is finitely satisfiable but not satisfiable.
+[[Public announcement logic|9465T2PWZT]] with common knowledge needs a further rule of the same shape, because its reduction axioms do not cover $C_G$.
