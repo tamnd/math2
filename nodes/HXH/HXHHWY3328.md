@@ -34,7 +34,7 @@ The theorems are about formal theories, one at a time, and the last entry discus
 2. [[Arithmetization of syntax|6M12VR1GT6]]: check syntax by computations that $\mathsf{Q}$ proves.
 3. [[Provability predicate|NB2BCZR40F]]: write "$x$ is provable in $T$" as the $\Sigma_1$ formula $\mathrm{Prov}_T(x)$.
 4. [[Derivability conditions|F6H4STF9RG]]: learn what the second theorem needs from $\mathrm{Prov}_T$.
-5. [[Diagonal lemma|3PRW76471J]]: build a sentence that says of itself that it has any expressible property.
+5. [[Diagonal lemma|3PRW76471J]]: build sentences that talk about themselves.
 6. [[ω-consistency|4S29X1GTV4]]: see the hypothesis of Gödel's original proof.
 7. [[Gödel's first incompleteness theorem|X9WYNYE29C]]: see why the Gödel sentence is undecided.
 8. [[Rosser's theorem|DH9RQ61GVD]]: get incompleteness from consistency alone.
@@ -45,11 +45,11 @@ The theorems are about formal theories, one at a time, and the last entry discus
 13. [[Partial truth predicates|Y2MF1EZAM7]]: define truth for $\Sigma_n$ sentences, one level at a time.
 14. [[Löb's theorem|3HD30YG3DG]]: learn when $T$ proves $\mathrm{Prov}_T(\ulcorner \varphi \urcorner) \to \varphi$.
 15. [[Henkin sentence|SBMQ5QHG9W]]: see why a sentence that says it is provable is provable.
-16. [[Reflection principles|NB485KFXKV]]: add soundness schemes that are stronger than $\mathrm{Con}(T)$.
+16. [[Reflection principles|NB485KFXKV]]: strengthen $\mathrm{Con}(T)$ to soundness schemes.
 17. [[Turing and Feferman progressions|F7Z4BV2KHD]]: iterate consistency and reflection along ordinal notations.
 18. [[Gödel's speed-up theorem|37X5XBDBNX]]: see how stronger theories shorten proofs.
 19. [[Self-verifying theories|D8SGFVA3RT]]: meet weak theories that prove a form of their own consistency.
-20. [[Significance of the incompleteness theorems|PT61MFHC13]]: separate what the theorems prove from common misreadings.
+20. [[Significance of the incompleteness theorems|PT61MFHC13]]: separate what the theorems prove from misreadings.
 
 ### Prerequisites
 
