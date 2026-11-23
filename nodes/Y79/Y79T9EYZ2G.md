@@ -22,7 +22,7 @@ The direction from $w \mathrel{\underline{\leftrightarrow}} w'$ to $w \equiv w'$
 For the other direction, let $E = \{(w, w') \in W \times W' : w \equiv w'\}$.
 If $E$ satisfies the atom, zig and zag clauses of a [[bisimulation|7T740SFHHV]], then every pair in $E$ is a pair of bisimilar worlds, which is what we want.
 
-Part A: the image-finite case.
+### Part A: the image-finite case
 
 1. Atom clause.
    If $w E w'$, then $w$ and $w'$ agree on each variable $p$, because $p$ is itself a formula.
@@ -42,7 +42,7 @@ Part A: the image-finite case.
    The argument of steps 2 to 7, with the two models exchanged, uses image-finiteness of $\mathfrak{M}$ at $w$.
 9. So $E$ is a bisimulation when it is nonempty, and item 1 of the theorem follows.
 
-Part B: the m-saturated case.
+### Part B: the m-saturated case
 
 10. The atom clause holds as in step 1.
 11. Zig clause.

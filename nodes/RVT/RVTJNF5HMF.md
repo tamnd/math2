@@ -39,6 +39,9 @@ So $\mathrm{L}$ has no first-order [[correspondent|3RYBWYPJVD]].
    If $u = c_j$, then $u \not\models \square p$ by step 3, so again $u \models \square p \to p$.
 5. So $c_0 \models \square(\square p \to p)$ and $c_0 \not\models \square p$, and $\mathrm{L}$ fails at $c_0$.
    This proves Claim B.
+
+### The compactness argument
+
 6. Now assume that $\alpha$ corresponds to $\mathrm{L}$.
    Add constants $c_0, c_1, \ldots$, and let $\Gamma = \{\alpha\} \cup \{R(c_i, c_{i+1}) : i \in \mathbb{N}\}$.
 7. A finite subset of $\Gamma$ mentions only $c_0, \ldots, c_k$ for some $k$.

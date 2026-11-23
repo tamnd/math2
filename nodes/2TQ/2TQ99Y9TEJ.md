@@ -22,7 +22,7 @@ Fix the models $\mathfrak{M} = (W, R, V)$ and $\mathfrak{M}' = (W', R', V')$ and
 Let $P(\varphi)$ be the claim: for all $w Z w'$, $\mathfrak{M}, w \models \varphi$ if and only if $\mathfrak{M}', w' \models \varphi$.
 The truth clauses are those of [[Kripke semantics|NGHWZ9Y7ZV]].
 
-Part A: the main claim.
+### Part A: the main claim
 
 1. Let $\varphi = p$ be a variable and $w Z w'$.
    Then $\mathfrak{M}, w \models p$ means $w \in V(p)$, and by the atom clause this holds exactly when $w' \in V'(p)$.
@@ -40,7 +40,7 @@ Part A: the main claim.
    By zag there is $v$ with $w R v$ and $v Z v'$, and $P(\psi)$ gives $\mathfrak{M}, v \models \psi$, so $\mathfrak{M}, w \models \lozenge \psi$.
 8. Steps 1 to 7 cover every formation rule, so $P(\varphi)$ holds for every formula by structural induction.
 
-Part B: generated submodels.
+### Part B: generated submodels
 
 9. Let $\mathfrak{N} = (U, R \cap U^2, V(\cdot) \cap U)$ be a generated submodel and $I = \{(u, u) : u \in U\}$.
    The set $I$ is nonempty because $U \neq \emptyset$.
@@ -49,7 +49,7 @@ Part B: generated submodels.
 12. Zag holds because a move $u R v$ in $\mathfrak{M}$ has $v \in U$, since $U$ is closed under $R$, so it is a move of $\mathfrak{N}$ with $v I v$.
 13. So $I$ is a bisimulation, and Part A gives item 1.
 
-Part C: bounded morphisms.
+### Part C: bounded morphisms
 
 14. Let $f$ be a bounded morphism and $G = \{(w, f(w)) : w \in W\}$, which is nonempty because $W \neq \emptyset$.
 15. The atom clause is part of the definition of a bounded morphism.
@@ -57,7 +57,7 @@ Part C: bounded morphisms.
 17. Zag holds because $f(w) R' v'$ gives, by the back condition, some $v$ with $w R v$ and $f(v) = v'$, so $v G v'$.
 18. So $G$ is a bisimulation, and Part A gives item 2.
 
-Part D: disjoint unions.
+### Part D: disjoint unions
 
 19. Let $(u, v)$ be an arrow of the union with $u \in W_i$.
    The arrow lies in some $R_j$, and $u \in W_j$ forces $j = i$ because the sets $W_j$ are pairwise disjoint, so $v \in W_i$.

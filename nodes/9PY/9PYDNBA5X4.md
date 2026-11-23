@@ -18,74 +18,110 @@ sources:
 
 ## Summary
 
-The Barcan formula is the schema of [[quantified modal logic|D2H3S12V7X]]
-$$\forall x \, \square \varphi \to \square \, \forall x \, \varphi, \qquad (\mathrm{BF})$$
-and the converse Barcan formula is the schema
-$$\square \, \forall x \, \varphi \to \forall x \, \square \varphi, \qquad (\mathrm{CBF})$$
-where $\varphi$ is any formula.
-Let $(W, R, D)$ be a Kripke frame with domains, as defined on the main page of quantified modal logic, with assignments into $U = \bigcup_w D(w)$ and quantifiers at $w$ ranging over $D(w)$.
-Then every instance of BF is valid on $(W, R, D)$ if and only if the domains decrease along $R$: $w R v$ implies $D(v) \subseteq D(w)$.
-Every instance of CBF is valid on $(W, R, D)$ if and only if the domains increase along $R$: $w R v$ implies $D(w) \subseteq D(v)$.
-The two formulas matter because they turn questions about what exists at each world into axioms, and because BF is derivable in quantified $\mathsf{S5}$.
+Take two worlds $w$ and $v$ with $w R v$, where $w$ has one object $1$ and $v$ has the objects $1$ and $2$.
+If $1$ has the property $P$ at both worlds and $2$ lacks it, then "every object is necessarily $P$" is true at $w$, and "necessarily every object is $P$" is false there.
+
+The Barcan formula $\mathrm{BF}$ is the following schema of [[quantified modal logic|D2H3S12V7X]], for any formula $\varphi$.
+$$\forall x \, \square \varphi \to \square \, \forall x \, \varphi$$
+The converse Barcan formula $\mathrm{CBF}$ is the following schema.
+$$\square \, \forall x \, \varphi \to \forall x \, \square \varphi$$
+We use frames with domains $(W, R, D)$ as in the semantics of [[quantified modal logic|D2H3S12V7X]], with assignments into $U = \bigcup_w D(w)$ and quantifiers at $w$ ranging over $D(w)$.
+Every instance of BF is valid on $(W, R, D)$ exactly when the domains decrease, that is, $w R v$ implies $D(v) \subseteq D(w)$.
+Every instance of CBF is valid on $(W, R, D)$ exactly when the domains increase, that is, $w R v$ implies $D(w) \subseteq D(v)$.
+So the two schemata turn statements about what exists at each world into axioms.
 
 ## Motivation
 
 In a Kripke model with domains, a quantifier at a world sees only the objects of that world.
 The formula $\forall x \square \varphi$ speaks about the objects of the present world, while $\square \forall x \varphi$ speaks about the objects of each accessible world.
-The two agree when every accessible world has no new objects.
+The two agree when no accessible world has new objects.
 So the exchange of $\forall x$ and $\square$ is a statement about the growth of domains.
-Philosophers ask whether merely possible objects exist, and the Barcan formula is the formal form of this question: it says that whatever could exist already exists.
+Philosophers ask whether merely possible objects exist, and BF gives this question a formal shape: it says that whatever could exist already exists.
 
 ## Notation
 
-1. BF has the equivalent dual form $\lozenge \exists x \varphi \to \exists x \lozenge \varphi$. Put $\neg \varphi$ for $\varphi$ in BF and take the contrapositive.
-2. CBF has the dual form $\exists x \lozenge \varphi \to \lozenge \exists x \varphi$.
-3. Some books call CBF the "Converse Barcan formula" and write BF and CBF as $\mathrm{BF}$ and $\mathrm{BF}^{-1}$.
-4. A frame with domains has decreasing domains (also called anti-monotonic domains) when $w R v$ implies $D(v) \subseteq D(w)$, and increasing domains (also called expanding or monotonic domains) when $w R v$ implies $D(w) \subseteq D(v)$.
+BF has the dual form $\lozenge \exists x \varphi \to \exists x \lozenge \varphi$.
+To get it, put $\neg \varphi$ for $\varphi$ in BF and take the contrapositive.
+In the same way, CBF has the dual form $\exists x \lozenge \varphi \to \lozenge \exists x \varphi$.
+Increasing domains are also called expanding domains.
+A frame with $D(w) = U$ for every $w$ has constant domains.
 
 ## Remarks
 
 ### Examples
 
-1. [[The Barcan formula holds on a model with decreasing domains|F87MSJBXMQ]]: a two-world model where the domain shrinks along $R$, with the full truth check of an instance of BF.
-2. [[The Barcan formula is derivable in quantified S5|PDGCDVGCA3]]: a derivation that uses only the axiom B, $p \to \square \lozenge p$, of the [[Brouwerian modal logic|2QPT4KCM0Q]].
-3. [[The converse Barcan formula and increasing domains|ZYYTXBXNA2]]: a derivation of CBF in $\mathsf{QK}$, and the check that CBF fails on a model where a domain shrinks.
-4. Constant domains: every frame with $D(w) = U$ for all $w$ has both decreasing and increasing domains, so BF and CBF are both valid on it.
-5. Symmetric frames: when $R$ is [[symmetric|061J5VGSPT]], $w R v$ gives $v R w$, so increasing domains are also decreasing. On such a frame BF is valid if and only if CBF is valid.
+1. [[The Barcan formula holds on a model with decreasing domains|F87MSJBXMQ]] checks an instance of BF on a two-world model where the domain shrinks along $R$.
+2. [[The Barcan formula is derivable in quantified S5|PDGCDVGCA3]] gives a derivation that uses only the axiom B, $p \to \square \lozenge p$, of the [[Brouwerian modal logic|2QPT4KCM0Q]].
+3. [[The converse Barcan formula and increasing domains|ZYYTXBXNA2]] derives CBF in $\mathsf{QK}$ and refutes it on a model where a domain shrinks.
+4. With constant domains, the domains both decrease and increase, so BF and CBF are both valid.
+5. When $R$ is [[symmetric|061J5VGSPT]], increasing domains are also decreasing, since $w R v$ gives $v R w$.
+   On such a frame BF is valid exactly when CBF is valid.
 
 ### Non-examples
 
-1. [[The Barcan formula fails on an S4 model with growing domains|RBTX5HWXBB]]: a reflexive and transitive frame where a new object appears at an accessible world. The frame is not a frame with decreasing domains, and the instance $\forall x \square P x \to \square \forall x P x$ fails.
-2. The formula $\forall x \, \lozenge \varphi \to \lozenge \forall x \, \varphi$ is not a form of BF. It fails even with constant domains: take two worlds seen from $w$, each object $P$ at one of them only, and no world where all objects are $P$.
-3. The formula $\exists x \square \varphi \to \square \exists x \varphi$ is not BF either. It is valid on frames with increasing domains, the condition of CBF, not the condition of BF.
+1. [[The Barcan formula fails on an S4 model with growing domains|RBTX5HWXBB]] gives a reflexive and transitive frame where a new object appears at an accessible world.
+   There the instance $\forall x \square P x \to \square \forall x P x$ fails.
+2. The formula $\forall x \, \lozenge \varphi \to \lozenge \forall x \, \varphi$ is not a form of BF, and it fails even with constant domains.
+   Let $w$ see two worlds $u_1$ and $u_2$, with domain $\{1, 2\}$ everywhere, $I(P, u_1) = \{1\}$ and $I(P, u_2) = \{2\}$.
+   Then $\forall x \lozenge P x$ holds at $w$, and no successor has $\forall x P x$.
+3. The formula $\exists x \square \varphi \to \square \exists x \varphi$ is not BF either.
+   It is valid on frames with increasing domains, the condition of CBF.
 
-### Basic properties
+### Why the frame conditions hold
 
-1. Frame condition for BF. Assume decreasing domains and $\mathfrak{M}, w \models_\sigma \forall x \square \varphi$. For $w R v$ and $d \in D(v)$ we get $d \in D(w)$, so $\mathfrak{M}, w \models_{\sigma[x \mapsto d]} \square \varphi$ and $\mathfrak{M}, v \models_{\sigma[x \mapsto d]} \varphi$. So $\mathfrak{M}, v \models_\sigma \forall x \varphi$, and BF holds at $w$. Conversely, if $w R v$ and $d \in D(v) \setminus D(w)$, put $I(P, u) = D(w)$ for every $u$; then $\forall x \square P x$ is true at $w$ and $\square \forall x P x$ is false at $w$.
-2. Frame condition for CBF. Assume increasing domains and $\mathfrak{M}, w \models_\sigma \square \forall x \varphi$. For $d \in D(w)$ and $w R v$ we get $d \in D(v)$, so $\mathfrak{M}, v \models_{\sigma[x \mapsto d]} \varphi$. Conversely, if $w R v$ and $d \in D(w) \setminus D(v)$, put $I(P, u) = D(u)$ for every $u$; then $\square \forall x P x$ is true at $w$ and $\square P x$ fails at $w$ under $x \mapsto d$.
-3. CBF is derivable in $\mathsf{QK}$ from instantiation, [[necessitation|G989VP2NGP]], the axiom K and generalization. So every quantified normal modal logic with the classical quantifier rules proves CBF.
-4. BF is derivable in $\mathsf{QKB}$, and so in $\mathsf{QS5}$. The axiom 5, $\lozenge p \to \square \lozenge p$, together with T gives B, so the same derivation works with 5 and T.
-5. BF is not derivable in $\mathsf{QS4}$. The model of the first non-example is an $\mathsf{S4}$ frame with increasing domains, and $\mathsf{QS4}$ is sound for such frames when formulas at $w$ are evaluated under assignments into $D(w)$. The sentence BF fails there.
-6. $\mathsf{QK}$ plus BF is complete for the frames with constant domains.
+Assume decreasing domains and $w \models_\sigma \forall x \square \varphi$, and let $w R v$ and $d \in D(v)$.
+Then $d \in D(w)$, so $w \models_{\sigma[x \mapsto d]} \square \varphi$, and $v \models_{\sigma[x \mapsto d]} \varphi$.
+So $v \models_\sigma \forall x \varphi$, and BF holds at $w$.
+Conversely, let $w R v$ and $d \in D(v) \setminus D(w)$, and put $I(P, u) = D(w)$ for every $u$.
+Then $\forall x \square P x$ is true at $w$, and $\forall x P x$ fails at $v$ at the object $d$, so BF fails at $w$.
+
+For CBF, assume increasing domains and $w \models_\sigma \square \forall x \varphi$, and let $d \in D(w)$ and $w R v$.
+Then $d \in D(v)$, so $v \models_{\sigma[x \mapsto d]} \varphi$, and CBF holds at $w$.
+Conversely, let $w R v$ and $d \in D(w) \setminus D(v)$, and put $I(P, u) = D(u)$ for every $u$.
+Then $\square \forall x P x$ is true at $w$, and $\square P x$ fails at $w$ under $x \mapsto d$, because $d \notin I(P, v)$.
+
+### What the logics prove
+
+CBF is derivable in $\mathsf{QK}$ from instantiation, [[necessitation|G989VP2NGP]], the axiom K and generalization.
+So every quantified normal modal logic with the classical quantifier rules proves CBF.
+BF is derivable in $\mathsf{QKB}$, and so in $\mathsf{QS5}$, since T and 5 together give B.
+BF is not derivable in $\mathsf{QS4}$.
+The model of the first non-example is an $\mathsf{S4}$ frame with increasing domains, and $\mathsf{QS4}$ is sound for such frames when formulas at $w$ are evaluated under assignments into $D(w)$.
+For the language without identity, $\mathsf{QK}$ plus BF is complete for the frames with constant domains.
+
+### Watch out
+
+Do not swap the frame conditions.
+BF goes with decreasing domains, so no new object appears along $R$, and CBF goes with increasing domains, so no object disappears along $R$.
+Do not expect BF from the classical quantifier rules.
+Only CBF follows from them, and BF needs an extra axiom such as B, or constant domains.
+A condition on frames is not a condition on one model.
+If $P$ is empty at every world, the instance of BF with $P x$ is true at every world of any model, even when the domains grow.
 
 ### History
 
-Ruth Barcan (later Ruth Barcan Marcus) stated the formula in 1946 as an axiom of the first axiomatic system of quantified modal logic, in the dual form $\lozenge \exists x \varphi \to \exists x \lozenge \varphi$ with strict implication.
+Ruth Barcan (later Ruth Barcan Marcus) stated the formula in 1946 as an axiom of the first axiomatic system of quantified modal logic.
+She gave it in the dual form $\lozenge \exists x \varphi \to \exists x \lozenge \varphi$, with strict implication.
 Arthur Prior showed that the formula is derivable in quantified $\mathsf{S5}$.
-Saul Kripke gave in 1963 a semantics with varying domains in which both BF and CBF fail, and the domain conditions of this page come from that semantics.
+Saul Kripke gave in 1963 a semantics with varying domains in which both BF and CBF can fail, and the domain conditions above come from that semantics.
 
-### Common errors
+### Try it
 
-1. Swapping the frame conditions. BF goes with decreasing domains, so no new objects appear along $R$. CBF goes with increasing domains, so no object disappears along $R$.
-2. Taking BF to follow from the classical quantifier rules. Only CBF follows from them; BF needs an extra axiom such as B, or constant domains.
-3. Reading the condition for a frame as a condition for a model. In one model, an instance of BF can be true at every world while the domains grow. An example is the instance with $\varphi = P x$ when $P$ is empty at every world.
+First, let $W = \{w, v\}$ with $R = \{(w, v), (v, w)\}$, $D(w) = \{1\}$ and $D(v) = \{1, 2\}$.
+Is BF valid on this frame, and is CBF?
+Neither: $w R v$ with $2 \in D(v) \setminus D(w)$ breaks BF, and $v R w$ with $2 \in D(v) \setminus D(w)$ breaks CBF.
+
+Second, let $R = \{(w, v)\}$, $D(w) = \{1, 2\}$, $D(v) = \{1\}$, $I(P, w) = \emptyset$ and $I(P, v) = \{1\}$.
+Which of the instances of BF and CBF with $P x$ hold at $w$?
+BF holds, because its antecedent $\forall x \square P x$ fails at $x \mapsto 2$.
+CBF fails, because $\square \forall x P x$ holds at $w$ while $\square P x$ fails at $x \mapsto 2$.
 
 ## Explanations
 
 ### L1 human
 
 Think of possible worlds as possible futures, each with its own list of people who exist there.
-The Barcan formula says: if everyone who exists now will be happy in every future, then in every future everyone will be happy.
+The Barcan formula says: if everyone who exists now is happy in every future, then in every future everyone is happy.
 This can fail when new people are born in a future, since we said nothing about them.
 So the Barcan formula holds exactly when no new objects appear as we move to accessible worlds.
 For example, with $2$ people now and $3$ people in some future, the formula can fail.
@@ -94,19 +130,23 @@ For example, with $2$ people now and $3$ people in some future, the formula can 
 
 We check BF and CBF on a frame with constant domains.
 
-1. Let $W = \{w, v\}$, $R = \{(w, v)\}$, and $D(w) = D(v) = \{1, 2\}$.
+1. Let $W = \{w, v\}$, $R = \{(w, v)\}$ and $D(w) = D(v) = \{1, 2\}$.
 2. Let $I(P, w) = \emptyset$ and $I(P, v) = \{1, 2\}$.
-3. At $w$: $\square P x$ holds under $x \mapsto 1$ and under $x \mapsto 2$, since the only successor $v$ has $1, 2 \in I(P, v)$. So $w \models \forall x \square P x$.
-4. At $v$: $\forall x P x$ holds, since $D(v) = \{1, 2\} \subseteq I(P, v)$. So $w \models \square \forall x P x$, and BF holds at $w$.
-5. Conversely, $w \models \square \forall x P x$ by step 4, and step 3 gives $w \models \forall x \square P x$, so CBF holds at $w$.
+3. At $w$, $\square P x$ holds under $x \mapsto 1$ and under $x \mapsto 2$, since the only successor $v$ has $1, 2 \in I(P, v)$.
+   So $w \models \forall x \square P x$.
+4. At $v$, $\forall x P x$ holds, since $D(v) \subseteq I(P, v)$.
+   So $w \models \square \forall x P x$, and BF holds at $w$.
+5. Steps 3 and 4 give both sides at $w$, so CBF holds at $w$ as well.
 6. At $v$ both formulas hold, because $v$ has no successor and every $\square$-formula is true at $v$.
 
 The typical use of BF is as an axiom when we want one domain for all worlds.
-A trap: BF holds in this model because the domains are constant, not because $P$ is special; a new object at $v$ outside $I(P, v)$ would break it.
+Watch out: BF holds here because the domains are constant, not because $P$ is special.
+A new object at $v$ outside $I(P, v)$ would break it.
 
 ### L3 human
 
-BF and CBF are the simplest examples of correspondence for frames with domains: each formula is valid on a frame exactly when a first-order condition on $R$ and $D$ holds, much as in [[modal correspondence theory|3RYBWYPJVD]] for propositional frames.
-In the functor view of quantified modal logic, increasing domains are inclusions along $R$, and CBF expresses that each object has an image at every accessible world.
-In $\mathsf{S5} \times \mathsf{S5}$ and in cylindric algebras, the two operators $\exists x$ and $\lozenge$ commute in both directions, which is the algebraic form of BF and CBF together; see [[products of modal logics|JA2EBWVW8A]].
-The philosophical debate between [[modal possibilism|RXK66SDTAR]] and [[modal actualism|9ZK5VAWDKN]] is in large part a debate about whether to accept BF.
+BF and CBF are the simplest cases of correspondence for frames with domains.
+Each is valid on a frame exactly when a first-order condition on $R$ and $D$ holds, as in [[modal correspondence theory|3RYBWYPJVD]] for propositional frames.
+In the functor view of quantified modal logic, increasing domains are inclusions along $R$, and CBF says that each object has an image at every accessible world.
+In $\mathsf{S5} \times \mathsf{S5}$ and in cylindric algebras, the operators $\exists x$ and $\lozenge$ commute in both directions, which is the algebraic form of BF and CBF together; see [[products of modal logics|JA2EBWVW8A]].
+The debate between [[modal possibilism|RXK66SDTAR]] and [[modal actualism|9ZK5VAWDKN]] is in large part a debate about whether to accept BF.

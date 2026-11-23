@@ -36,6 +36,8 @@ A *generated submodel* of $\mathfrak{M}$ is $\mathfrak{N} = (U, R \cap U^2, V(\c
 A *bounded morphism* is a map $f \colon W \to W'$ such that $w$ and $f(w)$ satisfy the same variables, $w R v$ implies $f(w) R' f(v)$, and $f(w) R' v'$ implies $v' = f(v)$ for some $v$ with $w R v$.
 The *disjoint union* of models $\mathfrak{M}_i = (W_i, R_i, V_i)$ with pairwise disjoint $W_i$ is $(\bigcup_i W_i, \bigcup_i R_i, p \mapsto \bigcup_i V_i(p))$.
 
+### Labeled transition systems
+
 For a *labeled transition system* $(S, A, \to)$ with $\to \subseteq S \times A \times S$, a bisimulation is a relation $Z \subseteq S \times S$ such that, for every $(s, t) \in Z$ and every action $a \in A$:
 
 1. if $s \xrightarrow{a} s'$, then $t \xrightarrow{a} t'$ and $(s', t') \in Z$ for some $t'$;

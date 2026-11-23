@@ -102,7 +102,7 @@ So a point of $\mathbb{R}$ has no smallest neighborhood that could play the role
 ### History
 
 Alfred Tarski gave a topological semantics for intuitionistic logic in 1938.
-J. C. C. McKinsey and Tarski published "The algebra of topology" in the Annals of Mathematics in 1944.
+McKinsey and Tarski published "The algebra of topology" in the Annals of Mathematics in 1944.
 There they proved that $\mathsf{S4}$ is the logic of every dense-in-itself separable metric space, such as $\mathbb{R}$.
 Leo Esakia studied derivative semantics and the duality theory of interior algebras.
 
