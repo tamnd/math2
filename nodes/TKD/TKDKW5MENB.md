@@ -22,6 +22,8 @@ $L_P$ is the language of [[Presburger arithmetic|4W0E9G7PPV]], up to the choice 
 It is a part of the [[language of arithmetic|D8SD54M5PN]] $L_A$, but more than a symbol is missing: no $L_P$-formula defines multiplication in $\mathfrak{P}$.
 We prove this with the perfect squares.
 
+### Definable sets are eventually periodic
+
 We use Presburger's quantifier elimination as a known fact.
 Add to $L_P$ a binary relation symbol $\equiv_n$ for each $n \ge 2$, read as congruence modulo $n$.
 In this expansion of $\mathfrak{P}$, every formula is equivalent to a quantifier-free formula.
@@ -33,6 +35,9 @@ Call a set $A \subseteq \mathbb{N}$ eventually periodic if there are $N$ and $p 
 4. An atomic formula $k x + c \equiv_n k' x + c'$ defines a set with period $n$, since replacing $x$ by $x + n$ adds multiples of $n$ to both sides.
 5. If $A$ and $B$ are eventually periodic with data $(N, p)$ and $(N', p')$, then $A \cap B$ and $\mathbb{N} \setminus A$ are eventually periodic, with threshold $\max(N, N')$ and period $p p'$.
 6. By quantifier elimination and steps 2 to 5, every subset of $\mathbb{N}$ definable in $\mathfrak{P}$ is eventually periodic.
+
+### The squares are not eventually periodic
+
 7. Suppose that an $L_P$-formula $\mu(x, y, z)$ defines the relation $x \cdot y = z$ in $\mathfrak{P}$.
    Then $\exists y\, \mu(y, y, x)$ defines the set $Q$ of squares.
 8. Take any $N$ and $p \ge 1$, and choose $k \ge \max(N, p)$.

@@ -28,7 +28,9 @@ All inductions on numbers are carried out outside $\mathsf{Q}$, in ordinary math
    For $+$ we use induction on $m$: $\overline{k} + 0 = \overline{k}$ is $\mathsf{Q}4$, and $\overline{k} + S\overline{m} = S(\overline{k} + \overline{m}) = S\overline{k + m}$ by $\mathsf{Q}5$ and the induction hypothesis.
    For $\cdot$ we also use induction on $m$: $\overline{k} \cdot 0 = 0$ is $\mathsf{Q}6$, and $\overline{k} \cdot S\overline{m} = \overline{k m} + \overline{k} = \overline{k m + k}$ by $\mathsf{Q}7$, the induction hypothesis and the case of $+$.
 2. For every closed term $t$, $\mathsf{Q} \vdash t = \overline{t^{\mathfrak{N}}}$.
-   We use induction on $t$: the case $0$ holds since $0$ is $\overline{0}$, the case $S u$ follows from the hypothesis for $u$ by the equality axioms, and the cases $u + v$ and $u \cdot v$ follow from the hypotheses for $u$ and $v$ and step 1.
+   We use induction on $t$, and the case $0$ holds since $0$ is $\overline{0}$.
+   The case $S u$ follows from the hypothesis for $u$ by the equality axioms.
+   The cases $u + v$ and $u \cdot v$ follow from the hypotheses for $u$ and $v$ and step 1.
 3. If $n \ne m$, then $\mathsf{Q} \vdash \overline{n} \ne \overline{m}$.
    We use induction on $\min(n, m)$.
    If $n = 0$ and $m = j + 1$, then $\overline{m} = S\overline{j} \ne 0$ by $\mathsf{Q}1$, and the case $m = 0$ is symmetric.

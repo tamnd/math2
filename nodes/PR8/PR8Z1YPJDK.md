@@ -25,6 +25,8 @@ Let $0 \cdot a = 0 \cdot b = 0$, and for $n \ge 1$ let $n \cdot a = a$ and $n \c
 Finally, let $a \cdot a = b$, $b \cdot a = a$, $a \cdot b = b$ and $b \cdot b = a$.
 Interpret $<$ by $\mathsf{Q}8$: $x < y$ holds when $v + S x = y$ for some $v \in M$.
 
+### The successor and addition axioms
+
 We check $\mathsf{Q}1$ to $\mathsf{Q}7$, since $\mathsf{Q}8$ holds by the choice of $<$.
 On $\mathbb{N}$ every axiom holds, as in [[the standard model|WXHVSE066S]], so only the cases with $a$ or $b$ remain.
 
@@ -35,6 +37,9 @@ On $\mathbb{N}$ every axiom holds, as in [[the standard model|WXHVSE066S]], so o
 5. $\mathsf{Q}5$ with $y = a$: since $S a = a$, the left side is $x + a = b$, and the right side is $S(x + a) = S(b) = b$.
 6. $\mathsf{Q}5$ with $y = b$: the left side is $x + b = a$, and the right side is $S(x + b) = S(a) = a$.
 7. $\mathsf{Q}6$ holds by definition.
+
+### The multiplication axiom
+
 8. $\mathsf{Q}7$ with $x = a$ and $y = n$: the left side is $a \cdot (n + 1) = b$.
    The right side $a \cdot n + a$ is $0 + a = b$ if $n = 0$, and $b + a = b$ if $n \ge 1$.
 9. $\mathsf{Q}7$ with $x = b$ and $y = n$: the left side is $b \cdot (n + 1) = a$.

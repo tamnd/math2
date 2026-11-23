@@ -22,6 +22,8 @@ From [[the proof of Σ1-completeness|Y8X8D9YJF8]] we use two facts.
 The first, fact N2, says that $\mathsf{Q}$ proves each closed term equal to its numeral.
 The second, fact N4, says that $\mathsf{Q} \vdash \forall x\,(x < \overline{k} \leftrightarrow \bigvee_{j < k} x = \overline{j})$ for each $k$.
 
+### Part 1: the formula defines the remainder
+
 1. The only quantifier of $B$ is the bounded quantifier $\exists q \le c$, and $q$ does not occur in the bound $c$.
    So $B$ is $\Delta_0$ by the [[definition of the classes|Y0JTZXBRT5]].
 2. Suppose that $\mathfrak{N} \models B(c, d, i, v)$ with the witness $q$.
@@ -29,6 +31,9 @@ The second, fact N4, says that $\mathsf{Q} \vdash \forall x\,(x < \overline{k} \
 3. Conversely, division with remainder gives $c = q m + r$ with $r < m$.
    Since $m \ge 1$, $q \le q m \le c$, so $q$ is a witness for $B(c, d, i, r)$.
    With step 2, this proves Part 1.
+
+### Part 2: Q picks out the remainder
+
 4. By step 3, $B(\overline{c}, \overline{d}, \overline{i}, \overline{r})$ is a true $\Delta_0$ sentence, so $\mathsf{Q}$ proves it by Part 1 of [[Σ1-completeness|69234Z1V00]].
    Hence $\mathsf{Q} \vdash \forall v\,(v = \overline{r} \to B(\overline{c}, \overline{d}, \overline{i}, v))$.
 5. For the other direction we reason in $\mathsf{Q}$ and assume $B(\overline{c}, \overline{d}, \overline{i}, v)$.

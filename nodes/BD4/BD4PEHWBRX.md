@@ -34,6 +34,8 @@ $$\mathrm{Prime}(x) := \overline{1} < x \land \forall y \le x\; \forall z \le x\
    A number $n$ is prime when $n > 1$ and every factorization $n = a b$ has $a = 1$ or $b = 1$.
    In such a factorization of $n \ge 1$, both $a \ge 1$ and $b \ge 1$, so $a \le n$ and $b \le n$, and the bounds exclude no factorization.
 
+### Tests on small numbers
+
 Now we test the formulas on small numbers.
 
 5. $\mathrm{Div}(\overline{6}, \overline{18})$ is true, with the witness $z = 3$, since $3 \le 18$ and $3 \cdot 6 = 18$.
