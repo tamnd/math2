@@ -46,7 +46,8 @@ Negations, with $y = 0$:
 10. For Gödel and product, $x \le 0$ holds only for $x = 0$, so $0 \Rightarrow 0 = 1$.
 11. For $x > 0$, Gödel gives $0$ and product gives $0 / x = 0$.
 
-This proves the three residua and the three negations. $\blacksquare$
+This proves the three residua and the three negations.
+$\blacksquare$
 
 ## Idea
 
