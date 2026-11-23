@@ -43,7 +43,8 @@ The relation of step 1 is the intersection of two linear orders, the order of th
 A chain is a set where the two orders agree, and an antichain is a set where they disagree.
 Hirschfeldt and Shore asked whether $\mathrm{ADS}$ implies $\mathrm{CAC}$, and Lerman, Solomon and Towsner showed that it does not.
 The same proof with a finite form of $\mathrm{CAC}$ gives a classical theorem.
-A partial order with $n^2 + 1$ elements has a chain or an antichain with $n + 1$ elements, by Dilworth's theorem, and so a list of $n^2 + 1$ distinct numbers has an increasing or a decreasing sub-list of length $n + 1$, the Erdős-Szekeres theorem.
+A partial order with $n^2 + 1$ elements has a chain or an antichain with $n + 1$ elements, by Dilworth's theorem.
+So a list of $n^2 + 1$ distinct numbers has an increasing or a decreasing sub-list of length $n + 1$, which is the Erdős-Szekeres theorem.
 Watch out for step 7: it uses that $\prec$ is linear, and for a partial order $\prec$ an incomparable pair would give neither direction.
 
 ## Explanations

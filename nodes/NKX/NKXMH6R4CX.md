@@ -51,7 +51,9 @@ We argue in $\mathsf{ACA}_0$ and fix a coloring $c$ of pairs.
 12. If $\Phi_e^{\emptyset'}$ is the characteristic function of a set $A_e$, then for each $x$ we have $A_{e,s}(x) = A_e(x)$ for all large $s$.
     This is the limit lemma, which we cite.
 13. We define $c(x, s)$ for all $x < s$ at stage $s$.
-    For $e = 0, 1, \ldots, s - 1$ in turn, if $A_{e,s}$ has at least $2e + 2$ elements, let $u_e < v_e$ be the two least among its first $2e + 2$ elements that no $e' < e$ has chosen, and put $c(u_e, s) = 0$ and $c(v_e, s) = 1$.
+    Take $e = 0, 1, \ldots, s - 1$ in turn, and skip $e$ if $A_{e,s}$ has fewer than $2e + 2$ elements.
+    Otherwise let $u_e < v_e$ be the two least among the first $2e + 2$ elements of $A_{e,s}$ that no $e' < e$ has chosen.
+    Put $c(u_e, s) = 0$ and $c(v_e, s) = 1$.
 14. The indices $e' < e$ choose at most $2e$ elements in total, so two free elements remain.
     Put $c(x, s) = 0$ for every other $x < s$; then $c$ is computable.
 15. Let $A_e = \Phi_e^{\emptyset'}$ be infinite, and let $a$ be its $(2e + 2)$-th element.
@@ -76,7 +78,9 @@ We say that $\mathrm{RT}^2_2$ *avoids* $\mathcal{B}$ if for every $X \notin \mat
 21. Suppose that $\mathrm{RT}^2_2$ avoids $\mathcal{B}$, and put $X_0 = \emptyset$.
     For $n = \langle e, m \rangle$, where $m \le n$, if $\Phi_e^{X_m}$ is a coloring of pairs, choose $H$ by avoidance for $X_n$ and this coloring and put $X_{n+1} = X_n \oplus H$; otherwise put $X_{n+1} = X_n$.
 22. By induction on $n$, no $X_n$ is in $\mathcal{B}$.
-    Let $\mathcal{S} = \{Z : Z \le_T X_n \text{ for some } n\}$; it is a Turing ideal, so $(\mathbb{N}, \mathcal{S})$ is a model of $\mathsf{RCA}_0$ by the [[characterization of ω-models|Y6D27XJT3H]], and no member of $\mathcal{S}$ is in $\mathcal{B}$ because $\mathcal{B}$ is closed upward.
+    Let $\mathcal{S} = \{Z : Z \le_T X_n \text{ for some } n\}$.
+    It is a Turing ideal, so $(\mathbb{N}, \mathcal{S})$ is a model of $\mathsf{RCA}_0$ by the [[characterization of ω-models|Y6D27XJT3H]].
+    No member of $\mathcal{S}$ is in $\mathcal{B}$, because $\mathcal{B}$ is closed upward.
 23. A coloring in $\mathcal{S}$ is $\Phi_e^{X_m}$ for some $e$ and $m$, and at stage $\langle e, m \rangle$ an infinite homogeneous set for it entered $\mathcal{S}$.
     As in step 20, $(\mathbb{N}, \mathcal{S})$ is a model of $\mathsf{RCA}_0 + \mathrm{RT}^2_2$.
 
