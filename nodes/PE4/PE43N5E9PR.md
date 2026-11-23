@@ -20,6 +20,8 @@ The cited lemma is due to Buss, and its proof is in his paper of 1987.
 By [[Reckhow's theorem|YAHHWZ7XRH]], we may fix any [[Frege system|J2BAR09TPF]] over the connectives $\neg, \land, \lor$.
 Let $x_{ij}$ say that pigeon $i$ sits in hole $j$, for $1 \le i \le n + 1$ and $1 \le j \le n$.
 
+### Formulas for sums
+
 1. *Counting formulas.*
    For bits $y_1, \dots, y_k$, there are formulas $\mathrm{Count}(y_1, \dots, y_k)$ that compute the binary form of $y_1 + \dots + y_k$, with $\lceil \log_2 (k + 1) \rceil$ output bits.
    They use carry-save addition, which turns three binary numbers into two with formulas of constant depth.
@@ -29,6 +31,9 @@ Let $x_{ij}$ say that pigeon $i$ sits in hole $j$, for $1 \le i \le n + 1$ and $
 3. *Cited lemma (Buss).*
    Frege proves, in size polynomial in $k$, the basic laws of these formulas.
    A sum does not depend on the order of its terms, a sum equals the sum of the sums of its blocks, and a sum of $k$ terms, each at most $1$, is at most $k$.
+
+### The double count
+
 4. *Row sums.*
    For pigeon $i$, let $r_i = \sum_j x_{ij}$, written with counting formulas.
    From the pigeon clause $\{x_{i1}, \dots, x_{in}\}$, Frege derives $r_i \ge 1$ in polynomial size, by step 3.

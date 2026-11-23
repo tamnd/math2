@@ -24,7 +24,8 @@ By the [[Cook-Levin theorem|CTK8AH98Z1]], the set $\mathrm{SAT}$ of satisfiable 
 A formula $\tau$ is a tautology exactly when $\neg \tau$ is not satisfiable, and $\tau \mapsto \neg \tau$ is computable in polynomial time.
 So $\mathrm{TAUT}$ is in [[coNP|NBSD5FG7NY]], and every language in coNP reduces to it in polynomial time.
 
-**From 1 to 2.**
+### From a polynomially bounded system to NP = coNP
+
 Let $f$ be a proof system with a polynomial bound $q$, so that every $\tau \in \mathrm{TAUT}$ has an $f$-proof $w$ with $\lvert w \rvert \le q(\lvert \tau \rvert)$.
 
 1. Define a nondeterministic algorithm $M$.
@@ -43,7 +44,8 @@ Let $f$ be a proof system with a polynomial bound $q$, so that every $\tau \in \
    So $\mathrm{NP} \subseteq \mathrm{coNP}$.
 8. Steps 6 and 7 give $\mathrm{NP} = \mathrm{coNP}$.
 
-**From 2 to 1.**
+### From NP = coNP to a polynomially bounded system
+
 Assume $\mathrm{NP} = \mathrm{coNP}$.
 
 9. Then $\mathrm{TAUT} \in \mathrm{coNP} = \mathrm{NP}$.

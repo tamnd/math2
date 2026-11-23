@@ -19,7 +19,7 @@ Along the way the subject meets circuit complexity, through feasible interpolati
 
 ## Remarks
 
-### Reading order
+### Reading order: proof systems and Frege
 
 1. [[Proof complexity|1Q046J0AW2]]: the measures of size, length and width, and the hierarchy of systems that the rest of the topic fills in.
 2. [[Propositional proof system|3V24CYWDT6]]: the exact definition of a proof system, and the notion of p-simulation used to compare two systems.
@@ -27,6 +27,9 @@ Along the way the subject meets circuit complexity, through feasible interpolati
 4. [[Frege system|J2BAR09TPF]]: the textbook systems as proof systems, and Reckhow's theorem that the choice of rules does not matter.
 5. [[Extended Frege system|5YSE04SHFH]]: how naming subformulas by new variables can shorten proofs, and its link to polynomial-time reasoning.
 6. [[Lower bounds for Frege systems|ANSV13M4FS]]: the central open problem, and why the methods that work for weaker systems fail here.
+
+### Reading order: weaker systems and their lower bounds
+
 7. [[Resolution as a proof system|6JSH907W5R]]: the system behind SAT solvers, with tree-like, regular and general refutations.
 8. [[Haken's theorem|4PCEYEW3JG]]: the first exponential lower bound for resolution, and the method of restrictions behind it.
 9. [[Size-width relation for resolution|GWDGRPAQSM]]: the Ben-Sasson and Wigderson method, which reduces lower bounds on size to lower bounds on width.
