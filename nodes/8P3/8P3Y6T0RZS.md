@@ -20,57 +20,75 @@ history:
 
 ## Statement
 
-Let $m \ge 2$ and label the values of [[Post's $m$-valued logic|PHGRJ2D97H]] as $V = \set{0, 1, \dots, m - 1}$, so that $\neg x = x - 1 \bmod m$ and $x \lor y = \max(x, y)$.
+Post's cyclic negation and the maximum together express every truth table on $m$ values.
+Let $m \ge 2$ and label the values of [[Post's $m$-valued logic|PHGRJ2D97H]] as $V = \{0, 1, \dots, m - 1\}$, so that $\neg x = x - 1 \bmod m$ and $x \lor y = \max(x, y)$.
 
 **Theorem.** Every function $f \colon V^n \to V$ with $n \ge 1$ is a term function of $\langle V, \neg, \lor \rangle$.
-That is, $\set{\neg, \lor}$ is functionally complete on $V$.
+That is, $\{\neg, \lor\}$ is functionally complete on $V$.
 
-The proof gives explicit terms; see [[the constructive proof|FR9JC8MNBJ]].
+The [[constructive proof|FR9JC8MNBJ]] gives an explicit term for each $f$.
 
 ## Remarks
 
 ### Why each hypothesis is needed
 
-1. Cyclic negation. With $\neg x = m - 1 - x$ and $m = 3$, every term maps $(1, \dots, 1)$ to $1$, so the constant $0$ is not a term function.
-2. Disjunction. The terms in $\neg$ alone are the functions $x \mapsto x - k \bmod m$, which are bijections, so they miss every constant function.
-3. At least one variable. Without variables there are no terms, so constants appear only as constant functions of some variable.
+The negation must be cyclic.
+Replace it by $\neg x = m - 1 - x$ with $m = 3$.
+Then $\neg 1 = 1$ and $\max(1, 1) = 1$, so every term sends $(1, \dots, 1)$ to $1$, and the constant $0$ is not a term function.
 
-### Consequences
+The disjunction is needed too.
+The terms in $\neg$ alone are the maps $x \mapsto x - k \bmod m$ of one variable, which are bijections, so they miss every constant function.
 
-1. $\land = \min$ is a term in $\neg$ and $\lor$; so is every connective of [[Łukasiewicz's three-valued logic|1CE2TGM6MQ]], after relabeling $0, \tfrac12, 1$ as $0, 1, 2$.
-2. Any set of connectives that defines Post's $\neg$ and $\lor$ is functionally complete; [[Webb's function|EPSBDVPKJP]] is one example.
-3. The algebra $\langle V, \neg, \lor \rangle$ is primal.
+The condition $n \ge 1$ is there because a term needs a variable.
+A constant such as $m - 1$ appears as the constant function $x \lor \neg x \lor \dots \lor \neg^{m-1} x$ of one variable.
 
-### Converse
+### What it gives you
 
-The converse direction is immediate: every term function is a function $V^n \to V$.
-So the term functions of $\langle V, \neg, \lor \rangle$ are exactly all finitary functions with at least one variable.
+The conjunction $\land = \min$ is a term in $\neg$ and $\lor$, so the definition of $\mathbf{P}_m$ could leave it out.
+Every connective of [[Łukasiewicz's three-valued logic|1CE2TGM6MQ]] is a term too, after the values $0, \tfrac12, 1$ are relabeled $0, 1, 2$.
+[[The three-valued Post logic|FV0ZA5CEH6]] works this out for Łukasiewicz negation.
+
+The theorem also gives a test for other sets of connectives.
+Any set that defines Post's $\neg$ and $\lor$ is functionally complete, and [[Webb's function|EPSBDVPKJP]] is shown complete in this way.
+In algebraic terms, $\langle V, \neg, \lor \rangle$ is a primal algebra.
+
+### The converse
+
+The converse holds and needs no work, because every term function is a function from some $V^n$ to $V$.
+So the term functions of $\langle V, \neg, \lor \rangle$ are exactly the finitary functions on $V$ with at least one variable.
 
 ### Generalizations
 
-1. Słupecki's criterion (1939): for $m \ge 3$, a set of operations that contains all unary operations is complete iff it contains an essentially binary operation onto $V$; see [[Sheffer functions|1K829SJG3K]].
-2. Rosenberg's theorem describes the maximal clones, and a set is complete iff it lies in no maximal clone.
+Słupecki's criterion handles sets that contain all unary functions.
+For $m \ge 3$, such a set is complete exactly when it also contains a function that depends on at least two variables and takes all $m$ values.
+More generally, a set of functions on a finite set is complete exactly when it lies in no maximal clone, and [[Rosenberg's classification|GF1RK91VED]] lists the maximal clones.
+The [[Sheffer functions|1K829SJG3K]] are the single functions that are complete alone.
 
 ## History
 
-Post proved the theorem in his 1921 paper, as SEP and the Wikipedia article on many-valued logic report.
-For two values the result goes back to the functional completeness of $\neg$ and $\lor$ in classical logic.
+Post proved the theorem in his 1921 paper "Introduction to a general theory of elementary propositions", where he introduced the systems $\mathrm{P}_m$.
+For two values the result is the functional completeness of $\neg$ and $\lor$ in classical logic.
+Słupecki published his criterion in 1939.
 
 ## Explanations
 
 ### L1 human
 
 Any table of values, for any number of inputs, can be written with Post's "not" and "or".
-You first build a formula that is at the top value at exactly one input.
-Then you join such formulas with "or" to get the table you want.
+You first build a formula that takes the top value at exactly one input and $0$ elsewhere.
+Then you lower it to the output that the table wants at that input.
+Finally you join these pieces with "or", one for each row of the table.
 
 ### L2 human
 
-The proof has four steps: the top constant, the "is $a$" tests, conjunction of tests, and the scaling of a test to a value $c$.
-The typical use is to show that another set of connectives is complete by defining Post's $\neg$ and $\lor$ from it.
-A trap: Łukasiewicz's $\neg$ and $\to$ on three values are not complete, because they preserve $\set{0, 1}$.
+The proof has four steps: the top constant, the tests "is $x$ equal to $a$", a conjunction of tests, and the scaling of a test to a value $c$.
+For $m = 3$ the test for $0$ is $J_0(x) = S(\max(x, Sx))$, with $S x = x + 1 \bmod 3$.
+Its table is $2, 0, 0$ at $x = 0, 1, 2$.
+The typical use of the theorem is to prove another set of connectives complete by defining Post's $\neg$ and $\lor$ from it.
+Watch out: Łukasiewicz's $\neg$ and $\to$ on three values are not complete, because they keep $\{0, 1\}$ closed; see [[the example|TCVVFJ46VR]].
 
 ### L3 human
 
-In clone language, the clone generated by $\neg$ and $\max$ is the clone of all operations on $V$.
-The proof is a many-valued disjunctive normal form, with the tests $J_a$ as literals.
+In clone language, the clone generated by $\neg$ and $\max$ on $m$ elements is the clone of all operations.
+The proof is a many-valued disjunctive normal form, with the tests $J_a$ in the role of literals.
+Primality is the starting point of the theory of [[Post algebras|RD2A5Z7E2B]], the algebras of the Post logics.
