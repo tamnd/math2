@@ -20,95 +20,121 @@ sources:
 
 ## Summary
 
-A heuristic argument in mathematics is a non-rigorous argument that predicts a mathematical fact, often in a precise quantitative form.
-Common kinds are probabilistic models, which treat a deterministic object as random, dimension counts, which compare the number of free parameters with the number of conditions, and scaling arguments, which compare the sizes of terms.
-The prediction is a [[conjecture|WMEMMHZ3BH]], and its precise form makes it testable by numerical evidence.
+A heuristic argument predicts a mathematical fact from a model that is not fully justified.
+It does not prove the fact, but it often predicts a number that the data can then confirm or refute.
+
+Here is the standard case.
+The [[prime number theorem|0EHBY5Y84N]] says that a number near $t$ is prime with a chance of about $1/\ln t$.
+If the [[primes|0SN0MAEKYX]] behaved like random numbers with this density, a pair $t, t + 2$ would be a pair of primes with a chance of about $1/(\ln t)^2$.
+After a correction for divisibility by small primes, the model predicts about
+$$2 C_2 \int_2^{x} \frac{dt}{(\ln t)^2}, \qquad 2 C_2 \approx 1.3203,$$
+pairs of twin primes up to $x$.
+At $x = 10^6$ this is about $8248$, and the true count is $8169$, within $1\%$.
+The agreement is strong evidence for the twin prime [[conjecture|WMEMMHZ3BH]], and the conjecture is still open.
+
+Common kinds of heuristic argument are random models, which treat a fixed object as if it were random, dimension counts, which compare free parameters with conditions, and scaling arguments, which compare the sizes of terms.
 A heuristic can fail when the object has structure that the model ignores.
-Heuristic arguments matter because many central conjectures, such as the twin prime and Hardy-Littlewood conjectures, are believed mainly for heuristic reasons.
 
 ## Motivation
 
-Numerical evidence alone is weak when the scale of a problem is beyond computation.
-A heuristic argument adds a reason: a model in which the conjecture is the expected behaviour.
-It also produces numbers, such as an asymptotic constant, that a computation can compare with the data.
+[[Numerical evidence|JFD3QWCX8Z]] alone is weak when the scale of a problem is beyond computation.
+A heuristic argument adds a reason: a model in which the conjecture is the expected behavior.
+It also produces numbers, such as the constant $2C_2$, that a computation can compare with the data.
+Many central conjectures, such as the twin prime conjecture and the Hardy-Littlewood conjectures, are believed mainly for heuristic reasons.
 
-The models are simple.
-The [[prime number theorem|0EHBY5Y84N]] says that the primes near $x$ have density about $1/\ln x$.
-If the [[primes|0SN0MAEKYX]] behaved like random numbers with this density, many questions about them would become exercises in probability.
-The answers of those exercises are conjectures about the real primes, and the corrections needed to make the model fit the data are themselves informative.
+The corrections that a model needs are informative too.
+The naive model, with no correction, predicts the wrong constant for twin primes, and the size of the error points to the small primes.
+So heuristics and data improve each other, in the spirit of [[plausible reasoning|8DHD3H1CJ9]].
 
 ## Notation
 
-The Cramér model is a sequence of independent random events $E_n$, $n \geq 3$, where $E_n$ ("$n$ is prime") has probability $1/\ln n$.
-In this model the expected number of primes up to $x$ is $\sum_{3 \leq n \leq x} 1/\ln n \approx \operatorname{li}(x)$.
-
-A dimension count predicts the dimension of a solution set as
+The Cramér model is a sequence of independent random events $E_n$, $n \ge 3$, where $E_n$ ("$n$ is prime") has probability $1/\ln n$.
+In this model the expected number of primes up to $x$ is $\sum_{3 \le n \le x} 1/\ln n$, which is close to $\operatorname{li}(x)$.
+A dimension count predicts
 $$\text{expected dimension} = (\text{number of parameters}) - (\text{number of independent conditions}).$$
 A negative expected dimension predicts no solutions for general data, and $0$ predicts finitely many.
-
-A scaling argument compares the number of candidates of size about $X$ with the probability that one candidate is a solution.
+A scaling argument compares the number of candidates of size about $X$ with the chance that one candidate is a solution.
 
 ## Remarks
 
-### Examples
+### Three kinds of model
 
-1. [[A heuristic count of twin primes|XHHKMPD8A9]]: the Cramér model, corrected for divisibility by small primes, predicts about $2C_2 \int_2^x dt/(\ln t)^2$ twin prime pairs up to $x$. At $x = 10^6$ the prediction is $8248$, and the true count is $8169$.
-2. [[A dimension count predicts the lines on surfaces in space|MSMXVPKRN1]]: lines in space form a family of dimension $4$, and a line on a surface of degree $d$ must satisfy $d + 1$ conditions. The count predicts finitely many lines on a cubic surface, in agreement with the [[twenty-seven lines|VQK5HQFYEM]].
-3. The Hardy and Littlewood prediction for the number of Goldbach partitions; see [[Goldbach partitions grow with n|RKFZV5NFXE]].
-4. A scaling argument for $x^n + y^n = z^n$: there are about $X^3$ triples with entries near $X$, and $x^n + y^n - z^n$ has size about $X^n$. If it took each value with similar probability, the expected number of solutions near $X$ would be about $X^{3-n}$. This predicts few solutions for $n \geq 4$, in agreement with [[Fermat's Last Theorem|0Y5X3SDBCZ]].
-5. The [[Bateman–Horn conjecture|6NY57KQZZF]] extends the twin prime count to the prime values of several polynomials at once.
+[[A heuristic count of twin primes|XHHKMPD8A9]] works out the random model and its correction factor.
+The same model, with local factors, gives the Hardy and Littlewood prediction for the number of ways to write $n$ as a sum of two primes; see [[Goldbach partitions grow with n|RKFZV5NFXE]].
+The [[Bateman-Horn conjecture|6NY57KQZZF]] extends the count to the prime values of several polynomials at once.
 
-### Non-examples
+[[A dimension count predicts the lines on surfaces in space|MSMXVPKRN1]] is the geometric kind.
+The lines in space form a family of dimension $4$, and a line lies on a surface of degree $d$ when it satisfies $d + 1$ conditions.
+For a cubic surface, $4 - 4 = 0$ predicts finitely many lines, in agreement with the [[twenty-seven lines|VQK5HQFYEM]].
 
-1. [[Erdős's lower bound for Ramsey numbers is a proof|2D3GCG17FA]]: it uses random colourings, but every step is rigorous and the conclusion is certain. A probabilistic proof is not a heuristic argument.
-2. The [[heuristics of discovery|X1NSTVGDNQ]], such as "solve a simpler problem first", are strategies for finding a solution. They do not predict a mathematical fact, so they are heuristics in another sense.
-3. A table of verified cases is [[numerical evidence|JFD3QWCX8Z]], not a heuristic argument: it gives no model from which the conjecture follows.
+A scaling argument treats $x^n + y^n = z^n$.
+There are about $X^3$ triples with entries near $X$, and $x^n + y^n - z^n$ has size about $X^n$.
+If it took each value with about the same chance, the expected number of solutions near $X$ would be about
+$$\frac{X^3}{X^n} = X^{3-n},$$
+which predicts few solutions for $n \ge 4$, in agreement with [[Fermat's Last Theorem|0Y5X3SDBCZ]].
 
-### Basic properties
+### What it is not
 
-1. A heuristic argument proves nothing. Its conclusion is a conjecture, which may be false.
-2. Naive models must be corrected for local structure. The twin prime model needs a factor for each small prime, which gives the constant $2C_2$.
-3. A model can fail for a reason invisible to it. For $x^n + y^n = z^n$, the scaling of example 4 predicts about a constant number of solutions near each size $X$ for $n = 3$, so infinitely many in total, but [[Fermat's Last Theorem for n = 3|07NKG38VEG]] says that there are none.
-4. The Cramér model fails in short intervals. Helmut Maier proved in 1985 that for each $\lambda > 1$ the number of primes in $(x, x + (\ln x)^\lambda]$ is not asymptotic to $(\ln x)^{\lambda - 1}$, as the model predicts.
-5. A dimension count gives the right answer for general data, and it can fail for special data whose conditions are dependent.
-6. A heuristic prediction that agrees with numerical data at many sizes is strong evidence in the sense of [[plausible reasoning|8DHD3H1CJ9]], because a precise agreement is improbable by chance.
+[[Erdős's lower bound for Ramsey numbers is a proof|2D3GCG17FA]], although it uses random colorings.
+Every step there is rigorous and the conclusion is certain, so a probabilistic proof is not a heuristic argument.
+The [[heuristics of discovery|X1NSTVGDNQ]], such as "solve a simpler problem first", are strategies for finding a solution, and they predict no mathematical fact.
+A table of verified cases is numerical evidence, not a heuristic argument, because it gives no model from which the conjecture follows.
+
+### Where models fail
+
+The scaling argument above predicts about a constant number of solutions near each size $X$ for $n = 3$, so infinitely many in total.
+But [[Fermat's Last Theorem for n = 3|07NKG38VEG]] says that there are none, so the model missed the arithmetic of the cubic curve.
+The Cramér model fails in short intervals: Helmut Maier proved in 1985 that for each $\lambda > 1$ the number of primes in $(x, x + (\ln x)^\lambda]$ is not asymptotic to $(\ln x)^{\lambda - 1}$, as the model predicts.
+A dimension count gives the right answer for general data and can fail for special data whose conditions are dependent.
+
+### Watch out
+
+A heuristic argument proves nothing, and its conclusion is a conjecture that may be false.
+The twin prime conjecture is open despite the close agreement at $10^6$.
+
+The naive model needs local corrections.
+Without them it predicts many pairs $(p, p + 1)$ of primes, but such a pair needs an even prime, so the only one is $(2, 3)$.
+
+Do not confuse a heuristic with a probabilistic proof.
+A heuristic assumes that a fixed object behaves like a random one, while a probabilistic proof studies an object that really is random and draws a certain conclusion.
 
 ### History
 
-Godfrey Hardy and John Littlewood used the circle method in 1923 to derive conjectural asymptotic formulas for prime pairs and for Goldbach partitions.
+Godfrey Hardy and John Littlewood used the circle method in 1923 to derive conjectured asymptotic formulas for prime pairs and for Goldbach partitions; see the [[Hardy-Littlewood circle method|ZQFBEX62D0]].
 Harald Cramér introduced his random model of the primes in 1936 and derived from it a conjecture on the size of [[prime gaps|2AEK2Z6RQD]].
 Paul Bateman and Roger Horn stated their general conjecture in 1962.
-Maier's theorem of 1985 showed the first failure of the Cramér model.
-Dimension counts are classical in enumerative geometry, where they guided the work of the nineteenth century before rigorous foundations existed.
+Maier's theorem of 1985 was the first proof that the Cramér model fails somewhere.
 
-### Common errors
+### Try it
 
-1. Using the naive model without local corrections. It predicts the wrong constant for twin primes, and it gives nonsense for pairs $(p, p+1)$, which are both prime only for $p = 2$.
-2. Treating a heuristic as a proof. The twin prime conjecture is open despite its strong heuristic support.
-3. Confusing a heuristic with a probabilistic proof. A heuristic assumes that the object behaves like a random one; a probabilistic proof studies a genuinely random object and draws a certain conclusion.
+Use the density $1/\ln t$ to estimate the number of primes between $10^6$ and $10^6 + 1000$.
+Since $\ln 10^6 \approx 13.8$, the estimate is $1000/13.8 \approx 72$, and the true count is $75$.
+
+What does a dimension count predict for lines on a surface of degree $4$ in space?
+It gives $4 - 5 = -1$, so a general quartic surface contains no line.
 
 ## Explanations
 
 ### L1 human
 
 A heuristic argument is a careful guess with a reason behind it.
-For example, about one number in $14$ near a million is prime.
-If primes were scattered at random with this density, pairs of primes two apart would still appear again and again.
+About one number in $14$ near a million is prime.
+If primes were scattered at random with this density, pairs of primes two apart would still turn up again and again.
 This suggests that there are infinitely many such pairs, and it even predicts how many.
-The prediction matches the real counts, but it is not a proof, because primes are not truly random.
+The prediction matches the real counts, but it is not a proof, because the primes are not truly random.
 
 ### L2 human
 
-We compare the Cramér model with the true count of primes.
+We compare the Cramér model with the true counts up to $10^6$.
+For all primes, the model predicts about $\operatorname{li}(10^6) \approx 78627.5$, and the true count is $\pi(10^6) = 78498$.
+The relative error is about $0.16\%$, so the model fits this count well.
+For twin primes, the naive model predicts
+$$\int_2^{10^6} \frac{dt}{(\ln t)^2} \approx 6247$$
+pairs, and the true count is $8169$.
+The ratio $8169/6247 \approx 1.31$ is close to $2C_2 \approx 1.3203$, the correction for divisibility by small primes.
 
-1. In the model, the expected number of primes up to $x$ is about $\operatorname{li}(x)$.
-2. For $x = 10^6$: $\operatorname{li}(10^6) \approx 78627.5$, and the true count is $\pi(10^6) = 78498$.
-3. The relative difference is about $0.16\%$, so the model fits the count well.
-4. For twin primes the naive model predicts $\int_2^{10^6} dt/(\ln t)^2 \approx 6247$ pairs, and the true count is $8169$.
-5. The factor $8169/6247 \approx 1.31$ is close to $2C_2 \approx 1.3203$, the correction for divisibility by small primes.
-
-The typical use: a model that fits one statistic is tested on another, and the failure shows which structure the model misses.
-A trap: a model that fits the counts of primes can still miss correlations between primes, as step 4 shows.
+The typical use: a model that fits one statistic is tested on another, and a failure shows which structure the model misses.
+Watch out: a model that fits the count of primes can still miss the correlations between primes, as the twin prime count shows.
 
 ### L3 human
 
@@ -116,6 +142,6 @@ Heuristic arguments express a view of mathematical objects as a mixture of struc
 The structure is the set of local constraints, such as congruences modulo small primes or the algebraic identities of a variety.
 The randomness is the assumption that, after these constraints, the object behaves like a generic one.
 The Hardy-Littlewood constants are products of local densities, one for each prime, and the expected dimension is the generic codimension of the conditions.
-A failure of a heuristic, such as Maier's theorem or the absence of solutions for $n = 3$, points to a structure the model did not include: large-scale correlations of the primes, or the arithmetic of the cubic curve $x^3 + y^3 = z^3$.
+A failure of a heuristic, such as Maier's theorem or the absence of solutions for $n = 3$, points to structure that the model left out.
 Rigorous methods, such as sieves and the circle method, sometimes follow the heuristic closely.
 For twin primes and for Goldbach's conjecture, the parity problem of sieve theory is one obstacle between the heuristic and a proof.
