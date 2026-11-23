@@ -30,7 +30,8 @@ same_as:
 ## Summary
 
 The propositional calculus is the logic of "not", "and", "or" and "if ... then", made into an exact formal system.
-It has a language of formulas, a way to compute the truth value of each formula, and a way to prove formulas from axioms, and its main theorem says that the provable formulas are exactly the formulas that are always true.
+It has a language of formulas, a way to compute the truth value of each formula, and a way to prove formulas from axioms.
+Its main theorem says that the provable formulas are exactly the formulas that are always true.
 
 Here is the heart of the semantic side, the truth table of implication:
 $$\begin{array}{cc|c} p & q & p \to q \\ \hline 1 & 1 & 1 \\ 1 & 0 & 0 \\ 0 & 1 & 1 \\ 0 & 0 & 1 \end{array}$$

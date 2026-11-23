@@ -20,18 +20,23 @@ sources:
 Let $\varphi = p \land (q \lor r)$.
 We show that $\varphi$ is not in [[disjunctive normal form|06S4WGSEQA]], although it is in [[conjunctive normal form|07C4A8Y18K]].
 
-1. The top connective of $\varphi$ is $\land$, not $\lor$. So if $\varphi$ were in DNF, it would be a DNF with one term, and that term would be $\varphi$ itself.
-2. A term is a conjunction of literals. The parts of the conjunction $\varphi$ are $p$ and $q \lor r$.
-3. The part $q \lor r$ is a disjunction, not a literal. So $\varphi$ is not a term, and $\varphi$ is not in DNF.
-4. The parts $p$ and $q \lor r$ are disjunctions of literals, so $\varphi$ is in CNF with the two clauses $\set{p}$ and $\set{q, r}$.
-5. Distributivity gives $\varphi \equiv (p \land q) \lor (p \land r)$, which is in DNF with two terms.
-6. Check: both formulas are true exactly when $p = 1$ and at least one of $q$, $r$ is $1$, that is, at the rows $(1,0,1)$, $(1,1,0)$ and $(1,1,1)$.
+1. The top connective of $\varphi$ is $\land$, not $\lor$.
+   So if $\varphi$ were a DNF, it would be a DNF with one term, and that term would be $\varphi$ itself.
+2. A term is a conjunction of literals, and the parts of the conjunction $\varphi$ are $p$ and $q \lor r$.
+3. The part $q \lor r$ is a disjunction, not a literal.
+   So $\varphi$ is not a term, and $\varphi$ is not in DNF.
+4. Both parts $p$ and $q \lor r$ are disjunctions of literals, so $\varphi$ is in CNF with the two clauses $\{ p \}$ and $\{ q, r \}$.
+5. Distribution of $\land$ over $\lor$ gives a DNF with two terms:
+$$\varphi \equiv (p \land q) \lor (p \land r).$$
+
+Check: both formulas are true exactly when $p = 1$ and at least one of $q$ and $r$ is $1$, that is, at the rows $(1, 0, 1)$, $(1, 1, 0)$ and $(1, 1, 1)$.
 
 ## Remarks
 
-This non-example shows that the two normal forms differ: a formula can be in one form and not in the other.
-The reason is the order of the connectives: in a DNF no $\lor$ lies inside a $\land$, and in a CNF no $\land$ lies inside a $\lor$.
-The formulas in both forms are those with a single term, such as $p \land \neg q$, or with a single literal in each term, such as $p \lor \neg q$.
+The two normal forms are different shapes, and a formula can have one without the other.
+The difference is the order of the connectives: in a DNF no $\lor$ lies inside a $\land$, and in a CNF no $\land$ lies inside a $\lor$.
+A formula is in both forms exactly when it is a single conjunction of literals, such as $p \land \neg q$, or a single disjunction of literals, such as $p \lor \neg q$.
+If we swap the connectives and take $p \lor (q \land r)$, the roles change: it is in DNF and not in CNF, and its CNF is $(p \lor q) \land (p \lor r)$.
 
 ## Explanations
 
@@ -43,6 +48,7 @@ If we multiply it out, as in $a(b + c) = ab + ac$, we get "($p$ and $q$) or ($p$
 
 ### L2 human
 
-The comparison with algebra is useful: $\land$ behaves like multiplication and $\lor$ like addition.
-A DNF is a "sum of products", like a polynomial that is multiplied out, and $p \land (q \lor r)$ is a product of sums, like $a(b + c)$.
-A trap: in logic, $\lor$ also distributes over $\land$, which has no analogue in ordinary algebra; this law gives the CNF.
+The comparison with algebra helps: $\land$ behaves like multiplication and $\lor$ like addition.
+A DNF is a "sum of products", like a polynomial that has been multiplied out, and $p \land (q \lor r)$ is a product of sums, like $a(b + c)$.
+Watch out: in logic $\lor$ also distributes over $\land$, so $p \lor (q \land r) \equiv (p \lor q) \land (p \lor r)$.
+The matching rule $a + bc = (a + b)(a + c)$ fails for numbers, for example at $a = b = c = 1$, where the left side is $2$ and the right side is $4$.

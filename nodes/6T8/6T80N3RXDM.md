@@ -21,19 +21,25 @@ Let $\varphi = \neg(p \lor q) \land r$.
 We show that $\varphi$ is not in [[conjunctive normal form|07C4A8Y18K]], and we find an equivalent formula that is.
 
 1. The top connective of $\varphi$ is $\land$, with the two parts $\neg(p \lor q)$ and $r$.
-2. A formula in CNF is a conjunction of clauses, and a clause is a disjunction of literals. The conjunction can be split in only one way into parts that are not themselves conjunctions, so the parts $\neg(p \lor q)$ and $r$ would have to be clauses.
-3. The part $\neg(p \lor q)$ has $\neg$ as its top connective. A clause with top connective $\neg$ is a single literal $\neg p'$ with $p'$ a variable.
-4. But here $\neg$ is applied to $p \lor q$, which is not a variable. So $\neg(p \lor q)$ is not a clause, and $\varphi$ is not in CNF.
-5. By [[De Morgan's law|09PKJKA6J0]], $\neg(p \lor q) \equiv \neg p \land \neg q$. So $\varphi \equiv \neg p \land \neg q \land r$.
-6. The formula $\neg p \land \neg q \land r$ is a conjunction of three clauses with one literal each, so it is in CNF.
-7. Check: both formulas are true exactly at the row $p = 0$, $q = 0$, $r = 1$.
+2. A CNF is a conjunction of clauses, and the parts of this conjunction that are not themselves conjunctions are $\neg(p \lor q)$ and $r$.
+   So both parts would have to be clauses.
+3. A clause whose top connective is $\neg$ can only be a single literal $\neg x$ with $x$ a variable.
+4. Here $\neg$ is applied to $p \lor q$, which is not a variable.
+   So $\neg(p \lor q)$ is not a clause, and $\varphi$ is not in CNF.
+5. [[De Morgan's law|09PKJKA6J0]] gives $\neg(p \lor q) \equiv \neg p \land \neg q$, so
+$$\varphi \equiv \neg p \land \neg q \land r.$$
+6. This formula is a conjunction of three clauses with one literal each, so it is in CNF.
+
+Check: both formulas are true at the row $p = 0$, $q = 0$, $r = 1$ and at no other row.
 
 ## Remarks
 
-Being in CNF is a property of the written formula, not of its truth table.
-So a formula that is not in CNF is always equivalent to one that is.
-The point of this non-example: a negation in CNF may stand only directly in front of a variable.
-The formula $\neg p \land \neg q \land r$ is also in [[disjunctive normal form|0GVDFAY4KW]], with one term.
+Being in CNF is a property of how a formula is written, not of its truth table.
+So the failure here is easy to repair: an equivalent CNF always exists.
+What the example shows is the rule on negation: in a CNF, $\neg$ may stand only directly in front of a variable.
+
+The repaired formula $\neg p \land \neg q \land r$ is also in [[disjunctive normal form|0GVDFAY4KW]], as a single term.
+If we change the formula to $\neg(p \land q) \land r$, De Morgan's law gives $(\neg p \lor \neg q) \land r$, which is in CNF with two clauses but is no longer in DNF.
 
 ## Explanations
 
@@ -47,9 +53,6 @@ So the formula says "not $p$, and not $q$, and $r$", which is in conjunctive nor
 ### L2 human
 
 To test whether a formula is in CNF, read it from the top.
-
-1. Split the top-level $\land$ into its parts.
-2. Each part must be a disjunction of literals, with no $\land$ inside.
-3. Each $\neg$ must stand directly in front of a variable.
-
-The trap is to stop at step 1: the formula $\neg(p \lor q) \land r$ "looks like" a conjunction of two disjunctions, but its first part is a negated disjunction.
+First split the top-level $\land$ into its parts.
+Each part must be a disjunction of literals with no $\land$ inside, and each $\neg$ must stand directly in front of a variable.
+Watch out: if you stop after the first step, $\neg(p \lor q) \land r$ seems to be a conjunction of two disjunctions, but its first part is a negated disjunction.
