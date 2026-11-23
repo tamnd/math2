@@ -14,54 +14,62 @@ sources:
 
 ## Definition
 
+An ordinal analysis of a theory is a set of three results that together compute its proof-theoretic ordinal.
+
 Let $T$ be a recursively axiomatized theory that contains elementary arithmetic.
-Let $\operatorname{TI}(\prec, X)$ be the statement of [[transfinite induction|0ZHQMQ2C1N]] along $\prec$ for a set variable $X$, or, for a first-order $T$, the schema for all formulas.
-An *ordinal analysis* of $T$ is the determination of its [[proof-theoretic ordinal|C19Z3B6V4P]] $\abs{T}$, by three results.
+For a primitive recursive order $\lhd$, let $\operatorname{TI}(\lhd, X)$ be the statement of [[transfinite induction|0ZHQMQ2C1N]] along $\lhd$ for a set variable $X$; for a first-order $T$, it is the schema for all formulas.
+We use the $\Pi^1_1$ [[proof-theoretic ordinal|C19Z3B6V4P]], the supremum of the order types of the primitive recursive well-orders $\lhd$ with $T \vdash \operatorname{TI}(\lhd, X)$.
+An *ordinal analysis* of $T$ with ordinal $\alpha$ consists of the following.
 
-1. A notation system: a natural [[ordinal notation system|3CNSYYX2HF]] $(A, \prec)$, primitive recursive, for an ordinal $\alpha$.
-2. A lower bound: for each $a \in A$, $T$ proves $\operatorname{TI}(\prec_a, X)$, where $\prec_a$ is the restriction of $\prec$ to $\set{b : b \prec a}$.
-3. An upper bound: if $\lhd$ is a primitive recursive well-order and $T$ proves $\operatorname{TI}(\lhd, X)$, then the order type of $\lhd$ is less than $\alpha$.
+1. A notation system: a natural primitive recursive [[ordinal notation system|3CNSYYX2HF]] $(A, \prec)$ of order type $\alpha$.
+2. A lower bound: for each $a \in A$, $T$ proves $\operatorname{TI}(\prec_a, X)$, where $\prec_a$ is the restriction of $\prec$ to $\{ b : b \prec a \}$.
+3. An upper bound: if $\lhd$ is a primitive recursive well-order and $T \vdash \operatorname{TI}(\lhd, X)$, then the order type of $\lhd$ is less than $\alpha$.
 
-Then $\abs{T} = \alpha$, and we say that $T$ *has ordinal* $\alpha$.
+When the three results hold, $\lvert T \rvert = \alpha$, and we say that $T$ *has ordinal* $\alpha$.
 
 ## Notation
 
-One writes $\abs{T} = \alpha$, or $\abs{T}_{\Pi^1_1} = \alpha$ when other ordinals of $T$ are also in use.
+We write $\lvert T \rvert = \alpha$, or $\lvert T \rvert_{\Pi^1_1} = \alpha$ when other ordinals of $T$ are also in use.
 The phrase "$T$ proves the well-foundedness of $\alpha$" is short for result 2 along a fixed notation system.
 
 ## Remarks
 
-- Result 3 is about all primitive recursive orders, not only $\prec$. So it is independent of the choice of notation system. Result 2 depends on the system, and this is why the system must be natural; see [[ordinal notation system|7MBX59Y7N9]].
-- Result 3 implies that $T$ does not prove $\operatorname{TI}(\prec, X)$ for the whole order, since that order has type $\alpha$.
-- Result 3 is usually proved in a weak base theory together with transfinite induction along $\prec$. The same proof gives the consistency of $T$ in that base theory.
-- Example: Gentzen's analysis of [[Peano arithmetic|0QFT7Z76N5]] uses the Cantor normal forms below [[epsilon nought|KT50SMH3EC]] and gives $\abs{\mathrm{PA}} = \varepsilon_0$.
-- Non-example: a proof that $T$ is consistent, by itself, is not an ordinal analysis, because it gives no ordinal.
+Why three results?
+Result 2 alone shows that $\lvert T \rvert \ge \alpha$, since the initial segments $\prec_a$ have order types that reach every ordinal below $\alpha$.
+Result 3 alone shows that $\lvert T \rvert \le \alpha$.
+Together they fix the supremum, and result 1 makes the ordinal concrete enough to state the bounds.
+
+The two bounds have different shapes, and this is where students slip.
+Result 3 speaks about every primitive recursive well-order, so it does not depend on the chosen notation system.
+Result 2 speaks about one system, and it is only convincing when the system is natural; see [[ordinal notation system|7MBX59Y7N9]].
+Result 3 also shows that $T$ does not prove $\operatorname{TI}(\prec, X)$ for the whole order $\prec$, because that order has type $\alpha$, which is not less than $\alpha$.
+
+For an example, Gentzen's analysis of [[Peano arithmetic|0QFT7Z76N5]] uses the Cantor normal forms below [[epsilon nought|KT50SMH3EC]] and gives $\lvert \mathrm{PA} \rvert = \varepsilon_0$.
+A bare consistency proof of $T$ fails the definition, because it gives none of the three results.
+In practice result 3 is proved in a weak base theory together with induction along $\prec$, and the same argument then proves the consistency of $T$.
 
 ## Explanations
 
 ### L1 human
 
-To analyse a theory, one needs three things.
-First, a list of names for ordinals, which a computer can compare.
-Second, a proof inside the theory that every proper initial part of the list has no endless way down.
+To measure a theory, we need three things.
+First, a list of names for ordinals that a computer can compare.
+Second, a proof inside the theory that each part of the list below a given name has no endless way down.
 Third, a proof that the theory can never do this for a longer list.
 The length of the list is then the ordinal of the theory.
 
 ### L2 human
 
 We check the three results for PA with $\alpha = \varepsilon_0$.
-
-1. The notation system is the [[Cantor normal form notation|R3BJR7TM2Z]], which is primitive recursive.
-2. The lower bound is part 1 of [[transfinite induction in arithmetic|ZE54ABPMJ0]]: PA proves transfinite induction up to each notation.
-3. The upper bound comes from cut elimination for PA with the [[ω-rule|XAMKAB1BZM]]. A PA-proof of $\operatorname{TI}(\lhd, X)$ gives a cut-free infinitary derivation of height below $\varepsilon_0$. This height bounds the order type of $\lhd$.
-
+The notation system is the [[Cantor normal form notation|R3BJR7TM2Z]], whose comparison is primitive recursive.
+The lower bound is the first part of [[transfinite induction in arithmetic|ZE54ABPMJ0]]: PA proves induction up to each notation, such as $\omega^{\omega^\omega}$.
+The upper bound comes from cut elimination for PA with the [[ω-rule|XAMKAB1BZM]].
+A PA proof of $\operatorname{TI}(\lhd, X)$ gives a cut-free infinitary derivation of height below $\varepsilon_0$, and this height bounds the order type of $\lhd$.
 The typical use is to place a new theory on the scale of known ordinals.
-The trap: results 2 and 3 have different forms.
-Result 2 is about one natural system, and result 3 is about every primitive recursive order.
 
 ### L3 human
 
 The lower bound is a well-ordering proof, and it shows what the theory can do.
 The upper bound is a proof-theoretic reduction, and it shows what the theory cannot do.
 In modern analyses, the upper bound comes from operator-controlled infinitary derivations or from [[collapsing functions|8S6CT4TMB7]].
-The notation system is built so that both halves meet at the same ordinal.
+The notation system is designed so that both halves meet at the same ordinal.
