@@ -38,9 +38,9 @@ In particular, $\mathrm{I}\Sigma_1$ is [[conservative|N238J43XNE]] over $\mathsf
 ### A first use: the integer square root
 
 We apply the theorem to the integer square root.
-$\mathrm{I}\Sigma_1$ proves the sentence
-$$\forall x \, \exists y \, \bigl(y \cdot y \le x < (y + 1) \cdot (y + 1)\bigr)$$
-by $\Sigma_1$ induction on $x$: the root of $0$ is $0$, and the root of $x + 1$ is the root $y$ of $x$ or $y + 1$.
+$\mathrm{I}\Sigma_1$ proves the following sentence:
+$$\forall x \, \exists y \, \bigl(y \cdot y \le x < (y + 1) \cdot (y + 1)\bigr).$$
+The proof is by $\Sigma_1$ induction on $x$: the root of $0$ is $0$, and the root of $x + 1$ is the root $y$ of $x$ or $y + 1$.
 The theorem then gives a primitive recursive $f$ with $\mathsf{PRA} \vdash f(x)^2 \le x < (f(x) + 1)^2$.
 The [[Herbrand analysis|MESZ87G9ET]] of this proof turns the induction into the recursion
 $$f(0) = 0, \qquad f(x + 1) = \begin{cases} f(x) + 1 & \text{if } (f(x) + 1)^2 \le x + 1, \\ f(x) & \text{otherwise.} \end{cases}$$

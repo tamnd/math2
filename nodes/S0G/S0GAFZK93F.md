@@ -57,12 +57,12 @@ For $n = 3$ we get $3! + 1 = 7$, which is prime, so $p = 7$ and $3 < 7 \le 7$.
 ### L2 human
 
 We compute the witness for $n = 4$ and $n = 5$.
-For $n = 4$ the number is
-$$4! + 1 = 25 = 5 \cdot 5,$$
-so $p = 5$ and $4 < 5 \le 25$.
-For $n = 5$ the number is
-$$5! + 1 = 121 = 11 \cdot 11,$$
-so $p = 11$ and $5 < 11 \le 121$.
+For $n = 4$ the number factors as follows:
+$$4! + 1 = 25 = 5 \cdot 5.$$
+So $p = 5$ and $4 < 5 \le 25$.
+For $n = 5$ the number factors as follows:
+$$5! + 1 = 121 = 11 \cdot 11.$$
+So $p = 11$ and $5 < 11 \le 121$.
 Check: $121 / 11 = 11$, and no prime up to $5$ divides $121$.
 
 The typical use is as the simplest case of a bound read off an existence proof.

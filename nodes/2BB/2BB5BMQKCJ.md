@@ -68,9 +68,9 @@ We replace $f(g(x)) = y$ by $\exists u \, (g(x) = u \land f(u) = y)$ and transla
 
 The theory of a strict linear order without a greatest element is interpretable in [[Peano arithmetic|0QFT7Z76N5]].
 Take $\delta(x) := (x = x)$ and translate $x < y$ as $\varphi_<(x, y) := \exists z \, (x + S(z) = y)$.
-The axiom "for each $x$ there is $y$ with $x < y$" translates to
-$$\forall x \, \bigl(x = x \to \exists y \, (y = y \land \exists z \, (x + S(z) = y))\bigr),$$
-and PA proves it with $y := S(x)$ and $z := 0$.
+The axiom "for each $x$ there is $y$ with $x < y$" translates to the following sentence:
+$$\forall x \, \bigl(x = x \to \exists y \, (y = y \land \exists z \, (x + S(z) = y))\bigr).$$
+PA proves it with $y := S(x)$ and $z := 0$.
 The axioms of irreflexivity, transitivity and totality translate to properties of $<$ that PA proves by induction.
 
 Now try to interpret the theory of an infinite set in the theory $S$ of a set with exactly two elements.
