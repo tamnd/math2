@@ -86,7 +86,7 @@ Watch out: the [[reduced row echelon form|0WF5AQYTW6]] of $[A \mid b]$ and that 
 
 ### L3 human
 
-The augmented matrix $[A \mid b]$ is the coefficient matrix of the homogeneous system $Ax - bt = 0$ in the $n + 1$ unknowns $(x, t)$.
-The solutions of $Ax = b$ correspond to the solutions of this homogeneous system with $t = 1$.
+The augmented matrix $[A \mid b]$ is the coefficient matrix of the homogeneous system $Ax + bt = 0$ in the $n + 1$ unknowns $(x, t)$.
+The solutions of $Ax = b$ correspond to the solutions of this homogeneous system with $t = -1$.
 This is the projective view of an affine system, and it explains why consistency is a statement about the last column.
 The [[augmentation principle|BE3NZP35HY]] says that the RREF of $[A \mid B]$ begins with the RREF of $A$.
