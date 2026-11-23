@@ -104,10 +104,12 @@ Full second-order arithmetic and ZF have no ordinal analysis today.
 
 ### Try it
 
-PA proves induction along every initial segment of the Cantor normal forms below $\varepsilon_0$, and nothing longer is provable. What is $\lvert \mathrm{PA} \rvert$?
+PA proves induction along every initial segment of the Cantor normal forms below $\varepsilon_0$, and no longer initial segment.
+What is $\lvert \mathrm{PA} \rvert$?
 The supremum of the provable order types is $\varepsilon_0$, so $\lvert \mathrm{PA} \rvert = \varepsilon_0$, even though PA does not prove induction up to $\varepsilon_0$ itself.
 
-ACA0 and PA have the same ordinal. Does that make them the same theory?
+$\mathrm{ACA}_0$ and PA have the same ordinal.
+Does that make them the same theory?
 No: ACA0 has set variables and proves statements about sets that PA cannot express, but the two prove the same arithmetical sentences.
 
 ## Explanations

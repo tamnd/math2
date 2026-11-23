@@ -80,7 +80,8 @@ Part 5.
 23. The finite strings over a finite alphabet form a countable set, and by step 22 $\varepsilon_0$ injects into it.
     So $\varepsilon_0$ is countable, and with step 4, part 5 holds.
 
-Steps 7, 10, 12, 14, 18 and 23 prove parts 1 to 5, so $\varepsilon_0$ is the least fixed point of $\alpha \mapsto \omega^\alpha$. $\blacksquare$
+Steps 7, 10, 12, 14, 18 and 23 prove parts 1 to 5, so $\varepsilon_0$ is the least fixed point of $\alpha \mapsto \omega^\alpha$.
+$\blacksquare$
 
 ## Idea
 

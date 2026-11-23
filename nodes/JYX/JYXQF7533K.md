@@ -58,7 +58,8 @@ Now let $\alpha$ and $\alpha'$ have the term lists $(\beta_i, c_i)_{i \le k}$ an
     So case A, B or C holds, and condition 1 or 2 is true.
 18. For the corollary, if the term lists differ, steps 15 and 16 give $\alpha < \alpha'$ or $\alpha' < \alpha$, so $\alpha \ne \alpha'$.
 
-Steps 15 and 17 prove the equivalence, and step 18 proves the corollary. $\blacksquare$
+Steps 15 and 17 prove the equivalence, and step 18 proves the corollary.
+$\blacksquare$
 
 ## Idea
 
