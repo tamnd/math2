@@ -18,49 +18,40 @@ sources:
 
 ## Summary
 
-Disjunctive syllogism is the [[rule of inference|QPD3X471Q1]] that concludes $q$ from the two premises $p \lor q$ and $\neg p$:
+Disjunctive syllogism is the logic of elimination: when one of two things is true and the first is false, the second is true.
+"The key is in my left pocket or in my right pocket; it is not in the left pocket; so it is in the right pocket."
+Write $p$ for "the key is in the left pocket" and $q$ for "the key is in the right pocket".
+The argument has the premises $p \lor q$ and $\neg p$, and the conclusion $q$.
+As a [[rule of inference|QPD3X471Q1]] it is written
 $$\frac{p \lor q \qquad \neg p}{q}$$
-In words: one of two statements is true, the first one is false, so the second one is true.
-The rule also has the symmetric form that concludes $p$ from $p \lor q$ and $\neg q$.
-The rule is valid: in every row of the [[truth table|05RSK4Q657]] where $p \lor q$ and $\neg p$ are both true, $q$ is true.
-Disjunctive syllogism is the logic of elimination, and every argument that lists the possible cases and then rules out all of them except one uses it.
+The symmetric form concludes $p$ from $p \lor q$ and $\neg q$.
+The rule is valid: in every row of the [[truth table|05RSK4Q657]] where both premises are true, the conclusion is true.
 
 ## Motivation
 
-Many arguments in mathematics end with a list of possibilities.
-An equation $x(x - 1) = 0$ gives "$x = 0$ or $x = 1$".
-A prime $p$ that divides a product $ab$ gives "$p$ divides $a$ or $p$ divides $b$".
-Two real numbers $x$ and $y$ satisfy "$x < y$ or $x = y$ or $x > y$".
-In each case a second fact often rules out some of the possibilities.
-Disjunctive syllogism is the step that turns the [[disjunction|0F72FK8EKB]] and the [[negation|029JBBF693]] of one part into a definite conclusion.
+Many arguments in mathematics reach a list of possibilities and then rule them out one by one.
+The equation $x(x - 1) = 0$ gives "$x = 0$ or $x = 1$".
+A prime that divides a product $ab$ divides $a$ or divides $b$.
+Two real numbers $x$ and $y$ satisfy $x < y$ or $x = y$ or $x > y$.
+In each case a second fact usually removes some of the possibilities, and disjunctive syllogism is the step that turns the [[disjunction|0F72FK8EKB]] and the [[negation|029JBBF693]] of one part into a definite answer.
+
+The rule matters outside mathematics too.
+A doctor who rules out every diagnosis except one, and a SAT solver that finds a clause with all literals false except one, both use it.
+The rule returns in the [[formal fallacies|T5BG7Y4J0T]], where its invalid cousin "affirming a disjunct" appears, and in the study of logics that reject it.
 
 ## Notation
 
-The rule is written as a fraction, with the premises above the line and the conclusion below it.
-As a consequence relation it reads $p \lor q, \neg p \models q$, and as a single formula it is the [[tautology|05006AJ7DZ]] $((p \lor q) \land \neg p) \to q$.
+The fraction form puts the premises above the line and the conclusion below it.
+As a consequence it reads $p \lor q, \neg p \models q$, and as one formula it is the [[tautology|05006AJ7DZ]] $((p \lor q) \land \neg p) \to q$.
 The traditional Latin name is *modus tollendo ponens*, "the mode that affirms by denying".
-In Lean and Mathlib the rule is `Or.resolve_left`: from a proof of `a ∨ b` and a proof of `¬a` it gives a proof of `b`.
-The connectives $\lor$ and $\neg$ have the variants listed on the pages [[disjunction|0F72FK8EKB]] and [[negation|029JBBF693]].
+In Lean, `Or.resolve_left` takes a proof of `a ∨ b` and a proof of `¬a` and returns a proof of `b`.
+The symbols $\lor$ and $\neg$ have variants in books, listed on the pages [[disjunction|0F72FK8EKB]] and [[negation|029JBBF693]].
 
 ## Remarks
 
-### Examples
+### Checking the rule with a truth table
 
-1. [[Solving $x^2 = x$ for a nonzero real number|CVVR1EZYHE]]: the equation gives $x = 0 \lor x = 1$, the hypothesis $x \neq 0$ denies the first part, so $x = 1$.
-2. [[From $7 \mid 3n$ to $7 \mid n$|1GABWKBKPD]]: [[Euclid's lemma|051VYKA1EX]] gives $7 \mid 3 \lor 7 \mid n$, and $7 \nmid 3$, so $7 \mid n$.
-3. For real numbers $x$ and $y$, [[trichotomy|1APZE11YEF]] gives $x < y \lor x = y \lor x > y$. If $x \not< y$ and $x \neq y$, two uses of the rule give $x > y$.
-4. A digit $d$ of a puzzle is $1$, $5$ or $9$. If the rules exclude $1$ and $9$, then two uses of the rule give $d = 5$.
-5. In clause logic, the clause $p \lor q$ and the unit clause $\neg p$ give the clause $q$. This is the simplest case of the resolution rule, discussed below.
-
-### Non-examples
-
-1. [[Affirming a disjunct|3X34TM3SRT]]: from $p \lor q$ and $p$ conclude $\neg q$. The second premise affirms a disjunct instead of denying it, and the row $p = q = \mathrm{T}$ refutes the form.
-2. From $p \lor q$ and $\neg r$ conclude $q$, where $r$ is not one of the disjuncts. The negated statement must be a disjunct; the row $p = \mathrm{T}$, $q = \mathrm{F}$, $r = \mathrm{F}$ refutes the form.
-3. "Every real $x$ satisfies $x < 0$ or $x > 0$; $x$ is not negative; so $x > 0$." The form is valid, but the first premise is false at $x = 0$, so the argument is not sound. The disjunction must list every case.
-
-### Basic properties
-
-1. The rule is valid. The table below lists the four valuations in the standard order.
+List the four valuations of $p$ and $q$, and compute both premises in each row:
 
 | $p$ | $q$ | $p \lor q$ | $\neg p$ | $q$ |
 |---|---|---|---|---|
@@ -70,70 +61,105 @@ The connectives $\lor$ and $\neg$ have the variants listed on the pages [[disjun
 | F | F | F | T | F |
 
 Only the third row makes both premises true, and in that row $q$ is true.
-So $((p \lor q) \land \neg p) \to q$ is a tautology.
+So no valuation makes the premises true and the conclusion false, and the rule is valid.
+The same table shows why both premises are needed: the first two rows make $p \lor q$ true with $q$ false, and the fourth row makes $\neg p$ true with $q$ false.
 
-2. Classically, $p \lor q$ is [[logically equivalent|0JMR2HM2N2]] to $\neg p \to q$, by the law `imp_iff_not_or` applied to $\neg p$ and the [[double negation law|0NFAGWH84K]]. With this equivalence, disjunctive syllogism is [[modus ponens|0Y0MQYST0M]] applied to $\neg p \to q$ and $\neg p$.
-3. The rule generalizes to $n$ disjuncts: from $p_1 \lor \dots \lor p_n$ and $\neg p_1, \dots, \neg p_{n-1}$, conclude $p_n$. The proof applies the rule $n - 1$ times.
-4. The rule is valid in [[intuitionistic logic|Q11N8X99FK]]. A proof by cases on $p \lor q$ works: in the case $p$, the premise $\neg p$ gives a contradiction, and [[explosion|TTKZGJEEK7]] gives $q$; in the case $q$, there is nothing to do.
-5. The proof in property 4 needs explosion. In minimal logic, which has no explosion rule, disjunctive syllogism cannot be derived.
-6. Conversely, disjunctive syllogism gives explosion. From $p$ and $\neg p$, the rule of disjunction introduction gives $p \lor q$, and disjunctive syllogism with $\neg p$ gives $q$.
-7. The resolution rule concludes $q \lor r$ from $p \lor q$ and $\neg p \lor r$. Disjunctive syllogism is the case where the second clause is the single literal $\neg p$.
+### Worked uses
 
-### Rejection in relevance logic
+To solve $x^2 = x$ for a [[nonzero real number|CVVR1EZYHE]], factor to get $x(x - 1) = 0$, so $x = 0 \lor x = 1$.
+The hypothesis $x \neq 0$ denies the first disjunct, and the rule gives $x = 1$.
 
-Property 6 shows that a logic with disjunction introduction and disjunctive syllogism has explosion.
-Relevance logics, developed by Alan Ross Anderson and Nuel Belnap, require that the premises of a valid inference be relevant to its conclusion.
-Explosion fails this requirement, because $p$ and $\neg p$ say nothing about an unrelated $q$.
-These logics keep disjunction introduction, so they do not accept disjunctive syllogism as a valid inference from arbitrary premises.
-A countermodel exists in the three-valued logic LP of Graham Priest, a [[paraconsistent logic|C7YWCR87QJ]] with the values T, B ("both") and F, where T and B count as true.
+For an integer $n$ with $7 \mid 3n$, [[Euclid's lemma|051VYKA1EX]] gives $7 \mid 3 \lor 7 \mid n$.
+Since $0 < 3 < 7$, the number $7$ does not divide $3$, so the rule gives $7 \mid n$; the example [[from $7 \mid 3n$ to $7 \mid n$|1GABWKBKPD]] writes this out.
+
+With more cases you apply the rule several times.
+[[Trichotomy|1APZE11YEF]] gives $x < y \lor x = y \lor x > y$.
+If $x \not< y$, one step leaves $x = y \lor x > y$, and if also $x \neq y$, a second step leaves $x > y$.
+
+### What the rule does not allow
+
+[[Affirming a disjunct|3X34TM3SRT]] concludes $\neg q$ from $p \lor q$ and $p$.
+That form is invalid, because the mathematical "or" is inclusive: the row $p = q = \mathrm{T}$ makes both premises true and $\neg q$ false.
+For a concrete case, $6$ is even or a multiple of $3$, and $6$ is even, but $6$ is still a multiple of $3$.
+
+The statement that you deny must be one of the disjuncts.
+From $p \lor q$ and $\neg r$ nothing follows about $q$: the row $p = \mathrm{T}$, $q = \mathrm{F}$, $r = \mathrm{F}$ makes both premises true and $q$ false.
+
+### How it connects to other rules
+
+Classically, $p \lor q$ is [[logically equivalent|0JMR2HM2N2]] to $\neg p \to q$.
+With this equivalence, disjunctive syllogism is [[modus ponens|0Y0MQYST0M]] applied to $\neg p \to q$ and $\neg p$.
+
+The rule is also valid in [[intuitionistic logic|Q11N8X99FK]], by a proof by cases on $p \lor q$.
+In the case $p$, the premise $\neg p$ gives a contradiction, and [[explosion|TTKZGJEEK7]] gives $q$.
+In the case $q$, there is nothing to do.
+That proof needs explosion, and in minimal logic, which has no explosion rule, the rule cannot be derived.
+
+Conversely, the rule gives explosion.
+From $p$, disjunction introduction gives $p \lor q$, and then $\neg p$ and the rule give $q$, for any $q$ at all.
+In clause logic, the resolution rule concludes $q \lor r$ from $p \lor q$ and $\neg p \lor r$, and disjunctive syllogism is the case where the second clause is the single literal $\neg p$.
+
+### Relevance logic rejects it
+
+The last argument shows that disjunction introduction and disjunctive syllogism together give explosion.
+Relevance logics, developed by Alan Ross Anderson and Nuel Belnap, demand that the premises of a valid inference be relevant to its conclusion, and explosion fails that demand.
+These logics keep disjunction introduction, so they give up disjunctive syllogism for arbitrary premises.
+
+A countermodel lives in Graham Priest's three-valued logic LP, a [[paraconsistent logic|C7YWCR87QJ]] with the values T, B ("both") and F, where T and B count as true.
 Take $p = \mathrm{B}$ and $q = \mathrm{F}$.
 Then $\neg p = \mathrm{B}$ and $p \lor q = \mathrm{B}$, so both premises count as true, but the conclusion $q$ is false.
 The topic [[substructural, linear and relevance logics|98QF5J4W16]] treats these logics.
 
+### Watch out
+
+The rule is valid, but its conclusion is only as good as the disjunction you start from.
+"Every real $x$ satisfies $x < 0$ or $x > 0$; this $x$ is not negative; so $x > 0$" has a valid form and a false first premise, because $x = 0$ satisfies neither part.
+Before you eliminate cases, check that your list of cases is complete.
+
 ### History
 
-The Stoic logician Chrysippus listed disjunctive syllogism among his five indemonstrable forms of argument, together with [[modus ponens|0Y0MQYST0M]] and [[modus tollens|32AQPJQQAM]].
-Anderson and Belnap rejected the rule in their work on relevance logic in the second half of the 20th century.
+The Stoic logician Chrysippus listed this form among his five indemonstrable arguments, together with [[modus ponens|0Y0MQYST0M]] and [[modus tollens|32AQPJQQAM]].
+The Stoics read "or" in this form as exclusive.
+In the twentieth century, Anderson and Belnap rejected the rule in their work on relevance logic.
 
-### Common errors
+### Try it
 
-1. A student affirms a disjunct: "$n$ is even or $n$ is a multiple of $3$; $n$ is even; so $n$ is not a multiple of $3$". The number $n = 6$ refutes the conclusion, because the mathematical "or" is inclusive.
-2. A student uses a disjunction that misses a case, such as "$x < 0$ or $x > 0$" for a real $x$. The rule is valid, but the conclusion is only as good as the list of cases.
+A digit $d$ is $1$, $5$ or $9$, and $d$ is neither $1$ nor $9$; what is $d$?
+Two applications of the rule give $d = 5$.
+
+From "$n$ is prime or $n$ is odd" and "$n$ is prime", may you conclude that $n$ is not odd?
+No: that is affirming a disjunct, and $n = 3$ makes both premises true and the conclusion false.
 
 ## Explanations
 
 ### L1 human
 
-A key is in the left pocket or in the right pocket.
-I look in the left pocket, and the key is not there.
-So the key is in the right pocket.
-With numbers: a secret number is $3$ or $7$, and it is not $3$, so it is $7$.
+A secret number is $3$ or $7$.
+Someone tells you it is not $3$.
+Then it must be $7$.
 This step is called disjunctive syllogism.
 It works only when the list of possibilities is complete and one possibility is ruled out.
+Being told "it is $3$" tells you nothing new about $7$, unless you also know that it cannot be both.
 
 ### L2 human
 
-We find the real numbers $x$ with $x^2 - 5x + 6 = 0$ and $x > 2.5$.
-
-1. Factor: $x^2 - 5x + 6 = (x - 2)(x - 3)$, so $(x - 2)(x - 3) = 0$.
-2. A product of two real numbers is $0$ only when one factor is $0$. So $x = 2 \lor x = 3$.
-3. The hypothesis $x > 2.5$ gives $x \neq 2$. This is the negation of the first disjunct.
-4. Disjunctive syllogism gives $x = 3$.
-5. Check: $9 - 15 + 6 = 0$ and $3 > 2.5$.
-
-The typical use of the rule is at the end of a [[proof by cases|0WCP0PVET6]] in which all cases except one are impossible.
-A trap is the everyday exclusive "or".
-The rule allows us to deny a disjunct and conclude the other one, and it never allows us to affirm a disjunct and deny the other one.
-Only with an [[exclusive or|PTMR3P9J6C]] does the second form hold.
+Find the real numbers $x$ with $x^2 - 5x + 6 = 0$ and $x > 2.5$.
+First factor the left side:
+$$x^2 - 5x + 6 = (x - 2)(x - 3).$$
+A product of two real numbers is $0$ only when one factor is $0$, so $x = 2 \lor x = 3$.
+The hypothesis $x > 2.5$ gives $x \neq 2$, which denies the first disjunct, and disjunctive syllogism gives $x = 3$.
+Check: $9 - 15 + 6 = 0$ and $3 > 2.5$.
+This is the typical use of the rule: the last step of a [[proof by cases|0WCP0PVET6]] in which every case but one is impossible.
+Watch out for the everyday exclusive "or", which tempts you to affirm one disjunct and deny the other; only with an [[exclusive or|PTMR3P9J6C]] is that step valid.
 
 ### L3 human
 
 In a [[Heyting algebra|NG943XNQWH]], and so in every [[Boolean algebra|0XADJKM699]], the rule is the inequality $(a \lor b) \land \neg a \le b$.
-The proof uses distributivity and $a \land \neg a = 0$: we have $(a \lor b) \land \neg a = (a \land \neg a) \lor (b \land \neg a) = b \land \neg a \le b$.
-The relevance and paraconsistent logics use algebras in which $a \land \neg a$ need not be the least element, and there the inequality fails, as the LP countermodel shows.
+Distributivity and $a \land \neg a = 0$ prove it:
+$$(a \lor b) \land \neg a = (a \land \neg a) \lor (b \land \neg a) = b \land \neg a \le b.$$
+Relevance and paraconsistent logics use algebras in which $a \land \neg a$ need not be the least element, and there the inequality fails, as the LP countermodel shows.
 So the status of disjunctive syllogism measures how a logic treats contradictions.
 
-The rule is the unit case of resolution, the single rule of the resolution method for propositional and first-order logic.
-SAT solvers apply it many times as unit propagation: a clause with all literals false except one forces the last literal.
-In type theory, a proof of $p \lor q$ is a tagged proof of one side, and `Or.resolve_left` inspects the tag: the tag "left" is impossible because of $\neg p$, so the tag is "right".
+The rule is the unit case of resolution, the single rule of the resolution method for propositional and first-order logic, and SAT solvers apply it many times as unit propagation.
+In type theory a proof of $p \lor q$ is a tagged proof of one side, and `Or.resolve_left` inspects the tag: the tag "left" is impossible because of $\neg p$, so the tag is "right".
 With the instantiation rule of the [[universal quantifier|0GHS47PDAQ]], the rule extends to first-order logic: $\forall x \, (P(x) \lor Q(x))$ and $\neg P(a)$ give $Q(a)$.
