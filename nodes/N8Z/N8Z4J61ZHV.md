@@ -8,7 +8,7 @@ audience: ug1
 instance_of: [DX2H7AD66G]
 uses: [DX2H7AD66G, 0RFWW56Y22, 0S52TNNTH9, 0XPR1E85W0, M2FAMD9HZN]
 sources:
-  - url: https://en.wikipedia.org/wiki/Cauchy–Schwarz_inequality
+  - url: https://en.wikipedia.org/wiki/Cauchy%E2%80%93Schwarz_inequality
     locator: lead section
   - url: https://en.wikipedia.org/wiki/Homogeneous_function
     locator: lead section

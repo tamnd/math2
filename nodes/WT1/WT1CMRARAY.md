@@ -28,11 +28,10 @@ Then we find where the [[density argument|J2J35J3055]] of [[the case p < infinit
 The first ingredient of the density argument still holds.
 For $g \in C_c(\mathbb{R})$, uniform continuity gives $\lVert \tau_h g - g \rVert_\infty = \sup_x \lvert g(x - h) - g(x) \rvert \to 0$.
 The second ingredient fails: no continuous $g$ has $\lVert f - g \rVert_\infty < \frac12$.
-
-5. Suppose $g$ is continuous and $c = \lVert f - g \rVert_\infty < \frac12$.
-6. Then $\lvert g(x) \rvert \le c$ for almost every $x \in (-1, 0)$, where $f = 0$, and by continuity $g(0) \le c$.
-7. Also $g(x) \ge 1 - c$ for almost every $x \in (0, 1)$, where $f = 1$, so $g(0) \ge 1 - c$.
-8. Then $1 - c \le c$, so $c \ge \frac12$, a contradiction.
+Suppose $g$ is continuous and $c = \lVert f - g \rVert_\infty < \frac12$.
+Then $\lvert g(x) \rvert \le c$ for almost every $x \in (-1, 0)$, where $f = 0$, and by continuity $g(0) \le c$.
+Also $g(x) \ge 1 - c$ for almost every $x \in (0, 1)$, where $f = 1$, so $g(0) \ge 1 - c$.
+Then $1 - c \le c$, so $c \ge \frac12$, a contradiction.
 
 So $C_c(\mathbb{R})$ is not dense in $L^\infty(\mathbb{R})$, and the density argument fails at its second ingredient.
 

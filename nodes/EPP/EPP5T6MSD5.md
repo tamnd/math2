@@ -21,22 +21,20 @@ We prove that $\lVert \tau_h f - f \rVert_p \to 0$ as $h \to 0$, by a [[density 
 The dense class is $C_c(\mathbb{R})$, the continuous functions that vanish outside a bounded interval, which is dense in $L^p(\mathbb{R})$ for $1 \le p < \infty$.
 
 First the claim on the dense class.
-
-1. Let $g \in C_c(\mathbb{R})$ with $g(x) = 0$ for $\lvert x \rvert > R$, and let $\eta > 0$.
-2. By the [[Heine-Cantor theorem|06B8BNJCD6]] on $[-R - 1, R + 1]$, and since $g$ vanishes outside $[-R, R]$, $g$ is uniformly continuous on $\mathbb{R}$.
-3. So there is $\delta$ with $0 < \delta \le 1$ such that $\lvert g(x - h) - g(x) \rvert < \eta$ for every $x$ and every $\lvert h \rvert < \delta$.
-4. For $\lvert h \rvert < \delta$, the function $\tau_h g - g$ vanishes outside $[-R - 1, R + 1]$, an interval of length $2R + 2$.
-5. Hence $\lVert \tau_h g - g \rVert_p^p \le \eta^p (2R + 2)$, that is, $\lVert \tau_h g - g \rVert_p \le \eta (2R + 2)^{1/p}$.
-6. Since $\eta$ was arbitrary, $\lVert \tau_h g - g \rVert_p \to 0$.
+Let $g \in C_c(\mathbb{R})$ with $g(x) = 0$ for $\lvert x \rvert > R$, and let $\eta > 0$.
+By the [[Heine-Cantor theorem|06B8BNJCD6]] on $[-R - 1, R + 1]$, and since $g$ vanishes outside $[-R, R]$, $g$ is uniformly continuous on $\mathbb{R}$.
+So there is $\delta$ with $0 < \delta \le 1$ such that $\lvert g(x - h) - g(x) \rvert < \eta$ for every $x$ and every $\lvert h \rvert < \delta$.
+For such $h$, the function $\tau_h g - g$ vanishes outside $[-R - 1, R + 1]$, an interval of length $2R + 2$.
+Hence $\lVert \tau_h g - g \rVert_p \le \eta (2R + 2)^{1/p}$, and since $\eta$ was arbitrary, $\lVert \tau_h g - g \rVert_p \to 0$.
 
 Then the passage to all of $L^p$.
 
-7. Let $\varepsilon > 0$, and by density fix $g \in C_c(\mathbb{R})$ with $\lVert f - g \rVert_p < \varepsilon / 3$.
-8. [[Lebesgue measure|2Z2QVWZ262]] is invariant under translation, so $\lVert \tau_h u \rVert_p = \lVert u \rVert_p$ for every $u \in L^p$.
+1. Let $\varepsilon > 0$, and by density fix $g \in C_c(\mathbb{R})$ with $\lVert f - g \rVert_p < \varepsilon / 3$.
+2. [[Lebesgue measure|2Z2QVWZ262]] is invariant under translation, so $\lVert \tau_h u \rVert_p = \lVert u \rVert_p$ for every $u \in L^p$.
    With $u = f - g$, this gives $\lVert \tau_h f - \tau_h g \rVert_p < \varepsilon / 3$.
-9. By step 6, there is $\delta' > 0$ with $\lVert \tau_h g - g \rVert_p < \varepsilon / 3$ for $\lvert h \rvert < \delta'$.
-10. For $\lvert h \rvert < \delta'$, the [[Minkowski inequality|N4QZS912MT]] gives
-    $$\lVert \tau_h f - f \rVert_p \le \lVert \tau_h f - \tau_h g \rVert_p + \lVert \tau_h g - g \rVert_p + \lVert g - f \rVert_p < \frac{\varepsilon}{3} + \frac{\varepsilon}{3} + \frac{\varepsilon}{3} = \varepsilon.$$
+3. By the claim on the dense class, there is $\delta' > 0$ with $\lVert \tau_h g - g \rVert_p < \varepsilon / 3$ for $\lvert h \rvert < \delta'$.
+4. For $\lvert h \rvert < \delta'$, the [[Minkowski inequality|N4QZS912MT]] gives
+   $$\lVert \tau_h f - f \rVert_p \le \lVert \tau_h f - \tau_h g \rVert_p + \lVert \tau_h g - g \rVert_p + \lVert g - f \rVert_p < \frac{\varepsilon}{3} + \frac{\varepsilon}{3} + \frac{\varepsilon}{3} = \varepsilon.$$
 
 ## Remarks
 
@@ -68,4 +66,4 @@ We compute $\lVert \tau_h g - g \rVert_1$ for a concrete function in $C_c(\mathb
 4. So $\lVert \tau_h g - g \rVert_1 \le 4 \lvert h \rvert$, which tends to $0$ as $h \to 0$.
 
 The pattern passes a continuity property of a group action, here translation, from nice functions to all of $L^p$.
-Watch out: $g$ must be fixed before $h$ is chosen, or step 9 gives no single $\delta'$.
+Watch out: $g$ must be fixed before $h$ is chosen, or step 3 gives no single $\delta'$.

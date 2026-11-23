@@ -12,9 +12,12 @@ Many proofs in a first course have the same shape, because the goals repeat: two
 This part of [[reasoning and proof|SGSVYFDSYK]] collects the standard pattern for each such goal, and each page opens with one short goal proved by its pattern.
 The story starts with goals about sets and functions, where the pattern is a pair of checks: two inclusions for set equality, the injective and surjective templates for a function, and the three properties of an equivalence relation.
 Two inequalities give an equality of numbers in the same way, and identities are proved by chains of reversible steps.
-Analysis brings estimates: the epsilon-delta proof finds $\delta$ in scratch work and writes it forward, the epsilon over three argument splits one distance into three small pieces, and the density argument proves a fact on a dense set and extends it by continuity.
+Analysis brings estimates.
+The epsilon-delta proof finds $\delta$ in scratch work and writes it forward, and the epsilon over three argument splits one distance into three small pieces.
+The density argument proves a fact on a dense set and extends it by continuity.
 Symmetry and reduction to a special case cut the work before it starts.
-The last patterns spread a property over a whole space or a whole interval of time: the open-closed argument on a connected space, bootstrapping from a weak estimate to a stronger one, and the proof by algorithm, where a procedure that stops with a correct output proves that the output exists.
+Two patterns spread a property over a whole space: the open-closed argument on a connected space, and bootstrapping, which turns a weak estimate into a stronger one over an interval of time.
+The proof by algorithm closes the list: a procedure that stops with a correct output proves that the output exists.
 Each page also shows the slips that break its pattern, with a non-example where the pattern seems to apply and fails.
 
 ## Remarks
