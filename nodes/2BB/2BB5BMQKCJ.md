@@ -74,7 +74,9 @@ and PA proves it with $y := S(x)$ and $z := 0$.
 The axioms of irreflexivity, transitivity and totality translate to properties of $<$ that PA proves by induction.
 
 Now try to interpret the theory of an infinite set in the theory $S$ of a set with exactly two elements.
-Condition 3 fails for every choice of $\delta$: $S$ has a model with two elements, the domain in it has at most two elements, and the axiom "there are at least three elements" translates to a sentence false in that model, so $S$ does not prove it.
+Condition 3 fails for every choice of $\delta$.
+The theory $S$ has a model with two elements, and the domain in it has at most two elements.
+So the axiom "there are at least three elements" translates to a sentence false in that model, and $S$ does not prove it.
 
 ### Theorems go to theorems
 

@@ -16,20 +16,23 @@ sources:
 
 ## Example
 
-Define $Y : (\N \to \N) \to \N$ by $Y(\alpha) = $ the least $n$ with $\alpha(n) = 0$, and $Y(\alpha) = 0$ if $\alpha$ has no zero.
+Define $Y : (\mathbb{N} \to \mathbb{N}) \to \mathbb{N}$ so that $Y(\alpha)$ is the least $n$ with $\alpha(n) = 0$, and $Y(\alpha) = 0$ if $\alpha$ has no zero.
 Take $G(s) = 0$ and $H(s, f) = f(1) + 1$.
 We show that no function $\Phi$ on finite sequences satisfies the [[bar recursion|8CCG6F2FAT]] equations for these data.
 
-1. Let $1^k$ be the sequence of $k$ ones. Its zero extension is $1, \ldots, 1, 0, 0, \ldots$ with first zero at place $k$.
+1. Let $1^k$ be the sequence of $k$ ones.
+   Its zero extension is $1, \ldots, 1, 0, 0, \ldots$, with the first zero at place $k$.
 2. So $Y(\widehat{1^k}) = k$, and the stopping condition $k < k$ fails for every $k$.
 3. Hence the equations give $\Phi(1^k) = H(1^k, \lambda x.\, \Phi(1^k * x)) = \Phi(1^{k + 1}) + 1$ for every $k$.
 4. By induction on $k$, $\Phi(\langle \rangle) = \Phi(1^k) + k \ge k$ for every $k$.
-5. No natural number $\Phi(\langle \rangle)$ is at least every $k$. So no $\Phi$ exists.
+5. No natural number is at least every $k$, so no $\Phi$ exists.
 
 ## Remarks
 
-The functional $Y$ is not [[continuous|0M4JJT780X]] at the sequence $\alpha = 1, 1, 1, \ldots$: $Y(\alpha) = 0$, while $Y(\widehat{1^k}) = k$ for sequences that agree with $\alpha$ on longer and longer segments.
-So this example does not meet the hypothesis under which bar recursion is well-founded.
+The functional $Y$ is not [[continuous|0M4JJT780X]] at the sequence $\alpha = 1, 1, 1, \ldots$.
+There $Y(\alpha) = 0$, while $Y(\widehat{1^k}) = k$ for sequences that agree with $\alpha$ on longer and longer segments.
+So the example does not meet the hypothesis under which bar recursion is well-founded.
+
 $Y$ is not computable, and no term of [[system T|A4WR995XZP]] defines it, since all such terms define continuous functionals.
 The full set-theoretic model contains $Y$, so it has no bar recursor for these types, and it is not a model of T + BR.
 
@@ -39,16 +42,15 @@ The full set-theoretic model contains $Y$, so it has no bar recursor for these t
 
 The judge $Y$ says "the list is long enough" only when the padded list has its first zero early enough.
 On the list of all ones, the first padding zero sits exactly at the end, so the judge always says "not yet".
-The recursion then runs forever along the ones, adding $1$ at each step.
+The recursion then runs forever along the ones, and it adds $1$ at each step.
 No finite value can be the result of an endless chain of additions.
 
 ### L2 human
 
 We check step 4 for small $k$.
-
-1. $\Phi(\langle \rangle) = \Phi(\langle 1 \rangle) + 1$.
-2. $\Phi(\langle 1 \rangle) = \Phi(\langle 1, 1 \rangle) + 1$, so $\Phi(\langle \rangle) = \Phi(\langle 1, 1 \rangle) + 2$.
-3. Each further step adds $1$, so $\Phi(\langle \rangle) \ge k$ for each $k$.
+For $k = 1$ the equations give $\Phi(\langle \rangle) = \Phi(\langle 1 \rangle) + 1$.
+For $k = 2$ they give $\Phi(\langle 1 \rangle) = \Phi(\langle 1, 1 \rangle) + 1$, so $\Phi(\langle \rangle) = \Phi(\langle 1, 1 \rangle) + 2$.
+Each further step adds $1$, so $\Phi(\langle \rangle) \ge k$ for each $k$.
 
 The typical use is to show why the full set-theoretic model is not a model of bar recursion.
-A trap is to think that bar recursion is defined for every type-2 functional; continuity is essential.
+Watch out: bar recursion is not defined for every functional of type $(\mathbb{N} \to \mathbb{N}) \to \mathbb{N}$, and continuity is essential.

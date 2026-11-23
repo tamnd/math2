@@ -18,7 +18,7 @@ sources:
 ## Summary
 
 Friedman's A-translation takes an intuitionistic proof that "a counterexample is impossible" and turns it into a proof that names an actual witness.
-It does this by replacing falsity $\bot$, everywhere in the proof, by the very statement we want to prove.
+It does this by adding the very statement we want to prove, as a disjunct, to falsity $\bot$ and to every other atom in the proof.
 
 Let $A$ be a formula of a first-order language with $\bot$.
 For a formula $B$ whose bound variables are not free in $A$, the *A-translation* $B^A$ is obtained from $B$ by replacing each atomic subformula $P$, including $\bot$, by $P \vee A$.
