@@ -29,6 +29,9 @@ The sub-area ends with questions, description logics and the logic of value, whe
 7. [[Epistemic logic|EA34W4ERRE]]: you learn knowledge as a box over indistinguishable worlds, and the introspection axioms of $\mathsf{S5}$.
 8. [[Common knowledge|7BCMKF2P7X]]: you learn common knowledge as reachability and as a greatest fixed point.
 9. [[Muddy children puzzle|BG9TYCJ7HP]]: you see why the father's public statement matters, and why the muddy children step forward in round $k$.
+
+### Reading order, continued
+
 10. [[Doxastic logic|RTP4HTZYK3]]: you learn belief as $\mathsf{KD45}$, and why a Moore sentence can be true but not believed.
 11. [[Dynamic epistemic logic|9465T2PWZT]]: you learn public announcements as model restriction, the reduction axioms, and action models for private events.
 12. [[Deontic logic|7B74J6J5JV]]: you learn obligation as the logic $\mathsf{KD}$, and the paradoxes of Ross and Chisholm.

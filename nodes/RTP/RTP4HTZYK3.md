@@ -107,7 +107,7 @@ It is true at $w$ in the first model, so it is satisfiable; what fails is believ
 ### History
 
 Hintikka's Knowledge and Belief (1962) treated belief alongside knowledge with possible worlds.
-G. E. Moore observed that "it is raining but I do not believe it" is absurd to assert though it may be true, and Wittgenstein gave the observation the name Moore's paradox.
+George Edward Moore observed that "it is raining but I do not believe it" is absurd to assert though it may be true, and Wittgenstein gave the observation the name Moore's paradox.
 $\mathsf{KD45}$ became the standard logic of belief in computer science and in game theory.
 
 ### Try it

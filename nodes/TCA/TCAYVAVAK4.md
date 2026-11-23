@@ -63,7 +63,7 @@ This is the step on which [[Fitch's paradox of knowability|HVCW7QYXSW]] turns.
 
 ## History
 
-G. E. Moore noted the absurdity of asserting "it is raining but I do not believe it", and Wittgenstein gave the observation the name Moore's paradox.
+George Edward Moore noted the absurdity of asserting "it is raining but I do not believe it", and Wittgenstein gave the observation the name Moore's paradox.
 Hintikka's Knowledge and Belief (1962) gave the analysis in doxastic logic: such sentences are consistent, but they cannot be consistently believed.
 
 ## Explanations
