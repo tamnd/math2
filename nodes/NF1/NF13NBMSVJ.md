@@ -21,7 +21,7 @@ In the rational numbers, the formula $\exists x \, (a < x \wedge x < b)$ asks wh
 If $a < b$, the midpoint $(a + b)/2$ works, and if $a \ge b$, no number can be above $a$ and below $b$.
 So the formula says exactly the same as a formula without quantifiers:
 $$\exists x \, (a < x \wedge x < b) \quad \text{is equivalent to} \quad a < b.$$
-Check: for $a = 1$, $b = 2$ both sides are true, with $x = 3/2$, and for $a = 2$, $b = 1$ both sides are false.
+Check: for $a = 1$, $b = 2$ both sides hold, with $x = 3/2$, and for $a = 2$, $b = 1$ both fail.
 Steps of this kind decide every sentence about dense orders.
 
 The signature is $\{ < \}$ with one binary relation symbol.
@@ -41,7 +41,7 @@ We check that $\mathrm{DLO}$ is a [[decidable theory|HWC687ES0Q]].
    For density, between $a < b$ lies $(a + b)/2$.
 3. $\mathrm{DLO}$ has no finite model.
    A finite nonempty linear order has a greatest element, which axiom 5 forbids.
-4. $\mathrm{DLO}$ is $\aleph_0$-categorical: by Cantor's back-and-forth argument, every countable model is isomorphic to $(\mathbb{Q}, <)$, as the page on [[dense linear orders|2W4S2H4VYA]] shows.
+4. $\mathrm{DLO}$ is $\aleph_0$-categorical: every countable model is isomorphic to $(\mathbb{Q}, <)$, by Cantor's theorem on [[dense linear orders|2W4S2H4VYA]].
 5. By the [[Łoś-Vaught test|ZR7Y5C235P]], steps 2 to 4 show that $\mathrm{DLO}$ is complete.
 6. By the theorem that [[a complete axiomatizable theory is decidable|HZ7A7B2ERA]], steps 1 and 5 show that $\mathrm{DLO}$ is decidable.
 
