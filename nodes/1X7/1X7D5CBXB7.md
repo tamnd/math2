@@ -31,11 +31,10 @@ If ${*}Z$ is an antecedent part, then $Z$ is a succedent part, and conversely.
 
 ### The display postulates
 
-The sign $\iff$ means that each sequent can be derived from the other in one step.
-The four groups D1 to D4 are the following:
+In the four groups D1 to D4 below, $\iff$ means that each sequent can be derived from the other in one step.
 $$\begin{aligned} &(\mathrm{D1}) && X \circ Y \vdash Z \iff X \vdash {*}Y \circ Z \iff Y \vdash {*}X \circ Z, \\ &(\mathrm{D2}) && X \vdash Y \circ Z \iff X \circ {*}Y \vdash Z \iff X \circ {*}Z \vdash Y, \\ &(\mathrm{D3}) && X \vdash Y \iff {*}Y \vdash {*}X \iff {*}{*}X \vdash Y \iff X \vdash {*}{*}Y, \\ &(\mathrm{D4}) && {\bullet}X \vdash Y \iff X \vdash {\bullet}Y. \end{aligned}$$
 The calculus $\mathrm{DK_t}$ has D1 to D4, the axioms $p \vdash p$, cut, the structural rules and a left and a right rule for each connective, all listed in the Remarks.
-In general, a *display calculus* is a sequent calculus on structures with structural connectives whose display postulates give the display property of the theorem in the Remarks.
+In general, a *display calculus* is one whose display postulates give the display property stated in the Remarks.
 
 ## Notation
 

@@ -30,20 +30,14 @@ A *contraction-free sequent calculus* is a sequent calculus in which contraction
 - L${\to}$: from $\Gamma \Rightarrow \Delta, A$ and $B, \Gamma \Rightarrow \Delta$ infer $A \to B, \Gamma \Rightarrow \Delta$.
 - R${\to}$: from $A, \Gamma \Rightarrow \Delta, B$ infer $\Gamma \Rightarrow \Delta, A \to B$.
 
-### The intuitionistic calculi G3ip and LJT
+### The intuitionistic calculus G3ip
 
-**The intuitionistic calculus G3ip.** Every succedent is one formula $C$.
+Every succedent of G3ip is one formula $C$.
 Its axioms are $p, \Gamma \Rightarrow p$ and $\bot, \Gamma \Rightarrow C$.
 Its rules L${\wedge}$, R${\wedge}$, L${\vee}$ and R${\to}$ are those of G3cp with $\Delta$ removed.
 Its rule R${\vee}$ infers $\Gamma \Rightarrow A_0 \vee A_1$ from $\Gamma \Rightarrow A_i$, for $i = 0$ or $i = 1$.
 Its rule L${\to}$ infers $A \to B, \Gamma \Rightarrow C$ from $A \to B, \Gamma \Rightarrow A$ and $B, \Gamma \Rightarrow C$.
-
-**Dyckhoff's calculus LJT.** It is G3ip with L${\to}$ replaced by four rules, where $E$ is one formula.
-
-1. L0${\to}$: from $p, B, \Gamma \Rightarrow E$ infer $p, p \to B, \Gamma \Rightarrow E$.
-2. L${\wedge}{\to}$: from $C \to (D \to B), \Gamma \Rightarrow E$ infer $(C \wedge D) \to B, \Gamma \Rightarrow E$.
-3. L${\vee}{\to}$: from $C \to B, D \to B, \Gamma \Rightarrow E$ infer $(C \vee D) \to B, \Gamma \Rightarrow E$.
-4. L${\to}{\to}$: from $D \to B, \Gamma \Rightarrow C \to D$ and $B, \Gamma \Rightarrow E$ infer $(C \to D) \to B, \Gamma \Rightarrow E$.
+A third calculus, Dyckhoff's LJT, changes only L${\to}$, and its rules are given in the Remarks.
 
 ## Notation
 
@@ -65,7 +59,16 @@ Each two-premise rule of G3cp copies the whole context into both premises.
 This shared context is what replaces contraction: for example L${\to}$ sends $\Delta$ to both premises, so a formula of $\Delta$ needed on both branches is there without a copy step.
 In G3ip, the left premise of L${\to}$ also repeats $A \to B$, because an intuitionistic proof may need the same implication again later.
 
+### Dyckhoff's calculus LJT
+
 LJT drops that repetition and splits $A \to B$ by the shape of $A$.
+It is G3ip with L${\to}$ replaced by four rules, where $E$ is one formula.
+
+1. L0${\to}$: from $p, B, \Gamma \Rightarrow E$ infer $p, p \to B, \Gamma \Rightarrow E$.
+2. L${\wedge}{\to}$: from $C \to (D \to B), \Gamma \Rightarrow E$ infer $(C \wedge D) \to B, \Gamma \Rightarrow E$.
+3. L${\vee}{\to}$: from $C \to B, D \to B, \Gamma \Rightarrow E$ infer $(C \vee D) \to B, \Gamma \Rightarrow E$.
+4. L${\to}{\to}$: from $D \to B, \Gamma \Rightarrow C \to D$ and $B, \Gamma \Rightarrow E$ infer $(C \to D) \to B, \Gamma \Rightarrow E$.
+
 Each premise of an LJT rule is smaller than its conclusion in a well-founded order on sequents, and LJT derives exactly the sequents that G3ip derives.
 
 ### A small case

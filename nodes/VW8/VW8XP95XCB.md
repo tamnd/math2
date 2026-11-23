@@ -17,8 +17,8 @@ sources:
 ## Definition
 
 A labeled sequent names the worlds of a Kripke model, as in $x : \Box p, x R y \Rightarrow y : p$.
-Formulas of the basic [[modal logic|C3RZY20ETK]] K are built from variables $p, q, \dots$ and $\bot$ with $\wedge$, $\vee$, $\to$, $\Box$ and $\Diamond$.
-Fix a countable set of *labels* $x, y, z, \dots$, which name worlds.
+Formulas of the [[modal logic|C3RZY20ETK]] K are built from variables $p, q, \dots$ and $\bot$ with $\wedge$, $\vee$, $\to$, $\Box$ and $\Diamond$.
+Fix a countable set of *labels* $x, y, z, \dots$.
 A *labeled formula* is an expression $x : A$, with a label $x$ and a formula $A$.
 A *relational atom* is an expression $x R y$, with labels $x$ and $y$.
 A *labeled sequent* is $\Gamma \Rightarrow \Delta$, where $\Gamma$ is a finite [[multiset|MYJ8Y050J0]] of labeled formulas and relational atoms, and $\Delta$ is a finite multiset of labeled formulas.
@@ -30,12 +30,11 @@ A *labeled sequent calculus* is a set of rules on labeled sequents.
 
 ### Negri's calculus G3K
 
-The initial sequents and propositional rules of G3K are those of the classical calculus G3c, applied at a single label.
-The modal rules are as follows, with arbitrary contexts $\Gamma$ and $\Delta$:
+The initial sequents and propositional rules of G3K are those of G3c, applied at a single label, and the modal rules are these.
 $$\dfrac{y : A, x : \Box A, x R y, \Gamma \Rightarrow \Delta}{x : \Box A, x R y, \Gamma \Rightarrow \Delta} \ ({\Box}\mathrm{L}) \qquad \dfrac{x R y, \Gamma \Rightarrow \Delta, y : A}{\Gamma \Rightarrow \Delta, x : \Box A} \ ({\Box}\mathrm{R})$$
 $$\dfrac{x R y, y : A, \Gamma \Rightarrow \Delta}{x : \Diamond A, \Gamma \Rightarrow \Delta} \ ({\Diamond}\mathrm{L}) \qquad \dfrac{x R y, \Gamma \Rightarrow \Delta, x : \Diamond A, y : A}{x R y, \Gamma \Rightarrow \Delta, x : \Diamond A} \ ({\Diamond}\mathrm{R})$$
 In ${\Box}$R and ${\Diamond}$L the label $y$ must not occur in the conclusion.
-For a set $S$ of geometric frame conditions, the calculus G3K$S$ adds their *geometric rules*, defined in the remarks below.
+For a set $S$ of geometric frame conditions, the calculus G3K$S$ adds their *geometric rules*, defined in the Remarks.
 
 ## Notation
 

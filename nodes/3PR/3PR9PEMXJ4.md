@@ -25,8 +25,7 @@ A *hypersequent* is a finite nonempty multiset of such sequents, written $\Gamma
 The sequents $\Gamma_i \Rightarrow \Pi_i$ are its *components*, and $\mid$ is the *hypersequent bar*.
 In a rule, $G$ is a hypersequent or empty, called the *side hypersequent*, and $G \mid S$ is $G$ with one more component $S$.
 
-A *hypersequent calculus* is a set of axioms and rules whose premises and conclusions are hypersequents.
-A *derivation* is a finite tree of hypersequents whose leaves are axioms and whose other nodes follow from the nodes directly above them by a rule.
+A *hypersequent calculus* is a set of axioms and rules on hypersequents, and a *derivation* is a finite tree of hypersequents built from axioms by rules.
 The *formula interpretation* of a sequent is $I(\Gamma \Rightarrow \Pi) = \bigwedge \Gamma \to \bigvee \Pi$, where the empty conjunction is $\bot \to \bot$ and the empty disjunction is $\bot$.
 The interpretation of a hypersequent is $I(S_1 \mid \cdots \mid S_n) = I(S_1) \vee \cdots \vee I(S_n)$.
 
@@ -34,11 +33,10 @@ The interpretation of a hypersequent is $I(S_1 \mid \cdots \mid S_n) = I(S_1) \v
 
 *Gödel-Dummett logic* LC is intuitionistic propositional logic with the extra axiom schema $(A \to B) \vee (B \to A)$.
 Avron's calculus HLC for LC has the axioms $A \Rightarrow A$ and $\bot \Rightarrow$.
-Its rules are the rules of [[LJ|PZX9J3VEMT]], each acting inside one component and copying $G$ unchanged, together with external weakening (EW) and external contraction (EC) on whole components.
+Its rules are those of [[LJ|PZX9J3VEMT]], each acting inside one component and copying $G$, with external weakening (EW) and external contraction (EC) on whole components.
 Its one extra rule is the *communication rule*:
 $$\dfrac{G \mid \Gamma_1, \Delta_1 \Rightarrow \Pi_1 \qquad G \mid \Gamma_2, \Delta_2 \Rightarrow \Pi_2}{G \mid \Gamma_1, \Gamma_2 \Rightarrow \Pi_1 \mid \Delta_1, \Delta_2 \Rightarrow \Pi_2} \ (\mathsf{com})$$
-The calculus HLJ is HLC without the communication rule.
-The Remarks list all rules.
+The calculus HLJ is HLC without (com), and the Remarks list all rules.
 
 ## Notation
 
