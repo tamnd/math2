@@ -66,7 +66,8 @@ Model checking a single sentence on a single finite graph is always decidable.
 
 A class of finite graphs closed under taking minors has a decidable MSO₂ theory if and only if it has bounded treewidth.
 One direction is this theorem.
-For the other, the graph minor theorem of Robertson and Seymour says that the class is defined by finitely many excluded minors, so one MSO₂ sentence defines it inside the graphs of treewidth at most $k$, whose theory is decidable by Courcelle's theorem.
+For the other, the graph minor theorem of Robertson and Seymour says that the class is defined by finitely many excluded minors.
+So one MSO₂ sentence defines it inside the graphs of treewidth at most $k$, and their theory is decidable by Courcelle's theorem.
 By the excluded grid theorem, a minor-closed class has bounded treewidth exactly when it omits some planar graph.
 
 The class of finite planar graphs has an undecidable MSO₂ theory, because it contains all finite grids.

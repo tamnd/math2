@@ -79,7 +79,7 @@ Part 2 with $T = \operatorname{Cn}(\emptyset)$ gives Church's theorem for every 
 ### Watch out
 
 Do not use a formula $\delta$ with parameters and then apply the theorem as stated without the generalization above.
-For example, in the field $\mathbb{Q}$ the formula $x = p$ with a parameter $p$ defines a single point, and its truth depends on the choice of $p$.
+With a parameter $p$, the formulas may define a model of $T_1$ only for some values of $p$, so $\varepsilon_I$ and $\alpha^I$ become formulas in $p$, and one must quantify $p$ as in the generalization.
 Also check $\varepsilon_I$: if $\delta(\mathcal{M})$ is not closed under the defined functions, $\mathcal{M}^I$ is not a structure at all.
 
 ### Try it
