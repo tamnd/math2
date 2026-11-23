@@ -16,21 +16,29 @@ sources:
 
 ## Example
 
-Let $L = \set{P}$ with one unary relation symbol $P$, and let $\sigma$ be the sentence $\forall x \, P(x) \to \exists x \, P(x)$.
+Let $L = \{P\}$ with one unary relation symbol $P$, and let $\sigma$ be the sentence $\forall x \, P(x) \to \exists x \, P(x)$.
 We show that $\sigma$ is [[valid|AMDZRKKT4J]].
 
-1. Let $\mathcal{M}$ be any $L$-structure and $s$ any assignment. Structures have nonempty domains, so $M$ has an element $a$.
+1. Let $\mathcal{M}$ be any $L$-structure and $s$ any assignment.
+   Structures have nonempty domains, so $M$ has an element $a$.
 2. If $\mathcal{M} \not\models \forall x \, P(x)[s]$, then the antecedent fails, and $\sigma$ holds by the clause for $\to$ of [[satisfaction|1WTCZB4DVB]].
-3. If $\mathcal{M} \models \forall x \, P(x)[s]$, then the variant $s[x \mapsto a]$ satisfies $P(x)$, by the clause for $\forall$. So $a \in P^{\mathcal{M}}$.
+3. If $\mathcal{M} \models \forall x \, P(x)[s]$, then the variant $s[x \mapsto a]$ satisfies $P(x)$, by the clause for $\forall$.
+   So $a \in P^{\mathcal{M}}$.
 4. By the clause for $\exists$ with the witness $a$, $\mathcal{M} \models \exists x \, P(x)[s]$, and $\sigma$ holds by the clause for $\to$.
-5. Both cases give $\mathcal{M} \models \sigma[s]$. Since $\mathcal{M}$ and $s$ were arbitrary, $\sigma$ is valid.
+5. Both cases give $\mathcal{M} \models \sigma[s]$.
+   Since $\mathcal{M}$ and $s$ were arbitrary, $\sigma$ is valid.
 
 ## Remarks
 
-The example shows a valid sentence that is not an instance of a propositional tautology: as propositional atoms, $\forall x \, P(x)$ and $\exists x \, P(x)$ are unrelated.
-The proof uses the nonempty domain in step 3.
-If the empty structure is allowed, then $\forall x \, P(x)$ is true there and $\exists x \, P(x)$ is false, so $\sigma$ fails; this is the setting of [[inclusive first-order logic|YXYF6JQXBT]].
-In Aristotle's syllogistic, the inference from "all $S$ are $P$" to "some $S$ is $P$" is the related principle of existential import; in first-order form, $\forall x \, (S(x) \to P(x)) \to \exists x \, (S(x) \wedge P(x))$ is not valid, because $S$ can be empty.
+The sentence is valid, but it is not an instance of a propositional tautology.
+As propositional atoms, $\forall x \, P(x)$ and $\exists x \, P(x)$ are unrelated, and the validity comes from the quantifiers.
+
+The proof uses the nonempty domain in step 3, and without it the sentence fails.
+In the empty structure, $\forall x \, P(x)$ is true, since there is nothing to check, and $\exists x \, P(x)$ is false, since there is no witness.
+So $\sigma$ is not valid in [[inclusive first-order logic|YXYF6JQXBT]], which allows the empty domain.
+
+In Aristotle's syllogistic, the inference from "all $S$ are $P$" to "some $S$ is $P$" is the related principle of existential import.
+Its first-order form $\forall x \, (S(x) \to P(x)) \to \exists x \, (S(x) \wedge P(x))$ is not valid, because $S$ can be empty.
 
 ## Explanations
 
@@ -41,10 +49,10 @@ That thing is red when everything is red.
 
 ### L2 human
 
-We check the sentence on the two structures with one element $0$.
+We check the sentence on the two structures with the one element $0$.
 
-1. If $P^{\mathcal{M}} = \set{0}$, then $\forall x \, P(x)$ and $\exists x \, P(x)$ are both true, so $\sigma$ is true.
+1. If $P^{\mathcal{M}} = \{0\}$, then $\forall x \, P(x)$ and $\exists x \, P(x)$ are both true, so $\sigma$ is true.
 2. If $P^{\mathcal{M}} = \emptyset$, then $\forall x \, P(x)$ is false, so $\sigma$ is true by the clause for $\to$.
 
 The typical use is as a first example of a valid sentence whose validity depends on the domain convention.
-A trap is to apply the same pattern to a relativized quantifier: "all unicorns are white" does not imply "some unicorn is white".
+Watch out: the pattern fails for a relativized quantifier, so "all unicorns are white" does not imply "some unicorn is white".

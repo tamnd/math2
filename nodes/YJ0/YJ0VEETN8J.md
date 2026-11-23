@@ -16,28 +16,27 @@ sources:
 
 ## Example
 
-Let $\mathcal{N} = (\N, <)$ be the [[structure|983GZBQYT4]] whose domain is the set $\N = \set{0, 1, 2, \ldots}$ of [[natural numbers|0MWKJ44V5A]] and whose binary relation is the usual strict order.
-Let $\varphi$ be the formula $\exists z \, (x < z \wedge z < y)$, with free variables $x$ and $y$.
+Let $\mathcal{N} = (\mathbb{N}, <)$ be the [[structure|983GZBQYT4]] whose domain is the set $\mathbb{N} = \{0, 1, 2, \ldots\}$ of [[natural numbers|0MWKJ44V5A]] and whose binary relation is the usual strict order.
+Let $\varphi$ be the formula $\exists z \, (x < z \wedge z < y)$, "some number lies strictly between $x$ and $y$", with free variables $x$ and $y$.
 Let $s$ be an assignment with $s(x) = 1$ and $s(y) = 3$.
-We show that $\mathcal{N} \models \varphi[s]$, by the clauses of [[satisfaction|1WTCZB4DVB]].
+We show that $\mathcal{N} \models \varphi[s]$ by the clauses of [[satisfaction|1WTCZB4DVB]].
 
-1. By the clause for $\exists z$, it is enough to find $a \in \N$ with $\mathcal{N} \models (x < z \wedge z < y)[s[z \mapsto a]]$.
-2. Take $a = 2$. The variant $s[z \mapsto 2]$ sends $x$ to $1$, $y$ to $3$ and $z$ to $2$.
-3. The atomic formula $x < z$ is satisfied under this variant, because $(1, 2) \in <^{\mathcal{N}}$.
-4. The atomic formula $z < y$ is satisfied under this variant, because $(2, 3) \in <^{\mathcal{N}}$.
+1. By the clause for $\exists z$, it is enough to find $a \in \mathbb{N}$ with $\mathcal{N} \models (x < z \wedge z < y)[s[z \mapsto a]]$.
+2. Take $a = 2$.
+   The variant $s[z \mapsto 2]$ sends $x$ to $1$, $y$ to $3$ and $z$ to $2$.
+3. The atomic formula $x < z$ is satisfied under this variant, because $(1, 2) \in {<^{\mathcal{N}}}$.
+4. The atomic formula $z < y$ is satisfied under this variant, because $(2, 3) \in {<^{\mathcal{N}}}$.
 5. By the clause for $\wedge$, the conjunction is satisfied under $s[z \mapsto 2]$.
 6. By step 1, $\mathcal{N} \models \varphi[s]$.
 
 ## Remarks
 
-The example shows that a formula with free variables is satisfied by some assignments and not by others.
-In general, $\mathcal{N} \models \varphi[s]$ holds exactly when $s(y) \geq s(x) + 2$, because the numbers strictly between $s(x)$ and $s(y)$ are $s(x) + 1, \ldots, s(y) - 1$.
+A formula with free variables is satisfied by some assignments and not by others.
+Here the exact answer is: $\mathcal{N} \models \varphi[s]$ holds if and only if $s(y) \geq s(x) + 2$, because the natural numbers strictly between $m$ and $n$ are $m + 1, \ldots, n - 1$, and this list is nonempty exactly when $n \geq m + 2$.
 
-The example changes as follows when one parameter changes.
-
-- With $s(x) = 1$ and $s(y) = 2$, no natural number lies strictly between $1$ and $2$, so $\varphi$ is not satisfied.
-- With the domain $\Q$ instead of $\N$, the formula is satisfied by every $s$ with $s(x) < s(y)$, with the witness $(s(x) + s(y))/2$.
-- The value $s(z)$ never matters, because $z$ is bound in $\varphi$.
+With $s(x) = 1$ and $s(y) = 2$, no natural number lies strictly between $1$ and $2$, so $\varphi$ is not satisfied.
+Over the domain $\mathbb{Q}$ instead of $\mathbb{N}$, the formula is satisfied by every $s$ with $s(x) < s(y)$, with the witness $(s(x) + s(y)) / 2$.
+The value $s(z)$ never matters, because $z$ is bound in $\varphi$.
 
 ## Explanations
 
@@ -51,11 +50,11 @@ So the same formula can be satisfied or not, depending on the values that we giv
 ### L2 human
 
 We find all assignments that satisfy $\varphi$ in $\mathcal{N}$.
-
-1. Let $m = s(x)$ and $n = s(y)$.
-2. If $n \geq m + 2$, the witness $z \mapsto m + 1$ works, because $m < m + 1$ and $m + 1 < n$.
-3. If $n \leq m + 1$, a witness $a$ would need $m < a < n \leq m + 1$, so $m < a < m + 1$. No natural number satisfies this.
-4. So $\mathcal{N} \models \varphi[s]$ if and only if $s(y) \geq s(x) + 2$.
+Let $m = s(x)$ and $n = s(y)$.
+If $n \geq m + 2$, the witness $z \mapsto m + 1$ works, because
+$$m < m + 1 \quad \text{and} \quad m + 1 < m + 2 \leq n.$$
+If $n \leq m + 1$, a witness $a$ would need $m < a < n \leq m + 1$, so $m < a < m + 1$, and no natural number does that.
+So $\mathcal{N} \models \varphi[s]$ if and only if $s(y) \geq s(x) + 2$.
 
 The typical use of this pattern is to define relations by formulas: $\varphi$ defines the set of pairs $(m, n)$ with $n \geq m + 2$.
-A trap is to give $z$ a value from $s$ and test only that value; the clause for $\exists z$ asks us to search over all values of $z$.
+Watch out: the clause for $\exists z$ asks for a search over all values of $z$, so testing only the value $s(z)$ is a mistake.
