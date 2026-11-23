@@ -49,7 +49,7 @@ That is why forcing and truth agree in it.
 
 ### L2 human
 
-We check the case $\varphi = \exists x \, (x \cdot x = 2)$ in the algebraic closure $K = \overline \Q$.
+We check the case $\varphi = \exists x \, (x \cdot x = 2)$ in the algebraic closure $K = \overline{\Q}$.
 
 1. $K$ contains $\sqrt 2$, so $K \models \varphi$.
 2. The atomic sentence $\sqrt 2 \cdot \sqrt 2 = 2$ is true in $K$, so $K \Vdash \varphi$ by the atomic and the existential clauses.
