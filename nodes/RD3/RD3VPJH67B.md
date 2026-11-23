@@ -15,21 +15,31 @@ sources:
 
 ## Example
 
+Adding a true sentence to Peano arithmetic gives a stronger theory that is still $\omega$-consistent.
 Let $T := \mathsf{PA} + \mathrm{Con}(\mathsf{PA})$, where $\mathrm{Con}(\mathsf{PA})$ is the [[consistency statement|4NBAX3VRQ7]] $\neg \mathrm{Prov}_{\mathsf{PA}}(\ulcorner 0 = S0 \urcorner)$.
 We show that $T$ is [[ω-consistent|4S29X1GTV4]].
 
-1. $\N$ is a model of $\mathsf{PA}$, as in [[Peano arithmetic is ω-consistent|5JKPMRAXZP]]. So $\mathsf{PA}$ does not prove $0 = S0$.
+1. The structure $\mathbb{N}$ is a model of $\mathsf{PA}$, as in [[Peano arithmetic is ω-consistent|5JKPMRAXZP]], so $\mathsf{PA}$ does not prove $0 = S0$.
 2. So no number codes a proof of $0 = S0$ in $\mathsf{PA}$.
-3. The formula $\mathrm{Prf}_{\mathsf{PA}}(y, x)$ defines the proof relation in $\N$. By step 2, $\N \models \neg \exists y \, \mathrm{Prf}_{\mathsf{PA}}(y, \ulcorner 0 = S0 \urcorner)$, that is, $\N \models \mathrm{Con}(\mathsf{PA})$.
-4. By steps 1 and 3, $\N$ is a model of $T$.
-5. A theory with $\N$ as a model is $\omega$-consistent: a proved $\exists x \, \varphi(x)$ has a witness $m$ in $\N$, and the false sentence $\neg \varphi(\underline{m})$ is not provable.
+3. The formula $\mathrm{Prf}_{\mathsf{PA}}(y, x)$ defines the proof relation in $\mathbb{N}$.
+   By step 2, $\mathbb{N} \models \neg \exists y \, \mathrm{Prf}_{\mathsf{PA}}(y, \ulcorner 0 = S0 \urcorner)$, that is, $\mathbb{N} \models \mathrm{Con}(\mathsf{PA})$.
+4. By steps 1 and 3, $\mathbb{N}$ is a model of $T$.
+5. A theory with $\mathbb{N}$ as a model is $\omega$-consistent.
+   If it proves $\exists x \, \varphi(x)$, there is a witness $m$ in $\mathbb{N}$, and then the false sentence $\neg \varphi(\underline{m})$ is not provable.
 
 ## Remarks
 
-The theory $T$ is stronger than $\mathsf{PA}$, since $\mathsf{PA} \nvdash \mathrm{Con}(\mathsf{PA})$, but it keeps $\omega$-consistency because its new axiom is true.
-The theory $\mathsf{PA} + \neg \mathrm{Con}(\mathsf{PA})$ is also consistent, but it is not $\omega$-consistent, see [[this example|FK06QR6A44]].
-So between the two consistent extensions by $\mathrm{Con}(\mathsf{PA})$ and by its negation, $\omega$-consistency selects the true one.
-Iterating gives $\mathsf{PA} + \mathrm{Con}(\mathsf{PA}) + \mathrm{Con}(\mathsf{PA} + \mathrm{Con}(\mathsf{PA}))$ and so on, all true in $\N$; these are the first steps of a [[Turing progression|F7Z4BV2KHD]].
+The theory $T$ is stronger than $\mathsf{PA}$, since $\mathsf{PA} \nvdash \mathrm{Con}(\mathsf{PA})$ by the second incompleteness theorem.
+It keeps $\omega$-consistency because its new axiom is true.
+
+Flip the new axiom and the result changes.
+The theory $\mathsf{PA} + \neg \mathrm{Con}(\mathsf{PA})$ is also consistent, but [[it is not ω-consistent|FK06QR6A44]].
+So of the two consistent extensions, by $\mathrm{Con}(\mathsf{PA})$ and by its negation, $\omega$-consistency picks out the true one.
+Consistency alone cannot tell them apart.
+
+The step can be repeated.
+The theories $\mathsf{PA} + \mathrm{Con}(\mathsf{PA})$, then that theory plus its own consistency statement, and so on, are all true in $\mathbb{N}$.
+These are the first stages of a [[Turing progression|F7Z4BV2KHD]].
 
 ## Explanations
 
@@ -37,14 +47,13 @@ Iterating gives $\mathsf{PA} + \mathrm{Con}(\mathsf{PA}) + \mathrm{Con}(\mathsf{
 
 The sentence "Peano arithmetic never proves $0 = 1$" is true.
 Adding a true sentence to true axioms gives true axioms.
-True axioms never claim the existence of a number and then rule out every number.
+True axioms never claim that some number exists and then rule out every number.
 So the larger theory is still $\omega$-consistent.
 
 ### L2 human
 
-1. Check that the new axiom is true in $\N$.
-2. Conclude that $\N$ is a model of the larger theory.
-3. Use the general fact that theories true in $\N$ are $\omega$-consistent.
-
-The typical use is to see that the second incompleteness theorem gives true unprovable sentences.
-A trap: the truth of $\mathrm{Con}(\mathsf{PA})$ depends on the consistency of $\mathsf{PA}$, which we know from the model $\N$ and not from a proof in $\mathsf{PA}$.
+The proof has three moves, and each is worth naming.
+First we check that the new axiom is true in $\mathbb{N}$, which needed the consistency of $\mathsf{PA}$.
+Then we conclude that $\mathbb{N}$ is a model of the larger theory.
+Last we use the general fact that theories true in $\mathbb{N}$ are $\omega$-consistent.
+Watch out: the truth of $\mathrm{Con}(\mathsf{PA})$ comes from the model $\mathbb{N}$, an argument outside $\mathsf{PA}$, and not from a proof in $\mathsf{PA}$.
