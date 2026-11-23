@@ -32,9 +32,13 @@ The size is $4 + 2 + 1 = 7$ monomials.
 
 ## Remarks
 
+### Why degree 2 is needed
+
 The degree $2$ is the least possible.
 In a refutation of degree $1$, the product $g_1 f_1$ must be $0$, because $f_1$ has degree $2$, and every $h_j (x_j^2 - x_j)$ must be $0$ for the same reason.
 Then $g_2$ and $g_3$ are constants $b, c$, and $b x + c y = 1$ has no solution, since the constant term of the left side is $0$.
+
+### The link with resolution
 
 The certificate does not use the Boolean axioms.
 It follows the [[resolution refutation|6JSH907W5R]] that resolves $x \vee y$ with $\neg x$ to get $y$, and then $y$ with $\neg y$.

@@ -75,7 +75,7 @@ So constant width gives polynomial size, but width of order $\log n$ gives only 
 ### Watch out
 
 The general bound gives nothing until the width passes about $\sqrt{n}$.
-For example, with $n = 10^4$ variables, $w(F) = 3$ and refutation width $50$, the exponent is $46^2/(8 \cdot 10^4) \approx 0.26$, so the bound is $S \ge 1.3$.
+For example, with $n = 10^4$ variables, $w(F) = 3$ and refutation width $50$, the exponent is $46^2/(8 \cdot 10^4) \approx 0.026$, so the bound is $S \ge 1.02$.
 The tree-like bound for the same numbers is $2^{47}$.
 So a width bound of order $\sqrt n$ or less proves a lot for tree-like resolution and almost nothing for general resolution.
 
