@@ -18,37 +18,43 @@ sources:
 
 ## Example
 
-Let $X = \set{a, b, c}$ and $\mathcal{O} = \set{\emptyset, \set{a, b}, \set{b, c}, X}$.
-For $A \subseteq X$, let $I(A)$ be the union of the members of $\mathcal{O}$ contained in $A$.
-We show that reading $\square$ as $I$ is not an instance of [[topological semantics|HWJXMBNHQ0]], and that it refutes a theorem of $\mathsf{K}$.
+Let $X = \{a, b, c\}$ and $\mathcal{O} = \{ \emptyset, \{a, b\}, \{b, c\}, X \}$.
+For $A \subseteq X$, let $I(A)$ be the union of the members of $\mathcal{O}$ that are contained in $A$, and read $\square$ as $I$.
+We show that this is not an instance of [[topological semantics|HWJXMBNHQ0]], and that it refutes a theorem of $\mathsf{K}$.
 
-1. $\mathcal{O}$ is not a [[topology|0CQHFPGJ45]]: $\set{a, b} \cap \set{b, c} = \set{b}$ is not in $\mathcal{O}$.
-2. Let $V(p) = \set{a, b}$ and $V(q) = \set{b, c}$. Then $I(V(p)) = \set{a, b}$ and $I(V(q)) = \set{b, c}$.
-3. $V(p \wedge q) = \set{b}$, and no nonempty member of $\mathcal{O}$ lies inside $\set{b}$. So $I(V(p \wedge q)) = \emptyset$.
+1. The family $\mathcal{O}$ is not a [[topology|0CQHFPGJ45]], because $\{a, b\} \cap \{b, c\} = \{b\}$ is not in $\mathcal{O}$.
+2. Let $V(p) = \{a, b\}$ and $V(q) = \{b, c\}$.
+   Both sets are members of $\mathcal{O}$, so $I(V(p)) = \{a, b\}$ and $I(V(q)) = \{b, c\}$.
+3. The conjunction has $V(p \wedge q) = \{b\}$, and the only member of $\mathcal{O}$ inside $\{b\}$ is $\emptyset$.
+   So $I(V(p \wedge q)) = \emptyset$.
 4. At $b$, the formulas $\square p$ and $\square q$ are true, and $\square(p \wedge q)$ is false.
-5. So $\square p \wedge \square q \to \square(p \wedge q)$ fails at $b$. This formula is a theorem of $\mathsf{K}$, derived from the axiom $\square(p \to q) \to (\square p \to \square q)$ and necessitation of $p \to (q \to p \wedge q)$.
+5. So $\square p \wedge \square q \to \square(p \wedge q)$ fails at $b$.
+   This formula is a theorem of $\mathsf{K}$: apply necessitation to $p \to (q \to p \wedge q)$, then the axiom $\mathrm{K}$ twice.
 
 ## Remarks
 
-The example shows that closure of the open sets under finite intersections is what makes $\square$ distribute over $\wedge$.
-The operator $I$ still satisfies $I(A) \subseteq A$ and $I(I(A)) = I(A)$, so the axioms $\square p \to p$ and $\square p \to \square \square p$ hold.
-If $\set{b}$ is added to $\mathcal{O}$, the family becomes a topology, and the formula of step 5 holds at every point.
-Structures of this kind are monotone neighbourhood frames, which are models of non-normal modal logics.
+Closure of the open sets under finite intersections is exactly what makes $\square$ distribute over $\wedge$.
+The operator $I$ keeps the other two properties of an interior.
+It shrinks sets, $I(A) \subseteq A$, and it is idempotent, since $\mathcal{O}$ is closed under unions, so $I(A)$ is itself a member of $\mathcal{O}$.
+Hence $\square p \to p$ and $\square p \to \square \square p$ still hold, and only the axiom $\mathrm{K}$ breaks.
+
+If we add $\{b\}$ to $\mathcal{O}$, the family becomes a topology, and the formula of step 5 holds at every point.
+Structures of this kind are monotone frames of [[neighborhood semantics|CN7HK9K1B6]], which model the non-normal modal logics.
 
 ## Explanations
 
 ### L1 human
 
-Here only some regions count as "neighbourhoods".
-The point $b$ lies inside a neighbourhood where $p$ holds and inside one where $q$ holds.
-But no neighbourhood of $b$ has both $p$ and $q$, because the overlap of the two neighbourhoods is missing from the list.
+Here only some regions count as neighborhoods.
+The point $b$ lies inside a neighborhood where $p$ holds and inside one where $q$ holds.
+But no neighborhood of $b$ has both $p$ and $q$, because the overlap of the two neighborhoods is missing from the list.
 
 ### L2 human
 
-1. List the subsets of $\set{b}$: these are $\emptyset$ and $\set{b}$.
-2. Only $\emptyset$ is in $\mathcal{O}$, so $I(\set{b}) = \emptyset$.
-3. Compare $I(\set{a, b}) \cap I(\set{b, c}) = \set{b}$.
-4. So $I$ does not preserve intersections, and the semantics breaks the law "if both are necessary, so is their conjunction".
-
+We compute the failure as an equation of sets.
+The subsets of $\{b\}$ are $\emptyset$ and $\{b\}$, and only $\emptyset$ belongs to $\mathcal{O}$, so $I(\{b\}) = \emptyset$.
+The two boxes separately give a larger set:
+$$I(\{a, b\}) \cap I(\{b, c\}) = \{a, b\} \cap \{b, c\} = \{b\} \neq \emptyset = I(\{a, b\} \cap \{b, c\}).$$
+So $I$ does not preserve intersections, and the law "if both are necessary, so is their conjunction" fails.
 The typical use of such families is to separate normal from non-normal modal logics.
-A trap: checking only $\square p \to p$ and $\square p \to \square \square p$ is not enough to recognize an interior operator.
+Watch out: checking $\square p \to p$ and $\square p \to \square \square p$ is not enough to recognize an interior operator.

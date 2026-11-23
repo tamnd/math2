@@ -11,7 +11,7 @@ about: [X27BR4YP2Y, C3RZY20ETK]
 proofs: [Y79T9EYZ2G]
 history:
   first_stated: "Hennessy and Milner, 1980, On observing nondeterminism and concurrency (ICALP)"
-  notes: "Journal version: Algebraic laws for nondeterminism and concurrency, Journal of the ACM, 1985. Stated for labelled transition systems and Hennessy-Milner logic."
+  notes: "Journal version: Algebraic laws for nondeterminism and concurrency, Journal of the ACM, 1985. Stated for labeled transition systems and Hennessy-Milner logic."
 sources:
   - url: https://en.wikipedia.org/wiki/Hennessy%E2%80%93Milner_logic
     locator: lead section
@@ -23,88 +23,95 @@ sources:
 
 ## Statement
 
+Let $w$ have two successors, $v_1$ with $p$ true and $v_2$ with $q$ true, and let $w'$ have one successor $v'$ with only $p$ true.
+Spoiler's move from $w$ to $v_2$ has no good answer, because $v'$ fails $q$, and that failure turns into the formula $\lozenge q$, true at $w$ and false at $w'$.
+The Hennessy-Milner theorem says that this always happens when each world has finitely many successors: if no formula separates two worlds, they are bisimilar.
+
 Let $\mathfrak{M} = (W, R, V)$ and $\mathfrak{M}' = (W', R', V')$ be Kripke models, as in [[Kripke semantics|NGHWZ9Y7ZV]].
 Write $w \equiv w'$ when $\mathfrak{M}, w$ and $\mathfrak{M}', w'$ satisfy the same basic modal formulas.
+A model is *image-finite* if every world has only finitely many successors.
+A model is *modally saturated* (m-saturated) if, for every world $w$ and every set $\Sigma$ of modal formulas, the following holds: if every finite subset of $\Sigma$ is true at some successor of $w$, then all of $\Sigma$ is true at some successor of $w$.
 
-A model is *image-finite* if every world has only finitely many $R$-successors.
-A model is *modally saturated* (m-saturated) if, for every world $w$ and every set $\Sigma$ of modal formulas, the following holds.
-If every finite subset of $\Sigma$ is true at some successor of $w$, then all of $\Sigma$ is true at some successor of $w$.
+1. If $\mathfrak{M}$ and $\mathfrak{M}'$ are image-finite, then for all $w \in W$ and $w' \in W'$, $w \equiv w'$ if and only if $w \mathrel{\underline{\leftrightarrow}} w'$.
+2. If $\mathfrak{M}$ and $\mathfrak{M}'$ are m-saturated, then for all $w \in W$ and $w' \in W'$, $w \equiv w'$ if and only if $w \mathrel{\underline{\leftrightarrow}} w'$.
 
-1. If $\mathfrak{M}$ and $\mathfrak{M}'$ are image-finite, then for all $w \in W$ and $w' \in W'$: $w \equiv w'$ if and only if $w \mathrel{\underline{\leftrightarrow}} w'$.
-2. If $\mathfrak{M}$ and $\mathfrak{M}'$ are m-saturated, then for all $w \in W$ and $w' \in W'$: $w \equiv w'$ if and only if $w \mathrel{\underline{\leftrightarrow}} w'$.
-
-In both cases the relation $\equiv$ itself is a [[bisimulation|7T740SFHHV]] when it is nonempty.
-The direction from bisimilarity to $\equiv$ is [[bisimulation invariance|TKFFTAX30E]] and holds for all models.
-The proof is in [[the proof of the Hennessy-Milner theorem|Y79T9EYZ2G]].
+In both cases the relation $\equiv$ is itself a [[bisimulation|7T740SFHHV]] when it is nonempty.
+The direction from bisimilarity to $\equiv$ is [[bisimulation invariance|TKFFTAX30E]], which holds for all models.
 
 ## Remarks
 
-### Why each hypothesis is needed
+### Why image-finiteness is needed
 
-Image-finiteness cannot be dropped in item 1.
-Let all variables be false everywhere.
-Let $\mathfrak{M}$ have a root $r$ and, for each $n \geq 1$, a path $r R a^n_1 R a^n_2 R \cdots R a^n_n$, with all these worlds distinct.
-Let $\mathfrak{M}'$ have a root $r'$ with the same paths $r' R' b^n_1 R' \cdots R' b^n_n$, and one more path $r' R' c_1 R' c_2 R' c_3 \cdots$ that never ends.
-Let $h(x) \in \N \cup \set{\infty}$ be the supremum of the lengths of the paths that start at $x$.
+Without image-finiteness, two worlds can agree on every formula and still fail to be bisimilar.
+Let every variable be false everywhere.
+Let $\mathfrak{M}$ have a root $r$ and, for each $n \geq 1$, a path $r R a^n_1 R a^n_2 R \cdots R a^n_n$, all these worlds distinct.
+Let $\mathfrak{M}'$ have a root $r'$ with the same paths $r' R' b^n_1 R' \cdots R' b^n_n$, plus one path $r' R' c_1 R' c_2 R' c_3 \cdots$ that never ends.
+Let $h(x) \in \mathbb{N} \cup \{\infty\}$ be the supremum of the lengths of paths that start at $x$.
 So $h(a^n_k) = h(b^n_k) = n - k$, and $h(c_k) = \infty$.
 
-1. Claim: two worlds $x$, $y$ other than $r$, $r'$ with $\min(h(x), d) = \min(h(y), d)$ agree on all formulas of modal depth at most $d$. We prove it by induction on $d$.
-2. For $d = 0$, the formulas are Boolean combinations of variables and $\bot$, and all variables are false everywhere.
-3. For $d + 1$, let $m = \min(h(x), d+1) = \min(h(y), d+1)$. If $m = 0$, neither world has a successor, so every formula $\lozenge \psi$ is false at both.
-4. If $m \geq 1$, then $x$ and $y$ have unique successors $x'$, $y'$, and $\min(h(x'), d) = \min(h(y'), d) = m - 1$ if $m \leq d$, and $= d$ if $m = d+1$.
-5. By induction, $x'$ and $y'$ agree on formulas of depth at most $d$, so $x$ and $y$ agree on every $\lozenge \psi$ with $\psi$ of depth at most $d$, and so on all formulas of depth at most $d+1$.
-6. The roots: the successors of $r$ have the values $h = 0, 1, 2, \ldots$, and the successors of $r'$ have the same values and $\infty$. The successor $c_1$ of $r'$ is matched by $a^{d+1}_1$, since $\min(h(a^{d+1}_1), d) = d = \min(h(c_1), d)$. By step 1, $r$ and $r'$ agree on all formulas of depth at most $d+1$, for every $d$. So $r \equiv r'$.
-7. A world $x$ with $h(x)$ finite is not bisimilar to any $c_k$, by induction on $h(x)$. If $h(x) = 0$, the move $c_k R' c_{k+1}$ has no answer. If $h(x) = j + 1$, an answer $x'$ to $c_k R' c_{k+1}$ has $h(x') \leq j$, and $x'$ is not bisimilar to $c_{k+1}$ by induction.
-8. A bisimulation with $r Z r'$ would answer $r' R' c_1$ by some $r R a^n_1$ with $a^n_1 Z c_1$, against step 7. So $r$ and $r'$ are not bisimilar.
+First, the roots agree on all formulas.
+By induction on $d$, two non-root worlds $x$, $y$ with $\min(h(x), d) = \min(h(y), d)$ agree on all formulas of depth at most $d$.
+For $d = 0$ there is nothing to check, since all variables are false.
+For the step, either both worlds have no successor, or both have a unique successor, and the successors satisfy the same condition for $d$.
+At the roots, each successor $b^n_1$ of $r'$ is matched by $a^n_1$, and $c_1$ is matched, up to depth $d$, by $a^{d+1}_1$.
+So $r$ and $r'$ agree on formulas of every depth, and $r \equiv r'$.
 
-In item 2, saturation cannot be dropped for the same reason: $\mathfrak{M}$ is not m-saturated at $r$, for $\Sigma = \set{\square^n \lozenge \top : n \in \N}$.
+### Why image-finiteness is needed, continued
 
-### Consequences
+Second, the roots are not bisimilar.
+A world $x$ with $h(x)$ finite is never bisimilar to any $c_k$, by induction on $h(x)$.
+If $h(x) = 0$, the move $c_k R' c_{k+1}$ has no answer.
+If $h(x) = j + 1$, any answer $x'$ has $h(x') \leq j$, and $x'$ is not bisimilar to $c_{k+1}$ by induction.
+So a bisimulation containing $(r, r')$ would have to answer $r' R' c_1$ with some $a^n_1$ bisimilar to $c_1$, which is impossible.
 
-1. On finite models, modal equivalence and bisimilarity coincide. So the largest bisimulation of a finite model can be computed by partition refinement, and two finite models can be compared in polynomial time.
-2. Every image-finite model can be reduced modulo $\equiv$ to its bisimulation contraction, with the same modal theory at each world.
-3. The theorem is used in the proof of the [[van Benthem characterization theorem|Y89MGMWE4H]], in its m-saturated form.
+In item 2, saturation cannot be dropped, for the same reason.
+At $r$, every finite part of $\Sigma = \{\square^n \lozenge \top : n \in \mathbb{N}\}$ holds at a successor $a^n_1$ with $n$ large, but no successor satisfies all of $\Sigma$, so $\mathfrak{M}$ is not m-saturated.
 
-### Converse
+### What it gives you
 
-Item 1 is an equivalence, and its converse direction is the invariance theorem, true for all models.
-The hypothesis is not necessary: the infinite model with a root and infinitely many successors without atoms and without successors is not image-finite, and $\equiv$ is still a bisimulation on it.
+On finite models, modal equivalence and bisimilarity coincide.
+So the largest bisimulation of a finite model can be computed by partition refinement, and two finite models can be compared in polynomial time.
+Every image-finite model can be shrunk to its bisimulation contraction, the quotient by $\equiv$, without changing the theory of any world.
+The m-saturated form is the step that the [[van Benthem characterization theorem|Y89MGMWE4H]] needs.
+
+### The converse
+
+Image-finiteness is sufficient, not necessary.
+A root with infinitely many successors, none of which has a successor or a true atom, is not image-finite, and there $\equiv$ is still a bisimulation.
 
 ### Generalizations
 
-1. For labelled transition systems with one relation for each action, the theorem holds for Hennessy-Milner logic, with one modality $\langle a \rangle$ for each action $a$.
-2. Without image-finiteness, $\equiv$ for the infinitary modal language with arbitrary conjunctions coincides with bisimilarity on all models.
-3. The m-saturated version holds in particular for $\omega$-saturated first-order structures, read as Kripke models.
+For labeled transition systems the theorem holds for Hennessy-Milner logic, with one modality $\langle a \rangle$ for each action $a$.
+Without any finiteness condition, modal equivalence in the infinitary language with arbitrary conjunctions coincides with bisimilarity on all models.
+The m-saturated version applies in particular to $\omega$-saturated first-order structures read as Kripke models.
 
 ## History
 
-Matthew Hennessy and Robin Milner proved the theorem for labelled transition systems and the logic now called Hennessy-Milner logic, in a paper at ICALP 1980.
+Matthew Hennessy and Robin Milner proved the theorem for labeled transition systems and the logic now called Hennessy-Milner logic, in a paper at ICALP 1980.
 The journal version appeared in the Journal of the ACM in 1985.
 
 ## Explanations
 
 ### L1 human
 
-Two machines that offer only finitely many choices at each step are compared by tests.
-A test asks a finite question such as "can one do a step and then two different things".
+Compare two machines that offer only finitely many choices at each step, using tests.
+A test is a finite question such as "can you take a step and then do two different things".
 The theorem says that two such machines pass the same tests exactly when each can copy the other step by step forever.
-For example, a machine that can always do one more step passes the same tests as a pair of states that alternate.
+If one machine can do something the other cannot copy, some finite test catches it.
 
 ### L2 human
 
-We find a separating formula from a failed bisimulation.
-
-1. Let $w$ have successors $v_1$, $v_2$, with $p$ true at $v_1$ and $q$ true at $v_2$ only.
-2. Let $w'$ have one successor $v'$, with $p$ true at $v'$ only.
-3. Spoiler plays $w R v_2$. The only answer is $v'$, and $v_2$, $v'$ differ on $q$.
-4. The proof of the theorem gives $\psi_1 = q$, true at $v_2$ and false at $v'$.
-5. Then $\lozenge q$ is true at $w$ and false at $w'$, so $w \not\equiv w'$.
-
-The typical use is to prove that two finite systems are not equivalent, by a formula that a model checker can test.
-A trap: two worlds of infinite branching can agree on all formulas and still fail to be bisimilar, as the example in the Remarks shows.
+Let us extract a separating formula from a failed copy, for the worlds $w$ and $w'$ of the opening.
+Spoiler plays $w R v_2$, and the only answer is $v'$.
+The worlds $v_2$ and $v'$ differ on $q$, so $\psi = q$ is true at $v_2$ and false at every successor of $w'$.
+Then
+$$\mathfrak{M}, w \models \lozenge q \qquad \text{and} \qquad \mathfrak{M}', w' \not\models \lozenge q.$$
+If $w'$ had several successors $v'_1, \ldots, v'_n$, we would pick a formula $\psi_i$ true at $v_2$ and false at $v'_i$, and use $\lozenge(\psi_1 \wedge \cdots \wedge \psi_n)$.
+This is the typical use: a model checker can test the formula, and it certifies that two finite systems differ.
+Watch out: the conjunction must be finite, and that is exactly where image-finiteness enters, as the counterexample in the Remarks shows.
 
 ### L3 human
 
-The theorem says that the modal language is expressive enough to describe bisimilarity on image-finite structures, a form of completeness of the logic for the equivalence.
-In first-order model theory the analogue is that elementary equivalence is the same as isomorphism for finite structures, and the role of m-saturation is played by $\omega$-saturation.
-The theorem is the base of the [[van Benthem characterization theorem|Y89MGMWE4H]], and of the use of modal logics as specification languages in process theory and [[model checking|VNY0VXVZ53]].
+The theorem says that the modal language is strong enough to describe bisimilarity on image-finite structures.
+In first-order model theory, the analogue is that elementary equivalence implies isomorphism for finite structures, with $\omega$-saturation playing the role of m-saturation.
+The theorem is a base step for the [[van Benthem characterization theorem|Y89MGMWE4H]], and for the use of modal logics as specification languages in process theory and [[model checking|VNY0VXVZ53]].

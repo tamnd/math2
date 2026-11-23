@@ -10,7 +10,7 @@ uses: [NGHWZ9Y7ZV, 6W9MEGN982, F5WN5GCAEQ, C3RZY20ETK]
 about: [C3RZY20ETK, NGHWZ9Y7ZV]
 proofs: [XJR2Z2PY92]
 history:
-  first_stated: "Thomason and Fine, 1974, first Kripke incomplete logics"
+  first_stated: "Thomason 1972 (tense logic) and 1974, Fine 1974, first Kripke incomplete logics"
   notes: "The logic KvB below is van Benthem's example."
 sources:
   - url: https://en.wikipedia.org/wiki/Kripke_semantics
@@ -21,49 +21,70 @@ sources:
 
 ## Statement
 
-A normal modal logic $L$ is *Kripke complete* if there is a class $\mathsf{C}$ of Kripke frames such that $L$ is the set of formulas valid on every frame of $\mathsf{C}$.
-Equivalently, every formula that is valid on all [[Kripke frames|NGHWZ9Y7ZV]] of $L$ is a theorem of $L$.
-A logic that is not Kripke complete is *Kripke incomplete*.
+Some normal modal logics cannot be captured by any class of Kripke frames, and the van Benthem formula gives a short example.
+On Kripke frames, the formula
+$$\mathrm{vB} = \square \lozenge \top \to \square(\square(\square p \to p) \to p)$$
+says exactly what the variable-free formula $\square \lozenge \top \to \square \bot$ says, yet the logic of $\mathrm{vB}$ cannot prove that formula.
 
-Let $\mathrm{vB}$ be the formula $\square \lozenge \top \to \square(\square(\square p \to p) \to p)$, and let $\mathsf{KvB}$ be the smallest normal modal logic that contains $\mathrm{vB}$.
+A normal modal logic $L$ is *Kripke complete* if there is a class $\mathsf{C}$ of [[Kripke frames|NGHWZ9Y7ZV]] such that $L$ is the set of formulas valid on every frame of $\mathsf{C}$.
+Equivalently, every formula valid on all Kripke frames of $L$ is a theorem of $L$.
+A logic that is not Kripke complete is *Kripke incomplete*.
+Let $\mathsf{KvB}$ be the smallest normal modal logic that contains $\mathrm{vB}$, and let $\mathrm{E}$ be $\square \lozenge \top \to \square \bot$.
 
 **Theorem.**
 
-1. A Kripke frame validates $\mathrm{vB}$ if and only if it validates $\square \lozenge \top \to \square \bot$.
-2. The formula $\square \lozenge \top \to \square \bot$ is not a theorem of $\mathsf{KvB}$.
-3. So $\mathsf{KvB}$ is Kripke incomplete. In particular, not every normal modal logic is Kripke complete.
+1. A Kripke frame validates $\mathrm{vB}$ if and only if it validates $\mathrm{E}$.
+2. The formula $\mathrm{E}$ is not a theorem of $\mathsf{KvB}$.
+3. So $\mathsf{KvB}$ is Kripke incomplete, and not every normal modal logic is Kripke complete.
 
-The proof is in [[the proof of Kripke incompleteness|XJR2Z2PY92]]; it uses a [[general frame|6W9MEGN982]] for item 2.
+The [[proof|XJR2Z2PY92]] uses a [[general frame|6W9MEGN982]] for item 2.
 
 ## Remarks
 
+### Why the formula collapses on frames
+
+Take any world $y$ of any Kripke frame, and make $p$ true everywhere except at $y$.
+Then $p$ fails at $y$, while every successor $z$ of $y$ satisfies $\square p \to p$.
+If $z \ne y$, the reason is that $p$ holds at $z$.
+If $z = y$, the reason is that $y$ sees a world without $p$, so $\square p$ fails at $y$.
+So $\square(\square p \to p) \to p$ fails at $y$, and $\square(\square(\square p \to p) \to p)$ can hold at $x$ under every valuation only if $x$ has no successors.
+That turns $\mathrm{vB}$ into $\mathrm{E}$ on every frame.
+
 ### Why each hypothesis is needed
 
-1. The theorem is about Kripke frames. Every normal modal logic is complete for the class of its general frames, and even for its descriptive frames, so the phenomenon disappears in general frame semantics.
-2. The antecedent $\square \lozenge \top$ of $\mathrm{vB}$ matters. Without it, the formula $\square(\square(\square p \to p) \to p)$ is valid only on Kripke frames without arrows, by the argument in the L2 explanation.
+The theorem is about Kripke frames only.
+Every normal modal logic is complete for its general frames, and even for its descriptive frames, so incompleteness disappears in general frame semantics.
+The antecedent $\square \lozenge \top$ also matters.
+Without it, the formula $\square(\square(\square p \to p) \to p)$ is valid only on frames with no arrows, by the argument above.
+The antecedent restricts the claim to worlds whose successors all have successors, and the general frame in the proof has such a world.
 
-### Consequences
+### What it gives you
 
-1. Frame validity does not determine a logic: $\mathsf{KvB}$ and $\mathsf{KvB} \oplus (\square \lozenge \top \to \square \bot)$ are distinct logics with the same Kripke frames.
-2. Completeness theorems for modal logics are real theorems: each needs a proof, by [[canonical models|TVE4F04KME]], [[filtration|6ZZSHAKG5F]] or another method.
-3. Kripke frames give a weaker semantics than modal algebras. Every normal modal logic is the logic of its modal algebras, and the algebras of Kripke frames are the complete and atomic ones with a completely additive operator.
+Frame validity does not determine a logic: $\mathsf{KvB}$ and $\mathsf{KvB} \oplus \mathrm{E}$ are distinct logics with the same Kripke frames.
+So each completeness theorem is a real theorem that needs a proof, by [[canonical models|TVE4F04KME]], [[filtration|6ZZSHAKG5F]] or another method.
+Algebraically, the complex algebras of Kripke frames are the complete atomic modal algebras with a completely additive operator, and they do not generate every variety of modal algebras.
 
-### Converse
+### The converse and wider results
 
 Many logics are Kripke complete.
-All logics axiomatized by [[Sahlqvist formulas|S4SSDMETJM]] over $\mathsf{K}$ are complete, and so are all normal extensions of $\mathsf{S4.3}$; see [[the lattice of normal modal logics|EZ011FT3GT]].
+Every logic axiomatized over $\mathsf{K}$ by [[Sahlqvist formulas|S4SSDMETJM]] is complete, and so is every normal extension of $\mathsf{S4.3}$; see the [[lattice of normal modal logics|EZ011FT3GT]].
+Incompleteness reaches strong logics too: Kit Fine gave an incomplete logic that contains $\mathsf{S4}$.
+The *degree of incompleteness* of $L$ is the number of normal logics with exactly the same Kripke frames as $L$.
+Blok proved that in $\mathrm{NExt}(\mathsf{K})$ this degree is always $1$ or $2^{\aleph_0}$, and he described the logics of degree $1$ through splittings.
+Incompleteness also occurs in [[quantified modal logic|D2H3S12V7X]].
 
-### Generalizations
+### Watch out
 
-1. The *degree of Kripke incompleteness* of a logic $L$ is the number of normal modal logics that have exactly the same Kripke frames as $L$. Blok proved that in the lattice of normal modal logics this degree is always $1$ or $2^{\aleph_0}$, and he described the logics of degree $1$ through splittings.
-2. Incompleteness occurs above strong logics: Kit Fine gave an incomplete logic that contains $\mathsf{S4}$.
-3. Incompleteness also occurs for [[quantified modal logic|D2H3S12V7X]], where some natural logics are incomplete for every class of Kripke frames with domains.
+An incomplete logic still has models and frames.
+By Makinson's theorem it is valid on a one-point frame, so it has at least one Kripke frame.
+What it lacks is enough Kripke frames to refute each of its non-theorems, and general frames supply the missing ones.
 
 ## History
 
-Thomason and Kit Fine published the first examples of Kripke incomplete logics in 1974.
+Steven K. Thomason gave the first Kripke incomplete logics: a tense logic in 1972 and a logic with one box in 1974.
+Kit Fine published an incomplete extension of $\mathsf{S4}$ in 1974.
 Johan van Benthem later gave the short example $\mathsf{KvB}$ used here.
-Blok then proved his dichotomy theorem on the degree of incompleteness, a central result of the lattice theory of modal logics.
+Willem Blok then proved his dichotomy theorem on the degree of incompleteness.
 
 ## Explanations
 
@@ -71,27 +92,25 @@ Blok then proved his dichotomy theorem on the degree of incompleteness, a centra
 
 A modal logic is a set of laws about "necessarily" and "possibly".
 Pictures of points and arrows give a way to test these laws.
-One hopes that a logic is the set of laws true in all pictures that fit the logic.
-For some logics this hope fails: a law can hold in every fitting picture, yet the logic cannot prove it.
+One hopes that a logic is exactly the set of laws true in all pictures that fit it.
+For some logics this hope fails: a law holds in every fitting picture, yet the logic cannot prove it.
+The van Benthem formula is such a logic: in every picture it says "a point whose next points all have next points has no next points at all", but its logic does not prove that.
 
 ### L2 human
 
-We show the key fact behind item 1: the formula $\square(\square p \to p) \to p$ can be refuted at every world of every Kripke frame.
-
-1. Take any frame $(W, R)$ and any world $y$. Let $p$ be true at every world except $y$.
-2. Then $p$ is false at $y$.
-3. Take a successor $z$ of $y$. If $z \neq y$, then $p$ is true at $z$, so $\square p \to p$ is true at $z$.
-4. If $z = y$, then $y$ sees $y$, where $p$ is false, so $\square p$ is false at $y$ and $\square p \to p$ is true at $y$.
-5. So $\square(\square p \to p)$ holds at $y$ and $p$ fails at $y$.
-
-So $\square(\square(\square p \to p) \to p)$ holds at a world, under all valuations, only when the world has no successors.
+We test $\mathrm{vB}$ on one frame.
+Let $x$ see $y$, and let $y$ see itself, with nothing else.
+At $x$ the antecedent holds, because the only successor $y$ has the successor $y$:
+$$x \models \square \lozenge \top.$$
+Make $p$ false at $y$ and true at $x$.
+At $y$, the only successor is $y$ itself, and $\square p$ fails there, so $\square p \to p$ holds at $y$, and $y \models \square(\square p \to p)$.
+But $p$ fails at $y$, so the consequent of $\mathrm{vB}$ fails at $x$.
+So the frame refutes $\mathrm{vB}$, as item 1 predicts, since it also refutes $\mathrm{E}$ at $x$.
 The typical use of $\mathsf{KvB}$ is as the shortest example of incompleteness.
-A trap: an incomplete logic still has models; it only lacks enough Kripke frames, and general frames repair this.
 
 ### L3 human
 
-Algebraically, $L$ is Kripke complete when the variety of modal algebras of $L$ is generated by complex algebras of frames, which are complete, atomic and completely additive.
-Incompleteness shows that these algebras do not generate all varieties of modal algebras.
-The incomplete logics form a large part of the lattice of normal modal logics: by Blok's theorem, $2^{\aleph_0}$ logics share their frames with each logic outside a small class.
-Completeness can be recovered by changing the notion of frame: descriptive frames, neighbourhood frames for non-normal logics, or algebraic semantics.
-The question of which logics are complete led to the study of canonicity, persistence and the [[Sahlqvist theorem|S4SSDMETJM]].
+Algebraically, $L$ is Kripke complete when the variety of modal algebras of $L$ is generated by complex algebras of frames.
+Incompleteness shows that these algebras do not generate all varieties.
+Completeness can be recovered by changing the notion of frame: descriptive frames for normal logics, neighborhood frames for non-normal ones, or algebras.
+The question of which logics are complete led to the study of canonicity and persistence, and to [[Sahlqvist's theorem|S4SSDMETJM]].

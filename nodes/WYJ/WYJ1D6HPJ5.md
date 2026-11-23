@@ -18,38 +18,42 @@ sources:
 
 ## Example
 
-Let $\mathfrak{M}$ be the Kripke model with one world $a$, the relation $\set{(a, a)}$, and $p$ true at $a$.
+Let $\mathfrak{M}$ be the [[Kripke model|NGHWZ9Y7ZV]] with one world $a$, the relation $\{(a, a)\}$, and $p$ true at $a$.
 Let $\mathrm{Th}(\mathfrak{M})$ be the set of formulas true at every world of $\mathfrak{M}$.
-We show that $\mathrm{Th}(\mathfrak{M})$ is not an element of the [[lattice of normal modal logics|EZ011FT3GT]].
+We show that $\mathrm{Th}(\mathfrak{M})$ passes every test for a normal modal logic except one, so it is not an element of the [[lattice of normal modal logics|EZ011FT3GT]].
 
-1. $\mathrm{Th}(\mathfrak{M})$ contains all tautologies and the axiom $\square(p \to q) \to (\square p \to \square q)$, since these are true at every world of every model.
-2. It is closed under modus ponens, since truth at a world respects $\to$.
-3. It is closed under [[necessitation|G989VP2NGP]]: if $\varphi$ is true at every world, then $\square \varphi$ is true at every world.
-4. It contains $p$, since $p$ is true at $a$.
-5. The [[uniform substitution|DE0GD8BM4M]] of $\bot$ for $p$ sends $p$ to $\bot$, and $\bot$ is false at $a$. So $\mathrm{Th}(\mathfrak{M})$ is not closed under uniform substitution.
-6. So $\mathrm{Th}(\mathfrak{M})$ satisfies every condition of a normal modal logic except closure under substitution, and it is not a normal modal logic.
+1. Tautologies and the axiom K: the formulas $\square(p \to q) \to (\square p \to \square q)$ and all tautologies are true at every world of every model, so they lie in $\mathrm{Th}(\mathfrak{M})$.
+2. Modus ponens: if $\varphi$ and $\varphi \to \psi$ are true at $a$, then $\psi$ is true at $a$.
+3. [[Necessitation|G989VP2NGP]]: if $\varphi$ is true at every world, then $\square \varphi$ is true at every world, because every successor is a world.
+4. The formula $p$ lies in $\mathrm{Th}(\mathfrak{M})$, since $p$ is true at $a$.
+5. [[Uniform substitution|DE0GD8BM4M]] fails: substituting $\bot$ for $p$ turns $p$ into $\bot$, which is false at $a$.
+6. So $\mathrm{Th}(\mathfrak{M})$ is closed under modus ponens and necessitation, but not under substitution, and it is not a normal modal logic.
 
 ## Remarks
 
-The example shows why logics are defined by validity on frames, which quantifies over all valuations, and not by truth in a model.
-The set of formulas valid on the frame $(\set{a}, \set{(a, a)})$ is the normal logic $\mathrm{Log}(\circ)$, and it does not contain $p$.
-Every maximal consistent set of a consistent logic also fails closure under substitution, since it contains $p$ or $\neg p$.
-In algebraic terms, a model fixes elements of a modal algebra for the variables, while a logic must hold for every choice of elements.
+The example shows why logics are defined by validity on frames, which ranges over all valuations, and not by truth in one model.
+The formulas valid on the frame $(\{a\}, \{(a, a)\})$ form the normal logic $\mathrm{Log}(\circ)$, and $p$ is not among them.
+Every maximal consistent set fails substitution in the same way, since it contains $p$ or $\neg p$, and substituting $\bot$ or $\top$ for $p$ gives $\bot$ or $\neg \top$.
+In algebraic terms, a model fixes one element of a modal algebra for each variable, while a logic must hold for every choice of elements.
+
+Watch out: closure under necessitation holds for truth at every world of a model, but it fails for truth at one world.
+In a model where $a$ sees a world $b$ with $p$ false, $p$ can hold at $a$ while $\square p$ fails there.
+So "true in the model" and "true at a world" are two different notions, and neither gives a logic.
 
 ## Explanations
 
 ### L1 human
 
-A model fixes which basic statements are true, here "$p$ is true".
-A logic must contain only laws that hold whatever the basic statements say.
-"$p$ is true" holds in this model but is not a law, because replacing $p$ by a false statement breaks it.
+A model fixes which basic statements are true; here it says "$p$ is true".
+A logic may only contain laws that hold whatever the basic statements say.
+"$p$ is true" holds in this model, but it is not a law, because replacing $p$ by a false statement breaks it.
 So the truths of one model are not a logic.
 
 ### L2 human
 
-1. In $\mathfrak{M}$, the formulas $p$, $\square p$ and $\lozenge p$ are true.
-2. Substituting $\neg p$ for $p$ gives $\neg p$, $\square \neg p$ and $\lozenge \neg p$, which are all false at $a$.
-3. On the frame of $\mathfrak{M}$ with all valuations, $\square p \leftrightarrow p$ is valid, and it is in $\mathrm{Log}(\circ)$.
-
-The typical use of the example is to separate the notions of theory and logic.
-A trap: closure under necessitation holds for global truth in a model but fails for truth at one world, so the two notions of truth also differ.
+We push the substitution test further.
+In $\mathfrak{M}$, the three formulas $p$, $\square p$ and $\lozenge p$ are all true at $a$.
+Substitute $\neg p$ for $p$ in each, to get $\neg p$, $\square \neg p$ and $\lozenge \neg p$.
+At $a$ we have $p$, and $a$ sees only $a$, so all three new formulas are false.
+On the frame of $\mathfrak{M}$, with every valuation, the formula $\square p \leftrightarrow p$ is valid, and it does survive every substitution.
+The typical use of the example is to separate the notion of a theory, the truths of one structure, from the notion of a logic.
