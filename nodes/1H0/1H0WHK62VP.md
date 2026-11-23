@@ -17,37 +17,48 @@ sources:
 
 ## Example
 
-Let $H$ be the [[Hilbert system|1MGMQX43B8]] for propositional logic with the axiom schemas A1 to A3 and the rule modus ponens (MP).
+Let $H$ be the [[Hilbert system|1MGMQX43B8]] for propositional logic with modus ponens (MP) as its only rule and with the axiom schemas
+$$\begin{aligned} &\text{A1: } \varphi \to (\psi \to \varphi), \\ &\text{A2: } (\varphi \to (\psi \to \chi)) \to ((\varphi \to \psi) \to (\varphi \to \chi)), \\ &\text{A3: } (\neg \psi \to \neg \varphi) \to ((\neg \psi \to \varphi) \to \psi). \end{aligned}$$
+A derivation of $\varphi$ from a set $\Gamma$ is a finite list of formulas that ends in $\varphi$.
+Each line is an instance of a schema, a member of $\Gamma$, or follows by MP from two earlier lines.
+We write $\Gamma \vdash_H \varphi$ when such a derivation exists.
 
-- A1: $\varphi \to (\psi \to \varphi)$.
-- A2: $(\varphi \to (\psi \to \chi)) \to ((\varphi \to \psi) \to (\varphi \to \chi))$.
-- A3: $(\neg \psi \to \neg \varphi) \to ((\neg \psi \to \varphi) \to \psi)$.
+Here is a short one, from $\Gamma = \{ p \}$:
+$$p, \qquad p \to (q \to p), \qquad q \to p.$$
+The first line is a hypothesis, the second is A1, and the third follows by MP.
+So $p \vdash_H q \to p$.
 
-A derivation of $\varphi$ from a set $\Gamma$ of formulas is a finite sequence of formulas that ends in $\varphi$.
-Each line is an instance of an axiom schema, a member of $\Gamma$, or follows by MP from two earlier lines.
-Put $\Gamma \vdash_H \varphi$ when such a derivation exists.
 We check that $\vdash_H$ is a [[consequence relation|J78Y1M4GND]].
 
-1. Reflexivity. If $\varphi \in \Gamma$, the one-line sequence $\varphi$ is a derivation of $\varphi$ from $\Gamma$.
-2. Monotonicity. If $\Gamma \subseteq \Delta$, every derivation from $\Gamma$ is a derivation from $\Delta$, since its hypothesis lines lie in $\Delta$.
-3. Cut. Let $\Gamma \vdash_H \psi$ for every $\psi \in \Delta$, and let $D$ be a derivation of $\varphi$ from $\Gamma \cup \Delta$.
-4. In $D$, replace each line that is a hypothesis $\psi \in \Delta \setminus \Gamma$ by a derivation of $\psi$ from $\Gamma$.
-5. The new sequence still ends in $\varphi$. Every line of an inserted derivation is justified as before, and every MP line of $D$ still finds its two premises earlier, since each replaced line now ends in the same formula.
-6. So $\Gamma \vdash_H \varphi$.
+1. Reflexivity.
+   If $\varphi \in \Gamma$, the one-line list $\varphi$ is a derivation of $\varphi$ from $\Gamma$.
+2. Monotonicity.
+   If $\Gamma \subseteq \Delta$, a derivation from $\Gamma$ is also a derivation from $\Delta$, since its hypothesis lines lie in $\Delta$.
+3. Cut.
+   Let $\Gamma \vdash_H \psi$ for every $\psi \in \Delta$, and let $D$ be a derivation of $\varphi$ from $\Gamma \cup \Delta$.
+   Replace each line of $D$ that is a hypothesis $\psi \in \Delta \setminus \Gamma$ by a derivation of $\psi$ from $\Gamma$.
+4. The new list still ends in $\varphi$.
+   Each inserted line is justified as in its own derivation, and each MP line of $D$ still finds its premises earlier, because each replaced block ends in the same formula.
+   So $\Gamma \vdash_H \varphi$.
 
 Two more properties hold.
 
-7. Finitarity. A derivation is finite, so it uses a finite set $\Gamma_0 \subseteq \Gamma$ of hypotheses, and it is a derivation from $\Gamma_0$.
-8. Structurality. Applying a substitution $\sigma$ to every line of a derivation from $\Gamma$ gives a derivation from $\sigma[\Gamma]$: instances of a schema stay instances, hypotheses go into $\sigma[\Gamma]$, and MP steps stay MP steps.
+5. Finitarity.
+   A derivation is finite, so it uses a finite set $\Gamma_0 \subseteq \Gamma$ of hypotheses, and it is a derivation from $\Gamma_0$.
+6. Structurality.
+   Apply a substitution $\sigma$ to every line of a derivation from $\Gamma$.
+   Instances of a schema stay instances, hypotheses go into $\sigma[\Gamma]$, and MP steps stay MP steps, so the result is a derivation from $\sigma[\Gamma]$.
 
 ## Remarks
 
-Steps 1 to 7 use only the shape of derivations, not the particular axioms, so derivability in every [[formal system|439M8B4DY2]] of this kind is a finitary consequence relation.
-Step 8 needs more: it holds because the axioms are given by schemas, and it fails for a system with the single axiom $p$.
-The proof of cut needs derivations of arbitrary length: the relation "follows in one step of MP" is reflexive and monotone but fails cut.
-By [[soundness|4A84VHDTHV]], $\Gamma \vdash_H \varphi$ implies $\Gamma \models \varphi$, and by the completeness theorem of propositional logic the converse holds.
-So $\vdash_H$ is equal to [[classical propositional consequence|5X683DYC8S]], although the two relations are defined in different ways.
-Two Hilbert systems with the same consequence relation have the same derivable rules, so they count as the same logic in the abstract view.
+Steps 1 to 5 use only the shape of derivations, not the particular axioms.
+So derivability in every [[formal system|439M8B4DY2]] of this kind is a finitary consequence relation.
+Step 6 needs more: it holds because the axioms are given by schemas, and it fails for a system whose only axiom is the single formula $p$.
+The proof of cut needs derivations of any length, and the relation "follows in one step of MP" is reflexive and monotone but fails cut.
+
+By [[soundness|4A84VHDTHV]], $\Gamma \vdash_H \varphi$ implies $\Gamma \models \varphi$, and by the completeness theorem of propositional logic (in the sense of a proof system and a semantics) the converse holds.
+So $\vdash_H$ equals [[classical propositional consequence|5X683DYC8S]], although the two relations are defined in very different ways.
+In the abstract view, two Hilbert systems with the same consequence relation count as the same logic.
 
 ## Explanations
 
@@ -62,11 +73,12 @@ These three facts are exactly the three rules of a consequence relation.
 ### L2 human
 
 We paste derivations as in the proof of cut.
-
-1. Derivation $D_1$ of $q \to p$ from $\set{p}$: the lines $p$, $p \to (q \to p)$, $q \to p$.
-2. Derivation $D$ of $p$ from $\set{q, q \to p}$: the lines $q$, $q \to p$, $p$, the last by MP.
-3. Take $\Gamma = \set{p, q}$ and $\Delta = \set{q \to p}$. Replace the hypothesis line $q \to p$ of $D$ by $D_1$.
-4. The result is $q$, $p$, $p \to (q \to p)$, $q \to p$, $p$. Each line is a hypothesis from $\Gamma$, an instance of A1, or follows by MP.
+Take $\Gamma = \{ p, q \}$ and $\Delta = \{ q \to p \}$.
+The short derivation above shows $\Gamma \vdash_H q \to p$, and its lines are $p$, $p \to (q \to p)$, $q \to p$.
+A derivation $D$ of $p$ from $\Gamma \cup \Delta$ is $q$, $q \to p$, $p$, the last line by MP.
+Replace the hypothesis line $q \to p$ of $D$ by the three lines of the short derivation:
+$$q, \qquad p, \qquad p \to (q \to p), \qquad q \to p, \qquad p.$$
+Each line is a hypothesis from $\Gamma$, an instance of A1, or follows by MP, so this is a derivation of $p$ from $\Gamma$ alone.
 
 The typical use of cut is to reuse lemmas inside derivations, which is how long derivations are built in practice.
-A trap is to paste a derivation that uses a hypothesis outside $\Gamma$; the pasted derivation must itself be a derivation from $\Gamma$.
+Watch out: the pasted derivation must itself use only hypotheses from $\Gamma$, or the result is not a derivation from $\Gamma$.

@@ -19,29 +19,36 @@ sources:
 Darii is the syllogism "all $M$ are $P$, some $S$ is $M$, so some $S$ is $P$".
 An instance: every multiple of $4$ is even, some square is a multiple of $4$, so some square is even.
 We draw the premises as beta [[existential graphs|D3ZS6WHPM1]] and derive the conclusion with the rules of the system.
-In text we write a cut as square brackets and a line of identity between two predicate spots as a hyphen, so $S{-}M$ is one line with $S$ at one end and $M$ at the other.
+In text a cut is a pair of square brackets, and a line of identity between two predicate spots is a hyphen, so $S{-}M$ is one line with $S$ at one end and $M$ at the other.
 
-- Premise 2, "some $S$ is $M$", is the graph $S{-}M$ on the sheet. It reads $\exists x\,(S(x) \land M(x))$.
-- Premise 1, "all $M$ are $P$", is the graph $[\,M{-}[P]\,]$: a line in the outer cut from $M$ into an inner cut to $P$. Its outermost part lies at depth $1$, so it reads $\neg \exists y\,(M(y) \land \neg P(y))$, that is, $\forall y\,(M(y) \to P(y))$.
+The premise "some $S$ is $M$" is the graph $S{-}M$ on the sheet, which reads $\exists x\,(S(x) \land M(x))$.
+The premise "all $M$ are $P$" is the graph $[\,M{-}[P]\,]$, a line in an outer cut that runs from $M$ into an inner cut to $P$.
+Its outermost part lies at depth $1$, so it reads $\neg \exists y\,(M(y) \land \neg P(y))$, that is, $\forall y\,(M(y) \to P(y))$.
 
-The derivation has four steps.
-
-1. Iteration of a line: a line of identity may be extended from its area into a cut nested in that area and joined to a line there. We extend the line of $S{-}M$ into the outer cut of premise 1 and join it to the line at $M$. The graph now reads $\exists x\,(S(x) \land M(x) \land \neg(M(x) \land \neg P(x)))$.
-2. Deiteration: inside the outer cut, the spot $M$ on the joined line is a copy of the spot $M$ on the same line on the sheet. We erase the inner copy. The graph now reads $\exists x\,(S(x) \land M(x) \land \neg\neg P(x))$.
-3. Double cut: between the outer and the inner cut there is now only the line of identity, which passes through both cuts. The double cut rule removes the two cuts. The graph now reads $\exists x\,(S(x) \land M(x) \land P(x))$.
-4. Erasure: the spot $M$ lies on the sheet, an even area. We erase it and keep the line. The result is $S{-}P$, which reads $\exists x\,(S(x) \land P(x))$, "some $S$ is $P$".
+1. Iteration lets a line of identity be extended from its area into a cut enclosed by that area, so we extend the line $S{-}M$ into the outer cut of the second premise.
+2. The end of the extended line and the line at $M$ now both lie in the area of the outer cut, of depth $1$, which is negative.
+   Insertion is allowed in a negative area, so we join the two lines there.
+   The graph now reads $\exists x\,(S(x) \land M(x) \land \neg(M(x) \land \neg P(x)))$.
+3. Inside the outer cut, the spot $M$ on the joined line is a copy of the spot $M$ on the same line on the sheet, so deiteration erases it.
+   The graph now reads $\exists x\,(S(x) \land M(x) \land \neg\neg P(x))$.
+4. Between the outer and the inner cut there is now only the line of identity, which passes through both cuts, so the double cut rule removes the two cuts.
+   The graph now reads $\exists x\,(S(x) \land M(x) \land P(x))$.
+5. The spot $M$ lies on the sheet, an area of even depth, so erasure removes it and keeps the line.
+   The result is $S{-}P$, which reads $\exists x\,(S(x) \land P(x))$, "some $S$ is $P$".
 
 Each step keeps truth.
-Step 1 instantiates the universal premise at the object $x$ of the existential premise, as in [[predicate logic|086QKPF0A6]].
-Step 2 uses that $M(x)$ is already known, step 3 removes a double negation, and step 4 drops a conjunct.
+Steps 1 and 2 apply the universal premise to the object $x$ of the existential premise, as in [[predicate logic|086QKPF0A6]].
+Step 3 uses that $M(x)$ is already known, step 4 removes a double negation, and step 5 drops a conjunct.
 
 ## Remarks
 
-The example shows how beta graphs do the work of [[syllogistic|MZBNX2T6Q6]]: the middle term $M$ is first shared along one line and then erased.
-The joining of lines in step 1 is the point where the two premises meet, and it plays the role of the middle term.
-With an empty middle term this joining is impossible, because there is no line on the sheet to extend.
-This matches the fact that Darapti, "all $M$ are $P$, all $M$ are $S$, so some $S$ is $P$", cannot be derived: both premises are lines inside cuts, and no line lies on the sheet.
+Beta graphs do the work of [[syllogistic|MZBNX2T6Q6]] by sharing the middle term along one line and then erasing it.
+Joining the lines in step 2 is where the two premises meet, so it plays the role of the middle term.
+
 The same method derives Barbara, with all lines inside cuts, and every other mood that is valid in the modern reading.
+Darapti, "all $M$ are $P$, all $M$ are $S$, so some $S$ is $P$", cannot be derived.
+Its premises are true when $M$ is empty and its conclusion can then be false, and the beta rules are sound.
+In the graphs, both premises are lines inside cuts, and no line on the sheet carries $M$ for the universal premises to act on.
 
 ## Explanations
 
@@ -57,11 +64,11 @@ At the end the line has "square" at one end and "even" at the other: some square
 
 We read the graph after each step for the instance with $S$ the squares, $M$ the multiples of $4$ and $P$ the even numbers.
 
-1. Start: there is a square that is a multiple of $4$; and there is no multiple of $4$ that is not even.
+1. Start: there is a square that is a multiple of $4$, and there is no multiple of $4$ that is not even.
 2. After joining: there is a square $x$ that is a multiple of $4$, and it is not true that $x$ is a multiple of $4$ and not even.
 3. After deiteration: there is a square $x$ that is a multiple of $4$, and it is not true that $x$ is not even.
 4. After the double cut: there is a square $x$ that is a multiple of $4$ and even.
 5. After erasure: there is a square that is even.
 
-The typical use of the joining step is to apply a universal statement to a particular object.
+Joining lines is how a universal statement gets applied to a particular object.
 The trap is to join lines in the wrong direction: a line inside a cut may not be pulled out onto the sheet, because that would turn "for all" into "there is".

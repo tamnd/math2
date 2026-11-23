@@ -18,41 +18,56 @@ sources:
 
 ## Example
 
+Why not take every true sentence of arithmetic as an axiom?
+Then every truth has a proof of one line, and incompleteness seems to disappear.
+The answer is that the result is not a [[formal system|439M8B4DY2]] at all, because nobody can check its proofs.
+
 Let $L_A$ be the first-order language of arithmetic, with the symbols $0$, $S$, $+$, $\cdot$ and $=$.
-Let $\mathcal{N}$ be the structure of the natural numbers with their usual zero, successor, addition and multiplication.
-True arithmetic is the set $\mathrm{TA}$ of all sentences of $L_A$ that are true in $\mathcal{N}$.
-We propose a system $S_{\mathrm{TA}}$ with the formulas of $L_A$, the axioms $\mathrm{TA}$, and the rules modus ponens and generalization.
-We check the four parts of a [[formal system|439M8B4DY2]].
+Let $\mathcal{N}$ be the natural numbers with their usual zero, successor, addition and multiplication.
+True arithmetic is the set
+$$\mathrm{TA} = \{ \sigma : \sigma \text{ is a sentence of } L_A \text{ and } \mathcal{N} \models \sigma \}.$$
+We propose a system $S_{\mathrm{TA}}$ with the formulas of $L_A$, the axioms $\mathrm{TA}$, and the rules modus ponens and generalization, and we check the four parts of a formal system.
 
 1. The alphabet of $L_A$ (the symbols above, the connectives, the quantifiers, parentheses and the variables $v_0, v_1, \dots$) is a decidable set.
-2. The formulas of $L_A$ are defined by formation rules, and a parsing procedure decides whether a string is a formula.
-3. Modus ponens and generalization have one or two premises, and a comparison of strings decides whether they apply.
-4. The set of axioms is $\mathrm{TA}$. We show that $\mathrm{TA}$ is not [[decidable|T62EJ749R5]].
+2. A parsing procedure decides whether a string is a formula of $L_A$.
+3. Modus ponens and generalization have at most two premises, and a comparison of strings decides whether they apply.
+4. The set of axioms is $\mathrm{TA}$, and we now show that it is not [[decidable|T62EJ749R5]].
 
-Proof of step 4.
+The proof of step 4 is by contradiction.
 
-5. Suppose, for a contradiction, that $\mathrm{TA}$ is decidable.
-6. $\mathrm{TA}$ is consistent. All its members are true in $\mathcal{N}$, so by [[soundness|4A84VHDTHV]] every sentence derived from $\mathrm{TA}$ is true in $\mathcal{N}$, and a sentence and its negation are never both true there.
-7. $\mathrm{TA}$ is [[negation complete|655K8Y7VS8]]: for each sentence $\varphi$, either $\varphi$ or $\neg \varphi$ is true in $\mathcal{N}$, so one of them lies in $\mathrm{TA}$.
-8. $\mathrm{TA}$ contains the axioms of [[Robinson arithmetic|3K1AKGXF8A]] $\mathsf{Q}$, because each of them is true in $\mathcal{N}$.
-9. A decidable set of axioms is [[computably enumerable|TN9G24VABN]]. So, by steps 5, 6 and 8, the first [[incompleteness theorem|X9WYNYE29C]] applies to $\mathrm{TA}$ and gives a sentence $G$ with $\mathrm{TA} \nvdash G$ and $\mathrm{TA} \nvdash \neg G$.
-10. This contradicts step 7. So $\mathrm{TA}$ is not decidable.
+1. Suppose that $\mathrm{TA}$ is decidable.
+2. $\mathrm{TA}$ is consistent.
+   All its members are true in $\mathcal{N}$, so by [[soundness|4A84VHDTHV]] every sentence derived from $\mathrm{TA}$ is true in $\mathcal{N}$, and a sentence and its negation are never both true there.
+3. $\mathrm{TA}$ is [[negation complete|655K8Y7VS8]]: for each sentence $\varphi$, either $\varphi$ or $\neg \varphi$ is true in $\mathcal{N}$, so one of them lies in $\mathrm{TA}$.
+4. $\mathrm{TA}$ contains the axioms of [[Robinson arithmetic|3K1AKGXF8A]] $\mathsf{Q}$, because each of them is true in $\mathcal{N}$.
+5. A decidable set of axioms is [[computably enumerable|TN9G24VABN]].
+   So by steps 1, 2 and 4 the first [[incompleteness theorem|X9WYNYE29C]] applies, and it gives a sentence $G$ with $\mathrm{TA} \nvdash G$ and $\mathrm{TA} \nvdash \neg G$.
+6. This contradicts step 3, so $\mathrm{TA}$ is not decidable.
 
 So $S_{\mathrm{TA}}$ fails the condition that the set of axioms is decidable, and it is not a formal system.
 
 ## Remarks
 
-The proposal looks attractive, because every true sentence has a derivation of one line.
-But then the question "is this sequence a derivation" is as hard as the question "is this sentence true", and the formal system gives no method of checking.
-The condition of decidable axioms excludes exactly this kind of cheating.
+### Why the condition is there
+
+With $\mathrm{TA}$ as axioms, the question "is this list of formulas a derivation?" is as hard as the question "is this sentence true in $\mathbb{N}$?".
+A formal system is supposed to replace the second question by the first, so the definition demands decidable axioms.
+The condition excludes exactly this kind of cheating.
+
+### How far from decidable
 
 $\mathrm{TA}$ is not even computably enumerable.
-If it were, we could decide a sentence $\varphi$ by listing $\mathrm{TA}$ until $\varphi$ or $\neg \varphi$ appears, and by step 7 one of them appears.
-This contradicts step 10.
+If it were, we could decide a sentence $\varphi$ by listing $\mathrm{TA}$ until $\varphi$ or $\neg \varphi$ appears, and by step 3 one of them would appear.
+That contradicts step 6.
 By [[Tarski's undefinability theorem|YRV6SYK2BY]], $\mathrm{TA}$ is not even definable by a formula of $L_A$.
 
-If we replace $\mathrm{TA}$ by the [[Peano axioms|0QFT7Z76N5]], we get a formal system, because the axioms of Peano arithmetic form a decidable set.
-The price is that some true sentences, such as the Gödel sentence of that system, are not theorems.
+### The honest alternative
+
+Replace $\mathrm{TA}$ by the [[Peano axioms|0QFT7Z76N5]] $\mathsf{PA}$, and you get a formal system.
+Its axioms are the finitely many basic axioms and every instance of the induction schema, and a program can recognize the shape of an induction axiom.
+$\mathsf{PA}$ is consistent, because $\mathcal{N}$ is a model of it, and it contains $\mathsf{Q}$.
+So the first incompleteness theorem gives a sentence that $\mathsf{PA}$ neither proves nor refutes.
+You can have checkable proofs or every truth, but not both.
 
 ## Explanations
 
@@ -61,19 +76,15 @@ The price is that some true sentences, such as the Gödel sentence of that syste
 Suppose we allow every true fact about whole numbers as a starting rule.
 Then every true fact has a proof of one line: "this is a rule".
 But nobody can check such a proof, because nobody has a method to tell which facts about whole numbers are true.
-A formal system must let a machine check each proof, so its starting rules must be recognizable by a machine.
-Gödel's theorem shows that "all true facts" is not a list that a machine can recognize.
+A formal system must let a machine check each proof, so a machine must recognize its starting rules.
+Gödel's theorem shows that no machine recognizes the list of all true facts.
 
 ### L2 human
 
-We compare two systems in the language of arithmetic.
-
-1. Peano arithmetic $\mathsf{PA}$ has a decidable set of axioms: the finitely many basic axioms and every instance of the induction schema. A procedure checks whether a sentence has the shape of an induction axiom.
-2. So $\mathsf{PA}$ is a formal system, and its theorems are computably enumerable.
-3. $\mathsf{PA}$ is consistent, because $\mathcal{N}$ is a model of it, and it contains $\mathsf{Q}$. By the first incompleteness theorem, some sentence is neither proved nor refuted by $\mathsf{PA}$.
-4. $\mathrm{TA}$ decides every sentence, by step 7, but it is not a formal system.
-
-The typical use of this example is to explain why the definition of a formal system asks for decidable axioms.
-A trap is to say that the incompleteness theorem shows "some true sentences have no proof".
-Every true sentence has a proof in some system, for example in $S_{\mathrm{TA}}$.
-The theorem says that no single consistent formal system that contains $\mathsf{Q}$ proves all of them.
+The example is a standard answer to a common misreading of incompleteness.
+People often say that the first incompleteness theorem shows "some true sentences have no proof".
+But every true sentence $\sigma$ has a proof in some system, for example in $S_{\mathrm{TA}}$, or in $\mathsf{PA}$ with $\sigma$ added as an axiom.
+What the theorem says is that no single consistent formal system with decidable axioms that contains $\mathsf{Q}$ proves all true sentences.
+The decidability of the axioms is the hypothesis that does the work, and $S_{\mathrm{TA}}$ shows what happens without it: we get every truth and lose the ability to check.
+Watch out: negation completeness is not the problem.
+$\mathrm{TA}$ is negation complete, and the price is paid in decidability.

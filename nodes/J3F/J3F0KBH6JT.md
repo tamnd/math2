@@ -16,26 +16,53 @@ sources:
 
 ## Example
 
-Let ZF be [[Zermelo-Fraenkel set theory|0HE5WDQ9FJ]] and let ZFC + GCH add the [[axiom of choice|0HTGB13FE2]] and the generalized [[continuum hypothesis|0MN2MER9WN]] $2^{\aleph_\alpha} = \aleph_{\alpha+1}$ for all ordinals $\alpha$.
+Gödel showed that the axiom of choice cannot lead to a contradiction unless set theory without it already does.
+He found, inside any universe of sets, a smaller universe built in an orderly way, in which choice holds.
+
+Let ZF be [[Zermelo-Fraenkel set theory|0HE5WDQ9FJ]].
+Let ZFC + GCH add the [[axiom of choice|0HTGB13FE2]] and the generalized [[continuum hypothesis|0MN2MER9WN]] $2^{\aleph_\alpha} = \aleph_{\alpha+1}$ for all ordinals $\alpha$.
 We describe Gödel's proof of $\mathrm{Con}(\mathsf{ZF}) \to \mathrm{Con}(\mathsf{ZFC} + \mathsf{GCH})$ as an interpretation.
 
-1. In ZF, define the [[constructible universe|6TF2JBTPPJ]] by transfinite recursion: $L_0 = \varnothing$, $L_{\alpha+1}$ is the set of subsets of $L_\alpha$ definable over $(L_\alpha, \in)$ with parameters, and $L_\lambda = \bigcup_{\alpha < \lambda} L_\alpha$ for limit $\lambda$.
-2. Let $\delta(x)$ be the formula "$x \in L_\alpha$ for some ordinal $\alpha$", and interpret $\in$ as $\in$. For a sentence $\sigma$, the translation $\sigma^L$ restricts every quantifier to $\delta$.
-3. Gödel showed that $\mathsf{ZF} \vdash \sigma^L$ for each axiom $\sigma$ of ZF; for example extensionality holds in $L$ because $L$ is transitive.
-4. He showed that $\mathsf{ZF} \vdash (V = L)^L$, where $V = L$ is the [[axiom of constructibility|4QKRPRCSXH]] "every set is constructible". The reason is that the construction of $L$ gives the same sets when it is carried out inside $L$.
-5. He showed that $\mathsf{ZF} + V = L$ proves AC, because the construction gives a definable well-ordering of $L$, and proves GCH.
-6. Let $\tau$ be an axiom of ZFC + GCH. By step 5 some derivation of $\tau$ uses finitely many axioms of $\mathsf{ZF} + V = L$, and translating it gives $\mathsf{ZF} \vdash \tau^L$, by steps 3 and 4.
-7. So the formula $\delta$ gives an interpretation of ZFC + GCH in ZF. A derivation of a contradiction from ZFC + GCH translates into a derivation of a contradiction from ZF.
-8. The translation of derivations is computable, so the implication $\mathrm{Con}(\mathsf{ZF}) \to \mathrm{Con}(\mathsf{ZFC} + \mathsf{GCH})$ is provable in a weak arithmetic theory such as PRA.
+1. In ZF, define the [[constructible universe|6TF2JBTPPJ]] by transfinite recursion.
+   Let $L_0 = \varnothing$, and let $L_\lambda = \bigcup_{\alpha < \lambda} L_\alpha$ for limit $\lambda$.
+   Let $L_{\alpha+1}$ be the set of subsets of $L_\alpha$ that are definable over $(L_\alpha, \in)$ with parameters.
+2. Let $\delta(x)$ be the formula "$x \in L_\alpha$ for some ordinal $\alpha$", and interpret $\in$ as $\in$.
+   For a sentence $\sigma$, the translation $\sigma^L$ restricts every quantifier to $\delta$.
+3. Gödel showed that $\mathsf{ZF} \vdash \sigma^L$ for each axiom $\sigma$ of ZF.
+   For example, extensionality holds in $L$ because $L$ is transitive.
+4. He showed that $\mathsf{ZF} \vdash (V = L)^L$, where $V = L$ is the [[axiom of constructibility|4QKRPRCSXH]] "every set is constructible".
+   The reason is that the construction of $L$ gives the same sets when we carry it out inside $L$.
+5. He showed that $\mathsf{ZF} + V = L$ proves AC, because the construction gives a definable well-ordering of $L$.
+   He also showed that $\mathsf{ZF} + V = L$ proves GCH.
+6. Let $\tau$ be an axiom of ZFC + GCH.
+   By step 5 some derivation of $\tau$ uses finitely many axioms of $\mathsf{ZF} + V = L$, and translating it gives $\mathsf{ZF} \vdash \tau^L$, by steps 3 and 4.
+7. So the formula $\delta$ gives an interpretation of ZFC + GCH in ZF.
+   A derivation of a contradiction from ZFC + GCH translates into a derivation of a contradiction from ZF.
+8. The translation of derivations is computable.
+   So the implication $\mathrm{Con}(\mathsf{ZF}) \to \mathrm{Con}(\mathsf{ZFC} + \mathsf{GCH})$ is provable in a weak arithmetic theory such as PRA.
 
 ## Remarks
 
-Since ZF is a subtheory of ZFC + GCH, the converse implication holds, since a derivation from ZF is a derivation from ZFC + GCH, and the two theories are equiconsistent.
-The class $L$ is not a set, and the proof does not produce a set model of ZFC; ZF cannot prove that a set model of ZF exists, if ZF is consistent, by the second incompleteness theorem.
-The method cannot give the consistency of $\lnot\mathsf{CH}$, because by steps 4 and 5 the interpretation in $L$ satisfies $V = L$ and so GCH.
-Cohen's method of forcing gave the consistency of $\lnot\mathsf{CH}$ and of $\lnot\mathsf{AC}$ relative to ZF in 1963; see [[Gödel's consistency result|Q9176JRJ5M]] and [[Cohen's independence result|EMGBZ46GCD]].
-Gödel announced the result in 1938 and published the full proof in 1940.
+### Equiconsistency
+
+ZF is a subtheory of ZFC + GCH, so a derivation from ZF is a derivation from ZFC + GCH, and the converse implication holds.
+So the two theories are [[equiconsistent|X3G0RG2GPZ]].
+
+### A class, not a set
+
+The class $L$ is not a set, and the proof does not produce a set model of ZFC.
+If ZF is consistent, it cannot prove that a set model of ZF exists, by the second incompleteness theorem.
 $L$ is the smallest [[inner model|G78W36EGMB]] of ZF that contains all ordinals.
+
+### What the method cannot do
+
+The method cannot give the consistency of $\lnot\mathsf{CH}$, because by steps 4 and 5 the interpretation in $L$ satisfies $V = L$ and so GCH.
+Cohen's method of forcing gave the consistency of $\lnot\mathsf{CH}$ and of $\lnot\mathsf{AC}$ relative to ZF in 1963.
+See [[Gödel's consistency result|Q9176JRJ5M]] and [[Cohen's independence result|EMGBZ46GCD]].
+
+### History
+
+Gödel announced the result in 1938 and published the full proof in 1940.
 
 ## Explanations
 
@@ -51,9 +78,11 @@ So if the axiom of choice led to a contradiction, ordinary set theory would alre
 We check the first few stages of $L$.
 
 1. $L_0 = \varnothing$.
-2. $L_1$ consists of the subsets of $\varnothing$ definable over $\varnothing$, so $L_1 = \set{\varnothing}$.
-3. $L_2$ consists of the definable subsets of $\set{\varnothing}$: the set $\varnothing$, defined by $x \neq x$, and $\set{\varnothing}$, defined by $x = x$. So $L_2 = \set{\varnothing, \set{\varnothing}}$.
+2. $L_1$ consists of the subsets of $\varnothing$ definable over $\varnothing$, so $L_1 = \{ \varnothing \}$.
+3. $L_2$ consists of the definable subsets of $\{ \varnothing \}$.
+   The set $\varnothing$ is defined by $x \neq x$, and $\{ \varnothing \}$ is defined by $x = x$.
+   So $L_2 = \{ \varnothing, \{ \varnothing \} \}$.
 4. For finite $n$, every subset of the finite set $L_n$ is definable with parameters, so $L_n = V_n$, the $n$-th stage of the cumulative hierarchy.
 
 The typical use is that results proved in $L$ under $V = L$ give relative consistency results for ZF.
-A trap is to think that $L$ is a model of ZFC in the sense of a set with a membership relation; it is a definable class, and the argument is an interpretation of theories.
+Watch out: $L$ is not a model of ZFC in the sense of a set with a membership relation; it is a definable class, and the argument is an interpretation of theories.

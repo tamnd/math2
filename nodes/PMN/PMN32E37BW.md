@@ -15,90 +15,99 @@ sources:
 
 ## Example
 
-The MIU system is the following [[formal system|439M8B4DY2]].
-In the rules, $x$ and $y$ stand for any [[strings|1P6EP01HZF]] over the alphabet, including the empty string.
+The MIU system is a [[formal system|439M8B4DY2]] with three letters, one axiom and four rules, and the question it poses is whether the string $MU$ is a theorem.
+Its alphabet is $\{ M, I, U \}$, and every finite [[string|1P6EP01HZF]] over the alphabet is a formula.
+The only axiom is $MI$.
+In the rules, $x$ and $y$ stand for any strings, including the empty string:
+$$\begin{aligned} &\text{R1: from } xI \text{ infer } xIU, &&\text{R2: from } Mx \text{ infer } Mxx, \\ &\text{R3: from } xIIIy \text{ infer } xUy, &&\text{R4: from } xUUy \text{ infer } xy. \end{aligned}$$
+In words, R1 adds $U$ after a final $I$, R2 doubles the part after an initial $M$, R3 replaces $III$ by $U$, and R4 deletes $UU$.
 
-- Alphabet: the three letters $M$, $I$ and $U$.
-- Formulas: every finite string over the alphabet.
-- Axiom: the single string $MI$.
-- Rule R1: from $xI$ infer $xIU$ (add $U$ after a final $I$).
-- Rule R2: from $Mx$ infer $Mxx$ (double the part after an initial $M$).
-- Rule R3: from $xIIIy$ infer $xUy$ (replace $III$ by $U$).
-- Rule R4: from $xUUy$ infer $xy$ (delete $UU$).
+First we check that the four parts meet the definition.
 
-We check that this is a formal system, we derive a theorem, and we prove that $MU$ is not a theorem.
+1. The alphabet is finite and every string is a formula, so it is [[decidable|T62EJ749R5]] whether a string is a formula.
+2. There is one axiom, so it is decidable whether a string is an axiom.
+3. Each rule has one premise.
+   To decide whether a rule turns a given premise into a given conclusion, we try the finitely many positions in the premise.
 
-1. The alphabet is finite, and every string is a formula, so it is [[decidable|T62EJ749R5]] whether a string is a formula.
-2. The set of axioms has one element, so it is decidable whether a string is an axiom.
-3. Each rule has one premise. Given a premise and a conclusion, we decide whether R1 to R4 applies by trying the finitely many positions in the premise.
-4. So the MIU system is a formal system.
+Next we derive the theorem $MUIIU$.
+Each line names the rule and the strings $x$ and $y$ that it uses:
+$$\begin{array}{lll} 1. & MI & \text{axiom} \\ 2. & MII & \text{R2 on 1, } x = I \\ 3. & MIIII & \text{R2 on 2, } x = II \\ 4. & MIIIIU & \text{R1 on 3, } x = MIII \\ 5. & MUIU & \text{R3 on 4, } x = M,\ y = IU \\ 6. & MUIUUIU & \text{R2 on 5, } x = UIU \\ 7. & MUIIU & \text{R4 on 6, } x = MUI,\ y = IU \end{array}$$
 
-A derivation of $MUIIU$:
+Finally we prove that $MU$ is not a theorem.
+Let $n(w)$ be the number of letters $I$ in a string $w$.
 
-5. $MI$ is the axiom.
-6. $MII$ follows from line 5 by R2 with $x = I$.
-7. $MIIII$ follows from line 6 by R2 with $x = II$.
-8. $MIIIIU$ follows from line 7 by R1 with $x = MIII$.
-9. $MUIU$ follows from line 8 by R3 with $x = M$ and $y = IU$.
-10. $MUIUUIU$ follows from line 9 by R2 with $x = UIU$.
-11. $MUIIU$ follows from line 10 by R4 with $x = MUI$ and $y = IU$.
-
-Lines 5 to 11 form a derivation, so $MUIIU$ is a theorem.
-
-Now let $n(w)$ be the number of letters $I$ in a string $w$.
-We prove that $n(w)$ is not divisible by $3$ for every theorem $w$.
-
-12. The axiom $MI$ has $n(MI) = 1$, and $1$ is not divisible by $3$.
-13. R1 adds a $U$, so $n(xIU) = n(xI)$.
-14. R2 gives $n(Mxx) = 2\, n(x) = 2\, n(Mx)$, because $M$ is not an $I$. If $n(Mx)$ has remainder $1$ when divided by $3$, then $2\, n(Mx)$ has remainder $2$. If $n(Mx)$ has remainder $2$, then $2\, n(Mx)$ has remainder $4 - 3 = 1$.
-15. R3 removes three letters $I$, so $n(xUy) = n(xIIIy) - 3$, and both numbers have the same remainder when divided by $3$.
-16. R4 removes two letters $U$, so $n(xy) = n(xUUy)$.
-17. By steps 13 to 16, each rule turns a string with remainder $1$ or $2$ into a string with remainder $1$ or $2$.
-18. Let $w_1, \dots, w_k$ be a derivation. By induction on $i$, each $w_i$ has remainder $1$ or $2$: $w_i$ is the axiom (step 12), or $w_i$ follows from an earlier $w_j$ by a rule (step 17).
-19. The string $MU$ has $n(MU) = 0$, and $0$ is divisible by $3$.
-20. By steps 18 and 19, $MU$ is the last line of no derivation, so $MU$ is not a theorem of the MIU system.
+1. The axiom has $n(MI) = 1$, which is not divisible by $3$.
+2. R1 and R4 add or delete only letters $U$, so they do not change $n$.
+3. R3 removes exactly three letters $I$, so $n$ drops by $3$ and its remainder modulo $3$ stays the same.
+4. R2 doubles $n$, because $n(Mxx) = 2\, n(x) = 2\, n(Mx)$.
+   Doubling turns remainder $1$ into remainder $2$, and remainder $2$ into $4$, which has remainder $1$.
+5. So each rule turns a string whose count is not divisible by $3$ into another such string.
+6. By induction on the length of a derivation, no theorem has a count divisible by $3$: each line is the axiom (step 1) or comes from an earlier line by a rule (step 5).
+7. The string $MU$ has $n(MU) = 0$, which is divisible by $3$, so $MU$ is not a theorem.
 
 ## Remarks
 
-The number $n(w)$ modulo $3$ is an invariant: a quantity that the axiom has and that every rule keeps.
-Invariants are the standard tool to show that a formula is not a theorem, and the proof of [[soundness|4A84VHDTHV]] uses the same pattern with "true" as the invariant.
+### The invariant
 
-The theorems can be described exactly: a string is a theorem if and only if it is $M$ followed by a string $x$ of letters $I$ and $U$ with $n(x)$ not divisible by $3$.
-We prove both directions.
+The number of letters $I$ modulo $3$ is an invariant: the axiom has a nonzero value, and every rule keeps the value nonzero.
+Invariants are the standard way to show that a formula is not a theorem.
+The proof of [[soundness|4A84VHDTHV]] has the same shape, with "true under every valuation" as the property that the axioms have and the rules keep.
+The choice of axiom matters.
+With the axiom $MII$ the same invariant still excludes $MU$, because $2$ is not divisible by $3$; with the axiom $MIII$, rule R3 gives $MU$ in one step.
 
-1. Every theorem starts with $M$ and has no other $M$. The axiom $MI$ has this form, and no rule creates or moves an $M$: R2 copies a part without $M$, and R1, R3, R4 change only letters $I$ and $U$.
-2. Together with step 18, every theorem has the stated form.
-3. Conversely, let $x$ have $n$ letters $I$ and $u$ letters $U$, with $n$ not divisible by $3$. Put $N = n + 3u$, so $N$ is not divisible by $3$.
-4. Applying R2 $k$ times to $MI$ gives $M I^{2^k}$, where $I^m$ means $m$ letters $I$.
-5. The remainders of $1, 2, 4, 8, \dots$ modulo $3$ are $1, 2, 1, 2, \dots$. So we can choose $k$ with $2^k \geq N$ and $2^k - N = 3j$ for some $j \geq 0$.
-6. If $j$ is even, we replace the last $3j$ letters $I$ of $M I^{2^k}$ by $U^j$ with R3, and then delete $U^j$ with R4 in $j/2$ steps. This gives $M I^N$.
-7. If $j$ is odd, we first apply R1 to get $M I^{2^k} U$, then replace the last $3j$ letters $I$ by $U^j$, which gives $M I^N U^{j+1}$, and then delete the $j + 1$ letters $U$ with R4.
-8. In $x$, replace each $U$ by $III$. The result is $I^N$. Starting from $M I^N$, apply R3 once for each $U$ of $x$, at the block $III$ that stands for it. This gives $Mx$.
+### All the theorems
 
-So the set of theorems is decidable: count the letters $I$ and check the position of $M$.
-If the axiom were $MII$, the same invariant would still exclude $MU$, because $2$ is not divisible by $3$.
-If the axiom were $MIII$, then R3 would give $MU$ in one step, so the choice of axiom matters.
+The invariant does more than exclude $MU$: it describes every theorem.
+A string is a theorem exactly when it is $M$ followed by a string $x$ of letters $I$ and $U$ such that $n(x)$ is not divisible by $3$.
+One direction is the proof above, together with the fact that no rule creates or moves an $M$.
+For the other direction, take such an $x$ with $n$ letters $I$ and $u$ letters $U$, and put $N = n + 3u$, which is not divisible by $3$.
+
+1. Applying R2 $k$ times to $MI$ gives $M I^{2^k}$, where $I^m$ means $m$ letters $I$.
+2. The powers $1, 2, 4, 8, \dots$ have remainders $1, 2, 1, 2, \dots$ modulo $3$.
+   So some $k$ has $2^k \geq N$ and $2^k - N = 3j$ with $j \geq 0$.
+3. If $j$ is even, replace the last $3j$ letters $I$ by $U^j$ with R3, and delete $U^j$ with R4 in $j/2$ steps.
+   This gives $M I^N$.
+4. If $j$ is odd, first apply R1 to get $M I^{2^k} U$.
+   Then R3 gives $M I^N U^{j+1}$, and R4 deletes the even number $j + 1$ of letters $U$.
+5. Replace each $U$ of $x$ by $III$; the result is $I^N$.
+   Starting from $M I^N$, apply R3 once at each block $III$ that stands for a $U$ of $x$, and you reach $Mx$.
+
+So the set of theorems is decidable: check that the string is $M$ followed by letters $I$ and $U$, and count the letters $I$.
+
+### Try it
+
+Is $MUUIII$ a theorem?
+No, because it has three letters $I$.
+
+Derive $M I^7$.
+Here $N = 7$ and $2^4 - 7 = 9$, so $k = 4$ and $j = 3$, which is odd.
+Apply R2 four times to get $M I^{16}$, R1 to get $M I^{16} U$, R3 three times to get $M I^7 U^4$, and R4 twice to get $M I^7$.
 
 ## Explanations
 
 ### L1 human
 
 The MIU system is a puzzle with three letters.
-We start with MI, and four rules let us make new strings.
+You start with MI, and four rules let you make new strings.
 For example, MI becomes MII by doubling the part after M, and MIIII becomes MUI by replacing three I's by one U.
-The puzzle asks whether we can reach MU.
-Count the I's: we start with 1, doubling turns 1 into 2 and 2 into 4, and the other rules either keep the count or remove exactly 3.
-So the count is never a multiple of 3, and MU, with zero I's, cannot be reached.
+The puzzle asks whether you can reach MU.
+Count the I's: you start with 1, doubling turns 1 into 2 and 2 into 4, and the other rules keep the count or remove exactly 3.
+So the count is never a multiple of 3, and MU, with zero I's, is out of reach.
 
 ### L2 human
 
-We decide whether $MIIIIIII$ (seven letters $I$) and $MUUIII$ are theorems with the description in the remarks.
+Suppose you meet the MIU system with no hint and want to settle $MU$.
+A search finds many theorems, such as $MII$, $MIIII$, $MUI$ and $MUIIU$, but never $MU$, and a failed search proves nothing.
+So you look for a quantity that the rules control.
+The letters $U$ come and go freely, so they are a poor choice.
+The letters $I$ are better: R3 changes their number by $3$ and R2 doubles it, so the count modulo $3$ is the natural thing to follow.
+The axiom gives $1$, doubling moves between $1$ and $2$, and nothing reaches $0$.
+This is the typical use of an invariant: find a quantity, check the axiom, check each rule.
+Watch out for a quantity that the rules only keep in one direction, such as "the count is odd": R3 turns $3$ letters $I$ into $0$, so oddness is not kept.
 
-1. $MIIIIIII$ starts with $M$, has no other $M$, and has $n = 7$. Since $7 = 2 \cdot 3 + 1$, it is not divisible by $3$, so the string is a theorem.
-2. A derivation follows steps 4 to 7 of the remarks: $N = 7$, and $2^3 = 8$ is too small since $8 - 7 = 1$ is not a multiple of $3$. We take $k = 4$, so $2^4 - 7 = 9 = 3 \cdot 3$ and $j = 3$.
-3. From $MI$, apply R2 four times to get $M I^{16}$. Since $j = 3$ is odd, apply R1 to get $M I^{16} U$.
-4. Apply R3 three times to the last nine letters $I$: this gives $M I^7 U^4$. Apply R4 twice: this gives $M I^7$.
-5. $MUUIII$ has $n = 3$, which is divisible by $3$, so it is not a theorem.
+### L3 human
 
-The typical use is the pattern "find an invariant, check the axiom, check each rule".
-A trap is to stop after many failed attempts to derive $MU$: failed attempts do not prove anything, and only the invariant does.
+The MIU system is a string rewriting system, and its set of theorems turns out to be decidable by the counting test above.
+That is unusual: for a general formal system the set of theorems is only computably enumerable, and for first-order logic it is undecidable by [[Church's theorem|VA6BNNY2YC]].
+Hofstadter used the puzzle in *Gödel, Escher, Bach* to contrast reasoning inside a system, which only applies rules, with reasoning about the system, which finds the invariant.
+That contrast is the distinction between [[object language and metalanguage|D9G8M42GKC]], and the incompleteness theorems rest on it.

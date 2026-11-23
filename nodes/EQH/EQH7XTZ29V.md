@@ -19,26 +19,36 @@ sources:
 
 ## Example
 
+Adding a true axiom to a theory can still produce new theorems in the old language.
+The standard example adds to Peano arithmetic the statement that Peano arithmetic is consistent.
+
 Let PA be [[Peano arithmetic|0QFT7Z76N5]], with a fixed [[Gödel numbering|MFJXPAF0R0]] of formulas and derivations.
-Let $\mathrm{Con}(\mathsf{PA})$ be the arithmetic sentence "no number codes a derivation of $0 = 1$ from the axioms of PA".
-Let $T' = \mathsf{PA} + \mathrm{Con}(\mathsf{PA})$, in the same language as PA.
+Let $\mathrm{Con}(\mathsf{PA})$ be the arithmetic sentence "no number codes a derivation of $0 = 1$ from the axioms of PA", and let $T' = \mathsf{PA} + \mathrm{Con}(\mathsf{PA})$, in the same language as PA.
 We show that $T'$ is a consistent extension of PA that is not a [[conservative extension|N238J43XNE]].
 
-1. $T'$ extends PA, since it contains all axioms of PA.
-2. The natural numbers with the usual operations satisfy every axiom of PA. By soundness, PA does not prove $0 = 1$, so PA is [[consistent|VM8TQ70CVJ]].
-3. The sentence $\mathrm{Con}(\mathsf{PA})$ expresses this fact under the Gödel numbering, so it is true in $\N$. So $\N$ is a model of $T'$, and $T'$ is consistent.
-4. PA is consistent and computably axiomatized, so by [[Gödel's second incompleteness theorem|4PZM5GJTR5]], PA does not prove $\mathrm{Con}(\mathsf{PA})$.
+1. $T'$ extends PA, since it contains every axiom of PA.
+2. The natural numbers with the usual operations satisfy every axiom of PA.
+   By soundness PA does not prove $0 = 1$, so PA is [[consistent|VM8TQ70CVJ]].
+3. Under the Gödel numbering, $\mathrm{Con}(\mathsf{PA})$ expresses the fact of step 2, so it is true in $\mathbb{N}$.
+   Hence $\mathbb{N}$ is a model of $T'$, and $T'$ is consistent.
+4. PA is consistent and has a decidable set of axioms, so by [[Gödel's second incompleteness theorem|4PZM5GJTR5]] PA does not prove $\mathrm{Con}(\mathsf{PA})$.
 5. $T'$ proves $\mathrm{Con}(\mathsf{PA})$, since it is an axiom of $T'$.
-6. So $\mathrm{Con}(\mathsf{PA})$ is a sentence of the old language that $T'$ proves and PA does not prove. The condition of conservativity fails.
+6. So $\mathrm{Con}(\mathsf{PA})$ is a sentence of the old language that $T'$ proves and PA does not, and conservativity fails.
 
 ## Remarks
 
-Here $L' = L$, so the failure has nothing to do with new symbols: the new axiom itself is a new arithmetic theorem.
-The sentence $\mathrm{Con}(\mathsf{PA})$ is $\Pi^0_1$, so $T'$ is not even $\Pi^0_1$-conservative over PA.
-The theory $\mathsf{PA} + \lnot\mathrm{Con}(\mathsf{PA})$ is also consistent, by step 4 and the [[consistency|VM8TQ70CVJ]] criterion "$T \nvdash \varphi$ exactly when $T \cup \set{\lnot\varphi}$ is consistent".
-It is also not conservative, and it is false in $\N$.
-So neither truth nor falsity of the new axiom decides conservativity; only provability in the old theory does.
-The same argument works for every consistent, computably axiomatized theory $T \supseteq \mathsf{PA}$ and the extension $T + \mathrm{Con}(T)$.
+### No new symbols are needed
+
+Here the new language equals the old one, so the failure has nothing to do with new symbols: the new axiom is itself a new arithmetic theorem.
+The sentence $\mathrm{Con}(\mathsf{PA})$ has the form $\forall x\, \theta(x)$ with $\theta$ decidable, a $\Pi^0_1$ sentence, so $T'$ is not even $\Pi^0_1$-conservative over PA.
+
+### Truth does not decide it
+
+The theory $\mathsf{PA} + \neg \mathrm{Con}(\mathsf{PA})$ is also consistent.
+By step 4 PA does not prove $\mathrm{Con}(\mathsf{PA})$, and a theory $T$ fails to prove $\varphi$ exactly when $T \cup \{ \neg \varphi \}$ is consistent.
+This theory is not conservative either, and its new axiom is false in $\mathbb{N}$.
+So neither the truth nor the falsity of the new axiom decides conservativity; only provability in the old theory does.
+The same argument works for every consistent theory $T \supseteq \mathsf{PA}$ with a decidable set of axioms and its extension $T + \mathrm{Con}(T)$.
 
 ## Explanations
 
@@ -47,16 +57,14 @@ The same argument works for every consistent, computably axiomatized theory $T \
 Peano arithmetic is a list of basic laws about whole numbers.
 The statement "these laws never lead to a contradiction" can be written as a statement about numbers, by coding proofs as numbers.
 Gödel showed that the laws themselves cannot prove this statement.
-If we add it as a new law, we get a stronger list that proves a new fact about numbers.
+If you add it as a new law, you get a stronger list that proves a new fact about numbers.
 So the addition is not conservative, although the new law is true.
 
 ### L2 human
 
-We compare three theories in the language of arithmetic.
-
-1. PA proves $2 + 2 = 4$, and so do the two theories below; no difference appears here.
-2. $\mathsf{PA} + \mathrm{Con}(\mathsf{PA})$ proves $\mathrm{Con}(\mathsf{PA})$; PA does not, by step 4.
-3. $\mathsf{PA} + \lnot\mathrm{Con}(\mathsf{PA})$ proves $\lnot\mathrm{Con}(\mathsf{PA})$; PA does not, because PA is true in $\N$ and $\lnot\mathrm{Con}(\mathsf{PA})$ is false there.
-
-The typical use is as a test: an extension by a statement independent of the old theory is never conservative.
-A trap is to argue that $\mathrm{Con}(\mathsf{PA})$ "says nothing new" because it is about PA rather than about numbers; under the Gödel numbering it is an ordinary arithmetic sentence.
+Compare three theories in the language of arithmetic.
+All three prove $2 + 2 = 4$, so no difference appears on simple facts.
+$\mathsf{PA} + \mathrm{Con}(\mathsf{PA})$ proves $\mathrm{Con}(\mathsf{PA})$, and PA does not, by step 4.
+$\mathsf{PA} + \neg \mathrm{Con}(\mathsf{PA})$ proves $\neg \mathrm{Con}(\mathsf{PA})$, and PA does not, because PA is true in $\mathbb{N}$ and $\neg \mathrm{Con}(\mathsf{PA})$ is false there.
+The typical use is as a test: an extension by a sentence of the old language that the old theory does not prove is never conservative.
+Watch out for the argument that $\mathrm{Con}(\mathsf{PA})$ "says nothing new" because it is about PA rather than about numbers; under the Gödel numbering it is an ordinary arithmetic sentence.

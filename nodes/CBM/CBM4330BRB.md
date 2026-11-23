@@ -16,32 +16,33 @@ sources:
 
 ## Example
 
-Dimatis is the syllogism of mood IAI in the fourth figure:
-
-- Major premise: some $P$ are $M$.
-- Minor premise: all $M$ are $S$.
-- Conclusion: some $S$ are $P$.
-
-A mathematical instance: some primes are multiples of $3$, all multiples of $3$ have a digit sum that is a multiple of $3$, so some numbers whose digit sum is a multiple of $3$ are primes.
+Dimatis is the syllogism of mood IAI in the fourth figure: some $P$ are $M$, all $M$ are $S$, so some $S$ are $P$.
+An instance: some primes are multiples of $3$, every multiple of $3$ has a digit sum that is a multiple of $3$, so some numbers whose digit sum is a multiple of $3$ are primes.
 We check its figure and mood and prove it in three ways.
 
-1. The conclusion has subject $S$ (numbers whose digit sum is a multiple of $3$) and predicate $P$ (primes). The middle term $M$ is "multiples of $3$".
-2. The major premise "some $P$ are $M$" has $M$ as predicate, and the minor premise "all $M$ are $S$" has $M$ as subject. This is the scheme of the [[fourth figure|S4BTTGFR6J]].
+1. The conclusion has subject $S$, the numbers whose digit sum is a multiple of $3$, and predicate $P$, the primes.
+   The middle term $M$ is the multiples of $3$.
+2. The major premise "some $P$ are $M$" has $M$ as predicate, and the minor premise "all $M$ are $S$" has $M$ as subject, which is the scheme of the [[fourth figure|S4BTTGFR6J]].
 3. The letters are I, A, I, so the [[mood|1TD6HRM5NG]] is IAI.
-4. Direct proof: the major premise gives an object $x$ in $P$ and in $M$; in the instance, $x = 3$. By the minor premise $x$ is in $S$. So $x$ is in $S$ and in $P$, and some $S$ are $P$.
-5. Proof by a [[Venn diagram|0KCT6DPXJK]]: "all $M$ are $S$" shades $\bar S M P$ and $\bar S M \bar P$. "Some $P$ are $M$" puts a cross in $SMP$ or $\bar S M P$, and $\bar S M P$ is shaded, so the cross is in $SMP$. That cross shows "some $S$ are $P$".
-6. Proof by reduction: the m in "Dimatis" says to exchange the premises, which gives "all $M$ are $S$, some $P$ are $M$". This is Darii with conclusion "some $P$ are $S$", and the s says to convert it to "some $S$ are $P$".
+4. Direct proof: the major premise gives an object $x$ in $P$ and in $M$, which is $x = 3$ in the instance.
+   By the minor premise $x$ is in $S$, so $x$ is in $S$ and in $P$, and some $S$ are $P$.
+5. Proof by a [[Venn diagram|0KCT6DPXJK]]: "all $M$ are $S$" shades $\bar S M P$ and $\bar S M \bar P$.
+   "Some $P$ are $M$" puts a cross in $SMP$ or $\bar S M P$, and $\bar S M P$ is shaded, so the cross lies in $SMP$ and shows "some $S$ are $P$".
+6. Proof by reduction: the m in "Dimatis" says to exchange the premises, which gives "all $M$ are $S$, some $P$ are $M$".
+   That is Darii with conclusion "some $P$ are $S$", and the s says to convert it to "some $S$ are $P$".
 
-Step 4 uses no assumption that a term is non-empty, because the I premise itself provides the object $x$.
+Step 4 does not assume that any term is non-empty, because the I premise itself supplies the object $x$.
 So Dimatis is valid in the traditional and in the modern reading.
 
 ## Remarks
 
-The example shows a fourth-figure syllogism, the figure that Aristotle did not list separately.
-Step 6 shows why: after the exchange of premises, the argument is a first-figure chain from $P$ through $M$ to $S$, and only the order of the terms in the conclusion is reversed.
-If the major premise "some $P$ are $M$" is replaced by "all $P$ are $M$", the mood becomes AAI-4, which is Bamalip; it is valid only when $P$ is not empty.
-If the minor premise is weakened to "some $M$ are $S$", the result III-4 is invalid, since two particular premises never give a conclusion.
-Dimatis is also called Dimaris in older books.
+After the exchange of premises in step 6, the argument is a first-figure chain from $P$ through $M$ to $S$, with only the order of the terms in the conclusion reversed.
+That is why the fourth figure was long treated as part of the first.
+
+Change a premise and the verdict changes.
+Replace the major premise by "all $P$ are $M$" and the mood becomes AAI-4, Bamalip, which is valid only when $P$ is not empty.
+Weaken the minor premise to "some $M$ are $S$" and the form III-4 is invalid, since two particular premises never give a conclusion.
+Dimatis is also called Dimaris.
 
 ## Explanations
 
@@ -54,12 +55,12 @@ The pattern "some P are M, all M are S, so some S are P" always works, because t
 
 ### L2 human
 
-We show that the order of the premises decides the figure, using the same three terms.
+We show that the choice of conclusion decides the figure, with the same three terms.
 
 1. Write the premises as in Darii: "all $M$ are $S$" first, "some $P$ are $M$" second.
-2. In this order the first premise contains $S$, so if we take the conclusion "some $P$ are $S$", the first premise is the major premise and the argument is Darii in the first figure.
-3. If we take the conclusion "some $S$ are $P$", the major premise is the one that contains $P$, that is, "some $P$ are $M$". In standard order the argument is Dimatis in the fourth figure.
+2. With the conclusion "some $P$ are $S$", the first premise contains the predicate $S$, so it is the major premise, and the argument is Darii in the first figure.
+3. With the conclusion "some $S$ are $P$", the major premise is the one that contains $P$, "some $P$ are $M$", and in standard order the argument is Dimatis in the fourth figure.
 4. The two conclusions are equivalent by simple conversion of an I proposition.
 
-The typical use of this example is to see that the fourth figure adds no new logical power to the first figure plus conversion.
+So the fourth figure adds no logical power to the first figure plus conversion.
 The trap is to read the figure from the order in the text: the figure depends on which term is the predicate of the conclusion.

@@ -21,28 +21,30 @@ By Tarski's criterion, $L$ is a logical notion only if $\pi[L] = L$ for every [[
 We show that this condition fails.
 
 1. Let $\sigma$ be the map with $\sigma(0) = 1$, $\sigma(1) = 0$ and $\sigma(n) = n$ for $n \geq 2$.
-2. The map $\sigma$ is a permutation of $\mathbb{N}$, because $\sigma \circ \sigma$ is the identity map, so $\sigma$ is its own inverse.
+2. $\sigma \circ \sigma$ is the identity map, so $\sigma$ is its own inverse and a permutation of $\mathbb{N}$.
 3. The pair $(0, 1)$ is in $L$, because $0 < 1$.
-4. The image of this pair is $(\sigma(0), \sigma(1)) = (1, 0)$, so $(1, 0) \in \sigma[L]$.
+4. Its image is $(\sigma(0), \sigma(1)) = (1, 0)$, so $(1, 0) \in \sigma[L]$.
 5. The pair $(1, 0)$ is not in $L$, because $1 < 0$ is false.
 6. So $\sigma[L] \neq L$, and $L$ is not permutation invariant.
 
-So the symbol $<$ is a non-logical symbol, and the sentence $0 < 1$ is true in $\mathbb{N}$ but it is not a logical truth.
+So $<$ is a non-logical symbol, and the sentence $0 < 1$ is true in $\mathbb{N}$ but is not a logical truth.
 
 ## Remarks
 
-The example shows how the criterion separates logic from arithmetic: a relation that prefers some objects to others is not logical.
-The same permutation shows that $\leq$, $>$ and the successor relation $\{(n, n + 1)\}$ are not logical.
-The argument needs only two elements that the relation treats differently, so it works on every domain with at least two elements and every strict linear order on it.
-On a domain with exactly one element, $L$ is empty, and the empty relation is invariant; this shows that invariance depends on the domain, and a symbol is logical only when its meaning is invariant on every domain.
-In contrast, the property "$L$ is a strict linear order" is a property of relations, and it is permutation invariant: a permutation maps a linear order to a linear order.
+A relation that treats some objects differently from others is not logical, and this is how the criterion separates logic from arithmetic.
+The same permutation shows that $\leq$, $>$ and the successor relation $\{(n, n + 1) : n \in \mathbb{N}\}$ are not logical.
+The argument needs only two elements that the relation treats differently, so it works for every strict linear order on a domain with at least two elements.
+
+On a one-element domain the strict order is empty, and the empty relation is invariant.
+So invariance depends on the domain, and a symbol is logical only when its meaning is invariant on every domain.
+The property "is a strict linear order", a property of relations, is permutation invariant, because a permutation maps a linear order to a linear order.
 
 ## Explanations
 
 ### L1 human
 
 Take the numbers $0, 1, 2$ and the relation "is smaller than".
-Now give the numbers new labels: call $0$ by the name of $1$ and $1$ by the name of $0$.
+Now relabel them: call $0$ by the name of $1$, and $1$ by the name of $0$.
 The fact "$0$ is smaller than $1$" turns into "$1$ is smaller than $0$", which is false.
 So "is smaller than" depends on which object is which.
 Logic does not look at which object is which, so "is smaller than" is not a word of logic.
@@ -52,10 +54,10 @@ Logic does not look at which object is which, so "is smaller than" is not a word
 We check one more permutation, to see that the failure is not special to $\sigma$.
 
 1. Let $\tau(n) = n + 1$ for even $n$ and $\tau(n) = n - 1$ for odd $n$, so $\tau$ swaps $0$ with $1$, $2$ with $3$, and so on.
-2. The map $\tau$ is a permutation, because $\tau \circ \tau$ is the identity map.
-3. The pair $(2, 3)$ is in $L$, and its image $(3, 2)$ is not in $L$.
+2. $\tau \circ \tau$ is the identity map, so $\tau$ is a permutation.
+3. The pair $(2, 3)$ is in $L$, and its image $(3, 2)$ is not.
 4. So $\tau[L] \neq L$ as well.
-5. Some permutations do fix $L$: the identity map is one. Invariance asks for all permutations, so one failure is enough.
+5. Some permutations fix $L$, such as the identity map, but invariance asks for all of them, so one failure is enough.
 
-The typical use is to show that a symbol of a mathematical theory, such as $<$, $+$ or $\in$, is non-logical, so that its axioms are part of a theory and not of logic.
-A trap is to think that $<$ is logical because its meaning is "fixed" in arithmetic: the meaning is fixed by the theory, not by logic.
+The same test shows that symbols of a mathematical theory, such as $<$, $+$ or $\in$, are non-logical, so their axioms belong to a theory and not to logic.
+The trap is to think that $<$ is logical because its meaning is "fixed" in arithmetic: the theory fixes it, not logic.
