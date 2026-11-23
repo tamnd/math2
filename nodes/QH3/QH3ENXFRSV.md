@@ -1,13 +1,13 @@
 ---
 tag: QH3ENXFRSV
 kind: object
-name: Bachmann–Howard ordinal
+name: Bachmann-Howard ordinal
 msc: ["03F15", "03E10"]
 topics: [XTTKZTYDSD]
 audience: research
 uses: [8S6CT4TMB7, DM0R5VVBGJ, 3HWF8NBKJE, PQSHBKCE7V, Z92S2GVCX9, C72RBH0CDR, 5VNT564Y2W, CRP7Z3M9XD, E7WEFRMQTB, ZHDM657G3D, CNN7BK5YAW, 01TQB88H4C]
 sources:
-  - url: https://en.wikipedia.org/wiki/Bachmann–Howard_ordinal
+  - url: https://en.wikipedia.org/wiki/Bachmann%E2%80%93Howard_ordinal
     locator: Definition
   - url: https://en.wikipedia.org/wiki/Ordinal_analysis
     locator: Table of ordinal analyses
@@ -15,11 +15,11 @@ sources:
 
 ## Description
 
-Fix the [[collapsing function|8S6CT4TMB7]] $\psi$, where $\Omega$ is the [[first uncountable ordinal|Z92S2GVCX9]].
-Its closure sets $C(\alpha)$ are generated from $0, 1, \omega, \Omega$ by $+$, $\cdot$, exponentiation and the values $\psi(\xi)$ with $\xi < \alpha$.
-Let $\varepsilon_{\Omega + 1}$ be the least [[epsilon number|PQSHBKCE7V]] above $\Omega$.
-The Bachmann-Howard ordinal is $\psi(\varepsilon_{\Omega + 1})$.
-It is a [[countable|01TQB88H4C]] ordinal, the [[proof-theoretic ordinal|C72RBH0CDR]] of the theory $\mathrm{ID}_1$ of one inductive definition and of Kripke-Platek set theory with infinity.
+Take the ordinals $\psi(\Omega) = \zeta_0$, $\psi(\Omega^\Omega) = \Gamma_0$, $\psi(\Omega^{\Omega^\Omega})$, and so on, in Madore's [[collapsing function|8S6CT4TMB7]] $\psi$.
+Their supremum is the Bachmann-Howard ordinal $\psi(\varepsilon_{\Omega + 1})$.
+Here $\Omega$ is the [[first uncountable ordinal|Z92S2GVCX9]], and $\varepsilon_{\Omega + 1}$ is the least [[epsilon number|PQSHBKCE7V]] above $\Omega$.
+The closure sets $C(\alpha)$ of $\psi$ are generated from $0, 1, \omega, \Omega$ by $+$, $\cdot$, exponentiation and the values $\psi(\xi)$ with $\xi < \alpha$, and $\psi(\alpha)$ is the least countable ordinal not in $C(\alpha)$.
+The Bachmann-Howard ordinal is [[countable|01TQB88H4C]], and it is the [[proof-theoretic ordinal|C72RBH0CDR]] of Kripke-Platek set theory $\mathrm{KP}$ and of the theory $\mathrm{ID}_1$ of one inductive definition.
 
 ## Remarks
 
@@ -27,38 +27,44 @@ It is a [[countable|01TQB88H4C]] ordinal, the [[proof-theoretic ordinal|C72RBH0C
 
 1. The set $E$ of ordinals below $\varepsilon_{\Omega + 1}$ contains $0, 1, \omega, \Omega$ and is closed under $+$, $\cdot$ and exponentiation, since $\varepsilon_{\Omega + 1}$ is an epsilon number.
 2. Every value $\psi(\xi)$ is countable, so it lies in $E$.
-3. By induction on $n$, each $C_n(\alpha)$ is a subset of $E$, for every $\alpha$.
-4. So if $\alpha \ge \varepsilon_{\Omega + 1}$, the condition $\xi < \alpha$ holds for all $\xi \in C(\alpha)$, and $C(\alpha) = C(\varepsilon_{\Omega + 1})$.
-5. Hence $\psi(\alpha) = \psi(\varepsilon_{\Omega + 1})$ for all $\alpha \ge \varepsilon_{\Omega + 1}$: this system names nothing beyond the Bachmann-Howard ordinal.
+3. By induction on the stages of the generation, $C(\alpha) \subseteq E$ for every $\alpha$.
+4. Let $\alpha \ge \varepsilon_{\Omega + 1}$.
+   Every $\xi \in C(\alpha)$ satisfies $\xi < \varepsilon_{\Omega + 1}$, so the extra values $\psi(\xi)$ allowed by $\alpha$ are never used, and $C(\alpha) = C(\varepsilon_{\Omega + 1})$.
+5. Hence $\psi(\alpha) = \psi(\varepsilon_{\Omega + 1})$ for all $\alpha \ge \varepsilon_{\Omega + 1}$, and this system names nothing beyond the Bachmann-Howard ordinal.
 
 ### Approximations from below
 
 The ordinals $\Omega$, $\Omega^\Omega$, $\Omega^{\Omega^\Omega}$, and so on, have supremum $\varepsilon_{\Omega + 1}$.
-The Bachmann-Howard ordinal is the supremum of $\psi(\Omega) = \zeta_0$, $\psi(\Omega^\Omega) = \Gamma_0$, $\psi(\Omega^{\Omega^\Omega})$, which is the [[large Veblen ordinal|ZHDM657G3D]], and so on.
-So it lies far above the [[Feferman-Schütte ordinal|CNN7BK5YAW]] and every Veblen ordinal; the values $\psi(\Omega)$ and $\psi(\Omega + 1)$ are computed in [[small values|DM0R5VVBGJ]] and [[the first impredicative value|3HWF8NBKJE]].
+Applying $\psi$ gives $\zeta_0$, then $\Gamma_0$, then the [[large Veblen ordinal|ZHDM657G3D]], and their supremum is the Bachmann-Howard ordinal.
+So it lies far above the [[Feferman-Schütte ordinal|CNN7BK5YAW]] and every Veblen ordinal.
+The values $\psi(\Omega)$ and $\psi(\Omega + 1)$ are computed in [[small values|DM0R5VVBGJ]] and [[the first impredicative value|3HWF8NBKJE]].
 
 ### Other notations
 
-The same ordinal has other names in other systems.
-In Buchholz's [[functions $\psi_\nu$|E7WEFRMQTB]] it is $\psi_0(\varepsilon_{\Omega_1 + 1})$.
-In Bachmann's extension of the Veblen functions to uncountable indices it is $\varphi_{\varepsilon_{\Omega + 1}}(0)$, as the source notes.
+In Buchholz's [[functions $\psi_\nu$|E7WEFRMQTB]], with $\Omega_0 = 1$ and $\Omega_\nu = \aleph_\nu$ for $\nu > 0$, the same ordinal is $\psi_0(\varepsilon_{\Omega_1 + 1})$.
+In that system $\psi_0(\varepsilon_{\Omega_1 + 1}) = \psi_0(\Omega_2)$, so $\psi_0(\Omega_2)$ is another name for it.
 Each formula holds only in its own system.
 
 ### Role in proof theory
 
-- [[Theories of iterated inductive definitions|5VNT564Y2W]]: $\abs{\mathrm{ID}_1}$ is the Bachmann-Howard ordinal. The lower bound uses [[the accessible part as an inductive definition|CRP7Z3M9XD]], and the upper bound can be proved with [[Buchholz's Ω-rule|5C4YBXQV15]].
-- Kripke-Platek set theory with infinity, $\mathrm{KP}\omega$, has the same ordinal, and so does the constructive set theory CZF.
-- These theories are impredicative, and their analysis needs a collapsing function; the Veblen functions stop at the large Veblen ordinal.
+For the [[theories of iterated inductive definitions|5VNT564Y2W]], $\lvert \mathrm{ID}_1 \rvert$ is the Bachmann-Howard ordinal.
+The lower bound uses [[the accessible part as an inductive definition|CRP7Z3M9XD]], and the upper bound can be proved with [[Buchholz's Ω-rule|5C4YBXQV15]].
+Kripke-Platek set theory with infinity has the same ordinal, and so does the constructive set theory $\mathrm{CZF}$.
+These theories are impredicative, and their analysis needs a collapsing function, since the Veblen functions stop at the large Veblen ordinal.
 
 ### History
 
-Heinz Bachmann introduced the notation system in 1950, and William Howard studied the ordinal in 1972.
-The name honours both.
+Heinz Bachmann introduced the notation system in 1950, with Veblen-style functions indexed by uncountable ordinals.
+William Howard studied the ordinal in 1972.
+The name honors both.
 
 ### Common errors
 
-- Treating $\psi(\varepsilon_{\Omega+1})$ as an uncountable ordinal. The argument is uncountable, but the value is countable.
-- Taking $\Omega = \omega_1$ as essential. The notation system uses only the formal terms, and a suitable countable ordinal can play the role of $\Omega$, as the [[collapsing function|8S6CT4TMB7]] page notes.
+One error treats $\psi(\varepsilon_{\Omega+1})$ as an uncountable ordinal.
+The argument $\varepsilon_{\Omega+1}$ is uncountable, but the value is countable.
+
+Another error takes the uncountability of $\Omega$ as essential.
+The notation system works with formal terms and a decidable order on them, and $\Omega$ only serves to define that order and prove it well-founded.
 
 ## Explanations
 
@@ -77,5 +83,5 @@ We see why the argument $\varepsilon_{\Omega + 1}$ is the end of the line.
 3. The closure sets $C(\alpha)$ can only form terms from such towers, from sums and products, and from values of $\psi$, which are countable.
 4. So no term in any $C(\alpha)$ reaches $\varepsilon_{\Omega + 1}$, and making $\alpha$ larger adds nothing.
 
-The typical use is as the upper end of the notation system for $\mathrm{ID}_1$ and $\mathrm{KP}\omega$.
-The trap: the formula $\psi(\varepsilon_{\Omega+1})$ names the ordinal only in this system; in other systems the same letters mean other ordinals.
+The typical use is as the upper end of the notation system for $\mathrm{ID}_1$ and $\mathrm{KP}$.
+The trap: the formula $\psi(\varepsilon_{\Omega+1})$ names the ordinal only in Madore's system; in other systems the same letters mean other ordinals.

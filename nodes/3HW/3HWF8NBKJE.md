@@ -14,48 +14,57 @@ sources:
 
 ## Example
 
-We use the [[collapsing function|8S6CT4TMB7]] $\psi$ with generators $0, 1, \omega, \Omega$, and $\zeta_0$ is the least fixed point of $\gamma \mapsto \varepsilon_\gamma$.
-We show that $\psi(\Omega + 1) = \varepsilon_{\zeta_0 + 1}$, the next [[epsilon number|PQSHBKCE7V]] after $\zeta_0$.
-We use the [[small values|DM0R5VVBGJ]]: $\psi(\gamma) = \varepsilon_\gamma$ for $\gamma \le \zeta_0$, and $\psi(\xi) = \zeta_0$ for $\zeta_0 \le \xi \le \Omega$.
-Let $\varepsilon = \varepsilon_{\zeta_0 + 1}$.
+We use the [[collapsing function|8S6CT4TMB7]] $\psi$ of Madore's system, with names $0, 1, \omega, \Omega$, closure under $+$, $\cdot$ and powers, and the values $\psi(\xi)$ for named $\xi < \alpha$.
+Let $\zeta_0$ be the least fixed point of $\gamma \mapsto \varepsilon_\gamma$.
+We show that $\psi(\Omega + 1)$ is the next [[epsilon number|PQSHBKCE7V]] after $\zeta_0$.
 
-1. The set $C(\Omega + 1)$ may use $\psi(\xi)$ for each $\xi \in C(\Omega + 1)$ with $\xi \le \Omega$. In particular $\Omega \in C_0(\Omega + 1)$, so $\psi(\Omega) = \zeta_0 \in C_1(\Omega + 1)$.
-2. For every $\xi \le \Omega$, the value $\psi(\xi)$ is at most $\zeta_0$, by the small values. So every allowed value of $\psi$ is below $\varepsilon$.
-3. Upper bound. By induction on $n$, every element of $C_n(\Omega + 1)$ is below $\varepsilon$ or at least $\Omega$. The generators have this property, step 2 handles the values of $\psi$, and the closure facts (F1) and (F2) of the small values handle $+$, $\cdot$ and powers.
+$$\psi(\Omega + 1) = \varepsilon_{\zeta_0 + 1}$$
+
+We use the [[small values|DM0R5VVBGJ]]: $\psi(\gamma) = \varepsilon_\gamma$ for $\gamma \le \zeta_0$, and $\psi(\xi) = \zeta_0$ for $\zeta_0 \le \xi \le \Omega$.
+Write $\varepsilon = \varepsilon_{\zeta_0 + 1}$.
+
+1. The name $\Omega$ is in $C(\Omega + 1)$, and $\Omega < \Omega + 1$.
+   So $\psi(\Omega) = \zeta_0$ is in $C(\Omega + 1)$.
+2. Every allowed value $\psi(\xi)$ has $\xi \le \Omega$, so it is at most $\zeta_0$ by the small values, and in particular below $\varepsilon$.
+3. Every member of $C(\Omega + 1)$ is below $\varepsilon$ or at least $\Omega$.
+   The four names have this property, step 2 covers the values of $\psi$, and the closure facts (F1) and (F2) of the small values cover sums, products and powers.
 4. So $\varepsilon \notin C(\Omega + 1)$, and $\psi(\Omega + 1) \le \varepsilon$.
-5. Lower bound. We show that every $\beta < \varepsilon$ is in $C(\Omega + 1)$, by induction on $\beta$. The cases $0$ and $1$ are generators.
-6. If $\beta > 1$ is not an epsilon number, its [[Cantor normal form|6GD30FGYDZ]] has exponents below $\beta$, which lie in $C(\Omega + 1)$ by the induction hypothesis. So $\beta \in C(\Omega + 1)$.
-7. If $\beta = \varepsilon_\delta$ with $\delta < \zeta_0$, then $\delta < \beta$, so $\delta \in C(\Omega + 1)$. Since $\delta < \Omega + 1$, the value $\psi(\delta) = \beta$ is in $C(\Omega + 1)$.
-8. The only other epsilon number below $\varepsilon$ is $\beta = \zeta_0$, and $\zeta_0 \in C(\Omega + 1)$ by step 1.
-9. Steps 4 to 8 show that $\varepsilon$ is the least ordinal not in $C(\Omega + 1)$. So $\psi(\Omega + 1) = \varepsilon_{\zeta_0 + 1}$.
+5. For the lower bound, we show by induction on $\beta$ that every $\beta < \varepsilon$ is in $C(\Omega + 1)$.
+   The cases $0$ and $1$ are names.
+6. If $\beta > 1$ is not an epsilon number, the exponents of its [[Cantor normal form|6GD30FGYDZ]] are below $\beta$.
+   They are in $C(\Omega + 1)$ by the induction hypothesis, so $\beta$ is too.
+7. If $\beta = \varepsilon_\delta$ with $\delta < \zeta_0$, then $\delta < \beta$, so $\delta \in C(\Omega + 1)$.
+   Since $\delta < \Omega + 1$, the value $\psi(\delta) = \beta$ is in $C(\Omega + 1)$.
+8. The only other epsilon number below $\varepsilon$ is $\zeta_0$, which is in $C(\Omega + 1)$ by step 1.
+9. So $\varepsilon$ is the least ordinal not in $C(\Omega + 1)$, and $\psi(\Omega + 1) = \varepsilon_{\zeta_0 + 1}$.
 
 ## Remarks
 
-The example shows the jump that makes $\psi$ a collapsing function.
-Below $\Omega$ the value is stuck at $\zeta_0$, and the argument $\Omega$ breaks the deadlock because $\psi(\Omega)$ becomes a generator.
-So the uncountable ordinal $\Omega$ is used as a name for the countable ordinal $\zeta_0$.
-The same proof, by induction on $n$, gives $\psi(\Omega + n) = \varepsilon_{\zeta_0 + n}$ for each natural number $n$: at stage $n + 1$ the new generator is $\psi(\Omega + n) = \varepsilon_{\zeta_0 + n}$.
-The Wikipedia article on collapsing functions continues the computation and gives $\psi(\Omega \cdot 2) = \zeta_1$, the second fixed point of $\gamma \mapsto \varepsilon_\gamma$.
+The example shows the step that makes $\psi$ a collapsing function.
+Below $\Omega$ the value is stuck at $\zeta_0$, because no countable name reaches $\zeta_0$.
+The argument $\Omega + 1$ breaks the deadlock, because it allows the name $\psi(\Omega)$, and that name is $\zeta_0$.
+So the uncountable term $\Omega$ is used as a name for a countable ordinal.
+
+Change the argument to $\Omega + n$ and the same proof, by induction on $n$, gives $\psi(\Omega + n) = \varepsilon_{\zeta_0 + n}$: at each stage the new name is the previous value.
+The computation continues to $\psi(\Omega \cdot 2) = \zeta_1$, the second fixed point of $\gamma \mapsto \varepsilon_\gamma$.
 
 ## Explanations
 
 ### L1 human
 
-Up to the large ordinal $\Omega$, the collapsing function gets stuck at one value, called $\zeta_0$.
-It cannot pass $\zeta_0$ because no small expression names it.
+Up to the large ordinal $\Omega$, the collapsing function is stuck at one value, $\zeta_0$.
+It cannot pass $\zeta_0$, because no small expression names it.
 At the argument $\Omega + 1$ the rules allow the name $\psi(\Omega)$, and this name is exactly $\zeta_0$.
-With the new name, the function can build all ordinals up to the next epsilon number after $\zeta_0$.
-So one step past $\Omega$ makes the function move again.
+With the new name, the function builds all ordinals up to the next epsilon number after $\zeta_0$.
+So one step past $\Omega$ sets the function moving again.
 
 ### L2 human
 
 We repeat the computation for $\psi(\Omega + 2)$.
+In $C(\Omega + 2)$ we may use $\psi(\xi)$ for named $\xi \le \Omega + 1$, and $\Omega + 1$ is named as a sum of two names.
+So $\psi(\Omega + 1) = \varepsilon_{\zeta_0 + 1}$ is a new name.
+Every allowed value of $\psi$ is at most $\varepsilon_{\zeta_0 + 1}$, so the countable members of $C(\Omega + 2)$ stay below $\varepsilon_{\zeta_0 + 2}$.
+Every ordinal below $\varepsilon_{\zeta_0 + 2}$ is built from the names, $\psi(\Omega)$ and $\psi(\Omega + 1)$, so $\psi(\Omega + 2) = \varepsilon_{\zeta_0 + 2}$.
 
-1. In $C(\Omega + 2)$ we may use $\psi(\xi)$ for $\xi \le \Omega + 1$, and $\Omega + 1 \in C_1(\Omega + 2)$ as a sum of generators.
-2. So $\psi(\Omega + 1) = \varepsilon_{\zeta_0 + 1}$ is a new generator.
-3. Every allowed value of $\psi$ is at most $\varepsilon_{\zeta_0 + 1}$, so all countable elements stay below $\varepsilon_{\zeta_0 + 2}$.
-4. Every ordinal below $\varepsilon_{\zeta_0 + 2}$ is built from the generators and $\psi(\Omega)$, $\psi(\Omega + 1)$.
-5. So $\psi(\Omega + 2) = \varepsilon_{\zeta_0 + 2}$.
-
-The typical use is to see how the arguments above $\Omega$ continue the list of epsilon numbers.
-The trap is to forget the condition $\xi < \alpha$: $\psi(\Omega)$ is a generator for $C(\Omega + 1)$ but not for $C(\Omega)$.
+The computation shows how the arguments above $\Omega$ continue the list of epsilon numbers.
+Watch out for the condition $\xi < \alpha$: $\psi(\Omega)$ is a name in $C(\Omega + 1)$ but not in $C(\Omega)$, which is why $\psi(\Omega)$ is still $\zeta_0$.
