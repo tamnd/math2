@@ -50,5 +50,5 @@ For $(4, 5)$, we have $4 < 5$, and no integer $c$ has $4 < c < 5$, so $\varphi[4
 For $(4, 7)$, the integer $c = 5$ gives
 $$4 < 5 < 7,$$
 so the second conjunct fails, and $\varphi[4, 7]$ fails.
-The typical use is to recover a function, here $n \mapsto n + 1$, from a relation by a formula.
-Watch out: the formula defines the successor only in discrete orders like $\mathbb{Z}$; in a dense order such as $\mathbb{Q}$ it defines nothing at all.
+So a formula in the order alone recovers the function $n \mapsto n + 1$ as a relation.
+Watch out: the formula defines the successor only in discrete orders like $\mathbb{Z}$; in a dense order such as $\mathbb{Q}$ it defines the empty relation.

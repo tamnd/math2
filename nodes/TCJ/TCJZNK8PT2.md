@@ -49,5 +49,5 @@ For $(1, 5)$, take $z \mapsto 2$: then $2 \ne 0$ and
 $$1 + 2 \cdot 2 = 5,$$
 so $\varphi[1, 5]$ holds, and indeed $1 < 5$.
 For $(3, 3)$, a witness would need $3 + z \cdot z = 3$, so $z \cdot z = 0$ and $z = 0$, which the formula excludes, so $\varphi[3, 3]$ fails.
-The typical use is to remove the order symbol from a formula about real numbers.
+So any formula about real numbers that uses $<$ can be rewritten with $+$ and $\cdot$ alone.
 Watch out: if you omit $\neg (z = 0)$, the formula defines $\le$ instead of $<$.

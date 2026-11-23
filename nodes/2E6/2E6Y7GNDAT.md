@@ -14,25 +14,30 @@ sources:
 
 ## Example
 
-Let $\mathcal{M}$ have domain $\set{0, 1}$ and $R^{\mathcal{M}} = \set{(0, 1), (1, 0)}$.
-Let $\varphi = \forall x \, \exists y \, R(x, y) \wedge \neg \exists x \, R(x, x)$.
-We list every play of the [[evaluation game|D45Z7HETDA]] $G(\mathcal{M}, \varphi)$ and find Eloise's winning strategy.
+Let $\mathcal{M}$ have domain $\{0, 1\}$ and $R^{\mathcal{M}} = \{(0, 1), (1, 0)\}$, and let
+$$\varphi = \forall x \, \exists y \, R(x, y) \wedge \neg \exists x \, R(x, x).$$
+We list every play of the [[evaluation game|D45Z7HETDA]] $G(\mathcal{M}, \varphi)$ in which Eloise follows one fixed strategy, and we check that she wins them all.
 
 1. At $\wedge$, Abelard, the falsifier, chooses a conjunct.
-2. Left conjunct $\forall x \, \exists y \, R(x, y)$: Abelard picks $a \in \set{0, 1}$, then Eloise picks $b$.
-3. Eloise's strategy is $b = 1 - a$. The play ends at $R(x, y)$ with $(a, 1 - a) \in R^{\mathcal{M}}$, and Eloise, the verifier, wins.
-4. Right conjunct $\neg \exists x \, R(x, x)$: at $\neg$ the roles exchange, so Abelard becomes the verifier of $\exists x \, R(x, x)$.
-5. At $\exists x$, the verifier Abelard picks $a \in \set{0, 1}$.
-6. The play ends at $R(x, x)$ with $x \mapsto a$. The pair $(a, a)$ is not in $R^{\mathcal{M}}$, so the current verifier Abelard loses, and Eloise wins.
-7. All four plays that follow Eloise's strategy end with her win: two through step 3 and two through step 6.
+2. If he chooses the left conjunct $\forall x \, \exists y \, R(x, y)$, he picks some $a \in \{0, 1\}$, and then Eloise picks $b$.
+3. Eloise's strategy is $b = 1 - a$.
+   The play ends at $R(x, y)$ with $(a, 1 - a) \in R^{\mathcal{M}}$, so Eloise, the verifier, wins.
+4. If he chooses the right conjunct $\neg \exists x \, R(x, x)$, the roles exchange at $\neg$, and Abelard becomes the verifier of $\exists x \, R(x, x)$.
+5. At $\exists x$ the current verifier moves, so Abelard picks some $a \in \{0, 1\}$.
+6. The play ends at $R(x, x)$ with $x \mapsto a$.
+   The pair $(a, a)$ is not in $R^{\mathcal{M}}$, so the current verifier Abelard loses, and Eloise wins.
+7. There are four plays in all, two through step 3 and two through step 6, and Eloise wins each of them.
 
-So Eloise has a winning strategy, and by the equivalence theorem, $\mathcal{M} \models \varphi$, in agreement with Tarski's [[satisfaction|1WTCZB4DVB]].
+So Eloise has a winning strategy, and by the [[equivalence theorem|G6MKG8YQ6M]] we get $\mathcal{M} \models \varphi$, in agreement with Tarski's [[satisfaction|1WTCZB4DVB]].
 
 ## Remarks
 
-The example shows the role exchange at $\neg$: the choice in $\neg \exists x$ belongs to Abelard, exactly as in the equivalent formula $\forall x \, \neg R(x, x)$.
-Eloise has no move on the right branch; she wins because Abelard, as verifier, cannot find a loop.
-In the structure with $R = \set{(0, 1), (1, 0), (1, 1)}$, Abelard wins by choosing the right conjunct and then $a = 1$, and $\varphi$ is false.
+The example shows the role exchange at $\neg$.
+The choice in $\neg \exists x$ belongs to Abelard, exactly as in the equivalent formula $\forall x \, \neg R(x, x)$.
+On the right branch Eloise makes no move at all; she wins because Abelard, as verifier, cannot find a loop.
+
+Change one pair and the answer changes.
+With $R^{\mathcal{M}} = \{(0, 1), (1, 0), (1, 1)\}$, Abelard chooses the right conjunct and then $a = 1$, and $(1, 1) \in R^{\mathcal{M}}$, so the verifier Abelard wins and $\varphi$ is false.
 
 ## Explanations
 
@@ -40,15 +45,13 @@ In the structure with $R = \set{(0, 1), (1, 0), (1, 1)}$, Abelard wins by choosi
 
 The formula says "everyone is related to someone, and no one is related to themselves".
 Abelard can attack either half.
-If he attacks the first half, Eloise answers with the other point.
-If he attacks the second half, he must now find a point related to itself, and there is none.
+If he attacks the first half, he names a point, and Eloise answers with the other point.
+If he attacks the second half, the burden flips: now he must find a point related to itself, and there is none.
 
 ### L2 human
 
-We play the right branch with the extra loop $(1, 1)$ in $R$.
-
-1. Abelard chooses the right conjunct; at $\neg$ he becomes the verifier of $\exists x \, R(x, x)$.
-2. He picks $a = 1$, and $(1, 1) \in R$, so the verifier Abelard wins.
-
-The typical use is to compute truth values of formulas with negations in the game style.
-A trap is to let Eloise keep the verifier role after $\neg$; then she would be the one to pick $x$, and the game would compute the wrong value.
+We play the right branch after adding the loop $(1, 1)$ to $R$.
+Abelard chooses the right conjunct, and at $\neg$ he becomes the verifier of $\exists x \, R(x, x)$.
+He picks $a = 1$, and since $(1, 1)$ is now in $R$, the atomic formula $R(1, 1)$ holds, so the verifier Abelard wins.
+To compute a truth value in game style, keep track at each step of who the current verifier is.
+Watch out: if Eloise kept the verifier role after $\neg$, she would pick $x$, and the game would compute the value of $\exists x \, \neg R(x, x)$ instead.
