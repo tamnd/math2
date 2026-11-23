@@ -42,7 +42,8 @@ So $\mathrm{Con}(\mathsf{PA})$ is independent of $\mathsf{PA}$, and it is a conc
 
 Step 3 uses the standard model as a completed object, so the argument is carried out in set theory, not in $\mathsf{PA}$.
 [[ZFC proves Con(PA)|1KSQAD4BWM]] makes this precise.
-If $\mathsf{PA}$ is replaced by a consistent theory $T \supseteq \mathsf{PA}$ that is not true in $\mathbb{N}$, steps 3 and 4 fail, but steps 1, 2 and 6 still hold, and $\mathrm{Con}(T)$ is still a true $\Pi_1$ sentence that $T$ does not prove.
+Now replace $\mathsf{PA}$ by a consistent theory $T \supseteq \mathsf{PA}$ with a $\Sigma_1$ axiom formula that is not true in $\mathbb{N}$.
+Steps 3 and 4 fail, but steps 1, 2 and 6 still hold, so $\mathrm{Con}(T)$ is still a true $\Pi_1$ sentence that $T$ does not prove.
 
 ## Explanations
 

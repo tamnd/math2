@@ -25,6 +25,8 @@ D2 says that $T \vdash \square (\varphi \to \psi) \to (\square \varphi \to \squa
 D3 says that $T \vdash \square \varphi \to \square \square \varphi$.
 From D1 and D2 we get the rule (M): if $T \vdash \varphi \to \psi$, then $T \vdash \square \varphi \to \square \psi$.
 
+### Con(T) is not provable
+
 1. By the [[diagonal lemma|3PRW76471J]], we fix a sentence $G$ with $T \vdash G \leftrightarrow \neg \square G$.
 2. Step 1 gives $T \vdash G \to \neg \square G$, and contraposition gives $T \vdash \square G \to \neg G$.
 3. We apply (M) to step 2 and get $T \vdash \square \square G \to \square \neg G$.
@@ -41,7 +43,7 @@ From D1 and D2 we get the rule (M): if $T \vdash \varphi \to \psi$, then $T \vda
 11. Part 1 of the [[first incompleteness theorem|X9WYNYE29C]] says that a consistent $T$ does not prove $G$.
     This contradicts step 10, so $T \nvdash \mathrm{Con}(T)$.
 
-Next we prove the equivalence of $\mathrm{Con}(T)$ with $G$.
+### Con(T) is equivalent to the Gödel sentence
 
 12. Axiom 1 of $\mathsf{Q}$ gives $T \vdash \neg (0 = S0)$, so $T \vdash \bot \to G$ by propositional logic.
 13. We apply (M) to step 12 and get $T \vdash \square \bot \to \square G$.
@@ -49,7 +51,7 @@ Next we prove the equivalence of $\mathrm{Con}(T)$ with $G$.
     With step 1 this is $T \vdash G \to \mathrm{Con}(T)$.
 15. Steps 9 and 14 give $T \vdash \mathrm{Con}(T) \leftrightarrow G$.
 
-Last, we prove the formalized form.
+### The formalized form
 
 16. We apply (M) to step 9 and get $T \vdash \square \mathrm{Con}(T) \to \square G$.
 17. With step 7, $T \vdash \square \mathrm{Con}(T) \to \square \bot$.
