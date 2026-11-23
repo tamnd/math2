@@ -46,7 +46,8 @@ The main use is Ajtai's theorem on the pigeonhole principle, which returns in [[
 ## Notation
 
 We write $A^{\mathrm{PW}}$ for the translation of a closed formula $A$, and $A(n)^{\mathrm{PW}}$ for the translation of the instance at the numeral for $n$.
-With a binary relation symbol $R$, an atom $R(t, s)$ becomes a variable $p_{i, j}$, where $i$ and $j$ are the values of $t$ and $s$; a new function symbol $f$ is handled the same way, with $f(t) = s$ becoming $p_{i, j}$.
+With a binary relation symbol $R$, an atom $R(t, s)$ becomes a variable $p_{i, j}$, where $i$ and $j$ are the values of $t$ and $s$.
+A new function symbol $f$ is handled the same way, with $f(t) = s$ becoming $p_{i, j}$.
 The depth of a formula counts the alternations of $\bigwedge$ and $\bigvee$ along a branch, after negations are pushed to the variables.
 Books use several symbols for the translation, so check which one a text uses before you compare statements.
 

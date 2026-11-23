@@ -43,7 +43,8 @@ The complement, the composite numbers together with $0$ and $1$, has the dual de
 Watch out: the final check $u \cdot v = x$ is not known to run in deterministic linear time, so the count of quantifiers in the formula does not give the exact level of $\mathrm{LinH}$.
 
 The bound matters.
-Watch out: if you write $u \le x$ and $v \le x$ instead of $u < x$ and $v < x$, the pair $u = 1$, $v = x$ gives $u \cdot v = x$, and no number satisfies the formula.
+Watch out: do not write the bounds as $u \le x$ and $v \le x$.
+With those bounds the pair $u = 1$, $v = x$ gives $u \cdot v = x$, and no number satisfies the formula.
 
 That primality is in polynomial time is a much deeper result, the [[AKS primality test|XMHQCDWZW1]].
 The $\Delta_0$ definition only gives membership in $\mathrm{LinH}$, and it says nothing about what a weak theory can prove about primes.

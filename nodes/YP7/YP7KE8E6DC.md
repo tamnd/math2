@@ -34,7 +34,7 @@ For $i = 0$ we read $\mathsf{PV}_1$ in place of $T^0_2$, as in [[Cook's theory P
 
 1. (KPT witnessing.) Let $B(x, y, z)$ be a $\Sigma^b_{i+1}$ formula with the free variables shown, and assume $T^i_2 \vdash \forall x \, \exists y \, \forall z \, B(x, y, z)$.
    Then there are $k \ge 1$ and functions $f_1, \dots, f_k$, where $f_m$ has $m$ arguments and is $\Sigma^b_{i+1}$-definable in $T^i_2$, so that $f_m \in \square^p_{i+1}$.
-   Moreover $T^i_2$ proves the disjunction below, with free variables $a, b_1, \dots, b_k$.
+   Also, $T^i_2$ proves the disjunction below, with free variables $a, b_1, \dots, b_k$.
 
 $$B(a, f_1(a), b_1) \lor B(a, f_2(a, b_1), b_2) \lor \cdots \lor B(a, f_k(a, b_1, \dots, b_{k-1}), b_k)$$
 

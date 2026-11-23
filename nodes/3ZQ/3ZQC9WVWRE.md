@@ -40,7 +40,8 @@ A witness $y$ has at most about half the binary length of $x$, so the alternatin
 
 What changes when the exponent changes?
 For a fixed exponent $k$, the formula $\exists y < x + 1 \, (y^k = x)$, with $y^k$ written as a product of $k$ factors, still works.
-For a variable exponent, as in the set $\{ (x, k) : x = y^k \text{ for some } y \}$, the set is still $\Delta_0$-definable, but the formula needs Bennett's $\Delta_0$ definition of the graph of exponentiation, because $y^k$ is no longer a term.
+For a variable exponent, as in the set $\{ (x, k) : x = y^k \text{ for some } y \}$, the set is still $\Delta_0$-definable.
+But the formula then needs Bennett's $\Delta_0$ definition of the graph of exponentiation, because $y^k$ is no longer a term.
 
 ## Explanations
 

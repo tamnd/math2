@@ -104,7 +104,8 @@ The alternating machine does not try them: it guesses one $y$, and the guess has
 
 Do not conclude from the $\Delta_0$ graph of $2^x$ that $\mathsf{I}\Delta_0$ proves $2^x$ total.
 Defining a graph says what a value would be, and totality says that every input has one.
-Every polynomial bound is passed by $2^x$ for large $x$: for example $2^x > x^3$ for all $x \ge 10$, since $2^{10} = 1024 > 1000$ and the left side doubles while the right side grows by a factor of at most $1.331$.
+Every polynomial bound is passed by $2^x$ for large $x$: for example $2^x > x^3$ for all $x \ge 10$.
+The reason is that $2^{10} = 1024 > 1000$, and at each later step the left side doubles while the right side grows by a factor of at most $1.331$.
 
 ### History
 
@@ -135,7 +136,8 @@ The theory $\mathsf{I}\Delta_0$ is a set of rules for proofs that may use induct
 
 Here is a typical problem: show that divisibility is $\Delta_0$, and describe the machine.
 The formula is $\exists z < y + 1 \, (x \cdot z = y)$, with one bounded quantifier, so it is $\Delta_0$.
-It defines divisibility, because a witness $z$ of $x \mid y$ can always be chosen at most $y$: if $y \ge 1$ then $z \le x \cdot z = y$, and if $y = 0$ then $z = 0$ works.
+It defines divisibility, because a witness $z$ of $x \mid y$ can always be chosen at most $y$.
+If $y \ge 1$ then $z \le x \cdot z = y$, and if $y = 0$ then $z = 0$ works.
 For $x = 6$ and $y = 42$ the witness is $z = 7$:
 $$6 \cdot 7 = 42.$$
 The machine guesses the bits of $z$, at most $\lvert 42 \rvert = 6$ of them, and then checks the product.

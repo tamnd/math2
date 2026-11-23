@@ -37,13 +37,13 @@ We compute the [[Paris-Wilkie translation|ZVD982MVST]] at $x = n$, with $(\exist
 
 $$\neg \Big( \bigwedge_{i \le n} \bigvee_{j < n} p_{i, j} \land \bigwedge_{i < i' \le n} \bigwedge_{j < n} \neg (p_{i, j} \land p_{i', j}) \Big)$$
 
-6. Size: there are $n(n + 1)$ variables, and the second conjunction has $n \cdot n(n + 1)/2$ parts, so the size is of order $n^3$.
-7. Truth: an assignment that makes the part inside $\neg$ true gives an injective map from $n + 1$ pigeons to $n$ holes.
+6. Truth: an assignment that makes the part inside $\neg$ true gives an injective map from $n + 1$ pigeons to $n$ holes.
    The finite [[pigeonhole principle|0HGVCWQGY3]] excludes this, so the formula is a [[tautology|05006AJ7DZ]].
 
-For $n = 1$ the formula is $\neg \big(p_{0,0} \land p_{1,0} \land \neg (p_{0,0} \land p_{1,0})\big)$, an instance of $\neg (q \land \neg q)$.
-
 ## Remarks
+
+The formula has $n(n + 1)$ variables, and the second conjunction has $n \cdot n(n + 1)/2$ parts, so its size is of order $n^3$.
+For $n = 1$ it is $\neg \big(p_{0,0} \land p_{1,0} \land \neg (p_{0,0} \land p_{1,0})\big)$, an instance of $\neg (q \land \neg q)$.
 
 The example connects a theorem of arithmetic with the hard tautologies of proof complexity.
 [[Ajtai's theorem|Q0ERK64J78]] says that the formulas $\mathrm{PHP}^{n+1}_n$ have no bounded-depth Frege proofs of polynomial size.

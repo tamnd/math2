@@ -16,9 +16,8 @@ sources:
 
 ## Example
 
-There are fewer short descriptions than long strings, so some long string has no short description.
-If the descriptions are small circuits, that string is hard for circuits.
-We carry out this argument with the [[dual weak pigeonhole principle|HBTQ8ZVSG6]] in place of counting, which is the easy direction of a theorem of Jeřábek.
+There are fewer small circuits than long strings, so some long string is computed by no small circuit.
+We prove this with the [[dual weak pigeonhole principle|HBTQ8ZVSG6]] in place of counting.
 
 A string $x$ of length $n$ is computed by a [[Boolean circuit|SQXNFGVADX]] $C$ on $\lvert n \rvert$ inputs if $C(u)$ is the $u$-th bit of $x$ for every $u < n$.
 Let $n = \lvert a \rvert$ for some $a$, so that $2^n$ exists, and assume $n \ge 32$.
@@ -29,8 +28,7 @@ Put $k = \lvert n \rvert$, the number of inputs, and $m = \lfloor n / (4k) \rflo
 2. The code fits into $n - 1$ bits.
    Since $m + k \le n$, we have $w \le k$, and since $k \ge 2$, we have $(1 + k)/(2k) \le 3/4$:
    $$m(2 + 2w) \le \frac{n}{4k}(2 + 2k) = n \cdot \frac{1 + k}{2k} \le \frac{3n}{4} \le n - 1.$$
-3. Every circuit with at most $m$ gates computes the same function as one with exactly $m$ gates, whose last gate is the output.
-   We add dummy gates, for example the conjunction of the output with itself.
+3. Every circuit with at most $m$ gates equals one with exactly $m$ gates whose last gate is the output, by adding gates that copy the output.
 4. Let $e$ map a string $c$ of length $n - 1$ to a string of length $n$.
    It reads the first $m(2 + 2w)$ bits of $c$ as a circuit, evaluates it at $u = 0, \dots, n - 1$, and outputs the $n$ results; an invalid code gives the all-zero string.
 5. The map $e$ is polynomial-time, since it evaluates a circuit of size $m \le n$ at $n$ inputs.
@@ -44,6 +42,7 @@ Put $k = \lvert n \rvert$, the number of inputs, and $m = \lfloor n / (4k) \rflo
 The example shows how a counting statement turns into a statement about complexity: the pigeonhole principle for the coding map yields a hard truth table.
 In the standard numbers the same conclusion follows from [[Shannon's counting argument|2R30KR3Z5G]].
 The point is that a weak theory proves it from $\mathrm{dWPHP}(\mathsf{PV})$, without counting the $2^n$ strings.
+This is the easy direction of a theorem of Jeřábek.
 
 Check the numbers for $n = 1024$.
 Then $k = 11$ and $m = \lfloor 1024/44 \rfloor = 23$, so $w = \lvert 34 \rvert = 6$, and the code has $23 \cdot 14 = 322 \le 1023$ bits.
