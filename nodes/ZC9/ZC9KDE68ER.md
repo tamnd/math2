@@ -16,21 +16,21 @@ sources:
 
 ## Example
 
-We check the subsumption $\exists r.A \sqcap \forall r.B \sqsubseteq \exists r.(A \sqcap B)$ in [[ALC|TXQ80B8ZSA]] in three ways.
+We check the subsumption $\exists r.A \sqcap \forall r.B \sqsubseteq \exists r.(A \sqcap B)$ in [[ALC|TXQ80B8ZSA]] in three ways, and then refute a similar one.
 
-1. Directly. Let $d \in (\exists r.A \sqcap \forall r.B)^{\mathcal{I}}$. Some $e$ with $(d, e) \in r^{\mathcal{I}}$ has $e \in A^{\mathcal{I}}$, and every such $e$ is in $B^{\mathcal{I}}$. So $e \in (A \sqcap B)^{\mathcal{I}}$ and $d \in (\exists r.(A \sqcap B))^{\mathcal{I}}$.
-2. In modal logic. By [[Schild's correspondence|G8BHVS9715]], with $\tau(A) = p$ and $\tau(B) = q$, the subsumption becomes $\Diamond p \wedge \Box q \to \Diamond(p \wedge q)$.
-3. In $\mathsf{K}$: from $\Box q$ and the theorem $\Box(q \to (p \to p \wedge q))$ we get $\Box(p \to p \wedge q)$, so $\Diamond p \to \Diamond(p \wedge q)$ by the derived rule of $\Diamond$-monotonicity. So $\mathsf{K} \vdash \Diamond p \wedge \Box q \to \Diamond(p \wedge q)$, see [[normal modal logic K|JS8W7PA6JK]].
-4. In first-order logic. The [[standard translation|YW6YGBMVQY]] gives
-$$
-\exists y\,(r(x, y) \wedge A(y)) \wedge \forall y\,(r(x, y) \to B(y)) \to \exists y\,(r(x, y) \wedge A(y) \wedge B(y)),
-$$
-which is valid: the witness for the first conjunct is a witness for the conclusion.
-
-Now consider $\exists r.A \sqcap \exists r.B \sqsubseteq \exists r.(A \sqcap B)$.
-
-5. It translates to $\Diamond p \wedge \Diamond q \to \Diamond(p \wedge q)$, which is not a theorem of $\mathsf{K}$.
-6. The interpretation with $\Delta = \set{d, e_1, e_2}$, $r = \set{(d, e_1), (d, e_2)}$, $A = \set{e_1}$, $B = \set{e_2}$ refutes the subsumption at $d$.
+1. Directly, let $d \in (\exists r.A \sqcap \forall r.B)^{\mathcal{I}}$.
+   Some $e$ with $(d, e) \in r^{\mathcal{I}}$ has $e \in A^{\mathcal{I}}$, and every such $e$ lies in $B^{\mathcal{I}}$.
+   So $e \in (A \sqcap B)^{\mathcal{I}}$ and $d \in (\exists r.(A \sqcap B))^{\mathcal{I}}$.
+2. In modal logic, [[Schild's correspondence|G8BHVS9715]] with $\tau(A) = p$ and $\tau(B) = q$ turns the subsumption into $\Diamond p \wedge \Box q \to \Diamond(p \wedge q)$.
+3. In $\mathsf{K}$, necessitation of the tautology $q \to (p \to p \wedge q)$ and the axiom $\mathrm{K}$ give $\Box q \to \Box(p \to p \wedge q)$.
+   The $\mathsf{K}$ theorem $\Box(\varphi \to \psi) \to (\Diamond\varphi \to \Diamond\psi)$ then gives $\Box q \to (\Diamond p \to \Diamond(p \wedge q))$.
+   So $\mathsf{K} \vdash \Diamond p \wedge \Box q \to \Diamond(p \wedge q)$, by the rules of [[normal modal logic K|JS8W7PA6JK]].
+4. In first-order logic, the [[standard translation|YW6YGBMVQY]] turns the subsumption into $\exists y\,(r(x, y) \wedge A(y)) \wedge \forall y\,(r(x, y) \to B(y)) \to \exists y\,(r(x, y) \wedge A(y) \wedge B(y))$.
+   This formula is valid, since the witness for the first conjunct is a witness for the conclusion.
+5. Now consider $\exists r.A \sqcap \exists r.B \sqsubseteq \exists r.(A \sqcap B)$.
+   It translates to $\Diamond p \wedge \Diamond q \to \Diamond(p \wedge q)$, which is not a theorem of $\mathsf{K}$.
+6. The interpretation with $\Delta = \{d, e_1, e_2\}$, $r = \{(d, e_1), (d, e_2)\}$, $A = \{e_1\}$ and $B = \{e_2\}$ refutes the subsumption at $d$.
+   Here $d$ lies in $\exists r.A$ and $\exists r.B$, but no successor of $d$ lies in $A \sqcap B$.
 
 ## Remarks
 
@@ -43,7 +43,7 @@ Every $\mathcal{ALC}$ concept translates into a first-order formula with one fre
 ### L1 human
 
 "Has some child who is a doctor, and all children are tall" implies "has a child who is a tall doctor".
-"Has a child who is a doctor and a child who is tall" does not: they may be different children.
+"Has a child who is a doctor and a child who is tall" does not, since they may be different children.
 Modal logic says the same with "possibly" and "necessarily" in place of "some child" and "all children".
 
 ### L2 human
@@ -53,4 +53,4 @@ Modal logic says the same with "possibly" and "necessarily" in place of "some ch
 3. Read the proof or the countermodel back as a statement about concepts.
 
 The typical use is to reuse modal tableaux and complexity bounds for description logic reasoning.
-A trap: $\exists r$ does not distribute over $\sqcap$, just as $\Diamond$ does not distribute over $\wedge$.
+Watch out: $\exists r$ does not distribute over $\sqcap$, just as $\Diamond$ does not distribute over $\wedge$.
