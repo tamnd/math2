@@ -18,22 +18,38 @@ sources:
 
 ## Example
 
-The [[resolution|ZDW6N1PGJ7]] rule can be written as a schematic rule with formula variables $A$, $B$ and $p$:
+Start from the single [[clause|T3SXVH3ZZC]] $\{p\}$.
+It implies the clause $\{p, q\}$, since every assignment that makes $p$ true makes "$p$ or $q$" true.
+But the [[resolution|ZDW6N1PGJ7]] rule cannot get there.
+
+The rule, written as a schema with formula variables $A$, $B$ and a variable $p$, is
 $$\frac{A \lor p \qquad B \lor \neg p}{A \lor B}.$$
-This rule is sound.
-But the system with this rule alone is not a [[Frege system|J2BAR09TPF]].
+It is a sound rule, but the system with this rule alone fails the conditions of a [[Frege system|J2BAR09TPF]], for three reasons.
 
-1. *No proofs from no hypotheses.* The system has no axioms, so a derivation from $\Gamma = \emptyset$ has no first line. So it proves no tautology at all, not even $p \lor \neg p$.
-2. *Not implicationally complete, even on clauses.* We have $\set{p} \models \set{p, q}$. A derivation from the single [[clause|T3SXVH3ZZC]] $\set{p}$ has no pair of clauses with a complementary literal. So its only lines are copies of $\set{p}$, and $\set{p, q}$ is not derivable.
-3. *Lines are clauses.* In proof complexity, resolution works on clauses, which are disjunctions of literals. They are not arbitrary formulas over a functionally complete basis.
+1. *It proves nothing from nothing.*
+   The system has no axioms, so a derivation from no hypotheses has no first line.
+   So it proves no tautology at all, not even $p \lor \neg p$.
+2. *It is not implicationally complete, even on clauses.*
+   From the single hypothesis $\{p\}$, no two lines contain a complementary pair, so every line is a copy of $\{p\}$.
+   So $\{p, q\}$ is not derivable, although $\{p\} \models \{p, q\}$.
+3. *Its lines are clauses.*
+   Resolution works with disjunctions of literals, not with arbitrary formulas over a functionally complete basis.
 
-What resolution has instead is *refutation completeness*: every unsatisfiable set of clauses derives the empty clause.
+What resolution has instead is *refutation completeness*: from every unsatisfiable set of clauses it derives the empty clause.
 
 ## Remarks
 
-[[Resolution as a refutation system|6JSH907W5R]] is still a propositional proof system in the sense of Cook and Reckhow, through a CNF translation of the negated tautology.
-Frege systems p-simulate resolution.
+The example separates two kinds of completeness.
+A Frege system derives every consequence of its hypotheses, while resolution derives only the contradiction $\square$, and only from unsatisfiable inputs.
+That is enough to make [[resolution as a refutation system|6JSH907W5R]] a propositional proof system in the sense of Cook and Reckhow, through a CNF of the negated tautology.
+
+The two kinds of system also differ in strength.
+Frege systems p-simulate resolution, since each resolution step is a fixed derived rule of any Frege system.
 The converse fails: the [[pigeonhole formulas|RJ571F7FF0]] have polynomial-size Frege proofs and need exponential-size resolution refutations.
+
+What if we add the weakening rule "from $A$ infer $A \lor B$"?
+Then $\{p, q\}$ follows from $\{p\}$ in one step, and the system becomes implicationally complete for clauses.
+It is still not a Frege system, because it has no axioms and its lines are still clauses.
 
 ## Explanations
 
@@ -45,11 +61,9 @@ For example, from "$p$" it cannot conclude "$p$ or $q$", although this conclusio
 
 ### L2 human
 
-We check that adding one rule repairs step 2.
-
-1. Add the weakening rule "from $A$ infer $A \lor B$".
-2. From $\set{p}$, weakening gives $\set{p, q}$ in one step.
-3. The repaired system is still not a Frege system, since its lines are clauses and it has no axioms.
-
-The typical use of the example is to separate refutation systems from Frege systems.
-A trap: "resolution is complete" means refutation complete, not implicationally complete.
+We test the three clauses $\{p\}$, $\{\neg p, q\}$, $\{\neg q\}$ against both kinds of completeness.
+They are unsatisfiable, and resolution refutes them: $\{p\}$ and $\{\neg p, q\}$ give $\{q\}$, and $\{q\}$ with $\{\neg q\}$ gives $\square$.
+So refutation completeness works here.
+Now drop $\{\neg q\}$ and ask for the consequence $\{q, r\}$ of the other two.
+Resolution derives $\{q\}$ and then stops, because no pair of lines clashes.
+Watch out: "resolution is complete" means refutation complete, and not implicationally complete.

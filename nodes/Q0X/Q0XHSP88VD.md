@@ -15,41 +15,44 @@ sources:
 ## Example
 
 Let $F$ be the CNF with the four [[clauses|T3SXVH3ZZC]] $x \vee y$, $x \vee \neg y$, $\neg x \vee y$ and $\neg x \vee \neg y$.
-Every assignment of $x$ and $y$ falsifies exactly one of them, so $F$ is unsatisfiable.
-The following sequence is a [[cutting-planes refutation|KKCX2HQP2K]] of $F$ with $9$ lines.
+Each of the four assignments to $x$ and $y$ falsifies exactly one clause, so $F$ is unsatisfiable.
+Here is a [[cutting-planes refutation|KKCX2HQP2K]] of $F$ with $9$ lines.
 
 1. $x + y \geq 1$, the line of $x \vee y$.
 2. $x - y \geq 0$, the line of $x \vee \neg y$, since $x + (1 - y) \geq 1$ is $x - y \geq 0$.
-3. Lines 1 and 2 with $\alpha = \beta = 1$ give $2x \geq 1$.
-4. Division of line 3 by $c = 2$, which divides the coefficient $2$, gives $x \geq \ceil{1/2} = 1$.
+3. $2x \geq 1$, the sum of lines 1 and 2.
+4. $x \geq \lceil 1/2 \rceil = 1$, by division of line 3 by $c = 2$.
 5. $-x + y \geq 0$, the line of $\neg x \vee y$, since $(1 - x) + y \geq 1$ is $-x + y \geq 0$.
 6. $-x - y \geq -1$, the line of $\neg x \vee \neg y$, since $(1 - x) + (1 - y) \geq 1$ is $-x - y \geq -1$.
-7. Lines 5 and 6 with $\alpha = \beta = 1$ give $-2x \geq -1$.
-8. Division of line 7 by $c = 2$ gives $-x \geq \ceil{-1/2} = 0$.
-9. Lines 4 and 8 with $\alpha = \beta = 1$ give $0 \geq 1$.
+7. $-2x \geq -1$, the sum of lines 5 and 6.
+8. $-x \geq \lceil -1/2 \rceil = 0$, by division of line 7 by $c = 2$.
+9. $0 \geq 1$, the sum of lines 4 and 8.
 
-We check each rounding.
+Check the two roundings.
 In line 4, $1/2$ rounds up to $1$.
 In line 8, $-1/2$ rounds up to $0$, since $0$ is the least integer that is at least $-1/2$.
 
-The length of the refutation is $9$, its rank is $1$, and every number in it has absolute value at most $2$.
+The length of the refutation is $9$ lines.
+Its rank is $1$, since no line depends on two divisions in a chain, and every number in it has absolute value at most $2$.
 
 ## Remarks
 
-The division steps are needed.
-The point $x = y = 1/2$ satisfies all four clause lines: $1 \geq 1$, $0 \geq 0$, $0 \geq 0$ and $-1 \geq -1$.
-It also satisfies the Boolean axioms, so every line derived by linear combination alone holds at this point, and none of them is $0 \geq 1$.
-Line 4 is the first line that the point $(1/2, 1/2)$ violates.
+The division steps cannot be avoided.
+The point $x = y = 1/2$ satisfies all four clause lines, which evaluate to $1 \geq 1$, $0 \geq 0$, $0 \geq 0$ and $-1 \geq -1$.
+It also satisfies the Boolean axioms.
+So every line derived by linear combination alone holds at this point, and none of them is $0 \geq 1$.
+Line 4 is the first line that the point violates.
 
-With $n$ variables and all $2^n$ clauses on them, the same pattern works: divide by $2$ to remove one variable at a time.
-This is the CP form of the resolution refutation, in which line 4 corresponds to the resolvent $x$ of $x \vee y$ and $x \vee \neg y$.
+The refutation follows the [[resolution|6JSH907W5R]] refutation step by step.
+Lines 1 to 4 resolve $x \vee y$ and $x \vee \neg y$ to the clause $x$, lines 5 to 8 give the clause $\neg x$, and line 9 resolves the two.
+With $n$ variables and all $2^n$ clauses on them, the same pattern removes one variable at a time with one division by $2$ per resolution step.
 
 ## Explanations
 
 ### L1 human
 
 Two switches $x$ and $y$ can each be on or off.
-The four rules say that each of the four combinations is forbidden, so no setting works.
+The four rules forbid each of the four combinations, so no setting works.
 Cutting planes shows this with sums: the first two rules add up to "two times $x$ is at least $1$".
 Since $x$ is $0$ or $1$, this forces $x = 1$.
 The last two rules force $x = 0$ in the same way, and the two facts contradict each other.
@@ -57,10 +60,9 @@ The last two rules force $x = 0$ in the same way, and the two facts contradict e
 ### L2 human
 
 The method is to add two lines so that one variable cancels, and then to divide.
-
-1. Lines 1 and 2 cancel $y$ and give $2x \geq 1$.
-2. Division by $2$ and rounding give $x \geq 1$.
-3. Lines 5 and 6 cancel $y$ and give $-2x \geq -1$, so $x \leq 1/2$, and rounding gives $x \leq 0$.
-4. The sum of $x \geq 1$ and $-x \geq 0$ is $0 \geq 1$.
-
-A trap is to round the wrong way: in the $\geq$ form the right side is rounded up, so $-1/2$ becomes $0$ and not $-1$.
+Lines 5 and 6 cancel $y$:
+$$(-x + y) + (-x - y) \geq 0 + (-1), \quad \text{that is,} \quad -2x \geq -1.$$
+This says $x \leq 1/2$, and since $x$ is an integer, division by $2$ turns it into $x \leq 0$.
+Watch out for the direction of rounding.
+In the $\geq$ form the right side rounds up, so $-1/2$ becomes $0$ and not $-1$.
+Rounding down to $-1$ would give $-x \geq -1$, a true but useless line.

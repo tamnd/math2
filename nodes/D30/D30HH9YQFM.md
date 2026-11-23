@@ -17,28 +17,33 @@ sources:
 ## Example
 
 Suppose that a proof may use the line $p \leftrightarrow \neg p$ as an extension axiom.
-Then it can prove a formula that is not a tautology.
+Then it proves a formula that is not a tautology, in three lines.
 
-1. $p \leftrightarrow \neg p$, the alleged extension axiom.
-2. The formula $(p \leftrightarrow \neg p) \to r$ is a tautology, since its premise is false under every assignment. A fixed [[Frege system|J2BAR09TPF]] proves it.
+1. $p \leftrightarrow \neg p$, the would-be extension axiom.
+2. $(p \leftrightarrow \neg p) \to r$.
+   This is a tautology, since its premise is false under every assignment, so a fixed [[Frege system|J2BAR09TPF]] proves it.
 3. $r$, by modus ponens from lines 1 and 2.
 
-The variable $r$ is not a tautology.
-So the line is not allowed: in an [[extension axiom|5YSE04SHFH]] $q \leftrightarrow \varphi$, the variable $q$ may not occur in $\varphi$.
+The variable $r$ is not a tautology, so the line must be forbidden.
+That is why an [[extension axiom|5YSE04SHFH]] $q \leftrightarrow \varphi$ requires that $q$ not occur in $\varphi$.
 
 A second condition fails in the same way.
-Let $\tau$ be the variable $q$.
+Let the formula to be proved be the single variable $q$.
 
-4. $q \leftrightarrow (r \lor \neg r)$, with $q$ new in the proof but occurring in $\tau$.
-5. From line 4 and a proof of $r \lor \neg r$, Frege rules derive $q$.
+1. $q \leftrightarrow (r \lor \neg r)$, where $q$ is new in the proof but occurs in the final formula.
+2. From line 1 and a Frege proof of $r \lor \neg r$, the Frege rules derive $q$.
 
-The variable $q$ is not a tautology, so the extension variable must not occur in the final formula.
+The variable $q$ is not a tautology either, so the extension variable must not occur in the final formula.
 
 ## Remarks
 
 The soundness proof of extended Frege gives each extension variable the value of its definition.
-For $p \leftrightarrow \neg p$ no value works, since $p$ and $\neg p$ always differ.
-For line 4, the value of $q$ is forced to be $1$, but the final formula $q$ must be true for both values of $q$.
+For $p \leftrightarrow \neg p$ no value works, because $p$ and $\neg p$ always differ, and so line 1 is false under every assignment.
+For $q \leftrightarrow (r \lor \neg r)$ the value of $q$ is forced to be $1$, but the final formula $q$ must be true for both values of $q$.
+
+What if we rename and write $s \leftrightarrow \neg p$ with a new variable $s$?
+Then $s$ does not occur in $\neg p$, and if $s$ is not in earlier lines or in the final formula, the line is a legal extension axiom.
+The definition is fine, because it names $\neg p$ without referring to itself.
 
 ## Explanations
 
@@ -50,11 +55,11 @@ A proof that accepts such a definition can prove anything.
 
 ### L2 human
 
-We test the three conditions of an extension axiom on line 1.
+We test the three conditions of an extension axiom on the line $p \leftrightarrow \neg p$, in a proof of $r$.
 
-1. The variable $p$ must not occur in the defining formula. It occurs in $\neg p$, so this condition fails.
-2. The variable $p$ must not occur in earlier lines. Line 1 is the first line, so this condition holds.
-3. The variable $p$ must not occur in the final formula $r$. This condition holds.
+1. The variable $p$ must not occur in the defining formula, but it occurs in $\neg p$, so this condition fails.
+2. The variable $p$ must not occur in earlier lines, and line 1 is the first line, so this condition holds.
+3. The variable $p$ must not occur in the final formula $r$, and it does not, so this condition holds.
 
 One failed condition is enough to reject the line.
-The typical use of the example is to show why each condition is in the definition.
+Watch out: the conditions are checked separately, and passing two of them does not make the line safe.
