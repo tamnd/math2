@@ -16,14 +16,19 @@ sources:
 
 ## Example
 
-Use the model of [[the announcement example|YDAHGYKQZN]]: worlds $w$ ($p$ true) and $v$ ($p$ false), Ann cannot tell them apart, Bob can.
+Bob tells Ann: "it is raining, and you do not know it."
+The sentence is true when he says it, and false the moment she hears it.
+We check this in [[public announcement logic|9465T2PWZT]].
+
+Use the model of [[the announcement example|YDAHGYKQZN]].
+It has worlds $w$, where $p$ is true, and $v$, where $p$ is false, and Ann cannot tell them apart while Bob can.
 Let $\mu = p \wedge \neg K_a p$, "it rains and Ann does not know it".
 
-1. At $w$: $p$ is true, and $K_a p$ is false because Ann considers $v$. So $\mu$ is true at $w$.
-2. At $v$: $p$ is false, so $\mu$ is false at $v$.
-3. Bob announces $\mu$ truthfully at $w$. The updated model $M|\mu$ keeps only $w$.
-4. In $M|\mu$, Ann's class of $w$ is $\set{w}$, so $K_a p$ is true at $w$.
-5. So $\mu$ is false at $w$ in $M|\mu$, and $[!\mu]\neg\mu$ is true at $w$ in $M$.
+At $w$, $p$ is true, and $K_a p$ is false because Ann considers $v$, so $\mu$ is true at $w$.
+At $v$, $p$ is false, so $\mu$ is false at $v$.
+Bob announces $\mu$ truthfully at $w$, and the updated model $M|\mu$ keeps only $w$.
+In $M|\mu$, Ann's class of $w$ is $\{w\}$, so $K_a p$ is true at $w$.
+So $\mu$ is false at $w$ in $M|\mu$, and $[!\mu]\neg\mu$ is true at $w$ in $M$.
 
 The announcement was true when made and false right after.
 Announcing that Ann does not know $p$ is exactly what makes her know it.
@@ -33,7 +38,12 @@ Announcing that Ann does not know $p$ is exactly what makes her know it.
 A formula $\varphi$ is *successful* if $[!\varphi]\varphi$ is valid.
 Atoms and their Boolean combinations are successful, and $\mu$ is not.
 The example is the dynamic side of [[Moore's paradox|TCAYVAVAK4]]: a Moore sentence can be true, but it cannot be believed, and announcing it destroys it.
-[[The reduction axioms|MFGHDHGV1D]] give the same result: $[!\mu]\neg\mu$ reduces to $\mu \to \neg(p \wedge \neg K_a(\mu \to p))$, and $K_a(\mu \to p)$ is valid since $\mu \to p$ is a tautology.
+
+[[The reduction axioms|MFGHDHGV1D]] give the same result.
+The negation axiom gives $[!\mu]\neg\mu \leftrightarrow (\mu \to \neg[!\mu]\mu)$, and the conjunction axiom splits $[!\mu]\mu$ into $[!\mu]p \wedge [!\mu]\neg K_a p$.
+Then $[!\mu]p$ is $\mu \to p$, and $[!\mu]\neg K_a p$ is $\mu \to \neg[!\mu]K_a p$.
+The knowledge axiom gives $[!\mu]K_a p \leftrightarrow (\mu \to K_a(\mu \to p))$, and $K_a(\mu \to p)$ is valid, since $\mu \to p$ is a tautology.
+So wherever $\mu$ holds, $[!\mu]K_a p$ is true, $[!\mu]\neg K_a p$ is false, $[!\mu]\mu$ is false, and $[!\mu]\neg\mu$ is true.
 
 ## Explanations
 
@@ -46,18 +56,12 @@ Some sentences defeat themselves when they are said aloud.
 
 ### L2 human
 
-We verify the reduction in step order.
-
-1. $[!\mu]\neg\mu \leftrightarrow (\mu \to \neg[!\mu]\mu)$, by the negation axiom.
-2. $[!\mu]\mu \leftrightarrow [!\mu]p \wedge [!\mu]\neg K_a p$, by the conjunction axiom.
-3. $[!\mu]p \leftrightarrow (\mu \to p)$, and $[!\mu]\neg K_a p \leftrightarrow (\mu \to \neg[!\mu]K_a p)$.
-4. $[!\mu]K_a p \leftrightarrow (\mu \to K_a(\mu \to p))$, and $K_a(\mu \to p)$ is valid. So under $\mu$, $[!\mu]K_a p$ is true.
-5. So under $\mu$, $[!\mu]\neg K_a p$ is false, hence $[!\mu]\mu$ is false and $[!\mu]\neg\mu$ is true.
-
-The typical use is to recognize self-refuting announcements before modelling a dialogue.
-A trap: "true announcements stay true" holds only for successful formulas.
+To test whether an announcement survives, compute $M|\varphi$ and evaluate $\varphi$ again in the smaller model.
+Here $\mu$ held only at $w$, and in the one-world model Ann knows $p$, so $\mu$ fails.
+The typical use is to recognize self-refuting announcements before modeling a dialogue.
+Watch out: "true announcements stay true" holds only for successful formulas, and the knowledge part of a formula is what can change.
 
 ### L3 human
 
-Unsuccessful updates explain the knowability paradox: if $p \wedge \neg Kp$ is true, it cannot become known.
-The positive knowledge formulas, built from literals with $\wedge$, $\vee$ and $K_a$, are successful: deleting worlds cannot make them false.
+Unsuccessful updates are behind [[Fitch's paradox of knowability|HVCW7QYXSW]]: if $p \wedge \neg K p$ is true, it cannot become known.
+The positive knowledge formulas, built from literals with $\wedge$, $\vee$ and $K_a$, are successful, since deleting worlds cannot make them false.

@@ -17,24 +17,32 @@ sources:
 ## Example
 
 A letter says whether $p$ holds.
-Ann reads it while Bob watches, so Bob sees that she reads it but not what it says.
+Ann opens it and reads it while Bob watches, so Bob sees that she reads it but not what it says.
+Afterwards Ann knows whether $p$, Bob does not, and Bob knows that Ann knows.
+We get exactly this from an action model of [[dynamic epistemic logic|9465T2PWZT]].
 
-1. Initial model $M$: worlds $w$ ($p$ true) and $v$ ($p$ false). Neither agent can tell them apart: both relations have the single class $\set{w, v}$.
-2. Action model $\mathsf{E}$: events $e$ with precondition $p$ ("the letter says $p$") and $f$ with precondition $\neg p$.
-3. Ann can tell $e$ from $f$: her event relation has classes $\set{e}$ and $\set{f}$. Bob cannot: his has the class $\set{e, f}$.
+### The two models
 
-The product update $M \otimes \mathsf{E}$ has the pairs $(x, g)$ with $\mathrm{pre}(g)$ true at $x$, and $(x, g) \sim_c (y, h)$ iff $x \sim_c y$ and $g \sim_c h$.
+The initial model $M$ has worlds $w$, where $p$ is true, and $v$, where $p$ is false.
+Neither agent can tell them apart, so both relations have the single class $\{w, v\}$.
+The action model $\mathsf{E}$ has an event $e$ with precondition $p$, "the letter says $p$", and an event $f$ with precondition $\neg p$.
+Ann can tell $e$ from $f$, so her event relation has classes $\{e\}$ and $\{f\}$.
+Bob cannot, so his has the single class $\{e, f\}$.
 
-4. The pairs are $(w, e)$ and $(v, f)$, since $p$ holds at $w$ only.
-5. Ann: $w \sim_a v$ but $e \not\sim_a f$. So the two pairs are not related for Ann, and her classes are singletons.
-6. Bob: $w \sim_b v$ and $e \sim_b f$. So the two pairs are related for Bob.
-7. Valuations are copied from the first coordinate: $p$ holds at $(w, e)$ and fails at $(v, f)$.
+### The product update
 
-Evaluate at the actual pair $(w, e)$.
+The product $M \otimes \mathsf{E}$ has a world $(x, g)$ for each world $x$ and event $g$ with $\mathrm{pre}(g)$ true at $x$.
+Two pairs $(x, g)$ and $(y, h)$ are linked for agent $c$ when $x \sim_c y$ and $g \sim_c h$.
+Since $p$ holds at $w$ only, the pairs are $(w, e)$ and $(v, f)$.
+For Ann, $w \sim_a v$ but $e \not\sim_a f$, so the two pairs are not linked, and her classes are singletons.
+For Bob, $w \sim_b v$ and $e \sim_b f$, so the two pairs are linked.
+The valuation is copied from the first coordinate, so $p$ holds at $(w, e)$ and fails at $(v, f)$.
 
-8. $K_a p$ is true, since Ann's class is $\set{(w, e)}$.
-9. $K_b p$ is false, since Bob's class contains $(v, f)$.
-10. $K_b(K_a p \vee K_a \neg p)$ is true: at both pairs Ann knows whether $p$. Bob knows that Ann knows whether $p$.
+### Reading off knowledge
+
+At the actual pair $(w, e)$, $K_a p$ is true, since Ann's class is $\{(w, e)\}$.
+$K_b p$ is false, since Bob's class contains $(v, f)$.
+$K_b(K_a p \vee K_a \neg p)$ is true, because Ann knows whether $p$ at both pairs, so Bob knows that Ann knows whether $p$.
 
 ## Remarks
 
@@ -42,7 +50,11 @@ A public announcement of $p$ would delete $v$, and Bob would learn $p$ too, as i
 So this event is not a public announcement.
 If Bob did not even see Ann read, one adds a third event with precondition $\top$, which Bob takes to be the actual one.
 Then Bob's beliefs stay as before, and his relation is no longer reflexive.
-Action models have reduction axioms like [[those of public announcements|MFGHDHGV1D]]: for example $[\mathsf{E}, e]K_b p \leftrightarrow (p \to (K_b[\mathsf{E}, e]p \wedge K_b[\mathsf{E}, f]p))$.
+
+Action models have reduction axioms like [[those of public announcements|MFGHDHGV1D]].
+Here $[\mathsf{E}, e]K_b p \leftrightarrow (p \to (K_b[\mathsf{E}, e]p \wedge K_b[\mathsf{E}, f]p))$.
+Since $[\mathsf{E}, e]p$ is $p \to p$ and $[\mathsf{E}, f]p$ is $\neg p \to p$, which is $p$, the right side simplifies to $p \to K_b p$.
+It is false at $w$, which matches $K_b p$ failing at $(w, e)$.
 
 ## Explanations
 
@@ -57,15 +69,13 @@ An action model lists the possible events and who can tell them apart.
 ### L2 human
 
 The product update is a table.
-
-1. List all pairs of a world and an event whose precondition holds at the world.
-2. Join two pairs for an agent when she cannot tell the worlds apart and cannot tell the events apart.
-
-Here only two of the four pairs survive, and only Bob joins them.
+List all pairs of a world and an event whose precondition holds at the world.
+Then link two pairs for an agent when she cannot tell the worlds apart and cannot tell the events apart.
+Here only two of the four pairs survive, and only Bob links them.
 The typical use is to model partly private communication in card games and protocols.
-A trap: the precondition is checked in the old model, before the event.
+Watch out: the precondition is checked in the old model, before the event.
 
 ### L3 human
 
-The product $M \otimes \mathsf{E}$ generalizes restriction: a public announcement is the action model with one event, precondition $\varphi$, seen by everyone.
+The product $M \otimes \mathsf{E}$ generalizes restriction, since a public announcement is the action model with one event, precondition $\varphi$, seen by everyone.
 Product updates can make the model larger, which is why iterated action model updates lead to undecidable planning problems.

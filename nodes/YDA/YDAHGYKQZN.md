@@ -17,40 +17,44 @@ sources:
 ## Example
 
 Bob has looked out of the window, and Ann has not.
-Let $p$ say "it is raining".
+Let $p$ say "it is raining", and suppose it is.
+When Bob says "it is raining" aloud, the fact becomes [[common knowledge|7BCMKF2P7X]] in one step, and we can watch this happen in [[public announcement logic|9465T2PWZT]].
 
-1. Worlds: $w$ with $p$ true, and $v$ with $p$ false. The actual world is $w$.
-2. Ann cannot tell $w$ from $v$: her relation has the single class $\set{w, v}$.
-3. Bob can: his relation has the classes $\set{w}$ and $\set{v}$. Both relations are [[equivalence relations|0G8VEZ3WTK]].
+### Before the announcement
 
-Before any announcement, at $w$:
+There are two worlds, $w$ with $p$ true and $v$ with $p$ false, and the actual world is $w$.
+Ann cannot tell $w$ from $v$, so her relation has the single class $\{w, v\}$.
+Bob can, so his relation has the classes $\{w\}$ and $\{v\}$.
+Both relations are [[equivalence relations|0G8VEZ3WTK]], so this is a [[partition model|RRRHWH9F6Y]].
 
-4. $K_b p$ is true, since Bob's class of $w$ is $\set{w}$.
-5. $K_a p$ is false, since Ann's class contains $v$.
-6. $K_a(K_b p \vee K_b\neg p)$ is true: at $w$ Bob knows $p$, and at $v$ he knows $\neg p$. Ann knows that Bob knows whether it rains.
-7. $C_{\set{a,b}}\, p$ is false, since $v$ is reachable from $w$ through Ann.
+At $w$, $K_b p$ is true, since Bob's class of $w$ is $\{w\}$.
+$K_a p$ is false, since Ann's class contains $v$.
+$K_a(K_b p \vee K_b\neg p)$ is true, because at $w$ Bob knows $p$ and at $v$ he knows $\neg p$, so Ann knows that Bob knows whether it rains.
+$C_{\{a,b\}}\, p$ is false, since $v$ is reachable from $w$ through Ann.
+
+### After the announcement
 
 Bob announces $p$ publicly.
-The announcement is true at $w$, so we form $M|p$.
-
-8. $M|p$ has the single world $w$, with $w$ related to itself for both agents.
-9. In $M|p$, $K_a p$ is true at $w$, since Ann's class is now $\set{w}$.
-10. Every world reachable from $w$ in $M|p$ is $w$, where $p$ holds. So $C_{\set{a,b}}\, p$ is true at $w$ in $M|p$.
-11. Hence $[!p]\, C_{\set{a,b}}\, p$ is true at $w$ in $M$.
+The announcement is true at $w$, so we form $M|p$, which has the single world $w$, related to itself for both agents.
+In $M|p$, $K_a p$ is true at $w$, since Ann's class is now $\{w\}$.
+Every world reachable from $w$ in $M|p$ is $w$, where $p$ holds, so $C_{\{a,b\}}\, p$ is true at $w$ in $M|p$.
+Hence $[!p]\, C_{\{a,b\}}\, p$ is true at $w$ in $M$.
 
 ## Remarks
 
-Announcing an atom always makes it common knowledge: in $M|p$ every world satisfies $p$, so every reachable world does.
-So $[!p]C_G p$ is valid for atoms.
+Announcing an atom always makes it common knowledge.
+In $M|p$ every world satisfies $p$, so every reachable world does, and $[!p]C_G p$ is valid for atoms.
 The same holds for any $\varphi$ in place of $p$ such that $[!\varphi]\varphi$ is valid, since then $\varphi$ holds everywhere in $M|\varphi$.
-[[The Moore sentence example|Z13C7EBPXB]] shows that it fails for some epistemic formulas.
-The step from $\neg K_a p$ to $[!p]K_a p$ can also be computed with [[the reduction axioms|MFGHDHGV1D]]: $[!p]K_a p \leftrightarrow (p \to K_a(p \to p))$, which is valid.
+[[The Moore sentence example|Z13C7EBPXB]] shows that this fails for some epistemic formulas.
+
+The step from $\neg K_a p$ to $[!p]K_a p$ can also be computed with [[the reduction axioms|MFGHDHGV1D]].
+They give $[!p]K_a p \leftrightarrow (p \to K_a(p \to p))$, and the right side is valid.
 
 ## Explanations
 
 ### L1 human
 
-Bob sees the rain, Ann does not.
+Bob sees the rain, and Ann does not.
 Ann knows that Bob knows whether it rains, but she does not know herself.
 When Bob says "it is raining" out loud, Ann learns it, and both know that both know it, and so on.
 The fact has become common knowledge in one step.
@@ -58,13 +62,9 @@ The fact has become common knowledge in one step.
 ### L2 human
 
 The update is a deletion.
-
-1. Find the worlds where the announced formula is true: here only $w$.
-2. Delete the others, with their arrows.
-3. Evaluate the new formula in what is left.
-
+Find the worlds where the announced formula is true, here only $w$, delete the others with their arrows, and evaluate the new formula in what is left.
 The typical use is to follow a dialogue as a sequence of deletions.
-A trap: the announcement is evaluated in the old model; the new model is the old one restricted to its truth set.
+Watch out: the announced formula is evaluated in the old model, and the new model is the old one restricted to its truth set.
 
 ### L3 human
 
