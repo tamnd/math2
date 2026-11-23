@@ -77,7 +77,7 @@ Harel and Sowder built the framework from exploratory teaching experiments with 
 Earlier work had found the same standards.
 Gary Martin and Harel (1989) found that many preservice elementary teachers accepted inductive arguments as proofs, while they also rated deductive arguments highly.
 Daniel Chazan (1993) interviewed high school geometry students and found that some treated measured examples as proof, while others doubted that a deductive proof covers all cases.
-Lulu Healy and Celia Hoyles (2000) surveyed about 2,500 high-attaining students aged 14 to 15 in England.
+Lulu Healy and Celia Hoyles (2000) surveyed about 2,500 high-attaining students aged 14 to 15 in England and Wales.
 Many of them chose empirical arguments as the ones closest to their own approach, but expected algebraic arguments to receive the best mark from a teacher.
 
 ### History
