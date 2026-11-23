@@ -16,9 +16,9 @@ sources:
 
 ## Example
 
-Archimedes found the volume of a ball by hanging its slices on a lever, and his account of the method was lost until Johan Ludvig Heiberg identified it in 1906 in a palimpsest.
-Take the middle slice of a ball of radius $r$ and the matching slice of a cone: together they have area $2\pi r^2$, and hung at distance $2r$ they balance a slice of a cylinder of area $4\pi r^2$ at distance $r$.
-We follow the whole [[physical argument|THJV0NFPDQ]] for the volume of a [[sphere|P9CM4GQ2T0]] of radius $r$, in modern notation.
+Archimedes found the volume of a ball by hanging its slices on a lever, and his account was lost until Johan Ludvig Heiberg identified it in 1906 in a palimpsest.
+The middle slices of a ball and a cone, hung at distance $2r$, balance a slice of a cylinder at distance $r$.
+We follow this [[physical argument|THJV0NFPDQ]] for the volume of a [[sphere|P9CM4GQ2T0]] of radius $r$, in modern notation.
 
 1. We place three solids along the axis $0 \le x \le 2r$.
    The ball has its center at $x = r$, the cone has its apex at $x = 0$ and radius $x$ at height $x$, and the cylinder has radius $2r$.
@@ -38,8 +38,7 @@ $$2r\left(V + \tfrac83 \pi r^3\right) = r \cdot 8\pi r^3.$$
 8. Dividing by $2r$ gives $V + \tfrac83 \pi r^3 = 4\pi r^3$, so
 $$V = \tfrac43 \pi r^3.$$
 
-Steps 4 to 6 use the law of the lever for plane slices, and step 6 treats a solid as the sum of its slices.
-Both are physical assumptions, so the argument finds the volume without proving it.
+Step 6 treats a solid as the sum of its slices, a physical assumption, so the argument finds the volume without proving it.
 
 ## Remarks
 

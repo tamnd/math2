@@ -32,8 +32,7 @@ $$\pi_2(x) \approx \int_2^x \frac{dt}{(\ln t)^2}.$$
 $$\frac{(q-2)/q}{\left((q-1)/q\right)^2} = \frac{q(q-2)}{(q-1)^2}.$$
 4. The product of all the corrections is $2C_2$, where $C_2$ is the twin prime constant:
 $$C_2 = \prod_{q \ge 3} \frac{q(q-2)}{(q-1)^2} = 0.6601618\ldots, \qquad \pi_2(x) \approx 2C_2 \int_2^x \frac{dt}{(\ln t)^2}.$$
-5. We test the prediction against the true counts.
-   The naive integral and the corrected prediction are rounded to one decimal place.
+5. We test the prediction against the true counts, rounded to one decimal place.
 
 | $x$ | $\pi_2(x)$ | naive model | corrected prediction | ratio |
 |---|---|---|---|---|
@@ -44,7 +43,7 @@ $$C_2 = \prod_{q \ge 3} \frac{q(q-2)}{(q-1)^2} = 0.6601618\ldots, \qquad \pi_2(x
 
 The ratio in the last column is $\pi_2(x)$ divided by the corrected prediction, and it moves toward $1$ as $x$ grows.
 Since the integral tends to infinity, the heuristic predicts infinitely many twin primes, at a definite rate.
-That is the [[twin prime conjecture|0FER36N8SB]] in a quantitative form, and it is still unproved.
+That is the [[twin prime conjecture|0FER36N8SB]] with a rate, and it is unproved.
 
 ## Remarks
 

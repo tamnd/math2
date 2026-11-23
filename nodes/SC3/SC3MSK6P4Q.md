@@ -19,8 +19,7 @@ sources:
 ## Example
 
 The region between the [[parabola|04S2GMHX82]] $y = x^2$ and the line $y = 1$ has area $\tfrac43$, and the triangle with corners $(-1, 1)$, $(1, 1)$ and $(0, 0)$ inside it has area $1$.
-Archimedes proved that this ratio $\tfrac43$ holds for every segment of a parabola, and his geometric proof uses no physics at all.
-We follow it for this segment, cut off by the chord from $(-1, 1)$ to $(1, 1)$.
+Archimedes proved the ratio $\tfrac43$ for every segment of a parabola by geometry alone, and we follow his proof for this segment.
 
 1. The first triangle has base $2$ and height $1$, so its area is $T = 1$.
 2. The chords from $(-1, 1)$ to $(0, 0)$ and from $(0, 0)$ to $(1, 1)$ cut off two smaller segments.
@@ -40,8 +39,7 @@ $$1 + \frac14 + \dots + \frac{1}{4^{n-1}} + \frac13 \cdot \frac{1}{4^{n-1}} = \f
 8. Both cases are excluded, so
 $$K = \tfrac43 T = \tfrac43.$$
 
-Every step uses a geometric property of the parabola or an identity of numbers.
-No law of physics is assumed, so this is a [[proof|0B94TKFQJX]] and not a [[physical argument|THJV0NFPDQ]].
+Every step uses a property of the parabola or an identity of numbers, so this is a [[proof|0B94TKFQJX]] and not a [[physical argument|THJV0NFPDQ]].
 
 ## Remarks
 

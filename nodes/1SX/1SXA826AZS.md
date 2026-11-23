@@ -17,8 +17,8 @@ sources:
 ## Example
 
 For the triangle with corners $A = (0, 0)$, $B = (4, 0)$ and $C = (1, 3)$, the point that minimizes the total distance to the corners is about $P = (1.302, 1.047)$, and the three corners are seen from it at angles of exactly $120^\circ$.
-A table with three holes and three weights finds this point without any calculus.
-For a triangle $ABC$ we look for the point $P$ that minimizes
+A table with three holes and three weights finds this point.
+For a triangle $ABC$ we want the point $P$ that minimizes
 $$f(P) = |PA| + |PB| + |PC|.$$
 We use a [[physical argument|THJV0NFPDQ]] to predict the answer and then check it by computation.
 
@@ -37,7 +37,7 @@ We use a [[physical argument|THJV0NFPDQ]] to predict the answer and then check i
 6. We compare with other points.
    At the centroid $(5/3, 1)$ the total is $f \approx 6.590$, and at the corner $A$ it is
 $$f(A) = 4 + \sqrt{10} \approx 7.162.$$
-   Both are larger, as the machine predicts.
+   Both are larger.
 7. We push the machine to its limit with $A = (0, 0)$, $B = (4, 0)$ and $C = (-1, 0.5)$, where the angle at $A$ is about $153.4^\circ$.
    The knot is pulled into the hole at $A$ and stops there, and the minimum is
 $$f(A) = 4 + \sqrt{1.25} \approx 5.118.$$
